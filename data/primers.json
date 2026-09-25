@@ -4071,7 +4071,7 @@
       "file": "primers/star-health.html",
       "nse": "STARHEALTH",
       "bse": "543412",
-      "sector": "Insurance",
+      "sector": "Financial Services",
       "accent": "#0C7D6B",
       "hook": "India's largest standalone health insurer and runaway retail-health leader — a pure-play bet on health-claims economics, where a razor-thin combined ratio and an 8.3-lakh-agent moat decide everything.",
       "tags": [
@@ -4087,7 +4087,7 @@
       "file": "primers/godfrey-phillips-india.html",
       "nse": "GODFRYPHLP",
       "bse": "500163",
-      "sector": "FMCG",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#7A1E2A",
       "hook": "India's #2 cigarette maker — the house of Four Square and the licensed home of Marlboro — is a fast-growing, net-cash machine wrapped in a punishing tax regime, a sin-stock discount, and a bitter Modi family control battle.",
       "tags": [
@@ -4135,7 +4135,7 @@
       "file": "primers/tata-investment-corporation.html",
       "nse": "TATAINVEST",
       "bse": "501301",
-      "sector": "Finance",
+      "sector": "Financial Services",
       "accent": "#173A6A",
       "hook": "One of India's oldest listed investment companies — a permanent, low-churn basket of Tata and blue-chip shares, and the rare holdco that trades above its NAV on the hidden promise of unlisted Tata Sons.",
       "tags": [
@@ -4151,7 +4151,7 @@
       "file": "primers/uco-bank.html",
       "nse": "UCOBANK",
       "bse": "532505",
-      "sector": "Banks",
+      "sector": "Financial Services",
       "accent": "#14477A",
       "hook": "A ~91%-government-owned mid-size PSU bank that cleaned up its bad loans and escaped the RBI's penalty box — now torn between a cheap re-rating and a near-certain wave of dilution to meet the 25% public-float rule.",
       "tags": [
@@ -4183,7 +4183,7 @@
       "file": "primers/hfcl.html",
       "nse": "HFCL",
       "bse": "500183",
-      "sector": "Telecom Equipment",
+      "sector": "Telecommunication",
       "accent": "#0E4C63",
       "hook": "India's #1 optical-fibre-cable maker turned digital-infrastructure and defence-electronics bet — a record order book and export breakthrough wrapped in a cyclical business trading near 100x earnings.",
       "tags": [
@@ -4471,7 +4471,7 @@
       "file": "primers/central-bank-of-india.html",
       "nse": "CENTRALBK",
       "bse": "532885",
-      "sector": "Banks",
+      "sector": "Financial Services",
       "accent": "#125E6B",
       "hook": "One of India's oldest PSU banks — the last to escape RBI intensive care in 2022 — now healed, deposit-rich and cheap, with a giant government stake being sold down toward the mandatory limit.",
       "tags": [
@@ -4487,7 +4487,7 @@
       "file": "primers/new-india-assurance.html",
       "nse": "NIACL",
       "bse": "540769",
-      "sector": "Insurance",
+      "sector": "Financial Services",
       "accent": "#1F3A6B",
       "hook": "India's largest general insurer — a 107-year-old, ~85% government-owned PSU that loses money underwriting but earns it on a century-old Rs 71,000 Cr investment book worth twice its market cap.",
       "tags": [
@@ -4535,7 +4535,7 @@
       "file": "primers/go-digit-general-insurance.html",
       "nse": "GODIGIT",
       "bse": "544179",
-      "sector": "Insurance",
+      "sector": "Financial Services",
       "accent": "#0A8F5B",
       "hook": "India's best-known digital-first general insurer, taking share fast in an under-insured market — with its whole equity story riding on whether technology can finally push its combined ratio below 100% into real underwriting profit.",
       "tags": [
@@ -4967,7 +4967,7 @@
       "file": "primers/gillette-india.html",
       "nse": "GILLETTE",
       "bse": "507815",
-      "sector": "FMCG",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#2C5F8A",
       "hook": "The company that named the razor-and-blades model — P&G's listed Indian grooming arm earns a ~90% return on capital selling Rs 5 blade refills to 600 million chins, but faces a generation trading the wet shave for the trimmer.",
       "tags": [
@@ -5079,7 +5079,7 @@
       "file": "primers/awl-agri-business.html",
       "nse": "AWL",
       "bse": "543458",
-      "sector": "FMCG",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#C8971F",
       "hook": "The maker of Fortune oil looks like a stable FMCG brand but is really a razor-thin, price-cycle-driven commodity-oil processor — now Adani-free and Wilmar-controlled, betting a branded-foods pivot can lift it off the commodity floor.",
       "tags": [
@@ -7815,7 +7815,7 @@
       "file": "primers/bata-india.html",
       "nse": "BATAINDIA",
       "bse": "500043",
-      "sector": "Consumer Discretionary",
+      "sector": "Consumer Durables",
       "accent": "#B0322E",
       "hook": "India's most recognised footwear brand is betting its whole equity case on selling pricier sneakers, not more shoes — a century-old value institution walking the premiumisation tightrope on a fixed-cost store base.",
       "tags": [
@@ -7847,7 +7847,7 @@
       "file": "primers/clean-science.html",
       "nse": "CLEAN",
       "bse": "543318",
-      "sector": "Specialty Chemicals",
+      "sector": "Chemicals",
       "accent": "#2E8B6F",
       "hook": "A mid-sized Pune company became the world's largest maker of a niche inhibitor and earns ~44% margins — not by scale, but by inventing cleaner, cheaper catalytic ways to make ordinary molecules.",
       "tags": [
@@ -7879,7 +7879,7 @@
       "file": "primers/rhi-magnesita-india.html",
       "nse": "RHIM",
       "bse": "534076",
-      "sector": "Industrials",
+      "sector": "Capital Goods",
       "accent": "#9C5A2E",
       "hook": "India's largest refractories maker is a hidden, recurring toll on every tonne of steel the country produces — a China-input-dependent consumable levered to steel output and market-share consolidation.",
       "tags": [
@@ -7927,7 +7927,7 @@
       "file": "primers/aditya-birla-fashion-retail.html",
       "nse": "ABFRL",
       "bse": "535755",
-      "sector": "Consumer Discretionary",
+      "sector": "Consumer Services",
       "accent": "#B0417A",
       "hook": "The 2025 demerger handed the profitable Madura menswear cash-cow to a listed sibling and left ABFRL as the scaled-but-loss-making growth vehicle — Pantaloons, ethnic, luxury and digital — that must now fund its own burn without the old cushion.",
       "tags": [
@@ -7959,7 +7959,7 @@
       "file": "primers/sapphire-foods.html",
       "nse": "SAPPHIRE",
       "bse": "543397",
-      "sector": "Consumer Discretionary",
+      "sector": "Consumer Services",
       "accent": "#B0323C",
       "hook": "India's #2 Yum! franchisee runs hundreds of KFC and Pizza Hut outlets it doesn't own the brand of — a KFC profit engine dragged by Pizza Hut, now merging into larger rival Devyani.",
       "tags": [
@@ -7991,7 +7991,7 @@
       "file": "primers/tenneco-clean-air-india.html",
       "nse": "TENNIND",
       "bse": "544612",
-      "sector": "Auto Components",
+      "sector": "Automobile and Auto Components",
       "accent": "#4A6E8A",
       "hook": "An 'emission-control' Tier-1 that quietly earns ~44% of revenue from EV-proof suspension — so the melting-ice-cube thesis only touches half the company, while a PE-owned parent kept the entire 100%-OFS IPO cheque.",
       "tags": [
@@ -8647,7 +8647,7 @@
       "file": "primers/va-tech-wabag.html",
       "nse": "WABAG",
       "bse": "533269",
-      "sector": "Utilities",
+      "sector": "Capital Goods",
       "accent": "#1E7A7A",
       "hook": "India's largest listed pure-play in water treatment — paid once to build each desalination or sewage plant and for years after to run it, on a record order book, where a single non-paying client can sink a whole year.",
       "tags": [
@@ -8999,7 +8999,7 @@
       "file": "primers/ask-automotive.html",
       "nse": "ASKAUTOLTD",
       "bse": "544022",
-      "sector": "Automobile & Auto Components",
+      "sector": "Automobile and Auto Components",
       "accent": "#6E4E4E",
       "hook": "India's largest two-wheeler braking supplier (~50% share) that now earns more from lightweight aluminium than from brakes — with both riding the two-wheeler and EV upgrade cycles.",
       "tags": [
@@ -9047,7 +9047,7 @@
       "file": "primers/lumax-auto-technologies.html",
       "nse": "LUMAXTECH",
       "bse": "532796",
-      "sector": "Automobile & Auto Components",
+      "sector": "Automobile and Auto Components",
       "accent": "#4E5E7E",
       "hook": "The Lumax/D.K. Jain group's diversified components-and-aftermarket arm, growing content-per-vehicle by bolting on product lines through a rack of global JVs and acquisitions.",
       "tags": [
@@ -9079,7 +9079,7 @@
       "file": "primers/varroc-engineering.html",
       "nse": "VARROC",
       "bse": "541578",
-      "sector": "Automobile & Auto Components",
+      "sector": "Automobile and Auto Components",
       "accent": "#5E5E6E",
       "hook": "India's two-wheeler-lighting leader that sold its loss-making global four-wheeler-lighting business to deleverage and refocus — profit by subtraction.",
       "tags": [
@@ -9479,7 +9479,7 @@
       "file": "primers/banco-products.html",
       "nse": "BANCOINDIA",
       "bse": "500039",
-      "sector": "Automobile & Auto Components",
+      "sector": "Automobile and Auto Components",
       "accent": "#4E6E5E",
       "hook": "A Vadodara cooling-and-sealing specialist that quietly became a majority-European aftermarket compounder via its Dutch NRF brand — near-debt-free, high-return, and betting that cooling outlives the combustion engine.",
       "tags": [
@@ -9735,7 +9735,7 @@
       "file": "primers/aditya-vision.html",
       "nse": "AVL",
       "bse": "540205",
-      "sector": "Consumer / Retail",
+      "sector": "Consumer Services",
       "accent": "#D23A22",
       "hook": "Bihar's dominant big-box electronics retailer, compounding store by store across the Hindi belt — a cluster-density model where consumer-finance-led purchases and a long store-maturation curve drive same-store growth.",
       "tags": [
@@ -9752,7 +9752,7 @@
       "file": "primers/pricol.html",
       "nse": "PRICOLLTD",
       "bse": "540293",
-      "sector": "Auto Components",
+      "sector": "Automobile and Auto Components",
       "accent": "#2E6FC7",
       "hook": "India's market leader in automotive driver-information systems and instrument clusters, riding the analog-to-digital dashboard shift and rising electronics content per vehicle after a hard-won turnaround from its overseas misadventures.",
       "tags": [
@@ -9769,7 +9769,7 @@
       "file": "primers/indo-count.html",
       "nse": "ICIL",
       "bse": "521016",
-      "sector": "Home Textiles",
+      "sector": "Textiles",
       "accent": "#2E4374",
       "hook": "The world's largest bed-linen maker turned brand-climber — a US-retail-heavy home-textiles exporter moving up from private-label sheeting to licensed and owned brands, now even building warehousing and factories in America.",
       "tags": [
@@ -9786,7 +9786,7 @@
       "file": "primers/krbl.html",
       "nse": "KRBL",
       "bse": "530813",
-      "sector": "FMCG / Agri",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#B7791F",
       "hook": "The world's largest basmati miller and owner of India Gate, running a wine-cellar-like model that ages rice for months to earn a brand premium — cash-rich and export-exposed, but shadowed by an ED/PMLA overhang.",
       "tags": [
@@ -9803,7 +9803,7 @@
       "file": "primers/krn-heat-exchanger.html",
       "nse": "KRN",
       "bse": "544263",
-      "sector": "Capital Goods / HVAC",
+      "sector": "Capital Goods",
       "accent": "#1391AD",
       "hook": "A fast-growing maker of aluminium and copper heat-exchanger coils for India's air-conditioner and refrigeration OEMs — an import-substitution play whose biggest customers are also its most capable potential competitors.",
       "tags": [
@@ -9820,7 +9820,7 @@
       "file": "primers/sharda-cropchem.html",
       "nse": "SHARDACROP",
       "bse": "538666",
-      "sector": "Agrochemicals",
+      "sector": "Chemicals",
       "accent": "#3F7D20",
       "hook": "An asset-light generic-agrochemicals marketer that owns thousands of costly registrations rather than factories — sourcing molecules from China and selling across Europe and the Americas, with earnings that swing on price cycles and a wide profit-versus-cash gap.",
       "tags": [
@@ -9837,7 +9837,7 @@
       "file": "primers/cera-sanitaryware.html",
       "nse": "CERA",
       "bse": "532443",
-      "sector": "Building Products",
+      "sector": "Consumer Durables",
       "accent": "#0E6E6E",
       "hook": "One of India's top-three branded bathware companies, pairing a captive-gas cost edge in sanitaryware with an outsourced faucets-and-tiles model — a cash-rich brand-and-distribution machine riding the housing and premiumisation cycle.",
       "tags": [
@@ -9871,7 +9871,7 @@
       "file": "primers/india-shelter-finance.html",
       "nse": "INDIASHLTR",
       "bse": "544044",
-      "sector": "Housing Finance",
+      "sector": "Financial Services",
       "accent": "#127D8E",
       "hook": "An affordable-housing financier making small-ticket home loans to self-employed, informal-income borrowers in small-town India — a high-yield, granular book that banks won't underwrite, compounding fast since its 2023 IPO.",
       "tags": [
@@ -9888,7 +9888,7 @@
       "file": "primers/tanla-platforms.html",
       "nse": "TANLA",
       "bse": "532790",
-      "sector": "Communications / Tech",
+      "sector": "Telecommunication",
       "accent": "#5B5BEF",
       "hook": "India's largest enterprise-messaging (CPaaS) company, hiding software-like margins from its Trubloq anti-spam and Wisely platforms inside a low-margin, high-volume A2P SMS pipe — cash-generative but facing the OTT and RCS substitution question.",
       "tags": [
@@ -9905,7 +9905,7 @@
       "file": "primers/kpi-green-energy.html",
       "nse": "KPIGREEN",
       "bse": "542323",
-      "sector": "Renewable Energy",
+      "sector": "Power",
       "accent": "#E0A106",
       "hook": "A Gujarat renewable-energy developer running two clocks at once — owning solar and hybrid plants for annuity power sales (IPP) while building and selling captive plants to industrial customers (CPP) for faster cash turns.",
       "tags": [
@@ -9922,7 +9922,7 @@
       "file": "primers/inox-green-energy.html",
       "nse": "INOXGREEN",
       "bse": "543667",
-      "sector": "Renewable Energy",
+      "sector": "Power",
       "accent": "#12A46A",
       "hook": "The wind-turbine operations-and-maintenance arm of the Inox group — an annuity-like recurring-service model on a 13 GW fleet, growing by absorbing a bankrupt rival's turbines, with thin core margins masked by non-operating income.",
       "tags": [
@@ -9939,7 +9939,7 @@
       "file": "primers/orkla-india.html",
       "nse": "ORKLAINDIA",
       "bse": "544595",
-      "sector": "FMCG / Packaged Foods",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#D98324",
       "hook": "The Indian arm of Norway's Orkla — owner of MTR Foods and Eastern Condiments — a branded spices-and-convenience-foods FMCG rooted in South India, now pushing pan-India and into the diaspora export market after its 2025 IPO.",
       "tags": [
@@ -9956,7 +9956,7 @@
       "file": "primers/safari-industries.html",
       "nse": "SAFARI",
       "bse": "523025",
-      "sector": "Consumer / Luggage",
+      "sector": "Consumer Durables",
       "accent": "#CF5A1E",
       "hook": "India's fast-rising number-two branded luggage maker, run by an ex-VIP boss who took it from a bit player to roughly a fifth of the organised market — now defending record profits against a wave of D2C upstarts.",
       "tags": [
@@ -9973,7 +9973,7 @@
       "file": "primers/maharashtra-seamless.html",
       "nse": "MAHSEAMLES",
       "bse": "500265",
-      "sector": "Steel Pipes / Metals",
+      "sector": "Metals & Mining",
       "accent": "#4E6B7A",
       "hook": "India's largest seamless-steel-pipe maker and a D.P. Jindal flagship — a debt-free, cash-rich supplier of OCTG pipe to oil & gas whose quarterly profit swings as much on its treasury book as on the steel cycle, now diversifying into solar EPC.",
       "tags": [
@@ -9990,7 +9990,7 @@
       "file": "primers/gmr-power-urban-infra.html",
       "nse": "GMRP&UI",
       "bse": "543490",
-      "sector": "Infrastructure / Power",
+      "sector": "Power",
       "accent": "#243A5E",
       "hook": "GMR minus the airports — the demerged holdco for the group's power, EPC and urban-infra businesses, carrying heavy debt but a fast-growing smart-meter annuity and SEZ land to monetise, where the story is deleveraging, not profit.",
       "tags": [
@@ -10007,7 +10007,7 @@
       "file": "primers/epl-ltd.html",
       "nse": "EPL",
       "bse": "500135",
-      "sector": "Specialty Packaging",
+      "sector": "Capital Goods",
       "accent": "#1C86BE",
       "hook": "The world's largest laminated-tube maker — the squeezable tube behind the world's toothpaste, now more than half beauty and cosmetics — formerly Essel Propack, riding recyclable 'Platina' tubes under new owner Indorama.",
       "tags": [
@@ -10024,7 +10024,7 @@
       "file": "primers/cello-world.html",
       "nse": "CELLO",
       "bse": "544012",
-      "sector": "Consumer / Houseware",
+      "sector": "Consumer Durables",
       "accent": "#D2213A",
       "hook": "A multi-category branded-consumer house — Cello plasticware and bottles, Unomax pens, and moulded furniture — now betting on an opalware and glassware plant to turn imports into in-house margin, since its 2023 IPO.",
       "tags": [
@@ -10041,7 +10041,7 @@
       "file": "primers/rain-industries.html",
       "nse": "RAIN",
       "bse": "500339",
-      "sector": "Carbon / Chemicals",
+      "sector": "Chemicals",
       "accent": "#D2691E",
       "hook": "One of the world's largest makers of calcined petroleum coke and coal-tar pitch — the carbon inputs aluminium smelters need — a deep-cyclical, heavily indebted global commodity play where the whole story is deleveraging, with a cement leg for ballast.",
       "tags": [
@@ -10058,7 +10058,7 @@
       "file": "primers/gnfc.html",
       "nse": "GNFC",
       "bse": "500670",
-      "sector": "Fertilisers / Chemicals",
+      "sector": "Chemicals",
       "accent": "#15837A",
       "hook": "A Gujarat-state fertiliser company that really earns its money in chemicals — a global-scale TDI producer sitting on a debt-free cash pile, where merchant chemical spreads, not subsidised urea, drive the profit swing.",
       "tags": [
@@ -10075,7 +10075,7 @@
       "file": "primers/mishra-dhatu-nigam.html",
       "nse": "MIDHANI",
       "bse": "541195",
-      "sector": "Defence / Special Metals",
+      "sector": "Capital Goods",
       "accent": "#3B5566",
       "hook": "A defence PSU and near-sole domestic supplier of the superalloys, titanium and special steels India's missiles, aero-engines and space programme need — an import-substitution monopoly whose ceiling is furnace throughput, not demand.",
       "tags": [
@@ -10092,7 +10092,7 @@
       "file": "primers/piccadily-agro.html",
       "nse": "PICCADIL",
       "bse": "530305",
-      "sector": "Spirits / Agri",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#B8860B",
       "hook": "A sleepy Haryana sugar-and-distillery outfit re-rated into a premium-spirits story by its award-winning Indri single malt — where years of maturing whisky inventory quietly compound into margin the sugar leg never earned.",
       "tags": [
@@ -10109,7 +10109,7 @@
       "file": "primers/jk-paper.html",
       "nse": "JKPAPER",
       "bse": "532162",
-      "sector": "Paper & Packaging",
+      "sector": "Forest Materials",
       "accent": "#2F6B3C",
       "hook": "One of India's largest integrated paper and packaging-board makers, cushioned by captive pulp and its own farm-forestry wood — a deep-cyclical whose profit swings on the spread per tonne as it tilts from writing paper toward growth-y packaging board.",
       "tags": [
@@ -10126,7 +10126,7 @@
       "file": "primers/indian-metals-ferro-alloys.html",
       "nse": "IMFA",
       "bse": "533047",
-      "sector": "Ferro Alloys / Metals",
+      "sector": "Metals & Mining",
       "accent": "#5A6B78",
       "hook": "India's largest fully-integrated ferro-chrome producer — captive chrome-ore mines plus captive power give it a low-cost floor through the cycle — where the P&L is really a leveraged, export-led bet on Chinese stainless-steel demand.",
       "tags": [
@@ -10143,7 +10143,7 @@
       "file": "primers/jyothy-labs.html",
       "nse": "JYOTHYLAB",
       "bse": "532926",
-      "sector": "FMCG",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#C42B78",
       "hook": "A challenger FMCG house that leads the aisles the giants overlook — dishwash (Exo/Pril), fabric whitener (Ujala) and Maxo insecticides — out-ranking even HUL in dishwash while expanding distribution pan-India.",
       "tags": [
@@ -10160,7 +10160,7 @@
       "file": "primers/skf-india.html",
       "nse": "SKFINDIA",
       "bse": "500472",
-      "sector": "Auto Components / Bearings",
+      "sector": "Automobile and Auto Components",
       "accent": "#2E77D0",
       "hook": "The Indian arm of Sweden's SKF and a leader in India's bearings oligopoly — now the automotive remainder after its higher-margin industrial half was demerged into a separate listing in October 2025, with a big replacement-aftermarket annuity underneath.",
       "tags": [
@@ -10177,7 +10177,7 @@
       "file": "primers/gujarat-ambuja-exports.html",
       "nse": "GAEL",
       "bse": "524226",
-      "sector": "Agro Processing",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#C79A1E",
       "hook": "India's largest maize processor (no relation to Ambuja Cements) — a starch-and-derivatives ingredients franchise that is the real, steadier profit engine, bolted onto a volatile edible-oil crushing leg, on a net-debt-free balance sheet.",
       "tags": [
@@ -10194,7 +10194,7 @@
       "file": "primers/dynamatic-technologies.html",
       "nse": "DYNAMATECH",
       "bse": "505242",
-      "sector": "Aerospace / Engineering",
+      "sector": "Capital Goods",
       "accent": "#1E4C8A",
       "hook": "A Bengaluru precision-engineering house that dominates India's tractor-pump market while single-sourcing a flight-critical Airbus A320 flap-track beam — riding the global aerospace ramp as it shifts mix toward high-value aerostructures and works down its debt.",
       "tags": [
@@ -10211,7 +10211,7 @@
       "file": "primers/gujarat-pipavav-port.html",
       "nse": "GPPL",
       "bse": "533248",
-      "sector": "Ports / Logistics",
+      "sector": "Services",
       "accent": "#1E7FA0",
       "hook": "A single, APM-Terminals-controlled Gujarat port run as a high-margin, cash-generative dividend annuity on west-India trade — where the whole thesis hangs on the 2028 concession-renewal terms and how many boxes parent Maersk chooses to route its way.",
       "tags": [
@@ -10228,7 +10228,7 @@
       "file": "primers/nesco.html",
       "nse": "NESCO",
       "bse": "505355",
-      "sector": "Real Estate / Annuity",
+      "sector": "Realty",
       "accent": "#1F6B4A",
       "hook": "A debt-free, cash-rich owner of ~70 prime Goregaon acres monetised as four rent engines — the Bombay Exhibition Centre, IT-park office towers, hospitality and a legacy engineering unit — self-funding its own construction, yet trading at a discount to its land and annuity value.",
       "tags": [
@@ -10245,7 +10245,7 @@
       "file": "primers/dilip-buildcon.html",
       "nse": "DBL",
       "bse": "540047",
-      "sector": "Infrastructure / EPC",
+      "sector": "Construction",
       "accent": "#C8801E",
       "hook": "One of India's largest roads-and-highways EPC contractors, Bhopal-built on an owned 10,000-machine fleet and a fast-execution reputation — now recycling its road assets to deleverage, where the swing factors are NHAI order inflow and the falling debt line.",
       "tags": [
@@ -10262,7 +10262,7 @@
       "file": "primers/westlife-foodworld.html",
       "nse": "WESTLIFE",
       "bse": "505533",
-      "sector": "QSR / Restaurants",
+      "sector": "Consumer Services",
       "accent": "#D9963A",
       "hook": "The McDonald's master franchisee for west and south India — a pure-play QSR whose maturing store base turns every point of same-store-sales growth into outsized operating leverage, even as lease-accounting makes the headline profit look tiny.",
       "tags": [
@@ -10279,7 +10279,7 @@
       "file": "primers/archean-chemical.html",
       "nse": "ACI",
       "bse": "543657",
-      "sector": "Marine Chemicals",
+      "sector": "Chemicals",
       "accent": "#0C5A53",
       "hook": "A resource-advantaged marine-chemicals producer harvesting bromine, industrial salt and sulphate of potash from Rann of Kutch brine — India's top bromine maker and a giant salt exporter, now pushing downstream into derivatives, batteries and even semiconductors.",
       "tags": [
@@ -10296,7 +10296,7 @@
       "file": "primers/jk-lakshmi-cement.html",
       "nse": "JKLAKSHMI",
       "bse": "500380",
-      "sector": "Cement / Building Materials",
+      "sector": "Construction Materials",
       "accent": "#5B6B7A",
       "hook": "A Singhania-family mid-cap cement maker strong in North and West India — earning less EBITDA per tonne than the majors but closing the gap through green power and blending, while it consolidates its own listed subsidiary in a market being swept up by giants.",
       "tags": [
@@ -10313,7 +10313,7 @@
       "file": "primers/birla-corporation.html",
       "nse": "BIRLACORPN",
       "bse": "500335",
-      "sector": "Cement / Building Materials",
+      "sector": "Construction Materials",
       "accent": "#6B7788",
       "hook": "The M.P. Birla group's cement flagship — a Central-and-East-India mid-cap whose freshly-ramped Mukutban plant and green-power fleet are meant to lift its lagging EBITDA per tonne, with a legacy jute mill as a small tail, in a market being consolidated by giants.",
       "tags": [
@@ -10330,7 +10330,7 @@
       "file": "primers/jeena-sikho-lifecare.html",
       "nse": "JSLL",
       "bse": "544476",
-      "sector": "Healthcare / Ayurveda",
+      "sector": "Healthcare",
       "accent": "#2E7D32",
       "hook": "A fast-scaling Shuddhi-brand Ayurveda-and-naturopathy hospital chain plus a bigger DTC Ayurvedic-medicine engine, marketed hard off a founder's following — high-margin and rapidly growing, but carrying the efficacy-claim, governance and thin-float scrutiny that comes with it.",
       "tags": [
@@ -10347,7 +10347,7 @@
       "file": "primers/sun-pharma-advanced-research.html",
       "nse": "SPARC",
       "bse": "532872",
-      "sector": "Pharma R&D",
+      "sector": "Healthcare",
       "accent": "#5B3FD6",
       "hook": "Sun Pharma's demerged drug-discovery lab — a cash-burning, pipeline-driven research house whose FY26 'profit' was really a one-off sale of an FDA priority-review voucher, funded between milestones by promoter Dilip Shanghvi's capital.",
       "tags": [
@@ -10364,7 +10364,7 @@
       "file": "primers/redtape.html",
       "nse": "REDTAPE",
       "bse": "543957",
-      "sector": "Footwear / Apparel",
+      "sector": "Consumer Durables",
       "accent": "#C62828",
       "hook": "The branded footwear-and-apparel business demerged out of Mirza International — the RED TAPE brand across shoes, athleisure and apparel, selling ~30% online, with in-house shoemaking heritage giving it a margin edge over asset-light rivals.",
       "tags": [
@@ -10381,7 +10381,7 @@
       "file": "primers/ethos.html",
       "nse": "ETHOSLTD",
       "bse": "543532",
-      "sector": "Luxury Retail",
+      "sector": "Consumer Services",
       "accent": "#8A2846",
       "hook": "India's largest luxury and premium watch retailer, carrying 60-plus brands from Rado to Rolex through boutiques and online plus a pre-owned arm — a KDDL-group premiumisation play whose growth is gated by brand allocation, not demand.",
       "tags": [
@@ -10398,7 +10398,7 @@
       "file": "primers/rashtriya-chemicals-fertilizers.html",
       "nse": "RCF",
       "bse": "524230",
-      "sector": "Fertilisers / Chemicals",
+      "sector": "Chemicals",
       "accent": "#2E7D46",
       "hook": "A government-owned maker of subsidised urea and merchant industrial chemicals — where the small, market-priced chemicals basket, not the capped cost-plus urea utility, actually swings the profit, all under a standing disinvestment overhang.",
       "tags": [
@@ -10415,7 +10415,7 @@
       "file": "primers/senco-gold.html",
       "nse": "SENCO",
       "bse": "543936",
-      "sector": "Jewellery Retail",
+      "sector": "Consumer Durables",
       "accent": "#8A1F38",
       "hook": "Eastern India's largest jewellery chain, a ~90-year Kolkata name going pan-India on an unusually asset-light own-plus-franchise model — riding formalisation, with the diamond mix and a normalised margin the real levers behind gold-price-flattered profits.",
       "tags": [
@@ -10432,7 +10432,7 @@
       "file": "primers/supriya-lifescience.html",
       "nse": "SUPRIYA",
       "bse": "543434",
-      "sector": "Pharma / API",
+      "sector": "Healthcare",
       "accent": "#0E7C86",
       "hook": "A high-margin specialty API maker that dominates a handful of niche molecules — antihistamines, analgesics, anaesthetics — chosen for being big enough to matter yet small enough to keep giants out, sold mostly into regulated export markets behind a filing moat.",
       "tags": [
@@ -10449,7 +10449,7 @@
       "file": "primers/ashapura-minechem.html",
       "nse": "ASHAPURMIN",
       "bse": "527001",
-      "sector": "Mining / Minerals",
+      "sector": "Metals & Mining",
       "accent": "#B5651D",
       "hook": "An industrial-minerals miner that made its name as a top global bentonite exporter from Gujarat, but now earns most of its money shipping West African bauxite to China — a turnaround from a company once declared legally sick, geared to export tonnage and a rolling-off tax holiday.",
       "tags": [
@@ -10466,7 +10466,7 @@
       "file": "primers/campus-activewear.html",
       "nse": "CAMPUS",
       "bse": "543523",
-      "sector": "Consumer / Footwear",
+      "sector": "Consumer Durables",
       "accent": "#D63A0E",
       "hook": "India's largest sports-shoe brand by volume — an affordable, made-in-India, largely self-manufactured alternative to global sneakers, shielded by import quality-control rules and now pushing average prices up via a pricier-sneaker and D2C-online mix.",
       "tags": [
@@ -10483,7 +10483,7 @@
       "file": "primers/vikram-solar.html",
       "nse": "VIKRAMSOLR",
       "bse": "544488",
-      "sector": "Renewable Energy / Solar",
+      "sector": "Capital Goods",
       "accent": "#F2A105",
       "hook": "One of India's largest solar-PV module makers, freshly listed in 2025 and riding ALMM/PLI protection and the China-plus-one export shift — its whole thesis is backward-integrating into the cells it still imports before global module oversupply bites.",
       "tags": [
@@ -10500,7 +10500,7 @@
       "file": "primers/axiscades-technologies.html",
       "nse": "AXISCADES",
       "bse": "532395",
-      "sector": "Engineering R&D / Defence",
+      "sector": "Information Technology",
       "accent": "#3949AB",
       "hook": "A mid-cap engineering-R&D firm doing the opposite of its peers — selling its legacy aerospace-and-auto services business to Akkodis and pivoting toward higher-margin defence electronics and products, betting India's indigenisation push rewards owning IP over billing hours.",
       "tags": [
@@ -10517,7 +10517,7 @@
       "file": "primers/transrail-lighting.html",
       "nse": "TRANSRAILL",
       "bse": "544317",
-      "sector": "Power T&D / EPC",
+      "sector": "Construction",
       "accent": "#2E6DA4",
       "hook": "A power-transmission EPC contractor that makes its own towers and conductors — stacking a manufacturing margin on top of turnkey line-building — riding India's grid-and-renewables capex boom with a heavy export book, freshly listed in December 2024.",
       "tags": [
@@ -10534,7 +10534,7 @@
       "file": "primers/shakti-pumps.html",
       "nse": "SHAKTIPUMP",
       "bse": "531431",
-      "sector": "Capital Goods / Pumps",
+      "sector": "Capital Goods",
       "accent": "#F0A202",
       "hook": "A pump-and-motor maker turned solar-agri-pump powerhouse — most of its revenue now flows from the government's PM-KUSUM scheme, a policy-driven boom it is racing to cushion with its own solar cells, motors and an EV-powertrain push.",
       "tags": [
@@ -10551,7 +10551,7 @@
       "file": "primers/gujarat-state-fertilizers-chemicals.html",
       "nse": "GSFC",
       "bse": "500690",
-      "sector": "Fertilisers / Chemicals",
+      "sector": "Chemicals",
       "accent": "#2A8467",
       "hook": "A Gujarat-state fertiliser-and-chemicals PSU whose profits really turn on merchant caprolactam and melamine spreads, not subsidised fertiliser — with a hidden ~₹4,600 Cr portfolio of listed stakes that leaves it trading around half its book value.",
       "tags": [
@@ -10568,7 +10568,7 @@
       "file": "primers/mrs-bectors-food.html",
       "nse": "BECTORFOOD",
       "bse": "543253",
-      "sector": "FMCG / Packaged Foods",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#B5651D",
       "hook": "A North-India packaged-foods challenger with three engines off one eating-out trend — Cremica biscuits, English Oven premium breads, and a decades-old business baking the buns for McDonald's and other QSR chains — plus a surprisingly large biscuit-export book.",
       "tags": [
@@ -10585,7 +10585,7 @@
       "file": "primers/ion-exchange.html",
       "nse": "IONEXCHANG",
       "bse": "500214",
-      "sector": "Water / Environment",
+      "sector": "Capital Goods",
       "accent": "#1C8C8C",
       "hook": "India's leading water-and-environment company, selling the same water problem three ways — turnkey treatment EPC, ion-exchange resins and chemicals, and home purifiers — an employee-owned 60-year-old riding water-reuse and zero-liquid-discharge norms.",
       "tags": [
@@ -10602,7 +10602,7 @@
       "file": "primers/aarti-pharmalabs.html",
       "nse": "AARTIPHARM",
       "bse": "543748",
-      "sector": "Pharma / API",
+      "sector": "Healthcare",
       "accent": "#12807A",
       "hook": "The pharma arm demerged from Aarti Industries — one of the world's largest caffeine and xanthine makers (most of it sold to beverage firms) bolted to an API-and-intermediates business, now pushing into CDMO contract manufacturing as its re-rating bet.",
       "tags": [
@@ -10619,7 +10619,7 @@
       "file": "primers/valor-estate.html",
       "nse": "DBREALTY",
       "bse": "533160",
-      "sector": "Real Estate",
+      "sector": "Realty",
       "accent": "#3E5871",
       "hook": "The rebranded, deleveraged former DB Realty — a chequered Mumbai developer with a ~500-acre MMR land bank, slum-redevelopment pipeline and hotel stakes, pivoting to asset-light JVs where the whole case rests on monetisation cash versus the NAV discount.",
       "tags": [
@@ -10636,7 +10636,7 @@
       "file": "primers/gokul-agro-resources.html",
       "nse": "GOKULAGRO",
       "bse": "539725",
-      "sector": "Edible Oils / Agri",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#D4A017",
       "hook": "A high-volume, razor-thin-margin edible-oils refiner and trader earning a profit sliver on a ₹24,000 Cr ocean of oil — where hedging discipline is everything, quietly leaning on a castor-oil specialty leg in a market India all but monopolises.",
       "tags": [
@@ -10653,7 +10653,7 @@
       "file": "primers/arvind-fashions.html",
       "nse": "ARVINDFASN",
       "bse": "542484",
-      "sector": "Apparel / Retail",
+      "sector": "Consumer Services",
       "accent": "#2F5F94",
       "hook": "A house of licensed lifestyle brands — U.S. Polo Assn., Tommy Hilfiger, Calvin Klein, Arrow, Flying Machine — that pruned its weak labels to reach profit, renting most of its brand equity while betting premiumisation and full-price retail get it to zero debt.",
       "tags": [
@@ -10670,7 +10670,7 @@
       "file": "primers/fiem-industries.html",
       "nse": "FIEMIND",
       "bse": "532768",
-      "sector": "Auto Components",
+      "sector": "Automobile and Auto Components",
       "accent": "#E8A317",
       "hook": "A focused maker of two-wheeler lighting, signalling and mirrors — leader on India's bikes and deeply tied to Honda HMSI — riding the halogen-to-LED shift that lifts its content per vehicle even as scooter volumes stay flat.",
       "tags": [
@@ -10687,7 +10687,7 @@
       "file": "primers/dcb-bank.html",
       "nse": "DCBBANK",
       "bse": "532772",
-      "sector": "Banks / Financials",
+      "sector": "Financial Services",
       "accent": "#178C7D",
       "hook": "A small old-private bank, anchored by the Aga Khan development network, that lends mortgages and loan-against-property to self-employed small-town India — where the whole story is dragging its high cost-to-income and modest ROA up toward larger-bank levels.",
       "tags": [
@@ -10704,7 +10704,7 @@
       "file": "primers/justdial.html",
       "nse": "JUSTDIAL",
       "bse": "535648",
-      "sector": "Internet / Local Search",
+      "sector": "Consumer Services",
       "accent": "#3557B7",
       "hook": "India's largest local-search and business-listings platform, now Reliance-controlled — a cash-and-investments pile roughly the size of its own market cap wrapped around an ad-funded listings business fending off Google, vertical apps and AI search.",
       "tags": [
@@ -10721,7 +10721,7 @@
       "file": "primers/gokaldas-exports.html",
       "nse": "GOKEX",
       "bse": "532630",
-      "sector": "Apparel / Exports",
+      "sector": "Textiles",
       "accent": "#3A4E8C",
       "hook": "One of India's largest garment exporters — a B2B contract manufacturer stitching for Nike, Puma and Columbia — riding China-plus-one and Bangladesh disruption, having bolted on Atraco and Matrix to add scale as it works a thin margin toward the mid-teens.",
       "tags": [
@@ -10738,7 +10738,7 @@
       "file": "primers/pnc-infratech.html",
       "nse": "PNCINFRA",
       "bse": "539150",
-      "sector": "Infrastructure / EPC",
+      "sector": "Construction",
       "accent": "#DB8A2C",
       "hook": "A disciplined Agra-based roads-and-highways EPC builder that develops HAM road assets and then sells them — recycling capital into a KKR-backed InvIT to stay lightly levered — where order inflow, not the asset-sale-boosted profit, is what to watch.",
       "tags": [
@@ -10772,7 +10772,7 @@
       "file": "primers/tvs-supply-chain-solutions.html",
       "nse": "TVSSCS",
       "bse": "543965",
-      "sector": "Logistics / Supply Chain",
+      "sector": "Services",
       "accent": "#1E5FA8",
       "hook": "A TVS-group integrated 3PL that runs the logistics spine inside other companies' factories — sticky in-plant contracts at home plus an acquisition-built UK/Europe freight arm — where the thin-margin, leveraged model needs deleveraging and margin lift to justify itself.",
       "tags": [
@@ -10789,7 +10789,7 @@
       "file": "primers/seshaasai-technologies.html",
       "nse": "STYL",
       "bse": "544533",
-      "sector": "Fintech Infrastructure",
+      "sector": "Financial Services",
       "accent": "#1F4E79",
       "hook": "The 'phygital' plumbing behind Indian banking — a certified manufacturer and personaliser of debit/credit cards, cheque books and PIN mailers now shifting toward higher-margin digital customer communication, listed only in late 2025 at software-like ~25% margins.",
       "tags": [
@@ -10806,7 +10806,7 @@
       "file": "primers/skipper.html",
       "nse": "SKIPPER",
       "bse": "538562",
-      "sector": "T&D Manufacturing",
+      "sector": "Capital Goods",
       "accent": "#3B7CA0",
       "hook": "India's largest transmission-tower maker, riding the grid-and-renewables capex boom and a big export order book — with a branded PVC-pipes arm bolted on, so one share carries two valuation logics: cheap steel-EPC and a consumer-multiple pipes business.",
       "tags": [
@@ -10823,7 +10823,7 @@
       "file": "primers/csb-bank.html",
       "nse": "CSBBANK",
       "bse": "542867",
-      "sector": "Banks / Financials",
+      "sector": "Financial Services",
       "accent": "#0E7C74",
       "hook": "A century-old Kerala bank recapitalised by Fairfax and rebuilt around gold loans — over half its book is gold-backed and its cleanest lending — now spending on branches and deposits to diversify, where the CASA and cost ratios, not gold, will settle the story.",
       "tags": [
@@ -10840,7 +10840,7 @@
       "file": "primers/praj-industries.html",
       "nse": "PRAJIND",
       "bse": "522205",
-      "sector": "Bioenergy / Engineering",
+      "sector": "Capital Goods",
       "accent": "#1E9E63",
       "hook": "India's leading ethanol-and-bioenergy technology firm — an asset-light, IP-led plant builder punished by its own success as E20 blending arrived early, now pivoting to exports, 2G, compressed biogas, sustainable aviation fuel and bio-chemicals.",
       "tags": [
@@ -10857,7 +10857,7 @@
       "file": "primers/happiest-minds.html",
       "nse": "HAPPSTMNDS",
       "bse": "543227",
-      "sector": "IT Services / Digital",
+      "sector": "Information Technology",
       "accent": "#4B3FBF",
       "hook": "Ashok Soota's born-digital IT house — a premium, acquisitive mid-cap that is ~97% digital revenue, which cuts both ways: no legacy ballast makes it grow fast but leaves it more exposed than the majors when discretionary tech spend turns.",
       "tags": [
@@ -10874,7 +10874,7 @@
       "file": "primers/avenuesai.html",
       "nse": "CCAVENUE",
       "bse": "539807",
-      "sector": "Fintech / Payments",
+      "sector": "Financial Services",
       "accent": "#5B4FE0",
       "hook": "The renamed Infibeam Avenues — India's homegrown payments group behind the CCAvenue gateway — processing an enormous transaction flow for a razor-thin toll, where UPI's zero-MDR caps the take-rate and the whole case rests on net profit per rupee processed.",
       "tags": [
@@ -10891,7 +10891,7 @@
       "file": "primers/greaves-cotton.html",
       "nse": "GREAVESCOT",
       "bse": "501455",
-      "sector": "Auto / EV Powertrain",
+      "sector": "Automobile and Auto Components",
       "accent": "#1AA890",
       "hook": "A 160-year-old engine maker sitting on both sides of its own disruption — its cash-generative but declining three-wheeler-engine business funds the loss-making Ampere EV arm — where the whole case is when that EV segment stops subtracting and starts adding.",
       "tags": [
@@ -10908,7 +10908,7 @@
       "file": "primers/jana-small-finance-bank.html",
       "nse": "JSFB",
       "bse": "544118",
-      "sector": "Banks / SFB",
+      "sector": "Financial Services",
       "accent": "#0E7C74",
       "hook": "A small finance bank grown out of what was once India's largest microfinance lender — nearly wiped out after demonetisation, now scar-driven into a majority-secured book of housing, LAP and MSME loans, where de-risking the book and rebuilding deposits is the whole story.",
       "tags": [
@@ -10925,7 +10925,7 @@
       "file": "primers/hindustan-construction.html",
       "nse": "HCC",
       "bse": "500185",
-      "sector": "Infrastructure / EPC",
+      "sector": "Construction",
       "accent": "#C4783A",
       "hook": "A storied heavy-civil builder of dams, Himalayan tunnels and nuclear plants, shackled by legacy debt and a shadow ledger of arbitration claims the government owes it that is larger than its own market cap — a turnaround gated by how fast those claims convert to cash.",
       "tags": [
@@ -10942,7 +10942,7 @@
       "file": "primers/neogen-chemicals.html",
       "nse": "NEOGEN",
       "bse": "542665",
-      "sector": "Specialty Chemicals",
+      "sector": "Chemicals",
       "accent": "#0E8C86",
       "hook": "A specialty-chemicals house built on bromine and lithium chemistry making a big, capex-heavy bet on battery electrolytes for India's nascent cell industry — a real re-rating option weighed against the leverage and still-early demand it is funding.",
       "tags": [
@@ -10959,7 +10959,7 @@
       "file": "primers/sml-mahindra.html",
       "nse": "SMLMAH",
       "bse": "505192",
-      "sector": "Commercial Vehicles",
+      "sector": "Automobile and Auto Components",
       "accent": "#D22730",
       "hook": "The bus-and-LCV specialist formerly known as SML Isuzu, now Mahindra-controlled — a sub-scale challenger to Tata and Ashok Leyland betting that Mahindra's sourcing, platforms, distribution and EV roadmap turn its niche bus strength into real scale.",
       "tags": [
@@ -10976,7 +10976,7 @@
       "file": "primers/v-mart-retail.html",
       "nse": "VMART",
       "bse": "534976",
-      "sector": "Value Retail",
+      "sector": "Consumer Services",
       "accent": "#D81E4A",
       "hook": "A value-fashion department-store chain built for deep Tier-3 and Tier-4 India where Zudio barely reaches — folding in the acquired Unlimited chain down south while it rationalises its loss-making LimeRoad online bet, with same-store growth the number that settles it.",
       "tags": [
@@ -10993,7 +10993,7 @@
       "file": "primers/fedbank-financial.html",
       "nse": "FEDFINA",
       "bse": "544027",
-      "sector": "NBFC / Financials",
+      "sector": "Financial Services",
       "accent": "#12808F",
       "hook": "Federal Bank's retail NBFC arm — a granular, ~99%-secured lender of gold loans, loan-against-property and small-business finance whose gold book has quietly overtaken the mortgage business it was built on, having sidestepped the unsecured blow-up.",
       "tags": [
@@ -11010,7 +11010,7 @@
       "file": "primers/jai-balaji-industries.html",
       "nse": "JAIBALAJI",
       "bse": "532976",
-      "sector": "Steel / Metals",
+      "sector": "Metals & Mining",
       "accent": "#4A6B8A",
       "hook": "An integrated secondary steelmaker that went from ~₹3,000 Cr of written-off debt and negative net worth to near-debt-free and ~36% ROCE — now pivoting toward higher-margin ductile-iron water pipes and specialty steel, still geared to the commodity spread.",
       "tags": [
@@ -11027,7 +11027,7 @@
       "file": "primers/saatvik-green-energy.html",
       "nse": "SAATVIKGL",
       "bse": "544526",
-      "sector": "Renewable Energy / Solar",
+      "sector": "Capital Goods",
       "accent": "#2160A8",
       "hook": "A fast-growing solar-module maker (plus EPC, O&M and an IPP arm) freshly listed in 2025 and riding ALMM and export tailwinds — but its entire bull case rests on a not-yet-built Odisha cell plant, since cells are ~58% of a panel's cost and it makes none of them today.",
       "tags": [
@@ -11044,7 +11044,7 @@
       "file": "primers/ahluwalia-contracts.html",
       "nse": "AHLUCONT",
       "bse": "532811",
-      "sector": "Building Construction / EPC",
+      "sector": "Construction",
       "accent": "#3E6FA3",
       "hook": "A disciplined, net-cash building-EPC contractor that constructs hospitals, institutes, metros and landmarks like Central Vista rather than roads — where a sharp NCR minimum-wage jump halved margins, and the story is whether they climb back toward the historical low-teens.",
       "tags": [
@@ -11061,7 +11061,7 @@
       "file": "primers/smartworks-coworking.html",
       "nse": "SMARTWORKS",
       "bse": "544447",
-      "sector": "Flex Office / Real Estate",
+      "sector": "Services",
       "accent": "#4A54C4",
       "hook": "India's largest managed-office platform by area — it leases bare office floors, fits them out and runs them as serviced campuses for big enterprises, where lease-accounting makes it look barely profitable while it is cash-generative and just turned its first annual profit.",
       "tags": [
@@ -11078,7 +11078,7 @@
       "file": "primers/moil.html",
       "nse": "MOIL",
       "bse": "533286",
-      "sector": "Mining / Manganese",
+      "sector": "Metals & Mining",
       "accent": "#6E4E9E",
       "hook": "India's largest manganese-ore miner and a debt-free, cash-rich PSU — it controls the tonnes but the market controls the money, still a price-taker against seaborne high-grade ore even at home, geared to steel demand and its blended ore realisation.",
       "tags": [
@@ -11095,7 +11095,7 @@
       "file": "primers/prism-johnson.html",
       "nse": "PRSMJOHNSN",
       "bse": "500338",
-      "sector": "Building Materials",
+      "sector": "Construction Materials",
       "accent": "#0E7C86",
       "hook": "A Raheja-group building-materials trio on one balance sheet — Prism cement, H&R Johnson tiles and RMC ready-mix concrete — historically thin-margined and leveraged, where recovering cement EBITDA per tonne is the lever that swings the whole group's profit.",
       "tags": [
@@ -11112,7 +11112,7 @@
       "file": "primers/entero-healthcare.html",
       "nse": "ENTERO",
       "bse": "544122",
-      "sector": "Healthcare Distribution",
+      "sector": "Healthcare",
       "accent": "#0E8C88",
       "hook": "An OrbiMed-backed, tech-enabled pharma distributor rolling up India's hugely fragmented medicine supply chain by acquisition — a razor-thin-margin, high-volume business keeping barely ₹2 of every ₹100 it moves, where lifting EBITDA margin a point or two is the whole game.",
       "tags": [
@@ -11129,7 +11129,7 @@
       "file": "primers/optiemus-infracom.html",
       "nse": "OPTIEMUS",
       "bse": "530135",
-      "sector": "Electronics Manufacturing",
+      "sector": "Consumer Durables",
       "accent": "#2E7D5B",
       "hook": "A former 25-year phone distributor turned electronics contract manufacturer — making handsets, wearables, networking and defence electronics on India's PLI and China-plus-one wave — where thin EMS margins mean fast revenue growth can be the warning sign, not the win.",
       "tags": [
@@ -11146,7 +11146,7 @@
       "file": "primers/mastek.html",
       "nse": "MASTEK",
       "bse": "523704",
-      "sector": "IT Services / Digital",
+      "sector": "Information Technology",
       "accent": "#2A4E8C",
       "hook": "A mid-cap digital-services firm built on Britain and Oracle — roughly 70% of revenue from the UK, much of it public sector, plus a big Oracle-Cloud practice — where a single government's IT budget moves the P&L more than any client, and organic growth is the number to watch.",
       "tags": [
@@ -11163,7 +11163,7 @@
       "file": "primers/balu-forge.html",
       "nse": "BALUFORGE",
       "bse": "531112",
-      "sector": "Forgings / Components",
+      "sector": "Automobile and Auto Components",
       "accent": "#C87A2E",
       "hook": "A fast-growing Kutch forger that built itself back-to-front — from machining and aftermarket into heavy forging — earning unusually high ~27% margins on crankshafts and precision parts, now leaning into defence, artillery shells and aerospace as it ramps a big greenfield.",
       "tags": [
@@ -11180,7 +11180,7 @@
       "file": "primers/jamna-auto.html",
       "nse": "JAMNAAUTO",
       "bse": "520051",
-      "sector": "Auto Components",
+      "sector": "Automobile and Auto Components",
       "accent": "#3B7098",
       "hook": "India's dominant maker of commercial-vehicle leaf springs and suspension — roughly two-thirds of the OEM market — a high-ROCE ancillary that sells the same truck its suspension twice (fitment then aftermarket), riding the volatile heavy-truck cycle while it upgrades content per vehicle.",
       "tags": [
@@ -11197,7 +11197,7 @@
       "file": "primers/ifb-industries.html",
       "nse": "IFBIND",
       "bse": "505726",
-      "sector": "Consumer Appliances",
+      "sector": "Consumer Durables",
       "accent": "#12A29C",
       "hook": "India's front-load washing-machine leader and a dishwasher-and-dryer pioneer — a consumer-appliance brand that literally started as a fine-blanking auto-parts maker (its name means Indian Fine Blanks) and still runs both engines, where lifting appliance margins is the real question.",
       "tags": [
@@ -11214,7 +11214,7 @@
       "file": "primers/triveni-engineering.html",
       "nse": "TRIVENI",
       "bse": "532356",
-      "sector": "Sugar / Ethanol / Engineering",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#5A7A34",
       "hook": "A diversified UP sugar major (distinct from Triveni Turbine) whose distillery-and-ethanol arm is the real growth engine over its cyclical sugar core — with high-margin industrial gears and a water business as ballast, the gears now being demerged into a separate listing.",
       "tags": [
@@ -11231,7 +11231,7 @@
       "file": "primers/laxmi-organic.html",
       "nse": "LXCHEM",
       "bse": "543277",
-      "sector": "Specialty Chemicals",
+      "sector": "Chemicals",
       "accent": "#0E8C86",
       "hook": "India's ethyl-acetate leader and sole domestic diketene-derivatives maker — a thin-margin acetyls base funding a higher-value specialty engine — now betting capex on a fluorospecialty business built from an acquired European failure.",
       "tags": [
@@ -11248,7 +11248,7 @@
       "file": "primers/canara-robeco-amc.html",
       "nse": "CRAMC",
       "bse": "544580",
-      "sector": "Asset Management",
+      "sector": "Financial Services",
       "accent": "#0E5A5E",
       "hook": "A capital-light asset manager — the Canara Bank + Robeco JV running one of India's oldest fund houses — earning a toll on ₹1-lakh-crore-plus of mostly-equity, SIP-driven AUM, where the real risk is a permanent erosion of the fee itself, not a market dip.",
       "tags": [
@@ -11265,7 +11265,7 @@
       "file": "primers/surya-roshni.html",
       "nse": "SURYAROSNI",
       "bse": "500336",
-      "sector": "Steel Pipes / Lighting",
+      "sector": "Metals & Mining",
       "accent": "#C98A2E",
       "hook": "A two-engine manufacturer — India's largest ERW/GI steel-pipe maker plus the branded 'Surya' lighting and consumer-durables business — where the smaller lighting arm carries the higher margin and brand equity, and a potential demerger is the live catalyst.",
       "tags": [
@@ -11282,7 +11282,7 @@
       "file": "primers/puravankara.html",
       "nse": "PURVA",
       "bse": "532891",
-      "sector": "Real Estate",
+      "sector": "Realty",
       "accent": "#3E5A80",
       "hook": "A Bengaluru-anchored residential developer riding the branded-housing up-cycle — record pre-sales that mostly sit outside the income statement as backlog — now making a capital-light bet on luxury Mumbai redevelopment while carrying meaningful net debt.",
       "tags": [
@@ -11299,7 +11299,7 @@
       "file": "primers/indigo-paints.html",
       "nse": "INDIGOPNTS",
       "bse": "543258",
-      "sector": "Paints / Consumer",
+      "sector": "Consumer Durables",
       "accent": "#3F3D9E",
       "hook": "India's fifth-largest paint brand — a Tier-3-and-rural challenger that pries open dealer shelves with niche, high-margin products the majors ignored, then cross-sells emulsions — now squeezed as Birla Opus and JSW crowd an already Asian-Paints-dominated market.",
       "tags": [
@@ -11316,7 +11316,7 @@
       "file": "primers/subros.html",
       "nse": "SUBROS",
       "bse": "517168",
-      "sector": "Auto Components",
+      "sector": "Automobile and Auto Components",
       "accent": "#2E7DB5",
       "hook": "India's largest maker of automotive air-conditioning and thermal systems, Denso-and-Suzuki-linked and heavily tied to Maruti — where the same dominant customer is both its biggest risk and its biggest EV-content prize, since electric cars need far more thermal hardware.",
       "tags": [
@@ -11333,7 +11333,7 @@
       "file": "primers/datamatics-global.html",
       "nse": "DATAMATICS",
       "bse": "532528",
-      "sector": "IT Services / BPM",
+      "sector": "Information Technology",
       "accent": "#3F52C4",
       "hook": "A diversified IT-and-business-process mid-cap building its own RPA and AI products (the Tru- stack) — effectively selling the automation that cannibalises its own back-office work — where the question is whether it keeps margins up as those bots eat the volume.",
       "tags": [
@@ -11350,7 +11350,7 @@
       "file": "primers/ptc-india.html",
       "nse": "PTC",
       "bse": "532524",
-      "sector": "Power Trading",
+      "sector": "Power",
       "accent": "#1E73C8",
       "hook": "India's largest power trader (distinct from PTC India Financial Services) — a cash-generative, high-payout middleman keeping just a few paise on every unit of electricity it moves, with a cross-border-trade moat but a real threat from power exchanges disintermediating it.",
       "tags": [
@@ -11367,7 +11367,7 @@
       "file": "primers/sterling-wilson-renewable.html",
       "nse": "SWSOLAR",
       "bse": "542760",
-      "sector": "Solar EPC / Renewables",
+      "sector": "Capital Goods",
       "accent": "#F0A21E",
       "hook": "One of the world's largest solar EPC contractors — nearly sunk by a governance-and-receivables blow-up after its 2019 IPO, then rescued and recapitalised by Reliance — now pivoted to India with a record order book, where the whole verdict is execution margin, not headline revenue.",
       "tags": [
@@ -11384,7 +11384,7 @@
       "file": "primers/electronics-mart-india.html",
       "nse": "EMIL",
       "bse": "543626",
-      "sector": "Consumer Electronics Retail",
+      "sector": "Consumer Services",
       "accent": "#F0862B",
       "hook": "A large-format consumer-electronics retailer dominant in Telangana and Andhra under the Bajaj Electronics banner — a cluster-density model where the same store is a cash machine at home and a cash drain in a new city, now testing whether NCR can mature.",
       "tags": [
@@ -11401,7 +11401,7 @@
       "file": "primers/restaurant-brands-asia.html",
       "nse": "RBA",
       "bse": "543248",
-      "sector": "QSR / Restaurants",
+      "sector": "Consumer Services",
       "accent": "#E8471C",
       "hook": "The Burger King master franchisee for India and Indonesia (renamed from Burger King India) — scaling stores fast but still loss-making, with a persistent Indonesia drag and lease-accounting deepening the reported loss, where the whole bet is the quarter consolidated profit finally turns.",
       "tags": [
@@ -11418,7 +11418,7 @@
       "file": "primers/thomas-cook-india.html",
       "nse": "THOMASCOOK",
       "bse": "500413",
-      "sector": "Travel / Financial Services",
+      "sector": "Consumer Services",
       "accent": "#12857E",
       "hook": "A Fairfax-controlled Indian travel-and-forex group (independent of the defunct UK Thomas Cook) — collecting a high-margin foreign-exchange toll alongside a recovering holidays-and-corporate-travel engine, plus a Sterling hospitality arm, riding India's outbound-travel boom.",
       "tags": [
@@ -11435,7 +11435,7 @@
       "file": "primers/shree-renuka-sugars.html",
       "nse": "RENUKA",
       "bse": "532670",
-      "sector": "Sugar / Ethanol",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#6B8E23",
       "hook": "India's largest sugar refiner and a big exporter, Wilmar-controlled — distinctive for a port-refinery arbitrage that earns on sugar it never grew — but still deeply loss-making with negative net worth, kept going by its parent's lifeline as the ethanol pivot builds.",
       "tags": [
@@ -11452,7 +11452,7 @@
       "file": "primers/rattanindia-power.html",
       "nse": "RTNPOWER",
       "bse": "533122",
-      "sector": "Power Generation",
+      "sector": "Power",
       "accent": "#B5763A",
       "hook": "A once-bankrupt thermal-power IPP (Amravati and Nashik plants) crushed by debt through the power-sector NPA crisis, now back in profit after a one-time debt settlement — a penny-stock-to-multibagger turnaround whose story is deleveraging and getting stranded capacity contracted.",
       "tags": [
@@ -11469,7 +11469,7 @@
       "file": "primers/aurionpro-solutions.html",
       "nse": "AURIONPRO",
       "bse": "532668",
-      "sector": "Software / Fintech",
+      "sector": "Information Technology",
       "accent": "#3A46B8",
       "hook": "A mid-cap technology firm writing the code that runs both banks and turnstiles — transaction-banking software plus smart-transit and fare-collection systems — pivoting from services toward higher-margin products and SaaS, funded by dilutive raises and an IP shopping spree.",
       "tags": [
@@ -11486,7 +11486,7 @@
       "file": "primers/texmaco-rail.html",
       "nse": "TEXRAIL",
       "bse": "533326",
-      "sector": "Railway Equipment",
+      "sector": "Capital Goods",
       "accent": "#3E6B8A",
       "hook": "India's largest freight-wagon maker (Adventz group), riding the record railway-capex supercycle and diversifying into rail EPC and signalling — where its customer, Indian Railways, is also the sole free-supplier of the wheelsets a shortage of which can sink a whole quarter.",
       "tags": [
@@ -11503,7 +11503,7 @@
       "file": "primers/refex-industries.html",
       "nse": "REFEX",
       "bse": "532884",
-      "sector": "Diversified / Chemicals",
+      "sector": "Chemicals",
       "accent": "#0E9C86",
       "hook": "A company named for refrigerant exports that now barely makes them — nearly all its profit comes from an unrelated coal-and-ash handling business for power plants, with an EV-mobility arm being demerged, and a recent profit jump driven by culling cheap volume, not growth.",
       "tags": [
@@ -11520,7 +11520,7 @@
       "file": "primers/sunteck-realty.html",
       "nse": "SUNTECK",
       "bse": "512179",
-      "sector": "Real Estate",
+      "sector": "Realty",
       "accent": "#3C5680",
       "hook": "A capital-light, premium-tilted Mumbai developer riding the MMR housing up-cycle on a low-debt, JV-led model — barbelling ultra-luxury BKC with volume mid-income townships, where growing pre-sales sit as backlog well ahead of recognised revenue.",
       "tags": [
@@ -11537,7 +11537,7 @@
       "file": "primers/cms-info-systems.html",
       "nse": "CMSINFO",
       "bse": "543441",
-      "sector": "Cash Management / Services",
+      "sector": "Services",
       "accent": "#1E6A9E",
       "hook": "India's largest cash-logistics company — armoured vans and ATM replenishment for most of the banking system — riding a counter-intuitive truth: even as UPI booms, physical cash in circulation keeps growing, so the route-density moat and a shift into ATM managed services drive it.",
       "tags": [
@@ -11554,7 +11554,7 @@
       "file": "primers/electrosteel-castings.html",
       "nse": "ELECTCAST",
       "bse": "500128",
-      "sector": "DI Pipes / Metals",
+      "sector": "Metals & Mining",
       "accent": "#2A82BD",
       "hook": "One of India's largest ductile-iron water-pipe makers (distinct from Vedanta's Electrosteel Steels) — really a captive iron-and-coke smelter feeding a casting line — where the profit swings entirely on how fast the government's Jal Jeevan water-pipe cheques flow.",
       "tags": [
@@ -11571,7 +11571,7 @@
       "file": "primers/network18-media.html",
       "nse": "NETWORK18",
       "bse": "532798",
-      "sector": "Media",
+      "sector": "Media Entertainment & Publication",
       "accent": "#C42A28",
       "hook": "A Reliance-controlled news-and-digital media holdco — CNBC, News18 and the Moneycontrol portal — whose loss-making broadcast economics matter less than a hidden asset: a look-through stake in the Disney-Star-merged JioStar giant, making it a sum-of-parts holdco discount play.",
       "tags": [
@@ -11588,7 +11588,7 @@
       "file": "primers/rattanindia-enterprises.html",
       "nse": "RTNINDIA",
       "bse": "534597",
-      "sector": "New-age / Diversified",
+      "sector": "Diversified",
       "accent": "#6C4FE0",
       "hook": "A speculative new-age holdco (distinct from RattanIndia Power) bundling Revolt EV bikes, drones, fintech and e-commerce — where nearly all the revenue is a low-profile Amazon reseller while the marketed 'moonshots' carry the market cap, and a big FY26 loss came from writing down its old power affiliate.",
       "tags": [
@@ -11605,7 +11605,7 @@
       "file": "primers/quess-corp.html",
       "nse": "QUESS",
       "bse": "539978",
-      "sector": "Staffing / Business Services",
+      "sector": "Services",
       "accent": "#0E8C86",
       "hook": "India's largest staffing company and one of its biggest private employers — a razor-thin markup on a vast pass-through payroll, recently split into three listed firms — where headcount growth, float and receivables, not margin, turn a ~2% business into a ~20% ROE.",
       "tags": [
@@ -11622,7 +11622,7 @@
       "file": "primers/rallis-india.html",
       "nse": "RALLIS",
       "bse": "500355",
-      "sector": "Agrochemicals / Seeds",
+      "sector": "Chemicals",
       "accent": "#2E6B3E",
       "hook": "A Tata-owned agri-inputs company running on three out-of-phase clocks — monsoon-driven branded crop protection, globally cyclical export contract-manufacturing, and a seeds business — where a strong brand and 75-year heritage have oddly delivered a decade of near-flat revenue.",
       "tags": [
@@ -11639,7 +11639,7 @@
       "file": "primers/vaibhav-global.html",
       "nse": "VAIBHAVGBL",
       "bse": "532156",
-      "sector": "Electronic Retail",
+      "sector": "Consumer Services",
       "accent": "#A83A6E",
       "hook": "A vertically-integrated value retailer selling gemstone jewellery at costume-jewellery prices to US and UK households via 24-hour TV shopping and apps — manufacturing in Jaipur and capturing the full margin — where registered-customer growth, not any one deal, settles the story.",
       "tags": [
@@ -11656,7 +11656,7 @@
       "file": "primers/styrenix-performance.html",
       "nse": "STYRENIX",
       "bse": "506222",
-      "sector": "Styrenics / Chemicals",
+      "sector": "Chemicals",
       "accent": "#5B4FD6",
       "hook": "India's leading maker of ABS, polystyrene and SAN resins (formerly INEOS Styrolution India) — the engineering plastics inside fridges, ACs and car interiors — a near-duopoly against imports whose profit lives or dies on the ABS-over-styrene spread.",
       "tags": [
@@ -11673,7 +11673,7 @@
       "file": "primers/capillary-technologies.html",
       "nse": "CAPILLARY",
       "bse": "544614",
-      "sector": "SaaS / Software",
+      "sector": "Information Technology",
       "accent": "#5B4BE0",
       "hook": "An enterprise loyalty-and-customer-engagement SaaS platform, freshly listed in late 2025 and just turned profitable — Indian-founded but now earning most of its money in the US after buying loyalty house Brierley — where net revenue retention is the number that settles the thesis.",
       "tags": [
@@ -11690,7 +11690,7 @@
       "file": "primers/raymond-lifestyle.html",
       "nse": "RAYMONDLSL",
       "bse": "544240",
-      "sector": "Apparel / Textiles",
+      "sector": "Textiles",
       "accent": "#7A2338",
       "hook": "The branded-apparel and suiting-fabric business demerged from Raymond in 2024 — one iconic brand across four unequal engines, where the margin ladder inverts (cotton shirting out-earns branded apparel per rupee) and a 380-town franchise reach is the real moat.",
       "tags": [
@@ -11707,7 +11707,7 @@
       "file": "primers/anup-engineering.html",
       "nse": "ANUP",
       "bse": "542460",
-      "sector": "Process Equipment / Engineering",
+      "sector": "Capital Goods",
       "accent": "#3E6E8C",
       "hook": "A high-spec maker of made-to-order heat exchangers, pressure vessels and reactors in exotic metallurgy — hidden for decades inside the Arvind textile group before its 2019 demerger — riding India's process-industry capex revival with a big new plant and moves into cryogenic, hydrogen and nuclear work.",
       "tags": [
@@ -11724,7 +11724,7 @@
       "file": "primers/websol-energy.html",
       "nse": "WEBELSOLAR",
       "bse": "517498",
-      "sector": "Renewable Energy / Solar",
+      "sector": "Capital Goods",
       "accent": "#1E86C7",
       "hook": "A long-dormant West Bengal solar-cell maker restarted and racing to expand TOPCon cell-plus-module capacity — valuable because India is short of domestic cells, not modules — a small-base, ramp-and-execution turnaround riding ALMM and import-substitution tailwinds.",
       "tags": [
@@ -11741,7 +11741,7 @@
       "file": "primers/kaveri-seed.html",
       "nse": "KSCL",
       "bse": "532899",
-      "sector": "Seeds / Agri",
+      "sector": "Fast Moving Consumer Goods",
       "accent": "#3F7D2E",
       "hook": "One of India's largest hybrid-seed breeders — a debt-free, cash-rich business that earns almost its whole year's profit in a single kharif sowing quarter — pivoting from its price-controlled Bt cotton flagship toward higher-margin maize, rice and vegetable hybrids.",
       "tags": [
@@ -11758,7 +11758,7 @@
       "file": "primers/wakefit.html",
       "nse": "WAKEFIT",
       "bse": "544642",
-      "sector": "D2C Consumer / Home",
+      "sector": "Consumer Durables",
       "accent": "#12857E",
       "hook": "A vertically-integrated D2C sleep-and-home brand — bed-in-a-box mattresses that grew into furniture and own experience stores — freshly listed in late 2025, where roughly half its maiden 'profit' was a one-off deferred-tax gain and the real test is recurring operating margin.",
       "tags": [
@@ -11775,7 +11775,7 @@
       "file": "primers/mstc.html",
       "nse": "MSTCLTD",
       "bse": "542597",
-      "sector": "E-commerce / PSU",
+      "sector": "Services",
       "accent": "#3949AB",
       "hook": "A Ministry-of-Steel PSU turned government e-auction platform — taking a thin commission on huge volumes of coal, mineral and scrap auctions plus the vehicle-scrapping program — an asset-light, cash-rich, high-ROE franchise that quietly wound down its loss-making legacy trading book.",
       "tags": [
@@ -11792,7 +11792,7 @@
       "file": "primers/vip-industries.html",
       "nse": "VIPIND",
       "bse": "507880",
-      "sector": "Consumer / Luggage",
+      "sector": "Consumer Durables",
       "accent": "#7A1E2E",
       "hook": "India's iconic luggage leader (VIP, Skybags, Carlton) that has been quietly losing its lead — to Safari, run by its own former MD, and to D2C upstarts — now loss-making and under new Multiples-led ownership, where the whole case is gross-margin repair from in-house sourcing.",
       "tags": [
@@ -11809,7 +11809,7 @@
       "file": "primers/share-india-securities.html",
       "nse": "SHAREINDIA",
       "bse": "540725",
-      "sector": "Broking / Capital Markets",
+      "sector": "Financial Services",
       "accent": "#1E6AAE",
       "hook": "A tech-led broker that is really a proprietary algo-trading desk in a broker's clothing — its own book, not client commissions, is the cash register — which makes SEBI's F&O clampdown hit it twice, as it diversifies into lending, insurance and investment banking.",
       "tags": [
@@ -11826,7 +11826,7 @@
       "file": "primers/ellenbarrie-industrial-gases.html",
       "nse": "ELLEN",
       "bse": "544421",
-      "sector": "Industrial Gases",
+      "sector": "Chemicals",
       "accent": "#1E9EC7",
       "hook": "An East-India industrial-and-medical-gases maker freshly listed in 2025 — oxygen, nitrogen and argon sold to steel mills and hospitals — a sticky, annuity-like business whose local logistics density lets a small regional out-margin the global majors, now expanding capacity off IPO cash.",
       "tags": [
@@ -11843,7 +11843,7 @@
       "file": "primers/ghcl.html",
       "nse": "GHCL",
       "bse": "500171",
-      "sector": "Chemicals / Soda Ash",
+      "sector": "Chemicals",
       "accent": "#1E7C86",
       "hook": "One of India's largest and lowest-cost soda-ash makers (now a pure chemicals play after demerging its textiles) — captive limestone, salt and lignite on one Gujarat coast give it a hard cost floor — riding a new solar-glass demand tailwind against Chinese oversupply.",
       "tags": [
@@ -11860,7 +11860,7 @@
       "file": "primers/oswal-pumps.html",
       "nse": "OSWALPUMPS",
       "bse": "544418",
-      "sector": "Pumps / Solar",
+      "sector": "Capital Goods",
       "accent": "#2596BE",
       "hook": "A vertically-integrated pump-and-motor maker freshly listed in 2025 whose profit surge came from a government spending decision, not a market win — most of its revenue is PM-KUSUM solar irrigation pumps — making it a policy-cycle play best read against Shakti Pumps.",
       "tags": [
@@ -11877,7 +11877,7 @@
       "file": "primers/samhi-hotels.html",
       "nse": "SAMHI",
       "bse": "543984",
-      "sector": "Hotels / Hospitality",
+      "sector": "Consumer Services",
       "accent": "#8A6230",
       "hook": "A buy-and-fix branded-hotel landlord — it acquires underperforming hotels, re-brands them under Marriott, Hyatt and IHG and lifts margins — riding India's RevPAR up-cycle where each fixed room earns more each year, while it works down the heavy debt those acquisitions brought.",
       "tags": [
@@ -11894,7 +11894,7 @@
       "file": "primers/tarc.html",
       "nse": "TARC",
       "bse": "543249",
-      "sector": "Real Estate",
+      "sector": "Realty",
       "accent": "#6B5540",
       "hook": "A Delhi-NCR luxury developer (demerged from Anant Raj) sitting on 600-plus acres of paid-for, low-cost land carried well below market — riding the premium-housing up-cycle with record pre-sales that dwarf its thin reported profit, while it works down acquisition-era debt.",
       "tags": [
@@ -11911,7 +11911,7 @@
       "file": "primers/enviro-infra-engineers.html",
       "nse": "EIEL",
       "bse": "544290",
-      "sector": "Water / Wastewater EPC",
+      "sector": "Construction",
       "accent": "#1493B4",
       "hook": "A focused water-and-sewage-treatment EPC-and-O&M contractor, freshly listed in late 2024 — building STPs, water schemes and ZLD plants for Namami Gange, AMRUT and Jal Jeevan — riding a legally-mandated water-capex boom on an order book roughly six times revenue.",
       "tags": [
@@ -11928,7 +11928,7 @@
       "file": "primers/hemisphere-properties.html",
       "nse": "HEMIPROP",
       "bse": "543242",
-      "sector": "Real Estate / Land",
+      "sector": "Realty",
       "accent": "#4A5A3E",
       "hook": "A government land-holding PSU — essentially a land bank in one share — sitting on ~740 acres of prime legacy VSNL/telecom land across four cities with almost no operating business, where the whole case is the gap between land value and market cap versus glacial, litigation-bound monetisation.",
       "tags": [
@@ -11962,7 +11962,7 @@
       "file": "primers/gmm-pfaudler.html",
       "nse": "GMMPFAUDLR",
       "bse": "505255",
-      "sector": "Process Equipment",
+      "sector": "Capital Goods",
       "accent": "#2E6E8C",
       "hook": "The global leader in glass-lined reactors and vessels for chemical and pharma plants — its wearing glass lining turns the installed base into a standing re-order list — where the acquired worldwide Pfaudler business is the margin drag and the humble India operation the profit engine.",
       "tags": [
@@ -11979,7 +11979,7 @@
       "file": "primers/aarti-drugs.html",
       "nse": "AARTIDRUGS",
       "bse": "524348",
-      "sector": "Pharma / API",
+      "sector": "Healthcare",
       "accent": "#6D42B0",
       "hook": "A broad-portfolio bulk-drug maker (distinct from Aarti Pharmalabs and Aarti Industries) and the world's number-one producer of several antibiotic APIs — a scale-and-spread volume machine riding China-plus-one, diversifying into formulations and specialty chemicals as it works its ~12% margin toward the mid-teens.",
       "tags": [
@@ -11996,7 +11996,7 @@
       "file": "primers/advanced-enzymes.html",
       "nse": "ADVENZYMES",
       "bse": "540025",
-      "sector": "Specialty / Enzymes",
+      "sector": "Chemicals",
       "accent": "#25946E",
       "hook": "India's largest enzyme company — a strain-and-fermentation-driven maker of 400-plus bio-catalysts for healthcare, nutrition, feed and food — earning high, sticky margins because a small dose is a small tax on a customer's much larger gain, with a big slice of profit from the US supplement aisle.",
       "tags": [
@@ -12013,7 +12013,7 @@
       "file": "primers/hg-infra-engineering.html",
       "nse": "HGINFRA",
       "bse": "541019",
-      "sector": "Infrastructure / EPC",
+      "sector": "Construction",
       "accent": "#C2761C",
       "hook": "A disciplined, low-debt Jaipur roads-EPC contractor idled less by its own hands than by a slow-awarding NHAI — now nearly half its order book is non-road (rail, water, solar), even as the market still prices it as a pure highways play, so order inflow is the number to watch.",
       "tags": [
