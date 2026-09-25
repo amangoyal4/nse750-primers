@@ -2572,7 +2572,7 @@
    "rank": 286,
    "name": "Acutaas Chemicals Limited",
    "nse": "ACUTAAS",
-   "sector": "Healthcare",
+   "sector": "Chemicals",
    "mcapCr": 28652,
    "status": "done",
    "refreshed": "2026-06-30"
@@ -3454,7 +3454,7 @@
    "rank": 384,
    "name": "Godawari Power & Ispat Limited",
    "nse": "GPIL",
-   "sector": "Capital Goods",
+   "sector": "Metals & Mining",
    "mcapCr": 16867,
    "status": "done",
    "refreshed": "2026-06-30"
@@ -4507,7 +4507,7 @@
    "rank": 501,
    "name": "Cupid Ltd.",
    "nse": "CUPID",
-   "sector": "Fast Moving Consumer Goods",
+   "sector": "Healthcare",
    "mcapCr": 29710,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -4876,7 +4876,7 @@
    "rank": 542,
    "name": "Va Tech Wabag Ltd.",
    "nse": "WABAG",
-   "sector": "Utilities",
+   "sector": "Capital Goods",
    "mcapCr": 12370,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -5506,7 +5506,7 @@
    "rank": 612,
    "name": "India Glycols Ltd.",
    "nse": "INDIAGLYCO",
-   "sector": "Fast Moving Consumer Goods",
+   "sector": "Chemicals",
    "mcapCr": 7929,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -5524,7 +5524,7 @@
    "rank": 614,
    "name": "Tanla Platforms Ltd.",
    "nse": "TANLA",
-   "sector": "Information Technology",
+   "sector": "Telecommunication",
    "mcapCr": 7864,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -5533,7 +5533,7 @@
    "rank": 615,
    "name": "Inox Green Energy Services Ltd.",
    "nse": "INOXGREEN",
-   "sector": "Services",
+   "sector": "Power",
    "mcapCr": 7851,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -5569,7 +5569,7 @@
    "rank": 619,
    "name": "Maharashtra Seamless Ltd.",
    "nse": "MAHSEAMLES",
-   "sector": "Capital Goods",
+   "sector": "Metals & Mining",
    "mcapCr": 7720,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -5704,7 +5704,7 @@
    "rank": 634,
    "name": "NESCO Ltd.",
    "nse": "NESCO",
-   "sector": "Services",
+   "sector": "Realty",
    "mcapCr": 7218,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -5758,7 +5758,7 @@
    "rank": 640,
    "name": "Jeena Sikho Lifecare Ltd.",
    "nse": "JSLL",
-   "sector": "Consumer Services",
+   "sector": "Healthcare",
    "mcapCr": 7053,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -5794,7 +5794,7 @@
    "rank": 644,
    "name": "Ethos Ltd.",
    "nse": "ETHOSLTD",
-   "sector": "Consumer Durables",
+   "sector": "Consumer Services",
    "mcapCr": 6903,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -5848,7 +5848,7 @@
    "rank": 650,
    "name": "AXISCADES Technologies Ltd.",
    "nse": "AXISCADES",
-   "sector": "Capital Goods",
+   "sector": "Information Technology",
    "mcapCr": 6581,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -5866,7 +5866,7 @@
    "rank": 652,
    "name": "Transrail Lighting Ltd.",
    "nse": "TRANSRAILL",
-   "sector": "Capital Goods",
+   "sector": "Construction",
    "mcapCr": 6508,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -5893,7 +5893,7 @@
    "rank": 655,
    "name": "Ion Exchange (India) Ltd.",
    "nse": "IONEXCHANG",
-   "sector": "Utilities",
+   "sector": "Capital Goods",
    "mcapCr": 6314,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6055,7 +6055,7 @@
    "rank": 673,
    "name": "Greaves Cotton Ltd.",
    "nse": "GREAVESCOT",
-   "sector": "Capital Goods",
+   "sector": "Automobile and Auto Components",
    "mcapCr": 5771,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6091,7 +6091,7 @@
    "rank": 677,
    "name": "SML Mahindra Ltd.",
    "nse": "SMLMAH",
-   "sector": "Capital Goods",
+   "sector": "Automobile and Auto Components",
    "mcapCr": 5659,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6172,7 +6172,7 @@
    "rank": 686,
    "name": "Entero Healthcare Solutions Ltd.",
    "nse": "ENTERO",
-   "sector": "Consumer Services",
+   "sector": "Healthcare",
    "mcapCr": 5464,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6181,7 +6181,7 @@
    "rank": 687,
    "name": "Optiemus Infracom Ltd.",
    "nse": "OPTIEMUS",
-   "sector": "Telecommunication",
+   "sector": "Consumer Durables",
    "mcapCr": 5461,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6199,7 +6199,7 @@
    "rank": 689,
    "name": "Balu Forge Industries Ltd.",
    "nse": "BALUFORGE",
-   "sector": "Capital Goods",
+   "sector": "Automobile and Auto Components",
    "mcapCr": 5344,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6244,7 +6244,7 @@
    "rank": 694,
    "name": "Surya Roshni Ltd.",
    "nse": "SURYAROSNI",
-   "sector": "Capital Goods",
+   "sector": "Metals & Mining",
    "mcapCr": 5238,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6280,7 +6280,7 @@
    "rank": 698,
    "name": "Subros Ltd.",
    "nse": "SUBROS",
-   "sector": "Capital Goods",
+   "sector": "Automobile and Auto Components",
    "mcapCr": 5131,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6307,7 +6307,7 @@
    "rank": 701,
    "name": "Sterling and Wilson Renewable Energy Ltd.",
    "nse": "SWSOLAR",
-   "sector": "Construction",
+   "sector": "Capital Goods",
    "mcapCr": 4906,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6379,7 +6379,7 @@
    "rank": 709,
    "name": "Refex Industries Ltd.",
    "nse": "REFEX",
-   "sector": "Utilities",
+   "sector": "Chemicals",
    "mcapCr": 4583,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6406,7 +6406,7 @@
    "rank": 712,
    "name": "Electrosteel Castings Ltd.",
    "nse": "ELECTCAST",
-   "sector": "Capital Goods",
+   "sector": "Metals & Mining",
    "mcapCr": 4489,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6424,7 +6424,7 @@
    "rank": 714,
    "name": "RattanIndia Enterprises Ltd.",
    "nse": "RTNINDIA",
-   "sector": "Consumer Services",
+   "sector": "Diversified",
    "mcapCr": 4437,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6442,7 +6442,7 @@
    "rank": 716,
    "name": "Vaibhav Global Ltd.",
    "nse": "VAIBHAVGBL",
-   "sector": "Consumer Durables",
+   "sector": "Consumer Services",
    "mcapCr": 4392,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6595,7 +6595,7 @@
    "rank": 733,
    "name": "Enviro Infra Engineers Ltd.",
    "nse": "EIEL",
-   "sector": "Utilities",
+   "sector": "Construction",
    "mcapCr": 3860,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6604,7 +6604,7 @@
    "rank": 734,
    "name": "Hemisphere Properties India Ltd.",
    "nse": "HEMIPROP",
-   "sector": "Services",
+   "sector": "Realty",
    "mcapCr": 3838,
    "status": "done",
    "refreshed": "2026-07-27"
@@ -6640,7 +6640,7 @@
    "rank": 738,
    "name": "Advanced Enzyme Tech Ltd.",
    "nse": "ADVENZYMES",
-   "sector": "Healthcare",
+   "sector": "Chemicals",
    "mcapCr": 3536,
    "status": "done",
    "refreshed": "2026-07-27"
