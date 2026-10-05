@@ -36,6 +36,23 @@
         "GLP-1"
       ],
       "published": "2026-10-05"
+    },
+    {
+      "name": "Auto Components",
+      "slug": "auto-components",
+      "file": "auto-components.html",
+      "sector": "Automobile & Ancillaries",
+      "subsector": "Auto Components & Equipments",
+      "companies": 29,
+      "accent": "#26323F",
+      "hook": "An industry that sells content, not cars: how 29 listed suppliers grow faster than vehicle production, which parts the EV transition deletes or multiplies, why US tariffs and China-made magnets and cells matter, and why the market pays ~46x while Denso gets ~15x.",
+      "tags": [
+        "Content per vehicle",
+        "EV transition",
+        "Exports & tariffs",
+        "Valuation gap"
+      ],
+      "published": "2026-10-05"
     }
   ],
   "universe": [
@@ -55,7 +72,7 @@
       "sector": "Automobile & Ancillaries",
       "sub": "Auto Components & Equipments",
       "companies": 29,
-      "report": null
+      "report": "auto-components.html"
     },
     {
       "sector": "Automobile & Ancillaries",
