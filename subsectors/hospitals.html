@@ -216,7 +216,7 @@
 }
 </style>
 <style id="subsector-kit">
-  /* 1. Six-cell stat strip: <div class="stat-strip six"> with 6 .cell */
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
   .stat-strip.six{grid-template-columns:repeat(6,1fr);}
   .stat-strip.six .v{font-size:21px;}
   @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
@@ -240,7 +240,7 @@
   .pos{color:var(--good);} .neg{color:var(--bad);}
   .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
 
-  /* 4. Positioning map — <figure class="map"> + inline SVG (viewBox 0 0 640 420) */
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
   figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
   figure.map svg{width:100%;height:auto;display:block;}
   figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
@@ -1123,7 +1123,7 @@
 </section>
 
 <!-- 11 -->
-<section class="part" id="p11">
+<section class="part" id="p11" data-kpi="1">
   <div class="part-head"><span class="pno">11</span><h2>Reading a hospital like an operator: the KPIs that matter and the traps inside them <span class="dd">Deep dive</span></h2></div>
   <p class="part-sub">One equation, fourteen numbers, a worked 300-bed hospital and a ten-minute routine for quarterly results. Each KPI with its formula, its drivers, its benchmark and the way it can mislead.</p>
 

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Hospitals — Sub-sector Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#0F5C58;          /* deep clinical teal */
+    --brand-bright:#14807A;   /* the hospitals accent */
+    --gold:#C98A2B;           /* amber - accent / warmth */
+    --wtg:#2E7C86;            /* teal-blue */
+    --epc:#5BA59C;            /* sea-green */
+    --om:#35648C;            /* clinical blue */
+    --spec:#14807A;          /* teal cross accent */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#0F5C58,#14807A);}
+  .fill.gold{background:linear-gradient(90deg,#C98A2B,#E0A852);}
+  .fill.wtg{background:linear-gradient(90deg,#2E7C86,#4C9AA3);}
+  .fill.om{background:linear-gradient(90deg,#35648C,#5582AA);}
+  .fill.spec{background:linear-gradient(90deg,#14807A,#3A9D96);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Healthcare · Hospitals</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> How a hospital earns</a></li>
+    <li><a href="#p2"><span class="n">02</span> Size &amp; who pays the bill</a></li>
+    <li><a href="#p3"><span class="n">03</span> The bed gap</a></li>
+    <li><a href="#p4"><span class="n">04</span> Four payers, four prices</a></li>
+    <li><a href="#p5"><span class="n">05</span> Who sets the price</a></li>
+    <li><a href="#p6"><span class="n">06</span> Industry structure</a></li>
+    <li><a href="#p7"><span class="n">07</span> Five business models</a></li>
+    <li><a href="#p8"><span class="n">08</span> Case mix &amp; clusters</a></li>
+    <li><a href="#p9"><span class="n">09</span> The new-bed J-curve</a></li>
+    <li><a href="#p10"><span class="n">10</span> Four decades, seven shocks</a></li>
+    <li><a href="#p11"><span class="n">11</span> Reading a hospital: the KPIs</a></li>
+    <li><a href="#p12"><span class="n">12</span> The peer table</a></li>
+    <li><a href="#p13"><span class="n">13</span> Who is winning</a></li>
+    <li><a href="#p14"><span class="n">14</span> Thirteen company profiles</a></li>
+    <li><a href="#p15"><span class="n">15</span> Why 25–40× EBITDA</a></li>
+    <li><a href="#p16"><span class="n">16</span> Technology &amp; disruption</a></li>
+    <li><a href="#p17"><span class="n">17</span> Bull vs bear</a></li>
+    <li><a href="#p18"><span class="n">18</span> What to watch</a></li>
+    <li><a href="#p19"><span class="n">19</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Healthcare · Hospitals</span>
+    <span class="tag gold">13 listed companies</span>
+  </div>
+  <h1>Indian hospitals: <em>scarce beds, a contested price</em> and a ₹40,000 crore build</h1>
+  <p class="dek">A complete guide to the business of Indian private hospitals: how a chain turns a bed-day into profit, why a country with roughly 1.5 beds per thousand people still argues over who sets the price of that bed-day, how the 13 hospital companies in the NSE 750 compare, and what the largest construction wave in the industry's history will do to their margins and their valuations before it pays off.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹7 <small>lakh Cr</small></div><div class="l">Healthcare delivery market FY25</div></div>
+    <div class="cell"><div class="v">10–12%</div><div class="l">Market CAGR to FY30E</div></div>
+    <div class="cell"><div class="v">~1.5</div><div class="l">Beds per 1,000 people (norm ~3)</div></div>
+    <div class="cell"><div class="v">13</div><div class="l">Listed in NSE 750</div></div>
+    <div class="cell"><div class="v">₹4.91 <small>lakh Cr</small></div><div class="l">Combined m-cap (5 Oct 2026)</div></div>
+    <div class="cell"><div class="v">₹7,587 <small>Cr</small></div><div class="l">Combined PAT FY26</div></div>
+  </div>
+  <p class="prov">Basis: FY26 (year ended 31 Mar 2026) company figures, Q1 FY27 cross-checks, market data as of 5 Oct 2026. Industry data from National Health Accounts, IRDAI, NHA (PM-JAY), ICRA and Antique Broking. Estimates are labelled.</p>
+</header>
+
+<!-- =================== LOCKED SUB-SECTOR SKELETON ===================
+ Everything ABOVE (head, CSS, PDF button, print header, back button, grid, TOC, cover) is the locked format.
+ Change ONLY: <title>, meta description, the colour variables (--brand, --brand-bright, --gold and related) and the .fill/.node colour classes,
+ the pdf-head subtitle, the TOC entries, and the cover content (kicker tags, h1 with <em>, dek, 6-cell stat strip, basis note).
+ Below: one real example of each component from the approved Hospitals report. Copy the PATTERN, never the content.
+ Mark the KPI masterclass section: <section class="part" id="pN" data-kpi="1">.
+================================================================== -->
+
+<!-- EXAMPLE: Section head: number + h2 + part-sub -->
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: a scarcity business with a contested price tag</h2></div>
+
+<!-- EXAMPLE: Bar chart (.chart/.bars/.bar-row) -->
+<div class="chart">
+    <div class="c-title">What a filled bed earns per day, by type of hospital</div>
+    <div class="c-sub">Typical ARPOB bands, ₹ per occupied bed-day; bar shows the midpoint, label shows the range. Indicative bands from company disclosures and analyst estimates (dossier, approximate)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Metro quaternary flagship<small>Delhi NCR, Mumbai</small></div><div class="track"><span class="fill brand" style="width:87.5%"></span></div><div class="bval">75k–1L+</div></div>
+      <div class="bar-row"><div class="blab">Metro chain average</div><div class="track"><span class="fill spec" style="width:67.5%"></span></div><div class="bval">55k–80k</div></div>
+      <div class="bar-row"><div class="blab">Mother &amp; child<small>NICU-heavy</small></div><div class="track"><span class="fill wtg" style="width:52.5%"></span></div><div class="bval">50k–55k</div></div>
+      <div class="bar-row"><div class="blab">Tier-2 multi-specialty</div><div class="track"><span class="fill om" style="width:37.5%"></span></div><div class="bval">30k–45k</div></div>
+      <div class="bar-row"><div class="blab">Scheme-heavy / tier-3</div><div class="track"><span class="fill gold" style="width:25%"></span></div><div class="bval">20k–30k</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹1 lakh per day. A metro flagship can earn three to four times a scheme-heavy tier-3 hospital from the same physical bed.</span></div>
+  </div>
+
+<!-- EXAMPLE: Stacked share bar (.stack-row) -->
+<div class="chart">
+    <div class="c-title">Where ₹100 of hospital revenue goes</div>
+    <div class="c-sub">Illustrative composite for a mature listed multi-specialty hospital; approximate, built from Max, Fortis, Medanta and Apollo cost structures (dossier estimate)</div>
+    <div class="stack-row"><div class="blab">Mature hospital, ₹100 of revenue</div><div class="stack"><span style="width:22%;background:var(--wtg)">Pharmacy &amp; implants 22</span><span style="width:17%;background:var(--om)">Doctor fees 17</span><span style="width:18%;background:var(--epc)">Staff 18</span><span style="width:17%;background:var(--ink-faint)">Other opex 17</span><span style="width:26%;background:var(--brand)">EBITDA 26</span></div></div>
+    <div class="legend"><span><i style="background:var(--wtg)"></i>Drugs, consumables &amp; implants (₹21–24)</span><span><i style="background:var(--om)"></i>Fee-for-service doctor payouts (₹15–20)</span><span><i style="background:var(--epc)"></i>Nurses, salaried doctors, admin (₹16–20)</span><span><i style="background:var(--ink-faint)"></i>Power, housekeeping, IT, marketing (₹13–17)</span><span><i style="background:var(--brand)"></i>EBITDA (₹22–28 at maturity)</span></div>
+  </div>
+
+<!-- EXAMPLE: In plain terms callout -->
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>A good Indian hospital is a very profitable machine once it is full: a mature metro unit earns a quarter of its revenue as operating profit and pays back its construction cost in a few years. The problem is that the machine takes five years to fill, the people who decide its price include an insurer, a state health agency and potentially a judge, and the doctors who generate its revenue can walk across the road. Investors are paying a high price for the first fact while the industry spends heavily to find out how the other three play out.</p>
+  </div>
+
+<!-- EXAMPLE: Flow / value chain / equation -->
+<div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">The hospital value chain: where a patient's rupee is earned</div>
+    <div class="flow-row">
+      <div class="node om"><div class="ntag">Step 1 · Entry</div><div class="nname">OPD, emergency, referral</div><div class="nwho">Consultations, GP and spoke-hospital referrals, international desks, digital apps.</div></div>
+      <div class="arrow">→</div>
+      <div class="node wtg"><div class="ntag">Step 2 · Diagnosis</div><div class="nname">Labs &amp; imaging</div><div class="nwho">Blood work, CT, MRI, PET. High-margin, and the gate to admission.</div></div>
+      <div class="arrow">→</div>
+      <div class="node spec"><div class="ntag">Step 3 · The stay</div><div class="nname">Procedure, OT, ICU</div><div class="nwho">Surgeon and anaesthetist fees, implants, drugs, nursing. The bulk of the bill.</div></div>
+      <div class="arrow">→</div>
+      <div class="node epc"><div class="ntag">Step 4 · Billing</div><div class="nname">Payer settles</div><div class="nwho">Cash, insurer or TPA, government scheme, or foreign patient: each at a different price.</div></div>
+      <div class="arrow">→</div>
+      <div class="node om"><div class="ntag">Step 5 · After care</div><div class="nname">Follow-up &amp; pharmacy</div><div class="nwho">Repeat OPD visits, chronic medicines, home care, rehab. Loyalty and re-admissions.</div></div>
+    </div>
+    <div class="flow-note">The money concentrates in Step 3. A chain's edge comes from how many complex Step 3 cases it can attract (case mix) and from who pays in Step 4 (payer mix).</div>
+  </div>
+
+<!-- EXAMPLE: Positioning map (figure.map + inline SVG) -->
+<figure class="map">
+    <div class="c-title" style="font-family:Sora,sans-serif;font-size:17px;font-weight:600;">Scale is not the same as quality: beds versus ARPOB</div>
+    <div class="c-sub" style="font-size:12.5px;color:var(--ink-soft);margin-bottom:10px;">x = beds (FY26, mixed definitions: Fortis ~4,975 consolidated operational, Aster combined Jun 2026, KIMS capacity); y = ARPOB ₹/day (bases as in the bar chart above). Dashed lines at 5,500 beds and ₹55,000. Dr Agarwal's excluded (no beds)</div>
+    <svg viewBox="0 0 640 420" role="img" aria-label="Scatter of hospital chains by beds and ARPOB">
+      <line class="grid" x1="70" y1="30" x2="610" y2="30"/><line class="grid" x1="70" y1="117.5" x2="610" y2="117.5"/><line class="grid" x1="70" y1="292.5" x2="610" y2="292.5"/>
+      <line class="axis" x1="70" y1="380" x2="610" y2="380"/><line class="axis" x1="70" y1="30" x2="70" y2="380"/>
+      <line class="mid" x1="340" y1="30" x2="340" y2="380"/><line class="mid" x1="70" y1="205" x2="610" y2="205"/>
+      <text class="q" x="80" y="46">Premium, focused</text>
+      <text class="q" x="600" y="46" text-anchor="end">Premium at scale</text>
+      <text class="q" x="80" y="372">Value, smaller</text>
+      <text class="q" x="600" y="372" text-anchor="end">Value at scale</text>
+      <text class="tick" x="70" y="398" text-anchor="middle">0</text><text class="tick" x="205" y="398" text-anchor="middle">2,750</text><text class="tick" x="340" y="398" text-anchor="middle">5,500</text><text class="tick" x="475" y="398" text-anchor="middle">8,250</text><text class="tick" x="610" y="398" text-anchor="middle">11,000</text>
+      <text class="tick" x="62" y="383" text-anchor="end">25k</text><text class="tick" x="62" y="295" text-anchor="end">40k</text><text class="tick" x="62" y="208" text-anchor="end">55k</text><text class="tick" x="62" y="120" text-anchor="end">70k</text><text class="tick" x="62" y="33" text-anchor="end">85k</text>
+      <text class="ax-l" x="340" y="414" text-anchor="middle">Beds →</text>
+      <text class="ax-l" x="18" y="205" transform="rotate(-90 18 205)" text-anchor="middle">ARPOB ₹/day →</text>
+      <circle class="dot" cx="469" cy="110.5" r="8"/><text class="lbl" x="481" y="114">Apollo</text>
+      <circle class="dot" cx="314" cy="71" r="8"/><text class="lbl" x="302" y="75" text-anchor="end">Max</text>
+      <circle class="dot" cx="314" cy="93" r="8"/><text class="lbl" x="326" y="97">Fortis</text>
+      <circle class="dot" cx="246" cy="138" r="8"/><text class="lbl" x="258" y="142">Medanta</text>
+      <circle class="dot" cx="131" cy="131" r="8"/><text class="lbl" x="143" y="135">Jupiter</text>
+      <circle class="dot alt" cx="190" cy="175" r="8"/><text class="lbl" x="202" y="179">Rainbow</text>
+      <circle class="dot" cx="365" cy="229" r="8"/><text class="lbl" x="377" y="233">Narayana (India)</text>
+      <circle class="dot" cx="588" cy="224" r="8"/><text class="lbl" x="576" y="246" text-anchor="end">Aster</text>
+      <circle class="dot" cx="387" cy="266" r="8"/><text class="lbl" x="399" y="270">KIMS</text>
+      <circle class="dot alt" cx="204" cy="267" r="8"/><text class="lbl" x="216" y="271">HCG</text>
+      <circle class="dot" cx="195" cy="329" r="8"/><text class="lbl" x="207" y="333">Yatharth</text>
+      <circle class="dot" cx="220" cy="351" r="8"/><text class="lbl" x="232" y="355">Park</text>
+    </svg>
+    <figcaption>Gold dots are single-specialty chains. Only Apollo combines large scale with a premium ARPOB. The two largest bed-holders after it, Aster and KIMS, earn ₹45,000–52,000 a day, which is why their market value per bed is far below Max's or Medanta's.</figcaption>
+  </figure>
+
+<!-- EXAMPLE: Timeline -->
+<ul class="timeline">
+    <li><div class="yr">2010–2012</div><div class="ev">Clinical Establishments Act passed; Central Rules 2012 include Rule 9 on displayed rates and rate ranges. Health is a state subject, so states must adopt the Act or legislate their own.</div></li>
+    <li class="major"><div class="yr">Feb 2024</div><div class="ev">In <em>Veterans Forum for Transparency in Public Life v. Union of India</em>, the Supreme Court criticises the Centre for 14 years of inaction and warns it may impose CGHS rates as an interim measure. Hospital stocks fall.</div></li>
+    <li><div class="yr">Mar 2024 – early 2026</div><div class="ev">The Health Ministry holds meetings with states (19 Mar 2024, 31 Jul 2025, 11 Nov 2025) and four zonal meetings in early 2026. No state or Union Territory submits a rate-range proposal.</div></li>
+    <li><div class="yr">Mar 2025</div><div class="ev">The Court asks states to frame policy against hospitals forcing inpatients to buy drugs and consumables from in-house pharmacies at inflated MRP; it declines to issue binding central directions.</div></li>
+    <li class="major"><div class="yr">Oct 2025</div><div class="ev">CGHS rates revised for the first time since 2014, narrowing the gap between any "standard" rate and private tariffs.</div></li>
+    <li class="major"><div class="yr">Aug 2026</div><div class="ev">In <em>All India Ophthalmological Society v. Union of India</em> (W.P.(C) 214/2024), a challenge by doctors' bodies, the Centre defends Rule 9(ii) as a curb on excessive pricing. Status in Oct 2026: unresolved.</div></li>
+  </ul>
+
+<!-- EXAMPLE: Mini stats -->
+<div class="mini-stats">
+    <div class="ms"><div class="msv">₹78,864 Cr</div><div class="msl">Combined FY26 revenue of the 13 listed companies (Aster on merged proforma basis)</div></div>
+    <div class="ms gold"><div class="msv">20.6%</div><div class="msl">Blended FY26 EBITDA margin, after Ind AS 116 lease accounting</div></div>
+    <div class="ms red"><div class="msv">~34,000</div><div class="msl">Beds being added by listed chains over FY26–30 (ICRA), about ₹40,000 crore of capex</div></div>
+  </div>
+
+<!-- EXAMPLE: Bull / bear -->
+<div class="bb">
+    <div class="col bull">
+      <h4>The bull case</h4>
+      <ul class="clean">
+        <li><strong>Structural demand</strong>: about half the beds the country needs, an ageing and more diabetic population, and insurance plus PM-JAY turning need into paid demand.</li>
+        <li><strong>Pricing power</strong>: free private pricing, ARPOB compounding 5–8% a year, and a CGHS reset that shrinks the downside of any court-ordered rates.</li>
+        <li><strong>Proven playbooks</strong>: Max, Medanta and KIMS's Telangana core show that new hospitals can reach 25–30% margins and 25%+ unit ROCE.</li>
+        <li><strong>Brownfield-led build</strong>: roughly 60% of new beds go onto existing campuses, so ramp-ups should be faster than past cycles.</li>
+        <li><strong>Consolidation runway</strong>: organised chains hold about 20% of the market, and cheap equity lets them buy the best standalones.</li>
+      </ul>
+    </div>
+    <div class="col bear">
+      <h4>The bear case</h4>
+      <ul class="clean">
+        <li><strong>Valuation stretch</strong>: 23–41× EBITDA and about 65× earnings require high-teens EBITDA growth for a decade.</li>
+        <li><strong>New-bed dilution</strong>: 34,000 beds opening together; Q1 FY27 already showed revenue up 19% and profit up 8%, with KIMS and Jupiter profits falling.</li>
+        <li><strong>Price regulation</strong>: the Rule 9(ii) case is unresolved, insurers are pushing harder, and the 2017 stent caps show interventions can arrive suddenly.</li>
+        <li><strong>People costs</strong>: competition for the same specialists and nurses, with emigration draining nursing supply.</li>
+        <li><strong>Company-specific overhangs</strong>: IHH and Daiichi at Fortis, Aster's merger integration, PE sellers at Aster, Dr Agarwal's, KIMS and HCG.</li>
+      </ul>
+    </div>
+  </div>
+
+<!-- EXAMPLE: Heat-map table -->
+<table class="heat">
+    <caption>Company scorecard (5 = strongest in the group, 1 = weakest)</caption>
+    <thead><tr><th>Company</th><th>Scale</th><th>Growth</th><th>Margin</th><th>ARPOB</th><th>Occupancy</th><th>Balance sheet</th><th>ROCE</th><th>Valuation</th></tr></thead>
+    <tbody>
+      <tr><td>Apollo</td><td class="h5">5</td><td class="h3">3</td><td class="h3">3</td><td class="h4">4</td><td class="h4">4</td><td class="h3">3</td><td class="h4">4</td><td class="h3">3</td></tr>
+      <tr><td>Max</td><td class="h4">4</td><td class="h4">4</td><td class="h5">5</td><td class="h5">5</td><td class="h5">5</td><td class="h5">5</td><td class="h3">3</td><td class="h1">1</td></tr>
+      <tr><td>Fortis</td><td class="h4">4</td><td class="h3">3</td><td class="h4">4</td><td class="h5">5</td><td class="h4">4</td><td class="h3">3</td><td class="h3">3</td><td class="h3">3</td></tr>
+      <tr><td>Narayana</td><td class="h4">4</td><td class="h4">4</td><td class="h3">3</td><td class="h3">3</td><td class="h3">3</td><td class="h3">3</td><td class="h3">3</td><td class="h4">4</td></tr>
+      <tr><td>Aster DM QC</td><td class="h4">4</td><td class="h2">2</td><td class="h3">3</td><td class="h3">3</td><td class="h3">3</td><td class="h3">3</td><td class="h2">2</td><td class="h2">2</td></tr>
+      <tr><td>Medanta</td><td class="h3">3</td><td class="h4">4</td><td class="h3">3</td><td class="h4">4</td><td class="h2">2</td><td class="h5">5</td><td class="h4">4</td><td class="h1">1</td></tr>
+      <tr><td>KIMS</td><td class="h3">3</td><td class="h5">5</td><td class="h3">3</td><td class="h2">2</td><td class="h1">1</td><td class="h2">2</td><td class="h1">1</td><td class="h1">1</td></tr>
+      <tr><td>Dr Agarwal's</td><td class="h2">2</td><td class="h4">4</td><td class="h5">5</td><td class="h3">n/a</td><td class="h3">n/a</td><td class="h3">3</td><td class="h2">2</td><td class="h3">3</td></tr>
+      <tr><td>Rainbow</td><td class="h2">2</td><td class="h2">2</td><td class="h5">5</td><td class="h4">4</td><td class="h1">1</td><td class="h5">5</td><td class="h4">4</td><td class="h4">4</td></tr>
+      <tr><td>Park Medi World</td><td class="h2">2</td><td class="h4">4</td><td class="h5">5</td><td class="h1">1</td><td class="h3">3</td><td class="h4">4</td><td class="h5">5</td><td class="h3">3</td></tr>
+      <tr><td>Jupiter</td><td class="h1">1</td><td class="h3">3</td><td class="h4">4</td><td class="h4">4</td><td class="h3">3</td><td class="h5">5</td><td class="h3">3</td><td class="h4">4</td></tr>
+      <tr><td>HCG</td><td class="h2">2</td><td class="h3">3</td><td class="h2">2</td><td class="h2">2</td><td class="h3">n/a</td><td class="h2">2</td><td class="h1">1</td><td class="h4">4</td></tr>
+      <tr><td>Yatharth</td><td class="h1">1</td><td class="h5">5</td><td class="h4">4</td><td class="h1">1</td><td class="h4">4</td><td class="h4">4</td><td class="h2">2</td><td class="h2">2</td></tr>
+    </tbody>
+  </table>
+
+<!-- EXAMPLE: Peer table (wrapper + table) -->
+<div class="peer-wrap"><table class="peer">
+    <thead><tr><th>Company</th><th class="num">Revenue FY26 ₹ Cr</th><th class="num">Growth</th><th class="num">EBITDA %</th><th class="num">PAT ₹ Cr</th><th class="num">Beds</th><th class="num">Occupancy</th><th class="num">ARPOB ₹/day</th><th class="num">Net debt / (cash) ₹ Cr</th><th class="num">M-cap ₹ Cr</th><th class="num">P/E TTM</th><th class="num">EV/EBITDA</th><th class="num">ROCE</th></tr></thead><tbody>
+<tr><td class="co"><a href="../primers/apollo-hospitals.html">Apollo Hospitals</a><small>APOLLOHOSP</small></td><td class="num">25,229</td><td class="num pos">+15.8%</td><td class="num">14.9%</td><td class="num">1,942</td><td class="num">8,131</td><td class="num">68%</td><td class="num">71,206ᵃ</td><td class="num">n/a (gross 8,493)</td><td class="num">1,15,420</td><td class="num">54.9×</td><td class="num">~32.9×ᵍ</td><td class="num">17.4%</td></tr>
+<tr><td class="co"><a href="../primers/aster-dm-healthcare.html">Aster DM Quality Care</a><small>ASTERDM</small></td><td class="num">9,273ᵖ</td><td class="num pos">+12.2%ˢ</td><td class="num">21.7%ᵖ</td><td class="num">427ˢ</td><td class="num">10,559</td><td class="num">64%</td><td class="num">51,800ˢ</td><td class="num">n/a</td><td class="num">60,233</td><td class="num">n/m</td><td class="num">≥31×</td><td class="num">11.6%ˢ</td></tr>
+<!-- …one row per company… -->
+<tr class="agg"><td>All 13 combined</td><td class="num">78,864</td><td class="num">—</td><td class="num">20.6%</td><td class="num">7,587</td><td class="num">~57,822</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">4,91,332</td><td class="num">~65×</td><td class="num">~30×ᵉ</td><td class="num">—</td></tr>
+</tbody></table>
+    <div class="peer-note"><b>Basis.</b> FY26 = year ended 31 Mar 2026, consolidated, reported (post-Ind AS 116) EBITDA. Market cap, TTM P/E and ROCE from screener.in, 5 Oct 2026. EV/EBITDA = (m-cap + net debt) ÷ FY26 EBITDA (calculated); ᵍ = gross borrowings used because net debt is not disclosed, which overstates EV for cash-holding companies. <b>Aster</b> is shown on the merged Aster DM Quality Care proforma basis because its market cap is the merged entity's: ᵖ proforma revenue ₹9,273 Cr and EBITDA ₹2,013 Cr; ˢ standalone figures (growth, PAT, ARPOB, ROCE), as no proforma PAT or net debt is disclosed; P/E not meaningful; EV/EBITDA a floor using standalone debt only. <b>Max</b> is consolidated (network revenue ₹10,538 Cr, network PAT ₹1,631 Cr; EV/EBITDA ~33.8× on network EBITDA). ᵃ Apollo Q4 FY26 ARPOB, last comparable figure before its switch to revenue per patient. ᵇ Fortis consolidated operational beds derived from Q1 FY27 occupied beds; ~6,100 including JV and O&amp;M. ᶜ Fortis Q1 FY27 ARPOB (₹2.71 Cr/bed-year). ⁱ Narayana India only. ᵏ capacity beds (Rainbow operational 1,862 in Q1 FY27; KIMS 7,459 capacity at Jun 2026). ʲ HCG adjusted EBITDA. ᵉ combined m-cap ÷ combined EBITDA (equity value only). Combined P/E uses FY26 PAT. Beds total mixes capacity, operational and census definitions. Apollo's 14.9% margin blends hospitals (~24%) with pharmacy distribution and digital.</div></div>
+
+<!-- EXAMPLE: Company profile card -->
+<div class="co-card">
+      <h3>Apollo Hospitals</h3><div class="tick">NSE: APOLLOHOSP</div><span class="role">The scale leader</span>
+      <div class="kpis"><div><b>₹25,229</b><span>Revenue Cr</span></div><div><b>8,131</b><span>Beds</span></div><div><b>14.9%</b><span>EBITDA (hosp ~24%)</span></div><div><b>₹71,206</b><span>ARPOB Q4</span></div></div>
+      <p>India's first corporate hospital is three businesses in one: a premium hospital network earning about 24% EBITDA on ₹12,555 crore of revenue, a thin-margin pharmacy-distribution and Apollo 24|7 digital arm (₹10,808 crore), and a diagnostics and clinics business. The blended 14.9% margin hides the hospital quality. The defining event is the planned demerger of pharmacy, 24|7 and Keimed into Apollo Healthtech (195.2 new shares per 100 Apollo shares), with listing targeted for Q4 FY27; digital cash losses have already fallen from ₹337 crore to ₹133 crore. Once separated, investors will see the hospital business's value directly. Apollo has the deepest quaternary bench (transplants, oncology, robotics) and the largest medical-tourism franchise, though Bangladesh's share of that fell to single digits. It is adding about 4,400 beds for ₹6,100 crore, and its mature units ran at 72% occupancy in Q1 FY27. Risks: a 55× earnings multiple, demerger execution, expansion drag and a promoter group holding only about 28%.</p>
+      <a class="more" href="../primers/apollo-hospitals.html">Read the full primer →</a>
+    </div>
+
+<!-- EXAMPLE: Generic table wrapper -->
+<div class="tbl-wrap">
+  <table>
+    <caption>The four payer classes, compared</caption>
+    <thead><tr><th>Payer</th><th>Who it is</th><th>Price received</th><th>Speed of payment</th><th>Who leans on it</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Cash / self-pay</td><td>Families paying at discharge, often with later reimbursement</td><td>Full tariff, the highest domestic price</td><td>Immediate</td><td>Every chain; still 30–45% of revenue at many metro hospitals</td></tr>
+      <tr><td class="t-strong">Insurance / TPA</td><td>Retail and employer group policies; PSU insurers (via the GIPSA network) and standalone health insurers</td><td>Negotiated network rates, close to tariff for large chains, lower for small hospitals</td><td>Days to weeks; the 2024 IRDAI circular requires faster cashless approval</td><td>Jupiter (~55%), Rainbow (~50%), most metro chains (~40–55%)</td></tr>
+      <tr><td class="t-strong">Government schemes</td><td>PM-JAY, state schemes (Aarogyasri, Karnataka schemes), CGHS for central-government staff, ECHS for ex-servicemen</td><td>Fixed packages, often 30–60% below private rack rates (approximate)</td><td>Slow; state receivables are a chronic complaint</td><td>Yatharth (~35–37%), KIMS and Narayana (high but unquantified), Park (~11–12% in FY23)</td></tr>
+      <tr><td class="t-strong">International</td><td>Patients from Bangladesh, Iraq, Central Asia, Africa, the Gulf</td><td>Premium packages; ARPOB often 1.3–2× domestic</td><td>Usually prepaid</td><td>Max (~9%), Fortis (7.8%), Apollo (6–7%), Medanta (~6%)</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+<footer class="src">
+<!-- numbered sources list + disclaimer, same pattern as the Hospitals report -->
+</footer>
+
+</main>
+</div>
+</div>
+</body>
+</html>

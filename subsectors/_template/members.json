@@ -1,0 +1,5522 @@
+{
+ "Crude Oil || Refineries & Marketing": [
+  {
+   "name": "Reliance Industries Limited",
+   "nse": "RELIANCE",
+   "bse": "500325",
+   "rank": 1,
+   "primer": "reliance-industries.html"
+  },
+  {
+   "name": "Indian Oil Corporation Limited",
+   "nse": "IOC",
+   "bse": "530965",
+   "rank": 44,
+   "primer": "indian-oil.html"
+  },
+  {
+   "name": "Bharat Petroleum",
+   "nse": "BPCL",
+   "bse": "500547",
+   "rank": 75,
+   "primer": "bpcl.html"
+  },
+  {
+   "name": "Hindustan Petroleum Corporation Limited",
+   "nse": "HINDPETRO",
+   "bse": "500104",
+   "rank": 130,
+   "primer": "hpcl.html"
+  },
+  {
+   "name": "Mangalore Refinery and Petrochemicals Limited",
+   "nse": "MRPL",
+   "bse": "500109",
+   "rank": 301,
+   "primer": "mrpl.html"
+  },
+  {
+   "name": "Chennai Petroleum Corporation Limited",
+   "nse": "CHENNPETRO",
+   "bse": "500110",
+   "rank": 381,
+   "primer": "chennai-petroleum.html"
+  }
+ ],
+ "Bank || Private Sector Bank": [
+  {
+   "name": "HDFC Bank Limited",
+   "nse": "HDFCBANK",
+   "bse": "500180",
+   "rank": 2,
+   "primer": "hdfc-bank.html"
+  },
+  {
+   "name": "ICICI Bank Limited",
+   "nse": "ICICIBANK",
+   "bse": "532174",
+   "rank": 4,
+   "primer": "icici-bank.html"
+  },
+  {
+   "name": "Axis Bank Limited",
+   "nse": "AXISBANK",
+   "bse": "532215",
+   "rank": 14,
+   "primer": "axis-bank.html"
+  },
+  {
+   "name": "Kotak Mahindra Bank Limited",
+   "nse": "KOTAKBANK",
+   "bse": "500247",
+   "rank": 18,
+   "primer": "kotak-mahindra-bank.html"
+  },
+  {
+   "name": "IDBI Bank Limited",
+   "nse": "IDBI",
+   "bse": "500116",
+   "rank": 122,
+   "primer": "idbi-bank.html"
+  },
+  {
+   "name": "The Federal Bank Limited",
+   "nse": "FEDERALBNK",
+   "bse": "500469",
+   "rank": 135,
+   "primer": "federal-bank.html"
+  },
+  {
+   "name": "Yes Bank Limited",
+   "nse": "YESBANK",
+   "bse": "532648",
+   "rank": 139,
+   "primer": "yes-bank.html"
+  },
+  {
+   "name": "IndusInd Bank",
+   "nse": "INDUSINDBK",
+   "bse": "532187",
+   "rank": 153,
+   "primer": "indusind-bank.html"
+  },
+  {
+   "name": "IDFC First Bank",
+   "nse": "IDFCFIRSTB",
+   "bse": "539437",
+   "rank": 160,
+   "primer": "idfc-first-bank.html"
+  },
+  {
+   "name": "RBL Bank Limited",
+   "nse": "RBLBANK",
+   "bse": "540065",
+   "rank": 187,
+   "primer": "rbl-bank.html"
+  },
+  {
+   "name": "Bandhan Bank Limited",
+   "nse": "BANDHANBNK",
+   "bse": "541153",
+   "rank": 269,
+   "primer": "bandhan-bank.html"
+  },
+  {
+   "name": "The Karur Vysya Bank Limited",
+   "nse": "KARURVYSYA",
+   "bse": "590003",
+   "rank": 288,
+   "primer": "karur-vysya-bank.html"
+  },
+  {
+   "name": "City Union Bank Limited",
+   "nse": "CUB",
+   "bse": "532210",
+   "rank": 341,
+   "primer": "city-union-bank.html"
+  },
+  {
+   "name": "The Jammu and Kashmir Bank Limited",
+   "nse": "J&KBANK",
+   "bse": "532209",
+   "rank": 376,
+   "primer": "jk-bank.html"
+  },
+  {
+   "name": "Tamilnad Mercantile Bank Limited",
+   "nse": "TMB",
+   "bse": "543596",
+   "rank": 535,
+   "primer": "tamilnad-mercantile-bank.html"
+  },
+  {
+   "name": "South Indian Bank",
+   "nse": "SOUTHBANK",
+   "bse": "532218",
+   "rank": 538,
+   "primer": "south-indian-bank.html"
+  },
+  {
+   "name": "Karnataka Bank Limited",
+   "nse": "KTKBANK",
+   "bse": "532652",
+   "rank": 556,
+   "primer": "karnataka-bank.html"
+  },
+  {
+   "name": "DCB Bank Ltd.",
+   "nse": "DCBBANK",
+   "bse": "532772",
+   "rank": 661,
+   "primer": "dcb-bank.html"
+  },
+  {
+   "name": "CSB Bank Ltd.",
+   "nse": "CSBBANK",
+   "bse": "542867",
+   "rank": 669,
+   "primer": "csb-bank.html"
+  }
+ ],
+ "Telecom || Telecom - Cellular & Fixed line services": [
+  {
+   "name": "Bharti Airtel Limited",
+   "nse": "BHARTIARTL",
+   "bse": "532454",
+   "rank": 3,
+   "primer": "bharti-airtel.html"
+  },
+  {
+   "name": "Vodafone Idea Limited",
+   "nse": "IDEA",
+   "bse": "532822",
+   "rank": 60,
+   "primer": "vodafone-idea.html"
+  },
+  {
+   "name": "Bharti Hexacom Limited",
+   "nse": "BHARTIHEXA",
+   "bse": "544162",
+   "rank": 147,
+   "primer": "bharti-hexacom.html"
+  },
+  {
+   "name": "Tata Communications Limited",
+   "nse": "TATACOMM",
+   "bse": "500483",
+   "rank": 189,
+   "primer": "tata-communications.html"
+  },
+  {
+   "name": "Tata Teleservices (Maharashtra) Limited",
+   "nse": "TTML",
+   "bse": "532371",
+   "rank": 490,
+   "primer": "tata-teleservices-maharashtra.html"
+  }
+ ],
+ "Bank || Public Sector Bank": [
+  {
+   "name": "State Bank of India",
+   "nse": "SBIN",
+   "bse": "500112",
+   "rank": 5,
+   "primer": "state-bank-of-india.html"
+  },
+  {
+   "name": "Bank of Baroda Limited",
+   "nse": "BANKBARODA",
+   "bse": "532134",
+   "rank": 72,
+   "primer": "bank-of-baroda.html"
+  },
+  {
+   "name": "Union Bank of India",
+   "nse": "UNIONBANK",
+   "bse": "532477",
+   "rank": 74,
+   "primer": "union-bank-of-india.html"
+  },
+  {
+   "name": "Punjab National Bank",
+   "nse": "PNB",
+   "bse": "532461",
+   "rank": 86,
+   "primer": "punjab-national-bank.html"
+  },
+  {
+   "name": "Canara Bank",
+   "nse": "CANBK",
+   "bse": "532483",
+   "rank": 94,
+   "primer": "canara-bank.html"
+  },
+  {
+   "name": "Indian Bank",
+   "nse": "INDIANB",
+   "bse": "532814",
+   "rank": 99,
+   "primer": "indian-bank.html"
+  },
+  {
+   "name": "Bank of Maharashtra",
+   "nse": "MAHABANK",
+   "bse": "532525",
+   "rank": 156,
+   "primer": "bank-of-maharashtra.html"
+  },
+  {
+   "name": "Indian Overseas Bank",
+   "nse": "IOB",
+   "bse": "532388",
+   "rank": 166,
+   "primer": "indian-overseas-bank.html"
+  },
+  {
+   "name": "Bank of India",
+   "nse": "BANKINDIA",
+   "bse": "532149",
+   "rank": 168,
+   "primer": "bank-of-india.html"
+  },
+  {
+   "name": "UCO Bank",
+   "nse": "UCOBANK",
+   "bse": "532505",
+   "rank": 260,
+   "primer": "uco-bank.html"
+  },
+  {
+   "name": "Central Bank of India",
+   "nse": "CENTRALBK",
+   "bse": "532885",
+   "rank": 280,
+   "primer": "central-bank-of-india.html"
+  }
+ ],
+ "IT || Computers - Software & Consulting": [
+  {
+   "name": "Tata Consultancy Services",
+   "nse": "TCS",
+   "bse": "532540",
+   "rank": 6,
+   "primer": "tata-consultancy-services.html"
+  },
+  {
+   "name": "Infosys Limited",
+   "nse": "INFY",
+   "bse": "500209",
+   "rank": 15,
+   "primer": "infosys.html"
+  },
+  {
+   "name": "HCL Technologies Limited",
+   "nse": "HCLTECH",
+   "bse": "532281",
+   "rank": 26,
+   "primer": "hcl-technologies.html"
+  },
+  {
+   "name": "Wipro Limited",
+   "nse": "WIPRO",
+   "bse": "507685",
+   "rank": 46,
+   "primer": "wipro.html"
+  },
+  {
+   "name": "Tech Mahindra Limited",
+   "nse": "TECHM",
+   "bse": "532755",
+   "rank": 80,
+   "primer": "tech-mahindra.html"
+  },
+  {
+   "name": "LTM Limited (formerly LTIMindtree)",
+   "nse": "LTM",
+   "bse": "540005",
+   "rank": 103,
+   "primer": "ltm-ltimindtree.html"
+  },
+  {
+   "name": "Persistent Systems Limited",
+   "nse": "PERSISTENT",
+   "bse": "533179",
+   "rank": 163,
+   "primer": "persistent-systems.html"
+  },
+  {
+   "name": "Coforge Limited",
+   "nse": "COFORGE",
+   "bse": "532541",
+   "rank": 165,
+   "primer": "coforge.html"
+  },
+  {
+   "name": "Mphasis Limited",
+   "nse": "MPHASIS",
+   "bse": "526299",
+   "rank": 220,
+   "primer": "mphasis.html"
+  },
+  {
+   "name": "Hexaware Technologies Limited",
+   "nse": "HEXT",
+   "bse": "544362",
+   "rank": 273,
+   "primer": "hexaware-technologies.html"
+  },
+  {
+   "name": "Zensar Technologies Limited",
+   "nse": "ZENSARTECH",
+   "bse": "504067",
+   "rank": 481,
+   "primer": "zensar-technologies.html"
+  },
+  {
+   "name": "Birlasoft Limited",
+   "nse": "BSOFT",
+   "bse": "532400",
+   "rank": 492,
+   "primer": "birlasoft.html"
+  },
+  {
+   "name": "Sonata Software Limited",
+   "nse": "SONATSOFTW",
+   "bse": "532221",
+   "rank": 494,
+   "primer": "sonata-software.html"
+  },
+  {
+   "name": "Latent View Analytics Limited",
+   "nse": "LATENTVIEW",
+   "bse": "543398",
+   "rank": 498,
+   "primer": "latent-view.html"
+  },
+  {
+   "name": "Black Box Limited",
+   "nse": "BBOX",
+   "bse": "500463",
+   "rank": 530,
+   "primer": "black-box.html"
+  },
+  {
+   "name": "Happiest Minds Technologies Ltd.",
+   "nse": "HAPPSTMNDS",
+   "bse": "543227",
+   "rank": 671,
+   "primer": "happiest-minds.html"
+  },
+  {
+   "name": "Mastek Ltd.",
+   "nse": "MASTEK",
+   "bse": "523704",
+   "rank": 688,
+   "primer": "mastek.html"
+  },
+  {
+   "name": "Datamatics Global Services Ltd.",
+   "nse": "DATAMATICS",
+   "bse": "532528",
+   "rank": 699,
+   "primer": "datamatics-global.html"
+  }
+ ],
+ "Finance || Non Banking Financial Company (NBFC)": [
+  {
+   "name": "Bajaj Finance Limited",
+   "nse": "BAJFINANCE",
+   "bse": "500034",
+   "rank": 7,
+   "primer": "bajaj-finance.html"
+  },
+  {
+   "name": "Shriram Finance Limited",
+   "nse": "SHRIRAMFIN",
+   "bse": "511218",
+   "rank": 37,
+   "primer": "shriram-finance.html"
+  },
+  {
+   "name": "Jio Financial Services Limited",
+   "nse": "JIOFIN",
+   "bse": "543940",
+   "rank": 59,
+   "primer": "jio-financial-services.html"
+  },
+  {
+   "name": "Tata Capital",
+   "nse": "TATACAP",
+   "bse": "544574",
+   "rank": 64,
+   "primer": "tata-capital.html"
+  },
+  {
+   "name": "Cholamandalam Investment and Finance",
+   "nse": "CHOLAFIN",
+   "bse": "511243",
+   "rank": 68,
+   "primer": "cholamandalam-finance.html"
+  },
+  {
+   "name": "Power Finance Corporation",
+   "nse": "PFC",
+   "bse": "532810",
+   "rank": 73,
+   "primer": "power-finance-corporation.html"
+  },
+  {
+   "name": "Muthoot Finance Limited",
+   "nse": "MUTHOOTFIN",
+   "bse": "533398",
+   "rank": 87,
+   "primer": "muthoot-finance.html"
+  },
+  {
+   "name": "Indian Railway Finance Corporation",
+   "nse": "IRFC",
+   "bse": "543257",
+   "rank": 88,
+   "primer": "irfc.html"
+  },
+  {
+   "name": "Aditya Birla Capital",
+   "nse": "ABCAPITAL",
+   "bse": "540691",
+   "rank": 108,
+   "primer": "aditya-birla-capital.html"
+  },
+  {
+   "name": "REC Limited",
+   "nse": "RECLTD",
+   "bse": "532955",
+   "rank": 118,
+   "primer": "rec-limited.html"
+  },
+  {
+   "name": "L&T Finance Limited",
+   "nse": "LTF",
+   "bse": "533519",
+   "rank": 141,
+   "primer": "lt-finance.html"
+  },
+  {
+   "name": "HDB Financial Services Limited",
+   "nse": "HDBFS",
+   "bse": "544429",
+   "rank": 179,
+   "primer": "hdb-financial-services.html"
+  },
+  {
+   "name": "SBI Cards and Payment Services Limited",
+   "nse": "SBICARD",
+   "bse": "543066",
+   "rank": 185,
+   "primer": "sbi-cards.html"
+  },
+  {
+   "name": "Sundaram Finance Limited",
+   "nse": "SUNDARMFIN",
+   "bse": "590071",
+   "rank": 199,
+   "primer": "sundaram-finance.html"
+  },
+  {
+   "name": "Piramal Finance Limited",
+   "nse": "PIRAMALFIN",
+   "bse": "544597",
+   "rank": 202,
+   "primer": "piramal-finance.html"
+  },
+  {
+   "name": "Mahindra & Mahindra Financial Services Limited",
+   "nse": "M&MFIN",
+   "bse": "532720",
+   "rank": 214,
+   "primer": "mahindra-finance.html"
+  },
+  {
+   "name": "Poonawalla Fincorp Limited",
+   "nse": "POONAWALLA",
+   "bse": "524000",
+   "rank": 238,
+   "primer": "poonawalla-fincorp.html"
+  },
+  {
+   "name": "Indian Renewable Energy Development Agency Limited",
+   "nse": "IREDA",
+   "bse": "544026",
+   "rank": 247,
+   "primer": "ireda.html"
+  },
+  {
+   "name": "Manappuram Finance Limited",
+   "nse": "MANAPPURAM",
+   "bse": "531213",
+   "rank": 279,
+   "primer": "manappuram-finance.html"
+  },
+  {
+   "name": "IIFL Finance Limited",
+   "nse": "IIFL",
+   "bse": "532636",
+   "rank": 336,
+   "primer": "iifl-finance.html"
+  },
+  {
+   "name": "Capri Global Capital Limited",
+   "nse": "CGCL",
+   "bse": "531595",
+   "rank": 337,
+   "primer": "capri-global-capital.html"
+  },
+  {
+   "name": "Sammaan Capital Limited",
+   "nse": "SAMMAANCAP",
+   "bse": "535789",
+   "rank": 350,
+   "primer": "sammaan-capital.html"
+  },
+  {
+   "name": "Five-Star Business Finance Limited",
+   "nse": "FIVESTAR",
+   "bse": "543663",
+   "rank": 415,
+   "primer": "five-star-business-finance.html"
+  },
+  {
+   "name": "SBFC Finance Limited",
+   "nse": "SBFC",
+   "bse": "543959",
+   "rank": 473,
+   "primer": "sbfc-finance.html"
+  },
+  {
+   "name": "Fedbank Financial Services Ltd.",
+   "nse": "FEDFINA",
+   "bse": "544027",
+   "rank": 678,
+   "primer": "fedbank-financial.html"
+  }
+ ],
+ "Infrastructure || Civil Construction": [
+  {
+   "name": "Larsen & Toubro Limited",
+   "nse": "LT",
+   "bse": "500510",
+   "rank": 8,
+   "primer": "larsen-and-toubro.html"
+  },
+  {
+   "name": "Rail Vikas Nigam Limited",
+   "nse": "RVNL",
+   "bse": "542649",
+   "rank": 200,
+   "primer": "rail-vikas-nigam.html"
+  },
+  {
+   "name": "NBCC (India) Limited",
+   "nse": "NBCC",
+   "bse": "534309",
+   "rank": 290,
+   "primer": "nbcc-india.html"
+  },
+  {
+   "name": "Kalpataru Projects International Limited",
+   "nse": "KPIL",
+   "bse": "522287",
+   "rank": 314,
+   "primer": "kalpataru-projects.html"
+  },
+  {
+   "name": "Cemindia Projects Limited",
+   "nse": "CEMPRO",
+   "bse": "509496",
+   "rank": 330,
+   "primer": "cemindia-projects.html"
+  },
+  {
+   "name": "KEC International Limited",
+   "nse": "KEC",
+   "bse": "532714",
+   "rank": 416,
+   "primer": "kec-international.html"
+  },
+  {
+   "name": "Techno Electric & Engineering Company Limited",
+   "nse": "TECHNOE",
+   "bse": "542141",
+   "rank": 434,
+   "primer": "techno-electric.html"
+  },
+  {
+   "name": "Ircon International Limited",
+   "nse": "IRCON",
+   "bse": "541956",
+   "rank": 440,
+   "primer": "ircon-international.html"
+  },
+  {
+   "name": "Afcons Infrastructure Limited",
+   "nse": "AFCONS",
+   "bse": "544280",
+   "rank": 458,
+   "primer": "afcons-infrastructure.html"
+  },
+  {
+   "name": "NCC Limited",
+   "nse": "NCC",
+   "bse": "500294",
+   "rank": 486,
+   "primer": "ncc.html"
+  },
+  {
+   "name": "Waaree Renewable Technologies",
+   "nse": "WAAREERTL",
+   "bse": "534618",
+   "rank": 574,
+   "primer": "waaree-renewable.html"
+  },
+  {
+   "name": "Power Mech Projects",
+   "nse": "POWERMECH",
+   "bse": "539302",
+   "rank": 594,
+   "primer": "power-mech-projects.html"
+  },
+  {
+   "name": "Welspun Enterprises",
+   "nse": "WELENT",
+   "bse": "532553",
+   "rank": 600,
+   "primer": "welspun-enterprises.html"
+  },
+  {
+   "name": "Dilip Buildcon Ltd.",
+   "nse": "DBL",
+   "bse": "540047",
+   "rank": 636,
+   "primer": "dilip-buildcon.html"
+  },
+  {
+   "name": "Transrail Lighting Ltd.",
+   "nse": "TRANSRAILL",
+   "bse": "544317",
+   "rank": 652,
+   "primer": "transrail-lighting.html"
+  },
+  {
+   "name": "PNC Infratech Ltd.",
+   "nse": "PNCINFRA",
+   "bse": "539150",
+   "rank": 664,
+   "primer": "pnc-infratech.html"
+  },
+  {
+   "name": "Hindustan Construction Co. Ltd.",
+   "nse": "HCC",
+   "bse": "500185",
+   "rank": 674,
+   "primer": "hindustan-construction.html"
+  },
+  {
+   "name": "Ahluwalia Contracts (India) Ltd.",
+   "nse": "AHLUCONT",
+   "bse": "532811",
+   "rank": 682,
+   "primer": "ahluwalia-contracts.html"
+  },
+  {
+   "name": "Sterling and Wilson Renewable Energy Ltd.",
+   "nse": "SWSOLAR",
+   "bse": "542760",
+   "rank": 701,
+   "primer": "sterling-wilson-renewable.html"
+  },
+  {
+   "name": "H.G. Infra Engineering Ltd.",
+   "nse": "HGINFRA",
+   "bse": "541019",
+   "rank": 739,
+   "primer": "hg-infra-engineering.html"
+  },
+  {
+   "name": "Ashoka Buildcon",
+   "nse": "ASHOKA",
+   "bse": "533271",
+   "rank": 741,
+   "primer": "ashoka-buildcon.html"
+  },
+  {
+   "name": "KNR Constructions",
+   "nse": "KNRCON",
+   "bse": "532942",
+   "rank": 742,
+   "primer": "knr-constructions.html"
+  }
+ ],
+ "Insurance || Life Insurance": [
+  {
+   "name": "Life Insurance Corporation of India",
+   "nse": "LICI",
+   "bse": "543526",
+   "rank": 9,
+   "primer": "lic.html"
+  },
+  {
+   "name": "SBI Life Insurance Company Limited",
+   "nse": "SBILIFE",
+   "bse": "540719",
+   "rank": 48,
+   "primer": "sbi-life.html"
+  },
+  {
+   "name": "HDFC Life Insurance Company",
+   "nse": "HDFCLIFE",
+   "bse": "540777",
+   "rank": 82,
+   "primer": "hdfc-life.html"
+  },
+  {
+   "name": "ICICI Prudential Life Insurance",
+   "nse": "ICICIPRULI",
+   "bse": "540133",
+   "rank": 157,
+   "primer": "icici-prudential-life.html"
+  },
+  {
+   "name": "Max Financial Services Limited",
+   "nse": "MFSL",
+   "bse": "500271",
+   "rank": 191,
+   "primer": "max-financial.html"
+  },
+  {
+   "name": "Canara HSBC Life Insurance Company Limited",
+   "nse": "CANHLIFE",
+   "bse": "544583",
+   "rank": 431,
+   "primer": "canara-hsbc-life.html"
+  }
+ ],
+ "FMCG || Diversified FMCG": [
+  {
+   "name": "Hindustan Unilever Limited",
+   "nse": "HINDUNILVR",
+   "bse": "500696",
+   "rank": 10,
+   "primer": "hindustan-unilever.html"
+  },
+  {
+   "name": "ITC Limited",
+   "nse": "ITC",
+   "bse": "500875",
+   "rank": 21,
+   "primer": "itc.html"
+  }
+ ],
+ "Power || Power Generation": [
+  {
+   "name": "Adani Power Limited",
+   "nse": "ADANIPOWER",
+   "bse": "533096",
+   "rank": 12,
+   "primer": "adani-power.html"
+  },
+  {
+   "name": "NTPC Limited",
+   "nse": "NTPC",
+   "bse": "532555",
+   "rank": 22,
+   "primer": "ntpc.html"
+  },
+  {
+   "name": "Adani Green Energy Limited",
+   "nse": "ADANIGREEN",
+   "bse": "541450",
+   "rank": 36,
+   "primer": "adani-green-energy.html"
+  },
+  {
+   "name": "JSW Energy",
+   "nse": "JSWENERGY",
+   "bse": "533148",
+   "rank": 107,
+   "primer": "jsw-energy.html"
+  },
+  {
+   "name": "NHPC Limited",
+   "nse": "NHPC",
+   "bse": "533098",
+   "rank": 132,
+   "primer": "nhpc.html"
+  },
+  {
+   "name": "NTPC Green Energy Ltd.",
+   "nse": "NTPCGREEN",
+   "bse": "544289",
+   "rank": 134,
+   "primer": "ntpc-green-energy.html"
+  },
+  {
+   "name": "NLC India Limited",
+   "nse": "NLCINDIA",
+   "bse": "513683",
+   "rank": 208,
+   "primer": "nlc-india.html"
+  },
+  {
+   "name": "SJVN Limited",
+   "nse": "SJVN",
+   "bse": "533206",
+   "rank": 284,
+   "primer": "sjvn.html"
+  },
+  {
+   "name": "ACME Solar Holdings Limited",
+   "nse": "ACMESOLAR",
+   "bse": "544283",
+   "rank": 298,
+   "primer": "acme-solar-holdings.html"
+  },
+  {
+   "name": "Jaiprakash Power Ventures Limited",
+   "nse": "JPPOWER",
+   "bse": "532627",
+   "rank": 441,
+   "primer": "jaiprakash-power.html"
+  },
+  {
+   "name": "Reliance Power Limited",
+   "nse": "RPOWER",
+   "bse": "532939",
+   "rank": 472,
+   "primer": "reliance-power.html"
+  },
+  {
+   "name": "KPI Green Energy Ltd.",
+   "nse": "KPIGREEN",
+   "bse": "542323",
+   "rank": 616,
+   "primer": "kpi-green-energy.html"
+  },
+  {
+   "name": "GMR Power and Urban Infra Ltd.",
+   "nse": "GMRP&UI",
+   "bse": "543490",
+   "rank": 620,
+   "primer": "gmr-power-urban-infra.html"
+  },
+  {
+   "name": "RattanIndia Power Ltd.",
+   "nse": "RTNPOWER",
+   "bse": "533122",
+   "rank": 706,
+   "primer": "rattanindia-power.html"
+  }
+ ],
+ "Healthcare || Pharmaceuticals": [
+  {
+   "name": "Sun Pharmaceutical Industries Limited",
+   "nse": "SUNPHARMA",
+   "bse": "524715",
+   "rank": 11,
+   "primer": "sun-pharma.html"
+  },
+  {
+   "name": "Divi's Laboratories Limited",
+   "nse": "DIVISLAB",
+   "bse": "532488",
+   "rank": 49,
+   "primer": "divis-laboratories.html"
+  },
+  {
+   "name": "Torrent Pharmaceuticals Limited",
+   "nse": "TORNTPHARM",
+   "bse": "500420",
+   "rank": 57,
+   "primer": "torrent-pharma.html"
+  },
+  {
+   "name": "Cipla",
+   "nse": "CIPLA",
+   "bse": "500087",
+   "rank": 89,
+   "primer": "cipla.html"
+  },
+  {
+   "name": "Dr. Reddy's Laboratories",
+   "nse": "DRREDDY",
+   "bse": "500124",
+   "rank": 95,
+   "primer": "dr-reddys.html"
+  },
+  {
+   "name": "Zydus Lifesciences",
+   "nse": "ZYDUSLIFE",
+   "bse": "532321",
+   "rank": 96,
+   "primer": "zydus-lifesciences.html"
+  },
+  {
+   "name": "Lupin Limited",
+   "nse": "LUPIN",
+   "bse": "500257",
+   "rank": 100,
+   "primer": "lupin.html"
+  },
+  {
+   "name": "Mankind Pharma Limited",
+   "nse": "MANKIND",
+   "bse": "543904",
+   "rank": 112,
+   "primer": "mankind-pharma.html"
+  },
+  {
+   "name": "Aurobindo Pharma",
+   "nse": "AUROPHARMA",
+   "bse": "524804",
+   "rank": 125,
+   "primer": "aurobindo-pharma.html"
+  },
+  {
+   "name": "Laurus Labs Limited",
+   "nse": "LAURUSLABS",
+   "bse": "540222",
+   "rank": 133,
+   "primer": "laurus-labs.html"
+  },
+  {
+   "name": "Biocon Limited",
+   "nse": "BIOCON",
+   "bse": "532523",
+   "rank": 164,
+   "primer": "biocon.html"
+  },
+  {
+   "name": "Alkem Laboratories Limited",
+   "nse": "ALKEM",
+   "bse": "539523",
+   "rank": 167,
+   "primer": "alkem-laboratories.html"
+  },
+  {
+   "name": "Glenmark Pharmaceuticals Limited",
+   "nse": "GLENMARK",
+   "bse": "532296",
+   "rank": 178,
+   "primer": "glenmark-pharmaceuticals.html"
+  },
+  {
+   "name": "Abbott India Limited",
+   "nse": "ABBOTINDIA",
+   "bse": "500488",
+   "rank": 194,
+   "primer": "abbott-india.html"
+  },
+  {
+   "name": "Ipca Laboratories Limited",
+   "nse": "IPCALAB",
+   "bse": "524494",
+   "rank": 219,
+   "primer": "ipca-laboratories.html"
+  },
+  {
+   "name": "Ajanta Pharma Limited",
+   "nse": "AJANTPHARM",
+   "bse": "532331",
+   "rank": 224,
+   "primer": "ajanta-pharma.html"
+  },
+  {
+   "name": "GlaxoSmithKline Pharmaceuticals Limited",
+   "nse": "GLAXO",
+   "bse": "500660",
+   "rank": 228,
+   "primer": "gsk-pharma.html"
+  },
+  {
+   "name": "Gland Pharma Limited",
+   "nse": "GLAND",
+   "bse": "543245",
+   "rank": 229,
+   "primer": "gland-pharma.html"
+  },
+  {
+   "name": "J. B. Chemicals & Pharmaceuticals Limited",
+   "nse": "JBCHEPHARM",
+   "bse": "506943",
+   "rank": 242,
+   "primer": "jb-chemicals.html"
+  },
+  {
+   "name": "Emcure Pharmaceuticals Limited",
+   "nse": "EMCURE",
+   "bse": "544210",
+   "rank": 250,
+   "primer": "emcure-pharmaceuticals.html"
+  },
+  {
+   "name": "Wockhardt Limited",
+   "nse": "WOCKPHARMA",
+   "bse": "532300",
+   "rank": 272,
+   "primer": "wockhardt.html"
+  },
+  {
+   "name": "Sai Life Sciences Limited",
+   "nse": "SAILIFE",
+   "bse": "544306",
+   "rank": 299,
+   "primer": "sai-life-sciences.html"
+  },
+  {
+   "name": "Neuland Laboratories Limited",
+   "nse": "NEULANDLAB",
+   "bse": "524558",
+   "rank": 315,
+   "primer": "neuland-laboratories.html"
+  },
+  {
+   "name": "Piramal Pharma Limited",
+   "nse": "PPLPHARMA",
+   "bse": "543635",
+   "rank": 325,
+   "primer": "piramal-pharma.html"
+  },
+  {
+   "name": "Pfizer Limited",
+   "nse": "PFIZER",
+   "bse": "500680",
+   "rank": 342,
+   "primer": "pfizer-india.html"
+  },
+  {
+   "name": "Caplin Point Laboratories Limited",
+   "nse": "CAPLIPOINT",
+   "bse": "524742",
+   "rank": 344,
+   "primer": "caplin-point-laboratories.html"
+  },
+  {
+   "name": "Granules India Limited",
+   "nse": "GRANULES",
+   "bse": "532482",
+   "rank": 345,
+   "primer": "granules-india.html"
+  },
+  {
+   "name": "Eris Lifesciences Limited",
+   "nse": "ERIS",
+   "bse": "540596",
+   "rank": 349,
+   "primer": "eris-lifesciences.html"
+  },
+  {
+   "name": "Onesource Specialty Pharma Limited",
+   "nse": "ONESOURCE",
+   "bse": "544292",
+   "rank": 364,
+   "primer": "onesource-specialty-pharma.html"
+  },
+  {
+   "name": "Cohance Lifesciences Limited",
+   "nse": "COHANCE",
+   "bse": "543064",
+   "rank": 378,
+   "primer": "cohance-lifesciences.html"
+  },
+  {
+   "name": "NATCO Pharma Limited",
+   "nse": "NATCOPHARM",
+   "bse": "524816",
+   "rank": 388,
+   "primer": "natco-pharma.html"
+  },
+  {
+   "name": "Jubilant Pharmova Limited",
+   "nse": "JUBLPHARMA",
+   "bse": "530019",
+   "rank": 405,
+   "primer": "jubilant-pharmova.html"
+  },
+  {
+   "name": "Concord Biotech Limited",
+   "nse": "CONCORDBIO",
+   "bse": "543960",
+   "rank": 428,
+   "primer": "concord-biotech.html"
+  },
+  {
+   "name": "Rubicon Research Limited",
+   "nse": "RUBICON",
+   "bse": "544578",
+   "rank": 503,
+   "primer": "rubicon-research.html"
+  },
+  {
+   "name": "Alembic Pharmaceuticals Limited",
+   "nse": "APLLTD",
+   "bse": "533573",
+   "rank": 518,
+   "primer": "alembic-pharmaceuticals.html"
+  },
+  {
+   "name": "Alivus Life Sciences Limited",
+   "nse": "ALIVUS",
+   "bse": "543322",
+   "rank": 529,
+   "primer": "alivus-life-sciences.html"
+  },
+  {
+   "name": "Corona Remedies",
+   "nse": "CORONA",
+   "bse": "544644",
+   "rank": 537,
+   "primer": "corona-remedies.html"
+  },
+  {
+   "name": "Shilpa Medicare Limited",
+   "nse": "SHILPAMED",
+   "bse": "530549",
+   "rank": 544,
+   "primer": "shilpa-medicare.html"
+  },
+  {
+   "name": "Marksans Pharma Limited",
+   "nse": "MARKSANS",
+   "bse": "524404",
+   "rank": 547,
+   "primer": "marksans-pharma.html"
+  },
+  {
+   "name": "Viyash Scientific Limited",
+   "nse": "VIYASH",
+   "bse": "512529",
+   "rank": 551,
+   "primer": "viyash-scientific.html"
+  },
+  {
+   "name": "Sanofi Consumer Healthcare India Limited",
+   "nse": "SANOFICONR",
+   "bse": "544250",
+   "rank": 555,
+   "primer": "sanofi-consumer-healthcare.html"
+  },
+  {
+   "name": "Akums Drugs and Pharmaceuticals Ltd.",
+   "nse": "AKUMS",
+   "bse": "544222",
+   "rank": 559,
+   "primer": "akums-drugs.html"
+  },
+  {
+   "name": "Strides Pharma Science",
+   "nse": "STAR",
+   "bse": "532531",
+   "rank": 578,
+   "primer": "strides-pharma.html"
+  },
+  {
+   "name": "Sun Pharma Advanced Research Company Ltd.",
+   "nse": "SPARC",
+   "bse": "532872",
+   "rank": 642,
+   "primer": "sun-pharma-advanced-research.html"
+  },
+  {
+   "name": "Supriya Lifescience Ltd.",
+   "nse": "SUPRIYA",
+   "bse": "543434",
+   "rank": 646,
+   "primer": "supriya-lifescience.html"
+  },
+  {
+   "name": "Aarti Pharmalabs Ltd.",
+   "nse": "AARTIPHARM",
+   "bse": "543748",
+   "rank": 656,
+   "primer": "aarti-pharmalabs.html"
+  },
+  {
+   "name": "Aarti Drugs Ltd.",
+   "nse": "AARTIDRUGS",
+   "bse": "524348",
+   "rank": 736,
+   "primer": "aarti-drugs.html"
+  }
+ ],
+ "Logistics || Port & Port services": [
+  {
+   "name": "Adani Ports and Special Economic Zone Limited",
+   "nse": "ADANIPORTS",
+   "bse": "532921",
+   "rank": 16,
+   "primer": "adani-ports.html"
+  },
+  {
+   "name": "JSW Infrastructure Limited",
+   "nse": "JSWINFRA",
+   "bse": "543994",
+   "rank": 159,
+   "primer": "jsw-infrastructure.html"
+  },
+  {
+   "name": "Gujarat Pipavav Port Ltd.",
+   "nse": "GPPL",
+   "bse": "533248",
+   "rank": 633,
+   "primer": "gujarat-pipavav-port.html"
+  }
+ ],
+ "Automobile & Ancillaries || Passenger Cars & Utility Vehicles": [
+  {
+   "name": "Maruti Suzuki India Limited",
+   "nse": "MARUTI",
+   "bse": "532500",
+   "rank": 13,
+   "primer": "maruti-suzuki.html"
+  },
+  {
+   "name": "Tata Motors (Commercial Vehicles)",
+   "nse": "TMCV",
+   "bse": "544569",
+   "rank": 58,
+   "primer": "tata-motors-cv.html"
+  },
+  {
+   "name": "Hyundai Motor India",
+   "nse": "HYUNDAI",
+   "bse": "544274",
+   "rank": 65,
+   "primer": "hyundai-motor-india.html"
+  },
+  {
+   "name": "Tata Motors Passenger Vehicles",
+   "nse": "TMPV",
+   "bse": "500570",
+   "rank": 79,
+   "primer": "tata-motors-pv.html"
+  }
+ ],
+ "Automobile & Ancillaries || Commercial Vehicles": [
+  {
+   "name": "Mahindra & Mahindra Limited",
+   "nse": "M&M",
+   "bse": "500520",
+   "rank": 20,
+   "primer": "mahindra-and-mahindra.html"
+  },
+  {
+   "name": "Ashok Leyland Limited",
+   "nse": "ASHOKLEY",
+   "bse": "500477",
+   "rank": 123,
+   "primer": "ashok-leyland.html"
+  },
+  {
+   "name": "Force Motors Limited",
+   "nse": "FORCEMOT",
+   "bse": "500033",
+   "rank": 316,
+   "primer": "force-motors.html"
+  },
+  {
+   "name": "Olectra Greentech Limited",
+   "nse": "OLECTRA",
+   "bse": "532439",
+   "rank": 443,
+   "primer": "olectra-greentech.html"
+  },
+  {
+   "name": "SML Mahindra Ltd.",
+   "nse": "SMLMAH",
+   "bse": "505192",
+   "rank": 677,
+   "primer": "sml-mahindra.html"
+  }
+ ],
+ "Diversified || Diversified": [
+  {
+   "name": "Adani Enterprises Limited",
+   "nse": "ADANIENT",
+   "bse": "512599",
+   "rank": 17,
+   "primer": "adani-enterprises.html"
+  },
+  {
+   "name": "Grasim Industries Limited",
+   "nse": "GRASIM",
+   "bse": "500300",
+   "rank": 42,
+   "primer": "grasim-industries.html"
+  },
+  {
+   "name": "Godrej Industries Limited",
+   "nse": "GODREJIND",
+   "bse": "500164",
+   "rank": 236,
+   "primer": "godrej-industries.html"
+  },
+  {
+   "name": "3M India Limited",
+   "nse": "3MINDIA",
+   "bse": "523395",
+   "rank": 241,
+   "primer": "3m-india.html"
+  },
+  {
+   "name": "DCM Shriram Limited",
+   "nse": "DCMSHRIRAM",
+   "bse": "523367",
+   "rank": 397,
+   "primer": "dcm-shriram.html"
+  },
+  {
+   "name": "Swan Corp Limited",
+   "nse": "SWANCORP",
+   "bse": "503310",
+   "rank": 480,
+   "primer": "swan-corp.html"
+  },
+  {
+   "name": "RattanIndia Enterprises Ltd.",
+   "nse": "RTNINDIA",
+   "bse": "534597",
+   "rank": 714,
+   "primer": "rattanindia-enterprises.html"
+  }
+ ],
+ "Diamond & Jewellery || Gems, Jewellery And Watches": [
+  {
+   "name": "Titan Company Limited",
+   "nse": "TITAN",
+   "bse": "500114",
+   "rank": 19,
+   "primer": "titan-company.html"
+  },
+  {
+   "name": "Kalyan Jewellers India Limited",
+   "nse": "KALYANKJIL",
+   "bse": "543278",
+   "rank": 233,
+   "primer": "kalyan-jewellers.html"
+  },
+  {
+   "name": "Thangamayil Jewellery Limited",
+   "nse": "THANGAMAYL",
+   "bse": "533158",
+   "rank": 505,
+   "primer": "thangamayil-jewellery.html"
+  },
+  {
+   "name": "BlueStone Jewellery and Lifestyle Limited",
+   "nse": "BLUESTONE",
+   "bse": "544484",
+   "rank": 541,
+   "primer": "bluestone-jewellery.html"
+  },
+  {
+   "name": "Sky Gold and Diamonds Limited",
+   "nse": "SKYGOLD",
+   "bse": "541967",
+   "rank": 562,
+   "primer": "sky-gold.html"
+  },
+  {
+   "name": "PC Jeweller Limited",
+   "nse": "PCJEWELLER",
+   "bse": "534809",
+   "rank": 586,
+   "primer": "pc-jeweller.html"
+  },
+  {
+   "name": "P N Gadgil Jewellers Limited",
+   "nse": "PNGJL",
+   "bse": "544256",
+   "rank": 588,
+   "primer": "pn-gadgil-jewellers.html"
+  },
+  {
+   "name": "Ethos Ltd.",
+   "nse": "ETHOSLTD",
+   "bse": "543532",
+   "rank": 644,
+   "primer": "ethos.html"
+  },
+  {
+   "name": "Senco Gold Ltd.",
+   "nse": "SENCO",
+   "bse": "543936",
+   "rank": 645,
+   "primer": "senco-gold.html"
+  }
+ ],
+ "Crude Oil || Oil Exploration & Production": [
+  {
+   "name": "Oil and Natural Gas Corporation Limited",
+   "nse": "ONGC",
+   "bse": "500312",
+   "rank": 27,
+   "primer": "ongc.html"
+  },
+  {
+   "name": "Oil India Limited",
+   "nse": "OIL",
+   "bse": "533106",
+   "rank": 161,
+   "primer": "oil-india.html"
+  }
+ ],
+ "Construction Materials || Cement & Cement Products": [
+  {
+   "name": "UltraTech Cement Limited",
+   "nse": "ULTRACEMCO",
+   "bse": "532538",
+   "rank": 23,
+   "primer": "ultratech-cement.html"
+  },
+  {
+   "name": "Ambuja Cements Limited",
+   "nse": "AMBUJACEM",
+   "bse": "500425",
+   "rank": 109,
+   "primer": "ambuja-cements.html"
+  },
+  {
+   "name": "Shree Cement Limited",
+   "nse": "SHREECEM",
+   "bse": "500387",
+   "rank": 124,
+   "primer": "shree-cement.html"
+  },
+  {
+   "name": "J.K. Cement Limited",
+   "nse": "JKCEMENT",
+   "bse": "532644",
+   "rank": 223,
+   "primer": "jk-cement.html"
+  },
+  {
+   "name": "Dalmia Bharat Limited",
+   "nse": "DALBHARAT",
+   "bse": "542216",
+   "rank": 271,
+   "primer": "dalmia-bharat.html"
+  },
+  {
+   "name": "ACC Limited",
+   "nse": "ACC",
+   "bse": "500410",
+   "rank": 310,
+   "primer": "acc.html"
+  },
+  {
+   "name": "The Ramco Cements Limited",
+   "nse": "RAMCOCEM",
+   "bse": "500260",
+   "rank": 328,
+   "primer": "ramco-cements.html"
+  },
+  {
+   "name": "JSW Cement Limited",
+   "nse": "JSWCEMENT",
+   "bse": "544480",
+   "rank": 368,
+   "primer": "jsw-cement.html"
+  },
+  {
+   "name": "The India Cements Limited",
+   "nse": "INDIACEM",
+   "bse": "530005",
+   "rank": 379,
+   "primer": "india-cements.html"
+  },
+  {
+   "name": "Nuvoco Vistas Corporation Limited",
+   "nse": "NUVOCO",
+   "bse": "543334",
+   "rank": 464,
+   "primer": "nuvoco-vistas.html"
+  },
+  {
+   "name": "Star Cement",
+   "nse": "STARCEMENT",
+   "bse": "540575",
+   "rank": 601,
+   "primer": "star-cement.html"
+  },
+  {
+   "name": "JK Lakshmi Cement Ltd.",
+   "nse": "JKLAKSHMI",
+   "bse": "500380",
+   "rank": 638,
+   "primer": "jk-lakshmi-cement.html"
+  },
+  {
+   "name": "Birla Corporation Ltd.",
+   "nse": "BIRLACORPN",
+   "bse": "500335",
+   "rank": 639,
+   "primer": "birla-corporation.html"
+  },
+  {
+   "name": "Prism Johnson Ltd.",
+   "nse": "PRSMJOHNSN",
+   "bse": "500338",
+   "rank": 685,
+   "primer": "prism-johnson.html"
+  },
+  {
+   "name": "Orient Cement",
+   "nse": "ORIENTCEM",
+   "bse": "535754",
+   "rank": 747,
+   "primer": "orient-cement.html"
+  }
+ ],
+ "Iron & Steel || Iron & Steel": [
+  {
+   "name": "JSW Steel Limited",
+   "nse": "JSWSTEEL",
+   "bse": "500228",
+   "rank": 25,
+   "primer": "jsw-steel.html"
+  },
+  {
+   "name": "Tata Steel Limited",
+   "nse": "TATASTEEL",
+   "bse": "500470",
+   "rank": 39,
+   "primer": "tata-steel.html"
+  },
+  {
+   "name": "Jindal Steel Limited",
+   "nse": "JINDALSTEL",
+   "bse": "532286",
+   "rank": 102,
+   "primer": "jindal-steel.html"
+  },
+  {
+   "name": "Lloyds Metals and Energy",
+   "nse": "LLOYDSME",
+   "bse": "512455",
+   "rank": 113,
+   "primer": "lloyds-metals.html"
+  },
+  {
+   "name": "Steel Authority of India",
+   "nse": "SAIL",
+   "bse": "500113",
+   "rank": 154,
+   "primer": "sail.html"
+  },
+  {
+   "name": "Jindal Stainless Limited",
+   "nse": "JSL",
+   "bse": "532508",
+   "rank": 186,
+   "primer": "jindal-stainless.html"
+  },
+  {
+   "name": "Shyam Metalics and Energy Limited",
+   "nse": "SHYAMMETL",
+   "bse": "543299",
+   "rank": 302,
+   "primer": "shyam-metalics.html"
+  },
+  {
+   "name": "Sarda Energy & Minerals Limited",
+   "nse": "SARDAEN",
+   "bse": "504614",
+   "rank": 369,
+   "primer": "sarda-energy-minerals.html"
+  },
+  {
+   "name": "Godawari Power & Ispat Limited",
+   "nse": "GPIL",
+   "bse": "532734",
+   "rank": 384,
+   "primer": "godawari-power-ispat.html"
+  },
+  {
+   "name": "Gallantt Ispat Limited",
+   "nse": "GALLANTT",
+   "bse": "532726",
+   "rank": 387,
+   "primer": "gallantt-ispat.html"
+  },
+  {
+   "name": "NMDC Steel Limited",
+   "nse": "NSLNISP",
+   "bse": "543768",
+   "rank": 437,
+   "primer": "nmdc-steel.html"
+  },
+  {
+   "name": "Jayaswal Neco Industries",
+   "nse": "JAYNECOIND",
+   "bse": "522285",
+   "rank": 596,
+   "primer": "jayaswal-neco.html"
+  },
+  {
+   "name": "Jai Balaji Industries Ltd.",
+   "nse": "JAIBALAJI",
+   "bse": "532976",
+   "rank": 680,
+   "primer": "jai-balaji-industries.html"
+  }
+ ],
+ "Capital Goods || Aerospace & Defense": [
+  {
+   "name": "Bharat Electronics Limited",
+   "nse": "BEL",
+   "bse": "500049",
+   "rank": 24,
+   "primer": "bharat-electronics.html"
+  },
+  {
+   "name": "Hindustan Aeronautics Limited",
+   "nse": "HAL",
+   "bse": "541154",
+   "rank": 28,
+   "primer": "hindustan-aeronautics.html"
+  },
+  {
+   "name": "Bharat Dynamics Limited",
+   "nse": "BDL",
+   "bse": "541143",
+   "rank": 198,
+   "primer": "bharat-dynamics.html"
+  },
+  {
+   "name": "Data Patterns (India) Limited",
+   "nse": "DATAPATTNS",
+   "bse": "543428",
+   "rank": 309,
+   "primer": "data-patterns.html"
+  },
+  {
+   "name": "Zen Technologies Limited",
+   "nse": "ZENTEC",
+   "bse": "533339",
+   "rank": 399,
+   "primer": "zen-technologies.html"
+  },
+  {
+   "name": "MTAR Technologies Limited",
+   "nse": "MTARTECH",
+   "bse": "543270",
+   "rank": 512,
+   "primer": "mtar-technologies.html"
+  },
+  {
+   "name": "Astra Microwave Products Limited",
+   "nse": "ASTRAMICRO",
+   "bse": "532493",
+   "rank": 513,
+   "primer": "astra-microwave.html"
+  },
+  {
+   "name": "Aequs Limited",
+   "nse": "AEQUS",
+   "bse": "544634",
+   "rank": 520,
+   "primer": "aequs.html"
+  },
+  {
+   "name": "Apollo Micro Systems Limited",
+   "nse": "APOLLO",
+   "bse": "540879",
+   "rank": 523,
+   "primer": "apollo-micro-systems.html"
+  },
+  {
+   "name": "Paras Defence and Space Technologies",
+   "nse": "PARAS",
+   "bse": "543367",
+   "rank": 573,
+   "primer": "paras-defence.html"
+  },
+  {
+   "name": "Mishra Dhatu Nigam Ltd.",
+   "nse": "MIDHANI",
+   "bse": "541195",
+   "rank": 625,
+   "primer": "mishra-dhatu-nigam.html"
+  },
+  {
+   "name": "Dynamatic Technologies Ltd.",
+   "nse": "DYNAMATECH",
+   "bse": "505242",
+   "rank": 631,
+   "primer": "dynamatic-technologies.html"
+  }
+ ],
+ "Automobile & Ancillaries || 2/3 Wheelers": [
+  {
+   "name": "Bajaj Auto Limited",
+   "nse": "BAJAJ-AUTO",
+   "bse": "532977",
+   "rank": 34,
+   "primer": "bajaj-auto.html"
+  },
+  {
+   "name": "Eicher Motors Limited",
+   "nse": "EICHERMOT",
+   "bse": "505200",
+   "rank": 45,
+   "primer": "eicher-motors.html"
+  },
+  {
+   "name": "TVS Motor Company",
+   "nse": "TVSMOTOR",
+   "bse": "532343",
+   "rank": 52,
+   "primer": "tvs-motor.html"
+  },
+  {
+   "name": "Hero MotoCorp Limited",
+   "nse": "HEROMOTOCO",
+   "bse": "500182",
+   "rank": 121,
+   "primer": "hero-motocorp.html"
+  },
+  {
+   "name": "Ather Energy Limited",
+   "nse": "ATHERENERG",
+   "bse": "544397",
+   "rank": 217,
+   "primer": "ather-energy.html"
+  },
+  {
+   "name": "Ola Electric Mobility Limited",
+   "nse": "OLAELEC",
+   "bse": "544225",
+   "rank": 367,
+   "primer": "ola-electric.html"
+  }
+ ],
+ "Finance || Other Financial Services": [
+  {
+   "name": "Bajaj Finserv Ltd.",
+   "nse": "BAJAJFINSV",
+   "bse": "532978",
+   "rank": 30,
+   "primer": "bajaj-finserv.html"
+  },
+  {
+   "name": "360 ONE WAM Limited",
+   "nse": "360ONE",
+   "bse": "542772",
+   "rank": 210,
+   "primer": "360-one-wam.html"
+  },
+  {
+   "name": "Anand Rathi Wealth Limited",
+   "nse": "ANANDRATHI",
+   "bse": "543415",
+   "rank": 265,
+   "primer": "anand-rathi-wealth.html"
+  },
+  {
+   "name": "Nuvama Wealth Management Limited",
+   "nse": "NUVAMA",
+   "bse": "543988",
+   "rank": 268,
+   "primer": "nuvama-wealth.html"
+  },
+  {
+   "name": "JM Financial Limited",
+   "nse": "JMFINANCIL",
+   "bse": "523405",
+   "rank": 450,
+   "primer": "jm-financial.html"
+  },
+  {
+   "name": "Prudent Corporate Advisory Services Limited",
+   "nse": "PRUDENT",
+   "bse": "543527",
+   "rank": 543,
+   "primer": "prudent-corporate-advisory.html"
+  },
+  {
+   "name": "Edelweiss Financial Services",
+   "nse": "EDELWEISS",
+   "bse": "532922",
+   "rank": 554,
+   "primer": "edelweiss-financial-services.html"
+  }
+ ],
+ "Mining || Coal": [
+  {
+   "name": "Coal India Limited",
+   "nse": "COALINDIA",
+   "bse": "533278",
+   "rank": 31,
+   "primer": "coal-india.html"
+  },
+  {
+   "name": "Gujarat Mineral Development Corporation Limited",
+   "nse": "GMDCLTD",
+   "bse": "532181",
+   "rank": 365,
+   "primer": "gmdc.html"
+  }
+ ],
+ "Power || Power - Transmission": [
+  {
+   "name": "Power Grid Corporation of India Limited",
+   "nse": "POWERGRID",
+   "bse": "532898",
+   "rank": 33,
+   "primer": "power-grid.html"
+  },
+  {
+   "name": "Adani Energy Solutions Limited",
+   "nse": "ADANIENSOL",
+   "bse": "539254",
+   "rank": 47,
+   "primer": "adani-energy-solutions.html"
+  }
+ ],
+ "FMCG || Packaged Foods": [
+  {
+   "name": "Nestlé India Limited",
+   "nse": "NESTLEIND",
+   "bse": "500790",
+   "rank": 32,
+   "primer": "nestle-india.html"
+  },
+  {
+   "name": "Britannia Industries",
+   "nse": "BRITANNIA",
+   "bse": "500825",
+   "rank": 85,
+   "primer": "britannia-industries.html"
+  },
+  {
+   "name": "Tata Consumer Products Limited",
+   "nse": "TATACONSUM",
+   "bse": "500800",
+   "rank": 105,
+   "primer": "tata-consumer.html"
+  },
+  {
+   "name": "Zydus Wellness Limited",
+   "nse": "ZYDUSWELL",
+   "bse": "531335",
+   "rank": 370,
+   "primer": "zydus-wellness.html"
+  },
+  {
+   "name": "Bikaji Foods International Limited",
+   "nse": "BIKAJI",
+   "bse": "543653",
+   "rank": 395,
+   "primer": "bikaji-foods.html"
+  },
+  {
+   "name": "Orkla India Ltd.",
+   "nse": "ORKLAINDIA",
+   "bse": "544595",
+   "rank": 617,
+   "primer": "orkla-india.html"
+  },
+  {
+   "name": "Mrs. Bectors Food Specialities Ltd.",
+   "nse": "BECTORFOOD",
+   "bse": "543253",
+   "rank": 653,
+   "primer": "mrs-bectors-food.html"
+  },
+  {
+   "name": "Heritage Foods",
+   "nse": "HERITGFOOD",
+   "bse": "519552",
+   "rank": 745,
+   "primer": "heritage-foods.html"
+  }
+ ],
+ "Non - Ferrous Metals || Zinc": [
+  {
+   "name": "Hindustan Zinc Limited",
+   "nse": "HINDZINC",
+   "bse": "500188",
+   "rank": 40,
+   "primer": "hindustan-zinc.html"
+  }
+ ],
+ "Retailing || Diversified Retail": [
+  {
+   "name": "Avenue Supermarts Limited",
+   "nse": "DMART",
+   "bse": "540376",
+   "rank": 29,
+   "primer": "avenue-supermarts.html"
+  },
+  {
+   "name": "Vishal Mega Mart Limited",
+   "nse": "VMM",
+   "bse": "544307",
+   "rank": 193,
+   "primer": "vishal-mega-mart.html"
+  },
+  {
+   "name": "V2 Retail",
+   "nse": "V2RETAIL",
+   "bse": "532867",
+   "rank": 603,
+   "primer": "v2-retail.html"
+  },
+  {
+   "name": "V-Mart Retail Ltd.",
+   "nse": "VMART",
+   "bse": "534976",
+   "rank": 679,
+   "primer": "v-mart-retail.html"
+  }
+ ],
+ "Non - Ferrous Metals || Aluminium": [
+  {
+   "name": "Hindalco Industries Limited",
+   "nse": "HINDALCO",
+   "bse": "500440",
+   "rank": 41,
+   "primer": "hindalco.html"
+  },
+  {
+   "name": "National Aluminium Company Limited",
+   "nse": "NATIONALUM",
+   "bse": "532234",
+   "rank": 176,
+   "primer": "national-aluminium.html"
+  }
+ ],
+ "Chemicals || Paints": [
+  {
+   "name": "Asian Paints Limited",
+   "nse": "ASIANPAINT",
+   "bse": "500820",
+   "rank": 35,
+   "primer": "asian-paints.html"
+  },
+  {
+   "name": "Berger Paints India Limited",
+   "nse": "BERGEPAINT",
+   "bse": "509480",
+   "rank": 180,
+   "primer": "berger-paints.html"
+  },
+  {
+   "name": "JSW Dulux Limited",
+   "nse": "JSWDULUX",
+   "bse": "500710",
+   "rank": 409,
+   "primer": "jsw-dulux.html"
+  },
+  {
+   "name": "Kansai Nerolac Paints Limited",
+   "nse": "KANSAINER",
+   "bse": "500165",
+   "rank": 516,
+   "primer": "kansai-nerolac.html"
+  },
+  {
+   "name": "Indigo Paints Ltd.",
+   "nse": "INDIGOPNTS",
+   "bse": "543258",
+   "rank": 697,
+   "primer": "indigo-paints.html"
+  }
+ ],
+ "Retailing || E-Retail/ E-Commerce": [
+  {
+   "name": "Eternal Limited",
+   "nse": "ETERNAL",
+   "bse": "543320",
+   "rank": 38,
+   "primer": "eternal.html"
+  },
+  {
+   "name": "Meesho Ltd.",
+   "nse": "MEESHO",
+   "bse": "544632",
+   "rank": 126,
+   "primer": "meesho.html"
+  },
+  {
+   "name": "Nykaa (FSN E-Commerce Ventures)",
+   "nse": "NYKAA",
+   "bse": "543384",
+   "rank": 129,
+   "primer": "nykaa.html"
+  },
+  {
+   "name": "Swiggy Limited",
+   "nse": "SWIGGY",
+   "bse": "544285",
+   "rank": 177,
+   "primer": "swiggy.html"
+  },
+  {
+   "name": "Urban Company Limited",
+   "nse": "URBANCO",
+   "bse": "544515",
+   "rank": 352,
+   "primer": "urban-company.html"
+  },
+  {
+   "name": "Brainbees Solutions Limited (FirstCry)",
+   "nse": "FIRSTCRY",
+   "bse": "544226",
+   "rank": 465,
+   "primer": "firstcry-brainbees.html"
+  },
+  {
+   "name": "Vaibhav Global Ltd.",
+   "nse": "VAIBHAVGBL",
+   "bse": "532156",
+   "rank": 716,
+   "primer": "vaibhav-global.html"
+  }
+ ],
+ "FMCG || Other Beverages": [
+  {
+   "name": "Varun Beverages Limited",
+   "nse": "VBL",
+   "bse": "540180",
+   "rank": 51,
+   "primer": "varun-beverages.html"
+  }
+ ],
+ "Aviation || Airline": [
+  {
+   "name": "InterGlobe Aviation Limited",
+   "nse": "INDIGO",
+   "bse": "539448",
+   "rank": 43,
+   "primer": "interglobe-aviation.html"
+  }
+ ],
+ "Finance || Asset Management Company": [
+  {
+   "name": "ICICI Prudential Asset Management Company",
+   "nse": "ICICIAMC",
+   "bse": "544658",
+   "rank": 54,
+   "primer": "icici-prudential-amc.html"
+  },
+  {
+   "name": "HDFC Asset Management Company",
+   "nse": "HDFCAMC",
+   "bse": "541729",
+   "rank": 97,
+   "primer": "hdfc-amc.html"
+  },
+  {
+   "name": "Nippon Life India Asset Management",
+   "nse": "NAM-INDIA",
+   "bse": "540767",
+   "rank": 145,
+   "primer": "nippon-life-india-amc.html"
+  },
+  {
+   "name": "Aditya Birla Sun Life AMC Limited",
+   "nse": "ABSLAMC",
+   "bse": "543374",
+   "rank": 263,
+   "primer": "aditya-birla-sun-life-amc.html"
+  },
+  {
+   "name": "UTI Asset Management Company Limited",
+   "nse": "UTIAMC",
+   "bse": "543238",
+   "rank": 448,
+   "primer": "uti-amc.html"
+  },
+  {
+   "name": "Canara Robeco Asset Management Company Ltd.",
+   "nse": "CRAMC",
+   "bse": "544580",
+   "rank": 695,
+   "primer": "canara-robeco-amc.html"
+  }
+ ],
+ "Chemicals || Explosives": [
+  {
+   "name": "Solar Industries India Limited",
+   "nse": "SOLARINDS",
+   "bse": "532725",
+   "rank": 53,
+   "primer": "solar-industries.html"
+  }
+ ],
+ "Capital Goods || Heavy Electrical Equipment": [
+  {
+   "name": "Hitachi Energy India",
+   "nse": "POWERINDIA",
+   "bse": "543187",
+   "rank": 63,
+   "primer": "hitachi-energy-india.html"
+  },
+  {
+   "name": "Bharat Heavy Electricals",
+   "nse": "BHEL",
+   "bse": "500103",
+   "rank": 71,
+   "primer": "bhel.html"
+  },
+  {
+   "name": "Siemens Energy India",
+   "nse": "ENRIN",
+   "bse": "544390",
+   "rank": 76,
+   "primer": "siemens-energy-india.html"
+  },
+  {
+   "name": "Siemens Limited",
+   "nse": "SIEMENS",
+   "bse": "500550",
+   "rank": 77,
+   "primer": "siemens-limited.html"
+  },
+  {
+   "name": "GE Vernova T&D India",
+   "nse": "GVT&D",
+   "bse": "522275",
+   "rank": 81,
+   "primer": "ge-vernova-td-india.html"
+  },
+  {
+   "name": "Thermax Limited",
+   "nse": "THERMAX",
+   "bse": "500411",
+   "rank": 182,
+   "primer": "thermax.html"
+  },
+  {
+   "name": "Schneider Electric Infrastructure Limited",
+   "nse": "SCHNEIDER",
+   "bse": "534139",
+   "rank": 261,
+   "primer": "schneider-electric-infrastructure.html"
+  },
+  {
+   "name": "Triveni Turbine Limited",
+   "nse": "TRITURBINE",
+   "bse": "533655",
+   "rank": 327,
+   "primer": "triveni-turbine.html"
+  },
+  {
+   "name": "Transformers And Rectifiers (India) Limited",
+   "nse": "TARIL",
+   "bse": "532928",
+   "rank": 478,
+   "primer": "transformers-rectifiers.html"
+  },
+  {
+   "name": "TD Power Systems Limited",
+   "nse": "TDPOWERSYS",
+   "bse": "533553",
+   "rank": 510,
+   "primer": "td-power-systems.html"
+  },
+  {
+   "name": "Atlanta Electricals Limited",
+   "nse": "ATLANTAELE",
+   "bse": "544527",
+   "rank": 539,
+   "primer": "atlanta-electricals.html"
+  },
+  {
+   "name": "Voltamp Transformers Limited",
+   "nse": "VOLTAMP",
+   "bse": "532757",
+   "rank": 583,
+   "primer": "voltamp-transformers.html"
+  },
+  {
+   "name": "Quality Power Electrical Equipments Limited",
+   "nse": "QPOWER",
+   "bse": "544367",
+   "rank": 591,
+   "primer": "quality-power.html"
+  }
+ ],
+ "Capital Goods || Compressors, Pumps & Diesel Engines": [
+  {
+   "name": "Cummins India Limited",
+   "nse": "CUMMINSIND",
+   "bse": "500480",
+   "rank": 61,
+   "primer": "cummins-india.html"
+  },
+  {
+   "name": "Kirloskar Oil Engines Limited",
+   "nse": "KIRLOSENG",
+   "bse": "533293",
+   "rank": 254,
+   "primer": "kirloskar-oil-engines.html"
+  },
+  {
+   "name": "Elgi Equipments Limited",
+   "nse": "ELGIEQUIP",
+   "bse": "522074",
+   "rank": 353,
+   "primer": "elgi-equipments.html"
+  },
+  {
+   "name": "KSB Limited",
+   "nse": "KSB",
+   "bse": "500249",
+   "rank": 521,
+   "primer": "ksb.html"
+  },
+  {
+   "name": "Kirloskar Brothers Limited",
+   "nse": "KIRLOSBROS",
+   "bse": "500241",
+   "rank": 525,
+   "primer": "kirloskar-brothers.html"
+  },
+  {
+   "name": "Kirloskar Pneumatic Company Limited",
+   "nse": "KIRLPNU",
+   "bse": "505283",
+   "rank": 575,
+   "primer": "kirloskar-pneumatic.html"
+  },
+  {
+   "name": "Shakti Pumps (India) Ltd.",
+   "nse": "SHAKTIPUMP",
+   "bse": "531431",
+   "rank": 651,
+   "primer": "shakti-pumps.html"
+  },
+  {
+   "name": "Greaves Cotton Ltd.",
+   "nse": "GREAVESCOT",
+   "bse": "501455",
+   "rank": 673,
+   "primer": "greaves-cotton.html"
+  },
+  {
+   "name": "Oswal Pumps Ltd.",
+   "nse": "OSWALPUMPS",
+   "bse": "544418",
+   "rank": 730,
+   "primer": "oswal-pumps.html"
+  }
+ ],
+ "Capital Goods || Other Electrical Equipment": [
+  {
+   "name": "CG Power and Industrial Solutions",
+   "nse": "CGPOWER",
+   "bse": "500093",
+   "rank": 66,
+   "primer": "cg-power.html"
+  },
+  {
+   "name": "ABB India Limited",
+   "nse": "ABB",
+   "bse": "500002",
+   "rank": 69,
+   "primer": "abb-india.html"
+  },
+  {
+   "name": "Waaree Energies",
+   "nse": "WAAREEENER",
+   "bse": "544277",
+   "rank": 131,
+   "primer": "waaree-energies.html"
+  },
+  {
+   "name": "Suzlon Energy Limited",
+   "nse": "SUZLON",
+   "bse": "532667",
+   "rank": 138,
+   "primer": "suzlon-energy.html"
+  },
+  {
+   "name": "Premier Energies Limited",
+   "nse": "PREMIERENE",
+   "bse": "544238",
+   "rank": 205,
+   "primer": "premier-energies.html"
+  },
+  {
+   "name": "Emmvee Photovoltaic Power Limited",
+   "nse": "EMMVEE",
+   "bse": "544608",
+   "rank": 319,
+   "primer": "emmvee-photovoltaic.html"
+  },
+  {
+   "name": "HBL Engineering Limited",
+   "nse": "HBLENGINE",
+   "bse": "517271",
+   "rank": 326,
+   "primer": "hbl-engineering.html"
+  },
+  {
+   "name": "Inox Wind Limited",
+   "nse": "INOXWIND",
+   "bse": "539083",
+   "rank": 401,
+   "primer": "inox-wind.html"
+  },
+  {
+   "name": "Fujiyama Power Systems Limited",
+   "nse": "UTLSOLAR",
+   "bse": "544613",
+   "rank": 548,
+   "primer": "fujiyama-power-systems.html"
+  },
+  {
+   "name": "Inox Green Energy Services Ltd.",
+   "nse": "INOXGREEN",
+   "bse": "543667",
+   "rank": 615,
+   "primer": "inox-green-energy.html"
+  },
+  {
+   "name": "Vikram Solar Ltd.",
+   "nse": "VIKRAMSOLR",
+   "bse": "544488",
+   "rank": 649,
+   "primer": "vikram-solar.html"
+  },
+  {
+   "name": "Saatvik Green Energy Ltd.",
+   "nse": "SAATVIKGL",
+   "bse": "544526",
+   "rank": 681,
+   "primer": "saatvik-green-energy.html"
+  },
+  {
+   "name": "Websol Energy System Ltd.",
+   "nse": "WEBELSOLAR",
+   "bse": "517498",
+   "rank": 723,
+   "primer": "websol-energy.html"
+  }
+ ],
+ "Retailing || Speciality Retail": [
+  {
+   "name": "Trent Limited",
+   "nse": "TRENT",
+   "bse": "500251",
+   "rank": 50,
+   "primer": "trent.html"
+  },
+  {
+   "name": "Lenskart Solutions Ltd",
+   "nse": "LENSKART",
+   "bse": "544600",
+   "rank": 128,
+   "primer": "lenskart.html"
+  },
+  {
+   "name": "Aditya Birla Lifestyle Brands Limited",
+   "nse": "ABLBL",
+   "bse": "544403",
+   "rank": 453,
+   "primer": "aditya-birla-lifestyle-brands.html"
+  },
+  {
+   "name": "Aditya Birla Fashion and Retail Limited",
+   "nse": "ABFRL",
+   "bse": "535755",
+   "rank": 495,
+   "primer": "aditya-birla-fashion-retail.html"
+  },
+  {
+   "name": "Vedant Fashions",
+   "nse": "MANYAVAR",
+   "bse": "543463",
+   "rank": 572,
+   "primer": "vedant-fashions.html"
+  },
+  {
+   "name": "Aditya Vision Ltd.",
+   "nse": "AVL",
+   "bse": "540205",
+   "rank": 605,
+   "primer": "aditya-vision.html"
+  },
+  {
+   "name": "Arvind Fashions Ltd.",
+   "nse": "ARVINDFASN",
+   "bse": "542484",
+   "rank": 659,
+   "primer": "arvind-fashions.html"
+  },
+  {
+   "name": "Electronics Mart India Ltd.",
+   "nse": "EMIL",
+   "bse": "543626",
+   "rank": 702,
+   "primer": "electronics-mart-india.html"
+  }
+ ],
+ "Chemicals || Specialty Chemicals": [
+  {
+   "name": "Pidilite Industries Limited",
+   "nse": "PIDILITIND",
+   "bse": "500331",
+   "rank": 55,
+   "primer": "pidilite-industries.html"
+  },
+  {
+   "name": "SRF Limited",
+   "nse": "SRF",
+   "bse": "503806",
+   "rank": 136,
+   "primer": "srf-limited.html"
+  },
+  {
+   "name": "Gujarat Fluorochemicals Limited",
+   "nse": "FLUOROCHEM",
+   "bse": "542812",
+   "rank": 215,
+   "primer": "gujarat-fluorochemicals.html"
+  },
+  {
+   "name": "Navin Fluorine International Limited",
+   "nse": "NAVINFLUOR",
+   "bse": "532504",
+   "rank": 234,
+   "primer": "navin-fluorine.html"
+  },
+  {
+   "name": "Acutaas Chemicals Limited",
+   "nse": "ACUTAAS",
+   "bse": "543349",
+   "rank": 286,
+   "primer": "acutaas-chemicals.html"
+  },
+  {
+   "name": "Deepak Nitrite Limited",
+   "nse": "DEEPAKNTR",
+   "bse": "506401",
+   "rank": 332,
+   "primer": "deepak-nitrite.html"
+  },
+  {
+   "name": "Atul Ltd",
+   "nse": "ATUL",
+   "bse": "500027",
+   "rank": 351,
+   "primer": "atul-ltd.html"
+  },
+  {
+   "name": "Aarti Industries Limited",
+   "nse": "AARTIIND",
+   "bse": "524208",
+   "rank": 389,
+   "primer": "aarti-industries.html"
+  },
+  {
+   "name": "Anupam Rasayan India Limited",
+   "nse": "ANURAS",
+   "bse": "543275",
+   "rank": 414,
+   "primer": "anupam-rasayan.html"
+  },
+  {
+   "name": "Jubilant Ingrevia Limited",
+   "nse": "JUBLINGREA",
+   "bse": "543271",
+   "rank": 483,
+   "primer": "jubilant-ingrevia.html"
+  },
+  {
+   "name": "Blue Jet Healthcare Limited",
+   "nse": "BLUEJET",
+   "bse": "544009",
+   "rank": 488,
+   "primer": "blue-jet-healthcare.html"
+  },
+  {
+   "name": "Clean Science and Technology Limited",
+   "nse": "CLEAN",
+   "bse": "543318",
+   "rank": 491,
+   "primer": "clean-science.html"
+  },
+  {
+   "name": "Aether Industries Limited",
+   "nse": "AETHER",
+   "bse": "543534",
+   "rank": 507,
+   "primer": "aether-industries.html"
+  },
+  {
+   "name": "Privi Speciality Chemicals Limited",
+   "nse": "PRIVISCL",
+   "bse": "530117",
+   "rank": 526,
+   "primer": "privi-speciality-chemicals.html"
+  },
+  {
+   "name": "Sudeep Pharma Limited",
+   "nse": "SUDEEPPHRM",
+   "bse": "544619",
+   "rank": 579,
+   "primer": "sudeep-pharma.html"
+  },
+  {
+   "name": "Alkyl Amines Chemicals",
+   "nse": "ALKYLAMINE",
+   "bse": "506767",
+   "rank": 580,
+   "primer": "alkyl-amines.html"
+  },
+  {
+   "name": "Sudarshan Chemical Industries",
+   "nse": "SUDARSCHEM",
+   "bse": "506655",
+   "rank": 598,
+   "primer": "sudarshan-chemical.html"
+  },
+  {
+   "name": "Neogen Chemicals Ltd.",
+   "nse": "NEOGEN",
+   "bse": "542665",
+   "rank": 676,
+   "primer": "neogen-chemicals.html"
+  },
+  {
+   "name": "Laxmi Organic Industries Ltd.",
+   "nse": "LXCHEM",
+   "bse": "543277",
+   "rank": 692,
+   "primer": "laxmi-organic.html"
+  },
+  {
+   "name": "Advanced Enzyme Technologies Ltd.",
+   "nse": "ADVENZYMES",
+   "bse": "540025",
+   "rank": 738,
+   "primer": "advanced-enzymes.html"
+  },
+  {
+   "name": "Balaji Amines",
+   "nse": "BALAMINES",
+   "bse": "530999",
+   "rank": 750,
+   "primer": "balaji-amines.html"
+  }
+ ],
+ "Automobile & Ancillaries || Auto Components & Equipments": [
+  {
+   "name": "Samvardhana Motherson International",
+   "nse": "MOTHERSON",
+   "bse": "517334",
+   "rank": 62,
+   "primer": "samvardhana-motherson.html"
+  },
+  {
+   "name": "Bosch Limited",
+   "nse": "BOSCHLTD",
+   "bse": "500530",
+   "rank": 90,
+   "primer": "bosch.html"
+  },
+  {
+   "name": "Bharat Forge Limited",
+   "nse": "BHARATFORG",
+   "bse": "500493",
+   "rank": 116,
+   "primer": "bharat-forge.html"
+  },
+  {
+   "name": "Schaeffler India Limited",
+   "nse": "SCHAEFFLER",
+   "bse": "505790",
+   "rank": 170,
+   "primer": "schaeffler-india.html"
+  },
+  {
+   "name": "Uno Minda Limited",
+   "nse": "UNOMINDA",
+   "bse": "532539",
+   "rank": 175,
+   "primer": "uno-minda.html"
+  },
+  {
+   "name": "Tube Investments of India Limited",
+   "nse": "TIINDIA",
+   "bse": "540762",
+   "rank": 181,
+   "primer": "tube-investments.html"
+  },
+  {
+   "name": "Sona BLW Precision Forgings Limited",
+   "nse": "SONACOMS",
+   "bse": "543300",
+   "rank": 240,
+   "primer": "sona-blw.html"
+  },
+  {
+   "name": "Endurance Technologies Limited",
+   "nse": "ENDURANCE",
+   "bse": "540153",
+   "rank": 243,
+   "primer": "endurance-technologies.html"
+  },
+  {
+   "name": "Exide Industries Limited",
+   "nse": "EXIDEIND",
+   "bse": "500086",
+   "rank": 264,
+   "primer": "exide-industries.html"
+  },
+  {
+   "name": "ZF Commercial Vehicle Control Systems India Limited",
+   "nse": "ZFCVINDIA",
+   "bse": "533023",
+   "rank": 282,
+   "primer": "zf-commercial-vehicle-control-systems.html"
+  },
+  {
+   "name": "Motherson Sumi Wiring India Limited",
+   "nse": "MSUMI",
+   "bse": "543498",
+   "rank": 303,
+   "primer": "motherson-sumi-wiring.html"
+  },
+  {
+   "name": "Craftsman Automation Limited",
+   "nse": "CRAFTSMAN",
+   "bse": "543276",
+   "rank": 312,
+   "primer": "craftsman-automation.html"
+  },
+  {
+   "name": "Gabriel India Limited",
+   "nse": "GABRIEL",
+   "bse": "505714",
+   "rank": 323,
+   "primer": "gabriel-india.html"
+  },
+  {
+   "name": "Belrise Industries Limited",
+   "nse": "BELRISE",
+   "bse": "544405",
+   "rank": 334,
+   "primer": "belrise-industries.html"
+  },
+  {
+   "name": "JBM Auto Limited",
+   "nse": "JBMA",
+   "bse": "532605",
+   "rank": 391,
+   "primer": "jbm-auto.html"
+  },
+  {
+   "name": "Minda Corporation Limited",
+   "nse": "MINDACORP",
+   "bse": "538962",
+   "rank": 396,
+   "primer": "minda-corporation.html"
+  },
+  {
+   "name": "Amara Raja Energy & Mobility Limited",
+   "nse": "ARE&M",
+   "bse": "500008",
+   "rank": 406,
+   "primer": "amara-raja.html"
+  },
+  {
+   "name": "Ramkrishna Forgings Limited",
+   "nse": "RKFORGE",
+   "bse": "532527",
+   "rank": 470,
+   "primer": "ramkrishna-forgings.html"
+  },
+  {
+   "name": "Tenneco Clean Air India Limited",
+   "nse": "TENNIND",
+   "bse": "544612",
+   "rank": 500,
+   "primer": "tenneco-clean-air-india.html"
+  },
+  {
+   "name": "Sansera Engineering Limited",
+   "nse": "SANSERA",
+   "bse": "543358",
+   "rank": 506,
+   "primer": "sansera-engineering.html"
+  },
+  {
+   "name": "SPR Auto Technologies Limited",
+   "nse": "SHRIPISTON",
+   "bse": "522073",
+   "rank": 508,
+   "primer": "spr-auto-technologies.html"
+  },
+  {
+   "name": "ASK Automotive Limited",
+   "nse": "ASKAUTOLTD",
+   "bse": "544022",
+   "rank": 564,
+   "primer": "ask-automotive.html"
+  },
+  {
+   "name": "Lumax Auto Technologies",
+   "nse": "LUMAXTECH",
+   "bse": "532796",
+   "rank": 566,
+   "primer": "lumax-auto-technologies.html"
+  },
+  {
+   "name": "Varroc Engineering Limited",
+   "nse": "VARROC",
+   "bse": "541578",
+   "rank": 567,
+   "primer": "varroc-engineering.html"
+  },
+  {
+   "name": "Banco Products (India) Limited",
+   "nse": "BANCOINDIA",
+   "bse": "500039",
+   "rank": 589,
+   "primer": "banco-products.html"
+  },
+  {
+   "name": "Pricol Ltd.",
+   "nse": "PRICOLLTD",
+   "bse": "540293",
+   "rank": 606,
+   "primer": "pricol.html"
+  },
+  {
+   "name": "Fiem Industries Ltd.",
+   "nse": "FIEMIND",
+   "bse": "532768",
+   "rank": 660,
+   "primer": "fiem-industries.html"
+  },
+  {
+   "name": "Jamna Auto Industries Ltd.",
+   "nse": "JAMNAAUTO",
+   "bse": "520051",
+   "rank": 690,
+   "primer": "jamna-auto.html"
+  },
+  {
+   "name": "Subros Ltd.",
+   "nse": "SUBROS",
+   "bse": "517168",
+   "rank": 698,
+   "primer": "subros.html"
+  }
+ ],
+ "Realty || Residential, Commercial Projects": [
+  {
+   "name": "DLF Limited",
+   "nse": "DLF",
+   "bse": "532868",
+   "rank": 67,
+   "primer": "dlf.html"
+  },
+  {
+   "name": "Lodha Developers Limited",
+   "nse": "LODHA",
+   "bse": "543287",
+   "rank": 120,
+   "primer": "lodha-developers.html"
+  },
+  {
+   "name": "The Phoenix Mills",
+   "nse": "PHOENIXLTD",
+   "bse": "503100",
+   "rank": 158,
+   "primer": "phoenix-mills.html"
+  },
+  {
+   "name": "Prestige Estates Projects Limited",
+   "nse": "PRESTIGE",
+   "bse": "533274",
+   "rank": 162,
+   "primer": "prestige-estates.html"
+  },
+  {
+   "name": "Oberoi Realty Limited",
+   "nse": "OBEROIRLTY",
+   "bse": "533273",
+   "rank": 171,
+   "primer": "oberoi-realty.html"
+  },
+  {
+   "name": "Godrej Properties Limited",
+   "nse": "GODREJPROP",
+   "bse": "533150",
+   "rank": 190,
+   "primer": "godrej-properties.html"
+  },
+  {
+   "name": "Anant Raj Limited",
+   "nse": "ANANTRAJ",
+   "bse": "515055",
+   "rank": 359,
+   "primer": "anant-raj.html"
+  },
+  {
+   "name": "Brigade Enterprises Limited",
+   "nse": "BRIGADE",
+   "bse": "532929",
+   "rank": 392,
+   "primer": "brigade-enterprises.html"
+  },
+  {
+   "name": "Sobha Limited",
+   "nse": "SOBHA",
+   "bse": "532784",
+   "rank": 410,
+   "primer": "sobha.html"
+  },
+  {
+   "name": "Aditya Birla Real Estate Limited",
+   "nse": "ABREL",
+   "bse": "500040",
+   "rank": 412,
+   "primer": "aditya-birla-real-estate.html"
+  },
+  {
+   "name": "Signatureglobal (India) Limited",
+   "nse": "SIGNATURE",
+   "bse": "543990",
+   "rank": 468,
+   "primer": "signatureglobal.html"
+  },
+  {
+   "name": "Sri Lotus Developers and Realty Limited",
+   "nse": "LOTUSDEV",
+   "bse": "544469",
+   "rank": 584,
+   "primer": "sri-lotus-developers.html"
+  },
+  {
+   "name": "Embassy Developments Limited",
+   "nse": "EMBDL",
+   "bse": "532832",
+   "rank": 590,
+   "primer": "embassy-developments.html"
+  },
+  {
+   "name": "NESCO Ltd.",
+   "nse": "NESCO",
+   "bse": "505355",
+   "rank": 634,
+   "primer": "nesco.html"
+  },
+  {
+   "name": "Valor Estate Ltd.",
+   "nse": "DBREALTY",
+   "bse": "533160",
+   "rank": 657,
+   "primer": "valor-estate.html"
+  },
+  {
+   "name": "Puravankara Ltd.",
+   "nse": "PURVA",
+   "bse": "532891",
+   "rank": 696,
+   "primer": "puravankara.html"
+  },
+  {
+   "name": "Sunteck Realty Ltd.",
+   "nse": "SUNTECK",
+   "bse": "512179",
+   "rank": 710,
+   "primer": "sunteck-realty.html"
+  },
+  {
+   "name": "TARC Ltd.",
+   "nse": "TARC",
+   "bse": "543249",
+   "rank": 732,
+   "primer": "tarc.html"
+  },
+  {
+   "name": "Hemisphere Properties India Ltd.",
+   "nse": "HEMIPROP",
+   "bse": "543242",
+   "rank": 734,
+   "primer": "hemisphere-properties.html"
+  }
+ ],
+ "Electricals || Cables - Electricals": [
+  {
+   "name": "Polycab India Limited",
+   "nse": "POLYCAB",
+   "bse": "542652",
+   "rank": 70,
+   "primer": "polycab-india.html"
+  },
+  {
+   "name": "APAR Industries Limited",
+   "nse": "APARINDS",
+   "bse": "532259",
+   "rank": 169,
+   "primer": "apar-industries.html"
+  },
+  {
+   "name": "KEI Industries Limited",
+   "nse": "KEI",
+   "bse": "517569",
+   "rank": 197,
+   "primer": "kei-industries.html"
+  },
+  {
+   "name": "R R Kabel Limited",
+   "nse": "RRKABEL",
+   "bse": "544180",
+   "rank": 294,
+   "primer": "rr-kabel.html"
+  },
+  {
+   "name": "Finolex Cables Limited",
+   "nse": "FINCABLES",
+   "bse": "500144",
+   "rank": 372,
+   "primer": "finolex-cables.html"
+  },
+  {
+   "name": "Diamond Power Infrastructure Limited",
+   "nse": "DIACABS",
+   "bse": "522163",
+   "rank": 517,
+   "primer": "diamond-power-infrastructure.html"
+  }
+ ],
+ "Power || Integrated Power Utilities": [
+  {
+   "name": "The Tata Power Company Limited",
+   "nse": "TATAPOWER",
+   "bse": "500400",
+   "rank": 84,
+   "primer": "tata-power.html"
+  },
+  {
+   "name": "Torrent Power Limited",
+   "nse": "TORNTPOWER",
+   "bse": "532779",
+   "rank": 155,
+   "primer": "torrent-power.html"
+  },
+  {
+   "name": "CESC Limited",
+   "nse": "CESC",
+   "bse": "500084",
+   "rank": 324,
+   "primer": "cesc.html"
+  }
+ ],
+ "Healthcare || Hospital": [
+  {
+   "name": "Apollo Hospitals Enterprise Limited",
+   "nse": "APOLLOHOSP",
+   "bse": "508869",
+   "rank": 83,
+   "primer": "apollo-hospitals.html"
+  },
+  {
+   "name": "Max Healthcare Institute",
+   "nse": "MAXHEALTH",
+   "bse": "543220",
+   "rank": 98,
+   "primer": "max-healthcare.html"
+  },
+  {
+   "name": "Fortis Healthcare",
+   "nse": "FORTIS",
+   "bse": "532843",
+   "rank": 150,
+   "primer": "fortis-healthcare.html"
+  },
+  {
+   "name": "Aster DM Healthcare Limited",
+   "nse": "ASTERDM",
+   "bse": "540975",
+   "rank": 230,
+   "primer": "aster-dm-healthcare.html"
+  },
+  {
+   "name": "Narayana Hrudayalaya Limited",
+   "nse": "NH",
+   "bse": "539551",
+   "rank": 232,
+   "primer": "narayana-hrudayalaya.html"
+  },
+  {
+   "name": "Global Health Limited",
+   "nse": "MEDANTA",
+   "bse": "543654",
+   "rank": 248,
+   "primer": "global-health-medanta.html"
+  },
+  {
+   "name": "Krishna Institute of Medical Sciences Limited",
+   "nse": "KIMS",
+   "bse": "543308",
+   "rank": 267,
+   "primer": "kims-hospitals.html"
+  },
+  {
+   "name": "Rainbow Children's Medicare Limited",
+   "nse": "RAINBOW",
+   "bse": "543524",
+   "rank": 418,
+   "primer": "rainbow-childrens-medicare.html"
+  },
+  {
+   "name": "Dr. Agarwal's Health Care Limited",
+   "nse": "AGARWALEYE",
+   "bse": "544350",
+   "rank": 522,
+   "primer": "dr-agarwals-health-care.html"
+  },
+  {
+   "name": "Park Medi World Limited",
+   "nse": "PARKHOSPS",
+   "bse": "544645",
+   "rank": 545,
+   "primer": "park-medi-world.html"
+  },
+  {
+   "name": "Jupiter Life Line Hospitals",
+   "nse": "JLHL",
+   "bse": "543980",
+   "rank": 558,
+   "primer": "jupiter-life-line-hospitals.html"
+  },
+  {
+   "name": "Healthcare Global Enterprises Ltd.",
+   "nse": "HCG",
+   "bse": "539787",
+   "rank": 568,
+   "primer": "healthcare-global.html"
+  },
+  {
+   "name": "Yatharth Hospital & Trauma Care Services Limited",
+   "nse": "YATHARTH",
+   "bse": "543950",
+   "rank": 604,
+   "primer": "yatharth-hospital.html"
+  }
+ ],
+ "Finance || Investment Company": [
+  {
+   "name": "Bajaj Holdings & Investment",
+   "nse": "BAJAJHLDNG",
+   "bse": "500490",
+   "rank": 92,
+   "primer": "bajaj-holdings.html"
+  },
+  {
+   "name": "Authum Investment & Infrastructure Limited",
+   "nse": "AIIL",
+   "bse": "539177",
+   "rank": 211,
+   "primer": "authum-investment.html"
+  },
+  {
+   "name": "Tata Investment Corporation Limited",
+   "nse": "TATAINVEST",
+   "bse": "501301",
+   "rank": 258,
+   "primer": "tata-investment-corporation.html"
+  },
+  {
+   "name": "Maharashtra Scooters Limited",
+   "nse": "MAHSCOOTER",
+   "bse": "500266",
+   "rank": 524,
+   "primer": "maharashtra-scooters.html"
+  },
+  {
+   "name": "Lloyds Enterprises Limited",
+   "nse": "LLOYDSENT",
+   "bse": "512463",
+   "rank": 540,
+   "primer": "lloyds-enterprises.html"
+  },
+  {
+   "name": "TSF Investments Limited",
+   "nse": "TSFINV",
+   "bse": "—",
+   "rank": 576,
+   "primer": "tsf-investments.html"
+  }
+ ],
+ "Telecom || Telecom - Infrastructure": [
+  {
+   "name": "Indus Towers Limited",
+   "nse": "INDUSTOWER",
+   "bse": "534816",
+   "rank": 110,
+   "primer": "indus-towers.html"
+  }
+ ],
+ "Gas Transmission || Gas Transmission/Marketing": [
+  {
+   "name": "GAIL (India) Limited",
+   "nse": "GAIL",
+   "bse": "532155",
+   "rank": 93,
+   "primer": "gail-india.html"
+  }
+ ],
+ "FMCG || Personal Care": [
+  {
+   "name": "Marico Limited",
+   "nse": "MARICO",
+   "bse": "531642",
+   "rank": 104,
+   "primer": "marico.html"
+  },
+  {
+   "name": "Godrej Consumer Products",
+   "nse": "GODREJCP",
+   "bse": "532424",
+   "rank": 111,
+   "primer": "godrej-consumer.html"
+  },
+  {
+   "name": "Dabur India",
+   "nse": "DABUR",
+   "bse": "500096",
+   "rank": 142,
+   "primer": "dabur-india.html"
+  },
+  {
+   "name": "Colgate-Palmolive (India) Limited",
+   "nse": "COLPAL",
+   "bse": "500830",
+   "rank": 192,
+   "primer": "colgate-palmolive.html"
+  },
+  {
+   "name": "Gillette India Limited",
+   "nse": "GILLETTE",
+   "bse": "507815",
+   "rank": 311,
+   "primer": "gillette-india.html"
+  },
+  {
+   "name": "Emami Limited",
+   "nse": "EMAMILTD",
+   "bse": "531162",
+   "rank": 374,
+   "primer": "emami.html"
+  },
+  {
+   "name": "Honasa Consumer Limited",
+   "nse": "HONASA",
+   "bse": "544014",
+   "rank": 413,
+   "primer": "honasa-consumer.html"
+  }
+ ],
+ "Infrastructure || Airport & Airport services": [
+  {
+   "name": "GMR Airports",
+   "nse": "GMRAIRPORT",
+   "bse": "532754",
+   "rank": 91,
+   "primer": "gmr-airports.html"
+  }
+ ],
+ "Ship Building || Ship Building & Allied Services": [
+  {
+   "name": "Mazagon Dock Shipbuilders",
+   "nse": "MAZDOCK",
+   "bse": "543237",
+   "rank": 115,
+   "primer": "mazagon-dock.html"
+  },
+  {
+   "name": "Cochin Shipyard Limited",
+   "nse": "COCHINSHIP",
+   "bse": "540678",
+   "rank": 239,
+   "primer": "cochin-shipyard.html"
+  },
+  {
+   "name": "Garden Reach Shipbuilders & Engineers Limited",
+   "nse": "GRSE",
+   "bse": "542011",
+   "rank": 276,
+   "primer": "garden-reach-shipbuilders.html"
+  }
+ ],
+ "Hospitality || Hotels & Resorts": [
+  {
+   "name": "The Indian Hotels Company (Taj)",
+   "nse": "INDHOTEL",
+   "bse": "500850",
+   "rank": 114,
+   "primer": "indian-hotels.html"
+  },
+  {
+   "name": "ITC Hotels Limited",
+   "nse": "ITCHOTELS",
+   "bse": "544325",
+   "rank": 244,
+   "primer": "itc-hotels.html"
+  },
+  {
+   "name": "EIH Limited",
+   "nse": "EIHOTEL",
+   "bse": "500840",
+   "rank": 343,
+   "primer": "eih-limited.html"
+  },
+  {
+   "name": "Chalet Hotels Limited",
+   "nse": "CHALET",
+   "bse": "542399",
+   "rank": 375,
+   "primer": "chalet-hotels.html"
+  },
+  {
+   "name": "The Leela Palaces, Hotels and Resorts Limited",
+   "nse": "THELEELA",
+   "bse": "544408",
+   "rank": 393,
+   "primer": "leela-palaces.html"
+  },
+  {
+   "name": "Lemon Tree Hotels Limited",
+   "nse": "LEMONTREE",
+   "bse": "541233",
+   "rank": 487,
+   "primer": "lemon-tree-hotels.html"
+  },
+  {
+   "name": "Samhi Hotels Ltd.",
+   "nse": "SAMHI",
+   "bse": "543984",
+   "rank": 731,
+   "primer": "samhi-hotels.html"
+  }
+ ],
+ "Alcohol || Breweries & Distilleries": [
+  {
+   "name": "United Spirits Ltd.",
+   "nse": "UNITDSPR",
+   "bse": "532432",
+   "rank": 117,
+   "primer": "united-spirits.html"
+  },
+  {
+   "name": "Radico Khaitan Limited",
+   "nse": "RADICO",
+   "bse": "532497",
+   "rank": 196,
+   "primer": "radico-khaitan.html"
+  },
+  {
+   "name": "United Breweries Limited",
+   "nse": "UBL",
+   "bse": "532478",
+   "rank": 249,
+   "primer": "united-breweries.html"
+  },
+  {
+   "name": "Allied Blenders and Distillers Limited",
+   "nse": "ABDL",
+   "bse": "544203",
+   "rank": 360,
+   "primer": "allied-blenders-distillers.html"
+  },
+  {
+   "name": "Tilaknagar Industries Limited",
+   "nse": "TI",
+   "bse": "507205",
+   "rank": 552,
+   "primer": "tilaknagar-industries.html"
+  },
+  {
+   "name": "Piccadily Agro Industries Ltd.",
+   "nse": "PICCADIL",
+   "bse": "530305",
+   "rank": 626,
+   "primer": "piccadily-agro.html"
+  }
+ ],
+ "Insurance || General Insurance": [
+  {
+   "name": "ICICI Lombard General Insurance Company",
+   "nse": "ICICIGI",
+   "bse": "540716",
+   "rank": 127,
+   "primer": "icici-lombard.html"
+  },
+  {
+   "name": "General Insurance Corporation of India",
+   "nse": "GICRE",
+   "bse": "540755",
+   "rank": 172,
+   "primer": "gic-re.html"
+  },
+  {
+   "name": "Star Health and Allied Insurance Company Limited",
+   "nse": "STARHEALTH",
+   "bse": "543412",
+   "rank": 256,
+   "primer": "star-health.html"
+  },
+  {
+   "name": "The New India Assurance Company Limited",
+   "nse": "NIACL",
+   "bse": "540769",
+   "rank": 281,
+   "primer": "new-india-assurance.html"
+  },
+  {
+   "name": "Go Digit General Insurance Limited",
+   "nse": "GODIGIT",
+   "bse": "544179",
+   "rank": 283,
+   "primer": "go-digit-general-insurance.html"
+  },
+  {
+   "name": "Niva Bupa Health Insurance Company Limited",
+   "nse": "NIVABUPA",
+   "bse": "544286",
+   "rank": 398,
+   "primer": "niva-bupa.html"
+  }
+ ],
+ "IT || Software Products": [
+  {
+   "name": "Oracle Financial Services Software Limited",
+   "nse": "OFSS",
+   "bse": "532466",
+   "rank": 119,
+   "primer": "oracle-financial-services.html"
+  },
+  {
+   "name": "Intellect Design Arena Limited",
+   "nse": "INTELLECT",
+   "bse": "538835",
+   "rank": 475,
+   "primer": "intellect-design-arena.html"
+  },
+  {
+   "name": "Newgen Software Technologies Limited",
+   "nse": "NEWGEN",
+   "bse": "540900",
+   "rank": 496,
+   "primer": "newgen-software.html"
+  },
+  {
+   "name": "C.E. Info Systems Limited (MapmyIndia)",
+   "nse": "MAPMYINDIA",
+   "bse": "543425",
+   "rank": 499,
+   "primer": "mapmyindia.html"
+  },
+  {
+   "name": "RateGain Travel Technologies Limited",
+   "nse": "RATEGAIN",
+   "bse": "543417",
+   "rank": 557,
+   "primer": "rategain-travel-technologies.html"
+  },
+  {
+   "name": "Aurionpro Solutions Ltd.",
+   "nse": "AURIONPRO",
+   "bse": "532668",
+   "rank": 707,
+   "primer": "aurionpro-solutions.html"
+  },
+  {
+   "name": "Capillary Technologies India Ltd.",
+   "nse": "CAPILLARY",
+   "bse": "544614",
+   "rank": 719,
+   "primer": "capillary-technologies.html"
+  }
+ ],
+ "Gas Transmission || LPG/CNG/PNG/LNG Supplier": [
+  {
+   "name": "Adani Total Gas",
+   "nse": "ATGL",
+   "bse": "542066",
+   "rank": 137,
+   "primer": "adani-total-gas.html"
+  },
+  {
+   "name": "Petronet LNG Limited",
+   "nse": "PETRONET",
+   "bse": "532522",
+   "rank": 218,
+   "primer": "petronet-lng.html"
+  },
+  {
+   "name": "Aegis Logistics Limited",
+   "nse": "AEGISLOG",
+   "bse": "500003",
+   "rank": 225,
+   "primer": "aegis-logistics.html"
+  },
+  {
+   "name": "Indraprastha Gas Limited",
+   "nse": "IGL",
+   "bse": "532514",
+   "rank": 317,
+   "primer": "indraprastha-gas.html"
+  },
+  {
+   "name": "Mahanagar Gas Limited",
+   "nse": "MGL",
+   "bse": "539957",
+   "rank": 455,
+   "primer": "mahanagar-gas.html"
+  }
+ ],
+ "IT || Financial Technology (Fintech)": [
+  {
+   "name": "PB Fintech Limited",
+   "nse": "POLICYBZR",
+   "bse": "543390",
+   "rank": 144,
+   "primer": "pb-fintech.html"
+  },
+  {
+   "name": "One97 Communications (Paytm)",
+   "nse": "PAYTM",
+   "bse": "543396",
+   "rank": 148,
+   "primer": "paytm.html"
+  },
+  {
+   "name": "Pine Labs Limited",
+   "nse": "PINELABS",
+   "bse": "544606",
+   "rank": 361,
+   "primer": "pine-labs.html"
+  },
+  {
+   "name": "AvenuesAI Ltd.",
+   "nse": "CCAVENUE",
+   "bse": "539807",
+   "rank": 672,
+   "primer": "avenuesai.html"
+  },
+  {
+   "name": "Zaggle Prepaid Ocean Services",
+   "nse": "ZAGGLE",
+   "bse": "543985",
+   "rank": 748,
+   "primer": "zaggle.html"
+  }
+ ],
+ "Mining || Industrial Minerals": [
+  {
+   "name": "NMDC Limited",
+   "nse": "NMDC",
+   "bse": "526371",
+   "rank": 143,
+   "primer": "nmdc.html"
+  },
+  {
+   "name": "The Sandur Manganese & Iron Ores Limited",
+   "nse": "SANDUMA",
+   "bse": "504918",
+   "rank": 577,
+   "primer": "sandur-manganese.html"
+  },
+  {
+   "name": "Ashapura Minechem Ltd.",
+   "nse": "ASHAPURMIN",
+   "bse": "527001",
+   "rank": 647,
+   "primer": "ashapura-minechem.html"
+  },
+  {
+   "name": "MOIL Ltd.",
+   "nse": "MOIL",
+   "bse": "533286",
+   "rank": 684,
+   "primer": "moil.html"
+  }
+ ],
+ "Finance || Exchange and Data Platform": [
+  {
+   "name": "BSE Limited",
+   "nse": "BSE",
+   "bse": "",
+   "rank": 56,
+   "primer": "bse-limited.html"
+  },
+  {
+   "name": "Multi Commodity Exchange of India Limited",
+   "nse": "MCX",
+   "bse": "534091",
+   "rank": 146,
+   "primer": "mcx.html"
+  },
+  {
+   "name": "Indian Energy Exchange Limited",
+   "nse": "IEX",
+   "bse": "540750",
+   "rank": 462,
+   "primer": "indian-energy-exchange.html"
+  }
+ ],
+ "Consumer Durables || Consumer Electronics": [
+  {
+   "name": "Dixon Technologies (India) Limited",
+   "nse": "DIXON",
+   "bse": "540699",
+   "rank": 149,
+   "primer": "dixon-technologies.html"
+  },
+  {
+   "name": "Havells India",
+   "nse": "HAVELLS",
+   "bse": "517354",
+   "rank": 152,
+   "primer": "havells-india.html"
+  },
+  {
+   "name": "Aditya Infotech Limited",
+   "nse": "CPPLUS",
+   "bse": "544466",
+   "rank": 212,
+   "primer": "aditya-infotech.html"
+  },
+  {
+   "name": "Amber Enterprises India Limited",
+   "nse": "AMBER",
+   "bse": "540902",
+   "rank": 304,
+   "primer": "amber-enterprises.html"
+  },
+  {
+   "name": "PG Electroplast Limited",
+   "nse": "PGEL",
+   "bse": "533581",
+   "rank": 403,
+   "primer": "pg-electroplast.html"
+  },
+  {
+   "name": "Optiemus Infracom Ltd.",
+   "nse": "OPTIEMUS",
+   "bse": "530135",
+   "rank": 687,
+   "primer": "optiemus-infracom.html"
+  }
+ ],
+ "Bank || Other Bank": [
+  {
+   "name": "AU Small Finance Bank",
+   "nse": "AUBANK",
+   "bse": "540611",
+   "rank": 140,
+   "primer": "au-small-finance-bank.html"
+  },
+  {
+   "name": "Ujjivan Small Finance Bank Limited",
+   "nse": "UJJIVANSFB",
+   "bse": "542904",
+   "rank": 527,
+   "primer": "ujjivan-small-finance-bank.html"
+  },
+  {
+   "name": "Equitas Small Finance Bank Limited",
+   "nse": "EQUITASBNK",
+   "bse": "543243",
+   "rank": 587,
+   "primer": "equitas-small-finance-bank.html"
+  },
+  {
+   "name": "Jana Small Finance Bank Ltd.",
+   "nse": "JSFB",
+   "bse": "544118",
+   "rank": 675,
+   "primer": "jana-small-finance-bank.html"
+  }
+ ],
+ "Finance || Housing Finance Company": [
+  {
+   "name": "Bajaj Housing Finance",
+   "nse": "BAJAJHFL",
+   "bse": "544252",
+   "rank": 151,
+   "primer": "bajaj-housing-finance.html"
+  },
+  {
+   "name": "Housing and Urban Development Corporation Limited",
+   "nse": "HUDCO",
+   "bse": "540530",
+   "rank": 222,
+   "primer": "hudco.html"
+  },
+  {
+   "name": "LIC Housing Finance Limited",
+   "nse": "LICHSGFIN",
+   "bse": "500253",
+   "rank": 274,
+   "primer": "lic-housing-finance.html"
+  },
+  {
+   "name": "PNB Housing Finance Limited",
+   "nse": "PNBHOUSING",
+   "bse": "540173",
+   "rank": 297,
+   "primer": "pnb-housing-finance.html"
+  },
+  {
+   "name": "Aadhar Housing Finance Limited",
+   "nse": "AADHARHFC",
+   "bse": "544176",
+   "rank": 321,
+   "primer": "aadhar-housing-finance.html"
+  },
+  {
+   "name": "Aptus Value Housing Finance India Limited",
+   "nse": "APTUS",
+   "bse": "543335",
+   "rank": 422,
+   "primer": "aptus-value-housing.html"
+  },
+  {
+   "name": "Home First Finance Company India Limited",
+   "nse": "HOMEFIRST",
+   "bse": "543259",
+   "rank": 442,
+   "primer": "home-first-finance.html"
+  },
+  {
+   "name": "Aavas Financiers Limited",
+   "nse": "AAVAS",
+   "bse": "541988",
+   "rank": 449,
+   "primer": "aavas-financiers.html"
+  },
+  {
+   "name": "Can Fin Homes Limited",
+   "nse": "CANFINHOME",
+   "bse": "511196",
+   "rank": 454,
+   "primer": "can-fin-homes.html"
+  },
+  {
+   "name": "India Shelter Finance Corporation Ltd.",
+   "nse": "INDIASHLTR",
+   "bse": "544044",
+   "rank": 613,
+   "primer": "india-shelter-finance.html"
+  }
+ ],
+ "IT || Web based media and service": [
+  {
+   "name": "Info Edge (India) Limited",
+   "nse": "NAUKRI",
+   "bse": "532777",
+   "rank": 173,
+   "primer": "info-edge.html"
+  },
+  {
+   "name": "CarTrade Tech Limited",
+   "nse": "CARTRADE",
+   "bse": "543333",
+   "rank": 438,
+   "primer": "cartrade-tech.html"
+  },
+  {
+   "name": "IndiaMART InterMESH Limited",
+   "nse": "INDIAMART",
+   "bse": "542726",
+   "rank": 457,
+   "primer": "indiamart-intermesh.html"
+  },
+  {
+   "name": "Justdial Ltd.",
+   "nse": "JUSTDIAL",
+   "bse": "535648",
+   "rank": 662,
+   "primer": "justdial.html"
+  }
+ ],
+ "Inds. Gases & Fuels || Industrial Gases": [
+  {
+   "name": "Linde India Limited",
+   "nse": "LINDEINDIA",
+   "bse": "523457",
+   "rank": 174,
+   "primer": "linde-india.html"
+  },
+  {
+   "name": "Refex Industries Ltd.",
+   "nse": "REFEX",
+   "bse": "532884",
+   "rank": 709,
+   "primer": "refex-industries.html"
+  },
+  {
+   "name": "Ellenbarrie Industrial Gases Ltd.",
+   "nse": "ELLEN",
+   "bse": "544421",
+   "rank": 729,
+   "primer": "ellenbarrie-industrial-gases.html"
+  }
+ ],
+ "Chemicals || Pesticides & Agrochemicals": [
+  {
+   "name": "UPL Limited",
+   "nse": "UPL",
+   "bse": "512070",
+   "rank": 203,
+   "primer": "upl.html"
+  },
+  {
+   "name": "PI Industries Limited",
+   "nse": "PIIND",
+   "bse": "523642",
+   "rank": 235,
+   "primer": "pi-industries.html"
+  },
+  {
+   "name": "Sumitomo Chemical India Limited",
+   "nse": "SUMICHEM",
+   "bse": "542920",
+   "rank": 338,
+   "primer": "sumitomo-chemical-india.html"
+  },
+  {
+   "name": "Bayer CropScience Limited",
+   "nse": "BAYERCROP",
+   "bse": "506285",
+   "rank": 363,
+   "primer": "bayer-cropscience.html"
+  },
+  {
+   "name": "Sharda Cropchem Ltd.",
+   "nse": "SHARDACROP",
+   "bse": "538666",
+   "rank": 610,
+   "primer": "sharda-cropchem.html"
+  },
+  {
+   "name": "Rallis India Ltd.",
+   "nse": "RALLIS",
+   "bse": "500355",
+   "rank": 717,
+   "primer": "rallis-india.html"
+  }
+ ],
+ "Chemicals || Fertilizers": [
+  {
+   "name": "Coromandel International Limited",
+   "nse": "COROMANDEL",
+   "bse": "506395",
+   "rank": 183,
+   "primer": "coromandel-international.html"
+  },
+  {
+   "name": "The Fertilisers and Chemicals Travancore Limited",
+   "nse": "FACT",
+   "bse": "590024",
+   "rank": 188,
+   "primer": "fact.html"
+  },
+  {
+   "name": "Deepak Fertilisers And Petrochemicals Corporation Limited",
+   "nse": "DEEPAKFERT",
+   "bse": "500645",
+   "rank": 347,
+   "primer": "deepak-fertilisers.html"
+  },
+  {
+   "name": "Chambal Fertilisers and Chemicals Limited",
+   "nse": "CHAMBLFERT",
+   "bse": "500085",
+   "rank": 356,
+   "primer": "chambal-fertilisers.html"
+  },
+  {
+   "name": "Paradeep Phosphates Limited",
+   "nse": "PARADEEP",
+   "bse": "543530",
+   "rank": 420,
+   "primer": "paradeep-phosphates.html"
+  },
+  {
+   "name": "Gujarat Narmada Valley Fertilizers and Chemicals Ltd.",
+   "nse": "GNFC",
+   "bse": "500670",
+   "rank": 624,
+   "primer": "gnfc.html"
+  },
+  {
+   "name": "Rashtriya Chemicals & Fertilizers Ltd.",
+   "nse": "RCF",
+   "bse": "524230",
+   "rank": 643,
+   "primer": "rashtriya-chemicals-fertilizers.html"
+  },
+  {
+   "name": "Gujarat State Fertilizers & Chemicals Ltd.",
+   "nse": "GSFC",
+   "bse": "500690",
+   "rank": 654,
+   "primer": "gujarat-state-fertilizers-chemicals.html"
+  },
+  {
+   "name": "National Fertilizers",
+   "nse": "NFL",
+   "bse": "523630",
+   "rank": 740,
+   "primer": "national-fertilizers.html"
+  }
+ ],
+ "Automobile & Ancillaries || Tyres & Rubber Products": [
+  {
+   "name": "MRF Limited",
+   "nse": "MRF",
+   "bse": "500290",
+   "rank": 195,
+   "primer": "mrf.html"
+  },
+  {
+   "name": "Balkrishna Industries Limited",
+   "nse": "BALKRISIND",
+   "bse": "502355",
+   "rank": 221,
+   "primer": "balkrishna-industries.html"
+  },
+  {
+   "name": "Apollo Tyres Limited",
+   "nse": "APOLLOTYRE",
+   "bse": "500877",
+   "rank": 296,
+   "primer": "apollo-tyres.html"
+  },
+  {
+   "name": "CEAT Limited",
+   "nse": "CEATLTD",
+   "bse": "500878",
+   "rank": 425,
+   "primer": "ceat.html"
+  },
+  {
+   "name": "JK Tyre & Industries Limited",
+   "nse": "JKTYRE",
+   "bse": "530007",
+   "rank": 461,
+   "primer": "jk-tyre.html"
+  }
+ ],
+ "Finance || Stockbroking & Allied": [
+  {
+   "name": "Billionbrains Garage Ventures Ltd (Groww)",
+   "nse": "GROWW",
+   "bse": "544603",
+   "rank": 78,
+   "primer": "groww.html"
+  },
+  {
+   "name": "Motilal Oswal Financial Services Limited",
+   "nse": "MOTILALOFS",
+   "bse": "532892",
+   "rank": 184,
+   "primer": "motilal-oswal.html"
+  },
+  {
+   "name": "Angel One Limited",
+   "nse": "ANGELONE",
+   "bse": "543235",
+   "rank": 277,
+   "primer": "angel-one.html"
+  },
+  {
+   "name": "Choice International Limited",
+   "nse": "CHOICEIN",
+   "bse": "531358",
+   "rank": 385,
+   "primer": "choice-international.html"
+  },
+  {
+   "name": "IIFL Capital Services",
+   "nse": "IIFLCAPS",
+   "bse": "542773",
+   "rank": 560,
+   "primer": "iifl-capital-services.html"
+  },
+  {
+   "name": "Share India Securities Ltd.",
+   "nse": "SHAREINDIA",
+   "bse": "540725",
+   "rank": 727,
+   "primer": "share-india-securities.html"
+  }
+ ],
+ "Non - Ferrous Metals || Copper": [
+  {
+   "name": "Hindustan Copper Limited",
+   "nse": "HINDCOPPER",
+   "bse": "513599",
+   "rank": 204,
+   "primer": "hindustan-copper.html"
+  }
+ ],
+ "Iron & Steel || Iron & Steel Products": [
+  {
+   "name": "APL Apollo Tubes Limited",
+   "nse": "APLAPOLLO",
+   "bse": "533758",
+   "rank": 201,
+   "primer": "apl-apollo-tubes.html"
+  },
+  {
+   "name": "Welspun Corp Limited",
+   "nse": "WELCORP",
+   "bse": "532144",
+   "rank": 231,
+   "primer": "welspun-corp.html"
+  },
+  {
+   "name": "Jindal SAW Limited",
+   "nse": "JINDALSAW",
+   "bse": "500378",
+   "rank": 390,
+   "primer": "jindal-saw.html"
+  },
+  {
+   "name": "Usha Martin Limited",
+   "nse": "USHAMART",
+   "bse": "517146",
+   "rank": 411,
+   "primer": "usha-martin.html"
+  },
+  {
+   "name": "Ratnamani Metals & Tubes Limited",
+   "nse": "RATNAMANI",
+   "bse": "520111",
+   "rank": 514,
+   "primer": "ratnamani-metals.html"
+  },
+  {
+   "name": "Maharashtra Seamless Ltd.",
+   "nse": "MAHSEAMLES",
+   "bse": "500265",
+   "rank": 619,
+   "primer": "maharashtra-seamless.html"
+  },
+  {
+   "name": "Surya Roshni Ltd.",
+   "nse": "SURYAROSNI",
+   "bse": "500336",
+   "rank": 694,
+   "primer": "surya-roshni.html"
+  },
+  {
+   "name": "Electrosteel Castings Ltd.",
+   "nse": "ELECTCAST",
+   "bse": "500128",
+   "rank": 712,
+   "primer": "electrosteel-castings.html"
+  }
+ ],
+ "FMCG || Edible Oil": [
+  {
+   "name": "Patanjali Foods Limited",
+   "nse": "PATANJALI",
+   "bse": "500368",
+   "rank": 209,
+   "primer": "patanjali-foods.html"
+  },
+  {
+   "name": "AWL Agri Business Limited",
+   "nse": "AWL",
+   "bse": "543458",
+   "rank": 318,
+   "primer": "awl-agri-business.html"
+  },
+  {
+   "name": "Gokul Agro Resources Ltd.",
+   "nse": "GOKULAGRO",
+   "bse": "539725",
+   "rank": 658,
+   "primer": "gokul-agro-resources.html"
+  }
+ ],
+ "Plastic Products || Plastic Products - Industrial": [
+  {
+   "name": "The Supreme Industries Limited",
+   "nse": "SUPREMEIND",
+   "bse": "509930",
+   "rank": 227,
+   "primer": "supreme-industries.html"
+  },
+  {
+   "name": "Astral Limited",
+   "nse": "ASTRAL",
+   "bse": "532830",
+   "rank": 245,
+   "primer": "astral.html"
+  },
+  {
+   "name": "Garware Hi-Tech Films Limited",
+   "nse": "GRWRHITECH",
+   "bse": "500655",
+   "rank": 515,
+   "primer": "garware-hi-tech-films.html"
+  },
+  {
+   "name": "Shaily Engineering Plastics Limited",
+   "nse": "SHAILY",
+   "bse": "501423",
+   "rank": 528,
+   "primer": "shaily-engineering-plastics.html"
+  },
+  {
+   "name": "Time Technoplast Ltd.",
+   "nse": "TIMETECHNO",
+   "bse": "532856",
+   "rank": 563,
+   "primer": "time-technoplast.html"
+  },
+  {
+   "name": "Finolex Industries",
+   "nse": "FINPIPE",
+   "bse": "500940",
+   "rank": 565,
+   "primer": "finolex-industries.html"
+  },
+  {
+   "name": "EPL Ltd.",
+   "nse": "EPL",
+   "bse": "500135",
+   "rank": 621,
+   "primer": "epl-ltd.html"
+  }
+ ],
+ "Textile || Garments & Apparels": [
+  {
+   "name": "Page Industries Limited",
+   "nse": "PAGEIND",
+   "bse": "532827",
+   "rank": 207,
+   "primer": "page-industries.html"
+  },
+  {
+   "name": "Pearl Global Industries",
+   "nse": "PGIL",
+   "bse": "532808",
+   "rank": 581,
+   "primer": "pearl-global.html"
+  },
+  {
+   "name": "Gokaldas Exports Ltd.",
+   "nse": "GOKEX",
+   "bse": "532630",
+   "rank": 663,
+   "primer": "gokaldas-exports.html"
+  },
+  {
+   "name": "Raymond Lifestyle Ltd.",
+   "nse": "RAYMONDLSL",
+   "bse": "544240",
+   "rank": 720,
+   "primer": "raymond-lifestyle.html"
+  },
+  {
+   "name": "Kitex Garments",
+   "nse": "KITEX",
+   "bse": "521248",
+   "rank": 746,
+   "primer": "kitex-garments.html"
+  }
+ ],
+ "Hospitality || Tour, Travel Related Services": [
+  {
+   "name": "Indian Railway Catering & Tourism Corporation Limited",
+   "nse": "IRCTC",
+   "bse": "542830",
+   "rank": 226,
+   "primer": "irctc.html"
+  },
+  {
+   "name": "TBO Tek Limited",
+   "nse": "TBOTEK",
+   "bse": "544174",
+   "rank": 404,
+   "primer": "tbo-tek.html"
+  },
+  {
+   "name": "Le Travenues Technology Limited (ixigo)",
+   "nse": "IXIGO",
+   "bse": "544192",
+   "rank": 592,
+   "primer": "ixigo.html"
+  },
+  {
+   "name": "Thomas Cook (India) Ltd.",
+   "nse": "THOMASCOOK",
+   "bse": "500413",
+   "rank": 704,
+   "primer": "thomas-cook-india.html"
+  }
+ ],
+ "Consumer Durables || Household Appliances": [
+  {
+   "name": "LG Electronics India",
+   "nse": "LGEINDIA",
+   "bse": "544576",
+   "rank": 106,
+   "primer": "lg-electronics-india.html"
+  },
+  {
+   "name": "Voltas Limited",
+   "nse": "VOLTAS",
+   "bse": "500575",
+   "rank": 216,
+   "primer": "voltas.html"
+  },
+  {
+   "name": "Blue Star Limited",
+   "nse": "BLUESTARCO",
+   "bse": "500067",
+   "rank": 259,
+   "primer": "blue-star.html"
+  },
+  {
+   "name": "Crompton Greaves Consumer Electricals Limited",
+   "nse": "CROMPTON",
+   "bse": "539876",
+   "rank": 373,
+   "primer": "crompton-greaves-consumer.html"
+  },
+  {
+   "name": "Whirlpool of India Limited",
+   "nse": "WHIRLPOOL",
+   "bse": "500238",
+   "rank": 471,
+   "primer": "whirlpool-india.html"
+  },
+  {
+   "name": "V-Guard Industries Limited",
+   "nse": "VGUARD",
+   "bse": "532953",
+   "rank": 536,
+   "primer": "v-guard-industries.html"
+  },
+  {
+   "name": "Eureka Forbes",
+   "nse": "EUREKAFORB",
+   "bse": "543482",
+   "rank": 595,
+   "primer": "eureka-forbes.html"
+  },
+  {
+   "name": "IFB Industries Ltd.",
+   "nse": "IFBIND",
+   "bse": "505726",
+   "rank": 691,
+   "primer": "ifb-industries.html"
+  },
+  {
+   "name": "Bajaj Electricals Ltd.",
+   "nse": "BAJAJELEC",
+   "bse": "500031",
+   "rank": 735,
+   "primer": "bajaj-electricals.html"
+  }
+ ],
+ "Automobile & Ancillaries || Castings & Forgings": [
+  {
+   "name": "AIA Engineering Limited",
+   "nse": "AIAENG",
+   "bse": "532683",
+   "rank": 206,
+   "primer": "aia-engineering.html"
+  },
+  {
+   "name": "PTC Industries Limited",
+   "nse": "PTCIL",
+   "bse": "539006",
+   "rank": 305,
+   "primer": "ptc-industries.html"
+  },
+  {
+   "name": "CIE Automotive India Limited",
+   "nse": "CIEINDIA",
+   "bse": "532756",
+   "rank": 380,
+   "primer": "cie-automotive-india.html"
+  },
+  {
+   "name": "Balu Forge Industries Ltd.",
+   "nse": "BALUFORGE",
+   "bse": "531112",
+   "rank": 689,
+   "primer": "balu-forge.html"
+  }
+ ],
+ "IT || Engineering R&D (ER&D) Services": [
+  {
+   "name": "L&T Technology Services Limited",
+   "nse": "LTTS",
+   "bse": "540115",
+   "rank": 266,
+   "primer": "lt-technology-services.html"
+  },
+  {
+   "name": "Tata Technologies Limited",
+   "nse": "TATATECH",
+   "bse": "544028",
+   "rank": 287,
+   "primer": "tata-technologies.html"
+  },
+  {
+   "name": "Tata Elxsi Limited",
+   "nse": "TATAELXSI",
+   "bse": "500408",
+   "rank": 313,
+   "primer": "tata-elxsi.html"
+  },
+  {
+   "name": "KPIT Technologies Limited",
+   "nse": "KPITTECH",
+   "bse": "542651",
+   "rank": 355,
+   "primer": "kpit-technologies.html"
+  },
+  {
+   "name": "Cyient Limited",
+   "nse": "CYIENT",
+   "bse": "532175",
+   "rank": 482,
+   "primer": "cyient.html"
+  },
+  {
+   "name": "AXISCADES Technologies Ltd.",
+   "nse": "AXISCADES",
+   "bse": "532395",
+   "rank": 650,
+   "primer": "axiscades-technologies.html"
+  }
+ ],
+ "FMCG || Cigarettes & Tobacco Products": [
+  {
+   "name": "Godfrey Phillips India Limited",
+   "nse": "GODFRYPHLP",
+   "bse": "500163",
+   "rank": 255,
+   "primer": "godfrey-phillips-india.html"
+  }
+ ],
+ "Logistics || Logistics Solution Provider": [
+  {
+   "name": "Container Corporation of India Limited",
+   "nse": "CONCOR",
+   "bse": "531344",
+   "rank": 246,
+   "primer": "concor.html"
+  },
+  {
+   "name": "Delhivery Limited",
+   "nse": "DELHIVERY",
+   "bse": "543529",
+   "rank": 252,
+   "primer": "delhivery.html"
+  },
+  {
+   "name": "Blue Dart Express Limited",
+   "nse": "BLUEDART",
+   "bse": "526612",
+   "rank": 456,
+   "primer": "blue-dart-express.html"
+  },
+  {
+   "name": "BlackBuck Limited",
+   "nse": "BLACKBUCK",
+   "bse": "544288",
+   "rank": 570,
+   "primer": "blackbuck.html"
+  },
+  {
+   "name": "TVS Supply Chain Solutions Ltd.",
+   "nse": "TVSSCS",
+   "bse": "543965",
+   "rank": 666,
+   "primer": "tvs-supply-chain-solutions.html"
+  }
+ ],
+ "Automobile & Ancillaries || Tractors": [
+  {
+   "name": "Escorts Kubota Limited",
+   "nse": "ESCORTS",
+   "bse": "500495",
+   "rank": 270,
+   "primer": "escorts-kubota.html"
+  }
+ ],
+ "Textile || Other Textile Products": [
+  {
+   "name": "K.P.R. Mill Limited",
+   "nse": "KPRMILL",
+   "bse": "532889",
+   "rank": 237,
+   "primer": "kpr-mill.html"
+  },
+  {
+   "name": "Vardhman Textiles Limited",
+   "nse": "VTL",
+   "bse": "502986",
+   "rank": 357,
+   "primer": "vardhman-textiles.html"
+  },
+  {
+   "name": "Welspun Living Limited",
+   "nse": "WELSPUNLIV",
+   "bse": "514162",
+   "rank": 408,
+   "primer": "welspun-living.html"
+  },
+  {
+   "name": "Trident Limited",
+   "nse": "TRIDENT",
+   "bse": "521064",
+   "rank": 429,
+   "primer": "trident.html"
+  },
+  {
+   "name": "Arvind Limited",
+   "nse": "ARVIND",
+   "bse": "500101",
+   "rank": 531,
+   "primer": "arvind.html"
+  },
+  {
+   "name": "Indo Count Industries Ltd.",
+   "nse": "ICIL",
+   "bse": "521016",
+   "rank": 607,
+   "primer": "indo-count.html"
+  },
+  {
+   "name": "Alok Industries Ltd.",
+   "nse": "ALOKINDS",
+   "bse": "521070",
+   "rank": 665,
+   "primer": "alok-industries.html"
+  }
+ ],
+ "Capital Goods || Industrial Products": [
+  {
+   "name": "Honeywell Automation India Limited",
+   "nse": "HONAUT",
+   "bse": "517174",
+   "rank": 253,
+   "primer": "honeywell-automation-india.html"
+  },
+  {
+   "name": "Syrma SGS Technology Limited",
+   "nse": "SYRMA",
+   "bse": "543573",
+   "rank": 295,
+   "primer": "syrma-sgs-technology.html"
+  },
+  {
+   "name": "Kaynes Technology India Limited",
+   "nse": "KAYNES",
+   "bse": "543664",
+   "rank": 333,
+   "primer": "kaynes-technology.html"
+  },
+  {
+   "name": "Jyoti CNC Automation Limited",
+   "nse": "JYOTICNC",
+   "bse": "544081",
+   "rank": 371,
+   "primer": "jyoti-cnc-automation.html"
+  },
+  {
+   "name": "Tega Industries Limited",
+   "nse": "TEGA",
+   "bse": "543413",
+   "rank": 432,
+   "primer": "tega-industries.html"
+  },
+  {
+   "name": "Elecon Engineering Company Limited",
+   "nse": "ELECON",
+   "bse": "505700",
+   "rank": 452,
+   "primer": "elecon-engineering.html"
+  },
+  {
+   "name": "INOX India Limited",
+   "nse": "INOXINDIA",
+   "bse": "544046",
+   "rank": 509,
+   "primer": "inox-india.html"
+  },
+  {
+   "name": "Azad Engineering Limited",
+   "nse": "AZAD",
+   "bse": "544061",
+   "rank": 519,
+   "primer": "azad-engineering.html"
+  },
+  {
+   "name": "Lloyds Engineering Works Limited",
+   "nse": "LLOYDSENGG",
+   "bse": "539992",
+   "rank": 533,
+   "primer": "lloyds-engineering-works.html"
+  },
+  {
+   "name": "Avalon Technologies Limited",
+   "nse": "AVALON",
+   "bse": "543896",
+   "rank": 549,
+   "primer": "avalon-technologies.html"
+  },
+  {
+   "name": "KRN Heat Exchanger and Refrigeration Ltd.",
+   "nse": "KRN",
+   "bse": "544263",
+   "rank": 609,
+   "primer": "krn-heat-exchanger.html"
+  },
+  {
+   "name": "Skipper Ltd.",
+   "nse": "SKIPPER",
+   "bse": "538562",
+   "rank": 668,
+   "primer": "skipper.html"
+  },
+  {
+   "name": "Praj Industries Ltd.",
+   "nse": "PRAJIND",
+   "bse": "522205",
+   "rank": 670,
+   "primer": "praj-industries.html"
+  },
+  {
+   "name": "The Anup Engineering Ltd.",
+   "nse": "ANUP",
+   "bse": "542460",
+   "rank": 721,
+   "primer": "anup-engineering.html"
+  },
+  {
+   "name": "GMM Pfaudler Ltd.",
+   "nse": "GMMPFAUDLR",
+   "bse": "505255",
+   "rank": 737,
+   "primer": "gmm-pfaudler.html"
+  }
+ ],
+ "Finance || Holding Company": [
+  {
+   "name": "Cholamandalam Financial Holdings Limited",
+   "nse": "CHOLAHLDNG",
+   "bse": "504973",
+   "rank": 275,
+   "primer": "cholamandalam-financial-holdings.html"
+  },
+  {
+   "name": "Religare Enterprises Limited",
+   "nse": "RELIGARE",
+   "bse": "532915",
+   "rank": 597,
+   "primer": "religare-enterprises.html"
+  }
+ ],
+ "Chemicals || Carbon Black": [
+  {
+   "name": "Himadri Speciality Chemical Limited",
+   "nse": "HSCL",
+   "bse": "500184",
+   "rank": 257,
+   "primer": "himadri-speciality-chemical.html"
+  },
+  {
+   "name": "PCBL Chemical Limited",
+   "nse": "PCBL",
+   "bse": "506590",
+   "rank": 435,
+   "primer": "pcbl-chemical.html"
+  },
+  {
+   "name": "Rain Industries Ltd.",
+   "nse": "RAIN",
+   "bse": "500339",
+   "rank": 623,
+   "primer": "rain-industries.html"
+  }
+ ],
+ "Ratings || Ratings": [
+  {
+   "name": "CRISIL Limited",
+   "nse": "CRISIL",
+   "bse": "500092",
+   "rank": 278,
+   "primer": "crisil.html"
+  }
+ ],
+ "FMCG || Restaurants": [
+  {
+   "name": "Jubilant FoodWorks Limited",
+   "nse": "JUBLFOOD",
+   "bse": "533155",
+   "rank": 293,
+   "primer": "jubilant-foodworks.html"
+  },
+  {
+   "name": "Travel Food Services Limited",
+   "nse": "TRAVELFOOD",
+   "bse": "544443",
+   "rank": 383,
+   "primer": "travel-food-services.html"
+  },
+  {
+   "name": "Devyani International Limited",
+   "nse": "DEVYANI",
+   "bse": "543330",
+   "rank": 427,
+   "primer": "devyani-international.html"
+  },
+  {
+   "name": "Sapphire Foods India Limited",
+   "nse": "SAPPHIRE",
+   "bse": "543397",
+   "rank": 497,
+   "primer": "sapphire-foods.html"
+  },
+  {
+   "name": "Westlife Foodworld Ltd.",
+   "nse": "WESTLIFE",
+   "bse": "505533",
+   "rank": 635,
+   "primer": "westlife-foodworld.html"
+  },
+  {
+   "name": "Restaurant Brands Asia Ltd.",
+   "nse": "RBA",
+   "bse": "543248",
+   "rank": 703,
+   "primer": "restaurant-brands-asia.html"
+  }
+ ],
+ "IT || Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)": [
+  {
+   "name": "Inventurus Knowledge Solutions Limited",
+   "nse": "IKS",
+   "bse": "544332",
+   "rank": 289,
+   "primer": "inventurus-knowledge-solutions.html"
+  },
+  {
+   "name": "Sagility India Limited",
+   "nse": "SAGILITY",
+   "bse": "544282",
+   "rank": 362,
+   "primer": "sagility.html"
+  },
+  {
+   "name": "Firstsource Solutions Limited",
+   "nse": "FSL",
+   "bse": "532809",
+   "rank": 394,
+   "primer": "firstsource-solutions.html"
+  },
+  {
+   "name": "eClerx Services Limited",
+   "nse": "ECLERX",
+   "bse": "532927",
+   "rank": 439,
+   "primer": "eclerx-services.html"
+  }
+ ],
+ "Capital Goods || Abrasives & Bearings": [
+  {
+   "name": "Timken India Limited",
+   "nse": "TIMKEN",
+   "bse": "522113",
+   "rank": 300,
+   "primer": "timken-india.html"
+  },
+  {
+   "name": "Carborundum Universal Limited",
+   "nse": "CARBORUNIV",
+   "bse": "513375",
+   "rank": 322,
+   "primer": "carborundum-universal.html"
+  },
+  {
+   "name": "Grindwell Norton Limited",
+   "nse": "GRINDWELL",
+   "bse": "506076",
+   "rank": 504,
+   "primer": "grindwell-norton.html"
+  },
+  {
+   "name": "SKF India (Industrial) Limited",
+   "nse": "SKFINDUS",
+   "bse": "544572",
+   "rank": 532,
+   "primer": "skf-india-industrial.html"
+  },
+  {
+   "name": "SKF India Ltd.",
+   "nse": "SKFINDIA",
+   "bse": "500472",
+   "rank": 630,
+   "primer": "skf-india.html"
+  }
+ ],
+ "Healthcare || Healthcare Service Provider": [
+  {
+   "name": "Dr. Lal PathLabs Limited",
+   "nse": "LALPATHLAB",
+   "bse": "539524",
+   "rank": 291,
+   "primer": "dr-lal-pathlabs.html"
+  },
+  {
+   "name": "Vijaya Diagnostic Centre Limited",
+   "nse": "VIJAYA",
+   "bse": "543350",
+   "rank": 421,
+   "primer": "vijaya-diagnostic.html"
+  },
+  {
+   "name": "Metropolis Healthcare Limited",
+   "nse": "METROPOLIS",
+   "bse": "542650",
+   "rank": 546,
+   "primer": "metropolis-healthcare.html"
+  },
+  {
+   "name": "Thyrocare Technologies",
+   "nse": "THYROCARE",
+   "bse": "539871",
+   "rank": 582,
+   "primer": "thyrocare.html"
+  },
+  {
+   "name": "Jeena Sikho Lifecare Ltd.",
+   "nse": "JSLL",
+   "bse": "544476",
+   "rank": 640,
+   "primer": "jeena-sikho-lifecare.html"
+  }
+ ],
+ "Telecom || Telecom - Equipment & Accessories": [
+  {
+   "name": "HFCL Limited",
+   "nse": "HFCL",
+   "bse": "500183",
+   "rank": 262,
+   "primer": "hfcl.html"
+  },
+  {
+   "name": "ITI Limited",
+   "nse": "ITI",
+   "bse": "523610",
+   "rank": 285,
+   "primer": "iti-limited.html"
+  },
+  {
+   "name": "Tejas Networks Limited",
+   "nse": "TEJASNET",
+   "bse": "540595",
+   "rank": 463,
+   "primer": "tejas-networks.html"
+  },
+  {
+   "name": "Sterlite Technologies Limited",
+   "nse": "STLTECH",
+   "bse": "532374",
+   "rank": 502,
+   "primer": "sterlite-technologies.html"
+  }
+ ],
+ "Infrastructure || Road Assets-Toll, Annuity, Hybrid-Annuity": [
+  {
+   "name": "IRB Infrastructure Developers Limited",
+   "nse": "IRB",
+   "bse": "532947",
+   "rank": 306,
+   "primer": "irb-infrastructure.html"
+  }
+ ],
+ "Construction Materials || Glass - Consumer": [
+  {
+   "name": "Asahi India Glass Limited",
+   "nse": "ASAHIINDIA",
+   "bse": "515030",
+   "rank": 329,
+   "primer": "asahi-india-glass.html"
+  },
+  {
+   "name": "Borosil Renewables Limited",
+   "nse": "BORORENEW",
+   "bse": "502219",
+   "rank": 602,
+   "primer": "borosil-renewables.html"
+  }
+ ],
+ "IT || Computers Hardware & Equipments": [
+  {
+   "name": "Netweb Technologies India Limited",
+   "nse": "NETWEB",
+   "bse": "543945",
+   "rank": 308,
+   "primer": "netweb-technologies.html"
+  }
+ ],
+ "Miscellaneous || Oil Storage & Transportation": [
+  {
+   "name": "Aegis Vopak Terminals Limited",
+   "nse": "AEGISVOPAK",
+   "bse": "544407",
+   "rank": 307,
+   "primer": "aegis-vopak-terminals.html"
+  }
+ ],
+ "Logistics || Shipping": [
+  {
+   "name": "The Great Eastern Shipping Company Limited",
+   "nse": "GESHIP",
+   "bse": "500620",
+   "rank": 335,
+   "primer": "great-eastern-shipping.html"
+  },
+  {
+   "name": "The Shipping Corporation of India Limited",
+   "nse": "SCI",
+   "bse": "523598",
+   "rank": 419,
+   "primer": "shipping-corporation-india.html"
+  }
+ ],
+ "IT || Advertising & Media Agencies": [
+  {
+   "name": "Affle 3i Limited",
+   "nse": "AFFLE",
+   "bse": "542752",
+   "rank": 346,
+   "primer": "affle-3i.html"
+  }
+ ],
+ "Finance || Microfinance Institutions": [
+  {
+   "name": "CreditAccess Grameen Limited",
+   "nse": "CREDITACC",
+   "bse": "541770",
+   "rank": 320,
+   "primer": "creditaccess-grameen.html"
+  }
+ ],
+ "Media & Entertainment || TV Broadcasting & Software Production": [
+  {
+   "name": "Sun TV Network Limited",
+   "nse": "SUNTV",
+   "bse": "532733",
+   "rank": 340,
+   "primer": "sun-tv-network.html"
+  },
+  {
+   "name": "Zee Entertainment Enterprises Limited",
+   "nse": "ZEEL",
+   "bse": "505537",
+   "rank": 469,
+   "primer": "zee-entertainment.html"
+  },
+  {
+   "name": "Network18 Media & Investments Ltd.",
+   "nse": "NETWORK18",
+   "bse": "532798",
+   "rank": 713,
+   "primer": "network18-media.html"
+  }
+ ],
+ "Chemicals || Commodity Chemicals": [
+  {
+   "name": "Tata Chemicals Limited",
+   "nse": "TATACHEM",
+   "bse": "500770",
+   "rank": 358,
+   "primer": "tata-chemicals.html"
+  },
+  {
+   "name": "Supreme Petrochem Limited",
+   "nse": "SPLPETRO",
+   "bse": "500405",
+   "rank": 424,
+   "primer": "supreme-petrochem.html"
+  },
+  {
+   "name": "India Glycols Ltd.",
+   "nse": "INDIAGLYCO",
+   "bse": "500201",
+   "rank": 612,
+   "primer": "india-glycols.html"
+  },
+  {
+   "name": "Archean Chemical Industries Ltd.",
+   "nse": "ACI",
+   "bse": "543657",
+   "rank": 637,
+   "primer": "archean-chemical.html"
+  },
+  {
+   "name": "Styrenix Performance Materials Ltd.",
+   "nse": "STYRENIX",
+   "bse": "506222",
+   "rank": 718,
+   "primer": "styrenix-performance.html"
+  },
+  {
+   "name": "GHCL Ltd.",
+   "nse": "GHCL",
+   "bse": "500171",
+   "rank": 728,
+   "primer": "ghcl.html"
+  }
+ ],
+ "Business Services || Depositories, Clearing Houses and Other Intermediaries": [
+  {
+   "name": "Central Depository Services (India) Limited",
+   "nse": "CDSL",
+   "bse": "",
+   "rank": 292,
+   "primer": "cdsl.html"
+  },
+  {
+   "name": "Computer Age Management Services Limited",
+   "nse": "CAMS",
+   "bse": "543232",
+   "rank": 348,
+   "primer": "cams.html"
+  },
+  {
+   "name": "KFin Technologies Limited",
+   "nse": "KFINTECH",
+   "bse": "543720",
+   "rank": 407,
+   "primer": "kfin-technologies.html"
+  }
+ ],
+ "Business Services || Healthcare Research, Analytics & Technology": [
+  {
+   "name": "Anthem Biosciences Limited",
+   "nse": "ANTHEM",
+   "bse": "544449",
+   "rank": 213,
+   "primer": "anthem-biosciences.html"
+  },
+  {
+   "name": "Syngene International Limited",
+   "nse": "SYNGENE",
+   "bse": "539268",
+   "rank": 377,
+   "primer": "syngene-international.html"
+  },
+  {
+   "name": "Indegene Limited",
+   "nse": "INDGN",
+   "bse": "544172",
+   "rank": 436,
+   "primer": "indegene.html"
+  }
+ ],
+ "Finance || Financial Institution": [
+  {
+   "name": "IFCI Limited",
+   "nse": "IFCI",
+   "bse": "500106",
+   "rank": 339,
+   "primer": "ifci.html"
+  }
+ ],
+ "Automobile & Ancillaries || Lubricants": [
+  {
+   "name": "Castrol India Limited",
+   "nse": "CASTROLIND",
+   "bse": "500870",
+   "rank": 366,
+   "primer": "castrol-india.html"
+  }
+ ],
+ "Trading || Trading & Distributors": [
+  {
+   "name": "Redington Limited",
+   "nse": "REDINGTON",
+   "bse": "532805",
+   "rank": 331,
+   "primer": "redington.html"
+  },
+  {
+   "name": "MMTC Limited",
+   "nse": "MMTC",
+   "bse": "513377",
+   "rank": 474,
+   "primer": "mmtc.html"
+  },
+  {
+   "name": "Entero Healthcare Solutions Ltd.",
+   "nse": "ENTERO",
+   "bse": "544122",
+   "rank": 686,
+   "primer": "entero-healthcare.html"
+  }
+ ],
+ "Ferro Alloys || Ferro Alloys": [
+  {
+   "name": "Nava Limited",
+   "nse": "NAVA",
+   "bse": "513023",
+   "rank": 382,
+   "primer": "nava-limited.html"
+  },
+  {
+   "name": "Indian Metals & Ferro Alloys Ltd.",
+   "nse": "IMFA",
+   "bse": "533047",
+   "rank": 627,
+   "primer": "indian-metals-ferro-alloys.html"
+  }
+ ],
+ "Construction Materials || Ceramics": [
+  {
+   "name": "Kajaria Ceramics Limited",
+   "nse": "KAJARIACER",
+   "bse": "500233",
+   "rank": 354,
+   "primer": "kajaria-ceramics.html"
+  }
+ ],
+ "Business Services || Diversified Commercial Services": [
+  {
+   "name": "International Gemological Institute (India) Limited",
+   "nse": "IGIL",
+   "bse": "544311",
+   "rank": 402,
+   "primer": "igi.html"
+  },
+  {
+   "name": "BLS International Services Limited",
+   "nse": "BLS",
+   "bse": "540073",
+   "rank": 467,
+   "primer": "bls-international.html"
+  },
+  {
+   "name": "Seshaasai Technologies Ltd.",
+   "nse": "STYL",
+   "bse": "544533",
+   "rank": 667,
+   "primer": "seshaasai-technologies.html"
+  },
+  {
+   "name": "CMS Info Systems Ltd.",
+   "nse": "CMSINFO",
+   "bse": "543441",
+   "rank": 711,
+   "primer": "cms-info-systems.html"
+  },
+  {
+   "name": "Quess Corp Ltd.",
+   "nse": "QUESS",
+   "bse": "539978",
+   "rank": 715,
+   "primer": "quess-corp.html"
+  },
+  {
+   "name": "MSTC Ltd.",
+   "nse": "MSTCLTD",
+   "bse": "542597",
+   "rank": 724,
+   "primer": "mstc.html"
+  }
+ ],
+ "Capital Goods || Construction Vehicles": [
+  {
+   "name": "BEML Limited",
+   "nse": "BEML",
+   "bse": "500048",
+   "rank": 417,
+   "primer": "beml.html"
+  },
+  {
+   "name": "Action Construction Equipment Limited",
+   "nse": "ACE",
+   "bse": "532762",
+   "rank": 447,
+   "primer": "action-construction-equipment.html"
+  }
+ ],
+ "Capital Goods || Electrodes & Refractories": [
+  {
+   "name": "Graphite India Limited",
+   "nse": "GRAPHITE",
+   "bse": "509488",
+   "rank": 445,
+   "primer": "graphite-india.html"
+  },
+  {
+   "name": "HEG Limited",
+   "nse": "HEG",
+   "bse": "509631",
+   "rank": 477,
+   "primer": "heg.html"
+  },
+  {
+   "name": "RHI Magnesita India Limited",
+   "nse": "RHIM",
+   "bse": "534076",
+   "rank": 493,
+   "primer": "rhi-magnesita-india.html"
+  }
+ ],
+ "FMCG || Tea & Coffee": [
+  {
+   "name": "CCL Products (India) Limited",
+   "nse": "CCL",
+   "bse": "519600",
+   "rank": 400,
+   "primer": "ccl-products.html"
+  },
+  {
+   "name": "The Bombay Burmah Trading Corporation Limited",
+   "nse": "BBTC",
+   "bse": "501425",
+   "rank": 466,
+   "primer": "bombay-burmah.html"
+  }
+ ],
+ "FMCG || Other Agricultural Products": [
+  {
+   "name": "LT Foods Limited",
+   "nse": "LTFOODS",
+   "bse": "532783",
+   "rank": 430,
+   "primer": "lt-foods.html"
+  },
+  {
+   "name": "Manorama Industries Limited",
+   "nse": "MANORAMA",
+   "bse": "541974",
+   "rank": 561,
+   "primer": "manorama-industries.html"
+  },
+  {
+   "name": "KRBL Ltd.",
+   "nse": "KRBL",
+   "bse": "530813",
+   "rank": 608,
+   "primer": "krbl.html"
+  },
+  {
+   "name": "Gujarat Ambuja Exports Ltd.",
+   "nse": "GAEL",
+   "bse": "524226",
+   "rank": 632,
+   "primer": "gujarat-ambuja-exports.html"
+  },
+  {
+   "name": "Kaveri Seed Company Ltd.",
+   "nse": "KSCL",
+   "bse": "532899",
+   "rank": 722,
+   "primer": "kaveri-seed.html"
+  }
+ ],
+ "Healthcare || Medical Equipment & Supplies": [
+  {
+   "name": "Poly Medicure Limited",
+   "nse": "POLYMED",
+   "bse": "531768",
+   "rank": 386,
+   "primer": "poly-medicure.html"
+  },
+  {
+   "name": "Cupid Limited",
+   "nse": "CUPID",
+   "bse": "530843",
+   "rank": 501,
+   "primer": "cupid.html"
+  }
+ ],
+ "FMCG || Stationary": [
+  {
+   "name": "DOMS Industries Limited",
+   "nse": "DOMS",
+   "bse": "544045",
+   "rank": 423,
+   "primer": "doms-industries.html"
+  }
+ ],
+ "Agri || Sugar": [
+  {
+   "name": "E.I.D.-Parry (India) Limited",
+   "nse": "EIDPARRY",
+   "bse": "500125",
+   "rank": 433,
+   "primer": "eid-parry.html"
+  },
+  {
+   "name": "Balrampur Chini Mills Limited",
+   "nse": "BALRAMCHIN",
+   "bse": "500038",
+   "rank": 460,
+   "primer": "balrampur-chini.html"
+  },
+  {
+   "name": "Triveni Engineering & Industries Ltd.",
+   "nse": "TRIVENI",
+   "bse": "532356",
+   "rank": 693,
+   "primer": "triveni-engineering.html"
+  },
+  {
+   "name": "Shree Renuka Sugars Ltd.",
+   "nse": "RENUKA",
+   "bse": "532670",
+   "rank": 705,
+   "primer": "shree-renuka-sugars.html"
+  }
+ ],
+ "Infrastructure || Consulting Services": [
+  {
+   "name": "Engineers India Limited",
+   "nse": "ENGINERSIN",
+   "bse": "532178",
+   "rank": 426,
+   "primer": "engineers-india.html"
+  },
+  {
+   "name": "RITES Limited",
+   "nse": "RITES",
+   "bse": "541556",
+   "rank": 476,
+   "primer": "rites.html"
+  }
+ ],
+ "Automobile & Ancillaries || Railway Wagons": [
+  {
+   "name": "Titagarh Rail Systems Limited",
+   "nse": "TITAGARH",
+   "bse": "532966",
+   "rank": 451,
+   "primer": "titagarh-rail-systems.html"
+  },
+  {
+   "name": "Jupiter Wagons Limited",
+   "nse": "JWL",
+   "bse": "533272",
+   "rank": 459,
+   "primer": "jupiter-wagons.html"
+  },
+  {
+   "name": "Texmaco Rail & Engineering Ltd.",
+   "nse": "TEXRAIL",
+   "bse": "533326",
+   "rank": 708,
+   "primer": "texmaco-rail.html"
+  }
+ ],
+ "Non - Ferrous Metals || Diversified Metals": [
+  {
+   "name": "Vedanta Limited",
+   "nse": "VEDL",
+   "bse": "500295",
+   "rank": 101,
+   "primer": "vedanta.html"
+  },
+  {
+   "name": "Gravita India Limited",
+   "nse": "GRAVITA",
+   "bse": "533282",
+   "rank": 444,
+   "primer": "gravita-india.html"
+  },
+  {
+   "name": "Jain Resource Recycling Limited",
+   "nse": "JAINREC",
+   "bse": "544537",
+   "rank": 446,
+   "primer": "jain-resource-recycling.html"
+  }
+ ],
+ "FMCG || Animal Feed": [
+  {
+   "name": "Avanti Feeds Limited",
+   "nse": "AVANTIFEED",
+   "bse": "512573",
+   "rank": 534,
+   "primer": "avanti-feeds.html"
+  },
+  {
+   "name": "Godrej Agrovet",
+   "nse": "GODREJAGRO",
+   "bse": "540743",
+   "rank": 553,
+   "primer": "godrej-agrovet.html"
+  }
+ ],
+ "Retailing || Pharmacy Retail": [
+  {
+   "name": "MedPlus Health Services",
+   "nse": "MEDPLUS",
+   "bse": "543427",
+   "rank": 593,
+   "primer": "medplus-health.html"
+  }
+ ],
+ "Telecom || Other Telecom Services": [
+  {
+   "name": "RailTel Corporation of India Limited",
+   "nse": "RAILTEL",
+   "bse": "543265",
+   "rank": 479,
+   "primer": "railtel.html"
+  }
+ ],
+ "Media & Entertainment || Film Production, Distribution & Exhibition": [
+  {
+   "name": "PVR INOX Limited",
+   "nse": "PVRINOX",
+   "bse": "532689",
+   "rank": 484,
+   "primer": "pvr-inox.html"
+  }
+ ],
+ "FMCG || Footwear": [
+  {
+   "name": "Bata India Limited",
+   "nse": "BATAINDIA",
+   "bse": "500043",
+   "rank": 489,
+   "primer": "bata-india.html"
+  },
+  {
+   "name": "Relaxo Footwears Limited",
+   "nse": "RELAXO",
+   "bse": "530517",
+   "rank": 569,
+   "primer": "relaxo-footwears.html"
+  },
+  {
+   "name": "Redtape Ltd.",
+   "nse": "REDTAPE",
+   "bse": "543957",
+   "rank": 641,
+   "primer": "redtape.html"
+  },
+  {
+   "name": "Campus Activewear Ltd.",
+   "nse": "CAMPUS",
+   "bse": "543523",
+   "rank": 648,
+   "primer": "campus-activewear.html"
+  }
+ ],
+ "Trading || Houseware": [
+  {
+   "name": "Cello World Ltd.",
+   "nse": "CELLO",
+   "bse": "544012",
+   "rank": 622,
+   "primer": "cello-world.html"
+  }
+ ],
+ "FMCG || Household Products": [
+  {
+   "name": "Jyothy Labs Ltd.",
+   "nse": "JYOTHYLAB",
+   "bse": "532926",
+   "rank": 629,
+   "primer": "jyothy-labs.html"
+  }
+ ],
+ "Construction Materials || Sanitary Ware": [
+  {
+   "name": "Cera Sanitaryware Ltd.",
+   "nse": "CERA",
+   "bse": "532443",
+   "rank": 611,
+   "primer": "cera-sanitaryware.html"
+  }
+ ],
+ "IT || IT Enabled Services": [
+  {
+   "name": "Tanla Platforms Ltd.",
+   "nse": "TANLA",
+   "bse": "532790",
+   "rank": 614,
+   "primer": "tanla-platforms.html"
+  },
+  {
+   "name": "Route Mobile",
+   "nse": "ROUTE",
+   "bse": "543228",
+   "rank": 743,
+   "primer": "route-mobile.html"
+  }
+ ],
+ "FMCG || Furniture, Home Furnishing": [
+  {
+   "name": "Sheela Foam Limited",
+   "nse": "SFL",
+   "bse": "540203",
+   "rank": 599,
+   "primer": "sheela-foam.html"
+  },
+  {
+   "name": "Wakefit Innovations Ltd.",
+   "nse": "WAKEFIT",
+   "bse": "544642",
+   "rank": 725,
+   "primer": "wakefit.html"
+  }
+ ],
+ "Business Services || Education": [
+  {
+   "name": "Physicswallah Limited",
+   "nse": "PWL",
+   "bse": "544609",
+   "rank": 251,
+   "primer": "physicswallah.html"
+  },
+  {
+   "name": "Crizac",
+   "nse": "CRIZAC",
+   "bse": "544439",
+   "rank": 744,
+   "primer": "crizac.html"
+  }
+ ],
+ "Media & Entertainment || Music & Content Licensing": [
+  {
+   "name": "Saregama India Limited",
+   "nse": "SAREGAMA",
+   "bse": "532163",
+   "rank": 485,
+   "primer": "saregama.html"
+  },
+  {
+   "name": "Tips Music",
+   "nse": "TIPSMUSIC",
+   "bse": "532375",
+   "rank": 585,
+   "primer": "tips-music.html"
+  }
+ ],
+ "Construction Materials || Plywood Boards/ Laminates": [
+  {
+   "name": "Century Plyboards (India) Limited",
+   "nse": "CENTURYPLY",
+   "bse": "532548",
+   "rank": 511,
+   "primer": "century-plyboards.html"
+  }
+ ],
+ "Infrastructure || Water Supply & Management": [
+  {
+   "name": "Va Tech Wabag Limited",
+   "nse": "WABAG",
+   "bse": "533269",
+   "rank": 542,
+   "primer": "va-tech-wabag.html"
+  },
+  {
+   "name": "Ion Exchange (India) Ltd.",
+   "nse": "IONEXCHANG",
+   "bse": "500214",
+   "rank": 655,
+   "primer": "ion-exchange.html"
+  },
+  {
+   "name": "Enviro Infra Engineers Ltd.",
+   "nse": "EIEL",
+   "bse": "544290",
+   "rank": 733,
+   "primer": "enviro-infra-engineers.html"
+  }
+ ],
+ "Media & Entertainment || Gaming & Interactive Entertainment": [
+  {
+   "name": "Nazara Technologies",
+   "nse": "NAZARA",
+   "bse": "543280",
+   "rank": 550,
+   "primer": "nazara-technologies.html"
+  }
+ ],
+ "Realty || Flexible Workspace (Co-working)": [
+  {
+   "name": "WeWork India Management Limited",
+   "nse": "WEWORK",
+   "bse": "544570",
+   "rank": 571,
+   "primer": "wework-india.html"
+  },
+  {
+   "name": "Smartworks Coworking Spaces Ltd.",
+   "nse": "SMARTWORKS",
+   "bse": "544447",
+   "rank": 683,
+   "primer": "smartworks-coworking.html"
+  },
+  {
+   "name": "Awfis Space Solutions",
+   "nse": "AWFIS",
+   "bse": "544181",
+   "rank": 749,
+   "primer": "awfis-space-solutions.html"
+  }
+ ],
+ "Consumer Durables || Luggage": [
+  {
+   "name": "Safari Industries (India) Ltd.",
+   "nse": "SAFARI",
+   "bse": "523025",
+   "rank": 618,
+   "primer": "safari-industries.html"
+  },
+  {
+   "name": "V.I.P. Industries Ltd.",
+   "nse": "VIPIND",
+   "bse": "507880",
+   "rank": 726,
+   "primer": "vip-industries.html"
+  }
+ ],
+ "Paper || Paper & Paper Products": [
+  {
+   "name": "JK Paper Ltd.",
+   "nse": "JKPAPER",
+   "bse": "532162",
+   "rank": 628,
+   "primer": "jk-paper.html"
+  }
+ ],
+ "Power || Power Trading": [
+  {
+   "name": "PTC India Ltd.",
+   "nse": "PTC",
+   "bse": "532524",
+   "rank": 700,
+   "primer": "ptc-india.html"
+  }
+ ]
+}
