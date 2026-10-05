@@ -12211,6 +12211,23 @@
       ],
       "refreshed": "2026-07-27",
       "status": "published"
+    },
+    {
+      "name": "Asset Reconstruction Company (India)",
+      "file": "primers/asset-reconstruction-company-india.html",
+      "nse": "ARCIL",
+      "bse": "544921",
+      "sector": "Financial Services",
+      "accent": "#1E3A5F",
+      "hook": "India's oldest asset reconstruction company and the first ARC to list — a high-margin bad-loan recovery specialist (Avenue Capital and SBI owned) whose Security-Receipt book is shrinking as bank NPAs dry up and state-backed NARCL crowds the field; profitable but lumpy, and listed flat via a pure offer-for-sale.",
+      "tags": [
+        "Asset Reconstruction",
+        "Distressed Debt",
+        "NBFC",
+        "Recent IPO"
+      ],
+      "refreshed": "2026-07-27",
+      "status": "published"
     }
   ]
 }
