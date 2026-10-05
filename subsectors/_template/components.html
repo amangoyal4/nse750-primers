@@ -1,0 +1,140 @@
+<!--
+SUB-SECTOR REPORT COMPONENT KIT  (formatting only — append this CSS AFTER the cloned house <style> rules)
+Uses the house CSS variables: --paper --card --ink --ink-soft --ink-faint --brand --brand-bright --gold --line --line-soft --good --bad
+Every existing primer component (.chart/.bars/.bar-row/.track/.fill, .plain, table, .flow/.node/.arrow, .timeline, .mini-stats, .bb, .legend) stays available and should still be used.
+-->
+
+<style id="subsector-kit">
+  /* 0. Grid fix (found in the Hospitals pilot): wide nowrap tables must not stretch the grid column */
+  main{min-width:0;}
+
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+</style>
+
+<!-- ===== MARKUP EXAMPLES (copy the pattern, replace the content) ===== -->
+
+<!-- 6-cell stat strip (₹ only) -->
+<div class="stat-strip six">
+  <div class="cell"><div class="v">₹X<small>lakh Cr</small></div><div class="l">Industry size FY26</div></div>
+  <div class="cell"><div class="v">X%</div><div class="l">CAGR FY26–30E</div></div>
+  <div class="cell"><div class="v">13</div><div class="l">Listed in NSE 750</div></div>
+  <div class="cell"><div class="v">₹X<small>lakh Cr</small></div><div class="l">Combined m-cap</div></div>
+  <div class="cell"><div class="v">₹X<small>Cr</small></div><div class="l">Combined PAT FY26</div></div>
+  <div class="cell"><div class="v">X%</div><div class="l">Top-3 share</div></div>
+</div>
+
+<!-- Peer table -->
+<div class="peer-wrap"><table class="peer">
+  <thead><tr><th>Company</th><th class="num">Revenue FY26 ₹ Cr</th><th class="num">Growth</th><th class="num">EBITDA %</th></tr></thead>
+  <tbody>
+    <tr><td class="co"><a href="../primers/apollo-hospitals.html">Apollo Hospitals</a><small>APOLLOHOSP</small></td><td class="num">0</td><td class="num pos">+0%</td><td class="num">0%</td></tr>
+    <tr class="agg"><td>All 13 combined</td><td class="num">0</td><td class="num">—</td><td class="num">0%</td></tr>
+  </tbody></table>
+  <div class="peer-note">Sources / basis note.</div></div>
+
+<!-- Positioning map: x = growth %, y = EBITDA margin %. Map values linearly into plot box x 70→610, y 380→30. -->
+<figure class="map">
+  <div class="c-title" style="font-family:Sora,sans-serif;font-size:17px;font-weight:600;">Title</div>
+  <div class="c-sub" style="font-size:12.5px;color:var(--ink-soft);margin-bottom:10px;">Subtitle</div>
+  <svg viewBox="0 0 640 420" role="img" aria-label="describe the chart">
+    <line class="grid" x1="70" y1="30" x2="610" y2="30"/><line class="axis" x1="70" y1="380" x2="610" y2="380"/><line class="axis" x1="70" y1="30" x2="70" y2="380"/>
+    <line class="mid" x1="340" y1="30" x2="340" y2="380"/><line class="mid" x1="70" y1="205" x2="610" y2="205"/>
+    <text class="q" x="600" y="46" text-anchor="end">Fast &amp; profitable</text>
+    <text class="tick" x="70" y="398" text-anchor="middle">0%</text>
+    <text class="ax-l" x="340" y="414" text-anchor="middle">Revenue growth FY26 →</text>
+    <text class="ax-l" x="18" y="205" transform="rotate(-90 18 205)" text-anchor="middle">EBITDA margin →</text>
+    <circle class="dot" cx="400" cy="120" r="8"/><text class="lbl" x="412" y="124">Company</text>
+  </svg>
+  <figcaption>What the reader should take away.</figcaption>
+</figure>
+
+<!-- Heat map -->
+<table class="heat"><thead><tr><th>Company</th><th>Scale</th><th>Margin</th><th>Growth</th></tr></thead>
+<tbody><tr><td>Name</td><td class="h5">Strong</td><td class="h3">Avg</td><td class="h1">Weak</td></tr></tbody></table>
+
+<!-- Stacked share bar -->
+<div class="chart"><div class="c-title">Title</div><div class="c-sub">Subtitle</div>
+  <div class="stack-row"><div class="blab">Payer mix</div><div class="stack"><span style="width:45%;background:var(--brand)">Insurance 45%</span><span style="width:35%;background:var(--gold)">Cash 35%</span><span style="width:20%;background:var(--ink-faint)">Govt 20%</span></div></div>
+</div>
+
+<!-- Company profile card -->
+<div class="co-grid"><div class="co-card">
+  <h3>Company</h3><div class="tick">NSE: X · BSE: Y</div><span class="role">The scale leader</span>
+  <div class="kpis"><div><b>₹0</b><span>Revenue Cr</span></div><div><b>0</b><span>Beds</span></div><div><b>0%</b><span>EBITDA</span></div><div><b>₹0</b><span>ARPOB</span></div></div>
+  <p>150–250 words on what defines it, its edge and its risk.</p>
+  <a class="more" href="../primers/x.html">Read the full primer →</a>
+</div></div>
+
+<!-- Glossary benchmark row -->
+<table><thead><tr><th>KPI</th><th>What it measures</th><th>Good</th><th>Average</th><th>Weak</th></tr></thead>
+<tbody><tr><td>ARPOB</td><td>…</td><td><span class="rng good">&gt;₹X</span></td><td><span class="rng avg">₹X–Y</span></td><td><span class="rng poor">&lt;₹Y</span></td></tr></tbody></table>

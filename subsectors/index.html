@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sub-sector Reports · NSE 750</title>
+<meta name="description" content="Deep, plain-English reports on every sub-sector of the NSE 750: how the industry makes money, who is winning and why, and every listed company compared side by side.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F4F5F2; --paper-2:#FBFBF7; --card:#FFFFFF;
+    --ink:#16201E; --ink-soft:#566461; --ink-faint:#8B9794;
+    --brand:#124E47; --brand-bright:#2E8B7F; --gold:#E0913C;
+    --line:#DBDED7; --line-soft:#E8EAE3; --good:#2A8359;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;}
+  h1,h2,h3{font-family:"Sora",sans-serif;font-weight:700;line-height:1.1;letter-spacing:-.02em;margin:0;}
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);}
+
+  header.top{border-bottom:3px solid var(--ink);background:var(--paper);position:sticky;top:0;z-index:30;}
+  header.top .inner{display:flex;align-items:center;gap:16px;padding:15px 28px;max-width:1180px;margin:0 auto;flex-wrap:wrap;}
+  .brand{font-family:"Sora";font-weight:700;font-size:19px;letter-spacing:-.02em;display:flex;align-items:center;gap:11px;}
+  .brand em{font-style:normal;color:var(--gold);}
+  .logo-plate{background:#0a0a0a;border-radius:8px;padding:4px 6px;display:inline-flex;align-items:center;box-shadow:0 2px 10px rgba(0,0,0,.2);}
+  .logo-plate img{display:block;height:48px;width:auto;}
+  .tabs{display:flex;gap:4px;background:var(--line-soft);padding:4px;border-radius:9px;}
+  .tabs a{font-family:"DM Mono",monospace;font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;padding:7px 13px;border-radius:6px;color:var(--ink-soft);white-space:nowrap;}
+  .tabs a:hover{color:var(--ink);}
+  .tabs a.on{background:var(--card);color:var(--ink);font-weight:500;box-shadow:0 1px 3px rgba(0,0,0,.08);}
+  .spacer{flex:1;}
+  .count-chip{font-family:"DM Mono";font-size:12px;color:var(--ink-soft);border:1px solid var(--line);border-radius:20px;padding:5px 13px;background:var(--card);}
+
+  .hero{padding:54px 0 26px;border-bottom:1px solid var(--line);}
+  .hero h1{font-size:clamp(32px,5vw,54px);letter-spacing:-.03em;margin:14px 0 .35em;max-width:19ch;}
+  .hero h1 em{font-style:normal;color:var(--gold);}
+  .hero .dek{font-size:clamp(16px,2vw,19px);color:var(--ink-soft);max-width:70ch;line-height:1.5;}
+  .hero .feat{display:flex;gap:22px;flex-wrap:wrap;margin-top:24px;}
+  .hero .feat .f{display:flex;gap:10px;align-items:flex-start;max-width:30ch;}
+  .hero .feat .f .fi{flex:0 0 auto;width:26px;height:26px;border-radius:6px;background:var(--brand);color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;}
+  .hero .feat .f .ft{font-size:13.5px;color:var(--ink-soft);line-height:1.4;}
+  .hero .feat .f .ft b{color:var(--ink);font-weight:600;display:block;font-family:"Sora";font-size:13.5px;}
+
+  .controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:26px 0 4px;}
+  .search{flex:1;min-width:240px;display:flex;align-items:center;gap:9px;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:11px 15px;}
+  .search input{border:none;outline:none;background:none;font-family:"Figtree";font-size:15px;width:100%;color:var(--ink);}
+  .search svg{opacity:.5;flex:0 0 auto;}
+  select.filter{font-family:"Figtree";font-size:14px;padding:11px 13px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);cursor:pointer;}
+  .shown{font-family:"DM Mono";font-size:11.5px;color:var(--ink-faint);}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:18px;margin:18px 0 10px;}
+  .card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px 22px 18px 26px;overflow:hidden;transition:transform .14s,box-shadow .14s,border-color .14s;display:flex;flex-direction:column;}
+  .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--ac,#124E47);}
+  .card:hover{transform:translateY(-3px);box-shadow:0 10px 30px rgba(20,30,28,.09);border-color:var(--ac,#124E47);}
+  .card .c-top{display:flex;align-items:baseline;justify-content:space-between;gap:10px;}
+  .card h3{font-size:22px;letter-spacing:-.02em;}
+  .card .sector{font-family:"DM Mono";font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--ac,#124E47);padding:3px 9px;border-radius:20px;white-space:nowrap;}
+  .card .meta{font-family:"DM Mono";font-size:11px;color:var(--ink-faint);margin-top:6px;}
+  .card .hook{font-size:14px;color:var(--ink-soft);margin:13px 0 14px;line-height:1.5;flex:1;}
+  .card .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;}
+  .card .tag{font-family:"DM Mono";font-size:10px;letter-spacing:.02em;color:var(--ink-soft);background:var(--paper-2);border:1px solid var(--line-soft);padding:3px 8px;border-radius:5px;}
+  .card .c-foot{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line-soft);padding-top:12px;}
+  .card .pub{font-family:"DM Mono";font-size:11px;color:var(--ink-faint);display:inline-flex;align-items:center;gap:6px;}
+  .card .pub .d{width:7px;height:7px;border-radius:50%;background:var(--good);}
+  .card .read{font-family:"DM Mono";font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--ac,#124E47);font-weight:500;}
+  .card:hover .read{text-decoration:underline;}
+
+  section.map{border-top:1px solid var(--line);margin-top:34px;padding-top:34px;}
+  section.map h2{font-size:clamp(24px,3.2vw,32px);}
+  section.map .m-sub{color:var(--ink-soft);margin:8px 0 18px;max-width:72ch;}
+  .progress{display:flex;align-items:center;gap:14px;margin:0 0 24px;flex-wrap:wrap;}
+  .progress .bar{flex:1;min-width:200px;height:8px;background:var(--line-soft);border-radius:5px;overflow:hidden;}
+  .progress .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--brand),var(--brand-bright));border-radius:5px;}
+  .progress .ptext{font-family:"DM Mono";font-size:12px;color:var(--ink-soft);}
+  .groups{columns:3 320px;column-gap:28px;}
+  .grp{break-inside:avoid;margin:0 0 22px;}
+  .grp h4{font-family:"Sora";font-size:15px;margin:0 0 8px;display:flex;justify-content:space-between;gap:10px;border-bottom:2px solid var(--ink);padding-bottom:5px;}
+  .grp h4 span{font-family:"DM Mono";font-size:11px;font-weight:400;color:var(--ink-faint);}
+  .grp ul{list-style:none;margin:0;padding:0;}
+  .grp li{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;padding:4px 0;border-bottom:1px solid var(--line-soft);color:var(--ink-soft);}
+  .grp li .n{font-family:"DM Mono";font-size:11.5px;color:var(--ink-faint);white-space:nowrap;}
+  .grp li.done{color:var(--ink);font-weight:600;}
+  .grp li.done a{color:var(--brand);border-bottom:1px solid var(--brand-bright);}
+  .grp li.done .n::after{content:" · report ✓";color:var(--good);}
+
+  footer.site{border-top:3px solid var(--ink);margin-top:40px;padding:28px 0 72px;}
+  .disc{font-size:12px;color:var(--ink-faint);max-width:92ch;font-style:italic;}
+  .state{padding:50px;text-align:center;color:var(--ink-faint);font-family:"DM Mono";font-size:13px;}
+  @media(max-width:640px){.tabs{order:3;width:100%;}.tabs a{flex:1;text-align:center;}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="inner">
+    <a class="brand" href="index.html"><span class="logo-plate"><img src="../assets/logo.png" alt="Guardian Capital"></span> Sub-sector <em>Reports</em></a>
+    <nav class="tabs" aria-label="Library sections">
+      <a href="../index.html">Company primers</a>
+      <a href="index.html" class="on" aria-current="page">Sub-sector reports</a>
+    </nav>
+    <div class="spacer"></div>
+    <span class="count-chip" id="count">— published</span>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section class="hero">
+    <div class="eyebrow">The NSE 750 · one report per sub-sector · plain English · built for the non-specialist</div>
+    <h1>Understand a whole industry, <em>not just one stock</em>.</h1>
+    <p class="dek">Each report explains how a sub-sector actually makes money, who sets its prices, how it has boomed and bust, what its numbers mean, and how <strong>every listed company in it compares, side by side</strong>. They run about two and a half times the length of a company primer, and <strong>each is shaped around the forces that define that industry</strong>.</p>
+    <div class="feat">
+      <div class="f"><div class="fi">◆</div><div class="ft"><b>Bespoke per industry</b>No fixed outline: each report leads with what genuinely drives that sub-sector.</div></div>
+      <div class="f"><div class="fi">≡</div><div class="ft"><b>Every listed peer compared</b>A full peer table, positioning maps and a profile of each NSE 750 company in it.</div></div>
+      <div class="f"><div class="fi">↗</div><div class="ft"><b>Linked to the primers</b>Go from the industry view to any company's own primer in one click.</div></div>
+    </div>
+  </section>
+
+  <div class="controls">
+    <label class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="q" type="search" placeholder="Search sub-sector or sector…" autocomplete="off">
+    </label>
+    <select class="filter" id="sector"><option value="">All sectors</option></select>
+    <span class="shown" id="shown"></span>
+  </div>
+
+  <div class="cards" id="cards"><div class="state">Loading reports…</div></div>
+
+  <section class="map" id="map">
+    <div class="eyebrow">Coverage</div>
+    <h2>Every sub-sector in the NSE 750</h2>
+    <p class="m-sub" id="map-sub">The full map of sub-sectors, with the number of NSE 750 companies in each. Published reports are linked.</p>
+    <div class="progress">
+      <span class="ptext" id="prog-text">—</span>
+      <span class="bar"><i id="prog-bar" style="width:0%"></i></span>
+    </div>
+    <div class="groups" id="groups"></div>
+  </section>
+
+  <footer class="site">
+    <p class="disc">Sub-sector reports are educational, plain-English explainers compiled from public sources: company filings, regulators, industry bodies and our own company primers. They are <strong>not investment advice</strong>. Figures are approximate, may be outdated, and companies sometimes define the same metric differently; each report notes its basis. Verify against primary sources.</p>
+  </footer>
+
+</div>
+
+<script type="module">
+const $ = (id)=>document.getElementById(id);
+const esc = (s)=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmtDate = (s)=>{ try{ return new Date(s).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'}); }catch{ return s; } };
+let REPORTS = [], UNIVERSE = [];
+
+function card(r){
+  const ac = r.accent || '#124E47';
+  const tags = (r.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
+  return `<a class="card" style="--ac:${esc(ac)}" href="${esc(r.file)}">
+    <div class="c-top"><h3>${esc(r.name)}</h3><span class="sector">${esc(r.sector)}</span></div>
+    <div class="meta">${r.companies} listed ${r.companies===1?'company':'companies'} in the NSE 750</div>
+    <div class="hook">${esc(r.hook)}</div>
+    <div class="tags">${tags}</div>
+    <div class="c-foot">
+      <span class="pub"><span class="d"></span> Published ${fmtDate(r.published)}</span>
+      <span class="read">Read report →</span>
+    </div>
+  </a>`;
+}
+
+function matches(text, q){ return !q || text.toLowerCase().includes(q); }
+
+function apply(){
+  const q = $('q').value.trim().toLowerCase();
+  const sec = $('sector').value;
+  const rows = REPORTS.filter(r => (!sec || r.sector===sec) && matches(`${r.name} ${r.subsector} ${r.sector} ${(r.tags||[]).join(' ')}`, q));
+  $('shown').textContent = `${rows.length} of ${REPORTS.length} reports shown`;
+  $('cards').innerHTML = rows.map(card).join('') || `<div class="state">No published report matches. See the full sub-sector map below.</div>`;
+
+  const uni = UNIVERSE.filter(u => (!sec || u.sector===sec) && matches(`${u.sub} ${u.sector}`, q));
+  const bySector = {};
+  uni.forEach(u => (bySector[u.sector] = bySector[u.sector] || []).push(u));
+  const html = Object.keys(bySector).sort().map(s => {
+    const items = bySector[s].sort((a,b)=> b.companies-a.companies || a.sub.localeCompare(b.sub));
+    const cos = items.reduce((a,u)=>a+u.companies,0);
+    const lis = items.map(u => u.report
+      ? `<li class="done"><a href="${esc(u.report)}">${esc(u.sub)}</a><span class="n">${u.companies}</span></li>`
+      : `<li><span>${esc(u.sub)}</span><span class="n">${u.companies}</span></li>`).join('');
+    return `<div class="grp"><h4>${esc(s)} <span>${items.length} · ${cos} cos</span></h4><ul>${lis}</ul></div>`;
+  }).join('');
+  $('groups').innerHTML = html || `<div class="state">No sub-sector matches.</div>`;
+}
+
+async function init(){
+  try{
+    const cat = await fetch('../data/subsectors.json?v=' + Date.now(), {cache:'no-store'}).then(r=>r.json());
+    REPORTS = cat.reports || []; UNIVERSE = cat.universe || [];
+    const total = UNIVERSE.length, done = UNIVERSE.filter(u=>u.report).length;
+    const sectors = new Set(UNIVERSE.map(u=>u.sector)).size;
+    const cos = UNIVERSE.reduce((a,u)=>a+u.companies,0);
+    $('count').textContent = `${REPORTS.length} of ${total} published`;
+    $('map-sub').textContent = `${total} sub-sectors across ${sectors} sectors, covering all ${cos} NSE 750 companies (${cat.basis || 'sector classification'}). The number beside each is how many NSE 750 companies it holds. Published reports are linked.`;
+    $('prog-text').textContent = `${done} / ${total} sub-sector reports published`;
+    $('prog-bar').style.width = Math.max(1.2, done/total*100).toFixed(2) + '%';
+    const secs = [...new Set(UNIVERSE.map(u=>u.sector))].sort();
+    $('sector').insertAdjacentHTML('beforeend', secs.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join(''));
+    apply();
+  }catch(e){
+    $('cards').innerHTML = `<div class="state">Could not load the catalog (${esc(e.message)}).</div>`;
+  }
+}
+$('q').addEventListener('input', apply);
+$('sector').addEventListener('change', apply);
+init();
+</script>
+</body>
+</html>

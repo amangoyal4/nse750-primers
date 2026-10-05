@@ -1,0 +1,836 @@
+{
+  "title": "Sub-sector reports · NSE 750",
+  "basis": "Accord Fintech sector / sub-sector classification of the NSE 750",
+  "subsectors": 135,
+  "reports": [
+    {
+      "name": "Hospitals",
+      "slug": "hospitals",
+      "file": "hospitals.html",
+      "sector": "Healthcare",
+      "subsector": "Hospital",
+      "companies": 13,
+      "accent": "#0F5C58",
+      "hook": "How India’s private hospital chains turn a bed-day into profit: a 1.5-beds-per-thousand shortage, a contested fight over who sets the price, a 34,000-bed construction wave that dents margins first, and a market paying 25–40x EBITDA for mid-teens returns — with all 13 listed chains compared side by side.",
+      "tags": [
+        "Bed shortage",
+        "Pricing & regulation",
+        "New-bed J-curve",
+        "Valuation premium"
+      ],
+      "published": "2026-10-05"
+    }
+  ],
+  "universe": [
+    {
+      "sector": "Agri",
+      "sub": "Sugar",
+      "companies": 4,
+      "report": null
+    },
+    {
+      "sector": "Alcohol",
+      "sub": "Breweries & Distilleries",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Automobile & Ancillaries",
+      "sub": "Auto Components & Equipments",
+      "companies": 29,
+      "report": null
+    },
+    {
+      "sector": "Automobile & Ancillaries",
+      "sub": "2/3 Wheelers",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Automobile & Ancillaries",
+      "sub": "Commercial Vehicles",
+      "companies": 5,
+      "report": null
+    },
+    {
+      "sector": "Automobile & Ancillaries",
+      "sub": "Tyres & Rubber Products",
+      "companies": 5,
+      "report": null
+    },
+    {
+      "sector": "Automobile & Ancillaries",
+      "sub": "Castings & Forgings",
+      "companies": 4,
+      "report": null
+    },
+    {
+      "sector": "Automobile & Ancillaries",
+      "sub": "Passenger Cars & Utility Vehicles",
+      "companies": 4,
+      "report": null
+    },
+    {
+      "sector": "Automobile & Ancillaries",
+      "sub": "Railway Wagons",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Automobile & Ancillaries",
+      "sub": "Lubricants",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Automobile & Ancillaries",
+      "sub": "Tractors",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Aviation",
+      "sub": "Airline",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Bank",
+      "sub": "Private Sector Bank",
+      "companies": 19,
+      "report": null
+    },
+    {
+      "sector": "Bank",
+      "sub": "Public Sector Bank",
+      "companies": 11,
+      "report": null
+    },
+    {
+      "sector": "Bank",
+      "sub": "Other Bank",
+      "companies": 4,
+      "report": null
+    },
+    {
+      "sector": "Business Services",
+      "sub": "Diversified Commercial Services",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Business Services",
+      "sub": "Depositories, Clearing Houses and Other Intermediaries",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Business Services",
+      "sub": "Healthcare Research, Analytics & Technology",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Business Services",
+      "sub": "Education",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Capital Goods",
+      "sub": "Industrial Products",
+      "companies": 15,
+      "report": null
+    },
+    {
+      "sector": "Capital Goods",
+      "sub": "Heavy Electrical Equipment",
+      "companies": 13,
+      "report": null
+    },
+    {
+      "sector": "Capital Goods",
+      "sub": "Other Electrical Equipment",
+      "companies": 13,
+      "report": null
+    },
+    {
+      "sector": "Capital Goods",
+      "sub": "Aerospace & Defense",
+      "companies": 12,
+      "report": null
+    },
+    {
+      "sector": "Capital Goods",
+      "sub": "Compressors, Pumps & Diesel Engines",
+      "companies": 9,
+      "report": null
+    },
+    {
+      "sector": "Capital Goods",
+      "sub": "Abrasives & Bearings",
+      "companies": 5,
+      "report": null
+    },
+    {
+      "sector": "Capital Goods",
+      "sub": "Electrodes & Refractories",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Capital Goods",
+      "sub": "Construction Vehicles",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Chemicals",
+      "sub": "Specialty Chemicals",
+      "companies": 21,
+      "report": null
+    },
+    {
+      "sector": "Chemicals",
+      "sub": "Fertilizers",
+      "companies": 9,
+      "report": null
+    },
+    {
+      "sector": "Chemicals",
+      "sub": "Commodity Chemicals",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Chemicals",
+      "sub": "Pesticides & Agrochemicals",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Chemicals",
+      "sub": "Paints",
+      "companies": 5,
+      "report": null
+    },
+    {
+      "sector": "Chemicals",
+      "sub": "Carbon Black",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Chemicals",
+      "sub": "Explosives",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Construction Materials",
+      "sub": "Cement & Cement Products",
+      "companies": 15,
+      "report": null
+    },
+    {
+      "sector": "Construction Materials",
+      "sub": "Glass - Consumer",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Construction Materials",
+      "sub": "Ceramics",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Construction Materials",
+      "sub": "Plywood Boards/ Laminates",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Construction Materials",
+      "sub": "Sanitary Ware",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Consumer Durables",
+      "sub": "Household Appliances",
+      "companies": 9,
+      "report": null
+    },
+    {
+      "sector": "Consumer Durables",
+      "sub": "Consumer Electronics",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Consumer Durables",
+      "sub": "Luggage",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Crude Oil",
+      "sub": "Refineries & Marketing",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Crude Oil",
+      "sub": "Oil Exploration & Production",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Diamond & Jewellery",
+      "sub": "Gems, Jewellery And Watches",
+      "companies": 9,
+      "report": null
+    },
+    {
+      "sector": "Diversified",
+      "sub": "Diversified",
+      "companies": 7,
+      "report": null
+    },
+    {
+      "sector": "Electricals",
+      "sub": "Cables - Electricals",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Ferro Alloys",
+      "sub": "Ferro Alloys",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Finance",
+      "sub": "Non Banking Financial Company (NBFC)",
+      "companies": 25,
+      "report": null
+    },
+    {
+      "sector": "Finance",
+      "sub": "Housing Finance Company",
+      "companies": 10,
+      "report": null
+    },
+    {
+      "sector": "Finance",
+      "sub": "Other Financial Services",
+      "companies": 7,
+      "report": null
+    },
+    {
+      "sector": "Finance",
+      "sub": "Asset Management Company",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Finance",
+      "sub": "Investment Company",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Finance",
+      "sub": "Stockbroking & Allied",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Finance",
+      "sub": "Exchange and Data Platform",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Finance",
+      "sub": "Holding Company",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Finance",
+      "sub": "Financial Institution",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Finance",
+      "sub": "Microfinance Institutions",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Packaged Foods",
+      "companies": 8,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Personal Care",
+      "companies": 7,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Restaurants",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Other Agricultural Products",
+      "companies": 5,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Footwear",
+      "companies": 4,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Edible Oil",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Animal Feed",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Diversified FMCG",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Furniture, Home Furnishing",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Tea & Coffee",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Cigarettes & Tobacco Products",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Household Products",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Other Beverages",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "FMCG",
+      "sub": "Stationary",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Gas Transmission",
+      "sub": "LPG/CNG/PNG/LNG Supplier",
+      "companies": 5,
+      "report": null
+    },
+    {
+      "sector": "Gas Transmission",
+      "sub": "Gas Transmission/Marketing",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Healthcare",
+      "sub": "Pharmaceuticals",
+      "companies": 47,
+      "report": null
+    },
+    {
+      "sector": "Healthcare",
+      "sub": "Hospital",
+      "companies": 13,
+      "report": "hospitals.html"
+    },
+    {
+      "sector": "Healthcare",
+      "sub": "Healthcare Service Provider",
+      "companies": 5,
+      "report": null
+    },
+    {
+      "sector": "Healthcare",
+      "sub": "Medical Equipment & Supplies",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Hospitality",
+      "sub": "Hotels & Resorts",
+      "companies": 7,
+      "report": null
+    },
+    {
+      "sector": "Hospitality",
+      "sub": "Tour, Travel Related Services",
+      "companies": 4,
+      "report": null
+    },
+    {
+      "sector": "Inds. Gases & Fuels",
+      "sub": "Industrial Gases",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Infrastructure",
+      "sub": "Civil Construction",
+      "companies": 22,
+      "report": null
+    },
+    {
+      "sector": "Infrastructure",
+      "sub": "Water Supply & Management",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Infrastructure",
+      "sub": "Consulting Services",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Infrastructure",
+      "sub": "Airport & Airport services",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Infrastructure",
+      "sub": "Road Assets-Toll, Annuity, Hybrid-Annuity",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Insurance",
+      "sub": "General Insurance",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Insurance",
+      "sub": "Life Insurance",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Iron & Steel",
+      "sub": "Iron & Steel",
+      "companies": 13,
+      "report": null
+    },
+    {
+      "sector": "Iron & Steel",
+      "sub": "Iron & Steel Products",
+      "companies": 8,
+      "report": null
+    },
+    {
+      "sector": "IT",
+      "sub": "Computers - Software & Consulting",
+      "companies": 18,
+      "report": null
+    },
+    {
+      "sector": "IT",
+      "sub": "Software Products",
+      "companies": 7,
+      "report": null
+    },
+    {
+      "sector": "IT",
+      "sub": "Engineering R&D (ER&D) Services",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "IT",
+      "sub": "Financial Technology (Fintech)",
+      "companies": 5,
+      "report": null
+    },
+    {
+      "sector": "IT",
+      "sub": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
+      "companies": 4,
+      "report": null
+    },
+    {
+      "sector": "IT",
+      "sub": "Web based media and service",
+      "companies": 4,
+      "report": null
+    },
+    {
+      "sector": "IT",
+      "sub": "IT Enabled Services",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "IT",
+      "sub": "Advertising & Media Agencies",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "IT",
+      "sub": "Computers Hardware & Equipments",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Logistics",
+      "sub": "Logistics Solution Provider",
+      "companies": 5,
+      "report": null
+    },
+    {
+      "sector": "Logistics",
+      "sub": "Port & Port services",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Logistics",
+      "sub": "Shipping",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Media & Entertainment",
+      "sub": "TV Broadcasting & Software Production",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Media & Entertainment",
+      "sub": "Music & Content Licensing",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Media & Entertainment",
+      "sub": "Film Production, Distribution & Exhibition",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Media & Entertainment",
+      "sub": "Gaming & Interactive Entertainment",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Mining",
+      "sub": "Industrial Minerals",
+      "companies": 4,
+      "report": null
+    },
+    {
+      "sector": "Mining",
+      "sub": "Coal",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Miscellaneous",
+      "sub": "Oil Storage & Transportation",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Non - Ferrous Metals",
+      "sub": "Diversified Metals",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Non - Ferrous Metals",
+      "sub": "Aluminium",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Non - Ferrous Metals",
+      "sub": "Copper",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Non - Ferrous Metals",
+      "sub": "Zinc",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Paper",
+      "sub": "Paper & Paper Products",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Plastic Products",
+      "sub": "Plastic Products - Industrial",
+      "companies": 7,
+      "report": null
+    },
+    {
+      "sector": "Power",
+      "sub": "Power Generation",
+      "companies": 14,
+      "report": null
+    },
+    {
+      "sector": "Power",
+      "sub": "Integrated Power Utilities",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Power",
+      "sub": "Power - Transmission",
+      "companies": 2,
+      "report": null
+    },
+    {
+      "sector": "Power",
+      "sub": "Power Trading",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Ratings",
+      "sub": "Ratings",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Realty",
+      "sub": "Residential, Commercial Projects",
+      "companies": 19,
+      "report": null
+    },
+    {
+      "sector": "Realty",
+      "sub": "Flexible Workspace (Co-working)",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Retailing",
+      "sub": "Speciality Retail",
+      "companies": 8,
+      "report": null
+    },
+    {
+      "sector": "Retailing",
+      "sub": "E-Retail/ E-Commerce",
+      "companies": 7,
+      "report": null
+    },
+    {
+      "sector": "Retailing",
+      "sub": "Diversified Retail",
+      "companies": 4,
+      "report": null
+    },
+    {
+      "sector": "Retailing",
+      "sub": "Pharmacy Retail",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Ship Building",
+      "sub": "Ship Building & Allied Services",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Telecom",
+      "sub": "Telecom - Cellular & Fixed line services",
+      "companies": 5,
+      "report": null
+    },
+    {
+      "sector": "Telecom",
+      "sub": "Telecom - Equipment & Accessories",
+      "companies": 4,
+      "report": null
+    },
+    {
+      "sector": "Telecom",
+      "sub": "Other Telecom Services",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Telecom",
+      "sub": "Telecom - Infrastructure",
+      "companies": 1,
+      "report": null
+    },
+    {
+      "sector": "Textile",
+      "sub": "Other Textile Products",
+      "companies": 7,
+      "report": null
+    },
+    {
+      "sector": "Textile",
+      "sub": "Garments & Apparels",
+      "companies": 5,
+      "report": null
+    },
+    {
+      "sector": "Trading",
+      "sub": "Trading & Distributors",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Trading",
+      "sub": "Houseware",
+      "companies": 1,
+      "report": null
+    }
+  ]
+}
