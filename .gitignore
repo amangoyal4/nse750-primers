@@ -13,3 +13,5 @@ refresh/last-run.log
 
 # sub-sector research working notes (kept local, not published)
 subsectors/_template/*.md
+# classification working files (source Accord sheet + scripts; local only)
+subsectors/_template/classification/

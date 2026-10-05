@@ -1,7 +1,7 @@
 {
   "title": "Sub-sector reports · NSE 750",
   "basis": "Accord Fintech sector / sub-sector classification of the NSE 750",
-  "subsectors": 135,
+  "subsectors": 140,
   "reports": [
     {
       "name": "Hospitals",
@@ -21,14 +21,14 @@
       "published": "2026-10-05"
     },
     {
-      "name": "Pharmaceuticals",
+      "name": "Pharmaceuticals — sector overview",
       "slug": "pharmaceuticals",
       "file": "pharmaceuticals.html",
       "sector": "Healthcare",
-      "subsector": "Pharmaceuticals",
+      "subsector": "All 7 pharma sub-sectors",
       "companies": 47,
       "accent": "#26306E",
-      "hook": "Two industries under one name: a branded annuity at home and a generics treadmill in the US. How 47 listed drugmakers make money, why the gRevlimid cliff, CDMO and the GLP-1 land-grab are reshaping them, and why the market pays about 40x earnings.",
+      "hook": "The whole of Indian pharma in one report: a branded annuity at home and a generics treadmill in the US, across all seven pharma sub-sectors (CRDMO, CDMO/CMO, API, diversified majors, branded, export generics, specialty) and 47 listed drugmakers. Separate sub-sector reports follow.",
       "tags": [
         "US generics",
         "India branded",
@@ -155,12 +155,6 @@
     {
       "sector": "Business Services",
       "sub": "Depositories, Clearing Houses and Other Intermediaries",
-      "companies": 3,
-      "report": null
-    },
-    {
-      "sector": "Business Services",
-      "sub": "Healthcare Research, Analytics & Technology",
       "companies": 3,
       "report": null
     },
@@ -502,21 +496,64 @@
     },
     {
       "sector": "Healthcare",
-      "sub": "Pharmaceuticals",
-      "companies": 47,
-      "report": "pharmaceuticals.html"
-    },
-    {
-      "sector": "Healthcare",
       "sub": "Hospital",
       "companies": 13,
       "report": "hospitals.html"
     },
     {
       "sector": "Healthcare",
+      "sub": "Pharma – Branded Formulations (India & EM)",
+      "companies": 13,
+      "report": null,
+      "overview": "pharmaceuticals.html"
+    },
+    {
+      "sector": "Healthcare",
+      "sub": "Pharma – CDMO / CMO",
+      "companies": 8,
+      "report": null,
+      "overview": "pharmaceuticals.html"
+    },
+    {
+      "sector": "Healthcare",
+      "sub": "Pharma – API & Intermediates",
+      "companies": 7,
+      "report": null,
+      "overview": "pharmaceuticals.html"
+    },
+    {
+      "sector": "Healthcare",
+      "sub": "Pharma – Export Generic Formulations",
+      "companies": 7,
+      "report": null,
+      "overview": "pharmaceuticals.html"
+    },
+    {
+      "sector": "Healthcare",
+      "sub": "Pharma – Diversified Majors",
+      "companies": 6,
+      "report": null,
+      "overview": "pharmaceuticals.html"
+    },
+    {
+      "sector": "Healthcare",
       "sub": "Healthcare Service Provider",
       "companies": 5,
       "report": null
+    },
+    {
+      "sector": "Healthcare",
+      "sub": "Pharma – Specialty, Biologics & Innovation",
+      "companies": 5,
+      "report": null,
+      "overview": "pharmaceuticals.html"
+    },
+    {
+      "sector": "Healthcare",
+      "sub": "Pharma – CRDMO",
+      "companies": 3,
+      "report": null,
+      "overview": "pharmaceuticals.html"
     },
     {
       "sector": "Healthcare",
@@ -616,14 +653,14 @@
     },
     {
       "sector": "IT",
-      "sub": "Financial Technology (Fintech)",
+      "sub": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
       "companies": 5,
       "report": null
     },
     {
       "sector": "IT",
-      "sub": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
-      "companies": 4,
+      "sub": "Financial Technology (Fintech)",
+      "companies": 5,
       "report": null
     },
     {

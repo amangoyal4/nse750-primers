@@ -87,6 +87,8 @@
   .grp li.done{color:var(--ink);font-weight:600;}
   .grp li.done a{color:var(--brand);border-bottom:1px solid var(--brand-bright);}
   .grp li.done .n::after{content:" · report ✓";color:var(--good);}
+  .grp li .ovl{font-family:"DM Mono";font-size:10.5px;letter-spacing:.03em;color:var(--brand-bright);margin-left:6px;white-space:nowrap;}
+  .grp li .ovl:hover{text-decoration:underline;}
 
   footer.site{border-top:3px solid var(--ink);margin-top:40px;padding:28px 0 72px;}
   .disc{font-size:12px;color:var(--ink-faint);max-width:92ch;font-style:italic;}
@@ -187,7 +189,7 @@ function apply(){
     const cos = items.reduce((a,u)=>a+u.companies,0);
     const lis = items.map(u => u.report
       ? `<li class="done"><a href="${esc(u.report)}">${esc(u.sub)}</a><span class="n">${u.companies}</span></li>`
-      : `<li><span>${esc(u.sub)}</span><span class="n">${u.companies}</span></li>`).join('');
+      : `<li><span>${esc(u.sub)}${u.overview ? ` <a class="ovl" href="${esc(u.overview)}" title="Covered in the sector overview report">overview ↗</a>` : ''}</span><span class="n">${u.companies}</span></li>`).join('');
     return `<div class="grp"><h4>${esc(s)} <span>${items.length} · ${cos} cos</span></h4><ul>${lis}</ul></div>`;
   }).join('');
   $('groups').innerHTML = html || `<div class="state">No sub-sector matches.</div>`;
@@ -197,12 +199,12 @@ async function init(){
   try{
     const cat = await fetch('../data/subsectors.json?v=' + Date.now(), {cache:'no-store'}).then(r=>r.json());
     REPORTS = cat.reports || []; UNIVERSE = cat.universe || [];
-    const total = UNIVERSE.length, done = UNIVERSE.filter(u=>u.report).length;
+    const total = UNIVERSE.length, done = UNIVERSE.filter(u=>u.report).length, ov = UNIVERSE.filter(u=>!u.report && u.overview).length;
     const sectors = new Set(UNIVERSE.map(u=>u.sector)).size;
     const cos = UNIVERSE.reduce((a,u)=>a+u.companies,0);
-    $('count').textContent = `${REPORTS.length} of ${total} published`;
+    $('count').textContent = `${REPORTS.length} report${REPORTS.length===1?'':'s'} · ${done}/${total} sub-sectors`;
     $('map-sub').textContent = `${total} sub-sectors across ${sectors} sectors, covering all ${cos} NSE 750 companies (${cat.basis || 'sector classification'}). The number beside each is how many NSE 750 companies it holds. Published reports are linked.`;
-    $('prog-text').textContent = `${done} / ${total} sub-sector reports published`;
+    $('prog-text').textContent = `${done} / ${total} sub-sector reports published` + (ov ? ` · ${ov} more covered by a sector overview` : '');
     $('prog-bar').style.width = Math.max(1.2, done/total*100).toFixed(2) + '%';
     const secs = [...new Set(UNIVERSE.map(u=>u.sector))].sort();
     $('sector').insertAdjacentHTML('beforeend', secs.map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join(''));
