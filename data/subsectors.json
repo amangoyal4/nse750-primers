@@ -19,6 +19,23 @@
         "Valuation premium"
       ],
       "published": "2026-10-05"
+    },
+    {
+      "name": "Pharmaceuticals",
+      "slug": "pharmaceuticals",
+      "file": "pharmaceuticals.html",
+      "sector": "Healthcare",
+      "subsector": "Pharmaceuticals",
+      "companies": 47,
+      "accent": "#26306E",
+      "hook": "Two industries under one name: a branded annuity at home and a generics treadmill in the US. How 47 listed drugmakers make money, why the gRevlimid cliff, CDMO and the GLP-1 land-grab are reshaping them, and why the market pays about 40x earnings.",
+      "tags": [
+        "US generics",
+        "India branded",
+        "CDMO & China+1",
+        "GLP-1"
+      ],
+      "published": "2026-10-05"
     }
   ],
   "universe": [
@@ -470,7 +487,7 @@
       "sector": "Healthcare",
       "sub": "Pharmaceuticals",
       "companies": 47,
-      "report": null
+      "report": "pharmaceuticals.html"
     },
     {
       "sector": "Healthcare",
