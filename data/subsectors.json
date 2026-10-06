@@ -544,15 +544,8 @@
     },
     {
       "sector": "Healthcare",
-      "sub": "Pharma – CDMO / CMO",
-      "companies": 8,
-      "report": null,
-      "overview": "pharmaceuticals.html"
-    },
-    {
-      "sector": "Healthcare",
       "sub": "Pharma – API & Intermediates",
-      "companies": 7,
+      "companies": 9,
       "report": null,
       "overview": "pharmaceuticals.html"
     },
@@ -560,6 +553,13 @@
       "sector": "Healthcare",
       "sub": "Pharma – Export Generic Formulations",
       "companies": 7,
+      "report": null,
+      "overview": "pharmaceuticals.html"
+    },
+    {
+      "sector": "Healthcare",
+      "sub": "Pharma – CDMO / CMO",
+      "companies": 6,
       "report": null,
       "overview": "pharmaceuticals.html"
     },

@@ -1820,13 +1820,6 @@
    "primer": "divis-laboratories.html"
   },
   {
-   "name": "Laurus Labs Limited",
-   "nse": "LAURUSLABS",
-   "bse": "540222",
-   "rank": 133,
-   "primer": "laurus-labs.html"
-  },
-  {
    "name": "Gland Pharma Limited",
    "nse": "GLAND",
    "bse": "543245",
@@ -1853,13 +1846,6 @@
    "bse": "544292",
    "rank": 364,
    "primer": "onesource-specialty-pharma.html"
-  },
-  {
-   "name": "Cohance Lifesciences Limited",
-   "nse": "COHANCE",
-   "bse": "543064",
-   "rank": 378,
-   "primer": "cohance-lifesciences.html"
   },
   {
    "name": "Akums Drugs and Pharmaceuticals Ltd.",
@@ -3441,6 +3427,71 @@
    "bse": "544118",
    "rank": 675,
    "primer": "jana-small-finance-bank.html"
+  }
+ ],
+ "Healthcare || Pharma – API & Intermediates": [
+  {
+   "name": "Laurus Labs Limited",
+   "nse": "LAURUSLABS",
+   "bse": "540222",
+   "rank": 133,
+   "primer": "laurus-labs.html"
+  },
+  {
+   "name": "Cohance Lifesciences Limited",
+   "nse": "COHANCE",
+   "bse": "543064",
+   "rank": 378,
+   "primer": "cohance-lifesciences.html"
+  },
+  {
+   "name": "Concord Biotech Limited",
+   "nse": "CONCORDBIO",
+   "bse": "543960",
+   "rank": 428,
+   "primer": "concord-biotech.html"
+  },
+  {
+   "name": "Alivus Life Sciences Limited",
+   "nse": "ALIVUS",
+   "bse": "543322",
+   "rank": 529,
+   "primer": "alivus-life-sciences.html"
+  },
+  {
+   "name": "Shilpa Medicare Limited",
+   "nse": "SHILPAMED",
+   "bse": "530549",
+   "rank": 544,
+   "primer": "shilpa-medicare.html"
+  },
+  {
+   "name": "Viyash Scientific Limited",
+   "nse": "VIYASH",
+   "bse": "512529",
+   "rank": 551,
+   "primer": "viyash-scientific.html"
+  },
+  {
+   "name": "Supriya Lifescience Ltd.",
+   "nse": "SUPRIYA",
+   "bse": "543434",
+   "rank": 646,
+   "primer": "supriya-lifescience.html"
+  },
+  {
+   "name": "Aarti Pharmalabs Ltd.",
+   "nse": "AARTIPHARM",
+   "bse": "543748",
+   "rank": 656,
+   "primer": "aarti-pharmalabs.html"
+  },
+  {
+   "name": "Aarti Drugs Ltd.",
+   "nse": "AARTIDRUGS",
+   "bse": "524348",
+   "rank": 736,
+   "primer": "aarti-drugs.html"
   }
  ],
  "Finance || Housing Finance Company": [
@@ -5183,57 +5234,6 @@
    "bse": "544537",
    "rank": 446,
    "primer": "jain-resource-recycling.html"
-  }
- ],
- "Healthcare || Pharma – API & Intermediates": [
-  {
-   "name": "Concord Biotech Limited",
-   "nse": "CONCORDBIO",
-   "bse": "543960",
-   "rank": 428,
-   "primer": "concord-biotech.html"
-  },
-  {
-   "name": "Alivus Life Sciences Limited",
-   "nse": "ALIVUS",
-   "bse": "543322",
-   "rank": 529,
-   "primer": "alivus-life-sciences.html"
-  },
-  {
-   "name": "Shilpa Medicare Limited",
-   "nse": "SHILPAMED",
-   "bse": "530549",
-   "rank": 544,
-   "primer": "shilpa-medicare.html"
-  },
-  {
-   "name": "Viyash Scientific Limited",
-   "nse": "VIYASH",
-   "bse": "512529",
-   "rank": 551,
-   "primer": "viyash-scientific.html"
-  },
-  {
-   "name": "Supriya Lifescience Ltd.",
-   "nse": "SUPRIYA",
-   "bse": "543434",
-   "rank": 646,
-   "primer": "supriya-lifescience.html"
-  },
-  {
-   "name": "Aarti Pharmalabs Ltd.",
-   "nse": "AARTIPHARM",
-   "bse": "543748",
-   "rank": 656,
-   "primer": "aarti-pharmalabs.html"
-  },
-  {
-   "name": "Aarti Drugs Ltd.",
-   "nse": "AARTIDRUGS",
-   "bse": "524348",
-   "rank": 736,
-   "primer": "aarti-drugs.html"
   }
  ],
  "FMCG || Animal Feed": [
