@@ -87,6 +87,23 @@
         "L&T"
       ],
       "published": "2026-10-06"
+    },
+    {
+      "name": "Pharma – Branded Formulations",
+      "slug": "pharma-branded-formulations",
+      "file": "pharma-branded-formulations.html",
+      "sector": "Healthcare",
+      "subsector": "Pharma – Branded Formulations (India & EM)",
+      "companies": 13,
+      "accent": "#5B1E3C",
+      "hook": "The doctor writes the brand, the state caps the price: how 13 listed branded-medicine makers grow on price, launches and chronic therapies, why field-force productivity and brand M&A decide the winners, and what price control, GLP-1s and MNC brand handovers change.",
+      "tags": [
+        "Prescriptions & MRs",
+        "Price control",
+        "Brand M&A",
+        "GLP-1"
+      ],
+      "published": "2026-10-06"
     }
   ],
   "universe": [
@@ -556,7 +573,7 @@
       "sector": "Healthcare",
       "sub": "Pharma – Branded Formulations (India & EM)",
       "companies": 13,
-      "report": null,
+      "report": "pharma-branded-formulations.html",
       "overview": "pharmaceuticals.html"
     },
     {
