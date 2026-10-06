@@ -87,6 +87,23 @@
         "GLP-1"
       ],
       "published": "2026-10-06"
+    },
+    {
+      "name": "Pharma – API & Intermediates",
+      "slug": "pharma-api-intermediates",
+      "file": "pharma-api-intermediates.html",
+      "sector": "Healthcare",
+      "subsector": "Pharma – API & Intermediates",
+      "companies": 9,
+      "accent": "#1D3B7A",
+      "hook": "Buying from China, pricing against China, selling as the alternative to China: how 9 listed API makers live on the spread between drug-chemical prices and input costs, why PLI has barely dented imports, and how regulatory filings, fermentation and peptides lift some up the value chain.",
+      "tags": [
+        "China dependence",
+        "Spread & cycles",
+        "DMFs & inspections",
+        "PLI"
+      ],
+      "published": "2026-10-06"
     }
   ],
   "universe": [
@@ -562,7 +579,7 @@
       "sector": "Healthcare",
       "sub": "Pharma – API & Intermediates",
       "companies": 9,
-      "report": null
+      "report": "pharma-api-intermediates.html"
     },
     {
       "sector": "Healthcare",
