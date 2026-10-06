@@ -53,6 +53,23 @@
         "Valuation gap"
       ],
       "published": "2026-10-05"
+    },
+    {
+      "name": "NBFCs",
+      "slug": "nbfc",
+      "file": "nbfc.html",
+      "sector": "Finance",
+      "subsector": "Non Banking Financial Company (NBFC)",
+      "companies": 25,
+      "accent": "#163F2A",
+      "hook": "Specialist lenders on borrowed money: how 25 listed NBFCs turn wholesale funding into 2–8% returns on assets, why one 20% ROE trades at five times book and another at one, the gold-loan boom, the PFC–REC merger and the foreign money buying in.",
+      "tags": [
+        "ROA tree",
+        "Funding & liquidity",
+        "Gold loans",
+        "P/B vs ROE"
+      ],
+      "published": "2026-10-06"
     }
   ],
   "universe": [
@@ -360,7 +377,7 @@
       "sector": "Finance",
       "sub": "Non Banking Financial Company (NBFC)",
       "companies": 25,
-      "report": null
+      "report": "nbfc.html"
     },
     {
       "sector": "Finance",
