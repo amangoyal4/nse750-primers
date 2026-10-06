@@ -40,6 +40,10 @@ if (kpi) {
   check(/class="flow"/.test(kpi[0]), 'KPI section opens with an equation/flow diagram', /class="flow"/.test(kpi[0]));
   check(/10 minutes|ten minutes/i.test(kpi[0]), 'KPI section has the "read the results in 10 minutes" guide', /10 minutes|ten minutes/i.test(kpi[0]));
 }
+// No section may be just a table/chart: every section except the glossary needs >= 250 words of running prose.
+const thin = [...h.matchAll(/<section[^>]*id="(p\d+)"[^>]*>[\s\S]*?<\/section>/g)]
+  .filter(m => !/Glossary/i.test(m[0].slice(0, 800)) && prose(m[0]) < 250).map(m => `${m[1]} (${prose(m[0])})`);
+check(thin.length === 0, 'Every section (except glossary) has ≥ 250 words of prose', thin.join(', ') || 'ok');
 const charts = cnt(/class="chart"/g) + cnt(/<figure class="map"/g) + cnt(/class="flow"/g) + cnt(/class="timeline"/g);
 check(charts >= T.charts, `Chart blocks ≥ ${T.charts}`, charts);
 check(cnt(/<figure class="map"/g) >= 3, 'Positioning maps ≥ 3', cnt(/<figure class="map"/g));
