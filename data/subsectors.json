@@ -70,6 +70,23 @@
         "P/B vs ROE"
       ],
       "published": "2026-10-06"
+    },
+    {
+      "name": "Civil Construction",
+      "slug": "civil-construction",
+      "file": "civil-construction.html",
+      "sector": "Infrastructure",
+      "subsector": "Civil Construction",
+      "companies": 22,
+      "accent": "#2C3A44",
+      "hook": "Record order books, slow cash: how 22 listed EPC contractors turn a ₹14.9 lakh crore backlog into revenue, why roads slumped while transmission and solar boomed, why ₹100 of FY26 profit brought in only ₹29 of cash, and where L&T sits apart.",
+      "tags": [
+        "Order book & execution",
+        "Working capital",
+        "Roads vs power grid",
+        "L&T"
+      ],
+      "published": "2026-10-06"
     }
   ],
   "universe": [
@@ -618,7 +635,7 @@
       "sector": "Infrastructure",
       "sub": "Civil Construction",
       "companies": 22,
-      "report": null
+      "report": "civil-construction.html"
     },
     {
       "sector": "Infrastructure",

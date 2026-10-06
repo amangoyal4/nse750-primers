@@ -292,6 +292,9 @@
 
   /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
   @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
 </style>
 </head>
 <body>
@@ -1049,24 +1052,24 @@
     <div class="eyebrow" style="margin-bottom:14px;">The ROA tree, all as % of average loan book (AUM)</div>
     <div class="flow-row">
       <div class="node om"><div class="ntag">Partly set by market</div><div class="nname">Yield on AUM</div><div class="nwho">Interest earned ÷ average loans. Product mix is a choice; the price is set by competition.</div></div>
-      <div class="arrow">−</div>
+      <div class="arrow op">−</div>
       <div class="node om"><div class="ntag">Mostly not controlled</div><div class="nname">Cost of funds × borrowings</div><div class="nwho">Repo cycle, rating, parent. Management controls mix and tenor, not the rate.</div></div>
-      <div class="arrow">=</div>
+      <div class="arrow op">=</div>
       <div class="node spec"><div class="ntag">Result</div><div class="nname">NIM</div><div class="nwho">Net interest income ÷ average AUM.</div></div>
-      <div class="arrow">+</div>
+      <div class="arrow op">+</div>
       <div class="node wtg"><div class="ntag">Controlled</div><div class="nname">Fees − opex</div><div class="nwho">Cross-sell, insurance, distribution fees; branches, staff, technology.</div></div>
-      <div class="arrow">=</div>
+      <div class="arrow op">=</div>
       <div class="node spec"><div class="ntag">The shock absorber</div><div class="nname">PPOP</div><div class="nwho">Pre-provision operating profit.</div></div>
     </div>
     <div class="flow-row" style="margin-top:12px;">
       <div class="node epc"><div class="ntag">Partly controlled</div><div class="nname">− Credit cost</div><div class="nwho">Underwriting is a choice; the economic cycle is not.</div></div>
       <div class="arrow">→</div>
       <div class="node epc"><div class="ntag">Not controlled</div><div class="nname">− Tax</div><div class="nwho">~25.2% for private NBFCs; ~20–22% effective at the government lenders.</div></div>
-      <div class="arrow">=</div>
+      <div class="arrow op">=</div>
       <div class="node spec"><div class="ntag">Result</div><div class="nname">ROA</div><div class="nwho">Profit after tax ÷ average assets.</div></div>
-      <div class="arrow">×</div>
+      <div class="arrow op">×</div>
       <div class="node wtg"><div class="ntag">Controlled, within RBI limits</div><div class="nname">Leverage</div><div class="nwho">Assets ÷ equity; capped by the 15% capital ratio.</div></div>
-      <div class="arrow">=</div>
+      <div class="arrow op">=</div>
       <div class="node spec"><div class="ntag">What shareholders get</div><div class="nname">ROE</div><div class="nwho">Profit after tax ÷ average equity.</div></div>
     </div>
     <div class="flow-note">In rupees: PAT ≈ AUM × (NIM + fees − opex − credit cost) × (1 − tax rate). ROE ≈ ROA × assets ÷ equity. Management controls opex, leverage and underwriting most directly; the market controls price and the cost of money; the economy controls much of the credit cost.</div>

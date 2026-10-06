@@ -291,6 +291,9 @@
 
   /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
   @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
 </style>
 </head>
 <body>

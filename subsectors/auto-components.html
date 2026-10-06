@@ -292,6 +292,9 @@
 
   /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
   @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
 </style>
 </head>
 <body>
@@ -1412,22 +1415,22 @@
     <div class="eyebrow" style="margin-bottom:14px;">The supplier revenue equation, and who controls each term</div>
     <div class="flow-row">
       <div class="node om"><div class="ntag">Not controlled</div><div class="nname">Vehicle production</div><div class="nwho">Set by the customer's sales, the cycle, tax and credit. The supplier only chooses which segments to serve.</div></div>
-      <div class="arrow">×</div>
+      <div class="arrow op">×</div>
       <div class="node wtg"><div class="ntag">Partly controlled</div><div class="nname">Content per vehicle</div><div class="nwho">Product range and technology: the supplier's choice. Mix and mandates: the market's and the regulator's.</div></div>
-      <div class="arrow">×</div>
+      <div class="arrow op">×</div>
       <div class="node spec"><div class="ntag">Controlled, slowly</div><div class="nname">Share of business</div><div class="nwho">Won at nomination, held for a model's life, re-won at the next generation.</div></div>
-      <div class="arrow">=</div>
+      <div class="arrow op">=</div>
       <div class="node om"><div class="ntag">Result</div><div class="nname">OEM revenue</div><div class="nwho">Two-thirds of industry sales.</div></div>
     </div>
     <div class="flow-row" style="margin-top:12px;">
       <div class="node spec"><div class="ntag">Controlled</div><div class="nname">+ Aftermarket</div><div class="nwho">Brand, distribution reach, catalogue breadth.</div></div>
-      <div class="arrow">+</div>
+      <div class="arrow op">+</div>
       <div class="node wtg"><div class="ntag">Partly controlled</div><div class="nname">+ Exports</div><div class="nwho">Share gain abroad; tariffs and foreign cycles are not.</div></div>
-      <div class="arrow">+</div>
+      <div class="arrow op">+</div>
       <div class="node spec"><div class="ntag">Controlled</div><div class="nname">+ Non-auto</div><div class="nwho">Rail, defence, aerospace, energy storage.</div></div>
       <div class="arrow">→</div>
       <div class="node epc"><div class="ntag">Indexed, lagged</div><div class="nname">− Materials</div><div class="nwho">45–80% of revenue, passed through one to two quarters late.</div></div>
-      <div class="arrow">−</div>
+      <div class="arrow op">−</div>
       <div class="node om"><div class="ntag">Controlled</div><div class="nname">− Conversion</div><div class="nwho">Labour, power, overheads, royalty. Utilisation decides the fixed part.</div></div>
     </div>
     <div class="flow-note">Growth decomposition: revenue growth ≈ production growth + content growth + share gain + commodity pass-through. Only the middle two reflect the company's own performance.</div>

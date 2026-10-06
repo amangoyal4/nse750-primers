@@ -291,6 +291,9 @@
 
   /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
   @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
 </style>
 </head>
 <body>
@@ -1139,20 +1142,20 @@
     <div class="eyebrow" style="margin-bottom:14px;">The hospital revenue equation, and who controls each term</div>
     <div class="flow-row">
       <div class="node spec"><div class="ntag">Controlled · slow</div><div class="nname">Operational beds</div><div class="nwho">Capex decision; 2–4 years and ₹0.3–1.8 crore a bed to add.</div></div>
-      <div class="arrow">×</div>
+      <div class="arrow op">×</div>
       <div class="node om"><div class="ntag">Partly controlled</div><div class="nname">Occupancy</div><div class="nwho">Doctors, referrals, brand, competition, the season.</div></div>
-      <div class="arrow">×</div>
+      <div class="arrow op">×</div>
       <div class="node epc"><div class="ntag">Fixed</div><div class="nname">365 days</div><div class="nwho">Converts a daily rate into a year.</div></div>
-      <div class="arrow">×</div>
+      <div class="arrow op">×</div>
       <div class="node om"><div class="ntag">Partly controlled</div><div class="nname">ARPOB</div><div class="nwho">Case mix and stay length: management. Price: insurers, schemes, regulators.</div></div>
     </div>
     <div class="flow-row" style="margin-top:12px;">
       <div class="node wtg"><div class="ntag">Result</div><div class="nname">Inpatient revenue</div><div class="nwho">70–75% of a chain's hospital revenue.</div></div>
-      <div class="arrow">+</div>
+      <div class="arrow op">+</div>
       <div class="node om"><div class="ntag">Partly controlled</div><div class="nname">Outpatient &amp; day-care</div><div class="nwho">Consultations, diagnostics, day surgery, chemo; 26–29% of revenue.</div></div>
-      <div class="arrow">+</div>
+      <div class="arrow op">+</div>
       <div class="node epc"><div class="ntag">Partly controlled</div><div class="nname">Pharmacy &amp; other</div><div class="nwho">OPD pharmacy, ancillary services, management fees.</div></div>
-      <div class="arrow">=</div>
+      <div class="arrow op">=</div>
       <div class="node spec"><div class="ntag">Total</div><div class="nname">Hospital revenue</div><div class="nwho">The line the market capitalises.</div></div>
     </div>
     <div class="flow-note">Most listed Indian chains compute ARPOB on total hospital revenue, outpatient included, so for them the first row alone reproduces total revenue. Where ARPOB is inpatient-only, the second row must be added back.</div>

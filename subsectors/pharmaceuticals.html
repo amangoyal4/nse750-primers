@@ -292,6 +292,9 @@
 
   /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
   @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
 </style>
 </head>
 <body>
@@ -1214,13 +1217,13 @@
     <div class="eyebrow" style="margin-bottom:14px;">US generics revenue and profit: which terms management controls</div>
     <div class="flow-row">
       <div class="node spec"><div class="ntag">Controlled</div><div class="nname">Approved products</div><div class="nwho">ANDA approvals × launch rate. Set by R&amp;D spend and plant compliance.</div></div>
-      <div class="arrow">×</div>
+      <div class="arrow op">×</div>
       <div class="node wtg"><div class="ntag">Partly controlled</div><div class="nname">Market share</div><div class="nwho">Won in buyer tenders; depends on reliability and number of rivals.</div></div>
-      <div class="arrow">×</div>
+      <div class="arrow op">×</div>
       <div class="node om"><div class="ntag">Not controlled</div><div class="nname">Net price</div><div class="nwho">Falls 4–8% a year as rivals enter; buyers set it.</div></div>
-      <div class="arrow">−</div>
+      <div class="arrow op">−</div>
       <div class="node om"><div class="ntag">Not controlled</div><div class="nname">Price erosion</div><div class="nwho">On the base portfolio, every year.</div></div>
-      <div class="arrow">+</div>
+      <div class="arrow op">+</div>
       <div class="node spec"><div class="ntag">Partly controlled</div><div class="nname">Windfalls</div><div class="nwho">First-to-file, limited competition, shortages. Temporary.</div></div>
     </div>
     <div class="flow-note">Profit = revenue × gross margin − (US front-end + R&amp;D + compliance + freight). Management controls the pipeline and the plants; the buyers and the competition control price.</div>
@@ -1232,9 +1235,9 @@
     <div class="eyebrow" style="margin-bottom:14px;">India branded revenue: field force × productivity, or prescriptions × price</div>
     <div class="flow-row">
       <div class="node spec"><div class="ntag">Controlled</div><div class="nname">Medical reps</div><div class="nwho">Headcount, divisions, specialist coverage.</div></div>
-      <div class="arrow">×</div>
+      <div class="arrow op">×</div>
       <div class="node wtg"><div class="ntag">Partly controlled</div><div class="nname">Productivity (PCPM)</div><div class="nwho">Sales per rep per month; driven by brand strength and chronic mix.</div></div>
-      <div class="arrow">×</div>
+      <div class="arrow op">×</div>
       <div class="node om"><div class="ntag">12</div><div class="nname">Months</div><div class="nwho">Or: doctors × prescriptions per doctor × value per prescription.</div></div>
       <div class="arrow">→</div>
       <div class="node epc"><div class="ntag">Growth split</div><div class="nname">Price + volume + launches</div><div class="nwho">Price capped by NPPA (WPI on NLEM, 10% elsewhere); volume and launches are earned.</div></div>
