@@ -1707,13 +1707,20 @@
    "primer": "national-aluminium.html"
   }
  ],
- "Chemicals || Paints": [
+ "Chemicals || Paints & Adhesives": [
   {
    "name": "Asian Paints Limited",
    "nse": "ASIANPAINT",
    "bse": "500820",
    "rank": 35,
    "primer": "asian-paints.html"
+  },
+  {
+   "name": "Pidilite Industries Limited",
+   "nse": "PIDILITIND",
+   "bse": "500331",
+   "rank": 55,
+   "primer": "pidilite-industries.html"
   },
   {
    "name": "Berger Paints India Limited",
@@ -2324,155 +2331,6 @@
    "bse": "543626",
    "rank": 702,
    "primer": "electronics-mart-india.html"
-  }
- ],
- "Chemicals || Specialty Chemicals": [
-  {
-   "name": "Pidilite Industries Limited",
-   "nse": "PIDILITIND",
-   "bse": "500331",
-   "rank": 55,
-   "primer": "pidilite-industries.html"
-  },
-  {
-   "name": "SRF Limited",
-   "nse": "SRF",
-   "bse": "503806",
-   "rank": 136,
-   "primer": "srf-limited.html"
-  },
-  {
-   "name": "Gujarat Fluorochemicals Limited",
-   "nse": "FLUOROCHEM",
-   "bse": "542812",
-   "rank": 215,
-   "primer": "gujarat-fluorochemicals.html"
-  },
-  {
-   "name": "Navin Fluorine International Limited",
-   "nse": "NAVINFLUOR",
-   "bse": "532504",
-   "rank": 234,
-   "primer": "navin-fluorine.html"
-  },
-  {
-   "name": "Acutaas Chemicals Limited",
-   "nse": "ACUTAAS",
-   "bse": "543349",
-   "rank": 286,
-   "primer": "acutaas-chemicals.html"
-  },
-  {
-   "name": "Deepak Nitrite Limited",
-   "nse": "DEEPAKNTR",
-   "bse": "506401",
-   "rank": 332,
-   "primer": "deepak-nitrite.html"
-  },
-  {
-   "name": "Atul Ltd",
-   "nse": "ATUL",
-   "bse": "500027",
-   "rank": 351,
-   "primer": "atul-ltd.html"
-  },
-  {
-   "name": "Aarti Industries Limited",
-   "nse": "AARTIIND",
-   "bse": "524208",
-   "rank": 389,
-   "primer": "aarti-industries.html"
-  },
-  {
-   "name": "Anupam Rasayan India Limited",
-   "nse": "ANURAS",
-   "bse": "543275",
-   "rank": 414,
-   "primer": "anupam-rasayan.html"
-  },
-  {
-   "name": "Jubilant Ingrevia Limited",
-   "nse": "JUBLINGREA",
-   "bse": "543271",
-   "rank": 483,
-   "primer": "jubilant-ingrevia.html"
-  },
-  {
-   "name": "Blue Jet Healthcare Limited",
-   "nse": "BLUEJET",
-   "bse": "544009",
-   "rank": 488,
-   "primer": "blue-jet-healthcare.html"
-  },
-  {
-   "name": "Clean Science and Technology Limited",
-   "nse": "CLEAN",
-   "bse": "543318",
-   "rank": 491,
-   "primer": "clean-science.html"
-  },
-  {
-   "name": "Aether Industries Limited",
-   "nse": "AETHER",
-   "bse": "543534",
-   "rank": 507,
-   "primer": "aether-industries.html"
-  },
-  {
-   "name": "Privi Speciality Chemicals Limited",
-   "nse": "PRIVISCL",
-   "bse": "530117",
-   "rank": 526,
-   "primer": "privi-speciality-chemicals.html"
-  },
-  {
-   "name": "Sudeep Pharma Limited",
-   "nse": "SUDEEPPHRM",
-   "bse": "544619",
-   "rank": 579,
-   "primer": "sudeep-pharma.html"
-  },
-  {
-   "name": "Alkyl Amines Chemicals",
-   "nse": "ALKYLAMINE",
-   "bse": "506767",
-   "rank": 580,
-   "primer": "alkyl-amines.html"
-  },
-  {
-   "name": "Sudarshan Chemical Industries",
-   "nse": "SUDARSCHEM",
-   "bse": "506655",
-   "rank": 598,
-   "primer": "sudarshan-chemical.html"
-  },
-  {
-   "name": "Neogen Chemicals Ltd.",
-   "nse": "NEOGEN",
-   "bse": "542665",
-   "rank": 676,
-   "primer": "neogen-chemicals.html"
-  },
-  {
-   "name": "Laxmi Organic Industries Ltd.",
-   "nse": "LXCHEM",
-   "bse": "543277",
-   "rank": 692,
-   "primer": "laxmi-organic.html"
-  },
-  {
-   "name": "Advanced Enzyme Technologies Ltd.",
-   "nse": "ADVENZYMES",
-   "bse": "540025",
-   "rank": 738,
-   "primer": "advanced-enzymes.html"
-  },
-  {
-   "name": "Balaji Amines",
-   "nse": "BALAMINES",
-   "bse": "530999",
-   "rank": 750,
-   "primer": "balaji-amines.html"
   }
  ],
  "Automobile & Ancillaries || Auto Components & Equipments": [
@@ -3463,6 +3321,29 @@
    "bse": "533286",
    "rank": 684,
    "primer": "moil.html"
+  }
+ ],
+ "Chemicals || Specialty Chem – Fluorochemicals": [
+  {
+   "name": "SRF Limited",
+   "nse": "SRF",
+   "bse": "503806",
+   "rank": 136,
+   "primer": "srf-limited.html"
+  },
+  {
+   "name": "Gujarat Fluorochemicals Limited",
+   "nse": "FLUOROCHEM",
+   "bse": "542812",
+   "rank": 215,
+   "primer": "gujarat-fluorochemicals.html"
+  },
+  {
+   "name": "Navin Fluorine International Limited",
+   "nse": "NAVINFLUOR",
+   "bse": "532504",
+   "rank": 234,
+   "primer": "navin-fluorine.html"
   }
  ],
  "Finance || Exchange and Data Platform": [
@@ -4755,6 +4636,50 @@
    "primer": "borosil-renewables.html"
   }
  ],
+ "Chemicals || Specialty Chem – Intermediates & Building Blocks": [
+  {
+   "name": "Deepak Nitrite Limited",
+   "nse": "DEEPAKNTR",
+   "bse": "506401",
+   "rank": 332,
+   "primer": "deepak-nitrite.html"
+  },
+  {
+   "name": "Atul Ltd",
+   "nse": "ATUL",
+   "bse": "500027",
+   "rank": 351,
+   "primer": "atul-ltd.html"
+  },
+  {
+   "name": "Aarti Industries Limited",
+   "nse": "AARTIIND",
+   "bse": "524208",
+   "rank": 389,
+   "primer": "aarti-industries.html"
+  },
+  {
+   "name": "Alkyl Amines Chemicals",
+   "nse": "ALKYLAMINE",
+   "bse": "506767",
+   "rank": 580,
+   "primer": "alkyl-amines.html"
+  },
+  {
+   "name": "Laxmi Organic Industries Ltd.",
+   "nse": "LXCHEM",
+   "bse": "543277",
+   "rank": 692,
+   "primer": "laxmi-organic.html"
+  },
+  {
+   "name": "Balaji Amines",
+   "nse": "BALAMINES",
+   "bse": "530999",
+   "rank": 750,
+   "primer": "balaji-amines.html"
+  }
+ ],
  "IT || Computers Hardware & Equipments": [
   {
    "name": "Netweb Technologies India Limited",
@@ -5044,6 +4969,50 @@
    "bse": "534076",
    "rank": 493,
    "primer": "rhi-magnesita-india.html"
+  }
+ ],
+ "Chemicals || Specialty Chem – Custom Synthesis & Life-science Intermediates": [
+  {
+   "name": "Acutaas Chemicals Limited",
+   "nse": "ACUTAAS",
+   "bse": "543349",
+   "rank": 286,
+   "primer": "acutaas-chemicals.html"
+  },
+  {
+   "name": "Anupam Rasayan India Limited",
+   "nse": "ANURAS",
+   "bse": "543275",
+   "rank": 414,
+   "primer": "anupam-rasayan.html"
+  },
+  {
+   "name": "Jubilant Ingrevia Limited",
+   "nse": "JUBLINGREA",
+   "bse": "543271",
+   "rank": 483,
+   "primer": "jubilant-ingrevia.html"
+  },
+  {
+   "name": "Blue Jet Healthcare Limited",
+   "nse": "BLUEJET",
+   "bse": "544009",
+   "rank": 488,
+   "primer": "blue-jet-healthcare.html"
+  },
+  {
+   "name": "Aether Industries Limited",
+   "nse": "AETHER",
+   "bse": "543534",
+   "rank": 507,
+   "primer": "aether-industries.html"
+  },
+  {
+   "name": "Neogen Chemicals Ltd.",
+   "nse": "NEOGEN",
+   "bse": "542665",
+   "rank": 676,
+   "primer": "neogen-chemicals.html"
   }
  ],
  "FMCG || Tea & Coffee": [
@@ -5347,6 +5316,43 @@
    "bse": "544012",
    "rank": 622,
    "primer": "cello-world.html"
+  }
+ ],
+ "Chemicals || Specialty Chem – Performance & Ingredient Chemicals": [
+  {
+   "name": "Clean Science and Technology Limited",
+   "nse": "CLEAN",
+   "bse": "543318",
+   "rank": 491,
+   "primer": "clean-science.html"
+  },
+  {
+   "name": "Privi Speciality Chemicals Limited",
+   "nse": "PRIVISCL",
+   "bse": "530117",
+   "rank": 526,
+   "primer": "privi-speciality-chemicals.html"
+  },
+  {
+   "name": "Sudeep Pharma Limited",
+   "nse": "SUDEEPPHRM",
+   "bse": "544619",
+   "rank": 579,
+   "primer": "sudeep-pharma.html"
+  },
+  {
+   "name": "Sudarshan Chemical Industries",
+   "nse": "SUDARSCHEM",
+   "bse": "506655",
+   "rank": 598,
+   "primer": "sudarshan-chemical.html"
+  },
+  {
+   "name": "Advanced Enzyme Technologies Ltd.",
+   "nse": "ADVENZYMES",
+   "bse": "540025",
+   "rank": 738,
+   "primer": "advanced-enzymes.html"
   }
  ],
  "FMCG || Household Products": [

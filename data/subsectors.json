@@ -1,7 +1,7 @@
 {
   "title": "Sub-sector reports · NSE 750",
   "basis": "Accord Fintech sector / sub-sector classification of the NSE 750",
-  "subsectors": 140,
+  "subsectors": 143,
   "reports": [
     {
       "name": "Hospitals",
@@ -214,12 +214,6 @@
     },
     {
       "sector": "Chemicals",
-      "sub": "Specialty Chemicals",
-      "companies": 21,
-      "report": null
-    },
-    {
-      "sector": "Chemicals",
       "sub": "Fertilizers",
       "companies": 9,
       "report": null
@@ -232,19 +226,43 @@
     },
     {
       "sector": "Chemicals",
+      "sub": "Paints & Adhesives",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Chemicals",
       "sub": "Pesticides & Agrochemicals",
       "companies": 6,
       "report": null
     },
     {
       "sector": "Chemicals",
-      "sub": "Paints",
+      "sub": "Specialty Chem – Custom Synthesis & Life-science Intermediates",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Chemicals",
+      "sub": "Specialty Chem – Intermediates & Building Blocks",
+      "companies": 6,
+      "report": null
+    },
+    {
+      "sector": "Chemicals",
+      "sub": "Specialty Chem – Performance & Ingredient Chemicals",
       "companies": 5,
       "report": null
     },
     {
       "sector": "Chemicals",
       "sub": "Carbon Black",
+      "companies": 3,
+      "report": null
+    },
+    {
+      "sector": "Chemicals",
+      "sub": "Specialty Chem – Fluorochemicals",
       "companies": 3,
       "report": null
     },
