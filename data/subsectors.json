@@ -138,6 +138,23 @@
         "Sum of the parts"
       ],
       "published": "2026-10-07"
+    },
+    {
+      "name": "Pharma – CDMO / CMO",
+      "slug": "pharma-cdmo-cmo",
+      "file": "pharma-cdmo-cmo.html",
+      "sector": "Healthcare",
+      "subsector": "Pharma – CDMO / CMO",
+      "companies": 6,
+      "accent": "#33285E",
+      "hook": "One label, five very different businesses: how India's 6 listed contract drug-makers earn from someone else's recipe, why lock-in makes revenue sticky yet lumpy, what BIOSECURE really changes, the GLP-1 supply layers, and why the market pays 22× to 73× EBITDA.",
+      "tags": [
+        "Molecule funnel & lock-in",
+        "BIOSECURE & China+1",
+        "GLP-1 supply chain",
+        "Valuation puzzle"
+      ],
+      "published": "2026-10-07"
     }
   ],
   "universe": [
@@ -625,7 +642,7 @@
       "sector": "Healthcare",
       "sub": "Pharma – CDMO / CMO",
       "companies": 6,
-      "report": null
+      "report": "pharma-cdmo-cmo.html"
     },
     {
       "sector": "Healthcare",
