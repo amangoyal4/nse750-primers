@@ -34,7 +34,7 @@ function measure(h) {
   const kpi = (h.match(/<section[^>]*data-kpi="1"[\s\S]*?<\/section>/) || [''])[0];
   return {
     kb: Math.round(h.length / 1024), totalWords: words(h), prose: prose(h), sections: secs.length,
-    dd: cnt(h, /class="dd"/g), charts: chartTotal(h), mix: charts(h), tables: cnt(h, /<table/g), plain: cnt(h, /class="plain"/g),
+    dd: cnt(h.replace(/<style[\s\S]*?<\/style>/g, ''), /class="dd"/g), charts: chartTotal(h), mix: charts(h), tables: cnt(h, /<table/g), plain: cnt(h, /class="plain"/g),
     cards, kpiProse: prose(kpi), kpiH3: cnt(kpi, /<h3/g), secs, chartTotal,
     h1: text((h.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || ['', ''])[1]), h1em: text((h.match(/<h1[^>]*>[\s\S]*?<em>([\s\S]*?)<\/em>/) || ['', ''])[1]),
     strip: [...((h.split('stat-strip six')[1] || '').split('</div>\n</div>')[0] || '').matchAll(/<div class="v">([\s\S]*?)<\/div>\s*<div class="l">([\s\S]*?)<\/div>/g)].map(m => text(m[1]) + ' — ' + text(m[2])),

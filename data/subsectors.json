@@ -104,6 +104,23 @@
         "PLI"
       ],
       "published": "2026-10-06"
+    },
+    {
+      "name": "Pharma – Export Generic Formulations",
+      "slug": "pharma-export-generics",
+      "file": "pharma-export-generics.html",
+      "sector": "Healthcare",
+      "subsector": "Pharma – Export Generic Formulations",
+      "companies": 7,
+      "accent": "#14294B",
+      "hook": "Half the prescriptions, a tenth of the dollars: how 7 listed Indian exporters supply America's generic pills to three buyers who set the price, how a generic earns from filing to commodity, why FDA inspections gate growth, and the escape routes from price erosion.",
+      "tags": [
+        "US buyers & erosion",
+        "ANDA life cycle",
+        "FDA compliance",
+        "Tariffs & US plants"
+      ],
+      "published": "2026-10-07"
     }
   ],
   "universe": [
@@ -585,7 +602,7 @@
       "sector": "Healthcare",
       "sub": "Pharma – Export Generic Formulations",
       "companies": 7,
-      "report": null
+      "report": "pharma-export-generics.html"
     },
     {
       "sector": "Healthcare",

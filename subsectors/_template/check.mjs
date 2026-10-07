@@ -50,7 +50,7 @@ check(cnt(/<figure class="map"/g) >= 3, 'Positioning maps ≥ 3', cnt(/<figure c
 check(cnt(/<table/g) >= T.tables, `Tables ≥ ${T.tables}`, cnt(/<table/g));
 check(/<table class="peer"/.test(h), 'Peer table present', /<table class="peer"/.test(h));
 check(cnt(/class="plain"/g) >= T.plain, `"In plain terms" callouts ≥ ${T.plain}`, cnt(/class="plain"/g));
-check(cnt(/class="dd"/g) >= 3, 'Deep-dive sections ≥ 3 (incl. KPI)', cnt(/class="dd"/g));
+check((noStyle.match(/class="dd"/g) || []).length >= 3, 'Deep-dive sections ≥ 3 (incl. KPI)', (noStyle.match(/class="dd"/g) || []).length);
 check(cnt(/class="co-card"/g) === n, `Profile cards = ${n}`, cnt(/class="co-card"/g));
 
 const linked = new Set([...h.matchAll(/href="\.\.\/primers\/([^"#]+)"/g)].map(m => m[1]));
