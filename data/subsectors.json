@@ -121,6 +121,23 @@
         "Tariffs & US plants"
       ],
       "published": "2026-10-07"
+    },
+    {
+      "name": "Pharma – Diversified Majors",
+      "slug": "pharma-diversified-majors",
+      "file": "pharma-diversified-majors.html",
+      "sector": "Healthcare",
+      "subsector": "Pharma – Diversified Majors",
+      "companies": 6,
+      "accent": "#6A2C20",
+      "hook": "The windfall ends, the engines must carry: how India's 6 multi-engine drugmakers combine India brands, US generics, specialty, EM and consumer in one P&L, the gRevlimid cliff, Sun's Organon leap, the GLP-1 race, and what the market pays for each engine.",
+      "tags": [
+        "gRevlimid cliff",
+        "Specialty pivot",
+        "GLP-1 generics",
+        "Sum of the parts"
+      ],
+      "published": "2026-10-07"
     }
   ],
   "universe": [
@@ -614,7 +631,7 @@
       "sector": "Healthcare",
       "sub": "Pharma – Diversified Majors",
       "companies": 6,
-      "report": null
+      "report": "pharma-diversified-majors.html"
     },
     {
       "sector": "Healthcare",
