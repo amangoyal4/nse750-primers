@@ -155,6 +155,23 @@
         "Valuation puzzle"
       ],
       "published": "2026-10-07"
+    },
+    {
+      "name": "Pharma – Specialty, Biologics & Innovation",
+      "slug": "pharma-specialty-biologics",
+      "file": "pharma-specialty-biologics.html",
+      "sector": "Healthcare",
+      "subsector": "Pharma – Specialty, Biologics & Innovation",
+      "companies": 5,
+      "accent": "#3A4A1F",
+      "hook": "Five bets priced on optionality, not earnings: biosimilars at scale (Biocon), India's first FDA-approved home-grown antibiotic (Wockhardt), first-to-file windfalls (NATCO), radiopharma (Jubilant) and pure discovery (SPARC) — how each earns, burns and is valued, and the one-off traps.",
+      "tags": [
+        "Biosimilar economics",
+        "Can India discover drugs?",
+        "Windfall model",
+        "One-offs & accounting traps"
+      ],
+      "published": "2026-10-07"
     }
   ],
   "universe": [
@@ -660,7 +677,7 @@
       "sector": "Healthcare",
       "sub": "Pharma – Specialty, Biologics & Innovation",
       "companies": 5,
-      "report": null
+      "report": "pharma-specialty-biologics.html"
     },
     {
       "sector": "Healthcare",
