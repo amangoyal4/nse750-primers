@@ -12228,6 +12228,22 @@
       ],
       "refreshed": "2026-07-27",
       "status": "published"
+    },
+    {
+      "name": "TeamLease Services Ltd.",
+      "file": "primers/teamlease-services.html",
+      "nse": "TEAMLEASE",
+      "bse": "539658",
+      "sector": "Services",
+      "accent": "#3A2F8F",
+      "hook": "India's apprentice-to-GCC payroll engine: 3.4 lakh people on its rolls, a 1.3% margin, six-day collections and net cash, yet worth about its 2016 IPO value after RBI-driven insourcing, AI worries and a founder hand-over.",
+      "tags": [
+        "The six-day float",
+        "When regulation hires & fires",
+        "Specialists vs volume"
+      ],
+      "refreshed": "2026-10-08",
+      "status": "published"
     }
   ]
 }
