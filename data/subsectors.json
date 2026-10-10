@@ -172,6 +172,23 @@
         "One-offs & accounting traps"
       ],
       "published": "2026-10-07"
+    },
+    {
+      "name": "Pharma – CRDMO",
+      "slug": "pharma-crdmo",
+      "file": "pharma-crdmo.html",
+      "sector": "Healthcare",
+      "subsector": "Pharma – CRDMO",
+      "companies": 3,
+      "accent": "#1F3D4D",
+      "hook": "Renting scientists, chasing the molecule: why India's 3 listed CRDMOs shrank 10.6% while manufacturing CDMOs grew 25%, how a research client becomes a supply contract, the one-client problem (Librela, Anthem's top five), the narrowing India–China cost gap, and why the market pays 14× for one and 57× for another.",
+      "tags": [
+        "Follow the molecule",
+        "One-client problem",
+        "India vs China people spread",
+        "Valuation dispersion"
+      ],
+      "published": "2026-10-10"
     }
   ],
   "universe": [
@@ -683,7 +700,7 @@
       "sector": "Healthcare",
       "sub": "Pharma – CRDMO",
       "companies": 3,
-      "report": null
+      "report": "pharma-crdmo.html"
     },
     {
       "sector": "Healthcare",
