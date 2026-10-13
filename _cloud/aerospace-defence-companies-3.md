@@ -531,3 +531,171 @@ Promoter group led by Dr Udayant Malhoutra (CEO & MD) **41.50%**; board has 5 of
 | FY27 guidance | Revenue +80%, EBITDA margin 24% ±1 pp | Revenue +45–50%, operational EBITDA ×2, consumer EBITDA breakeven Q4 FY27 | None numeric |
 
 ---
+
+## 5. PRIMER ISSUES
+
+Each primer was read in full as extracted text: cover strip, "What's new" box and opening sections, then grepped for key figures. Locations are given by section and/or the cover strip.
+
+### 5.1 primers/mtar-technologies.html (last refreshed 27 Jul 2026)
+
+1. **Segment mix is wrong: order-book shares were used as revenue shares** (cover snapshot "Three facts", §02 tiles/table and §02 "decoded").
+   - The primer says "~51% clean energy … Add nuclear (~26%), aerospace & defence (~14%) and its product/other line (~8.5%)" of FY26 revenue.
+   - Those figures are the **31-Mar-2026 order-book mix** (51.2% / 26.3% / 14.0% / 8.5%).
+   - **Correct FY26 revenue mix:** fuel cells/hydel/others **70.2%** (₹615 cr), products & others **15.3%** (₹134 cr), A&D **11.8%** (₹104 cr), civil nuclear **2.7%** (₹24 cr).
+   - Source: MTAR Q1 FY27 investor presentation, segment slides; Arihant quarterly segment table [V].
+   - This is the biggest error in the primer. Nuclear is a ~3% revenue line, not a quarter of the business.
+2. **Q1 FY27 results missing.** The primer was refreshed on 27 Jul 2026, before the results of 30 Jul. It should add:
+   - revenue ₹360.7 cr (+130%), EBITDA ₹85.1 cr (23.6%), PAT ₹50.2 cr (+365%);
+   - order book **₹5,143 cr** at 30 Jun 2026 (double the ₹2,582 cr the primer shows);
+   - Q1 inflow ₹2,895 cr, more than the whole of FY26;
+   - the 30-Jul amended PO of US$324.6 m total, **+US$85.9 m (~₹820 cr) incremental**.
+   - The cover tile "₹2,582 Cr Order book (FY26)" and the §10 tile are stale.
+   - Source: PPT; BT 30 Jul 2026 [V].
+3. **Promoter holding stale** (§03 "Ownership & structure": "holds roughly 30.4%"). Correct: **29.35% (Jun-26)**; 30.44% was Mar-26. FIIs are now 24.8% (from 17.3%). Source: screener [V].
+4. **The July-2026 "~34% fall" is told without the recovery** (§09, §10 tile "~34% Stock fall", bear case, cover).
+   - The stock went from a high of ₹8,715 (19 Jun) to ~₹5,450 (late July), then back to **₹7,718 on 13 Oct 2026**.
+   - It is +41% from 31 Jul, ~11% below the high, and +309% over one year. Neither the recovery nor the ASM surveillance tag is mentioned.
+   - The primer also merges two separate Bloom scares: Jun-26 (Crusoe/Wyoming) and Jul-26 (Oracle-linked project delay).
+   - Source: screener [V]; Arihant CMP [V]; BT [V].
+5. **No m-cap / P/E / valuation numbers at all.** The primer says only "premium". Add:
+   - m-cap **₹23,769 cr**, P/E **175×**, P/B **28.9×**, EV/EBITDA ~140× FY26 (~63× FY27 on guidance [E]);
+   - screener, 13 Oct 2026 [V].
+6. **Bloom concentration range probably too low and unsourced** (cover "Bloom Energy alone is roughly 55–65% of revenue"; §04).
+   - The fuel-cell/hydel segment alone was 70.2% of FY26 revenue and 66.7% of the Jun-26 book.
+   - Press says "more than half". Mgmt says MTAR holds "a majority share in Bloom's supply chain".
+   - Better: "~60–70% [E], not disclosed (NDA)".
+   - Also, the primer's claim that Bloom's share is "larger than the entire clean-energy segment percentage suggests" only holds against the wrong 51% figure.
+7. **Missing major events and KPIs:**
+   - **Working capital collapsed from 172 days (FY26) to 59 days (Q1 FY27)**, and the NWC target was cut to ~100 days. The primer lists working capital only as a risk.
+   - **Capex ₹500 cr over FY27–28**, with fuel-cell Phase 2 due Sep–Oct 2026 and Phase 3 "multifold" by Mar 2027.
+   - Kaiga 5 & 6 ₹504 cr order (largest ever nuclear order); PFBR criticality, with MTAR supplying most of the core assemblies.
+   - Tejas Mk1A actuators (~₹140–150 cr); AMCA landing-gear test-box order; L1 on a fuselage door.
+   - SLB data-centre order ₹45 cr.
+   - Exports 82%.
+   - Net debt ~₹20–45 cr after ₹379 cr investments (Jun-26).
+   - Source: PPT, call [V].
+8. **Banned phrases:**
+   - "The honest debate is not whether…" (§11), once only, so it is within the limit.
+   - "leveraged option on Bloom Energy's fortunes" (§09) is close to "call option on the future"; consider rewording.
+   - No other listed banned phrase was found.
+
+### 5.2 primers/aequs.html (last refreshed 28 Jul 2026)
+
+1. **M-cap stale** (cover tile "~₹12,800 Cr Market cap (mid-2026)"; §00 and §09 repeat it, and so does "roughly ten times a single year's revenue").
+   - Correct: **₹17,779 cr on 13 Oct 2026** at ₹265 (screener [V]).
+   - That is **14.5× FY26 revenue** (EV/Sales 14.7×) and 2.1× the ₹124 IPO price.
+2. **Order book in rupees stale, and the order book itself stale** (cover tile "~₹7,400 Cr Aerospace order book"; §04 "USD 889 M (≈ ₹7,400 Cr)", "~7×").
+   - The book was **US$1,004 m at 30 Jun 2026** (Q1 FY27 PPT [V]). At ~₹95/$ (2026 rates; USD/INR averaged 94.6 in Q1 FY27 per Dynamatic's PPT [V]) that is **~₹9,500–9,600 cr**, ~9× aerospace revenue.
+   - The ₹7,400 cr conversion used ~₹83/$.
+3. **Q1 FY27 missing entirely** (no "Q1" anywhere). It should add:
+   - revenue ₹395.5 cr (+55%); operational EBITDA ₹14.8 cr (3.7%); PAT −₹53.2 cr; aerospace +40% at 22.7% segment margin; consumer loss narrowed to −₹36 cr;
+   - utilisation: aerospace 70%, consumer 22%;
+   - NWC 125 days; net debt/equity up to 0.34×; capex ₹83 cr.
+   - Source: Q1 PPT; call [V].
+4. **Guidance and milestones missing** (§08, §11). Add:
+   - FY27 revenue +45–50%; operational EBITDA to double; aerospace +25–30% at >20% margin;
+   - **consumer EBITDA breakeven by Q4 FY27; consolidated PAT breakeven by H1 FY28**;
+   - **Vision 2031: 4–6× revenue, 18–22% EBITDA, ~20% ROCE**; FY27 capex ~₹660 cr.
+   - Source: call; PPT [V].
+5. **EBITDA basis not stated** ("What's new": "EBITDA ~₹155 Cr (13% margin)"; §07, §09).
+   - ₹154.5 cr is the company figure **including ₹65 cr of (mostly forex) other income**.
+   - Operational EBITDA was **~₹89 cr (7%)**; screener OP is ₹92 cr. Q4 FY26 operational EBITDA was only ₹4 cr (1.1%).
+   - Source: FY26 PPT; screener [V].
+6. **"Standalone parent turned a ~₹50 Cr profit" presented as the profitable aerospace core** (cover, §00, §08 chart "Standalone PAT the aerospace core +~50").
+   - Standalone Aequs Ltd had revenue of only **₹124 cr** and operating profit of ~₹1 cr in FY26. The ₹50 cr standalone PAT is other income on the IPO cash and on loans to subsidiaries, not operating aerospace profit.
+   - The operating aerospace business sits mainly in subsidiaries (e.g. AeroStructures Manufacturing India).
+   - The right "core" figure is **aerospace segment EBITDA ₹281 cr FY26 (Q1 FY27 ₹73 cr, 22.7%)**.
+   - Source: screener standalone [V]; PPT [V].
+7. **Promoter/pledge statement now questionable** (§07 "Promoters have publicly confirmed no encumbrance (pledge)"; bull case "Melligeri controls ~59% with no pledge"; §09 tile "no encumbrance").
+   - On **9 Oct 2026**, promoter Melligeri Private Family Foundation filed a SAST Reg 31(2) "**release of pledge**" on its entire **14.99%** stake, dated 8 Oct 2026. The filing calls it "temporary … to complete certain regulatory requirements", which implies an encumbrance existed and may be re-created.
+   - "~65% at listing" is also wrong: ~64% was **pre-offer**; post-listing promoter holding was **59.08% (Dec-25)** and has been flat since.
+   - Source: BSE filing [V]; prospectus [V]; screener [V].
+8. **IPO details approximate where exact figures exist** (§07 timeline "Total issue ~₹920 Cr … size approx."). Exact figures:
+   - **₹921.8 cr = ₹670.0 cr fresh + ₹251.8 cr OFS**, at ₹124;
+   - pre-IPO placement ₹144 cr; subscribed **104.3×** (QIB 122.9×);
+   - listed at **₹140 (+12.9%)** on 10 Dec 2025;
+   - objects: ₹433 cr debt repayment, ₹64 cr machinery, ₹125 cr inorganic/GCP;
+   - main OFS sellers: Amicus Capital funds.
+   - Source: prospectus [V]; 5paisa [V].
+9. **Missing major events:**
+   - **Safran long-term supply agreements (12 Oct 2026):** superalloy machining and landing-gear components for A320/A330/A350/B787; now six Safran entities; work at **Hosur**.
+   - **Safran A320 wheels LTA to 2042 (Jul 2026)**, 100% Indian value addition.
+   - Two new aerostructures Tier-1 LTAs at Farnborough.
+   - **₹1,900 cr Hosur aero-engine/landing-gear ecosystem MoU** (first facility H2 FY28, revenue FY29) and ₹2,856 cr Karnataka MoU.
+   - **Ajna Aerospace & Defence UAV JV** (33%; ₹15.75 cr further investment on 9 Oct 2026). This is Aequs's only direct defence vector and the primer has none of it.
+   - Hubballi consumer-electronics plant; named consumer customers (Mattel, Spin Master, Tramontina, Wonderchef).
+   - Source: BSE filings; PPT; call [V].
+10. **Customer concentration not quantified** (bear case "Customer concentration…"). Add **top-5 = 63% (Q1 FY27); top-10 = 88.6% (FY25), 82.5% (H1 FY26)**. Airbus's individual share is not disclosed. Source: Q1 PPT; prospectus [V].
+11. **Banned phrases:**
+    - "The honest way to hold it" (§09), once only.
+    - "How to think about the valuation" (§09 heading) is not the banned "think of", but close.
+    - Nothing else found.
+
+### 5.3 primers/dynamatic-technologies.html (last refreshed 15 Aug 2026)
+
+1. **M-cap and P/E stale** (cover tile "~₹7,600 Cr Market cap (mid-2026)"; §00 "trades near 130× earnings"; §10 tile "~130× Trailing P/E on ~₹7,600 Cr").
+   - Correct on 13 Oct 2026: **₹9,482 cr**, price ₹13,985.
+   - P/E: screener **162×**. On reported TTM PAT it is ~220×; on normalised TTM PAT ~135× [E].
+   - P/B **11.2×**; EV/EBITDA ~55× FY26.
+   - Source: screener [V].
+2. **Leverage overstated** (§00 "Net leverage has been stuck near 3.4× net-debt-to-EBITDA for years"; §03/§06 "net debt around ₹530–540 Cr, a debt-to-equity near 0.8×"; §10 tile "~3.4×"; §11 "If leverage stays glued near 3.4×").
+   - Company figures: net debt **₹461 cr (Mar-26) → ₹473 cr (Jun-26)**; **net debt/LTM EBITDA 2.6× (Mar-25) → 2.5× (Mar-26) → 2.4× (Jun-26)**; net debt/equity **0.6×**.
+   - Even including ₹108 cr of leases it is 3.1× and 0.72×.
+   - Source: FY26 and Q1 FY27 PPT capital-structure slides [V].
+   - The primer's central "ratio the whole case hangs on" is therefore mis-stated, and it is falling, not "stuck".
+3. **FY26 profit fall misattributed** (§00 "net profit fell ~25% to ₹32 Cr, because roughly ₹638 Cr of borrowings…"; timeline "as interest and ramp costs bite"; bear case "interest and ramp costs already turned 15% revenue growth into a 25% profit fall").
+   - Finance cost was nearly flat (₹56.7 cr → ₹58.0 cr).
+   - The fall came from **₹27.6 cr of exceptional items**. **Normalised PAT rose 39% to ₹60.0 cr.**
+   - Note also that ₹638 cr is borrowings *including* ₹108 cr of leases.
+   - Source: FY26 PPT [V].
+4. **A320 flap-track-beam claims overstated** (§00 "sole source of a flight-critical part on every Airbus A320 in the sky"; §04 "well over 13,000 shipsets"; §05 "fitted to every Airbus A318/A319/A320/A321 ever built — over 13,000 shipsets").
+   - The FY26 annual report says **"over 9,000 aircraft sets of single-aisle flap track beams"** delivered, supplied through Spirit AeroSystems.
+   - The explicit **"Tier-1 global single-source"** claim in the AR is for the **A330** beam.
+   - "Every A320 ever built" is impossible: the A320 family has more than 10,000 deliveries, and the programme predates Dynamatic's role.
+   - The ~200→~20-part redesign is described in the AR as an Airbus redesign with Dynamatic's design office involved.
+   - Source: AR FY26 [V].
+5. **Spirit AeroSystems as Tier-1 is dated** (§00, §01, §02). Customer lists now name **Prestwick AeroSystems** and **Airbus Aerostructures GmbH**, which reflects the break-up of Spirit's Airbus sites. Source: Q1 FY27 PPT; AR (DML note) [V].
+6. **Unverified or likely wrong defence claims** (§01/§02 "Sukhoi work, the Deesa facility").
+   - Neither "Deesa" nor "Sukhoi" appears in the FY26 annual report or the presentations.
+   - The AR names **Boeing P-8 and F-15**, HAL, BEL, Thales, the Dynauton UAS (Kaatil loitering munition, Patang tethered UAS, counter-drone) and AMCA.
+   - Recommend removing or sourcing these. Source: AR FY26 [V].
+7. **Missing major events:**
+   - **AMCA:** Dynamatic is exclusive partner in the **L&T–BEL consortium** (4 Nov 2025). It is one of three shortlisted bidders that received the RFP on **27 May 2026** for 5 prototypes (~₹15,000 cr development phase), with selection/contract expected by early 2027. Source: machinist.in; The Defense News [V].
+   - **Falcon 6X complete rear fuselage (Section 5)** agreement of 4 Dec 2025. The primer has "Falcon 6X rear fuselage" but no date; the rear fuel tank has been in serial production since Dec 2024.
+   - Hutchinson composites MoA; D328eco jigs/assembly line; A220 all-doors shipset; DML revenue +82% to ₹121 cr.
+   - Source: Dynamatic release; AR [V].
+8. **Rafale:** the primer correctly does *not* claim a Rafale fuselage role. For the report: Rafale fuselage production transfer (Jun 2025) went to **Tata Advanced Systems**, not Dynamatic (search-level; [K] Dassault release).
+9. **Q1 FY27 lacks the forex caveat** (What's new; §03 timeline). Revenue +14.5% was **+3.9% at constant currency**: ₹39.3 cr of the revenue gain and ₹5.1 cr of the EBITDA gain came from the weaker rupee. Source: Q1 FY27 PPT [V].
+10. **Hydraulics market share** (§07 "Indian OEM tractor pumps ~80%, Global tractor market ~38%"). The company's current claim is **~70% of India's organised tractor market** (Q1 FY27 PPT [V]). The 80%/38% figures are older and appear in screener's profile text.
+11. **Missing KPIs:**
+    - customer concentration: **one customer = 14.1% of revenue**;
+    - overseas billing **70%**;
+    - CFO/EBITDA **52% FY26**;
+    - FY26 capex ₹84.6 cr;
+    - company gross margin 49.8%.
+    - Source: AR; PPT [V].
+12. **Banned phrases:**
+    - **"the multiple has something to grow into"** (§10 "The one number…" paragraph) is a variant of the banned "grow into the multiple/its multiple". Reword.
+    - "The honest debate is not whether…" (§11), once only.
+    - **"Priced for the inflection"** (bear case) is close to the banned "priced for perfection"; consider rewording.
+
+---
+
+## 6. Figures I could not fetch or verify (flagged in the text)
+- **MTAR:**
+  - R&D spend.
+  - Promoter pledge status (not read from the SHP filing).
+  - Bloom's exact revenue share (not disclosed; estimated at 60–70%).
+  - The July circuit-by-circuit price sequence (press snippets only).
+- **Aequs:**
+  - Airbus's individual revenue share (not disclosed in the prospectus or presentations).
+  - R&D spend.
+  - The Business Standard subscription figure of 101.6× (page returned 403; 5paisa's 104.3× used).
+  - Nature of the pledged/encumbered MPFF shares (filing ambiguous).
+- **Dynamatic:**
+  - Order book, order inflow, OB cover and book-to-bill (not disclosed by the company).
+  - Numeric guidance (none given).
+  - R&D spend (AR table did not parse).
+  - Promoter pledge status.
+  - Tata's Rafale fuselage PTAs (search-level only).
+- **BSE announcement API:** blocked (Access Denied). Filings were fetched through the direct `AnnPdfOpen` PDF links listed on screener instead.
