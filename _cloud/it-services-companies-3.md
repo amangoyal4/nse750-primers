@@ -2,7 +2,67 @@
 
 Prepared 2026-10-13 (company-research subagent, batch 3). Tags: **[V]** fetched this session (URL given), **[K]** from memory with source named, **[E]** estimate / derived by me (formula shown).
 
-(Work in progress — packs appended below company by company; summary grid is completed at the end.)
+**Sources used for every pack**
+- screener.in consolidated pages fetched via curl on **2026-10-13 15:32 UTC** (= 21:02 IST, i.e. **13 Oct 2026 closing prices**): `https://www.screener.in/company/<NSE>/consolidated/` [V]. Screener "Operating Profit" = revenue − expenses before other income and depreciation (EBITDA proxy); screener nets companies' exceptional items into "other income"; screener "Borrowings" include lease liabilities.
+- BSE filings (`https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=<id>.pdf`) — Q1 FY27 and Q4 FY26 investor presentations/press releases, earnings-call transcripts, board-meeting intimations, Happiest Minds' merger deck and special-call transcript, Datamatics FY26 annual report — all downloaded and parsed with pdftotext this session [V]. No nseindia.com or company-IR pages were needed.
+
+**Results calendar (as of 13 Oct 2026):** none of the six has reported Q2 FY27 yet; latest reported quarter for all = **Q1 FY27 (Jun-26)**. Announced Q2 dates: **Mastek 23 Oct 2026**, **Latent View 31 Oct 2026** (BSE intimations [V]); Sonata, Black Box, Happiest Minds, Datamatics — trading windows closed, dates not yet announced in the last-5 BSE filings.
+
+**Corporate events:** **Happiest Minds — merger into ITC Infotech (ITC Ltd subsidiary) announced 31 Aug 2026** (swap 25:81; founder sells 22.1% for ₹1,330 cr; listing of the combined entity expected Q2/Q3 FY28). **CEO changes:** Sonata (Samir Dhir → Rajsekhar Datta Roy, May 2026), Latent View (Rajan Sethuraman → Sonal Ramrakhiani, Aug 2026). Black Box closed the 2S (Brazil) acquisition (1 May 2026). All six remain listed.
+
+## 0. Batch-3 summary grid (for the KPI appendix)
+
+Market data = screener.in, 13 Oct 2026 close. ₹ cr unless stated. "Co" = company-reported basis.
+
+| Metric | Sonata Software | Latent View | Black Box | Happiest Minds | Mastek | Datamatics |
+|---|---|---|---|---|---|---|
+| Latest quarter reported | Q1 FY27 (7 Aug) | Q1 FY27 (1 Aug); Q2 on 31 Oct | Q1 FY27 (12 Aug) | Q1 FY27 (27 Jul) | Q1 FY27 (21 Jul); Q2 on 23 Oct | Q1 FY27 (Aug) |
+| FY26 revenue ₹ cr (screener) | 10,701 (IITS 2,948 / DPS 7,772) | 1,060 | 6,322 | 2,315 | 3,699 | 1,987 |
+| FY26 revenue growth (₹) | +5.4% (IITS +4.2%) | +25.0% | +6.0% | +12.3% | +7.0% | +15.3% (TNQ-aided) |
+| FY26 revenue $ (Co) | IITS $328.4M (**−2.1%**) | $119.8M (+19.4%) | ~$720M [E] | ~$264M [E] | $421.2M (+3.1%) | ~$226M [E] |
+| Latest-qtr growth | IITS +0.1% QoQ cc / **+2.1% YoY cc** | **−3.5% QoQ $** / +9.9% YoY $ | +24% YoY ₹ (organic ~+20% [E]) | +2.6% QoQ cc / **+6.7% YoY cc** | +1.8% QoQ cc / +3.0% YoY cc | −1.0% QoQ ₹ / +9.9% YoY ₹ |
+| FY26 Co margin | IITS EBITDA 18.4% (group ~6.9%) | adj. EBITDA 23.0% | EBITDA 9.0% / EBIT 7.3% | op. margin 17.4% (EBITDA incl. OI 20.3%) | op. EBITDA 15.8% | EBITDA 18.7% / EBIT 14.5% |
+| Q1 FY27 Co margin | IITS EBITDA 15.4% | adj. EBITDA 20.4% | EBITDA 9.3% | op. margin 17.5% | op. EBITDA 15.4% | EBITDA 19.7% / EBIT 15.3% |
+| Screener EBITDA margin FY26 | 6.9% | 22% | 9% | 17% | 16% | 19% |
+| FY26 PAT (screener) | 464 | 202 | 218 | 213 | 404 | 195 |
+| ROCE / ROE (screener) | 30.7% / 28.2% | 15.8% / 11.9% | 21.6% / 25.7% | 13.3% / 13.8% | 17.7% / 15.3% | 20.4% / 16.0% |
+| Net cash (Co basis) | +₹67 cr (Jun-26) | ~₹1,000 cr [E] | **net debt ~₹287 cr** (ex-leases) | ~₹250 cr (cash 1,743 − debt 1,494) [E] | ~₹500 cr (cash 945) [E] | ~₹510 cr pro-forma (710 before ₹200 cr TNQ payout) [E] |
+| M-cap (13 Oct 2026) | **6,962** | **4,952** | **16,382** | **4,878** | **5,317** | **4,601** |
+| P/E (TTM) / P/B | 13.8x / 3.6x | 25.3x / 2.8x | 57.3x / 12.7x | 20.8x / 2.9x | 12.1x / 1.8x | 18.1x / 3.0x |
+| EV/EBITDA (TTM) [E] | ~9.4x | ~16x | ~27x | ~10.8x | ~8.0x | ~10.3x |
+| Dividend yield | 3.19% | 0% | 0.11% | 2.00% | 1.40% | 0.64% |
+| Order book / TCV | OB $97.4M (Q1), BTB 1.18x; AI OB $21.4M | not disclosed | **backlog $949M** (+83% YoY); Q1 bookings $339M; FY26 $1,003M | not disclosed | **12-mo backlog $310.1M** (+13.3% YoY $); AI OB $64M | not disclosed |
+| Headcount (latest) | 6,293 group / 5,795 IITS | ~1,740 FTE | ~4,000 (+~2,000 planned) | 6,532 | 4,897 | 15,744 (Mar-26) |
+| LTM attrition | 13% | n/a | n/a | 15.4% | 16.4% | 16.2% (FY26) |
+| Utilisation | 88.5% | ~89% (Q4 FY26) | n/m | 80.9% | 83.9% | n/d |
+| Revenue/employee (annualised) [E] | $56.6K (IITS) | $69.7K | n/m (pass-through) | $40.8K | **$87.1K** | $14.4K (BPM) |
+| Top-5 / top-10 clients | — / 51% (top-20 70%) | **57% / 72%** | ~— / ~51% (chart) | 28.4% / 42.1% (FY26) | 32.0% / 44.7% | 30% / 41% |
+| DSO | 60 (IITS) | 80 (screener) | 67 (screener) | 92 incl. unbilled (55 billed) | 75 | 60 billed |
+| FCF / PAT FY26 [E] | 92% | 70% | **6%** | 120% | 127% | 146% |
+| FY27 guidance | none ("EBITDA up every quarter") | ~12% USD growth; adj. EBITDA 21–22% | rev ₹7,800–8,000 cr; EBITDA 9.3–9.4%; PAT ₹300–325 cr | ≥12% (12.5%) growth; op. margin 17.5–18.5% | none | "high single-digit" growth |
+| Promoter (Jun-26) | 28.17% | 65.10% | 69.95% (Essar) | 44.21% (Soota; selling 22.1% to ITC Infotech) | 35.77% | 66.33% |
+| FII / DII | 9.17% / 24.68% | 2.12% / 3.60% | 4.69% / 3.41% | 6.00% / 5.66% | 7.45% / 19.86% | 0.50% / 0.10% |
+| 1-yr share price | −32% | −45% | **+61%** | −35% | −20% | −9% |
+
+### Cross-company read-across for the sub-sector angle
+- **Growth in the small/mid tail is weak in cc terms:** Q1 FY27 YoY cc — Happiest Minds +6.7%, Mastek +3.0%, Sonata IITS +2.1%; Latent View fell 3.5% QoQ in USD. Rupee depreciation (~₹94–95/$ vs ~₹86 a year ago) inflates ₹ growth by 8–10 pts (Sonata IITS +11% in ₹ on +0.2% in USD; Mastek +7.7% ₹ on −2.4% USD).
+- **Insourcing / GCC is visible:** Latent View lost $7–8M at its largest tech client through consolidation and insourcing (FY27 guide cut to ~12% from ~19%); Sonata's top-10 client revenue has fallen for six quarters; Black Box and Mastek benefit instead from capex-driven and public-sector work.
+- **GenAI deflation vs AI order books:** managements concede productivity gains in T&M/managed services pass to clients (Latent View, Happiest Minds); counter-moves are fixed-price/outcome contracts (Happiest Minds FP 30.8%, Mastek FP 43%, Sonata 21% output-based) and AI-specific order books (Mastek AI OB $7M → $64M in four quarters; Sonata AI OB $21M, pipeline $340M; Latent View 35% "primary AI" revenue; Happiest Minds GBS +150% YoY).
+- **AI capex is a tailwind for the infrastructure name:** Black Box (backlog $949M, +83%, $131M new-hyperscaler order) is the batch's only re-rating story (+61% in a year, 57x P/E); everyone else de-rated 9–45%.
+- **Consolidation has started:** Happiest Minds → ITC Infotech (valued at 15.1x FY26 EBITDA, ₹405/share vs ₹320 market); acquisitive capital allocation at Black Box (2S), Datamatics (TNQ) and Latent View (looking at data-engineering/life-sciences targets).
+- **Margins:** wage hikes hit in Q1 (Latent View −2.7 pp; Sonata IITS 20.2% → 15.4% with one-offs and a delayed ramp; Mastek −71 bps on Middle East bench) — Datamatics is the exception (record 19.7% EBITDA on automation). Rupee hedging losses offset some currency gains (Happiest Minds ₹11 cr; Sonata ₹35 cr forex swing QoQ).
+- **Geography risk is idiosyncratic:** Mastek (UK 67%, AMEA 11% hit by Middle East geopolitics), Latent View (North America 90%), Black Box (US 69% — tariffs on networking/cable imports more relevant than H-1B). In the fetched Q4 FY26/Q1 FY27 transcripts the only H-1B reference is Latent View (Q4 FY26: H-1B filing costs plus travel cost ~1.1 pp of EBITDA; Q1 FY27 "seasonally high visa costs"); no company called the 2025-26 H-1B fee material.
+- **Valuation:** cheapest on EV/EBITDA — Mastek (~8x), Sonata (~9x), Datamatics (~10x), Happiest Minds (~11x); Latent View ~16x after a 45% fall; Black Box ~27x.
+
+### Figures marked unverified / estimated in this file
+1. **Latent View** net cash (~₹1,000 cr) and LTM attrition — company cash total and attrition values not extractable from the fetched deck [E / unverified]; Decision Point deal terms (~70% for ~$39M) [K].
+2. **Sonata** Microsoft's share of IITS revenue (~25–30%) [K, not re-verified]; promoter-group identity [K].
+3. **Black Box** industry mix and top-10 concentration (~51%) read from chart layout [V-parsed, approximate]; Mar-25 backlog ($504M) read from chart; CRISIL BBB+ upgrade [primer/K]; FY26 USD revenue [E].
+4. **Happiest Minds** FY26/Q1 USD revenue (~$264M) [E at assumed ₹87.8 and ₹94.5/$]; FY25 adjusted PAT [E]; top-5/10/20 concentration read from chart [approximate]; earlier acquisitions list [K].
+5. **Mastek** promoter names and acquisition list (Evosys, MST, BizAnalytica, Metasoftech) [K]; FY26 cc growth not stated [unverified].
+6. **Datamatics** cc/USD growth (company reports ₹ only) [unverified/E]; utilisation not disclosed; Dextrada/TNQ deal terms [K].
+7. **Pledge status** for all six promoters not checked on BSE (screener page shows none) — unverified.
+8. All EV/EBITDA, P/B, revenue/employee, book-to-bill and FCF/PAT ratios are my computations [E] (formulas in each pack).
 
 ---
 
@@ -385,4 +445,76 @@ Promoters **35.77%** (49.22% Mar-17 → 35.77%, gradual dilution/sales), FIIs **
 6. **Missing events:** income-tax assessment for FY2022-23 (~₹31 cr tax impact; appeal filed 26 Jun 2026) [V]; Q2 FY27 results date 23 Oct 2026 [V].
 7. **Ownership detail:** promoter "~36% (approx.)" → **35.77%**; DIIs 19.86%, FIIs 7.45% (should note the FII→DII rotation) [V].
 8. **AMEA share:** "~8%" in one table vs "~11%" in the Middle East section — inconsistent; company: **AMEA 11.0% (Q1 FY27), 12.1% (Q4 FY26)** [V].
+
+---
+
+## 6. Datamatics Global Services Ltd (NSE: DATAMATICS · BSE: 532528) — BPM/digital operations + IT services + CX, founder-controlled
+
+**Status:** listed, no corporate action pending. Promoters (Kanodia family) 66.33%. **Vice Chairman & CEO Rahul L. Kanodia**; Sameer L. Kanodia (Director; Vice Chairman & CEO of Lumina Datamatics and TNQTech); **CFO Ankush Akar** (Q1 FY27 deck/call [V]); founder-chairman Dr Lalit Kanodia [K]. **Latest reported quarter: Q1 FY27 (Jun-26), results ~5 Aug 2026 (call 6 Aug).** Q2 FY27 not yet out (trading window closed from 1 Oct "until 48 hours after" results; no board-meeting date in last-5 BSE announcements on 13 Oct; Prometric deal press release 29 Sep; independent director Kanika Mittal's term ended 21 Sep) [V].
+
+Sources: screener.in consolidated, fetched 2026-10-13 15:32 UTC (https://www.screener.in/company/DATAMATICS/consolidated/) [V]; Q1 FY27 investor presentation (BSE https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73939d53-f97b-4761-92d7-f3fd6656b08c.pdf) [V]; Q1 FY27 call transcript, 6 Aug 2026 (BSE …Pname=e8843b76-81ec-4934-bac2-c4f9efbec4b3.pdf) [V]; Q4 FY26 presentation (BSE …Pname=d23685f3-a395-4ded-830e-fdbdbd769c45.pdf) [V]; FY26 Annual Report (BSE https://www.bseindia.com/xml-data/corpfiling/AttachHis/66d0d0ad-7ac4-42d5-95ff-89232c09b352.pdf) [V].
+
+**Model note:** unlike the other five, Datamatics is mostly **BPM/"Digital Operations"** (document & data processing, finance & accounting, **digital content/publishing services via Lumina Datamatics + TNQTech**, AFC/smart-city systems) — 58% of revenue at 19% EBIT; **Digital Technologies** (IT services: apps, cloud, data/AI, RPA product TruBot, IDP TruCap+, TruAI) 30% at ~9% EBIT; **Digital Experiences** (contact-centre CX from the Philippines, India, US) 12%. GenAI is both the main threat (rules-based document work) and the margin lever (own automation platforms).
+
+### 6.1 Standardised financials
+| ₹ cr | FY25 | FY26 | YoY | TTM (to Jun-26) |
+|---|---|---|---|---|
+| Revenue (screener = Co) | 1,723 | **1,987** | +15.3% | 2,034 |
+| Co EBITDA | 229.3 (13.3%) | **371.6 (18.7%)** | +62.1% | |
+| Screener op. profit | 232 (13%) | 375 (19%) | | 397 (20%) |
+| Co EBIT | 181.2 (10.5%) | **287.6 (14.5%)** | +58.7% | |
+| Other income (screener; nets exceptionals) | 78 | −9 (Co OI ₹56 cr; exceptionals −₹64.9 cr) | | −3 |
+| PAT after NCI (Co) / screener PAT | 205.0 / 206 | **194.2 / 195** | −5.3% | 217 |
+| EPS ₹ | 34.69 | 32.86 | | 36.58 |
+| CFO / FCF (screener) | 224 / 201 | 324 / 285 | | |
+| ROCE (screener) | 15% | 20% | | |
+| Dividend payout | 14% | 15% (₹5/share) | | |
+(FY26 exceptionals: labour-code restructuring −₹24.0 cr and **fair-value change of contingent consideration for acquisitions −₹40.85 cr** in Q4 — Q4 FY26 deck [V]. PBT before exceptionals +49% to ₹325 cr.)
+
+- **Market data (screener, 13 Oct 2026 close):** price ₹778; **m-cap ₹4,601 cr**; P/E **18.1x**; book value ₹261 → **P/B 3.0x** [E]; 52-wk H/L ₹1,015/₹632; div. yield 0.64%; ROCE 20.4%, ROE 16.0%; 1-yr −9%, 3-yr CAGR +9% [V].
+- **Balance sheet:** screener borrowings ₹221 cr (mostly leases/acquisition-related), investments ₹639 cr (Mar-26). **Company "net cash & investments (net of debt)": ₹415.3 cr (FY25) → ₹639.2 cr (FY26) → ₹710.2 cr (Jun-26)** — but **~₹200 cr TNQTech earn-out/payout was paid in Q2 FY27** (CEO on call) → pro-forma ~₹510 cr [E].
+- **EV/EBITDA [E]:** EV ≈ 4,601 − 510 = ₹4,091 cr ÷ TTM screener EBITDA ₹397 cr = **~10.3x**.
+
+### 6.2 Native KPIs (Q1 FY27 deck/call [V])
+| | Q1 FY26 | Q4 FY26 | **Q1 FY27** |
+|---|---|---|---|
+| Revenue ₹ cr | 467.6 | 519.3 | **513.9** (−1.0% QoQ, +9.9% YoY) |
+| EBITDA (margin) | 75.9 (16.2%) | 110.6 (21.3%) | **101.1 (19.7%)** |
+| EBIT (margin) | 56.4 (12.1%) | 88.0 (16.9%) | **78.4 (15.3%)** |
+| PAT after NCI | 50.4 | 44.2 (after net −₹24.6 cr exceptionals: contingent consideration −₹40.85 cr, labour-code reversal +₹16.2 cr) | **72.3** (+43.5% YoY) |
+| Digital Operations rev / EBIT % | 255.6 / 16.4% | 299.5 / 23.2% | **296.8 / 19.3%** (+16.1% YoY) |
+| Digital Technologies rev / EBIT % | 144.4 / 6.9% | 159.4 / 10.0% | **153.1 / 8.9%** (+6.1% YoY) |
+| Digital Experiences rev / EBIT % | 67.6 / 4.4% | 60.4 / 6.8% | **64.0 / 11.7%** (−5.3% YoY) |
+| Top-5 / top-10 / top-20 clients | 25% / 38% / 52% | | **30% / 41% / 54%** |
+| Billed DSO (days) | | 63 (FY26) | **60** |
+| Net cash & investments ₹ cr | | 639.2 | 710.2 |
+
+- **Quarterly segment revenue trend (₹ cr, deck chart [V]):** Digital Operations jumped from 178 (Q3 FY25) to 266 (Q4 FY25) on the **TNQTech acquisition** (consolidated into Lumina Datamatics; integration now complete; TNQ "growing ~12–14%"), then 256 → 272 → 274 → 299 → 297; Digital Technologies flat at ~144–173; Digital Experiences shrinking 74 → 64.
+- **Mix Q1 FY27:** geography **USA 56%, UK & Europe 25%, India 12%, RoW 7%**; industries **Education & Publishing 29%**, Technology & Consulting 20%, BFSI 19%, Manufacturing/Infra/Logistics 11%, Retail 9%, Not-for-profit/Govt 8%, other 4% [V]. No single customer ≥10% of revenue (FY26 AR [V]).
+- **No cc / USD disclosure** in fetched documents — Datamatics reports in ₹ only; FY26 USD revenue ≈ **$226M [E: ₹1,987 cr ÷ ₹87.8]**; with the rupee ~9% weaker YoY in Q1 FY27, the +9.9% ₹ growth implies roughly flat-to-low-single-digit cc growth [E] (no company figure; mark **unverified**).
+- **People:** group employees **15,744 (31 Mar 2026)** vs 15,660 (Mar-25) (FY26 Annual Report [V]); FY26 attrition 16.2% (Q4 deck); Q1 FY27 quarterly attrition 5%. **Revenue per employee [E]:** $226M ÷ avg 15,702 ≈ **$14.4K** — a BPM-scale number, ~3–6x below the IT-services names in this batch (not comparable). Utilisation not disclosed.
+- **Margin drivers (call [V]):** FY26 EBITDA +540 bps from automation/AI-led productivity in Digital Operations, TNQ accretion, and cost restructuring (labour-code-linked); Q1 FY27 absorbed annual increments effective Apr 2026 yet EBITDA +343 bps YoY. AI R&D spend ~₹40–50 cr/yr maintained. ~60% of FY27 deal wins "AI-led" (e.g., SBI Life — TruAI underwriting; agentic AI legacy modernisation with KAiSDLC/KAiBRE).
+- **FCF / PAT [E]:** FY26 screener FCF ₹285 cr ÷ PAT ₹195 cr = **146%** (PAT depressed by non-cash contingent-consideration charge).
+- **Guidance:** FY27 revenue growth "**high single digit**", maintain healthy EBITDA margins (CEO, Q1 call [V]); "in dialogue with some companies" for M&A; no buyback planned.
+- **M&A:** Dextrada (US data/AI) and **TNQ Tech (publishing tech, Chennai)** in FY25 [K/primer; TNQ consolidation visible in segment data V]; earn-out ~₹200 cr paid Q2 FY27 [V].
+
+### 6.3 Ownership (screener, Jun-26 [V])
+Promoters **66.33%** (74.30% Mar-22 → 70.91% → 66.44% Mar-24 after OFS/sales), FIIs **0.50%** (3.14% Sep-23), DIIs **0.10%**, public 33.07%, ~48,800 shareholders — almost no institutional ownership. Pledges not shown — unverified.
+
+### 6.4 Story bullets
+1. **The AI-in-BPM paradox:** a BPM-heavy firm posted its best-ever margins (EBITDA 18.7% FY26, 19.7% Q1 FY27) as automation lifted Digital Operations EBIT to 19–23% — but growth is mostly inorganic (TNQ) and Digital Technologies/Experiences are flat-to-down.
+2. **Concentration rising** (top-5 25% → 30% YoY) as publishing/education (29%) becomes the largest vertical.
+3. **Cheap but illiquid:** ~10x EV/EBITDA, net cash ~₹500–700 cr, FCF > PAT; institutions own <1% — a family-controlled small-cap.
+4. **US exposure (56%)** but low H-1B dependence (offshore BPM); discretionary IT (Digital Technologies) is where US budgets bite.
+
+### 6.5 PRIMER ISSUES — primers/datamatics-global.html (refreshed 29 Aug 2026)
+1. **Segment definition wrong:** primer says "**Digital Experiences — Lumina Datamatics, a publishing-and-content-services operation** … reinforced by TNQ Tech" → per company, **Digital Experiences = customer-experience/contact-centre business** (Philippines, India, US; 12% of revenue), while **Lumina Datamatics/TNQTech digital content sits in Digital Operations** (CEO: "our Digital Content space, which is part of Digital Operations") [V]. The segment analysis built on that mapping needs rewriting.
+2. **Stale net cash:** "~₹639 Cr net cash" is Mar-26 → **₹710.2 cr at Jun-26**, but ~₹200 cr TNQ payout made in Q2 FY27 → ~₹510 cr pro-forma [V/E].
+3. **Missing Q1 FY27:** revenue ₹513.9 cr (+9.9% YoY, −1.0% QoQ), EBITDA 19.7%, PAT ₹72.3 cr (+43.5%), guidance "high single-digit" FY27 growth [V].
+4. **Segment shares:** "Digital Operations ~53%" → **58% (Q1 FY27)**; Digital Experiences ~12% [V].
+5. **M-cap/P/E:** "~₹4,680 Cr (mid-2026)", "~18×" → **₹4,601 cr, 18.1x (13 Oct 2026)** — close, but re-dated [V].
+6. **Headcount absent:** add **15,744 employees (Mar-26)** (FY26 AR) [V].
+7. **Concentration not quantified:** add top-5/10/20 = 30% / 41% / 54% (Q1 FY27) [V].
+8. **PAT explanation incomplete:** primer attributes FY26 PAT decline to a "prior-year one-off" and minorities; company shows FY26 **exceptional charges of ₹64.9 cr** (labour code ₹24.0 cr + contingent-consideration fair-value ₹40.85 cr) [V].
+9. Promoter "roughly 66% (approx.)" → **66.33%**; FII 0.50%, DII 0.10% [V].
 

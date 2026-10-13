@@ -768,3 +768,86 @@ USA 54.1%, Europe 31.8% (UK 15.4%), others 14.1%; Mode 1 cross-border 84.7% ($20
 18. **Accenture headcount** (~780k) and India headcounts of MNCs — [K].
 19. **NASSCOM long-run series FY2008–FY2020** — [K], approximate.
 20. **US–India trade framework (18% tariff) primary text** — not fetched; [S].
+
+
+---
+
+# COMPANY-KPI APPENDIX (written by the orchestrator, cross-checked across batches 1–3)
+
+Basis: standardized figures re-pulled by the orchestrator from screener.in consolidated pages for all 18 companies on **13 Oct 2026, 15:40 UTC (13 Oct closing prices)** [V] — identical to the figures in the three batch files (no discrepancies found on revenue, operating profit, PAT, m-cap, P/E, ROCE/ROE, promoter %). Screener "Operating Profit" = revenue − operating expenses, before other income and D&A (an EBITDA proxy; NOT company EBIT). "Borrowings" include lease liabilities. Hexaware reports on a calendar year: its FY26 column = CY2025 (Jan–Dec 2025), FY25 = CY2024. Native KPIs are company-reported, from the batch files (sources inline there).
+
+## K1. Standardized grid (₹ cr; screener; FY = Mar year)
+
+| # | Company | FY25 rev | FY26 rev | Growth | Op. profit FY26 | OPM | PAT FY26 | ROCE | ROE | Borrowings | Investments | M-cap 13-Oct-26 | P/E (TTM) | P/B | Promoter % (date) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | TCS | 255,324 | 267,021 | +4.6% | 72,398 | 27.1% | 49,454 | 63.0% | 51.8% | 11,808 | 40,840 | 8,20,319 | 15.0x | 6.9x | 71.77% (Jun 2026) |
+| 2 | Infosys | 162,990 | 178,650 | +9.6% | 42,280 | 23.7% | 29,474 | 40.0% | 31.9% | 9,176 | 21,880 | 4,32,301 | 13.9x | 4.7x | 13.82% (Jun 2026) |
+| 3 | HCLTech | 117,055 | 130,144 | +11.2% | 26,752 | 20.6% | 16,652 | 30.4% | 23.8% | 6,013 | 4,467 | 3,60,717 | 19.0x | 4.7x | 60.88% (Jun 2026) |
+| 4 | Wipro | 89,088 | 92,624 | +4.0% | 17,811 | 19.2% | 13,266 | 17.8% | 15.5% | 20,291 | 46,786 | 1,67,607 | 12.7x | 2.0x | 72.57% (Sep 2026) |
+| 5 | Tech Mahindra | 52,988 | 56,815 | +7.2% | 9,033 | 15.9% | 4,806 | 23.1% | 17.5% | 2,186 | 3,426 | 1,51,390 | 28.4x | 5.1x | 34.96% (Jun 2026) |
+| 6 | LTM | 38,008 | 42,308 | +11.3% | 7,555 | 17.9% | 4,983 | 29.6% | 23.1% | 2,310 | 12,568 | 1,24,563 | 22.2x | 5.2x | 68.49% (Jun 2026) |
+| 7 | Persistent | 11,939 | 14,748 | +23.5% | 2,796 | 19.0% | 1,865 | 34.4% | 27.2% | 477 | 1,615 | 94,624 | 47.6x | 12.0x | 30.29% (Sep 2026) |
+| 8 | Coforge | 12,073 | 16,403 | +35.9% | 2,936 | 17.9% | 1,745 | 23.5% | 21.4% | 728 | 0 | 85,599 | 44.6x | 6.8x | none (no promoter) (Jun 2026) |
+| 9 | Mphasis | 14,230 | 15,880 | +11.6% | 2,978 | 18.8% | 1,863 | 22.1% | 18.5% | 2,620 | 1,769 | 47,293 | 24.4x | 4.4x | 30.54% (Jun 2026) |
+| 10 | Hexaware (CY25) | 11,974 | 13,430 | +12.2% | 1,917 | 14.3% | 1,368 | 30.1% | 24.9% | 683 | 0 | 34,315 | 24.2x | 5.1x | 74.30% (Jun 2026) |
+| 11 | Zensar | 5,281 | 5,687 | +7.7% | 916 | 16.1% | 775 | 22.8% | 17.3% | 79 | 1,921 | 10,907 | 13.7x | 2.3x | 49.00% (Jun 2026) |
+| 12 | Birlasoft | 5,375 | 5,310 | -1.2% | 866 | 16.3% | 518 | 21.2% | 14.1% | 141 | 2,171 | 8,275 | 13.9x | 2.0x | 40.38% (Jun 2026) |
+| 13 | Sonata | 10,157 | 10,701 | +5.4% | 743 | 6.9% | 464 | 30.7% | 28.2% | 723 | 186 | 6,962 | 13.8x | 3.7x | 28.17% (Jun 2026) |
+| 14 | Latent View | 848 | 1,060 | +25.0% | 237 | 22.4% | 202 | 15.8% | 11.9% | 33 | 917 | 4,952 | 25.3x | 2.8x | 65.10% (Jun 2026) |
+| 15 | Black Box | 5,967 | 6,322 | +5.9% | 557 | 8.8% | 218 | 21.6% | 25.7% | 1,153 | 0 | 16,382 | 57.3x | 12.7x | 69.95% (Jun 2026) |
+| 16 | Happiest Minds | 2,061 | 2,315 | +12.3% | 403 | 17.4% | 213 | 13.3% | 13.8% | 1,494 | 504 | 4,878 | 20.8x | 2.9x | 44.21% (Jun 2026) |
+| 17 | Mastek | 3,455 | 3,699 | +7.1% | 586 | 15.8% | 404 | 17.7% | 15.3% | 438 | 234 | 5,317 | 12.1x | 1.8x | 35.77% (Jun 2026) |
+| 18 | Datamatics | 1,723 | 1,987 | +15.3% | 375 | 18.9% | 195 | 20.4% | 16.0% | 221 | 639 | 4,601 | 18.1x | 3.0x | 66.33% (Jun 2026) |
+
+Notes: Coforge has no promoter (widely held after Baring exit). Mphasis promoter = BCP Topco (Blackstone) 30.54%; screener shows promoter shares pledged (lender financing) — BSE encumbrance filing not checked. Wipro and Persistent shareholding is Sep-26 (already filed); others Jun-26. Indian-rupee figures in lakh-crore format in the batch files (e.g. 2,67,021) equal the international-format numbers here (267,021).
+
+## K2. Native-KPI grid (company-reported; [E] = derived)
+
+| Company | Latest qtr | FY26 cc growth | Latest-qtr YoY cc | EBIT margin FY26 / latest qtr | TCV FY26 / latest qtr | Headcount | LTM attrition | Rev/employee (annualised USD) [E] | Top-client / top-5 share | DSO (days) | FCF/PAT FY26 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| TCS | Q2 FY27 | −2.4% | +2.8% | 25.0% / 24.0% | $40.7bn / $9.6bn | 598,056 | 13.3% | $51.3K | n/a | 74 | 97% |
+| Infosys | Q1 FY27 | +3.1% | +2.4% | 21.0% / 21.1% | $14.9bn large / $3.6bn | ~327,600 | 13.0% | $62.0K | n/a | 63 (76 incl. unbilled) | 106% |
+| HCLTech | Q2 FY27 | +3.9% | +2.6% | 17.2% / 18.2% | $9.3bn NN / $3.26bn | 230,339 | 12.8% | $65.4K | 11.4% | 58 | 107% |
+| Wipro | Q1 FY27 | −1.6% | +0.9% | 17.2% / 16.0% | ~$16.5bn [E] / $3.37bn | 240K+ | 13.9% | ~$43.6K | 14.3% | n/a | 101% |
+| Tech Mahindra | Q1 FY27 | ~+0.6% | +6.6% | ~12.5% [E] / 14.4% | $3.79bn / $1.08bn | 146,760 | 11.8% | $45.1K | 14.7% | 84 | ~117% |
+| LTM | Q1 FY27 | ~+5.3% [E] | +6.4% | 15.4% [E] / 15.5% | $6.60bn / $1.68bn | 87,886 | 13.3% | $55.7K | 23.5% | 56 (85) | 78% |
+| Persistent | Q1 FY27 | +17.5% | +16.5% | 15.6% / 16.0% | $2.41bn / $1.15bn | 28,640 | 12.3% | $64.5K | 33.2% | 61 (86) | 84% |
+| Coforge | Q1 FY27 | n/d (USD +29.2%) | +33.3% USD (Encora) | 14.4% / 16.0% | $2.26bn / $0.69bn | 46,228 | 10.4% | $57.8K | 18.0% | 63 (102) | 76% |
+| Mphasis | Q1 FY27 | +6.7% | +8.3% | 15.3% / 14.8% | $2.12bn NN / $0.46bn | 32,097 | n/d | $59.6K | 40% | 95 | 50% |
+| Hexaware (CY25) | Q2 CY26 | +7.1% (CY25) | +6.3% | EBIT n/a (EBITDA 17.1%) / 13.6% | n/d | 34,506 | 11.2% | $47.5K | 25.3% | 39 (78) | 115% |
+| Zensar | Q1 FY27 | +1.7% | −2.0% | 14.5% / 12.7% | n/d (OB $402M) / $149M | 11,342 | 9.6% | $57.7K | 24.7% | 48 (75) | 93% |
+| Birlasoft | Q1 FY27 | −6.5% | −3.0% | ~14.0% / 14.7% | $658M / $169M | 11,057 | 11.7% | $51.8K | 43.4% | 55 | 85% |
+| Sonata | Q1 FY27 | IITS −2.1% USD | IITS +2.1% | IITS EBITDA 18.4% / 15.4% | OB $97M (Q1) | 6,293 | 13% | $56.6K (IITS) | n/a (top-10 51%) | 60 | 92% |
+| Latent View | Q1 FY27 | +19.4% USD | +9.9% USD | adj. EBITDA 23.0% / 20.4% | n/d | ~1,740 | n/a | $69.7K | 57% | 80 | 70% |
+| Black Box | Q1 FY27 | ~+6% ₹ | +24% ₹ | EBITDA 9.0% / 9.3% | bookings $1.0bn; backlog $949M | ~4,000 | n/a | n/m | n/a (top-10 ~51%) | 67 | 6% |
+| Happiest Minds | Q1 FY27 | ~+12% ₹ | +6.7% | op. 17.4% / 17.5% | n/d | 6,532 | 15.4% | $40.8K | 28.4% | 55 (92) | 120% |
+| Mastek | Q1 FY27 | +3.1% USD | +3.0% | op. EBITDA 15.8% / 15.4% | 12-m backlog $310M | 4,897 | 16.4% | $87.1K | 32.0% | 75 | 127% |
+| Datamatics | Q1 FY27 | +15.3% ₹ | +9.9% ₹ | EBITDA 18.7% / 19.7% | n/d | 15,744 | 16.2% | $14.4K | 30% | 60 | 146% |
+
+Top-client column = top-5 client share where disclosed (Mphasis/Latent View/Birlasoft top-5). Latent View, Birlasoft and Mphasis are the most concentrated (top-5 ≥ 40%). Rev/employee for Datamatics is BPM-heavy and for Black Box not meaningful (pass-through hardware).
+
+## K3. Aggregates (stated basis)
+
+Basis: sum of the 18 members, screener consolidated, FY26 = Mar-26 year (Hexaware CY25), m-cap at 13 Oct 2026 close. Tier-1 = TCS, Infosys, HCLTech, Wipro, Tech Mahindra (5). Mid-tier = LTM, Persistent, Coforge, Mphasis, Hexaware (5). Small = Zensar, Birlasoft, Sonata, Latent View, Black Box, Happiest Minds, Mastek, Datamatics (8).
+
+| Group | FY25 rev | FY26 rev | Growth | Op. profit FY26 | OPM | PAT FY26 | PAT TTM | M-cap | P/E on FY26 PAT | P/E on TTM PAT | Share of rev | Share of m-cap |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Tier-1 (5) | 6,77,445 | 7,25,254 | +7.1% | 1,68,274 | 23.2% | 1,13,652 | 1,18,961 | 19,32,334 | 17.0x | 16.2x | 83.8% | 81.2% |
+| Mid-tier (5) | 88,224 | 1,02,769 | +16.5% | 18,182 | 17.7% | 11,824 | 12,293 | 3,86,394 | 32.7x | 31.4x | 11.9% | 16.2% |
+| Small (8) | 34,867 | 37,081 | +6.3% | 4,683 | 12.6% | 2,989 | 3,095 | 62,274 | 20.8x | 20.1x | 4.3% | 2.6% |
+| **All 18** | **8,00,536** | **8,65,104** | **+8.1%** | **1,91,139** | **22.1%** | **1,28,465** | **1,34,349** | **23,81,002** | **18.5x** | **17.7x** | 100% | 100% |
+
+Combined borrowings (incl. leases) ₹60,574 cr vs investments ₹1,39,923 cr (screener, latest balance sheet; excludes cash and bank deposits, so true net cash is larger — company-basis net cash for the 18 ≈ ₹1.7 lakh cr [E], dominated by TCS ~₹50,700 cr, Infosys ~₹37,000 cr, HCLTech ₹24,503 cr, Wipro ~₹20,400 cr, LTM ~₹12,700 cr, TechM ~₹9,630 cr; Coforge and Black Box are the only net-debt names, and Persistent becomes net-debt on closing Nagarro).
+Concentration: TCS alone = 30.9% of FY26 revenue and 34.5% of m-cap; top-3 (TCS, Infosys, HCLTech) = 66.5% of revenue, 67.8% of m-cap. Top-5 = 83.8% of revenue.
+Mid/small 13 combined (for the industry file's "mid/small" basis): m-cap ₹4,48,668 cr ÷ TTM PAT ₹15,388 cr = 29.2x — matches the industry section.
+
+## K4. Reconciliation and data-quality notes
+
+1. **Batch vs orchestrator re-pull:** every screener figure in batches 1–3 (revenue, op. profit, PAT, m-cap, P/E, ROCE, ROE, promoter %) matches the orchestrator's independent re-pull (13 Oct 2026, 15:40 UTC). No conflicts.
+2. **Industry file vs appendix:** industry §0.12/§2 aggregates (₹8.65 lakh cr revenue, ₹23.81 lakh cr m-cap, 17.7x TTM P/E, tier-1 16.2x, mid/small 29.2x) reconcile exactly with K3.
+3. **Margin bases differ:** screener OPM (EBITDA proxy) runs 2–5 pts above company EBIT (TCS 27.1% vs 25.0%; Infosys 23.7% vs 21.0%; HCL 20.6% vs 17.2%). The report must label which basis each chart uses. Hexaware publishes EBITDA incl. other income (17.1% CY25) rather than EBIT; its EBIT ~11.6% is an estimate. Sonata's group OPM (6.9%) is dragged by ₹7,772 cr of Indian Microsoft-licence resale (DPS); its IT-services (IITS) EBITDA is 18.4%. Black Box (EBITDA 9%) is a network-integration / digital-infrastructure business with hardware pass-through — not comparable on margin or revenue per employee.
+4. **Growth bases differ:** ₹ growth is inflated by rupee depreciation (avg ₹/$ ~86 in Q1 FY26 → ~95 in Q1–Q2 FY27); cc growth is the native measure. FY26 cc: TCS −2.4%, Infosys +3.1%, HCL +3.9%, Wipro −1.6%; Persistent +17.5% is the fastest organic grower. Coforge (Encora, Cigniti) and Datamatics (TNQ) growth is acquisition-aided.
+5. **TCV definitions differ:** TCS reports total TCV; Infosys large deals (>$50M) only; HCL net-new bookings; Wipro total and large separately; Mphasis net-new; Coforge order intake and 12-month executable book; Mastek 12-month backlog; Hexaware, Latent View, Happiest Minds, Datamatics don't disclose. Book-to-bill ratios are therefore not comparable across companies.
+6. **Pending corporate events (as of 13 Oct 2026):** Happiest Minds → merger into ITC Infotech (announced 31 Aug 2026; swap 25 ITC Infotech : 81 HM shares, implied ₹405/share; ITC Infotech buying 22.1% from Ashok Soota for ~₹1,330 cr; ~15 months; independently confirmed by orchestrator via Business Today / YourStory / Outlook Business reports of 1 Sep 2026); Persistent → Nagarro SE take-private (94.04% secured 9 Oct 2026); LTM → Randstad tech-consulting purchase (€160M EV, pending); TCS → MHP (Porsche) purchase; Infosys CEO succession (Ashiss Dash from 1 Apr 2027) — all members remain listed.
+7. **Q2 FY27 status:** out for TCS (8 Oct) and HCLTech (12 Oct) only; Wipro and TechM 15 Oct, LTM 16 Oct, Infosys and Mastek 23 Oct, Latent View 31 Oct, Mphasis 6 Nov. The report must say "latest quarter = Q1 FY27 except TCS, HCLTech (Q2 FY27) and Hexaware (Q2 CY26)".
+8. **Unverified items carried forward:** TCS Q2 FY27 operating metrics (tcs.com blocked; from press reports of the release), Infosys mix/concentration, Wipro exact headcount, Mphasis attrition and pledge detail, Latent View cash, Black Box mix (chart-read), Coforge FY26 cc growth. The report should say "not disclosed / unverified" where these appear.
