@@ -479,3 +479,202 @@ Revenue = Sales volume (t) × Realisation/t; Realisation/t = HRC benchmark (ex-w
 - **Mar–Apr 2026** West-Asia/Hormuz shock: LNG force majeure, LPG shortages, Brent ~US$95, freight up; rupee to ~₹95–96.
 - **1-Jul-2026** EU TRQ regime (−47% quota, 50% duty); **Aug-2026** MMDR Amendment (Sec 9D); **Sep-2026** HCC US$278, Mumbai HRC ₹76,900 retail.
 - **Cycle anatomy**: Indian steel cycles are ~3–5 years trough-to-trough, driven by China export surges (2015, 2024–25) and coking coal shocks (2016–17, 2021–22, 2023), with policy (export duty 2022; safeguard 2025) as a frequent swing factor.
+
+---
+
+## 13. Global lens
+- **World production 2025: 1,848.9 Mt (−2.0%)**; top 10: China 960.8, India 164.9, USA 81.9, Japan 80.7, Russia 67.9, South Korea 62.2, Türkiye 38.1, Germany 34.1, Brazil 33.4, Iran 32.0; Vietnam #11 at 24.7 (+12%) [V WSIF-2026]. Jan–Jun 2026: world 931.5 Mt (−0.7%); India +7.1%, USA +6.3%, Vietnam +26.9%, China −3.0% [V MoS Overview Jul-26].
+- **Global demand**: worldsteel SRO (Apr-2026): +0.3% in 2026 to 1,724 Mt, +2.2% in 2027 to 1,762 Mt [V MoS Overview]. India is the only large market growing >5%.
+- **Company scale**: China Baowu 124.8 Mt; ArcelorMittal 63.4 (incl. 60% AM/NS India); Nippon 57.8 (incl. US Steel, 40% AM/NS); Tata Steel group #10 (30.46 Mt); **JSW #11 (30.28 Mt)**; SAIL #18 (19.44); Jindal Steel #48 (8.71) [V WSIF-2026].
+- **Trade protection everywhere**: US 50% s.232; EU TRQ (18.3 Mt, 50% out-of-quota) + CBAM; Vietnam ADD on Chinese HRC (23.1–27.8%, Jul-2025; India excluded <3% share [V-search]); Korea, Brazil, Mexico, Türkiye trade remedies on China. Net effect: Chinese exports are being redirected to the remaining open markets (ASEAN, Middle East, Africa, South Asia) — India's safeguard is its front line.
+- **Valuation lens** [K]: global steel trades at 4–7x EV/EBITDA through the cycle; Indian majors at 7–10x (growth premium + domestic demand).
+
+## 14. Technology and disruption
+- **Route shift**: BF-BOF remains ~64% of announced additions [V-search] because India lacks scrap (scrap ~30 Mt/yr availability; Steel Scrap Recycling Policy 2019) and cheap gas. Gas/hydrogen DRI: JSW (Salav DRI, green H2 pilots), Tata (H2 injection in BF, Jamshedpur 2023), JSPL (coal gasification DRI at Angul, the world's largest; plans for green-H2 DRI), AM/NS (Hazira, renewables 1 GW+). Green H2 needs ~₹200–250/kg → <₹150 to be viable [K: National Green Hydrogen Mission].
+- **Scrap-EAF mini-mills**: Tata Ludhiana 0.75 MTPA EAF (2025–26); JSW Kadapa EAF; Shyam/Sarda in induction furnace upgrades. IF steel quality (P, S control) is a regulatory focus (BIS QCOs).
+- **CCUS, renewable power PPAs (JSW Energy, Tata Power RE), WHRB, top-gas recycling, beneficiation of low-grade ore, slurry pipelines** (NMDC, JSW, AM/NS, SAIL Jamda–Bokaro 258 km for 8.3 Mt/yr [V ANI Jul-2026]) lower cost and CO2.
+- **Value-added products**: CRGO (India imports most; JSW-JFE CRGO JV; Tata/Posco), AHSS for autos, tinplate (JSW Tarapur), coated/colour-coated for roofing and solar structures — PLI-supported.
+
+## 15. Native KPIs — glossary with ranges (F)
+
+| KPI | Definition / formula | Good | Average | Weak | Notes |
+|---|---|---|---|---|---|
+| Crude steel capacity (MTPA) | nameplate liquid-steel capacity | — | — | — | compare company plans vs NSP 300 MTPA |
+| Capacity utilisation | crude production ÷ (average) capacity | >90% (integrated) / >80% (secondary) | 80–90% / 65–80% | <80% / <65% | India avg ~77% (FY26) [E] |
+| Sales volume (Mt) | saleable steel despatched (domestic + export) | y/y growth > demand (7–9%) | ~demand | < demand | track inventory build |
+| Realisation/t (₹) | net sales revenue ÷ sales tonnes | premium >₹3k over HRC benchmark | ±₹2k | discount | mix: VAP share >50% good (JSW/Tata) |
+| Raw-material spread (₹/t) | HRC ex-works − (1.6 × ore landed + 0.8 × coking coal landed) | >₹28,000 | ₹20–28k | <₹20k | Oct-26 ~₹30k; Q3FY26 ~₹18k [E] |
+| Cost/t (₹) | (total operating cost) ÷ tonnes sold; or conversion cost/t ex-RM | conversion <₹12k | ₹12–16k | >₹16k | SAIL high labour |
+| EBITDA/t (₹) | EBITDA ÷ sales tonnes | >₹15,000 (integrated); >₹8,000 (secondary) | ₹10–15k / ₹5–8k | <₹10k / <₹5k | ICRA industry US$100–150/t "stable" band |
+| EBITDA margin | EBITDA ÷ revenue | >20% | 14–20% | <14% | |
+| Net debt/EBITDA | (gross debt − cash) ÷ trailing EBITDA | <1.5x | 1.5–3.0x | >3.0x | industry TD/OPBDITA ~3.0–3.1x FY26–27 (ICRA) |
+| Net debt/t capacity (US$) | net debt ÷ capacity | <US$200 | 200–400 | >400 | industry bank debt US$184/t (Dec-25) vs US$450 peak (ICRA) |
+| Capex/t (US$ per t of new capacity) | project cost ÷ added MTPA | <US$600 brownfield | 600–900 | >1,000 | greenfield ~US$900–1,100 |
+| ROCE | EBIT ÷ (net worth + net debt) | >15% | 10–15% | <10% | through-cycle |
+| Captive ore share | captive ore ÷ total ore need | >80% legacy | 40–80% | <40% | auctioned mines ≠ cheap ore |
+| Coke rate / fuel rate (kg/thm) | coke (and PCI) per t hot metal | <340 / <500 | 340–380 / 500–540 | >380 / >540 | BF efficiency |
+| CO2 intensity (tCO2/tcs) | Scope 1+2 per t crude steel | <2.2 (green-steel 3-star) | 2.2–2.6 | >2.6 | India avg 2.54 FY24; CCTS targets −2–9% |
+| Working capital days | (inventory + receivables − payables) ÷ revenue × 365 | <45 | 45–75 | >75 | |
+| Import share of consumption | finished-steel imports ÷ consumption | <4% | 4–6% | >6% | FY25 6.3%, FY26 4.0% [E from JPC] |
+
+## 16. What to watch (next 6–18 months)
+1. **Coking coal** (HCC US$265–278 in Sep–Oct 2026) and the rupee (~₹95–96) — the biggest swing in BF-BOF EBITDA/t.
+2. **Safeguard step-down** (11.5% now, 11% from 21-Apr-2027; expiry 20-Apr-2028) and the **CIF floor (US$675/t HRC)** — whether DGTR acts on the China/Japan/Russia HRC ADD case; Indian imports rose 24% in FY27 H1.
+3. **China**: 2026 export run-rate (75 Mt Jan–Aug, −3%), licence enforcement, output control under the 15th FYP.
+4. **Demand**: FY27 H2 infra execution vs ICRA's 9–10% call; H1 was +7.5%.
+5. **Capacity commissioning**: AM/NS Hazira (to 15 MTPA), JSPL Angul Phase II (Mar-2027), JSW Vijayanagar/JVML, Tata Kalinganagar, SAIL IISCO/Bhilai; risk of oversupply in flats from FY28.
+6. **MMDR 2026 Sec 9D** commencement notification and Odisha/Jharkhand litigation; **2030 expiry of Tata Steel's legacy captive leases**.
+7. **CCTS final notification** for steel (FY27 compliance), carbon-credit price discovery; **CBAM** certificate price (EU ETS ~€70–90/t) and verified-emissions filings; EU TRQ country allocations; India–EU FTA status.
+8. **Energy security**: LNG/LPG supply normalisation post-Hormuz; freight premia.
+9. **Iron ore**: NMDC monthly price circulars; Odisha auction output; NMDC's 100 Mt by FY30 plan.
+
+---
+
+## A. The defining forces (3–5) with reasoning
+1. **The HRC–coking-coal spread (and the rupee) sets integrated-mill profits.** ~30–34% of BF-BOF revenue is imported coking coal; HRC is priced off Chinese/Asian import parity. The spread moved from ~₹18k/t (Dec-2025) to ~₹30k/t (Oct-2026) [E], a swing worth ~₹10,000/t of EBITDA — larger than any operational lever.
+2. **China's surplus versus India's trade wall.** China exported a record 119 Mt in 2025 at US$694/t [V]; India's 12%/11.5%/11% safeguard (to Apr-2028) with CIF floors, plus ADDs and QCOs, are what keep Indian HRC at a premium to the Chinese offer. The wall is porous (FTAs with Korea/Japan/ASEAN; CIF floor), so Indian prices still track Asian prices with a lag.
+3. **Domestic demand growth of 7–9% a year, led by public capex and housing.** Construction + infra ≈ 60% of demand [V]; FY27 Union capex ₹12.2 lakh cr [V]; per-capita use 109 kg vs world 209 kg [V]. This is the investment case for capacity going 220 → ~300 MTPA by FY31 — and also the oversupply risk if demand slips to CRISIL's 5–7%.
+4. **Raw-material security and the mining fiscal regime.** Auction premia of 90–150% have made "captive" auctioned ore no cheaper than merchant ore; legacy leases (SAIL, Tata to 2030, NMDC, Lloyds' Surjagarh) are the true moat. The SC's 2024 ruling opened a ₹1.5–2 lakh cr state-tax liability that the MMDR 2026 Sec 9D has largely closed for unpaid amounts [V].
+5. **Decarbonisation economics (CCTS, CBAM, green-steel taxonomy) arriving faster than the technology.** India's 2.54 tCO2/tcs [V] vs global 1.92 [V]; 64% of new capacity is still BF-BOF; CBAM definitive phase (Jan-2026) and the EU TRQ (Jul-2026) shrink the EU export outlet (ICRIER: −24%); CCTS targets start FY27.
+
+## B. Deep-dive themes (2–4)
+**B1. The safeguard + import-parity mechanics.** The duty only binds when CIF < US$675/t for HRC. With Chinese HRC FOB ~US$470–500 + freight ~US$25 → CIF ~US$500–525 ⇒ landed with 11.5% SGD + 7.5% BCD (non-FTA) + 1% SWS ≈ US$625 ⇒ ₹60,000/t at ₹96 — close to the Oct-2026 ex-works ₹63,000 [E]. Korean/Japanese HRC enters at 0% BCD under CEPA but pays SGD unless CIF ≥ US$675. ICRA noted in Feb-2026 that domestic HRC was at import parity "with slight premium (~US$3/t)" [V] — i.e., there is little headroom for further price hikes without global prices rising. The Sep–Oct 2026 rally was powered by global cost push (coal, freight, FX), not by the safeguard.
+
+**B2. Capacity race to 300 MTPA — who adds, at what cost, and the FY28–FY30 oversupply question.** ~95–115 MTPA of additions are announced to FY31 (167 MTPA gross per industry counts) [E/V-search], dominated by JSW, AM/NS, SAIL, JSPL, Tata. At ₹4,000–8,000 cr per MTPA, that is ₹4–7 lakh crore of capex. With demand at 7–8% (~13 Mt/yr), the industry needs ~16 MTPA/yr of capacity at 80% utilisation — announced plans are slightly ahead of need, implying utilisation pressure in FY28–FY30 if projects land on time. Balance-sheet capacity is better than in 2014–18 (bank debt US$184/t vs US$450/t peak [V]).
+
+**B3. Mining regime and the captive-ore advantage.** Sec 9D (Aug-2026) removes the retrospective state-tax overhang; but the Mar-2030 lapse of legacy captive leases (Tata Steel's Jharkhand/Odisha mines) and auction premia of 90–150% mean ore cost convergence between "captive" and "merchant" by FY31. The winners are holders of legacy or low-premium leases (SAIL, NMDC, Lloyds) and players who can beneficiate low-grade ore and pelletise.
+
+**B4. Decarbonisation and export access.** CBAM default values with mark-ups (10% in 2026 → 30% from 2028) penalise unverified Indian data; India's flat default ~4.28 tCO2e/t vs plant-verified ~2.2–2.6 means **MRV quality is worth €100+/t** for EU exporters [E]. CCTS targets (2–9% intensity cuts by FY27) are modest; green-steel certificates already cover 97 producers [V]. Coal-DRI-IF secondary producers are the most exposed in the long run.
+
+## C. Revenue/profit equation — see §10 (worked spread ₹30,400/t at Oct-2026 spot vs ₹18,430/t at the Dec-2025 trough).
+
+## D. Stat strip (₹ only)
+
+| Stat | Value | Source |
+|---|---|---|
+| India finished-steel market (FY26, mill-gate value) | ~₹8.5–9.0 lakh crore | [E: 164.4 Mt × ₹52–55k/t] |
+| Union capex budget FY27 (BE) — the main demand driver | ₹12.2 lakh crore | [V Outlook Business 1-Feb-2026] |
+| Mumbai HRC retail (incl. GST), 30-Sep-2026 | ₹76,900/t (+40% from ₹54,760 on 31-Dec-2025) | [V MoS MER Sep-26 / Dec-25] |
+| NMDC iron-ore lump / fines (from 9-Sep-2026) | ₹5,400 / ₹4,500 per t | [V MER Sep-26; V-search NMDC circular] |
+| Integrated-mill raw-material spread, Oct-2026 spot | ~₹30,400/t (vs ~₹18,400/t Dec-2025) | [E, §10] |
+| Mineral-tax arrears at stake after SC 2024 (largely extinguished by MMDR 2026 Sec 9D) | ₹1.5–2 lakh crore | [V Policy Circle Aug-2026] |
+
+## E. Chart-ready datasets (index)
+- **E1** India crude/finished production & consumption FY15–FY27H1 — §2.1
+- **E2** Imports/exports FY20–FY27H1 incl. China share — §3.1
+- **E3** Mumbai TMT/HRC/CRC prices 2023–Sep-2026 — §4.1
+- **E4** NMDC iron-ore prices 2024–26 — §4.2
+- **E5** Australian HCC FOB monthly/quarterly Apr-2023–Sep-2026 — §4.3
+- **E6** Capacity & utilisation FY16–FY26 — §5.1
+- **E7** Capacity league table by company — §5.3
+- **E8** Capacity additions pipeline to FY31 — §5.4
+- **E9** Demand mix by end-use FY24/FY25/FY30 — §7.1
+- **E10** Spread series (below)
+- **E11** EBITDA/t cycle (below)
+- **E12** Global production by country 2025 & per-capita use (below)
+
+### E10 — Integrated-mill raw-material spread, quarterly [E]
+Basis: HRC ex-works ex-GST ≈ Mumbai retail incl. GST ÷ 1.18 − ₹1,500 trade margin (quarter-end retail; FY24–Q3FY25 retail values are [K] approximations); coking coal landed = (HCC FOB quarterly avg [V/E §4.3] + US$22 freight) × INR + ₹800; ore landed = NMDC lump − ₹800 (fines proxy) + ₹1,600 (levies + freight); RM cost = 1.6 × ore + 0.8 × coal. Lags (coal inventory ~1 qtr) are ignored.
+
+| Quarter | HRC retail ₹/t | HRC ex-works ₹/t | HCC US$/t FOB | INR/US$ | Coal landed ₹/t | NMDC lump ₹/t | Ore landed ₹/t | RM cost ₹/t steel | **Spread ₹/t** |
+|---|---|---|---|---|---|---|---|---|---|
+| Q1FY24 | 59,000 | 48,500 | 244 | 82.2 | 22,670 | 5,900 | 6,700 | 28,860 | **19,640** |
+| Q2FY24 | 57,500 | 47,200 | 264 | 82.7 | 24,450 | 5,850 | 6,650 | 30,200 | **17,000** |
+| Q3FY24 | 58,500 | 48,100 | 333 | 83.2 | 30,340 | 6,000 | 6,800 | 35,150 | **12,950** |
+| Q4FY24 | 56,000 | 46,000 | 307 | 83.0 | 28,110 | 6,150 | 6,950 | 33,610 | **12,390** |
+| Q1FY25 | 57,000 | 46,800 | 242 | 83.4 | 22,820 | 6,350 | 7,150 | 29,700 | **17,100** |
+| Q2FY25 | 52,500 | 43,000 | 210 | 83.9 | 20,260 | 6,150 | 6,950 | 27,330 | **15,670** |
+| Q3FY25 | 53,500 | 43,800 | 203 | 84.5 | 19,810 | 6,000 | 6,800 | 26,730 | **17,070** |
+| Q4FY25 | 60,920 | 50,100 | 185 | 86.6 | 18,730 | 6,000 | 6,800 | 25,860 | **24,240** |
+| Q1FY26 | 61,530 | 50,600 | 184 | 85.6 | 18,430 | 6,400 | 7,200 | 26,260 | **24,340** |
+| Q2FY26 | 59,540 | 49,000 | 184 | 87.4 | 18,800 | 6,100 | 6,900 | 26,080 | **22,920** |
+| Q3FY26 | 54,760 | 44,900 | 199 | 89.5 | 20,580 | 5,500 | 6,300 | 26,540 | **18,360** |
+| Q4FY26 | 66,940 | 55,200 | 235 | 91.0 | 24,190 | 4,900 | 5,700 | 28,470 | **26,730** |
+| Q1FY27 | 68,170 | 56,300 | 238 | 93.5 | 25,110 | 5,600 | 6,400 | 30,330 | **25,970** |
+| Q2FY27 | 72,000 (avg) | 59,500 | 248 | 95.0 | 26,450 | 5,350 | 6,150 | 31,000 | **28,500** |
+| Oct-26 spot | 76,900 | 63,700 | 265 | 96.0 | 28,350 | 5,400 | 6,200 | 32,600 | **31,100** |
+
+Read: spread troughed in Q3–Q4FY24 (coal spike) and Q3FY26 (price trough); the post-safeguard + FX recovery took it to multi-year highs by Q2FY27. Note quarter-end retail exaggerates Q4FY26 (Jan-26 prices were lower).
+
+### E11 — EBITDA/t cycle, industry and majors (₹/t unless stated)
+Basis: ICRA industry series [V]; company figures [K approximate from company results presentations / V-search where noted] — **company packs must replace with fetched figures**.
+
+| Period | ICRA industry (US$/t) | JSW Steel | Tata Steel India | SAIL | JSPL |
+|---|---|---|---|---|---|
+| FY22 (peak) | ~US$250+ [K] | ~19,000–20,000 [K] | ~26,000 [K] | ~12,500 [K] | ~21,000 [K] |
+| FY23 | ~US$130 [K] | ~9,800 [K] | ~17,000 [K] | ~5,300 [K] | ~13,000 [K] |
+| FY24 | ~US$140 [K] | ~11,800 [K] | ~14,500 [K] | ~5,600 [K] | ~13,800 [K] |
+| FY25 | ~US$110 [K] | **8,659** [V-search: Ind-Ra] | ~13,000 [K] | ~5,300 [K] | ~12,000 [K] |
+| Q2FY26 | **113** [V ICRA] | — | — | — | — |
+| Q3FY26 | **84** [V ICRA] | — | — | — | **7,165** [V-search] |
+| Q4FY26 | **109** [V-search ICRA May-26] | — | ~15,900 (implied from +3,255 q/q) [V-search] | — | — |
+| FY26 | **~108** [V-search ICRA Dec-25 est.] | **10,064** [V-search: Ind-Ra] | — | — | — |
+| Q1FY27 | "modest improvement" [V-search ICRA] | **15,013** [V-search: Ind-Ra] | **19,162** [V-search: company release via Investywise] | ~6,200 [V-search, low reliability] | — |
+
+### E12 — Global production 2025 and per-capita steel use [V WSIF-2026]
+
+| Country | Crude steel 2025 (Mt) | 2024 (Mt) | y/y | Apparent steel use per capita 2025 (kg) | BOF / EAF share 2025 |
+|---|---|---|---|---|---|
+| China | 960.8 | 1,005.1 | −4.4% | 562.1 | 89.4 / 10.6 |
+| India | 164.9 | 149.4 | +10.4% | 109.2 | 42.3 / 57.7 |
+| USA | 81.9 | 79.5 | +3.0% | 261.7 | 28.7 / 71.3 |
+| Japan | 80.7 | 84.0 | −3.9% | 389.5 | 74.2 / 25.8 |
+| Russia | 67.9 | 71.0 | −4.4% | — | — |
+| South Korea | 62.2 | 63.6 | −2.2% | 843.7 | 73.0 / 27.0 |
+| Türkiye | 38.1 | 36.9 | +3.3% | — | — |
+| Germany | 34.1 | 37.3 | −8.6% | 347.1 | 69.4 / 30.6 |
+| Brazil | 33.4 | 33.9 | −1.5% | — | — |
+| Iran | 32.0 | 31.4 | +1.9% | — | — |
+| Vietnam | 24.7 | 22.0 | +12.3% | — | — |
+| EU-27 | 126.0 | — | — | 301.2 | 54.2 / 45.8 |
+| **World** | **1,848.9** | **1,886.8** | **−2.0%** | **209.0** | ~71 / 29 [K] |
+
+## F. KPI glossary — see §15.
+
+## G. Timeline (24 events)
+| Date | Event | Tag |
+|---|---|---|
+| 16-Jan-1992 | Steel price decontrol | [V] |
+| 12-Jan-2015 | MMDR ordinance: auction-only regime; legacy captive leases to 31-Mar-2030, merchant to 31-Mar-2020 | [K] |
+| Feb-2016 | Minimum Import Price on 173 steel products (China surge) | [K] |
+| May-2017 | National Steel Policy 2017 (300 MTPA by FY31) | [V] |
+| May-2018 | Tata Steel acquires Bhushan Steel (IBC) | [K] |
+| Dec-2019 | AM/NS acquires Essar Steel (₹42,000 cr) | [K] |
+| Feb–Mar 2020 | Odisha merchant-mine auctions (JSW wins Nuagaon at 95.2% premium) | [V-search] |
+| 28-Mar-2021 | MMDR Amendment 2021 (50% sale from captive mines) | [K] |
+| 29-Jul-2021 | PLI for specialty steel, ₹6,322 cr | [V] |
+| 22-May-2022 | Export duty on steel/iron ore (withdrawn 19-Nov-2022) | [K] |
+| Oct-2023 | HCC peaks at US$354/t FOB; EU CBAM transitional phase starts | [V MER; K] |
+| 25-Jul-2024 | SC: states can tax mineral rights (MADA v SAIL) | [V] |
+| 12-Dec-2024 | Green Steel Taxonomy launched | [V] |
+| 19-Dec-2024 | DGTR initiates safeguard probe on flat steel | [V] |
+| 21-Apr-2025 | Provisional 12% safeguard duty (200 days) | [V] |
+| 26-Sep-2025 | JSPL commissions 4.6 MTPA BF-II at Angul | [V-search] |
+| Dec-2025 | Mumbai HRC trough ₹54,760 retail (₹46,000 ex-works); China 2025 exports record 119 Mt | [V] |
+| 30-Dec-2025 | Definitive safeguard: 12% / 11.5% / 11% to 20-Apr-2028 | [V] |
+| 1-Jan-2026 | EU CBAM definitive phase; China steel-export licences; AM/NS Hazira Phase-2 ground-breaking | [V-search] |
+| Mar-2026 | Qatar LNG force majeure / Hormuz disruption; JSPL Angul hits 12 MTPA; India FY26 production record 170 Mt (revised) | [V-search; V] |
+| 26-Jun-2026 | Draft CCTS GHG-intensity targets for 255 steel units | [V-search] |
+| 1-Jul-2026 | EU steel TRQ regime (Reg. 2026/1384): quota −47%, 50% out-of-quota duty | [V] |
+| 12/13-Aug-2026 | Parliament passes MMDR (Amendment) Bill 2026 (Section 9D) | [V] |
+| Sep-2026 | HCC US$278/t; Mumbai HRC ₹76,900; FY27 H1 consumption +7.5%, net imports 0.59 Mt | [V MER Sep-26] |
+
+## H. Figures I could not source (or could not verify this session)
+1. **JPC capacity by company** and an official market-share table — BigMint's tier-1 production article is paywalled; league table capacities for Tata, SAIL, mid-caps are [K].
+2. **Mumbai HRC/TMT prices before Feb-2025** (FY24–Q3FY25) — 2024 MER PDFs not on the ministry listing; values in E3/E10 are approximate [K].
+3. **NMDC fines prices** before Jul-2026 and **Odisha merchant ore prices** (BigMint paywalled).
+4. **Coking-coal import volumes FY26 (63.7 Mt; met coal 84.5 Mt)** — search snippet only; source page returned 403.
+5. **Company EBITDA/t series FY22–FY25** for JSW/Tata/SAIL/JSPL (E11) — [K] approximations; Q1FY27 points are search-snippet-level (Ind-Ra, Investywise); a claimed "June-2026 BCD hike on flat steel to 25%" (Eastern Herald) could **not** be corroborated and is treated as unreliable.
+6. **CBAM India default values** (4.28 tCO2e/t flat steel; €254–270/t BF steel default cost) — from consultancy blogs, not the Commission's Implementing Regulation (EU) 2025/2621 text.
+7. **EU TRQ country allocation for India** and **India–EU FTA** status — not found.
+8. **CCTS final notification** for steel (only the Jun-2026 draft verified); per-company targets for JSW/Tata/SAIL/JSPL not found.
+9. **MMDR 2026 commencement date** (Gazette) — not verified; PIB factsheet returned 403.
+10. **DGTR China/Japan/Russia HRC ADD case** initiation date and any preliminary findings — GMK page 403.
+11. **China Jan–Sep 2026 exports** — September customs data not yet located (latest verified: Jan–Aug 75.15 Mt).
+12. **Share of Russian/US coking coal in FY26** on a consistent basis; Australia ">50%" only.
+13. Count of IF/EAF/DRI units (approximate, [K]).
+
+---
+
+## COMPANY-KPI APPENDIX (to be written by orchestrator)
+
