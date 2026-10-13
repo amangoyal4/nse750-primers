@@ -838,7 +838,7 @@ Basis: sum of the 18 members, screener consolidated, FY26 = Mar-26 year (Hexawar
 | **All 18** | **8,00,536** | **8,65,104** | **+8.1%** | **1,91,139** | **22.1%** | **1,28,465** | **1,34,349** | **23,81,002** | **18.5x** | **17.7x** | 100% | 100% |
 
 Combined borrowings (incl. leases) ₹60,574 cr vs investments ₹1,39,923 cr (screener, latest balance sheet; excludes cash and bank deposits, so true net cash is larger — company-basis net cash for the 18 ≈ ₹1.7 lakh cr [E], dominated by TCS ~₹50,700 cr, Infosys ~₹37,000 cr, HCLTech ₹24,503 cr, Wipro ~₹20,400 cr, LTM ~₹12,700 cr, TechM ~₹9,630 cr; Coforge and Black Box are the only net-debt names, and Persistent becomes net-debt on closing Nagarro).
-Concentration: TCS alone = 30.9% of FY26 revenue and 34.5% of m-cap; top-3 (TCS, Infosys, HCLTech) = 66.5% of revenue, 67.8% of m-cap. Top-5 = 83.8% of revenue.
+Concentration: TCS alone = 30.9% of FY26 revenue and 34.5% of m-cap; top-3 (TCS, Infosys, HCLTech) = 66.6% of revenue, 67.8% of m-cap. Top-5 = 83.8% of revenue.
 Mid/small 13 combined (for the industry file's "mid/small" basis): m-cap ₹4,48,668 cr ÷ TTM PAT ₹15,388 cr = 29.2x — matches the industry section.
 
 ## K4. Reconciliation and data-quality notes
