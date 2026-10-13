@@ -749,3 +749,55 @@ Why foreigners buy: structural credit growth 12–15%, RoA 1–2% vs 0.5–1% at
 - Gold price rally drove gold-loan books (CSB +47%, SIB +43%, Federal +33%) [V]; LTV caps (RBI 2025 gold-loan directions, 75–85% tiered) [K].
 - Deposit costs higher (5.45–5.56% CoD at KVB/CUB) [V] but yields 9.8–10.1% [V] and near-zero credit costs (KVB PCR 96%) → NIM 3.8–4.3%.
 - Valuation spread: KVB 2.39× vs Karnataka 0.98× and J&K 0.89× — the market pays for consistency (KVB RoE 20%) [V/E].
+
+---
+
+## SOURCE REGISTER (URLs fetched or cited this session)
+**Primary filings (NSE archives, fetched 13 Oct 2026) [V]**
+- HDFC Bank Q2 FY27 provisional update: https://nsearchives.nseindia.com/corporate/HDFCBANK_04102026220033_initial_Final_disclosure_Sep2026.pdf
+- HDFC Bank MSRDC statement: https://nsearchives.nseindia.com/corporate/HDFCBANK_27072026153754_SEintimationMSRDC.pdf
+- HDFC Bank RBI approval for LIC: https://nsearchives.nseindia.com/corporate/HDFCBANK_19082026224543_RBIapproval_MajorshareholderLIC.pdf
+- HDFC Bank board proposals 12 Sep 2026: https://nsearchives.nseindia.com/corporate/HDFCBANK1_12092026162117_SE_intimation_Reg30_12062026.pdf
+- ICICI Bank Q1 FY27 investor presentation: https://nsearchives.nseindia.com/corporate/ICICI2022_18072026163744_NSEBSE_InvestorPresentation.pdf
+- Axis Bank Q1 FY27 press release + IP: https://www.axis.bank.in/docs/default-source/shareholders/financial-results-and-other-information/corporate-announcements/intimations-to-stock-exchanges/press-release-q1fy27-18-07-2026.pdf
+- Axis Bank Q1 FY27 call transcript: https://www.axis.bank.in/docs/default-source/shareholders/financial-results-and-other-information/call-transcript/2026-2027/q1fy27-earnings-call.pdf
+- Kotak Q1 FY27 press release: https://www.kotak.bank.in/content/dam/Kotak/investor-relation/Financial-Result/QuarterlyReport/FY-2027/q1/PressRelease/Q1-FY27_Press-Release.pdf
+- IDBI Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/MANESHJ_18072026152849_SE_PresRelease_June2026.pdf ; Q2 provisional: https://nsearchives.nseindia.com/corporate/MANESHJ_03102026175222_SE_ProvisionalResults_30092026.pdf
+- IDFC First Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/IDFCFIRSTB_25072026160509_BM_Press_Release_Q1FY27.pdf ; Q2 provisional: https://nsearchives.nseindia.com/corporate/IDFCFIRSTB_05102026151710_IDFCFB_Provisional_Release_Sep_26_sign.pdf
+- IndusInd Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/INDUSINDBK4_22072026162342_FinalUpload.pdf ; IP: https://nsearchives.nseindia.com/corporate/INDUSINDBK1_22072026162328_Investor_Presentationmergedsignedpdf.pdf
+- Federal Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/FEDERALBNK_17072026135617_FBL_Press_Release_170726_S.pdf
+- Bandhan Q1 FY27 outcome + PR: https://nsearchives.nseindia.com/corporate/BANDHANBNK_21072026161339_SE_Disclosure_BM_Outcome_UFR_PressRelease_SMP_AGM_210726.pdf ; Q2 figures: https://nsearchives.nseindia.com/corporate/BANDHANBNK_03102026194845_Bandhan_Bank_Initial_Disclosure_30092026_sd.pdf
+- Yes Bank Q1 FY27 PR + IP: https://nsearchives.nseindia.com/corporate/YESBANK_18072026134956_SE_Intimation_Press_Release_Investors_Presentation_18072026_Signed.pdf ; Q2 pre-results: https://nsearchives.nseindia.com/corporate/YESBANK_04102026130032_YBL_SE_Intimation_Pre_Results_Disclosure-Q2FY27_Signed.pdf
+- RBL Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/RBLBANK_17072026163814_IntimationPressRelease_Q1FY26-27_Signed.pdf ; Q2 FY27 PR: https://nsearchives.nseindia.com/corporate/RBLBANK_12102026164837_IntimationPressReleaseQ2FY2627Signed.pdf
+- KVB Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/KARURVYSYA_20072026163123_Intimation_DSC.pdf
+- CUB Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/CUB_28072026145953_CUBPR28072026.pdf
+- J&K Bank Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/MARYA_29072026150051_PRESS_RELEASE_29072026.pdf ; Q2 figures: https://nsearchives.nseindia.com/corporate/MARYA_03102026153419_Business_Figures.pdf
+- TMB Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/9659523378_27072026195415_55.pdf ; Q2 figures: https://nsearchives.nseindia.com/corporate/9659523378_01102026130409_72.pdf
+- SIB Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/SOUTHBANK_16072026151636_sd_press_release16072026.pdf ; Q2 update: https://nsearchives.nseindia.com/corporate/SOUTHBANK_01102026162929_SD_STT_BUSINESSUPDATES_OCT012026.pdf ; Kotak MF SAST: https://nsearchives.nseindia.com/corporate/SOUTHBANK_23072026200846_SD_STT_ACQUISITION_KOTAK_23JULY2026.pdf
+- Karnataka Bank Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/KTKBANK_29072026172008_PRjune26.pdf ; Q2 parameters: https://nsearchives.nseindia.com/corporate/KTKBANK_01102026152448_PKBPF.pdf
+- DCB Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/Priyeshjain_24072026154154_BSENSEDCBPressReleaseQ1Results24072026.pdf
+- CSB Q1 FY27 PR: https://nsearchives.nseindia.com/corporate/CSBBANK_22072026130749_BSENSEPressReleaseUFR30062026f.pdf ; Q2 update: https://nsearchives.nseindia.com/corporate/CSBBANK_01102026222725_BSENSEBusinessUpdates30092026f.pdf
+- Screener.in company pages: https://www.screener.in/company/<NSE>/ and /consolidated/ for all 19 (13 Oct 2026).
+
+**Secondary (search results / fetched articles) [V-secondary]**
+- RBI MPC Oct 2026: https://www.scconline.com/blog/post/2026/10/09/rbi-hikes-repo-rate-to-5-50-percent-october-2026/ ; https://www.business-standard.com/amp/finance/news/rbi-mpc-raises-fy27-inflation-forecast-to-5-2-projects-gdp-growth-at-7-1-126100700283_1.html
+- Repo path 2025: groww.in, sahi.com, Business Standard MPC coverage (Feb/Apr/Jun/Dec 2025).
+- RBI BSR-2 deposits Mar 2026: https://upstox.com/news/personal-finance/investing/fixed-deposits-above-rs-1-crore-account-for-nearly-half-of-bank-term-deposits-rbi/article-194821/
+- System credit/deposits: https://www.icicidirect.com/research/equity/trending-news/rbi-data-bank-credit-up-16-to-2136l-cr-deposits-grow-134-as-fy26-concludes ; https://www.businessworld.in/article/bank-credit-growth-hits-19-4-outpaces-deposits-627845 ; https://chartforest.com/rbi-money-supply-and-bank-credit-growth-september/
+- FCNR window and rupee: https://www.business-standard.com/markets/news/rupee-weakens-bond-yields-rise-as-rbi-shuts-fcnr-b-swap-window-early-126081701393_1.html ; https://www.bloomberg.com/news/articles/2026-10-10/rbi-announces-special-oil-window-regulatory-steps-for-rupee
+- FSR Jun 2026 summaries: https://abclive.in/2026/07/04/critical-analysis-of-rbi-financial-stability-report-june-2026 ; https://www.oliveboard.in/blog/rbi-june-2026-financial-stability-report/
+- Trend & Progress 2024-25: https://www.policyedge.in/p/rbi-report-on-indian-banking-2024
+- ECL: https://kpmg.com/in/en/insights/2026/05/expected-credit-loss.html ; ICRA research note.
+- CRR cut: https://www.taxmann.com/post/blog/rbi-cuts-crr-by-100-bps-in-phases
+- ICRA/Crisil FY27 outlooks: https://www.kotakneo.com/news/market-news/icra-bank-credit-growth-fy27-west-asia-war-outlook/ ; https://www.freepressjournal.in/business/banking-sector-roa-may-fall-to-11-12-in-fy27-crisil-report ; https://aninews.in/news/business/nim-outlook-positive-for-banks-from-2hfy27-onwards-given-increasing-probability-of-rising-rate-cycle-report20261001142315/
+- MFIN: https://www.businesstoday.in/latest/economy/story/indias-microfinance-sector-past-stress-peak-portfolio-quality-improves-mfin-518542-2026-02-28 ; https://mfinindia.org/assets/upload_image/news/pdf/Micrometer%20Q4%20FY%2025-26%20Press%20Release.pdf
+- IDBI sale: https://www.business-standard.com/industry/banking/govt-close-to-accepting-sweetened-fairfax-financial-offer-for-idbi-bank-126071400193_1.html ; https://www.ibef.org/news/fairfax-to-acquire-idbi-bank-stake-in-us-5-50-billion-deal-biggest-foreign-investment-in-indian-bank
+- CSB/Fairfax: https://www.business-standard.com/amp/markets/news/csb-bank-tanks-6-hits-52-wk-low-stock-down-44-from-jan-high-here-s-why-126062500563_1.html
+- ENBD–RBL: https://www.business-standard.com/companies/news/emirates-nbd-completes-majority-stake-acquisition-in-rbl-bank-126061800500_1.html
+- SMBC–Yes: https://www.business-standard.com/finance/news/smbc-gets-approval-from-rbi-to-acquire-up-to-25-stakes-in-yes-bank-125082300853_1.html
+- Blackstone–Federal: https://www.businesstoday.in/amp/markets/story/blackstone-stake-federal-bank-rbi-banking-foreign-investment-private-banking-india-fdi-514875-2026-02-05
+- HDFC chairman resignation: https://www.outlookbusiness.com/corporate/atanu-chakraborty-resigns-as-hdfc-bank-chairman-citing-ethical-concerns
+- Bagchi/Saha approvals: https://www.outlookbusiness.com/corporate/hdfc-bank-gets-rbi-nod-for-anup-bagchi-as-next-ceo ; https://www.deccanchronicle.com/nation/rbi-approves-anup-bagchi-as-md-ceo-of-hdfc-bank-anup-saha-for-kotak-bank-1992272
+- HDFC share-price/FPI: https://www.zeebiz.com/market-news/news-hdfc-bank-shares-fall-nearly-30-in-2026-hits-fresh-52-week-low-401896
+- IndusInd crisis: https://businesstoday.in/markets/company-stock/story/pwc-submits-draft-report-on-indusind-banks-derivatives-review-report-471784-2025-04-12 ; https://insolvencytracker.in/2025/08/04/crisis-hit-indusind-bank-appoints-rajiv-anand-as-new-md-ceo/
+- HDFC Q1 FY27 secondary: https://www.business-standard.com/companies/quarterly-results/hdfc-bank-q1fy27-results-net-profit-rises-5-to-19-060-cr-nii-grows-7-126071800598_1.html ; https://www.investing.com/news/company-news/hdfc-bank-q1-fy27-slides-deposit-growth-strong-margins-under-pressure-93CH-4799615
