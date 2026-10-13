@@ -788,3 +788,75 @@ FY14 168.26|40.53|4.78|34.99|248.55 · FY15 188.90|41.27|5.78|38.96|274.90 · FY
 - Solar capex: Coal India disclosure via energetica-india (Feb-2026) — [V] fetched https://www.energetica-india.net/news/coal-india-solar-capex-hits-inr-961-crore-till-jan-fy26-marks-2-33-fold-jump: **utility solar ₹4–4.5 cr/MW** (down from ₹5.5–6 cr/MW). New coal >₹12 cr/MW (ICRA, R2). BESS ~₹1.1 cr/MWh implied by VGF scheme (R9) [E]. IRENA global utility PV 2024 US$691/kW (snippet [K]).
 - CERC Tariff Regulations 2024-29 (draft as reported by Power Line, Feb-2024) — [V] fetched https://powerline.net.in/2024/02/05/roe-adjustments-key-highlights-of-cercs-draft-tariff-regulations/: ROE existing — 15.5% thermal, transmission, run-of-river hydro; 16.5% storage hydro & PSP. New projects from 1-Apr-2024 — 15% transmission, 15.5% thermal & RoR hydro, 17% storage/PSP. Add-cap outside original scope (FGD/change in law) earns 1-yr SBI MCLR + 350 bps, capped at 14%. Normative PAF 85% for thermal; PLF incentive above 85% at 75 paise/kWh peak, 50 paise off-peak. **The final notified text (Mar-2024) could not be fetched (cercind.gov.in pages are JS-rendered) — final ROE for new PSP (16.5% vs 17%) is unverified.**
 
+
+
+---
+
+# COMPANY-KPI APPENDIX (written by the orchestrator, cross-checked across batches 1–2)
+
+Basis: standardized figures independently re-pulled by the orchestrator from screener.in consolidated pages for all 14 companies on **13 Oct 2026, 16:15 UTC (13 Oct close)** [V] (GMR via `GMRP%26UI`). Every revenue, operating profit, PAT, m-cap, P/E, borrowings and promoter % in batches 1 and 2 matches this re-pull. Screener "Operating Profit" excludes other income (an EBITDA proxy; regulated PSUs book large other income incl. LPS/late-payment surcharge and dividends from JVs, so company EBITDA is higher). Borrowings are gross (incl. leases); net debt uses company figures where given, else screener borrowings − cash [E].
+
+## K1. Standardized grid (₹ cr; screener consolidated; FY = Mar year)
+
+| # | Company | FY25 rev | FY26 rev | Growth | Op. profit FY26 | OPM | Other inc. FY26 | PAT FY26 | PAT TTM | ROCE | ROE | Borrowings | M-cap 13-Oct-26 | P/E (TTM) | P/B | Promoter % (date) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Adani Power | 56,203 | 54,241 | -3.5% | 19,806 | 36.5% | 3,625 | 12,971 | 14,533 | 17.2% | 21.1% | 54,670 | 3,59,198 | 25.2x | 5.52x | 74.96% (Sep 2026) |
+| 2 | NTPC | 188,138 | 187,385 | -0.4% | 55,438 | 29.6% | 2,662 | 27,546 | 28,334 | 8.92% | 15.1% | 271,005 | 3,01,178 | 10.8x | 1.48x | 51.10% (Jun 2026) |
+| 3 | Adani Green | 11,212 | 12,928 | +15.3% | 10,785 | 83.4% | 1,072 | 1,987 | 2,146 | 7.39% | 11.4% | 103,545 | 2,12,886 | 110x | 10.64x | 62.43% (Sep 2026) |
+| 4 | JSW Energy | 11,745 | 18,901 | +60.9% | 10,068 | 53.3% | 920 | 2,762 | 2,459 | 8.16% | 7.51% | 76,946 | 84,360 | 42.0x | 2.63x | 66.53% (Jun 2026) |
+| 5 | NHPC | 10,380 | 11,615 | +11.9% | 4,097 | 35.3% | 3,196 | 4,220 | 4,267 | 5.75% | 9.32% | 52,327 | 74,717 | 19.7x | 1.78x | 61.39% (Jun 2026) |
+| 6 | NTPC Green | 2,210 | 2,858 | +29.3% | 2,461 | 86.1% | 221 | 521 | 606 | 3.56% | 2.79% | 31,716 | 78,230 | 129x | 4.12x | 89.01% (Jun 2026) |
+| 7 | NLC India | 15,322 | 17,519 | +14.3% | 5,558 | 31.7% | 1,917 | 3,769 | 3,367 | 8.42% | 11.9% | 27,892 | 34,014 | 10.6x | 1.58x | 69.47% (Jun 2026) |
+| 8 | SJVN | 3,072 | 4,528 | +47.4% | 3,361 | 74.2% | 180 | 642 | 639 | 5.73% | 4.58% | 32,278 | 22,034 | 34.5x | 1.55x | 81.85% (Sep 2026) |
+| 9 | ACME Solar | 1,405 | 2,023 | +44.0% | 1,785 | 88.2% | 482 | 498 | 602 | 8.91% | 10.4% | 19,896 | 29,275 | 49.2x | 4.96x | 71.40% (Jun 2026) |
+| 10 | JP Power | 5,462 | 5,563 | +1.8% | 1,367 | 24.6% | 228 | 451 | 641 | 6.97% | 3.60% | 3,391 | 10,314 | 12.4x | 0.81x | 24.00% (Jun 2026) |
+| 11 | Reliance Power | 7,583 | 7,620 | +0.5% | 2,365 | 31.0% | -14 | -337 | -317 | 6.11% | n.m.% | 14,812 | 8,271 | n.m. | 0.52x | 24.98% (Jun 2026) |
+| 12 | KPI Green | 1,735 | 2,696 | +55.4% | 958 | 35.5% | 48 | 509 | 493 | 13.7% | 16.9% | 5,197 | 6,459 | 14.2x | 2.12x | 49.41% (Jun 2026) |
+| 13 | GMR Power & Urban Infra | 6,344 | 7,332 | +15.6% | 1,604 | 21.9% | 1,528 | 614 | 585 | 12.0% | n.m.% | 11,594 | 7,965 | n.m. | 4.18x | 46.28% (Jun 2026) |
+| 14 | RattanIndia Power | 3,284 | 2,991 | -8.9% | 405 | 13.5% | 355 | 52 | 111 | 6.21% | 1.14% | 3,711 | 3,576 | 32.1x | 0.77x | 44.06% (Jun 2026) |
+
+Notes: Reliance Power screener P/E (2,304) is not meaningful (TTM loss ₹317 cr); GMR P&UI shows no P/E (negative equity/ROE n.m.). JP Power promoter = Adani Power 24.00% (associate since 21 May 2026, under the JAL resolution plan). SJVN promoters = GoI 55.00% + GoHP 26.85%. NTPC Green is 89.01% owned by NTPC and fully consolidated in NTPC.
+
+## K2. Native-KPI grid (company-reported unless [E])
+
+| Company | Installed GW (latest) | Under construction GW | PLF / CUF / PAF (latest) | Merchant / short-term share | Net debt ₹ cr / ND÷EBITDA |
+|---|---|---|---|---|---|
+| Adani Power | 18.33 coal | 23.7 locked-in | PLF 77.9% Q1 (FY26 66.5%) | ~15% of Q1 units [E] | 47,643 (Jun-26, co.) / 2.1x |
+| NTPC | 90.9 group (incl. NGEL) | 35.7 | coal PLF 76.7% Q1 (FY26 72.0%) | negligible | ~2,63,000 [E] / ~4.5x |
+| Adani Green | 20.76 RE + 6.6 GWh BESS | ~5 + 2 GWh | CUF solar 25.3 / wind 44.4 / hybrid 49.0 | ~25% C&I/merchant | 91,252 (co.) / 5.6x run-rate |
+| JSW Energy | 14.54 (thermal 5.66) | 13.6 | thermal PLF 71% | ~12% short-term | 61,322 (Jun-26, co.) / 5.5x |
+| NHPC | 9.33 (hydro 8.77) | 9.2 | PAF 80.8% Q1 | ~0 | ~48,700 [E] / ~6.7x |
+| NTPC Green | 11.33 RE | 16.0 | CUF solar 24 / wind 37 | ~0 | ~31,100 [E] / ~11.6x |
+| NLC India | ~8.35 [E] | 2.4 TPS + 5.8 RE | n.d. | ~0 | ~27,050 [E] / ~3.6x |
+| SJVN | ~4.93 [E] | ~3.3 | Buxar ~60% PLF | ~0 | ~29,755 [E] / ~8.4x |
+| ACME Solar | 2.99 RE + 3.62 GWh | 5.08 + ~20 GWh | CUF 30.9% Q1 | small (BESS ST/merchant) | 12,600 (Jun-26, co.) / 2.9x op. |
+| JP Power | 2.22 (coal 1.82, hydro 0.40) | nil | Nigrie 88.8% / Bina 75.2% FY26 | ~50% of energy | ~1,382 [E] / ~0.9x |
+| Reliance Power | 5.31 (coal 5.16) | ~2.4 GWp + 5.9 GWh | Sasan ~87% FY26 | ~0 | ~13,107 [E] / ~5.5x |
+| KPI Green | 1.87 (IPP+CPP) | 5.07 WIP | n.d. | ~0 | ~4,638 [E] / ~4.6x |
+| GMR Power & Urban Infra | 1.69 (coal 1.65) | 1.8 | Warora 90% / Kamalanga 87% Q1 | small | 9,300 (Jun-26, co.) / ~4.5x |
+| RattanIndia Power | 1.35 coal | nil | PLF 92.4% Q1 | ~2% | ~3,636 [E] / ~4.8x |
+
+Regulated equity (where disclosed): NTPC ₹1,21,745 cr consolidated (₹92,797 cr standalone); NHPC ≈₹18.3k cr → ≈₹30.7k cr FY27E (read from deck chart, INDICATIVE); SJVN Buxar ≈₹4,000 cr. Pledges (screener): JP Power 73% of promoter holding, KPI Green 44.7%, GMR 60%; nil at SJVN, ACME, RattanIndia.
+
+## K3. Aggregates (stated basis)
+
+Basis: simple sum of the 14 members, screener consolidated, FY26 = Mar-26 year, m-cap at 13 Oct 2026 close. Groups: **Thermal-led (7)** Adani Power, NTPC, NLC India, JP Power, Reliance Power, GMR P&UI, RattanIndia; **Hydro PSUs (2)** NHPC, SJVN; **RE-led (5)** Adani Green, NTPC Green, ACME Solar, KPI Green, JSW Energy.
+
+| Group | FY25 rev | FY26 rev | Growth | Op. profit FY26 | OPM | Other income | PAT FY26 | PAT TTM | M-cap | P/E FY26 | P/E TTM | Borrowings | Borrowings ÷ op. profit |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Thermal-led (7) | 2,82,336 | 2,82,651 | +0.1% | 86,543 | 30.6% | 10,301 | 45,066 | 47,254 | 7,24,516 | 16.1x | 15.3x | 3,87,075 | 4.5x |
+| Hydro PSUs (2) | 13,452 | 16,143 | +20.0% | 7,458 | 46.2% | 3,376 | 4,862 | 4,906 | 96,751 | 19.9x | 19.7x | 84,605 | 11.3x |
+| RE-led (5) | 28,307 | 39,406 | +39.2% | 26,057 | 66.1% | 2,743 | 6,277 | 6,306 | 4,11,210 | 65.5x | 65.2x | 2,37,300 | 9.1x |
+| **All 14 (simple sum)** | **3,24,095** | **3,38,200** | **+4.4%** | **1,20,058** | **35.5%** | **16,420** | **56,205** | **58,466** | **12,32,477** | **21.9x** | **21.1x** | **7,08,980** | **5.9x** |
+
+**Double-count caveat (must be stated under the peer table):** NTPC's consolidated figures include NTPC Green (89% owned). Removing NGEL from the sum gives FY26 revenue ₹3,35,342 cr, operating profit ₹1,17,597 cr, PAT ₹55,684 cr, borrowings ₹6,77,264 cr; m-cap double-count ≈ 0.89 × ₹78,230 cr ≈ ₹69,600 cr → look-through m-cap ≈ ₹11.63 lakh cr [E]. Adani Power's 24% of JP Power is equity-accounted (no revenue double count). Installed capacity: simple sum ≈ 193.9 GW; ex-NGEL (inside NTPC group) ≈ 182.6 GW [E] ≈ 33% of India's 548.9 GW (30 Jun 2026).
+Concentration: NTPC = 55.4% of FY26 revenue and 24.4% of m-cap; Adani Power + Adani Green = 46.4% of m-cap. Top-3 by m-cap (Adani Power ₹3.59 lakh cr, NTPC ₹3.01 lakh cr, Adani Green ₹2.13 lakh cr) = 70.9%.
+
+## K4. Reconciliation and data-quality notes
+
+1. **Batch vs orchestrator re-pull:** no discrepancies on revenue, op. profit, PAT, m-cap, P/E, ROCE/ROE, borrowings, promoter %.
+2. **EBITDA bases differ:** screener OPM excludes other income; companies (NTPC, NHPC, SJVN, GMR, RattanIndia) carry large other income (LPS, JV dividends, interest). Company EBITDA used for ND/EBITDA where published (APL 2.1x, JSW 5.5x, AGEL 5.6x run-rate, ACME 2.9x operational). Pure-RE OPMs (83–88%) are not comparable with thermal OPMs (25–37%) because fuel is ~60–70% of a coal plant's revenue.
+3. **Capacity bases differ:** NTPC reports group capacity incl. JVs and NGEL; AGEL operational GW (AC); KPI Green splits IPP vs captive (CPP); SJVN ~4.93 GW and NLC ~8.35 GW are orchestrator/batch sums [E]. Peak demand: 270.8 GW (21 May 2026, industry file) = "~271 GW" in batch 1 (same record).
+4. **Corporate events (verified):** US DOJ indictment against Gautam Adani, Sagar Adani and Vneet Jaain dismissed with prejudice and SEC case settled on 10 Aug 2026 (orchestrator confirmed via DT Next / Telangana Today / Outlook Business reports of 11 Aug 2026; FCPA/obstruction counts against five non-appearing co-defendants reserved; SEC penalties US$6 mn Gautam Adani, US$12 mn Sagar Adani — the latter in fewer sources); NHPC GoI OFS (Jun 2026) → 61.39%; NLC OFS 2.73%; ACME QIP ₹2,800 cr (Jun 2026) → promoter 71.40%; Adani Power owns 24% of JP Power; RattanIndia's former Sinnar plant acquired by NTPC–MAHAGENCO (Feb 2026); Adani Power QIP up to ₹15,000 cr approved, not launched; KPI Green binding offer for 507.9 MW wind (₹2,410 cr). All 14 remain listed.
+5. **Q2 FY27 status:** no member had reported Q2 FY27 by 13 Oct 2026 (JP Power 19 Oct, Adani Green 21 Oct). Latest quarter = Q1 FY27 for all 14.
+6. **Unverified items carried forward:** CEA monthly capacity after Jun-26 (cea.nic.in login wall); final CERC 2024–29 ROE for new PSP; FY26 generation by source (~1,840 BU [E]); FY19–FY23 IEX annual prices (memory); curtailment conflict (MNRE 8.1 TWh vs CREA ~2.1 TWh, Apr–Jun 2026); NHPC OFS floor/size; SJVN Q1 standalone; ACME QIP price; Reliance Power ₹715 cr ED notice; Sinnar purchase price; JP Power pledge after the Adani purchase; NTPC Green FY26 generation/CUF.
