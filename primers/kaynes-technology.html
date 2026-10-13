@@ -197,6 +197,7 @@
   footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
   footer.src li{margin-bottom:7px;break-inside:avoid;}
   .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+  main{min-width:0;}
 </style>
 <style id="pdf-print-style">
 .dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
@@ -258,20 +259,20 @@
   <h1>Kaynes Technology, <em>the board-builder that is learning to package chips</em></h1>
   <p class="dek">A full walk through one of India's most distinctive electronics manufacturers — what a contract electronics firm does when brands hand it the job of physically building their products, why Kaynes deliberately chases the hardest, most-regulated corners of that trade (defence, aerospace, railways, medical) for fatter margins, and the audacious part: a Mysuru company that until recently made instrument clusters and control boards is now one of the first Indian firms to <em>package and test silicon chips</em>, backed by a multi-thousand-crore semiconductor bet.</p>
 <div class="stat-strip">
-    <div class="cell"><div class="v">~₹3,602 <small>Cr</small></div><div class="l">Revenue (FY26)</div></div>
-    <div class="cell"><div class="v">~₹8,366 <small>Cr</small></div><div class="l">Order book (Mar '26)</div></div>
+    <div class="cell"><div class="v">~₹3,626 <small>Cr</small></div><div class="l">Revenue (FY26)</div></div>
+    <div class="cell"><div class="v">₹8,904 <small>Cr</small></div><div class="l">Order book (Jun '26)</div></div>
     <div class="cell"><div class="v">~15.8% <small>EBITDA</small></div><div class="l">Operating margin (FY26)</div></div>
-    <div class="cell"><div class="v">~₹32,000 <small>Cr</small></div><div class="l">Market cap (Jul '26)</div></div>
+    <div class="cell"><div class="v">₹22,097 <small>Cr</small></div><div class="l">Market cap (13 Oct 2026)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">14 Jul 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: FY26 results + Q1 FY27 results (quarter ended Jun 2026); market data as of 13 Oct 2026</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — revenue ~₹3,602 Cr (+33%), PAT ~₹364 Cr, EBITDA margin ~15.8%, order book ~₹8,366 Cr; added the Sanand OSAT commissioning (PM inauguration, Apr '26), the AOI Electronics tech tie-up, the Telangana second OSAT plan and the Chennai/Tamil Nadu PCB build-out.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b><strong>Q1 FY27 (Jun-26 quarter):</strong> revenue ₹946 Cr (+40% YoY), EBITDA ₹148 Cr (15.6%), but PAT ₹56 Cr (−24%) as gross margin fell to 34.4% from 41.3%; order book ₹8,904 Cr (+20%). Management cut its FY27 OSAT + PCB revenue target to ₹450–500 Cr combined, starting Q3 FY27, after timing slippage. Dr. Muthukumar Narayanaswamy is now Managing Director; founder Ramesh Kunhikannan is Executive Vice Chairman. FY26 operating cash flow was −₹600 Cr. Market cap ₹22,097 Cr, P/E ~64×, P/B ~4.6× as of 13 Oct 2026 (stock −52% over one year). Q2 FY27 results not yet out. Earlier: FY26 full-year results incorporated — revenue ~₹3,626 Cr (+33%), PAT ~₹364 Cr, EBITDA margin ~15.8%, order book ~₹8,366 Cr; added the Sanand OSAT commissioning (PM inauguration, Apr '26), the AOI Electronics tech tie-up, the Telangana second OSAT plan and the Chennai/Tamil Nadu PCB build-out.</div>
 </header>
 
 <!-- 00 -->
@@ -283,14 +284,14 @@
 
   <p>Three facts frame the whole story:</p>
   <ul class="clean">
-    <li><strong>Fast growth at unusually rich margins for the trade.</strong> Revenue grew ~33% in FY26 to <strong>~₹3,602 Cr</strong>, EBITDA up ~40% to <strong>~₹574 Cr</strong> — an operating margin of <strong>~15.8%</strong>, roughly double the low-single-digits a mobile-heavy assembler earns. The order book stands at <strong>~₹8,366 Cr</strong>, giving multi-year visibility. Section 03 explains why the end-market mix earns that premium.</li>
+    <li><strong>Fast growth at unusually rich margins for the trade.</strong> Revenue grew ~33% in FY26 to <strong>~₹3,626 Cr</strong>, EBITDA up ~40% to <strong>~₹574 Cr</strong> — an operating margin of <strong>~15.8%</strong>, roughly double the low-single-digits a mobile-heavy assembler earns. The order book stood at <strong>~₹8,366 Cr</strong> at Mar-26 and ₹8,904 Cr at Jun-26, giving multi-year visibility. Section 03 explains why the end-market mix earns that premium.</li>
     <li><strong>A genuine leap into chip packaging.</strong> Through subsidiary <strong>Kaynes Semicon</strong>, the company has commissioned an <strong>OSAT</strong> plant at Sanand, Gujarat — the "back end" of chip-making, where bare silicon is packaged into finished, usable chips and tested. The Prime Minister inaugurated it in April 2026; it was India's <strong>second operational chip unit</strong> under the government's semiconductor programme. More plants (Telangana, plus a Tamil Nadu PCB/component complex) are on the drawing board — a capex programme running into <strong>thousands of crores</strong>.</li>
-    <li><strong>A price that already believes.</strong> At roughly <strong>₹32,000 Cr market cap on ~₹364 Cr of FY26 profit</strong>, the stock trades near <strong>~88× earnings</strong>. That multiple isn't paying for the boards Kaynes builds today; it is paying for a chip-packaging business that has barely started earning. The debate, in one line: how much of a not-yet-proven semiconductor future is already in the share price.</li>
+    <li><strong>A price that already believes.</strong> At roughly <strong>₹22,097 Cr market cap (13 Oct 2026) on ~₹364 Cr of FY26 profit</strong>, the stock trades near <strong>~64× trailing earnings</strong> — even after halving over the past year. That multiple isn't paying for the boards Kaynes builds today; it is paying for a chip-packaging business that has barely started earning. The debate, in one line: how much of a not-yet-proven semiconductor future is already in the share price.</li>
   </ul>
 
   <div class="plain">
     <div class="ptag">In plain terms</div>
-    <p>Picture the electronics inside a train's braking controller, an insulin pump, or a car's power-steering unit. Someone has to buy the chips and components, assemble the circuit boards, load the software, test the whole thing to exacting safety standards, and ship it. Kaynes is that someone — a hired builder for products whose makers can't afford a single field failure. That's a better business than assembling cheap gadgets, because reliability and certifications keep rivals out and let Kaynes charge more. The new chapter is bolder still: rather than only <em>buying</em> chips to put on boards, Kaynes wants to <em>package the chips themselves</em>. If that works, it climbs one rung further up a supply chain India has spent decades importing. If it stumbles, it will have spent a fortune learning a very hard new craft — and the share price is priced as though success is close to certain.</p>
+    <p>Picture the electronics inside a train's braking controller, an insulin pump, or a car's power-steering unit. Someone has to buy the chips and components, assemble the circuit boards, load the software, test the whole thing to exacting safety standards, and ship it. Kaynes is that someone — a hired builder for products whose makers can't afford a single field failure. That's a better business than assembling cheap gadgets, because reliability and certifications keep rivals out and let Kaynes charge more. The new chapter is bolder still: rather than only <em>buying</em> chips to put on boards, Kaynes wants to <em>package the chips themselves</em>. If that works, it climbs one rung further up a supply chain India has spent decades importing. If it stumbles, it will have spent a fortune learning a very hard new craft — and the share price still assumes a good part of that success.</p>
   </div>
 </section>
 
@@ -400,15 +401,16 @@
     <li><div class="yr">FY23–FY25</div><div class="ev">Revenue roughly triples off the listing base; order book builds across smart meters, industrial, automotive, aerospace and defence.</div></li>
     <li class="major"><div class="yr">2024–25</div><div class="ev"><strong>Semiconductor pivot</strong> — Kaynes Semicon wins approval for an OSAT plant at Sanand under the India Semiconductor Mission; ships its first Made-in-India packaged chip module (to a US customer) in Oct 2025.</div></li>
     <li class="major"><div class="yr">Apr 2026</div><div class="ev"><strong>PM inaugurates the Sanand OSAT facility</strong> — India's second operational chip unit; commercial production begins with Intelligent Power Modules.</div></li>
-    <li class="major"><div class="yr">FY26</div><div class="ev">Revenue <strong>~₹3,602 Cr (+33%)</strong>, EBITDA <strong>~₹574 Cr (~15.8% margin)</strong>, PAT <strong>~₹364 Cr</strong>; order book <strong>~₹8,366 Cr</strong>; Telangana OSAT and Tamil Nadu PCB/component builds announced.</div></li>
+    <li class="major"><div class="yr">FY26</div><div class="ev">Revenue <strong>~₹3,626 Cr (+33%)</strong>, EBITDA <strong>~₹574 Cr (~15.8% margin)</strong>, PAT <strong>~₹364 Cr</strong>; order book <strong>~₹8,366 Cr</strong>; Telangana OSAT and Tamil Nadu PCB/component builds announced.</div></li>
   </ul>
 
   <h3>Ownership &amp; management</h3>
   <ul class="clean">
-    <li><strong>Founder control.</strong> <strong>Ramesh Kunhikannan</strong>, the founder, is Managing Director and the dominant shareholder — holding on the order of <strong>~53% personally</strong>, with the promoter group a little higher. This is a genuinely founder-led company, not a professionally-diffused one.</li>
-    <li><strong>Family at the top.</strong> <strong>Savitha Ramesh</strong> serves as Chairman and Executive Director. The husband-and-wife founding pair anchors the leadership, which is worth noting both as a strength (long-term commitment, conviction behind the semiconductor bet) and as a governance consideration (concentrated control, key-person dependence).</li>
-    <li><strong>Institutions have piled in.</strong> Mutual funds hold roughly <strong>~18%</strong> and foreign investors around <strong>~11%</strong>, with retail investors near <strong>~10%</strong> — a heavy institutional presence for a company this young, reflecting how strongly the growth story has been embraced.</li>
-    <li><strong>Balance sheet.</strong> Kaynes has funded its expansion through its IPO and subsequent capital raises (including a QIP), keeping <strong>leverage low</strong> (net debt-to-equity around ~0.1). The catch is that the semiconductor and PCB capex is enormous relative to today's earnings, so the balance sheet is being stretched to build capacity years ahead of the revenue it is meant to produce.</li>
+    <li><strong>Founder control.</strong> <strong>Ramesh Kunhikannan</strong>, the founder, is Executive Vice Chairman and the dominant shareholder — the promoter group as a whole holds <strong>~53.5%</strong> (53.46% at Jun-26). Day-to-day, <strong>Dr. Muthukumar Narayanaswamy</strong> is now Managing Director, and Jairam P. Sampath is Whole-time Director &amp; CFO. This is a genuinely founder-led company, not a professionally-diffused one.</li>
+    <li><strong>Family at the top.</strong> <strong>Savitha Ramesh</strong> serves as Chairperson. The husband-and-wife founding pair anchors the leadership, which is worth noting both as a strength (long-term commitment, conviction behind the semiconductor bet) and as a governance consideration (concentrated control, key-person dependence).</li>
+    <li><strong>Institutions have been selling.</strong> At Jun-26, domestic institutions held <strong>~11.8%</strong> and foreign investors <strong>~5.8%</strong>, with the public at <strong>~28.9%</strong> — institutions have cut their stakes heavily since Dec-25.</li>
+    <li><strong>The December 2025 disclosure episode.</strong> A Kotak Institutional Equities note of 3 Dec 2025 reportedly flagged related-party omissions in the standalone accounts, goodwill and intangible accounting, and ~₹520 Cr of contingent liabilities. The company reportedly called the omissions inadvertent, rectified them, and denied to the exchanges that its auditor was changing. Management referred to the episode on the Q1 FY27 call. It is a governance point worth tracking.</li>
+    <li><strong>Balance sheet.</strong> Kaynes has funded its expansion through its IPO and subsequent capital raises (including a QIP), keeping <strong>leverage low</strong> (net debt-to-equity around ~0.1 at Jun-26). The trend is the watch point: gross borrowings rose to ~₹875 Cr while cash fell to ~₹799 Cr. The catch is that the semiconductor and PCB capex is enormous relative to today's earnings, so the balance sheet is being stretched to build capacity years ahead of the revenue it is meant to produce.</li>
   </ul>
 </section>
 
@@ -496,7 +498,7 @@
   <div class="mini-stats">
     <div class="ms gold"><div class="msv">~₹3,300 Cr</div><div class="msl">Sanand OSAT investment — with a ~50% central capital subsidy under ISM</div></div>
     <div class="ms"><div class="msv">6.3M/day</div><div class="msl">Design capacity of the Sanand line — chips packaged &amp; tested at full ramp</div></div>
-    <div class="ms green"><div class="msv">~₹1,000 Cr</div><div class="msl">Guided FY27 semiconductor-segment revenue — from a small FY26 base: the number that proves the bet earns</div></div>
+    <div class="ms green"><div class="msv">₹450–500 Cr</div><div class="msl">Guided FY27 OSAT + PCB revenue combined, from Q3 FY27 — cut from ~₹1,000 Cr after timing slippage: the number that proves the bet earns</div></div>
   </div>
 
   <p>The strategic logic is coherent: Kaynes already builds the boards that chips sit on, already serves industries that consume power and control chips, and already holds the quality discipline OSAT demands. Packaging chips is an adjacent, if far harder, extension — and India's semiconductor programme is paying up to half the capital cost to make it happen. But coherence is not the same as certainty.</p>
@@ -581,8 +583,8 @@
 
   <h3>Where the cash goes</h3>
   <ul class="clean">
-    <li><strong>Working-capital intensity.</strong> High-mix manufacturing and large order-book businesses like smart metering require Kaynes to buy and hold components, carry work-in-progress, and wait to be paid. Net working-capital days <strong>rose materially in FY26</strong> (toward the ~110–120-day range from the high-80s), with smart meters a notable driver — a real drag on cash even as profits grow.</li>
-    <li><strong>The capex mountain.</strong> On top of ordinary expansion, the OSAT plants and PCB complex demand thousands of crores. Even with subsidies covering a large share, Kaynes is deploying capital years ahead of the revenue it is meant to earn — which is why free cash flow lags reported profit.</li>
+    <li><strong>Working-capital intensity.</strong> High-mix manufacturing and large order-book businesses like smart metering require Kaynes to buy and hold components, carry work-in-progress, and wait to be paid. Net working-capital days <strong>rose sharply</strong>, to ~163 days on the company's rolling basis at Jun-26 from 122 a year earlier (screener's FY26 cash-conversion cycle: 193 days), with smart meters the main driver — smart-meter receivables stood at ~₹1,311 Cr, and Q1 FY27 metering collections were ₹88 Cr against ₹240 Cr of sales.</li>
+    <li><strong>The capex mountain.</strong> On top of ordinary expansion, the OSAT plants and PCB complex demand thousands of crores. Even with subsidies covering a large share, Kaynes is deploying capital years ahead of the revenue it is meant to earn — which is why FY26 operating cash flow was <strong>−₹600 Cr</strong> and free cash flow about −₹1,841 Cr, against ₹364 Cr of reported profit.</li>
     <li><strong>Start-up drag.</strong> New semiconductor and PCB lines carry costs — depreciation, interest, ramp-up inefficiency — before they carry much revenue, weighing on near-term margins and profit.</li>
   </ul>
 
@@ -606,7 +608,7 @@
       <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill ink" style="width:31%"></span></div><div class="bval">~1,126</div></div>
       <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:50%"></span></div><div class="bval">~1,805</div></div>
       <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:76%"></span></div><div class="bval">~2,722</div></div>
-      <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~3,602</div></div>
+      <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~3,626</div></div>
     </div>
     <div class="legend"><span>~33% growth in FY26, underpinned by a ~₹8,366 Cr order book — before any material semiconductor revenue is counted.</span></div>
   </div>
@@ -626,7 +628,7 @@
     <div class="c-title">Operating margin — mid-teens, well above commodity EMS</div>
     <div class="c-sub">Approx. EBITDA margin (%)</div>
     <div class="bars">
-      <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill ink" style="width:92%"></span></div><div class="bval">~14.7%</div></div>
+      <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill ink" style="width:89%"></span></div><div class="bval">~14.1%</div></div>
       <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:95%"></span></div><div class="bval">~15.1%</div></div>
       <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~15.8%</div></div>
     </div>
@@ -634,17 +636,17 @@
   </div>
 
   <div class="mini-stats">
-    <div class="ms gold"><div class="msv">~₹8,366 Cr</div><div class="msl">Order book (Mar '26) — over 2× FY26 revenue of forward visibility</div></div>
+    <div class="ms gold"><div class="msv">₹8,904 Cr</div><div class="msl">Order book (Jun '26) — over 2× FY26 revenue of forward visibility</div></div>
     <div class="ms"><div class="msv">~0.1x</div><div class="msl">Net debt-to-equity — low leverage, funded by IPO + QIP capital raises</div></div>
-    <div class="ms red"><div class="msv">~88×</div><div class="msl">Trailing P/E (Jul '26) — a very rich multiple to defend</div></div>
+    <div class="ms red"><div class="msv">~64×</div><div class="msl">Trailing P/E (13 Oct 2026; P/B ~4.6×) — still a rich multiple to defend</div></div>
   </div>
 
   <div class="plain">
     <div class="ptag">The one number that settles the thesis</div>
-    <p>At roughly <strong>₹32,000 Cr market cap on ~₹364 Cr of FY26 profit — near ~88× trailing earnings</strong> — Kaynes is not priced on the boards it builds today. A high-reliability EMS business, however good, does not command 88× on its own. The premium is an implicit bet on the <strong>semiconductor and PCB layers becoming a large, profitable second engine</strong>. So the number that settles the case is specific and near-term: <strong>the revenue the semiconductor segment actually books against its ~₹1,000 Cr FY27 guide — and at what margin</strong>. That is the first hard evidence that the OSAT bet earns rather than merely spends. Alongside it, watch two core-business gauges: <strong>order-book conversion into revenue</strong>, and whether the <strong>~15–16% EBITDA margin holds</strong> as new plants ramp and working capital stretches. Everything else is narrative; those are the meters.</p>
+    <p>At roughly <strong>₹22,097 Cr market cap (13 Oct 2026) on ~₹364 Cr of FY26 profit — near ~64× trailing earnings</strong> — Kaynes is not priced on the boards it builds today. A high-reliability EMS business, however good, does not command ~64× on its own. The premium is an implicit bet on the <strong>semiconductor and PCB layers becoming a large, profitable second engine</strong>. So the number that settles the case is specific and near-term: <strong>the revenue the semiconductor segment actually books against its FY27 guide of ₹450–500 Cr combined OSAT + PCB revenue (cut from ~₹1,000 Cr) — and at what margin</strong>. That is the first hard evidence that the OSAT bet earns rather than merely spends. Alongside it, watch two core-business gauges: <strong>order-book conversion into revenue</strong>, and whether the <strong>~15–16% EBITDA margin holds</strong> as new plants ramp and working capital stretches. Everything else is narrative; those are the meters.</p>
   </div>
 
-  <div class="note"><b>A note on the figures:</b> FY26 numbers here draw on the company's FY26 results and third-party summaries (Screener, broker notes, results coverage) and are approximate — revenue ~₹3,602 Cr, EBITDA ~₹574 Cr (~15.8% margin), PAT ~₹364 Cr, order book ~₹8,366 Cr. Market cap (~₹32,000 Cr) and P/E (~88×) are as of mid-July 2026 and move daily — the stock has been highly volatile, having fallen more than 50% from a 2025 high before recovering. The semiconductor/PCB capex and revenue-ramp figures are managed guidance and inherently uncertain; treat the OSAT timeline especially as a plan, not a fact, and verify against primary filings before relying on any single number.</div>
+  <div class="note"><b>A note on the figures:</b> FY26 numbers here draw on the company's FY26 results and third-party summaries (Screener, broker notes, results coverage) and are approximate — revenue ~₹3,626 Cr, EBITDA ~₹574 Cr (~15.8% margin), PAT ~₹364 Cr, order book ~₹8,366 Cr. Market cap (₹22,097 Cr) and P/E (~64×) are as of 13 Oct 2026 and move daily — the stock has been highly volatile and is down ~52% over the past year (52-week high ₹7,140). The semiconductor/PCB capex and revenue-ramp figures are managed guidance and inherently uncertain; treat the OSAT timeline especially as a plan, not a fact, and verify against primary filings before relying on any single number.</div>
 </section>
 
 <!-- 12 -->
@@ -668,9 +670,9 @@
     <div class="col bear">
       <h4>The bear case</h4>
       <ul class="clean">
-        <li><strong>Extreme valuation</strong> — ~88× earnings prices in semiconductor success that has barely begun; the core EMS alone cannot justify the multiple.</li>
+        <li><strong>Extreme valuation</strong> — ~64× earnings still prices in semiconductor success that has barely begun; the core EMS alone cannot justify the multiple.</li>
         <li><strong>Unproven, capital-heavy leap</strong> — OSAT is new to Kaynes (tech licensed from AOI), needs slow customer qualification, and could spend for years before earning.</li>
-        <li><strong>Cash intensity</strong> — working-capital days rose sharply in FY26 (smart meters a driver); growth and capex both drain cash, so free cash flow lags profit.</li>
+        <li><strong>Cash intensity</strong> — working-capital days rose sharply in FY26 (smart meters a driver); growth and capex both drain cash, FY26 operating cash flow was −₹600 Cr.</li>
         <li><strong>Near-term profit wobble</strong> — Q4 FY26 PAT fell ~21% YoY on ramp costs; transformation is denting margins today.</li>
         <li><strong>Concentration &amp; competition</strong> — founder-concentrated control; larger-balance-sheet rivals (Tata, CG Power) and global OSAT incumbents (ASE, Amkor) in the same race; component/forex exposure.</li>
       </ul>
@@ -679,7 +681,7 @@
 
   <div class="plain">
     <div class="ptag">The bottom line</div>
-    <p>Kaynes has already done the hard, unglamorous work of becoming India's most credible high-reliability contract manufacturer — the kind trusted with railway signalling, defence electronics and even space and nuclear applications. That alone is a fine business. What lifts it to ~88× earnings is the wager that the same discipline can be carried one rung deeper, into packaging the silicon itself. The evidence will not arrive as a slogan; it will arrive as a line item. Watch the Sanand OSAT plant's first full year of chip revenue against its ~₹1,000 Cr FY27 target, and the margin at which those first Intelligent Power Modules — 17 dies to a package, already shipping to a US customer — turn into cash. When that line grows and earns, the valuation earns its keep; until it does, Kaynes is a superb board-builder being paid, in advance, to become a chipmaker.</p>
+    <p>Kaynes has already done the hard, unglamorous work of becoming India's most credible high-reliability contract manufacturer — the kind trusted with railway signalling, defence electronics and even space and nuclear applications. That alone is a fine business. What lifts it to ~64× earnings is the wager that the same discipline can be carried one rung deeper, into packaging the silicon itself. The evidence will not arrive as a slogan; it will arrive as a line item. Watch the Sanand OSAT plant's first full year of chip revenue against its reduced FY27 target of ₹450–500 Cr combined OSAT + PCB revenue, and the margin at which those first Intelligent Power Modules — 17 dies to a package, already shipping to a US customer — turn into cash. When that line grows and earns, the valuation earns its keep; until it does, Kaynes is a superb board-builder being paid, in advance, to become a chipmaker.</p>
   </div>
 </section>
 

@@ -192,6 +192,7 @@
   footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
   footer.src li{margin-bottom:7px;break-inside:avoid;}
   .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+  main{min-width:0;}
 </style>
 <style id="pdf-print-style">
 .dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
@@ -254,18 +255,18 @@
 <div class="stat-strip">
     <div class="cell"><div class="v">~₹5,553 <small>Cr</small></div><div class="l">Revenue (FY26)</div></div>
     <div class="cell"><div class="v">~₹207 <small>Cr</small></div><div class="l">Net profit (FY26)</div></div>
-    <div class="cell"><div class="v">~₹8,502 <small>Cr</small></div><div class="l">Order book (FY26 exit)</div></div>
+    <div class="cell"><div class="v">₹9,217 <small>Cr</small></div><div class="l">Order book (Jun 2026)</div></div>
     <div class="cell"><div class="v">~10.3% <small>EBITDA</small></div><div class="l">Operating margin (FY26)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">24 Aug 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: FY26 results + Q1 FY27 results (quarter ended Jun 2026); market data as of 13 Oct 2026</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — revenue ₹5,553 Cr (+20%), net profit ₹207 Cr (+42%), EBITDA margin ~10.3%; order book at a record ~₹8,502 Cr; Polymer segment crossed ₹500 Cr for the first time; three fresh 765 kV PGCIL EPC awards booked in Q1 FY27.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b><strong>Q1 FY27 (Jun-26 quarter):</strong> revenue ₹1,310 Cr (+4.5% YoY), EBITDA ₹140 Cr (10.7%), PAT ₹56.5 Cr (+26.5%); exports −50% on West Asia disruption; order inflow ₹1,674 Cr took the book to ₹9,217 Cr; bid pipeline above ₹35,000 Cr. Q1 wins include two 765 kV line projects from a domestic developer in Maharashtra. A ₹433.5 Cr preferential issue at ₹470 (Capital Group funds, Bandhan, Cohesion MK, Emerge) is being used to repay debt, cutting the promoter stake to 61.48%; CRISIL upgraded the rating to A+/Stable. FY27 guidance: ~15% revenue growth, ~30% PAT growth, ₹7,000 Cr+ inflow, ₹10,000 Cr+ closing book; capacity to 450k MTPA in FY27 and 600k MTPA by FY29. On 12 Oct 2026 the board approved an "Evergrid" transmission/EPC subsidiary. Market cap ₹6,470 Cr, P/E ~28× as of 13 Oct 2026. Q2 FY27 results not yet out. Earlier: FY26 full-year results incorporated — revenue ₹5,553 Cr (+20%), net profit ₹207 Cr (+42%), EBITDA margin ~10.3%; order book at a record ~₹8,502 Cr; Polymer segment crossed ₹500 Cr for the first time.</div>
 </header>
 
 <!-- 00 -->
@@ -277,7 +278,7 @@
 
   <p>Three facts frame everything that follows:</p>
   <ul class="clean">
-    <li><strong>It rides India's biggest infrastructure spend that nobody talks about.</strong> The country is pouring lakhs of crores into its <em>grid</em> — the wires and towers that move electricity from where it is generated to where it is used. Renewable power built in sunny Rajasthan or windy Gujarat is worthless unless a transmission line carries it to a city, and India is short of exactly those lines. Skipper sells the steel that those lines stand on. FY26 revenue reached <strong>~₹5,553 Cr</strong>, up ~20%, and the order book hit an all-time high of <strong>~₹8,502 Cr</strong> — well over a year of forward work.</li>
+    <li><strong>It rides India's biggest infrastructure spend that nobody talks about.</strong> The country is pouring lakhs of crores into its <em>grid</em> — the wires and towers that move electricity from where it is generated to where it is used. Renewable power built in sunny Rajasthan or windy Gujarat is worthless unless a transmission line carries it to a city, and India is short of exactly those lines. Skipper sells the steel that those lines stand on. FY26 revenue reached <strong>~₹5,553 Cr</strong>, up ~20%, and the order book hit an all-time high of <strong>~₹8,502 Cr</strong> — well over a year of forward work — and reached ₹9,217 Cr by Jun-26.</li>
     <li><strong>It makes its own steel, which is the whole margin story.</strong> Unlike a pure line-building contractor, Skipper is <em>backward-integrated</em> — it rolls raw steel into <strong>angles</strong> in its own mills, then fabricates and galvanises those angles into finished towers. It captures margin at every step from steel section to erected tower, which is why its engineering business earns a structurally different margin from a firm that merely buys towers and bolts them together.</li>
     <li><strong>It quietly runs a consumer building-products brand on the side.</strong> The Polymer arm — PVC, CPVC, uPVC and SWR pipes sold through plumbers and dealers — crossed <strong>₹500 Cr</strong> of revenue for the first time in FY26. It is small (~9% of sales) but it is a completely different animal: a branded, distribution-led, working-capital-heavy consumer play competing with Supreme, Astral and Finolex — and the market values that kind of business very differently from a lattice-steel fabricator.</li>
   </ul>
@@ -316,10 +317,10 @@
 
   <h3>Who buys transmission towers</h3>
   <ul class="clean">
-    <li><strong>Power Grid Corporation (PGCIL)</strong> — the giant central transmission utility, the single most important customer in Indian T&amp;D. It builds the inter-state backbone and tenders enormous line packages; a Skipper 765 kV win is almost always a PGCIL or state-utility award.</li>
+    <li><strong>Power Grid Corporation (PGCIL)</strong> — the giant central transmission utility, the single most important customer in Indian T&amp;D. It builds the inter-state backbone and tenders enormous line packages; a Skipper 765 kV win is usually a PGCIL, state-utility or private-developer award.</li>
     <li><strong>State transmission &amp; distribution companies</strong> — every state has its own utility building and upgrading local lines and substations; collectively a huge, steady buyer of towers and poles.</li>
     <li><strong>Private developers &amp; EPC firms</strong> — renewable-energy developers needing evacuation lines from their solar/wind parks, and other EPC contractors who buy Skipper's towers as a component.</li>
-    <li><strong>Overseas utilities &amp; contractors</strong> — 65+ countries across Africa, the Middle East, Latin America, Europe and now North America, buying towers, poles and monopoles as global grids are rebuilt.</li>
+    <li><strong>Overseas utilities &amp; contractors</strong> — 50+ countries across Africa, the Middle East, Latin America, Europe and now North America, buying towers, poles and monopoles as global grids are rebuilt.</li>
   </ul>
 </section>
 
@@ -358,7 +359,7 @@
   <h3>The three segments, decoded</h3>
   <ul class="clean">
     <li><strong><span class="chain-wtg">Engineering Products (~₹4,359 Cr, +24% in FY26)</span></strong> — the core. Transmission &amp; distribution <strong>towers</strong>, tubular <strong>poles</strong>, <strong>monopoles</strong>, telecom structures, railway electrification masts, and the <strong>angles</strong> it rolls in-house. This is what makes Skipper the largest T&amp;D-structures maker in India. It sells to Power Grid, state utilities and, increasingly, to export markets. Total structural steel capacity is around <strong>375,000 tonnes a year</strong>.</li>
-    <li><strong><span class="chain-om">Infrastructure / EPC (~₹687 Cr, roughly flat in FY26)</span></strong> — turnkey transmission-line construction. Instead of just supplying towers, Skipper builds the entire line: surveying, foundations, erection, conductor stringing and commissioning. This deepens the relationship with utilities and captures more of the project, but it is a lumpier, more execution-sensitive, lower-margin, working-capital-hungry business. Recent wins include <strong>765 kV line packages from PGCIL</strong>.</li>
+    <li><strong><span class="chain-om">Infrastructure / EPC (~₹687 Cr, roughly flat in FY26)</span></strong> — turnkey transmission-line construction. Instead of just supplying towers, Skipper builds the entire line: surveying, foundations, erection, conductor stringing and commissioning. This deepens the relationship with utilities and captures more of the project, but it is a lumpier, more execution-sensitive, lower-margin, working-capital-hungry business. Recent wins include <strong>765 kV line packages</strong> — in Q1 FY27, two from a domestic developer in Maharashtra.</li>
     <li><strong><span class="chain-om">Polymer Products (~₹507 Cr, +17% in FY26)</span></strong> — "Skipper Pipes": PVC, CPVC, uPVC and SWR pipes and fittings for plumbing, agriculture and infrastructure. This is a branded, dealer-distributed <em>consumer/agri</em> product — a genuine diversification away from steel and government tenders, into a market of plumbers, farmers and builders, competing against the likes of Supreme and Astral.</li>
   </ul>
 
@@ -389,7 +390,7 @@
 
   <h3>Ownership &amp; structure</h3>
   <ul class="clean">
-    <li><strong>Promoters:</strong> the <strong>Bansal family</strong> — patriarch <strong>Sajan Kumar Bansal</strong> and his sons — hold the controlling majority stake (broadly <strong>~70%, approx.</strong>). This is a closely-held, founder-run company; the family is deeply operationally involved, which is both a source of long-term commitment and a concentration to keep an eye on. Track promoter pledge levels directly in the shareholding filings.</li>
+    <li><strong>Promoters:</strong> the <strong>Bansal family</strong> — patriarch <strong>Sajan Kumar Bansal</strong> and his sons — hold the controlling majority stake — <strong>61.48%</strong> after the Jul-26 preferential issue, from 66.50% before it. This is a closely-held, founder-run company; the family is deeply operationally involved, which is both a source of long-term commitment and a concentration to keep an eye on. Track promoter pledge levels directly in the shareholding filings.</li>
     <li><strong>Head office:</strong> <strong>Kolkata</strong> (Loudon Street), with manufacturing spread across multiple states — the flagship engineering complexes plus polymer plants at sites including Ahmedabad, Guwahati and Sikandrabad (UP).</li>
     <li><strong>Capital:</strong> the company has periodically raised capital to fund growth and reduce debt (including a rights issue). A T&amp;D-plus-pipes business is capital-intensive at both ends — steel fabrication needs plants and working capital; the pipe brand needs inventory and dealer credit — so the balance sheet is a live part of the story (§08).</li>
   </ul>
@@ -411,7 +412,7 @@
     <tbody>
       <tr><td class="t-strong">Renewable evacuation</td><td>Solar and wind parks are built in remote, sunny/windy pockets (Rajasthan, Gujarat) far from demand. That power is stranded without new high-voltage lines to carry it out.</td><td>Every gigawatt of renewables needs new towers and lines — a direct, mechanical pull on Skipper's core product. Green-energy corridors are explicit, funded programmes.</td></tr>
       <tr><td class="t-strong">The national grid plan</td><td>India's transmission roadmap envisages lakhs of crores of investment over this decade to add lines, substations and inter-regional links.</td><td>A multi-year floor under tower demand — a stated, budgeted commitment that must be met with physical steel.</td></tr>
-      <tr><td class="t-strong">765 kV &amp; HVDC push</td><td>The backbone is moving to higher voltages to move more power over longer distances with less loss.</td><td>Higher-voltage lines use bigger, higher-value towers; winning 765 kV packages (as Skipper has from PGCIL) lifts both volume and value per project.</td></tr>
+      <tr><td class="t-strong">765 kV &amp; HVDC push</td><td>The backbone is moving to higher voltages to move more power over longer distances with less loss.</td><td>Higher-voltage lines use bigger, higher-value towers; winning 765 kV packages (as Skipper has) lifts both volume and value per project.</td></tr>
       <tr><td class="t-strong">Ageing distribution + electrification</td><td>Reconductoring old lines, strengthening state distribution, rural and railway electrification.</td><td>Sustains demand for poles, distribution structures and railway masts — the steadier, less lumpy end of the engineering book.</td></tr>
     </tbody>
   </table>
@@ -447,16 +448,16 @@
   <div class="part-head"><span class="pno">06</span><h2>The export tower story: a Kolkata firm rewiring the world</h2></div>
   <p class="part-sub">The tailwind most domestic investors underrate.</p>
 
-  <p class="lead">India is not the only country that needs new grid. Ageing networks in the United States and Europe, fast-growing demand in Africa and the Middle East, and grid build-outs across Latin America have created a <strong>global scramble for transmission structures</strong> — and India's integrated, low-cost tower makers are well placed to supply it. Skipper exports towers, poles and monopoles to <strong>65+ countries</strong>, and the export order book is a growing slice of the whole.</p>
+  <p class="lead">India is not the only country that needs new grid. Ageing networks in the United States and Europe, fast-growing demand in Africa and the Middle East, and grid build-outs across Latin America have created a <strong>global scramble for transmission structures</strong> — and India's integrated, low-cost tower makers are well placed to supply it. Skipper exports towers, poles and monopoles to <strong>50+ countries</strong>, and the export order book is a growing slice of the whole.</p>
 
   <div class="chart">
     <div class="c-title">Order book composition — domestic vs export (FY26 exit, approx.)</div>
     <div class="c-sub">Export is ~10% today, but it is the fastest-growing and highest-margin end</div>
     <div class="bars">
       <div class="bar-row"><div class="blab">Domestic<small>PGCIL, states, private</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~90%</div></div>
-      <div class="bar-row"><div class="blab">Export<small>65+ countries</small></div><div class="track"><span class="fill gold" style="width:12%"></span></div><div class="bval">~10%</div></div>
+      <div class="bar-row"><div class="blab">Export<small>50+ countries</small></div><div class="track"><span class="fill gold" style="width:12%"></span></div><div class="bval">~10%</div></div>
     </div>
-    <div class="legend"><span>The export order book sits around ₹900 Cr. Small as a share, but it grows faster than the domestic book, tends to carry better margins, and diversifies away from Indian tender timing.</span></div>
+    <div class="legend"><span>The export order book sits around ₹900 Cr; FY26 export revenue was ~₹710 Cr (~12.8% of revenue). Small as a share, but it grows faster than the domestic book, tends to carry better margins, and diversifies away from Indian tender timing.</span></div>
   </div>
 
   <p>Two developments make the export story more than a footnote. First, Skipper landed its <strong>first major pole-supply order from the USA</strong> in FY25 — a beachhead in the world's most demanding, highest-value grid market, where utilities are spending heavily to harden ageing networks against storms and to connect new renewables. Second, the export mix skews toward higher-value structures (monopoles for tight urban corridors, specialised poles), where Skipper competes on engineering and reliability rather than only price.</p>
@@ -495,15 +496,15 @@
   <div class="part-head"><span class="pno">08</span><h2>The order book, execution, and the working-capital tightrope</h2></div>
   <p class="part-sub">Where a project-plus-manufacturing hybrid can trip.</p>
 
-  <p class="lead">Skipper exited FY26 with a record <strong>~₹8,502 Cr order book</strong> — comfortably more than a year of revenue booked in advance. That visibility is the good news. The hard part, as with any business that both <em>manufactures</em> and <em>builds projects</em>, is the <strong>working capital</strong>: Skipper buys steel and fabricates towers months before it is paid, and its EPC and export contracts stretch payment terms further still.</p>
+  <p class="lead">Skipper exited FY26 with a record <strong>~₹8,502 Cr order book</strong> (₹9,217 Cr by Jun-26) — comfortably more than a year of revenue booked in advance. That visibility is the good news. The hard part, as with any business that both <em>manufactures</em> and <em>builds projects</em>, is the <strong>working capital</strong>: Skipper buys steel and fabricates towers months before it is paid, and its EPC and export contracts stretch payment terms further still.</p>
 
   <div class="mini-stats">
     <div class="ms"><div class="msv">~₹8,502 Cr</div><div class="msl">Order book at FY26 exit — an all-time high, ~1.5× annual revenue</div></div>
     <div class="ms gold"><div class="msv">&gt;1x</div><div class="msl">Book-to-bill — the pipeline is refilling faster than it empties on fresh PGCIL &amp; export wins</div></div>
-    <div class="ms green"><div class="msv">765 kV</div><div class="msl">Three fresh PGCIL transmission-line packages booked in Q1 FY27</div></div>
+    <div class="ms green"><div class="msv">765 kV</div><div class="msl">Two 765 kV line projects from a domestic developer in Maharashtra, booked in Q1 FY27</div></div>
   </div>
 
-  <p>The mechanism to watch is the <strong>cash-conversion cycle</strong> — the time between paying for steel and collecting from customers. A manufacturing-plus-EPC business runs a lot of inventory (steel, half-finished towers) and receivables (utilities and export clients that pay on milestones). Grow revenue fast and, without discipline, working capital balloons and eats the very cash the profit is generating. Skipper's whole history of tighter and looser years maps closely onto how well it has managed exactly this. Net debt, receivable days and inventory days are therefore not footnotes here — they are the health check.</p>
+  <p>The mechanism to watch is the <strong>cash-conversion cycle</strong> — the time between paying for steel and collecting from customers. A manufacturing-plus-EPC business runs a lot of inventory (steel, half-finished towers) and receivables (utilities and export clients that pay on milestones). Grow revenue fast and, without discipline, working capital balloons and eats the very cash the profit is generating. Skipper's whole history of tighter and looser years maps closely onto how well it has managed exactly this. Net debt, receivable days and inventory days are therefore not footnotes here — they are the health check. In FY26 receivables roughly doubled, from ~₹701 Cr to ~₹1,485 Cr; operating cash flow was only ~48% of EBITDA, and free cash flow was negative for a second year. The ₹433.5 Cr equity raise in mid-2026 is being used to pay down debt (net debt ~₹873 Cr at Mar-26, ~₹440 Cr pro forma).</p>
 
   <div class="plain">
     <div class="ptag">Why a fat order book is necessary but not sufficient</div>
@@ -537,7 +538,7 @@
     <tbody>
       <tr><td class="t-strong">Towers &amp; T&amp;D EPC</td><td>KEC International, Kalpataru Projects (KPTL), Transrail Lighting; plus many unlisted fabricators</td><td>Smaller than KEC/KPTL but more <em>manufacturing-led</em> and backward-integrated into angle rolling and galvanising; strong on structures supply, lighter on the sprawling multi-sector EPC the majors also do.</td></tr>
       <tr><td class="t-strong">Pipes &amp; fittings</td><td>Supreme Industries, Astral, Finolex, Prince Pipes</td><td>A challenger brand with a fast-growing but still sub-scale book (~₹500 Cr) versus incumbents many times larger; competes on reach and value, still building brand pull.</td></tr>
-      <tr><td class="t-strong">Exports</td><td>Global tower makers and local fabricators in each market</td><td>Wins on India's integrated low-cost manufacturing and a 65+ country track record; the US beachhead is new and prized.</td></tr>
+      <tr><td class="t-strong">Exports</td><td>Global tower makers and local fabricators in each market</td><td>Wins on India's integrated low-cost manufacturing and a 50+ country track record; the US beachhead is new and prized.</td></tr>
     </tbody>
   </table>
   </div>
@@ -551,7 +552,7 @@
 <!-- 10 -->
 <section class="part" id="p10">
   <div class="part-head"><span class="pno">10</span><h2>Financials &amp; valuation</h2></div>
-  <p class="part-sub">A real growth ramp and a clear margin lever — priced for the ramp to continue.</p>
+  <p class="part-sub">A real growth ramp and a clear margin lever — valued on the ramp continuing.</p>
 
   <p class="lead">FY26 was the best year in Skipper's listed life: revenue at a record, profit up sharply, the order book at an all-time high, and management guiding margins higher. The market has noticed — the stock trades at a premium to a plain tower fabricator. The debate is whether utilisation and mix can lift margins the way management expects while working capital stays under control.</p>
 
@@ -592,7 +593,7 @@
   <div class="mini-stats">
     <div class="ms gold"><div class="msv">~23%</div><div class="msl">ROCE (FY26) — a genuinely healthy return on capital for a steel-fabrication business</div></div>
     <div class="ms green"><div class="msv">~16%</div><div class="msl">ROE (FY26); book value ~₹131/share</div></div>
-    <div class="ms red"><div class="msv">~29×</div><div class="msl">Trailing P/E on ~₹6,500 Cr market cap — a premium to a plain fabricator</div></div>
+    <div class="ms red"><div class="msv">~28×</div><div class="msl">Trailing P/E on ₹6,470 Cr market cap (13 Oct 2026) — a premium to a plain fabricator</div></div>
   </div>
 
   <div class="plain">
@@ -616,7 +617,7 @@
       <ul class="clean">
         <li><strong>Grid supercycle</strong> — renewable evacuation and the national transmission plan give multi-year, policy-backed visibility on tower demand; grid capex is a cleaner way to own the energy transition than generation.</li>
         <li><strong>Integration margin</strong> — owning angle rolling, fabrication and galvanising means a conversion spread rivals who buy-and-erect can't match; utilisation gains flow to the bottom line.</li>
-        <li><strong>Export wave</strong> — 65+ countries and a new US beachhead add higher-margin, cycle-diversifying revenue as global grids are rebuilt.</li>
+        <li><strong>Export wave</strong> — 50+ countries and a new US beachhead add higher-margin, cycle-diversifying revenue as global grids are rebuilt.</li>
         <li><strong>Pipe optionality</strong> — a branded polymer business past ₹500 Cr that could re-rate the mix toward consumer-quality earnings if it keeps compounding.</li>
         <li><strong>Record order book</strong> — ~₹8,502 Cr, well over a year of revenue, still refilling on fresh PGCIL and export wins.</li>
       </ul>
@@ -624,7 +625,7 @@
     <div class="col bear">
       <h4>The bear case</h4>
       <ul class="clean">
-        <li><strong>Working-capital risk</strong> — a manufacturing-plus-EPC business can grow revenue while cash goes backwards if receivables and inventory outrun collections; this is the historic soft spot.</li>
+        <li><strong>Working-capital risk</strong> — a manufacturing-plus-EPC business can grow revenue while cash goes backwards if receivables and inventory outrun collections; this is the historic soft spot, and FY26 receivables doubled to ~₹1,485 Cr.</li>
         <li><strong>Thin, competitive margins</strong> — even at target ~12% EBITDA, T&amp;D structures is a fiercely-bid business; steel-price swings and aggressive tender pricing can erode the spread.</li>
         <li><strong>Order-timing lumpiness</strong> — reliance on PGCIL and state tenders means a slow ordering patch can hit revenue regardless of the map's long-term promise.</li>
         <li><strong>Pipe challenger risk</strong> — Skipper is the underdog against Supreme/Astral/Finolex; brand-building is slow and expensive, and the segment carries its own dealer-credit risk.</li>

@@ -192,6 +192,7 @@
   footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
   footer.src li{margin-bottom:7px;break-inside:avoid;}
   .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+  main{min-width:0;}
 </style>
 <style id="pdf-print-style">
 .dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
@@ -254,18 +255,18 @@
 <div class="stat-strip">
     <div class="cell"><div class="v">~₹1,301 <small>Cr</small></div><div class="l">Revenue (FY26, consol.)</div></div>
     <div class="cell"><div class="v">~₹198 <small>Cr</small></div><div class="l">Net profit (FY26)</div></div>
-    <div class="cell"><div class="v">~₹2,643 <small>Cr</small></div><div class="l">Order book (Apr 2026)</div></div>
-    <div class="cell"><div class="v">~₹12,970 <small>Cr</small></div><div class="l">Market cap (mid-2026)</div></div>
+    <div class="cell"><div class="v">₹2,826 <small>Cr</small></div><div class="l">Order book (Jun 2026, own perimeter)</div></div>
+    <div class="cell"><div class="v">₹14,433 <small>Cr</small></div><div class="l">Market cap (13 Oct 2026)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">1 Aug 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: FY26 results + Q1 FY27 results (quarter ended Jun 2026); market data as of 13 Oct 2026</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — consolidated revenue ₹1,301 Cr (+54%), net profit ₹198 Cr, order book ₹2,643 Cr (+91%); added the defence subsidiary (Lloyds Advance Defence Systems), the Metalfab and Techno Industries acquisitions and the ₹857 Cr rights issue.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b><strong>Q1 FY27 (Jun-26 quarter):</strong> consolidated revenue ₹527 Cr (+143% YoY), EBITDA ₹79 Cr (14.7%), PAT incl. associates ₹68 Cr (+127%). Order book ₹2,826 Cr for the current perimeter (LEWL + Techno ₹2,630 Cr, Metalfab ₹196 Cr); the combined platform after the pending merger and the SISCOL deal is ₹8,857 Cr (adding LICL ₹4,830 Cr and SISCOL ₹1,197 Cr). The board approved (29 Dec 2025) a four-company merger folding Lloyds Infrastructure &amp; Construction (LICL), Metalfab and Techno into LEWL, taking the share count from 147.42 Cr to 185.52 Cr; pro forma merged FY26 income ₹3,253 Cr and PAT ₹331 Cr; target ₹10,000 Cr+ revenue by FY29/30. Also: proposed acquisition of Steel Infra Solutions (SISCOL), a Fincantieri (Italy) defence JV, and a new promoter pledge (7 Oct 2026). FY26 operating cash flow was −₹253 Cr. Market cap ₹14,433 Cr, P/E ~64.5× as of 13 Oct 2026. Q2 FY27 results not yet out. Earlier: FY26 full-year results incorporated — consolidated revenue ₹1,301 Cr (+54%), net profit ₹198 Cr, order book ₹2,643 Cr (+91%); added the defence subsidiary (Lloyds Advance Defence Systems), the Metalfab and Techno Industries acquisitions and the ₹857 Cr rights issue.</div>
 </header>
 
 <!-- 00 -->
@@ -277,9 +278,9 @@
 
   <p>Three facts frame everything:</p>
   <ul class="clean">
-    <li><strong>The order book is the fuel gauge, and it just jumped.</strong> Lloyds exited FY26 with a consolidated order book of <strong>~₹2,643 Cr</strong>, up ~91% year-on-year — roughly two years of revenue already booked. For a made-to-order engineering firm, that backlog is the single best forward indicator: it is work already won that now has to be executed at a profit.</li>
+    <li><strong>The order book is the fuel gauge, and it just jumped.</strong> Lloyds exited FY26 with a consolidated order book of <strong>~₹2,643 Cr</strong>, up ~91% year-on-year — roughly two years of revenue already booked — and ₹2,826 Cr at Jun-26 (₹8,857 Cr on the combined post-merger platform). For a made-to-order engineering firm, that backlog is the single best forward indicator: it is work already won that now has to be executed at a profit.</li>
     <li><strong>It is growing fast off a small base.</strong> FY26 consolidated revenue rose ~54% to <strong>~₹1,301 Cr</strong> and net profit nearly doubled to <strong>~₹198 Cr</strong>. Rewind two years and revenue was under ₹650 Cr — this is a company scaling quickly as India's industrial capex cycle turns, and as it bolts on acquisitions.</li>
-    <li><strong>It is re-inventing itself beyond its steel-and-oil roots.</strong> Formerly Lloyds Steels Industries, it has pushed into <strong>defence and naval equipment</strong> (a dedicated subsidiary, orders from the Navy and Cochin Shipyard), <strong>elevators/escalators</strong> (the Techno Industries buy) and, via an MoU for Bhilai Engineering's engineering division, deeper into <strong>metallurgy, mining and railways</strong>. The market has noticed: the stock trades near <strong>~68× earnings</strong> on a ~₹12,970 Cr market cap — a rich multiple for a project-engineering company.</li>
+    <li><strong>It is re-inventing itself beyond its steel-and-oil roots.</strong> Formerly Lloyds Steels Industries, it has pushed into <strong>defence and naval equipment</strong> (a dedicated subsidiary, orders from the Navy and Cochin Shipyard), <strong>elevators/escalators</strong> (the Techno Industries buy) and, via an MoU for Bhilai Engineering's engineering division, deeper into <strong>metallurgy, mining and railways</strong>. The market has noticed: the stock trades near <strong>~64.5× earnings</strong> on a ₹14,433 Cr market cap (13 Oct 2026) — a rich multiple for a project-engineering company.</li>
   </ul>
 
   <div class="plain">
@@ -303,7 +304,7 @@
       <tr><td class="t-strong">Process equipment</td><td>The purpose-built metal hardware that a plant runs on — <strong>pressure vessels, heat exchangers, reactors, columns, dryers, boilers</strong>. Custom-fabricated in thick steel or special alloys, welded and tested to strict codes. Lloyds's core product line.</td></tr>
       <tr><td class="t-strong">Pressure vessel</td><td>A sealed container built to safely hold gas or liquid at high pressure/temperature — the workhorse item of any refinery or chemical plant. Getting the welding and testing right (ASME code) is the whole skill; a failure is catastrophic, so buyers pay for proven fabricators.</td></tr>
       <tr><td class="t-strong">EPC / turnkey</td><td>"Engineering, Procurement &amp; Construction" — taking on a whole scope: design it, buy the materials, build and install it, hand over a working system. Lloyds does both stand-alone equipment supply and larger turnkey packages.</td></tr>
-      <tr><td class="t-strong">Order book / backlog</td><td>The rupee value of contracts won but not yet executed. For a made-to-order firm this is the forward fuel gauge — revenue for the next 1–2 years is largely already sitting here (Lloyds: ~₹2,643 Cr at April 2026).</td></tr>
+      <tr><td class="t-strong">Order book / backlog</td><td>The rupee value of contracts won but not yet executed. For a made-to-order firm this is the forward fuel gauge — revenue for the next 1–2 years is largely already sitting here (Lloyds: ~₹2,643 Cr at April 2026; ₹2,826 Cr at Jun-26 for the current perimeter).</td></tr>
       <tr><td class="t-strong">Order inflow</td><td>The value of <em>new</em> orders won in a period. Because the backlog is constantly being burned into revenue, a company must keep replacing it — inflow above revenue (a book-to-bill above 1) means the backlog is still growing.</td></tr>
     </tbody>
   </table>
@@ -363,11 +364,15 @@
     <li class="major"><div class="yr">2025</div><div class="ev">A busy transformation year: a <strong>₹857 Cr rights issue</strong> (June), the <strong>Metalfab Hightech</strong> acquisition (76% at ₹130/share, May), a naval-equipment order from <strong>Cochin Shipyard</strong>, and the move to 100% ownership of <strong>Techno Industries</strong> (elevators) by December.</div></li>
     <li class="major"><div class="yr">Dec 2025</div><div class="ev"><strong>Lloyds Advance Defence Systems</strong> incorporated as a wholly-owned subsidiary; technology tie-ups (Poland's FlyFocus for UAVs, Italy's Cemi for automation) target drones, marine systems and radar.</div></li>
     <li class="major"><div class="yr">FY26</div><div class="ev">Consolidated revenue ~₹1,301 Cr (+54%), net profit ~₹198 Cr; order book ~₹2,643 Cr (+91%). An MoU signed to acquire <strong>Bhilai Engineering Corporation's</strong> engineering division (metallurgy, mining, railways, defence).</div></li>
+    <li class="major"><div class="yr">29 Dec 2025</div><div class="ev">Board approves a <strong>four-company merger</strong>: Lloyds Infrastructure &amp; Construction (LICL, then a 24.2% associate), Metalfab and Techno merge into LEWL (swap ratios LICL 1,798:1,500, Metalfab 94:5); the share count rises from 147.42 Cr to <strong>185.52 Cr</strong>. Exchange no-objections and CCI approval were reported in the press in 2026.</div></li>
+    <li class="major"><div class="yr">2026</div><div class="ev">Proposes to buy 52.16% of <strong>Steel Infra Solutions (SISCOL)</strong> for ~₹635 Cr (group 88.12% for ~₹1,073 Cr), adding a ₹1,197 Cr order book and 100k MTPA; forms a defence JV with <strong>Fincantieri (Italy)</strong> for propellers, shafting and thrusters (initial orders &gt;₹127 Cr).</div></li>
   </ul>
 
   <h3>Ownership &amp; structure</h3>
   <ul class="clean">
-    <li><strong>Promoters:</strong> the <strong>Gupta family / Lloyds Group</strong> control the company, with Mukesh R. Gupta as chairman. Notably, promoter holding has <em>fallen</em> — to roughly <strong>~42% (Jun 2026)</strong> from ~60% in late 2023 — as rights issues and equity-funded acquisitions brought in outside capital. Investors should track the promoter stake and any pledge directly in the shareholding filings.</li>
+    <li><strong>Promoters:</strong> the <strong>Gupta family / Lloyds Group</strong> control the company, with Mukesh R. Gupta as chairman. Notably, promoter holding has <em>fallen</em> — to <strong>40.00% (Aug 2026)</strong> from ~60% in late 2023 — as rights issues and equity-funded acquisitions brought in outside capital. A new pledge of 1.1 Cr promoter shares to ABCL was disclosed on 7 Oct 2026; track the stake and pledges in the filings.</li>
+    <li><strong>The pending merger:</strong> on 29 Dec 2025 the board approved folding LICL, Metalfab and Techno into LEWL, taking the share count to ~185.52 Cr (≈₹17,235 Cr of market value at the 13 Oct 2026 price). Today's reported figures exclude LICL, so the post-merger company will look very different.</li>
+    <li><strong>Related-party concentration:</strong> at least ~₹843 Cr (~32%) of LEWL's own order book is from Lloyds Metals &amp; Energy and Lloyds Enterprises, and LICL's book centres on the group's Gadchiroli projects.</li>
     <li><strong>Don't confuse the Lloyds entities:</strong> <strong>Lloyds Engineering Works (LLOYDSENGG)</strong> is this equipment/EPC maker. <strong>Lloyds Metals &amp; Energy</strong> is a separate listed iron-ore and steel company; <strong>Lloyds Enterprises</strong> is another Lloyds-branded listco. They share brand heritage, not financials — a common source of investor confusion.</li>
     <li><strong>Subsidiaries built the FY26 leap:</strong> <strong>Metalfab Hightech</strong> and <strong>Techno Industries</strong> (elevators/escalators) are now consolidated in, and <strong>Lloyds Advance Defence Systems</strong> is the new defence vehicle. This is why <em>consolidated</em> numbers run well ahead of standalone ones — read the two carefully, they are not the same company.</li>
   </ul>
@@ -437,7 +442,7 @@
   <div class="mini-stats">
     <div class="ms"><div class="msv">~₹2,643 Cr</div><div class="msl">Consolidated order book (Apr 2026), +91% YoY — the growth case in one figure</div></div>
     <div class="ms gold"><div class="msv">~2x</div><div class="msl">Order book as a multiple of FY26 revenue — roughly two years of visible work</div></div>
-    <div class="ms green"><div class="msv">~67 days</div><div class="msl">Debtor days, improved from ~117 — cash is coming back faster</div></div>
+    <div class="ms"><div class="msv">~67 days</div><div class="msl">Debtor days, reportedly improved from ~117 — but working-capital days rose from 101 to 188 and FY26 operating cash flow was −₹253 Cr</div></div>
   </div>
 
   <p>The thesis-settling metric, then, is not the order book in isolation — it is <strong>order inflow (book-to-bill above 1), converted at a steady ~18% EBITDA margin, without working capital ballooning</strong>. If all three hold as Lloyds scales toward and past ₹1,500–2,000 Cr of revenue, the growth is real and self-funding. If inflow stalls, if margins slip as it chases larger or lower-quality jobs, or if debtor days creep back up, the same backlog that looks like a coiled spring becomes cash trapped in half-built steel. Everything else in this primer is context; this triad is the scoreboard.</p>
@@ -452,7 +457,7 @@
 
   <h3>The moves, decoded</h3>
   <ul class="clean">
-    <li><strong>Defence &amp; naval (Lloyds Advance Defence Systems).</strong> A wholly-owned subsidiary formed in late 2025 to chase India's defence-indigenisation spend. Beyond the Navy/Coast Guard steering gears, stabilisers and deck machinery it already supplies, it has signed technology tie-ups with <strong>FlyFocus (Poland)</strong> for tactical drones/UAVs and <strong>Cemi (Italy)</strong> for industrial automation, targeting marine systems and radar. High-ambition, early-stage.</li>
+    <li><strong>Defence &amp; naval (Lloyds Advance Defence Systems).</strong> A wholly-owned subsidiary formed in late 2025 to chase India's defence-indigenisation spend. Beyond the Navy/Coast Guard steering gears, stabilisers and deck machinery it already supplies, it has signed technology tie-ups with <strong>FlyFocus (Poland)</strong> for tactical drones/UAVs and <strong>Cemi (Italy)</strong> for industrial automation, targeting marine systems and radar — plus a JV with <strong>Fincantieri (Italy)</strong> for propellers, shafting and thrusters (initial orders above ₹127 Cr) and tie-ups with Kliver Polska and Virtualabs. High-ambition, early-stage.</li>
     <li><strong>Elevators &amp; escalators (Techno Industries).</strong> Now a 100% subsidiary. This adds a more <em>product-like</em>, service-tailed business to a portfolio otherwise dominated by lumpy fabrication — a deliberate smoothing of the revenue profile, and the main driver of the Electrical segment's jump.</li>
     <li><strong>Metallurgy, mining &amp; railways (Bhilai Engineering / BECL).</strong> An MoU to acquire the <strong>engineering division of Bhilai Engineering Corporation</strong> would deepen Lloyds's reach into steel-plant equipment, mining and railway engineering — extending the industrial-capex footprint. Still at MoU stage, so treat as intent, not done.</li>
     <li><strong>High-tech fabrication (Metalfab Hightech).</strong> A 76% stake (₹130/share, May 2025) adding specialised fabrication capacity to the core.</li>
@@ -460,7 +465,7 @@
 
   <div class="plain">
     <div class="ptag">Why diversification is a double-edged move here</div>
-    <p>The logic is sound: defence and railway spending run on procurement cycles that don't move in lockstep with refinery capex, and an elevator business brings repeatable revenue. Spread across those, Lloyds is less at the mercy of any one industry's budget. But an acquisition-led sprint into unfamiliar markets carries its own bill — integration risk, management bandwidth, and equity dilution to pay for it all (the promoter stake fell from ~60% to ~42% partly for this reason). Defence in particular is a slow, credential-heavy market where orders take years to mature. The diversification is the right instinct; the risk is paying up front, in cash and in shares, for engines that take time to actually turn.</p>
+    <p>The logic is sound: defence and railway spending run on procurement cycles that don't move in lockstep with refinery capex, and an elevator business brings repeatable revenue. Spread across those, Lloyds is less at the mercy of any one industry's budget. But an acquisition-led sprint into unfamiliar markets carries its own bill — integration risk, management bandwidth, and equity dilution to pay for it all (the promoter stake fell from ~60% to ~40% partly for this reason). Defence in particular is a slow, credential-heavy market where orders take years to mature. The diversification is the right instinct; the risk is paying up front, in cash and in shares, for engines that take time to actually turn.</p>
   </div>
 </section>
 
@@ -501,7 +506,7 @@
 
   <div class="plain">
     <div class="ptag">Why the equity-first choice is the sane one here — with a catch</div>
-    <p>For a fixed-price fabricator, debt is dangerous: if a project slips or a customer pays late, interest keeps compounding while the cash is trapped in half-built steel. Funding growth with equity keeps the company from that trap — a near-debt-free balance sheet can absorb a bad project or a slow payer without a lender forcing its hand. The catch is dilution: every rights issue and every equity-funded acquisition shrinks existing holders' slice, and the promoter stake sliding under ~42% shows how much has been issued. So the balance sheet is a genuine strength — but the growth is being partly <em>bought</em> with new shares, and per-share value only compounds if the capital raised earns a return above what the dilution cost. Watch return on capital, not just headline growth.</p>
+    <p>For a fixed-price fabricator, debt is dangerous: if a project slips or a customer pays late, interest keeps compounding while the cash is trapped in half-built steel. Funding growth with equity keeps the company from that trap — a near-debt-free balance sheet can absorb a bad project or a slow payer without a lender forcing its hand. The catch is dilution: every rights issue and every equity-funded acquisition shrinks existing holders' slice, and the promoter stake sliding to ~40% shows how much has been issued. The cash came from equity, not operations: FY26 operating cash flow was <strong>−₹253 Cr</strong> as working-capital days rose from 101 to 188. So the balance sheet (net cash ~₹365 Cr) is a genuine strength — but the growth is being partly <em>bought</em> with new shares, and per-share value only compounds if the capital raised earns a return above what the dilution cost. Watch return on capital, not just headline growth.</p>
   </div>
 </section>
 
@@ -538,7 +543,7 @@
   <div class="part-head"><span class="pno">10</span><h2>Financials &amp; valuation</h2></div>
   <p class="part-sub">A genuine growth ramp — priced richly, on a small and partly-acquired base.</p>
 
-  <p class="lead">The FY26 numbers are strong: revenue up ~54%, profit nearly doubled, margins in the high-teens, order book up ~91%, and a clean balance sheet. The market has paid up for it — a P/E near ~68× is a premium multiple that already assumes the growth persists. The debate is whether execution and returns can justify it.</p>
+  <p class="lead">The FY26 numbers are strong: revenue up ~54%, profit nearly doubled, margins in the high-teens, order book up ~91%, and a clean balance sheet. The market has paid up for it — a P/E near ~64.5× (13 Oct 2026) is a premium multiple that already assumes the growth persists. The debate is whether execution and returns can justify it.</p>
 
   <div class="chart">
     <div class="c-title">Revenue trajectory</div>
@@ -585,26 +590,26 @@
 
   <div class="chart">
     <div class="c-title">Where the multiple sits vs the peer set</div>
-    <div class="c-sub">Approximate trailing P/E — illustrative, for positioning only (not a recommendation)</div>
+    <div class="c-sub">Approximate trailing P/E — illustrative, for positioning only (not a recommendation). Lloyds, GMM Pfaudler, Anup and Praj as of 13 Oct 2026; Thermax and ISGEC are earlier estimates</div>
     <div class="bars">
-      <div class="bar-row"><div class="blab">Lloyds Engineering</div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~68×</div></div>
-      <div class="bar-row"><div class="blab">Thermax</div><div class="track"><span class="fill ink" style="width:82%"></span></div><div class="bval">~55×</div></div>
-      <div class="bar-row"><div class="blab">GMM Pfaudler / Anup</div><div class="track"><span class="fill wtg" style="width:60%"></span></div><div class="bval">~40×</div></div>
-      <div class="bar-row"><div class="blab">Praj Industries</div><div class="track"><span class="fill brand" style="width:51%"></span></div><div class="bval">~35×</div></div>
-      <div class="bar-row"><div class="blab">ISGEC Heavy Engg.</div><div class="track"><span class="fill spec" style="width:44%"></span></div><div class="bval">~30×</div></div>
+      <div class="bar-row"><div class="blab">Lloyds Engineering</div><div class="track"><span class="fill gold" style="width:61%"></span></div><div class="bval">~64.5×</div></div>
+      <div class="bar-row"><div class="blab">Thermax</div><div class="track"><span class="fill ink" style="width:52%"></span></div><div class="bval">~55×</div></div>
+      <div class="bar-row"><div class="blab">GMM Pfaudler / Anup</div><div class="track"><span class="fill wtg" style="width:40%"></span></div><div class="bval">~35–47×</div></div>
+      <div class="bar-row"><div class="blab">Praj Industries</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~105×</div></div>
+      <div class="bar-row"><div class="blab">ISGEC Heavy Engg.</div><div class="track"><span class="fill spec" style="width:29%"></span></div><div class="bval">~30×</div></div>
     </div>
-    <div class="legend"><span>Peer multiples are <em>approximate and illustrative</em> — they move daily and should be checked live. The shape is the point: Lloyds trades at the <strong>top</strong> of the process-equipment peer range, pricing in above-peer growth and successful diversification.</span></div>
+    <div class="legend"><span>Peer multiples are <em>approximate and illustrative</em> — they move daily and should be checked live. The shape is the point: Lloyds trades near the <strong>top</strong> of the process-equipment peer range, pricing in above-peer growth and successful diversification. Praj's ~105× reflects collapsed FY26 earnings, not a growth premium.</span></div>
   </div>
 
   <div class="mini-stats">
     <div class="ms gold"><div class="msv">~18%</div><div class="msl">FY26 EBITDA margin — the execution-quality scoreboard</div></div>
     <div class="ms green"><div class="msv">~₹109 Cr</div><div class="msl">Total debt — "almost debt-free" after the equity-funded ramp</div></div>
-    <div class="ms red"><div class="msv">~68×</div><div class="msl">Trailing P/E on ~₹12,970 Cr market cap — a premium, high-expectation multiple</div></div>
+    <div class="ms red"><div class="msv">~64.5×</div><div class="msl">Trailing P/E on ₹14,433 Cr market cap (13 Oct 2026) — a premium, high-expectation multiple</div></div>
   </div>
 
   <div class="plain">
     <div class="ptag">The one number that settles the thesis: order inflow × margin × cash</div>
-    <p>At ~68× earnings, Lloyds is not priced as a cyclical fabricator; it is priced as a company that will keep compounding order inflow at a steady margin while the diversification pays off. So the figure to track is the <strong>book-to-bill × EBITDA-margin × working-capital</strong> triad from Section 05 — order inflow staying above revenue (book still growing), the ~18% margin holding as jobs scale and acquisitions integrate, and debtor days not creeping back toward the old ~117. If those three print quarter after quarter, the premium is defensible and the ~₹2,643 Cr backlog converts into compounding profit. If inflow stalls, margins thin on larger or lower-quality work, or cash gets trapped, a ~68× multiple on a small, partly-acquired earnings base leaves little cushion. The order book is the promise; margin-and-cash conversion is whether it gets kept.</p>
+    <p>At ~64.5× earnings, Lloyds is not valued as a cyclical fabricator; it is valued as a company that will keep compounding order inflow at a steady margin while the diversification pays off. So the figure to track is the <strong>book-to-bill × EBITDA-margin × working-capital</strong> triad from Section 05 — order inflow staying above revenue (book still growing), the ~18% margin holding as jobs scale and acquisitions integrate, and debtor days not creeping back toward the old ~117. If those three print quarter after quarter, the premium is defensible and the ~₹2,643 Cr backlog converts into compounding profit. If inflow stalls, margins thin on larger or lower-quality work, or cash gets trapped, a ~64.5× multiple on a small, partly-acquired earnings base would be exposed. The order book is the promise; margin-and-cash conversion is whether it gets kept.</p>
   </div>
 
   <div class="note">Several figures here carry caveats. FY26 numbers are <b>consolidated</b> and include acquired businesses; FY23–FY25 mix standalone and consolidated bases, so year-on-year comparisons are directional, not like-for-like. FY23 revenue (~₹312 Cr) is <b>approx.</b>, implied from the FY24 growth rate; peer P/Es are <b>approximate/illustrative</b> and move daily. Verify every figure against the company's filings before relying on it.</div>
@@ -622,19 +627,20 @@
       <h4>The bull case</h4>
       <ul class="clean">
         <li><strong>Broad industrial-capex tailwind</strong> — steel expansion, oil &amp; gas capex, defence indigenisation and power/infra all feeding the order book at once.</li>
-        <li><strong>Order book up ~91%</strong> to ~₹2,643 Cr — roughly two years of visible revenue, growing faster than it burns (book-to-bill above 1).</li>
+        <li><strong>Order book up ~91%</strong> to ~₹2,643 Cr (₹2,826 Cr at Jun-26) — roughly two years of visible revenue, growing faster than it burns (book-to-bill above 1).</li>
         <li><strong>Margins holding in the high-teens</strong> even as revenue scaled — evidence of disciplined bidding, not bought growth.</li>
-        <li><strong>Clean balance sheet</strong> — near debt-free after an equity-funded ramp; improving debtor days free cash for the next contract.</li>
+        <li><strong>Clean balance sheet</strong> — net cash of ~₹365 Cr after an equity-funded ramp.</li>
         <li><strong>Optionality from diversification</strong> — defence/naval, elevators and the BECL railway/metallurgy MoU could add engines beyond the hydrocarbon-and-steel core.</li>
       </ul>
     </div>
     <div class="col bear">
       <h4>The bear case</h4>
       <ul class="clean">
-        <li><strong>Rich valuation</strong> — ~68× earnings on a small, partly-acquired base prices in years of flawless compounding; little cushion for a miss.</li>
+        <li><strong>Rich valuation</strong> — ~64.5× earnings on a small, partly-acquired base assumes years of strong compounding; a miss would hurt.</li>
+        <li><strong>Related-party &amp; cash risk</strong> — ~32% of LEWL's own book is from Lloyds group companies, and FY26 operating cash flow was −₹253 Cr.</li>
         <li><strong>Cyclicality</strong> — order flow depends on other industries' capex, which is deferrable and turns; a capex slowdown hits equipment orders first.</li>
         <li><strong>Execution &amp; input-cost risk</strong> — fixed-price fabrication means steel/alloy inflation or project slips can erode the margin the whole thesis rests on.</li>
-        <li><strong>Dilution &amp; acquisition risk</strong> — growth part-funded by new equity (promoter stake ~60%→~42%); integrating Metalfab/Techno/defence into returns above the dilution cost is unproven.</li>
+        <li><strong>Dilution &amp; acquisition risk</strong> — growth part-funded by new equity (promoter stake ~60%→~40%); integrating Metalfab/Techno/defence into returns above the dilution cost is unproven.</li>
         <li><strong>Small-cap &amp; concentration</strong> — lumpy contracts, client/sector concentration, and a competitive field of far larger, better-credentialed rivals.</li>
       </ul>
     </div>
@@ -642,7 +648,7 @@
 
   <div class="plain">
     <div class="ptag">The bottom line</div>
-    <p>Lloyds Engineering has done the hard, unglamorous work of turning a steel-era fabricator into a fast-growing, near-debt-free engineering company riding a broad industrial-capex wave — and it has done it while holding margins and improving cash collection. That is a genuinely good business getting better. What it has not yet proven is that the acquisition-and-equity-fuelled diversification into defence, lifts and railways will earn returns above the shares it issued to buy them, and that a ~68× multiple can be grown into by execution rather than hope. The next milestones are concrete and checkable: the <strong>BECL engineering-division deal moving from MoU to close</strong>, the <strong>first meaningful revenue and margin out of Lloyds Advance Defence Systems</strong>, and — every quarter — whether order inflow stays above revenue at a steady ~18% margin while debtor days hold near ~67. Those prints, not the backlog headline, will tell you whether the quantity of growth came with the quality to justify its price.</p>
+    <p>Lloyds Engineering has done the hard, unglamorous work of turning a steel-era fabricator into a fast-growing, near-debt-free engineering company riding a broad industrial-capex wave — and it has done it while holding margins — though operating cash flow (−₹253 Cr in FY26) has not kept up. That is a genuinely good business getting better. What it has not yet proven is that the acquisition-and-equity-fuelled diversification into defence, lifts and railways will earn returns above the shares it issued to buy them, and that execution, not hope, can lift earnings enough to support a ~64.5× multiple. The next milestones are concrete and checkable: the <strong>BECL engineering-division deal moving from MoU to close</strong>, the <strong>first meaningful revenue and margin out of Lloyds Advance Defence Systems</strong>, and — every quarter — whether order inflow stays above revenue at a steady ~18% margin while debtor days hold near ~67. Those prints, not the backlog headline, will tell you whether the quantity of growth came with the quality to justify its price.</p>
   </div>
 </section>
 

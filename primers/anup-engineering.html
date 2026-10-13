@@ -192,6 +192,7 @@
   footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
   footer.src li{margin-bottom:7px;break-inside:avoid;}
   .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+  main{min-width:0;}
 </style>
 <style id="pdf-print-style">
 .dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#C0743A);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
@@ -253,18 +254,18 @@
 <div class="stat-strip">
     <div class="cell"><div class="v">~₹822 <small>Cr</small></div><div class="l">Revenue (FY26)</div></div>
     <div class="cell"><div class="v">~₹110 <small>Cr</small></div><div class="l">Net profit (FY26)</div></div>
-    <div class="cell"><div class="v">~₹770 <small>Cr</small></div><div class="l">Order book (FY27 entry)</div></div>
-    <div class="cell"><div class="v">~₹3,600 <small>Cr</small></div><div class="l">Market cap (mid-2026)</div></div>
+    <div class="cell"><div class="v">₹985 <small>Cr</small></div><div class="l">Order book (Aug 2026, incl. LOI)</div></div>
+    <div class="cell"><div class="v">₹3,027 <small>Cr</small></div><div class="l">Market cap (13 Oct 2026)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">2 Sep 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: FY26 results + Q1 FY27 results (quarter ended Jun 2026); market data as of 13 Oct 2026</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 results incorporated — revenue up ~12% to ~₹822 Cr while PAT eased to ~₹110 Cr on margin/mix softness; Kheda phase-2 lifts total capacity to ~20,000 MT/yr (~₹1,200 Cr revenue potential); first nuclear-equipment order booked; export mix held near 50–60%.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b><strong>Q1 FY27 (Jun-26 quarter) was a sharp miss:</strong> revenue ₹125 Cr (−28.5% YoY), EBITDA ₹9.5 Cr (7.6%), PAT ₹0.6 Cr (−98%). FY27 guidance is only 5–10% revenue growth at ~15% EBITDA, on fixed-price contracts with no cost pass-through. Orders are the bright spot: a record ~₹315 Cr Q1 intake took the pending book to ₹985 Cr incl. LOIs (6 Aug 2026; ~₹240 Cr of it for FY28), against a ₹1,100 Cr enquiry pipeline; the book is 39% export. Market cap ₹3,027 Cr, P/E ~35× (TTM), P/B ~4.4× as of 13 Oct 2026, near the 52-week low. Q2 FY27 results not yet out. Earlier: FY26 results incorporated — revenue up ~12% to ~₹822 Cr while PAT eased to ~₹110 Cr on margin/mix softness; Kheda phase-2 lifts total capacity to ~20,000 MT/yr (~₹1,200 Cr revenue potential); first nuclear-equipment order booked.</div>
 </header>
 
 <!-- 00 -->
@@ -277,7 +278,7 @@
   <p>Three facts frame everything:</p>
   <ul class="clean">
     <li><strong>The value is in the metallurgy, not the tonnage.</strong> Anyone can cut and weld carbon steel. Anup's reputation is for building equipment in <em>difficult</em> materials — titanium, zirconium, tantalum, nickel alloys, duplex stainless, clad plate — to tolerances that most fabricators cannot hold. That is why it earns a <strong>~20%+ EBITDA margin and ~20% return on capital</strong> on what is, on paper, a metal-bending business. The steel is a small part of the price; the engineering, the welding qualifications and the testing are the rest.</li>
-    <li><strong>It is a capex-cycle business, and the cycle is turning up.</strong> Anup only gets an order when someone builds or expands a plant. India's process industries are in a spending upswing — refinery expansions, a specialty-chemicals and China+1 capex wave, fertiliser revamps — and export demand adds to it. That is what filled the order book to roughly <strong>₹770 Cr</strong> entering FY27, on top of an enquiry pipeline management pegs near ₹1,200 Cr.</li>
+    <li><strong>It is a capex-cycle business, and the cycle is turning up.</strong> Anup only gets an order when someone builds or expands a plant. India's process industries are in a spending upswing — refinery expansions, a specialty-chemicals and China+1 capex wave, fertiliser revamps — and export demand adds to it. That is what filled the order book to roughly <strong>₹770 Cr</strong> entering FY27 and <strong>₹985 Cr</strong> (incl. LOIs) by Aug 2026, with an enquiry pipeline management now pegs near ₹1,100 Cr. Revenue has not followed yet: Q1 FY27 sales fell 28.5% and management guides only 5–10% growth for FY27.</li>
     <li><strong>It just doubled its own capacity and moved up-spec.</strong> A new greenfield plant at <strong>Kheda</strong> takes group capacity to roughly <strong>20,000 tonnes a year</strong> — enough, at full utilisation, to support well over ₹1,200 Cr of revenue versus the ~₹822 Cr done in FY26. And it is pushing into higher-complexity work — cryogenic, hydrogen-ready, and its first <strong>nuclear</strong> equipment order — that a bulk fabricator cannot touch.</li>
   </ul>
 
@@ -379,13 +380,15 @@
     <li><div class="yr">2020–2023</div><div class="ev">Steady margin-led growth; the Odhav (Ahmedabad) plant runs near its ceiling, and management commits to a large greenfield site to break the capacity constraint.</div></li>
     <li class="major"><div class="yr">FY24–FY25</div><div class="ev">The <strong>Kheda</strong> plant comes on stream; revenue crosses ₹700 Cr; return ratios stay high; the order book and export mix build with the capex cycle.</div></li>
     <li class="major"><div class="yr">FY26</div><div class="ev">Kheda <strong>phase-2</strong> lifts group capacity to ~20,000 MT/yr; first <strong>nuclear</strong>-equipment order booked; revenue ~₹822 Cr (+~12%) but PAT eases to ~₹110 Cr on margin/mix — a scale-up year with a profit wobble.</div></li>
+    <li class="major"><div class="yr">Q1 FY27</div><div class="ev">Revenue falls 28.5% to ~₹125 Cr and PAT to ~₹0.6 Cr; FY27 guided at 5–10% revenue growth and ~15% EBITDA margin. A record ~₹315 Cr order intake lifts the pending book to ₹985 Cr.</div></li>
   </ul>
 
   <h3>Ownership &amp; structure</h3>
   <ul class="clean">
-    <li><strong>Promoters:</strong> the <strong>Lalbhai family</strong> and associated Arvind-group entities remain the controlling shareholders after the demerger, holding a large majority stake. This is a professionally run, long-established industrial house rather than a founder-operator startup — continuity of management and customer relationships is part of the asset.</li>
+    <li><strong>Promoters:</strong> the <strong>Lalbhai family</strong> and associated Arvind-group entities remain the controlling shareholders after the demerger, though with a minority stake — <strong>40.92%</strong> at Jun-26, down from 42.91% in Sep-23. This is a professionally run, long-established industrial house rather than a founder-operator startup — continuity of management and customer relationships is part of the asset.</li>
     <li><strong>What it is <em>not</em>:</strong> do not confuse Anup with the parent <strong>Arvind Ltd</strong> (textiles) or <strong>Arvind Fashions / Arvind SmartSpaces</strong> — different listed companies from the same family tree. Anup is the standalone engineering business only.</li>
-    <li><strong>Balance sheet:</strong> conservatively financed. Borrowings are modest relative to a ~₹2,700 Cr net worth base, and the business is structurally cash-generative — high return on capital funds most of its own growth, with the Kheda capex the main recent call on cash. This is a low-leverage, high-ROCE profile, not a debt-fuelled expansion.</li>
+    <li><strong>Balance sheet:</strong> conservatively financed. Borrowings are modest relative to a <strong>~₹691 Cr net worth</strong> (Mar-26): ~₹110 Cr of debt against ~₹13 Cr of cash, or ~₹97 Cr of net debt, which the company says had fallen to roughly nil (~₹1 Cr net cash) by 6 Aug 2026. Cash conversion is the weak spot: FY26 operating cash flow was only ~₹2 Cr, with debtor days near 185, as the Kheda capex and working capital absorbed cash. This is a low-leverage, high-ROCE profile, not a debt-fuelled expansion — but not a self-funding one either.</li>
+    <li><strong>A third plant:</strong> <strong>Mabel Engineers</strong> (Chennai), a 100% subsidiary, adds a ~20,000 m² facility with U-stamp certification, qualified by EIL for silos.</li>
   </ul>
 
   <div class="plain">
@@ -423,7 +426,7 @@
 
   <p>There is a ladder implicit in all this. At the bottom sit commodity carbon-steel vessels that anyone can weld; in the middle, the stainless heat exchangers that are Anup's bread and butter; above them, exotic-alloy and clad reactors; and on the top rungs the frontier work — cryogenic, hydrogen-ready, and now nuclear and defence. Every rung up raises the price per tonne and shrinks the list of qualified rivals, and Anup's whole strategy is to keep migrating its mix rightward. The Kheda clean-room and that first nuclear order are the most recent steps onto the higher rungs.</p>
 
-  <div class="note gold"><b>A genuine surprise:</b> in FY26 Anup grew <em>revenue</em> by roughly 12% yet its <em>net profit slipped</em>, from about ₹118 Cr to ~₹110 Cr. For a company this profitable that is a tell worth sitting with — a made-to-order shop's margin in any given year depends on the <em>mix</em> of jobs it happened to execute and how cleanly they ran, not just on how busy it was. Record revenue with softer profit is the signature of a scale-up year where lower-margin work and start-up costs at a new plant crowded in. It is a reminder that "order book up" and "profit up" are not the same sentence here.</div>
+  <div class="note gold"><b>A genuine surprise:</b> in FY26 Anup grew <em>revenue</em> by roughly 12% yet its <em>net profit slipped</em>, from about ₹118 Cr to ~₹110 Cr. For a company this profitable that is a tell worth sitting with — a made-to-order shop's margin in any given year depends on the <em>mix</em> of jobs it happened to execute and how cleanly they ran, not just on how busy it was. Record revenue with softer profit is typical of a scale-up year where lower-margin work and start-up costs at a new plant crowded in. It is a reminder that "order book up" and "profit up" are not the same sentence here.</div>
 </section>
 
 <!-- 05 -->
@@ -450,11 +453,11 @@
     <div class="c-title">Order book &amp; the enquiry pipeline behind it</div>
     <div class="c-sub">Approximate, ₹ Crore — booked work versus the funnel of live enquiries</div>
     <div class="bars">
-      <div class="bar-row"><div class="blab">Enquiry pipeline<small>live, un-booked</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~1,200</div></div>
-      <div class="bar-row"><div class="blab">Order book<small>FY27 entry</small></div><div class="track"><span class="fill brand" style="width:64%"></span></div><div class="bval">~770</div></div>
-      <div class="bar-row"><div class="blab">FY26 revenue<small>for scale</small></div><div class="track"><span class="fill wtg" style="width:69%"></span></div><div class="bval">~822</div></div>
+      <div class="bar-row"><div class="blab">Enquiry pipeline<small>live, un-booked</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~1,100</div></div>
+      <div class="bar-row"><div class="blab">Order book<small>Aug 2026, incl. LOI</small></div><div class="track"><span class="fill brand" style="width:90%"></span></div><div class="bval">~985</div></div>
+      <div class="bar-row"><div class="blab">FY26 revenue<small>for scale</small></div><div class="track"><span class="fill wtg" style="width:75%"></span></div><div class="bval">~822</div></div>
     </div>
-    <div class="legend"><span>Order book of ~₹770 Cr is a little under a year of revenue — normal for short-to-medium-cycle equipment — with a ~₹1,200 Cr enquiry pipeline behind it. The pipeline is the leading indicator: a fat funnel today is next year's booked orders, provided the capex cycle holds.</span></div>
+    <div class="legend"><span>Order book of ~₹985 Cr (Aug 2026, incl. LOIs; ~₹240 Cr of it for FY28) is a little over a year of revenue — normal for short-to-medium-cycle equipment — with a ~₹1,100 Cr enquiry pipeline behind it and intake running at ₹200–250 Cr a quarter. The pipeline is the leading indicator: a fat funnel today is next year's booked orders, provided the capex cycle holds.</span></div>
   </div>
 
   <div class="plain">
@@ -463,9 +466,9 @@
   </div>
 
   <div class="mini-stats">
-    <div class="ms"><div class="msv">~₹770 Cr</div><div class="msl">Order book entering FY27 — roughly a year of work in hand</div></div>
-    <div class="ms gold"><div class="msv">~₹1,200 Cr</div><div class="msl">Live enquiry pipeline — the leading indicator of the next order book</div></div>
-    <div class="ms green"><div class="msv">50–60%</div><div class="msl">Export share of the book — a demand engine outside the domestic cycle</div></div>
+    <div class="ms"><div class="msv">₹985 Cr</div><div class="msl">Order book at Aug 2026 incl. LOIs (₹770 Cr entering FY27) — over a year of work in hand</div></div>
+    <div class="ms gold"><div class="msv">~₹1,100 Cr</div><div class="msl">Live enquiry pipeline — the leading indicator of the next order book</div></div>
+    <div class="ms green"><div class="msv">~39%</div><div class="msl">Export share of the Aug-26 book — below the 50–60% band of earlier years</div></div>
   </div>
 </section>
 
@@ -506,7 +509,7 @@
 
   <p class="lead">Two things make Anup more than a domestic capex proxy. First, roughly <strong>half its order book is exports</strong> — equipment shipped to overseas plant owners and EPC contractors who value certified Indian fabrication at competitive cost. Second, Anup is deliberately steering its mix toward <strong>higher-spec, harder-to-make</strong> equipment where the price per tonne and the barriers to entry are both highest.</p>
 
-  <p>The precise split moves quarter to quarter, but Anup consistently targets that <strong>50–60% export</strong> band. That overseas demand partly de-couples the company from the timing of India's own capex cycle — a slow domestic year can be cushioned by export orders, and a busy one runs both engines at once. It also validates the quality claim: an overseas plant owner choosing certified Indian fabrication over a local or Western OEM is a harder customer to win than a domestic one, and winning them repeatedly is its own proof of Anup's standing.</p>
+  <p>The precise split moves quarter to quarter, and Anup has historically aimed for a <strong>50–60% export</strong> band — though the latest order book is 39% export / 61% domestic, and Q1 FY27 revenue was 40% export plus 11% deemed export/SEZ. That overseas demand partly de-couples the company from the timing of India's own capex cycle — a slow domestic year can be cushioned by export orders, and a busy one runs both engines at once. It also validates the quality claim: an overseas plant owner choosing certified Indian fabrication over a local or Western OEM is a harder customer to win than a domestic one, and winning them repeatedly is its own proof of Anup's standing.</p>
 
   <p>The move up-spec is where the optionality lives. Anup is building qualifications and reference orders in a set of frontier applications, each of which is small today but sits on the most defensible, highest-value rungs of the ladder:</p>
 
@@ -536,7 +539,7 @@
     <thead><tr><th>Player</th><th>Position</th><th>Vs Anup Engineering</th></tr></thead>
     <tbody>
       <tr><td class="t-strong" style="color:var(--brand)">Anup Engineering</td><td>Focused process-equipment specialist; heat-exchanger-led; exotic metallurgy; high ROCE, low debt</td><td><em>This company.</em> The debate is capex-cycle demand and filling Kheda, not survival or quality.</td></tr>
-      <tr><td class="t-strong">Godrej Process Equipment</td><td>The closest listed twin — a scaled, well-regarded heat-exchanger and vessel specialist</td><td>The most direct comparison; both chase the same premium, exotic-metal, export-heavy jobs. A genuine peer to benchmark margins and order book against.</td></tr>
+      <tr><td class="t-strong">Godrej Process Equipment</td><td>The closest Indian twin — a scaled, well-regarded heat-exchanger and vessel specialist; a division of Godrej &amp; Boyce, not separately listed</td><td>The most direct comparison; both chase the same premium, exotic-metal, export-heavy jobs. A genuine peer to benchmark margins and order book against.</td></tr>
       <tr><td class="t-strong">L&amp;T (Heavy Engineering)</td><td>The engineering giant's process-plant and reactor arm</td><td>Vastly larger and takes the biggest, most complex packages; overlaps at the top end but is not a focused pure-play — Anup wins on nimbleness and cost for mid-sized critical equipment.</td></tr>
       <tr><td class="t-strong">ISGEC Heavy Engineering</td><td>Diversified heavy-engineering and process-equipment maker</td><td>Broader product range across boilers, presses and equipment; competes on selected vessel and exchanger tenders.</td></tr>
       <tr><td class="t-strong">GMM Pfaudler</td><td>The leader in <em>glass-lined</em> equipment for corrosive chemical duty</td><td>An adjacent niche, not a head-on rival — Anup's answer to corrosion is exotic metal and clad, GMM's is glass lining. They meet only at the edges of the chemical market.</td></tr>
@@ -564,7 +567,7 @@
     <div class="c-title">Revenue trajectory</div>
     <div class="c-sub">Consolidated revenue, ₹ Crore (approximate)</div>
     <div class="bars">
-      <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill wtg" style="width:68%"></span></div><div class="bval">~560</div></div>
+      <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill wtg" style="width:67%"></span></div><div class="bval">~550</div></div>
       <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:89%"></span></div><div class="bval">~733</div></div>
       <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~822</div></div>
     </div>
@@ -585,12 +588,12 @@
   <div class="mini-stats">
     <div class="ms gold"><div class="msv">~21%</div><div class="msl">FY26 EBITDA margin — the specialist premium over bulk fabrication</div></div>
     <div class="ms green"><div class="msv">Low debt</div><div class="msl">Conservatively financed; growth largely self-funded from cash flow</div></div>
-    <div class="ms red"><div class="msv">~33×</div><div class="msl">Trailing P/E on ~₹3,600 Cr market cap — a quality-compounder multiple</div></div>
+    <div class="ms red"><div class="msv">~35×</div><div class="msl">Trailing P/E on ₹3,027 Cr market cap (13 Oct 2026; P/B ~4.4×) — a quality-compounder multiple on slumping earnings</div></div>
   </div>
 
   <div class="plain">
     <div class="ptag">The one number that settles the thesis: Kheda utilisation and the margin it carries</div>
-    <p>At roughly 33× earnings and ~₹3,600 Cr of market value, Anup is valued as a durable, high-return compounder — not as a cheap cyclical. So the metric that will prove or break that valuation is <strong>the utilisation of the ~20,000 MT capacity and whether it is filled with margin-accretive work</strong>, read together with <strong>revenue per tonne</strong> (is the mix moving up the ladder?) and <strong>the enquiry pipeline converting to orders</strong> (is the capex cycle feeding the plant?). If Kheda fills with exotic-metal and frontier jobs, revenue re-accelerates toward the ₹1,200 Cr-plus the plant can support and the FY26 profit dip reads as a ramp blip. If the plant runs half-empty or fills with commodity work, the return ratios that justify the multiple erode — and a 33× stock does not forgive that. Utilisation-at-margin, not the order-book headline, is the scoreboard.</p>
+    <p>At roughly 35× trailing earnings and ₹3,027 Cr of market value (13 Oct 2026, near the 52-week low), Anup is valued as a durable, high-return compounder — not as a cheap cyclical. So the metric that will prove or break that valuation is <strong>the utilisation of the ~20,000 MT capacity and whether it is filled with margin-accretive work</strong>, read together with <strong>revenue per tonne</strong> (is the mix moving up the ladder?) and <strong>the enquiry pipeline converting to orders</strong> (is the capex cycle feeding the plant?). If Kheda fills with exotic-metal and frontier jobs, revenue re-accelerates toward the ₹1,200 Cr-plus the plant can support and the FY26–Q1 FY27 profit slump reads as a ramp problem rather than a broken model — though management's own FY27 guide (5–10% revenue growth, ~15% EBITDA on fixed-price contracts) says the slump is not over yet. If the plant runs half-empty or fills with commodity work, the return ratios that justify the multiple erode — and a 35× stock does not forgive that. Utilisation-at-margin, not the order-book headline, is the scoreboard.</p>
   </div>
 
   <div class="note">Figures here are approximate, drawn from company results and third-party data for FY26 (year ended March 2026) and prior years, and cross-checked across sources; the year-by-year revenue and PAT bars are <b>approx.</b> reconstructions and the segment/end-market splits are <b>indicative</b>, not reported line items. Verify against the company's filings before relying on any single number.</div>
@@ -607,7 +610,7 @@
     <div class="col bull">
       <h4>The bull case</h4>
       <ul class="clean">
-        <li><strong>Capex-cycle tailwind</strong> — refinery, specialty-chemical/China+1 and fertiliser spending, plus exports, feed a ~₹1,200 Cr enquiry pipeline.</li>
+        <li><strong>Capex-cycle tailwind</strong> — refinery, specialty-chemical/China+1 and fertiliser spending, plus exports, feed a ~₹1,100 Cr enquiry pipeline and a record ₹985 Cr order book.</li>
         <li><strong>Capacity headroom</strong> — Kheda phase-2 roughly doubles capacity to ~20,000 MT/yr and can support ₹1,200 Cr-plus of revenue as it fills.</li>
         <li><strong>Metallurgy moat &amp; high returns</strong> — exotic-metal capability and code approvals underpin ~20% margins and ~20% ROCE that bulk rivals cannot match.</li>
         <li><strong>Move up-spec</strong> — cryogenic, hydrogen and a first nuclear order add high-barrier, high-value optionality with a growing clean-room base.</li>
@@ -620,7 +623,7 @@
         <li><strong>No demand of its own</strong> — a made-to-order shop is hostage to the capex cycle; a downturn in client spending thins the book directly.</li>
         <li><strong>Utilisation risk</strong> — a doubled plant carries fixed costs; if orders lag, the very margins that define Anup get squeezed (FY26 hinted at this).</li>
         <li><strong>Lumpy, mix-driven profit</strong> — profit swings with the jobs executed and start-up costs; revenue growth need not mean profit growth, as FY26 showed.</li>
-        <li><strong>Premium valuation</strong> — ~33× earnings prices in continued high-quality compounding; a soft cycle or margin slip can de-rate it sharply.</li>
+        <li><strong>Premium valuation</strong> — ~35× trailing earnings, even after Q1 FY27 profit fell 98% and FY27 is guided at a ~15% EBITDA margin; a soft cycle or margin slip can de-rate it sharply.</li>
         <li><strong>Concentration &amp; competition</strong> — heavy reliance on heat exchangers; a capable direct peer in Godrej and the scale of L&amp;T at the top end.</li>
       </ul>
     </div>
