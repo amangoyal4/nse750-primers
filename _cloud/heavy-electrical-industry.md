@@ -519,3 +519,53 @@ Ranges are [E], calibrated on FY24–FY26 data for the listed universe (V screen
 - Thermal under construction: 39,545 MW (Outlook Business, fetched) vs 38,745 MW (another report of the same reply) — used the fetched figure; awarded 22,920 vs 22,290 MW — used fetched 22,920.
 - GE Vernova T&D backlog: ~₹20,900 cr at Jun-2026 (PL/T&D India) vs ₹21,460 cr cited for Mar-2026 by an aggregator — PL fetched figure used.
 - Transmission capex estimates: ICRA ₹5–6 lakh cr FY27–32 (central+state ISTS-heavy) vs NEP-T ₹9.15 lakh cr FY23–32 (includes intra-state and HVDC) — scopes differ; both cited.
+
+
+---
+
+# COMPANY-KPI APPENDIX (written by the orchestrator, cross-checked across batches 1–2)
+
+Basis: standardized figures independently re-pulled by the orchestrator from screener.in on **13 Oct 2026, 17:20 UTC (13 Oct close)** [V]. Consolidated pages except where marked SA (standalone): screener has no consolidated data for Hitachi Energy India, Siemens Energy India, Schneider, Voltamp, and the GE Vernova T&D consolidated page is broken (`GVT%26D`). Every figure in batches 1 and 2 matches this re-pull. **Because fiscal years differ** (Siemens Ltd moved from Oct–Sep to Apr–Mar with an 18-month transition period Oct-24→Mar-26; Siemens Energy India runs Oct–Sep; TARIL already reported Sep-26), the **common basis for aggregates and the peer table is TTM = trailing four reported quarters** (to Jun-26; TARIL to Sep-26). Screener "Operating Profit" excludes other income.
+
+## K1. Standardized grid (₹ cr; screener)
+
+| # | Company | Latest FY rev (period) | Prior FY rev | TTM rev | TTM op. profit | TTM OPM | TTM other inc. | TTM PAT | ROCE | ROE | Borrowings | M-cap 13-Oct-26 | P/E (TTM) | P/B | Promoter % (date) | Order book / cover | Latest qtr |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Hitachi Energy India (SA) | 8,148 (Mar 2026) | 6,385 | 9,162 | 1,424 | 15.5% | 229 | 1,150 | 29.4% | 21.9% | 86 | 1,35,220 | 114x | 26.1x | 71.31% (Sep 2026) | 32,222 (Jun-26) / 3.5× | Q1 FY27 |
+| 2 | BHEL | 33,782 (Mar 2026) | 28,339 | 35,993 | 3,383 | 9.4% | 909 | 2,432 | 9.14% | 6.23% | 8,187 | 1,54,275 | 63.4x | 5.9x | 58.17% (Sep 2026) | ~2,60,000 (Jun-26, JM Financial note) / 7.2× | Q1 FY27 (Q2 board 14 Oct) |
+| 3 | Siemens Energy India (SA; Oct–Sep FY) | 7,827 (Sep 2025) | 2,653 | 9,436 | 2,024 | 21.4% | 137 | 1,488 | 67.8% | 50.5% | 216 | 1,11,877 | 73.3x | 23.1x | 75.00% (Jun 2026) | 19,331 (Jun-26) / 2.0× | Q3 FY26 (Apr–Jun 26) |
+| 4 | Siemens Ltd (18m transition FY) | 24,846 (Mar 2026) | 15,146 | 18,062 | 1,906 | 10.6% | 2,177 | 3,277 | 21.4% | 19.2% | 307 | 1,32,679 | 88.3x | 9.6x | 75.00% (Jun 2026) | 46,670 (Jun-26) / 2.6× | Q1 FY27 (Apr–Jun 26) |
+| 5 | GE Vernova T&D India (SA) | 6,206 (Mar 2026) | 4,292 | 6,712 | 1,757 | 26.2% | 53 | 1,305 | 77.4% | 57.4% | 24 | 1,07,114 | 79.3x | 39.9x | 51.00% (Jun 2026) | 20,930 (Jun-26) / 3.1× | Q1 FY27 |
+| 6 | Thermax | 10,774 (Mar 2026) | 10,387 | 10,839 | 870 | 8.0% | 331 | 591 | 13.9% | 10.6% | 2,353 | 39,293 | 71.4x | 7.1x | 61.99% (Jun 2026) | 14,045 (Jun-26) / 1.3× | Q1 FY27 |
+| 7 | Schneider Electric Infra (SA) | 2,891 (Mar 2026) | 2,637 | 2,920 | 336 | 11.5% | 6 | 184 | 29.6% | 38.2% | 633 | 28,917 | 149x | 42.0x | 75.00% (Jun 2026) | ~2,100+ (Jun-26) / 0.7× | Q1 FY27 |
+| 8 | Triveni Turbine | 2,181 (Mar 2026) | 2,006 | 2,252 | 427 | 19.0% | 67 | 336 | 34.1% | 25.2% | 36 | 16,628 | 47.9x | 11.5x | 55.84% (Jun 2026) | 2,180 (Jun-26) / 0.97× | Q1 FY27 |
+| 9 | Transformers & Rectifiers | 2,507 (Mar 2026) | 2,017 | 2,831 | 466 | 16.5% | 46 | 313 | 23.3% | 19.1% | 581 | 9,125 | 30.0x | 5.5x | 64.36% (Sep 2026) | 7,237 (Sep-26) / 2.7× | **Q2 FY27** (13 Oct) |
+| 10 | TD Power Systems | 1,856 (Mar 2026) | 1,279 | 2,124 | 383 | 18.0% | 20 | 275 | 34.0% | 24.7% | 18 | 25,085 | 91.2x | 23.3x | 27.15% (Sep 2026) | 2,207 (Jun-26) / 1.04× | Q1 FY27 |
+| 11 | Atlanta Electricals | 1,852 (Mar 2026) | 1,244 | 2,003 | 373 | 18.6% | 14 | 217 | 45.3% | 31.7% | 51 | 14,251 | 65.3x | 15.3x | 87.28% (Sep 2026) | 3,117 (Jun-26) / 1.56× | Q1 FY27 |
+| 12 | Voltamp (SA) | 2,154 (Mar 2026) | 1,934 | 2,274 | 363 | 16.0% | 72 | 317 | 23.5% | 17.4% | 1 | 10,505 | 33.1x | 5.9x | 30.00% (Jun 2026) | ~1,590 (Jul-26, CARE) / ~0.7× | Q1 FY27 |
+| 13 | Quality Power | 947 (Mar 2026) | 338 | 1,003 | 186 | 18.5% | 66 | 195 | 31.7% | 25.3% | 40 | 11,706 | 87.8x | 21.6x | 73.91% (Jun 2026) | 1,945.5 (Jun-26) / 1.94× | Q1 FY27 |
+
+Notes: Siemens Ltd latest-FY revenue ₹24,846 cr is an **18-month** period (Oct-24→Mar-26, continuing operations); the 12-month Apr-25→Mar-26 equivalent is ≈₹17,457 cr (sum of quarters, batch 1 [E]). Siemens Ltd TTM PAT ₹3,277 cr includes the ₹2,099 cr one-time gain on the motors-business sale in Q1 FY27 (continuing Q1 PAT ₹343 cr). Siemens Energy India: "Feb 2025 (5m)" is the pre-demerger stub; FY = Oct–Sep, so Jun-26 = Q3 FY26. Quality Power P/E 87.8× is on consolidated PAT incl. minorities (~₹65 cr NCI; owners' PAT ≈ ₹121 cr). Hitachi Energy changed year-end Dec→Mar in 2022 (no change since). Order books are company-reported (BHEL's from a fetched JM Financial result note, 17 Jul 2026 — company filing not fetched; Voltamp's from CARE rating rationale).
+
+## K2. Aggregates (stated basis: TTM, simple sum of 13 members, m-cap at 13 Oct 2026 close)
+
+Groups: **MNC subsidiaries (5)** Hitachi Energy India, Siemens Energy India, Siemens Ltd, GE Vernova T&D, Schneider; **Domestic heavy engineering (2)** BHEL, Thermax; **Transformer makers (4)** TARIL, Atlanta, Voltamp, Quality Power; **Rotating machines (2)** Triveni Turbine, TD Power.
+
+| Group | TTM revenue | TTM op. profit | OPM | TTM other income | TTM PAT | M-cap | P/E (TTM) | Borrowings |
+|---|---|---|---|---|---|---|---|---|
+| MNC subsidiaries (5) | 46,292 | 7,447 | 16.1% | 2,602 | 7,404 | 5,15,807 | 69.7x | 1,266 |
+| Domestic heavy engineering (2) | 46,832 | 4,253 | 9.1% | 1,240 | 3,023 | 1,93,568 | 64.0x | 10,540 |
+| Transformer makers (4) | 8,111 | 1,388 | 17.1% | 198 | 1,042 | 45,587 | 43.7x | 673 |
+| Rotating machines (2) | 4,376 | 810 | 18.5% | 87 | 611 | 41,713 | 68.3x | 54 |
+| **All 13** | **1,05,611** | **13,898** | **13.2%** | **4,127** | **12,080** | **7,96,675** | **65.9x** | **12,533** |
+
+Excluding Siemens Ltd's ₹2,099 cr one-off gain, TTM PAT = ₹9,981 cr → aggregate P/E **79.8x**. MNC subsidiaries = 64.7% of m-cap but 43.8% of TTM revenue; BHEL alone = 34.1% of TTM revenue and 19.4% of m-cap. Top-3 by m-cap (BHEL ₹1.54 lakh cr, Hitachi Energy ₹1.35 lakh cr, Siemens ₹1.33 lakh cr) = 53.0%. Gross borrowings are low (₹12,533 cr in total, mostly BHEL ₹8,187 cr and Thermax ₹2,353 cr); company-basis cash positions are in the batch packs.
+
+## K3. Reconciliation and data-quality notes
+
+1. **Batch vs orchestrator re-pull:** no discrepancies on revenue, op. profit, PAT, m-cap, P/E, ROCE/ROE, borrowings, promoter %.
+2. **BHEL FY25 order inflow ₹92,535 cr:** batch 1 verified it from BHEL investor decks [V]; the industry file had it from a snippet — the batch-1 deck figure stands. BHEL's FY26 inflow (₹75,916 cr) was 18% below FY25; the record is the order book, not inflow.
+3. **Margin bases differ:** companies' EBITDA often includes other income (Triveni 24.2% vs screener 20.7%; TARIL 17.7% vs 15.3%; Quality Power 23.5% vs 18.8%). Siemens Ltd and Schneider margins compressing (Q1 FY27 7.6% and 5.2%). Thermax Q1 FY27 PAT −86% on a ₹91 cr project overrun.
+4. **Order-book definitions differ** (some exclude unexecuted framework agreements; Siemens Energy India doesn't disclose inflow — Q3 inflow ≈₹3,384 cr is a batch estimate from backlog change).
+5. **Events since primers (verified):** Siemens Ltd year-end change and motors-business sale gain; TD Power ₹600 cr QIP at ₹775 (12 Oct 2026); Voltamp Unit-III (6,000 MVA) production started 7 Oct 2026; Quality Power EGM 19 Oct 2026 on Winwin acquisition and up to ₹700 cr placement (terms partly secondary); Atlanta promoter 87.28% must reach ≤75% by ~Sep 2028; four China-linked makers cleared to bid central tenders from 24 Jun 2026 (industry file); TARIL Q2 FY27 out 13 Oct 2026.
+6. **Unverified carried forward:** BHEL order book (broker note, not company filing) and Q1 power split; Siemens Energy India inflows; GE Vernova T&D Q4 FY26 orders; Thermax FY26 inflow and the ~₹1,600 cr boiler order; Schneider FY26 orders/backlog; TD Power–Siemens Energy framework and ₹192 cr US order; Hitachi MVA capacity; royalty rates except Hitachi (~4% of sales); TBCB award values; IEEMA turnover post-FY23; transformer price index; CRGO prices.
