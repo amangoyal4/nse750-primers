@@ -493,3 +493,259 @@ Method: read each primer's cover/stat strip, refresh bar, "What's new" box and o
 | csb-bank | Strip m-cap "~₹6,000 Cr (Aug '26)"; missing the Fairfax–IDBI link (Fairfax reportedly to exit CSB if it wins IDBI; stock −44% from Jan high) and ICICI Pru AMC approval (Sep 2026) | m-cap ₹5,341 Cr; P/B 1.09×; P/E 8.0× (BS 25 Jun 2026; CSB filing 8 Sep 2026) |
 
 Unverified / left for owner: HDFC Bank CET1 (secondary only); Axis CEO term; exact SMBC holding at Sep-26; whether Blackstone warrants have been allotted.
+
+---
+
+## QUARTERLY SERIES APPENDIX (screener.in standalone, ₹ Cr; fetched 13 Oct 2026) [V]
+NII = interest earned − interest expended (screener 'Revenue' − 'Interest'). GNPA/NNPA as reported to screener. Use for trend charts; derived NII matches company-reported NII where checked (HDFC Q1 FY27 ₹33,534 Cr; Kotak Q1 FY27 ₹7,928 Cr).
+
+### HDFC Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 74,017 | 76,007 | 77,460 | 77,470 | 76,691 | 76,751 | 76,610 | 79,363 |
+| Interest expended | 43,903 | 45,354 | 45,394 | 46,032 | 45,139 | 44,136 | 43,528 | 45,829 |
+| NII (derived) | 30,114 | 30,653 | 32,066 | 31,438 | 31,552 | 32,615 | 33,082 | 33,534 |
+| Other income | 11,483 | 11,454 | 12,028 | 21,730 | 14,350 | 13,254 | 13,199 | 12,822 |
+| Net profit | 16,821 | 16,736 | 17,616 | 18,155 | 18,641 | 18,654 | 19,221 | 19,060 |
+| GNPA % | 1.36% | 1.42% | 1.33% | 1.40% | 1.24% | 1.24% | 1.15% | 1.17% |
+| NNPA % | 0.41% | 0.46% | 0.43% | 0.47% | 0.42% | 0.42% | 0.38% | 0.41% |
+
+### ICICI Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 40,537 | 41,300 | 42,431 | 42,947 | 41,758 | 41,966 | 43,275 | 45,671 |
+| Interest expended | 20,489 | 20,929 | 21,238 | 21,312 | 20,228 | 20,034 | 20,296 | 21,286 |
+| NII (derived) | 20,048 | 20,371 | 21,193 | 21,635 | 21,530 | 21,932 | 22,979 | 24,385 |
+| Other income | 7,177 | 7,068 | 7,260 | 8,505 | 7,576 | 7,368 | 7,309 | 8,576 |
+| Net profit | 11,746 | 11,792 | 12,630 | 12,768 | 12,359 | 11,318 | 13,702 | 14,804 |
+| GNPA % | 1.97% | 1.96% | 1.67% | 1.67% | 1.58% | 1.53% | 1.40% | 1.38% |
+| NNPA % | 0.42% | 0.42% | 0.39% | 0.41% | 0.39% | 0.37% | 0.33% | 0.35% |
+
+### Axis Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 30,420 | 30,954 | 31,243 | 31,064 | 30,970 | 32,274 | 32,724 | 33,986 |
+| Interest expended | 16,937 | 17,348 | 17,432 | 17,504 | 17,226 | 17,988 | 18,267 | 19,340 |
+| NII (derived) | 13,483 | 13,606 | 13,811 | 13,560 | 13,744 | 14,286 | 14,457 | 14,646 |
+| Other income | 6,722 | 5,972 | 6,780 | 7,258 | 6,625 | 6,226 | 6,023 | 6,735 |
+| Net profit | 6,918 | 6,304 | 7,118 | 5,806 | 5,090 | 6,490 | 7,071 | 7,114 |
+| GNPA % | 1.44% | 1.46% | 1.28% | 1.57% | 1.46% | 1.40% | 1.23% | 1.28% |
+| NNPA % | 0.34% | 0.35% | 0.33% | 0.45% | 0.44% | 0.42% | 0.37% | 0.39% |
+
+### Kotak Mahindra Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 13,216 | 13,428 | 13,530 | 13,837 | 13,649 | 13,903 | 14,175 | 14,477 |
+| Interest expended | 6,197 | 6,231 | 6,246 | 6,577 | 6,339 | 6,339 | 6,299 | 6,549 |
+| NII (derived) | 7,019 | 7,197 | 7,284 | 7,260 | 7,310 | 7,564 | 7,876 | 7,928 |
+| Other income | 2,684 | 2,623 | 3,182 | 3,080 | 2,589 | 2,838 | 3,116 | 3,338 |
+| Net profit | 3,344 | 3,305 | 3,552 | 3,282 | 3,253 | 3,446 | 4,027 | 4,123 |
+| GNPA % | 1.49% | 1.50% | 1.42% | 1.48% | 1.39% | 1.30% | 1.20% | 1.18% |
+| NNPA % | 0.43% | 0.41% | 0.31% | 0.34% | 0.32% | 0.31% | 0.25% | 0.27% |
+
+### IDBI Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 7,442 | 7,816 | 6,979 | 7,021 | 7,104 | 7,074 | 7,798 | 7,541 |
+| Interest expended | 3,566 | 3,587 | 3,689 | 3,855 | 3,819 | 3,864 | 3,947 | 4,055 |
+| NII (derived) | 3,876 | 4,229 | 3,290 | 3,166 | 3,285 | 3,210 | 3,851 | 3,486 |
+| Other income | 1,313 | 749 | 2,057 | 1,437 | 2,489 | 1,209 | 1,611 | 1,032 |
+| Net profit | 1,836 | 1,908 | 2,051 | 2,007 | 3,627 | 1,935 | 1,943 | 2,115 |
+| GNPA % | 3.68% | 3.57% | 2.98% | 2.93% | 2.65% | 2.57% | 2.32% | 2.30% |
+| NNPA % | 0.20% | 0.18% | 0.15% | 0.21% | 0.21% | 0.18% | 0.15% | 0.16% |
+
+### Federal Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 6,577 | 6,809 | 6,648 | 6,687 | 6,742 | 6,868 | 7,399 | 7,238 |
+| Interest expended | 4,210 | 4,377 | 4,271 | 4,350 | 4,247 | 4,215 | 4,226 | 4,292 |
+| NII (derived) | 2,367 | 2,432 | 2,377 | 2,337 | 2,495 | 2,653 | 3,173 | 2,946 |
+| Other income | 964 | 916 | 1,006 | 1,113 | 1,082 | 1,100 | 1,145 | 1,048 |
+| Net profit | 1,057 | 955 | 1,030 | 862 | 955 | 1,041 | 1,259 | 1,177 |
+| GNPA % | 2.09% | 1.95% | 1.84% | 1.91% | 1.83% | 1.72% | 1.62% | 1.52% |
+| NNPA % | 0.57% | 0.49% | 0.44% | 0.48% | 0.48% | 0.42% | 0.20% | 0.18% |
+
+### Yes Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 7,730 | 7,829 | 7,616 | 7,596 | 7,379 | 7,543 | 7,651 | 8,044 |
+| Interest expended | 5,530 | 5,606 | 5,340 | 5,224 | 5,078 | 5,078 | 5,013 | 5,258 |
+| NII (derived) | 2,200 | 2,223 | 2,276 | 2,372 | 2,301 | 2,465 | 2,638 | 2,786 |
+| Other income | 1,407 | 1,512 | 1,739 | 1,752 | 1,644 | 1,633 | 1,730 | 1,798 |
+| Net profit | 553 | 612 | 738 | 801 | 654 | 952 | 1,068 | 1,071 |
+| GNPA % | 1.60% | 1.60% | 1.60% | 1.60% | 1.60% | 1.50% | 1.30% | 1.30% |
+| NNPA % | 0.50% | 0.50% | 0.30% | 0.30% | 0.30% | 0.30% | 0.20% | 0.20% |
+
+### IndusInd Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 12,686 | 12,801 | 10,634 | 12,264 | 11,609 | 11,373 | 11,005 | 11,310 |
+| Interest expended | 7,339 | 7,573 | 7,586 | 7,624 | 7,199 | 6,811 | 6,634 | 6,625 |
+| NII (derived) | 5,347 | 5,228 | 3,048 | 4,640 | 4,410 | 4,562 | 4,371 | 4,685 |
+| Other income | 2,184 | 2,350 | 709 | 2,156 | 1,648 | 1,707 | 1,706 | 1,785 |
+| Net profit | 1,325 | 1,401 | -2,236 | 684 | -445 | 161 | 533 | 1,002 |
+| GNPA % | 2.11% | 2.25% | 3.13% | 3.64% | 3.60% | 3.56% | 3.43% | 3.25% |
+| NNPA % | 0.64% | 0.68% | 0.95% | 1.12% | 1.04% | 1.04% | 1.00% | 0.95% |
+
+### IDFC First Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 8,957 | 9,343 | 9,413 | 9,642 | 9,937 | 10,417 | 10,553 | 11,051 |
+| Interest expended | 4,169 | 4,441 | 4,506 | 4,709 | 4,824 | 4,925 | 4,876 | 5,079 |
+| NII (derived) | 4,788 | 4,902 | 4,907 | 4,933 | 5,113 | 5,492 | 5,677 | 5,972 |
+| Other income | 1,727 | 1,780 | 1,895 | 2,227 | 1,891 | 2,125 | 1,630 | 2,309 |
+| Net profit | 201 | 339 | 304 | 463 | 352 | 503 | 319 | 1,075 |
+| GNPA % | 1.92% | 1.94% | 1.87% | 1.97% | 1.86% | 1.69% | 1.61% | 1.51% |
+| NNPA % | 0.48% | 0.52% | 0.53% | 0.55% | 0.52% | 0.53% | 0.48% | 0.44% |
+
+### RBL Bank
+| Quarter | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 | Sep 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 3,536 | 3,476 | 3,441 | 3,507 | 3,667 | 3,720 | 3,840 | 4,322 |
+| Interest expended | 1,951 | 1,913 | 1,960 | 1,957 | 2,010 | 2,049 | 2,186 | 2,191 |
+| NII (derived) | 1,585 | 1,563 | 1,481 | 1,550 | 1,657 | 1,671 | 1,654 | 2,131 |
+| Other income | 1,073 | 1,000 | 1,069 | 933 | 1,050 | 1,069 | 959 | 1,077 |
+| Net profit | 33 | 69 | 200 | 179 | 214 | 230 | 254 | 482 |
+| GNPA % | 2.92% | 2.60% | 2.78% | 2.32% | 1.88% | 1.45% | 1.30% | 1.02% |
+| NNPA % | 0.53% | 0.29% | 0.45% | 0.57% | 0.55% | 0.39% | 0.37% | 0.29% |
+
+### Bandhan Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 5,500 | 5,479 | 5,434 | 5,476 | 5,354 | 5,431 | 5,428 | 5,631 |
+| Interest expended | 2,566 | 2,664 | 2,678 | 2,718 | 2,765 | 2,743 | 2,633 | 2,710 |
+| NII (derived) | 2,934 | 2,815 | 2,756 | 2,758 | 2,589 | 2,688 | 2,795 | 2,921 |
+| Other income | 609 | 1,112 | 700 | 726 | 546 | 691 | 771 | 604 |
+| Net profit | 937 | 426 | 318 | 372 | 112 | 206 | 534 | 502 |
+| GNPA % | 4.68% | 4.68% | 4.71% | 4.96% | 5.02% | 3.33% | 3.27% | 3.15% |
+| NNPA % | 1.29% | 1.28% | 1.28% | 1.36% | 1.37% | 0.99% | 0.97% | 0.93% |
+
+### Karur Vysya Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 2,387 | 2,489 | 2,516 | 2,569 | 2,808 | 2,794 | 2,904 | 3,049 |
+| Interest expended | 1,324 | 1,407 | 1,427 | 1,489 | 1,547 | 1,555 | 1,545 | 1,627 |
+| NII (derived) | 1,063 | 1,082 | 1,089 | 1,080 | 1,261 | 1,239 | 1,359 | 1,422 |
+| Other income | 469 | 465 | 509 | 447 | 512 | 509 | 616 | 442 |
+| Net profit | 474 | 496 | 513 | 521 | 574 | 690 | 725 | 756 |
+| GNPA % | 1.10% | 0.83% | 0.76% | 0.66% | 0.76% | 0.71% | 0.75% | 0.74% |
+| NNPA % | 0.28% | 0.20% | 0.20% | 0.19% | 0.19% | 0.19% | 0.19% | 0.19% |
+
+### City Union Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 1,434 | 1,479 | 1,533 | 1,605 | 1,653 | 1,756 | 1,856 | 1,985 |
+| Interest expended | 851 | 891 | 932 | 980 | 987 | 1,004 | 1,070 | 1,165 |
+| NII (derived) | 583 | 588 | 601 | 625 | 666 | 752 | 786 | 820 |
+| Other income | 226 | 228 | 251 | 244 | 259 | 245 | 290 | 244 |
+| Net profit | 285 | 286 | 288 | 306 | 329 | 332 | 360 | 383 |
+| GNPA % | 3.54% | 3.36% | 3.09% | 2.99% | 2.42% | 2.17% | 1.91% | 1.73% |
+| NNPA % | 1.62% | 1.42% | 1.25% | 1.20% | 0.90% | 0.78% | 0.68% | 0.61% |
+
+### J&K Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 3,124 | 3,206 | 3,212 | 3,268 | 3,292 | 3,313 | 3,272 | 3,546 |
+| Interest expended | 1,688 | 1,697 | 1,732 | 1,803 | 1,858 | 1,825 | 1,784 | 2,049 |
+| NII (derived) | 1,436 | 1,509 | 1,480 | 1,465 | 1,434 | 1,488 | 1,488 | 1,497 |
+| Other income | 296 | 242 | 402 | 250 | 155 | 278 | 259 | 214 |
+| Net profit | 551 | 532 | 585 | 485 | 494 | 587 | 798 | 424 |
+| GNPA % | 3.95% | 4.08% | 3.37% | 3.50% | 3.32% | 3.00% | 2.50% | 2.37% |
+| NNPA % | 0.85% | 0.94% | 0.79% | 0.82% | 0.76% | 0.68% | 0.64% | 0.60% |
+
+### Tamilnad Mercantile Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 1,337 | 1,331 | 1,342 | 1,386 | 1,413 | 1,469 | 1,550 | 1,662 |
+| Interest expended | 741 | 761 | 774 | 807 | 816 | 823 | 846 | 897 |
+| NII (derived) | 596 | 570 | 568 | 579 | 597 | 646 | 704 | 765 |
+| Other income | 227 | 189 | 200 | 231 | 208 | 196 | 242 | 238 |
+| Net profit | 303 | 300 | 292 | 305 | 318 | 342 | 374 | 412 |
+| GNPA % | 1.37% | 1.32% | 1.25% | 1.22% | 1.01% | 0.91% | 0.73% | 0.69% |
+| NNPA % | 0.46% | 0.41% | 0.36% | 0.33% | 0.26% | 0.20% | 0.18% | 0.17% |
+
+### South Indian Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 2,355 | 2,371 | 2,373 | 2,362 | 2,407 | 2,518 | 2,559 | 2,628 |
+| Interest expended | 1,472 | 1,501 | 1,505 | 1,530 | 1,598 | 1,637 | 1,644 | 1,603 |
+| NII (derived) | 883 | 870 | 868 | 832 | 809 | 881 | 915 | 1,025 |
+| Other income | 410 | 409 | 572 | 622 | 516 | 486 | 386 | 379 |
+| Net profit | 325 | 342 | 342 | 322 | 351 | 374 | 408 | 378 |
+| GNPA % | 4.40% | 4.30% | 3.20% | 3.15% | 2.93% | 2.67% | 1.43% | 1.38% |
+| NNPA % | 1.31% | 1.25% | 0.92% | 0.68% | 0.56% | 0.45% | 0.29% | 0.26% |
+
+### Karnataka Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 2,234 | 2,243 | 2,258 | 2,261 | 2,179 | 2,220 | 2,257 | 2,383 |
+| Interest expended | 1,401 | 1,450 | 1,478 | 1,506 | 1,451 | 1,428 | 1,414 | 1,444 |
+| NII (derived) | 833 | 793 | 780 | 755 | 728 | 792 | 843 | 939 |
+| Other income | 270 | 292 | 428 | 358 | 343 | 302 | 399 | 355 |
+| Net profit | 336 | 284 | 252 | 292 | 319 | 291 | 408 | 419 |
+| GNPA % | 3.21% | 3.11% | 3.08% | 3.46% | 3.33% | 3.32% | 2.78% | 2.58% |
+| NNPA % | 1.46% | 1.39% | 1.31% | 1.44% | 1.35% | 1.31% | 0.98% | 0.87% |
+
+### DCB Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 1,568 | 1,671 | 1,742 | 1,814 | 1,823 | 1,861 | 1,907 | 1,984 |
+| Interest expended | 1,059 | 1,128 | 1,184 | 1,233 | 1,227 | 1,236 | 1,252 | 1,300 |
+| NII (derived) | 509 | 543 | 558 | 581 | 596 | 625 | 655 | 684 |
+| Other income | 205 | 184 | 219 | 236 | 186 | 221 | 212 | 196 |
+| Net profit | 155 | 151 | 177 | 157 | 184 | 185 | 206 | 213 |
+| GNPA % | 3.29% | 3.11% | 2.99% | 2.98% | 2.91% | 2.72% | 2.45% | 2.43% |
+| NNPA % | 1.17% | 1.18% | 1.12% | 1.22% | 1.21% | 1.10% | 0.89% | 0.84% |
+
+### CSB Bank
+| Quarter | Sep 2024 | Dec 2024 | Mar 2025 | Jun 2025 | Sep 2025 | Dec 2025 | Mar 2026 | Jun 2026 |
+|---|---|---|---|---|---|---|---|---|
+| Interest earned | 865 | 919 | 981 | 1,041 | 1,109 | 1,154 | 1,201 | 1,287 |
+| Interest expended | 497 | 544 | 610 | 662 | 686 | 701 | 737 | 809 |
+| NII (derived) | 368 | 375 | 371 | 379 | 423 | 453 | 464 | 478 |
+| Other income | 199 | 219 | 381 | 245 | 349 | 276 | 306 | 229 |
+| Net profit | 138 | 152 | 190 | 119 | 160 | 153 | 202 | 150 |
+| GNPA % | 1.68% | 1.58% | 1.57% | 1.84% | 1.81% | 1.96% | 1.66% | 1.75% |
+| NNPA % | 0.69% | 0.64% | 0.52% | 0.66% | 0.52% | 0.67% | 0.40% | 0.39% |
+
+---
+
+## DEEP-DIVE WORKING NOTES (analysis for the report)
+
+### DD1. HDFC Bank's LDR arithmetic after the merger [E unless marked]
+- At merger (1 Jul 2023) HDFC Ltd brought ~₹6+ lakh Cr of loans funded mostly by bonds and borrowings; the combined LDR jumped to ~110% [K]. Borrowings on the standalone balance sheet: ₹7.31 lakh Cr (Mar-24) → ₹6.35 lakh Cr (Mar-25) → ₹4.89 lakh Cr (Mar-26) [V screener]; deposits ₹23.77 → ₹27.11 → ₹31.05 lakh Cr [V].
+- Each ₹1 lakh Cr of bonds retired and replaced by deposits: bond cost ~7.5–8% vs incremental deposit cost ~6.5–7% (TD) → saves ~₹1,000 Cr/yr pre-tax, but only if funded with TDs; funded with CASA (~3%) it saves ~₹4,500 Cr. The problem: incremental deposits have come mostly as TDs (Sep-26: TD +22.8% vs CASA +10.8%) [V].
+- CASA ratio path: ~38% (Sep-23, secondary) → 34.2% (Mar-26: 10,603/31,053) → 32.3% (Jun-26) → 31.6% (Sep-26) [V]. A 6.5 pp fall on ₹33 lakh Cr deposits = ~₹2.1 lakh Cr shifted from CASA to TD; at a ~3.5–4 pp rate gap that costs ~₹7,500–8,500 Cr a year pre-tax ≈ 17–19 bp of NIM on ~₹45 lakh Cr assets [E].
+- PSL burden: the merged mortgage book enlarged ANBC; PSL shortfall → RIDF deposits at low yield [K].
+- Result: NIM on total assets 3.26% Q1 FY27 vs ~4.1% pre-merger standalone (FY23) [K]; RoA ~1.8% (vs ~2.0% pre-merger) [E/K].
+- FCNR effect: US$11.5 bn (₹1.10 lakh Cr) of FCNR(B) ≈ 3.3% of deposits; ~half on-lent abroad → inflates both sides; swap cost borne largely by RBI concession [V/E].
+- Market verdict: P/B de-rated from ~2.7× (2023, [K]) to 1.90× [V]; FII ownership 48.8% → 39.4% in five quarters [V]; DIIs 35.8% → 43.4% [V].
+
+### DD2. NIM through the rate cycle — the EBLR asymmetry [E, ILLUSTRATIVE]
+Model bank A (CASA-rich, EBLR-heavy, like ICICI/HDFC/Axis/Kotak): ₹100 of loans, 57% EBLR (reprices within ~3 months), 30% fixed, 13% MCLR (reprices over ~12 months); deposits 40% CASA (SA rate cut ~25–50 bp with a lag; CA 0%), 60% TD (reprice as they mature — ~35% per year).
+- After 125 bp of repo cuts: loan yield falls 0.57×125 + 0.13×(~60) ≈ 79 bp within a year; deposit cost falls: SA −50 bp × 25% weight = −12.5 bp; TD −100 bp × 60% × 35% repriced in year 1 ≈ −21 bp → ~−34 bp in year 1, ~−55 bp by year 2 → **NIM compresses ~40–45 bp in year 1, recovers ~20 bp in year 2** (Axis −34 bp YoY observed; HDFC 3.38→3.26) [V observations].
+Model bank B (TD-heavy, fixed-rate assets — gold, MFI, vehicle; like KVB, Federal, IDFC, Bandhan): 25% EBLR loans → yield falls ~35–40 bp; deposits 70% TD reprice → CoD falls 50–60 bp by year 2 → **NIM expands** (Federal +39 bp, KVB +48 bp, Karnataka +38 bp, IDFC +25 bp YoY) [V].
+- CRR cut (4%→3%): on ₹100 deposits frees ₹1 → earns ~8–9% on loans/~6.5% on G-secs → +5–8 bp NIM, partially offsetting [E].
+- Hike of 25 bp (7 Oct 2026): bank A loan yield +14 bp within a quarter; deposit cost +0 initially → +10–14 bp NIM over two quarters before TD repricing catches up [E]. RBI's CPI path (Q3 FY27 6.0%) implies further hikes are possible (statement: rate cuts "off the table") [V].
+
+### DD3. Ownership revolution — the prices paid [V/E]
+| Deal | Stake | Price | Value | Implied P/B at deal | Status |
+|---|---|---|---|---|---|
+| SMBC → Yes Bank | ~24.99% | ~₹21.5/sh (secondary purchase from SBI + 7 banks, 2025) [K] | ~₹16,000 Cr [V-secondary] | ~1.4× | Done (2025); not promoter |
+| ENBD → RBL Bank | 60% | ₹280/sh preferential + open offer | ~US$2.75 bn primary (~₹26,000 Cr) [V] | ~1.2× pre-deal BV / ~1.0× post-deal BV [E] | Completed 18 Jun 2026 |
+| Blackstone → Federal | 9.99% | ₹227/warrant | ₹6,196 Cr [V-secondary] | ~1.5× BV at announcement [E] | Approvals done (CCI Dec-25, RBI Feb-26) |
+| Warburg + ADIA → IDFC First | ~10%+ (CCPS) | ₹60/sh [K] | ₹7,500 Cr [K] | ~1.1× [E] | Done (2025) |
+| Fairfax → IDBI | 60.72% | ~₹81/sh (reported) | ~₹53,000 Cr (~US$5.5 bn) [V-secondary] | ~1.3× [E] | Approvals pending |
+Why foreigners buy: structural credit growth 12–15%, RoA 1–2% vs 0.5–1% at home, India's 74% FDI cap with case-by-case RBI approvals now allowing control (RBL precedent) [K/E]. What changes: capital (RBL CAR 14.2% → 33.3%), ratings (RBL AAA, Yes upgraded), funding costs, and growth appetite (RBL advances +42% YoY in Q2) [V].
+
+### DD4. Microfinance and unsecured cycle [V/E]
+- MFI industry: PAR 31–180 6.3% (Mar-25) → 2.0% (Mar-26); portfolio −12% YoY (Jun-26); 180+ dpd 17.1% (stock of old bad loans) [V-secondary].
+- Bank exposures: Bandhan EEB (micro-loans) ~43% of book [E: 100 − 57% secured]; IndusInd rural/MFI ₹31,417 Cr (10% of loans, −26%) [V]; IDFC MFI ~2.7% of assets (primer) [K]; RBL JLG (part of unsecured retail, +8%) [V].
+- P&L effect: Bandhan PAT FY25 ₹2,745 Cr → FY26 ₹1,224 Cr → Q1 FY27 ₹502 Cr run-rate (~₹2,000 Cr annualised) [V]; IDFC provisions 2.69% → 1.53% of loans lifts PAT from ₹463 Cr to ₹1,075 Cr per quarter [V].
+- Unsecured retail at large banks: ICICI cards −1.9% YoY, PL +12.9% [V]; Axis cards +5%, PL +7% [V]; HDFC retail only +7.2% [V-secondary] — the large banks deliberately slowed unsecured growth after the Nov 2023 risk-weight rule.
+
+### DD5. Southern old-private banks — why they out-earn [E]
+- KVB, TMB, CUB, SIB, CSB, Karnataka: gold loans + MSME + agri jewel loans; RoA 1.3–2.1%; CRAR 18–32%; P/B 1.0–2.4×.
+- Gold price rally drove gold-loan books (CSB +47%, SIB +43%, Federal +33%) [V]; LTV caps (RBI 2025 gold-loan directions, 75–85% tiered) [K].
+- Deposit costs higher (5.45–5.56% CoD at KVB/CUB) [V] but yields 9.8–10.1% [V] and near-zero credit costs (KVB PCR 96%) → NIM 3.8–4.3%.
+- Valuation spread: KVB 2.39× vs Karnataka 0.98× and J&K 0.89× — the market pays for consistency (KVB RoE 20%) [V/E].
