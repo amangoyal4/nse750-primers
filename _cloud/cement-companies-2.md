@@ -349,3 +349,324 @@ Sources: [V] Elara note (company data); [V] screener quarters
 - A delay at the NCLT, or a minority challenge. Receivables of ₹840 Cr concentrated on the parent. The MSA terms are set by the controlling shareholder.
 
 ---
+## 4. J.K. Cement — NSE: JKCEMENT · BSE: 532644
+
+**Fetched 13 Oct 2026.** Still listed and independent, controlled by the Singhania family / J.K. Organisation. Businesses: grey cement (North, Central and now East), white cement and wall putty (#2 in white cement behind Birla White; #1 in putty), a UAE white-cement and clinker subsidiary (Fujairah), and decorative paints (JK Maxx, via the Acro Paints acquisition [K]). No merger or demerger is pending.
+
+### 4a. Standardised financials (consolidated)
+Source: [V] https://www.screener.in/company/JKCEMENT/consolidated/ (fetched 13-Oct-2026); [V] PL Capital Q4 FY26 note, 25 May 2026, https://plindia.com/ResReport/JKCE-25-5-26-PL.pdf
+
+| ₹ Cr | FY24 | FY25 | FY26 | FY26 YoY | TTM (Jun-26) |
+|---|---|---|---|---|---|
+| Sales | 11,556 | 11,879 | 13,722 | +15.5% | 14,401 |
+| Screener EBITDA (Op. profit) | 2,071 | 2,034 | 2,379 | +17.0% | 2,334 |
+| OPM % | 18% | 17% | 17.3% | +0.2 pp | 16% |
+| Other income | 129 | 269 | 142 | | 130 |
+| Interest | 453 | 459 | 424 | | 430 |
+| Net profit | 790 | 872 | 988 | +13.3% | 938 |
+| EPS (₹) | 102.35 | 111.45 | 128.45 | | 122.37 |
+| Borrowings | 5,552 | 6,028 | 6,183 | | |
+| Investments | 377 | 601 | 447 | | |
+| Net debt (screener: Borr − Inv) | 5,175 | 5,427 | 5,736 | | |
+| CFO | 1,959 | 1,939 | 1,873 | | |
+| FCF (screener) | 792 | 241 | −376 | | |
+
+- PL's consolidated FY26 figures: net sales ₹13,722 Cr; EBITDA ₹2,374 Cr; PAT attributable **₹992.5 Cr**; total debt ₹6,074 Cr; cash ₹119 Cr [V: PL].
+- **Company net debt ₹3,864 Cr at 30 Jun 2026; net debt/EBITDA 1.69×; net debt/equity 0.53×** [V: Investing.com Q1 FY27 deck summary, https://in.investing.com/news/company-news/jk-cement-q1-fy27-presentation-18-volume-growth-costs-weigh-93CH-5503917].
+- **Conflict:** screener net debt is ₹5,736 Cr (2.4× EBITDA) and PL's is ₹5,955 Cr, against the company's ₹3,864 Cr. The ~₹2,000 Cr gap is probably company netting of treasury and bank balances not captured as "Investments", and/or exclusion of acceptances and leases [E]. I show both. **For leverage, the company figure (1.69×) is the more credible management basis. Screener/PL (~2.4–2.5×) is the conservative gross-debt basis.**
+
+**Valuation, 13 Oct 2026** [V: screener top ratios]: Price **₹4,888**. Market cap **₹37,744 Cr**. 52-week high/low ₹6,764 / ₹4,670. Stock P/E **38.6×**. Book value ₹911, so **P/B 5.4×** [E]. ROCE 15.1%. ROE 15.6%. Dividend yield 0.41%.
+- EV (screener net debt) ≈ 37,744 + 5,736 = **₹43,480 Cr**, giving **EV/EBITDA 18.3× FY26** (18.6× TTM). On the company net debt: ₹41,608 Cr, **17.5×** [E].
+- EV/t ≈ ₹43,480 Cr / 35.4 MTPA (32.3 grey + 3.1 white/putty) ≈ **₹12,300/t** [E].
+- PL (25 May 2026): Accumulate, TP ₹6,101 (15× Mar-28E EV/EBITDA). FY27E EBITDA ₹2,822 Cr [V].
+
+### 4b. Q1 FY27 (Jun-26 quarter)
+Sources: [V] Investing.com deck summary (results 20 Jul 2026); [V] screener quarters
+
+| | Q1 FY27 | Q1 FY26 | YoY | Q4 FY26 |
+|---|---|---|---|---|
+| Sales (screener, consol., ₹ Cr) | 4,032 | 3,353 | +20% | 3,888 |
+| EBITDA (consol., ₹ Cr) | 648 | 688 | −6% | 683 |
+| OPM | 16.1% | 20.5% | | 17.6% |
+| Standalone EBITDA (₹ Cr) | 639 | 670–673 | −5% | 670 |
+| PAT (consol., ₹ Cr) | 275 (standalone 291) | 324 | −15% | 331 |
+| Grey cement volume (MT) | **5.96** | ~5.05 | +18% | 6.16 |
+| White cement volume (MT) | 0.54 | ~0.42 | +29% | 0.65 |
+| NSR/t | ₹5,065 | ₹4,841 (as cited) | | |
+| **EBITDA/t (company, blended)** | **₹982** | ₹1,247 | −20% | ₹1,002 |
+| EBITDA/t, computed (consol. ₹648 Cr ÷ 6.5 MT) | ₹997 | ~₹1,256 | | ₹1,004 |
+| Logistics/t | ₹1,315 (+2% YoY) | | | ₹1,333 |
+| Fuel cost | ₹1.53/'000 kcal (flat YoY, +3% QoQ) | | | ₹1.48 |
+| Other expenses/t | ₹1,025 (+20%) | | | ₹969 |
+| Utilisation | 75% (vs 65%) | | | 82% (cement) / 93% (clinker) |
+| Green power | 53.5% | | | 51% (FY26) |
+
+- Guidance for Q2 FY27: cost +₹150/t QoQ (fuel +₹75–100, diesel/logistics ~₹50) [V].
+- **Q2 FY27: not out** [V: screener].
+
+### 4c. Cement KPIs
+
+| KPI | Value | Source / basis |
+|---|---|---|
+| FY26 sales volume | **23.5 MT consolidated (+16%; FY25 20.2)**. Grey ~20.7 MT (+15%, primer figure; my quarterly sum ≈ 21 [E]). Q4 FY26: grey 6.16 (+13%), white 0.65 (+8%) | [V] PL |
+| Capacity, current | **Grey 32.3 MTPA** (after ~6 MTPA added in FY26: Buxar 3 MTPA split GU, Panna, Hamirpur, Prayagraj). **White + putty ~3.1 MTPA**, plus Nathdwara 0.6 MTPA putty due Sep-26 | [V] Investing.com; PL |
+| Capacity target | **40 MTPA grey by FY28.** Jaisalmer 4 MTPA clinker + 3 MTPA GU, Bikaner 2 MTPA GU and Punjab 2 MTPA GU: ~7 MTPA, all H1 FY28. **50 MTPA by FY30** | [V] |
+| Utilisation | FY26 cement ~75–80% [E]. Q4 FY26 82%. Q1 FY27 75%. North high; new Central capacity at 65–70% | [V] PL; Investing.com |
+| Realisation/t | FY26 blended ₹5,852 (−0.4%). Q4 FY26 grey ₹4,838/t and white ₹13,015/t | [V] PL |
+| Total cost/t | FY26 **₹4,829** (₹11,348 Cr ÷ 23.5 MT) | [E from PL table] |
+| Power & fuel/t | FY26 **₹1,106** (₹2,598 Cr ÷ 23.5). Q4 FY26 ₹1,084. Fuel mix: petcoke 50%, AFR 12%, domestic coal the rest | [E]; [V] PL |
+| Freight/t | FY26 **₹1,339** (₹3,146 Cr ÷ 23.5). Q4 ₹1,333; lead 418 km; rail share 8% | [E]; [V] PL |
+| EBITDA/t, company/PL | FY26 **₹1,012** (FY25 ₹1,003). Q4 FY26 ₹1,002. Q1 FY27 ₹982 | [V] PL; Investing.com |
+| EBITDA/t, computed | ₹2,379 Cr ÷ 23.5 MT = **₹1,012/t** (screener EBITDA, consolidated volume) | [E] |
+| Green power | FY26 51%; Q1 FY27 53.5%. FY27 target ~55% (80 MW under implementation); FY30 target 75% | [V] |
+| Capex | FY27 ₹3,500–4,000 Cr; FY28 ₹1,500–2,000 Cr ("₹5,000–6,000 Cr over two years") | [V] PL; Investing.com |
+| Capex/t | Jaisalmer ₹3,630 Cr for 3 MTPA cement + 4 MTPA clinker (₹1,162 Cr spent by Jun-26) ≈ **₹12,100/t** of cement. Bikaner ₹560 Cr / 2 MTPA = ₹2,800/t GU. Punjab ₹610 Cr / 2 MTPA = ₹3,050/t GU. Total ~₹4,800 Cr for 7 MTPA ≈ **₹6,860/t** blended | [V] PL; [E] |
+| Net debt/EBITDA | **1.69×** (company, Jun-26). 2.4× on the screener basis | [V]; [E] |
+
+### 4d. Segment mix
+- Grey cement is roughly two-thirds to three-quarters of revenue. White cement + putty is ~20–25%, at a much higher EBITDA/t (white NSR ~₹13,000/t) [E: from PL's NSR and volume split]. Paints: FY26 revenue **~₹380 Cr, EBITDA loss ~₹40 Cr**. FY27 guide ₹500–550 Cr with EBITDA breakeven (Q1 FY27 ₹125 Cr, breakeven) [V: PL; Investing.com]. RMC FY27 guide ₹250–300 Cr [V].
+- Trade share 68% in Q4 FY26. Premium 18%. Blended cement 65–67% [V: PL].
+- FY26 incentives accrued ~₹230 Cr [V: PL]. That is ~₹100/t of EBITDA, a material support for the EBITDA/t figure.
+
+### 4e. Capacity by region (grey ~32.3 MTPA)
+- **North** (Rajasthan: Nimbahera, Mangrol, Gotan; GUs at Jharli, Aligarh, Bamania, Hamirpur): ~15 MTPA. **Central** (Panna integrated, MP; GUs at Prayagraj, Hamirpur, Ujjain): ~10 MTPA. **East** (Buxar GU, Bihar): 3 MTPA. **South** (Muddapur, Karnataka; Toshali, Odisha, acquired 2024): ~4 MTPA [K: JK investor decks FY25–FY26; plant split **unverified**]. White: Gotan (Rajasthan) and Fujairah (UAE). The UAE operations were disrupted by the West Asia conflict in Q4 FY26 [V: PL].
+
+### 4f. Ownership
+[V: screener shareholding; **latest shown is Jun-2026**, Sep-26 not yet on screener]
+
+| | Sep-24 | Mar-25 | Mar-26 | **Jun-26** |
+|---|---|---|---|---|
+| Promoters (Singhania family) | 45.68% | 45.68% | 45.66% | **45.66%** |
+| FIIs | 17.55% | 16.14% | 16.86% | 16.85% |
+| DIIs | 22.43% | 24.50% | 23.75% | 23.72% |
+| Public | 14.32% | 13.68% | 13.73% | 13.76% |
+| Shareholders | 81,196 | 73,428 | 82,016 | 80,353 |
+
+### 4g. Story bullets
+- **The fastest grower among mid-caps.** Grey volume rose 18% in Q1 FY27 against the industry's ~6–8%. Capacity goes 32.3 → 40 (FY28) → 50 MTPA (FY30), and FY27 grey volume guidance is 22.5–23 MT.
+- **EBITDA/t of ~₹1,000 is mid-pack for a premium multiple.** It was flat in FY26 (₹1,012) and is down 20% YoY in Q1 FY27 (₹982) as costs rose (packaging, fuel, maintenance). The 38.6× P/E and 18× EV/EBITDA lean on the white/putty franchise.
+- **The balance sheet is stretched by the build-out.** FY27 capex is ₹3,500–4,000 Cr against ~₹2,000 Cr of CFO, so net debt rises in FY27 (PL models gross debt at ₹7,874 Cr in FY27E).
+- **Paints is still small** (~₹380 Cr), but the losses are narrowing to breakeven.
+
+### 4h. Risks
+- Central-India oversupply as UltraTech, Shree and Ambuja all add capacity. Petcoke exposure (50% of fuel). White-cement competition and the UAE disruption. Leverage rising on ₹4,000 Cr capex. Execution risk on Jaisalmer (₹3,630 Cr).
+
+---
+
+## 5. JSW Cement — NSE: JSWCEMENT · BSE: 544480
+
+**Fetched 13 Oct 2026.** Listed in Aug 2025: IPO of ~₹3,600 Cr at ₹147/share, top of the ₹139–147 band [K: RHP/press; primer]. Part of the JSW Group (Sajjan/Parth Jindal). Shiva Cement (BSE-listed) is a subsidiary, and there is a UAE clinker JV (JSW Cement FZC, Fujairah). No merger or demerger is pending.
+
+### 5a. Standardised financials (consolidated)
+Source: [V] https://www.screener.in/company/JSWCEMENT/consolidated/ (fetched 13-Oct-2026); [V] JSW Cement Q4 FY26 press release, 21 May 2026, https://nsearchives.nseindia.com/corporate/JSWCL_21052026130017_upload.pdf
+
+| ₹ Cr | FY24 | FY25 | FY26 | FY26 YoY | TTM (Jun-26) |
+|---|---|---|---|---|---|
+| Sales | 6,002 | 5,785 | 6,501 | +12.4% | 6,849 |
+| Screener EBITDA (Op. profit) | 853 | 617 | 1,242 | +101% | 1,216 |
+| OPM % | 14% | 11% | 19.1% | +8.4 pp | 18% |
+| Other income | 85 | 100 | **−1,323** (CCPS fair-value loss in Q1 FY26: −₹1,444 Cr) | | 209 |
+| Interest | 435 | 450 | 378 | | 373 |
+| Net profit | 62 | −164 | **−799** | | **721** |
+| Equity capital | 986 | 986 | 1,341 (IPO + CCPS conversion) | | |
+| Borrowings | 6,254 | 6,563 | 4,464 | | |
+| Investments | 759 | 345 | 290 | | |
+| Net debt (screener) | 5,495 | 6,218 | 4,174 | | |
+| CFO | 1,408 | 737 | 1,170 | | |
+
+**Company-reported** [V: Q4 FY26 release]: FY26 revenue ₹6,512 Cr (+12%). **Operating EBITDA ₹1,240.3 Cr (+44%; margin 19.0%)**. Total EBITDA including other income ₹1,392.7 Cr. **Net debt ₹3,635 Cr at 31 Mar 2026.** Q4 PAT ₹361.7 Cr includes a ₹211.2 Cr deferred-tax release from moving to the new tax regime. FY26 capex ₹1,962 Cr.
+- At 30 Jun 2026: **net debt ₹3,856 Cr; net debt/EBITDA 2.95×** (board ceiling <3×); average cost of debt 7.63% [V: Investing.com Q1 FY27 call transcript, https://www.investing.com/news/transcripts/earnings-call-transcript-jsw-cement-posts-strong-q1-2027-revenue-growth-93CH-4859752].
+- Screener's net debt (₹4,174 Cr) is higher than the company's (₹3,635 Cr) because bank deposits and IPO-proceeds balances are not in "Investments" [E].
+
+**Valuation, 13 Oct 2026** [V: screener top ratios]: Price **₹113**, **23% below the ₹147 IPO price**. Market cap **₹15,397 Cr**. 52-week high/low ₹143 / ₹107. Stock P/E **19.5×** (TTM PAT ₹721 Cr includes the ₹211 Cr DTA release; ex-that ≈ 30× [E]). Book value ₹48.0, so **P/B 2.35×** [E]. ROCE 11.1%. ROE 14.7%. Dividend yield 0.44%.
+- EV ≈ 15,397 + 3,856 = **₹19,250 Cr** [E]. **EV/EBITDA 15.5× FY26** (15.8× TTM). EV/t ≈ ₹19,250 Cr / 24.1 MTPA grinding ≈ **₹8,000/t** [E].
+
+### 5b. Q1 FY27 (Jun-26 quarter)
+Sources: [V] Investing.com call transcript (14 Aug 2026); [V] screener quarters; Q1 slides summary (Investing.com) and multibagg [search snippets, used only for the GGBS tonnage]
+
+| | Q1 FY27 | Q1 FY26 | YoY | Q4 FY26 |
+|---|---|---|---|---|
+| Revenue (₹ Cr) | 1,896 | 1,560 | +22% | 1,895 |
+| Operating EBITDA (₹ Cr) | 299 | 323 | −7.5% | 365 |
+| Margin | 15.8% | 20.7% | | 19.3% |
+| PAT (₹ Cr) | 153 | −1,366 (CCPS) | n.m. | 362 |
+| Total volume (MT) | **3.81** | ~3.31 | +15% | 3.99 |
+| — Cement | 2.34 | ~1.84 | +27% (ex-North +8%) | 2.35 |
+| — GGBS | ~1.33 [snippet] | ~1.30 | +2.6% | 1.57 |
+| **Operating EBITDA/t** | **₹784** | ~₹976 | | ₹916 (₹950 ex-forex) |
+| EBITDA/t ex-North (Nagaur start-up) | ₹979 (+4%) | | | |
+| Realisation: cement / GGBS | ₹4,951 / ₹3,807 (+6% / +3.4% QoQ) | | | |
+| Blended realisation, computed | ₹4,976 | ₹4,713 | | ₹4,749 |
+| Cost/t, computed | ₹4,192 | | | ₹3,833 |
+| Blended fuel cost | ₹1.80/Mcal (vs ₹1.49 in Q4, +21%) | | | |
+| Utilisation | 61% (North 55%; ~68% in June) | | | |
+| Green (renewable) power | 30% (56 MW wind added); target >60% by Q3 FY27 | | | |
+
+- Q1 included ~₹33 Cr of North launch and marketing spend. North EBITDA breakeven was guided for Q2 FY27 [V].
+- **Q2 FY27: not out** [V: screener].
+
+### 5c. Cement KPIs
+
+| KPI | Value | Source / basis |
+|---|---|---|
+| FY26 sales volume | **13.96 MT, +11%**. Cement 7.73 MT (+9%), **GGBS 5.78 MT (+12%)**, the remainder (~0.45 MT) clinker | [V] Q4 release |
+| Capacity, current | **24.1 MTPA grinding, 9.74 MTPA clinker** (Mar-26). Nagaur: 3.3 MTPA clinker + 2.5 MTPA GU commissioned Mar-26. +1.0 MTPA Nagaur GU due end-Q2 FY27, with another 2.5 MTPA approved later (₹430 Cr) | [V] Q4 release; Q1 call |
+| Capacity target | Release: **46.0 MTPA grinding + 13.04 MTPA clinker** (no date). Q1 FY27 call: **43.5 MTPA**, then ~25 MT more (~68 MTPA) over the following 3–4 years. Rajasthan 2.5 MT line by end-FY28; Dolvi 4 MT (~15 months); Fujairah clinker (12 months); Vijayanagar Phase 1 delayed beyond CY28; Punjab awaiting environmental clearance | [V] |
+| Utilisation | FY26 ≈ 63% [E: 13.96 ÷ ~22 MT average grinding]. Q1 FY27 61% (company); clinker 61% (87% ex-Nagaur) | [E]; [V] |
+| Realisation/t | FY26 blended ₹4,665 (₹6,512 Cr ÷ 13.96 MT). GGBS sells ~₹1,100/t below cement | [E]; [V] Q1 call |
+| Total cost/t | FY26 ≈ ₹3,777 (realisation − ₹888) | [E] |
+| P&F/t, freight/t | **Not disclosed** in the release or the call. Logistics −2% QoQ in Q1; lead −4 km | [V] call (qualitative) |
+| EBITDA/t, company | FY26 **₹888**. Q4 FY26 ₹916. Q1 FY27 ₹784 (₹979 ex-North) | [V] |
+| EBITDA/t, computed | ₹1,242 Cr ÷ 13.96 MT = **₹890/t** (screener EBITDA, total volume incl. GGBS) | [E] |
+| Green power | Q1 FY27 30% renewable; target >60% by Q3 FY27. CO₂ intensity 268 kg/t of cementitious material (lowest in the industry, per the company) | [V] |
+| Capex | FY26 ₹1,962 Cr; FY27 ~₹2,300 Cr; FY28 ~₹2,000 Cr. ~₹7,500–7,600 Cr in total to reach 43.5 MTPA | [V] Q4 release; Q1 call |
+| Capex/t | ₹7,550 Cr ÷ 19.4 MT (24.1 → 43.5) ≈ **₹3,900/t** (mostly grinding). Nagaur 3.5 MT integrated ~₹3,500 Cr ≈ **₹10,000/t**. Nagaur extra 2.5 MTPA GU ₹430 Cr ≈ **₹1,720/t** | [E] from [V] inputs |
+| Net debt/EBITDA | **2.93× (Mar-26: 3,635 ÷ 1,240)** [E]; **2.95× (Jun-26, company)** | [V] |
+
+### 5d. Segment mix
+- Cementitious products: cement (blended PSC/PCC/PPC + OPC) ~55% of volume, GGBS ~41%, clinker ~3%. GGBS market share ~84% [V: Q4 release]. RMC: 15 plants (target 35), FY27 revenue target >₹1,000 Cr (Q1 ~₹180 Cr) [V: Q1 call]. Construction chemicals and waterproofing are small.
+- **Raw-material dependence:** slag comes from JSW Steel (Vijayanagar, Dolvi, Salem). Related-party pricing is the swing factor for GGBS margins [K: RHP].
+
+### 5e. Capacity by region (24.1 MTPA grinding)
+- **South:** Vijayanagar (Karnataka), Nandyal (AP, integrated), Salem (TN). **West:** Dolvi (Maharashtra). **East:** Salboni (WB), Jajpur (Odisha), Sambalpur (Odisha, +1.0 MTPA GU commissioned FY26), and the Shiva Cement clinker unit (Odisha). **North:** Nagaur (Rajasthan, integrated, Mar-26). UAE: Fujairah clinker JV [V: Q4 release "About"; plant MTPA split not disclosed].
+
+### 5f. Ownership
+[V: screener shareholding; **latest shown is Jun-2026**]
+
+| | Sep-25 | Dec-25 | Mar-26 | **Jun-26** |
+|---|---|---|---|---|
+| Promoters (JSW group) | 72.34% | 72.34% | 72.04% | **72.02%** |
+| FIIs | 4.13% | 3.03% | 2.93% | 3.70% |
+| DIIs | 7.87% | 8.09% | 8.74% | 11.49% |
+| Public | 13.52% | 14.73% | 14.67% | 11.83% |
+| Others | 2.13% | 1.82% | 1.62% | 0.95% |
+| Shareholders | 4.71 lakh | 4.60 lakh | 4.42 lakh | 4.43 lakh |
+
+- The pre-IPO investors (Apollo/AIF, Synergy Metals, SBI Funds via CCPS) came out of their 6-month/1-year lock-ins between Feb and Aug 2026 [K: RHP lock-in terms; **unverified** which have sold]. DIIs rose 2.75 pp in the Jun-26 quarter as "public" fell, consistent with block trades to institutions [E].
+
+### 5g. Story bullets
+- **A GGBS-led, low-capex, low-carbon model.** EBITDA/t of ₹888 is on a cementitious tonne that includes ~41% GGBS, which sells ~₹1,100/t below cement. Growth comes from grinding units (~₹3,900/t), not kilns.
+- **North entry (Nagaur) is the swing factor.** It cost ₹195/t of group EBITDA/t in Q1 FY27 (₹784 vs ₹979 ex-North). Breakeven was guided for Q2 FY27.
+- **Leverage sits at its ceiling.** Net debt/EBITDA is 2.95× against a <3× policy, while capex runs at ₹2,000–2,300 Cr a year. The pace of expansion is now set by the balance sheet.
+- **De-rated since the IPO** (₹113 against ₹147, −23%). EV/EBITDA is ~15.5×, below JK (~18×) but above Ambuja (~15×) on a lower EBITDA/t.
+
+### 5h. Risks
+- Slag supply and pricing tied to JSW Steel. Commodity-cement competition in the North. Fuel cost (+21% QoQ in Q1). Leverage. Overhang from lock-in expiries. The GGBS growth guide was cut from mid-teens to high single digits [V: Q1 call].
+
+---
+## 6. Mini summary grid (FY26; market data 13 Oct 2026)
+
+Screener EBITDA is used unless stated. Net debt is the company figure where one is available; negative = net cash. **Ambuja includes ACC and Orient: do not add the rows.**
+
+| | Ambuja (consol., = Adani group) | ACC (inside Ambuja) | Orient (inside Ambuja; standalone) | J.K. Cement | JSW Cement |
+|---|---|---|---|---|---|
+| FY26 revenue (₹ Cr) | 40,656 (+15%) | 25,962 (+19%) | 2,793 (+3%) | 13,722 (+16%) | 6,501 (+12%) (co. 6,512) |
+| EBITDA (₹ Cr) | 6,577 (co. normalised 6,539) | 2,958 (co. 2,950) | 546 | 2,379 | 1,242 (co. 1,240) |
+| Margin | 16.2% | 11.4% | 19.5% | 17.3% | 19.1% |
+| PAT (₹ Cr) | 5,637 reported / 2,647 normalised | 2,137 / 1,304 normalised | 338 (tax credit) | 988 | −799 (CCPS); TTM +721 |
+| Net debt (₹ Cr) | −904 (Mar-26); ~0 (Jun-26) | −489 (Mar-26); ~0 (Jun-26) | ~+20–60 | 3,864 co. (Jun-26) / 5,736 screener | 3,856 co. (Jun-26) / 4,174 screener |
+| Net debt/EBITDA | net cash | net cash | ~0× | 1.69× co. / 2.4× screener | 2.95× co. |
+| M-cap (₹ Cr) | 86,757 (pro-forma post-merger ~97,900) | 21,350 | 2,314 | 37,744 | 15,397 |
+| Price / 52w high | ₹350 / ₹589 (−41%) | ₹1,137 / ₹1,987 | ₹112 / ₹225 | ₹4,888 / ₹6,764 | ₹113 / ₹143 (IPO ₹147) |
+| P/E (screener) | 18.4× (normalised ~33×) | 11.2× (normalised ~16×) | 10.9× | 38.6× | 19.5× (ex-DTA ~30×) |
+| P/B | 1.46× | 1.04× | 1.08× | 5.4× | 2.35× |
+| EV/EBITDA FY26 | 14.8× (incl. minorities) | 7.1× | 4.3× | 18.3× (17.5× co. ND) | 15.5× |
+| EV/t (₹) | ~8,900 | ~5,160 | ~2,790 | ~12,300 | ~8,000 |
+| Capacity (MTPA) | 109 → 119 (end-FY27) → 155 (~FY30) | ~40.4 (+3.4 in FY27) | ~8.5 | 32.3 grey + 3.1 white → 40 (FY28) → 50 (FY30) | 24.1 grinding / 9.74 clinker → 43.5–46 |
+| FY26 volume (MT) | 73.7 (+16%) | 43.9 (+13%; incl. MSA) | ~6.6 [E] | 23.5 (+16%) | 13.96 (+11%; 41% GGBS) |
+| EBITDA/t FY26 (₹) | 887 co. / 892 computed | 672 / 674 | ~830 [E] | 1,012 / 1,012 | 888 / 890 |
+| Q1 FY27 EBITDA/t (₹) | 931 | 458 | 960 (ex-works basis) | 982 | 784 (979 ex-North) |
+| Q1 FY27 volume YoY | −7% | −6.5% | −21% | grey +18% | +15% |
+| Green power (latest) | 34% | 31% | n.d. | 53.5% | 30% |
+| Listing status | Listed (transferee) | Listed; merging (3.28:1) | Listed; merging (0.33:1) | Listed | Listed (Aug-25 IPO) |
+
+---
+
+## 7. PRIMER ISSUES
+
+Method: for each primer I extracted the HTML text and read the cover strip, the "What's new" box, the snapshot and the first sections. I then grepped for m-cap, P/E, promoter, swap, NCLT, GST, Q1 FY27, capacity and the banned phrases. Locations are given as the section and the approximate position of the text.
+
+### 7.1 primers/ambuja-cements.html (last refreshed 2 Jul 2026)
+1. **Stale m-cap.** Cover strip: "~₹1.06 L Cr Market cap (Jun '26)". §09: "At ~₹1.06 lakh Cr market cap and ~14× EV/EBITDA". **Correct:** ₹86,757 Cr at ₹350 (13 Oct 2026), −41% from the 52-week high. EV including ACC/Orient minorities is ~₹97,150 Cr, so EV/EBITDA is 14.8× [V: screener]. The primer's 14× on a ₹1.06 L Cr m-cap also understates EV, because it appears to ignore the ACC/Orient minorities.
+2. **Stale P/E.** §09 metrics: "~21–22× Trailing P/E (Jun '26)". **Correct:** 18.4× on screener (reported EPS, inflated by tax write-backs) and ~33× on normalised FY26 PAT of ₹2,647 Cr [V/E].
+3. **Wrong capacity timeline (repeated ~12 times).** Cover blurb, What's new ("FY28 capacity target lifted to 155 MTPA"), §00, §01 table, §03, §07 table, §10 ("target of ~155 MTPA by FY28"), §11 bull case. **Correct:** management has **moved the 155 MTPA target to ~FY30** and will pace additions "after existing plants reach optimal utilisation". Near term it is 119 MTPA by **end-FY27** [V: scanx Q4 FY26 call summary; Q1 FY27 release].
+4. **119 MTPA timing.** §10: "~119 MTPA by H1 FY27". **Correct:** the Q1 FY27 release says "by the end of FY'27". Kalamboli and Warisaliganj trials are only in Q2 [V].
+5. **Stale cost and EBITDA/t targets.** §00, §04, §11: "cost per tonne from ~₹4,200 toward ₹3,650 by FY28 … EBITDA/tonne toward ₹1,500". **Correct:** FY26 cost was actually ~₹4,400/t (not falling from ₹4,200). The FY27 guide is ₹4,250/t and FY28 ≤ ₹4,000/t. ₹3,650 is retained as a long-term target with an **extended timeline**. No ₹1,500/t target appears in the FY26 or Q1 FY27 materials [V: scanx; Investing.com].
+6. **Balance-sheet framing.** §00: "debt-free, cash-rich platform … fortress balance sheet as the war chest". **Correct:** it is still debt-free, but cash and equivalents are only **₹1,770 Cr (Mar-26) and ₹844 Cr (Jun-26)**. Investments fell from ₹1,912 Cr to ₹113 Cr in FY26, and FCF was negative in FY25 and FY26 [V: releases; screener]. "Cash-rich" is stale.
+7. **Stale shareholding.** §02: "Adani group holds ~67.7% (as of Mar 2026) … ~20% DIIs, ~6% FIIs, ~6% public". **Correct (Sep-26):** promoter 67.33%, DII 19.36%, FII 5.66%, public 7.66% [V: screener].
+8. **Missing major events.** The primer never mentions the NCLT (zero occurrences). It omits the SEBI NOC (4 Jun 2026), the NCLT Ahmedabad orders (20 Jul for Orient, 29 Jul for ACC), and the **shareholder approvals on 28/29 Sep 2026** (Ambuja 99.98%; Orient public institutions only 64% in favour). "ACC + Orient amalgamation filed" is stale [V: §1g sources].
+9. **Missing Q1 FY27.** Not covered: 17.1 MT (−7%), EBITDA ₹1,589 Cr, ₹931/t, PAT ₹660 Cr, green power 34%, capex ₹6,500 Cr [V: Q1 release].
+10. **Rival capacity stale.** §07 table: "UltraTech clear #1 — ~180+ MTPA, targeting 200". **Correct:** 200.1 MTPA domestic and 205.5 MTPA global from Apr 2026, targeting ~242.5 MTPA by FY28 [V: batch-1 pack, UltraTech releases].
+11. **History detail.** §02 timeline: "2024 Acquires Penna Cement … and Orient Cement". The Orient deal was **announced** in Oct 2024. The open offer completed and control passed in the **Jun-25 quarter** (promoter 37.86% → 72.66%), and Orient was consolidated for 11 months of FY26 [V: screener Orient shareholding; scanx].
+12. **Utilisation estimate.** §01: "roughly 70% utilisation". This is consistent with my ~71% [E]. OK.
+13. **GST cut mentioned once only.** It should be linked explicitly to the 22 Sep 2025 effective date and to FY26 H2 demand [K].
+14. **Banned phrases:** "Think of Ambuja as Adani's bid…" (§00 "In plain terms" box). §11 headline: "priced for the roll-up and cost story to deliver", a variant of "priced for perfection". "honest": 0 occurrences.
+
+### 7.2 primers/acc.html (last refreshed 13 Jul 2026)
+1. **Major error: the cash pile does not exist.** §10 and the metrics table: "Net cash & investments ~₹13,500 Cr … over half the market cap"; "enterprise value of the actual business is only ~₹12,400 Cr … ~₹3,050 per tonne (~$36/tonne)"; "~4× EV/EBITDA cash-adjusted". Sources box: "cash/investments ₹13,987 Cr". **Correct:** ₹13,987 Cr is screener's **"Other assets"** line (receivables, inventory, loans and advances). **Company cash & equivalents are ₹918 Cr (Mar-26) and ₹375 Cr (Jun-26)**, against ₹429 Cr of borrowings, so **net cash is ~₹489 Cr, or roughly zero at Jun-26**. EV ≈ ₹20,860 Cr, **EV/EBITDA ≈ 7.1×, EV/t ≈ ₹5,160** [V: ACC Q4 and Q1 releases; screener]. The primer's whole "curiosity" thesis ("strip out its enormous cash pile…", §00 "In plain terms") rests on this error and should be removed.
+2. **Stale m-cap, price, P/E, P/B.** Cover strip "~₹25,900 Cr Market cap (Jul 2026)"; metrics "~₹1,380/share", "P/E · P/B ~12× · ~1.3×". **Correct:** ₹21,350 Cr, ₹1,137, P/E 11.2×, P/B 1.04× (13 Oct 2026) [V: screener].
+3. **Q4 EBITDA/t wrong.** What's new, §00 and §05: "Q4 EBITDA/tonne down to ₹471". **Correct:** **₹525/t** (company). FY26 was ₹672/t [V: ACC Q4 release].
+4. **PAT basis mislabelled.** §10 caveat: "standalone PAT (~₹1,304 Cr) versus the consolidated ~₹2,137 Cr". **Correct:** ₹1,304 Cr is **normalised** PAT (excluding one-offs), not standalone. Reported consolidated PAT is ₹2,137 Cr [V: Q4 release].
+5. **Volume vs capacity.** §00 / §10: "sold a record 43.9 Mt off ~40 MTPA … ran ~flat-out". **Correct:** volume above capacity reflects **MSA purchases from Ambuja**. Q4 utilisation was ~80% (company). The Q1 FY27 release attributes weak margins partly to "higher MSA volumes with parent Ambuja" [V].
+6. **Merger status stale.** What's new: "subject to NCLT and shareholder approvals". **Correct:** SEBI NOC 4 Jun 2026; NCLT application 29 Jun; NCLT order 29 Jul; **shareholders approved on 29 Sep 2026** (ACC 95.52% per press [unverified]; Ambuja 99.98% [V]). Only NCLT sanction and the record date remain [V: ACC Q1 release; scanx].
+7. **Missing Q1 FY27.** 10.0 MT (−6.5%), EBITDA ₹457 Cr (7.9%), **₹458/t**, PAT ₹147 Cr, cash ₹375 Cr [V: Q1 release].
+8. **Group capacity target stale.** §00: "a group racing toward a combined 140+ MTPA". Sources box: "capacity target 140→155 MTPA by FY28". **Correct:** 119 MTPA by end-FY27; 155 MTPA pushed to ~FY30 [V].
+9. **Ownership detail.** §04: "mutual funds (~14%), foreign investors (~5%)". **Correct (Sep-26):** DII 20.97% (including LIC), FII 5.75%, public 16.42% [V: screener].
+10. **Rival capacity stale.** Sources box: "UltraTech ~190 MTPA (→240)". Correct: 205.5 MTPA global [V: batch 1].
+11. **Sanghi/Penna dates.** Sources box: "Sanghi (merged Mar 2026), Penna (Apr 2026)". **Correct:** both amalgamations were completed by the FY26 results (4 May 2026), and **Sanghi was delisted w.e.f. 6 Apr 2026** [V: Ambuja FY26 release].
+12. **Banned phrases:** "honest" once (§06, "the honest reality is that the exchange terms…"). That is within the limit. No other banned phrases found.
+
+### 7.3 primers/orient-cement.html (last refreshed 4 Sep 2026)
+1. **Stale m-cap.** Cover strip: "~₹2,633 Cr Market cap (Sep 2026)". **Correct:** ₹2,314 Cr at ₹112 (13 Oct 2026). P/E 10.9×, P/B 1.08× [V: screener].
+2. **Revenue figure.** Cover/What's new: "revenue ~₹2,816 Cr". **Correct:** ₹2,793 Cr (screener and Elara company data) [V]. The ₹2,816 Cr figure is on a different basis (possibly total income, or an unrestated figure; even revenue plus ₹16 Cr of other income gives only ₹2,809 Cr). Use ₹2,793 Cr.
+3. **Missing Q1 FY27**, even though the primer was refreshed on 4 Sep, after the late-July results. Volume 1.50 MT (−21%), EBITDA ₹144 Cr, ₹960/t, PAT ₹77 Cr (−62%) [V: Elara].
+4. **Missing business-model change.** Freight & packing fell from ₹1,055/t to ₹207/t, and realisation is ~₹4,027/t ex-works under the **MSA with Ambuja**. Debtors rose from ₹248 Cr to ₹840 Cr and FY26 CFO was negative. The primer's cost section treats Orient as a normal market-facing seller [V: Elara].
+5. **Merger status stale.** It is described only as board-approved and pending "shareholders, creditors, the courts (NCLT)". **Correct:** NCLT Ahmedabad order of 20 Jul 2026 (creditor meetings dispensed with); **shareholder meeting on 28 Sep 2026 approved the scheme 97.83% overall and 78.85% on public votes; public institutions only 64.19% in favour** [V: Orient outcome PDF]. This dissent is a material omission.
+6. **Valuation anchor.** The primer frames value as 0.33 × Ambuja. It should add the current read: 0.33 × ₹350 = ₹115.5 vs ₹112, a ~3% spread [E].
+7. **Plant capacities.** §02: Devapur ~3.0, Chittapur ~3.5, Jalgaon ~2.0 (sums to 8.5). The primer flags these as approximate. **Unverified** this session; the company's own split is needed.
+8. **Shareholding OK.** 72.66% promoter matches screener Sep-26. The primer should show the latest FII/DII split (3.14% / 2.23%) [V].
+9. **Banned phrases:** none found. "honest": 0.
+
+### 7.4 primers/jk-cement.html (last refreshed 5 Jul 2026)
+1. **Grey capacity stale.** Cover strip "~28 MTPA Grey capacity". §00 "taking grey capacity toward ~28 MTPA on the way to 30+ MTPA". **Correct:** **32.3 MTPA grey** now (after ~6 MTPA added in FY26) [V: JK Q1 FY27 deck summary].
+2. **Capacity target wrong.** §00 / §10 / §11: "30+ MTPA by ~FY28". **Correct:** **40 MTPA by FY28** (Jaisalmer, Bikaner and Punjab, ~7 MTPA in H1 FY28) and **50 MTPA by FY30** [V: Investing.com; PL].
+3. **Net profit wrong.** Cover/§00: "~₹1,033 Cr Net profit (FY26)". **Correct:** ₹988 Cr (screener consolidated) or ₹992.5 Cr attributable (PL) [V].
+4. **Revenue basis.** Cover "~₹13,400 Cr"; §10 "net sales ₹13,391 Cr". **Correct:** **₹13,722 Cr** consolidated revenue from operations (screener and PL) [V].
+5. **Leverage.** §06 / §10 / bear case: "net-debt/EBITDA ~2.5×". This matches screener gross debt (2.4×), but the **company reports 1.69× (net debt ₹3,864 Cr at Jun-26)**. Show both bases [V].
+6. **P/E / m-cap.** "~₹38,000 Cr … P/E ~40×". This happens to be close to today (₹37,744 Cr; 38.6×), but the price is now ₹4,888, near the 52-week low of ₹4,670 and well below the "₹4,800–5,400 band" quoted. Update the date stamp [V: screener].
+7. **Missing Q1 FY27** (results 20 Jul 2026): grey 5.96 MT (+18%), white 0.54 MT (+29%), EBITDA ₹648 Cr consolidated, ₹982/t (−20%), PAT ₹275 Cr, FY27 grey guide 22.5–23 MT, net debt ₹3,864 Cr [V].
+8. **Paints numbers.** It cites only the "up to ~₹600 Cr" board-approved investment (2022). **Add:** FY26 paints revenue ~₹380 Cr with an EBITDA loss of ~₹40 Cr; FY27 guide ₹500–550 Cr at breakeven [V: PL].
+9. **Rival capacities stale.** §00: "UltraTech (~180+ MTPA) and Adani's Ambuja/ACC platform (~118 MTPA)". §08: "UltraTech ~180+ MTPA heading toward ~240". **Correct:** UltraTech 205.5 MTPA (→ ~242.5 by FY28). Adani 109 MTPA (→ 119 by end-FY27) [V].
+10. **FY26 grey volume** "20.66 MnT (+15%)" is plausible (my quarterly sum ≈ 21 MT) but not verified. The consolidated total is 23.5 MT (+16%) [V: PL]. **Green power** "~52% FY26" vs PL's 51%: minor.
+11. **Missing context:** FY26 incentives of ~₹230 Cr (~₹100/t) support EBITDA/t; the UAE white-cement disruption from the West Asia conflict [V: PL].
+12. **Banned phrases:** **"call option" 3×** (§09 / §11 table "Upside call option on a huge, high-margin adjacent market"; §11 "Paints is a call option on top"; bull case "paints as a call option on a huge market"), close to the banned "call option on the future". "40× leaves little room if the cycle turns" (§10, and the bear case "leaves little room if the cement cycle … turns down") is a variant of "no room for error". "honest" once (§09 "The honest read"): OK.
+
+### 7.5 primers/jsw-cement.html (last refreshed 16 Jul 2026)
+1. **Stale m-cap and IPO comparison.** Cover "~₹19,100 Cr Market cap (mid-2026)". §10: "trading near/below the ₹147 IPO price"; "~₹9,400/t EV per tonne". **Correct:** ₹15,397 Cr at ₹113, **23% below the IPO price**. EV/t ≈ ₹8,000. P/E 19.5×, P/B 2.35× [V: screener].
+2. **FY26 margin.** What's new / §00: "EBITDA ₹1,240 Cr (+44%, ~19.9% margin)". **Correct:** **19.0%** operating EBITDA margin (company); 19.1% on screener [V: Q4 release].
+3. **Leverage.** §05: "2.72× Net debt / EBITDA". **Correct:** ₹3,635 Cr ÷ ₹1,240 Cr = **2.93× at Mar-26**; company **2.95× at Jun-26** (net debt ₹3,856 Cr) [V].
+4. **Capacity ladder stale or inconsistent.** §07: "~35 MTPA by CY2028 … ~42 MTPA by FY29 … ~60 MTPA longer term". **Correct:** the Q4 FY26 release targets **46.0 MTPA grinding + 13.04 MTPA clinker**. The Q1 FY27 call gives **43.5 MTPA** (~₹7,500–7,600 Cr) and then ~25 MT more (~68 MTPA) over 3–4 years. Vijayanagar Phase 1 is delayed beyond CY28; Dolvi 4 MT is ~15 months out; Nagaur gets +1 MT GU by Q2 FY27 and another +2.5 MT GU approved (₹430 Cr) [V].
+5. **Missing Q1 FY27** (Jul-26): volume 3.81 MT (+15%), operating EBITDA ₹299 Cr (−7.5%), **₹784/t (₹979 ex-North)**, PAT ₹153 Cr, utilisation 61%, fuel ₹1.80/Mcal (+21% QoQ), GGBS growth guide cut to high single digits [V: Q1 call transcript].
+6. **CCPS charge figure.** "one-off ₹1,466 Cr non-cash CCPS-conversion charge". Screener shows other income of −₹1,444 Cr in Q1 FY26 and −₹1,323 Cr for FY26. **Unverified;** reconcile against the FY26 annual report [V: screener].
+7. **Q4 PAT.** "Q4 PAT ₹362 Cr" is correct (₹361.7 Cr), but the primer should flag the **₹211 Cr deferred-tax release** in it [V: Q4 release].
+8. **Rival capacities.** §00 / §08: "UltraTech (~189 MTPA) … → 240". **Correct:** 205.5 MTPA global [V: batch 1]. "Adani group (~109 MTPA)": correct.
+9. **Shareholding.** "promoter group still holds about 72%" is correct (72.02% at Jun-26). Add the DII rise to 11.49% and the lock-in expiries [V: screener].
+10. **Banned phrases:** none from the list. "honest" once (§05 "the honest read on FY26"): OK.
+
+### 7.6 Cross-primer issues (all five)
+- **Q1 FY27 missing in all five** (zero occurrences of "Q1 FY27" in any primer) [V: grep].
+- **No primer mentions that Q2 FY27 is due in late Oct/Nov.**
+- **GST cut 28% → 18% (22 Sep 2025):** each primer mentions GST once at most (ACC 3×, the others 1×), without the effective date or its FY26 H2 demand effect [grep].
+- **Consolidation perimeter:** the Ambuja, ACC and Orient primers each quote their own volumes without warning that ACC's and Orient's numbers sit inside Ambuja's 73.7 MT and 109 MTPA, or that intra-group MSA flows inflate ACC's volume.
+- **UltraTech capacity is stale everywhere** (180+ / 189 / 190 MTPA vs 205.5 MTPA actual).
+
+---
+
+### Sources fetched this session (key)
+- screener.in consolidated and standalone pages for AMBUJACEM, ACC, ORIENTCEM, JKCEMENT, JSWCEMENT (curl, 13 Oct 2026)
+- Ambuja Q1 FY27 media release (nsearchives PDF); Ambuja FY26 release (adani.com)
+- ACC Q1 FY27 media release (nsearchives PDF); ACC Q4 FY26 release (adani.com)
+- Orient NCLT-meeting outcome and voting results, 28 Sep 2026 (nsearchives PDF)
+- Elara Securities Orient Cement Q1 FY27 note (PDF); PL Capital JK Cement Q4 FY26 note (PDF)
+- JSW Cement Q4 FY26 press release (nsearchives PDF); Investing.com JSW Q1 FY27 call transcript; Investing.com Ambuja and JK Q1 FY27 deck summaries; scanx (Ambuja Q4 FY26 call; Ambuja EGM vote); multibagg (merger timeline, two articles)
+- Failed or blocked: bseindia.com API (Access Denied); Business Standard and NewKerala (403). ACC's own 95.52% vote figure was taken from search snippets only and is **unverified**.

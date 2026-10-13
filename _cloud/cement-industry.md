@@ -576,5 +576,44 @@ Dalmia Q1FY26 / Q4FY26 / Q1FY27 [V]: raw material 791 / 734 / 823; power & fuel 
 
 ---
 
-## COMPANY-KPI APPENDIX (to be written by orchestrator)
+## COMPANY-KPI APPENDIX (orchestrator, cross-checked across company packs 1–3)
 
+Basis: FY26 consolidated (standalone where noted in the pack). Screener.in pages were fetched on 13 Oct 2026. Market cap and P/E are at the 13 Oct 2026 close. The orchestrator re-fetched and confirmed m-cap and P/E for ULTRACEMCO, AMBUJACEM, ACC, JKCEMENT and STARCEMENT this session. Revenue, EBITDA (screener operating profit) and PAT are in ₹ Cr. Capacity is in MTPA (grey cement, domestic unless noted) and volume in MT. EBITDA/t is the company-reported figure where one exists. Net debt is the company figure where disclosed (− = net cash). Q2 FY27 results were not out for any member on 13 Oct 2026; UltraTech reports on 19 Oct and Nuvoco on 22 Oct.
+
+### Summary grid (15 members)
+| # | Company | Group / status | Rev FY26 | EBITDA FY26 | OPM | PAT FY26 | Net debt (latest) | ND/EBITDA | M-cap 13-Oct-26 | P/E | EV/EBITDA | Capacity | Vol FY26 | EBITDA/t FY26 | EBITDA/t Q1 FY27 | Green power |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | UltraTech | Aditya Birla; consolidates ICL | 88,512 | 17,004 | 19.2% | 8,188 | ~16,540 | 0.9× | 3,15,760 | 36.6 | 19.5× | 200.1 (205.5 global) | 154.3 cons. | ~1,102 | 1,214 | 47% |
+| 2 | India Cements | 75.0% UltraTech subsidiary | 4,485 | 395 | 8.8% | −67 | ~1,540 | 3.3× | 9,277 | 68.7 | 27.4× | ~14.45 | 10.3 | 385 | 604 | 12% |
+| 3 | Shree Cement | Independent | 20,943 | 4,638 | 22.1% | 1,749 | −8,404 (screener) | net cash | 80,090 | 49.1 | 15.5× | 69.3 India | ~36.4 | 1,174 | 1,024 | 65% |
+| 4 | Dalmia Bharat | Independent; JAL assets acquired May 2026 | 14,804 | 3,083 | 20.8% | 1,157 | 4,431 | 1.5× | 31,015 | 28.2 | 11.5× | 54.7 | ~30.0 | 1,027 | ~1,055 | 48% |
+| 5 | Ramco Cements | Independent | 9,029 | 1,437 | 15.9% | 699 (adj. ~250) | ~3,938 | 2.9× | 19,189 | 101 | 16.1× | ~26.4 | 18.81 | 788 | 681 | 37% |
+| 6 | Ambuja Cements | Adani; consolidates ACC, Orient, Sanghi, Penna | 40,656 | 6,577 | 16.2% | 5,637 (norm. 2,647) | −904 (Mar-26) | net cash | 86,757 | 18.4 | 14.8× | 109 (group) | 73.7 | 887 | 931 | 34% |
+| 7 | ACC | Adani; merging into Ambuja (3.28:1) | 25,962 | 2,958 | 11.4% | 2,137 (norm. 1,304) | −489 (Mar-26) | net cash | 21,350 | 11.2 | 7.1× | ~40.4 | 43.9 (incl. MSA) | 672 | 458 | 31% |
+| 8 | Orient Cement | Adani; merging into Ambuja (0.33:1) | 2,793 | 546 | 19.5% | 338 | ~+40 | ~0× | 2,314 | 10.9 | 4.3× | ~8.5 | ~6.6 (est.) | ~830 (est.) | 960 | n.d. |
+| 9 | J.K. Cement | Independent; grey + white + paints | 13,722 | 2,379 | 17.3% | 988 | 3,864 | 1.7× | 37,744 | 38.6 | 18.3× | 32.3 grey + 3.1 white | 23.5 | 1,012 | 982 | 53.5% |
+| 10 | JSW Cement | JSW group; IPO Aug 2025 | 6,501 | 1,242 | 19.1% | −799 (CCPS charge) | 3,856 | 2.95× | 15,397 | 19.5 (TTM) | 15.5× | 24.1 grinding | 13.96 | 888 | 784 | 30% |
+| 11 | Nuvoco Vistas | Nirma group | 11,338 | 1,857 | 16.4% | 360 | 4,445 | 2.4× | 11,399 | 27.5 | 8.5× | 27 | 20.4 | ~922 | ~1,079 | n.d. |
+| 12 | Star Cement | Chamaria/Bhajanka; UltraTech holds 8.69% | 3,776 | 936 | 24.8% | 390 | ~345 | 0.4× | 6,779 | 17.9 | 7.6× | 9.7 | 5.50 | 1,717 | 1,497 | ~26% |
+| 13 | JK Lakshmi | JK (HSM) group; UCWL merged Jul 2025 | 6,763 | 1,000 | 14.8% | 413 | 1,266 | 1.1× | 5,917 | 15.4 | 7.2× | 18.0 | 13.35 | 758 | 719 | 49% |
+| 14 | Birla Corp | MP Birla group; cement + jute | 9,656 | 1,455 | 15.1% | 558 | ~2,100 | 1.4× | 6,196 | 11.1 | 5.8× | 21.4 | 18.72 | 786 (unverified, ScanX) | ~675–678 | n.d. |
+| 15 | Prism Johnson | Rajan Raheja; cement + tiles + RMC | 7,381 | 698 | 9.5% | 30 | ~646 | 0.8× | 4,944 | 42.1 | 8.0× | 5.6 (+1.37 tolling) | ~7.4 | 543 (cement) | 706 | ~33–36% |
+
+### Aggregates (stated basis)
+- **Simple sum of all 15 rows** (this is what a peer-table "combined" row equals). Revenue ₹2,66,321 Cr; EBITDA ₹46,205 Cr (17.3%); PAT ₹21,778 Cr; m-cap ₹6,54,128 Cr; capacity 664.05 MTPA; volume 476.84 MT. This **double-counts** India Cements (inside UltraTech) and ACC and Orient (inside Ambuja), and Ambuja's 109 MTPA is already the group figure.
+- **De-duplicated 12 reporting groups** (the 15 rows minus ICL, ACC and Orient). Revenue ₹2,33,081 Cr; EBITDA ₹42,306 Cr (18.2%); PAT ₹19,370 Cr; m-cap ₹6,21,187 Cr (market cap is not additive in economic terms: minority holders of ACC, Orient and ICL hold separate listed equity); capacity ~600.7 MTPA (≈83% of the ~720 MTPA all-India estimate); volume ~416 MT (≈85% of FY26 production of 491.4 mt; these are not like-for-like because company volumes include traded and white cement).
+- **Top two by capacity:** UltraTech 205.5 global / 200.1 domestic and Adani 109, together ~309 MTPA ≈ 43% of ~720 MTPA. The industry file's "≈44%" is consistent.
+- **Weighted EBITDA/t, de-duplicated:** ₹42,306 Cr ÷ ~416 MT ≈ ₹1,017/t, on screener EBITDA, which includes non-cement segments at Prism, Birla (jute) and JK (paints). Treat it as INDICATIVE.
+
+### Reconciliation notes (cross-batch checks)
+1. **UltraTech capacity.** Batch 1 uses 200.1 MTPA domestic / 205.5 global (April 2026, company release). The industry file and the batch 2/3 primer-issue lists that say "UltraTech ~189" are stale. Use 200.1/205.5 everywhere.
+2. **UltraTech EBITDA/t.** FY26 computed ~₹1,102 (screener EBITDA ÷ 154.3 MT consolidated); ICICI gives ₹1,103. The industry file cites ₹1,103. These are consistent.
+3. **Adani perimeter.** Ambuja's consolidated revenue of ₹40,656 Cr includes ACC (₹25,962 Cr) and Orient. ACC's 43.9 MT includes cement bought from Ambuja under master supply agreements (MSA), so ACC's EBITDA/t of ₹672 is depressed by trading margins. Never add ACC or Orient to Ambuja.
+4. **ACC "net cash".** The orchestrator re-fetched ACC's screener balance sheet. Mar-26 Investments are ₹55 Cr and "Other Assets" are ₹13,987 Cr, so the primer's ~₹13,500 Cr "net cash" is the Other Assets line. The company-disclosed cash (₹918 Cr at Mar-26) is the right basis.
+5. **India Cements.** UltraTech's stake: 55.49% (Dec 2024) → 81.49% after the open offer → 75.00% after the MPS sell-down (Dec 2025). No merger scheme has been announced.
+6. **Ramco PAT.** FY26 reported ₹699 Cr includes land-sale gains (~₹574 Cr, unverified snippet). Use ~₹250 Cr adjusted for P/E context.
+7. **JSW Cement PAT.** −₹799 Cr reflects the CCPS fair-value/conversion charge (~₹1,466 Cr, unverified) around the IPO. The P/E shown is on TTM.
+8. **Star capacity.** 9.7 MTPA (batch 3) supersedes the 7.7 MTPA in the primer.
+9. **Birla Corp.** FY26 volume and EBITDA/t come from a ScanX summary of the filing. The company presentation could not be fetched, so these are marked unverified.
+10. **Orient** FY26 volume and EBITDA/t are estimates; Orient no longer publishes a full KPI deck.
+11. **Shree net cash.** ₹8,404 Cr is on the screener basis (investments − borrowings). The company-reported treasury differs slightly; state the basis.
