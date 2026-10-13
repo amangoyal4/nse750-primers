@@ -638,3 +638,80 @@ Quarterly (PL coverage, ₹ crore) [V]: Prestige Q2 FY26 6,017 · Q3 4,184 · Q4
 15. **NHB RESIDEX** — not used (RBI HPI preferred); MoHUA RERA 2025 totals (1.51 lakh projects etc.) only via a marketing blog snippet.
 16. **Share of NRI demand, data-centre capacity (GW), real estate % of GDP / US$1 tn by 2030** — industry/IBEF claims [K/E], not verified.
 17. **FY25 pre-sales for Sobha, Brigade, Puravankara, Oberoi** — approximate/unknown; company packs to fill.
+
+---
+
+## COMPANY-KPI APPENDIX (written by the orchestrator, 13-Oct-2026)
+
+**Basis.** All standard figures come from screener.in pages fetched 13-Oct-2026: consolidated, except Hemisphere, which is standalone because it has no consolidated page. Specifically:
+- **Revenue:** "Sales" = revenue from operations.
+- **Operating profit:** screener "Operating Profit" excludes other income. It is not company EBITDA: Godrej Properties and Signatureglobal show negative operating profit, but their reported "adjusted EBITDA" includes other income and interest in cost of sales.
+- **PAT:** screener "Net Profit", which **includes minority interest**. This matters for Phoenix (owners ₹1,208 cr vs ₹1,557 cr) and Prestige (owners ~₹1,195 cr vs ₹1,305 cr). Signatureglobal's ₹1,095 cr is mostly a one-off ₹1,293 cr RMZ stake-sale gain, and DLF's ₹4,415 cr includes its share of DCCDL JV profit.
+- **Borrowings:** screener balance sheet, Mar-26.
+
+The company net-debt column uses each company's own reported figure for the latest date available (packs 1–3). Where a company gives none, it is screener borrowings minus cash and investments; NESCO, Valor, TARC and Hemisphere are on this basis.
+
+Pre-sales are company-reported gross bookings (₹ cr). They include JD/JV partner shares where the company reports them that way: Sobha's ₹8,136 cr total vs its own share of ₹6,706 cr, and Godrej's total booking value. A coincidence to note: ABREL (₹8,136 cr) and Sobha (₹8,136 cr total) reported near-identical FY26 bookings. Both are confirmed by separate sources (company presentations; investywise for ABREL).
+
+The m-caps and P/Es below were independently re-pulled by the orchestrator and match all three company packs exactly.
+
+| Company | M-cap ₹ cr (13-Oct-26) | P/E | P/B | FY26 revenue ₹ cr | YoY | FY26 op. profit (OPM) | FY26 PAT | ROCE | ROE | Borrowings Mar-26 | Company net debt (+) / net cash (−) | FY25 pre-sales | FY26 pre-sales | Q1 FY27 pre-sales | Promoter % (latest) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| DLF | 164,812 | 38.3 | 3.6x | 8,194 | +3% | 1,449 (18%) | 4,415 | 6.3% | 9.5% | 306 | -15,200 (Jun-26) | 21,223 | 20,143 | 657 | 74.08% |
+| Lodha | 108,311 | 26.2 | 4.7x | 16,676 | +21% | 4,923 (30%) | 3,431 | 16.4% | 15.5% | 9,896 | 4,930 (Jun-26) | 17,630 | 20,530 | 4,630 | 70.31% |
+| Phoenix Mills | 68,130 | 52.5 | 6.2x | 4,418 | +16% | 2,638 (60%) | 1,557 | 12.4% | 11.0% | 5,323 | 3,658 (Jun-26) | n/a | n/a | n/a | 47.25% |
+| Prestige | 64,432 | 56.6 | 3.9x | 12,685 | +73% | 3,693 (29%) | 1,305 | 10.4% | 7.5% | 17,659 | 11,900 (Jun-26 (approx.)) | 17,023 | 30,024 | 6,579 | 60.95% |
+| Oberoi | 62,571 | 23.6 | 3.5x | 6,009 | +14% | 3,359 (56%) | 2,507 | 17.3% | 14.6% | 2,825 | 1,119 (Mar-26 [E, derived]) | 5,281 | 5,447 | 1,050 | 67.71% |
+| Godrej Properties | 48,009 | 29.7 | 2.5x | 5,131 | +4% | -453 (-9%) | 1,841 | 7.6% | 8.8% | 15,894 | 7,637 (Jun-26) | 29,444 | 34,171 | 8,651 | 51.66% |
+| Anant Raj | 20,245 | 35.0 | 3.5x | 2,512 | +22% | 656 (26%) | 559 | 12.1% | 11.2% | 681 | 0 (Mar-26 (~nil)) | n/a | n/a | n/a | 57.43% |
+| Brigade | 18,995 | 27.9 | 2.8x | 5,697 | +12% | 1,433 (25%) | 725 | 10.5% | 10.5% | 6,344 | 2,218 (Jun-26) | 7,847 | 7,424 | 1,061 | 41.10% |
+| Sobha | 12,630 | 54.8 | 2.7x | 5,190 | +28% | 310 (6%) | 193 | 6.9% | 4.2% | 1,057 | -659 (Jun-26) | 6,277 | 8,136 | 3,656 | 52.88% |
+| ABREL | 11,913 | n/m | 3.2x | 407 | -67% | -368 (-90%) | -115 | -4.5% | -2.6% | 5,636 | 3,438 (Jun-26, pre ITC ₹3,325 cr receipt) | 8,088 | 8,136 | 329 | 50.21% |
+| Signatureglobal | 10,007 | n/m | 5.4x | 2,596 | +4% | -47 (-2%) | 1,095 | 2.4% | -30.3% | 2,979 | 450 (Sep-26) | 10,290 | 8,250 | 1,970 | 69.54% |
+| Sri Lotus | 11,389 | 44.3 | 5.9x | 766 | +40% | 281 (37%) | 243 | 21.2% | 16.7% | 131 | -624 (Jun-26) | 488 | 1,157 | 409 | 79.87% |
+| Embassy Dev. | 7,660 | n/m | 0.8x | 1,732 | -21% | -473 (-27%) | -872 | -2.4% | -9.2% | 5,322 | 3,732 (Sep-26) | 2,031 | 4,631 | 868 | 42.65% |
+| NESCO | 7,324 | 17.6 | 2.4x | 932 | +27% | 490 (53%) | 413 | 18.5% | 14.8% | 272 | -1,273 (Mar-26, screener-basis) | n/a | n/a | n/a | 68.54% |
+| Valor Estate | 4,683 | n/m | 1.1x | 1,593 | +108% | 25 (2%) | 27 | 1.6% | -1.3% | 751 | 674 (Mar-26, screener-basis) | n/a | n/a | n/a | 47.17% |
+| Puravankara | 5,015 | 31.3 | 2.8x | 3,740 | +86% | 691 (18%) | 57 | 11.2% | 3.5% | 5,595 | 2,836 (Jun-26) | 4,783 | 7,407 | 1,439 | 75.00% |
+| Sunteck | 3,968 | 18.6 | 1.1x | 1,124 | +32% | 305 (27%) | 202 | 7.5% | 5.8% | 774 | 295 (Jun-26) | 2,531 | 3,157 | 787 | 63.14% |
+| TARC | 3,597 | n/m | 3.4x | 330 | +871% | -159 (-48%) | 19 | 5.8% | 8.6% | 1,895 | 1,814 (Mar-26, screener-basis) | 3,722 | 1,373 | 602 | 65.12% |
+| Hemisphere (standalone) | 3,205 | n/m | 7.4x | 1 | +0% | -9 (n/m) | -11 | -1.1% | -2.7% | 87 | 62 (Mar-26, screener-basis) | n/a | n/a | n/a | 51.12% |
+| **Combined (19)** | **636,896** | | | **79,733** | +22% | **18,744** (24%) | **17,591** | | | **83,427** | **27,007** | **136,658** (14 cos) | **159,986** (14 cos) | **32,688** (14 cos) | |
+
+**Aggregates (stated basis):**
+- **Market cap:** 19 members ₹6,36,896 cr (≈ ₹6.37 lakh cr) at 13-Oct-2026. The top 3 (DLF ₹1,64,812 cr, Lodha ₹1,08,311 cr, Phoenix ₹68,130 cr) are 54% of it; the top 6 are 81%.
+- **FY26 revenue:** ₹79,733 cr vs ₹65,158 cr in FY25 (+22%). Prestige alone added ₹5,336 cr and Puravankara ₹1,726 cr. Revenue lags bookings by 3–5 years under Ind AS 115.
+- **FY26 operating profit (screener basis, excl. other income):** ₹18,744 cr, a 24% margin. This understates developers that capitalise interest and book JV profit below the line (DLF OPM 18% vs PAT ₹4,415 cr).
+- **FY26 PAT (incl. minorities and one-offs):** ₹17,591 cr. Excluding Signatureglobal's ~₹1,293 cr RMZ gain gives about ₹16,300 cr. The P/E on combined m-cap is ~36x reported, ~39x ex-one-off.
+- **Gross borrowings, Mar-26:** ₹83,427 cr. Company-reported net debt summed across the 19 is about ₹27,000 cr. This is dominated by Prestige (₹11,900 cr), Godrej (₹7,637 cr), Lodha (₹4,930 cr), Embassy (₹3,732 cr), Phoenix (₹3,658 cr) and ABREL (₹3,438 cr, about nil after ITC proceeds), and offset by DLF's ₹15,200 cr net cash. Most of DLF's cash sits in RERA escrow accounts.
+- **Pre-sales, the 14 members that report them:**
+  - FY25 ₹1,36,658 cr → FY26 ₹1,59,986 cr (+17%).
+  - The top 4 (Godrej, Prestige, Lodha, DLF) booked ₹1,04,868 cr, 66% of the 14.
+  - Q1 FY27 was ₹32,688 cr. That is down sharply year on year because DLF fell from ₹11,425 cr to ₹657 cr and Prestige from ~₹12,126 cr to ₹6,579 cr. Both are launch-timing effects.
+  - The industry league table (§5, PTI) covers 28 listed developers at ~₹1.95 lakh cr. The 14 members are ~82% of that.
+- **Annuity-heavy members** (Phoenix, NESCO, Anant Raj data centres, and the rent arms of DLF, Prestige, Brigade and Oberoi) have no meaningful pre-sales and are valued on rent and EBITDA instead.
+
+**Reconciliation with §5 league table (corrections from company packs):**
+- **FY25 pre-sales:**
+  - Sobha is ₹6,277 cr (not ~6,060).
+  - Brigade is ₹7,847 cr (not ~7,000), so FY26 is −5% YoY.
+  - Embassy is ₹2,031 cr, so FY26 is +128%.
+  - Puravankara is ₹4,783 cr (restated; ~₹5,006 cr originally), so FY26 is +55%.
+  - Oberoi is ₹5,281 cr, so FY26 is +3%.
+  - Sri Lotus is about ₹488 cr (implied from +137%).
+  - Sunteck is ₹2,531 cr, so FY26 is +25%.
+  - TARC is ₹3,722 cr, so FY26 is −63%.
+  - ABREL is ₹8,088 cr (snippet 8,087).
+- **Q1 FY27:**
+  - Sobha's ₹3,656 cr is the total including JD partners; Sobha's own share is ₹2,992 cr.
+  - ABREL ₹329 cr, Sri Lotus ₹409 cr, Puravankara ₹1,439 cr.
+  - Sunteck ₹787 cr is the PL figure; the deck implies about ₹780 cr from a 29% uber-luxury share of ₹226 cr.
+- **Q2 FY27 operational updates available (13-Oct-2026):**
+  - Sobha ₹2,206 cr (+16%), H1 ₹5,862 cr.
+  - Signatureglobal ₹1,830 cr (−9%), H1 ₹3,800 cr.
+  - Embassy ₹3,225 cr, H1 ₹4,093 cr.
+  - DLF sold out The Aureva for ~₹1,985 cr on 4-Oct-2026.
+  - Oberoi: Three Sixty North Phase 1 booked ₹8,109 cr in July (PL estimates Q2 ~₹9,030 cr).
+  - None of the 19 has released Q2 FY27 financial results yet.
+- **Margin basis conflicts:** company EBITDA includes other income at Brigade, Sobha and Embassy, and excludes it at Sri Lotus. Lodha reports "adjusted EBITDA" (adding back finance cost in COGS): ₹5,650 cr [K] vs screener ₹4,923 cr.
+- **Net-cash basis conflicts:** screener cash misses most fixed deposits at Brigade, Sobha and Sri Lotus. Sobha's screener investments are ₹120 cr against company cash of ₹1,769 cr. Use company figures.
