@@ -760,5 +760,43 @@ See the §10 table for definitions, formulas and good/average/weak ranges. Addit
 
 ---
 
-## COMPANY-KPI APPENDIX (to be written by orchestrator)
+## COMPANY-KPI APPENDIX (orchestrator, cross-checked across company packs 1–3)
 
+Basis: FY26 consolidated, except BDL and Data Patterns, which are standalone. Revenue, EBITDA (operating, excluding other income) and PAT are in ₹ Cr. Net cash (+) or net debt (−) uses company cash including fixed deposits, which matters most for the PSUs and Zen. Market cap and P/E are from screener at the 13 Oct 2026 close. The orchestrator re-fetched and confirmed HAL, BEL, DATAPATTNS, AEQUS and ZENTEC this session. OB cover = order book ÷ FY26 revenue. NWC days are on the screener basis unless marked co. Aequs EBITDA here is the operating figure (~₹89–92 Cr); the company figure is ₹154.5 Cr including ~₹65 Cr other income. Q2 FY27 results were not out for any member on 13 Oct 2026. Shareholding is Jun-26 except where the pack notes Sep-26 (Astra, Apollo).
+
+### Summary grid (12 members)
+| Archetype | Company | Rev FY26 | Growth | EBITDA (ex OI) | OPM | PAT | Net cash (+) / debt (−) | M-cap 13-Oct-26 | P/E | ROCE % | Order book ₹ Cr | OB cover | Book-to-bill FY26 | NWC days | Export share |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| PSU prime | HAL | 33,089 | +6.8% | 9,788 | 29.6% | 9,116 | +46,131 | 325,907 | 35.0× | 32 | 2,54,538 (Mar-26) | 7.7× | 2.9× | 301 | <2% |
+| PSU prime | BEL | 27,610 | +16.2% | 8,053 | 29.2% | 6,062 | +8,507 | 277,995 | 45.2× | 36 | 73,882 (Apr-26) / 72,258 (Jul-26) | 2.7× | 1.09× | 135 | ~4% |
+| PSU prime | BDL (standalone) | 2,442 | -27.0% | 225 | 9.2% | 420 | +4,704 | 41,158 | 79.0× | 14 | 26,176 (Mar-26) | 10.7× | 2.4× | 264 | n.a. (FY25 ~38%) |
+| PSU materials | MIDHANI | 1,209 | +12.5% | 239 | 19.8% | 131 | −92 | 8,185 | 60.6× | 11 | 2,290 (Apr-26) | 1.9× | 1.4× | 327 | ~7% |
+| Private electronics | Data Patterns (standalone) | 925 | +30.6% | 374 | 40.4% | 271 | +512 | 23,169 | 85.7× | 21.9 | 926 (Mar-26); 2,654 incl. negotiated (Jul-26) | 1.0× | 1.21× | 357 | 6.7% |
+| Private electronics | Astra Microwave | 1,163 | +10.7% | 334 | 28.7% | 193 | −35 | 15,917 | 84.2× | 20.3 | 2,141 (Mar-26); ~4,300 (Aug-26) | 1.85× | 1.16× | 267 | 11.9% |
+| Private electronics | Apollo Micro Systems | 904 | +61% | 219 | 24.2% | 107 | −387 | 15,122 | 125× | 14.5 | 1,432 (Mar-26); 1,704 (Aug-26) | 1.6× | n.a. | 256 | ~0% |
+| Private electronics | Paras Defence | 477 | +30.7% | 122 | 25.6% | 89 | +92 | 10,404 | 112× | 17.2 | 986 (Mar-26) | 2.1× | 1.12× | 273 | 15.3% |
+| Training/counter-drone | Zen Technologies | 688 | -29.4% | 245 | 35.6% | 218 | +1,289 | 14,916 | 82.1× | 16.2 | 1,336 (Mar-26); 1,239 (Jun-26) | 1.9× | 1.71× | 543 scr. / 196 co. | 11.4% |
+| Aero precision | MTAR Technologies | 876 | +29.6% | 171 | 19.5% | 94 | −133 | 23,769 | 175× | 15 | 5,143 (Jun-26) | 5.9× | 2.8× | 172 co. FY26 → 59 Q1 | 82% |
+| Aero precision | Aequs | 1,230 | +33.1% | 90 | 7.3% | -113 | −47 (−344 incl. lease) | 17,779 | n.m. (loss) | 1.7 | US$1,004 m ≈ 9,590 (Jun-26) | 7.8× | n.a. | 132 co. | 88% |
+| Aero precision | Dynamatic Technologies | 1,621 | +15.5% | 183 | 11.3% | 32 | −461 | 9,482 | 162× | 10 | not disclosed | n.a. | n.a. | 42 | ~70% |
+
+### Aggregates (stated basis)
+- **Simple sum of the 12 rows** (what a peer-table "combined" row equals): revenue ₹72,234 Cr; EBITDA ₹20,043 Cr (27.7%); PAT ₹16,620 Cr; m-cap ₹783,803 Cr; m-cap ÷ FY26 PAT = 47.2×. There is no double-counting: no member consolidates another. HAL and BEL alone are 77% of the m-cap and 84% of the revenue.
+- **Order books, summed (latest disclosed, mixed dates; Aequs at ~₹9,590 Cr; Dynamatic excluded as undisclosed):** HAL 2,54,538 + BEL 72,258 + BDL 26,176 + MIDHANI 2,329 + Data Patterns 926 + Astra ~4,300 + Apollo 1,704 + Paras 986 + Zen 1,239 + MTAR 5,143 + Aequs ~9,590 ≈ ₹379,189 Cr ≈ 5.2× combined FY26 revenue. INDICATIVE.
+- **Net cash, PSUs (company basis incl. FDs):** HAL 46,131 + BEL 8,507 + BDL 4,704 − MIDHANI 92 = ₹59,250 Cr, largely funded by customer advances (HAL ≤₹74,190 Cr; BEL ₹12,571 Cr; BDL ₹6,259 Cr; MIDHANI ₹538 Cr).
+- **PSUs (HAL, BEL, BDL, MIDHANI)**: revenue ₹64,350 Cr · EBITDA ₹18,305 Cr (28.4%) · PAT ₹15,729 Cr · m-cap ₹653,245 Cr · m-cap/PAT 42×
+- **Private electronics + Zen (5)**: revenue ₹4,157 Cr · EBITDA ₹1,294 Cr (31.1%) · PAT ₹878 Cr · m-cap ₹79,528 Cr · m-cap/PAT 91×
+- **Aero precision (MTAR, Aequs, Dynamatic)**: revenue ₹3,727 Cr · EBITDA ₹444 Cr (11.9%) · PAT ₹13 Cr · m-cap ₹51,030 Cr · m-cap/PAT n.m. (combined PAT ≈ ₹13 Cr because of the Aequs loss)
+
+### Reconciliation notes (cross-batch checks)
+1. **BrahMos** is made by the unlisted BrahMos Aerospace JV, not BDL. Data Patterns supplies electronics to it.
+2. **HAL.** EBITDA ex other income is ₹9,788 Cr (29.6%); the primer's ~₹13,470 Cr includes other income. Cash including FDs is ₹46,197 Cr. No LCA Mk1A had been delivered as of Sep 2026. GE has delivered 10 F404 engines by Aug 2026. The F414 deal is an understanding with ~80% ToT; the commercial contract is unsigned. HAL was left out of the AMCA competition (industry file), and Dynamatic is exclusive partner in the L&T–BEL AMCA bid (shortlisted).
+3. **BEL.** Receivables are 170 days and FY26 CFO only ₹1,541 Cr, so the "negative working capital" framing is outdated. FY27 inflow guidance of >₹55,000 Cr hinges on QRSAM (~₹30,000 Cr), which was unsigned as of mid-Sep 2026.
+4. **BDL.** FY26 revenue fell 27% on delayed Akash deliveries, which depend on imported seekers and radars. Consolidated screener was login-gated, so standalone is used. EV/EBITDA (~162×) is distorted by the trough EBITDA.
+5. **Paras.** The primer's ₹1,432 Cr order book is Apollo's figure; Paras is ₹986 Cr.
+6. **Apollo.** It is acquiring 41.33% of Premier Explosives (~₹1,550 Cr) plus an open offer, funded by a ~₹3,322 Cr preferential issue (~22% dilution). 35.6% of promoter holding is pledged.
+7. **Zen.** Screener cash (₹355 Cr) misses deposits; the company figure is ₹1,308 Cr. NWC days are 543 on screener vs 196 company. Management cites ~₹800 Cr of anti-drone orders after Operation Sindoor.
+8. **MTAR.** The revenue mix is fuel cells ~70%, products ~15%, A&D ~12% and nuclear ~2.7%; the primer used order-book shares. Bloom's share (~60–70%) is an estimate.
+9. **Aequs.** IPO 10 Dec 2025: ₹921.8 Cr at ₹124, ~104× subscribed. It is loss-making (PAT −₹113 Cr). The promoter foundation filed a pledge-release on its 14.99% stake (Oct 2026).
+10. **Dynamatic.** It has no Rafale fuselage contract (that went to Tata Advanced Systems); it builds the Falcon 6X rear fuselage. Net debt/EBITDA is 2.4–2.5× (company). FY26 PAT includes ₹27.6 Cr of one-offs.
+11. **Industry totals** (industry file, verified): FY27 defence budget ₹7.85 lakh Cr, of which capital outlay is ₹2.19 lakh Cr; FY26 defence production is a record ₹1.78 lakh Cr; FY26 exports are ₹38,424 Cr (+62.7%); FY26 AoNs total ₹6.81 lakh Cr. The 12 members' combined FY26 revenue (₹72,234 Cr) is ≈41% of national defence production, though the bases differ: members include civil aerospace, fuel cells and exports.
