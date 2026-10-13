@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+  main{min-width:0;}
   :root{
     --paper:#F3F5F6;
     --paper-2:#FAFBFC;
@@ -255,18 +256,18 @@
 <div class="stat-strip">
     <div class="cell"><div class="v">~₹1,852 <small>Cr</small></div><div class="l">Revenue (FY26)</div></div>
     <div class="cell"><div class="v">~₹202 <small>Cr</small></div><div class="l">Net profit (FY26)</div></div>
-    <div class="cell"><div class="v">~₹2,493 <small>Cr</small></div><div class="l">Order book (Mar-26)</div></div>
-    <div class="cell"><div class="v">~₹11,800 <small>Cr</small></div><div class="l">Market cap (2026, approx)</div></div>
+    <div class="cell"><div class="v">~₹3,117 <small>Cr</small></div><div class="l">Order book (Jun-26)</div></div>
+    <div class="cell"><div class="v">~₹14,251 <small>Cr</small></div><div class="l">Market cap (13 Oct 2026)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">2 Aug 2026</b> · source: FY26 results (year ended Mar 2026) + RHP</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: Q1 FY27 results (quarter ended Jun 2026) + RHP; market data as of 13 Oct 2026</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — revenue ~₹1,852 Cr (+49%), EBITDA ~₹344 Cr at an ~18.6% margin, PAT ~₹202 Cr (+70%), now essentially debt-free; order book near ₹2,500 Cr; new EHV plant at Vadod commissioned July 2025, taking rated capability toward 765 kV.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b>Q1 FY27 (Apr–Jun 2026) added — revenue ₹466 Cr (+48%), EBITDA margin 16.5%, PAT ₹46.8 Cr (+50%); <strong>record order inflow ₹972 Cr</strong>; order book <strong>₹3,117 Cr</strong> (+25% QoQ). Corrected: the <strong>Ankhi plant (Atlanta Trafo Ltd, formerly BTW-Atlanta) is already operating</strong> — installed capacity is 63,060 MVA across five plants; Vadod has PGCIL approval up to 400 kV (2 Apr 2026), with 765 kV to come via Ankhi. Guidance: ~40% revenue CAGR for three years at ~16–20% margins; a new inverter-duty plant (+5,000 MVA) by end-CY26. Promoters hold 87.28% and must cut to 75% by about Sep 2028 under minimum-public-shareholding rules. Market cap and P/E as of 13 Oct 2026.</div>
 </header>
 
 <!-- 00 -->
@@ -280,7 +281,7 @@
   <ul class="clean">
     <li><strong>It is a supplier to India's grid build-out.</strong> Atlanta doesn't own power plants or wires; it makes a component nobody can skip. Every new substation, every transmission line, every solar or wind plant that wants to sell power needs transformers first. FY26 revenue jumped <strong>~49% to ~₹1,852 Cr</strong> and net profit <strong>~70% to ~₹202 Cr</strong> — growth pulled straight from the country's transmission-and-distribution (T&amp;D) capex wave.</li>
     <li><strong>Its growth is a capacity story, not just a demand story.</strong> In FY25 Atlanta's plants ran at <strong>~98% utilisation</strong> — its flagship Anand line was pushed past <strong>116%</strong>. It was, quite literally, selling everything it could build. The step-change came from a brand-new extra-high-voltage plant at <strong>Vadod</strong> (live July 2025) that roughly tripled potential capacity. The company's future is a race to fill those new lines.</li>
-    <li><strong>It rode the IPO to a clean balance sheet — and a rich price.</strong> The <strong>~₹687 Cr IPO</strong> (₹400 Cr fresh) repaid debt and funded working capital; the company is now essentially <strong>debt-free</strong>, with return ratios (RoCE ~40%+) near the top of its peer group. In return, the market pays up: the stock trades around <strong>50×+ earnings</strong> (approx), pricing in years of continued execution.</li>
+    <li><strong>It rode the IPO to a clean balance sheet — and a rich price.</strong> The <strong>~₹687 Cr IPO</strong> (₹400 Cr fresh) repaid debt and funded working capital; the company is now essentially <strong>debt-free</strong>, with return ratios (RoCE ~45%, RoE ~32%) near the top of its peer group. In return, the market pays up: the stock trades around <strong>65× trailing earnings</strong> (as of 13 Oct 2026), pricing in years of continued execution.</li>
   </ul>
 
   <div class="plain">
@@ -362,17 +363,19 @@
   <ul class="timeline">
     <li class="major"><div class="yr">1988</div><div class="ev">Atlanta Electricals incorporated in Gujarat; begins building distribution and small power transformers for regional utilities.</div></li>
     <li><div class="yr">1990s–2010s</div><div class="ev">Steadily climbs the voltage ladder, adding power, auto, furnace and generator transformers; wins pre-approvals from state utilities, PGCIL and Indian Railways — the qualifications that gate this business.</div></li>
-    <li><div class="yr">Recent</div><div class="ev">Acquires <strong>BTW-Atlanta Transformers Pvt Ltd</strong> as a wholly-owned subsidiary, extending rated capability toward <strong>500 MVA / 765 kV</strong> — the extra-high-voltage tier.</div></li>
+    <li><div class="yr">Recent</div><div class="ev">Acquires <strong>BTW-Atlanta Transformers</strong> (now <strong>Atlanta Trafo Ltd</strong>, at Ankhi) as a wholly-owned subsidiary — 90% from China's BTW and 10% from promoter entity Atlanta UHV Transformers LLP, at an enterprise value of about ₹260 Cr including ~₹80 Cr of debt — extending rated capability toward <strong>500 MVA / 765 kV</strong>. A merger into the parent is planned.</div></li>
     <li class="major"><div class="yr">Jul 2025</div><div class="ev">New <strong>EHV plant at Vadod (Gujarat)</strong> starts commercial production — a full six-product line that roughly triples potential capacity and unlocks higher voltage classes.</div></li>
     <li class="major"><div class="yr">Sep 2025</div><div class="ev"><strong>IPO</strong> (~₹687 Cr; ₹400 Cr fresh + ~₹287 Cr offer-for-sale) at ₹754/share; subscribed ~70×; lists on NSE &amp; BSE ~14% above the issue price. Proceeds repay debt and fund working capital.</div></li>
-    <li class="major"><div class="yr">FY26</div><div class="ev">Revenue ~₹1,852 Cr (+49%), PAT ~₹202 Cr (+70%), EBITDA margin ~18.6%; turns essentially debt-free; order book near ₹2,500 Cr. Awaits commissioning of a further plant at <strong>Ankhi</strong>.</div></li>
+    <li class="major"><div class="yr">FY26</div><div class="ev">Revenue ~₹1,852 Cr (+49%), PAT ~₹202 Cr (+70%), EBITDA margin ~18.6%; turns essentially debt-free; order book near ₹2,500 Cr. The <strong>Ankhi</strong> plant (Atlanta Trafo) is operating — it produced 580 MVA in Q3 FY26 — and Vadod wins PGCIL approval up to 400 kV (2 Apr 2026).</div></li>
+    <li class="major"><div class="yr">Q1 FY27</div><div class="ev">Revenue ₹466 Cr (+48%), PAT ₹46.8 Cr (+50%); <strong>record order inflow of ₹972 Cr</strong> lifts the order book to <strong>₹3,117 Cr</strong>. Guides to ~40% revenue CAGR over three years.</div></li>
   </ul>
 
   <h3>Ownership &amp; structure</h3>
   <ul class="clean">
-    <li><strong>Promoters:</strong> the founding family retains firm control — promoter holding stepped down only modestly through the IPO, from roughly <strong>94% to ~87%</strong>. This is a founder-led company where the family still owns the overwhelming majority; public float is small, which cuts both ways (aligned owners, but thin free float and limited external checks).</li>
-    <li><strong>The subsidiary:</strong> <strong>BTW-Atlanta Transformers Pvt Ltd</strong> is the wholly-owned arm that extends reach into the highest voltage and MVA classes. (Note: some third-party write-ups reference a "Vishal Transformers" — that name does <em>not</em> appear in the company's filings and should be treated as a misattribution; the real subsidiary is BTW-Atlanta.)</li>
-    <li><strong>The footprint:</strong> manufacturing is concentrated in Gujarat — <strong>Anand Unit-I and Unit-II</strong> (the historic base), the new <strong>Vadod</strong> EHV plant, and an <strong>Ankhi</strong> unit (under the subsidiary) awaiting commissioning — plus a smaller plant in <strong>Bengaluru</strong>. Cumulatively the company says it has delivered thousands of transformers totalling tens of thousands of MVA across 19 states.</li>
+    <li><strong>Promoters:</strong> the founding family retains firm control — promoter holding stepped down only modestly through the IPO, from roughly <strong>94% to 87.28%</strong> (Sep 2026). This is a founder-led company where the family still owns the overwhelming majority; public float is small, which cuts both ways (aligned owners, but thin free float and limited external checks). It also creates a <strong>supply overhang</strong>: minimum-public-shareholding rules require public holding of at least 25% within three years of listing — by about September 2028 — so roughly 12 percentage points of promoter stock must come to market.</li>
+    <li><strong>Management:</strong> CMD <strong>Niral K. Patel</strong>; CEO <strong>Akshaykumar Mathur</strong>; COO <strong>Anand Sharma</strong>; CFO <strong>Mehul Mehta</strong>.</li>
+    <li><strong>The subsidiary:</strong> <strong>Atlanta Trafo Ltd</strong> (formerly BTW-Atlanta Transformers) is the wholly-owned arm at Ankhi that extends reach into the highest voltage and MVA classes; it is to be merged into the parent. (Note: some third-party write-ups reference a "Vishal Transformers" — that name does <em>not</em> appear in the company's filings and should be treated as a misattribution.)</li>
+    <li><strong>The footprint:</strong> manufacturing is concentrated in Gujarat — <strong>Anand Unit-I and Unit-II</strong> (the historic base), the new <strong>Vadod</strong> EHV plant, and the operating <strong>Ankhi</strong> plant (Atlanta Trafo, 15,780 MVA) — plus a smaller plant in <strong>Bengaluru</strong>: five plants and <strong>63,060 MVA</strong> of installed capacity in all. Cumulatively the company says it has delivered thousands of transformers totalling tens of thousands of MVA across 19 states.</li>
   </ul>
 
   <div class="note gold"><b>A governance flag worth naming:</b> related-party transactions were a meaningful share of FY25 revenue, and some assets (including land) were transacted with promoter entities. None of that is unusual for a freshly-listed, family-run manufacturer, but with the family owning ~87% and the float thin, minority investors should read the related-party disclosures in each results filing rather than assume arm's-length dealing throughout.</div>
@@ -405,7 +408,7 @@
 
   <div class="plain">
     <div class="ptag">The one construct that captures this company</div>
-    <p>Atlanta's earnings power isn't a single number — it's a <strong>product of three</strong>: <em>order inflow × execution margin × the CRGO/copper spread it keeps</em>. Order inflow tells you the top-line runway (near ₹2,500 Cr of backlog is roughly a year-plus of revenue already sold). Execution margin tells you whether the mix is climbing the voltage ladder and whether the new plants run efficiently. And the metal spread tells you how much of that revenue survives to profit after the core steel and copper are paid for. In FY26 all three moved the right way at once — revenue up ~49%, margins widening to ~18.6%, metal costs manageable — which is why profit outran revenue. Track the three together; any one alone will mislead you.</p>
+    <p>Atlanta's earnings power isn't a single number — it's a <strong>product of three</strong>: <em>order inflow × execution margin × the CRGO/copper spread it keeps</em>. Order inflow tells you the top-line runway (₹3,117 Cr of backlog at June 2026 is about 1.6 years of trailing revenue already sold). Execution margin tells you whether the mix is climbing the voltage ladder and whether the new plants run efficiently. And the metal spread tells you how much of that revenue survives to profit after the core steel and copper are paid for. In FY26 all three moved the right way at once — revenue up ~49%, margins widening to ~18.6%, metal costs manageable — which is why profit outran revenue. Track the three together; any one alone will mislead you.</p>
   </div>
 
   <div class="mini-stats">
@@ -467,19 +470,19 @@
     <div class="bars">
       <div class="bar-row"><div class="blab">FY25 installed<small>ran at ~98%</small></div><div class="track"><span class="fill ink" style="width:27%"></span></div><div class="bval">~16,740</div></div>
       <div class="bar-row"><div class="blab">After Vadod<small>live Jul-2025</small></div><div class="track"><span class="fill brand" style="width:75%"></span></div><div class="bval">~47,280</div></div>
-      <div class="bar-row"><div class="blab">After Ankhi<small>awaiting commissioning</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~63,060</div></div>
+      <div class="bar-row"><div class="blab">Incl. Ankhi<small>operating; five plants</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~63,060</div></div>
     </div>
-    <div class="legend"><span>The new Vadod EHV plant alone roughly triples potential capacity versus FY25; a further unit at Ankhi, once commissioned, would take total capability toward ~63,000 MVA — nearly 4× the FY25 base. The growth runway is literally the space between the old lines and the new ones.</span></div>
+    <div class="legend"><span>The new Vadod EHV plant alone roughly triples potential capacity versus FY25; with the Ankhi plant (Atlanta Trafo, 15,780 MVA) already operating, installed capacity stands at 63,060 MVA — nearly 4× the FY25 base. A new inverter-duty plant (+5,000 MVA) is due by end-CY26. The growth runway is literally the space between the old lines and the new ones.</span></div>
   </div>
 
-  <p>The <strong>Vadod</strong> plant, live from July 2025, is the hinge of the whole investment case. It doesn't just add volume — it is a full six-product extra-high-voltage line that lets Atlanta build the <em>bigger, higher-voltage</em> transformers it previously couldn't, up toward the 400 kV class (with 765 kV on the roadmap). So the extra capacity isn't just "more of the same distribution work"; it is a ticket to the higher rungs of the value ladder from Section 02, where fewer rivals compete and margins are richer. The <strong>Ankhi</strong> unit under the subsidiary is a further leg, still awaiting commissioning.</p>
+  <p>The <strong>Vadod</strong> plant, live from July 2025, is the hinge of the whole investment case. It doesn't just add volume — it is a full six-product extra-high-voltage line that lets Atlanta build the <em>bigger, higher-voltage</em> transformers it previously couldn't — PGCIL approved Vadod up to 400 kV on 2 April 2026, while 765 kV is being pursued through Ankhi, with PGCIL approval expected around end-Q2 FY27 once a technology-partner agreement is signed. So the extra capacity isn't just "more of the same distribution work"; it is a ticket to the higher rungs of the value ladder from Section 02, where fewer rivals compete and margins are richer. The <strong>Ankhi</strong> plant under the subsidiary is a further leg, already operating (580 MVA produced in Q3 FY26) and the route to 765 kV.</p>
 
   <div class="plain">
     <div class="ptag">The device that only fits Atlanta: growth = new MVA switched on</div>
-    <p>Because FY25 capacity was maxed out, Atlanta's FY26 surge could <em>not</em> have come from the old lines running harder — there was no headroom left. It came from lighting up Vadod. That makes this company unusually mechanical to track: its near-term growth rate is, quite directly, a function of <strong>how fast new capacity gets commissioned and filled</strong>. A rival with idle plants can grow by winning share; Atlanta grows by pouring concrete and energising lines on schedule. That's a cleaner thing to monitor than most industrials — but it's also a sharper risk, because a delayed or under-utilised new plant doesn't just slow growth, it strands capital the company has already spent. The FY25→FY26 jump proved the model works when the plant lands on time; the open question is whether Ankhi and the ramp of Vadod's high-voltage lines land as cleanly.</p>
+    <p>Because FY25 capacity was maxed out, Atlanta's FY26 surge could <em>not</em> have come from the old lines running harder — there was no headroom left. It came from lighting up Vadod. That makes this company unusually mechanical to track: its near-term growth rate is, quite directly, a function of <strong>how fast new capacity gets commissioned and filled</strong>. A rival with idle plants can grow by winning share; Atlanta grows by pouring concrete and energising lines on schedule. That's a cleaner thing to monitor than most industrials — but it's also a sharper risk, because a delayed or under-utilised new plant doesn't just slow growth, it strands capital the company has already spent. The FY25→FY26 jump proved the model works when the plant lands on time; the open question is whether the ramp of Ankhi and of Vadod's high-voltage lines lands as cleanly.</p>
   </div>
 
-  <div class="note gold"><b>The nuance on how it was funded:</b> a natural assumption is that IPO money built these plants. It largely didn't — Vadod and the subsidiary capacity came through internal accruals, debt and the BTW-Atlanta acquisition, while the IPO's fresh issue mostly repaid debt and funded working capital. That matters: it means the capacity is already substantially in the ground, and the IPO's job was to give Atlanta the <em>financial</em> strength to fill it, not to build it.</p></div>
+  <div class="note gold"><b>The nuance on how it was funded:</b> a natural assumption is that IPO money built these plants. It largely didn't — Vadod and the subsidiary capacity came through internal accruals, debt and the BTW-Atlanta (now Atlanta Trafo) acquisition, while the IPO's fresh issue mostly repaid debt and funded working capital. That matters: it means the capacity is already substantially in the ground, and the IPO's job was to give Atlanta the <em>financial</em> strength to fill it, not to build it.</p></div>
 </section>
 
 <!-- 07 -->
@@ -514,7 +517,7 @@
     <caption>The competitive landscape (FY25 scale, indicative)</caption>
     <thead><tr><th>Player</th><th>Position</th><th>Vs Atlanta</th></tr></thead>
     <tbody>
-      <tr><td class="t-strong" style="color:var(--brand)">Atlanta Electricals</td><td>Mid-sized power/auto/inverter-duty maker; climbing toward EHV</td><td><em>This company.</em> ~₹1,244 Cr FY25 sales; best-in-peer-group RoCE (~40%); the story is the capacity ramp + voltage climb.</td></tr>
+      <tr><td class="t-strong" style="color:var(--brand)">Atlanta Electricals</td><td>Mid-sized power/auto/inverter-duty maker; climbing toward EHV</td><td><em>This company.</em> ~₹1,852 Cr FY26 sales; best-in-peer-group RoCE (~45%); the story is the capacity ramp + voltage climb.</td></tr>
       <tr><td class="t-strong">Transformers &amp; Rectifiers India (TARIL)</td><td>Large, established maker across distribution to EHV</td><td>Bigger book (~₹2,000 Cr sales) and deeper EHV presence, but lower return ratios; the scaled domestic comparator.</td></tr>
       <tr><td class="t-strong">Voltamp Transformers</td><td>Well-run, cash-rich distribution/power maker</td><td>Similar-to-larger revenue with higher margins (~19%) and a famously conservative balance sheet; trades far cheaper on P/E.</td></tr>
       <tr><td class="t-strong">Shilchar Technologies</td><td>Smaller, export-tilted specialist</td><td>Smaller by sales but the margin and return-ratio star of the group (~30% EBITDA margin) — the quality benchmark to beat.</td></tr>
@@ -580,21 +583,21 @@
       <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill dist" style="width:66%"></span></div><div class="bval">~1,643</div></div>
       <div class="bar-row"><div class="blab">Mar-2026<small>~₹2,451 Cr at Dec-25</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~2,493</div></div>
     </div>
-    <div class="legend"><span>The order book has grown nearly five-fold since FY23 to near ₹2,500 Cr — roughly a year-plus of forward revenue already sold. A rising book is the visibility that supports the growth story; a stalling one would be the first crack.</span></div>
+    <div class="legend"><span>The order book grew nearly five-fold from FY23 to ₹2,493 Cr at Mar-26, then jumped to <strong>₹3,117 Cr at Jun-26</strong> on a record ₹972 Cr quarter of orders — about 1.6× trailing revenue already sold. A rising book is the visibility that supports the growth story; a stalling one would be the first crack.</span></div>
   </div>
 
   <div class="mini-stats">
     <div class="ms gold"><div class="msv">~18.6%</div><div class="msl">FY26 EBITDA margin, up ~300 bps year-on-year</div></div>
-    <div class="ms green"><div class="msv">Debt-free</div><div class="msl">Term loans repaid post-IPO; RoCE ~40%+, RoE ~30%+</div></div>
-    <div class="ms red"><div class="msv">~50×+</div><div class="msl">P/E on ~₹11,800 Cr market cap (approx) — a premium, growth multiple</div></div>
+    <div class="ms green"><div class="msv">Debt-free</div><div class="msl">Term loans repaid post-IPO; RoCE ~45%, RoE ~32%</div></div>
+    <div class="ms red"><div class="msv">~65×</div><div class="msl">Trailing P/E on ~₹14,251 Cr market cap (13 Oct 2026) — a premium, growth multiple</div></div>
   </div>
 
   <div class="plain">
     <div class="ptag">The one metric that settles the thesis</div>
-    <p>At north of 50× earnings, Atlanta is priced as a company that will keep compounding, not as a cheap cyclical. So the number that proves or breaks the case is not a single ratio but a <strong>combination: order inflow holding up, read against the execution margin and the CRGO/copper spread, as the new capacity fills.</strong> Concretely, watch three prints each quarter — is the <em>order book still climbing</em> (demand intact), is the <em>EBITDA margin holding at 18%+</em> (mix improving, metal spread kept), and is <em>Vadod's utilisation ramping</em> toward the levels the old Anand lines ran at (the capacity actually being filled)? If those three stay aligned, the growth and the premium multiple hang together. If order inflow softens, or metal costs squeeze the margin, or the new plant fills slowly, the same stock re-rates hard — because at this price, the market is paying for all three to keep working at once.</p>
+    <p>At ~65× trailing earnings, Atlanta is priced as a company that will keep compounding, not as a cheap cyclical. So the number that proves or breaks the case is not a single ratio but a <strong>combination: order inflow holding up, read against the execution margin and the CRGO/copper spread, as the new capacity fills.</strong> Concretely, watch three prints each quarter — is the <em>order book still climbing</em> (demand intact), is the <em>EBITDA margin holding in management's ~16–20% band</em> (Q1 FY27: 16.5%; mix improving, metal spread kept), and is <em>Vadod's utilisation ramping</em> toward the levels the old Anand lines ran at (the capacity actually being filled)? If those three stay aligned, the growth and the premium multiple hang together. If order inflow softens, or metal costs squeeze the margin, or the new plant fills slowly, the same stock re-rates hard — because at this price, the market is paying for all three to keep working at once.</p>
   </div>
 
-  <div class="note">Financials here are drawn from the company's IPO disclosures (FY23–FY25) and FY26 results reporting, cross-checked across sources. The <b>market cap and P/E are approximate</b> and move daily — treat the ~₹11,800 Cr / ~50×+ figures as an indicative snapshot, not a precise quote. FY26 RoCE/RoE are <b>approximate</b> from third-party aggregators pending audited ratios. Verify against the company's filings before relying on any single number.</div>
+  <div class="note">Financials here are drawn from the company's IPO disclosures (FY23–FY25) and FY26 results reporting, cross-checked across sources. The <b>market cap and P/E move daily</b> — the ~₹14,251 Cr / ~65× figures are Screener values as of 13 Oct 2026, not a live quote. RoCE (~45%) and RoE (~32%) are Screener figures. Verify against the company's filings before relying on any single number.</div>
 </section>
 
 <!-- 10 -->
@@ -607,9 +610,9 @@
   <ul class="clean">
     <li><strong>Order lumpiness &amp; customer concentration.</strong> Revenue rides on winning large tenders, and a small number of big utility buyers dominate — top customers have accounted for a large chunk of sales. A quiet tender season, or losing a key client, can dent a year. State-utility buyers also pay slowly, straining working capital exactly when the company wants to grow.</li>
     <li><strong>CRGO import dependence &amp; input costs.</strong> With CRGO steel almost entirely imported and no long-term supply contracts, a price spike or a trade-duty action (like the 2026 anti-dumping probe) can compress margins on fixed-price orders. This is the single most sector-specific financial risk.</li>
-    <li><strong>Execution &amp; capacity ramp.</strong> The whole growth case depends on filling new plants — Vadod's higher-voltage lines and the yet-to-commission Ankhi unit. A slow ramp doesn't just cap growth; it strands capital already spent. Moving up to 400/765 kV also means qualifying with buyers and delivering flawlessly at a voltage class where the company has no long track record.</li>
+    <li><strong>Execution &amp; capacity ramp.</strong> The whole growth case depends on filling new plants — Vadod's higher-voltage lines and the newly operating Ankhi plant. A slow ramp doesn't just cap growth; it strands capital already spent. Moving up to 400/765 kV also means qualifying with buyers and delivering flawlessly at a voltage class where the company has no long track record.</li>
     <li><strong>Competition &amp; margin normalisation.</strong> Every listed peer sees the same grid boom and is adding capacity. A wave of new supply could compete today's fat margins back toward the mean — and Atlanta's slipping tender win-rate hints the field is already crowding.</li>
-    <li><strong>Valuation &amp; governance.</strong> At 50×+ earnings, expectations are high and any stumble re-rates the stock sharply. Add a thin public float (~13%), meaningful related-party dealings, and a very recent listing with limited history as a public company — all reasons to size positions with care.</li>
+    <li><strong>Valuation &amp; governance.</strong> At ~65× trailing earnings (13 Oct 2026), expectations are high and any stumble re-rates the stock sharply. Add a thin public float (~13%) that must widen to 25% by about Sep 2028 (roughly 12 points of promoter supply), meaningful related-party dealings (including the 10% of Atlanta Trafo bought from a promoter entity), and a very recent listing with limited history as a public company — all reasons to size positions with care.</li>
   </ul>
 
   <div class="plain">
@@ -623,17 +626,17 @@
   <div class="part-head"><span class="pno">11</span><h2>The future, and the bull/bear</h2></div>
   <p class="part-sub">A quality supplier to India's grid, asked to keep executing at a premium price.</p>
 
-  <p class="lead">Atlanta Electricals enters FY27 in the strongest shape of its listed life: a near-₹2,500 Cr order book, freshly-tripled capacity reaching toward the high-voltage tier, peer-leading returns, and a debt-free balance sheet — all pointed at a grid and renewable build-out that should run for years. What it must now prove is repeatability: that a family-run mid-cap can fill big new plants, climb into 400/765 kV work, and hold its spread against volatile metal, all while justifying a top-of-group multiple.</p>
+  <p class="lead">Atlanta Electricals is in the strongest shape of its listed life: a ₹3,117 Cr order book (Jun 2026) after a record ₹972 Cr quarter of orders, freshly-tripled capacity reaching toward the high-voltage tier, peer-leading returns, and a debt-free balance sheet — all pointed at a grid and renewable build-out that should run for years. What it must now prove is repeatability: that a family-run mid-cap can fill big new plants, climb into 400/765 kV work, and hold its spread against volatile metal, all while justifying a top-of-group multiple.</p>
 
   <div class="bb">
     <div class="col bull">
       <h4>The bull case</h4>
       <ul class="clean">
         <li><strong>Structural demand</strong> — grid capex, renewable evacuation and a replacement cycle all pulling at once; transformers sit at every node, so it captures spending on all forms of power.</li>
-        <li><strong>Capacity unlocked</strong> — the FY25 factory ceiling is gone; Vadod (and Ankhi to come) roughly triple-to-quadruple potential output and open higher voltage classes.</li>
-        <li><strong>Quality of business</strong> — peer-leading RoCE (~40%), a widening ~18.6% margin, and a debt-free balance sheet after the IPO.</li>
+        <li><strong>Capacity unlocked</strong> — the FY25 factory ceiling is gone; Vadod and the operating Ankhi plant take installed capacity to 63,060 MVA (~4× FY25) and open higher voltage classes; management guides to ~40% revenue CAGR for three years.</li>
+        <li><strong>Quality of business</strong> — peer-leading RoCE (~45%), a widening ~18.6% margin, and a debt-free balance sheet after the IPO.</li>
         <li><strong>Mix climbing the ladder</strong> — moving from distribution toward power and EHV work lifts both the addressable market and the margin.</li>
-        <li><strong>Aligned owners</strong> — founders still hold ~87%, fully invested in the outcome.</li>
+        <li><strong>Aligned owners</strong> — founders still hold 87.28%, fully invested in the outcome.</li>
       </ul>
     </div>
     <div class="col bear">
@@ -643,7 +646,7 @@
         <li><strong>Execution risk</strong> — growth hinges on ramping new plants and qualifying into voltage classes with no long track record; a slow fill strands capital.</li>
         <li><strong>Concentration &amp; slow payers</strong> — a few big utility buyers dominate the book and can pay slowly, straining working capital.</li>
         <li><strong>Crowding &amp; margin risk</strong> — every peer is expanding into the same boom; a slipping win-rate hints margins could normalise.</li>
-        <li><strong>Premium valuation &amp; thin float</strong> — 50×+ earnings, ~13% float, meaningful related-party dealings and a very short public history leave little cushion for a miss.</li>
+        <li><strong>Premium valuation &amp; thin float</strong> — ~65× trailing earnings, ~13% float with ~12 points of promoter selling due by ~Sep 2028, meaningful related-party dealings and a very short public history leave little cushion for a miss.</li>
       </ul>
     </div>
   </div>
@@ -666,7 +669,8 @@
     <li>BSE India — Atlanta Electricals Limited stock page, scrip code 544527 (ISIN INE0Z4F01028).</li>
     <li>ICICIdirect / Kotak Neo — IPO note (founding year 1988, product portfolio, use of proceeds, promoter holding).</li>
     <li>GTRI / DGTR coverage — 2026 anti-dumping investigation on CRGO / amorphous steel imports; India's ~90%+ CRGO import dependence.</li>
-    <li>Company disclosures on capacity (Anand Unit-I/II, Bengaluru, Vadod, Ankhi), utilisation and BTW-Atlanta Transformers subsidiary.</li>
+    <li>Company disclosures on capacity (Anand Unit-I/II, Bengaluru, Vadod, Ankhi), utilisation and BTW-Atlanta Transformers (now Atlanta Trafo Ltd) subsidiary.</li>
+    <li>Atlanta Electricals — Q1 FY27 investor presentation (BSE) and Q4 FY26 / Q1 FY27 earnings-call transcripts: Q1 results, record inflow, ₹3,117 Cr order book, 63,060 MVA across five plants, Ankhi operating, PGCIL approvals, Atlanta Trafo deal terms, management, guidance. Screener.in market data and shareholding as of 13 Oct 2026.</li>
   </ol>
   <p class="disc">This primer is an educational, plain-English explainer compiled from public sources and is <strong>not investment advice, a recommendation, or a solicitation</strong> to buy or sell any security. Figures are approximate, drawn from the company's IPO prospectus, results disclosures and third-party reports as of FY26 (year ended March 2026), and may contain errors or become outdated; market cap, P/E and several ratios move daily and are indicative only. Verify all numbers against primary sources before relying on them. The author holds no position and expresses no view on the stock's suitability for any investor.</p>
 </footer>
