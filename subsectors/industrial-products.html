@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Industrial Products — Sub-sector Report</title>
+<meta name="description" content="Sub-sector report on the 15 NSE 750 Industrial Products companies: five archetypes (EMS, process and cryogenic equipment, precision parts and machines, automation and consumables, heavy fabrication and T&amp;D), how each earns, the KPI masterclass, peer table, positioning maps and what to watch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#2E3F5C;          /* slate steel */
+    --brand-bright:#A85C16;   /* safety amber, the industrial accent */
+    --gold:#A8843A;           /* brass */
+    --wtg:#3D6FA8;            /* blueprint blue */
+    --epc:#4F8A7B;            /* verdigris */
+    --om:#6B5B8E;            /* anodised violet */
+    --spec:#A85C16;          /* safety amber */
+    --a1:#3D6FA8;            /* A1 EMS: circuit-board blue */
+    --a2:#4F8A7B;            /* A2 process & cryogenic equipment: verdigris */
+    --a3:#C27A2C;            /* A3 precision parts & machines: machined amber */
+    --a4:#6B5B8E;            /* A4 automation & consumables: violet */
+    --a5:#7D5A44;            /* A5 heavy fabrication & T&D: oxide brown */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#2E3F5C,#4A5F80);}
+  .fill.gold{background:linear-gradient(90deg,#A8843A,#C4A35A);}
+  .fill.wtg{background:linear-gradient(90deg,#3D6FA8,#5A8AC0);}
+  .fill.om{background:linear-gradient(90deg,#6B5B8E,#8676A8);}
+  .fill.spec{background:linear-gradient(90deg,#A85C16,#C8782E);}
+  .fill.a1{background:linear-gradient(90deg,#3D6FA8,#5A8AC0);}
+  .fill.a2{background:linear-gradient(90deg,#4F8A7B,#6BA596);}
+  .fill.a3{background:linear-gradient(90deg,#C27A2C,#D9954A);}
+  .fill.a4{background:linear-gradient(90deg,#6B5B8E,#8676A8);}
+  .fill.a5{background:linear-gradient(90deg,#7D5A44,#9A7560);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .node.a1{background:var(--a1);} .node.a2{background:var(--a2);} .node.a3{background:var(--a3);} .node.a4{background:var(--a4);} .node.a5{background:var(--a5);} .node.ink{background:#4a4335;}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Capital Goods · Industrial Products</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> Five businesses, one label</a></li>
+    <li><a href="#p2"><span class="n">02</span> From order to cash</a></li>
+    <li><a href="#p3"><span class="n">03</span> Size, growth &amp; the markets behind it</a></li>
+    <li><a href="#p4"><span class="n">04</span> Five demand engines</a></li>
+    <li><a href="#p5"><span class="n">05</span> Where ₹100 goes</a></li>
+    <li><a href="#p6"><span class="n">06</span> A capex cycle that broadens</a></li>
+    <li><a href="#p7"><span class="n">07</span> China+1 &amp; the tariff ledger</a></li>
+    <li><a href="#p8"><span class="n">08</span> Niche oligopolies, crowded middles</a></li>
+    <li><a href="#p9"><span class="n">09</span> Demand written in policy</a></li>
+    <li><a href="#p10"><span class="n">10</span> EMS beyond pass-through</a></li>
+    <li><a href="#p11"><span class="n">11</span> The airfoil bottleneck</a></li>
+    <li><a href="#p12"><span class="n">12</span> Ethanol's boom and bust</a></li>
+    <li><a href="#p13"><span class="n">13</span> Four decades of cycles</a></li>
+    <li><a href="#p14"><span class="n">14</span> Reading the numbers: KPIs</a></li>
+    <li><a href="#p15"><span class="n">15</span> The peer table</a></li>
+    <li><a href="#p16"><span class="n">16</span> Who is winning</a></li>
+    <li><a href="#p17"><span class="n">17</span> Valuation versus cash</a></li>
+    <li><a href="#p18"><span class="n">18</span> Fifteen company profiles</a></li>
+    <li><a href="#p19"><span class="n">19</span> Global lens</a></li>
+    <li><a href="#p20"><span class="n">20</span> Technology &amp; disruption</a></li>
+    <li><a href="#p21"><span class="n">21</span> Bull vs bear</a></li>
+    <li><a href="#p22"><span class="n">22</span> What to watch</a></li>
+    <li><a href="#p23"><span class="n">23</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Capital Goods · Industrial Products</span>
+    <span class="tag gold">15 listed companies</span>
+  </div>
+  <h1>Industrial products: fifteen companies, five different businesses and <em>a valuation running ahead of its cash</em></h1>
+  <p class="dek">A complete guide to the NSE's "Industrial Products" bucket, which is really five businesses under one label: contract electronics makers, engineered-to-order process and cryogenic equipment shops, precision-component and machine-tool makers, automation and mining-consumables annuities, and heavy steel fabricators for the power grid. How each one turns an order into cash, why the bought-in material inside ₹100 of revenue decides most of what follows, who is winning, and why a multiple of about 73 times earnings leaves the group exposed to its weakest number: cash conversion.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">15</div><div class="l">Listed in NSE 750</div></div>
+    <div class="cell"><div class="v">₹38,039 <small>Cr</small></div><div class="l">Combined revenue FY26</div></div>
+    <div class="cell"><div class="v">14.1%</div><div class="l">Combined EBITDA margin FY26</div></div>
+    <div class="cell"><div class="v">₹3,233 <small>Cr</small></div><div class="l">Combined PAT FY26</div></div>
+    <div class="cell"><div class="v">₹2.29 <small>lakh Cr</small></div><div class="l">Combined m-cap (13 Oct 2026)</div></div>
+    <div class="cell"><div class="v">~73×</div><div class="l">P/E on TTM PAT (70.9× on FY26)</div></div>
+  </div>
+  <p class="prov">Basis: FY26 (year ended 31 Mar 2026) consolidated company figures (Honeywell Automation standalone; Tega before its 1 Jun 2026 Molycop acquisition; Lloyds before its pending merger), Q1 FY27 cross-checks, market data at the 13 Oct 2026 close from screener.in. Industry data from RBI, MoSPI, MeitY, CARE Ratings, CRISIL, company filings and broker notes. Estimates are labelled illustrative or indicative.</p>
+</header>
+
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: fifteen companies, one label, five economic engines</h2></div>
+<p class="part-sub">The bucket mixes circuit-board assemblers with turbine-blade machinists. The useful question is not what they make but how much of each rupee they actually add.</p>
+
+<p class="lead">The NSE classification "Capital Goods — Industrial Products" sounds like a catalogue of pipes, bearings, valves and castings. The fifteen members inside the NSE 750 universe are something else. Three of them assemble printed circuit boards for carmakers, railways, smart-meter programmes and US equipment makers. Five build pressure vessels, cryogenic tanks, glass-lined reactors, ethanol plants and air-conditioner coils to order. Three machine turbine blades, build CNC machine tools or cut industrial gears. Two sell control systems and mill liners into installed bases that need replacing whatever the economy does. Two fabricate steel: transmission towers for the grid, and plant equipment for a steel group. Pipes appear only as a small polymer line at Skipper, and steel matters mainly as a raw material.</p>
+<p>Together these fifteen companies reported ₹38,039 crore of revenue in FY26, ₹5,373 crore of EBITDA (a 14.1% margin) and ₹3,233 crore of net profit. At the 13 October 2026 close the market valued them at ₹2,29,204 crore, which is 70.9 times FY26 profit or about 73 times trailing-twelve-month profit. Put differently, investors are paying about six rupees of market value for every rupee of revenue in a group whose average member keeps 14 paise of operating profit from each rupee of sales. No member consolidates another, so these totals are clean sums; but Tega's FY26 numbers exclude Molycop, the grinding-media giant it bought on 1 June 2026, and Lloyds Engineering's exclude the associate and subsidiaries it is merging with. Both companies are about to look very different.</p>
+<p>The report is built around one idea: the economics of these companies differ more by <strong>where value is added</strong> than by what metal they cut. The cleanest test is how much of ₹100 of revenue goes on bought-in material. For a contract electronics maker it is ₹65–78. For a transmission-tower fabricator it is ₹60–68. For a process-equipment shop it is ₹50–60. For a precision-parts machinist making turbine airfoils it is ₹25–35. That one ratio sets the gross margin, the damage done when an input price rises before it can be passed on, and how much working capital each extra rupee of revenue absorbs. So the fifteen are grouped into five archetypes, A1 to A5, and compared within an archetype before they are compared across the bucket.</p>
+
+<div class="chart">
+  <div class="c-title">Five archetypes: share of revenue, profit and market value</div>
+  <div class="c-sub">Share of the 15-company totals, FY26 (revenue ₹38,039 Cr; PAT ₹3,233 Cr) and market cap at 13 Oct 2026 (₹2,29,204 Cr). Simple sums of members; Tega pre-Molycop. Source: screener.in, company filings, dossier appendix</div>
+  <div class="stack-row"><div class="blab">Revenue</div><div class="stack"><span style="width:26.4%;background:var(--a1)">A1 26</span><span style="width:25.5%;background:var(--a2)">A2 26</span><span style="width:13.3%;background:var(--a3)">A3 13</span><span style="width:16.8%;background:var(--a4)">A4 17</span><span style="width:18.0%;background:var(--a5)">A5 18</span></div></div>
+  <div class="stack-row"><div class="blab">Net profit</div><div class="stack"><span style="width:25.5%;background:var(--a1)">A1 25</span><span style="width:16.1%;background:var(--a2)">A2 16</span><span style="width:25.1%;background:var(--a3)">A3 25</span><span style="width:20.7%;background:var(--a4)">A4 21</span><span style="width:12.6%;background:var(--a5)">A5 13</span></div></div>
+  <div class="stack-row"><div class="blab">Market value</div><div class="stack"><span style="width:30.6%;background:var(--a1)">A1 31</span><span style="width:18.4%;background:var(--a2)">A2 18</span><span style="width:22.8%;background:var(--a3)">A3 23</span><span style="width:19.1%;background:var(--a4)">A4 19</span><span style="width:9.1%;background:var(--a5)">A5 9</span></div></div>
+  <div class="legend"><span><i style="background:var(--a1)"></i>A1 EMS (Kaynes, Syrma, Avalon)</span><span><i style="background:var(--a2)"></i>A2 Process, cryogenic &amp; heat-transfer (INOX India, Anup, GMM Pfaudler, Praj, KRN)</span><span><i style="background:var(--a3)"></i>A3 Precision parts &amp; machines (Azad, Jyoti CNC, Elecon)</span><span><i style="background:var(--a4)"></i>A4 Automation &amp; consumables (Honeywell Automation, Tega)</span><span><i style="background:var(--a5)"></i>A5 Heavy fabrication &amp; T&amp;D (Skipper, Lloyds)</span></div>
+</div>
+
+<p>Five forces explain most of what happens to these companies, and the rest of the report is organised around them:</p>
+<ul class="clean">
+  <li><strong>Value-add share decides margins, working capital and pass-through risk.</strong> Bought-in material ranges from about a quarter of revenue at Azad to three-quarters at Syrma. A two-point un-passed rise in component prices costs an EMS company about 14% of its EBITDA; the same rise barely registers at an airfoil machinist.</li>
+  <li><strong>Policy-made demand overshoots.</strong> Ethanol blending, the electronics component scheme (ECMS), the semiconductor mission, defence indigenisation and the transmission plan all create demand that does not follow the private capex cycle. Ethanol shows how these booms end: distillery capacity reached about 1,970 crore litres against roughly 1,100 crore litres of E20 fuel demand, and Praj's return on capital fell from 31% to 6% in three years.</li>
+  <li><strong>Global energy and aerospace demand is supply-constrained.</strong> GE Vernova holds 116 GW of gas-turbine backlog and slot reservations; GE Aerospace's backlog exceeds US$210 billion; grid investment worldwide is heading for about US$3 trillion over CY24–29. These markets pay a premium for qualified capacity, and Indian suppliers such as Azad, INOX India, Skipper and Tega are exporting into them.</li>
+  <li><strong>Indian private capex is broadening, not booming.</strong> RBI's seasonally adjusted capacity utilisation has sat between 74.9% and 75.8% for five quarters, right at the level where companies start adding capacity but short of a general boom. Power is 40% of bank-sanctioned project cost; chemicals is under 6%.</li>
+  <li><strong>Valuations are far ahead of cash conversion.</strong> The group trades at about 73 times trailing earnings, yet five of the fastest growers (Kaynes, Azad, Lloyds, KRN, Jyoti) converted between −133% and +10% of FY26 EBITDA into operating cash and funded the gap with equity.</li>
+</ul>
+
+<div class="mini-stats">
+  <div class="ms"><div class="msv">25.2%</div><div class="msl">EBITDA margin of the three precision-parts and machine-tool makers (A3), against 11–13% for every other archetype</div></div>
+  <div class="ms red"><div class="msv">−₹600 Cr</div><div class="msl">Kaynes' FY26 cash from operations, on ₹578 Cr of EBITDA: smart-meter receivables and inventory absorbed it</div></div>
+  <div class="ms gold"><div class="msv">~24%</div><div class="msl">Annual earnings growth needed for ten years to justify ~73× today and earn a 12% return (illustrative reverse DCF)</div></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">What the market pays for each archetype's profit</div>
+  <div class="c-sub">Aggregate market cap (13 Oct 2026) ÷ aggregate FY26 PAT, by archetype. Full bar = 100×. A2 is inflated by Praj's trough profit; A4 includes Tega's pre-Molycop profit. Source: screener.in, dossier appendix</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">A1 EMS<small>3 companies</small></div><div class="track"><span class="fill a1" style="width:85%"></span></div><div class="bval">85×</div></div>
+    <div class="bar-row"><div class="blab">A2 Process equipment<small>5 companies</small></div><div class="track"><span class="fill a2" style="width:81%"></span></div><div class="bval">81×</div></div>
+    <div class="bar-row"><div class="blab">A3 Precision &amp; machines<small>3 companies</small></div><div class="track"><span class="fill a3" style="width:65%"></span></div><div class="bval">65×</div></div>
+    <div class="bar-row"><div class="blab">A4 Automation &amp; consumables<small>2 companies</small></div><div class="track"><span class="fill a4" style="width:65%"></span></div><div class="bval">65×</div></div>
+    <div class="bar-row"><div class="blab">A5 Heavy fabrication &amp; T&amp;D<small>2 companies</small></div><div class="track"><span class="fill a5" style="width:51%"></span></div><div class="bval">51×</div></div>
+    <div class="bar-row"><div class="blab">All 15</div><div class="track"><span class="fill brand" style="width:70.9%"></span></div><div class="bval">70.9×</div></div>
+  </div>
+</div>
+
+<p>Three conclusions run through the report. First, the precision-parts makers are the only archetype whose margin structurally exceeds 20%, because they sell qualified capacity in a market short of it; the market already prices them accordingly, with Azad at 139 times earnings. Second, the electronics makers are growing at 27–46% but keep 11–16% of revenue as EBITDA and convert little of it into cash, so their equity story depends on climbing into components, chip packaging and design. Third, the steadiest earnings in the bucket, Skipper's transmission towers and Elecon's gears, trade at the lowest multiples (28× and 33×), while the most fragile cash profiles carry the highest. That inversion is the sub-sector's main fragility, and the 2025–26 falls in Kaynes (down 52% in a year), Praj and Anup show what happens when it is tested.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>These fifteen companies share an exchange label, not a business model. An electronics assembler that buys ₹70 of components for every ₹100 it sells lives on volume and supplier credit. A turbine-blade machinist that buys ₹25 of metal lives on the scarcity of its qualified machines. A tower maker lives on steel tonnes and government contracts that adjust for steel prices. Judge each against its own kind first; only then ask which kind deserves the higher price.</p>
+</div>
+</section>
+
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>Five businesses under one label: the archetype map</h2></div>
+<p class="part-sub">Sort the fifteen by bought-in material per ₹100 of revenue, and the order books, margins and cash cycles fall into place.</p>
+
+<p>An archetype here is a group of companies that make money the same way: similar cost structure, similar customers, similar meaning of "order book", similar cycle. The five below are defined by economic signature, not product. Two companies that both bend steel plate (Anup's heat exchangers and Skipper's towers) end up in different archetypes, because one sells engineering and metallurgy to refineries while the other sells galvanised tonnes to a regulated grid. Two companies that look unrelated (Honeywell Automation's control systems and Tega's mill liners) share an archetype, because both earn a large part of their revenue from an installed base that must be serviced or replaced.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>The five archetypes and their members</caption>
+    <thead><tr><th>Archetype</th><th>Members</th><th>What they sell</th><th>Who pays</th><th>Core engine</th><th>Cycle it follows</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">A1 · Electronics manufacturing services (EMS)</td><td>Kaynes, Syrma SGS, Avalon</td><td>Circuit-board assemblies, box builds, cable harnesses; Kaynes adds chip packaging (OSAT) and bare boards; Syrma adds design (ODM) and boards</td><td>Auto, industrial, railway, medical, aerospace and US equipment OEMs; smart-meter programmes</td><td>Volume on a thin value-add: 65–78% of revenue is pass-through components</td><td>Electronics policy (PLI, ECMS), China+1, electronics content per product</td></tr>
+      <tr><td class="t-strong">A2 · Process, cryogenic &amp; heat-transfer equipment</td><td>INOX India, Anup, GMM Pfaudler, Praj, KRN</td><td>Cryogenic tanks and LNG systems; heat exchangers, vessels, columns; glass-lined reactors; ethanol plants and process technology; HVAC coils</td><td>Industrial gas, LNG, refining, chemicals, pharma, distilleries, HVAC OEMs</td><td>Firm order book executed in 12–30 months; margin set by engineering, IP and metallurgy</td><td>Process-industry capex, LNG, ethanol and green-fuel policy, room-AC demand</td></tr>
+      <tr><td class="t-strong">A3 · Precision components &amp; capital machines</td><td>Azad, Jyoti CNC, Elecon</td><td>Turbine and aero-engine airfoils; CNC machining centres; industrial gearboxes and material-handling systems</td><td>GE Vernova, Siemens Energy, MHI, Rolls-Royce; auto and defence machine shops; steel, cement, power plants</td><td>High value-add (material only 25–55% of revenue), qualification-gated, capex-heavy</td><td>Global gas-turbine and aero-engine ramps; domestic MSME, auto and defence capex</td></tr>
+      <tr><td class="t-strong">A4 · Automation &amp; recurring consumables</td><td>Honeywell Automation India, Tega</td><td>Distributed control systems, safety, building automation, lifecycle services; mill liners, screens and (from Jun 2026) grinding media</td><td>Refineries, chemicals, pharma, buildings; copper and gold miners worldwide</td><td>Installed base generates recurring revenue; switching costs give pricing power</td><td>Process-industry capex (Honeywell); tonnes of ore milled (Tega)</td></tr>
+      <tr><td class="t-strong">A5 · Heavy fabrication &amp; T&amp;D</td><td>Skipper, Lloyds Engineering Works</td><td>Transmission towers, monopoles, line EPC, PVC pipes; steel-plant equipment, naval and nuclear fabrication</td><td>PGCIL, private transmission developers, state utilities; Lloyds group steel and power projects, defence</td><td>Tonnage × conversion margin, steel and zinc passed through; heavy working capital</td><td>Regulated transmission capex; steel-plant capex</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Why five and not three? Folding A4 into A3 would mix an asset-light multinational subsidiary with a negative cash-conversion cycle (Honeywell Automation, minus 12 days) and a consumables annuity (Tega) with capex-heavy build-to-print shops that carry 230–340 days of working capital (Azad, Jyoti). Folding A5 into A2 would hide that towers are commodity-steel conversion sold to public-sector counterparties under price-variation formulas, while process equipment is engineering sold on fixed-price quotes. Each merger would produce averages that describe no actual company.</p>
+
+<div class="chart">
+  <div class="c-title">Bought-in material inside ₹100 of revenue, by business model</div>
+  <div class="c-sub">ILLUSTRATIVE composite ranges; bar = midpoint, label = range. Built from company material-cost disclosures (FY26 / Q1 FY27) and industry norms; mobile EMS benchmark from Dixon-type disclosures (from memory, not verified this session). Source: dossier §0.2, §2.4, §3.4, §4.4, §5.3, §6.3</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Mobile / consumer EMS<small>benchmark, not a member</small></div><div class="track"><span class="fill ink" style="width:90%"></span></div><div class="bval">88–92</div></div>
+    <div class="bar-row"><div class="blab">Diversified EMS<small>Syrma</small></div><div class="track"><span class="fill a1" style="width:76%"></span></div><div class="bval">75–78</div></div>
+    <div class="bar-row"><div class="blab">HVAC coils<small>KRN</small></div><div class="track"><span class="fill a2" style="width:71.5%"></span></div><div class="bval">68–75</div></div>
+    <div class="bar-row"><div class="blab">High-mix EMS<small>Kaynes, Avalon</small></div><div class="track"><span class="fill a1" style="width:65.5%"></span></div><div class="bval">65–66</div></div>
+    <div class="bar-row"><div class="blab">Transmission towers<small>Skipper: steel + zinc</small></div><div class="track"><span class="fill a5" style="width:65.5%"></span></div><div class="bval">61–68</div></div>
+    <div class="bar-row"><div class="blab">Automation MNC<small>Honeywell Automation</small></div><div class="track"><span class="fill a4" style="width:57.5%"></span></div><div class="bval">55–60</div></div>
+    <div class="bar-row"><div class="blab">Cryogenic equipment<small>INOX India</small></div><div class="track"><span class="fill a2" style="width:57.5%"></span></div><div class="bval">55–60</div></div>
+    <div class="bar-row"><div class="blab">ETO fabrication<small>Anup, GMM glass-lined</small></div><div class="track"><span class="fill a2" style="width:54%"></span></div><div class="bval">50–58</div></div>
+    <div class="bar-row"><div class="blab">CNC machine tools<small>Jyoti</small></div><div class="track"><span class="fill a3" style="width:50%"></span></div><div class="bval">45–55</div></div>
+    <div class="bar-row"><div class="blab">Industrial gears<small>Elecon</small></div><div class="track"><span class="fill a3" style="width:48.5%"></span></div><div class="bval">45–52</div></div>
+    <div class="bar-row"><div class="blab">Mining wear parts<small>Tega, pre-Molycop</small></div><div class="track"><span class="fill a4" style="width:41.5%"></span></div><div class="bval">38–45</div></div>
+    <div class="bar-row"><div class="blab">Turbine &amp; aero airfoils<small>Azad</small></div><div class="track"><span class="fill a3" style="width:30%"></span></div><div class="bval">25–35</div></div>
+  </div>
+  <div class="legend"><span>Full bar = ₹100. The further left the bar ends, the more of each rupee the company itself adds, and the more a margin can be defended.</span></div>
+</div>
+
+<p>Read the chart from top to bottom and the margin ranking almost writes itself. Syrma, with about ₹76 of components inside every ₹100, earned an 11.3% EBITDA margin in FY26. Kaynes and Avalon, at about ₹65, earned 16% and 11% (Avalon still carries a loss-making US plant). INOX India and Anup, at ₹45–60 of material, earned about 22%. Azad, with the smallest bought-in share, earned 37%. The exceptions are informative. GMM Pfaudler adds plenty of value (material about ₹40 of ₹100) but earns only 11%, because its European workforce costs 28–31% of revenue. Praj's FY26 margin of 4.9% reflects a collapse in domestic ethanol orders rather than its cost structure. Honeywell Automation buys much of its hardware from its parent and pays royalties to it, so part of its value-add leaves the Indian entity before it reaches EBITDA.</p>
+
+<h3>The edge cases</h3>
+<p>Five members do not sit neatly in their boxes, and each edge case matters for how the numbers should be read.</p>
+<ul class="clean">
+  <li><strong>KRN Heat Exchanger</strong> (A2) makes fin-and-tube heat exchangers and coils for air-conditioner makers such as Daikin. It behaves partly like a component supplier: short purchase-order cycles, no reported order book, room-AC seasonality and copper and aluminium making up most of its material. It is the A2 member most exposed to the copper price, now above US$14,000 a tonne.</li>
+  <li><strong>Praj Industries</strong> (A2) is part technology licensor, part EPC contractor and part fabricator. Its cycle is set by ethanol, sustainable aviation fuel and compressed-biogas policy rather than by chemical capex, which is why it gets its own deep dive.</li>
+  <li><strong>Elecon</strong> (A3) makes precision-machined, heat-treated gears with OEM-like qualification, but its material-handling segment (about 28% of FY26 revenue) behaves like an A5 project business.</li>
+  <li><strong>Lloyds Engineering Works</strong> (A5) is becoming a group EPC platform. Its pending merger with Lloyds Infrastructure &amp; Construction (LICL), whose revenue is about 1.5 times its own, will make its largest customer its own promoter group's Gadchiroli steel and mining build-out.</li>
+  <li><strong>Honeywell Automation India</strong> (A4) is the only multinational subsidiary: 75% owned by the parent, net cash of about ₹3,700 crore, and since 29 June 2026 part of the continuing automation company, Honeywell Technologies, after the parent spun off its aerospace arm.</li>
+</ul>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>A company that buys ₹75 of parts to sell ₹100 of product has ₹25 to pay its people, run its factory and earn a profit. If parts cost 2% more and it cannot charge more for a quarter, it loses two of those 25 rupees, about a twelfth of everything it adds. A company that buys ₹25 of metal has ₹75 to play with, and the same 2% rise costs it half a rupee. That arithmetic explains more about the fifteen than any product description.</p>
+</div>
+</section>
+
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>From order to cash: how each archetype actually makes money</h2></div>
+<p class="part-sub">All five run the same loop of win, buy, convert, deliver and collect. They differ in which step holds the risk and who funds the wait.</p>
+
+<p>Every company in the bucket earns money in the same broad sequence. It wins an order, or a slot in a customer's production schedule. It buys material. It converts that material by assembling, fabricating, machining or galvanising it. It delivers and bills. Then it waits to be paid. Profit is made in the conversion step. Risk sits wherever the company has committed money before the customer has: material bought before a price is fixed, a factory built before a part is qualified, a receivable outstanding to a state electricity distributor. Cash is made or lost between the second step and the last.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The industrial-products value loop: where the rupee is earned and where it waits</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Step 1 · Win</div><div class="nname">Qualify &amp; book the order</div><div class="nwho">Tender, OEM qualification (12–36 months for airfoils), approved-vendor lists, LTAs. Sets price and pass-through terms.</div></div>
+    <div class="arrow">→</div>
+    <div class="node a5"><div class="ntag">Step 2 · Buy</div><div class="nname">Procure material</div><div class="nwho">Components, plate, forgings, steel angles, copper tube, superalloy bar. 25–78% of revenue, often bought months ahead.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Step 3 · Convert</div><div class="nname">Make it</div><div class="nwho">SMT lines, welding bays, 5-axis machines, galvanising baths. The value-add, and the fixed cost base.</div></div>
+    <div class="arrow">→</div>
+    <div class="node a2"><div class="ntag">Step 4 · Deliver</div><div class="nname">Test, ship, bill</div><div class="nwho">Inspection, ASME / AS9100 sign-off, milestone or dispatch billing, freight terms (FOB vs delivered).</div></div>
+    <div class="arrow">→</div>
+    <div class="node a1"><div class="ntag">Step 5 · Collect</div><div class="nname">Get paid</div><div class="nwho">Advances, letters of credit, bill discounting, PSU and discom payment cycles. Where growth turns into cash, or does not.</div></div>
+  </div>
+  <div class="flow-note">Margin is earned in Step 3. Working capital piles up between Steps 2 and 5. The fastest growers in the bucket are the ones with the longest gap between paying for material and collecting cash.</div>
+</div>
+
+<h3>The five versions of the loop</h3>
+<p><strong>A1 EMS.</strong> An electronics manufacturer builds to its customer's design. Its "order book" is a rolling schedule of purchase orders and forecasts covering 6–18 months, and much of it can be rescheduled. It buys components, many imported from China, Taiwan and Korea, often 6–8 months ahead in 2026 because of West Asia disruption, and passes component price changes through with a lag of one or two quarters. Profit is the value-add on each board times volume. Cash depends on how long components sit in inventory and how long customers take to pay; smart-meter programmes, where the counterparty is an infrastructure provider waiting on a state distributor, are the slowest payers of all.</p>
+<p><strong>A2 process equipment.</strong> A heat-exchanger, reactor or cryogenic-tank shop sells engineered-to-order (ETO) equipment against a firm order with milestone billing. It usually books material against each order, so a price spike after the order is won hurts only on long, fixed-price jobs; Anup says most of its contracts are fixed-price with no pass-through. Customer advances can fund much of the working capital, which is why Praj, with ₹899 crore of advances on its balance sheet, runs on negative working capital. The risk is utilisation: welders, engineers and heavy bays are a fixed cost of about 20–25% of revenue, so a gap in orders shows up a year later as a collapse in margin.</p>
+<p><strong>A3 precision parts and machines.</strong> Azad cannot sell a single blade until the customer has approved that part number at that plant, which takes 12–36 months. In return it gets long-term contracts (Azad calls them LTCPAs) and high switching costs. Jyoti builds machine tools against firm orders from machine shops, many of them small firms that pay slowly or through financing partners. Elecon sells catalogue and engineered gearboxes plus aftermarket spares. All three carry heavy inventory: superalloy forgings bought a year ahead, imported CNC controls, finished machines held for demonstration.</p>
+<p><strong>A4 automation and consumables.</strong> Honeywell Automation wins a control-system project, then earns lifecycle services, spares, software and migration revenue on that installed base for years. Tega's liners are replaced every 3–12 months while a mine is running, whatever the copper price, so revenue tracks tonnes of ore milled. Molycop's grinding balls are consumed the same way, under contracts mostly tied to steel indices.</p>
+<p><strong>A5 heavy fabrication.</strong> Skipper rolls its own steel angles, fabricates and galvanises towers and increasingly erects the lines itself. Domestic transmission contracts carry price-variation clauses indexed to IEEMA formulas for steel and zinc, so the margin per tonne holds while the rupee revenue moves with steel. Lloyds fabricates steel-plant and naval equipment against EPC-style contracts, a third of them from its own promoter group.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The EMS value chain: who captures the bill-of-materials rupee</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Layer 1</div><div class="nname">Design / ODM</div><div class="nwho">Product IP. Syrma's ODM is ~17% of revenue, target ~25%. Highest margin per rupee.</div></div>
+    <div class="arrow">→</div>
+    <div class="node a5"><div class="ntag">Layer 2</div><div class="nname">Components</div><div class="nwho">Chips, passives, bare PCBs (~90% imported), displays. Most of the BOM value and margin.</div></div>
+    <div class="arrow">→</div>
+    <div class="node a1"><div class="ntag">Layer 3</div><div class="nname">PCB assembly</div><div class="nwho">SMT and through-hole lines. Where Kaynes, Syrma and Avalon earn their conversion margin.</div></div>
+    <div class="arrow">→</div>
+    <div class="node a1"><div class="ntag">Layer 4</div><div class="nname">Box build</div><div class="nwho">Enclosures, harnesses, system integration. 60% of Avalon's Q1 FY27 revenue.</div></div>
+    <div class="arrow">→</div>
+    <div class="node ink"><div class="ntag">Layer 5</div><div class="nname">Test &amp; after-market</div><div class="nwho">Repair, refurbishment, field service. Small but sticky.</div></div>
+  </div>
+  <div class="flow-note">The listed EMS companies sit in Layers 3–4 and are pushing into Layer 2 (Kaynes' chip packaging plant and Chennai board plant, Syrma's Andhra Pradesh board plant) and Layer 1 (Syrma's ODM). That climb is the subject of the EMS deep dive.</div>
+</div>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The qualified-parts chain for gas turbines and aero engines</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Stage 1</div><div class="nname">OEM design authority</div><div class="nwho">GE Vernova, Siemens Energy, MHI, Rolls-Royce, Pratt &amp; Whitney own the part design.</div></div>
+    <div class="arrow">→</div>
+    <div class="node a5"><div class="ntag">Stage 2</div><div class="nname">Forgings &amp; castings</div><div class="nwho">Superalloy and titanium from PCC, Howmet, Doncasters; Indian mills now qualifying (Sunflag, Star Wire).</div></div>
+    <div class="arrow">→</div>
+    <div class="node a3"><div class="ntag">Stage 3</div><div class="nname">Qualified precision machining</div><div class="nwho">Azad's position. First-article inspection, special processes, 12–36 months to qualify each part.</div></div>
+    <div class="arrow">→</div>
+    <div class="node a2"><div class="ntag">Stage 4</div><div class="nname">Coating &amp; assembly</div><div class="nwho">Thermal-barrier coatings; engine or turbine assembly at the OEM.</div></div>
+    <div class="arrow">→</div>
+    <div class="node ink"><div class="ntag">Stage 5</div><div class="nname">Service &amp; MRO</div><div class="nwho">Every shop visit consumes new airfoils, so the installed fleet keeps pulling parts.</div></div>
+  </div>
+  <div class="flow-note">Once a part number is qualified at a supplier, switching costs are high, so the supplier can earn 30–40% EBITDA on complex parts. In 2024–26 the bottleneck has been supply of castings, forgings and qualified machining, not demand.</div>
+</div>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>What "order book" means in each archetype</caption>
+    <thead><tr><th>Archetype</th><th>What the number is</th><th>Typical execution</th><th>Can it be cancelled?</th><th>Typical cover (× TTM revenue)</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">A1 EMS</td><td>Rolling purchase orders and schedules (Kaynes ₹8,904 Cr, Syrma ₹6,770 Cr, Avalon ₹2,208 Cr)</td><td>6–18 months (Syrma ~10.5, Avalon ~14)</td><td>Often reschedulable</td><td>1.2–2.3×</td></tr>
+      <tr><td class="t-strong">A2 Process</td><td>Firm ETO orders, sometimes incl. letters of intent (Anup ₹985 Cr incl. LOIs)</td><td>10–30 months</td><td>Rarely; milestone-linked</td><td>0.6–1.4× (GMM is short-cycle at 0.63×)</td></tr>
+      <tr><td class="t-strong">A3 Precision</td><td>Azad: value of multi-year LTCPAs (~₹6,500 Cr); Jyoti and Elecon: firm machine and gear orders</td><td>Azad 5–10 years; machines and gears 6–27 months</td><td>LTCPAs set volumes and prices, not firm call-offs</td><td>Azad ~10×; Jyoti 2.2×; Elecon 0.63×</td></tr>
+      <tr><td class="t-strong">A4 Annuity</td><td>Honeywell Automation does not disclose; Tega ₹1,231 Cr ex-Molycop, which carries none</td><td>Run-rate replacement</td><td>n/a</td><td>~0.7× (Tega legacy)</td></tr>
+      <tr><td class="t-strong">A5 T&amp;D / heavy</td><td>EPC and supply contracts (Skipper ₹9,217 Cr; Lloyds ₹2,826 Cr own perimeter)</td><td>12–36 months</td><td>Rarely</td><td>1.6–1.8×</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The table is the first of several reasons why the companies' headline order books cannot be compared directly. Azad's ₹6,500 crore is the value of contracts that fix prices and volumes for many years; it is ten years of current revenue but cannot be executed faster than new plants and part qualifications allow. Lloyds' ₹8,857 crore headline includes an associate that has not yet merged and an acquisition not yet completed; the book of the company investors own today is ₹2,826 crore. Kaynes' ₹8,904 crore is a schedule its customers can reshape. Each needs its own reading, which the KPI masterclass sets out.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Every company here makes money in the factory and loses cash in the waiting. The question for each one is who pays for the wait. At Praj, the customer does, through advances. At Honeywell Automation, suppliers do, because it pays them later than its customers pay it. At Kaynes, Azad and Lloyds, shareholders do, through share issues, because the cash tied up in stock and receivables grew faster than profit.</p>
+</div>
+</section>
+
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>Size, growth and the markets behind the label</h2></div>
+<p class="part-sub">There is no single "industrial products market". There are five, each measured differently, and the listed companies are growing far faster than all of them.</p>
+
+<p>The sub-sector has no agreed market size because its members sell into unrelated markets. The workable approach is to size each archetype's market on its own terms and then compare the listed companies' growth with it. Each market is measured in its own unit: electronics in rupees of production, machine tools in rupees of consumption, process equipment in capex sanctioned by banks, transmission in circuit-kilometres and utility capex, and precision parts in the backlogs of a handful of global OEMs.</p>
+
+<div class="chart">
+  <div class="c-title">India's electronics production has grown about seven-fold in eleven years</div>
+  <div class="c-sub">Electronics production, ₹ lakh crore, fiscal years. FY25–26 from MeitY via ThePrint (Aug 2026); earlier years from MeitY/PIB and Lok Sabha replies (from memory, not re-fetched). FY15–26 CAGR ≈ 19% (calculated)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY15</div><div class="track"><span class="fill a1" style="width:13.6%"></span></div><div class="bval">1.90</div></div>
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill a1" style="width:39.6%"></span></div><div class="bval">5.54</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill a1" style="width:68%"></span></div><div class="bval">9.52</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill a1" style="width:80.9%"></span></div><div class="bval">11.32</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill a1" style="width:93.6%"></span></div><div class="bval">13.11</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹14 lakh crore. FY26 growth +15.8%. Mobile phones are roughly half of production; the listed EMS members deliberately avoid them.</span></div>
+</div>
+
+<p><strong>Electronics (A1).</strong> India produced ₹13.11 lakh crore of electronics in FY26, up 15.8%, and exported more than ₹4 lakh crore. But most of that is mobile-phone assembly by Foxconn, Tata Electronics and Dixon, with domestic value addition historically around 15–20%. The listed members work in low-volume, high-mix (LVHM) industrial, automotive, railway, medical and defence electronics, where gross margins are two to three times those of mobile assembly. Estimates of India's pure EMS market range from about US$25 billion (New Venture Research, 2023) to more than US$100 billion (industry interviews that conflate production with EMS). The narrower measure is the more credible one. On it, the non-mobile slice is perhaps US$8–12 billion, and Kaynes, Syrma and Avalon together (₹10,048 crore of FY26 revenue) hold roughly a tenth of it, an INDICATIVE estimate. More than 400 EMS firms operate in India, so the market is fragmented and the runway long.</p>
+
+<div class="chart">
+  <div class="c-title">India's machine-tool consumption, and how much of it is imported</div>
+  <div class="c-sub">₹ crore, fiscal years. FY25: production ₹14,566 Cr + imports ₹18,686 Cr − exports ₹1,472 Cr = ₹31,781 Cr consumption; import share 58.8%. Source: Ken Research citing IMTMA and industry data (fetched 13 Oct 2026); FY24 not published in the source</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill a3" style="width:34.4%"></span></div><div class="bval">12,036</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill a3" style="width:45.1%"></span></div><div class="bval">15,791</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill a3" style="width:70.1%"></span></div><div class="bval">24,536</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill a3" style="width:90.8%"></span></div><div class="bval">31,781</div></div>
+    <div class="bar-row"><div class="blab">of which imported</div><div class="track"><span class="fill bad" style="width:53.4%"></span></div><div class="bval">18,686</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹35,000 crore. India was the world's fourth-largest machine-tool consumer in CY2024; auto and auto components are about half of demand.</span></div>
+</div>
+
+<p><strong>Precision parts and machines (A3).</strong> Machine-tool consumption grew from ₹12,036 crore in FY21 to ₹31,781 crore in FY25, but domestic makers supplied less than half of it; Japan alone sent about 47% of imported machining centres in 2024. That import share of about 59–65% is Jyoti's opportunity. Azad's market is not Indian at all. It is the order book of the world's gas-turbine and aero-engine makers: GE Vernova plans to lift gas-turbine output from about 20 GW a year in Q3 2026 to 24 GW in 2028 and 30 GW by 2030, and GE Aerospace's LEAP engine deliveries rose 41% in H1 2026. Elecon's gears serve an Indian industrial-gearbox market estimated at ₹6,000–8,000 crore, a figure from older company material that this report could not re-verify.</p>
+<p><strong>Process equipment (A2).</strong> The best domestic proxy is the capex that banks and financial institutions sanction. In FY26 that was ₹4.35 lakh crore across 1,032 projects, of which chemicals and pesticides took 5.9%, or about ₹25,700 crore. CRISIL expects specialty-chemical companies to pare capex to about ₹16,500 crore in FY27 as their margins fall to 14–14.5%. Against that, the export markets are larger and stronger: a global LNG liquefaction build-out described by the IEA as the largest ever (figures not verified this session), US pharma reshoring, and fusion and space projects that buy INOX India's cryogenic vessels.</p>
+<p><strong>Automation and consumables (A4).</strong> India's process-automation market (control systems, safety, SCADA and services) is put at US$3–4 billion and is dominated by five or six multinationals. Tega's market is global: mill liners worth about US$1.3–1.6 billion, where it is second to Weir, and grinding media worth US$5–6 billion, where Molycop leads.</p>
+<p><strong>Transmission (A5).</strong> The National Electricity Plan for transmission commits ₹9.15 lakh crore to 2032, adding about 1.91 lakh circuit-kilometres of lines at 220 kV and above. Power Grid's annual capex is rising from about ₹9,400 crore in FY22 to about ₹25,000 crore in FY26 (estimate).</p>
+
+<div class="chart">
+  <div class="c-title">Power Grid's annual capex is heading for about two-and-a-half times its FY22 level</div>
+  <div class="c-sub">PGCIL capex, ₹ crore. FY26 is an estimate (FY26E). Source: Skipper investor presentation (Aug 2026) citing CareEdge; NEP-Transmission via Business Today (Oct 2024)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill a5" style="width:37.6%"></span></div><div class="bval">9,400</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill a5" style="width:44.8%"></span></div><div class="bval">11,200</div></div>
+    <div class="bar-row"><div class="blab">FY26E</div><div class="track"><span class="fill a5" style="width:100%"></span></div><div class="bval">~25,000</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹25,000 crore. Cumulative PGCIL capex of about ₹2.08 lakh crore is expected over FY25–32.</span></div>
+</div>
+
+<h3>The listed set grows far faster than its markets</h3>
+<p>MoSPI's index of capital-goods output rose 8.3% in FY26, after 5.6% in FY25. The listed companies grew much faster. FY23–26 revenue CAGRs were about 48% at Kaynes, 41% at Skipper and roughly a third at Syrma and Azad; in FY26 alone Lloyds grew 54%, Avalon 46% and KRN 40%. That gap is itself a finding: the fifteen are a cohort of share-gainers and new-category entrants (chip packaging, airfoils, cryogenic space tanks, data-centre coils), not a proxy for the average Indian capital-goods plant. It also explains why their valuations are set by expectations of duration rather than by the cycle. The counter-examples are the companies whose markets turned. Praj's revenue fell from ₹3,528 crore in FY23 to ₹3,168 crore in FY26 as ethanol ordering stopped. Honeywell Automation grew 3% in FY25 and 12% in FY26 as Indian process-industry orders converted slowly. Tega's legacy revenue was nearly flat in FY26.</p>
+
+<div class="chart">
+  <div class="c-title">FY26 revenue growth: the listed members versus the capital-goods index</div>
+  <div class="c-sub">Year-on-year revenue growth, FY26, %. Consolidated (Honeywell Automation standalone; Tega pre-Molycop). IIP capital goods = MoSPI use-based index, base 2011-12. Source: screener.in, MoSPI (28 Apr 2026)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Lloyds Engineering</div><div class="track"><span class="fill a5" style="width:90%"></span></div><div class="bval">+54%</div></div>
+    <div class="bar-row"><div class="blab">Avalon</div><div class="track"><span class="fill a1" style="width:76.7%"></span></div><div class="bval">+46%</div></div>
+    <div class="bar-row"><div class="blab">KRN</div><div class="track"><span class="fill a2" style="width:66%"></span></div><div class="bval">+39.6%</div></div>
+    <div class="bar-row"><div class="blab">Kaynes</div><div class="track"><span class="fill a1" style="width:55%"></span></div><div class="bval">+33%</div></div>
+    <div class="bar-row"><div class="blab">Azad</div><div class="track"><span class="fill a3" style="width:53.3%"></span></div><div class="bval">+32%</div></div>
+    <div class="bar-row"><div class="blab">Syrma SGS</div><div class="track"><span class="fill a1" style="width:45%"></span></div><div class="bval">+27%</div></div>
+    <div class="bar-row"><div class="blab">INOX India</div><div class="track"><span class="fill a2" style="width:35.8%"></span></div><div class="bval">+21.5%</div></div>
+    <div class="bar-row"><div class="blab">Skipper</div><div class="track"><span class="fill a5" style="width:33.3%"></span></div><div class="bval">+20%</div></div>
+    <div class="bar-row"><div class="blab">Jyoti CNC</div><div class="track"><span class="fill a3" style="width:25%"></span></div><div class="bval">+15%</div></div>
+    <div class="bar-row"><div class="blab">Anup</div><div class="track"><span class="fill a2" style="width:20.2%"></span></div><div class="bval">+12.1%</div></div>
+    <div class="bar-row"><div class="blab">Honeywell Automation</div><div class="track"><span class="fill a4" style="width:20%"></span></div><div class="bval">+12%</div></div>
+    <div class="bar-row"><div class="blab">GMM Pfaudler</div><div class="track"><span class="fill a2" style="width:17%"></span></div><div class="bval">+10.2%</div></div>
+    <div class="bar-row"><div class="blab">IIP capital goods</div><div class="track"><span class="fill ink" style="width:13.8%"></span></div><div class="bval">+8.3%</div></div>
+    <div class="bar-row"><div class="blab">Elecon</div><div class="track"><span class="fill a3" style="width:10%"></span></div><div class="bval">+6%</div></div>
+    <div class="bar-row"><div class="blab">Tega (pre-Molycop)</div><div class="track"><span class="fill a4" style="width:5%"></span></div><div class="bval">+3%</div></div>
+    <div class="bar-row"><div class="blab">Praj</div><div class="track"><span class="fill bad" style="width:3.2%"></span></div><div class="bval">−1.9%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = +60%. Praj's bar shows the size of its decline, not growth.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Indian factories as a whole made 8% more capital goods in FY26. Most of these fifteen companies grew two to six times as fast, because they are taking share or creating categories that barely existed five years ago: chip packaging in Gujarat, airfoils for American gas turbines, coils for data-centre coolers. That is the reason investors pay up for them, and also the reason a stumble is punished hard: the price assumes the gap persists.</p>
+</div>
+</section>
+
+
+<section class="part" id="p4">
+<div class="part-head"><span class="pno">04</span><h2>Five demand engines, and why they rarely fire together</h2></div>
+<p class="part-sub">Each archetype answers to a different customer: an electronics policy, a refinery budget, a turbine maker's slot book, a miner's throughput, a grid plan.</p>
+
+<p>Most of the bucket's demand comes from five sources, and they move on separate clocks. That is useful for diversification at the level of the bucket and dangerous for anyone who treats "Indian capex" as the single driver. In FY26 the transmission and aerospace clocks were running fast, the chemical-capex clock was slow and the ethanol clock had stopped.</p>
+
+<h3>1. Electronics content and policy (A1)</h3>
+<p>Electronics content per product is rising in cars and two-wheelers (battery management, motor controllers, chargers), railways (Kaynes' railway revenue rose 81% in Q1 FY27 on Kavach signalling work), defence, medical devices, smart meters and data-centre hardware. Policy multiplies it: production-linked incentives (PLI) for phones and IT hardware, the Electronics Component Manufacturing Scheme (ECMS, ₹69,548 crore of approved investment by August 2026), the semiconductor mission and preference for local content in public procurement. On top sits China+1, meaning Western equipment makers dual-sourcing out of China. Syrma's exports were 24% of Q1 FY27 revenue and are guided to grow 30–40% in FY27; Avalon earns 59–62% of its revenue from US-based customers. Domestic consumption matters too: consumer electronics was about a third of Syrma's Q1 revenue.</p>
+
+<h3>2. Process-industry and energy-transition capex (A2)</h3>
+<p>Refinery and petrochemical expansions, fertiliser plants, thermal-power and nuclear projects feed Anup's heat exchangers and vessels (oil and gas was 40% of its Q1 FY27 revenue; power and energy 22%). Pharma and contract-manufacturing capex feeds GMM Pfaudler's glass-lined reactors; its managing director called glass-lined demand the best "for quite some time", led by Indian CDMOs, Hyderabad API makers and US pharma reshoring (for the customer side, see the <a href="pharma-cdmo-cmo.html">pharma CDMO report</a>). Industrial gases, LNG, space and fusion science feed INOX India, whose largest new customer is a US private space company with more than ₹1,000 crore of orders. Ethanol, compressed biogas and aviation-fuel policy feed Praj. Room air-conditioners, buses, railways and data-centre cooling feed KRN; ICRA expects Indian room-AC volumes to recover 12–14% in FY27 after a rain-hit FY26.</p>
+
+<h3>3. Global gas turbines, aero engines and defence (A3)</h3>
+<p>Data-centre power demand, coal retirements and grid firming have filled gas-turbine order books. GE Vernova held 116 GW of gas backlog and slot reservations at Q2 2026, up from 100 GW a quarter earlier, and targets at least 125 GW by year-end. Commercial aerospace is short of engines: LEAP deliveries rose 41% in H1 2026, and Pratt &amp; Whitney's geared-turbofan shortages are expected to last to the end of the decade. Azad earns about 81% of its revenue from energy and oil-and-gas parts and 17% from aerospace and defence. Domestically, defence indigenisation (₹1.78 lakh crore of defence production in FY26, 24% private) and auto, electronics and die-mould machine shops drive Jyoti, where aerospace and defence are 38% of the order book. Steel, cement, power and sugar plants drive Elecon's gears.</p>
+
+<h3>4. Installed bases that keep consuming (A4)</h3>
+<p>Honeywell Automation's revenue depends on process-industry projects (refining, chemicals, pharma, power) and building and data-centre construction, plus migrations and cybersecurity upgrades of control systems already installed. Its growth has been muted: revenue rose 3% in FY25 and 12% in FY26, and 1.8% in Q1 FY27. Tega follows tonnes of ore milled rather than mining capex. With copper above US$14,000 a tonne and gold near US$4,400 an ounce, miners run mills harder, process lower-grade ore and replace conventional liners with premium hybrid ones. Legacy consumables revenue grew 36% in Q1 FY27.</p>
+
+<h3>5. The grid (A5)</h3>
+<p>Transmission is the steadiest engine in the bucket. India plans 1.91 lakh circuit-km of high-voltage lines and 33 GW of HVDC links by 2032; power alone took 39.6% of bank-sanctioned project cost in FY26. Skipper's order book reached a record ₹9,217 crore in June 2026, 80% of it domestic transmission, with a bid pipeline above ₹35,000 crore. Lloyds' demand, by contrast, is tied to one group's steel and power build-out at Gadchiroli.</p>
+
+<div class="chart">
+  <div class="c-title">Order books by end-market: where each company's next two years come from</div>
+  <div class="c-sub">Share of order book or revenue as disclosed, latest (Jun 2026 unless stated). Syrma: order book; Jyoti: order book; INOX India: backlog; Praj: backlog; Skipper: order book; Azad: FY26 revenue (no firm backlog split). Percentages read from company charts are approximate. Source: Q1 FY27 decks and calls</div>
+  <div class="stack-row"><div class="blab">Syrma SGS<small>order book ₹6,770 Cr</small></div><div class="stack"><span style="width:29%;background:var(--a1)">Auto 29</span><span style="width:30%;background:var(--om)">Consumer 30</span><span style="width:24%;background:var(--epc)">Industrial 24</span><span style="width:7%;background:var(--gold)">Health 7</span><span style="width:10%;background:var(--ink-faint)">IT/rail 9</span></div></div>
+  <div class="stack-row"><div class="blab">Jyoti CNC<small>order book ₹4,848 Cr</small></div><div class="stack"><span style="width:38%;background:var(--a3)">A&amp;D 38</span><span style="width:20%;background:var(--epc)">Gen. eng 20</span><span style="width:19%;background:var(--a1)">Auto 19</span><span style="width:13%;background:var(--om)">EMS 13</span><span style="width:10%;background:var(--ink-faint)">Other 10</span></div></div>
+  <div class="stack-row"><div class="blab">INOX India<small>backlog ₹1,686 Cr</small></div><div class="stack"><span style="width:55%;background:var(--a2)">Industrial gas &amp; space 55</span><span style="width:25%;background:var(--wtg)">LNG 25</span><span style="width:18%;background:var(--gold)">Scientific 18</span><span style="width:2%;background:var(--ink-faint)"></span></div></div>
+  <div class="stack-row"><div class="blab">Praj<small>backlog ₹4,589 Cr</small></div><div class="stack"><span style="width:77%;background:var(--a2)">Bioenergy 77</span><span style="width:18%;background:var(--a5)">Eng. 18</span><span style="width:5%;background:var(--ink-faint)"></span></div></div>
+  <div class="stack-row"><div class="blab">Skipper<small>order book ₹9,217 Cr</small></div><div class="stack"><span style="width:80%;background:var(--a5)">Domestic T&amp;D 80</span><span style="width:9%;background:var(--gold)">Exp 9</span><span style="width:11%;background:var(--ink-faint)">Other 11</span></div></div>
+  <div class="stack-row"><div class="blab">Azad<small>FY26 revenue ₹603 Cr</small></div><div class="stack"><span style="width:81.5%;background:var(--a3)">Energy &amp; oil and gas 81.5</span><span style="width:17.2%;background:var(--om)">A&amp;D 17</span><span style="width:1.3%;background:var(--ink-faint)"></span></div></div>
+  <div class="legend"><span>Unlabelled slivers: INOX kegs 2%, Praj HiPurity 5%, Azad other 1.3%. Syrma's IT and railways 9% plus rounding fills its bar.</span></div>
+</div>
+
+<div class="tbl-wrap">
+  <table class="heat">
+    <caption>End-market exposure by archetype (5 = high exposure, 1 = nil or low; qualitative, from company presentations)</caption>
+    <thead><tr><th>End-market</th><th>A1 EMS</th><th>A2 Process</th><th>A3 Precision</th><th>A4 Annuity</th><th>A5 Heavy / T&amp;D</th></tr></thead>
+    <tbody>
+      <tr><td>Auto / EV</td><td class="h5">High</td><td class="h1">Low</td><td class="h5">High (Jyoti)</td><td class="h1">Low</td><td class="h1">Low</td></tr>
+      <tr><td>Industrial / capital goods</td><td class="h5">High</td><td class="h3">Medium</td><td class="h5">High</td><td class="h5">High</td><td class="h3">Medium</td></tr>
+      <tr><td>Oil &amp; gas, refining, LNG</td><td class="h1">Low</td><td class="h5">High</td><td class="h3">Medium</td><td class="h5">High</td><td class="h1">Low</td></tr>
+      <tr><td>Chemicals &amp; pharma</td><td class="h1">Low</td><td class="h5">High</td><td class="h1">Low</td><td class="h5">High</td><td class="h1">Low</td></tr>
+      <tr><td>Sugar, ethanol, biofuels</td><td class="h1">Nil</td><td class="h5">High (Praj)</td><td class="h2">Low</td><td class="h1">Low</td><td class="h1">Nil</td></tr>
+      <tr><td>Power: turbines, nuclear</td><td class="h1">Low</td><td class="h3">Medium</td><td class="h5">High (Azad)</td><td class="h3">Medium</td><td class="h3">Medium</td></tr>
+      <tr><td>Aerospace &amp; defence</td><td class="h4">Medium–high</td><td class="h1">Low</td><td class="h5">High</td><td class="h1">Low</td><td class="h3">Medium</td></tr>
+      <tr><td>Transmission &amp; grid</td><td class="h3">Medium (meters)</td><td class="h1">Nil</td><td class="h1">Nil</td><td class="h1">Low</td><td class="h5">High (Skipper)</td></tr>
+      <tr><td>Mining</td><td class="h1">Nil</td><td class="h1">Low</td><td class="h3">Medium (Elecon)</td><td class="h5">High (Tega)</td><td class="h1">Low</td></tr>
+      <tr><td>HVAC &amp; consumer durables</td><td class="h5">High (Syrma)</td><td class="h5">High (KRN)</td><td class="h1">Nil</td><td class="h3">Medium</td><td class="h1">Nil</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The heat map shows why the bucket rarely moves as one. A slowdown in Indian chemical capex hits A2 and part of A4 but not A3 or A5. A tariff shock on US imports hits Avalon, Elecon's gears and Skipper's monopoles but barely touches Honeywell Automation or Lloyds. A collapse in copper prices would hurt Tega and KRN's inventory values while helping EMS input costs. For a portfolio, that dispersion is a feature. For an analyst, it means the label "industrial products" carries almost no information about which way a given company's next quarter will go.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The fifteen companies answer to different bosses. Kaynes answers to electronics policy and carmakers; Anup to refinery budgets; Azad to GE Vernova's factory schedule; Tega to how hard Chilean copper mines run their mills; Skipper to Power Grid's tender calendar. When someone says "the capex cycle is turning", the right reply is: which one?</p>
+</div>
+</section>
+
+<section class="part" id="p5">
+<div class="part-head"><span class="pno">05</span><h2>Where ₹100 goes: five cost structures, five kinds of risk</h2></div>
+<p class="part-sub">The same ₹100 of revenue leaves ₹11 of operating profit at a diversified EMS maker and ₹37 at an airfoil machinist. The difference is almost entirely bought-in material.</p>
+
+<p>The charts below break ₹100 of revenue into its main cost lines for each archetype, using a representative company or a composite. They are ILLUSTRATIVE: built from FY26 and Q1 FY27 company material-cost disclosures and screener operating margins, rounded so that each bar sums to ₹100. They are not any single company's audited cost structure. What matters is the shape: where the big block of cost sits, and how thin or thick the profit sliver is beside it.</p>
+
+<div class="chart">
+  <div class="c-title">A1 EMS: a thin value-add on a big pass-through</div>
+  <div class="c-sub">ILLUSTRATIVE, ₹ per ₹100 of revenue. High-mix EMS modelled on Kaynes (FY26 gross margin 34.6%, EBITDA 15.9%); diversified EMS on Syrma (Q1 FY27 gross margin 24.5%, FY26 EBITDA 11.3%). Source: company decks, screener.in, dossier §2.4</div>
+  <div class="stack-row"><div class="blab">High-mix EMS</div><div class="stack"><span style="width:66%;background:var(--a1)">Components &amp; PCBs 66</span><span style="width:8%;background:var(--om)">Staff 8</span><span style="width:10%;background:var(--ink-faint)">Other 10</span><span style="width:16%;background:var(--brand)">EBITDA 16</span></div></div>
+  <div class="stack-row"><div class="blab">Diversified EMS</div><div class="stack"><span style="width:76%;background:var(--a1)">Components &amp; PCBs 76</span><span style="width:7%;background:var(--om)">7</span><span style="width:6%;background:var(--ink-faint)">6</span><span style="width:11%;background:var(--brand)">EBITDA 11</span></div></div>
+  <div class="legend"><span><i style="background:var(--a1)"></i>Bill of materials</span><span><i style="background:var(--om)"></i>Employees</span><span><i style="background:var(--ink-faint)"></i>Power, freight, rent, design, SG&amp;A</span><span><i style="background:var(--brand)"></i>EBITDA</span></div>
+</div>
+<p>Below EBITDA, a high-mix EMS maker spends about ₹1.5–3 on depreciation (rising fast at Kaynes, whose quarterly depreciation more than doubled to ₹37 crore in Q1 FY27 as new plants came on), ₹1–3 on interest and ₹2–3 on tax, leaving ₹5–9 of net profit. The critical sensitivity is at the top: components are two-thirds to three-quarters of the bar, so a percentage-point rise that cannot be passed on for a quarter costs about 7–10% of EBITDA. That is what happened in Q1 FY27, when component prices rose 30–35%, bare-board prices 10–12% and lead-times stretched to 6–8 months; Kaynes' gross margin fell 690 basis points to 34.4%.</p>
+
+<div class="chart">
+  <div class="c-title">A2 process equipment: four variations on the fabrication shop</div>
+  <div class="c-sub">ILLUSTRATIVE, ₹ per ₹100 of revenue, normal-year composites. ETO fabrication modelled on Anup (FY24–26 EBITDA 21–23%); cryogenic on INOX India (FY26 21.6%); technology + EPC on Praj in a normal year (FY26 actual EBITDA only 4.9%); HVAC coils on KRN (FY26 18.7%). Source: screener.in, company decks, dossier §3.4</div>
+  <div class="stack-row"><div class="blab">ETO fabrication</div><div class="stack"><span style="width:54%;background:var(--a2)">Plate, tube, forgings 54</span><span style="width:10%;background:var(--om)">Staff 10</span><span style="width:14%;background:var(--ink-faint)">Other 14</span><span style="width:22%;background:var(--brand)">EBITDA 22</span></div></div>
+  <div class="stack-row"><div class="blab">Cryogenic</div><div class="stack"><span style="width:58%;background:var(--a2)">SS, aluminium, valves 58</span><span style="width:10%;background:var(--om)">10</span><span style="width:10%;background:var(--ink-faint)">10</span><span style="width:22%;background:var(--brand)">EBITDA 22</span></div></div>
+  <div class="stack-row"><div class="blab">Tech + EPC</div><div class="stack"><span style="width:64%;background:var(--a2)">Equipment, bought-outs, civil 64</span><span style="width:11%;background:var(--om)">11</span><span style="width:14%;background:var(--ink-faint)">14</span><span style="width:11%;background:var(--brand)">11</span></div></div>
+  <div class="stack-row"><div class="blab">HVAC coils</div><div class="stack"><span style="width:70%;background:var(--a2)">Copper, aluminium, tube 70</span><span style="width:6%;background:var(--om)">6</span><span style="width:6%;background:var(--ink-faint)">6</span><span style="width:18%;background:var(--brand)">EBITDA 18</span></div></div>
+  <div class="legend"><span><i style="background:var(--a2)"></i>Materials &amp; bought-outs</span><span><i style="background:var(--om)"></i>Employees</span><span><i style="background:var(--ink-faint)"></i>Power, consumables, sub-contract, testing, freight</span><span><i style="background:var(--brand)"></i>EBITDA</span></div>
+</div>
+<p>The four A2 bars look similar until utilisation changes. In an ETO shop the ₹24 of staff and "other" costs are largely fixed: skilled welders, engineers, heavy bays and testing rigs cost the same whether the order book is full or half-empty. Anup's Q1 FY27 shows the consequence. Revenue fell 28.5% to ₹125 crore and EBITDA margin fell from 23.0% to 7.6%, although management said product gross margins were intact. GMM Pfaudler is the A2 outlier on the other side: material is only about ₹40 of its ₹100 (gross-margin proxy 60%), but employees cost ₹28–31 because two-thirds of its revenue comes from European and US subsidiaries, so its EBITDA margin is 11%. KRN is the copper story: metals are most of its cost, contractually passed to air-conditioner makers with a one-to-three-month lag on LME copper, but carried as inventory in the meantime.</p>
+
+<div class="chart">
+  <div class="c-title">A3 precision parts and machines: where the value-add is thickest</div>
+  <div class="c-sub">ILLUSTRATIVE, ₹ per ₹100 of revenue. Airfoils modelled on Azad (FY26 EBITDA 37.3%); machine tools on Jyoti (25.2%); gears on Elecon (22.1%). Source: screener.in, company decks, dossier §4.4</div>
+  <div class="stack-row"><div class="blab">Turbine &amp; aero airfoils</div><div class="stack"><span style="width:30%;background:var(--a3)">Superalloy 30</span><span style="width:15%;background:var(--om)">Staff 15</span><span style="width:18%;background:var(--ink-faint)">Tooling, power 18</span><span style="width:37%;background:var(--brand)">EBITDA 37</span></div></div>
+  <div class="stack-row"><div class="blab">CNC machine tools</div><div class="stack"><span style="width:50%;background:var(--a3)">Castings, controls, spindles 50</span><span style="width:11%;background:var(--om)">11</span><span style="width:14%;background:var(--ink-faint)">14</span><span style="width:25%;background:var(--brand)">EBITDA 25</span></div></div>
+  <div class="stack-row"><div class="blab">Industrial gears</div><div class="stack"><span style="width:50%;background:var(--a3)">Forgings, bearings, cases 50</span><span style="width:10%;background:var(--om)">10</span><span style="width:18%;background:var(--ink-faint)">18</span><span style="width:22%;background:var(--brand)">EBITDA 22</span></div></div>
+  <div class="legend"><span><i style="background:var(--a3)"></i>Raw material</span><span><i style="background:var(--om)"></i>Employees</span><span><i style="background:var(--ink-faint)"></i>Tooling, power, consumables, sub-contract, coating</span><span><i style="background:var(--brand)"></i>EBITDA</span></div>
+</div>
+<p>A3's thick EBITDA comes with thick charges below it. Azad's depreciation was ₹53 crore on ₹603 crore of FY26 revenue, about ₹9 of every ₹100, and interest is rising as bill discounting replaces customer credit; its pre-tax margin is 22–28 rather than 37. Jyoti's cost structure has an import problem: CNC controls come from Fanuc or Siemens and are priced in yen or euros, so a rupee that touched record lows past ₹95 to the dollar in March and April 2026 raised costs before prices could follow. Elecon cited about 5% average bill-of-materials inflation in FY26 (steel up 5–7%, bearings 6–7%, cases 7%) and said it was built into order pricing.</p>
+
+<div class="chart">
+  <div class="c-title">A4 automation and consumables: three different annuities</div>
+  <div class="c-sub">ILLUSTRATIVE, ₹ per ₹100 of revenue. Automation MNC modelled on Honeywell Automation (FY26 EBITDA 13.1%, standalone); mining wear parts on Tega legacy (~22% pre-exceptional); grinding media on Molycop (Q1 FY27 adjusted ~13%). Source: screener.in, Tega Q1 FY27 call, dossier §5.3</div>
+  <div class="stack-row"><div class="blab">Automation MNC</div><div class="stack"><span style="width:60%;background:var(--a4)">Hardware, traded goods, sub-contract 60</span><span style="width:14%;background:var(--om)">Staff 14</span><span style="width:3%;background:var(--bad)"></span><span style="width:10%;background:var(--ink-faint)">10</span><span style="width:13%;background:var(--brand)">EBITDA 13</span></div></div>
+  <div class="stack-row"><div class="blab">Mining wear parts</div><div class="stack"><span style="width:44%;background:var(--a4)">Rubber, steel, PU 44</span><span style="width:14%;background:var(--om)">14</span><span style="width:20%;background:var(--ink-faint)">Logistics, site 20</span><span style="width:22%;background:var(--brand)">EBITDA 22</span></div></div>
+  <div class="stack-row"><div class="blab">Grinding media</div><div class="stack"><span style="width:68%;background:var(--a4)">Steel bar, alloys, energy 68</span><span style="width:9%;background:var(--om)">9</span><span style="width:10%;background:var(--ink-faint)">10</span><span style="width:13%;background:var(--brand)">13</span></div></div>
+  <div class="legend"><span><i style="background:var(--a4)"></i>Materials &amp; traded goods</span><span><i style="background:var(--om)"></i>Employees</span><span><i style="background:var(--bad)"></i>Royalty / technical fees to parent (~3)</span><span><i style="background:var(--ink-faint)"></i>Freight, installation, SG&amp;A</span><span><i style="background:var(--brand)"></i>EBITDA</span></div>
+</div>
+<p>The A4 bars explain Tega's transformation. Before June 2026 it was a ₹22-of-₹100 consumables business. Molycop, three to four times larger, is a ₹13-of-₹100 steel converter whose contracts are mostly tied to steel indices (steel bar is about 80% of its cost of goods). The combined group guides to a consolidated margin of about 15%. The investment case moves from margin to volume, cross-selling liners and balls into the same mills, and deleveraging. Honeywell Automation's thin sliver for royalty and technical fees to its parent, roughly ₹2–4 of every ₹100 on the dossier's estimate, is a structural leak that Indian-promoter companies do not have.</p>
+
+<div class="chart">
+  <div class="c-title">A5 transmission towers: steel in, galvanised tonnes out</div>
+  <div class="c-sub">ILLUSTRATIVE, ₹ per ₹100 of revenue, modelled on Skipper (EBITDA 9.8–10.4% in every year FY24–FY26; FY26 interest ₹218 Cr = 3.9% of revenue). Source: screener.in, Skipper deck, dossier §6.3</div>
+  <div class="stack-row"><div class="blab">Tower maker + EPC</div><div class="stack"><span style="width:57%;background:var(--a5)">Steel angles &amp; plate 57</span><span style="width:7%;background:var(--gold)">Zinc 7</span><span style="width:14%;background:var(--om)">Fabrication, erection 14</span><span style="width:5%;background:var(--ink-faint)">5</span><span style="width:6.5%;background:#8c8676">6.5</span><span style="width:10.5%;background:var(--brand)">EBITDA 10.5</span></div></div>
+  <div class="stack-row"><div class="blab">…of which below EBITDA</div><div class="stack"><span style="width:39%;background:var(--bad)">Interest 3.9</span><span style="width:15%;background:var(--ink-faint)">D&amp;A 1.5</span><span style="width:46%;background:var(--brand)">PBT ~5</span></div></div>
+  <div class="legend"><span><i style="background:var(--a5)"></i>Steel</span><span><i style="background:var(--gold)"></i>Zinc &amp; consumables</span><span><i style="background:var(--om)"></i>Power, labour, EPC sub-contract</span><span><i style="background:var(--ink-faint)"></i>Freight &amp; site</span><span><i style="background:#8c8676"></i>Employees &amp; SG&amp;A</span><span><i style="background:var(--brand)"></i>EBITDA. The second bar re-scales the ₹10.5 of EBITDA to 100% to show the split.</span></div>
+</div>
+<p>Skipper's bar is the clearest illustration of pass-through working. Steel and zinc are ₹64 of ₹100, yet the company earned 9.8–10.4% EBITDA in every year from FY24 to FY26 while hot-rolled coil moved between roughly ₹50,000 and ₹70,000 a tonne, because domestic transmission contracts adjust for steel and zinc through IEEMA formulas. The risk sits elsewhere: interest took about 38% of FY26 EBITDA, which is why Skipper's ₹433.5 crore equity raise in 2026, used to repay debt, mattered more for profit than any margin improvement could.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Raw-material pass-through: what each archetype buys, and who carries the price risk</caption>
+    <thead><tr><th>Archetype</th><th>Key inputs</th><th>Share of revenue</th><th>Pass-through mechanism</th><th>Lag and leakage</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">A1 EMS</td><td>Semiconductors, passives, PCBs, memory</td><td>65–78%</td><td>Contractual bill-of-materials pass-through, quarterly re-pricing, currency clauses</td><td>1–2 quarters; Q1 FY27 inflation cut Kaynes' gross margin by 690 bp</td></tr>
+      <tr><td class="t-strong">A2 Process</td><td>Stainless and alloy plate, tube, forgings, aluminium; copper (KRN)</td><td>50–75%</td><td>Fixed-price quotes valid 30–90 days, material booked against each order; KRN indexed to metal prices</td><td>Risk only on long fixed-price jobs (Anup); KRN lags copper by 1–3 months</td></tr>
+      <tr><td class="t-strong">A3 Precision</td><td>Superalloy and titanium forgings and bar; steel forgings, bearings; imported CNC controls</td><td>25–55%</td><td>LTAs with OEM-supplied or indexed material; gear order pricing</td><td>Low at Azad; FX risk on yen and euro controls at Jyoti</td></tr>
+      <tr><td class="t-strong">A4 Annuity</td><td>Rubber, steel, polyurethane; steel scrap and bar; imported hardware</td><td>40–70%</td><td>Mining contracts with steel-index adjustment (grinding media norm)</td><td>Short; Molycop's asset-based loan swings with bar payments</td></tr>
+      <tr><td class="t-strong">A5 T&amp;D</td><td>Hot-rolled steel, angles, plate, zinc</td><td>60–68%</td><td>IEEMA price-variation formula on domestic PGCIL and private-developer contracts</td><td>Low on domestic; fixed-price export and EPC jobs carry the risk</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Pass-through means the customer eventually pays for a rise in raw-material prices. "Eventually" is the catch. An EMS maker that buys chips six months ahead at a higher price, and can reprice only next quarter, loses margin in between. A tower maker whose contract has a steel formula keeps its margin but still has to fund the more expensive steel until the bill is paid. Either way the cash goes out first.</p>
+</div>
+</section>
+
+<section class="part" id="p6">
+<div class="part-head"><span class="pno">06</span><h2>A capex cycle that broadens but does not boom</h2></div>
+<p class="part-sub">Indian factories are running at the level where expansion starts to make sense, not much above it. Power is pulling; chemicals is not.</p>
+
+<p>The Reserve Bank's survey of manufacturers (OBICUS) is the best single gauge of whether Indian companies need new capacity. Its 73rd round, released on 5 August 2026 and covering the March 2026 quarter, put capacity utilisation at 77.4%, or 75.2% after seasonal adjustment. Seasonally adjusted utilisation has now sat between 74.9% and 75.8% for five straight quarters. The RBI and most economists treat a sustained level above about 75% as the point at which brownfield additions become necessary. India is at that threshold, not decisively above it. Utilisation peaked at about 83% in 2007-08 and fell to about 63% in the first COVID quarter.</p>
+
+<div class="chart">
+  <div class="c-title">Factory utilisation is parked at the expansion threshold</div>
+  <div class="c-sub">RBI OBICUS capacity utilisation, manufacturing, %; bar = seasonally adjusted, label shows unadjusted in brackets. Scale starts at 60% (full bar = 85%). Source: RBI 73rd OBICUS round, 5 Aug 2026</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q4 FY25</div><div class="track"><span class="fill brand" style="width:62%"></span></div><div class="bval">75.5 (77.7)</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY26</div><div class="track"><span class="fill brand" style="width:63.2%"></span></div><div class="bval">75.8 (74.1)</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY26</div><div class="track"><span class="fill brand" style="width:59.6%"></span></div><div class="bval">74.9 (74.3)</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY26</div><div class="track"><span class="fill brand" style="width:62%"></span></div><div class="bval">75.5 (75.6)</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY26</div><div class="track"><span class="fill brand" style="width:60.8%"></span></div><div class="bval">75.2 (77.4)</div></div>
+    <div class="bar-row"><div class="blab">2007-08 peak<small>approx.</small></div><div class="track"><span class="fill gold" style="width:92%"></span></div><div class="bval">~83</div></div>
+  </div>
+  <div class="legend"><span>Bars are scaled from 60% to 85% so that small moves are visible. New orders in the common sample rose only 4.0% year on year in Q4 FY26, against 10.3% in Q3.</span></div>
+</div>
+
+<p>Other measures agree. Banks and financial institutions sanctioned 1,032 projects worth ₹4,35,111 crore in FY26, up 18% from ₹3,68,041 crore in FY25, and envisaged capex across all funding channels rose 6.9% to ₹4.7 lakh crore. The RBI estimates FY27 private capex from projects already in the pipeline at ₹3.2 lakh crore, against a comparable ₹2.6 lakh crore in FY26. MoSPI's capital-goods output index rose 8.3% in FY26 and accelerated through the second half (8.1% in December, 12.4% in February, 14.6% in March). Project-announcement trackers such as CMIE's are noisier, because a few multi-lakh-crore hydrogen, semiconductor and data-centre memoranda dominate single quarters, so this report leans on realised bank sanctions and output.</p>
+
+<div class="chart">
+  <div class="c-title">What banks financed in FY26: power dominates, chemicals is a sliver</div>
+  <div class="c-sub">Share of FY26 project cost sanctioned by banks and FIs (₹4.35 lakh crore), %. INDICATIVE grouping: roads and bridges (8.5%) are treated as part of infrastructure; "other" is the residual. Source: RBI Bulletin, 25 Sep 2026</div>
+  <div class="stack-row"><div class="blab">FY26 sanctions</div><div class="stack"><span style="width:39.6%;background:var(--a5)">Power 39.6</span><span style="width:14.6%;background:#9a7560">Other infra 14.6</span><span style="width:11.2%;background:var(--om)">Constr. 11.2</span><span style="width:5.9%;background:var(--a2)">Chem 5.9</span><span style="width:4.8%;background:var(--a3)">4.8</span><span style="width:4.0%;background:var(--gold)">4.0</span><span style="width:19.9%;background:var(--ink-faint)">Other 19.9</span></div></div>
+  <div class="legend"><span><i style="background:var(--a5)"></i>Power</span><span><i style="background:#9a7560"></i>Other infrastructure incl. roads</span><span><i style="background:var(--om)"></i>Construction</span><span><i style="background:var(--a2)"></i>Chemicals &amp; pesticides</span><span><i style="background:var(--a3)"></i>Metals &amp; metal products</span><span><i style="background:var(--gold)"></i>Cement</span><span><i style="background:var(--ink-faint)"></i>Food, textiles, electricals and others</span></div>
+</div>
+
+<p>The composition matters more than the total for this bucket. Power, generation plus transmission, took 39.6% of what banks sanctioned in FY26. That is good for Skipper's towers, for Elecon's gearboxes in coal and ash handling, for Honeywell Automation's control systems in power plants and for Anup's new thermal-power heat-exchanger orders (more than ₹150 crore). Chemicals and pesticides took 5.9%, down from the 2021–23 specialty-chemicals boom, which is why GMM Pfaudler's Indian business and Anup's domestic chemical book slowed in FY25–26 (see the <a href="chem-custom-synthesis.html">custom synthesis</a> and <a href="chem-intermediates.html">chemical intermediates</a> reports for the customers' side). Electronics and electrical capex shows as only 0.9% of bank sanctions, but that understates it badly: electronics plants are funded by PLI and ECMS incentives, foreign parents and equity (Kaynes and Syrma both raised money through share placements), not by Indian project finance.</p>
+
+<div class="chart">
+  <div class="c-title">Capital-goods output: a rebound, a slowdown, and a pick-up</div>
+  <div class="c-sub">IIP capital goods, year-on-year growth, fiscal years, % (base 2011-12). FY25–26 from MoSPI release of 28 Apr 2026; earlier years from MoSPI annual releases (from memory). MoSPI moved to a 2022-23 base from April 2026, so later prints are not comparable</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22<small>COVID rebound</small></div><div class="track"><span class="fill ink" style="width:84.5%"></span></div><div class="bval">+16.9%</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill brand" style="width:64.5%"></span></div><div class="bval">+12.9%</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:31.5%"></span></div><div class="bval">+6.3%</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:28%"></span></div><div class="bval">+5.6%</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill spec" style="width:41.5%"></span></div><div class="bval">+8.3%</div></div>
+    <div class="bar-row"><div class="blab">March 2026<small>single month</small></div><div class="track"><span class="fill gold" style="width:73%"></span></div><div class="bval">+14.6%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 20%. Machinery and equipment output rose 11% in March 2026; electronics output fell 8% that month, a volatile series.</span></div>
+</div>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Where each archetype sits in its own cycle, October 2026 (INDICATIVE assessment)</caption>
+    <thead><tr><th>Archetype</th><th>Primary driver</th><th>Position</th><th>Evidence</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">A1 EMS</td><td>Electronics policy, China+1, electronics content</td><td>Early-to-mid expansion; component localisation is the new leg</td><td>Production ₹13.11 lakh Cr (+15.8%); 106 ECMS approvals, ₹69,548 Cr</td></tr>
+      <tr><td class="t-strong">A2 Process</td><td>Chemical and pharma capex, LNG and hydrogen, ethanol policy</td><td>Mixed: LNG, industrial gas and refining strong; specialty chemicals recovering from trough; ethanol EPC in a down-cycle</td><td>CARE expects distillery utilisation of 65–75% for three years; CRISIL sees chemical capex pared</td></tr>
+      <tr><td class="t-strong">A3 Precision</td><td>Global aero and gas-turbine ramps; Indian auto, defence, MSME machine shops</td><td>Strong global up-cycle; domestic machine tools steady double-digit</td><td>GE Vernova 116 GW backlog + slots; LEAP deliveries +41% in H1 2026</td></tr>
+      <tr><td class="t-strong">A4 Annuity</td><td>Process capex (Honeywell); ore throughput, copper and gold (Tega)</td><td>Honeywell: slow order conversion. Tega: healthy</td><td>Honeywell Q1 FY27 revenue +1.8%; Tega consumables +36%</td></tr>
+      <tr><td class="t-strong">A5 Heavy / T&amp;D</td><td>Transmission capex; steel-plant capex</td><td>Peak-ish ordering, multi-year execution visibility</td><td>NEP-Transmission ₹9.15 lakh Cr to 2032; Skipper book ₹9,217 Cr</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The investment implication is uncomfortable for anyone paying for a general capex boom. The two archetypes most exposed to a broad domestic revival, process equipment (A2) and automation (A4, Honeywell), are the ones where Indian demand is weakest today. The archetypes with the best demand, precision parts (A3) and transmission (A5), are driven by global turbine makers and a regulated grid plan, neither of which depends on utilisation crossing 76–77%. If the RBI's survey does push decisively above that level in the coming rounds (the next print is due around November 2026), the beneficiaries would be Anup, GMM Pfaudler's Indian business, Honeywell Automation and Jyoti's machine-shop customers, in roughly that order.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Indian factories are about three-quarters full. That is enough for companies to add a production line here and there, and for power-sector spending to surge, but not enough for the across-the-board building spree of 2004–08. The equipment makers that depend on a broad Indian revival are still waiting for it; the ones selling to the grid, to defence and to foreign turbine makers do not need it.</p>
+</div>
+</section>
+
+<section class="part" id="p7">
+<div class="part-head"><span class="pno">07</span><h2>China+1 and the tariff ledger: who exports what, and what it costs them</h2></div>
+<p class="part-sub">Western buyers pay for supply security on qualified, low-volume parts. On commodity steel, they pay for the cheapest tonne, and US tariffs decide who that is.</p>
+
+<p>Export dependence is the second big axis in the bucket after value-add. It ranges from about 93% of revenue at Azad to almost nothing at Lloyds. The chart uses each company's latest disclosed figure, and the bases differ: some disclose exports from India, some disclose revenue from overseas subsidiaries, and one (Avalon) discloses revenue from US-based customers. Several figures are approximate and flagged as such.</p>
+
+<div class="chart">
+  <div class="c-title">How much of each company's revenue comes from outside India</div>
+  <div class="c-sub">Latest disclosed export or overseas share of revenue, %. Azad FY26; INOX India Q1 FY27; Avalon FY26 (US-based customers); GMM = revenue of overseas subsidiaries, Q1 FY27 (calculated); Tega and Honeywell Automation approximate, from memory (unverified); Anup Q1 FY27 exports excl. 11% SEZ / deemed exports; Praj, Syrma, KRN Q1 FY27; Elecon, Skipper FY26; Kaynes = overseas subsidiaries, Q1 FY27. Jyoti not disclosed. Source: company decks and calls, dossier</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Azad</div><div class="track"><span class="fill a3" style="width:93%"></span></div><div class="bval">~93%</div></div>
+    <div class="bar-row"><div class="blab">Tega (legacy)<small>approx., unverified</small></div><div class="track"><span class="fill a4" style="width:85%"></span></div><div class="bval">~85–90%</div></div>
+    <div class="bar-row"><div class="blab">GMM Pfaudler<small>overseas subsidiaries</small></div><div class="track"><span class="fill a2" style="width:75%"></span></div><div class="bval">~75%</div></div>
+    <div class="bar-row"><div class="blab">Avalon<small>US-based customers</small></div><div class="track"><span class="fill a1" style="width:62%"></span></div><div class="bval">62%</div></div>
+    <div class="bar-row"><div class="blab">INOX India</div><div class="track"><span class="fill a2" style="width:58%"></span></div><div class="bval">58%</div></div>
+    <div class="bar-row"><div class="blab">Anup</div><div class="track"><span class="fill a2" style="width:40%"></span></div><div class="bval">40%</div></div>
+    <div class="bar-row"><div class="blab">Honeywell Automation<small>mostly to group, approx.</small></div><div class="track"><span class="fill a4" style="width:33%"></span></div><div class="bval">~33%</div></div>
+    <div class="bar-row"><div class="blab">Praj</div><div class="track"><span class="fill a2" style="width:25%"></span></div><div class="bval">25%</div></div>
+    <div class="bar-row"><div class="blab">Syrma SGS</div><div class="track"><span class="fill a1" style="width:24%"></span></div><div class="bval">24%</div></div>
+    <div class="bar-row"><div class="blab">Elecon</div><div class="track"><span class="fill a3" style="width:22%"></span></div><div class="bval">22%</div></div>
+    <div class="bar-row"><div class="blab">KRN</div><div class="track"><span class="fill a2" style="width:20.8%"></span></div><div class="bval">20.8%</div></div>
+    <div class="bar-row"><div class="blab">Skipper</div><div class="track"><span class="fill a5" style="width:12.8%"></span></div><div class="bval">12.8%</div></div>
+    <div class="bar-row"><div class="blab">Kaynes<small>overseas subsidiaries</small></div><div class="track"><span class="fill a1" style="width:11%"></span></div><div class="bval">~11%</div></div>
+    <div class="bar-row"><div class="blab">Lloyds Engineering</div><div class="track"><span class="fill a5" style="width:0.5%"></span></div><div class="bval">~nil</div></div>
+    <div class="bar-row"><div class="blab">Jyoti CNC</div><div class="track"><span class="fill ink" style="width:0%"></span></div><div class="bval">n/a</div></div>
+  </div>
+</div>
+
+<p><strong>Why China+1 works here.</strong> Western OEMs re-sourcing qualified, low-volume, high-complexity products (airfoils, cryogenic vessels, air-cooled heat exchangers, high-mix electronics) pay for supply security and compliance: ASME pressure-vessel stamps, AS9100 and NADCAP aerospace approvals, export-control rules, and US restrictions on Chinese content. Indian vendors win on total cost plus risk even where China is 10–20% cheaper on piece price, which is CII's estimate of India's cost gap in electronics components. INOX India's 58% export share, Anup's first air-cooled heat exchanger order from a German customer, KRN's new North American data-centre customers and Syrma's 61% export growth in Q1 FY27 all show the mechanism. Commodity steel structures are different: there, Chinese, Turkish, Vietnamese and Mexican fabricators compete directly, and US trade remedies decide who wins.</p>
+
+<ul class="timeline">
+  <li><div class="yr">Mar 2018 → Jun 2025</div><div class="ev">US Section 232 duties on steel (25%, later 50%) and aluminium (10%, later 50%), extended to derivative products in 2025. They apply to towers and steel articles.</div></li>
+  <li class="major"><div class="yr">7 and 27 Aug 2025</div><div class="ev">A 25% "reciprocal" IEEPA tariff, then a 25% penalty linked to Russian oil purchases: 50% combined on Indian goods. Export orders deferred across EMS and machined parts; Anup cites "order cancellations and uncertainties due to tariffs" in FY26.</div></li>
+  <li><div class="yr">2–7 Feb 2026</div><div class="ev">US–India interim framework; the penalty is removed from 7 February and the reciprocal rate is announced to fall to 18%.</div></li>
+  <li class="major"><div class="yr">20–24 Feb 2026</div><div class="ev">The US Supreme Court rules 6–3 that IEEPA does not authorise tariffs; refunds go through a customs process. A 10% global surcharge under Section 122 (150-day limit) replaces it.</div></li>
+  <li class="major"><div class="yr">6 Apr 2026</div><div class="ev">Section 232 overhaul: duties on full customs value; 50% on primary metal and close derivatives, 25% on certain derivatives, and a temporary combined 15% on "metal-intensive industrial and grid equipment" to 31 Dec 2027, rising to 25% after.</div></li>
+  <li><div class="yr">7 May 2026</div><div class="ev">The Court of International Trade rules the Section 122 proclamation unlawful (relief limited to the plaintiffs); Section 122 is due to lapse around 24 Jul 2026.</div></li>
+  <li><div class="yr">Oct 2026</div><div class="ev">The all-in US rate on Indian non-metal goods after Section 122's lapse, and whether the 18% framework rate or a signed trade agreement applies, could not be confirmed from a primary source for this report.</div></li>
+</ul>
+
+<p><strong>Who is actually exposed.</strong> Direct US exposure is modest for most members. Avalon is the clearest case: its US plant and US-based customers make up most of revenue, and it reports that tariff pass-through costs it about 0.9 percentage points of EBITDA margin. Azad's customers are American, but aero parts largely enjoy duty-free treatment under the WTO civil-aircraft agreement and many energy parts ship to OEM plants in Europe and Japan. Elecon says Indian-origin gearboxes into the US face a 50% tariff, which management attributes to Section 232, and has set up a Mexican entity to serve the Americas. INOX India is barred from US manufacturing or sales until 2028 by a non-compete. Skipper's US exposure is only 3% of its export book. The binding constraint for steel-intensive exports (towers, tanks, vessels, coils, gearboxes) is now Section 232, charged on full customs value. The 15% rate for grid and industrial equipment runs to the end of 2027 and steps to 25% on 1 January 2028.</p>
+<p><strong>Relative, not absolute, rates decide orders.</strong> Under Section 232 India is treated like its competitors, and Indian steel exports to the US have held up because rivals pay the same duty. The damage in 2025–26 came from the six months when India faced 50% against roughly 15–20% for Vietnam, Mexico and the EU; EMS and machined-parts exporters lost price competitiveness, and orders slipped rather than vanished. After February 2026 that gap closed.</p>
+<p><strong>The 2026 Hormuz shock was a bigger operating event than tariffs.</strong> The effective closure of the Strait of Hormuz from about March to July 2026 pushed Brent crude to US$100–110 a barrel in May–July and the rupee past ₹95 to the dollar. Container freight to Europe roughly doubled; INOX India held back ₹32–35 crore of finished equipment in Q1 FY27; Skipper's exports halved year on year in the quarter; KRN's UAE business fell as freight rose fourfold. EMS makers built "strategic inventory" and paid 30–35% more for components. The weak rupee helped exporters' rupee revenues (Azad, INOX, Tega) and hurt importers of controls and chips (Jyoti, the EMS three).</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>A Western turbine maker will pay a little more for a blade from Hyderabad than from China if the Hyderabad plant is qualified, reliable and not subject to sanctions risk. A Western utility buying steel towers mostly wants the cheapest tonne after tariffs. So China+1 is a strong tailwind for the bucket's qualified, high-value exporters and a weak one for its steel fabricators, whose export fortunes depend on US tariff rules that changed six times in a year.</p>
+</div>
+</section>
+
+
+<section class="part" id="p8">
+<div class="part-head"><span class="pno">08</span><h2>Niche oligopolies and crowded middles: how the industry is structured</h2></div>
+<p class="part-sub">Several members lead small global niches with two or three rivals. Others compete in fragmented markets of hundreds. Which side of that line a company sits on explains its pricing power.</p>
+
+<p>Industrial products is not one market with a concentration ratio. It is a patchwork of niches. In some, a listed member is the leader and its rivals can be counted on one hand: glass-lined reactors in India, cryogenic tanks, ethanol process technology, mill liners, grinding media, industrial gearboxes. In others, the member is one of hundreds: contract electronics, heat exchangers and pressure vessels, transmission towers. The first group earns pricing power from switching costs, certifications and know-how. The second competes on execution, cost and working-capital tolerance.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Niche by niche: who leads, and who else competes (shares approximate)</caption>
+    <thead><tr><th>Niche</th><th>Member and position</th><th>Main rivals</th><th>Structure</th><th>Chinese competition</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Glass-lined reactors (India)</td><td>GMM Pfaudler, &gt;50% share (from memory)</td><td>HLE Glascoat; De Dietrich globally</td><td>2–3 player oligopoly</td><td>Price competition in emerging markets</td></tr>
+      <tr><td class="t-strong">Cryogenic tanks &amp; LNG equipment</td><td>INOX India, largest in India, top three globally (RHP)</td><td>Chart Industries (being acquired by Baker Hughes), Linde, CIMC Enric</td><td>Global oligopoly</td><td>CIMC Enric in LNG and emerging markets</td></tr>
+      <tr><td class="t-strong">Ethanol process technology</td><td>Praj, ~60%+ of India's distillery installed base (company claim)</td><td>Katzen, ICM, Vogelbusch, Lummus</td><td>Dominant domestic licensor</td><td>Limited</td></tr>
+      <tr><td class="t-strong">Mill liners</td><td>Tega, about #2 globally</td><td>Weir (Vulco/Polymet), FLSmidth, Metso, Multotec</td><td>Global oligopoly</td><td>Limited</td></tr>
+      <tr><td class="t-strong">Grinding media</td><td>Molycop (Tega since Jun 2026), &gt;50% in core regions</td><td>Regional steel-ball makers</td><td>Regional leadership</td><td>Present in Asia</td></tr>
+      <tr><td class="t-strong">Industrial gearboxes (India)</td><td>Elecon, ~30–35% share (from memory)</td><td>Siemens/Flender, SEW, Bonfiglioli, local makers</td><td>Leader in a moderately concentrated market</td><td>Low-end imports</td></tr>
+      <tr><td class="t-strong">Turbine &amp; aero airfoils</td><td>Azad, one of a few Indian qualified suppliers</td><td>PCC, Howmet, Doncasters; PTC Industries, Unimech, Aequs in India</td><td>Qualification-gated, supply-short</td><td>Excluded by many Western OEMs</td></tr>
+      <tr><td class="t-strong">CNC machine tools (India)</td><td>Jyoti, largest Indian maker by volume</td><td>Imports (Japan ~47% of machining-centre imports), Ace Micromatic, DMG Mori, Haas</td><td>Imports hold ~59–65%</td><td>~17.5% of machining-centre imports (2024)</td></tr>
+      <tr><td class="t-strong">Process automation (India)</td><td>Honeywell Automation among 5–6 leaders</td><td>ABB, Emerson, Yokogawa, Siemens, Schneider</td><td>Top MNCs hold &gt;70% of control systems</td><td>Low</td></tr>
+      <tr><td class="t-strong">High-mix EMS</td><td>Kaynes, Syrma, Avalon; ~10% of the addressable pool together (INDICATIVE)</td><td>Centum, SFO (NeST), VVDN, Dixon, MNC captives; 400+ firms</td><td>Fragmented</td><td>China supplies most components</td></tr>
+      <tr><td class="t-strong">Heat exchangers &amp; pressure vessels</td><td>Anup, one of many</td><td>ISGEC, L&amp;T Heavy Engineering, Godrej Process Equipment, Alfa Laval, Kelvion</td><td>Fragmented</td><td>Moderate</td></tr>
+      <tr><td class="t-strong">Transmission towers</td><td>Skipper, India's largest integrated tower maker (0.45 mn t capacity)</td><td>KEC, Kalpataru, Tata Projects, Bajaj, Transrail</td><td>Moderately fragmented</td><td>Strong in export markets</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Two patterns stand out. First, the members with the strongest niche positions are not always the most profitable. GMM Pfaudler leads Indian glass-lined equipment but earns 11% EBITDA, because its global cost base and acquisition debt dilute the Indian franchise. Praj dominates Indian ethanol technology but earned 4.9% in FY26, because a dominant position in a market that has stopped ordering is worth little until it reorders. Second, the members in fragmented markets that earn good margins, such as Anup (21.5% in FY26) and Kaynes (15.9%), do so by specialising inside the fragment: exotic-alloy heat exchangers and high-reliability electronics rather than commodity work.</p>
+
+<div class="chart">
+  <div class="c-title">India's machine-tool market: imports still supply most of it</div>
+  <div class="c-sub">FY25 machine-tool consumption of ₹31,781 Cr, split into domestic supply (production ₹14,566 Cr − exports ₹1,472 Cr = ₹13,094 Cr) and imports (₹18,686 Cr). Source: Ken Research citing IMTMA and industry data</div>
+  <div class="stack-row"><div class="blab">FY25 consumption</div><div class="stack"><span style="width:41.2%;background:var(--a3)">Domestic 41%</span><span style="width:58.8%;background:var(--ink-faint)">Imported 59%</span></div></div>
+  <div class="legend"><span>Import penetration rose to an estimated 60–65% in FY26. Jyoti's capacity expansion from 6,000 to about 16,000 machines a year is a bet on import substitution.</span></div>
+</div>
+
+<p>Ownership structure is the other half of the picture. Promoters hold a majority at nine of the fifteen; the multinational parent of Honeywell Automation holds exactly 75%, the maximum allowed for a listed company. At the other end, GMM Pfaudler's promoter family holds 25%, Praj's 33% and Lloyds' 40%, the last partly pledged after a 7 October 2026 pledge of 1.1 crore shares. Promoter stakes have been falling across the newer listings as companies issued equity to fund growth: Kaynes, Syrma, Azad, Skipper, Tega, KRN and Lloyds all raised money through placements, preferential issues or rights issues in FY25–27, and Avalon's promoters sold 6% in a block deal on 30 September 2026, near the stock's 52-week high.</p>
+
+<div class="chart">
+  <div class="c-title">Promoter holdings: from a 75% parent to a 25% family</div>
+  <div class="c-sub">Promoter or parent holding, % of equity, latest disclosed (Jun–Sep 2026; Avalon ≈38.4% after its 30 Sep 2026 block sale, a dossier calculation). Source: screener.in shareholding patterns, exchange filings</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Honeywell Automation</div><div class="track"><span class="fill a4" style="width:75%"></span></div><div class="bval">75.0%</div></div>
+    <div class="bar-row"><div class="blab">INOX India</div><div class="track"><span class="fill a2" style="width:74.9%"></span></div><div class="bval">74.9%</div></div>
+    <div class="bar-row"><div class="blab">Tega</div><div class="track"><span class="fill a4" style="width:67.5%"></span></div><div class="bval">67.5%</div></div>
+    <div class="bar-row"><div class="blab">KRN</div><div class="track"><span class="fill a2" style="width:65.7%"></span></div><div class="bval">65.7%</div></div>
+    <div class="bar-row"><div class="blab">Jyoti CNC</div><div class="track"><span class="fill a3" style="width:62.6%"></span></div><div class="bval">62.6%</div></div>
+    <div class="bar-row"><div class="blab">Skipper</div><div class="track"><span class="fill a5" style="width:61.5%"></span></div><div class="bval">61.5%</div></div>
+    <div class="bar-row"><div class="blab">Elecon</div><div class="track"><span class="fill a3" style="width:59.3%"></span></div><div class="bval">59.3%</div></div>
+    <div class="bar-row"><div class="blab">Azad</div><div class="track"><span class="fill a3" style="width:55.8%"></span></div><div class="bval">55.8%</div></div>
+    <div class="bar-row"><div class="blab">Kaynes</div><div class="track"><span class="fill a1" style="width:53.5%"></span></div><div class="bval">53.5%</div></div>
+    <div class="bar-row"><div class="blab">Syrma SGS</div><div class="track"><span class="fill a1" style="width:42.3%"></span></div><div class="bval">42.3%</div></div>
+    <div class="bar-row"><div class="blab">Anup</div><div class="track"><span class="fill a2" style="width:40.9%"></span></div><div class="bval">40.9%</div></div>
+    <div class="bar-row"><div class="blab">Lloyds Engineering</div><div class="track"><span class="fill a5" style="width:40%"></span></div><div class="bval">40.0%</div></div>
+    <div class="bar-row"><div class="blab">Avalon</div><div class="track"><span class="fill a1" style="width:38.4%"></span></div><div class="bval">~38.4%</div></div>
+    <div class="bar-row"><div class="blab">Praj</div><div class="track"><span class="fill a2" style="width:32.8%"></span></div><div class="bval">32.8%</div></div>
+    <div class="bar-row"><div class="blab">GMM Pfaudler</div><div class="track"><span class="fill a2" style="width:25.2%"></span></div><div class="bval">25.2%</div></div>
+  </div>
+</div>
+
+<p>Market value is moderately concentrated. The three largest by market cap, Syrma (₹32,665 crore), Honeywell Automation (₹28,745 crore) and Jyoti (₹23,227 crore), make up 36.9% of the bucket's ₹2.29 lakh crore; the three largest by revenue, Skipper, Syrma and Honeywell Automation, make up 39.6% of revenue. Thirteen of the fifteen are mid- or small-caps with free floats of 25–60%, which matters for the valuation discussion later: a small float bought by monthly SIP flows can stay expensive for a long time, and can fall fast when institutions leave, as Kaynes' institutional holders did in 2025–26.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Leading a niche is valuable only while the niche is buying. GMM leads Indian glass-lined reactors and Praj leads Indian ethanol technology, yet both earned single-digit or low-teens margins in FY26 because their customers were not spending. In crowded markets, the winners are the specialists that do the hard jobs nobody else can, which is why Anup's exotic-alloy exchangers out-earn many larger fabricators.</p>
+</div>
+</section>
+
+<section class="part" id="p9">
+<div class="part-head"><span class="pno">09</span><h2>Demand written in policy: the schemes behind the order books</h2></div>
+<p class="part-sub">Electronics subsidies, ethanol mandates, the transmission plan and defence lists create demand on a government timetable, and policy timetables overshoot.</p>
+
+<p>A larger share of this bucket's demand is created by policy than in almost any other part of Indian manufacturing. That brings two kinds of risk. The obvious one is that a scheme ends or is delayed. The less obvious one is that a scheme succeeds too well: it attracts so much capacity that the equipment suppliers who built it lose their market once the build-out is done. Ethanol is the clearest Indian example of the second kind, and it is covered in its own deep dive. The table sets out the policies that matter for each archetype.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>The policy stack, by archetype</caption>
+    <thead><tr><th>Area</th><th>Policy</th><th>Size and status</th><th>Who it helps</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Electronics</td><td>PLI for large-scale electronics (2020); PLI for IT hardware 2.0 (2023)</td><td>~₹38,601 Cr incl. extensions; ₹17,000 Cr</td><td>Mostly mobile and IT assemblers; indirect for A1</td></tr>
+      <tr><td class="t-strong">Electronics</td><td>Electronics Component Manufacturing Scheme (ECMS), notified 8 Apr 2025</td><td>Outlay ₹22,919 Cr, reportedly raised to ₹40,000 Cr in Budget 2026-27; 106 projects, ₹69,548 Cr approved by 17 Aug 2026; 38 producing</td><td>Kaynes and Syrma board plants; Dixon, Motherson, Wipro, Foxconn units</td></tr>
+      <tr><td class="t-strong">Electronics</td><td>India Semiconductor Mission (Dec 2021)</td><td>₹76,000 Cr; ~50% central support plus state top-ups</td><td>Kaynes Semicon, Sanand (₹3,300 Cr, inaugurated 31 Mar 2026)</td></tr>
+      <tr><td class="t-strong">Electronics</td><td>RDSS smart-meter programme</td><td>22.23 crore prepaid smart meters sanctioned</td><td>Kaynes, Syrma; receivable-heavy</td></tr>
+      <tr><td class="t-strong">Defence</td><td>DAP 2020, positive indigenisation lists (500+ items), iDEX</td><td>Defence production ₹1.78 lakh Cr in FY26 (+15.6%)</td><td>Azad, Jyoti, Lloyds, Kaynes, Avalon, Elecon (naval gears)</td></tr>
+      <tr><td class="t-strong">Energy</td><td>Ethanol blending (E20 achieved Dec 2025); draft E85/E100 rules (27 Apr 2026)</td><td>Capacity ~1,970 crore litres vs ~1,100 crore litres of E20 fuel demand</td><td>Praj (down-cycle)</td></tr>
+      <tr><td class="t-strong">Energy</td><td>Sustainable aviation fuel indicative mandate; GOBARdhan CBG; Green Hydrogen Mission</td><td>SAF 1% / 2% / 5% by 2027 / 2028 / 2030; GOBARdhan ₹23,731 Cr; NGHM ₹19,744 Cr</td><td>Praj, INOX India (liquid hydrogen), Anup (hydrogen equipment)</td></tr>
+      <tr><td class="t-strong">Power</td><td>National Electricity Plan – Transmission (Oct 2024); TBCB bidding; Green Energy Corridors</td><td>₹9.15 lakh Cr to 2032; 1.91 lakh ckm; 33 GW HVDC</td><td>Skipper; Elecon, Honeywell Automation indirectly</td></tr>
+      <tr><td class="t-strong">Trade</td><td>12% safeguard duty on flat steel (Apr 2025); anti-dumping; RoDTEP; EU CBAM from 1 Jan 2026</td><td>Safeguard extended under a three-year regime (from memory)</td><td>Raises steel input costs for A5 and A2; CBAM affects metal-content exports to the EU</td></tr>
+      <tr><td class="t-strong">Capital goods</td><td>Capital Goods Scheme Phase II (2022); machinery safety QCOs</td><td>Some QCOs deferred</td><td>Jyoti, Elecon</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="chart">
+  <div class="c-title">ECMS approvals: from 7 projects to 106 in ten months</div>
+  <div class="c-sub">Cumulative projects approved under the Electronics Component Manufacturing Scheme. Investment approved: ₹12,704 Cr at 24 projects, ₹54,567 Cr at 46 (Feb 2026), ₹69,548 Cr at 106 (17 Aug 2026), against an original target of ₹59,350 Cr. Source: MeitY via ThePrint (17 Aug 2026), PIB</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Oct 2025</div><div class="track"><span class="fill a1" style="width:6.6%"></span></div><div class="bval">7</div></div>
+    <div class="bar-row"><div class="blab">Second tranche</div><div class="track"><span class="fill a1" style="width:22.6%"></span></div><div class="bval">24</div></div>
+    <div class="bar-row"><div class="blab">Feb 2026</div><div class="track"><span class="fill a1" style="width:43.4%"></span></div><div class="bval">46</div></div>
+    <div class="bar-row"><div class="blab">End-Jul 2026</div><div class="track"><span class="fill a1" style="width:70.8%"></span></div><div class="bval">75</div></div>
+    <div class="bar-row"><div class="blab">17 Aug 2026</div><div class="track"><span class="fill a1" style="width:100%"></span></div><div class="bval">106</div></div>
+    <div class="bar-row"><div class="blab">…of which producing</div><div class="track"><span class="fill gold" style="width:35.8%"></span></div><div class="bval">38</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 106 projects. Projected production ₹5,34,101 Cr and 74,628 direct jobs across 15 states (ministry claims).</span></div>
+</div>
+
+<p>ECMS is the policy that matters most for A1's margin story, because it pays companies to make the components that currently capture most of the bill-of-materials value. By 17 August 2026 it had approved 106 projects with ₹69,548 crore of investment, more than the original target, and 38 were producing. The government claims domestic self-sufficiency of 45% in PCBs, 80% in laminates and 75% in connectors once these are built; those are ministerial projections, not measured shares. Kaynes (boards, and capacitors and laminates) and Syrma (multilayer boards) are among the applicants; their exact approvals were not confirmed for this report.</p>
+
+<div class="chart">
+  <div class="c-title">Who pays for a chip-packaging plant: the subsidy stack</div>
+  <div class="c-sub">INDICATIVE funding split of an India Semiconductor Mission OSAT project such as Kaynes Semicon, Sanand (₹3,300 Cr): ~50% central fiscal support on project cost, ~20% Gujarat state top-up, remainder from the company. Kaynes had received ₹170 Cr of OSAT subsidy by Jul 2026. Source: MeitY scheme terms (from memory), ICICI Direct (11 Aug 2026)</div>
+  <div class="stack-row"><div class="blab">₹3,300 Cr project</div><div class="stack"><span style="width:50%;background:var(--brand)">Central support ~50%</span><span style="width:20%;background:var(--gold)">State ~20%</span><span style="width:30%;background:var(--a1)">Company ~30%</span></div></div>
+  <div class="legend"><span>Subsidies arrive in tranches tied to milestones, so the company funds the gap first: this is one reason Kaynes' net debt rose while its plants were being built.</span></div>
+</div>
+
+<p>Policy money changes the economics of an upstream plant but not its timing. A subsidised chip-packaging plant still runs at low utilisation while customers qualify its output, still depreciates from day one, and still needs working capital. Kaynes' FY27 guidance for chip-packaging plus board revenue was cut to ₹450–500 crore, starting in the third quarter, from an earlier aspiration of about ₹1,000 crore from packaging alone, after "minor timing slippage" from West Asia logistics. Syrma's board plant will draw a 50% capex incentive but is expected to run at 40–50% utilisation and sub-10% EBITDA in its first year.</p>
+<p>The smart-meter programme shows the other side of policy demand: the money is real, but it flows slowly. Meters are installed by an advanced-metering infrastructure provider (AMISP) that is paid over years by state distribution companies. The EMS maker that supplies and services the meters waits at the end of that chain. Kaynes' metering receivables of ₹1,311 crore at June 2026 were more than twice its EMS receivables, and in Q1 FY27 it collected ₹88 crore against ₹240 crore of metering sales. Management is shrinking the business and stopped some supplies over non-payment.</p>
+<p>Defence and transmission policy are steadier. Defence indigenisation lists and procurement preferences give Azad, Jyoti, Lloyds and Kaynes multi-year programmes (Azad delivered an indigenous expendable turbojet engine to DRDO in July 2026). The transmission plan gives Skipper a regulated, formula-priced order stream. Neither is free of risk: defence orders carry two-to-three-year execution and heavier working capital (Elecon flags this), and transmission depends on right-of-way and forest clearances that sit outside any company's control.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>When the government pays half the cost of a factory, more factories get built. That is good for the companies that build or equip them, until enough have been built. The question to ask of every policy-driven order book is what happens to the supplier the year after the target is met. Ethanol answered it for Praj: orders stop, and margins halve.</p>
+</div>
+</section>
+
+<section class="part" id="p10">
+<div class="part-head"><span class="pno">10</span><h2>Can Indian EMS earn more than a pass-through margin? <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">Kaynes, Syrma and Avalon grow at 27–46% a year on 11–16% margins and weak cash conversion. Their valuations assume they climb into components, chip packaging and design. The evidence so far is mixed.</p>
+
+<p>An EMS company's problem is visible in its cost structure. Between ₹65 and ₹78 of every ₹100 of revenue is components it buys and passes through. The value it adds, ₹22–35 of gross margin, has to cover its people, factories and profit. Globally, the companies that capture most of an electronic product's value are the chip, component and brand owners, not the assemblers. India's domestic value addition in electronics has historically been about 15–20%. The bull case for Indian EMS is that the listed companies can move up the stack. The bear case is that each step up costs a lot of capital, takes years to fill, and in the meantime makes the returns worse.</p>
+
+<div class="chart">
+  <div class="c-title">The EMS margin ladder: what each rung earns</div>
+  <div class="c-sub">ILLUSTRATIVE gross-margin (value-add) ranges by EMS business model, %; bar = midpoint. Mobile EMS benchmark from Dixon-type disclosures (from memory); LVHM, ODM and components ranges from company disclosures and dossier §2.6. Components / OSAT margins apply only once plants are utilised</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Mobile / consumer EMS<small>benchmark</small></div><div class="track"><span class="fill ink" style="width:22%"></span></div><div class="bval">8–12%</div></div>
+    <div class="bar-row"><div class="blab">Smart-meter programme EMS</div><div class="track"><span class="fill bad" style="width:40%"></span></div><div class="bval">15–25%</div></div>
+    <div class="bar-row"><div class="blab">Diversified EMS<small>Syrma Q1 FY27</small></div><div class="track"><span class="fill a1" style="width:49%"></span></div><div class="bval">24.5%</div></div>
+    <div class="bar-row"><div class="blab">Build-to-print LVHM</div><div class="track"><span class="fill a1" style="width:66%"></span></div><div class="bval">30–36%</div></div>
+    <div class="bar-row"><div class="blab">Components / OSAT / PCB<small>at utilisation</small></div><div class="track"><span class="fill gold" style="width:70%"></span></div><div class="bval">25–45%</div></div>
+    <div class="bar-row"><div class="blab">EMS + ODM / IP</div><div class="track"><span class="fill spec" style="width:80%"></span></div><div class="bval">35–45%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 50%. Kaynes reported 34.6% for FY26 and 34.4% for Q1 FY27; Avalon 34.7% for Q1 FY27, inside its 33–35% guided band.</span></div>
+</div>
+
+<h3>The three companies have chosen different ladders</h3>
+<p><strong>Kaynes</strong> is climbing the steepest one. Beyond its high-reliability EMS (standalone EMS revenue grew 53% in Q1 FY27), it has built a chip-packaging (OSAT) plant at Sanand, India's second operational semiconductor unit after Micron's, whose first product is intelligent power modules for Alpha &amp; Omega Semiconductor and whose full-scale capacity is about 6.3 million units a day. It is also building a bare-board plant in Chennai. Cumulative spending on the two is about ₹1,200–1,250 crore, with ₹600 crore more planned in FY27 plus ₹250 crore for EMS. Kaynes also bought August Electronics in Canada and runs a smart-meter business that it is now shrinking.</p>
+<p><strong>Syrma</strong> is climbing two ladders at once: design and boards. Its ODM revenue, where it owns the product design, was ₹825 crore in FY26 (up 82%) and about 17% of Q1 FY27 revenue, with a target of about 25%. Its Andhra Pradesh multilayer board plant (phase 1 about ₹400 crore, half funded by a capex incentive) should start commercial production in April 2027. A 60:40 joint venture with Japan's Kaga makes that group's India requirements exclusively. Syrma's weak spot is its consumer mix (about 30% of revenue) at lower margins.</p>
+<p><strong>Avalon</strong> is staying on the build-to-print rung and squeezing it harder. It is "dual-shore": Indian plants earned a 16.7% EBITDA margin in Q1 FY27 while its US plant lost about ₹4 crore. Box builds are 60% of revenue; a leading wafer-fab equipment maker has widened its allocation; aerospace cabin assemblies and Kavach railway systems are moving to volume. Its fixed assets turn over about 8–10 times a year, against 2–3 times at Kaynes and Syrma. It targets ₹3,200 crore of revenue by FY29, double FY26.</p>
+
+<div class="mini-stats">
+  <div class="ms"><div class="msv">₹1,311 Cr</div><div class="msl">Kaynes' smart-meter receivables, June 2026, out of ₹1,925 Cr in total; EMS receivables were only ₹613 Cr</div></div>
+  <div class="ms red"><div class="msv">−690 bp</div><div class="msl">Fall in Kaynes' gross margin in Q1 FY27, to 34.4%, as component prices rose 30–35%</div></div>
+  <div class="ms gold"><div class="msv">13%</div><div class="msl">Kaynes' FY26 ROCE (screener), down from 22% in FY23 as upstream plants were built</div></div>
+</div>
+
+<h3>What the climb has cost so far</h3>
+<p>The upstream assets turn over less than once a year in their early years, so return on capital falls before it rises. Kaynes' ROCE fell from 22% in FY23 to 13% in FY26; its company-defined "adjusted" ROCE was 11.6% on a rolling twelve months to June 2026, against 15.8% a year earlier. Depreciation more than doubled in Q1 FY27 (₹37 crore against ₹15.6 crore) and finance cost rose 31%, so a quarter in which revenue rose 40% delivered a 24% fall in profit. Other income, mostly treasury income on money raised, was ₹154 crore in FY26, about 27% of EBITDA. And cash went the wrong way: FY26 operating cash flow was −₹600 crore and free cash flow −₹1,841 crore, funded by a share placement and debt. Working capital rose to 163 days on the company's rolling measure, from 122 a year earlier.</p>
+
+<div class="chart">
+  <div class="c-title">Where Kaynes' receivables are stuck</div>
+  <div class="c-sub">Total receivables including non-current, 30 Jun 2026: ₹1,925 Cr. Metering (smart-meter AMISP counterparties) vs EMS and other. Source: Kaynes Q1 FY27 call (8 Aug 2026), ICICI Direct note (11 Aug 2026)</div>
+  <div class="stack-row"><div class="blab">₹1,925 Cr receivables</div><div class="stack"><span style="width:68.1%;background:var(--bad)">Metering ₹1,311 Cr (68%)</span><span style="width:31.9%;background:var(--a1)">EMS &amp; other ₹614 Cr (32%)</span></div></div>
+  <div class="legend"><span>In Q1 FY27 metering revenue was ₹204 Cr (down 12%), metering sales billed ₹240 Cr and collections only ₹88 Cr. Management targets metering cash-positive by FY27-end and is evaluating restructuring or divesting the metering service portion.</span></div>
+</div>
+
+<p>Syrma and Avalon are less stretched but not clean. Syrma's working capital rose to 71 days in Q1 FY27 from 63 as it built "strategic inventory", and its net cash fell from ₹467 crore to ₹122 crore in one quarter; payable days of about 199 on screener's measure show how much supplier credit funds its growth. Its FY26 cash conversion was 53% of EBITDA, and 33% over three years. Avalon's working capital fell to 117 days from 142, but its FY26 cash conversion was 33%.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">Why a profitable EMS company still needs outside money (ILLUSTRATIVE ₹1,000 Cr company growing 30%)</div>
+  <div class="flow-row">
+    <div class="node a1"><div class="ntag">EBITDA</div><div class="nname">₹140 Cr</div><div class="nwho">14% margin on ₹1,000 Cr revenue</div></div>
+    <div class="arrow op">−</div>
+    <div class="node ink"><div class="ntag">Tax</div><div class="nname">₹24 Cr</div><div class="nwho">25% of ₹95 Cr PBT</div></div>
+    <div class="arrow op">−</div>
+    <div class="node om"><div class="ntag">Capex</div><div class="nname">₹60 Cr</div><div class="nwho">Maintenance plus new lines</div></div>
+    <div class="arrow op">−</div>
+    <div class="node a5"><div class="ntag">ΔNWC</div><div class="nname">₹99 Cr</div><div class="nwho">120/365 × ₹300 Cr of new revenue</div></div>
+    <div class="arrow op">=</div>
+    <div class="node spec"><div class="ntag">Free cash flow</div><div class="nname">−₹43 Cr</div><div class="nwho">Funded by debt or a share issue</div></div>
+  </div>
+  <div class="flow-note">Interest is ignored for simplicity. At 60 days of working capital instead of 120, ΔNWC halves to about ₹49 Cr and free cash flow turns positive at about +₹7 Cr. Working-capital days, not margin, decide whether growth pays for itself.</div>
+</div>
+
+<h3>What would prove the climb is working</h3>
+<p>The test is four numbers moving together, not revenue growth on its own. Gross margin should hold above 33% for high-mix work through a component cycle, showing that pass-through clauses work. Fixed-asset turnover should recover from about 2× towards 3–4× as the packaging and board plants fill. Working capital should fall back below 100 days at Kaynes, with metering receivables declining in absolute rupees. And operating cash flow should reach at least 50–70% of EBITDA over a rolling three years. None of the three companies meets all four today; Avalon comes closest on asset turns and margin trend, Syrma on working capital, and Kaynes on none.</p>
+<p>There are also non-financial tests. Kaynes' disclosure credibility was questioned in December 2025, when a Kotak Institutional Equities note flagged related-party transactions missing from its standalone accounts, goodwill and intangible accounting and a rise in contingent liabilities. The company called the omissions inadvertent and rectified them, and denied an auditor change; these details come from press reports and were not verified from the exchange filing for this report. Institutions sold anyway: foreign holdings fell from 10.7% to 5.8% and domestic institutions from 22.4% to 11.8% between June 2025 and June 2026, while the number of retail shareholders doubled. The stock trades at ₹3,290 against a 52-week high of ₹7,140.</p>
+
+<div class="chart">
+  <div class="c-title">EMS working capital: three companies, three trajectories</div>
+  <div class="c-sub">Net working-capital days, company definitions, Jun 2026, with a year earlier in brackets. Kaynes = rolling 12 months; Syrma = company NWC; Avalon = trailing-quarter annualised, net of advances. Definitions differ, so compare trends rather than levels. Source: Q1 FY27 decks and calls</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Kaynes</div><div class="track"><span class="fill bad" style="width:90.6%"></span></div><div class="bval">163 (122)</div></div>
+    <div class="bar-row"><div class="blab">Avalon</div><div class="track"><span class="fill a1" style="width:65%"></span></div><div class="bval">117 (142)</div></div>
+    <div class="bar-row"><div class="blab">Syrma SGS</div><div class="track"><span class="fill a1" style="width:39.4%"></span></div><div class="bval">71 (69)</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 180 days. The dossier's "good" threshold for EMS is under 60 days; 60–100 is average.</span></div>
+</div>
+
+<p>The valuation gap with global peers puts the debate in perspective. Listed high-mix EMS companies abroad (Kitron, Scanfil, Plexus, Benchmark, Kimball, SVI) trade at roughly 12–25 times earnings, from memory of recent data. Kaynes trades at 64 times, Syrma at 88 and Avalon at 114. Part of the premium pays for India's growth runway: the three companies together hold perhaps a tenth of an addressable high-mix pool that is itself growing fast. The rest assumes the climb into components and design succeeds, and on the evidence to date that assumption is not yet earned.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Assembling other people's circuit boards is a decent but thin business: you keep a few rupees in a hundred, and you need lots of cash to hold stock and wait for customers to pay. Making the boards and chips yourself pays better once the factory is full, but filling it takes years and the factory eats cash meanwhile. Kaynes is in the middle of that wait, with a smart-meter business that eats even more. The share price has already halved on that reality.</p>
+</div>
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Watch four numbers each quarter: gross margin above about a third, factories turning over at least three times their cost in revenue, working capital under about a hundred days, and cash from operations at least half of operating profit. When an EMS company shows all four for a year, its premium is earned. Until then it is borrowed.</p>
+</div>
+</section>
+
+<section class="part" id="p11">
+<div class="part-head"><span class="pno">11</span><h2>The airfoil bottleneck: Azad and the race for qualified capacity <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">The world's gas-turbine and jet-engine makers are short of qualified parts suppliers. Azad sells that scarcity at a 37% margin, and the market prices it at 139 times earnings.</p>
+
+<p>For most of the past decade the constraint in aerospace and power generation was demand. Since 2024 it has been supply: castings, forgings and machined airfoils. Airlines have more aircraft on order than engine makers can deliver; utilities and data-centre developers want more gas turbines than turbine makers can build. When an industry is short of parts, the suppliers that already hold qualifications are in an unusually strong position. They are not easy to replace, because qualifying a new supplier for a turbine blade takes one to three years of first-article inspection, special-process approvals and testing.</p>
+
+<div class="chart">
+  <div class="c-title">GE Vernova's gas-turbine output plan: half as much again by 2030</div>
+  <div class="c-sub">Planned annual gas-turbine output capacity, GW per year. Gas equipment backlog plus slot reservations: 100 GW (Q1 2026) → 116 GW (Q2 2026) → target ≥125 GW by end-2026. Source: GE Vernova 8-K, Q2 2026 (22 Jul 2026)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q3 2026 run-rate</div><div class="track"><span class="fill a3" style="width:66.7%"></span></div><div class="bval">20 GW</div></div>
+    <div class="bar-row"><div class="blab">2028</div><div class="track"><span class="fill a3" style="width:80%"></span></div><div class="bval">24 GW</div></div>
+    <div class="bar-row"><div class="blab">2030</div><div class="track"><span class="fill a3" style="width:100%"></span></div><div class="bval">30 GW</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 30 GW. From one OEM alone, this implies roughly 50% more airfoil and rotor demand a year by 2030 (dossier estimate). Siemens Energy and MHI are expanding similarly.</span></div>
+</div>
+
+<h3>Azad's dedicated-plant model</h3>
+<p>Azad machines turbine and compressor airfoils (blades and vanes), rotor components and structural aero parts from superalloy and titanium forgings for GE Vernova, Siemens Energy, Mitsubishi Heavy Industries, Baker Hughes, Rolls-Royce, Honeywell, Pratt &amp; Whitney Canada and Arabelle (EDF's nuclear-turbine arm). About 93% of FY26 revenue was exported; 81.5% came from energy and oil and gas, 17.2% from aerospace and defence. Its distinctive feature is that each major customer gets a dedicated plant at the Tunikibollaram site near Hyderabad, built against a long-term contract (LTCPA) that fixes volumes and prices over many years. Four dedicated plants have been inaugurated: MHI (March 2025), GE Vernova Steam (April 2025), Siemens Energy (September 2025) and Baker Hughes (April 2026). Management says eight dedicated plants at full utilisation could generate about ₹150–180 crore each, roughly ₹1,200 crore in all.</p>
+<p>The named contracts include GE Vernova (US$112 million plus US$53.5 million), Siemens Energy (US$90 million), MHI (US$83 million over five years, plus an eight-year single-source contract for hot-section nozzle vanes), Arabelle (US$40 million) and Honeywell (US$16 million, phase one), with life-of-programme agreements at Rolls-Royce and Pratt &amp; Whitney Canada and a ₹52.7 crore BHEL rate contract filed on 12 October 2026. Management describes a rolling contract book of about ₹6,500 crore: more than US$400 million in energy, about US$200 million in aerospace and defence and about US$100 million in oil and gas. That is roughly ten times trailing revenue, but it is contract value, not a firm backlog that can be executed on demand.</p>
+
+<div class="chart">
+  <div class="c-title">Azad's revenue: from ₹341 crore to a ₹1,200 crore plant potential</div>
+  <div class="c-sub">Consolidated revenue, ₹ Cr. TTM = Jul 2025–Jun 2026. "Site potential" = management's indication of eight dedicated plants × ₹150–180 Cr at full utilisation (not guidance, no date). Source: Azad Q1 FY27 deck and call, screener.in</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill a3" style="width:28.4%"></span></div><div class="bval">341</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill a3" style="width:38.1%"></span></div><div class="bval">457</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill a3" style="width:50.3%"></span></div><div class="bval">603</div></div>
+    <div class="bar-row"><div class="blab">TTM Jun-26</div><div class="track"><span class="fill a3" style="width:53.2%"></span></div><div class="bval">638</div></div>
+    <div class="bar-row"><div class="blab">New-site potential<small>8 plants, management</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~1,200</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹1,200 Cr. Guidance is "over 25%" revenue growth a year on a multi-year basis, with EBITDA margin guided conservatively at 32–35% against 37% delivered.</span></div>
+</div>
+
+<h3>Why the revenue lags the capex</h3>
+<p>A dedicated plant does not produce revenue the day it opens. Each part number must be qualified at that plant, then volumes ramp as the customer releases orders. Azad spent about ₹900 crore of capex over FY25–26 and capitalised ₹392 crore in FY26, with ₹257 crore still in progress at March 2026, but management says the new plants' ramp-up will show from the second half of FY27. Meanwhile the costs arrive on schedule. Standalone depreciation rose 86% and finance cost 79% in Q1 FY27; pre-tax profit fell 5.5%; and net profit rose 19.5% only because the tax rate dropped to 9.3% from 29.3%.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The precision-parts J-curve: ILLUSTRATIVE new ₹300 Cr dedicated plant</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Year 0</div><div class="nname">Build: ₹300 Cr capex</div><div class="nwho">Plant, 5-axis machines, special-process lines. Depreciation starts on commissioning.</div></div>
+    <div class="arrow">→</div>
+    <div class="node a5"><div class="ntag">Year 1</div><div class="nname">Qualify: ~₹60 Cr revenue</div><div class="nwho">First-article parts; ~₹50 Cr of fixed cost; EBITDA ~₹0–10 Cr.</div></div>
+    <div class="arrow">→</div>
+    <div class="node a2"><div class="ntag">Years 2–3</div><div class="nname">Ramp</div><div class="nwho">Part numbers released one by one; inventory of superalloy builds ahead of revenue.</div></div>
+    <div class="arrow">→</div>
+    <div class="node a3"><div class="ntag">Years 3–4</div><div class="nname">Mature: ₹360 Cr revenue</div><div class="nwho">1.2× fixed-asset turns at a 35% margin = ₹126 Cr EBITDA.</div></div>
+  </div>
+  <div class="flow-note">Group ROCE dips until the newest plants mature. At maturity, ₹126 Cr of EBITDA less ~₹25 Cr of depreciation is a pre-tax return of about a third on the ₹300 Cr plant alone, and about 16–20% once 200–340 days of working capital (₹200–330 Cr) are added; in year 1 it is negative. Illustrative arithmetic from dossier §C.</div>
+</div>
+
+<h3>The working-capital problem</h3>
+<p>Azad's cash profile is the weakest part of its case. On a sales basis its FY26 inventory was ₹329 crore (199 days of revenue) and receivables ₹312 crore (189 days), against payables of ₹85 crore (51 days): about 337 days of net working capital. Screener's own cash-conversion-cycle figure of 1,720 days is an artefact of the company's tiny material-cost base, which inflates inventory and payable days measured against material cost; working-capital days of about 304 are the usable screener measure. Superalloy forgings are stocked six to twelve months ahead under the long-term contracts, and qualification parts sit as work in progress. FY26 operating cash flow was −₹119 crore, free cash flow −₹691 crore, and the company moved from net cash of ₹434 crore in FY25 to net debt of ₹272 crore at March 2026, after a ₹700 crore share placement. The CFO targets about 200 days of working capital in H1 FY27 and 160–180 days by H2, mainly by cutting debtor days from 170–180 to about 90 through bill discounting. That moves receivables off the balance sheet in exchange for a financing charge; it does not change how long the customer takes to pay.</p>
+
+<div class="chart">
+  <div class="c-title">Azad's FY26 working capital, in days of revenue</div>
+  <div class="c-sub">Sales-basis days: balance ÷ FY26 revenue (₹603 Cr) × 365. Inventory ₹329 Cr, receivables ₹312 Cr, payables ₹85 Cr. Net ≈ 337 days. Source: screener.in balance-sheet schedule, dossier calculation</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Inventory</div><div class="track"><span class="fill a3" style="width:55.3%"></span></div><div class="bval">199 d</div></div>
+    <div class="bar-row"><div class="blab">Receivables</div><div class="track"><span class="fill a3" style="width:52.5%"></span></div><div class="bval">189 d</div></div>
+    <div class="bar-row"><div class="blab">less Payables</div><div class="track"><span class="fill ink" style="width:14.2%"></span></div><div class="bval">−51 d</div></div>
+    <div class="bar-row"><div class="blab">Net working capital</div><div class="track"><span class="fill bad" style="width:93.6%"></span></div><div class="bval">~337 d</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 360 days, about a year of revenue tied up. Elecon, the cleanest A3 member, runs at about 74 days.</span></div>
+</div>
+
+<h3>Who else in the bucket sells into the bottleneck</h3>
+<p>Azad is the purest play, but not the only one. Jyoti CNC's 5-axis and turn-mill machines, including those from its French subsidiary Huron Graffenstaden, sell to aerospace and defence machine shops; that segment is 38% of its ₹4,848 crore order book, though export-control licences on Huron machines have slowed shipments. INOX India holds AS9100D aerospace certification and builds very large cryogenic tanks for a US private space company. Anup has begun nuclear and thermal-power heat exchangers. All three benefit from the same shortage of qualified Western capacity, without Azad's single-sector concentration.</p>
+<p>The bull and bear case for Azad can be stated with numbers. For the bull: an ₹6,500 crore contract book, four plants built and four more planned, customers that control about 75% of the global gas-turbine market, a 37% margin and a move into complete engines (the DRDO turbojet; a GTRE turbo-gas-generator contract). For the bear: a few customers dominate revenue; FY26 cash flow was negative; return on equity is about 9% after the placement; the stock trades at 139 times trailing earnings and about 81 times EV/EBITDA; and on the reverse-DCF arithmetic used in this report, earnings would need to compound at about 33% a year for ten years just to earn a 12% return at a 25× exit multiple. Additive manufacturing could, over ten to fifteen years, replace some machined parts. The scarcity is real, and the price already reflects a lot of it.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Turbine makers are sold out for years and cannot build faster than their suppliers. A blade maker that already holds the approvals is hard to replace, so it earns a fat margin. But every new plant takes two or three years to qualify, during which it costs money and earns little, and the metal has to be bought a year in advance. Azad's profits are excellent; its cash flow is negative; its share price assumes both the growth and the cash arrive on time.</p>
+</div>
+</section>
+
+<!--CONTINUE-->
+</main>
+</div>
+</div>
+</body>
+</html>
