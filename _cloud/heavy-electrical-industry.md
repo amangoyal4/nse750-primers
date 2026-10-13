@@ -90,3 +90,432 @@ History of material cost (TARIL) 80% FY15–16 → 82% FY22 (commodity spike, fi
 - Hitachi Energy India related-party (FY25 annual report p.277): royalty & technology fees ₹254.75 cr (FY25) vs ₹190.71 cr (FY24) — ≈4.0% of FY25 sales of ₹6,385 cr [E]; IT/engineering/management fees to Hitachi Energy Ltd ₹85.63 cr (≈1.3%); purchases from group ₹854.96 cr; sales/income from group ₹1,421.04 cr (≈22% of revenue; Hitachi Energy USA ₹372 cr, Sweden ₹200 cr). [V] https://ar-fy25.india.hitachienergy.com/files/basic-html/page277.html
 - Global valuations (companiesmarketcap.com, Oct-2026) [V]: GE Vernova P/E 28.2x, m-cap US$264 bn; Siemens Energy AG P/E 44.1x, US$136 bn; Hitachi Ltd P/E 38.0x, US$162 bn; HD Hyundai Electric P/E 29.3x, US$15 bn. Indian listed subsidiaries trade at 73–114x trailing (Hitachi Energy India 114x, GE Vernova T&D 79x, Siemens Energy India 73x) [V screener] — a 2–3x premium to their parents.
 - IEA World Energy Investment 2026 (released 28-May-2026): global energy investment ~US$3.4 trn (+5%); grid investment ~US$550 bn (+~20%); BESS ~US$110 bn (+35%). [V] Industrial Info (https://www.industrialinfo.com/iirenergy/industry-news/article/iea-global-energy-capex-to-grow-5-to-us34-trillion-in-2026--358576). Rystad's US$650 bn "grid capex" (+5%) uses a broader definition — both cited; IEA preferred for consistency. IEA "Building the Future Transmission Grid" (Feb-2025): up to 4 years for large power transformers, 2–3 years for cables; lead times roughly doubled since 2021 [K — IEA page 403 on fetch].
+
+### 0.7 CEA year-wise physical additions — [V] CEA "Transmission Lines Completed During FY" (trans2) and "Sub-Stations Completed During FY" (trans7) March reports, fetched from National Power Portal (npp.gov.in/public-reports/cea/monthly/transmission/tl|tc/<year>/MAR/...)
+| FY | Lines added (ckm, 220 kV+) | Substation capacity added (MVA, 220 kV+ AC incl. HVDC terminals where listed) | Of which 765 kV MVA | 800 kV HVDC MVA |
+|---|---|---|---|---|
+| FY15 | 21,643 | 67,154 | 38,500 | — |
+| FY16 | 27,942 | 62,659 | 19,650 | 1,500 |
+| FY17 | 26,792.5 | 83,916 | 27,150 | 4,500 |
+| FY18 | 23,038 | 86,593 | 23,300 | 3,000 |
+| FY19 | 22,437 | 72,705 | 20,500 | — |
+| FY20 | 11,664 | 68,230 | 19,500 | 3,000 |
+| FY21 | 16,750 | 57,575 | 7,700 | 3,000 (+1,000 at 320 kV VSC) |
+| FY22 | 14,895 | 78,982 | 18,500 | 3,000 (+1,000 at 320 kV) |
+| FY23 | 14,625 | 75,902 | 19,500 | — |
+| FY24 | 14,203 | 70,728 | 18,000 | — |
+| FY25 | 8,830 | 86,433 | 21,000 | — |
+| FY26 | 12,139 | 1,13,013 | 54,000 | — |
+FY26 detail: lines 765 kV 5,111 ckm, 400 kV 3,064, 230 kV 46, 220 kV 3,918; by owner central 4,801 / state 5,280 / private 2,058 [V]. Substations FY26: 765 kV 54,000 MVA (central 49,500, private 4,500); 400 kV 34,860 (central 12,185, state 13,645, private 9,030); 220 kV 23,133 (state 22,653) [V]. FY25 lines by voltage: 765 kV 2,158; 400 kV 2,954; 230 kV 66; 220 kV 3,652. FY24: 765 kV 2,119; 400 kV 6,088; 230 kV 489; 220 kV 5,507. FY16: 800 kV HVDC 3,506; 765 kV 5,601; 400 kV 11,005; 220 kV 7,677. (CEA's later "growth summary" slightly restates early years: FY15 22,101; FY16 28,114; FY17 26,300; FY18 23,119 — [K] via search; the March-report values above are as-published.)
+Key read: line additions fell from a 27–28k ckm peak (FY16–17) to 8.8k ckm (FY25), while MVA additions rose to a record 1.13 lakh MVA in FY26 — the equipment intensity of each km has jumped (more 765 kV + substation-heavy RE pooling, ICT augmentation), which is why transformer/GIS makers boomed even as line km stagnated. MVA per ckm: FY16 2.2; FY20 5.8; FY24 5.0; FY25 9.8; FY26 9.3 [E, arithmetic].
+FY27 YTD: 35,670 MVA in Apr–Jul 2026 vs FY27 target 1,58,339 MVA [V, IANS/Outlook]. FY26 line target 15,382 (achieved 12,139 = 79%); MVA target 1,26,007 (achieved 1,13,013 = 90%).
+
+### 0.8 RE evacuation bottleneck / execution
+- ICRA (Ankit Jain, 8-Jul-2026): of TBCB projects commissioned by Mar-2026, only 12% met SCOD; rest delayed 2 months–3 years, median >10 months; land/RoW/regulatory approvals the main hurdles; sector capex ₹5–6 lakh cr FY27–FY32. [V] Outlook Business (https://www.outlookbusiness.com/news/power-transmission-projs-to-face-execution-risks-on-land-acquisition-regulatory-approval-challenges-icra).
+- Crisil Ratings (19-Mar-2026): 35–37 GW RE at high curtailment risk in FY27; ~20 GW new ISTS-connected RE expected FY27, much under T-GNA; T-GNA projects saw ~39% curtailment Nov-2025–Feb-2026; Rajasthan+Gujarat ~45% of RE capacity, ~50% curtailment for 13–14 GW under T-GNA; 50% curtailment for 12 months cuts equity IRR up to 150 bp. [V] Power Peak Digest (https://powerpeakdigest.com/crisil-flags-curtailment-risk-for-35-gw-renewable-capacity/). ICRA: ~33% of 54.8 GW recently commissioned RE evacuated via T-GNA (May-2026) [K, snippet]; Ember: 20 GW RE facing >4-month connectivity delays FY27 [K, snippet].
+- Demand: Parliament reply (MoS Shripad Naik): peak demand 289 GW FY27 → 388 GW FY32; AI data centres may add 26.3 GW of demand by FY32 (vs MoP's 13.56 GW estimate of Mar-2026); India DC capacity 2.2 GW (2025) → 12 GW (2030) per Wood Mackenzie. [V] 5paisa (https://www.5paisa.com/news/ai-data-centres-may-add-263-gw-to-indias-power-demand-by-fy32).
+- MoP order No. 25-11/6/2018-PG dated 2-Jul-2020: all imported power-system equipment/components to be tested in India for malware/trojans and Indian Standards in MoP-designated labs; imports from "prior reference" countries (China, Pakistan by DoE definition) need prior GoI permission. [V] https://tenders.bhel.com/sites/default/files/14-mop-circular-dt-02-07-2020-1604039710.pdf. Companion 23-Jul-2020 order: phased indigenisation, "Approved List of Models and Manufacturers" [K].
+- IEEMA letter 16-Apr-2021 (CRGO crisis): price-variation weights in transformer PV formula — copper 29%, CRGO 23%, steel plates 9%; copper ₹4,51,043/t (Jan-20) → ₹6,85,347/t (Mar-21); CRGO ₹2,93,500 → ₹3,54,500/t; steel plates ₹39,733 → ₹56,747/t; CRGO imports 2,88,618 t (FY19) → 2,16,173 t (FY20) → 1,42,920 t (Apr–Jan FY21); mills cut India allocations 50–60% shifting to CRNO for EVs; fixed-price contracts without PV became "unviable". [V] https://ieema.org/wp-content/uploads/2020/07/IEEMA-Representation-on-CRGO-crisis.pdf
+- BHEL FY2010-11 (peak of the first cycle): turnover ₹43,337 cr (+27%), PAT ₹6,011 cr (+39%), PBT ₹9,006 cr, order inflow ₹60,476 cr, order book >₹1,64,000 cr; capacity 15,000 MW/yr being expanded to 20,000 MW/yr. [V] https://www.bhel.com/bhel-accelerates-growth-momentum-2010-11-achieves-27-cent-jump-topline-bottomline-surges-39-cent. Contrast FY26: revenue ₹33,782 cr, PAT ₹1,600 cr — nominal revenue still ~22% below FY11 fifteen years later.
+- Triveni Turbine Q1FY27 (PL 12-Aug-2026): revenue +19.2% to ₹443 cr; EBITDA margin 11.6% (−823 bp; gross margin 42.6%, −961 bp) on adverse mix, low-margin strategic NTPC CO₂ order, 3–4x freight; orders ₹568 cr (+6%): exports +53.4% to ~₹380 cr, domestic −35.4% to ~₹180 cr; order book ₹2,180 cr; "Domestic enquiry generation has softened across industries, with longer order finalisation cycles". [V] https://plindia.com/ResReport/TRIV-12-8-26-PL.pdf. Thermax booked >₹400 cr boiler pressure-parts order for a US data-centre project in Q1FY27 [K, The Machine Maker snippet].
+- GE Vernova T&D corporate history [V] IIFL (https://www.indiainfoline.com/company/ge-vernova-td-india-ltd/summary): incorporated 1957 as English Electric Co. of India; ALSTOM T&D India (1993); ALSTOM Ltd (1998); Areva T&D India (23-Sep-2005; Areva bought Alstom's 66.35% in 2005); ALSTOM T&D India (31-Jan-2012, after Alstom/Schneider split of Areva T&D in 2010); GE acquired Alstom's stake 2-Nov-2015 (global Alstom energy deal); GE T&D India (2-Aug-2016); GE Vernova T&D India (16-Oct-2024).
+- ABB Power Products & Systems India demerged from ABB India w.e.f. 1-Dec-2019, listed on BSE/NSE 30-Mar-2020; Hitachi completed 80.1% of ABB Power Grids 1-Jul-2020 (100% by 2022) → Hitachi ABB Power Grids → Hitachi Energy India [V listing per Hitachi Energy press release, https://www.hitachienergy.com/news-and-events/press-releases/2020/03/abb-s-power-grids-business-announces-listing-of-indian-arm-on-bs; parent deal dates K].
+- Siemens Energy India: NCLT approval 26-Mar-2025; record date 7-Apr-2025; 1:1 share entitlement; spin-off effective 14-Apr-2025 [K, Business Standard/Marketscreener snippets]; listed on BSE/NSE 19-Jun-2025 [K]. Siemens Ltd switched financial year from Sep to Mar (18-month period to Mar-2026) [V screener].
+
+---
+# PART I — SYNTHESIS
+
+## 1. Executive summary (industry)
+- India's heavy electrical equipment (HEE) sub-sector — power/distribution transformers, reactors, switchgear and GIS, HVDC/FACTS systems, boilers-turbines-generators (BTG), industrial steam turbines and generators — is in the strongest demand cycle since 2008–12, but this time it is led by **transmission and substations**, not generation. CEA data show substation capacity added hit a record **1,13,013 MVA in FY26** (vs 67,154 MVA in FY15 and 70,728 MVA in FY24), while line km added (12,139 ckm in FY26) is still less than half the FY16–17 peak of ~27–28k ckm [V CEA/NPP]. Each km of new line now carries ~9–10 MVA of transformation vs ~2–6 MVA a decade ago — so transformer, reactor, GIS and HVDC makers have seen a far bigger boom than the line-km numbers suggest.
+- The plan pipeline is long: NEP-Transmission (Oct-2024) envisages >1.91 lakh ckm, 1,270 GVA and 33 GW of HVDC bipoles by FY32 for >₹9.15 lakh cr [V]; the newer CEA plan for FY27–FY36 (900+ GW non-fossil) adds ~₹7.9 lakh cr of transmission capex [V PL]. PGCIL alone has ₹1.75 lakh cr of works in hand and a >₹1.19 lakh cr bidding pipeline (Aug-2026) [V].
+- Thermal generation has returned: India needs a minimum 97 GW of new coal/lignite capacity to reach ~307 GW by FY35; 39.5 GW is under construction and 22.9 GW awarded (Mar-2026) [V]. BHEL — the near-monopoly domestic BTG supplier — booked a record ₹92,535 cr of orders in FY25 [K] and ~₹75,900 cr in FY26 [V], and has an order book of ~₹2.6 lakh cr (7.2x TTM revenue) after Q1FY27 [V PL].
+- The economics flipped in 2023–26. Listed T&D makers went from single-digit margins and sub-10% ROCE (FY21–23) to 15–28% EBITDA margins and 23–77% ROCE (FY26) [V screener]: pricing power returned when lead times stretched (765 kV transformers 20–24 months in India [V MoP via IANS]; 2–4 years for large units globally [V Rystad; K IEA]), advances funded working capital, and MNC subsidiaries became export hubs for their parents.
+- 2026 brought the first signs of normalisation: four China-linked OEMs (TBEA, Nanjing Electric, New Northeast Electric, Taikai) got a two-year exemption (from 24-Jun-2026) to bid in central PSU tenders for EHV transformers and GIS [V]; PGCIL says transformer/GIS pricing and availability are "easing" [V PL]; domestic TBCB ordering was soft in Jan–Mar 2026 and GE Vernova T&D flagged "lower realisations in the TBCB market" [V PL]; Rystad sees global lead times and prices plateauing [V]. Meanwhile copper is ~39% higher YoY (2026 YTD) [V] and India still imports ~90% of its CRGO [V GTRI] — the margin squeeze risk is real for fixed-price domestic makers.
+- Valuation is the crux: the 13 listed members are worth ~₹7.97 lakh cr [E from V screener]; Indian MNC subsidiaries trade at 73–114x trailing earnings vs 28–44x for their global parents [V]. The investment debate is no longer "is there demand" but "how long do supernormal margins and negative working capital last once supply catches up".
+
+## 2. Industry primer (checklist §2)
+
+### 2.1 What the sub-sector does and the value chain
+**Products.** (i) *Transmission & distribution (T&D) equipment*: power transformers (≥10 MVA; 66–765 kV and HVDC converter transformers), shunt reactors, distribution transformers (≤2.5 MVA at 11–33 kV), instrument transformers, air-insulated and gas-insulated switchgear (AIS/GIS), circuit breakers, bushings, surge arresters, protection & control, SCADA/substation automation, FACTS (STATCOMs, SVCs, series capacitors, synchronous condensers) and HVDC converter stations (LCC thyristor and VSC/IGBT). (ii) *Generation equipment*: boilers, steam/gas/hydro turbines and generators (BTG) for utility plants (BHEL; Siemens Energy India for industrial/utility steam turbines; Triveni Turbine for ≤100 MW industrial steam turbines; TD Power for generators/motors; Thermax for industrial boilers, WHR, utility FGD/EPC).
+**Value chain (upstream → downstream).** Raw materials (copper rod/strip, CRGO electrical steel, transformer oil, structural steel, aluminium, SF6/insulating gas, epoxy, porcelain/polymer, semiconductors for HVDC/FACTS) → components (bushings, on-load tap changers, radiators, CTs/VTs, thyristor/IGBT valves, control & protection) → **equipment OEMs** (the listed universe) → EPC/substation integrators (often the same OEMs, plus Kalpataru, KEC, L&T, Tata Projects) → **asset owners** (PGCIL, TBCB developers such as Adani Energy Solutions, Sterlite/Resonia, Tata Power, IndiGrid; state transcos; discoms; NTPC/state gencos; private industry and data-centre developers) → regulated tariffs (CERC/SERC) or competitive annual transmission charges.
+**Where value is captured.** (a) *Technology-gated nodes* — HVDC converter stations, 765 kV/±800 kV transformers and reactors, GIS ≥400 kV, STATCOMs — have few qualified suppliers (Hitachi Energy, Siemens Energy, GE Vernova, BHEL in consortia; Chinese entrants only via Indian plants), so margins are highest (GE Vernova T&D FY26 EBITDA 28%; Siemens Energy India ~20–24%) [V]. (b) *Qualified transformer makers* (TARIL, Atlanta, Voltamp, CG Power, Shilchar, Indo Tech, BHEL, plus MNCs) capture conversion value on a ~70% materials base; margin depends on pricing discipline and PV clauses (EBITDA 15–19% FY26) [V]. (c) *EPC/BTG integrators* (BHEL, Thermax) carry large labour, sub-contract and erection costs and long cycle working capital — structurally lower margins (BHEL 8%, Thermax 10%) [V]. (d) *Asset owners* earn regulated or bid returns (PGCIL EBITDA ~85%, but asset-heavy) — outside this sub-sector but the main customer. (e) Royalties and group sourcing move a slice of value to MNC parents (Hitachi Energy India paid ~4.0% of sales as royalty/technology fees and ~1.3% as IT/management fees in FY25 [V AR]).
+
+### 2.2 Size and growth
+- **Broad electrical-equipment industry (IEEMA).** Domestic power-equipment production FY23 ≈ **₹2.6 lakh cr / US$33 bn** (+18% YoY), ~45% of capital goods, 6.8% of manufacturing, ~1% of GDP [V IEEMA]. IEEMA's production growth index rose ~17% in FY24 (quarterly 18.0/16.0/13.9/21.0) and 14.0% in FY25 [V]; 9MFY26 slowed to 11.7/16.4/8.8 by quarter [V]. Rolling these forward gives FY25 ≈ ₹3.4–3.5 lakh cr (~US$40 bn) and FY26 ≈ ₹3.8–4.0 lakh cr (~US$45 bn) [E — index is volume-weighted, not value; treat as order-of-magnitude]. IEEMA's own 2026 interview figure "$60 bn in FY23 incl. services/allied" is a broader definition [K].
+- **Heavy-electrical core (T&D + power-gen equipment), [E].** Transmission: NEP-T ₹9.15 lakh cr over FY23–32 ⇒ ~₹0.9–1.0 lakh cr/yr, of which ~50–60% is equipment (transformers, reactors, GIS, HVDC, protection) ⇒ ~₹50,000–60,000 cr/yr; distribution (RDSS ₹2.83 lakh cr over ~5 years [V IIR]) adds ~₹15,000–20,000 cr/yr of transformers/switchgear/meters; thermal BTG at ~10 GW/yr × ~₹4–5 cr/MW equipment share of ~₹8.75 cr/MW EPC (Meja 3×800 MW EPC ₹21,000 cr [V PL]) ⇒ ~₹40,000–50,000 cr/yr; industrial (turbines, boilers, motors, MV switchgear) ~₹30,000–40,000 cr/yr. Total ≈ **₹1.4–1.7 lakh cr/yr (~US$16–20 bn)** domestic demand in FY26–27 [E]. Cross-check: the 13 listed members' TTM revenue sums to **₹1,05,611 cr** [V screener, arithmetic] (includes Siemens Ltd's non-energy businesses and exports).
+- **Growth.** Eight members with continuous history (Hitachi Energy India, BHEL, GE Vernova T&D, TD Power, Triveni, Atlanta, Voltamp, TARIL) grew revenue from ₹27,654 cr (FY21/CY21) to ₹58,686 cr (FY26) — **16.2% CAGR**; ex-BHEL ~19% CAGR [E, arithmetic on V screener data]. Substation MVA added grew 7% CAGR since FY19 [V IANS]; FY26 MVA +31% YoY [V CEA].
+- **Domestic vs export.** Direct trade data show India is still a modest exporter of finished heavy equipment: FY25 exports of power transformers (HS 850423) ₹1,260 cr, distribution transformers ₹4,130 cr, HV switchgear ₹3,926 cr, motors & AC generators ₹6,015 cr, LT switchgear ₹17,150 cr [V IEEMA/DGCIS]. India's transformer exports were ~US$2.9 bn in 2022 (all HS 8504 incl. static converters/inductors), US the top destination at ~US$0.94 bn [K OEC]. But order-level export intensity at MNC subsidiaries is high: Hitachi Energy India 33.6% of Q1FY27 orders ex-HVDC [V]; GE Vernova T&D 46% of Q1FY27 inflows (export revenue ~30%) [V]; Triveni Turbine 67.6% of Q1FY27 bookings [V]. IEEMA targets US$25 bn of electrical exports by 2030 [K].
+- **India's global share.** Global power-transformer capacity ~4,700 GVA (2025) across ~400 plants [V Rystad]; India's listed transformer capacity is a few hundred GVA (e.g., Atlanta 63 GVA, Siemens Energy India 15→30 GVA (+30 GVA greenfield by 2030–32), BHEL 30 GVA [V/K]) — India is likely ~8–10% of global transformer capacity [E] and a much smaller share of global HVDC/GIS supply. Global grid investment is ~US$550 bn in 2026 (IEA) [V]; India's ~₹1 lakh cr/yr transmission capex (~US$11–12 bn) is ~2% of that [E] — small, but growing faster than the global 6%/yr transmission capex trend [V Rystad].
+
+### 2.3 Demand drivers (with numbers)
+1. **RE evacuation.** 500 GW non-fossil by 2030 and >600 GW by 2032 need 1.91 lakh ckm, 1,270 GVA, 33 GW HVDC, inter-regional capacity 119 → 168 GW [V NEP-T]. FY26 added 38.5 GW of generation in 9M, 100% non-fossil [V IEEMA]. Bottleneck evidence: Crisil sees 35–37 GW RE at curtailment risk in FY27; T-GNA projects curtailed ~39% Nov-25–Feb-26 [V]. This is *demand that is already late*.
+2. **Load growth incl. data centres.** Peak demand 270.8 GW (May-2026) [V]; MoP projects 289 GW FY27 → 388 GW FY32; AI data centres may add 26.3 GW by FY32 [V 5paisa/Parliament reply]. Data centres are already a top order segment for Hitachi Energy India [V] and drive US export orders (CG Power ~₹900 cr US data-centre transformer order [K]; Thermax >₹400 cr US DC boiler pressure parts [K]).
+3. **Thermal base-load.** 97 GW coal/lignite to FY35; 39.5 GW under construction, 22.9 GW awarded, 24 GW in planning [V]; ~37 GW of plants cross 35 years by FY32 (replacement/R&M) [V ICICI].
+4. **HVDC.** ~21 HVDC projects in the medium-term frame (14 in CEA's 900 GW plan, ~6 Brahmaputra, Sri Lanka) [V PL]; live: Khavda–Nagpur 6 GW (BHEL–Hitachi, 2029), Bhadla–Fatehpur 6 GW (AESL; Hitachi–BHEL), Barmer–South Kalamb (₹24,974 cr, under evaluation), Leh–Kaithal (re-tender) [V/K].
+5. **Distribution and metering.** RDSS ₹2.83 lakh cr [V IIR]; IEEMA growth in meters +73.7% FY25 and +88–97% in H1FY26 [V] — supports distribution transformers, RMUs (+52.9% FY25) and MV switchgear.
+6. **Exports.** US/European transformer shortage: US imports supply 70–76% of large transformers; Europe imports ~42% of power transformers from outside Europe [V Rystad]. Indian subsidiaries are "India for the world" hubs (GE Vernova T&D, Hitachi Energy India) [V PL].
+7. **Industrial capex** (steel, cement, refineries, process) — currently the *weak* leg: Triveni domestic orders −35% in Q1FY27, "domestic enquiry generation has softened across industries" [V PL]; GE Vernova T&D domestic orders −56% [V PL].
+
+### 2.4 Supply side, cost structure, capacity and utilisation
+- **Approval-gated capacity.** "Transformer manufacturing in India is an approval-based market"; new entrants take 2–3 years to become bid-eligible after capex; 220 kV constraint is skilled labour; 765 kV and ±800 kV capacity sits with a short list [V IANS]. PGCIL type-test and vendor approval, CPRI short-circuit testing (Bina) are the gates [V Mercom].
+- **Capacity build-out.** Atlanta 16,000 → 63,060 MVA in 18 months [V]; Siemens Energy India Kalwa 15,000 → 30,000 MVA plus a new ₹2,060 cr / 30,000 MVA greenfield (2030–32) [V ICICI/K]; Hitachi Energy India building its 20th unit (Karjan, Vadodara) [V]; GE Vernova T&D ~₹1,000 cr expansion [V PL]; BHEL transformer capacity 30,000 MVA/yr [K]. Capex intensity: ~₹6.9 lakh per MVA of annual capacity for a greenfield EHV transformer plant [E from V]. Asset turns are high (TARIL fixed assets ₹250 cr vs sales ₹2,507 cr — ~10x gross-block turnover [V screener]).
+- **Utilisation [E].** MVA added on the grid (1.13 lakh MVA FY26 + HVDC 33.5 GVA installed base) vs listed domestic capacity of a few lakh MVA suggests the binding constraint in FY24–26 was *qualified* 400/765 kV capacity and testing slots, not aggregate MVA; distribution-transformer capacity (thousands of small units) is ample and competitive — IEEMA's distribution-transformer index fell 5.6% in Q1FY26 while power transformers grew 21–28% [V].
+- **Lead times.** India: 220 kV 11–15 months, 400 kV ~15 months, 765 kV 20–24 months [V MoP via IANS]; "once 4 to 6 months have stretched to 8 to 15 months" across segments [V Atlanta CMD]. Global: 2–3 years for power transformers/HV breakers in Europe/N. America, >24 months for 100+ MVA, some LPTs 3–6 years [V Rystad]; IEA: up to 4 years for LPTs [K].
+- **Materials.** IEEMA PV weights: copper 29%, CRGO 23%, steel plates 9% of transformer price [V]. Copper +38.6% YoY (2026 YTD avg ~US$13,150/t) [V]; CRGO ~90% imported, 4.0–4.5 lakh t/yr demand vs 40–50k t domestic output; DGTR anti-dumping probe initiated 22-Jun-2026 [V]. Price-variation (PV) clauses on IEEMA indices pass most of this through on PSU orders [V Mercom], but firm-price private/TBCB EPC orders do not — the 2021–22 margin collapse (TARIL material cost 82% of sales FY22; GE T&D OPM −2.9%) is the cautionary precedent [V screener/IEEMA].
+
+#### "Where ₹100 of revenue goes" — three archetypes, FY26 [E composite from V screener expense schedules and P&Ls]
+| Line item (₹ per ₹100 revenue) | A. Domestic transformer maker (TARIL/Atlanta/Voltamp avg) | B. MNC T&D systems/products (Hitachi Energy India/GE Vernova T&D/Siemens Energy India avg) | C. PSU BTG/EPC (BHEL) |
+|---|---|---|---|
+| Copper | ~22 [E: 29% PV weight × ~75% materials share] | ~12 | — |
+| CRGO electrical steel | ~17 | ~8 | — |
+| Steel, oil, insulation, bushings, OLTCs, radiators, other bought-outs | ~25 | ~20 (incl. group-sourced components, power electronics) | ~49 (all materials/bought-outs) |
+| Sub-contracting, erection, power & fuel, freight ("manufacturing") | ~10 | ~20 (incl. Siemens Energy's purchases classed here) | ~22 |
+| **Materials + conversion subtotal** | **~74** | **~60** | **~71** |
+| Employees | ~3 | ~9 | ~19 |
+| Other expenses (royalty/technology fee ~4 for MNCs, warranty, LD provisions, admin, selling) | ~6 | ~10 (of which royalty+IT/mgmt fees ~5) | ~2 |
+| **EBITDA** | **~17** (TARIL 15, Atlanta 19, Voltamp 16) | **~21** (Hitachi 16, GE Vernova 28, SEIL 20) | **~8** |
+| Depreciation | ~1.5 | ~1.3 | ~1 |
+| Interest | ~1.5 (TARIL 2.0; others ~0.3) | ~0.3 | ~3 |
+| Other income | +2 | +2.5 | +2.6 |
+| Tax (~25%) | ~4 | ~5.5 | ~1.6 |
+| **PAT** | **~12** (TARIL 10.8, Atlanta 10.9, Voltamp 14.2) | **~15** (Hitachi 12.1, GE Vernova 19.9, SEIL 14.1) | **~4.7** |
+Notes: composites are simple averages of FY26 (Siemens Energy India FY Sep-25) ratios from screener; copper/CRGO split uses IEEMA's 2021 PV weights scaled to each archetype's materials share — directional only. BHEL's materials 49.2%, manufacturing 22.2%, employee 19.2%, other 1.9% [V].
+
+### 2.5 Industry structure, concentration, unlisted players, imports and China
+- **Segment concentration [E with V anchors].** HVDC: effectively 3 suppliers (Hitachi Energy with BHEL as partner, Siemens Energy, GE Vernova) — oligopoly. 765 kV transformers/reactors: BHEL, Hitachi, Siemens Energy, GE Vernova, TARIL ("only Indian company to qualify on its own for both 765 kV transformers and reactors with PGCIL" — company claim [K]), CG Power, Toshiba TTDI, plus China-linked TBEA/others via Indian plants. 220–400 kV transformers: ~15–20 qualified (Atlanta, Voltamp, Shilchar, Indo Tech, Kotsons, EMCO legacy, Bharat Bijlee, Schneider Infra, etc.). Distribution transformers: fragmented (hundreds of SMEs). GIS ≥400 kV: Hitachi, Siemens Energy, GE Vernova, Toshiba, Hyosung, plus Chinese via Indian plants. BTG: BHEL ~85% share of thermal orders FY17–25 (UBS) [K]; other qualified BTG makers (L&T-MHI, Toshiba-JSW, Doosan, GE-Alstom Bharat Forge legacy JVs) largely dormant after 2015 [K].
+- **Unlisted/other listed peers outside the 13** (context): CG Power (listed, in a different sub-sector bucket), Toshiba Transmission & Distribution Systems India, Hyosung India, TBEA Energy India, Shilchar, Indo Tech, Kirloskar Electric, Bharat Bijlee, ABB India (LV/MV, motors, automation — ABB's power-grid business left with Hitachi), L&T (EPC), Kalpataru/KEC (EPC).
+- **MNC listed subsidiaries vs domestic makers.** MNCs (Hitachi Energy 71.3% parent, Siemens Energy India 75%, Siemens Ltd 75%, GE Vernova T&D 51%, Schneider Infra 75% [V screener]) own the technology, sell high-voltage systems, and plug into parents' export order books; they pay royalties (~4% for Hitachi [V]) and buy components from the group (Hitachi: ₹855 cr purchases, ₹1,421 cr sales with group in FY25 [V]). Domestic makers (TARIL, Atlanta, Voltamp, Quality Power, TD Power, Triveni, BHEL, Thermax) own their designs or license selectively, have lower overhead, compete harder on price and carry higher receivable days on state-utility business.
+- **Imports and China.** IEEMA: China ~37% of electrical-equipment imports (FY23) [V]. FY25 power-transformer imports jumped to ₹444 cr (from ₹71 cr) including ₹349 cr of >100 MVA units, ₹242 cr from China [V IEEMA] — a symptom of shortage; they fell 73% in 9MFY26 [V]. HV switchgear imports +79% in FY25 and +34% in 9MFY26 [V]. Policy walls: MoP's 2-Jul-2020 order (prior permission for "prior reference country" imports + mandatory testing) [V]; DoE Public Procurement Order No.4 (23-Feb-2023, GFR 144(xi)) requiring registration of land-border-country bidders [V]; selective relaxation — four China-linked OEMs exempted for two years from 24-Jun-2026 [V]; localisation content requirement ~60–70% for GIS bids [V PL].
+
+### 2.6 Business-model archetypes and how their economics differ
+| Archetype | Listed examples | Revenue model | Typical EBITDA (FY26) | Working capital | Order cover | Key risk |
+|---|---|---|---|---|---|---|
+| HV systems & products MNC subsidiary | Hitachi Energy India, Siemens Energy India, GE Vernova T&D | Fixed-price products + turnkey substations/HVDC; parent export orders | 16–28% [V] | Negative to low (advances; payables > receivables): Hitachi −46 days, GE Vernova 35, SEIL 35 [V] | 2–3.5x revenue [E] | HVDC margin dilution, TBCB price competition, royalty creep, related-party dependence |
+| Domestic transformer maker | TARIL, Atlanta, Voltamp, (Schneider Infra for MV/HV) | Per-unit transformers on PV-clause or firm price | 13–19% [V] | 55–80 days, debtors 55–130 days [V] | 1–2x [E] | Commodity squeeze, China re-entry, pricing reset when lead times normalise |
+| Niche component / power-electronics | Quality Power (HVDC/FACTS reactors, components), TD Power (generators), Triveni (steam turbines) | Engineered products, high export share | 18–21% [V] | 47–120 days [V] | ~1x [E] | Customer concentration, export cycle, freight |
+| PSU BTG/EPC | BHEL | Lump-sum EPC/BTG with milestone billing, 10% retention, PBGs | 8% FY26 (−18% FY21) [V] | 86 days but inventory 309 days, contract assets ~₹19,500 cr [V] | 7.2x [V PL] | Execution delays, LDs, legacy low-margin orders, government ownership |
+| Industrial EPC/products | Thermax, Siemens Ltd | Boilers, WHR, FGD, chemicals, digital industries | 10–12% [V] | Thermax −36 days; Siemens 71 [V] | ~1x [E] | Industrial capex slowdown, project cost overruns (Thermax ₹91 cr extra cost Q1FY27 [K]) |
+
+### 2.7 Regulation and policy
+- **Planning:** CEA prepares NEP-Transmission (FY23–32) and the FY27–36 900-GW plan; National Committee on Transmission (NCT) approves ISTS schemes; RECPDCL/PFCCL run TBCB bids; CTUIL handles connectivity (GNA/T-GNA regulations 2022) [K].
+- **Procurement route:** ISTS above ₹500 cr default TBCB since 2021 (RTM for urgent/strategic schemes) [K]; PGCIL ~47% cumulative ISTS tariff share [V PL]. Bids are on levelised annual transmission charges; developers then procure equipment via EPC — so TBCB tariff aggression flows down as equipment price pressure (GE Vernova T&D: "lower realisations in the TBCB market") [V].
+- **Make in India / security:** MoP order 2-Jul-2020 (testing of imports; prior permission for prior-reference countries) [V]; MoP 23-Jul-2020 indigenisation + "Approved List of Models and Manufacturers" [K]; PPP-MII 2017 local-content preference; DoE PPO No.4 (Feb-2023) land-border bidder registration [V]; selective exemption Jun-2026 [V].
+- **Quality/standards:** BIS QCO on CRGO (2020; certificate-of-conformity regime still constraining supply) [K]; transformer energy-efficiency (BEE star labelling for distribution transformers) [K]; CEA failure studies show transformer failure rates up to 10% [V Mercom].
+- **Trade remedies:** DGTR anti-dumping investigation on CRGO + amorphous metals from China/Japan/Korea/Russia (initiated 22-Jun-2026) [V]. Industry asks: ALMM-like approved list for transformers/substation equipment, PLI for HV/UHV, more short-circuit test capacity [V Mercom].
+- **Price variation:** IEEMA PV indices and formulae (copper, CRGO, steel, oil, wage) are standard in PSU contracts [V].
+- **Tariff/finance:** CERC regulated returns for RTM assets (PGCIL); CERC now allows transmission licensees to own BESS on regulated returns [V PL].
+
+### 2.8 History and cycles (dates)
+- **1956–1990s — BHEL monopoly era.** BHEL (incorporated 1964 [K]) dominated BTG, transformers and switchgear; MNCs (ABB, Siemens, English Electric→GEC Alsthom) served niches.
+- **2003–2012 — first power boom.** Electricity Act 2003, Ultra Mega Power Projects, 11th Plan (78.7 GW target) [K]; Chinese BTG (Shanghai Electric, Dongfang, Harbin) won a large share of private IPP orders [K]; supercritical JVs formed (L&T-MHI, Toshiba-JSW, Alstom-Bharat Forge, Ansaldo, Doosan) after bulk tenders (2008–10) [K]. BHEL peaked in FY11: revenue ₹43,337 cr, PAT ₹6,011 cr, inflow ₹60,476 cr, order book >₹1.64 lakh cr, capacity 15→20 GW/yr [V]. Transmission line additions peaked at ~28k ckm (FY16) [V].
+- **2012–2020 — the bust.** Coal scams/cancellations (2014), stressed IPPs (~40 GW), PLFs fell, thermal ordering collapsed and stayed low into the early 2020s (BHEL booked just 1,320 MW of thermal orders as late as FY23 [K UBS]); T&D price wars; GE T&D India OPM negative by FY22 [V]; line additions fell to 11.7k ckm (FY20) [V]; Covid & 2021 commodity spike (copper +52%, CRGO shortage) wiped out firm-price margins [V IEEMA].
+- **Corporate reshuffles.** Areva T&D India (2005) → Alstom T&D India (2012) → GE T&D India (2016) → GE Vernova T&D India (2024) [V]; ABB Power Products & Systems India demerged (Dec-2019), listed 30-Mar-2020, → Hitachi Energy India (Hitachi bought ABB Power Grids 2020–22) [V/K]; Siemens Energy India demerged from Siemens Ltd (record date 7-Apr-2025; listed Jun-2025) [K].
+- **2022–2026 — the grid supercycle.** NEP-T (Oct-2024); record transformation additions (FY26 1.13 lakh MVA) [V]; HVDC TBCB awards (Khavda–Nagpur Nov-2024; Bhadla–Fatehpur Jan-2025) [V/K]; BHEL record orders (FY25 ₹92,535 cr) [K]; margins and ROCE re-rated; IPOs (Quality Power Feb-2025, Atlanta Electricals Sep-2025) [K]; 2026: China-linked OEM exemption, TBCB soft patch Jan–Mar 2026, copper spike [V].
+
+### 2.9 Native KPIs (summary — full glossary in §F)
+Order inflow; order book (backlog); order-book cover (backlog ÷ TTM revenue); book-to-bill (inflow ÷ revenue); execution rate (revenue ÷ opening backlog); EBITDA margin and gross margin; working-capital days (debtor + inventory − payable, plus contract assets/liabilities for EPC); MVA capacity and MVA shipped; export share of orders; royalty % of sales; customer mix (central/state/private); share of firm-price vs PV-clause orders.
+
+### 2.10 Global lens
+- Global grid investment ~US$550 bn in 2026 (+~20%, IEA) [V]; Rystad's broader grid-capex measure US$650 bn (+5%) [V]. BESS ~US$110 bn (+35%) [V].
+- Global transformer capacity 4,700 GVA; +90 GVA in 2025 and ~200 GVA expected in 2026; >10% growth by 2028; Hitachi Energy, Siemens Energy, HD Hyundai Electric, Eaton and CG Power together ~US$4 bn of new capacity investment [V Rystad]. Prices +1–3% in 2025 for transformers/switchgear after switchgear rose 45–50% since 2020; European 50–100 MVA awards at US$30–35k/MVA [V]. "Peak lead times could ease within the next 12 months" [V].
+- Peer valuations (Oct-2026): GE Vernova 28.2x, Siemens Energy AG 44.1x, Hitachi Ltd 38.0x, HD Hyundai Electric 29.3x trailing P/E [V companiesmarketcap]. Indian subsidiaries 73–114x [V screener] — premium reflects scarcity of listed India-grid plays, higher growth, net cash and free float of only 25–49%.
+- Europe/US are structurally import-dependent (Europe ~42% of power transformers imported from outside Europe; US 70–76% of large units imported) [V] — the export opportunity for Indian hubs.
+
+### 2.11 Technology and disruption
+- **HVDC VSC** (IGBT-based, black-start, offshore and dense-corridor capable) replacing LCC for new links; India's first VSC was Pugalur–Thrissur ±320 kV [K]; ±800 kV LCC remains for bulk RE (Khavda–Nagpur) [V]. 1,200 kV AC under evaluation [V PL].
+- **GIS and SF6-free switchgear** (g3/clean-air/vacuum + dry-air) driven by EU F-gas rules; Indian GIS demand up (MV-HV GIS +38.7% in Q1FY24; +8.4% FY25) [V IEEMA].
+- **Digital substations, synchronous condensers, STATCOMs** for grid-forming/inertia as RE share rises — PGCIL won India's first TBCB SynCon (Fatehgarh-II) in 2026 [V PL]; Siemens Energy India ±300 MVAr STATCOM orders [V].
+- **BESS** as a transmission asset (CERC amendment) and as a new product for grid OEMs (Hitachi Energy India's first 165 MW/330 MWh BESS order) [V].
+- **Amorphous-core/ester-fluid transformers**, dynamic line rating, HTLS conductors [V NEP-T/K].
+- **Disruption risks:** Chinese cost leadership (TBEA et al.) re-entering via Indian plants [V]; digital/software value accruing to parents not subsidiaries [E].
+
+### 2.12 What to watch
+1. Monthly CEA MVA/ckm additions vs FY27 target (1,58,339 MVA; 35,670 MVA in Apr–Jul) [V].
+2. TBCB award flow and tariffs (PGCIL pipeline ₹73,875 cr under bid; Barmer–South Kalamb HVDC award) [V].
+3. China-linked OEM participation in PGCIL tenders (exemption valid to Jun-2028) and price discovery [V].
+4. Copper and CRGO (DGTR anti-dumping outcome) vs PV-clause coverage [V].
+5. BHEL execution rate and margin (EBITDA 6.5% Q1FY27 vs ICICI's 10%+ FY28E) [V].
+6. Export order share at MNC subsidiaries and related-party approvals (GE Vernova's ₹3,000 cr RPT on hold) [V].
+7. Industrial capex recovery (Triveni/Thermax domestic orders) [V].
+8. RE curtailment and T-GNA conversion (Crisil 35–37 GW at risk) [V].
+
+---
+## A. The defining forces (5)
+
+**Force 1 — Substation intensity, not line km, drives equipment demand.** Line additions are flat-to-down over a decade (27,942 ckm FY16 → 8,830 FY25 → 12,139 FY26) but transformation added rose to a record 1,13,013 MVA in FY26, with 765 kV MVA jumping from 21,000 (FY25) to 54,000 (FY26) [V CEA]. MVA per ckm went from ~2.2 (FY16) to ~9–10 (FY25–26) [E]. Reasoning: RE pooling stations, 765 kV ICTs and HVDC terminals are concentrated where equipment, not towers, is the cost. The NEP-T still implies ~127 GVA/yr of AC transformation plus 33 GW HVDC to FY32, vs 113 GVA achieved in FY26 — the run-rate has to rise another ~40% (FY27 target 158 GVA) [V]. Equipment makers therefore have more runway than line-EPC firms, and the "MVA cycle" is the KPI that matters.
+
+**Force 2 — Scarcity pricing is peaking; supply is catching up.** FY23–26 margins were built on 2–4 year global lead times, PSU bulk ordering and qualification barriers. Now: Atlanta quadrupled capacity in 18 months, Siemens Energy India is doubling then adding 30 GVA, Hitachi is on its 20th unit, globally ~200 GVA is being added in 2026 vs ~90 GVA in 2025 [V]; four China-linked OEMs can bid PSU tenders from Jun-2026 [V]; PGCIL says pricing and availability are easing [V]; GE Vernova T&D's gross margin fell 709 bp YoY in Q1FY27 [V]. Reasoning: in a 70%-materials business, a 5% price reset with sticky copper/CRGO costs can take 4–5 pp off EBITDA margin. Expect margins to mean-revert toward the low-to-mid teens for domestic transformer makers over FY27–29 unless exports absorb capacity [E].
+
+**Force 3 — Thermal's second wind makes BHEL an execution story.** 97 GW coal/lignite needed to FY35; 39.5 GW under construction, 22.9 GW awarded [V]; BHEL holds ~₹2.6 lakh cr of orders (7.2x revenue) [V PL] after ~₹1.68 lakh cr of inflows in FY25–26 [K+V]. Reasoning: the bottleneck has moved from ordering to execution (erection labour, vendor capacity, site readiness); BHEL's FY26 revenue (₹33,782 cr) is still ~22% below FY11 in nominal terms [V], so execution rate (~14%/yr of backlog [E]) and margin on new-price orders (EBITDA 6.5% Q1FY27; ICICI 10.6% FY28E) [V] decide value, not inflow.
+
+**Force 4 — MNC subsidiaries are becoming export and technology hubs, with parent-controlled economics.** Exports were 33.6% of Hitachi Energy India's Q1FY27 orders ex-HVDC and 46% of GE Vernova T&D's [V]; group transactions are large (Hitachi: ₹1,421 cr sales to group, ₹855 cr purchases, ₹255 cr royalty in FY25 [V]). Reasoning: Indian subsidiaries get global demand without global capex risk — but transfer pricing, royalty rates and RPT approvals (GE Vernova's ₹3,000 cr RPT pipeline on hold) are set by parents [V]. The 2–3x valuation premium to parents (73–114x vs 28–44x P/E) [V] assumes these flows stay favourable.
+
+**Force 5 — Execution and evacuation risk sits between plan and P&L.** Only 12% of TBCB projects met SCOD; median delay >10 months [V ICRA]; 35–37 GW of RE at curtailment risk [V Crisil]; FY26 line target achieved only 79% and was itself cut 37% [V]. Reasoning: plans (₹9.15 lakh cr, ₹7.9 lakh cr) translate to equipment revenue only as fast as RoW, land and approvals allow; order books swell (cover 2–7x) while revenue recognition lags — so working capital, LDs and cost escalation on firm-price orders are where cycles turn.
+
+## B. Deep-dive themes
+
+### B1. The MVA supercycle: how much transformer demand does the plan imply, and can supply keep up?
+- **Demand math [E].** NEP-T: 1,270 GVA AC transformation over FY23–32 (~127 GVA/yr) + 33 GW HVDC (≈2 × 33 GVA converter transformer equivalents ≈ 66 GVA) [V plan; E conversion]. Achieved FY23–26: 75,902 + 70,728 + 86,433 + 1,13,013 = **3,46,076 MVA** (~346 GVA) in four years [V CEA, arithmetic] — ~27% of the 10-year AC target in 40% of the time, implying ~154 GVA/yr is needed for FY27–32 (FY27 target 158 GVA is consistent) [E/V]. The FY27–36 plan adds 827.6 GVA (but 1.375 lakh ckm) — ~83 GVA/yr on top of the tail of NEP-T [V IANS].
+- **Beyond 220 kV.** Distribution transformers (≤33 kV) and industrial/data-centre transformers are additive (RDSS, meters +73.7% FY25) [V].
+- **Supply response.** Atlanta 63 GVA, Siemens Energy India 30 GVA (+30 GVA by 2032), BHEL 30 GVA, plus Hitachi, GE Vernova, TARIL, CG Power, Toshiba, Hyosung, TBEA India [V/K]. Aggregate qualified 220–765 kV capacity in India is likely 3–4x annual grid MVA addition [E] — i.e., the constraint was never total MVA but 765 kV/HVDC qualification, testing and specific components (bushings, OLTCs, CRGO grades).
+- **Implication.** Volume growth continues (MVA additions +30–40% in FY27 if targets are met), but pricing power in 220–400 kV shifts back to buyers first; 765 kV/HVDC stays tight longest. Watch PGCIL's own commentary ("easing") and the first PSU tender results with Chinese-linked bidders.
+
+### B2. HVDC and the oligopoly economics
+- India's HVDC installed transformation is 33,500 MVA, >50% at ±800 kV [V]. NEP-T plans 33 GW of new bipoles; ~21 projects are in the medium-term frame [V PL]. Each 6 GW ±800 kV bipole is a ~₹20,000–25,000 cr project (Bhadla–Fatehpur ~₹25,000 cr [K]; Barmer–South Kalamb ₹24,974 cr [V]) of which the converter-station package (transformers, valves, control) is ~40–50% [E].
+- Supplier set: Hitachi Energy (with BHEL as local partner for Khavda–Nagpur and Bhadla–Fatehpur), Siemens Energy, GE Vernova [V/K]. HVDC orders are lumpy (Hitachi Q1FY26 orders ₹11,339 cr vs ₹5,097 cr in Q1FY27) and dilute gross margins early (GE Vernova: ~2–2.5 pp gross-margin dilution from HVDC ramp-up, half offset at EBITDA by operating leverage) [V]. Revenue is back-ended (GE Vernova: meaningful contribution from FY29) [V].
+- Quality Power (HVDC/FACTS reactors and components) is the listed domestic component play [V screener sales ₹947 cr FY26].
+- Risks: award slippage (Leh–Kaithal removed from PGCIL book Q4FY26) [V]; global HVDC capacity booked by European offshore programmes (parents ration slots) [K].
+
+### B3. Working capital: who funds the cycle?
+- **Negative-WC MNCs.** Hitachi Energy India: payable days 246, working-capital days −46 (FY26) [V]; customer advances on large orders + group payables fund growth; FY25 QIP (reserves ₹1,351 cr → ₹4,205 cr) [V screener; QIP size ₹2,520 cr K].
+- **Domestic makers.** TARIL debtor days 129, inventory 133, payables 62 → WC 80 days; borrowings rose ₹283 cr → ₹581 cr (Sep-2026) [V] — growth is balance-sheet funded. Voltamp WC 74–87 days with near-zero payables and no debt [V]. Atlanta: debtors 84, inventory 102, payables 112 (WC 55) [V].
+- **BHEL.** Inventory 309 days, payables 231, debtors 73; "other current assets" (contract assets/unbilled) ~₹19,458 cr; net WC ~86–116 days [V screener/ICICI/PL]. Every ₹10,000 cr of incremental revenue needs ~₹2,500–3,000 cr of WC at FY26 ratios [E].
+- **Collection behaviour by customer.** PGCIL receivable days improved to 12.1 [V PL] — central-sector payers are prompt; state utilities and EPC contractors pay on ~3-month cycles [V IANS]; retention money (5–10%) and PBGs (10%) lock cash till commissioning [K].
+
+### B4. Exports and the "India for the world" thesis — what the trade data do and don't show
+- Company disclosures show export orders surging (GE Vernova T&D exports +129% YoY in Q1FY27; Triveni exports +53%) [V]. But DGCIS data show finished power-transformer exports of only ₹1,260 cr in FY25 and *down 41%* in 9MFY26 [V IEEMA]. Reconciling [E]: exports are dominated by components, instrument transformers (US utilities, per GE Vernova), GIS bays, bushings, engineering services and related-party supply (Hitachi's sales to group ₹1,421 cr, 22% of revenue [V]). Hitachi Energy, GE Vernova and Siemens Energy route India-made products into parents' global projects; domestic makers (Atlanta target 15% exports in 3 years; first ₹20 cr export order) are just starting [V].
+- Freight and geopolitics hurt (Triveni cited 3–4x freight rates in Q1FY27) [V]. US tariffs and local-content rules are a risk [K].
+
+## C. Revenue / profit equation and a worked ₹ example
+
+**Equation.**
+Revenue_t ≈ Execution rate × Opening order book_t (+ short-cycle book-and-bill products)
+Order book_t+1 = Order book_t + Order inflow_t − Revenue_t (± FX/price-variation adjustments, cancellations)
+EBITDA = Revenue × [1 − materials% − conversion% − employee% − other% (incl. royalty)]; materials% = Σ(commodity weight × commodity price index ÷ price-at-order) − PV recovery
+Net working capital = Revenue × (Debtor + Inventory + Contract-asset days − Payable − Advance days) ÷ 365
+Free cash flow ≈ EBITDA − tax − ΔNWC − capex (capex ≈ ₹6.9 lakh per incremental MVA of annual capacity for transformers [E from V])
+ROCE ≈ EBIT ÷ (Net fixed assets + NWC)
+
+**Worked example 1 — domestic transformer maker ("TransformCo") [E, calibrated to FY26 TARIL/Atlanta/Voltamp ratios from V screener].**
+- Opening order book ₹3,000 cr; FY27 inflow ₹2,600 cr; execution rate 75% of opening book + ₹150 cr book-and-bill ⇒ revenue ₹2,400 cr; book-to-bill 1.08x; closing book ₹3,200 cr (cover 1.33x).
+- Costs: materials 72% (₹1,728 cr; of which copper ~₹500 cr, CRGO ~₹400 cr), conversion 4% (₹96 cr), employees 3% (₹72 cr), other 6% (₹144 cr) ⇒ EBITDA ₹360 cr (15%).
+- D&A ₹36 cr, interest ₹30 cr, other income ₹40 cr ⇒ PBT ₹334 cr; tax 25% ⇒ PAT ₹250 cr (10.4%).
+- Working capital: debtors 110 days (₹723 cr) + inventory 120 days of revenue (₹789 cr) − payables 90 days of revenue (₹592 cr) ⇒ NWC ₹920 cr (140 days gross; ~77 days net of customer advances of ₹410 cr) — ΔNWC on 20% growth ≈ ₹150 cr.
+- Capex: adding 10,000 MVA ≈ ₹70 cr [E]; FCF ≈ 360 − 84 (tax) − 150 − 70 − 30 ≈ **₹26 cr** — i.e., fast growth consumes almost all cash; ROCE ≈ 324 / (250 FA + 920 NWC − 410 adv) ≈ 43% pre-tax.
+- *Sensitivity:* copper +20% on a firm-price 40% of the book (no PV) ⇒ cost +₹40 cr ⇒ EBITDA margin −1.7 pp. A 5% price cut on new orders with flat costs ⇒ EBITDA margin from 15% to ~10.5% on those orders.
+
+**Worked example 2 — MNC systems subsidiary ("GridCo") [E, calibrated to Hitachi Energy India FY26/Q1FY27 V data].**
+- Backlog ₹32,000 cr; TTM revenue ₹9,200 cr ⇒ cover 3.5x; execution rate ~29%/yr; inflow ₹16,000 cr (book-to-bill 1.7x when an HVDC lands, ~1.0x without).
+- Gross margin ~37% (materials+conversion ~63%), employees 8%, other 13% (royalty+IT fees ~5%) ⇒ EBITDA ~16%; PAT ~12% ⇒ ~₹1,100 cr.
+- Working capital −46 days ⇒ NWC ≈ −₹1,160 cr (customers + suppliers fund operations); growth *releases* cash. Royalty leakage ≈ ₹370 cr/yr at 4% of ₹9,200 cr [E].
+
+**Worked example 3 — BHEL [E, calibrated to V data].**
+- Order book ₹2.6 lakh cr; execution rate ~14% ⇒ revenue ~₹36,000 cr; EBITDA 8% ⇒ ₹2,900 cr; every 1 pp of margin = ~₹360 cr EBITDA (~22% of FY26 PAT). NWC ~90 days ⇒ ~₹8,900 cr locked; moving execution to 18%/yr (revenue ₹46,800 cr) at constant WC days needs ~₹2,700 cr more WC.
+
+## D. Stat strip (₹ only; 6 cells)
+| ₹ figure | What it is | Source |
+|---|---|---|
+| ₹9.15 lakh cr | Transmission investment planned to 2032 under NEP-Transmission (>1.91 lakh ckm, 1,270 GVA, 33 GW HVDC) | CEA/MoP, Energetica India 15-Oct-2024 [V] |
+| ₹7.9 lakh cr | Additional transmission capex in CEA's 900-GW plan to FY36 | Prabhudas Lilladher, Power Grid Q1FY27 note, 8-Aug-2026 [V] |
+| ₹2.6 lakh cr | BHEL order book after Q1FY27 (7.2x TTM revenue; ~81% power) | Prabhudas Lilladher BHEL note 17-Jul-2026 [V] |
+| ₹1.75 lakh cr | PGCIL works-in-hand (83% TBCB), with >₹1.19 lakh cr more under bid/to float | PL Power Grid note 8-Aug-2026 [V] |
+| ₹32,222 cr | Hitachi Energy India order backlog, 30-Jun-2026 (highest ever; ~3.5x TTM revenue) | Hitachi Energy press release 7-Aug-2026 [V] |
+| ₹7.97 lakh cr | Combined market cap of the 13 listed heavy-electrical members (13-Oct-2026) | screener.in pages fetched 13-Oct-2026, summed [E from V] |
+
+## E. Chart-ready datasets
+
+**E1. Transmission lines added, India, 220 kV+ (ckm, fiscal year)** — basis: CEA "Transmission Lines Completed During FY" March reports; source: npp.gov.in (CEA) [V]
+| FY15 | FY16 | FY17 | FY18 | FY19 | FY20 | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 21,643 | 27,942 | 26,793 | 23,038 | 22,437 | 11,664 | 16,750 | 14,895 | 14,625 | 14,203 | 8,830 | 12,139 |
+
+**E2. Substation transformation capacity added, India, 220 kV+ (MVA)** — basis/source as E1 (trans7) [V]
+| FY15 | FY16 | FY17 | FY18 | FY19 | FY20 | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 67,154 | 62,659 | 83,916 | 86,593 | 72,705 | 68,230 | 57,575 | 78,982 | 75,902 | 70,728 | 86,433 | 1,13,013 |
+Of which 765 kV (MVA): 38,500 / 19,650 / 27,150 / 23,300 / 20,500 / 19,500 / 7,700 / 18,500 / 19,500 / 18,000 / 21,000 / 54,000 [V]. Derived MVA per ckm: 3.1 / 2.2 / 3.1 / 3.8 / 3.2 / 5.8 / 3.4 / 5.3 / 5.2 / 5.0 / 9.8 / 9.3 [E].
+
+**E3. Targets vs achievement (CEA, as revised)** [V IEEMA decks/T&D India]
+| FY | Line target (ckm) | Achieved (ckm) | % | MVA target | Achieved (MVA) | % |
+|---|---|---|---|---|---|---|
+| FY24 | 16,400 | 14,203 | 87% | 76,609 | 70,728 | 92% |
+| FY25 | 15,253 (orig. 16,667) | 8,830 | 58% | 1,12,435 (orig. 1,16,490) | 86,433 | 77% |
+| FY26 | 15,382 (orig. 24,440) | 12,139 | 79% | 1,26,007 (orig. 1,97,617) | 1,13,013 | 90% |
+| FY27 | n.a. | — | — | 1,58,339 | 35,670 (Apr–Jul) | 23% YTD |
+
+**E4. Plan envelope — NEP-Transmission FY23–32 and successor plan** [V Energetica/IANS/PL]
+| Item | Value |
+|---|---|
+| Lines to add FY23–32 (220 kV+) | 1,91,474 ckm |
+| Transformation to add FY23–32 | 1,274 GVA (AC) |
+| HVDC bipoles | 33.25 GW |
+| Investment to 2032 | ₹9,15,000 cr |
+| Inter-regional capacity | 119 GW → 143 GW (2027) → 168 GW (2032) |
+| FY27–36 plan (900 GW non-fossil) | 1,37,500 ckm; 8,27,600 MVA; ~₹7.9 lakh cr |
+
+**E5. Order backlog and cover — listed members, latest disclosed** (₹ cr; cover = backlog ÷ TTM revenue from screener) [V sources as noted; cover E]
+| Company | Backlog | Date | TTM revenue | Cover (x) | Source |
+|---|---|---|---|---|---|
+| BHEL | ~2,60,000 | Jun-2026 | 35,993 | 7.2 | PL 17-Jul-2026 |
+| Hitachi Energy India | 32,222 | Jun-2026 | 9,162 | 3.5 | Company PR |
+| GE Vernova T&D India | ~20,900 | Jun-2026 | 6,712 | 3.1 | PL 8-Aug-2026 |
+| Siemens Energy India | 19,331 | Jun-2026 | 9,436 | 2.0 | ICICI Direct |
+| Atlanta Electricals | 3,116 | Jun-2026 | 2,003 | 1.6 | Mercom interview |
+| Triveni Turbine | 2,180 | Jun-2026 | 2,252 | 1.0 | PL 12-Aug-2026 |
+| PGCIL (customer; works-in-hand) | 1,75,000 | Jun-2026 | — | — | PL 8-Aug-2026 |
+
+**E6. EBITDA margin (OPM %) trajectory, FY21–FY26** [V screener; FY21 for Hitachi = CY21]
+| Company | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|
+| Hitachi Energy India | 6 | 7 (15m) | 6 | 7 | 9 | 16 |
+| GE Vernova T&D India | 4.9 | −2.9 | 4.4 | 10 | 19 | 28 |
+| BHEL | −18 | 3.9 | 4.5 | 3.0 | 4.9 | 8 |
+| TARIL | 9 | 6 | 9 | 10 | 16 | 15 |
+| Voltamp | 11 | 12 | 17 | 20 | 19 | 16 |
+| Schneider Infra | 4.9 | 6 | 9 | 13 | 15 | 13 |
+| TD Power | 12 | 12 | 15 | 17 | 18 | 18 |
+| Triveni Turbine | 21 | 19 | 19 | 19 | 22 | 21 |
+| Thermax | 7 | 7 | 7 | 9 | 9 | 10 |
+| Atlanta Electricals | 8 | 8 | 16 | 14 | 16 | 19 |
+
+**E7. Cost structure, % of sales, FY26** — see §2.4 table (material/manufacturing/employee/other by company) [V screener schedules].
+
+**E8. Working-capital profile, FY26 (days)** [V screener]
+| Company | Debtor | Inventory | Payable | WC days |
+|---|---|---|---|---|
+| Hitachi Energy India | 86 | 119 | 246 | −46 |
+| GE Vernova T&D | 125 | 100 | 146 | 35 |
+| Siemens Ltd | 57 | 60 | 94 | 71 |
+| BHEL | 73 | 309 | 231 | 86 |
+| Thermax | 70 | 45 | 107 | −36 |
+| TARIL | 129 | 133 | 62 | 80 |
+| Voltamp | 55 | 85 | 2 | 74 |
+| Atlanta | 84 | 102 | 112 | 55 |
+| Schneider Infra | 92 | 76 | 112 | 42 |
+| TD Power | 125 | 165 | 101 | 120 |
+| Triveni Turbine | 66 | 78 | 125 | 47 |
+| Quality Power | 93 | 74 | 105 | 71 |
+
+**E9. IEEMA electrical-equipment production growth index (% YoY by quarter)** [V IEEMA decks]
+| Quarter | Q1FY24 | Q2FY24 | Q3FY24 | Q4FY24 | Q1FY25 | Q2FY25 | Q3FY25 | Q4FY25 | Q1FY26 | Q2FY26 | Q3FY26 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Overall | 18.0 | 16.0 | 13.9 | 21.0 | 21.6 | 12.7 | 16.7 | 10.2 | 11.7 | 16.4 | 8.8 |
+| Power transformers | −3.4 | 18.3 | 13.8 | 25.6 | 53.8 | 23.6 | 38.0 | 32.9 | 21.6 | 27.8 | 26.6 |
+| Distribution transformers | 60.3 | 55.5 | 14.8 | 35.1 | 33.3 | 14.7 | 10.5 | 17.6 | −5.6 | 8.9 | 8.1 |
+| HV switchgear | 20.9 | 14.1 | 34.1 | 50.4 | 36.8 | 27.8 | 26.8 | −0.3 | 30.6 | 38.2 | 9.5 |
+
+**E10. India trade in key heavy-electrical products (₹ cr; DGCIS via IEEMA)** [V]
+| Product (HS) | Imp FY24 | Exp FY24 | Imp FY25 | Exp FY25 | Imp 9MFY26 | Exp 9MFY26 |
+|---|---|---|---|---|---|---|
+| Power transformers (850423) | 71 | 1,090 | 444 | 1,260 | 116 | 588 |
+| Distribution transformers | 968 | 3,998 | 1,101 | 4,130 | 1,748 | 2,952 |
+| HV switchgear incl. panels | 1,851* | 3,053 | 3,308 | 3,926 | 3,087 | 3,676 |
+| Motors & AC generators | 7,787 | 4,899 | 9,013 | 6,015 | 8,386 | 4,707 |
+| LT switchgear incl. panels | 18,738* | 13,925 | 21,914 | 17,150 | 20,452 | 14,672 |
+*FY24 import values as restated in the FY25 deck (FY24 deck showed HV switchgear imports ₹1,406 cr, LT ₹20,185 cr).
+
+**E11. Thermal pipeline (MW)** [V Rajya Sabha reply via Outlook Business, Mar-2026; ICICI]
+| Status | MW |
+|---|---|
+| Under construction (incl. 4,845 MW stressed) | 39,545 |
+| Contracts awarded, due for construction | 22,920 |
+| Candidate capacity under planning | 24,020 |
+| Minimum new coal/lignite needed to FY35 | 97,000 |
+| Thermal requirement FY35 | ~3,07,000 |
+| Plants crossing 35 years by FY32 (replacement candidates) | ~37,000 |
+
+**E12. Valuation — Indian listed subsidiaries vs parents (trailing P/E, x; Oct-2026)** [V screener / companiesmarketcap]
+| India listed | P/E | Parent / global peer | P/E |
+|---|---|---|---|
+| Hitachi Energy India | 114 | Hitachi Ltd | 38.0 |
+| GE Vernova T&D India | 79.3 | GE Vernova | 28.2 |
+| Siemens Energy India | 73.3 | Siemens Energy AG | 44.1 |
+| Siemens Ltd | 88.3 | — | — |
+| Schneider Electric Infra | 149 | — | — |
+| TARIL / Voltamp / Atlanta | 30.0 / 33.1 / 65.3 | HD Hyundai Electric | 29.3 |
+| BHEL | 63.4 | — | — |
+
+**E13. Global supply-chain metrics** [V Rystad via Power Peak Digest; IEA via Industrial Info]
+| Metric | Value |
+|---|---|
+| Global power-transformer capacity (2025) | 4,700 GVA, ~400 plants, 260+ OEMs |
+| Capacity added 2025 / expected 2026 | ~90 GVA / ~200 GVA |
+| Lead time, power transformers Europe/N.America | 2–3 years (100+ MVA >24 months; some LPTs 3–6 years) |
+| Price, 50–100 MVA (Europe) | US$30,000–35,000 per MVA |
+| Price change 2025 (transformers & switchgear) | +1–3% |
+| Global grid investment 2026 (IEA) | ~US$550 bn (+~20%) |
+| India lead times (MoP) | 220 kV 11–15 m; 400 kV ~15 m; 765 kV 20–24 m |
+
+## F. KPI glossary (definitions, formulas, ranges)
+Ranges are [E], calibrated on FY24–FY26 data for the listed universe (V screener/company sources above). "Good/average/weak" are for this sub-sector in the current cycle.
+| KPI | Definition / formula | Good | Average | Weak | Notes |
+|---|---|---|---|---|---|
+| Order inflow (₹ cr) | Value of new firm orders booked in the period | YoY growth >20% ex-lumpy | 5–20% | <0% | Strip out HVDC/EPC mega-orders; check export vs domestic and RPT share |
+| Order book / backlog (₹ cr) | Unexecuted value of firm orders at period end | — | — | — | MNCs report "order backlog"; BHEL "order book"; check if includes CWIP-linked or L1 orders |
+| Order-book cover (x) | Backlog ÷ TTM revenue | Products 1.5–2.5x; systems 2.5–4x; BTG 4–6x | 1–1.5x / 2–2.5x / 3–4x | <1x / <2x / >7x (execution risk) | BHEL 7.2x, Hitachi 3.5x, GE Vernova 3.1x, SEIL 2.0x, Atlanta 1.6x, Triveni 1.0x |
+| Book-to-bill (x) | Order inflow ÷ revenue (same period) | >1.2x | 1.0–1.2x | <1.0x (book shrinking) | Use 4-quarter rolling; GE Vernova Q1FY27 ≈0.6x |
+| Execution rate (%) | Revenue ÷ opening order book | Products >60%; systems >30%; BTG >18% | 40–60% / 25–30% / 12–18% | below | BHEL ~14% [E]; falling rate = site/supply bottleneck |
+| Gross margin (%) | (Revenue − materials − sub-contract) ÷ revenue | >40% systems; >28% transformers | 32–40% / 22–28% | <30% / <20% | GE Vernova 41.3% Q1FY27 (−709 bp); BHEL 31.2% Q1FY27 |
+| EBITDA margin (%) | EBITDA ÷ revenue | Systems >18%; transformers >16%; EPC >10% | 12–18% / 12–16% / 6–10% | <10% / <10% / <5% | Adjust for FX/commodity timing (Hitachi reports "operational EBITDA") |
+| Materials cost % | Raw-material consumption ÷ revenue | <60% (transformers <68%) | 60–70% | >72% (transformers ~75%+) | TARIL 82% FY22 → 70% FY26 |
+| PV-clause coverage (%) | Share of backlog with price-variation linked to IEEMA indices | >70% | 40–70% | <40% | Firm-price private/TBCB EPC orders carry commodity risk |
+| Working-capital days | Debtor + inventory − payable days (screener) | <30 (negative best) | 30–90 | >100 | Hitachi −46, Thermax −36, TARIL 80, TD Power 120 |
+| Contract assets ÷ revenue | Unbilled revenue/contract assets ÷ annual revenue | <15% | 15–35% | >50% | BHEL ~58% (₹19,458 cr / ₹33,782 cr) [E] |
+| Debtor days | Trade receivables ÷ revenue × 365 | <75 | 75–120 | >150 | State-utility heavy books are slowest |
+| Capacity (MVA/yr) | Rated annual transformer output | — | — | — | Atlanta 63,060; SEIL 15,000→30,000 (+30,000); BHEL 30,000 |
+| Capacity utilisation (%) | MVA shipped ÷ rated MVA | >80% | 60–80% | <60% | Rarely disclosed — ask on calls |
+| Capex intensity (₹ lakh/MVA) | Plant capex ÷ added annual MVA | <6 | 6–8 | >8 | SEIL greenfield ~₹6.9 lakh/MVA [E] |
+| Export share of orders (%) | Export inflow ÷ total inflow | >30% (diversified) | 15–30% | <10% | Hitachi 33.6% ex-HVDC; GE Vernova 46%; Triveni 67.6% |
+| Royalty + group fees (% sales) | Royalty, technology, IT/management fees to parent ÷ revenue | <3% | 3–5% | >5% | Hitachi ~4.0% royalty + ~1.3% fees (FY25) |
+| ROCE (%) | EBIT ÷ (equity + debt − cash, or capital employed) | >30% | 15–30% | <12% | GE Vernova 77%, SEIL 68%, Atlanta 45%, BHEL 9% |
+| Grid MVA added (sector) | CEA substation capacity commissioned (220 kV+) | >1.2 lakh MVA/yr | 0.8–1.2 lakh | <0.8 lakh | FY26 1.13 lakh; FY27 target 1.58 lakh |
+| Line ckm added (sector) | CEA lines commissioned (220 kV+) | >15,000 ckm/yr | 10–15k | <10k | FY25 8,830 (lowest since at least FY15) |
+| TBCB SCOD adherence | % of TBCB projects commissioned on schedule | >50% | 25–50% | <25% | 12% as of Mar-2026 (ICRA) |
+
+## G. Timeline (dates; [V] fetched / [K] memory)
+| Date | Event |
+|---|---|
+| 13-Mar-1957 | English Electric Company of India incorporated (today's GE Vernova T&D India) [V IIFL] |
+| 1964 | BHEL incorporated; becomes India's integrated BTG/T&D champion [K] |
+| 2003 | Electricity Act 2003 opens generation/transmission to private players [K] |
+| 23-Sep-2005 | Alstom's Indian T&D arm renamed Areva T&D India after Areva buys Alstom's 66.35% [V IIFL] |
+| FY2010-11 | BHEL peak: revenue ₹43,337 cr, PAT ₹6,011 cr, order book >₹1.64 lakh cr [V BHEL] |
+| 31-Jan-2012 | Areva T&D India renamed Alstom T&D India (after Alstom/Schneider carve-up of Areva T&D, 2010) [V IIFL] |
+| FY2015-16 | Transmission line additions peak at 27,942 ckm [V CEA] |
+| 2-Nov-2015 | GE acquires Alstom's stake in Alstom T&D India (global Alstom energy deal) [V IIFL] |
+| 2-Aug-2016 | Renamed GE T&D India [V IIFL] |
+| 1-Dec-2019 / 30-Mar-2020 | ABB Power Products & Systems India demerged from ABB India; lists on BSE/NSE [V Hitachi PR] |
+| 1-Jul-2020 | Hitachi completes acquisition of 80.1% of ABB Power Grids (Hitachi ABB Power Grids; later Hitachi Energy) [K] |
+| 2-Jul-2020 | MoP order: mandatory testing of imported power equipment; prior permission for "prior reference country" imports [V] |
+| Feb–Apr 2021 | CRGO crisis: mills cut India allocations 50–60%; copper +52% in 15 months; IEEMA seeks relief on firm-price contracts [V IEEMA] |
+| 23-Feb-2023 | DoE Public Procurement Order No.4 (GFR 144(xi)) on land-border-country bidders [V] |
+| FY2023-24 | BHEL wins ~9.6 GW thermal orders vs 1,320 MW in FY23 — thermal ordering revives [K UBS] |
+| 14-Oct-2024 | National Electricity Plan (Transmission) 2023–32 launched: ₹9.15 lakh cr, 1.91 lakh ckm, 1,270 GVA, 33 GW HVDC [V] |
+| 16-Oct-2024 | GE T&D India renamed GE Vernova T&D India [V IIFL] |
+| Nov-2024 | BHEL–Hitachi Energy India consortium wins Khavda–Nagpur ±800 kV, 6 GW HVDC terminals (first TBCB HVDC) [V] |
+| Jan-2025 | Adani Energy Solutions wins ~₹25,000 cr Bhadla–Fatehpur HVDC; Hitachi–BHEL as suppliers [K] |
+| FY2024-25 | BHEL record order inflow ₹92,535 cr [K]; ISTS line additions only 3,652 ckm (lowest since ≥FY15) [V] |
+| 7-Apr-2025 / Jun-2025 | Siemens Energy India demerger record date; listing on exchanges (19-Jun-2025) [K] |
+| Sep-2025 | Atlanta Electricals IPO/listing [K brief; screener shows listed] |
+| FY2025-26 | Record 1,13,013 MVA substation capacity added; 765 kV MVA 54,000 [V CEA]; CEA cuts FY26 targets ~37% [K] |
+| Jan-2026 | 2,315 ckm added in a month (best since Mar-2024); network crosses 5 lakh ckm [V] |
+| 9-Mar-2026 | Rajya Sabha reply: 97 GW coal/lignite needed to FY35; 39.5 GW under construction [V] |
+| 22-Jun-2026 | DGTR initiates anti-dumping probe on CRGO/amorphous steel from China, Japan, Korea, Russia [V] |
+| 24-Jun-2026 | Four China-linked OEMs (TBEA, Nanjing Electric, New Northeast Electric, Taikai) exempted from PPO No.4 for two years [V] |
+| 8-Jul-2026 | ICRA: only 12% of TBCB projects met SCOD; ₹5–6 lakh cr transmission capex FY27–32 [V] |
+| Jul–Aug 2026 | Q1FY27: BHEL order book ~₹2.6 lakh cr (Meja 3×800 MW ₹21,000 cr EPC) [V]; Hitachi backlog ₹32,222 cr [V]; GE Vernova T&D flags TBCB price pressure [V]; Siemens Energy India approves ₹2,060 cr 30 GVA transformer plant [V] |
+
+## H. Figures I could not source (or could only partly verify)
+1. **ISTS/TBCB award value by year (FY25, FY26, FY27 YTD) in ₹ cr** — not found in fetched pages; only counts (16 ISTS-TBCB schemes awarded FY26 [K T&D India snippet]) and PGCIL's pipeline (₹73,875 cr under bid) [V]. FY25 is widely described as a record award year but no fetched number. **Unverified.**
+2. **India total transformer manufacturing capacity (MVA) and utilisation; power vs distribution split** — no CEA/IEEMA aggregate found; only company capacities. Market-size figures in §2.2 are [E].
+3. **IEEMA industry turnover FY24/FY25/FY26 in ₹** — IEEMA decks give growth indices, not ₹ size; last ₹ figure is FY23 (₹2.6 lakh cr) [V]. FY25–26 sizes are [E].
+4. **Transformer price inflation index 2022–26 (India, ₹/MVA)** — not found. Only global anchors (US$30–35k/MVA Europe; switchgear +45–50% since 2020; US PPI +91% vs Jan-2020 per a secondary source [K, unverified]). IEEMA PV indices are behind member login.
+5. **CRGO price per tonne in 2025–26** — not found (last fetched: ₹3,54,500/t in Mar-2021, IEEMA). JSW-JFE Nashik CRGO capacity — not found.
+6. **CEA full-year FY26 line target vs achievement by ISTS/intra-state** — total and sector split fetched [V]; ISTS-only FY26 figure not fetched (10MFY26 ISTS 3,420 ckm [V]).
+7. **Royalty rates for Siemens Energy India, GE Vernova T&D, Schneider Infra** — not fetched; only Hitachi Energy India's FY25 related-party table [V].
+8. **China's share of India's transformer/switchgear imports (2025–26)** — only FY23 overall electrical imports (37%, IEEMA) [V] and FY25 >100 MVA transformer imports (₹242 cr of ₹349 cr from China) [V].
+9. **BHEL thermal market share FY17–25 (~85%) and FY24 orders (~9.6 GW)** — from a UBS-citing Business Standard snippet; the page returned 403. **Unverified.**
+10. **BHEL FY25 order inflow ₹92,535 cr** — T&D India snippet only; not fetched. **Unverified** (consistent with FY26 PR context).
+11. **Siemens Energy India listing date (19-Jun-2025), Hitachi completion dates, Atlanta/Quality Power IPO dates** — [K] from memory; not fetched.
+12. **India's export of transformers (all HS 8504) for 2024–25 in US$** — OEC page returned no data; 2022 figure (US$2.88 bn) is [K].
+13. **IEA "lead times doubled since 2021 / up to 4 years for LPTs"** — IEA page returned 403; [K] via search summary.
+14. **Leh–Kaithal HVDC current status/value and Bhadla–Fatehpur contract value to Hitachi/BHEL** — not disclosed/fetched.
+15. **Data-centre capacity estimates** vary 5–12 GW by 2030 (Wood Mackenzie 12 GW cited [V via 5paisa]; others [K]).
+
+### Source-conflict notes
+- FY26 line target baseline: 24,400 vs 24,440 ckm (T&D India articles) — immaterial; revised 15,382 ckm consistent.
+- FY15–FY18 line additions: CEA March reports (21,643 / 27,942 / 26,792.5 / 23,038) vs later CEA growth summary (22,101 / 28,114 / 26,300 / 23,119). Used the March reports [V]; growth summary reflects later reconciliations.
+- Grid investment: IEA US$550 bn (+20%) vs Rystad US$650 bn (+5%) — different scopes; IEA preferred.
+- Thermal under construction: 39,545 MW (Outlook Business, fetched) vs 38,745 MW (another report of the same reply) — used the fetched figure; awarded 22,920 vs 22,290 MW — used fetched 22,920.
+- GE Vernova T&D backlog: ~₹20,900 cr at Jun-2026 (PL/T&D India) vs ₹21,460 cr cited for Mar-2026 by an aggregator — PL fetched figure used.
+- Transmission capex estimates: ICRA ₹5–6 lakh cr FY27–32 (central+state ISTS-heavy) vs NEP-T ₹9.15 lakh cr FY23–32 (includes intra-state and HVDC) — scopes differ; both cited.
