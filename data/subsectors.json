@@ -223,6 +223,23 @@
         "Import substitution"
       ],
       "published": "2026-10-13"
+    },
+    {
+      "name": "Specialty Chem – Custom Synthesis & Life-science Intermediates",
+      "slug": "chem-custom-synthesis",
+      "file": "chem-custom-synthesis.html",
+      "sector": "Chemicals",
+      "subsector": "Specialty Chem – Custom Synthesis & Life-science Intermediates",
+      "companies": 6,
+      "accent": "#6A1B5A",
+      "hook": "Sticky contracts, lumpy orders, rich multiples: how Acutaas, Anupam, Jubilant Ingrevia, Blue Jet, Aether and Neogen make molecules for global innovators, why one customer can swing a year, how working capital decides the return, the battery-chemicals bet against China, and why the market pays 31× to 214×.",
+      "tags": [
+        "From LOI to revenue",
+        "Concentration risk",
+        "Working capital & the J-curve",
+        "Battery chemicals vs China"
+      ],
+      "published": "2026-10-13"
     }
   ],
   "universe": [
@@ -410,7 +427,7 @@
       "sector": "Chemicals",
       "sub": "Specialty Chem – Custom Synthesis & Life-science Intermediates",
       "companies": 6,
-      "report": null
+      "report": "chem-custom-synthesis.html"
     },
     {
       "sector": "Chemicals",
