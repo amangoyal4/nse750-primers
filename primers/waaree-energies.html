@@ -190,6 +190,7 @@
   footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
   footer.src li{margin-bottom:7px;break-inside:avoid;}
   .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+  main{min-width:0;}
 </style>
 <style id="pdf-print-style">
 .dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
@@ -248,23 +249,23 @@
     <span class="tag gold">Built for a non-expert reader</span>
   </div>
   <h1>Waaree Energies, <em>India's solar factory to the world</em></h1>
-  <p class="dek">A complete walk through India's largest solar-panel maker — how a module factory earns money, why American tariffs on Chinese solar have turned Waaree into a tariff-protected export machine, how it is marching backwards up the value chain into cells and wafers, and why a business that IPO'd only in October 2024 already earns nearly ₹4,000 Cr of profit on a ₹53,000 Cr order book.</p>
+  <p class="dek">A complete walk through India's largest solar-panel maker — how a module factory earns money, why American tariffs on Chinese solar have turned Waaree into a tariff-protected export machine, how it is marching backwards up the value chain into cells and wafers, and why a business that IPO'd only in October 2024 already earns nearly ₹4,000 Cr of profit on a ₹61,500 Cr order book.</p>
 
   <div class="stat-strip">
     <div class="cell"><div class="v">₹26,537 <small>Cr</small></div><div class="l">Revenue (FY26) · +84%</div></div>
     <div class="cell"><div class="v">₹3,884 <small>Cr</small></div><div class="l">Net profit (FY26) · +101%</div></div>
-    <div class="cell"><div class="v">₹53,000 <small>Cr</small></div><div class="l">Order book · ~65–70% export</div></div>
-    <div class="cell"><div class="v">~₹83,000 <small>Cr</small></div><div class="l">Market cap (Jun '26)</div></div>
+    <div class="cell"><div class="v">₹61,500 <small>Cr</small></div><div class="l">Order book (Jul '26) · 25.2 GW</div></div>
+    <div class="cell"><div class="v">~₹70,350 <small>Cr</small></div><div class="l">Market cap (13 Oct '26)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">3 Jul 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: FY26 results (year ended Mar 2026), Q1 FY27 results (Jun 2026 quarter)</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — revenue ₹26,537 Cr (+84%), PAT ₹3,884 Cr (+101%), operating EBITDA ₹5,909 Cr (22.3% margin); ~26 GW module &amp; 5.4 GW cell capacity, 12.6 GW produced; ₹53,000 Cr order book and FY27 EBITDA guidance of ₹7,000–7,700 Cr added.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b><strong>Q1 FY27 (Apr–Jun 2026):</strong> revenue ₹7,932 Cr (+79%), operating EBITDA ₹1,440 Cr (<strong>18.2%</strong>, down from 22.5%), PAT ₹892 Cr (+15%); 3.6 GW of modules sold. Order book <strong>₹61,500 Cr / 25.2 GW</strong> (28 Jul 2026): ~40% India domestic, ~36% US-made (Texas), ~24% exports from India. US module capacity is <strong>1.6 GW installed</strong> (59% utilised) with +2.6 GW being added in FY27; +10 GW cells at Unn due within FY27; a 5.15 GWh BESS container line commissioned; inverter capacity 4.15 GW after the 1.1 GW Sarodhi line (30 Sep 2026); 55% of Associated Power Structures bought for ~₹1,225 Cr. In Sep 2026 the US set final anti-dumping (123.04%) and countervailing (126.09%) duties on Indian solar cells, including cells inside modules. Market cap ~₹70,350 Cr, ~17.5× earnings (as of 13 Oct 2026). Earlier: FY26 full-year results incorporated — revenue ₹26,537 Cr (+84%), PAT ₹3,884 Cr (+101%), operating EBITDA ₹5,909 Cr (22.3% margin); ~26 GW module &amp; 5.4 GW cell capacity, 12.6 GW produced; ₹53,000 Cr order book and FY27 EBITDA guidance of ₹7,000–7,700 Cr added.</div>
 </header>
 
 <!-- 00 -->
@@ -276,14 +277,14 @@
 
   <p>Three facts frame everything:</p>
   <ul class="clean">
-    <li><strong>It scaled from small to enormous, fast.</strong> Revenue went from ₹2,854 Cr (FY22) to <strong>₹26,537 Cr in FY26 (+84% in a single year)</strong>; profit (PAT) hit <strong>₹3,884 Cr, up 101%</strong>. It listed only in <strong>October 2024</strong> in one of the most oversubscribed IPOs India has seen (~76×), and is now controlled ~64% by the founding <strong>Doshi family</strong>.</li>
-    <li><strong>Its signature story is China, tariffs and America.</strong> The United States has slapped heavy anti-dumping/anti-subsidy duties on <em>Chinese</em> solar (and on Chinese product routed through South-East Asia). That makes clean, <em>non-Chinese</em>, Indian-made panels from Waaree hugely valuable to US buyers — which is why <strong>~65–70% of its ₹53,000 Cr order book is export</strong> and it has built its own factory in Texas. This tailwind is also its biggest single risk.</li>
-    <li><strong>It is climbing the value chain to protect margins.</strong> A module maker that buys its key input (solar cells) from China is exposed and thin-margined. Waaree is <strong>integrating backwards</strong> — it now runs India's largest solar-cell plant (5.4 GW), and is building <strong>ingots and wafers</strong> (a 10 GW plant in Nagpur) to become self-reliant from silicon block to finished panel.</li>
+    <li><strong>It scaled from small to enormous, fast.</strong> Revenue went from ₹2,854 Cr (FY22) to <strong>₹26,537 Cr in FY26 (+84% in a single year)</strong>; profit (PAT) hit <strong>₹3,884 Cr, up 101%</strong>. It listed only in <strong>October 2024</strong> in one of the most oversubscribed IPOs India has seen (~76×), and is now controlled 64.12% (Jun 2026) by the founding <strong>Doshi family</strong>.</li>
+    <li><strong>Its signature story is China, tariffs and America.</strong> The United States has slapped heavy anti-dumping/anti-subsidy duties on <em>Chinese</em> solar (and on Chinese product routed through South-East Asia). That makes clean, <em>non-Chinese</em>, Indian-made panels from Waaree hugely valuable to US buyers — which is why about <strong>60% of its ₹61,500 Cr order book is US-linked</strong> (~36% to be made in its own Texas factory, ~24% exported from India; the other ~40% is for Indian customers). This tailwind is also its biggest single risk — and in Sep 2026 the US imposed steep final duties on Indian-made solar cells.</li>
+    <li><strong>It is climbing the value chain to protect margins.</strong> A module maker that buys its key input (solar cells) from China is exposed and thin-margined. Waaree is <strong>integrating backwards</strong> — it now runs India's largest solar-cell plant (5.4 GW), is adding 10 GW more cells at Unn within FY27, and is building <strong>ingots and wafers</strong> (a 10 GW plant in Nagpur, due FY28) to become self-reliant from silicon block to finished panel.</li>
   </ul>
 
   <div class="plain">
     <div class="ptag">In plain terms</div>
-    <p>Think of Waaree as <strong>India's answer to "who makes solar panels if you don't want to buy Chinese?"</strong> China dominates world solar so completely that Western governments have thrown up tariff walls to keep Chinese panels out. That created a gap — a global scramble for panels made <em>anywhere but China</em> — and Waaree, sitting on India's cheap labour, a supportive government and years of manufacturing know-how, ran straight into it. Its job now is threefold: keep filling its giant factories, march up the supply chain so it depends on China for less and less, and not get whipsawed if American solar policy suddenly changes. Get those right and it is a structural winner of the energy transition; get the timing wrong and it is a capital-hungry commodity maker at the mercy of foreign politics.</p>
+    <p>Waaree is <strong>India's answer to "who makes solar panels if you don't want to buy Chinese?"</strong> China dominates world solar so completely that Western governments have thrown up tariff walls to keep Chinese panels out. That created a gap — a global scramble for panels made <em>anywhere but China</em> — and Waaree, sitting on India's cheap labour, a supportive government and years of manufacturing know-how, ran straight into it. Its job now is threefold: keep filling its giant factories, march up the supply chain so it depends on China for less and less, and not get whipsawed if American solar policy suddenly changes. Get those right and it is a structural winner of the energy transition; get the timing wrong and it is a capital-hungry commodity maker at the mercy of foreign politics.</p>
   </div>
 </section>
 
@@ -355,7 +356,7 @@
   <div class="part-head"><span class="pno">03</span><h2>The company and who controls it</h2></div>
   <p class="part-sub">From a Mumbai trader started with $60 to India's biggest solar name.</p>
 
-  <p class="lead">Waaree is a <strong>founder-controlled, family-run business</strong>. It was incorporated in <strong>1990</strong> and built by <strong>Hitesh Doshi</strong>, who began as a small trader and turned Waaree into India's leading solar-panel maker — a rise so steep that the October 2024 IPO propelled the Doshi siblings into the ranks of India's richest. The <strong>Doshi promoter group still owns ~64%</strong>, so incentives are heavily aligned with long-term shareholders, and the family drives the aggressive expansion strategy.</p>
+  <p class="lead">Waaree is a <strong>founder-controlled, family-run business</strong>. It was incorporated in <strong>1990</strong> and built by <strong>Hitesh Doshi</strong>, who began as a small trader and turned Waaree into India's leading solar-panel maker — a rise so steep that the October 2024 IPO propelled the Doshi siblings into the ranks of India's richest. The <strong>Doshi promoter group still owns 64.12%</strong> (Jun 2026), so incentives are heavily aligned with long-term shareholders, and the family drives the aggressive expansion strategy.</p>
 
   <h3>Timeline</h3>
   <ul class="timeline">
@@ -364,13 +365,14 @@
     <li><div class="yr">FY22</div><div class="ev">Revenue ₹2,854 Cr; the platform for a step-change in scale as global solar demand and US tariff dynamics take off.</div></li>
     <li><div class="yr">2023</div><div class="ev">Sets up <strong>Waaree Solar Americas</strong> and a module plant in <strong>Brookshire, Texas</strong> — a beach-head inside the tariff-protected US market.</div></li>
     <li class="major"><div class="yr">Oct 2024</div><div class="ev"><strong>IPO</strong> — ₹4,321 Cr issue (₹3,600 Cr fresh + ₹721 Cr OFS), ~76× oversubscribed; lists 28 Oct 2024 at a ~66% premium (₹1,503 → ₹2,500).</div></li>
-    <li><div class="yr">FY25</div><div class="ev">Revenue ₹14,444 Cr, PAT ₹1,928 Cr; begins serious <strong>backward integration</strong> into solar cells and announces Texas expansion to 3.2 GW.</div></li>
+    <li><div class="yr">FY25</div><div class="ev">Revenue ₹14,444 Cr, PAT ₹1,928 Cr; begins serious <strong>backward integration</strong> into solar cells and announces a Texas expansion.</div></li>
     <li class="major"><div class="yr">FY26</div><div class="ev">Record year: revenue <strong>₹26,537 Cr (+84%)</strong>, PAT <strong>₹3,884 Cr (+101%)</strong>; ~26 GW module &amp; 5.4 GW cell capacity; ₹53,000 Cr order book; launches "Waaree 2.0" push into wafers, batteries, electrolysers and inverters.</div></li>
+    <li><div class="yr">Q1 FY27</div><div class="ev">Revenue ₹7,932 Cr (+79%), PAT ₹892 Cr (+15%), EBITDA margin 18.2%; order book <strong>₹61,500 Cr / 25.2 GW</strong>; 5.15 GWh BESS line commissioned; buys 55% of Associated Power Structures (~₹1,225 Cr) in Sep 2026.</div></li>
   </ul>
 
   <h3>Ownership &amp; management</h3>
   <ul class="clean">
-    <li><strong>Promoters:</strong> the <strong>Doshi family</strong> (~64.2%), led by Chairman &amp; Managing Director <strong>Hitesh Doshi</strong>. Founder-run, with the family driving capital allocation and the fast expansion.</li>
+    <li><strong>Promoters:</strong> the <strong>Doshi family</strong> (64.12%, Jun 2026), led by Chairman &amp; Managing Director <strong>Hitesh Doshi</strong>. Founder-run, with the family driving capital allocation and the fast expansion. Day-to-day management includes Whole-time Director &amp; CEO <strong>Jignesh Rathod</strong> and CFO <strong>Abhishek Pareek</strong>.</li>
     <li><strong>Public/institutional:</strong> the remaining ~36% held by domestic and foreign institutions and retail investors post-IPO — the stock is a favourite "energy transition" holding.</li>
     <li><strong>Balance sheet:</strong> modest debt (~₹3,200 Cr) against ~₹14,150 Cr net worth and strong profitability (ROE ~29%, ROCE ~33%) — a well-capitalised balance sheet funding a very large capex programme, though free cash flow is being consumed by that expansion (FY26 operating cash flow fell as working capital and capex rose).</li>
   </ul>
@@ -392,13 +394,13 @@
 
   <div class="plain">
     <div class="ptag">Why this is rocket fuel for Waaree</div>
-    <p>When the cheapest supplier (China, directly or via South-East Asia) is suddenly taxed out of the US market, American developers still need panels — a lot of them, especially now that <strong>AI data centres</strong> are driving a surge in US power demand. They turn to the next-best source: countries <em>not</em> caught in the tariff net. India is the standout, and <strong>Waaree is the biggest Indian name</strong>. Crucially, Indian panels face far <em>lighter</em> US duties than South-East Asian ones, so a Waaree panel can land in the US cheaper than a tariff-laden rival <em>and</em> at a premium price to Waaree. That is why roughly <strong>two-thirds of its ₹53,000 Cr order book is export</strong> (chiefly US), and why US sales carry richer margins than domestic ones. In effect, American trade policy is subsidising Indian solar manufacturing.</p>
+    <p>When the cheapest supplier (China, directly or via South-East Asia) is suddenly taxed out of the US market, American developers still need panels — a lot of them, especially now that <strong>AI data centres</strong> are driving a surge in US power demand. They turn to the next-best source: countries <em>not</em> caught in the tariff net. India is the standout, and <strong>Waaree is the biggest Indian name</strong>. For several years Indian panels faced far <em>lighter</em> US duties than South-East Asian ones, so a Waaree panel could land in the US cheaper than a tariff-laden rival <em>and</em> at a premium price to Waaree. That is why about <strong>60% of its ₹61,500 Cr order book (Jul 2026) is US-linked</strong> — ~36% to be supplied from its own US factory and ~24% exported from India — and why US sales carry richer margins than domestic ones. In effect, American trade policy subsidised Indian solar manufacturing. That window is narrowing: in Sep 2026 the US set final anti-dumping (123.04%) and countervailing (126.09%) duties on Indian crystalline-silicon cells, whether or not assembled into modules — which is why the US-made share of the book matters more and more.</p>
   </div>
 
   <h3>The Texas hedge — building inside the wall</h3>
-  <p>Waaree didn't just export <em>to</em> America; it built <em>in</em> America. Its <strong>Brookshire, Texas</strong> module plant went from 1.6 GW to <strong>3.2 GW</strong> in 2025, with plans to reach <strong>~5 GW by 2027</strong> — potentially one of the largest solar factories in the US. A domestic US plant is a powerful hedge: it lets Waaree qualify for US "domestic-content" incentives, sit <em>inside</em> any future import barrier, and serve American demand even if trade policy tightens further. US Customs has also verified that Waaree's exports contain <strong>no Chinese-origin cells</strong>, de-risking that pipeline under forced-labour rules.</p>
+  <p>Waaree didn't just export <em>to</em> America; it built <em>in</em> America. Its US module capacity (the <strong>Brookshire, Texas</strong> plant) stood at <strong>1.6 GW installed</strong> in Q1 FY27, running at 59% utilisation, with <strong>+2.6 GW being added during FY27</strong> (new lines from about Aug 2026); the company also references an <strong>Arizona</strong> plant tied to an HJT order. A domestic US plant is a powerful hedge: it lets Waaree qualify for US "domestic-content" incentives, sit <em>inside</em> any future import barrier, and serve American demand even if trade policy tightens further. US Customs has also verified that Waaree's exports contain <strong>no Chinese-origin cells</strong>, de-risking that pipeline under forced-labour rules.</p>
 
-  <div class="note"><b>The two-edged sword.</b> The same policy that created Waaree's export boom can take it away. US solar trade policy is <em>volatile</em>: expiring Section 201 tariffs, possible new AD/CVD cases aimed at India, Indonesia and Laos, changes to Inflation Reduction Act (IRA) subsidies, and shifting domestic-content rules can all swing US demand and pricing quickly. A single adverse ruling — say, an AD/CVD case that puts India in the crosshairs, or a rollback of US solar incentives — could compress the premium that today makes exports so lucrative. Waaree's biggest strength (US-tariff-driven demand) is also its biggest single dependency, and it sits in Washington's hands, not Mumbai's.</div>
+  <div class="note"><b>The two-edged sword.</b> The same policy that created Waaree's export boom can take it away. US solar trade policy is <em>volatile</em>: expiring Section 201 tariffs, the AD/CVD case on Indian cells (final duties of 123.04% + 126.09% set in Sep 2026), changes to Inflation Reduction Act (IRA) subsidies, and shifting domestic-content rules can all swing US demand and pricing quickly. Adverse rulings — the 2026 AD/CVD duties on Indian cells, or a rollback of US solar incentives — can compress the premium that today makes exports so lucrative. Waaree's biggest strength (US-tariff-driven demand) is also its biggest single dependency, and it sits in Washington's hands, not Mumbai's.</div>
 </section>
 
 <!-- 05 — BESPOKE: backward integration -->
@@ -417,7 +419,7 @@
       <div class="bar-row"><div class="blab">Cell capacity<small>installed, end FY26</small></div><div class="track"><span class="fill chain" style="width:43%"></span></div><div class="bval">5.4</div></div>
       <div class="bar-row"><div class="blab">Ingot–wafer<small>Nagpur, being built</small></div><div class="track"><span class="fill ink" style="width:79%"></span></div><div class="bval">10.0 (plan)</div></div>
     </div>
-    <div class="legend"><span>Cell production jumped from a token 0.1 GW to 2.3 GW in one year, with 5.4 GW of cell capacity now installed — and a 10 GW ingot–wafer plant in Nagpur takes Waaree two whole steps upstream.</span></div>
+    <div class="legend"><span>Cell production jumped from a token 0.1 GW to 2.3 GW in one year, with 5.4 GW of cell capacity installed — a further 10 GW of cells at Unn (equipment on site, ALMM-II listing applied for) is due within FY27 for 15.4 GW in all, and a 10 GW ingot–wafer plant in Nagpur (FY28) takes Waaree two whole steps upstream.</span></div>
   </div>
 
   <div class="plain">
@@ -425,7 +427,7 @@
     <p>Every step Waaree brings in-house does two things at once. <strong>(1) Margin:</strong> instead of paying a Chinese supplier's profit on cells, Waaree keeps that value itself — the cell is the highest-value part of a panel, so making your own cells is the single biggest margin lever a module maker has. <strong>(2) Self-reliance:</strong> owning cells (and eventually wafers) means Waaree's costs and supply no longer swing with China's export policy, currency or price games — critical when your customers (US, India) specifically want <em>non-Chinese</em> supply. There's even a regulatory kicker: India's rules (§06) increasingly reward or <em>require</em> locally made cells, and US forced-labour rules reward verifiably non-Chinese content. Vertical integration is how Waaree turns "we assemble panels" into "we control the whole chain" — a far more defensible position.</p>
   </div>
 
-  <div class="note gold"><b>The one gap that remains:</b> even a fully integrated Waaree still needs <strong>polysilicon</strong> — the raw purified silicon at the very top of the chain, ~80–90% of which is Chinese. Wafers/ingots take Waaree most of the way, but that final upstream dependence (and the capital, technology and execution risk of building cell/wafer plants at speed) is the honest limit on the self-reliance story.</div>
+  <div class="note gold"><b>The one gap that remains:</b> even a fully integrated Waaree still needs <strong>polysilicon</strong> — the raw purified silicon at the very top of the chain, ~80–90% of which is Chinese. Wafers/ingots take Waaree most of the way, but that final upstream dependence (and the capital, technology and execution risk of building cell/wafer plants at speed) is the real limit on the self-reliance story.</div>
 </section>
 
 <!-- 06 — BESPOKE: India demand + ALMM/PLI -->
@@ -449,7 +451,7 @@
     <thead><tr><th>Policy</th><th>What it does</th><th>Why it helps Waaree</th></tr></thead>
     <tbody>
       <tr><td class="t-strong">ALMM (Approved List of Models &amp; Manufacturers)</td><td>A government "approved list": most government-linked and subsidised projects can <em>only</em> buy modules (and, increasingly, cells) from listed makers.</td><td>Effectively <strong>fences Chinese panels out</strong> of a huge chunk of the Indian market. Waaree is a top name on the list.</td></tr>
-      <tr><td class="t-strong">ALMM List-II (cells)</td><td>From <strong>June 2026</strong>, many projects must use ALMM-listed <em>cells</em>, not just modules — pushing the local-content requirement one step upstream.</td><td>Rewards exactly Waaree's backward integration (§05): its own listed cells become a competitive must-have.</td></tr>
+      <tr><td class="t-strong">ALMM List-II (cells)</td><td>From <strong>1 June 2026</strong>, many projects must use ALMM-listed <em>cells</em>, not just modules — pushing the local-content requirement one step upstream. A temporary exemption runs to <strong>Dec 2026</strong> for C&amp;I and non-subsidy residential projects.</td><td>Rewards exactly Waaree's backward integration (§05): its own listed cells become a competitive must-have.</td></tr>
       <tr><td class="t-strong">PLI (Production-Linked Incentive)</td><td>Cash incentives for building high-efficiency, integrated cell/module capacity in India.</td><td>Directly subsidises Waaree's capacity expansion, improving project economics.</td></tr>
       <tr><td class="t-strong">DCR / customs duty (BCD)</td><td>Domestic-content requirements for certain schemes, plus import duties on foreign cells/modules.</td><td>Makes imported panels pricier and mandates local content — tilting demand toward domestic makers.</td></tr>
     </tbody>
@@ -467,7 +469,7 @@
   <div class="part-head"><span class="pno">07</span><h2>Capacity and the order book: forward visibility</h2></div>
   <p class="part-sub">Two numbers that tell you how much of the future is already booked.</p>
 
-  <p class="lead">For a capacity business, the two figures that matter most are <strong>how much you can make</strong> (installed GW) and <strong>how much is already sold</strong> (the order book). Waaree scores unusually well on both: a rapidly growing capacity base and a <strong>₹53,000 Cr order book</strong> that stretches years into the future — rare visibility for a manufacturer.</p>
+  <p class="lead">For a capacity business, the two figures that matter most are <strong>how much you can make</strong> (installed GW) and <strong>how much is already sold</strong> (the order book). Waaree scores unusually well on both: a rapidly growing capacity base and a <strong>₹61,500 Cr order book (25.2 GW, Jul 2026)</strong> that stretches years into the future — rare visibility for a manufacturer.</p>
 
   <div class="chart">
     <div class="c-title">Module capacity expansion</div>
@@ -481,14 +483,14 @@
   </div>
 
   <div class="mini-stats">
-    <div class="ms gold"><div class="msv">₹53,000 Cr</div><div class="msl">Total order book — up from ₹47,000 Cr a year earlier</div></div>
-    <div class="ms"><div class="msv">~65–70%</div><div class="msl">Export share of the order book — delivered over ~3–4 years</div></div>
+    <div class="ms gold"><div class="msv">₹61,500 Cr</div><div class="msl">Total order book, 25.2 GW (Jul '26) — up from ₹53,000 Cr at Mar '26</div></div>
+    <div class="ms"><div class="msv">40 / 36 / 24</div><div class="msl">Order-book mix, %: India domestic / US-made (Texas) / exports from India</div></div>
     <div class="ms green"><div class="msv">100 GW+</div><div class="msl">Enquiry/bid pipeline beyond the firm order book</div></div>
   </div>
 
   <div class="plain">
     <div class="ptag">Why a multi-year order book is so valuable</div>
-    <p>Most manufacturers live quarter to quarter, hoping demand shows up. Waaree can see much further: a <strong>₹53,000 Cr book — roughly two years of sales — much of it long-dated US export orders</strong> to be delivered over the next three-to-four years. That does three things: it <em>de-risks utilisation</em> (the factories have work booked), it <em>justifies the aggressive capex</em> (you build 26 GW of capacity because you can see the demand to fill it), and it <em>smooths pricing</em> (long contracts lock in volumes). The caveat: order books can be renegotiated, delayed or cancelled if end-markets wobble — so watch whether the book keeps <em>growing</em> quarter after quarter (a sign demand is real and repeating) rather than just being drawn down.</p>
+    <p>Most manufacturers live quarter to quarter, hoping demand shows up. Waaree can see much further: a <strong>₹61,500 Cr book (Jul 2026) — roughly two years of sales — about 60% of it tied to the US</strong> (supplied from its Texas plant or exported from India) and delivered over several years. That does three things: it <em>de-risks utilisation</em> (the factories have work booked), it <em>justifies the aggressive capex</em> (you build 26 GW of capacity because you can see the demand to fill it), and it <em>smooths pricing</em> (long contracts lock in volumes). The caveat: order books can be renegotiated, delayed or cancelled if end-markets wobble — so watch whether the book keeps <em>growing</em> quarter after quarter (a sign demand is real and repeating) rather than just being drawn down.</p>
   </div>
 </section>
 
@@ -500,9 +502,10 @@
   <p class="lead">Waaree's ambition is to be an <strong>"everything solar/clean-energy" company</strong>, not just a panel maker. Alongside the module business it is pouring capital into three adjacencies — <strong>batteries, green-hydrogen electrolysers and inverters</strong> — each a potentially large market, each also a fresh call on cash and execution.</p>
 
   <ul class="clean">
-    <li><strong>Batteries / energy storage (BESS).</strong> Solar only generates by day; storing it makes it dispatchable — the single biggest complement to solar. Waaree is building a <strong>3.5 GWh lithium-ion cell plant</strong>, with plans to scale toward <strong>20 GWh</strong> (an ~₹8,000 Cr+ investment). As grids add more solar, storage demand explodes — this could become a second growth engine.</li>
+    <li><strong>Batteries / energy storage (BESS).</strong> Solar only generates by day; storing it makes it dispatchable — the single biggest complement to solar. Waaree has commissioned a <strong>5.15 GWh automated BESS container line</strong> (versus 3.5 GWh planned); battery cells and packs come in a later 16.5 GWh phase due by FY29, for a <strong>20 GWh</strong> programme in all (an ~₹8,000 Cr+ investment). As grids add more solar, storage demand explodes — this could become a second growth engine.</li>
     <li><strong>Green hydrogen electrolysers.</strong> Machines that split water into hydrogen using renewable power — central to India's green-hydrogen mission. Waaree is scaling electrolyser capacity from <strong>300 MW toward 1,000 MW</strong>. Early-stage, but strategically adjacent.</li>
-    <li><strong>Inverters.</strong> The device that converts a panel's DC electricity into usable AC. Waaree is adding a <strong>~4 GW inverter line</strong> — natural bundling with its panels, capturing more of each solar system's value.</li>
+    <li><strong>Inverters.</strong> The device that converts a panel's DC electricity into usable AC. Inverter capacity reached <strong>4.15 GW</strong> after a 1.1 GW line at Sarodhi (30 Sep 2026) — natural bundling with its panels, capturing more of each solar system's value.</li>
+    <li><strong>Transmission &amp; distribution.</strong> In Sep 2026 Waaree bought <strong>55% of Associated Power Structures</strong> (a T&amp;D EPC business) for about <strong>₹1,225 Cr</strong>, and it has a 17.6 MVA inverter-duty transformer in production.</li>
     <li><strong>EPC &amp; services.</strong> Engineering and building whole solar plants (~10% of sales) — deepening customer relationships and pulling through module demand.</li>
   </ul>
 
@@ -584,8 +587,8 @@
   </div>
 
   <div class="plain">
-    <div class="ptag">How to think about the valuation</div>
-    <p>At a market cap of ~<strong>₹83,000 Cr</strong> (June 2026) on ~₹3,884 Cr of FY26 profit, Waaree trades around <strong>21–23× trailing earnings</strong> — punchy for a manufacturer, but notably <em>lower</em> than many high-growth Indian industrials (and far below, say, Solar Industries' ~100×), because the market prices in real cyclicality and policy risk. The bull maths: if FY27 operating EBITDA hits the guided <strong>₹7,000–7,700 Cr</strong> (+20–25%) and integration keeps lifting margins, earnings can grow into and past the multiple. The bear maths: solar manufacturing is <em>cyclical and policy-dependent</em> — management itself guides to a more normal <strong>~19–20% sustained EBITDA margin</strong> long-term (below FY26's peak), a hint that today's fat margins partly reflect a tariff-driven sweet spot that may not last. So the multiple is reasonable <em>if</em> the growth and margins hold, and expensive <em>if</em> the cycle or US policy turns.</p>
+    <div class="ptag">How to read the valuation</div>
+    <p>At a market cap of ~<strong>₹70,350 Cr</strong> (as of 13 Oct 2026) on ~₹4,000 Cr of trailing profit, Waaree trades around <strong>17.5× trailing earnings</strong> — punchy for a manufacturer, but notably <em>lower</em> than many high-growth Indian industrials (and far below, say, Solar Industries' ~100×), because the market prices in real cyclicality and policy risk. The bull maths: if FY27 operating EBITDA hits the guided <strong>₹7,000–7,700 Cr</strong> (+20–25%) and integration keeps lifting margins, earnings growth can make today's multiple look cheap. The bear maths: solar manufacturing is <em>cyclical and policy-dependent</em> — management itself guides to a more normal <strong>~19–20% sustained EBITDA margin</strong> long-term (below FY26's peak), a hint that today's fat margins partly reflect a tariff-driven sweet spot that may not last; Q1 FY27's operating margin was already down to 18.2%. So the multiple is reasonable <em>if</em> the growth and margins hold, and expensive <em>if</em> the cycle or US policy turns.</p>
   </div>
 
   <div class="note gold"><b>One-off / quality flags:</b> FY26's ~22% operating margin sits well above the ~19–20% management calls sustainable — treat the current margin as a <em>peak-ish</em> level, not a run-rate. And note the <strong>cash-flow gap</strong>: operating cash flow fell (~₹1,626 Cr vs ~₹3,158 Cr) even as profit doubled, because working capital and a large capex programme consumed cash. Reported EBITDA (₹6,617 Cr) exceeds operating EBITDA (₹5,909 Cr) partly due to other income — use the operating figure for the core business.</div>
@@ -602,18 +605,18 @@
     <div class="col bull">
       <h4>The bull case</h4>
       <ul class="clean">
-        <li><strong>Tariff-protected export engine</strong> — US duties on Chinese/SE-Asian solar hand Waaree a large, premium-priced order book (~65–70% export).</li>
+        <li><strong>Tariff-protected export engine</strong> — US duties on Chinese/SE-Asian solar hand Waaree a large, premium-priced order book (~60% US-linked: 36% US-made, 24% exports from India).</li>
         <li><strong>Scale + integration moat</strong> — largest non-Chinese module maker, now making its own cells (5.4 GW) and building wafers — lower cost, less China dependence.</li>
         <li><strong>Twin policy tailwinds</strong> — US (non-China demand) and India (ALMM/PLI/DCR) both engineer demand for exactly what it makes.</li>
-        <li><strong>Visibility</strong> — ₹53,000 Cr order book + 100 GW+ pipeline underpins utilisation for years.</li>
+        <li><strong>Visibility</strong> — ₹61,500 Cr (25.2 GW) order book + 100 GW+ pipeline underpins utilisation for years.</li>
         <li><strong>Optionality</strong> — batteries, hydrogen and inverters could become second and third growth engines.</li>
       </ul>
     </div>
     <div class="col bear">
       <h4>The bear case</h4>
       <ul class="clean">
-        <li><strong>US policy dependence</strong> — the export premium sits in Washington's hands; new AD/CVD cases on India, IRA rollbacks or domestic-content changes could hit hard.</li>
-        <li><strong>Cyclical, commodity economics</strong> — panels are ultimately a commodity; management guides margins <em>down</em> to ~19–20% long-term.</li>
+        <li><strong>US policy dependence</strong> — the export premium sits in Washington's hands; the Sep 2026 AD/CVD duties on Indian cells, IRA rollbacks or domestic-content changes could hit hard.</li>
+        <li><strong>Cyclical, commodity economics</strong> — panels are ultimately a commodity; management guides margins <em>down</em> to ~19–20% long-term, and Q1 FY27 printed 18.2%.</li>
         <li><strong>Domestic oversupply</strong> — everyone is building capacity; a home-market glut could crush prices/margins.</li>
         <li><strong>Capex &amp; cash flow</strong> — huge simultaneous investments; free cash flow thin, execution risk high across many new lines.</li>
         <li><strong>Residual China dependence</strong> — still reliant on Chinese polysilicon at the top of the chain.</li>
@@ -636,14 +639,17 @@
     <li>Waaree Energies Q2 FY26 earnings call transcript (order book, export mix, margin guidance).</li>
     <li>US Dept of Commerce / Trade.gov — final AD/CVD determinations on solar cells from Cambodia, Malaysia, Thailand, Vietnam (Apr 2025).</li>
     <li>Norton Rose Fulbright; White &amp; Case — updated US solar import tariff / circumvention briefings (2025).</li>
-    <li>Electrek; pv magazine; PR Newswire — Waaree Texas (Brookshire) expansion to 3.2 GW and ~5 GW by 2027.</li>
+    <li>Electrek; pv magazine; PR Newswire — Waaree Texas (Brookshire) expansion plans (superseded: Q1 FY27 deck shows 1.6 GW installed, +2.6 GW in FY27).</li>
+    <li>Waaree Energies — Q1 FY27 investor deck and earnings call (Jul 2026): results, ₹61,500 Cr / 25.2 GW order book and mix, US capacity, Unn cells, BESS line, management.</li>
+    <li>BSE filings, 30 Sep 2026 — Sarodhi inverter line; Associated Power Structures acquisition.</li>
+    <li>Screener.in — market cap ₹70,353 Cr, P/E 17.5×, promoter 64.12% (as of 13 Oct 2026 close).</li>
     <li>MNRE — Approved List of Models &amp; Manufacturers (ALMM) List-I &amp; List-II; PLI &amp; DCR notifications.</li>
     <li>ess-news; GreentechLead — Waaree battery (3.5→20 GWh), electrolyser and inverter capex plans.</li>
     <li>SaurEnergy; pv magazine India; JMK/SBICAPS — India FY26 solar-installation and manufacturing-capacity data.</li>
     <li>Chittorgarh; Groww — Waaree Energies IPO details (Oct 2024, ₹4,321 Cr, ~76× subscription).</li>
     <li>BSE (bseindia.com, scrip 544277) &amp; NSE (WAAREEENER) disclosures; Business Standard on Hitesh Doshi / Doshi family.</li>
   </ol>
-  <p class="disc">This primer is an educational, plain-English explainer compiled from public sources and is <strong>not investment advice, a recommendation, or a solicitation</strong> to buy or sell any security. Figures are approximate, drawn from company disclosures and third-party reports as of FY26 (year ended March 2026), and may contain errors or become outdated; verify all numbers against primary sources before relying on them. The author may hold no position and expresses no view on the stock's suitability for any investor.</p>
+  <p class="disc">This primer is an educational, plain-English explainer compiled from public sources and is <strong>not investment advice, a recommendation, or a solicitation</strong> to buy or sell any security. Figures are approximate, drawn from company disclosures and third-party reports as of FY26 (year ended March 2026) and Q1 FY27, with market data as of 13 Oct 2026, and may contain errors or become outdated; verify all numbers against primary sources before relying on them. The author may hold no position and expresses no view on the stock's suitability for any investor.</p>
 </footer>
 
 </main>
