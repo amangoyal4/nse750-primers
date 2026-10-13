@@ -4,9 +4,592 @@ Slug: power-generation · Research date: 2026-10-13 · Tags: [V] verified this s
 
 Members (14): Adani Power, NTPC, Adani Green Energy, JSW Energy, NHPC, NTPC Green Energy, NLC India, SJVN, ACME Solar Holdings, Jaiprakash Power Ventures, Reliance Power, KPI Green Energy, GMR Power and Urban Infra, RattanIndia Power.
 
-(Research log appended below as sources are fetched; synthesis sections follow.)
+Structure: Part I = synthesis (§0–12 industry checklist, then A–H). Part II = research log R1–R24 with every fetched source and URL. Company packs, the company-KPI appendix and primer issues are out of scope (other subagents).
 
-## R. Research log (raw notes with sources)
+## Part I — Synthesis
+
+## 0. One-paragraph take
+
+Indian power generation in October 2026 is two businesses sharing one grid. The first is a **regulated or long-contracted annuity**: coal, hydro and nuclear plants paid a capacity charge that recovers a 15.5% post-tax ROE on regulated equity at 85% availability, plus a pass-through energy charge. NTPC, NHPC, SJVN and NLC are the archetypes, and so are the 25-year fixed-tariff solar and wind PPAs of Adani Green, NTPC Green, ACME and KPI. The second is a **cyclical merchant business** whose earnings swing with the IEX day-ahead price. That price has moved a lot: ₹3.8/kWh average in FY26, the year demand grew only 0.8%, and ₹7.3/kWh in September 2026 after 9–11% demand growth and a 270.8 GW peak on 21 May 2026 (IEEFA/CREA [V]). Capacity is growing fast, from 475 GW in FY25 to 549 GW in June 2026, with a record 61.6 GW gross added in FY26 (ICRA [V]). The binding constraints are elsewhere. They are **transmission** (FY26 lines were 79% of target; solar curtailment is rising), **offtake** (44.8 GW of awarded RE has no signed PPA/PSA, MNRE OM May-2026 [V]) and the **evening peak** (solar gives nothing after sunset, so discoms are again signing 25-year coal PPAs at ~₹6/kWh). The investable forces are: (1) the thermal revival, with 42.7–47.5 GW of coal under construction; (2) storage as the new growth vertical (BESS bids at ₹1.8–2.3 lakh/MW/month, 15.9 GW of PSP under construction); (3) the shift from vanilla solar to firm, dispatchable RE (FDRE) at ₹5.25–6.3/kWh; (4) much better discom payments under the LPS Rules 2022, with legacy dues down from ₹1.40 lakh cr to ₹3,330 cr; and (5) merchant price cyclicality, driven by weather and coal.
+
+---
+
+## 1. What the sub-sector does — value chain and where value is captured
+
+**Physical chain:** fuel (coal mines → rail → plant; imported coal → port; gas/LNG; uranium; water; sun/wind) → **generation** (this sub-sector) → inter-state transmission (ISTS: POWERGRID + TBCB licensees; CTUIL plans, Grid-India dispatches) and intra-state transmission (STUs) → **distribution** (≈70 discoms, mostly state-owned; a few private: Tata Power, Torrent, CESC, Adani Electricity) → consumers. A thin **trading layer** sits alongside: power exchanges (IEX ~85% of exchange volume [K], PXIL, HPX) and licensed traders. In FY25 it handled 238 BU, or 13% of generation (CERC [V]).
+
+**Commercial chain.** About 87% of generation is sold under long-term PPAs (Sec 62 cost-plus, or Sec 63 competitively bid) to discoms, either directly or through an intermediary REIA (SECI, NTPC, NHPC or SJVN). The REIA signs a PPA with the generator and a back-to-back PSA with the discom, keeping a ~₹0.07/kWh trading margin [K]. The other ~13% is short-term: exchanges (DAM, RTM, TAM, G-DAM, HP-DAM), bilateral trades and DSM (CERC 2024-25 [V]). Group-captive, open-access and C&I PPAs are a fast-growing third channel for RE.
+
+**Where value is captured:**
+| Layer | Economics | Who earns |
+|---|---|---|
+| Coal mining | CIL FY26 PAT ₹31,071 cr on ₹1.68 lakh cr revenue (18% margin) [V]; captive mines (NTPC 19% of its coal) cut fuel cost | CIL, captive-mine owners (NTPC, NLC, Adani, JSW, Hindalco) |
+| Regulated generation | 15.5% post-tax ROE on 30% normative equity, plus incentive above 85% PLF and efficiency gains on heat rate/aux | NTPC, NHPC, SJVN, NLC, DVC, state gencos |
+| Competitive thermal (Sec 63 / merchant) | Bid tariff minus fuel; merchant upside when IEX > variable cost | Adani Power, JSW Energy, JP Power, RattanIndia, GMR, Reliance Power, Tata Power |
+| RE IPP | 25-yr fixed tariff; equity IRR 12–16% at ₹2.5–2.7/kWh solar [E]; storage and FDRE command premia | Adani Green, NTPC Green, ACME, JSW Neo, ReNew, Greenko, Avaada, KPI (C&I) |
+| Transmission | 15% ROE (new, CERC) or TBCB annuity; charges ₹46,219 cr in FY25 [V] | POWERGRID, Adani Energy, Sterlite, IndiGrid |
+| Exchanges | Transaction fee ~2 paise/kWh per side [K]; asset-light, ~80% EBITDA margin | IEX |
+| Distribution | ACS ₹7.09 vs revenue without subsidy ₹5.54/kWh (FY24); state subsidy fills the gap [V] | Private discoms earn regulated ROE; most state discoms are near break-even |
+
+**Insight:** Value capture has moved *upstream and sideways*. Mining is the most profitable layer, and storage is the scarcest. Pure generation of daytime solar energy is commoditising: tariffs are ~₹2.5–2.7/kWh, curtailment risk is rising, and 44.8 GW is still unsold. Generation of **firm, evening-peak power**, whether from coal, PSP, BESS or FDRE, earns a premium of ₹3–4/kWh over daytime solar. Compare ₹6.28/kWh FDRE (ACME–SECI, Q1 FY27 [V]) and ~₹6/kWh new coal PPAs (ICRA [V]) with ~₹2.6 for vanilla solar.
+
+---
+
+## 2. Size and growth
+
+**Physical size (CEA via CERC/IEEFA/CREA [V]):**
+- Installed capacity: **274.9 GW (FY15) → 475.2 GW (FY25) → 532.7 GW (Mar-26) → 548.9 GW (Jun-26)**. FY15–FY25 CAGR 5.6%; Jun-25→Jun-26 +13%.
+- Gross generation: **1,110 BU (FY15) → 1,830 BU (FY25)** (5.1% CAGR). FY26 ≈ 1,840 BU [E] (solar's 174.76 BU = 9.50% share implies ~1,840 BU; MNRE snippet [K]). Q1 FY27 generation was a record 524 BU, +9% YoY (CREA [V]).
+- Energy requirement: 1,069 BU (FY15) → 1,694 BU (FY25), 4.7% CAGR. Peak: 148 GW (FY15) → 250 GW (FY25) → **270.8 GW (21-May-2026)**.
+- Per-capita consumption 1,395 kWh (FY24) vs world ~3,474 kWh (CERC citing IEA [V]). There is a lot of headroom.
+
+**Money size:**
+- Bus-bar generation revenue pool ≈ 1,840 BU × ~₹4.8/kWh average realisation ≈ **₹8.5–9 lakh cr (~US$100 bn) per year** [E]. The ₹4.8 average is a composite: NTPC ~₹4.5/kWh (fixed ₹1.78 + variable ₹2.68, Q1 FY27 [V]); RE ₹2.5–4; merchant ₹3.8–5; new coal ₹6.
+- Listed universe (14 companies): FY26 revenue **₹3.38 lakh cr**, EBITDA ₹1.20 lakh cr, PAT ₹56,205 cr, gross borrowings ₹7.09 lakh cr, net fixed assets + CWIP ₹10.4 lakh cr, m-cap ₹12.3 lakh cr (screener [V], R16). The listed 14 are ~38–40% of the bus-bar pool [E]. The rest is state gencos (MAHAGENCO, RVUNL, TANGEDCO, UPRVUNL, APGENCO, etc.), DVC, NPCIL, Tata Power, Torrent, CESC, ReNew (Nasdaq-listed), Greenko and Avaada (unlisted), and captive plants.
+- Short-term market size ₹89,681 cr (FY25; CERC [V]).
+- Capex: thermal ₹2.3 lakh cr over FY26–28 (Crisil [V]); RE ~₹2.5–3 lakh cr a year at ~45–50 GW a year × ₹4.25–6 cr/MW [E]; transmission plan to FY36 ₹7.93 trn (CEA via Renewable Watch [V]).
+
+**Growth outlook:** CEA's 20th EPS mid-term review expects energy requirement of 3,365 BU and peak of 459 GW by FY36, a 6.4% CAGR (Power Line [V]). NEP capacity is 874 GW by FY32, and CEA's long-term plan has ~1,121 GW by FY36 with ~70% non-fossil [K].
+
+**Global share:** India is the world's #3 electricity producer (~1,830 TWh) after China (~9,500 TWh) and the US (~4,300 TWh) [K, Ember], about 6% of global generation [K]. It is the #3 solar market after China and the US. China alone added **315 GW of solar and 119 GW of wind in 2025** (NEA via TaiyangNews [V]), roughly 9× India's annual additions.
+
+**Domestic vs export:** Generation is almost entirely domestic. Cross-border trade is small: Bhutan imports 5.5 BU (FY25) [V]; exports go to Bangladesh (Adani Godda 1,600 MW is dedicated to Bangladesh [K]) and Nepal.
+
+---
+
+## 3. Demand drivers (with numbers)
+
+1. **Weather and cooling load.** This is the dominant swing factor. FY26 demand grew only +0.8% because of a long, wet monsoon (ICRA [V]); Q1 FY26 generation was −2% YoY. 4M FY27 demand grew +9.4% on a delayed monsoon and heat (ICRA [V]), and Sep-2026 consumption rose 11% YoY to 162 BU (IEX release [V]). The peak fell on solar hours on 61 of 91 days in Q1 FY27 (CREA [V]), which shows how much air-conditioning drives the daytime peak.
+2. **Structural GDP/electrification elasticity.** FY21–FY25 demand CAGR was 7.35% (Power Line [V]). Crisil expects 5.5% CAGR to 2,000 BU by FY28 [V]. Elasticity to GDP is ~0.8–1.0 [E].
+3. **Industrial and commercial.** Industry is ~41–42% of consumption; agriculture ~17–18%; domestic ~25% (CERC Table 7 consumption mix [V], FY24 detail truncated). New industrial loads include green hydrogen, steel/aluminium expansions and data centres. MoP projects data-centre demand at ~26 GW by FY32 (headline in an Angel One link, [K]).
+4. **Electrification of transport and cooking.** EVs, metro and railway traction are small today but compounding [K].
+5. **Policy push for 24×7 supply**, supported by RDSS (₹2.83 lakh cr sanctioned [V]) and smart meters (3.46 crore installed, headline [K]). AT&C losses are now 15.04% (FY25 [V]), so less leakage dampens *billed* demand growth but improves collections.
+
+**Insight:** Demand is not simply "GDP + something". The same economy produced 0.8% in FY26 and ~6.5% in FY27E. Weather now explains more of the year-to-year variance than GDP does, and because the merchant price is set at the margin, a few percent of demand swings the IEX price by 50–100%.
+
+---
+
+## 4. Supply side, cost structure, capacity and utilisation
+
+**Installed mix, 30-Jun-2026 (CEA via IEEFA [V]):** coal+lignite 230.8 GW (42%), solar 162.2 GW (30%), wind 57.4 GW (10%), large hydro 52.1 GW (9%), gas 20.1 GW (4%), biomass 10.9 GW, nuclear 8.8 GW, small hydro 5.2 GW, WtE 0.9 GW, diesel 0.6 GW; total 548.9 GW. **Non-fossil 54.2%** (297.4 GW). That beats the NDC target of 50% non-fossil capacity by 2030, five years early.
+
+**Generation mix is very different:** coal+lignite ~70% of energy in Q1 FY27 (369 of 524 BU), solar 10.9%, hydro 7%, wind 6%, nuclear 3% (CREA [V]). In FY25 thermal was 74.5% (CERC [V]). Non-fossil sources are 54% of capacity but ~29% of energy. Utilisation explains the gap.
+
+**Utilisation (PLF/CUF):** All-India coal PLF bottomed at ~61% in FY18 [K: CEA ~60.7%], rose to 69.1% in FY24 and 69.5% in FY25, fell to **65.2% in FY26**, and is projected at 66–68% for FY27E (ICRA [V]). Q1 FY27 coal PLF was 73% (CREA [V]); NTPC ran 76.7% vs rest-of-India 70.3% (NTPC [V]). Q1 FY27 CUFs: solar 23%, wind 28%, nuclear 85%, large hydro 33%, gas 15% (CREA [V]).
+
+**Under construction:** coal 42.7 GW (CREA, Jun-26 [V]; MoP says 47.5 GW incl. lignite [V]); PSP 15.9 GW; BESS 15.8 GW (MoP via GKToday [V]); nuclear ~8 GW [K]; RE ~100+ GW in pipeline (NTPC Green alone 16 GW; ACME 5.1 GW) [V].
+
+**Fuel:** CIL output fell −2% to 768 MT in FY26 while captive/commercial mines rose +10% to 210 MT (PIB [V]). Power-sector coal imports fell −27.5% in FY26 and −72.9% YoY in Q1 FY27 (ICRA [V]). Stocks dropped from 19.2 days (Mar-26) to ~11 days (Aug-26), and 43 GW of capacity was on critical stock (ICRA [V]). The fuel cycle has turned from glut to tight within six months.
+
+### "Where ₹100 of revenue goes" — composites [E] built from fetched FY26 P&Ls (screener.in consolidated/standalone, [V] R16)
+
+**(a) Regulated coal generator: NTPC standalone FY26 (revenue ₹1,65,494 cr = 100)**
+| Line | ₹ per ₹100 | Notes |
+|---|---|---|
+| Fuel and other "manufacturing" cost | 65 | Mostly coal plus freight; pass-through via the energy charge |
+| Employee cost | 4 | |
+| Other opex (O&M, repairs, admin) | 6 | Recovered within the normative O&M in the capacity charge |
+| **EBITDA** | **25** | |
+| Depreciation | 10 | Recovered in the capacity charge; repays debt |
+| Interest | 6 | |
+| Other income | +2 | |
+| PBT | 12 | |
+| Tax (normalised ~25%; FY26 reported a deferred-tax credit) | 3 | Reported FY26 PAT = 14 because of the tax write-back |
+| **PAT (normalised)** | **~9** | ≈ ROE 15.5% on regulated equity ₹92.8k cr (₹14.4k cr) + incentives + other income [E] |
+
+**(b) Solar IPP: ACME Solar consolidated FY26 (revenue ₹2,023 cr = 100), cross-checked with Adani Green FY26 (₹12,928 cr)**
+| Line | ACME | AGEL | Notes |
+|---|---|---|---|
+| O&M, employees, other opex | 12 | 17 | No fuel. Opex is ~₹5–7 lakh/MW/yr |
+| **EBITDA** | **88** | **83** | |
+| Interest | 56 | 50 | 70–80% debt-funded at 8.4–9% |
+| Depreciation | 23 | 26 | 25–30-yr straight line |
+| Other income | +24 | +8 | ACME's is unusually high (treasury/one-offs) |
+| PBT | 33 | 15 | |
+| Tax | 9 | 0 | |
+| **PAT** | **25** | **15** | A typical steady-state RE IPP is ~10–15 [E] |
+
+**(c) Merchant/competitive thermal IPP: Adani Power FY26 (revenue ₹54,241 cr = 100)**: fuel ~58, employees ~2, other ~3 → EBITDA 37; depreciation 8; interest 6; other income +7 → PBT 29; tax 5; **PAT 24** (screener schedules [V]). Adani Power's margins beat NTPC's on two counts: (i) it is a Sec 63 bidder, so it keeps the efficiency gains, and (ii) it has merchant/short-term exposure and compensatory-tariff and LPS income.
+
+**Insight:** For the regulated generator, fuel is the largest cost but it is *passed through*. Equity returns come from capex discipline, availability and normative efficiency. For the RE IPP, roughly 80% of the revenue goes to financiers (interest plus depreciation-as-debt-service), so **a 100 bp change in interest rate moves equity IRR by ~1.3 pp** (model below: 8.5%→9.5% cuts equity IRR from 16.2% to 14.9%).
+
+---
+
+## 5. Industry structure, concentration, unlisted players, imports and China
+
+- **Ownership of capacity (FY25, CERC [V]):** private 257 GW (54%), state 112 GW (23%), central 106 GW (22%). Private owns most RE; the state and central sectors own most coal and hydro.
+- **Concentration:** NTPC group at 90.9 GW is ~17% of national capacity and ~25% of generation [V/E]. Adani group (Adani Power ~18 GW thermal plus Adani Green ~17–19 GW RE [K]) is the largest private group. Then come Tata Power (~15 GW), JSW Energy (~13 GW), ReNew (~11 GW operational), NHPC (~8 GW incl. JVs) and Greenko [K]. Excluding NTPC, the top 10 hold ~25–30% [E]. The industry is fragmented by MW but concentrated in thermal baseload.
+- **Unlisted/foreign:** Greenko (ORIX/AM Green), Avaada (Brookfield), ReNew (Nasdaq: RNW; take-private by Masdar/CPPIB/ADIA consortium [K]), Ayana (acquired by ONGC-NTPC Green JV [K]), Serentica (KKR), Juniper (AT Capital), Hero Future, Sembcorp (Singapore), EDF, Engie, TotalEnergies (20% of Adani Green [K]), CPPIB, GIC, Brookfield and Macquarie (sold Vibrant to Inox, IEEFA [V]). State gencos remain large in coal (MAHAGENCO ~10 GW, UPRVUNL, RVUNL, TANGEDCO, WBPDCL, OPGC).
+- **Imports and China:** Fuel import dependence is low (5–7% of power-sector coal, ICRA [V]) but supply-chain dependence on China is high. China holds ~85% of solar manufacturing and ~95% of wafers (IEA via GreentechLead [V]), plus most BESS cells (LFP) and wind components. India's response is BCD (40% modules, 25% cells [K]), ALMM List-I (~193 GW modules [K]) and ALMM List-II for cells from **1-Jun-2026** (30 GW enlisted [V]), plus PLI. This holds Indian module prices at ~US$0.14–0.15/W non-DCR and ~US$0.23–0.26/W DCR, against China's ~US$0.11/W (GreentechLead [V]). Main-plant thermal equipment is BHEL-dominated. Chinese BTG (boiler-turbine-generator) imports are effectively barred since 2020 [K].
+
+---
+
+## 6. Business-model archetypes — how economics differ
+
+| Archetype | Listed examples | Revenue model | Key risk | Typical ROE / equity IRR | Leverage (net debt/EBITDA) |
+|---|---|---|---|---|---|
+| **Regulated thermal/hydro PSU** | NTPC, NHPC, SJVN, NLC | Sec 62 cost-plus: capacity charge (15.5% ROE @85% PAF) + pass-through energy charge | Capex overruns (IDC disallowed), hydro geology/floods, coal quality | Book ROE 10–15% (NTPC 13.9% FY26 standalone [V]; NHPC 9.3%, SJVN 4.6% [V], depressed by CWIP) | 3–7x (high CWIP for NHPC/SJVN) |
+| **Competitive (Sec 63) thermal IPP with merchant tail** | Adani Power, JSW Energy (thermal), JP Power, RattanIndia, GMR P&UI, Reliance Power | Bid PPAs (capacity + escalable energy) + merchant/short-term | Fuel cost/pass-through disputes, merchant price, legacy debt | Adani Power ROE 21% [V]; others 1–12% | Adani Power ~2.8x gross [V]; legacy IPPs restructured |
+| **Utility-scale RE IPP (PPA)** | Adani Green, NTPC Green, ACME, JSW Neo (in JSW Energy) | 25-yr fixed tariff via SECI/NTPC/NHPC/SJVN or discoms; FDRE/RTC/peak products | Curtailment, PPA signing, module/cell costs (ALMM-II), interest rates, DSM | Equity IRR 12–16% [E]; reported ROE 3–11% early in life [V] | 6–9x at build-out (AGEL 9.6x gross [V]) → <5x steady state |
+| **C&I / captive RE developer** | KPI Green (+EPC), part of ACME/JSW/Tata | Group-captive / open-access PPAs at ₹3.5–5/kWh with industrials, + EPC margin | Open-access regulations, counterparty credit | KPI ROE 17% [V] | ~5x gross [V] |
+| **Storage operator (emerging)** | ACME (BESS), NTPC (PSP/BESS), JSW (PSP/BESS), Adani Green (PSP), NHPC/SJVN (PSP) | ₹/MW/month capacity tariff (BESS) or Sec 62 ROE (PSP); merchant arbitrage | Battery degradation, cycles, tariff compression (₹1.775 lakh/MW/month) | ACME BESS EBITDA/capex >20% [V] (merchant phase) | Project-financed |
+| **Hydro PSU** | NHPC, SJVN | Sec 62 ROE 16.5% on storage hydro [V draft]; long gestation (Subansiri took ~20 yrs) | Geology, floods (Teesta-III 2023), R&R | Low reported ROE during build | High CWIP |
+
+**How economics differ:** Regulated players earn a **fixed ROE on a growing equity base**, so EPS growth ≈ regulated-equity growth (NTPC consolidated +9.3% YoY [V]) and P/E stays low (NTPC 10.8x [V]). RE IPPs earn **a spread between project IRR (~9–10%) and cost of debt (~8.4–9%)**, levered 3–4x on equity. Their value comes from the size of the pipeline and execution, which explains P/Es of 49–129x (ACME, AGEL, NTPC Green [V]). Merchant-exposed thermal IPPs trade on the **price cycle**, at 12–42x depending on contracted share.
+
+## 7. Regulation and policy (what matters for earnings)
+
+| Instrument | What it does | Status (Oct-2026) | Earnings impact |
+|---|---|---|---|
+| **Electricity Act 2003** | Delicensed generation; Sec 62 (cost-plus tariff by regulator) vs Sec 63 (competitive bidding); open access; Sec 11 (govt can direct generators in extraordinary circumstances) | Amendment Bill pending [K]; Draft National Electricity Policy Jan-2026 (IEEFA [V]) | Framework |
+| **CERC Tariff Regulations 2024–29** | ROE 15.5% thermal/RoR hydro; 16.5% storage hydro/PSP (existing; 17% proposed for new); transmission 15% new; normative PAF 85%; PLF incentive 75/50 paise/kWh above 85%; add-cap at MCLR+350 bp ≤14% | In force 1-Apr-2024 (draft parameters [V]; final ROE for new PSP unverified) | Sets PSU earnings; ~15.5% × regulated equity ≈ core PAT |
+| **CERC BESS-at-thermal regulations** | Tariff for BESS co-located at thermal stations (draft: 14% ROE, 12-yr life, 85% RTE) | Notified 20-Mar-2026 (NTPC [V]) | New Sec 62 rate base for NTPC (5 GWh) |
+| **LPS Rules 2022** | LPS at base rate (SBI MCLR+5%) +0.5 pp/month up to +3 pp; legacy dues in ≤48 EMIs; exchange/supply regulation for defaulters | Legacy dues ₹1,39,947 cr → ₹3,330 cr; total dues ₹16,894 cr (Mar-26) [V] | Receivable days collapse → lower working capital, better credit ratings (85 upgrades in FY26 [V]) |
+| **RDSS (2021)** | ₹3.03 lakh cr outlay [K]; ₹2.83 lakh cr sanctioned (smart meters, loss reduction) [V] | AT&C 15.04% (FY25) [V] | Counterparty risk ↓ |
+| **ISTS waiver phase-out** | 100% waiver for RE COD ≤30-Jun-2025, then −25 pp per year to nil after Jun-2028 [K]; PSP/BESS waiver to Jun-2028; 25-yr PSP waiver if awarded by Jun-2028 [V] | Phasing down; relief package proposes one-time 100% waiver for stranded LoAs that sign PSAs (proposal [V]) | Raises landed cost of new ISTS RE ~₹0.3–0.6/kWh [E]; pushes intra-state projects |
+| **GNA Regulations 2022 / T-GNA** | Connectivity = deemed GNA; temporary GNA for RE awaiting lines | ~33% of 54.8 GW new RE on T-GNA, 50–60% curtailed in solar hours (ICRA snippet [K]) | Curtailment risk; CERC suo-motu 11/SM/2026 and 5/SM/2026 [V] |
+| **ALMM List-I/II, BCD, DCR** | Modules from listed makers; **cells from List-II from 1-Jun-2026**; BCD 40%/25% | 30 GW cells enlisted vs ~193 GW modules [V/K] | Capex ↑; benefits integrated makers (Adani, Waaree, Premier, Tata, Reliance) |
+| **RPO/RCO under EC Act 2022** | Minimum non-fossil consumption share for discoms and designated consumers from 1-Apr-2024 (CERC [V]) | Enforcement weak [K] | Demand for RE/RECs |
+| **BESS VGF** | Tranche-1 13.2 GWh; **tranche-2 30 GWh, ₹5,400 cr @ ₹18 lakh/MWh** (Jun-2025) [V] | Bids ₹1.775–2.32 lakh/MW/month [V/K] | Storage build-out; tariff compression |
+| **Market coupling** | CERC Jul-2025 order: DAM coupling, round-robin by Jan-2026 | Under APTEL appeal; JM sees not before Dec-2027 [V] | Neutral for generators; negative for IEX |
+| **Price caps** | ₹10/kWh DAM/RTM since Apr-2023; HP-DAM separate [K] | In force | Caps merchant upside in scarcity |
+| **Section 11 directions** | Imported-coal plants (CGPL) to run at full capacity, extended to 31-Dec-2026; 112 captive plants to sell surplus on exchanges Oct–Dec-2026 [V] | Active | Signals tightness; adds supply to exchanges and caps prices |
+| **SHANTI Act 2025** | Repeals Atomic Energy Act 1962 and CLNDA 2010; private (Indian) companies may own and operate nuclear plants; supplier-liability clause removed | Passed Dec-2025 [V] | Optionality for NTPC, Tata, Adani, JSW, Reliance; 100 GW by 2047 target |
+| **PPA/PSA relief package** | 44.8 GW stranded LoAs: ISTS waiver, deemed RPO, 2-hr BESS add-on, exit options | Proposed (MNRE OM 25-May-2026) [V] | Unlocks or cleans up REIA pipelines (NTPC/NHPC/SJVN as REIAs; Adani Green/ACME as bidders) |
+
+---
+
+## 8. History and cycles (dates)
+
+1. **1948–1990s: State Electricity Boards (SEBs) era.** NTPC (1975) and NHPC (1975) were set up; chronic shortages followed (peak deficit 12–17%).
+2. **2003: Electricity Act.** Generation delicensed; open access; CERC/SERC framework.
+3. **2005–08: UMPPs and the private thermal boom.** Tariff Policy 2006; Sasan (Reliance Power, ₹1.196/kWh) and Mundra (Tata) awarded in 2006–07; ~50 GW of private coal planned. Reliance Power IPO (Jan-2008, ₹11,563 cr), Adani Power IPO (2009), JSW Energy IPO (2010) [K].
+4. **2010–13: Fuel shock.** Indonesia's 2011 coal-pricing regulation broke imported-coal PPAs (Mundra/CGPL); domestic coal shortages; coal-block allocation scam (Supreme Court cancelled 204 blocks, Sep-2014) [K].
+5. **2012–18: Stressed assets.** ~40 GW of thermal capacity stressed or NPA (Parliamentary Standing Committee 2018 report: 34 stressed projects ~40 GW [K]). Thermal PLF fell to ~60% (FY18) [K]. Supreme Court (Apr-2017) denied compensatory tariff for imported coal and later allowed change-in-law relief; RBI's Feb-2018 circular forced resolution.
+6. **2015: UDAY.** States took over 75% of discom debt [V/K].
+7. **2015–17: Solar tariffs collapse.** ₹4.34/kWh (Bhadla, Jan-2017) → ₹2.44 (May-2017) → ₹1.99 (Dec-2020 GUVNL) [K]; 175 GW-by-2022 target announced in 2015.
+8. **2018–21: IPP restructurings.** Adani Power acquired stressed plants (Korba West 2019, Raipur/Raigarh from GMR/GVK-type stressed assets, Lanco Amarkantak 2024, Coastal Energen 2024) [K]. RattanIndia Nasik resolved by lenders (2019–20); JP Power debt restructured, with JSW Energy acquiring JP's hydro in 2015–16; Reliance Power settlements (2023–24) [K]. Sale of Prayagraj, KSK Mahanadi (to JSW, 2025) [K].
+9. **2020–21: Covid.** Demand −0.6% (FY21) [V]; ₹1.35 lakh cr discom liquidity package via PFC/REC [K]. Real-Time Market launched Jun-2020 [V].
+10. **Oct-2021: Coal crisis.** Plant stocks fell to ~4 days; IEX prices hit ₹20/kWh; CERC capped at ₹20, then ₹12 (Apr-2022) [K/V].
+11. **Jun-2022: LPS Rules.** Legacy dues of ₹1.40 lakh cr rescheduled [V]. Import blending mandates and Sec 11 for imported-coal plants (2022–24).
+12. **FY23: Price peak.** IEX DAM ~₹5.9 average [K]; peak shortage 4.0% [V]. Apr-2023: ₹10 cap.
+13. **2023: Thermal pivot.** MoP decides on ≥80 GW new coal by FY32; NEP (May-2023) [K/V]. VGF-1 BESS 4 GWh (Sep-2023) [V].
+14. **30-May-2024: Peak record 250 GW** [V]. FY24 demand +7.4% (1,626 BU) [V].
+15. **2024–25: RE IPO wave.** NTPC Green (Nov-2024), ACME Solar (Nov-2024) [K]. FY25 adds 34.1 GW [V].
+16. **Jun-2025: ISTS waiver cliff.** Rush to commission; BESS VGF-2 30 GWh [V]. Rajasthan curtailment starts [K].
+17. **FY26 (Apr-25 to Mar-26): Demand stall.** +0.8% growth, PLF 65.2%, IEX ₹3.8; record 61.6 GW added; ~44 GW of RE without PSAs [V].
+18. **Dec-2025: SHANTI Act** passed [V]. ALMM-II (cells) published Jul-2025, effective 1-Jun-2026 [V].
+19. **May-2026: Peak 270.8 GW** (21-May) [V]; relief-package OM (25-May) [V]; CGPL under Sec 11 from Apr-2026 [V].
+20. **Aug–Oct 2026: Tightness returns.** Coal stocks ~11 days, 43 GW of capacity on critical stock (Aug); IEX DAM ₹7.3 in Sep (+105% YoY); Sec 11 for 112 captive plants (Oct–Dec) [V].
+
+**Cycle pattern:** Each cycle runs roughly *shortage → overbuild → stress → consolidation → shortage*, about 8–10 years long. Shortage phases were 2008–12 and 2021–23, with 2026 onward a candidate. Overbuild and stress ran 2013–20. 2025–26 looked like overbuild (low PLF, low prices). The FY27 demand rebound, the 80 GW coal programme and the evening-peak gap suggest the market is again *short on firm capacity* while *long on daytime energy*. That split, not a single cycle, is now the key feature.
+
+---
+
+## 9. Native KPIs — definitions, formulas, ranges
+
+(See Section F for the full glossary.) Key ones: installed and under-construction GW; PLF; PAF; CUF; heat rate; aux consumption; regulated equity; tariff (fixed + variable); merchant share; cost/MW; net debt/EBITDA; receivable days; curtailment %.
+
+---
+
+## 10. Global lens
+
+- **China:** 315 GW solar + 119 GW wind in 2025 (NEA [V]); ~1.2 TW cumulative solar. It still adds coal (~50–90 GW/yr approvals [K]) as "firming", the same logic as India's 80 GW programme. Chinese module prices bottomed at ~$0.09/W (Dec-2025) and rose to ~$0.114/W after anti-involution curbs [V].
+- **US:** Additions dominated by solar + storage (2025 ~30+ GW solar, ~15+ GW batteries [K]); module prices ~$0.30/W (tariffs) [V]; data-centre-led demand growth is a global theme India is starting to share.
+- **Comparison:** India's solar tariff (~US 3 c/kWh) and BESS tariff (~US$2,000/MW/month) are among the world's lowest. India's coal share of generation (~70–74%) is far above China's (~55–60%) and the global average (~35%) [K]. Its per-capita use (1,395 kWh) is ~40% of the world average [V].
+- **Valuation lens [K]:** Global regulated utilities trade at 15–20x P/E; global RE IPPs (NextEra, Iberdrola) at 15–25x. Indian RE IPPs at 49–129x (screener [V]) price in long growth runways; Indian PSU generators at 10–20x sit near global utilities.
+
+---
+
+## 11. Technology and disruption
+
+1. **Storage cost deflation.** LFP cells fell from ~$156/kWh (2022) to <$100 (2024) [K]. Indian BESS tariffs fell from ₹3.72 → ₹2.80 → ₹1.775 lakh/MW/month in 2024–25 [V/K]. Storage is now operational at the margin: up to 4.1 GW at night peak, ~7.5 GWh installed (CREA [V]). It threatens peaking gas and some merchant evening premia over time, but complements coal (BESS at thermal sites).
+2. **FDRE/RTC products** (RE + BESS + overbuild) at ₹5.25–6.3/kWh [V] compete head-on with new coal at ~₹6/kWh [V]. Expect convergence by FY28–30 [E].
+3. **Cell and wafer localisation** (ALMM-II; ReNew 6 GW ingot/wafer, Navitas 3.6 GW cells [V]): higher near-term capex, lower long-term supply risk.
+4. **Grid-forming inverters, SCADA and forecasting.** CEA mandates grid-forming capability for BESS >50 MW (Renewable Watch [V]), aimed at the low short-circuit ratio problems seen at Bhadla/Khavda.
+5. **Flexibilisation of coal** (55% technical minimum, ramping, biomass co-firing: NTPC 5.7 lakh t in Q1 [V]), FGD retrofits (deadline relaxed for many plants [K]).
+6. **Nuclear SMRs/BSRs** after the SHANTI Act: NTPC has 30 sites identified; 220 MW Bharat Small Reactors [K]. A 2035+ story.
+7. **Green hydrogen and data centres** as new firm-load buyers (RTC PPAs).
+8. **Market design:** market coupling, capacity markets (Draft NEP 2026 mentions resource adequacy [V]), derivatives (MCX/NSE electricity futures launched 2025 [K]), virtual PPAs.
+
+---
+
+## 12. What to watch (next 12–24 months)
+
+1. **IEX DAM/RTM monthly prices** vs the ₹5–7 range. Above ₹6 sustained means a strong merchant year (Adani Power, JSW, JP Power, RattanIndia, GMR). Watch the winter months, when solar is weaker.
+2. **Coal stocks (days) and critical-stock GW** (43 GW in Aug-2026). Low stocks raise e-auction premia and blending mandates.
+3. **Peak demand summer-2027** vs MoP's ~300 GW estimate [K]; evening-peak shortages.
+4. **Signing of the 44.8 GW stranded RE** under the relief package; MoP finalisation; cancellations (REIA books at NTPC/NHPC/SJVN; bidders like Adani Green, ACME, ReNew).
+5. **Curtailment data** (Grid-India, MNRE): Rajasthan/Gujarat T-GNA; FY27 transmission additions (4,081 ckm by Jul vs 16,554 target [V]).
+6. **New coal PPA awards** (22–23 GW so far at ~₹6 [V]); BTG ordering at BHEL; capex at ₹12+ cr/MW.
+7. **BESS tariffs and VGF-2 bids**; PSP awards before the Jun-2028 ISTS-waiver deadline.
+8. **CERC actions:** final ruling on market coupling, the 11/SM/2026 connectivity framework, any change in ROE (next period FY30).
+9. **Discom finances:** FY26 PFC report (AT&C, ACS–ARR); dues on PRAAPTI; FY27 tariff orders (median hike nil [V]).
+10. **ALMM-II impact** on module/cell prices and project CODs; China module price trend ($0.11→$0.15/W).
+11. **Nuclear:** rules under the SHANTI Act; first private nuclear MoUs.
+12. **Interest rates:** RE equity IRR sensitivity ~1.3 pp per 100 bp [E].
+
+## A. The five defining forces (with reasoning)
+
+**1. Daytime energy is abundant; firm evening power is scarce (the "duck-curve" split).**
+Solar is 30% of capacity but 10.9% of energy. It generates nothing at the evening peak, and peaks now come in solar hours on 61 of 91 days but still need firm cover after sunset (CREA [V]). The results show up as four signals: (i) 8.1 TWh of solar curtailed in Apr–Jun 2026 (MNRE via Renewable Watch [V]; CREA's narrower measure is ~1.8 TWh solar); (ii) the solar-hour G-DAM price is far below the evening RTM price; (iii) discoms refuse PSAs for vanilla solar (44.8 GW stranded [V]); and (iv) the same discoms sign 22–23 GW of new 25-year **coal** PPAs at ~₹6/kWh (ICRA [V]) and FDRE at ₹5.25–6.28/kWh [V]. *Implication:* value accrues to **dispatchable** assets: coal with PPAs, PSP, BESS and FDRE. Pure daytime solar becomes a low-margin commodity.
+
+**2. Thermal revival: coal is back as the reliability backbone.**
+The government target is ≥80 GW of new coal by FY32. 42.7 GW is under construction (CREA [V]) with 89% below 50% complete. Crisil sees thermal capex double to ₹2.3 lakh cr in FY26–28 [V], and new coal costs >₹12 cr/MW [V]. Coal still meets ~70% of energy and 62.8% of the peak (Angel One [V]). *Implication:* NTPC's regulated equity compounds at ~9% a year [V]; private IPPs (Adani Power ~19 GW announced [K], JSW) win Sec 63 PPAs; BHEL is the bottleneck. It also extends coal's life into the 2050s and adds stranded-asset risk after 2040.
+
+**3. Storage becomes a stand-alone asset class.**
+Tenders total ~272 GWh (PSP 142, BESS 133; CREA [V]). BESS bids have fallen to ₹1.775 lakh/MW/month [V], VGF-2 covers 30 GWh [V], PSP under construction is 15.9 GW [V], and CEA expects storage need of 87 GWh (FY28) → 888 GWh (FY36) (IEEFA [V]). Merchant BESS already earns >20% EBITDA/capex (ACME [V]). *Implication:* the next decade's growth capex is less "GW of solar" and more "GWh of storage". PSP favours hydro PSUs (NHPC, SJVN) and Greenko/Adani/JSW; BESS favours IPPs with grid access and connectivity inventory.
+
+**4. The counterparty has been fixed (mostly): LPS Rules and the discom turnaround.**
+Legacy dues fell 98% from ₹1.40 lakh cr to ₹3,330 cr (Mar-2026 [V]). Discoms reported a small aggregate profit of ₹2,701 cr in FY25; AT&C losses are 15.04%; payment cycles fell from 178 to 113 days [V]. *Implication:* lower working capital, ratings upgrades (85 vs 21 in FY26 [V]) and cheaper debt (ACME 8.4% [V]) make RE IPP and IPP equity safer. The risk that remains: tariff hikes are still *nil* in FY27 (ICRA [V]), so subsidy dependence on state budgets continues.
+
+**5. Weather-driven merchant cyclicality on top of a structural uptrend.**
+Demand grew +0.8% in FY26 and +9.4% in 4M FY27 [V]. IEX DAM went from ₹3.8 (FY26) to ₹7.3 (Sep-26) [V], and thermal PLF from 65.2% to an expected 66–68% [V]. Short-term power is ~13% of generation (CERC [V]), so a small volume share sets a large share of private-IPP profit. *Implication:* merchant-exposed IPP earnings can swing ±30–50% year to year [E]; regulated PSUs barely move. A ₹10/kWh cap limits the upside, and Sec 11 orders add supply when prices spike.
+
+---
+
+## B. Deep-dive themes (four proposed)
+
+### B1. "Firm power is the new scarcity": coal PPAs vs FDRE vs storage — who wins the evening peak?
+- **Question:** For the 2027–2032 evening-peak gap (peak 271 GW → ~366 GW by FY32 [E from 459 GW FY36 at 5.6% CAGR]), what is the cheapest firm kWh, and who supplies it?
+- **Evidence:** New coal ~₹6.0/kWh (ICRA [V]; our worked example ₹6.33 [E]). FDRE-RTC ₹5.25–5.26 (SECI Aug-2026 [V]). FDRE 4-hr peak ₹5.99–6.28 (SECI/ACME [V/K]). Solar + 2-hr BESS ≈ ₹2.6 + ~₹1.6–2.1 storage adder = ₹4.2–4.7 for shifted energy [E]. PSP has a Sec 62 tariff, ~₹5–7/kWh of shifted energy [K].
+- **Answer:** FDRE has already undercut new coal on headline tariff. Coal still wins on **seasonal** firmness (monsoon wind/solar troughs, winter evenings) and on deliverability: no curtailment and no transmission bottleneck at pit-head. Expect a **portfolio** answer: coal for baseload and seasonal cover, BESS for 2–4 hr daily shifting, PSP for 6–8 hr.
+- **Stock lens:** NTPC (coal + PSP + BESS-at-thermal), Adani Power (coal PPAs), JSW Energy (thermal + PSP + BESS), ACME/Adani Green (FDRE + BESS), NHPC/SJVN (PSP).
+
+### B2. The RE offtake and transmission squeeze — from "capacity race" to "delivery race"
+- 44.8 GW of LoAs have no PPA/PSA (Apr-2026) [V]. ~33% of new RE is on temporary GNA, with 50–60% curtailment in solar hours (ICRA [K]). FY26 transmission additions were 79% of target, and FY27 is at 25% by July [V]. Solar curtailment was 8.1 TWh (MNRE) or ~1.8 TWh direct+TRAS (CREA) in Q1 FY27 [V]. The ISTS waiver cliff is phasing down to Jun-2028.
+- **Why it matters:** A 10% curtailment on a 30% CUF solar asset cuts equity IRR by ~3 pp [E: CUF 30%→27% sensitivity = 16.2%→12.3% in our model]. Developers with **connectivity inventory** (ACME ~10 GW [V]), intra-state/C&I routes (KPI Green) and storage get scarcity value.
+- **Watch:** the relief package, the CERC 11/SM/2026 outcome, GEC-III, the Khavda and Rajasthan evacuation lines.
+
+### B3. Thermal re-rating: from stranded asset to scarce asset (and the merchant kicker)
+- In FY18 PLF was ~60% with ~40 GW stressed. In FY26 PLF was 65% and IEX ₹3.8. Now in FY27 coal is short (11 days), there are Sec 11 orders, IEX is ₹7.3, and 22–23 GW of new PPAs have been signed.
+- Private thermal IPPs that bought stressed plants cheaply (Adani Power, JSW–KSK, JP Power, RattanIndia) now earn ROCE above 15% (Adani Power 17.2% [V]). Replacement cost is ₹12+ cr/MW against acquisition prices often ₹3–5 cr/MW [K].
+- **Risks:** pass-through disputes, FGD capex, coal logistics, the ₹10 cap, and policy risk (Sec 11 pricing).
+
+### B4. Storage economics: BESS tariff compression vs merchant arbitrage, and PSP's regulated return
+- BESS bids fell ~50% in 18 months (₹3.72 → ₹1.775 lakh/MW/month [V/K]), many by new entrants (Patanjali, Oswal, Micromax: pv-magazine [V]), which raises the risk of a "winner's curse" and execution delays. Merchant BESS (ACME) earns >20% EBITDA/capex during scarcity [V], but those spreads will compress as ~30+ GWh comes online.
+- PSP offers a 16.5–17% ROE under Sec 62 [V draft] with 25-year ISTS waiver if awarded by Jun-2028 [V]; NTPC has an 18 GW PSP portfolio [V].
+- **Key question:** will tariff compression make standalone BESS a low-IRR utility asset (8–10%) by FY28, leaving the excess returns to integrated FDRE players? [E]
+
+---
+
+## C. The revenue/profit equation with worked ₹ examples
+
+### C1. Generic equation
+- **Regulated (Sec 62) generator:** Revenue = Capacity charge (AFC × PAF achieved / normative PAF, capped) + Energy charge (ECR × scheduled energy) + incentive (₹0.75/0.50 per kWh above 85% PLF) + LPS + other. AFC = ROE on regulated equity (grossed up for tax) + interest on loan + depreciation + normative O&M + interest on working capital. ECR = (GHR × landed fuel cost / GCV) / (1 − aux%). **PAT ≈ ROE% × regulated equity + efficiency gains (heat rate, aux, O&M) + incentives − disallowances.**
+- **RE IPP (Sec 63 / PPA):** Revenue = MW × 8,760 × CUF × (1 − curtailment) × tariff. EBITDA ≈ 88–93% of revenue. PAT = EBITDA − interest (≈ 8.4–9% × debt) − depreciation − tax.
+- **Merchant thermal:** Contribution = (IEX price − variable cost) × merchant MU; break-even IEX ≈ variable cost (₹2.5–4.5/kWh depending on coal source).
+
+### C2. Worked example 1 — new 800 MW supercritical coal unit under Sec 62 [E; parameters: capex ₹12 cr/MW (ICRA [V]), D:E 70:30, ROE 15.5% (CERC [V]), tax 25.17%, interest 8.5%, depreciation ~4.75% of capex, O&M ₹24 lakh/MW/yr [K], aux 5.75%, GHR 2,250 kcal/kWh, GCV 3,600 kcal/kg, landed coal ₹4,500/t [K]]
+| Item | ₹ cr / yr (Year 1) |
+|---|---|
+| Capex 800 MW × ₹12 cr | 9,600 |
+| Regulated equity (30%) | 2,880 |
+| ROE @15.5% (post-tax) | 446 |
+| Tax gross-up (15.5% → 20.7% pre-tax) | 150 |
+| Interest on loan (₹6,720 cr × 8.5%) | 571 |
+| Depreciation (~4.75%) | 456 |
+| O&M (₹24 lakh/MW) | 192 |
+| Interest on working capital | 60 |
+| **Annual Fixed Cost (AFC)** | **1,876** |
+| Ex-bus energy at 85% PLF (800 × 8,760 × 85% × (1 − 5.75%)) | 5,614 MU |
+| **Fixed (capacity) charge** | **₹3.34/kWh** |
+| Energy charge = 2,250/3,600 × ₹4.5/kg ÷ (1 − 5.75%) | **₹2.98/kWh** |
+| **Total tariff** | **₹6.33/kWh** (cf. ICRA ~₹6.0 for new coal bids [V]) |
+
+*Equity view:* the ₹446 cr post-tax ROE accrues to equity every year from the regulated equity base. Equity is not depreciated, so with no terminal value the **equity IRR ≈ 15.0%** (25-year flat ROE stream on ₹2,880 cr [E]). Add ~1–3 pp from PLF incentives, heat-rate and aux gains and LPS, and subtract for disallowed IDC from construction delays. Old depreciated NTPC plants show why fixed charges are only ₹1.78/kWh (Q1 FY27 [V]): debt is repaid and only ROE + O&M remain. That is the "annuity tail".
+
+### C3. Worked example 2 — 300 MW (AC) ISTS solar IPP [E; capex ₹4.25 cr/MW (CIL disclosure [V]), tariff ₹2.60/kWh (recent SECI band [K]), CUF 30% (ACME 30.9% [V]), 75% debt at 8.5% (ACME WACD 8.4% [V]), 18-yr tenor, O&M ₹6 lakh/MW esc. 3%, 0.5%/yr degradation, 25-yr life, tax 25.17%]
+| Item | Year 1 (₹ cr) |
+|---|---|
+| Capex | 1,275 (equity 319; debt 956) |
+| Generation | 788 MU |
+| Revenue (788 MU × ₹2.60) | 205 |
+| O&M | 18 |
+| EBITDA (91%) | 187 |
+| Interest | 81 |
+| Depreciation | 51 |
+| PBT | 55 |
+| Tax | 14 |
+| PAT | 41 (book ROE ~13% on ₹319 cr) |
+| **Project IRR (post-tax)** | **10.3%** |
+| **Equity IRR (post-tax)** | **16.2%** |
+
+Sensitivities (equity IRR): tariff ₹2.45 → 13.9%; CUF 27% (≈10% curtailment) → 12.3%; capex ₹4.75 cr/MW (ALMM-II/DCR cell premium) → 12.6%; interest 9.5% → 14.9%. *Takeaway:* at today's tariffs, a ~10% hit from curtailment, cell costs or rates wipes out ~3–4 pp of equity IRR. That is why developers are moving to FDRE/hybrid (₹3.25–6.28) and storage.
+
+### C4. Merchant kicker (illustrative) [E]
+A 1,000 MW merchant coal capacity running 70% PLF sells ~5,780 MU a year. Each ₹1/kWh rise in realised price above variable cost adds ~₹578 cr of EBITDA. The move from FY26 (₹3.8) to a ₹5.5 FY27 average, with ~₹3.0 variable cost on linked coal, takes merchant spread from ₹0.8 to ₹2.5/kWh, about **3× the contribution**.
+
+---
+
+## D. Stat strip (₹ only, six cells)
+
+| Stat | Value | Source |
+|---|---|---|
+| Listed generators' FY26 revenue (14 cos) | **₹3.38 lakh cr** | screener.in consolidated, fetched 13-Oct-2026 [V] |
+| Discom legacy dues to gencos, Jun-2022 → Mar-2026 | **₹1,39,947 cr → ₹3,330 cr** | MoP Lok Sabha reply via Outlook Business, Apr-2026 [V] |
+| IEX day-ahead average price, Sep-2026 | **₹7.3/kWh (+105% YoY)** | IEX monthly update via Angel One, Oct-2026 [V] |
+| New coal plant capital cost | **>₹12 cr/MW** | ICRA power sector outlook, Aug-2026 [V] |
+| Record-low battery storage tariff | **₹1.775 lakh/MW/month** | RVUNL 1 GW/2 GWh tender, pv-magazine India, Oct-2025 [V] |
+| Thermal capex FY26–FY28 | **₹2.3 lakh cr** (vs ₹1.1 lakh cr FY23–25) | Crisil Ratings via Outlook Business, Jul-2025 [V] |
+
+---
+## E. Chart-ready datasets
+
+**E1. Installed capacity by source, FY-end (GW)** — CERC Short-term Market Report 2024-25 citing CEA [V]; Jun-2026 from CEA via IEEFA [V]
+| FY | Thermal (coal+lignite+gas+diesel) | Large hydro | Nuclear | Wind | Solar | Other RE (SHP+bio) | Total |
+|---|---|---|---|---|---|---|---|
+| FY15 | 188.90 | 41.27 | 5.78 | 23.35 | 3.74 | 11.87 | 274.90 |
+| FY16 | 210.68 | 42.78 | 5.78 | 26.78 | 6.76 | 12.38 | 305.16 |
+| FY17 | 218.33 | 44.48 | 6.78 | 32.28 | 12.29 | 12.68 | 326.83 |
+| FY18 | 222.91 | 45.29 | 6.78 | 34.05 | 21.65 | 13.33 | 344.00 |
+| FY19 | 226.28 | 45.40 | 6.78 | 35.63 | 28.18 | 13.83 | 356.10 |
+| FY20 | 230.60 | 45.70 | 6.78 | 37.69 | 34.63 | 14.70 | 370.11 |
+| FY21 | 234.73 | 46.21 | 6.78 | 39.25 | 40.09 | 15.10 | 382.15 |
+| FY22 | 236.11 | 46.72 | 6.78 | 40.36 | 54.00 | 15.53 | 399.50 |
+| FY23 | 237.27 | 46.85 | 6.78 | 42.63 | 66.78 | 15.74 | 416.06 |
+| FY24 | 243.22 | 46.93 | 8.18 | 45.89 | 81.81 | 15.94 | 441.97 |
+| FY25 | 246.94 | 47.73 | 8.18 | 50.04 | 105.65 | 16.68 | 475.21 |
+| FY26 (31-Mar-26) | 249.27 | 51.42 | 8.78 | 56.10 | 150.26 | 16.92 | 532.74 |
+| 30-Jun-26 | 251.49 | 52.07 | 8.78 | 57.44 | 162.15 | 16.93 | 548.86 |
+Basis: FY26 and Jun-26 thermal = coal+lignite + gas + diesel (IEEFA Table 1); "other RE" = SHP + biomass + WtE. Note: the CERC hydro series for FY25 (47.73) vs IEEFA large hydro for Mar-26 (51.42) includes ~3.7 GW of FY26 additions plus PSP reclassification [E].
+
+**E2. Gross generation by source (BU)** — CERC/CEA [V]; Q1 FY27 CREA [V]
+| FY | Thermal | Hydro | Nuclear | RES (ex-LH) | of which Solar | of which Wind | Bhutan import | Total | Thermal % |
+|---|---|---|---|---|---|---|---|---|---|
+| FY15 | 877.94 | 129.24 | 36.10 | 61.79 | n.a. | n.a. | 5.00 | 1,110.07 | 79.1% |
+| FY16 | 943.01 | 121.38 | 37.41 | 65.78 | 7.45 | 33.03 | 5.20 | 1,172.78 | 80.4% |
+| FY17 | 994.22 | 122.31 | 37.66 | 81.87 | 13.80 | 46.01 | 5.64 | 1,241.70 | 80.1% |
+| FY18 | 1,037.06 | 126.12 | 38.35 | 101.84 | 25.87 | 52.67 | 4.78 | 1,308.15 | 79.3% |
+| FY19 | 1,072.00 | 135.00 | 37.70 | 126.76 | 39.27 | 62.04 | 4.40 | 1,375.86 | 77.9% |
+| FY20 | 1,044.45 | 155.67 | 46.38 | 138.32 | 50.13 | 64.65 | 5.81 | 1,390.63 | 75.1% |
+| FY21 | 1,032.51 | 150.30 | 43.03 | 147.25 | 60.40 | 60.15 | 8.77 | 1,381.86 | 74.7% |
+| FY22 | 1,114.71 | 151.63 | 47.11 | 170.90 | 73.48 | 68.64 | 7.49 | 1,491.85 | 74.7% |
+| FY23 | 1,206.39 | 162.10 | 45.86 | 203.56 | 102.01 | 71.81 | 6.74 | 1,624.65 | 74.3% |
+| FY24 | 1,326.55 | 134.05 | 47.94 | 225.83 | 115.98 | 83.39 | 4.72 | 1,739.09 | 76.3% |
+| FY25 | 1,363.89 | 148.63 | 56.68 | 255.01 | 144.15 | 83.35 | 5.48 | 1,829.69 | 74.5% |
+| FY26 | n.a. | n.a. | n.a. | n.a. | 174.76 [K, MNRE] | n.a. | n.a. | ~1,840 [E] | ~72% [Crisil E] |
+| Q1 FY27 (Apr–Jun 26) | 375 (coal 360 + lignite 8 + gas 7) | 39 | 16 | 93 (solar 57, wind 31, other 5) | 57 | 31 | n.a. | 524 | 71.6% |
+
+**E3. Coal/thermal PLF (%)** — FY24–FY27E ICRA [V]; Q1 CREA [V]; NTPC presentation [V]; FY18 [K CEA]
+| Period | All-India thermal/coal PLF | NTPC coal PLF | Note |
+|---|---|---|---|
+| FY18 | ~60.7 [K] | ~78 [K] | Trough of stressed-asset cycle |
+| FY24 | 69.1 | n.a. | ICRA |
+| FY25 | 69.5 | n.a. | ICRA (Crisil: 69%) |
+| FY26 | 65.2 | 72.04 | Demand +0.8% |
+| Q1 FY25 | 76 | n.a. | CREA |
+| Q1 FY26 | 70 | 75.16 (RoI 67.67) | |
+| Q1 FY27 | 73 | 76.71 (RoI 70.32) | |
+| FY27E | 66–68 | n.a. | ICRA Aug-2026 |
+
+**E4. Peak demand and energy requirement** — CERC Table-4 [V]; FY26–27 [V] IEEFA/CREA/Power Line
+| FY | Peak demand (GW) | Peak met (GW) | Peak deficit | Energy req. (BU) | Energy deficit |
+|---|---|---|---|---|---|
+| FY15 | 148.17 | 141.16 | 4.7% | 1,068.92 | 3.6% |
+| FY17 | 159.54 | 156.93 | 1.6% | 1,142.93 | 0.7% |
+| FY19 | 177.02 | 175.53 | 0.8% | 1,274.60 | 0.6% |
+| FY21 | 190.20 | 189.40 | 0.4% | 1,275.53 | 0.4% |
+| FY22 | 203.01 | 200.54 | 1.2% | 1,379.81 | 0.4% |
+| FY23 | 215.89 | 207.23 | 4.0% | 1,513.50 | 0.5% |
+| FY24 | 243.27 | 239.93 | 1.4% | 1,626.13 | 0.3% |
+| FY25 | 249.86 | 249.85 | 0.001% | 1,693.96 | 0.09% |
+| FY26 | ~245 (winter 245.4) | ~245 | ~0 | ~1,707 [E: +0.8%] | ~0 |
+| FY27 YTD | **270.82 (21-May-26)** | 270.82 | 0 | +9.4% in 4M | n.a. |
+| FY36 (CEA 20th EPS MTR) | 459 | n.a. | n.a. | 3,365 | n.a. |
+
+**E5. IEX DAM average price (₹/kWh)** — ICRA [V] for FY24–FY27 YTD; IEX/press [V] for Q2 FY27 and Sep-26; CERC [V] for FY25 weighted; earlier years [K]
+| Period | DAM ₹/kWh | Basis |
+|---|---|---|
+| FY20 | ~3.1 [K] | IEX annual |
+| FY21 | ~2.8 [K] | Covid |
+| FY22 | ~4.5 [K] | Oct-21 coal crisis |
+| FY23 | ~5.9 [K] | Cap ₹12 → ₹10 |
+| FY24 | 5.2 | ICRA |
+| FY25 | 4.4 (CERC weighted 4.25) | ICRA / CERC |
+| FY26 | 3.8 | ICRA |
+| 4M FY27 | 5.1 | ICRA |
+| Q2 FY27 | 5.7 (RTM 5.2) | IEX |
+| Sep-26 | 7.3 (RTM 6.9) | IEX |
+
+**E6. Quarterly net capacity additions (MW)** — CEA via IEEFA [V]
+| Quarter (CY) | Solar | Wind | Coal+lignite | Large hydro | Gas | Nuclear | Total |
+|---|---|---|---|---|---|---|---|
+| 1Q25 | 7,782 | 1,875 | 2,843 | 760 | −285 | 0 | 13,210 |
+| 2Q25 | 10,602 | 1,637 | −495 | 1,650 | −4,401 | 600 | 9,607 |
+| 3Q25 | 11,084 | 1,449 | 2,760 | 730 | 0 | 0 | 16,070 |
+| 4Q25 | 8,478 | 1,387 | 2,152 | 807 | −10 | 0 | 12,841 |
+| 1Q26 | 14,451 | 1,584 | 2,330 | 500 | 0 | 0 | 19,010 |
+| 2Q26 | 11,891 | 1,348 | 2,218 | 650 | 0 | 0 | 16,119 |
+Annual gross additions: FY24 ~24 GW; FY25 34.1 GW; **FY26 61.6 GW**; Q1 FY27 16.3 GW; FY27E ~50 GW (ICRA [V]).
+
+**E7. Discom dues and health** — MoP/Outlook [V]; ICRA [V]; PFC via CERC [V]
+| Metric | Value |
+|---|---|
+| Legacy dues (LPS Rules) | ₹1,39,947 cr (3-Jun-22) → ₹3,330 cr (27-Mar-26) |
+| Current dues / total dues (27-Mar-26) | ₹13,594 cr / ₹16,894 cr |
+| AT&C losses | 22.62% (FY14) → 15.11% (FY23) → 16.12% (FY24, PFC) → 15.04% (FY25, MoP) |
+| ACS–ARR gap (₹/kWh, MoP basis) | 0.78 (FY14) → 0.06 (FY25) |
+| ACS vs avg revenue ex-subsidy (PFC) | ₹7.09 vs ₹5.54 (FY24) |
+| State discom book loss (ICRA) | ₹572 bn (FY23) → ₹256 bn (FY24) → ₹94 bn (FY25) |
+| Discom gross debt (ICRA) | ₹6.6 trn (Mar-23) → ₹7.6 trn (Mar-24) → ₹7.3 trn (Mar-25) |
+| Payment cycle (MoP) | 178 days (FY21) → 113 days (FY25) |
+
+**E8. Tariff discovery by product (₹/kWh unless stated)** — sources as tagged
+| Product | Tariff | Date | Source |
+|---|---|---|---|
+| Vanilla ISTS solar | ~2.5–2.7 | 2024–26 | [K] SECI/NTPC auctions |
+| Record-low solar | 1.99 | Dec-2020 | [K] GUVNL |
+| Solar-wind hybrid (ACME–SECI) | 3.25 | Q1 FY27 | Mercom [V] |
+| FDRE-RTC (SECI 1 GW) | 5.25–5.26 | Aug-2026 | pv-magazine [V] |
+| FDRE peak 4-hr (SECI FDRE-IX) | 5.99–6.00 | Aug-2026 | SolarQuarter [K, 403] |
+| FDRE (ACME–SECI) | 6.28 | Q1 FY27 | Mercom [V] |
+| New coal long-term PPAs (22–23 GW) | ~6.0 | FY26–27 | ICRA [V] |
+| Worked new-coal Sec 62 tariff | 6.33 | — | This dossier [E] |
+| NTPC average (fixed + variable) | 1.78 + 2.68 = 4.46 | Q1 FY27 | NTPC [V] |
+| Standalone BESS (₹ lakh/MW/month) | 3.72 → 2.80 → 2.08 → **1.775** → 2.10 → 2.32 | 2024 → Aug-2026 | pv-magazine [V] / [K] |
+
+**E9. Storage pipeline** — CREA [V], MoP via GKToday/NBM&CW [V], JMK [V]
+| Item | Value |
+|---|---|
+| Storage tendered (May-2026) | ~272 GWh (PSP 142 GWh, BESS 133 GWh) |
+| BESS operational | ~7.5 GWh (+~3 GWh by Dec-2026) |
+| BESS under construction (Aug-2026) | 15,754 MW |
+| PSP operational / under construction | ~7 GW [K] / 15,870 MW (11 projects) |
+| PSP with CEA concurrence, not started | 8,140 MW (6 projects) |
+| BESS VGF | T1 13.2 GWh (₹46 lakh/MWh or 30%); T2 30 GWh (₹5,400 cr, ₹18 lakh/MWh) |
+| CEA storage requirement | 87 GWh (FY28) → 236 GWh (FY32, NEP) → 888 GWh (FY36) |
+
+**E10. Listed-universe snapshot FY26 (₹ cr)** — screener.in [V] (full table in R16)
+| Company | Revenue | EBITDA | PAT | Gross debt | Debt/EBITDA | M-cap | P/E |
+|---|---|---|---|---|---|---|---|
+| NTPC | 1,87,385 | 55,438 | 27,546 | 2,71,005 | 4.9x | 3,01,178 | 10.8 |
+| Adani Power | 54,241 | 19,806 | 12,971 | 54,670 | 2.8x | 3,59,198 | 25.2 |
+| JSW Energy | 18,901 | 10,068 | 2,762 | 76,946 | 7.6x | 84,360 | 42.0 |
+| NLC India | 17,519 | 5,558 | 3,769 | 27,892 | 5.0x | 34,014 | 10.6 |
+| Adani Green | 12,928 | 10,785 | 1,987 | 1,03,545 | 9.6x | 2,12,886 | 110 |
+| NHPC | 11,615 | 4,097 | 4,220 | 52,327 | 12.8x | 74,717 | 19.7 |
+| Reliance Power | 7,620 | 2,365 | −337 | 14,812 | 6.3x | 8,271 | n.m. |
+| GMR P&UI | 7,332 | 1,604 | 614 | 11,594 | 7.2x | 7,965 | n.a. |
+| JP Power | 5,563 | 1,367 | 451 | 3,391 | 2.5x | 10,314 | 12.4 |
+| SJVN | 4,528 | 3,361 | 642 | 32,278 | 9.6x | 22,034 | 34.5 |
+| RattanIndia Power | 2,991 | 405 | 52 | 3,711 | 9.2x | 3,576 | 32.1 |
+| NTPC Green | 2,858 | 2,461 | 521 | 31,716 | 12.9x | 78,230 | 129 |
+| KPI Green | 2,696 | 958 | 509 | 5,197 | 5.4x | 6,459 | 14.2 |
+| ACME Solar | 2,023 | 1,785 | 498 | 19,896 | 11.1x | 29,275 | 49.2 |
+Gross debt/EBITDA is overstated for build-phase companies (NHPC, SJVN, NTPC Green, ACME: large CWIP not yet earning) and for cash-rich ones (no cash netting).
+
+**E11. Coal supply** — PIB/MoC [V], CIL results [V], ICRA [V]
+| Metric | FY25 | FY26 | FY27 YTD |
+|---|---|---|---|
+| CIL production (MT) | 781.06 | 768.19 (−2%) | Jul-26 50.4 MT (+8.4%) [K] |
+| Captive + commercial production (MT) | 190.95 | 210.46 (+10.2%) | n.a. |
+| All-India coal production (MT) | ~1,047 [K] | ~1,040 [K, unverified] | n.a. |
+| Power-sector coal imports YoY | n.a. | −27.5% | Q1 −72.9% |
+| Plant coal stock (days) | n.a. | 19.2 (31-Mar-26) | 17.7 (6-May) → ~11 (16-Aug) |
+| Capacity on critical/super-critical stock | n.a. | low | 43 GW (Aug-26) |
+
+**E12. Curtailment and transmission** — CREA [V], Renewable Watch/MNRE [V], IEEFA [V]
+| Metric | Value |
+|---|---|
+| Solar curtailed CY2025 (IEEFA) | ~2.3 TWh |
+| Solar curtailed Apr–Jun 2026 (MNRE) | 8,133 GWh (Apr 2,417; May 3,235; Jun 2,481) |
+| Q1 FY27 direct curtailment (CREA/Grid-India) | Solar 473 MU, wind 112 MU |
+| Q1 FY27 TRAS backdown (CREA) | Solar 1,286 MU, wind 211 MU |
+| Transmission added FY26 | 12,139 ckm vs 15,382 target (79%) |
+| Transmission added FY27 to 31-Jul | 4,081 ckm vs 16,554 target |
+| Inter-state transmission charges | ₹17,680 cr (FY15) → ₹46,219 cr (FY25) |
+
+---
+
+## F. KPI glossary (definitions, formulas, ranges)
+
+| KPI | Definition / formula | Good | Average | Weak | Indian reference points |
+|---|---|---|---|---|---|
+| **Installed capacity (GW)** | Nameplate MW commissioned (CEA COD basis) | — | — | — | India 548.9 GW (Jun-26); NTPC group 90.9 GW |
+| **Under-construction (GW)** | Capacity with NTP/award, not commissioned; quality = % >50% complete | Fully tied (fuel, land, PPA, connectivity) | — | No PPA/connectivity | Coal 42.7 GW (89% <50% done) |
+| **PLF (%)** | Actual generation ÷ (capacity × 8,760 h) | Coal >80% | 65–75% | <60% | All-India FY26 65.2%; NTPC Q1 FY27 76.7% |
+| **PAF (%)** | Declared availability ÷ max; drives fixed-charge recovery (normative 85%) | >90% | 85–90% | <85% (fixed-charge under-recovery) | NTPC coal Q1 FY27 93.98% |
+| **CUF (%) (RE)** | AC energy ÷ (AC MW × 8,760) | Solar >28% (trackers/DC overload); wind >35% | Solar 22–27%; wind 28–33% | Solar <20%; wind <25% | ACME 30.9%; national solar 23%, wind 28% (Q1 FY27) |
+| **Curtailment (%)** | Energy backed down ÷ available energy | <1% | 1–5% | >5% (T-GNA projects 50–60% in solar hours) | — |
+| **Station heat rate (kcal/kWh)** | Fuel heat input ÷ gross kWh | <2,250 (supercritical) | 2,300–2,450 | >2,500 | CERC normative ~2,200–2,400 [K] |
+| **Aux consumption (%)** | Station use ÷ gross generation | <5.5% | 5.75–7% | >8% | Normative 5.75–6.5% [K] |
+| **Regulated equity (₹ cr)** | 30% of admitted capex (actual equity if lower); base for ROE | Growing >8% p.a. | 4–8% | Flat | NTPC consol ₹1,21,745 cr (+9.3% YoY) |
+| **Regulated ROE** | CERC: 15.5% thermal/RoR; 16.5–17% storage hydro/PSP; 15% new transmission | Earned ≥ normative + incentives | = normative | < normative (disallowances) | — |
+| **Tariff (₹/kWh)** | Fixed (capacity) + variable (energy) charge; or single-part RE tariff | Competitive vs IEX & new-build | — | Above ₹6 old PPAs (renegotiation risk) | NTPC 1.78 + 2.68; solar ~2.6; FDRE 5.25–6.28 |
+| **Energy charge rate (ECR)** | GHR × landed fuel price ÷ GCV ÷ (1 − aux) | <₹2.5 (pit-head) | ₹2.5–3.5 | >₹4 (imported coal/gas) | Worked ex. ₹2.98 |
+| **Merchant share (%)** | Merchant/short-term MU ÷ total MU | Context-dependent (upside in tight years) | 10–20% | >40% (high volatility) | National short-term = 13% of generation |
+| **IEX DAM price (₹/kWh)** | Volume-weighted market-clearing price | — | 4–5 | — | FY26 3.8; Sep-26 7.3 |
+| **Cost per MW (₹ cr)** | Total project cost ÷ MW | Solar <4.0; coal <9; BESS <₹1 cr/MWh | Solar 4–4.5; coal 10–12 | Solar >5; coal >13 | Coal >12 (ICRA); solar 4–4.5 (CIL) |
+| **Net debt/EBITDA (x)** | (Borrowings − cash) ÷ EBITDA | Thermal <3x; RE operating <5x | 3–5x / 5–6.5x | >5x / >7x | ACME 2.9x (net); AGEL ~9.6x gross |
+| **Receivable days** | Trade receivables ÷ revenue × 365 | <45 | 45–90 | >120 | Discom payment cycle 113 days (FY25) |
+| **Equity IRR (project)** | IRR of equity cash flows | >15% | 12–15% | <11% | Solar worked ex. 16.2% base |
+| **Debt-service coverage (DSCR)** | CFADS ÷ (interest + principal) | >1.3x | 1.15–1.3x | <1.1x | — |
+| **Non-fossil share** | Non-fossil MW ÷ total MW (capacity) or BU ÷ total BU (energy) | — | — | — | 54.2% capacity vs ~29% energy |
+
+---
+
+## G. Timeline (key events)
+
+| # | Date | Event | Source tag |
+|---|---|---|---|
+| 1 | Jun-2003 | Electricity Act 2003 notified: delicensed generation, open access, Sec 62/63 | [K] |
+| 2 | 2006–07 | UMPPs awarded (Mundra–Tata, Sasan–Reliance Power at ₹1.196/kWh) | [K] |
+| 3 | Jan-2008 | Reliance Power IPO (then India's largest), peak of the private thermal boom | [K] |
+| 4 | Sep-2011 | Indonesian coal benchmark pricing breaks imported-coal PPAs (Mundra/CGPL) | [K] |
+| 5 | Sep-2014 | Supreme Court cancels 204 coal blocks | [K] |
+| 6 | Nov-2015 | UDAY discom bailout launched | [V] Outlook |
+| 7 | FY18 | Thermal PLF trough ~60%; ~40 GW stressed thermal assets | [K] |
+| 8 | Feb-2018 | RBI 12-Feb circular forces resolution of stressed power loans | [K] |
+| 9 | Dec-2020 | Record-low solar tariff ₹1.99/kWh (GUVNL) | [K] |
+| 10 | Jun-2020 | Real-Time Market launched on exchanges | [V] CERC |
+| 11 | Oct-2021 | Coal crisis: plant stocks ~4 days; IEX ₹20/kWh spikes | [K] |
+| 12 | 3-Jun-2022 | Late Payment Surcharge Rules notified; ₹1.40 lakh cr legacy dues rescheduled | [V] |
+| 13 | 7-Jun-2022 | CERC GNA Regulations notified | [V] CERC |
+| 14 | Apr-2023 | IEX price cap reset to ₹10/kWh; MoP decides on ≥80 GW new coal by FY32 | [K] |
+| 15 | Sep-2023 | BESS VGF tranche-1 (4 GWh → 13.2 GWh) | [V] JMK |
+| 16 | 1-Apr-2024 | CERC Tariff Regulations 2024–29 take effect (ROE 15.5%) | [V] draft/Power Line |
+| 17 | 30-May-2024 | Peak demand record 250 GW | [V] |
+| 18 | Nov-2024 | NTPC Green and ACME Solar IPOs | [K] |
+| 19 | 10-Jun-2025 | BESS VGF tranche-2: 30 GWh, ₹5,400 cr | [V] JMK |
+| 20 | 30-Jun-2025 | 100% ISTS-waiver deadline for RE; phase-down begins | [K] |
+| 21 | Jul-2025 | CERC orders DAM market coupling (round-robin) by Jan-2026; IEX appeals | [V] JM Fin |
+| 22 | 17/18-Dec-2025 | SHANTI Act passed: nuclear opened to private sector | [V] WNN |
+| 23 | 31-Mar-2026 | FY26 closes: demand +0.8%, PLF 65.2%, record 61.6 GW added, IEX ₹3.8 | [V] ICRA |
+| 24 | Apr-2026 | Sec 11 order on CGPL Mundra; 25-May MNRE OM on 44.8 GW stranded RE | [V] |
+| 25 | 21-May-2026 | All-time peak 270.82 GW | [V] IEEFA/Angel One |
+| 26 | 1-Jun-2026 | ALMM List-II (solar cells) takes effect | [V] energetica |
+| 27 | Aug–Oct 2026 | Coal stocks ~11 days, 43 GW critical; IEX DAM ₹7.3 (Sep); Sec 11 to 112 captive plants (Oct–Dec) | [V] |
+
+---
+
+## H. Figures I could not source (or could only partly verify)
+
+1. **CEA primary reports** (installed capacity monthly, executive summary, generation, PLF by sector). cea.nic.in now redirects every report URL to a login page, so CEA numbers here come through IEEFA, CERC, CREA and ICRA, which republish CEA data. **Sep-2026 installed capacity is unavailable**; the latest verified figure is 30-Jun-2026 (548.9 GW).
+2. **FY26 full-year generation by source (BU)** and **FY26 total energy requirement**. Not found. ~1,840 BU is an estimate from MNRE's solar share (snippet).
+3. **CERC Tariff Regulations 2024–29 final notified ROE schedule.** Only the draft (Power Line) was fetched. The final ROE for *new* PSP/storage hydro (16.5% vs 17%) is **unverified**.
+4. **IEX DAM annual averages FY19–FY23.** Memory only ([K]); IEX annual reports not fetched. The CERC table of yearly prices is an image in the PDF.
+5. **All-India coal production FY26 (~1,040 MT) and power-sector coal imports (~45 MT, 4-year low)** from S&P Global Platts. The page returned 403, so both are unverified.
+6. **Coal e-auction premium** (CIL spot/e-auction over notified price) for FY26/FY27. Not sourced.
+7. **SECI FDRE-IX ₹5.99–6.00/kWh** result (SolarQuarter returned 403). Search snippet only.
+8. **Vanilla solar auction tariffs in 2025–26** (₹2.5–2.7) and wind tariffs. Memory/snippet; no fetched auction result.
+9. **Unsigned PPA backlog history** (43.9 GW Sep-2025; 42 GW Oct-2025). Snippets; only the 44.8 GW (Apr-2026) figure was fetched (Khaitan note).
+10. **ISTS waiver phase-down schedule** (75/50/25%). Memory of the MoP order; not fetched.
+11. **Price-cap details** (₹10/kWh DAM/RTM; HP-DAM caps). Memory.
+12. **NEP 2022–32 capacity mix for FY32** (coal 259.6 GW etc.). Memory of CEA NEP May-2023; not fetched.
+13. **Nuclear under-construction GW and NPCIL FY32 target (22.48 GW)**. Memory; WNN page lacked capacity data.
+14. **Data-centre demand projections (26 GW by FY32)**. Headline only.
+15. **Group-level capacities of Adani, Tata, JSW, ReNew, Greenko**, used for concentration estimates. Memory; the company packs (other subagents) should verify.
+16. **Ministry statement that peak may reach ~300 GW next year, with 284 GW available** (Deccan Herald returned 403). Unverified.
+17. **Curtailment definitions conflict.** MNRE 8.1 TWh (Apr–Jun 2026) vs CREA ~2.1 TWh direct+TRAS. Both fetched; reconciliation not possible from public data.
+18. **Net debt (cash-netted)** for the 14 companies. Screener gives gross borrowings only; the company packs should compute net debt from balance sheets.
+19. **Global generation shares** (India ~6% of world generation; China ~9,500 TWh; US ~4,300 TWh). Memory (Ember); not fetched this session.
+
+---
+
+## Part II — Research log (raw notes, all sources)
+
+
 
 ### R1. IEEFA "POWERup 2Q 2026" (Jul-2026), citing CEA — [V] fetched https://ieefa.org/sites/default/files/2026-07/powerup-2Q-2026.pdf
 - Installed capacity (MW), 31-Mar-2026 → 30-Jun-2026 (CEA): Wind 56,095 → 57,443; Solar (grid+off-grid) 150,261 → 162,152; Small hydro 5,171 → 5,182; Biomass 10,869 → 10,869; Waste-to-energy 877 → 878; Large hydro 51,415 → 52,065; Nuclear 8,780 → 8,780; Coal+lignite 228,560 → 230,778; Gas 20,122 → 20,122; Diesel 589 → 589; **Total 532,739 → 548,858**.
@@ -197,4 +780,11 @@ FY14 168.26|40.53|4.78|34.99|248.55 · FY15 188.90|41.27|5.78|38.96|274.90 · FY
 ### R23. Emergency directions in FY27 (supply tightness)
 - Indian Infrastructure (28-Sep-2026) — [V] fetched https://indianinfrastructure.com/2026/09/28/mop-directs-captive-coal-plants-to-maximise-generation-till-december-2026/: MoP **Section 11** direction to **112 captive coal plants (≥50 MW)** to run at maximum available capacity **1-Oct to 31-Dec-2026**, selling surplus on power exchanges; weekly reporting to CEA; reason: "prevailing power demand-supply position". Tata Power's **CGPL Mundra (4,000 MW imported coal)** Section 11 direction (first issued Mar-2026 for 1-Apr–30-Jun-2026) extended to 30-Sep and now **31-Dec-2026**.
 - Context [K]: Section 11 orders to imported-coal plants were first used in 2022–24 (coal shortage, high import prices) with tariffs set via a pass-through benchmark committee; ending them in 2024–25 marked the glut phase; their return in 2026 marks the new tightness phase. Imported-coal-based plants: Adani Power Mundra (4,620 MW), CGPL (4,000 MW), JSW Ratnagiri, Essar Salaya etc. [K].
+
+### R24. CRISIL views (via press)
+- Outlook Business (16-Jul-2025, Crisil Ratings) — [V] fetched https://www.outlookbusiness.com/industry/thermal-power-sector-to-attract-23-lakh-crore-investments-over-3-years-crisil: **thermal capex ₹2.3 lakh cr over FY26–FY28 vs ₹1.1 lakh cr in FY23–FY25**; private share rising to ~1/3 (from 7–8%); ~60 GW thermal announced/in implementation, ~19 GW private; demand to 2,000 BU by FY28 (5.5% CAGR); ~70% of incremental demand to be met by RE.
+- pv-magazine India (19-Jan-2026, Crisil Ratings) — [V] fetched https://www.pv-magazine-india.com/2026/01/19/thermal-share-in-power-generation-to-drop-below-70-next-fiscal/: thermal share of generation 75% (FY25) → ~72% (FY26E) → <70% (FY27E); thermal PLF 69% FY25 → 64–66% FY26E; RE generation +18–20% p.a. FY26–27; RE additions 75–85 GW over FY26–FY27; ~85% of ~60 GW operational capacity of 26 rated IPPs tied in PPAs (Nov-2025) vs 79% (FY25).
+- Crisil (search snippets [K]): ISTS transmission capex ~₹1 lakh cr over FY26–27 vs ₹50,000 cr FY24–25; IPP leverage to peak ~3.0x by FY29 as thermal capex revives.
+- Solar capex: Coal India disclosure via energetica-india (Feb-2026) — [V] fetched https://www.energetica-india.net/news/coal-india-solar-capex-hits-inr-961-crore-till-jan-fy26-marks-2-33-fold-jump: **utility solar ₹4–4.5 cr/MW** (down from ₹5.5–6 cr/MW). New coal >₹12 cr/MW (ICRA, R2). BESS ~₹1.1 cr/MWh implied by VGF scheme (R9) [E]. IRENA global utility PV 2024 US$691/kW (snippet [K]).
+- CERC Tariff Regulations 2024-29 (draft as reported by Power Line, Feb-2024) — [V] fetched https://powerline.net.in/2024/02/05/roe-adjustments-key-highlights-of-cercs-draft-tariff-regulations/: ROE existing — 15.5% thermal, transmission, run-of-river hydro; 16.5% storage hydro & PSP. New projects from 1-Apr-2024 — 15% transmission, 15.5% thermal & RoR hydro, 17% storage/PSP. Add-cap outside original scope (FGD/change in law) earns 1-yr SBI MCLR + 350 bps, capped at 14%. Normative PAF 85% for thermal; PLF incentive above 85% at 75 paise/kWh peak, 50 paise off-peak. **The final notified text (Mar-2024) could not be fetched (cercind.gov.in pages are JS-rendered) — final ROE for new PSP (16.5% vs 17%) is unverified.**
 
