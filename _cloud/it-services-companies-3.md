@@ -313,3 +313,76 @@ Promoters **44.21%** (Ashok Soota & entities; 53.25% Mar-21 → 44.2% after 2024
 9. GenAI unit "toward ~4% of revenue" → **5.2% in Q1 FY27** (₹34 cr) [V].
 10. Promoter "roughly 44% (approx.)" → **44.21%**; DIIs fell to 5.66% in Jun-26 [V].
 
+---
+
+## 5. Mastek Ltd (NSE: MASTEK · BSE: 523704) — UK public sector + Oracle Cloud (Evosys) + Salesforce (MST)
+
+**Status:** listed, no corporate action pending. Promoter group (founders Ashank Desai, Ketan Mehta, Sudhakar Ram & families [K]) 35.77%. **CEO Umang Nahata; CFO Deepak Kedia** (Q1 FY27 press release/deck [V]). **Latest reported quarter: Q1 FY27 (Jun-26), results 21 Jul 2026. Q2 FY27 board meeting on Fri 23 Oct 2026** (BSE intimation 7 Oct 2026, https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8aadbebc-d74d-440e-a233-81da21ed4e8f.pdf [V]). Recent wins (BSE press releases, Oct 2026 [V-listing]): Staffordshire County Council Oracle Cloud transformation (8 Oct); ISG Paragon "Partnership of the Year 2026" with CORT (12 Oct).
+
+Sources: screener.in consolidated, fetched 2026-10-13 15:32 UTC (https://www.screener.in/company/MASTEK/consolidated/) [V]; Q1 FY27 press release + investor presentation (BSE https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d16bb1b-52a4-4933-bc41-b643be9fa83c.pdf) [V]; Q1 FY27 call transcript, 22 Jul 2026 (BSE …Pname=7f809860-1095-4dd7-960e-2f11ef8af6a8.pdf) [V]; Q4 FY26 press release/deck (BSE …Pname=63006835-1050-475c-9434-c24f8f8e2819.pdf) [V].
+
+### 5.1 Standardised financials
+| ₹ cr | FY25 | FY26 | YoY | TTM (to Jun-26) |
+|---|---|---|---|---|
+| Revenue (screener = Co) | 3,455 | **3,699** | +7.0% | 3,769 |
+| Co operating EBITDA | 546.5 (15.8%) | **585.6 (15.8%)** | +7.2% | 600 (15.9%, screener) |
+| Screener op. profit | 546 | 586 | | 600 |
+| Other income | 30 | 40 | | 42 |
+| Interest / Depreciation | 42 / 75 | 32 / 73 | | 30 / 73 |
+| PAT | 376 | **404** | +7.5% | 418 |
+| EPS ₹ | 121.50 | 130.33 | | 134.81 |
+| CFO / FCF (screener) | 396 / 378 | 542 / 515 | | |
+| ROCE (screener) / Co LTM ROCE | 17% / 16.9% | 18% / 16.0% | | Co Q1 FY27 16.0% |
+| Dividend payout | 19% | 18% (₹24/share = 480% incl. final ₹16) | | |
+
+- **FY26 in USD:** **$421.2M, +3.1% USD** (FY25 $408.4M); Q4 FY26 $103.5M (+1.4% QoQ; +0.3% QoQ cc; −1.1% YoY USD, **+5.8% YoY cc**) (Q4 FY26 release [V]). FY26 full-year cc growth not stated in fetched docs.
+- **Market data (screener, 13 Oct 2026 close):** price ₹1,716; **m-cap ₹5,317 cr**; P/E **12.1x**; book value ₹965 → **P/B 1.8x** [E]; 52-wk H/L ₹2,369/₹1,334; div. yield 1.40%; ROCE 17.7%, ROE 15.3%; 1-yr −20%, 3-yr CAGR −10% [V].
+- **Balance sheet:** screener borrowings ₹438 cr (Mar-26; includes lease liabilities and acquisition debt; ₹22.8 cr repaid in Q1 FY27). **Company "cash, cash equivalents, bank deposits & MF investments": ₹938.5 cr (Mar-26) → ₹945.4 cr (Jun-26)** (₹622.2 cr Mar-25) — despite ₹107 cr annual variable-pay payout in Q1 → **net cash ≈ ₹500 cr [E: 945 − 438]**; screener investments line (₹234 cr) badly understates liquidity.
+- **EV/EBITDA [E]:** EV ≈ 5,317 + 438 − 945 = ₹4,810 cr ÷ TTM EBITDA ₹600 cr = **~8.0x** (cheapest in the batch).
+- **Tax dispute:** FY2022-23 assessment added ₹91 cr (transfer pricing) + ₹32.5 cr (domestic) of income → tax impact ~₹31 cr; appeal filed 26 Jun 2026 (CFO [V]).
+
+### 5.2 Native KPIs (Q1 FY27 deck/release [V])
+| | Q1 FY26 | Q3 FY26 | Q4 FY26 | **Q1 FY27** |
+|---|---|---|---|---|
+| Revenue $M | 107.4 | 102.1 | 103.5 | **104.8** (+1.2% QoQ; **+1.8% QoQ cc**; −2.4% YoY USD; **+3.0% YoY cc**) |
+| Revenue ₹ cr | 914.7 | 906.0 | 938.0 | **985.3** (+5.0% QoQ, +7.7% YoY) |
+| Operating EBITDA % | 15.0% | 16.8% [chart] | 16.1% | **15.4%** |
+| PAT ₹ cr | 92.1 | 108.4 | 106.2 | **105.9** (+15.0% YoY) |
+| **12-month order backlog** | ₹2,347.9 cr | ₹2,658.5 cr ($295.8M) | ₹2,849.2 cr ($300.4M) | **₹2,935.2 cr ($310.1M)**, +25.0% YoY ₹ / **+13.3% YoY $** |
+| **Total** order backlog by region $M (UK&E / US / AMEA) | 297.7 / 91.9 / 64.5 (=454.1) | | 359.6 / 87.4 / 57.3 (=504.3) | **360.5 / 113.5 / 54.1 (=528.1)** (US +29.8% QoQ, +23.5% YoY) |
+| Headcount (offshore / onsite) | 4,797 (3,241 / 1,556) | | 4,730 (3,195 / 1,535) | **4,897 (3,283 / 1,614)** |
+| LTM attrition | 19.5% | 17.6% | 17.4% | **16.4%** |
+| Utilisation (net of leave) | 87.2% | | 85.7% | **83.9%** |
+| DSO (days) | 82 | | 73 | **75** |
+| Top-5 / top-10 clients | 34.7% / 45.1% | | 33.9% / 46.2% | **32.0% / 44.7%** |
+| Active clients / $1M+ clients | 323 / 75 | 333 / – | 326 / 69 | 309 / 69 |
+(The regional table is *total* order backlog — $528M at Jun-26 — vs the $310M *12-month* backlog; Q1 FY27 deck [V]; Q3 FY26 margin read from chart.)
+
+- **Book-to-bill proxy [E]:** 12-month backlog $310.1M ÷ annualised revenue ($104.8M × 4 = $419M) = **0.74x of next-12-month revenue already contracted** (0.72x at Mar-26). Mastek reports no TCV.
+- **Mix Q1 FY27:** geography **UK & Europe 67.3%** (Q1 FY26 63.8%), **US 21.7%**, **AMEA 11.0%** (13.1%); verticals **Government & Education 42.9%** (39.2%), Health & Life Sciences 19.3% (25.0%), Retail/Consumer 10.3%, Manufacturing & Tech 12.5%, Financial Services 15.0% (11.9%); service lines Digital & Application Engineering 50.0%, **Oracle Cloud & Enterprise Apps 27.2%**, Digital Commerce & Experience 9.3%, Data/Automation/AI 13.4% (+9.8% QoQ); contract mix fixed-price 43.1% / T&M 56.9%.
+- **Margin drivers Q1 FY27 (CFO [V]):** EBITDA −71 bps QoQ to 15.4% from **Middle East bench costs and delayed collections** (geopolitics); UK segment EBIT "almost 20%"; utilisation −2 pts on order push-outs. FX hedges for next 12 months: £22.6M at ₹120.3/£ and $7.6M at ₹91.8/$.
+- **AI:** AI order book **$64.0M in Q1 FY27** (from $27.5M Q4, $16.9M Q3, $7M Q2 FY26); **43 AI deals** in Q1 (~45% of new order book); $25M, 5-year Salesforce Agentforce AI deal in North America (US Federal security agency engagement) [V]. CEO: net-new AI business "coming at a much better margin".
+- **Revenue per employee [E]:** FY26 $421.2M ÷ avg headcount ~4,760 [E: avg of 4,797 Jun-25 and 4,730 Mar-26] = **~$88.5K**; Q1 FY27 annualised $419.2M ÷ avg(4,730, 4,897) = **~$87.1K** — highest per-head among Indian mid-tier IT here because ~33% of staff are onsite (UK).
+- **FCF / PAT [E]:** FY26 screener FCF ₹515 cr ÷ PAT ₹404 cr = **127%** (FY25 101%). Q1 FY27 OCF ~₹27 cr after ₹107 cr variable pay; "net cash and investment position improved ~₹200 cr over last two quarters".
+- **Guidance:** no numeric guidance; "long-term growth outlook remains positive"; Middle East "predictability still uncertain" (CEO). Primer and calls cite ambition to rebalance toward the Americas.
+- **M&A:** Evosys (Oracle Cloud; 2020, transformational — brought the Middle East business), MST Solutions (Salesforce, US, 2022), BizAnalytica (2022), Metasoftech (2023) [K: company announcements]; none in FY26–27.
+
+### 5.3 Ownership (screener, Jun-26 [V])
+Promoters **35.77%** (49.22% Mar-17 → 35.77%, gradual dilution/sales), FIIs **7.45%** (14.40% Mar-24 — halved), **DIIs 19.86%** (from 7.07% Mar-24 — MF accumulation), public 36.94%, ~90,400 shareholders. Pledges not shown — unverified.
+
+### 5.4 Story bullets
+1. **UK public-sector & Oracle franchise intact**: UK & Europe backlog $360M, Govt & Education 43% of revenue, UK EBIT ~20%; HM Government digital budgets (NHS, councils, Home Office-type programmes) drive the year more than US discretionary spend.
+2. **Growth is backlog-led but slow**: 12-month backlog +13% YoY in USD, yet revenue still −2.4% YoY in USD (+3.0% cc) — Middle East (AMEA 11% of revenue, falling) is the drag.
+3. **AI order book scaling fast** ($7M → $64M in four quarters) — Mastek is positioning AI deals as margin-accretive; contrast with GenAI deflation in run work at larger peers.
+4. **Cheapest valuation in the batch** (12x P/E, ~8x EV/EBITDA, net cash ~₹500 cr, FCF/PAT >100%) with FIIs exiting and DIIs buying.
+
+### 5.5 PRIMER ISSUES — primers/mastek.html (refreshed 26 Aug 2026)
+1. **Wrong CEO:** primer says day-to-day leadership is "Hiral Chandrana as Global CEO" → **CEO is Umang Nahata** (Q4 FY26 and Q1 FY27 releases, calls) [V]; CFO Deepak Kedia not named. Timeline should add the Chandrana → Nahata transition.
+2. **Stale m-cap/P/E:** "~₹5,900 Cr market cap (mid-2026)", "~13–14× trailing P/E" → **₹5,317 cr, 12.1x (screener, 13 Oct 2026)** [V].
+3. **Missing Q1 FY27 (21 Jul 2026):** revenue $104.8M (+1.8% QoQ cc, +3.0% YoY cc), EBITDA 15.4%, PAT ₹105.9 cr, 12-month backlog **₹2,935 cr / $310.1M** (+13.3% YoY USD), AI order book $64M, headcount 4,897, attrition 16.4% [V]. Backlog figure in the primer (₹2,849 cr) is the Mar-26 figure.
+4. **Missing USD view:** primer reports FY26 in ₹ only (+7%); **USD growth was only +3.1% ($421.2M)** and Q1 FY27 USD revenue fell 2.4% YoY — the ₹ number flatters [V].
+5. **Cash understated/vague:** "cash ~₹900 Cr+ vs modest debt" → **₹945.4 cr (Jun-26)**; borrowings ₹438 cr (incl. leases) → net cash ~₹500 cr [V/E].
+6. **Missing events:** income-tax assessment for FY2022-23 (~₹31 cr tax impact; appeal filed 26 Jun 2026) [V]; Q2 FY27 results date 23 Oct 2026 [V].
+7. **Ownership detail:** promoter "~36% (approx.)" → **35.77%**; DIIs 19.86%, FIIs 7.45% (should note the FII→DII rotation) [V].
+8. **AMEA share:** "~8%" in one table vs "~11%" in the Middle East section — inconsistent; company: **AMEA 11.0% (Q1 FY27), 12.1% (Q4 FY26)** [V].
+
