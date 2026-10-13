@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Iron &amp; Steel — Sub-sector Report</title>
+<meta name="description" content="A complete guide to India's listed iron and steel producers: how the HRC–coking-coal spread sets profits, how the safeguard duty and import parity set prices, captive ore and the mining regime, the race to 300 MTPA, CBAM, the KPIs, a 13-company peer table and profiles.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#3B2A2F;          /* oxide plum / graphite */
+    --brand-bright:#C24E1A;   /* molten orange */
+    --gold:#C99A2E;           /* hot-metal gold */
+    --wtg:#8A4A32;            /* rust oxide */
+    --epc:#B07A45;            /* bronze */
+    --om:#4E5C68;            /* slate */
+    --spec:#C24E1A;          /* molten accent */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#3B2A2F,#5E4148);}
+  .fill.gold{background:linear-gradient(90deg,#C99A2E,#DDB55A);}
+  .fill.wtg{background:linear-gradient(90deg,#8A4A32,#A5644A);}
+  .fill.om{background:linear-gradient(90deg,#4E5C68,#6B7A87);}
+  .fill.spec{background:linear-gradient(90deg,#C24E1A,#DE6E3A);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Iron &amp; Steel · Iron &amp; Steel</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> How a tonne earns</a></li>
+    <li><a href="#p2"><span class="n">02</span> Size, growth &amp; history</a></li>
+    <li><a href="#p3"><span class="n">03</span> Who buys the steel</a></li>
+    <li><a href="#p4"><span class="n">04</span> How the price is set</a></li>
+    <li><a href="#p5"><span class="n">05</span> Three prices and a currency</a></li>
+    <li><a href="#p6"><span class="n">06</span> Where ₹100 goes</a></li>
+    <li><a href="#p7"><span class="n">07</span> Structure &amp; concentration</a></li>
+    <li><a href="#p8"><span class="n">08</span> Four business models</a></li>
+    <li><a href="#p9"><span class="n">09</span> Ore, coal &amp; the mining regime</a></li>
+    <li><a href="#p10"><span class="n">10</span> The race to 300 MTPA</a></li>
+    <li><a href="#p11"><span class="n">11</span> Rules of the game</a></li>
+    <li><a href="#p12"><span class="n">12</span> Four decades of cycles</a></li>
+    <li><a href="#p13"><span class="n">13</span> Reading a steelmaker: the KPIs</a></li>
+    <li><a href="#p14"><span class="n">14</span> The peer table</a></li>
+    <li><a href="#p15"><span class="n">15</span> Who is winning</a></li>
+    <li><a href="#p16"><span class="n">16</span> Thirteen company profiles</a></li>
+    <li><a href="#p17"><span class="n">17</span> Carbon &amp; the EU door</a></li>
+    <li><a href="#p18"><span class="n">18</span> The global lens</a></li>
+    <li><a href="#p19"><span class="n">19</span> Technology &amp; disruption</a></li>
+    <li><a href="#p20"><span class="n">20</span> Bull vs bear</a></li>
+    <li><a href="#p21"><span class="n">21</span> What to watch</a></li>
+    <li><a href="#p22"><span class="n">22</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Iron &amp; Steel · Iron &amp; Steel</span>
+    <span class="tag gold">13 listed companies</span>
+  </div>
+  <h1>Indian steel: a spread business <em>behind a porous trade wall</em></h1>
+  <p class="dek">A complete guide to the business of making iron and steel in India: how a mill turns iron ore, imported coking coal and electricity into a margin, why that margin is set by a Chinese export price, a safeguard duty and the rupee more than by anything the mill does, how captive mines and the auction regime decide who has a cost edge, and what the race from 222 to 300 million tonnes of capacity will do to the 13 listed producers in the NSE 750.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹8.5–9.0 <small>lakh Cr</small></div><div class="l">Finished-steel market FY26 (mill gate, indicative)</div></div>
+    <div class="cell"><div class="v">164.4 <small>Mt</small></div><div class="l">Finished-steel use FY26, +8.0%</div></div>
+    <div class="cell"><div class="v">₹30,400 <small>/t</small></div><div class="l">Integrated raw-material spread, Oct 2026 (₹18,430 Dec 2025)</div></div>
+    <div class="cell"><div class="v">13</div><div class="l">Listed in NSE 750</div></div>
+    <div class="cell"><div class="v">₹9.46 <small>lakh Cr</small></div><div class="l">Combined m-cap (13 Oct 2026)</div></div>
+    <div class="cell"><div class="v">₹54,249 <small>Cr</small></div><div class="l">Combined PAT FY26 (₹37,439 Cr ex-JSW one-off)</div></div>
+  </div>
+  <p class="prov">Basis: FY26 (year ended 31 Mar 2026) consolidated company figures except NMDC Steel, Jayaswal Neco and Jai Balaji (standalone); EBITDA is screener operating profit unless stated; Q1 FY27 cross-checks; market data at the 13 Oct 2026 close. Industry data from the Ministry of Steel Monthly Economic Reports (JPC), the Ministry's July 2026 Overview, worldsteel, ICRA and Infomerics. The market size and the spread are analyst estimates built from published prices and are labelled; no Q2 FY27 results were out on the screener date.</p>
+</header>
+
+<!-- ============ 00 ============ -->
+<section class="part" id="p0">
+  <div class="part-head"><span class="pno">00</span><h2>The one-page view: a commodity mill whose margin is set three borders away</h2></div>
+  <p class="part-sub">India is the only large steel market still growing 7–9% a year. That makes it the world's favourite export destination, and it means a mill's profit depends less on its own efficiency than on prices it does not control.</p>
+
+  <p class="lead">India made 170 million tonnes of crude steel in FY26, second only to China, and its use of finished steel rose 8% to 164 million tonnes. Almost every other big steel market is shrinking or flat. China's own consumption is falling with its property market, and in 2025 it exported a record 119 million tonnes, equal to about seven-tenths of everything India consumed. That single fact explains most of what follows. An Indian steel company sells a product whose price is anchored to what a tonne of Chinese, Korean or Japanese hot-rolled coil would cost delivered to an Indian port. It then buys most of its coking coal on the seaborne market, priced in dollars. Its profit is the gap between those two world prices, translated through the rupee, plus whatever it saves by owning iron ore, generating its own power and selling higher-grade products.</p>
+
+  <p>This report is built around five forces that between them explain why the 13 listed companies earned what they did in FY26 and what will change their earnings next.</p>
+  <ul class="clean">
+    <li><strong>The spread.</strong> For an integrated blast-furnace mill, about a third of revenue goes on imported coking coal and another eighth to a sixth on iron ore. The gap between the hot-rolled coil (HRC) price and those two inputs, which we call the raw-material spread, moved from about ₹18,430 a tonne in December 2025 to about ₹30,400 a tonne in October 2026 (both illustrative, built from published prices). That swing of roughly ₹12,000 a tonne is larger than any cost programme a mill can run.</li>
+    <li><strong>China's surplus against India's trade wall.</strong> A three-year safeguard duty on flat steel (12% to April 2026, 11.5% to April 2027, 11% to April 2028), anti-dumping duties and quality-control orders keep Indian prices a little above the Chinese offer. The wall is porous: free-trade agreements with Korea, Japan and ASEAN, and a price floor above which the duty does not apply, let imports back in whenever world prices rise. India was a net importer again in the first half of FY27.</li>
+    <li><strong>Domestic demand led by the state.</strong> Construction and infrastructure take about 60% of Indian steel. The Union government budgeted ₹12.2 lakh crore of capital spending for FY27. Demand growth of 7–9% a year is the whole investment case for the industry's expansion.</li>
+    <li><strong>Raw-material security and the mining regime.</strong> Since 2015 new iron-ore leases are auctioned, and winning bids commonly pay the state 90–150% of the ore's value on top of a 15% royalty. Ore from an auctioned "captive" mine is therefore rarely cheaper than ore bought in the market. The real advantage belongs to the few holders of old, non-auctioned leases, and Tata Steel's run out in March 2030.</li>
+    <li><strong>Decarbonisation costs arriving before the technology.</strong> India's mills emit about 2.54 tonnes of CO₂ per tonne of crude steel against a world average of 1.92. The EU's carbon border charge (CBAM) became definitive in January 2026 and its new import quota cut duty-free volumes by 47% from July 2026. India's own carbon-market targets start in FY27, and about 64% of the capacity being planned is still coal-based blast furnace.</li>
+  </ul>
+
+  <div class="mini-stats">
+    <div class="ms"><div class="msv">₹7,02,262 Cr</div><div class="msl">Combined FY26 revenue of the 13 listed producers (simple sum; Tata Steel includes Europe, JSW includes the US)</div></div>
+    <div class="ms gold"><div class="msv">15.2%</div><div class="msl">Blended FY26 EBITDA margin on screener operating profit (₹1,06,623 Cr)</div></div>
+    <div class="ms red"><div class="msv">~₹12,000/t</div><div class="msl">Swing in the integrated-mill raw-material spread between December 2025 and October 2026 (illustrative)</div></div>
+  </div>
+
+  <div class="chart">
+    <div class="c-title">What moved the integrated spread from trough to peak</div>
+    <div class="c-sub">Change in each component of the raw-material spread per tonne of steel, December 2025 trough (₹18,430/t) to October 2026 spot (₹30,400/t). ILLUSTRATIVE: HRC ex-works ex-GST; 0.8 t coking coal and 1.6 t iron ore per tonne of steel, landed. Built from Ministry of Steel MER, SMM and ICRA prices (industry dossier §10)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">HRC price<small>₹46,000 → ₹63,000</small></div><div class="track"><span class="fill spec" style="width:100%"></span></div><div class="bval">+₹17,000</div></div>
+      <div class="bar-row"><div class="blab">Coking coal cost<small>₹17,490 → ₹22,680</small></div><div class="track"><span class="fill bad" style="width:30.5%"></span></div><div class="bval">−₹5,190</div></div>
+      <div class="bar-row"><div class="blab">Iron ore cost<small>₹10,080 → ₹9,920</small></div><div class="track"><span class="fill om" style="width:0.9%"></span></div><div class="bval">+₹160</div></div>
+      <div class="bar-row"><div class="blab">Net change in spread</div><div class="track"><span class="fill brand" style="width:70.4%"></span></div><div class="bval">+₹11,970</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹17,000 a tonne. Steel prices did the work; costlier coal took back about a third of the gain.</span></div>
+  </div>
+
+  <p>The 13 companies are not one business. Five are integrated producers that run blast furnaces and sell flat and long steel at national scale: JSW Steel, Tata Steel, Steel Authority of India (SAIL), Jindal Steel and NMDC Steel. Lloyds Metals is above all an iron-ore miner moving downstream into pellets, sponge iron and soon steel. Jindal Stainless makes stainless steel from scrap, nickel and chrome, and has almost no exposure to iron ore or coking coal. The remaining six (Shyam Metalics, Sarda Energy, Godawari Power &amp; Ispat, Gallantt Ispat, Jayaswal Neco and Jai Balaji) are "secondary" producers, mostly in Chhattisgarh, Odisha, West Bengal and Uttar Pradesh, that make sponge iron in coal-fired kilns and melt it in induction or electric furnaces into billets, bars and rods. Their economics depend on regional long-product prices, thermal coal, captive power and, for a few, captive ore.</p>
+
+  <div class="chart">
+    <div class="c-title">The integrated five are most of the money</div>
+    <div class="c-sub">Share of the 13 companies' combined FY26 revenue, EBITDA (screener operating profit) and market cap at 13 Oct 2026, by archetype. Source: screener, orchestrator company-KPI appendix</div>
+    <div class="stack-row"><div class="blab">Revenue ₹7,02,262 Cr</div><div class="stack"><span style="width:84.7%;background:var(--brand)">Integrated 84.8%</span><span style="width:8.6%;background:var(--gold)">8.6%</span><span style="width:6.7%;background:var(--wtg)">6.7%</span></div></div>
+    <div class="stack-row"><div class="blab">EBITDA ₹1,06,623 Cr</div><div class="stack"><span style="width:81.7%;background:var(--brand)">Integrated 81.7%</span><span style="width:11.0%;background:var(--gold)">11.0%</span><span style="width:7.3%;background:var(--wtg)">7.3%</span></div></div>
+    <div class="stack-row"><div class="blab">M-cap ₹9,45,961 Cr</div><div class="stack"><span style="width:73.3%;background:var(--brand)">Integrated 73.4%</span><span style="width:17.1%;background:var(--gold)">17.1%</span><span style="width:9.6%;background:var(--wtg)">9.6%</span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>Integrated: JSW, Tata, Jindal Steel, SAIL, NMDC Steel</span><span><i style="background:var(--gold)"></i>Mining-led and stainless: Lloyds, Jindal Stainless</span><span><i style="background:var(--wtg)"></i>Six secondary mid-caps</span></div>
+  </div>
+
+  <p>The market already pays differently for these models. The integrated five produce 82% of the group's operating profit but 73% of its value; Lloyds and Jindal Stainless earn 11% of the profit and command 17% of the value, because ore from a low-cost legacy lease and stainless steel's steadier margins are scarcer than blast-furnace tonnes. Combined, the 13 trade at about 17× FY26 earnings, but that figure is flattered by JSW Steel's one-off ₹18,051 crore gain on selling its Bhushan Power &amp; Steel plant into a joint venture with Japan's JFE. Strip that out and the group is on about 25× earnings, a premium to global steel peers that reflects India's growth and the fact that FY26 was a year of depressed spreads for most of its twelve months.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>An Indian steel mill is a converter sitting between two world markets. It buys coal from Australia, Russia and the United States, digs or buys iron ore at home, and sells steel at a price that cannot drift far above what an importer would pay. When Chinese steel is cheap and coal is dear, as in late 2023, the mill earns little whatever it does. When a safeguard duty lifts the floor, the rupee weakens and Chinese exports slow, as in 2026, it earns a lot. The mills that win across cycles are the ones that own cheap ore, run full, sell more high-grade product and borrow modestly, because those are the only levers that stay in their hands.</p>
+  </div>
+
+  <p>The rest of the report follows the money. Sections 01 to 06 explain how a tonne of steel earns, how big the market is, who buys, how prices are set and where the revenue goes. Sections 07 to 12 cover industry structure, the four business models, the mining regime, the capacity race, regulation and the cycle. Section 13 is a full masterclass in the numbers a steel analyst reads, and sections 14 to 16 compare and profile all 13 companies. The closing sections deal with carbon, the global market, technology, the bull and bear cases and the indicators to watch, with thresholds.</p>
+</section>
+
+<!-- ============ 01 ============ -->
+<section class="part" id="p1">
+  <div class="part-head"><span class="pno">01</span><h2>How a tonne earns: two routes from rock to rebar</h2></div>
+  <p class="part-sub">Integrated mills turn ore and imported coal into coil in blast furnaces; secondary mills turn ore and thermal coal into sponge iron and melt it with electricity. Who captures the value depends on what each one owns.</p>
+
+  <p>Steel is iron with most of its carbon and impurities removed, and the industry's whole cost structure follows from how that iron is extracted from ore. There are two main routes in India, and they run on different fuels, cost different amounts to build and earn margins in different ways.</p>
+
+  <div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">Route 1 · Integrated blast furnace (BF-BOF): how JSW, Tata, SAIL, NMDC Steel and most of Jindal Steel make flat steel</div>
+    <div class="flow-row">
+      <div class="node om"><div class="ntag">Step 1 · Raw materials</div><div class="nname">Ore, coking coal, flux</div><div class="nwho">~1.6 t iron ore and ~0.8 t coking coal plus PCI per tonne of steel. Ore mostly Indian; coal 85–90% imported.</div></div>
+      <div class="arrow">→</div>
+      <div class="node wtg"><div class="ntag">Step 2 · Preparation</div><div class="nname">Sinter, pellets, coke</div><div class="nwho">Fines are sintered or pelletised; coal is baked into coke in coke ovens.</div></div>
+      <div class="arrow">→</div>
+      <div class="node spec"><div class="ntag">Step 3 · Ironmaking</div><div class="nname">Blast furnace</div><div class="nwho">Coke reduces the ore to liquid hot metal at about 1,500°C. The single biggest cost block.</div></div>
+      <div class="arrow">→</div>
+      <div class="node om"><div class="ntag">Step 4 · Steelmaking</div><div class="nname">Basic oxygen furnace</div><div class="nwho">Oxygen burns off carbon; ladle refining sets the grade; continuous casting makes slabs.</div></div>
+      <div class="arrow">→</div>
+      <div class="node wtg"><div class="ntag">Step 5 · Rolling</div><div class="nname">HRC, CRC, coated</div><div class="nwho">Hot strip mill makes coil; cold rolling, galvanising and colour coating add ₹9,000–20,000/t.</div></div>
+    </div>
+    <div class="flow-note">Value concentrates at Step 1 (owning cheap ore) and Step 5 (selling product above the HRC benchmark). Steps 2–4 are where scale and efficiency matter.</div>
+  </div>
+
+  <div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">Route 2 · Secondary coal-DRI and induction furnace: how Shyam, Sarda, GPIL, Gallantt and Jai Balaji make long steel</div>
+    <div class="flow-row">
+      <div class="node om"><div class="ntag">Step 1 · Inputs</div><div class="nname">Pellets or lump, thermal coal</div><div class="nwho">~1.55 t pellet or lump and ~1.2 t non-coking coal per tonne of sponge iron.</div></div>
+      <div class="arrow">→</div>
+      <div class="node wtg"><div class="ntag">Step 2 · Ironmaking</div><div class="nname">Rotary kiln (DRI)</div><div class="nwho">Coal reduces ore in solid state to sponge iron; kiln waste heat feeds captive power.</div></div>
+      <div class="arrow">→</div>
+      <div class="node spec"><div class="ntag">Step 3 · Melting</div><div class="nname">Induction / electric furnace</div><div class="nwho">~1.1 t sponge plus scrap or pig iron per tonne of billet; 650–800 kWh of power.</div></div>
+      <div class="arrow">→</div>
+      <div class="node om"><div class="ntag">Step 4 · Rolling</div><div class="nname">TMT, wire rod, sections</div><div class="nwho">Rolling adds ₹2,500–4,000/t; a brand adds another ₹3,000–6,000/t.</div></div>
+    </div>
+    <div class="flow-note">On bought sponge iron, melting it into billet earns about nothing (Raipur, September 2026). The route only pays when the sponge iron, the power or the ore is the company's own.</div>
+  </div>
+
+  <p>A third route matters for a few plants. Gas-based direct reduction, used at AM/NS India's Hazira plant and part of JSW's Dolvi plant, reduces ore with natural gas, and Jindal Steel's Angul plant uses gas made from coal (syngas). Stainless steel, Jindal Stainless's business, is made from scrap, nickel pig iron and ferro-chrome in electric arc furnaces. In 2025, 42.3% of India's crude steel came from basic oxygen furnaces and 57.7% from electric furnaces of all kinds, almost the reverse of China's 89% blast-furnace share. India is the world's largest producer of sponge iron, at 58.9 million tonnes in 2025, and about 80% of it is made in coal-fired kilns.</p>
+
+  <h3>Where the value is captured</h3>
+  <p>Five levers decide how much of the selling price a producer keeps. Ownership of raw materials is the biggest. Iron ore is about a fifth to three-tenths of an integrated mill's cash cost, and a mill with an old captive lease avoids the margin a merchant miner such as NMDC earns, worth roughly ₹2,500–4,000 per tonne of steel. Coking coal cannot be owned in any meaningful way in India, because domestic coking coal is high in ash; that value leaves the country and is the largest single swing in blast-furnace profits. Downstream processing is the third lever: in September 2026 cold-rolled coil sold in Mumbai for ₹12,770 a tonne more than hot-rolled coil. Coastal location is the fourth, because a plant next to a port saves rail freight on imported coal and on exports. For secondary producers, captive power from waste heat and coal fines is the fifth, since electricity is 15–20% of the cost of melting sponge iron.</p>
+
+  <div class="chart">
+    <div class="c-title">What each lever is worth per tonne</div>
+    <div class="c-sub">Approximate value of each source of margin, ₹ per tonne of steel; bar shows the midpoint of the range. INDICATIVE: industry dossier §1 and §10, Mumbai prices from Ministry of Steel MER (Sep 2026), Raipur prices from SMM (1 Sep 2026)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Coated over HRC<small>GP/GC, colour-coated</small></div><div class="track"><span class="fill spec" style="width:100%"></span></div><div class="bval">₹15–20k</div></div>
+      <div class="bar-row"><div class="blab">CRC over HRC<small>Mumbai, Sep 2026</small></div><div class="track"><span class="fill spec" style="width:73%"></span></div><div class="bval">₹12,770</div></div>
+      <div class="bar-row"><div class="blab">Captive DRI into billet<small>vs buying sponge iron</small></div><div class="track"><span class="fill wtg" style="width:45.7%"></span></div><div class="bval">₹7.5–8.5k</div></div>
+      <div class="bar-row"><div class="blab">Branded TMT premium<small>over unbranded rebar</small></div><div class="track"><span class="fill gold" style="width:25.7%"></span></div><div class="bval">₹3–6k</div></div>
+      <div class="bar-row"><div class="blab">Legacy captive ore<small>vs merchant ore</small></div><div class="track"><span class="fill brand" style="width:18.6%"></span></div><div class="bval">₹2.5–4k</div></div>
+      <div class="bar-row"><div class="blab">Rolling billet to TMT</div><div class="track"><span class="fill om" style="width:18.6%"></span></div><div class="bval">₹2.5–4k</div></div>
+      <div class="bar-row"><div class="blab">Captive WHR power<small>for an induction furnace</small></div><div class="track"><span class="fill om" style="width:10%"></span></div><div class="bval">₹1.5–2k</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹17,500 a tonne. The levers stack: a producer with captive ore, captive power and a downstream mill earns several of these at once.</span></div>
+  </div>
+
+  <p>The secondary route's arithmetic shows why integration matters so much in that half of the industry. In Raipur on 1 September 2026, sponge iron sold for ₹29,400–30,000 a tonne against a cash cost of about ₹21,500 using bought pellets and coal, a margin of about ₹8,000. A billet sold for ₹42,400, but making it from bought sponge iron cost about ₹42,700 once power, scrap and alloys were added. In other words, the melt shop earned nothing on its own that week; the profit sat entirely in the kiln. A producer that makes its own sponge iron keeps the ₹7,500–8,500 integrated margin, and one that also generates its own power at ₹2–3 a unit saves another ₹1,500–2,000. That is why every listed secondary producer has spent the last decade adding pellet plants, kilns, waste-heat boilers and, where it can, mines.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>Steelmaking is a chain of conversions, and each link has its own market price. If a company buys an input at the market price and sells the output at the market price, that link earns only what the market leaves it, which is often nothing. Profit comes from owning a link whose input is cheaper than the market: an old mine, a coal block, a power plant fed by waste heat. The more links a company owns, the more of the chain's margin it keeps and the less it depends on any single price.</p>
+  </div>
+
+  <p>The two routes also differ in capital and time. A brownfield blast-furnace expansion costs ₹3,500–5,500 crore per million tonnes of annual capacity and takes three to four years. A coal-DRI and induction-furnace unit costs ₹1,500–2,500 crore per million tonnes and can be built in about 18 months. That gap explains why secondary capacity can flood the long-products market quickly after a good year, and why TMT prices are more volatile than coil prices. It also explains why the integrated mills dominate flat products, where quality and scale requirements keep small players out.</p>
+</section>
+
+<!-- ============ 02 ============ -->
+<section class="part" id="p2">
+  <div class="part-head"><span class="pno">02</span><h2>Size, growth and history: from 77 to 164 million tonnes in eleven years</h2></div>
+  <p class="part-sub">Indian steel use has roughly doubled since FY15 and grown 7.5% a year since FY19, faster than the economy. Capacity has kept pace, so utilisation has hovered near three-quarters.</p>
+
+  <p>India consumed 77 million tonnes of finished steel in FY15. By FY26 it consumed 164.4 million tonnes on the Ministry of Steel's revised figures, up 8.0% on the year. Over the seven years from FY19 to FY26 consumption compounded at 7.5% a year, and over the three years from FY23 at 10.9%, helped by a low post-COVID base. Crude-steel production grew 6.2% a year over FY19–FY26 to 170.2 million tonnes. Consumption has been growing at roughly 1.1–1.4 times real GDP, which is the pattern of an economy still building roads, railways, homes and factories rather than replacing them.</p>
+
+  <div class="chart">
+    <div class="c-title">Finished-steel consumption, FY15 to FY26</div>
+    <div class="c-sub">Million tonnes, fiscal years (April–March). FY15–FY21 from JPC annual statistics; FY22–FY25 from the Ministry of Steel MER (FY25 revised); FY26 revised figure from the Ministry's July 2026 Overview (provisional was 163.74 Mt)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">FY15</div><div class="track"><span class="fill om" style="width:45.3%"></span></div><div class="bval">77.0</div></div>
+      <div class="bar-row"><div class="blab">FY16</div><div class="track"><span class="fill om" style="width:48.0%"></span></div><div class="bval">81.5</div></div>
+      <div class="bar-row"><div class="blab">FY17</div><div class="track"><span class="fill om" style="width:49.4%"></span></div><div class="bval">84.0</div></div>
+      <div class="bar-row"><div class="blab">FY18</div><div class="track"><span class="fill om" style="width:53.4%"></span></div><div class="bval">90.7</div></div>
+      <div class="bar-row"><div class="blab">FY19</div><div class="track"><span class="fill om" style="width:58.1%"></span></div><div class="bval">98.7</div></div>
+      <div class="bar-row"><div class="blab">FY20</div><div class="track"><span class="fill om" style="width:58.9%"></span></div><div class="bval">100.2</div></div>
+      <div class="bar-row"><div class="blab">FY21<small>COVID, −5.3%</small></div><div class="track"><span class="fill bad" style="width:55.8%"></span></div><div class="bval">94.9</div></div>
+      <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill brand" style="width:62.2%"></span></div><div class="bval">105.8</div></div>
+      <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill brand" style="width:70.5%"></span></div><div class="bval">119.9</div></div>
+      <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:80.2%"></span></div><div class="bval">136.3</div></div>
+      <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:89.5%"></span></div><div class="bval">152.1</div></div>
+      <div class="bar-row"><div class="blab">FY26<small>revised, +8.0%</small></div><div class="track"><span class="fill spec" style="width:96.7%"></span></div><div class="bval">164.4</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 170 Mt. The JPC changed its finished-steel definition in FY19, so consumption is the comparable long series.</span></div>
+  </div>
+
+  <p>The value of that consumption is harder to pin down because prices vary by product and by month. Multiplying FY26 consumption by an average realised mill price of ₹52,000–55,000 a tonne, excluding GST, gives a mill-gate market of roughly ₹8.5–9.0 lakh crore. That is an indicative estimate: HRC sold at ₹48,000–52,000 ex-works for most of the year, TMT bars at ₹46,000–50,000 and cold-rolled and coated sheet at ₹58,000–70,000. Including GST and distributors' margins, the value to end users is about ₹10.5–11 lakh crore. Iron and steel are about 2% of GDP and carry a 17.92% weight in the Index of Eight Core Industries, which is why a bad steel quarter shows up in the national data.</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <caption>The national steel balance: where FY26 and FY27 H1 consumption came from</caption>
+      <thead><tr><th>Item, million tonnes</th><th class="num">FY26 (provisional)</th><th class="num">FY27 H1 (Apr–Sep 2026)</th><th>What it shows</th></tr></thead>
+      <tbody>
+        <tr><td class="t-strong">Finished-steel production</td><td class="num">160.94</td><td class="num">81.79</td><td>H1 crude output grew only 2.9% after gas and LPG shortages and plant shutdowns</td></tr>
+        <tr><td class="t-strong">+ Imports</td><td class="num">6.52</td><td class="num">4.14</td><td>FY26 imports fell 31.7% under the safeguard; H1 FY27 imports rose 24%</td></tr>
+        <tr><td class="t-strong">− Exports</td><td class="num">6.60</td><td class="num">3.55</td><td>FY26 exports rose 35.9%, led by hot-rolled coil to Europe</td></tr>
+        <tr><td class="t-strong">− Stock change</td><td class="num">−2.88</td><td class="num">−2.56</td><td>Mills and traders drew down inventory in both periods</td></tr>
+        <tr><td class="t-strong">= Consumption</td><td class="num">163.74</td><td class="num">84.94</td><td>H1 consumption grew 7.5%, outrunning production by about 3.1 Mt</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Capacity has kept up with demand, which is why the industry has never run hot for long. Installed crude-steel capacity rose from 122 million tonnes a year (MTPA) in FY16 to 220.4 MTPA in FY26 and about 222 MTPA by June 2026. Utilisation, crude production divided by capacity, has stayed between 72% and 81% throughout. The peak of 81% came in FY24, just before a wave of new plants arrived. The figure needs care: the official capacity number counts the nameplate of every small induction-furnace unit, many of which run at 50–65%, while the large integrated mills run at 90–95%. JSW's Indian plants, for example, ran at 94% in the June 2026 quarter.</p>
+
+  <div class="chart">
+    <div class="c-title">Capacity has grown with demand, so utilisation sits near 77%</div>
+    <div class="c-sub">India crude-steel capacity, MTPA at fiscal year-end, with utilisation (crude production ÷ capacity). FY16–FY24 CMIE via Infomerics (Jul 2025); FY25 BigMint provisional; FY26 Ministry of Steel Overview (Jul 2026); FY31 is the National Steel Policy 2017 target</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">FY16</div><div class="track"><span class="fill om" style="width:40.7%"></span></div><div class="bval">122 · 74%</div></div>
+      <div class="bar-row"><div class="blab">FY18</div><div class="track"><span class="fill om" style="width:46.0%"></span></div><div class="bval">138 · 75%</div></div>
+      <div class="bar-row"><div class="blab">FY20</div><div class="track"><span class="fill om" style="width:47.4%"></span></div><div class="bval">142 · 77%</div></div>
+      <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill om" style="width:51.4%"></span></div><div class="bval">154 · 78%</div></div>
+      <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill om" style="width:53.8%"></span></div><div class="bval">161 · 79%</div></div>
+      <div class="bar-row"><div class="blab">FY24<small>utilisation peak</small></div><div class="track"><span class="fill brand" style="width:59.8%"></span></div><div class="bval">180 · 81%</div></div>
+      <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:68.3%"></span></div><div class="bval">~205 · ~74–78%</div></div>
+      <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:73.5%"></span></div><div class="bval">220 · ~77%</div></div>
+      <div class="bar-row"><div class="blab">FY31 target<small>NSP-2017</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">300 · 85%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 300 MTPA. FY25 utilisation is 74% on year-end capacity and about 79% on average capacity.</span></div>
+  </div>
+
+  <p>The history of the industry is a history of policy. Licensing was abolished in 1991 and prices were decontrolled on 16 January 1992, which let private blast-furnace capacity (JSW, Essar, Ispat) be built for the first time. The 2002–2008 super-cycle, driven by China's urbanisation, produced Tata Steel's US$12 billion purchase of Corus in April 2007, at the top. Court-ordered mining bans in Karnataka (2011) and Goa (2012) and the Supreme Court's cancellation of 204 coal blocks in September 2014 hurt the companies that depended on them. When China exported about 112 million tonnes in 2015 the Indian price collapsed, and the bank loans taken for the previous expansion became the steel component of the bad-loan crisis. The Insolvency and Bankruptcy Code of 2016 then handed Bhushan Steel to Tata (2018), Essar Steel to ArcelorMittal and Nippon Steel (2019) and Bhushan Power &amp; Steel to JSW (2021), consolidating the flat-steel market into today's oligopoly.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>Indian steel demand has doubled in a decade and is still growing faster than the economy, because India is at the stage of development where countries pour concrete reinforced with steel. But every good year brings new plants, so the industry rarely runs short. Prices and profits are therefore set at the margin by imports and by whoever has just added capacity, not by a shortage that lets everyone raise prices together.</p>
+  </div>
+
+  <p>The latest data show demand still running ahead of supply. In the first half of FY27 consumption rose 7.5% while crude production rose only 2.9%, because mills lost output to the March–April 2026 gas and LPG shortages and to planned maintenance. The gap of about 3.1 million tonnes was filled by drawing down inventories by 2.56 million tonnes and by net imports of 0.59 million tonnes. Per person, India used 115.7 kilograms of finished steel in FY26 on the JPC's fiscal-year measure and 109.2 kilograms in calendar 2025 on worldsteel's, against a world average of 209 kilograms. The National Steel Policy target is 158 kilograms by FY31.</p>
+</section>
+
+<!-- ============ 03 ============ -->
+<section class="part" id="p3">
+  <div class="part-head"><span class="pno">03</span><h2>Who buys the steel: concrete, rail and the Union budget</h2></div>
+  <p class="part-sub">Six-tenths of Indian steel goes into buildings and infrastructure, so the demand cycle follows government capital spending and housing more than cars or factories.</p>
+
+  <p>The best available split of Indian steel demand, from Infomerics' July 2025 industry report, puts construction (housing, commercial and real estate) at 32% and infrastructure (roads, bridges, metro rail, ports, power and pipelines) at 28%. Together they take about 60% of demand, against roughly half in China at its peak building years. General engineering and fabrication take 11%, automobiles 11%, capital goods 9%, consumer durables 5% and railways 3%. Long products such as TMT reinforcing bars, wire rod and structural sections make up about 50–52% of consumption and flat products about 48–50%.</p>
+
+  <div class="chart">
+    <div class="c-title">Indian steel demand by end-use, FY25 and FY30 projection</div>
+    <div class="c-sub">Share of total steel demand (FY25: 142 Mt; FY30 projection: 192 Mt). Source: Infomerics, Steel Industry report (Jul 2025), Table 2</div>
+    <div class="stack-row"><div class="blab">FY25 · 142 Mt</div><div class="stack"><span style="width:32%;background:var(--brand)">Construction 32%</span><span style="width:28%;background:var(--wtg)">Infra 28%</span><span style="width:11%;background:var(--om)">Engg 11</span><span style="width:11%;background:var(--spec)">Auto 11</span><span style="width:9%;background:var(--gold)">Cap 9</span><span style="width:9%;background:var(--ink-faint)">Other 9</span></div></div>
+    <div class="stack-row"><div class="blab">FY30 · 192 Mt</div><div class="stack"><span style="width:33%;background:var(--brand)">Construction 33%</span><span style="width:29%;background:var(--wtg)">Infra 29%</span><span style="width:9%;background:var(--om)">Engg 9</span><span style="width:12%;background:var(--spec)">Auto 12</span><span style="width:9%;background:var(--gold)">Cap 9</span><span style="width:8%;background:var(--ink-faint)">Other 8</span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>Construction (building, housing, real estate)</span><span><i style="background:var(--wtg)"></i>Infrastructure</span><span><i style="background:var(--om)"></i>General engineering &amp; fabrication</span><span><i style="background:var(--spec)"></i>Automobile</span><span><i style="background:var(--gold)"></i>Capital goods</span><span><i style="background:var(--ink-faint)"></i>Consumer durables, packaging, railways</span></div>
+  </div>
+
+  <p>The heavy weighting towards construction ties steel to public spending. The Union Budget for FY27 set capital expenditure at ₹12.2 lakh crore, against ₹11.2 lakh crore budgeted for FY26, about 3.1% of GDP. Within it, railways' capital outlay is ₹2,77,697 crore (against ₹2,51,944 crore revised for FY26) and roads and bridges ₹2,75,772 crore (against ₹2,52,533 crore). ICRA estimates that budget allocations to steel-intensive sectors rose about 25% and expects FY27 steel demand to grow 9–10%. Readers who want the contractor side of that spending can turn to our <a href="civil-construction.html">civil construction report</a>, which covers the order books that turn budget lines into tonnes of rebar and structural steel.</p>
+
+  <div class="chart">
+    <div class="c-title">The capital budget behind the demand forecast</div>
+    <div class="c-sub">Union government capital outlay, ₹ lakh crore; FY26 at budget estimate (total) or revised estimate (railways, roads), FY27 at budget estimate. Source: Union Budget FY27 (Outlook Business, 1 Feb 2026; expenditure profile Statement 2B)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Total capex FY26 BE</div><div class="track"><span class="fill om" style="width:91.8%"></span></div><div class="bval">11.2</div></div>
+      <div class="bar-row"><div class="blab">Total capex FY27 BE</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">12.2</div></div>
+      <div class="bar-row"><div class="blab">Railways FY26 RE</div><div class="track"><span class="fill om" style="width:20.7%"></span></div><div class="bval">2.52</div></div>
+      <div class="bar-row"><div class="blab">Railways FY27 BE</div><div class="track"><span class="fill spec" style="width:22.8%"></span></div><div class="bval">2.78</div></div>
+      <div class="bar-row"><div class="blab">Roads FY26 RE</div><div class="track"><span class="fill om" style="width:20.7%"></span></div><div class="bval">2.53</div></div>
+      <div class="bar-row"><div class="blab">Roads FY27 BE</div><div class="track"><span class="fill spec" style="width:22.6%"></span></div><div class="bval">2.76</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹12.2 lakh crore. Railways and roads together are about 45% of central capex and are among the most steel-intensive lines.</span></div>
+  </div>
+
+  <p>Automobiles take a smaller share of tonnes but a larger share of profit for the flat-steel mills, because cars and two-wheelers use cold-rolled, galvanised and advanced high-strength grades that sell well above the HRC benchmark, on contracts reset quarterly or half-yearly. Passenger-vehicle output of about 5 million units a year anchors that business. Our <a href="auto-components.html">auto components report</a> covers the supply chain that buys this steel. Housing demand runs through the PMAY-Urban 2.0 and PMAY-Gramin schemes, which in 2024 set a target of three crore additional houses, and through private real estate. Because TMT bars go into concrete, demand for long products dips every monsoon: Mumbai TMT prices fall 5–7% a month between June and August in most years.</p>
+
+  <p>The energy transition is a smaller but growing source of demand. Solar mounting structures, transmission towers, wind towers, pipelines and electrical steel (cold-rolled grain-oriented and non-oriented grades, most of which India still imports) could add 3–5 million tonnes a year of demand by 2030 on the industry dossier's estimate. Exports, at 6.6 million tonnes in FY26 or about 4% of production, are a safety valve rather than a driver, and that valve is narrowing as the EU, the United States and others raise barriers.</p>
+
+  <div class="chart">
+    <div class="c-title">How fast will FY27 demand grow? Forecasters disagree</div>
+    <div class="c-sub">Forecast growth in Indian steel demand for FY27, %, with the actual first-half outcome. Bars show the midpoint of each range; India Ratings gave no number ("high single digit"), so its bar is indicative only. Sources: ICRA (Feb 2026), BigMint, India Ratings, CRISIL Ratings (Aug 2026) via search; actual from Ministry of Steel MER Sep 2026</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">ICRA</div><div class="track"><span class="fill spec" style="width:95%"></span></div><div class="bval">9–10%</div></div>
+      <div class="bar-row"><div class="blab">BigMint<small>to 175 Mt</small></div><div class="track"><span class="fill spec" style="width:90%"></span></div><div class="bval">~9%</div></div>
+      <div class="bar-row"><div class="blab">India Ratings</div><div class="track"><span class="fill gold" style="width:80%"></span></div><div class="bval">high single digit</div></div>
+      <div class="bar-row"><div class="blab">Actual H1 FY27</div><div class="track"><span class="fill brand" style="width:75%"></span></div><div class="bval">7.5%</div></div>
+      <div class="bar-row"><div class="blab">CRISIL Ratings</div><div class="track"><span class="fill om" style="width:60%"></span></div><div class="bval">5–7%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 10%. The first half landed between the optimists and CRISIL; a full year of 7–8% is the most consistent reading.</span></div>
+  </div>
+
+  <p>The disagreement matters because the whole capacity plan rests on the higher numbers. At 7–8% growth, demand adds about 13 million tonnes a year, which absorbs about 16 MTPA of new capacity at 80% utilisation. If demand slows to CRISIL's 5–7%, the 95–115 MTPA of additions announced to FY31 would arrive into a market growing too slowly to use them, and utilisation would fall. The demand number to track is therefore not the headline growth rate but the gap between consumption growth and capacity growth, which section 10 examines in detail.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>India's steel demand is mostly the government's and the home-builder's demand. When the Union budget raises spending on railways, roads and housing, steel mills feel it within months. That makes Indian steel less exposed than Chinese or European steel to a slump in cars or factories, but more exposed to a slowdown in public works, a weak monsoon year for construction, or a budget that shifts money away from capital spending.</p>
+  </div>
+</section>
+
+<!-- ============ 04 ============ -->
+<section class="part" id="p4">
+  <div class="part-head"><span class="pno">04</span><h2>How the price is set: import parity, a safeguard duty and a $675 floor <span class="dd">Deep dive</span></h2></div>
+  <p class="part-sub">An Indian mill can charge roughly what a tonne of imported coil would cost delivered to an Indian buyer. The trade-remedy regime raises that ceiling, but only when world prices are low, and only for some origins.</p>
+
+  <p class="lead">Steel is a commodity that ships easily, and the Indian market is open enough that buyers compare domestic offers with import offers every week. A large buyer of hot-rolled coil, whether a service centre, a pipe maker or an automotive supplier, can book Chinese, Korean or Japanese coil through a trader. The Indian mill's price is therefore capped at roughly the landed cost of that import, adjusted for the convenience of local supply. Analysts call this import parity. In February 2026 ICRA noted that domestic HRC was trading at import parity "with slight premium (~US$3/t)", which means Indian mills had almost no room to raise prices on their own. Everything in the trade-remedy regime is an attempt to push that parity price up.</p>
+
+  <p>Through 2025 the parity price was low. Chinese HRC was offered for export at about US$450–500 a tonne free on board, and with US$20–30 of freight it landed in India at roughly ₹44,000–47,000 a tonne, while Indian mills were selling at ₹46,000–52,000 ex-works. China exported a record 119 million tonnes in 2025, at an average price of US$694 a tonne across all products, as its domestic consumption fell 5.4% in the first eleven months of the year. Indian imports had reached 9.55 million tonnes in FY25, and the country was a net importer for the second year running.</p>
+
+  <h3>The safeguard duty, step by step</h3>
+  <p>The Indian Steel Association applied for protection and the Directorate General of Trade Remedies (DGTR) opened a safeguard investigation on 19 December 2024. A safeguard duty differs from an anti-dumping duty: it protects an industry against a surge in imports from all sources, not against unfair pricing by a particular country, and it must taper over its life. A provisional duty of 12% ad valorem applied for 200 days from 21 April 2025. The DGTR's final findings in August 2025 recommended three years, and the Finance Ministry's definitive notification came on 30 December 2025. The duty is 12% from 21 April 2025 to 20 April 2026, 11.5% from 21 April 2026 to 20 April 2027 and 11% from 21 April 2027 to 20 April 2028. (One widely copied transcription of the notification prints "5%" for the second year; the DGTR recommendation and every other source say 11.5%.) Between the lapse of the provisional duty around 7 November 2025 and the final notification there was no duty for about seven weeks, and that gap coincided with the price trough of December 2025.</p>
+
+  <p>The duty covers hot-rolled coil, sheets and plates, plate-mill plates, cold-rolled coil, metallic-coated and colour-coated flat steel (customs headings 7208–7212, 7225 and 7226). It excludes electrical steels (CRGO and CRNO), tinplate, stainless steel, electro-galvanised steel and a long list of speciality products. Two features matter more than the rate. First, the duty does not apply to any consignment whose CIF value (cost, insurance and freight to the Indian port) is at or above a floor: US$675 a tonne for HRC, sheets and plates, US$695 for plate-mill plates, US$824 for cold-rolled coil, US$861 for metallic-coated and US$964 for colour-coated steel. Second, imports from developing countries are exempt, except China (all five product groups), Vietnam (hot-rolled and metallic-coated) and Nepal (cold-rolled, metallic-coated and colour-coated). Korea and Japan count as developed countries and are covered unless their CIF price is above the floor.</p>
+
+  <div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">ILLUSTRATIVE · What a Chinese HRC offer costs an Indian buyer, October 2026</div>
+    <div class="flow-row">
+      <div class="node om"><div class="ntag">CIF India</div><div class="nname">US$510/t</div><div class="nwho">Chinese FOB ~US$470–500 plus ~US$25 freight, below the US$675 floor</div></div>
+      <div class="arrow op">+</div>
+      <div class="node wtg"><div class="ntag">Basic duty + SWS</div><div class="nname">~US$42/t</div><div class="nwho">7.5% basic customs duty plus social welfare surcharge (no FTA for China)</div></div>
+      <div class="arrow op">+</div>
+      <div class="node spec"><div class="ntag">Safeguard 11.5%</div><div class="nname">~US$59/t</div><div class="nwho">Year-two rate, applies because CIF is below the floor</div></div>
+      <div class="arrow op">+</div>
+      <div class="node om"><div class="ntag">Port &amp; inland</div><div class="nname">~US$15/t</div><div class="nwho">Handling and delivery to the buyer</div></div>
+      <div class="arrow op">=</div>
+      <div class="node wtg"><div class="ntag">Landed</div><div class="nname">~US$626/t ≈ ₹60,100</div><div class="nwho">At ₹96 per US$; Indian HRC ex-works was ₹63,000 on 7 Oct 2026</div></div>
+    </div>
+    <div class="flow-note">Built from the industry dossier's import-parity arithmetic (deep-dive B1): CIF US$500–525 lands at about US$625, or ₹60,000 at ₹96. The Indian price sits a few thousand rupees above the duty-paid Chinese offer.</div>
+  </div>
+
+  <p>The flow above is the clearest way to see how the regime works. On a Chinese offer of US$510 CIF, the basic customs duty, surcharge and safeguard add roughly US$100, so the coil lands at about ₹60,000 a tonne, close to the ₹63,000 Indian mills were asking in early October 2026. Without the safeguard the same coil would land nearer ₹54,500. The duty therefore adds about ₹5,600 a tonne to the ceiling, which on a mill selling 25 million tonnes of flat steel is worth up to about ₹14,000 crore a year in EBITDA if all of it can be captured. That is the prize the industry lobbied for.</p>
+
+  <div class="chart">
+    <div class="c-title">The same offer, three tariff routes</div>
+    <div class="c-sub">ILLUSTRATIVE landed cost of a tonne of HRC delivered to an Indian buyer, ₹ at ₹96/US$, compared with Indian ex-works prices. Route arithmetic applies the dossier's duty rules (7.5% basic duty for non-FTA origins, 0% under the Korea and Japan agreements, 11.5% safeguard below the US$675 CIF floor) to a common US$510 CIF offer and a US$675 offer; Indian prices from ICRA (Dec 2025) and SMM (7 Oct 2026)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Above the floor<small>CIF US$675, FTA origin, no duty</small></div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">₹66,200</div></div>
+      <div class="bar-row"><div class="blab">Indian HRC ex-works<small>7 Oct 2026</small></div><div class="track"><span class="fill brand" style="width:95.1%"></span></div><div class="bval">₹63,000</div></div>
+      <div class="bar-row"><div class="blab">China, non-FTA<small>CIF US$510, all duties</small></div><div class="track"><span class="fill spec" style="width:90.8%"></span></div><div class="bval">₹60,100</div></div>
+      <div class="bar-row"><div class="blab">Korea or Japan, FTA<small>CIF US$510, safeguard only</small></div><div class="track"><span class="fill gold" style="width:84.6%"></span></div><div class="bval">₹56,000</div></div>
+      <div class="bar-row"><div class="blab">Indian HRC ex-works<small>early Dec 2025 trough</small></div><div class="track"><span class="fill om" style="width:69.5%"></span></div><div class="bval">₹46,000</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹66,200 a tonne. A free-trade origin pays no basic duty, so at the same offer price it lands about ₹4,000 cheaper than Chinese coil.</span></div>
+  </div>
+
+  <h3>Why the wall leaks</h3>
+  <p>The regime has four gaps, and each one showed up in the data within a year. The first is free-trade agreements. Korea, Japan and the ASEAN countries pay no basic customs duty on most flat steel, so their coil lands cheaper than Chinese coil at the same offer price. Korea was India's largest source of finished-steel imports in FY26, at 35.4% of the total, ahead of China at 23.5% and Japan at 20.2%. The second is the price floor. When world prices rise, Chinese and Korean offers climb above US$675 CIF and the safeguard stops applying at all. By October 2026 Indian HRC itself was being offered to Europe at about US$680 a tonne FOB, which tells you where Asian prices had gone. The third is product scope: excluded grades and non-covered products enter freely. The fourth is timing, as the seven-week gap of late 2025 showed.</p>
+
+  <p>The result is visible in the trade numbers. Imports fell 31.7% in FY26 to 6.52 million tonnes, exports rose 35.9% to 6.60 million tonnes, and India was a tiny net exporter for the year. Then, in the first half of FY27, imports rose 24% to 4.14 million tonnes, China's share of them jumped back to 31.8%, and India became a net importer again by 0.59 million tonnes. Chinese HRC was arriving at or above the floor, legally duty-free, or as grades the duty does not cover.</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <caption>India's finished-steel trade, FY20 to FY27 H1</caption>
+      <thead><tr><th>Fiscal year</th><th class="num">Imports (Mt)</th><th class="num">Exports (Mt)</th><th class="num">Net (Mt)</th><th class="num">China share of imports</th><th>What happened</th></tr></thead>
+      <tbody>
+        <tr><td class="t-strong">FY20</td><td class="num">6.77</td><td class="num">8.36</td><td class="num">+1.6</td><td class="num">~25%</td><td>Pre-COVID; Korea, China and Japan the main sources</td></tr>
+        <tr><td class="t-strong">FY21</td><td class="num">4.75</td><td class="num">10.78</td><td class="num">+6.0</td><td class="num">~25%</td><td>Weak home demand pushed tonnes abroad</td></tr>
+        <tr><td class="t-strong">FY22</td><td class="num">4.7</td><td class="num">13.5</td><td class="num">+8.8</td><td class="num">~20%</td><td>Record exports as China restrained its own exports</td></tr>
+        <tr><td class="t-strong">FY23</td><td class="num">6.02</td><td class="num">6.72</td><td class="num">+0.7</td><td class="num">~30%</td><td>May 2022 export duty halved exports</td></tr>
+        <tr><td class="t-strong">FY24</td><td class="num">8.32</td><td class="num">7.49</td><td class="num">−0.8</td><td class="num">~31%</td><td>India turns net importer</td></tr>
+        <tr><td class="t-strong">FY25</td><td class="num">9.55</td><td class="num">4.86</td><td class="num">−4.7</td><td class="num">26.5%</td><td>Chinese export surge; Korea the top source at 29.4%</td></tr>
+        <tr><td class="t-strong">FY26 (P)</td><td class="num">6.52</td><td class="num">6.60</td><td class="num">+0.08</td><td class="num">23.5%</td><td>Safeguard bites; exports of HRC up 131%</td></tr>
+        <tr><td class="t-strong">FY27 H1 (P)</td><td class="num">4.14</td><td class="num">3.55</td><td class="num">−0.59</td><td class="num">31.8%</td><td>World prices rise above the floor; imports up 24%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="chart">
+    <div class="c-title">The safeguard's price floors, by product</div>
+    <div class="c-sub">CIF value per tonne at or above which the safeguard duty does not apply, US$. Source: Finance Ministry Notification 02/2025-Customs (SG), 30 Dec 2025</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Colour-coated</div><div class="track"><span class="fill spec" style="width:100%"></span></div><div class="bval">$964</div></div>
+      <div class="bar-row"><div class="blab">Metallic-coated</div><div class="track"><span class="fill wtg" style="width:89.3%"></span></div><div class="bval">$861</div></div>
+      <div class="bar-row"><div class="blab">Cold-rolled coil</div><div class="track"><span class="fill wtg" style="width:85.5%"></span></div><div class="bval">$824</div></div>
+      <div class="bar-row"><div class="blab">Plate-mill plates</div><div class="track"><span class="fill om" style="width:72.1%"></span></div><div class="bval">$695</div></div>
+      <div class="bar-row"><div class="blab">HRC, sheets, plates</div><div class="track"><span class="fill brand" style="width:70.0%"></span></div><div class="bval">$675</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = US$964 a tonne. The floors are generous enough that a modest rise in world prices switches the duty off.</span></div>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>The safeguard is a fence with a gate that opens automatically when steel gets expensive. When Chinese coil is cheap, the 11.5% duty applies and Indian mills can charge more. When world prices rise above about US$675 a tonne, the duty switches off and the fence disappears, which is exactly when Indian mills would like to raise prices further. And it was never a fence against Korea or Japan's basic duty, because India's trade agreements with them already set that at zero.</p>
+  </div>
+
+  <h3>Anti-dumping duties and the quieter barriers</h3>
+  <p>Anti-dumping duties target particular exporters judged to be selling below their home price. India imposed a definitive duty of about US$121.55 a tonne on hot-rolled flat steel from Vietnam in late 2025 for five years, with Hoa Phat exempt. A new investigation into hot-rolled flat products from China, Japan and Russia, covering calendar 2025, was opened in 2026; its initiation date and any preliminary findings could not be verified. For stainless steel, the DGTR's probe into cold-rolled flat products from China, Indonesia and Vietnam had its deadline extended by six months to 28 March 2027, which matters to Jindal Stainless. Behind these sit two non-tariff tools. Quality Control Orders require imports to carry Bureau of Indian Standards licences: 151 steel standards were notified, though 55 were suspended on 20 November 2025. The Steel Import Monitoring System, relaunched as SARAL SIMS on 21 November 2025, requires advance registration of every steel import.</p>
+
+  <p>The deeper point is that the 2026 price rally was not the safeguard's doing. Mumbai HRC rose 40% from ₹54,760 a tonne at the end of December 2025 to ₹76,900 at the end of September 2026 (retail, including GST). The definitive duty helped in January, but the bigger drivers were the West-Asia energy shock of March and April 2026, which raised freight and therefore the landed cost of every import; the rupee's fall to about ₹95–96 per dollar; a coking-coal spike to US$278 a tonne in September; and China's new export-licence regime. These lifted import parity itself. Once world prices are above the floor, the safeguard adds nothing, and Indian prices move with Asian prices. The policy protects the bottom of the cycle, not the top.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>To forecast an Indian steel price, start with the Chinese export price, add freight, convert at the current rupee, add whatever duty applies to the cheapest route, and you will be within a few thousand rupees of the Indian mill price. The safeguard lifts that number by about ₹5,000–6,000 a tonne in a weak market and by nothing in a strong one. It expires on 20 April 2028, and the industry's bargaining over what replaces it will be one of the biggest events for these stocks.</p>
+  </div>
+
+  <p>For investors, three implications follow. Earnings of the flat-steel majors, JSW, Tata, SAIL, Jindal Steel and NMDC Steel, are tied to Asian prices with a lag of a quarter or so, regardless of how strong Indian demand is. The safeguard step-downs (to 11% from 21 April 2027 and to zero after 20 April 2028) each shave the protection a little. And long products, TMT bars and wire rod, are largely outside the regime because they are dominated by domestic secondary producers and barely traded; their prices follow Indian construction demand and the cost of sponge iron, which is why TMT and HRC prices diverged sharply in mid-2026, with TMT falling ₹7,000–8,000 a tonne between March and June while coil held.</p>
+</section>
+
+<!-- ============ 05 ============ -->
+<section class="part" id="p5">
+  <div class="part-head"><span class="pno">05</span><h2>Three prices and a currency: HRC, coking coal, iron ore and the rupee</h2></div>
+  <p class="part-sub">Between 2023 and 2026 the integrated spread ranged from about ₹12,400 to ₹31,100 a tonne. Every turn can be traced to these four series.</p>
+
+  <p>If an analyst could follow only four numbers to forecast the earnings of an Indian integrated steelmaker, they would be the domestic HRC price, the Australian premium hard coking coal price, the NMDC iron-ore price and the rupee-dollar rate. This section sets out what each did between 2023 and October 2026, and then combines them into a single quarterly series of the raw-material spread.</p>
+
+  <h3>Steel: a 40% rally from the December 2025 trough</h3>
+  <p>The Ministry of Steel publishes month-end retail prices in Mumbai, which include 18% GST and a trader's margin; mill prices ex-works and ex-GST are about 15–20% lower. On that series HRC fell from ₹60,920 a tonne in March 2025, just before the provisional safeguard, to ₹54,760 in December 2025, then rose to ₹76,900 by the end of September 2026. Cold-rolled coil reached ₹89,670 and TMT ₹65,750. The gap between cold-rolled and hot-rolled coil, a rough measure of the reward for downstream processing, widened to ₹12,770 in September 2026 from ₹7,430 eighteen months earlier.</p>
+
+  <div class="chart">
+    <div class="c-title">Mumbai HRC price, March 2025 to September 2026</div>
+    <div class="c-sub">₹ per tonne, month-end retail including 18% GST (2.5 mm HRC). Source: Ministry of Steel Monthly Economic Reports (JPC data); Feb 2026 from a search summary of the MER</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Mar 2025<small>pre-safeguard</small></div><div class="track"><span class="fill om" style="width:79.2%"></span></div><div class="bval">60,920</div></div>
+      <div class="bar-row"><div class="blab">Jun 2025</div><div class="track"><span class="fill om" style="width:80.0%"></span></div><div class="bval">61,530</div></div>
+      <div class="bar-row"><div class="blab">Sep 2025</div><div class="track"><span class="fill om" style="width:77.4%"></span></div><div class="bval">59,540</div></div>
+      <div class="bar-row"><div class="blab">Nov 2025</div><div class="track"><span class="fill bad" style="width:72.7%"></span></div><div class="bval">55,940</div></div>
+      <div class="bar-row"><div class="blab">Dec 2025<small>trough; duty gap</small></div><div class="track"><span class="fill bad" style="width:71.2%"></span></div><div class="bval">54,760</div></div>
+      <div class="bar-row"><div class="blab">Feb 2026</div><div class="track"><span class="fill brand" style="width:83.9%"></span></div><div class="bval">64,500</div></div>
+      <div class="bar-row"><div class="blab">Mar 2026</div><div class="track"><span class="fill brand" style="width:87.0%"></span></div><div class="bval">66,940</div></div>
+      <div class="bar-row"><div class="blab">Apr 2026<small>Hormuz shock</small></div><div class="track"><span class="fill brand" style="width:93.6%"></span></div><div class="bval">71,990</div></div>
+      <div class="bar-row"><div class="blab">Jun 2026</div><div class="track"><span class="fill brand" style="width:88.6%"></span></div><div class="bval">68,170</div></div>
+      <div class="bar-row"><div class="blab">Aug 2026</div><div class="track"><span class="fill brand" style="width:90.3%"></span></div><div class="bval">69,410</div></div>
+      <div class="bar-row"><div class="blab">Sep 2026</div><div class="track"><span class="fill spec" style="width:100%"></span></div><div class="bval">76,900</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹76,900. Ex-works ex-GST, SMM quoted ₹63,000 on 7 Oct 2026, about 18% below the retail figure.</span></div>
+  </div>
+
+  <h3>Coking coal: the cost that swings hardest</h3>
+  <p>Australian premium hard coking coal (HCC) is the benchmark for the coal Indian blast furnaces import. It peaked at US$354 a tonne free on board in October 2023, which drove integrated margins to cyclical lows in the second half of FY24, fell to US$175 in March 2025 and then climbed again to US$212 in December 2025, US$246 in February 2026 and US$278 in September 2026, when Queensland port maintenance, wet weather, firm Asian buying and war-risk freight premiums coincided. Spot was about US$265 in late September. A blast furnace uses about 0.8 tonnes of coking coal and injected coal per tonne of steel, so every US$10 move in the coal price changes the cost of a tonne of steel by about ₹770 at ₹96 to the dollar. Mills hold one to one and a half months of inventory plus a month in transit, so a spot move hits the profit and loss account about a quarter later.</p>
+
+  <div class="chart">
+    <div class="c-title">Australian premium hard coking coal, quarterly average</div>
+    <div class="c-sub">US$ per tonne FOB Australia, fiscal quarters. Source: Ministry of Steel MER chart data labels mapped to months by the industry analyst; anchor months confirmed in MER text (Oct-23 354, Mar-25 175, Dec-25 212, Sep-26 278)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Q1 FY24</div><div class="track"><span class="fill om" style="width:73.3%"></span></div><div class="bval">244</div></div>
+      <div class="bar-row"><div class="blab">Q2 FY24</div><div class="track"><span class="fill om" style="width:79.3%"></span></div><div class="bval">264</div></div>
+      <div class="bar-row"><div class="blab">Q3 FY24<small>Oct-23 peak 354</small></div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">333</div></div>
+      <div class="bar-row"><div class="blab">Q4 FY24</div><div class="track"><span class="fill bad" style="width:92.2%"></span></div><div class="bval">307</div></div>
+      <div class="bar-row"><div class="blab">Q1 FY25</div><div class="track"><span class="fill om" style="width:72.7%"></span></div><div class="bval">242</div></div>
+      <div class="bar-row"><div class="blab">Q2 FY25</div><div class="track"><span class="fill om" style="width:63.1%"></span></div><div class="bval">210</div></div>
+      <div class="bar-row"><div class="blab">Q3 FY25</div><div class="track"><span class="fill om" style="width:61.0%"></span></div><div class="bval">203</div></div>
+      <div class="bar-row"><div class="blab">Q4 FY25</div><div class="track"><span class="fill brand" style="width:55.6%"></span></div><div class="bval">185</div></div>
+      <div class="bar-row"><div class="blab">Q1 FY26</div><div class="track"><span class="fill brand" style="width:55.3%"></span></div><div class="bval">184</div></div>
+      <div class="bar-row"><div class="blab">Q2 FY26</div><div class="track"><span class="fill brand" style="width:55.3%"></span></div><div class="bval">184</div></div>
+      <div class="bar-row"><div class="blab">Q3 FY26</div><div class="track"><span class="fill om" style="width:59.8%"></span></div><div class="bval">199</div></div>
+      <div class="bar-row"><div class="blab">Q4 FY26</div><div class="track"><span class="fill spec" style="width:70.6%"></span></div><div class="bval">235</div></div>
+      <div class="bar-row"><div class="blab">Q1 FY27</div><div class="track"><span class="fill spec" style="width:71.5%"></span></div><div class="bval">238</div></div>
+      <div class="bar-row"><div class="blab">Q2 FY27<small>Sep-26 278</small></div><div class="track"><span class="fill spec" style="width:74.5%"></span></div><div class="bval">248</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = US$333. Coal fell by almost half from the FY24 peak to FY26 and has since recovered about two-fifths of that fall.</span></div>
+  </div>
+
+  <h3>Iron ore: a down-year that has partly reversed</h3>
+  <p>NMDC's monthly list price is the reference for Indian ore. Its Chhattisgarh lump (6–40 mm, 65.5% iron) was ₹6,000 a tonne in early 2025, ₹6,440 in May 2025 and then fell steadily to ₹4,800 in March 2026 as output from newly auctioned mines rose and more mills used their own ore. It recovered to ₹5,700 in June 2026 and was ₹5,400 from 9 September, with fines at ₹4,500. These are prices at the mine, before royalty, district mineral foundation and exploration levies, forest fees, GST and rail freight, which together add ₹1,000–1,800 a tonne to the cost at the plant gate. Seaborne 62% iron ore averaged about US$100–105 a tonne delivered to China in 2025.</p>
+
+  <div class="chart">
+    <div class="c-title">NMDC iron-ore lump price</div>
+    <div class="c-sub">₹ per tonne, FOR mine, excluding royalty, levies, GST and freight (Chhattisgarh lump, Fe 65.5%). Source: Ministry of Steel MER (NMDC price tables); FY24 average from NMDC price circulars (approximate)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">FY24 average</div><div class="track"><span class="fill om" style="width:93.2%"></span></div><div class="bval">~6,000</div></div>
+      <div class="bar-row"><div class="blab">Mar 2025</div><div class="track"><span class="fill om" style="width:93.2%"></span></div><div class="bval">6,000</div></div>
+      <div class="bar-row"><div class="blab">May 2025</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">6,440</div></div>
+      <div class="bar-row"><div class="blab">Sep 2025</div><div class="track"><span class="fill om" style="width:94.7%"></span></div><div class="bval">6,100</div></div>
+      <div class="bar-row"><div class="blab">Dec 2025</div><div class="track"><span class="fill om" style="width:85.4%"></span></div><div class="bval">5,500</div></div>
+      <div class="bar-row"><div class="blab">Mar 2026<small>low</small></div><div class="track"><span class="fill bad" style="width:74.5%"></span></div><div class="bval">4,800</div></div>
+      <div class="bar-row"><div class="blab">Jun 2026</div><div class="track"><span class="fill om" style="width:88.5%"></span></div><div class="bval">5,700</div></div>
+      <div class="bar-row"><div class="blab">Aug 2026</div><div class="track"><span class="fill om" style="width:81.5%"></span></div><div class="bval">5,250</div></div>
+      <div class="bar-row"><div class="blab">Sep 2026</div><div class="track"><span class="fill spec" style="width:83.9%"></span></div><div class="bval">5,400</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹6,440. NMDC fines were ₹4,500 in August and September 2026.</span></div>
+  </div>
+
+  <h3>The rupee: it cuts both ways</h3>
+  <p>The rupee averaged about ₹82.8 to the dollar in FY24, ₹84.6 in FY25 and ₹87–89 in FY26, crossing 90 in December 2025, and traded at about ₹95–96 in September and October 2026. A weaker rupee raises the rupee cost of imported coal, but it raises the rupee price of every competing import of steel by the same proportion. Because steel revenue per tonne is nearly three times the coal bill per tonne, the net effect for an integrated mill is positive: on the dossier's sensitivities a ₹1 fall in the rupee adds about ₹650 a tonne to import parity and about ₹220 to coal cost, a net gain of roughly ₹400 a tonne. The gain is largest for producers whose ore is mined at home and priced in rupees, and for exporters. It is a loss for companies with large dollar debt: JSW Steel says its FY26 hit from rupee depreciation was about ₹5,600 crore, with 64% of its debt in foreign currency.</p>
+
+  <h3>Putting it together: the quarterly spread</h3>
+  <p>The raw-material spread is the HRC price ex-works minus the landed cost of 1.6 tonnes of iron ore and 0.8 tonnes of coking coal. It ignores inventory lags, by-product credits and the mix of products a mill actually sells, so it is a guide to direction, not a forecast of any company's margin.</p>
+
+  <div class="chart">
+    <div class="c-title">The integrated-mill raw-material spread, quarterly</div>
+    <div class="c-sub">₹ per tonne of steel. ILLUSTRATIVE series built by the industry analyst: HRC ex-works ≈ Mumbai retail ÷ 1.18 − ₹1,500; coal landed = (HCC FOB + US$22 freight) × INR + ₹800; ore landed = NMDC lump − ₹800 + ₹1,600; cost = 1.6 × ore + 0.8 × coal. FY24–Q3 FY25 retail prices approximate</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Q1 FY24</div><div class="track"><span class="fill om" style="width:63.2%"></span></div><div class="bval">19,640</div></div>
+      <div class="bar-row"><div class="blab">Q2 FY24</div><div class="track"><span class="fill om" style="width:54.7%"></span></div><div class="bval">17,000</div></div>
+      <div class="bar-row"><div class="blab">Q3 FY24<small>coal spike</small></div><div class="track"><span class="fill bad" style="width:41.6%"></span></div><div class="bval">12,950</div></div>
+      <div class="bar-row"><div class="blab">Q4 FY24</div><div class="track"><span class="fill bad" style="width:39.8%"></span></div><div class="bval">12,390</div></div>
+      <div class="bar-row"><div class="blab">Q1 FY25</div><div class="track"><span class="fill om" style="width:55.0%"></span></div><div class="bval">17,100</div></div>
+      <div class="bar-row"><div class="blab">Q2 FY25</div><div class="track"><span class="fill om" style="width:50.4%"></span></div><div class="bval">15,670</div></div>
+      <div class="bar-row"><div class="blab">Q3 FY25</div><div class="track"><span class="fill om" style="width:54.9%"></span></div><div class="bval">17,070</div></div>
+      <div class="bar-row"><div class="blab">Q4 FY25</div><div class="track"><span class="fill brand" style="width:77.9%"></span></div><div class="bval">24,240</div></div>
+      <div class="bar-row"><div class="blab">Q1 FY26</div><div class="track"><span class="fill brand" style="width:78.3%"></span></div><div class="bval">24,340</div></div>
+      <div class="bar-row"><div class="blab">Q2 FY26</div><div class="track"><span class="fill brand" style="width:73.7%"></span></div><div class="bval">22,920</div></div>
+      <div class="bar-row"><div class="blab">Q3 FY26<small>price trough</small></div><div class="track"><span class="fill bad" style="width:59.0%"></span></div><div class="bval">18,360</div></div>
+      <div class="bar-row"><div class="blab">Q4 FY26</div><div class="track"><span class="fill brand" style="width:85.9%"></span></div><div class="bval">26,730</div></div>
+      <div class="bar-row"><div class="blab">Q1 FY27</div><div class="track"><span class="fill brand" style="width:83.5%"></span></div><div class="bval">25,970</div></div>
+      <div class="bar-row"><div class="blab">Q2 FY27</div><div class="track"><span class="fill spec" style="width:91.6%"></span></div><div class="bval">28,500</div></div>
+      <div class="bar-row"><div class="blab">Oct 2026 spot</div><div class="track"><span class="fill spec" style="width:100%"></span></div><div class="bval">31,100</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹31,100. The series uses quarter-end retail prices, which flatters Q4 FY26 because January 2026 prices were lower. The dossier's separate worked example for October 2026 gives ₹30,400 using fines rather than lump.</span></div>
+  </div>
+
+  <p>The series explains the last three years of integrated results. The spread collapsed to about ₹12,400–13,000 a tonne in the second half of FY24, when coal spiked, and integrated EBITDA per tonne fell to cyclical lows. It recovered to about ₹24,000 when coal halved in FY25–early FY26, slipped back to about ₹18,400 in the December 2025 price trough, when ICRA's industry operating profit measure fell to US$84 a tonne, and then climbed to about ₹28,500 in Q2 FY27 and ₹31,100 at the October 2026 spot. Q1 FY27 results, the latest available, reflected a spread near ₹26,000 and showed Tata Steel India earning ₹19,162 EBITDA a tonne and JSW ₹14,997, the best in several years. Q2 FY27 results, due from mid-October, should show the spread's further rise, partly offset by costlier coal.</p>
+
+  <div class="chart">
+    <div class="c-title">What moves an integrated mill's margin by how much</div>
+    <div class="c-sub">Change in EBITDA per tonne of steel for each move shown, ₹. ILLUSTRATIVE sensitivities from the industry dossier §10, at ₹96/US$ and BF-BOF consumption norms</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">HRC price ±₹1,000</div><div class="track"><span class="fill spec" style="width:100%"></span></div><div class="bval">±₹1,000</div></div>
+      <div class="bar-row"><div class="blab">Iron ore ±₹500/t</div><div class="track"><span class="fill om" style="width:80%"></span></div><div class="bval">∓₹800</div></div>
+      <div class="bar-row"><div class="blab">Coking coal ±US$10/t</div><div class="track"><span class="fill bad" style="width:77%"></span></div><div class="bval">∓₹770</div></div>
+      <div class="bar-row"><div class="blab">Rupee ₹1 weaker<small>net of coal and parity</small></div><div class="track"><span class="fill brand" style="width:40%"></span></div><div class="bval">+~₹400</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹1,000 a tonne. A US$50 move in coal, common within a year, is worth about ₹3,800 a tonne, a quarter to a third of a normal margin.</span></div>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>An integrated mill's profit per tonne is mostly decided before it opens its gates each morning. If coil is up ₹5,000 and coal is up US$20, the mill is about ₹3,500 a tonne better off; if the rupee has also fallen two rupees, add another ₹800. Management can add a few hundred rupees a tonne by running the furnace better or selling a richer mix, but that is small change next to the world prices the spread is made of.</p>
+  </div>
+</section>
+
+<!-- ============ 06 ============ -->
+<section class="part" id="p6">
+  <div class="part-head"><span class="pno">06</span><h2>Where ₹100 goes: four cost sheets for four kinds of producer</h2></div>
+  <p class="part-sub">For a blast-furnace mill, a third of revenue leaves the country as coal. For a miner, a fifth goes to the state. For a stainless producer, two-thirds is alloy and scrap.</p>
+
+  <p>The cost structure of a steel company depends almost entirely on its route. The charts below show where ₹100 of revenue goes for each of the four archetypes in this group. They are composites built by the industry analyst from company cost sheets in FY25–FY26 annual reports and from the prices in the previous section, so they are illustrative and the bands around each line matter as much as the midpoints.</p>
+
+  <div class="chart">
+    <div class="c-title">Where ₹100 of revenue goes: integrated and secondary producers</div>
+    <div class="c-sub">ILLUSTRATIVE composites, ₹ per ₹100 of revenue. Integrated: blended realisation ~₹60,000/t, FY27 H1 cost conditions, lines set within the dossier's ranges (coal 30–34, ore 12–17, EBITDA 16–24). Secondary: billet/TMT at ₹45,000–50,000/t; lines set at the top of each cost range so they sum to 100 (EBITDA range 10–18). Source: industry dossier §8</div>
+    <div class="stack-row"><div class="blab">Integrated BF-BOF</div><div class="stack"><span style="width:33%;background:var(--wtg)">Coking coal 33</span><span style="width:16%;background:var(--om)">Ore 16</span><span style="width:9%;background:var(--epc)">RM 9</span><span style="width:6%;background:var(--gold)">Pwr 6</span><span style="width:4%;background:var(--ink-faint)">4</span><span style="width:12%;background:var(--ink-soft)">Other 12</span><span style="width:20%;background:var(--brand)">EBITDA 20</span></div></div>
+    <div class="stack-row"><div class="blab">Secondary DRI-IF</div><div class="stack"><span style="width:26%;background:var(--om)">Ore/pellet 26</span><span style="width:20%;background:var(--wtg)">Thermal coal 20</span><span style="width:12%;background:var(--epc)">Scrap 12</span><span style="width:10%;background:var(--gold)">Pwr 10</span><span style="width:3%;background:var(--ink-faint)">3</span><span style="width:12%;background:var(--ink-soft)">Other 12</span><span style="width:17%;background:var(--brand)">EBITDA 17</span></div></div>
+    <div class="legend"><span><i style="background:var(--wtg)"></i>Coal (coking for BF; thermal for DRI)</span><span><i style="background:var(--om)"></i>Iron ore and pellets</span><span><i style="background:var(--epc)"></i>Fluxes, alloys, scrap, pig iron, zinc</span><span><i style="background:var(--gold)"></i>Power and fuel</span><span><i style="background:var(--ink-faint)"></i>Employees</span><span><i style="background:var(--ink-soft)"></i>Stores, repairs, freight, other conversion</span><span><i style="background:var(--brand)"></i>EBITDA</span></div>
+  </div>
+
+  <p>For an integrated mill, imported coking coal and injected coal take ₹30–34 of every ₹100 of revenue, iron ore and pellets ₹12–17, and other raw materials (fluxes, ferro-alloys, scrap, zinc for galvanising, refractories) another ₹8–10. Power and fuel, net of what the mill generates from its own furnace gases, take ₹5–7, including the LNG and LPG used in reheating and coating lines that became scarce in March 2026. Employees cost ₹3–4 at a private mill but ₹10–12 at SAIL, the largest single structural difference between the public-sector producer and its private rivals. Stores, spares, repairs, outbound freight and overheads take ₹10–12. That leaves EBITDA of ₹16–24, or ₹10,000–15,000 a tonne. After depreciation (₹4–5), interest (₹3–4) and tax (₹2–4), net profit is ₹5–10.</p>
+
+  <p>The ore line is where captive legacy ore shows up. SAIL and Tata Steel India sit at the bottom of the ₹12–17 range because they mine their own ore under old leases; JSW, which buys much of its ore or pays auction premiums, and NMDC Steel, which buys from its former parent at arm's length, sit at the top. On a ₹60,000 tonne, five rupees in a hundred is ₹3,000, which is the captive-ore advantage measured another way.</p>
+
+  <p>The secondary producer's sheet is flatter. Iron ore or pellets take ₹20–26 (about 1.7 tonnes of ore-equivalent per tonne of steel), thermal coal for the kilns ₹15–20, scrap, pig iron and ferro-alloys ₹8–12, power ₹6–10 (an induction furnace uses 650–800 kilowatt-hours a tonne) and employees only ₹2–3. EBITDA is ₹10–18, or ₹5,000–9,000 a tonne, at the top of the range only with captive ore, waste-heat power and sales of pellets or ferro-alloys on the side. Depreciation, interest and tax are light at ₹5–8, because secondary plants are cheap to build and these companies borrow little, so net margins can match the integrated mills' despite lower EBITDA margins.</p>
+
+  <div class="chart">
+    <div class="c-title">Where ₹100 of revenue goes: miners and stainless</div>
+    <div class="c-sub">ILLUSTRATIVE composites, ₹ per ₹100 of revenue. Mining-led: ore sale ₹4,000–5,500/t from a legacy lease (Lloyds-type); stainless: ₹1.6–1.8 lakh/t realisation (Jindal Stainless-type). Source: industry dossier §8.3–8.4</div>
+    <div class="stack-row"><div class="blab">Mining-led</div><div class="stack"><span style="width:22%;background:var(--wtg)">State levies 22</span><span style="width:15%;background:var(--om)">Mining 15</span><span style="width:15%;background:var(--epc)">Logistics 15</span><span style="width:6%;background:var(--ink-soft)">6</span><span style="width:42%;background:var(--brand)">EBITDA 42</span></div></div>
+    <div class="stack-row"><div class="blab">Stainless</div><div class="stack"><span style="width:65%;background:var(--wtg)">Nickel, chrome, scrap 65</span><span style="width:7%;background:var(--gold)">Pwr 7</span><span style="width:15%;background:var(--ink-soft)">Conv 15</span><span style="width:13%;background:var(--brand)">EBITDA 13</span></div></div>
+    <div class="legend"><span><i style="background:var(--wtg)"></i>Royalty + DMF + NMET + premium (miner); alloys and scrap (stainless)</span><span><i style="background:var(--om)"></i>Mining contractor cost</span><span><i style="background:var(--epc)"></i>Road and rail to plant or port</span><span><i style="background:var(--gold)"></i>Power and fuel</span><span><i style="background:var(--ink-soft)"></i>Other conversion and employees</span><span><i style="background:var(--brand)"></i>EBITDA</span></div>
+  </div>
+
+  <p>The miner's sheet is the most profitable, which is why Lloyds Metals, with a 36.3% FY26 operating margin, trades at the richest valuation in the group. Royalty, district mineral foundation and exploration levies and any auction premium take ₹18–25 of every ₹100 for a legacy lease like Lloyds' Surjagarh mine; an Odisha mine won at auction would pay far more. Mining contractors take ₹12–18, logistics ₹12–18 (the reason Lloyds built a slurry pipeline) and other costs ₹5–8, leaving EBITDA of ₹35–50. The stainless sheet is the opposite: nickel pig iron, ferro-nickel, ferro-chrome, stainless scrap and molybdenum take ₹62–68 of every ₹100, power ₹6–8 and conversion and staff ₹12–15, for an EBITDA of ₹11–14. Because that is earned on a ₹1.6–1.8 lakh tonne, it is worth ₹18,000–22,000 a tonne, more than an integrated carbon-steel mill earns in most years.</p>
+
+  <div class="chart">
+    <div class="c-title">The industry's operating profit per tonne, FY26 quarters</div>
+    <div class="c-sub">ICRA estimate of Indian steel industry operating profit, US$ per tonne. ICRA treats US$100–150 as its "stable" band. Source: ICRA (Feb 2026; May 2026 update via search)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Q2 FY26</div><div class="track"><span class="fill brand" style="width:75.3%"></span></div><div class="bval">$113</div></div>
+      <div class="bar-row"><div class="blab">Q3 FY26<small>price trough</small></div><div class="track"><span class="fill bad" style="width:56%"></span></div><div class="bval">$84</div></div>
+      <div class="bar-row"><div class="blab">Q4 FY26</div><div class="track"><span class="fill brand" style="width:72.7%"></span></div><div class="bval">$109</div></div>
+      <div class="bar-row"><div class="blab">FY26 (estimate)</div><div class="track"><span class="fill om" style="width:72%"></span></div><div class="bval">~$108</div></div>
+      <div class="bar-row"><div class="blab">Top of "stable" band</div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">$150</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = US$150. FY26 sat at the bottom of ICRA's stable band; the FY22 peak was above US$250.</span></div>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>Follow the biggest cost line to know what each company is betting on. A blast-furnace mill is a bet on the gap between steel and coking coal. A sponge-iron producer is a bet on the gap between TMT bars and iron ore plus thermal coal. A miner is a bet on the ore price and on what the state charges to dig. A stainless producer is a bet on whether it can pass nickel price swings through to customers. Same industry, four different exposures.</p>
+  </div>
+
+  <p>One industry-wide number ties the cost sheets together. ICRA estimates the Indian steel industry's operating profit at about US$108 a tonne in FY26, close to the bottom of its US$100–150 "stable" band, and its total debt at about 3.1 times operating profit, easing to 3.0 times in FY27. Above the operating line, the system's leverage is far lower than in the last downturn: ICRA puts bank debt at US$184 per tonne of installed capacity in December 2025, against a peak of US$450 during the FY14–FY18 bad-loan cycle. The cost structure has not changed much; the balance sheets carrying it have.</p>
+</section>
+
+<!-- ============ 07 ============ -->
+<section class="part" id="p7">
+  <div class="part-head"><span class="pno">07</span><h2>Structure and concentration: an oligopoly in coil, a crowd in rebar</h2></div>
+  <p class="part-sub">Five groups make about 60% of India's crude steel and 85–90% of its hot-rolled coil. Long products are split among a thousand-odd smaller units, which is why TMT prices are far more volatile.</p>
+
+  <p>India's steel industry has two very different halves. The flat-products half, which makes coil, sheet and plate for autos, appliances, pipes and infrastructure, is an oligopoly of five groups: JSW Steel, Tata Steel, AM/NS India (the unlisted ArcelorMittal–Nippon Steel joint venture that bought Essar Steel), SAIL and Jindal Steel. Together they supply about 85–90% of India's HRC. The long-products half, which makes TMT bars, wire rod and structural sections for construction, is fragmented: secondary producers supply about 55–60% of TMT, from roughly 900 induction-furnace units, about 45 electric-arc furnaces and about 300 sponge-iron plants, alongside the integrated mills' long-product lines. Across both halves the top five make about 58–62% of India's crude steel.</p>
+
+  <div class="chart">
+    <div class="c-title">Who owns India's steel capacity, and who sells which products</div>
+    <div class="c-sub">Row 1: share of ~222 MTPA crude capacity (June 2026) by company, latest disclosed nameplate (JSW ~32 India ex-BPSL; Tata India ~27.4; SAIL ~20.6; Jindal Steel 15.6; AM/NS 9; RINL 7.3; NMDC Steel 3.0); INDICATIVE because several company capacities are from memory-based sources. Rows 2–3: approximate supply shares from JPC and Ministry of Steel commentary (industry dossier §5.3)</div>
+    <div class="stack-row"><div class="blab">Crude capacity</div><div class="stack"><span style="width:14.4%;background:var(--brand)">JSW 14</span><span style="width:12.3%;background:var(--wtg)">Tata 12</span><span style="width:9.3%;background:var(--om)">SAIL 9</span><span style="width:7.0%;background:var(--spec)">JSPL 7</span><span style="width:4.1%;background:var(--epc)">4</span><span style="width:3.3%;background:var(--gold)">3</span><span style="width:1.4%;background:var(--ink-soft)"></span><span style="width:48.2%;background:var(--ink-faint)">Secondary &amp; others 48%</span></div></div>
+    <div class="stack-row"><div class="blab">HRC supply</div><div class="stack"><span style="width:87%;background:var(--brand)">Big five ~85–90%</span><span style="width:13%;background:var(--ink-faint)">Rest</span></div></div>
+    <div class="stack-row"><div class="blab">TMT supply</div><div class="stack"><span style="width:57%;background:var(--ink-faint)">Secondary ~55–60%</span><span style="width:43%;background:var(--brand)">Integrated ~40–45%</span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>JSW (row 1) / large integrated groups (rows 2–3)</span><span><i style="background:var(--wtg)"></i>Tata Steel</span><span><i style="background:var(--om)"></i>SAIL</span><span><i style="background:var(--spec)"></i>Jindal Steel</span><span><i style="background:var(--epc)"></i>AM/NS India (unlisted)</span><span><i style="background:var(--gold)"></i>RINL (unlisted PSU)</span><span><i style="background:var(--ink-soft)"></i>NMDC Steel 1.4%</span><span><i style="background:var(--ink-faint)"></i>Secondary and others</span></div>
+  </div>
+
+  <p>The five listed integrated companies together hold about 98.6 MTPA of Indian crude capacity, roughly 44% of the national total, and their FY26 India sales of about 83 million tonnes were about half of national consumption. That figure is indicative because several plant capacities come from company disclosures that have not been re-verified. JSW's capacity in particular changed in March 2026, when it moved the 4.5 MTPA Bhushan Power &amp; Steel plant at Sambalpur into a 50:50 joint venture with JFE, taking it outside JSW's consolidated numbers.</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <caption>India's largest producers: capacity, output and plans</caption>
+      <thead><tr><th>Company</th><th>Listed?</th><th>Route</th><th class="num">India capacity (MTPA)</th><th class="num">2025 output (worldsteel, Mt)</th><th>Stated target</th></tr></thead>
+      <tbody>
+        <tr><td class="t-strong">JSW Steel</td><td>JSWSTEEL</td><td>BF-BOF, Corex, EAF, gas DRI</td><td class="num">~32 + 4.5 in JFE JV</td><td class="num">30.28 (group, #11 world)</td><td>49 MTPA India by FY30; 62 by FY32 (not board-approved)</td></tr>
+        <tr><td class="t-strong">Tata Steel</td><td>TATASTEEL</td><td>BF-BOF, EAF (Ludhiana)</td><td class="num">~27.4</td><td class="num">30.46 (group incl. Europe, #10)</td><td>&gt;40 MTPA India; NINL +4.8 approved Jul 2026</td></tr>
+        <tr><td class="t-strong">SAIL</td><td>SAIL</td><td>BF-BOF, five integrated plants</td><td class="num">~20.6</td><td class="num">19.44 (#18)</td><td>~35 MTPA by ~FY31</td></tr>
+        <tr><td class="t-strong">Jindal Steel</td><td>JINDALSTEL</td><td>BF-BOF + coal-gas DRI-EAF</td><td class="num">15.6</td><td class="num">8.71 (#48)</td><td>~25 MTPA at Angul by ~2030 (vision)</td></tr>
+        <tr><td class="t-strong">AM/NS India</td><td>No</td><td>BF + gas DRI-EAF + Corex</td><td class="num">9</td><td class="num">in parents' totals</td><td>15 MTPA Hazira; ~24–30 by 2030</td></tr>
+        <tr><td class="t-strong">RINL (Vizag)</td><td>No (PSU)</td><td>BF-BOF</td><td class="num">7.3</td><td class="num">~4–5</td><td>Revival package; BF-3 restart</td></tr>
+        <tr><td class="t-strong">NMDC Steel</td><td>NSLNISP</td><td>BF-BOF, single plant</td><td class="num">3.0</td><td class="num">FY26 crude 2.43</td><td>None announced; strategic sale pending</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The flat-steel oligopoly is a product of the insolvency wave. Between 2018 and 2021 the bankruptcy code transferred Bhushan Steel to Tata (May 2018, about ₹35,200 crore), Monnet Ispat to JSW (August 2018), Essar Steel to ArcelorMittal and Nippon Steel (December 2019, about ₹42,000 crore) and Bhushan Power &amp; Steel to JSW (March 2021, ₹19,700 crore). Tata also bought Neelachal Ispat Nigam (NINL) from state-owned shareholders in July 2022 for ₹12,100 crore. The effect was to put almost all of India's distressed flat capacity into the hands of the strongest groups, and to remove the weak, indebted sellers who used to cut prices to raise cash. The BPSL acquisition took until September 2025 to be finally upheld by the Supreme Court, after a May 2025 judgment had briefly ordered the company into liquidation.</p>
+
+  <div class="chart">
+    <div class="c-title">India's steelmakers among the world's largest</div>
+    <div class="c-sub">Crude-steel production in calendar 2025, million tonnes, group basis, with global rank. ArcelorMittal includes 60% of AM/NS India and Nippon Steel 40%; Tata Steel includes the Netherlands and UK. Source: worldsteel, World Steel in Figures 2026</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">China Baowu<small>#1</small></div><div class="track"><span class="fill om" style="width:100%"></span></div><div class="bval">124.8</div></div>
+      <div class="bar-row"><div class="blab">ArcelorMittal</div><div class="track"><span class="fill om" style="width:50.8%"></span></div><div class="bval">63.4</div></div>
+      <div class="bar-row"><div class="blab">Nippon Steel</div><div class="track"><span class="fill om" style="width:46.3%"></span></div><div class="bval">57.8</div></div>
+      <div class="bar-row"><div class="blab">Tata Steel<small>#10</small></div><div class="track"><span class="fill brand" style="width:24.4%"></span></div><div class="bval">30.46</div></div>
+      <div class="bar-row"><div class="blab">JSW Steel<small>#11</small></div><div class="track"><span class="fill brand" style="width:24.3%"></span></div><div class="bval">30.28</div></div>
+      <div class="bar-row"><div class="blab">SAIL<small>#18</small></div><div class="track"><span class="fill brand" style="width:15.6%"></span></div><div class="bval">19.44</div></div>
+      <div class="bar-row"><div class="blab">Jindal Steel<small>#48</small></div><div class="track"><span class="fill brand" style="width:7.0%"></span></div><div class="bval">8.71</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 124.8 Mt. The two largest Indian groups are each about a quarter of Baowu's size, and most of Tata's growth now comes from India.</span></div>
+  </div>
+
+  <p>Concentration has a direct effect on prices. In flat steel the major mills announce monthly list prices, SAIL raised its October 2026 HRC and CRC list prices, for example, and the others tend to move within days. That discipline does not set the level, which import parity does, but it does mean the majors pass on cost changes quickly and rarely start price wars at home. Long products behave differently. Hundreds of induction-furnace units in Raipur, Durgapur, Mandi Gobindgarh and elsewhere sell TMT on spot terms, cut output when margins vanish and restart when they return. In June–August each year, when construction slows in the monsoon, TMT prices fall 5–7% a month. The listed secondary producers try to escape that volatility by building brands (Gallantt claims a 25% share of its serviceable market in Uttar Pradesh and a 2–3% price premium) and by selling pellets, ferro-alloys and other non-steel products.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>If you sell coil, you compete with four or five big Indian mills and with importers; prices are disciplined but capped by the import price. If you sell rebar, you compete with hundreds of small local mills that switch on and off with the margin; prices are uncapped by imports but much more volatile. The listed companies at the two ends of this market are therefore exposed to different risks, even when both are described simply as "steel".</p>
+  </div>
+</section>
+
+<!-- ============ 08 ============ -->
+<section class="part" id="p8">
+  <div class="part-head"><span class="pno">08</span><h2>Four business models wearing one label</h2></div>
+  <p class="part-sub">Integrated mills, a miner, a stainless producer and six secondary producers share a sector code but earn money in different ways, on different denominators and with different capital needs.</p>
+
+  <p>The sector code puts all 13 companies under "Iron &amp; Steel", but an investor who treats them as one group will misread almost every comparison. They differ in what they sell, which input price drives their margin, how cyclical they are, what protects them from competitors and how much capital a tonne of new capacity costs. The table below sets out the five archetypes the industry dossier identifies, with Jindal Steel's hybrid route shown separately from the pure blast-furnace mills.</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <caption>The business-model archetypes compared</caption>
+      <thead><tr><th>Archetype</th><th>Members</th><th>Revenue driver</th><th>Main cost exposure</th><th>Moat</th><th class="num">Typical EBITDA/t (₹)</th></tr></thead>
+      <tbody>
+        <tr><td class="t-strong">Integrated BF-BOF, flats-heavy</td><td>JSW, Tata India, SAIL, NMDC Steel (and unlisted AM/NS)</td><td>HRC, CRC and coated benchmarks; quarterly or half-yearly auto contracts</td><td>Imported coking coal (30%+ of revenue), ore</td><td>Scale, legacy captive ore, downstream, coastal logistics</td><td class="num">8,000 trough – 25,000+ peak; 12,000–16,000 mid-cycle</td></tr>
+        <tr><td class="t-strong">Integrated hybrid (BF + coal-gas DRI)</td><td>Jindal Steel</td><td>Long and flat products, plates, rails</td><td>Coking and thermal coal; captive thermal coal blocks</td><td>Low-cost Angul, coal mines</td><td class="num">10,000–18,000</td></tr>
+        <tr><td class="t-strong">Mining-led</td><td>Lloyds Metals; mining legs of GPIL and Sarda</td><td>Ore volume × NMDC-linked price, plus pellets and DRI</td><td>Royalty and premium, logistics</td><td>Legacy low-premium lease, reserves</td><td class="num">Ore 1,500–3,000 per t ore; DRI 4,000–7,000</td></tr>
+        <tr><td class="t-strong">Stainless</td><td>Jindal Stainless</td><td>Stainless flats at ₹1.6–1.8 lakh/t, pipes, railways</td><td>Nickel, ferro-chrome, scrap, gas</td><td>About half the Indian market, distribution, Indonesian nickel JV</td><td class="num">18,000–22,000</td></tr>
+        <tr><td class="t-strong">Secondary DRI-IF / mini-BF</td><td>Shyam, Sarda, GPIL, Gallantt, Jayaswal Neco, Jai Balaji</td><td>TMT, billet, sponge iron in regional markets; ferro-alloys, pellets, power</td><td>Ore or pellets, thermal coal, power</td><td>Captive power, captive ore (GPIL, Jayaswal), low capex per tonne</td><td class="num">4,000–12,000</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The first difference is the margin driver. Blast-furnace margins move with the HRC–coking-coal spread, which is set in world markets and linked to Chinese prices. Secondary margins move with the gap between TMT or billet prices and the cost of ore plus thermal coal, which is far more regional: a Raipur producer competes with other Raipur producers, and imports barely matter. The miner's margin is the ore price minus what the state takes. The stainless margin depends on whether alloy surcharges keep pace with nickel and chrome.</p>
+
+  <div class="chart">
+    <div class="c-title">Typical EBITDA per tonne, by archetype</div>
+    <div class="c-sub">₹ per tonne; bar at the midpoint of each range, label shows the range. INDICATIVE bands from the industry dossier §9. The denominators differ: integrated and stainless per tonne of steel sold, secondary per tonne of steel, mining per tonne of ore, so the bars are not directly comparable</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Stainless<small>per t stainless</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">18–22k</div></div>
+      <div class="bar-row"><div class="blab">Integrated mid-cycle<small>per t steel</small></div><div class="track"><span class="fill brand" style="width:70%"></span></div><div class="bval">12–16k</div></div>
+      <div class="bar-row"><div class="blab">Integrated hybrid<small>Jindal Steel</small></div><div class="track"><span class="fill brand" style="width:70%"></span></div><div class="bval">10–18k</div></div>
+      <div class="bar-row"><div class="blab">Secondary<small>per t steel</small></div><div class="track"><span class="fill wtg" style="width:40%"></span></div><div class="bval">4–12k</div></div>
+      <div class="bar-row"><div class="blab">Mining: DRI<small>per t sponge iron</small></div><div class="track"><span class="fill om" style="width:27.5%"></span></div><div class="bval">4–7k</div></div>
+      <div class="bar-row"><div class="blab">Mining: ore<small>per t ore</small></div><div class="track"><span class="fill om" style="width:11.3%"></span></div><div class="bval">1.5–3k</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹20,000. A tonne of ore earning ₹2,000 at a 40% margin is a better business than a tonne of steel earning ₹14,000 at 20%, despite the smaller number.</span></div>
+  </div>
+
+  <p>The second difference is capital intensity. A blast furnace needs three to four times as much capital per tonne as an induction furnace, which is why secondary capacity can be added in about 18 months against 36–48 months for a blast furnace. Low capital intensity cuts both ways. It lets secondary producers earn good returns on modest margins: Jayaswal Neco and GPIL both report return on capital of about 21%, well above JSW's 11% or Tata's 12.5%. But it also lets new competitors in quickly whenever margins rise, which caps how long any good period lasts.</p>
+
+  <div class="chart">
+    <div class="c-title">What a tonne of new capacity costs, by route</div>
+    <div class="c-sub">Capital cost, ₹ crore per MTPA of capacity (₹4,000 crore per MTPA equals ₹40,000 per tonne of annual capacity); bar at midpoint. INDICATIVE ranges from announced projects, industry dossier §5.4. Mine cost is per MTPA of ore</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Greenfield integrated<small>US$900–1,100/t</small></div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">8,000–10,000</div></div>
+      <div class="bar-row"><div class="blab">Brownfield BF-BOF<small>US$400–600/t</small></div><div class="track"><span class="fill brand" style="width:50%"></span></div><div class="bval">3,500–5,500</div></div>
+      <div class="bar-row"><div class="blab">Scrap-EAF mini-mill</div><div class="track"><span class="fill om" style="width:33.3%"></span></div><div class="bval">2,500–3,500</div></div>
+      <div class="bar-row"><div class="blab">Coal DRI-IF secondary</div><div class="track"><span class="fill wtg" style="width:22.2%"></span></div><div class="bval">1,500–2,500</div></div>
+      <div class="bar-row"><div class="blab">Iron-ore mine<small>per MTPA ore</small></div><div class="track"><span class="fill gold" style="width:7.2%"></span></div><div class="bval">500–800</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹9,000 crore per MTPA. A greenfield blast-furnace tonne costs about four times a secondary tonne.</span></div>
+  </div>
+
+  <p>The third difference is carbon. Coal-based sponge iron melted in an induction furnace is the most carbon-intensive route in India, at about 3–3.5 tonnes of CO₂ per tonne of steel. A blast furnace emits about 2.5, gas-based DRI with an electric furnace 1.4–1.8 and a scrap-based electric furnace about 0.7. India's carbon market and the EU's border charge will therefore hit the secondary producers hardest in the long run, even though they export little today. Section 17 returns to this.</p>
+
+  <p>The fourth difference is the meaning of "captive". A captive mine is a moat only if its lease predates the 2015 auction regime. SAIL, Tata Steel (until March 2030) and Lloyds Metals hold leases of that kind, and Jayaswal Neco meets all its ore needs from its own Chhattisgarh mines. JSW's captive ore is largely from mines won at auction, which pay premiums that make the ore little cheaper than buying it. Several secondary producers, GPIL among them, describe their ore as "100% captive" while buying a large share from the market in a bad quarter; GPIL's mined output covered only about 60% of its pellet needs in Q1 FY27. Section 09 works through the arithmetic.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>A big integrated mill is a bet on a world price gap and needs huge sums to grow. A secondary producer is a bet on a regional price gap and can grow cheaply, but so can its rivals. A miner with an old lease is a bet on the ore price and on the state not changing the rules. A stainless producer is a bet on Indian demand for a premium material and on keeping Chinese and Indonesian imports out. Ranking them on a single metric such as EBITDA per tonne is meaningless unless you first ask "per tonne of what?"</p>
+  </div>
+</section>
+
+<!-- ============ 09 ============ -->
+<section class="part" id="p9">
+  <div class="part-head"><span class="pno">09</span><h2>Ore, coal and the mining regime: why "captive" is not what it used to be <span class="dd">Deep dive</span></h2></div>
+  <p class="part-sub">Auctions since 2015 have handed most of the value of new iron-ore leases to the states. The real cost edge belongs to a shrinking set of old leases, and coking coal is still almost entirely imported.</p>
+
+  <p class="lead">Iron ore is the input India has in abundance and coking coal the one it lacks. The rules governing who may mine ore, and what they pay the state for doing so, have changed three times in eleven years and were the subject of a Supreme Court ruling in 2024 and a new law in August 2026. Those rules decide which companies have a durable cost advantage, and they contain a dated cliff for one of the largest producers.</p>
+
+  <h3>Iron ore: plentiful, but increasingly priced for the state</h3>
+  <p>India produced about 282 million tonnes of iron ore in 2024 on worldsteel's count, roughly 290–300 million tonnes in FY26, and is the world's fourth-largest producer after Australia, Brazil and China. Odisha produces about 55%, Chhattisgarh about 17%, Karnataka about 13% and Jharkhand about 10%. A blast-furnace mill needs about 1.5–1.6 tonnes of ore, as sinter, pellets and lump, per tonne of crude steel; the sponge-iron route needs about 1.7–1.8 tonnes. NMDC, the state-owned miner, produces about 45 million tonnes a year and sets the reference price; its output rose 22.8% to 27.27 million tonnes in the first half of FY27. India's pellet capacity of more than 130 MTPA reflects a shift towards beneficiating lower-grade ore, since only about 45% of reserves are high-grade.</p>
+
+  <p>The Mines and Minerals (Development and Regulation) Amendment of January 2015 changed the economics. All new leases would be allocated only by auction. Leases held by "captive" users such as steel mills were extended to 31 March 2030; "merchant" leases selling to the market lapsed on 31 March 2020; state-owned miners such as NMDC, OMC and SAIL received 20-year extensions on payment of an additional amount. Royalty on iron ore is 15% of the Indian Bureau of Mines' published average sale price. Leases granted before 2015 pay 30% of royalty to the district mineral foundation, auctioned ones 10%, and all pay 2% of royalty to the national exploration trust.</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <caption>What the state takes on a tonne of iron ore, by type of lease</caption>
+      <thead><tr><th>Charge</th><th>Legacy (pre-2015) lease</th><th>Auctioned lease</th><th>Basis</th></tr></thead>
+      <tbody>
+        <tr><td class="t-strong">Royalty</td><td>15% of average sale price</td><td>15% of average sale price</td><td>MMDR Second Schedule</td></tr>
+        <tr><td class="t-strong">District Mineral Foundation</td><td>30% of royalty (4.5% of price)</td><td>10% of royalty (1.5% of price)</td><td>MMDR s.9B</td></tr>
+        <tr><td class="t-strong">National Mineral Exploration Trust</td><td>2% of royalty</td><td>2% of royalty</td><td>MMDR s.9C</td></tr>
+        <tr><td class="t-strong">Auction premium</td><td>None</td><td>Bid % of mineral value, commonly 90–150%; Lloyds cites an average of 126% in 2026 and 161% in 2025</td><td>Paid monthly on top of royalty</td></tr>
+        <tr><td class="t-strong">Total statutory take</td><td>About 20% of the sale price</td><td>About 117% of the sale price at a 100% premium</td><td>Industry dossier §6.2</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The auction premium is the key number. In the Odisha auctions of February–March 2020, when about two dozen working merchant mines were re-let, premiums of 90–150% of the mineral's value were common. JSW won the Nuagaon mine, then India's largest working iron-ore mine, at 95.2%, and took four mines in all. Later auctions in Odisha and Karnataka cleared at 100–150% and more. Odisha alone accounts for 34 of India's 101 auctioned mineral blocks. A mine bought at a 100% premium pays the state about 117% of the ore's published value before it has paid a contractor to dig a tonne. Add mining cost of ₹300–600 a tonne and logistics, and the cost of so-called captive ore from an auctioned mine is usually at or above the price of buying ore on the market.</p>
+
+  <div class="chart">
+    <div class="c-title">What a tonne of iron ore costs a mill, by source</div>
+    <div class="c-sub">₹ per tonne of ore delivered to the plant. GPIL captive and market figures are company-reported (Q1 FY27 presentation); NMDC fines is the list price at the mine; merchant landed adds ~₹900 of levies and ~₹800 rail freight (industry dossier §10). Auctioned-mine bar is ILLUSTRATIVE: 117% of a ₹4,500 sale price in statutory payments + ₹450 mining + ₹800 logistics</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Auctioned mine<small>100% premium, illustrative</small></div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">~₹6,500</div></div>
+      <div class="bar-row"><div class="blab">Merchant ore, landed<small>NMDC fines + levies + rail</small></div><div class="track"><span class="fill om" style="width:95.4%"></span></div><div class="bval">₹6,200</div></div>
+      <div class="bar-row"><div class="blab">NMDC fines list price<small>FOR mine, Sep 2026</small></div><div class="track"><span class="fill om" style="width:69.2%"></span></div><div class="bval">₹4,500</div></div>
+      <div class="bar-row"><div class="blab">GPIL captive, landed<small>legacy Chhattisgarh lease</small></div><div class="track"><span class="fill brand" style="width:44.6%"></span></div><div class="bval">₹2,900</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹6,500 a tonne. A mill using 1.6 t of ore per tonne of steel saves ₹5,000 or more a tonne of steel with a well-placed legacy mine, and nothing with an expensive auctioned one.</span></div>
+  </div>
+
+  <p>The 2021 amendment softened one constraint: captive mines may now sell up to half their annual output once their own needs are met, on payment of an additional amount, and statutory clearances transfer to a new lessee so auctioned mines restart faster. GPIL's management explained on its Q1 FY27 call why it does not use this option: selling its captive ore on the market would attract an extra 150% royalty on lump and 250% on fines.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>When the government auctions a mine, bidders compete away most of the profit by promising the state a share of the ore's value. A steel mill that wins a mine at a 100% premium has really agreed to pay about twice the market value of the ore, spread over time, in exchange for security of supply. That security is worth something, but it is not cheap ore. Cheap ore belongs to whoever got their lease before 2015 and still holds it.</p>
+  </div>
+
+  <h3>The 2030 cliff</h3>
+  <p>The legacy captive leases extended in 2015 expire on 31 March 2030. The most important holder is Tata Steel, whose Indian operations run on 100% captive ore from mines in Jharkhand and Odisha. When those leases lapse, the mines will be auctioned, and Tata will have to bid for them at whatever premium the market sets or buy its ore elsewhere. The industry dossier puts the value of legacy captive ore at about ₹2,500–4,000 per tonne of steel. On Tata India's FY26 deliveries of 22.53 million tonnes, that is about ₹5,600–9,000 crore a year of EBITDA, or 16–26% of the ₹34,272 crore Tata India earned in FY26. That range is ILLUSTRATIVE: it assumes the whole advantage disappears and none of the leases is retained on better terms, and Tata will have three and a half years to prepare. But it is the largest dated cost risk in the sector, and it falls inside the payback period of every project Tata is building now.</p>
+
+  <p>The holders of the other true moats are SAIL, whose leases are state-owned and were extended for 20 years, NMDC (which supplies NMDC Steel at arm's length, so NMDC Steel itself owns none), Lloyds Metals, whose Surjagarh lease in Gadchiroli is a 2007 allotment valid to 2057 with no auction premium, and Jayaswal Neco, which meets 100% of its needs from its own mines (the sources used here do not give the lease vintage). GPIL's Ari Dongri and Boria Tibu leases were, on the industry dossier's unverified reading, obtained at low premiums in a less contested state; both GPIL and Sarda still buy part of their ore. Gallantt has won three blocks at auction in Rajasthan and Uttar Pradesh, with production due from FY28; its guided EBITDA uplift of about ₹2,000 a tonne will depend on the premiums it bid.</p>
+
+  <h3>The state-tax overhang, opened in 2024 and closed in 2026</h3>
+  <p>On 25 July 2024 a nine-judge bench of the Supreme Court ruled 8:1 in <em>Mineral Area Development Authority v. SAIL</em> that royalty is not a tax and that states have the power to tax mineral rights and mineral-bearing land. A follow-up order on 14 August 2024 allowed states to recover arrears from 1 April 2005, in 12 annual instalments starting 1 April 2026, without interest or penalty for the period up to the judgment. Estimates of the arrears ran to ₹1.5–2 lakh crore nationally, with Odisha's potential claim alone above ₹1 lakh crore. Jharkhand passed a mineral-bearing land cess in 2024. For miners and integrated mills with large lease holdings this was a contingent liability of many thousands of crores.</p>
+
+  <p>Parliament's answer was the MMDR (Amendment) Act 2026, introduced on 7 August and passed by the Lok Sabha on 12 August and the Rajya Sabha on 13 August 2026. Its new Section 9D bars any state tax, cess or levy on mineral rights or mineral-bearing land except under conditions set by the Centre, and declares any such levy not already paid "deemed to be invalid at all material times". Amounts already paid are not refundable. In effect, the window for 2005–2024 arrears that the Supreme Court opened is closed for unpaid amounts. Two caveats apply: the Act's commencement by gazette notification could not be verified as of 13 October 2026, and Odisha and Jharkhand are expected to challenge it on federalism grounds. State mineral receipts had already risen from ₹13,258 crore in 2014-15 to ₹71,035 crore in 2024-25.</p>
+
+  <div class="chart">
+    <div class="c-title">Where India's coking coal comes from</div>
+    <div class="c-sub">Approximate share of coking-coal imports. INDICATIVE: Australia "more than half" and Russia 12.6% (Jan–Aug 2026, volumes up 53% at 15–20% discounts) from BigMint / India Sea Trade News via search; remainder is the United States, Mozambique, Canada and Indonesia (PCI) combined</div>
+    <div class="stack-row"><div class="blab">Coking-coal imports</div><div class="stack"><span style="width:52%;background:var(--wtg)">Australia &gt;50%</span><span style="width:12.6%;background:var(--bad)">Russia 12.6%</span><span style="width:35.4%;background:var(--om)">US, Mozambique, Canada, others</span></div></div>
+    <div class="stack-row"><div class="blab">Coking-coal needs</div><div class="stack"><span style="width:87.5%;background:var(--wtg)">Imported 85–90%</span><span style="width:12.5%;background:var(--gold)">Domestic</span></div></div>
+    <div class="legend"><span><i style="background:var(--wtg)"></i>Australia (row 1) / imported (row 2)</span><span><i style="background:var(--bad)"></i>Russia</span><span><i style="background:var(--om)"></i>Other origins</span><span><i style="background:var(--gold)"></i>Domestic washed coking coal (~6–8 Mt usable)</span></div>
+  </div>
+
+  <h3>Coking coal: the dependence that cannot be auctioned away</h3>
+  <p>India's domestic coking coal is high in ash, and only about 6–8 million tonnes a year of washed domestic coal is usable in blast furnaces. Imports cover 85–90% of needs. Search-snippet data, which could not be verified at source, put FY26 coking-coal imports at 63.7 million tonnes (up 12.4%) and total metallurgical coal including injection coal at 84.5 million tonnes; BigMint counted 62.6 million tonnes of coking-coal imports in calendar 2025. Australia supplies more than half, the United States is second, and Russia's share rose to 12.6% in January–August 2026 at 15–20% discounts. The Ministry of Coal's Mission Coking Coal, launched in 2021, targets about 140 million tonnes of domestic raw coking coal by 2030 and more washeries; on present evidence it will reduce the dependence at the margin, not remove it.</p>
+
+  <p>The companies are trying to hedge it in different ways. JSW targets about 50% self-sufficiency in hard coking coal by calendar 2028, with about 20% from a 7 million-tonne Mozambique mine due to start in mid-2028 and about 10% from Australia, plus 3 million tonnes of domestic coal by FY29–30 and a linkage of more than 7.5 million tonnes from BCCL. Tata Steel India meets about 20–25% of its needs from captive mines at Jharia and West Bokaro. SAIL imports about 85% and expects its Tasra captive mine to start producing in December 2026. Jindal Steel's promoter group holds coal assets in Mozambique and Australia, and the listed company wrote down its Australian coal-mine investment by ₹830 crore in Q4 FY26. NMDC Steel imports almost all its coal. Among the secondary producers, Jayaswal Neco is unusual in running a blast furnace and buying imported coking coal; the sponge-iron producers use thermal coal instead, and none of the four in the third batch has a captive coal mine.</p>
+
+  <div class="chart">
+    <div class="c-title">How much coking coal the integrated mills source themselves</div>
+    <div class="c-sub">Share of coking-coal needs met from captive or domestic mines, %, latest disclosed. Tata Steel from company IR (FY25, not re-verified); SAIL implied from ~85% imported (Q1 FY27 call via SMM); JSW from its Q1 FY27 call (current share not quantified, "mostly imported"; target ~50% by CY28); NMDC Steel ~100% imported. Jindal Steel n/a (largely imported)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">JSW target CY28</div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~50%</div></div>
+      <div class="bar-row"><div class="blab">Tata Steel India</div><div class="track"><span class="fill brand" style="width:45%"></span></div><div class="bval">~20–25%</div></div>
+      <div class="bar-row"><div class="blab">SAIL</div><div class="track"><span class="fill brand" style="width:30%"></span></div><div class="bval">~15%</div></div>
+      <div class="bar-row"><div class="blab">JSW today</div><div class="track"><span class="fill om" style="width:10%"></span></div><div class="bval">&lt;10%</div></div>
+      <div class="bar-row"><div class="blab">NMDC Steel</div><div class="track"><span class="fill bad" style="width:1%"></span></div><div class="bval">~0%</div></div>
+      <div class="bar-row"><div class="blab">Jindal Steel</div><div class="track"><span class="fill ink" style="width:0%"></span></div><div class="bval">n/a</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 50%. JSW's current share is inferred from "~90%+ imported"; treat as approximate.</span></div>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>India can dig its own iron ore but not its own coking coal, so every blast-furnace mill is permanently short of coal and long of world coal prices. Companies can buy foreign mines, but that swaps one price risk for project risk in Mozambique or Australia, as Jindal Steel's ₹830 crore write-down shows. The practical protection is a strong balance sheet that can ride out a coal spike, and a product mix whose price rises with coal.</p>
+  </div>
+
+  <p>Put together, the raw-material picture produces a clear ranking. The strongest positions belong to companies with legacy ore and low exposure to imported coking coal: Lloyds (100% legacy ore, no blast furnace), SAIL (100% captive ore, but 85% imported coal), Tata India (100% captive ore until 2030, 20–25% captive coal) and Jayaswal Neco (100% captive ore, imported coal). The weakest are companies that buy both ore and coal on the market, which describes NMDC Steel, Shyam Metalics, Gallantt and Jai Balaji. JSW sits in between, with about 30% captive ore and large but expensive auctioned mines, and is spending to change that. Over the five years to FY31, as Tata's leases lapse and auction premiums spread, the gap between "captive" and "merchant" ore costs is likely to narrow for everyone except the few holders of leases that run past 2030.</p>
+</section>
+
+<!-- ============ 10 ============ -->
+<section class="part" id="p10">
+  <div class="part-head"><span class="pno">10</span><h2>The race to 300 MTPA: who adds, at what cost, and the FY28–FY30 question <span class="dd">Deep dive</span></h2></div>
+  <p class="part-sub">About 95–115 MTPA of new capacity is announced to FY31, costing several lakh crore rupees. Demand of 7–8% can absorb most of it; if growth slows, utilisation and margins will fall together.</p>
+
+  <p class="lead">The National Steel Policy of 2017 set a target of 300 MTPA of crude-steel capacity and 255 million tonnes of production by FY31, with consumption of 158 kilograms per person. In FY26 the country had 220.4 MTPA, produced 170 million tonnes and consumed 115.7 kilograms per person. Reaching 300 MTPA requires about 16 MTPA of new capacity a year, a compound rate of 7.8%; reaching 255 million tonnes of output requires 8.4% a year. On announcements, the capacity target will be met and exceeded. The question for investors is whether demand will keep up, and what happens to prices if it does not.</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <caption>Announced crude-steel capacity additions, FY26 to FY31</caption>
+      <thead><tr><th>Company or group</th><th class="num">FY26 capacity (MTPA)</th><th class="num">FY31 target (MTPA)</th><th class="num">Addition</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr><td class="t-strong">JSW (India, incl. JVs)</td><td class="num">34.2</td><td class="num">~51.5</td><td class="num">+17</td><td>Company now guides 49 by FY30 and 62 by FY32 on the post-BPSL perimeter</td></tr>
+        <tr><td class="t-strong">Tata Steel India</td><td class="num">~26.6</td><td class="num">~40</td><td class="num">+13</td><td>NINL +4.8 approved Jul 2026; Kalinganagar 8 MTPA ramped</td></tr>
+        <tr><td class="t-strong">SAIL</td><td class="num">~20.6</td><td class="num">~35.65</td><td class="num">+15</td><td>IISCO +4.5; Bhilai 7 → 10.2; volumes from FY29</td></tr>
+        <tr><td class="t-strong">AM/NS India (unlisted)</td><td class="num">9</td><td class="num">~24–30</td><td class="num">+15–21</td><td>Hazira to 15 MTPA (₹60,000 Cr); Odisha greenfield</td></tr>
+        <tr><td class="t-strong">Jindal Steel</td><td class="num">15.6</td><td class="num">~30</td><td class="num">+14</td><td>Company says near-term priority is utilisation, not new projects</td></tr>
+        <tr><td class="t-strong">NMDC Steel / RINL</td><td class="num">10.3</td><td class="num">~11–13</td><td class="num">+1–3</td><td>No expansion announced at NMDC Steel</td></tr>
+        <tr><td class="t-strong">Secondary and others</td><td class="num">~104</td><td class="num">~125–135</td><td class="num">+20–30</td><td>Lloyds, Shyam, GPIL, Vedanta ESL, Rungta, Rashmi and others</td></tr>
+        <tr><td class="t-strong">Total</td><td class="num">~220</td><td class="num">~315–335</td><td class="num">+95–115</td><td>Execution-adjusted FY31 capacity ~290–310 MTPA (estimate)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>The table uses the industry dossier's composite of company guidance. Gross announcements counted by industry sources are larger still, at about 167 MTPA by 2031, and about 64% of planned additions are coal-based blast furnaces. Many will slip: an execution-adjusted estimate for FY31 is 290–310 MTPA. JSW's figures illustrate the moving target. On the old perimeter it aimed for about 51.5 MTPA in India by FY31; after moving BPSL into the JFE joint venture its guidance is about 32 MTPA now, 49 MTPA by FY30 and 62 MTPA by FY32, with 78 MTPA including joint ventures, though management says the ₹2.26 lakh crore plan for 62 MTPA is not yet board-approved. Its board-approved capex is ₹1,30,000 crore, of which ₹22,000–24,000 crore falls in FY27.</p>
+
+  <div class="chart">
+    <div class="c-title">Who is adding the most capacity to FY31</div>
+    <div class="c-sub">Announced additions, MTPA, FY26 to FY31; bar at midpoint of ranges. INDICATIVE composite of company guidance (industry dossier §5.4, dataset E8); many projects will slip</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Secondary &amp; others</div><div class="track"><span class="fill wtg" style="width:100%"></span></div><div class="bval">+20–30</div></div>
+      <div class="bar-row"><div class="blab">AM/NS India<small>unlisted</small></div><div class="track"><span class="fill om" style="width:72%"></span></div><div class="bval">+15–21</div></div>
+      <div class="bar-row"><div class="blab">JSW</div><div class="track"><span class="fill brand" style="width:68%"></span></div><div class="bval">+17</div></div>
+      <div class="bar-row"><div class="blab">SAIL</div><div class="track"><span class="fill brand" style="width:60%"></span></div><div class="bval">+15</div></div>
+      <div class="bar-row"><div class="blab">Jindal Steel</div><div class="track"><span class="fill brand" style="width:56%"></span></div><div class="bval">+14</div></div>
+      <div class="bar-row"><div class="blab">Tata Steel India</div><div class="track"><span class="fill brand" style="width:52%"></span></div><div class="bval">+13</div></div>
+      <div class="bar-row"><div class="blab">NMDC Steel / RINL</div><div class="track"><span class="fill om" style="width:8%"></span></div><div class="bval">+1–3</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 25 MTPA. The listed majors account for about 59 MTPA of the 95–115 MTPA announced.</span></div>
+  </div>
+
+  <h3>The arithmetic of absorption</h3>
+  <p>Whether this capacity can be absorbed depends on a simple calculation. At 7–8% growth, Indian consumption adds about 13 million tonnes a year. To make that steel at 80% utilisation the industry needs about 16 MTPA of new capacity a year. The announced plans add 19–23 MTPA a year on average over five years, slightly ahead of that need. If every project landed on time, utilisation would drift down; because many will not, the more likely outcome is a market roughly in balance with a soft patch in whichever years several big projects commission together.</p>
+
+  <div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">ILLUSTRATIVE · How much new capacity a year the market can use</div>
+    <div class="flow-row">
+      <div class="node om"><div class="ntag">Demand growth</div><div class="nname">~13 Mt a year</div><div class="nwho">7–8% on a 164 Mt base</div></div>
+      <div class="arrow op">÷</div>
+      <div class="node wtg"><div class="ntag">Target utilisation</div><div class="nname">80%</div><div class="nwho">Level at which margins usually hold</div></div>
+      <div class="arrow op">=</div>
+      <div class="node spec"><div class="ntag">Capacity needed</div><div class="nname">~16 MTPA a year</div><div class="nwho">The NSP-2017 path also implies ~16</div></div>
+      <div class="arrow">→</div>
+      <div class="node om"><div class="ntag">Announced</div><div class="nname">19–23 MTPA a year</div><div class="nwho">95–115 MTPA over FY26–FY31</div></div>
+    </div>
+    <div class="flow-note">Announced additions run about 3–7 MTPA a year ahead of what demand needs at 80% utilisation; slippage on large projects is the normal way that gap closes.</div>
+  </div>
+
+  <p>The scenarios below make the point with a range of demand outcomes. They take FY26 consumption of 164.4 million tonnes, grow it for five years, convert to crude steel using FY26's ratio of production to consumption (1.035) and divide by an assumed FY31 capacity.</p>
+
+  <div class="chart">
+    <div class="c-title">FY31 utilisation under four demand scenarios</div>
+    <div class="c-sub">ILLUSTRATIVE: FY31 crude production = FY26 consumption 164.4 Mt × (1 + g)<sup>5</sup> × 1.035, divided by assumed capacity. Analyst arithmetic on dossier inputs; not a forecast</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">9% growth<small>305 MTPA capacity</small></div><div class="track"><span class="fill brand" style="width:85.8%"></span></div><div class="bval">~86%</div></div>
+      <div class="bar-row"><div class="blab">8% growth<small>305 MTPA</small></div><div class="track"><span class="fill brand" style="width:82%"></span></div><div class="bval">~82%</div></div>
+      <div class="bar-row"><div class="blab">6% growth<small>305 MTPA</small></div><div class="track"><span class="fill gold" style="width:74.7%"></span></div><div class="bval">~75%</div></div>
+      <div class="bar-row"><div class="blab">7% growth<small>335 MTPA, all projects on time</small></div><div class="track"><span class="fill bad" style="width:71.2%"></span></div><div class="bval">~71%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 100%. Utilisation of 72–81% has been the range for a decade; below about 75% Indian mills have historically struggled to hold prices against imports.</span></div>
+  </div>
+
+  <h3>What the expansion costs, and who can afford it</h3>
+  <p>At ₹4,000–8,000 crore per MTPA, 95–115 MTPA of new capacity implies ₹4–7 lakh crore of capital spending over five years. The cost per tonne varies widely by project, and the cheapest additions are brownfield expansions at existing sites. JSW's Dolvi Phase 3, adding 5 MTPA by September 2027, is guided at under ₹5,000 crore per million tonnes even after a ₹2,000 crore overrun. Tata's Ludhiana electric furnace cost about ₹3,200 crore for 0.75 MTPA. At the other end, Tata's NINL expansion of 4.8 MTPA was approved in July 2026 at ₹33,873 crore, about ₹70,600 a tonne, and AM/NS's 6 MTPA Hazira phase is budgeted at ₹60,000 crore including downstream lines. SAIL's programme of more than ₹1 lakh crore for about 14 MTPA works out to roughly ₹71,000 a tonne. Section 13 compares these per tonne.</p>
+
+  <p>The balance sheets are in better shape than in the last capacity boom. ICRA puts bank debt at US$184 per tonne of installed capacity in December 2025, against a peak of US$450 a tonne during the FY14–FY18 bad-loan cycle. JSW's net debt fell from about ₹80,000 crore to ₹46,157 crore over the 15 months to June 2026, helped by the BPSL sale; its net debt is 1.46 times EBITDA, with a ceiling of 2.5 times and a hard cap of 3 times. Tata's is 2.3 times, inside its 2.5–3.0 times through-cycle range. SAIL generated ₹19,039 crore of operating cash flow in FY26 and cut debt by ₹8,148 crore before its spending ramps up. Jindal Steel's net debt rose to ₹16,019 crore in FY26 as it doubled Angul, but at about 1.7 times EBITDA at the peak of a 60% capacity addition it stayed far below the levels that broke the company a decade ago.</p>
+
+  <div class="chart">
+    <div class="c-title">Industry leverage is a fraction of the last cycle's</div>
+    <div class="c-sub">Bank debt per tonne of installed capacity, US$; and industry total debt ÷ operating profit, times. Source: ICRA (Feb 2026; May 2026 update via search)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Bank debt/t, FY14–18 peak</div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">$450</div></div>
+      <div class="bar-row"><div class="blab">Bank debt/t, Dec 2025</div><div class="track"><span class="fill brand" style="width:40.9%"></span></div><div class="bval">$184</div></div>
+      <div class="bar-row"><div class="blab">Debt/EBITDA, FY26</div><div class="track"><span class="fill om" style="width:31%"></span></div><div class="bval">3.1×</div></div>
+      <div class="bar-row"><div class="blab">Debt/EBITDA, FY27E</div><div class="track"><span class="fill om" style="width:30%"></span></div><div class="bval">3.0×</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = US$450 (first two rows) or 10× (last two rows). The industry is building more capacity with less than half the debt per tonne it carried in the last boom.</span></div>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>India's steelmakers have announced more new capacity than the market is likely to need at full speed, which is normal in a growing industry because some plans always slip. The danger is a cluster of big plants starting up in the same two years, FY28–FY30 on current schedules, just as demand cools or Chinese exports surge. Unlike in 2015, the companies would face that with modest debt, so a downturn would cut profits but is unlikely to bankrupt the leaders.</p>
+  </div>
+
+  <p>The secondary producers are expanding too, and some are changing category. Shyam Metalics signed a non-binding memorandum on 2 October 2026 with the Maharashtra government for a 9 MTPA integrated complex at Chandrapur costing about ₹50,000 crore, 1.6 times its market value, with a blast furnace and sponge-iron route. Lloyds Metals expects its first 1.2 MTPA long-products mill by March 2027, with a larger integrated plant under study. GPIL, by contrast, has put its planned 1 MTPA blast-furnace plant "in abeyance" and is building a 20 GWh battery-storage factory instead. Gallantt is lifting steel capacity 23% to 1.23 million tonnes in the second half of FY27. Where secondary producers add blast furnaces, they move closer to the integrated model's economics and capital needs.</p>
+
+  <p>The signals that the race is overheating would be a fall in utilisation at the large mills below about 85%, a widening discount of Indian HRC to import parity, rising working-capital days as producers push tonnes into the channel, and net debt per tonne of capacity rising back towards US$300. None was visible in October 2026: JSW's Indian plants ran at 88–94%, Indian HRC was at a slight premium to parity and leverage was falling. The test will come in FY28, when Dolvi Phase 3, Angul Phase II, AM/NS Hazira and Tata's NINL start to arrive together.</p>
+</section>
+
+<!-- ============ 11 ============ -->
+<section class="part" id="p11">
+  <div class="part-head"><span class="pno">11</span><h2>Rules of the game: twelve policies that move the numbers</h2></div>
+  <p class="part-sub">From price decontrol in 1992 to the carbon market in 2027, policy has been the most frequent swing factor in Indian steel, often more powerful than demand.</p>
+
+  <p>Indian steel prices have been market-determined since 16 January 1992, but almost every other part of the business is shaped by policy: what can be imported and at what duty, what can be exported, who can mine, what the state collects, which products qualify for incentives and, from FY27, how much carbon each plant may emit per tonne. The table collects the rules in force or pending as of October 2026.</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <caption>The policy map, October 2026</caption>
+      <thead><tr><th>Policy</th><th>Date</th><th>What it does</th><th>Status and numbers</th></tr></thead>
+      <tbody>
+        <tr><td class="t-strong">Price decontrol</td><td>16 Jan 1992</td><td>Steel prices set by the market</td><td>In force</td></tr>
+        <tr><td class="t-strong">National Steel Policy 2017</td><td>May 2017</td><td>300 MTPA capacity, 255 Mt output, 158 kg per head by FY31; domestic preference</td><td>FY26: 220.4 MTPA, 170 Mt, 115.7 kg</td></tr>
+        <tr><td class="t-strong">Domestically Manufactured Iron &amp; Steel policy</td><td>2017, revised 2019–20</td><td>Preference for Indian steel in public procurement</td><td>In force</td></tr>
+        <tr><td class="t-strong">BIS Quality Control Orders</td><td>2020 onward</td><td>Mandatory standards for domestic and imported steel</td><td>151 standards notified; 55 suspended on 20 Nov 2025 (42 for three years, 13 for one year)</td></tr>
+        <tr><td class="t-strong">Steel Import Monitoring System</td><td>2019; SARAL SIMS from 21 Nov 2025</td><td>Advance registration of steel imports</td><td>In force</td></tr>
+        <tr><td class="t-strong">PLI for specialty steel</td><td>29 Jul 2021; PLI 1.2 on 4 Nov 2025</td><td>4–12% incentives on incremental coated, high-strength, electrical and alloy steel; outlay ₹6,322 Cr</td><td>PLI 1.2: 81 MoUs with 56 companies, ₹11,887 Cr committed, 8.29 Mt capacity; ₹236 Cr disbursed</td></tr>
+        <tr><td class="t-strong">Export duty</td><td>22 May 2022, withdrawn 19 Nov 2022</td><td>15% on most flats; 50% on iron ore; 45% on pellets</td><td>Lapsed; a reminder of export-policy risk</td></tr>
+        <tr><td class="t-strong">Safeguard duty (flat steel)</td><td>Provisional 21 Apr 2025; final 30 Dec 2025</td><td>12% / 11.5% / 11% to 20 Apr 2028, with CIF floors</td><td>In force; 11.5% now</td></tr>
+        <tr><td class="t-strong">Anti-dumping, Vietnam HRC</td><td>Late 2025</td><td>~US$121.55/t for five years</td><td>In force; China–Japan–Russia HRC case open</td></tr>
+        <tr><td class="t-strong">MMDR Amendments</td><td>2015, 2021, 2026</td><td>Auction-only leases; 50% sale from captive mines; Section 9D bars state mineral taxes and voids unpaid arrears</td><td>2026 Act passed 12–13 Aug; commencement not verified</td></tr>
+        <tr><td class="t-strong">Green Steel Taxonomy</td><td>12 Dec 2024</td><td>Green steel below 2.2 tCO₂e/t; star ratings; annual certificates</td><td>97 producers in 15 states certified (Jul 2026)</td></tr>
+        <tr><td class="t-strong">Carbon Credit Trading Scheme targets</td><td>Second steel draft ~26 Jun 2026</td><td>Emission-intensity targets for 255 steel units from FY27</td><td>Draft; cuts of 2.1–9.3% (median ~5.5%)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Three patterns stand out. The first is that trade policy works through the import-parity mechanism described in section 04, and the government has shown it will use it in both directions. The export duty imposed on 22 May 2022, 15% on most flat products and 50% on iron ore, was meant to cool domestic inflation; it crushed FY23 exports from 13.5 to 6.7 million tonnes and reset margins before it was withdrawn six months later. The safeguard of 2025 did the opposite. A government that can tax exports when steel is dear and protect producers when steel is cheap narrows the cycle at both ends, which helps lenders more than shareholders.</p>
+
+  <p>The second is that non-tariff tools have become as important as duties. Quality Control Orders, which require every steel product sold in India, imported or domestic, to meet a Bureau of Indian Standards specification and carry a licence, are a significant barrier for foreign mills that have not registered. Their suspension for 55 standards in November 2025, 42 for three years and 13 specialty grades for one year, loosened that barrier for downstream users who could not source certain grades at home. Jindal Stainless's management says the stainless QCO relaxation runs to March 2027 and expects no reversal before then.</p>
+
+  <div class="chart">
+    <div class="c-title">The specialty-steel PLI: big commitments, small payouts so far</div>
+    <div class="c-sub">₹ crore. Outlay is the scheme's total budget; committed investment is from the 81 MoUs signed under PLI 1.2; disbursed is cumulative incentives paid. Source: Ministry of Steel, Overview of Steel Sector (Jul 2026)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Committed investment<small>PLI 1.2, 56 companies</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">11,887</div></div>
+      <div class="bar-row"><div class="blab">Scheme outlay</div><div class="track"><span class="fill gold" style="width:53.2%"></span></div><div class="bval">6,322</div></div>
+      <div class="bar-row"><div class="blab">Incentives disbursed</div><div class="track"><span class="fill om" style="width:2%"></span></div><div class="bval">236</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹11,887 crore. The scheme targets 8.29 Mt of specialty capacity and expects specialty-steel output to reach 42 Mt by FY27.</span></div>
+  </div>
+
+  <p>The third pattern is that carbon is moving from voluntary to mandatory. The Green Steel Taxonomy of December 2024 defines green steel as below 2.2 tonnes of CO₂-equivalent per tonne of finished steel, with five stars below 1.6, four stars between 1.6 and 2.0 and three stars between 2.0 and 2.2, and appoints NISST as the measurement and verification agency. By July 2026, 97 producers in 15 states held green-steel certificates. The Carbon Credit Trading Scheme's second draft of targets for iron and steel, published around 26 June 2026, covers 255 plants with a combined baseline of 358.6 million tonnes of CO₂-equivalent and requires intensity cuts of 2.1–9.3% from FY27. Those are modest targets, but they create a price for carbon inside India that did not exist before. Section 17 covers the details and the EU's parallel rules.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>Steel investors in India have to follow Delhi as closely as they follow Beijing. A single notification can add or remove ₹5,000 a tonne from the price, close or open an export market, change what a mine costs or wipe out a contingent tax bill. The rules have generally moved in the producers' favour since 2024, but the 2022 export duty is a reminder that they can move against them within days when domestic prices become a political issue.</p>
+  </div>
+</section>
+
+<!--CONTINUE-->
+
+</main>
+</div>
+</div>
+</body>
+</html>
