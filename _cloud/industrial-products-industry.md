@@ -822,5 +822,45 @@ NEP-Transmission's ₹9.15 lakh crore, about 1.91 lakh ckm and 33 GW of HVDC [V]
 
 ---
 
-## COMPANY-KPI APPENDIX (to be written by orchestrator)
+## COMPANY-KPI APPENDIX (orchestrator, cross-checked across company packs 1–3)
 
+Basis: FY26 consolidated (Honeywell Automation standalone; it has no subsidiaries). Revenue, EBITDA (= screener operating profit, excluding other income) and PAT are in ₹ Cr. Market cap and P/E are from screener at the 13 Oct 2026 close; the orchestrator re-fetched and confirmed m-cap and P/E for KAYNES, HONAUT, PRAJIND, TEGA and LLOYDSENGG this session. Net debt is the company figure where disclosed (− = net cash). CFO/EBITDA is screener cash from operations ÷ screener operating profit, FY26. No member had reported Q2 FY27 by 13 Oct 2026 (Elecon's board meets 14 Oct; Honeywell Automation's on 27 Oct).
+
+### Summary grid (15 members; archetype A1 EMS · A2 process/cryogenic/heat-transfer equipment · A3 precision components & machines · A4 automation & recurring consumables · A5 heavy fabrication / T&D)
+| Arch | Company | Rev FY26 | Growth | EBITDA | OPM | PAT | Net debt (latest) | M-cap 13-Oct-26 | P/E | ROCE % | Order book ₹ Cr | CFO/EBITDA FY26 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A1 | Kaynes | 3,626 | +33% | 578 | 15.9% | 364 | ~76 (co.) | 22,097 | 63.6× | 13 | 8,904 | -104% |
+| A1 | Syrma SGS | 4,819 | +27% | 546 | 11.3% | 346 | −122 (Jun-26 co.) | 32,665 | 88.0× | 17 | 6,770 | 53% |
+| A1 | Avalon | 1,603 | +46% | 173 | 10.8% | 113 | 24 (Jun-26 co.) | 15,265 | 114× | 19 | 2,208 | 33% |
+| A4 | Honeywell Automation (standalone) | 4,682 | +12% | 613 | 13.1% | 525 | −3,696 | 28,745 | 51.4× | 17 | n.d. | 80% |
+| A3 | Jyoti CNC | 2,093 | +15% | 527 | 25.2% | 336 | ~716 (co.) | 23,227 | 72.2× | 21 | 4,848 | 10% |
+| A2 | INOX India | 1,587 | +21.5% | 343 | 21.6% | 258 | −239 | 18,904 | 73.5× | 33.5 | 1,686 | 34% |
+| A2 | Anup Engineering | 822 | +12.1% | 177 | 21.5% | 110 | 97 (co. ~nil Aug-26) | 3,027 | 35.3× | 21 | 985 | 1% |
+| A2 | GMM Pfaudler | 3,524 | +10.2% | 403 | 11.4% | 52 | 350 | 5,952 | 47.2× | 13.6 | 2,289 | 97% |
+| A2 | Praj | 3,168 | -1.9% | 155 | 4.9% | 24 | −449 | 5,295 | 105× | 6.1 | 4,589 | 129% |
+| A2 | KRN | 600 | +39.6% | 112 | 18.7% | 76 | 141 (pre-QIP) | 9,038 | 93.2× | 16 | n.d. | -101% |
+| A3 | Azad | 603 | +32% | 225 | 37.3% | 134 | 272 (co.) | 19,273 | 139× | 12 | ~6,500 (LTCPA) | -53% |
+| A3 | Elecon | 2,366 | +6% | 523 | 22.1% | 341 | −683 | 9,866 | 32.6× | 21 | 1,518 | 60% |
+| A4 | Tega (pre-Molycop FY26) | 1,692 | +3% | 233 | 13.8% | 143 | −1,951 Mar-26 → ≈8,300 post-deal [E] | 14,947 | n.m. (TTM loss) | 8 | 1,231 (ex-Molycop) | 150% |
+| A5 | Skipper | 5,553 | +20% | 575 | 10.4% | 213 | 873 (≈440 pro forma) | 6,470 | 27.8× | 24 | 9,217 | 48% |
+| A5 | Lloyds Engineering | 1,301 | +54% | 190 | 14.6% | 198 | −365 | 14,433 | 64.5× | 16 | 2,826 (own perimeter) | -133% |
+
+### Aggregates (stated basis)
+- **Simple sum of the 15 rows** (what a peer-table "combined" row equals): revenue ₹38,039 Cr; EBITDA ₹5,373 Cr (14.1%); PAT ₹3,233 Cr; m-cap ₹229,204 Cr; m-cap ÷ FY26 PAT = 70.9×. The industry file's "~73×" is on TTM PAT, so the two figures use different bases and both are correct. There is no double-counting: no member consolidates another. But Tega's FY26 figures exclude Molycop, acquired 1 Jun 2026, which roughly quintuples Tega's revenue run-rate. Lloyds' figures exclude LICL (a 24.2% associate) and the pending four-company merger.
+- **A1 EMS** (3 cos): revenue ₹10,048 Cr · EBITDA ₹1,297 Cr (12.9%) · PAT ₹823 Cr · m-cap ₹70,027 Cr · m-cap/PAT 85×
+- **A2 Process / cryogenic / heat-transfer** (5 cos): revenue ₹9,701 Cr · EBITDA ₹1,190 Cr (12.3%) · PAT ₹520 Cr · m-cap ₹42,216 Cr · m-cap/PAT 81×
+- **A3 Precision components & machines** (3 cos): revenue ₹5,062 Cr · EBITDA ₹1,275 Cr (25.2%) · PAT ₹811 Cr · m-cap ₹52,366 Cr · m-cap/PAT 65×
+- **A4 Automation & consumables** (2 cos): revenue ₹6,374 Cr · EBITDA ₹846 Cr (13.3%) · PAT ₹668 Cr · m-cap ₹43,692 Cr · m-cap/PAT 65×
+- **A5 Heavy fabrication / T&D** (2 cos): revenue ₹6,854 Cr · EBITDA ₹765 Cr (11.2%) · PAT ₹411 Cr · m-cap ₹20,903 Cr · m-cap/PAT 51×
+
+### Reconciliation notes (cross-batch checks)
+1. **Lloyds order book.** Batch 3 resolved this from the company's Q1 FY27 deck: ₹2,826 Cr for the current perimeter (LEWL + Techno ₹2,630 Cr + Metalfab ₹196 Cr). ₹8,857 Cr is a combined group figure (adds LICL ₹4,830 Cr and SISCOL ₹1,197 Cr). The industry file's "press conflict" is therefore resolved. Use ₹2,826 Cr in the peer table, with a note on ₹8,857 Cr.
+2. **Q1 FY27 for Azad, Jyoti, Elecon, HAIL, KRN, Skipper and Lloyds.** The industry file had these only from press. The company packs verified them from exchange filings and decks, so use the pack figures.
+3. **Tega.** FY26 is pre-Molycop. Q1 FY27 consolidates one month of Molycop (revenue ₹1,723 Cr, reported loss ₹108 Cr after ₹191 Cr one-offs). The ~₹8,300 Cr post-deal net debt (ex-redeemable preference shares) is an estimate. Group debt is ₹11,200 Cr including ~₹2,600 Cr of RPS. Tega's stake in Molycop (~77%) is a search snippet only and unverified.
+4. **Azad.** It is now net debt (₹272 Cr company basis), not net cash. CFO was −₹119 Cr in FY26, and screener's cash-conversion-cycle figure (1,720 days) is an artefact of a tiny material-cost base, so use working-capital days (~304–337).
+5. **Gross margin.** "100 − material cost %" is only a proxy and misleads for Azad (90%) and for companies with large manufacturing-expense lines. Use EBITDA margin for comparisons across archetypes.
+6. **Honeywell Automation.** Honeywell Inc. completed its split on 29 Jun 2026, and HAIL sits under the continuing automation business (Honeywell Technologies). The Solstice spin-off date (Oct 2025) is from memory.
+7. **Kaynes.** CFO was −₹600 Cr in FY26 (CFO/EBITDA −104%), and smart-meter receivables are ₹1,311 Cr. The Dec-2025 Kotak disclosure note is described from search results only. The MD is now Dr. Muthukumar Narayanaswamy.
+8. **KRN.** It raised ₹350 Cr through a QIP in May–Jun 2026. Net debt of ₹141 Cr is pre-QIP. The issue price (₹1,060) is a snippet only.
+9. **Shareholding.** Screener had Sep-26 patterns only for KRN, Elecon, Tega and (via filings) Skipper, Lloyds and Avalon. Avalon's promoter group is ~38.4% after the 30 Sep 2026 block, an orchestrator-accepted calculation. The others are Jun-26.
+10. **Concentration.** INOX India: one US space customer is ~24% of the order book. Lloyds: ~32% of its own book is from Lloyds group companies. KRN: Daikin >33% (DRHP memory, unverified).
