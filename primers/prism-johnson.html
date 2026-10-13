@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+main{min-width:0;}
   :root{
     --paper:#F4F5F6;
     --paper-2:#FAFBFB;
@@ -256,17 +257,17 @@
     <div class="cell"><div class="v">~₹7,404 <small>Cr</small></div><div class="l">Revenue (FY26)</div></div>
     <div class="cell"><div class="v">~₹30 <small>Cr</small></div><div class="l">Net profit (FY26)</div></div>
     <div class="cell"><div class="v">~9.4<small>%</small></div><div class="l">EBITDA margin (FY26)</div></div>
-    <div class="cell"><div class="v">~₹5,600 <small>Cr</small></div><div class="l">Market cap (Aug 2026)</div></div>
+    <div class="cell"><div class="v">₹4,944 <small>Cr</small></div><div class="l">Market cap (13 Oct 2026)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">28 Aug 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: FY26 results + Q1 FY27 (Jun 2026 quarter); market data as of 13 Oct 2026</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — revenue ₹7,404 Cr (+8.4%), EBITDA ₹693 Cr (+52%), net profit ₹30 Cr; cement EBITDA/tonne ₹351→₹543, effective net debt cut to ~₹646 Cr; exit from the Raheja QBE general-insurance joint venture completed.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b><strong>Q1 FY27 (results 7 Aug 2026):</strong> EBITDA ₹221 Cr (+26.6%), margin 12.0%; cement volume 1.85 MT (−6%) at ₹706/tonne EBITDA; premium share 67%; HRJ (tiles) margin 9.0%; effective net debt ₹604 Cr at Jun-26 (net debt ₹577 Cr, ~0.8× EBITDA). The Raheja QBE exit closed on <strong>1 Jul 2026 for ₹325.87 Cr</strong> (51% stake), with the gain due in Q2 FY27; standalone gross debt fell to ₹493 Cr by 6 Aug 2026. Since then: a 49.5 MW captive wind project via KUS Renewable (₹40 Cr, 25 Sep 2026); CESTAT quashed an ₹11.53 Cr excise demand (7 Sep 2026); kiln maintenance moved into Q2–Q3, so management flagged a Q2 EBITDA/tonne dip. GST on cement was cut from 28% to 18% from 22 Sep 2025. Market cap ₹4,944 Cr at ₹98.8, P/E 42.1×, P/B 3.25× (as of 13 Oct 2026, near the 52-week low). Q2 FY27 results not yet out. Earlier: FY26 full-year results — revenue ₹7,404 Cr (+8.4%), EBITDA ₹693 Cr (+52%), net profit ₹30 Cr; cement EBITDA/tonne ₹351→₹543, effective net debt cut to ~₹646 Cr.</div>
 </header>
 
 <!-- 00 -->
@@ -280,7 +281,7 @@
   <ul class="clean">
     <li><strong>Three legs, three completely different economics.</strong> Cement is a regional <em>commodity</em> — profit swings with utilisation, freight radius and fuel cost. Tiles are <em>branded, consumer-facing</em> — profit depends on brand, dealer reach and holding the line against cheap Morbi competitors. Concrete is an <em>urban, low-margin, capital-light volume</em> business — you pour it near where you make it and turn the money over fast. One share owns all three.</li>
     <li><strong>The whole has historically been thin and levered.</strong> For years Prism combined a large topline (~₹7,000–7,400 Cr) with a single-digit EBITDA margin and a debt load that ate most of what was left. FY26 revenue of <strong>₹7,404 Cr</strong> produced a net profit of just <strong>~₹30 Cr</strong> — the defining signature of this business is enormous sales and a sliver of bottom line.</li>
-    <li><strong>FY26 was a genuine repair year.</strong> Consolidated EBITDA jumped <strong>~52% to ₹693 Cr</strong>, cement EBITDA/tonne climbed from ₹351 to ₹543, all three segments grew, and effective net debt was cut to roughly <strong>₹646 Cr</strong>. The stock trades near <strong>48× earnings</strong> — pricing in that the recovery is the start of a trend, not a one-year blip.</li>
+    <li><strong>FY26 was a genuine repair year.</strong> Consolidated EBITDA jumped <strong>~52% to ₹693 Cr</strong>, cement EBITDA/tonne climbed from ₹351 to ₹543, all three segments grew, and effective net debt was cut to roughly <strong>₹646 Cr</strong>. The stock trades near <strong>42× earnings</strong> (as of 13 Oct 2026) — a valuation that assumes the recovery is the start of a trend, not a one-year blip.</li>
   </ul>
 
   <div class="plain">
@@ -375,11 +376,11 @@
     <div class="legend"><span>Prism's EBITDA/tonne jumped ~55% year-on-year as prices firmed, fuel eased and volumes grew ~12%. But a big, national, low-cost producer still earns roughly twice as much per tonne — the structural penalty of being a single-location regional player.</span></div>
   </div>
 
-  <p>Two levers Prism can actually pull sit underneath that recovery. The first is <strong>premium product mix</strong>: blended and branded premium cements (which sell at a higher price than ordinary grey cement) rose to about <strong>54% of the mix from 42%</strong> — every point of premiumisation lifts the average realisation without adding a tonne of clinker. The second is <strong>green power</strong>: a waste-heat-recovery system and rooftop/ground solar now meet a meaningful share of the plant's electricity — around <strong>a third of its power came from green sources in FY26</strong> — which pulls down the single largest controllable cost in cement after fuel.</p>
+  <p>Two levers Prism can actually pull sit underneath that recovery. The first is <strong>premium product mix</strong>: blended and branded premium cements (which sell at a higher price than ordinary grey cement) rose to about <strong>54% of the mix from 42%</strong> in FY26 (67% in Q1 FY27) — every point of premiumisation lifts the average realisation without adding a tonne of clinker. The second is <strong>green power</strong>: a waste-heat-recovery system and rooftop/ground solar now meet a meaningful share of the plant's electricity — around <strong>a third of its power came from green sources in FY26</strong> — which pulls down the single largest controllable cost in cement after fuel.</p>
 
   <div class="plain">
     <div class="ptag">The device that only fits this company: ₹192 a tonne</div>
-    <p>Same plant at Satna, same ~5.6 MTPA, broadly the same people — and cement EBITDA/tonne moved from ₹351 to ₹543 in one year. That ~<strong>₹192 a tonne</strong>, spread over roughly 5.5 million tonnes sold, is on the order of <strong>~₹105 Cr of extra operating profit</strong> from the cement leg alone. Set that against a consolidated EBITDA that rose ~₹237 Cr for the whole group, and you can see that <em>nearly half</em> of Prism Johnson's entire FY26 profit improvement came from this single per-tonne number ticking up. In a commodity, you don't need a new business — you need the spread per unit to widen, and this year it did.</p>
+    <p>Same plant at Satna, same ~5.6 MTPA, broadly the same people — and cement EBITDA/tonne moved from ₹351 to ₹543 in one year. That ~<strong>₹192 a tonne</strong>, spread over roughly 7.4 million tonnes of cement and clinker sold, is on the order of <strong>~₹140 Cr of extra operating profit</strong> from the cement leg alone. Set that against a consolidated EBITDA that rose ~₹237 Cr for the whole group, and you can see that <em>well over half</em> of Prism Johnson's entire FY26 profit improvement came from this single per-tonne number ticking up. In a commodity, you don't need a new business — you need the spread per unit to widen, and this year it did.</p>
   </div>
 
   <div class="note gold"><b>The catch built into the commodity:</b> the same ₹192/tonne that lifted FY26 can reverse just as fast. Cement prices are set regionally and can soften in a weak monsoon or an oversupplied quarter; petcoke is an imported, dollar-priced fuel that can spike. EBITDA/tonne is not a ratchet — it is a spread, and spreads compress. That is precisely why one good cement year does not, on its own, re-rate a cement stock.</div>
@@ -452,14 +453,14 @@
     <li class="major"><div class="yr">2018</div><div class="ev">The combined company is renamed <strong>Prism Johnson Limited</strong> — signalling that tiles-and-bath is co-equal with cement, not a bolt-on.</div></li>
     <li><div class="yr">2021</div><div class="ev">The retail tile-bath-kitchen (TBK) trading businesses are consolidated into the group; cement capacity expansion at Satna approved.</div></li>
     <li><div class="yr">2023</div><div class="ev">New <strong>Panagarh (West Bengal)</strong> tile plant commissioned, adding capacity nearer the eastern market.</div></li>
-    <li class="major"><div class="yr">FY26 / 2026</div><div class="ev">EBITDA +52%, net debt cut hard; group completes <strong>exit from the Raheja QBE general-insurance</strong> joint venture, tidying the portfolio back to pure building materials.</div></li>
+    <li class="major"><div class="yr">FY26 / 2026</div><div class="ev">EBITDA +52%, net debt cut hard; group agrees the <strong>exit from the Raheja QBE general-insurance</strong> joint venture (closed 1 Jul 2026 for ₹325.87 Cr), tidying the portfolio back to pure building materials.</div></li>
   </ul>
 
   <h3>Ownership &amp; structure — what to keep straight</h3>
   <ul class="clean">
     <li><strong>Promoters:</strong> the <strong>Rajan Raheja family</strong> and group entities hold roughly <strong>75%</strong>. Institutions are a modest slice (FIIs low single digits, domestic institutions mid-single digits), leaving a relatively small genuine free float — worth remembering, as it can amplify the share's moves.</li>
     <li><strong>Divisions, not subsidiaries:</strong> Cement, H&amp;R Johnson and RMC are <em>operating divisions</em> of the one listed company — there is no separate listed tile or cement entity to value. This is the opposite of, say, a holding-company conglomerate with independently traded arms.</li>
-    <li><strong>The insurance exit:</strong> Prism historically held a stake in <strong>Raheja QBE General Insurance</strong>, a non-core financial-services holding. Selling it (completed in 2026) removes a distraction and brings in cash, refocusing the company on the three building-materials legs. Do not model Prism as an insurance play — that chapter is closed.</li>
+    <li><strong>The insurance exit:</strong> Prism historically held a stake in <strong>Raheja QBE General Insurance</strong>, a non-core financial-services holding. Selling its 51% stake (closed 1 Jul 2026 for ₹325.87 Cr, booked in Q2 FY27) removes a distraction and brings in cash, refocusing the company on the three building-materials legs. Do not model Prism as an insurance play — that chapter is closed.</li>
   </ul>
 
   <div class="note gold"><b>Why the recent simplification matters:</b> a diversified group with a cement plant, a consumer tile brand, a concrete network <em>and</em> a stake in an insurer is hard for the market to value and easy for management to lose focus on. Folding in the retail TBK businesses and exiting insurance pushes Prism toward being a cleaner, three-legged building-materials company — which is exactly the shape an investor can actually price.</div>
@@ -511,7 +512,7 @@
 
   <p>Underneath the headline, the three segment moves were: <strong>cement</strong> revenue +12.7% to ~₹3,405 Cr with EBITDA/tonne up ₹351→₹543 and volumes +11.7%; <strong>tiles-and-bath</strong> revenue +2.3% to ~₹2,447 Cr with margin 5.8%→7.3%; and <strong>RMC</strong> revenue +9.6% to ~₹1,551 Cr with EBITDA +37%. No single hero — a coordinated lift.</p>
 
-  <p>The second half of the story is <strong>debt</strong>. A thin-margin business cannot afford to carry heavy borrowings, and Prism has historically carried too much. In FY26 it cut its <strong>effective net debt to roughly ₹646 Cr</strong>, using stronger cash generation and portfolio actions (including the insurance-stake sale) to bring leverage down materially. Lower debt means lower interest, and lower interest on a slim operating profit flows almost entirely to the bottom line — the deleveraging is not a side note, it is a direct earnings lever.</p>
+  <p>The second half of the story is <strong>debt</strong>. A thin-margin business cannot afford to carry heavy borrowings, and Prism has historically carried too much. In FY26 it cut its <strong>effective net debt to roughly ₹646 Cr</strong> (₹604 Cr at Jun-26, ~0.8× EBITDA; roughly ₹280 Cr pro forma once the insurance proceeds are counted), using stronger cash generation and portfolio actions (including the insurance-stake sale) to bring leverage down materially. Lower debt means lower interest, and lower interest on a slim operating profit flows almost entirely to the bottom line — the deleveraging is not a side note, it is a direct earnings lever.</p>
 
   <div class="mini-stats">
     <div class="ms gold"><div class="msv">+52%</div><div class="msl">FY26 consolidated EBITDA growth — the operating-leverage year</div></div>
@@ -537,7 +538,7 @@
     <caption>Three markets, three sets of rivals</caption>
     <thead><tr><th>Leg</th><th>Who Prism competes with</th><th>Prism's position</th></tr></thead>
     <tbody>
-      <tr><td class="t-strong" style="color:var(--cem)">Cement</td><td>UltraTech (the giant), Adani's Ambuja/ACC, Shree Cement, Dalmia and regional players like Birla Corp in the central/east belt</td><td>A sub-6-MTPA regional player in a market of 100+ MTPA majors — a price-taker at the mercy of regional supply, not a national force.</td></tr>
+      <tr><td class="t-strong" style="color:var(--cem)">Cement</td><td>UltraTech (the giant), Adani's Ambuja/ACC, Shree Cement, Dalmia and regional players like Birla Corp in the central/east belt</td><td>A 5.6 MTPA regional player (plus 1.37 MTPA under grinding agreements, running above 100%; no expansion planned) in a market of 100+ MTPA majors — a price-taker at the mercy of regional supply, not a national force.</td></tr>
       <tr><td class="t-strong" style="color:var(--tile)">Tiles &amp; bath</td><td>Kajaria (the branded leader), Somany, Cera &amp; Hindware (bath), plus the vast <strong>unorganised Morbi</strong> cluster on price</td><td>A strong, old brand fighting a two-front war — premium players above on margin, Morbi below on price. Big name, mid-single-digit margin.</td></tr>
       <tr><td class="t-strong" style="color:var(--rmc)">Ready-mix concrete</td><td>The captive RMC arms of cement majors (UltraTech, ACC) and numerous regional/local batching operators</td><td>Among the leading organised RMC producers by plant network — a genuine scale position in a fragmented, city-by-city market.</td></tr>
     </tbody>
@@ -572,17 +573,17 @@
     <div class="legend"><span>Revenue has essentially oscillated in a band for five years — the story was never topline growth. The whole game is what margin that flat revenue throws off, which is why EBITDA (+52% in FY26) matters far more than sales here.</span></div>
   </div>
 
-  <p>The profit record underlines the point. Net profit ran ~₹44 Cr (FY22), a loss of ~₹158 Cr (FY23), ~₹162 Cr (FY24), ~₹45 Cr (FY25) and ~₹30 Cr (FY26) — a saw-tooth, not a trend, driven by where cement prices and fuel sat each year and how heavy the interest bill was. On that ~₹30 Cr of FY26 profit and a ~₹5,600 Cr market value, the stock trades near <strong>48× trailing earnings</strong> — an optically steep multiple that only makes sense if you believe FY26's operating recovery is an early rung, not a peak, and that a much larger earnings base is coming as margin normalises and interest falls.</p>
+  <p>The profit record underlines the point. Net profit ran ~₹44 Cr (FY22), a loss of ~₹158 Cr (FY23), ~₹162 Cr (FY24), ~₹45 Cr (FY25) and ~₹30 Cr (FY26) — a saw-tooth, not a trend, driven by where cement prices and fuel sat each year and how heavy the interest bill was. On a ₹4,944 Cr market value (as of 13 Oct 2026), the stock trades near <strong>42× trailing earnings</strong> (P/B 3.25×) — an optically steep multiple that only makes sense if you believe FY26's operating recovery is an early rung, not a peak, and that a much larger earnings base is coming as margin normalises and interest falls.</p>
 
   <div class="mini-stats">
     <div class="ms"><div class="msv">~₹7,404 Cr</div><div class="msl">FY26 revenue — flat vs a five-year band, growth is not the thesis</div></div>
     <div class="ms gold"><div class="msv">~₹693 Cr</div><div class="msl">FY26 EBITDA (+52%) — the number that actually moved</div></div>
-    <div class="ms red"><div class="msv">~48×</div><div class="msl">Trailing P/E on thin ₹30 Cr profit — pricing a recovery, not a result</div></div>
+    <div class="ms red"><div class="msv">42.1×</div><div class="msl">Trailing P/E (13 Oct 2026) on thin profit — pricing a recovery, not a result</div></div>
   </div>
 
   <div class="plain">
     <div class="ptag">The one number that settles the thesis: cement EBITDA/tonne, and whether it holds</div>
-    <p>At ~48× earnings, Prism is not priced as a flat cyclical — it is priced as a company whose profit is about to <em>step up and stay up</em>. Because cement is the biggest leg and the most operating-leveraged, the single figure that proves or breaks that case is <strong>cement EBITDA per tonne</strong> — specifically, whether it can hold above ~₹500 through a full year rather than spiking for a good quarter. Read it alongside two supporting reads: <strong>effective net debt</strong> (does it keep falling toward and below ~₹500 Cr, cutting the interest drag?) and the <strong>tiles EBITDA margin</strong> (is the 7%+ level durable, or does Morbi claw it back?). If per-tonne holds, debt keeps dropping and tiles hold their new margin, the thin ₹30 Cr profit multiplies and the multiple is defensible. If the cement spread reverts, all three reads weaken together and a 48× stock has very little profit underneath it. Per-tonne is the scoreboard; everything else is context.</p>
+    <p>At ~42× earnings (as of 13 Oct 2026), Prism is not valued as a flat cyclical — it is priced as a company whose profit is about to <em>step up and stay up</em>. Because cement is the biggest leg and the most operating-leveraged, the single figure that proves or breaks that case is <strong>cement EBITDA per tonne</strong> — specifically, whether it can hold above ~₹500 through a full year rather than spiking for a good quarter. Read it alongside two supporting reads: <strong>effective net debt</strong> (does it keep falling toward and below ~₹500 Cr, cutting the interest drag?) and the <strong>tiles EBITDA margin</strong> (is the 7%+ level durable, or does Morbi claw it back?). If per-tonne holds, debt keeps dropping and tiles hold their new margin, the thin ₹30 Cr profit multiplies and the multiple is defensible. If the cement spread reverts, all three reads weaken together and a 42× stock has very little profit underneath it. Per-tonne is the scoreboard; everything else is context.</p>
   </div>
 
   <div class="note">The figures here are drawn from company results, segment disclosures and third-party data (screener.in, results coverage) and cross-checked across sources; several are <b>approximate</b> and rounded, segment revenues are shown before inter-segment eliminations so they do not sum exactly to consolidated revenue, and peer comparisons (Kajaria, Somany, UltraTech) are illustrative approximations. Verify against Prism Johnson's filings and investor presentations before relying on any single number.</div>
@@ -600,7 +601,7 @@
       <h4>The bull case</h4>
       <ul class="clean">
         <li><strong>Broad FY26 recovery</strong> — cement, tiles and RMC all grew revenue and margin together; EBITDA +52% shows the operating leverage in a flat-revenue business.</li>
-        <li><strong>Cement mix &amp; green power</strong> — premium share at 54% and ~a third of power from green sources structurally lift EBITDA/tonne, not just cyclically.</li>
+        <li><strong>Cement mix &amp; green power</strong> — premium share at 54% (67% in Q1 FY27) and ~a third of power from green sources (32.7% in FY26, with 49.5 MW of captive wind on the way) structurally lift EBITDA/tonne, not just cyclically.</li>
         <li><strong>Deleveraging</strong> — effective net debt cut to ~₹646 Cr; every rupee of lower interest drops almost straight to a thin bottom line.</li>
         <li><strong>Real construction tailwind</strong> — housing and infrastructure lift all three legs at once; the bundle finally working for the company.</li>
         <li><strong>Cleaner, focused portfolio</strong> — insurance exit and retail consolidation leave a purer three-leg building-materials story to re-rate.</li>
@@ -611,7 +612,7 @@
       <ul class="clean">
         <li><strong>Structurally thin margins</strong> — a bundle of second-in-category businesses averages to single-digit margin and erratic, sub-₹200 Cr profit.</li>
         <li><strong>Cyclical spread, not a moat</strong> — the FY26 gain rests on cement price and fuel cost, neither of which Prism controls, and both of which mean-revert.</li>
-        <li><strong>Rich multiple on tiny profit</strong> — ~48× on ~₹30 Cr net profit prices in a durable step-up; any cement-price softness re-rates it fast.</li>
+        <li><strong>Rich multiple on tiny profit</strong> — ~42× trailing earnings (13 Oct 2026) prices in a durable step-up; any cement-price softness re-rates it fast.</li>
         <li><strong>Morbi &amp; competition</strong> — tiles fight a two-front war on price and premium; cement is a regional minnow beside UltraTech and Adani.</li>
         <li><strong>Correlated downside</strong> — a construction slowdown hits all three legs together, with no counter-cyclical business to cushion the group.</li>
       </ul>
@@ -635,7 +636,7 @@
     <li>Business Standard — Prism Johnson quarterly results and share-price coverage (FY25–FY26).</li>
     <li>Prism Johnson / Prism Cement corporate pages — Satna capacity (~5.6 MTPA), grinding-unit tie-ups, WHRS &amp; solar power, company history.</li>
     <li>H&amp;R Johnson India / Prism Johnson HRJ pages — brand portfolio (Marbonite, Endura, Porselano, Marble &amp; Quartz), ~900 dealers, experience centres, Panagarh plant.</li>
-    <li>TipRanks / ScanX — Prism Johnson completes exit from Raheja QBE General Insurance joint venture (2026).</li>
+    <li>TipRanks / ScanX — Prism Johnson completes exit from Raheja QBE General Insurance joint venture (2026). Q1 FY27 investor update (Aug 2026); BSE filings (KUS Renewable, CESTAT); screener (13 Oct 2026).</li>
     <li>Peer references — Kajaria Ceramics, Somany Ceramics and UltraTech Cement financials (approximate, for competitive context), via screener.in.</li>
   </ol>
   <p class="disc">This primer is an educational, plain-English explainer compiled from public sources and is <strong>not investment advice, a recommendation, or a solicitation</strong> to buy or sell any security. Figures are approximate, drawn from company disclosures and third-party reports as of FY26 (year ended March 2026), and may contain errors or become outdated; segment figures are shown before eliminations and peer comparisons are illustrative approximations. Verify all numbers against primary sources before relying on them. The author holds no position and expresses no view on the stock's suitability for any investor.</p>
