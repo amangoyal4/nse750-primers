@@ -6,7 +6,6 @@ done 2026-10-13T15:12Z. Branch `claude/ss-realty`. Report: `subsectors/realty.ht
 `GATE PASSED: 27/27 checks · 25586 prose words · 36128 total words · 379 KB`
 
 ## Audit totals (vs hospitals.html benchmark)
-## Totals vs target and benchmark
 | Measure | This report | Target (tier A) | Benchmark | OK |
 |---|---|---|---|---|
 | Running prose (p/li words) | 25586 | 17000 | 19815 | ✅ |
@@ -22,7 +21,6 @@ done 2026-10-13T15:12Z. Branch `claude/ss-realty`. Report: `subsectors/realty.ht
 | Profile cards | 19 | 19 | 13 | ✅ |
 | File size (KB) | 379 | — | 299 | — |
 
-**Chart mix:** 49 bar charts · 11 stacked share bars · 4 positioning maps · 4 flow diagrams · 1 timelines · 1 heat-map tables
 **Chart mix:** 49 bar charts · 11 stacked share bars · 4 positioning maps · 4 flow diagrams · 1 timeline · 1 heat-map table. **Profile cards:** 19, 171–193 words each (median 182).
 The audit's informational notes: p17 (company cards) and p20 (bull/bear) have no chart or table, which is expected for those sections.
 
