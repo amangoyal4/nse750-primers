@@ -285,3 +285,94 @@
 - **The richest multiple in batch 2: 91× TTM P/E and about 65× EV/EBITDA (13-Oct-26)**, against an 18–19% margin business with only about 1× order-book cover. The price assumes the export shortage lasts.
 
 ---
+## 4. Atlanta Electricals (NSE: ATLANTAELE, BSE: 544527)
+
+**Identity and status.**
+- Listed **September 2025** through an IPO of about ₹687 cr: ₹400 cr fresh issue [V Q4 FY26 transcript] plus an OFS, at ₹754 a share [K primer/RHP; not re-fetched].
+- Based in Anand, Gujarat. Makes power, auto and inverter-duty transformers from 5 MVA / 11 kV up to 500 MVA / 765 kV.
+- **Management** [V Q1 FY27 deck BSE f61230f1, transcript BSE 194200e4]:
+  - **Niral Krupeshbhai Patel**: Chairman & Managing Director.
+  - Amish K. Patel and Tanmay S. Patel: Whole-time Directors.
+  - **Akshaykumar B. Mathur**: CEO.
+  - **Anand Sharma**: COO.
+  - **Mehul S. Mehta**: CFO.
+- **Fiscal year:** April–March.
+- **Basis:** screener consolidated (https://www.screener.in/company/ATLANTAELE/consolidated/, fetched 13-Oct-26 17:37 UTC).
+- **Q2 FY27 is not out.** The trading window closed on 25-Sep-26. A JP Morgan-led plant visit was held on 23-Sep-26, and the AGM on 21-Sep-26 [V screener document list].
+- **Corporate action pending:** management said it will be "commencing the procedure of **merging Atlanta Trafo Limited with Atlanta Electricals Limited**" [V Q4 FY26 transcript]. Atlanta Trafo is a 100% subsidiary, so this is an intra-group merger with no listed-entity change; no scheme had been seen filed.
+- **Minimum-public-shareholding flag:** the promoter holds **87.28%**, so the public float is 12.72%. Under SCRR rule 19A, the company must reach 25% public shareholding within 3 years of listing, i.e. by about Sep-2028 [K]. That means a promoter sell-down or dilution of roughly 12 points is ahead.
+
+### Financials (screener consolidated [V])
+| ₹ cr | FY24 | FY25 | FY26 | TTM (Jun-26) |
+|---|---|---|---|---|
+| Sales | 868 | 1,244 | **1,852** (+48.8%) | 2,003 |
+| Operating profit | 119 | 194 | 345 | 373 |
+| OPM | 14% | 16% | **18.6%** | 19% |
+| Interest | 30 | 34 | 57 | 55 |
+| PAT | 64 | 119 | **202** (+70%) | 217 |
+| CFO | 88 | 84 | **184** | – |
+
+- **Company basis** [V Q4 FY26 transcript BSE 0a8f3f46]:
+  - FY26 revenue ₹1,851.5 cr (+48.8%). **EBITDA ₹344.4 cr = 18.6%**, which **excludes other income** and so equals screener OP. PAT ₹201.8 cr.
+  - Q4 FY26: revenue ₹747.6 cr (+81.7%), EBITDA 20.0%, PAT ₹102.2 cr.
+  - The 220 kV class was about 52% of FY26 revenue.
+- **Q1 FY27 (Jun-26)** [V deck and transcript, call 22-Jul-26]:
+  - Revenue **₹466.3 cr (+48.0% YoY; −37.6% QoQ)**. Gross margin 27.3% (26.0% a year earlier).
+  - **EBITDA ₹77.1 cr = 16.5%** (15.5% a year earlier; 20.0% in Q4).
+  - **PAT ₹46.8 cr (+50.4%).** Depreciation rose to ₹10.1 cr from ₹2.4 cr as Vadod and Atlanta Trafo came on.
+  - **MVA sold: 4,381** (3,605 in Q1 FY26).
+- **Balance sheet (Mar-26)** [V screener schedules]:
+  - Borrowings ₹51 cr: short-term (working capital) ₹43.5 cr, lease ₹4.1 cr, long-term ₹3.1 cr.
+  - Cash ₹100 cr + investments ₹13 cr, so **net cash ≈ ₹62 cr** [E].
+  - Company: **all term loans (₹340 cr: Vadod ₹130 cr plus BTW acquisition ₹210 cr) were repaid by 31-Mar-26** [V].
+  - IPO use: ₹395.5 cr of the ₹400 cr deployed — ₹79 cr Vadod loan repayment, ₹210 cr working capital, ₹85 cr BTW loan (under general corporate purposes), ₹21 cr issue expenses.
+  - Credit rating CRISIL A/Stable, A1. The Q1 deck notes an upgrade to A/Stable. Bank lines were raised to ₹1,320 cr.
+- **Working capital:**
+  - Screener FY26: debtor days 84, inventory 102, payable 112, **WC days 55**.
+  - **Company, Jun-26: NWC 72 days** (inventory 105, receivables 88, payables 110); cash-conversion cycle about 83 days [V].
+- **Valuation (13-Oct-26 close) [V]:**
+  - M-cap **₹14,251 cr**; price ₹1,852; 52-week high/low ₹2,200 / ₹708. The IPO price was ₹754 [K].
+  - **P/E 65.3** (TTM). Book value ₹121, so P/B is 15.3× [E].
+  - ROCE 45.3%, ROE 31.7%. No dividend.
+  - EV ≈ 14,251 + 51 − 113 = ₹14,189 cr. **EV/EBITDA ≈ 38×** on TTM OP of ₹373 cr [E].
+
+### Native KPIs
+- **Order inflow:** **Q1 FY27 ₹972.4 cr, the highest ever.** It included **RVPNL ₹291.7 cr** (160/50/31.5 MVA units) and **PSTCL ₹285.2 cr**. **FY26 inflow was ₹2,507 cr** [V transcripts].
+- **Order book:** ₹1,584 cr (Jun-25) → **₹2,493 cr (Mar-26)** → **₹3,116.6 cr (Jun-26; +25% QoQ, +97% YoY)** [V deck].
+  - **The 220 kV class is above 55% of the order book. 400 kV transformers and reactors account for about ₹275 cr.**
+  - Management expects about ₹2,400 cr of the book to be executed in FY27 [V].
+- **Cover and conversion [E]:**
+  - Order book / TTM revenue = 3,117 / 2,003 = **1.56×**.
+  - **Book-to-bill:** 2.09 in Q1 FY27 and 1.35 in FY26.
+  - **Execution rate:** Q1 revenue / opening order book = 466 / 2,493 = **18.7% per quarter**.
+- **Mix (Q1 FY27 revenue):**
+  - By product: **power transformers 79%**; auto, inverter-duty and other transformers make up the rest.
+  - By sector: **T&D 66%**; renewables (solar, wind, hybrid) about 20%; generation, thermal and other about 14% [V; the deck chart is partly garbled].
+  - Customers span 19 states and 3 UTs, mainly state utilities (GETCO, RVPNL, PSTCL and others), plus private renewable developers and EPC companies.
+- **Capacity: 63,060 MVA installed across five plants** [V Q1 deck]:
+  - Anand Unit I: 9,360 MVA (50–200 MVA / 220 kV).
+  - Anand Unit II: 6,660 MVA (10–40 MVA / 132 kV, inverter-duty).
+  - Bengaluru: 720 MVA.
+  - **Vadod: 30,540 MVA** (commercial production from Jul-2025).
+  - **Atlanta Trafo (Ankhi): 15,780 MVA.** Formerly BTW Atlanta, the 90:10 JV of China's Baoding Tianwei Baobian (BTW) and the Atlanta promoters. Atlanta bought BTW's 90% and the promoter LLP's 10% (Atlanta UHV Transformers LLP, a related-party leg), at **an EV of about ₹260 cr including about ₹80 cr of debt**. The plant was already producing in Q3 FY26: 580 MVA in about three months.
+  - **Approvals:** PGCIL approval for transformers **up to 400 kV at Vadod came on 2-Apr-2026**, subject to short-circuit testing. The **765 kV PGCIL approval is expected "end of second quarter"** after a technical-partner agreement closes [V Q1 transcript].
+  - Mainstream 400 kV production starts next year; 400 kV ramp-up capacity is about 30,000 MVA.
+- **Expansion:**
+  - A dedicated **inverter-duty plant adding about 5,000 MVA, to be commissioned by end-CY2026**.
+  - **Tank and radiator backward integration** next to Vadod.
+  - Both are funded from internal accruals. The board has approved a standby term loan [V].
+- **Exports:** the first sizeable export order came in FY26. **The medium-term target is about 15% of revenue**, from Europe, Africa and to some extent the US [V].
+- **Ownership (Sep-26) [V screener]:** promoter **87.28%**, FIIs 1.45% (2.40% in Mar-26), DIIs 4.97%, public 6.30%. Shareholders numbered 49,435.
+- **Guidance:**
+  - **About 40% revenue CAGR for three years** (from listing), "with stable margins".
+  - Q1 call: "when we went public, the margins were at about 16%, 16.5% and we intend to stick to that guideline".
+  - Q4 FY26 call: an 18–20% EBITDA band was discussed.
+  - The margin guidance is therefore loose: **16–20%**.
+
+### Story bullets
+- **A capacity-led compounder.** Capacity went from about 17,000 MVA in FY25 to 63,060 MVA by acquiring BTW's plant and building Vadod. FY26 revenue rose 49% and Q1 FY27 rose 48%. The order book is a record ₹3,117 cr after a record ₹972 cr Q1 inflow from state transmission utilities.
+- **Moving up voltage classes is the rerating trigger:** 400 kV approval was received in Apr-26, 765 kV approval is expected around Q2 FY27, and 400 kV production is mainstream from FY28. Atlanta Trafo's Chinese-JV heritage (BTW) and the promoter-LLP leg of that acquisition are diligence points.
+- **The balance sheet is clean after the IPO:** term debt is nil and there is about ₹62 cr of net cash. But the **87.28% promoter stake means about 12 points must be sold down by about Sep-2028** under the minimum-public-shareholding rule. That is a supply overhang.
+- **At 65× TTM P/E and about 38× EV/EBITDA (13-Oct-26), the stock is 2.5× its IPO price.** Q1 margin normalised to 16.5% from Q4's 20%.
+
+---
