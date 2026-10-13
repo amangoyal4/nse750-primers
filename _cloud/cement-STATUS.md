@@ -63,7 +63,7 @@ De-duplicated (12 groups): revenue ₹2,33,081 Cr · EBITDA ₹42,306 Cr · PAT 
 - **Not found anywhere:** an authoritative end-FY26 all-India capacity; export volumes; North/West/Central price series; NCLT final sanction of the Ambuja mergers; the cartel-appeal outcome; a completed Heidelberg India sale.
 - **Data-quality catch:** the ACC primer's "₹13,500 Cr net cash" was screener's Other Assets line (₹13,987 Cr). The orchestrator re-fetched and confirmed this; company cash was ₹918 Cr at Mar-26.
 
-## Primer audit (after fixes) — 15/15 pass hard checks; 188 content fixes, plus shared fixes in every primer (CSS min-width, refresh date, Q1 FY27 What's new line, GST cut, m-cap/P/E/P/B as of 13 Oct 2026, banned phrases)
+## Primer audit (after fixes) — 15/15 pass hard checks; 178 content fixes, plus shared fixes in every primer (CSS min-width, refresh date, Q1 FY27 What's new line, GST cut, m-cap/P/E/P/B as of 13 Oct 2026, banned phrases)
 | Primer | Logical fixes | Edit operations |
 |---|---|---|
 | ultratech-cement | 14 | 26 |
