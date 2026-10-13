@@ -78,7 +78,7 @@ Derived: combined P/E 17.7× FY26 standalone PAT; P/B 2.13× Mar-26 standalone n
 
 ## 5. Industry structure and concentration
 - 19 listed members in this sub-sector; listed private banks outside it include AU Small Finance Bank (received in-principle approval to convert to a universal bank in 2025 [K]) and other SFBs (Equitas, Ujjivan) — they compete for the same depositors.
-- **Concentration (19 banks):** HDFC Bank 32.5% of combined deposits and 31.6% of m-cap; ICICI 18.8% / 27.9%; Axis 14.0% / 11.3%; Kotak 6.0% / 12.5%. Top-4 = 71.3% of deposits and 83.3% of m-cap [V screener, E arithmetic].
+- **Concentration (19 banks):** HDFC Bank 32.5% of combined deposits and 31.6% of m-cap; ICICI 18.8% / 27.9%; Axis 14.0% / 11.3%; Kotak 6.0% / 12.5%. Top-4 = 71.2% of deposits and 83.3% of m-cap [V screener, E arithmetic].
 - **Three tiers [E]:** (a) Big 4 (HDFC, ICICI, Axis, Kotak) — ₹5.7–31 lakh Cr deposits, RoA 1.4–2.2%; (b) mid-size universal banks (IDBI, Federal, Yes, IndusInd, IDFC First, RBL, Bandhan) — ₹1.4–4.0 lakh Cr deposits, RoA 0.2–2.2%, mostly in recovery or ownership transition; (c) old private regional banks (KVB, CUB, TMB in Tamil Nadu; SIB, CSB, Federal in Kerala; Karnataka Bank; J&K Bank; DCB) — ₹0.4–1.7 lakh Cr deposits, high CRAR, regional concentration, gold-loan heavy in the south.
 - **Ownership is changing fast — foreign strategic capital arrives (2025–26):** SMBC up to 24.99% of Yes Bank (RBI approval 22 Aug 2025; ~24.2% in Oct 2025; not a promoter) [V-secondary]; Emirates NBD 60% of RBL Bank (US$2.75 bn / ~₹26,000 Cr preferential issue at ₹280, completed 18 Jun 2026; promoter) [V RBL PR]; Blackstone (Asia II Topco XIII) 9.99% of Federal Bank via ₹6,196 Cr warrants at ₹227 (RBI approval 5 Feb 2026, CCI Dec 2025) [V-secondary]; Warburg + ADIA ₹7,500 Cr CCPS in IDFC First (Apr 2025) [K]; Fairfax selected/front-runner for 60.72% of IDBI Bank at ₹81/share ≈ ₹53,000 Cr (~US$5.5 bn), approvals pending (BS 14 Jul 2026; multiple outlets Jun–Jul 2026) [V-secondary]; LIC approved to go to 9.99% of HDFC Bank (RBI, 19 Aug 2026; LIC at 4.11%) [V HDFC filing]; ICICI Prudential AMC approved to hold up to 9.99% in CSB and DCB (Sep 2026 filings) [V].
 - **Imports/China:** not applicable; the "foreign competition" is foreign banks (Citi sold its India consumer business to Axis, Mar 2023 [K]; DBS took Lakshmi Vilas in 2020 [K]) and foreign capital buying stakes (above).
@@ -264,3 +264,232 @@ Sensitivities: NIM ±10 bp → PAT ±₹69 Cr (±4.4%); credit cost +50 bp → P
 - IDBI privatisation: no evidence of a signed SPA or cabinet approval as of 13 Oct 2026.
 - Blackstone warrant conversion status at Federal (allotment confirmed? — not verified).
 - Global bank RoA/P/B comparisons are [K] approximations.
+
+---
+
+## Company packs (lender format)
+Basis for every pack: FY26 standalone P&L and Mar-26 balance sheet from screener.in (fetched 13 Oct 2026) [V]; NII = interest earned − interest expended (screener "Revenue" − "Interest"); RoA/RoE computed on average FY25–FY26 balances [E]; P/B = price ÷ screener standalone book value per share; Q1 FY27 metrics from the bank's own press release / investor presentation filed on NSE [V] unless marked. All m-caps as of 13 Oct 2026 (screener). Cost-of-funds proxy = interest expended ÷ average (deposits + borrowings) [E].
+
+### 1. HDFC Bank (HDFCBANK · BSE 500180) — the post-merger giant
+- **Scale (Mar-26, standalone):** total assets ₹43.65 lakh Cr; deposits ₹31.05 lakh Cr (+14.4%); borrowings ₹4.89 lakh Cr (legacy HDFC Ltd bonds, falling from ₹7.31 lakh Cr in Mar-24); net worth ₹5.63 lakh Cr [V screener].
+- **FY26 P&L:** interest earned ₹3,07,522 Cr; NII ₹1,28,686 Cr (+4.9%); other income ₹62,533 Cr (incl. ~₹9,128 Cr HDB Financial IPO gain in Q1 FY26 [V-secondary]); PAT ₹74,671 Cr (+10.9%); consolidated PAT ₹79,219 Cr [V]. RoA ~1.80%, RoE ~14.0% [E].
+- **Q1 FY27 (Jun-26):** PAT ₹19,060 Cr (+5.0%; +9.8% ex HDB gain base); NII ₹33,534 Cr (+6.7%); NIM 3.26% on total assets / 3.40% on interest-earning assets (3.38% Q4 FY26) — lowest on record; gross advances ₹30.61 lakh Cr (+15.4%); advances under management +12.4% (retail +7.2%, SME/mid-market +18.7%); deposits ₹31.71 lakh Cr (+14.7%); CASA ₹10.25 lakh Cr = 32.3%; GNPA 1.17% (₹35,846 Cr), NNPA 0.41% (agri-ex GNPA 0.91%); slippages ~₹8,000 Cr; provisions ₹3,060 Cr; CAR 19.6%, CET1 17.4% (secondary); shares fell 4–5% on results [V-secondary BS/Investing.com].
+- **Q2 FY27 provisional (4 Oct 2026) [V]:** gross advances ₹32.20 lakh Cr (+16.3%); AUM ₹33.08 lakh Cr (+15.3%); deposits ₹33.28 lakh Cr (+18.8%); CASA ₹10.52 lakh Cr (+10.8%) → CASA ratio 31.6%; TDs +22.8%; FCNR(B) under RBI swap window US$11.5 bn (₹1,10,340 Cr), of which US$5.7 bn on-lent by overseas branches + US$3.1 bn SBLCs; US$2.5 bn senior bonds raised Jun–Aug 2026. Gross advances/deposits 96.8%.
+- **Market (13 Oct 2026):** price ₹714 (post 1:1 bonus of Aug 2025); m-cap ₹11,01,904 Cr; P/E 14.6× standalone (14.0× consolidated); BV ₹375 → P/B 1.90×; dividend yield 1.82%; 52-week range ₹682–1,020 (~30% fall in 2026) [V screener; V-secondary].
+- **Ownership (Sep-26):** no promoter; FIIs 39.39% (48.84% Jun-25; five straight quarterly declines), DIIs 43.44%, public 16.96%; LIC approved to 9.99% (holds 4.11%, 14 Aug 2026) [V].
+- **Leadership/governance:** chairman Atanu Chakraborty resigned 18–19 Mar 2026 citing ethical concerns; Keki Mistry interim part-time chairman [V-secondary]. Sashidhar Jagdishan's term ends 26 Oct 2026; RBI approved Anup Bagchi (ex-ICICI) as MD & CEO for 3 years from 27 Oct 2026 — first outsider CEO [V-secondary]. MSRDC deposit arrangement (2017, 2021) review: "business overreach", warning letters and ₹1 lakh penalties for MD & CEO, CFO, Group Head Retail Assets (Board 23 Jul 2026) [V]. Board proposals 12 Sep 2026: Rangan re-appointed ED to Nov 2027; Jimmy Tata as ED; fourth WTD post [V].
+- **Story:** (1) LDR repair: ~110% at merger (Jul 2023) → ~95% (Mar-26) → 96.8% (Sep-26 incl. FCNR); (2) margin squeeze — CASA ratio down ~6 pp in three years; (3) subsidiaries (HDB listed Jul 2025, HDFC Life, ERGO, AMC) give consolidated RoE ~13.6%; (4) new CEO and chairman search — the stock de-rated to ~1.9× book, the lowest in its listed history except 2020 [K].
+
+### 2. ICICI Bank (ICICIBANK · 532174) — the profitability leader
+- **Scale:** total assets ₹23.73 lakh Cr; deposits ₹17.95 lakh Cr (+11.4% FY26); borrowings ₹1.25 lakh Cr; net worth ₹3.37 lakh Cr [V].
+- **FY26:** NII ₹88,075 Cr (+8.5%); other income ₹30,758 Cr; PAT ₹50,147 Cr (+6.2%); consolidated ₹57,936 Cr; NIM 4.32% (FY26); RoA ~2.23%, RoE ~15.9% [V/E].
+- **Q1 FY27 [V IP]:** PAT ₹14,805 Cr (+15.9% YoY, +8% QoQ); core operating profit ₹20,235 Cr (+15.6%); PBT ex-treasury ₹18,975 Cr (+20.9%); NIM 4.36%; cost of deposits 4.41% (4.85% a year ago); RoA 2.49%, RoE 17.1%. Advances ₹16.31 lakh Cr (+19.6%): retail ₹8.07 lakh Cr (+12.0%; mortgages ₹5.13 lakh Cr, PL ₹1.36 lakh Cr, cards ₹53,206 Cr −1.9%), business banking ₹3.50 lakh Cr (+28.2%), rural ₹1.04 lakh Cr (+35.4%), domestic corporate ₹3.27 lakh Cr (+18.5%), overseas ₹50,275 Cr (+52.5%). Deposits ₹18.34 lakh Cr (+14.0%); CASA ₹7.24 lakh Cr = 39.5% (CA 13.5%, SA 26.0%); avg CASA ratio 38.1%. GNPA ₹23,847 Cr = 1.38%; NNPA 0.35%; PCR 74.7%; contingency provisions ₹13,100 Cr; total non-NPA provisions ₹22,963 Cr (1.4% of advances); CET1 16.19%, CAR 16.84%. Loan pricing: 57% EBLR, 30% fixed, 13% MCLR. LDR ~89% [E].
+- **Market:** price ₹1,360; m-cap ₹9,72,861 Cr; P/E 18.6×; BV ₹489 → P/B 2.78×; 52-week ₹1,188–1,480 [V].
+- **Ownership (Jun-26):** no promoter; FIIs 33.79%, DIIs 42.32%, public 23.68% [V].
+- **Leadership:** Sandeep Bakhshi MD & CEO since 2018; RBI approved a further two-year term (May 2026, secondary) [V-secondary]. Results media call for Q2 FY27 scheduled (12 Oct 2026 filing) [V].
+- **Story:** best-in-class RoA; business banking and rural are the growth engines; cards de-emphasised; ICICI Pru AMC listed Dec 2025 [K primer]; subsidiaries add ~₹7,800 Cr to consolidated PAT.
+
+### 3. Axis Bank (AXISBANK · 532215) — the corporate-tilted universal bank
+- **Scale:** total assets ₹18.87 lakh Cr; deposits ₹13.36 lakh Cr (+13.9%); borrowings ₹2.35 lakh Cr; net worth ₹2.06 lakh Cr [V].
+- **FY26:** NII ₹56,048 Cr (+3.1%); other income ₹26,131 Cr; PAT ₹24,457 Cr (−7.3%) — higher provisions incl. one-time ₹2,001 Cr "West Asia" standard-asset buffer in Q4 FY26; consolidated ₹26,548 Cr [V].
+- **Q1 FY27 [V PR]:** PAT ₹7,114 Cr (+23%); NII ₹14,646 Cr (+8%); NIM 3.46% (−34 bp YoY, −16 bp QoQ; "cycle bottom"); core operating profit ₹11,122 Cr (+10%); cost-to-assets 2.20%; fees ₹6,156 Cr (+7%). Advances ₹12.62 lakh Cr (+19%): retail ₹6.76 lakh Cr (54%, +8%; secured ~73%; home loans 26% of retail), SME ₹1.52 lakh Cr (+25%), corporate +38%, mid-corp +27%; SBB+SME+MC 24% of loans. Deposits ₹13.73 lakh Cr (+18%); CASA 38% period-end (40% a year ago), 37% average; TD +23%. GNPA 1.28%, NNPA 0.39%, PCR 70% (161% incl. all provisions); gross slippage 1.79%, net credit cost 0.63%; cumulative standard+additional provisions ₹15,608 Cr (1.24% of loans); CET1 14.64%, CAR 16.67%; LCR ~119%; RoA 1.51%, RoE 14.16% (consolidated 14.52%). Market share: assets 5.4%, deposits 5.1%, advances 5.7%; UPI payer ~38%; cards in force ~13.4%; 6,295 branches; ~54 mn customers; 1,00,700 employees. Burgundy wealth AUM ₹7.54 lakh Cr (+20%). Axis Finance ₹2,250 Cr capital raise (Axis + Kedaara).
+- **Market:** ₹1,268; m-cap ₹3,94,008 Cr; P/E 15.3×; BV ₹681 → P/B 1.86× [V].
+- **Ownership (Sep-26):** "promoter" (SUUTI/LIC classification) 7.86%, FIIs 38.05%, DIIs 44.54%, public 9.53% [V screener].
+- **Story:** Citi integration complete (2023); corporate re-acceleration; NIM troughing; MD & CEO Amitabh Chaudhry; independent director Arvind Subramanian appointed Sep 2026 [V NSE filing].
+
+### 4. Kotak Mahindra Bank (KOTAKBANK · 500247) — the over-capitalised conglomerate
+- **Scale:** total assets ₹7.83 lakh Cr; deposits ₹5.72 lakh Cr (+14.7%); net worth ₹1.35 lakh Cr [V].
+- **FY26:** NII ₹30,010 Cr (+5.9%); PAT ₹14,008 Cr (−14.8%; FY25 included a general-insurance stake-sale gain); consolidated PAT ₹19,288 Cr; NIM 4.60% (primer) [V].
+- **Q1 FY27 [V PR]:** standalone PAT ₹4,123 Cr (+26%); consolidated ₹5,480 Cr (+23%); NII ₹7,928 Cr (+9%); NIM 4.53% (4.67% Q4; 4.65% Q1 FY26); cost of funds 4.46% (5.01%); fees ₹2,500 Cr; opex ₹5,135 Cr; cost-to-assets 2.66%; credit cost 0.46% (0.93%); net advances ₹5.12 lakh Cr (+15%); customer assets ₹5.71 lakh Cr (+16%); deposits ₹5.73 lakh Cr (+12%); avg deposits +14%; CASA 40.3% (40.9%); CD ratio 89.4%; GNPA 1.18%, NNPA 0.27%, PCR 78%; RoA 2.14%, RoE 11.98%; CAR 22.8%, CET1 22.4%; LCR 144%; 5.0 crore customers. Subsidiary PAT Q1: Securities ₹533 Cr, AMC ₹399 Cr, Prime ₹354 Cr, Life ₹336 Cr; Q4 FY26 Infina divestment gain ₹1,094 Cr. 5-for-1 split effective 14 Jan 2026; consolidated BVPS ₹189.
+- **Market:** ₹439; m-cap ₹4,37,106 Cr; P/E 29.4× standalone (~22× consolidated: 4,37,106 ÷ ₹20,296 Cr TTM cons PAT [E]); standalone BV ₹136 → P/B 3.23× (2.3× on consolidated BV ₹189) [V/E].
+- **Ownership (Jun-26):** promoters (Uday Kotak & family) 25.87%, FIIs 25.21%, DIIs 37.71%, public 11.20% [V].
+- **Leadership:** Ashok Vaswani's term ends 31 Dec 2026 (personal reasons); RBI approved Anup Kumar Saha (joined Jan 2026 as ED) as MD & CEO from 1 Jan 2027 [V-secondary]. RBI digital curbs (Apr 2024) lifted 12 Feb 2025 [K].
+- **Story:** highest CET1 among large banks — capital "dry powder" that depresses RoE; premium P/B rests on group franchise; third CEO in ~3 years.
+
+### 5. IDBI Bank (IDBI · 500116) — the privatisation candidate
+- **Scale:** total assets ₹4.67 lakh Cr; deposits ₹3.47 lakh Cr (+11.9%); net worth ₹67,637 Cr [V].
+- **FY26:** NII ₹13,511 Cr (−7.6%); other income ₹6,746 Cr (incl. tax refunds/recoveries); PAT ₹9,513 Cr (+26.6%); RoA ~2.17%, RoE ~14.9% [V/E].
+- **Q1 FY27 [V PR]:** PAT ₹2,115 Cr (+5%); total business ₹5.85 lakh Cr (+15%); deposits ₹3.26 lakh Cr (+10%); net advances ₹2.59 lakh Cr (+22%); CASA ₹1.42 lakh Cr = 43.6%; CoD 4.59%, CoF 4.68%; NIM 3.61%; GNPA 2.30%, NNPA 0.16%, PCR 99.31% (incl. TWO; >99% since Sep-23); RoA 1.89%; CRAR 26.92%; retail:corporate 70:30. Q2 provisional: total business ₹6.27 lakh Cr (+18%), net advances ₹2.72 lakh Cr (+18%) [V].
+- **Market:** ₹82.9; m-cap ₹89,213 Cr; P/E 9.3×; BV ₹62.9 → P/B 1.32×; 52-week ₹61–118 [V].
+- **Ownership (Jun-26):** promoters 94.72% (LIC 49.24%, GoI 45.48%) — public float only ~5.3% [V screener; K split].
+- **Privatisation:** GoI 30.48% + LIC 30.24% = 60.72% on sale with management control; EoI Oct 2022; financial bids Feb 2026 (Kotak did not bid); revised bids Jul 2026 from Fairfax and Emirates NBD; Fairfax reportedly selected at ~₹81/share ≈ ₹53,000 Cr (~US$5.5 bn), largest-ever foreign investment in an Indian bank; cabinet, RBI fit-and-proper, CCI approvals and SPA pending; open offer for public shareholders to follow [V-secondary BS/IBEF/Kotak Neo, Jun–Jul 2026]. Fairfax reportedly committed IDBI would be its only Indian bank → likely exit from CSB.
+- **Story:** clean balance sheet (NNPA 0.16%) and surplus capital make it the most attractive "control" asset in Indian banking; NIM normalising downward as tax-refund-driven income fades.
+
+### 6. Federal Bank (FEDERALBNK · 500469) — the NRI franchise gets a growth plan
+- **Scale:** total assets ₹3.88 lakh Cr; deposits ₹3.14 lakh Cr (+10.7%); net worth ₹38,705 Cr [V].
+- **FY26:** NII ₹10,657 Cr (+12.6%); PAT ₹4,117 Cr (+1.6%; best-ever); consolidated ₹4,491 Cr [V].
+- **Q1 FY27 [V PR]:** PAT ₹1,177 Cr (+36.6%; record); NII ₹2,946 Cr (+26.1%); NIM 3.33% (+39 bp YoY); CoD 5.21% (−57 bp); fee income +21.7%; deposits ₹3.20 lakh Cr (+11.4%); gross advances ₹2.81 lakh Cr (~+15%); CASA ₹1.03 lakh Cr (+18.3%) = 32.23%; NR deposits ₹1.05 lakh Cr (+14.2%); GNPA 1.52%, NNPA 0.18% (decadal low), PCR 87.4% (94.2% incl. TWO); credit cost 0.41%; RoA 1.22%, RoE 12.01%; gold loans +33%, cards +36%, CV/CE +21%, LAP +21%.
+- **Market:** ₹330; m-cap ₹81,417 Cr; P/E 18.4×; BV ₹157 → P/B 2.10×; 52-week ₹212–372 [V].
+- **Ownership (Jun-26):** no promoter; FIIs 27.71%, DIIs 49.27%, public 23.00% [V]. Blackstone (Asia II Topco XIII) ₹6,196 Cr preferential warrants at ₹227 (25% upfront, 18-month conversion) → 9.99% on conversion; CCI Dec 2025, RBI 5 Feb 2026 [V-secondary]. Fund-raising disclosure 17 Jul 2026; US$500 mn MTN programme (18 Sep 2026); Virat Diwanji appointed ED (28 Sep 2026) [V NSE filings].
+- **Story:** CEO KVS Manian (ex-Kotak) pushing into higher-yield retail; Blackstone money funds the push; NIM recovering as CoD falls.
+
+### 7. Yes Bank (YESBANK · 532648) — the SMBC-anchored turnaround
+- **Scale:** total assets ₹4.69 lakh Cr; deposits ₹3.19 lakh Cr (+12.1%); borrowings ₹64,864 Cr; net worth ₹51,062 Cr [V].
+- **FY26:** NII ₹9,776 Cr (+9.3%); other income ₹6,759 Cr; PAT ₹3,476 Cr (+44.5%); RoA ~0.78%, RoE ~7.0% [V/E].
+- **Q1 FY27 [V PR]:** PAT ₹1,071 Cr (+33.7%); NIM 2.7% (2.5%); C/I 62.8%; RoA 0.9%; net advances ₹2.85 lakh Cr (+18.3%); deposits ₹3.15 lakh Cr (+14.3%); CASA ₹1.03 lakh Cr = 32.7% (35.1% Q4); retail & branch-led deposits 59.2%; GNPA 1.3%, NNPA 0.2%, PCR 81.7%; gross slippage ₹964 Cr; net credit cost 0.3% of assets; CET1 14.0%; rating upgrades Moody's/CARE/ICRA, first S&P rating. MD & CEO Vinay M. Tonse.
+- **Q2 FY27 provisional [V]:** advances ₹3.10 lakh Cr (+23.8%; +17.7% ex GIFT City FCTL); deposits ₹3.54 lakh Cr (+19.5%; +13.2% ex FCNR); CASA 30.0% (31.7% ex FCNR); CD ratio 87.5% (83.2% normalised); LCR 131%.
+- **Market:** ₹20.8; m-cap ₹65,512 Cr; P/E 17.5×; BV ₹16.7 → P/B 1.25× [V].
+- **Ownership (Jun-26):** no promoter; FIIs 46.12% (incl. SMBC ~24.2–24.99%), DIIs 24.04%, public 29.83% [V screener; V-secondary]. RBI approval (22 Aug 2025) for SMBC up to 24.99%, not a promoter; SMBC "not looking" beyond 24.99% (Oct 2025) [V-secondary].
+- **Story:** low NIM (2.7%) is the structural problem — high-cost legacy deposits and RIDF/PSL drag; RoA target ~1%; SR (security receipt) gains fading.
+
+### 8. IndusInd Bank (INDUSINDBK · 532187) — the governance repair
+- **Scale:** total assets ₹5.43 lakh Cr; deposits ₹4.00 lakh Cr (−2.7%); net worth ₹65,440 Cr [V].
+- **FY26:** NII ₹17,983 Cr (−5.5%); PAT ₹933 Cr standalone (−64.7%) / ₹889 Cr consolidated; quarterly path: Q1 ₹684 Cr, Q2 −₹445 Cr, Q3 ₹161 Cr, Q4 ₹533 Cr [V screener].
+- **Q1 FY27 [V PR/IP]:** PAT ₹1,037 Cr (+72%, consolidated); NII ₹4,685 Cr; NIM 3.57% (3.46%); CoF 5.05% (5.69%); PPOP ₹2,773 Cr; deposits ₹4.15 lakh Cr (+4.4%); CASA ₹1.22 lakh Cr = 29.43%; retail deposits (LCR) ₹1.90 lakh Cr; advances ₹3.26 lakh Cr (−2.2% YoY): VF ₹99,718 Cr (31%), rural/MFI ₹31,417 Cr (−26%), consumer ₹31,617 Cr, SME ₹43,295 Cr, large corporates ₹54,187 Cr (+16% QoQ); GNPA 3.25%, NNPA 0.95%, PCR 71.4%; CRAR 17.15%, Tier-1 16.10%; LCR 127%; 3,137 branches; 42 mn customers; BFIL (MFI subsidiary) branches 3,348.
+- **Market:** ₹877; m-cap ₹68,366 Cr; P/E 54.6× (depressed EPS); BV ₹840 → P/B 1.04×; 52-week ₹726–1,078 [V].
+- **Ownership (Jun-26):** promoters (Hinduja/IIHL) 15.82%, FIIs 29.17%, DIIs 41.86%, public 12.76% [V].
+- **Crisis (2025):** forex-derivative internal-trade accounting (2017–24) — adverse impact ~₹1,960 Cr at 31 Mar 2025 (PwC ₹1,979 Cr); Grant Thornton forensic; CEO Sumant Kathpalia resigned 29 Apr 2025 (Deputy CEO Arun Khurana too); Q4 FY25 consolidated loss ₹2,329 Cr; Rajiv Anand (ex-Axis) MD & CEO from 25 Aug 2025; Arijit Basu part-time chairman from Jan 2026 (per primer) [V-secondary/K].
+
+### 9. IDFC First Bank (IDFCFIRSTB · 539437) — the retail build-out, profitability arriving
+- **Scale:** total assets ₹4.00 lakh Cr; deposits ₹2.94 lakh Cr (+16.8%); borrowings ₹36,621 Cr (legacy infra bonds); net worth ₹47,352 Cr [V].
+- **FY26:** NII ₹21,215 Cr (+10.0%); PAT ₹1,636 Cr (+7.3%); consolidated ₹1,611 Cr; NIM 5.75% (FY26, primer); Q4 included ~₹483 Cr post-tax branch-fraud hit (primer) [V/K].
+- **Q1 FY27 [V PR]:** PAT ₹1,075 Cr (+132.4%, record); loans incl. credit substitutes ₹3.05 lakh Cr (+20.6%); customer deposits ₹2.99 lakh Cr (+16.6%); CASA ₹1.58 lakh Cr = 50.8%; CoF 5.96% (6.42%); NIM 5.96% (5.71%); fee/avg assets 2.09%; provisions/avg loans 1.53% (2.69%); GNPA 1.51%, NNPA 0.44%; RoA 1.06%; CAR 15.05%, CET1 13.33%.
+- **Q2 FY27 provisional (5 Oct 2026) [V]:** FCNR(B) ₹34,390 Cr (~US$3.6 bn), ₹24,885 Cr "leveraged" via IBU; ex-FCNR loans ₹3.14 lakh Cr (+20.4%), deposits ₹3.24 lakh Cr (+17.0%), CASA 51.3%; incl. FCNR deposits ₹3.49 lakh Cr (+25.9%), CASA 47.6%; domestic CD ratio 89.9%; bulk TD share 13.9% (17.1% Jun); LCR 125%.
+- **Market:** ₹78.8; m-cap ₹68,064 Cr; P/E 30.3×; BV ₹56.1 → P/B 1.40× [V].
+- **Ownership (Jun-26):** no promoter; FIIs 36.10%, DIIs 24.35%, Government 7.79% (legacy IDFC Ltd), public 31.73% [V]. Warburg (Currant Sea) and ADIA (Platinum Invictus) ₹7,500 Cr CCPS (2025) [K].
+- **Story:** MD & CEO V. Vaidyanathan; highest CASA in the group; credit cost normalising after MFI stress → RoA crossing 1% for the first time.
+
+### 10. RBL Bank (RBLBANK · 540065) — Emirates NBD's Indian platform
+- **Scale (Mar-26):** total assets ₹1.81 lakh Cr; deposits ₹1.39 lakh Cr (+25.3%); net worth ₹16,605 Cr (pre-ENBD) [V].
+- **FY26:** NII ₹6,360 Cr (−1.6%); PAT ₹822 Cr (+18.3%) [V].
+- **Q1 FY27 [V PR]:** PAT ₹254 Cr (+27%); NII ₹1,654 Cr (+12%); NIM 4.13%; core fees ₹923 Cr (+16%); opex −8% YoY; C/I 64.7%; net advances ₹1.16 lakh Cr (+23%; retail:wholesale 55:45; secured retail +18%, unsecured +8%); deposits ₹1.25 lakh Cr (+11%); CASA 29.2% (avg 25.2%); granular deposits 52.4%; CAR 33.3%, CET1 32.2% (from 14.2%/12.8% at Mar-26); LCR 133%; GNPA 1.30%, NNPA 0.37%, PCR incl. TWO 94.9%. ENBD infused ~US$2.75 bn (~₹26,000 Cr) on 18 Jun 2026 by preferential issue; holds 60% and is classified as promoter; long-term rating upgraded to AAA.
+- **Q2 FY27 (results 12 Oct 2026) [V PR]:** PAT ₹482 Cr (+170%); NII ₹2,131 Cr (+37%); NIM 4.61%; credit cost 63 bp; net advances ₹1.42 lakh Cr (+42%; retail ₹79,465 Cr, wholesale ₹62,849 Cr +56%); secured retail +52%; deposits ₹1.56 lakh Cr (+34%); CASA 27.2% (avg 24.0%); granular deposits 44%; CAR 30.1%; GNPA 1.02%, NNPA 0.29%.
+- **Market:** ₹388; m-cap ₹59,906 Cr (on ~154 Cr shares post-issue); P/E 50.8× (trailing, pre-capital EPS); BV ₹278 → P/B 1.40× [V].
+- **Ownership (Sep-26):** promoter (ENBD) 59.88%, FIIs 8.70%, DIIs 18.51%, public 12.89% [V]. Open offer at ₹280 (Dec 12–26, 2025) for up to 26% [V-secondary].
+- **Story:** MD & CEO R. Subramaniakumar; transformation from capital-constrained mid-size bank to foreign-bank subsidiary with 30% CAR; growth now 40%+.
+
+### 11. Bandhan Bank (BANDHANBNK · 541153) — out of the microfinance trough
+- **Scale:** total assets ₹2.11 lakh Cr; deposits ₹1.66 lakh Cr (+10.0%); net worth ₹25,575 Cr [V].
+- **FY26:** NII ₹10,830 Cr (−5.7%); PAT ₹1,224 Cr (−55.4%) [V].
+- **Q1 FY27 [V outcome+PR]:** PAT ₹502 Cr (+34.9%); gross advances ₹1.56 lakh Cr (+16.4%); deposits ₹1.65 lakh Cr; CASA ₹48,479 Cr (29.4%); retail deposits ₹1.22 lakh Cr (74% of total); secured book ~57% (+27% YoY); EEB collection efficiency 98.5%; GNPA 3.1% (5.0% a year ago), NNPA 0.9%; PCR incl. TWO 85.9%; NIM 6.2%; RoA 1.0%, RoE 7.7%; CRAR 18.15%.
+- **Q2 FY27 provisional [V]:** loans ₹1.58 lakh Cr (+13.1%); deposits ₹1.73 lakh Cr (+9.2%); CASA 26.71% (27.97% a year ago); retail 72.66% of deposits.
+- **Market:** ₹172; m-cap ₹27,738 Cr; P/E 20.5×; BV ₹159 → P/B 1.08× [V].
+- **Ownership (Jun-26):** promoters (Bandhan Financial Holdings) 37.54%, FIIs 18.64%, DIIs 27.47%, public 16.26% [V].
+- **Story:** MD & CEO Partha Pratim Sengupta (since Nov 2024) [K]; diversification from EEB (micro-loans) to secured (housing via ex-GRUH, vehicle, gold); CGFMU guarantee claims on MFI book [K].
+
+### 12. Karur Vysya Bank (KARURVYSYA · 590003) — the quiet compounder
+- **Scale:** total assets ₹1.37 lakh Cr; deposits ₹1.16 lakh Cr (+13.3%); net worth ₹14,108 Cr [V].
+- **FY26:** NII ₹4,938 Cr (+15.9%); PAT ₹2,510 Cr (+29.2%); RoA ~1.96%, RoE ~19.3% [V/E]. 1:5 bonus in FY26 (equity capital ₹161 → ₹193 Cr) [V].
+- **Q1 FY27 [V PR]:** PAT ₹756 Cr (+44.9%); NIM 4.34% (+48 bp); CoD 5.45% (−32 bp); yield on advances 10.11%; deposits ₹1.23 lakh Cr; advances ₹1.05 lakh Cr (crossed ₹1 lakh Cr); total business ₹2.27 lakh Cr (+15.9%); CASA 27.55% (+15.3% YoY); GNPA 0.74%, NNPA 0.19%, PCR 96.2%; RoA 2.11%, RoE 20.24%; CRAR 18.61%, CET1 17.98%.
+- **Market:** ₹349; m-cap ₹33,674 Cr; P/E 12.3×; BV ₹146 → P/B 2.39×; 52-week ₹220–359 [V].
+- **Ownership (Jun-26):** promoters 2.07%, FIIs 17.92%, DIIs 41.22%, public 38.78% [V].
+- **Story:** GNPA from ~8.7% (2020, primer) to 0.74%; jewel-loan + MSME mix; highest RoE in the group.
+
+### 13. City Union Bank (CUB · 532210) — MSME and gold in Tamil Nadu, growth re-ignited
+- **Scale:** total assets ₹97,024 Cr; deposits ₹78,308 Cr (+23.3%); net worth ₹10,565 Cr [V].
+- **FY26:** NII ₹2,830 Cr (+22.2%); PAT ₹1,326 Cr (+18.0%); RoA ~1.52% [V/E]. 1:3 bonus (primer; consistent with share count ~99 Cr) [K/E].
+- **Q1 FY27 [V PR]:** PAT ₹383 Cr (screener; +25%); advances ₹67,645 Cr (+25%); deposits ₹79,342 Cr (+21%); CASA ₹21,094 Cr (+18%) = 26.6%; total business ₹1.47 lakh Cr (+23%); CoD 5.56%; yield 9.79%; NIM 3.78% (3.54%); RoA 1.57%; GNPA 1.73% (2.99%), NNPA 0.61% (1.20%); PCR 85% incl. TW; CAR 21.72%, Tier-1 20.97%; avg CD ratio 86%.
+- **Market:** ₹235; m-cap ₹23,224 Cr; P/E 16.6×; BV ₹107 → P/B 2.20× [V].
+- **Ownership (Jun-26):** no promoter; FIIs 18.65%, DIIs 44.84%, public 36.50% [V].
+- **Story:** MD & CEO R. Vijay Anandh from 1 May 2026 (succeeding N. Kamakodi) [K primer]; 12 straight quarters of NPA decline.
+
+### 14. Jammu & Kashmir Bank (J&KBANK · 532209) — the state-anchored lender
+- **Scale:** total assets ₹1.89 lakh Cr; deposits ₹1.65 lakh Cr (+11.3%); net worth ₹16,750 Cr [V].
+- **FY26:** NII ₹5,876 Cr (+1.4%); PAT ₹2,363 Cr (+13.5%, fourth record year); RoA ~1.32%, RoE ~15.2% [V/E]. FY26 accounts audited by CAG (filing 22 Sep 2026) [V].
+- **Q1 FY27 [V PR]:** PAT ₹424 Cr (−13% YoY; higher provisions — screener Q1 FY26 ₹485 Cr); advances ₹1.31 lakh Cr (+25%); deposits ₹1.73 lakh Cr (+17%); total business >₹3 lakh Cr; NIM 3.28%; GNPA 2.37% (2.50% Mar), NNPA 0.60%; PCR 90.53%; CRAR 16.67%; gross slippage <0.5%. Q2 provisional: deposits ₹1.77 lakh Cr (+16.3%); CASA 42.01% (45.89% a year ago); gross advances ₹1.34 lakh Cr (+23.7%) [V].
+- **Market:** ₹139; m-cap ₹15,340 Cr; P/E 6.7×; BV ₹157 → P/B 0.89× (lowest in group); 52-week ₹97–202 [V].
+- **Ownership (Jun-26):** promoters (J&K UT govt + Ladakh/GoI) 59.40%, FIIs 9.38%, DIIs 7.85%, public 23.37% [V].
+- **Story:** ~61% share of banking business in J&K + Ladakh (primer); Vision-2030 ₹5 lakh Cr business; valuation discount reflects state ownership and regional risk.
+
+### 15. Tamilnad Mercantile Bank (TMB · 543596) — over-capitalised, high-RoA, overhang-prone
+- **Scale:** total assets ₹75,300 Cr; deposits ₹61,712 Cr (+14.9%); net worth ₹10,110 Cr [V].
+- **FY26:** NII ₹2,527 Cr (+9.8%); PAT ₹1,338 Cr (+13.1%); RoA ~1.89% [V/E].
+- **Q1 FY27 [V PR]:** PAT ₹412 Cr (+35%); deposits ₹64,409 Cr (+19.7%); advances ₹57,306 Cr (+27%); CASA ₹16,852 Cr (26.2%); GNPA 0.69%, NNPA 0.17%; PCR 75.4% (ex TWO); SMA 2.21% of advances; CRAR 32.33%; RoA 2.14%, RoE 15.93%. Q2 provisional: advances ₹60,715 Cr (+29.4%), deposits ₹69,546 Cr (+25.5%), CASA ₹17,629 Cr [V].
+- **Market:** ₹874; m-cap ₹13,843 Cr; P/E 9.6×; BV ₹667 → P/B 1.31×; 52-week ₹420–955 (more than doubled) [V].
+- **Ownership (Jun-26):** no promoter; FIIs 6.73%, DIIs 1.96%, public 91.32% (legacy Nadar community holders; disputes over the 2007–08 Essar/Fairfax-era share transfers — primer "ownership overhang") [V/K].
+- **Story:** highest CRAR among scheduled private banks; growth stepped up to 27–29%.
+
+### 16. South Indian Bank (SOUTHBANK · 532218) — the clean-up is done
+- **Scale:** total assets ₹1.42 lakh Cr; deposits ₹1.23 lakh Cr (+14.7%); net worth ₹11,416 Cr [V].
+- **FY26:** NII ₹3,437 Cr (−1.4%); other income ₹2,009 Cr (recoveries); PAT ₹1,455 Cr (+11.7%, record); RoA ~1.09% [V/E]. GNPA fell from 2.67% (Dec-25) to 1.43% (Mar-26) — a step drop consistent with a write-off/sale [V screener].
+- **Q1 FY27 [V PR]:** PAT ₹378 Cr (+17.4%); GNPA 1.38% (3.15%), NNPA 0.26%; PCR 81.4% (94.5% incl. TWO); CASA ₹41,495 Cr = 32.98% (SA +16.5%); retail deposits ₹1.24 lakh Cr (+13.7%); gross advances ₹1.04 lakh Cr (+17%); gold loans ₹24,930 Cr (+43%). Q2 provisional: gross advances ₹1.10 lakh Cr (+18.7%); CASA 31.55% [V].
+- **Market:** ₹49.1; m-cap ₹12,870 Cr; P/E 8.5×; BV ₹45.1 → P/B 1.09×; near 52-week high ₹50.7 [V].
+- **Ownership (Jun-26):** no promoter; FIIs 25.39%, DIIs 14.24%, public 60.36%; Kotak Mahindra MF crossed 5% (disclosure 23 Jul 2026) [V].
+- **Story:** MD & CEO P.R. Seshadri (ex-Citi/Karur Vysya) [K primer]; NRI deposits from Kerala; gold and corporate-led growth.
+
+### 17. Karnataka Bank (KTKBANK · 532652) — record profit under an insider CEO
+- **Scale:** total assets ₹1.29 lakh Cr; deposits ₹1.09 lakh Cr (+3.8%); net worth ₹13,224 Cr [V].
+- **FY26:** NII ₹3,119 Cr (−5.8%); PAT ₹1,310 Cr (+3.0%); RoA ~1.05% [V/E].
+- **Q1 FY27 [V PR]:** PAT ₹419 Cr (+43%, highest ever); deposits ₹1.10 lakh Cr (+7%); gross advances ₹86,610 Cr (+17%); CASA 32.42%; NIM 3.20% (2.82%); RoA 1.29%; GNPA 2.58% (3.46%), NNPA 0.87% (1.44%); PCR 67% ex TWO; CRAR 21.10%. Q2 provisional: deposits ₹1.15 lakh Cr (+12%); gross advances ₹92,015 Cr (+24.9%); CASA ₹36,626 Cr [V].
+- **Market:** ₹342; m-cap ₹12,975 Cr; P/E 9.0×; BV ₹350 → P/B 0.98×; 52-week ₹170–346 (doubled) [V].
+- **Ownership (Jun-26):** no promoter; FIIs 13.10%, DIIs 15.75%, public 71.15% [V].
+- **Story:** MD & CEO Raghavendra S. Bhat (38-year insider; one-year RBI term from Nov 2025, per primer) after the mid-2025 resignations of CEO Srikrishnan H. Sarma and ED Sekhar Rao [K primer]; new directors Jul 2026 [V NSE].
+
+### 18. DCB Bank (DCBBANK · 532772) — the self-employed specialist
+- **Scale:** total assets ₹88,069 Cr; deposits ₹72,583 Cr (+20.9%); net worth ₹6,535 Cr [V].
+- **FY26:** NII ₹2,456 Cr (+16.6%); PAT ₹732 Cr (+19.0%); RoA ~0.89%, RoE ~12.0% [V/E]; cost of funds proxy 6.69% (highest in group) [E].
+- **Q1 FY27 [V PR]:** PAT ₹213 Cr (+36%); deposits ₹74,482 Cr; net advances ₹59,951 Cr (+17%); GNPA 2.43%, NNPA 0.84%; PCR 79.8%; CASA 21.65% (23.32% a year ago); MD & CEO Praveen Kutty.
+- **Market:** ₹210; m-cap ₹6,774 Cr; P/E 8.6×; BV ₹203 → P/B 1.03× [V].
+- **Ownership (Jun-26):** promoter AKFED (Aga Khan Fund) 16.22%, FIIs 13.48%, DIIs 32.28%, public 38.03% [V]; ICICI Pru AMC RBI nod to go up to 9.99% (filing 9 Sep 2026) [V].
+- **Story:** mortgage/LAP + gold + MSME to self-employed; thin CASA → high CoF; RoE improving to ~13%.
+
+### 19. CSB Bank (CSBBANK · 542867) — gold-loan bank in an ownership limbo
+- **Scale:** total assets ₹57,727 Cr; deposits ₹44,246 Cr (+20.0%); borrowings ₹7,154 Cr; net worth ₹4,895 Cr [V].
+- **FY26:** NII ₹1,720 Cr (+16.5%); PAT ₹633 Cr (+6.6%) [V].
+- **Q1 FY27 [V PR]:** PAT ₹150 Cr (+27%); deposits ₹45,415 Cr (+26%); net advances ₹40,309 Cr (+24%); gold loans ₹21,906 Cr (+47%; ~54% of advances); wholesale +37%; CASA 19% (23% a year ago); CRAR 19.96% (21.71%); PCR incl. TW 86.83%; NIM 3.66% (primer). Q2 provisional: deposits ₹46,889 Cr (+18%), CASA ₹8,889 Cr [V].
+- **Market:** ₹308; m-cap ₹5,341 Cr; P/E 8.0×; BV ₹282 → P/B 1.09×; 52-week ₹295–575 (−46% from Jan-26 high) [V].
+- **Ownership (Jun-26):** promoter Fairfax (FIH Mauritius) 40.00%, FIIs 12.63%, DIIs 15.07%, public 30.11% [V]. Fairfax reportedly committed that IDBI would be its sole Indian bank → expected to divest CSB (BS 25 Jun 2026) [V-secondary]; ICICI Pru AMC RBI nod up to 9.99% (8 Sep 2026) [V].
+- **Story:** MD & CEO Pralay Mondal [K primer]; SBS-2030 plan to diversify from gold; gold-price sensitivity.
+
+---
+
+## COMPANY-KPI APPENDIX
+### Summary grid (₹ Cr unless stated; FY26 standalone from screener [V]; Q1 FY27 from filings [V]; market data 13 Oct 2026)
+| Bank | Deposits Mar-26 | NII FY26 | PAT FY26 | PAT gr | NIM Q1 | CASA Q1 | GNPA Q1 | NNPA Q1 | CET1/CRAR | RoA (Q1 ann.) | M-cap | P/E | P/B |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HDFC Bank | 31,05,250 | 1,28,686 | 74,671 | +10.9% | 3.26%ᵃ | 32.3% | 1.17% | 0.41% | 17.4%ᶜ | 1.80%ᶠ | 11,01,904 | 14.6 | 1.90 |
+| ICICI Bank | 17,94,625 | 88,075 | 50,147 | +6.2% | 4.36% | 39.5% | 1.38% | 0.35% | 16.19%ᶜ | 2.49% | 9,72,861 | 18.6 | 2.78 |
+| Axis Bank | 13,35,834 | 56,048 | 24,457 | −7.3% | 3.46% | 38% | 1.28% | 0.39% | 14.64%ᶜ | 1.51% | 3,94,008 | 15.3 | 1.86 |
+| Kotak Mahindra | 5,72,456 | 30,010 | 14,008 | −14.8% | 4.53% | 40.3% | 1.18% | 0.27% | 22.4%ᶜ | 2.14% | 4,37,106 | 29.4 | 3.23 |
+| IDBI Bank | 3,47,163 | 13,511 | 9,513 | +26.6% | 3.61% | 43.6% | 2.30% | 0.16% | 26.92%ʳ | 1.89% | 89,213 | 9.3 | 1.32 |
+| Federal Bank | 3,13,909 | 10,657 | 4,117 | +1.6% | 3.33% | 32.2% | 1.52% | 0.18% | n/a | 1.22% | 81,417 | 18.4 | 2.10 |
+| Yes Bank | 3,18,969 | 9,776 | 3,476 | +44.5% | 2.7% | 32.7% | 1.3% | 0.2% | 14.0%ᶜ | 0.9% | 65,512 | 17.5 | 1.25 |
+| IndusInd Bank | 4,00,174 | 17,983 | 933 | −64.7% | 3.57% | 29.4% | 3.25% | 0.95% | 16.10%ᵗ | ~1.0%ᵉ | 68,366 | 54.6 | 1.04 |
+| IDFC First | 2,94,475 | 21,215 | 1,636 | +7.3% | 5.96% | 50.8% | 1.51% | 0.44% | 13.33%ᶜ | 1.06% | 68,064 | 30.3 | 1.40 |
+| RBL Bank | 1,39,018 | 6,360 | 822 | +18.3% | 4.13%ᵇ | 29.2% | 1.30%ᵇ | 0.37% | 32.2%ᶜ | ~0.8%ᵉ | 59,906 | 50.8 | 1.40 |
+| Bandhan | 1,66,344 | 10,830 | 1,224 | −55.4% | 6.2% | 29.4% | 3.1% | 0.9% | 18.15%ʳ | 1.0% | 27,738 | 20.5 | 1.08 |
+| Karur Vysya | 1,15,666 | 4,938 | 2,510 | +29.2% | 4.34% | 27.6% | 0.74% | 0.19% | 17.98%ᶜ | 2.11% | 33,674 | 12.3 | 2.39 |
+| City Union | 78,308 | 2,830 | 1,326 | +18.0% | 3.78% | 26.6% | 1.73% | 0.61% | 21.72%ʳ | 1.57% | 23,224 | 16.6 | 2.20 |
+| J&K Bank | 1,65,354 | 5,876 | 2,363 | +13.5% | 3.28% | 42.0%ᵈ | 2.37% | 0.60% | 16.67%ʳ | ~1.0%ᵉ | 15,340 | 6.7 | 0.89 |
+| TMB | 61,712 | 2,527 | 1,338 | +13.1% | n/a | 26.2% | 0.69% | 0.17% | 32.33%ʳ | 2.14% | 13,843 | 9.6 | 1.31 |
+| South Indian | 1,23,346 | 3,437 | 1,455 | +11.7% | n/a | 33.0% | 1.38% | 0.26% | n/a | ~1.1%ᶠ | 12,870 | 8.5 | 1.09 |
+| Karnataka Bank | 1,08,779 | 3,119 | 1,310 | +3.0% | 3.20% | 32.4% | 2.58% | 0.87% | 21.10%ʳ | 1.29% | 12,975 | 9.0 | 0.98 |
+| DCB Bank | 72,583 | 2,456 | 732 | +19.0% | n/a | 21.7% | 2.43% | 0.84% | n/a | ~0.9%ᶠ | 6,774 | 8.6 | 1.03 |
+| CSB Bank | 44,246 | 1,720 | 633 | +6.6% | 3.66%ᵍ | 19% | 1.75%ʰ | 0.39%ʰ | 19.96%ʳ | ~1.0%ᵉ | 5,341 | 8.0 | 1.09 |
+| **All 19** | **95,58,211** | **4,20,054** | **1,96,671** | **+4.0%** | — | — | — | — | — | ~1.6% FY26 | **34,90,136** | **17.7** | **2.13** |
+Notes: ᵃ on total assets (3.40% on interest-earning assets); ᵇ Q2 FY27: NIM 4.61%, GNPA 1.02%; ᶜ CET1; ʳ total CRAR; ᵗ Tier-1; ᵈ Q2 FY27 (Sep-26); ᵉ annualised Q1 PAT ÷ FY26-end assets [E]; ᶠ FY26 screener-derived [E]; ᵍ primer (company Q1 FY27); ʰ screener quarterly. Aggregates: deposits/NII/PAT are simple sums of standalone figures; m-cap sum at 13 Oct 2026; combined P/E = Σm-cap ÷ ΣPAT FY26; combined P/B = Σm-cap ÷ Σ(standalone net worth Mar-26 ₹16,41,100 Cr).
+
+### Aggregates with stated basis [E]
+- Top-4 (HDFC, ICICI, Axis, Kotak): deposits 31,05,250 + 17,94,625 + 13,35,834 + 5,72,456 = ₹68,08,165 Cr = 71.2% of ₹95,58,211 Cr.
+- Top-4 PAT FY26: ₹1,63,283 Cr = 83.0% of combined; top-4 m-cap ₹29,05,879 Cr = 83.3%.
+- Old private southern + J&K (KVB, CUB, TMB, SIB, KTK, CSB, J&K, DCB): deposits ₹7,69,994 Cr (8.1%); PAT ₹11,667 Cr (5.9%); m-cap ₹1,24,041 Cr (3.6%).
+- Mid-size universal (IDBI, Federal, Yes, IndusInd, IDFC, RBL, Bandhan): deposits ₹19,80,052 Cr (20.7%); PAT ₹21,721 Cr (11.0%); m-cap ₹4,60,216 Cr (13.2%). Check: 68,08,165 + 7,69,994 + 19,80,052 = 95,58,211 ✓; PAT 1,63,283 + 11,667 + 21,721 = 1,96,671 ✓; m-cap 29,05,879 + 1,24,041 + 4,60,216 = 34,90,136 ✓.
+
+---
+
+## PRIMER ISSUES (audit of the 19 member primers vs this dossier)
+Method: read each primer's cover/stat strip, refresh bar, "What's new" box and opening snapshot; grepped body text for market cap, P/E, P/B, ownership, leadership and the 2026 events listed above; ran `primer-audit.mjs` (12 of 19 fail on banned phrases and/or "honest" > 1; all 19 lack `main{min-width:0}`). Common to all 19: no Q1 FY27 (Jun-26 quarter) results in the "What's new" box except TMB/SIB/DCB/CSB (partial); refresh dates 30 Jun – 24 Aug 2026; m-cap/P/E/P/B dated Jun–Aug 2026.
+
+| Primer | Errors / stale figures found | Verified correction (source) |
+|---|---|---|
+| hdfc-bank | Strip m-cap "~₹12.3 L Cr (Jun '26)"; body "~₹12.3 lakh crore", "high-teens times earnings and a little over ~2× book", "FIIs ~44%"; Management line names Jagdishan as continuing CEO; no mention of chairman Atanu Chakraborty's resignation (Mar 2026), Anup Bagchi's RBI-approved appointment (from 27 Oct 2026), MSRDC review (Jul 2026), LIC 9.99% approval (Aug 2026), 1:1 bonus (2025); no Q1 FY27 (NIM 3.26% record low, CASA 32%); "Think of" in a plain-terms box; "honest" ×2+ | m-cap ₹11.02 lakh Cr, P/E 14.6×, P/B 1.90× (screener 13 Oct 2026); FIIs 39.4% (Sep-26); Q1 FY27 PAT ₹19,060 Cr, NII ₹33,534 Cr, NIM 3.26%/3.40%, deposits ₹31.71 lakh Cr, gross advances ₹30.61 lakh Cr, GNPA 1.17%; Q2 provisional deposits ₹33.28 lakh Cr, FCNR US$11.5 bn (NSE filings) |
+| icici-bank | Strip m-cap "~₹8.98 L Cr (Jun '26)", "P/B ~2.7×, P/E ~18×"; no Q1 FY27; Bakhshi re-appointment (May 2026) not checked; banned phrase present | m-cap ₹9.73 lakh Cr; P/E 18.6×; P/B 2.78×; Q1 FY27 PAT ₹14,805 Cr (+15.9%), NIM 4.36%, advances +19.6%, GNPA 1.38%, CET1 16.19% (ICICI IP) |
+| axis-bank | Strip m-cap "~₹4.28 L Cr (Jun '26)"; "CASA ~40%" now 38%; no Q1 FY27; banned phrase | m-cap ₹3.94 lakh Cr; Q1 FY27 PAT ₹7,114 Cr (+23%), NIM 3.46%, advances ₹12.62 lakh Cr (+19%), deposits +18%, CASA 38%, GNPA 1.28%, CET1 14.64% (Axis PR) |
+| kotak-mahindra-bank | Strip m-cap "~₹4.07 L Cr (Jun '26)", P/E ~21, P/B ~2.6; says board "begins a fresh succession search" — superseded: RBI approved Anup Kumar Saha as MD & CEO from 1 Jan 2027; no Q1 FY27; banned phrase | m-cap ₹4.37 lakh Cr; P/E 29.4× standalone (≈22× consolidated), P/B 3.23× standalone (2.3× consolidated BV ₹189); Q1 FY27 PAT ₹4,123 Cr (+26%), cons ₹5,480 Cr, NIM 4.53%, CASA 40.3%, GNPA 1.18%, CET1 22.4% (Kotak PR) |
+| idbi-bank | Strip m-cap "~₹90,700 Cr (mid-2026)"; "targeting completion by ~Sept 2026" (did not happen); missing Fairfax as reported preferred bidder at ~₹81/share (~₹53,000 Cr, Jun–Jul 2026); P/E ~9.9, P/B ~1.3 slightly stale; NIM "~4.15%" FY26 vs Q1 FY27 3.61%; banned phrase, honest >1 | m-cap ₹89,213 Cr; P/E 9.3×; P/B 1.32×; Q1 FY27 PAT ₹2,115 Cr, NIM 3.61%, GNPA 2.30%, NNPA 0.16%, CRAR 26.92% (IDBI PR); deal status: approvals pending (BS 14 Jul 2026) |
+| federal-bank | Strip m-cap "~₹80,700 Cr (mid-2026)"; no mention of Blackstone's ₹6,196 Cr / 9.99% warrant investment (approved by CCI Dec 2025, RBI Feb 2026); no Q1 FY27; banned phrase | m-cap ₹81,417 Cr; P/E 18.4×; P/B 2.10×; Q1 FY27 PAT ₹1,177 Cr (+36.6%), NIM 3.33%, CASA 32.2%, NNPA 0.18% (Federal PR) |
+| yes-bank | Strip m-cap "~₹76,500 Cr (early Jul 2026)"; "Share price ~₹24, P/B ~1.5×, P/E ~22×"; no Q1 FY27/Q2 provisional; banned phrase, honest >1 | m-cap ₹65,512 Cr; price ₹20.8; P/B 1.25×; P/E 17.5×; Q1 FY27 PAT ₹1,071 Cr (+33.7%), NIM 2.7%, CASA 32.7%, CET1 14.0% (Yes PR) |
+| indusind-bank | Strip m-cap "~₹75,900 Cr (early Jul 2026)"; "share price ~₹974", "P/B ~1.15×"; no Q1 FY27; banned phrase, honest >1 | m-cap ₹68,366 Cr; price ₹877; P/B 1.04×; Q1 FY27 PAT ₹1,037 Cr (+72%), NIM 3.57%, deposits ₹4.15 lakh Cr, advances ₹3.26 lakh Cr (−2%), GNPA 3.25% (IndusInd PR) |
+| idfc-first-bank | Strip m-cap "~₹69,400 Cr (mid-2026)"; P/B ~1.47; no Q1 FY27 (record PAT ₹1,075 Cr); honest >1 | m-cap ₹68,064 Cr; P/B 1.40×; Q1 FY27 PAT ₹1,075 Cr (+132%), NIM 5.96%, CASA 50.8%, GNPA 1.51%, RoA 1.06% (IDFC PR) |
+| rbl-bank | Section header "How to think about a below-book bank" — no longer true (P/B 1.40×); "Market cap roughly ₹57,000 Cr in mid-2026"; deal described as "~$3 bn" (final infusion US$2.75 bn); no Q1/Q2 FY27 (Q2 PAT ₹482 Cr +170%, NIM 4.61%, CAR 30.1%); AAA upgrade missing; banned phrase | m-cap ₹59,906 Cr; P/B 1.40×; ENBD ~US$2.75 bn (~₹26,000 Cr) on 18 Jun 2026 (RBL PR) |
+| bandhan-bank | Strip m-cap "~₹33,000 Cr (Jul '26)"; no Q1 FY27; banned phrase, honest >1 | m-cap ₹27,738 Cr; P/B 1.08×; Q1 FY27 PAT ₹502 Cr (+35%), GNPA 3.1%, NIM 6.2% (Bandhan PR) |
+| karur-vysya-bank | Strip m-cap "~₹28,400 Cr (Jul '26)"; body "₹294 a share, ~2× book, ~11× earnings"; no Q1 FY27; honest >1 | m-cap ₹33,674 Cr; price ₹349; P/B 2.39×; P/E 12.3×; Q1 FY27 PAT ₹756 Cr (+45%), NIM 4.34%, RoA 2.11% (KVB PR) |
+| city-union-bank | Strip m-cap "~₹22,700 Cr (Jul '26)"; body "₹229, ~2.1× book"; no Q1 FY27 | m-cap ₹23,224 Cr; price ₹235; P/B 2.20×; Q1 FY27 NIM 3.78%, GNPA 1.73%, advances +25% (CUB PR) |
+| jk-bank | Strip "~₹19,600 Cr · P/B ~1.1× · P/E ~8×"; body same; no Q1 FY27 (PAT ₹424 Cr, down YoY) | m-cap ₹15,340 Cr; P/B 0.89×; P/E 6.7×; Q1 FY27 PAT ₹424 Cr, NIM 3.28%, GNPA 2.37% (J&K PR) |
+| tamilnad-mercantile-bank | Strip m-cap "~₹13,150 Cr (mid-2026)" | m-cap ₹13,843 Cr; P/B 1.31×; Q1 FY27 PAT ₹412 Cr (+35%), RoA 2.14% (TMB PR) |
+| south-indian-bank | Strip m-cap "~₹9,500 Cr (mid-2026)" — now ₹12,870 Cr (+35%); Kotak MF >5% stake (Jul 2026) | m-cap ₹12,870 Cr; P/B 1.09×; P/E 8.5× |
+| karnataka-bank | Strip "~₹11,000 Cr · ~0.8× book" | m-cap ₹12,975 Cr; P/B 0.98×; Q1 FY27 PAT ₹419 Cr (record), NIM 3.20% (KTK PR) |
+| dcb-bank | Strip m-cap "~₹6,300 Cr (Aug '26)"; ICICI Pru AMC RBI nod to go to 9.99% (Sep 2026) missing | m-cap ₹6,774 Cr; P/B 1.03×; P/E 8.6× |
+| csb-bank | Strip m-cap "~₹6,000 Cr (Aug '26)"; missing the Fairfax–IDBI link (Fairfax reportedly to exit CSB if it wins IDBI; stock −44% from Jan high) and ICICI Pru AMC approval (Sep 2026) | m-cap ₹5,341 Cr; P/B 1.09×; P/E 8.0× (BS 25 Jun 2026; CSB filing 8 Sep 2026) |
+
+Unverified / left for owner: HDFC Bank CET1 (secondary only); Axis CEO term; exact SMBC holding at Sep-26; whether Blackstone warrants have been allotted.
