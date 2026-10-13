@@ -676,5 +676,43 @@ Basis: ICRA industry series [V]; company figures [K approximate from company res
 
 ---
 
-## COMPANY-KPI APPENDIX (to be written by orchestrator)
+## COMPANY-KPI APPENDIX (orchestrator, cross-checked across company packs 1–3)
 
+Basis: FY26 consolidated, except NMDC Steel, Jayaswal Neco and Jai Balaji, which are standalone (their consolidated screener pages are empty or stale). Revenue, EBITDA and PAT are in ₹ Cr, with EBITDA = screener operating profit for comparability. Company-adjusted figures are in the packs: JSW 32,048; Tata 34,848; JSPL 9,099; SAIL 12,000. Market cap and P/E are from screener at the 13 Oct 2026 close. The orchestrator re-fetched and confirmed TATASTEEL, SAIL, LLOYDSME, GPIL and JAYNECOIND this session. EBITDA/t is in ₹ and uses the stated basis per company; it is not comparable across archetypes. Q2 FY27 results were not out for any member on 13 Oct 2026. JSW and Tata Steel Q2 production updates are out (7–8 Oct); Shyam's Q2 volumes are out (6 Oct). Board dates: Jayaswal Neco 16 Oct, Gallantt 19 Oct, JSW ~23 Oct (snippet), Sarda 31 Oct.
+
+### Summary grid (13 members)
+| Archetype | Company | Rev FY26 | Growth | EBITDA (scr. OP) | OPM | PAT | Net debt | M-cap 13-Oct-26 | P/E | ROCE % | Capacity (MTPA) | FY26 volume (MT) | EBITDA/t FY26 ₹ | EBITDA/t Q1 FY27 ₹ |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Integrated | JSW Steel | 185,470 | +9.9% | 29,464 | 15.9% | 25,508 | 53,870 (Mar) / 46,157 (Jun) | 288,076 | 23.9× | 11.0 | ~32 India + 4.5 JV | 29.63 | 10,816 | 14,997 |
+| Integrated | Tata Steel | 232,140 | +6.2% | 34,352 | 14.8% | 10,886 | 80,144 (Mar) / 84,173 (Jun) | 218,386 | 18.5× | 12.5 | ~36 group (India ~27.4) | 31.97 group / 22.53 India | 10,900 group / 15,213 India | 12,898 group / 19,162 India |
+| Integrated | Jindal Steel | 53,225 | +7.0% | 9,704 | 18.2% | 3,361 | 16,019 (Mar) / 15,927 (Jun) | 104,264 | 33.8× | 9.7 | 15.6 | 8.68 | 10,482 | 11,937 |
+| Integrated (PSU) | SAIL | 110,811 | +8.1% | 12,119 | 10.9% | 3,373 | 31,195 screener (Mar) | 71,363 | 14.8× | 7.9 | ~20.6 | 19.93 | 6,018 | 10,464 |
+| Integrated (PSU) | NMDC Steel (standalone) | 13,642 | +60.4% | 1,518 | 11.1% | 59 | ~3,813 [E] | 11,776 | 141× | 3.1 | 3.0 | HRC prod 2.33 (sales unverified) | ~6,530 [E] | n/a |
+| Mining-led | Lloyds Metals | 17,113 | +154.6% | 6,205 | 36.3% | 3,829 | ~19,000 consol. (Jun) / 5,616 standalone | 102,055 | 21.4× | 27.3 | Ore 55 MTPA EC; pellets 8; DRI 0.7 | ore 16.18 sold | ore 1,930 / pellet 4,657 / DRI 6,643 | — |
+| Stainless | Jindal Stainless | 42,955 | +9.3% | 5,482 | 12.8% | 3,185 | 2,950 (Jun) | 59,479 | 18.1× | 19.3 | melt 4.2 (incl. 1.2 Indonesia) | 2.566 | ~21,700 consol. [E] | ~22,900 [E] |
+| Secondary/DRI | Shyam Metalics | 18,552 | +22.4% | 2,333 | 12.6% | 1,060 | −378 (Mar) | 30,621 | 27.3× | 13.0 | 16.93 total metal | 4.95 all products | ~4,717 blended [E] | — |
+| Secondary/DRI | Sarda Energy | 5,690 | +22.6% | 1,787 | 31.4% | 1,109 | 215 (Mar) / −22 (Jun) | 16,622 | 14.8× | 16.9 | pellets 0.9; 761.5 MW thermal | ferro 0.195 | n.d. | — |
+| Secondary/DRI | Godawari Power & Ispat | 5,376 | +0.1% | 1,263 | 23.5% | 802 | −702 (screener) / −837 co. | 13,962 | 17.0× | 21 | pellets 4.7; mining 6.7 | pellets 1.88 sold | ~4,387 per t pellet [E] | — |
+| Secondary/DRI | Gallantt Ispat | 4,419 | +2.9% | 717 | 16.2% | 484 | 45 | 14,060 | 32.3× | 18 | steel 0.99 → 1.23 | TMT 0.766 | 8,785 per t billet (co.) | — |
+| Secondary/BF | Jayaswal Neco (standalone) | 7,085 | +19.0% | 1,329 | 18.8% | 463 | 1,842 | 9,325 | 16.3× | 21 | BF 1.0; SMS 0.98 | rolled 0.688 | 19,490 per t rolled | — |
+| Secondary/DRI | Jai Balaji (standalone) | 5,784 | -8.9% | 350 | 6.1% | 130 | 357 | 5,972 | 40.8× | 10 | DRI 0.345; pig 0.55; DI 0.55 | ~0.68 all products [E] | ~3,310 [E] | — |
+
+### Aggregates (stated basis)
+- **Simple sum of the 13 rows** (what a peer-table "combined" row equals): revenue ₹702,262 Cr; EBITDA ₹106,623 Cr (15.2%); PAT ₹54,249 Cr; m-cap ₹945,961 Cr; m-cap ÷ FY26 PAT 17.4×. There is no double-counting: no member consolidates another. Tata Steel includes Europe (Netherlands and UK), and JSW includes US operations. JSW PAT includes the one-off BPSL gain of ~₹18k Cr (normalised PAT 8,698); excluding it, sum PAT ≈ ₹37,439 Cr and m-cap/PAT ≈ 25.3×.
+- **Integrated majors (JSW, Tata, JSPL, SAIL, NMDC Steel)**: revenue ₹595,288 Cr · EBITDA ₹87,157 Cr (14.6%) · PAT ₹43,187 Cr · m-cap ₹693,865 Cr
+- **Mining-led + stainless (Lloyds, JSL)**: revenue ₹60,068 Cr · EBITDA ₹11,687 Cr (19.5%) · PAT ₹7,014 Cr · m-cap ₹161,534 Cr
+- **Secondary / DRI / BF mid-caps (6)**: revenue ₹46,906 Cr · EBITDA ₹7,779 Cr (16.6%) · PAT ₹4,048 Cr · m-cap ₹90,562 Cr
+- **Crude-steel capacity, India, listed integrated five:** JSW ~32 (ex-BPSL, which now sits in the JFE JV at 4.5) + Tata India ~27.4 + JSPL 15.6 + SAIL ~20.6 + NMDC Steel 3.0 ≈ 98.6 MTPA, ≈ 44% of India's ~222 MTPA (Ministry of Steel, Jun 2026). INDICATIVE, because the company capacity figures carry [K] items.
+- **Industry-level comparison.** FY26 crude steel output was 170.15 Mt and consumption 164.36 Mt (Ministry of Steel, revised). The five integrated majors' India sales (JSW 29.63 + Tata India 22.53 + JSPL 8.68 + SAIL 19.93 + NMDC ~2.3) ≈ 83 Mt ≈ half of consumption.
+
+### Reconciliation notes (cross-batch checks)
+1. **JSW / BPSL.** The filing gives ₹24,483 Cr cash consideration plus ₹15,750 Cr from JFE for 50%. The primer's ₹29,475 Cr does not match the filing. BPSL capacity is 4.5 MTPA and now sits in the JV, outside JSW's consolidated capacity. JSW's screener P/E (23.9×) is inflated by the gain.
+2. **Tata Steel.** FY26 "31.67 MT" is a mixed-basis group production figure; India crude steel was 23.43 MT. The Netherlands unit's FY26 accounts flag a material uncertainty (going concern), and the regulator intends to revoke its coke and gas plant permits. The board approved the NINL 4.8 MTPA expansion (₹33,873 Cr) in July 2026. The Tata Steel legacy mine leases lapse in March 2030 (industry file).
+3. **Jindal Steel.** Net debt ROSE from ~₹11.9k Cr to ₹16,019 Cr (Mar-26). Capacity is 15.6 MTPA (not 15.9). Talks over the promoter vehicle's Thyssenkrupp Steel Europe bid were paused on 2 May 2026.
+4. **SAIL.** FY26 EBITDA is ~₹12,000–12,119 Cr (not 13,146). Screener's ₹31,195 Cr net debt (Mar-26) and the company's ₹21,729 Cr gross debt (Jun-26) could not be reconciled, so show both with dates. Imported coking coal is ~85%.
+5. **NMDC Steel.** 2.33 MT is HRC output; crude steel was 2.43 MT. FY26 sales volume and the strategic-sale status are from snippets only and unverified. EBITDA/t is an estimate.
+6. **Lloyds Metals.** FY26 consolidated revenue (+155%) includes Thriveni Earthmovers & Infra (79.82% subsidiary from Jul-2025), so it is not comparable with FY25. Consolidated net debt (~₹19,000 Cr) is far above standalone (₹5,616 Cr).
+7. **Jindal Stainless.** EBITDA/t on the consolidated basis is an estimate. Indonesian melt shop ownership and India-only melt (~3.0 MTPA) are inferred.
+8. **Safeguard duty** (industry file, verified from the notification): 12% to April 2026, 11.5% to April 2027, 11% to 20 April 2028. The batch 3 note "12%, from memory" is superseded.
+9. **EBITDA/t comparability.** Integrated mills report per tonne of steel sold. Secondary producers use different denominators (per t pellet, billet, rolled product, or all products), so cross-archetype EBITDA/t charts must say so.
+10. **Shareholding.** Sep-26 patterns are used where screener had them (Lloyds, JSL, Shyam); the others are Jun-26.
