@@ -206,6 +206,23 @@
         "Battery-materials bet"
       ],
       "published": "2026-10-13"
+    },
+    {
+      "name": "Specialty Chem – Intermediates & Building Blocks",
+      "slug": "chem-intermediates",
+      "file": "chem-intermediates.html",
+      "sector": "Chemicals",
+      "subsector": "Specialty Chem – Intermediates & Building Blocks",
+      "companies": 6,
+      "accent": "#6B3410",
+      "hook": "A spread business priced by China: how Deepak Nitrite, Aarti, Atul, Alkyl Amines, Balaji Amines and Laxmi Organic turn cheap feedstock into a margin, why Chinese overcapacity set it, the ₹5,400 Cr of unfinished plant from the capex super-cycle, and the limits of import substitution.",
+      "tags": [
+        "China sets the price",
+        "The spread game",
+        "Capex super-cycle",
+        "Import substitution"
+      ],
+      "published": "2026-10-13"
     }
   ],
   "universe": [
@@ -399,7 +416,7 @@
       "sector": "Chemicals",
       "sub": "Specialty Chem – Intermediates & Building Blocks",
       "companies": 6,
-      "report": null
+      "report": "chem-intermediates.html"
     },
     {
       "sector": "Chemicals",
