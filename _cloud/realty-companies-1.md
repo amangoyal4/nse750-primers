@@ -584,3 +584,126 @@ The promoter dilution reflects two QIPs: ~Mar-2024 (63.3 → 60.0%) and Oct-2025
 - QIP details: techleap/FilingReader snippets (₹1,100 Cr at ₹662, 7–13 Oct 2025) [K]
 
 ---
+## PRIMER ISSUES
+
+All seven primers were last refreshed 1–15 Jul 2026 on FY26 (Mar-26) results. **None incorporates Q1 FY27 (Jun-26 quarter) results, the Jun/Sep-2026 shareholding, or any event after mid-July 2026.** Every m-cap, price and P/E is stale. Each table lists the errors and stale figures found when the primer was compared with this session's research. Corrections are as of 13-Oct-2026 unless stated.
+
+### primers/dlf.html
+
+| Location in primer (section / quote) | What it says | What's correct | Source |
+|---|---|---|---|
+| Cover strip: "~₹1.55 L Cr Market cap (Jun '26)" | ₹1.55 L Cr | **₹1,64,812 Cr (₹1.65 L Cr) @ ₹665**, 13-Oct-2026 | screener [V] |
+| §09 key metrics: "Market cap (Jun '26) ~₹1.55 L Cr · Price ~₹620/share" | ₹620 | ₹665 (52-week range ₹489–786) | screener [V] |
+| §09: "P/E · P/B ~35× · ~3.5×" | 35× / 3.5× | **38.3× / 3.6×** | screener [V] |
+| §08 ownership: "foreign investors (FIIs/FPIs) hold ~16%" | FII ~16% | **FII 11.43%, DII 9.06%** (Sep-26). FIIs have fallen steadily from 16.7% (Sep-24) | screener [V] |
+| §09 key metrics: "Revenue — P&L (FY26) ~₹8,194 Cr +~7%" | +7% | ₹8,194 Cr vs ₹7,994 Cr = **+2.5%**. The +7% matches the ₹8,552 Cr "revenue from operations" basis cited from Whalesbook, so the figure and growth rate come from different bases | screener [V] |
+| Whatsnew / §03–04: FY27 pipeline "Hamilton Court 2, Goa villas, Mumbai Westpark Phase 2, senior living" | Goa villas presented as a live FY27 launch | Goa residential is **held back by PIL-type litigation**. Management caps Goa within the FY27 guide at "a couple of thousand crores" | multibagg Q1 FY27 [V] |
+| Missing: Q1 FY27 | — | **Bookings ₹657 Cr (−94% YoY)** on approval delays; revenue ₹1,280 Cr (−53%); PAT ₹794 Cr (+4%); collections ₹2,406 Cr; **net cash up to ₹15,200 Cr** | screener [V]; Tribune / multibagg [V] |
+| Missing: Oct-2026 event | — | **The Aureva** (senior living, Sector 63 Gurugram) sold out: 172 homes, ~₹1,985 Cr (4-Oct-2026). This is the first big FY27 launch | therealtytoday [V] |
+| §05 DCCDL: "~50 msf … ~₹5,500 Cr rent heading toward ~₹7,400 Cr" | exit ~₹7,400 Cr | Updated FY27 exit-rental guidance is a **₹7,300–7,500 Cr** range; medium-term ~₹10,000 Cr on ~76 msf | multibagg Q1 FY27 [V] |
+| §07: "zero gross debt in the development business" | zero | Consolidated screener borrowings ₹306 Cr (Mar-26). "Zero" is broadly right only for DevCo on management's definition, so qualify it. Also, ₹11,215 Cr of the ₹14,155 Cr net cash is RERA-escrowed, which the primer never mentions | screener [V]; multibagg [V] |
+| §03: "surplus-cash potential of roughly ₹43,000 crore from projects already launched" | ₹43,000 Cr | ~₹43,650 Cr total = ~₹27,000 Cr from sold inventory + ~₹16,650 Cr from launched unsold (Jun-26) | multibagg [V] |
+| §08: "Promoter ~74.08%" | 74.08% | Correct (unchanged Sep-26) | screener [V] |
+| §09 valuation framing | no EV/EBITDA; P/E only | Add: company FY26 EBITDA ₹3,070 Cr vs screener OP ₹1,449 Cr (basis gap: ₹1,825 Cr other income). EV/EBITDA ~49× on company EBITDA | multibagg / screener [V] |
+
+### primers/lodha-developers.html
+
+| Location | What it says | What's correct | Source |
+|---|---|---|---|
+| Cover: "~₹1.0 L Cr Market cap (mid-2026)" | ₹1.0 L Cr | **₹1,08,311 Cr @ ₹1,092** (13-Oct-2026) | screener [V] |
+| §08 table: "Price ~₹900–1,000/share" | ₹900–1,000 | ₹1,092 (52-week ₹651–1,345) | screener [V] |
+| §08: "P/E · P/B ~29× · ~4.3×" | 29× / 4.3× | **26.2× / 4.7×** | screener [V] |
+| §08: "ROE · ROCE ~15.8% · ~16.6%" | 15.8 / 16.6 | 15.5% / 16.4% (current screener) | screener [V] |
+| §07 & §08: "Promoter ~72.3% (Mar 2026)" | 72.3% | **70.31% (Jun-26)** after a June-2026 promoter-group sale of ~1.99 crore shares (~₹1,864 Cr, Hightown Constructions and Homecraft Developers & Farms, via Jefferies) | screener [V]; TT&A deal note [K] |
+| §07: "FIIs ~21% and DIIs ~5%" | 21 / 5 | **FII 23.65%, DII 3.56%** (Jun-26) | screener [V] |
+| Cover / §05: "near-net-cash growth machine", "near-net-cash balance sheet" | near net cash | Net debt is **₹4,930 Cr (Jun-26), 0.20×**. That is low leverage but not net cash. Gross borrowings were ₹9,896 Cr at Mar-26 | multibagg [V]; screener [V] |
+| §05: "Total borrowings fell from ~₹11,500 crore in FY22 toward ~₹7,000 crore" | gross debt ~₹7,000 Cr | Gross borrowings **rose to ₹9,896 Cr in FY26** (from ₹7,094 Cr in FY25). Only net debt fell. The sentence misleads | screener [V] |
+| Cover / §05 / §08: "Net debt ~₹5,380 Cr" | ₹5,380 Cr | Company Q4 update: ₹53.7 bn = **₹5,370 Cr**. The primer itself cites ₹5,370 Cr in its sources. Now ₹4,930 Cr (Jun-26) | FPJ [V]; multibagg [V] |
+| Missing: Q1 FY27 | — | Pre-sales ₹4,630 Cr (+4%); collections ₹4,210 Cr (+46%); revenue ₹4,997 Cr (+43%); **PAT ₹1,373 Cr (+103%)**, aided by ~₹1,200 Cr of land sales; adj. EBITDA margin 43%. FY27 guides reiterated: pre-sales ₹24,000 Cr, PAT ~+20% | screener [V]; multibagg [V] |
+| §08 key metrics: "Adj. EBITDA (FY26) ~₹5,650 Cr" | company basis | State the basis: screener OP is ₹4,923 Cr (29.5%) | screener [V] |
+| Cover title "legally Macrotech Developers until its 2025 rename" | — | OK. The BSE code 543287 is unchanged | [K] |
+
+### primers/phoenix-mills.html
+
+| Location | What it says | What's correct | Source |
+|---|---|---|---|
+| Cover: "~₹73,300 Cr Market cap (Jul '26)" | ₹73,300 Cr | **₹68,130 Cr @ ₹1,903** (13-Oct-2026) | screener [V] |
+| §09: "~59× Trailing P/E (Jul '26)"; "at ~60× earnings" | 59–60× | **52.5×** | screener [V] |
+| Whatsnew / §00 / §09: "consol. PAT ₹1,557 Cr", "~₹1,557 Cr of net profit" | ₹1,557 Cr as "net profit" | ₹1,557 Cr **includes minority interest** (GIC/CPP platform partners). **Profit attributable to owners is ~₹1,208 Cr** (FY25 ₹998 Cr). P/E is computed on the latter. The primer should label the basis | ICICI Sec [V]; screener [V] |
+| §09: "~1.2× Net debt / EBITDA" | 1.2× | 1.19× at Mar-26 (net debt ₹3,160 Cr) → **1.3× at Jun-26 (net debt ₹3,658 Cr, gross ₹5,658 Cr)**. The primer never states the absolute net debt | ICICI [V] |
+| §09 bear case: "EV/EBITDA in the high-20s" | high-20s | ~26.5× TTM (EV ₹71,788 Cr, excluding minority interest) | [E] |
+| Missing: Q1 FY27 | — | Revenue ₹1,075 Cr (+12.8%); EBITDA ₹642 Cr (59.7%); **consumption ₹4,730 Cr (+32%)**; retail rent ₹594 Cr (+17%); office revenue +44%; Q1 capex ₹1,085 Cr + ₹771 Cr land (Chandigarh) | ICICI [V]; screener [V] |
+| §08 ownership: FII/DII not given | — | Promoter 47.25%, **FII 31.73% (from 36.3% Jun-25), DII 17.38%** (Jun-26) | screener [V] |
+| §05: "trading occupancy ramping toward ~90%" | generic | Specific guidance: Avenue of Stars Pune → 95%, PMC Bengaluru → 90% trading occupancy by mid-FY27. >50% of mall area reprices over the next 3 years | ICICI [V] |
+| §06 offices: "portfolio occupancy ~70% at March 2026" | 70% | OK for the overall 4.8 msf. Stabilised offices were 84% at Jun-26 and new offices 64%; Q1 FY27 gross leasing was 3.54 msf | ICICI [V] |
+| Pipeline (§06): Kolkata, Surat | no pre-leasing data | Kolkata Grand Victoria 79% pre-leased, Surat 41%; both to open by FY28. Kolkata residential launch ~Q4 FY27 | ICICI [V] |
+| Whatsnew: "₹5,450 Cr buy-out of CPP Investments' 49% in the Bangalore mall platform" | ₹5,450 Cr | **Not verified this session.** Flag for check against the PML filing | — |
+
+### primers/prestige-estates.html
+
+| Location | What it says | What's correct | Source |
+|---|---|---|---|
+| Cover / §09: "~₹72,000 Cr Market cap (Jul '26)"; "Price ~₹1,670/share" | ₹72,000 Cr / ₹1,670 | **₹64,432 Cr @ ₹1,485** (13-Oct-2026; 52-week ₹1,090–1,805) | screener [V] |
+| §09: "P/E · P/B ~54–60× · ~4.3×" | P/B 4.3× | P/E **56.6×** (in range); **P/B 3.9×** (BV ₹378) | screener [V] |
+| §08 / §09: "Promoter holding ~Razack family Majority; diluted from ~65%" | no number | **60.95%** (Jun-26; 65.48% before the Sep-24 QIP). **FII 13.27%, DII 23.51%** | screener [V] |
+| §09 / whatsnew: "PAT ₹1,312 Cr (+113%)" | ₹1,312 Cr | Total PAT incl. minority: screener ₹1,305 Cr. **Owners' share ~₹1,195.5 Cr**. Label the basis | screener [V]; [K] BS snippet |
+| §09: "Revenue FY26 ~₹13,196 Cr (+71%)" | ₹13,196 Cr | This is total income incl. other income. **Revenue from operations ₹12,685 Cr (+72.6%)**. The primer's chart mixes bases with FY24–25 (rev. from ops) | screener [V] |
+| Cover / §07: "~₹10,908 Cr Net debt (Mar '26, 0.65×)" | ₹10,908 Cr | Correct for Mar-26, but **net debt rose to ~₹11,900 Cr at Jun-26 (D/E 0.69×)**; gross ~₹15,000 Cr, cash ~₹3,300 Cr. Management sees FY27 net debt rising ₹1,000–1,500 Cr. Corporate guarantees ~₹11,000 Cr (nearly doubled) are not mentioned | Cofacto Q1 call [V] |
+| Missing: Q1 FY27 | — | **Pre-sales ₹6,579 Cr (−46% YoY)** (6.04 msf, 3,337 units; Hyderabad 49%); collections ₹4,802 Cr; revenue ₹2,675 Cr (+16%); PAT ₹271 Cr (−13%; owners ~₹236 Cr, −19%) | PropNewsTime [V]; screener [V]; Cofacto [V] |
+| §04–05 annuity: "office rent … ~₹3,300 Cr (FY28) → ~₹4,000 Cr (FY30)" | FY28 trajectory intact | **FY27 and FY28 office-rental guidance was cut in the Q1 FY27 call** (Techzone and GRC completion moved from Mar-27 to Jun-27). FY27 office exit rental ~₹865 Cr | Cofacto [V] |
+| §06: "₹58,000-crore FY27 launch pipeline (69 projects / ~98 msf)" | ₹58,000 Cr | After Q1 (4 launches, ~₹12,000 Cr GDV), the pending FY27 pipeline is ~₹45,000 Cr. Approval (RERA) delays are the key risk | Cofacto [V]; PL [V] |
+| Missing event | — | **Hospitality IPO or private deal under consideration** (approval valid to Sep-2026). A Maharashtra data-centre MoU (100 MW). The secretarial audit flagged KMP-remuneration disclosure non-compliance | Cofacto [V] |
+| §06 / §08: "15–20% pre-sales growth guided" | OK | Retained; equals ₹35,000–36,000 Cr | PropNewsTime [V] |
+
+### primers/oberoi-realty.html
+
+| Location | What it says | What's correct | Source |
+|---|---|---|---|
+| Cover / §09: "~₹70,300 Cr Market cap (Jul '26)"; "Share price ~₹1,934" | ₹70,300 Cr / ₹1,934 | **₹62,571 Cr @ ₹1,720** (13-Oct-2026) | screener [V] |
+| §09: "P/E (trailing) ~25–29×"; "P/B ~3.3–3.9×" | ranges | **23.6× / 3.5×** | screener [V] |
+| Overview / §06: "~₹6,000 Cr ultra-luxury launch in Gurugram"; "GDV ~₹6,000–10,000 Cr" (Three Sixty North) | ₹6,000–10,000 Cr | **Phase 1 alone booked ₹8,109 Cr gross** (13.52 lakh sq ft carpet, ~₹35,000/sq ft saleable) in July 2026. **Total GDV ~₹14,000 Cr**, with Phase 2 (~₹7,500 Cr) in FY28 | Sahi [V]; ICICI [V]; PL [V] |
+| Missing: major legal event | — | **Punjab & Haryana HC (7-Jul-2026) restrained fresh allotments in Three Sixty North** on a licence challenge by Advance India Projects Ltd (FDI-norm allegations). Reportedly extended to 25-Sep-2026. Oberoi says existing sales and construction are unaffected. This is a key risk; ICICI flags it | ICICI [V]; LiveLaw / Bar & Bench [K] |
+| Missing: Q1 FY27 | — | **Pre-sales ₹1,050 Cr (−36% YoY)**; revenue ₹1,301 Cr (+31.7%); EBITDA margin 56.4%; PAT ₹544 Cr (+29%); Sky City Mall occupancy 82% (from 72%); ₹2 interim dividend | PL [V]; ICICI [V]; screener [V] |
+| §05: "Lease rentals ~₹1,190 Cr in FY26 … (+37%)" | ₹1,190 Cr | Broker data puts FY26 investment-property operating revenue at ~₹1,327 Cr (+38%). The basis likely differs (with/without CAM), so state it. Q1 FY27 lease rentals ₹364 Cr (+19%) | [K] broker snippet; ICICI [V] |
+| §05 / §00: "Commerz III … as it fills" | ramping | Commerz III is **98%** occupied (Jun-26); Commerz II 100%, Oberoi Mall 99% | ICICI [V] |
+| §05 hotels: "planned Ritz-Carlton (Worli)" | no date | Ritz-Carlton Worli is targeted for **Q4 FY27**; Marriott Sky City H1 FY28 | ICICI [V]; PL [V] |
+| Ownership: "~67.7% promoter" | OK | 67.71% (Jun-26), **nil pledge**. FII 15.11%, DII 14.83% (not in primer) | screener [V]; PL [V] |
+| §04: "units fell ~24%" | 24% | 929 → 698 = −24.9% (~25%; the company release says ~25%) | FPJ [V] |
+| §09: "dividend ₹8/share for FY26" | ₹8 | Not verified this session. Screener shows a 12% FY26 payout on EPS ₹68.96 (≈₹8.3), so consistent; PL's DPS table shows ₹2.3. Flag for check | screener [V]; PL [V] |
+
+### primers/godrej-properties.html
+
+| Location | What it says | What's correct | Source |
+|---|---|---|---|
+| Cover: "~₹60,100 Cr Market cap (Jun–Jul '26)"; subtitle "a ₹60,000-crore price tag" | ₹60,100 Cr | **₹48,009 Cr @ ₹1,594** (13-Oct-2026); the stock is −32% from its 52-week high of ₹2,352 | screener [V] |
+| §08: "~32× Trailing P/E on FY26 EPS (~₹61) at ~₹1,990–2,000"; "~3.1× book" | 32× / 3.1× / ₹2,000 | **29.7× TTM** (TTM EPS ₹53.1), **P/B 2.5×** (BV ₹636), price ₹1,594 | screener [V] |
+| §07 / §08: "ROE around 10% and ROCE around 8%" | ~10% / ~8% | **ROE 8.8%, ROCE 7.6%** (current screener) | screener [V] |
+| §05 ownership: "~51.7% … Promoters modestly raised their stake into FY26" | "modestly" | Not modest: promoters bought **~5% in the open market in FY26 for ~₹2,674 Cr at ~₹1,775/share** (47.17% Dec-25 → 51.66% Mar-26), and also ~5% of Godrej Industries (~₹1,896 Cr) | screener [V]; FPJ / DSIJ [K] |
+| §10 & §08: "₹39,000 Cr+ in FY27 (~20% growth)" | ~20% growth | ₹39,000 Cr vs FY26 ₹34,171 Cr = **~+14%** | [E] from FPJ [V] / multibagg [V] |
+| Cover / §03: "Net debt ₹6,414 Cr" | ₹6,414 Cr | Correct for Mar-26; **₹7,637 Cr at Jun-26 (D/E 0.39 vs 0.33)** | multibagg [V] |
+| Missing: Q1 FY27 | — | **Record Q1 bookings ₹8,651 Cr (+22%)**; collections ₹4,348 Cr (+18%); OCF ₹399 Cr; **PAT ₹350 Cr (−42%)** on 0.9 msf deliveries; BD ₹9,500 Cr. FY27 guidance maintained (₹39,000 Cr bookings, ₹48,000 Cr launches, ₹24,000 Cr collections, BD ₹20,000 Cr); 20% ROE and FCF-positive from FY28 | multibagg [V]; screener [V] |
+| §08 valuation: no mention of negative screener OP / CFO | — | Screener operating profit is **negative (−₹453 Cr FY26)** and statutory CFO is **−₹2,003 Cr**, vs company OCF +₹7,830 Cr. The primer should explain the JV/other-income and OCF-definition bases | screener [V]; FPJ [V] |
+| §10: "adjusted EBITDA margin ~31.6% → ~35.3% in FY26" | | Not verified this session | — |
+| FII share not stated | — | FII 25.32% (30.5% a year earlier), DII 9.03% (Jun-26) | screener [V] |
+
+### primers/anant-raj.html
+
+| Location | What it says | What's correct | Source |
+|---|---|---|---|
+| Cover: "~₹20,600 Cr Market cap (Jul '26)" | ₹20,600 Cr | **₹20,245 Cr @ ₹563** (13-Oct-2026) | screener [V] |
+| §00 / §08: "~37× trailing earnings" | 37× | **35.0×** | screener [V] |
+| Cover / §04: "28 MW live · 307 MW planned"; "~307 MW by 2031-32" | 307 MW | The company's Aug-2026 presentation roadmap is **357 MW by FY32** (Manesar 50 + Panchkula 57 + Rai 200 + Andhra Pradesh 50). 307 MW is the Haryana-only figure | Q1 FY27 presentation [V] |
+| §04: "Today Anant Raj has 28 MW live across Manesar, Panchkula and its Rai (Sonepat) campus"; table "FY26 · live now Manesar + Panchkula + Rai 28 MW" | Rai is live | **28 MW = 21 MW Manesar + 7 MW Panchkula.** Rai is **not yet operational** (building ready for 100 MW; work started on 20 MW) | presentation [V] |
+| §04: "Dec 2026 target … 63 MW" | Dec-2026 | The company now says **63 MW by end of FY27** (+35 MW at Manesar and Rai "in the current financial year"). This is a slip from Dec-26 to Mar-27 | presentation [V] |
+| Whatsnew / §09: "board forms committee to evaluate demerging" | evaluation stage | **Board approved a Composite Scheme of Arrangement**: the data-centre and cloud business is demerged into **Ashok Cloud Pvt Ltd**, 1 share for 1 share (FV ₹2), with "two independently listed companies" intended. The scheme still needs NCLT, exchange and shareholder approvals | presentation slide 10 [V] |
+| §01 timeline: "FY25 … raises ₹1,100 Cr via QIP and prepays debt" | QIP in FY25 | The ₹1,100 Cr QIP was in **October 2025 (FY26)** at ~₹662. An earlier QIP was in ~Mar-2024 (FY24; promoter 63.3% → 60.0%). FY26 CFF of +₹1,235 Cr confirms the FY26 timing | presentation timeline [V]; screener CF / shareholding [V] |
+| §01 / §06: "Promoters (the Sarin family) hold ~60%" | ~60% | **57.43%** (Jun-26) after the Oct-25 QIP. FII 10.74%, DII 4.60%, public 27.22% | screener [V] |
+| Cover subtitle: "data-centre arm is barely 7% of revenue" | 7% (FY26) | In Q1 FY27 data centre, infra and allied revenue was **₹90 Cr of ₹631 Cr (~14%)** | presentation [V] |
+| §02 / §06: "roughly 300 acres" | ~300 acres | The company states **~320 acres** of debt-free Delhi-NCR land | presentation [V] |
+| §08: "~29% FY26 EBITDA margin (₹723 Cr)" | 29% | This is the company basis incl. other income. **Screener OPM is 26.1% (OP ₹656 Cr)**. State the basis | screener [V] |
+| §08 charts: "FY24 revenue ~1,491; PAT 266" | ₹1,491 / ₹266 Cr | Screener: FY24 revenue ₹1,483 Cr, PAT ₹271 Cr (minor) | screener [V] |
+| §07 balance sheet: "near-zero net debt" | OK | The company chart shows FY26 net debt **₹0** (FY25 ₹50 Cr). But statutory **CFO was −₹435 Cr in FY26** (FCF −₹796 Cr), which the primer does not flag | presentation [V]; screener [V] |
+| Missing: Q1 FY27 | — | Revenue ₹631.4 Cr (+6.6%); EBITDA ₹202.7 Cr (31.15%); PAT ₹149.2 Cr (+18.5%). GH-2 "The Estate One" (₹2,180 Cr est. revenue) is RERA-cleared and ready to launch | presentation [V] |
+
+---
+*End of batch 1. Q2 FY27 operational updates for all seven were not available or found as of 13-Oct-2026. Re-check DLF, Lodha, Prestige and Godrej (usually published in the first 10 days after quarter-end, so they are slightly late this year) and the Phoenix business update before the industry file is finalised.*
