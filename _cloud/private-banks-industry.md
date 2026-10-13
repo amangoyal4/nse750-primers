@@ -183,3 +183,84 @@ Derived: combined P/E 17.7× FY26 standalone PAT; P/B 2.13× Mar-26 standalone n
 - Ownership events: IDBI SPA/cabinet/RBI/CCI approvals and open offer; Fairfax exit from CSB; SMBC stake path at Yes; Blackstone warrant conversion at Federal (18-month validity from allotment).
 - Leadership: Bagchi at HDFC from 27 Oct 2026 (postal ballot closes 6 Nov 2026); Saha at Kotak from 1 Jan 2027.
 - Q2 FY27 results calendar (HDFC/ICICI/Axis/Kotak typically 17–25 Oct).
+
+---
+
+## A. The defining forces (3–5), with reasoning
+
+**Force 1 — The deposit war: cheap money is the scarce input, and it is getting scarcer.**
+Evidence: SA share of system deposits fell from 34.6% (Mar-22) to 28.7% (Mar-26); term deposits rose from 55.2% to 61.6% of the total; 46.3% of term deposits are ≥₹1 Cr (bulk, rate-sensitive) (RBI BSR-2 Mar-26) [V]. HDFC Bank's CASA ratio slid from ~38% (Sep-23) to 34% (Mar-26) to 32.3% (Jun-26) and 31.6% (Sep-26) [V HDFC Q2 update; secondary for Sep-23]. IndusInd 31.3% → 29.4%; Yes 35.1% → 32.7% → 30.0% (Sep-26, 31.7% ex-FCNR); RBL avg CASA 25.2%; CSB 23% → 19% [V]. The exception: IDFC First (50.8%) and Federal (+18% CASA growth, 32.2%) — both paying up on savings rates or NRI flows. The FCNR(B) window (US$11.5 bn at HDFC alone) is a policy-made deposit supply — it temporarily flatters Q2 deposit growth (HDFC +18.8%, Yes +19.5%, IDFC +25.9% incl. FCNR) [V]. Reasoning: in a bank, the loan side is easy to grow and hard to price; the deposit side decides both the speed and the margin. Post-merger HDFC (LDR ~110% in 2023 → ~95–97% now) [K/V] is the purest case.
+
+**Force 2 — The rate cycle whiplash: 125 bp of cuts compressed margins; the first hike (Oct 2026) starts the reversal.**
+Evidence: Axis NIM 3.80% (Q1 FY26) → 3.62% (Q4) → 3.46% (Q1 FY27), "cycle bottom" per management [V]; HDFC 3.26% on total assets, its lowest on record [V-secondary]; Kotak 4.65% → 4.53% [V]. But banks with costlier deposits that reprice gained as TD costs fell: Federal NIM +39 bp to 3.33%, KVB +48 bp to 4.34%, Karnataka +38 bp to 3.20%, IDFC +25 bp to 5.96%, Yes +20 bp to 2.7%, IndusInd 3.46 → 3.57% [V]. Mechanism: ~57% of ICICI's domestic loans reprice with repo within ~a quarter (EBLR), 30% are fixed, 13% MCLR [V]; deposits reprice only as TDs mature (69.8% of system TDs are 1–3 years) [V]. Hence cuts hurt EBLR-heavy, CASA-rich banks first; high-TD, fixed-rate-asset banks (gold, MFI, vehicle) benefit when TD costs fall. A hike reverses the order. The 7 Oct 2026 hike to 5.50% and "calibrated tightening" stance [V] plus RBI CPI path of ~6% in Q3 FY27 make H2 FY27 a margin-expansion window for EBLR-heavy banks — offset by the FCNR swap cost and a renewed TD price war.
+
+**Force 3 — The unsecured and microfinance credit cycle is ending; the ECL regime is coming.**
+Evidence: MFIN PAR 31–180 2.0% (Mar-26) vs 6.3% (Mar-25), industry MFI book −12% YoY (to Jun-26) [V-secondary]. Bandhan GNPA 5.0% (Jun-25) → 3.1% (Jun-26), EEB collection efficiency 98.5% [V]; IDFC provisions/avg loans 2.69% → 1.53% [V]; Yes retail slippage 4.3% → 2.7% of advances [V]; RBL GNPA 2.32% (Sep-25) → 1.02% (Sep-26) [V screener + PR]; IndusInd rural (MFI) book −26% YoY [V]. Risks: SMA-1 rose in Mar-26 and unsecured loans are >50% of fresh retail slippages (FSR Jun-26) [V-secondary]; ECL from 1 Apr 2027 [V-secondary]. Reasoning: FY26 earnings at the mid-size banks were crushed by credit costs (Bandhan PAT −55%, IndusInd −65%); FY27 profits jump as provisions fall (IDFC Q1 PAT +132%, RBL Q2 +170%) — the "recovery trade".
+
+**Force 4 — Ownership and leadership reset: foreign strategic capital and new CEOs at half the sector.**
+Evidence: ENBD 60% of RBL (Jun-26); SMBC ~24.99% of Yes; Blackstone 9.99% of Federal; Fairfax for IDBI (60.72%); Warburg/ADIA in IDFC First; LIC to 9.99% of HDFC [V/V-secondary]. CEO changes: HDFC (Bagchi from 27 Oct 2026, the first outsider), Kotak (Saha from 1 Jan 2027, third CEO in three years), IndusInd (Anand Aug 2025), Yes (Tonse Apr 2026), CUB (Vijay Anandh May 2026), Karnataka Bank (Bhat Nov 2025), DCB (Kutty) [V/V-secondary/primers]. Governance episodes: IndusInd derivatives (2025), HDFC chairman resignation citing ethics (Mar 2026) and MSRDC review (Jul 2026), Kotak RBI curbs (2024–25) [V/K]. Reasoning: capital is plentiful (RBL CET1 32%), so the constraint shifts to management credibility; the market re-rates banks on who owns and runs them (RBL P/B 1.4× from <1× a year ago; CSB −44% on Fairfax exit risk) [V].
+
+**Force 5 — Two-speed sector: winners compound, the middle rebuilds, the old southern banks quietly out-earn.**
+Evidence (Q1 FY27 RoA) [V]: ICICI 2.49%, Kotak 2.14%, TMB 2.14%, KVB 2.11%, IDBI 1.89%, CUB 1.57%, Axis 1.51%, Karnataka 1.29%, Federal 1.22%, IDFC 1.06%, Bandhan 1.0%, Yes 0.9%. ICICI's PAT (₹50,147 Cr) is now two-thirds of HDFC's despite a 42% smaller deposit base; its m-cap is 88% of HDFC's [V screener]. Valuation dispersion: P/B 0.89× (J&K) to 3.23× (Kotak) [V screener].
+
+## B. Deep-dive themes (2–4)
+1. **After the merger: HDFC Bank and the LDR arithmetic** — how a bond-funded mortgage book forced a three-year deposit chase; CASA cost; why ₹1 of CASA lost costs ~3–4% of spread; FCNR window helps; new CEO.
+2. **NIM through the rate cycle: the EBLR asymmetry** — worked example of a 125 bp cut hitting a 57%-EBLR bank vs a 30%-EBLR bank; deposit repricing lag; CRR cut offset; first hike.
+3. **The ownership revolution** — SMBC/Yes, ENBD/RBL, Blackstone/Federal, Fairfax/IDBI, the price paid (P/B), what changes (capital, cost of funds via ratings — RBL upgraded to AAA [V]; Yes upgrades by Moody's/CARE/ICRA and an S&P rating [V]).
+4. **KPI masterclass** (separate).
+
+## C. The revenue/profit equation (worked ₹ example, ILLUSTRATIVE)
+`PAT = [Avg interest-earning assets × NIM + Fee & other income − Operating expenses − Provisions] × (1 − tax rate)`
+`RoA = NII/assets + Other income/assets − Opex/assets − Provisions/assets − Tax/assets`; `RoE = RoA × (Assets ÷ Equity)`.
+Worked example — a ₹1,00,000 Cr-asset mid-size private bank:
+- Interest-earning assets 92% = ₹92,000 Cr; NIM 3.8% → NII ₹3,496 Cr (3.50% of assets).
+- Fees and other income ₹1,500 Cr (1.50%).
+- Net total income ₹4,996 Cr; opex ₹2,500 Cr (2.50% of assets; cost-to-income 50%).
+- PPOP ₹2,496 Cr (2.50%).
+- Loans ₹70,000 Cr × credit cost 0.6% = ₹420 Cr (0.42% of assets).
+- PBT ₹2,076 Cr; tax 25.2% = ₹523 Cr; **PAT ₹1,553 Cr → RoA 1.55%**.
+- Equity 11% of assets (₹11,000 Cr; leverage 9.1×) → **RoE ~14.1%**.
+Sensitivities: NIM ±10 bp → PAT ±₹69 Cr (±4.4%); credit cost +50 bp → PAT −₹262 Cr (−17%); CASA +5 pp (₹4,250 Cr of deposits moved from TD at 6.5% to SA at 2.75%) → interest saved ₹159 Cr pre-tax (+~₹119 Cr PAT, +7.7%) [E arithmetic].
+
+## D. Stat strip (₹ only, with sources)
+| Cell | Value | Source |
+|---|---|---|
+| Combined deposits, 19 banks | ₹95.6 lakh Cr (Mar-26) | screener standalone balance sheets [V] |
+| Combined PAT FY26 | ₹1.97 lakh Cr (standalone) | screener [V] |
+| Combined m-cap | ₹34.9 lakh Cr (13 Oct 2026) | screener [V] |
+| Share of system deposits | ~36% | ₹95.6 ÷ ₹262.3 lakh Cr (RBI, Mar-26 via ICICIdirect) [E] |
+| Repo rate after first hike | 5.50% (7 Oct 2026) | RBI MPC [V] |
+| Listed in NSE 750 | 19 | members.json [V] |
+
+## E. Chart-ready datasets
+1. **Repo path** (%): Jan-25 6.50; Feb-25 6.25; Apr-25 6.00; Jun-25 5.50; Dec-25 5.25; Aug-26 5.25; Oct-26 5.50 [V].
+2. **System deposit mix** (RBI BSR-2): SA share 34.6% (Mar-22) → 28.7% (Mar-26); TD share 55.2% → 61.6%; TDs <7% rate 27.3% (Mar-25) → 61.8% (Mar-26) [V].
+3. **CASA ratio Q1 FY27** (%): IDFC 50.8; IDBI 43.6; J&K 42.0 (Q2); Kotak 40.3; ICICI 39.5; Axis 38; SIB 33.0; Yes 32.7; KTK 32.4; HDFC 32.3; Federal 32.2; IndusInd 29.4; Bandhan 29.4; RBL 29.2; KVB 27.6; CUB 26.6; TMB 26.2; DCB 21.7; CSB 19 [V].
+4. **NIM Q1 FY27** (%): Bandhan 6.2; IDFC 5.96; Kotak 4.53; ICICI 4.36; KVB 4.34; RBL 4.13 (Q2 4.61); CUB 3.78; CSB 3.66; IDBI 3.61; IndusInd 3.57; Axis 3.46; Federal 3.33; J&K 3.28; HDFC 3.26 (total assets; 3.40 IEA); Karnataka 3.20; Yes 2.7; TMB/SIB/DCB n/a [V].
+5. **GNPA / NNPA Q1 FY27** (%): KVB 0.74/0.19; TMB 0.69/0.17; HDFC 1.17/0.41; Kotak 1.18/0.27; Axis 1.28/0.39; Yes 1.3/0.2; RBL 1.30/0.37 (Q2 1.02/0.29); ICICI 1.38/0.35; SIB 1.38/0.26; IDFC 1.51/0.44; Federal 1.52/0.18; CUB 1.73/0.61; CSB 1.75/0.39; IDBI 2.30/0.16; J&K 2.37/0.60; DCB 2.43/0.84; Karnataka 2.58/0.87; Bandhan 3.1/0.9; IndusInd 3.25/0.95 [V; CSB from screener].
+6. **RoA Q1 FY27** (% annualised): ICICI 2.49; Kotak 2.14; TMB 2.14; KVB 2.11; IDBI 1.89; CUB 1.57; Axis 1.51; Karnataka 1.29; Federal 1.22; IDFC 1.06; Bandhan 1.0; Yes 0.9 [V]; FY26 screener-derived for the rest (HDFC 1.80, J&K 1.32, SIB 1.09, DCB 0.89, CSB 1.20, RBL 0.50, IndusInd 0.17) [E].
+7. **Market cap 13 Oct 2026** (₹ Cr): HDFC 11,01,904; ICICI 9,72,861; Kotak 4,37,106; Axis 3,94,008; IDBI 89,213; Federal 81,417; IndusInd 68,366; IDFC 68,064; Yes 65,512; RBL 59,906; KVB 33,674; Bandhan 27,738; CUB 23,224; J&K 15,340; TMB 13,843; KTK 12,975; SIB 12,870; DCB 6,774; CSB 5,341 [V].
+8. **P/B (standalone BV, 13 Oct 2026)**: Kotak 3.23; ICICI 2.78; KVB 2.39; CUB 2.20; Federal 2.10; HDFC 1.90; Axis 1.86; IDFC 1.40; RBL 1.40; IDBI 1.32; TMB 1.31; Yes 1.25; SIB 1.09; CSB 1.09; Bandhan 1.08; IndusInd 1.04; DCB 1.03; Karnataka 0.98; J&K 0.89 [V/E].
+9. **Advances growth YoY Q1 FY27** (%): RBL 23 (Q2 42); J&K 25; CUB 25; TMB 27; IDBI 22; IDFC 20.6; ICICI 19.6; Axis 19; Yes 18.3; Karnataka 17; SIB 17; DCB 17; Bandhan 16.4; HDFC 15.4 (gross); Kotak 15; Federal ~15; KVB ~16 (total business 15.9); CSB 24; IndusInd −2.2 [V].
+10. **Credit cost** (% of avg loans, Q1 FY27 annualised): Kotak 0.46; Federal 0.41; Axis 0.63; RBL 0.63 (Q2); IDFC 1.53; Yes 0.3% of assets; HDFC ~0.40 (secondary) [V].
+11. **PAT growth FY26 vs FY25** (standalone %): Yes +44.5; KVB +29.2; IDBI +26.6; DCB +19.0; RBL +18.3; CUB +18.0; J&K +13.5; TMB +13.1; SIB +11.7; HDFC +10.9; IDFC +7.3; CSB +6.6; ICICI +6.2; Karnataka +3.0; Federal +1.6; Axis −7.3; Kotak −14.8; Bandhan −55.4; IndusInd −64.7 [V screener].
+12. **Where ₹100 of income goes** (combined, ILLUSTRATIVE): interest ₹49, staff ₹9, other opex ₹12, provisions ₹7, tax ₹6, PAT ₹17 [E].
+
+## F. KPI glossary with ranges
+(See section 9 for the full table.) Additional native terms: **PPOP** (pre-provision operating profit) = NII + other income − opex; **core PPOP** excludes treasury; **slippage** = new NPAs in the period; **technical write-off (TWO)** = loans written off in books but still pursued for recovery (PCR "incl. TWO" is higher — Federal 87.4% ex vs 94.2% incl.) [V]; **SMA-0/1/2** = 1–30/31–60/61–90 days past due; **RWA density** = RWA ÷ total assets (HDFC ~₹30.5 lakh Cr RWA vs ~₹45 lakh Cr assets ≈ 68%) [V-secondary/E]; **LDR vs CD ratio** — HDFC quotes gross advances incl. IBPC/securitisation ("advances under management") vs balance-sheet advances; **EBLR** = external-benchmark-linked lending rate; **MCLR** = marginal-cost-of-funds lending rate; **IBPC/BRDS** = inter-bank participation certificates / bills rediscounting (ICICI nets these) [V]; **FCTL** = foreign-currency term loan from IBU (Yes Bank) [V].
+
+## G. Timeline (20 events) — see section 8; the report uses: 1993 licences; 2003 Kotak; 2015 AQR; Mar 2020 Yes; Jul 2023 HDFC merger; Nov 2023 RW hike; Apr 2024 Kotak curbs; Feb 2025 first cut; Mar 2025 IndusInd; Jun 2025 50 bp + CRR; Aug 2025 SMBC; Oct 2025 ENBD–RBL & Blackstone–Federal; Dec 2025 5.25%; Mar 2026 HDFC chairman; Apr 2026 ECL; May 2026 rupee 96.96; Jun 2026 FCNR window & ENBD closing; Jul 2026 Fairfax–IDBI; Oct 2026 Bagchi approved & first hike.
+
+## H. Figures not sourced / not reconciled
+- Private banks' precise share of system credit and deposits for Mar-26 (RBI bank-group table not fetched); dossier uses ~36% of deposits for the 19 members [E] and [K] historical shares.
+- HDFC Bank Q1 FY27 PCR and CASA ratio as reported (CASA 32.3% computed from provisional Jun-26 figures; PCR ~65% [E] = 1 − NNPA/GNPA approximations; management cited ~70% ex-agri, secondary).
+- HDFC Bank CET1 17.4% / CAR 19.6% (secondary sources only).
+- FCNR(B) total mobilised by the system: one outlet's "US$133 billion" is implausible and unverified; bank-level figures (HDFC US$11.5 bn, IDFC ₹34,390 Cr) are verified.
+- System Q2 FY27 credit/deposit growth (19.4% / 17.8%) from a secondary outlet; not reconciled to RBI's fortnightly return.
+- RBL Mar-26 deposits: screener ₹1,39,018 Cr vs Q1 FY27 PR ₹1,24,829 Cr (deposits fell QoQ as RBL ran down bulk/CD funding after the ENBD capital arrived — plausible but not confirmed).
+- NIM for TMB, SIB, DCB for Q1 FY27 (not stated in fetched press-release text).
+- Axis Bank MD & CEO term status beyond 2026 (not verified).
+- Exact SMBC stake in Yes Bank at Sep-26 (screener lists FIIs 46.12%, incl. SMBC).
+- IDBI privatisation: no evidence of a signed SPA or cabinet approval as of 13 Oct 2026.
+- Blackstone warrant conversion status at Federal (allotment confirmed? — not verified).
+- Global bank RoA/P/B comparisons are [K] approximations.
