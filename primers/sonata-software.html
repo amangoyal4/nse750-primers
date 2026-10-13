@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+main{min-width:0;}
   :root{
     --paper:#F4F6FA;
     --paper-2:#FAFBFE;
@@ -254,18 +255,18 @@
 <div class="stat-strip">
     <div class="cell"><div class="v">₹10,701 <small>Cr</small></div><div class="l">Consolidated revenue (FY26)</div></div>
     <div class="cell"><div class="v">₹2,948 <small>Cr</small></div><div class="l">IITS revenue — the real engine</div></div>
-    <div class="cell"><div class="v">~18.5% <small>EBITDA</small></div><div class="l">IITS margin (vs ~7% blended)</div></div>
-    <div class="cell"><div class="v">~₹7,740 <small>Cr</small></div><div class="l">Market cap (Jul 2026) · ~17× P/E</div></div>
+    <div class="cell"><div class="v">18.4% <small>EBITDA</small></div><div class="l">IITS margin FY26 (vs ~7% blended)</div></div>
+    <div class="cell"><div class="v">~₹6,960 <small>Cr</small></div><div class="l">Market cap (13 Oct 2026) · ~13.8× P/E</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">25 Jul 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: Q1 FY27 results (quarter ended Jun 2026) + FY26 annual</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — consolidated revenue ₹10,701 Cr (+5.4%), consolidated PAT ₹464 Cr (+9.3%), IITS revenue $328.4 mn / ₹2,948 Cr at ~18.5% EBITDA margin, DPS revenue ₹7,772 Cr, net-cash balance sheet; added the two-segment optical-trap framing and the 27/73 profit inversion.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b><strong>Q1 FY27 (Jun 2026, reported 7 Aug):</strong> IITS revenue $82.0 mn, +0.1% QoQ and +2.1% YoY in constant currency; IITS EBITDA fell to 15.4% (from 20.2% in Q4) on a reversed one-time pay benefit and a delayed ramp-up of a large fintech deal; consolidated revenue ₹3,279 Cr and PAT ₹108 Cr; order book $97.4 mn (book-to-bill 1.18×), AI order book ~$21 mn; utilisation 88.5%; interim dividend ₹1.25. <strong>New leadership:</strong> Samir Dhir did not extend his contract; Rajsekhar Datta Roy (a 30-year Sonata veteran) is CEO of International Services, Sujit Mohanty CEO of the Domestic business and Srikar Reddy Executive Vice Chairman. DPS signed a five-year collaboration with AWS (Sep 2026). Market cap ~₹6,960 Cr, P/E ~13.8×, P/B ~3.6× (as of 13 Oct 2026). Earlier, FY26: consolidated revenue ₹10,701 Cr (+5.4%), consolidated PAT ₹464 Cr (+9.3%), IITS revenue $328.4 mn / ₹2,948 Cr at an 18.4% EBITDA margin, DPS revenue ₹7,772 Cr, net-cash balance sheet; added the two-segment optical-trap framing and the 27/73 profit inversion.</div>
 </header>
 
 <!-- 00 -->
@@ -279,7 +280,7 @@
   <ul class="clean">
     <li><strong>Most of the "revenue" isn't the business you care about.</strong> Of that ₹10,701 Cr, roughly <strong>₹7,772 Cr (73%) is DPS resale</strong> — pass-through distribution turnover. The engine that actually creates value, IITS, is only <strong>₹2,948 Cr (27%)</strong>. Flip to profit and the picture inverts: IITS generated <strong>~₹544 Cr of the group's ~₹741 Cr EBITDA (73%)</strong>, while all of DPS produced barely a quarter of it. The headline top-line is mostly noise.</li>
     <li><strong>The engine stalled in dollars this year.</strong> Here is the surprise a glance at the rupee figure hides: IITS revenue in its reporting currency actually <em>fell</em> — from <strong>$335.5 mn in FY25 to $328.4 mn in FY26</strong> (about −2%). The consolidated line "grew 5.4%" mostly on a weaker rupee and on DPS turnover. The part of Sonata worth owning shrank slightly even as the group looked like it grew.</li>
-    <li><strong>It is cheap, net-cash, and acquisition-built.</strong> Sonata trades near <strong>₹7,740 Cr market cap at ~17× earnings</strong> — a steep discount to mid-cap IT peers on ~30-40× — with a <strong>net-cash</strong> balance sheet and RoCE above 30%. But its IITS growth over the last five years was <em>bought</em>: a string of US acquisitions (Quant Systems, Encore, Sopris, Scalable) funded largely with cash and debt, leaving goodwill and integration risk on the books.</li>
+    <li><strong>It is cheap, net-cash, and acquisition-built.</strong> Sonata trades near <strong>₹6,960 Cr market cap at ~13.8× earnings</strong> (as of 13 Oct 2026) — a discount to most mid-cap IT peers (roughly 22–28× for LTM, Mphasis and Tech Mahindra; ~45× for Persistent and Coforge) — with a <strong>net-cash</strong> balance sheet and consolidated RoCE above 30% (the company's own figure for IITS alone is lower, 24.5% in Q4 FY26 and 14.9% in Q1 FY27). But its IITS growth over the last five years was <em>bought</em>: a string of US acquisitions (Quant Systems, Encore, Sopris, Scalable) funded largely with cash and debt, leaving goodwill and integration risk on the books.</li>
   </ul>
 
   <div class="plain">
@@ -481,13 +482,14 @@
     <li class="major"><div class="yr">2022</div><div class="ev">Leadership transition — <strong>Samir Dhir</strong> takes over as CEO &amp; MD, sharpening the "Platformation" digital-services strategy and the push into cloud, data and AI.</div></li>
     <li class="major"><div class="yr">2023</div><div class="ev">Largest deal to date — <strong>Quant Systems (~$160 mn)</strong> — bolts scaled US data-analytics and cloud-modernisation onto IITS; goodwill and earn-outs rise.</div></li>
     <li><div class="yr">FY24-FY25</div><div class="ev">IITS scales past $330 mn; Encore, Sopris and Scalable deepen cloud and Dynamics capability; then global IT demand softens.</div></li>
-    <li class="major"><div class="yr">FY26</div><div class="ev">Consolidated revenue ₹10,701 Cr (+5.4%), PAT ₹464 Cr (+9.3%); IITS dollar revenue dips ~2% to $328.4 mn but Q4 turns positive in cc; net-cash balance sheet; final dividend of 415% on the ₹1 face value.</div></li>
+    <li class="major"><div class="yr">FY26</div><div class="ev">Consolidated revenue ₹10,701 Cr (+5.4%), PAT ₹464 Cr (+9.3%); IITS dollar revenue dips ~2% to $328.4 mn but Q4 turns positive in cc; DPS hit as Microsoft moves selected large customers to direct billing; net-cash balance sheet; final dividend of 415% on the ₹1 face value.</div></li>
+    <li class="major"><div class="yr">2026</div><div class="ev">CEO transition — <strong>Samir Dhir</strong> leaves on contract expiry; <strong>Rajsekhar Datta Roy</strong> becomes CEO, International Services, with <strong>Sujit Mohanty</strong> as CEO, Domestic, and <strong>Srikar Reddy</strong> as Executive Vice Chairman (announced May 2026). Q1 FY27 IITS margin resets to 15.4%; DPS signs a five-year AWS collaboration.</div></li>
   </ul>
 
   <h3>Ownership &amp; governance</h3>
   <ul class="clean">
-    <li><strong>Promoter holding:</strong> the promoter group holds roughly <strong>~28% (approx.)</strong> — a modest stake by Indian promoter standards, which means a large free float and a shareholder register weighted toward institutions and the public. Verify the exact figure and any pledge against the latest shareholding filing.</li>
-    <li><strong>Management:</strong> Sonata is a <strong>professionally managed</strong> company rather than a founder-run one — CEO &amp; MD Samir Dhir (ex-industry services leadership) drives strategy, with the promoter group in an ownership rather than day-to-day operating role.</li>
+    <li><strong>Promoter holding:</strong> the promoter group holds <strong>28.17%</strong> (Jun 2026) — a modest stake by Indian promoter standards, which means a large free float and a shareholder register weighted toward institutions and the public (domestic institutions 24.68%, foreign institutions 9.17%). Verify any pledge against the latest shareholding filing.</li>
+    <li><strong>Management:</strong> Sonata is a <strong>professionally managed</strong> company rather than a founder-run one — since Samir Dhir's departure in 2026, strategy is led by <strong>Rajsekhar Datta Roy</strong> (CEO, International Services) and <strong>Sujit Mohanty</strong> (CEO, Domestic), with <strong>Srikar Reddy</strong> as Executive Vice Chairman and the promoter group in an ownership rather than day-to-day operating role.</li>
     <li><strong>Structure to keep straight:</strong> the domestic distribution business runs through a subsidiary (historically Sonata Information Technology Ltd), while IITS is delivered through Sonata's US and international subsidiaries built up by acquisition. The consolidated accounts fold both together — which is exactly the fusion this primer keeps prising apart.</li>
   </ul>
 
@@ -580,17 +582,17 @@
   </div>
 
   <div class="mini-stats">
-    <div class="ms gold"><div class="msv">~18.5%</div><div class="msl">IITS EBITDA margin — the quality number, vs ~6.9% blended</div></div>
-    <div class="ms green"><div class="msv">Net cash</div><div class="msl">~₹30 Cr net cash, ~₹606 Cr gross; RoCE &gt;30%</div></div>
-    <div class="ms red"><div class="msv">~17×</div><div class="msl">P/E on ~₹7,740 Cr market cap — a deep discount to ~30-40× peers</div></div>
+    <div class="ms gold"><div class="msv">18.4%</div><div class="msl">IITS EBITDA margin FY26 (15.4% in Q1 FY27) — the quality number, vs ~6.9% blended</div></div>
+    <div class="ms green"><div class="msv">Net cash</div><div class="msl">~₹67 Cr net, ~₹567 Cr gross (Jun 2026); consolidated RoCE ~31%</div></div>
+    <div class="ms red"><div class="msv">~13.8×</div><div class="msl">P/E on ~₹6,960 Cr market cap (13 Oct 2026) — a discount to most mid-cap peers</div></div>
   </div>
 
   <div class="plain">
     <div class="ptag">The one number that settles the thesis: IITS constant-currency growth × IITS margin</div>
-    <p>Forget the consolidated revenue; it is the most-quoted and least-useful figure Sonata publishes. The case turns on a single compound gauge — <strong>IITS constant-currency revenue growth, read together with the IITS EBITDA margin, net of the goodwill and net-cash the acquisitions left behind.</strong> If IITS reaccelerates from its FY26 dip back toward double-digit cc growth <em>while holding ~18-19% margins</em>, then a ~17× multiple on a net-cash, 30%-plus-RoCE services engine is genuinely cheap, and the distribution optics were hiding value. If IITS stays flat-to-shrinking in dollars — client concentration bites, or GenAI compresses the work — then the discount is the market correctly pricing an acquisition-dependent name whose engine has stopped compounding. Every quarter prints those two IITS numbers; they, not the ₹10,701 Cr headline, are the scoreboard.</p>
+    <p>Forget the consolidated revenue; it is the most-quoted and least-useful figure Sonata publishes. The case turns on a single compound gauge — <strong>IITS constant-currency revenue growth, read together with the IITS EBITDA margin, net of the goodwill and net-cash the acquisitions left behind.</strong> If IITS reaccelerates from its FY26 dip back toward double-digit cc growth <em>while holding ~18-19% margins</em>, then a ~14× multiple on a net-cash, high-RoCE services engine is genuinely cheap, and the distribution optics were hiding value. If IITS stays flat-to-shrinking in dollars — client concentration bites, or GenAI compresses the work — then the discount is the market correctly pricing an acquisition-dependent name whose engine has stopped compounding. Every quarter prints those two IITS numbers; they, not the ₹10,701 Cr headline, are the scoreboard.</p>
   </div>
 
-  <div class="note">The FY25/FY26 figures here are drawn from Sonata's results and cross-checked across reports; segment EBITDA splits and margins are computed from disclosed segment revenue and profit and are <b>approximate</b>. Promoter holding (~28%) and market cap / P/E (as of Jul 2026) are point-in-time and move with the market. Verify every figure against the company's filings before relying on it.</div>
+  <div class="note">The FY25/FY26 figures here are drawn from Sonata's results and cross-checked across reports; segment EBITDA splits and margins are computed from disclosed segment revenue and profit and are <b>approximate</b>. Promoter holding (28.17%, Jun 2026) and market cap / P/E (as of 13 Oct 2026) are point-in-time and move with the market. Verify every figure against the company's filings before relying on it.</div>
 </section>
 
 <!-- 11 -->
@@ -618,7 +620,7 @@
         <li><strong>Acquisition &amp; goodwill risk</strong> — growth was bought; a misstep, a missed earn-out, or a writedown on deals like Quant Systems would hurt.</li>
         <li><strong>Client &amp; Microsoft concentration</strong> — reliance on a few large accounts and on one vendor's channel economics leaves the engine exposed to a single decision elsewhere.</li>
         <li><strong>The GenAI overhang</strong> — a sub-scale mid-cap has less cushion if AI compresses billable services hours across the industry.</li>
-        <li><strong>DPS distorts everything</strong> — thin, volatile margins and a lumpy working-capital cycle muddy the optics and the cash flow.</li>
+        <li><strong>DPS distorts everything</strong> — thin, volatile margins and a lumpy working-capital cycle muddy the optics and the cash flow; in FY26 Microsoft, the main OEM behind DPS, began billing some selected large customers directly (management says renewals have since been kept via the partner route).</li>
       </ul>
     </div>
   </div>
@@ -640,8 +642,9 @@
     <li>AlphaStreet — "Sonata Software Ltd Q1 FY26 Earnings Results."</li>
     <li>Whalesbook — "Sonata Software FY26 Net Sales Rise 5.4% to ₹10,701 Cr."</li>
     <li>Business Standard / PRNewswire — Sonata Software acquisition of Quant Systems Inc. (~$160 mn, all-cash + milestones); HFS Research on Sonata's acquisition strategy.</li>
-    <li>MoneyWorks4Me / Screener.in / Groww — Sonata Software (SONATSOFTW) market cap (~₹7,740 Cr, Jul 2026), P/E (~17×), RoCE &gt;30%, net-cash position.</li>
-    <li>Reveliolabs / StockAnalysis — Sonata Software headcount (~8,013 as of 31 Mar 2026). BSE India — scrip code 532221; NSE — SONATSOFTW.</li>
+    <li>MoneyWorks4Me / Screener.in / Groww — Sonata Software (SONATSOFTW) market cap, P/E, RoCE, net-cash position (Jul 2026).</li>
+    <li>BSE India — scrip code 532221; NSE — SONATSOFTW. (Headcount per the company: 6,283 group / 5,794 IITS at Mar 2026; 6,293 / 5,795 at Jun 2026. An earlier third-party figure of ~8,013 was wrong.)</li>
+    <li>Refresh of 13 Oct 2026 — Sonata Q1 FY27 investor presentation and call transcript (7 Aug 2026) and Q4 FY26 call (11 May 2026), BSE filings; BSE announcements on the AWS collaboration (Sep 2026) and Microsoft award (7 Oct 2026); Screener.in (market cap ₹6,962 Cr, P/E 13.8×, P/B ~3.6×, shareholding Jun 2026, as of 13 Oct 2026).</li>
   </ol>
   <p class="disc">This primer is an educational, plain-English explainer compiled from public sources and is <strong>not investment advice, a recommendation, or a solicitation</strong> to buy or sell any security. Figures are approximate, drawn from company disclosures and third-party reports as of FY26 (year ended March 2026), and may contain errors or become outdated; segment margin splits are computed estimates and several figures (promoter holding, market cap, P/E) are point-in-time. Verify all numbers against primary sources before relying on them. The author holds no position and expresses no view on the stock's suitability for any investor.</p>
 </footer>
