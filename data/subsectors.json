@@ -189,6 +189,23 @@
         "Valuation dispersion"
       ],
       "published": "2026-10-10"
+    },
+    {
+      "name": "Specialty Chem – Fluorochemicals",
+      "slug": "chem-fluorochemicals",
+      "file": "chem-fluorochemicals.html",
+      "sector": "Chemicals",
+      "subsector": "Specialty Chem – Fluorochemicals",
+      "companies": 3,
+      "accent": "#2A4B6E",
+      "hook": "A toll gate on fluorine, priced by quota and by mix: how SRF, Gujarat Fluorochemicals and Navin turn fluorspar into refrigerants, Teflon, crop and drug molecules and battery salts — the Kigali capacity race to 2028, PFAS rules, contract chemistry, GFCL's battery bet and why the market pays 33× to 80×.",
+      "tags": [
+        "Kigali refrigerant race",
+        "Fluoropolymers & PFAS",
+        "Molecules under contract",
+        "Battery-materials bet"
+      ],
+      "published": "2026-10-13"
     }
   ],
   "universe": [
@@ -400,7 +417,7 @@
       "sector": "Chemicals",
       "sub": "Specialty Chem – Fluorochemicals",
       "companies": 3,
-      "report": null
+      "report": "chem-fluorochemicals.html"
     },
     {
       "sector": "Chemicals",
