@@ -15,3 +15,6 @@ refresh/last-run.log
 subsectors/_template/*.md
 # classification working files (source Accord sheet + scripts; local only)
 subsectors/_template/classification/
+
+# local Claude worktrees
+.claude/worktrees/
