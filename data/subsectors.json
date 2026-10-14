@@ -359,6 +359,23 @@
         "Carbon & the EU door"
       ],
       "published": "2026-10-14"
+    },
+    {
+      "name": "Heavy Electrical Equipment",
+      "slug": "heavy-electrical",
+      "file": "heavy-electrical.html",
+      "sector": "Capital Goods",
+      "subsector": "Heavy Electrical Equipment",
+      "companies": 13,
+      "accent": "#173A5E",
+      "hook": "A scarcity boom meets its supply response: how India's grid and power-plant build-out turns into transformer, switchgear and turbine orders, why substations drove the cycle, the HVDC oligopoly, and how margins that tripled in three years could unwind.",
+      "tags": [
+        "The MVA supercycle",
+        "HVDC oligopoly",
+        "Scarcity pricing peaking",
+        "Order books & execution"
+      ],
+      "published": "2026-10-14"
     }
   ],
   "universe": [
@@ -480,7 +497,7 @@
       "sector": "Capital Goods",
       "sub": "Heavy Electrical Equipment",
       "companies": 13,
-      "report": null
+      "report": "heavy-electrical.html"
     },
     {
       "sector": "Capital Goods",
