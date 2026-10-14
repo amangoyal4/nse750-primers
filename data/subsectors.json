@@ -342,6 +342,23 @@
         "Storage as an asset class"
       ],
       "published": "2026-10-14"
+    },
+    {
+      "name": "Iron & Steel",
+      "slug": "iron-steel",
+      "file": "iron-steel.html",
+      "sector": "Iron & Steel",
+      "subsector": "Iron & Steel",
+      "companies": 13,
+      "accent": "#3B2A2F",
+      "hook": "A spread business behind a porous trade wall: how 13 listed mills turn iron ore and imported coking coal into a margin set by Chinese export prices and the safeguard duty, captive mines, the race to 300 MTPA and the carbon costs arriving from Europe.",
+      "tags": [
+        "How the price is set",
+        "Ore, coal & captive mines",
+        "The race to 300 MTPA",
+        "Carbon & the EU door"
+      ],
+      "published": "2026-10-14"
     }
   ],
   "universe": [
@@ -925,7 +942,7 @@
       "sector": "Iron & Steel",
       "sub": "Iron & Steel",
       "companies": 13,
-      "report": null
+      "report": "iron-steel.html"
     },
     {
       "sector": "Iron & Steel",
