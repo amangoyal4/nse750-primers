@@ -274,6 +274,23 @@
         "Offices, malls & REITs"
       ],
       "published": "2026-10-14"
+    },
+    {
+      "name": "IT Services",
+      "slug": "it-services",
+      "file": "it-services.html",
+      "sector": "IT",
+      "subsector": "Computers - Software & Consulting",
+      "companies": 18,
+      "accent": "#0B4F6C",
+      "hook": "A ₹23.8 lakh crore bet on people, repriced for the age of AI: how 18 listed IT firms turn an engineer's hour into dollar revenue, GenAI deal deflation, the H-1B fee and client-owned GCCs, and why the rupee has been paying for flat margins.",
+      "tags": [
+        "GenAI deflation",
+        "Visas, tariffs & GCCs",
+        "The margin bridge",
+        "Tier-1 vs mid-tier"
+      ],
+      "published": "2026-10-14"
     }
   ],
   "universe": [
@@ -869,7 +886,7 @@
       "sector": "IT",
       "sub": "Computers - Software & Consulting",
       "companies": 18,
-      "report": null
+      "report": "it-services.html"
     },
     {
       "sector": "IT",
