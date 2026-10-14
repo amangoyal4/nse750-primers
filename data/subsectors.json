@@ -308,6 +308,23 @@
         "EBITDA per tonne"
       ],
       "published": "2026-10-14"
+    },
+    {
+      "name": "Industrial Products",
+      "slug": "industrial-products",
+      "file": "industrial-products.html",
+      "sector": "Capital Goods",
+      "subsector": "Industrial Products",
+      "companies": 15,
+      "accent": "#2E3F5C",
+      "hook": "Five businesses under one label, a valuation running ahead of its cash: contract electronics, process and cryogenic equipment, precision components, automation and mining consumables, and heavy fabrication — EMS margins, the airfoil bottleneck and ethanol's boom and bust.",
+      "tags": [
+        "Can EMS beat pass-through margins?",
+        "The airfoil bottleneck",
+        "Ethanol's boom & bust",
+        "Valuation vs cash"
+      ],
+      "published": "2026-10-14"
     }
   ],
   "universe": [
@@ -423,7 +440,7 @@
       "sector": "Capital Goods",
       "sub": "Industrial Products",
       "companies": 15,
-      "report": null
+      "report": "industrial-products.html"
     },
     {
       "sector": "Capital Goods",
