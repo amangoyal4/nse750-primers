@@ -291,6 +291,23 @@
         "Tier-1 vs mid-tier"
       ],
       "published": "2026-10-14"
+    },
+    {
+      "name": "Cement",
+      "slug": "cement",
+      "file": "cement.html",
+      "sector": "Construction Materials",
+      "subsector": "Cement & Cement Products",
+      "companies": 15,
+      "accent": "#4A3F35",
+      "hook": "Two giants, a 70% ceiling and a fight over every tonne: how limestone becomes a ₹350 bag, why kilns run at seven-tenths of capacity, how UltraTech and Adani bought control, the regional price map, and the fuel and freight shock from West Asia.",
+      "tags": [
+        "Buying beats building",
+        "Regional price map",
+        "Fuel & freight shock",
+        "EBITDA per tonne"
+      ],
+      "published": "2026-10-14"
     }
   ],
   "universe": [
@@ -514,7 +531,7 @@
       "sector": "Construction Materials",
       "sub": "Cement & Cement Products",
       "companies": 15,
-      "report": null
+      "report": "cement.html"
     },
     {
       "sector": "Construction Materials",
