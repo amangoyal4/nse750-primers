@@ -376,6 +376,23 @@
         "Order books & execution"
       ],
       "published": "2026-10-14"
+    },
+    {
+      "name": "Other Electrical Equipment",
+      "slug": "electrical-equipment",
+      "file": "electrical-equipment.html",
+      "sector": "Capital Goods",
+      "subsector": "Other Electrical Equipment",
+      "companies": 13,
+      "accent": "#1F4D2E",
+      "hook": "Solar cells, wind turbines, transformers and Kavach — a policy rent that keeps moving: four businesses under one label, how long domestic-content cell rents last, China's price ceiling and America's closing door, and wind's localisation moat.",
+      "tags": [
+        "The cell bottleneck",
+        "China's ceiling, US door",
+        "Wind 2.0",
+        "Policy rents"
+      ],
+      "published": "2026-10-14"
     }
   ],
   "universe": [
@@ -503,7 +520,7 @@
       "sector": "Capital Goods",
       "sub": "Other Electrical Equipment",
       "companies": 13,
-      "report": null
+      "report": "electrical-equipment.html"
     },
     {
       "sector": "Capital Goods",
