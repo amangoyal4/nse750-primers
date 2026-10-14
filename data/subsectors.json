@@ -325,6 +325,23 @@
         "Valuation vs cash"
       ],
       "published": "2026-10-14"
+    },
+    {
+      "name": "Power Generation",
+      "slug": "power-generation",
+      "file": "power-generation.html",
+      "sector": "Power",
+      "subsector": "Power Generation",
+      "companies": 14,
+      "accent": "#4A3B0C",
+      "hook": "Cheap noon power, costly nights and a scramble for the evening peak: how 14 listed generators earn from coal, hydro, solar and wind, why firm power is the new scarcity, coal's second act, the delivery race, and storage as an asset class.",
+      "tags": [
+        "Firm power is the new scarcity",
+        "Coal's second act",
+        "Capacity race to delivery race",
+        "Storage as an asset class"
+      ],
+      "published": "2026-10-14"
     }
   ],
   "universe": [
@@ -1070,7 +1087,7 @@
       "sector": "Power",
       "sub": "Power Generation",
       "companies": 14,
-      "report": null
+      "report": "power-generation.html"
     },
     {
       "sector": "Power",
