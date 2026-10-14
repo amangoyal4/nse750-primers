@@ -257,6 +257,23 @@
         "Deposit war"
       ],
       "published": "2026-10-14"
+    },
+    {
+      "name": "Real Estate Developers",
+      "slug": "realty",
+      "file": "realty.html",
+      "sector": "Realty",
+      "subsector": "Residential, Commercial Projects",
+      "companies": 19,
+      "accent": "#8A3324",
+      "hook": "Homes peaked in 2023, the listed few kept winning: how 19 developers book pre-sales years before profit, why margin is made the day land is bought, what the 2026 plateau means, and how offices, malls and REITs became a second engine.",
+      "tags": [
+        "Pre-sales are not revenue",
+        "Margin is made at land purchase",
+        "Reading the 2026 plateau",
+        "Offices, malls & REITs"
+      ],
+      "published": "2026-10-14"
     }
   ],
   "universe": [
@@ -1032,7 +1049,7 @@
       "sector": "Realty",
       "sub": "Residential, Commercial Projects",
       "companies": 19,
-      "report": null
+      "report": "realty.html"
     },
     {
       "sector": "Realty",
