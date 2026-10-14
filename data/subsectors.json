@@ -393,6 +393,23 @@
         "Policy rents"
       ],
       "published": "2026-10-14"
+    },
+    {
+      "name": "Aerospace & Defence",
+      "slug": "aerospace-defence",
+      "file": "aerospace-defence.html",
+      "sector": "Capital Goods",
+      "subsector": "Aerospace & Defense",
+      "companies": 12,
+      "accent": "#3F4A3C",
+      "hook": "A guaranteed customer, a factory waiting on engines: how India's defence budget becomes order books, Operation Sindoor's order surge, why imported engines and seekers decide how fast orders become sales, advances as float, and what 47× earnings assumes.",
+      "tags": [
+        "Operation Sindoor surge",
+        "Engines & seekers",
+        "Advances & float",
+        "What 47× assumes"
+      ],
+      "published": "2026-10-14"
     }
   ],
   "universe": [
@@ -526,7 +543,7 @@
       "sector": "Capital Goods",
       "sub": "Aerospace & Defense",
       "companies": 12,
-      "report": null
+      "report": "aerospace-defence.html"
     },
     {
       "sector": "Capital Goods",
