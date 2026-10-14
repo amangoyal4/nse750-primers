@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+  main{min-width:0;}
   :root{
     --paper:#F3F4F7;
     --paper-2:#FAFBFD;
@@ -257,25 +258,27 @@
     <div class="cell"><div class="v">₹74,670 <small>Cr</small></div><div class="l">Net profit (FY26, standalone)</div></div>
     <div class="cell"><div class="v">₹31.1 <small>L Cr</small></div><div class="l">Deposits · +14.4% YoY</div></div>
     <div class="cell"><div class="v">1.15% <small>GNPA</small></div><div class="l">Gross bad-loan ratio (Mar '26)</div></div>
-    <div class="cell"><div class="v">~₹12.3 <small>L Cr</small></div><div class="l">Market cap (Jun '26)</div></div>
+    <div class="cell"><div class="v">₹11.0 <small>L Cr</small></div><div class="l">Market cap (13 Oct '26)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">30 Jun 2026</b> · source: Q4 &amp; FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: Q4 &amp; FY26 results (year ended Mar 2026) + Q1 FY27 results (Jun 2026) &amp; market data (13 Oct 2026)</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — standalone PAT ₹74,670 Cr (+10.9%), deposits +14.4% outpacing advances +12%, LDR normalising toward ~96%, GNPA 1.15%; added the deposit-race and law-of-large-numbers sections.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b>Q1 FY27 (Jun 2026): standalone PAT ₹19,060 Cr (+5%; ~+10% ex the FY26 HDB IPO gain), NII ₹33,534 Cr (+7%), NIM 3.26% on total assets (3.40% on interest-earning assets) — a record low; deposits ₹31.71 L Cr (+14.7%), gross advances ₹30.61 L Cr (+15.4%), CASA ~32%, GNPA 1.17%. Sep 2026 update: deposits ₹33.28 L Cr (+18.8%) incl. US$11.5 bn of FCNR(B) deposits raised under the RBI swap window. Governance: chairman Atanu Chakraborty resigned in Mar 2026 citing ethical concerns (Keki Mistry interim chair); RBI approved <strong>Anup Bagchi</strong> as MD &amp; CEO from 27 Oct 2026 as Sashidhar Jagdishan did not seek another term. Market cap ₹11.0 L Cr, ~1.9× book (13 Oct 2026).</div>
 </header>
+<a class="ss-link" href="../subsectors/private-banks.html" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 18px;margin:26px 0 6px;padding:14px 18px;background:var(--card,#fff);border:1px solid var(--line,#E0DACC);border-left:4px solid var(--brand,#124E47);border-radius:6px;text-decoration:none;color:var(--ink,#201B12);"><span><span style='font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint,#928A78);display:block;margin-bottom:3px;'>Part of a sub-sector report · Private Sector Banks</span><span style="font-family:Sora,sans-serif;font-weight:600;font-size:15.5px;">See how HDFC Bank compares with all 19 listed private sector banks: KPIs, unit economics and valuations</span></span><span style='font-family:"DM Mono",monospace;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--brand,#124E47);font-weight:500;white-space:nowrap;'>Read the report →</span></a>
+
 
 <!-- 00 -->
 <section class="part" id="p0">
   <div class="part-head"><span class="pno">00</span><h2>The 30-second snapshot</h2></div>
   <p class="part-sub">What you're looking at, before we go deep.</p>
 
-  <p class="lead">HDFC Bank is <strong>India's largest private-sector bank</strong> — it takes deposits from savers and lends to households, businesses and corporates. After absorbing its own parent, mortgage giant <strong>HDFC Ltd</strong>, in July 2023, it became a <strong>~₹43.6 lakh crore balance sheet</strong> with ~9,700 branches, the country's most valuable bank by market capitalisation (~₹12.3 lakh crore) and one of the ten largest banks in the world.</p>
+  <p class="lead">HDFC Bank is <strong>India's largest private-sector bank</strong> — it takes deposits from savers and lends to households, businesses and corporates. After absorbing its own parent, mortgage giant <strong>HDFC Ltd</strong>, in July 2023, it became a <strong>~₹43.6 lakh crore balance sheet</strong> with ~9,700 branches, the country's most valuable bank by market capitalisation (~₹11.0 lakh crore as of 13 Oct 2026) and one of the ten largest banks in the world.</p>
 
   <p>Three facts frame everything:</p>
   <ul class="clean">
@@ -286,7 +289,7 @@
 
   <div class="plain">
     <div class="ptag">In plain terms</div>
-    <p>Think of HDFC Bank as a <strong>₹31-lakh-crore deposit machine wired to a ₹30-lakh-crore loan book</strong>. It pays savers a little, lends that money out for more, and the gap is its profit. The twist of the last three years: it merged with its parent — a home-loan company that had lots of loans but few deposits — so the combined bank suddenly had <em>too many loans for its deposits</em>. The entire job since has been to go out and gather cheap deposits fast enough to "feed" that loan book, without chasing risky borrowers. It is doing exactly that — slowly, deliberately, and at the cost of looking less exciting than it used to.</p>
+    <p>HDFC Bank is, in effect, a <strong>₹31-lakh-crore deposit machine wired to a ₹30-lakh-crore loan book</strong>. It pays savers a little, lends that money out for more, and the gap is its profit. The twist of the last three years: it merged with its parent — a home-loan company that had lots of loans but few deposits — so the combined bank suddenly had <em>too many loans for its deposits</em>. The entire job since has been to go out and gather cheap deposits fast enough to "feed" that loan book, without chasing risky borrowers. It is doing exactly that — slowly, deliberately, and at the cost of looking less exciting than it used to.</p>
   </div>
 </section>
 
@@ -386,8 +389,8 @@
   <h3>Ownership &amp; management</h3>
   <ul class="clean">
     <li><strong>No promoter.</strong> A defining quirk: after the merger, HDFC Ltd ceased to exist, so HDFC Bank now has <strong>0% promoter holding</strong> — it is a fully <em>professionally-managed, widely-held</em> institution, a rarity among large Indian companies.</li>
-    <li><strong>Foreign and domestic institutions dominate the register.</strong> Foreign institutional investors (FIIs) hold roughly <strong>~44%</strong>, with large and rising domestic institutional / mutual-fund ownership. It is one of the most widely-held stocks in every India-focused index and fund.</li>
-    <li><strong>Management:</strong> <strong>Sashidhar Jagdishan</strong> (MD &amp; CEO) leads a deep professional bench. Continuity of culture — conservative underwriting, retail focus, technology investment — is the franchise asset, not any single owner.</li>
+    <li><strong>Foreign and domestic institutions dominate the register.</strong> Foreign institutional investors (FIIs) hold roughly <strong>~39%</strong> (Sep 2026, down from ~49% in Jun 2025 after five straight quarters of selling), while domestic institutions have risen to ~43%; in Aug 2026 the RBI allowed LIC to raise its stake to up to 9.99%. It is one of the most widely-held stocks in every India-focused index and fund.</li>
+    <li><strong>Management:</strong> <strong>Sashidhar Jagdishan</strong> (MD &amp; CEO since 2020) completes his term on 26 Oct 2026 and did not seek reappointment; the RBI has approved <strong>Anup Bagchi</strong> (ex-ICICI Bank) as MD &amp; CEO for three years from 27 Oct 2026 — the bank's first outside CEO. Chairman Atanu Chakraborty resigned in March 2026 citing ethical concerns (Keki Mistry interim chair), and in July 2026 the board closed a review of a 2017/2021 MSRDC deposit arrangement as "business overreach", with warning letters and token penalties for senior executives. Continuity of culture — conservative underwriting, retail focus, technology investment — is the franchise asset, not any single owner.</li>
     <li><strong>A holding-company structure:</strong> alongside the bank sit listed/large subsidiaries — <strong>HDFC Life, HDFC ERGO, HDFC AMC, HDB Financial Services, HDFC Securities</strong> — making the consolidated group a financial-services conglomerate.</li>
   </ul>
 </section>
@@ -497,7 +500,7 @@
     <li><strong>Through-the-cycle proof</strong> — the demonetisation shock, the NBFC crisis, COVID, and now the merger: through each, the GNPA stayed near ~1%. That consistency is what earns the valuation premium.</li>
   </ul>
 
-  <div class="note gold"><b>The honest caveat:</b> exceptional asset quality is partly a <em>choice</em> to under-grow risky segments — which costs some yield and growth. And no bank is immune to a systemic shock or an unsecured-lending cycle turning. But on the evidence of 30 years and four crises, the burden of proof sits firmly with the doubters.</div>
+  <div class="note gold"><b>The real caveat:</b> exceptional asset quality is partly a <em>choice</em> to under-grow risky segments — which costs some yield and growth. And no bank is immune to a systemic shock or an unsecured-lending cycle turning. But on the evidence of 30 years and four crises, the burden of proof sits firmly with the doubters.</div>
 </section>
 
 <!-- 07 -->
@@ -554,7 +557,7 @@
     <p>Three offsets keep the case alive despite the size. <strong>(1) The market itself is enormous and under-penetrated.</strong> India's credit-to-GDP is far below developed peers; nominal GDP compounds ~10%+; formalisation and rising incomes mean the <em>pie</em> is still growing fast — a big bank can grow at a healthy mid-teens rate for a long time just by riding the country. <strong>(2) Share gains from public-sector banks</strong> add growth on top of the market's. <strong>(3) Fee and subsidiary income</strong> (cards, insurance via HDFC Life/ERGO, asset management via HDFC AMC, the listed HDB Financial Services) grow capital-light and faster than the loan book. Net: the realistic ask isn't a return to ~20% — it's <strong>durable, high-quality ~13–17% compounding</strong> on a vast base, with returns on equity climbing back toward the high-teens as the merger drag clears. For a bank this safe, that can still be a fine outcome — just not the rocket of the 2000s.</p>
   </div>
 
-  <div class="note"><b>The honest tension:</b> bulls underwrite mid-teens compounding for a decade from share gains, fee income and a re-rating as the merger clears; bears argue a single-country bank at ~10% of India's banking system has a structural growth ceiling, and that a nimbler ICICI will keep out-earning it. Watch <strong>loan growth and ROE together</strong>: if advances re-accelerate toward the mid-teens <em>and</em> ROE climbs back toward ~17%+, the size worry is being out-run; if both stall, the law of large numbers is winning.</div>
+  <div class="note"><b>The central tension:</b> bulls underwrite mid-teens compounding for a decade from share gains, fee income and a re-rating as the merger clears; bears argue a single-country bank at ~10% of India's banking system has a structural growth ceiling, and that a nimbler ICICI will keep out-earning it. Watch <strong>loan growth and ROE together</strong>: if advances re-accelerate toward the mid-teens <em>and</em> ROE climbs back toward ~17%+, the size worry is being out-run; if both stall, the law of large numbers is winning.</div>
 </section>
 
 <!-- 09 -->
@@ -595,7 +598,7 @@
 
   <div class="plain">
     <div class="ptag">How to think about the valuation</div>
-    <p>HDFC Bank trades around <strong>~₹12.3 lakh crore market cap</strong> on FY26 earnings — roughly the high-teens times earnings and a little over <strong>~2× book value</strong>, with a ~1% dividend yield. For most of its history the stock commanded a far richer premium (3–4× book); the merger digestion and the ICICI comparison have <strong>de-rated it to a more ordinary multiple</strong>. Bulls see that as the opportunity: a best-in-class, fortress-capital, ~14–15% ROE bank at a near-market multiple, with margin and ROE recovery still to come as the LDR normalises. Bears counter that the premium <em>should</em> compress permanently given the slower structural growth and a sharper rival. For a bank, the multiple that matters is <strong>price-to-book against ROE</strong>: as ROE climbs back toward ~17%+, a re-rating is the bull's prize; if ROE stalls near ~14%, the current multiple is about right.</p>
+    <p>HDFC Bank trades around <strong>~₹11.0 lakh crore market cap</strong> (13 Oct 2026, ₹714/share after the 2025 1:1 bonus) — about <strong>14.6× standalone earnings and ~1.9× book value</strong>, with a ~1% dividend yield. For most of its history the stock commanded a far richer premium (3–4× book); the merger digestion and the ICICI comparison have <strong>de-rated it to a more ordinary multiple</strong>. Bulls see that as the opportunity: a best-in-class, fortress-capital, ~14–15% ROE bank at a near-market multiple, with margin and ROE recovery still to come as the LDR normalises. Bears counter that the premium <em>should</em> compress permanently given the slower structural growth and a sharper rival. For a bank, the multiple that matters is <strong>price-to-book against ROE</strong>: as ROE climbs back toward ~17%+, a re-rating is the bull's prize; if ROE stalls near ~14%, the current multiple is about right.</p>
   </div>
 </section>
 
@@ -638,7 +641,7 @@
         <li><strong>Merger digestion progressing</strong> — FY26 deposits (+14.4%) out-grew loans (+12%); LDR down to ~96% and falling toward ~85–90%.</li>
         <li><strong>Unmatched deposit &amp; distribution franchise</strong> — ~9,700 branches, India's #1 card issuer, a huge cross-sell base from the merger.</li>
         <li><strong>Margin &amp; ROE recovery ahead</strong> — cheaper deposit funding and a normalised LDR set up wider NIM and higher returns.</li>
-        <li><strong>Reasonable valuation</strong> — de-rated to ~2× book / high-teens P/E for a ~14–15% ROE fortress bank — a rare entry multiple.</li>
+        <li><strong>Reasonable valuation</strong> — de-rated to ~1.9× book / ~15× earnings (13 Oct 2026) for a ~14% ROE fortress bank — a rare entry multiple.</li>
       </ul>
     </div>
     <div class="col bear">
@@ -659,6 +662,7 @@
   </div>
 </section>
 
+<a class="ss-link" href="../subsectors/private-banks.html" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 18px;margin:26px 0 6px;padding:14px 18px;background:var(--card,#fff);border:1px solid var(--line,#E0DACC);border-left:4px solid var(--brand,#124E47);border-radius:6px;text-decoration:none;color:var(--ink,#201B12);margin:40px 0 0;"><span><span style='font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint,#928A78);display:block;margin-bottom:3px;'>Keep reading · Private Sector Banks sub-sector report</span><span style="font-family:Sora,sans-serif;font-weight:600;font-size:15.5px;">HDFC Bank side by side with the other 18 listed private sector banks, and how the whole industry works</span></span><span style='font-family:"DM Mono",monospace;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--brand,#124E47);font-weight:500;white-space:nowrap;'>Read the report →</span></a>
 <footer class="src">
   <div class="eyebrow" style="margin-bottom:14px;">Sources &amp; further reading</div>
   <ol>
@@ -672,7 +676,7 @@
     <li>HDFC Bank press release — "HDFC Ltd to merge into HDFC Bank effective July 1, 2023."</li>
     <li>Business Standard — "HDFC Bank stock: Low loan-deposit ratio key for outperformance" (LDR normalisation context).</li>
     <li>Screener.in — HDFC Bank consolidated financials (FY24–FY26 NII, revenue, PAT; market cap, P/E, P/B, ROE).</li>
-    <li>Trendlyne / shareholding disclosures — promoter 0%, FII ~44%, DII/MF holdings (2026).</li>
+    <li>Trendlyne / screener shareholding disclosures — promoter 0%, FII ~39% and DII ~43% (Sep 2026).</li>
     <li>companiesmarketcap.com / Wikipedia — market capitalisation and global bank ranking.</li>
   </ol>
   <p class="disc">This primer is an educational, plain-English explainer compiled from public sources and is <strong>not investment advice, a recommendation, or a solicitation</strong> to buy or sell any security. Figures are approximate, drawn from company disclosures and third-party reports as of FY26 (year ended March 2026), and may contain errors or become outdated; some historical and consolidated figures vary by source and accounting basis. Verify all numbers against primary sources before relying on them. The author holds no position and expresses no view on the stock's suitability for any investor.</p>

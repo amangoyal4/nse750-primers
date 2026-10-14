@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+  main{min-width:0;}
   :root{
     --paper:#EDF1F5;
     --paper-2:#F6F9FC;
@@ -255,22 +256,22 @@
     <span class="tag gold">Built for a non-specialist reader</span>
   </div>
   <h1>Hindustan Aeronautics, <em>the company that builds India's air force</em></h1>
-  <p class="dek">A complete walk through India's defence-aerospace champion — how a near-monopoly state builder of fighters, helicopters and aero-engines actually earns money, why the ₹2.55-lakh-crore order book is the single number that matters, why an air force flying ~31 squadrons against a sanctioned 42 makes its demand near-guaranteed, why a single delayed American engine can stall an entire fighter line, and how a government-owned manufacturer ends up with ~30% margins, ₹42,000-plus crore of cash, and almost no debt.</p>
+  <p class="dek">A complete walk through India's defence-aerospace champion — how a near-monopoly state builder of fighters, helicopters and aero-engines actually earns money, why the ₹2.55-lakh-crore order book is the single number that matters, why an air force flying ~31 squadrons against a sanctioned 42 makes its demand near-guaranteed, why a single delayed American engine can stall an entire fighter line, and how a government-owned manufacturer ends up with ~30% margins, ₹46,000-plus crore of cash and deposits, and almost no debt.</p>
 <div class="stat-strip">
-    <div class="cell"><div class="v">₹33,050 <small>Cr</small></div><div class="l">Revenue (FY26, +7%)</div></div>
+    <div class="cell"><div class="v">₹33,089 <small>Cr</small></div><div class="l">Revenue (FY26, +7%)</div></div>
     <div class="cell"><div class="v">₹2.55 <small>L Cr</small></div><div class="l">Order book · 31 Mar 2026</div></div>
     <div class="cell"><div class="v">₹9,116 <small>Cr</small></div><div class="l">PAT (FY26, +9%)</div></div>
-    <div class="cell"><div class="v">~₹2.93 <small>L Cr</small></div><div class="l">Market cap (Jun '26)</div></div>
+    <div class="cell"><div class="v">~₹3.26 <small>L Cr</small></div><div class="l">Market cap (13 Oct '26)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">30 Jun 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: FY26 audited results + Q1 FY27 (Jun 2026 quarter)</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — revenue ₹33,050 Cr (+7%), PAT ₹9,116 Cr (+9%), EBITDA ~₹13,470 Cr (~30% margin); order book ₹2,54,538 Cr after a record ₹97,028 Cr of fresh orders (incl. the 97-aircraft LCA Mk1A follow-on, ₹62,370 Cr); GE F404 engine supply still the binding constraint — only ~6 of 99 engines received, induction of new deliveries slipped to Aug–Sep 2026; final dividend ₹10 (FY26 total ₹45); AMCA development-partner shortlist named (HAL not selected as integrator); Tejas Mk2 nearing first flight.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b><strong>Q1 FY27 (Jun-26 quarter, reported 13 Aug 2026):</strong> revenue ₹5,515 Cr (+14% YoY), EBITDA ₹1,527 Cr (27.7% margin, ex other income), PAT ₹1,590 Cr (+15%); FY27 guidance of +10–12% revenue at a 30–31% EBITDA margin, with ~₹14,000 Cr of capex planned over five years. GE had delivered <strong>10 F404 engines in total by Aug 2026</strong> (~12 more expected Oct–Dec 2026). The GE F414 deal is a technical understanding with ~80% transfer of technology; the commercial contract is not yet signed. Market cap ~₹3.26 L Cr and P/E ~35× as of 13 Oct 2026. Q2 FY27 results are not yet out. <strong>Earlier (FY26):</strong> audited revenue ₹33,089 Cr (+7%), PAT ₹9,116 Cr (+9%), operating EBITDA ₹9,788 Cr (29.6% margin; ~₹13,470 Cr only if other income is included); order book ₹2,54,538 Cr after a record ₹97,028 Cr of fresh orders (incl. the 97-aircraft LCA Mk1A follow-on, ₹62,370 Cr); GE F404 engine supply still the binding constraint; final dividend ₹10 (FY26 total ₹45); AMCA development-partner shortlist named (HAL not selected as integrator); Tejas Mk2 nearing first flight. Context: Operation Sindoor (7–10 May 2025) brought no direct HAL order but sharpened the urgency of the fighter-squadron gap and the Su-30 upgrade; the ALH Dhruv fleet was grounded after the 5 Jan 2025 Porbandar crash (Army/IAF versions reportedly cleared after ~4 months).</div>
 </header>
 
 <!-- 00 -->
@@ -284,13 +285,13 @@
   <ul class="clean">
     <li><strong>It runs on an order book, not a catalogue.</strong> HAL doesn't sell off-the-shelf products; it wins enormous, multi-year contracts to build and maintain aircraft fleets. At 31 March 2026 its <strong>order book stood at ₹2,54,538 crore</strong> — roughly <strong>7–8 years of revenue already contracted</strong>. This is the master KPI; everything else flows from it (see §02).</li>
     <li><strong>It is, in practice, a near-monopoly with guaranteed demand.</strong> HAL is the default Indian builder of military aircraft, and its biggest customer — the Indian Air Force — is flying only <strong>~31 fighter squadrons against a sanctioned 42</strong>. That structural shortfall plus the national push to "buy Indian" makes HAL's demand close to guaranteed for a generation.</li>
-    <li><strong>It is cash-rich and debt-free.</strong> HAL carries essentially no borrowings (~₹11 crore) and sits on a vast pile of cash and bank deposits (~₹42,400 crore), helped by <strong>customer advances</strong> on big contracts. The balance sheet is a fortress (see §09).</li>
+    <li><strong>It is cash-rich and debt-free.</strong> HAL carries essentially no borrowings (~₹66 crore, lease-type liabilities; no bank debt) and sits on a vast pile of cash and bank deposits (~₹46,200 crore at Mar 2026), helped by <strong>customer advances</strong> on big contracts. The balance sheet is a fortress (see §09).</li>
     <li><strong>The government owns it — and is also its biggest customer.</strong> The <strong>Government of India holds ~71.6%</strong>; the Ministry of Defence and the armed forces provide the overwhelming majority of revenue. That alignment is both HAL's moat and its central risk.</li>
   </ul>
 
   <div class="plain">
     <div class="ptag">In plain terms</div>
-    <p>Think of HAL as <strong>India's national aircraft factory</strong>. When the Air Force needs a home-built fighter jet, when the Army needs an attack helicopter, or when any of the thousands of military aircraft already in Indian service needs its engine stripped down and rebuilt, the work very often goes to HAL — sometimes by tender, very often by nomination because it is the trusted, security-cleared national supplier. Because it builds high-value, hard-to-replicate machines for a captive customer (the Indian state) with almost no domestic rival, it earns fat margins and gets paid advances up front — so it is flush with cash. The key insight is that a defence-aerospace builder's future is unusually <em>visible</em>: the order book tells you what it will build for the better part of a decade. So the questions are not really "will the orders come" (they will — the air force is desperately short of aircraft) but "<em>can HAL build them on time</em>" — and here a single delayed American engine has become the whole story.</p>
+    <p>In practice, HAL is <strong>India's national aircraft factory</strong>. When the Air Force needs a home-built fighter jet, when the Army needs an attack helicopter, or when any of the thousands of military aircraft already in Indian service needs its engine stripped down and rebuilt, the work very often goes to HAL — sometimes by tender, very often by nomination because it is the trusted, security-cleared national supplier. Because it builds high-value, hard-to-replicate machines for a captive customer (the Indian state) with almost no domestic rival, it earns fat margins and gets paid advances up front — so it is flush with cash. The key insight is that a defence-aerospace builder's future is unusually <em>visible</em>: the order book tells you what it will build for the better part of a decade. So the questions are not really "will the orders come" (they will — the air force is desperately short of aircraft) but "<em>can HAL build them on time</em>" — and here a single delayed American engine has become the whole story.</p>
   </div>
 </section>
 
@@ -308,7 +309,7 @@
     <tbody>
       <tr><td class="t-strong">Order inflow</td><td>The value of <em>new</em> contracts won in a period. FY26 inflow was a record <strong>~₹97,028 Cr</strong> (₹69,668 Cr manufacturing + ₹26,539 Cr ROH). This is the fuel.</td></tr>
       <tr><td class="t-strong">Order book / backlog</td><td>The total un-executed value of all live contracts — future revenue already contracted. <strong>₹2,54,538 Cr</strong> at 31 Mar 2026 — an all-time high.</td></tr>
-      <tr><td class="t-strong">Book-to-bill</td><td>Order book ÷ annual revenue ≈ <strong>7.7×</strong> — i.e. ~7–8 years of revenue already locked in. Exceptional visibility, even for defence.</td></tr>
+      <tr><td class="t-strong">Order-book cover</td><td>Order book ÷ annual revenue ≈ <strong>7.7×</strong> — i.e. ~7–8 years of revenue already locked in. Exceptional visibility, even for defence. (Book-to-bill, which is FY26 inflow ÷ revenue, was ~2.9×.)</td></tr>
       <tr><td class="t-strong">Manufacturing vs ROH</td><td>FY26 revenue split roughly <strong>~30% new-build / ~65–70% repair-and-overhaul</strong>. The ROH annuity (§07) is the quiet profit engine.</td></tr>
     </tbody>
   </table>
@@ -342,11 +343,11 @@
       <div class="arrow">→</div>
       <div class="node n2"><div class="ntag">Stage 2 · Backlog</div><div class="nname">Order book</div><div class="nwho">Un-executed work in hand. ₹2,54,538 Cr — ~7–8 yrs of visibility.</div></div>
       <div class="arrow">→</div>
-      <div class="node n3"><div class="ntag">Stage 3 · Build</div><div class="nname">Revenue</div><div class="nwho">Booked as aircraft &amp; overhauls are delivered. FY26: ₹33,050 Cr (+7%).</div></div>
+      <div class="node n3"><div class="ntag">Stage 3 · Build</div><div class="nname">Revenue</div><div class="nwho">Booked as aircraft &amp; overhauls are delivered. FY26: ₹33,089 Cr (+7%).</div></div>
       <div class="arrow">→</div>
       <div class="node n4"><div class="ntag">Stage 4 · Collect</div><div class="nname">Cash flow</div><div class="nwho">Often advance-funded by the customer — a huge net-cash pile builds.</div></div>
     </div>
-    <div class="flow-note">The twist vs. a normal manufacturer: the government frequently pays large advances against big aircraft orders, so cash often arrives <em>before</em> HAL spends it — the source of its negative working capital and ₹42,000-plus-crore deposit hoard (see §09).</div>
+    <div class="flow-note">The twist vs. a normal manufacturer: the government frequently pays large advances against big aircraft orders, so cash often arrives <em>before</em> HAL spends it — the source of its ₹46,000-plus-crore cash-and-deposit pile (see §09).</div>
   </div>
 
   <h3>Why the demand is close to guaranteed: the squadron shortage</h3>
@@ -395,13 +396,13 @@
     <li class="major"><div class="yr">2018</div><div class="ev">IPO and stock-market listing; the government begins partial divestment while retaining majority control.</div></li>
     <li class="major"><div class="yr">2020 →</div><div class="ev">The <strong>Atmanirbhar Bharat</strong> (self-reliant India) drive plus a shrinking IAF fleet turn into a structural order tailwind; the 83-jet Tejas Mk1A contract (₹48,000 Cr, 2021) anchors the build pipeline.</div></li>
     <li class="major"><div class="yr">2024</div><div class="ev">Granted <strong>"Maharatna"</strong> status — the highest tier of PSU autonomy — alongside a 1:2 bonus issue and entry into India's largest companies by value.</div></li>
-    <li class="major"><div class="yr">FY26</div><div class="ev">Record revenue <strong>₹33,050 Cr</strong>, PAT <strong>₹9,116 Cr</strong>; order book <strong>₹2.55 L Cr</strong> after a record <strong>₹97,028 Cr</strong> inflow (incl. the 97-aircraft Mk1A follow-on); GE engine delays the dominant operational story; total dividend <strong>₹45</strong>.</div></li>
+    <li class="major"><div class="yr">FY26</div><div class="ev">Record revenue <strong>₹33,089 Cr</strong>, PAT <strong>₹9,116 Cr</strong>; order book <strong>₹2.55 L Cr</strong> after a record <strong>₹97,028 Cr</strong> inflow (incl. the 97-aircraft Mk1A follow-on); GE engine delays the dominant operational story; total dividend <strong>₹45</strong>.</div></li>
   </ul>
 
   <h3>Ownership &amp; governance</h3>
   <ul class="clean">
     <li><strong>Government-controlled (~71.6%).</strong> The Government of India holds roughly <strong>71.6%</strong> as promoter (as of March 2026). This majority cannot be diluted away without a deliberate policy decision, so control is permanent and stable — and gives the government room to sell further stakes over time (a periodic overhang).</li>
-    <li><strong>Institutionally held float.</strong> The remaining ~28% is widely owned — foreign portfolio investors (~10%), domestic institutions and mutual funds (~10%), and a large retail base. HAL is a Nifty heavyweight and a core "defence theme" holding.</li>
+    <li><strong>Institutionally held float.</strong> The remaining ~28% is widely owned — foreign portfolio investors (~9.3%), domestic institutions and mutual funds (~11.9%, Jun 2026), and a large retail base. HAL is a Nifty heavyweight and a core "defence theme" holding.</li>
     <li><strong>Maharatna autonomy.</strong> The Maharatna tag gives HAL's board freedom to invest, form joint ventures and commit very large capital sums without case-by-case government approval — more nimble than a typical PSU.</li>
     <li><strong>What this means:</strong> a permanent anchor shareholder and a captive customer give extraordinary stability and visibility — but the same government sets the defence budget, can push for lower prices or higher dividends, can change procurement policy, and can sell shares into the market. HAL's fate is tied to the state on both the demand <em>and</em> the ownership side.</li>
   </ul>
@@ -452,8 +453,8 @@
     <tbody>
       <tr><td class="t-strong">Tejas Mk1 / Mk1A (83 jets)</td><td>First major fighter contract (2021); deliveries stalled by the GE F404 engine shortage.</td><td class="num">~₹48,000 Cr</td></tr>
       <tr><td class="t-strong">Tejas Mk1A (97 jets)</td><td>Follow-on signed in FY26 — the single biggest driver of the FY26 order-book jump.</td><td class="num">₹62,370 Cr</td></tr>
-      <tr><td class="t-strong">Tejas Mk2 (MWF)</td><td>Larger, more capable "medium-weight" fighter; rolled out, nearing first flight (FY27 window); GE F414 engine with 100% transfer-of-tech agreed.</td><td class="num">~₹1.3–1.5 L Cr potential</td></tr>
-      <tr><td class="t-strong">GE F404-IN20 engines</td><td>The binding constraint: ~6 of 99 received by early 2026; HAL invoking liquidated-damages penalties on GE for the delay.</td><td class="num">99 engines</td></tr>
+      <tr><td class="t-strong">Tejas Mk2 (MWF)</td><td>Larger, more capable "medium-weight" fighter; rolled out, nearing first flight (FY27 window); GE F414 engine, with a ~80% transfer-of-tech understanding (commercial contract not yet signed).</td><td class="num">~₹1.3–1.5 L Cr potential</td></tr>
+      <tr><td class="t-strong">GE F404-IN20 engines</td><td>The binding constraint: only 10 of 99 delivered by Aug 2026 (~12 more expected Oct–Dec 2026); HAL invoking liquidated-damages penalties on GE for the delay. A follow-on order for 113 more F404s (deliveries 2027–32) was reported in Nov 2025.</td><td class="num">99 engines</td></tr>
     </tbody>
   </table>
   </div>
@@ -474,7 +475,7 @@
   <p class="lead">Behind the current Tejas Mk1A lies a ladder of ever-more-capable aircraft that, if executed, keeps HAL building combat jets well into the 2040s. Two programmes matter most: the <strong>Tejas Mk2</strong>, a bigger and more powerful fighter that bridges the gap to imported jets, and the <strong>AMCA</strong>, India's first attempt at a home-grown fifth-generation stealth fighter.</p>
 
   <h3>Tejas Mk2 — the near-term step up</h3>
-  <p>The <strong>Tejas Mk2 (Medium Weight Fighter)</strong> is a larger, longer-range, more heavily armed evolution of the Tejas, powered by the more powerful <strong>GE F414</strong> engine — crucially, with a <strong>100% transfer-of-technology agreement</strong> concluded in 2026, so a version of that engine can eventually be made in India. The prototype completed its formal rollout in early 2026 and is approaching its <strong>maiden flight (targeted mid-2026)</strong>. A production order, when it lands, could run to <strong>well over ₹1 lakh crore</strong> across a planned fleet — a future backbone order for HAL once flight-testing and certification are done.</p>
+  <p>The <strong>Tejas Mk2 (Medium Weight Fighter)</strong> is a larger, longer-range, more heavily armed evolution of the Tejas, powered by the more powerful <strong>GE F414</strong> engine — crucially, under a technical understanding reached in April 2026 for <strong>~80% transfer of technology</strong>, so a version of that engine can eventually be made in India. The commercial contract with GE was still unsigned as of October 2026. The prototype completed its formal rollout in early 2026 and is approaching its <strong>maiden flight (targeted mid-2026)</strong>. A production order, when it lands, could run to <strong>well over ₹1 lakh crore</strong> across a planned fleet — a future backbone order for HAL once flight-testing and certification are done.</p>
 
   <h3>AMCA — the fifth-generation prize, with a twist</h3>
   <p>The <strong>Advanced Medium Combat Aircraft (AMCA)</strong> is India's planned twin-engine stealth fighter — the country's bid to join the small club of nations that build fifth-generation jets. The programme is funded and moving: prototype rollout is targeted for <strong>late 2026 / early 2027</strong>, first flight around 2028, and induction around 2034. Engine talks (the GE F414 for early jets, an indigenous engine later) are underway.</p>
@@ -483,7 +484,7 @@
 
   <div class="plain">
     <div class="ptag">In plain terms — a long runway, but no longer a guaranteed monopoly on the future</div>
-    <p>The roadmap is what gives HAL a growth story that stretches decades, not years: finish Mk1A, ramp Mk2, then AMCA — a near-continuous pipeline of combat-aircraft work, each programme worth tens of thousands of crores and each spawning a multi-decade overhaul annuity behind it. That is the bull case for HAL as a <em>compounder</em>, not just a backlog. The honest caveat is the AMCA twist: by inviting private players (Tata, L&amp;T, Bharat Forge) to compete for the crown-jewel fifth-gen programme, the government has signalled that HAL's monopoly on India's <em>future</em> fighters is no longer guaranteed. HAL still has the fleets, the overhaul base and the Tejas line — but the competitive landscape a decade out looks more contested than its past suggests.</p>
+    <p>The roadmap is what gives HAL a growth story that stretches decades, not years: finish Mk1A, ramp Mk2, then AMCA — a near-continuous pipeline of combat-aircraft work, each programme worth tens of thousands of crores and each spawning a multi-decade overhaul annuity behind it. That is the bull case for HAL as a <em>compounder</em>, not just a backlog. The caveat is the AMCA twist: by inviting private players (Tata, L&amp;T, Bharat Forge) to compete for the crown-jewel fifth-gen programme, the government has signalled that HAL's monopoly on India's <em>future</em> fighters is no longer guaranteed. HAL still has the fleets, the overhaul base and the Tejas line — but the competitive landscape a decade out looks more contested than its past suggests.</p>
   </div>
 </section>
 
@@ -541,17 +542,17 @@
   <p class="lead">Most manufacturers must <em>fund</em> their work: buy materials and pay staff now, get paid later, and borrow to bridge the gap. HAL frequently runs the opposite way. On large defence contracts the customer pays <strong>advances</strong> — money up front, before HAL has built much — and that, combined with milestone payments, can leave HAL holding the customer's cash. The result is a balance sheet most industrials can only dream of: <strong>near-zero debt, a vast net-cash pile, and at times negative working capital</strong>.</p>
 
   <div class="mini-stats">
-    <div class="ms green"><div class="msv">~₹11 Cr</div><div class="msl">Total borrowings — effectively debt-free against net worth well above ₹30,000 Cr</div></div>
-    <div class="ms gold"><div class="msv">~₹42,400 Cr</div><div class="msl">Cash &amp; bank deposits (Mar 2026), up from ~₹33,600 Cr a year earlier</div></div>
+    <div class="ms green"><div class="msv">~₹66 Cr</div><div class="msl">Total borrowings (lease-type; no bank debt) — effectively debt-free against net worth of ~₹41,000 Cr</div></div>
+    <div class="ms gold"><div class="msv">~₹46,200 Cr</div><div class="msl">Cash &amp; bank deposits (Mar 2026: ₹3,768 Cr cash + ₹42,429 Cr FDs), up from ~₹38,200 Cr a year earlier</div></div>
     <div class="ms"><div class="msv">~25% / ~32%</div><div class="msl">Return on equity / return on capital employed — exceptional for a manufacturer</div></div>
   </div>
 
   <div class="plain">
     <div class="ptag">Why customer advances change everything</div>
-    <p>Imagine a builder who is paid <em>before</em> he starts the job. He doesn't need a bank loan to buy materials — the client's money funds the work — and any cash he hasn't spent yet sits in his account earning interest. That is HAL's "negative working capital" in plain terms: defence advances and progress payments mean cash often arrives ahead of spending. The consequences are profound. HAL needs <strong>no debt</strong>, so it pays no interest and is immune to rate cycles; it earns <strong>substantial interest income</strong> on its ₹42,000-plus-crore deposit hoard, which materially flatters profits; and it can <strong>self-fund</strong> its R&amp;D, capacity expansion and a generous dividend — all without diluting shareholders or borrowing. For a government that values both sovereign capability and a steady dividend stream, this is close to an ideal asset: HAL paid total dividends of <strong>₹45 per share for FY26</strong> (₹35 interim + ₹10 final).</p>
+    <p>Imagine a builder who is paid <em>before</em> he starts the job. He doesn't need a bank loan to buy materials — the client's money funds the work — and any cash he hasn't spent yet sits in his account earning interest. That is HAL's advance-funded model in plain terms: defence advances and progress payments mean cash often arrives ahead of spending. The consequences are profound. HAL needs <strong>no debt</strong>, so it pays no interest and is immune to rate cycles; it earns <strong>substantial interest income</strong> on its ₹46,000-plus-crore cash-and-deposit pile (other income was ~₹3,743 Cr in FY26), which materially flatters profits; and it can <strong>self-fund</strong> its R&amp;D, capacity expansion and a generous dividend — all without diluting shareholders or borrowing. For a government that values both sovereign capability and a steady dividend stream, this is close to an ideal asset: HAL paid total dividends of <strong>₹45 per share for FY26</strong> (₹35 interim + ₹10 final).</p>
   </div>
 
-  <div class="note"><b>The honest wrinkle:</b> the same engine-delay dynamic that hurts revenue also ties up cash — built-but-undelivered aircraft sit in inventory as work-in-progress, and as HAL scales its self-financed build programmes, working-capital days can creep up and free cash flow can become lumpy. It remains hugely cash-generative and debt-free, but the days of <em>permanently</em> negative working capital may ease as the build mix grows — worth watching in the cash-flow statement, not just the profit line.</div>
+  <div class="note"><b>The wrinkle:</b> the same engine-delay dynamic that hurts revenue also ties up cash — built-but-undelivered aircraft sit in inventory as work-in-progress. Net working-capital days (screener basis) rose from ~37 in FY24 to ~301 in FY26 as inventory of engine-less jets built up, and free cash flow has become lumpy (FY26 operating cash flow ~₹10,906 Cr vs ~₹13,643 Cr in FY25). It remains hugely cash-generative and debt-free, but "negative working capital" no longer describes it; the cash pile now rests on customer advances rather than a lean balance sheet — worth watching in the cash-flow statement, not just the profit line.</div>
 
   <h3>Exports — a small base, a strategic ambition</h3>
   <p>HAL is overwhelmingly a domestic supplier, but exports are a deliberate, growing second engine. It sells aircraft, helicopters, structures and overhaul services abroad — recent examples include Do-228 utility aircraft (e.g. to Guyana) and ALH Dhruv helicopters — and it builds aerospace structures and components for global majors. Exports are still a small fraction of revenue, but they matter for two reasons: they diversify HAL beyond the Indian government, and they align with India's national defence-export ambition (a stated target running into the tens of thousands of crores). The bull case treats exports as a free option on top of the captive domestic engine; the realist notes they remain tiny and that global markets are far more competitive than HAL's cosy home niche.</p>
@@ -562,7 +563,7 @@
   <div class="part-head"><span class="pno">10</span><h2>Financials &amp; valuation</h2></div>
   <p class="part-sub">Record profit, fortress balance sheet — at a premium, defence-theme multiple.</p>
 
-  <p class="lead">HAL's FY26 numbers are the picture of a high-quality business: steady revenue growth, record profit, fat margins, and a debt-free, cash-rich balance sheet — but with a revenue line held back by the engine bottleneck. The valuation debate is whether a ~32× earnings multiple already prices in years of indigenisation-driven optimism, or leaves room for the backlog to convert.</p>
+  <p class="lead">HAL's FY26 numbers are the picture of a high-quality business: steady revenue growth, record profit, fat margins, and a debt-free, cash-rich balance sheet — but with a revenue line held back by the engine bottleneck. The valuation debate is whether a ~35× earnings multiple already prices in years of indigenisation-driven optimism, or leaves room for the backlog to convert.</p>
 
   <div class="chart">
     <div class="c-title">Revenue trajectory</div>
@@ -593,12 +594,12 @@
   <div class="mini-stats">
     <div class="ms gold"><div class="msv">~30%</div><div class="msl">FY26 EBITDA margin — exceptional for an aircraft maker; helped by the rich ROH mix</div></div>
     <div class="ms green"><div class="msv">₹45</div><div class="msl">FY26 dividend per share (₹35 interim + ₹10 final)</div></div>
-    <div class="ms red"><div class="msv">~32×</div><div class="msl">Trailing P/E (Jun '26) — a premium, defence-theme multiple</div></div>
+    <div class="ms red"><div class="msv">~35×</div><div class="msl">Trailing P/E (as of 13 Oct 2026; P/B ~7.9×) — a premium, defence-theme multiple</div></div>
   </div>
 
   <div class="plain">
-    <div class="ptag">How to think about the ~32× multiple</div>
-    <p>At roughly <strong>₹2.93 lakh crore market cap</strong> on ~₹9,116 Cr of FY26 profit, HAL trades around <strong>32× trailing earnings</strong> — rich in absolute terms and above its own history, though more moderate than peer Bharat Electronics (~50×). The multiple is paying for four things: (1) <strong>visibility</strong> — a ₹2.55-lakh-crore order book locking in ~7–8 years of revenue; (2) <strong>quality</strong> — ~25% ROE, ~30% margins, a debt-free balance sheet stuffed with cash; (3) <strong>the indigenisation supercycle</strong> — a multi-year, policy-and-shortage-driven demand story with Mk2 and AMCA still ahead; and (4) <strong>scarcity</strong> — there are few pure-play, large-cap ways to own India's aircraft build-out. Bulls argue a near-monopoly compounder with a decade of contracted work deserves a premium. Bears counter that the order book is racing ahead of HAL's ability to <em>convert</em> it (revenue grew only ~7%), that one foreign engine supplier holds the deliveries hostage, and that the AMCA competition chips at the long-run moat — so the multiple leaves thin cushion for execution stumbles.</p>
+    <div class="ptag">How to read the ~35× multiple</div>
+    <p>At roughly <strong>₹3.26 lakh crore market cap</strong> (as of 13 Oct 2026, ₹4,869 a share) on ~₹9,300 Cr of trailing profit, HAL trades around <strong>35× trailing earnings</strong> — rich in absolute terms and above its own history, though more moderate than peer Bharat Electronics (~45×). The multiple is paying for four things: (1) <strong>visibility</strong> — a ₹2.55-lakh-crore order book locking in ~7–8 years of revenue; (2) <strong>quality</strong> — ~25% ROE, ~30% margins, a debt-free balance sheet stuffed with cash; (3) <strong>the indigenisation supercycle</strong> — a multi-year, policy-and-shortage-driven demand story with Mk2 and AMCA still ahead; and (4) <strong>scarcity</strong> — there are few pure-play, large-cap ways to own India's aircraft build-out. Bulls argue a near-monopoly compounder with a decade of contracted work deserves a premium. Bears counter that the order book is racing ahead of HAL's ability to <em>convert</em> it (revenue grew only ~7%), that one foreign engine supplier holds the deliveries hostage, and that the AMCA competition chips at the long-run moat — so the multiple leaves thin cushion for execution stumbles.</p>
   </div>
 </section>
 
@@ -616,7 +617,7 @@
         <li><strong>Generational demand visibility</strong> — ₹2.55 L Cr order book = ~7–8 years of revenue locked in; the IAF's ~11-squadron shortfall must be filled at home.</li>
         <li><strong>Near-monopoly on built fleets</strong> — the default builder of indigenous fighters and helicopters, and the only practical overhaul house for India's military fleets.</li>
         <li><strong>The ROH annuity</strong> — ~two-thirds of revenue is recurring, high-margin overhaul that grows with every aircraft delivered; smooths the lumpy build cycle.</li>
-        <li><strong>Fortress balance sheet</strong> — debt-free, ~₹42,000 Cr of cash, customer-advance-funded; ~25% ROE; self-funds R&amp;D, capex and a ₹45 dividend.</li>
+        <li><strong>Fortress balance sheet</strong> — debt-free, ~₹46,000 Cr of cash and deposits, customer-advance-funded; ~25% ROE; self-funds R&amp;D, capex and a ₹45 dividend.</li>
         <li><strong>Decade-long roadmap</strong> — Mk1A → Mk2 → AMCA keeps the build line full into the 2040s, each programme seeding new overhaul revenue.</li>
       </ul>
     </div>
@@ -627,7 +628,7 @@
         <li><strong>Hostage to one engine supplier</strong> — ~30 Tejas built but grounded awaiting GE F404 engines that ran ~2 years late; near-term revenue depends on a foreign firm.</li>
         <li><strong>The moat on future jets is contested</strong> — HAL was not selected as the AMCA development integrator; Tata/L&amp;T/Bharat Forge now compete for the fifth-gen crown.</li>
         <li><strong>One customer, one budget</strong> — overwhelmingly dependent on the Indian government for demand, pricing and (as ~71.6% owner) any stake-sale overhang.</li>
-        <li><strong>Full valuation &amp; seasonality</strong> — ~32× earnings prices in conversion; Q4-heavy billing and lumpy orders leave little room for a delivery stumble.</li>
+        <li><strong>Full valuation &amp; seasonality</strong> — ~35× earnings prices in conversion; Q4-heavy billing and lumpy orders leave little room for a delivery stumble.</li>
       </ul>
     </div>
   </div>
@@ -636,7 +637,7 @@
 
   <div class="plain">
     <div class="ptag">The bottom line</div>
-    <p>HAL is a <strong>structurally advantaged national champion</strong> — the default builder of India's military aircraft, with demand underwritten by a chronic fighter shortage, a record backlog, rich margins, and a balance sheet that funds its own growth and dividend. The demand risk is unusually low; the open questions are <em>execution</em>, <em>supply-chain dependence</em>, <em>the competitive shift on next-generation programmes</em>, and <em>valuation</em>. The story over the next few years will be written in three numbers: <strong>deliveries</strong> (do GE's engines arrive, and does the wall of built-but-undelivered Tejas finally convert to revenue?), <strong>revenue conversion</strong> (does growth re-accelerate toward the order book's promise?), and <strong>the AMCA outcome</strong> (does HAL keep a central role in India's fighter future, or cede it to private rivals?). Get deliveries flowing and the backlog compounds into years of high-quality growth; let the engine bottleneck and execution drag persist, and a ~32× multiple has room to give back.</p>
+    <p>HAL is a <strong>structurally advantaged national champion</strong> — the default builder of India's military aircraft, with demand underwritten by a chronic fighter shortage, a record backlog, rich margins, and a balance sheet that funds its own growth and dividend. The demand risk is unusually low; the open questions are <em>execution</em>, <em>supply-chain dependence</em>, <em>the competitive shift on next-generation programmes</em>, and <em>valuation</em>. Three numbers will decide the next few years: <strong>deliveries</strong> (do GE's engines arrive, and does the wall of built-but-undelivered Tejas finally convert to revenue?), <strong>revenue conversion</strong> (does growth re-accelerate toward the order book's promise?), and <strong>the AMCA outcome</strong> (does HAL keep a central role in India's fighter future, or cede it to private rivals?). Get deliveries flowing and the backlog compounds into years of high-quality growth; let the engine bottleneck and execution drag persist, and a ~32× multiple has room to give back.</p>
   </div>
 </section>
 
@@ -645,12 +646,12 @@
   <ol>
     <li>Hindustan Aeronautics — Q4 &amp; FY26 results (year ended 31 Mar 2026); company press release / investor relations, hal-india.co.in.</li>
     <li>Upstox — "HAL Q4 FY26 results: net profit rises to ₹4,196 crore, revenue up 2%, EBITDA slips YoY" (Q4 revenue ₹13,942 Cr, Q4 PAT ₹4,196 Cr, Q4 EBITDA ₹5,058 Cr / 36.3% margin; order book ₹2.54 L Cr at 31 Mar 2026; Mk1A 97-jet ₹62,370 Cr order).</li>
-    <li>Whalesbook / Bharat Shakti / Indian Masterminds — "HAL FY26 revenue ₹33,050 Cr (+7%), EBITDA ₹13,472 Cr (~30% margin), PBT ₹12,112 Cr, PAT ₹9,116 Cr; order book ₹2,54,538 Cr; fresh orders ₹97,028 Cr (₹69,668 Cr manufacturing + ₹26,539 Cr ROH)."</li>
+    <li>Whalesbook / Bharat Shakti / Indian Masterminds — "HAL FY26 revenue ₹33,050 Cr provisional (audited ₹33,089 Cr), EBITDA ₹13,472 Cr incl. other income (₹9,788 Cr / 29.6% ex other income, per screener), PBT ₹12,112 Cr, PAT ₹9,116 Cr; order book ₹2,54,538 Cr; fresh orders ₹97,028 Cr (₹69,668 Cr manufacturing + ₹26,539 Cr ROH)."</li>
     <li>Whalesbook / brokerage coverage — manufacturing vs ROH revenue split (manufacturing ~₹9,227 Cr, ROH ~₹20,524 Cr basis), ROH ~40–45% of recurring revenue / ~two-thirds of total; FY26–28 growth guidance.</li>
-    <li>Screener.in / Tijori — HAL consolidated financials (revenue/PAT FY22–FY26: 24,620/5,080; 26,927/5,828; 30,381/7,621; 30,981/8,364; 33,089/9,116), OPM ~30%, ROE ~25%, ROCE ~32%, borrowings ~₹11 Cr, P/E ~32×, market cap ~₹2.93 L Cr; promoter (Govt) ~71.6%, FII ~10.2%, DII ~10.4%.</li>
+    <li>Screener.in / Tijori — HAL consolidated financials (revenue/PAT FY22–FY26: 24,620/5,080; 26,927/5,828; 30,381/7,621; 30,981/8,364; 33,089/9,116), OPM ~30%, ROE ~25%, ROCE ~32%, borrowings ~₹66 Cr (lease), cash incl. FDs ₹46,197 Cr (FY26 audited balance sheet), P/E ~35×, P/B ~7.9×, market cap ~₹3.26 L Cr (as of 13 Oct 2026); promoter (Govt) 71.64%, FII 9.34%, DII 11.90% (Jun 2026). ICICI Direct Q1 FY27 note (13 Aug 2026): Q1 revenue ₹5,515 Cr, EBITDA ₹1,527 Cr, PAT ₹1,590 Cr; FY27 guidance +10–12% revenue, 30–31% margin.</li>
     <li>Upstox — "HAL board approves final dividend of ₹10/share for FY26" (interim ₹35 = ₹2,341 Cr; total FY26 ₹45); bank deposits ₹42,425 Cr at Mar 2026 vs ₹33,624 Cr a year earlier.</li>
-    <li>Defence.in / Defence Security Asia / Business Standard / IDRW — Tejas Mk1A &amp; GE F404 engine delay: ~30 airframes built/flown awaiting engines; ~6 of 99 F404-IN20 received by Apr 2026; induction expected Aug–Sep 2026; HAL imposing liquidated damages on GE.</li>
-    <li>Defence.in / The Week / Indian Masterminds — Tejas Mk2 (MWF) rollout early 2026, first-flight window mid-2026, GE F414 with 100% transfer of technology (Apr 2026).</li>
+    <li>Defence.in / Defence Security Asia / Business Standard / IDRW — Tejas Mk1A &amp; GE F404 engine delay: ~30 airframes built/flown awaiting engines; ~6 of 99 F404-IN20 received by Apr 2026, 10 by Aug 2026 (Indian Masterminds, 29 Sep 2026); HAL imposing liquidated damages on GE.</li>
+    <li>Defence.in / The Week / Indian Masterminds — Tejas Mk2 (MWF) rollout early 2026, first-flight window mid-2026, GE F414 technical understanding with ~80% transfer of technology (NewsArena, 13 Apr 2026); commercial contract unsigned.</li>
     <li>Wikipedia (HAL AMCA) / The Week / Indian Masterminds — AMCA fifth-gen programme: prototype rollout late 2026/early 2027, first flight ~2028, induction ~2034; development-partner shortlist (TASL, Bharat Forge, L&amp;T) named Feb 2026, HAL not selected as integrator; F414 engine talks underway.</li>
     <li>Eurasian Times / Defence.in / Wikipedia (Future of the IAF) — IAF squadron strength ~29–31 vs sanctioned 42; MiG-21 retirements; Mk1A follow-on context (toward ~180 Mk1A fleet).</li>
     <li>Business Standard / DSIJ / The Financial World — "HAL FY26 results, ₹2.54 L Cr order book, ₹3,344 Cr dividend, capacity expansion"; LCH Prachand 156-helicopter ₹62,700 Cr contract (Mar 2025, MoD); ALH/Do-228 export deliveries; execution/supply-chain commentary.</li>

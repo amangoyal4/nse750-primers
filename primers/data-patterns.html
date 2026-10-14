@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+  main{min-width:0;}
   :root{
     --paper:#F4F6F3;
     --paper-2:#FAFBF8;
@@ -251,18 +252,18 @@
 <div class="stat-strip">
     <div class="cell"><div class="v">~₹925 <small>Cr</small></div><div class="l">Revenue (FY26)</div></div>
     <div class="cell"><div class="v">~40% <small>EBITDA</small></div><div class="l">Operating margin (FY26)</div></div>
-    <div class="cell"><div class="v">~₹2,062 <small>Cr</small></div><div class="l">Order pipeline (incl. negotiated)</div></div>
-    <div class="cell"><div class="v">~₹23,900 <small>Cr</small></div><div class="l">Market cap (Jul '26)</div></div>
+    <div class="cell"><div class="v">~₹2,654 <small>Cr</small></div><div class="l">Order book incl. negotiated (Jul '26)</div></div>
+    <div class="cell"><div class="v">~₹23,170 <small>Cr</small></div><div class="l">Market cap (13 Oct '26)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">13 Jul 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: FY26 results + Q1 FY27 (Jun 2026 quarter)</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Update</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — revenue ₹925 Cr (+31%), PAT ₹271 Cr, ~40% EBITDA margin, order pipeline ₹2,062 Cr; added the FY27 margin-guidance reset and the Q4-concentration section. Live updates coming soon.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b><strong>Q1 FY27 (Jun-26 quarter, reported 30 Jul 2026):</strong> revenue ₹116 Cr (+17% YoY), EBITDA ₹31.4 Cr (27.0% margin, down from 32.3%), PAT ₹22.1 Cr (−14%); management blamed temporary delays in customer approvals. Q1 inflow was ₹117 Cr; the firm order book was ₹928 Cr at 30 Jun 2026 and ₹2,654 Cr including negotiated orders by end-July (up from ₹2,062 Cr). FY27 guidance: revenue +20–25%, EBITDA margin 35–40%, ~₹2,000 Cr of fresh inflow. The SPA to buy 100% of ST Advanced Composites (~₹10 Cr) was signed on 25 Aug 2026. Counter-drone work and BrahMos seekers are new lines linked to emergency procurement after Operation Sindoor (May 2025), not yet quantified orders. Market cap ~₹23,170 Cr, P/E ~86×, P/B ~13.4× as of 13 Oct 2026. Q2 FY27 results are not yet out. <strong>Earlier (FY26):</strong> revenue ₹925 Cr (+31%), PAT ₹271 Cr (29% net margin), ~40% EBITDA margin, order inflow ₹1,121 Cr (+216%, book-to-bill ~1.2×); exports fell to ₹62 Cr (6.7% of revenue) from ₹107 Cr.</div>
 </header>
 
 <!-- 00 -->
@@ -274,10 +275,10 @@
 
   <p>Four facts frame everything:</p>
   <ul class="clean">
-    <li><strong>Small revenue, outsized quality.</strong> FY26 revenue was only <strong>~₹925 Cr</strong> (up 31%), yet it earns a <strong>~40% EBITDA margin</strong> and a <strong>~40% net-profit margin</strong> — figures that would be extraordinary for a factory business, and are almost unheard of among defence suppliers, who are usually thin-margin and cash-strapped.</li>
-    <li><strong>Net cash, self-funded, high-return.</strong> Borrowings are a rounding error (~₹5 Cr), it sits on ~₹1,725 Cr of reserves, and it earns a <strong>~22% return on capital employed</strong> — a defence supplier that funds its own growth instead of leaning on the government's cash cycle.</li>
-    <li><strong>The order book is turning from "invent" to "build."</strong> The firm order book was ~₹926 Cr at March 2026, and the pipeline including negotiated orders was <strong>~₹2,062 Cr</strong> — an all-time high. The mix is shifting from one-off development work toward repeat series production.</li>
-    <li><strong>Priced for a lot.</strong> At ~₹23,900 Cr market cap on ~₹271 Cr of profit, the stock trades near <strong>~95× earnings and ~14× book</strong>. That is what the market pays for a scarce, IP-owning, indigenisation-linked compounder — and the central tension of the whole story.</li>
+    <li><strong>Small revenue, outsized quality.</strong> FY26 revenue was only <strong>~₹925 Cr</strong> (up 31%), yet it earns a <strong>~40% EBITDA margin</strong> and a <strong>~29% net-profit margin</strong> — figures that would be extraordinary for a factory business, and are almost unheard of among defence suppliers, who are usually thin-margin and cash-strapped.</li>
+    <li><strong>Net cash, self-funded, high-return.</strong> Borrowings are a rounding error (~₹5 Cr, all lease), it holds ~₹517 Cr of cash, deposits and investments (Mar 2026) within ~₹1,725 Cr of reserves, and it earns a <strong>~22% return on capital employed</strong> — a defence supplier that funds its own growth instead of leaning on the government's cash cycle.</li>
+    <li><strong>The order book is turning from "invent" to "build."</strong> The firm order book was ~₹926 Cr at March 2026, and the pipeline including negotiated orders was <strong>~₹2,062 Cr</strong> — an all-time high that rose further to ~₹2,654 Cr by end-July 2026. The mix is shifting from one-off development work toward repeat series production.</li>
+    <li><strong>Priced for a lot.</strong> At ~₹23,170 Cr market cap (as of 13 Oct 2026) on ~₹270 Cr of trailing profit, the stock trades near <strong>~86× earnings and ~13× book</strong>. That is what the market pays for a scarce, IP-owning, indigenisation-linked compounder — and the central tension of the whole story.</li>
   </ul>
 
   <div class="plain">
@@ -368,14 +369,14 @@
     <li><div class="yr">2010s</div><div class="ev">Scales from sub-systems to complete systems; moves up the value chain into full radar and electronic-warfare design.</div></li>
     <li class="major"><div class="yr">Dec 2021</div><div class="ev"><strong>IPO</strong> — ₹588 Cr (₹240 Cr fresh + ₹348 Cr offer-for-sale); lists on NSE &amp; BSE at a large premium.</div></li>
     <li><div class="yr">FY25</div><div class="ev">Revenue ~₹708 Cr, PAT ~₹222 Cr; order book building as development programmes mature.</div></li>
-    <li class="major"><div class="yr">FY26</div><div class="ev">Revenue <strong>~₹925 Cr (+31%)</strong>, PAT ~₹271 Cr, ~40% EBITDA margin; order pipeline hits an all-time-high <strong>~₹2,062 Cr</strong>; management resets FY27 margin guidance to 35–40% as production scales.</div></li>
+    <li class="major"><div class="yr">FY26</div><div class="ev">Revenue <strong>~₹925 Cr (+31%)</strong>, PAT ~₹271 Cr, ~40% EBITDA margin; order pipeline hits an all-time-high <strong>~₹2,062 Cr</strong> (₹2,654 Cr by end-Jul 2026); management resets FY27 margin guidance to 35–40% as production scales.</div></li>
   </ul>
 
   <h3>Ownership &amp; management</h3>
   <ul class="clean">
     <li><strong>Promoters:</strong> S. Rangarajan (Chairman &amp; Managing Director) and family held <strong>~42.4%</strong> at March 2026 — engaged, technically-fluent founder control, though a notch below the two-thirds many Indian promoters keep.</li>
-    <li><strong>Institutional interest:</strong> FIIs held ~12.5% and domestic institutions ~11.7% at March 2026 — meaningful, growing institutional ownership for a company this size.</li>
-    <li><strong>Balance sheet:</strong> <strong>net cash / effectively debt-free</strong> (~₹5 Cr borrowings against ~₹1,725 Cr reserves), funding the expansion from internal accruals and IPO proceeds rather than debt.</li>
+    <li><strong>Institutional interest:</strong> FIIs held ~12.5% and domestic institutions ~12.0% at June 2026 (promoters 42.41%) — meaningful, growing institutional ownership for a company this size.</li>
+    <li><strong>Balance sheet:</strong> <strong>net cash / effectively debt-free</strong> (~₹5 Cr borrowings against ~₹517 Cr of cash, deposits and investments at Mar 2026), funding the expansion from internal accruals, IPO proceeds and a 2023 QIP (₹37.65 Cr of it still unspent at Mar 2026) rather than debt.</li>
   </ul>
 
   <div class="plain">
@@ -446,12 +447,12 @@
       <div class="bar-row"><div class="blab">Avionics<small>brains</small></div><div class="track"><span class="fill gold" style="width:78%"></span></div><div class="bval">Large</div></div>
       <div class="bar-row"><div class="blab">Electronic warfare<small>ears &amp; shield</small></div><div class="track"><span class="fill indigo" style="width:66%"></span></div><div class="bval">Meaningful</div></div>
       <div class="bar-row"><div class="blab">Strategic / services<small>incl. spares &amp; upgrades</small></div><div class="track"><span class="fill violet" style="width:54%"></span></div><div class="bval">Growing</div></div>
-      <div class="bar-row"><div class="blab">Exports<small>Europe, others</small></div><div class="track"><span class="fill rust" style="width:14%"></span></div><div class="bval">~₹53 Cr book</div></div>
+      <div class="bar-row"><div class="blab">Exports<small>Europe, others</small></div><div class="track"><span class="fill rust" style="width:14%"></span></div><div class="bval">~₹39 Cr book</div></div>
     </div>
     <div class="legend"><span>Bar lengths are indicative of the relative spread management described, not audited segment splits. The point: inflows are broad-based across systems, which cushions any single-programme slippage.</span></div>
   </div>
 
-  <div class="note gold"><b>The concentration to keep front of mind:</b> the diversification <em>across programmes</em> is real, but the diversification <em>across customers</em> is not. Strip away the programme names and the paymaster is almost always the same entity — the Government of India, via the Services, DRDO, ISRO and state-owned primes. Exports (~₹53 Cr order book) are still tiny. When your revenue depends on one customer's budget cycles and one government's procurement timetable, order timing — not demand — becomes the swing factor. That is the through-line of the next two sections.</div>
+  <div class="note gold"><b>The concentration to keep front of mind:</b> the diversification <em>across programmes</em> is real, but the diversification <em>across customers</em> is not. Strip away the programme names and the paymaster is almost always the same entity — the Government of India, via the Services, DRDO, ISRO and state-owned primes. Exports (~₹39 Cr order book at June 2026; 6.7% of FY26 revenue) are still tiny. When your revenue depends on one customer's budget cycles and one government's procurement timetable, order timing — not demand — becomes the swing factor. That is the through-line of the next two sections.</div>
 </section>
 
 <!-- 06 -->
@@ -463,8 +464,8 @@
 
   <div class="mini-stats">
     <div class="ms"><div class="msv">~₹926 Cr</div><div class="msl">Firm order book at Mar 2026 — contracted, to be executed</div></div>
-    <div class="ms gold"><div class="msv">~₹2,062 Cr</div><div class="msl">Total pipeline incl. negotiated / expected orders — all-time high</div></div>
-    <div class="ms indigo"><div class="msv">~₹53 Cr</div><div class="msl">Export order book — small today, a genuine growth option</div></div>
+    <div class="ms gold"><div class="msv">~₹2,654 Cr</div><div class="msl">Total pipeline incl. negotiated orders (end-Jul 2026; ₹2,062 Cr at FY26 results) — all-time high</div></div>
+    <div class="ms indigo"><div class="msv">~₹39 Cr</div><div class="msl">Export order book (Jun 2026, down from ~₹53 Cr) — small today, a genuine growth option</div></div>
   </div>
 
   <p>Two things about this order book matter more than its size. First, the <strong>pipeline is more than double the firm book</strong> — management sees a large body of negotiated and expected work that has not yet hardened into contracts. Second, the <strong>composition is tilting toward production</strong>: qualified designs from earlier years are being ordered in repeatable quantities, which gives more predictable, higher-volume revenue than the stop-start rhythm of pure development work.</p>
@@ -547,7 +548,7 @@
     <div class="c-sub">Operating revenue (₹ Crore)</div>
     <div class="bars">
       <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill ink" style="width:33%"></span></div><div class="bval">~310</div></div>
-      <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:60%"></span></div><div class="bval">~566</div></div>
+      <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:56%"></span></div><div class="bval">~520</div></div>
       <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:76%"></span></div><div class="bval">~708</div></div>
       <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">~925</div></div>
     </div>
@@ -565,15 +566,15 @@
 
   <div class="mini-stats">
     <div class="ms gold"><div class="msv">~40%</div><div class="msl">FY26 EBITDA margin — near the top of Indian defence</div></div>
-    <div class="ms green"><div class="msv">Net cash</div><div class="msl">~₹5 Cr debt vs ~₹1,725 Cr reserves — self-funded growth</div></div>
-    <div class="ms red"><div class="msv">~95×</div><div class="msl">Trailing P/E (Jul '26); ~14× book — a demanding multiple</div></div>
+    <div class="ms green"><div class="msv">Net cash</div><div class="msl">~₹5 Cr debt vs ~₹517 Cr cash, deposits &amp; investments (Mar 2026) — self-funded growth</div></div>
+    <div class="ms red"><div class="msv">~86×</div><div class="msl">Trailing P/E (as of 13 Oct 2026); ~13× book — a demanding multiple</div></div>
   </div>
 
-  <p>Returns match the margins: <strong>RoCE ~22%, RoE ~15%</strong> in FY26. The one blemish on an otherwise pristine sheet is working-capital intensity — a defence feature covered in Section 10. On valuation, at ~₹23,900 Cr market cap the stock sits near <strong>~95× trailing earnings and ~14× book value</strong>, a level that already discounts years of rapid, high-margin growth.</p>
+  <p>Returns match the margins: <strong>RoCE ~22%, RoE ~15%</strong> in FY26. The one blemish on an otherwise pristine sheet is working-capital intensity — a defence feature covered in Section 10. On valuation, at ~₹23,170 Cr market cap (as of 13 Oct 2026) the stock sits near <strong>~86× trailing earnings and ~13× book value</strong>, a level that already discounts years of rapid, high-margin growth.</p>
 
   <div class="plain">
     <div class="ptag">The metric that settles the thesis</div>
-    <p>Do not get lost in the P/E debate. For this specific company, the number that decides the outcome is the <strong>production-phase EBITDA margin — does it hold at ~38% as revenue tilts to hardware, or slide below?</strong> Pair it with <strong>book-to-bill</strong> (fresh orders divided by revenue): above ~1.0 and the ~₹2,062 Cr pipeline is refilling faster than it drains; below it, growth is borrowing from the backlog. If production margins stabilise in the high-30s <em>and</em> book-to-bill stays above one, the compounding is intact and the multiple can be carried. If production margins drift toward the sector's low-30s while order intake cools, the earnings base and the multiple correct together. Everything else — a strong quarter here, a soft one there — is noise around those two dials.</p>
+    <p>Do not get lost in the P/E debate. For this specific company, the number that decides the outcome is the <strong>production-phase EBITDA margin — does it hold at ~38% as revenue tilts to hardware, or slide below?</strong> Pair it with <strong>book-to-bill</strong> (fresh orders divided by revenue): above ~1.0 (FY26: ~1.2×, on ₹1,121 Cr of inflow) and the ~₹2,654 Cr pipeline is refilling faster than it drains; below it, growth is borrowing from the backlog. If production margins stabilise in the high-30s <em>and</em> book-to-bill stays above one, the compounding is intact and the multiple can be carried. If production margins drift toward the sector's low-30s while order intake cools, the earnings base and the multiple correct together. Everything else — a strong quarter here, a soft one there — is noise around those two dials.</p>
   </div>
 </section>
 
@@ -627,13 +628,13 @@
         <li><strong>Structural tailwind</strong> — indigenisation rules, a rising defence budget, and 30–40% electronics content per platform aim demand straight at this firm.</li>
         <li><strong>Production annuity forming</strong> — a decade's worth of qualified designs converting into repeatable orders, spares and upgrades.</li>
         <li><strong>Balance-sheet superpower</strong> — net cash and ~22% RoCE let it self-fund a working-capital-hungry ramp that would strangle a leveraged rival.</li>
-        <li><strong>Optionality</strong> — exports (from a ~₹53 Cr base) and new programmes are upside not yet in the numbers.</li>
+        <li><strong>Optionality</strong> — exports (from a ~₹39 Cr order-book base) and new programmes are upside not yet in the numbers.</li>
       </ul>
     </div>
     <div class="col bear">
       <h4>The bear case</h4>
       <ul class="clean">
-        <li><strong>Very rich valuation</strong> — ~95× earnings and ~14× book bake in years of high growth <em>and</em> sustained top-tier margins.</li>
+        <li><strong>Very rich valuation</strong> — ~86× earnings and ~13× book (as of 13 Oct 2026) bake in years of high growth <em>and</em> sustained top-tier margins.</li>
         <li><strong>Margin normalisation</strong> — management itself guides margins down as production scales; the market punished the reset once already.</li>
         <li><strong>Single-customer dependence</strong> — almost all revenue rides on Indian government budgets and procurement timing; exports still tiny.</li>
         <li><strong>Lumpiness &amp; working capital</strong> — Q4-loaded revenue and ~290-day debtor/inventory cycles make cash flow jumpy and growth cash-hungry.</li>
@@ -652,7 +653,8 @@
   <div class="eyebrow" style="margin-bottom:14px;">Sources &amp; further reading</div>
   <ol>
     <li>Data Patterns (India) — Q4 &amp; FY26 results and press release (year ended Mar 2026), company investor relations.</li>
-    <li>Screener.in — Data Patterns (India) Ltd consolidated financials, ratios &amp; shareholding (accessed Jul 2026).</li>
+    <li>Screener.in — Data Patterns (India) Ltd standalone financials, ratios &amp; shareholding (accessed Jul 2026; re-checked 13 Oct 2026: market cap ₹23,169 Cr, P/E 85.7×, P/B 13.4×; FY24 revenue ₹520 Cr; FII 12.50% / DII 11.98%, Jun 2026).</li>
+    <li>Data Patterns Q1 FY27 investor presentation and concall (BSE, 30–31 Jul 2026) — Q1 revenue ₹116 Cr, EBITDA ₹31.4 Cr, PAT ₹22.1 Cr; order book ₹927.7 Cr firm / ₹2,654 Cr incl. negotiated; export order book ₹39 Cr; FY27 guidance. Annual Report FY26 — exports ₹61.8 Cr (6.7%), cash/FDs/investments ₹517 Cr, QIP proceeds unspent ₹37.65 Cr. BSE Reg-30 filing, 25 Aug 2026 — ST Advanced Composites SPA.</li>
     <li>ICICIdirect — Data Patterns Q4FY26 result update and research note.</li>
     <li>Business Standard — "Data Patterns shares fall 11% after FY27 margin guidance spooks investors" (May 2026).</li>
     <li>Whalesbook / Sahi — Data Patterns FY27 guidance (20–25% growth, 35–40% margins) coverage (May 2026).</li>

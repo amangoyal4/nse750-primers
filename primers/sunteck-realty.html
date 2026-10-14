@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+main{min-width:0;}
   :root{
     --paper:#F3F5F8;
     --paper-2:#FAFBFC;
@@ -255,17 +256,17 @@
     <div class="cell"><div class="v">~₹3,157 <small>Cr</small></div><div class="l">Pre-sales / bookings (FY26)</div></div>
     <div class="cell"><div class="v">~₹1,124 <small>Cr</small></div><div class="l">Recognised revenue (FY26)</div></div>
     <div class="cell"><div class="v">~₹202 <small>Cr</small></div><div class="l">Net profit (FY26)</div></div>
-    <div class="cell"><div class="v">~₹270 <small>Cr</small></div><div class="l">Net debt (FY26, ~0.06× D/E)</div></div>
+    <div class="cell"><div class="v">~₹295 <small>Cr</small></div><div class="l">Net debt (Jun 2026, ~0.07× D/E)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">01 Sep 2026</b> · source: FY26 results + Q1 FY27 (Jun 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: FY26 results, Q1 FY27 (Jun 2026) results &amp; latest exchange filings; market data as of 13 Oct 2026</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — pre-sales ~₹3,157 Cr (+25%), collections ~₹1,433 Cr, revenue ~₹1,124 Cr (+32%), EBITDA ~₹305 Cr (+64%), PAT ~₹202 Cr (+34%); three MMR projects (~₹5,000 Cr GDV) added at Andheri &amp; Mira Road; total GDV lifted to ~₹42,700 Cr by Q1 FY27; Q1 FY27 pre-sales ~₹787 Cr (+20%).</div>
+  <div class="whatsnew"><b>What's new · last refresh</b><strong>Q1 FY27 (Jun-26 quarter):</strong> pre-sales ~₹787 Cr (+20%); total GDV ₹42,700 Cr; net debt ₹295 Cr (0.07×). On 21 Jul 2026 the board approved an <strong>enabling resolution to raise up to ₹2,250 Cr</strong> (₹1,500 Cr NCDs + ₹750 Cr equity/convertibles). The Downtown Dubai project is launch-ready but deliberately deferred, with no FY27/28 commitment. Market cap ₹3,968 Cr at ₹271 (13 Oct 2026), at the 52-week low; P/E 18.6×, P/B 1.1×. <strong>FY26:</strong> pre-sales ~₹3,157 Cr (+25%), collections ~₹1,433 Cr, revenue ~₹1,124 Cr (+32%), EBITDA ~₹305 Cr (+64%), PAT ~₹202 Cr (+34%); three MMR projects (~₹5,000 Cr GDV) added at Andheri &amp; Mira Road; total GDV lifted to ~₹42,700 Cr by Q1 FY27; Q1 FY27 pre-sales ~₹787 Cr (+20%).</div>
 </header>
 
 <!-- 00 -->
@@ -279,7 +280,7 @@
   <ul class="clean">
     <li><strong>The number that matters is pre-sales, not revenue.</strong> A developer books a sale years before it can put that money on its profit-and-loss statement, so accounting revenue lags reality badly. In FY26 Sunteck <em>sold</em> <strong>~₹3,157 Cr of homes</strong> (pre-sales) but <em>recognised</em> only <strong>~₹1,124 Cr of revenue</strong>. The gap is not a problem — it <em>is</em> the business being built. Watch pre-sales and collections; the reported P&amp;L is a rear-view mirror.</li>
     <li><strong>It runs on almost no debt.</strong> Sunteck controls a project pipeline worth roughly <strong>₹42,700 Cr of gross development value (GDV)</strong> — yet carries net debt of only about <strong>₹270 Cr</strong> (a net-debt-to-equity of ~0.06×) and is rated <strong>AA</strong>. That is the whole identity of the company: it acquires land through <strong>joint-development deals</strong> rather than buying it outright, so it commands a huge development book without a heavy balance sheet.</li>
-    <li><strong>FY26 was a strong up-cycle year.</strong> Pre-sales rose ~25% to a record, collections grew to ~₹1,433 Cr, and reported profit climbed ~34% to <strong>~₹202 Cr</strong> — riding a post-2021 Mumbai residential boom and a market steadily consolidating toward branded, listed developers. The stock trades around <strong>20–21× earnings</strong>: not cheap, because the market pays up for the low-debt model and the launch runway ahead.</li>
+    <li><strong>FY26 was a strong up-cycle year.</strong> Pre-sales rose ~25% to a record, collections grew to ~₹1,433 Cr, and reported profit climbed ~34% to <strong>~₹202 Cr</strong> — riding a post-2021 Mumbai residential boom and a market steadily consolidating toward branded, listed developers. The stock trades around <strong>18.6× earnings</strong> (as of 13 Oct 2026, at its 52-week low): not cheap, because the market pays up for the low-debt model and the launch runway ahead.</li>
   </ul>
 
   <div class="plain">
@@ -317,12 +318,12 @@
     <div class="c-title">Pre-sales trajectory — the real growth curve</div>
     <div class="c-sub">Annual bookings value, ₹ Crore (FY23–FY26), plus Q1 FY27 run-rate</div>
     <div class="bars">
-      <div class="bar-row"><div class="blab">FY23<small>bookings value</small></div><div class="track"><span class="fill ink" style="width:60.7%"></span></div><div class="bval">~1,918</div></div>
-      <div class="bar-row"><div class="blab">FY24<small>+~0%</small></div><div class="track"><span class="fill wtg" style="width:61.4%"></span></div><div class="bval">~1,942</div></div>
+      <div class="bar-row"><div class="blab">FY23<small>bookings value</small></div><div class="track"><span class="fill ink" style="width:50.7%"></span></div><div class="bval">1,602</div></div>
+      <div class="bar-row"><div class="blab">FY24<small>+20%</small></div><div class="track"><span class="fill wtg" style="width:60.7%"></span></div><div class="bval">1,915</div></div>
       <div class="bar-row"><div class="blab">FY25<small>+32%, record</small></div><div class="track"><span class="fill spec" style="width:80.2%"></span></div><div class="bval">~2,531</div></div>
       <div class="bar-row"><div class="blab">FY26<small>+25%, new record</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~3,157</div></div>
     </div>
-    <div class="legend"><span>Pre-sales roughly stalled in FY24, then compounded ~30% a year through the Mumbai up-cycle — and Q1 FY27 opened +20% YoY at ~₹787 Cr. Management guides to 25–30% growth again in FY27. FY23 figure approximate.</span></div>
+    <div class="legend"><span>Pre-sales grew 20% in FY24, then 32% in FY25 and 25% in FY26 through the Mumbai up-cycle — and Q1 FY27 opened +20% YoY at ~₹787 Cr. Management guides to 25–30% growth again in FY27. FY23–FY24 per the company's Q1 FY27 deck.</span></div>
   </div>
 </section>
 
@@ -436,7 +437,7 @@
 
   <div class="plain">
     <div class="ptag">The surprise hiding in the pipeline: the single biggest project isn't in Mumbai</div>
-    <p>Read Sunteck as "a Mumbai/MMR developer" and one line in its own disclosures stops you short: the <strong>largest single project by GDV in the pipeline is Downtown Dubai (~₹9,000 Cr)</strong>, in the Burj Khalifa community — larger than any of its Indian projects, edging even the Kalyan township. A company whose identity is built on Bandra-Kurla and Naigaon now has its biggest development-value bet parked in the UAE, chasing the same NRI and global-Indian luxury buyer that already loves its BKC brand. It is a logical extension of the premium franchise — but it also means "Mumbai residential developer" is no longer the full description, and a chunk of the future book now carries Dubai's cycle, currency and regulatory context rather than Maharashtra's.</p>
+    <p>Read Sunteck as "a Mumbai/MMR developer" and one line in its own disclosures stops you short: the <strong>largest single project by GDV in the pipeline is Downtown Dubai (~₹9,000 Cr)</strong> — launch-ready, but deliberately deferred by management on geopolitics, with no FY27 or FY28 launch commitment, in the Burj Khalifa community — larger than any of its Indian projects, edging even the Kalyan township. A company whose identity is built on Bandra-Kurla and Naigaon now has its biggest development-value bet parked in the UAE, chasing the same NRI and global-Indian luxury buyer that already loves its BKC brand. It is a logical extension of the premium franchise — but it also means "Mumbai residential developer" is no longer the full description, and a chunk of the future book now carries Dubai's cycle, currency and regulatory context rather than Maharashtra's.</p>
   </div>
 </section>
 
@@ -453,13 +454,13 @@
     <li class="major"><div class="yr">Late 2000s</div><div class="ev">Sunteck stakes its claim in <strong>Bandra-Kurla Complex</strong>, developing the ultra-luxury <strong>Signature Island</strong> and Signia towers — the projects that define the brand as a premium Mumbai name.</div></li>
     <li><div class="yr">2010s</div><div class="ev">Pursues a <strong>near-zero-debt, JDA-led model</strong>; widens into the western suburbs with the <strong>ODC Goregaon "Sunteck City"</strong> development and the large <strong>Naigaon township</strong>, adding volume beneath the luxury tip.</div></li>
     <li class="major"><div class="yr">2021</div><div class="ev">Expands the land bank capital-lightly — inks new JVs and acquires a <strong>110-acre riverfront parcel at Pen-Khopoli</strong>; rides the start of the post-pandemic Mumbai residential up-cycle.</div></li>
-    <li class="major"><div class="yr">FY24</div><div class="ev">More than doubles total <strong>GDV to ~₹30,000 Cr</strong> in under three years through fresh JDAs and micro-market additions, while keeping leverage minimal.</div></li>
+    <li class="major"><div class="yr">FY24</div><div class="ev">Lifts total <strong>GDV to ~₹26,465 Cr</strong> (from ~₹19,345 Cr in FY23) through fresh JDAs and micro-market additions, while keeping leverage minimal; GDV reaches ₹39,370 Cr in FY25 and ₹41,030 Cr in FY26.</div></li>
     <li class="major"><div class="yr">FY25–FY26</div><div class="ev">Record pre-sales (₹2,531 Cr then ₹3,157 Cr); adds three MMR projects (~₹5,000 Cr GDV) at Andheri &amp; Mira Road; total GDV reaches <strong>~₹42,700 Cr</strong>; India Ratings affirms an <strong>AA</strong> long-term rating.</div></li>
   </ul>
 
   <h3>Ownership &amp; structure</h3>
   <ul class="clean">
-    <li><strong>Promoter:</strong> the <strong>Kamal Khetan / promoter group</strong> holds roughly <strong>63% (approx., ~63.1% as of mid-2026)</strong>, leaving a public float of about 37%. A high, stable promoter stake means concentrated control and strong alignment — but also that minority investors are along for the ride on the founder's capital-allocation choices. Confirm the exact figure in the latest shareholding filing.</li>
+    <li><strong>Promoter:</strong> the <strong>Kamal Khetan / promoter group</strong> holds <strong>63.14%</strong> (June 2026), leaving a public float of about 37%. Institutions have been trimming: FIIs fell from 20.58% to 18.12% and DIIs from 9.29% to 5.30% between June 2024 and June 2026. A high, stable promoter stake means concentrated control and strong alignment — but also that minority investors are along for the ride on the founder's capital-allocation choices. Confirm the exact figure in the latest shareholding filing.</li>
     <li><strong>Institutional interest:</strong> the low-debt, premium-brand model has attracted domestic and foreign institutional holders over the years, and Sunteck is a regularly-covered mid-cap in the listed-realty basket alongside the larger names.</li>
     <li><strong>Balance-sheet strength:</strong> net worth of ~<strong>₹4,515 Cr</strong> against gross debt of ~<strong>₹783 Cr</strong> and an <strong>AA</strong> rating — a capital structure far more conservative than the sector's historical norm, and the foundation of the whole equity story.</li>
   </ul>
@@ -474,7 +475,7 @@
 
   <p class="lead">If pre-sales are the speedometer, the <strong>pipeline is the fuel tank</strong>. Sunteck's total gross development value — the aggregate sellable value of everything it has the right to build — has swelled from ~₹19,345 Cr in FY23 to <strong>~₹42,700 Cr</strong> by Q1 FY27, spanning over 50 million square feet. But a GDV number on a slide is only potential. What converts it into pre-sales, collections and eventually profit is the <strong>launch cadence</strong>: how quickly Sunteck can get approvals and put each project on the market, because a flat can't be pre-sold until it's launched.</p>
 
-  <p>That tank has filled fast: total GDV climbed from ~₹19,345 Cr in FY23 to ~₹30,000 Cr by FY24 and ~₹42,700 Cr by Q1 FY27 — more than doubling in about three years on fresh JDAs, redevelopment wins and new micro-markets (Kalyan, Nepean Sea, Andheri, Mira Road, Dubai), all while net debt stayed near zero. But a full tank is not the same as fuel in the engine, and the split by launch stage shows why.</p>
+  <p>That tank has filled fast: total GDV climbed from ~₹19,345 Cr in FY23 to ₹26,465 Cr in FY24, ₹39,370 Cr in FY25, ₹41,030 Cr in FY26 and ₹42,700 Cr by Q1 FY27 — more than doubling in about three years on fresh JDAs, redevelopment wins and new micro-markets (Kalyan, Nepean Sea, Andheri, Mira Road, Dubai), all while net debt stayed near zero. But a full tank is not the same as fuel in the engine, and the split by launch stage shows why.</p>
 
   <div class="chart">
     <div class="c-title">Pipeline by launch stage — how much is ready to sell</div>
@@ -484,7 +485,7 @@
       <div class="bar-row"><div class="blab">To-be-launched<small>next in the queue</small></div><div class="track"><span class="fill wtg" style="width:88.3%"></span></div><div class="bval">~16,100</div></div>
       <div class="bar-row"><div class="blab">Upcoming-for-launch<small>further out</small></div><div class="track"><span class="fill spec" style="width:100%"></span></div><div class="bval">~18,230</div></div>
     </div>
-    <div class="legend"><span>Only ~₹8,370 Cr of GDV is actually launched and selling; the vast majority is queued. That is upside (huge runway) and risk (it must clear approvals and reach the market to become sales). FY27 launch plan: ~₹7,100 Cr, excluding Dubai.</span></div>
+    <div class="legend"><span>Only ~₹8,370 Cr of GDV is actually launched and selling; the vast majority is queued. That is upside (huge runway) and risk (it must clear approvals and reach the market to become sales). FY27 launch plan: ~₹7,100 Cr, excluding Dubai (which is launch-ready but deferred).</span></div>
   </div>
 
   <p>Read those two charts together and the investment question crystallises. The tank is large and growing, but roughly <strong>80% of the GDV is not yet launched</strong> — it is "to-be" or "upcoming." That is exactly what a growth investor wants (years of sellable inventory ahead) and exactly where the execution risk lives (a plot delivers nothing until it clears Maharashtra's approval maze and opens for bookings). Management's stated plan to launch ~₹7,100 Cr of GDV in FY27 (excluding Dubai) is the near-term bridge from potential to sales — and the cadence of those launches is what the market will grade quarter by quarter.</p>
@@ -500,7 +501,7 @@
   <div class="part-head"><span class="pno">07</span><h2>Collections, cash flow, and the near-zero net debt</h2></div>
   <p class="part-sub">The cash engine that lets a huge development book sit on a light balance sheet.</p>
 
-  <p class="lead">The reason Sunteck can carry ₹42,700 Cr of GDV on ~₹270 Cr of net debt is that its projects are increasingly <strong>self-funding</strong>: buyer instalments (collections) and the surplus from finished projects pay for the next round of building, so the company borrows little. The health of this engine shows up not in the profit line but in <strong>collections and operating cash flow</strong> — the pair that tells you whether pre-sales are actually converting into money in the bank.</p>
+  <p class="lead">The reason Sunteck can carry ₹42,700 Cr of GDV on ~₹270 Cr of net debt (company basis: ₹266 Cr at FY26, ₹295 Cr at June 2026, on gross debt of ₹783 Cr; a screener-style calculation gives ~₹606 Cr because the company nets off refundable JDA deposits) is that its projects are increasingly <strong>self-funding</strong>: buyer instalments (collections) and the surplus from finished projects pay for the next round of building, so the company borrows little. The health of this engine shows up not in the profit line but in <strong>collections and operating cash flow</strong> — the pair that tells you whether pre-sales are actually converting into money in the bank.</p>
 
   <p>Collections lagged pre-sales through FY24–FY25 — sales ran ahead of the construction-linked cash — then accelerated as projects moved into their higher-collection building phases: ~₹1,236 Cr in FY24, ~₹1,255 Cr in FY25, and ~₹1,433 Cr in FY26 (+14%), with Q1 FY27 up ~17% YoY to ~₹409 Cr. That closing gap between "sold" and "paid" is the operating cash finally arriving. The surplus it throws off is what funds the next JDA and keeps borrowings near zero.</p>
 
@@ -510,7 +511,7 @@
     <div class="ms green"><div class="msv">~0.06×</div><div class="msl">Net-debt-to-equity — the flywheel keeps the balance sheet light</div></div>
   </div>
 
-  <p>Notice how the two speedometers from section 02 finally reconcile here: pre-sales lead, collections follow a few quarters behind as construction progresses, and only then does revenue appear on handover. FY26's jump in both collections (+14%) and operating surplus (+48%) is the sign that the record pre-sales of FY25–FY26 are genuinely turning into cash, not just optimistic bookings. For a developer, <strong>collections growth is the vote of confidence that pre-sales growth is real</strong> — sales you can't collect are just paper.</p>
+  <p>Notice how the two speedometers from section 02 finally reconcile here: pre-sales lead, collections follow a few quarters behind as construction progresses, and only then does revenue appear on handover. FY26's jump in both collections (+14%) and operating surplus (+48%) is the sign that the record pre-sales of FY25–FY26 are genuinely turning into cash (on the company's basis — statutory operating cash flow was −₹432 Cr in FY26, because it counts ~₹813 Cr of business-development and land spend), not just optimistic bookings. For a developer, <strong>collections growth is the vote of confidence that pre-sales growth is real</strong> — sales you can't collect are just paper.</p>
 
   <div class="plain">
     <div class="ptag">The quiet metric that separates a good developer from a fragile one</div>
@@ -537,7 +538,7 @@
   </div>
 
   <h3>The commercial annuity — a smaller, steadier third leg</h3>
-  <p>Alongside selling homes, Sunteck holds some <strong>commercial assets</strong> — offices and retail, notably in and around BKC — that it can lease for rental income rather than sell. This annuity stream is a minor part of the story today, but it matters conceptually: it is the one piece of Sunteck that behaves like a REIT-style landlord (steady, recurring rent) rather than a developer (lumpy, one-off sales). It offers a modest counterweight to the lumpiness of development earnings and a store of value that can be monetised or scaled if management chooses. Do not mistake it for the engine, though — Sunteck is overwhelmingly a <em>developer</em>, and the commercial book is a garnish, not the meal.</p>
+  <p>Alongside selling homes, Sunteck holds some <strong>commercial assets</strong> — offices and retail, notably in and around BKC — that it can lease for rental income rather than sell. This annuity stream is a minor part of the story today — about ₹76 Cr of rent — but management targets ~₹450 Cr by FY29E, led by the 5th Avenue office at ODC Goregaon and 29-year pre-leases at BKC 51 and Icon, at a ~7–7.5% yield. It matters conceptually too: it is the one piece of Sunteck that behaves like a REIT-style landlord (steady, recurring rent) rather than a developer (lumpy, one-off sales). It offers a modest counterweight to the lumpiness of development earnings and a store of value that can be monetised or scaled if management chooses. Do not mistake it for the engine yet, though — Sunteck is still overwhelmingly a <em>developer</em>, and the commercial book is a side dish until the FY29 target is delivered.</p>
 
   <div class="plain">
     <div class="ptag">Separating the tide from the swimmer</div>
@@ -577,7 +578,7 @@
   <div class="part-head"><span class="pno">10</span><h2>Financials &amp; valuation</h2></div>
   <p class="part-sub">A record operating year on a full multiple — the question is durability of the cadence.</p>
 
-  <p class="lead">FY26 was a record on the metrics that count: pre-sales ~₹3,157 Cr (+25%), collections ~₹1,433 Cr, operating surplus ~₹552 Cr (+48%). The reported P&amp;L — revenue ~₹1,124 Cr (+32%), EBITDA ~₹305 Cr (+64%), PAT ~₹202 Cr (+34%) — lagged the sales momentum by design, but grew fast as older projects were delivered. At roughly <strong>20–21× trailing earnings</strong> and a market cap near <strong>₹4,450 Cr</strong>, Sunteck is priced as a quality growth compounder, not a value stock — the market is paying for the low-debt model and the launch runway, not discounting them.</p>
+  <p class="lead">FY26 was a record on the metrics that count: pre-sales ~₹3,157 Cr (+25%), collections ~₹1,433 Cr, operating surplus ~₹552 Cr (+48%). The reported P&amp;L — revenue ~₹1,124 Cr (+32%), EBITDA ~₹305 Cr (+64%), PAT ~₹202 Cr (+34%) — lagged the sales momentum by design, but grew fast as older projects were delivered. At roughly <strong>18.6× trailing earnings</strong> and a market cap near <strong>₹3,968 Cr</strong> (as of 13 Oct 2026, at the 52-week low; 1.1× book), Sunteck is priced as a quality growth compounder, not a value stock — the market is paying for the low-debt model and the launch runway, not discounting them.</p>
 
   <div class="chart">
     <div class="c-title">FY26 reported P&amp;L — the accounting scorecard</div>
@@ -593,8 +594,8 @@
   <p>The momentum reads the same on both speedometers, at very different scales. On the sales side, pre-sales rose from ~₹2,531 Cr in FY25 to ~₹3,157 Cr in FY26; on the profit side, EBITDA rose from ~₹186 Cr to ~₹305 Cr and PAT from ~₹150 Cr to ~₹202 Cr — a reminder that a developer's reported profit is a small, lagged shadow of the value it actually sells.</p>
 
   <div class="mini-stats">
-    <div class="ms gold"><div class="msv">~20–21×</div><div class="msl">Trailing P/E (mid-2026) — a quality/growth rating, not a value one</div></div>
-    <div class="ms"><div class="msv">~₹4,450 Cr</div><div class="msl">Market cap (mid-2026) — a mid-cap in the listed-realty basket</div></div>
+    <div class="ms gold"><div class="msv">~18.6×</div><div class="msl">Trailing P/E (13 Oct 2026) — a quality/growth rating, not a value one</div></div>
+    <div class="ms"><div class="msv">~₹3,968 Cr</div><div class="msl">Market cap (13 Oct 2026) — a mid-cap in the listed-realty basket</div></div>
     <div class="ms green"><div class="msv">~₹246</div><div class="msl">Book value per share — net worth ~₹4,515 Cr behind the equity</div></div>
   </div>
 

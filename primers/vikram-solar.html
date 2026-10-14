@@ -192,6 +192,7 @@
   footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
   footer.src li{margin-bottom:7px;break-inside:avoid;}
   .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+  main{min-width:0;}
 </style>
 <style id="pdf-print-style">
 .dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
@@ -254,18 +255,18 @@
 <div class="stat-strip">
     <div class="cell"><div class="v">~₹4,802 <small>Cr</small></div><div class="l">Revenue (FY26)</div></div>
     <div class="cell"><div class="v">~₹470 <small>Cr</small></div><div class="l">Net profit (FY26)</div></div>
-    <div class="cell"><div class="v">~8.2 <small>GW</small></div><div class="l">Order book (Mar 2026)</div></div>
-    <div class="cell"><div class="v">~₹6,190 <small>Cr</small></div><div class="l">Market cap (Aug 2026)</div></div>
+    <div class="cell"><div class="v">~7.9 <small>GW</small></div><div class="l">Order book (Jun 2026)</div></div>
+    <div class="cell"><div class="v">~₹5,208 <small>Cr</small></div><div class="l">Market cap (13 Oct 2026)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">21 Aug 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: FY26 results (year ended Mar 2026), Q1 FY27 results (Jun 2026 quarter)</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — revenue ₹4,802 Cr (+40%), net profit ₹470 Cr (roughly 3× FY25), module sales 3,342 MW, order book 8.2 GW; added the export-collapse and cell-commissioning sections after the stock roughly halved from its Aug-2025 listing.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b><strong>Q1 FY27 (Apr–Jun 2026):</strong> revenue ₹1,563 Cr (+38%), but <strong>EBITDA ₹126 Cr (8.1% margin vs 21%)</strong> and <strong>PAT ₹20 Cr (−85%)</strong>; gross margin 19% vs 31%; realisation ₹15.02/Wp; FY27 outlook to be revisited at H1. Module nameplate is now <strong>15.5 GW</strong> (the 6 GW Gangaikondan plant made its first module in Jun 2026; FY27 effective ~9–9.5 GW). The first solar cell is now targeted for <strong>Q4 FY27 (Jan–Mar 2027)</strong>, not Dec 2026; wafer plan is 9 GW from FY29. Order book ~7.9 GW (30 Jun 2026) plus a 400 MW EPC order (28 Sep 2026). Rony Banerjee (EVP Sales &amp; BD) resigned; Nimish Jain named Chief Business Officer. Market cap ~₹5,208 Cr, share price ~₹144 (52-week low ₹141), ~14.4× earnings, ~1.6× book (as of 13 Oct 2026). Earlier: FY26 full-year results incorporated — revenue ₹4,802 Cr (+40%), net profit ₹470 Cr (roughly 3× FY25), module sales 3,342 MW, order book 8.2 GW; added the export-collapse and cell-commissioning sections after the stock roughly halved from its Aug-2025 listing.</div>
 </header>
 
 <!-- 00 -->
@@ -273,13 +274,13 @@
   <div class="part-head"><span class="pno">00</span><h2>The 30-second snapshot</h2></div>
   <p class="part-sub">What you're looking at, before we go deep.</p>
 
-  <p class="lead">Vikram Solar makes <strong>solar panels</strong> — the flat, glass-fronted rectangles of blue-black cells that sit on rooftops and cover utility-scale solar farms, turning sunlight into electricity. It is <strong>one of India's largest crystalline-silicon PV module manufacturers</strong>, a Kolkata-headquartered maker that has been building panels since 2009 and now runs roughly <strong>9.5 GW of module-assembly capacity</strong> across West Bengal and Tamil Nadu. Alongside the panels it runs an EPC and O&amp;M arm that designs, builds and maintains solar projects. Its customers are Indian utilities, C&amp;I (commercial &amp; industrial) buyers, rooftop installers, and — historically — export markets led by the United States.</p>
+  <p class="lead">Vikram Solar makes <strong>solar panels</strong> — the flat, glass-fronted rectangles of blue-black cells that sit on rooftops and cover utility-scale solar farms, turning sunlight into electricity. It is <strong>one of India's largest crystalline-silicon PV module manufacturers</strong>, a Kolkata-headquartered maker that has been building panels since 2009 and now has <strong>15.5 GW of module-assembly nameplate</strong> across West Bengal and Tamil Nadu (the new 6 GW Gangaikondan plant started in Jun 2026, so FY27's effective capacity is ~9–9.5 GW). Alongside the panels it runs an EPC and O&amp;M arm that designs, builds and maintains solar projects. Its customers are Indian utilities, C&amp;I (commercial &amp; industrial) buyers, rooftop installers, and — historically — export markets led by the United States.</p>
 
   <p>Three facts frame everything:</p>
   <ul class="clean">
-    <li><strong>It makes the panel, but not yet the cell inside it.</strong> A module is an assembly of solar <em>cells</em>, and Vikram — like most Indian module makers — has until now <strong>imported those cells</strong>, mainly from China and South-East Asia, then laminated them into finished panels. The single biggest thing happening at this company is the race to build its own <strong>9 GW of cell manufacturing by December 2026</strong>, closing the one gap that has capped its margins and its access to protected demand.</li>
+    <li><strong>It makes the panel, but not yet the cell inside it.</strong> A module is an assembly of solar <em>cells</em>, and Vikram — like most Indian module makers — has until now <strong>imported those cells</strong>, mainly from China and South-East Asia, then laminated them into finished panels. The single biggest thing happening at this company is the race to build its own <strong>9 GW of cell manufacturing</strong>, with the first cell now targeted for <strong>Q4 FY27 (Jan–Mar 2027)</strong> and only 40–50% utilisation expected in FY28 — closing the one gap that has capped its margins and its access to protected demand.</li>
     <li><strong>A wall of policy protects the domestic maker.</strong> India has deliberately fenced off its solar market — import duties on foreign cells and modules, an <strong>Approved List of Models &amp; Manufacturers (ALMM)</strong> that only lets enlisted Indian panels into most government-backed projects, production-linked incentives (PLI), and domestic-content (DCR) rules. For a locally-manufactured maker like Vikram, that fence is the whole opportunity: it makes an Indian-made panel structurally preferred over a cheaper Chinese one.</li>
-    <li><strong>Profit tripled — and the stock still halved.</strong> FY26 revenue rose ~40% to ₹4,802 Cr and net profit jumped roughly <strong>3× to ₹470 Cr</strong>. Yet the shares, listed in August 2025 at ₹338, trade near <strong>₹173</strong> a year later — roughly half. The reason is not the results; it is that the two things the market had priced in — booming US exports and ever-rising module prices — both went into reverse at once.</li>
+    <li><strong>Profit tripled — and the stock still halved.</strong> FY26 revenue rose ~40% to ₹4,802 Cr and net profit jumped roughly <strong>3× to ₹470 Cr</strong>. Yet the shares, listed in August 2025 at ₹338 (IPO price ₹332), trade near <strong>₹144</strong> (as of 13 Oct 2026) — down ~57% from the issue price and close to the 52-week low. The reason is not the FY26 results; it is that the two things the market had priced in — booming US exports and ever-rising module prices — both went into reverse at once, and <strong>Q1 FY27 PAT fell 85%</strong> as margins collapsed to 8%.</li>
   </ul>
 
   <div class="plain">
@@ -300,11 +301,11 @@
     <div class="flow-row">
       <div class="node om"><div class="ntag">Stage 1 · Polysilicon</div><div class="nname">Purified silicon</div><div class="nwho">Refined into high-purity poly. China dominates. Vikram: buys, doesn't make.</div></div>
       <div class="arrow">→</div>
-      <div class="node spec"><div class="ntag">Stage 2 · Wafer / Ingot</div><div class="nname">Sliced silicon wafers</div><div class="nwho">Poly cast into ingots, sawn into wafers. Vikram: planned by FY30.</div></div>
+      <div class="node spec"><div class="ntag">Stage 2 · Wafer / Ingot</div><div class="nname">Sliced silicon wafers</div><div class="nwho">Poly cast into ingots, sawn into wafers. Vikram: 9 GW planned, first wafer FY29.</div></div>
       <div class="arrow">→</div>
-      <div class="node spec"><div class="ntag">Stage 3 · Cell</div><div class="nname">The photovoltaic cell</div><div class="nwho">Where sunlight becomes current. The value step. Vikram: 9 GW coming Dec-2026.</div></div>
+      <div class="node spec"><div class="ntag">Stage 3 · Cell</div><div class="nname">The photovoltaic cell</div><div class="nwho">Where sunlight becomes current. The value step. Vikram: 9 GW coming, first cell targeted Q4 FY27.</div></div>
       <div class="arrow">→</div>
-      <div class="node wtg"><div class="ntag">Stage 4 · Module</div><div class="nname">The finished panel</div><div class="nwho">Cells laminated between glass. Vikram's core today: ~9.5 GW.</div></div>
+      <div class="node wtg"><div class="ntag">Stage 4 · Module</div><div class="nname">The finished panel</div><div class="nwho">Cells laminated between glass. Vikram's core today: 15.5 GW nameplate (~9–9.5 GW effective in FY27).</div></div>
       <div class="arrow">→</div>
       <div class="node epc"><div class="ntag">Stage 5 · Project</div><div class="nname">Build &amp; run the farm</div><div class="nwho">EPC + O&amp;M services. Vikram: a smaller side business.</div></div>
     </div>
@@ -371,7 +372,7 @@
   <div class="part-head"><span class="pno">03</span><h2>The company, the family, and a very fresh listing</h2></div>
   <p class="part-sub">A Kolkata promoter family that IPO'd into the top of the solar cycle.</p>
 
-  <p class="lead">Vikram Solar is a <strong>family-promoted manufacturer</strong>, built and controlled by the <strong>Chaudhary family</strong> of Kolkata, with <strong>Gyanesh Chaudhary</strong> as its long-time driving force (Vice Chairman &amp; Managing Director). It is a genuinely home-grown industrial story — one of the earliest Indian companies to commit seriously to crystalline-silicon module manufacturing — that spent fifteen years private before a headline-grabbing August 2025 IPO.</p>
+  <p class="lead">Vikram Solar is a <strong>family-promoted manufacturer</strong>, built and controlled by the <strong>Chaudhary family</strong> of Kolkata, with <strong>Gyanesh Chaudhary</strong> as its long-time driving force (Chairman &amp; Managing Director; H.K. Chaudhary is Chairperson Emeritus). <strong>Sameer Nagpal</strong> is CEO &amp; Whole-time Director and <strong>Ranjan Jindal</strong> is CFO; in Sep 2026 EVP Sales &amp; BD Rony Banerjee resigned and <strong>Nimish Jain</strong> was named Chief Business Officer. It is a genuinely home-grown industrial story — one of the earliest Indian companies to commit seriously to crystalline-silicon module manufacturing — that spent fifteen years private before a headline-grabbing August 2025 IPO.</p>
 
   <h3>Timeline</h3>
   <ul class="timeline">
@@ -381,12 +382,13 @@
     <li class="major"><div class="yr">2022–2024</div><div class="ev">Rides the post-COVID solar boom: US import demand for non-Chinese panels surges, ALMM and PLI kick in, and Vikram commits to a large Tamil Nadu expansion and a move into TOPCon.</div></li>
     <li class="major"><div class="yr">Aug 2025</div><div class="ev"><strong>IPO on NSE &amp; BSE</strong> — a ₹2,079 Cr issue (fresh + offer-for-sale) at ₹332/share, subscribed ~54×. Lists at ₹338, a modest ~2% pop.</div></li>
     <li><div class="yr">FY26</div><div class="ev">Record year operationally — revenue ~₹4,802 Cr (+40%), net profit ~₹470 Cr (roughly 3×), production 3,220 MW, order book 8.2 GW. But the share price slides sharply from the listing level.</div></li>
-    <li class="major"><div class="yr">Dec 2026 (target)</div><div class="ev">Planned commissioning of <strong>9 GW of solar cell capacity</strong> and module capacity taken toward ~15.5 GW — the backward-integration milestone the whole thesis hangs on.</div></li>
+    <li><div class="yr">Q1 FY27</div><div class="ev">The 6 GW Gangaikondan module plant makes its first module (Jun 2026), taking nameplate to <strong>15.5 GW</strong>; but EBITDA margin falls to 8.1% and PAT to ₹20 Cr (−85%).</div></li>
+    <li class="major"><div class="yr">Q4 FY27 (target)</div><div class="ev">First output from the <strong>9 GW solar cell plant</strong> targeted for Jan–Mar 2027 (previously Dec 2026), with 40–50% utilisation expected in FY28 — the backward-integration milestone the whole thesis hangs on.</div></li>
   </ul>
 
   <h3>Ownership &amp; structure</h3>
   <ul class="clean">
-    <li><strong>Promoters:</strong> the <strong>Chaudhary family</strong> and associated entities hold roughly <strong>63%</strong> of the company post-IPO — a firmly promoter-controlled business. A meaningful block of promoter shares had been pledged against project financing; the company has been <em>unpledging</em> shares (a ~26% tranche was released) alongside arranging a large (~₹3,200 Cr) credit facility to fund the capex. Track pledge levels directly in the shareholding filings.</li>
+    <li><strong>Promoters:</strong> the <strong>Chaudhary family</strong> and associated entities hold <strong>63.01%</strong> (Jun 2026) of the company post-IPO — a firmly promoter-controlled business. A meaningful block of promoter shares had been pledged against project financing; the company has been <em>unpledging</em> shares (a ~26% tranche was released) alongside arranging a large (~₹3,200 Cr) credit facility to fund the capex. Track pledge levels directly in the shareholding filings.</li>
     <li><strong>Public float:</strong> retail and institutional investors hold the rest, with FIIs a low-single-digit percentage and domestic institutions only just beginning to build positions in a stock barely a year old.</li>
     <li><strong>What the IPO was for:</strong> the fresh-issue proceeds are earmarked squarely at the <strong>capacity build-out</strong> — the new Tamil Nadu module lines and, above all, the cell manufacturing facility. This is a company raising public money to fund a specific, capital-heavy industrial expansion, not to cash out a mature franchise.</li>
   </ul>
@@ -409,7 +411,7 @@
       <tr><td class="t-strong">ALMM</td><td>The "Approved List of Models &amp; Manufacturers" — only enlisted (largely Indian) modules can be used in most government-linked and utility projects.</td><td>Structurally shuts cheaper Chinese finished panels out of the biggest slice of Indian demand. Vikram, as an enlisted maker, competes only with other Indian makers, not the world.</td></tr>
       <tr><td class="t-strong">Import duties (BCD)</td><td>Basic Customs Duty on imported modules (~40%) and cells (~25%), making foreign panels dearer at the border.</td><td>Widens the price umbrella under which a domestically-made panel can sell profitably — and, tellingly, taxes imported <em>cells</em> too, nudging makers to produce cells at home.</td></tr>
       <tr><td class="t-strong">PLI incentives</td><td>Production-Linked Incentive subsidies for building integrated cell-and-module capacity in India.</td><td>Directly subsidises the very backward-integration (into cells) that Vikram is undertaking, improving the returns on its capex.</td></tr>
-      <tr><td class="t-strong">DCR rules</td><td>"Domestic Content Requirement" — flagship schemes (rooftop, farmer solar pumps) must use Indian cells <em>and</em> modules.</td><td>Creates a premium sub-market only fully-domestic makers can serve. Management expects the DCR market to reach ~20–25 GW in FY27 — a big prize for whoever has home-made cells.</td></tr>
+      <tr><td class="t-strong">DCR rules</td><td>"Domestic Content Requirement" — flagship schemes (rooftop, farmer solar pumps) must use Indian cells <em>and</em> modules.</td><td>Creates a premium sub-market only fully-domestic makers can serve. Management expects the DCR market to reach ~20–25 GW in FY27 — a big prize for whoever has home-made cells. (Separately, an MNRE order of 18 Jul 2026 deferred ALMM cell enforcement for non-DCR C&amp;I and rooftop projects to Dec 2026; Vikram's FY27 mix is "skewed towards non-DCR".)</td></tr>
     </tbody>
   </table>
   </div>
@@ -431,30 +433,30 @@
 
   <div class="chart">
     <div class="c-title">The three capacity numbers — nameplate vs approved vs cells</div>
-    <div class="c-sub">Approximate GW; today's reality against the Dec-2026 build-out target</div>
+    <div class="c-sub">Approximate GW; nameplate vs what is usable, approved and made in-house</div>
     <div class="bars">
-      <div class="bar-row"><div class="blab">Module nameplate<small>panels it can assemble</small></div><div class="track"><span class="fill wtg" style="width:61%"></span></div><div class="bval">~9.5 GW</div></div>
-      <div class="bar-row"><div class="blab">Module target<small>by Dec 2026</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~15.5 GW</div></div>
-      <div class="bar-row"><div class="blab">ALMM-enlisted<small>cleared for protected demand</small></div><div class="track"><span class="fill gold" style="width:18%"></span></div><div class="bval">~2.85 GW</div></div>
-      <div class="bar-row"><div class="blab">Own cells<small>value made in-house</small></div><div class="track"><span class="fill spec" style="width:1%"></span></div><div class="bval">~0 → 9 GW</div></div>
+      <div class="bar-row"><div class="blab">Module nameplate<small>Jun 2026, incl. Gangaikondan</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~15.5 GW</div></div>
+      <div class="bar-row"><div class="blab">Module effective<small>FY27, while the new plant ramps</small></div><div class="track"><span class="fill wtg" style="width:61%"></span></div><div class="bval">~9–9.5 GW</div></div>
+      <div class="bar-row"><div class="blab">ALMM-enlisted<small>cleared for protected demand (mid-2025)</small></div><div class="track"><span class="fill gold" style="width:18%"></span></div><div class="bval">~2.85 GW</div></div>
+      <div class="bar-row"><div class="blab">Own cells<small>first cell targeted Q4 FY27</small></div><div class="track"><span class="fill spec" style="width:1%"></span></div><div class="bval">~0 → 9 GW</div></div>
     </div>
-    <div class="legend"><span>Vikram can assemble ~9.5 GW of panels, but only ~2.85 GW was ALMM-enlisted (mid-2025) and it makes essentially <em>none</em> of its own cells today. The plan takes modules to ~15.5 GW and cells from zero to 9 GW by December 2026 — closing all three gaps at once.</span></div>
+    <div class="legend"><span>Vikram now has ~15.5 GW of module nameplate, but only ~9–9.5 GW is effectively usable in FY27, only ~2.85 GW was ALMM-enlisted as of mid-2025, and it makes <em>none</em> of its own cells yet. The 9 GW cell plant is targeted to produce its first cell in Q4 FY27 (Jan–Mar 2027), with 40–50% utilisation in FY28 — so the cell gap closes over FY28, not in 2026.</span></div>
   </div>
 
   <p>This is the company in one picture. A big module nameplate is a promise of what it <em>could</em> ship. ALMM-enlisted capacity is what it is actually <em>allowed</em> to ship into the protected market — and that number has lagged the nameplate, because enlistment is a per-line, per-product approval process that takes time. And cell capacity of near-zero means that, for now, the most valuable part of every panel is bought from abroad. The FY26 profit surge happened <em>despite</em> all three gaps; the bet is that closing them turns a good manufacturer into a structurally advantaged one.</p>
 
   <div class="plain">
     <div class="ptag">The device that fits only Vikram: nameplate GW → ALMM GW → cell GW</div>
-    <p>Most manufacturers you can size up with one capacity figure. Vikram needs three, and the distance between them is where the money is. If the December-2026 build-out lands — modules toward 15.5 GW, ALMM enlistment catching up, and 9 GW of home-made cells switching on — then Vikram stops renting its margin from a Chinese cell supplier and starts owning it, while unlocking the premium DCR demand it currently can't fully serve. If the cell lines slip, or ramp slowly, or arrive just as panel prices fall further, the company will have spent thousands of crores to run harder and stay roughly in place. The nameplate tells you the ambition; only <strong>commissioned cell GW and ALMM-enlisted GW</strong> tell you whether the ambition became an advantage.</p>
+    <p>Most manufacturers you can size up with one capacity figure. Vikram needs three, and the distance between them is where the money is. If the build-out lands — the 15.5 GW module nameplate filling, ALMM enlistment catching up, and 9 GW of home-made cells switching on from Q4 FY27 and ramping through FY28 — then Vikram stops renting its margin from a Chinese cell supplier and starts owning it, while unlocking the premium DCR demand it currently can't fully serve. If the cell lines slip, or ramp slowly, or arrive just as panel prices fall further, the company will have spent thousands of crores to run harder and stay roughly in place. The nameplate tells you the ambition; only <strong>commissioned cell GW and ALMM-enlisted GW</strong> tell you whether the ambition became an advantage.</p>
   </div>
 
   <div class="mini-stats">
-    <div class="ms"><div class="msv">~9.5 GW</div><div class="msl">Module assembly capacity today, across WB &amp; Tamil Nadu</div></div>
-    <div class="ms spec" style="border-top:3px solid var(--spec)"><div class="msv">9 GW</div><div class="msl">Solar cell capacity targeted by Dec 2026 — from a base of ~zero</div></div>
-    <div class="ms gold"><div class="msv">12 GW</div><div class="msl">Wafer/ingot capacity planned by FY30 — the next step upstream</div></div>
+    <div class="ms"><div class="msv">~15.5 GW</div><div class="msl">Module nameplate (Jun 2026) across WB &amp; Tamil Nadu; ~9–9.5 GW effective in FY27</div></div>
+    <div class="ms spec" style="border-top:3px solid var(--spec)"><div class="msv">9 GW</div><div class="msl">Solar cell capacity — first cell targeted Q4 FY27, from a base of zero</div></div>
+    <div class="ms gold"><div class="msv">9 GW</div><div class="msl">Wafer/ingot capacity planned at Gangaikondan — first wafer in FY29</div></div>
   </div>
 
-  <p>The ambition does not stop at cells. Vikram has flagged <strong>12 GW of wafer/ingot capacity by FY30</strong> — moving one further step upstream — and even a <strong>15 GWh battery-storage (BESS)</strong> plan, positioning itself as a broader clean-energy manufacturer rather than a pure panel shop. Each step upstream captures more value and reduces import dependence; each also demands more capital, more technology, and more flawless execution in a business where the Chinese incumbents are a decade ahead. Integration is the prize and the peril in the same breath.</p>
+  <p>The ambition does not stop at cells. Vikram plans <strong>9 GW of wafer/ingot capacity</strong> on the same Gangaikondan site, with the first wafer in FY29 — moving one further step upstream — and a battery-storage arm, <strong>VSL PowerHive</strong>: a 7.5 GWh BESS assembly plant in Chennai due in Mar 2027 (its first 20 MWh order is already executed) and a 7.5 GWh LFP cell plant due in Q4 FY29 — positioning itself as a broader clean-energy manufacturer rather than a pure panel shop. Each step upstream captures more value and reduces import dependence; each also demands more capital, more technology, and more flawless execution in a business where the Chinese incumbents are a decade ahead. Integration is the prize and the peril in the same breath.</p>
 </section>
 
 <!-- 06 -->
@@ -487,11 +489,11 @@
   <div class="part-head"><span class="pno">07</span><h2>The order book and the export shock</h2></div>
   <p class="part-sub">A record backlog — and a rich export channel that quietly went dark.</p>
 
-  <p class="lead">Two facts about Vikram's demand sit in tension, and holding both at once is the key to understanding the stock. On one hand, the <strong>order book is at a record 8.2 GW</strong> — years of production already booked, heavy on domestic buyers. On the other, the channel that used to be the <em>most profitable</em> — exports to the United States — has, in management's own framing, thinned to almost nothing. The domestic book is booming while a premium export river ran dry, and the market has been pricing the loss more loudly than the gain.</p>
+  <p class="lead">Two facts about Vikram's demand sit in tension, and holding both at once is the key to understanding the stock. On one hand, the <strong>order book is large — 8.2 GW at Mar 2026 and ~7.9 GW at 30 Jun 2026</strong> (7.1 GW from large accounts, 0.8 GW mid-market), plus a 400 MW EPC order won on 28 Sep 2026 — years of production already booked, heavy on domestic buyers. On the other, the channel that used to be the <em>most profitable</em> — exports to the United States — has, in management's own framing, thinned to almost nothing. The domestic book is booming while a premium export river ran dry, and the market has been pricing the loss more loudly than the gain.</p>
 
   <div class="chart">
     <div class="c-title">Demand: a record book, a step-change in volume</div>
-    <div class="c-sub">Order book (Mar 2026) and module sales volume — approximate, in MW</div>
+    <div class="c-sub">Order book (Mar 2026; ~7,900 MW by Jun 2026) and module sales volume — approximate, in MW</div>
     <div class="bars">
       <div class="bar-row"><div class="blab">Order book<small>backlog at Mar 2026</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~8,200</div></div>
       <div class="bar-row"><div class="blab">FY26 module sales</div><div class="track"><span class="fill wtg" style="width:41%"></span></div><div class="bval">~3,342</div></div>
@@ -502,11 +504,11 @@
 
   <p>Here is what changed. For a couple of years, the US was scrambling for solar panels made anywhere but China — it had slapped anti-dumping and countervailing duties on Chinese and South-East-Asian modules, and Indian-made panels were suddenly a prized, high-margin alternative. Vikram exported into exactly that gap. Then the door swung shut: shifting US trade policy, new tariff lines that caught Indian supply too, and a domestic-manufacturing push in the US itself. In management's telling, exports from India to the US have "slimmed down to an almost negligible level." A channel that had been a profit centre effectively closed.</p>
 
-  <div class="note gold"><b>The genuine surprise:</b> Vikram Solar tripled its net profit in FY26 — and its shares still roughly <em>halved</em> from the August-2025 listing, from ₹338 to about ₹173. That is not the market ignoring good results; it is the market re-pricing the <em>quality</em> of those results. The high-margin US export tailwind that helped justify the IPO valuation reversed, global panel prices fell, and investors marked down the multiple faster than the profits rose. A stock can fall by half in the same year its earnings triple — Vikram is a live case study in why the <em>durability</em> of a profit matters more than its size.</div>
+  <div class="note gold"><b>The genuine surprise:</b> Vikram Solar tripled its net profit in FY26 — and its shares still roughly <em>halved</em> from the August-2025 listing, from ₹338 to about ₹173 by Aug 2026, and to ~₹144 by 13 Oct 2026 after a weak Q1 FY27. That is not the market ignoring good results; it is the market re-pricing the <em>quality</em> of those results. The high-margin US export tailwind that helped justify the IPO valuation reversed, global panel prices fell, and investors marked down the multiple faster than the profits rose. A stock can fall by half in the same year its earnings triple — Vikram is a live case study in why the <em>durability</em> of a profit matters more than its size.</div>
 
   <div class="plain">
     <div class="ptag">Why the domestic pivot is the real story now</div>
-    <p>With the US channel largely gone, Vikram's growth has to come from home — and that is where the policy fortress and the DCR premium (§04) come back in. The 8.2 GW order book is overwhelmingly domestic: utility-scale developers, C&amp;I buyers, and increasingly the DCR-linked rooftop and farmer-solar schemes. The company is effectively swapping a volatile, politics-driven export margin for a protected, policy-driven domestic one — and betting that its cell investment lets it serve the richest domestic segment. Whether that swap is an upgrade or a downgrade depends entirely on how firm domestic pricing stays as <em>every</em> Indian maker races to add the same capacity at the same time.</p>
+    <p>With the US channel largely gone, Vikram's growth has to come from home — and that is where the policy fortress and the DCR premium (§04) come back in. The ~7.9 GW order book is overwhelmingly domestic: utility-scale developers, C&amp;I buyers, and increasingly the DCR-linked rooftop and farmer-solar schemes. The company is effectively swapping a volatile, politics-driven export margin for a protected, policy-driven domestic one — and betting that its cell investment lets it serve the richest domestic segment. Whether that swap is an upgrade or a downgrade depends entirely on how firm domestic pricing stays as <em>every</em> Indian maker races to add the same capacity at the same time.</p>
   </div>
 </section>
 
@@ -547,7 +549,7 @@
   <div class="part-head"><span class="pno">09</span><h2>Financials &amp; valuation</h2></div>
   <p class="part-sub">A real earnings surge — met by a market that de-rated it anyway.</p>
 
-  <p class="lead">FY26 was, by the numbers, a breakout year: revenue up ~40%, profit up roughly threefold, volumes up ~76%. And yet the stock fell by about half over the same stretch. The tension between those two facts is the whole valuation question — is FY26's profit a new base, or a cyclical peak the market is right to distrust?</p>
+  <p class="lead">FY26 was, by the numbers, a breakout year: revenue up ~40%, profit up roughly threefold, volumes up ~76%. And yet the stock fell by about half over the same stretch. The tension between those two facts is the whole valuation question — is FY26's profit a new base, or a cyclical peak the market is right to distrust? Q1 FY27 leaned toward "peak": revenue rose 38% to ₹1,563 Cr, but EBITDA margin fell to 8.1% (from 21%), gross margin to 19% (from 31%), PAT to ₹20 Cr (−85%), and management said it would revisit its FY27 outlook at the half-year.</p>
 
   <div class="chart">
     <div class="c-title">Revenue trajectory</div>
@@ -573,15 +575,15 @@
 
   <div class="mini-stats">
     <div class="ms gold"><div class="msv">~₹13.7</div><div class="msl">FY26 EPS, up from ~₹4.6 in FY25 — the earnings jump is real</div></div>
-    <div class="ms red"><div class="msv">−49%</div><div class="msl">Share price fall from ₹338 listing to ~₹173, against a 52-wk high of ~₹408</div></div>
-    <div class="ms"><div class="msv">~17–18×</div><div class="msl">Trailing P/E on ~₹6,190 Cr market cap — modest for the growth, wary of the cycle</div></div>
+    <div class="ms red"><div class="msv">−57%</div><div class="msl">Share price fall from the ₹332 IPO price to ~₹144 (13 Oct 2026; 52-wk low ₹141)</div></div>
+    <div class="ms"><div class="msv">~14×</div><div class="msl">Trailing P/E on ~₹5,208 Cr market cap (as of 13 Oct 2026); ~1.6× book</div></div>
   </div>
 
-  <p>The valuation shape is unusual and worth naming plainly. After the fall, Vikram trades at a <em>trailing</em> P/E in the high teens — cheap-looking for a company that just grew earnings threefold. But the market is doing forward maths, not backward maths: it suspects FY26's margin was a peak (cheap imported cells, firm domestic prices, a not-yet-collapsed export tail), and that the coming years bring a heavy capex bill, ramp costs on new cell lines, and possible domestic oversupply. A low trailing multiple on a suspected-peak earnings number is not the bargain it first appears — which is exactly the tension the stock price reflects.</p>
+  <p>The valuation shape is unusual and worth naming plainly. After the fall, Vikram trades at a <em>trailing</em> P/E of ~14× (as of 13 Oct 2026) — cheap-looking for a company that just grew earnings threefold, though trailing profit (~₹357 Cr) already includes the weak Q1 FY27. But the market is doing forward maths, not backward maths: it suspects FY26's margin was a peak (cheap imported cells, firm domestic prices, a not-yet-collapsed export tail), and that the coming years bring a heavy capex bill, ramp costs on new cell lines, and possible domestic oversupply. A low trailing multiple on a suspected-peak earnings number is not the bargain it first appears — which is exactly the tension the stock price reflects.</p>
 
   <div class="plain">
     <div class="ptag">The one number that settles the thesis: gross margin per watt once cells come in-house</div>
-    <p>Strip away the noise and Vikram's case rests on a single measurable spread: <strong>the module selling price minus the fully-loaded cost of a cell it makes itself</strong> — read alongside the <strong>share of shipments backed by captive (in-house) cells</strong> and its <strong>ALMM-enlisted capacity</strong>. If, through FY27, the 9 GW cell plant commissions on schedule and Vikram's own cells cost less than the imports they replace, that spread widens structurally and today's high-teens multiple on "peak" earnings turns out to have been on a <em>base</em>. If the cell ramp slips or domestic prices sag as the whole industry adds capacity, the spread compresses and the earnings that looked cheap prove fragile. Everything else — the order book, the technology, the policy wall — feeds into that one spread. Watch captive-cell share and gross margin per watt each quarter; they are the scoreboard.</p>
+    <p>Strip away the noise and Vikram's case rests on a single measurable spread: <strong>the module selling price minus the fully-loaded cost of a cell it makes itself</strong> — read alongside the <strong>share of shipments backed by captive (in-house) cells</strong> and its <strong>ALMM-enlisted capacity</strong>. If the 9 GW cell plant produces its first cells in Q4 FY27 as targeted, ramps through FY28, and Vikram's own cells cost less than the imports they replace, that spread widens structurally and today's ~14× multiple on "peak" earnings turns out to have been on a <em>base</em>. If the cell ramp slips or domestic prices sag as the whole industry adds capacity, the spread compresses and the earnings that looked cheap prove fragile. Everything else — the order book, the technology, the policy wall — feeds into that one spread. Watch captive-cell share and gross margin per watt each quarter; they are the scoreboard.</p>
   </div>
 
   <div class="note">FY24–FY26 figures here are drawn from company results and third-party summaries and cross-checked across sources; EBITDA and per-segment margins are <b>approximate</b> and not separately audited in this primer, and the module-price and efficiency charts are <b>illustrative</b> of industry trends rather than company-reported line items. Verify all numbers against Vikram Solar's filings before relying on any single figure.</div>
@@ -599,7 +601,7 @@
     <caption>The competitive landscape</caption>
     <thead><tr><th>Player</th><th>Position</th><th>Vs Vikram Solar</th></tr></thead>
     <tbody>
-      <tr><td class="t-strong" style="color:var(--brand)">Vikram Solar</td><td>Early-mover integrated module maker; ~9.5 GW modules, 9 GW cells coming; EPC arm</td><td><em>This company.</em> Strong brand and TOPCon push; the debate is cell execution, margin durability and a de-rated stock.</td></tr>
+      <tr><td class="t-strong" style="color:var(--brand)">Vikram Solar</td><td>Early-mover module maker; 15.5 GW module nameplate (~9–9.5 GW effective in FY27), 9 GW cells coming from Q4 FY27; EPC arm</td><td><em>This company.</em> Strong brand and TOPCon push; the debate is cell execution, margin durability and a de-rated stock.</td></tr>
       <tr><td class="t-strong">Waaree Energies</td><td>India's largest module maker by capacity; also listed and integrating into cells</td><td>The scale leader — larger nameplate and a US manufacturing foothold. The benchmark Vikram is chasing on size and integration.</td></tr>
       <tr><td class="t-strong">Premier Energies</td><td>Integrated cell + module maker; strong cell heritage</td><td>Ahead on <em>cells</em> specifically — a reminder that in-house cell capability, Vikram's key gap, is where rivals already lead.</td></tr>
       <tr><td class="t-strong">Adani Solar / Mundra</td><td>Part of the Adani group; large integrated poly-to-module ambitions</td><td>Deep-pocketed and vertically ambitious across the whole chain; competes on scale and group balance-sheet heft.</td></tr>
@@ -610,7 +612,7 @@
 
   <div class="plain">
     <div class="ptag">The competitive shape to hold in mind</div>
-    <p>Two things stand out. First, on the metric that matters most — <strong>in-house cells</strong> — Vikram is a catch-up player, not a leader; rivals like Premier Energies built cell capability earlier, and Waaree brings sheer scale. Vikram's ~9.5 GW of modules is real, but its zero-to-9-GW cell journey is one several peers are further along. Second, and more important, this is a rising-tide-then-flood dynamic: a protected, growing Indian market is lifting every maker today, which flatters everyone's numbers — but the same players are collectively building enough capacity to manufacture a domestic glut within a few years. The prize is being a low-cost, fully-integrated survivor when the tide of protected-but-abundant supply eventually laps over the premium. Scale and cell-cost, not brand, decide who that is.</p>
+    <p>Two things stand out. First, on the metric that matters most — <strong>in-house cells</strong> — Vikram is a catch-up player, not a leader; rivals like Premier Energies built cell capability earlier, and Waaree brings sheer scale. Vikram's 15.5 GW module nameplate is real, but its zero-to-9-GW cell journey is one several peers are further along. Second, and more important, this is a rising-tide-then-flood dynamic: a protected, growing Indian market is lifting every maker today, which flatters everyone's numbers — but the same players are collectively building enough capacity to manufacture a domestic glut within a few years. The prize is being a low-cost, fully-integrated survivor when the tide of protected-but-abundant supply eventually laps over the premium. Scale and cell-cost, not brand, decide who that is.</p>
   </div>
 </section>
 
@@ -626,16 +628,16 @@
       <h4>The bull case</h4>
       <ul class="clean">
         <li><strong>Policy fortress</strong> — ALMM, import duties, PLI and DCR structurally favour domestic makers; management sees a 20–25 GW DCR market in FY27.</li>
-        <li><strong>Backward integration</strong> — 9 GW of cells by Dec-2026 (then wafers) would convert a rented margin into an owned one and unlock the premium DCR segment.</li>
-        <li><strong>Record demand</strong> — an 8.2 GW order book, ~2.5 years of shipments, heavy on protected domestic buyers.</li>
+        <li><strong>Backward integration</strong> — 9 GW of cells from Q4 FY27 (then 9 GW of wafers from FY29) would convert a rented margin into an owned one and unlock the premium DCR segment.</li>
+        <li><strong>Large order book</strong> — ~7.9 GW (Jun 2026), well over two years of shipments, heavy on protected domestic buyers.</li>
         <li><strong>Technology &amp; brand</strong> — an early TOPCon shift and a long-established, trusted panel brand across 39 countries.</li>
-        <li><strong>Re-rated entry</strong> — after a ~50% fall, a high-teens trailing P/E on a fast-growing manufacturer, if FY26 proves a base not a peak.</li>
+        <li><strong>Re-rated entry</strong> — after a ~57% fall from the IPO price, ~14× trailing earnings and ~1.6× book (as of 13 Oct 2026), if FY26 proves a base not a peak.</li>
       </ul>
     </div>
     <div class="col bear">
       <h4>The bear case</h4>
       <ul class="clean">
-        <li><strong>Peak-margin risk</strong> — FY26's profit leaned on cheap imported cells and firm prices; the market suspects it de-rates from here.</li>
+        <li><strong>Peak-margin risk</strong> — FY26's profit leaned on cheap imported cells and firm prices; Q1 FY27 EBITDA margin fell to 8.1% and PAT 85%, as module-only makers were squeezed once ALMM cell rules took effect.</li>
         <li><strong>Global glut</strong> — Chinese overcapacity has crushed module and cell prices worldwide and is pushing the price signal into India.</li>
         <li><strong>Domestic oversupply</strong> — Waaree, Premier, Adani, Tata and a PLI tail are all adding capacity at once, threatening the very premium.</li>
         <li><strong>Execution &amp; capex</strong> — thousands of crores staked on cell/wafer plants ramping on time and below import cost, into a glut; cells are Vikram's weakest link versus peers.</li>
@@ -646,7 +648,7 @@
 
   <div class="plain">
     <div class="ptag">The bottom line</div>
-    <p>Vikram Solar spent fifteen years as one of India's earliest serious panel makers, and FY26 was its loudest year yet — revenue up 40%, profit up threefold. But the market's verdict, a halving of the share price in the same twelve months, carries its own hard message: a module assembler's profit is only as durable as the spread between what it sells a panel for and what it pays for the cell inside. The next chapter is being built right now in Tamil Nadu, and it resolves into one checkable event — <strong>whether the 9 GW of cell capacity commissions on schedule by December 2026 and runs at a cost below the imports it replaces</strong>. Hit that, and Vikram becomes a genuinely integrated manufacturer that owns its margin; miss it, and it stays a well-run laminator renting profit from the same Chinese cell market that just halved its stock. Watch the cell lines switch on; that is where this company's next few years are decided.</p>
+    <p>Vikram Solar spent fifteen years as one of India's earliest serious panel makers, and FY26 was its loudest year yet — revenue up 40%, profit up threefold. But the market's verdict, a halving of the share price in the same twelve months, carries its own hard message: a module assembler's profit is only as durable as the spread between what it sells a panel for and what it pays for the cell inside. The next chapter is being built right now in Tamil Nadu, and it resolves into one checkable event — <strong>whether the 9 GW of cell capacity produces its first cells on schedule in Q4 FY27 (Jan–Mar 2027), ramps through FY28, and runs at a cost below the imports it replaces</strong>. Hit that, and Vikram becomes a genuinely integrated manufacturer that owns its margin; miss it, and it stays a well-run laminator renting profit from the same Chinese cell market that just halved its stock. Watch the cell lines switch on; that is where this company's next few years are decided.</p>
   </div>
 </section>
 
@@ -656,7 +658,10 @@
     <li>Vikram Solar Ltd — FY26 (year ended Mar 2026) results and annual report disclosures, via company filings and ScanX.</li>
     <li>SaurEnergy — "Vikram Solar FY26 Profit Jumps Over 3x on Record Revenue, Strong Order Book."</li>
     <li>Mercom India — "Robust Module Sales Drive Vikram Solar's Revenue Up 22% in Q4 FY 2026."</li>
-    <li>pv magazine India — "Vikram Solar to commission 9 GW PV cell manufacturing capacity by December 2026."</li>
+    <li>pv magazine India — "Vikram Solar to commission 9 GW PV cell manufacturing capacity by December 2026." (Superseded: the Q1 FY27 call targets the first cell in Q4 FY27.)</li>
+    <li>Vikram Solar — Q1 FY27 investor deck and call transcript (Aug 2026): results, 15.5 GW nameplate, cell and wafer timelines, order book ~7.9 GW, VSL PowerHive BESS, ALMM-II deferral, management titles.</li>
+    <li>BSE filings, 28–29 Sep 2026 — 400 MW EPC order; resignation of EVP Sales &amp; BD and appointment of a Chief Business Officer.</li>
+    <li>Screener.in — market cap ₹5,208 Cr, price ₹144, P/E 14.4×, P/B 1.6×, promoter 63.01% (as of 13 Oct 2026 close).</li>
     <li>pv magazine India — "Vikram Solar hits 10 GW in global module deployments" (Apr 2026).</li>
     <li>SaurEnergy — "Vikram Solar Expects DCR Market to Reach 20–25 GW in FY27."</li>
     <li>PV-Tech — "Vikram Solar, AB Energia ink 200 MW TOPCon module supply deal."</li>
@@ -664,7 +669,7 @@
     <li>BSE India — Vikram Solar Limited stock page, scrip code 544488.</li>
     <li>Screener.in / Trendlyne — Vikram Solar consolidated financials, market cap, P/E and shareholding pattern (Aug 2026).</li>
   </ol>
-  <p class="disc">This primer is an educational, plain-English explainer compiled from public sources and is <strong>not investment advice, a recommendation, or a solicitation</strong> to buy or sell any security. Figures are approximate, drawn from company disclosures and third-party reports as of FY26 (year ended March 2026), and may contain errors or become outdated; several figures (notably EBITDA/segment margins and the illustrative module-price and efficiency charts) are estimates or industry trends rather than audited company line items. Verify all numbers against primary sources before relying on them. The author holds no position and expresses no view on the stock's suitability for any investor.</p>
+  <p class="disc">This primer is an educational, plain-English explainer compiled from public sources and is <strong>not investment advice, a recommendation, or a solicitation</strong> to buy or sell any security. Figures are approximate, drawn from company disclosures and third-party reports as of FY26 (year ended March 2026) and Q1 FY27, with market data as of 13 Oct 2026, and may contain errors or become outdated; several figures (notably EBITDA/segment margins and the illustrative module-price and efficiency charts) are estimates or industry trends rather than audited company line items. Verify all numbers against primary sources before relying on them. The author holds no position and expresses no view on the stock's suitability for any investor.</p>
 </footer>
 
 </main>

@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+main{min-width:0;}
   :root{
     --paper:#F5F4F1;
     --paper-2:#FBFAF6;
@@ -255,17 +256,17 @@
     <div class="cell"><div class="v">₹25,962 <small>Cr</small></div><div class="l">Revenue (FY26)</div></div>
     <div class="cell"><div class="v">40.4 <small>MTPA</small></div><div class="l">Cement capacity (Mar 2026)</div></div>
     <div class="cell"><div class="v">43.9 <small>Mt</small></div><div class="l">Volume sold (FY26, record)</div></div>
-    <div class="cell"><div class="v">~₹25,900 <small>Cr</small></div><div class="l">Market cap (Jul 2026)</div></div>
+    <div class="cell"><div class="v">₹21,350 <small>Cr</small></div><div class="l">Market cap (13 Oct 2026)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">13 Jul 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: FY26 results + Q1 FY27 (Jun 2026 quarter); market data as of 13 Oct 2026</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results: revenue ₹25,962 Cr (+18%), record volume 43.9 Mt, but Q4 profit fell ~68% on fuel-cost inflation (Q4 EBITDA/tonne down to ₹471). Group cost-cutting on track. The defining event still pending: the board-approved <b>amalgamation of ACC into Ambuja Cements</b> (Dec 2025) — ACC to be delisted, swapped at 3.28 Ambuja shares per ACC share, subject to NCLT and shareholder approvals, targeted for FY27.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b><strong>Q1 FY27 (Jun-26 quarter):</strong> volume 10.0 Mt (−6.5%), EBITDA ₹457 Cr (7.9% margin), EBITDA/tonne ₹458, PAT ₹147 Cr; the company blames weak margins partly on higher MSA volumes bought from parent Ambuja; cash ₹375 Cr. <strong>Merger:</strong> SEBI no-objection 4 Jun 2026, NCLT order 29 Jul, and <strong>shareholders approved the amalgamation into Ambuja on 29 Sep 2026</strong> (3.28 Ambuja shares per ACC share); only the NCLT sanction and the record date remain. <strong>Correction:</strong> earlier versions of this primer described a ~₹13,500 Cr cash pile; that was a data-screen "other assets" line, and company cash was ₹918 Cr at Mar-26 (see §10). Market cap ₹21,350 Cr, P/E 11.2×, P/B ~1.0×, EV/EBITDA ~7.1× (as of 13 Oct 2026). Q2 FY27 results not yet out. Earlier: FY26 full-year results — revenue ₹25,962 Cr (+18%), record volume 43.9 Mt, but Q4 profit fell ~68% on fuel-cost inflation (Q4 EBITDA/tonne ₹525; FY26 ₹672).</div>
 </header>
 
 <!-- 00 -->
@@ -277,14 +278,14 @@
 
   <p>Three facts frame everything that follows:</p>
   <ul class="clean">
-    <li><strong>A heavy commodity that can't travel.</strong> Cement is cheap per tonne and expensive to move, so it is sold within a few hundred kilometres of the plant. That makes it a <em>regional</em> business measured in a handful of numbers — installed capacity (MTPA), how much of it is used, volumes sold, the price per tonne (realisation), and the metric everyone watches, <strong>EBITDA per tonne</strong>. ACC sold a record <strong>43.9 million tonnes in FY26</strong> off ~40 MTPA of capacity.</li>
-    <li><strong>Now an Adani cost-and-growth engine.</strong> Inside the Adani/Ambuja fold, this old professionally-run blue chip is being pushed hard on cost — cheaper green power (solar and waste-heat recovery), a better fuel basket, shared procurement and logistics — as part of a group racing toward a combined <strong>140+ MTPA</strong>. FY26 volume grew fast, but a spike in fuel costs squeezed margins: <strong>Q4 EBITDA/tonne fell to ~₹471</strong> and quarterly profit dropped ~68%.</li>
-    <li><strong>The company is being merged out of existence.</strong> In December 2025, Ambuja's board approved absorbing ACC (and Orient Cement) into itself to create one unified "One Cement" entity. If it clears the courts, <strong>ACC will be delisted</strong> — shareholders receiving 3.28 Ambuja shares for every ACC share. The nine-decade-old ticker <strong>500410</strong> is, in effect, living on borrowed time.</li>
+    <li><strong>A heavy commodity that can't travel.</strong> Cement is cheap per tonne and expensive to move, so it is sold within a few hundred kilometres of the plant. That makes it a <em>regional</em> business measured in a handful of numbers — installed capacity (MTPA), how much of it is used, volumes sold, the price per tonne (realisation), and the metric everyone watches, <strong>EBITDA per tonne</strong>. ACC sold a record <strong>43.9 million tonnes in FY26</strong> off ~40 MTPA of capacity; the excess is cement bought from parent Ambuja under master supply agreements (MSAs).</li>
+    <li><strong>Now an Adani cost-and-growth engine.</strong> Inside the Adani/Ambuja fold, this old professionally-run blue chip is being pushed hard on cost — cheaper green power (solar and waste-heat recovery), a better fuel basket, shared procurement and logistics — as part of a group targeting <strong>119 MTPA by end-FY27</strong> (~155 MTPA by ~FY30). FY26 volume grew fast, but a spike in fuel costs squeezed margins: <strong>Q4 EBITDA/tonne fell to ₹525</strong> (₹458 in Q1 FY27) and quarterly profit dropped ~68%.</li>
+    <li><strong>The company is being merged out of existence.</strong> In December 2025, Ambuja's board approved absorbing ACC (and Orient Cement) into itself to create one unified "One Cement" entity. Shareholders approved it on 29 Sep 2026; once the NCLT sanctions it, <strong>ACC will be delisted</strong> — shareholders receiving 3.28 Ambuja shares for every ACC share. The nine-decade-old ticker <strong>500410</strong> is, in effect, living on borrowed time.</li>
   </ul>
 
   <div class="plain">
     <div class="ptag">In plain terms</div>
-    <p>ACC is a grand old brand that no longer steers its own ship. The plants, mines and the famous name are all still there — 40-odd million tonnes of cement-making muscle spread across India — but the strategy, the capital and the cost targets now come from Adani, and ACC is being run as one cog in a much larger machine. For a shareholder there are really two different questions stacked on top of each other. The first is the ordinary cement question: can the group drive costs down and prices up enough to lift profit per tonne back toward its old highs? The second is unusual and time-limited: since ACC is set to disappear into Ambuja at a fixed <strong>3.28-for-1 swap</strong>, owning ACC is increasingly a bet on <em>Ambuja's</em> shares wearing an ACC label. The curiosity that makes the stock worth a look at all: strip out its enormous cash pile and the market is valuing ACC's entire plant network at a startlingly small number.</p>
+    <p>ACC is a grand old brand that no longer steers its own ship. The plants, mines and the famous name are all still there — 40-odd million tonnes of cement-making muscle spread across India — but the strategy, the capital and the cost targets now come from Adani, and ACC is being run as one cog in a much larger machine. For a shareholder there are really two different questions stacked on top of each other. The first is the ordinary cement question: can the group drive costs down and prices up enough to lift profit per tonne back toward its old highs? The second is unusual and time-limited: since ACC is set to disappear into Ambuja at a fixed <strong>3.28-for-1 swap</strong>, owning ACC is increasingly a bet on <em>Ambuja's</em> shares wearing an ACC label. At 13 Oct 2026 prices, 3.28 Ambuja shares were worth about ₹1,148 against ACC's ₹1,137, so the stock trades almost exactly in line with the swap.</p>
   </div>
 </section>
 
@@ -301,10 +302,10 @@
     <thead><tr><th>Term</th><th>What it means (with ACC's figure)</th></tr></thead>
     <tbody>
       <tr><td class="t-strong">Capacity (MTPA)</td><td>Millions of tonnes a year the plants <em>can</em> make. The scale headline. ACC: <strong>~40.4 MTPA</strong> of cement as of March 2026 (its parent group, Ambuja incl. ACC, is ~109 MTPA).</td></tr>
-      <tr><td class="t-strong">Utilisation (%)</td><td>How much of that capacity actually runs. ACC pushed <em>hard</em> in FY26 — 43.9 Mt sold against ~40 MTPA means it ran effectively flat-out, topping up with bought-in clinker and traded cement.</td></tr>
+      <tr><td class="t-strong">Utilisation (%)</td><td>How much of that capacity actually runs. ACC sold 43.9 Mt in FY26 against ~40 MTPA, but the excess is cement bought from Ambuja under master supply agreements (MSAs); its own plants ran at about 80% in Q4.</td></tr>
       <tr><td class="t-strong">Volume (Mt)</td><td>Tonnes actually sold. ACC: <strong>43.9 million tonnes in FY26</strong>, a record, up strongly on the year.</td></tr>
       <tr><td class="t-strong">Realisation (₹/tonne)</td><td>Average selling price per tonne, set by <em>regional</em> supply and demand — not by the company. Roughly <strong>₹4,900–5,000/tonne</strong> for ACC's cement. This is the swing factor that makes or breaks a year.</td></tr>
-      <tr><td class="t-strong">EBITDA / tonne</td><td><strong>The single most-watched cement number.</strong> Operating profit earned on each tonne. ACC's slid to <strong>~₹471 in Q4 FY26</strong> (from ~₹670–700 across the full year) as fuel costs bit — the whole industry's health, in one figure.</td></tr>
+      <tr><td class="t-strong">EBITDA / tonne</td><td><strong>The single most-watched cement number.</strong> Operating profit earned on each tonne. ACC's slid to <strong>₹525 in Q4 FY26</strong> and <strong>₹458 in Q1 FY27</strong> (₹672 for full-year FY26) as fuel costs and low-margin MSA volumes bit — the whole industry's health, in one figure.</td></tr>
       <tr><td class="t-strong">Cost per tonne</td><td>Limestone + power &amp; fuel (petcoke/coal) + freight + grinding. Power-and-fuel and freight are the volatile, controllable levers — and exactly where the Adani cost programme is aimed. Group target: total cost to <strong>~₹3,600/tonne by FY28</strong>.</td></tr>
     </tbody>
   </table>
@@ -316,8 +317,8 @@
   </div>
 
   <div class="mini-stats">
-    <div class="ms red"><div class="msv">₹471</div><div class="msl">EBITDA/tonne, Q4 FY26 — down ~24% as fuel costs spiked, the number that decides the quarter</div></div>
-    <div class="ms gold"><div class="msv">43.9 Mt</div><div class="msl">Record FY26 volume — ACC ran effectively flat-out</div></div>
+    <div class="ms red"><div class="msv">₹525</div><div class="msl">EBITDA/tonne, Q4 FY26, as fuel costs spiked (₹458 in Q1 FY27) — the number that decides the quarter</div></div>
+    <div class="ms gold"><div class="msv">43.9 Mt</div><div class="msl">Record FY26 volume — including cement bought from Ambuja under MSAs</div></div>
     <div class="ms"><div class="msv">~300 km</div><div class="msl">Rough radius a plant can economically supply — why cement is a regional game</div></div>
   </div>
 </section>
@@ -373,13 +374,14 @@
     <li class="major"><div class="yr">2022</div><div class="ev"><strong>Adani buys Holcim's India business</strong> — Ambuja + ACC — for ~US$6.4bn (≈US$10.5bn incl. open offers). Adani instantly becomes India's <strong>#2 cement group</strong>. ACC becomes a subsidiary of Ambuja, which itself is Adani-controlled.</div></li>
     <li><div class="yr">FY23–FY25</div><div class="ev">Adani installs its cost-and-growth playbook — green power, fuel-basket optimisation, shared procurement, logistics — and the wider group binges on acquisitions (Sanghi, Penna, Orient) to add capacity fast.</div></li>
     <li class="major"><div class="yr">Dec 2025</div><div class="ev">Ambuja's board approves the <strong>full amalgamation of ACC (and Orient Cement) into Ambuja</strong> — a "One Cement" entity. If sanctioned, <strong>ACC will be delisted</strong> and its shareholders swapped into Ambuja at 3.28:1.</div></li>
+    <li class="major"><div class="yr">Jun–Sep 2026</div><div class="ev">SEBI no-objection (4 Jun), NCLT order (29 Jul) and <strong>shareholder approval (29 Sep 2026)</strong>. Only the NCLT sanction and the record date remain.</div></li>
     <li><div class="yr">FY26</div><div class="ev">Record volume (43.9 Mt) and revenue (₹25,962 Cr), but a sharp fuel-cost spike compresses margins — a reminder of the commodity's cyclicality even mid-transformation.</div></li>
   </ul>
 
   <h3>Who controls it now</h3>
   <ul class="clean">
     <li><strong>Promoter — the Adani group, via Ambuja.</strong> Promoter holding is <strong>~56.7%</strong>, of which <strong>50.05% sits with Ambuja Cements</strong> (which is itself Adani-controlled) and the balance directly with Adani entities. In practice, ACC is a grandchild of the Adani group.</li>
-    <li><strong>Public float.</strong> The rest is held by mutual funds (~14%), foreign investors (~5%) and retail/other shareholders — the minority whose interests the pending merger swap is designed to settle.</li>
+    <li><strong>Public float.</strong> The rest is held by domestic institutions (20.97%, including LIC), foreign investors (5.75%) and retail/other shareholders (16.42%) as of Sep 2026 — the minority whose interests the pending merger swap is designed to settle.</li>
     <li><strong>The name is a survivor.</strong> "ACC" has outlived the Tatas and Holcim and remains one of India's most trusted cement brands — a genuine consumer asset the Adani group is careful to keep on the bag, even as the legal entity behind it is set to vanish.</li>
     <li><strong>Not a family founder story.</strong> Unlike most Indian majors (Birla's UltraTech, the Dalmia family, the Bangurs of Shree), ACC has no founding dynasty at the helm — it has been a professionally-managed, serially-owned institution for its entire life.</li>
   </ul>
@@ -430,7 +432,6 @@
       <div class="bar-row"><div class="blab">Waste-heat recovery<small>WHRS — free power from kiln exhaust</small></div><div class="track"><span class="fill steel" style="width:56%"></span></div><div class="bval">9.9% → 13.9%</div></div>
       <div class="bar-row"><div class="blab">Solar<small>own + group RE power</small></div><div class="track"><span class="fill gold" style="width:46%"></span></div><div class="bval">3.4% → 11.3%</div></div>
       <div class="bar-row"><div class="blab">Total green power<small>share of ACC's electricity</small></div><div class="track"><span class="fill good" style="width:88%"></span></div><div class="bval">14% → 26.2%</div></div>
-      <div class="bar-row"><div class="blab">FY28 target<small>green-power share</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">60%</div></div>
     </div>
     <div class="legend"><span>Green power share more than doubled in a year to ~26%, with a stated road map to ~60% ahead of FY28. Every renewable kilowatt-hour is a rupee taken off the cost of a tonne — greener and cheaper point the same way here.</span></div>
   </div>
@@ -444,19 +445,19 @@
   </ul>
 
   <div class="chart">
-    <div class="c-title">The stated cost-per-tonne march (Adani cement group target)</div>
+    <div class="c-title">The cost-per-tonne march (Adani cement group guidance)</div>
     <div class="c-sub">Total cost per tonne of cement — the number the whole programme is built to bend down</div>
     <div class="bars">
-      <div class="bar-row"><div class="blab">FY26 goal</div><div class="track"><span class="fill slate" style="width:100%"></span></div><div class="bval">~₹4,000</div></div>
-      <div class="bar-row"><div class="blab">FY27 goal</div><div class="track"><span class="fill clay" style="width:95%"></span></div><div class="bval">~₹3,800</div></div>
-      <div class="bar-row"><div class="blab">FY28 goal</div><div class="track"><span class="fill good" style="width:90%"></span></div><div class="bval">~₹3,600–3,650</div></div>
+      <div class="bar-row"><div class="blab">FY26 actual<small>group</small></div><div class="track"><span class="fill slate" style="width:100%"></span></div><div class="bval">~₹4,400</div></div>
+      <div class="bar-row"><div class="blab">FY27 guidance</div><div class="track"><span class="fill clay" style="width:97%"></span></div><div class="bval">₹4,250</div></div>
+      <div class="bar-row"><div class="blab">FY28 guidance</div><div class="track"><span class="fill good" style="width:91%"></span></div><div class="bval">≤₹4,000</div></div>
     </div>
-    <div class="legend"><span>A ~₹350–400/tonne cost reduction over three years is enormous in a business where EBITDA/tonne itself is often only ₹700–1,100. The merger is expected to add a further ~₹100/tonne of synergy on top.</span></div>
+    <div class="legend"><span>Group cost per tonne actually rose to ~₹4,400 in FY26, so guidance was reset; the earlier ₹3,600–3,650 goal is now a longer-term target. A ~₹400/tonne cut is still large in a business where EBITDA/tonne is often only ₹500–1,100. The merger is expected to add a further ~₹100/tonne of synergy on top.</span></div>
   </div>
 
   <div class="plain">
     <div class="ptag">Why the cost target matters more than the price</div>
-    <p>Here is the logic in one thought. ACC can't set the price of cement — that's decided region by region by supply and demand. But it <em>can</em> decide what it costs to make a tonne. So while realisation drifts up and down with the cycle, the cost programme is a steady, self-controlled tailwind: pull ₹350–400 out of the cost of a tonne and, at flat prices, that entire amount lands in EBITDA/tonne. The catch on show in FY26 was the reminder that this is a race, not a victory lap — a sudden fuel-price spike pushed costs up faster than the savings could offset, which is exactly why Q4 EBITDA/tonne sagged to ₹471 even as green power hit records. The programme is real; so is the volatility it's fighting against.</p>
+    <p>Here is the logic in one thought. ACC can't set the price of cement — that's decided region by region by supply and demand. But it <em>can</em> decide what it costs to make a tonne. So while realisation drifts up and down with the cycle, the cost programme is a steady, self-controlled tailwind: pull ₹350–400 out of the cost of a tonne and, at flat prices, that entire amount lands in EBITDA/tonne. The catch on show in FY26 was the reminder that this is a race, not a victory lap — a sudden fuel-price spike pushed costs up faster than the savings could offset, which is exactly why Q4 EBITDA/tonne sagged to ₹525 even as green power hit records. The programme is real; so is the volatility it's fighting against.</p>
   </div>
 </section>
 
@@ -492,7 +493,7 @@
     <li><strong>It cleans up governance optics — while raising new questions.</strong> Killing the MSAs removes a recurring related-party irritant. But minority shareholders' entire return now hinges on whether the <strong>3.28:1 swap is fair</strong> — a valuation call made by the controlling shareholder on both sides of the table.</li>
   </ul>
 
-  <div class="note"><b>The governance shadow you can't ignore:</b> this group has a history of moving cash and restructuring ownership in ways minority investors have contested — when Holcim took ~₹3,500 Cr of cash out of the Ambuja/ACC structure years ago, institutions objected loudly. ACC still carries a very large cash balance, and a merger sets the terms of who ends up owning it. The swap ratio is fixed and independently opined on, but for a minority holder the honest reality is that the exchange terms — not ACC's own results — now dominate the outcome.</div>
+  <div class="note"><b>The governance shadow you can't ignore:</b> this group has a history of moving cash and restructuring ownership in ways minority investors have contested — when Holcim took ~₹3,500 Cr of cash out of the Ambuja/ACC structure years ago, institutions objected loudly. ACC's own cash is modest (₹918 Cr at Mar-26, ₹375 Cr at Jun-26), but a merger sets the terms of who ends up owning the plants and the brand. The swap ratio is fixed and independently opined on, but for a minority holder the honest reality is that the exchange terms — not ACC's own results — now dominate the outcome.</div>
 </section>
 
 <!-- 07 -->
@@ -504,12 +505,10 @@
 
   <div class="chart">
     <div class="c-title">ACC's regional spread — broad by design</div>
-    <div class="c-sub">Illustrative presence across India's five cement markets (relative, not precise share)</div>
+    <div class="c-sub">Illustrative presence in its two strongest regions (relative, not precise share); ACC is also present, on a smaller scale, in the South (Karnataka, Telangana, TN) and West (Maharashtra, Gujarat)</div>
     <div class="bars">
       <div class="bar-row"><div class="blab">Central &amp; East<small>MP, Chhattisgarh, WB, Jharkhand</small></div><div class="track"><span class="fill brand" style="width:92%"></span></div><div class="bval">Strong</div></div>
       <div class="bar-row"><div class="blab">North<small>Rajasthan, HP, UP</small></div><div class="track"><span class="fill steel" style="width:80%"></span></div><div class="bval">Solid</div></div>
-      <div class="bar-row"><div class="blab">South<small>Karnataka, Telangana, TN</small></div><div class="track"><span class="fill gold" style="width:70%"></span></div><div class="bval">Present</div></div>
-      <div class="bar-row"><div class="blab">West<small>Maharashtra, Gujarat</small></div><div class="track"><span class="fill clay" style="width:64%"></span></div><div class="bval">Present</div></div>
     </div>
     <div class="legend"><span>ACC's real edge is <em>balance</em> — a national footprint that de-risks it from any single region's price war, and that dovetails with sister-company Ambuja's own map to give the combined group dense, overlapping coverage.</span></div>
   </div>
@@ -519,7 +518,7 @@
     <li><strong>Grey cement — the core.</strong> The bulk of revenue: OPC, blended PPC and composite grades sold to builders, contractors and individual home-builders. The famous ACC bag is one of India's most recognised building-material brands.</li>
     <li><strong>Premium and green cements.</strong> Higher-strength, branded and low-carbon variants approved for demanding uses — highways, metros, major structures — carrying better realisation than plain grey cement.</li>
     <li><strong>Ready-mixed concrete (RMX).</strong> ACC is also a large player in ready-mix — concrete delivered wet to urban sites — which lifts blended per-tonne revenue and deepens the customer relationship in cities.</li>
-    <li><strong>Bought-in tonnes.</strong> Running near full utilisation in FY26, ACC topped up its own output with traded cement and clinker to meet demand — a sign of how tight its capacity ran against a record sales year.</li>
+    <li><strong>Bought-in tonnes.</strong> ACC tops up its own output with cement bought from parent Ambuja under master supply agreements (MSAs). These tonnes inflate volume but earn a thin trading margin, which is one reason ACC's EBITDA/tonne sits below the group's; the merger would eliminate the MSA flows.</li>
   </ul>
 
   <div class="plain">
@@ -533,19 +532,18 @@
   <div class="part-head"><span class="pno">08</span><h2>The duopoly race: UltraTech versus Adani</h2></div>
   <p class="part-sub">The industry story ACC now sits inside — a two-horse contest for the top of Indian cement.</p>
 
-  <p class="lead">India is the <strong>world's second-largest cement market</strong>, and in barely three years its power structure has crystallised into a <strong>two-giant race</strong>. On one side, <strong>UltraTech</strong> (Aditya Birla), the long-standing leader nearing ~190 MTPA. On the other, <strong>Adani</strong>, which used the 2022 Holcim deal plus a rapid string of acquisitions to build the group ACC belongs to — Ambuja + ACC + Orient + Sanghi + Penna — into a clear #2 heading toward ~140–155 MTPA. Everyone else, from Shree to Dalmia, is now competing for the space the two giants leave behind.</p>
+  <p class="lead">India is the <strong>world's second-largest cement market</strong>, and in barely three years its power structure has crystallised into a <strong>two-giant race</strong>. On one side, <strong>UltraTech</strong> (Aditya Birla), the long-standing leader at 200.1 MTPA domestic / 205.5 MTPA global (April 2026). On the other, <strong>Adani</strong>, which used the 2022 Holcim deal plus a rapid string of acquisitions to build the group ACC belongs to — Ambuja + ACC + Orient + Sanghi + Penna — into a clear #2 at ~109 MTPA, heading to 119 MTPA by end-FY27 and ~155 MTPA by ~FY30. Everyone else, from Shree to Dalmia, is now competing for the space the two giants leave behind.</p>
 
   <div class="chart">
     <div class="c-title">Where the players stand (grey cement capacity, MTPA)</div>
     <div class="c-sub">ACC's numbers roll up into the Adani group total — the entity racing UltraTech</div>
     <div class="bars">
-      <div class="bar-row"><div class="blab">UltraTech<small>the leader</small></div><div class="track"><span class="fill slate" style="width:100%"></span></div><div class="bval">~190 → 240</div></div>
-      <div class="bar-row"><div class="blab">Adani group<small>Ambuja + ACC + Orient</small></div><div class="track"><span class="fill brand" style="width:58%"></span></div><div class="bval">~109 → 140–155</div></div>
-      <div class="bar-row"><div class="blab">Shree Cement<small>low-cost specialist</small></div><div class="track"><span class="fill steel" style="width:33%"></span></div><div class="bval">~63</div></div>
+      <div class="bar-row"><div class="blab">UltraTech<small>the leader</small></div><div class="track"><span class="fill slate" style="width:100%"></span></div><div class="bval">~205 → 242.5</div></div>
+      <div class="bar-row"><div class="blab">Adani group<small>Ambuja + ACC + Orient</small></div><div class="track"><span class="fill brand" style="width:58%"></span></div><div class="bval">~109 → 155</div></div>
+      <div class="bar-row"><div class="blab">Shree Cement<small>low-cost specialist</small></div><div class="track"><span class="fill steel" style="width:33%"></span></div><div class="bval">69.3</div></div>
       <div class="bar-row"><div class="blab">Dalmia Bharat<small>green-cement challenger</small></div><div class="track"><span class="fill gold" style="width:29%"></span></div><div class="bval">~55</div></div>
-      <div class="bar-row"><div class="blab">ACC alone<small>rolls into Adani total</small></div><div class="track"><span class="fill clay" style="width:21%"></span></div><div class="bval">~40</div></div>
     </div>
-    <div class="legend"><span>Numbers approximate, from company statements. ACC on its own is a top-tier producer; as part of Adani it is roughly half of a group built to chase UltraTech. The whole point of the merger is to fight that race with one balance sheet.</span></div>
+    <div class="legend"><span>Numbers approximate, from company statements. ACC on its own (~40 MTPA) is a top-tier producer; as part of Adani it is over a third of a group built to chase UltraTech. The whole point of the merger is to fight that race with one balance sheet.</span></div>
   </div>
 
   <div class="tbl-wrap">
@@ -553,7 +551,7 @@
     <caption>The competitive set around ACC</caption>
     <thead><tr><th>Player</th><th>Position</th><th>Relevance to ACC</th></tr></thead>
     <tbody>
-      <tr><td class="t-strong">UltraTech (Aditya Birla)</td><td>Clear #1 — ~190 MTPA, targeting ~240</td><td>The benchmark and the prize-fight opponent; the price-setter across most regions.</td></tr>
+      <tr><td class="t-strong">UltraTech (Aditya Birla)</td><td>Clear #1 — 200.1 MTPA domestic / 205.5 global, targeting ~242.5 by FY28</td><td>The benchmark and the prize-fight opponent; the price-setter across most regions.</td></tr>
       <tr><td class="t-strong" style="color:var(--brand)">Ambuja Cements</td><td>ACC's parent and Adani flagship — ~109 MTPA group</td><td><em>Both sibling and acquirer.</em> ACC will be absorbed into it; the two already share power, fuel and logistics.</td></tr>
       <tr><td class="t-strong" style="color:var(--brand)">ACC Limited</td><td><strong>~40 MTPA pan-India producer</strong></td><td><em>This company.</em> A 90-year brand and national plant network, now a business unit of the Adani cement group.</td></tr>
       <tr><td class="t-strong">Shree Cement</td><td>~63 MTPA; famously the lowest-cost operator</td><td>The efficiency yardstick — the cost bar Adani's programme is chasing.</td></tr>
@@ -581,10 +579,10 @@
     <div class="c-sub">₹/tonne — how input costs and pricing whipsaw a volume record (figures approximate)</div>
     <div class="bars">
       <div class="bar-row"><div class="blab">FY25<small>steadier costs</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~₹790</div></div>
-      <div class="bar-row"><div class="blab">FY26 full-year<small>fuel cost creep</small></div><div class="track"><span class="fill gold" style="width:85%"></span></div><div class="bval">~₹670</div></div>
-      <div class="bar-row"><div class="blab">FY26 Q4<small>fuel spike trough</small></div><div class="track"><span class="fill bad" style="width:60%"></span></div><div class="bval">₹471</div></div>
+      <div class="bar-row"><div class="blab">FY26 full-year<small>fuel cost creep</small></div><div class="track"><span class="fill gold" style="width:85%"></span></div><div class="bval">₹672</div></div>
+      <div class="bar-row"><div class="blab">FY26 Q4<small>fuel spike</small></div><div class="track"><span class="fill bad" style="width:66%"></span></div><div class="bval">₹525</div></div>
     </div>
-    <div class="legend"><span>Volume hit a record in FY26 — yet profit per tonne fell, and fell hardest in Q4. Almost all of that swing is cost and price, not tonnage. This is the essence of a cyclical, price-taking commodity: a great volume year and a poor profit year can be the same year.</span></div>
+    <div class="legend"><span>Volume hit a record in FY26 — yet profit per tonne fell, and fell hardest in Q4. Almost all of that swing is cost and price, not tonnage. This is the essence of a cyclical, price-taking commodity: a great volume year and a poor profit year can be the same year. Q1 FY27 went lower still, to ₹458/tonne, with low-margin MSA volumes adding to the drag.</span></div>
   </div>
 
   <h3>The tailwinds under the cycle</h3>
@@ -592,18 +590,18 @@
     <li><strong>Infrastructure &amp; government capex.</strong> Roads, railways, ports, metros, irrigation — cement-intensive and policy-driven. Public spending is the single biggest demand lever, and it plays directly to the Adani group's home turf.</li>
     <li><strong>Housing.</strong> Rural self-built homes and welfare housing, plus urban affordable housing and redevelopment — the largest end-use of Indian cement by far.</li>
     <li><strong>Low per-capita use.</strong> India consumes far less cement per person than China or the developed world — a long runway as the country urbanises and builds out.</li>
-    <li><strong>A lighter tax on the bag.</strong> The GST on cement was cut from 28% to 18%, lowering the shelf price to the end-buyer and supporting demand — a structural nudge for volumes.</li>
+    <li><strong>A lighter tax on the bag.</strong> The GST on cement was cut from 28% to 18% effective 22 Sep 2025, lowering the shelf price to the end-buyer and supporting demand — a structural nudge for volumes.</li>
   </ul>
 
-  <div class="note gold"><b>The input-cost watch:</b> even in a strong demand year, profit hangs on <em>costs</em>. Power and fuel (petcoke/coal) are the biggest volatile line, and freight another fifth — which is exactly why ACC's fuel-basket and green-power work matters, and why a global petcoke spike could still overwhelm those savings in any given quarter, as FY26 showed. Watch the gap between the cost-per-tonne target (falling toward ~₹3,600 by FY28) and the actual realisation the cycle delivers.</div>
+  <div class="note gold"><b>The input-cost watch:</b> even in a strong demand year, profit hangs on <em>costs</em>. Power and fuel (petcoke/coal) are the biggest volatile line, and freight another fifth — which is exactly why ACC's fuel-basket and green-power work matters, and why a global petcoke spike could still overwhelm those savings in any given quarter, as FY26 showed. Watch the gap between the cost-per-tonne guidance (≤₹4,000 by FY28, ₹3,650 longer term) and the actual realisation the cycle delivers.</div>
 </section>
 
 <!-- 10 -->
 <section class="part" id="p10">
   <div class="part-head"><span class="pno">10</span><h2>Financials &amp; valuation</h2></div>
-  <p class="part-sub">A record top line, a fortress balance sheet — and a valuation warped by two things: a cash mountain and a fixed merger swap.</p>
+  <p class="part-sub">A record top line, a debt-light balance sheet — and a valuation now pinned to a fixed merger swap.</p>
 
-  <p class="lead">FY26 gave ACC its <strong>highest-ever revenue (₹25,962 Cr) and volume (43.9 Mt)</strong>, but a fuel-cost spike held operating profit roughly flat and knocked reported earnings — Q4 net profit fell about 68%. What makes ACC genuinely unusual, though, isn't the income statement. It's the <strong>balance sheet</strong>: the company is essentially debt-free and sits on a cash-and-investments pile of nearly <strong>₹14,000 crore</strong> — well over half its entire market value.</p>
+  <p class="lead">FY26 gave ACC its <strong>highest-ever revenue (₹25,962 Cr) and volume (43.9 Mt)</strong>, but a fuel-cost spike held operating profit roughly flat and knocked reported earnings — Q4 net profit fell about 68%. What makes ACC genuinely unusual, though, isn't the income statement. It's the <strong>merger swap</strong>, which now sets the share price. The balance sheet is clean but not cash-rich: borrowings were ~₹429 Cr against cash of <strong>₹918 Cr at Mar-26 (₹375 Cr at Jun-26)</strong>, so net cash is roughly zero. (Some data screens show ~₹14,000 Cr of "other assets"; that line is receivables, inventory and advances, not cash.)</p>
 
   <div class="chart">
     <div class="c-title">Revenue trajectory</div>
@@ -620,7 +618,6 @@
     <div class="c-title">Operating profit (EBITDA) — flat while costs bit</div>
     <div class="c-sub">EBITDA (₹ Crore) — note it barely moved as revenue climbed</div>
     <div class="bars">
-      <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~3,062</div></div>
       <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~3,061</div></div>
       <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill bad" style="width:97%"></span></div><div class="bval">~2,958</div></div>
     </div>
@@ -628,56 +625,56 @@
   </div>
 
   <div class="mini-stats">
-    <div class="ms"><div class="msv">~₹13.5k Cr</div><div class="msl">Net cash &amp; investments — over half the market cap; AAA / A1+ rated, essentially debt-free</div></div>
+    <div class="ms"><div class="msv">~₹490 Cr</div><div class="msl">Net cash at Mar-26 (₹918 Cr cash − ₹429 Cr debt); roughly zero by Jun-26; AAA / A1+ rated</div></div>
     <div class="ms red"><div class="msv">~11%</div><div class="msl">FY26 EBITDA margin — compressed from ~14% as fuel costs rose</div></div>
-    <div class="ms gold"><div class="msv">~4×</div><div class="msl">EV/EBITDA once cash is stripped out — extraordinarily low for a cement major</div></div>
+    <div class="ms gold"><div class="msv">~7.1×</div><div class="msl">EV/EBITDA (as of 13 Oct 2026) — low for a cement major, partly because MSA trading tonnes depress margins</div></div>
   </div>
 
   <div class="plain">
     <div class="ptag">The number that changes how you value ACC</div>
-    <p>Run the cement-specific lens and something jumps out. ACC's market cap is ~₹25,900 Cr, but it holds ~₹13.5k Cr of net cash — so the <strong>enterprise value of the actual business is only ~₹12,400 Cr</strong>. Against ~40 MTPA of capacity, that is roughly <strong>₹3,050 per tonne (~$36/tonne)</strong> — when it costs three to four times as much to pour a single new plant, and rivals routinely change hands at $90–130/tonne. On EV/EBITDA the business trades near <strong>~4×</strong>. On paper, the market is handing you 90 years of limestone leases, kilns and a pan-India network for a fraction of replacement cost, with a fat cash cushion thrown in. That is the bull's whole argument — and it is real.</p>
+    <p>Run the cement-specific lens. ACC's market cap is ₹21,350 Cr (as of 13 Oct 2026) and net cash is roughly nil, so the <strong>enterprise value is about ₹20,860 Cr</strong>. Against ~40 MTPA of capacity, that is roughly <strong>₹5,160 per tonne</strong>, well below the ~$90–130/tonne at which rivals' plants routinely change hands. On EV/EBITDA the business trades near <strong>~7.1×</strong>, with P/E 11.2× and P/B ~1.0×. Treating the ~₹13,500 Cr "other assets" line on data screens as cash would give a far lower ~₹3,050/tonne; on company-disclosed cash the discount to replacement cost is real but much smaller.</p>
   </div>
 
-  <div class="note gold"><b>But you can't buy just the plants.</b> The reason ACC looks so cheap is inseparable from the reason it's risky: the same controlling owner that runs the plants has already voted to <strong>fold the company into Ambuja at 3.28:1</strong> and pool that cash onto a shared balance sheet. So the cheap EV/tonne isn't a free lunch waiting to be claimed by a minority holder — it's a value that will be <em>realised through the merger swap</em>, on terms the promoter sets on both sides. For an ACC shareholder, the metric that ultimately settles the case is less ACC's own EBITDA/tonne than <strong>whether 3.28 Ambuja shares end up worth more than one ACC share</strong> — the arbitrage the merger creates.</div>
+  <div class="note gold"><b>But you can't buy just the plants.</b> The reason ACC looks so cheap is inseparable from the reason it's risky: the same controlling owner that runs the plants has already voted to <strong>fold the company into Ambuja at 3.28:1</strong> and pool the two balance sheets. So the low EV/tonne isn't a free lunch waiting to be claimed by a minority holder — it's a value that will be <em>realised through the merger swap</em>, on terms the promoter sets on both sides. For an ACC shareholder, the metric that ultimately settles the case is less ACC's own EBITDA/tonne than <strong>whether 3.28 Ambuja shares end up worth more than one ACC share</strong> — the arbitrage the merger creates.</div>
 
   <div class="tbl-wrap">
   <table>
-    <caption>Key figures at a glance (FY26 / mid-2026)</caption>
+    <caption>Key figures at a glance (FY26; market data as of 13 Oct 2026)</caption>
     <thead><tr><th>Metric</th><th class="num">Value</th><th>Note</th></tr></thead>
     <tbody>
       <tr><td>Revenue (FY26)</td><td class="num">₹25,962 Cr</td><td>+18% YoY, record</td></tr>
       <tr><td>EBITDA (FY26)</td><td class="num">~₹2,958 Cr</td><td>roughly flat YoY — cost squeeze</td></tr>
       <tr><td>EBITDA margin</td><td class="num">~11%</td><td>down from ~14% as fuel rose</td></tr>
-      <tr><td>EBITDA / tonne</td><td class="num">~₹670 (FY) · ₹471 (Q4)</td><td>Q4 trough on fuel spike</td></tr>
-      <tr><td>Net profit (FY26)</td><td class="num">~₹2,137 Cr</td><td>consolidated; Q4 PAT −68% YoY</td></tr>
-      <tr><td>Volume (FY26)</td><td class="num">43.9 Mt</td><td>record; ran ~flat-out</td></tr>
+      <tr><td>EBITDA / tonne</td><td class="num">₹672 (FY) · ₹525 (Q4)</td><td>₹458 in Q1 FY27</td></tr>
+      <tr><td>Net profit (FY26)</td><td class="num">~₹2,137 Cr</td><td>reported consolidated; ~₹1,304 Cr normalised; Q4 PAT −68% YoY</td></tr>
+      <tr><td>Volume (FY26)</td><td class="num">43.9 Mt</td><td>record; includes MSA purchases from Ambuja</td></tr>
       <tr><td>Capacity</td><td class="num">~40.4 MTPA</td><td>ACC standalone (group ~109)</td></tr>
-      <tr><td>Net cash &amp; investments</td><td class="num">~₹13,500 Cr</td><td>debt ~₹429 Cr; AAA/A1+</td></tr>
+      <tr><td>Cash &amp; equivalents</td><td class="num">₹918 Cr</td><td>Mar-26 (₹375 Cr Jun-26); debt ~₹429 Cr; AAA/A1+</td></tr>
       <tr><td>Promoter holding</td><td class="num">~56.7%</td><td>Adani, 50.05% via Ambuja</td></tr>
-      <tr><td>Market cap</td><td class="num">~₹25,900 Cr</td><td>Jul 2026 (~₹1,380/share)</td></tr>
-      <tr><td>P/E · P/B</td><td class="num">~12× · ~1.3×</td><td>ROCE ~11%, ROE ~11%</td></tr>
-      <tr><td>EV / tonne · EV/EBITDA</td><td class="num">~₹3,050 · ~4×</td><td>cash-adjusted — very low</td></tr>
+      <tr><td>Market cap</td><td class="num">₹21,350 Cr</td><td>13 Oct 2026 (₹1,137/share)</td></tr>
+      <tr><td>P/E · P/B</td><td class="num">11.2× · 1.04×</td><td>ROCE ~11%, ROE ~11%</td></tr>
+      <tr><td>EV / tonne · EV/EBITDA</td><td class="num">~₹5,160 · ~7.1×</td><td>below replacement cost</td></tr>
       <tr><td>Merger swap</td><td class="num">3.28 : 1</td><td>Ambuja shares per ACC share</td></tr>
     </tbody>
   </table>
   </div>
-  <div class="note"><b>Figures to treat as approximate:</b> revenue/EBITDA/net-profit are consolidated figures from public financial databases and news coverage of ACC's FY26 results; some outlets reported a lower standalone PAT (~₹1,304 Cr) versus the consolidated ~₹2,137 Cr used here, and FY-level EBITDA/tonne (~₹670) is implied from EBITDA ÷ volume. Capacity, cash and swap terms are from company disclosures. Verify against ACC's audited results and the Ambuja merger scheme documents before relying on any single number.</div>
+  <div class="note"><b>Figures to treat as approximate:</b> revenue/EBITDA/net-profit are consolidated figures from public financial databases and news coverage of ACC's FY26 results; the ~₹1,304 Cr PAT some outlets reported is <em>normalised</em> PAT (excluding one-offs), not standalone; reported consolidated PAT is ~₹2,137 Cr. EBITDA/tonne (₹672 FY26, ₹525 Q4) is the company figure. Capacity, cash (company-disclosed cash &amp; equivalents, not a data screen's "other assets" line) and swap terms are from company disclosures. Verify against ACC's audited results and the Ambuja merger scheme documents before relying on any single number.</div>
 </section>
 
 <!-- 11 -->
 <section class="part" id="p11">
   <div class="part-head"><span class="pno">11</span><h2>The future, the risks, and the bull/bear</h2></div>
-  <p class="part-sub">A cheap, cash-rich, iconic cement network — being run for a group, and about to lose its own name.</p>
+  <p class="part-sub">A modestly valued, debt-light, iconic cement network — being run for a group, and about to lose its own name.</p>
 
-  <p class="lead">ACC is one of the more unusual situations in Indian materials: a ninety-year-old blue chip with a national plant network, a fortress balance sheet and a beloved brand, that no longer sets its own course and is set to be merged out of listed existence. The investment debate is really two debates — one about the cement business, one about the merger terms — and they don't resolve on the same clock.</p>
+  <p class="lead">ACC is one of the more unusual situations in Indian materials: a ninety-year-old blue chip with a national plant network, a debt-light balance sheet and a beloved brand, that no longer sets its own course and is set to be merged out of listed existence. The investment debate is really two debates — one about the cement business, one about the merger terms — and they don't resolve on the same clock.</p>
 
   <div class="bb">
     <div class="col bull">
       <h4>The bull case</h4>
       <ul class="clean">
-        <li><strong>Startlingly cheap on the cement lens</strong> — ~₹3,050 EV/tonne and ~4× EV/EBITDA once the ~₹13.5k Cr cash is netted off, a fraction of replacement cost.</li>
-        <li><strong>Fortress balance sheet</strong> — essentially debt-free, AAA-rated, with cash worth over half the market value.</li>
-        <li><strong>Real cost momentum</strong> — green power doubled to ~26%, kiln-fuel cost −10%, a credible march toward ~₹3,600/tonne cost by FY28.</li>
+        <li><strong>Inexpensive on the cement lens</strong> — ~₹5,160 EV/tonne and ~7.1× EV/EBITDA (as of 13 Oct 2026), well below replacement cost.</li>
+        <li><strong>Clean balance sheet</strong> — AAA-rated, with only ~₹429 Cr of borrowings, roughly matched by cash.</li>
+        <li><strong>Real cost momentum</strong> — green power doubled to ~26%, kiln-fuel cost −10%, group cost guided to ≤₹4,000/tonne by FY28.</li>
         <li><strong>Pan-India network + Adani muscle</strong> — a balanced national footprint fed by group ports, power and logistics; record 43.9 Mt volume shows the demand pull.</li>
         <li><strong>Merger upside</strong> — the 3.28:1 swap into Ambuja plus ~₹100/tonne synergy could crystallise value the standalone stock never rated.</li>
       </ul>
@@ -685,9 +682,9 @@
     <div class="col bear">
       <h4>The bear case</h4>
       <ul class="clean">
-        <li><strong>You're really buying Ambuja</strong> — once merged, ACC's fate is a fixed swap into its parent; the "cheap" cash and plants get pooled on the group's terms.</li>
-        <li><strong>Promoter on both sides</strong> — the swap ratio and cash pooling are set by the controlling owner; minority holders wear whatever the scheme decides.</li>
-        <li><strong>Price-taker in a build-out</strong> — the giants' collective capacity binge can crush regional realisations and EBITDA/tonne, as FY26's Q4 (₹471) showed.</li>
+        <li><strong>You're really buying Ambuja</strong> — once merged, ACC's fate is a fixed swap into its parent; the plants get pooled on the group's terms.</li>
+        <li><strong>Promoter on both sides</strong> — the swap ratio and balance-sheet pooling are set by the controlling owner; minority holders wear whatever the scheme decides.</li>
+        <li><strong>Price-taker in a build-out</strong> — the giants' collective capacity binge can crush regional realisations and EBITDA/tonne, as FY26's Q4 (₹525) and Q1 FY27 (₹458) showed.</li>
         <li><strong>Fuel &amp; freight volatility</strong> — a petcoke/coal spike can outrun the cost savings in any quarter, regardless of demand.</li>
         <li><strong>Governance history</strong> — this group has a contested record of moving cash and restructuring ownership around minority investors.</li>
       </ul>
@@ -696,7 +693,7 @@
 
   <div class="plain">
     <div class="ptag">The bottom line</div>
-    <p>ACC is a rare thing — a genuinely cheap slice of a great franchise — wrapped inside a corporate action that decides how, and to whom, that cheapness gets paid out. For the <em>business</em>, the number to track is EBITDA per tonne: does the cost programme (green power, fuel basket, the ₹3,600/tonne goal, the ₹100/tonne merger synergy) drag it back up toward ₹1,000 as fuel normalises, or does the industry's own capacity flood keep it pinned near the FY26 Q4 trough? For the <em>shareholder</em>, the number that matters even more is the swap: whether 3.28 Ambuja shares prove worth more than the ACC share you hold. The whole situation converges on one dated event — the day the <strong>NCLT sanctions the amalgamation and the 500410 ticker goes dark</strong>, ending a listing that began when the ten founding companies came together in 1936. A company born from a merger is about to be settled by one; everything for an ACC investor rides on the arithmetic of that exchange.</p>
+    <p>ACC is a modestly valued slice of a great franchise — wrapped inside a corporate action that decides how, and to whom, that cheapness gets paid out. For the <em>business</em>, the number to track is EBITDA per tonne: does the cost programme (green power, fuel basket, the ≤₹4,000/tonne FY28 group goal, the ₹100/tonne merger synergy) drag it back up toward ₹1,000 as fuel normalises, or does the industry's own capacity flood keep it pinned near the ₹458–525 of the last two quarters? For the <em>shareholder</em>, the number that matters even more is the swap: whether 3.28 Ambuja shares prove worth more than the ACC share you hold. The whole situation converges on one dated event — the day the <strong>NCLT sanctions the amalgamation and the 500410 ticker goes dark</strong>, ending a listing that began when the ten founding companies came together in 1936. A company born from a merger is about to be settled by one; everything for an ACC investor rides on the arithmetic of that exchange.</p>
   </div>
 </section>
 
@@ -707,13 +704,13 @@
     <li>ANI / The Tribune / Newkerala — "ACC posts Rs 1,304 crore PAT in FY26; quarterly revenue record ₹7,146 Cr" (Apr 2026).</li>
     <li>Business Standard — "ACC Q4 FY26 result: Net profit drops 68% to ₹238 crore, revenue rises 18%" (Apr 2026).</li>
     <li>Investywise / ScanX / MarketsMojo — ACC Q4 &amp; FY26 highlights: revenue ₹25,962 Cr, volume 43.9 Mt, EBITDA/margin, capacity 40.4 MTPA; group (Ambuja consol.) revenue ₹40,656 Cr, EBITDA ₹6,539 Cr, EBITDA/t ₹887, 73.7 Mt, 109 MTPA.</li>
-    <li>Screener.in — ACC consolidated financials, market cap, P/E, book value, ROCE/ROE, debt ₹429 Cr, cash/investments ₹13,987 Cr, promoter 56.69%.</li>
+    <li>Screener.in — ACC consolidated financials, market cap, P/E, book value, ROCE/ROE, debt ₹429 Cr, promoter 56.69%; note screener's ₹13,987 Cr "Other assets" line is not cash (company cash ₹918 Cr at Mar-26, ACC Q4 FY26 release). Q1 FY27 release (Jul 2026); market data 13 Oct 2026.</li>
     <li>Adani / Ambuja press releases — ACC quarterly performance (Q2/Q3 FY26); green-power share 26.2% (WHRS 13.9%, solar 11.3%), 60% FY28 target; kiln-fuel cost −10% (₹1.73→₹1.56/'000 kCal); parent RE power under MSA cutting power cost ~9%.</li>
     <li>Adani / Holcim / PR Newswire — "Adani to acquire Holcim's stake in Ambuja &amp; ACC" (2022); "Adani becomes India's second largest cement player"; deal ~US$6.4bn (~US$10.5bn incl. open offers); Adani ~63% Ambuja, ~56.7% ACC.</li>
     <li>Adani / Business Standard / Business Today — "Ambuja Cements board approves amalgamation of ACC and Orient Cement" (22 Dec 2025); swap 328 Ambuja:100 ACC (3.28:1); Orient 33:100; "One Cement" platform; ~12-month process; FY27 close.</li>
-    <li>IndMoney / Kotak Neo / PL Capital — ACC–Ambuja–Orient merger explainers: swap ratios, MSA elimination, ~₹100/tonne synergy, capacity target 140→155 MTPA by FY28.</li>
+    <li>IndMoney / Kotak Neo / PL Capital — ACC–Ambuja–Orient merger explainers: swap ratios, MSA elimination, ~₹100/tonne synergy, capacity target 140→155 MTPA (155 since moved to ~FY30; 119 MTPA by end-FY27).</li>
     <li>Business Standard (archive) — historical governance dispute over ~₹3,500 Cr cash in the Holcim/Ambuja restructuring; institutional-investor objections.</li>
-    <li>Ambuja / cemnet — group acquisitions Sanghi (merged Mar 2026), Penna (Apr 2026), Orient; UltraTech ~190 MTPA (→240); Shree ~63, Dalmia ~55; IBEF Indian cement overview; ICRA/Ind-Ra demand notes; GST 28%→18%.</li>
+    <li>Ambuja / cemnet — group acquisitions Sanghi and Penna (amalgamations completed by the FY26 results of 4 May 2026; Sanghi delisted w.e.f. 6 Apr 2026), Orient; UltraTech 205.5 MTPA global (→ ~242.5 by FY28); Shree 69.3, Dalmia ~55; IBEF Indian cement overview; ICRA/Ind-Ra demand notes; GST 28%→18%.</li>
     <li>ACC / Wikipedia — company history: founded 1936 as The Associated Cement Companies via merger of ten cement firms; Tata and then Holcim ownership.</li>
   </ol>
   <p class="disc">This primer is an educational, plain-English explainer compiled from public sources and is <strong>not investment advice, a recommendation, or a solicitation</strong> to buy or sell any security. Figures are approximate, drawn from company disclosures and third-party reports around FY26 (year ended March 2026), and may contain errors or become outdated; some trend and per-tonne figures are estimates flagged as approximate, and consolidated vs standalone profit figures differ across sources. The proposed ACC–Ambuja amalgamation was board-approved in December 2025 but remains subject to shareholder, creditor, NCLT and regulatory approvals and could change or lapse. Verify all numbers against primary sources before relying on them. The author holds no position and expresses no view on the stock's suitability for any investor.</p>

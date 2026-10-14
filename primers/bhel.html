@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+  main{min-width:0;}
   :root{
     --paper:#F3F5F7;
     --paper-2:#FAFBFC;
@@ -252,23 +253,23 @@
     <span class="tag gold">Built for a non-specialist reader</span>
   </div>
   <h1>Bharat Heavy Electricals, <em>the machine behind India's power grid</em></h1>
-  <p class="dek">A complete walk through India's largest power-equipment maker — the state-owned engineering giant that builds the boilers, turbines and generators inside most of the country's coal power stations. This primer explains how a lumpy, thin-margin project company actually earns money; why India is suddenly ordering coal plants again after a seven-year drought, and why BHEL wins ~90% of them; how a record ₹2.4 lakh crore order book is meant to power a swing from near-losses back to profit; the honest story of a decade of stumbles; the railway, defence and nuclear diversification; and why a company earning under 2% net margins trades at a P/E near 90.</p>
+  <p class="dek">A complete walk through India's largest power-equipment maker — the state-owned engineering giant that builds the boilers, turbines and generators inside most of the country's coal power stations. This primer explains how a lumpy, thin-margin project company actually earns money; why India is suddenly ordering coal plants again after a seven-year drought, and why BHEL wins ~90% of them; how a record order book of about ₹2.6 lakh crore is meant to power a swing from near-losses back to profit; the candid story of a decade of stumbles; the railway, defence and nuclear diversification; and why a company earning thin single-digit net margins trades at a P/E of about 63 (as of 13 Oct 2026).</p>
 
   <div class="stat-strip">
     <div class="cell"><div class="v">₹33,782 <small>Cr</small></div><div class="l">Revenue (FY26, +19%)</div></div>
-    <div class="cell"><div class="v">₹2.4 <small>lakh Cr</small></div><div class="l">Order book (Mar '26)</div></div>
+    <div class="cell"><div class="v">~₹2.6 <small>lakh Cr</small></div><div class="l">Order book (Jun '26)</div></div>
     <div class="cell"><div class="v">~7% <small>EBITDA</small></div><div class="l">Operating margin (FY26)</div></div>
-    <div class="cell"><div class="v">~₹1.44 <small>lakh Cr</small></div><div class="l">Market cap (Jul '26)</div></div>
+    <div class="cell"><div class="v">~₹1.54 <small>lakh Cr</small></div><div class="l">Market cap (13 Oct '26)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">2 Jul 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: Q1 FY27 results (quarter ended Jun 2026); market data as of 13 Oct 2026</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — revenue ₹33,782 Cr (+19%), EBITDA ~₹2,342 Cr (~7% margin, up from ~5%), PAT ₹1,578–1,600 Cr (+~200%, EPS ~₹4.6); record order inflow ₹75,916 Cr (power ~₹59,200 Cr, industry ~₹16,500 Cr); highest-ever order book ~₹2.4 lakh Cr (81% power / 18% industry / 1% export); ~8.9 GW commissioned; the thermal-capex supercycle, the order-book-to-margin-recovery thesis, and the P/E-vs-order-book valuation debate.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b>Q1 FY27 (Apr–Jun 2026) added — revenue ₹7,698 Cr (+40%), EBITDA margin 6.5%, <strong>PAT ₹377 Cr against a ₹456 Cr loss a year earlier — the first positive first quarter in eight years</strong>; order inflow ₹26,745 Cr and an order book of about ₹2.6 lakh Cr (per JM Financial's result note). Major wins: NTPC's Meja (MUNPL) 3×800 MW EPC (~₹21,000 Cr) and 8 gas-turbine generators for Dangote, Nigeria (₹2,000–2,500 Cr), BHEL's largest-ever export order. Corrected: FY26 order inflow of ₹75,916 Cr was 18% <em>below</em> FY25's record ₹92,535 Cr (the record is the order book, not inflow); FY24/FY25 inflows fixed in §09. Market cap and P/E as of 13 Oct 2026. Q2 FY27 results are due at the 14 Oct 2026 board meeting.</div>
 </header>
 
 <!-- 00 -->
@@ -276,19 +277,19 @@
   <div class="part-head"><span class="pno">00</span><h2>The 30-second snapshot</h2></div>
   <p class="part-sub">What you're looking at, before we go deep.</p>
 
-  <p class="lead">Bharat Heavy Electricals — BHEL — is India's largest <strong>power-generation equipment maker</strong> and one of its oldest heavy-engineering companies. Its core product is the "<strong>BTG</strong>" package that sits at the heart of a coal power station: the <strong>Boiler</strong> that burns coal to make steam, the <strong>Turbine</strong> that the steam spins, and the <strong>Generator</strong> the turbine drives to make electricity. Most of India's installed coal-fired capacity runs on BHEL equipment. It is a <strong>Maharatna</strong> — the top tier of India's public-sector companies — with the <strong>Government of India its majority owner (~59%)</strong>. In FY26 (year ended March 2026) it earned <strong>₹33,782 crore</strong> of revenue and about <strong>₹1,578 crore</strong> of net profit, at a thin <strong>~7% operating margin</strong> — while sitting on its <strong>highest-ever order book of ~₹2.4 lakh crore</strong>.</p>
+  <p class="lead">Bharat Heavy Electricals — BHEL — is India's largest <strong>power-generation equipment maker</strong> and one of its oldest heavy-engineering companies. Its core product is the "<strong>BTG</strong>" package that sits at the heart of a coal power station: the <strong>Boiler</strong> that burns coal to make steam, the <strong>Turbine</strong> that the steam spins, and the <strong>Generator</strong> the turbine drives to make electricity. Most of India's installed coal-fired capacity runs on BHEL equipment. It is a <strong>Maharatna</strong> — the top tier of India's public-sector companies — with the <strong>Government of India its majority owner (~58.2%)</strong>. In FY26 (year ended March 2026) it earned <strong>₹33,782 crore</strong> of revenue and about <strong>₹1,578 crore</strong> of net profit, at a thin <strong>~7% operating margin</strong> — while sitting on its <strong>highest-ever order book</strong>: ~₹2.4 lakh crore at March 2026 and about <strong>₹2.6 lakh crore by June 2026</strong>.</p>
 
   <p>Four facts frame everything about this company:</p>
   <ul class="clean">
-    <li><strong>The order book, not the profit, is the headline.</strong> For a company that builds giant power plants over three-to-five years, the single most important number is not this year's earnings — it is the <strong>backlog of work already won</strong>. At ₹2.4 lakh crore, BHEL's order book is roughly <strong>seven times</strong> its annual revenue (a "book-to-bill" of ~7×), the highest in its history. That is years of visible work — the raw material for future profit.</li>
+    <li><strong>The order book, not the profit, is the headline.</strong> For a company that builds giant power plants over three-to-five years, the single most important number is not this year's earnings — it is the <strong>backlog of work already won</strong>. At about ₹2.6 lakh crore (Jun '26), BHEL's order book is roughly <strong>seven times</strong> its trailing annual revenue (a "book-to-bill" of ~7×), the highest in its history. That is years of visible work — the raw material for future profit.</li>
     <li><strong>India is ordering coal power again — and BHEL is the last domestic maker standing.</strong> After nearly a decade in which almost no new thermal plants were ordered, India has reversed course, targeting <strong>~80 GW of new coal capacity by 2031-32</strong> to keep the grid stable as demand surges and renewables prove intermittent. BHEL has won <strong>~90% of recent large (800 MW) thermal orders</strong> — because its rivals abandoned the business during the drought.</li>
-    <li><strong>The whole bull case is a margin-recovery story.</strong> BHEL makes almost nothing on each rupee of sales today (net margin under 2%). The bet is that as the huge order book <em>executes</em>, fixed costs get spread over far more revenue, and margins normalise — turning a barely-profitable company into a properly profitable one. That is <strong>operating leverage</strong>, and it is the entire investment thesis.</li>
-    <li><strong>It is priced for that recovery to arrive.</strong> The stock trades near a <strong>P/E of 90</strong> on today's depressed earnings — an eye-watering multiple for a capital-goods company. Bulls value it on the <em>order book</em> and forecast earnings (where it looks reasonable); bears value it on <em>today's</em> earnings (where it looks absurd). Both are looking at the same company through different lenses.</li>
+    <li><strong>The whole bull case is a margin-recovery story.</strong> BHEL makes very little on each rupee of sales today (net margin of about 5% in FY26, and under 2% the year before). The bet is that as the huge order book <em>executes</em>, fixed costs get spread over far more revenue, and margins normalise — turning a barely-profitable company into a properly profitable one. That is <strong>operating leverage</strong>, and it is the entire investment thesis.</li>
+    <li><strong>It is priced for that recovery to arrive.</strong> The stock trades at a <strong>P/E of about 63</strong> (as of 13 Oct 2026; it was near 90 in July, before Q1 FY27's profit) on still-depressed earnings — an eye-watering multiple for a capital-goods company. Bulls value it on the <em>order book</em> and forecast earnings (where it looks reasonable); bears value it on <em>today's</em> earnings (where it looks absurd). Both are looking at the same company through different lenses.</li>
   </ul>
 
   <div class="plain">
     <div class="ptag">In plain terms</div>
-    <p>Think of BHEL as India's national <strong>power-plant builder</strong> — a giant, state-owned engineering shop that, for sixty years, made the industrial machinery that turns coal into electricity. For most of the last decade it had almost no work: the country stopped ordering coal plants, betting on solar and wind instead, and BHEL slowly bled — thin margins, the odd loss, delayed projects, a share price stuck in the mud. Then reality bit. Solar panels only make power when the sun shines; India's electricity demand keeps breaking records; and the grid needs a big, dependable "always-on" source underneath the renewables. That source is coal. So the orders came roaring back — and because every rival had quit the business, they nearly all landed at BHEL's door. The company now has more work booked than it has had in its history. The open question is whether it can <em>execute</em> that mountain of work profitably and on time — because BHEL's long, painful record says building the machines is the easy part; making money doing it is the hard part.</p>
+    <p>Picture BHEL as India's national <strong>power-plant builder</strong> — a giant, state-owned engineering shop that, for sixty years, made the industrial machinery that turns coal into electricity. For most of the last decade it had almost no work: the country stopped ordering coal plants, betting on solar and wind instead, and BHEL slowly bled — thin margins, the odd loss, delayed projects, a share price stuck in the mud. Then reality bit. Solar panels only make power when the sun shines; India's electricity demand keeps breaking records; and the grid needs a big, dependable "always-on" source underneath the renewables. That source is coal. So the orders came roaring back — and because every rival had quit the business, they nearly all landed at BHEL's door. The company now has more work booked than it has had in its history. The open question is whether it can <em>execute</em> that mountain of work profitably and on time — because BHEL's long, painful record says building the machines is the easy part; making money doing it is the hard part.</p>
   </div>
 </section>
 
@@ -304,8 +305,8 @@
     <caption>The four ideas that explain the whole business</caption>
     <thead><tr><th>Term</th><th>What it means (and why it matters for BHEL)</th></tr></thead>
     <tbody>
-      <tr><td class="t-strong">Order inflow</td><td>The value of <em>new</em> contracts won in a year. BHEL booked a record <strong>₹75,916 Cr</strong> in FY26. This is the leading indicator — future revenue starts here.</td></tr>
-      <tr><td class="t-strong">Order book (backlog)</td><td>The total value of work <em>won but not yet executed</em> — ~<strong>₹2.4 lakh Cr</strong>. Divide by annual revenue and you get years of visibility. This is the single most-watched number.</td></tr>
+      <tr><td class="t-strong">Order inflow</td><td>The value of <em>new</em> contracts won in a year. BHEL booked <strong>₹75,916 Cr</strong> in FY26 — 18% below FY25's record ₹92,535 Cr — and ₹26,745 Cr in Q1 FY27 alone. This is the leading indicator — future revenue starts here.</td></tr>
+      <tr><td class="t-strong">Order book (backlog)</td><td>The total value of work <em>won but not yet executed</em> — about <strong>₹2.6 lakh Cr</strong> at June 2026. Divide by annual revenue and you get years of visibility. This is the single most-watched number.</td></tr>
       <tr><td class="t-strong">Execution / revenue recognition</td><td>Revenue is booked as work is <em>done</em> (steel cut, equipment shipped, plant erected), not when the order is signed. Slow execution = order book sits idle and earns nothing.</td></tr>
       <tr><td class="t-strong">Operating leverage</td><td>BHEL's big costs — factories, engineers, overheads — are largely <em>fixed</em>. Push more revenue through the same base and margins jump. This is the recovery mechanism (see §05).</td></tr>
     </tbody>
@@ -340,13 +341,14 @@
     <li><div class="yr">1970s–2000s</div><div class="ev">Becomes the dominant supplier of power-generation equipment for the national grid; builds a large manufacturing footprint (Trichy, Haridwar, Hyderabad, Bhopal and others).</div></li>
     <li class="major"><div class="yr">~2012</div><div class="ev">Peak years — a bulging order book and record ordering during India's power-capacity boom.</div></li>
     <li><div class="yr">2015–2022</div><div class="ev"><strong>The thermal drought.</strong> New coal-plant ordering all but stops as policy tilts to renewables; BHEL's order book, revenue and margins fall for years, with losses in some periods.</div></li>
-    <li class="major"><div class="yr">FY24–FY25</div><div class="ev"><strong>The turn.</strong> Thermal ordering revives; BHEL wins record thermal orders (9.6 GW in FY24, ~14.6 GW in FY25); operating cash flow turns positive again.</div></li>
-    <li class="major"><div class="yr">FY26</div><div class="ev">Record order inflow (₹75,916 Cr) and highest-ever order book (~₹2.4 lakh Cr); revenue +19% to ₹33,782 Cr; PAT up ~200% to ₹1,578 Cr; ~8.9 GW of capacity commissioned; the share hits multi-year highs.</div></li>
+    <li class="major"><div class="yr">FY24–FY25</div><div class="ev"><strong>The turn.</strong> Thermal ordering revives; BHEL wins record thermal orders (9.6 GW in FY24, ~14.6 GW in FY25); total order inflow ₹77,907 Cr in FY24 and a record <strong>₹92,535 Cr in FY25</strong>; operating cash flow turns positive again.</div></li>
+    <li class="major"><div class="yr">FY26</div><div class="ev">Order inflow ₹75,916 Cr (−18% from FY25's record) and highest-ever order book (~₹2.4 lakh Cr); revenue +19% to ₹33,782 Cr; PAT up ~200% to ₹1,578 Cr; ~8.9 GW of capacity commissioned; the share hits multi-year highs.</div></li>
+    <li class="major"><div class="yr">Q1 FY27</div><div class="ev">Revenue +40% to ₹7,698 Cr and <strong>PAT ₹377 Cr against a ₹456 Cr loss a year earlier</strong>; inflow ₹26,745 Cr including NTPC's Meja 3×800 MW (~₹21,000 Cr) and a ₹2,000–2,500 Cr Dangote (Nigeria) gas-turbine order, its largest-ever export win; order book about ₹2.6 lakh Cr.</div></li>
   </ul>
 
   <h3>Ownership &amp; control</h3>
   <ul class="clean">
-    <li><strong>Government of India (~59%)</strong> — the promoter and controlling shareholder. Screener showed the Govt holding at ~58.2% as of March 2026, down from ~63% earlier, consistent with a stake sale (offer-for-sale) into the strong share price. Either way, the state <em>controls</em> the company.</li>
+    <li><strong>Government of India (~58.2%)</strong> — the promoter and controlling shareholder. The Govt holding has been 58.17% from March to September 2026, down from ~63% earlier, consistent with a stake sale (offer-for-sale) into the strong share price. Either way, the state <em>controls</em> the company.</li>
     <li><strong>What state ownership means in practice.</strong> BHEL is a national strategic asset and a natural beneficiary of "Make-in-India" and self-reliance policy — a plus when the government wants domestic suppliers for power, defence and railways. But it also means <strong>political and social objectives can sit alongside pure profit</strong>: PSUs can face pressure on pricing, hiring and dividends, and decision-making can be slower and more bureaucratic than a private peer's.</li>
     <li><strong>Governed by the Ministry of Heavy Industries</strong>, and periodically flagged in disinvestment discussions — government stake sales are a recurring feature and a potential overhang on the share.</li>
   </ul>
@@ -366,7 +368,7 @@
 
   <div class="chart">
     <div class="c-title">Order book composition (Mar 2026)</div>
-    <div class="c-sub">Share of the ~₹2.4 lakh crore backlog — Power is the engine</div>
+    <div class="c-sub">Share of the ~₹2.4 lakh crore backlog at Mar '26 — Power is the engine</div>
     <div class="bars">
       <div class="bar-row"><div class="blab">Power<small>BTG, FGD, hydro, nuclear, solar</small></div><div class="track"><span class="fill power" style="width:100%"></span></div><div class="bval">~81%</div></div>
       <div class="bar-row"><div class="blab">Industry<small>rail, transmission, defence</small></div><div class="track"><span class="fill ind" style="width:23%"></span></div><div class="bval">~18%</div></div>
@@ -421,7 +423,7 @@
     <li><strong>The rivals quit.</strong> During the seven-year drought, private BTG makers (and foreign JVs) scaled back or exited — you cannot keep a heavy-equipment factory alive with no orders. When ordering restarted, BHEL was, in the words of one account, "the only entity available with the needed apparatus." Scarcity of domestic suppliers = pricing power and share.</li>
     <li><strong>The China factor.</strong> Geopolitical concerns effectively rule out Chinese equipment for critical national power infrastructure. That removes the biggest low-cost competitor and channels demand to a trusted domestic maker.</li>
     <li><strong>Localisation &amp; strategic-supplier status.</strong> As a state-owned Maharatna with deep manufacturing and a 60-year track record, BHEL is the natural "Make-in-India" supplier for strategic power equipment. Government-owned NTPC and state utilities placing the orders reinforces the alignment.</li>
-    <li><strong>The scale of the wins.</strong> BHEL won <strong>9.6 GW (~₹52,000 Cr) in FY24</strong> and its highest-ever ~<strong>14.6 GW in FY25</strong>. In mid-2026 a <em>single</em> order — a 3×800 MW plant for MUNPL worth ~<strong>₹21,000 Cr</strong> — lifted the entire order book by ~10%.</li>
+    <li><strong>The scale of the wins.</strong> BHEL won <strong>9.6 GW (~₹52,000 Cr) in FY24</strong> and its highest-ever ~<strong>14.6 GW in FY25</strong>. In mid-2026 a <em>single</em> order — a 3×800 MW plant for MUNPL worth ~<strong>₹21,000 Cr</strong> — lifted the entire order book by ~10%. The same quarter brought 8 gas-turbine generators for Dangote in Nigeria (₹2,000–2,500 Cr), BHEL's largest-ever export order.</li>
   </ul>
 
   <div class="note gold"><b>The catch — a capacity ceiling:</b> BHEL's near-monopoly is also a bottleneck. The country's ability to <em>build</em> 80 GW is limited by BHEL's own factory capacity to manufacture boilers and turbines. That protects BHEL's share, but it means execution — not order-winning — is now the binding constraint. Winning the work was the easy part; delivering it on time and at a profit is the test.</div>
@@ -448,32 +450,32 @@
 
   <div class="plain">
     <div class="ptag">The bull case, in one mechanism</div>
-    <p>A heavy-engineering company like BHEL carries huge <strong>fixed costs</strong> — enormous factories, thousands of engineers, corporate overhead — that it pays whether the plants run at 40% or 90% of capacity. During the drought those factories ran half-empty, so the fixed cost was spread over very little revenue and margins were crushed (even losses). Now flip it: push <em>far more</em> revenue through the <em>same</em> fixed base, and each extra rupee of sales carries very little extra cost — so it drops almost straight to profit. That's why, if revenue climbs steadily as the ₹2.4 lakh crore backlog executes, margins should expand and profit should grow much faster than sales. Analysts betting on this see EPS rising from ~₹1.5 (FY25) toward ~₹12–13 by FY28 — an ~8× jump in three years. <em>That</em> forecast, not today's earnings, is what the share price is really pricing.</p>
+    <p>A heavy-engineering company like BHEL carries huge <strong>fixed costs</strong> — enormous factories, thousands of engineers, corporate overhead — that it pays whether the plants run at 40% or 90% of capacity. During the drought those factories ran half-empty, so the fixed cost was spread over very little revenue and margins were crushed (even losses). Now flip it: push <em>far more</em> revenue through the <em>same</em> fixed base, and each extra rupee of sales carries very little extra cost — so it drops almost straight to profit. That's why, if revenue climbs steadily as the ~₹2.6 lakh crore backlog executes, margins should expand and profit should grow much faster than sales. Analysts betting on this see EPS rising from ~₹1.5 (FY25) toward ~₹12–13 by FY28 — an ~8× jump in three years. <em>That</em> forecast, not today's earnings, is what the share price is really pricing.</p>
   </div>
 
   <div class="mini-stats">
     <div class="ms gold"><div class="msv">~7×</div><div class="msl">Book-to-bill (order book ÷ revenue) — years of visible work, an all-time high</div></div>
-    <div class="ms"><div class="msv">₹75,916 Cr</div><div class="msl">FY26 order inflow — a record year of new wins</div></div>
+    <div class="ms"><div class="msv">₹75,916 Cr</div><div class="msl">FY26 order inflow — strong, though 18% below FY25's record ₹92,535 Cr</div></div>
     <div class="ms green"><div class="msv">~₹1,578 Cr</div><div class="msl">FY26 PAT, up ~200% YoY — the recovery beginning to show in profit</div></div>
   </div>
 
-  <h3>The honest risk in the same mechanism</h3>
+  <h3>The real risk in the same mechanism</h3>
   <p>Operating leverage cuts both ways, and BHEL's history (§06) is a warning. Three things can break the thesis:</p>
   <ul class="clean">
     <li><strong>Execution delays.</strong> A power plant is a vast, multi-year project with hundreds of moving parts — land, clearances, fuel supply, the customer's readiness. If projects slip, the order book sits idle: no revenue, no leverage. A gas-supply shortage alone was estimated to cost BHEL ~₹2,500–3,000 Cr of revenue in a single recent quarter — showing how fragile the pace of execution is.</li>
-    <li><strong>Thin cushion for error.</strong> On a net margin under 2%, a small cost overrun or a fixed-price order signed cheaply can wipe out the profit on that project entirely. There is very little room for mistakes.</li>
+    <li><strong>Thin cushion for error.</strong> On a net margin of about 5% (FY26), a small cost overrun or a fixed-price order signed cheaply can wipe out the profit on that project entirely. There is very little room for mistakes.</li>
     <li><strong>Working-capital drag.</strong> Big projects tie up enormous cash in inventory and unpaid dues from customers (see §08). If cash gets stuck, the "profit" on paper doesn't translate into real returns.</li>
   </ul>
 
   <blockquote>The order book answers "is there enough work?" — emphatically yes. Execution answers "can BHEL turn that work into profit and cash?" — and that is the only question that now matters.</blockquote>
 </section>
 
-<!-- 06 — BESPOKE #3: the volatile PSU history / honest bear framing -->
+<!-- 06 — BESPOKE #3: the volatile PSU history / candid bear framing -->
 <section class="part" id="p6">
-  <div class="part-head"><span class="pno">06</span><h2>The volatile history — the honest part</h2></div>
+  <div class="part-head"><span class="pno">06</span><h2>The volatile history — the uncomfortable part</h2></div>
   <p class="part-sub">Why a company with a record order book still has to <em>prove</em> it can profit from it.</p>
 
-  <p class="lead">It would be dishonest to present BHEL purely as a recovery story without the context that makes the recovery <em>uncertain</em>. This is a company that spent the better part of a decade struggling — and its record is the strongest argument the bears have. The past does not have to repeat, but it explains why seasoned investors demand proof, not promises.</p>
+  <p class="lead">It would be misleading to present BHEL purely as a recovery story without the context that makes the recovery <em>uncertain</em>. This is a company that spent the better part of a decade struggling — and its record is the strongest argument the bears have. The past does not have to repeat, but it explains why seasoned investors demand proof, not promises.</p>
 
   <h3>What went wrong — the lost decade</h3>
   <ul class="clean">
@@ -483,7 +485,7 @@
     <li><strong>A strategic miss.</strong> Being ~70%+ dependent on thermal, BHEL was badly exposed when the industry bet against coal — and was slow to diversify meaningfully into the areas that were growing.</li>
   </ul>
 
-  <div class="note"><b>The bear's trump card:</b> BHEL has had a big order book before — in 2012 — and still ended up with a lost decade when the cycle turned and execution disappointed. The bear argument is simple: this is a <em>cyclical, thin-margin, government-run project company</em> whose fortunes depend on a lumpy policy cycle it cannot control, and whose history of turning backlog into profit is patchy. Buying it at ~90× earnings, the bear says, is paying a premium price for a company that has repeatedly failed to earn a premium return.</div>
+  <div class="note"><b>The bear's trump card:</b> BHEL has had a big order book before — in 2012 — and still ended up with a lost decade when the cycle turned and execution disappointed. The bear argument is simple: this is a <em>cyclical, thin-margin, government-run project company</em> whose fortunes depend on a lumpy policy cycle it cannot control, and whose history of turning backlog into profit is patchy. Buying it at ~63× trailing earnings (13 Oct 2026), the bear says, is paying a premium price for a company that has repeatedly failed to earn a premium return.</div>
 
   <h3>What's genuinely different this time</h3>
   <ul class="clean">
@@ -529,7 +531,7 @@
     <li><strong>Solar, storage, EV chargers — optionality.</strong> A foot in the clean-energy door for the long term; not yet financially material.</li>
   </ul>
 
-  <div class="note gold"><b>The honest limit:</b> Diversification is the <em>right</em> strategy and it de-risks the very-long-term picture — but investors should not overstate it today. With Power at ~80% of the backlog, BHEL remains, for the foreseeable future, primarily a bet on thermal execution. The Industry segment is a promising second leg, not yet a replacement for the first.</div>
+  <div class="note gold"><b>The limit:</b> Diversification is the <em>right</em> strategy and it de-risks the very-long-term picture — but investors should not overstate it today. With Power at ~80% of the backlog, BHEL remains, for the foreseeable future, primarily a bet on thermal execution. The Industry segment is a promising second leg, not yet a replacement for the first.</div>
 </section>
 
 <!-- 08 -->
@@ -543,18 +545,18 @@
   <ul class="clean">
     <li><strong>Inventory &amp; work-in-progress.</strong> Building a boiler or turbine means buying steel and components and holding half-finished equipment for months or years before it is delivered and paid for. That is cash locked in warehouses and factory floors.</li>
     <li><strong>Receivables &amp; retention money.</strong> Customers (often government utilities) pay in stages, hold back "retention" until a plant is fully commissioned, and sometimes pay slowly. BHEL can book revenue while the cash is still owed — inflating profit relative to cash generated.</li>
-    <li><strong>The scale of it.</strong> Working-capital days ran around <strong>~79 days</strong> in FY26 — meaningful, though improved from the worst of the drought years when receivables ballooned and cash flow was negative.</li>
+    <li><strong>The scale of it.</strong> Working-capital days ran around <strong>~86 days</strong> in FY26 on Screener's basis — and about 164 days on JM Financial's fuller basis, with standalone receivables plus contract assets of ~₹38,613 Cr — meaningful, though improved from the worst of the drought years when receivables ballooned and cash flow was negative.</li>
   </ul>
 
   <div class="mini-stats">
-    <div class="ms"><div class="msv">~₹8,187 Cr</div><div class="msl">Total borrowings (FY26) — modest for the revenue scale; a largely unleveraged balance sheet</div></div>
+    <div class="ms"><div class="msv">~₹8,187 Cr</div><div class="msl">Total borrowings (FY26) — more than covered by ~₹11,867 Cr of cash (net cash ≈ ₹3,680 Cr)</div></div>
     <div class="ms gold"><div class="msv">~₹75 </div><div class="msl">Book value per share — the stock trades at several times book</div></div>
     <div class="ms green"><div class="msv">Positive</div><div class="msl">Operating cash flow, turned positive from FY25 after years of outflows</div></div>
   </div>
 
   <div class="plain">
     <div class="ptag">Why this matters for the thesis</div>
-    <p>Here is the trap in one line: <strong>an order book only creates value if it converts to cash</strong>. BHEL can win ₹2.4 lakh crore of orders and even book rising profit — but if that profit stays trapped in inventory and unpaid customer bills, the returns to shareholders never materialise. The healthy sign is that operating cash flow turned positive in FY25 for the first time in years, and working-capital days have improved. The thing to watch every year is whether cash flow keeps pace with the reported profit as execution scales up. If it does, the recovery is real; if profit rises but cash doesn't follow, be sceptical.</p>
+    <p>Here is the trap in one line: <strong>an order book only creates value if it converts to cash</strong>. BHEL can win ₹2.6 lakh crore of orders and even book rising profit — but if that profit stays trapped in inventory and unpaid customer bills, the returns to shareholders never materialise. The healthy sign is that operating cash flow turned positive in FY25 for the first time in years, and working-capital days have improved. The thing to watch every year is whether cash flow keeps pace with the reported profit as execution scales up. If it does, the recovery is real; if profit rises but cash doesn't follow, be sceptical.</p>
   </div>
 </section>
 
@@ -591,46 +593,46 @@
     <thead><tr><th>Metric</th><th class="num">FY24</th><th class="num">FY25</th><th class="num">FY26</th></tr></thead>
     <tbody>
       <tr><td class="t-strong">Revenue</td><td class="num">23,893</td><td class="num">28,339</td><td class="num">33,782</td></tr>
-      <tr><td class="t-strong">Operating profit (EBITDA)</td><td class="num">711</td><td class="num">1,399</td><td class="num">2,342</td></tr>
+      <tr><td class="t-strong">Operating profit (EBITDA)*</td><td class="num">711</td><td class="num">1,399</td><td class="num">2,342</td></tr>
       <tr><td class="t-strong">Operating margin</td><td class="num">~3%</td><td class="num">~5%</td><td class="num">~7%</td></tr>
       <tr><td class="t-strong">Net profit (PAT)</td><td class="num">282</td><td class="num">534</td><td class="num">~1,578</td></tr>
       <tr><td class="t-strong">EPS (₹)</td><td class="num">0.81</td><td class="num">1.53</td><td class="num">~4.60</td></tr>
-      <tr><td class="t-strong">Order inflow</td><td class="num">~52,000+</td><td class="num">~74,000+</td><td class="num">75,916</td></tr>
+      <tr><td class="t-strong">Order inflow</td><td class="num">77,907</td><td class="num">92,535</td><td class="num">75,916</td></tr>
       <tr><td class="t-strong">Order book (year-end)</td><td class="num">~1.6 lakh</td><td class="num">~1.96 lakh</td><td class="num">~2.4 lakh</td></tr>
     </tbody>
   </table>
   </div>
 
   <div class="mini-stats">
-    <div class="ms gold"><div class="msv">~8.5%</div><div class="msl">ROCE (FY26) — improving, but still modest for the capital employed</div></div>
+    <div class="ms gold"><div class="msv">~9.1%</div><div class="msl">ROCE (FY26) — improving, but still modest for the capital employed</div></div>
     <div class="ms"><div class="msv">~6.3%</div><div class="msl">ROE (FY26) — low returns today; the recovery thesis is about lifting these</div></div>
     <div class="ms green"><div class="msv">~8.9 GW</div><div class="msl">Power capacity commissioned/synchronised in FY26</div></div>
   </div>
 
-  <div class="note gold"><b>How to read these:</b> the revenue and order lines look like a healthy cyclical recovery. The <em>returns</em> (ROCE ~8.5%, ROE ~6.3%) are still low — which is the whole point. The bull thesis is that as execution scales and margins normalise, these returns climb materially. The bear thesis is that they don't, and today's low returns are what a thin-margin cyclical PSU actually earns through a cycle.</div>
+  <div class="note gold"><b>How to read these:</b> *EBITDA basis: ₹2,342 Cr follows JM Financial's basis; the company's standalone EBITDA was ₹3,189 Cr (9.4%) and Screener's consolidated operating profit ₹2,572 Cr (7.6%). The revenue and order lines look like a healthy cyclical recovery (FY25 was the record inflow year). The <em>returns</em> (ROCE ~9.1%, ROE ~6.3%) are still low — which is the whole point. The bull thesis is that as execution scales and margins normalise, these returns climb materially. The bear thesis is that they don't, and today's low returns are what a thin-margin cyclical PSU actually earns through a cycle.</div>
 </section>
 
 <!-- 10 — BESPOKE #5: the valuation debate -->
 <section class="part" id="p10">
   <div class="part-head"><span class="pno">10</span><h2>The valuation debate — two lenses, one stock</h2></div>
-  <p class="part-sub">Expensive on earnings, arguably cheap on the order book. Both can be true.</p>
+  <p class="part-sub">Expensive on earnings, arguably cheap on the order book — the lens decides the verdict.</p>
 
-  <p class="lead">No discussion of BHEL is complete without confronting its valuation, because it looks either terrifying or reasonable depending entirely on <em>which number you divide the price by</em>. At a ~₹1.44 lakh crore market cap on ~₹1,578 crore of FY26 profit, BHEL trades near a <strong>P/E of ~90</strong> — extraordinary for a heavy-engineering company. Yet many analysts still rate it a buy. The reconciliation is the key insight.</p>
+  <p class="lead">No discussion of BHEL is complete without confronting its valuation, because it looks either terrifying or reasonable depending entirely on <em>which number you divide the price by</em>. At a ~₹1.54 lakh crore market cap (13 Oct 2026) on ~₹2,432 crore of trailing-twelve-month profit, BHEL trades at a <strong>P/E of about 63</strong> (and ~98× on FY26 profit alone) — rich for a heavy-engineering company. Yet many analysts still rate it a buy. The reconciliation is the key insight.</p>
 
   <div class="tbl-wrap">
   <table>
     <caption>The two competing lenses</caption>
     <thead><tr><th>Lens</th><th>What it sees</th><th>The verdict</th></tr></thead>
     <tbody>
-      <tr><td class="t-strong">The earnings lens<br>(today's profit)</td><td>~90× trailing FY26 earnings; ROE ~6%; a thin-margin cyclical PSU with a chequered history.</td><td><strong>Wildly expensive.</strong> You are paying a growth-stock multiple for a company that has repeatedly failed to earn a decent return.</td></tr>
-      <tr><td class="t-strong">The order-book / forward-earnings lens<br>(tomorrow's profit)</td><td>~7× book-to-bill; EPS forecast to rise from ~₹1.5 (FY25) to ~₹12–13 (FY28) as the backlog executes and margins recover.</td><td><strong>Reasonable — if credible.</strong> At ₹350–410 the stock sits at only ~29–35× <em>FY28</em> earnings, defensible for a monopoly beneficiary of an 80 GW cycle.</td></tr>
+      <tr><td class="t-strong">The earnings lens<br>(today's profit)</td><td>~63× trailing earnings (13 Oct 2026; ~98× FY26 earnings); ROE ~6%; a thin-margin cyclical PSU with a chequered history.</td><td><strong>Wildly expensive.</strong> You are paying a growth-stock multiple for a company that has repeatedly failed to earn a decent return.</td></tr>
+      <tr><td class="t-strong">The order-book / forward-earnings lens<br>(tomorrow's profit)</td><td>~7× book-to-bill; EPS forecast to rise from ~₹1.5 (FY25) to ~₹12–13 (FY28) as the backlog executes and margins recover.</td><td><strong>Reasonable — if credible.</strong> At ~₹442 (13 Oct 2026) the stock sits at ~34–37× <em>FY28</em> earnings, defensible for a monopoly beneficiary of an 80 GW cycle.</td></tr>
     </tbody>
   </table>
   </div>
 
   <div class="plain">
     <div class="ptag">In plain terms — what the P/E is really pricing</div>
-    <p>A P/E of 90 doesn't mean investors think BHEL is worth 90 years of <em>today's</em> profit. It means they are betting today's profit is <strong>artificially depressed</strong> and about to multiply. When you build power plants that take years, this year's earnings reflect old, cheap, drought-era orders — while the huge new backlog will show up in profit only in FY27–FY28. So the bulls quietly ignore the trailing P/E and look at <em>forward</em> earnings: if EPS really goes from ~₹1.5 to ~₹12–13 in three years (an ~8× jump), then at today's price the stock is on ~30× <em>future</em> earnings — pricey but not crazy for a company with seven years of work booked and no real competition. The entire bet, therefore, is a bet on that earnings forecast coming true. Believe the ₹12 EPS and it's cheap; fear the earnings land at ₹6–7 instead (because execution disappoints), and a ~90× stock has a very long way to fall.</p>
+    <p>A P/E of 63 doesn't mean investors think BHEL is worth 63 years of <em>today's</em> profit. It means they are betting today's profit is <strong>artificially depressed</strong> and about to multiply. When you build power plants that take years, this year's earnings reflect old, cheap, drought-era orders — while the huge new backlog will show up in profit only in FY27–FY28. So the bulls quietly ignore the trailing P/E and look at <em>forward</em> earnings: if EPS really goes from ~₹1.5 to ~₹12–13 in three years (an ~8× jump), then at today's price (~₹442) the stock is on ~35× <em>future</em> earnings — pricey but not crazy for a company with seven years of work booked and no real competition. The entire bet, therefore, is a bet on that earnings forecast coming true. Believe the ₹12 EPS and it's cheap; fear the earnings land at ₹6–7 instead (because execution disappoints), and the share price has to come down to meet them.</p>
   </div>
 
   <div class="note"><b>The trap in the forward view:</b> forward P/E is only as good as the forecast behind it. BHEL's <em>own</em> history is the reason to be cautious — this is a company that has disappointed execution expectations before. The valuation offers little cushion: it already assumes the recovery works. If it does, the price is justified; if it stumbles, there is no margin of safety in the multiple.</div>
@@ -648,18 +650,18 @@
       <h4>The bull case</h4>
       <ul class="clean">
         <li><strong>Once-a-decade thermal supercycle</strong> — ~80 GW national coal pipeline, and BHEL wins ~90% of large orders with almost no competition.</li>
-        <li><strong>Record, durable order book</strong> — ~₹2.4 lakh Cr, ~7× book-to-bill: years of visible revenue.</li>
+        <li><strong>Record, durable order book</strong> — about ₹2.6 lakh Cr (Jun '26), ~7× book-to-bill: years of visible revenue; Q1 FY27 delivered the first positive first-quarter profit in eight years.</li>
         <li><strong>Operating leverage kicking in</strong> — margins already doubled (3%→7%), a ~14% exit quarter; big earnings upside as fixed costs get spread.</li>
         <li><strong>Diversification optionality</strong> — Vande Bharat, defence, transmission, nuclear and FGD add non-thermal legs.</li>
-        <li><strong>Strategic, state-backed champion</strong> — the natural "Make-in-India" supplier for power, defence and railways; light on debt.</li>
+        <li><strong>Strategic, state-backed champion</strong> — the natural "Make-in-India" supplier for power, defence and railways; borrowings of ₹8,187 Cr are more than covered by cash.</li>
       </ul>
     </div>
     <div class="col bear">
       <h4>The bear case</h4>
       <ul class="clean">
         <li><strong>Execution risk</strong> — multi-year projects slip; a single gas shortage cost ~₹2,500–3,000 Cr of quarterly revenue. The backlog is worthless if it doesn't execute.</li>
-        <li><strong>Wafer-thin margins</strong> — net margin under 2% leaves no room for cost overruns on fixed-price orders.</li>
-        <li><strong>Extreme valuation</strong> — ~90× trailing earnings assumes the recovery works; no margin of safety if it doesn't.</li>
+        <li><strong>Thin margins</strong> — a net margin of about 5% leaves no room for cost overruns on fixed-price orders.</li>
+        <li><strong>Rich valuation</strong> — ~63× trailing earnings (13 Oct 2026) assumes the recovery works; no margin of safety if it doesn't.</li>
         <li><strong>A patchy record</strong> — a lost decade, losses, and a history of disappointing on exactly this "execute the backlog" task.</li>
         <li><strong>Structural &amp; policy risk</strong> — tied to a lumpy policy cycle it can't control; coal's long-term decline; PSU overhangs (govt stake sales, non-commercial pressures); working-capital drag.</li>
       </ul>
@@ -668,7 +670,7 @@
 
   <div class="plain">
     <div class="ptag">The bottom line</div>
-    <p>BHEL is a <strong>high-conviction demand story wrapped around a high-uncertainty execution story</strong>. Almost nobody disputes that India needs the power plants, that BHEL will win the orders, or that the backlog is real — the argument is entirely about whether a historically slow, thin-margin PSU can deliver that work on time and at rising margins, and thereby justify a ~90× multiple. The two numbers to watch every quarter are <strong>execution pace</strong> (is revenue rising as the backlog converts?) and <strong>margin trajectory</strong> (is operating leverage actually showing up?). Get both right and today's rich valuation looks forward-looking and fair; stumble on either, and the gap between BHEL's share price and its earnings closes the painful way. It is, in the truest sense, a bet on a turnaround the company has promised before — and now, finally, has the order book to attempt.</p>
+    <p>BHEL is a <strong>high-conviction demand story wrapped around a high-uncertainty execution story</strong>. Almost nobody disputes that India needs the power plants, that BHEL will win the orders, or that the backlog is real — the argument is entirely about whether a historically slow, thin-margin PSU can deliver that work on time and at rising margins, and thereby justify a ~63× trailing multiple. The two numbers to watch every quarter are <strong>execution pace</strong> (is revenue rising as the backlog converts?) and <strong>margin trajectory</strong> (is operating leverage actually showing up?). Get both right and today's rich valuation looks forward-looking and fair; stumble on either, and the gap between BHEL's share price and its earnings closes the painful way. It is, in the truest sense, a bet on a turnaround the company has promised before — and now, finally, has the order book to attempt.</p>
   </div>
 </section>
 

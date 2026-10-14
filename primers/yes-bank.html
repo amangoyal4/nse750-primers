@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+  main{min-width:0;}
   :root{
     --paper:#F5F5F7;
     --paper-2:#FAFAFC;
@@ -257,23 +258,25 @@
     <span class="tag gold">Built for a non-banker</span>
   </div>
   <h1>Yes Bank, <em>rescued, rebuilt, re-owned</em></h1>
-  <p class="dek">The most dramatic recovery story in Indian banking — a private bank that nearly collapsed in 2020, was placed under a moratorium and rescued by the RBI and SBI, cleaned out its bad loans, painstakingly rebuilt its deposits and its book, and has now been handed a new anchor owner: Japan's Sumitomo Mitsui (SMBC), the largest shareholder. A complete walk through how a bank breaks, how one is put back together, and why a strong global backer could be the catalyst — set honestly against Yes Bank's still-low margins and returns.</p>
+  <p class="dek">The most dramatic recovery story in Indian banking — a private bank that nearly collapsed in 2020, was placed under a moratorium and rescued by the RBI and SBI, cleaned out its bad loans, painstakingly rebuilt its deposits and its book, and has now been handed a new anchor owner: Japan's Sumitomo Mitsui (SMBC), the largest shareholder. A complete walk through how a bank breaks, how one is put back together, and why a strong global backer could be the catalyst — set squarely against Yes Bank's still-low margins and returns.</p>
 <div class="stat-strip">
     <div class="cell"><div class="v">₹3,476 <small>Cr</small></div><div class="l">Net profit (FY26) · +44.5% YoY</div></div>
     <div class="cell"><div class="v">24.2% <small>SMBC</small></div><div class="l">Japan's SMBC — largest shareholder</div></div>
     <div class="cell"><div class="v">0.2% <small>NNPA</small></div><div class="l">Net bad-loan ratio · cleaned up</div></div>
-    <div class="cell"><div class="v">~₹76,500 <small>Cr</small></div><div class="l">Market cap (early Jul 2026)</div></div>
+    <div class="cell"><div class="v">~₹65,500 <small>Cr</small></div><div class="l">Market cap (13 Oct '26)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">3 Jul 2026</b> · source: Q4 &amp; FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: Q4 &amp; FY26 results (year ended Mar 2026) + Q1 FY27 results (Jun 2026) &amp; market data (13 Oct 2026)</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — PAT ₹3,476 Cr (+44.5% YoY), FY26 NIM 2.6%, RoA 0.8% (Q4 hit 1.0%), deposits ₹3.19 lakh Cr (+12%), CASA ratio 35.1%, GNPA/NNPA 1.3%/0.2%. Japan's SMBC now the largest shareholder (20% done, moving to 24.2% via a Carlyle stake buy), with SBI down to ~10%; Vinay Tonse took over as MD &amp; CEO on 6 Apr 2026. Sections built around the SMBC ownership transformation, the 2020-collapse turnaround and the low-NIM/RoA journey.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b>Q1 FY27 (Jun 2026): PAT ₹1,071 Cr (+34%), NIM 2.7% (2.5% a year earlier), cost-to-income 62.8%, RoA 0.9%; net advances ₹2.85 L Cr (+18%), deposits ₹3.15 L Cr (+14%), CASA 32.7% (35.1% in Mar); GNPA 1.3% / NNPA 0.2%, PCR 81.7%; CET1 14.0%; rating upgrades from Moody's, CARE and ICRA and a first S&amp;P rating. Sep 2026 provisional: advances +24% (+18% ex GIFT City FCNR-linked loans), deposits +19.5% (+13% ex FCNR), CASA 30.0%. Market cap ₹65,512 Cr at ₹20.8, ~1.25× book (13 Oct 2026).</div>
 </header>
+<a class="ss-link" href="../subsectors/private-banks.html" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 18px;margin:26px 0 6px;padding:14px 18px;background:var(--card,#fff);border:1px solid var(--line,#E0DACC);border-left:4px solid var(--brand,#124E47);border-radius:6px;text-decoration:none;color:var(--ink,#201B12);"><span><span style='font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint,#928A78);display:block;margin-bottom:3px;'>Part of a sub-sector report · Private Sector Banks</span><span style="font-family:Sora,sans-serif;font-weight:600;font-size:15.5px;">See how Yes Bank compares with all 19 listed private sector banks: KPIs, unit economics and valuations</span></span><span style='font-family:"DM Mono",monospace;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--brand,#124E47);font-weight:500;white-space:nowrap;'>Read the report →</span></a>
+
 
 <!-- 00 -->
 <section class="part" id="p0">
@@ -291,7 +294,7 @@
 
   <div class="plain">
     <div class="ptag">In plain terms</div>
-    <p>Think of Yes Bank as a <strong>bank that crashed, was towed to the workshop, rebuilt part by part, and has just been bought by a careful new owner</strong>. In 2020 it nearly failed — too many bad corporate loans, not enough capital, and panicked depositors pulling money out. India's central bank stepped in, SBI and other banks put in fresh money, and the bank was saved rather than allowed to collapse. Since then, management has spent years doing the unglamorous work: selling off the bad loans, winning depositors back, and shifting to safer, smaller retail loans. Now Japan's SMBC — a giant, conservative global bank — has bought the biggest stake. The bet is that a strong, cheap-funded, well-connected parent can finally turn a <em>survivor</em> into a <em>quality bank</em>. The honest catch: it isn't there yet. It earns a thin margin and a low return, and that gap is the entire story from here.</p>
+    <p>Yes Bank is, in effect, a <strong>bank that crashed, was towed to the workshop, rebuilt part by part, and has just been bought by a careful new owner</strong>. In 2020 it nearly failed — too many bad corporate loans, not enough capital, and panicked depositors pulling money out. India's central bank stepped in, SBI and other banks put in fresh money, and the bank was saved rather than allowed to collapse. Since then, management has spent years doing the unglamorous work: selling off the bad loans, winning depositors back, and shifting to safer, smaller retail loans. Now Japan's SMBC — a giant, conservative global bank — has bought the biggest stake. The bet is that a strong, cheap-funded, well-connected parent can finally turn a <em>survivor</em> into a <em>quality bank</em>. The catch: it isn't there yet. It earns a thin margin and a low return, and that gap is the entire story from here.</p>
   </div>
 </section>
 
@@ -419,7 +422,7 @@
 
   <div class="plain">
     <div class="ptag">The nuance most headlines miss — SMBC is an anchor, not a promoter</div>
-    <p>It is tempting to read "Japanese giant takes over Yes Bank" — but the reality is more precise, and it matters. SMBC has deliberately structured its stake to stay <strong>below 25%</strong> (24.2%, with RBI approval to go up to 24.99%). Crossing 25% would trigger a <strong>mandatory open offer</strong> to buy shares from all investors and would classify SMBC as a <strong>"promoter"</strong> with all the attendant obligations. The RBI has explicitly stated SMBC will <em>not</em> be classified as a promoter. So Yes Bank remains, on paper, a <strong>no-promoter, professionally-run bank</strong> with SMBC as a powerful strategic <em>anchor investor</em> and largest shareholder — not a parent that consolidates it. In practice SMBC's capital, credibility and two board seats give it enormous influence; but "controlling owner" overstates it. An honest thesis leans on the <em>influence and credibility</em>, not on a full takeover that hasn't happened.</p>
+    <p>It is tempting to read "Japanese giant takes over Yes Bank" — but the reality is more precise, and it matters. SMBC has deliberately structured its stake to stay <strong>below 25%</strong> (24.2%, with RBI approval to go up to 24.99%). Crossing 25% would trigger a <strong>mandatory open offer</strong> to buy shares from all investors and would classify SMBC as a <strong>"promoter"</strong> with all the attendant obligations. The RBI has explicitly stated SMBC will <em>not</em> be classified as a promoter. So Yes Bank remains, on paper, a <strong>no-promoter, professionally-run bank</strong> with SMBC as a powerful strategic <em>anchor investor</em> and largest shareholder — not a parent that consolidates it. In practice SMBC's capital, credibility and two board seats give it enormous influence; but "controlling owner" overstates it. A sound thesis leans on the <em>influence and credibility</em>, not on a full takeover that hasn't happened.</p>
   </div>
 
   <div class="note gold"><b>Why this is the section that matters most:</b> for six years Yes Bank was a turnaround with no natural owner — the reason it traded at a discount and struggled to raise its game. The SMBC deal supplies the one thing money can't quickly buy: a credible, deep-pocketed, globally-networked anchor whose mere presence lowers funding costs, removes capital fear, and opens doors. If the turnaround (§05) and the margin recovery (§06) are the <em>work</em>, SMBC is the <em>enabler</em> that could make the work pay off faster. The bull case is essentially: "a decent recovering bank + a great new backer = re-rating." Watch for SMBC-driven changes — funding cost, corporate wins, capital-raising — as the tangible proof the anchor is working.</div>
@@ -428,7 +431,7 @@
 <!-- 05 — BESPOKE: the turnaround & asset-quality clean-up -->
 <section class="part" id="p5">
   <div class="part-head"><span class="pno">05</span><h2>The turnaround: how you actually rebuild a broken bank</h2></div>
-  <p class="part-sub">The unglamorous six-year grind that took Yes Bank from moratorium to profitable — explained honestly.</p>
+  <p class="part-sub">The unglamorous six-year grind that took Yes Bank from moratorium to profitable — explained plainly.</p>
 
   <p class="lead">Saving Yes Bank in March 2020 was the easy part; <strong>rebuilding it</strong> took the six years since. A bank in Yes Bank's state has to do three hard things at once, each of which takes years: <strong>refill its capital, get the bad loans off its books, and win back the depositors who fled</strong>. Doing any one of these is difficult; doing all three, in the middle of COVID, is the real achievement — and understanding <em>how</em> it was done tells you how any broken bank recovers.</p>
 
@@ -465,12 +468,12 @@
     </ul>
   </div>
 
-  <div class="note gold"><b>The honest read on the clean-up:</b> the JC Flowers sale genuinely de-risked the bank — the toxic corporate book is gone, and reported asset quality is now clean. But two caveats keep the analyst honest. First, recoveries on the old pool (security receipts) are still trickling in and are <em>tapering</em> — so some of the recent "profit" is one-off recovery income that won't repeat. Second, as Yes Bank grows fresh retail lending (cards, personal loans), a normal, ongoing level of retail slippages appears (Q4 retail slippages ran ~2.8%) — the price of doing higher-yield business. The clean-up worked; the task now is to earn a proper return on the clean bank <em>without</em> re-importing risk.</div>
+  <div class="note gold"><b>The sober read on the clean-up:</b> the JC Flowers sale genuinely de-risked the bank — the toxic corporate book is gone, and reported asset quality is now clean. But two caveats keep the analysis grounded. First, recoveries on the old pool (security receipts) are still trickling in and are <em>tapering</em> — so some of the recent "profit" is one-off recovery income that won't repeat. Second, as Yes Bank grows fresh retail lending (cards, personal loans), a normal, ongoing level of retail slippages appears (Q4 retail slippages ran ~2.8%) — the price of doing higher-yield business. The clean-up worked; the task now is to earn a proper return on the clean bank <em>without</em> re-importing risk.</div>
 </section>
 
 <!-- 06 — BESPOKE: the low-NIM / low-RoA problem -->
 <section class="part" id="p6">
-  <div class="part-head"><span class="pno">06</span><h2>The honest weakness: low NIM, low RoA — and the road up</h2></div>
+  <div class="part-head"><span class="pno">06</span><h2>The real weakness: low NIM, low RoA — and the road up</h2></div>
   <p class="part-sub">Where Yes Bank still falls short of a quality bank, and exactly how it plans to close the gap.</p>
 
   <p class="lead">Here is the uncomfortable truth a fair primer must state plainly: <strong>Yes Bank, even fully recovered, is not yet a good bank by the numbers that matter most</strong>. Its <strong>NIM of ~2.6%</strong> and <strong>RoA of ~0.8%</strong> are well below the ~3.4–4.4% margins and ~1.5–2.2% RoAs of HDFC and ICICI. Being <em>safe</em> is not the same as being <em>profitable</em> — and Yes Bank has achieved the former without yet achieving the latter. The entire forward-looking case rests on a single question: can it lift these numbers toward peer levels? Management has a clear, credible plan; execution is unproven.</p>
@@ -618,15 +621,15 @@
       <tr><td>RoA / RoE</td><td class="num">~0.8% / ~7%</td><td>Low — the whole thesis is lifting these</td></tr>
       <tr><td>CET1 / total assets</td><td class="num">~13.8% / ₹4.69 L Cr</td><td>Comfortable capital</td></tr>
       <tr><td class="t-strong">EPS (FY26)</td><td class="num t-strong">~₹1.11</td><td>Face value ₹2</td></tr>
-      <tr><td class="t-strong">Market cap</td><td class="num t-strong">~₹76,500 Cr</td><td>Share price ~₹24</td></tr>
-      <tr><td class="t-strong">P/B</td><td class="num t-strong">~1.5×</td><td>Book value ~₹16.3/share; P/E ~22×</td></tr>
+      <tr><td class="t-strong">Market cap</td><td class="num t-strong">~₹65,500 Cr</td><td>Share price ~₹20.8 (13 Oct 2026)</td></tr>
+      <tr><td class="t-strong">P/B</td><td class="num t-strong">~1.25×</td><td>Book value ~₹16.7/share; P/E ~17.5× (13 Oct 2026)</td></tr>
     </tbody>
   </table>
   </div>
 
   <div class="plain">
-    <div class="ptag">Why P/B is the right lens — and why ~1.5× is a debate, not a verdict</div>
-    <p>For a bank, <strong>price-to-book</strong> is the master valuation gauge: a bank's "book value" is its net worth, and the fair multiple on it is driven by the <strong>return it earns on that book (RoE)</strong>. A high-RoE bank like HDFC (RoE mid-teens+) commands ~2.5–3× book; a bank earning a ~7% RoE, by the same logic, "deserves" a <em>lower</em> multiple. So Yes Bank at <strong>~1.5× book with a P/E of ~22×</strong> is <em>not</em> obviously cheap on today's low returns — the high P/E simply reflects thin earnings. The bull case is forward-looking: if the SMBC anchor plus the margin levers lift RoE from ~7% toward low-double-digits, the <em>fair</em> multiple rises and the earnings grow at the same time — a double re-rating. The bear case: on <em>current</em> returns, the stock already prices in a lot of that hope. This is the crux of the valuation debate — you are paying a full multiple for a recovery that must still be delivered.</p>
+    <div class="ptag">Why P/B is the right lens — and why ~1.25× is a debate, not a verdict</div>
+    <p>For a bank, <strong>price-to-book</strong> is the master valuation gauge: a bank's "book value" is its net worth, and the fair multiple on it is driven by the <strong>return it earns on that book (RoE)</strong>. A high-RoE bank like HDFC (RoE mid-teens+) commands ~2.5–3× book; a bank earning a ~7% RoE, by the same logic, "deserves" a <em>lower</em> multiple. So Yes Bank at <strong>~1.25× book with a P/E of ~17.5×</strong> (13 Oct 2026) is <em>not</em> obviously cheap on today's low returns — the high P/E simply reflects thin earnings. The bull case is forward-looking: if the SMBC anchor plus the margin levers lift RoE from ~7% toward low-double-digits, the <em>fair</em> multiple rises and the earnings grow at the same time — a double re-rating. The bear case: on <em>current</em> returns, the stock already prices in a lot of that hope. This is the crux of the valuation debate — you are paying a full multiple for a recovery that must still be delivered.</p>
   </div>
 
   <div class="note"><b>One-offs to flag:</b> part of recent profitability is helped by <strong>recoveries on the old JC-Flowers stressed pool</strong> (~₹1,559 Cr of security-receipt recoveries in FY26, guided to taper to ~₹800–1,000 Cr in FY27) — non-recurring income that flatters the run-rate. Strip it out and the <em>core</em> operating profitability is even more modest, which is why the durable-NIM-improvement story (§06) matters so much: it has to replace fading recovery income with real, repeatable earnings. Yes Bank also pays <em>no dividend</em> — capital is being retained to fund the rebuild.</div>
@@ -635,9 +638,9 @@
 <!-- 11 -->
 <section class="part" id="p11">
   <div class="part-head"><span class="pno">11</span><h2>The future, the risks, and the bull/bear</h2></div>
-  <p class="part-sub">Where this goes — and the honest case on both sides.</p>
+  <p class="part-sub">Where this goes — and the fair case on both sides.</p>
 
-  <p class="lead">Yes Bank in mid-2026 is a genuine paradox: a bank that is <strong>safe but not yet profitable</strong>, <strong>rescued but not yet re-rated</strong>, and <strong>backed by a global giant but still earning like a struggler</strong>. The next few years decide which word wins. The bull owns the <em>direction</em> — a credible new anchor, clean book, rebuilt deposits, clear margin levers. The bear owns the <em>level</em> — the returns are still low, the improvement is slow, and the price already assumes success.</p>
+  <p class="lead">Yes Bank in mid-2026 is a genuine paradox: a bank that is <strong>safe but not yet profitable</strong>, <strong>rescued but not yet re-rated</strong>, and <strong>backed by a global giant but still earning like a struggler</strong>. The next few years decide which word wins. The bull case rests on the <em>direction</em> — a credible new anchor, clean book, rebuilt deposits, clear margin levers. The bear case rests on the <em>level</em> — the returns are still low, the improvement is slow, and the price already assumes success.</p>
 
   <div class="bb">
     <div class="col bull">
@@ -647,14 +650,14 @@
         <li><strong>Clear margin levers.</strong> Draining the ~₹28k Cr RIDF drag, cheaper funding, and a richer retail mix can lift NIM from ~2.6% toward 3.25–3.5% — which mechanically rebuilds RoA and RoE.</li>
         <li><strong>Clean, de-risked balance sheet.</strong> The toxic legacy is gone (JC Flowers), NPAs are low (0.2% net), capital is comfortable (~13.8% CET1). The downside protection is real.</li>
         <li><strong>Rebuilt deposit franchise.</strong> CASA past ₹1 lakh crore (35.1%), retail ~58% of deposits — a stickier, cheaper base than the one that failed.</li>
-        <li><strong>Turnaround optionality.</strong> A recovering bank with a great new owner, at ~1.5× book, offers a genuine re-rating path if returns normalise — a rare combination in Indian banking.</li>
+        <li><strong>Turnaround optionality.</strong> A recovering bank with a great new owner, at ~1.25× book (Oct 2026), offers a genuine re-rating path if returns normalise — a rare combination in Indian banking.</li>
       </ul>
     </div>
     <div class="col bear">
       <h4>The bear case</h4>
       <ul class="clean">
         <li><strong>Returns are still poor.</strong> ~0.8% RoA and ~7% RoE are well below any quality bank; even the improvement plan only targets peer <em>margins</em> over 2–3 years — and execution is unproven.</li>
-        <li><strong>Not cheap for the returns.</strong> ~1.5× book and ~22× earnings already price in a lot of hoped-for improvement; on today's numbers it is arguably expensive, not a bargain.</li>
+        <li><strong>Not cheap for the returns.</strong> ~1.25× book and ~17.5× earnings (Oct 2026) still price in a lot of hoped-for improvement; on today's numbers it is arguably expensive, not a bargain.</li>
         <li><strong>SMBC is an anchor, not a saviour.</strong> Capped below 25% and explicitly <em>not</em> a promoter — the influence is real but a full parent-backed transformation isn't guaranteed; benefits accrue slowly.</li>
         <li><strong>Reach-for-yield risk.</strong> Lifting NIM means growing higher-yield retail (cards, personal loans) — the exact segments that turn ugly in a downturn (retail slippages ~2.8%). The whole thesis depends on <em>not</em> re-importing risk.</li>
         <li><strong>Fading one-offs + deposit war + rate cuts.</strong> Recovery income is tapering, deposits are scarce and costly to gather, and rate cuts squeeze yields — three headwinds against a slow, thin-margin grind.</li>
@@ -668,6 +671,7 @@
   </div>
 </section>
 
+<a class="ss-link" href="../subsectors/private-banks.html" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 18px;margin:26px 0 6px;padding:14px 18px;background:var(--card,#fff);border:1px solid var(--line,#E0DACC);border-left:4px solid var(--brand,#124E47);border-radius:6px;text-decoration:none;color:var(--ink,#201B12);margin:40px 0 0;"><span><span style='font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint,#928A78);display:block;margin-bottom:3px;'>Keep reading · Private Sector Banks sub-sector report</span><span style="font-family:Sora,sans-serif;font-weight:600;font-size:15.5px;">Yes Bank side by side with the other 18 listed private sector banks, and how the whole industry works</span></span><span style='font-family:"DM Mono",monospace;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--brand,#124E47);font-weight:500;white-space:nowrap;'>Read the report →</span></a>
 <footer class="src">
   <div class="eyebrow" style="margin-bottom:14px;">Sources &amp; further reading</div>
   <ol>

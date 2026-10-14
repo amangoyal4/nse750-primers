@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+  main{min-width:0;}
   :root{
     --paper:#F5F4F5;
     --paper-2:#FBFAFB;
@@ -261,23 +262,25 @@
     <span class="tag gold">Built for a non-banker</span>
   </div>
   <h1>IndusInd Bank, <em>a high-flyer grounded by its own books</em></h1>
-  <p class="dek">The most damaging corporate-governance shock in Indian private banking since Yes Bank — but a completely different kind of failure. IndusInd didn't over-lend to reckless borrowers; it mis-accounted its own hedging trades, quietly overstating profits and net worth by ~₹2,000 crore over years until an internal review blew it open in March 2025. The CEO and his deputy resigned, the stock crashed 27% in a day, and depositors got nervous. This is a full, honest walk through what actually went wrong, the distinctive vehicle-finance and microfinance franchise underneath the scandal, and the slow, still-unfinished rebuild — set against a stock that now trades below its own book value.</p>
+  <p class="dek">The most damaging corporate-governance shock in Indian private banking since Yes Bank — but a completely different kind of failure. IndusInd didn't over-lend to reckless borrowers; it mis-accounted its own hedging trades, quietly overstating profits and net worth by ~₹2,000 crore over years until an internal review blew it open in March 2025. The CEO and his deputy resigned, the stock crashed 27% in a day, and depositors got nervous. This is a full, candid walk through what actually went wrong, the distinctive vehicle-finance and microfinance franchise underneath the scandal, and the slow, still-unfinished rebuild — set against a stock that now trades below its own book value.</p>
 <div class="stat-strip">
     <div class="cell"><div class="v">₹889 <small>Cr</small></div><div class="l">Net profit (FY26) · down 65% YoY</div></div>
     <div class="cell"><div class="v">~₹1,960 <small>Cr</small></div><div class="l">Derivatives-accounting hit · the crisis</div></div>
     <div class="cell"><div class="v">3.43% <small>GNPA</small></div><div class="l">Gross bad loans · NNPA 1.0%</div></div>
-    <div class="cell"><div class="v">~₹75,900 <small>Cr</small></div><div class="l">Market cap (early Jul 2026)</div></div>
+    <div class="cell"><div class="v">~₹68,400 <small>Cr</small></div><div class="l">Market cap (13 Oct '26)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">3 Jul 2026</b> · source: Q4 &amp; FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: Q4 &amp; FY26 results (year ended Mar 2026) + Q1 FY27 results (Jun 2026) &amp; market data (13 Oct 2026)</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — consolidated PAT ₹889 Cr (down 65% from ₹2,576 Cr FY25); NII ₹17,982 Cr; Q4FY26 back in the black at ₹594 Cr (vs a ₹2,329 Cr loss in Q4FY25) with NIM 3.39%; deposits ₹3,99,931 Cr (down ~3%); net advances ₹3,15,154 Cr (down ~9%); CASA 31.3%; GNPA/NNPA 3.43%/1.00%, PCR ~71%, CRAR 17.48%. New MD &amp; CEO Rajiv Anand (ex-Axis) since Aug 2025; Arijit Basu part-time chairman from Jan 2026. Sections built around the 2025 derivatives/accounting crisis, the vehicle-finance + microfinance franchise and the deposit-and-governance rebuild.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b>Q1 FY27 (Jun 2026): consolidated PAT ₹1,037 Cr (+72%), NII ₹4,685 Cr, NIM 3.57% (3.46% a year earlier), cost of funds 5.05%; deposits ₹4.15 L Cr (+4%), CASA 29.4%; advances ₹3.26 L Cr (−2% YoY; microfinance/rural −26%, large corporates +16% QoQ); GNPA 3.25% / NNPA 0.95%, PCR 71%; CRAR 17.15%, LCR 127%. Market cap ₹68,366 Cr at ₹877, ~1.04× book (13 Oct 2026).</div>
 </header>
+<a class="ss-link" href="../subsectors/private-banks.html" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 18px;margin:26px 0 6px;padding:14px 18px;background:var(--card,#fff);border:1px solid var(--line,#E0DACC);border-left:4px solid var(--brand,#124E47);border-radius:6px;text-decoration:none;color:var(--ink,#201B12);"><span><span style='font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint,#928A78);display:block;margin-bottom:3px;'>Part of a sub-sector report · Private Sector Banks</span><span style="font-family:Sora,sans-serif;font-weight:600;font-size:15.5px;">See how IndusInd Bank compares with all 19 listed private sector banks: KPIs, unit economics and valuations</span></span><span style='font-family:"DM Mono",monospace;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--brand,#124E47);font-weight:500;white-space:nowrap;'>Read the report →</span></a>
+
 
 <!-- 00 -->
 <section class="part" id="p0">
@@ -295,7 +298,7 @@
 
   <div class="plain">
     <div class="ptag">In plain terms</div>
-    <p>Think of IndusInd as a <strong>strong, fast car that was found to have a rigged odometer</strong>. The engine — its vehicle-finance and microfinance lending business — is genuinely good and high-earning. But for years the dashboard was showing better numbers than the car was really producing: the bank was recording its own internal hedging trades in a way that <em>hid losses and flattered profits</em>. When that was discovered in March 2025, the bank had to knock ~₹2,000 crore off its accounts in one go, admit the readings had been wrong, and watch its boss and his deputy quit. Depositors got jittery and pulled some money; the stock cratered. Since then a new driver (CEO Rajiv Anand from Axis Bank) has taken the wheel, the books have been corrected and re-audited, and the bank is slowly steadying. The bet from here is simple to state and hard to judge: is this a good bank that had an accounting scandal and will recover — or a bank whose culture and controls were so weak that the scandal is a symptom of deeper rot? The honest answer in mid-2026 is: <em>we don't fully know yet</em>, and that uncertainty is exactly why the stock is cheap.</p>
+    <p>IndusInd is, in effect, a <strong>strong, fast car that was found to have a rigged odometer</strong>. The engine — its vehicle-finance and microfinance lending business — is genuinely good and high-earning. But for years the dashboard was showing better numbers than the car was really producing: the bank was recording its own internal hedging trades in a way that <em>hid losses and flattered profits</em>. When that was discovered in March 2025, the bank had to knock ~₹2,000 crore off its accounts in one go, admit the readings had been wrong, and watch its boss and his deputy quit. Depositors got jittery and pulled some money; the stock cratered. Since then a new driver (CEO Rajiv Anand from Axis Bank) has taken the wheel, the books have been corrected and re-audited, and the bank is slowly steadying. The bet from here is simple to state and hard to judge: is this a good bank that had an accounting scandal and will recover — or a bank whose culture and controls were so weak that the scandal is a symptom of deeper rot? The fair answer in mid-2026 is: <em>we don't fully know yet</em>, and that uncertainty is exactly why the stock is cheap.</p>
   </div>
 </section>
 
@@ -552,7 +555,7 @@
     <li><strong>The proof is in the quarters.</strong> The return to profit in Q4FY26 (and a restored dividend) is an encouraging first data point, but analysts are explicit that it takes <strong>several stable, clean quarters</strong> — and probably two-plus years — to fully restore confidence. The leadership reset is necessary; it is not, by itself, sufficient.</li>
   </ul>
 
-  <div class="note gold"><b>The honest read on the reset:</b> changing the CEO, deputy CEO, CFO and chairman is exactly the right response, and Rajiv Anand is a credible choice. But a fresh top team inherits a bank whose <em>culture</em> allowed the problem to fester for years — and culture is slow to change. The bull sees a clean-hands leader with a clear mandate and RBI backing; the bear notes that the same institution, structures and much of the staff remain, and that trust, once broken, is rebuilt slowly and can be broken again. Both are watching the same thing: consistency, quarter after unremarkable quarter.</div>
+  <div class="note gold"><b>The sober read on the reset:</b> changing the CEO, deputy CEO, CFO and chairman is exactly the right response, and Rajiv Anand is a credible choice. But a fresh top team inherits a bank whose <em>culture</em> allowed the problem to fester for years — and culture is slow to change. The bull sees a clean-hands leader with a clear mandate and RBI backing; the bear notes that the same institution, structures and much of the staff remain, and that trust, once broken, is rebuilt slowly and can be broken again. Both are watching the same thing: consistency, quarter after unremarkable quarter.</div>
 </section>
 
 <!-- 09 — BESPOKE-ish: the Hinduja promoter question -->
@@ -609,15 +612,15 @@
       <tr><td>CRAR (capital adequacy)</td><td class="num">~17.48%</td><td>Strong — why no rescue was needed</td></tr>
       <tr><td>RoA / RoE (FY26)</td><td class="num">Depressed</td><td>RoE ~1–2%; pre-crisis ~1.8% RoA — the recovery target</td></tr>
       <tr><td class="t-strong">Book value / share</td><td class="num t-strong">~₹842</td><td>Face value ₹10</td></tr>
-      <tr><td class="t-strong">Share price / Market cap</td><td class="num t-strong">~₹974 / ₹75,900 Cr</td><td>Early Jul 2026</td></tr>
-      <tr><td class="t-strong">P/B</td><td class="num t-strong">~1.15×</td><td>Below-book; P/E optically high on crushed EPS</td></tr>
+      <tr><td class="t-strong">Share price / Market cap</td><td class="num t-strong">~₹877 / ₹68,400 Cr</td><td>13 Oct 2026</td></tr>
+      <tr><td class="t-strong">P/B</td><td class="num t-strong">~1.04×</td><td>Near book (13 Oct 2026); P/E optically high (~55×) on crushed EPS</td></tr>
     </tbody>
   </table>
   </div>
 
   <div class="plain">
     <div class="ptag">Why P/B is the right lens — and why "below book" is a debate, not a verdict</div>
-    <p>For a bank, <strong>price-to-book</strong> is the master gauge: book value is the bank's net worth, and the fair multiple on it is driven by the <strong>return the bank earns on that net worth (RoE)</strong>. A high-RoE bank like HDFC commands ~2.5–3× book; a bank earning almost nothing right now "deserves" much less. IndusInd at <strong>~1.15× book</strong> — actually close to, and at times below, 1× — is the market saying: <em>on today's crushed returns this is roughly worth its net worth, no more.</em> The optically absurd P/E (80×+) is meaningless — it just reflects near-zero current earnings, not expense. So the real question is entirely forward-looking: <strong>if</strong> IndusInd restores its pre-crisis ~1.8% RoA and mid-teens RoE, a bank earning that should trade at ~2× book or more — implying big upside from a below-book starting point. That's the deep-value bull case. The bear case: the returns may <em>not</em> come back (or come back slowly), the accounts may hold more surprises, and paying ~1× book for a bank whose numbers you can't fully trust is not the bargain it looks. This gap — between a proven-recovery valuation and today's price — is the entire debate.</p>
+    <p>For a bank, <strong>price-to-book</strong> is the master gauge: book value is the bank's net worth, and the fair multiple on it is driven by the <strong>return the bank earns on that net worth (RoE)</strong>. A high-RoE bank like HDFC commands ~2.5–3× book; a bank earning almost nothing right now "deserves" much less. IndusInd at <strong>~1.04× book</strong> (13 Oct 2026) — actually close to, and at times below, 1× — is the market saying: <em>on today's crushed returns this is roughly worth its net worth, no more.</em> The optically absurd P/E (80×+) is meaningless — it just reflects near-zero current earnings, not expense. So the real question is entirely forward-looking: <strong>if</strong> IndusInd restores its pre-crisis ~1.8% RoA and mid-teens RoE, a bank earning that should trade at ~2× book or more — implying big upside from a below-book starting point. That's the deep-value bull case. The bear case: the returns may <em>not</em> come back (or come back slowly), the accounts may hold more surprises, and paying ~1× book for a bank whose numbers you can't fully trust is not the bargain it looks. This gap — between a proven-recovery valuation and today's price — is the entire debate.</p>
   </div>
 
   <div class="note"><b>One-offs to flag:</b> FY26 profit is <em>depressed</em> by non-recurring pain — the derivatives correction, elevated microfinance provisions and write-offs, and higher funding costs from crisis-era liquidity buffers and high-cost CDs. Strip those out and the <em>underlying</em> earning power (a high-NIM vehicle-and-MFI franchise) is far better than the reported ₹889 Cr suggests — which is the crux of the recovery thesis. But the mirror-image caution also holds: because the accounts were <em>found</em> to be unreliable, an investor must treat even the restated numbers with more-than-usual scepticism until several clean, audited quarters accumulate. The dividend was cut to a token ₹1.50 as capital is conserved for the rebuild.</div>
@@ -626,16 +629,16 @@
 <!-- 11 -->
 <section class="part" id="p11">
   <div class="part-head"><span class="pno">11</span><h2>The future, the risks, and the bull/bear</h2></div>
-  <p class="part-sub">Where this goes — and the honest case on both sides of an unusually uncertain name.</p>
+  <p class="part-sub">Where this goes — and the fair case on both sides of an unusually uncertain name.</p>
 
-  <p class="lead">IndusInd in mid-2026 is a genuine paradox: a bank with a <strong>strong, differentiated, high-margin franchise</strong> wrapped around a <strong>broken record on the one thing a bank sells — trust</strong>. The engine (vehicle finance, microfinance, high NIM) is real and largely intact; the damage (a self-inflicted accounting scandal, a leadership vacuum since filled, a dented deposit base) is real too. The next two-plus years decide which fact wins. The bull owns the <em>franchise and the below-book price</em>; the bear owns the <em>uncertainty about whether the accounts — and the culture behind them — can be trusted</em>.</p>
+  <p class="lead">IndusInd in mid-2026 is a genuine paradox: a bank with a <strong>strong, differentiated, high-margin franchise</strong> wrapped around a <strong>broken record on the one thing a bank sells — trust</strong>. The engine (vehicle finance, microfinance, high NIM) is real and largely intact; the damage (a self-inflicted accounting scandal, a leadership vacuum since filled, a dented deposit base) is real too. The next two-plus years decide which fact wins. The bull case rests on the <em>franchise and the below-book price</em>; the bear case rests on the <em>uncertainty about whether the accounts — and the culture behind them — can be trusted</em>.</p>
 
   <div class="bb">
     <div class="col bull">
       <h4>The bull case</h4>
       <ul class="clean">
         <li><strong>A genuinely good, high-margin franchise.</strong> Vehicle finance (secured, moated, high-yield) and microfinance give IndusInd one of the best NIM profiles in Indian banking — and that engine kept running through the crisis.</li>
-        <li><strong>Below-book, deep-value entry.</strong> At ~1.15× book (and at times near 1×), you're paying roughly net worth for a bank that, restored, historically earned ~1.8% RoA. If returns normalise, the re-rating is large.</li>
+        <li><strong>Below-book, deep-value entry.</strong> At ~1.04× book (Oct 2026), you're paying roughly net worth for a bank that, restored, historically earned ~1.8% RoA. If returns normalise, the re-rating is large.</li>
         <li><strong>Survivable, not existential.</strong> Strong capital (CRAR ~17.5%), RBI reassurance, and a committed Hinduja promoter meant no rescue was needed — the crisis was an accounting clean-up, not a solvency event.</li>
         <li><strong>Credible reset underway.</strong> New outside CEO (Rajiv Anand, ex-Axis), new chairman, restated and re-audited books, a return to Q4 profit and a restored dividend — the recovery has visibly begun.</li>
         <li><strong>Committed owner leaning in.</strong> The Hindujas are RBI-approved to raise their stake toward 26% and have discussed a $1bn+ injection — an owner adding capital in a crisis is the strongest vote of confidence there is.</li>
@@ -655,10 +658,11 @@
 
   <div class="plain">
     <div class="ptag">The bottom line</div>
-    <p>IndusInd is the purest <strong>governance-shock recovery</strong> stock in Indian banking — and a very different animal from Yes Bank. Yes Bank nearly <em>died</em> of bad loans and had to be rescued; IndusInd was never insolvent — it was caught with its own numbers wrong, and the wound is to <strong>credibility</strong>, not capital. Underneath the scandal sits a genuinely good, high-margin vehicle-and-microfinance franchise, a strong capital position, a committed promoter, and a credible new CEO — and the stock trades at or below its own book value, pricing in a lot of pessimism. That is the deep-value bull case. But be clear-eyed: this is a bank whose accounts were <em>found</em> to be unreliable, whose earnings are still crushed, and whose recovery will take years and must be proven quarter by quarter. Watch three things: <strong>the accounts (are the restated numbers holding up, with no new surprises?), the deposits and NIM (is the funding base rebuilding and the margin recovering?), and asset quality (is the microfinance stress genuinely behind it?)</strong>. Get those right and a beaten-down franchise re-rates hard off a below-book base; get them wrong and it stays a cheap-looking bank you couldn't quite trust. In mid-2026 the honest verdict is that it is <em>too early to be sure</em> — which is precisely why the price is where it is.</p>
+    <p>IndusInd is the purest <strong>governance-shock recovery</strong> stock in Indian banking — and a very different animal from Yes Bank. Yes Bank nearly <em>died</em> of bad loans and had to be rescued; IndusInd was never insolvent — it was caught with its own numbers wrong, and the wound is to <strong>credibility</strong>, not capital. Underneath the scandal sits a genuinely good, high-margin vehicle-and-microfinance franchise, a strong capital position, a committed promoter, and a credible new CEO — and the stock trades at or below its own book value, pricing in a lot of pessimism. That is the deep-value bull case. But be clear-eyed: this is a bank whose accounts were <em>found</em> to be unreliable, whose earnings are still crushed, and whose recovery will take years and must be proven quarter by quarter. Watch three things: <strong>the accounts (are the restated numbers holding up, with no new surprises?), the deposits and NIM (is the funding base rebuilding and the margin recovering?), and asset quality (is the microfinance stress genuinely behind it?)</strong>. Get those right and a beaten-down franchise re-rates hard off a below-book base; get them wrong and it stays a cheap-looking bank you couldn't quite trust. In mid-2026 the fair verdict is that it is <em>too early to be sure</em> — which is precisely why the price is where it is.</p>
   </div>
 </section>
 
+<a class="ss-link" href="../subsectors/private-banks.html" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 18px;margin:26px 0 6px;padding:14px 18px;background:var(--card,#fff);border:1px solid var(--line,#E0DACC);border-left:4px solid var(--brand,#124E47);border-radius:6px;text-decoration:none;color:var(--ink,#201B12);margin:40px 0 0;"><span><span style='font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint,#928A78);display:block;margin-bottom:3px;'>Keep reading · Private Sector Banks sub-sector report</span><span style="font-family:Sora,sans-serif;font-weight:600;font-size:15.5px;">IndusInd Bank side by side with the other 18 listed private sector banks, and how the whole industry works</span></span><span style='font-family:"DM Mono",monospace;font-size:11.5px;letter-spacing:.04em;text-transform:uppercase;color:var(--brand,#124E47);font-weight:500;white-space:nowrap;'>Read the report →</span></a>
 <footer class="src">
   <div class="eyebrow" style="margin-bottom:14px;">Sources &amp; further reading</div>
   <ol>

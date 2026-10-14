@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
+  main{min-width:0;}
   :root{
     --paper:#F5F3F0;
     --paper-2:#FBF9F6;
@@ -252,17 +253,17 @@
     <div class="cell"><div class="v">₹5,381 <small>Cr</small></div><div class="l">Revenue (FY26)</div></div>
     <div class="cell"><div class="v">2.75 <small>MnT</small></div><div class="l">Iron ore mined · 6 MTPA approved</div></div>
     <div class="cell"><div class="v">~23% <small>EBITDA</small></div><div class="l">Operating margin (FY26)</div></div>
-    <div class="cell"><div class="v">~₹16,600 <small>Cr</small></div><div class="l">Market cap (Jul '26)</div></div>
+    <div class="cell"><div class="v">₹13,962 <small>Cr</small></div><div class="l">Market cap (13 Oct '26)</div></div>
   </div>
 
   <div class="refresh-bar">
     <div class="rb-left">
       <span class="rb-status" id="rb-status"><span class="dot"></span> Up to date</span>
-      <span class="rb-when">Last refreshed <b id="rb-when">17 Jul 2026</b> · source: FY26 results (year ended Mar 2026)</span>
+      <span class="rb-when">Last refreshed <b id="rb-when">13 Oct 2026</b> · source: Q1 FY27 results (Jun 2026 quarter); market data as of 13 Oct 2026</span>
     </div>
     <button class="rb-btn" id="rb-refresh" onclick="requestRefresh()"><span class="rbi">⟳</span> Refresh</button>
   </div>
-  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — revenue ₹5,381 Cr, PAT ₹802 Cr, ~23% EBITDA margin; Ari Dongri mine cleared to expand to 6 MTPA (EC 31 Jan '26, consent-to-operate 9 Feb '26); pellet, solar and BESS expansion added.</div>
+  <div class="whatsnew"><b>What's new · last refresh</b>FY26 full-year results incorporated — revenue ₹5,381 Cr, PAT ₹802 Cr, ~23% EBITDA margin; Ari Dongri mine cleared to expand to 6 MTPA (EC 31 Jan '26, consent-to-operate 9 Feb '26); pellet, solar and BESS expansion added. <strong>Q1 FY27 (Jun quarter):</strong> revenue ₹1,750 Cr (+32%), EBITDA ₹334 Cr (19.1% margin, down from 27.3% in Q4), PAT ₹222 Cr; ore mined fell 16% YoY, so more pellet feed was bought at market. The 1 MTPA integrated steel plant and a 250 MW solar project are <strong>in abeyance</strong>; one of three pellet plants was shut in Jul–Aug 2026 (gas force majeure); BESS plan now 20 GWh / ₹1,425 Cr for Q1 FY28. First conversion of the Nov 2025 promoter warrants (₹245) on 8 Oct 2026. Market cap ₹13,962 Cr (near a 52-week low), P/E 17.0×, P/B 2.39× as of 13 Oct 2026.</div>
 </header>
 
 <!-- 00 -->
@@ -276,7 +277,7 @@
   <ul class="clean">
     <li><strong>Captive ore is the whole story.</strong> GPIL mined <strong>2.75 million tonnes of iron ore in FY26</strong> from two captive mines (Ari Dongri and Boria Tibu), holding ~165 million tonnes of reserves and 35+ years of life. Because these are <em>pre-auction</em> leases, it pays only royalty and statutory levies — not a market price, and not the eye-watering auction premiums that later miners bid. That cost gap is why its ~23% EBITDA margin sits well above a typical non-integrated long-steel maker's.</li>
     <li><strong>A pellet business bolted on top.</strong> GPIL is one of India's larger <em>merchant</em> iron-ore pellet makers — it turns its own ore into pellets (2.86 MnT produced in FY26), uses some internally and sells the rest to other steelmakers for cash. Pellets convert cheap captive ore into a saleable product, so the mine earns twice: once through GPIL's own steel, once through the open market.</li>
-    <li><strong>Flat sales today, a doubling in build.</strong> Revenue has sat near <strong>₹5,381 Cr for three straight years</strong> and PAT at ~₹802 Cr (FY26) — this is not a trailing-growth story. The growth is in the ground and on the drawing board: Ari Dongri cleared to expand from 2.35 to <strong>6 MTPA</strong>, pellets heading to 4.7 MnT, solar 165→540 MW, and a battery-storage (BESS) venture — a ~₹2,000 Cr FY27 capex funded largely from its own near-debt-free balance sheet.</li>
+    <li><strong>Flat sales today, a doubling in build.</strong> Revenue has hovered around <strong>₹5,400 Cr for three straight years</strong> (₹5,455 / 5,376 / 5,381 Cr in FY24–FY26) and PAT at ~₹802 Cr (FY26) — this is not a trailing-growth story. The growth is in the ground and on the drawing board: Ari Dongri cleared to expand from 2.35 to <strong>6 MTPA</strong>, pellet capacity now 4.7 MTPA, solar at 190 MW heading to ~290 MW, and a 20 GWh battery-storage (BESS) venture — ₹1,500–2,000 Cr of FY27 capex funded largely from its own near-debt-free balance sheet.</li>
   </ul>
 
   <div class="plain">
@@ -301,7 +302,7 @@
       <tr><td class="t-strong">Pellet</td><td>Iron-ore fines rolled into marble-sized balls and baked hard, so a furnace can use them efficiently. GPIL made <strong>2.86 MnT</strong> — some used internally, most sold.</td></tr>
       <tr><td class="t-strong">Sponge iron (DRI)</td><td>Ore/pellet chemically stripped of oxygen without melting — "direct reduced iron". The feed for the melt shop. GPIL made <strong>~0.65 MnT</strong>.</td></tr>
       <tr><td class="t-strong">Billet</td><td>A solid steel bar cast from melted sponge iron + scrap — the semi-finished block that gets rolled into products. GPIL made <strong>~0.48 MnT</strong>.</td></tr>
-      <tr><td class="t-strong">Wire rod &amp; HB wire</td><td>The finished long products — coiled steel rod and hard-bright drawn wire used in construction, fasteners, fencing, springs. FY26: <strong>~0.23 MnT wire rod, ~0.10 MnT HB wire</strong>.</td></tr>
+      <tr><td class="t-strong">Rounds &amp; HB wire</td><td>The finished long products — coiled steel rod and hard-bright drawn wire used in construction, fasteners, fencing, springs. FY26: <strong>~0.23 MnT of M.S. rounds and ~0.10 MnT of HB wire</strong>, plus ~90 kt of rolled structurals and ~85 kt of galvanised fabrication.</td></tr>
     </tbody>
   </table>
   </div>
@@ -371,7 +372,7 @@
 
   <div class="plain">
     <div class="ptag">The device: it's the tonnes you don't buy</div>
-    <p>Here's the way to hold GPIL's profitability in your head. Its revenue has barely moved in three years — ~₹5,381 Cr in FY24, FY25 and FY26 alike — yet it still earned an <strong>~23% EBITDA margin and a 15% net margin</strong>, where a converter buying its ore might run in the low teens. That gap is not clever selling; the wire rod fetches the same market price for everyone. It is <strong>the value of the ore GPIL never had to buy</strong>. Measure the moat not in tonnes of steel sold, but in tonnes of ore <em>not</em> purchased at market — 2.75 million of them in FY26, each carrying a saving that lands, almost untouched, at the bottom line.</p>
+    <p>Here's the way to hold GPIL's profitability in your head. Its revenue has barely moved in three years — roughly ₹5,400 Cr in each of FY24, FY25 and FY26 — yet it still earned an <strong>~23% EBITDA margin and a 15% net margin</strong>, where a converter buying its ore might run in the low teens. That gap is not clever selling; the wire rod fetches the same market price for everyone. It is <strong>the value of the ore GPIL never had to buy</strong>. Measure the moat not in tonnes of steel sold, but in tonnes of ore <em>not</em> purchased at market — 2.75 million of them in FY26, each carrying a saving that lands, almost untouched, at the bottom line. The caveat: the edge holds only while the mine keeps pace with the pellet plant — in Q1 FY27 GPIL mined 0.54 MT but made 0.90 MT of pellets, so a large share of feed was bought ore, and the margin fell to ~19%.</p>
   </div>
 
   <div class="mini-stats">
@@ -398,7 +399,7 @@
       <div class="bar-row"><div class="blab">Pellets<small>FY25 2.45 → FY26</small></div><div class="track"><span class="fill ember" style="width:100%"></span></div><div class="bval">2.86</div></div>
       <div class="bar-row"><div class="blab">Sponge iron (DRI)<small>FY25 0.59 → FY26</small></div><div class="track"><span class="fill gold" style="width:23%"></span></div><div class="bval">0.65</div></div>
       <div class="bar-row"><div class="blab">Steel billets<small>FY25 0.49 → FY26</small></div><div class="track"><span class="fill slate" style="width:17%"></span></div><div class="bval">0.48</div></div>
-      <div class="bar-row"><div class="blab">Wire rod<small>finished long steel</small></div><div class="track"><span class="fill slate" style="width:8%"></span></div><div class="bval">0.23</div></div>
+      <div class="bar-row"><div class="blab">M.S. rounds<small>finished long steel</small></div><div class="track"><span class="fill slate" style="width:8%"></span></div><div class="bval">0.23</div></div>
     </div>
     <div class="legend"><span>Notice the shape: mining and pellet volumes dwarf finished steel. GPIL processes far more ore and pellet than it rolls into wire — the merchant block is bigger than the downstream mill.</span></div>
   </div>
@@ -425,7 +426,7 @@
     <li><div class="yr">2010s</div><div class="ev">Builds out merchant pellet capacity and the downstream wire-rod / HB-wire line; consolidates group power assets; steadily pays down debt toward a near-debt-free position.</div></li>
     <li><div class="yr">FY25</div><div class="ev"><strong>Boria Tibu</strong> mine restarts (May 2025) after an updated mining plan; solar and BESS plans take shape; record production run begins.</div></li>
     <li class="major"><div class="yr">Jan–Feb 2026</div><div class="ev"><strong>The pivotal approvals:</strong> Ari Dongri gets Environmental Clearance (31 Jan) then Consent to Operate (9 Feb) to expand from 2.35 to <strong>6 MTPA</strong>; lease area widened to 213 Ha; enhanced mining begins immediately.</div></li>
-    <li class="major"><div class="yr">FY26</div><div class="ev">Record output across every division; revenue ₹5,381 Cr, PAT ₹802 Cr; ~₹2,000 Cr FY27 capex programme (pellet, mine, solar, BESS, steel) under way, largely self-funded.</div></li>
+    <li class="major"><div class="yr">FY26</div><div class="ev">Record output across every division; revenue ₹5,381 Cr, PAT ₹802 Cr; ~₹1,500–2,000 Cr FY27 capex programme (pellet, mine, beneficiation, solar, BESS) under way, largely self-funded; the 1 MTPA steel plant is later put in abeyance.</div></li>
   </ul>
 
   <h3>Ownership &amp; balance sheet</h3>
@@ -451,8 +452,8 @@
     <thead><tr><th>Piece</th><th>What it does</th><th>Where it's going</th></tr></thead>
     <tbody>
       <tr><td class="t-strong">Waste-heat + biomass power</td><td>Captures kiln heat and burns biomass to run the plant — the original captive-power base.</td><td>Steady; keeps grid-power purchases and carbon low.</td></tr>
-      <tr><td class="t-strong">Solar</td><td>Captive solar to green the plant's electricity and cut costs; ~165 MW in place.</td><td>Expanding toward <strong>~540 MW</strong> (a large 250 MW project plus an earlier 125 MW) — a major step-up.</td></tr>
-      <tr><td class="t-strong">Battery storage (BESS)</td><td>New venture via subsidiary <strong>Godawari New Energy</strong> — battery-energy-storage manufacturing.</td><td>An initial <strong>10 GWh</strong> plant planned in Maharashtra, ~₹700 Cr initial investment, targeted around FY27 — funding said to be tied up.</td></tr>
+      <tr><td class="t-strong">Solar</td><td>Captive solar to green the plant's electricity and cut costs; <strong>190 MW</strong> installed (25 MW added May 2026).</td><td>A further 100 MW was due in Sep 2026, taking it to <strong>~290 MW</strong>; the larger 250 MW project is in abeyance.</td></tr>
+      <tr><td class="t-strong">Battery storage (BESS)</td><td>New venture via subsidiary <strong>Godawari New Energy</strong> — battery-energy-storage manufacturing.</td><td>A <strong>20 GWh</strong> plant at AURIC, Maharashtra, costing <strong>₹1,425 Cr</strong> (1:1 debt:equity; ₹501 Cr spent by Jun 2026), with cells from EVE Energy; commissioning targeted for <strong>Q1 FY28</strong>.</td></tr>
     </tbody>
   </table>
   </div>
@@ -468,7 +469,7 @@
   <div class="part-head"><span class="pno">07</span><h2>The expansion engine</h2></div>
   <p class="part-sub">A near-doubling of the business, funded from its own cash — with the mine expansion as the keystone.</p>
 
-  <p class="lead">GPIL's trailing numbers are flat because the growth hasn't arrived yet — it's in construction and in freshly-granted clearances. The company is running a multi-pronged expansion, roughly <strong>₹2,000 Cr of capex in FY27</strong>, funded mostly from cash and modest debt, aimed at taking revenue from ~₹5,400 Cr toward a management-flagged <strong>₹6,000 Cr-plus in FY27 and, on its own ambitions, well beyond by FY28</strong>. Everything keys off one thing: getting more ore out of the ground.</p>
+  <p class="lead">GPIL's trailing numbers are flat because the growth hasn't arrived yet — it's in construction and in freshly-granted clearances. The company is running a multi-pronged expansion, roughly <strong>₹2,000 Cr of capex in FY27</strong>, funded mostly from cash and modest debt, aimed at lifting revenue from ~₹5,400 Cr (management's Vision 2030 targets ~₹24,000 Cr, now excluding steel; FY27 guidance is volume-only). The 1 MTPA integrated steel plant and the 250 MW solar project are <strong>in abeyance</strong>, which management says to treat as on hold for the medium term. Everything keys off one thing: getting more ore out of the ground.</p>
 
   <div class="tbl-wrap">
   <table>
@@ -476,10 +477,10 @@
     <thead><tr><th>Project</th><th>From → to</th><th>Why it's the lever</th></tr></thead>
     <tbody>
       <tr><td class="t-strong">Ari Dongri iron-ore mine</td><td>2.35 → <strong>6 MTPA</strong></td><td><strong>The keystone.</strong> Cleared Jan–Feb 2026; more captive ore feeds every downstream unit and a bigger merchant surplus — all at royalty cost.</td></tr>
-      <tr><td class="t-strong">Pellet plant</td><td>2.7 → <strong>4.7 MnT</strong></td><td>Turns the extra ore into more saleable, high-margin merchant pellet — the cash engine scales with the mine.</td></tr>
+      <tr><td class="t-strong">Pellet plant</td><td>2.7 → <strong>4.7 MnT</strong> (commissioned)</td><td>Already running (77% utilisation in Q1 FY27), turning extra ore into saleable merchant pellet; one of three plants was shut in Jul–Aug 2026 on a gas force majeure, so FY27 pellet guidance of 4.0 MT looks at risk.</td></tr>
       <tr><td class="t-strong">Sponge iron / HB wire</td><td>0.59→0.65 MnT · 100→115 kt</td><td>Debottlenecking downstream so more captive units flow to finished steel.</td></tr>
-      <tr><td class="t-strong">Solar</td><td>165 → <strong>540 MW</strong></td><td>Locks in low-cost green power for the enlarged plant; protects margin.</td></tr>
-      <tr><td class="t-strong">BESS (Godawari New Energy)</td><td>0 → <strong>10 GWh</strong></td><td>A brand-new revenue arm in battery storage — optionality, and the least-proven bet.</td></tr>
+      <tr><td class="t-strong">Solar</td><td>190 → <strong>~290 MW</strong></td><td>Locks in low-cost green power for the enlarged plant; protects margin.</td></tr>
+      <tr><td class="t-strong">BESS (Godawari New Energy)</td><td>0 → <strong>20 GWh</strong> (Q1 FY28)</td><td>A brand-new revenue arm in battery storage — optionality, and the least-proven bet.</td></tr>
     </tbody>
   </table>
   </div>
@@ -497,7 +498,7 @@
   <div class="part-head"><span class="pno">08</span><h2>Financials &amp; valuation</h2></div>
   <p class="part-sub">Flat sales, miner-like margins, and a low headline multiple — the tension the whole debate hinges on.</p>
 
-  <p class="lead">GPIL's income statement tells two stories at once. The top line has gone sideways — revenue near <strong>₹5,381 Cr in FY24, FY25 and FY26</strong> — reflecting soft steel realisations and a business waiting on its expansion. But the margin structure stayed strong: <strong>~23% EBITDA</strong> and a <strong>15% net margin</strong>, because captive ore holds the cost line even when steel prices don't cooperate.</p>
+  <p class="lead">GPIL's income statement tells two stories at once. The top line has gone sideways — revenue around <strong>₹5,400 Cr in each of FY24, FY25 and FY26</strong> — reflecting soft steel realisations and a business waiting on its expansion. But the margin structure stayed strong: <strong>~23% EBITDA</strong> and a <strong>15% net margin</strong>, because captive ore holds the cost line even when steel prices don't cooperate.</p>
 
   <div class="chart">
     <div class="c-title">Revenue — flat, by design of the cycle</div>
@@ -506,7 +507,7 @@
       <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill ink" style="width:99%"></span></div><div class="bval">5,445</div></div>
       <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill ink" style="width:98%"></span></div><div class="bval">5,370</div></div>
       <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:98%"></span></div><div class="bval">5,381</div></div>
-      <div class="bar-row"><div class="blab">FY27E<small>mgmt-flagged</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">6,000+</div></div>
+      <div class="bar-row"><div class="blab">Q1 FY27<small>one quarter, +32% YoY</small></div><div class="track"><span class="fill gold" style="width:32%"></span></div><div class="bval">1,750</div></div>
     </div>
   </div>
 
@@ -523,12 +524,12 @@
   <div class="mini-stats">
     <div class="ms gold"><div class="msv">~23%</div><div class="msl">FY26 EBITDA margin — miner-like, well above a non-integrated long-steel maker</div></div>
     <div class="ms green"><div class="msv">₹443 Cr</div><div class="msl">Borrowings vs ₹5,747 Cr reserves — near debt-free</div></div>
-    <div class="ms"><div class="msv">~20–22×</div><div class="msl">Trailing P/E (Jun–Jul '26); P/B ~2.8×; ROCE ~20%</div></div>
+    <div class="ms"><div class="msv">17.0×</div><div class="msl">Trailing P/E (13 Oct '26); P/B 2.39×; ROCE ~20%</div></div>
   </div>
 
   <div class="plain">
     <div class="ptag">The metric that settles the thesis</div>
-    <p>At ~₹16,600 Cr market cap on ~₹802 Cr of profit, GPIL trades around <strong>20× trailing earnings</strong> — not obviously cheap for a cyclical, not demanding either. What decides whether it's cheap or dear is not the steel price and not the multiple; it is <strong>captive iron-ore volume ramping toward 6 MTPA, at royalty cost, feeding a pellet plant scaling to 4.7 MnT</strong>. That is the one chain of numbers to track: ore tonnes mined → pellet tonnes made and sold → the spread those tonnes carry versus market ore. If Ari Dongri's ramp and the pellet expansion commission on schedule, flat revenue converts into a materially bigger, still-high-margin business and the 20× looks like a bargain in hindsight. If the ramp stalls, GPIL is a fairly-priced cyclical earning near mid-cycle profits — and the expansion capex sits idle.</p>
+    <p>At ₹13,962 Cr market cap (13 Oct 2026, ₹207 a share, near a 52-week low and below the ₹245 price of the promoter warrants issued in Nov 2025), GPIL trades around <strong>17× trailing earnings</strong> and ~10.5× EV/EBITDA — not obviously cheap for a cyclical, not demanding either. What decides whether it's cheap or dear is not the steel price and not the multiple; it is <strong>captive iron-ore volume ramping toward 6 MTPA, at royalty cost, feeding a 4.7 MTPA pellet plant</strong>. That is the one chain of numbers to track: ore tonnes mined → pellet tonnes made and sold → the spread those tonnes carry versus market ore. Q1 FY27 was a warning: ore mined fell 16% YoY while pellet output kept rising, so a large share of pellet feed was bought market ore, mining cost ran at ₹3,000–3,500/t and the margin fell to ~19%. Management targets 25–30% bought ore in Q3, under 10% from Q4 and full captive supply only in FY28. If Ari Dongri's ramp delivers, flat revenue converts into a materially bigger, still-high-margin business and today's ~17× looks cheap in hindsight. If the ramp stalls, GPIL is a fairly-priced cyclical earning near mid-cycle profits — and the expansion capex sits idle.</p>
   </div>
 
   <p>A word on cyclicality in the numbers: PAT slipped from ₹936 Cr (FY24) to ₹802 Cr (FY26) not because anything broke, but because steel and pellet realisations eased off their highs. That is the metals cycle doing what it always does — and a reminder that even a captive-ore miner cannot fully escape the price of what it ultimately sells.</p>
@@ -557,7 +558,7 @@
 
   <div class="plain">
     <div class="ptag">The forces that move GPIL's year</div>
-    <p><strong>China.</strong> Chinese steel oversupply spilling into export markets drags global steel and pellet prices; a Chinese stimulus or output cut lifts them. It is the biggest external swing factor for realisations. <strong>Import pressure &amp; safeguards.</strong> Cheap steel imports into India periodically squeeze domestic long-steel spreads; safeguard duties, when imposed, help. <strong>Iron-ore prices.</strong> Unusually for a steelmaker, higher ore prices tend to <em>help</em> GPIL through pellet realisations and a wider captive advantage. <strong>Domestic construction &amp; infra</strong> demand sets the base for long-steel volumes. Read GPIL, and you are reading a bet that its captive-ore edge lets it out-earn the cycle at every point — not a bet that the cycle goes away.</p>
+    <p><strong>China.</strong> Chinese steel oversupply spilling into export markets drags global steel and pellet prices; a Chinese stimulus or output cut lifts them. It is the biggest external swing factor for realisations. <strong>Import pressure &amp; safeguards.</strong> Cheap steel imports into India periodically squeeze domestic long-steel spreads; India's safeguard duty on flat steel (12% from Apr 2025, final from Dec 2025, tapering to 11.5% and 11% until Apr 2028) helps GPIL only indirectly, since it sells mainly pellets and long products. <strong>Iron-ore prices.</strong> Unusually for a steelmaker, higher ore prices tend to <em>help</em> GPIL through pellet realisations and a wider captive advantage. <strong>Domestic construction &amp; infra</strong> demand sets the base for long-steel volumes. Read GPIL, and you are reading a bet that its captive-ore edge lets it out-earn the cycle at every point — not a bet that the cycle goes away.</p>
   </div>
 
   <p>The demand backdrop, for now, is a tailwind. India is the world's second-largest steel producer and, crucially, its fastest-growing large consumer — infrastructure build-out, housing, and a policy push on domestic manufacturing all feed long-steel demand. That structural pull is why so much mid-cap capacity, GPIL's included, is expanding at once. The risk is the mirror image: if a global glut coincides with a domestic demand pause, everyone's new tonnes arrive together into a soft market. GPIL's defence is the same as ever — its cost sits below peers', so in a downturn it is among the last to bleed, and its pellet exit lets it keep the mine running when the mill slows. A low-cost producer does not escape a bad market; it simply survives one that closes higher-cost rivals.</p>
@@ -579,8 +580,8 @@
         <li><strong>Captive-ore moat</strong> — royalty-cost ore (no auction premium) that lifts margins above non-integrated peers at every point in the cycle.</li>
         <li><strong>Mine expansion cleared</strong> — Ari Dongri to 6 MTPA already approved and operating; the growth is de-risked at the licensing stage.</li>
         <li><strong>Merchant pellet cash engine</strong> — sells more pellet than it uses, monetising the mine twice and cushioning weak steel quarters.</li>
-        <li><strong>Self-funded doubling</strong> — near-debt-free, financing ~₹2,000 Cr of FY27 capex mostly from cash; solar + BESS optionality on top.</li>
-        <li><strong>Reasonable multiple</strong> — ~20× trailing on depressed-cycle earnings, before the expansion volumes land.</li>
+        <li><strong>Self-funded doubling</strong> — net cash (~₹700–840 Cr), financing ₹1,500–2,000 Cr of FY27 capex mostly from cash; solar + BESS optionality on top; CRISIL AA- reaffirmed.</li>
+        <li><strong>Reasonable multiple</strong> — ~17× trailing (13 Oct 2026) on depressed-cycle earnings, before the expansion volumes land.</li>
       </ul>
     </div>
     <div class="col bear">
@@ -609,7 +610,8 @@
     <li>GPIL Q4/FY26 earnings-call transcript and Q3 FY26 conference-call highlights (GuruFocus / Investing.com, InvestyWise).</li>
     <li>ScanX / DSIJ — "Godawari Power hits record FY26 output across mining, pellets and steel units" (production volumes).</li>
     <li>ScanX / TipRanks / Bajaj Broking — Ari Dongri expansion to 6 MTPA: Environmental Clearance (31 Jan 2026) and Consent to Operate (9 Feb 2026).</li>
-    <li>Energetica India — "Godawari forays into BESS manufacturing, 10 GWh plant in Maharashtra" (Godawari New Energy).</li>
+    <li>GPIL Q1 FY27 investor presentation and concall — revenue ₹1,750 Cr, EBITDA ₹334 Cr, PAT ₹222 Cr; steel plant and 250 MW solar in abeyance; 4.7 MTPA pellets at 77%; BESS 20 GWh / ₹1,425 Cr / Q1 FY28; solar 190 MW; market-ore share; production table (M.S. rounds 230,850 t). BSE (8 Oct 2026) — warrant conversion. Screener.in (13 Oct 2026) — market cap, P/E, P/B; FY24–FY26 revenue.</li>
+    <li>Energetica India — "Godawari forays into BESS manufacturing, 10 GWh plant in Maharashtra" (Godawari New Energy; the plan was later raised to 20 GWh per the Q1 FY27 presentation).</li>
     <li>ValueEducator / Mangal Keshav fundamental report — captive mines (Ari Dongri, Boria Tibu), reserves ~165 MnT, pre-auction lease structure, pellet/solar/capex plans.</li>
     <li>Screener.in — Godawari Power &amp; Ispat consolidated financials (revenue, PAT, EPS, ROCE, ROE, borrowings, reserves, market cap, P/E, promoter holding).</li>
     <li>Morningstar India / BSE — security identity (BSE: 532734).</li>

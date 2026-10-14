@@ -240,6 +240,23 @@
         "Battery chemicals vs China"
       ],
       "published": "2026-10-13"
+    },
+    {
+      "name": "Private Sector Banks",
+      "slug": "private-banks",
+      "file": "private-banks.html",
+      "sector": "Bank",
+      "subsector": "Private Sector Bank",
+      "companies": 19,
+      "accent": "#0D4F6E",
+      "hook": "The fight for the cheap rupee: how India's 19 listed private banks turn a ₹95 lakh crore deposit base into profit, HDFC Bank's post-merger loan-to-deposit squeeze, margins through the rate cycle, the end of the unsecured-loan cycle and the wave of foreign owners.",
+      "tags": [
+        "HDFC Bank's LDR arithmetic",
+        "Margins through the rate cycle",
+        "The ownership revolution",
+        "Deposit war"
+      ],
+      "published": "2026-10-14"
     }
   ],
   "universe": [
@@ -319,7 +336,7 @@
       "sector": "Bank",
       "sub": "Private Sector Bank",
       "companies": 19,
-      "report": null
+      "report": "private-banks.html"
     },
     {
       "sector": "Bank",
