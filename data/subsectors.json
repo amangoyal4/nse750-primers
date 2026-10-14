@@ -410,6 +410,23 @@
         "What 47× assumes"
       ],
       "published": "2026-10-14"
+    },
+    {
+      "name": "Specialty Chem – Performance & Ingredient Chemicals",
+      "slug": "chem-performance-ingredients",
+      "file": "chem-performance-ingredients.html",
+      "sector": "Chemicals",
+      "subsector": "Specialty Chem – Performance & Ingredient Chemicals",
+      "companies": 5,
+      "accent": "#4A1D5E",
+      "hook": "Small dose, big consequence: how Clean Science, Privi, Sudeep, Sudarshan and Advanced Enzymes sell what a chemical does rather than its tonnes — approval lock-in, inventory as the hidden cost, China's price ceiling, Privi's operating leverage and the Heubach turnaround test.",
+      "tags": [
+        "The Heubach test",
+        "Inventory is the price of specialty",
+        "The new-leg problem",
+        "Privi's operating leverage"
+      ],
+      "published": "2026-10-14"
     }
   ],
   "universe": [
@@ -609,7 +626,7 @@
       "sector": "Chemicals",
       "sub": "Specialty Chem – Performance & Ingredient Chemicals",
       "companies": 5,
-      "report": null
+      "report": "chem-performance-ingredients.html"
     },
     {
       "sector": "Chemicals",
