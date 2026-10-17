@@ -563,6 +563,23 @@
         "Lenskart: a factory with shops"
       ],
       "published": "2026-10-17"
+    },
+    {
+      "name": "Diversified Conglomerates",
+      "slug": "diversified",
+      "file": "diversified.html",
+      "sector": "Diversified",
+      "subsector": "Diversified",
+      "companies": 7,
+      "accent": "#1B2433",
+      "hook": "A premium for incubators, a discount for holders: how to value Adani Enterprises, Grasim, Godrej Industries, DCM Shriram, 3M India, Swan and RattanIndia — sum-of-the-parts and holdco discounts worked in ₹, Adani's incubator premium and legal overhang, governance as a price, and demergers as the unlock.",
+      "tags": [
+        "SOTP and the holdco discount",
+        "Adani's incubator premium",
+        "Governance as a price",
+        "Demergers 2023–26"
+      ],
+      "published": "2026-10-17"
     }
   ],
   "universe": [
@@ -852,7 +869,7 @@
       "sector": "Diversified",
       "sub": "Diversified",
       "companies": 7,
-      "report": null
+      "report": "diversified.html"
     },
     {
       "sector": "Electricals",
