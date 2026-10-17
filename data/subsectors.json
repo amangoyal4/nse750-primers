@@ -512,6 +512,23 @@
         "Compressors: the chokepoint"
       ],
       "published": "2026-10-17"
+    },
+    {
+      "name": "Fertilizers",
+      "slug": "fertilizers",
+      "file": "fertilizers.html",
+      "sector": "Chemicals",
+      "subsector": "Fertilizers",
+      "companies": 9,
+      "accent": "#4F4A1E",
+      "hook": "The state sets the price, then pays late: how Coromandel, Chambal, Paradeep, Deepak, RCF and peers live on subsidy — urea energy norms and NIPU-2026, the West Asia input shock, the coming P&K squeeze, profit without cash as the budget runs dry, and the chemicals windfall.",
+      "tags": [
+        "Urea: frozen price, energy norms",
+        "The West Asia shock",
+        "The P&K squeeze",
+        "Profit without cash"
+      ],
+      "published": "2026-10-17"
     }
   ],
   "universe": [
@@ -675,7 +692,7 @@
       "sector": "Chemicals",
       "sub": "Fertilizers",
       "companies": 9,
-      "report": null
+      "report": "fertilizers.html"
     },
     {
       "sector": "Chemicals",
