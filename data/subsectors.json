@@ -529,6 +529,23 @@
         "Profit without cash"
       ],
       "published": "2026-10-17"
+    },
+    {
+      "name": "Packaged Foods",
+      "slug": "packaged-foods",
+      "file": "packaged-foods.html",
+      "sector": "FMCG",
+      "subsector": "Packaged Foods",
+      "companies": 8,
+      "accent": "#7A2620",
+      "hook": "Big brands up 20%, the market up 1%: how Nestlé, Britannia, Tata Consumer and five peers win share in a flat market — the commodity see-saw, GST 2.0 and the ₹10 pack, quick commerce rewiring distribution, Nestlé's royalty, and the de-rating measured against Haldiram's.",
+      "tags": [
+        "Big brands vs the market",
+        "The commodity see-saw",
+        "GST 2.0 and the ₹10 pack",
+        "The de-rating"
+      ],
+      "published": "2026-10-17"
     }
   ],
   "universe": [
@@ -896,7 +913,7 @@
       "sector": "FMCG",
       "sub": "Packaged Foods",
       "companies": 8,
-      "report": null
+      "report": "packaged-foods.html"
     },
     {
       "sector": "FMCG",
