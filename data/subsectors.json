@@ -478,6 +478,23 @@
         "Cash is the verdict"
       ],
       "published": "2026-10-17"
+    },
+    {
+      "name": "Gems, Jewellery & Watches",
+      "slug": "jewellery",
+      "file": "jewellery.html",
+      "sector": "Diamond & Jewellery",
+      "subsector": "Gems, Jewellery And Watches",
+      "companies": 9,
+      "accent": "#5E1A2B",
+      "hook": "Dearer gold, fewer grams, bigger chains: how Titan, Kalyan, Senco and six peers grow while tonnage falls — the May-2026 duty jump to 15%, formalisation's land-grab, old-gold exchange, gold metal loans and hedging, the diamond price collapse, and how to strip one-offs from margins.",
+      "tags": [
+        "The 2026 duty shock",
+        "Formalisation's land-grab",
+        "Who funds the gold",
+        "Diamonds' price collapse"
+      ],
+      "published": "2026-10-17"
     }
   ],
   "universe": [
@@ -761,7 +778,7 @@
       "sector": "Diamond & Jewellery",
       "sub": "Gems, Jewellery And Watches",
       "companies": 9,
-      "report": null
+      "report": "jewellery.html"
     },
     {
       "sector": "Diversified",
