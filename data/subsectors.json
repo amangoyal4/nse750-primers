@@ -546,6 +546,23 @@
         "The de-rating"
       ],
       "published": "2026-10-17"
+    },
+    {
+      "name": "Speciality Retail",
+      "slug": "speciality-retail",
+      "file": "speciality-retail.html",
+      "sector": "Retailing",
+      "subsector": "Speciality Retail",
+      "companies": 8,
+      "accent": "#22386B",
+      "hook": "The store machine meets its first test: how Trent, Lenskart, the Aditya Birla pair, Manyavar and two electronics chains turn square feet into profit — Zudio's slowing roll-out, the rent illusion in reported EBITDA, GST's ₹2,500 cliff, ABFRL's cash runway, and why P/Es run from 33× to 171×.",
+      "tags": [
+        "Zudio at 1,000",
+        "The rent illusion",
+        "One group, two fates",
+        "Lenskart: a factory with shops"
+      ],
+      "published": "2026-10-17"
     }
   ],
   "universe": [
@@ -1333,7 +1350,7 @@
       "sector": "Retailing",
       "sub": "Speciality Retail",
       "companies": 8,
-      "report": null
+      "report": "speciality-retail.html"
     },
     {
       "sector": "Retailing",
