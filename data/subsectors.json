@@ -495,6 +495,23 @@
         "Diamonds' price collapse"
       ],
       "published": "2026-10-17"
+    },
+    {
+      "name": "Household Appliances",
+      "slug": "household-appliances",
+      "file": "household-appliances.html",
+      "sector": "Consumer Durables",
+      "subsector": "Household Appliances",
+      "companies": 9,
+      "accent": "#2B2F6B",
+      "hook": "Hot summers, thin margins, foreign parents: how LG, Voltas, Blue Star, Crompton, Whirlpool and peers ride the AC weather cycle, why a hot 2026 still left margins capped, how MNC parents are cashing in on India, and why compressors became the chokepoint.",
+      "tags": [
+        "The weather trade",
+        "A hot year, capped margins",
+        "Foreign parents cash in",
+        "Compressors: the chokepoint"
+      ],
+      "published": "2026-10-17"
     }
   ],
   "universe": [
@@ -748,7 +765,7 @@
       "sector": "Consumer Durables",
       "sub": "Household Appliances",
       "companies": 9,
-      "report": null
+      "report": "household-appliances.html"
     },
     {
       "sector": "Consumer Durables",
