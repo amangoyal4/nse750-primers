@@ -444,6 +444,23 @@
         "Same profit, half the price"
       ],
       "published": "2026-10-17"
+    },
+    {
+      "name": "Housing Finance Companies",
+      "slug": "housing-finance",
+      "file": "housing-finance.html",
+      "sector": "Finance",
+      "subsector": "Housing Finance Company",
+      "companies": 10,
+      "accent": "#6E4A2F",
+      "hook": "One licence, three businesses, banks set the price: how prime and affordable HFCs reach the same ROE by opposite routes, why the 2025 rate cuts squeezed prime margins and the October hike reverses it, cracks in small-ticket loans, PE churn, and HUDCO as a fourth archetype.",
+      "tags": [
+        "Same ROE, opposite routes",
+        "The repo squeeze",
+        "Cracks in the small ticket",
+        "PE in, PE out"
+      ],
+      "published": "2026-10-17"
     }
   ],
   "universe": [
@@ -757,7 +774,7 @@
       "sector": "Finance",
       "sub": "Housing Finance Company",
       "companies": 10,
-      "report": null
+      "report": "housing-finance.html"
     },
     {
       "sector": "Finance",
