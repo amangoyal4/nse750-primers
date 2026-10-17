@@ -461,6 +461,23 @@
         "PE in, PE out"
       ],
       "published": "2026-10-17"
+    },
+    {
+      "name": "Compressors, Pumps & Diesel Engines",
+      "slug": "pumps-engines",
+      "file": "pumps-engines.html",
+      "sector": "Capital Goods",
+      "subsector": "Compressors, Pumps & Diesel Engines",
+      "companies": 9,
+      "accent": "#24484A",
+      "hook": "One label, three machines, two cycles: how Cummins, Kirloskar, Elgi, KSB, Shakti and peers earn from installed bases vs tenders — data-centre gensets and CPCB IV+, PM-KUSUM's end-game and the solar-pump bust, the Q1 FY27 margin squeeze, and MNC royalty creep.",
+      "tags": [
+        "Data-centre gensets",
+        "PM-KUSUM's end-game",
+        "The Q1 margin squeeze",
+        "Cash is the verdict"
+      ],
+      "published": "2026-10-17"
     }
   ],
   "universe": [
@@ -600,7 +617,7 @@
       "sector": "Capital Goods",
       "sub": "Compressors, Pumps & Diesel Engines",
       "companies": 9,
-      "report": null
+      "report": "pumps-engines.html"
     },
     {
       "sector": "Capital Goods",
