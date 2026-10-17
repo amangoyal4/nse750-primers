@@ -427,6 +427,23 @@
         "Privi's operating leverage"
       ],
       "published": "2026-10-14"
+    },
+    {
+      "name": "Public Sector Banks",
+      "slug": "psu-banks",
+      "file": "psu-banks.html",
+      "sector": "Bank",
+      "subsector": "Public Sector Bank",
+      "companies": 11,
+      "accent": "#41293F",
+      "hook": "Same profit as private banks, half the price: how India's 11 listed PSBs went from the NPA crisis to ₹1.97 lakh Cr of profit, why MCLR books reprice slowly, the government as owner (stake sales, IDBI), SBI's sum of the parts, and how clean the profit really is.",
+      "tags": [
+        "The great repair",
+        "MCLR vs EBLR margin trough",
+        "The state as shareholder",
+        "Same profit, half the price"
+      ],
+      "published": "2026-10-17"
     }
   ],
   "universe": [
@@ -512,7 +529,7 @@
       "sector": "Bank",
       "sub": "Public Sector Bank",
       "companies": 11,
-      "report": null
+      "report": "psu-banks.html"
     },
     {
       "sector": "Bank",
