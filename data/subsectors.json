@@ -580,6 +580,23 @@
         "Demergers 2023–26"
       ],
       "published": "2026-10-17"
+    },
+    {
+      "name": "Iron & Steel Products",
+      "slug": "steel-products",
+      "file": "steel-products.html",
+      "sector": "Iron & Steel",
+      "subsector": "Iron & Steel Products",
+      "companies": 8,
+      "accent": "#3A3A42",
+      "hook": "The price moves, the spread stays: how APL Apollo, Welspun, Jindal SAW, Ratnamani, Usha Martin and peers earn a conversion margin on steel they buy — inventory gains and losses, APL's branded-tube franchise, the water-pipe air-pocket, Welspun inside the US tariff wall and the Hormuz shock.",
+      "tags": [
+        "The spread and the inventory",
+        "APL Apollo's franchise",
+        "The water-pipe air-pocket",
+        "Inside the US wall"
+      ],
+      "published": "2026-10-17"
     }
   ],
   "universe": [
@@ -1169,7 +1186,7 @@
       "sector": "Iron & Steel",
       "sub": "Iron & Steel Products",
       "companies": 8,
-      "report": null
+      "report": "steel-products.html"
     },
     {
       "sector": "IT",
