@@ -716,6 +716,23 @@
         "Escaping private label"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Refineries & Marketing",
+      "slug": "refining",
+      "file": "refining.html",
+      "sector": "Crude Oil",
+      "subsector": "Refineries & Marketing",
+      "companies": 6,
+      "accent": "#9C3A10",
+      "hook": "The world sets the margin, Delhi the price: how Reliance, IOC, BPCL, HPCL, MRPL and Chennai Petroleum earn — the 2026 war split that sank the state marketers while refiners profited, the five pricing levers, Russian crude and Hormuz, the capacity wave, and why the PSUs trade at under 5× earnings.",
+      "tags": [
+        "The 2026 war split",
+        "The pricing state",
+        "Russia, sanctions, Hormuz",
+        "The capacity wave"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -987,7 +1004,7 @@
       "sector": "Crude Oil",
       "sub": "Refineries & Marketing",
       "companies": 6,
-      "report": null
+      "report": "refining.html"
     },
     {
       "sector": "Crude Oil",
