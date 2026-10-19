@@ -648,6 +648,23 @@
         "The listing and deal wave"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Personal Care",
+      "slug": "personal-care",
+      "file": "personal-care.html",
+      "sector": "FMCG",
+      "subsector": "Personal Care",
+      "companies": 7,
+      "accent": "#8E3B5E",
+      "hook": "The market shrank, the brands grew: how Marico, Godrej Consumer, Dabur, Colgate, Gillette, Emami and Honasa took share in falling volumes — the copra and West Asia cost cycles, GST 2.0 passed on as MRP cuts, digital-first brands meeting the kirana, and why the MNCs now trade at a discount.",
+      "tags": [
+        "The market shrank, brands grew",
+        "The price of a dried coconut",
+        "GST 2.0 reached the shelf",
+        "Digital-first meets the kirana"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1021,7 +1038,7 @@
       "sector": "FMCG",
       "sub": "Personal Care",
       "companies": 7,
-      "report": null
+      "report": "personal-care.html"
     },
     {
       "sector": "FMCG",
