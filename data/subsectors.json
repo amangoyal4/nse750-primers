@@ -920,6 +920,23 @@
         "The great de-rating"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Pesticides & Agrochemicals",
+      "slug": "agrochem",
+      "file": "agrochem.html",
+      "sector": "Chemicals",
+      "subsector": "Pesticides & Agrochemicals",
+      "companies": 6,
+      "accent": "#41750F",
+      "hook": "Two industries, one label, one crash: how six listed agrochem makers turn molecules into branded packs, generic exports and custom synthesis, why the FY24 profit collapse was almost all UPL, China's price floor, a weak 2026 monsoon, PI's patent down-cycle and working capital as the quality test.",
+      "tags": [
+        "Destock over, deflation not",
+        "Patents, generics & CSM",
+        "Working capital as quality",
+        "Seeds & biologicals"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1101,7 +1118,7 @@
       "sector": "Chemicals",
       "sub": "Pesticides & Agrochemicals",
       "companies": 6,
-      "report": null
+      "report": "agrochem.html"
     },
     {
       "sector": "Chemicals",
