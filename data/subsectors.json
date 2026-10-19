@@ -631,6 +631,23 @@
         "From lender to fee house"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Hotels & Resorts",
+      "slug": "hotels",
+      "file": "hotels.html",
+      "sector": "Hospitality",
+      "subsector": "Hotels & Resorts",
+      "companies": 7,
+      "accent": "#6B561A",
+      "hook": "Scarce rooms, rich multiples, a widening split: how IHCL, ITC Hotels, EIH, Chalet, Leela, Lemon Tree and SAMHI turn room-nights into profit — the supply gap and its half-life, owner vs operator economics, palaces up and midscale squeezed by the ₹7,500 GST cliff, and the listing and deal wave.",
+      "tags": [
+        "The supply gap's half-life",
+        "Owner or operator",
+        "The ₹7,500 cliff",
+        "The listing and deal wave"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1154,7 +1171,7 @@
       "sector": "Hospitality",
       "sub": "Hotels & Resorts",
       "companies": 7,
-      "report": null
+      "report": "hotels.html"
     },
     {
       "sector": "Hospitality",
