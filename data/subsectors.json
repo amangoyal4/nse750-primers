@@ -784,6 +784,23 @@
         "Pidilite's moat"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Asset Management Companies",
+      "slug": "amc",
+      "file": "amc.html",
+      "sector": "Finance",
+      "subsector": "Asset Management Company",
+      "companies": 6,
+      "accent": "#4A5D73",
+      "hook": "Record flows, falling prices, a fee fight: how HDFC, ICICI Pru, Nippon, ABSL, UTI and Canara Robeco AMCs earn a toll on India's savings — who paid for SEBI's fee reset, the equity-share race, AUM that pays vs AUM that doesn't, and what the SBI Funds listing did to valuations.",
+      "tags": [
+        "Who paid for SEBI's fee reset?",
+        "The equity-share race",
+        "AUM that pays",
+        "Pricing the toll"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1109,7 +1126,7 @@
       "sector": "Finance",
       "sub": "Asset Management Company",
       "companies": 6,
-      "report": null
+      "report": "amc.html"
     },
     {
       "sector": "Finance",
