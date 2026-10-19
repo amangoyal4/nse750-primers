@@ -750,6 +750,23 @@
         "The bank counter"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Two & Three Wheelers",
+      "slug": "two-wheelers",
+      "file": "two-wheelers.html",
+      "sector": "Automobile & Ancillaries",
+      "subsector": "2/3 Wheelers",
+      "companies": 6,
+      "accent": "#A3122A",
+      "hook": "One record year, two diverging markets: how Bajaj, Eicher, TVS, Hero, Ather and Ola fare as GST cuts and the fuel shock split scooters from motorcycles — the EV shake-out the incumbents won, premiumisation and the 350cc cliff, exports as a second engine, and valuations from 12× to 56×.",
+      "tags": [
+        "GST cut, fuel shock",
+        "The EV shake-out",
+        "The 350cc cliff",
+        "Exports and 3-wheelers"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -775,7 +792,7 @@
       "sector": "Automobile & Ancillaries",
       "sub": "2/3 Wheelers",
       "companies": 6,
-      "report": null
+      "report": "two-wheelers.html"
     },
     {
       "sector": "Automobile & Ancillaries",
