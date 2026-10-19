@@ -903,6 +903,23 @@
         "Dixon's hidden CP PLUS gain"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Engineering R&D Services",
+      "slug": "erd-services",
+      "file": "erd-services.html",
+      "sector": "IT",
+      "subsector": "Engineering R&D (ER&D) Services",
+      "companies": 6,
+      "accent": "#007585",
+      "hook": "Engineering hours in an auto air-pocket: how six listed ER&D firms sell engineers to carmakers, planemakers and chip designers, why profits fell 15% as European auto and JLR stalled, who keeps the GenAI gains, GCCs as rival and customer, and the great de-rating.",
+      "tags": [
+        "The auto air-pocket",
+        "Who keeps the AI gains",
+        "Portfolio surgery",
+        "The great de-rating"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1510,7 +1527,7 @@
       "sector": "IT",
       "sub": "Engineering R&D (ER&D) Services",
       "companies": 6,
-      "report": null
+      "report": "erd-services.html"
     },
     {
       "sector": "IT",
