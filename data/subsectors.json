@@ -682,6 +682,23 @@
         "The 2026 de-rating"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Industrial Plastic Products",
+      "slug": "plastics",
+      "file": "plastics.html",
+      "sector": "Plastic Products",
+      "subsector": "Plastic Products - Industrial",
+      "companies": 7,
+      "accent": "#1F6F8B",
+      "hook": "One resin, five very different businesses: how Supreme, Astral, Finolex, Garware, Shaily, Time Technoplast and EPL earn — the April PVC whipsaw, policy moving from duty to a price floor, Finolex's resin integration, Shaily's GLP-1 pens, Garware's film boom and the deal wave.",
+      "tags": [
+        "The PVC whipsaw",
+        "From duty to price floor",
+        "Shaily's GLP-1 pens",
+        "The deal wave"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1421,7 +1438,7 @@
       "sector": "Plastic Products",
       "sub": "Plastic Products - Industrial",
       "companies": 7,
-      "report": null
+      "report": "plastics.html"
     },
     {
       "sector": "Power",
