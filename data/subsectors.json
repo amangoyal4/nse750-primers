@@ -852,6 +852,23 @@
         "Three kinds of profit"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Breweries & Distilleries",
+      "slug": "alcohol",
+      "file": "alcohol.html",
+      "sector": "Alcohol",
+      "subsector": "Breweries & Distilleries",
+      "companies": 6,
+      "accent": "#861D3E",
+      "hook": "The state takes more than the brand: how six listed drinks makers earn after excise that exceeds their own revenue, Maharashtra's and Karnataka's tax resets, premiumisation and Indian single malts, Scotch after the UK FTA, the grain-to-glass squeeze and the RCB sale.",
+      "tags": [
+        "The state owns the price",
+        "Indian single malts vs Scotch",
+        "Grain-to-glass squeeze",
+        "Beer's regulatory ceiling"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -865,7 +882,7 @@
       "sector": "Alcohol",
       "sub": "Breweries & Distilleries",
       "companies": 6,
-      "report": null
+      "report": "alcohol.html"
     },
     {
       "sector": "Automobile & Ancillaries",
