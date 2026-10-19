@@ -835,6 +835,23 @@
         "Exits from F&O"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Investment & Holding Companies",
+      "slug": "investment-cos",
+      "file": "investment-cos.html",
+      "sector": "Finance",
+      "subsector": "Investment Company",
+      "companies": 6,
+      "accent": "#236B34",
+      "hook": "The discount is the asset class: how six listed holdcos turn stakes in Bajaj, Tata, Lloyds and TVS-family companies into NAV, why Bajaj Holdings trades 46% below what it owns, Tata Investment's lost premium, and the regulator-led catalysts that close discounts.",
+      "tags": [
+        "Anatomy of the holdco discount",
+        "The Bajaj Russian doll",
+        "Tata Sons & Tata Capital",
+        "Three kinds of profit"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1166,7 +1183,7 @@
       "sector": "Finance",
       "sub": "Investment Company",
       "companies": 6,
-      "report": null
+      "report": "investment-cos.html"
     },
     {
       "sector": "Finance",
