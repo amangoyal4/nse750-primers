@@ -733,6 +733,23 @@
         "The capacity wave"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Life Insurance",
+      "slug": "life-insurance",
+      "file": "life-insurance.html",
+      "sector": "Insurance",
+      "subsector": "Life Insurance",
+      "companies": 6,
+      "accent": "#433F7A",
+      "hook": "Who keeps the margin, insurer or bank? How LIC, SBI Life, HDFC Life, ICICI Pru, Axis Max and Canara HSBC create value — APE, VNB and embedded value explained, IRDAI's proposed commission and expense caps, the 2023–26 rule and tax reset, and LIC's valuation paradox at 0.63× EV.",
+      "tags": [
+        "Who pays the distributor?",
+        "The 2023–26 reset",
+        "LIC's valuation paradox",
+        "The bank counter"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1310,7 +1327,7 @@
       "sector": "Insurance",
       "sub": "Life Insurance",
       "companies": 6,
-      "report": null
+      "report": "life-insurance.html"
     },
     {
       "sector": "Iron & Steel",
