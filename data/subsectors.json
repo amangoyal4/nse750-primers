@@ -597,6 +597,23 @@
         "Inside the US wall"
       ],
       "published": "2026-10-17"
+    },
+    {
+      "name": "E-Retail & E-Commerce",
+      "slug": "eretail",
+      "file": "eretail.html",
+      "sector": "Retailing",
+      "subsector": "E-Retail/ E-Commerce",
+      "companies": 7,
+      "accent": "#3A1530",
+      "hook": "The race to own the ten-minute basket: how Eternal, Swiggy, Meesho, Nykaa, FirstCry, Urban Company and Vaibhav Global make (or lose) money per order — the quick-commerce land-grab, food delivery as the profit pool, who may own inventory, Meesho's ₹265 basket, and EV per rupee of order value.",
+      "tags": [
+        "Ten minutes to profit",
+        "Food delivery's profit pool",
+        "Who may own the stock",
+        "The ₹265 basket"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1390,7 +1407,7 @@
       "sector": "Retailing",
       "sub": "E-Retail/ E-Commerce",
       "companies": 7,
-      "report": null
+      "report": "eretail.html"
     },
     {
       "sector": "Retailing",
