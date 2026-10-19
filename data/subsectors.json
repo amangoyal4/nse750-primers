@@ -801,6 +801,23 @@
         "Pricing the toll"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Cables & Wires",
+      "slug": "cables",
+      "file": "cables.html",
+      "sector": "Electricals",
+      "subsector": "Cables - Electricals",
+      "companies": 6,
+      "accent": "#A65A2E",
+      "hook": "Selling copper by the metre, at a premium: how six listed makers turn record copper into 26% revenue growth on single-digit volumes, why UltraTech's and Adani's entry cost multiples rather than earnings, the climb up the voltage ladder and FMEG's long-awaited turn.",
+      "tags": [
+        "Copper 2026 pass-through",
+        "The entrants arrive",
+        "Up the voltage ladder",
+        "FMEG finally pays"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1096,7 +1113,7 @@
       "sector": "Electricals",
       "sub": "Cables - Electricals",
       "companies": 6,
-      "report": null
+      "report": "cables.html"
     },
     {
       "sector": "Ferro Alloys",
