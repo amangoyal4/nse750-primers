@@ -767,6 +767,23 @@
         "Exports and 3-wheelers"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Paints & Adhesives",
+      "slug": "paints",
+      "file": "paints.html",
+      "sector": "Chemicals",
+      "subsector": "Paints & Adhesives",
+      "companies": 6,
+      "accent": "#8A5A12",
+      "hook": "The moat that money tried to buy: how Asian Paints, Pidilite, Berger, JSW Dulux, Kansai Nerolac and Indigo fare as Birla Opus turns an oligopoly into a trade-spend war — the volume–value gap that flipped on costs, the capacity glut, Asian Paints' counter-attack and Pidilite's untouched moat.",
+      "tags": [
+        "The Opus attack",
+        "Volume against value",
+        "The capacity glut",
+        "Pidilite's moat"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -942,7 +959,7 @@
       "sector": "Chemicals",
       "sub": "Paints & Adhesives",
       "companies": 6,
-      "report": null
+      "report": "paints.html"
     },
     {
       "sector": "Chemicals",
