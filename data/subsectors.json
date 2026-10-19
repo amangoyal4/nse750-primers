@@ -665,6 +665,23 @@
         "Digital-first meets the kirana"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Software Products",
+      "slug": "software-products",
+      "file": "software-products.html",
+      "sector": "IT",
+      "subsector": "Software Products",
+      "companies": 7,
+      "accent": "#2440A8",
+      "hook": "One cash machine, six strivers: how OFSS, Intellect, Newgen, MapmyIndia, RateGain, Aurionpro and Capillary earn from IP — the vanished product premium outside OFSS, lumpy licences, the licence-to-SaaS transition, growth bought abroad, cash-quality flags and the 2026 de-rating.",
+      "tags": [
+        "OFSS: 70% of the value",
+        "Licence to subscription",
+        "Buying growth abroad",
+        "The 2026 de-rating"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1266,7 +1283,7 @@
       "sector": "IT",
       "sub": "Software Products",
       "companies": 7,
-      "report": null
+      "report": "software-products.html"
     },
     {
       "sector": "IT",
