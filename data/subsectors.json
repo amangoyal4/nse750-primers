@@ -869,6 +869,40 @@
         "Beer's regulatory ceiling"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "General Insurance",
+      "slug": "general-insurance",
+      "file": "general-insurance.html",
+      "sector": "Insurance",
+      "subsector": "General Insurance",
+      "companies": 6,
+      "accent": "#12508F",
+      "hook": "Losing on risk, earning on the float: how six listed general insurers turn a ₹3.36 lakh Cr premium pool and a 113% combined ratio into profit, health's rise after the GST cut, motor's frozen tariffs, the PSU float problem and IRDAI's commission reset.",
+      "tags": [
+        "Living on the float",
+        "Health after the GST cut",
+        "Motor: frozen TP, OD war",
+        "The PSU problem & GIC Re"
+      ],
+      "published": "2026-10-19"
+    },
+    {
+      "name": "Consumer Electronics & EMS",
+      "slug": "consumer-electronics",
+      "file": "consumer-electronics.html",
+      "sector": "Consumer Durables",
+      "subsector": "Consumer Electronics",
+      "companies": 6,
+      "accent": "#A3207A",
+      "hook": "India's policy-built factory, plus two brands: how four contract manufacturers and two branded players turn PLI, MPMS and ECMS into revenue, the climb out of 3% margins, 2026's memory-chip shock, Chinese JVs under Press Note 3 and Dixon's hidden CP PLUS gain.",
+      "tags": [
+        "Policy as profit",
+        "Climbing out of 3%",
+        "The memory-chip shock",
+        "Dixon's hidden CP PLUS gain"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1128,7 +1162,7 @@
       "sector": "Consumer Durables",
       "sub": "Consumer Electronics",
       "companies": 6,
-      "report": null
+      "report": "consumer-electronics.html"
     },
     {
       "sector": "Consumer Durables",
@@ -1440,7 +1474,7 @@
       "sector": "Insurance",
       "sub": "General Insurance",
       "companies": 6,
-      "report": null
+      "report": "general-insurance.html"
     },
     {
       "sector": "Insurance",
