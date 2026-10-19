@@ -818,6 +818,23 @@
         "FMEG finally pays"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Stockbroking & Capital-Market Intermediaries",
+      "slug": "stockbroking",
+      "file": "stockbroking.html",
+      "sector": "Finance",
+      "subsector": "Stockbroking & Allied",
+      "companies": 6,
+      "accent": "#5420B8",
+      "hook": "A toll on speculation, being narrowed: how six listed brokers earn from F&O orders, margin lending and fees, why SEBI's curbs and the 2026 STT hike cut traders but not premium, Groww's 29% share, the MTF boom and why valuations run from 11× to 72×.",
+      "tags": [
+        "SEBI's F&O curbs & STT",
+        "Groww vs Angel One",
+        "MTF: engine & risk",
+        "Exits from F&O"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1155,7 +1172,7 @@
       "sector": "Finance",
       "sub": "Stockbroking & Allied",
       "companies": 6,
-      "report": null
+      "report": "stockbroking.html"
     },
     {
       "sector": "Finance",
