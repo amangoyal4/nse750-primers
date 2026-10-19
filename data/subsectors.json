@@ -699,6 +699,23 @@
         "The deal wave"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Textiles & Home Textiles",
+      "slug": "textiles",
+      "file": "textiles.html",
+      "sector": "Textile",
+      "subsector": "Other Textile Products",
+      "companies": 7,
+      "accent": "#3E6B5E",
+      "hook": "Five businesses, one tariff, one fibre: how KPR Mill, Vardhman, Welspun Living, Trident, Arvind, Indo Count and Alok earn — the US tariff roller-coaster from 50% to a 10% Section 301 duty, the UK and EU deals, the cotton paradox and yarn spreads, and the integration premium.",
+      "tags": [
+        "The tariff roller-coaster",
+        "The cotton paradox",
+        "The integration premium",
+        "Escaping private label"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -1540,7 +1557,7 @@
       "sector": "Textile",
       "sub": "Other Textile Products",
       "companies": 7,
-      "report": null
+      "report": "textiles.html"
     },
     {
       "sector": "Textile",
