@@ -614,6 +614,23 @@
         "The ₹265 basket"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Wealth & Other Financial Services",
+      "slug": "other-finserv",
+      "file": "other-finserv.html",
+      "sector": "Finance",
+      "subsector": "Other Financial Services",
+      "companies": 7,
+      "accent": "#5A4527",
+      "hook": "Four businesses, one ladder of multiples: how Bajaj Finserv, 360 ONE, Nuvama, Anand Rathi, Prudent, JM Financial and Edelweiss earn — recurring vs transactional fees, Bajaj Finserv's holdco discount decoded, SEBI's hand on the mutual-fund toll road, and the legacy lenders turning into fee houses.",
+      "tags": [
+        "Two speeds of fee income",
+        "The holdco discount, decoded",
+        "The MF toll road",
+        "From lender to fee house"
+      ],
+      "published": "2026-10-19"
     }
   ],
   "universe": [
@@ -933,7 +950,7 @@
       "sector": "Finance",
       "sub": "Other Financial Services",
       "companies": 7,
-      "report": null
+      "report": "other-finserv.html"
     },
     {
       "sector": "Finance",
