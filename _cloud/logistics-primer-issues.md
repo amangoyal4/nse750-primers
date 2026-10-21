@@ -27,6 +27,7 @@
 
 ## From Logistics Solution Providers deep research (2026-10-21, logistics-industry.md §4.5)
 
+- **concor.html — LLF policy misstated (risks/regulation):** any text saying CONCOR now pays land licence fee at 1.5% of land value for 35 years is not supported by CONCOR's FY26 annual report. The AR (note 51, auditors' Emphasis of Matter) says IR's 19-Mar-2020 letter and the **Master Circular of 4-Oct-2022 levy 6% of market value with 7% annual escalation on existing land**, and that **no agreement has been executed for any of the 24 parcels**. LLF booked FY26 **₹398.62 Cr** (FY25 ₹373.81 Cr); no Ind-AS 116 asset or liability recognised. Rewrite as an open risk.
 - **concor.html — add segment economics:** FY26 EXIM revenue ₹6,026 Cr with segment result ₹1,436 Cr (23.8%); domestic ₹3,053 Cr with ₹153 Cr (5.0%, from 8.0%). Rebates/discounts ₹202 Cr (+27.5%; EXIM +42%). Rail haulage ₹5,011 Cr = 55% of standalone operating income. Contingent liabilities ₹2,345 Cr (incl. LLF demands).
 - **concor.html — network facts:** 68 terminals (not "65+"), 424 rakes, 57,746 containers, 1,238 employees at 31-Mar-2026; ~13 terminals notified under IR's ECRT policy.
 - **concor.html — market context:** "JNPT is India's largest container port", or any equivalent, is wrong for FY26: **Mundra 8.47m TEU vs JNPA 8.17m**; all ports 24.79m TEU (+6.5%). CONCOR's rail tonnage +2.8% vs IR container tonnage +5.6% (share 54.5%).
@@ -44,3 +45,4 @@
 - **tvs-supply-chain-solutions.html — geography basis:** FY26 is **India 28% / RoW 72%**; the 30/70 split is Q1 FY27. India +12.4%, RoW +9.2% in FY26.
 - **tvs-supply-chain-solutions.html — one-offs detail:** FY26 share of JV profit ₹182.0 Cr (TVS ILP, 24.48% JV, InvIT transfer); exceptional loss ₹105.6 Cr = restructuring ₹91.3 Cr + Labour Code ₹14.3 Cr; impairment on financial instruments ₹56 Cr (₹21 Cr). PAT attributable to owners ₹114.3 Cr.
 - **tvs-supply-chain-solutions.html — guidance:** add mid-teen FY27 revenue growth; ISCS margin 9% from Q2 and 9.5–10% by Q4 FY27; 4% PBT "aspiration" with FY28 as the firm target. Group related-party revenue (TVS Srichakra ₹162 Cr etc.) is ~1.7% of revenue; TVS Motor is not a related party.
+- Annual reports 2025-26 (BSE): CONCOR f7ed8d97-f3e0-4afd-bd99-6af5f3902be8 · Delhivery f2df7720-e670-4a6a-9dcf-fea3c31421a0 · Blue Dart 130422d5-3941-4526-93a9-65bb73997786 · BlackBuck af09c5c2-52da-4ad7-804e-273efcc55f78 · TVS SCS 8f4fdadc-d070-4c5a-aa4f-13eedb4cc62a (all under https://www.bseindia.com/xml-data/corpfiling/AttachHis/<id>.pdf)
