@@ -166,3 +166,875 @@ Compiled 21-Oct-2026 (run date `date -u`: Wed 21-Oct-2026 20:18 UTC) for the wri
   - **Gokaldas 48.7×** on depressed FY26 EPS, ROCE 7.65% (company ROCE 12–13%) [V screener; V presentation].
   - **Raymond Lifestyle 22.6× on trailing profit, 0.35× book** [V].
   - **Kitex loss-making, 2.2× book** [V; E].
+
+---
+
+## 1. What the sub-sector does: products, value chain, where value is captured
+
+### 1.1 Products and who makes them (members)
+
+| Product family | HS / type | Main buyers | Members |
+|---|---|---|---|
+| Men's innerwear (briefs, trunks, vests) | 61 knit | Indian consumers via MBO/EBO/LFS/online | Page (Jockey) — men's share ~19–20% of branded [primer] |
+| Women's innerwear, loungewear | 61 knit | Indian consumers | Page (~16% of sales; women's share ~5–6%) [primer] |
+| Athleisure (track pants, tees, joggers) | 61 knit | Indian consumers | Page (~25% of sales) [primer] |
+| Infant & toddler wear (0–24 m) | 61 knit, cotton/organic | US mass retailers (Carter's, Walmart, Target, Amazon) | Kitex (world #2 by volume [V screener "second-largest"]) |
+| Knits, wovens, bottoms (women's, men's, kids') | 61/62 | GAP, Kohl's, Ralph Lauren, Inditex, PVH, Target, Levi's, Primark, MUJI | Pearl Global [primer] |
+| Outerwear, activewear, performance wear, denim | mainly 62 (+61) | Nike, Puma, Columbia, Carhartt, GAP, H&M, M&S | Gokaldas (polyfill, quilting, puffer jackets in-house) [V presentation; primer] |
+| Worsted suiting fabric (wool/wool-blend) | 51/55 fabric (textile, not apparel) | Indian consumers via TRS + tailors; exports | Raymond Lifestyle branded textile (world's largest integrated worsted maker [primer]) |
+| Menswear brands (Raymond RTW, Park Avenue, ColorPlus, Parx, Ethnix) | 62 | Indian consumers | Raymond Lifestyle branded apparel |
+| Tailored garments for global labels (suits, jackets, trousers, shirts) | 62 | US/EU brands | Raymond Lifestyle garmenting (Bengaluru, Ethiopia [K, FLAG]) |
+| Premium cotton & linen shirting fabric (B2B) | 52 fabric | Global shirt makers/brands | Raymond Lifestyle HVCS |
+
+### 1.2 Value chain: fibre → closet
+
+1. **Fibre:**
+   - Cotton: India is the #1 or #2 producer, with a 2025-26 crop of ~334 lakh bales per CAI [V-snip — FLAG vs earlier ~309–312 lakh bale estimates, K]. About 6 mn farmers [K].
+   - MMF: polyester from PTA + MEG (Reliance, Indorama); viscose from pulp (Grasim).
+2. **Spinning → yarn (count, Ne):** large listed spinners (Vardhman, Trident, Nitin, KPR Mill) and thousands of Tiruppur/Coimbatore mills. India is a large cotton-yarn exporter.
+3. **Fabric (weaving / knitting) → processing (dyeing, printing, finishing):** this is India's bottleneck. Processing capacity is fragmented and environmentally constrained (ZLD effluent rules in Tiruppur since 2011 [K]). Woven fabric for exports is often **imported from China**, especially synthetics and technical fabrics [K].
+4. **Garmenting (cut → sew → finish → pack):**
+   - Labour-intensive. ~70–75% of garment workers are women (Gokaldas: ~75% of 54,000+) [V].
+   - The **SMV (standard minute value)** and line efficiency set cost.
+   - Integrated players (Kitex: yarn → knitting → dyeing → cut/sew/print in one campus; KPR Mill; Gokaldas with in-house printing, embroidery, laundry, polyfill) capture more margin [primer; V presentation].
+5. **Export logistics:** FOB at Indian port (Chennai, Tuticorin, Nhava Sheva, Mundra, Kochi). Ocean freight to the US East Coast/Europe goes via **Suez/Red Sea**, which was disrupted in 2024 and again in 2026 [V-snip].
+6. **Brand/retailer:** designs, markets and sells. It keeps the bulk of the retail price.
+7. **Domestic route (Page, Raymond):** own or contract factories → distributors (Page moved to an auto-replenishment system, ARS) → MBOs (Page 1,15,208), EBOs (Page 1,604 EBS), LFS (930), e-commerce/quick-commerce → consumer [V Page PR].
+   - Raymond's **The Raymond Shop (TRS)** franchise chain has 1,100+ stores, skewed to tier-2/3 towns. It sells fabric (for tailoring) and ready-to-wear [primer].
+
+### 1.3 Where value is captured (the "$30 shirt" split) [E composite, K industry rules of thumb]
+
+| Slice of a US$30 retail branded knit shirt | US$ | % | Who |
+|---|---|---|---|
+| Retailer/brand gross margin (rent, marketing, markdowns, profit) | ~18.0–19.5 | ~60–65% | Brand/retailer |
+| US import duty (10% Sec 301 + ~16% MFN on ~$6 customs value) | ~1.5 | ~5% | US Treasury |
+| Freight, insurance, US logistics | ~0.5–0.8 | ~2–3% | Shipping lines, 3PL |
+| **FOB price paid to the Indian exporter** | **~6.0–7.5** | **~20–25%** | Exporter (Pearl/Gokaldas/Kitex) |
+| — of which fabric + trims | ~3.6–4.5 | | Mills (often in-house for Kitex) |
+| — of which CMT labour | ~0.9–1.3 | | Workers |
+| — of which overheads, power, packing | ~0.6–0.9 | | |
+| — of which exporter EBITDA (8–12% of FOB) | ~0.5–0.9 | ~2–3% of retail | Exporter |
+
+- The rule of thumb is that **FOB ≈ 20–25% of retail price** for mass apparel [K]. Exporter EBITDA is **~2–3% of the retail price**.
+- That is why a **10-point US tariff (on FOB) is comparable to the exporter's entire EBITDA margin**, and why buyers demanded discounts in 2025.
+- For a brand like Page, the same chain is internalised: Page's ₹232 average realisation per piece [E] carries a ~20% EBITDA margin. Page is both manufacturer and brand (but pays a royalty to Jockey).
+
+---
+
+## 2. Size and growth
+
+### 2.1 India's apparel exports (RMG of all textiles), US$ bn, fiscal years
+
+| FY | US$ bn | Note | Source/tag |
+|---|---|---|---|
+| FY15 | ~16.8 | | MoC/AEPC [K] |
+| FY16 | ~17.0 | | [K] |
+| FY17 | ~17.4 | pre-GST peak era | [K] |
+| FY18 | ~16.7 | GST transition, drawback cut | [K] |
+| FY19 | ~16.2 | | [K] |
+| FY20 | ~15.5 | | [K] |
+| FY21 | ~12.3 | COVID | [K] |
+| FY22 | ~16.0 | rebound | [K] |
+| FY23 | ~16.2 | | [K] |
+| FY24 | ~14.5 | global destock | [K]; Gokaldas chart shows FY'24 14.5 [V] |
+| FY25 | ~16.0 | +10% | Crisil "USD 16 billion last fiscal" [V-snip] |
+| FY26 | **~15.8** | −1%; Apr–Jan +1.6% then tariff hit | AEPC Apr–Jan $13,129.1 mn +1.6% [V-snip]; FY total from Gokaldas chart [V, FLAG parse] + arithmetic [E] |
+| Q1 FY27 (Apr–Jun 26) | ~3.2–3.3 | **−12% YoY** | Gokaldas citing MoC [V]; value [E] |
+| Apr–Sep 2026 (H1 FY27) | **~7.2** | **−6.2%** vs $7.7 bn | AEPC via textilesresources [V-snip] |
+| Sep-2026 | **~1.1** | **+13.7% YoY** | AEPC [V-snip] |
+
+- **The 11-year story is flat:** ~$16–17 bn in FY15 and ~$16 bn in FY26. India lost world share while Bangladesh doubled and Vietnam tripled [E from WTO series]. This is the most important single "why" for the report.
+- Tiruppur alone (knitwear) exported **₹12,193 Cr in Q1 FY26 (+12%)** [V-snip indiashippingnews]. That is roughly 30% of India's RMG exports [E].
+- **India's share of world apparel exports: 2.94% (2024, $16.36 bn, #5)** vs China 29.64%, Bangladesh 6.90%, Vietnam 6.09%, Turkey 3.21% [V-snip WTO data via Daily Star/FE]. The world total was **$557.5 bn (2024, +7.1%)**. Gokaldas cites global apparel exports of **$575 bn (2025) → $715 bn by 2030** [V presentation].
+
+### 2.2 India's domestic apparel market
+
+| Measure | Value | Source |
+|---|---|---|
+| Apparel retail market FY25 | **₹9.30 lakh Cr (~US$112 bn)** | CareEdge Ratings [V-snip] |
+| Forecast FY30 | **~₹16 lakh Cr** (~11–12% CAGR) | CareEdge [V-snip] |
+| CAGR FY18–FY25 | ~7% | CareEdge [V-snip] |
+| Organised share | ~41% | CareEdge [V-snip] |
+| Alternative estimate (CMAI & 1Lattice) | US$95.7 bn 2025 → US$146.3 bn 2029; rural ~58% of consumption | [V-snip newsbytes] |
+| Low-end estimate (IMARC) | US$88 bn 2025 | [V-snip — low quality] |
+
+- **Use CareEdge (₹9.3 lakh Cr FY25)** as the base. It is a rating agency, rupee-denominated and fiscal-year. Mention the 1Lattice/CMAI rural-share finding.
+- **Members' domestic share:** Page ₹5,247 Cr + RLL branded textile/apparel ~₹5,250 Cr ≈ **₹10,500 Cr ≈ 1.1% of the ₹9.3 lakh Cr market** [E]. Indian apparel is very fragmented.
+
+### 2.3 Innerwear (Page's market)
+
+| Estimate | Value | Source / quality |
+|---|---|---|
+| Women's innerwear | $4.4 bn FY20 → $8.5 bn FY25 (projection) | Lux Industries AR via secondary [V-snip] |
+| Men's innerwear | $1.9 bn FY20 → $3.1 bn FY25 (projection) | Lux Industries AR [V-snip] |
+| Women's innerwear + activewear | ~₹50,100 Cr FY25 (₹501 bn) | Statista [V-snip; paywalled] |
+| Total innerwear (CY) | ~US$10.2–10.9 bn (2024–25) | IMARC / Ken Research [V-snip — low quality] |
+| Branded share | ~55% (2025) | Ken Research [V-snip — FLAG] |
+| Growth | ~10% CAGR 2024–29 | Dhanlaxmi Fabrics MD&A citing a report [V-snip] |
+
+- **Writer guidance:** present the innerwear market as **"roughly ₹85,000–1,00,000 Cr (~US$10–12 bn), women's ~60–70% of it, growing ~10%/yr"** [E composite]. Page's FY26 ₹5,247 Cr is **~5–6% of total innerwear by value** (more in men's premium) [E].
+- The men's/women's split explains Page's growth runway: women's is the bigger pool, and Page has ~5–6% share there vs ~19–20% in men's [primer].
+
+### 2.4 Members' sizes (FY26, ₹ Cr, screener 21-Oct-26) [V]
+
+| Company | Revenue FY24 | FY25 | FY26 | Q1 FY27 | Q1 YoY | OP FY26 (OPM) | PAT FY26 | M-cap 21-Oct |
+|---|---|---|---|---|---|---|---|---|
+| Page (standalone) | 4,569 | 4,935 | 5,247 | 1,420 | +7.9% | 1,153 (22%) | 764 | 38,964 |
+| Pearl Global | 3,436 | 4,506 | 5,025 | 1,528 | +24.4% | 484 (10%) | 270 | 11,237 |
+| Gokaldas | 2,379 | 3,864 | 3,988 | 1,154 | +20.7% | 357 (9%) | 100 | 5,013 |
+| Raymond Lifestyle | 6,535* | 6,177 | 6,888 | 1,516 | +6.0% | 678 (10%) | 46 | 3,367 |
+| Kitex | 617 | 983 | 667 | 158 | −19.8% | 30 (4.5%) | −13 | 2,288 |
+| **Total** | 17,536 | 20,465 | **21,815** | **5,776** | **+12.6%** | **2,702 (12.4%)** | **1,167** | **60,869** |
+
+*RLL FY24 is the first year on screener (pre-listing, carve-out basis; FY24 PAT ₹2,645 Cr includes demerger items — exclude it).
+
+---
+
+## 3. Demand drivers and end-markets
+
+### 3.1 Export demand: US first, then EU/UK
+
+- **US = the swing market:**
+  - The US took **~33% of India's garment exports in 2024** (AEPC chairman, Aug-2025) [V-snip DH].
+  - US apparel imports were **$77.62 bn in 2025**. India supplied **$4.93 bn (#4, ~6.4%)** and Bangladesh $8.18 bn (#3) [V csdronline].
+  - India's textile-and-apparel exports to the US total ~$9.6–11 bn, of which apparel is ~50% [V csdronline; V-snip CITI].
+- **US imports by country in 2026 YTD** (OTEXA via textilesresources / Textile Today / Shenglu):
+
+| Country | Jan–Jul 2026 US$ bn | YoY | Implied share | Jan–Apr 2026 YoY (Shenglu) |
+|---|---|---|---|---|
+| Vietnam | 9.36 | ~+1% | 22.4% | +1.3% |
+| Bangladesh | ~4.66 | ~−8% | 11.1% | −11.2% |
+| China | 4.55 | −34.2% | 10.9% | −50.2% |
+| Indonesia | 2.73 | ~+2% | 6.5% | +2.3% |
+| Cambodia | 2.62 | ~+14% | 6.3% | +14.2% |
+| India | 2.45 | −25.75% | 5.9% | −28.0% |
+| **Total** | **41.83** | **−8.64%** | 100% | −12.0% |
+
+  Sources: [V-snip textilesresources (Jan–Jul); V Shenglu (Jan–Apr)]. Shares are [E]. Bangladesh's value is derived from "$110 mn ahead of China" [E].
+- **Annual shares** (USITC pub 5543, 2023): China 21%, Vietnam 18%, Bangladesh 9%, India 6%, Cambodia 4% [V-snip].
+- **Long-run India share of US apparel imports:** ~4.5% (2015) → ~5% (2019) → ~6% (2023) → ~6.4% (2025) → ~5.9% (Jan–Jul 2026) [K/E — FLAG; only 2023 and 2025 verified].
+- **End-demand is fine; imports are weak because of inventory and tariffs.**
+  - US clothing store sales grew in 1H CY26 and US apparel imports fell 9% in Jan–May CY26 ("lower retail inventory") [V Gokaldas, citing US Census/OTEXA].
+  - EU-27 apparel imports were −10% in Jan–May CY26 (after +2% in CY25). UK imports were −3% (after +6% in CY25) [V Gokaldas, citing Eurostat/ONS].
+  - The holiday 2026 order book from India to the US is **down 25–30%** (Tiruppur exporters, Oct-26) [V-snip].
+- **UK/EU:**
+  - The UK is ~5% of Gokaldas's revenue; management "sees it potentially doubling" under CETA [primer].
+  - Europe (ex-UK) is ~18% of Gokaldas's book [primer, illustrative — FLAG].
+  - Japan is diversifying sourcing (China's share fell from 65% to 50%; Vietnam 17.4%, Bangladesh 4.3%) — an "incremental opportunity for India" (Pearl, Aug-26) [V PL note].
+
+### 3.2 Domestic demand
+
+- **Market growth:** ~7% CAGR historically (FY18–25), with ~11–12% implied to FY30 [V-snip CareEdge]. Organised share is rising from ~41%.
+- **GST 2.0 (22-Sep-2025):** a price cut for the mass segment (≤₹2,500 at 5%) and a price increase for premium (>₹2,500 at 18%) [V-snip]. RAI/CMAI warned it "will hurt middle-class affordability and weaken organised retail" for the upper band [V-snip outlookbusiness]. Ethnic/festive sets above ₹2,500 saw a Diwali-2025 hit [V-snip The Wire].
+- **Innerwear:**
+  - High-frequency replacement, low markdown risk.
+  - Formalisation (branded share rising from ~55%) and premiumisation (economy brands Rupa/Dollar/Lux → premium Jockey/Van Heusen).
+  - New D2C rivals: XYXX (~₹187 Cr FY25 revenue, +46%), DaMENSCH, Bummer; women's: Zivame, Clovia [primer].
+- **Channel cycle (Page):**
+  - Post-COVID the channel over-stocked: inventory days ~90 → ~120 [primer].
+  - Then a **destock across FY23–FY24** (revenue ₹4,714 Cr → ₹4,569 Cr, −3%) and an **ARS** transition [V screener; primer].
+  - Recovery: FY25 +8%, FY26 +6.3% value / +3.9% volume, Q1 FY27 +7.9% / +5.7% [V].
+- **Quick-commerce/e-commerce:** Page and RLL list online and own sites. Page says new lines target "younger consumers" [V PR]. Penetration data are not sourced (§H).
+- **Weddings (Raymond):**
+  - Suiting and shirting fabric for tailoring and wedding suits/ethnic wear (Ethnix) peak in the **Oct–Dec and Jan–Feb** muhurat windows [K].
+  - Branded textile Q1 FY27 revenue ₹684 Cr vs ₹699 Cr; segment EBITDA ₹95 Cr (13.9%) vs ₹107 Cr (scale deleverage, base effect) [V apparelresources; V-snip].
+  - RLL branded apparel Q1 FY27 was ₹349 Cr (+4%) with EBITDA ₹18 Cr [V].
+- **Rural vs urban:** ~58% of apparel consumption is rural (CMAI–1Lattice) [V-snip]. Page and TRS both push into tier-3/4 towns (Page: 2,732 towns [V PR]; TRS 1,100+ stores [primer]).
+
+---
+
+## 4. Supply side and cost structure
+
+### 4.1 Inputs and their price drivers
+
+| Input | Latest | Trend / driver | Source |
+|---|---|---|---|
+| Indian cotton (ICS-105 29 mm GUJ ≈ Shankar-6) | **₹68,300/candy (21-Oct-26)**; 27 mm North ₹64,500; 34–35 mm ELS (K/TN) ₹95–96k | ~+25% YoY; tested ~₹68,700 in May-26 | CAI spot [V]; CAI weekly 2-Jun-26 [V]; "prices jump 25%" [V-snip] |
+| ICE cotton (Dec-26 futures) | **80.88 c/lb (20-Oct-26)**; Mar-27 84.18; Jul-27 86.32 (contango) | Up from ~63–68 c in 2025 [K]; US drought, weaker dollar | CAI ICE table [V] |
+| Cotlook A (Far East CFR) | **~91.2 c/lb** (wk to 16-Oct-26); Indian cotton ~0.9% below A | India near import parity | CAI basis sheet [V] |
+| ICAC 2025/26 forecast | 75–80 c, mid 78 c | already exceeded | CAI weekly [V] |
+| Cotton MSP (kapas) 2026-27 | Medium ₹8,267/qtl (from ₹7,710); long ₹8,667 (from ₹8,110) | +7.2% | [V-snip]; earlier years [K] |
+| Cotton import duty | 11% (5% BCD + 5% AIDC + SWS) | **Waived 19-Aug→31-Dec-2025 and 1-Jun→1-Oct-2026** | [K]; csdronline [V] |
+| Polyester (PSF/PFY) & feedstocks PTA/MEG | spiked Mar-26 with naphtha ($620→$1,078/t) | West Asia war; QCOs rescinded 12-Nov-2025 → imports allowed | [V-sib]; [V-snip PTI] |
+| Labour (India) | State minimum wages + new Labour Codes (21-Nov-2025) | Haryana/Noida minimum-wage hikes cut Pearl's standalone margin to 6.5% in Q1 FY27 | PL note [V]; [K] |
+| Freight (ocean) | Drewry WCI ~$3,159–4,526/FEU (Aug-26) vs ~$1,822 (Oct-25); Europe-bound freight "more than doubled" | Red Sea / Hormuz disruptions 2026 | [V-snip, dates conflict]; AEPC [V-snip] |
+| Power | state tariffs; captive solar at integrated plants | | [K] |
+
+**Cotton price history (Shankar-6, ₹/candy) [K unless tagged]:**
+- FY21 (Oct-20) ~₹37–40k.
+- **May-2022 peak ~₹1,00,000–1,07,000** (global tightness; India cut duty in Apr-2022).
+- FY24 ~₹55–58k; FY25 ~₹52–55k.
+- Mid-2025 ~₹54–57k.
+- **May-26 ~₹68,700 [V]; 21-Oct-26 ₹68,300 [V]**.
+
+**MSP series (medium staple kapas, ₹/qtl) [K; 2026-27 V-snip]:** 2020-21 5,515 · 2021-22 5,726 · 2022-23 6,080 · 2023-24 6,620 · 2024-25 7,121 · 2025-26 7,710 · **2026-27 8,267**. Up 50% in six years. MSP sets the floor for CCI procurement and therefore for Indian cotton prices.
+
+### 4.2 "Where ₹100 of revenue goes": three archetypes [E composite, built from screener P&Ls and company disclosures]
+
+**(a) FOB exporter (Gokaldas/Pearl-type, India-made, FY26):**
+- Fabric and trims (raw material, net of inventory change): ₹45–52. Gokaldas gross margin is ~45–50% [E]. Pearl's Q1 FY27 "gross margin 51.5%" [V-snip] is high because its sourcing/merchant model books part of production as outsourced job work.
+- Employee cost (CMT labour plus staff): ₹20–27.
+- Power, fuel, stores, washing/printing, job work: ₹6–9.
+- Freight-out, export logistics, compliance, sampling: ₹3–5.
+- Selling and admin: ₹3–5.
+- **EBITDA: ₹9–13** (Gokaldas FY26 10.7%, adjusted 13.0%; Pearl FY26 9.2%; Q1 FY27 10.7% [V]).
+- Depreciation ₹3–4; interest ₹1.5–2.5. **PAT: ₹2.5–6** (Gokaldas 2.5%, Pearl 5.4% [V]).
+- Export incentives (RoSCTL/RoDTEP) add ~₹1–3 inside revenue or other income [K]. Pearl's realisation figure "includes export incentives" [V PL].
+
+**(b) Integrated knit exporter (Kitex-type, normal year FY25):**
+- Yarn: ₹30–35.
+- Dyes, chemicals and processing: ₹8–10.
+- Labour: ₹15–18.
+- Power and fuel: ₹6–8.
+- Freight and other: ₹10–12.
+- EBITDA ₹18–21 in a full-plant year (FY25 OPM 21% [V screener]). It collapses to ₹4–5 when the plant is under-utilised and new capacity is ramping (FY26 4.5% [V]).
+
+**(c) Domestic brand (Page-type, FY26):**
+- Materials (yarn/fabric, accessories; Page buys yarn and fabric and knits/sews ~in-house and via outsourced units): ₹38–42.
+- Employee: ₹16–19.
+- Advertising and promotion: ₹4–5.
+- Royalty to Jockey International: ~₹4–5 [primer ~5%, FLAG].
+- Freight, distribution, rent, IT, others: ₹10–12.
+- **EBITDA ₹20–22** (FY26 22%; Q1 FY27 20.3% [V]). Depreciation ₹2; interest ₹0.5; tax ₹5. **PAT ₹14–15** (FY26 14.6% [V]).
+
+### 4.3 Capacity, scale and utilisation
+
+| Player | Capacity / scale | Utilisation / notes | Source |
+|---|---|---|---|
+| Pearl Global | ~101 mn pcs → **~108 mn pcs** after the Sep-2026 Bangladesh unit (+6–7 mn); target **120–130 mn by FY28**; ~25 factories in 5 countries; FY26 shipped 78.1 mn pcs, Q1 FY27 20.8 mn | FY26 ~75–78% [E: 78.1/~101]; Q1 FY27 ~80%+ annualised [E] | PL note [V]; primer |
+| Gokaldas | **92 mn pcs/yr capacity**; 30+ facilities, 30,000+ machines, 54,000+ workers (~75% women); India + Kenya + Ethiopia | Q1 FY27 14.2 mn pcs → ~57 mn annualised ≈ **~60–65%** of 92 mn [E] (outerwear-heavy; "pieces" understate value) | presentation [V] |
+| Kitex | Kizhakkambalam ~0.6–0.9 mn pcs/day [K, FLAG]; **Warangal designed 1.1 mn pcs/day** (commercial production Aug-2025); **Sitarampur ~1.2 mn pcs/day** (land registration pending; Dec-2026 target) | Warangal ramp slow; FY26 revenue −32%; "capacity hits peak with 60%" (angelone headline) [V-snip] | apparelresources [V-snip]; primer |
+| Page | ~16 own manufacturing units in Karnataka/TN/Odisha [K, FLAG]; FY26 sold 228.4 mn pcs; ~₹230/pc | "gradual ramp-up of new production facilities" (Q1 FY27 PR) [V] | primer; PR |
+| Raymond Lifestyle | worsted suiting ~38 mn m [K, FLAG]; garmenting ~9–10 mn pcs [K, FLAG]; plants Vapi, Chhindwara, Jalgaon (fabric), Bengaluru (garments) [primer]; expanding in Andhra Pradesh (Oct-2026) [V CAI news] | garmenting revenue +50% Q1 FY27 | primer; [V] |
+
+- **Industry scale:** India's T&A sector is **2.3% of GDP, 13% of industrial production, 12% of exports** [V csdronline]. It employs ~45 mn directly [K MoT]. Garmenting is the most labour-intensive step: roughly ~1 worker per 1–1.5 machines and ~1,000–1,700 pcs per worker per year depending on product [E].
+- **Productivity:**
+  - Gokaldas India: 9.2 mn pcs per quarter. With ~40,000+ India workers [E] that is ~900 pcs/worker/yr at ₹871 ASP, or ~₹8 lakh revenue per worker [E].
+  - Bangladesh/Vietnam lines run more basic, longer production runs and post higher pieces per worker. Indian lines are smaller and more fragmented [K].
+  - Labour-productivity comparisons across countries are not sourced well (§H).
+
+---
+
+## 5. Industry structure
+
+### 5.1 Concentration
+
+- **Exports are highly fragmented.**
+  - India has ~10,000+ exporters (AEPC membership) [K]. The top 10 are perhaps ~10–15% of the $16 bn [E].
+  - Members' **India-made** exports in FY26 were **~₹6,200 Cr (~4–5% of India's apparel exports)** [E]: Pearl India ~₹1,300 Cr + Gokaldas India ~₹3,200 Cr + Kitex ~₹640 Cr + RLL garmenting ~₹1,066 Cr, vs India's ~$15.8 bn ≈ ₹1.38 lakh Cr at ~₹87.5.
+- **Largest Indian exporters (mostly unlisted):**
+  - **Shahi Exports** (Faridabad/Bengaluru; ~₹9,000–10,000 Cr; the largest; private, ex-Warburg-backed? [K, FLAG]).
+  - Texport Industries, Arvind (listed; garments plus fabric), **KPR Mill** (listed, Textiles sub-sector; integrated knit), Orient Craft, Richa Global, Eastman Exports, SP Apparels (listed), Laguna Clothing, Bombay Rayon (defunct) [K].
+  - Tiruppur clusters: SCM Garments, Eastman, Royal Classic [K].
+- **Domestic innerwear:**
+  - Page/Jockey is the premium leader.
+  - Mid/premium: Van Heusen innerwear (ABFRL), and Hanes.
+  - Economy/mass listed: Rupa, Dollar, Lux (VIP Clothing/Frenchie).
+  - D2C: XYXX, DaMENSCH, Bummer, Zivame (Reliance-owned), Clovia (Reliance) [primer; K].
+  - Branded share ~55% [V-snip FLAG].
+- **Domestic menswear/suiting:**
+  - Raymond (worsted share #1 [V screener key points]).
+  - Siyaram's, Donear, Arvind (fabric).
+  - ABFRL/Aditya Birla Lifestyle Brands (Louis Philippe, Van Heusen, Allen Solly, Peter England), Arvind Fashions (USPA, Arrow), Reliance Trends, Trent (Westside, Zudio) [K].
+  - Ethnic: **Manyavar (Vedant Fashions)** vs Ethnix [K].
+
+### 5.2 Unlisted heavyweights, MNCs and PE
+
+- Unlisted exporters: Shahi, Texport, Orient Craft, Laguna, Gokaldas-like Bengaluru clusters [K].
+- **PE history:** Blackstone owned Gokaldas (2007–2017) before selling to Clear Wealth [K]. Warburg Pincus in Shahi? [K, FLAG — unverified].
+- **MNC sourcing offices** in India: Inditex, H&M, Gap, PVH, Target, Walmart, M&S [K].
+- **Jockey International** owns the brand Page sells. Speedo is owned by Pentland Group (UK) [V PR].
+- **Reliance Retail** owns Zivame/Clovia and is the largest apparel retailer [K]. **Trent/Zudio** is the fastest-growing value fashion chain and buys from Indian exporters' domestic arms [K].
+
+### 5.3 Competing geographies (summary; deep dive in §B3)
+
+| Country | World apparel export share 2024 | US share Jan–Jul 2026 | US tariff since 24-Jul-2026 | UK/EU access | Monthly minimum wage |
+|---|---|---|---|---|---|
+| China | 29.64% | 10.9% (−34%) | MFN + 12.5% Sec 301 (+ legacy 2018–19 Sec 301 lists on many apparel lines [K, FLAG]) | MFN | ~$300+ (2024) [V-snip] |
+| Bangladesh | 6.90% | 11.1% | MFN + 10%; **0% within US-cotton TRQ** | **EU EBA 0%** (LDC; 3-yr transition after 24-Nov-2026 graduation) [K/V-snip]; UK DCTS 0% | Tk 12,500 (~$102–114) since Dec-2023 [V-snip] |
+| Vietnam | 6.09% | 22.4% | MFN + 12.5% | EU–Vietnam FTA (EVFTA, phasing to 0) [K]; UK-VN FTA | ~$170 (2024) [V-snip] |
+| Cambodia | 1.77% | 6.3% (+14%) | MFN + 10%; TRQ | EU EBA (partially withdrawn 2020) [K] | **$210 (2026)** [V-snip] |
+| Indonesia | 1.57% | 6.5% | MFN + 10%; TRQ | IEU-CEPA concluded 2025 [K, FLAG] | ~$243 (2024) [V-snip] |
+| Sri Lanka | n/a | n/a | MFN + 10% | EU GSP+ 0% [K] | revised 2024/25/26 [V-snip] |
+| Pakistan | 1.66% | n/a | MFN + 10% | EU GSP+ 0% [K] | ~$111 (2024) [V-snip] |
+| **India** | **2.94%** | **5.9% (−26%)** | **MFN + 10% (no TRQ)** | **UK 0% since 15-Jul-2026; EU 0% once FTA in force (~2027)**; until then EU GSP/MFN ~9.6–12% [K] | ~$172 (2024) [V-snip]; state-wise |
+
+---
+
+## 6. Business-model archetypes and their economics
+
+| Archetype | Members | Revenue driver | EBITDA margin | ROCE | Working capital | Key risk |
+|---|---|---|---|---|---|---|
+| **1. Multi-country FOB vendor** (design-to-delivery, routes orders by tariff/cost) | Pearl Global | pcs × FOB/pc (₹735 in Q1 FY27) | 9–11% | ~17–20% | ~45–60 days net | customer concentration; Guatemala losses; country politics (Bangladesh) |
+| **2. India-centric complex-garment FOB exporter (+ Africa)** | Gokaldas | pcs × ASP (India ₹871, Africa ₹467) | 10–13% | 12–14% (company) | **75–79 days NWC** [V] | US tariff discounts; acquisition integration; net debt ₹650 Cr |
+| **3. Vertically integrated mono-category, mono-market exporter** | Kitex | pcs × FOB (knit infantwear); plant utilisation | 17–25% full, ~0–5% in ramp | high in FY25, ~1.6% now [V] | screener: NWC 11.6 days, debtor days 68 [V] | US concentration (80–92%); ₹3,550 Cr capex debt |
+| **4. Licensed FMCG-style innerwear brand** | Page | volume × realisation/pc × distribution reach | 19–23% (guide 19–21%) | **64%** [V] | inventory-heavy (~90–120 days at peak) | licence (2040); D2C competition; channel inventory |
+| **5. Vertically integrated fabric-to-retail brand house** | Raymond Lifestyle | metres × ₹/m (suiting), stores × throughput, B2B pcs | ~10–12% blended (textile ~14–20%, apparel ~5%, garmenting ~7–8%) | 3.5% (screener) [V] | high | weddings/GST >₹2,500; thin apparel margin; promoter pledge |
+
+- **The pattern: margin rises with control of the customer.** Contract exporters keep 8–13%. Integrated mono-category exporters can make 20% in a good year but run plant-utilisation risk. A brand keeps 20%+ and 60%+ ROCE because capital is light relative to profit.
+- Raymond is the exception that proves the rule. It owns brands but sits mostly in manufacturing (fabric mills, garment plants) and franchise retail. Its ROCE is single-digit.
+
+---
+
+## 7. Regulation and policy
+
+### 7.1 US tariffs on Indian apparel: the full stack timeline
+
+| Date | Measure | Rate on Indian apparel (on top of MFN ~0–32%, avg ~16%) | Competitors at the time | Source |
+|---|---|---|---|---|
+| to Apr-2025 | MFN only | 0 | same MFN for all (China also legacy Sec 301 since 2018–19) | [K] |
+| 5-Apr-2025 | IEEPA "baseline" reciprocal 10% | +10% | +10% all (China far higher; escalated to 125–145% in Apr-25, then 30% after the 12-May Geneva truce) | [K] |
+| 7-Aug-2025 | IEEPA country-specific reciprocal | **+25%** | Bangladesh 20%, Vietnam 20% (40% for "transshipment"), Cambodia 19%, Indonesia 19%, Pakistan 19%, Sri Lanka 20%, China ~30% (10% reciprocal + 20% fentanyl; fentanyl cut to 10% in Nov-2025 → ~20%) | [K]; AEPC "initial 25%" [V-snip DH] |
+| **27-Aug-2025** | **+25% Russia-oil "penalty"** (IEEPA) | **+50%** | unchanged | [V-snip DH/AEPC] |
+| 3-Feb-2026 | India–US interim framework / first tranche of BTA finalised; reciprocal to be cut 50% → **18%**, covering T&A | 18% (agreed; implementation overtaken by SCOTUS) | — | [V csdronline; V-snip outlookbusiness/FPJ]; Russia penalty withdrawn [K, FLAG] |
+| **20-Feb-2026** | **SCOTUS: IEEPA cannot be used for tariffs**; all IEEPA tariffs void → refunds to US importers | 0 (IEEPA) | same for all | [V-snip outlookbusiness/thenewsminute] |
+| **24-Feb-2026** | **Sec 122** (balance-of-payments) global tariff, 150 days | **+10%** ("temporarily 10%" for India, White House) | +10% all | [V-snip ianslive 21-Feb-26] |
+| Mar-2026 | India defers BTA signing until the US sets its new tariff structure | — | — | [V-snip] |
+| 14-Jul-2026 | India amends policy to ban imports made with forced labour (ILO definition) | — | — | [V csdronline] |
+| **23/24-Jul-2026** | **USTR Sec 301 (failure to ban forced-labour imports), 60 economies** | **+10%** (India + 16 others) | **12.5% for 43 others incl China, Vietnam**; 10% for Bangladesh, Cambodia, Indonesia, Malaysia, Jordan, Pakistan, Sri Lanka; **TRQ (3 yrs) for BD/KH/ID/MY: T&A made with US cotton/fibre enters free of the 301 duty up to quota** | [V csdronline; V PL; V Gokaldas] |
+| 28-Jul-2026 | US Senate cloture 86–12 on Graham "Sanctioning Russia Act of 2026" (up to 100% tariffs on buyers of Russian oil; India ~36% of Russian crude exports) | threat | China, India named | [V csdronline] |
+| Oct-2026 | Sec 301 under legal challenge; IEEPA refunds being processed | 10% | | [prompt; V PL "refunds processed, not passed on"] |
+
+- **Effective all-in duty on Indian clothing today ≈ 26.5%** (16.5% average MFN + 10%) per a tariff aggregator [V-snip tariffstool]. The comparable figure is ~29% for Vietnam/China (+12.5 + MFN) and ~16.5–26.5% for Bangladesh depending on TRQ use [E].
+- **Coverage:** ~45% of India's total US exports (pharma generics, electronics, Sec 232 goods) fall outside the 10%. **Apparel is inside it** [V csdronline].
+- **Peak-gap arithmetic** (Aug-2025 to Feb-2026): India 50% vs Bangladesh/Vietnam ~20% = a **30-point landed-cost gap on FOB**. That is ~3× an exporter's EBITDA margin, so orders moved (holiday orders to the US down 25–30% even in 2026 [V-snip]; Tiruppur and Kitex hit hardest) [E].
+- **Today's gap:** India 10% vs Vietnam/China 12.5% = **India +2.5 points ahead**. Vs Bangladesh it is parity, or −10 points on US-cotton TRQ volumes [E].
+
+### 7.2 Trade agreements
+
+| Agreement | Status (21-Oct-2026) | Apparel effect | Source |
+|---|---|---|---|
+| **India–UK CETA** | Signed 24-Jul-2025 [K]; **in force 15-Jul-2026** | UK duty (up to 12%) → 0 on Indian apparel; 1,143 textile lines; self-certified origin; RoO decide eligibility | [V-snip drishtiias 17-Jul-26, fashionunited, textileexcellence] |
+| **India–EU FTA** | **Concluded 27-Jan-2026**; legal scrub/ratification pending; entry into force expected ~2027 | T&A to 0 on day one (EU side ~70.4% of lines / 90.7% of Indian exports duty-free day one); today India pays EU MFN 12% or GSP ~9.6% vs Bangladesh 0% (EBA) | [V-snip outlookbusiness, EC IP helpdesk, cms.law]; GSP [K] |
+| **India–EFTA TEPA** | Signed 10-Mar-2024; in force 1-Oct-2025 [K] | small apparel market (Switzerland/Norway) | [K, FLAG] |
+| **India–Australia ECTA** | In force 29-Dec-2022 [K] | Australian duty on Indian apparel (5%) → 0 | [K] |
+| India–UAE CEPA | In force 1-May-2022 [K] | 0 duty; UAE is a re-export hub (also Page's licence territory) | [K] |
+| **India–US BTA** | First tranche finalised 3-Feb-2026; signing deferred | would set a bilateral tariff below the Sec 301 10%? (not yet) | [V csdronline; V-snip] |
+| AGOA (US–Africa) | renewed to 31-Dec-2026 (Feb-2026); 2-yr extension to 2028 reported/conflicting | Gokaldas Kenya (Atraco) duty-free to US with third-country fabric | [V-snip] |
+
+- **Duty differentials in Europe before vs after:**
+  - Before CETA, an Indian T-shirt paid **9.6–12%** in the UK/EU while Bangladesh paid **0%** (EBA/DCTS) [K].
+  - After CETA, India pays 0% in the UK. After the EU FTA (2027?), India pays 0% in the EU, while Bangladesh keeps 0% until ~2029 under the EBA transition [K] and then faces GSP/GSP+ rules.
+  - China pays 12% MFN in both [K; V Gokaldas "12% duty advantage over China"].
+
+### 7.3 Domestic policy (inputs, incentives, labour, tax)
+
+- **Cotton:**
+  - 11% import duty waived 19-Aug-2025 → 31-Dec-2025 [K] and again 1-Jun → 1-Oct-2026 (announced 30-May-2026) [V csdronline].
+  - A **QCO for raw cotton** was under consultation on 2-Jun-2026 (JS Fibre). CAI asked that it not apply to imported cotton [V CAI weekly].
+  - MSP 2026-27 +7% [V-snip]. CCI procures at MSP when prices fall below it [K].
+- **MMF QCOs rescinded:** gazette **12-Nov-2025** (Ministry of Chemicals & Fertilizers) for PTA, MEG, PSF, polyester spun yarn, PFY, POY and industrial yarn. The VSF QCO was later withdrawn by the Ministry of Textiles [V-snip PTI/apparelresources]. Crisil: downstream garment makers benefit; upstream yarn faces import competition [V-snip].
+- **PLI for MMF apparel, MMF fabrics and technical textiles (outlay ₹10,683 Cr):**
+  - **170 companies sanctioned; ₹8,117.64 Cr invested; 33,427 jobs (to 31-Mar-2026)** (Lok Sabha reply 21-Jul-2026) [V-snip].
+  - Only **₹54 Cr disbursed (provisional, 2 applicants, FY25)** [V-snip].
+  - Modified Oct-2025 (+17 HSN codes; incremental turnover requirement 25% → 10%; lower thresholds) [V-snip]. Round III approved 52 applicants (Apr-2026; ₹6,708 Cr investment) [V-snip newsonair].
+  - Members' PLI participation is not verified (§H).
+- **PM MITRA parks:**
+  - 7 parks, outlay ₹4,445 Cr (FY22–FY28) [V-snip MoT].
+  - **Warangal (Kakatiya Mega Textile Park) was inaugurated 10-May-2026** as the first operational park: 1,327 acres, ~₹1,695 Cr cost, >₹6,000 Cr investment expected, >₹3,800 Cr grounded, ~62% allotted, ~24,400 jobs committed vs ~2,000 created. **Kitex is an anchor investor** [V-snip drishtiias/uniindia].
+- **Export incentives:**
+  - **RoSCTL** (apparel and made-ups; refunds embedded state/central levies) and **RoDTEP** (other items) are **extended to 31-Dec-2026** at rates/caps as of 30-Sep-2026 [V-snip PIB via manoramayearbook/taxguru].
+  - RoSCTL rates are roughly ~6–8% of FOB for garments [K, FLAG].
+  - Interest equalisation for MSME exporters (~3%) lapsed at end-2024 [K, FLAG].
+- **GST 2.0 (22-Sep-2025):** RMG ≤₹2,500/pc at 5% (threshold from ₹1,000); >₹2,500 at 18% (from 12%); MMF fibres/yarn at 5% (fixing the inverted duty) [V-snip PIB/FinMin].
+- **Labour Codes (in force 21-Nov-2025) [K]:** Code on Wages (national floor wage; "wages" ≥50% of CTC → higher PF/gratuity base), IR Code (layoff/closure approval threshold 100 → 300 workers; fixed-term employment), Social Security Code (gig workers), OSH Code (women on night shifts with consent). For garment exporters this means **higher statutory cost per worker (~2–5% of wage bill [E])** but more flexible hiring.
+- **Skilling:** a ₹25,000 Cr textile skilling programme is planned (Oct-2026 news) [V-snip CAI news digest].
+- **Forced-labour import ban (14-Jul-2026)** was India's response to the US Sec 301 basis [V csdronline].
+
+### 7.4 Bangladesh-specific restrictions by India
+
+- In May-2025 India barred Bangladeshi RMG imports through land ports (sea route only: Kolkata/Nhava Sheva). **Imports of RMG from Bangladesh fell 27% in Apr–Sep** after the restrictions [V-snip tribune]. Gokaldas's primer cites "India's move to curb some Bangladeshi garment imports" as a tailwind [primer].
+
+---
+
+## 8. History and cycles (narrative; full timeline in §G)
+
+- **1985–2004: the quota era (MFA).** Indian exporters grew inside fixed US/EU quotas. Gokaldas (founded 1979) and Pearl (incorporated 1987) were quota-era winners [V presentation; V screener].
+- **2005: quota abolition (1-Jan-2005).** China's share exploded. India grew too, but slower than Bangladesh. The 2005–08 boom saw Gokaldas IPO (2005), Page IPO (2007) and Kitex listing [K].
+- **2008–09: GFC destock.** Gokaldas went into a long decline under Blackstone (2007–17) [K].
+- **2011–2015:** Bangladesh's EU EBA advantage and wage gap drove its rise. India stalled around $16–17 bn (FY15–FY17) [K].
+- **2016–2019:** GST (Jul-2017) and the drawback-to-RoSL transition squeezed exporters (FY18 −4%). Page compounded at ~20% [K].
+- **2020–21: COVID.** India's apparel exports fell to ~$12.3 bn (FY21). Kitex pivoted to Telangana after a political fallout with the Kerala government (2021) [K; primer].
+- **2021–22: China+1 and the post-COVID boom.** Exports recovered to ~$16 bn. Cotton hit ~₹1 lakh/candy (May-2022). Page's channel over-stocked [K; primer].
+- **2023–24: destock and the Bangladesh shock.** US imports fell ~22% in 2023 [K]. India's FY24 exports were ~$14.5 bn. Page's revenue fell (FY24). Bangladesh's Aug-2024 uprising toppled Hasina (5-Aug-2024), pushing some orders to India [K]. Gokaldas bought Atraco and Matrix. Raymond demerged Lifestyle (listed 5-Sep-2024) [K].
+- **2025: the tariff shock.** IEEPA tariffs: 10% (Apr) → 25% (7-Aug) → 50% (27-Aug). India lost US share. Gokaldas absorbed ₹97 Cr of discounts. Kitex's revenue collapsed. GST 2.0 (22-Sep). Labour Codes (21-Nov). QCOs rescinded (12-Nov) [V/K].
+- **2026: reset.**
+  - India–EU FTA concluded (27-Jan); India–US interim deal (3-Feb); SCOTUS kills IEEPA (20-Feb); Sec 122 10% (24-Feb).
+  - West Asia war and freight spike (28-Feb → ceasefire 7-Apr).
+  - Warangal PM MITRA park opened (10-May). Cotton duty waived (1-Jun → 1-Oct).
+  - UK CETA in force (15-Jul). Sec 301 10% vs 12.5% (24-Jul).
+  - Bangladesh new government (17-Feb) and LDC graduation due 24-Nov.
+  - India's apparel exports: −12% in Q1 FY27, rebound +13.7% in Sep-2026 [V/V-snip].
+- **Listing waves:**
+  - 2005–07: Gokaldas (2005), Page (2007), Pearl (2006–08?) [K, FLAG].
+  - 2024: Raymond Lifestyle (demerger listing).
+  - No apparel exporter IPO in 2021–26 of note in this sub-sector [K].
+  - Upcoming: Kitex's ₹3,000 Cr raise; possible listings of large unlisted exporters (none confirmed).
+
+---
+
+## 9. Unit economics and native KPIs (benchmarks in §F)
+
+### 9.1 Member KPI readings (latest)
+
+| KPI | Page | Pearl | Gokaldas | Raymond Lifestyle | Kitex |
+|---|---|---|---|---|---|
+| Volume (latest) | 61.2 mn pcs Q1 FY27 (+5.7%); 228.4 mn FY26 (+3.9%) [V] | 20.8 mn pcs Q1 FY27 (+20.9%); 78.1 mn FY26 [V] | 14.2 mn pcs Q1 FY27 (+13%: India +3%, Africa +37%) [V] | garmenting +50% revenue Q1 [V] | n/s; revenue −19.5% Q1 [V-snip] |
+| Realisation / pc | ~₹232 (Q1 FY27) [E] | ₹735 (incl incentives) [V] | ₹728 blended; India ₹871, Africa ₹467 [V] | n/s | n/s |
+| EBITDA margin | 20.3% Q1; 22% FY26 [V] | 10.7% Q1; 9.2% FY26 [V] | 11.8% Q1; 10.7% FY26 (adj 13.0%) [V] | 5.9% (op. 8.6%) Q1; 11.4% FY26 co. / 10% screener [V] | 6% Q1; 4.5% FY26 [V screener] |
+| Export share | ~1–2% (Jockey territories) [E] | ~100% (multi-country) [primer] | ~90% (India domestic ~10%) [primer] | garmenting + HVCS ~20–25% of revenue [E] | ~100%; US 80–92% [primer; V-snip] |
+| US share of revenue | ~0 | ~45–55% [E, FLAG] | ~50% [primer illustrative, FLAG] | garmenting mostly US/EU [K, FLAG] | 80–92% |
+| Capacity & utilisation | n/s | ~108 mn pcs; ~75–80% [E] | 92 mn pcs; ~60–65% by pcs [E] | n/s | Kerala + Warangal 1.1 mn/day; ramp |
+| Inventory | high (~90–120 days at peak FY23) [primer] | n/s | ₹849 Cr (Jun-26) ≈ ~70 days of sales [E] | n/s | n/s |
+| Receivables | low (cash-and-carry MBOs) | n/s | ₹759 Cr ≈ 60 days [E] | n/s | 68 debtor days [V screener] |
+| NWC days | — | — | 79 (Jun-26), 75 FY26 [V] | — | 11.6 [V screener] |
+| ROCE | 64.4% [V] | 19.9% (PL FY26 17.4%) [V] | 7.65% screener / 12–13% company [V] | 3.52% [V] | 1.59% [V] |
+
+### 9.2 Cycle sensitivity (exporter) [E]
+
+- **Utilisation:** fixed costs (staff salaries, depreciation, rent) are ~20–25% of revenue. A 10-point utilisation drop cuts EBITDA margin ~2–3 points. Kitex's FY25 21% → FY26 4.5% is the extreme case: revenue −32% plus a new plant.
+- **FX:** for an exporter with ~50% imported or dollar-linked fabric, every 1% rupee depreciation adds ~0.3–0.5 point of EBITDA margin before buyer renegotiation [E]. From ₹84 (FY25 avg) to ₹94.9 (Oct-26) is −11%: a gross tailwind of ~3–5 points, mostly competed away in price or used to fund tariff discounts [E].
+- **Tariff discount:** a 3% FOB discount on the US half of revenue = −1.5 points of margin. Gokaldas's ₹97 Cr on ₹3,988 Cr = **−2.4 points** [V; E].
+- **Cotton:** a ₹10,000/candy (~15%) rise lifts fabric cost ~5–7% for cotton knits. With a 1–2 quarter pass-through lag, that is ~1–2 points of margin for integrated knitters (Kitex) [E].
+
+---
+
+## 10. Global lens
+
+| Company (country) | Revenue | EBITDA margin | Model | Comment |
+|---|---|---|---|---|
+| Shenzhou International (China/Vietnam/Cambodia) | ~RMB 30 bn (~US$4 bn) [K] | ~25–28% [K] | integrated knit for Nike/Uniqlo/Adidas | the global benchmark: fabric + garment, multi-country (most production outside China) |
+| Eclat Textile (Taiwan/Vietnam) | ~US$1 bn [K] | ~20% [K] | functional knit | |
+| Makalot (Taiwan; Vietnam/Indonesia) | ~US$1 bn [K] | ~15% [K] | multi-country woven/knit | closest analogue to Pearl |
+| Crystal International (HK; Vietnam/Bangladesh/Sri Lanka/Cambodia) | ~US$2.5 bn [K] | ~12–14% [K] | multi-country FOB for Uniqlo/H&M/Levi's | |
+| MAS Holdings (Sri Lanka, unlisted) | ~US$2 bn [K] | n/a | intimates/activewear | competes with Page's sourcing model for global brands |
+| Brandix (Sri Lanka, unlisted) | ~US$1 bn+ [K] | n/a | Brandix India apparel city (Vizag) | |
+| Hanesbrands (US) | ~US$3.5 bn [K] | ~12–14% [K] | innerwear brand owner | contrast with Page's 22% |
+| Jockey International (US, private) | n/a | n/a | brand owner, licensor | Page is its largest licensee [primer] |
+
+- **Indian exporters are sub-scale:** Pearl (~US$530 mn at ₹94.9; ~$575 mn at the FY26 average rate) and Gokaldas (~$420–455 mn) are a fraction of Shenzhou or Crystal. Indian margins are lower (9–13% vs 12–28%), but **Indian valuations are higher** (Pearl 36×, Gokaldas 49× vs Shenzhou/Crystal ~10–15× P/E [K, FLAG]). The market pays for the China+1/tariff option.
+- **Page vs Hanesbrands:** Page has higher margin (22% vs ~13%), far higher ROCE and grows faster. It is valued at ~50× vs Hanes ~10–15× [K, FLAG].
+
+---
+
+## 11. Technology and disruption risks
+
+- **Automation and digital sampling:** 3D design (Gokaldas "3D capability" design studio [V]), automatic printing, laser treatment, ZLD laundries [V presentation]. Automation of sewing (sewbots) is still limited to simple items [K].
+- **Speed-to-market and nearshoring:** USMCA/CAFTA hold ~13.7% of US imports (Apr-2026). Mexico is 2.8% with ~94% claiming USMCA duty-free [V Shenglu]. Pearl's Guatemala unit is a hedge (loss-making; breakeven targeted FY27) [primer; V PL].
+- **Compliance and traceability:** US UFLPA (Xinjiang cotton) and the new Sec 301 forced-labour basis. EU due diligence (CSDDD) and the EU ecodesign/digital product passport for textiles [K]. **Traceable cotton** (press marks and running numbers on bales, CAI proposal) [V CAI].
+- **MMF shift:** global apparel is ~60%+ synthetic [K]. India is cotton-heavy (Kitex 100% cotton/organic). The PLI and QCO rollback aim to build MMF garmenting.
+- **D2C/quick commerce (domestic):** D2C innerwear brands (XYXX +46%) and quick-commerce delivery threaten the MBO-led distribution moats of Page and Raymond [primer].
+- **Rental/resale/circularity:** EU textile EPR (Extended Producer Responsibility) [K] is a cost for exporters to Europe.
+
+---
+
+## 12. What to watch (leading indicators and dated events)
+
+| Date / frequency | What | Why it matters |
+|---|---|---|
+| **28-Oct-2026** | Raymond Lifestyle Q2 FY27 board [V] | wedding-season build, garmenting momentum, GST >₹2,500 effect |
+| late Oct–mid Nov 2026 | Page, Pearl, Gokaldas, Kitex Q2 FY27 boards (not yet announced) [V screener] | first full quarter under Sec 301 (24-Jul onward); holiday shipments |
+| ~15th of each month | Commerce Ministry quick estimates (RMG of all textiles) / AEPC release | Oct-2026 print: does the Sep +13.7% rebound hold? |
+| monthly | OTEXA US imports by country | India share recovery from ~5.9% |
+| **24-Nov-2026** | Bangladesh LDC graduation (or UN-approved deferral) [V-snip] | EU EBA transition clock to ~2029 |
+| 10-Nov & 10-Dec-2026 | USDA WASDE [V CAI] | ICE cotton direction |
+| weekly | CAI spot (ICS-105 29 mm), CAI crop estimate for 2026-27 (first estimate ~Nov) | cotton cost; 2026-27 acreage +7% [V-snip] |
+| 31-Dec-2026 | RoSCTL/RoDTEP expiry [V-snip]; AGOA 1-yr term ends (unless the 2028 extension is confirmed) | export incentive continuity; Gokaldas Kenya |
+| H1-2027 | India–EU FTA signing/ratification | the big prize: zero duty vs Bangladesh's EBA |
+| pending | US court rulings on Sec 301; IEEPA refund flow; Russia sanctions bill (up to 100%) | tariff tail risk |
+| pending | India–US BTA signing | could fix a bilateral rate |
+| FY27–28 | Pearl capacity 108 → 120–130 mn pcs; Gokaldas greenfields (Jharkhand, Karnataka) [primer]; Kitex Sitarampur; Kitex ₹3,000 Cr raise | supply additions and dilution |
+| quarterly | Page volume growth vs FY27 double-digit guide; EBITDA 19–21% [V-snip] | domestic demand barometer |
+
+---
+
+## A. The forces that define this sub-sector (what an expert analyst leads with)
+
+1. **Landed-cost arbitrage: tariff + duty + freight, not factory cost, decides who gets the order.**
+   - Exporter EBITDA is ~10% of FOB. A tariff or duty gap of 10–30 points therefore swamps any productivity edge.
+   - 2025 proved it: India at 50% vs peers at ~20% → US imports from India −26% in Jan–Jul 2026 [V-snip].
+   - 2026 reversed it: India 10% vs China/Vietnam 12.5%, UK 0% under CETA, EU 0% to come.
+   - The writer should frame every exporter number as "before/after the landed-cost gap closed".
+2. **China+1 is real, but the "+1" has mostly been Vietnam and Bangladesh, not India.**
+   - China's US share fell from ~35% (2015) [K] → 21% (2023) → ~11% (Jan–Jul 2026) [V-snip]. Vietnam took ~22% of US imports; Bangladesh ~11%; India stayed at ~6%.
+   - India's exports were flat for a decade (~$16 bn FY15 vs ~$15.8 bn FY26).
+   - India's handicaps: fragmented, small factories; processing bottlenecks; MMF weakness (QCOs until Nov-2025); labour laws (now codified); EU/UK duty disadvantage (being removed).
+3. **Inputs: cotton is India's natural edge, but price and policy volatility erode it.**
+   - Cotton is ₹68,300/candy (+25% YoY), MSP is up 50% in six years, and the 11% import duty is on/off.
+   - MMF policy is moving from protection (QCOs) to openness. Integrated players (Kitex, KPR, Page via yarn sourcing) feel cotton in margins within 1–2 quarters.
+4. **Domestic branded demand: formalisation + premiumisation, routed through distribution moats.**
+   - The domestic market is ₹9.3 lakh Cr (FY25), ~41% organised, with innerwear ~₹85,000–1,00,000 Cr [V-snip/E].
+   - Page's MBO/EBO machine and Raymond's TRS franchise are the moats. D2C and quick-commerce are the disruptors. GST 2.0's ₹2,500 line splits winners (mass/premium-mass) from losers (premium suits, ethnic).
+5. **Capital intensity and working capital decide returns.**
+   - Brands: ROCE 64% (Page).
+   - Exporters: ROCE 12–20%. Working capital is 60–80 days (Gokaldas NWC 79 days). Debt-funded greenfields (Kitex ₹3,550 Cr; Gokaldas Africa net debt ₹521 Cr) drag returns for years.
+   - The rupee at ₹94.9 helps exporters' rupee margins but is largely competed away or used to fund buyer discounts.
+
+---
+
+## B. Bespoke deep-dive themes (own sections in the report)
+
+### B1. "The tariff roller-coaster": 50% → 18% → 0 → 10% in twelve months
+- **Spine:** the §7.1 table plus a chart of India's tariff vs Bangladesh/Vietnam/China by month (dataset E5).
+- **Order evidence:**
+  - US imports from India −28% (Jan–Apr 2026) and −25.75% (Jan–Jul) [V/V-snip].
+  - India's apparel exports −12% in Q1 FY27, −6.2% in H1 FY27, then +13.7% in Sep-2026 [V/V-snip].
+  - Holiday orders −25–30% [V-snip].
+- **Company evidence:**
+  - Gokaldas ₹97 Cr tariff impact (FY26) [V]. Its India business then grew +16% in Q1 FY27 "benefiting from a shift to the lower tariff regime under Section 122" [V].
+  - Pearl India +27.4% on "removal of tariff overhangs" [V PL].
+  - Kitex −32% (FY26) and −19.5% (Q1 FY27) [V].
+  - RLL garmenting Q4 FY26 +38% and Q1 FY27 +50% [primer; V].
+- **Unfinished business:** IEEPA refunds go to US importers, and "customers largely not passing them on" [V PL]. Sec 301 faces a legal challenge. The Russia-sanctions bill threatens up to 100% [V csdronline]. The India–US BTA is unsigned.
+- **Callouts:** "A 10-point tariff is the size of an exporter's whole EBITDA margin"; "India now pays less than China and Vietnam for the first time".
+
+### B2. "Cotton to closet": input costs, and what MSP, duty and QCO policy do to a T-shirt
+- Cotton ₹/candy history (E7), MSP series (E8), ICE vs Indian basis (CAI: Indian cotton ~0.9% below Cotlook A [V]).
+- The 2025–26 duty waivers.
+- MMF: the West Asia spike and the QCO rescission (12-Nov-2025).
+- A worked yarn → fabric → garment cost stack (C.1).
+- Why India's cotton advantage hasn't translated into garment share: the processing bottleneck and small factories.
+
+### B3. "Bangladesh, Vietnam and the China+1 map"
+- **Bangladesh:**
+  - $38.5 bn exports (2024; 6.9% world share) [V-snip]. Jul–Sep 2026 RMG +6.1% to $10.58 bn [V-snip].
+  - 2024 uprising (Hasina out 5-Aug-2024) [K]; BNP government 17-Feb-2026 [V-snip].
+  - LDC graduation 24-Nov-2026 with a deferral request [V-snip]; wages Tk 12,500 [V-snip].
+  - The US Sec 301 TRQ for US-cotton garments (an advantage India lacks) [V].
+- **Vietnam:** 22% of US imports, +1% in 2026, but 12.5% Sec 301 and "transshipment" scrutiny [V-snip; K].
+- **Cambodia:** +14% in the US in 2026; $210 wage [V-snip].
+- **China:** US share halving; Japan diversifying [V PL].
+- **Pearl's footprint as a live hedge:** Bangladesh capacity to 108 mn pcs; new Vietnam subsidiary on 20-Oct-2026 [V].
+
+### B4. "Innerwear and the branded domestic engine": Page, Jockey and the channel cycle
+- The licence (1994 → 2040).
+- Volume vs value: FY26 228.4 mn pcs; ₹230/pc; Q1 FY27 ₹232/pc [E].
+- The FY23–FY24 destock and ARS.
+- Distribution: 1,15,208 MBOs, 1,604 EBS, 930 LFS, 2,732 towns [V PR].
+- Women's share gap (5–6% vs 19–20%) [primer]; D2C threat; GST ≤₹2,500 benefit.
+- The de-rating: 60–90× → 49.8× [primer; V].
+- Raymond's TRS/wedding economics as the contrasting branded model.
+
+### B5. "The FTA dividend": UK in force, EU concluded
+- UK: 0% vs 9.6–12% before; parity with Bangladesh; 12% advantage over China [V Gokaldas].
+- EU: ~€90 bn apparel import market [E from Gokaldas chart; FLAG]. India today pays 12% (MFN) or 9.6% (GSP) vs Bangladesh 0%. The FTA is expected ~2027.
+- Rules of origin: whether Indian garments using Chinese fabric qualify [V-snip textalks "origin rules will decide the winners"].
+- Gokaldas UK ~5% of revenue, "potentially doubling" [primer].
+
+---
+
+## C. The REVENUE / PROFIT EQUATION
+
+- **Exporter:** Revenue = pieces shipped × FOB realisation/piece (₹ = US$ FOB × ₹/$ + export incentives). EBITDA = Revenue − fabric & trims − CMT labour − power/processing − freight/compliance − overheads − tariff discounts. Pieces = installed capacity × utilisation.
+- **Brand:** Revenue = pieces × realisation/piece. Equivalently, Σ channels (MBO count × throughput per MBO + EBO count × sales per EBO + LFS + online), net of distributor/retail margins. EBITDA = Revenue − materials − manufacturing − royalty − A&P − distribution.
+
+### C.1 Worked example 1: one Indian-made export garment (Gokaldas-India type, Q1 FY27) [E composite; ASP and margin V]
+
+| Line | ₹ per piece | % of FOB | Basis |
+|---|---|---|---|
+| FOB realisation (India ASP) | **871** | 100% | Gokaldas India Q1 FY27 [V] (= US$9.18 at ₹94.9) |
+| Fabric + trims | ~418 | ~48% | [E] |
+| CMT labour (cut, sew, finish, staff) | ~200 | ~23% | [E] |
+| Power, washing, printing, job work | ~61 | ~7% | [E] |
+| Freight-out, compliance, testing, sampling | ~35 | ~4% | [E] |
+| Admin, selling, other | ~46 | ~5% | [E] |
+| **EBITDA** | **~111** | **12.7%** | Gokaldas India EBITDA margin Q1 FY27 [V] |
+| Depreciation | ~34 | ~4% | [E] |
+| Interest | ~23 | ~2.6% | [E] |
+| **PBT** | **~54** | **~6%** | [E] |
+
+- **Scale-up:** 9.2 mn pcs/qtr × ₹871 = **₹801 Cr/qtr** of India revenue (company India income ₹941 Cr includes other income and non-piece revenue) [V; E]. Annualised ~37 mn pcs ≈ **₹3,200 Cr** [E].
+- **Tariff sensitivity, per piece, US-bound:**
+  - **At 10% Sec 301 + ~16.5% MFN** the US importer pays duty of ~$2.43 on $9.18 FOB. Landed ≈ $12.1 with ~$0.5 freight [E].
+  - **At the Aug-2025 peak (50% + 16.5%)** duty was ~$6.10, so landed ≈ $15.8. That is **+31% vs a Bangladesh-made equivalent at 20% + 16.5%** (~$13.0) [E].
+  - A **5% FOB discount** to share that gap = ₹44/pc = **~40% of the exporter's EBITDA per piece** [E].
+- **FX sensitivity:** each ₹1/$ move on a $9.18 FOB = ₹9.2/pc. If fabric is ~50% dollar-linked, the net effect is ~₹4.6/pc ≈ **+0.5 point of margin per ₹1/$** [E].
+
+### C.2 Worked example 2: Pearl Global's multi-country machine (Q1 FY27) [V/E]
+
+| Line | Value | Basis |
+|---|---|---|
+| Pieces shipped | 20.8 mn (+20.9%) | [V PL] |
+| Realisation | ₹735/pc incl export incentives | [V PL] |
+| Revenue | 20.8 mn × ₹735 = **₹1,529 Cr** | [E] matches the reported ₹1,528 Cr [V] |
+| EBITDA (10.7%) | ₹164 Cr ≈ **₹79/pc** | [V; E] |
+| PAT | ₹98–101 Cr ≈ ₹48/pc | [V] |
+| Capacity | ~108 mn pcs (after Sep-26) → utilisation ≈ 20.8×4/108 = **~77%** (seasonally high quarter) | [V; E] |
+| FY28 target | 120–130 mn pcs; revenue >₹6,000 Cr | [V PL] |
+
+- **Routing logic:** an order for the US made in **Bangladesh with US cotton** pays MFN + 0% (TRQ). In **India** it pays MFN + 10%; in **Vietnam** MFN + 12.5%; in **Guatemala** 0% (CAFTA-DR, yarn-forward rules) [V PL; V csdronline; K].
+- The same ₹735 garment can therefore land up to **12.5% cheaper** depending on where Pearl sews it [E].
+
+### C.3 Worked example 3: Page, a domestic brand (FY26) [V/E]
+
+| Line | Value | Basis |
+|---|---|---|
+| Pieces sold | 228.4 mn | [primer/V] |
+| Realisation per piece | ₹5,247 Cr ÷ 228.4 mn = **₹229.7** (Q1 FY27: ₹232) | [E] |
+| Revenue | ₹5,247 Cr | [V] |
+| Materials ~40% | ~₹92/pc | [E] |
+| Employee ~17% | ~₹39/pc | [E] |
+| Royalty ~5% | ~₹11/pc | [primer FLAG; E] |
+| A&P ~4.5% | ~₹10/pc | [E] |
+| Distribution, rent, other ~11.5% | ~₹27/pc | [E] |
+| **EBITDA 22%** | **₹50.5/pc → ₹1,153 Cr** | [V screener OP] |
+| PAT 14.6% | ₹33/pc → ₹764 Cr | [V] |
+
+- **Channel arithmetic:**
+  - If MBOs carry ~55–60% of sales [E, FLAG], each of 1,15,208 MBOs buys **~₹2.5–2.7 lakh/yr** of Jockey at Page's realisation (~1,100 pieces, or ~3 pieces a day).
+  - If EBOs carry ~15–20% [E, FLAG], each of 1,604 EBOs does **~₹50–65 lakh/yr** at Page's realisation (~₹1–1.2 Cr at MRP after a ~45% channel/retail margin) [E].
+- **Growth sensitivity:** +1% volume = +₹52 Cr revenue and ~+₹12–15 Cr EBITDA with operating leverage. +1% realisation (mix) = +₹52 Cr revenue and ~+₹35–40 Cr EBITDA [E].
+- **GST effect:** most Jockey pieces are below ₹2,500 MRP, so the 5% slab applies. Page's GST moved 12% → 5% for any piece earlier priced above ₹1,000 MRP (e.g. premium bras, athleisure) [E from V-snip GST rule].
+
+### C.4 Worked example 4: Raymond Lifestyle, from wedding suit to segment margin (Q1 FY27) [V/E]
+
+| Segment | Revenue ₹ Cr | EBITDA ₹ Cr | Margin |
+|---|---|---|---|
+| Branded textile (suiting/shirting fabric) | 684 | 95 | 13.9% |
+| Branded apparel (Park Avenue, ColorPlus, Parx, Raymond RTW, Ethnix) | 349 | 18 | ~5.2% |
+| Garmenting (B2B export) | 296 | 22 | ~7.4% |
+| High-value cotton shirting (B2B) | 195 | ~19 | 9.7% |
+| **Reported (after eliminations, corporate)** | **1,516** | **89.8 (5.9%); "operating" 135 (8.6%)** | |
+
+Source: [V apparelresources; E for HVCS EBITDA ₹ and apparel/garmenting margins].
+- **Wedding-suit arithmetic** [E]: a 3.2 m worsted suit length at ₹1,500–3,000/m = ₹4,800–9,600 of fabric at MRP. Under GST 2.0, fabric remains at **5% GST** (textile), but a ready-made suit above ₹2,500 now pays **18%**. That favours the fabric-plus-tailoring route that TRS serves [E from V-snip GST rule].
+
+### C.5 Company-level reconciliations [E]
+- Gokaldas FY26: revenue from operations ₹3,988 Cr (screener) vs total income ₹4,065 Cr (primer "revenue") — the difference is ₹77 Cr other income [V presentation]. EBITDA ₹434 Cr reported vs ₹530 Cr adjusted (adds back the ₹97 Cr tariff impact) [V].
+- RLL FY26: EBITDA ₹804 Cr company vs ₹678 Cr screener OP [primer; V].
+- Pearl FY26: EBITDA ₹464 Cr (PL, 9.2%) vs screener OP ₹484 Cr (10%) [V].
+
+---
+
+## D. Proposed 6-cell stat strip (₹ only)
+
+| Cell | Value | Basis / source |
+|---|---|---|
+| 1. Combined FY26 revenue (5 members) | **₹21,815 Cr** (+6.6%) | Sum of screener [E] |
+| 2. India's apparel exports, FY26 | **~₹1.38 lakh Cr** (≈US$15.8 bn at ~₹87.5 FY26 avg) | AEPC/MoC + Gokaldas chart [V-snip/E] |
+| 3. India's domestic apparel retail market, FY25 | **₹9.3 lakh Cr** (→ ~₹16 lakh Cr FY30) | CareEdge [V-snip] |
+| 4. Indian cotton (ICS-105 29 mm, ≈Shankar-6), 21-Oct-2026 | **₹68,300 per candy** (~+25% YoY) | CAI spot [V] |
+| 5. Gokaldas's US-tariff hit, FY26 | **₹97 Cr** (≈2.4% of revenue) | Gokaldas Q1 FY27 presentation [V] |
+| 6. Page's average realisation per piece | **₹232** (Q1 FY27; 61.2 mn pcs, ₹1,420 Cr) | Page press release [V]; arithmetic [E] |
+
+**Alternate cells:**
+- Page ROCE 64% vs Raymond Lifestyle 3.5% [V screener].
+- Gokaldas ASP India ₹871 vs Africa ₹467 per piece [V].
+- Cotton MSP 2026-27 ₹8,267/qtl [V-snip].
+- Combined market cap ₹60,869 Cr, Page 64% of it [E].
+- PLI textiles investment ₹8,118 Cr vs ₹54 Cr disbursed [V-snip].
+
+---
+
+## E. Chart-ready datasets
+
+**E1. India apparel (RMG) exports, US$ bn, FY15–FY26** [K MoC/AEPC series; FY25 V-snip Crisil; FY26 E]
+FY15 16.8 · FY16 17.0 · FY17 17.4 · FY18 16.7 · FY19 16.2 · FY20 15.5 · FY21 12.3 · FY22 16.0 · FY23 16.2 · FY24 14.5 · FY25 16.0 · FY26 ~15.8
+
+**E2. India apparel exports in 2026 (fiscal FY27 to date)** [V-snip AEPC; V Gokaldas]
+Q1 FY27 (Apr–Jun) −12% YoY (~US$3.2–3.3 bn [E]) · Apr–Sep 2026 US$7.2 bn (−6.2% vs $7.7 bn) · Sep-2026 US$1.1 bn (+13.7%) · implied Jul–Sep 2026 ~US$3.9–4.0 bn (~flat to slightly up YoY [E])
+(Monthly Apr–Aug 2026 values not sourced; see §H.)
+
+**E3. US apparel imports Jan–Jul 2026 by country, US$ bn and YoY** [V-snip textilesresources/OTEXA]
+Vietnam 9.36 (≈+1%) · Bangladesh ~4.66 (≈−8%) · China 4.55 (−34.2%) · Indonesia 2.73 · Cambodia 2.62 · India 2.45 (−25.75%) · Total 41.83 (−8.64%)
+
+**E4. US apparel imports, YoY change Jan–Apr 2026** [V Shenglu]
+China −50.2% · India −28.0% · Bangladesh −11.2% · Total −12.0% · Vietnam +1.3% · Indonesia +2.3% · Turkey +6.4% · Cambodia +14.2% · Egypt +14.7%
+
+**E5. Additional US tariff on apparel (over MFN), by country and date, %** [V-snip/K; Sec 301 V]
+
+| Period | India | Bangladesh | Vietnam | Cambodia | China* | Sri Lanka |
+|---|---|---|---|---|---|---|
+| Jan–Mar 2025 | 0 | 0 | 0 | 0 | 20 (fentanyl) + legacy 301 | 0 |
+| 5-Apr-2025 | 10 | 10 | 10 | 10 | 125–145 (Apr) → 30 (mid-May) | 10 |
+| 7-Aug-2025 | 25 | 20 | 20 | 19 | 30 | 20 |
+| 27-Aug-2025 | **50** | 20 | 20 | 19 | 30 → 20 (Nov) | 20 |
+| 24-Feb-2026 (Sec 122) | 10 | 10 | 10 | 10 | 10 | 10 |
+| 24-Jul-2026 (Sec 301) | **10** | 10 (0 in TRQ) | **12.5** | 10 (0 in TRQ) | **12.5** | 10 |
+
+*China excludes legacy 2018–19 Sec 301 duties on listed apparel lines [K, FLAG]. Values before 24-Jul-2026 are [K] except India's 25/50 [V-snip AEPC/DH].
+
+**E6. World apparel export share 2024, %** [V-snip WTO via Daily Star/FE]
+China 29.64 · Bangladesh 6.90 · Vietnam 6.09 · Turkey 3.21 · India 2.94 · Cambodia 1.77 · Pakistan 1.66 · Indonesia 1.57 · USA 1.26 (world total US$557.5 bn)
+
+**E7. Indian cotton price (Shankar-6 / ICS-105 29 mm), ₹/candy** [K unless tagged]
+Oct-2020 ~38,000 · May-2022 peak ~1,00,000+ · Mar-2023 ~61,000 · Mar-2024 ~59,000 · Mar-2025 ~53,500 · Oct-2025 ~54,000–55,000 [K/E: implied by "+25%"] · May-2026 ~68,700 [V CAI] · 12-Oct-2026 67,000 [V] · 16-Oct-2026 68,000 [V] · 21-Oct-2026 **68,300** [V]
+
+**E8. Cotton MSP, medium staple kapas, ₹/qtl** [K; 2026-27 V-snip]
+2020-21 5,515 · 2021-22 5,726 · 2022-23 6,080 · 2023-24 6,620 · 2024-25 7,121 · 2025-26 7,710 · 2026-27 8,267 (long staple: 7,521 → 8,110 → 8,667)
+
+**E9. ICE cotton futures curve, 20-Oct-2026, US c/lb** [V CAI]
+Dec-26 80.88 · Mar-27 84.18 · May-27 85.86 · Jul-27 86.32 · Oct-27 80.09 · Dec-27 79.37 · Mar-28 79.99
+
+**E10. Members' FY26 revenue and EBITDA margin** [V screener]
+Page ₹5,247 Cr / 22% · Pearl ₹5,025 / 10% · Gokaldas ₹3,988 / 9% · Raymond Lifestyle ₹6,888 / 10% · Kitex ₹667 / 4.5%
+
+**E11. Quarterly revenue, ₹ Cr, Sep-24 → Jun-26 (8 quarters)** [V screener]
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Page | 1,246 | 1,313 | 1,098 | 1,317 | 1,291 | 1,387 | 1,253 | 1,420 |
+| Pearl | 1,202 | 1,023 | 1,229 | 1,228 | 1,313 | 1,170 | 1,314 | 1,528 |
+| Gokaldas | 929 | 988 | 1,015 | 956 | 984 | 979 | 1,069 | 1,154 |
+| Raymond Lifestyle | 1,708 | 1,754 | 1,494 | 1,430 | 1,832 | 1,849 | 1,776 | 1,516 |
+| Kitex | 216 | 276 | 300 | 197 | 122 | 182 | 166 | 158 |
+
+Quarterly OPM % (same quarters):
+- Page 23/23/21/22/22/23/21/20
+- Pearl 8/9/10/9/9/8/10/11
+- Gokaldas 7/11/12/10/7/8/11/10
+- RLL 13/10/0.9/5/12/13/7/6
+- Kitex 25/20/17/17/−13/4.7/1.0/6
+
+(Kitex's Sep-25 quarter is the tariff-shock quarter: −13% OPM.)
+
+**E12. Gokaldas India vs Africa, Q1 FY27** [V presentation]
+Income ₹ Cr: India 941 / Africa 239 · Volume mn pcs: 9.2 / 5.1 · ASP ₹: 871 / 467 · EBITDA margin: 12.7% / 8.1% · YoY growth: India +16% / Africa +45%
+
+**E13. Page volume and realisation** [V screener/PR; primer; E]
+Revenue ₹ Cr FY20–FY26: 2,946 · 2,833 · 3,886 · 4,714 · 4,569 · 4,935 · 5,247 · Volume FY25 ~220 mn → FY26 228.4 mn → Q1 FY27 61.2 mn (+5.7%) · Realisation ~₹224 (FY25 [E]) → ₹229.7 (FY26) → ₹232 (Q1 FY27)
+
+**E14. Domestic apparel market and innerwear** [V-snip CareEdge; E]
+Apparel retail ₹ lakh Cr: FY18 ~5.8 [E from 7% CAGR] · FY25 9.3 · FY30E ~16 · organised share ~41% · Innerwear ~₹0.85–1.0 lakh Cr [E]
+
+**E15 (bonus). Monthly minimum wage, US$** [V-snip; dated]
+Bangladesh ~102–114 (Tk 12,500; 2023–26) · Pakistan ~111 (2024) · Vietnam ~170 (2024) · India ~172 (2024; state averages) · Cambodia 210 (2026) · Indonesia ~243 (2024) · China ~304 (2024)
+
+**E16 (bonus). Bangladesh RMG exports, Jul–Sep 2026 (Bangladesh Q1 FY27)** [V-snip EPB/UNB]
+Total $10.578 bn (+6.10%) · knit $5.963 bn (+6.88%) · woven $4.614 bn (+5.11%) · Sep-2026 $3.082 bn (+8.56%)
+
+---
+
+## F. KPI glossary with benchmarks (good / average / weak) [E unless sourced]
+
+| KPI | Definition | Good | Average | Weak | Latest member readings |
+|---|---|---|---|---|---|
+| **Volume growth** | YoY change in pieces shipped/sold | Exporter >12%; brand >8% | Exporter 5–12%; brand 3–8% | Exporter <5%; brand <3% | Pearl +20.9% (Q1); Gokaldas +13% (India +3%, Africa +37%); Page +5.7% (Q1), +3.9% (FY26) [V] |
+| **Realisation per piece** | Revenue ÷ pieces (FOB ₹ for exporters; net of channel margin for brands) | rising >3% YoY on mix | 0–3% | falling | Page ₹232 (+~2%); Pearl ₹735 (+3%); Gokaldas India ₹871 (+11%), Africa ₹467 (+5%) [V/E] |
+| **EBITDA margin** | EBITDA ÷ revenue | Exporter >12%; integrated knit >18%; brand >20% | 9–12%; 12–18%; 15–20% | <9%; <12%; <15% | Page 20.3%; Gokaldas 11.8%; Pearl 10.7%; RLL 5.9% (op 8.6%); Kitex ~6% (Q1 FY27) [V] |
+| **Export share & US share** | Export revenue ÷ total; US revenue ÷ total | diversified: US <40%, no market >50% | US 40–60% | US >60% | Kitex US 80–92% (weak); Gokaldas ~50%; Pearl ~45–55% [E]; Page ~0 |
+| **Capacity (pcs/yr) & utilisation** | Installed annual pieces; shipped ÷ capacity | >80% | 65–80% | <65% | Pearl ~77% of 108 mn [E]; Gokaldas ~60–65% of 92 mn [E]; Kitex ramp (≤60%) [V-snip] |
+| **Inventory days** | Inventory ÷ COGS × 365 (or ÷ sales) | Exporter <60; brand <90 | 60–90; 90–120 | >90; >120 | Gokaldas ~70 on sales (Jun-26) [E]; Page peak ~120 (FY23) → lower post-ARS [primer] |
+| **Receivable days** | Receivables ÷ revenue × 365 | <45 | 45–75 | >75 | Gokaldas ~60 (Jun-26) [E]; Kitex 68 [V screener] |
+| **Net working-capital days** | (Inv + Rec − Pay) ÷ revenue × 365 | <60 | 60–90 | >90 | Gokaldas 79 (Jun-26), 75 (FY26) [V]; Kitex 11.6 [V screener] |
+| **ROCE** | EBIT ÷ (equity + debt − cash) | Exporter >18%; brand >40% | 12–18%; 20–40% | <12%; <20% | Page 64.4%; Pearl 19.9%; Gokaldas 7.65% (company 13%); RLL 3.5%; Kitex 1.6% [V] |
+| Net debt / EBITDA | | <1× | 1–2.5× | >2.5× | Gokaldas 650/556 annualised ≈ 1.2× [E]; Kitex ~1,199 debt on ~₹30 Cr EBITDA FY26 (≫5×) [primer; E]; Page/RLL net cash |
+| Tariff gap vs best competitor (US) | India additional tariff − lowest peer rate | ≤0 | 0–5 pts | >5 pts | +2.5 vs Vietnam/China (India better); 0 vs Bangladesh (−10 on TRQ volumes) [V] |
+
+---
+
+## G. Timeline (year: event)
+
+1. **1979:** Gokaldas Exports founded (Bengaluru) [V presentation].
+2. **1987:** Pearl Global incorporated [V screener].
+3. **1992:** Kitex Garments incorporated (Sabu M. Jacob; Anna-Kitex group) [V screener].
+4. **1-Apr-1994:** Page Industries signs the Jockey licence for India [primer; CIN shows 1994].
+5. **1-Jan-2005:** WTO quota (MFA/ATC) abolition [K]. Gokaldas IPO 2005 [K].
+6. **2007:** Page IPO at ₹360 [primer]. Blackstone takes control of Gokaldas [K].
+7. **2017:** Blackstone exits Gokaldas to Clear Wealth (Mathew Cyriac) [K]. GST launched 1-Jul-2017 [K].
+8. **2018:** Jockey licence extended to 31-Dec-2040 [primer].
+9. **Sep-2021:** PLI for MMF apparel and technical textiles approved (₹10,683 Cr) and PM MITRA (7 parks) announced [K].
+10. **May-2022:** Cotton peaks ~₹1 lakh/candy [K].
+11. **2023–24:** Page channel destock (FY24 revenue −3%) [V screener]. Bangladesh minimum wage hiked to Tk 12,500 (Dec-2023) [V-snip].
+12. **Early 2024:** Gokaldas acquires Atraco (Kenya/Ethiopia) and Matrix [primer].
+13. **5-Aug-2024:** Bangladesh's Hasina government falls [K]. **5-Sep-2024:** Raymond Lifestyle lists after the demerger [K].
+14. **5-Apr / 7-Aug / 27-Aug-2025:** US IEEPA tariffs on India: 10% → 25% → 50% [K; V-snip].
+15. **24-Jul-2025:** India–UK CETA signed [K]. **19-Aug-2025:** cotton import duty waived (to 31-Dec-2025) [K]. **~29-Aug-2025:** Kitex Warangal commercial production [V-snip].
+16. **22-Sep-2025:** GST 2.0 (apparel ≤₹2,500 at 5%, above at 18%) [V-snip]. **30-Sep-2025:** AGOA lapses [V-snip].
+17. **12-Nov-2025:** QCOs on PTA/MEG/polyester fibre and yarn rescinded [V-snip]. **21-Nov-2025:** Labour Codes in force [K].
+18. **27-Jan-2026:** India–EU FTA concluded [V-snip]. **3-Feb-2026:** India–US interim deal (18%) [V]. Early Feb: AGOA renewed to 31-Dec-2026 [V-snip].
+19. **17-Feb-2026:** BNP's Tarique Rahman sworn in as Bangladesh PM [V-snip]. **18-Feb-2026:** Bangladesh requests a 3-year LDC deferral [V-snip].
+20. **20-Feb-2026:** SCOTUS strikes down IEEPA tariffs [V-snip]. **24-Feb-2026:** Sec 122 10% for 150 days [V-snip].
+21. **28-Feb → 7-Apr-2026:** West Asia war, Hormuz closure, freight and polyester spike; ceasefire [V-sib].
+22. **10-May-2026:** PM inaugurates Warangal Kakatiya PM MITRA park (Kitex anchor) [V-snip]. **1-Jun-2026:** cotton duty waived to 1-Oct [V].
+23. **15-Jul-2026:** India–UK CETA enters into force [V-snip]. **24-Jul-2026:** US Sec 301: India 10%, China/Vietnam 12.5%, US-cotton TRQ for BD/KH/ID/MY [V].
+24. **Sep-2026:** India apparel exports +13.7% (first post-tariff rebound) [V-snip]. Pearl's Bangladesh expansion to ~108 mn pcs capacity [V PL].
+25. **24-Nov-2026 (scheduled):** Bangladesh LDC graduation [V-snip]. **31-Dec-2026:** RoSCTL/RoDTEP and AGOA (1-yr) expiry dates [V-snip].
+
+---
+
+## H. Figures I could not source well (and conflicts)
+
+### H.1 Unsourced or weak
+1. **India's FY26 full-year apparel exports.** Apr–Jan is verified ($13.13 bn, +1.6%). The full year (~$15.8 bn) is parsed from a Gokaldas chart plus arithmetic, so the −1% vs FY25 is [E]. Monthly Apr–Aug 2026 values are not sourced. Only Q1 (−12%), H1 (−6.2%, $7.2 bn) and Sep (+13.7%, $1.1 bn) are.
+2. **India's apparel export series FY15–FY24** is [K] from memory of MoC "RMG of all textiles". Re-fetch from tradestat/AEPC before charting with precision.
+3. **India's share of US apparel imports 2015–2022** is [K/E]. Only 2023 (6%, USITC), 2025 ($4.93 bn of $77.62 bn ≈ 6.4%) and Jan–Jul 2026 (~5.9%) are sourced. OTEXA's site failed TLS from this sandbox.
+4. **Competitor tariff rates during the IEEPA era (Aug-2025)** — Bangladesh 20%, Vietnam 20%, Cambodia 19%, Indonesia 19%, Sri Lanka 20%, China 30%→20% — are [K]. Withdrawal of India's 25% Russia penalty in Feb-2026 is [K, FLAG]. Legacy China Sec 301 on apparel lines is [K].
+5. **US share of each exporter's revenue:** Gokaldas ~50% (primer "illustrative"), Pearl ~45–55% [E], RLL garmenting [K]. None verified from annual reports.
+6. **Innerwear market size and branded share:** sources disagree (Lux AR projections ~$11.6 bn; Statista ₹50,100 Cr women's; Ken/IMARC ~$10–11 bn; branded 55%). Technopak/Wazir figures were not found.
+7. **Channel mix for Page** (MBO/EBO/LFS/online shares) and quick-commerce penetration are not sourced. The C.3 throughput numbers are illustrative [E].
+8. **Page royalty (~5%)** is from the primer only, not re-verified.
+9. **Capacity data:** Kitex Kerala pcs/day; Page factory count; RLL worsted metres and garmenting pcs; Pearl capacity by country — all [K/E].
+10. **Labour productivity / cost per hour by country:** only monthly minimum wages, partly dated 2024 [V-snip]. No sourced pieces-per-worker comparison.
+11. **PLI participation of members:** not verified. Disbursement total ₹54 Cr is FY25 provisional only.
+12. **RoSCTL/RoDTEP rates for garments (~6–8% of FOB)** are [K].
+13. **Freight:** Drewry WCI August-2026 values conflict ($3,159 vs $4,526/FEU in adjacent weeks). No Oct-2026 India-lane rate was found.
+14. **Bangladesh minimum wage in 2026** (any post-election revision) was not found. LDC deferral outcome (UN CDP/UNGA) not found.
+15. **Cotton price history (pre-2026 Shankar-6 points)** is [K]. CAI 2025-26 crop "334 lakh bales" is [V-snip] and conflicts with earlier ~309–312 lakh bale CAI estimates [K]. No CAI 2026-27 first estimate yet.
+16. **Kitex Q1 FY27 board date** and the standalone/consolidated split of its Q1 loss (₹9 Cr vs ₹17 Cr).
+17. **Pearl Global bonus issue** (inferred from share-count change) — record date not verified.
+18. **Global peer financials (§10)** are [K] approximations.
+
+### H.2 Conflicts to flag to the writer
+- **AGOA term:** to 31-Dec-2026 (Feb-2026 signing, V-snip) vs to Dec-2028 (Senate 90–6; one report "signed 4-Sep"). Use "renewed in Feb-2026 through end-2026; a two-year extension to 2028 has been reported" unless confirmed.
+- **Sec 122 rate:** reported as 10% (White House on India) vs "up to 15% allowed". The applied rate was 10% [V-snip].
+- **Gokaldas tariff cost:** primer "~₹90 Cr discount" vs company **"₹97 Cr US tariff impact"** [V]. Use ₹97 Cr.
+- **Page LFS count:** primer 1,778 vs company Q1 FY27 PR **930 LFS** [V]. EBO 1,556 (primer) vs **1,604 EBS** [V].
+- **RLL EBITDA:** ₹804 Cr (company FY26) vs ₹678 Cr (screener OP). Q1 FY27 ₹89.8 Cr vs "operating" ₹135 Cr.
+- **Raymond garmenting "India–US trade deal" (primer):** the Feb-2026 interim deal was never signed. The relief came from IEEPA's demise and the Sec 122/301 10% rates.
+
+### H.3 Key source URLs (fetched or cited this session)
+- CAI homepage spot/ICE table (21-Oct-2026): https://www.caionline.in/ [V]; CAI weekly 2-Jun-2026: https://caionline.in/uploads/publications/doc/ISSUE_NO__09_02-06-2026.pdf [V]; CAI basis sheet 17-Oct-2026: https://caionline.in/uploads/cards/doc/Basis_Comparison_of_ICS_105_with_Cotlook_A_Index__C_F_Ports-17_10_2026.pdf [V]
+- Gokaldas Q1 FY27 investor presentation: https://www.gokaldasexports.com/uploads/2026/08/Investor-Presentation-1QFY27-Gokaldas-Exports.pdf [V]
+- Page Q1 FY27 press release: https://pageind.com/cdn/shop/files/Press_Release_Q1_FY27.pdf [V]
+- PL Capital, Pearl Global Q1 FY27 (6-Aug-2026): https://plindia.com/ResReport/PGIL-6-8-26-PL.pdf [V]
+- Sec 301 / TRQ / India exports to US: https://csdronline.com/blind-spot/tariffs-co-indias-textile-challenge-in-the-u-s-market/ [V]
+- Shenglu Fashion, US apparel imports (Jun-2026): https://shenglufashion.com/2026/06/10/patterns-of-u-s-apparel-imports-updated-june-2026/ [V]
+- AEPC Sep-2026 via Textiles Resources: https://www.textilesresources.com/news/india-apparel-exports-2026/ [V]; US imports Jan–Jul 2026: https://www.textilesresources.com/news/us-apparel-imports-2026/ [V-snip]
+- RLL Q1 FY27: https://apparelresources.com/business-news/retail/raymond-lifestyle-q1-loss-widens-to-us-2-36-million-garmenting-revenue-jumps-50 [V]
+- UK CETA in force: https://www.drishtiias.com/daily-updates/daily-news-analysis/india-uk-ceta-comes-into-effect/print_manually [V-snip]
+- India–EU FTA concluded: https://www.outlookbusiness.com/news/india-eu-conclude-fta-talks-zero-duty-for-apparel-chemicals-concessional-access-for-cars-wines [V-snip]
+- SCOTUS / Sec 122: https://www.outlookbusiness.com/economy-and-policy/why-us-supreme-courts-tariff-ruling-is-both-relief-and-risk-for-india ; https://ianslive.in/india-tariffs-to-drop-to-10-temporarily-wh-says--20260221022704 [V-snip]
+- AEPC Apr–Jan FY26: https://www.outlookbusiness.com/economy-and-policy/apparel-exports-inch-up-16-in-apr-jan-despite-global-headwinds-aepc [V-snip]
+- QCO rescission: https://www.theweek.in/wire-updates/business/2025/11/14/dcm61-biz-qco-textiles.html [V-snip]
+- GST 2.0 apparel: https://pib.gov.in/FactsheetDetails.aspx?Id=150293 ; https://www.outlookbusiness.com/news/garments-priced-above-25k-to-be-costlier-will-hurt-middle-class-affordability-industry-bodies [V-snip]
+- PLI Lok Sabha reply: https://plutusias.com/pli-scheme-for-textiles-₹8117-cr-investment-33k-jobs-by-march-2026/ [V-snip]
+- PM MITRA Warangal: https://www.drishtiias.com/state-pcs-current-affairs/pm-narendra-modi-inaugurates-pm-mitra-park-at-warangal-telangana/print_manually [V-snip]
+- Bangladesh LDC deferral: https://www.newsonair.gov.in/bangladesh-seeks-3-year-delay-in-ldc-graduation [V-snip]; BD Q1 FY27 exports: https://www.dhakatribune.com/business/421141/exports-up-over-6%25-to-13.1bn-in-q1-of-fy27 [V-snip]
+- WTO 2024 shares: https://thefinancialexpress.com.bd/economy/bangladesh/bangladesh-retains-second-largest-rmg-exporter-ranking [V-snip]
+- RoSCTL extension: https://www.manoramayearbook.in/current-affairs/india/2026/10/01/rosctl-scheme-extended-explained.html [V-snip]
+- AGOA: https://www.the-star.co.ke/news/2026-02-05-reprieve-for-kenyan-workers-as-trump-extends-agoa ; https://theeastafrican.co.ke/tea/business-tech/us-senate-backs-agoa-extension-to-2028-5558124 [V-snip]
+- Screener pages (21-Oct-2026): https://www.screener.in/company/PAGEIND/ , /PGIL/consolidated/, /GOKEX/consolidated/, /RAYMONDLSL/consolidated/, /KITEX/consolidated/ [V]
+
+### H.4 Primer issues noticed (for Part 3 / primer-issues.md)
+- **page-industries.html:**
+  - LFS count 1,778 and EBO 1,556 vs company Q1 FY27: 930 LFS, 1,604 EBS, 1,15,208 MBOs, 2,732 towns.
+  - The territory list omits Kuwait and Bahrain.
+  - Market cap ~₹47,700 Cr and "~60× P/E" (Jul-26) are stale (₹38,964 Cr, 49.8× on 21-Oct).
+  - Could add the FY27 guidance (double-digit volume, 19–21% EBITDA) and Q1 FY27 (₹1,420 Cr, 61.2 mn pcs).
+- **pearl-global.html:**
+  - Market cap ~₹7,400 Cr and 26–27× P/E are stale (₹11,237 Cr, 35.9×).
+  - The share count appears to have doubled (bonus?), so the primer's per-share data may be on the old basis.
+  - Capacity is now ~108 mn pcs (target 120–130 mn by FY28).
+  - Add the Q1 FY27 numbers (₹1,528 Cr, 20.8 mn pcs, ₹735/pc) and the US-cotton TRQ advantage for its Bangladesh/Indonesia units.
+- **gokaldas-exports.html:**
+  - "Revenue ~₹4,065 Cr" is total income; revenue from operations is ₹3,988 Cr.
+  - "~₹90 Cr tariff discount" vs company "₹97 Cr US tariff impact".
+  - The geographic mix (US ~50% etc.) is labelled illustrative — needs an annual-report source.
+  - Promoter holding 9.15%, 96.3% pledged (screener) should be prominent.
+  - P/E 55–57× and market cap ₹5,850 Cr are stale (48.7×, ₹5,013 Cr).
+  - Capacity: 92 mn pcs.
+- **raymond-lifestyle.html:**
+  - "Garmenting recovered on the India–US trade deal" — the deal was never signed. The relief was IEEPA's removal (SCOTUS 20-Feb-2026) and the 10% Sec 122/301 rates.
+  - EBITDA ₹804 Cr (company) vs ₹678 Cr (screener) — the basis should be labelled.
+  - Market cap ~₹3,980 Cr is stale (₹3,367 Cr, 52-week low, 0.35× book).
+  - Q1 FY27 loss ₹22.6 Cr; Q2 board 28-Oct.
+  - Promoter pledge (J.K. Investors, 29-Sep-2026) not mentioned.
+- **kitex-garments.html:**
+  - US share "80–90%" vs ~92% reported (apparelresources).
+  - Market cap ~₹2,500 Cr is stale (₹2,288 Cr, ₹115 near the 52-week low ₹113).
+  - Could note that Warangal sits in the PM MITRA Kakatiya park (inaugurated 10-May-2026).
+  - Screener flags possible interest capitalisation and ₹76.7 Cr other income.
+- **Sub-sector-wide:** primers predating 24-Jul-2026 do not describe the Sec 301 10%-vs-12.5% structure or the US-cotton TRQ for Bangladesh/Cambodia/Indonesia/Malaysia. Primers predating 15-Jul-2026 may describe UK CETA as "signed, not in force".
+
+*End of Part 1. Company fact packs (Part 2) and the KPI appendix (Part 3) are in `_cloud/garments-companies-1.md`.*
