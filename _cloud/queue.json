@@ -1,22 +1,202 @@
 [
-  {"slug": "private-banks", "key": "Bank || Private Sector Bank", "name": "Private Sector Banks",
-   "angle": "Lender report (use lender metrics everywhere). Forces: the deposit war and CASA erosion; NIM compression through the 2025-26 RBI rate-cut cycle; unsecured retail / credit-card / MFI stress and credit costs; loan-to-deposit ratio after the HDFC-HDFC Bank merger; large vs mid-size vs small private banks; digital and fee income; governance episodes (e.g. IndusInd derivatives accounting 2025). KPI masterclass on NIM, CASA, cost of funds, credit cost, GNPA/NNPA/PCR, RoA tree, CET1, LDR."},
-  {"slug": "realty", "key": "Realty || Residential, Commercial Projects", "name": "Real Estate Developers",
-   "angle": "Pre-sales vs revenue recognition (POCM/completed-contract accounting under Ind AS 115), collections, launches, land banks and JDAs, the 2021-26 residential upcycle and luxury shift, regional markets (MMR, NCR, Bengaluru, Pune, Hyderabad), RERA, net debt and cash flows, annuity/commercial office and REITs, inventory overhang. KPIs: pre-sales, collections, realisation per sq ft, launches, embedded EBITDA margin, net debt/equity."},
-  {"slug": "it-services", "key": "IT || Computers - Software & Consulting", "name": "IT Services",
-   "angle": "Constant-currency growth and deal TCV, GenAI-driven deflation in run/maintain work, US clients' discretionary spend, the 2025-26 US H-1B fee and visa/tariff politics, GCCs (global capability centres) as competitor and customer, margins (utilisation, pyramid, subcontracting, wage hikes, rupee), attrition and headcount, tier-1 vs mid-tier. KPIs: cc growth, TCV and book-to-bill, EBIT margin bridge, revenue per employee, utilisation, top-client concentration, DSO, FCF conversion."},
-  {"slug": "cement", "key": "Construction Materials || Cement & Cement Products", "name": "Cement",
-   "angle": "Consolidation (UltraTech-India Cements/Kesoram, Adani-Ambuja-ACC-Sanghi-Penna-Orient), capacity race and utilisation, regional pricing (South/North/East/Central/West), realisation per tonne, EBITDA per tonne, fuel (petcoke/coal) and freight costs, green power, limestone and mining royalties, demand from housing and infrastructure. KPIs: capacity MTPA, utilisation, volume growth, realisation/t, cost/t, EBITDA/t, capex per tonne, net debt/EBITDA."},
-  {"slug": "industrial-products", "key": "Capital Goods || Industrial Products", "name": "Industrial Products",
-   "angle": "A diverse sub-sector: first map the members into 3-5 archetypes (e.g. pipes, bearings, valves, castings, tools, wires, other engineered products) and build the report around those archetypes, their end-markets (auto, infra, oil & gas, water, exports) and the capex cycle. Cover China+1 exports, raw-material pass-through (steel, copper, PVC), working capital, order books where relevant."},
-  {"slug": "power-generation", "key": "Power || Power Generation", "name": "Power Generation",
-   "angle": "Thermal PLF and coal supply, the renewable build-out (solar, wind, hybrid, round-the-clock), storage (BESS, pumped hydro), merchant power prices on IEX, PPAs and regulated ROE returns, peak demand records, transmission bottlenecks, state discom dues (LPS rules), nuclear and hydro, capex and leverage. KPIs: installed and under-construction GW, PLF/CUF, regulated equity, tariff, merchant share, cost per MW, net debt/EBITDA."},
-  {"slug": "iron-steel", "key": "Iron & Steel || Iron & Steel", "name": "Iron & Steel",
-   "angle": "Steel spreads (HRC price minus iron ore and coking coal per tonne), Chinese exports and India's safeguard duty, capacity expansion toward 300 MTPA, captive mines and the iron-ore auction regime, coking-coal import dependence, demand from infra/auto/construction, integrated vs secondary/DRI producers, decarbonisation and CBAM. KPIs: capacity, utilisation, sales volume, realisation/t, EBITDA/t, cost/t, net debt/EBITDA, capex per tonne."},
-  {"slug": "heavy-electrical", "key": "Capital Goods || Heavy Electrical Equipment", "name": "Heavy Electrical Equipment",
-   "angle": "The transmission and grid capex supercycle (CEA plans, HVDC, green-energy corridors), transformer and switchgear shortages and pricing, thermal power's comeback (BHEL orders), MNC listed subsidiaries (Siemens, ABB, Hitachi Energy, GE Vernova T&D) vs domestic makers, exports, order books and execution, working capital. KPIs: order inflow, order book / revenue cover, book-to-bill, execution rate, EBITDA margin, working-capital days, capacity (MVA)."},
-  {"slug": "electrical-equipment", "key": "Capital Goods || Other Electrical Equipment", "name": "Other Electrical Equipment",
-   "angle": "First map the members into archetypes (e.g. solar modules/cells, wind turbines, motors, batteries, EV/charging, meters, other electricals) and build the report around them: PLI and ALMM rules for solar, domestic content, China pricing, the renewable demand pipeline, order books, capacity ramps and margins. Use the members list to decide the archetypes."},
-  {"slug": "aerospace-defence", "key": "Capital Goods || Aerospace & Defense", "name": "Aerospace & Defence",
-   "angle": "Indigenisation (positive indigenisation lists, DAP 2020, Make in India), the defence capital budget, order books and execution (HAL, BEL, BDL, shipyards, private players), Operation Sindoor (May 2025) and emergency procurement, exports growth, aerospace supply chain (Boeing/Airbus offsets, engines), PSU vs private margins and working capital. KPIs: order book, book-to-bill, execution, EBITDA margin, advances and working capital, export share, R&D intensity."}
+ {
+  "order": 1,
+  "queue_no": 8,
+  "slug": "gas-distribution",
+  "key": "Gas Transmission || LPG/CNG/PNG/LNG Supplier",
+  "name": "City Gas & LNG",
+  "accent": "#937B1A",
+  "angle": "City gas distribution (IGL, MGL, Adani Total Gas) + LNG import terminals (Petronet LNG) + LPG/chemical import terminals (Aegis Logistics). Forces: APM/domestic gas allocation cuts to CGD and the shift to costlier HPHT/new-well gas and spot LNG; CNG pricing power vs EVs and petrol; PNGRB exclusivity expiry and new GA rounds; the 2026 West Asia crisis (Qatar LNG, Hormuz, LPG shock) and spot LNG prices; Petronet Dahej utilisation and new terminals; Aegis tank terminals. KPIs: volumes (mmscmd), CNG/PNG mix, EBITDA per scm, gas cost per scm, terminal utilisation and regas tariff, CNG stations/PNG connections, capex per GA.",
+  "companies": 5
+ },
+ {
+  "order": 2,
+  "queue_no": 10,
+  "slug": "bpo-kpo",
+  "key": "IT || Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
+  "name": "BPO & KPO",
+  "accent": "#1A2693",
+  "angle": "Members: Inventurus Knowledge Solutions (IKS, US physician RCM), Sagility (US payer/provider services), Firstsource Solutions (CX/BPM, RP-Sanjiv Goenka), Indegene (INDGN, life-sciences commercialisation), eClerx (KPO for financial services/digital). Forces: GenAI/agentic automation deflating seat-based pricing; US healthcare policy (Medicaid/Medicare Advantage changes, payer margin pressure); US tariffs/visa politics vs services; rupee at ~Rs 94.9/$ tailwind; M&A-led growth; client concentration. KPIs: constant-currency revenue growth, revenue per FTE, EBITDA margin, top-5/10 client share, offshore mix, attrition, DSO, deal wins/TCV.",
+  "companies": 5
+ },
+ {
+  "order": 3,
+  "queue_no": 12,
+  "slug": "logistics",
+  "key": "Logistics || Logistics Solution Provider",
+  "name": "Logistics Solution Providers",
+  "accent": "#278644",
+  "angle": "CONCOR (rail container, DFC), Delhivery (express parcel, PTL, after the Ecom Express acquisition), Blue Dart (air express, DHL group), BlackBuck (trucker platform/fintech), TVS Supply Chain Solutions (contract logistics, global). Forces: DFC commissioning and rail modal share; National Logistics Policy and logistics cost/GDP; e-commerce parcel volumes and quick commerce; consolidation; diesel prices and the West Asia freight shock; asset-heavy vs asset-light returns. KPIs: TEUs and rail share (CONCOR), shipments/tonnage and yield per kg or shipment, EBITDA margin, utilisation, capex/asset turnover, ROCE, take-rate (BlackBuck).",
+  "companies": 5
+ },
+ {
+  "order": 4,
+  "queue_no": 14,
+  "slug": "garments",
+  "key": "Textile || Garments & Apparels",
+  "name": "Garments & Apparels",
+  "accent": "#931A93",
+  "angle": "Page Industries (Jockey licence, domestic innerwear brand), Pearl Global (export garment maker, multi-country), Gokaldas Exports (exports, Atraco Africa), Raymond Lifestyle (demerged branded apparel/textiles), Kitex Garments (kidswear exports, Telangana capacity). Forces: US tariffs (IEEPA struck down 20-Feb-2026; Sec 122 10% to 24-Jul-2026; since then 10% Sec 301 on MFN; Bangladesh/Vietnam competition); India-UK FTA and EU FTA; China+1 and Bangladesh disruption; cotton prices and MSP; domestic innerwear demand and channel inventory; PLI for MMF. KPIs: volume growth, realisation per piece, EBITDA margin, export share and US share, capacity (pcs/yr) and utilisation, inventory and receivable days, ROCE.",
+  "companies": 5
+ },
+ {
+  "order": 5,
+  "queue_no": 16,
+  "slug": "castings-forgings",
+  "key": "Automobile & Ancillaries || Castings & Forgings",
+  "name": "Castings & Forgings",
+  "accent": "#56682C",
+  "angle": "AIA Engineering (high-chrome mill internals for mining/cement, global), PTC Industries (titanium/aerospace castings, Aerolloy), CIE Automotive India (multi-technology auto components, Mahindra CIE), Balu Forge (forgings, defence/rail). Forces: mining capex and AIA conversion from forged balls; aerospace/defence titanium supply chain and PTC capacity; auto cycle (India + Europe via CIE); exports and US Sec 232/301 tariffs; scrap/alloy/energy costs. KPIs: tonnage and utilisation, realisation per kg/t, EBITDA per kg, export share, order book (PTC/Balu), working-capital days, ROCE.",
+  "companies": 4
+ },
+ {
+  "order": 6,
+  "queue_no": 18,
+  "slug": "small-finance-banks",
+  "key": "Bank || Other Bank",
+  "name": "Small Finance Banks",
+  "accent": "#121B68",
+  "angle": "LENDER report (lender metrics everywhere): AU Small Finance Bank (universal bank licence status, Fincare merger), Ujjivan SFB, Equitas SFB, Jana SFB. Forces: the microfinance stress cycle 2024-26 and recovery; deposit franchise and cost of funds vs universal banks; RBI repo path (cuts in 2025, hike to 5.50% on 7-Oct-2026); secured vs unsecured mix shift; universal-bank transition rules; PSL and CGFMU guarantees. KPIs: AUM growth, CASA and cost of funds, NIM, credit cost, GNPA/NNPA/PCR, MFI share, ROA/ROE, CRAR, LDR.",
+  "companies": 4
+ },
+ {
+  "order": 7,
+  "queue_no": 20,
+  "slug": "travel-services",
+  "key": "Hospitality || Tour, Travel Related Services",
+  "name": "Travel Services",
+  "accent": "#1A9387",
+  "angle": "IRCTC (rail ticketing monopoly, catering, Rail Neer), TBO Tek (B2B travel distribution, global), ixigo (OTA for trains/buses/flights), Thomas Cook India (forex, MICE, holidays, DEI). Forces: IRCTC convenience fees and dependence on Railways policy; the outbound travel boom and forex; airline capacity (IndiGo/Air India) and hotel rate inflation; the 2026 West Asia crisis on Gulf travel and fares; rupee at ~Rs 94.9/$; take rates and B2B vs B2C economics. KPIs: GTV/GBV, take rate, tickets per day (IRCTC), EBITDA as % of GTV, customer acquisition cost, forex turnover, working capital.",
+  "companies": 4
+ },
+ {
+  "order": 8,
+  "queue_no": 22,
+  "slug": "industrial-minerals",
+  "key": "Mining || Industrial Minerals",
+  "name": "Industrial Minerals",
+  "accent": "#796C34",
+  "angle": "NMDC (iron ore, Chhattisgarh/Karnataka; Nagarnar steel demerged), Sandur Manganese & Iron Ores (manganese + iron ore + Arjas Steel), Ashapura Minechem (bentonite, bauxite, Guinea), MOIL (manganese ore). Forces: iron ore prices and NMDC price-setting; the mining regime (MMDR, auctions, royalty and the 2024 Supreme Court ruling on state mineral taxes); steel capacity growth toward 300 mtpa; manganese ore prices and ferro-alloy demand; iron ore export duty; logistics (rail, slurry pipelines). KPIs: production and sales (mt), realisation per tonne, cost/t and royalty/t, EBITDA per tonne, reserves/mine life, capex, net cash.",
+  "companies": 4
+ },
+ {
+  "order": 9,
+  "queue_no": 24,
+  "slug": "telecom-equipment",
+  "key": "Telecom || Telecom - Equipment & Accessories",
+  "name": "Telecom Equipment",
+  "accent": "#4B1A93",
+  "angle": "HFCL (optical fibre cable, defence), ITI (PSU), Tejas Networks (Tata group; BSNL 4G order), Sterlite Technologies/STL (optical networking, US exposure). Forces: BSNL 4G/5G and BharatNet phase III orders; the global fibre glut 2023-25 then AI data-centre demand; US tariffs and BABA rules; telecom PLI; working capital and BSNL receivables; China competition. KPIs: order book and inflow, revenue and EBITDA margin, fibre km capacity and utilisation, realisation per fkm, receivable days, net debt.",
+  "companies": 4
+ },
+ {
+  "order": 10,
+  "queue_no": 26,
+  "slug": "market-infra",
+  "key": "Business Services || Depositories, Clearing Houses and Other Intermediaries",
+  "name": "Depositories & Registrars",
+  "accent": "#217362",
+  "angle": "CDSL (depository), CAMS and KFin Technologies (mutual-fund registrars and transfer agents). Forces: demat account growth and retail participation; SEBI F&O curbs (Nov-2024) and transaction volumes; MF AUM growth and SIP flows; yield compression (price cuts, AMC bargaining power); KYC and issuer businesses; SEBI/AMFI rule changes; the market cycle (Nifty 22,780 on 28-Sep-2026). KPIs: demat accounts and market share, revenue per account, MF AUM serviced and yield (bps), EBITDA margin, non-MF revenue share, cash, payout.",
+  "companies": 3
+ },
+ {
+  "order": 11,
+  "queue_no": 28,
+  "slug": "carbon-black",
+  "key": "Chemicals || Carbon Black",
+  "name": "Carbon Black",
+  "accent": "#2B167E",
+  "angle": "PCBL Chemical (Phillips Carbon, RPSG; Aquapharm), Himadri Speciality Chemical (carbon black, coal tar pitch, battery materials), Rain Industries (calcined petcoke, carbon products, Rutgers Europe). Forces: tyre demand and the replacement cycle; feedstock (CBFS/coal tar) pass-through and the 2026 crude shock; Chinese and Russian supply; anti-dumping on carbon black; speciality and conductive grades for EVs; battery materials (anode, LFP); Rain smelter-linked CPC and European losses. KPIs: volume (tonnes) and capacity, EBITDA per tonne, speciality share, utilisation, net debt/EBITDA, ROCE.",
+  "companies": 3
+ },
+ {
+  "order": 12,
+  "queue_no": 30,
+  "slug": "edible-oil",
+  "key": "FMCG || Edible Oil",
+  "name": "Edible Oils",
+  "accent": "#737E16",
+  "angle": "Patanjali Foods (edible oil + foods/FMCG, oil palm), AWL Agri Business (ex-Adani Wilmar, Fortune; Adani exit), Gokul Agro Resources. Forces: import dependence (~55-60%) on palm/soy/sunflower and global price swings; import duty changes (2024 hike, 2025 cut); National Mission on Edible Oils - Oil Palm; branded vs loose; rupee at ~Rs 94.9/$; inventory gains/losses; food/FMCG diversification. KPIs: volume (mt), EBITDA per tonne, branded share, realisation, inventory/working-capital days, ROCE.",
+  "companies": 3
+ },
+ {
+  "order": 13,
+  "queue_no": 32,
+  "slug": "water-treatment",
+  "key": "Infrastructure || Water Supply & Management",
+  "name": "Water Treatment",
+  "accent": "#1A9363",
+  "angle": "VA Tech Wabag (EPC + O&M, desalination, international), Ion Exchange (treatment chemicals, resins, engineering), Enviro Infra Engineers. Forces: Jal Jeevan Mission, Namami Gange and AMRUT funding (and the JJM slowdown), desalination (Chennai, Middle East), HAM projects, industrial water and ZLD, state payment delays, order books. KPIs: order book and book-to-bill, execution, EBITDA margin, O&M share, receivable/working-capital days, net cash.",
+  "companies": 3
+ },
+ {
+  "order": 14,
+  "queue_no": 34,
+  "slug": "tv-broadcasting",
+  "key": "Media & Entertainment || TV Broadcasting & Software Production",
+  "name": "TV Broadcasting",
+  "accent": "#6F1A93",
+  "angle": "Sun TV Network, Zee Entertainment, Network18 Media (after the TV18 merger; JioStar). Forces: linear-TV subscriber decline and cord-cutting; the ad market and FMCG ad spend; JioStar (Reliance-Disney) scale; OTT economics (ZEE5, Sun NXT, JioHotstar); TRAI NTO pricing; sports rights; the Zee-Sony merger collapse and governance. KPIs: ad vs subscription revenue, viewership share, OTT subscribers and losses, content cost % of revenue, EBITDA margin, cash.",
+  "companies": 3
+ },
+ {
+  "order": 15,
+  "queue_no": 36,
+  "slug": "integrated-power",
+  "key": "Power || Integrated Power Utilities",
+  "name": "Integrated Power Utilities",
+  "accent": "#3E931A",
+  "angle": "Tata Power, Torrent Power, CESC (generation + distribution licences + renewables). Forces: regulated distribution ROE and AT&C losses; discom privatisation (Odisha, UP, Chandigarh); the renewable build-out and solar manufacturing (Tata Power cells/modules); merchant prices; coal costs; peak demand; T&D; net debt and capex. KPIs: regulated equity, ROE, AT&C losses, units sold, installed GW (thermal/RE), PLF/CUF, net debt/EBITDA. Cross-link power-generation.html.",
+  "companies": 3
+ },
+ {
+  "order": 16,
+  "queue_no": 38,
+  "slug": "shipbuilding",
+  "key": "Ship Building || Ship Building & Allied Services",
+  "name": "Shipbuilding",
+  "accent": "#7E1673",
+  "angle": "Mazagon Dock Shipbuilders, Cochin Shipyard, GRSE (defence shipyards). Forces: Navy orders (P-75I, P-17B, NGC, submarines), Maritime India Vision and the 2025 shipbuilding financial-assistance package, commercial ships (Cochin; European orders), order books and execution, margins and customer advances, valuations. KPIs: order book, book-to-bill, execution rate, EBITDA margin, advances/working capital, cash, ROE. Cross-link aerospace-defence.html.",
+  "companies": 3
+ },
+ {
+  "order": 17,
+  "queue_no": 40,
+  "slug": "education",
+  "key": "Business Services || Education",
+  "name": "Education",
+  "accent": "#578627",
+  "angle": "Physics Wallah (PWL; listed 2025; online + offline test prep) and Crizac (B2B international student recruitment, UK focus). Forces: test-prep demand (JEE/NEET), offline vs online economics, coaching-centre guidelines (Jan-2024), student-visa policy in UK/Canada/Australia, rupee, cash burn and unit economics. KPIs: paid users/students, ARPU, centres and revenue per centre, EBITDA margin, student placements and revenue per student, cash.",
+  "companies": 2
+ },
+ {
+  "order": 18,
+  "queue_no": 42,
+  "slug": "glass",
+  "key": "Construction Materials || Glass - Consumer",
+  "name": "Glass",
+  "accent": "#236812",
+  "angle": "Asahi India Glass (auto + architectural float glass) and Borosil Renewables (solar glass; Europe subsidiary). Forces: auto production and AIS share of PV glass; float capacity additions and China imports; solar-glass ADD/CVD on China/Vietnam, ALMM and module demand; soda ash and gas costs; Europe losses. KPIs: capacity (tpd), utilisation, realisation per tonne/sq m, EBITDA margin, energy cost per tonne, net debt. Cross-link commodity-chem.html (soda ash).",
+  "companies": 2
+ },
+ {
+  "order": 19,
+  "queue_no": 44,
+  "slug": "oil-exploration",
+  "key": "Crude Oil || Oil Exploration & Production",
+  "name": "Oil & Gas E&P",
+  "accent": "#653479",
+  "angle": "ONGC (incl. ONGC Videsh, HPCL/MRPL consolidation) and Oil India (incl. NRL). Forces: crude prices in the 2026 West Asia crisis, windfall-tax history, the APM gas formula (10% of Indian basket, floor/ceiling) and new-well premium, production decline vs KG-98/2 ramp, OALP, subsidy-sharing risk, ESG. KPIs: production (mmtoe, oil vs gas), realisation $/bbl and $/mmbtu, lifting cost, reserve replacement ratio, EBITDA/boe, capex, dividend yield. Cross-link refining.html.",
+  "companies": 2
+ },
+ {
+  "order": 20,
+  "queue_no": 46,
+  "slug": "holding-cos",
+  "key": "Finance || Holding Company",
+  "name": "Holding Companies",
+  "accent": "#1A931A",
+  "angle": "Cholamandalam Financial Holdings (Murugappa: Chola Investment & Finance + Chola MS General Insurance) and Religare Enterprises (Burman takeover, Care Health, Religare Finvest). Forces: the holding-company discount (NAV vs m-cap), look-through earnings, RBI CIC rules, governance and control battles (Religare), listed subsidiary values. KPIs: NAV per share, holdco discount %, look-through PAT, subsidiary contribution, standalone debt, dividends passed through. Cross-link nbfc.html, general-insurance.html, investment-cos.html.",
+  "companies": 2
+ }
 ]
