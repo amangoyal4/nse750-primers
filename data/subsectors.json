@@ -954,6 +954,40 @@
         "The delta, not the price"
       ],
       "published": "2026-10-21"
+    },
+    {
+      "name": "Commercial Vehicles",
+      "slug": "commercial-vehicles",
+      "file": "commercial-vehicles.html",
+      "sector": "Automobile & Ancillaries",
+      "subsector": "Commercial Vehicles",
+      "companies": 5,
+      "accent": "#AA1852",
+      "hook": "Record volumes, squeezed truckers: how five listed CV makers turn steel into trucks, buses and pickups, why margins fell while FY26 sales broke the FY19 record, the trucker's diesel-versus-freight P&L as the cycle signal, a Tata-led oligopoly, and why e-bus tenders went to capital, not incumbents.",
+      "tags": [
+        "The trucker's P&L",
+        "Margins under commodity inflation",
+        "Who owns the bus?",
+        "Mahindra's CV ladder"
+      ],
+      "published": "2026-10-21"
+    },
+    {
+      "name": "Abrasives & Bearings",
+      "slug": "abrasives-bearings",
+      "file": "abrasives-bearings.html",
+      "sector": "Capital Goods",
+      "subsector": "Abrasives & Bearings",
+      "companies": 5,
+      "accent": "#358D64",
+      "hook": "Two trades, one parent question: how five listed bearing and abrasive makers earn the same ~14% margin for different reasons, what their MNC parents take in royalty, traded goods and dividends, SKF's double split, CUMI's Russian knot, and China's 49% share of bearing imports.",
+      "tags": [
+        "What the parent takes",
+        "The SKF double split",
+        "CUMI's overseas knot",
+        "China, imports and US tariffs"
+      ],
+      "published": "2026-10-21"
     }
   ],
   "universe": [
@@ -985,7 +1019,7 @@
       "sector": "Automobile & Ancillaries",
       "sub": "Commercial Vehicles",
       "companies": 5,
-      "report": null
+      "report": "commercial-vehicles.html"
     },
     {
       "sector": "Automobile & Ancillaries",
@@ -1099,7 +1133,7 @@
       "sector": "Capital Goods",
       "sub": "Abrasives & Bearings",
       "companies": 5,
-      "report": null
+      "report": "abrasives-bearings.html"
     },
     {
       "sector": "Capital Goods",
