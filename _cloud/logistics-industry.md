@@ -1195,3 +1195,686 @@ Check (re-add by hand): All five revenue 9,079 + 10,508 + 6,141 + 652 + 11,003 =
 - NRP 45% / GCTs (CAG press release, Nov-2025): https://cag.gov.in/uploads/PressRelease/PR-MMTAL-press-release-on-21-11-25-069200184611423-88491816.pdf [snippet; direct fetch returned 404]
 - GST 2.0 and logistics (Lakshmikumaran & Sridharan): https://lakshmisri.com/newsroom/news-briefings/impact-of-gst-rate-changes-on-the-logistic-sector [snippet]
 - Shadowfax IPO (HDFC Sky / Outlook Business): https://hdfcsky.com/news/shadowfax-shares-make-weak-market-debut [snippet]
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (21-Oct-2026)
+
+Compiled 21-Oct-2026 (late evening UTC) by the second, primary-source pass. It adds to Parts 1–3 and corrects them. Where Part 4 and Parts 1–3 disagree, **Part 4 wins** (see 4.0).
+
+**What was read this session (primary documents):**
+- **All five FY26 annual reports** (BSE-hosted PDFs, text-extracted and read section by section: MD&A, segment note, related-party note, contingent liabilities, tax note, business-combination note, BRSR risk tables):
+  - CONCOR AR 2025-26 (378 pp.): https://www.bseindia.com/xml-data/corpfiling/AttachHis/f7ed8d97-f3e0-4afd-bd99-6af5f3902be8.pdf
+  - Delhivery AR 2025-26 (197 pp.): https://www.bseindia.com/xml-data/corpfiling/AttachHis/f2df7720-e670-4a6a-9dcf-fea3c31421a0.pdf
+  - Blue Dart AR 2025-26 (397 pp.): https://www.bseindia.com/xml-data/corpfiling/AttachHis/130422d5-3941-4526-93a9-65bb73997786.pdf
+  - BlackBuck AR 2025-26 (130 pp.): https://www.bseindia.com/xml-data/corpfiling/AttachHis/af09c5c2-52da-4ad7-804e-273efcc55f78.pdf
+  - TVS SCS AR 2025-26 (174 pp.): https://www.bseindia.com/xml-data/corpfiling/AttachHis/8f4fdadc-d070-4c5a-aa4f-13eedb4cc62a.pdf
+- **The latest call transcripts and investor presentations** (BSE PDFs downloaded earlier today by the first pass, re-read in full here): CONCOR Q4 FY26 call (26-May-2026; no Q1 FY27 call exists on BSE or the company's investor page); Delhivery, Blue Dart, BlackBuck and TVS SCS Q1 FY27 decks and calls (URLs in §3.5).
+- **Ministry and regulator data:**
+  - Ministry of Ports, Shipping & Waterways, *Cargo handled at Major Ports, March 2026* (FY26 full year): https://shipmin.gov.in/sites/default/files/Cargo%20handled%20at%20Major%20Ports%20March%202026.pdf
+  - AAI *Air Traffic Report, March 2026* (FY26 full year) and *August 2026* (Apr–Aug FY27): https://www.aai.aero/sites/default/files/traffic-news/TRMar2k26_2.pdf · https://www.aai.aero/sites/default/files/traffic-news/TRAug2k26.pdf
+  - PIB explainer, *From Growth Engine to Global Edge: Supercharging India's Logistics* (27-Nov-2025), with the NCAER/DPIIT figures: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251127708001.pdf
+- **A competitor's filing:** Shadowfax Q1 FY27 earnings presentation (NSE archive, 31-Jul-2026): https://nsearchives.nseindia.com/corporate/9900590024_31072026130039_Earnings_Presentation.pdf
+- **Screener re-check** (21-Oct-2026, after the close) for new board-meeting intimations at CONCOR, Delhivery, Blue Dart and TVS SCS: none.
+
+**Tags in Part 4**
+- **[V-AR]** = read this session in the company's FY26 annual report.
+- **[V-call] / [V-deck]** = read this session in the company's BSE-filed transcript or presentation.
+- **[V-gov]** = read this session in a ministry or regulator document (shipmin, AAI, PIB).
+- **[V-scr]** = screener.in, 21-Oct-2026.
+- **[V-snip]** = only a search summary or press report.
+- **[E]** = arithmetic or estimate.
+
+Budget used: about 48 web calls (5 annual reports, 4 government PDFs, 1 competitor deck, 4 screener re-checks, about 30 searches and fetches); 7 fetches failed (DHL FY25 highlights PDF, ICRA report page, a Rajya Sabha reply, three guessed AAI URLs, and a CAG release that had already failed in the first pass).
+
+## 4.0 Supersedes — corrections the writer must apply to Parts 1–3
+
+| # | Where in Parts 1–3 | Old value / claim | New value | Source |
+|---|---|---|---|---|
+| S1 | §2.2, §H1, D, A1 (all-India container TEUs) | "~13–14m TEU FY26 [E; FLAG — national total not found]" | **24.79m TEU at all Indian ports in FY26 (+6.46% from 23.29m)**. Of this, **major ports 14.92m TEU (+10.21% from 13.53m)**, so non-major ports ≈ 9.87m [E]. | CONCOR AR MD&A p.85 [V-AR]; shipmin Mar-2026 [V-gov] |
+| S2 | §2.2 (Mundra) | "~4.1m TEU (H1-2025 Alphaliner annualised; FLAG)" | **Mundra 8.47m TEU in FY26 (+2.30% from 8.28m)**. That is larger than JNPA's 8.17m, so **Mundra, not JNPA, is India's largest container port**. | CONCOR AR p.85 [V-AR] |
+| S3 | §4.1, §7.2, B1, G ("LLF: Sep-2022 CCEA cut to 1.5% of land value, 35-year leases") | CONCOR's terminal land treated as paying the 1.5% rate | **CONCOR's annual report says the opposite for its existing land.** Indian Railways' letter of 19-Mar-2020 and its **Master Circular of 4-Oct-2022 put LLF on existing land at 6% of market value with 7% annual escalation**. **None of the 24 land parcels has a signed agreement under the revised policy.** Divisional railways have raised demands CONCOR disputes. CONCOR books LLF on its own assessment and recognises **no Ind-AS 116 right-of-use asset or lease liability** for this land. Auditors flag it as an **Emphasis of Matter**. The 1.5%/35-year Gati Shakti terms (Sep-2022 CCEA [K]) are framed for railway land leased for cargo-related activity; CONCOR's own FY26 filings do not say its existing land has moved to them. | CONCOR AR, note 51 and auditors' EoM [V-AR] |
+| S4 | §H7, §4.2(a) (LLF amount) | "LLF + other admin ~5 of ₹100 [E]"; LLF paid "not re-verified" | **LLF booked FY26 ₹398.62 Cr standalone (FY25 ₹373.81 Cr; +6.6%)**, after netting ₹39.48 Cr of past provisions. That is **4.4% of standalone operating income (₹9,059 Cr) and ~20% of consolidated OP**. | CONCOR AR note 30 [V-AR] |
+| S5 | §4.2(a) ("rail haulage + terminal ≈ 70") | composite [E] | Standalone terminal & other service charges **₹6,260.34 Cr = 69.1% of operating income**, of which **rail freight (haulage) ₹5,011.39 Cr = 55.3%**, road ₹379.96 Cr, handling ₹309.93 Cr, LLF ₹398.62 Cr, other ₹160.43 Cr. Haulage ≈ **73% of consolidated rail freight income** (₹6,880 Cr) [E]. | CONCOR AR note 30, 42.2 [V-AR] |
+| S6 | §4.3, §2.1 (CONCOR assets) | "65+ terminals", "423 rakes" | **68 terminals at 31-Mar-2026** (4 EXIM-only, 36 combined, 24 domestic-only, 4 strategic tie-ups); **424 rakes**, 57,746 containers, 104 reach-stackers, 230 LNG trucks; manpower **1,238** | CONCOR AR Chairman's letter, MD&A [V-AR] |
+| S7 | §2.1, C.1 (CONCOR segments) | "EXIM >₹6,000 Cr (≈6,028 [E]); domestic ₹3,051 Cr [primer]" | **EXIM ₹6,026.04 Cr (+5.1%); domestic ₹3,052.93 Cr (−3.2%)**. **Segment result: EXIM ₹1,436.34 Cr (23.8% margin; FY25 22.9%); domestic ₹152.85 Cr (5.0%; FY25 8.0%)**. Rebates and discounts rose to **₹201.81 Cr from ₹158.25 Cr (+27.5%)**; on EXIM alone ₹198.56 Cr vs ₹139.48 Cr (+42%). | CONCOR AR note 42.2 (consolidated) [V-AR] |
+| S8 | §0, B1, §9.1 (JNPT rail-coefficient guide) | "19–21% in FY27" | The CMD said **"18–19%"** in one answer and **"around 19%… maybe 20%, 21%"** in another. Use **"~19% (upside 20–21%)"**; 30–35% in about 3 years is unchanged. | CONCOR Q4 FY26 call, pp.5 and 10 [V-call] |
+| S9 | §H6, §1.1, §5.1 (Delhivery FY26 volumes) | ">1 bn" parcels and "~2 MT" PTL [primer] | **Express parcels 1,054m in FY26 (+40.2% from 752m)**; express revenue ₹6,687 Cr (+25.8%) → yield **₹63.4/parcel (FY25 ₹70.7; −10%)** [E]. **PTL 1,991 kt (+17.4% from 1,696 kt)**; PTL revenue ₹2,254 Cr (+19.3%); realisation **₹11.32/kg (FY25 ₹11.14)**. | Delhivery AR MD&A p.79 [V-AR] |
+| S10 | §0, §8, G, 2.2 (Ecom Express deal) | "≤₹1,407 Cr; ≥99.44%"; primer ">99.8%; completed 18-Jul-2025" | **99.87% for ₹1,369.6 Cr** (₹13,696.36 mn). Subsidiary from **18-Jul-2025**; **wholly owned from 10-Dec-2025** after buying the last 0.13%. Identifiable net assets ₹328 Cr, so **goodwill ₹1,041.7 Cr (76% of the price)**. Delhivery also took on Ecom's ₹118.7 Cr of borrowings and ₹116.7 Cr of lease liabilities. | Delhivery AR note 36(1) [V-AR] |
+| S11 | C.6, trap 1 (Delhivery lease rent) | "cash lease rent ~₹420 Cr [E]" | **Actual lease rent paid FY26 ₹417.1 Cr** (FY25 ₹343.2 Cr). ESOP charge ₹86.4 Cr (FY25 ₹114.9 Cr). Integration cost ₹147.8 Cr. EBITDA ₹640.0 Cr → **adjusted EBITDA ₹457.1 Cr**. The reconciliation now closes exactly. | Delhivery AR MD&A reconciliation [V-AR] |
+| S12 | trap 8, §2.3, §H10 (Blue Dart "404m eCommerce shipments") | label read as e-commerce only; FLAG | **4,034.21 lakh (403.4m) domestic shipments of all products in FY26 (+7.1% from 376.7m)** plus 5.62 lakh international; weight >14.38 lakh tonnes. The slide label is wrong; **404m is the total**. | Blue Dart AR Directors' Report, BRSR P9 [V-AR] |
+| S13 | trap 5, §3.1 (BlackBuck DTA in FY26) | "FY26 PAT ₹160 Cr contains a ~₹25 Cr DTA credit; tax rate 4%" | **FY26 consolidated tax: current ₹14.9 Cr, deferred credit ₹7.8 Cr, total ₹7.1 Cr.** The FY26 DTA credit is therefore **~₹7.8 Cr, not ~₹25 Cr**. The big recognition was FY25: deferred credit ₹247.5 Cr (total tax −₹244.7 Cr). The tax rate is still ~4%, because the recognised DTA (net ₹255 Cr at Mar-26) shelters current tax. The normalised-tax PAT of ~₹125 Cr at 25% is unchanged. | BlackBuck AR consolidated P&L and note 7 [V-AR] |
+| S14 | trap 7, §2.5, §3.4 (TVS SCS geography) | "70% overseas" used for FY26 | **FY26: India ₹3,037.47 Cr (28%) / Rest of World ₹7,965.53 Cr (72%)**; FY25 27% / 73%. The **70% / 30% split is Q1 FY27 only**. India grew +12.4% in FY26 (GFS India +38.4%); RoW +9.2%. | TVS SCS AR MD&A p.69 [V-AR] |
+| S15 | trap 6, §2.5 (TVS SCS one-offs) | "InvIT gain ₹177.2 Cr; exceptional ₹105.6 Cr" | In the audited statements the one-off sits in **share of profit of equity-accounted investees ₹182.03 Cr** (mainly the 24.48%-held JV TVS Industrial & Logistics Parks) vs ₹5.15 Cr in FY25. The deck's ₹177.2 Cr is the InvIT-gain component of it. **Exceptional loss ₹105.63 Cr = restructuring ₹91.29 Cr + new Labour Code impact ₹14.34 Cr.** AR adjusted EBITDA is **₹770.70 Cr** (deck: ₹773.1 Cr). | TVS SCS AR P&L, EBITDA reconciliation, note 45 [V-AR] |
+| S16 | §2.5, §4.3 (TVS SCS footprint) | "16,500 employees; 7,100+ customers" | **16,601 permanent employees** (FY25 16,801); **7,124 customers** (6,277); 435 warehouses (441); 25,074,673 sq ft; **sea-freight TEU 112,007 (+22% from 91,608)** | TVS SCS AR "Key operational indicators" [V-AR] |
+| S17 | §0, §5.1, §H5 (express shares) | no player shares; Delhivery "~20–25% of 3PL e-commerce [E]" | **Shadowfax says it holds 28–30% of the 3PL express (e-commerce) market in Q1 FY27**, up from ~8% in FY22 (Redseer up to FY25; company estimate after that). Shadowfax delivered 198m express orders in Q1 FY27 (+95%) against Delhivery's 322m (+55%). Using Shadowfax's own share, the 3PL express pool is ~660–710m a quarter, which puts **Delhivery at ~45–50% of 3PL express** [E; Delhivery's count includes some C2C/B2B parcels]. | Shadowfax Q1 FY27 deck p.5, p.8 [V-deck] |
+| S18 | §2.2, §H4 (air cargo) | FY25 3.7 MT only | **FY26 3,964 kt (+6.2%): international 2,452 kt (+5.5%), domestic 1,512 kt (+7.4%)**. March 2026 international freight **−6.0%** and international aircraft movements **−21.3%**: the West Asia war showing up in the data. Apr–Aug FY27 1,819 kt (+11.6%; international +14.4%). | AAI Air Traffic Reports Mar-2026 and Aug-2026 [V-gov] |
+| S19 | §7.1 (NCAER source) | Outlook Business [V] | Same figures confirmed in a **PIB explainer (27-Nov-2025)**: 7.97% of GDP and 9.09% of non-services output in 2023-24, ₹24.01 lakh crore; a hybrid method using 3,500+ stakeholder responses plus MoSPI, RBI and GSTN data. | PIB [V-gov] |
+| S20 | §3.1, §2.1 (CONCOR "PAT" and "share" bases) | share quoted in TEU terms only | The AR also gives the **tonnage basis**: CONCOR carried **51.02 MT of 93.69 MT** of IR containerised loading = **54.5%** (FY25 49.22/88.73 = 55.5%). TEU-basis (54.5% vs 55.9% in FY25) and tonnage-basis shares agree for FY26. | CONCOR AR MD&A [V-AR] |
+| S21 | §3 (exports quote) | "exports US$441.8 bn (+0.9%)" | AR: US$437.70 bn → US$441.78 bn. The AR text says "+0.09%", but the arithmetic is **+0.93%**; use +0.9%. Imports US$721.20 bn → US$774.98 bn (+7.45%). | CONCOR AR p.85 [V-AR; arithmetic E] |
+| S22 | §12, §H13 (BlackBuck/others board dates) | — | Unchanged: only BlackBuck (29-Oct-2026) has intimated a date. Screener re-checked late on 21-Oct shows no new intimation for CONCOR, Blue Dart or TVS SCS; Delhivery's page did not parse on the re-check. | [V-scr] |
+| S23 | §2.5 (TVS SCS PAT basis) | screener ₹117 Cr | ₹117.02 Cr is **profit for the year before minority interest**; **owners' share ₹114.28 Cr**. See 4.2 for the single PAT basis. | TVS SCS AR, EPS note [V-AR] |
+| S24 | §4.1 (Blue Dart fuel surcharge) | "monthly fuel-surcharge reset tied to local diesel/ATF" | Both are true but they differ: the **call** says the surcharge is set monthly from local diesel prices; the **AR (BRSR risk table and Directors' Report)** says it is "indexed to the Brent Crude Index" and passes ATF changes through. Describe it as **"a monthly fuel surcharge linked to crude/ATF (air) and diesel (ground)."** | Blue Dart AR; Q1 FY27 call [V-AR; V-call] |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Fetched?" = read this session in the named document. "Primary" = company filing, ministry or regulator. "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Primary source (URL) | Fetched? / type | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | India logistics cost FY24 | 7.97% of GDP; ₹24.01 lakh crore; 9.09% of non-services output | PIB explainer 27-Nov-2025: static.pib.gov.in/…/doc20251127708001.pdf | Yes — primary [V-gov] | Yes (second source; Outlook Business was the first) |
+| 2 | All-India port container traffic FY26 | 24.79m TEU (+6.46%) | CONCOR AR 2025-26 MD&A (BSE f7ed8d97…) | Yes — primary (company citing port data) | **No: supersedes "~13–14m [E]" (S1)** |
+| 3 | Major-port container TEUs FY26 | 14,915,896 (+10.21%) | shipmin.gov.in, Cargo handled at Major Ports, Mar-2026 | Yes — primary [V-gov] | New |
+| 4 | Major-port cargo FY26 | 914.73 MT (+7.00%); containers 213.0 MT, 23.29% share | same | Yes — primary | New (PIB/newsonair: 915.17 MT, a later revision) |
+| 5 | JNPA FY26 | 8.17m TEU (+11.93%) | CONCOR AR MD&A | Yes — primary | Yes |
+| 6 | Mundra FY26 | 8.47m TEU (+2.30%) | CONCOR AR MD&A | Yes — primary | **No: supersedes ~4.1m (S2)** |
+| 7 | IR originating loading FY26 | 1,669.93 MT (from 1,617.38) | CONCOR AR MD&A | Yes — primary | Yes (1,670 MT) |
+| 8 | IR containerised loading FY26 | 93.69 MT (+5.59%); EXIM 67.96 MT, domestic 25.73 MT | CONCOR AR MD&A | Yes — primary | Yes; adds the EXIM/domestic split |
+| 9 | CONCOR share of rail container traffic FY26 | 54.5% (TEU basis, call); 51.02 / 93.69 MT = 54.5% (tonnage basis, AR) | Q4 FY26 call (BSE c128f551…); AR | Yes — primary | Yes. **The FY20 "~74%" is NOT confirmed by any primary document read this session; keep it [V-snip/primer]** |
+| 10 | CONCOR throughput FY26 | 5.58m TEU (+9.56%); EXIM 4.21m; domestic 13,74,437 (+14.59%) | AR MD&A; call | Yes — primary | Yes |
+| 11 | CONCOR segment revenue FY26 | EXIM ₹6,026.04 Cr; domestic ₹3,052.93 Cr | AR note 42.2 | Yes — primary | Yes (primer ≈6,028 / 3,051) |
+| 12 | CONCOR segment margins FY26 | EXIM 23.8% (22.9%); domestic 5.0% (8.0%) | AR note 42.2 | Yes — primary | New |
+| 13 | CONCOR LLF FY26 | ₹398.62 Cr standalone (₹373.81 Cr) | AR note 30 | Yes — primary | New (fills §H7) |
+| 14 | LLF policy applied to CONCOR | 6% of market value, +7%/yr (IR letter 19-Mar-2020; Master Circular 4-Oct-2022); no agreements for any of 24 parcels; Emphasis of Matter | AR note 51; auditors' report | Yes — primary | **No: contradicts "1.5% for 35 years" (S3)** |
+| 15 | CONCOR contingent liabilities | ₹2,345.05 Cr standalone (₹2,186.74 Cr), incl. LLF demands; ₹1,318.91 Cr in arbitration/courts; consolidated ₹2,374.50 Cr | AR contingent-liability note | Yes — primary | New |
+| 16 | CONCOR FY27 guidance | handling volume +9.5% (EXIM +8%, domestic +15%); EBITDA 24–25% | Q4 FY26 call 26-May-2026 | Yes — primary | Yes |
+| 17 | JNPT rail coefficient | FY26 15.12% (CONCOR share 60%); FY27 ~19% (maybe 20–21%); 30–35% in 3 years | Q4 FY26 call | Yes — primary | Mostly; refine (S8) |
+| 18 | CONCOR Q2 FY27 volumes | 14,48,379 TEU (+0.53%); EXIM 10,92,652 (−0.07%); domestic 3,55,727 (+2.43%) | BSE filing 21-Oct-2026 (a3facd16…) | Yes (file re-read) — primary | Yes |
+| 19 | CONCOR assets 31-Mar-26 | 68 terminals; 424 rakes; 57,746 containers; 230 LNG trucks; 1,238 staff | AR | Yes — primary | Partly: supersedes 65+ / 423 (S6) |
+| 20 | CONCOR rail haulage cost | ₹5,011.39 Cr = 55.3% of standalone operating income | AR note 30 | Yes — primary | Refines the [E] (S5) |
+| 21 | Delhivery FY26 express parcels | 1,054m (+40.2%) | Delhivery AR MD&A | Yes — primary | New (fills §H6) |
+| 22 | Delhivery FY26 PTL | 1,991 kt (+17.4%); ₹11.32/kg | AR MD&A | Yes — primary | New (primer "~2 MT" ✓) |
+| 23 | Delhivery FY26 EBITDA bases | EBITDA ₹640.0 Cr; + ESOP ₹86.4 − lease rent ₹417.1 + integration ₹147.8 = adjusted ₹457.1 Cr | AR MD&A reconciliation | Yes — primary | Yes (closes C.6) |
+| 24 | Delhivery FY26 PAT | ₹152.54 Cr for the year; owners ₹152.68 Cr; NCI −₹0.14 Cr | AR consolidated P&L | Yes — primary | Yes (₹153 Cr); **primer ₹321 Cr wrong, re-confirmed** |
+| 25 | Ecom Express acquisition | 99.87% for ₹1,369.6 Cr; subsidiary 18-Jul-2025; wholly owned 10-Dec-2025; goodwill ₹1,041.7 Cr | AR note 36(1) | Yes — primary | **Refines (S10)** |
+| 26 | Delhivery Q1 FY27 volumes | express 322m (+55.2%); PTL 542 kt (+18.4%) | Q1 FY27 deck (BSE 0be94732…) | Yes (file re-read) — primary | Yes |
+| 27 | Delhivery fuel pass-through | PTL "covered upward of 97, 98%"; 6 of the 37 paise PTL yield gain came from fuel | Q1 FY27 call (BSE aa81aa9b…) | Yes — primary | Yes |
+| 28 | Blue Dart FY26 shipments and weight | 403.4m domestic (+7.1%) + 0.56m international; >14.38 lakh t | Blue Dart AR | Yes — primary | **Refines label (S12)** |
+| 29 | Blue Dart fleet | 6 × B757-200 + 2 × B737 freighters; >500 t payload/night; 33,000+ vehicles; 2,492 facilities; 19,000+ PIN codes | AR Directors' Report | Yes — primary | Yes; adds payload and network |
+| 30 | Blue Dart standalone EBITDA FY26 | ₹649.18 Cr (₹573.87 Cr); standalone PAT ₹239.69 Cr (₹244.63 Cr) | AR Directors' Report | Yes — primary | Yes |
+| 31 | Blue Dart consolidated EBITDA FY26 | ₹992.5 Cr (16.05%) pre-exceptional | Q1 FY27 deck (BSE c866f8d4…) | Deck re-read; AR consolidated EBITDA not stated in text | Yes |
+| 32 | Blue Dart payments to DHL group | No royalty or brand fee. FY26: international servicing charges to DHL Express India ₹205.7 Cr; IT/repairs to Deutsche Post IT Services ₹75.1 Cr; domestic service income from DHL entities ~₹109 Cr; dividend to DHL Singapore ₹44.5 Cr | AR related-party note (standalone) | Yes — primary | New |
+| 33 | BlackBuck FY26 tax | current ₹14.9 Cr; deferred credit ₹7.8 Cr; total ₹7.1 Cr (FY25 deferred credit ₹247.5 Cr) | BlackBuck AR | Yes — primary | **No: supersedes "~₹25 Cr DTA" (S13)** |
+| 34 | BlackBuck on-book vehicle loans | Gross ₹62.6 Cr (₹44.3 Cr) across 2,005 loans; Stage 2 4.1%; Stage 3 6.7%; collateral ₹122.9 Cr | AR financial-risk note | Yes — primary | Yes (primer ~₹60 Cr); **partner-managed ~₹600 Cr still unverified** |
+| 35 | BlackBuck Q1 FY27 gross vs net revenue | revenue from operations ₹204.17 Cr (+42%); net revenue ₹165.03 Cr (+25%); core +21% | Q1 FY27 deck (BSE 640ebab5…); call | Yes (file re-read) — primary | Yes |
+| 36 | BlackBuck Q2 board | 29-Oct-2026 | BSE intimation via screener (21-Oct) | Yes — primary (announcement) | Yes |
+| 37 | TVS SCS FY26 geography | India 28% / RoW 72% (₹3,037 / ₹7,966 Cr) | TVS SCS AR MD&A | Yes — primary | **Refines 70/30 (S14)** |
+| 38 | TVS SCS FY26 one-offs | JV/associate share ₹182.03 Cr; exceptional loss ₹105.63 Cr (restructuring ₹91.29 Cr + Labour Code ₹14.34 Cr) | AR P&L, EBITDA reconciliation | Yes — primary | Refines (S15) |
+| 39 | TVS SCS FY26 PAT | ₹117.02 Cr total; owners ₹114.28 Cr; operational ₹69.0 Cr (deck) | AR; deck (BSE 23e5d43e…) | Yes — primary | Yes; adds the attributable figure |
+| 40 | India air cargo FY26 | 3,964 kt (+6.2%): international 2,452 kt (+5.5%), domestic 1,512 kt (+7.4%) | AAI TRMar2k26_2.pdf | Yes — primary [V-gov] | New (fills §H4) |
+
+**Count:**
+- **38 of the 40 rows are [V] from primary documents read this session.**
+  - 31 are new reads: annual reports, shipmin, AAI, PIB and the BSE intimation.
+  - 7 are BSE decks, transcripts and filings downloaded earlier today and re-read here.
+- The other two:
+  - Row 31: the consolidated EBITDA itself comes from the deck; the AR read only confirms the standalone figure.
+  - Row 9: the FY20 ~74% baseline is not confirmed.
+- **Supporting figures not in the 40, with their status:**
+  - **Already [V] in Part 1 (not re-fetched):** WDFC 1,506 km and the 8-Sep-2026 dedication (JICA press release).
+  - **[V-snip/press] only:**
+    - Delhi diesel ₹95.20 (goodreturns).
+    - Excise cut on 26-Mar-2026: special additional excise duty on petrol cut from ₹13 to ₹3 and on diesel from ₹10 to nil; retail prices unchanged (BusinessToday/Moneylife).
+    - JNPA H1 FY27 rail share 12.7% (Maritime Gateway).
+    - LPI 2023 38th of 139 (indbiz.gov.in and press).
+    - LEADS 2025 (released 13-May-2026, per press).
+    - E-way bill monthly figures (press citing GSTN).
+    - Railways freight Sep-2026 135.35 MT (+6.14%) and H1 FY27 833.7 MT (+4.1%) (press citing Ministry of Railways).
+  - **Prefer a primary source before these carry an argument.**
+
+**Where sources conflict, which one wins:**
+1. **Major-port tonnage:** shipmin's monthly PDF gives 914.73 MT; the PIB release gives 915.17 MT. Use 915 MT, citing the PIB figure as the later revision.
+2. **CONCOR's JNPT target:** the CMD gave two numbers in the same call (18–19%; ~19%, maybe 20–21%). Use "~19%".
+3. **TVS SCS InvIT gain:** the deck says ₹177.2 Cr and the AR's associate line says ₹182.0 Cr. The AR is audited and includes the JV's operating share, so the two are reconcilable. Quote "~₹180 Cr one-off share of JV profit (InvIT transfer)".
+4. **Blue Dart fuel-surcharge index:** the AR (Brent) and the call (local diesel) differ. They are not contradictory: different products use different indices.
+
+## 4.2 Company deep-dives (guidance digest · call KPIs · 5-year · 8-quarter · annual-report findings)
+
+### Single PAT basis — confirmed for all five
+- **Basis used everywhere:** screener's "Net profit" = **consolidated profit for the year, after exceptional items, before splitting out non-controlling interest (NCI)**. Use this basis in every table.
+- Checked against each annual report this session:
+
+| Company | FY26 profit for the year | Attributable to owners | NCI | Screener PAT | Note |
+|---|---|---|---|---|---|
+| CONCOR | ₹1,245.74 Cr | ₹1,241.80 Cr | ₹3.94 Cr | 1,246 | consolidated (subsidiaries + JVs) |
+| Delhivery | ₹152.54 Cr | ₹152.68 Cr | −₹0.14 Cr | 153 | Ecom 99.87% until 10-Dec-2025, then 100% |
+| Blue Dart | ₹247.4 Cr | ₹247.4 Cr | nil | 247 | subsidiaries 100% (Blue Dart Aviation, Concorde Air Logistics) |
+| BlackBuck | ~₹160.3 Cr | same | nil | 160 | subsidiaries 100% (Blackbuck Finserve, TZF, ZZ, BTSPL) |
+| TVS SCS | ₹117.02 Cr | ₹114.28 Cr | ₹2.74 Cr | 117 | a few non-wholly-owned subsidiaries |
+
+- The two bases never differ by more than ₹4 Cr, so the choice does not change any argument.
+- The first pass's note that Delhivery's screener PAT "includes minorities/associate" is right in form but immaterial: Delhivery's associate share and NCI are both under ₹1 Cr.
+- **Do not mix** "adjusted" PATs (Delhivery ex-integration, TVS operational, BlackBuck normalised tax) into aggregate rows.
+
+---
+
+### 4.2.1 CONCOR (531344)
+
+**Management-guidance digest — Q4 FY26 call, 26-May-2026 (latest available; no Q1 FY27 call was held or filed) [V-call]**
+1. **Volumes FY27:** handling volume +9.5% (EXIM +8%, domestic +15%). It will "go for a revision if required". No guidance beyond FY27 ("better not to make any long-term guidance"). Rule of thumb: originating TEUs ≈ 65–70% of handling TEUs.
+2. **Margin:** "we will maintain EBITDA between 24% to 25%" (standalone; FY26 24.33%, FY25 24.9%).
+3. **DFC/JNPT:** the JNPT rail coefficient was 15.12% in FY26. Expected ~19% in FY27 (possibly 20–21%) and 30–35% in ~3 years. Road-to-rail "will not happen overnight". JNPT also serves non-DFC hinterlands (Hyderabad, Nagpur, Bengaluru).
+4. **Pricing lever:** on double-stack trains CONCOR pays **50% haulage for upper-deck boxes**. It plans to pass part of that saving to customers through upper-deck tariffs competitive with road. **DFC haulage is the same as on IR track**, and "there is no such move that Indian Railways is going to increase the haulage charges."
+5. **West Asia / Q4 domestic hit:** domestic Q4 segment EBIT fell to ~0.2% for two reasons:
+   - **Gunny-bale traffic collapsed** for want of jute from a neighbouring country, so eastbound boxes returned empty.
+   - **Morbi tile factories shut on a gas shortage.**
+
+   Both commodities are "slowly… getting revived"; bulk cement in tank containers is the new leg.
+6. **Trading update:** "March and April were not good… we are seeing good volumes in the month of May." Diesel hikes should help rail share, but it was "premature" to quantify.
+7. **Capex:** ~₹1,000 Cr a year; FY27 ₹945 Cr approved, likely to end near FY26's ₹1,085 Cr. EXIM revenue crossed ₹6,000 Cr for the first time; the EXIM lead fell ~3 km in FY26, so revenue lagged volume.
+8. **Other:** 30% of Bharat Container Shipping Line; ~700 own-bill-of-lading containers to the Middle East (stopped by the conflict); started moving to the Far East.
+
+**Call KPI table [V-call; V-AR]**
+
+| KPI | FY25 | FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 | FY27 guide |
+|---|---|---|---|---|---|---|
+| Handling TEU (m) | 5.09 | 5.58 (+9.56%) | — | 1.40 (+8.9%) [E: H1 − Q2] | 1.45 (+0.53%) | +9.5% |
+| EXIM TEU (m) | 3.90 | 4.21 (+8%) | — | 1.07 (+9.8%) [E] | 1.09 (−0.07%) | +8% |
+| Domestic TEU (lakh) | 11.99 | 13.74 (+14.6%) | — | 3.36 [E] | 3.56 (+2.43%) | +15% |
+| Originating TEU | — | EXIM +5%, domestic +1.9% | EXIM 5,49,273; domestic 1,29,065 | n.a. | n.a. | — |
+| CONCOR tonnage by rail (MT) | 49.22 | 51.02 (+2.8%) | — | — | — | — |
+| Rail market share (TEU) | 55.9% | 54.5% | — | — | — | — |
+| Rail freight margin | 25.65% | 27.16% | — | — | — | — |
+| Company EBITDA margin (standalone) | 24.9% | 24.33% | — | — | — | 24–25% |
+| Double-stack rakes run | 6,302 | 6,396 | — | — | — | — |
+| JNPT rail coefficient | — | 15.12% | — | — | — | ~19% |
+| Capex (₹ Cr) | — | 1,085.2 | — | — | — | 945 (budget) |
+
+**5-year history (screener consolidated, ₹ Cr) [V-scr]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 7,653 | 8,169 | 8,653 | 8,887 | 9,079 |
+| Operating profit | 1,748 | 1,868 | 1,959 | 1,930 | 1,951 |
+| OPM % | 22.8 | 22.9 | 22.6 | 21.7 | 21.5 |
+| PAT (profit for the year) | 1,052 | 1,173 | 1,262 | 1,293 | 1,246 |
+| ROCE % | 13 | 14 | 14 | 14 | 13 |
+
+**8-quarter trend (screener consolidated, ₹ Cr) [V-scr]**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 2,288 | 2,208 | 2,288 | 2,154 | 2,355 | 2,308 | 2,263 | 2,160 |
+| OP | 582 | 465 | 441 | 433 | 576 | 514 | 427 | 444 |
+| OPM % | 25 | 21 | 19 | 20 | 24 | 22 | 19 | 21 |
+| PAT | 366 | 367 | 300 | 267 | 380 | 335 | 264 | 269 |
+
+- Read: Q1 FY27 revenue +0.3% YoY on handling TEUs +8.9% [E]. Realisation per TEU fell ~8% YoY [E] (double-stacking, shorter EXIM lead, rebates). Q2 FY27 volumes are flat, so Q2 revenue is unlikely to beat Q2 FY26's ₹2,355 Cr [E].
+
+**Annual-report findings (AR 2025-26) [V-AR]**
+- **LLF (biggest single finding):**
+  - ₹398.62 Cr booked in FY26 (+6.6%) on CONCOR's own assessment of 6%-of-market-value rates.
+  - No lease agreements executed for any of the 24 IR land parcels.
+  - Divisional railways have raised demands "not in line with IR's policy" (land rates, areas).
+  - No Ind-AS 116 right-of-use asset or liability is recognised.
+  - **Auditors' Emphasis of Matter** on both standalone and consolidated accounts.
+  - Implication: (i) LLF is a rising, fixed ~₹400 Cr cost, i.e. 4.4% of revenue and ~20% of OP. (ii) Any switch to signed leases would gross up the balance sheet (RoU asset and lease liability) and move the cost below EBITDA, flattering reported EBITDA by up to ~4 points [E]. (iii) The contingent liability covers part of the disputed demand.
+- **Contingent liabilities:** claims not acknowledged as debt ₹2,345.05 Cr standalone (₹2,186.74 Cr), including LLF demands for a few terminals; ₹1,318.91 Cr arises from arbitration awards under challenge. Equal to 18% of net worth.
+- **Segments:**
+  - EXIM revenue ₹6,026 Cr (+5.1%), result ₹1,436 Cr (23.8%).
+  - Domestic revenue ₹3,053 Cr (−3.2%), result ₹153 Cr (5.0%, from 8.0%).
+  - Segment assets: EXIM ₹4,514 Cr, domestic ₹4,248 Cr. **Domestic earns ~3.6% pre-tax on its segment assets vs ~32% for EXIM** [E].
+  - Corporate expenses ₹254.8 Cr (+16.5%).
+- **Rebates/discounts:** ₹201.8 Cr (+27.5%; EXIM +42%). This is price being given to hold share against private operators and road.
+- **Cost structure (standalone):** rail freight expense ₹5,011 Cr was flat YoY (−0.2%) while rail freight income rose +1.9% (consolidated ₹6,880 Cr vs ₹6,754 Cr). That is why the rail freight margin improved (double-stack saving) even as realisation fell.
+- **Cash:** consolidated cash ₹654 Cr plus other bank balances ₹2,833 Cr plus investments ₹1,069 Cr, i.e. **~₹4,556 Cr of liquid assets** [E]. Screener's "net debt" (−₹104 Cr) badly understates net cash.
+- **Network:**
+  - 68 terminals; 424 rakes; 57,746 containers; 104 reach-stackers; 230 LNG trucks; 1,238 staff (a ~₹7.3 Cr revenue-per-employee PSU model built on outsourced operations [E]).
+  - New terminals: Mandalgarh (a Gati Shakti Cargo Terminal), Kadakola, Jajpur, Paradip. Chharodi is under development. An exclusive container rail terminal (ECRT) is running at Reddipalem since Feb-2026.
+  - ~13 CONCOR locations notified under IR's **ECRT policy** (24 locations identified; 30–40 more possible). The policy repurposes railway terminals, including terminals CONCOR returned, for domestic containers: both an opportunity and new competition.
+- **Risks listed by management:** dependence on IR haulage-charge decisions; shipping lines integrating inland (CHA/forwarding, first and last mile) and diverting volume to private operators they hold stakes in; growth of direct port delivery/entry (DPD/DPE, "serious threat on modal shift… from Rail to Road"); better roads cutting short-lead EXIM; private operators adding rakes "month-by-month"; land acquisition; empty running.
+
+---
+
+### 4.2.2 Delhivery (543529)
+
+**Management-guidance digest — Q1 FY27 call, 8-Aug-2026 [V-call; V-deck]**
+1. **Volumes:** FY27 express growth at the "upper end" of 20–30%. Share gains are "relative to other 3PLs" and also from "customers who have in-house logistics". Barua "certainly hope[s]" this is a shift from insourcing but calls "evidence" "a strong word".
+2. **Margins:**
+   - Express service EBITDA 16–18% in H2 FY27, "closer to the higher end".
+   - PTL to exit FY27 at 15–15.5% (exited FY26 at 13.4%).
+   - Q1 was hit by ~₹30–35 Cr from fuel-pass-through lag plus deliberate spend on service quality. Normalised Q1 EBITDA would have been ~₹30–35 Cr higher (CFO Vivek Pabari).
+3. **Fuel:**
+   - PTL contracts are indexed monthly; Delhivery is "covered upward of 97, 98%".
+   - Of the +37 paise PTL yield gain, only ~6 paise was fuel.
+   - Revisions began end-April to mid-May; the "entire impact… will be evident in the Q2 numbers".
+   - E-commerce contracts do not all carry fuel clauses; labour-cost escalation is harder to pass through than fuel.
+4. **Pricing:** "we don't see significant pricing pressure in the market any longer… at the bare minimum… yields will hold". The fall in express yield from ₹67.5 to ₹58 is **mix** (Ecom was a small-parcel network). H2 yields are seasonally higher.
+5. **Integration:** Ecom integration cost was ₹17 Cr in Q1 FY27 (₹148 Cr FY26), near its end. PAT before integration cost was ₹62 Cr vs ₹32 Cr reported.
+6. **New businesses:**
+   - **NBFC licence received July 2026.** The plan is an "asset-light" fleet-owner finance and insurance model with partner lenders, "not to lend heavily off the Delhivery's balance sheet", to grow a stable supply pool. This is a direct step into BlackBuck's territory.
+   - Delhivery Direct GMV ~₹150 Cr run-rate vs a ₹250 Cr FY27 plan.
+   - No dark stores: quick commerce is "not a super high margin industry".
+7. **Network:** small parcels (Meesho-type) need no network redesign. Opening freight service centres pulls heavies out of delivery centres and shrinks the delivery centres needed.
+
+**Call/deck KPI table [V-deck; V-AR]**
+
+| KPI | FY25 | FY26 | Q1 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|
+| Express parcels (m) | 752 | **1,054 (+40.2%)** | 208 | 306 [E: 322 ÷ 1.052] | **322 (+55.2%)** |
+| Express revenue (₹ Cr) | 5,318 | 6,687 (+25.8%) | 1,403 | — | 1,869 (+33.2%) |
+| Express yield (₹/parcel) | 70.7 [E] | 63.4 [E] | 67.5 | — | 58.0 |
+| PTL tonnage (kt) | 1,696 | **1,991 (+17.4%)** | 458 | ~550 [E] | 542 (+18.4%) |
+| PTL realisation (₹/kg) | 11.14 | 11.32 | 11.1 | — | ~11.7 |
+| Service EBITDA % | — | 14.4 | 13.0 | 15.8 | 13.1 |
+| Express service EBITDA % | — | 17.2 | 16.3 | 18.8 | 15.6 |
+| PTL service EBITDA % | — | 11.0 | 10.7 | 13.4 | 11.2 |
+| Adjusted EBITDA (₹ Cr / %) | — | 457 / 4.4 | 76 / 3.3 | 150 / 5.3 | 76 / 2.6 |
+| Lease rent paid (₹ Cr) | 343 | 417 | — | — | ~100 |
+| Integration cost (₹ Cr) | 0 | 148 | 0 | 22 | 17 |
+| Rated automated sort capacity | — | 10.4m shipments/day (31-Mar-26) | — | — | — |
+
+**5-year history (screener consolidated, ₹ Cr) [V-scr]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 6,882 | 7,225 | 8,142 | 8,932 | 10,508 |
+| Operating profit | −475 | −452 | 127 | 376 | 640 |
+| OPM % | −6.9 | −6.3 | 1.6 | 4.2 | 6.1 |
+| PAT | −1,011 | −1,008 | −249 | 162 | 153 |
+| ROCE % | −17 | −11 | −2 | 2 | 1 |
+
+**8-quarter trend (screener consolidated, ₹ Cr) [V-scr]**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 2,190 | 2,378 | 2,192 | 2,294 | 2,559 | 2,805 | 2,850 | 2,931 |
+| OP | 51 | 100 | 119 | 141 | 68 | 209 | 214 | 139 |
+| OPM % | 2.3 | 4.2 | 5.4 | 6.1 | 2.7 | 7.5 | 7.5 | 4.8 |
+| PAT | 10 | 25 | 73 | 91 | −50 | 40 | 72 | 32 |
+
+- Read: Q2 FY26 OP and PAT carry ₹90 Cr of Ecom integration cost. Ex-integration, OPM ran 6.1% → 6.2% → 8.7% → 8.3% → 5.4% across Jun-25 to Jun-26 [E].
+
+**Annual-report findings (AR 2025-26) [V-AR]**
+- **Volumes and yields:** express 1,054m parcels (+40.2%), revenue +25.8% → yield −10% (mix). PTL 1,991 kt (+17.4%), revenue +19.3%, realisation +1.6% to ₹11.32/kg. Revenue from contracts ₹10,508 Cr (+17.6%); total income ₹10,867 Cr.
+- **EBITDA bridge (₹ Cr):** revenue 10,508 − freight, handling & servicing 7,466 − employees 1,605 − other 798 = **EBITDA 640**; + ESOP 86 − lease rent 417 + integration 148 = **adjusted EBITDA 457 (4.4%)**. Employee cost fell to 15.3% of revenue (from 15.4%) although average headcount rose 10.7%.
+- **Ecom Express (note 36(1)):**
+  - Price and stake: ₹1,369.6 Cr for 99.87%; wholly owned from 10-Dec-2025.
+  - Fair-value net assets ₹328 Cr; goodwill ₹1,041.7 Cr.
+  - Intangibles recognised: customer relationships ₹104.7 Cr, brand ₹20.5 Cr. PPE ₹230.9 Cr; Ecom cash ₹106.3 Cr.
+  - Liabilities assumed: borrowings ₹118.7 Cr, lease liabilities ₹116.7 Cr.
+- **PAT:** ₹152.54 Cr (PAT margin 1.4% of total income vs 1.7%). Management attributes the decline to lease interest and depreciation on Ecom assets, and to "significant cash outflow in Q2FY26 which reduced finance income". **Owners' share ₹152.68 Cr.** EPS ₹2.04.
+- **Balance sheet:** debt-equity ~0 ("reduction in availed banking facilities"); current lease liabilities ₹340.4 Cr. Receivables turnover improved to 7.11× from 6.00×.
+- **Related parties:** no promoter group; transactions are with subsidiaries/associates and KMP only. Nothing material for the writer.
+- **Sustainability/fleet:** ~3,000 CNG/electric vehicles in the partner fleet at FY26 end (from ~1,600); 123 tractors added.
+
+---
+
+### 4.2.3 Blue Dart Express (526612)
+
+**Management-guidance digest — Q1 FY27 call, 5-Aug-2026 (filed 8-Aug) [V-call]** (CFO Sagar Patil)
+1. **Growth is price-led:** Q1 FY27 revenue +15% on tonnage +~7% and shipments +~2%. Growth came "from pricing, from RPK, RPS point of view", through repricing loss-making lanes and customers in this year's GPI round plus the fuel surcharge.
+2. **Pricing policy:** GPI (general price increase) net realisation of ~4–5% a year, plus "sharper" customer- and lane-specific corrections where value and premium do not match.
+3. **Fuel:** a monthly surcharge reset on local diesel prices "neutralize[d] the impact of fuel price increase" in Apr–Jun 2026; fuel inflates both revenue and cost. The AR describes the air surcharge as indexed to Brent/ATF.
+4. **Mix:** revenue air 60% / ground 40% (unchanged); e-commerce revenue +10%+; ground B2B +14% (auto is the fastest-growing vertical, in surface B2B). E-commerce is "a growth driver… not a completely focus area"; within it, e-commerce surface grows fastest.
+5. **Margins:** no numeric guide. H2 brings the seasonal volume boost and peak-resourcing cost; margins depend on "flex in the resource versus demand".
+6. **Capex:** standalone ₹100–150 Cr a year (replacement plus expansion); aviation capex = maintenance and engine cycles, lumpy. As an ongoing-capex proxy, use depreciation + 20–25%. New hubs (2 in the North done; Bengaluru/Chennai/Mumbai consolidation "a few quarters away").
+7. **Reach:** India Post MoU (9-Oct-2026) for Tier III/IV towns [V-scr].
+
+**Call/deck KPI table [V-deck; V-call; V-AR]**
+
+| KPI | FY25 | FY26 | Q1 FY26 | Q1 FY27 |
+|---|---|---|---|---|
+| Domestic shipments (m) | 376.7 | **403.4 (+7.1%)** | ~94.3 [E] | 96.15 (+~2%) |
+| International shipments (lakh) | 5.72 | 5.62 | — | — |
+| Tonnage (kt) | — | ~1,438–1,439 | ~340 [E] | 364.43 (+~7%) |
+| Consolidated revenue (₹ Cr) | 5,720 | 6,141 | 1,442 | 1,658 (+15%) |
+| Yield (₹/kg) | — | 42.7 [E] | ~42.4 [E] | 45.5 [E] |
+| Yield (₹/shipment) | 151.8 [E] | 152.2 [E] | ~153 [E] | 172 [E] |
+| Consolidated EBITDA % (pre-exceptional) | — | 16.05 | 14.15 | 16.53 |
+| Standalone EBITDA (₹ Cr / %) | 573.9 / 10.0 | 649.2 / 10.44 | — / 8.26 | — / 11.44 |
+| B2B : B2C revenue | — | 70 : 30 | — | 70 : 30 |
+| Air : ground revenue | — | 60 : 40 | — | 60 : 40 |
+| Freighters | 8 | 8 (6 × B757-200, 2 × B737) | 8 | 8 |
+| Pallet utilisation | — | — | — | 85–90% |
+
+**5-year history (screener consolidated, ₹ Cr) [V-scr]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 4,410 | 5,172 | 5,268 | 5,720 | 6,141 |
+| Operating profit | 1,000 | 938 | 853 | 876 | 951 |
+| OPM % | 22.7 | 18.1 | 16.2 | 15.3 | 15.5 |
+| PAT | 382 | 371 | 301 | 252 | 247 |
+| ROCE % | 31 | 26 | 19 | 16 | 16 |
+
+**8-quarter trend (screener consolidated, ₹ Cr) [V-scr]**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,448 | 1,512 | 1,417 | 1,442 | 1,549 | 1,616 | 1,533 | 1,658 |
+| OP | 218 | 239 | 213 | 196 | 252 | 281 | 222 | 261 |
+| OPM % | 15.1 | 15.8 | 15.0 | 13.6 | 16.3 | 17.4 | 14.5 | 15.7 |
+| PAT | 63 | 81 | 55 | 49 | 81 | 68 | 49 | 88 |
+
+- Dec-25 PAT is after the ₹44 Cr Labour-Code exceptional. Q1 FY27 PAT ₹88 Cr is the highest in eight quarters.
+
+**Annual-report findings (AR 2025-26) [V-AR]**
+- **Volumes:** 403.4m domestic shipments (+7.1%); 0.56m international (−1.7%); >14.38 lakh tonnes. "Over 60 shipments every second". 2,492 facilities; 33,000+ vehicles; 599 EVs; 19,000+ PIN codes; payload >500 t a night across 8 airport stations; dispatch reliability 99.57% (B737) and 99.42% (B757).
+- **Standalone P&L:** income from operations ₹6,140.88 Cr (₹5,720.18 Cr); EBITDA ₹649.18 Cr (₹573.87 Cr; +13%); PAT ₹239.69 Cr (₹244.63 Cr). Management blames the Labour-Code exceptional and higher operating and finance costs of the network expansion.
+- **Related parties: no royalty or brand fee to DHL** (unlike many MNC subsidiaries). The material flows (₹ Cr, FY26 vs FY25):
+  - **Blue Dart Aviation (100% subsidiary):** aircraft charter cost 1,240.5 (1,244.5) = **20% of standalone revenue**, an intra-group charge that explains the standalone (10.4%) vs consolidated (16.1%) EBITDA gap.
+  - Loan to Blue Dart Aviation outstanding ₹543.5 Cr (₹607.5 Cr), at 5-year G-sec + 50 bp; interest income ₹40.1 Cr. A payload deposit of ₹28.5 Cr was granted.
+  - Concorde Air Logistics (subsidiary): commercial airlift 215.4 (197.1).
+  - DHL Express (India): **international servicing charges paid 205.7 (189.3)**; domestic service income received 80.1 (86.5).
+  - DHL Supply Chain India: income 22.7. DHL Logistics: income 6.2.
+  - Deutsche Post IT Services: **repairs, maintenance and IT 75.1 (64.9), +16%**.
+  - Dividend paid to DHL Express Singapore 44.5.
+  - Net: **cash paid to DHL-group entities outside Blue Dart's own subsidiaries ≈ ₹281 Cr vs ≈ ₹109 Cr received** [E]. The parent is a net supplier of international network and IT, not a royalty taker.
+- **Contingent liabilities (standalone):** direct tax ₹4.92 Cr (TDS on transport vendors; Sec 80JJAA); indirect tax ₹4.91 Cr (₹3.10 Cr; ITC from cancelled vendor registrations). Letter of comfort for Blue Dart Aviation borrowings: ₹78.3 Cr outstanding. Small.
+- **Risks (BRSR):** rising fuel costs (mitigated by a Brent-indexed surcharge and fleet electrification), aviation carbon footprint, labour availability. Corporate governance: three minor related-party transactions noted after year-end without prior audit-committee approval (₹1.05 lakh and ₹42.8 lakh), disclosed as exceptions.
+
+---
+
+### 4.2.4 BlackBuck (544288)
+
+**Management-guidance digest — Q1 FY27 call, 29-Jul-2026 (filed 3-Aug) [V-call]** (CEO Rajesh Yabaji)
+1. **Demand:** "a very tough April". Normalised swipes per intercity truck contracted sharply, then recovered through end-May and June; "cautiousness has gone away and largely BAU has got restored". Model tolling again on road growth, toll-fare inflation and truck-population growth.
+2. **Market:** NETC-wide toll GTV grew "a very small single digit"; CV toll GTV "a little bit of a higher single digit"; BlackBuck +16%, i.e. share gains.
+3. **Fuel business** (small): loyalty margins cut while supply was short; "partial strong recovery", but no guidance on full recovery.
+4. **Growth businesses:** +44% QoQ (after +20% in Q4). Superloads productivity is "AI-led"; the new cities have gained momentum. **Vehicle finance to "converge into profitability by the end of this financial year"** (reiterated).
+5. **Profit framework:** in the core businesses, 60–85% of incremental revenue converts to EBITDA. Superloads investment is "stepping up every quarter".
+6. **PAT optics:** the sequential fall in PAT is due to the DTA recognised in Q4 FY26; ex-DTA, PAT tracks adjusted EBITDA.
+7. **Competition (Delhivery's fintech plan):** "a very positive direction… hardly any qualified competition… we don't see much of near-term threat", but BlackBuck will be "cautiously watching" and intends to "keep a very strong hold on market share".
+8. **Telematics:** a record quarter for new devices; "further good quarters" expected.
+
+**Deck KPI table [V-deck]**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | YoY |
+|---|---|---|---|---|
+| Avg monthly transacting truck operators | 783,399 | 866,091 | 883,386 | +13% |
+| Operators using ≥2 services | 386,351 | 441,874 | 458,919 | +19% |
+| Tolling GTV (₹ Cr) | 6,073 | 7,094 | 7,045 | +16% |
+| Toll transactions (crore) | ~15.9 [E] | ~18.4 [E] | 17.84 | +12% |
+| Revenue from operations (₹ Cr) | 144 | 185 | 204.17 | +42% |
+| Net revenue (₹ Cr) | 131.85 | 159.86 | 165.03 | +25% |
+| Contribution margin | ~93% | ~93% | 93% | — |
+| Adjusted EBITDA (₹ Cr) | 47.21 | 50.20 | 54.62 | +16% |
+| PAT (₹ Cr) | 33.8 | 65.7 (incl. DTA) | 42.17 | +25% |
+| Take rate: net revenue ÷ toll GTV | 2.17% [E] | 2.25% [E] | 2.34% [E] | — |
+
+**5-year history (screener consolidated, ₹ Cr) [V-scr]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 119 | 176 | 297 | 427 | 652 |
+| Operating profit | −231 | −232 | −158 | 93 | 167 |
+| OPM % | −194 | −132 | −53 | 21.8 | 25.6 |
+| PAT | −285 | −290 | −194 | −9 | 160 |
+| ROCE % | −29 | −36 | −32 | 11 | 13 |
+
+**8-quarter trend (screener consolidated, ₹ Cr) [V-scr]**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 99 | 114 | 122 | 144 | 151 | 172 | 185 | 204 |
+| OP | 15 | 30 | 40 | 40 | 37 | 45 | 45 | 50 |
+| OPM % | 15 | 26 | 33 | 28 | 24 | 26 | 24 | 24 |
+| PAT | −269 | −48 | 280 | 34 | 29 | 32 | 66 | 42 |
+
+- Sep-24: IPO-year fair-value and ESOP charges. Mar-25: large DTA recognition (FY25 deferred credit ₹247.5 Cr). Mar-26: a further small DTA credit. The OPM drift from 28% to 24% reflects Superloads booked at gross revenue.
+
+**Annual-report findings (AR 2025-26) [V-AR]** (₹ million in the AR; converted to ₹ Cr)
+- **Tax (corrects Part 1):** FY26 current tax ₹14.9 Cr; deferred tax credit ₹7.8 Cr; total ₹7.1 Cr. FY25 total tax was a credit of ₹244.7 Cr (deferred −₹247.4 Cr). Net DTA on the balance sheet ₹255.1 Cr (standalone). BlackBuck will pay a low cash tax rate for some years while the DTA unwinds [E].
+- **Vehicle-finance book (Blackbuck Finserve, an NBFC registered with RBI on 31-Aug-2023):**
+
+  | Bucket (₹ Cr, 31-Mar-26) | Loans (no.) | Gross | Share |
+  |---|---|---|---|
+  | Zero overdue | 1,758 | 51.27 | 82% |
+  | 1–29 days | 119 | 4.59 | 7% |
+  | Stage 2 (30–89 days) | 68 | 2.55 | 4.1% |
+  | Stage 3 (90+ days) | 60 | 4.22 | **6.7%** |
+  | **Total** | **2,005** | **62.63** (FY25 44.32) | |
+
+  - Average ticket ~₹3.1 lakh per loan [E]. Collateral (charges over CVs) ₹122.9 Cr.
+  - Finserve: total assets ₹178.5 Cr; turnover ₹13.9 Cr; loss ₹3.1 Cr in FY26.
+  - BlackBuck injected ₹100 Cr (rights issue at ₹150/share, 15-Dec-2025) from IPO proceeds.
+  - **The on-book book is tiny; the "partner-managed" ~₹600 Cr AUM is not disclosed in the AR (still unverified).** A 6.7% Stage-3 ratio is high, but on a ₹63 Cr book it is ₹4 Cr of risk.
+- **People:** 3,652 employees (FY25 3,945; −7%) while revenue grew 53%.
+- **Subsidiaries:** TZF Logistics (₹6 Cr capital; used for the 28-Sep-2026 ₹22 Cr rights issue), Blackbuck Finserve, ZZ Logistics (dormant), plus the new BTSPL (Loads business slump sale, 12-Oct-2026).
+- **Related parties:** none material beyond subsidiaries/KMP. Auditors BSR & Co: unmodified opinion.
+
+---
+
+### 4.2.5 TVS Supply Chain Solutions (543965)
+
+**Management-guidance digest — Q1 FY27 call (Aug-2026; filed 17-Aug) [V-call]** (MD Vikas Chadha; Global CFO R. Vaidhyanathan)
+1. **Growth:** "aspiration to grow our revenues by mid-teen growth this year… quarter 1 has been absolutely spot on" (+28.7% YoY in Q1, helped by record wins of ₹543 Cr and Swamy & Sons).
+2. **PBT margin path:** Q1 adjusted PBT ~1.0% (from 0.7%). The aspiration of **4% PBT by Q4 FY27** is stated as an aspiration only, with "FY'28, definitely" as the firm date.
+3. **ISCS margin:** the dip came from one-off onboarding costs of large new contracts. "In Q2 itself, we will achieve 9%"; **9.5–10% by Q4 FY27**. Through-cycle ISCS "always about 8.5%, 9%".
+4. **Profitable growth:** "all our projects that we win… are accretive to our existing margins"; profit growth should be a multiple of revenue growth.
+5. **Risk:** major supply-chain disruption or recession. "At this moment, we don't see this risk playing out"; embedded in customers' manufacturing volumes, so early visibility.
+6. **Other:** GFS margin up on India volumes and "Project One" European integration. ALA (Italy) aerospace-and-defence JV (51%, 6-Oct-2026). Credit outlook revised to Positive (Ind AA).
+
+**Deck KPI table [V-deck; V-AR]**
+
+| KPI | FY25 | FY26 | Q1 FY26 | Q1 FY27 |
+|---|---|---|---|---|
+| Revenue (₹ Cr) | 9,995.7 | 11,003.0 | 2,592 | 3,335.2 (+28.7%) |
+| India share of revenue | 27% | **28%** | — | 30% |
+| ISCS / GFS revenue (₹ Cr) | — | ~8,239 / ~2,764 | 1,983 / 609 [E] | 2,417 / 918 |
+| ISCS / GFS adjusted EBITDA % | — | — | — | 8.1 / 4.1 |
+| Adjusted EBITDA (₹ Cr) | 667.4 | 770.7 (AR) / 773.1 (deck) | 173 | 232.2 (7.0%) |
+| Adjusted PBT (₹ Cr) | — | 99.3 | 18.8 | 32.1 |
+| Operational PAT (₹ Cr) | — | 69.0 | 8.8 | 22.5 |
+| New business wins (₹ Cr, quarter) | — | 160–235 per quarter | — | 543 (record) |
+| Pipeline (₹ Cr) | — | — | — | 7,500 |
+| Sea-freight TEU | 91,608 | 112,007 | — | — |
+| Warehousing (m sq ft) | 24.79 | 25.07 | — | 25.1 |
+| Customers / Fortune Global 500 | 6,277 / 91 | 7,124 / 100 | — | 7,100+ / 100 |
+
+**5-year history (screener consolidated, ₹ Cr) [V-scr]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 9,250 | 9,994 | 9,200 | 9,996 | 11,003 |
+| Operating profit | 621 | 672 | 705 | 673 | 778 |
+| OPM % | 6.7 | 6.7 | 7.7 | 6.7 | 7.1 |
+| PAT | −46 | 42 | −90 | −10 | 117 |
+| ROCE % | 6 | 6 | 5 | 5 | 10 |
+
+**8-quarter trend (screener consolidated, ₹ Cr) [V-scr]**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 2,513 | 2,445 | 2,499 | 2,592 | 2,663 | 2,716 | 3,032 | 3,335 |
+| OP | 190 | 151 | 169 | 177 | 182 | 206 | 218 | 225 |
+| OPM % | 7.6 | 6.2 | 6.8 | 6.8 | 6.8 | 7.6 | 7.2 | 6.7 |
+| PAT | 11 | −24 | −4 | 71 | 16 | 11 | 18 | 22 |
+
+- Jun-25 PAT includes most of the ~₹180 Cr JV/InvIT gain; the FY26 exceptional loss (₹106 Cr) fell mainly in later quarters. Revenue has stepped up ₹600+ Cr in two quarters (Mar-26, Jun-26): new wins plus Swamy & Sons.
+
+**Annual-report findings (AR 2025-26) [V-AR]**
+- **P&L lines (₹ Cr):**
+  - Freight, clearing, forwarding & handling 3,005.66 (2,816.23); sub-contracting and casual labour 1,554.71 (1,438.63).
+  - Material and related costs 2,049.43 (1,767.71; +15.9%, from new European retail/auto customers and Indian renewables).
+  - Employees 2,502.37 (+6.3%).
+  - **Impairment on financial instruments 56.01 (20.68), nearly tripled.** A receivables-quality flag worth one line.
+  - Finance cost 157.89; D&A 570.40.
+- **Bridge to PAT:** PBT before exceptional and share of JV ₹92.1 Cr [E]; + share of equity-accounted investees ₹182.03 Cr; − exceptional ₹105.63 Cr (restructuring ₹91.29 Cr, Labour Code ₹14.34 Cr) = **PBT ₹168.50 Cr** → PAT ₹117.02 Cr (owners ₹114.28 Cr).
+- **TVS Industrial & Logistics Parks** is a **24.48% joint venture**. Its asset transfer to an InvIT created the one-off; TVS SCS also records small distributions from TVS Infrastructure Trust.
+- **Group related parties:**
+  - Revenue from group companies: TVS Srichakra ₹161.67 Cr; Sundaram Lanka Tyres ₹10.46 Cr; Sundaram Industries ₹7.53 Cr; Universal Components UK ₹5.62 Cr; others small. Total **~₹187 Cr ≈ 1.7% of revenue** [E].
+  - TVS Motor Company is **not** a related party: it belongs to a different TVS family branch and is an arm's-length customer.
+  - Group exposure is small; no royalty.
+- **Geography:** India ₹3,037 Cr (28%, +12.4%), RoW ₹7,966 Cr (72%, +9.2%). RoW ISCS +11.5%; RoW GFS +2.7%.
+- **People and footprint:** 16,601 permanent employees; 435 warehouses (441); 7,124 customers; sea-freight TEU 112,007 (+22%). Its stated aim is to be "among the top 50 logistics companies worldwide".
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**I1. India container traffic by port group, FY25 → FY26 (m TEU)** [V-AR CONCOR MD&A; V-gov shipmin]
+| Port group | FY25 | FY26 | YoY |
+|---|---|---|---|
+| All Indian ports | 23.29 | 24.79 | +6.46% |
+| Major ports (12 port authorities) | 13.53 | 14.92 | +10.21% |
+| Non-major ports [E: all − major] | 9.76 | 9.87 | +1.2% |
+| — of which Mundra (Adani) | 8.28 | 8.47 | +2.30% |
+| JNPA (major) | 7.30 | 8.17 | +11.93% |
+| Other ports [E: all − JNPA − Mundra] | 7.71 | 8.15 | +5.7% |
+- Read: Mundra (8.47m) and JNPA (8.17m) together handle **67% of India's boxes**. Major-port growth (+10%) far outran non-major (+1%) in FY26, so JNPA (with WDFC rail access) gained share from Mundra. JNPA's H1 FY27 surge (+17.6%) continues that trend [V-snip], yet JNPA's rail-borne share fell. Container tonnes at major ports were 213.0 MT (+10.07%), 23.3% of all major-port cargo.
+- Other port growth in FY26 (CONCOR AR): Kolkata +18.39%, Haldia +22.70%, Vizag +2.75%, Chennai +6.71%, V.O. Chidambaranar +8.93%, Kamarajar +2.94%.
+
+**I2. Rail container market, FY25 → FY26** [V-AR]
+| Item | FY25 | FY26 | YoY |
+|---|---|---|---|
+| IR originating freight loading (MT) | 1,617.38 | 1,669.93 | +3.25% |
+| IR containerised loading (MT) | 88.73 | 93.69 | +5.59% |
+| — EXIM containers (MT) | 64.03 | 67.96 | +6.13% |
+| — Domestic containers (MT) | 24.70 | 25.73 | +4.17% |
+| CONCOR rail tonnage (MT) | 49.22 | 51.02 | +2.82% |
+| — CONCOR EXIM originating (MT) | 35.37 | 36.63 | +3.57% |
+| — CONCOR domestic originating (MT) | 14.24 | 14.38 | +0.97% |
+| CONCOR share of IR container tonnage | 55.5% | 54.5% | −1.0 pt |
+| CONCOR share of EXIM container tonnage [E] | 55.2% | 53.9% | −1.3 pt |
+| CONCOR share of domestic container tonnage [E] | 57.7% | 55.9% | −1.8 pt |
+| Containers as % of IR loading | 5.5% | 5.6% | — |
+| Port boxes (m TEU) | 23.29 | 24.79 | +6.46% |
+- Read: rail container tonnage (+5.6%) grew more slowly than port boxes (+6.5% in TEU) and much more slowly than JNPA (+11.9%). CONCOR grew more slowly than the rail container market (+2.8% vs +5.6% tonnage); **private operators took the increment.** The tonnage-share series matches the TEU-share series from the call to within 0.1 point.
+- FY27 to date [V-snip, press citing Ministry of Railways]: IR loading Sep-2026 135.35 MT (+6.14%); Apr–Sep 2026 833.7 MT (+4.1%); freight revenue +3.7% in H1. FY27 aim ~1,750 MT.
+
+**I3. Air cargo at Indian airports (thousand tonnes)** [V-gov AAI]
+| Period | International | Domestic | Total | YoY total |
+|---|---|---|---|---|
+| FY25 | 2,325.10 | 1,408.24 | 3,733.34 | +~10% |
+| FY26 | 2,451.87 (+5.5%) | 1,512.48 (+7.4%) | 3,964.35 | +6.2% |
+| Mar-2026 | 208.13 (−6.0%) | 135.18 (+10.7%) | 343.31 | 0.0% |
+| Apr–Aug FY27 | 1,159.73 (+14.4%) | 659.56 (+6.9%) | 1,819.29 | +11.6% |
+| Aug-2026 | 240.41 (+15.5%) | 129.47 (+3.5%) | 369.88 | +11.0% |
+- Read: the West Asia war cut March-2026 international air cargo by 6% and international aircraft movements by 21%. The rebound since April (+14% international) partly reflects the shift of sea freight to air during the Hormuz disruption [E]. Domestic air cargo, Blue Dart's core market, grew +7.4% in FY26 and +6.9% in Apr–Aug FY27. Blue Dart's shipments grew +7.1% in FY26 but only ~2% in Q1 FY27 (tonnage ~7%), so it is **at best holding share in domestic air and losing it in Q1 FY27** [E: Blue Dart ~1.44 MT total kilos, of which air ≈ 25% ≈ 0.36 MT ≈ 24% of AAI domestic cargo; ILLUSTRATIVE; FY25 tonnage not in the AR].
+
+**I4. Logistics cost (PIB/NCAER)** [V-gov]
+- 7.97% of GDP (FY24); 9.09% of non-services output; ₹24.01 lakh crore. Method: 3,500+ stakeholder survey plus MoSPI/RBI/GSTN data.
+- PIB adds: the EDFC cut wagon turnaround from 15–16 days to 2–3 days and transit from 60+ hours to 35–38 hours. Inland waterways moved a record 145.84 MT. World Bank funding: US$1.96 bn for the EDFC and rail logistics; US$375m for the Ganga waterway.
+- Policy tools named: ULIP, LDB 2.0, SMILE (8 pilot cities), IPRS 3.0, LEADS 2025.
+
+**I5. 3PL express market index (Shadowfax deck, Redseer basis to FY25; company estimates after)** [V-deck]
+| | FY22 | FY23 | FY24 | FY25 | FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|
+| 3PL express orders/day (FY22 = 100) | 100 | 122 | 134 | 138 | 171 | 192 |
+| Shadowfax express orders/day (FY22 = 100) | 100 | 221 | 319 | 359 | 615 | 835 |
+| Shadowfax share of 3PL express | ~8% | — | — | ~21% (Q1 FY26) | ~23% (H1 FY26, press) | 28–30% |
+- Read:
+  - The 3PL express pool grew only ~3% in FY25 (the Valmo in-sourcing year), then **~24% in FY26** and ~12% more by Q1 FY27 (Q1 vs the FY26 average). This supports Delhivery's claim that outsourcing is regaining share.
+  - Shadowfax Q1 FY27: 198m express orders (+95%), express revenue ₹997 Cr → **₹50.4/order vs Delhivery's ₹58.0**; hyperlocal 49m orders; Ind-AS EBITDA 6.8%; PAT ₹65 Cr.
+  - Derived shares of the Q1 FY27 3PL express pool [E]: Delhivery ~45–50%, Shadowfax ~28–30%, everyone else (Xpressbees, Ekart-3P, DTDC, Blue Dart, India Post, others) ~20–27%.
+
+**I6. E-way bills (million), press reports citing GSTN [V-snip]**
+May-25 122.6 · Sep-25 record (≈132) · Oct-25 126.85 · Dec-25 138.39 (record) · Jan-26 136.83 · Feb-26 132.59 (+18.8%) · **Mar-26 140.6 (all-time high, +13%)** · Apr-26 133.37 (+12%) · Jul-26 ~139.8 · Aug-26 139.08 (+7.7%).
+- FY26 total ≈ 1,550–1,600m [E: H1 ~123/month, H2 ~135/month]. YoY growth slowed from +13–19% (Feb–Apr) to +7.7% (Aug), after the GST 2.0 base effect.
+
+**I7. Fuel taxes and prices, 2026** [V-snip press; Delhi price V in Part 1]
+- 26-Mar-2026 notification under Sec 5A of the Central Excise Act: **special additional excise duty on petrol ₹13 → ₹3/litre, on diesel ₹10 → nil**. Retail prices unchanged; OMCs told not to raise prices. Minister cited OMC under-recoveries of ~₹24/litre (petrol) and ~₹30/litre (diesel). Nayara raised its retail prices by ₹5 (petrol) and ₹3 (diesel).
+- Then four pump hikes, 15–25 May 2026: Delhi diesel ₹87.67 → ₹95.20.
+- So the ₹10 diesel duty cut absorbed part of the crude spike at OMC level; the consumer pass-through came only in May. That fits Delhivery's "end-April to mid-May" contract revisions and Blue Dart's April surcharge step-up.
+
+**I8. West Asia / Hormuz timeline (freight-relevant)** [V-snip]
+- 28-Feb-2026: war begins; Hormuz traffic disrupted.
+- Mar-2026: India's international air movements −21%, international air cargo −6% [V-gov AAI]. CONCOR's Middle-East own-bill-of-lading service stopped; gunny-bale and Morbi-tile domestic rail flows hit [V-call].
+- 26-Mar: excise cut.
+- May: four diesel hikes; Hormuz "in its third month" of disruption (25-May press).
+- Mid-June 2026: US–Iran memorandum of understanding on resuming shipping; tankers resume transit (World Oil, 18-Jun-2026). Iran pledges pre-war traffic within 30 days and 60 days toll-free; Intertanko says ~80 mines to clear; volumes below pre-war levels into July.
+- Writer: say "disrupted from end-February to mid-June 2026, with a gradual reopening from late June". Do not assert full normalisation.
+
+**I9. Global lens refresh (latest fiscal year)** [V-snip of company releases]
+| Company | FY | Revenue | Margin | Note |
+|---|---|---|---|---|
+| DHL Group | 2025 | €82.9 bn (−1.6%) | EBIT €6.1 bn (7.4%); Express EBIT €3.16 bn (12.9%) | 2026 guide EBIT >€6.2 bn; parent of Blue Dart |
+| UPS | 2025 | US$88.7 bn | GAAP operating margin 8.9% (adjusted 9.8%) | 2026 guide ~US$89.7 bn, ~9.6% |
+| ZTO Express | 2025 | ~RMB 38–40 bn | adjusted net income RMB 9.5 bn (−6.3%) | parcels +13.3% (+4.5 bn) → ~38 bn parcels [E] |
+| Full Truck Alliance (BlackBuck's closest analogue) | 2025 | RMB 12.49 bn (+11.1%) | net income RMB 4.46 bn (35.7% net margin) | China's digital freight-matching platform |
+- Delhivery's FY26 1.05 bn parcels ≈ **2.8% of ZTO's 2025 volume** [E]. BlackBuck's FY26 revenue (₹652 Cr ≈ US$69m) ≈ **3.9% of FTA's** (US$1.79 bn) [E], at a similar ~25% PAT margin.
+
+**I10. Policy indices**
+- **LEADS 2025** (7th edition), released 13-May-2026 at the LEAPS 2025 awards [V-snip; PIB explainer confirms the edition].
+  - New four-tier scheme: Exemplars / High Performers / Accelerators / Growth Seekers; ~59% weight on objective indicators; corridor-level speed and waiting-time assessment.
+  - Exemplars: Tamil Nadu (coastal), Uttar Pradesh (landlocked), Mizoram (North-East), Delhi (UT). High Performers among coastal states: Gujarat, Kerala, Maharashtra.
+- **World Bank LPI 2023:** India 38th of 139 (44th in 2018).
+  - Sub-ranks: international shipments 22nd (44th in 2018); infrastructure 47th (52nd); logistics competence 48th.
+  - Source: indbiz.gov.in (government) [V-snip].
+  - No new LPI edition published as of Oct-2026 [V-snip].
+
+**I11. Road-logistics outlook (ICRA, 30-Sep-2026 update) [V-snip]**
+- FY27 revenue growth 8–10% (FY26 ~11%), mainly from higher freight rates; ICRA's sample grew 16.8% YoY in Q1 FY27.
+- Margins range-bound at 8–10%.
+- Risks: weak monsoon or El Niño, rising interest rates (repo hiked to 5.50% on 7-Oct-2026), West Asia-linked inflation.
+
+## 4.4 Gap log (§H items and brief gaps)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| H1 | All-India container TEUs FY26 | **Filled** — 24.79m (major 14.92m) | CONCOR AR; shipmin Mar-2026 PDF |
+| H2 | Rail's current freight modal share | **Still open (latest = 27%, Rajya Sabha 2-Aug-2024, snippet)** | Parliament PDF returned an HTML error; minister now speaks of 45% (NRP) and an aspirational 55%. Proxy: containers 5.6% of IR tonnage; IR loading +3.25% vs port boxes +6.5% → rail losing share in containers [E] |
+| H3 | E-way bills monthly FY24–FY27 | **Partly filled** (10 monthly points, FY26 estimate) | Press citing GSTN; no GSTN statistics page fetched (portal is JS-driven). FY totals still [E] |
+| H4 | Air cargo FY26 | **Filled** — 3.96 MT (+6.2%) | AAI March-2026 report |
+| H5 | Express-parcel market shares | **Partly filled** — Shadowfax 28–30% of 3PL express (company); Delhivery ~45–50% derived [E]; Valmo 64.5% of Meesho (H1 FY26, RHP via broker) still V-snip | Shadowfax deck; Shadowfax RHP industry chapter on SEBI not fetched (PDF >40 MB, budget) |
+| H6 | Delhivery FY26 express shipments and PTL | **Filled** — 1,054m; 1,991 kt | Delhivery AR |
+| H7 | CONCOR LLF FY26 and EXIM/domestic segments | **Filled** — LLF ₹398.6 Cr; segments ₹6,026 / ₹3,053 Cr, results 23.8% / 5.0% | CONCOR AR |
+| H8 | CONCOR Q1 FY27 call transcript | **Still open — none exists** (screener's document list shows Q4 FY26 as latest; no Q1 board-meeting outcome PDF with an investor call). CONCOR held no Q1 FY27 call | screener docs list; BSE |
+| H9 | BlackBuck vehicle-finance book | **Partly filled** — on-book ₹62.6 Cr (Stage 3 6.7%); partner-managed AUM not disclosed | BlackBuck AR |
+| H10 | Blue Dart FY26 shipments/tonnage | **Filled** — 403.4m domestic + 0.56m international; 14.38 lakh t | Blue Dart AR |
+| H11 | 26-Mar-2026 excise cut | **Filled (press)** — special additional duty petrol ₹13→₹3, diesel ₹10→nil; retail unchanged | BusinessToday/Moneylife; gazette notification not fetched |
+| H12 | West Asia/Hormuz timeline | **Filled (press)** — disruption 28-Feb → mid-June MoU; gradual reopening | World Oil, Marine Insight |
+| H13 | Q2 FY27 board dates | **Still open** for CONCOR, Delhivery, Blue Dart, TVS SCS (none intimated by 21-Oct); BlackBuck 29-Oct confirmed | screener re-check |
+| H14 | LEADS 2025, LPI 2023 | **Filled (press/government)** | indbiz.gov.in; PIB explainer; press |
+| H15 | Logistics market size FY26 | **Still open** — no FY26 re-estimate by DPIIT; FY24 ₹24.01 lakh crore confirmed by PIB. FY26 ~₹27–28 lakh crore at ~10% nominal GDP growth [E] | PIB |
+| B1 | Delhivery PAT basis | **Confirmed** — owners ₹152.68 Cr vs total ₹152.54 Cr; screener uses total | Delhivery AR |
+| B2 | CONCOR share ~74% FY20 → 54.5% FY26 | **FY26 confirmed (two bases); FY20 still unconfirmed** | CONCOR AR FY26; FY20 AR not fetched |
+| B3 | WDFC 1,506 km; EDFC status | **Confirmed at press/JICA level** — WDFC complete (8-Sep-2026); EDFC (Ludhiana–Sonnagar) complete; 2,843 km combined; the 1,506/1,337 split comes from DFCCIL convention, not re-fetched | JICA (Part 1); Maritime Gateway / Cargo Connect |
+| B4 | JNPA H1 FY27 rail share 12.7% | **Not upgraded** (press only; JNPA monthly release not fetched) | — |
+| B5 | Shadowfax listing/m-cap | Unchanged (screener); Q1 FY27 deck adds KPIs | Shadowfax deck |
+| B6 | Rating-agency sector notes | **Partly** — ICRA road-logistics outlook (snippet); no free CRISIL/CARE express-parcel note found | search |
+| B7 | Global peers' annual reports | **Partly** — DHL/UPS/ZTO/FTA headline figures from company releases (snippets); the DHL PDF failed to download | search |
+
+## 4.5 New insights (what an expert would add) and new primer issues
+
+**Insights the first pass missed**
+1. **CONCOR's land-cost risk is open-ended, not settled.** The 2022 "1.5% for 35 years" reform is not in CONCOR's own accounts. CONCOR books LLF at the 6%-of-market-value regime (₹399 Cr, growing ~7% a year), has signed no new lease for any of its 24 railway parcels, faces divisional demands it disputes, and carries an auditors' Emphasis of Matter. The privatisation case depended on land certainty; the filings show it does not yet exist. For CONCOR, LLF is ~20% of OP: a larger lever on earnings than a 1-point change in the JNPT rail coefficient (~₹15–20 Cr OP per point; Part 1 §C.1).
+2. **CONCOR is buying volume.** Rebates rose 27.5% (EXIM +42%) while EXIM handling grew 8% and realisation per TEU fell. Domestic segment margin collapsed to 5% (3.6% pre-tax return on segment assets). Its rail tonnage grew half as fast as the rail container market (+2.8% vs +5.6%). Put together: share loss to private operators, price concessions and a structurally weak domestic book. The DFC upper-deck discount (planned tariff cuts to road-parity) will lower realisation further before any volume shift shows.
+3. **Mundra is India's biggest box port, and it grew only 2%.** The FY26 port data invert a common assumption. JNPA (+11.9%; WDFC-connected; CONCOR's core gateway) is taking share from Mundra (+2.3%; Adani's own rail and ICD ecosystem). That is good for CONCOR's long-run catchment even though JNPA's rail share fell in H1 FY27.
+4. **The parcel outsourcing cycle has turned.** The 3PL express pool barely grew in FY25 (+3%, the Valmo year) but rose ~24% in FY26 and is still compounding (Shadowfax/Redseer index). Delhivery (1.05 bn parcels, +40%) and Shadowfax (28–30% share) took nearly all of it. Two listed players plausibly hold ~75% of 3PL express [E], so pricing discipline ("no significant pricing pressure… yields will hold") is credible.
+5. **Delhivery is entering BlackBuck's market.** It received an NBFC licence in July 2026 and plans partner-funded fleet-owner finance and insurance, which BlackBuck's CEO was asked about on his call. Neither primer mentions it. It is a medium-term threat to BlackBuck's cross-sell (vehicle finance is BlackBuck's "next leg") and a supply-side cost lever for Delhivery.
+6. **Blue Dart's profit is a function of price, not volume; it is ceding share in e-commerce.**
+   - Domestic shipments grew 7.1% in FY26 (in line with domestic air cargo, +7.4%) but only ~2% in Q1 FY27, while the 3PL express pool grew ~24% in FY26. It is holding share in air and losing it in e-commerce.
+   - Q1 FY27 margin recovery came from repricing loss-making lanes, the GPI round and the fuel surcharge.
+   - The group structure is clean: no royalty to DHL; ~₹206 Cr a year of international servicing charges to DHL Express India.
+   - ₹1,240 Cr of aircraft charter sits inside the group, which is why standalone margins look half of consolidated.
+7. **BlackBuck's "DTA-inflated PAT" problem is mostly an FY25 issue.** The FY26 DTA credit was only ₹7.8 Cr; the low tax rate persists because ₹255 Cr of recognised DTA shelters current tax. The bigger FY26 quality flags:
+   - the vehicle-finance book is still tiny (₹63 Cr) with 6.7% Stage 3;
+   - headcount fell 7% while revenue grew 53%, i.e. operating leverage is real.
+8. **TVS SCS's FY26 is two companies.** India (28% of revenue) grew 12% with GFS India +38%; RoW (72%) grew 9%. The one-offs net to roughly +₹76 Cr (JV gain ₹182 Cr less ₹106 Cr restructuring and Labour Code), while impairment of financial assets nearly tripled to ₹56 Cr. Management's 4% PBT aspiration (FY28 firm) implies ~₹500+ Cr PBT on ~₹13,000 Cr revenue, vs ₹99 Cr adjusted PBT in FY26 [E]: the whole equity story.
+
+### New primer issues (format as primer-issues.md)
+
+#### From Logistics Solution Providers deep-research pass (2026-10-21, logistics-industry.md Part 4)
+
+- **concor.html — LLF policy misstated (risks/regulation):** any text saying CONCOR now pays land licence fee at 1.5% of land value for 35 years is not supported by CONCOR's FY26 annual report. The AR (note 51, auditors' Emphasis of Matter) says IR's 19-Mar-2020 letter and the **Master Circular of 4-Oct-2022 levy 6% of market value with 7% annual escalation on existing land**, and that **no agreement has been executed for any of the 24 parcels**. LLF booked FY26 **₹398.62 Cr** (FY25 ₹373.81 Cr); no Ind-AS 116 asset or liability recognised. Rewrite as an open risk.
+- **concor.html — add segment economics:** FY26 EXIM revenue ₹6,026 Cr with segment result ₹1,436 Cr (23.8%); domestic ₹3,053 Cr with ₹153 Cr (5.0%, from 8.0%). Rebates/discounts ₹202 Cr (+27.5%; EXIM +42%). Rail haulage ₹5,011 Cr = 55% of standalone operating income. Contingent liabilities ₹2,345 Cr (incl. LLF demands).
+- **concor.html — network facts:** 68 terminals (not "65+"), 424 rakes, 57,746 containers, 1,238 employees at 31-Mar-2026; ~13 terminals notified under IR's ECRT policy.
+- **concor.html — market context:** "JNPT is India's largest container port", or any equivalent, is wrong for FY26: **Mundra 8.47m TEU vs JNPA 8.17m**; all ports 24.79m TEU (+6.5%). CONCOR's rail tonnage +2.8% vs IR container tonnage +5.6% (share 54.5%).
+- **concor.html — JNPT guidance wording:** FY27 rail-coefficient expectation is "~19% (maybe 20–21%)", not a firm "19–21%".
+- **delhivery.html — FY26 volumes:** replace ">1 bn parcels / ~2 MT" with **1,054m express parcels (+40.2%) and 1,991 kt PTL (+17.4%), PTL realisation ₹11.32/kg** [AR FY26].
+- **delhivery.html — Ecom deal terms:** "≤₹1,407 Cr / >99.8%" → **₹1,369.6 Cr for 99.87%** (subsidiary from 18-Jul-2025; wholly owned 10-Dec-2025); goodwill ₹1,041.7 Cr.
+- **delhivery.html — new initiative:** add the **NBFC licence (July 2026)** and the asset-light fleet-owner finance/insurance plan (Q1 FY27 call). It overlaps BlackBuck.
+- **delhivery.html — competitive share:** add Shadowfax's own claim of 28–30% of the 3PL express market (Q1 FY27) and its 198m quarterly express orders vs Delhivery's 322m.
+- **blue-dart-express.html — shipments label:** "404 million e-commerce shipments" (if used) → **403.4m domestic shipments of all products (+7.1%)** plus 0.56m international; 14.38 lakh tonnes [AR FY26].
+- **blue-dart-express.html — related parties:** state that there is **no royalty/brand fee to DHL**. Material flows: international servicing charges to DHL Express India ₹206 Cr; Deutsche Post IT ₹75 Cr; aircraft charter to subsidiary Blue Dart Aviation ₹1,240 Cr (explains standalone vs consolidated margin); loan to Blue Dart Aviation ₹544 Cr.
+- **blue-dart-express.html — network facts:** 2,492 facilities, 33,000+ vehicles, 19,000+ PIN codes, >500 t payload a night [AR].
+- **blackbuck.html — DTA size:** if the primer (or our Part 1) says FY26 PAT includes a ~₹25 Cr DTA credit, correct it to **₹7.8 Cr** (total tax ₹7.1 Cr). The large DTA recognition (₹247 Cr) was FY25.
+- **blackbuck.html — vehicle finance:** on-book gross loans **₹62.6 Cr (2,005 loans), Stage 3 6.7%, Stage 2 4.1%**; Finserve total assets ₹179 Cr, FY26 loss ₹3.1 Cr; ₹100 Cr equity injected Dec-2025. The "~₹600 Cr partner-managed" figure is not in the AR; label it unverified.
+- **blackbuck.html — competition:** add Delhivery's NBFC/fleet-finance entry (July 2026) and management's response ("no near-term threat"). Headcount 3,652 (−7% YoY).
+- **tvs-supply-chain-solutions.html — geography basis:** FY26 is **India 28% / RoW 72%**; the 30/70 split is Q1 FY27. India +12.4%, RoW +9.2% in FY26.
+- **tvs-supply-chain-solutions.html — one-offs detail:** FY26 share of JV profit ₹182.0 Cr (TVS ILP, 24.48% JV, InvIT transfer); exceptional loss ₹105.6 Cr = restructuring ₹91.3 Cr + Labour Code ₹14.3 Cr; impairment on financial instruments ₹56 Cr (₹21 Cr). PAT attributable to owners ₹114.3 Cr.
+- **tvs-supply-chain-solutions.html — guidance:** add mid-teen FY27 revenue growth; ISCS margin 9% from Q2 and 9.5–10% by Q4 FY27; 4% PBT "aspiration" with FY28 as the firm target. Group related-party revenue (TVS Srichakra ₹162 Cr etc.) is ~1.7% of revenue; TVS Motor is not a related party.
+
+### Part 4 source list (new this pass)
+- Annual reports 2025-26 (BSE): CONCOR f7ed8d97-f3e0-4afd-bd99-6af5f3902be8 · Delhivery f2df7720-e670-4a6a-9dcf-fea3c31421a0 · Blue Dart 130422d5-3941-4526-93a9-65bb73997786 · BlackBuck af09c5c2-52da-4ad7-804e-273efcc55f78 · TVS SCS 8f4fdadc-d070-4c5a-aa4f-13eedb4cc62a (all under https://www.bseindia.com/xml-data/corpfiling/AttachHis/<id>.pdf)
+- Ministry of Ports, Major-port cargo March 2026: https://shipmin.gov.in/sites/default/files/Cargo%20handled%20at%20Major%20Ports%20March%202026.pdf
+- AAI Air Traffic Reports: https://www.aai.aero/sites/default/files/traffic-news/TRMar2k26_2.pdf · https://www.aai.aero/sites/default/files/traffic-news/TRAug2k26.pdf
+- PIB explainer (27-Nov-2025): https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251127708001.pdf
+- Shadowfax Q1 FY27 deck: https://nsearchives.nseindia.com/corporate/9900590024_31072026130039_Earnings_Presentation.pdf
+- Press/snippets: e-way bills (IANS 10-Apr-2026, https://ianslive.in/e-way-bills-surge-to-all-time-high-of-1406-million-in-march--20260410172704; a2ztaxcorp category page); excise cut (https://www.businesstoday.in/india/story/govt-slashes-excise-duty-on-petrol-and-diesel-check-new-rates-522590-2026-03-27; https://moneylife.in/article/petrol-excise-duty-down-to-3-diesel-nil-no-change-in-retail-prices-as-govt-aims-to-cut-omc-losses/80059.html); Hormuz (https://www.worldoil.com/news/2026/6/18/hormuz-reopening-gains-momentum-as-tankers-resume-transit); rail Sep-2026 (https://psuwatch.com/newsupdates/indian-railways-freight-loading-grows-614-to-13535-mt-in-sept-2026); LEADS 2025 (https://visionias.in/current-affairs/news-today/2026-05-14/economy/7th-edition-of-logistics-ease-across-different-states-leads-2025-report-released); LPI (https://indbiz.gov.in/india-jumps-six-ranks-on-a-world-bank-index-in-2023); WDFC (https://www.maritimegateway.com/pm-modi-dedicates-final-western-dedicated-freight-corridor-sections-completing-full-jnpt-dadri-route/); ICRA road logistics (https://indiaseatradenews.com/india-road-logistics-sector-set-for-8-10-growth-in-fy2027-risks-persist-icra/); DHL FY25 (https://container-news.com/dhl-group-exceeds-earnings-guidance-for-2025/); UPS FY25 (https://investors.ups.com/sec-filings/all-sec-filings/content/0001628280-26-003510/0001628280-26-003510.pdf, snippet); ZTO FY25 (https://www.sec.gov/Archives/edgar/data/1677250/000110465926030007/tm269230d1_ex99-1.htm, snippet); FTA FY25 (https://en.prnasia.com/releases/global/full-truck-alliance-co-ltd-announces-fourth-quarter-and-fiscal-year-2025-unaudited-financial-results-525042.shtml, snippet).
+- Scratch notes: /tmp/logistics-deep/notes.md; extracted texts in /tmp/logistics-deep/pdf/.
+
+*End of Part 4.*

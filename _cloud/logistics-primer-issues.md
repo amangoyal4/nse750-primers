@@ -23,3 +23,7 @@
 - **blackbuck.html — gross vs net revenue:** add the company's "net revenue" (Superloads at gross margin): Q1 FY27 net revenue ₹165 Cr (+25%) vs revenue from ops ₹204 Cr (+42%); core businesses +21%.
 - **blackbuck.html — updates:** Q1 FY27 (883,386 transacting operators +13%; tolling GTV ₹7,045 Cr +16%; adjusted EBITDA ₹54.6 Cr; PAT ₹42.2 Cr), slump sale of the loads business to WOS BlackBuck Transport Services (12-Oct-2026), Q2 board 29-Oct-2026. M-cap ~₹9,950 → ₹10,084 Cr (immaterial).
 
+
+## From Logistics Solution Providers deep research (2026-10-21, logistics-industry.md §4.5)
+
+
