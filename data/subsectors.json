@@ -937,6 +937,23 @@
         "Seeds & biologicals"
       ],
       "published": "2026-10-19"
+    },
+    {
+      "name": "Commodity Chemicals",
+      "slug": "commodity-chem",
+      "file": "commodity-chem.html",
+      "sector": "Chemicals",
+      "subsector": "Commodity Chemicals",
+      "companies": 6,
+      "accent": "#6B4E9B",
+      "hook": "Three chemistries, one Chinese price problem: how six listed makers of soda ash, bromine, polystyrene, ABS and bio-glycols earn a spread, why Inner Mongolia's natural soda ash broke the world price, why November's safeguard ruling matters, and how styrenics boomed while soda ash bust.",
+      "tags": [
+        "The trona tsunami",
+        "Tata Chemicals vs GHCL",
+        "Mining the sea",
+        "The delta, not the price"
+      ],
+      "published": "2026-10-21"
     }
   ],
   "universe": [
@@ -1106,7 +1123,7 @@
       "sector": "Chemicals",
       "sub": "Commodity Chemicals",
       "companies": 6,
-      "report": null
+      "report": "commodity-chem.html"
     },
     {
       "sector": "Chemicals",
