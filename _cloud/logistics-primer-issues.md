@@ -24,6 +24,23 @@
 - **blackbuck.html — updates:** Q1 FY27 (883,386 transacting operators +13%; tolling GTV ₹7,045 Cr +16%; adjusted EBITDA ₹54.6 Cr; PAT ₹42.2 Cr), slump sale of the loads business to WOS BlackBuck Transport Services (12-Oct-2026), Q2 board 29-Oct-2026. M-cap ~₹9,950 → ₹10,084 Cr (immaterial).
 
 
+
 ## From Logistics Solution Providers deep research (2026-10-21, logistics-industry.md §4.5)
 
-
+- **concor.html — add segment economics:** FY26 EXIM revenue ₹6,026 Cr with segment result ₹1,436 Cr (23.8%); domestic ₹3,053 Cr with ₹153 Cr (5.0%, from 8.0%). Rebates/discounts ₹202 Cr (+27.5%; EXIM +42%). Rail haulage ₹5,011 Cr = 55% of standalone operating income. Contingent liabilities ₹2,345 Cr (incl. LLF demands).
+- **concor.html — network facts:** 68 terminals (not "65+"), 424 rakes, 57,746 containers, 1,238 employees at 31-Mar-2026; ~13 terminals notified under IR's ECRT policy.
+- **concor.html — market context:** "JNPT is India's largest container port", or any equivalent, is wrong for FY26: **Mundra 8.47m TEU vs JNPA 8.17m**; all ports 24.79m TEU (+6.5%). CONCOR's rail tonnage +2.8% vs IR container tonnage +5.6% (share 54.5%).
+- **concor.html — JNPT guidance wording:** FY27 rail-coefficient expectation is "~19% (maybe 20–21%)", not a firm "19–21%".
+- **delhivery.html — FY26 volumes:** replace ">1 bn parcels / ~2 MT" with **1,054m express parcels (+40.2%) and 1,991 kt PTL (+17.4%), PTL realisation ₹11.32/kg** [AR FY26].
+- **delhivery.html — Ecom deal terms:** "≤₹1,407 Cr / >99.8%" → **₹1,369.6 Cr for 99.87%** (subsidiary from 18-Jul-2025; wholly owned 10-Dec-2025); goodwill ₹1,041.7 Cr.
+- **delhivery.html — new initiative:** add the **NBFC licence (July 2026)** and the asset-light fleet-owner finance/insurance plan (Q1 FY27 call). It overlaps BlackBuck.
+- **delhivery.html — competitive share:** add Shadowfax's own claim of 28–30% of the 3PL express market (Q1 FY27) and its 198m quarterly express orders vs Delhivery's 322m.
+- **blue-dart-express.html — shipments label:** "404 million e-commerce shipments" (if used) → **403.4m domestic shipments of all products (+7.1%)** plus 0.56m international; 14.38 lakh tonnes [AR FY26].
+- **blue-dart-express.html — related parties:** state that there is **no royalty/brand fee to DHL**. Material flows: international servicing charges to DHL Express India ₹206 Cr; Deutsche Post IT ₹75 Cr; aircraft charter to subsidiary Blue Dart Aviation ₹1,240 Cr (explains standalone vs consolidated margin); loan to Blue Dart Aviation ₹544 Cr.
+- **blue-dart-express.html — network facts:** 2,492 facilities, 33,000+ vehicles, 19,000+ PIN codes, >500 t payload a night [AR].
+- **blackbuck.html — DTA size:** if the primer (or our Part 1) says FY26 PAT includes a ~₹25 Cr DTA credit, correct it to **₹7.8 Cr** (total tax ₹7.1 Cr). The large DTA recognition (₹247 Cr) was FY25.
+- **blackbuck.html — vehicle finance:** on-book gross loans **₹62.6 Cr (2,005 loans), Stage 3 6.7%, Stage 2 4.1%**; Finserve total assets ₹179 Cr, FY26 loss ₹3.1 Cr; ₹100 Cr equity injected Dec-2025. The "~₹600 Cr partner-managed" figure is not in the AR; label it unverified.
+- **blackbuck.html — competition:** add Delhivery's NBFC/fleet-finance entry (July 2026) and management's response ("no near-term threat"). Headcount 3,652 (−7% YoY).
+- **tvs-supply-chain-solutions.html — geography basis:** FY26 is **India 28% / RoW 72%**; the 30/70 split is Q1 FY27. India +12.4%, RoW +9.2% in FY26.
+- **tvs-supply-chain-solutions.html — one-offs detail:** FY26 share of JV profit ₹182.0 Cr (TVS ILP, 24.48% JV, InvIT transfer); exceptional loss ₹105.6 Cr = restructuring ₹91.3 Cr + Labour Code ₹14.3 Cr; impairment on financial instruments ₹56 Cr (₹21 Cr). PAT attributable to owners ₹114.3 Cr.
+- **tvs-supply-chain-solutions.html — guidance:** add mid-teen FY27 revenue growth; ISCS margin 9% from Q2 and 9.5–10% by Q4 FY27; 4% PBT "aspiration" with FY28 as the firm target. Group related-party revenue (TVS Srichakra ₹162 Cr etc.) is ~1.7% of revenue; TVS Motor is not a related party.
