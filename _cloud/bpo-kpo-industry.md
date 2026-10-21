@@ -1937,3 +1937,20 @@ Read: growth sorts by **domain/data intensity** — EXL and the Indian five at 1
 - Brief/registry: IKS BSE code should read **544309**.
 
 *End of Part 4. Scratch notes and raw extracts: /tmp/bpo-kpo-deep/ (notes.md; raw/ screener HTML and schedules; pdf/ decks; tr/ transcripts; ar/ annual reports).*
+
+---
+
+## Orchestrator re-add (Part 4 basis, 21-Oct-2026)
+Re-added by script from the §4.0b company rows (screener consolidated; OP = EBITDA excl. other income; NP = reported consolidated; net cash = cash + investments − borrowings excl. leases, Mar-26; m-cap 21-Oct-2026 close). The §4.0b total row reproduces exactly. These supersede the §3.2 aggregates.
+
+| Group | FY26 sales | FY25 sales | YoY | FY26 OP | OPM | FY26 NP | NP YoY | Q1 FY27 sales | Q1 FY26 sales | Q1 YoY | Q1 OP | Q1 OPM | Q1 NP | Q1 FY26 NP | Net cash ex-lease (Mar-26) | M-cap | P/E FY26 | P/E TTM |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| All five | 27,570 | 22,419 | +23.0% | 6,126 | 22.2% | 3,428 | +33.5% | 7,797 | 6,193 | +25.9% | 1,618 | 20.8% | 857 | 728 | +1,426 | 1,00,990 | 29.5× | 28.4× |
+| Healthcare-focused (IKS + Sagility) | 10,387 | 8,234 | +26.1% | 2,849 | 27.4% | 1,647 | +60.7% | 2,857 | 2,279 | +25.4% | 728 | 25.5% | 411 | 301 | +451 | 48,729 | 29.6× | 27.7× |
+| 2024 IPO cohort (IKS + Sagility + Indegene) | 13,897 | 11,073 | +25.5% | 3,468 | 25.0% | 2,048 | +43.0% | 3,920 | 3,040 | +28.9% | 902 | 23.0% | 527 | 417 | +1,933 | 62,747 | 30.6× | 29.1× |
+| Ex-Firstsource | 18,014 | 14,439 | +24.8% | 4,521 | 25.1% | 2,754 | +39.6% | 5,072 | 3,975 | +27.6% | 1,167 | 23.0% | 691 | 559 | +2,979 | 80,882 | 29.4× | 28.0× |
+| Ex-IKS | 24,376 | 19,755 | +23.4% | 5,042 | 20.7% | 2,706 | +30.0% | 6,903 | 5,453 | +26.6% | 1,328 | 19.2% | 663 | 576 | +1,301 | 73,041 | 27.0× | 26.1× |
+| 2007-listed incumbents (Firstsource + eClerx) | 13,673 | 11,346 | +20.5% | 2,658 | 19.4% | 1,380 | +21.6% | 3,877 | 3,153 | +23.0% | 716 | 18.5% | 330 | 311 | (507) | 38,243 | 27.7× | 27.3× |
+| Net-cash members (Indegene + eClerx) | 7,627 | 6,205 | +22.9% | 1,672 | 21.9% | 1,107 | +16.8% | 2,215 | 1,696 | +30.6% | 439 | 19.8% | 280 | 258 | +2,528 | 32,153 | 29.0× | 28.5× |
+
+Note for the writer: IKS's Mar-26 balance sheet pre-dates the TruBridge close (Jul-2026). Keep the peer table on the Mar-26 screener basis for every row, and show IKS's post-deal net debt (~₹5,000–5,500 Cr, INDICATIVE) in a note, never mixed into the summed column.

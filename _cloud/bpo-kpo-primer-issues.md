@@ -35,3 +35,60 @@ Logged by the cloud runner. Not fixed here (primers are out of scope for this br
 - firstsource-solutions.html — hard checks pass; no main{min-width:0}.
 - indegene.html — ❌ USD in stat strip; no main{min-width:0}.
 - eclerx-services.html — ❌ USD in stat strip; no main{min-width:0}.
+
+## From BPO & KPO deep-research (2026-10-21, bpo-kpo-industry.md Part 4 §4.6)
+
+**primers/inventurus-knowledge-solutions.html**
+- **BSE code 544332 → 544309** (company filings, 5-Aug-26). Wrong in the primer header and the brief.
+- Headcount "~14,000" → **12,889 (Jun-26)**.
+- "900+ US clients" → **600+ healthcare organisations (Q1 FY27; 650+ a year earlier)**.
+- "~$334m revenue" → remove; quarterly $87m (Q1 FY26) / $95m (Q4) / $97m (Q1 FY27); FY26 ≈ $360m [E].
+- FY24 revenue bar "~₹2,050 Cr" → **₹1,818 Cr**.
+- P/E "~55×" → **36.6× TTM at ₹1,632 (21-Oct-26)**; P/B ~10×; ROCE 31.5%; ROE 31.4%.
+- TruBridge: add **~$68m EBITDA, revenue reset to ~$300m, EBITDA margin 22–23%, closed ~9/10-Jul-26, signing EV "up to $565m" → $557m**.
+- Add the **top-10 = 53.8%** concentration.
+- Add the **FY30 ≥₹3,000 Cr EBITDA "True North"**.
+
+**primers/sagility.html**
+- P/E "~56× reported / ~17× adjusted" → **20.2× TTM reported** (screener, ₹44.4); adjusted ~17× [E].
+- Net debt: state **₹196 Cr (Mar-26), ₹111 Cr (Jun-26)**. The only borrowing is a **promoter (Sagility B.V.) loan, repaid in FY27**.
+- Add goodwill ₹6,405 Cr and the 2027–32 amortisation schedule (₹157 Cr/yr carve-out) — the adjusted-vs-reported gap lasts to FY32.
+- Add the **Synergy Litigation** contingent (up to US$115.9m claim; HGS indemnity; US$45m bank guarantee).
+- Top-3 = **59.9%**; three customers >10% each.
+- Promoter 50.95%. DII is **22.6%** (not 3.9%).
+
+**primers/firstsource-solutions.html**
+- FY24 revenue "~₹6,974 Cr" → **₹6,336 Cr**.
+- Add **EBITDA ₹1,556 Cr (16.3%)** next to EBIT.
+- Update headcount 36,205 → **36,875**, attrition 29.7% → **33.1%**, >$1m clients 150 → **145**.
+- Add top-5/top-10 = **27.4% / 39.2%**, geography NA 66.4% / EMEA 31.7%, offshore+nearshore 43.5%.
+- Add the hedge book and **CF-hedge reserve −₹345 Cr**.
+- Note acquisition debt is mostly short-term.
+- Q1 FY27 exceptionals split: termination ₹35.7 Cr / regulatory-penalty indemnity ₹28.4 Cr / earn-out ₹7.6 Cr.
+- M-cap → **₹20,108 Cr (₹284)**.
+
+**primers/indegene.html**
+- Ownership: "promoter/founder group retains a significant stake" → **0% promoter**. Largest holders: Nadathur Fareast 21.88%, Manish Gupta 8.91%, Rajesh Nair 7.14%, **Brighton Park 8.73%**, Sanjay Parikh 4.98%; Carlyle exited.
+- Add acquisition values: **BioPharm ₹882 Cr (incl. ₹213 Cr earn-out), Warn ₹46 Cr, Cake ₹86 Cr**; goodwill ₹1,134 Cr.
+- Explain the EBITDA basis: company EBITDA includes other income.
+- Margin path: H2 FY27 back to 19–20%, normalisation by Q4 FY27.
+- Add the TCPA class action (₹20 Cr provision).
+- M-cap → **₹14,018 Cr (₹580)**; P/E 33.7×.
+
+**primers/eclerx-services.html**
+- Revenue basis: show **operating revenue ₹4,117 Cr** as the headline (₹4,217 Cr is total incl. other income).
+- Buyback: **6.25 lakh shares @ ₹4,800 = ₹300 Cr (settled 2-Jan-26)**, plus the earlier ₹385 Cr buyback (Aug-25). Total FY26 capital return ≈ ₹685 Cr + dividend.
+- Founders "~26.85% each" → PD Mundhra **16.64% direct** (AR); promoter group 54.53%. Re-check the per-founder split.
+- Add the **hedge book ($273.6m @ ₹93.41; FY27 @ ₹91.16)** and the **single largest client = 16.7% of revenue**.
+- Add the **FCC offshore call-centre NPRM** as a CMT risk.
+- Headcount: 22,499 total (22,376 is "delivery").
+- M-cap ₹16,550 Cr → **₹18,135 Cr (₹1,929)**; P/E ~22× → **24.9×**.
+
+**Library-wide**
+- Brief/registry: IKS BSE code should read **544309**.
+
+*End of Part 4. Scratch notes and raw extracts: /tmp/bpo-kpo-deep/ (notes.md; raw/ screener HTML and schedules; pdf/ decks; tr/ transcripts; ar/ annual reports).*
+
+---
+
+- **members.json** (template data, not edited here): IKS BSE code is 544309 per screener and the company's filings, not 544332.
