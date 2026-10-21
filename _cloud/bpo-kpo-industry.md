@@ -1125,3 +1125,815 @@ All aggregates are **straight sums of the company rows in 3.1 on one basis**: FY
 
 ## Orchestrator check (21-Oct-2026)
 Every aggregate in §3.2(a) and (b) was re-added from the §3.1 company rows by the orchestrator (script): all seven FY26 subgroup rows (revenue, FY25 revenue, growth, EBITDA, margin, reported and adjusted PAT, m-cap, P/E, net cash/debt, % shares) and the four Q1 FY27 rows reproduce exactly. No arithmetic corrections were needed. Caveats that remain: EBITDA is on mixed company bases (IKS/eClerx reported, Sagility/Indegene adjusted, Firstsource estimated from EBIT); net cash/debt dates differ (IKS post-TruBridge estimate; Mar-26 vs Jun-26); m-cap dates range 27-Jul to 9-Oct-2026. No figure in this file comes from a fetched page — the network policy blocked all fetches; [V-snip] = search snippet only = unverified under the library rule.
+
+---
+---
+
+# Part 4 — Deep-research supplement (21-Oct-2026)
+
+**What changed in this pass.** Parts 1–3 were built with **no fetched page** (all fetches were blocked then). In this pass the network worked, and the following primary sources were **fetched and read this session**:
+- **screener.in consolidated pages** for all five (fetched 21-Oct-2026 ~18:50 UTC, i.e. after the 21-Oct close: prices, ratios, 10-yr P&L, 13 quarters, balance sheet, cash flow, shareholding to **Sep-2026**). Also screener's balance-sheet **schedules** for cash, borrowings (split into term debt and lease liabilities) and intangibles.
+- **Q1 FY27 investor presentations / earnings releases** from NSE archives (nsearchives.nseindia.com) for all five: IKS (deck + press release), Sagility (deck), Firstsource (earnings presentation), Indegene (deck), eClerx (deck + press release). Also Sagility's Q4 FY26 deck.
+- **Q1 FY27 earnings-call transcripts** (BSE attachments, via the links on screener) for IKS (6-Aug-26), Sagility (Jul-26), Firstsource (6-Aug-26) and Indegene (31-Jul-26). **For eClerx, only the Q4 FY26 transcript (call 14-May-26) was on screener's list.** That is used and labelled as such.
+- **FY26 annual reports** (BSE attachments) for all five: MD&A, contingent liabilities, major-customer note, related-party note, goodwill and business-combination notes, shareholders above 5%.
+- **Industry:** AHA summary of the CMS CY2027 Medicare Advantage rate notice; the CAQH Index 2025 summary; NASSCOM Strategic Review 2025 press release (PDF) and SR 2026 (PTI via ETV Bharat); the Cooley summary of the FCC call-centre NPRM; Concentrix Q3 FY26 release (company PDF); EXL Q2-2026 release (company site); a free public FX reference (open.er-api.com) for USD/INR on 21-Oct-2026.
+- BSE's announcement API (api.bseindia.com) returned **403 (Akamai)**. Board-meeting dates were therefore searched rather than read from filings.
+
+**Tags in Part 4.** [V] = fetched and read this session from the named source. [V-snip] = search-result summary only. [K] = memory. [E] = arithmetic or estimate by this file.
+- **"[V-scr]"** = screener.in consolidated, fetched 21-Oct-2026.
+- **"[V-co]"** = the company's own document (deck, release, transcript or annual report) fetched this session.
+
+**Screener basis (read before using any screener number).**
+- **"Sales"** = revenue from operations. **For eClerx this is operating revenue**, not the "total revenue" headline: FY26 Sales 4,117 + Other income 101 = 4,218 = the company's ₹4,217.4 Cr "total revenue".
+- **"Operating Profit" (OP)** = Sales − Expenses. It is EBITDA **excluding other income** (screener shows other income on a separate line, after OP). So screener OP is **below** company EBITDA wherever the company counts other income or forex gains inside EBITDA (Indegene, eClerx, IKS) and **differs** from "adjusted EBITDA" (Sagility).
+- **"Net Profit"** = consolidated profit for the period after tax, exceptional items and share of associates. It matches the company's attributable PAT for all five; minority interests are negligible (Firstsource NCI ₹0.4m). **It is the reported (statutory) PAT, not adjusted PAT.**
+- **"Borrowings"** **includes lease liabilities.** The schedules split it into term debt and lease.
+- **"Cash Equivalents"** (schedule) excludes current and non-current investments, which screener shows separately under "Investments". IKS's "Investments" includes the **Abridge strategic stake** (marked up in Q1 FY27), so it is not all liquid.
+- **P/E and ROE** on screener use **TTM** profit (to Jun-26). ROCE and ROE are FY26 (Mar-26) values.
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+**One-basis rule for the rebuilt report.** Replace every "standardised" figure with the screener consolidated value below, and keep company-basis figures (adjusted EBITDA, EBIT, adjusted PAT, $ and CC growth) only as labelled KPIs.
+
+| # | Item | Old value (Parts 1–3) | New value | Source / basis |
+|---|---|---|---|---|
+| 1 | **IKS BSE scrip code** | 544332 (dossier header, brief, primer) | **544309** | IKS press release & deck cover letters 5-Aug-26: "BSE Scrip Code: 544309" [V-co]. 544332 is wrong everywhere it appears |
+| 2 | IKS m-cap / price | ₹30,318 Cr [E] (₹1,766.80, 5-Oct) | **₹27,949 Cr; ₹1,632 (21-Oct-26 close)**; 52-wk 1,970/1,262 | [V-scr] |
+| 3 | IKS P/E, P/B, ROCE, ROE | 42.0× [E] (primer ~55×); P/B ~17; ROCE n/a; ROE ~40% [E] | **P/E 36.6× (TTM); P/B 10.0× (BV ₹163); ROCE 31.5%; ROE 31.4%** | [V-scr] |
+| 4 | IKS FY26 EBITDA | ~₹1,086 Cr [E] (~34%) | **₹1,091.3 Cr (34.17%)** company; screener OP **₹1,084 Cr (34%)** | FY26 AR MD&A [V-co]; [V-scr] |
+| 5 | IKS FY24 revenue | ~₹1,817 Cr [K]; primer ~₹2,050 Cr | **₹1,818 Cr** (primer wrong) | [V-scr] |
+| 6 | IKS headcount | ~14,000 (primer, undated) | **12,889 (30-Jun-26)**; 12,300 (Jun-25); 1,902 clinical, 565 tech, 57 S&M | Q1 FY27 deck + call [V-co] |
+| 7 | IKS clients | 900+ (primer) vs 600+ | **600+ healthcare organisations (Q1 FY27) vs 650+ (Q1 FY26)** | Q1 FY27 deck [V-co] |
+| 8 | IKS client concentration | not in file | **Top-10 53.8% / top-5 42.1% of Q1 FY27 revenue (43.4% / 31.7% in Q1 FY26)**; no single customer >10% in FY26 (AR) | deck p.14; AR Note 41 [V-co] |
+| 9 | IKS quarterly US$ revenue | FY26 ~$360m [E] vs $334m | **Q1 FY27 $97m (+12.0%); Q4 FY26 $95m; Q1 FY26 $87m**. FY26 total still not disclosed; ~$360–365m [E] stands; the primer's $334m is wrong | deck p.13 [V-co] |
+| 10 | IKS Mar-26 balance sheet | "net cash, amount n/a" | **Borrowings ₹753 Cr incl. lease ₹112 Cr (term debt ₹641 Cr, all variable-rate); cash ₹389 Cr; investments ₹377 Cr (incl. Abridge)**; company net debt **₹265 Cr at Jun-26** (pre-TruBridge) | [V-scr]; AR; deck p.16 [V-co] |
+| 11 | IKS post-deal net debt | ~₹5,000 Cr [E] | Still [E]: **~₹5,000–5,500 Cr** (₹265 Cr + ~$557m EV at ₹90–95). Management target: back to the pre-TruBridge net-debt level by FY30 | call 6-Aug [V-co]; [E] |
+| 12 | TruBridge terms | $557m EV; $600m vs $670m financing; close 9-Jul vs 16-Jun | **EV $557m** (AR chairman letter); signing EV "up to $565m" (AR Note 51, 23-Apr-26); **closed "July 10th"** per the CFO on the 6-Aug call (company release per Part 1: 9-Jul; use "9/10-Jul-2026 (US date)"); acquired **~$68m EBITDA** for ~$550m (~8×); revenue reset **$340m → ~$300m** steady state; TruBridge EBITDA margin ~22–23%. Financing size still unverified | AR; call [V-co] |
+| 13 | Sagility m-cap / price | ₹20,504 Cr [E] (₹43.80, 27-Jul high) | **₹20,780 Cr; ₹44.4 (21-Oct)**; 52-wk 57.9/35.8 | [V-scr] |
+| 14 | Sagility P/E, ROE | 22.2× [E]; ROE ~12% [E]; primer 56× | **P/E 20.2× (TTM); P/B 2.2× (BV ₹20.6); ROCE 13.4%; ROE 10.6%** (company "adjusted ROCE" ex-goodwill ~58.6%) | [V-scr]; deck [V-co] |
+| 15 | Sagility FY26 EBITDA | ~₹1,820 Cr [E] adj. | **Adj. EBITDA ₹1,820.0 Cr ($206.0m) confirmed**; screener OP **₹1,765 Cr (24.5%)** | Q1 FY27 deck p.14 [V-co]; [V-scr] |
+| 16 | **Sagility net debt** | ₹2,167.8 Cr "Mar-25"; ~₹640 Cr [E] "Dec-25" | **₹2,167.8 Cr was FY24 (Mar-24), not Mar-25.** Company series (borrowings + lease − cash incl. MF/FD): **Mar-24 ₹2,168 Cr (1.90×) → Mar-25 ₹1,043 Cr (0.71×) → Mar-26 ₹196 Cr (0.11×) → Jun-26 ₹111 Cr (0.06×)** | Q1 FY27 deck p.15 [V-co] |
+| 17 | Sagility debt nature | "company debt" | **All borrowings are an unsecured loan from the promoter Sagility B.V.**: ₹577.6 Cr at Mar-26 (₹817 Cr Mar-25); interest to Sagility B.V. ₹54.3 Cr in FY26; **to be fully repaid in FY27** | AR MD&A + RPT note; deck "Go-forward" [V-co] |
+| 18 | Sagility goodwill | not found | **Goodwill ₹6,405 Cr (Mar-26) / ₹6,559 Cr (Jun-26)**: HGS carve-out ₹5,170 Cr + bolt-ons ₹489 Cr + FX ₹746 Cr. **Other intangibles ₹2,041 / ₹2,052 Cr. Equity ₹9,659 / ₹9,927 Cr** | AR MD&A; deck BS [V-co] |
+| 19 | Sagility Q1 FY27 PAT | ₹216.8 Cr vs ₹257.7 Cr | **₹216.8 Cr confirmed** (₹2,168m; +45.9%); ₹257.7 Cr = Q4 FY26 | deck P&L [V-co]; [V-scr] 217 |
+| 20 | Sagility shareholding | Jun-26 FII 9.99%, **DII 3.88%**, retail 17.64% | **DII 21.42% (Jun-26)**; 3.88% was wrong. Sep-26: **promoter 50.95 / FII 10.38 / DII 22.59 / public 16.07** | [V-scr] |
+| 21 | Sagility concentration | "top-3 low-60s%" | **Top-3 59.9% (FY26), 60.1% (TTM Jun-26); top-5 70.4/70.1%; top-10 83.9/84.1%**. AR: **three customers >10% each = ₹4,307.7 Cr (59.9%)** | deck; AR [V-co] |
+| 22 | Firstsource m-cap / price | ₹18,901 Cr (₹270.15, 9-Oct) | **₹20,108 Cr; ₹284 (21-Oct)**; 52-wk 372/201 | [V-scr] |
+| 23 | Firstsource EBITDA | ~₹1,500 Cr [E] (~15.7%) | **₹1,556.2 Cr (16.3%) company**; screener OP **₹1,605 Cr (16.8%)** | earnings presentation factsheet [V-co]; [V-scr] |
+| 24 | Firstsource FY24 revenue | ₹6,338 Cr [E]; primer ₹6,974 Cr | **₹6,336.2 Cr** (₹63,362m); the primer's ₹6,974 Cr is wrong | deck annexure [V-co]; [V-scr] 6,336 |
+| 25 | Firstsource P/E, ROE, ROCE | 28.0×; ROE ~18% [E]; ROCE 17.7% (company) | **P/E 25.2× (TTM); P/B 4.6× (BV ₹62); ROCE 16.8%; ROE 17.6%** (company ROE 17.7% FY26) | [V-scr]; AR [V-co] |
+| 26 | Firstsource Q1 FY27 people | 36,205 (Mar-26); attrition 29.7% | **36,875 (Jun-26, +670 QoQ); TTM attrition 33.1%** (quarter voluntary 27.5%) | deck; call [V-co] |
+| 27 | Firstsource client tiers | 150 clients >$1m | **145 (Q1 FY27)**; $5m+ 45; $10m+ 20; $20m+ 10; $50m+ 2; 250+ clients >$0.25m | deck [V-co] |
+| 28 | Firstsource concentration | only "8-quarter change" | **Top-5 27.4%, top-10 39.2% (Q1 FY27)** vs 34.6% / 51.5% in Q1 FY25. AR: top-5 income FY26 ₹2,753 Cr (28.6%) vs ₹2,488 Cr (31.2%) | deck; AR [V-co] |
+| 29 | Firstsource geography | US ~69% [E]; EMEA 30.6% | **Q1 FY27: North America 66.4%, EMEA 31.7%, RoW 1.9%; currency USD 67.4% / GBP 30.3%** | deck [V-co] |
+| 30 | Firstsource shareholding | FII/DII not found | **Sep-26: promoter 53.66 / FII 7.44 / DII 26.84 / public 11.33** | [V-scr] |
+| 31 | Indegene m-cap / price | ~₹15,000 Cr (~₹627, late Sep) | **₹14,018 Cr; ₹580 (21-Oct)**; 52-wk 627/414 | [V-scr] |
+| 32 | **Indegene Q1 FY27 EBITDA conflict** | ₹179.5 Cr (16.9%) vs ₹174.2 Cr (16.4%) | **Both are right on different bases.** The company's ₹179.5 Cr **includes "other income/(loss)" of ₹5.2 Cr** (ex-interest income). Ex that it is ₹174.3 Cr = screener OP 174 | deck P&L [V-co]; [V-scr] |
+| 33 | Indegene FY26 EBITDA | ₹679.3 Cr "adjusted" (19.4%) | Screener OP **₹619 Cr (17.6%)** — excludes other income and Q4's ~240 bp forward-contract MTM sits in expenses. Keep 679.3 only as the company KPI | [V-scr]; call [V-co] |
+| 34 | Indegene P/E, ROE | 37.4× (adj. 32.8×); ROE ~13% [E] | **P/E 33.7× (TTM); P/B 4.5× (BV ₹130); ROCE 18.8%; ROE 14.4%** | [V-scr] |
+| 35 | Indegene cash | ~₹1,538 Cr (Mar-26) | Screener Mar-26: **cash ₹382 Cr + investments ₹1,100 Cr = ₹1,482 Cr**; borrowings ₹144 Cr = all lease. Company: **₹1,460 Cr cash + investments at Jun-26** | [V-scr]; call [V-co] |
+| 36 | Indegene owners | "promoter/founder group retains significant stake"; Brighton Park n/a; Nadathur "status n/a" | **Nadathur Fareast 21.88%; Manish Gupta 8.91%; Rajesh Nair 7.14%; Brighton Park (BPC Genesis Fund I 5.75% + I-A 2.98%) 8.73%; Sanjay Parikh 4.98%; Carlyle nil** (Mar-26) | FY26 AR [V-co] |
+| 37 | Indegene acquisitions | BioPharm $104m [V-snip]; Warn, Cake n/a | **BioPharm ₹882.1 Cr incl. ₹213.4 Cr earn-out (control 1-Oct-25; goodwill ₹642.9 Cr); Warn & Co ₹46.4 Cr incl. ₹6.7 Cr earn-out (16-Oct-25); Cake ₹86.0 Cr (€7.96m) incl. earn-out (control 30-Jan-26)**. Group goodwill ₹1,134 Cr (vs ₹357 Cr) | AR business-combination note [V-co] |
+| 38 | Indegene shareholding | FII 10.30 / DII 3.60 (24-Jun, share.market) | **Jun-26 FII 9.92 / DII 8.74 / public 81.34; Sep-26 FII 12.40 / DII 15.82 / public 71.76** (DII nearly doubled in Q2) | [V-scr] |
+| 39 | eClerx m-cap / price | ₹17,025 Cr [E] (₹1,810, undated) | **₹18,135 Cr; ₹1,929 (21-Oct)**; 52-wk 2,498/1,319 | [V-scr] |
+| 40 | **eClerx revenue basis** | FY26 ₹4,217.4 Cr headline; FY25 total ~₹3,440 Cr [E] | **Operating revenue FY26 ₹4,117 Cr (₹41,170m) — use this.** Total incl. other income ₹4,218 Cr; **FY25 total ₹3,453 Cr** (3,366 + 87), not ₹3,440 Cr | [V-scr]; deck [V-co] |
+| 41 | eClerx EBITDA | ₹1,152.6 Cr (~27.3% of total revenue) | Screener OP **₹1,053 Cr (25.6% of operating revenue)**. The company's ₹1,152.6 Cr includes other income | [V-scr] |
+| 42 | eClerx P/E, ROE | 24.1×; ROE ~24% [E] | **P/E 24.9× (TTM); P/B 7.1× (BV ₹272); ROCE 34.4%; ROE 28.4%** | [V-scr] |
+| 43 | eClerx buyback 2 | up to 6,66,666 sh @ ₹4,500 = ₹300 Cr | **6,25,000 sh @ ₹4,800 = ₹300 Cr** (price revised 16-Dec-25; record date 17-Dec-25; settled 2-Jan-26) | FY26 AR [V-co] |
+| 44 | eClerx hedges in revenue | "VERIFY" | **Supported.** FY27 hedge book $156.2m @ ₹91.16 (Q1 $60.4m @ 88.26). Operating ₹ revenue ₹11,524m ÷ $125.9m = ₹91.5/$. Blending $60.4m @ 88.26 with $65.5m at ~₹94.4 spot gives ~₹11,515m — i.e. realised hedges sit in operating revenue [E from V-co] | deck "Hedge updates" [V-co] |
+| 45 | eClerx Jun-26 shareholding | "garbled, do not use" | **Jun-26: promoter 54.53 / FII 11.01 / DII 23.84 / public 8.43 / others 2.19. Sep-26: 54.53 / 9.68 / 24.54 / 8.82** | [V-scr] |
+| 46 | eClerx headcount | 22,376 "delivery" | **Total 22,499** (offshore delivery 18,305, onshore 732, tech services 2,261, support 1,078, BD 123); the press release's "delivery headcount" is 22,376 | deck [V-co] |
+| 47 | eClerx client concentration | top-10 60% | Top-10 60% confirmed; **single largest customer ₹688.5 Cr = 16.7% of FY26 operating revenue** (FY25: two customers >10% = ₹926.3 Cr) | AR [V-co] |
+| 48 | Q1 FY26 bases (back-derived) | IKS 740.0; Sag 1,538.8; FSL 2,217.2; INDGN 761.0; eClerx 945.1 | All confirmed: **740 / 1,539 / 2,218 / 761 / 935 (eClerx operating; 945.1 = total)** | [V-scr]; decks [V-co] |
+| 49 | FY25 bases | 2,664.0 / 5,569.9 / 7,980.3 / 2,840.2 / ~3,440 [E] | **2,664 / 5,570 / 7,980 / 2,839 / 3,366 (eClerx operating)** | [V-scr] |
+| 50 | Group FY26 revenue | ₹27,671 Cr (eClerx total basis) | **₹27,570 Cr (one basis: eClerx operating)**; FY25 ₹22,419 Cr; growth **+23.0%** (unchanged) | [V-scr] sums [E] |
+| 51 | Group composite EBITDA | ~₹6,238 Cr [E, mixed] | **Screener OP ₹6,126 Cr (22.2%)** — one basis | [V-scr] sums |
+| 52 | Group m-cap / P/E | ₹1,01,748 Cr; 29.7× | **₹1,00,990 Cr (21-Oct-26); 29.5× FY26 PAT; 28.4× TTM PAT** | [V-scr] |
+| 53 | FX | ₹94.9/$ (19-Oct) | **₹95.00/$ on 21-Oct-26** (open.er-api 00:02 UTC); £1 ≈ ₹126.9; €1 ≈ ₹106.6 | [V] |
+| 54 | Firstsource net debt | ₹1,630 Cr / ₹1,710 Cr | **Confirmed: ₹1,629 Cr (Mar-26) / ₹1,714 Cr (Jun-26)** ex-lease (company "₹16.3bn / ₹17.1bn"). Including leases ~₹2,600–2,700 Cr [E] | deck BS; call [V-co] |
+| 55 | Sagility headcount | 47,307 | Confirmed; vol. attrition 28.6% Q1 (38.1% Q4) | deck [V-co] |
+| 56 | IKS FY26 PAT / Q1 | 721.6 / 193.7 | Confirmed (screener 722 / 194) | [V-scr]; [V-co] |
+| 57 | Indegene Q1 FY27 PAT | ~116.2 | Confirmed ₹116.2 Cr (−0.2% YoY) | deck [V-co] |
+| 58 | Rupee record low | ₹96.8 (caller) vs ₹96.3 | **Close ₹96.53 / intraday ₹96.61 on 19-May-2026** (prior closing record ₹96.34) [V-snip Bernama]. ₹96.8 not found | search only |
+
+## 4.0b SUMMARY GRID — one consistent basis (screener.in consolidated, fetched 21-Oct-2026) — **use this to rebuild every aggregate**
+
+All values ₹ Cr. Basis:
+- **Sales** = revenue from operations (eClerx = operating revenue).
+- **OP** = screener Operating Profit (EBITDA excluding other income).
+- **NP** = reported consolidated net profit.
+- **Borrowings** include leases.
+- **Cash** = cash & equivalents (schedule); **Inv** = investments (current + non-current).
+- **M-cap** = 21-Oct-2026 close.
+
+| Company | FY26 Sales | FY26 OP | OPM | FY26 NP | FY25 Sales | Q1 FY27 Sales | Q1 FY27 OP | Q1 FY27 NP | Q1 FY26 Sales | Q1 FY26 OP | Q1 FY26 NP | Mar-26 Borrowings (lease) | Mar-26 Cash | Mar-26 Inv | M-cap (21-Oct-26) | Price ₹ | P/E (TTM) | P/B | ROCE % | ROE % |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| IKS | 3,194 | 1,084 | 34% | 722 | 2,664 | 894 | 290 | 194 | 740 | 238 | 152 | 753 (112) | 389 | 377 | 27,949 | 1,632 | 36.6 | 10.0 | 31.5 | 31.4 |
+| Sagility | 7,193 | 1,765 | 25% | 925 | 5,570 | 1,963 | 438 | 217 | 1,539 | 346 | 149 | 1,111 (533) | 568 | 336 | 20,780 | 44.4 | 20.2 | 2.2 | 13.4 | 10.6 |
+| Firstsource | 9,556 | 1,605 | 17% | 674 | 7,980 | 2,725 | 451 | 166 | 2,218 | 347 | 169 | 2,922 (984) | 269 | 116 | 20,108 | 284 | 25.2 | 4.6 | 16.8 | 17.6 |
+| Indegene | 3,510 | 619 | 18% | 401 | 2,839 | 1,063 | 174 | 116 | 761 | 155 | 116 | 144 (144) | 382 | 1,100 | 14,018 | 580 | 33.7 | 4.5 | 18.8 | 14.4 |
+| eClerx | 4,117 | 1,053 | 26% | 706 | 3,366 | 1,152 | 265 | 164 | 935 | 224 | 142 | 385 (385) | 738 | 308 | 18,135 | 1,929 | 24.9 | 7.1 | 34.4 | 28.4 |
+| **Total (5)** | **27,570** | **6,126** | **22.2%** | **3,428** | **22,419** | **7,797** | **1,618** | **857** | **6,193** | **1,310** | **728** | **5,315 (2,158)** | **2,346** | **2,237** | **1,00,990** | — | **28.4** (TTM NP 3,558) | — | — | — |
+
+Derived ratios [E from V-scr]:
+- **Growth.** FY26 sales **+23.0%**, OP **+30.9%** (FY25 OP 4,679 = 771+1,307+1,244+548+809 → 6,126), NP **+33.5%** (FY25 NP 2,567 = 486+539+594+407+541). Q1 FY27 YoY: sales **+25.9%**, OP **+23.5%**, NP **+17.7%**. Group OPM: Q1 FY27 20.8% vs Q1 FY26 21.2%.
+- **Debt.** Term debt (borrowings ex-lease) ₹3,157 Cr: IKS 641, Sagility 578 (promoter loan), Firstsource 1,938, Indegene 0, eClerx 0. **Cash + investments ₹4,583 Cr. Group is net cash ~₹1,426 Cr ex-leases at Mar-26** — but this flips to net debt of ~₹3,600–4,100 Cr [E] once IKS's TruBridge debt (Jul-26) is added.
+- **Valuation.** M-cap / FY26 NP = **29.5×**; m-cap / TTM NP = **28.4×**. FY26 EV/OP ≈ (1,00,990 + 5,315 − 4,583) / 6,126 ≈ **16.6×**, incl. leases, pre-TruBridge.
+- **Shares (m-cap ÷ price):** IKS 17.13 Cr; Sagility 468.0 Cr; Firstsource 70.8 Cr; Indegene 24.17 Cr; eClerx 9.40 Cr.
+- **TTM (Jul-25 to Jun-26) NP:** IKS 764; Sagility 993; Firstsource 671; Indegene 401; eClerx 729.
+- **FY26 one-off items inside screener NP** (exceptionals, shown in screener's "Other income"):
+  - Firstsource: −₹98 Cr in Q3 (Labour Codes) and −₹72 Cr in Q1 FY27 (termination/indemnity/earn-out).
+  - Indegene: −₹20 Cr in Q4 FY26 (TCPA settlement provision).
+  - Sagility: −₹15 Cr in Q1 FY27 (minimum-wage past-service cost).
+- **Shareholding, latest quarter (Sep-2026), promoter / FII / DII / public %:**
+  - IKS 63.72 / 8.10 / 7.56 / 18.43 (others 2.19)
+  - Sagility 50.95 / 10.38 / 22.59 / 16.07
+  - Firstsource 53.66 / 7.44 / 26.84 / 11.33 (others 0.73)
+  - Indegene 0 / 12.40 / 15.82 / 71.76
+  - eClerx 54.53 / 9.68 / 24.54 / 8.82 (govt 0.02; others 2.41)
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+Source keys (all fetched 21-Oct-2026 unless marked):
+- **SCR-x** = https://www.screener.in/company/<SYM>/consolidated/
+- **IKS-D** = https://nsearchives.nseindia.com/corporate/IKS2006_05082026221840_03_20260805InvestorPresentationSEFINAL.pdf
+- **IKS-PR** = …IKS2006_05082026221302_02_20260805PressReleaseSEFINAL.pdf
+- **IKS-T** = https://www.bseindia.com/xml-data/corpfiling/AttachLive/4274d979-24aa-4e4a-919a-7fda22e76dc1.pdf (call 6-Aug-26)
+- **IKS-AR** = https://www.bseindia.com/xml-data/corpfiling/AttachHis/4c975ef3-2868-424b-af12-ab6b87d128f6.pdf
+- **SAG-D** = https://nsearchives.nseindia.com/corporate/SAGILITY_21072026182412_IntimationInvestorPresentationQ1FY27signed.pdf
+- **SAG-T** = …/AttachHis/c92ba037-98dd-4a91-b666-351484712f9b.pdf
+- **SAG-AR** = …/AttachHis/e9cbeb9a-b0bc-4e06-9ee3-33279702b78f.pdf
+- **FSL-D** = https://nsearchives.nseindia.com/corporate/FSL_06082026125803_Earning_presentationsigned1.pdf
+- **FSL-T** = …/AttachHis/4388ded0-ef40-4349-913b-e81e79bf0cea.pdf
+- **FSL-AR** = …/AttachHis/5b7a626b-80a1-4f85-b139-1c53f1aa6922.pdf
+- **IND-D** = https://nsearchives.nseindia.com/corporate/INDEGENE_30072026193717_tofileinvestorpresentation.pdf
+- **IND-T** = …/AttachHis/83279765-f7aa-46b3-83e1-71b559d80ee3.pdf
+- **IND-AR** = …/AttachHis/d2ca0f9b-5da2-44d5-b2db-dfb491f22180.pdf
+- **ECL-D** = https://nsearchives.nseindia.com/corporate/ECLERX_05082026180538_BSENSEPR050826.pdf
+- **ECL-T** = …/AttachHis/72615019-c3a5-4474-884a-584d48b4169f.pdf (Q4 FY26 call)
+- **ECL-AR** = …/AttachHis/6a37bea9-b361-4850-bd13-54599599762b.pdf
+
+| # | Figure | Value | Primary source | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Group FY26 revenue (one basis) | ₹27,570 Cr (+23.0%) | SCR ×5 | **[V-scr]** | ~ (27,671 on eClerx-total basis; −101) |
+| 2 | Group Q1 FY27 revenue | ₹7,797 Cr (+25.9%) | SCR ×5 | **[V-scr]** | ~ (7,815 with eClerx total) |
+| 3 | Group m-cap 21-Oct-26 | ₹1,00,990 Cr (~$10.6bn at ₹95.0) | SCR ×5; open.er-api | **[V-scr]** | ~ (1,01,748 on stale dates) |
+| 4 | Group P/E | 29.5× FY26 / 28.4× TTM | SCR [E] | **[V-scr]** | ✓ (29.7×) |
+| 5 | IKS FY26 revenue / EBITDA | ₹3,193.8 Cr / ₹1,091.3 Cr (34.17%) | IKS-AR MD&A; SCR | **[V-co]** | ✓ revenue; EBITDA refines ~1,086 [E] |
+| 6 | IKS Q1 FY27 rev / EBITDA / PAT | ₹893.6 / 294.9 (33.0%) / 193.7 Cr; $97m (+12%) | IKS-PR; IKS-D | **[V-co]** | ✓ |
+| 7 | IKS adj. EBITDA Q1 ex one-offs | ~35% (ex ~₹20 Cr acquisition cost and FX) | IKS-T | **[V-co]** | ✓ |
+| 8 | IKS headcount | 12,889 (Jun-26) | IKS-D | **[V-co]** | ✗ (primer ~14,000) |
+| 9 | IKS top-10 client share | 53.8% (Q1 FY27) vs 43.4% | IKS-D p.14 | **[V-co]** | new |
+| 10 | TruBridge EV / EBITDA / revenue | $557m EV; ~$68m EBITDA; ~$300m revenue | IKS-AR letter; IKS-T | **[V-co]** | ✓ / refines |
+| 11 | IKS FY30 "True North" | ≥₹3,000 Cr EBITDA; no dilution beyond ESOPs; net debt back to pre-deal | IKS-T; IKS-D p.16 | **[V-co]** | new |
+| 12 | Sagility FY26 revenue / adj. EBITDA / adj. PAT | ₹7,192.9 / 1,820.0 / 1,130.6 Cr; $814.0m | SAG-D p.14 | **[V-co]** | ✓ |
+| 13 | Sagility Q1 FY27 | Rev ₹1,963.5 Cr (+27.6%; CC +15.2%); adj. EBITDA 24.0%; PAT ₹216.8 Cr | SAG-D | **[V-co]** | ✓ |
+| 14 | Sagility FY27 guidance | Low double-digit organic CC; adj. EBITDA 24–25% (absorbing ~120 bp min-wage hit) | SAG-T | **[V-co]** | ✓ (adds wage detail) |
+| 15 | Sagility net debt | Mar-26 ₹196 Cr (0.11×); Jun-26 ₹111 Cr (0.06×) | SAG-D p.15 | **[V-co]** | ✗ (₹2,168 Cr was Mar-24) |
+| 16 | Sagility top-3 clients | 59.9% FY26; 3 customers >10% = ₹4,307.7 Cr | SAG-D; SAG-AR | **[V-co]** | ~ ("low-60s") |
+| 17 | Sagility promoter stake | 50.95% (Sep-26) | SCR; SAG-AR | **[V-scr]** | ✓ |
+| 18 | Firstsource FY26 revenue / EBITDA / EBIT | ₹9,556.4 / 1,556.2 (16.3%) / 1,122.1 Cr (11.7%) | FSL-D factsheet | **[V-co]** | ✓ rev, EBIT; EBITDA replaces [E] |
+| 19 | Firstsource Q1 FY27 | ₹2,724.9 Cr; CC +12.3%; EBIT 12.4%; PAT ₹165.9 Cr (adj. ₹222.2 Cr) | FSL-D | **[V-co]** | ✓ |
+| 20 | Firstsource FY27 guidance | CC revenue +10–13%; EBIT 12.25–12.75% | FSL-D p.12 | **[V-co]** | ✓ |
+| 21 | Firstsource exceptionals Q1 | ₹71.7 Cr = termination ₹35.7 + indemnity ₹28.4 + Ascensos earn-out FV ₹7.6 | FSL-T | **[V-co]** | ✓ (adds split) |
+| 22 | Firstsource vertical mix Q1 FY27 | BFS 33.2 / HC 33.0 / CMT 20.6 / DI 13.2% | FSL-D | **[V-co]** | ~ (FY26 34/33/21/13) |
+| 23 | Firstsource net debt | ₹1,629 Cr (Mar-26) → ₹1,714 Cr (Jun-26) ex-lease | FSL-D BS; FSL-T | **[V-co]** | ✓ |
+| 24 | Indegene Q1 FY27 | Rev ₹1,063.1 Cr ($112.5m; +39.7% ₹/+26.5% $); EBITDA ₹179.5 Cr incl. OI (OP ₹174 Cr); PAT ₹116.2 Cr | IND-D; SCR | **[V-co]** | conflict resolved |
+| 25 | Indegene margin outlook | H2 FY27 EBITDA back to 19–20%; inflection Q3 FY27 | IND-T | **[V-co]** | ✓ |
+| 26 | Indegene active clients / $1m+ | 105 / 54 (Q1 FY27) | IND-D | **[V-co]** | ✓ (105) |
+| 27 | Indegene BioPharm consideration | ₹882.1 Cr incl. ₹213.4 Cr earn-out | IND-AR | **[V-co]** | ~ ($104m snippet) |
+| 28 | Indegene largest holders | Nadathur 21.88%; Brighton Park 8.73% | IND-AR | **[V-co]** | new |
+| 29 | eClerx FY26 operating revenue | ₹4,117 Cr ($469m; +17.9% $) | SCR; ECL-D | **[V-scr]** | ✗ basis (4,217.4 = total) |
+| 30 | eClerx Q1 FY27 | Op. rev ₹1,152.4 Cr / $125.9m (+15.2%; CC +15.1%); EBITDA 24.2% of total; PAT ₹164.3 Cr | ECL-D | **[V-co]** | ✓ |
+| 31 | eClerx hedge book | $273.6m @ ₹93.41; FY27 $156.2m @ ₹91.16 | ECL-D p.6 | **[V-co]** | new; settles trap 3 |
+| 32 | eClerx margin guidance | FY27 EBITDA 24–28%; Q1 wage hit 300–350 bp | ECL-T (14-May-26) | **[V-co]** | ✓ |
+| 33 | eClerx single largest client | 16.7% of FY26 op. revenue (₹688.5 Cr) | ECL-AR | **[V-co]** | new |
+| 34 | CMS 2027 MA rate | +2.48% net (> $13bn); advance notice 0.09%; unlinked chart-review dx excluded | aha.org 6-Apr-26 | **[V]** (AHA summary of CMS notice) | ✓ (2.48%) |
+| 35 | CAQH Index 2025 | $258bn avoided (2024); $21bn remaining opportunity; >50% plans / 25% providers use AI in admin | CAQH via dataspring.com (19-Feb-26) | **[V]** | new (replaces [K]) |
+| 36 | India BPM revenue | $59bn FY26 (from $55bn); industry $315bn; exports $246bn | NASSCOM SR 2026 (PTI/ETV Bharat); SR 2025 PDF (FY25E BPM $54.6bn) | **[V]** | new (replaces [K]) |
+| 37 | FCC offshore call-centre NPRM | Released 27-Mar-26; illustrative 30% cap on offshore CS calls for telecom/cable/VoIP/DBS | cooley.com 8-Apr-26 | **[V]** | new — not in Parts 1–3 |
+| 38 | Concentrix Q3 FY26 | Rev $2,453.7m (−1.2%; CC −0.5%); $1,050m goodwill impairment; adj. EBITDA 14.8% | Concentrix Ex.99.1 PDF (s21.q4cdn.com) | **[V]** | ✓ |
+| 39 | EXL Q2-2026 | Rev $594.8m (+15.6%); organic guide raised to 13–14%; FY26 rev $2.390–2.415bn incl. iMerit | exlservice.com release | **[V]** | ✓ |
+| 40 | USD/INR | ₹95.00 (21-Oct-26); record close ₹96.53 (19-May-26) | open.er-api.com; Bernama (snippet) | **[V]** / [V-snip] | ~ (94.9; 96.3/96.8) |
+
+**Count: 39 of 40 figures are [V] from sources fetched this session** (35 company or screener primary; 4 industry/peer pages). #40's record-low leg is [V-snip]. Single-source caveats:
+- **#34** is an AHA summary of the CMS notice, not the cms.gov PDF.
+- **#36 (FY26)** is a PTI wire report of NASSCOM's release, not NASSCOM's own PDF (the 2025 PDF was fetched).
+- **#35** is a CAQH blog mirrored at dataspring.com: caqh.org returned a 301 redirect to it.
+
+**Conflicts resolved:**
+- Indegene EBITDA: inclusion of other income (#24).
+- Sagility net debt: mis-dated (#15).
+- eClerx revenue: basis (#29).
+- IKS clients: the primer's 900+ is superseded by the company's 600+ (#7, Supersedes).
+
+**Still single-source:**
+- TruBridge close date: 9-Jul (release, Part 1) vs "July 10th" (CFO on the call). Probably a US vs India date difference.
+- IKS FY26 US$ revenue (not disclosed).
+
+## 4.2 Company packs from primary documents
+
+Table conventions:
+- 5-year and 8-quarter tables are **screener consolidated [V-scr]**. ₹ Cr; OP = EBITDA excl. other income; NP = reported.
+- Concall/KPI tables are **company documents [V-co]**.
+- Guidance is paraphrased, with the speaker and date.
+
+### 4.2.1 IKS Health (Inventurus) — NSE: IKS · **BSE: 544309** (not 544332)
+
+**Management-commentary digest (Q1 FY27 call, 6-Aug-2026: Sachin Gupta, Founder & Global CEO; Nithya Balasubramanian, Group CFO) [V-co IKS-T]**
+- **No formal guidance; an "aspiration".** Legacy IKS should keep growing **faster than 12% constant currency** (the market growth rate per management) on a ~$388m annualised book. Non-linearity should show mainly in gross margin.
+- **FY30 "True North" (reiterated):**
+  - **≥ ₹3,000 Cr EBITDA by FY30** (from ₹647 Cr TTM Sep-24 pre-IPO, and ₹1,148 Cr TTM Jun-26 standalone).
+  - No dilution beyond ESOPs.
+  - **Net debt back to the pre-TruBridge level.**
+  - The deck shows ~30% EBITDA CAGR to FY30.
+- **TruBridge (closed "July 10th" per CFO):**
+  - Inherited operating EBITDA **~$68m**, as underwritten ("$68m of EBITDA for about $550m").
+  - **Steady-state revenue reset to ~$300m from the ~$340m expected pre-close.** The ~$10m-a-quarter reset breaks down as:
+    - more conservative RCM revenue recognition (~$2–3m/qtr);
+    - exit from two loss-making lines, small IT management services and early-out (~$8m/qtr);
+    - transformation discounts to customers (~$2–3m/qtr).
+  - TruBridge EBITDA margin **~22–23%**. Target: blended margin back to **"early-to-mid 30s" over the next couple of years**, via offshore human-in-the-loop delivery and IKS's technology.
+  - No TruBridge growth outlook for "two, three quarters".
+  - Combined starting point: **~$688m revenue; EBITDA ~₹1,150 Cr (IKS) + ~₹650 Cr (TruBridge)**.
+- **Costs:**
+  - One-time acquisition costs ~₹25 Cr in Q4 FY26 and ~₹20 Cr in Q1 FY27; similar integration costs expected in Q2.
+  - Q1 reported EBITDA 33.0% → **~35% adjusted** for these and for FX (Q1 FX gain ₹1.2 Cr vs ₹35.2 Cr in Q4).
+  - Tax 22–23% for legacy IKS; the pro-forma rate will come with Q2.
+- **Productivity:** revenue +12% CC on headcount +4.2% (12,300 → 12,889). Senior technology staff were absorbed from **ThinkDTM** and **ARAI** (acquired). Annualised adj. EBITDA per employee ₹0.99m vs ₹0.81m.
+- **AI competition:**
+  - Asked about **Abridge's** move from scribe to platform: the CEO "respects" Abridge (IKS invested), but says expanding from scribe to pre/peri/post-visit platform takes years.
+  - Pricing pressure will exist as competitive intensity rises, but there is "continued margin leverage".
+  - IKS **marked its Abridge stake up** in Q1 (equity rose; ROE 26.4%). Separately it sold an Abridge tranche for $10m in Aug [V-snip, Part 1].
+- **Deals:**
+  - A California integrated health system (EHR data migration).
+  - A national MSK provider (re-won RCM).
+  - **Advocate Health** expansion (RCM + coding across acute and ambulatory).
+  - StrideCare extension.
+- **Cash:** OCF/FCF adjusted for a **₹143 Cr upfront "economic value add" guarantee payment to a customer** in Q1. That is an outcome-linked contract structure; flag it as working-capital risk.
+
+**Concall/deck KPI table [V-co IKS-D, IKS-T]**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|
+| Revenue ₹m / US$m | 7,401 / 87 | 8,577 / 95 | 8,936 / 97 |
+| EBITDA ₹m (margin) | 2,378 (32.1%) | 3,002 (35.0%) | 2,949 (33.0%) |
+| EBITDA ex-ESOP ₹m (margin) | 2,467 (33.3%) | 3,175 (37.0%) | 3,167 (35.4%) |
+| ESOP cost ₹m | 89 | 173 | 218 |
+| Forex gain ₹m (inside EBITDA) | 12 | 352 | 12 |
+| PAT / adj. PAT ₹m | 1,515 / 1,682 | 2,060 / 2,269 | 1,937 / 2,153 |
+| Share of associate loss ₹m | — | (54) | (53) |
+| Top-10 / top-5 client share | 43.4% / 31.7% | 52.8% / 41.5% | **53.8% / 42.1%** |
+| Top-10 / top-5 vintage (yrs) | 5.54 / 5.52 | 5.42 / 5.56 | 5.76 / 7.41 |
+| Employees | ~12,300 | — | 12,889 (clinical 1,902; tech 565; S&M 57) |
+| Healthcare-organisation clients | 650+ | — | 600+ |
+| Net debt ₹m | — | — | 2,654 (LTM Jun-26; pre-TruBridge) |
+
+**5-year history (FY22–FY26) [V-scr]**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales | 764 | 1,031 | 1,818 | 2,664 | 3,194 |
+| Operating profit | 298 | 392 | 521 | 771 | 1,084 |
+| OPM | 39% | 38% | 29% | 29% | 34% |
+| Net profit | 233 | 305 | 370 | 486 | 722 |
+| EPS ₹ | 13.61 | 17.86 | 21.68 | 28.33 | 42.03 |
+| ROCE | 47% | 50% | 30% | 27% | 32% |
+| CFO | 233 | 288 | 210 | 318 | 674 |
+
+FY24 includes AQuity from Oct-2023 (margin step-down from 38% to 29%). FY24 borrowings jumped to ₹1,311 Cr (AQuity) and were paid down to ₹753 Cr by Mar-26.
+
+**8-quarter trend [V-scr]**
+
+| ₹ Cr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 643 | 657 | 724 | 740 | 781 | 815 | 858 | 894 |
+| OP | 189 | 181 | 226 | 238 | 270 | 279 | 295 | 290 |
+| OPM | 29% | 28% | 31% | 32% | 35% | 34% | 34% | 32% |
+| Net profit | 113 | 130 | 148 | 152 | 181 | 183 | 206 | 194 |
+
+**FY26 annual-report findings [V-co IKS-AR]**
+- **EBITDA ₹1,091.3 Cr (34.17%)** vs ₹791.1 Cr (29.69%).
+- Other income fell to ₹17.2 Cr from ₹39.0 Cr: FY25 had included a reversal of contingent consideration ("DAP reversal").
+- **Term loan refinanced** at a lower rate; ₹12.7 Cr of unamortised issue costs written off (non-cash).
+- **Goodwill ₹1,325.8 Cr** (₹1,197.3 Cr) — a key audit matter.
+- **Borrowings ₹640.7 Cr, all variable-rate** (₹755.0 Cr).
+- **Single segment; 100% of revenue from outside India; no customer >10% of revenue** (Note 41). Yet the deck's top-10 share is 53.8%, so the client base is concentrated but not dominated by one name.
+- Contingent liabilities are small:
+  - transfer-pricing/direct-tax ₹4.9 Cr;
+  - **post-balance-sheet TP demand for FY22 ₹16.1 Cr** (being contested);
+  - EPF "basic wages" judgment not significant.
+- **Subsequent event:** TruBridge agreement 23-Apr-2026 at EV "up to US$565m" (Note 51). The chairman/CEO letter says **EV $557m** and describes TruBridge as serving rural/community hospitals covering ~60m Americans.
+- Related parties: board and KMP listed; no royalty/brand-fee arrangement found.
+- Weighted shares 16.73 Cr basic / 17.07 Cr diluted. **ESOP dilution ~2%**, and ESOP cost is rising (₹21.8 Cr in Q1).
+
+### 4.2.2 Sagility — NSE: SAGILITY · BSE: 544282
+
+**Management-commentary digest (Q1 FY27 call, Jul-2026: Ramesh Gopalan, MD & Group CEO; Srinivas Mattapalli, CFO) [V-co SAG-T]**
+- **FY27 guidance reiterated:**
+  - **low double-digit organic CC revenue growth**;
+  - **adj. EBITDA 24–25%**, despite absorbing **~120 bp** from statutory minimum-wage hikes in **Karnataka (from 22-May-26) and Telangana (from 1-Jun-26)**.
+  - Upside if the final wage notification is milder. A "much closer" guidance comes after the Q2 open-enrolment season.
+- **Wage shock mechanics:**
+  - ~65–70% of headcount is in Bengaluru and Hyderabad; <15–20% sits outside the two states.
+  - Cascading pay-parity raises spread the hit beyond minimum-wage staff.
+  - Mitigation (new sites in Indore and Tamil Nadu, efficiency) will take **12–18 months**.
+  - Q1 margin bridge vs Q4: ~40 bp minimum wage + ~50 bp annual increments + loss of OE operating leverage.
+- **Pricing:** **no price increases; "the movement in prices is in the opposite direction"** (clients under cost and claims-ratio pressure). Growth is volume and new services in existing clients plus ramp of FY26 new logos.
+  - ACV wins come from 15–20 clients a quarter ($35.3m steady-state ACV in Q1, from 18 existing clients and 1 new logo).
+- **Model shift:** active talks on **ROI-based / outcome-based managed-service deals** with agentic workflows and committed cost take-out. They take time to close.
+- **Balance sheet:** net debt ₹111 Cr (0.06×). The **promoter loan will be fully repaid in FY27**.
+- **CareSeed:** effective 11-Jun-26 (HEDIS/Stars analytics; CY25 revenue ~$5.1m at 31.4% EBITDA margin). Adds 26 new client groups.
+- **FX:** a **₹28.3 Cr forex loss in Q1 driven by hedges** sits below adj. EBITDA (in "reported EBITDA"). Hedge losses therefore hit Sagility's reported numbers, not its adjusted ones.
+
+**Concall/deck KPI table [V-co SAG-D]**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | FY26 |
+|---|---|---|---|---|
+| Revenue ₹m (US$m) | 15,389 (180.4) | 20,243 (222.1, incl. $24.8m seasonal) | 19,635 (207.8) | 71,929 (814.0) |
+| Steady-state / seasonal ₹m | 15,389 / – | 17,983 / 2,260 | 19,635 / – | — |
+| Adj. EBITDA ₹m (margin) | 3,687 (24.0%) | 5,036 (24.9%) | 4,716 (24.0%) | 18,200 (25.3%) |
+| Reported EBITDA ₹m | 3,560 | 5,094 | 4,525 | — |
+| Reported PAT / adj. PAT ₹m | 1,486 / 1,997 | 2,577 / 3,069 | 2,168 / 2,697 | 9,248 / 11,306 |
+| Payer / provider | 88.4 / 11.6% | 90.8 / 9.2% | 89.6 / 10.4% | — |
+| Employees; vol. attrition | 39,917; 27.6% | 46,860; 38.1% | 47,307; 28.6% | — |
+| Active client groups | — | 82 (FY26) | 109 | — |
+| Clients >$20m / $5–20m / $1–5m / <$1m | — | 9 / 7 / 21 / 45 | 9 / 8 / 21 / 71 | — |
+| Top-3 / top-5 / top-10 | — | 59.9 / 70.4 / 83.9% (FY26) | 60.1 / 70.1 / 84.1% (TTM) | FY23: 72.4 / 80.6 / 90.7% |
+| Net debt ₹m (× adj. EBITDA) | — | 1,962 (0.11×) | 1,110 (0.06×) | FY24 21,678 (1.90×); FY25 10,433 (0.71×) |
+| DSO | — | — | 80 days | — |
+
+Go-forward schedule (deck, ₹m):
+- Debt repayment: **5,670 in FY27**, then nil.
+- Interest: 287 in FY27.
+- **Carve-out intangibles amortisation: 1,565 a year FY27–FY32**.
+- Acquisition intangibles amortisation: 473 in FY27, falling to 250 by FY32 (ends FY36).
+- Earn-outs: 64 / 95 / 19 (FY27–29).
+- **The reported-vs-adjusted PAT gap is therefore structural until FY32, not FY30** as Part 1 implied.
+
+**5-year history [V-scr]** (FY22 = 8 months from the Jan-2022 carve-out)
+
+| ₹ Cr | FY22 (8m) | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales | 923 | 4,218 | 4,754 | 5,570 | 7,193 |
+| Operating profit | 193 | 1,039 | 1,088 | 1,307 | 1,765 |
+| OPM | 21% | 25% | 23% | 23% | 25% |
+| Net profit | −5 | 144 | 228 | 539 | 925 |
+| EPS ₹ | −0.02 | 0.75 | 0.53 | 1.15 | 1.98 |
+| ROCE | — | 5% | 5% | 10% | 13% |
+| Depreciation & amortisation | 147 | 644 | 689 | 467 | 487 |
+
+Notes on the table:
+- Low ROCE reflects ₹8,400+ Cr of goodwill and intangibles from the carve-out. The company's "adjusted ROCE" (ex-goodwill/intangibles) is ~59%.
+- Screener's FY24 sales of 4,754 confirm Part 2's derived ₹4,753.5 Cr.
+
+**8-quarter trend [V-scr]**
+
+| ₹ Cr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 1,325 | 1,453 | 1,568 | 1,539 | 1,658 | 1,971 | 2,024 | 1,963 |
+| OP | 301 | 392 | 373 | 346 | 415 | 511 | 485 | 438 |
+| OPM | 23% | 27% | 24% | 22% | 25% | 26% | 24% | 22% |
+| Net profit | 117 | 217 | 183 | 149 | 251 | 268 | 258 | 217 |
+
+Seasonality is visible: Dec and Mar quarters carry open-enrolment revenue (Q3 FY26 $25.2m seasonal; Q4 $24.8m).
+
+**FY26 annual-report findings [V-co SAG-AR]**
+- **Related party = the debt.**
+  - Unsecured borrowings of ₹577.6 Cr (incl. ₹10.6 Cr accrued interest) at Mar-26 are **from Sagility B.V., the promoter/holding company** (₹817.0 Cr at Mar-25).
+  - FY26 interest to Sagility B.V. **₹54.3 Cr** (₹75.1 Cr); repayment ₹293.7 Cr incl. interest; dividend paid to Sagility B.V. ₹15.8 Cr.
+  - There is no royalty or brand fee.
+- **Goodwill ₹6,405 Cr**: HGS carve-out ₹5,170 Cr + DCI/BirchAI/BroadPath ₹489 Cr + FX translation ₹746 Cr.
+- **Major customers:** three customers each >10% of revenue, **₹4,307.7 Cr in aggregate (59.9%)** vs ₹3,598.3 Cr (64.6%) in FY25.
+- **Contingent liability — "Synergy Litigation":**
+  - A vendor claims **US$115.9m (₹1,094 Cr; unjust-enrichment basis) or US$53.2m (₹503 Cr; lost-profits basis)** over pre-acquisition commissions, against Sagility's US entities and **Hinduja Global Solutions Inc.**
+  - It is an excluded liability under the 2022 SPA, with HGS (the sellers) contractually indemnifying.
+  - **Sagility B.V. holds a US$45m Barclays bank guarantee** on the sellers' behalf.
+  - **The guarantee covers <40% of the high-end claim. Flag this as a tail risk tied to HGS's capacity to indemnify.**
+- **OFS:** 70.30 Cr shares sold 27–28 May 2025 for minimum-public-shareholding compliance.
+- Employees 46,860 (38.7% women).
+
+### 4.2.3 Firstsource Solutions — NSE: FSL · BSE: 532809
+
+**Management-commentary digest (Q1 FY27 call, 6-Aug-2026: Ritesh Idnani, MD & CEO; Dinesh Jain, CFO) [V-co FSL-T]**
+- **Guidance unchanged: FY27 CC revenue +10–13%, EBIT 12.25–12.75%.**
+- Streaks: ninth straight quarter of double-digit YoY growth, 11th of sequential growth, seventh of EBIT-margin expansion. **Four large deals (ACV >$5m) for the sixth straight quarter.**
+- **Healthcare payer softness:**
+  - Several **Medicare Advantage clients "recalibrated program scope" after CMS rate adjustments and utilisation-management changes**. Management calls it a pacing effect, not a demand shift.
+  - **One transformative BPaaS payer engagement is being wound down** after a client leadership change. It was early in its ramp, so the revenue impact is limited; the logo stays a >$5m account.
+- **HR1/OBBBA:** regulatory uncertainty and cost pressure are pushing provider RCM towards AI. Management: **"transactional volume is increasingly being repriced as a technology service."** Voice-AI agents are now standard in eligibility, early-out and patient financial services, and Denials AI is the default platform.
+- **Exceptionals ₹71.7 Cr pre-tax (₹56.3 Cr post-tax):**
+  - **₹35.7 Cr** program-termination charge (recovery being pursued; first phase settled);
+  - **₹28.4 Cr** indemnification of a **regulatory penalty levied on a client** for a contractual performance matter (insurance claim filed);
+  - **₹7.6 Cr** fair-value increase in Ascensos earn-out (Ascensos is beating its targets).
+- **Other financials:**
+  - Tax rate 22–24% for FY27 (new regime; MAT credit drawdown).
+  - **Net debt ₹1,710 Cr vs ₹1,630 Cr.** Normalised DSO 67–69 days. FCF/PAT ~94% normalised; Q1 OCF only ₹98 Cr after a ₹348 Cr working-capital build.
+  - **Hedge book (30-Jun-26): GBP 61.6m at ₹118–120 and US$119m at ₹92.7 for the next 12 months.** Spot today is ₹126.9/£ and ₹95.0/$, so hedges cap the FX upside.
+- **BFS:** collections strong (US consumer debt at a record); mortgage working on simplification and servicing efficiency. The **BFS pipeline exiting Q1 was "amongst the strongest in recent quarters"**.
+- **People:** quarter voluntary attrition 27.5%; ~80% of gross adds are offshore/nearshore.
+
+**Concall/deck KPI table [V-co FSL-D]**
+
+| KPI | Q1 FY25 | Q1 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|
+| Revenue ₹m (US$m) | — | 22,177 (259) | 25,835 (283) | 27,249 (288) |
+| CC growth YoY / QoQ | — | 19.2% / 1.6% | 11.6% / 3.0% | 12.3% / 2.2% |
+| EBITDA ₹m (margin) | — | 3,471 (15.7%) | 4,304 (16.7%) | 4,513 (16.6%) |
+| EBIT margin | — | 11.3% | 12.2% | 12.4% |
+| Other operating income ₹m (hedge/other, inside revenue) | — | (33) | (296) | (269) |
+| BFS / HC / CMT / DI | 36.4 / 35.7 / 22.3 / 5.6 | 32.5 / 33.4 / 22.4 / 11.7 | 32.2 / 34.4 / 19.9 / 13.5 | 33.2 / 33.0 / 20.6 / 13.2 |
+| North America / EMEA / RoW | 68.2 / 31.8 / 0.0 | 68.7 / 30.1 / 1.2 | 68.0 / 30.6 / 1.4 | 66.4 / 31.7 / 1.9 |
+| Offshore+nearshore / onshore delivery | 35.0 / 65.0 | 41.2 / 58.8 | 43.0 / 57.0 | 43.5 / 56.5 |
+| Top-5 / top-10 | 34.6 / 51.5 | 29.6 / 42.6 | 28.0 / 39.9 | 27.4 / 39.2 |
+| $1m+ / $5m+ / $10m+ / $20m+ / $50m+ clients | 100 / 25 / 13 / 9 / 2 | 141 / 38 / 17 / 11 / 2 | 150 / 42 / 17 / 9 / 2 | 145 / 45 / 20 / 10 / 2 |
+| New logos (strategic) | 10 (2) | 17 (9) | 11 (6) | 12 (3) |
+| Employees; TTM attrition | 29,231; 31.8% | 34,495; 28.9% | 36,205; 29.7% | 36,875; 33.1% |
+
+FY26 by vertical, TTM: HC $363m, BFS $370m, CMT $232m, DI $149m.
+
+**5-year history [V-scr]** (company FY26 EBITDA ₹1,556 Cr; screener OP ₹1,605 Cr — screener excludes "other operating income" losses)
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales | 5,921 | 6,022 | 6,336 | 7,980 | 9,556 |
+| Operating profit | 982 | 858 | 1,008 | 1,244 | 1,605 |
+| OPM | 17% | 14% | 16% | 16% | 17% |
+| Net profit | 537 | 514 | 515 | 594 | 674 |
+| EPS ₹ | 7.69 | 7.33 | 7.31 | 8.41 | 9.54 |
+| ROCE | 17% | 15% | 16% | 15% | 17% |
+| Borrowings (incl. lease) | 1,784 | 1,393 | 1,526 | 2,569 | 2,922 |
+
+US$ revenue: FY21 $685m; FY22 $795m; FY23 $765m; FY24 ~$750m; FY25 $944m; FY26 $1,082m (deck chart).
+
+**8-quarter trend [V-scr]**
+
+| ₹ Cr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 1,925 | 2,102 | 2,161 | 2,218 | 2,312 | 2,443 | 2,583 | 2,725 |
+| OP | 287 | 318 | 333 | 347 | 376 | 403 | 430 | 451 |
+| OPM | 15% | 15% | 15% | 16% | 16% | 16% | 17% | 17% |
+| Net profit | 138 | 160 | 161 | 169 | 180 | 120 | 205 | 166 |
+
+Dec-25 NP includes the −₹100 Cr Labour-Codes exceptional. Jun-26 includes −₹72 Cr of exceptionals.
+
+**FY26 annual-report findings [V-co FSL-AR, FSL-D]**
+- **Goodwill ₹4,265.5 Cr** — ~97% of equity of ₹4,385 Cr. Other intangibles ₹135 Cr.
+- **Cash-flow hedge reserve: −₹344.7 Cr (effective portion)**; FY26 OCI loss on CF hedges ₹458.1 Cr (vs ₹29.5 Cr in FY25). **The falling rupee and pound/dollar moves have built a large unrealised hedge loss that will flow through revenue ("other operating income") as contracts mature.** This is the Firstsource analogue of eClerx's hedge drag.
+- Top-5 clients' income ₹2,753 Cr (28.6%).
+- Finance cost ₹181.5 Cr (+23%).
+- Contingent liabilities: income-tax demands ₹209.5 Cr; service tax ₹19.3 Cr; GST ₹8.9 Cr.
+- Promoter **RPSG Ventures 53.66%** (37.40 Cr shares). Chairman Sanjiv Goenka; overlapping directors with CESC/RPSG Ventures. No brand-fee arrangement was found in the RPT note searched.
+- **Funding mix:** short-term borrowings ₹1,748 Cr at Mar-26 (₹2,016 Cr at Jun-26 after the long-term loan was reclassified/repaid). **Acquisition debt is funded short-term**, so refinancing and rates are a watch item.
+
+### 4.2.4 Indegene — NSE: INDGN · BSE: 544172
+
+**Management-commentary digest (Q1 FY27 call, 31-Jul-2026: Manish Gupta, Chairman & CEO; Suhas Prabhu, CFO) [V-co IND-T]**
+- **Growth:** management expects **FY27 organic growth to be better than FY26, accelerating in H2.**
+  - Q1 USD growth +2.5% QoQ was the best first quarter in four years.
+  - Active clients rose by 14 in the quarter to 105 (the payoff of FY26 go-to-market spend).
+  - **Organic vs acquired growth is no longer disclosed** ("BioPharm is reasonably well integrated").
+- **Margin path (the key guidance):**
+  - The Q4 FY26 margin (16.4%) carried **~240 bp of mark-to-market losses on undesignated forwards** before hedge accounting was adopted. On that adjusted basis, Q1's 16.9% was a sequential decline.
+  - Why: a one-time workforce-transformation cost, and carrying the cost of "contracted Tectonic" in GenAI engagements whose revenue is still building.
+  - Q2 margins are expected to be **stable** (unusual for a wage-hike quarter).
+  - **Inflection in Q3 FY27; H2 FY27 EBITDA back to the historical 19–20% band; full normalisation by Q4 FY27.** That is six quarters after the 150 bp go-to-market investment flagged in Aug-2025.
+  - Swing factor: **an outcome-based omnichannel deal with a top customer** (won Q3 FY26, live Q4 FY26). Its cost is already in the P&L; **revenue recognition starts in Q3 FY27**, so most of that revenue drops straight to EBITDA.
+- **Concentration is falling.** Revenue from accounts beyond the top-20 roughly doubled YoY and is now **33.4%** of revenue (so top-20 ≈ 66.6%).
+  - Top-5 TTM revenue ₹3,231m (+3.4% QoQ); top-20 TTM ₹7,080m (+9.5% QoQ).
+  - Three of the top-5 are now at $25m+; 12 clients are >$10m.
+  - The **Tectonic engagement with the largest customer expanded from Germany to Spain.**
+- **AI stance:** "GenAI is driving price deflation". Management argues it takes share from agencies and CROs at Indegene's scale, and that ~60% of revenue is outcome-aligned, so efficiency gains accrue to Indegene.
+- **Pharma backdrop:** 8 of the top-25 biopharma posted double-digit growth in Q1; >$100bn of biopharma M&A in H1 2026. **Pricing pressure (MFN/IRA) and patent cliffs push outsourcing** (management's view).
+- **Cash:** cash + investments **₹1,460 Cr (Jun-26)**. Net DSO 67 days (+4 QoQ); management sees no significant receivable risk.
+
+**Concall/deck KPI table [V-co IND-D]**
+
+| KPI | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|
+| Revenue ₹m | 7,608 | 8,042 | 9,421 | 10,034 | 10,631 ($112.5m) |
+| EBITDA margin (company, incl. other income) | 20.2% | 17.6% | 17.5% | 16.4% (~18.8% ex-MTM) | 16.9% |
+| PAT margin | 15.3% | 12.7% | 10.9% | 7.9% | 10.9% |
+| EBITDA ₹m / PAT ₹m | 1,536 / 1,164 | — | — | 1,648 / 797 | 1,795 / 1,162 |
+| D&A ₹m | 216 | — | — | 418 | 441 (acquired intangibles) |
+| Exceptional ₹m | — | — | — | 203 (TCPA settlement provision) | — |
+| Active clients (≥$0.25m TTM) / $1m+ | 70 / 40 | — | — | 91 / 53 | 105 / 54 |
+| Revenue per employee (TTM) | $67.5k | — | — | — | $77.1k |
+| Employees total / delivery | 5,087 / 4,394 | — | — | — | 5,826 / 4,983 (incl. contractors being moved onto payroll) |
+| Voluntary attrition (TTM) | 16.8% | — | — | — | 15.7% |
+| Enterprise Commercial / Enterprise Medical (% revenue) | 68.5 / 28.0 | — | — | 71.7 / 25.3 | 70.6 / 25.7 |
+| Customer industry: biopharma / med devices / emerging biotech / other (Q1 FY27) | — | — | — | — | 91.6 / 3.1 / 3.3 / 2.0 |
+| North America share | — | — | — | — | 75.1% |
+
+**5-year history [V-scr]**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales | 1,665 | 2,306 | 2,590 | 2,839 | 3,510 |
+| Operating profit | 287 | 396 | 505 | 548 | 619 |
+| OPM | 17% | 17% | 20% | 19% | 18% |
+| Net profit | 163 | 266 | 337 | 407 | 401 |
+| EPS ₹ | 7.44 | 11.99 | 15.14 | 16.95 | 16.65 |
+| ROCE | 46% | 33% | 29% | 25% | 19% |
+| Other income | −21 | 58 | 79 | 94 | 52 |
+
+FY26 depreciation jumped to ₹126 Cr from ₹80 Cr (acquired intangibles), and FY26 other income fell to ₹52 Cr (IPO cash deployed into M&A). Both explain why PAT was flat while sales rose 24%.
+
+**8-quarter trend [V-scr]**
+
+| ₹ Cr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 687 | 720 | 756 | 761 | 804 | 942 | 1,003 | 1,063 |
+| OP | 126 | 132 | 148 | 155 | 141 | 160 | 164 | 174 |
+| OPM | 18% | 18% | 20% | 20% | 17% | 17% | 16% | 16% |
+| Net profit | 92 | 110 | 118 | 116 | 102 | 103 | 80 | 116 |
+
+**FY26 annual-report findings [V-co IND-AR]**
+- **Acquisitions (Ind AS 103 note):**
+  - **BioPharm Parent Holding** (US): SPA 30-Sep-25, control 1-Oct-25. **Consideration ₹882.1 Cr including a ₹213.4 Cr earn-out** tied to FY25–26 performance. **Goodwill ₹642.9 Cr** (a key audit matter).
+  - **Warn & Co** (UK, transformation consulting): 16-Oct-25, ₹46.4 Cr incl. ₹6.7 Cr earn-out (range nil–₹8.3 Cr, to Mar-27).
+  - **Cake Kommunikations** (Austria/Germany/Switzerland healthcare advertising): SPA 10-Nov-25, control 30-Jan-26, ₹86.0 Cr (€7.96m) incl. earn-out (max €8.9m).
+  - Total FY26 deal value ≈ **₹1,015 Cr** [E sum]. Consolidated goodwill rose to **₹1,134 Cr from ₹357 Cr**.
+- **Shareholders (Mar-26):**
+  - **Nadathur Fareast Pte 21.88%** — the largest single holder (N.R. Narayana Murthy-linked family office vehicle [K]);
+  - Manish Gupta 8.91%; Rajesh Nair 7.14%; Sanjay Parikh 4.98%;
+  - **Brighton Park (BPC Genesis Fund I SPV 5.75% + Fund I-A SPV 2.98%) 8.73%**, down from 9.52%;
+  - CA Dawn (Carlyle) nil, from 10.20%.
+  - **"No promoter" does not mean dispersed: ~51% sits with five holders.** Brighton Park is still a potential seller.
+- **Litigation:** a **TCPA class action** (US$500 per violation statutory damages) against Indegene Inc./Encima; a ₹20.3 Cr settlement provision was taken in Q4 FY26. Transfer-pricing MAP exposure is disclosed as a contingent liability.
+- **Hedge accounting** adopted from Q1 FY27; Q4 FY26 forward MTM went through P&L.
+
+### 4.2.5 eClerx Services — NSE: ECLERX · BSE: 532927
+
+**Management-commentary digest.** The latest transcript available on screener is the **Q4 FY26 call (14-May-2026: Kapil Jain, MD & Group CEO; Srinivasan Nadadhur, CFO) [V-co ECL-T]**. The Q1 FY27 deck/release (5-Aug-26) [V-co ECL-D] is used for the latest numbers. The Q1 FY27 call transcript was not found: gap.
+- **FY27 guidance:**
+  - **EBITDA margin band 24–28% retained.**
+  - Revenue: **"top quartile of the peer segment" on operating-revenue growth** — no number, despite analysts asking for a band.
+  - Q1 FY27 delivered **CC +15.1% YoY / +2.9% QoQ**, with operating EBITDA margin 23.0% after the wage hike.
+- **Wage cycle:** increments from 1-Apr. The Q1 wage hit is typically **300–350 bp**, recovered through the year (FY26: G&A −80 bp; S&D leverage).
+- **Hedging (management):**
+  - ~80% of USD receivables are hedged. "Most of our hedge book is ~₹89 for FY27", so **FX upside in FY27 is limited and comes more in FY28**.
+  - Deck: FY27 forwards **$156.2m @ ₹91.16**; FY28 **$112.0m @ ₹96.20**; FY29 $5.4m @ ₹100.85; total outstanding **$273.6m @ ₹93.41**. FY26 matured: $206m @ ₹86.17.
+- **AI:**
+  - **First large-scale agentic-AI win in Q4 FY26 (hi-tech)**, deploying from Q1 FY27.
+  - Agentic data-sourcing platform for banks; Roboworx/CogniFlows in internal use; >3,000 staff trained on agentic AI.
+  - Analytics & automation revenue: ~$89.5m in FY26 per the deck chart [V-co; chart reading].
+- **Risks named:**
+  - **The FCC NPRM on offshore call centres.** If adopted, telcos and cable firms could outsource only a capped share of calls offshore; NASSCOM is lobbying. eClerx's CMT vertical (~26%) includes cable/telco operations.
+  - Bank regulation swings.
+  - Clients are asking for diversification (Manila, Cairo, Fayetteville delivery).
+- **Capital return:** FY26 buyback 2 was **6.25 lakh shares @ ₹4,800 = ₹300 Cr** (settled 2-Jan-26), after buyback 1 (₹385 Cr, Aug-25). Also a 1:1 bonus (Q4 FY26), ₹1 final dividend and ₹1 proposed for FY27.
+
+**Concall/deck KPI table [V-co ECL-D]**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|
+| Operating revenue US$m / ₹m | 109.2 / 9,346 | 122.4 / 11,073 | 125.9 / 11,524 |
+| Total revenue ₹m | 9,451 | 11,354 | 11,702 |
+| Operating EBITDA ₹m (% of operating revenue) | — | 2,841 (25.7%) | 2,652 (23.0%) |
+| EBITDA incl. other income ₹m (% of total revenue) | 2,346 (24.8%) | 3,121 (27.5%) | 2,831 (24.2%) |
+| PAT ₹m | 1,417 | 1,894 | 1,643 |
+| Other income ₹m (investment / revaluation / other) | 105.3 (105.5 / −32.1 / 31.9) | 280.8 (122.1 / 105.7 / 53.0) | 178.6 (98.8 / 35.7 / 44.1) |
+| Verticals BFSI / CMT / HiTech & M&D / Fashion-Lux-Retail / Emerging | 43.2 / 25.4 / 16.5 / 9.0 / 5.9 | 38.7 / 26.6 / 16.0 / 8.4 / 10.2 | 37.6 / 26.2 / 16.3 / 8.2 / 11.7 |
+| North America / Europe / RoW | 79 / 15 / 6 | 78 / 17 / 5 | 78 / 16 / 6 |
+| Top-10 client share | 63% | 59% | 60% |
+| Clients $3m+ / $1–3m / $0.5–1m (TTM) | 19 / 24 / 42 | 24 / 27 / 44 | 25 / 28 / 42 |
+| BPaaS share; onshore revenue share | 19%; 20% | 18%; 18% | 19%; 18% |
+| Total headcount (offshore delivery) | 20,385 (16,865) | 22,639 (18,586) | 22,499 (18,305) |
+| Delivery utilisation; offshore voluntary attrition | 72.8%; 17.6% | 74.2%; 21.7% | 75.5%; 18.1% |
+| Offshore seats; DSO | 14,731; 86 | 15,507; 81 | 15,420; 79 |
+| USD/INR exit | — | 93.78 | 94.56 |
+
+Annual ACV of new deals (ex-CLX): FY23 $82.4m; FY24 $91.0m; FY25 $137.4m; **FY26 $169.9m**.
+
+**5-year history [V-scr]** (operating revenue basis)
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales (operating revenue) | 2,160 | 2,648 | 2,926 | 3,366 | 4,117 |
+| Operating profit | 662 | 723 | 776 | 809 | 1,053 |
+| OPM | 31% | 27% | 27% | 24% | 26% |
+| Other income | 24 | 66 | 64 | 87 | 101 |
+| Net profit | 418 | 489 | 512 | 541 | 706 |
+| EPS ₹ (bonus-adjusted) | 41.08 | 49.83 | 52.14 | 56.78 | 75.09 |
+| ROCE | 34% | 36% | 32% | 28% | 34% |
+| Free cash flow | 383 | 403 | 462 | 539 | 756 |
+
+Company operating revenue (₹m): FY23 26,479; FY24 29,225; FY25 33,659; FY26 41,170 — matches screener.
+
+**8-quarter trend [V-scr]**
+
+| ₹ Cr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales (operating) | 832 | 854 | 898 | 935 | 1,005 | 1,070 | 1,107 | 1,152 |
+| OP | 216 | 207 | 219 | 224 | 271 | 276 | 283 | 265 |
+| OPM | 26% | 24% | 24% | 24% | 27% | 26% | 26% | 23% |
+| Net profit | 140 | 137 | 153 | 142 | 183 | 192 | 190 | 164 |
+
+**FY26 annual-report findings [V-co ECL-AR]**
+- **Concentration:**
+  - **One customer >10% of revenue: ₹688.5 Cr (16.7% of operating revenue)**.
+  - In FY25, two customers >10% totalled ₹926.3 Cr (27.5%), so the second large client fell below 10%. Consistent with BFSI falling from 43% to 38%.
+- **Buyback 2:** 6,25,000 shares at ₹4,800 (raised from ₹4,500 on 16-Dec-25), ₹300 Cr, record date 17-Dec-25, settled 2-Jan-26.
+- **Promoters:** PD Mundhra (Chairperson) holds **16.64% directly**. The promoter group totals 54.53% (screener), so the primer's "26.85% each" for the founders must include family/trust holdings — verify before repeating.
+- **Contingent liabilities (small):** income tax ₹26.8 Cr; indirect tax ₹5.5 Cr.
+- **Borrowings are lease liabilities only (₹385 Cr).** Debt-free.
+- Group simplification: Eclipse Global Holdings merged into Personiv Eclipse (US), Nov-2025.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**(a) India technology industry (NASSCOM), US$ bn [V]**
+- FY25E: NASSCOM SR 2025 press-release PDF (24-Feb-2025).
+- FY26E: SR 2026 via PTI/ETV Bharat (24-Feb-2026); FY25 revised to $297bn in SR 2026.
+
+| Segment | FY25E (SR 2025) | FY25 (as restated in SR 2026) | FY26E (SR 2026) | Growth FY26 vs restated FY25 |
+|---|---|---|---|---|
+| IT services | 137.1 | 143 | 149 | +4.2% |
+| **BPM** | **54.6** | **55** | **59** | **+7.3%** |
+| ER&D | 55.7 | 59 | 63 | +6.8% |
+| Software products | 16.1 | 21 | 23 | +9.5% |
+| Hardware | 19.2 | 19 | 21 | +10.5% |
+| **Total** | **282.6** | **297** | **315** | **+6.1%** |
+| Exports | 224.4 | — | 246 | +5.6% (NASSCOM) |
+| Direct employment (m) | 5.8 | 5.815 | 5.95 | +2.3% (net adds 1.35 lakh) |
+| AI-related revenue | — | — | 10–12 | first estimate |
+
+Read: **India BPM grew ~7% in FY26 in US$. The five listed members grew ~17–24% in CC/$ terms** (Sagility 23.6% CC, eClerx 17.9% $, Firstsource 13.6% CC, Indegene ~18% $, IKS ~13–15% $ [E]). They are **taking share at 2–3× the industry rate**. The BPM-to-total ratio (~19%) and the $59bn base replace the [K] "NASSCOM BPM export split" gap. The export-only BPM split was not in either release, so that gap is partly open.
+
+**(b) US healthcare admin and payer economics [V]**
+
+| Metric | Value | Source |
+|---|---|---|
+| Admin cost avoided via electronic transactions (2024) | **$258bn (+17% YoY)** | CAQH Index 2025 (pub. 19-Feb-2026) via dataspring.com |
+| Remaining savings opportunity from full automation | **$21bn** | same |
+| Change in medical / dental admin transaction spend | **−9% / −4%** | same |
+| AI use in admin workflows | **>50% of health plans; 25% of providers** | same |
+| Medical admin transaction spend | ~$75.3bn [V-snip AJMC] | snippet |
+| CY2027 MA payment change (final, 6-Apr-2026) | **+2.48% net average (> $13bn)**; advance notice +0.09% (~$0.7bn); ~4.98% incl. risk-score trend [V-snip] | AHA |
+| MA risk model | CMS kept the 2024 model (2018 dx / 2019 cost) instead of recalibrating; **excludes diagnoses from unlinked chart reviews** | AHA |
+| Total US healthcare TAM / outsourced provider-services TAM | US$5tn total spend; **US$260bn addressable; US$34bn outsourced (CY2023); 8–12% CAGR 2023–28E** | IKS Q1 FY27 deck p.3 (Zinnov) [V-co] |
+| Life-sciences operations spend | **$135bn+** (marketing & sales $55bn; regulatory/medical affairs $24bn; pharmacovigilance $21bn; discovery/clinical $36bn); outsourcing CAGR ~9–14% (2022–26) | Indegene Q1 FY27 deck p.16 [V-co] |
+
+Use these in place of the [K] "~$1tn US healthcare admin cost". That figure is still unsourced: the CAQH index measures transaction costs only, not total admin cost.
+
+**(c) Global peer lens — latest quarter (primary releases) [V]**
+
+| Peer | Period | Revenue | Growth (reported / CC or organic) | Margin | Note |
+|---|---|---|---|---|---|
+| Concentrix | Q3 FY26 (to 31-Aug-26; released 29-Sep-26) | $2,453.7m | −1.2% / −0.5% CC | Adj. EBITDA 14.8%; non-GAAP op. margin 12.6% | **$1,050m goodwill impairment** (stock/market-cap driven); FY26 guide $9.827–9.877bn |
+| EXL | Q2-2026 (released 28-Jul-26) | $594.8m | +15.6% / +15.9% CC; +4.3% QoQ | Adj. op. margin 19.7% | Organic FY26 guide raised to **13–14%** (from 10–12%); FY26 $2.390–2.415bn incl. iMerit (~$28–32m) |
+| Teleperformance | H1-2026 | €4,883m | −4.5% / −1.7% LFL (Q2 −1.2%) | Recurring EBITA 13.6%; Specialized 33.0% / Core 10.5% | [V-snip Quartr/Reuters] FY26 0–2% LFL; Trust & Safety drag |
+| Genpact | Q2-2026 | $1.343bn | +7.1% / +6.9% CC | — | [V-snip] Advanced Tech Solutions +24% ($363m); Core Business Services +1.9% |
+
+Read: growth sorts by **domain/data intensity** — EXL and the Indian five at 12–24% vs voice-CX majors at −1% to −2%. Margins invert the scale story: Concentrix (~$9.9bn) runs a 14.8% EBITDA margin; IKS runs ~34% on ~$0.4bn.
+
+**(d) Policy datasets [V unless marked]**
+- **FCC offshore call-centre NPRM** (FCC 26-16; released 27-Mar-2026) — **new; not in Parts 1–3**. Summary per Cooley, 8-Apr-26.
+  - Coverage: telecom, CMRS, interconnected VoIP, cable and DBS providers. The FCC asks whether to extend it to all TCPA-covered calls.
+  - Illustrative **30% cap** on the share of customer-service calls handled offshore.
+  - "American Standard English" proficiency for offshore agents.
+  - Mandatory disclosure of the country, plus a right to transfer to a US agent.
+  - Sensitive data (SSN, card numbers, MFA) handled onshore only.
+  - A bar on centres in "foreign adversary" nations.
+  - Status: proposed; comment dates set on Federal Register publication.
+  - **Exposure:** Firstsource CMT (~21%: UK/US telecom and media, but the rule is US-only) and eClerx CMT (~26%, cable/telco operations, largely back-office). eClerx's CEO named it a risk on the 14-May call [V-co].
+- **HIRE Act (S.2976, Sen. Moreno):** 25% excise tax on outsourcing payments. Introduced ~6-Oct-2025, referred to Senate Finance; unanimous-consent attempt blocked. **No cosponsors and no movement in any source dated up to Feb-2026** [V-snip]. Nothing newer was found; congress.gov was not fetched. Status: stalled.
+- **USD/INR:** ₹95.00 (21-Oct-26) [V].
+  - Quarter-end exits (eClerx deck): 93.78 (Mar-26) and 94.56 (Jun-26) [V-co].
+  - Record close **₹96.53 / intraday ₹96.61 on 19-May-2026** [V-snip Bernama].
+  - The rupee is ~1.6% off its low.
+
+**(e) Hedge books — the rupee tailwind is partly pre-sold [V-co]**
+
+| Company | Hedge position | Rate vs ₹95.0 spot |
+|---|---|---|
+| eClerx | $273.6m outstanding @ ₹93.41 (FY27 $156.2m @ 91.16; FY28 $112.0m @ 96.20); ~80% of USD receivables hedged | FY27 ~4% below spot; FY28 above today's spot |
+| Firstsource | US$119m @ ₹92.7 + GBP 61.6m @ ₹118–120 (next 12 months, 30-Jun-26); CF hedge reserve −₹344.7 Cr at Mar-26 | ~2.5% below spot ($); ~6% below spot (£) |
+| Sagility | Forex loss ₹28.3 Cr in Q1 FY27 "driven by hedges" (excluded from adj. EBITDA) | — |
+| Indegene | Q4 FY26 ~240 bp EBITDA hit from MTM on undesignated forwards; hedge accounting from Q1 FY27 | — |
+| IKS | Q4 FY26 forex gain ₹35.2 Cr inside EBITDA; Q1 FY27 ₹1.2 Cr | — |
+
+## 4.4 Gap log (every §H item and the §2.7 gaps)
+
+| §H / §2.7 item | Status | How filled / what was tried |
+|---|---|---|
+| H1 current m-cap, P/E, P/B, ROCE, ROE, borrowings, cash (all five) | **Filled** | screener 21-Oct-26 + schedules (§4.0b) |
+| H2a IKS FY26 US$ revenue | **Partly** | Quarterly $ found (Q1 FY26 $87m, Q4 $95m, Q1 FY27 $97m); FY26 total not disclosed → ~$360–365m [E]; the $334m is wrong |
+| H2b IKS FY26 EBITDA ₹ | **Filled** | ₹1,091.3 Cr (AR) |
+| H2c IKS headcount | **Filled** | 12,889 (Jun-26) |
+| H2d IKS net cash Mar-26 / net debt post-TruBridge | **Partly** | Mar-26 term debt ₹641 Cr, cash ₹389 Cr, investments ₹377 Cr; Jun-26 net debt ₹265 Cr (company). Post-deal still [E] ~₹5,000–5,500 Cr; Q2 FY27 BS will settle it |
+| H2e TruBridge financing ($600m vs $670m); per-share price $26.25 | **Open** | Not in AR, deck or transcript. Deal facts filled: EV $557m, $68m EBITDA, ~$300m revenue, close 9/10-Jul |
+| H3 IKS client count | **Filled** | 600+ (Q1 FY27) vs 650+ (Q1 FY26) |
+| H4a Sagility net debt | **Filled** | ₹196 Cr Mar-26; ₹111 Cr Jun-26 (₹2,168 Cr = Mar-24) |
+| H4b Sagility goodwill / intangibles | **Filled** | ₹6,405 Cr / ₹2,041 Cr (Mar-26) |
+| H4c Sagility current price | **Filled** | ₹44.4 (21-Oct) |
+| H5a Firstsource EBITDA | **Filled** | ₹1,556.2 Cr (16.3%) FY26; ₹451.3 Cr Q1 FY27 |
+| H5b Q1 FY27 headcount, verticals, >$1m clients | **Filled** | 36,875; 33.2/33.0/20.6/13.2; 145 |
+| H5c top-5/10 levels; US vs UK | **Filled** | 27.4% / 39.2%; NA 66.4 / EMEA 31.7; GBP 30.3% of revenue |
+| H6a Indegene Q1 EBITDA conflict | **Filled** | 179.5 incl. other income vs 174.3 excl. |
+| H6b Indegene FY26 headcount (5,167 / 5,181 / ~5,500) | **Partly** | Jun-26 5,826 total / 4,983 delivery (incl. contractors moving to payroll); Mar-26 figure not in deck; BRSR 5,167 (Part 2) is employees only |
+| H6c Warn and Cake deal values | **Filled** | ₹46.4 Cr; ₹86.0 Cr (+ BioPharm ₹882.1 Cr) |
+| H6d Brighton Park stake | **Filled** | 8.73% (Mar-26) |
+| H7a eClerx Q2 FY27 date | **Open** | Not announced in any search (21-Oct); BSE API 403 |
+| H7b eClerx Jun-26 shareholding | **Filled** | 54.53 / 11.01 / 23.84 / 8.43 |
+| H7c eClerx hedge losses in operating revenue | **Filled (inferred)** | Hedge book + arithmetic (Supersedes #44) |
+| H7d eClerx current price | **Filled** | ₹1,929 |
+| H8 rupee record low | **Partly** | ₹96.53 close / ₹96.61 intraday (19-May-26) [V-snip]; ₹96.8 not found anywhere |
+| H9a global BPO market size | **Open** | Gartner/Everest/ISG not fetched (paywalled). Proxy: Concentrix + TP + Genpact + EXL revenue run-rates |
+| H9b US healthcare admin cost (~$1tn) | **Partly** | CAQH ($258bn avoided, $21bn opportunity) and IKS/Zinnov TAM ($260bn addressable; $34bn outsourced) replace it; the ~$1tn total remains [K] |
+| H9c US RCM market size | **Partly** | Zinnov via IKS deck: $34bn outsourced provider services (RCM, VBC, patient, coding, client services), 8–12% CAGR |
+| H9d NASSCOM BPM export split | **Partly** | BPM total $59bn FY26 / $54.6bn FY25E; export-only BPM not in releases |
+| H9e India BPM attrition/wage benchmarks | **Partly (company data)** | Firstsource TTM 33.1%; Sagility vol. 28.6% (Q1); eClerx offshore vol. 18.1%; Indegene 15.7%; Karnataka/Telangana minimum-wage hike ~120 bp for Sagility; eClerx Q1 wage hit 300–350 bp. No industry benchmark (CRISIL/ICRA search gave nothing BPM-specific) |
+| H9f 2026 pharma promo budgets | **Open** | Indegene deck gives a $55bn life-sciences marketing & sales ops TAM, not 2026 budgets |
+| H10a HIRE Act after Apr-2026 | **Open (no change found)** | Latest status found is Feb-2026 "stalled" |
+| H10b H-1B proclamation after 20-Sep-2026 | **Open** | Not searched separately (budget); BPM low-exposure |
+| H11 QualfonX | **Closed** | Not in Firstsource deck, transcript or AR acquisitions list → do not use |
+| §2.7 DSO | **Filled** | IKS 65 days (screener debtor days FY26); Sagility 80 days (Q1 deck); Firstsource normalised 67–69 days; Indegene 67 days net; eClerx 79 days |
+| §2.7 utilisation | **Partly** | eClerx 75.5% only |
+| §2.7 Q2 FY27 dates IKS / FSL / eClerx | **Open** | Not announced as of 21-Oct (searches). Last year: 30-Oct / 4-Nov / 24-Oct. LODR deadline 14-Nov-26 |
+| §2.7 Sagility Q2 / Indegene Q2 | Unchanged | Boards 22-Oct / 29-Oct (Part 1) |
+| eClerx Q1 FY27 transcript | **Open** | Not on screener's concall list; Q4 FY26 transcript used |
+
+## 4.5 New insights the first pass missed
+
+1. **The group's debt is not where Part 1 said.**
+   - Sagility is effectively **debt-free** (net debt 0.06× adj. EBITDA), and its only borrowing is a **promoter loan from Sagility B.V.** that will be repaid in FY27. Repaying the sponsor's loan is a quiet cash transfer to EQT on top of its share sales.
+   - Firstsource is the only member with **structural acquisition debt, mostly short-term** (₹2,016 Cr of short-term borrowings at Jun-26).
+   - IKS is the only one about to **lever up** (TruBridge, ~₹5,000+ Cr).
+   - Ex-IKS's new debt, the five are net cash ~₹1,400 Cr ex-leases.
+2. **IKS's client concentration is rising fast while the client count shrinks.**
+   - Top-10 share went from 43% to **54%** in a year, top-5 from 32% to **42%**; clients went 650+ → 600+.
+   - Land-and-expand inside big health systems (Advocate, a California IDN) is working, but IKS now looks more like Sagility (top-3 60%) than like a diversified RCM vendor.
+   - Add the **₹143 Cr upfront "economic value add" guarantee payment to a customer**: outcome-linked contracts now carry balance-sheet risk.
+3. **TruBridge is being bought on EBITDA, not revenue.** Management is deliberately shrinking it ($340m → ~$300m: exiting IT services and early-out lines; stricter revenue recognition) to keep the ~$68m EBITDA.
+   - Price ≈ **8× EBITDA**, vs IKS at ~26× EV/OP (FY26: EV ≈ ₹27,936 Cr ÷ OP ₹1,084 Cr).
+   - Bull case: margin arbitrage (22–23% → early/mid-30s).
+   - Bear case: rural-hospital exposure to OBBBA Medicaid cuts, and an EHR franchise that needs re-platforming.
+4. **The rupee tailwind is pre-sold through hedge books.**
+   - eClerx's FY27 book is at ₹91.16 (~4% below spot). Firstsource's is at ₹92.7/$ and ₹118–120/£. Firstsource's hedge reserve is **−₹345 Cr**, which will flow through revenue.
+   - So the gap between ₹ growth and CC growth overstates profit leverage in FY27. The tailwind arrives in **FY28** (eClerx's FY28 book is at ₹96.2).
+5. **US policy risk has moved from tax (HIRE Act, stalled) to telecom regulation (FCC NPRM).**
+   - The FCC's proposed **offshore call cap (illustrative 30%)** is the first concrete US rule that could force onshoring of BPM voice work.
+   - It is narrow (telecom/cable/VoIP/DBS), but it hits exactly the voice-CX segment that AI is already deflating.
+6. **Healthcare-payer softness has started at the edges.**
+   - Firstsource saw Medicare Advantage clients "recalibrate program scope" and lost a BPaaS payer ramp.
+   - Sagility says pricing moves "in the opposite direction".
+   - Yet Sagility still grew 15% CC with stable margins.
+   - **The 2.48% MA rate (vs 0.09% proposed) and CMS's exclusion of unlinked chart-review diagnoses** cut both ways: more plan revenue, but less risk-adjustment coding upside for payers (relevant to Sagility's and Firstsource's payer analytics).
+7. **Labour-cost shocks are now regulatory, not just market-driven.** Karnataka and Telangana minimum-wage hikes cost Sagility ~120 bp of FY27 margin, with 12–18 months to mitigate. Expect spread to other Bengaluru/Hyderabad-heavy BPMs.
+8. **Indegene's "no promoter" label hides a concentrated register.** Nadathur Fareast (21.9%), founders (~22%) and Brighton Park (8.7%) hold ~51%. Brighton Park is the next potential seller after Carlyle's exit; DII ownership jumped from 8.7% to 15.8% in the Sep-26 quarter.
+
+## 4.6 New primer issues (format as primer-issues.md)
+
+### From BPO & KPO deep-research pass (2026-10-21, bpo-kpo-industry.md Part 4)
+
+**primers/inventurus-knowledge-solutions.html**
+- **BSE code 544332 → 544309** (company filings, 5-Aug-26). Wrong in the primer header and the brief.
+- Headcount "~14,000" → **12,889 (Jun-26)**.
+- "900+ US clients" → **600+ healthcare organisations (Q1 FY27; 650+ a year earlier)**.
+- "~$334m revenue" → remove; quarterly $87m (Q1 FY26) / $95m (Q4) / $97m (Q1 FY27); FY26 ≈ $360m [E].
+- FY24 revenue bar "~₹2,050 Cr" → **₹1,818 Cr**.
+- P/E "~55×" → **36.6× TTM at ₹1,632 (21-Oct-26)**; P/B ~10×; ROCE 31.5%; ROE 31.4%.
+- TruBridge: add **~$68m EBITDA, revenue reset to ~$300m, EBITDA margin 22–23%, closed ~9/10-Jul-26, signing EV "up to $565m" → $557m**.
+- Add the **top-10 = 53.8%** concentration.
+- Add the **FY30 ≥₹3,000 Cr EBITDA "True North"**.
+
+**primers/sagility.html**
+- P/E "~56× reported / ~17× adjusted" → **20.2× TTM reported** (screener, ₹44.4); adjusted ~17× [E].
+- Net debt: state **₹196 Cr (Mar-26), ₹111 Cr (Jun-26)**. The only borrowing is a **promoter (Sagility B.V.) loan, repaid in FY27**.
+- Add goodwill ₹6,405 Cr and the 2027–32 amortisation schedule (₹157 Cr/yr carve-out) — the adjusted-vs-reported gap lasts to FY32.
+- Add the **Synergy Litigation** contingent (up to US$115.9m claim; HGS indemnity; US$45m bank guarantee).
+- Top-3 = **59.9%**; three customers >10% each.
+- Promoter 50.95%. DII is **22.6%** (not 3.9%).
+
+**primers/firstsource-solutions.html**
+- FY24 revenue "~₹6,974 Cr" → **₹6,336 Cr**.
+- Add **EBITDA ₹1,556 Cr (16.3%)** next to EBIT.
+- Update headcount 36,205 → **36,875**, attrition 29.7% → **33.1%**, >$1m clients 150 → **145**.
+- Add top-5/top-10 = **27.4% / 39.2%**, geography NA 66.4% / EMEA 31.7%, offshore+nearshore 43.5%.
+- Add the hedge book and **CF-hedge reserve −₹345 Cr**.
+- Note acquisition debt is mostly short-term.
+- Q1 FY27 exceptionals split: termination ₹35.7 Cr / regulatory-penalty indemnity ₹28.4 Cr / earn-out ₹7.6 Cr.
+- M-cap → **₹20,108 Cr (₹284)**.
+
+**primers/indegene.html**
+- Ownership: "promoter/founder group retains a significant stake" → **0% promoter**. Largest holders: Nadathur Fareast 21.88%, Manish Gupta 8.91%, Rajesh Nair 7.14%, **Brighton Park 8.73%**, Sanjay Parikh 4.98%; Carlyle exited.
+- Add acquisition values: **BioPharm ₹882 Cr (incl. ₹213 Cr earn-out), Warn ₹46 Cr, Cake ₹86 Cr**; goodwill ₹1,134 Cr.
+- Explain the EBITDA basis: company EBITDA includes other income.
+- Margin path: H2 FY27 back to 19–20%, normalisation by Q4 FY27.
+- Add the TCPA class action (₹20 Cr provision).
+- M-cap → **₹14,018 Cr (₹580)**; P/E 33.7×.
+
+**primers/eclerx-services.html**
+- Revenue basis: show **operating revenue ₹4,117 Cr** as the headline (₹4,217 Cr is total incl. other income).
+- Buyback: **6.25 lakh shares @ ₹4,800 = ₹300 Cr (settled 2-Jan-26)**, plus the earlier ₹385 Cr buyback (Aug-25). Total FY26 capital return ≈ ₹685 Cr + dividend.
+- Founders "~26.85% each" → PD Mundhra **16.64% direct** (AR); promoter group 54.53%. Re-check the per-founder split.
+- Add the **hedge book ($273.6m @ ₹93.41; FY27 @ ₹91.16)** and the **single largest client = 16.7% of revenue**.
+- Add the **FCC offshore call-centre NPRM** as a CMT risk.
+- Headcount: 22,499 total (22,376 is "delivery").
+- M-cap ₹16,550 Cr → **₹18,135 Cr (₹1,929)**; P/E ~22× → **24.9×**.
+
+**Library-wide**
+- Brief/registry: IKS BSE code should read **544309**.
+
+*End of Part 4. Scratch notes and raw extracts: /tmp/bpo-kpo-deep/ (notes.md; raw/ screener HTML and schedules; pdf/ decks; tr/ transcripts; ar/ annual reports).*
