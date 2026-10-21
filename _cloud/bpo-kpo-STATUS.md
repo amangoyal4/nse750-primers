@@ -1,4 +1,4 @@
-done 2026-10-21T17:52:49Z · branch claude/ss-bpo-kpo · report subsectors/bpo-kpo.html (unpublished; publish.mjs not run, no PR, nothing merged)
+claimed 2026-10-21T18:49:35Z, in progress (upgrade)
 
 # BPO & KPO — STATUS
 
