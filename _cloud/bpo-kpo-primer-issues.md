@@ -28,3 +28,10 @@ Logged by the cloud runner. Not fixed here (primers are out of scope for this br
 - **eclerx-services.html — omissions:** Q1 FY27 (total rev ₹1,170.2 Cr, +23.8%; $125.9m, +15.2%; EBITDA ₹283.1 Cr, 24.2%; PAT ₹164.3 Cr; heads 22,376, −0.6% QoQ — first sign of non-linearity; offshore attrition 18.1%; ACV $40–41m, +25%; run-rate >$500m); possible hedge losses in operating revenue (implied ₹91.5/$).
 - **General (all five):** none mentions the **HIRE Act** (stalled) or the **H-1B fee** (vacated); none uses the **NASSCOM FY26 BPM size ($59bn)** or the **GCC count (2,117; 2.36m people)**; the healthcare primers (IKS, Sagility) do not cite the **2027 MA rate notice** or the **OBBBA Medicaid timeline**; all m-caps are 1–3 months stale.
 
+
+## From primer-audit.mjs (2026-10-21) — pre-existing, not fixed
+- inventurus-knowledge-solutions.html — ❌ bars<10 (9), banned phrase present, USD in stat strip; no main{min-width:0} (phone overflow).
+- sagility.html — ❌ bars<10 (8), USD in stat strip; no main{min-width:0}.
+- firstsource-solutions.html — hard checks pass; no main{min-width:0}.
+- indegene.html — ❌ USD in stat strip; no main{min-width:0}.
+- eclerx-services.html — ❌ USD in stat strip; no main{min-width:0}.
