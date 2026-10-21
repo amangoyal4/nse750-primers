@@ -223,3 +223,8 @@
 - **Scratch notes and raw text:** `/tmp/gas-distribution-deep/notes.md`, `/tmp/gas-distribution-deep/dl/*.txt`.
 
 *End of Part 4.*
+
+## Primer-audit hard-check fails (2026-10-21, pre-existing; not fixed)
+- adani-total-gas.html: banned phrase(s); "honest" used more than once; no main{min-width:0}.
+- aegis-logistics.html: banned phrase(s); no main{min-width:0}.
+- petronet-lng.html, indraprastha-gas.html, mahanagar-gas.html: no main{min-width:0} (phone overflow risk).
