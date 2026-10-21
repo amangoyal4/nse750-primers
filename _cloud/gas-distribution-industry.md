@@ -1365,3 +1365,788 @@ FY25 21.1 · FY26 23.9 · Aug-26 28.5 (fertiliser 29.3, power 9.7, refinery 5.8,
 - Angel One / samco / The Week (2024–25 APM cuts); Energetica (allocation ratios); IANS (ATGL Q1 FY27); Aegis Q1 FY27 investor deck (6-Aug-2026).
 - HDFC Sky / Deccan Herald (CNG prices); ThePrint, wionews, outlookmoney, onmanorama (LPG).
 - Moneylife / MLex (OFAC/SEC); gktoday / swarajya (CBG); taxo.online (GST committee); zerodha / 5paisa (AVTL); Motilal Oswal (28-Sep-2026, Petronet).
+
+---
+
+# Part 4 — Deep-research supplement (21-Oct-2026)
+
+Second, primary-source pass, compiled 21-Oct-2026 for the writer. This part **overrides Parts 1–3 wherever the Supersedes table (4.0) says so**.
+
+**What was read this session.** Every item below was fetched and read on 21-Oct-2026. PDFs were extracted with pdftotext; scratch copies are in `/tmp/gas-distribution-deep/dl/`.
+- **Q1 FY27 earnings-call transcripts for all five members:**
+  - ATGL, call 22-Jul-2026, filed with BSE 28-Jul;
+  - MGL, 31-Jul-2026;
+  - Petronet, 13-Aug-2026, filed 19-Aug;
+  - Aegis, 14-Aug-2026;
+  - IGL, 14-Aug-2026, from iglonline.net.
+- **Investor presentations:** MGL Q1 FY27 (31-Jul-2026); Aegis Q1 FY27 (Aug-2026); and Aegis's **Corporate Presentation, October 2026**, filed with BSE for the Singapore investor meetings.
+- **FY26 annual reports for all five** (BSE AttachHis PDFs, 214–433 pages each). The sections read were MD&A, contingent liabilities, related-party and commitments notes, capacity, and auditor emphasis-of-matter paragraphs.
+- **Screener.in** consolidated pages for all five, plus MGL standalone (FY22–FY26 and the last 8 quarters).
+- **PPAC:** the Oct-2026 Snapshot (Sep-2026 data) and the Ready Reckoner FY2025-26.
+- **World Bank** CMO monthly prices (Oct-2026 Pink Sheet data).
+- **Other pages fetched:**
+  - CRISIL rating rationale for IRM Energy (17-Aug-2026), used for the sector view;
+  - All India Radio (Delhi CNG hike, 29-Aug-2026);
+  - DT Next (gas-order withdrawal, 5-Jul-2026);
+  - PSU Watch (PNGRB common-carrier withdrawal);
+  - Tank Terminals / Bloomberg (Qatar FM extension, 28-Sep-2026).
+
+**Tags in Part 4:**
+- **[V-pri]** = fetched this session from a primary source: a company filing, transcript, presentation or annual report, or PPAC, PNGRB, MoPNG or BSE.
+- **[V-scr]** = fetched this session from screener.in (an aggregator of filed numbers).
+- **[V-sec]** = fetched this session from a secondary news page.
+- **[V-snip]** = search-result summary only.
+- **[E]** = compiler arithmetic.
+- **[K]** = memory, not re-checked.
+
+**Q2 FY27 status (checked 21-Oct-2026, evening IST).** None of the five has published Q2 FY27. Screener's quarterly columns still end at Jun-2026 for all five [V-scr].
+- **ATGL's board meets 22-Oct-2026** (call 23-Oct). Its Q2 results were **not** out when this was written.
+- Aegis reports on 26-Oct and Petronet on 2-Nov. IGL and MGL have not announced dates (Part 2).
+
+## 4.0 Supersedes (corrections to Parts 1–3; old → new → source)
+
+| # | Item | Old value (Part, tag) | New value | Source (fetched 21-Oct-2026) |
+|---|---|---|---|---|
+| S1 | **CUGL volume, Q1 FY27** | "2.5 mmscmd (+8% QoQ)", flagged as implausible (P2 §2.4, V PL) | **0.36 mmscmd** (CNG 0.23→0.25, PNG 0.11→0.12; +6% YoY). PL's 2.5 is an error. MNGL is 2.19 (CNG 1.44 / PNG 0.75), confirmed | IGL Q1 FY27 call transcript, 14-Aug-2026 [V-pri] |
+| S2 | **MGL per-scm bridge** | Gross ₹14.7 − opex ₹5.8 ≠ EBITDA ₹7.9, "doesn't tie" (P1 §H-19; P2 §2.5, V PL) | Company slide: realisation **₹54.35**, gas cost **₹39.85**, gross margin **₹14.50**, EBITDA **₹7.91**/scm. **Implied opex (incl. other items) ₹6.59/scm** (Q4 FY26 ₹13.35 − ₹6.19 = ₹7.16; Q1 FY26 ₹18.82 − ₹12.35 = ₹6.47). PL's ₹5.8 is on a different basis. **Use ~₹6.6 opex** | MGL Investor Presentation Jul-2026, slide 11 [V-pri]; [E] arithmetic |
+| S3 | **MGL–Unison Enviro (UEPL) merger** | "Board approved Oct-2024; completion unverified"; "UEPL still slightly loss-making" explains cons. vs SA (P2 §2.5, §2.7) | **Merger complete.** The NCLT Mumbai sanctioned it on **9-Jul-2025**, with an appointed date of **1-Feb-2024**. FY25 comparatives are restated. UEPL is now part of standalone MGL. **The remaining cons.–SA gap** comes from small new-energy subsidiaries and JVs (LNG long-haul stations, International Battery Co., an EV-3W cargo start-up) [V-pri MGL call] | MGL FY26 AR (BSE) [V-pri]; MGL Q1 PPT footnote [V-pri] |
+| S4 | **MGL Q1 FY26 one-off** | "PL adjusts ~₹110 Cr; exact item n/s" (P2 §3.6) | The base includes a **"reversal of OMC trade margin provided earlier"**. The company does not state the amount in the PPT; PL's ~₹110 Cr adjustment remains the size estimate | MGL Q1 FY27 PPT slides 8/10/11 [V-pri] |
+| S5 | **Petronet's Qatar 2028+ contract** | "Renewal [K] vs PL 'discussions ongoing, closure in 1–2 qtrs' — not final" (P2 §2.2, §2.7) | **The SPA was signed on 6-Feb-2024:** ~7.5 mtpa for 20 years, **DES basis, 2028–2048**, with offtake GAIL 60% / IOC 30% / BPCL 10%, the same as the 1999 deal. What remains open is the **back-to-back GSPA terms with offtakers**, which management expects to close in **"2–3 quarters"**. The new price is "formula-driven incl. shipping" (undisclosed) | Petronet FY26 AR (Directors' Report, Note 37) [V-pri]; Q1 FY27 call [V-pri] |
+| S6 | **Petronet regas tariff** | Dahej ₹62.91 (2024) → ₹66.06 (2025) [V-snip Argus]; "implied blended ≈ ₹58/mmbtu, high-₹50s" (P2 §2.2, E) | **Dahej "around ₹69"/mmbtu and Kochi "around ₹98"/mmbtu** for the current quarter (management, 13-Aug-2026). Regas revenue of **₹1,214 Cr ≈ 176 TBTU of tolling volume × ₹69**, so regas revenue is booked on tolling volume only. Own-LNG sales carry their regas inside the sales margin. ₹69 ≈ ₹66.06 × 1.05, so **the ~5%/yr escalation is intact** [E] | Petronet Q1 FY27 call [V-pri] |
+| S7 | **Petronet "₹52.05 offer" and "−₹30 from 2028"** | Reported offer, unconfirmed (P1 trap 7, Force 5; V-snip Argus) | Management, 13-Aug-2026: **"the status quo is there. There is no discussion on tariff revision."** Treat the Argus numbers as **unconfirmed and contradicted** by the company. Print them only as "press reports, denied in effect by management" | Petronet Q1 FY27 call [V-pri] |
+| S8 | **Kochi tariff** | "~₹114.5/mmbtu long-term" (P1 trap 7, V-snip Argus) | **~₹98/mmbtu** (management, current quarter) | Petronet Q1 FY27 call [V-pri] |
+| S9 | **Petronet vessel-owner claim** | "~₹348 Cr, not provided for" (P2 §2.2, V-snip) | AR: owners of the three chartered vessels claimed **₹89.30 Cr to 31-Mar-2026**, "and have continued to do so". No provision (legal advice). Charters were **suspended under other clauses of the time-charter agreements, not under FM** (CFO, 13-Aug). The ₹348 Cr may be a later cumulative figure; it stays [V-snip] | Petronet FY26 AR Note 46 [V-pri]; Q1 call [V-pri] |
+| S10 | **Qatar FM start date** | "4-Mar vs Petronet-linked 28-Feb" conflict (P1 §H-2, §0.3) | **The war began 28-Feb-2026.** Petronet served FM on QatarEnergy on **2-Mar**, and on vessel owners and customers on **3-Mar**. **QatarEnergy invoked FM on 4-Mar.** Petronet served a further FM notice on customers on 5-Mar. **Loadings were disrupted from 3-Mar.** Use "FM from 4-Mar (QatarEnergy)"; "28-Feb" is the war start | Petronet FY26 AR [V-pri] |
+| S11 | **Stranded Qatar cargo** | "One stranded cargo delivered 19-Jun" (P2, V PL) | Confirmed. The cargo was carried at **₹258.53 Cr** as stock-in-transit on 31-Mar. It arrived at Dahej on **19-Jun-2026** as the "first Indian LNG carrier to transit the Strait of Hormuz following its reopening" | Petronet FY26 AR [V-pri] |
+| S12 | **Petchem progress vs spend** | "~40% physical; spend to date ₹470 Cr — odd" (P2 §2.2, §2.7) | **₹470–472 Cr is the Q1 FY27 petchem spend, not cumulative.** Physical progress is **~38.6% at end-Jul-2026**. Packages tendered total ₹15,548 Cr, of which **₹13,346 Cr is already committed**. Total cost ₹20,685 Cr (750 KTA PDH + 500 KTA PP). The ratio is no longer odd | Petronet FY26 AR [V-pri]; Q1 call [V-pri] |
+| S13 | **Petronet FY27 capex** | ₹9,060 Cr (P2, V PL) | **₹9,064 Cr budgeted; FY28 "similar"** | Q1 call [V-pri] |
+| S14 | **Petronet use-or-pay (UoP) receivable** | "₹630 Cr one-off in Q4 FY26" only (P1 trap 8) | **Received ₹630.04 Cr against CY2022 dues of ₹643.15 Cr.** UoP receivables at 31-Mar-2026: **₹719.84 Cr gross / ₹413.02 Cr net** after a ₹306.82 Cr provision. By year: CY22 ₹13.11 Cr, **CY23 ₹540.50 Cr**, CY24 ₹117.27 Cr, CY25 ₹48.96 Cr. **₹120.64 Cr waived** against make-up cargoes. CY2024 recovery mechanism approved 9-Apr-2026. **The auditor flags this as an Emphasis of Matter** | Petronet FY26 AR (auditor's report; Note 14) [V-pri] |
+| S15 | **Aegis LPG static capacity** | ~226,000 t (primer, P2); "~2.0 lakh MT" (P1 Force 6) | **~245,800 MT existing at 30-Jun-2026**: Kandla 48k, Pipavav c.71k (70,800), Mumbai 20–21k, Mangaluru 82k, Haldia 25k. **Upcoming:** 129k MT LPG at JNPT plus 36k MT ammonia at Pipavav (now commissioned). Throughput capacity is **19.6 mt**; static turns **79×** in FY26 | Aegis Corporate Presentation Oct-2026, slides 6/9/11 [V-pri]; Q1 call [V-pri] |
+| S16 | **Aegis liquids capacity** | "Total KL not sourced" (P2 §2.3, §3.6); "~1.7 mn cbm" (P1 Force 6, V-snip) | **2,008k KL existing**: Kandla 952k, Mumbai 334k, Haldia 227k, Mangaluru 193k, Pipavav 117k, JNPT 102k, Kochi 83k. **526k KL upcoming**: JNPT 318k, Kandla 94k, Mumbai 64k, Kochi 50k. So **c.2.5 mn KL incl. upcoming** | Aegis Oct-2026 deck [V-pri] |
+| S17 | **Purpose of the Aegis ₹6,000 Cr raise and the CARE "watch – developing"** | "Not disclosed; do not speculate" (P2 §2.3, §2.7) | **Tristar acquisition.** Aegis, via step-down subsidiary Aegis Logistics International Pte Ltd, signed a **definitive agreement to buy c.89.8% of Tristar Holdings Ltd** from Agility Tristar Holdings, Gulf Investment Corporation and Diamond Holdings, for an **equity consideration of US$809 mn** (incl. contingent and deferred-interest components; ≈ ₹7,680 Cr at ₹94.9 [E]). It needs antitrust approvals and is **expected to complete in Q4 FY27**. Aug-2026's "no definitive agreement" has been overtaken | Aegis Corporate Presentation Oct-2026, slide 29 [V-pri] |
+| S18 | **Pipavav ammonia terminal** | "Commissioning not confirmed" (P2) | **Commissioned 10-Aug-2026**, 36,000 MT static. A 15-yr take-or-pay with **Hindustan Zinc** (DAP plant) covers part of the capacity. **ITOCHU holds 10%** of Aegis Terminal Pipavav Ltd and intends to go to 25% within 3 years | Aegis Oct-2026 deck [V-pri]; Q1 call [V-pri] |
+| S19 | **Aegis net cash FY26** | ₹1,790 Cr (screener basis, P2) | Company figure: **net cash ₹3,523 Cr**; "liquidity reserves" **₹5,940 Cr** (incl. investments). Screener's basis nets all borrowings incl. leases. **State which basis** | Aegis Oct-2026 deck slide 24 [V-pri] |
+| S20 | **ATGL CNG stations at Mar-26** | "702 implied by 707 after +5" vs primer 705 (P2 §2.7) | **AR: 705 at 31-Mar-2026.** The Q1 call says "added 5… total 707". Treat as a **net +2** (likely closures or reclassification). Use 705 for Mar-26 and 707 for Jun-26 | ATGL FY26 AR; ATGL Q1 call [V-pri] |
+| S21 | **ATGL FY27 capex** | "n/s" (P2 §3.6) | **FY26 capex ₹903 Cr** (AR). For FY27 the CEO said "slightly higher budget compared to last year". No number was given | ATGL FY26 AR; Q1 call [V-pri] |
+| S22 | **ATGL sourcing** | "APM for CNG ~30%" (P2, V company release) | Management, portfolio basis: **APM + NWG ≈ 40%; domestic ≈ 62% / R-LNG ≈ 38%** (HH- plus Brent-linked); **long-term contracts 48%; spot ≈ 15% "after the curtailment"**. The 30% figure is APM's share of the CNG requirement, a different denominator (trap 4) | ATGL Q1 call [V-pri] |
+| S23 | **NWG price** | "12% of ICB [V PTI 2025] vs '$7.70 for Oct-2026' — unverified" (P1 §H-4) | **ATGL's gas-sourcing head, 22-Jul-2026: NWG "is 12% of the Indian crude basket"**, "significantly more than $5" above APM-type levels in Q1. **At the Sep-2026 ICB ($116.09) this is ≈ $13.9/mmbtu** [E]. **Drop the $7.70 figure** | ATGL Q1 call [V-pri]; PPAC snapshot (ICB) [V-pri] |
+| S24 | **IGL Q1 FY27 volume** | 9.7 mmscmd (P2, V PL) | **9.66 mmscmd vs 9.13** (+5.8%). CNG **5.31 mn kg/day**; record day **58 lakh kg** | IGL Q1 call [V-pri] |
+| S25 | **IGL CNG stations** | Primer 1,024 vs screener text 819 (P2 §2.7) | **1,024 at 31-Mar-2026** (70 added in FY26). FY26 capex **₹1,120 Cr**; >3.7 lakh new homes connected; 12 GAs, 32 districts, 4 states | IGL FY26 AR [V-pri] |
+| S26 | **IGL FY27 capex split** | ₹1,800–2,000 Cr = core ₹1,200–1,500 + diversification ₹500–600 (P2, V PL) | Same total, but **core is "₹1,200–1,300 Cr, maybe maximum ₹1,500 Cr"**. Q1 FY27 capex **₹327 Cr** (PL ₹330) | IGL Q1 call [V-pri] |
+| S27 | **IGL Jun-26 ownership swing** | "FII 17.1% → 9.7%, DII → 30.1%, unexplained" (P2 §2.4) | Aggregator data: **mutual funds +6.87 pp to 16.33%**; insurers flat (13.36%); FII holders fell from 256 to 229. It was **an FII-to-MF transfer** (pattern consistent with block deals). The trigger is still unsourced | marketsmojo (Jun-26 snapshot) [V-snip] |
+| S28 | **MGL FY27 capex** | "Raised to ₹1,800 Cr from ₹1,200 Cr" (P2, V PL) | CFO: "an increase of almost **₹1,500–1,800 Cr**, subject to manpower"; "ready to spend almost ₹1,800 Cr". Q1 ₹350 Cr. Debt possible; DPS ₹30 to be maintained | MGL Q1 call [V-pri] |
+| S29 | **MGL FY26 EBITDA/scm** | ₹8.3 (primer) / ₹8.66 (E) | **₹8.67/scm** (company); EBITDA ₹1,451.07 Cr; gross revenue ₹9,059.77 Cr | MGL FY26 AR [V-pri] |
+| S30 | **MGL PNG-D base** | "2.2 mn active vs 3.24 mn connected — state which" | **32,41,195 connections** (Jun-26); **2.17 mn "burning" conversions**. Management: "~3.3 mn connected, ~2.3 mn consuming", addressable 3.8–4.0 mn | MGL Q1 PPT; Q1 call [V-pri] |
+| S31 | **Qatar FM status** | Latest firm item: FM for Aug-2026 (Reuters 13-Aug) | **Extended to end-Nov-2026** for Asian and European buyers incl. at least one Indian buyer (Bloomberg via Tank Terminals, 28-Sep-2026). **Qatar has exported 18 cargoes this year vs 509 a year earlier (−96%)**. A Pakistani report of 21-Oct says FM runs to 6-Nov for Pakistan | Tank Terminals [V-sec]; The Nation 21-Oct [V-snip] |
+| S32 | **Hormuz was not closed continuously** | P1 implies an unbroken disruption since March | **A ceasefire reopened Hormuz around late Jun / early Jul-2026.** MoPNG amended the Natural Gas (Supply Regulation) Order on **~4-Jul-2026** (a Saturday), withdrawing most provisions and ending pooled gas from the 2nd week of July. **The conflict re-escalated "7–8 days later"**, and Hormuz flows were hit again. HH-linked volumes (MGL's ~1.5 mmscmd GAIL contract) remained short. IGL's 29-Aug CNG hike cited "the re-escalation of the West Asia crisis" | MGL Q1 call [V-pri]; ATGL Q1 call [V-pri]; DT Next 5-Jul [V-sec]; AIR 29-Aug [V-sec] |
+| S33 | **FY26 LPG import value** | "~$11.3 bn, read from a dense row — spot-check" (P1 §H-20) | **21.3 MMT, $11.3 bn, ₹99,149 Cr** (FY25: 20.7 MMT, $12.5 bn, ₹1,05,679 Cr). Cross-check: 21.3 mt × FY26 CP-type average $532.47/t ≈ $11.3 bn [E] | PPAC Ready Reckoner FY26 (imports table); PPAC snapshot (LPG $/MT) [V-pri] |
+| S34 | **Adani OFAC/SEC** | "OFAC $275m (18-May-2026) and SEC $18m [V-snip]" in the ATGL governance context | The **OFAC $275 m settlement was by Adani Enterprises** over Iran-origin LPG bought via a Dubai trader (Nov-2023 to Jun-2025; 32 USD payments ≈ $192.1 m; announced 18-May-2026; statutory maximum $384.2 m). **The SEC $18 m civil settlement was by Gautam and Sagar Adani personally** (Adani Green-linked bond disclosures). **ATGL is party to neither.** The DOJ moved to drop the case in May; the court dismissed it in Aug | Claims Journal / Moneylife / IANS [V-snip] |
+| S35 | **Delhi CNG path** | ₹77.09 (Jan) → ₹83.09 (26-May) → +₹3.89 on 29-Aug [V-snip] | **+₹3.89 to ₹86.98 on 29-Aug-2026 confirmed**; Gurugram ₹92.1, Noida/Ghaziabad ₹95.59 [V-sec AIR]. The ₹77.09 → ₹83.09 steps remain [V-snip] | newsonair.gov.in 29-Aug-2026 [V-sec] |
+| S36 | **Commercial 19-kg LPG path** | ₹1,691.50 (Jan) → ₹3,113.50 (Jun) [V-snip] | Adds **₹2,930 (1-Jul, −₹183.50)** and **₹2,810 (1-Oct, +₹62.50; the second monthly rise)** | Business Today 1-Jul; Goodreturns 1-Oct [V-snip] |
+| S37 | **Petronet's offtaker contract mix** | Qatar 7.5 mtpa base only (P2) | Long-term book: Qatar 7.5 mtpa (FOB to Apr-2028); **MARC/Exxon Australia 1.425 mtpa to 2035 (Kochi)**; **ExxonMobil Asia Pacific ~1.2 mtpa, 15-yr SPA, supplies began Apr-2026**. Both Exxon contracts go to BPCL 40 / IOC 30 / GAIL 30. **Deepak Fertilisers 0.5 mtpa tolling at Dahej started May-2026** (2 cargoes by mid-Aug) | Petronet FY26 AR; Q1 call [V-pri] |
+| S38 | **ATGL contingent exposure** | Not in Parts 1–3 | **₹3,472.15 Cr corporate guarantee** for performance bank guarantees to PNGRB for the IOAGPL JV's authorisations. Also a **₹103.63 Cr gas-supplier claim** (FY14–FY22) alleging that allocated domestic gas was used for non-specified purposes (refuted), and a NOIDA Authority licence-fee demand of ₹150 Cr | ATGL FY26 AR Note 43 [V-pri] |
+| S39 | **IGL contingent exposure** | Not in Parts 1–3 | **DDA licence-fee demand of ₹330.73 Cr** (to Mar-2016, ex-interest). Delhi HC disposed of it on 11-Mar-2026, relegating it to the **AMRCD** dispute mechanism. **Auditor's Emphasis of Matter**; a second EoM covers the New Labour Codes | IGL FY26 AR [V-pri] |
+| S40 | **Exclusivity / common carrier** | "Marketing exclusivity lapsed; open access legally possible" (P1 trap 11) | PNGRB **withdrew (order 27-May-2024) its Sep-2021 notice proposing to declare 54 CGD networks, incl. IGL-Delhi and MGL-Mumbai, common/contract carriers**. Infrastructure exclusivity for Delhi and Mumbai "expired in 2012" per the report. The proposal could be revived. Also, IGL still litigates Gurugram but has **conditionally accepted** part-area authorisation; molecules in the disputed part still flow via IGL in bulk | PSU Watch 3-Jun-2024 [V-sec]; IGL Q1 call [V-pri] |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Agrees?" compares the value with Parts 1–3. Of the 40 figures, **38 are [V-pri]** (fetched this session from a filing, transcript, presentation, AR, PPAC or PNGRB data). One (#15) is from the World Bank, an international-institution primary series, and one (#40) is [V-sec]. Row 13 has a secondary source as well (AIR, for the hike date). The weaker items are listed below the table.
+
+| # | Figure | Value | Primary source (fetched 21-Oct-2026) | Tag | Agrees with P1–3? |
+|---|---|---|---|---|---|
+| 1 | APM gas price, Oct-2026 (formula / ceiling) | $11.22 / **$7.00** per mmbtu | PPAC Snapshot Oct-2026, Table 23 | V-pri | Yes |
+| 2 | APM formula peak | **$11.59 (May-2026)**; Jul $8.73, Aug $7.86, Sep $9.00 | PPAC Snapshot Table 23 | V-pri | Yes; Jul–Sep path new |
+| 3 | HPHT ceiling | **$9.89** (Oct-26 to Mar-27); $8.90 (Apr–Sep-26) | PPAC Snapshot Table 23 | V-pri | Yes |
+| 4 | Brent, Sep-2026 | **$116.77/bbl** (PPAC); $116.8 (World Bank) | PPAC Snapshot; WB CMO monthly | V-pri ×2 | Yes |
+| 5 | India LNG imports FY26 | **34,427 mmscm; $13.4 bn** (FY25 35,720; $14.9 bn) | PPAC Snapshot Table 2 | V-pri | Volume yes; value new |
+| 6 | LNG imports Apr–Sep 2026 | **18,189 mmscm, $8.5 bn** vs 17,414 / $6.9 bn | PPAC Snapshot Table 2 | V-pri | Yes |
+| 7 | LPG imports FY26 | **21.3 MMT, $11.3 bn, ₹99,149 Cr** | PPAC Ready Reckoner FY26 | V-pri | Yes (closes §H-20) |
+| 8 | LPG consumption Apr–Sep 2026 | **13.7 mt vs 16.2 (−15.5%)**; production 7.9 vs 6.3 | PPAC Snapshot Tables 11/15 | V-pri | Yes |
+| 9 | Bulk LPG Apr–Sep 2026 | **186.9 vs 488.8 TMT (−61.8%)**; auto-LPG +34.2% | PPAC Snapshot Table 15 | V-pri | Yes |
+| 10 | Active domestic LPG customers | **3,267 lakh (1-Oct-2026)** vs 3,339 (1-Apr) | PPAC Snapshot Table 16 | V-pri | Yes |
+| 11 | CNG stations, India | **9,158 (31-Aug-2026)** | PPAC Snapshot Table 22 (PNGRB) | V-pri | Yes |
+| 12 | PNG-D connections, India | **1,76,89,278**; commercial 56,378; industrial 22,964 | PPAC Snapshot Table 22 (PNGRB) | V-pri | Yes |
+| 13 | Delhi / Mumbai CNG | **₹86.98 / ₹89.00 per kg** (PNG ₹50.59 / ₹53.00 per scm) | PPAC Snapshot Table 24; AIR 29-Aug (hike date) | V-pri + V-sec | Yes |
+| 14 | IGX GIXI, Sep-2026 | **₹2,712 = $28.4/mmbtu; 456 mmscm** | PPAC Snapshot Table 24 | V-pri | Yes |
+| 15 | Global benchmarks, Sep-2026 | **TTF $25.42; HH $2.95; Japan LNG import $14.25** per mmbtu | World Bank CMO monthly (Oct-2026) | V-pri (IFI) | New (closes part of §H-1) |
+| 16 | Delhi petrol / diesel | **₹102.12 / ₹95.20** (1-Oct-2026) | PPAC Snapshot Table 25 | V-pri | Yes |
+| 17 | Petronet Q1 FY27 SA PBT / PAT | **₹1,514 Cr / ₹1,133 Cr** (+33%); cons. PAT ₹1,137 Cr | Petronet Q1 call | V-pri | Yes |
+| 18 | Utilisation, Q1 FY27 | **Dahej 65.6% (22.5 mtpa); Kochi 23.27%; company 58%** (vs 76%) | Petronet Q1 call | V-pri | Yes |
+| 19 | Petronet Q1 one-offs | **Trading gain ₹301 Cr; inventory gain ₹193 Cr** | Petronet Q1 call | V-pri | Yes (PL ₹300/₹190) |
+| 20 | Regas tariff | **Dahej ~₹69; Kochi ~₹98 per mmbtu**; regas revenue ₹1,214 Cr | Petronet Q1 call | V-pri | **No**, see S6/S8 |
+| 21 | Petronet capex | **FY27 ₹9,064 Cr; FY28 similar** | Petronet Q1 call | V-pri | ≈ Yes |
+| 22 | Petchem project | **₹20,685 Cr; 38.6% progress (end-Jul-26); ₹13,346 Cr committed** | Petronet FY26 AR | V-pri | Refines (S12) |
+| 23 | Qatar contract | **7.5 mtpa FOB to Apr-2028; new SPA 7.5 mtpa DES 2028–2048, signed 6-Feb-2024** | Petronet FY26 AR | V-pri | Resolves conflict (S5) |
+| 24 | UoP settlement | **₹630.04 Cr received** (CY22); receivable ₹719.84 Cr gross / ₹413.02 Cr net | Petronet FY26 AR | V-pri | Yes + new |
+| 25 | Vessel-owner claims | **₹89.30 Cr to 31-Mar-2026**, continuing, unprovided | Petronet FY26 AR | V-pri | **No** (₹348 Cr, S9) |
+| 26 | ATGL Q1 FY27 volume | **303 mmscm (+13%)**: CNG +18%, PNG +4%; incl. JV 496 | ATGL Q1 call; Adani release (P2) | V-pri | Yes (upgrades IANS V-snip) |
+| 27 | ATGL network, Jun-26 | **707 CNG stations SA / 1,167 incl. JV; 11.41 lakh PNG-D; 53 GAs** | ATGL Q1 call | V-pri | Yes |
+| 28 | ATGL FY26 capex / net worth | **₹903 Cr / ₹4,824 Cr**; cash ₹800 Cr | ATGL FY26 AR | V-pri | New |
+| 29 | IOAGPL (JV) FY26 | **681 mmscm (+26.1%); 464 CNG stations; 2.16 lakh PNG homes; 19 GAs** | ATGL FY26 AR | V-pri | New |
+| 30 | NWG pricing | **12% of the Indian crude basket** | ATGL Q1 call | V-pri | Resolves §H-4 |
+| 31 | IGL Q1 FY27 volume | **9.66 mmscmd** (vs 9.13); CNG 5.31 mn kg/day | IGL Q1 call | V-pri | ≈ Yes (9.7) |
+| 32 | IGL sourcing Q1 FY27 | **Domestic 48% (APM ~2.6, NWG 1.26, HPHT 0.6–0.7 mmscmd); imported 52% (LT 3.9–4.0, pooled 0.6–0.7, spot ~3% at $17–22)** | IGL Q1 call | V-pri | Yes + detail |
+| 33 | IGL CNG by vehicle | **Cars 48–50%, CVs 19%, taxis 14%, buses 12%, 3W 7–8%** | IGL Q1 call | V-pri | Yes |
+| 34 | IGL network / capex FY26 | **1,024 CNG stations; capex ₹1,120 Cr** | IGL FY26 AR | V-pri | Yes |
+| 35 | MGL Q1 FY27 per-scm | **₹54.35 / ₹39.85 / ₹14.50 / ₹7.91** (realisation / gas cost / GM / EBITDA); volume 4.766 mmscmd | MGL Q1 PPT | V-pri | Yes; opex corrected (S2) |
+| 36 | MGL FY26 | **EBITDA ₹1,451.07 Cr, ₹8.67/scm; volume 4.59 mmscmd (+8.25%)** | MGL FY26 AR | V-pri | Yes (S29) |
+| 37 | Aegis Q1 FY27 | **Normalised EBITDA ₹727 Cr (gas ₹591 / liquids ₹136); PAT ₹545 Cr; EPS ₹13.80** | Aegis Q1 PPT | V-pri | Yes (upgrades V-snip) |
+| 38 | Aegis Q1 FY27 LPG volumes | **Logistics 1,124 kt (−3%); distribution 277 kt (+91%); sourcing 121 kt (+1%)** | Aegis Q1 PPT; call | V-pri | Yes (closes §H-6 volumes) |
+| 39 | Aegis Tristar deal | **c.89.8% of Tristar Holdings for US$809 mn equity; completion Q4 FY27** | Aegis Corporate Presentation Oct-2026 | V-pri | New (S17) |
+| 40 | Qatar FM horizon | **Extended to end-Nov-2026; Qatar 18 cargoes YTD vs 509** | Tank Terminals/Bloomberg 28-Sep-2026 | V-sec | New (S31) |
+
+**Not upgraded this session (still [V-snip] or [E]):**
+- JKM spot levels (only "~$21" mid-Aug). The World Bank Japan series is a contract-heavy import average, not JKM.
+- Commercial LPG ₹2,810 (1-Oct).
+- The Delhi CNG ₹77.09 → ₹83.09 steps.
+- The national CNG passenger-vehicle sales share of 21.98% for FY26, which is FADA via a news page.
+- MWP 2034 targets.
+
+**Credibility rules where sources conflict:**
+- The company transcript or AR beats a broker note: CUGL volume, MGL opex, tariffs.
+- PPAC beats news.
+- For the regas tariff, a management statement on the call (₹69/₹98) beats Argus (₹66.06 / ₹114.5 / ₹52.05). Argus is secondary, and its figures predate the expansion.
+
+## 4.2 Company deep-dives (primary documents)
+
+### 4.2.1 Adani Total Gas (ATGL · 542066)
+
+**Management-guidance digest** (Q1 FY27 call, 22-Jul-2026: CEO Sanjay Pandita, interim CFO Preyash Jhaveri, gas-sourcing head Ravindra Desai; transcript filed with BSE 28-Jul-2026) [V-pri]:
+- **Why margins fell from ~25% to ~15%.** The CEO named two causes: buying gas at market-driven prices, and an APM allocation "slowly going down". Sourcing said margins should return "to the last level or better" once the Middle East crisis ends, as US and Qatari supply returns.
+- **Sourcing mix (portfolio basis).**
+  - Domestic about 62% and imported R-LNG about 38% (Henry Hub- and Brent-linked).
+  - Within that, APM + NWG is about 40% and long-term contracts about 48%.
+  - **Spot is ~15% of consumption "after the curtailment".** Spot is the swing cost.
+  - NWG is priced at **12% of the Indian crude basket**, with no ceiling mentioned. Brent above $107 in the crisis lifted NWG cost.
+- **Pooled-gas withdrawal.** Pooled gas was the crisis allocation. Its withdrawal "after the peace deal" was a "sudden decision by the government". ATGL and the industry are lobbying for its return, and management expects "positive news" if tensions persist. Mitigation is mid-term contracts now and long-term contracts once the market stabilises.
+- **Volume and pricing.**
+  - Volume growth will "continue in a similar manner" (about 13%); the challenge is the spot gap.
+  - There is room on the CNG–petrol arbitrage, but pricing is calibrated GA by GA, given competing CGD areas.
+  - LCV, PV and taxi CNG demand is growing at double digits, and CNG vehicle numbers about 30%.
+- **PNG-D drive.**
+  - At least the current rate (~38k a quarter) will be held.
+  - Shortages of skilled plumbers are being met through ITI and diploma tie-ups.
+  - "Deemed approval" rules help, and 90–99% of districts are cooperative.
+  - Conversion of LPG reticulated systems is being explored.
+  - A domestic customer uses about 0.38–0.40 scmd.
+- **Capex.** "Slightly higher budget compared to last year"; no number given. FY26 capex was ₹903 Cr [V-pri AR].
+- **E-mobility.** 5,306 charge points (58 MW); units sold +100% YoY; target 10,000 points.
+
+**Concall KPI table (ATGL standalone unless noted)** [V-pri call; P2 release]
+
+| KPI | Q1 FY27 | Q1 FY26 | Q4 FY26 | Note |
+|---|---|---|---|---|
+| Gas sales volume (mmscm) | **303** | 267 [E from +13%] | — | CNG +18%, PNG +4% |
+| Incl. IOAGPL JV (mmscm) | 496 | — | — | release |
+| Revenue (gross, ₹ Cr) | 1,908–1,910 | 1,500 | — | +27% |
+| EBITDA (₹ Cr) | **281** | 301 | — | −7% |
+| EBITDA/scm (₹) [E] | 9.3 | 11.3 | ~10.5 | — |
+| CNG stations | 707 SA / 1,167 incl. JV | — | 705 (AR) | — |
+| Domestic PNG (lakh) | 11.41 SA / 13.74 incl. JV | — | 10.99 (AR) | +38k in Q1 |
+| I&C customers | 10,422 SA / 12,326 incl. JV | — | 9,965 (AR) | commercial +392, industrial +56 |
+| Steel pipeline (inch-km) | 15,987 SA / ~28,600 incl. JV | — | 15,572 (AR) | — |
+| Domestic : imported gas | 62 : 38 | — | — | APM+NWG ~40%; spot ~15% |
+| EV charge points | 5,306 (58 MW) | — | — | target 10,000 |
+
+**5-year history (consolidated; ₹ Cr)** [V-scr, fetched 21-Oct-2026]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales (net of excise) | 3,038 | 4,378 | 4,475 | 5,000 | 5,894 |
+| Operating profit | 773 | 870 | 1,104 | 1,137 | 1,195 |
+| OPM % | 25% | 20% | 25% | 23% | 20% |
+| Net profit | 509 | 546 | 668 | 654 | 656 |
+| EPS ₹ | 4.63 | 4.97 | 6.07 | 5.95 | 5.96 |
+| ROCE % | 25% | 21% | 21% | 17% | 15% |
+
+**8-quarter trend (consolidated; ₹ Cr)** [V-scr]
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 1,219 | 1,294 | 1,341 | 1,379 | 1,451 | 1,507 | 1,557 | 1,754 |
+| Operating profit | 306 | 265 | 266 | 293 | 295 | 305 | 301 | 270 |
+| OPM % | 25% | 20% | 20% | 21% | 20% | 20% | 19% | 15% |
+| Net profit | 186 | 142 | 155 | 165 | 163 | 159 | 168 | 142 |
+
+**Annual-report findings (FY26 Integrated AR, BSE 29-May-2026)** [V-pri]:
+- **Scale at Mar-26:**
+  - 705 CNG stations (CODO/DODO models: 140);
+  - 10.99 lakh PNG-D (+1.37 lakh in FY26); 9,965 I&C customers;
+  - 15,572 inch-km of steel and 8,306 km of MDPE;
+  - 9 new city gate stations (CGS) and 1 new LCNG station in FY26;
+  - CBG 1,654 MT sold; organic fertiliser 4,575 MT.
+  - Net worth ₹4,824 Cr; cash ₹800 Cr; capex ₹903 Cr.
+- **IOAGPL JV (50:50 with IOC).**
+  - FY26 volume **681 mmscm (+26.1%)**; 19 GAs across 10 states and 3 UTs.
+  - 2.16 lakh PNG homes; 544 industrial and 1,020 commercial customers; 464 CNG stations.
+  - Funding: rated AA- by CARE and CRISIL; a ₹1,400 Cr compulsorily convertible debenture (CCD) issue; ~₹3,100 Cr of new debt tied up.
+  - **ATGL + JV FY26 volume ≈ 1,814 mmscm ≈ 4.97 mmscmd** [E]. The JV is growing about twice as fast as standalone ATGL.
+  - Smart Meters Technologies (JV with GSEC): capacity 7.2 lakh meters a year; 1.83 lakh sold in FY26.
+- **Contingent liabilities (Note 43):**
+  - A **₹3,472.15 Cr corporate guarantee** backs the performance bank guarantees to PNGRB for the JV's authorisations. It is unchanged YoY, and is **~71% of ATGL's net worth** [E]. If the JV misses minimum work programme (MWP) targets, the guarantee could be invoked.
+  - **Gas suppliers' claim of ₹103.63 Cr** (FY14–FY22) alleging that allocated domestic gas was used for non-specified purposes. ATGL refutes it as a data error. It matters because the APM-diversion test will tighten as allocation shrinks.
+  - NOIDA Authority licence-fee demand ₹150 Cr (revised Apr-2023); HSVP ₹39.18 Cr (₹25.58 Cr paid); indirect taxes ₹27.49 Cr; property tax ₹15.57 Cr.
+  - Management "not expecting any future cash outflow".
+- **Related parties.** TotalEnergies Gas & Power Projects India and Adani group entities appear in the related-party note at small values. No material gas-purchase or royalty flows were found in the lines read; a full RPT scan was not done [V-pri partial].
+- **Risks named:** APM reduction; spot exposure; permissions and RoW; competition at GA borders.
+
+### 4.2.2 Petronet LNG (PETRONET · 532522)
+
+**Management-guidance digest** (Q1 FY27 call, 13-Aug-2026: Director Finance Saurav Mitra and team; transcript filed 19-Aug-2026) [V-pri]:
+- **Mix shift persists.** Third-party tolling is replacing Qatari term volume, and the pattern "continues" into Q2.
+  - **More than two-thirds of the missing Gulf volume is being brought in by offtakers** under tolling contracts.
+  - April was weak; May–June improved, and the run-rate stayed at May–June levels.
+  - Utilisation "should be better slightly".
+- **How the trading gain works.**
+  - Q1 had ₹301 Cr of trading gains and ₹193 Cr of inventory gains. They arise when spot trades far above term prices and throughput drops.
+  - Only **~6 TBTU** of spot trading generated the gain.
+  - Management calls this an "established business model" seen after COVID and in 2022. **It is not tied to spare Qatari capacity.**
+- **Qatar.**
+  - QatarEnergy declares FM monthly, about a week before month-end. At the call it ran to end-August.
+  - Qatar is ramping production (Bloomberg, 12-Aug). Petronet will lift FOB as soon as Hormuz opens.
+  - Petronet does not buy replacement cargoes itself because of the tax inefficiency of buy-and-resell. Offtakers import directly.
+- **UoP mechanics.** Offtakers' extra tolling cargoes first satisfy the current-year commitment; any excess then retires past UoP dues. GAIL had no UoP. The Qatar SPA itself is take-or-pay, not use-or-pay.
+- **Tariffs.** Dahej ~₹69 and Kochi ~₹98 per mmbtu. **"No discussion on tariff revision."** Offtaker terms for the 2028 Qatar volumes should close in 2–3 quarters.
+- **New contracts.**
+  - Deepak Fertilisers (0.5 mtpa at Dahej) began in May-2026, 2 cargoes so far.
+  - ExxonMobil's Kochi volumes have started.
+  - The new Qatar SPA is DES and formula-priced including shipping. Most time charters end with the old SPA, except one vessel.
+- **Capex and petchem.**
+  - FY27 capex ₹9,064 Cr; FY28 similar.
+  - Petchem: ~40% physical progress, on schedule; Q1 spend ₹472 Cr; propane supply contract in 2027 (Middle East and US); ethane-handling (600 ktpa) and Deepak Phenolics contracts signed.
+  - Equity IRR not disclosed (2023 guide: 30%); 25-year plant life.
+- **Kochi–Bengaluru pipeline:** mechanical completion "by end of this quarter" (Sep-2026); not re-verified after the call.
+- **Ind AS 116 effects in Q1:** gross margin +₹14 Cr; forex −₹5 Cr; other expenses +₹8 Cr; depreciation ₹66 Cr; finance cost ₹48 Cr.
+
+**Concall KPI table** [V-pri call; P2 PL for the regas/sales split]
+
+| KPI | Q1 FY27 | Q4 FY26 | Q1 FY26 |
+|---|---|---|---|
+| Dahej throughput (TBTU) | **192** | 201 | 207 |
+| Company throughput (TBTU) | **207** | 219 | 220 |
+| Dahej utilisation | **65.6%** (22.5 mtpa) | 90% (17.5) | 92% (17.5) |
+| Kochi utilisation | **23.27%** | ~20% | — |
+| Company utilisation | **58%** | 76% | 76% |
+| Regas revenue (₹ Cr) | **1,214** | — | — |
+| Tolling / sales volume (TBTU) | 176 / 31 (PL) | 127 / 92 | 102 / 118 |
+| Trading / inventory gain (₹ Cr) | **301 / 193** | — | — |
+| SA PBT / PAT (₹ Cr) | **1,514 / 1,133** | — / 1,338 | 1,136 / 851 |
+| Tariff Dahej / Kochi (₹/mmbtu) | **~69 / ~98** | — | — |
+
+**5-year history (consolidated; ₹ Cr)** [V-scr]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales | 43,169 | 59,899 | 52,729 | 50,982 | 43,495 |
+| Operating profit | 5,250 | 4,854 | 5,209 | 5,525 | 5,338 |
+| OPM % | 12% | 8% | 10% | 11% | 12% |
+| Net profit | 3,438 | 3,326 | 3,652 | 3,973 | 3,913 |
+| EPS ₹ | 22.92 | 22.17 | 24.35 | 26.48 | 26.08 |
+| ROCE % | 30% | 26% | 26% | 25% | 23% |
+
+**8-quarter trend (consolidated; ₹ Cr)** [V-scr]
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 13,024 | 12,227 | 12,316 | 11,880 | 11,009 | 11,164 | 9,442 | 5,558 |
+| Operating profit | 1,202 | 1,247 | 1,512 | 1,159 | 1,117 | 1,198 | 1,861 | 1,535 |
+| OPM % | 9% | 10% | 12% | 10% | 10% | 11% | 20% | 28% |
+| Net profit | 871 | 902 | 1,095 | 842 | 830 | 870 | 1,371 | 1,137 |
+
+**Annual-report findings (FY26 AR)** [V-pri]:
+- **Contract book:**
+  - Qatar: 7.5 mtpa for 25 years, FOB, supplies since 2004 and running to Apr-2028. Offtake via GSPAs with GAIL 60 / IOC 30 / BPCL 10. Shipped in three long-term-chartered carriers (Disha, Raahi, Aseem; 25-year charters from an NYK/K-Line/MOL/SCI consortium) plus Prachi.
+  - New Qatar SPA (6-Feb-2024): 7.5 mtpa, DES, 2028–2048, same offtake split.
+  - MARC (ExxonMobil Australia): 1.425 mtpa to 2035, delivered at Kochi; BPCL 40 / IOC 30 / GAIL 30 (GSPA to Nov-2035).
+  - ExxonMobil Asia Pacific: ~1.2 mtpa for 15 years, **from Apr-2026**.
+- **War timeline** (S10): FM chain 2/3/4/5-Mar; loadings disrupted from 3-Mar; the stranded cargo (₹258.53 Cr) arrived 19-Jun.
+- **Vessel claims** ₹89.30 Cr to 31-Mar, not provided for (S9).
+- **UoP** (S14): ₹719.84 Cr gross receivable; **auditor Emphasis of Matter**. CY2023 dues (₹540.50 Cr) are the big open item; bank guarantees have been received from most customers.
+- **Contingent liabilities (Note 37)** are modest:
+  - Afcons claim ₹106.66 Cr (₹65.40 Cr award already provided);
+  - CTCI–CINDA ₹49.59 Cr + $22.22 lakh (Dahej 2.5 mtpa expansion EPC);
+  - B.L. Kashyap ₹85.33 Cr (office building);
+  - legacy customs and service-tax cases.
+  - **No large regulatory contingent was disclosed.**
+- **Projects:**
+  - Petchem: 38.6% progress at end-Jul-2026; ₹13,346 Cr committed; LNG cold-energy integration saves 12–15 MW.
+  - **Gopalpur 5 mtpa, ₹6,354.80 Cr:** pre-project work complete; **environmental clearance "at an advanced stage"**; 80-acre land paid for and possessed; Odisha MoU 8-Apr-2025. **No FID or EPC award yet.**
+  - Truck-loading bays: Dahej 8 → 14, Kochi 4 → 6. The small-scale LNG thesis (8–10 mtpa trucking market in 6–8 years) is supported by 4 LNG stations in South India.
+- **Market data cited in the AR:** India's LNG imports were ~26.0 MMT in FY26 vs 27.0 in FY25, with no shipments from Qatar or the UAE in Mar-2026. New long-term contracts signed by peers include Uniper–GSPC (0.5 mtpa, 10 years from 2028) and TotalEnergies (~0.4 mtpa).
+
+### 4.2.3 Aegis Logistics (AEGISLOG · 500003)
+
+**Management-guidance digest** (Q1 FY27 call, 14-Aug-2026: CMD Raj Chandaria and CFO Murad Moledina; Q1 FY27 PPT; Corporate Presentation Oct-2026) [V-pri]:
+- **Distribution margin is re-based.**
+  - The "₹4,000/t margin… till FY24–25 is history".
+  - The **blended full-year margin should be "₹7,000+ per tonne" and sustainable**. Q4 FY26 and Q1 FY27 margins were about three times ₹5,000/t, i.e. windfall levels.
+  - As war premia fade, management expects volume-driven procurement savings to replace them. Its example: VLGC freight ~$15/t vs ~$50/t on medium gas carriers, worth ≈ ₹3,000/t.
+- **Unit economics (CFO's method).**
+  - Logistics throughput earns about **₹1,000/t** of EBITDA.
+  - Sourcing is "a very low contributor" (~$85–90 on the analysts' metric).
+  - Divide the rest of gas EBITDA by distribution tonnes.
+  - **Q1 FY27 implied distribution EBITDA ≈ (₹591 Cr − 1,124 kt × ₹1,000) ÷ 277 kt ≈ ₹17,300/t** [E]. That is consistent with "3× of ₹5,000".
+- **Volume.**
+  - Logistics: "worst-case" growth of ~25% a year.
+  - Distribution: target **2 mt "next year or the year next"**. FY26 was 0.75 mt, FY27 should exceed 1 mt and FY28 exceed 1.5 mt, i.e. "closer to 50%" growth.
+  - Distribution needs almost no capex because the franchise model has franchisees fund the assets.
+- **Capex and funding.**
+  - **~$1.2 bn in FY27; a ~$5 bn pipeline to FY31.**
+  - Gearing target ~0.6. Funding mixes equity, accruals and debt. AVTL is self-funded through equity dilution.
+  - Cash by entity: standalone ₹2,700 Cr; SEAL ₹410 Cr; Aegis Gas ₹840 Cr; Aegis International ₹306 Cr.
+  - **Tristar** (S17, US$809 mn for 89.8%, completion Q4 FY27) is the "inorganic" leg behind the 21-Oct EGM and the CARE watch.
+- **Port-by-port:**
+  - **Mumbai:** 334k KL + 21k MT LPG; +64k KL (₹125 Cr) in H1 FY27.
+  - **JNPA:** 101.9k KL now; expansion of 318.1k KL + 77,236 MT LPG + 35k tpa bottling (₹1,675 Cr); first ~100k KL in Q3 FY27; **new 52,000 MT refrigerated LPG tank approved**.
+  - **Haldia:** 25k MT LPG under an exclusive HPCL terminalling agreement **to 2038**; 226,890 KL liquids; 3 acres added.
+  - **Kandla:** 952k KL + 48k MT LPG; VLGC-compliant; CRL-4 (+94,148 KL) next year; L&T MoU for ammonia terminals.
+  - **Pipavav:** LPG total 70,800 MT; a liquids rail gantry on a 15-yr take-or-pay (>0.5 mtpa); APM Terminals' VLGC liquids jetty; ammonia terminal commissioned (HZL 15-yr take-or-pay; ITOCHU 10% → 25%).
+  - **Kochi:** 82,545 KL → 132,122 KL (+49,577) by early FY28.
+  - **Mangaluru:** 82k MT LPG; 193k KL fully used; +60k KL under evaluation; ₹52.5 Cr rail gantry and bottling.
+  - **Vadhavan:** MoU, potential ~₹20,000 Cr.
+  - **Pipelines:** Jamnagar–Loni LPG pipeline now operational; Kandla–Gorakhpur in H1 FY27. Both are evacuation enablers for Kandla and Pipavav.
+- **Other.**
+  - Shipments are shifting to US VLGCs: US-to-India LPG reached ~1 mt (June report). This favours big terminals (Mangaluru, Pipavav).
+  - Aegis Gas FY26 other income of ~₹870 Cr was the gain on selling Hindustan Aegis, eliminated on consolidation.
+
+**Concall KPI table** [V-pri PPT/call]
+
+| KPI | Q1 FY27 | Q1 FY26 | YoY | FY26 | FY25 |
+|---|---|---|---|---|---|
+| Revenue (₹ Cr) | 2,357 | 1,719 | +37% | 8,333 | 6,764 |
+| Normalised EBITDA (₹ Cr) | **727** | 256 | +184% | 1,599 | 1,173 |
+| — Gas division | **591** | ~149 | +296% | 1,127 | — |
+| — Liquids division (revenue / EBITDA) | 178 / **136** | 144 / 106 | +24% / +28% | 644 / 472 | 650 / 498 |
+| PAT (₹ Cr) / EPS (₹) | 545 / 13.80 | 175 / 3.74 | +212% / +269% | 1,107 / 25.59 | 788 / 18.90 |
+| LPG logistics throughput (kt) | 1,124 | 1,161 | −3% | 5,152 | 4,523 |
+| LPG distribution (kt) | **277** | 145 | +91% | 754 | 521 |
+| LPG sourcing (kt) | 121 | 119 | +1% | 607 | 597 |
+| LPG static (kMT) / throughput-to-static turns | ~246 / — | — | — | 246 / 79× | — |
+| Liquids storage existing / upcoming (KL) | 2,008k / 526k | — | — | — | — |
+| Net cash (company def., ₹ Cr) | — | — | — | 3,523 | 307 |
+
+**5-year history (consolidated; ₹ Cr)** [V-scr]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales | 4,631 | 8,627 | 7,046 | 6,764 | 8,333 |
+| Operating profit | 535 | 672 | 923 | 1,098 | 1,452 |
+| OPM % | 12% | 8% | 13% | 16% | 17% |
+| Net profit (incl. NCI) | 385 | 511 | 672 | 787 | 1,107 |
+| EPS ₹ (attributable) | 10.19 | 13.19 | 16.22 | 18.90 | 25.59 |
+| ROCE % | 17% | 16% | 15% | 13% | 13% |
+
+**8-quarter trend (consolidated; ₹ Cr)** [V-scr]
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 1,750 | 1,707 | 1,705 | 1,719 | 2,294 | 1,725 | 2,594 | 2,357 |
+| Operating profit | 224 | 233 | 409 | 240 | 291 | 297 | 624 | 714 |
+| OPM % | 13% | 14% | 24% | 14% | 13% | 17% | 24% | 30% |
+| Net profit | 152 | 160 | 318 | 175 | 244 | 233 | 455 | 545 |
+
+**Annual-report and filing findings** (FY26 AR, BSE 14-Jul-2026; Q1 PPT balance sheet; Oct-2026 deck) [V-pri]:
+- **Consolidated balance sheet, FY26:**
+  - Equity attributable to owners ₹6,055 Cr; **non-controlling interest ₹2,729 Cr** (FY25 ₹1,091 Cr), the AVTL IPO effect.
+  - Borrowings ₹347 Cr non-current + ₹2,070 Cr current.
+  - Lease liabilities ₹1,594 Cr + ₹140 Cr (port concessions).
+  - Cash ₹2,511 Cr; investments ₹919 Cr + ₹826 Cr.
+  - **Note the large current-borrowing reclassification** (₹2,353 Cr non-current in FY25 → ₹347 Cr in FY26), which signals refinancing due within a year [E].
+- **Ownership.** The Oct-2026 deck lists "JVs with Royal Vopak and ITOCHU". **Aegis's exact AVTL stake is not stated in the documents read.** Keep P2's 44.71% [V-snip], and treat P1's "~50.1%" as superseded by P2.
+- **Contracts.** Long-dated contract revenue: Haldia/HPCL to 2038; HZL 15-yr ammonia; Pipavav rail gantry 15-yr take-or-pay.
+- **Risks** (deck/AR): the LPG pricing regime; OMC dependence in logistics; port-concession renewals; and integration and FX risk on Tristar (a USD-denominated acquisition).
+- **The PPAC "private LPG imports −93%" vs Aegis "distribution +91%" conflict** (P1 Force 6) is **partly explained:**
+  - (i) Aegis's terminal throughput (1,124 kt) is mostly **OMCs' and other importers' cargo**, which PPAC counts as PSU imports.
+  - (ii) Aegis's **own** sourcing was flat at 121 kt.
+  - (iii) Distribution of 277 kt therefore draws on more than its own direct imports: on stock and ullage at its own terminals, and on product bought from importers using its terminals, per the CFO's "ullage and more locations".
+  - PPAC's Jul–Aug data are also prorated.
+  - **Do not print the two side by side without (i)–(iii).** [E reasoning on V-pri inputs]
+
+### 4.2.4 Indraprastha Gas (IGL · 532514)
+
+**Management-guidance digest** (Q1 FY27 call, 14-Aug-2026: new MD Kumar Shanker, Director (Commercial) Mohit Bhatia, new CFO Manjeet Gulati) [V-pri]:
+- **Volume.**
+  - 9.66 mmscmd (+5.8%).
+  - CNG ex-DTC/DIMTS +11%: Delhi +9%; new GAs +27%; double-digit growth in all three non-Delhi states.
+  - New GAs supply ~50% of incremental sales.
+  - **DTC CNG volume is now ~zero** (vs ~1.5 lakh kg/day a year ago). DIMTS is stable at ~1.5 lakh kg/day.
+  - Analysts' suggestion of 12–13% CNG growth was accepted as plausible, citing GST 2.0.
+  - Delhi: ~42% of new PV registrations are CNG; the Delhi-NCR parc is ~24–25% CNG.
+  - Conversions and additions run at ~27,300 vehicles a month (vs 18,000).
+- **Sourcing.**
+  - Domestic 48%: APM ~2.6 mmscmd (vs ~3.3 earlier); NWG 1.26 (vs <1); HPHT 0.6–0.7.
+  - Imported 52%: long-term contracts 3.9–4.0 mmscmd; pooled gas 0.6–0.7; spot ~3% (0.25–0.30 mmscmd) at $17–22/mmbtu.
+  - Expects **more HPHT** from producer auctions closing around September.
+  - **Started Henry Hub hedging in May-2026.**
+- **Margin.**
+  - **Long-term guidance ₹7/scm "still similar", but no quarterly guidance.**
+  - Q1 gas cost ₹40–45/scm, with "some increase" from July.
+  - Keeps a ~₹17/kg gap to petrol to protect growth.
+  - Four swing factors for the next 6 months: US supply; Middle East; China/Japan demand; EU storage and weather (a possible super El Niño).
+- **EV policy.**
+  - Delhi has ~1 lakh autos; 5–6k a year retire.
+  - Impact **<1% of CNG volume in 2027 and ~2–3% by 2030**. 70–80% of IGL's 3W volume is in Delhi.
+  - The policy applies only to Delhi, not Noida or Gurugram.
+  - School buses must reach 30% EV by 2030. IGL is lobbying to keep CNG.
+- **Capex.** ₹1,800–2,000 Cr: core ₹1,200–1,300 Cr (max ₹1,500 Cr) plus ₹500–600 Cr diversification. Q1 ₹327 Cr.
+- **JVs.**
+  - MNGL 2.19 mmscmd (+18%; Nashik now pipeline-fed via the Samruddhi line).
+  - **CUGL 0.36 mmscmd (+6%)**: price-sensitive markets with an adverse tax structure for I&C.
+- **Territory.**
+  - Gurugram litigation continues. IGL **conditionally accepted** the part-area authorisation and has started service; bulk molecules in the disputed part still flow via IGL.
+  - Faridabad is mostly with another licensee.
+  - Consent submitted for the remaining Gurugram and Faridabad areas.
+  - New Rohini CGS; first LNG operations in NCR (with CONCOR); CNG at Noida International Airport; Indian Army cantonment MoU.
+  - On inorganic growth: "framework still evolving".
+- **GST on gas.** MoPNG supports it; "no evidence" of imminent change.
+
+**Concall KPI table (standalone)** [V-pri call; P2 PL per-scm]
+
+| KPI | Q1 FY27 | Q4 FY26 | Q1 FY26 |
+|---|---|---|---|
+| Total volume (mmscmd) | **9.66** | 9.4 | 9.13 |
+| CNG (mn kg/day) | **5.31** | — | ~5.0 |
+| Gross turnover (₹ Cr) | **5,028** (record) | — | ~4,340 |
+| EBITDA / PAT (₹ Cr) | **296 / 186** | ~420 / ~280 | 512 / 356 |
+| EBITDA/scm (₹, PL) | 3.4 | 4.8 | 6.2 |
+| Gas cost (₹/scm) | 40–45 (mgmt); 43.3 (PL) | 36.8 | 35.2 |
+| Sourcing: domestic / imported | 48% / 52% | — | — |
+| Spot share | ~3% | — | — |
+| PNG-D (lakh) / I&C | 35+ / ~13,600 | ~34 / ~13,070 | — |
+| CNG stations | — | **1,024** (AR) | — |
+| MNGL / CUGL (mmscmd) | **2.19 / 0.36** | — | 1.85 / 0.34 |
+| Capex (₹ Cr) | 327 | — | — |
+
+**5-year history (consolidated; ₹ Cr)** [V-scr]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales | 7,710 | 14,133 | 14,000 | 14,913 | 16,168 |
+| Operating profit | 1,894 | 2,044 | 2,388 | 1,979 | 1,876 |
+| OPM % | 25% | 14% | 17% | 13% | 12% |
+| Net profit | 1,502 | 1,640 | 1,983 | 1,713 | 1,544 |
+| EPS ₹ (post-bonus) | 10.73 | 11.71 | 14.18 | 12.27 | 11.07 |
+| ROCE % | 27% | 27% | 28% | 21% | 18% |
+
+**8-quarter trend (consolidated; ₹ Cr)** [V-scr]
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 3,698 | 3,759 | 3,948 | 3,914 | 4,023 | 4,068 | 4,163 | 4,587 |
+| Operating profit | 535 | 362 | 493 | 511 | 441 | 471 | 421 | 294 |
+| OPM % | 14% | 10% | 12% | 13% | 11% | 12% | 10% | 6% |
+| Net profit | 454 | 325 | 453 | 428 | 385 | 392 | 339 | 238 |
+
+**Annual-report findings (FY26 AR, BSE 2-Sep-2026)** [V-pri]:
+- **Scale.** 12 GAs, 32 districts, 4 states. Records in FY26: average CNG of **50 lakh kg/day** and **industrial sales of 1 mmscmd**. GAs outside Delhi-NCR supplied 50% of incremental sales.
+- **FY26 build-out.** 70 new CNG stations → **1,024**; 100 DODO stations; capex ₹1,120 Cr; >3.7 lakh new homes.
+- **Dividend.** ₹4.75 per share = ₹3.25 interim + ₹1.50 final.
+- **Contingent liabilities (Note 35):**
+  - **DDA licence fee ₹330.73 Cr** (Auditor EoM; now before AMRCD; IGL seeks parity with OMCs);
+  - Greater Noida lease rent ₹22.29 Cr;
+  - UP VAT ₹13.59 Cr (₹2.72 Cr deposited);
+  - legacy DTC excise ₹2.42 Cr + penalty.
+- **Second EoM:** the New Labour Codes (effective 21-Nov-2025). This is the source of the ~₹30 Cr Q1 adjustment PL noted.
+- **The ~₹114 Cr FY26 OMC dealer-margin reversal (primer)** was **not located** in the AR sections read; it stays [primer]. MGL's PPT shows the same kind of OMC trade-margin reversal in its Q1 FY26 base (S4), so the item is sector-wide.
+
+### 4.2.5 Mahanagar Gas (MGL · 539957)
+
+**Management-guidance digest** (Q1 FY27 call, 31-Jul-2026: MD Praveer Kumar Srivastava, DMD Ajay Sinha, CFO Rajesh Patel; Q1 PPT) [V-pri]:
+- **Supply.** 100% of D-PNG and most of CNG come from domestic gas. I&C supplies were cut 20% by government directive.
+  - Sourcing: **APM ~30%; NWG + pooled 21–22%; HPHT 14–15%** (0.6 mmscmd long-term plus ~0.2 via IGX); **Henry Hub-linked 21–22% received** (contracted more); the rest small Brent/IGX/spot.
+  - Prices: pooled gas $12.5–13; Brent-linked $13–14; spot touched ~$20/mmbtu.
+- **The July shock.**
+  - Hormuz normalised around the first week of July. The government **withdrew the priority and pooled-gas notification around 4-Jul**.
+  - Within 7–8 days the US–Iran conflict restarted, and FM again hit HH-linked imports (the ~1.5 mmscmd GAIL HH contract was not fully received).
+  - MGL bought spot for 15 days to 3 weeks and signed a slightly longer-term contract.
+  - **Q2 "slightly worse compared to Q1"**; margin "under pressure for at least 1–2 months".
+- **Pricing.**
+  - CNG up ₹5/kg since Feb (in Q2 for the full quarter). CNG is ~40–45% cheaper than petrol and ~12% cheaper than diesel.
+  - **I&C realisation +₹27–32/scm QoQ (+70–80% YoY)**, because pricing is alternate-fuel-linked: commercial to bulk LPG, industrial to FO/LDO. Brent was $62–63 in Q4 and $95–100 in Q1.
+  - **Natural hedge:** high Brent plus low HH means high margins. MGL sees the HH book as its structural edge.
+- **Guidance.**
+  - **EBITDA ₹8–9/scm "over a longer period"**, with no quarterly guidance.
+  - CNG volume +8–9% a year, sustainable into FY28–29.
+  - D-PNG growth could rise from 5–6% to 7–8% as ~1 mn connected-but-idle homes convert. 8–10 lakh conversions are possible in FY27 if bottlenecks ease; 5 lakh conversions ≈ +0.06–0.07 mmscmd on 0.65.
+  - Ex-UEPL areas: **0.322 mmscmd vs 0.224 (+30–35%)**, potential ~1.2 mmscmd.
+  - By GA: GA-2 (Thane) >2.1 mmscmd; GA-1 (Mumbai) ~1.95; Raigad 0.40 (0.33).
+- **Buses.** ~6,000 CNG buses = 4–5% of CNG. BEST ~90,000 kg/day; MSRTC 34–35k kg/day; the rest private. A "fleet program" targets private fleets, which are less likely to electrify because of financing costs.
+- **Capex and balance sheet.** FY27 capex ₹1,500–1,800 Cr (Q1 ₹350 Cr) is "preponed", not added, and road-reinstatement (RI) charge cuts lower unit cost. Will borrow if needed (zero debt today). **DPS ₹30 maintained.**
+- **Non-CGD.**
+  - LNG long-haul: 2 stations, ~5 t/day, breakeven.
+  - International Battery Co.: on hold and being restructured (cell prices fell from >$100 to $70–75/kWh; partner capital constraints).
+  - EV 3W cargo start-up: loss-making.
+  - CBG: 350 tpd MSW Phase I on MCGM land.
+  - Open to **acquisitions of stressed new CGD entrants**; PNGRB bidding is largely over.
+
+**Concall KPI table (standalone)** [V-pri PPT]
+
+| KPI | Q1 FY27 | Q4 FY26 | Q1 FY26 |
+|---|---|---|---|
+| Revenue, net (₹ Cr) | **2,371.71** | 2,051.22 | 2,081.38 |
+| Gross profit (₹ Cr) | 639.24 | 570.24 | 771.67 |
+| EBITDA (₹ Cr) / margin | **342.98 / 14.46%** | 260.34 / 12.69% | 500.71 / 24.06% |
+| PAT (₹ Cr) | **193.70** | 131.92 | 319.56 |
+| Volume (mmscmd): total | **4.766** | 4.672 | 4.454 |
+| — CNG / D-PNG / I&C | 3.496 / 0.623 / 0.648 | 3.349 / 0.605 / 0.719 | 3.185 / 0.571 / 0.698 |
+| Realisation (₹/scm) | 54.35 | 48.45 | 51.02 |
+| Gas cost (₹/scm) | **39.85** | 35.10 | 32.20 |
+| Gross margin (₹/scm) | 14.50 | 13.35 | 18.82 |
+| EBITDA (₹/scm) | **7.91** | 6.19 | 12.35 |
+| Implied opex + other (₹/scm) [E] | 6.59 | 7.16 | 6.47 |
+| Sales mix: CNG / D-PNG / commercial / industrial | 73.34% / 13.07% / 3.28% / 10.31% | — | — |
+| Network: CNG stations / steel km / PE km | 519 / 752 / 7,725 | 518 | — |
+| CNG vehicles / PNG HH connections / I&C | 13,11,105 / 32,41,195 / 6,198 | — / 32,13,904 / 5,924 | — |
+
+**5-year history** (FY22 is standalone; FY23–FY26 consolidated; ₹ Cr) [V-scr]
+
+| | FY22 (SA) | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales (net) | 3,560 | 6,299 | 6,290 | 7,264 | 8,246 |
+| Operating profit | 924 | 1,184 | 1,844 | 1,569 | 1,446 |
+| OPM % | 26% | 19% | 29% | 22% | 18% |
+| Net profit | 597 | 790 | 1,285 | 1,040 | 841 |
+| EPS ₹ | 60.43 | 79.98 | 130.06 | 105.31 | 85.16 |
+| ROCE % (SA) | 23% | 27% | 34% | 23% | 17% |
+
+**8-quarter trend (consolidated; ₹ Cr)** [V-scr]
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 1,786 | 1,847 | 1,964 | 2,083 | 2,050 | 2,060 | 2,052 | 2,373 |
+| Operating profit | 413 | 325 | 394 | 500 | 336 | 351 | 258 | 342 |
+| OPM % | 23% | 18% | 20% | 24% | 16% | 17% | 13% | 14% |
+| Net profit | 287 | 221 | 247 | 319 | 191 | 201 | 130 | 193 |
+
+**Annual-report findings (FY26 AR, BSE 3-Aug-2026)** [V-pri]:
+- **Merger.** UEPL merged into MGL (NCLT 9-Jul-2025; appointed date 1-Feb-2024).
+- **FY26 results.**
+  - Gross revenue ₹9,059.77 Cr (FY25 ₹7,976.42 Cr).
+  - **EBITDA ₹1,451.07 Cr = ₹8.67/scm**; PAT ₹846.82 Cr; capex **₹1,068.72 Cr**.
+  - Volume 4.59 mmscmd (+8.25%): CNG 3.27 (+7.21%; 71.24%), D-PNG 0.59 (+5.36%; 12.85%), I&C 0.73 (+15.87%; 15.91%; the fastest-growing segment before the war).
+  - Additions: 1,18,590 CNG vehicles; 3,42,157 homes (→ 32,13,904); 872 I&C (→ 5,924); ~499 km of pipe (→ ~8,320 km); 518 stations.
+- **Contingent liability.**
+  - **UTNGPL (Uran–Trombay) transport-tariff dispute** with ONGC and GAIL. PNGRB's Sep-2022 order requires payment of the disputed tariff for 2014–2021. The Delhi HC stayed recovery (13-Dec-2022) against a **₹50 Cr deposit with GAIL**, with a hearing listed for 13-Aug-2026. The total is not quantified in the lines read.
+  - Consumer claims ₹0.36 Cr.
+- **Operational risk event.** Damage to GAIL's 18-inch feeder at Trombay cut supply to CGS Wadala (~2.2 mmscmd), causing a city-wide disruption. Cylinder cascades from Raigad kept stations running. **This single-feeder concentration risk** belongs in the risk section.
+- **Shareholding (Jun-26).** GAIL 32.50%, Government of Maharashtra 10.00%, FPI 23.21%, DII 22.53%, public 11.76%. Market cap per the PPT: ₹9,164 Cr at Jun-26.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**Dataset P4-1 — Global gas benchmarks vs India's APM formula, monthly ($/mmbtu; Brent $/bbl)**
+- **Sources:** World Bank CMO monthly prices, Oct-2026 Pink Sheet data [V-pri]; PPAC Snapshot Table 23 (APM) and the IGX figure [V-pri].
+- **Units:** "Japan LNG" is the average Japanese import price, which is contract-heavy and lagged. **It is not the JKM spot price.**
+
+| Month | Brent | Henry Hub | TTF (Europe) | Japan LNG (import) | APM formula (ceiling) |
+|---|---|---|---|---|---|
+| Jun-2024 | 82.6 | 2.51 | 10.87 | 12.13 | 8.44 (6.50) |
+| Dec-2024 | 73.8 | 3.02 | 13.86 | 12.76 | 7.29 (6.50) |
+| Jun-2025 | 71.5 | 3.02 | 12.37 | 12.17 | 6.41 (6.41) |
+| Sep-2025 | 68.0 | 2.97 | 11.12 | 11.47 | 6.99 (6.75) |
+| Dec-2025 | 62.7 | 4.25 | 9.48 | 11.32 | 6.48 (6.48) |
+| Jan-2026 | 66.8 | 7.58 | 11.76 | 11.49 | 6.25 (6.25) |
+| Feb-2026 | 71.1 | 3.61 | 11.24 | 11.32 | 6.21 (6.21) |
+| Mar-2026 | 103.7 | 3.06 | 17.91 | 11.42 | 6.81 (6.75) |
+| Apr-2026 | 120.4 | 2.77 | 15.41 | 15.65 | 10.76 (7.00) |
+| May-2026 | 107.5 | 2.93 | 16.17 | 12.88 | 11.59 (7.00) |
+| Jun-2026 | 85.4 | 3.15 | 15.17 | 11.79 | 10.93 (7.00) |
+| Jul-2026 | 83.4 | 2.89 | 18.06 | 13.85 | 8.73 (7.00) |
+| Aug-2026 | 90.9 | 2.77 | 21.11 | 15.27 | 7.86 (7.00) |
+| Sep-2026 | 116.8 | 2.95 | **25.42** | 14.25 | 9.00 (7.00); Oct 11.22 |
+
+- **How to read it.** The July dip in Brent and APM was the ceasefire window. September was the re-escalation. **The HH–TTF spread hit ~$22.5 in Sep-2026**, which is why MGL's HH book (~21–22% of its gas) and IGL's new HH hedges matter.
+- **IGX GIXI** ($16.8 Apr-2026 → $28.4 Sep-2026, PPAC) is the Indian spot proxy. In September it traded above TTF.
+
+**Dataset P4-2 — India's LNG and LPG import bill (PPAC) [V-pri]**
+
+| Period | LNG (mmscm) | LNG ($ bn) | LNG $/mmbtu [E] | LPG imports (MMT) | LPG ($ bn) |
+|---|---|---|---|---|---|
+| FY25 | 35,720 | 14.9 | ~10.5 | 20.7 | 12.5 |
+| FY26 | 34,427 | 13.4 | ~9.8 | 21.3 | 11.3 |
+| Apr–Sep 2025 | 17,414 | 6.9 | ~10.0 | — | — |
+| Apr–Sep 2026 | 18,189 | 8.5 | ~11.8 | (POL imports −47.7% by volume) | — |
+| Sep-2026 | 2,957 | 1.2 | ~10.2 | — | — |
+
+- **$/mmbtu basis:** $ bn ÷ (mmscm ÷ 25.2) [E].
+- **The Sep-2026 unit value looks low against spot ($21–28)** because the Jul–Sep volumes are PPAC-prorated and long-term (HH/Brent-lagged) cargoes dominate.
+
+**Dataset P4-3 — Where the members' gas came from, Q1 FY27 (company calls) [V-pri]**
+
+| | APM | NWG / pooled | HPHT | Long-term LNG (HH/Brent) | Spot / IGX |
+|---|---|---|---|---|---|
+| IGL (9.66 mmscmd) | ~2.6 mmscmd (27%) | NWG 1.26 + pooled 0.6–0.7 | 0.6–0.7 | 3.9–4.0 | ~3% (0.25–0.3) |
+| MGL (4.77 mmscmd) | ~30% | 21–22% | 14–15% | HH 21–22% + small Brent | small (IGX ~0.2 mmscmd within HPHT) |
+| ATGL (3.33 mmscmd) | APM + NWG ~40% | — | — | ~38% R-LNG; long-term contracts 48% of total | **~15%** |
+
+- **Read-across: spot share explains Q1 FY27 EBITDA/scm** — MGL ₹7.9, ATGL ₹9.3 (with a higher I&C share), IGL ₹3.4.
+- **Caveat:** IGL's low spot share and low margin show that **APM's share of CNG and the speed of price pass-through matter as much as spot**.
+
+**Dataset P4-4 — Delhi CNG retail path, 2026 (₹/kg)**
+- Jan ₹77.09 [V-snip] → May hikes totalling ~₹6, reaching ₹83.09 [V-snip] → **29-Aug +₹3.89 to ₹86.98** [V-sec AIR; V-pri PPAC level].
+- NCR on 29-Aug: Gurugram ₹92.1; Noida/Ghaziabad ₹95.59 [V-sec].
+- **CNG vs Delhi petrol (₹102.12):** 0.85 on a ₹/unit basis. At 26 km/kg vs 18 km/l (MGL's mileage assumptions), the per-km cost of CNG is ~59% of petrol's [E].
+- Mumbai: CNG ₹86 (Jun) → ₹89 (Oct); petrol ₹111.21 (MGL PPT) [V-pri].
+
+**Dataset P4-5 — Network scale of members vs India (latest primary counts)**
+
+| | CNG stations | PNG-D | Date / source |
+|---|---|---|---|
+| India | 9,158 | 1,76,89,278 | 31-Aug-2026, PNGRB via PPAC [V-pri] |
+| IGL | 1,024 | 35 lakh+ | Mar-26 AR / Jun-26 call [V-pri] |
+| MGL | 519 | 32.4 lakh connections (≈23 lakh consuming) | Jun-26 PPT [V-pri] |
+| ATGL SA / incl. IOAGPL | 707 / 1,167 | 11.41 / 13.74 lakh | Jun-26 call [V-pri] |
+| **Members' share** [E] | **~24%** of India's stations (2,250 SA; ~2,710 with the JV) | **~45%** of PNG-D (79 lakh SA; ~81 lakh with the JV) | — |
+
+**Dataset P4-6 — Regas tariff path (₹/mmbtu)**
+- Dahej: ₹62.91 (2024) [V-snip Argus] → ₹66.06 (2025) [V-snip Argus] → **~₹69 (current, i.e. CY2026)** [V-pri call].
+- Kochi: **~₹98** [V-pri].
+- **Sensitivity** (from P1, updated): ₹10/mmbtu on ~834 TBTU (PL FY27E) ≈ ₹834 Cr of revenue ≈ 15% of FY26 operating profit (₹5,338 Cr) [E].
+
+**Sector view from a rating agency (CRISIL, IRM Energy rationale, 17-Aug-2026)** [V-sec, rating-agency primary document]:
+- CRISIL says CGD players are "increasingly exposed to the volatility in prices of non-APM gas as well as its availability", after the Oct-2024 and Apr-2025 APM cuts.
+- It notes a better ability to pass on cost.
+- IRM's own EBITDA/scm went 4.6 (FY25) → 5.0 (FY26) → **10.5 (Q1 FY27)**, which CRISIL expects to normalise to **~₹6**. So a small CGD with an alternate-fuel-linked I&C book also earned a windfall in Q1, like MGL.
+- **ICRA, CARE and India Ratings 2026 CGD sector notes were not found free** (see 4.4).
+
+## 4.4 Gap log (every §H item, plus the prompt's named gaps)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| H-1 | JKM path 2024–Oct-2026 | **Partly filled.** The World Bank monthly TTF/HH/Japan-LNG series (to Sep-2026) and the IGX GIXI are now [V-pri]. **JKM itself is still open:** Platts is paywalled; the S&P 19-Oct infographic gives only volatility (94%); a "$56 on 6-Oct" hit is from 2021 and must not be used | WB CMO xlsx [V]; searches |
+| H-2 | Qatar FM / Hormuz status, Oct-2026 | **Filled (secondary):** FM extended to end-Nov-2026; Qatar 18 cargoes vs 509. FM chain dates now primary (AR). The early-July reopening and mid-July re-escalation come from the MGL/ATGL calls. **Repair times for the damaged trains: still unsourced** | Tank Terminals [V-sec]; Petronet AR; MGL/ATGL calls [V-pri] |
+| H-3 | 2026 APM allocation % to CGD | **Still open** for the official MoPNG ratio. New company-level primary data: IGL APM ~2.6 mmscmd (from ~3.3); MGL APM ~30% (D-PNG 100% APM); ATGL APM+NWG ~40%; an MGL analyst cited PNGRB data of ~1.585 mmscmd APM to MGL for Jan–Apr. The order's withdrawal (~4-Jul) is [V-sec] | Calls [V-pri]; DT Next [V-sec] |
+| H-4 | NWG price | **Filled:** 12% of ICB (ATGL management). The "$7.70" figure is dropped | ATGL call [V-pri] |
+| H-5 | Petronet tariffs, Gopalpur, petchem | **Filled:** tariffs ₹69 / ₹98; "no tariff revision" talks; Gopalpur EC at an advanced stage with no FID; petchem 38.6% with ₹13,346 Cr committed. The −₹30 claim is contradicted | Call; AR [V-pri] |
+| H-6 | Aegis Q1 volumes and the PPAC conflict | **Volumes filled** (PPT). **Conflict partly explained** (4.2.3); exact sourcing of distribution volume not disclosed | Aegis PPT/call [V-pri] |
+| H-7 | ATGL Q1 FY27 | **Filled** from the company call (303 mmscm, EBITDA ₹281 Cr, network) | ATGL call [V-pri] |
+| H-8 | Delhi CNG intermediate dates | **Partly filled:** the 29-Aug hike to ₹86.98 is [V-sec AIR]. Jan ₹77.09 and the May steps remain [V-snip]. Pre-2026 parity ratios remain [K] | AIR |
+| H-9 | Commercial LPG path | **Partly filled:** adds ₹2,930 (1-Jul) and ₹2,810 (1-Oct) [V-snip]. PPAC gives only domestic ₹942 [V-pri] | Search |
+| H-10 | MWP 2034 targets; GA counts | **Still open** for the 2034 targets. GA counts now primary for the members: IGL 12 GAs; MGL 6 GA units (3 + 3 ex-UEPL); ATGL 34 + IOAGPL 19 = 53 | ARs/calls [V-pri] |
+| H-11 | E-bus fleets Delhi/Mumbai | **Partly filled:** Mumbai ~6,000 CNG buses = 4–5% of MGL's CNG; BEST ~90,000 kg/day and MSRTC 34–35k kg/day on CNG. Delhi: DTC CNG volume ≈ 0 and DIMTS ~1.5 lakh kg/day. **E-bus counts are still unsourced** | MGL/IGL calls [V-pri] |
+| H-12 | National CNG vehicle parc | **Still open** for the parc. Flows: FY26 CNG PV sales ~10.34 lakh (21.98%) [V-snip]; Aug-2026 CNG/LPG 25.28% of PV registrations (FADA) [V-snip]. Regional parcs [V-pri]: Delhi-NCR ~24–25% CNG; MGL GAs 13.1 lakh vehicles | Search; calls |
+| H-13 | Global comparables multiples | **Not attempted** (budget). Remain [V-snip]/[K] | — |
+| H-14 | IGU India utilisation | **Superseded** by PPAC terminal data (P1) and Petronet's company utilisation (58% in Q1) | — |
+| H-15 | CBG mandate tonnage | **Not re-checked.** Company CBG data now [V-pri]: ATGL FY26 1,654 MT sold; MGL 350 tpd MSW plant planned | ARs/calls |
+| H-16 | GST-on-gas committee | **Status:** IGL's MD says MoPNG "strongly supporting", "no available evidence… any big change". Keep the committee item [V-snip] | IGL call [V-pri] |
+| H-17 | OFAC / SEC | **Clarified:** OFAC $275 m = Adani Enterprises (Iran-origin LPG); SEC $18 m = Gautam and Sagar Adani personally; ATGL is not a party. Still [V-snip] | Search |
+| H-18 | Market caps | Unchanged from P2 (screener 21-Oct-2026) | — |
+| H-19 | MGL per-scm doesn't tie | **Filled** (S2): opex ≈ ₹6.6/scm | MGL PPT [V-pri] |
+| H-20 | FY26 LPG import value | **Filled:** $11.3 bn (21.3 MMT; ₹99,149 Cr) | PPAC RR [V-pri] |
+| P-a | Petronet ₹348 Cr vessel claim | **Partly filled:** AR shows ₹89.30 Cr to 31-Mar, continuing. ₹348 Cr unverified | AR [V-pri] |
+| P-b | Petronet ₹630 Cr UoP one-off | **Filled** with full UoP detail (S14) | AR [V-pri] |
+| P-c | Qatar post-2028 terms | **Filled** (S5) | AR [V-pri] |
+| P-d | Aegis ₹6,000 Cr purpose; CARE rationale | **Filled:** Tristar, US$809 mn. CARE's rationale text was not re-read (P2 read the BSE PDF) | Oct deck [V-pri] |
+| P-e | Aegis/Vopak exact stakes in AVTL | **Still open:** not stated in the documents read | — |
+| P-f | ATGL FY27 capex; PNG-D vs I/C split; EV | Capex qualitative only ("slightly higher" than ₹903 Cr); **PNG split still not disclosed**; EV filled (5,306 points, 58 MW, target 10,000) | Call/AR [V-pri] |
+| P-g | IGL station count, CUGL/MNGL, one-offs, FII shift, exclusivity, guidance | Stations, CUGL/MNGL and guidance **filled**. FII shift **partly** (to MFs). Exclusivity: litigation status (Gurugram) and the PNGRB common-carrier withdrawal (2024) **filled**. The ₹114 Cr one-off was **not found** in the AR | IGL call/AR [V-pri]; PSU Watch [V-sec] |
+| P-h | MGL UEPL, bridge, sourcing, capex, GoM stake | **All filled** (S2–S4, S28; GoM 10.00% per PPT) | PPT/AR [V-pri] |
+| P-i | MGL/IGL CNG by vehicle type | IGL filled. MGL: buses 4–5%; the rest not split | Calls |
+| P-j | LNG import value Apr–Sep | **Filled** ($8.5 bn vs $6.9 bn) | PPAC [V-pri] |
+| P-k | HS-code trade data (2711.11/.12/.13) | **Not fetched.** TradeStat is JS-driven, and the budget went to PPAC, which uses DGCIS data | — |
+| P-l | Rating-agency sector views | **Partly:** CRISIL (IRM rationale) [V-sec]. ICRA's 2026 CGD note, CARE and Ind-Ra not found free. ICRA Apr-2025 (₹0.35/scm APM-cut impact) [V-snip] | Search |
+| P-m | PNGRB bidding rounds; MWP compliance | **Still open.** MGL: "most of the geographies are already bidded out by PNGRB" [V-pri] | MGL call |
+| P-n | ATGL Q2 FY27 | **Not out** at 21-Oct evening (board 22-Oct; call 23-Oct) | Screener [V-scr] |
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+**Insights (for an expert's framing):**
+1. **The crisis had two phases, not one.**
+   - Hormuz briefly reopened around a late-June/early-July ceasefire. The stranded Petronet cargo transited and reached Dahej on 19-Jun.
+   - MoPNG withdrew the priority and pooled-gas order on ~4-Jul. The conflict then **re-escalated within 7–8 days**.
+   - **CGDs lost both their crisis shield (pooled gas at $12.5–13) and their contracted HH volumes**, and so had to buy spot. That is why ATGL's spot share was ~15%, why IGL raised CNG ₹3.89 on 29-Aug, and why MGL said Q2 is "slightly worse than Q1".
+   - **Q2 FY27 CGD margins are likely to be weaker than Q1, not stronger**, despite Q1 price hikes. This contradicts the brokers' Q2 estimates in P2 (IGL EBITDA ₹420 Cr vs ₹296 Cr in Q1).
+2. **Petronet's Q1 is two businesses, and the split is now measurable.**
+   - **Regas revenue of ₹1,214 Cr is ≈ 176 TBTU of tolling × ₹69**, a clean tariff × volume identity.
+   - On top sat ₹494 Cr of trading and inventory gains on only ~6 TBTU of spot trading. Strip those out and Q1 operating profit is about ₹1,040 Cr, below the ₹1,159 Cr of a year earlier [E].
+   - **The Q1 "record" therefore depended on the spot dislocation.** Watch whether Q2 repeats it: the dislocation persisted, with TTF at $25 in September.
+3. **The 2028 Qatar renewal moves freight risk off Petronet.** The new SPA is **DES**, so the seller ships. Most of Petronet's 25-year charters end with the old SPA. The charter-hire claims (₹89 Cr and rising) and FOB vessel risk therefore disappear after Apr-2028. The open variable is the offtaker GSPA, whose closure is guided for 2–3 quarters.
+4. **Aegis is turning into a cross-border LPG/energy-logistics platform.**
+   - The **US$809 mn Tristar acquisition** (89.8%, Q4 FY27) exceeds Aegis's FY26 attributable PAT several times over [E] and explains both the ₹6,000 Cr raise and CARE's watch.
+   - With a ~$1.2 bn FY27 capex plan as well, **the "fortress balance sheet" (net cash ₹3,523 Cr) is about to be spent**. Gearing target ~0.6.
+5. **Aegis's earnings jump is mostly a margin windfall, not volume.**
+   - Implied Q1 distribution EBITDA is ~₹17,000/t, vs a "new normal" of ₹7,000+/t and an old ₹4,000/t.
+   - At 1 mt of distribution, each ₹1,000/t of margin is worth ₹100 Cr of EBITDA [E].
+   - The ₹7,000 floor rests on a procurement-efficiency claim (VLGC freight) that has not yet been shown outside a war.
+6. **MGL's margin resilience is structural.**
+   - Its I&C prices are alternate-fuel-linked (+70–80% YoY realisation), while its CNG cost is partly HH-linked. **A high-Brent / low-HH world (Sep-2026 spread ~$22.5) is MGL's best case.**
+   - IGL lacks an equivalent I&C book (~1 mmscmd industrial) and HH share. It began HH hedging only in May-2026.
+7. **Hidden balance-sheet items the screener view misses:**
+   - ATGL's ₹3,472 Cr guarantee for its JV's PNGRB performance guarantees (~71% of net worth);
+   - IGL's ₹331 Cr DDA claim (auditor EoM);
+   - Petronet's ₹720 Cr gross UoP receivable (EoM) and unprovided vessel claims;
+   - MGL's UTNGPL tariff dispute (₹50 Cr deposited);
+   - MGL's single-feeder Wadala vulnerability (~2.2 mmscmd).
+8. **NWG at 12% of ICB is the policy lever nobody prices.** At the Sep-2026 ICB of $116, NWG ≈ $13.9/mmbtu, about double the APM ceiling of $7.00 and above HPHT ($9.89). NWG is replacing APM in IGL's mix (1.26 vs <1 mmscmd). **The APM-to-NWG shift raises cost even when "domestic share" looks stable at ~48%.**
+
+**New primer issues** (format as primer-issues.md; adds to P2 §3.4):
+
+*adani-total-gas.html*
+- Add the IOAGPL JV's FY26 operating data: 681 mmscm (+26%), 464 CNG stations, 2.16 lakh PNG homes. Combined FY26 volume is ≈ 1,814 mmscm.
+- Add the ₹3,472.15 Cr corporate guarantee for the JV's PNGRB bank guarantees, and the ₹103.63 Cr domestic-gas-diversion claim (FY14–FY22, refuted).
+- **Clarify that the OFAC $275 m settlement was by Adani Enterprises (Iran-origin LPG) and the SEC $18 m by individuals; ATGL is party to neither.** The primer should not imply ATGL liability.
+- Sourcing language: replace "APM ~30–36% for CNG" alone with management's portfolio mix (domestic 62 / R-LNG 38; spot ~15% in Q1 FY27; NWG = 12% of ICB).
+- FY26 capex ₹903 Cr; FY27 "slightly higher". Mar-26 CNG station count 705 (AR) vs 707 at Jun-26.
+
+*petronet-lng.html*
+- Replace "Qatar renewal under negotiation" with: SPA signed 6-Feb-2024, DES, 2028–2048; offtaker GSPA terms pending (2–3 quarters).
+- Tariff: Dahej ~₹69, Kochi ~₹98 per mmbtu (Q1 FY27 call); "no discussion on tariff revision". Remove or caveat the ₹52.05 and −₹30 claims.
+- Add the UoP receivable of ₹719.84 Cr gross / ₹413.02 Cr net (auditor EoM), the vessel claims (₹89.30 Cr at Mar-26, continuing), and the FM timeline (2/3/4/5-Mar).
+- Petchem: 38.6% progress at end-Jul-2026, ₹13,346 Cr committed; FY27 capex ₹9,064 Cr. Gopalpur: EC "advanced stage", land in hand, no FID.
+- New contracts: ExxonMobil 1.2 mtpa from Apr-2026 (Kochi); Deepak Fertilisers 0.5 mtpa tolling (May-2026).
+
+*aegis-logistics.html*
+- **Add the Tristar acquisition** (89.8%, US$809 mn equity, completion Q4 FY27) as the year's defining event. Link it to the 21-Oct EGM (₹6,000 Cr) and CARE's Rating Watch.
+- Capacity: LPG static ~246k MT existing (+129k MT JNPT); liquids 2.0 mn KL existing (+0.5 mn KL); ammonia 36k MT commissioned 10-Aug-2026 (HZL take-or-pay; ITOCHU 10% → 25%). Replace the primer's ~226k t figure.
+- Distribution-margin framework: ₹4,000/t (to FY25) → ₹7,000+/t guided. Q1 FY27 implied ~₹17,000/t [E].
+- Net cash: company ₹3,523 Cr vs screener basis ₹1,790 Cr; NCI ₹2,729 Cr.
+- Haldia's exclusive HPCL agreement to 2038; Jamnagar–Loni pipeline live.
+
+*indraprastha-gas.html*
+- CUGL 0.36 mmscmd (not 2.5); MNGL 2.19.
+- Q1 FY27 volume 9.66 mmscmd; sourcing split (APM 2.6 / NWG 1.26 / HPHT 0.6–0.7 / long-term 3.9–4.0 / pooled 0.6–0.7 / spot ~3%); Henry Hub hedging from May-2026.
+- Add the DDA ₹330.73 Cr contingent (EoM; now at AMRCD), the 29-Aug CNG hike to ₹86.98, and the Delhi EV-policy impact (<1% in 2027, 2–3% by 2030).
+- Gurugram: conditional acceptance of part-area authorisation; litigation ongoing.
+- New MD (Kumar Shanker) and CFO (Manjeet Gulati) as of Aug-2026.
+- The Jun-26 FII → MF ownership swing.
+
+*mahanagar-gas.html*
+- **UEPL merged into MGL** (NCLT 9-Jul-2025; appointed date 1-Feb-2024). Remove "subsidiary" language. Ex-UEPL volume 0.322 mmscmd (+30–35%).
+- Per-scm table from the company slide (₹54.35 / ₹39.85 / ₹14.50 / ₹7.91); implied opex ~₹6.6 (not ₹5.8).
+- FY26 EBITDA/scm ₹8.67 (company). Capex FY26 ₹1,068.72 Cr; FY27 ₹1,500–1,800 Cr.
+- Sales mix: CNG 73.3%, D-PNG 13.1%, commercial 3.3%, industrial 10.3%. HH-linked gas 21–22%.
+- Risks: the UTNGPL tariff dispute (₹50 Cr deposited) and the Wadala single-feeder incident. PNG-D connections 32.4 lakh vs ~23 lakh consuming.
+
+**Source list for Part 4 (all fetched 21-Oct-2026):**
+- **ATGL:**
+  - Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e2db754-d704-481c-a2b7-866ec8a6a6a9.pdf
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/0f702c2e-0453-488f-abca-75b7d5e7b35b.pdf
+- **Petronet:**
+  - Q1 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e29749a4-36a9-4a35-bef4-5e7e31fb041f.pdf
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/800b4577-af9a-436e-b86d-911e6cea8ffe.pdf
+- **Aegis:**
+  - Q1 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfddf588-87ed-48eb-9e29-193c0b200451.pdf
+  - Q1 PPT: …Pname=1e4aab73-75ac-412f-86b9-99e186c722ca.pdf
+  - Corporate Presentation Oct-2026: …Pname=0247d415-3494-4b7a-a23a-435e3141e9d2.pdf
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/f5fba98c-ac6c-449d-ae61-6399e84b41dc.pdf
+- **IGL:**
+  - Q1 transcript: https://www.iglonline.net/uploads/announcement/Transcript%20of%20Conference%20Call%20-%20Aug%2014,%202026.pdf
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/4a0b4f92-33ab-42a9-9835-9d056332e300.pdf
+- **MGL:**
+  - Q1 transcript: …Pname=0ea88aca-7ee8-4c87-8c7f-beffab60a9ba.pdf
+  - Q1 PPT: …Pname=d44ebb1b-c892-4af1-8a57-3293f5fa739e.pdf
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/93b4c703-dd91-48d2-aa6f-4cd2d9eac75a.pdf
+- **Screener (consolidated pages for the five; MGL standalone):** https://www.screener.in/company/<NSE>/consolidated/ ; https://www.screener.in/company/MGL/
+- **PPAC:**
+  - Snapshot Oct-2026: https://ppac.gov.in/download.php?file=rep_studies/1792155544_Snapshot_of_India_Oil_and_Gas_Sept_2026_V3.pdf
+  - Ready Reckoner FY26: https://ppac.gov.in/download.php?file=rep_studies/1784899305_The_PPAC_Ready_Reckoner_FY_2025–26_Final.pdf
+- **World Bank CMO monthly:** https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx
+- **CRISIL, IRM Energy rationale (17-Aug-2026):** https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/IRMEnergyLimited_August 17_ 2026_RR_402822.html
+- **News pages (secondary):**
+  - AIR: https://newsonair.gov.in/cng-price-hiked-by-rs-3-89-kg-in-delhi-ncr/
+  - DT Next: https://www.dtnext.in/news/business/govt-withdraws-emergency-gas-curbs-imposed-during-hormuz-disruption-as-lng-supplies-normalise-2
+  - PSU Watch: https://psuwatch.com/newsupdates/pngrb-withdraws-notices-to-declare-54-cgd-networks-as-common-carriers
+  - Tank Terminals: https://tankterminals.com/news/qatar-extends-lng-force-majeure-as-hormuz-crisis-drags-on/
+- **Snippet-only:** marketsmojo (IGL shareholding); Goodreturns / Business Today (commercial LPG); Claims Journal / Moneylife / IANS (OFAC/SEC); Autocar Pro / Vahan Bazaar (CNG PV share); The Nation (Pakistan FM to 6-Nov).
+- **Scratch notes and raw text:** `/tmp/gas-distribution-deep/notes.md`, `/tmp/gas-distribution-deep/dl/*.txt`.
+
+*End of Part 4.*
