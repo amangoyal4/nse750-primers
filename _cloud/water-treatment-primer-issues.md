@@ -29,3 +29,37 @@
 - **enviro-infra-engineers.html — HQ:** "Faridabad (Haryana)–headquartered" — verify (not confirmed this session).
 - **enviro-infra-engineers.html — sewage figures:** "~72,000 MLD generated vs ~28,000 MLD installed" — CPCB (Mar-2021) gives **72,368 MLD generated, 31,841 MLD installed, 26,869 MLD operational, 20,235 MLD utilised**. Fix the installed number and label the year.
 - **General (all three):** none mentions the **FY26 JJM funding stop (₹0 central release; RE −75%)**, **JJM 2.0 (₹8.69 lakh Cr to Dec-2028; FY27 BE ₹67,670 Cr)**, or the **RBI repo hike to 5.50% (7-Oct-2026)**. Market caps are 1–3 months stale (Wabag −10%, Ion −5%, EIEL −13% vs primer figures).
+
+### From Water Treatment deep-research pass (2026-10-22, water-treatment-industry.md Part 4)
+
+**primers/va-tech-wabag.html**
+- **Yanbu value (replaces the Part 3 issue):** "~₹2,038 Cr" → **USD 272m ≈ ₹2,332 Cr (Jul-2025 re-award, 30-month EPC)**. Add that SWA cancelled the original Sep-2024 USD 317m (₹2,700 Cr) award on 16-Dec-2024 and Wabag was L1 in all three tender calls. Sources: Wabag Reg 30 (6-Sep-2024); AR FY26.
+- **Shareholding:** the "strategic investor 8.02%" is **Rekha Rakesh Jhunjhunwala (50 lakh shares, 8.0%)**; promoters are Rajiv Mittal 15.6% + S. Varadarajan 3.5%. Source: AR FY26 note 15.
+- **Perur:** "~₹4,300–4,400 Cr" → **₹4,400 Cr (with Metito), 42-month DBO + 20-yr O&M; Chennai to ~750 MLD, Wabag to run ~70%**. Source: AR FY26.
+- **Receivable risk understated:** add >3-yr overdue ₹225 Cr (₹46 Cr), ECL ₹103 Cr, non-current retention ₹648 Cr, indirect-tax contingents ₹228 Cr (₹101 Cr), TSGENCO ~₹140 Cr in arbitration (Supreme Court verdict in favour, further challenge possible).
+- **Order-book basis:** cite the audited **Ind AS 115 backlog ₹16,623 Cr (Mar-26) excluding ₹611 Cr framework contracts**. Burn ≈ 31% on an ex-framework opening.
+- **Guidance nuance:** FY27 EBITDA "realistically 13–14%" (band 13–15%); new five-year plan "Wriddhi 2.0" due May-2027; industrial order mix target 20–25%.
+- **Management:** add Deputy MD Bhupesh Chowdhary Nagineni and Rohan Mittal as KMP (21-May-2026).
+- **Kuwait:** state the scope as 36-month DB + 5-year O&M (96 months, KD 114.28m for the JV; Wabag share undisclosed).
+
+**primers/ion-exchange.html**
+- **Roha capacity:** add **42,600 m³/yr planned; 3,696 m³/yr live from 30-Sep-2025**. Roha term loan 8.30%, 20 quarterly instalments from 30-Sep-2026. The "~₹450 Cr capex" remains unsourced: mark it approximate. Source: AR FY26.
+- **"Import substitution" framing:** India is a **net exporter** of ion-exchange resins (HS 3914 exports $87.6m vs imports $66.8m, 2024; China 21% of imports). Reframe Roha as global share, North America and WQA.
+- **Legacy projects:** the primer names only UP JJM. Management says there is **at least one other large legacy project** plus smaller ones, and that UP will spill into FY28.
+- **Backlog quality:** Ind AS 115 RPO (>1-yr contracts) fell **₹1,870 → ₹1,467 Cr**; unbilled revenue ₹74 → ₹233 Cr; MSME payables ₹58 → ₹118 Cr; receivables >1 yr ₹103 → ₹153 Cr.
+- **Contingent:** the SEBI CIS claim of ₹22 Cr (Ion Exchange Enviro Farms legacy) is still open; mention it if the primer discusses governance.
+- **Guidance:** Specialty Chemicals "+50% over the next couple of years"; Roha asset turn just under 2× at full capacity (~4 years); consumer breakeven FY27; double-digit EBITDA "will take time".
+- **Ownership:** the only >5% holder is Rajesh Sharma (Executive Chairman) at 5.82%. Vice Chairmen are Aankur Patni and Dinesh Sharma (from Oct-2024); MD & CEO Indraneel Dutt (from Oct-2024).
+
+**primers/enviro-infra-engineers.html**
+- **HQ (replaces the Part 3 "verify" issue):** "Faridabad (Haryana)-headquartered" → **registered office Rohini, Delhi (RG Metro Arcade, Sector-11)**. Source: AR FY26.
+- **IPO facts:** 4,39,48,000 shares at ₹148 (≈₹650 Cr; fresh ≈₹571 Cr, OFS ≈₹78 Cr); listed **29-Nov-2024**; ₹58 Cr of proceeds still unutilised at Mar-26. Drop "~90× subscribed" unless sourced.
+- **HAM list:** name all five: Bareilly (done), **Mathura (near completion)**, Saharanpur (3/8 milestones), Varanasi Lohta and DDU Nagar (start Oct–Nov 2026).
+- **Suyog terms:** ₹311 Cr for 100%; 51% upfront (₹111 Cr); 49% phased to 31-Jul-2028 in two KPI-linked tranches; Suyog order book ₹645 Cr at signing; SPA 28-Apr-2026.
+- **Working capital:** replace the "debtor days" framing with **unbilled revenue ₹608 Cr (53% of FY26 revenue; ₹266 Cr a year earlier)** + SCA receivables ₹251 Cr; bank guarantees ₹513 Cr (₹246 Cr).
+- **Governance:** add the **₹11.15 Cr cyber fraud (Jun–Jul 2025)** reported by the auditors under s.143(12), largely absorbed by the promoters' ₹8 Cr salary waiver (net ~₹0.75 Cr).
+- **Guidance:** add the FY27 PAT guide ₹260–270 Cr, FY27 order-inflow guide ~₹2,500 Cr, and quarterly phasing 20/20/20/40.
+- **CBG:** say "CBG plants being installed at the Jodhpur and Jaipur STPs (Rajasthan)". Capacity is not disclosed.
+
+**General (all three):** replace "India's sewage treated ~28%" with "28% (CPCB/NITI) to 43% (MoHUA estimate)". Add AMRUT 2.0's 658 of 6,815 MLD operational and its **extension to Mar-2027**. Cite JJM 2.0 from the Cabinet release (₹8.69 lakh Cr; central ₹3.59 lakh Cr; 81.61% on 10-Mar-2026).
+

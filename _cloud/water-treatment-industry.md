@@ -914,3 +914,637 @@ All aggregates are **straight sums of the company rows above on one basis: scree
 - **EIEL Varanasi HAM [V-snip]:** https://www.angelone.in/news/stocks/enviro-infra-engineer-secures-256-92-crore-epc-orders-for-energy-efficient-sewage-treatment-infrastructure
 - **Market size [V-snip]:** https://www.marketsandmarkets.com/Market-Reports/geography/wastewater-treatment-service-market/India · https://www.giiresearch.com/report/moi2120739-india-water-wastewater-treatment-wwt-technology.html
 - **Desal capacity [V-snip]:** https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2025.1672360/full · https://www.arabnews.com/node/2647115
+
+---
+
+# PART 4 — Deep-research supplement (22-Oct-2026)
+
+Compiled 22-Oct-2026 (second, primary-source pass). This part sits on top of Parts 1–3. Where it conflicts with them, **Part 4 wins** (see 4.0).
+
+**What was fetched this session.** About 50 web calls. Every [V] in Part 4 was fetched this session from the source named.
+- **Company documents (BSE PDFs):**
+  - FY26 annual reports of all three companies (Wabag AR 2025-26, Board report dated 21-May-2026; Ion Exchange AR 2025-26; EIEL Integrated AR 2025-26).
+  - Q1 FY27 earnings-call transcripts of all three, read in full: Wabag 13-Aug-2026 (filed 19-Aug); Ion Exchange 10-Aug-2026 (filed 17-Aug); EIEL 12-Aug-2026 (filed 17-Aug).
+  - Wabag's Reg 30 intimation of 6-Sep-2024 (Yanbu).
+  - EIEL's Red Herring Prospectus (SEBI, Nov-2024).
+- **Market data:** screener.in consolidated pages (22-Oct-2026, re-pulled).
+- **Government and policy:** PM India / PIB release on JJM 2.0 (10-Mar-2026); PIB AMRUT document (Jun-2025); PRS Standing Committee summary on AMRUT sewerage (31-Aug-2026); PRS DfG 2025-26 Jal Shakti.
+- **Trade data:** UN Comtrade public API (India, HS 3914, 2023–24).
+- **Global peers:** Veolia FY2025 results release; Xylem FY2025 results release.
+- **Snippet-level only:** web searches for the Kuwait contract, the Yanbu cancellation and re-award, the Gulf desalination strikes, GST, global desalination capacity and Assocham. These are tagged [V-snip].
+- **Not reachable:**
+  - bseindia.com announcement API (Access Denied) and BSE announcement listings: Q2 board dates were therefore checked on screener's BSE-announcement feed.
+  - CPCB report PDF, rsdebate/eparlib PDFs, the JJM dashboard (JavaScript-only), the NMCG/peyjal HAM PDF and the IFC NMCG deck (bot walls).
+  - tradestat.commerce.gov.in (form-driven): UN Comtrade used instead.
+
+**Q2 FY27 status re-checked (22-Oct-2026, screener BSE feed) [V]: still no board-meeting intimation for any of the three.**
+
+| Company | Latest filings seen | Last order / Reg 30 since August |
+|---|---|---|
+| Wabag | Reg 74(5) certificate (7-Oct); ESOP allotment of 23,261 shares (6-Oct); trading window closed (28-Sep) | RIL Jamnagar ETP repeat order, medium (7-Sep-2026) |
+| Ion Exchange | ESOP trust deed (9-Oct); Reg 74(5) (8-Oct); newspaper publication (6-Oct); trading window closed (28-Sep); postal-ballot scrutiniser report (11-Sep) | No new order filing after Hyundai (10-Jul) |
+| EIEL | ESOP grant of 3,17,489 options (17-Oct); Suyog Ajani 100 MW wind LOI ₹228 Cr (14/15-Oct); Reg 74(5) (6-Oct); trading window closed from 1-Oct (28-Sep) | Suyog Ajani LOI (14/15-Oct) |
+
+- EIEL's trading-window notice says "until 48 hours after Q2 FY26 results", a typo for Q2 FY27.
+- Expected dates are unchanged from Part 1: early to mid November 2026 [E].
+
+## 4.0 Supersedes (corrections to Parts 1–3 — the writer must apply these)
+
+| # | Topic (Part ref) | Old (Parts 1–3) | New | Source |
+|---|---|---|---|---|
+| 1 | **Yanbu 300 MLD value** (trap 9, §H-1, §G, primer) | Three conflicting values: $317m (Sep-24), $272m/₹2,332 Cr (Jul-25), ₹2,038 Cr (primer); "unresolved" | The **Sep-2024 award (USD 317m ≈ SAR 1,190m ≈ ₹2,700 Cr) was for the same 300 MLD plant**. SWA **cancelled that tender on 16-Dec-2024** "under internal administrative procedures"; Wabag's stock fell ~19% that day. The tender was **re-run**. Wabag says it was **"L1 in all three calls of the tender"** and that the project was "re-tendered multiple times". The **effective award is Jul-2025: USD 272m ≈ SAR 1,019m ≈ ₹2,332 Cr, 30-month execution.** Use $272m / ₹2,332 Cr. The primer's ₹2,038 Cr matches neither filing and should be replaced. | Wabag Reg 30, 6-Sep-2024 [V BSE PDF]; Wabag AR FY26 p.66 (L1 in all three calls; re-tendered) [V]; cancellation and Jul-25 values [V-snip Business Standard 18-Dec-2024 / 24-Jul-2025] |
+| 2 | **Wabag "strategic investor" 8.02%** (§H-15, 2.1) | Identity not verified | **Ms. Rekha Rakesh Jhunjhunwala — 50,00,000 shares = 8.0%** (Mar-26 and Mar-25; unchanged). The only >5% holders are Rajiv Mittal (97,09,406 shares; 15.6%) and her. Promoters = Rajiv Mittal 15.6% + S. Varadarajan 3.5% = 19.1%. | Wabag AR FY26, consolidated note 15(b)/(c) [V] |
+| 3 | **Perur 400 MLD value / terms** (§H-3, B2) | ₹4,276–4,400 Cr (various), share unknown, completion "Dec-2026" vs "next few quarters" | **"Worth INR 4,400 Crores"**, executed "along with METITO Overseas Ltd"; the **largest order in Wabag's history**; **42-month DBO + 20 years O&M**. Takes Chennai's desal capacity to **~750 MLD**, with Wabag running **~70% of Chennai's desalinated water**. Progress at AR date (May-26): engineering 95%, procurement ordering 99.6%, marine works 94%, civil 75.24%; all foreign supplies delivered ahead of schedule. Aug-26 call: "75% there or more", 1 lakh m³ concreting, commissioning "over the next few quarters"; Perur O&M "next year" (FY28). **Wabag's share of the JV is still not disclosed.** | Wabag AR FY26 (India cluster, Perur) [V]; Q1 FY27 call [V] |
+| 4 | **Ion resin capacity** (§4.3, §H-10, B3) | "Absolute capacity not disclosed" | **Roha total planned capacity 42,600 m³/yr.** A first portion of **3,696 m³/yr started 30-Sep-2025**. Management (Aug-26): Phase I doubles capacity vs the original Ankleshwar baseline; Phase II + de-bottlenecking at both sites → ~5× the original. Ankleshwar's absolute capacity is still not disclosed; ~10,000–12,000 m³/yr is *implied* [E]. **Roha term loan at 8.30%, repayable in 20 equal quarterly instalments from 30-Sep-2026.** Roha capex is still not stated as a number. | Ion AR FY26 (secretarial audit report; borrowings note) [V]; Q1 FY27 call [V] |
+| 5 | **"India is a net importer of ion-exchange resins (HS 3914)"** (§5.3) [K] | Net importer; no data | **India is a net *exporter* of HS 3914 by value.** Imports: **2023 $53.3m; 2024 $66.8m**. Exports: **2023 $84.1m (21,451 t); 2024 $87.6m (24,292 t)**. China's share of imports by value: **17% (2023) → 21% (2024, $14.2m)**. Sweden was the top source in 2024 (30%, $20.2m), then China, USA 11%, Romania 10%, France 7%, Japan 5%, Germany 4%. | UN Comtrade public API, reporter India, HS 3914 [V] |
+| 6 | **EIEL headquarters** (§H-14, 3.3, primer) | "Faridabad (Haryana)" (primer); "believed Delhi" | **Registered office: Unit No. 201, 2nd Floor, Plot No. B, CSC/OCF-01, RG Metro Arcade, Sector-11, Rohini, Delhi (North West) 110085**; CIN L37003DL2009PLC191418. Call it "Delhi-headquartered" unless a separate corporate office is sourced. | EIEL AR FY26 (corporate information; secretarial certificate) [V] |
+| 7 | **EIEL's five HAM projects** (§H-13 adj., 2.5-8) | Fifth project "unnamed" | **(1) Bareilly 63 MLD — completed (2024); (2) Mathura (60 MLD) — "on the verge of completion"; (3) Saharanpur 135 MLD — 3 of 8 milestones done, "ahead of time"; (4) Varanasi Lohta 60 MLD ₹130.1 Cr and (5) DDU Nagar 45 MLD ₹126.8 Cr — works to start Oct–Nov 2026.** Bids are in for two more HAM STPs. | EIEL Q1 FY27 call [V]; RHP use of proceeds (EIEL Mathura Infra Engineers SPV, 60 MLD Mathura) [V] |
+| 8 | **Suyog Urja deal terms** (Part 1 note 1, 2.3) | ₹311 Cr: ₹111 Cr paid + ₹100 Cr second tranche ~Jul-2027 | Share Purchase and Option Agreement dated **28-Apr-2026**: **₹311 Cr for 100%**. **51% bought upfront (₹111 Cr)**; the **balance 49% is phased, to be completed by 31-Jul-2028**. There are **three tranches**: the 2nd (~₹100 Cr, KPI-linked to revenue, PAT and order book) comes after FY27 (~Jul-2027), and the 3rd after FY28. Funding is internal accruals + acquisition debt. Suyog's order book at signing was **₹645 Cr**. FY27 Suyog revenue guide ₹400–450 Cr at 15–16% EBITDA / 12%+ PAT. | EIEL AR FY26 (subsequent-events note) [V]; Q1 FY27 call [V] |
+| 9 | **AMRUT 2.0 status beyond Mar-2026** (§7.1, §H-6) | "Not verified" | **Extended to March 2027.** Central assistance: **₹66,060 Cr committed, ₹22,763 Cr released (34%)**. Sewerage/septage: **594 projects, 104 completed, 398 under implementation**. | PRS Standing Committee summary (report presented 4-Aug-2026; summary 31-Aug-2026) [V] |
+| 10 | **AMRUT 2.0 sewage MLD** (§H-6) | "Not found" | **STP capacity approved 6,739 MLD** (592 sewerage/septage projects worth ₹67,607.67 Cr; Jun-2025). **Taken up 6,815 MLD, operational only 658 MLD** (Aug-2026). AMRUT-1 by comparison: 5,396 of 6,299 MLD operational. WTP capacity approved under AMRUT 2.0: **10,647 MLD** (Part 1's "11,769 MLD" was snippet-sourced; use 10,647 MLD as of Jun-2025). | PIB AMRUT document (Jun-2025) [V]; PRS SCR summary [V] |
+| 11 | **JJM 2.0 numbers** (§0, §7.1) | ₹8.69 lakh Cr / ₹3.59 lakh Cr [V-snip]; "launch central ₹2.09 lakh Cr" | **Cabinet approval 10-Mar-2026:** total outlay **₹8.69 lakh Cr**; central assistance **₹3.59 lakh Cr, up from ₹2.08 lakh Cr approved in 2019-20 (+₹1.51 lakh Cr)**. Coverage then: **15.80 crore of 19.36 crore households = 81.61%**, from a baseline of 3.23 crore (17%). Target: all 19.36 crore by **Dec-2028**. New "Sujalam Bharat" digital ID, "Jal Arpan" handover, and **GP "Har Ghar Jal" certification only after O&M mechanisms are in place**. The "82.19% (Aug-2026)" figure stays [V-snip]. | PM India / PIB release, 10-Mar-2026 [V] |
+| 12 | **EIEL "other current financial assets ₹691 Cr"** (trap 4) | Treated as unbilled + retention, unsplit | Split (Mar-26 vs Mar-25): **unbilled revenue ₹608.0 Cr gross (₹265.6 Cr)**, less ECL ₹10.2 Cr; **retention & withheld ₹66.7 Cr (₹74.1 Cr)**, less ECL ₹5.3 Cr; **service-concession receivable (current) ₹11.8 Cr (₹31.9 Cr)**; EMD ₹13.9 Cr. Non-current: **SCA receivable ₹238.8 Cr (₹152.0 Cr)**, retention ₹10.3 Cr, pledged FDs ₹47.8 Cr. **The working-capital problem is unbilled work (53% of FY26 revenue; 2.3× in a year), not overdue bills.** | EIEL AR FY26, consolidated notes 8 & 16 [V] |
+| 13 | **Wabag order-book bridge FY26** (§C.1, E-9) | 13,667 → +7,471 − 3,944 → 17,235 incl. framework | Audited RPO (Ind AS 115): **opening ₹12,483.7 Cr + orders ₹7,470.8 Cr − revenue ₹3,908.4 Cr + FX & variations ₹577.3 Cr = closing ₹16,623.4 Cr, excluding framework contracts of ₹611.4 Cr** (Mar-25: ₹1,183.0 Cr). Construction contracts run up to 3.5 years; O&M 1–20 years. The opening figure ex-framework was ₹12,484 Cr (not ₹13,667 Cr, which included ₹1,183 Cr of framework). Recompute burn: **3,908 ÷ 12,484 = 31%** [E]. | Wabag AR FY26, consolidated note 23 B/C [V] |
+| 14 | **Wabag framework orders** | "₹611 Cr Libya framework" | The CFO says **two** framework orders were removed (~₹600 Cr), "signed, stamp duty paid, waiting for effectiveness". The AR calls them contracts "wherein advance monies/letters of credit are awaited". Part 1's Libya attribution covers at least one of them. | Q1 FY27 call [V]; AR note 23 [V] |
+| 15 | **Kuwait Doha SWRO II scope** (§H-2, C.4) | $372m JV; O&M inclusion unknown | Tender **MEW 16/2024/2025**, approved by Kuwait's Central Agency for Public Tenders for the **Wabag–HEISCO JV**. **KD 114.28m is the total contract over 96 months = 36-month design-build + 5-year O&M**; signed 25-Aug-2026; first pursued by Wabag in 2020 [AR V]. **Wabag's share of the JV value is still undisclosed**; the company's Reg 30 PDF was not reachable. Wabag describes it as Design-Build-Operate with "technology and procurement component significantly higher" (call). | [V-snip MEED/Angel One/constructionworld]; AR FY26 [V]; Q1 call [V] |
+| 16 | **Ion "legacy project" = UP SWSM only** (2.2) | Only UP JJM job named | Management: **apart from UP there is "at least one other large project" plus "a few smaller ones"**. The big one should make "significant progress" by end-FY27. UP is purely funding-driven, will spill into FY28, and Ion "do[es] not want to increase our exposure… to more receivables unless and until the funds flow". UP unexecuted is still ~11% of the ₹2,473 Cr book. | Ion Q1 FY27 call [V] |
+| 17 | **EIEL FY27 PAT guide** (2.3) | Revenue ~₹2,000 Cr; margins only | Add: **FY27 PAT ₹260–270 Cr** (MD: "100% right"); order-inflow guide **~₹2,500 Cr** (₹256 Cr won so far); revenue phasing ~20/20/20/40% by quarter; FY26 bid strike rate ~20%. | EIEL Q1 FY27 call [V] |
+| 18 | **GST on government water/sewerage works** (§7.3, §H-16) | "12% → 18% in GST 2.0?" | The concessional 12% entry for water supply, water treatment and sewerage works (Sch. S.No.3(iii)) was **omitted w.e.f. 18-Jul-2022 (Notfn 03/2022-CTR)**. Works contracts to government authorities generally moved to **18% from 1-Jan-2022 (Notfn 15/2021)**. So these works were **already at 18% before GST 2.0**. Whether GST 2.0 (22-Sep-2025) changed anything for them is **not verified**. | [V-snip AAR rulings / tax portals]; CBIC text not fetched |
+| 19 | **Chennai desalination after Perur** (§2.3) | "~750–800 MLD" | **~750 MLD** (Wabag AR). Keep Minjur 100 / Nemmeli I 100(110) / Nemmeli II 150 as [K]. | Wabag AR FY26 [V] |
+| 20 | **EIEL IPO structure** (§8, §G) | "₹148 (₹140–148); ~90× subscribed" | **4,39,48,000 shares at ₹148** (employee portion 1,00,000 shares at ₹135) = **fresh 3,85,80,000 (≈₹571 Cr) + OFS 52,68,000 (≈₹78 Cr) → ≈₹650 Cr**. **Listed NSE/BSE 29-Nov-2024**; issue expenses ₹46.2 Cr. **Unutilised proceeds ₹58.3 Cr in FDs at Mar-26** (₹235.5 Cr at Mar-25). Price band ₹140–148 [V-snip BS]. The "~90×" subscription figure is unverified (one aggregator shows ~52×): drop it or say "heavily oversubscribed". | EIEL AR FY26 note 20(g) [V]; RHP [V] |
+| 21 | **HAM mechanics** (§6, C.2) | 40% construction / 60% annuity over 15 yrs; interest formula [K] | Confirmed: **developer funds 60% of capex + O&M; government pays 40% during construction; the 60% is reimbursed over typically 15 years with interest** (RHP). EIEL: **NMCG is the funding agency and UP Jal Nigam the department**. The pre-construction phase is ~5.5 months (1.5 months to form the SPV + 4 months for design and financial closure). Construction takes 18–24 months, then **3 months' stabilisation to COD**. After that, "O&M payments along with the annuity along with interest" are paid **quarterly** for 15 years. **The interest formula for NMCG HAM is still not verified.** NHAI's road HAM uses **bank rate + 3%** on the reducing balance [V-snip CARE]; do not transpose this to NMCG without a source. | RHP industry chapter [V]; EIEL Q1 call [V] |
+| 22 | **Wabag CBG** (1.1) | "CBG BOT order in UP" | The UP CBG BOT sits in **Ghaziabad Bio Energy Pvt Ltd, a joint venture from 16-Feb-2026** (equity-accounted). | Wabag AR FY26 note 38 [V] |
+| 23 | **Ion Exchange "Hyundai $52.83m"** | [V-snip] | Management confirms the Hyundai E&C win (~$52m, "INR 500-plus crores"). It is **supplied FOB Mumbai** to an EPC contractor (an analyst says the end site is in Iraq; not confirmed by the company) and is **excluded** from the Jun-26 ₹2,473 Cr book. Management calls it "a lot less risky version of a solution". | Ion Q1 FY27 call [V] |
+| 24 | **Gulf desal strike dates** (§0, §7.5, §H) | "Bahrain early March; Kuwait ~17–21 Jul" | **Bahrain: 8-Mar-2026** (desalination plant damaged by drone; 3 injured). **Kuwait: 3-Apr-2026** (power and desalination plant; IRGC denied) and **~5-Apr** (two power-and-water plants damaged). **Kuwait again mid-July 2026** (AP: attacks on consecutive days, ~16–21 Jul). **No Saudi desal plant strike found.** Plants are not named in the sources. | [V-snip Al Jazeera 8-Mar/3-Apr/5-Apr; AP via Las Vegas Sun Jul-2026] |
+| 25 | **Wabag ROCE basis** (2.1) | Company ROCE 19.4% (deck) | Consolidated AR "analytical ratios" show **ROCE 18.6% (FY25 16.9%) and ROE 15.7%** (EBIT ÷ capital employed). The deck's 19.4% uses a different basis. Screener 21%. Always label the basis. | Wabag AR FY26 note 47 [V] |
+| 26 | **Wabag "1,500+ plants" vs "7,000 plants"** | 1,500+ since 1995 | Rohan Mittal on the call: "we have built 7,000 plants" (group history since 1924). The deck/AR say 1,500+ since 1995. Use "1,500+ since 1995 (6,500+ group history)" only if sourced; safest is "1,500+ since 1995". | Q1 call [V]; deck [V Part 1] |
+
+## 4.1 Verification table — 40 argument-carrying figures
+
+Key: **[V]** = fetched this session from the named primary or near-primary document. "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Source (fetched?) | Agrees with Parts 1–3? |
+|---|---|---|---|---|
+| 1 | JJM 2.0 total outlay | ₹8.69 lakh Cr (to Dec-2028) | PM India/PIB Cabinet release 10-Mar-2026 — **[V]** | Yes (was V-snip) |
+| 2 | JJM 2.0 central assistance | ₹3.59 lakh Cr (from ₹2.08 lakh Cr in 2019-20; +₹1.51 lakh Cr) | Same — **[V]** | Yes; "₹2.09" in PRS → ₹2.08 in the Cabinet text |
+| 3 | Rural tap coverage at JJM 2.0 approval | 15.80 crore / 19.36 crore = 81.61% (Mar-2026) | Same — **[V]** | Consistent with "~81.7% Mar-2026" |
+| 4 | Rural tap coverage, Aug-2026 | 82.19% (15.90 crore) | Lok Sabha answer via press — [V-snip]; JJM dashboard is JS-only | Unverified; keep with tag |
+| 5 | JJM baseline (Aug-2019) | 3.23 crore households (17%) | PIB 10-Mar-2026 — **[V]** | Yes |
+| 6 | JJM actual spend FY24 / RE FY25 / BE FY26 | ₹69,992 Cr / ₹22,694 Cr / ₹67,000 Cr | PRS DfG 2025-26 — **[V]** | Yes (FY25 actual ₹22,615 Cr in PRS 2026-27) |
+| 7 | JJM FY26 RE / FY27 BE | ₹17,000 Cr / ₹67,670 Cr | PRS DfG 2026-27 — [V in Part 1, not re-fetched] | Yes |
+| 8 | Assocham JJM arrears | Certified bills unpaid 10–12 months (UP, MP, Jharkhand, Odisha, WB, Maharashtra, Assam, J&K); letter Sep-2025, reported 14-Oct-2025 | The Week/PTI wire — [V-snip] | Yes; month corrected to Sep letter / Oct report |
+| 9 | AMRUT 2.0 outlay | ₹2,99,000 Cr incl. central ₹76,760 Cr (5 yrs); launched 1-Oct-2021 | PIB AMRUT document Jun-2025 — **[V]** | Yes (was K) |
+| 10 | AMRUT 2.0 extension | To Mar-2027 | PRS SCR summary 31-Aug-2026 — **[V]** | New (was FLAG) |
+| 11 | AMRUT 2.0 STP capacity | 6,739 MLD approved (Jun-25); 6,815 MLD taken up, 658 MLD operational (Aug-26) | PIB [V]; PRS **[V]** | New |
+| 12 | AMRUT 2.0 central release | ₹22,763 Cr of ₹66,060 Cr committed (34%) | PRS SCR summary — **[V]** | New |
+| 13 | AMRUT 2.0 approvals ₹1.97 lakh Cr (8,777 projects) | Not re-fetched. PIB Jun-25: AMRUT + AMRUT 2.0 sanctioned ₹2.73 lakh Cr; 2.0 water ₹1.14 lakh Cr + sewerage ₹67,608 Cr | [V-snip] for 1.97; PIB **[V]** for the components | Plausible (₹1.14 + 0.68 lakh Cr = ₹1.82 lakh Cr in Jun-25) |
+| 14 | Sewage generated / installed / operational / treated | 72,368 / 31,841 / 26,869 / 20,236 MLD (CPCB, 2020-21 data, report Mar-2021) | EIEL RHP industry chapter (SEBI filing) — **[V]**; CPCB PDF not reachable | Yes (20,235 vs 20,236: rounding) |
+| 15 | Share of wastewater treated | 28% (NITI Aayog 2022) vs 43% (MoHUA estimate) | PRS SCR summary — **[V]** | Adds the conflicting official estimate |
+| 16 | Treated-water reuse | 6,013 MLD of 22,891 MLD treatment capacity (26%) | PRS SCR summary — **[V]** | New |
+| 17 | HAM structure | Govt 40% during construction; developer 60% + O&M, repaid over ~15 yrs with interest; quarterly annuity + interest + O&M after COD | RHP **[V]**; EIEL call **[V]** | Yes; interest formula still K |
+| 18 | Wabag Yanbu, first award | USD 317m ≈ SAR 1,190m ≈ ₹2,700 Cr (6-Sep-2024) | Wabag Reg 30 PDF — **[V]** | Yes |
+| 19 | Wabag Yanbu, effective award | USD 272m ≈ SAR 1,019m ≈ ₹2,332 Cr (Jul-2025); 30 months | Press of filing — [V-snip]; AR confirms re-tender and L1 in all three calls **[V]** | Resolves §H-1 |
+| 20 | Perur value / structure | ₹4,400 Cr; Wabag + Metito; 42-month DBO + 20-yr O&M | Wabag AR FY26 — **[V]** | Narrows the ₹4,276–4,400 Cr range |
+| 21 | Chennai desal after Perur | ~750 MLD; Wabag ~70% | Wabag AR FY26 — **[V]** | Yes |
+| 22 | Kuwait Doha SWRO II | KD 114.28m JV (≈$372m); 36-month build + 5-yr O&M (96 months); signed 25-Aug-2026 | [V-snip MEED/press]; AR "first pursued 2020" **[V]** | Yes; scope now known, Wabag share still not |
+| 23 | Wabag order book Jun-26 | ₹19,400 Cr; 66% EPC / 34% O&M; ~50:50 India/intl; ME 35–40% | Q1 call — **[V]** | Yes |
+| 24 | Wabag audited RPO Mar-26 | ₹16,623.4 Cr excl. framework ₹611.4 Cr | AR note 23 — **[V]** | Yes |
+| 25 | Wabag strategic investor | Rekha Rakesh Jhunjhunwala 8.0% | AR note 15 — **[V]** | Fills §H-15 |
+| 26 | Wabag non-current retention | ₹648.1 Cr (₹595.1 Cr), of which disputed ₹61.0 Cr | AR note 7 — **[V]** | Yes (Part 1: ₹648 Cr non-current receivables) |
+| 27 | Wabag receivables > 3 yrs overdue | ₹224.9 Cr (Mar-25 ₹46.2 Cr); ECL ₹103.3 Cr (₹56.9 Cr) | AR note 7 — **[V]** | New |
+| 28 | Wabag contingent indirect tax | ₹227.9 Cr (₹101.1 Cr); income tax ₹19.3 Cr (₹6.6 Cr) | AR note 46 — **[V]** | New |
+| 29 | Ion Roha capacity | 42,600 m³/yr planned; 3,696 m³/yr from 30-Sep-2025 | Ion AR FY26 — **[V]** | Fills §H-10 |
+| 30 | Ion UP JJM share of backlog | ~11% of ₹2,473 Cr (Jun-26) | Q1 call — **[V]** | Yes |
+| 31 | Ion Hyundai order | ~$52m ("INR 500-plus crores"), FOB Mumbai, excluded from OB | Q1 call **[V]**; $52.83m exact [V-snip] | Yes |
+| 32 | Oman PDO DBOOT | OMR 73.46m, 20-yr | Ion FY26 deck (Part 1 [V]); call confirms "20-year O&M concession" **[V]** | Yes |
+| 33 | India HS 3914 trade 2024 | Imports $66.8m (China 21%); exports $87.6m | UN Comtrade — **[V]** | **Supersedes "net importer" [K]** |
+| 34 | EIEL IPO | 4,39,48,000 sh at ₹148 ≈ ₹650 Cr; fresh ≈ ₹571 Cr; listed 29-Nov-2024 | EIEL AR note 20(g) — **[V]** | Yes (the ~90× figure unverified) |
+| 35 | EIEL Suyog | ₹311 Cr for 100%; 51% upfront; rest by 31-Jul-2028 | EIEL AR + call — **[V]** | Refines |
+| 36 | EIEL unbilled revenue | ₹608.0 Cr (₹265.6 Cr) | EIEL AR note 16 — **[V]** | New split |
+| 37 | EIEL NTPC BESS | 930 MWh, ₹963.1 Cr; procurement from Q3 FY27 | Q1 deck (Part 1 [V]); call **[V]** (930 MWh, Q3 procurement) | Yes |
+| 38 | Retention money "5–10% of running bills" | Not verifiable as a %. Balance-sheet evidence: Wabag retention ₹733 Cr (current ₹84.8 + NC ₹648.1); EIEL ₹77 Cr; Ion n.d. | ARs **[V]** (amounts) / [K] (%) | Keep % as [K] |
+| 39 | Veolia FY2025 | Revenue €44,396m; EBITDA €7,050m (≈15.9%); Water Technologies €4,954m (+3.6%) | Veolia results release — **[V]** | Replaces "~€44–45bn, ~15%" [K] |
+| 40 | Xylem FY2025 | Revenue $9.0bn (+5% organic); adj. EPS $5.08; 2026 guide $9.1–9.2bn | Xylem results release — **[V]** | Replaces "~$8.5bn (2024)" [K] |
+
+**Count:**
+- **32 of 40 are [V]** (fetched this session).
+- Of those, **31 are from primary or near-primary documents**: company ARs, transcripts and Reg 30 filings; PIB/PM India; PRS; the SEBI-filed RHP; UN Comtrade; peer results releases.
+- **#7 rests on Part 1's [V] (PRS 2026-27), not on this session.**
+- **#4, #8, #22 and #19's value are [V-snip].**
+
+**Credibility notes on conflicts:**
+- **CPCB sewage:** the RHP reproduces the CPCB numbers, so it is not an independent second source. The PRS committee summary adds a genuinely different estimate (28% NITI vs 43% MoHUA). Present treated share as "28–43% depending on the estimate; CPCB's last national inventory (2020-21 data) shows 28%".
+- **Yanbu:** the Reg 30 PDF (Sep-24) and the AR (re-tender, three calls) are primary. The Jul-25 USD 272m comes from multiple outlets quoting the filing, so it is credible.
+- **Tap coverage:** the PIB figure (81.61%, Mar-26) is primary. The Aug-26 82.19% is plausible (+0.6 pp in 5 months) but snippet-only.
+
+## 4.2 Company deep dives
+
+### 4.2.1 Va Tech Wabag (WABAG · 533269)
+
+**(a) Management-guidance digest — Q1 FY27 call, 13-Aug-2026.** Speakers: Skandaprasad Seetharaman (Group CFO) and Rohan Mittal (Head – Strategy & Business Growth, GCC); transcript filed 19-Aug-2026 [V]. All points are paraphrased.
+
+- **Growth:** FY27 revenue growth guidance of **15–20%** reiterated ("we are always delivering on the higher side"); Q1 was +21%.
+- **Margin:** the medium-term band is **13–15% EBITDA (company basis, incl. FX)**. Realistically "13–14% this year", moving toward 15%+ with scale. A new five-year plan, **"Wriddhi 2.0"**, will be presented at the annual investor meet in **May-2027**.
+- **Order book:** **₹19,400 Cr (~$1.8bn), >4× revenue.** All of it is "effective"; the two framework orders (~₹600 Cr) were removed. Mix **66% EPC / 34% O&M; ~50:50 India/international; Middle East 35–40%**. Q1 intake >₹3,400 Cr (EPC ~₹2,960 Cr, O&M ~₹470 Cr; **77% international**).
+- **Execution cycle:** international EPC **24–30 months**; India **~36 months+**. The EPC backlog executes over **~36 months**; the O&M backlog equals **7–10 years** of recurring revenue.
+- **Working capital:** NWC days fell 130 → 120 → 110 → ~100 over three years. **100–110 days is "doing very well"**; international mix improves it.
+- **Forex:** gains are **transactional, not translation**; there are no FX loans; a natural hedge plus PCFC covers the rest. The CFO **rejects ex-FX margin analysis** (the analyst's figures were 15.8% → 8.9%). Contracts are in USD, EUR or USD-pegged currencies (SAR, QAR, KWD).
+- **Pipeline:** Middle East & Africa **$2–3bn**; India **$1–1.5bn**. Projects followed total ~₹20,000–25,000 Cr over ~18 months. **Hadda (KSA) — preferred EPC partner**, plus "a few other projects where we are in a preferred situation".
+- **War:** projects are "far away from any of these strike zones"; **force-majeure letters** cover price increases and time delays; "no material concerns". BAPCO O&M kept running through force-majeure conditions.
+- **Margin mix:** design-build/EP earns better margins because "construction for us is a pass-through". Target **≥10–20% of revenue from EP** (once one-third).
+- **Industrial:** target **20–25% of order intake** from industrial (now 12–13% of backlog; ~30% of revenue until FY24-25). About 90% of traditional industrial is oil & gas. New industries (UPW for solar and semiconductors, data centres, green H₂) are a "decadal view": 1–2 orders in 12–18 months.
+
+**(b) Seven analyst Q&A points [V transcript]**
+
+1. **Other expenses rose** because of a **new, stricter provisioning policy** for delays or anticipated defaults. Provisions are reversible on collection. Read with the AR: ECL ₹103 Cr vs ₹57 Cr; FY26 impairment charge ₹46.4 Cr.
+2. **₹5.5 Cr share of associates profit** comes from HAM SPVs moving from construction to O&M (risk releases). It will recur, but not at exactly this level.
+3. **TSGENCO arbitration (~₹140 Cr receivable):** the Supreme Court verdict is in Wabag's favour, but further challenges are possible; no recovery timeline given.
+4. **Kodungaiyur 45 MLD TTRO (20-yr):** agreement signed and project report with the PE. The plan is **1.5 years of refurbishment + 18.5 years of O&M**; Wabag keeps running the plant meanwhile.
+5. **O&M grew only 7% YoY.** It grows as EPC projects complete: Ghaziabad and Digha-Kankarbagh are now in O&M; Perur follows next year. Judge it on a 2–3-year view.
+6. **Saudi:** "no slowdown". **Sharakat (ex-SWPC)** has announced a series of projects; **2027 is the "Year of Water"**; Wabag has more than six active enquiries; the NWC long-term O&M (LTOM) result is not yet published.
+7. **Competition:** "European quality at Indian prices". Workforce in Turkey, Egypt and India gives an overhead edge over Spanish and French rivals. Captive IP: **patented flat valves** shrink filter sizes.
+
+Also from the call:
+- **Perur:** completion "75% or more"; revenue recognised to date not disclosed.
+- **Delhi/Yamuna:** Mitraon order; Wabag will be selective.
+- **New sectors:** RenewSys UPW, Indosol 100 MLD desal (EP basis), Ghaziabad CBG.
+
+**(c) Concall KPI table (Q1 FY27) [V call/deck]**
+
+| KPI | Q1 FY27 | Q1 FY26 / ref |
+|---|---|---|
+| Revenue (₹ Cr) | 887 (+20.8%) | 734 |
+| EBITDA incl. FX (₹ Cr, %) | 116 (13.1%) | 96 (13.0%) |
+| EBITDA ex-FX (screener OP) | 80 (9.0%) | 96 (13%) |
+| PAT (₹ Cr) | 90 (+36.9%) | 66 |
+| Standalone revenue / EBITDA / PAT | 739 / 105 / 79 | — |
+| Order intake (₹ Cr) | ~3,431 (77% intl) | FY26 7,471 |
+| Order book (₹ Cr) | 19,394 (EPC 66% by call; deck EPC 12,728 / O&M 6,666) | Mar-26 16,623 ex-framework |
+| Revenue mix | EPC 82 / O&M 18; India 48 / overseas 52 | FY26 83/17; 48/52 |
+| Net cash ex-HAM (₹ Cr) | 965 (14th straight quarter) | Mar-26 950 |
+| NWC days | 108 | FY26 104 |
+| ROCE / ROE | 19.6% / 16% | FY26 company 19.4% / 15.7% |
+
+**(d) Five-year history (screener consolidated, ₹ Cr) [V screener 22-Oct-26]**
+
+| FY | Revenue | OP | OPM | PAT | ROCE | CFO | Debtor days | WC days |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 2,979 | 234 | 8% | 132 | 13% | 12 | 162 | 45 |
+| FY23 | 2,960 | 318 | 11% | 11 (write-off; other income −226) | 20% | 85 | 186 | 61 |
+| FY24 | 2,856 | 366 | 13% | 250 | 20% | 134 | 254 | 123 |
+| FY25 | 3,294 | 422 | 13% | 295 | 20% | 355 | 223 | 90 |
+| FY26 | 3,944 | 478 | 12% | 370 | 21% | 207 | 234 | 97 |
+
+5-yr CAGRs (FY21–26): sales 7%, PAT 28% (screener).
+
+**(e) Eight quarters (screener consolidated, ₹ Cr) [V]**
+
+| Quarter | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 700 | 811 | 1,156 | 734 | 834 | 961 | 1,414 | 887 |
+| OP | 94 | 98 | 141 | 96 | 89 | 122 | 156 | 80 |
+| OPM | 13% | 12% | 12% | 13% | 11% | 13% | 11% | 9% |
+| Other income | 19 | 15 | 13 | 11 | 43 | 19 | 32 | 58 |
+| PAT | 70 | 70 | 100 | 66 | 85 | 91 | 128 | 90 |
+
+Read: screener OPM drifted from 12–13% to 9–11% across the last four quarters while "other income" (mostly FX gains and interest) rose. The company's 13%+ EBITDA depends on including FX [E].
+
+**(f) Annual-report findings (FY26 AR) [V]**
+
+1. **Revenue split (₹ Cr):** construction 3,226.0 / O&M 682.4 (FY25 2,677.1 / 598.9). Industrial 790.3 / municipal 3,118.1. Industrial revenue *fell* 3% while municipal rose 27%.
+2. **Order backlog (Ind AS 115):** ₹16,623.4 Cr excluding framework (₹611.4 Cr). Construction contracts up to 3.5 years; O&M 1–20 years, billed monthly (see Supersedes #13).
+3. **Receivables and retention:**
+   - Current trade receivables ₹2,438.8 Cr + current retention ₹84.8 Cr.
+   - **Non-current retention ₹648.1 Cr** (disputed ₹61.0 Cr).
+   - Current billed ageing, Mar-26 vs Mar-25 (₹ Cr):
+
+     | Bucket | Mar-26 | Mar-25 |
+     |---|---|---|
+     | Not due | 1,052 | 901 |
+     | < 6 months | 680 | 343 |
+     | 6 months – 1 yr | 349 | 374 |
+     | 1–2 yrs | 222 | 228 |
+     | 2–3 yrs | 99 | 177 |
+     | **> 3 yrs** | **225** | **46** |
+     | Total | 2,627 | 2,070 |
+
+   - Credit-impaired ₹103.3 Cr is fully provided (ECL ₹103.3 Cr vs ₹56.9 Cr). The FY26 impairment charge was ₹46.4 Cr (FY25: ₹86.4 Cr utilised).
+   - **Overdue > 1 year = ₹546 Cr (21% of billed receivables) [E].**
+4. **Contingent liabilities (₹ Cr):** indirect-tax disputes **227.9 (FY25 101.1)**; income tax 19.3 (6.6); associates' share 2.3 (5.5). There are no financial guarantees. The indirect-tax figure equals ~62% of FY26 PAT. The AR does not say which tax or year [E].
+5. **Related parties:**
+   - Associates: Windhoek Goreangab Operating Co (Namibia); VA Tech Wabag & Roots Contracting (Qatar); DK Sewage Project; Ganga STP Project. **JV:** Ghaziabad Bio Energy (from 16-Feb-2026).
+   - Associate balances: advances/recoverable ₹57.5 Cr; loans ₹24.7 Cr (maximum loans: Ganga STP ₹11.7 Cr, DK Sewage ₹11.6 Cr).
+   - HAM/DBFOT SPVs (Ganga STP, DK Sewage, Ghaziabad Water Solutions) carry their own term loans secured on SPV assets. This is why net cash "excl. HAM" differs from "incl. HAM".
+   - **No royalty or technology fee outflows:** Wabag owns the IP; the Austrian GmbH is a subsidiary.
+   - KMP changes: **Rohan Mittal** (relative of the CMD) became KMP on 21-May-2026; **Bhupesh Chowdhary Nagineni** became Deputy MD on 21-May-2026. Two other relatives of the CMD are employees or consultants.
+6. **Ratios (consolidated AR):** ROE 15.7%; **ROCE 18.6%**; debt/equity 0.09; receivables turnover 1.35× (≈270 days on average receivables); net profit margin 9.5%. Borrowings ₹225.5 Cr: fixed ₹49 Cr, floating ₹176.5 Cr. Austrian GmbH working-capital loans are at EURIBOR + 3.25%.
+7. **Other income FY26:** interest ₹46.3 Cr; **FX gain ₹46.7 Cr** (FY25 ₹7.9 Cr).
+8. **Shareholders:** 2,00,388 at Mar-26 (1,90,518); screener shows 2,27,238 by Sep-26.
+9. **Strategy and market notes:**
+   - Wabag **registered with Saudi Aramco as an EP/EPC player**.
+   - First UAE project as lead partner (Ajman) after "nearly eight years".
+   - Kuwait Doha "first pursued in 2020".
+   - Al Haer ISTP for **Miahona's HESCO**: 30 months; Nereda + disc filtration + UV for irrigation reuse.
+   - Links built with ADB, EBRD, SFD, AFD, IsDB and the World Bank.
+   - The MD&A market sizes are market-research figures (global water treatment $74.7bn 2025 → $146.6bn 2035; desal $10.65bn 2025, 10.66% CAGR). They are low-quality and should not be used for India.
+10. **Risks emphasised by the AR and call:** collections and arbitration (TSGENCO); Middle East geopolitics; FX; fixed-price EPC overruns; key-person and succession risk (founder 15.6%, new Deputy MD); tax disputes (₹228 Cr).
+
+### 4.2.2 Ion Exchange (India) (IONEXCHANG · 500214)
+
+**(a) Management-guidance digest — Q1 FY27 group meet + call, 10-Aug-2026.** Speakers: Aankur Patni (Vice Chairman), Indraneel Dutt (MD & CEO), Vasant Naik (Group CFO); transcript filed 17-Aug-2026 [V]. The first hour covered the segment reclassification and the second hour the earnings.
+
+- **Why five segments:** the old "Engineering" segment was being read as a projects business. Splitting it out shows the products and services inside it. After the reclassification, **~60% of the company is products, chemicals and services, and ~40% is Treatment Solutions**. No listing or other corporate action is planned for the segments.
+- **Roha:** "5×" means **total resin capacity across Roha + Ankleshwar after Phase I (2×), Phase II and de-bottlenecking ≈ 5× the original Ankleshwar baseline**. Aspiration: **10% of global resin volume (~4× the current share)**. Roha is India's first non-solvent resin plant; an integrated spent-acid recovery plant ("global first") is coming. "A significant part of Roha volume" is aimed at **North America**, hence the **WQA certification** and a new Americas head.
+- **Roha utilisation:** the year-1 guide of **25% is "softer than expected"** four months in. Management is "not throwing in the towel" and will update by the end of Q2.
+- **Asset turn:** at full Roha capacity (~4 years) the manufacturing capex should turn "just under 2×". **Specialty Chemicals (~₹868–900 Cr in FY26) should rise "at least 50%" over the next couple of years.**
+- **Pharma resins** (Ankleshwar, FDA-approved): **6× by value within ~12 months**. This is mostly know-how with modest capex; Ion would be "the third player in the world" for these grades.
+- **Margins:** returning to double-digit EBITDA "will take time"; management is "cautiously confident". Consumer aims to **break even in FY27**.
+- **Specialty Chemicals Q1 margin bridge (CFO):** Roha costs **~6 pp**; absence of last year's FX gain **~3–4 pp**; the rest is input-cost lag (prices raised across customers). Crude has eased from >$100/bbl (Mar–Apr 2026) to ~$80, and **input costs are moderating**.
+- **Treatment Solutions:** the legacy-project overhang "is still not over". Apart from UP there is **at least one other large legacy project** and a few small ones. The UP JJM job depends on government funds: inflows have restarted and the last three months were positive, but completion spills into FY28. Ion will not add receivables beyond funds received. UP unexecuted is **~11% of the ₹2,473 Cr book**.
+- **Order book and pipeline:** ₹2,473 Cr (TS + IP + LS), **excluding Hyundai (~$52m, ₹500+ Cr)**; bid pipeline ₹9,777 Cr. GCC dispatches have resumed.
+
+**(b) Seven analyst Q&A points [V transcript]**
+
+1. **Resin capacity math:** the analyst estimated FY26 resins at ~₹500 Cr and water chemicals at ~₹400 Cr. Management "ha[s] not given a segment breakup like that". Capacity, not revenue, is 5×.
+2. **Treatment Solutions EBIT fell ₹60 Cr → ₹27 Cr (FY22–FY26) while revenue doubled.** Causes: cost overruns on a large legacy project and the UP funding stall. The fix is selectivity (Oman PDO concession, Hyundai) and advanced or emerging solutions (brine valorisation, lithium extraction, PFAS, electrolyser water). TS is "inherently lower-margin".
+3. **Lifecycle Services' 10–12% margin is understated:** part of its profit sits in Products and Chemicals (consumables, spares).
+4. **BOOT/BOO capital:** there is no earmarked cap; Ion wants to stay "as asset-light as possible". The Oman PDO 20-year concession is the template.
+5. **Hyundai order:** supplied **FOB Mumbai** to an EPC (Ion's liability ends at Mumbai port). Kickoff meetings are under way; no delay expected "as of now", though a prolonged Hormuz crisis "will be cause for worry".
+6. **Semiconductors:** Ion has won **a small semiconductor UPW project with a partner** (not public). It did UPW for SCL Mohali ~30 years ago. A fab's wastewater investment exceeds its UPW investment.
+7. **Portugal/Iberia (MAPRIL, acquired ~3 years ago):** margins "similar, if not better than India"; four of the five segments operate there.
+
+**(c) Concall KPI table — Q1 FY27 new segments [V call/deck]**
+
+| Segment | Revenue (₹ Cr, YoY) | EBIT (₹ Cr) | EBIT margin | Comment |
+|---|---|---|---|---|
+| Treatment Solutions | 210 (+14%) | −17 | n.m. | Legacy projects |
+| Industrial Products | 105 (+14%) | 13 (+145%) | 11.89% (<6%) | Membranes, standard plants |
+| Lifecycle Services | 72 (+28%) | 7 (+22%) | 9.92% (10.55%) | Input costs |
+| Specialty Chemicals | 230 (+21%) | 22 (−52%) | ~9.6% | Roha, FX, input lag |
+| Consumer Products | 112 (+33%) | −0.34 | ~0% | Breakeven goal FY27 |
+| **Consolidated** | **701 (+20%)** | EBITDA 32 (−49%) | **4.54%** | PAT ₹3 Cr (0.44%); tax rate 58.7% |
+
+**FY26 restated five-segment EBIT** (§H-12, gap 15): the transcript gives one hard number, **Treatment Solutions FY26 EBIT ₹27 Cr** (FY22 ₹60 Cr), and confirms TS revenue of ~₹1,100 Cr. Management also gives four-year growth rates: TS revenue CAGR 23%, Industrial Products 9%, Lifecycle Services 21%. Industrial Products, Lifecycle and Consumer EBIT for FY26 remain chart-reads (Part 1) and were not re-tabulated this session. An analyst asked for the inter-segment reconciliation, which management will provide "through Valorem" (not public). **Still open.**
+
+**(d) Five-year history (screener consolidated, ₹ Cr) [V]**
+
+| FY | Revenue | OP | OPM | PAT | ROCE | CFO | Debtor days | WC days |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 1,577 | 216 | 14% | 162 | 36% | 91 | 118 | −27 |
+| FY23 | 1,990 | 258 | 13% | 195 | 34% | 63 | 128 | 5 |
+| FY24 | 2,348 | 275 | 12% | 195 | 27% | 130 | 145 | 16 |
+| FY25 | 2,737 | 297 | 11% | 208 | 22% | 32 | 148 | 33 |
+| FY26 | 2,915 | 214 | 7% | 143 | 14% | −28 | 135 | 53 |
+
+Depreciation rose ₹28 → ₹63 Cr (FY22 → FY26; TTM ₹72 Cr) and interest ₹13 → ₹28 Cr (TTM ₹30 Cr), both on Roha. FCF was −₹287 Cr in FY25 and −₹280 Cr in FY26.
+
+**(e) Eight quarters (screener consolidated, ₹ Cr) [V]**
+
+| Quarter | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 644.5 | 690.5 | 834.6 | 583.2 | 733.9 | 734.4 | 863.3 | 700.5 |
+| OP | 68.3 | 75.5 | 85.7 | 62.5 | 68.5 | 59.3 | 19.7 | 31.7 |
+| OPM | 10.6% | 10.9% | 10.3% | 10.7% | 9.3% | 8.1% | 2.3% | 4.5% |
+| Depreciation | 10.9 | 11.3 | 11.8 | 12.3 | 12.2 | 18.6 | 19.6 | 21.8 |
+| PAT | 50.6 | 49.6 | 63.2 | 48.4 | 49.9 | 20.6 | 24.3 | 3.1 |
+
+Read: the margin break came in Dec-25/Mar-26, when Roha depreciation started (Q3 FY26) and the war began (Q4 FY26). Quarterly depreciation almost doubled within two quarters.
+
+**(f) Annual-report findings (FY26 AR) [V]**
+
+1. **Capacity:** Roha planned **42,600 m³/yr**; **3,696 m³/yr live from 30-Sep-2025** (~9% of plan). The Roha term loan is at **8.30%**, repayable in **20 quarterly instalments from 30-Sep-2026**, so debt service starts while utilisation is still low [E]. Other loans: the Goa membrane loan at 9.25% (from Aug-2023) and a BOOT-order loan at 8.70% (from Mar-2026; this is the Oman/BOOT model's balance-sheet footprint).
+2. **Receivables (₹ Cr; Mar-26 vs Mar-25):**
+
+   | Bucket | Mar-26 | Mar-25 |
+   |---|---|---|
+   | Not due | 626 | 672 |
+   | < 6 months | 259 | 276 |
+   | 6 months – 1 yr | 65 | 79 |
+   | 1–2 yrs | 82 | 47 |
+   | 2–3 yrs | 34 | 12 |
+   | > 3 yrs | 37 | 44 |
+   | Total | 1,103 | 1,130 |
+
+   - **Overdue > 1 year rose to ₹153 Cr (₹103 Cr)**; loss allowance ₹28.0 Cr (₹21.9 Cr).
+   - **Unbilled revenue tripled to ₹232.9 Cr (₹74.4 Cr)**; contract assets net ₹229.1 Cr.
+   - Contract liabilities: unearned revenue ₹193.8 Cr (₹226.4 Cr); customer advances ₹180.2 Cr (₹198.3 Cr).
+3. **Backlog (Ind AS 115):** revenue still to be recognised on contracts longer than one year is **₹1,466.8 Cr (₹1,869.9 Cr), −22%**. The long-duration engineering book shrank in FY26, before the Hyundai and Oman wins were added [E].
+4. **MSME payables ₹118.0 Cr (₹57.8 Cr)**, with interest due ₹2.5 Cr and accrued unpaid interest ₹4.8 Cr. Supplier stretch doubled, consistent with negative CFO [E].
+5. **Contingent liabilities (₹ Cr):** GST 14.4 (11.3); service tax 5.0; VAT/CST 6.7 (7.8); claims not acknowledged 21.0 (14.4); guarantees for associates 11.0. **SEBI claim ₹22.0 Cr**: a legacy collective-investment-scheme matter of subsidiary Ion Exchange Enviro Farms (1999–2006, SAT order), still open. Total ~₹80 Cr, small vs net worth ₹1,340 Cr.
+6. **Related parties:**
+   - **Sales of ₹85.1 Cr (₹79.6 Cr) to associate Aquanomics Systems Ltd**, plus ₹2.7 Cr to Ion Exchange PSS (Thailand).
+   - Enterprises linked to KMP or relatives: Ion Foundation, Ultrafresh Modular Solutions, Ultrapure Envirocare (tiny transactions).
+   - **No royalty paid to any parent; there is none.**
+   - The **only >5% holder is Rajesh Sharma (Executive Chairman), 5.82%**. Promoter-group detail is in note 21(f).
+7. **MD&A:**
+   - JJM ("Jal Jivan") performance was "muted on account of non-release of funds from the Water Boards".
+   - The IOCL Panipat RWTP ("one of the largest water treatment packages awarded in India") was commissioned.
+   - Chemical margins faced product mix, input costs, logistics and Roha costs; Ion is passing on price increases.
+   - Home Water (ZeroB) was the "star performer".
+   - APAC order bookings rose >65%.
+8. **Risks (AR + call):** Roha ramp and US demand; input costs and the crude link; legacy EPC overruns; government receivables (UP); Gulf logistics (GCC dispatches, March 2026 exports); BOOT capital intensity; consumer losses; and a stretched balance sheet (net debt ~₹135 Cr, MSME dues up).
+
+### 4.2.3 Enviro Infra Engineers (EIEL · 544290)
+
+**(a) Management-guidance digest — Q1 FY27 call, 12-Aug-2026.** Speaker: Manish Jain (MD) only, with Adfactors IR; transcript filed 17-Aug-2026 [V].
+
+- **FY27 guidance:**
+  - Revenue **₹2,000 Cr** ("at any cost"; achievable "even if no new order comes"), of which water ~₹1,300–1,350 Cr (50% conversion of ~₹2,700 Cr) and Suyog ₹400–450 Cr.
+  - **PAT ₹260–270 Cr**.
+  - EBITDA: **water 21–22%** (cut from 22–24% because of input costs), **renewables 15–18%**, **blended 19–20%**.
+  - PAT margin: water 13.5–14%; blended 13–14%.
+  - Phasing ~**20/20/20/40%** by quarter (Q1 delivered 18% of the guide).
+- **Cost lines:** employee cost **~7% of revenue in Q1** (3–3.5% historically) should fall to **5–5.5%**; finance cost ~4% to **3–3.5%**. Headcount has grown **~900 at IPO → ~2,300**.
+- **Execution:** water execution book ~₹2,700 Cr over **18–24 months**; renewables ~₹2,000 Cr over **12–18 months**. Water O&M runs 5–15 years (~₹100 Cr a year); RE O&M 5–12 years; IPP 25 years. O&M is 3–5% of execution value a year at better margins.
+- **Orders:** bids under evaluation ~₹3,000 Cr; a further **₹6,000–7,000 Cr** of invited water/wastewater bids (STP, CETP, reuse; not RE). FY26 strike rate **~20%**. **FY27 inflow guide ~₹2,500 Cr.** Not "going big" on new RE orders apart from wind EPC (₹600–800 Cr expected; Suyog pipeline ~₹800 Cr).
+- **NTPC BESS (930 MWh, ₹963 Cr):** procurement starts in Q3, so revenue jumps from Q3.
+- **Margin drivers:** raw materials cost **1–2% of topline**. The price-variation clause (WPI/CPI-linked) covers part; the rest must be absorbed.
+- **Long-term:** "25–30% growth… bare minimum". Overseas bids are submitted and desalination is to come via JVs; ZLD (Ichalkaranji textile CETP) and reuse are growth areas.
+
+**(b) Seven analyst Q&A points [V transcript]**
+
+1. **Working capital:** "not improved… still bloated". Government fund flow "remained slow". The company meets all liabilities, has "significant unencumbered funds" and "never… any bad debts".
+2. **CFO:** OCF turns negative by ~₹85 Cr because HAM concession receivables sit in operating activities. Management is "hoping" OCF turns positive, with no guarantee. The AR shows SCA receivables absorbed ₹66.7 Cr in FY26 (₹86.3 Cr in FY25).
+3. **JJM exposure ≤₹150–160 Cr** (one MP project in trial and commissioning; bills of ₹15–20 Cr). MP funds "didn't get stalled" in FY26. The ~₹100 Cr JJM water book completes in FY27, followed by 10-year O&M (first of five sub-projects commissioning by October).
+4. **HAM timeline and status:** see Supersedes #7 and #21. Bids are in for two more HAM projects; more DPRs are coming in 3–4 months.
+5. **Suyog:** three tranches; consolidated at 51% in FY27. FY27 revenue ₹400–450 Cr at 15–16% EBITDA / 12%+ PAT. The second tranche is KPI-linked (revenue, PAT, order book) and funded by accruals + debt.
+6. **FY26 revenue miss explained:** EIEL started FY26 with only ~₹1,200 Cr of order book, and awards came late. Revenue still equalled **90–95% of the opening book**.
+7. **CBG / circularity:** two biogas-to-electricity/CBG plants are completed and commissioned. A new **CBG from agricultural residue (Napier grass) at an MP cattle-shelter site (~275 acres, plus solar)** is under way.
+
+**(c) Concall KPI table (Q1 FY27) [V call/deck]**
+
+| KPI | Q1 FY27 | Ref |
+|---|---|---|
+| Revenue (₹ Cr) | 359.2 (+49%) | Water 255 (71%) / RE 104 (29%; wind 80) |
+| EBITDA (₹ Cr, %) | 75.7 (21.07%) | Q1 FY26 26.65%; Q4 FY26 18.7% |
+| PAT (₹ Cr, %) | 45.2 (12.38%), +6.5% | Q4 FY26 12.37% |
+| Order book (₹ Cr) | 6,721 = water 3,694 (execution 2,696 + O&M 998) + RE 3,027 (execution 1,948 + IPP/O&M 1,079) | Mar-26 6,814 |
+| Q1 wins (₹ Cr) | SSNNL 113; Suyog hybrid BoP 207.5; Varanasi HAM 256.9 | |
+| Employees | ~2,300 | ~900 at IPO |
+
+**(d) Five-year history (screener consolidated, ₹ Cr) [V]**
+
+| FY | Revenue | OP | OPM | PAT | ROCE | CFO | Debtor days | WC days |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 224 | 50 | 22% | 35 | 64% | 42 | 64 | 34 |
+| FY23 | 338 | 82 | 24% | 55 | 59% | 101 | 61 | −22 |
+| FY24 | 729 | 166 | 23% | 106 | 47% | −102 | 52 | 24 |
+| FY25 | 1,066 | 268 | 25% | 177 | 32% | −59 | 70 | 89 |
+| FY26 | 1,146 | 277 | 24% | 188 | 20% | −63 | 53 | 137 |
+
+Depreciation rose ₹9 → ₹25 Cr (FY25 → FY26; TTM ₹30 Cr) and interest stayed ₹36–37 Cr (TTM ₹43 Cr). ROCE halved as IPO equity and IPP assets entered the base.
+
+**(e) Eight quarters (screener consolidated, ₹ Cr) [V]**
+
+| Quarter | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 213 | 247 | 393 | 241 | 227 | 250 | 427 | 359 |
+| OP | 56 | 54 | 99 | 64 | 65 | 68 | 80 | 76 |
+| OPM | 26% | 22% | 25% | 27% | 29% | 27% | 19% | 21% |
+| Interest | 12 | 8 | 8 | 7 | 7 | 10 | 12 | 14 |
+| PAT | 36 | 37 | 74 | 42 | 50 | 42 | 54 | 45 |
+
+Read: OPM stepped down from 27–29% to 19–21% from Mar-26 as renewables (lower margin) and headcount entered. PAT has been flat at ₹42–54 Cr for five quarters despite revenue +49% YoY in Q1.
+
+**(f) Annual-report findings (FY26 Integrated AR) [V]**
+
+1. **Where the cash is (₹ Cr, Mar-26 vs Mar-25):**
+
+   | Item | Mar-26 | Mar-25 |
+   |---|---|---|
+   | Unbilled revenue (current contract asset) | 608.0 | 265.6 |
+   | SCA receivable — non-current | 238.8 | 152.0 |
+   | SCA receivable — current | 11.8 | 31.9 |
+   | Retention (current + non-current) | 77.0 | 83.9 |
+   | Trade receivables | 165.3 | 205.7 |
+   | **Total receivable-type** | **≈1,101** | **≈739** |
+
+   - The total equals ≈351 days of FY26 revenue (≈253 days at Mar-25) [E].
+   - **Unbilled revenue (work done, not yet certified or billed) = 53% of FY26 revenue.** This is the real working-capital sink, not overdue invoices. ECL on unbilled is ₹10.2 Cr (₹3.5 Cr).
+2. **Bank guarantees issued ₹513.2 Cr (₹246.4 Cr)**, including ₹27.8 Cr for subsidiaries. Funding commitments to group companies ₹7.3 Cr (₹53.3 Cr). Tax contingents are negligible (₹0.15 Cr). Term deposits of ₹47.8 Cr are pledged as LC/BG margin.
+3. **IPO proceeds:** ₹58.3 Cr still unutilised in FDs at Mar-26 (₹235.5 Cr at Mar-25). **The IPO cash cushion is almost gone** [E].
+4. **Governance event:**
+   - A **cyber fraud (unauthorised fund transfers, 27-Jun to 1-Jul-2025) with gross impact ₹11.15 Cr**, reported by the statutory auditors under **s.143(12)**.
+   - **Promoters Manish Jain and Sanjay Jain waived ₹8.0 Cr of remuneration** to absorb it; **net impact ~₹0.75 Cr**. The Chairman's letter says the money was partially recovered and proceedings continue. IT controls have been overhauled.
+5. **Promoters (Mar-26):** Sanjay Jain 27.88%; Manish Jain 27.88%; Ritu Jain 7.19%; Shachi Jain (WTD) 7.19%; others small. Total ~70.2%.
+6. **Suyog acquisition:** SPA dated 28-Apr-2026, a post-balance-sheet event (see Supersedes #8). The renewables subsidiary EIE Renewables also bought **Soltrix Energy Solution Pvt Ltd** (SPA and option agreement), and IPP SPVs such as **PRA Bihas BESS Pvt Ltd** (as spelt in the AR) sit under it. Balance 65 MW of renewable plants are under PPAs/EPC agreements.
+7. **CBG / circular economy:** **CBG plants being installed at the Jodhpur and Jaipur (Rajasthan) STP projects** (biogas sold to OMCs or used captively). The **100 MLD Jodhpur STP**, completed ahead of schedule, integrates CBG + solar + biogas-to-electricity. Solar: 750 kW at the Varanasi STP, plus Bareilly and Kota. **CBG capacity in TPD is not disclosed.**
+8. **Risks:** state payment and certification delays (unbilled build-up); renewables margin dilution and IPP leverage (BGs doubled); execution of a 2× revenue step-up with a 2.5× workforce; governance and controls (cyber fraud); promoter concentration (70%) with institutions ≤1.5%.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+1. **JJM 2.0 parameters (PIB, 10-Mar-2026) [V]**
+   - Outlay ₹8.69 lakh Cr; central ₹3.59 lakh Cr (2019-20 approval ₹2.08 lakh Cr; +₹1.51 lakh Cr).
+   - Households: 19.36 crore target; 15.80 crore covered (81.61%); baseline 3.23 crore (17%) in 2019; +12.56 crore since launch.
+   - Deadline Dec-2028.
+   - Design changes: "Sujalam Bharat" source-to-tap digital ID; "Jal Arpan" handover to GPs/VWSCs; Har Ghar Jal certification conditional on O&M arrangements; separate MoUs with states.
+   - **Implication:** central money in JJM 2.0 is only ~₹1.51 lakh Cr more than the 2019 envelope. Incremental central funding is modest relative to the ~3.56 crore households still to connect [E].
+2. **JJM budget line (₹ Cr) [V PRS 2025-26 and 2026-27]:**
+
+   | Year | Figure |
+   |---|---|
+   | FY24 actual | 69,992 |
+   | FY25 BE | ~70,163 [V-snip DTE] |
+   | FY25 RE | 22,694 (32% of BE) |
+   | FY25 actual | 22,615 |
+   | FY26 BE | 67,000 |
+   | FY26 RE | 17,000 (−75%) |
+   | FY27 BE | 67,670 |
+
+   - DDWS total: FY24 actual 76,570 · FY25 RE 29,917 · FY26 BE 74,226.
+   - Earlier BEs [V-snip CPR/AI briefs]: FY22 ₹50,011 · FY23 ₹60,000 · FY24 ₹70,000.
+   - For FY20–FY26 releases use Part 1 §E-1 (central allocation/release).
+3. **AMRUT 2.0 scorecard [V PIB Jun-2025; V PRS Aug-2026]**
+   - Outlay ₹2,99,000 Cr (central ₹76,760 Cr, 5 years); extended to Mar-2027.
+   - Water: 3,568 projects, ₹1,14,220.6 Cr; WTP capacity 10,647 MLD approved.
+   - Sewerage/septage: 592 projects, ₹67,607.7 Cr; **STP 6,739 MLD approved**; 67.11 lakh sewer connections approved.
+   - Aug-2026: 594 sewerage/septage projects, 104 complete, 398 under way; **STP 6,815 MLD taken up, 658 MLD operational (9.7%)**.
+   - Central assistance released ₹22,763 Cr of ₹66,060 Cr (34%).
+   - AMRUT-1 comparison: 5,396 of 6,299 MLD operational (86%). Across AMRUT + 2.0 over 10 years: 2.03 crore tap and 1.50 crore sewer connections; ₹2.73 lakh Cr sanctioned, ₹1.12 lakh Cr completed (PIB Jun-25).
+   - **Chart idea:** AMRUT-1 vs AMRUT 2.0 STP MLD, taken up vs operational.
+4. **Urban sewage and reuse (₹/MLD) [V RHP for CPCB; V PRS]**
+
+   | Measure | MLD |
+   |---|---|
+   | Generated | 72,368 |
+   | Installed | 31,841 (44%) |
+   | Operational | 26,869 |
+   | Treated | 20,236 (28%) |
+
+   - Operational capacity grew from 18,883 MLD (2014) to 26,869 MLD (2020), +42%.
+   - Newer official numbers: installed STP ~31,885 MLD; "treatment capacity" 22,891 MLD with **6,013 MLD reused (26%)**; share treated 28% (NITI 2022) vs 43% (MoHUA).
+   - STP sludge: ~8,000 t/day dried.
+   - Urban households: 11.3 crore, of which 3.5 crore are on sewers and 2.9 crore on septage.
+5. **River programmes (RHP, Marketysers report dated 11-Oct-2024; data as of ~2024) [V]**
+   - NRCP: 36 rivers, 80 towns, 16 states; ₹6,248 Cr sanctioned; 2,745.7 MLD created.
+   - Namami Gange at the RHP date: 406 projects (176 sewage), 5,270 MLD sanctioned, 5,214 km sewers, ₹32,898 Cr; **1,858 MLD created**.
+   - Compare Part 1 (PRS): **3,806 MLD completed by Dec-2025** against a 7,000 MLD target. That is roughly a doubling in about 18 months [E; definitions may differ].
+6. **Ion-exchange resin trade, India (HS 3914, US$ m) [V UN Comtrade]**
+
+   | | 2023 | 2024 |
+   |---|---|---|
+   | Imports | 53.3 | 66.8 |
+   | Exports | 84.1 (21,451 t) | 87.6 (24,292 t) |
+   | Net | +30.8 | +20.8 |
+
+   - 2024 imports by source: Sweden 20.2, China 14.2 (21%), USA 7.7, Romania 6.8, France 4.9, Japan 3.5, Germany 2.7.
+   - 2023 imports by source: USA 12.0, Sweden 9.9, China 9.0 (17%).
+   - **Read:** India exports more resin than it imports (largely Ion Exchange, plus Thermax), but the surplus narrowed in 2024 as imports rose 25%, with Chinese supply +58% [E]. Roha's full 42,600 m³ would be a large addition relative to India's trade flows [E].
+7. **Global peers (latest FY) [V where marked]**
+
+   | Company | FY | Revenue | Profit metric | Note | Tag |
+   |---|---|---|---|---|---|
+   | Veolia | 2025 | €44,396m | EBITDA €7,050m (15.9%); current EBIT €3,740m; current NI €1,643m | Water Technologies revenue €4,954m (+3.6%); dividend €1.50 | **[V]** |
+   | Xylem | 2025 | $9.0bn (+5% organic) | Adj. EPS $5.08; FY adj. EBITDA margin ~22.2% [V-snip transcript] | 2026 guide $9.1–9.2bn | **[V]** |
+   | Kurita Water | FY3/26 | Guide ¥425bn | OP guide ¥53.5bn (~12.6%) | 9M to Dec-25: sales ¥303.6bn, OP ¥40.2bn; Q1 FY3/27 sales ¥99.9bn (+14%), OP ¥14.3bn | [V-snip] |
+   | Organo, Acciona, IDE, Metito | — | Not fetched | — | Keep Part 1 [K] or omit | [K] |
+
+   - No EV/EBITDA or P/E was fetched for the peers, so **do not print peer multiples** except as "[K] approx." (per the brief).
+   - Read: Wabag's FY26 revenue (₹3,944 Cr ≈ €0.39bn at ~₹100/€ [E]) is ~0.9% of Veolia's and ~8% of Veolia Water Technologies alone.
+8. **Global desalination [V-snip]**
+   - IDA inventory (mid-2018): contracted **104.7 mn m³/d**, installed **97.4 mn m³/d**, >20,000 plants.
+   - IEA (Mar-2026, citing GWI): installed capacity **+40% between 2020 and 2025**. This implies roughly 130–140 mn m³/d by 2025 [E]; one unverified site says 130 mn m³/d, 22,000+ plants, MENA 47%.
+   - Middle East share **~46–50%**; Saudi Arabia >16 mn m³/d by end-2025 (Arab News, NTP report).
+   - Use "~half of global capacity is in the Middle East/MENA" and "Saudi ~16 mn m³/d". Avoid precise global totals.
+9. **2026 strikes on Gulf water infrastructure [V-snip]**
+
+   | Date | Country | Event |
+   |---|---|---|
+   | 8-Mar | Bahrain | Desal plant hit by drone; 3 injured |
+   | 3-Apr | Kuwait | Power & desal plant; IRGC denied |
+   | ~5-Apr | Kuwait | Two power-and-water plants damaged |
+   | mid-Jul (≈16–21) | Kuwait | Power & desal plant attacked on consecutive days (AP) |
+
+   - Kuwait gets ~90% of its drinking water from desalination.
+   - **Listed-company disclosures:**
+     - Wabag: force-majeure letters to customers; "no material impact"; BAPCO O&M ran through force majeure [V call].
+     - Ion: GCC dispatches delayed in Q4 FY26, resumed in Q1 FY27; Hyundai supply is FOB Mumbai [V call].
+     - EIEL: no Gulf exposure.
+10. **Market size (§H-4).** No CRISIL/ICRA/CARE/Ind-Ra India water-treatment market size was found. EIEL's RHP industry chapter is **not a rating agency report**: it is a **Marketysers Global Consulting LLP report (11-Oct-2024), commissioned and paid for by EIEL**. It gives only global market-research figures (e.g., water treatment $146.6bn in 2023, 6.89% CAGR) and an India regional chart without a clean INR total. **Recommendation stands:** anchor on public outlays (JJM ₹8.69 lakh Cr; AMRUT 2.0 ₹2.99 lakh Cr; NMCG) and order books, not market-research TAMs.
+
+## 4.4 Gap log (every §H item and every gap in the brief)
+
+| # | Gap | Status | Detail / what was tried |
+|---|---|---|---|
+| H-1 / G-1 | Yanbu value conflict | **Filled** | Sep-24 $317m award cancelled 16-Dec-2024; Jul-25 re-award $272m/₹2,332 Cr. Sources: Reg 30 PDF [V], AR [V], press [V-snip]. The Jul-25 Reg 30 PDF itself was not opened (BSE listing API blocked). |
+| H-2 / G-2 | Kuwait: Wabag share, scope, date | **Partly filled** | Scope (36-month DB + 5-year O&M, 96 months) and signing date (25-Aug-2026) [V-snip]; "first pursued 2020" [V AR]. **Wabag's share is still undisclosed**: the JV split is not in the call, AR or press. |
+| H-3 / G-3 | Perur value, share, completion | **Mostly filled** | ₹4,400 Cr; 42-month DBO + 20-year O&M; progress percentages [V AR]; commissioning "next few quarters", O&M FY28 [V call]. **Metito/Wabag split still undisclosed.** |
+| H-4 / G-4 | India market size (rating agency / RHP) | **Not filled (conclusive)** | RHP fetched: the industry report is Marketysers (paid), with no usable India INR TAM. No CRISIL/ICRA/CARE/Ind-Ra water-sector TAM found. Use the public-outlay framing. |
+| H-5 / G-5 | CPCB newer than 2021; NMCG MLD | **Partly filled** | No new CPCB inventory exists. Newer official estimates are 28% (NITI 2022) vs 43% (MoHUA), installed ~31,885 MLD, reuse 26% [V PRS]. NMCG: 1,858 MLD (RHP, ~2024) vs 3,806 MLD (PRS, Dec-2025). CPCB PDF and rsdebate/eparlib PDFs are bot-blocked. |
+| H-6 / G-5 | AMRUT 2.0 sewerage MLD; status after Mar-2026 | **Filled** | 6,739 MLD approved; 6,815 taken up / 658 operational; extended to Mar-2027 [V PIB, PRS]. |
+| H-7 / G-6 | NMCG HAM structure and interest formula | **Partly filled** | 40/60 and 15-year structure; quarterly annuity + interest + O&M; NMCG pays; 5.5-month pre-construction; 3-month COD [V RHP, call]. **Interest formula not verified for NMCG.** The NMCG/IFC/peyjal PDFs are bot-blocked; NHAI's bank rate + 3% is only an analogue. |
+| H-8 / G-7 | JJM BE/RE/actual FY20–FY27; JJM 2.0 | **Mostly filled** | FY24 A, FY25 RE/A, FY26 BE/RE, FY27 BE [V]; JJM 2.0 [V PIB]. FY20–FY23 actuals not captured (CPR PDF unreadable); BEs FY22–24 [V-snip]. Tap coverage on the dashboard is JS-only, so 81.61% (Mar-26) [V] and 82.19% (Aug-26) [V-snip]. |
+| H-9 / G-8 | Global desal capacity, ME share, Saudi pipeline | **Partly filled** | IDA 2018 and IEA 2020–25 growth [V-snip]; ME ~46–50%. Saudi Sharakat (ex-SWPC) "series of projects" and 2027 "Year of Water" [V call]. No SWPC pipeline table fetched. |
+| H-10 / G-9 | Ion resin capacity; Roha capex | **Mostly filled** | 42,600 m³ planned / 3,696 m³ live [V AR]; Roha loan terms [V]. **Roha capex as a number is still not disclosed**; the primer's ₹450 Cr remains unsourced. |
+| H-11 / G-9 | HS 3914 imports, China share | **Filled** | UN Comtrade 2023–24 [V]. TradeStat (FY basis) not reachable. |
+| H-12 / G-15 | Ion five-segment FY26 EBIT | **Partly filled** | TS FY26 EBIT ₹27 Cr confirmed [V call]. Other segments remain chart-reads; the reconciliation is promised to analysts only. |
+| H-13 / G-10 | EIEL CBG capacity; fifth HAM | **Partly filled** | Fifth HAM = Mathura [V call]. CBG sites are Jodhpur and Jaipur, plus an MP agri-residue CBG [V AR, call]. **TPD capacity not disclosed.** |
+| H-14 / G-10 | EIEL HQ | **Filled** | Registered office Rohini, Delhi [V AR]. |
+| H-15 / G-11 | Wabag strategic investor | **Filled** | Rekha Rakesh Jhunjhunwala 8.0% [V AR]. |
+| H-16 / G-12 | GST after GST 2.0 | **Partly filled** | 18% since 2022 (concession omitted) [V-snip]. GST 2.0 changes for these works not verified (CBIC notifications not fetched). |
+| H-17 | Wabag net-cash chart-reads (Q2 FY25, Q2 FY26) | **Still open** | Not in the AR; keep the chart-read tag. |
+| H-18 / G-13 | Global peers | **Partly filled** | Veolia, Xylem [V]; Kurita [V-snip]; Organo, Acciona, IDE, Metito, Ecolab, Sunresin not fetched. No peer multiples fetched. |
+| G-14 | Gulf desal strikes; force majeure | **Filled (snippet level)** | Dates in 4.3-9 [V-snip]; Wabag force-majeure letters [V call]; Ion and EIEL disclosures [V call]. |
+| G-Q2 | Q2 FY27 board dates; post-August Reg 30 | **Checked — none announced** | Screener BSE feed [V]; post-August orders: Wabag RIL Jamnagar (7-Sep), EIEL/Suyog Ajani ₹228 Cr (14/15-Oct). |
+| V-check | Retention 5–10% | **Still [K]** | Balance-sheet amounts sourced [V]; the percentage is contract-specific and not in the documents. |
+| V-check | Nemmeli/Minjur capacities and dates | **Still [K]** | Only the "~750 MLD after Perur" total is [V AR]. |
+| V-check | NTPC BESS ₹963 Cr; Oman PDO OMR 73.46m | **[V]** | Part 1 decks plus this session's calls (930 MWh; 20-yr PDO concession). |
+
+## 4.5 New insights the first pass missed
+
+1. **Wabag's receivable tail is ageing even as headline debtor days look stable.**
+   - Billed receivables **>3 years overdue rose ₹46 Cr → ₹225 Cr in FY26**; >1 year = ₹546 Cr (21% of billed).
+   - The ECL allowance nearly doubled (₹57 → ₹103 Cr), and management introduced a "more stringent" provisioning policy in Q1 FY27 (other expenses up).
+   - Add **₹648 Cr of non-current retention**, **₹228 Cr of indirect-tax contingents (2.3× in a year)** and the unresolved ~₹140 Cr TSGENCO award.
+   - The "net cash ₹965 Cr" story therefore co-exists with ~₹1,000 Cr of slow or contested assets. The FY23 write-off (₹289 Cr) is the precedent. This is the single most important caveat for a bull case [E].
+2. **EIEL's cash is stuck in *unbilled* work, not unpaid bills.**
+   - Unbilled revenue jumped ₹266 → ₹608 Cr (53% of FY26 revenue), while trade receivables *fell*.
+   - The bottleneck is certification and measurement by state agencies before invoicing. That is invisible in debtor days (53) and only partly visible in screener WC days (137).
+   - Bank guarantees doubled to ₹513 Cr, and the IPO cash cushion shrank to ₹58 Cr.
+   - Together with a ₹2,000 Cr revenue guide (+75%) and a 2.5× workforce, FY27 is a balance-sheet stress test. Watch H1 unbilled and CFO in the Nov-2026 filing [E].
+3. **India is a net exporter of ion-exchange resins.** HS 3914: exports $87.6m vs imports $66.8m in 2024.
+   - The Roha story is therefore an **export/global-share** story, not import substitution. Management points to North America (WQA certification) and 10% of global volume.
+   - However, Roha's first live block is only **3,696 m³ of a 42,600 m³ plan**, utilisation is "softer than expected", and **loan repayments start 30-Sep-2026**.
+   - Chinese resin imports into India rose ~58% in 2024: price competition is arriving at home [E].
+4. **Ion's long-duration backlog shrank 22% in FY26.** Ind AS 115 RPO >1 year fell ₹1,870 → ₹1,467 Cr.
+   - Unbilled revenue tripled (₹74 → ₹233 Cr), receivables >1 year overdue rose 49%, and MSME payables doubled.
+   - The Hyundai (~₹500 Cr) and Oman PDO wins matter more than they look, because they refill a thinning engineering book. Management also disclosed a **second large legacy project** beyond UP JJM [V call].
+5. **The Yanbu saga is a template for Gulf award risk.** A publicly announced $317m Saudi award was cancelled three months later (stock −19%), then re-awarded ~14% cheaper ($272m) after re-tendering.
+   - The writer should treat any "Mega" Gulf LoA as provisional until contract signing and effectiveness. Wabag now behaves this way: it removed two framework orders, and the Ind AS 115 backlog excludes framework contracts.
+   - Kuwait was announced at LoA in June and **signed only on 25-Aug-2026** [E from V sources].
+6. **AMRUT 2.0's sewage build-out has barely started.** Only **658 of 6,815 MLD (≈10%)** is operational five years in; central release is 34%; the scheme is extended only to Mar-2027.
+   - Contrast AMRUT-1 (86% of STP MLD operational) and JJM's tap-connection push.
+   - For STP specialists (EIEL, Wabag India) the **execution and payment window is FY27–FY29**, and its size depends on whether an "AMRUT 3.0" or further extension follows. That is a key watch item [E].
+7. **JJM 2.0 rewards O&M competence.** Gram panchayats can certify "Har Ghar Jal" only once O&M arrangements exist, and central money rises by just ₹1.51 lakh Cr.
+   - This tilts JJM 2.0 spend toward service delivery, water-quality treatment and O&M contracts rather than new pipe networks.
+   - Wabag (O&M backlog 34%) and Ion (Lifecycle Services) fit that better than civil-led contractors [E].
+8. **Ownership signals differ sharply.**
+   - Wabag: the founder holds 15.6% and a single non-institutional investor (Rekha Jhunjhunwala) holds 8.0%, larger than all DIIs (5.9%). The next generation is formalised (Rohan Mittal KMP; new Deputy MD May-2026).
+   - EIEL: promoters at 70% absorbed a ₹11 Cr cyber fraud personally (a good-faith signal), but the fraud itself and the auditor's s.143(12) report are governance flags.
+   - Ion: the only >5% holder is the Executive Chairman (5.8%), with ~16% in staff trusts and subsidiaries [V ARs].
+
+## 4.6 New primer issues (format as primer-issues.md)
+
+### From Water Treatment deep-research pass (2026-10-22, water-treatment-industry.md Part 4)
+
+**primers/va-tech-wabag.html**
+- **Yanbu value (replaces the Part 3 issue):** "~₹2,038 Cr" → **USD 272m ≈ ₹2,332 Cr (Jul-2025 re-award, 30-month EPC)**. Add that SWA cancelled the original Sep-2024 USD 317m (₹2,700 Cr) award on 16-Dec-2024 and Wabag was L1 in all three tender calls. Sources: Wabag Reg 30 (6-Sep-2024); AR FY26.
+- **Shareholding:** the "strategic investor 8.02%" is **Rekha Rakesh Jhunjhunwala (50 lakh shares, 8.0%)**; promoters are Rajiv Mittal 15.6% + S. Varadarajan 3.5%. Source: AR FY26 note 15.
+- **Perur:** "~₹4,300–4,400 Cr" → **₹4,400 Cr (with Metito), 42-month DBO + 20-yr O&M; Chennai to ~750 MLD, Wabag to run ~70%**. Source: AR FY26.
+- **Receivable risk understated:** add >3-yr overdue ₹225 Cr (₹46 Cr), ECL ₹103 Cr, non-current retention ₹648 Cr, indirect-tax contingents ₹228 Cr (₹101 Cr), TSGENCO ~₹140 Cr in arbitration (Supreme Court verdict in favour, further challenge possible).
+- **Order-book basis:** cite the audited **Ind AS 115 backlog ₹16,623 Cr (Mar-26) excluding ₹611 Cr framework contracts**. Burn ≈ 31% on an ex-framework opening.
+- **Guidance nuance:** FY27 EBITDA "realistically 13–14%" (band 13–15%); new five-year plan "Wriddhi 2.0" due May-2027; industrial order mix target 20–25%.
+- **Management:** add Deputy MD Bhupesh Chowdhary Nagineni and Rohan Mittal as KMP (21-May-2026).
+- **Kuwait:** state the scope as 36-month DB + 5-year O&M (96 months, KD 114.28m for the JV; Wabag share undisclosed).
+
+**primers/ion-exchange.html**
+- **Roha capacity:** add **42,600 m³/yr planned; 3,696 m³/yr live from 30-Sep-2025**. Roha term loan 8.30%, 20 quarterly instalments from 30-Sep-2026. The "~₹450 Cr capex" remains unsourced: mark it approximate. Source: AR FY26.
+- **"Import substitution" framing:** India is a **net exporter** of ion-exchange resins (HS 3914 exports $87.6m vs imports $66.8m, 2024; China 21% of imports). Reframe Roha as global share, North America and WQA.
+- **Legacy projects:** the primer names only UP JJM. Management says there is **at least one other large legacy project** plus smaller ones, and that UP will spill into FY28.
+- **Backlog quality:** Ind AS 115 RPO (>1-yr contracts) fell **₹1,870 → ₹1,467 Cr**; unbilled revenue ₹74 → ₹233 Cr; MSME payables ₹58 → ₹118 Cr; receivables >1 yr ₹103 → ₹153 Cr.
+- **Contingent:** the SEBI CIS claim of ₹22 Cr (Ion Exchange Enviro Farms legacy) is still open; mention it if the primer discusses governance.
+- **Guidance:** Specialty Chemicals "+50% over the next couple of years"; Roha asset turn just under 2× at full capacity (~4 years); consumer breakeven FY27; double-digit EBITDA "will take time".
+- **Ownership:** the only >5% holder is Rajesh Sharma (Executive Chairman) at 5.82%. Vice Chairmen are Aankur Patni and Dinesh Sharma (from Oct-2024); MD & CEO Indraneel Dutt (from Oct-2024).
+
+**primers/enviro-infra-engineers.html**
+- **HQ (replaces the Part 3 "verify" issue):** "Faridabad (Haryana)-headquartered" → **registered office Rohini, Delhi (RG Metro Arcade, Sector-11)**. Source: AR FY26.
+- **IPO facts:** 4,39,48,000 shares at ₹148 (≈₹650 Cr; fresh ≈₹571 Cr, OFS ≈₹78 Cr); listed **29-Nov-2024**; ₹58 Cr of proceeds still unutilised at Mar-26. Drop "~90× subscribed" unless sourced.
+- **HAM list:** name all five: Bareilly (done), **Mathura (near completion)**, Saharanpur (3/8 milestones), Varanasi Lohta and DDU Nagar (start Oct–Nov 2026).
+- **Suyog terms:** ₹311 Cr for 100%; 51% upfront (₹111 Cr); 49% phased to 31-Jul-2028 in two KPI-linked tranches; Suyog order book ₹645 Cr at signing; SPA 28-Apr-2026.
+- **Working capital:** replace the "debtor days" framing with **unbilled revenue ₹608 Cr (53% of FY26 revenue; ₹266 Cr a year earlier)** + SCA receivables ₹251 Cr; bank guarantees ₹513 Cr (₹246 Cr).
+- **Governance:** add the **₹11.15 Cr cyber fraud (Jun–Jul 2025)** reported by the auditors under s.143(12), largely absorbed by the promoters' ₹8 Cr salary waiver (net ~₹0.75 Cr).
+- **Guidance:** add the FY27 PAT guide ₹260–270 Cr, FY27 order-inflow guide ~₹2,500 Cr, and quarterly phasing 20/20/20/40.
+- **CBG:** say "CBG plants being installed at the Jodhpur and Jaipur STPs (Rajasthan)". Capacity is not disclosed.
+
+**General (all three):** replace "India's sewage treated ~28%" with "28% (CPCB/NITI) to 43% (MoHUA estimate)". Add AMRUT 2.0's 658 of 6,815 MLD operational and its **extension to Mar-2027**. Cite JJM 2.0 from the Cabinet release (₹8.69 lakh Cr; central ₹3.59 lakh Cr; 81.61% on 10-Mar-2026).
+
+## 4.7 Source URLs fetched in this pass
+- **Wabag:**
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/786ac7ec-73bc-480d-bfad-db14160288be.pdf
+  - Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73ea8f0a-1af1-47f6-8be6-cb3e084af8ec.pdf
+  - Reg 30, 6-Sep-2024 (Yanbu): https://www.bseindia.com/xml-data/corpfiling/AttachHis/5e9750e0-6cfc-4d84-96f2-3c8ad0364c62.pdf
+- **Ion Exchange:**
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/dc8810c5-6fc3-45cb-8cf8-914423fa47a1.pdf
+  - Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a61f387-e094-4ca8-928c-8a3d24c7d62d.pdf
+- **EIEL:**
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/f7dfed79-11b8-435c-aaf6-14e13d0aad02.pdf
+  - Q1 FY27 transcript: https://www.bseindia.com/xml-data/corpfiling/AttachLive/bc46700d-475d-4647-8630-bf6a26ffeb01.pdf
+  - RHP (SEBI): https://www.sebi.gov.in/filings/public-issues/nov-2024/enviro-infra-engineers-limited-rhp_89341.html (PDF: https://www.sebi.gov.in/sebi_data/attachdocs/dec-2024/1733402104066.pdf)
+- **Screener (22-Oct-2026):** https://www.screener.in/company/WABAG/consolidated/ · https://www.screener.in/company/IONEXCHANG/consolidated/ · https://www.screener.in/company/EIEL/consolidated/
+- **Government and policy:**
+  - JJM 2.0 Cabinet release (10-Mar-2026): https://www.pmindia.gov.in/en/news_updates/cabinet-approves-extension-of-jal-jeevan-mission-jjm-period-up-to-december-2028-with-enhanced-outlay-and-restructured-implementation-focusing-on-structural-reforms-in-rural-drinking-water-supply-sec/
+  - PIB AMRUT document (Jun-2025): https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/jun/doc2025624576101.pdf
+  - PRS SCR summary, AMRUT sewerage (Aug-2026): https://prsindia.org/files/policy/policy_committee_reports/SCR_Summary_AMRUT_&_AMRUT_2.0.pdf
+  - PRS DfG 2025-26 Jal Shakti: https://prsindia.org/files/budget/budget_parliament/2025/DFG_Analysis_2025-26_Jal_Shakti.pdf
+- **Trade data:** UN Comtrade public API (India, HS 3914, M/X, 2023–24): https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=699&period=2024&cmdCode=3914&flowCode=M
+- **Global peers:**
+  - Veolia FY2025: https://www.veolia.com/en/our-media/press-releases/full-year-2025-results
+  - Xylem FY2025: https://prod.xylem.com/en-jo/about-xylem/newsroom/press-releases/xylem-reports-fourth-quarter-and-full-year-2025-results/
+- **[V-snip] used:**
+  - Yanbu cancellation/re-award (Business Standard 18-Dec-2024 and 24-Jul-2025; HDFC Sky)
+  - Kuwait (MEED; Angel One; constructionworld.in)
+  - Gulf strikes (aljazeera.com 8-Mar, 3-Apr, 5-Apr-2026; lasvegassun.com AP Jul-2026)
+  - Assocham (theweek.in 14-Oct-2025)
+  - GST (taxheal/cleartax AAR summaries)
+  - Desalination (waterworld/informedinfrastructure IDA; impaxam citing IEA; arabnews)
+  - Kurita (stockopedia/Reuters table; quartr)

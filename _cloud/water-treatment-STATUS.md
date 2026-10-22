@@ -6,3 +6,4 @@ Phase 1 dossier subagent running (started 12:45Z). Render-check env ready (playw
 Phase 1 dossier agent hit a usage limit at ~13:00Z; resumed 13:10Z.
 Phase 1 dossier done (122 KB, 13:25Z); aggregates re-added by orchestrator: all match; primer-issues written. Phase 1c deep research next.
 Phase 1c deep-research agent started 13:28Z.
+Phase 1c done 13:52Z: Part 4 74 KB; 32/40 [V], 31 from primary docs; total dossier 196 KB. Supersedes checked: no change to FY26 aggregate inputs (burn rate now 31%). Primer issues appended. Phase 2 writer next.
