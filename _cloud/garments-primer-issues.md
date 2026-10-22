@@ -91,3 +91,50 @@ Source: company research (garments-companies-1.md §3.4).
   - Screener flags possible interest capitalisation and ₹76.7 Cr other income.
 - **Sub-sector-wide:** primers predating 24-Jul-2026 do not describe the Sec 301 10%-vs-12.5% structure or the US-cotton TRQ for Bangladesh/Cambodia/Indonesia/Malaysia. Primers predating 15-Jul-2026 may describe UK CETA as "signed, not in force".
 
+
+## From Garments & Apparels deep research (2026-10-22, garments-industry.md Part 4 §4.5.2)
+
+- **page-industries.html**
+  - Royalty is **₹254 Cr = 4.84%** of revenue (FY26 AR). Replace "~5% (approx.)".
+  - FY26 exceptional ₹35 Cr is the **Labour Codes** past-service cost (AR note 50).
+  - Cash and bank balances **₹432 Cr**; borrowings ₹12 Cr; interest-bearing **dealer deposits ₹326 Cr** (₹26 Cr interest). "Debt-free" should be footnoted with dealer deposits and leases.
+  - Market penetration per the AR: men's **17–19%**, women's **6–7%**, socks 9–10%, athleisure 6–7% (primer: 19–20% / 5–6%).
+  - Q1 FY27 call: double-digit FY27 volume reiterated (needs ~11–12% for the rest of the year); price increases +2.5% (Jan) and +2.2% (May); inventory 66 days; NWC 54 days.
+  - Distribution counts should be dated: Mar-26 = 1,579 EBOs / 893 LFS / 1,15,644 touchpoints; Jun-26 = 1,604 (PR) or 1,640 (MD) / 930.
+  - Contingent liability for vendor disputes rose from ₹9 Cr to ₹83 Cr.
+- **pearl-global.html**
+  - **Net debt is ₹239 Cr incl. leases (~net cash ex-leases), not ₹907 Cr**; cash ₹704 Cr; ICRA A+ (Stable).
+  - US ~48–52% of revenue; EU 15–17%; 24 customers = 90%; **woven 74% / knit 26%**.
+  - **Investor Day (24-Sep-2026) guidance:** FY30 revenue ₹9,000–10,000 Cr, EBITDA 12–14%, capacity 170–175 mn pcs, capex ₹675–725 Cr; FY28 ₹6,000 Cr / ₹580 Cr EBITDA.
+  - Capacity: FY26 101 mn (76 own + 25 partner) → ~108 mn after the Bangladesh unit commissioned (PR 22-Sep-2026). Country table: India 25.9 mn at 62%, Bangladesh 59.7 mn at 85%, Vietnam 7.1 mn at 80%.
+  - Haryana wage +38% hit standalone margin (6.6%).
+  - Russia penalty removal dated 7-Feb-2026 in the company deck.
+- **gokaldas-exports.html**
+  - The geographic mix "US ~50% (illustrative)" is wrong: **North America 77.9%, Europe 12.2%, Asia 9.3% (FY26 AR)**.
+  - Add **top-3 customers = 48.2%** of revenue.
+  - FY26 pieces **57 mn vs 68 mn** in FY25 (revenue +3% on −16% pieces). Capacity 92 mn confirmed.
+  - Leases ₹296 Cr reconcile company and screener debt.
+  - Q1 call guidance: FY27 growth "better than 15%"; Africa $112–115 mn (target $120 mn); RoSCTL ~3.5%; forward cover ₹89/$ on 70% of flows; BTPL merger in Q3 and PBT-positive in Q4; ₹100 Cr capex for two new units (₹350 Cr revenue potential, FY29).
+  - Exceptional item per the company is only ₹6 Cr: drop screener's "₹66 Cr pre-exceptional PAT".
+- **raymond-lifestyle.html**
+  - FY26 segment results (AR): textile ₹450 Cr, shirting ₹47 Cr, **apparel −₹124 Cr**, **garmenting ₹3 Cr**.
+  - FY26 exceptional **₹128.5 Cr** (Labour Codes ₹54 Cr; apparel receivables/inventory ₹70 Cr; stamp duty ₹5 Cr), not ₹97 Cr.
+  - Garmenting export mix: **US 59–60%, UK 12%, Europe 7–8%**; new clients Next, T.M. Lewin, El Corte Inglés, OVS, Carl Gross; capacity full to Dec-2026.
+  - FY27 "year of consolidation": net EBO closures continue; price increases from Q2 (apparel 5–7%, fabric 7–9%); wool +100% YoY.
+  - Five-year aim: double revenue.
+  - RoW revenue 17.7% of group. Gross guarantees for subsidiaries ₹211 Cr.
+- **kitex-garments.html**
+  - **US share 63% (FY26), not 80–90%.** Top customer 54%.
+  - **KAPL is 70% owned** (NCI 30%).
+  - **Qualified audit opinion** (standalone) on the Kitex USA LLC investment. FY26 includes a ₹17.5 Cr ECL write-back on the same associate.
+  - **KCL textile-division demerger: 9.22 cr new shares (~46%) to promoter-company shareholders, approved by shareholders and creditors on 24-Jul-2026.** The QIP is conditional on it.
+  - Warangal installed 160.35 mn pcs/yr (operational 15-Sep-2025). **Sitarampur deferred** to an H2 FY27 start (18–24 months). Kerala 4.32 lakh pcs/day.
+  - The company holds no earnings calls; the last analyst deck is from Apr-2025.
+- **Sub-sector-wide**
+  - India's FY26 apparel exports were **$15.77 bn (−1.4%)**.
+  - **AGOA now runs to 2028** (signed Sep-2026).
+  - CAI 2025-26 crop is **339 lakh bales**, with record imports of 62.
+  - India–EU FTA signing is reported for 16-Dec-2026.
+  - Freight WCI $4,485 (15-Oct-2026).
+  - RoSCTL/RoDTEP extended to 31-Dec-2026 at unchanged rates.
+  - The Sec 301 duty-free volume allowance is **only** for Bangladesh, Cambodia, Indonesia and Malaysia, despite Pearl's MD suggesting otherwise.
