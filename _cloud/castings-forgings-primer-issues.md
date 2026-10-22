@@ -32,3 +32,29 @@
 - **balu-forge.html — capacity base:** give the starting points (forging 100,000 → 150,000 MTPA; machining 45,000 → 80,000 MTPA) and the Hattargi 8,000 t press / 25 t hammer.
 - **General (all four):** none mentions **US Section 232** (25% on specified auto parts — relevant to crankshafts/axle forgings; 50% steel derivatives — check grinding balls), the **Section 301 10% regime from 24-Jul-2026**, **EU CBAM (definitive from 1-Jan-2026)**, or India's position as **#2 global castings (15.86 mt) and forgings (~2.9 mt) producer**. Market caps moved −22% to −29% (AIA, CIE, Balu) and +50% (PTC) since the primers.
 
+
+## From Castings & Forgings deep-research pass (2026-10-22, castings-forgings-industry.md Part 4)
+
+- **aia-engineering.html — volume history wrong/omitted:** add FY22–FY26 sales volumes 260,469 / 291,342 / 297,345 / 255,443 / 258,002 t; FY26 growth +1.0%; **mining tonnes fell 3.8% in FY26 (166,053 → 159,813 t)**. Remove/qualify any "steady volume growth" or "mining share rising" language.
+- **aia-engineering.html — export share:** ">90% exports" is wrong on a consolidated basis: **India 35.55% / outside India 64.45% of FY26 consolidated sales** (AR MD&A).
+- **aia-engineering.html — revenue basis (resolves Part 3 issue):** ₹4,355 Cr = net sales; ₹4,420 Cr = revenue from operations (incl. ₹64 Cr export benefits); **total income ₹4,894 Cr** (incl. ₹474 Cr other income). Fix the disclaimer labels.
+- **aia-engineering.html — guidance:** add management's **20–22% operating-margin guidance**, the "₹160–165/kg" indicative realisation (actual ~₹178/kg Q1 FY27), TAM "2–2.5 mt total; 1–1.5 mt gold/copper/iron", and the Chinese forged-media entry in Chile.
+- **aia-engineering.html — contingent liabilities:** ₹688.6 Cr (income tax ₹368.8 Cr, incl. ₹289.4 Cr in the High Court after an ITAT win); Welcast Bangalore plant closed.
+- **ptc-industries.html — Trac numbers:** acquisition cost **₹181.2 Cr**; FY26 revenue **₹247 Cr (41% of group), PAT ₹0.7 Cr**; Aerolloy FY26 revenue **₹175 Cr** (not ~₹190 Cr), PAT ₹68 Cr; standalone +20%.
+- **ptc-industries.html — capacity status:** EB cold-hearth (5,000 tpa) **under installation at Mar-26**; PAM (~600 tpa ingot) in production Jan-2026; VAR since Dec-2024; 4,500/5,100 t press since Mar-2026. Aerospace casting capacity = 300 t Ti + 300 t superalloy plan.
+- **ptc-industries.html — funding history:** add the **₹700 Cr QIP of Sep-2024** (CARE) alongside the ₹1,800 Cr QIP of Oct-2026; capital commitments ₹672 Cr.
+- **ptc-industries.html — "no concalls":** state that PTC does not host quarterly earnings calls; there is no numeric guidance.
+- **cie-automotive-india.html — technology mix:** replace "forging ~52%" (India) with **India: forgings 35%, stampings 23%, aluminium 18%, iron castings 11%, gears 6%, composites 5%, magnets 2%**; global forgings 51%; Europe forgings 85% / gears 15%. Mexico (~₹3 bn) now reported in Europe.
+- **cie-automotive-india.html — new orders:** "~₹1,000 Cr new-order book" → **~₹500 Cr/yr of new business won in H1 CY26**; ₹200 Cr/yr US machined-iron-castings programme from Q3 CY26.
+- **cie-automotive-india.html — working capital & parent cash pool:** H1 CY26 receivables more than doubled (₹609 → ₹1,341 Cr), NWC turned positive; AGM-approved cash-pool with CIE S.A. (max €50 m receivable). No royalty to the parent found in the AR.
+- **cie-automotive-india.html — margin history:** India EBITDA peaked 18.2% (CY24) → 17.5% (CY25) → 16.7% (Q2 CY26); Europe 17.8% (CY23) → 13.3% (CY25) → 15.9% (Q2 CY26).
+- **balu-forge.html — UAE subsidiary:** **Safa Otomotiv FZ-LLC (RAK free zone, 0% tax) = ₹486 Cr revenue (44%) and ₹106 Cr PAT (41%) in FY26**; standalone exports 55% of standalone turnover.
+- **balu-forge.html — auditor Emphasis of Matter:** receivables ₹339 Cr with export realisations "impacted/interrupted"; **₹24.4 Cr of customer cheques recorded but not deposited/realised**; WOS receivable beyond RBI timelines.
+- **balu-forge.html — IT search not concluded:** AR says assessments for FY21–FY26 are pending and impact unascertainable — correct the primer's "concluded, no incriminating findings".
+- **balu-forge.html — ratings:** add **CRISIL BBB+/Negative (reaffirmed and withdrawn on request, 27-Feb-2026)** next to ICRA A-(Stable).
+- **balu-forge.html — shareholders:** "Government 3.81%" = **Central Government, 46,24,001 shares (4.02% at Mar-26)**; aggregators name the Directorate of Enforcement, Raipur — state the fact, avoid inference.
+- **balu-forge.html — FY26 PAT growth:** +27.0% (₹258.9 Cr vs ₹203.9 Cr); defence/aero/rail = 13% of FY26 revenue (5% FY24); 30,000 × 152 mm shell order (supplies from Jun-2026); Quantum Energetics (TNT/RDX/HMX, licences pending).
+- **General:** add the 2026 Sec 232 change (**full-value basis from 6-Apr-2026**, 91 FR 18201) and **MHDV parts 25% from 1-Nov-2025** (90 FR 48451); grinding balls (7325.91) and 7326 are on CBP's steel-derivative list.
+
+---
+

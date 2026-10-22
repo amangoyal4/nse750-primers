@@ -948,3 +948,574 @@ Notes: CIE's "latest FY" is CY2025 (Jan–Dec 2025), three months earlier than t
 
 ## 3.6 Orchestrator re-add check (22-Oct-2026)
 Every Part 3 aggregate was re-added from the company rows: all-four revenue 15,536 / OP 3,057 / PAT 2,458 / m-cap 92,762; ex-CIE 6,130 / 1,695 / 1,630 / 78,743; PTC+Balu 1,710 / 434 / 361 / 45,271; AIA+CIE 13,826 / 2,623 / 2,097 / 47,491; Jun-26 quarter revenue 4,282 and PAT 632; net cash 5,298 (pro-forma 7,096). All agree. One fix: AIA operating EBITDA per kg in the §3.1 grid read ~₹48; 1,261 Cr ÷ 258,002 t = ₹48.9/kg, so it now reads ~₹49 (consistent with §2.0). Part 4's Supersedes table (when written) overrides these rows; aggregates will be re-checked after it.
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (22-Oct-2026)
+
+Second, primary-source pass on Parts 1–3. Compiled 22-Oct-2026 for the writer. **Where Part 4 disagrees with Parts 1–3, Part 4 wins** (each correction is listed in 4.0 with old → new → source).
+
+**What was read this pass (all fetched and text-extracted 22-Oct-2026; PDFs from bseindia.com unless stated):**
+- **AIA Engineering:** Q1 FY27 investor presentation (dated 12-Aug-2026); Q4 FY26 presentation (26-May-2026, with full FY25 quarterly comparatives); Q1 FY27 earnings-call transcript (call 12-Aug-2026, filed 14-Aug-2026); **Annual Report 2025-26** (MD&A, KPI pages, geographical note, contingent liabilities, subsidiaries list).
+- **PTC Industries:** Q1 FY27 result presentation (17-Aug-2026); **Annual Report 2025-26** (MD&A financial review, Form AOC-1, investment note, segment/geography note, contingent liabilities); CARE Ratings press release (May-2025); NSE press release on the PAM furnace (8-Jan-2026); 2023 investor/analyst-meet transcript (the only PTC transcript filed — **PTC does not hold quarterly earnings calls**).
+- **CIE Automotive India:** Q2/H1 CY2026 results presentation incl. SEBI-format results and balance sheet (22-Jul-2026); Q2 CY26 earnings-call transcript (call 23-Jul-2026, filed 27-Jul-2026); Q3 CY26 call intimation (13-Oct-2026).
+- **Balu Forge:** investor presentation (24-Jun-2026); Q4/FY26 earnings release (30-May-2026); **Annual Report 2025-26** (auditor's report, AOC-1, contingent liabilities, shareholding pattern, BRSR); CRISIL rating rationale (27-Feb-2026).
+- **Standardised data:** screener.in consolidated pages re-pulled 22-Oct-2026 ~09:11 IST (annual P&L, balance sheet, cash flow, ratios, 13 quarters).
+- **Industry/policy:** listed in 4.3 with URLs.
+
+**Tag discipline in Part 4.** [V] = read this session in the named primary document (company filing/presentation/transcript/annual report, regulator, industry body, rating agency) or screener for standardised financials. [V-sec] = fetched secondary article. [V-snip] = search-result summary only. [E] = our arithmetic. [K] = memory, not re-checked.
+
+**Order of Part 4.** Company sections (4.2) come first because most corrections flow from them; **4.0 Supersedes and 4.1 Verification table are at the end of Part 4**, after 4.3–4.5, so that they reflect everything verified.
+
+**CIE Q3 CY26 status (checked 22-Oct-2026):** **not yet published at the time of this pass.** CIE's own intimation (SEC/2026/118, 13-Oct-2026) schedules the Q3 CY2026 results call for **Thursday 22-Oct-2026 at 18:00 IST** (ICICI Securities hosting; CEO Ander Arenaza Alvarez, CFO K. Jayaprakash, Vikas Sinha, Oroitz Lafuente) [V NSE PDF]. Screener (pulled 09:11 IST) still ends at the Jun-2026 quarter; a web search returned no Q3 CY26 figures. The writer must pull the Q3 CY26 presentation from bseindia.com / cie-india.com after the evening of 22-Oct before finalising CIE.
+
+---
+
+## 4.2 Company deep-dives (primary documents)
+
+### 4.2.1 AIA Engineering (AIAENG · 532683) — FY Apr–Mar
+
+**Headline correction: AIA's tonnage is not growing — FY26 volume was below FY22.** The FY26 annual report's KPI page gives a five-year sales-volume series that the first pass did not have: **FY22 260,469 t → FY23 291,342 → FY24 297,345 (peak) → FY25 255,443 (−14.1%) → FY26 258,002 (+1.0%)** [V AR FY26 p.18]. Mining tonnes actually **fell 3.8% in FY26 (166,053 → 159,813 t)**; only "others" (cement/utility/aggregates) grew (+9.8%, 89,390 → 98,189 t) [V Q4 FY26 presentation]. The first pass's "+6–7% FY26 volume growth" and "mining share rising" framing are wrong (see 4.0).
+
+**(a) Management-guidance digest — Q1 FY27 call, 12-Aug-2026 (Kunal Shah, Sanjay Majmudar) [V transcript]**
+- **Volume:** no FY27 tonnage guidance; management asked investors to "wait one more quarter". Mining trials (Chile/LatAm second mill, Peru copper, Ghana gold) are taking "longer than anticipated because of certain technicalities". Asked whether FY27 will hit 280–290 kt, management declined to say. The current run-rate is described as "a flat run rate of 60,000–65,000 tons a quarter".
+- **Margin:** management's stated guidance remains **20–22% operating margin** ("our guidance continues at 20%… 20% to 22% is our operating margin"); actual Q1 FY27 operating margin ~27.8–27.9% on its basis. **Gross margin "consistently" ~60–61%.** No margin guidance beyond that.
+- **Realisation:** the old "₹160–165/kg" indicative was set "a year and a half ago"; Q1 FY27 realisation was "180 plus"; management will not reset the number — realisation moves with mix, freight, FX (rupee 85 → 95/$), ferro-chrome and scrap.
+- **Why Q1 margin fell from Q4:** (1) forex gain dropped from ~₹65 Cr (Q4 FY26) to ~₹25 Cr; (2) adverse product mix (fewer large castings); (3) trial costs expensed and higher ocean freight.
+- **Input costs:** freight **~$8,000–9,000 per container**, "elevated but dropping"; ferro-chrome "on the higher side"; scrap "fairly elevated".
+- **Market size (management's own words):** total opportunity "**2–2.5 million tons**"; narrowed to gold, copper and iron ore "**1–1.5 million tons**" (grinding media + liners); **LatAm >500,000 t of grinding-media consumption** ("almost a 1-million-ton market" including all products), which "can become a **300,000–400,000-ton market for us**".
+- **China:** Chinese makers have entered **forged** media "dramatically" — "**the top two mines in Chile today use Chinese forged media**"; ~20 Chinese forging companies supply mines worldwide. No Chinese presence in **high-chrome** yet.
+- **Protectionism:** Brazil and Canada have duty actions and an incumbent using tariffs; the AR adds that AIA's "fair price" policy helped it defend anti-dumping cases in Brazil and Canada but "many a time local Government protect local manufacturer and we are losing our market share in those countries" [V AR MD&A].
+- **Chile order:** the ~₹300 Cr high-chrome order (Oct-2025) is adding **~3,000–3,500 t per quarter** and should continue.
+- **Product mix (illustrative, management):** ~75% grinding media / ~25% castings (liners, diaphragms).
+- **NGDS (new-generation discharge system):** sold only as part of a package (liners + discharge + media), priced by kg; AR says AIA has modified **12+ mills** (iron ore, copper, gold) "with 100% success rate" and is at an advanced stage of trials at some of the largest copper and gold mines in Chile, Peru and Ghana [V AR].
+- **Capacity:** ~430–440 kt installed; "technically we can go up to 70–75% easily… maybe up to 3–3.5 lakh tons" on current capacity. China/Ghana local plants "in slow mode" (AR: to be expedited in H2 FY27).
+- **Cash:** "₹4,500 Cr to maybe ₹5,000 Cr"; holding "for at least a few more quarters", then will consider "how we should distribute".
+- **Capex:** Q1 ₹50 Cr (₹30 Cr hybrid solar-wind; ₹20 Cr maintenance/debottlenecking); **FY27 "minimum close to ₹350–400 Cr"** (₹170–200 Cr dedicated plot + corporate house; land for future brownfield/greenfield); exact figure in Q2.
+- **Tax:** 23% in Q1, normalising to ~21.5–22%.
+- **Analyst Q&A — the 6 points that matter:** (1) mining volume fell ~5,400 t QoQ in Q1 — "timing, product mix, order execution"; (2) no 280–290 kt commitment; (3) China in forged, not high-chrome; (4) realisation guidance not raised; (5) idle cash, no buyback near term; (6) operating-margin guide 20–22% vs ~28% delivered.
+
+**(b) Concall/presentation KPI table (consolidated) [V presentations]**
+
+| KPI | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | FY26 | FY25 | **Q1 FY27** |
+|---|---|---|---|---|---|---|---|
+| Sales volume (t) | 60,156 | 63,159 | 64,549 | 70,138 | **258,002** | 255,443 | **64,644** (+7.5% YoY) |
+| — Mining (t) | 36,396 | 38,387 | 40,429 | 44,601 | **159,813** | 166,053 | **39,228** (+7.8%) |
+| — Others (t) | 23,760 | 24,772 | 24,120 | 25,537 | 98,189 | 89,390 | 25,416 (+7.0%) |
+| Mining share of volume | 60.5% | 60.8% | 62.6% | 63.6% | **61.9%** | **65.0%** | 60.7% |
+| Production (t) | 59,516 | 68,889 | 67,896 | 59,519 | 255,820 | 248,200 | 61,338 |
+| Net sales (₹ Cr) | 1,026.0 | 1,029.7 | 1,048.7 | 1,251.1 | 4,355.5 | 4,226.6 | 1,153.2 |
+| Export benefits (₹ Cr) | 12.9 | 18.1 | 18.2 | 15.2 | 64.4 | 60.8 | 14.8 |
+| Other non-op. income (₹ Cr) | 108.3 | 98.3 | 135.3 | 132.1 | 474.1 | 331.6 | 110.5 |
+| — of which FX gain | 19.9 | 33.9 | 51.7 | 64.5 | 170.0 | 52.9 | 25.2 |
+| Company EBITDA incl. OI (₹ Cr) | 420.4 | 395.6 | 425.6 | 502.7 | **1,744.3** | 1,492.6 | **424.6** |
+| — % of income from ops | 40.46% | 37.76% | 39.89% | 39.70% | 39.46% | 34.81% | 36.35% |
+| Operating EBITDA ex-OI (₹ Cr) [E] | 312.1 | 297.3 | 290.3 | 370.6 | 1,270.2 | 1,161.0 | 314.1 |
+| — % of income from ops [E] | 30.0% | 28.4% | 27.2% | 29.3% | **28.7%** | 27.1% | **26.9%** |
+| Net realisation (₹/kg, net sales ÷ t) [E] | 170.6 | 163.0 | 162.5 | 178.4 | **168.8** | 165.5 | **178.4** |
+| Operating EBITDA (₹/kg) [E] | 51.9 | 47.1 | 45.0 | 52.8 | **49.2** | 45.5 | 48.6 |
+| PAT after MI (₹ Cr) | 305.0 | 277.4 | 294.4 | 393.3 | 1,270.2 | 1,060.7 | 301.1 |
+| Receivable days | 73 | 72 | 73 | 84 | 84 | 74 | **90** |
+| WIP+FG inventory days | 69 | 73 | 78 | 71 | 71 | 69 | 74 |
+| Order book (₹ Cr, start of next qtr) | — | — | — | 868 (1-Apr-26) | — | — | **977 (1-Jul-26)** |
+| Capex (₹ Cr) | — | — | — | — | 104 | — | 50 |
+| Installed capacity (t) | 436,000 | | | | 436,000 | | 436,000 |
+
+Notes: FY25 quarterly volumes 60,592 / 60,330 / 65,780 / 68,741 t; FY25 mining 36,786 / 39,896 / 42,919 / 46,452 t [V Q4 FY26 presentation]. FX forward cover at 10-Aug-2026: US$21.0 m, AUD 5.2 m, EUR 3.1 m — **tiny relative to ~US$300 m of annual consolidated sales outside India (₹2,807 Cr at ~₹95/$), i.e. AIA runs largely unhedged and the weak rupee flows straight into realisation and the FX-gain line** [V; E].
+
+**(c) Five-year history (consolidated)**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales volume (t) [V AR] | 260,469 | 291,342 | **297,345** | 255,443 | 258,002 |
+| Volume YoY [E] | — | +11.9% | +2.1% | **−14.1%** | +1.0% |
+| Production (t) [V AR] | 278,590 | 288,088 | 295,509 | 248,200 | 255,820 |
+| Sales ₹ Cr (screener) [V] | 3,567 | 4,909 | 4,854 | 4,287 | 4,420 |
+| Realisation ₹/kg (screener sales ÷ t) [E] | 137 | 168 | 163 | 168 | 171 |
+| Operating profit ₹ Cr (screener) [V] | 726 | 1,245 | 1,340 | 1,154 | 1,261 |
+| OPM % (screener) [V] | 20 | 25 | 28 | 27 | 29 |
+| PAT ₹ Cr (company, after MI) [V AR] | 619.7 | 1,055.9 | 1,135.6 | 1,060.7 | 1,270.2 |
+| PAT margin % (company) [V AR] | 17.63 | 21.83 | 23.80 | 25.09 | 28.74 |
+| Net worth ₹ Cr [V AR] | — | — | — | 6,927 | 8,025 |
+| ROCE % (screener) [V] | 17 | 25 | 23 | 19 | 21 |
+
+**Read:** the FY23–FY24 earnings step-up came from realisation (₹137 → ₹168/kg; alloy/freight pass-through and mix) and margin, not from tonnes; FY25 volume fell 14% (mining 166 kt vs a higher FY24 base [FY24 split not in documents read]); FY26 recovered only 1%. **Profit has compounded (+20% CAGR FY22–FY26 PAT) while tonnage is flat (−0.2% CAGR)** [E].
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Quarter | Sales | OP | OPM | PAT | Volume (t) [V pres.] |
+|---|---|---|---|---|---|
+| Sep-24 (Q2 FY25) | 1,044 | 276 | 26% | 256 | 60,330 |
+| Dec-24 (Q3 FY25) | 1,066 | 283 | 27% | 259 | 65,780 |
+| Mar-25 (Q4 FY25) | 1,157 | 302 | 26% | 285 | 68,741 |
+| Jun-25 (Q1 FY26) | 1,039 | 306 | 29% | 305 | 60,156 |
+| Sep-25 (Q2 FY26) | 1,048 | 297 | 28% | 277 | 63,159 |
+| Dec-25 (Q3 FY26) | 1,067 | 290 | 27% | 293 | 64,549 |
+| Mar-26 (Q4 FY26) | 1,266 | 363 | 29% | 393 | 70,138 |
+| Jun-26 (Q1 FY27) | 1,168 | 308 | 26% | 301 | 64,644 |
+
+**(e) Annual-report findings (AR 2025-26) [V]**
+- **Geography — the ">90% exports" claim is wrong on a consolidated basis.** Consolidated sales FY26: **India ₹1,548.3 Cr (35.55%) / outside India ₹2,807.1 Cr (64.45%)**; FY25 35.39% / 64.61%. Standalone: India 40.81% / exports 59.19% (₹2,189.3 Cr). Standalone revenue by customer domicile: India ₹1,573.5 Cr; **U.A.E. ₹2,157.6 Cr** (i.e. the Vega Middle East hubs, which re-export) ; others ₹31.7 Cr. The only >10% customers are the group's own **Vega Industries (Middle East) FZC and Vega Middle East (DFTZ) FZE** — standalone AIA sells most exports through UAE subsidiaries (transfer-priced; arm's-length per the TP accountant's report). **Country-level export geography (LatAm/Australia/Africa) is not disclosed** in any document read.
+- **Related parties:** subsidiaries include **Welcast Steels (74.85%)**, Vega Industries (Middle East) FZC (100%), Vega Middle East (DFTZ) FZE, Vega Industries Ltd (USA) — the three material subsidiaries — plus Vega entities in Chile, Australia, South Africa, Indonesia (PT Vega), China (Wuxi), Ghana (AIA Ghana) and others [V AR subsidiaries table]. The **Welcast plant at Bangalore has been closed**; the 4,36,000 t capacity is stated "after closure of Welcast plant" [V AR MD&A].
+- **Contingent liabilities (standalone, 31-Mar-26): ₹688.6 Cr** (FY25 ₹520.0 Cr), of which **income tax ₹368.8 Cr** (₹289.4 Cr where AIA won at ITAT and the department appealed to the High Court; ₹79.3 Cr at CIT) — largely transfer-pricing/interpretation issues; bank guarantees ₹184.9 Cr; corporate guarantees to customers/subsidiaries **₹113.1 Cr (up from ₹23.7 Cr)** [V AR Note 44]. Capital commitments only ₹16.5 Cr at Mar-26 — i.e. the ₹350–400 Cr FY27 capex was not yet contracted at year-end.
+- **Cost structure (consolidated, % of revenue from operations):** materials incl. inventory change **38.36%** (FY25 40.53%); employees 4.49%; other expenses (incl. freight) 28.73%; company EBITDA 39.46%; depreciation 2.55% [V AR KPI table]. This replaces the first-pass "[E] 38–42%" raw-material line — it is now [V].
+- **Cash:** AR says AIA "generated net cash of ₹612.54 Cr from operations" in FY26 (screener CFO ₹592 Cr — difference is basis) [V].
+- **Treasury policy:** surplus in G-secs, SDLs, AAA corporate bonds, CPs, FDs, debt MFs [V].
+- **Risks named:** transfer-pricing exposure across jurisdictions; anti-dumping/local protection (Brazil, Canada); FX (hedging policy + dynamic pricing); credit risk on the investment book; cyber [V AR risk section].
+- **Sourcing:** 87.97% of inputs sourced from within India (BRSR) [V].
+
+---
+
+### 4.2.2 PTC Industries (PTCIL · 539006) — FY Apr–Mar
+
+**Headline correction: Trac (UK) was ~41% of FY26 revenue and made almost no profit; Aerolloy was ₹175 Cr, not ~₹190 Cr; and PTC paid ₹181 Cr for Trac.** The FY26 annual report's financial review says consolidated revenue of ₹602.78 Cr "reflects the first full year of Trac Precision Solutions in the Group, which contributed **about ₹247 crores**; the **210% growth in Aerolloy's revenue to ₹175 crores**… and **20.2% growth in the Company's standalone revenue**" [V AR FY26 MD&A]. Form AOC-1: **Trac Precision Solutions turnover ₹247.01 Cr, PBT ₹0.66 Cr, PAT ₹0.66 Cr** (GBP; avg ₹118.44/£); **Aerolloy turnover ₹175.27 Cr, PBT ₹82.07 Cr, PAT ₹67.95 Cr** (38.8% PAT margin) [V AR AOC-1]. Investment note: PTC "acquired 17,778 equity shares of GBP 0.0001 each in Trac Holdings Limited, amounting to a total **acquisition cost of ₹18,118.22 lakhs**" (= **₹181.2 Cr**); goodwill on consolidation ₹63.06 Cr [V AR notes 9 & fixed-asset table].
+
+**(a) Management-guidance digest [V]**
+- **PTC holds no quarterly earnings calls.** The only transcript on file is the 9-Jun-2023 investor/analyst meet. Guidance therefore comes from (i) the Q1 FY27 result presentation (17-Aug-2026) and chairman's statement, (ii) the FY26 annual report MD&A, (iii) CARE's rating rationale. The writer should say so — there is no "management guided X% growth" for PTC.
+- **Chairman Sachin Agarwal (Q1 FY27 presentation):** Q1 "a strong start"; **Aerolloy "a key growth driver, demonstrating the operating leverage beginning to come through"**; Airbus agreement "expands our participation in global commercial aerospace supply chains"; BrahMos, ARDE-DRDO and Gun Factory Kanpur programmes "extend PTC's role beyond precision manufacturing into design-led development, systems and sub-systems"; focus on "disciplined execution… as programmes progress through qualification, industrialisation and scale-up". **No numeric guidance (revenue, margin, order book, capex).**
+- **Q1 FY27 KPI slide [V]:** total income ₹197.1 Cr (+83.0%; Q1 FY26 ₹107.7 Cr); EBITDA ₹54.2 Cr (+180.1%; margin 27.5% vs 18.0%); PBT ₹36.7 Cr (+305.9%); PAT ₹29.2 Cr (+466.2%; 14.8%). Aerolloy ₹74.3 Cr total income (+466.4%), EBITDA ₹33.4 Cr (45.0%), PAT ₹22.1 Cr. Trac ₹71.4 Cr total income, EBITDA ₹6.1 Cr.
+- **Programme milestones listed in Q1 FY27 deck:** Airbus titanium castings (A320neo/A330neo/A350) — "development, qualification, industrialisation pathway and future supply"; BrahMos "strategic missile sub-system" (development, integration and supply); ARDE titanium cradle for the 105 mm Indian Light Tank ("first-of-its-kind… design-led"); Gun Factory Kanpur development order for two artillery gun components (building on M777 experience). **No order values given anywhere.**
+- **AR FY26 MD&A — capability status at 31-Mar-2026:** VAR mill "in production since December 2024" (India's first aerospace-grade titanium ingot "without foreign supervision"); **plasma arc melting furnace "entered production in January 2026"**; vacuum induction furnace for large superalloy castings commissioned; **4,500/5,100-tonne Intelligent Open Die Forging System "entered production" March 2026**; **electron-beam cold-hearth refining furnace and the plate/sheet/rod/bar rolling mills "under installation at the year end"** [V]. **So the 5,000 tpa EB capacity quoted in Parts 1–3 is not yet operating.**
+- **Upstream (sponge):** memorandum with the **Government of Odisha** for a proposed titanium-sponge facility; sponge-supply memorandum with **AMIC TOHO Titanium Metal Company (Saudi Arabia)**; PLI memoranda with the Ministry of Steel covering titanium alloys and superalloys [V AR]. **No capex figure or timeline for Odisha is given in the AR** (the first pass's "~₹1,000 Cr-class" remains unsourced).
+- **Space:** VSSC order to convert **40 t of titanium sponge into Ti-6Al-4V ingot by double-VAR**; Blue Origin development-and-supply order (Jan-2026) for large nickel-superalloy investment castings for the BE-4, enabled by the VIM furnace [V AR].
+- **CARE Ratings (May-2025) [V]:** Aerolloy's titanium ingot-to-castings project outlay **~₹700 Cr** (funded ~₹400 Cr liquidity + ~₹300 Cr debt, of which only ~₹60 Cr sanctioned at the time), **completion expected by March 2027**; production capacity "**~1,500 tonne annually using sponge technology and ~5,000 tonne annually using waste [scrap] technology**" for ingots; **an earlier ₹699.99 Cr QIP in Sep-2024**; free cash ~₹704 Cr at 30-Sep-2024. Also: top export countries (US, Norway, India…) ~50% of revenue (FY24 basis).
+
+**(b) KPI table**
+
+| KPI | FY25 | FY26 | Q1 FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|---|
+| Revenue from operations (₹ Cr) | 308.07 | 602.78 (+95.7%) | — | — | AR [V] |
+| Total income (₹ Cr) | 342.22 | 643.29 | 107.7 | 197.1 | AR; Q1 deck [V] |
+| Company EBITDA (on total income) | 109.41 (31.97%) | 172.28 (26.78%) | 19.4 (18.0%) | 54.2 (27.5%) | AR; deck [V] |
+| PAT | 61.02 | 101.56 | 5.2 | 29.2 | AR; deck [V] |
+| Aerolloy revenue / turnover | ~56.5 [E: 175 ÷ 3.1] | **175.27** | 13.1 (TI) | **74.3** (TI) | AR AOC-1; deck [V] |
+| Aerolloy PAT | — | 67.95 | — | 22.1 | AR; deck [V] |
+| Trac revenue | ~4 months only | **247.01** (PAT 0.66) | — | 71.4 (EBITDA 6.1) | AR; deck [V] |
+| Standalone PTC revenue | 238.08 | 285.69 (+20.2%) | — | ~51 [E residual] | AR segment note [V] |
+| Standalone revenue outside India | 193.09 (81%) | 166.70 (58%) | — | — | AR [V] |
+| Employee cost % of revenue | 18.4% | 25.0% | — | — | AR [V] |
+| Net material cost % of revenue | 17.3% | 17.6% | — | — | AR [V] |
+| Inventory build (FG/WIP change) | −35.67 | **−236.66** | — | — | AR [V] |
+| Capital commitments (₹ Cr) | 260.99 | **672.27** | — | — | AR Note 43 [V] |
+| Order book | n.d. | n.d. | n.d. | n.d. | — |
+
+**(c) Five-year history (screener consolidated, ₹ Cr) [V]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales | 179 | 219 | 257 | 308 | 603 |
+| OP | 42 | 59 | 73 | 75 | 134 |
+| OPM % | 24 | 27 | 28 | 24 | 22 |
+| PAT | 13 | 26 | 42 | 61 | 102 |
+| ROCE % | 10 | 12 | 11 | 8 | 9 |
+| of which Trac | — | — | — | ~4 months | 247 (41%) |
+| of which Aerolloy | — | — | — | ~56 [E] | 175 (29%) |
+
+**Organic read [E]:** FY26 ex-Trac revenue ≈ ₹356 Cr vs FY25 ex-Trac ≈ ₹230–250 Cr (Trac's Dec-24–Mar-25 contribution is not disclosed; Q4 FY25 sales jumped ₹67 → ₹122 Cr on consolidation) → **organic growth ~45–55%, not 96%**.
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Sep-24 | 72 | 21 | 29% | 17 |
+| Dec-24 | 67 | 15 | 22% | 14 |
+| Mar-25 (Trac from 19-Dec-24) | 122 | 29 | 24% | 25 |
+| Jun-25 | 97 | 9 | 9% | 5 |
+| Sep-25 | 125 | 26 | 21% | 18 |
+| Dec-25 | 156 | 25 | 16% | 18 |
+| Mar-26 | 225 | 73 | 32% | 60 |
+| Jun-26 | 192 | 49 | 25% | 29 |
+
+**(e) Annual-report findings (AR 2025-26) [V]**
+- **Segments:** one reportable segment ("Engineering and allied activities"); management nevertheless discloses Aerolloy and Trac in MD&A/AOC-1 and presentations.
+- **Customer concentration (standalone):** top three customer groups ₹45.7 / ₹45.3 / ₹43.8 Cr = **47% of standalone revenue** (FY25: ₹78.1 / 31.9 / 23.4 Cr).
+- **Contingent liabilities:** immaterial (GST ₹0.17 Cr); bank guarantees ₹91.4 Cr (₹30.9 Cr FY25). **Capital commitments ₹672.3 Cr** at Mar-26 (₹261.0 Cr) — the build-out the QIP is funding.
+- **Fixed assets:** PPE+intangibles ₹581.4 Cr; **CWIP ₹310.7 Cr** (EB furnace, rolling mills, balance of SMTC); goodwill ₹63.1 Cr.
+- **Why inventory days are ~1,000:** "a large part of that material remained in work-in-progress at the year end, in ingots, forgings and castings moving through qualification and production" (inventory change −₹236.7 Cr) [V AR] — i.e. the inventory is qualification WIP, not slow-moving stock, but it is unbilled.
+- **Other income ₹40.5 Cr** = interest on QIP surplus funds + **net FX gain ₹18.96 Cr** [V AR].
+- **Market data quoted in the AR (useful for 4.3):** global titanium industry **US$21.78 bn (2025)** (IMARC); **aerospace titanium market US$3.22 bn (2025) → US$4.45 bn (2030), 6.5% CAGR** (The Business Research Company); **China's share of global titanium-metal production ~40% (2019) → >75% (2025)**; VSMPO-AVISMA "remains the dominant producer of aerospace-grade mill products outside China"; India had "no aerospace-grade titanium melting capacity of its own until the Company built it" [V AR, citing named vendors — treat vendor sizes as indicative].
+- **Capacity (2023 analyst meet, Sachin Agarwal) [V transcript]:** VAR ~1,500 tpa; EB >5,000 tpa; plasma cold-hearth "only a very small capacity of 200 tons" at that time (the Jan-2026 PAM furnace is ~600 tpa per the NSE PR — a different/larger unit); aerospace casting capacity being built "**300 tons for titanium casting and 300 tons for superalloy casting… combined 600 tons**" vs **30–40 tpa** then; industrial castings ~1,800 t (Lucknow) / ~2,200–2,400 t incl. Mehsana. **So the "~600 tpa" in Parts 1–3 conflates two things: the PAM ingot furnace (~600 tpa ingot) and the aerospace casting (part) capacity (300 + 300 tpa).**
+
+---
+
+### 4.2.3 CIE Automotive India (CIEINDIA · 532756) — CALENDAR year (CY)
+
+**Q3 CY26 (Jul–Sep 2026): not out at the time of this pass** (results call 22-Oct-2026 18:00 IST; see header). Everything below is to Q2 CY26 (Apr–Jun 2026).
+
+**Headline corrections.** (1) The screener-vs-company sales gap is now **exactly reconciled**: CIE's own "Sales" excludes **other operating income**, which in Q2 CY26 was **₹77.3 Cr (India ₹48.9 Cr, Europe ₹28.4 Cr)**; ₹2,543.2 Cr + ₹77.3 Cr = ₹2,620.5 Cr = screener's ₹2,621 Cr, and the SEBI-format "Revenue from operations" for CY25 is **₹9,406.47 Cr** (= screener) [V Q2 CY26 deck p.16 & SEBI results]. (2) **India technology mix (CY25, company AR): forgings 35%, stampings 23%, aluminium castings 18%, iron castings 11%, gears 6%, composites 5%, magnets 2%** — not "forgings ~52%" as in the primer/Part 2 (that figure is close to the *global* forgings share, 51%) [V AR CY25 p.6]. (3) The India "new-order book ~₹1,000 Cr" is not what management said in Jul-2026: **new orders won in H1 CY26 ≈ ₹500 Cr per year of peak revenue** ("a new order book around INR5 billion per year… during the first half") [V transcript].
+
+**(a) Management-guidance digest — Q2 CY26 call, 23-Jul-2026 (Ander Arenaza Alvarez CEO, Vikas Sinha) [V transcript]**
+- **Growth:** target "**12% to 15%**" — "somewhere close to whatever we have been doing in Q1 and Q2"; expects "a bit of a slowdown in the market" as the **GST-cut effect tapers and an expected below-normal monsoon** hits rural incomes. Over the last 3–5 quarters CIE grew "within ±2% of the weighted-average market"; Q2 CY26 was the first quarter clearly below market.
+- **Why India lagged the market:** (i) aluminium vertical "let go of some loss-making products" (portfolio restructuring at one customer); (ii) **exports flat for the second successive quarter**; (iii) some OEMs (e.g. Hyundai) negative.
+- **Margins:** India 16.7% hit by West-Asia-driven inflation in **energy, consumables and part of raw materials**; "countervailing measures… will show up in the next two quarters". **Steel prices "very much stable"; aluminium "gone up a lot"** — pass-through to revenue from Q3.
+- **New business:** ~₹500 Cr/yr new orders in H1 CY26 "in line with internal targets", spread across verticals. **Machined iron-castings export programme for "our American customers" ≈ ₹200 Cr/yr ("INR 2,000 million per year")**, deliveries started, revenue recognition from Q3 CY26; it fills foundry capacity → new moulding line planned. Gears (Rajkot + Chakan) buildings being expanded; **new fully robotic stamping line at Kanhe by mid-2027**; **three new forging presses** (one large press at Chakan, two at Bill Forge Bengaluru).
+- **Vertical growth Q2 CY26:** gears **+18%**, composites **+17%**, stampings **+16%** (management).
+- **Europe:** Q2 sales **−6% in euros** (+13% FX translation); Europe market expected **−2% to −3% this year and next**. Europe quarterly run-rate ~**€80–81 m vs ~€100 m earlier**. **Mexico revenue −20%** in Q2: GKN (new ownership) stretched contracted volumes over more years; Nexteer is the other main customer. **Metalcastello (Italy, gears): ~20% EBITDA, ~+15% growth**. Margin recovery = last year's restructuring (Legazpi/Metalcastello).
+- **Capex:** H1 CY26 **₹210 Cr** vs ₹380 Cr in all of CY25; H2 "significantly higher" (iron-foundry machined-castings project; gears, composites, stampings in Pune; forgings Chakan and Bengaluru); evaluating brownfield foundry moulding and **greenfields**.
+- **Inorganic:** "actively evaluating" but Indian sellers' price expectations "very, very high… business cases are not positive".
+- **Governance Q&A (analysts pushed hard):** why the CEO sits in Spain; growth vs margin trade-off vs peers (Endurance, Craftsman named by the analyst); management: "return on investment is not negotiable", "growing above 20% every year is very difficult", no capex limit if returns are there.
+- **Industry outlook table in the deck (IHS/SIAM/TMA):** India LV Q3 CY26 **+10.8%**, Q4 **−2.8%**; 2W Q3 +10% to +5%; tractors "Q3 lower, Q4 negative"; MHCV "similar trend as Q2". Europe LV Q3 −0.8%, Q4 −3.4%; Europe MHCV Q3 −2.3%, Q4 +0.5% [V deck p.18].
+
+**(b) KPI table (company basis; ₹ Cr) [V Q2 CY26 deck]**
+
+| KPI | Q2 CY25 | Q1 CY26 | **Q2 CY26** | H1 CY25 | **H1 CY26** |
+|---|---|---|---|---|---|
+| India sales | 1,459.1 | 1,619.0 | **1,654.9** (+13%) | 2,870.4 | 3,273.9 (+14%) |
+| India EBITDA % | 17.5% | 17.6% | **16.7%** | 18.0%* | 17.2% |
+| India EBIT % | 13.8% | 14.1% | 13.2% | 14.3% | 13.7% |
+| Europe sales | 831.5 | 922.1 | **888.3** (+7% ₹; −6% €) | 1,616.4 | 1,810.4 (+12% ₹; −3% €) |
+| Europe EBITDA % | 12.5% | 15.7% | **15.9%** | 13.1%** | 15.8% |
+| Consolidated sales (company) | 2,290.6 | 2,541.1 | **2,543.2** | 4,486.8 | 5,084.3 |
+| Other operating income | — | — | 77.3 | — | 148.2 |
+| Revenue from operations (SEBI) | 2,369.0 | 2,612.0 | **2,620.6** | 4,641.6 | 5,232.5 |
+| Consolidated EBITDA | 358.8 | 430.3 | **418.3** (16.4%) | 730.5 | 848.6 (16.7%) |
+| PAT (incl. discontinued) | 203.5 | 249.4 | **235.6** | 409.9 | 485.0 (+18%) |
+| Avg ₹/€ | — | — | 110.12 | — | 108.59 |
+
+*H1 CY25 India EBITDA includes 0.3 pt one-off subsidy (₹8.7 Cr, Zaheerabad). **H1 CY25 Europe includes −1.2 pt Metalcastello restructuring.
+
+**Balance sheet & cash (30-Jun-2026 vs 31-Dec-2025) [V deck p.14–15]:** net financial debt **−₹1,416 Cr** (−₹1,881 Cr); **net working capital swung from −₹384 Cr to +₹291 Cr**; H1 operating CF ₹620 Cr (73% of EBITDA) but **working-capital outflow ₹701 Cr** and dividend ₹266 Cr; RONA 19.4%; ROE 12.5%. SEBI balance sheet: **trade receivables ₹1,341 Cr vs ₹609 Cr** at Dec-25 (more than doubled); current investments ₹714 Cr (₹1,406 Cr); **non-current loans ₹725 Cr (₹391 Cr)** — see cash-pool note below. **The first-pass "negative CCC −33 days" is a December snapshot; at June the receivable jump makes CIE's working capital positive** [V; E].
+
+**(c) Five-year history — company basis and screener [V]**
+
+| | CY21 | CY22 | CY23 | CY24 | CY25 |
+|---|---|---|---|---|---|
+| Revenue from ops ₹ Cr (screener) | 6,765 | 8,753 | 9,280 | 8,964 | 9,406 |
+| OP ₹ Cr (screener) | 942 | 1,172 | 1,424 | 1,351 | 1,362 |
+| OPM % (screener) | 14 | 13 | 15 | 15 | 14 |
+| PAT ₹ Cr (screener, reported) | 393 | −136 | 1,125 | 828 | 828 |
+| **PAT ₹ Cr (company, continuing ops, AR chart)** | 406.6 | 673.5 | 797.6 | 820.3 | 823.0 |
+| EBIT % (company) | 11 | 11.8 | 13.4 | 13.4 | 12.1 |
+| EBITDA % India / Europe (company) | 14.1 / 12.6 | 15.9 / 14.5 | 16.7 / 17.8 | **18.2** / 15.7 | 17.5 / 13.3 |
+| RONA % (company) | 11.0 | 17.9 | 21.3 | 15.8 | 18.4 |
+| ROCE % (screener) | 11 | 15 | 18 | 17 | 15 |
+
+Note the CY22 split: screener's −₹136 Cr is reported PAT after the German-forging exit write-down booked through other income/discontinued operations; the company's continuing-operations PAT was ₹673.5 Cr [V AR p.6; screener]. **India EBITDA margin peaked at 18.2% in CY24**; Europe peaked at 17.8% in CY23 [V AR].
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Quarter (CY) | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Sep-24 (Q3 CY24) | 2,135 | 331 | 15% | 195 |
+| Dec-24 (Q4 CY24) | 2,110 | 299 | 14% | 185 |
+| Mar-25 (Q1 CY25) | 2,273 | 335 | 15% | 206 |
+| Jun-25 (Q2 CY25) | 2,369 | 337 | 14% | 204 |
+| Sep-25 (Q3 CY25) | 2,372 | 356 | 15% | 214 |
+| Dec-25 (Q4 CY25) | 2,393 | 335 | 14% | 204 |
+| Mar-26 (Q1 CY26) | 2,612 | 402 | 15% | 249 |
+| Jun-26 (Q2 CY26) | 2,621 | 390 | 15% | 236 |
+
+**(e) Annual-report findings (AR CY2025, filed 2-Apr-2026) [V]**
+- **Geography & technology (p.6):** CY25 company sales ₹91 bn = India ₹59 bn (65%) + Europe ₹32 bn (35%). **Mexico (~₹3 bn), earlier reported under India, is now a subsidiary of CIE Galfor and reported under Europe from CY25.** Global mix: **forgings 51%, stampings 16%, aluminium castings 12%, iron castings 9%, gears 8%, composites 3%, magnets 1%**. Europe: **forgings 85%, gears 15%** (Metalcastello). India: as in the headline. BRSR top products: crankshafts/stub axles/steering/CV joints/stampings/magnets 71%; turbocharger housings, axle and transmission parts 15%; engine/timing gears and drive shafts 8%.
+- **Related party with the Spanish parent — cash pooling, not royalty.** The AGM (29-Apr-2026) approved material RPTs of **CIE Galfor S.A.U. (CIE India's Spanish subsidiary) with CIE Automotive S.A.**: participation in the group **common cash-pool**, with annual transfers up to **€250 m** each way and a **maximum receivable from the parent ("reckoned as loan given") of €50 m at any time**, interest at arm's length, approval aggregate cap ₹25,000 m [V AR, AGM notice]. **A text search of the AR finds no royalty or technical-fee payment to CIE S.A.** The jump in non-current loans (₹391 → ₹725 Cr, Dec-25 → Jun-26) is consistent with (but not proven to be) cash-pool lending to the parent [E — writer should flag as "consistent with", not "is"]. M&M remains an approved RPT counterparty (sales).
+- **Contingent liabilities (standalone, Dec-25, ₹ m):** MSEDCL cross-subsidy/additional-surcharge dispute **527.4**; water charges **325.1**; income tax 189.2; stamp duty/cess 156.1; excise 113.1; GST/VAT 38.4; service tax 11.9 — total ~₹136 Cr; **capital commitments ₹93.2 Cr (₹35.6 Cr CY24)** [V AR Note 30].
+- **Subsidiaries:** CIE Galfor (Spain), UAB CIE LT Forge (Lithuania), CIE Legazpi (Spain), Metalcastello (Italy, 99.96%), Bill Forge, CIE Hosur, CIE Aluminium Casting India (CACIL — being merged), Mexico Forgings, **CIE Forgings Germany (non-operational)** [V deck p.4; AR].
+
+---
+
+### 4.2.4 Balu Forge Industries (BALUFORGE · 531112) — FY Apr–Mar
+
+**Headline corrections.** (1) **~44% of FY26 revenue and ~41% of PAT came from a 0%-tax UAE subsidiary**: Safa Otomotiv FZ-LLC (Ras Al Khaimah free zone; "assembly & supply of power-train sub-assemblies to customers in the Middle East & North Africa"; qualifies as a Qualifying Free Zone Person, 0% tax on qualifying income) — **FY26 turnover ₹486.15 Cr, PAT ₹105.70 Cr** [V AR AOC-1]. Standalone (India) revenue was ₹620.5 Cr (exports ₹330.6 Cr + domestic ₹289.9 Cr) [V AR KAM]. (2) **The statutory auditor added an Emphasis of Matter** on standalone trade receivables of **₹339.08 Cr**: management "represented that the realization of certain export and receivables has been impacted/interrupted due to prevailing geopolitical and market conditions"; plus **cheques of ₹24.41 Cr received from customers and recorded, but not deposited/realised** at the report date; and export receivables from the wholly-owned subsidiary (₹5.24 Cr) beyond RBI realisation timelines [V AR auditor's report]. (3) **The Jan-2026 income-tax search is NOT "concluded"**: the AR says assessments/reassessments for FY21–FY26 "are pending… the Company is unable to ascertain the exact financial impact" [V AR Note 45]. (4) **FY26 PAT growth = +27.0%** (₹2,589 Mn vs ₹2,039 Mn) — the "24.6%" figure is wrong [V earnings release]. (5) The **"Government 3.81%" holder is the Central Government: 46,24,001 shares (4.02% at 31-Mar-2026)** [V AR shareholding table]; aggregators name the registered holder as the **Directorate of Enforcement, Raipur** [V-snip simplywall.st/marketsmojo] — i.e. shares attached by the ED in some proceeding; the AR does not explain. (6) CRISIL's rating was **BBB+/Negative** (reaffirmed and **withdrawn at the company's request**, 27-Feb-2026), alongside ICRA's upgrade to A-(Stable) [V CRISIL; V deck].
+
+**(a) Management-guidance digest [V]** — *Balu holds no earnings calls (screener lists presentations only); guidance is from the FY26 earnings release (30-May-2026) and investor deck (24-Jun-2026).*
+- **Outlook (CMD statement):** "As we enter FY27, we remain focused on strengthening our precision engineering, defence, and aerospace manufacturing capabilities through continued investments… and capacity expansion." **No numeric revenue/margin guidance.**
+- **Q4 FY26 dip explained:** Middle-East geopolitical developments "disrupted global logistics and temporarily impacted the Company's **India UAE operations**" → sequential volume decline and "a temporary increase in inventory and trade receivables… working capital levels remained elevated… short-term impact".
+- **Defence:** **30,000 × 152 mm artillery shells** ordered by "a leading Indian energetics player", **supplies from June 2026**; 5-year **binding** MoU with a NATO-affiliated entity for large-calibre shells from Belgaum; "inducted into the NATO supply chain"; automated empty-shell line **360,000 shells p.a.** "commercialised" (another slide says "up to 300,000"); 155 mm ERFB pilot 10,000 units (Q1 FY27, per earlier sources).
+- **Forward integration into explosives:** WOS renamed **Quantum Energetics Pvt Ltd** (ex-Naya Energy Works) with objects expanded to **TNT, RDX, HMX** "subject to requisite approvals/licences" — **not yet operating** (AOC-1: "yet to commence operations").
+- **Aerospace:** maiden order from **Alpha Aircraft Systems Inc., USA**.
+- **Mix:** **defence/aerospace/railway revenue share 5% (FY24) → 9% (FY25) → 13% (FY26)**; ~**50% of the order book** (value not disclosed). FY26 order-book split: defence/aero/rail ~50%, CV 19%, agriculture 10%, oil & gas 7%(?), power gen 3% (pie partly illegible in text extraction; Part 2's 13% O&G / 7% heavy engg are from the primer and conflict — treat the non-defence slices as approximate).
+- **Capacity (company, Jun-2026):** forging **100,000+ MTPA** (25 t, 16 t, 10 t hydraulic hammers + **8,000 t mechanical press** + 1,000 t hydraulic press) → **150,000 MTPA** in phases; machining **45,000 MTPA** today (Kakti 22,000 + Hattargi) → **80,000+ MTPA** (Hattargi 58,000 when complete); 46-acre Hattargi (Hukkeri, Belagavi) site; 7-axis and 11-axis CNC line commercialised; "additional capacity expansion plans initiated through internal accruals".
+- **Market framing used by the company:** global ammunition market ₹1,714 bn by 2030; Indian ammunition ₹107 bn by 2030; India defence production target ₹3,000 bn and exports ₹500 bn by FY30; FY26 defence budget ₹7.84 lakh crore with 75% of capital procurement domestic [V deck — company-cited, vendor/government sources not named].
+
+**(b) KPI table (company, ₹ Mn unless stated) [V release/deck]**
+
+| KPI | Q4 FY25 | Q3 FY26 | Q4 FY26 | FY25 | FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|
+| Revenue from ops | 2,696 | 3,111 | 2,636 | 9,236 | **11,074** (+19.9%) | 3,007 (+29%) [V-sec CW] |
+| EBITDA (ex-OI) | 750 | 845 | 599 | 2,511 | **2,995** | 848 [V-sec] |
+| EBITDA margin | 27.8% | 27.2% | **22.7%** | 27.2% | 27.0% | 28.2% |
+| PAT | 627 | 711 | 657 | 2,039 | **2,589** (+27.0%) | 661 (+15.9%) |
+| CFO (₹ Mn) | — | — | — | 1,480 [screener] | **317** | — |
+| ROCE / ROE (company) | — | — | — | n.d. (chart illegible in extraction) | **21.7% / 19.6%** | — |
+| Defence+aero+rail % of revenue | — | — | — | 9% | 13% | — |
+| Export share (standalone, BRSR) | — | — | — | — | **55.23%** | — |
+| Safa Otomotiv (UAE) turnover / PAT | — | — | — | — | **4,862 / 1,057** | — |
+
+**(c) Five-year history [V]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue ₹ Cr (company) | 286.1 | 326.6 | 559.9 | 923.6 | 1,107.4 |
+| EBITDA ₹ Cr (company, ex-OI) | 37.1 | 49.8 | 119.1 | 251.1 | 299.5 |
+| EBITDA margin (company) | 13.0% | 15.2% | 21.3% | 27.2% | 27.0% |
+| PAT ₹ Cr (company) | 29.8 | 38.9 | 93.5 | 203.9 | 258.9 |
+| Sales ₹ Cr (screener) | 286 | 327 | 560 | 924 | 1,107 |
+| CFO ₹ Cr (screener) | −58 | n/a | −32 | 148 | 32 |
+| Debtor days (screener) | — | 235 | — | — | 140 |
+| ROCE % (screener) | 29 | 27 | 30 | 31 | 23 |
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Sep-24 | 223 | 65 | 29% | 48 |
+| Dec-24 | 256 | 68 | 27% | 59 |
+| Mar-25 | 270 | 75 | 28% | 63 |
+| Jun-25 | 233 | 72 | 31% | 57 |
+| Sep-25 | 300 | 83 | 28% | 65 |
+| Dec-25 | 311 | 85 | 27% | 71 |
+| Mar-26 | 264 | 60 | 23% | 66 |
+| Jun-26 | 301 | 85 | 28% | 66 |
+
+**(e) Annual-report / rating findings [V]**
+- **Structure:** three subsidiaries — **Safa Otomotiv FZ-LLC (UAE, 100%; calendar-year reporting, audited Apr–Mar figures used)**, Quantum Energetics (not operating), Balu Advanced Technologies & Systems (dormant). Safa's net worth ₹225 Cr; total assets ₹268 Cr.
+- **Tax:** the UAE profits explain the low consolidated tax rate (15% FY26 screener) — ~₹106 Cr of PAT taxed at 0% [E from AOC-1].
+- **Receivables:** standalone ₹339 Cr (EoM); CRISIL (Feb-2026): debtors **158 days at Mar-25** (181 a year earlier), "more than 6 months debtors… significantly increased" in FY25 on extended credit to new customers; **existing customers get 140–180 days' credit**; inventory 60–70 days; **packing-credit limits ~99% utilised** over the 12 months to Sep-2025; downgrade trigger = debtors sustaining **>130 days** — FY26 screener debtor days are **140** [V CRISIL; V screener].
+- **Capital commitments ₹200.7 Cr** at Mar-26 (₹55.0 Cr) — Hattargi forging/machining build-out [V AR].
+- **Shareholding at 31-Mar-26 (AR):** promoters 54.39%; FPIs 6.02%; **Central Government 4.02%**; individuals 22.67%; bodies corporate 7.89%; 64 lakh warrant shares allotted after year-end (listing pending at 31-Mar) [V AR].
+- **Contingent liabilities:** no bank guarantees; the IT search (7-Jan-2026, s.132, FY21–FY26) is the open item [V AR].
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. AIA sales volume and mix, tonnes (company) [V AR FY26 p.18; Q4 FY26 & Q1 FY27 presentations]**
+
+| Year | Total | Mining | Others | Mining % | Production | Realisation ₹/kg (screener sales ÷ t) [E] |
+|---|---|---|---|---|---|---|
+| FY22 | 260,469 | n.d. | n.d. | — | 278,590 | 137 |
+| FY23 | 291,342 | n.d. | n.d. | — | 288,088 | 168 |
+| FY24 | 297,345 | n.d. | n.d. | — | 295,509 | 163 |
+| FY25 | 255,443 | 166,053 | 89,390 | 65.0 | 248,200 | 168 |
+| FY26 | 258,002 | 159,813 | 98,189 | 61.9 | 255,820 | 171 |
+| Q1 FY27 | 64,644 | 39,228 | 25,416 | 60.7 | 61,338 | 178 (net sales basis) |
+Chart idea: bars = tonnes (left), line = ₹/kg (right) — "flat tonnes, rising price".
+
+**D2. India exports by HS code, US$ m and net tonnes (UN Comtrade, India as reporter, partner = world; fetched 22-Oct-2026 from comtradeapi.un.org public preview) [V]**
+
+| HS | Description | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---|---|---|---|---|---|
+| 7325 | Other cast articles of iron/steel | 1,247.2 (634 kt) | 1,398.7 (739 kt) | 1,240.5 (645 kt) | 1,213.6 (663 kt) | 1,246.1 (694 kt) |
+| 7325.91 | **Grinding balls & similar for mills** | 215.3 (181 kt) | 276.1 (n.a.) | 260.2 (202 kt) | 202.4 (162 kt) | **183.5 (155 kt)** |
+| 7326 | Other articles of iron/steel (incl. forged/stamped) | 1,313.9 | 1,309.3 | 1,282.5 | 1,409.5 | 1,407.1 |
+| 8483 | Transmission shafts, cranks, bearings housings, gears | 1,669.9 | 1,840.9 | 1,979.7 | 2,080.0 | 2,267.6 |
+| 8483.10 | **Transmission shafts incl. crankshafts/camshafts, cranks** | 423.3 (22.6 kt) | 475.3 (28.4 kt) | 491.1 | 505.8 (23.2 kt) | 490.3 (19.7 kt) |
+| 8708 | Parts & accessories of motor vehicles | 6,179.2 | 6,664.9 | 7,043.1 | 7,410.9 | 7,590.8 |
+Notes: calendar years; India-reported values. Unit values [E]: grinding balls ~US$1,190–1,290/t (2021–25) vs AIA's ~US$1,780/t realisation (₹168.8/kg at ~₹95/$) — AIA's mix (liners, diaphragms, high-alloy) and Vega's UAE invoicing mean its exports are not all under 7325.91. **India's grinding-ball exports fell from US$276 m (2022) to US$184 m (2025) and from 202 kt (2023) to 155 kt (2025).** 2024 destinations for 7325.91 (US$ m): Australia 26.8, Ghana 26.3, **USA 19.8 (~10%)**, Brazil 17.8, Canada 17.1, Tanzania 12.8, Papua New Guinea 9.7, Russia 7.0, Dominican Rep. 6.9, Philippines 6.6, Netherlands 4.2, Oman 4.1, Chile 3.5. Crankshaft-type exports (8483.10) run at ~US$0.5 bn/yr, ~20–28 kt, i.e. ~US$21,000–25,000/t (machined value).
+
+**D3. India vehicle production (company-cited industry data in CIE's Q2 CY26 deck: IHS for LV, SIAM for 2W & MHCV, TMA for tractors) [V]**
+
+| Segment | Q2 CY25 | Q1 CY26 | Q2 CY26 | YoY | Est. Q3 CY26 | Est. Q4 CY26 |
+|---|---|---|---|---|---|---|
+| India light vehicles (<6 t), mn | 1.41 | 1.78 | 1.64 | +16.2% | +10.8% | −2.8% |
+| India 2W, mn | 5.90 | 7.1 | 7.25 | +22.9% | +10% to +5% | — |
+| India tractors, '000 | 295 | 335 | 338 | +14.6% | lower | negative |
+| India MHCV, '000 | 100 | 149 | 106 | +6.3% | similar to Q2 | — |
+| Europe LV (ex-Russia), mn | 4.1 | 4.1 | 4.0 | −2.4% | −0.8% | −3.4% |
+| Europe MHCV (ex-Russia), '000 | 110 | 110 | 107 | −2.5% | −2.3% | +0.5% |
+H1 CY26 YoY: India LV +13.6%, 2W +21.8%, tractors +24.9%, MHCV +16.4%; Europe LV −1.2%, MHCV +1.3%. **SIAM full-year FY26 production** (as opposed to dispatches) could not be fetched (siam.in is script-rendered); a SIAM-based report gives **Apr–Feb FY26 production of 3,03,51,351 units (+10.9% YoY)** [V-snip autocarpro/SIAM].
+
+**D4. CIE India vs Europe EBITDA margin, % (company AR CY25 p.6) [V]**
+
+| | CY20 | CY21 | CY22 | CY23 | CY24 | CY25 | H1 CY26 |
+|---|---|---|---|---|---|---|---|
+| India | 11.7 | 14.1 | 15.9 | 16.7 | 18.2 | 17.5 | 17.2 |
+| Europe | 7.6 | 12.6 | 14.5 | 17.8 | 15.7 | 13.3 | 15.8 |
+| RONA (group) | 3.7 | 11.0 | 17.9 | 21.3 | 15.8 | 18.4 | 19.4 |
+
+**D5. CIE technology mix CY25, % of sales (company) [V]** — Global ₹91 bn: forgings 51 · stampings 16 · aluminium castings 12 · iron castings 9 · gears 8 · composites 3 · magnets 1. India ₹59 bn: forgings 35 · stampings 23 · aluminium castings 18 · iron castings 11 · gears 6 · composites 5 · magnets 2. Europe ₹32 bn: forgings 85 · gears 15.
+
+**D6. PTC FY26 revenue by entity, ₹ Cr (AR) [V]** — Trac Precision (UK) 247.0 (41%; PAT 0.7) · Aerolloy 175.3 (29%; PAT 68.0) · PTC standalone 285.7 (incl. inter-company sales to Aerolloy; eliminations make the sum exceed the 602.8 consolidated) · consolidated 602.8.
+
+**D7. Balu revenue by end-market, % (company deck) [V, partly illegible]** — Defence/aero/rail: FY24 5 · FY25 9 · FY26 13. CV: ~45 · ~40 · ~36 [E parse of pie labels]. Agriculture ~15 · ~18 · ~20 [E parse]. Order book FY26: defence/aero/rail ~50; CV ~19; agriculture ~10 [V].
+
+**D8. Balu FY26 revenue by entity, ₹ Cr (AR) [V]** — Standalone India 620.5 (exports 330.6 / domestic 289.9) · Safa Otomotiv FZ-LLC (UAE) 486.2 · consolidated 1,107.4.
+
+**D9. US Section 232 status relevant to members (primary) [V]**
+
+| Measure | Coverage | Rate & base | Effective | Source |
+|---|---|---|---|---|
+| Steel & aluminium articles and listed derivatives (Proclamations 9704/9705, as amended) | **HTS 7325.91.00 (grinding balls), 7325.99, 7326.11/19/20/90.xx are on CBP's steel-derivative list (subdivision m)**; **8483.10 (crankshafts/transmission shafts), 8483.20–90, 8708.40/92/93/99 appear in the Aug-2025 derivative inclusions** | 50% (25% UK); **from 6-Apr-2026 applied to the FULL customs value regardless of metal content**; "certain" derivatives at 25%; some lines capped so MFN + 232 = 15% | Lists effective 18-Aug-2025; full-value rule 6-Apr-2026 | CBP "List of Steel HTS subject to Section 232" (effective 18-Aug-2025; copy hosted by gw-world.com) [V-sec copy of CBP list]; Proclamation of 2-Apr-2026, **91 FR 18201** (FR Doc 2026-06960) [V govinfo] |
+| Medium- & heavy-duty vehicle parts (MHDVPs) | Annex I parts; the proclamation cites US dependence on "transmission shafts, castings, forgings" | **25%** | **1-Nov-2025** (offset 3.75% of US-assembled MHDV value to Oct-2030) | **90 FR 48451** (FR Doc 2025-19639) [V govinfo] |
+| Passenger-vehicle & light-truck parts | Annex Part B: HTS lines in Ch. 40, 70, 73, 83, 84, 85, 87, 90, 94 | 25% | parts from 3-May-2025 | Proclamation 10908, **90 FR 14705** [V FR metadata; line-level 8483.10 not seen] |
+| Section 301 "forced labour" action | India in the 10% band; **232 goods excluded** | 10% | 24-Jul-2026 | FR Doc 2026-15181 (28-Jul-2026) listed [V title only]; Part 1 [V-snip] |
+**Implication [E]:** AIA's direct US grinding-ball exports (~US$20 m of India's 7325.91 exports in 2024) now pay **50% on full value**; Balu's CV/industrial crankshafts to the US face 25% (MHDV/auto parts) or 50% (steel-derivative list) — whichever measure CBP applies (232 measures generally do not stack; check CBP guidance per entry).
+
+**D10. Input prices [V-snip trade press]** — India high-carbon ferro-chrome (60% Cr, ex-Jajpur, BigMint): **₹1,24,600/t (4-Feb-2026, highest since Sep-2023)** → ₹1,18,000/t (29-Apr-2026) → ₹1,22,200/t (10-Jun-2026); low-carbon FeCr ~₹2,43,000/t. AIA (Aug-2026): ferro-chrome "on the higher side", scrap "fairly elevated", freight US$8–9k/container [V transcript]. HMS scrap 2026 series not sourced. CIE (Jul-2026): steel "very much stable", aluminium "gone up a lot" [V transcript].
+
+**D11. Titanium market (as quoted in PTC AR FY26, vendor estimates) [V AR; vendor figures indicative]** — global titanium industry US$21.78 bn (2025, IMARC) → US$33.26 bn (2034); global titanium market US$28.2 bn (2025) → US$37.8 bn (2030, TBRC); **aerospace titanium market US$3.22 bn (2025) → US$4.45 bn (2030), 6.5% CAGR (TBRC)**; titanium metal segment US$4.0 → 5.3 bn (2025–30, Technavio), aerospace + marine ~47% of demand; **China's share of global titanium-metal production ~40% (2019) → >75% (2025)**; VSMPO-AVISMA "dominant producer of aerospace-grade mill products outside China".
+
+**D12. Global peers (primary where marked)**
+
+| Peer | Latest year | Revenue | Margin | Source |
+|---|---|---|---|---|
+| Howmet Aerospace | 2025 | **US$8.3 bn (+11%)**; 2026 guide US$9.0–9.2 bn | **Adj. EBITDA US$2.4 bn, 29.3%** (Q4: 30.1%) | Howmet Q4/FY25 release PDF [V] |
+| Sigdo Koppers (owner of Magotteaux) | 2025 | US$4.119 bn (group) | EBITDA US$551 m; net profit US$111 m | portalminero (AGM report) [V-snip] |
+| Magotteaux | — | not separately disclosed in sources reached; Q2-2025 revenue +1.8% on physical sales +9.8% | — | guiaminera [V-snip]; acquired by SK in 2012 for **US$790 m** [V-snip df.cl]; ~240 kt/yr ball capacity (2011 article) [V-snip, stale] |
+| AIA (for scale) | FY26 | US$~465 m (₹4,420 Cr at ~₹95) | operating ~28.7% | [V; E FX] |
+
+**D13. India castings output (IIF)** — 2023-24 15.16 mt; **2024-25 15.86 mt**, US$22 bn, ~5,000 units (IIF president Sushil Sharma, 74th Indian Foundry Congress, Feb-2026, via themachinemaker) [V-snip]. The "~12 mt" figure traces to the **72nd IFC era (older)** and should not be used for 2024-25 [V-snip foundry-planet/castingssa]. IIF's own production-returns page returns a blank form (not machine-readable).
+
+---
+
+## 4.4 Gap log (the 14 §H items)
+
+| # | §H gap | Status | What was found / tried |
+|---|---|---|---|
+| 1 | AIA annual tonnage FY22–FY26; FY26 growth | **FILLED** | AR FY26 p.18: 260,469 / 291,342 / 297,345 / 255,443 / 258,002 t; FY26 **+1.0%** (not +6–7%) [V] |
+| 2 | AIA mining vs non-mining; export geography | **PARTLY FILLED** | Mining t FY25 166,053 / FY26 159,813 (−3.8%); others 89,390 / 98,189 [V]. Consolidated sales India 35.55% / outside 64.45% [V AR]. Country split not disclosed; India's 7325.91 export destinations from Comtrade as a proxy [V]. Mining **revenue** split still not disclosed |
+| 3 | Grinding-media pool size & $ market | **PARTLY FILLED** | Management (Aug-2026): **2–2.5 mt total opportunity; 1–1.5 mt for gold/copper/iron (media + liners); LatAm >0.5 mt media** [V transcript]. $ market size: vendor estimates still conflict; none primary |
+| 4 | AIA vs Magotteaux / Moly-Cop shares | **STILL OPEN** | No primary share data. Magotteaux revenue not disclosed by Sigdo Koppers in sources reached; Moly-Cop private. Management qualitative: China now dominant in **forged** media (top two Chilean mines), high-chrome limited to few players [V transcript]. Keep 19%/16% as [primer/vendor] only |
+| 5 | PTC order book; Trac price & revenue; segment revenue | **MOSTLY FILLED** | Trac: **acquisition cost ₹181.2 Cr**; FY26 revenue **₹247.0 Cr**, PAT ₹0.66 Cr; Aerolloy FY26 ₹175.3 Cr, PAT ₹68.0 Cr; standalone ₹285.7 Cr [V AR]. **Order book: not disclosed anywhere (no PTC concalls)** — still open |
+| 6 | PTC parts capacity; Odisha sponge; Lucknow capex; melt capacities | **PARTLY FILLED** | VAR ~1,500 tpa (production since Dec-2024); EB ~5,000 tpa **still under installation at Mar-26**; PAM ~600 tpa ingot (production Jan-2026); aerospace casting capacity plan 300 t Ti + 300 t superalloy (2023) [V]. Aerolloy project outlay ~₹700 Cr to Mar-2027 (CARE) [V]; capital commitments ₹672 Cr (Mar-26) [V]. Odisha sponge: MoU only, **no capex/timeline disclosed** — open |
+| 7 | CIE technology split; Europe truck & Spain production | **PARTLY FILLED** | CY25 tech split global/India/Europe [V AR]. Europe LV & MHCV production (IHS via CIE deck) [V]. ACEA/ANFAC series not fetched (time budget) — Spain-specific production still open |
+| 8 | Balu order book, export share, capacity, shell price, Govt holder, next board date | **MOSTLY FILLED** | Export share (standalone) 55.23%; UAE sub ₹486 Cr; capacity forging 100k+ (→150k), machining 45k (→80k), shells 360k (or 300k) [V]. "Government" = **Central Government, 46,24,001 shares, 4.02% (Mar-26)**, named by aggregators as ED Raipur [V AR; V-snip]. **Order-book value, shell price, Q2 FY27 board date: still open** |
+| 9 | Sec 232 coverage of 7325, 7326, 8483, auto parts | **FILLED (with caveat)** | 7325.91/7325.99/7326 on CBP steel-derivative list; 8483.10 in Aug-2025 inclusions; full-value basis from 6-Apr-2026 (91 FR 18201); MHDV parts 25% from 1-Nov-2025 (90 FR 48451) [V]. Line-level auto-parts annex (90 FR 14705) not viewed |
+| 10 | India exports by HS 7325/7326/8483/8708 | **FILLED** | UN Comtrade India-reported 2021–2025 (D2) [V]. (tradestat.commerce.gov.in is form-driven; Comtrade used instead) |
+| 11 | Ferro-chrome & scrap prices | **PARTLY FILLED** | HCFeCr ₹1.18–1.25 lakh/t Feb–Jun 2026 [V-snip BigMint]; scrap series still open |
+| 12 | Aerospace titanium market & VSMPO share | **PARTLY FILLED** | Aerospace Ti market US$3.22 bn (2025); China >75% of Ti metal; VSMPO dominant ex-China (PTC AR citing vendors) [V AR]. VSMPO's Western share (25–30%) remains a weak single source |
+| 13 | SIAM FY26 production; tractor production | **PARTLY FILLED** | Quarterly production by segment incl. tractors (TMA) from CIE deck [V]; Apr–Feb FY26 total production 3.035 crore (+10.9%) [V-snip]; full-year SIAM production not fetched |
+| 14 | Conflicts | **RESOLVED (4 of 5)** | CIE ₹9,406 vs ₹9,122 Cr = other operating income (exact) [V]; AIA Q1 FY26 base = 60,156 t [V pres.]; Balu FY26 PAT growth = **+27.0%** [V release]; IIF 15.86 mt is current, ~12 mt is older [V-snip]; PTC ₹134 vs ₹172 Cr = OP vs EBITDA incl. ₹40.5 Cr other income on total income [V AR] |
+
+---
+
+## 4.5 New insights the first pass missed
+
+1. **AIA is a pricing-and-FX story, not a volume story.** Tonnes are lower than FY22 (258 kt vs 260 kt) and 13% below the FY24 peak (297 kt); mining tonnes fell 3.8% in FY26. PAT compounded ~20%/yr FY22–26 on realisation (₹137 → ₹171/kg), margin, treasury income and FX (FY26 FX gain ₹170 Cr vs ₹53 Cr). With forward cover of only ~US$21 m + AUD 5 m + EUR 3 m, AIA is effectively long the dollar — the rupee's slide to ~₹95 has flattered FY26–Q1 FY27. Management's own operating-margin guide (20–22%) sits ~6 pts below delivery.
+2. **The forged-to-high-chrome conversion has a new obstacle: Chinese forged balls.** Management says the top two Chilean mines now use Chinese forged media and ~20 Chinese forgers supply mines worldwide; Brazil/Canada protectionism is costing AIA share. India's grinding-ball exports (HS 7325.91) fell ~34% in value from 2022 to 2025. The bull case's "~20% converted, 80% to go" needs this counterweight.
+3. **AIA is far less export-dependent than believed:** 35.5% of consolidated sales are in India (cement, utilities, Indian iron ore) — a domestic-capex leg the primer ignores.
+4. **PTC's FY26 doubling was mostly Trac, and Trac earns ~nothing.** Trac added ₹247 Cr of revenue at a ₹0.7 Cr profit; Aerolloy (₹175 Cr, 39% PAT margin) is the engine. PTC paid ₹181 Cr for Trac (~0.7× sales). PTC has raised **~₹2,500 Cr of equity in two years** (₹700 Cr QIP Sep-2024 + ₹1,800 Cr QIP Oct-2026) and has ₹672 Cr of contracted capex; the EB cold-hearth furnace (the 5,000 tpa headline) was still being installed at Mar-26.
+5. **Balu's profit is ~41% UAE free-zone profit at 0% tax, and its auditor flagged receivables and ₹24 Cr of undeposited cheques.** Add the CRISIL BBB+/Negative rating withdrawn at the company's request, an IT search whose assessments are still pending, and ~4% of equity held by the Central Government (ED Raipur per aggregators) — the governance/cash-conversion risk is materially larger than Parts 1–3 state.
+6. **CIE's negative working capital reversed in H1 CY26** (NWC −₹384 Cr → +₹291 Cr; receivables ₹609 → ₹1,341 Cr; WC outflow ₹701 Cr) while non-current loans rose ₹334 Cr — the writer should ask whether cash is being lent into the parent's cash pool (approved up to €50 m receivable). CIE's India is now only **35% forgings**; stampings + aluminium are 41% — less crankshaft/EV-exposed than the "forging company" label implies.
+7. **US Sec 232 got stricter for exactly these products in 2026:** since 6-Apr-2026 the 50% steel-derivative duty applies to full customs value (grinding balls, castings/forgings under 7325/7326, and listed 8483 lines), and MHDV parts pay 25% from 1-Nov-2025 — relevant to Balu's CV crankshafts and CIE's US machined-castings programme (₹200 Cr/yr).
+
+### New primer issues (append to primer-issues.md)
+
+### From Castings & Forgings deep-research pass (2026-10-22, castings-forgings-industry.md Part 4)
+
+- **aia-engineering.html — volume history wrong/omitted:** add FY22–FY26 sales volumes 260,469 / 291,342 / 297,345 / 255,443 / 258,002 t; FY26 growth +1.0%; **mining tonnes fell 3.8% in FY26 (166,053 → 159,813 t)**. Remove/qualify any "steady volume growth" or "mining share rising" language.
+- **aia-engineering.html — export share:** ">90% exports" is wrong on a consolidated basis: **India 35.55% / outside India 64.45% of FY26 consolidated sales** (AR MD&A).
+- **aia-engineering.html — revenue basis (resolves Part 3 issue):** ₹4,355 Cr = net sales; ₹4,420 Cr = revenue from operations (incl. ₹64 Cr export benefits); **total income ₹4,894 Cr** (incl. ₹474 Cr other income). Fix the disclaimer labels.
+- **aia-engineering.html — guidance:** add management's **20–22% operating-margin guidance**, the "₹160–165/kg" indicative realisation (actual ~₹178/kg Q1 FY27), TAM "2–2.5 mt total; 1–1.5 mt gold/copper/iron", and the Chinese forged-media entry in Chile.
+- **aia-engineering.html — contingent liabilities:** ₹688.6 Cr (income tax ₹368.8 Cr, incl. ₹289.4 Cr in the High Court after an ITAT win); Welcast Bangalore plant closed.
+- **ptc-industries.html — Trac numbers:** acquisition cost **₹181.2 Cr**; FY26 revenue **₹247 Cr (41% of group), PAT ₹0.7 Cr**; Aerolloy FY26 revenue **₹175 Cr** (not ~₹190 Cr), PAT ₹68 Cr; standalone +20%.
+- **ptc-industries.html — capacity status:** EB cold-hearth (5,000 tpa) **under installation at Mar-26**; PAM (~600 tpa ingot) in production Jan-2026; VAR since Dec-2024; 4,500/5,100 t press since Mar-2026. Aerospace casting capacity = 300 t Ti + 300 t superalloy plan.
+- **ptc-industries.html — funding history:** add the **₹700 Cr QIP of Sep-2024** (CARE) alongside the ₹1,800 Cr QIP of Oct-2026; capital commitments ₹672 Cr.
+- **ptc-industries.html — "no concalls":** state that PTC does not host quarterly earnings calls; there is no numeric guidance.
+- **cie-automotive-india.html — technology mix:** replace "forging ~52%" (India) with **India: forgings 35%, stampings 23%, aluminium 18%, iron castings 11%, gears 6%, composites 5%, magnets 2%**; global forgings 51%; Europe forgings 85% / gears 15%. Mexico (~₹3 bn) now reported in Europe.
+- **cie-automotive-india.html — new orders:** "~₹1,000 Cr new-order book" → **~₹500 Cr/yr of new business won in H1 CY26**; ₹200 Cr/yr US machined-iron-castings programme from Q3 CY26.
+- **cie-automotive-india.html — working capital & parent cash pool:** H1 CY26 receivables more than doubled (₹609 → ₹1,341 Cr), NWC turned positive; AGM-approved cash-pool with CIE S.A. (max €50 m receivable). No royalty to the parent found in the AR.
+- **cie-automotive-india.html — margin history:** India EBITDA peaked 18.2% (CY24) → 17.5% (CY25) → 16.7% (Q2 CY26); Europe 17.8% (CY23) → 13.3% (CY25) → 15.9% (Q2 CY26).
+- **balu-forge.html — UAE subsidiary:** **Safa Otomotiv FZ-LLC (RAK free zone, 0% tax) = ₹486 Cr revenue (44%) and ₹106 Cr PAT (41%) in FY26**; standalone exports 55% of standalone turnover.
+- **balu-forge.html — auditor Emphasis of Matter:** receivables ₹339 Cr with export realisations "impacted/interrupted"; **₹24.4 Cr of customer cheques recorded but not deposited/realised**; WOS receivable beyond RBI timelines.
+- **balu-forge.html — IT search not concluded:** AR says assessments for FY21–FY26 are pending and impact unascertainable — correct the primer's "concluded, no incriminating findings".
+- **balu-forge.html — ratings:** add **CRISIL BBB+/Negative (reaffirmed and withdrawn on request, 27-Feb-2026)** next to ICRA A-(Stable).
+- **balu-forge.html — shareholders:** "Government 3.81%" = **Central Government, 46,24,001 shares (4.02% at Mar-26)**; aggregators name the Directorate of Enforcement, Raipur — state the fact, avoid inference.
+- **balu-forge.html — FY26 PAT growth:** +27.0% (₹258.9 Cr vs ₹203.9 Cr); defence/aero/rail = 13% of FY26 revenue (5% FY24); 30,000 × 152 mm shell order (supplies from Jun-2026); Quantum Energetics (TNT/RDX/HMX, licences pending).
+- **General:** add the 2026 Sec 232 change (**full-value basis from 6-Apr-2026**, 91 FR 18201) and **MHDV parts 25% from 1-Nov-2025** (90 FR 48451); grinding balls (7325.91) and 7326 are on CBP's steel-derivative list.
+
+---
+
+## 4.0 Supersedes — corrections to Parts 1–3 (writer: apply these)
+
+| # | Where in Parts 1–3 | Old value | New value | Source (fetched 22-Oct-2026) |
+|---|---|---|---|---|
+| 1 | §9.3, §B1, §0 | AIA FY26 volume growth "~+6–7% [E: FY25 ~242 kt]" | **+1.0% (255,443 → 258,002 t)** | AIA AR FY26 p.18; Q4 FY26 presentation [V] |
+| 2 | §H1, §E6 | AIA FY22–FY25 tonnage "not sourced" | **260,469 / 291,342 / 297,345 / 255,443 t** (FY24 peak) | AIA AR FY26 [V] |
+| 3 | §3.1, §9.1, §F | Mining share "~62%… rising >65% = good" (implied upward trend) | **Mining share fell 65.0% (FY25) → 61.9% (FY26); mining tonnes −3.8%** | Q4 FY26 presentation [V] |
+| 4 | §9.3 | "~0.6–0.7 pt of conversion per year" | **No measurable conversion in FY26** (mining tonnes down); Q1 FY27 mining +7.8% YoY, partly the Chile order (~3,000–3,500 t/qtr) | presentations; transcript [V] |
+| 5 | §1.2, §7.1, §A6, Part 2 header | AIA ">90% exports" | **Consolidated: 64.45% outside India / 35.55% India (FY26)**; standalone 59.19% exports | AIA AR FY26 MD&A [V] |
+| 6 | §4.2 | AIA raw material "38–42% [E]" | **38.36% of revenue from operations (FY26); 40.53% (FY25)** | AIA AR KPI table [V] |
+| 7 | §2.3, §3.1, §D | Pool "~2.5 mt mining (Welcast)" | **Management: 2–2.5 mt total opportunity; 1–1.5 mt gold/copper/iron (media + liners); LatAm >0.5 mt media** | AIA Q1 FY27 transcript [V] |
+| 8 | §3.3 (primer issue) | AIA "revenue ₹4,355 Cr vs total income ₹4,420 Cr" | **Net sales ₹4,355.5 Cr; revenue from ops ₹4,419.9 Cr; total income ₹4,893.9 Cr** | Q4 FY26 presentation [V] |
+| 9 | Part 2 AIA | (no guidance figure) | **Operating-margin guidance 20–22%; indicative realisation ₹160–165/kg (actual ~₹178/kg Q1 FY27)** | transcript [V] |
+| 10 | §C.5, §H5, Part 2 PTC | Trac "~₹250–280 Cr annualised [E]; ~40%+ of FY26 [FLAG]"; price "undisclosed" | **Trac FY26 revenue ₹247.0 Cr (41%), PAT ₹0.66 Cr; acquisition cost ₹181.2 Cr** | PTC AR FY26 (MD&A, AOC-1, Note 9) [V] |
+| 11 | Part 2 PTC | Aerolloy FY26 "~₹190 Cr, ~47% EBITDA, ~₹68 Cr PAT" | **Revenue ₹175.3 Cr (+210%); PAT ₹67.95 Cr (PBT ₹82.1 Cr)** | PTC AR [V] |
+| 12 | §4.3, §9 trap, Part 2 PTC | "EB cold-hearth 5,000 tpa" presented as installed | **EB furnace and rolling mills "under installation" at 31-Mar-2026**; VAR in production since Dec-2024; PAM since Jan-2026; 4,500/5,100 t press since Mar-2026 | PTC AR MD&A [V] |
+| 13 | §1.1, §B2 | "PAM ~600 tpa" used as casting capacity | PAM = **~600 tpa titanium ingot** furnace; aerospace **casting** capacity plan = **300 t Ti + 300 t superalloy** | NSE PR 8-Jan-2026; 2023 analyst-meet transcript [V] |
+| 14 | trap 7, §3.3 | PTC EBITDA "₹172 Cr incl. ~₹38 Cr other income" | **₹172.28 Cr (26.78% of total income ₹643.29 Cr), other income ₹40.51 Cr incl. FX gain ₹18.96 Cr** | PTC AR [V] |
+| 15 | Part 2 PTC, §G | Only the ₹1,800 Cr QIP (Oct-2026) | **Also a ₹699.99 Cr QIP in Sep-2024** → ~₹2,500 Cr equity raised in two years | CARE PR May-2025 [V] |
+| 16 | §1.2, Part 2 PTC | Odisha sponge "~₹1,000 Cr-class" | **No capex/timeline disclosed** — MoU with Govt of Odisha only; plus AMIC TOHO (Saudi) sponge-supply MoU | PTC AR [V] |
+| 17 | Part 2 CIE (primer) | India tech mix "forging ~52%, stampings ~14%, aluminium ~13%, gears ~9%, iron castings ~7%, magnetics ~3%, composites ~2%" | **India CY25: forgings 35, stampings 23, aluminium 18, iron castings 11, gears 6, composites 5, magnets 2; global forgings 51; Europe forgings 85 / gears 15** | CIE AR CY25 p.6 (rendered) [V] |
+| 18 | §3.2, Part 2 CIE | "India new-order book ~₹1,000 Cr (~₹300 Cr EV)" | **~₹500 Cr per year of new business won in H1 CY26** (no EV split given) | CIE Q2 CY26 transcript [V] |
+| 19 | trap 1 | Screener-vs-company gap "almost certainly other operating income [E]" | **Confirmed exactly**: Q2 CY26 other operating income ₹77.3 Cr; CY25 revenue from ops ₹9,406.5 Cr | CIE deck p.16 & SEBI results [V] |
+| 20 | §6, §E11, §F | CIE CCC "−33 days" / negative WC as a standing feature | **At 30-Jun-2026 NWC was +₹291 Cr (from −₹384 Cr); receivables ₹1,341 Cr vs ₹609 Cr** | CIE deck p.14; SEBI BS [V] |
+| 21 | §2.4 note | CIE CY22 PAT −₹136 Cr only | Company **continuing-ops PAT CY22 ₹673.5 Cr** (screener −₹136 Cr is after the German exit) | CIE AR CY25 p.6 [V] |
+| 22 | §2.6, Part 2 Balu | Balu FY26 PAT growth "+27% vs 24.6%" conflict | **+27.0% (₹2,589 Mn vs ₹2,039 Mn)** | Balu FY26 earnings release [V] |
+| 23 | trap 8, Part 2 Balu | "small subsidiaries (UAE trading arms) [K]… differences small" | **Safa Otomotiv FZ-LLC (UAE, 0% tax) = ₹486.2 Cr revenue (44%), ₹105.7 Cr PAT (41%)**; standalone ₹620.5 Cr | Balu AR AOC-1 & KAM [V] |
+| 24 | §G, Part 2 Balu (primer) | IT search "concluded, no incriminating findings" | **Assessments FY21–FY26 pending; impact unascertainable** | Balu AR Note 45 [V] |
+| 25 | §5.2, Part 2 Balu | "Government 3.81% — identity not verified" | **Central Government, 46,24,001 shares = 4.02% (31-Mar-2026)**; aggregators name Directorate of Enforcement, Raipur | Balu AR [V]; simplywall.st [V-snip] |
+| 26 | Part 2 Balu | Ratings "ICRA A-(Stable)" | **Add CRISIL BBB+/Negative, reaffirmed and withdrawn at company request (27-Feb-2026)**; CRISIL: debtors 158 days (Mar-25), PC limits ~99% used | CRISIL RR [V] |
+| 27 | Part 2 Balu | (none) | **Auditor Emphasis of Matter**: receivables ₹339 Cr with impaired export realisation; ₹24.41 Cr cheques unrealised | Balu AR auditor's report [V] |
+| 28 | Part 2 Balu | Export share "n.d." | **55.23% of standalone turnover (BRSR); exports ₹330.6 Cr of ₹620.5 Cr standalone** | Balu AR [V] |
+| 29 | §E14, Part 2 Balu | Order book "O&G ~13%, heavy engg ~7%" | Company pie: defence/aero/rail ~50, CV 19, agriculture 10; other slices partly illegible (O&G may be 7%) — **treat non-defence slices as approximate** | Balu deck [V, partial] |
+| 30 | §2.1, §H14 | IIF 15.86 mt vs ~12 mt "conflict" | **15.86 mt (2024-25) is current; ~12 mt is an older (72nd IFC-era) estimate — drop it** | themachinemaker; foundry-planet [V-snip] |
+| 31 | §7.1, §H9 | Grinding balls (7325.91) on 232 derivative list "NOT verified"; duty on steel content | **7325.91, 7325.99, 7326 lines are on CBP's steel-derivative list (50%); since 6-Apr-2026 the duty applies to the full customs value**; 8483.10 is in the Aug-2025 inclusions | CBP list (eff. 18-Aug-2025); 91 FR 18201 [V] |
+| 32 | §7.1 | (absent) | **MHDV parts 25% from 1-Nov-2025** (proclamation cites US dependence on "castings, forgings, transmission shafts") | 90 FR 48451 [V] |
+| 33 | §4.1 | India HCFeCr "~₹1.1–1.3 lakh/t in 2025 [K/E]" | **₹1.246 lakh/t (4-Feb-2026 peak) → ₹1.18 lakh (Apr) → ₹1.22 lakh (Jun-2026)** | BigMint via search [V-snip] |
+| 34 | §10 | Howmet "~US$7.5–8 bn (2025) [K]; EBITDA ~28–30%" | **US$8.3 bn (+11%); adj. EBITDA US$2.4 bn, 29.3%; 2026 guide US$9.0–9.2 bn** | Howmet FY25 release [V] |
+| 35 | §2.3 | Aerospace titanium "~80–100 kt; aero-engine castings US$10–15 bn [K]" | Add vendor value: **aerospace titanium market US$3.22 bn (2025) → US$4.45 bn (2030)**; **China >75% of global Ti metal (2025)** | PTC AR citing TBRC/HonTitan [V AR; vendor] |
+| 36 | §5.2, §10 | Magotteaux revenue "~US$0.9–1 bn [K]" | **Not disclosed separately**; owner Sigdo Koppers 2025 group revenue US$4.119 bn, EBITDA US$551 m; SK paid **US$790 m** for Magotteaux (2012) | portalminero; df.cl [V-snip] |
+| 37 | §9.1 | AIA receivable days "97" | Company basis **84 days (Mar-26), 90 days (Jun-26)**; 97 is screener's sales-based calc — state basis | AIA presentations [V] |
+| 38 | §12 | CIE Q3 CY26 "today" | Results call **22-Oct-2026 18:00 IST**; figures not public at time of this pass | CIE intimation 13-Oct-2026 [V] |
+
+---
+
+## 4.1 Verification table — 40 figures the writer will use
+
+Status key: **[V]** = fetched this session from a primary source (company filing/presentation/transcript/AR, regulator/FR, UN Comtrade, rating agency, screener for standardised financials); [V-sec]/[V-snip] = secondary.
+
+| # | Figure | Value | Primary source (URL / document) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | AIA FY26 sales volume | 258,002 t | AIA Q4 FY26 pres. (BSE AnnPdfOpen …42e680b8…pdf); AR FY26 | [V] | Yes |
+| 2 | AIA FY25 sales volume | 255,443 t | same | [V] | **No** (Part 1 implied ~242 kt) |
+| 3 | AIA FY22–FY24 volumes | 260,469 / 291,342 / 297,345 t | AR FY26 p.18 (BSE AttachHis/afbe7eeb…pdf) | [V] | New |
+| 4 | AIA FY26 mining tonnes / YoY | 159,813 t / −3.8% | Q4 FY26 pres. | [V] | Level yes; trend new |
+| 5 | AIA installed capacity | 4,36,000 tpa | Q1 FY27 pres. (…166d6888…pdf); AR | [V] | Yes |
+| 6 | AIA Q1 FY27 volume / YoY | 64,644 t / +7.5% (base 60,156) | Q1 FY27 pres. | [V] | Yes |
+| 7 | AIA order book | ₹977 Cr (1-Jul-26); ₹868 Cr (1-Apr-26) | Q1 FY27 / Q4 FY26 pres. | [V] | Yes (adds Apr) |
+| 8 | AIA FY26 company EBITDA | ₹1,744.3 Cr, 39.46% (incl. OI) | Q4 FY26 pres.; AR | [V] | Yes |
+| 9 | AIA FY26 operating margin | 28.5% (screener) / 28.7% (company ex-OI) [E] | screener; pres. | [V]/[E] | Yes |
+| 10 | AIA share of sales in India | 35.55% (FY26 consolidated) | AR MD&A | [V] | **No** (">90% exports") |
+| 11 | AIA op-margin guidance | 20–22% | Q1 FY27 transcript (…cd3399bd…pdf) | [V] | New |
+| 12 | AIA FY27 capex | ≥₹350–400 Cr | transcript | [V] | Yes (was V-sec) |
+| 13 | AIA TAM | 2–2.5 mt total; 1–1.5 mt gold/Cu/Fe | transcript | [V] | Partly (2.5 mt) |
+| 14 | AIA contingent liabilities | ₹688.6 Cr (income tax ₹368.8 Cr) | AR Note 44 | [V] | New |
+| 15 | PTC FY26 revenue from ops | ₹602.78 Cr | PTC AR FY26 (BSE AttachHis/b16466a9…pdf) | [V] | Yes |
+| 16 | PTC FY26 EBITDA (company) | ₹172.28 Cr; OP ₹134 Cr (screener) | AR; screener | [V] | Yes (basis clarified) |
+| 17 | Trac FY26 revenue / PAT | ₹247.0 Cr / ₹0.66 Cr | AR AOC-1 | [V] | **No** (was E ~250–280, no PAT) |
+| 18 | Trac acquisition cost | ₹181.2 Cr | AR Note 9 | [V] | New (was "undisclosed") |
+| 19 | Aerolloy FY26 revenue / PAT | ₹175.3 Cr / ₹68.0 Cr | AR AOC-1 & MD&A | [V] | **No** on revenue (~190) |
+| 20 | PTC Q1 FY27 | TI ₹197.1 Cr; EBITDA ₹54.2 Cr (27.5%); PAT ₹29.2 Cr | Q1 FY27 deck (…62537439…pdf) | [V] | Yes |
+| 21 | Aerolloy Q1 FY27 | ₹74.3 Cr TI; 45.0% EBITDA | Q1 FY27 deck | [V] | Yes |
+| 22 | PTC melt capacities | VAR ~1,500; EB ~5,000 (installing); PAM ~600 tpa ingot | CARE PR; 2023 transcript; NSE PR 8-Jan-26; AR | [V] | Yes on size; **No** on EB status |
+| 23 | PTC capital commitments | ₹672.3 Cr (Mar-26) | AR Note 43 | [V] | New |
+| 24 | CIE CY25 revenue from ops | ₹9,406.5 Cr (company sales ₹9,122 Cr ex-OOI) | CIE deck SEBI results (…7f765999…pdf) | [V] | Yes (resolved) |
+| 25 | CIE Q2 CY26 India / Europe EBITDA | 16.7% / 15.9% | CIE deck p.6–7 | [V] | Yes (was V-sec) |
+| 26 | CIE net financial debt | −₹1,416 Cr (Jun-26); −₹1,881 Cr (Dec-25) | CIE deck p.14 | [V] | Yes (both explained) |
+| 27 | CIE India tech mix | forgings 35% / stampings 23% / Al 18% | CIE AR CY25 p.6 (BSE AttachHis/6b38abc9…pdf) | [V] | **No** (52%) |
+| 28 | CIE growth guidance | 12–15% | Q2 CY26 transcript (…aeefac58…pdf) | [V] | Yes |
+| 29 | CIE new orders | ~₹500 Cr/yr (H1 CY26) | transcript | [V] | **No** (₹1,000 Cr) |
+| 30 | CIE US machined-castings programme | ~₹200 Cr/yr from Q3 CY26 | transcript | [V] | Yes |
+| 31 | Balu FY26 revenue / EBITDA / PAT | ₹1,107.4 Cr / 27.0% / ₹258.9 Cr (+27.0%) | Balu earnings release (…7e338569…pdf) | [V] | Yes; resolves 24.6% |
+| 32 | Balu Safa Otomotiv (UAE) | ₹486.2 Cr revenue; ₹105.7 Cr PAT | Balu AR FY26 AOC-1 (BSE AttachHis/c9be7852…pdf) | [V] | **New/No** |
+| 33 | Balu export share | 55.23% (standalone) | Balu AR BRSR | [V] | New |
+| 34 | Balu capacity | forging 100k+ → 150k MTPA; machining 45k → 80k; shells 360k/yr | Balu deck 24-Jun-26 (…b911dfd0…pdf) | [V] | Yes (was V-snip) |
+| 35 | Balu defence/aero/rail | ~50% of order book; 13% of FY26 revenue | Balu deck | [V] | Yes + new |
+| 36 | Balu "Government" holder | Central Govt 46,24,001 sh, 4.02% (Mar-26) | Balu AR shareholding table | [V] | Resolves |
+| 37 | India castings output | 15.86 mt (2024-25) | IIF via themachinemaker | [V-snip] | Yes |
+| 38 | India grinding-ball exports (7325.91) | US$183.5 m / 155 kt (2025); US$276 m (2022) | UN Comtrade public API (reporter 699) | [V] | New |
+| 39 | Sec 232 steel/derivatives | 50% on full customs value from 6-Apr-2026; 7325.91 & 7326 listed | 91 FR 18201 (govinfo FR-2026-04-09/2026-06960); CBP steel HTS list (copy) | [V] / [V-sec] | **No** ("not verified"; steel-content basis) |
+| 40 | Sec 232 MHDV parts | 25% from 1-Nov-2025 | 90 FR 48451 (govinfo FR-2025-10-22/2025-19639) | [V] | New |
+
+**Count:** 38 of 40 figures are [V] from primary sources (company filings/presentations/transcripts/annual reports, Federal Register, UN Comtrade, rating agencies, screener); #37 is [V-snip]; #39 is [V] for the proclamation and [V-sec] for the HTS list copy. Two independent sources agree for #1/#3 (presentation + AR), #16 (AR + screener), #24 (deck + screener), #26 (deck + transcript), #31 (release + screener), #22 (CARE + transcript + PR). Where sources conflict the company document wins over screener for KPIs and segment data; screener wins for cross-company standardised ratios.
+
+**Key source URLs (Part 4):**
+- AIA: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=166d6888-490b-4ba2-97fc-1548ccc81ca8.pdf (Q1 FY27 pres.) · …42e680b8-9a7b-48f1-9f9e-d433e697f865.pdf (Q4 FY26 pres.) · …cd3399bd-6b78-4418-bb3d-70407333ecd0.pdf (Q1 FY27 transcript) · https://www.bseindia.com/xml-data/corpfiling/AttachHis/afbe7eeb-5b37-42ba-bcd9-81ff2a827922.pdf (AR FY26)
+- PTC: …AnnPdfOpen.aspx?Pname=62537439-ad04-4648-95f8-6d04a43d17da.pdf (Q1 FY27 deck) · https://www.bseindia.com/xml-data/corpfiling/AttachHis/b16466a9-ea4e-4ab9-8cb7-0d95d1b7fbc0.pdf (AR FY26) · https://www.careratings.com/upload/CompanyFiles/PR/202505120549_PTC_Industries_Limited.pdf · https://nsearchives.nseindia.com/corporate/PTCINDUSTRIES_08012026134657_Press_release_PAM_Furnace_08012026_Exchange.pdf · …AnnPdfOpen.aspx?Pname=2dabc786-352a-445c-b059-266c901db0c3.pdf (2023 analyst meet)
+- CIE: …AnnPdfOpen.aspx?Pname=7f765999-9ab2-41d6-a1e3-c6d678e5f988.pdf (Q2 CY26 deck) · …aeefac58-3477-4524-9f1d-aad5af2d34db.pdf (Q2 CY26 transcript) · https://www.bseindia.com/xml-data/corpfiling/AttachHis/6b38abc9-9082-4a34-800f-58368b2e1fdc.pdf (AR CY25) · https://nsearchives.nseindia.com/corporate/Mahindracie_13102026104317_SEintimation.pdf (Q3 call)
+- Balu: …AnnPdfOpen.aspx?Pname=b911dfd0-ca32-43a9-99e9-6cc242293e0c.pdf (deck) · …7e338569-e93b-4aea-903a-ea57e57c3dbd.pdf (FY26 release) · https://www.bseindia.com/xml-data/corpfiling/AttachHis/c9be7852-d397-4a56-b603-acd4615b7fc0.pdf (AR FY26) · https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/BaluForgeIndustriesLimited_February%2027_%202026_RR_390313.html
+- Policy/trade: https://www.govinfo.gov/content/pkg/FR-2026-04-09/html/2026-06960.htm · https://www.govinfo.gov/content/pkg/FR-2025-10-22/html/2025-19639.htm · https://www.gw-world.com/fileadmin/Country_Documents/USA_documents/Updated_steelHTSlist_081525.pdf · https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=699&period=2025&partnerCode=0&cmdCode=732591,7325,7326,848310,8483,8708&flowCode=X
+- Peers/markets: https://www.howmet.com/wp-content/uploads/sites/3/2026/02/Howmet-Aerospace-Reports-Fourth-Quarter-and-Full-Year-2025-Results.pdf · https://www.portalminero.com/sigdo-koppers-destaca-resultados-2025-y-pone-foco-en-reactivacion-minera-y-proyectos-clave-para-2026 · https://www.bigmint.co/insights/detail/india-ferro-chrome-prices-rise-w-o-w-on-tight-supply-756988 · https://themachinemaker.com/indias-foundry-sector-set-to-accelerate-manufacturing-expansion/ · https://www.simplywall.st/stocks/in/capital-goods/nse-baluforge/balu-forge-industries-shares/ownership
+
+*End of Part 4.*
