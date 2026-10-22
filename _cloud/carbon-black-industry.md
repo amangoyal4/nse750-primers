@@ -1032,3 +1032,702 @@ All aggregates are **straight sums of the company rows on one stated basis**: (a
 - **Himadri–DBRL demerger [V-snip]:** https://www.sahi.com/news/himadri-speciality-chemical-board-approves-demerger-of-dalmia-bharat-refractories-tyre-unit · https://www.investywise.com/?p=119860 · https://insolvencytracker.in/2023/10/20/himadri-speciality-dalmia-bharat-refractories-to-acquire-birla-tyres-for-rs-347-crore/
 - **Global peers / prices [V-snip]:** https://www.businesswire.com/news/home/20260217402948/en/orion-s.a.-reports-full-year-2025-and-fourth-quarter-earnings/ · https://www.european-rubber-journal.com/article/2098789/orion-rubber-carbon-black-hit-by-historically-high-cheap-tire-imports · https://www.sunsirs.com/uk/detail_news-28741.html · https://www.intratec.us/chemical-markets/carbon-black-price
 - **Other [V-snip]:** https://european-rubber-journal.com/article/2096453/pcbl-mulling-new-greenfield-plant-as-it-targets-1000ktpa-carbon-black-capacity · https://themachinemaker.com/news/himadri-speciality-chemical-aims-for-18-carbon-black-market-share-by-fy26/ · https://univest.in/blogs/pcbl-chemical-q2-results-fy27-preview-date-expectations
+
+---
+
+# PART 4 — Deep-research supplement (22-Oct-2026)
+
+Second, primary-source pass compiled 22-Oct-2026 for the writer. It does **not** edit Parts 1–3. Where a Part 1–3 figure is wrong or mis-dated, §4.0 says so (old → new → source) and the writer should apply it. Scratch notes: /tmp/carbon-black-deep/notes.md.
+
+**What was fetched this session (primary documents, read in slices):**
+- **PCBL:** Q1 FY27 investor update (BSE, 29-Jul-2026); Q1 FY27 call transcript (29-Jul call, filed 5-Aug); FY25 Integrated Report (551 pp, BSE). The FY26 Integrated Report is hosted only on pcblltd.com, which failed TLS through this session's proxy. The BSE filing is a 2-page AGM cover letter, so FY26 annual-report notes are **not** covered. CARE Ratings rationale of 7-Jul-2026 (PDF).
+- **Himadri:** Q1 FY27 call transcript (16-Jul call, filed 21-Jul); Q1 FY27 and Q2 FY27 investor presentations (Q2 deck has the full consolidated and standalone P&L, balance sheet and cash flow); FY26 Integrated Annual Report (521 pp, BSE). The **Q2 FY27 call (22-Oct-2026, 4 pm IST)** had no transcript, audio or recording listed on screener/BSE when checked. The ICRA rationale (10-Jul-2026) is behind a guest-registration form, so it was not opened (no forms rule).
+- **Rain:** Q2 CY26 earnings presentation (BSE, 6-Aug-2026); Q2 CY26 pre-recorded management Q&A (filed 12-Aug); CY25 51st Integrated Annual Report (230 pp, BSE); India Ratings rationale of 16-Sep-2026 (filed with BSE as a scanned PDF; pages rendered and read).
+- **Industry:**
+  - DGTR case pages and documents: case timeline, the 22-Dec-2020 final findings with DGCI&S import tables, and the Ministry of Finance OM of 5-Jan-2021, read from the scan.
+  - TradeStat (DGCI&S/Commerce EIDB) for HS 28030010 (carbon black) exports and imports FY21–FY26, by country, in tonnes and US$; and HS 4011 (tyres) exports FY25–FY26 in ₹ and US$.
+  - ATMA overview page.
+  - EIA Brent spot series (monthly and weekly).
+  - French customs notice 2023-19, which reproduces EU Implementing Regulation 2023/427.
+  - CRISIL press release of 15-Feb-2024.
+  - Fresh screener pages for all three (22-Oct-2026).
+  - Secondary or search-snippet only: Cabot, Orion, US tariff chronology, GST rate, BKT Carbon, Birla Naidupeta.
+- About 54 web calls in total.
+
+**Tag discipline in Part 4:**
+- **[V]** = fetched and read this session from the named primary document (company filing, exchange, rating agency, government or regulator).
+- **[V-calc]** = arithmetic on [V] inputs.
+- **[V-snip]** = search snippet or secondary press only.
+- **[E]** and **[K]** keep their Part 1 meanings.
+
+## 4.0 Supersedes — corrections to Parts 1–3 (writer: apply these)
+
+| # | Where in Parts 1–3 | Old value / claim | New value / claim | Source (Part 4) |
+|---|---|---|---|---|
+| S1 | Trap 7; §2.3 Rain; §3.3; §H-11 | Rain CY25 PAT "four values, unresolved" (₹136 / ~42 / 118 / 136 Cr) | **Resolved:** reported PAT **attributable to owners ₹425 Mn (₹42.5 Cr)**; **adjusted PAT ₹1,178 Mn (₹117.8 Cr)** (the primer/ScanX figure); **PAT before non-controlling interest ₹1,358.94 Mn (₹135.9 Cr)** (screener/Arihant). NCI took **₹934 Mn (₹93.4 Cr)**, i.e. 69% of pre-minority PAT. Adjusted EPS ₹3.50 vs reported EPS ₹1.26. | Rain Q2 CY26 earnings presentation, appendix P&L (CY25 column) [V]; CY25 AR segment note ("Profit/(loss) after tax and before minority interest 1,358.94") [V] |
+| S2 | §2.3 Rain segments; §H-13 | Carbon revenue Q2 CY26 "₹37,700 Mn text vs ₹40,211 Mn table (Arihant)" | **₹37.70 bn is the company's external segment revenue** (excluding other operating income and inter-segment sales). The CY25 AR shows Carbon inter-segment sales of ₹6,279 Mn a year, so Arihant's ₹40,211 Mn is a gross (pre-elimination) figure. Use 37,700. | Rain Q2 deck p.8 [V]; CY25 AR note on segments [V] |
+| S3 | §1.1, §9.3, Rain JSON | Rain CPC ~2.4 mtpa; tar distillation "~1.0–1.25 mtpa [K]"; Carbon volume "~2.4 mt" in sensitivity | Company: **calcination 2.4 mtpa; coal-tar distillation 1.3 mtpa; advanced materials 0.5 mtpa; cement 4.0 mtpa; 187 MW co-generated steam/power**. **CY25 Carbon sales volume 2,593 kt.** Sensitivity: ±₹1,000/t × 2.59 mt = **±₹259 Cr** (not ±₹240 Cr). | Rain Q2 deck "Key Business Strengths" and p.8 [V] |
+| S4 | §1.2 value chain (Rain Russia "exited? — not verified") | Rain's Russian distillation status unknown | Rain **still owns a coal-tar distillation plant at Cherepovets, Russia (OOO RÜTGERS Severtar)**. Goodwill ₹1,126.57 Mn sits on that CGU at Dec-25. Full plant list (16 sites): US (Lake Charles, Chalmette, Gramercy, Norco LA; Robinson IL; Purvis MS), Canada (Hamilton), Belgium (Zelzate), Poland (Kędzierzyn-Koźle), Germany (Castrop-Rauxel, Duisburg), Russia (Cherepovets), India (Visakhapatnam, Atchutapuram, Nandyal, Suryapet). | CY25 AR plant map and goodwill note [V] |
+| S5 | §9.1, F, primer | Rain CY25 Carbon EBITDA/t "~₹8,300 [primer]" | **₹7,702/t** (Carbon adj. EBITDA ₹19.97 bn ÷ 2,593 kt). Q1 CY26 ₹10,287/t; Q2 CY25 ₹7,756/t; Q2 CY26 ₹13,653/t (all confirmed). | Rain Q2 deck p.8 [V-calc] |
+| S6 | Macro context, §4.1, §H-7 | Sibling dossier: "ceasefire 7-Apr-2026, Brent → ~$95" | **EIA Brent spot shows no such fall.** Monthly averages: Mar-26 $103.13; **Apr $117.29**; May $107.14; Jun $85.40; Jul $83.76; Aug $91.08; **Sep $114.16**. Weekly: 10-Apr $124.61; 26-Jun $73.63; 3-Jul $69.70; 18-Sep $124.15; **16-Oct $125.59**. PCBL's "close to $120" on 30-Apr is right. Calendar Q2-2026 averaged **~$103**, not PCBL's "$97" (PCBL's figure is probably its own procurement-weighted or lagged average; quote it as PCBL's). Crude **re-spiked in Sep–Oct 2026 above the April peak**. Every "post-ceasefire normalisation" sentence must go. | EIA RBRTE monthly and weekly [V] |
+| S7 | §7.2, §H-8 | "US tariff on Indian tyres reduced to 18% in Feb-2026" vs verified chronology | **Both are true at different moments.** In early Feb-2026 an India–US interim framework cut the headline US tariff on Indian goods from 50% to ~18% (the 25% Russia-oil penalty was dropped and the reciprocal rate cut). The framework was never signed into effect, because SCOTUS struck down the IEEPA tariffs on **20-Feb-2026**. Section 122 at 10% applied from 24-Feb for 150 days (to ~24-Jul; one report says Trump announced 15%), and 10% Section 301 has applied since. PCBL MD (29-Jul): the Feb "trade deal discussion… brought tariffs on Indian exports down sharply". **Print the chronology, not "18%" as a current rate.** | thenewsminute / ianslive / outlookbusiness reports [V-snip]; PCBL Q1 FY27 transcript [V] |
+| S8 | §7.1 trade-remedy history; G timeline | "Nov-2015: definitive ADD … five years"; "2012 safeguard" | **DGTR record:** original ADD case on rubber-grade carbon black from **Australia, China, Iran, Malaysia, Russia, Thailand**. Initiated 26-Dec-2008; final findings **24-Dec-2009**; mid-term review FF 28-Feb-2013; first sunset review FF **1-Oct-2015** (continued on China, Russia, Thailand). Second SSR initiated 20-May-2020; FF **22-Dec-2020** recommended **US$494/t (China)** and **US$36.17/t (Russia)** under HS 280300. **MoF (TRU) OM F.No.354/148/2020-TRU dated 5-Jan-2021** records the Central Government's decision **not to impose**. A separate Korea case was initiated 9-Feb-2015 and terminated 20-Nov-2015. So India had ADD on carbon black from ~2010 to ~end-2020, about 11 years, not 2015–20. The "2012 safeguard" is not in the DGTR record found; drop it. | dgtr.gov.in case pages and OM scan [V] |
+| S9 | §7.1, §H-1 | "No 2025–26 DGTR case found [search]" | **Confirmed on the regulator's own site:** DGTR's search for "carbon black" returns only the two legacy cases above. Site last updated 1-Oct-2026. **No anti-dumping, CVD or safeguard investigation on carbon black was initiated 2021–Oct-2026.** CBIC was not separately searched; without a DGTR recommendation there can be no ADD notification. | dgtr.gov.in search [V] |
+| S10 | §2.2, D, §H-3 | "India capacity ~2,000 ktpa (CRISIL, **Apr-2026**)" | The ~2,000 ktpa / "+36% in two fiscals" figure is **CRISIL's press release of 15-Feb-2024** (FY24 basis; a trade site re-ran it in Apr-2026). Since then: PCBL +110 ktpa (790 → 900); BKT Carbon +92 ktpa (→ 360 ktpa, Apr-2026); Birla Carbon Naidupeta +120 ktpa (start-up "before end-2026"). **Current India capacity is ≈2.2–2.4 mtpa [E]**; say "about 2.2–2.4 million tonnes, up from ~2.0 mt in early 2024 (CRISIL)". | CRISIL PR 15-Feb-2024 [V]; CARE PCBL [V]; ERJ 12-Mar-2026 [V-snip] |
+| S11 | §2.2 capacity map; §5.1; E7 | Map omits BKT; Himadri implicitly #3; Birla Naidupeta "Q1 FY27 target" | **Add BKT Carbon (Balkrishna Industries' carbon-black arm, Bhuj, Gujarat): 360 ktpa after a 92 ktpa expansion completed by Apr-2026, incl. 35 ktpa specialty; a further ~300 ktpa planned within ~4 years; exports ~30 ktpa; tyre-major approvals targeted 2027. ERJ calls it India's third-largest producer.** Himadri (~250 ktpa) is therefore **#4**. Birla's Naidupeta (and Thailand) plants were "to come online before year-end 2026" (8-Sep-2026 statement), not Q1 FY27. | ERJ 12-Mar-2026 and Sep-2026 [V-snip] |
+| S12 | §0, §5.3, B2 | India imports "~8–10 kt/month; China ~1.5 kt/month; Russia ~1.5–2 kt/month [PCBL]" → ~100–120 kt/yr | **TradeStat HS 28030010, FY26: imports 130.2 kt (10.9 kt/month; US$164.9 m).** By source: **China 39.8 kt (3.3 kt/month)**, Turkey 19.6, Korea 15.6, UAE 13.5, **Russia 11.0 kt (0.9 kt/month)**, Saudi 8.7. PCBL's split understates China and overstates Russia. Russia's volume peaked at 31.4 kt (FY21) and 28.2 kt (FY22). The "Russian influx" hurt **prices** more than volumes. | TradeStat EIDB [V]; CARE (imports "1.30 lakh MT, −11%") [V] |
+| S13 | §0, §5.3 | Exports "~350–400 kt/yr [E]"; net exports FY26 "~250–300 kt [E]" | **Exports FY26 443.9 kt (US$496.1 m; ₹4,376 Cr), +12%. Net exports +313.7 kt.** Series in §4.3. | TradeStat [V]; CARE ("4.44 lakh MT, +12%") [V] |
+| S14 | §0, B2, §3 | "India ~100 kt/yr into (Western) Europe" | **EU-27: 99.7 kt in FY25 → 130.3 kt in FY26** (FY23 43.0 kt; FY22 5.3 kt). Excludes Turkey and the UK. Top EU destinations FY26: Poland 25.2 kt, Germany 20.6, Italy 18.1, Netherlands 13.4, Belgium 12.9. | TradeStat [V-calc] |
+| S15 | §0, B2, §H | "EU ~500 kt/yr Russian import gap (~80% Russian)" | Three different bases; quote with labels. (i) PCBL: Western Europe imports ~500 kt/yr. (ii) CRISIL (Feb-2024): Russia exported **~1,000 kt in FY23, ~70% to the EU (~700 kt)**. (iii) EU quota **752,475 t for 26-Feb-2023 → 30-Jun-2024** (≈16 months ≈ ~560 kt/yr), then a ban (Implementing Reg. (EU) 2023/427, quota order 09.8255). | French customs notice 2023-19 [V]; CRISIL PR [V] |
+| S16 | §2.1 PCBL leaders; §H-10; primer | Nanovace partner "Kindia" (CRISIL) vs "Kinaltek" | **Kindia Pty Ltd, Australia**; JV formed **Sep-2024**; PCBL 51% of Nanovace Technologies Ltd; pilot operations from Jul-2026; US process patent. Use "Kindia Pty Ltd (Australia)". Whether Kindia is linked to Kinaltek was not established; do not print "Kinaltek". | CARE PCBL 7-Jul-2026 [V] |
+| S17 | §2.1 PCBL; §H (₹555 Cr) | "Goodwill impaired ~₹555 Cr in FY25 per CRISIL — not visible in screener PAT" | **True but P&L-neutral.** FY25 consolidated exceptional items: **impairment of Aquapharm goodwill ₹554.72 Cr**, offset by **reversal of deferred tax liability ₹554.20 Cr**. Both followed the amalgamation of Aquapharm Chemicals Pvt Ltd into Advaya Chemical Industries Ltd, which changed the assets' tax base. **Net exceptional ₹0.52 Cr.** Accounting goodwill on ACPL was **₹1,161.29 Cr** at Mar-24; CRISIL's "~₹3,340 Cr" is goodwill plus acquired intangibles. | PCBL FY25 Integrated Report, consolidated P&L and Notes 3(d), 35 [V] |
+| S18 | §2.1 PCBL capacity; primer split | rubber ~678 + specialty ~112 = "880" | **Rubber black 768,000 + specialty black 132,000 = 900,000 MTPA** (post Jun-2026 Mundra line); 880,000 at FY26-end. Aquapharm 167 KTPA. Nine plants: 7 India (Mundra, Durgapur, Chennai, Palej, Kochi; Aquapharm Mahad and Pirangut), Texas (USA), Jeddah (KSA). Andhra Pradesh "upcoming". | PCBL Q1 FY27 deck p.6 [V]; CARE [V] |
+| S19 | §2.1 PCBL; §12 | AP greenfield "licences in progress; spend FY28" (no size) | **Naidupeta, AP (under PCBL (TN) Ltd): 116 acres acquired; 300,000 MTPA planned in phases; Phase I 150,000 MT at ~₹1,100 Cr.** That is ~₹73,000 per tonne of capacity, cheaper than Birla's ~₹1.2 lakh/t [V-calc]. The Chennai +90 ktpa cost ~₹450 Cr (₹350 Cr term debt). | CARE [V] |
+| S20 | §2.1, §9.1, F | PCBL export share "~40% of revenue (H1 FY26)" / "~40% of volume" | CARE: exports **~40% of volume over three years, 38% in FY26; ~35% of gross sales in FY26**; >45 countries; PCBL Chemical USA Inc. incorporated Jul-2025. | CARE [V] |
+| S21 | §2.1 PCBL power | 122 MW | 122 MW in five plants (Mundra 32, Durgapur 30, Chennai 24, Palej 19, Kochi 17) **+12 MW at Tamil Nadu (CoD FY27) → 134 MW**. | PCBL Q1 FY27 deck p.10 [V] |
+| S22 | §2.1 PCBL credit | CRISIL AA/Negative only | Add **CARE AA/Negative (outlook revised from Stable on 7-Jul-2026)**: total debt/PBILDT **5.02× FY26** (5.07× FY24) vs a 4× downgrade trigger; debt cut ~₹560 Cr in FY26; FY27 repayments ~₹605 Cr; free cash/liquid ₹283 Cr (Mar-26); working-capital-limit use ~59%. **Two agencies now have PCBL on Negative.** | CARE [V] |
+| S23 | §0, §3, D (stat strip), §H | "~65% of Indian CB into tyres [CRISIL]"; "replacement 60–70% [CRISIL]" | Agencies differ. **CARE (Jul-2026): ">60% of CB is used for tyre manufacturing"; PCBL's own FY26 tyre share ~57%; "~55% of tyre-industry sales are to the replacement market".** Write tyres as "~60–65% of Indian carbon black (PCBL itself ~57%)" and replacement as "~55–65% of tyre sales". | CARE [V]; CRISIL (Part 1) [V] |
+| S24 | §2.1 global size; §H-4 | Global demand "~13–14 mt; value US$18–22 bn [K]" | **Notch (cited in PCBL FY25 Integrated Report MD&A): global CB demand 14,301 kt (2024E) vs rated capacity 19,621 kt; 2030F demand 17,050 kt vs capacity 22,606 kt; 2019 13,601 / 16,735 kt.** Achievable capacity is "~20–22% lower" than rated. PCBL deck: global demand ~3% CAGR. **Specialty CB ~1.06 mt (2025), ~4% CAGR 2025–29** (Notch via Himadri FY26 AR); North America specialty 286 kt. Value (US$) still unsourced. | PCBL FY25 IR MD&A [V]; Himadri FY26 AR [V] (company documents quoting Notch) |
+| S25 | §2.2 Birla | Birla 382 ktpa (CRISIL); "7.02 lakh tonne" typo | DGTR's 2020 findings record Birla Carbon at **314,000 MTPA, rising to 386,000 MTPA by Aug-2020, sales 278,254 t in FY20, 30–34% capacity share, OPBDIT 20.8% FY20**. This confirms the ~380-ktpa base; with Naidupeta → ~500 ktpa. "7.02 lakh" remains unexplained (likely group or typo). | DGTR FF 22-Dec-2020 [V] |
+| S26 | §4.3; §7.3 | GHG "~2–2.5 t CO₂/t CB [K]" | **PCBL: 1.91 tCO₂e per tonne CB (Scope 1+2, FY25)**. | PCBL FY25 IR [V] |
+| S27 | §10, E13 | Orion 2026 guidance "adj. EBITDA $160–200 m" | Orion's Q2-2026 release (5-Aug-2026): **2026 adj. EBITDA guide $170–210 m (reaffirmed)**. Q2 sales $501 m (+7%), adj. EBITDA $58 m. Rubber CB adj. EBITDA $19.2 m vs $48.9 m; specialty $39.0 m vs $19.9 m; rubber volume −1%. | businesswire / zacks [V-snip] |
+| S28 | §2.2 Himadri; Part 3 JSON | Himadri net debt Sep-26 "~₹520 Cr [E]" | **₹519.8 Cr [V-calc]** = current borrowings 1,152.26 + non-current 3.58 − cash 95.93 − other bank balances 516.72 − current investments 23.42. Mar-26 on the same arithmetic: **net cash ₹93.7 Cr** (company chart: ₹121 Cr). **But ₹511.1 Cr of bank deposits were pledged with banks against credit facilities at Mar-26** (standalone AR note), and the CMD said on 16-Jul that the company "borrowed from bank and CPs and deployed in FDs". Gross cash is partly a financing arbitrage, not free cash. | Himadri Q2 FY27 deck BS [V]; FY26 AR note 10 [V]; Q1 call [V] |
+| S29 | §2.2 Himadri (AQ/carbazole) | "5,300 MTPA, ₹248 Cr, Q4 FY27" | On the 16-Jul call: **2,600 MTPA in Q2 FY27 and 2,700 MTPA in Q2 FY28 (full by FY28)**; revenue potential ₹250–300 Cr. Conflicts with the Q2 deck's single date; quote both and the call's phasing. | Himadri Q1 FY27 transcript [V] |
+| S30 | §2.2 Himadri tyres | Birla Tyres "turnover ₹149.31 Cr FY26"; ownership unclear | **Structure:** Birla Tyres Ltd became a Himadri WOS on 7-Apr-2025. Himadri Birla Tyre Manufacturer Pvt Ltd is 49% held but consolidated through control from 1-Apr-2025. The manufacturing undertaking sits in DBRL, now being demerged. Commercial operations restarted 29-May-2025. Quarterly sales ~₹127 Cr (Q1 FY27, per analyst on the call, confirmed by the CMD). Target **₹3,000 Cr revenue in 4–5 years**; EBITDA breakeven in FY27; TBB→OTR conversion over 3 years; ~₹500 Cr tyre capex in FY27. | Himadri FY26 AR subsidiaries list [V]; Q1 call [V] |
+| S31 | §9.1 Rain utilisation | "Indian calciners ≥90% after relaxation" | Ind-Ra: the DTA unit's GPC allocation is 598,589 t for FY26 (FY25 705,600; FY24 599,323), within a 1.9 mt national DTA allocation. The SEZ unit may import GPC/CPC **without a cap** for its 370,000 t capacity (exports only). **Utilisation ~50% until 2024 → ~90% in 2025**; management expects 90–95%. | India Ratings 16-Sep-2026 [V] |
+| S32 | §2.3 Rain credit | "net debt/EBITDA 3.9× (Dec-24)" (E9) | Company basis: 3.21× (Dec-25), 2.77× (Jun-26). Ind-Ra's **net adjusted leverage: 3.89× (2023), 5.43× (2024), 3.97× (2025)**; expected <4.0× in 2026–27; gross interest cover 2.37× (2025). Drop the "3.9× Dec-24" (unsourced) or label it. | Rain Q2 deck p.11 [V]; Ind-Ra [V] |
+| S33 | §5.2 / DGTR context | Domestic industry in the 2020 ADD petition not named | Applicants: **Phillips Carbon Black (PCBL), Himadri Speciality Chemical and Continental Carbon India**. Their capacity 676 kt → 790 kt over the injury period. Birla Carbon was *not* an applicant and was argued by opposing parties to be thriving. | DGTR FF 2020 [V] |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Fetched?" = read this session in the primary document named. "Agrees?" compares with Parts 1–3. Where two sources exist both are named.
+
+| # | Figure | Value | Primary source (URL in §4.6) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | PCBL CB sales volume FY26 / FY25 | 618,956 t / 596,262 t. FY26 split: tyre 354,841, performance 194,480, specialty 69,635. FY25 split: 348,157 / 185,655 / 62,450 | PCBL Q1 FY27 investor update p.8 | [V] | Yes. Adds FY25/FY26 segment split |
+| 2 | PCBL CB volume Q1 FY27 (vs Q1 FY26) | 153,513 t (154,093). Tyre 91,379 (91,140); perf 42,386 (46,888); specialty 19,748 (16,065) | PCBL Q1 deck p.8; transcript | [V] ×2 | Yes |
+| 3 | PCBL installed CB capacity | 900,000 MTPA = 768k rubber + 132k specialty (880k at FY26-end) | Q1 deck p.6; transcript; CARE | [V] ×3 | Yes on total; primer split wrong (S18) |
+| 4 | PCBL EBITDA FY26 / FY25 (company) | ₹1,082 Cr / ₹1,384 Cr (13% / 16%) | Q1 deck p.14 | [V] | Yes (Part 2: 1,081 rounding) |
+| 5 | PCBL Q1 FY27 revenue / EBITDA / PAT | ₹2,474 / ₹400 / ₹155 Cr (+17% / +23% / +65%) | Q1 deck p.7, p.14 | [V] | Yes |
+| 6 | PCBL CB EBITDA/t Q1 FY27; FY27 guide | ₹22,900/t; "14–15% over FY26 average" = ₹16,500–17,000/t | Q1 transcript (CFO) | [V] | Yes. Check: (400−47)/153,513 = ₹22,995 [V-calc] |
+| 7 | PCBL Q1 inventory gain and Q2 reversal | ~₹70 Cr gain; ₹40–50 Cr to "give away" in Q2 | Q1 transcript | [V] | Yes |
+| 8 | PCBL leverage (CARE basis) | TD/PBILDT 5.02× FY26 (trigger 4×); CARE AA/Negative 7-Jul-2026 | CARE PR | [V] | New (Part 2 had ~4.2× net, CRISIL only) |
+| 9 | PCBL FY25 goodwill impairment | ₹554.72 Cr impairment offset by ₹554.20 Cr DTL reversal; net exceptional ₹0.52 Cr | PCBL FY25 IR consolidated P&L, Note 3(d) | [V] | Resolves §H |
+| 10 | Nanovace JV partner and split | Kindia Pty Ltd (Australia), Sep-2024; PCBL 51% | CARE PR | [V] | Resolves "Kindia vs Kinaltek" |
+| 11 | PCBL export share | 38% of volume FY26 (~40% over 3 yrs); ~35% of gross sales | CARE PR | [V] | Refines "~40%" |
+| 12 | Aquapharm Q1 FY27 | Vol 22,985 t; revenue ₹394 Cr; EBITDA ₹47 Cr (~₹20,000/t vs ~₹19,500 Q1 FY26). FY26 vol 94,445 t (FY25 95,806) | Q1 deck p.7, p.9; transcript | [V] | Yes |
+| 13 | PCBL power | 122 MW (→134 MW FY27); Q1 FY27 217 MU generated / 130 MU sold at ₹5.39/kWh (Q4 ₹3.66); power EBIT ~₹110 Cr (Q4 ~₹80 Cr) | Q1 deck p.10; transcript | [V] | Yes. Adds the 134 MW |
+| 14 | Himadri Q2 FY27 consolidated revenue / EBITDA / PAT | ₹1,691.43 / ₹303.22 / ₹231.32 Cr (+57.9% / +27.5% / +31.3%) | Q2 FY27 deck p.53 | [V] | Yes |
+| 15 | Himadri Q1 FY27 company EBITDA | ₹313.11 Cr (21.9%); standalone ₹301.36 Cr | Q2 deck p.52–53; Q1 transcript | [V] ×2 | New (Part 2 had screener OP 288 only) |
+| 16 | Himadri H1 FY27 cash flow | PBT ₹607.85 Cr; WC change −₹686.25 Cr; CFO −₹154.35 Cr; CFI −₹214.98 Cr; CFF +₹300.50 Cr | Q2 deck p.56 | [V] | Yes |
+| 17 | Himadri net debt Sep-26 | ₹519.8 Cr (net cash ₹93.7 Cr Mar-26 on the same basis); ₹511 Cr of deposits pledged (Mar-26) | Q2 deck BS p.55; FY26 AR note 10 | [V-calc] | Yes (was [E]); adds the pledge |
+| 18 | Himadri FY26 segment: carbon materials and chemicals | External revenue ₹4,366.9 Cr (FY25 ₹4,588.9 Cr, −4.8%); segment result ₹828.4 Cr (19.0% vs 15.2%) | FY26 AR, consolidated Note 40 | [V] | New. Group revenue grew only via "Others" (₹274.5 Cr, mining and other) |
+| 19 | Himadri exports | Outside India ₹1,357.6 Cr = 29.1% of FY26 revenue (FY25 26.7%) | FY26 AR Note 40 | [V] | New |
+| 20 | Himadri CB capacity | ~250,000 MTPA incl. 130,000 MTPA specialty; 600,000 MTPA distillation; core utilisation ~80% → 90%+ in FY27 | Q1 transcript (CMD) | [V] | Yes. Utilisation new |
+| 21 | Himadri FY28 PAT ambition | ₹1,100 Cr ("for next year", i.e. FY28); no annual guidance given | Q1 transcript | [V] | New |
+| 22 | Himadri announced capex | ~₹2,000 Cr (LFP ₹1,125 + ₹368 new + ~₹500 Birla Tyres): ~₹1,000 Cr FY27, ~₹1,000 Cr FY28, "self-funded", "no incremental debt" | Q1 transcript | [V] | New |
+| 23 | Rain CY25 PAT bases | Attributable reported ₹42.5 Cr; adjusted ₹117.8 Cr; pre-NCI ₹135.9 Cr | Rain Q2 deck appendix; CY25 AR | [V] ×2 | Resolves trap 7 |
+| 24 | Rain Q2 CY26 adj. EBITDA / reported PAT | ₹9,935 Mn (19.2%) / ₹2,962 Mn attributable (+ NCI ₹448 Mn = ₹3,410 Mn = screener ₹341 Cr) | Rain Q2 deck p.4, p.15 | [V] | Yes |
+| 25 | Rain Carbon segment Q2 CY26 | 594 kt; revenue ₹37.70 bn; adj. EBITDA ₹8.11 bn → ₹13,653/t (Q2 CY25 664 kt, ₹5.15 bn, ₹7,756/t) | Rain Q2 deck p.8 | [V-calc] | Yes (was V-broker) |
+| 26 | Rain net debt and leverage | Gross US$1,064 m (term 817 + WC 257 − DFC 10); cash 172; net US$892 m; LTM adj. EBITDA US$322 m; 2.77× (Dec-25: 837 / 261 / 3.21×) | Rain Q2 deck p.11 | [V] | Yes (was V-broker) |
+| 27 | Rain debt maturities | EUR TLB €310.6 m (US$354 m) due Oct-2028; USD senior secured notes US$445 m due Sep-2029; liquidity US$313 m (cash 172 + undrawn 141) | Rain Q2 deck p.4, p.11 | [V] | Adds the Sep-2029 notes |
+| 28 | Rain capacities | Calcination 2.4 mtpa; distillation 1.3 mtpa; AM 0.5 mtpa; cement 4.0 mtpa; 187 MW | Rain Q2 deck p.18 | [V] | Corrects distillation (S3) |
+| 29 | Rain CY25 segment operating profit | Carbon ₹19,860.84 Mn; AM ₹1,541.78 Mn; Cement ₹482.49 Mn (total ₹21,885 Mn) | CY25 AR segment note; Ind-Ra | [V] ×2 | New |
+| 30 | Rain goodwill and headroom | ₹69,632 Mn total. Distillation CGU ₹33,791 Mn has only ₹4,819 Mn headroom (wiped by +0.9 pp discount rate or −6% cash flow) | CY25 AR Note 40 | [V] | New risk fact |
+| 31 | Rain rating and agency leverage | IND A/Stable (16-Sep-2026); net adj. leverage 3.97× 2025, 5.43× 2024 | Ind-Ra rationale (BSE filing) | [V] | Yes. Adds leverage |
+| 32 | India CB exports FY26 | 443.9 kt, US$496.1 m, ₹4,376 Cr (+12% volume) | TradeStat HS 28030010; CARE | [V] ×2 | Supersedes "~350–400 kt [E]" |
+| 33 | India CB imports FY26 | 130.2 kt, US$164.9 m (−11%); China 39.8 kt; Russia 11.0 kt | TradeStat; CARE (130 kt) | [V] ×2 | Supersedes PCBL split (S12) |
+| 34 | India CB exports to EU-27 | 99.7 kt FY25 → 130.3 kt FY26 | TradeStat country rows | [V-calc] | Refines "~100 kt" |
+| 35 | Indian tyre exports FY26 | ₹27,311.77 Cr (+9.0%) vs ₹25,056.83 Cr. US ₹4,081.57 Cr (14.9%; −5.9%), Germany ₹1,954.81 Cr (+37%), Italy ₹1,306.86 Cr | TradeStat HS 4011 | [V] | Yes (was V via autocarpro). ATMA's own page still shows FY25 "₹25,000 Cr (est.)" |
+| 36 | Carbon-black ADD status | No measure since the 2nd SSR; MoF OM 5-Jan-2021 declined DGTR's US$494/t (China), US$36.17/t (Russia); no case since | DGTR case page, FF 22-Dec-2020, OM | [V] ×3 | Yes; history corrected (S8) |
+| 37 | EU sanctions on Russian CB | Quota 752,475 t (CN 2803), 26-Feb-2023 → 30-Jun-2024; ban thereafter (Impl. Reg. (EU) 2023/427) | French customs notice 2023-19 | [V] | Yes |
+| 38 | India CB capacity | ~2,000 ktpa (CRISIL, 15-Feb-2024; FY24 basis) → ~2.2–2.4 mtpa now [E] | CRISIL press release | [V] | Date corrected (S10) |
+| 39 | Brent path 2026 | Monthly avg: Apr $117.29, Jun $85.40, Sep $114.16. Weekly 16-Oct $125.59 | EIA RBRTE | [V] | Supersedes sibling "$95" (S6) |
+| 40 | Share of CB into tyres; replacement share | CARE: >60% of CB into tyres (PCBL FY26 ~57%); ~55% of tyre sales replacement. CRISIL: ~65%; 60–70% | CARE PR; CRISIL (Part 1) | [V] ×2 | Range widened (S23) |
+| — | *Lower-weight items* | | | | |
+| 41 | GST on new pneumatic tyres | 28% → 18% from 22-Sep-2025 (tractor tyres 5%; notif. 9/2025-CT(R)) | Apollo Tyres release / cleartax | [V-snip] | Yes, still not from the CBIC gazette |
+| 42 | US tariff chronology | Feb-2026 interim framework ~18% (never in force) → SCOTUS 20-Feb → Sec 122 10% from 24-Feb (150 days) → Sec 301 10% | news reports | [V-snip] | Reconciles (S7) |
+| 43 | Cabot Q3 FY26 (Jun-26 qtr) | Reinforcement Materials EBIT US$97 m (−24%); volume +5% (APAC +10%, Americas +4%, EMEA −4%); lower 2026 contract pricing | SEC 10-Q / 8-K via search | [V-snip] | New global lens |
+| 44 | Orion 2026 guide | Adj. EBITDA US$170–210 m | businesswire | [V-snip] | Supersedes $160–200 m (S27) |
+
+**Count:** of the 40 core figures (#1–40), **all 40 are [V] or [V-calc] from primary sources fetched this session**. These are company filings (PCBL deck/transcript/AR; Himadri deck/transcript/AR; Rain deck/AR), rating agencies (CARE, India Ratings, CRISIL), regulators and government (DGTR, MoF, TradeStat/DGCI&S, French customs/EU, EIA). **19 have two independent primary sources.** Items #41–44 remain snippet-grade.
+
+**Conflicts and which source wins:**
+- **Imports by origin.** TradeStat (DGCI&S transaction data) beats PCBL's call remark. Management gave round monthly numbers from memory; TradeStat is the customs record. But TradeStat 28030010 excludes acetylene black (28030020) and "others" (28030090).
+- **Tyre share and replacement share.** CARE (Jul-2026) is newer than CRISIL's sector framing; neither cites a primary tyre-industry source. Use a range.
+- **Brent.** EIA (spot assessments) beats both PCBL's quarterly figure and the sibling dossier. PCBL's "$97 for Q1" is not wrong as *its* number, but calendar Apr–Jun averaged $103.
+- **Capacity.** CRISIL's ~2,000 ktpa is a Feb-2024 figure; DGTR's 2020 data (domestic industry 790 kt + Birla 386 kt + others) are consistent with ~1.6–1.7 mt in 2020. No regulator publishes a current national capacity.
+
+## 4.2 Company deep-dives (primary documents)
+
+### 4.2.1 PCBL Chemical (PCBL · 506590)
+
+**Status:** latest reported quarter Q1 FY27 (29-Jul-2026). As of 22-Oct-2026 screener's announcement feed (latest item 13-Oct) shows **no Q2 FY27 board-meeting intimation** [V screener 22-Oct]. The SEBI outer date is 14-Nov-2026. Since 13-Oct the feed shows an independent director re-appointed, the Nanovace Advanced Materials WOS (10-Oct), the resignation of Gautam Kalia (Chief–International Markets, Rubber; 9-Oct), and NCDs of ₹700 Cr with ₹490 Cr outstanding (30-Sep).
+
+**A. Management-guidance digest, Q1 FY27 call (29-Jul-2026; MD Nilesh Koul, CFO Raj Gupta, Aquapharm CEO Rohit Narang) [V transcript]**
+1. **Margin:**
+   - Q1 CB EBITDA ₹22,900/t. About a third of volume is spot, which "monetised" the April–May crude run-up. The rest is formula-priced with a lag.
+   - ~₹70 Cr low-cost-inventory gain in Q1, of which ₹40–50 Cr is expected to reverse in Q2.
+   - FY27 guidance held at **14–15% above the FY26 average ≈ ₹16,500–17,000/t**.
+   - Gross profit per kg is targeted at **₹36–38 for the remaining nine months** (analyst back-calculation: ~₹44–45 in Q1 vs a ~₹31 run-rate), helped by "pricing discipline" and "bottom slicing" of low-margin volume. The CFO called it "a trade-off between volumes and margins".
+2. **Volume:**
+   - Q1 volume was flat (153,513 t) by choice. PCBL held back export orders where freight "was eating away" the margin, sold low-cost inventory domestically where new formula prices had come in, and saw customers pre-buy in Q4.
+   - **Q2 volume will be "temporarily" soft** (cautious procurement, destocking). Q3–Q4 are to pick up "significantly". The FY27 high-single-digit volume growth guide is maintained.
+   - Indian tyre industry: +7–8% in FY26, high single digits FY27–29; tyre makers at ~90% utilisation with fresh capex.
+3. **Exports and structural claims:**
+   - Three "durable tailwinds": (i) India's trade deals (EU FTA would remove the 4.5% tyre duty; UK CETA, EFTA TEPA, Oman, NZ); (ii) a US tariff advantage vs China, Russia and Middle East origins; (iii) Russian refinery outages shrinking Russian CBFS and CB exports.
+   - Q1 shipments: Europe ~16,000 t, USA ~4,800 t. International contracts at "advanced stage of negotiation". "Upcoming presence in Texas" (Aquapharm already has a Texas plant per the deck).
+4. **Feedstock:** CBO stays ~US$150/t above CBFS, and CBO moved up with CBFS. A **coal-tar distillation project** is being defined, with capex approval "by this quarter" (i.e. by Sep-2026) and raw-material tie-up "evaluated". *No announcement was found by 22-Oct.* The deck's mid-term outlook also names **backward integration into yellow phosphorus** (for Aquapharm).
+5. **Capex:** FY27 ~₹300 Cr ±50, of which ≤₹100 Cr strategic. The AP greenfield spend comes mostly in FY28 (CARE: Phase I 150 kt at ~₹1,100 Cr, debt-funded, so leverage will not fall fast).
+6. **Cost programme:** ₹200–250 Cr savings over 4–6 quarters "still holds".
+7. **Aquapharm:**
+   - Q1 22,985 t, ₹394 Cr revenue, ₹47 Cr EBITDA (~₹20,000/t vs ₹19,500/t a year ago). Q2 will be "a little lower" on inventory adjustment; the FY run-rate is "similar".
+   - Oil and gas volumes −35% YoY but +50% QoQ. Green chelates are oversubscribed: a new facility is under discussion (CARE: ~10 kt) and qualification is under way with P&G, Reckitt and Henkel.
+   - The new CEO **declined to reaffirm the ₹75 Cr/quarter exit run-rate** ("early days").
+8. **Battery:**
+   - Nanovace pilot (Palej) has consent to operate. Machine-level trials are done; first customer samples were due "in the coming weeks of August".
+   - 1,000 MTPA super-conductive specialty line set up at Palej. Acetylene black: phase-1 engineering is complete and product development has started with a technology collaborator.
+   - ₹1,000 Cr EBITDA aspiration "will hit the targets".
+9. **IEEPA refund:** ₹40–45 Cr (PCBL + Aquapharm) applied for; expected "in 2–4 weeks" (i.e. by end-Aug). Accounting (revenue vs other income) to be decided with auditors. *Watch whether it appears in Q2 FY27.*
+10. **Power:** realisation ₹5.39/kWh vs ₹3.66 (+47%). Power EBIT ~₹110 Cr vs ~₹80 Cr, the whole ₹30 Cr QoQ jump.
+
+**Five most important analyst Q&A points:**
+- (i) The inventory gain and its reversal.
+- (ii) Sustainable ₹/kg: the ₹36–38 GP/kg target.
+- (iii) Why volume fell despite the new Chennai line (a deliberate choice).
+- (iv) The coal-tar distillation timetable.
+- (v) Aquapharm's run-rate and the new CEO's caution.
+
+**B. Concall KPI table (₹ Cr unless stated) [V deck/transcript]**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| CB volume (t) | 154,093 | 161,865 | 153,513 | 596,262 | 618,956 |
+| — Tyre / Perf. / Specialty (t) | 91,140 / 46,888 / 16,065 | 88,591 / 53,888 / 19,386 | 91,379 / 42,386 / 19,748 | 348,157 / 185,655 / 62,450 | 354,841 / 194,480 / 69,635 |
+| Specialty share of volume | 10.4% | 12.0% | 12.9% | 10.5% | 11.3% |
+| Domestic / international (t) | — | 105,055 / 56,800 | 102,985 / 50,528 | — | — |
+| Revenue | 2,114 | 2,066 | 2,474 | 8,404 | 8,189 |
+| Company EBITDA (margin) | 325 (15%) | 248 (12%) | 400 (16%) | 1,384 (16%) | 1,082 (13%) |
+| CB EBITDA/t (₹) | ~17,800 [E: (325 − ~51 Aquapharm at ₹19,500/t × 25,993 t) ÷ 154,093] | ~14,900 | 22,900 | — | ~14,900 (14,864 [V-calc]) |
+| Aquapharm vol (t) / revenue / EBITDA | 25,993 / — / — | — / 339 / 29 | 22,985 / 394 / 47 | 95,806 / — / — | 94,445 / 1,443 / 162 |
+| Power generated / sold (MU); ₹/kWh | — | 196 / 116; 3.66 | 217 / 130; 5.39 | — | ~839 / ~511 [primer] |
+| Finance cost / D&A | 112 / 93 | 97 / 94 | 93 / 103 | 461 / 345 | 423 / 373 |
+| Exceptional items | — | 5 | — | 1 (net; see S17) | 25 |
+| PAT | 94 | 40 | 155 | 435 | 198 |
+| R&D spend | — | — | — | — | ₹81 Cr (deck) |
+
+**C. Five-year history (screener consolidated, ₹ Cr) [V screener 22-Oct-26] with company/agency overlays**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 4,446 | 5,774 | 6,420 | 8,404 | 8,189 |
+| Operating profit (screener) | 653 | 731 | 1,037 | 1,337 | 1,043 |
+| Company EBITDA | — | — | — | 1,384 | 1,082 |
+| OPM % | 15 | 13 | 16 | 16 | 13 |
+| Interest | 29 | 53 | 181 | 461 | 423 |
+| PAT | 426 | 442 | 491 | 435 | 198 |
+| CFO | 290 | 504 | 1,105 | 760 | 1,576 |
+| Borrowings (Mar) | 786 | 1,029 | 4,983 | 5,571 | 4,989 |
+| ROCE % | 18 | 17 | 14 | 12 | 8 |
+| CARE TD/PBILDT (×) | — | — | 5.07 | — | 5.02 |
+| CARE interest cover (×) | — | — | — | 2.90 | 2.47 |
+| CB capacity (ktpa, year-end) | ~600 [E] | ~650 [E] | ~770 [E] | 790 | 880 (900 Jun-26) |
+
+Earlier context (screener): FY19 revenue ₹3,529 Cr, OP ₹616 Cr, PAT ₹383 Cr, ROCE 25%. This was the pre-Aquapharm peak, with borrowings of just ₹793 Cr.
+
+**D. Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 2,163 | 2,010 | 2,087 | 2,114 | 2,164 | 1,846 | 2,066 | 2,473 |
+| Operating profit | 364 | 317 | 298 | 319 | 266 | 215 | 243 | 396 |
+| OPM % | 17 | 16 | 14 | 15 | 12 | 12 | 12 | 16 |
+| Interest | 119 | 118 | 103 | 112 | 107 | 106 | 97 | 93 |
+| Depreciation | 86 | 87 | 88 | 92 | 93 | 94 | 94 | 103 |
+| PAT | 123 | 93 | 100 | 94 | 62 | 2 | 40 | 155 |
+| Other income | 6 | 11 | 20 | 6 | 12 | −5 | 0 | 4 |
+
+**E. Annual-report findings (FY25 Integrated Report; the FY26 report could not be fetched, see header) [V]**
+- **Goodwill accounting (Note 3(d), Note 35):** see S17. ACPL goodwill was ₹1,161.29 Cr. FY25 impairment of ₹554.72 Cr was triggered by the DTL reversal (₹554.20 Cr) on amalgamation into ACIL; value in use was set by an external valuer. **Read:** roughly half of Aquapharm's accounting goodwill is already written off, and future impairment risk sits on the remaining ~₹607 Cr plus the acquired intangibles.
+- **Related parties (Note 27, consolidated, FY25):**
+  - **Licence fees ₹46.50 Cr (FY24 ₹28.40 Cr)** paid to group/common-control entities (standalone ₹26.50 Cr). This is the RPSG brand/IP-type fee, ~3.4% of FY25 EBITDA, and it rose 64% YoY.
+  - **Sale of power to group companies (CESC / RPG Power Trading etc.) ₹124.47 Cr (FY24 ₹148.09 Cr)**, plus power-selling expenses ₹9.30 Cr. Much of the "power" earnings is sold inside the group.
+  - Dividend to parent (Rainbow Investments, 45.84% "de facto control") ₹106.72 Cr.
+  - Investments in group entities ₹515.24 Cr (incl. preference shares in Devise Properties).
+  - KMP remuneration ₹30.59 Cr; directors' commission ₹19.50 Cr. All at "arm's length".
+- **Contingent liabilities (Note 23, FY25):**
+  - Income tax ₹59.81 Cr; customs (MEIS, Aquapharm) ₹48.66 Cr; service tax ₹5.90 Cr; excise ₹4.08 + 1.57 Cr; GST ₹1.40 Cr; VAT ₹0.78 Cr. **Total ≈ ₹122 Cr.**
+  - ₹61.27 Cr of the Aquapharm-related items are **indemnified by the erstwhile promoters** under the 28-Nov-2023 SPA. Immaterial to equity.
+- **Capacity and operations:** 790,000 MTPA (FY25) incl. PCBL (TN). Cogeneration: Durgapur 30, Mundra 32, Palej 19, Kochi 17 (+ Chennai 24) MW. Goal "1 million MTPA by FY2027–28".
+- **ESG:** GHG intensity **1.91 tCO₂e/t CB** (Scope 1+2); ZLD.
+- **Industry data the AR cites (Notch):** global demand 14.3 mt 2024E vs 19.6 mt rated capacity (~73% nominal utilisation; ~92–94% of "achievable" capacity); India CB market CAGR ~4% 2024–30; specialty global CAGR 4.5% 2025–30.
+- **Risks the AR and CARE flag:**
+  - CBFS is ~90–95% of material cost and ~90% imported, against exports of ~35% of sales, so PCBL is a net FX payer (hedges most net exposure).
+  - Dependence on the tyre cycle.
+  - CB import threat (cheap Russian exports to SE Asia).
+  - Aquapharm under-performance.
+  - Debt-funded AP capex delaying deleveraging.
+
+**F. Financing and liquidity (CARE, Jul-2026) [V]:** secured WC limits ₹3,000 Cr + unsecured ₹1,652 Cr (standalone). FY27 debt repayment ~₹605 Cr. The ₹448 Cr warrants (₹280/share) went to Rainbow Investments, Quest Capital Markets and STEL Holdings and were used for debt repayment, WC and general corporate purposes.
+
+### 4.2.2 Himadri Speciality Chemical (HSCL · 500184)
+
+**Status:**
+- Q2 FY27 results filed 17-Oct-2026.
+- The **Q2 FY27 call took place 22-Oct-2026 at 4 pm IST (intimated 16-Oct)**. At the time of this pass no transcript, audio file or recording link was listed on screener or BSE. Himadri usually posts an mp3 on himadri.com and files the transcript about five days later (Q1: call 16-Jul, transcript 21-Jul).
+- **The latest guidance digest is therefore from the Q1 FY27 call (16-Jul-2026)**, with Q2 numbers from the 17-Oct deck.
+
+**A. Management-guidance digest, Q1 FY27 call (16-Jul-2026; CMD and CEO Anurag Choudhary, CFO Kamlesh Agarwal, EVP Tyre & Strategy Somesh Satnalika) [V transcript]**
+1. **No numerical guidance:** "We don't give quarter and year guidelines, never." But the CMD **reiterated ₹1,100 Cr PAT "for next year" (FY28)**. FY26 PAT was ₹755 Cr and TTM Sep-26 ₹859 Cr, so this implies ~28% growth from TTM.
+2. **Core utilisation:** ~80% (coal tar plus the ~70 kt recent CB expansion), going to "90% plus" during FY27. **No new distillation capex**; capacity stays at 600,000 MTPA.
+3. **New projects announced 15-Jul-2026:**
+   - **CNT 200 MTPA, ₹70 Cr, Q4 FY27**: indigenous technology; global CNT market ~30 kt; revenue <₹100 Cr at this scale.
+   - **Super-speciality CB 6,000 MTPA, ₹170 Cr, FY28 (Q4 FY28 per deck)**, made by converting *commodity rubber* capacity, not the new specialty line. SSCB market ~300 kt (specialty CB overall ">1 million t"). Revenue potential ~₹500 Cr (3× asset turn). Margins "significantly higher".
+4. **Battery materials:**
+   - **Anode:** 200 MTPA line commissioned Apr-2026 (₹120 Cr spent). Sample B is now with Indian and global customers; approval cycles take 1.5–2 years. Revenue potential ₹120–130 Cr. No bigger plant announced yet.
+   - **LFP:** 2,000 MTPA demo in Q3 FY27. **40,000 MTPA Phase I in FY28 (₹1,125 Cr; ~₹3,000 Cr revenue at today's prices)**. The **200,000 MTPA vision over ~5 years has an announced capex of ₹4,800 Cr**, about 2–3% of the future global LFP market. Pricing will be "same as China". Lithium sourcing is "confidential".
+   - Global context per the CMD: ~1.6 TWh Li-ion, ~50% LFP; LFP need ~1.6 mt; anode ~1.6 mt, of which ~70% synthetic.
+5. **Capex and funding:** total announced ~₹2,000 Cr (LFP ₹1,125 + ₹368 Cr from 15-Jul + ~₹500 Cr Birla Tyres in FY27). Phasing is **~₹1,000 Cr in FY27 and ~₹1,000 Cr in FY28**. "Free cash flow will cover that. There is no question of any incremental debt." *Tension:* H1 FY27 CFO was −₹154 Cr and current borrowings rose ₹390 Cr in six months.
+6. **Treasury and other income:** other income is high because Himadri "borrowed from bank and CPs and deployed in FDs" (a spread), holds mutual funds, and books MTM on IBC, Sicona and Birla Tyres NCDs. Other income "will vary 30–40% quarter-on-quarter". The Q1 FX loss was blamed on rupee volatility and said to be "the last quarter" for it. *Q2 indeed showed an FX gain of ₹11.7 Cr [V deck].*
+7. **Birla Tyres:**
+   - Commercial operations since 29-May-2025. Q1 sales ~₹127 Cr. 49 distributors and 1,000+ dealers; 400 SKUs in development.
+   - TBB capacity to be converted to OTR over 3 years. PCR (EV/SUV) plant by FY28.
+   - **Target ₹3,000 Cr revenue in 4–5 years; EBITDA breakeven "this financial year"**. Consolidated-minus-standalone revenue is "largely Birla Tyres".
+8. **IBC:** ~19.44% stake; "will not raise". IBC's 7 GWh India plant is "expected to commence by Q4 FY27" (the deck says Q1 FY28).
+9. **Mining (Others segment):** EBIT fell from ₹25 Cr to ₹1 Cr in Q1 as the mines stopped pending environmental clearance (3–6 months).
+10. **R&D:** ₹125 Cr+ in FY26 (2.6% of revenue).
+
+**Most important Q&A points:**
+- (i) Margins on new products are not disclosed.
+- (ii) An analyst's LFP spread calculation came out *negative*; the CMD rejected "Excel-sheet" costing.
+- (iii) Volume fell in Q1 while revenue rose: raw-material pass-through plus mix.
+- (iv) The capex and funding claim (no new debt).
+- (v) The source of the other-income surge (treasury arbitrage and MTM).
+
+**B. KPI table (consolidated unless stated, ₹ Cr) [V Q2 FY27 deck]**
+
+| KPI | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 | H1 FY26 | H1 FY27 |
+|---|---|---|---|---|---|---|---|
+| Sales volume, all products, standalone (t) | 135,513 | 152,968 | 135,634 | 131,844 | 146,806 | — | — |
+| Revenue | 1,071.03 | 1,184 | 1,288 | 1,431.88 | 1,691.43 | 2,189.32 | 3,123.31 |
+| Gross profit | 409.08 | — | — | 519.77 | 520.42 | 817.92 | 1,040.19 |
+| Gross margin | 38.2% | — | — | 36.3% | 30.8% | 37.4% | 33.3% |
+| Company EBITDA (excl. OI, FX) | 237.85 | — | — | 313.11 | 303.22 | 473.10 | 616.33 |
+| EBITDA margin | 22.2% | — | — | 21.9% | 17.9% | 21.6% | 19.7% |
+| Other income | 35.93 | — | — | 56.31 | 41.79 | 62.61 | 98.10 |
+| FX gain/(loss) | (5.07) | — | — | (25.20) | 11.74 | 4.69 | (13.46) |
+| Finance cost | 14.78 | — | — | 22.41 | 27.72 | 30.61 | 50.13 |
+| PAT | 176.14 | 192 | 208 | 228.43 | 231.32 | 355.50 | 459.75 |
+| Standalone revenue / EBITDA | 1,070.41 / 242.71 | — | — | 1,274.26 / 301.36 | 1,542.67 / 308.19 | 2,170.83 / 476.68 | 2,816.93 / 609.55 |
+| Standalone EBITDA per t (₹) [V-calc] | 17,910 | — | — | 22,857 | 20,993 | — | — |
+| Consolidated − standalone revenue (≈ Birla Tyres + subs) | 0.6 | — | — | 157.6 | 148.8 | 18.5 | 306.4 |
+
+Read: Q2 FY27 gross profit was flat QoQ (₹520 Cr) on +18% revenue. The whole revenue increase was pass-through at ~zero gross margin, which is the signature of a feedstock (coal tar/CBFS) price spike being passed on.
+
+**C. Five-year history [V screener; V company deck]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Sep-26 |
+|---|---|---|---|---|---|---|
+| Revenue | 2,791 | 4,172 | 4,185 | 4,613 | 4,661 | 5,595 |
+| Screener OP | 156 | 399 | 645 | 854 | 962 | 1,087 |
+| Company EBITDA (excl. OI and FX) | 163 | 419 | 635 | 847 | 1,006 | ~1,149 [V-calc: 1,006 − 473.10 + 616.33] |
+| Other income (screener) | −17 | −2 | 43 | 52 | 171 | 207 |
+| PAT | 39 | 216 | 411 | 555 | 755 | 859 |
+| Volume, all products SA (t) | 371,974 | 403,826 | 475,582 | 552,206 | 564,206 | — |
+| Company EBITDA/t blended (₹) [V-calc] | 4,382 | 10,376 | 13,352 | 15,339 | 17,831 | — |
+| ROCE screener / company (ex-inv. and CWIP) % | 5 / 6 | 13 / 17 | 19 / 27 | 22 / 33 | 22 / 32 | 22.1 / — |
+| Net cash (company) | −313 | −198 | 148 | 392 | 121 | −520 [V-calc] |
+| CFO | 331 | 54 | 405 | 447 | 382 | H1 −154 |
+| Borrowings (screener) | 587 | 842 | 605 | 313 | 770 | 1,160 |
+
+**D. Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Qtr | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 | Sep-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,141 | 1,135 | 1,118 | 1,071 | 1,184 | 1,288 | 1,432 | 1,691 |
+| Operating profit | 221 | 233 | 245 | 233 | 243 | 242 | 288 | 315 |
+| OPM % | 19 | 21 | 22 | 22 | 20 | 19 | 20 | 19 |
+| Other income | 12 | 14 | 27 | 36 | 47 | 62 | 56 | 42 |
+| Interest | 12 | 9 | 16 | 15 | 16 | 17 | 22 | 28 |
+| PAT | 141 | 155 | 179 | 176 | 192 | 208 | 228 | 231 |
+
+Note: other income rose from ₹12 Cr to ₹62 Cr a quarter in five quarters. In Q4 FY26 it was **23% of PBT** (62/268). Finance cost has tripled since Mar-25 (₹9 Cr → ₹28 Cr), so the "treasury arbitrage" carries real gross interest.
+
+**E. FY26 Integrated Annual Report findings [V]**
+- **Segments (Note 40):**
+  - **Carbon materials & chemicals:** external revenue ₹4,366.9 Cr (−4.8% YoY); segment result ₹828.4 Cr (**19.0% margin vs 15.2%**). The whole of FY26 profit growth was margin, not volume or price.
+  - **Power:** ₹19.3 Cr external + ₹76.2 Cr inter-segment; result ₹81.3 Cr.
+  - **Others (mining & other, new in FY26):** ₹274.5 Cr revenue, ₹27.8 Cr result.
+  - **Still no product split.** Carbon black, pitch, naphthalene, SNF and oils are all inside one segment, so the "CB share of revenue" stays [E].
+- **Customers and geography:** FY25 had **two customers each >10% of revenue (together ₹942 Cr, ~20%)**; FY26 had none. Concentration fell. Exports were 29.1% of revenue (FY25 26.7%). Non-current assets outside India were ₹1,007.6 Cr (FY25 ₹311 Cr), i.e. offshore investments.
+- **Capex:** ₹449.7 Cr in FY26 (FY25 ₹170.8 Cr). Capital commitments ₹81.5 Cr; EPCG export obligation ₹10.4 Cr.
+- **Contingent liabilities (consolidated Note 35):**
+  - Sales tax/VAT ₹12.1 Cr; GST ₹2.3 Cr; customs ₹0.3 Cr; income tax ₹16.8 Cr; lessor dispute ₹2.7 Cr. **Total ~₹34 Cr (FY25 ~₹51 Cr)**. Small.
+- **Pledged deposits:** standalone bank deposits of **₹511.1 Cr pledged with banks against credit facilities** (Mar-26 and Mar-25 alike).
+- **Royalty:** ₹7.0 Cr (new, mining). Freight and forwarding ₹245.7 Cr (5.3% of revenue).
+- **Group structure (Board's report):**
+  - Birla Tyres Ltd: WOS from 7-Apr-2025.
+  - Himadri Birla Tyre Manufacturer Pvt Ltd: 49%, consolidated by control. Invati Creations: 40%, consolidated by control.
+  - Trancemarine & Confreight Logistics: 60% (logistics; with step-down Sturdy Niketan 99%).
+  - Shandong Dawn Himadri Chemical (China): 94% via AAT Global (HK). Himadri Speciality Inc (Delaware, Feb-2025).
+  - Himadri Integrated Minerals & Resources (renamed Feb-2026; mining).
+  - Investments in DBRL secured NCDs, Sicona CCNs and IBC equity.
+  - **Read:** the tyre business is controlled and consolidated *before* the demerger. Some of its funding runs through Himadri's subscription to DBRL NCDs, a related-party-like exposure to watch.
+- **Industry data in the AR (Notch):** global specialty CB ~1.06 mt (2025), ~4% CAGR to 2029; NA specialty 286 kt; world vehicle output ~93.1 m units.
+- **Promoter pledge:** not stated in the AR sections read; the primer's "free of encumbrance" is unverified (see gap log).
+
+### 4.2.3 Rain Industries (RAIN · 500339) — calendar year
+
+**Status:** latest quarter Q2 CY26 (Apr–Jun), results 6-Aug-2026; pre-recorded management Q&A filed 12-Aug-2026. **Q3 CY26 board meeting 6-Nov-2026** (intimation on screener) [V]. Rain does not hold live calls; written investor questions are answered by Gerard Sweeney (Rain Carbon Inc.), Jagan Nellore (MD) and T. Srinivasa Rao (CFO).
+
+**A. Management-guidance digest (Q2 CY26 Q&A, 12-Aug-2026; Q2 deck "Business Outlook") [V]**
+1. **Volumes:**
+   - Carbon utilisation was 69% in Q2, the same as Q1 and the CY25 average, despite 10% lower sales volume. The net impact of deferred shipments was **~10,000–15,000 t**; Middle-East-bound cargoes were redirected.
+   - Q3 volumes are expected to move "back toward more normal levels".
+   - **Utilisation should rise toward year-end as one US kiln restarts after a year-long outage.** Small debottlenecking investments are being evaluated to serve non-China smelter growth.
+2. **Margins:**
+   - Q2 included "some opportunistic margins… but not necessarily from the Carbon segment's traditional core products". Core products "do not trade directly on oil commodity prices".
+   - Q2 is "not… a new run-rate, but… not… purely one-off". Some opportunistic benefit should be offset by higher Q3 volumes. "Earnings going forward should remain within our typical range, with a better operational foundation."
+   - The Q2 deck's outlook calls Q3 "cautious amid geopolitical, logistics and commodity-market volatility". (Part 2's "broadly similar" came from Arihant.)
+3. **Product mix:** lower calcination volumes were partly offset by **higher carbon black oil sales in distillation**. Rain has stopped product-level disclosure because competitors read it.
+4. **Cycle comparison:** the market is above trough but "not… a return to pre-war conditions". In CPC, the supports are non-China aluminium growth, China's 45 mt cap and scarce anode-grade GPC. Unlike the last CPC spike, which was driven by inventory effects, this one has "more underlying support".
+5. **US distillation:** a competitor has exited. Rain will take business "in a way that protects margins rather than chasing volume".
+6. **India:** a **new pitch and distillation unit, first phase "early 2028"**, phased and disciplined. The near-term priority is utilisation of existing plants.
+7. **Legacy drags:**
+   - HHCR resin plant (Europe): losses "substantially" reduced from Q2 2026; Rain is seeking EU regulatory relief against Asian imports.
+   - Indian GPC import restrictions: "the industry has now largely adapted".
+8. **Balance sheet:**
+   - The **second-lien notes trade at a yield below the coupon**, so refinancing could be cheaper. The Term Loan B is prepayable at any time; refinancing the bonds early carries "meaningful costs".
+   - Goal: extend maturities, simplify the structure, and move average interest cost toward historical levels. Target **~3× net debt/EBITDA on normalised earnings**.
+   - First use of surplus cash: repay the working-capital loans that funded safety stocks.
+   - Working capital rose on **safety stocks for the Indian calciners**, volume-driven rather than price-driven, and should moderate as stocks are consumed.
+9. **FX:** USD +10.7% and EUR +13.5% vs INR YoY in Q2, which inflates reported INR revenue.
+
+**B. KPI table (₹ Mn unless stated) [V Rain Q2 CY26 deck]**
+
+| KPI | Q2 CY25 | Q1 CY26 | Q2 CY26 | CY25 |
+|---|---|---|---|---|
+| Net revenue (excl. other op. income) | 43,354 | 44,885 | 51,402 | 167,911 |
+| Revenue from operations | 44,014 | 45,207 | 51,672 | 169,458 |
+| Reported EBITDA | 6,314 | 7,208 | 9,683 | 21,854 |
+| Adjusted EBITDA (margin) | 6,171 (14.0%) | 7,149 (15.8%) | 9,935 (19.2%) | 22,749 (13.4%) |
+| PBT | 2,036 | 2,558 | 5,010 | 4,345 |
+| Tax | 1,206 | 980 | 1,600 | 2,986 |
+| Non-controlling interest | 223 | 364 | 448 | 934 |
+| Reported PAT (attributable) | 607 | 1,214 | 2,962 | 425 |
+| Adjusted PAT / adj. EPS (₹) | 495 / 1.47 | 1,245 / 3.70 | 3,173 / 9.43 | 1,178 / 3.50 |
+| Carbon volume (kt) / revenue (₹ bn) / adj. EBITDA (₹ bn) | 664 / 31.91 / 5.15 | 627 / 33.52 / 6.45 | 594 / 37.70 / 8.11 | 2,593 / 124.98 / 19.97 |
+| Carbon EBITDA/t (₹) [V-calc] | 7,756 | 10,287 | 13,653 | 7,702 |
+| Advanced Materials vol (kt) / rev (₹ bn) / EBITDA (₹ bn) | 70 / 8.18 / 0.77 | 68 / 8.63 / 0.65 | 71 / 10.73 / 1.68 | 270 / 31.62 / 2.20 |
+| Cement vol (kt) / rev (₹ bn) / EBITDA (₹ bn) | 699 / 3.26 / 0.25 | 633 / — / 0.06 | 651 / 2.97 / 0.15 | 2,575 / 11.31 / 0.57 |
+| D&A / finance cost / interest income | 2,249 / 2,283 / 254 | 2,486 / 2,383 / 219 | 2,447 / 2,514 / 288 | 9,218 / 9,217 / 926 |
+
+Notes:
+- AM and Cement Q1/Q2-CY25 columns are read from bar labels; the AM Q1-CY26 vs Q2-CY25 EBITDA order is inferred from Arihant's ₹11,000/t for Q2 CY25.
+- Q2 CY26 adjustments: non-recurring expenses ₹280 Mn; FX gain on inter-company debt ₹28 Mn.
+- H1 CY26 CFO **₹1,877 Mn** (H1 CY25 −₹1,967 Mn); H1 capex US$26 m (₹2.43 bn).
+
+**C. Five-year history (screener consolidated, ₹ Cr; calendar years) [V] with company overlays**
+
+| | CY21 | CY22 | CY23 | CY24 | CY25 | TTM Jun-26 |
+|---|---|---|---|---|---|---|
+| Revenue | 14,527 | 21,011 | 18,141 | 15,374 | 16,946 | 18,464 |
+| Screener OP | 2,360 | 3,537 | 933 | 1,274 | 2,137 | 2,788 |
+| Company adj. EBITDA | — | — | — | 1,498 | 2,275 | n.c. (company LTM: US$322 m; see note) |
+| Segment op. profit: Carbon / AM / Cement (AR, Ind-Ra) | — | — | 1,454 / 136 / 102 | 1,040 / 219 / −1 | 1,986 / 154 / 48 | — |
+| PAT incl. NCI (screener) | 694 | 1,577 | −796 | −450 | 136 | 667 |
+| PAT attributable (EPS × 33.6 Cr shares) | 580 | 1,439 | −938 | −564 | 42.5 (adj. 117.8) | 537 |
+| ROCE % (screener / Ind-Ra) | 12 / — | 17 / — | 2 / 1.0 | 4 / 2.4 | 8 / 7.2 | 8.3 / — |
+| Net leverage (Ind-Ra net adj. debt/EBITDA) | — | — | 3.89× | 5.43× | 3.97× | — |
+| Net debt/LTM adj. EBITDA (company) | — | — | — | — | 3.21× | 2.77× |
+| Borrowings (screener) | 8,489 | 9,731 | 8,690 | 8,494 | 9,824 | 10,795 |
+| CFO | 834 | 1,036 | 3,063 | 1,943 | 897 | H1 CY26 188 |
+
+The TTM company-EBITDA cell cannot be built cleanly from fetched quarters. Use the **company's LTM adj. EBITDA of US$322 m (≈₹3,056 Cr at ₹94.9; ≈₹2,800 Cr at the period-average rate)** and say so.
+
+**D. Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 3,934 | 3,676 | 3,768 | 4,401 | 4,476 | 4,301 | 4,521 | 5,167 |
+| Operating profit | 216 | 346 | 380 | 629 | 627 | 501 | 697 | 964 |
+| OPM % | 6 | 9 | 10 | 14 | 14 | 12 | 15 | 19 |
+| Interest | 234 | 227 | 224 | 228 | 237 | 232 | 238 | 251 |
+| PAT incl. NCI | −155 | −134 | −115 | 83 | 130 | 38 | 158 | 341 |
+| EPS (₹, attributable) | −5.33 | −4.80 | −4.09 | 1.80 | 3.15 | 0.40 | 3.61 | 8.81 |
+| Company adj. EBITDA (₹ Mn) | — | — | — | 6,171 | — | — | 7,149 | 9,935 |
+
+**E. CY25 Integrated Annual Report findings [V]**
+- **Segments (Note 39):**
+  - Carbon: external ₹126,175 Mn (+17.6%), inter-segment ₹6,279 Mn, op. profit ₹19,861 Mn (CY24 ₹10,400 Mn).
+  - AM: ₹31,978 Mn, op. profit ₹1,542 Mn (₹2,187 Mn).
+  - Cement: ₹11,305 Mn, ₹482 Mn (−₹15 Mn).
+  - Ind-Ra: Carbon was **74% of revenue but 91% of EBITDA** in 2025.
+- **Major products:** CPC revenue ₹62,159 Mn (CY24 ₹43,950 Mn, +41%); CTP ₹35,785 Mn (₹34,649 Mn, +3%). The CY25 recovery was a **CPC story**. CBO and other distillates are the residual ~₹28 bn of Carbon revenue.
+- **Customer concentration:** **one Carbon customer >10% of group revenue (₹17,519 Mn, ~10.3%)** in CY25. There was none in CY24. Likely a large smelter group; not named.
+- **Geography:** India only ₹35,299 Mn (20.8%). Europe incl. CIS ₹60,727 Mn (35.8%); US ₹24,113 Mn; other North America ₹27,491 Mn; Asia ex-ME (incl. India) ₹38,237 Mn; others ₹18,891 Mn.
+- **Goodwill (Note 40):**
+  - ₹69,632 Mn (Dec-25; Dec-24 ₹62,437 Mn, up on FX): calcination ₹31,851 Mn, distillation ₹33,791 Mn, **OOO RÜTGERS Severtar (Russia) ₹1,127 Mn**, AM ₹2,662 Mn, Cement ₹201 Mn.
+  - **Distillation headroom is only ₹4,819 Mn.** A +0.9 pp discount rate or −6% operating cash flow would eliminate it. An impairment is the main P&L tail risk if coal-tar spreads fall back.
+  - CY24 carried a ₹730.52 Mn impairment.
+- **Contingent liabilities (Note 45):**
+  - Income tax ₹240 Mn; AP wheeling charges ₹448 Mn (Supreme Court 2019; bank guarantee ₹147 Mn); grid support ₹54 Mn; indirect taxes ₹1,910 Mn; fuel surcharge ₹363 Mn; others ₹467 Mn.
+  - **Total ≈ ₹3,485 Mn (₹349 Cr)**. Capital commitments ₹825 Mn.
+- **Related parties (Note 43):**
+  - **No royalty or brand fee.** Payments to promoter-linked firms are small: Protector Facilities Management (manpower) ₹106.4 Mn; Arunachala Logistics (rent, vehicles, appliances) ~₹52.8 Mn; Rain Entertainments ₹1.5 Mn.
+  - Family remuneration: N. Sujith Kumar Reddy ₹22.4 Mn; sons ₹8.5 Mn / ₹9.8 Mn.
+  - Dividends paid to promoter holding companies (Sujala ₹37.9 Mn, Rain Enterprises ₹25.3 Mn, etc.).
+- **Funding structure (Ind-Ra):**
+  - RIL standalone is 0.47% of consolidated revenue and relies on dividends and cash flow from **Rain Commodities (USA)** and **Rain Cements**.
+  - Rain CII Carbon (Vizag) (IND A+/Stable) guarantees some RIL debt. A ₹1,700 Mn RIL term loan is secured by a pledge of 1,000,000 shares of Rain CII Carbon (Vizag) (CARO annex).
+- **Large NCI:** non-controlling interests took ₹934 Mn of CY25 PAT (69% of the pre-NCI total) and ₹448 Mn in Q2 CY26 (13%). Some cash-generating subsidiaries are not wholly owned. *Screener's "net profit" overstates what accrues to RIL shareholders.* The writer should use EPS-based or company "attributable" PAT for P/E.
+- **Plants:** 16 sites (S4). India's Vizag-area calciners: DTA unit plus SEZ unit (Ind-Ra, S31).
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**4.3.1 India carbon black trade, HS 28030010 (TradeStat/DGCI&S) [V]**
+
+| Fiscal | Exports (kt) | Exports (US$ m) | Export unit value ($/t) [V-calc] | Imports (kt) | Imports (US$ m) | Import unit value ($/t) | Net exports (kt) | Exports to EU-27 (kt) |
+|---|---|---|---|---|---|---|---|---|
+| FY21 | 133.1 | 111.8 | 840 | 175.6 | 161.5 | 920 | **−42.5** | 4.4 |
+| FY22 | 200.0 | 290.1 | 1,451 | 140.8 | 194.1 | 1,379 | **+59.2** | 5.3 |
+| FY23 | 218.8 | 334.7 | 1,530 | 113.8 | 190.4 | 1,673 | **+105.0** | 43.0 |
+| FY24 | 310.8 | 405.1 | 1,303 | 144.3 | 195.7 | 1,356 | **+166.5** | 48.4 |
+| FY25 | 395.7 | 498.2 | 1,259 | 145.9 | 196.8 | 1,349 | **+249.8** | 99.7 |
+| FY26 | 443.9 | 496.1 (₹4,376 Cr) | 1,118 | 130.2 | 164.9 | 1,266 | **+313.7** | 130.3 |
+
+Scope: 28030010 "carbon black" only (acetylene black 28030020 and other carbon 28030090 excluded). Quantities summed from country rows (kg).
+- **Reads:**
+  - (1) India became a net exporter in FY22 (confirms ICRA/CARE).
+  - (2) Export tonnage more than tripled FY21→FY26, but the **export unit value fell 27% from FY23 to FY26 ($1,530 → $1,118/t)**: the spread squeeze is visible in customs data.
+  - (3) In FY26 export value was flat (−0.4%) on +12% tonnes.
+  - (4) EU-27 share of exports rose from 2% (FY22) to 29% (FY26): the Russia-ban arbitrage, quantified.
+
+**4.3.2 Import origins (kt) [V TradeStat]**
+
+| Origin | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|
+| China | 26.9 | 22.4 | 10.6 | 31.9 | 32.9 | 39.8 |
+| Russia | 31.4 | 28.2 | 13.2 | 7.8 | 14.7 | 11.0 |
+| Korea RP | 58.5 | 24.9 | 16.5 | 26.2 | 19.3 | 15.6 |
+| Turkey | — | — | 24.9 | 23.4 | 23.8 | 19.6 |
+| UAE | 24.5 | 20.8 | 19.1 | 21.4 | 29.8 | 13.5 |
+| Saudi Arabia | — | — | 10.9 | 8.7 | 2.5 | 8.7 |
+| USA | 5.4 | 5.2 | 5.0 | 4.2 | 3.2 | 1.3 |
+| **Total** | **175.6** | **140.8** | **113.8** | **144.3** | **145.9** | **130.2** |
+
+"—" = not in the top rows extracted. Import share of apparent consumption ≈ 8–10% [E]. The DGTR series for FY17–FY20 (rubber grades, all origins) was 98 / 157 / 235 / 168 kt.
+
+**4.3.3 FY26 export destinations (kt; US$ m) [V TradeStat]:** USA 46.7 ($58.3 m) · Thailand 39.1 · Sri Lanka 35.9 · Vietnam 33.6 · UAE 25.8 · Poland 25.2 · Indonesia 20.9 · Germany 20.6 · Italy 18.1 · Netherlands 13.4 · Belgium 12.9 · Japan 12.8. USA volume −5.9% in FY26 (the tariff year); Poland +53%, Belgium +130%, Japan +73%.
+
+**4.3.4 Indian demand and production, rubber-grade CB (DGTR 2020 findings; FY17–FY20) [V]**
+
+| | FY17 | FY18 | FY19 | FY20 (POI) |
+|---|---|---|---|---|
+| Domestic-industry production (PCBL, Himadri, Continental) (kt) | 517.3 | 517.9 | 531.9 | 507.4 |
+| Domestic-industry domestic sales (kt) | 427.1 | 429.2 | 422.1 | 393.3 |
+| Imports, subject countries (China + Russia) (kt) | 65.1 | 79.8 | 134.3 | 74.1 |
+| Imports, other countries (kt) | 33.0 | 77.0 | 100.9 | 94.1 |
+| **Total Indian demand (kt)** | **806.1** | **864.7** | **949.4** | **823.9** |
+| Subject imports as % of consumption | 8.1% | 9.2% | 14.2% | 9.0% |
+
+This is the **only regulator-published Indian CB demand series** found. It covers rubber grades only and excludes specialty. **Extrapolation [E]:**
+- FY19 ~950 kt rubber-grade demand growing ~6%/yr gives FY26 ~1.3–1.45 mt.
+- Cross-check: domestic sales of PCBL (~62% × 619 ≈ 384 kt) + Birla (~85% of ~370 kt ≈ 315 kt) + BKT (~250 kt, largely captive) + Himadri (~180 kt) + others (~150 kt) + imports 130 kt ≈ **1.3–1.4 mt [E]**.
+- Keep Part 1's "1.3–1.5 mt" but label it extrapolated from DGTR's FY19 base.
+
+**4.3.5 Indian capacity map, revised (ktpa, Oct-2026)**
+
+| Producer | Capacity | Status / source |
+|---|---|---|
+| PCBL | 900 (768 rubber + 132 specialty) | [V deck/CARE]. +150 Phase I Naidupeta (AP) planned, ~₹1,100 Cr |
+| Birla Carbon India | ~386 → ~506 | 386 from Aug-2020 [V DGTR]; 382 [V CRISIL 2025]; +120 Naidupeta start-up "before end-2026" [V-snip] |
+| **BKT Carbon (Balkrishna Industries)** | **360** (35 specialty) | after +92 by Apr-2026; further ~300 planned [V-snip ERJ] |
+| Himadri | ~250 (130 "specialty") | [V call]; 6 kt being converted to SSCB |
+| Continental Carbon India | n.d. | DGTR 2020 co-applicant; capacity not disclosed [V DGTR] |
+| Epsilon Carbon; Cabot India; others | n.d. | [K] |
+| **Total** | **~2.2–2.4 mtpa [E]** (CRISIL ~2.0 mtpa at Feb-2024 [V]) | |
+
+**4.3.6 Global (Notch via company ARs) [V company docs]:**
+- Demand 13,601 kt (2019) → 14,301 kt (2024E) → 17,050 kt (2030F; ~3.0% CAGR).
+- Rated capacity 16,735 → 19,621 → 22,606 kt.
+- Specialty ~1.06 mt (2025), ~4% CAGR.
+- Peers: Cabot Reinforcement Materials EBIT US$97 m in Apr–Jun 2026 (−24%; lower 2026 contract prices; volume +5%) [V-snip SEC]. Orion 2026 adj. EBITDA guide $170–210 m; Q2 rubber adj. EBITDA $19.2 m vs $48.9 m [V-snip]. **Western majors cut 2026 tyre-contract prices, the same compression Indian exporters saw in unit values (4.3.1).**
+
+**4.3.7 Brent (EIA, US$/bbl, monthly average) [V]**
+
+| 2025 Q4 | Jan-26 | Feb-26 | Mar-26 | Apr-26 | May-26 | Jun-26 | Jul-26 | Aug-26 | Sep-26 | Oct-26 (weeks to 16-Oct) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 64.54 / 63.80 / 62.54 | 66.60 | 70.89 | 103.13 | 117.29 | 107.14 | 85.40 | 83.76 | 91.08 | 114.16 | 120.03 / 127.43 / 125.59 |
+
+Calendar-quarter averages [V-calc]: Q4-25 63.6 · Q1-26 80.2 · **Q2-26 103.3** · **Q3-26 96.3** · Q4-26 to date ~124. Rain's deck shows benzene at a 12-quarter high of $1,376/t (Jun-26) [V].
+
+**4.3.8 Tyres [V]:**
+- Exports HS 4011 FY26 **₹27,311.77 Cr (+9.0%)**: USA ₹4,081.57 Cr (−5.9%), Germany ₹1,954.81 Cr (+37.4%), Italy ₹1,306.86 Cr (+39.7%), Brazil ₹1,276.38 Cr, France ₹993.03 Cr, UAE ₹979.27 Cr, Philippines ₹959.58 Cr, UK ₹876.46 Cr (+19.7%), Netherlands ₹797.79 Cr [TradeStat]. In US$: $462.2 m to the USA (−9.7%).
+- ATMA: 28 tyre companies, 62 plants; turnover ₹1 lakh Cr (FY25 est.) [V ATMA]. **ATMA publishes no current production tonnage or OEM/replacement split on its public site** (its trend charts are 2018–20 images).
+
+**4.3.9 Trade-remedy and sanctions timeline (dated, primary) [V]:**
+- 26-Dec-2008: DGTR ADD initiation (6 countries).
+- 24-Dec-2009: final findings.
+- 28-Feb-2013: MTR findings.
+- 1-Oct-2015: SSR findings (China, Russia, Thailand).
+- 9-Feb-2015 → 20-Nov-2015: Korea case, initiated and terminated.
+- 20-May-2020: 2nd SSR initiated.
+- 22-Dec-2020: findings recommend US$494/t (China) and US$36.17/t (Russia).
+- 5-Jan-2021: **MoF declines**.
+- 25-Feb-2023: EU Impl. Reg. 2023/427 sets a 752,475 t quota on Russian CN 2803.
+- 30-Jun-2024: quota ends; ban from 1-Jul-2024.
+- 2021–Oct-2026: no Indian case.
+
+## 4.4 Gap log (every Part 1 §H item and the brief's gap list)
+
+| # | Gap (Part 1 §H / brief) | Status | Detail / what was tried |
+|---|---|---|---|
+| 1 | Anti-dumping status 2025–26 | **Filled** | DGTR site search returns only the 2008–2020 China/Russia (+4) case and the 2015 Korea case; MoF OM 5-Jan-2021 declined the 2nd-SSR duty. No 2021–26 case (S8, S9). CBIC notification search not done (JS site), but none is possible without a DGTR recommendation. |
+| 2 | HS 2803 trade data; import run-rate; export tonnage | **Filled** | TradeStat 28030010 FY21–FY26, tonnes and US$, by country (§4.3.1–4.3.3). CARE gives the same FY26 totals. |
+| 3 | India capacity conflict (2,000 vs 2,250); Continental, Epsilon, Cabot India | **Partly filled** | CRISIL's 2,000 ktpa dated to Feb-2024. BKT 360 ktpa added. Birla 386 → ~506. Continental Carbon India confirmed as a domestic producer (DGTR) but no capacity; Epsilon and Cabot India **still unsourced** (no free primary document found; not searched further for budget). |
+| 4 | India consumption; global market; China share | **Partly filled** | Global demand/capacity from Notch via the PCBL AR; specialty from the Himadri AR. India rubber-grade demand FY17–20 from DGTR; FY26 consumption still [E] (1.3–1.4 mt). **China's capacity share and global US$ value still unsourced.** |
+| 5 | CBFS price series | **Still open** | No free CBFS/US Gulf Coast decant-oil series found. Proxies: EIA Brent (monthly/weekly, [V]); Rain deck series for fuel oil 1%, benzene and naphtha (bar labels only); PCBL CBO–CBFS gap ~US$150/t [V]. Writer: use Brent plus the PCBL remark. |
+| 6 | ATMA production tonnage; OEM vs replacement | **Partly filled** | ATMA's site gives only industry counts and FY25 turnover/exports (est.); its production charts are 2018–20. Replacement share from CARE (~55%) vs CRISIL (60–70%). No tonnage series. |
+| 7 | Brent conflict | **Filled** | EIA (S6). |
+| 8 | US tyre tariff conflict (18%) | **Filled (snippet grade)** | Interim framework rate, never in force (S7). |
+| 9 | PCBL global rank 6th vs 7th | **Still open** | No primary ranking found. PCBL documents say "among world's leading carbon black producers". Keep "sixth or seventh". |
+| 10 | Nanovace partner Kindia vs Kinaltek; 51:49 | **Filled** | Kindia Pty Ltd (Australia), Sep-2024, PCBL 51% (CARE). |
+| 11 | Rain CY25 PAT four values | **Filled** | S1. |
+| 12 | Rain capacities and plant list | **Filled** | S3, S4. |
+| 13 | Arihant ₹37,700 vs ₹40,211 Mn | **Filled** | S2. |
+| 14 | Himadri product split | **Still open** | Not disclosed in the AR or decks; one segment = 93.7% of revenue. CB share stays [E]. |
+| 15 | Promoter pledge (all three) | **Still open** | Screener's pages carry no pledge field. The BSE shareholding API returned HTTP 403 and NSE was not tried. The ARs read do not state promoter encumbrance. Found instead: Himadri **company** deposits ₹511 Cr pledged to banks; Rain pledged 1 m shares of Rain CII Carbon (Vizag) for a ₹1,700 Mn loan; PCBL's FY25 AR notes Aquapharm-acquisition debt secured by a pledge of subsidiary shares (₹645 Cr at Mar-25). **Promoter-level pledges unverified.** |
+| 16 | Birla Carbon "7.02 lakh tonne" | **Partly filled** | DGTR 2020 confirms 314 → 386 ktpa. The 7.02 figure is unexplained; probably not India. |
+| 17 | Global peer multiples (Cabot, Orion EV/EBITDA) | **Still open** | Only operating data (snippets) found; no market-cap/EV data fetched. Keep "~6–7× [K]" flagged, or drop. |
+| 18 | GST 2.0 tyre rate cut | **Filled (snippet grade)** | 28% → 18%, 22-Sep-2025 (Apollo Tyres release, cleartax); gazette text not opened. |
+| 19 | PCBL ₹555 Cr impairment | **Filled** | S17. |
+| 20 | PCBL EBITDA/t series FY22–Q1 FY27; FY27 guide | **Partly filled** | FY26 ₹14,864 [V-calc]; Q1 FY27 ₹22,900 [V]; guide [V]; Q1 FY26 ~₹17,800 [E]. FY22–FY25 annual EBITDA/t not in the fetched documents (Aquapharm EBITDA for FY24/FY25 not found). CRISIL's H1 FY25 ₹19,350 / H1 FY26 ₹15,500 (Part 1) remain the only mid-points. |
+| 21 | Q1 FY27 ~₹70 Cr inventory gain | **Filled** | [V transcript]. |
+| 22 | Himadri H1 CFO −₹154 Cr; net debt ~₹520 Cr | **Filled** | [V deck]; plus the pledged-deposit caveat. |
+| 23 | Rain net debt US$892 m, 2.77×, maturities | **Filled** | [V deck]: EUR TLB Oct-2028, USD notes Sep-2029. |
+| 24 | ~65% into tyres; 60–70% replacement | **Filled (range)** | S23. |
+| 25 | Tyre exports ₹27,312 Cr FY26 | **Filled** | TradeStat [V]. |
+| 26 | EU ~500 kt gap; India ~100 kt to EU | **Filled** | S14, S15. |
+| 27 | PCBL 900 ktpa | **Filled** | [V] ×3. |
+| 28 | Birla 382 ktpa; ₹13,273/t FY25 | **Partly** | Capacity cross-checked (DGTR). ₹13,273/t rests on CRISIL (Part 1, [V]); not re-fetched. |
+| 29 | PCBL ₹4,000 Cr 2030 EBITDA target | **Not re-verified** | Not repeated in the Q1 FY27 deck or call (the deck shows only the "Mid-Term Outlook" bullets). Part 1's source was the Q4 call (30-Apr). Writer: attribute it to "April 2026". |
+| 30 | Rain Carbon ₹13,653/t vs ₹7,756 | **Filled** | [V-calc deck]. |
+| 31 | Himadri Q2 FY27 call (22-Oct) transcript | **Still open** | Not yet filed at the time of this pass. Re-check BSE/himadri.com ~27-Oct. |
+| 32 | PCBL Q2 FY27 board date | **Still open** | Not intimated as of 22-Oct (screener feed to 13-Oct). |
+| 33 | PCBL FY26 annual report (MD&A, RPT, contingents) | **Still open** | pcblltd.com unreachable through this session's proxy (TLS); FY25 report used instead. |
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### 4.5.1 Insights an expert would add
+1. **Crude re-spiked in Sep–Oct 2026; the "post-ceasefire normalisation" story is wrong.**
+   - EIA Brent: Sep-26 average $114, weeks to 16-Oct $120–127, above April's peak (S6).
+   - PCBL's FY27 ₹16,500–17,000/t guidance and its "Q2 inventory reversal" were framed in late July, when Brent was ~$84–96. A second spike in Q2–Q3 FY27 means:
+     - (a) another spot-price and inventory windfall in Sep-Oct, i.e. H2 FY27 risk is to the upside on ₹/t;
+     - (b) a second working-capital drain (Himadri's H1 CFO is already −₹154 Cr; CARE flags PCBL's rising WC-limit use);
+     - (c) Rain's "cautious Q3" may prove conservative on Carbon spreads but tighter on working capital.
+   - The writer's "what to watch" should put **Q2 FY27 PCBL (date TBA) and Rain Q3 (6-Nov)** in this light.
+2. **Customs data show the 2024–26 squeeze came through prices, not volumes.**
+   - Russian carbon black into India was only 8–15 kt a year in FY24–FY26, versus 28–31 kt in FY21–22.
+   - China (40 kt) and Turkey/Korea/UAE matter more.
+   - What fell was price: export unit values went from $1,530/t (FY23) to $1,118/t (FY26), and FY26 export value was flat on +12% tonnes.
+   - "Russian dumping into India" (ICRA/CRISIL) is better described as **Russian and Chinese material undercutting Indian producers in their export markets (SE Asia) and setting the marginal price**. CARE says as much: "cheaper exports from Russia to South-East Asian countries poses a pressure on realisations".
+3. **India's net exports tripled in three years (105 kt → 314 kt), and the EU became the second engine.**
+   - EU-27 now takes 29% of Indian CB exports (130 kt), up from 2% in FY22. Poland, Germany, Italy, the Netherlands and Belgium are the beachheads.
+   - The US (47 kt) fell 6% in the tariff year.
+   - This is the empirical core of the "Russia's lost market" theme (B2).
+4. **Tyre makers are integrating backward into carbon black, which shrinks the merchant market.**
+   - **BKT Carbon (Balkrishna Industries) is now ~360 ktpa, India's #3 producer**, with ~300 ktpa more planned and tyre-major approvals sought for 2027.
+   - Himadri is going the other way, into tyres (Birla Tyres).
+   - With Birla's +120 ktpa (end-2026) and PCBL's planned +150 ktpa (Naidupeta), India's capacity pipeline is ~0.5 mtpa over ~3 years against ~1.4 mt of domestic demand. **Export dependence must keep rising.**
+5. **PCBL's credit is now on Negative at two agencies, and its true leverage is above its own "4.2×".**
+   - CARE (Jul-2026): TD/PBILDT **5.02×** in FY26 vs a 4× trigger; debt-funded AP Phase I (~₹1,100 Cr) ahead.
+   - Related-party flows matter for the "quality of earnings" argument. Group licence fees are ₹46.5 Cr a year (+64% in FY25). Power sales to group companies are ₹124 Cr.
+6. **Himadri's balance-sheet "cash" is partly financed and pledged.**
+   - ₹511 Cr of deposits are pledged against bank lines. The CMD described borrowing from banks/CP and parking in FDs.
+   - Other income reached 23% of PBT in Q4 FY26. Finance cost tripled in six quarters.
+   - The "self-funded ₹2,000 Cr capex, no incremental debt" promise meets a negative H1 CFO.
+   - Separately, its carbon-materials segment revenue *fell* 4.8% in FY26. All FY26 growth was margin (15.2% → 19.0%), and Q2 FY27 gross profit was flat QoQ on +18% revenue. The engine is mix and spread, not volume.
+7. **Rain's equity is thinner than its headline profits.**
+   - Non-controlling interests took 69% of CY25 PAT (₹93 Cr of ₹136 Cr). The listed parent is a holding company (0.47% of revenue) dependent on US and cement-subsidiary dividends.
+   - The distillation goodwill (₹3,379 Cr) has only ₹482 Cr of headroom; a 0.9 pp rise in discount rate would trigger impairment.
+   - CY25's earnings recovery was CPC-led (+41%). CTP was +3%.
+   - Rain still owns a **Russian** tar distiller (Cherepovets), a sanctions-adjacent exposure that is rarely mentioned.
+8. **Policy history correction with analytical bite.** India protected rubber-grade CB for ~11 years (2009–2020), not five. The 2020 sunset review was filed by PCBL, Himadri and Continental; opponents pointed to Birla's 20.8% margin. The government declined anyway. A new case would have to overcome India's own net-export status, which TradeStat now documents.
+
+### 4.5.2 New primer issues (add to primer-issues.md)
+
+**primers/pcbl-chemical.html**
+- Capacity split: write **768 ktpa rubber + 132 ktpa specialty = 900 ktpa** (Q1 FY27 deck; CARE). This replaces "678 + 112".
+- Plant count: nine manufacturing facilities: 7 India (incl. Aquapharm Mahad, Pirangut), Texas, Jeddah. Andhra Pradesh greenfield at **Naidupeta, 300 ktpa planned, Phase I 150 kt ≈ ₹1,100 Cr**.
+- Credit: add **CARE AA/Negative (7-Jul-2026)** alongside CRISIL. TD/PBILDT 5.02× FY26.
+- Nanovace partner: **Kindia Pty Ltd (Australia), JV Sep-2024, PCBL 51%**.
+- FY25 accounts: ₹554.72 Cr goodwill impairment offset by ₹554.20 Cr DTL reversal (net nil). Aquapharm goodwill ₹1,161 Cr before impairment.
+- Related parties: licence fee to group ₹46.5 Cr (FY25); power sold to group cos ₹124.5 Cr.
+- Power: 122 MW → **134 MW** (12 MW TN, FY27).
+- Export share: 38% of volume in FY26 (CARE), not "~40% of revenue".
+- Q1 FY27 guidance nuance: Q2 volumes soft; GP/kg target ₹36–38; Aquapharm ₹75 Cr/qtr exit **not reaffirmed** by the new CEO; coal-tar distillation decision pending (promised by Sep-2026; not announced); yellow-phosphorus backward integration in the mid-term outlook.
+- Industry box: India exports 444 kt / imports 130 kt (FY26); net exporter since FY22; ADD 2009–2020 (declined 5-Jan-2021); BKT Carbon 360 ktpa as #3.
+
+**primers/himadri-speciality-chemical.html**
+- Guidance: CMD reiterated **₹1,100 Cr PAT target for FY28**. Capex ~₹2,000 Cr over FY27–28 "self-funded".
+- Segment: carbon materials & chemicals FY26 revenue −4.8% (₹4,367 Cr) but margin 19.0% (15.2%). Exports 29.1% of revenue. No >10% customer in FY26 (two in FY25).
+- Balance sheet: Sep-26 net debt **₹520 Cr [V-calc]**. ₹511 Cr of deposits pledged to banks. Other income partly from borrowing-to-deposit arbitrage (CMD).
+- AQ/carbazole phasing: 2,600 MTPA Q2 FY27 + 2,700 MTPA Q2 FY28 (call), vs "Q4 FY27" elsewhere.
+- Birla Tyres: WOS since 7-Apr-2025 (plus 49%-owned manufacturer consolidated). ~₹127 Cr quarterly sales. **₹3,000 Cr revenue target in 4–5 years**; FY27 EBITDA breakeven; ~₹500 Cr FY27 capex. Verify or drop the primer's "₹187 Cr in first half-year".
+- Q1 FY27 company EBITDA ₹313 Cr (21.9%); Q2 FY27 ₹303 Cr (17.9%). Gross profit flat QoQ on +18% revenue.
+- Capacity ranking: Himadri is India's **#4** CB producer (after PCBL, Birla, BKT), not #3.
+- Q2 FY27 call (22-Oct) not yet transcribed; refresh after filing.
+
+**primers/rain-industries.html**
+- CY25 PAT: state the three bases: **attributable ₹42.5 Cr; adjusted ₹117.8 Cr; before NCI ₹135.9 Cr**. The primer's ₹118 Cr is the *adjusted* figure.
+- Capacities: **calcination 2.4 mtpa, distillation 1.3 mtpa, AM 0.5 mtpa, cement 4.0 mtpa, 187 MW**. CY25 Carbon volume 2,593 kt. CY25 Carbon EBITDA/t **₹7,702** (not ~₹8,300).
+- Plants: 16 sites incl. **Cherepovets, Russia** (OOO RÜTGERS Severtar) still owned.
+- Debt: EUR TLB €310.6 m due Oct-2028 **and USD senior secured notes US$445 m due Sep-2029**. Ind-Ra net adjusted leverage 3.97× (2025).
+- Goodwill ₹6,963 Cr. Distillation CGU headroom only ₹482 Cr: impairment sensitivity.
+- One customer >10% of CY25 revenue (₹1,752 Cr); India only 20.8% of revenue.
+- Indian calciners: utilisation ~50% (to 2024) → ~90% (2025); DTA GPC allocation 598,589 t FY26; SEZ unit uncapped for exports.
+- NCI took 69% of CY25 PAT. Use attributable EPS for P/E.
+
+**General (all three)**
+- Replace any "Brent eased to ~$95 after the April ceasefire" with the EIA path (Sep–Oct 2026 above $110–125).
+- Replace "ADD lapsed 31-Dec-2020 after five years" with "ADD in force ~2010–2020; Government declined renewal on 5-Jan-2021".
+
+## 4.6 Part 4 source URLs (all fetched this session unless marked)
+- **PCBL:**
+  - Q1 FY27 investor update https://www.bseindia.com/xml-data/corpfiling/AttachHis/1f816845-a1cc-44f5-bd39-e3281e7d9ca9.pdf
+  - Q1 FY27 transcript https://www.bseindia.com/xml-data/corpfiling/AttachHis/90972919-f51c-4d38-840c-14d4e5e7d11e.pdf
+  - FY25 Integrated Report https://www.bseindia.com/xml-data/corpfiling/AttachHis/7b2fa8c4-c0b6-422b-aff4-f3a729fa6904.pdf
+  - FY26 AGM cover letter (no report attached) https://www.bseindia.com/xml-data/corpfiling/AttachHis/25f49702-345d-42d1-ab95-46910b6f8016.pdf
+  - CARE 7-Jul-2026 https://www.careratings.com/upload/CompanyFiles/PR/202607150740_PCBL_Chemical_Limited.pdf
+- **Himadri:**
+  - Q1 FY27 transcript https://www.bseindia.com/xml-data/corpfiling/AttachHis/aba2c1e9-bf26-4569-afee-2e8b196215cb.pdf
+  - Q1 FY27 deck https://www.bseindia.com/xml-data/corpfiling/AttachHis/4e3e907e-5b52-459d-8ad8-156b1c852014.pdf
+  - Q2 FY27 deck https://www.bseindia.com/xml-data/corpfiling/AttachHis/93e33f8d-7638-4a7d-8d72-3a8bd896a115.pdf
+  - FY26 Integrated Annual Report https://www.bseindia.com/xml-data/corpfiling/AttachHis/8cbe5c4e-369b-466b-8197-fbebde03cb8c.pdf
+  - ICRA 10-Jul-2026 (not opened: guest form) https://www.icra.in/Rationale/ShowRationaleReport/?Id=144169
+- **Rain:**
+  - Q2 CY26 earnings presentation https://www.bseindia.com/xml-data/corpfiling/AttachHis/73ab28d4-fa34-458f-a9b9-b60f46559cf0.pdf
+  - Q2 CY26 Q&A https://www.bseindia.com/xml-data/corpfiling/AttachHis/25ba1e52-4420-4661-acc5-5eaa63f8563c.pdf
+  - CY25 51st Integrated AR https://www.bseindia.com/xml-data/corpfiling/AttachHis/ca39614f-d0d6-4de7-84ba-7945a28b24c8.pdf
+  - India Ratings report as filed https://www.bseindia.com/xml-data/corpfiling/AttachHis/a2d64af9-278b-48cc-a7fd-c45774c66907.pdf
+- **DGTR:**
+  - Case page https://www.dgtr.gov.in/en/anti-dumping-cases/carbon-black-used-rubber-applications-originating-or-exported-china-pr-russia
+  - Final findings 22-Dec-2020 https://dgtr.gov.in/sites/default/files/2024-08/NCV%20FF%20Carbon%20Black%20SSR%2022%20Dec%202020.pdf
+  - MoF OM https://dgtr.gov.in/sites/default/files/2024-08/OM_SSR-Carbon%20Black.pdf
+  - Korea case https://www.dgtr.gov.in/en/anti-dumping-cases/carbon-black-used-rubber-applications-originating-or-exported-republic-korea
+  - Site search https://www.dgtr.gov.in/en/search/node?keys=carbon+black
+- **Trade:** TradeStat EIDB commodity-wise all-countries export/import forms (POST; HS 28030010, 4011; years 2020-21 to 2025-26) https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_export · …_import
+- **EU sanctions:** French customs avis 2023-19 https://www.douane.gouv.fr/sites/default/files/2023-03/01/2023-19%20Avis%20aux%20importateurs%20de%20certains%20produits%20originaires%20de%20Russie.pdf
+- **Brent:** EIA https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=M (and &f=W)
+- **CRISIL:** sector press release 15-Feb-2024 https://www.crisilratings.com/en/home/newsroom/press-releases/2024/02/carbon-black-net-exports-to-surge-next-fiscal-on-global-supply-rejig.html
+- **ATMA:** https://www.atmaindia.org.in/an-overview/ · https://www.atmaindia.org.in/production-export-trend/
+- **Snippet-grade [V-snip]:**
+  - BKT Carbon (ERJ, 12-Mar-2026) https://www.european-rubber-journal.com/article/2098890/bkt-carbon-targets-global-tire-markets-with-major-expansion-plans
+  - Birla Naidupeta (ERJ, Sep-2026) https://www.european-rubber-journal.com/article/2099678/birla-set-to-start-up-greenfield-carbon-black-plants-in-asia
+  - Cabot Q3 FY26 (SEC 10-Q via search) https://www.sec.gov/Archives/edgar/data/0000016040/000119312526332489/cbt-20260630.htm
+  - Orion Q2 2026 https://www.businesswire.com/news/home/20260805581933/en/
+  - US tariff chronology https://www.thenewsminute.com/news/india-us-trade-deal-in-limbo-after-us-supreme-court-blocks-trump-tariffs · https://ianslive.in/india-tariffs-to-drop-to-10-temporarily-wh-says--20260221022704
+  - GST https://corporate.apollotyres.com/press-and-media/news/corporate/gst-benefit
+
+*End of Part 4.*
