@@ -29,3 +29,24 @@
 - **jana-small-finance-bank.html — PSL 75%:** now 60%.
 - **General (all four):** none mentions the **Oct-2026 repo hike to 5.50%** (from a 5.25% trough set 5-Dec-2025) and its lagged effect on SFB deposit costs; none cites the **MFIN Micrometer recovery** (GLP ₹3.29 lakh Cr, PAR 31–180 1.6% at Jun-26) or the **Bihar MFI Bill (26-Feb-2026)**. All market caps are 2–4 months stale (AU −11%, Ujjivan −13%, Equitas +17%, Jana −30%).
 
+
+## From Small Finance Banks deep-research pass (2026-10-22, small-finance-banks-industry.md Part 4 §4.5)
+
+- **au-small-finance-bank.html — Q2 FY27 provisional numbers:** deposits **₹1,70,460 Cr** (+28.6% YoY), CASA **29.5%**, GLP **₹1,53,770 Cr** (+25.1%) (AU letter 3-Oct-2026). Replace any "≈" estimate.
+- **au-small-finance-bank.html — FY26 ratios:** FY26 yield on advances **13.9%**, C/I **57.9%**, CoF 6.75%, NIM 5.65% (AU Q4 FY26 deck slide 20).
+- **au-small-finance-bank.html — universal bank still pending:** AU's 24-Sep-2026 investor deck still describes "in-principle" approval with the final-licence application pending. Do not say "licence granted". Add AU's own market-share figure (~0.7% of loans, ~0.6% of deposits).
+- **au-small-finance-bank.html — MFI policy:** management caps MFI at ~10% of the book (small/marginal-farmer PSL); MFI credit cost ~2.5% including the CGFMU fee; 96% CGFMU cover.
+- **ujjivan-small-finance-bank.html — leadership date:** the MD & CEO's early retirement was announced **1-Sep-2026** (special call), not with the Q2 results. **Carol Furtado is interim MD & CEO** (subject to RBI); permanent appointment is ~6+ months away.
+- **ujjivan-small-finance-bank.html — capital raise detail:** ₹409 Cr preferential at **₹64.73/share** to **IFC (to 4.99%), Bajaj Life, Aditya Birla Sun Life and HDFC Life**; EGM 13-Nov-2026; adds ~1.2 pp CRAR; sits under the ₹2,000 Cr enabling resolution.
+- **ujjivan-small-finance-bank.html — UB return now primary:** cite Ujjivan's own Q4 FY26 deck ("On April 13th received response from RBI… Re-application once Ujjivan SFB can demonstrate further progress"). Drop the "verify" flag.
+- **ujjivan-small-finance-bank.html — FY26 ratios:** NIM 8.1%, RoA 1.4%, RoE 10.9%, C/I 66%, credit cost ₹799 Cr. FY27 guidance raised to RoA 1.8–2.0%; credit cost 0.9–1.0% of ATA (basis changed from GLB).
+- **equitas-small-finance-bank.html — FY26 ratios and NIM history:** FY26 NIM 6.69% (old basis), CoF 7.22%, credit cost 2.78%, RoA 0.19%, RoE 1.73%, PCR 73%. NIM has fallen from 9.00% (FY23) as MFI shrank. Q1 FY26 C/I was **70.62%**; the **75.89%** often quoted was the Q2 FY26 peak.
+- **equitas-small-finance-bank.html — funding mix:** ~30% of term deposits now come from co-operative banks (~18%) and government/institutions (~12%). Borrowings rose to ₹5,773 Cr (from ₹2,137 Cr) in FY26. A ₹1,250 Cr Tier-1 enabling resolution; raise likely Q4 FY27/Q1 FY28.
+- **equitas-small-finance-bank.html — UB stance:** replace "paused" with management's July-2026 words: technically compliant, no timeline, "not in a hurry", in dialogue with RBI.
+- **jana-small-finance-bank.html — UB chronology:** the application was **returned in Q3 FY26** (Oct–Dec 2025; Jana's 6-Feb-2026 call). It was **not** returned again in April 2026. Jana plans to resubmit after the FY26 audit.
+- **jana-small-finance-bank.html — tax:** zero tax is carried-forward-loss set-off. The balance-sheet DTA is **₹185 Cr, unchanged in FY26**. Flag that tax normalisation (~25%) will eventually cut PAT growth.
+- **jana-small-finance-bank.html — promoter detail:** JHL's last **4.99% is committed to TVS Motors**. India Ratings downgraded JHL/JCL on 1-Jul-2026; CARE took no action on the bank. ~₹80 Cr of warrant money follows RBI approval of TVS; the rest of ₹728 Cr comes over 18 months.
+- **jana-small-finance-bank.html — guidance additions:** CoF 7.3–7.4% for FY27; C/I to 63–65%; CASA ratio ~20%; MFI growth capped at 10–12%; first CGFMU claim ₹65 Cr in Q3 FY27; guarantee commission ~₹80–100 Cr a year.
+- **All four primers — microfinance cycle numbers:** the MFI GLP peak is **₹4,33,697 Cr (Mar-24)**, not "₹4.4 lakh Cr". SFBs held **17.1%** of MFI GLP at the peak. MFIN Guardrails 2.0's indebtedness and 60-DPD rules started **1-Jan-2025**; the 3-lender cap started 1-Apr-2025.
+- **All four primers — Karnataka law:** if a primer implies the Karnataka micro-loan law applies to SFBs, correct it. **Act 15 of 2025 s.1(3) excludes SFBs**; the impact is behavioural/collection climate only.
+- **All four primers — repo hike wording:** the 7-Oct-2026 hike to 5.50% was **unanimous**; only the stance change ("calibrated tightening") was 4–2.
