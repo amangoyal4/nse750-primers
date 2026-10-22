@@ -68,7 +68,6 @@
 ## From Shipbuilding deep-research pass (2026-10-22, shipbuilding-industry.md §4.5)
 
 
-#### From Shipbuilding deep-research pass (2026-10-22, shipbuilding-industry.md Part 4)
 
 **mazagon-dock.html**
 - **LD reversals in both years.** FY25 ₹199 Cr and FY26 ₹262 Cr (P-17A ships 2–3; AR note 57). P-17A LD still held is ₹678 Cr, which gives upside if waived. Management also expects a ~₹100 Cr submarine LD waiver.
