@@ -1215,3 +1215,546 @@ Second, primary-source pass, compiled 22-Oct-2026 (≈17:58–18:40 UTC). It add
 - **Malaysia float tonnage:** DGTR's 361 kt (POI unknown) vs TradeStat's area data. Prefer TradeStat for FY-dated ₹/sq m series and DGTR for the share statement.
 - **Borosil Q4 FY26 tax credit:** management's ₹75 Cr write-back vs the dossier's ₹54.75 Cr "current tax". Prefer management's explanation and the net tax of −₹49 Cr from the P&L.
 
+## 4.2 Company deep-dives
+
+### 4.2.A Asahi India Glass (ASAHIINDIA · 515030)
+
+**Important: AIS does not hold earnings calls.**
+- Screener's concall list for AIS is empty, and no transcript, call intimation or investor presentation appears in the BSE filing feed for Q4 FY26 or Q1 FY27 [V].
+- So there is no "latest concall" to digest. The digest below substitutes the most recent forward-looking management statements:
+  - the **FY26 Integrated Annual Report** (chairman's letter and MD&A, published Aug-2026 for the 18-Sep-2026 AGM);
+  - the **management projections reflected in CARE's 9-Jul-2026 rationale**, which are drawn from management discussions — label them as CARE's;
+  - the **5-Aug-2026 results**.
+- Writer: say "AIS does not host analyst calls; guidance comes from its annual report and rating disclosures."
+
+**(a) Management-commentary digest (paraphrased)**
+1. **FY26 was a transition year, from building capacity to absorbing it** (chairman, AR FY26). The investment cycle included:
+   - the third float plant (**Soniyana F3**) and the **Roorkee float cold repair**;
+   - **Patan Phase 2** and the **Kharkhoda on-site assembly unit** for Maruti.
+   The stated priority now is "improving the returns generated" by these assets. FY26 capex was ₹666.26 Cr.
+2. **Soniyana feeds autos, not the open market.** It was "built specifically to supply the automotive segment" (AR). CARE adds that its **entire production is used as raw material at the Patan and Bawal auto plants**, which cut import dependence. Net FX exposure fell **₹629 Cr → ₹519 Cr** (Mar-25 → Mar-26).
+3. **Float pricing**
+   - AR: "Additional domestic capacity and aggressively priced, cheaper imports from Chinese transplants in south-east Asian countries continued to exert pressure."
+   - The chairman thanks the government for the **MIP** and calls it "temporary support". He also warns that the industry "cannot indefinitely withstand distorted competition divorced from economic costs", but says AIS's response "cannot depend solely on external remedies".
+   - CARE (Jul-26): float prices "have largely stabilised since FY26-end".
+4. **Growth guidance as reflected by CARE (Jul-26)**
+   - **Revenue growth of 8–10% a year for the next two years**, with **PBILDT margins averaging ~20%**.
+   - **GCA of ₹850–900 Cr in FY27** and **₹1,000–1,050 Cr in FY28** (FY26 ₹690 Cr), against repayments of ~₹374 Cr and ~₹450 Cr.
+   - Total debt/PBILDT to stay **<2.5×** through the capex.
+5. **Capex:** **>₹2,000 Cr over FY27–FY28** for a **new float plant (F4, ~2-year build)**, a **soft coater** (off-line low-E coating, i.e. value-added architectural), a **white-goods appliance glass plant** and **Patan Phase IV**. Funding is debt plus accruals.
+6. **Auto:** "growth is not limited to the number of vehicles". It also comes from larger glazed areas, panoramic roofs, laminated sidelites, acoustic, solar-control, HUD-compatible and ADAS-camera windshields (chairman). Auto SBU revenue was **₹3,369.31 Cr (+12.70%)**, with share "consolidated … to ~80%" and a "very healthy new business win ratio".
+7. **Consumer:** four downstream subsidiaries were merged into **AIS Consumer Glass Solutions** (effective 1-Jul-2025). The chairman: "We have remained small and slow in this business … I am extremely optimistic about exponential growth."
+8. **Energy:** CARE says AIS **passed elevated West-Asia fuel costs through to customers**, while "renewed escalation" remains a monitorable. Fuel cost pass-through in float is "market dependent".
+
+**(b) KPI table (latest disclosed)**
+
+| KPI | Value | Period | Source |
+|---|---|---|---|
+| Float capacity | 2,150 tpd (Roorkee, Taloja, Soniyana) | FY26 | AR [V] |
+| Laminated / tempered capacity | ~10 mn+ pieces / ~7.5 mn+ car sets | FY26 | AR [V] |
+| Plants | 15 manufacturing units + 11 sub-assembly units-cum-warehouses | FY26 | AR [V] |
+| PV glass share | ~79–80% | FY26 | AR / CARE [V] |
+| Architectural share | ~12% (AR) / ~13% (CARE) | FY26 | [V] |
+| Auto OEM share of revenue | ~65–70% | FY26 | CARE [V] |
+| Maruti share of auto-glass sales | ~32% (FY25 33%) | FY26 | CARE [V] |
+| Float segment EBIT margin | 21.5% (Q1 FY26 9.5%) | Q1 FY27 | results [V] |
+| Auto segment EBIT margin | 13.4% (Q1 FY26 10.6%) | Q1 FY27 | results [V] |
+| Segment capital employed | Auto ₹2,693.7 Cr; Float ₹3,358.5 Cr | Jun-26 | results [V] |
+| RM / revenue (SA) | 25.9% (Q1 FY26 38.1%) | Q1 FY27 | results [V] |
+| Power & fuel / revenue (SA) | 19.1% (Q1 FY26 16.9%) | Q1 FY27 | results [V] |
+| Total energy | 50.55 lakh GJ; 12.0% renewable | FY26 | BRSR [V] |
+| Electric boosting | 3.0 MW; +100 tpd pull | FY26 | AR [V] |
+| Debt / D/E / debt-EBITDA | ₹2,058.67 Cr / 0.52× / 2.15× | Mar-26 | AR [V] |
+| Ratings | CARE AA−/Stable, A1+ (9-Jul-26); CRISIL AA−/Stable, A1+ | 2026 | [V] |
+| Dividend | ₹2/share (14.78% payout) | FY26 | AR [V] |
+| Utilisation, ₹/t realisation, energy ₹/t | **not disclosed** | — | — |
+
+**(c) Five-year history (consolidated, screener, ₹ Cr) [V]**
+
+| FY | Revenue | Op. profit | OPM % | Other inc. | Interest | Depreciation | PBT | PAT | ROCE % | Borrowings (Mar) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| FY21 | 2,421 | 435 | 18 | 46 | 143 | 132 | 205 | 131 | 11 | 1,566 |
+| FY22 | 3,170 | 761 | 24 | 31 | 121 | 160 | 511 | 343 | 21 | 1,238 |
+| FY23 | 4,019 | 795 | 20 | 33 | 105 | 160 | 563 | 362 | 21 | 1,401 |
+| FY24 | 4,341 | 724 | 17 | 32 | 136 | 177 | 443 | 325 | 15 | 1,968 |
+| FY25 | 4,594 | 766 | 17 | 67 | 128 | 192 | 513 | 367 | 12 | 2,696 |
+| FY26 | 4,982 | 910 | 18 | 37 | 204 | 285 | 459 | 345 | 11 | 2,198 |
+| TTM Jun-26 | 5,175 | 1,050 | 20 | 25 | 191 | 298 | 586 | 439 | — | — |
+
+- **FY22→FY26 revenue CAGR 11.9%** and **PAT CAGR 0.1%** [E].
+- ROCE halved from 21% to 11% as gross block rose (fixed assets ₹2,323 Cr in FY22 → ₹4,534 Cr in FY26; CWIP peaked at ₹826 Cr in FY24).
+- **Standalone [V results]:**
+
+| FY | Revenue (₹ Cr) | PAT (₹ Cr) | Exceptional (₹ Cr) |
+|---|---|---|---|
+| FY25 | 4,311.61 | 389.10 | +56.29 |
+| FY26 | 4,676.24 | 329.94 | −6.54 |
+
+**(d) Eight-quarter trend (₹ Cr; screener) [V]**
+
+| Quarter | Consol. revenue | Consol. OP | OPM % | Consol. PAT | SA revenue | SA OP | SA OPM % | SA PAT |
+|---|---|---|---|---|---|---|---|---|
+| Sep-24 (Q2 FY25) | 1,158 | 213 | 18 | 95 | 1,089 | 204 | 19 | 93 |
+| Dec-24 (Q3 FY25) | 1,124 | 175 | 16 | 105 | 1,054 | 166 | 16 | 129 |
+| Mar-25 (Q4 FY25) | 1,180 | 197 | 17 | 92 | 1,106 | 189 | 17 | 91 |
+| Jun-25 (Q1 FY26) | 1,229 | 192 | 16 | 55 | 1,144 | 181 | 16 | 53 |
+| Sep-25 (Q2 FY26) | 1,151 | 188 | 16 | 58 | 1,082 | 177 | 16 | 47 |
+| Dec-25 (Q3 FY26) | 1,256 | 250 | 20 | 99 | 1,177 | 240 | 20 | 103 |
+| Mar-26 (Q4 FY26) | 1,354 | 287 | 21 | 133 | 1,273 | 275 | 22 | 126 |
+| **Jun-26 (Q1 FY27)** | **1,413** | **325** | **23** | **149** | **1,320** | **317** | **24** | **151** |
+
+- **Interest:** consolidated **₹59 Cr (Q1 FY26) → ₹47 Cr (Q1 FY27)** after the QIP.
+- **Depreciation:** ₹68 → ₹81 Cr.
+- **The Q2 FY27 comparison base is weak.** Sep-25 had OPM 16% and PAT ₹58 Cr, the trough of the Soniyana ramp and the pre-MIP float price. That flatters YoY even if Q2 is only flat QoQ [E].
+
+**(e) Annual-report findings (FY26 AR, read this session)**
+
+*Related parties (standalone, ₹ lakh, FY26 vs FY25)*
+- **"Others" = AGC Inc. and its group companies, plus Maruti Suzuki:**
+  - Purchases of RM and power & fuel 54,505 (68,039).
+  - Purchases of stock-in-trade 785 (1,287).
+  - Stores 3,099 (2,157).
+  - Capital goods purchased 4,162 (2,260).
+  - **Royalty/technical fee 836 (5,191).**
+  - Interest 112 (132).
+  - Rent 160 (nil).
+  - **Sales 1,09,222 (1,00,646).**
+- **Maruti alone:**
+  - Sales of goods & services **₹87,296.79 lakh**; Q1 FY27 ₹30,142.34 lakh.
+  - FY27 approval cap ₹1,500 Cr.
+  - MSIL's FY26 standalone turnover ₹1,83,266 Cr and PAT ₹14,445 Cr (disclosed in the notice).
+- **Subsidiaries:** sales to them 35,086 (32,390); loans and advances recoverable 11,382 (11,645).
+- **Read:**
+  - The royalty to AGC collapsed. Possibly a technology-agreement expiry or renegotiation; it is not explained in the notes. Ask, or flag "unexplained".
+  - The AGC group remains a material supplier: ~₹545 Cr including raw materials. AGC is AIS's technology partner (CTO-Auto Masao Fukami is the AGC nominee).
+
+*Capacity and production*
+- Float **2,150 TPD**, laminated ~10 mn+, tempered ~7.5 mn+ car sets.
+- **No tonnage or utilisation table.** BRSR states physical-output intensity is "NA" because of the product mix.
+- The air-emissions note says FY26 saw "higher furnace utilisation and production volumes" after the new capacity.
+
+*Contingent liabilities (standalone, ₹ lakh, Mar-26 vs Mar-25)*
+
+| Item | Mar-26 | Mar-25 | Note |
+|---|---|---|---|
+| Excise / customs / service tax | **36,228** | 31,992 | Mostly customs show-cause notices alleging **mis-classification of imported items**; AIS is contesting, citing past wins; overlapping demands of 15,377 excluded |
+| Sales tax | 3,159 | 3,187 | |
+| GST | 4,829 | 2,061 | |
+| Income tax | 2,038 | nil | |
+| Others | 1,378 | 27 | |
+| Bank guarantees / LCs | 15,157 | 17,507 | |
+| Corporate guarantees | 181 | 7,319 | |
+| MOOWR bonds | 19,394 | 17,123 | |
+| Channel financing | 10,410 | 8,825 | |
+| Bills discounted | 18,555 | 23,568 | |
+| Capital commitments | 10,038 | 16,022 | |
+
+- **Read:** ~**₹362 Cr of disputed customs/excise claims** is ~9% of net worth. Writer: one line in risks; it is not provided for.
+
+*Top risks (AR + CARE)*
+- SE-Asian "Chinese transplant" float imports.
+- MIP expiry (~Aug-2027).
+- Fuel price volatility (West Asia).
+- Auto-cycle exposure (65–70% OEM).
+- Execution of the >₹2,000 Cr F4/coater capex.
+- Customs classification disputes.
+
+*Other facts*
+- **Green H₂:** CARE notes a **20-year contract** for green hydrogen supply at Chittorgarh (Soniyana).
+- **Board:** ten directors (five independent) as of 31-Mar-26.
+
+### 4.2.B Borosil Renewables (BORORENEW · 502219)
+
+**(a) Guidance digest — Q1 FY27 earnings call (17-Jul-2026; transcript filed 22-Jul-2026) [V]**
+
+Speakers: Ashok Jain (Director; led the call), Melwyn Moses (CEO), Sunil Roongta (WTD & CFO), Dhaval Patel (IR). Moderator: Axis Capital.
+
+1. **Volume and plant**
+   - The plant ran at **full capacity (1,000 tpd)** despite West Asia fuel disruption.
+   - **Sales volume +8% YoY; net production 125 lakh sq m (+10%).**
+   - A 4-day tile-patching stoppage on SG-1 cost ~₹3 Cr of output.
+2. **Price**
+   - ₹160.3/mm includes the **full ₹9.50/mm fuel surcharge** (levied from 10-Mar-2026).
+   - The surcharge has already been "slightly curtailed". Management committed to pass on energy-cost declines, so it "will keep compressing" and "won't affect the profit" because costs fall too.
+   - The **reference price is import parity**. Management sees "no challenge on pricing" from new domestic capacity, because demand is ~4× domestic supply and much of the new capacity is captive.
+3. **No numeric guidance** ("not appropriate"). Management hopes to "continue in a similar way" if conditions hold. **FY27 should see "extra profitability" vs FY26** because FY26's first 3–4 months were not yet at full post-ADD prices.
+   - Gross margin ~78% (RM ~23–24% of sales), with no volatility expected.
+   - Tax rate **~25.2%** for the year.
+4. **SG-4/SG-5 (600 tpd, ₹950 Cr)**
+   - "Full swing"; construction complete by **Dec-2026**; commissioning **Jan–Mar 2027**, one furnace about a month after the other.
+   - The internal target is revenue from 1-Mar-27, but **model from 1-Apr-27**: 1–2 months of stabilisation.
+   - **"60% increase in sales and EBITDA"** at constant prices, i.e. **₹80–85 Cr of extra quarterly EBITDA** on the Q1 FY27 base.
+   - **Fully funded; no equity raise foreseen.** The next project (another furnace "600 or 1,200", or an adjacent glass product) will be decided in **~6 months**. The ambition is to take revenue from **~₹2,500 Cr post-Mar-27 to ≥₹4,000 Cr in 3–4 years**.
+5. **Cold repairs:** SG-1/SG-2 rebuilds are likely in **2027**, preferably after SG-4/5 are running ("Q1 of next year or so"), possibly Q4 FY27–Q2 FY28. Each takes **~75 days down + 15 days to restart**. **FY28 will not get the full 1,600 tpd.**
+6. **Customers**
+   - Top 10 = **65–68% of volume**.
+   - The new volume goes partly to existing customers and partly to customers it "could not service because of paucity".
+   - Module capacity is "far in excess of requirement". **Expect consolidation over 1–1.5 years**: Mono-PERC-based and cell-less module makers "may not be able to continue" under ALMM-II.
+7. **Power:** the 16.5 MW hybrid (COD Mar-26) saves **~₹18 Cr a year** (>₹6 Cr in Q1); renewables are **93%** of power.
+8. **New rooftop-solar business:** an FY27 internal target of **~₹36 Cr revenue** (Q1 ₹1.3 Cr); a trading model with **single-digit margins**; Gujarat, Rajasthan, UP.
+9. **US exports:** "very, very small". The domestic focus continues.
+10. **"Articles regarding the strategic investment":** **"I cannot offer any comment on this."** Unconfirmed press reports of a strategic stake sale or investment existed by mid-July. **Writer: mention only as "management declined to comment on press reports of a strategic investment"; it may be part of the post-results stock move.**
+11. **Working capital:** management says ~60 days (screener's 152 days is a definitional artefact).
+
+**Analyst Q&A points that matter**
+- **Domestic capacity tripling.** Management: domestic supply will still meet only ~70–75% of demand by Mar-27, and captive lines will not add much merchant supply. Contrast this with the **AR's own risk text**: "integrated players with captive capacities create the risk of sporadic supply of surplus production entering the open market, triggering price-based competition" [V AR].
+- **QoQ PAT halving.** This was the Q4 tax write-back (~₹75 Cr), not operations.
+- **Surcharge and realisation.** The ~₹9.5/mm will unwind; underlying ~₹150.8/mm is flat QoQ.
+- **Cold-repair timing and downtime** (above).
+- **SG-4/5 revenue timing** (from Apr-27).
+
+**(b) KPI table**
+
+| KPI | Value | Source |
+|---|---|---|
+| Capacity | 1,000 tpd (SG-1 210, SG-2 240, SG-3 550) ≈ 6.5 GW; → 1,600 tpd ≈ 10.5 GW by Mar-27 | PPT [V] |
+| Utilisation | Full (Q1 FY27) | call [V] |
+| Net production | 125 lakh sq m in Q1 FY27 (+10%); FY26 production +6% | call; AR [V] |
+| Realisation ₹/mm/sq m | 113.4 (FY25) → 146.7 (FY26) → 138.1 (Q1 FY26) → 150.2 (Q4 FY26) → 160.3 (Q1 FY27, incl. ~9.5 surcharge) | AR; PPT [V] |
+| SA EBITDA margin | 16% (FY25) → 32% (FY26) → 27.8% (Q1 FY26) → 33.0% (Q4 FY26) → **35.0% (Q1 FY27)**; ">33% for four quarters in a row" | PPT [V] |
+| Exports | ₹113.29 Cr (7.4%) FY26 vs ₹87.11 Cr (7.9%) FY25 | AR [V] |
+| Renewable power share | 93% (Q1 FY27) | PPT [V] |
+| Employees | 797 permanent (31-Mar-26) | AR [V] |
+| Interest cover (SA) | 28.56× (2.81×) | AR [V] |
+| Inventory turnover (SA) | 10.48× (6.95×) | AR [V] |
+| Unutilised issue proceeds | ₹285.97 Cr in MFs (Jun-26); warrant balance ₹278.77 Cr due by 13-Aug-26 | PPT [V] |
+| Rating | India Ratings IND A/Positive (outlook from Negative); rated facilities: term loan ₹487.14 Cr, cash credit ₹43 Cr, non-fund-based ₹45 Cr, fund/non-fund ₹152 Cr (AR states ₹ million) | AR [V] |
+| Capital commitments | ₹261.66 Cr (₹17.07 Cr) + EPCG export obligations ₹122.01 Cr | AR Note 38 [V] |
+
+**(c) Five-year history (₹ Cr; screener) [V]**
+
+*Standalone (India). Use this for the operating story.*
+
+| FY | Revenue | Op. profit | OPM % | Other inc. | Interest | Depreciation | PBT | PAT | ROCE % |
+|---|---|---|---|---|---|---|---|---|---|
+| FY21 | 502 | 197 | 39 | 5 | 8 | 42 | 153 | 90 | 29 |
+| FY22 | 641 | 245 | 38 | 20 | 3 | 42 | 220 | 166 | 27 |
+| FY23 | 685 | 158 | 23 | 19 | 7 | 50 | 119 | 89 | 11 |
+| FY24 | 988 | 102 | 10 | 17 | 26 | 114 | −21 | −17 | 0 |
+| FY25 | 1,107 | 165 | 15 | 16 | 26 | 108 | 47 | 33 | 6 |
+| FY26 | 1,530 | 470 | 31 | −338* | 14 | 87 | 31 | 21 | 27 |
+| TTM Jun-26 | 1,608 | 509 | 32 | −2 | 12 | 86 | 409 | 381 | — |
+
+\*Includes the −₹359.78 Cr exceptional. Company EBITDA (incl. other income): FY25 ₹180.51 Cr; FY26 ₹491.68 Cr.
+
+*Consolidated (consolidation began FY23 with the GMB acquisition; screener shows no consolidated FY20–FY22)*
+
+| FY | Revenue | OP | OPM % | Other inc. | PAT | ROCE % | Borrowings |
+|---|---|---|---|---|---|---|---|
+| FY23 | 891 | 143 | 16 | 19 | 71 | — | 421 |
+| FY24 | 1,371 | 58 | 4.2 | 50 | −50 | −4 | 576 |
+| FY25 | 1,476 | 58 | 3.9 | 34 | −87 | −4 | 252 |
+| FY26 | 1,556 | 440 | 28 | −188 | 127 | 25 | 162 |
+| TTM | 1,615 | 504 | 31 | 42 | 418 | — | — |
+
+**(d) Eight-quarter trend (₹ Cr; screener) [V]**
+
+| Quarter | Consol. revenue | Consol. OP | OPM % | Consol. PAT | SA revenue | SA OP | SA OPM % | SA PAT |
+|---|---|---|---|---|---|---|---|---|
+| Sep-24 | 373 | 29 | 8 | −13 | 266 | 48 | 18 | 13 |
+| Dec-24 | 361 | −10 | −2.8 | −30 | 275 | 19 | 7 | −9 |
+| Mar-25 | 374 | 15 | 4.1 | −30 | 327 | 70 | 21 | 33 |
+| Jun-25 | 347 | 63 | 18 | −203 | 332 | 87 | 26 | −272 |
+| Sep-25 | 379 | 118 | 31 | 62 | 378 | 124 | 33 | 46 |
+| Dec-25 | 390 | 123 | 31 | 100 | 386 | 122 | 32 | 78 |
+| Mar-26 | 440 | 136 | 31 | 169† | 438 | 136 | 31 | 169† |
+| **Jun-26** | **406** | **127** | **31** | **87** | **406** | **128** | **32** | **88** |
+
+- †Includes the ~₹75 Cr tax write-back and ₹32.07 Cr of carried-over dispatches.
+- Company-defined EBITDA (incl. OI), SA: Q1 FY26 ₹92.53 Cr; Q4 FY26 ₹144.61 Cr; Q1 FY27 ₹142.00 Cr.
+- **Underlying QoQ EBITDA, Q4 FY26 ex-carryover ₹134.8 Cr → Q1 FY27 ₹142.0 Cr = +5% [E].**
+
+**(e) Annual-report findings (FY26 AR) [V]**
+
+*Related parties (standalone, ₹ lakh, FY26 vs FY25)*
+- **Royalty paid to Borosil Ltd 1,197.50 (nil)**: a new brand royalty, ~0.8% of sales.
+- **Sale of goods to Icon Solar-EN Power Technologies 7,775.49 (nil).** The Directors' report discloses this as a related-party transaction because a relative of independent director Shailendra Shukla is a whole-time director there; it calls it arm's length and Audit Committee-approved.
+- Sale of goods to Interfloat 3,688.50; commission to Interfloat 91.59.
+- Purchase of electricity from associate ReNew Green (GJS Two) 1,471.48 (1,704.68).
+- Purchase of services from Borosil Ltd 840.52 (96.00).
+- Write-offs: Geosphere 13,003.09 and GMB 19,587.72. Provision on Laxman AG 3,387.04.
+- KMP remuneration: P.K. Kheruka 1,241.35 (850.07); CEO D. Melwyn Moses 225.19; total KMP compensation 1,955.60 (1,394.24).
+- **Read:** two governance items the primer does not carry.
+  - A new group **brand royalty** flows from the listed renewables company to Borosil Ltd.
+  - Sales to an **independent director's relative's company**.
+  Both are small but belong in a "governance notes" line.
+
+*Customer concentration*
+- **No single customer >10% of revenue in FY26** (FY25: one customer, ₹273.15 Cr ≈ 24.6% of SA revenue [E]).
+- Call: top 10 = 65–68% of volume.
+
+*Contingent liabilities (₹ lakh, Mar-26)*
+
+| Item | Mar-26 | Note |
+|---|---|---|
+| Income tax | 527.27 | |
+| Sales tax | 550.84 | |
+| GST | 136.43 | |
+| Entry / wealth / other | ~199 | |
+| Bank guarantees | 5,431.67 | |
+| LCs | 1,222.36 | |
+| AY 2016-17 IT demand | 1,952.56 | Quashed by the Bombay HC; dormant after the SC's Oct-2024 guidance |
+
+- **Read:** immaterial. The new 17-Oct-2026 customs fine/penalty (~₹0.6 Cr) adds little.
+
+*Capacity*
+- The AR repeats the CY18–CY26 furnace chart (180→210, 240, 550, GMB 300→350, −350 Jul-25, +600 Est CY26). The MD&A calls Borosil the **"world's largest non-Chinese owned solar glass manufacturer"** and puts **China's share of global solar-glass capacity at >96%**.
+
+*Risks named in the MD&A (new vs Part 2)*
+1. **Captive-capacity spill-over** into the merchant market.
+2. **Trans-shipment via SE-Asian hubs and inventory dumping.**
+3. **Production shift to Malaysia and Indonesia, "not currently subject to such duties".** Malaysia does carry a 9.71% CVD; Indonesia carries nothing.
+4. The possibility that Chinese makers **set up plants in other countries to access India**.
+5. **China's withdrawal of VAT export rebates from 1-Apr-2026** plus voluntary production cuts, which supported a global module-price recovery (a tailwind for import parity).
+6. The **India–EU FTA concluded 27-Jan-2026** (export optionality).
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. India imports of solar/tempered glass: HS 70071900 "other toughened (tempered) safety glass"**
+
+Source: Commerce Ministry TradeStat/EIDB, commodity-wise and commodity × country import queries, fetched 22-Oct-2026 [V]. FY = Apr–Mar. Quantity unit = sq m.
+
+| Origin | FY25 ₹ Cr | FY26 ₹ Cr | FY25 mn sq m | FY26 mn sq m | FY26 ₹/sq m [E] | Note |
+|---|---|---|---|---|---|---|
+| China | 4,630.97 | 8,734.35 | 300.0 | 398.8 | 219 (FY25 154) | Under ADD reference price from 4-Dec-24; US$ value $547.1m → $983.6m |
+| Malaysia | 569.61 | 2,950.44 | 27.6 | 135.5 | 218 | CVD 9.71% only; **+390% volume** |
+| Vietnam | 157.99 | 1,193.48 | 6.3 | 50.0 | 239 | Under ADD (Flat Vietnam $570 ref.) |
+| Thailand | 20.43 | 134.99 | 0.24 | 3.2 | 419 | No measure |
+| Hong Kong | 54.17 | 78.89 | 1.6 | 2.9 | 275 | |
+| Others | ~43 | ~57 | ~0.2 | ~0.3 | — | |
+| **Total** | **5,476.04** | **13,148.59** | **335.9** | **590.9** | **222.5 (FY25 163)** | Value +140%, volume +76% |
+
+Reading notes:
+- **Scope.** 70071900 also covers non-solar tempered glass (architectural, appliance), so not all of this is solar glass. The heading 7007 total is ₹13,360.62 Cr, and 70071100 (vehicle tempered) is only ₹60 Cr.
+- **Size relative to Borosil.**
+  - Borosil's FY26 output was ~47–48 mn sq m [E: 125 lakh sq m in Q1 FY27 at +10% YoY].
+  - FY26 imports in this code were therefore **~12× Borosil's output**.
+  - Imports were **~80% of FY26 supply by area**, against ~110–130 mn sq m of domestic output at 2,600 tpd [E]. This is consistent with management's "domestic supplies only ~25% of demand" [V call].
+- **The ADD shifted origin and raised China's CIF price, but did not cut volume.**
+  - China's unit value rose **42% (₹154 → ₹219/sq m)** while its volume still grew 33%.
+  - That fits exporters invoicing up toward the landed-value floor (the reference-price ADD; see D3).
+  - Malaysia (CVD only) and Vietnam took the marginal tonnes. **This is the circumvention pattern Borosil's AR warns about**, and Xinyi Solar's new Indonesia lines (2,400 tpd in 2026) point the same way [V].
+
+**D2. India imports of clear float glass — the MIP codes**
+
+Same source [V].
+
+| HS code | Description | FY25 ₹ Cr | FY26 ₹ Cr | FY25 mn sq m | FY26 mn sq m | Main origin, FY26 |
+|---|---|---|---|---|---|---|
+| 70051090 | Non-wired, with absorbent/reflecting layer | 808.40 | 832.64 | 17.57 | 18.92 | **Vietnam ₹729.3 Cr (16.2 mn sq m, 88%)**; China ₹27.4 Cr; Germany ₹25.0 Cr; Malaysia only ₹3.6 Cr (from ₹41.8 Cr) |
+| 70052990 | Other non-wired float/polished | 811.53 | 924.55 | 21.13 | 25.33 | **Malaysia ₹774.4 Cr (21.0 mn sq m, 84%)**; Indonesia ₹63.9 Cr (1.8 mn sq m, +124%); China ₹25.8 Cr; UAE ₹19.6 Cr |
+| **Both (MIP scope)** | | **1,619.9** | **1,757.2** | **38.70** | **44.25** | Malaysia ~21.1 + Vietnam ~16.3 mn sq m = ~85% |
+| 7005 heading total | | 2,551.59 | 2,641.44 | — | — | |
+
+- **Unit value:** ₹397/sq m. At 4–6 mm (10–15 kg/sq m) that is ₹26,500–40,000/t, consistent with the "~₹25,000/t" Chinese/SE-Asian quotes behind the ₹34,000/t MIP [E].
+- **Why the MIP, not an ADD.** Vietnam supplies ~37% of the MIP-scope float by area and was never under India's float ADD. Indonesia is rising. **An origin-neutral MIP was the only fast fix** once the Malaysia-only ADD lapsed (Feb-2026) [E; see S2].
+- **What the MIP does to AIS.** At ₹34,000/t CIF plus 10% BCD (Outlook Business [V]), landed is ≥ ₹37,400/t. That is a floor ~₹10,000/t above the reported ~₹25,000/t import quotes, a direct tailwind to AIS's float segment from Q2 FY27 [E].
+
+**D3. Solar-glass ADD reference prices (Notfn 11/2025-Customs (ADD), 8-May-2025) [V], with a ₹/mm conversion [E]**
+
+- **Formula.** Since 1 mm × 1 sq m × 2.5 t/m³ = 2.5 kg, **₹/mm per sq m = (US$/t × ₹/US$ ÷ 1,000) × 2.5**.
+- At **$664/t**:
+
+| FX (₹/US$) | Floor (₹/mm) | Borosil realisation in the period |
+|---|---|---|
+| ₹85.0 (Dec-24) | ₹141/mm | |
+| ₹88 (≈FY26 avg [K]) | ₹146/mm | FY26 ₹146.7 |
+| ₹92 (≈Q1 FY27 [K]) | ₹153/mm | ₹150.8 ex-surcharge |
+| **₹94.9 (19-Oct-26)** | **₹157.5/mm** | |
+
+- **Read: Borosil's ex-factory price has tracked the ADD landed-value floor converted at the prevailing rupee rate almost exactly** [E].
+- **Two implications:**
+  1. **Rupee weakness lifts the floor ~₹1.66/mm per ₹1/$** (~1.1% of price). The move from ~₹92 to ~₹95 offsets about a third of the ₹9.5 surcharge unwind [E].
+  2. **The floor is a maximum as well as a floor** in practice. Chinese glass at RMB 8–10/sq m (≈₹50–65/mm) is far below it, so Indian prices sit at the reference price and cannot rise above import-parity-plus-freight.
+- **Caveats.** The landed value includes basic customs duty, which this conversion ignores. Thickness mix (2.0/3.2 mm) does not matter on a per-mm basis.
+
+**D4. India float glass capacity by player (revised) [V where stated; E otherwise]**
+
+| Player | tpd | Basis |
+|---|---|---|
+| Saint-Gobain India | ~3,850 (older ICRA figure) to ~4,500 [E] | ICRA rationales (undated snippet); any FY24–25 additions not verified |
+| Gold Plus (GPGIL + GPFGPL) | **2,850 float + 300 solar** | ICRA 23-Dec-2025 [V] |
+| AIS | **2,150** | AR FY26 [V] |
+| Gujarat Guardian, HNG Float, others | ~4,000–5,000 (balance) [E] | Not verified |
+| **Industry** | **~13,500–14,500** | ICRA: +~3,200 tpd (~30%) in FY24–FY25 [V] |
+
+- Gold Plus + AIS + Saint-Gobain ≈ 8,850–9,500 tpd ≈ **~65% of capacity** [E].
+- **No new line is expected in the near term** (ICRA: 18–24-month build). The next known one is **AIS F4 (FY27–FY28 capex)** [V CARE].
+
+**D5. China price series: NBS "important means of production" circulation prices [V]**
+
+| Period | Float glass (RMB/t) | LNG (RMB/t) |
+|---|---|---|
+| 21–30 Sep-2025 | 1,254.6 (4.8/5 mm) | 3,840.6 |
+| 21–30 Jun-2026 | 1,113.5 (5/6 mm) | 6,091.3 |
+| 1–10 Jul-2026 | 1,108.2 | 5,692.9 |
+| **21–30 Sep-2026** | **1,100.4** | **6,185.9** |
+
+- Float is −12% YoY; LNG is +61% YoY.
+- **Read:** Chinese float fell even as Chinese LNG rose 61%. Chinese float margins are being crushed too, so the export push into SE Asia, and from there into India, persists [E].
+
+**D6. India PV volumes (SIAM) [V]**
+
+| Period | Domestic PV | Growth | Note |
+|---|---|---|---|
+| FY26 | 46,43,439 | +7.9% | H1 −1.4%; H2 +16.7%; exports 9.05 lakh, +17.5% |
+| Q4 FY26 | 13,16,282 | +13.2% | |
+| Q2 FY27 | 13,60,687 | +30.7% | UVs 68%; UVs +34.2%; cars +24.9%; exports 2.29 lakh, −5.2% |
+| H1 FY27 | 26,37,067 | ~+28% | |
+
+- SIAM's H2 FY27 outlook: "growth rates may moderate as the sector begins to grow against a higher base"; it is watching inflation and interest rates.
+
+**D7. Solar-glass makers in India (supply map; best available)**
+
+| Producer | tpd (status) | Tag |
+|---|---|---|
+| Borosil | 1,000 (+600 by Mar-27) | V |
+| Gold Plus | 300 (operating; ~₹40 Cr EBITDA in 8M FY26) | V ICRA |
+| Emerge Renewables | 300 (lit Jul-2026, Rajasthan; ~2.5 GW) | V-snip |
+| Vishakha, Triveni, Gobind Glass | operating since FY24, sizes unverified; plans Vishakha 1,100, Triveni 850 | V-sec |
+| Reliance (2,000), Indosolar (1,000), GREW (300), Saint-Gobain (450) | planned | V-sec |
+| **Industry** | **2,600 (Jul-26) → ~7,700 (Mar-27)** | V company estimate |
+
+- **Implied:** non-Borosil capacity is 1,600 tpd today and ~6,100 tpd by Mar-27 [E].
+
+**D8. Global peers (latest primary)**
+
+| Company | Period | Revenue | Profitability | Capacity / other | Tag |
+|---|---|---|---|---|---|
+| Fuyao Glass | 2025 | RMB 45.79 bn (+16.65%) | GM 36.76%; net margin 20.35%; attributable NP RMB 9.31 bn; ROE 24.8% | ~50% of revenue overseas | V |
+| Xinyi Solar | 2025 | RMB 20.86 bn (−4.8%) | GM 21.4%; solar-glass GM 14.1%; NP RMB 0.84 bn after RMB 2.32 bn impairment | 21,400 tpd operating; Indonesia +2,400 tpd in 2026 | V |
+| Xinyi Solar | H1 2026 | RMB 8.43 bn (−22.9%) | NP RMB 39 mn (−94.8%); solar-glass GM 3.3% | | V-snip |
+| AGC Inc. | FY2025 | ¥2,058.8 bn | OP ¥127.5 bn (6.2%); NP ¥69.2 bn | FY26 guidance ¥2,200 bn / OP ¥150 bn | V-snip |
+| Saint-Gobain | 2025 | ≈ €46.4 bn [E from OI ÷ margin] | OI €5,293 mn (11.4%); EBITDA €7,203 mn (15.5%) | Asia & emerging markets +12.6% LC | V-snip |
+
+- **Margin ladder, now on primary numbers:**
+  - Fuyao net 20% vs AIS consolidated PAT margin 6.9% (FY26) / 10.5% (Q1 FY27).
+  - Xinyi Solar solar-glass GM 3.3% (H1-26) vs Borosil EBITDA 35%.
+  - **The Borosil–Xinyi gap is the trade remedy** [E].
+
+**D9. AIS standalone cost structure (% of revenue) [V results]**
+
+| Line | FY25 | FY26 | Q1 FY26 | Q1 FY27 |
+|---|---|---|---|---|
+| Raw materials | 37.1 | 29.4 | 38.1 | 25.9 |
+| Power & fuel | 15.0 | 16.3 | 16.9 | 19.1 |
+| Employees | 8.2 | 8.7 | 9.0 | 8.6 |
+| Other expenses | 23.1 | 26.4 | 23.7 | 26.1 |
+| Depreciation | 4.0 | 5.6 | 5.5 | 5.7 |
+| Finance cost | 2.8 | 4.2 | 5.0 | 3.4 |
+
+**D10. Energy and soda ash**
+- **India LNG tenders** [V Business Today/Wood Mackenzie]: $16.8–18.8/MMBtu (Mar–Jun-26) → **$26.4/MMBtu (Sep-26)**; Wood Mackenzie sees South Asia's 2026 LNG demand down ~6 mt.
+- **Snippets** [V-snip]: JKM averaged ~$19 (Apr–Aug-26); crude-linked term LNG ~$11–12.
+- **Soda-ash safeguard (DGTR)** [V trade.gov]: HS 2836.20; initiated **16-Mar-2026**; POI Apr-2020–Sep-2025; estimated final **16-Nov-2026**. The applicant is the Alkali Manufacturers' Association [V-snip]. Xinyi Solar credits cheaper soda ash, sand and gas for its 2025 solar-glass margin gain [V]. That same input deflation is what an Indian safeguard would take away from AIS and Borosil [E].
+
+## 4.4 Gap log (Part 1 §H items, plus the 16 gaps chased this pass)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| H1 / G1 | Float capacity by player; industry total | **Partly filled** | Gold Plus 2,850 + 300 solar [V ICRA Dec-25]; AIS 2,150 [V]; industry ~13,900 tpd [E from ICRA's +3,200 tpd / +30%]. Saint-Gobain, Gujarat Guardian and HNG Float are still unverified. The Gold Plus DRHP on sebi.gov.in was not located by search (not fetched). AGI Greenpac/HNG filings were not pursued (HNG Float is a separate entity). |
+| H2 / G2 | Indian float price series; China float price | **Partly filled** | China NBS series [V] (RMB 1,100/t Sep-26, −12% YoY). India: TradeStat unit value ₹397/sq m [V/E]; MIP ₹34,000/t [V]; ~₹25,000/t import quotes [V Outlook]. No domestic ex-works series exists publicly; CARE says "prices largely stabilised since FY26-end". |
+| H3 / G3 | Float imports by HS code | **Filled** | TradeStat 70051090 / 70052990 by country, FY25–FY26 [V] |
+| H4 / G3 | Solar-glass imports by HS code | **Filled (with a scope caveat)** | HS **70071900** is the solar-glass code (ADD headings list 7003/7005/7007/7016/7020/8541). FY26 590.9 mn sq m / ₹13,149 Cr [V]. The code also includes non-solar tempered glass. |
+| H5 / G4 | Other domestic solar-glass producers | **Partly filled** | Gold Plus 300 [V]; Emerge 300 [V-snip]; Vishakha/Triveni/Gobind and plans [V-sec]. Captive lines of Waaree, Adani, Premier, Rayzon etc.: **still open**, as searches found no tpd disclosures. The 2,600/7,700 tpd figures are Borosil's own estimates (PPT, call, AR) with no third-party source cited. |
+| H6 / G5 | SIAM PV production FY21–FY26, H1 FY27 | **Still open (production); sales filled** | SIAM releases give only all-segment production. PV domestic sales FY26 and H1 FY27 [V]; FY26 production ~5.5 mn [E]. |
+| H7 / G6 | AIS float utilisation, ₹/t, energy ₹/t | **Still open (not disclosed)** | AIS holds no calls; AR/BRSR say physical intensity is "NA". Proxies: energy ₹1,500/GJ blended [E]; Roorkee ~740 t/d [E]; +100 tpd from boosting [V]. |
+| H8 | AIS SBU split for Q1 FY27 | Still open | Segment data only |
+| H9 / G7 | Glass content per car | **Partly filled (₹ only)** | MSIL RPT sales ₹873 Cr FY26 ÷ Maruti's ~2.2–2.3 mn vehicles [K] ≈ **₹3,800–4,000 per Maruti vehicle** [E]. That is a floor, since Maruti skews small and some glass goes via tier-1s. No sq m or kg disclosure found. |
+| H10 / G8 | 2015 China float ADD; Saudi/UAE float ADD | **Still open** | Not found. The AIS AR says only "similar measures apply to some Chinese and Thai imports". TradeStat shows UAE float imports of ₹19.6 Cr and Saudi ~nil in FY26, so it is immaterial either way. |
+| H11 / G8 | MoF notification on the Malaysian ADD after the 2026 sunset review | **Resolved as "probably not issued"** | Extension notfn 22/2025 to 10-Feb-2026 [V-snip]; DGTR recommended $370/t [V ICRA]; MIP in Aug-26 [V]; the chairman thanks the government for the MIP only [V]. See S2. |
+| G8b | DGFT MIP notification | **Filled** | Notfn 29/2026-27 text [V] |
+| H12 / G9 | Final solar-glass ADD per-exporter rates and MoF date | **Filled** | Notfn 11/2025-Customs (ADD), 8-May-2025; reference-price table [V] |
+| G9b | Malaysia CVD extension | **Filled (company source)** | MoF customs notification 2-Jun-2026, 9.71%, five years [V PPT/call]. The gazette number was not fetched. |
+| H13 / G10 | GST on solar glass and float after GST 2.0 | **Partly filled** | Cells/modules 12% → 5% from 22-Sep-2025 [V-snip pv-magazine]; float (7005) 18% [V-snip]. Solar glass (7007) not in the 5% list → 18% [K/E], an inverted duty for module makers. CBIC notification text not fetched. |
+| H14 / G11 | Global peer numbers | **Mostly filled** | Fuyao, Xinyi Solar [V]; AGC, Saint-Gobain [V-snip]; NSG and Flat Glass Group still [K] |
+| H15 / G12 | Why Borosil fell ~35% after Q1 | **Partly explained [E]** | Call: surcharge unwind, FY28 cold-repair loss, module-maker shake-out warning, refusal to comment on "strategic investment" reports. AR risk text on captive spill-over. TradeStat: Malaysian/Vietnamese imports up 4–8×. Xinyi's Indonesia lines; Emerge 300 tpd lit Jul-26. ~₹279 Cr of warrant conversions at ₹530 due by 13-Aug as the stock fell through ~₹530 (supply overhang). The 17-Oct customs order is immaterial (₹0.6 Cr). No single disclosed trigger. |
+| H16 / G13 | AIS "PAT up 15.96%" | **Resolved** | It is TCI and it is down 13.3% (S7) [V] |
+| H17 | AIS PV share | **Resolved** | ~79–80% [V AR + CARE] |
+| H18 | AIS 2,150 vs 2,100 tpd | **Resolved** | 2,150 (twice in AR text) [V] |
+| H19 / G14 | Maruti stake; promoter split | **Filled** | MSIL 10.59%, AGC 21.18%, Sanjay Labroo 11.47% (31-Mar-26) [V AR]. The BSE SHP (Sep-26) was not fetched because the BSE API is blocked; screener total 51.58% [V]. |
+| H20 / G15 | Indian flat-glass market size (₹, mt) | **Partly filled** | Volume: 2.75 mt (2026) → 3.8 mt (Outlook Business, "industry estimates") [V-sec]. ₹ size still [E]: ~2.75 mt × ₹30–40k/t ≈ ₹8,000–11,000 Cr at float level. |
+| G16 | Soda-ash safeguard; soda-ash prices; LNG 2026 | **Mostly filled** | Safeguard initiation, POI and estimated final date [V trade.gov]; LNG [V Business Today]. Soda-ash price series not re-fetched (sibling dossier [V-sib]); China NBS lists caustic soda, not soda ash. |
+| — | AIS concall guidance | **N/A** | AIS hosts no calls; substitutes used (4.2.A) |
+| — | Q2 FY27 board dates | **Checked: none announced** (22-Oct-26 18:00 UTC) | screener feeds [V] |
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### Insights an expert would add
+
+1. **Borosil's price is the ADD floor, priced in rupees.**
+   - The final solar-glass ADD is a **reference-price duty** (landed value topped up to $570–664/t), not a fixed $/t duty.
+   - Converted at the prevailing rupee rate (₹/mm = $/t × FX × 2.5/1,000), $664/t gives **₹141/mm at ₹85**, **₹146/mm at ₹88** and **₹157.5/mm at ₹94.9**. Borosil realised ₹146.7 in FY26 and ~₹150.8 ex-surcharge in Q1 FY27.
+   - **Three consequences:**
+     - The rupee is a hidden price lever (~₹1.66/mm per ₹1/$).
+     - Indian solar-glass prices **cannot rise above** the floor-plus-freight, however tight domestic supply is.
+     - Any non-covered origin (Indonesia, Thailand; Malaysia pays only 9.71% CVD) can undercut it.
+2. **The ADD moved the source, not the volume.**
+   - India's tempered/solar glass imports (HS 70071900) rose **76% by area in FY26 to 591 mn sq m**:
+     - China +33%;
+     - **Malaysia +390% (to 135 mn sq m)**;
+     - **Vietnam +688% (to 50 mn sq m)**.
+   - Meanwhile **Xinyi Solar is building 2,400 tpd in Indonesia in 2026 "to navigate trade barriers"**.
+   - Borosil's moat depends on a **future anti-circumvention or new-origin case** (Malaysia ADD, Indonesia). That is the variable to watch, more than domestic capacity.
+3. **The Malaysian float ADD probably lapsed in Feb-2026; the MIP replaced it, and it is broader.**
+   - Vietnam now supplies ~37% of MIP-scope float imports by area, and it was never covered by an ADD.
+   - The **origin-neutral ₹34,000/t CIF floor (+10% BCD)** is therefore a stronger shield than the old $273/t Malaysia-only duty, but it lasts **only one year (to Aug-2027)**.
+   - AIS's float margin peak (21.5% in Q1 FY27) came **before** the MIP. Q2–Q3 FY27 float margins could rise further [E], with the MIP's renewal in Aug-2027 as the cliff.
+4. **Soniyana is an import-substitution asset for AIS's own auto plants, visible in its cost lines.**
+   - Standalone raw-material cost fell from **38.1% to 25.9% of revenue** (Q1 FY26 → Q1 FY27). Power & fuel rose from 16.9% to 19.1% as AIS melts its own glass instead of buying it.
+   - CARE confirms F3's **entire output goes to Patan and Bawal**. Net FX exposure fell ₹110 Cr.
+   - So "float segment" margins partly reflect internal transfer pricing (₹191 Cr of inter-segment revenue in Q1). **The economic gain shows up as group OPM (16% → 23%), not only as float EBIT.**
+5. **AIS's royalty to AGC fell from ₹51.9 Cr to ₹8.4 Cr in FY26** (−84%, ~1 point of margin on FY25's base), with no explanation in the notes. Ask whether this is permanent (an agreement expiry or renegotiation) or timing. Either way it explains a slice of the FY26–Q1 FY27 margin gain that is not operating.
+6. **Maruti is ~32% of AIS's auto sales and a 10.59% promoter.** The AGM approved up to **₹1,500 Cr of FY27 RPTs** with Maruti (Q1 FY27 alone was ₹301 Cr, run-rate ~₹1,200 Cr). The concentration and the pricing power both run through one related party.
+7. **Borosil's "fully funded, no equity" line matters after three dilutive raises.**
+   - Promoters went from 61.85% to 56.01% in a year.
+   - Management now says **no equity raise is foreseen**.
+   - The **next project (furnace or adjacent product) is due within ~6 months of July**, i.e. around Jan-2027, against a **₹4,000 Cr revenue ambition**.
+   - Meanwhile it introduced a **brand royalty to Borosil Ltd (₹12 Cr)** and booked **₹78 Cr of sales to a company linked to an independent director's relative**. These are small, but worth a governance line.
+8. **China's own energy shock.** Chinese LNG rose 61% YoY while Chinese float fell 12% (NBS). Chinese glassmakers are absorbing energy inflation without pricing power, so the SE-Asian export push will persist. Expect no relief from "China cost-push" for Indian protection cases [E].
+
+### New primer issues (format as primer-issues.md)
+
+#### From Glass deep research (2026-10-22, glass-industry.md Part 4)
+
+**borosil-renewables.html**
+- **ADD described wrongly** (wherever "$570–664/t duty" appears, and in Part 3's suggested fixes).
+  - It is a **reference-price ADD**: duty = reference amount ($570–664/t by exporter) minus landed value.
+  - MoF **Notfn 11/2025-Customs (ADD), 8-May-2025**; five years from **4-Dec-2024**.
+  - Add the line "Borosil's price tracks this floor in rupees" with the ₹/mm conversion.
+- **Imports and circumvention.** Add the TradeStat facts: HS 70071900 imports 591 mn sq m / ₹13,149 Cr in FY26 (+76% / +140%); Malaysia +390%, Vietnam +688%. Add Xinyi Solar's 2,400 tpd Indonesia plant (2026). This is the main threat to the moat.
+- **Q4 FY26 PAT.** The ₹169 Cr includes a **~₹75 Cr tax write-back** (management) plus **₹32 Cr of carried-over dispatches (₹9.8 Cr EBITDA)**. Underlying Q4 EBITDA was ~₹135 Cr, so Q1 FY27's ₹142 Cr is up QoQ.
+- **Guidance to add from the 17-Jul call:**
+  - SG-4/5 adds **₹80–85 Cr of EBITDA per quarter**; model it from **1-Apr-2027**.
+  - **No equity raise foreseen.**
+  - Next project decision **~Jan-2027**; revenue ambition **≥₹4,000 Cr in 3–4 years**.
+  - Rooftop **~₹36 Cr in FY27 at single-digit margins**.
+  - Tax rate ~25.2%.
+- **Governance notes (AR FY26):**
+  - New **royalty to Borosil Ltd ₹11.98 Cr**.
+  - **Sales of ₹77.75 Cr to Icon Solar-EN Power Technologies** (a relative of an independent director is a whole-time director there).
+  - Executive Chairman's pay ₹12.41 Cr (+46%).
+  - **No customer >10%** in FY26 (one at ₹273 Cr in FY25).
+- **Customs order (17-Oct-2026).** Describe it correctly:
+  - It concerns the classification of **imported SG-4/5 plant & machinery**.
+  - Goods of ₹14.14 Cr were confiscated but are **redeemable**; fine ₹30 lakh; penalties ₹30.3 lakh.
+  - Paid under protest; appeal filed. **Immaterial.**
+- **"Strategic investment" press reports.** Management declined to comment (17-Jul call). If the primer mentions ownership changes, say exactly that and nothing more.
+
+**asahi-india-glass.html**
+- **Ownership split.** Promoters 51.58% = **AGC 21.18% + Maruti 10.59% + Sanjay Labroo 11.47% + other Labroo family ~8.3%** (31-Mar-26, AR). Replace "Maruti ~11%".
+- **Maruti dependence.** **~32% of auto-glass sales** (CARE, FY26). RPT sales ₹873 Cr (FY26), ₹301 Cr (Q1 FY27). FY27 RPT approval up to ₹1,500 Cr.
+- **Royalty to AGC.** ₹8.4 Cr FY26 vs ₹51.9 Cr FY25 (AR RPT note). Mention it if the primer discusses AGC technology fees, and flag that it is unexplained.
+- **Trade defence wording.** The Malaysian ADD ($273/t since 2020) ran to **10-Feb-2026**. DGTR recommended $370/t, but **no continuation notification was found**, and the government instead imposed the **origin-neutral MIP (₹34,000/t CIF, 18-Aug-2026, one year)**. Vietnam is now the second float source (~16 mn sq m, ₹729 Cr in FY26) and was never under ADD.
+- **Capex specifics.** ">₹2,000 Cr over FY27–FY28: **new float plant F4 (~2-year build)**, soft coater, white-goods appliance glass plant, Patan Phase IV" (CARE, Jul-2026). Replace the generic "₹2,000 Cr programme".
+- **Soniyana's role.** Its **entire output feeds Patan/Bawal** (CARE). The Roorkee cold repair **finished Nov-2025**. Raw-material cost fell from 38% to 26% of standalone revenue YoY in Q1 FY27; that is the integration proof point.
+- **Annual-report PAT claim.** Do not quote the AR's "PAT up 15.96%". FY26 standalone PAT was **₹329.9 Cr (−15.2%)**; consolidated ₹345 Cr (−6%).
+- **No earnings calls.** If the primer implies concall guidance, re-source it to the AR and CARE. CARE expects **8–10% revenue growth and ~20% PBILDT margin** over two years, with **GCA ₹850–900 Cr in FY27**.
+- **Contingent liabilities.** **~₹362 Cr of disputed customs/excise claims** (mis-classification SCNs), up from ₹320 Cr. Add one line in risks.
+
+**Both primers / general**
+- **Industry float capacity is ~14,000 tpd, not ~11,000.** ICRA: +3,200 tpd (+30%) in FY24–FY25. Gold Plus is now 2,850 tpd float + 300 tpd solar.
+- **China comparison points** (NBS): float **RMB 1,100/t (Sep-26, −12% YoY)**; LNG +61% YoY. Fuyao 2025 net margin 20.4% (RMB 45.8 bn revenue); Xinyi Solar's solar-glass GM 14.1% (2025) and 3.3% (H1-26).
+
+---
+*End of Part 4. Scratch notes: `/tmp/glass-deep/notes.md`. Downloads: `/tmp/glass-deep/dl/`. Text extracts: `/tmp/glass-deep/txt/`.*

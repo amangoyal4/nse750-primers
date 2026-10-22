@@ -54,3 +54,47 @@ Logged by the cloud run on branch claude/ss-glass. Pre-existing primer problems 
 - **asahi-india-glass.html — subsidiary merger:** four subsidiaries merged into **AIS Consumer Glass Solutions Ltd** effective 1-Jul-2025 (not mentioned).
 - **General (both):** neither primer cross-links the **soda ash** story (`commodity-chem.html`). China soda ash at decade lows is a cost tailwind, and the **DGTR soda ash safeguard (final ~16-Nov-2026)** is a cost risk. Add a line and a link.
 
+
+## From Glass deep research (2026-10-22, glass-industry.md Part 4 §4.5)
+
+**borosil-renewables.html**
+- **ADD described wrongly** (wherever "$570–664/t duty" appears, and in Part 3's suggested fixes).
+  - It is a **reference-price ADD**: duty = reference amount ($570–664/t by exporter) minus landed value.
+  - MoF **Notfn 11/2025-Customs (ADD), 8-May-2025**; five years from **4-Dec-2024**.
+  - Add the line "Borosil's price tracks this floor in rupees" with the ₹/mm conversion.
+- **Imports and circumvention.** Add the TradeStat facts: HS 70071900 imports 591 mn sq m / ₹13,149 Cr in FY26 (+76% / +140%); Malaysia +390%, Vietnam +688%. Add Xinyi Solar's 2,400 tpd Indonesia plant (2026). This is the main threat to the moat.
+- **Q4 FY26 PAT.** The ₹169 Cr includes a **~₹75 Cr tax write-back** (management) plus **₹32 Cr of carried-over dispatches (₹9.8 Cr EBITDA)**. Underlying Q4 EBITDA was ~₹135 Cr, so Q1 FY27's ₹142 Cr is up QoQ.
+- **Guidance to add from the 17-Jul call:**
+  - SG-4/5 adds **₹80–85 Cr of EBITDA per quarter**; model it from **1-Apr-2027**.
+  - **No equity raise foreseen.**
+  - Next project decision **~Jan-2027**; revenue ambition **≥₹4,000 Cr in 3–4 years**.
+  - Rooftop **~₹36 Cr in FY27 at single-digit margins**.
+  - Tax rate ~25.2%.
+- **Governance notes (AR FY26):**
+  - New **royalty to Borosil Ltd ₹11.98 Cr**.
+  - **Sales of ₹77.75 Cr to Icon Solar-EN Power Technologies** (a relative of an independent director is a whole-time director there).
+  - Executive Chairman's pay ₹12.41 Cr (+46%).
+  - **No customer >10%** in FY26 (one at ₹273 Cr in FY25).
+- **Customs order (17-Oct-2026).** Describe it correctly:
+  - It concerns the classification of **imported SG-4/5 plant & machinery**.
+  - Goods of ₹14.14 Cr were confiscated but are **redeemable**; fine ₹30 lakh; penalties ₹30.3 lakh.
+  - Paid under protest; appeal filed. **Immaterial.**
+- **"Strategic investment" press reports.** Management declined to comment (17-Jul call). If the primer mentions ownership changes, say exactly that and nothing more.
+
+**asahi-india-glass.html**
+- **Ownership split.** Promoters 51.58% = **AGC 21.18% + Maruti 10.59% + Sanjay Labroo 11.47% + other Labroo family ~8.3%** (31-Mar-26, AR). Replace "Maruti ~11%".
+- **Maruti dependence.** **~32% of auto-glass sales** (CARE, FY26). RPT sales ₹873 Cr (FY26), ₹301 Cr (Q1 FY27). FY27 RPT approval up to ₹1,500 Cr.
+- **Royalty to AGC.** ₹8.4 Cr FY26 vs ₹51.9 Cr FY25 (AR RPT note). Mention it if the primer discusses AGC technology fees, and flag that it is unexplained.
+- **Trade defence wording.** The Malaysian ADD ($273/t since 2020) ran to **10-Feb-2026**. DGTR recommended $370/t, but **no continuation notification was found**, and the government instead imposed the **origin-neutral MIP (₹34,000/t CIF, 18-Aug-2026, one year)**. Vietnam is now the second float source (~16 mn sq m, ₹729 Cr in FY26) and was never under ADD.
+- **Capex specifics.** ">₹2,000 Cr over FY27–FY28: **new float plant F4 (~2-year build)**, soft coater, white-goods appliance glass plant, Patan Phase IV" (CARE, Jul-2026). Replace the generic "₹2,000 Cr programme".
+- **Soniyana's role.** Its **entire output feeds Patan/Bawal** (CARE). The Roorkee cold repair **finished Nov-2025**. Raw-material cost fell from 38% to 26% of standalone revenue YoY in Q1 FY27; that is the integration proof point.
+- **Annual-report PAT claim.** Do not quote the AR's "PAT up 15.96%". FY26 standalone PAT was **₹329.9 Cr (−15.2%)**; consolidated ₹345 Cr (−6%).
+- **No earnings calls.** If the primer implies concall guidance, re-source it to the AR and CARE. CARE expects **8–10% revenue growth and ~20% PBILDT margin** over two years, with **GCA ₹850–900 Cr in FY27**.
+- **Contingent liabilities.** **~₹362 Cr of disputed customs/excise claims** (mis-classification SCNs), up from ₹320 Cr. Add one line in risks.
+
+**Both primers / general**
+- **Industry float capacity is ~14,000 tpd, not ~11,000.** ICRA: +3,200 tpd (+30%) in FY24–FY25. Gold Plus is now 2,850 tpd float + 300 tpd solar.
+- **China comparison points** (NBS): float **RMB 1,100/t (Sep-26, −12% YoY)**; LNG +61% YoY. Fuyao 2025 net margin 20.4% (RMB 45.8 bn revenue); Xinyi Solar's solar-glass GM 14.1% (2025) and 3.3% (H1-26).
+
+---
+*End of Part 4. Scratch notes: `/tmp/glass-deep/notes.md`. Downloads: `/tmp/glass-deep/dl/`. Text extracts: `/tmp/glass-deep/txt/`.*
