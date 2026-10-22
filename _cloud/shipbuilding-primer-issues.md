@@ -64,3 +64,51 @@
   - None covers the **₹69,725 Cr maritime package** (Sep-2025) — SBFAS ₹24,736 Cr, MDF ₹25,000 Cr, SbDS ₹19,989 Cr — which funds Cochin's and GRSE's capex.
   - Market caps are 23–26% lower than in the primers.
 
+
+## From Shipbuilding deep-research pass (2026-10-22, shipbuilding-industry.md §4.5)
+
+
+#### From Shipbuilding deep-research pass (2026-10-22, shipbuilding-industry.md Part 4)
+
+**mazagon-dock.html**
+- **LD reversals in both years.** FY25 ₹199 Cr and FY26 ₹262 Cr (P-17A ships 2–3; AR note 57). P-17A LD still held is ₹678 Cr, which gives upside if waived. Management also expects a ~₹100 Cr submarine LD waiver.
+- **Onerous-contract detail.** The expected-loss provision rose ₹521 → ₹1,060 Cr (additions ₹634 Cr) on the **ICGS and Navi Merchants MPV** fixed-price contracts (Q2 FY26 call).
+  - FY26 one-offs net ≈ −₹158 Cr → underlying OPM ~18.7%.
+  - Say plainly that new-project margins are guided at 12–15% vs 25–30% at completion.
+- **Guidance record.** FY26 revenue guided ~₹12,500 Cr vs actual ₹12,840 Cr (s/a). FY27 guided at only **~+5%**. P-75I signing was guided "by FY26" and missed; CNC concluded 16-Jan-2026; at CCS since Aug-2026; still unsigned 22-Oct-2026.
+- **Investor communication.** No earnings call since 28-Oct-2025 (latest transcript Q2 FY26). Note this if the primer cites "management commentary".
+- **Concentration.** MoD revenue ₹11,077 Cr = 86% of standalone FY26 revenue; MoD receivable ₹2,865 Cr.
+- **Liabilities behind the cash.**
+  - Unrestricted cash ₹11,401 Cr (Ind-Ra), not ₹13,096 Cr.
+  - Indemnity bonds to MoD ₹24,732 Cr.
+  - Supplier claims not acknowledged ₹227 Cr (₹14 Cr).
+  - Bank limits doubled to ₹5,000 Cr (Ind-Ra 10-Aug-2026).
+- **Nhava floating dock spec.** 12,000-t capacity, 180 × 44 m, ~₹475 Cr (Shoft), for 12,800-t-class ships. Replace the "~12,800 tonnes" description.
+- **Q2 FY27.** Board **27-Oct-2026** with an FY27 interim dividend.
+
+**cochin-shipyard.html**
+- **Repair segment.** FY26 revenue ₹1,656 Cr (**−11%**), segment result 25.9% vs 39.1% → profit **−41%**. Replace any "repair as stabiliser / 40%+ margins" framing; ISRF's upside now accrues 50% to DDW.
+- **Order book.** Add **₹22,223 Cr consolidated at 30-Jun-2026** (CARE; defence ~57%, export ₹6,038 Cr). 12-month inflow ~₹6,170 Cr (book-to-bill ~1.2×) — **all commercial**. FY26 named orders: Polestar tugs, Svitzer e-tugs, CMA CGM feeders.
+- **Margin guidance basis.** The ~14% FY27 guide is effectively **ex-other-income** (CFO: "I have not considered other income"). FY26 comparators: screener 16.5% / CARE 16.8% (not the deck's "24% EBITDA" incl. OI). CARE expects 16–17%.
+- **Revenue guidance record.** "~12% every year" vs FY26 +4.2% actual; Q1 FY27 +2.3%; PAT down YoY four quarters running.
+- **Working capital.** Export advances only 20–30% → working-capital lines since FY26; interest cost ₹9 Cr/qtr → ₹25–32 Cr/qtr; gearing 0.31×; capex plan ~₹6,000 Cr (25% grant; DPR pending).
+- **Concentration.** Two customers ≈ 60% of both shipbuilding and repair revenue (AR note 39).
+- **Rumour reply (9-Oct-2026).** "No further firm orders to report" — debunks the "40 ships from US/Germany/Norway" story. Add it if the primer cites that story.
+- **Contingent.** Bank guarantees ₹2,332 Cr; joint-and-several guarantee on Udupi's Ocean Sparkle tug contract.
+
+**garden-reach-shipbuilders.html**
+- **FY26 book-to-bill ≈ 0.** Order book ₹22,681 Cr (Mar-25, CARE) → ₹15,324 Cr (Mar-26) → ₹13,596 Cr (Jun-26): **−40% in 15 months**. Add the Mar-25 base.
+- **NGC value.** **₹33,000 Cr after price negotiation** (AR FY26; CARE Jun-2026). Retire ₹25,000 Cr. The signing date has slipped four times (FY26 → Mar-26 → Q2 FY27 → still unsigned 22-Oct-2026).
+- **Margin quality.** The FY26 11.4% OPM was helped by Q4 provision write-backs (CARE). Underlying ~9%; CARE medium-term ~8%; Q1 FY27 8.2%. The CMD says FY27 will be "similar" without a number, and FY28 revenue may dip ("I did not state" it won't).
+- **Guarantees.** Bank guarantees ₹6,321 Cr = 2.4× net worth; CARE treats advance BGs as quasi-debt and has a rating trigger if liquid funds stay below ₹3,000 Cr (Mar-26: ₹3,634 Cr).
+- **Ship repair.** ₹273 Cr in FY26 (2.4× FY25) from leased KPDD docks — a new line worth a sentence.
+- **Pipeline numbers.** MCMV AoN per the CMD is ~₹32,000 Cr (not ₹36,000 Cr); 8th Pay Commission +15–20% employee cost; no NGD RFP before FY29.
+- **Non-defence share.** ~22.5% of the Mar-26 order book (AR) — state the date.
+
+**General / sector (all three primers and subsectors/shipping.html cross-link)**
+- India's share of 2024 world shipbuilding output = **0.06% (UNCTAD RMT 2025)**. Use it instead of "<1%".
+- SBFAP paid only ₹620.57 Cr in ten years (Lok Sabha, Mar-2026). SBFAS rates are 15/20/25%.
+- Budget 2025-26 text (BCD exemption +10 yrs; HML for large ships) is now verified. Budget 2026-27 had **no** new shipbuilding measure.
+- Defence capital: quote ₹2.19 lakh Cr (Demand 21) or ₹2.31 lakh Cr (incl. MoD Civil) with the basis named.
+- Global multiples: HD HHI ~15× and HII ~16× TTM (Oct-2026). Retire "Korean yards at 25–40×".
+

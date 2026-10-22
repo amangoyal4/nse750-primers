@@ -1320,3 +1320,671 @@ Read:
   - CMA CGM: https://www.bairdmaritime.com/shipping/boxships/cma-cgm-feeder-containership-order-at-indian-yard-finalised
   - HD HHI 2025: https://www.hellenicshippingnews.com/hd-korea-shipbuilding-posts-record-profit-in-2025/
   - P-17B bidders: https://raksha-anirveda.com/indian-navy-invite-bids-for-project-17b-stealth-frigate-programme/
+
+---
+
+# PART 4 — Deep-research supplement (22-Oct-2026)
+
+This is a second, primary-source pass on Parts 1–3. Where this Part conflicts with Parts 1–3, **this Part wins**; see the Supersedes table in §4.0. The tags mean the same as in Parts 1–3. **[V]** here means the source was fetched and read in this pass. That includes the pass-1 annual-report PDFs, which this pass re-read section by section rather than re-downloading.
+
+**Primary documents read in this pass (new unless marked "re-read")**
+
+*Company filings*
+- **Mazagon Dock.**
+  - FY26 annual report (re-read): note 36 (contingent liabilities), note 45 (related parties), the provisions note, notes 57–61 and MD&A §H (risks).
+  - **Q2 FY26 earnings-call transcript** (call 28-Oct-2025, filed 3-Nov-2025, BSE Pname fef41a23). It is the **latest MDL call transcript on record**: screener's concall list has no Q3 FY26, Q4 FY26 or Q1 FY27 call.
+  - Analyst-meet deck, 23-Sep-2026 (re-read).
+  - Board-meeting intimation, 22-Oct-2026 (BSE 7d316204).
+- **Cochin Shipyard.**
+  - FY26 annual report (re-read): segment note 38–39, note 48 (contingent liabilities), directors' report §7–8 (order book) and the MD&A outlook.
+  - **Q1 FY26 call transcript** (19-Aug-2025, BSE 753064f1).
+  - Sep-2026 business-update call transcript (re-read).
+  - **Rumour-verification reply**, 9-Oct-2026 (BSE f9fc72fb).
+- **GRSE.**
+  - FY26 annual report (re-read): order-book table, note 29 (contingent liabilities), key audit matters, SWOT.
+  - Q1 FY27 call transcript, 6-Aug-2026 (re-read).
+
+*Rating rationales (free)*
+- **CARE on GRSE**, 1-Jul-2025 and 22-Jun-2026.
+- **CARE on Cochin**, 4/12-Sep-2025 and **12-Oct-2026**.
+- **India Ratings on MDL**, 10-Aug-2026 (press release 84805, read via the site's JSON feed).
+
+*Government*
+- **Union Budget speeches** 2025-26 and 2026-27 (indiabudget.gov.in).
+- **EY "Union Budget 2026 — Defence sector highlights"**, for the Demand No. 21 figures.
+- **PRS DfG 2026-27: Defence** (re-read).
+- **MoPSW "Modified SBFAP guidelines"** letter dated 29-Jan-2025 (shipmin.gov.in), including Schedule IV rates.
+- **PIB feature "Nation Building Through Shipbuilding"** (3-Dec-2025).
+
+*Global*
+- **UNCTAD Review of Maritime Transport 2025**: Tables II.1 and II.6, built on Clarksons data.
+- **HII Q4/FY2025 earnings release** (SEC 8-K, 5-Feb-2026).
+- companiesmarketcap P/E pages for HII, HD HHI and Fincantieri (Oct-2026).
+
+*Secondary, fetched*
+- Army Recognition (19-Aug-2026) and News Arena (16-Aug-2026) on P-75I.
+- Shephard (25-Sep-2026) on P-17B.
+- IANS (14-Mar-2026) on the Lok Sabha reply about SBFAP payouts.
+- India Briefing (6-Jan-2026) on SBFAS rates.
+- Airforce Technology (12-Feb-2026) on the draft DAP 2026.
+
+Web calls in this pass: ~35. The BSE announcement API returned "Access Denied", so BSE filings were reached through the attachment links on screener's documents tab.
+
+## 4.0 Supersedes (corrections to Parts 1–3 — the writer must apply these)
+
+| # | Where in Parts 1–3 | Old value / claim | New value / claim | Source (tag) |
+|---|---|---|---|---|
+| S1 | §H-3, §9.1 "Book-to-bill", §A-1, §E-5, §3.2(e) | GRSE Mar-25 order book "not found"; book-to-bill "not derivable"; GRSE book fell "~11% (Mar→Jun-26)" | **GRSE order book 31-Mar-2025 = ₹22,681 Cr** (4.4× FY25 revenue; ~88% Navy/Coast Guard; P-17A ₹11,436 Cr ≈ 50%). The FY26 implied inflow is 15,324 − 22,681 + 7,002 = **−₹355 Cr, i.e. nil**, so FY26 book-to-bill is **~0×**. The book fell **32% in FY26** and **40% Mar-25→Jun-26**. Navy yards combined FY26 inflow ≈ ₹760 Cr (MDL ~₹1,115 Cr + GRSE ~−₹355 Cr) on ₹19,842 Cr standalone revenue = **~0.04×**. | CARE GRSE rationale 1-Jul-2025 [V]; GRSE AR FY26 [V]; arithmetic [E] |
+| S2 | Trap 10, §B2, §E-6, §12, §2.3, JSON | NGC value for GRSE "~₹25,000–33,000 Cr" (press ₹25,000 vs CMD ₹33,000) | **₹33,000 Cr is the post-negotiation figure**: "price negotiation has already been completed… awaiting the formal signing… around ₹33,000 crore" (GRSE AR FY26); CARE (22-Jun-2026) uses ~₹33,000 Cr. **₹25,000 Cr was CARE's May/Jul-2025 pre-CNC estimate**. Drop ₹25,000 Cr. | GRSE AR FY26 [V]; CARE 22-Jun-2026 [V]; CARE 1-Jul-2025 [V] |
+| S3 | Trap 9, §7.1, §H-14, §2.5 | MDL LD reversal: ₹199 Cr in FY25, and ₹262 Cr "year unresolved — FLAG" | **Both are real and in different years.** **FY25:** ₹199.37 Cr "Reversal of liquidated damages" in other operating revenue. **FY26:** ₹262.47 Cr excess LD on P-17A ships 2 and 3 reversed into revenue. LD had been booked for a 5-month delay each; actual delays were 3 m 1 d (Udaygiri, 1-Jul-2025) and 1 m 28 d (Taragiri, 28-Nov-2025) after a 1-month grace period. **P-17A LD still held: ₹677.58 Cr (Mar-26)**. The Q2 FY26 call said ₹102 Cr of this was written back in Q2. MDL also expects **~₹100 Cr of submarine LD waiver** from MoD. | MDL AR FY26 note 57 and revenue note [V]; MDL Q2 FY26 call [V] |
+| S4 | Trap 9, §2.1, §C.2, §F | MDL "FY26 P&L charge for onerous contracts ₹538 Cr" (the only FY26 one-off named) | Provision for expected losses: opening **₹521.38 Cr + additions ₹634.25 Cr − utilised ₹96.04 Cr = ₹1,059.59 Cr**, so ₹538 Cr is the *net* rise. The contracts are the **Coast Guard (ICGS) and Navi Merchants MPV** contracts (CMD, Oct-2025). FY26 also had **credits**: LD reversal **+₹262.47 Cr**, P-75 contract amendment **+₹123.28 Cr** of revenue (note 61), and reversal of the inventory-obsolescence provision **+₹90.46 Cr** (note 60). **Net one-offs ≈ −₹158 Cr** → underlying FY26 OP ≈ ₹2,426 Cr (**~18.7%** vs reported 17.4%). | MDL AR FY26 notes 59–61 and provisions note [V]; MDL Q2 FY26 call [V]; [E] |
+| S5 | §C.3, §0 bullet "Margins", §2.2 | Cochin "~14% FY27 margin incl. interest" → "**a guided ~35% fall in company-basis EBITDA**" | The CFO's last word on basis (10-Sep-2026 call): "I have not considered other income because now we don't have that much other income going forward". The guide is built from SB 10–12% × ~70% + repair 22–24% × ~30% = 14–15%. **Treat 14% as an ex-other-income operating margin.** It implies FY27 EBITDA of ~₹790–810 Cr vs FY26 screener OP ₹831 Cr (CARE PBILDT ₹845 Cr): **flat to −5%, not −35%**. CARE expects **16–17%** blended PBILDT. The deck's ₹1,221 Cr "EBITDA" ≈ OP + other income (831 + 409 = 1,240). | Cochin Sep-26 transcript [V]; CARE Cochin 12-Oct-2026 [V] |
+| S6 | §1.3, §6 archetype D, §9.1, §2.2 | "Repair captures twice the margin… 20–22%"; repair ₹1,656 Cr presented as a beat | Cochin standalone **repair segment FY26: revenue ₹1,656.3 Cr (−11% from ₹1,864.6 Cr); segment result ₹429.4 Cr = 25.9% (FY25: ₹729.2 Cr = 39.1%)** → repair profit −41%. Shipbuilding segment ₹2,651.4 Cr, result ₹475.4 Cr = 17.9% (FY25 16.3%). The FY26 margin fall at Cochin is **entirely repair** (end of the IAC/carrier refits). | Cochin AR FY26 segment note 38 [V] |
+| S7 | §9.1, §E-5, §3.2(e) | Cochin order book: Jun-25 ~₹21,100 Cr → Mar-26 standalone ~₹18,900 Cr → Sep-26 deck ~₹21,900 Cr; no Jun-26 point | Add **₹22,223 Cr consolidated at 30-Jun-2026** (defence ~57%; foreign commercial 29% = ₹6,038 Cr; Udupi ₹2,003 Cr). Jun-25 → Jun-26 like-for-like (consolidated): 21,100 → 22,223 → **12-month inflow ≈ ₹6,170 Cr, book-to-bill ~1.2×** (TTM revenue ₹5,047 Cr). Cochin is the **only member with book-to-bill >1**. | CARE Cochin 12-Oct-2026 and 4-Sep-2025 [V]; [E] |
+| S8 | §H-12 | Cochin GoI 63.33% vs 62.87% unresolved | **63.33% confirmed "as on July 31, 2026"** by CARE (and Cochin's Sep-26 deck and screener). Delete 62.87%. | CARE 12-Oct-2026 [V] |
+| S9 | §2.2, §5.2, §B4, §D alt, §E-10, §H-9 | India "<1%" [V Platts] / "~0.07%, 0.072 m GT" [V-snip] | **India = 0.06% of global shipbuilding output in 2024 by gross tonnage** (UNCTAD RMT 2025 Table II.1, Clarksons data) ≈ **0.04 m GT** of 71.69 m GT [E]. Same table: China 54.57%, Korea 28.02%, Japan 12.56%, Viet Nam 1.01%, Philippines 0.93%, Italy 0.64%, Germany 0.26%, Türkiye 0.12%, USA 0.04%. | UNCTAD RMT 2025 [V] |
+| S10 | §2.2 bullet "By capacity" | "China 39.1 m GT, Korea 20.1 m GT, Japan 9 m GT, ~95% of global **capacity**" [V-snip] | These are **2024 deliveries**, not capacity: China 39.12 m GT, Korea 20.09, Japan 9.00 of **71.69 m GT** delivered = 95.2% (UNCTAD Table II.6). China also took **74.4% of contracted GT in 2024** and held **63.7% of the orderbook (GT) at start-2025**. | UNCTAD RMT 2025 [V] |
+| S11 | §3-2, §H-8, §E-11, §D | Capital outlay "₹2,31,010 Cr (PRS) vs ₹2,19,306 Cr (press) — bases differ" | **Both are right; different scope.** **₹2,19,306 Cr** = Capital Outlay on Defence Services (Demand No. 21): FY26 BE ₹1,80,000 Cr, RE ₹1,86,454 Cr → FY27 BE **+21.8% on BE / +17.6% on RE**. **₹2,31,010 Cr** (PRS) = Demand 21 + MoD (Civil) capital (FY26 RE ₹1,97,417 Cr). The gap of ₹11,704 Cr (BE) / ₹10,963 Cr (RE) ≈ the 5–6% "MoD (Civil)" share in PRS Table 5. Use ₹2.19 lakh Cr for "armed forces capital" and ₹2.31 lakh Cr for "MoD capital". | EY Budget-2026 defence highlights [V]; PRS [V]; [E] |
+| S12 | §7.2 SBFAS row, §H-6 | Original SBFAP "20%, reducing 3% every three years" [K]; revamped rates "not verified" | **SBFAP (MoPSW Schedule IV) [V]:** 20% (FY17–FY19) → 17% (FY20–FY22) → **14% (FY23–FY26)**. FY26 was "retained" at 14% (no cut to 11%). **Flat 30%** for green-fuel propulsion (methanol/ammonia/H₂) and **flat 20%** for fully electric/hybrid. The ₹40 Cr per-vessel cap on non-specialised vessels was **removed (29-Jan-2025)**. **SBFAS (guidelines 26/27-Dec-2025, effective 24-Sep-2025, to 31-Mar-2036)** [V-snip]: **15%** (contract < ₹100 Cr) / **20%** (≥ ₹100 Cr) / **25%** (green, hybrid, specialised); minimum 30% domestic value addition; shipbreaking credit note = **40% of scrap value**, valid 3 years, transferable. | shipmin.gov.in modified SBFAP guidelines [V]; India Briefing 6-Jan-2026 and IANS 14-Mar-2026 [V-snip] |
+| S13 | §7.2 "Union Budget 2025-26 … [K — FLAG]" | Customs exemption and infrastructure status [K] | **Verified in the budget speech (1-Feb-2025).** Para 63: revamp SBFAP "to address cost disadvantages", incl. shipbreaking credit notes. Para 64: "Large ships above a specified size will be included in the infrastructure harmonized master list (HML)". Para 65: shipbuilding clusters. Para 66: MDF ₹25,000 Cr, GoI up to 49%. **Para 125: continue the BCD exemption on raw materials, components, consumables or parts for ship manufacture for another ten years**, and the same for ship-breaking. | Budget speech 2025-26 [V] |
+| S14 | §7.2 "Union Budget 2026-27: shipping-specific… not verified" | — | **No new shipbuilding measure in the 2026-27 speech.** Adjacent measures: Container Manufacturing Scheme ₹10,000 Cr over 5 yrs; 20 new National Waterways in 5 yrs; inland ship-repair ecosystem at Varanasi and Patna; Coastal Cargo Promotion Scheme (IWT + coastal share 6% → 12% by 2047); IFSC ship/aircraft-leasing tax holiday extended to 20 of 25 years. | Budget speech 2026-27 [V]; EY [V] |
+| S15 | §1.2 step 1, §C (advance 10–15% [K]), §C.1 | "Advance typically 10–15% at signing [K]" | **Defence (CSL contracts): 10% on signing + 5% on design submission + 10% on ordering major material = ~25% before steel is cut.** **Exports: only 20–30% advance, balance at delivery.** Since FY26 Cochin has been drawing working-capital lines to bridge this. Use these figures, not 10–15%. | CARE Cochin 4-Sep-2025 and 12-Oct-2026 [V] |
+| S16 | §4.3 MDL row, §2.5, §3.3, §3.4 | Floating dock "12,800 t (primer) vs 12,000T (company)" — reconcile | Both are right. It is a **12,000-t lifting-capacity floating dry dock, 180 m × 44 m × 19.5 m**, sized for **12,800-t-class ships**. The ~₹475 Cr contract went to Shoft Shipyard; blocks are being built in Gujarat and assembled at **Nhava**. Company target was Jul-2026. Also: the Ritchie dry dock (1865) is **228 m × 21 m × 8.1 m**; a ~180 m × 60 m graving dock is planned on the 15-acre South Yard Annex. | MDL AR FY26 [V]; maritimegateway/Swarajya/MoEF ToR 2016 [V-snip] |
+| S17 | §5.3, §7.4, §G | MDL OFS: "base 2.83% + 2% green shoe; retail 0.07% subscribed; GoI −3.61 pp" | Offered: **4.01% (1,61,80,354 shares) at a ₹2,525 floor (7.7–8% discount)**, i.e. ~₹4,086 Cr if fully sold. Non-retail 100% subscribed (4-Apr-2025); retail **0.07%** of 16,18,036 shares (7-Apr). Stock **−8.73% to ₹2,319** on 7-Apr-2025. Actually sold **3.61 pp → ~₹3,680 Cr at floor** [E]. | Business Standard (two reports) [V-snip]; screener [V]; [E] |
+| S18 | §10 table, §10 bullets "Western naval primes 5–7%… P/E 15–25×"; "Korean yards rerated to 25–40×" [K] | Peer figures [K] | **HII FY2025:** revenue $12,484 m (+8.2%), operating margin **5.3%**, segment margin 5.7% (Newport News 5.1%, Ingalls 7.6%); FY26 shipbuilding margin guide 5.5–6.5%; **P/E 16.3× TTM** (21.9× at end-2025). **Fincantieri FY2025:** revenue €9.19 bn, EBITDA €681 m (**7.4%**), backlog €63.2 bn (6.9× revenue), book-to-bill 2.2×. **Hanwha Ocean 2025:** sales ₩12.69 tn, OP ₩1.11 tn (**8.7%**), orders $10.05 bn. **HD HHI 2025:** ₩17.58 tn, OP ₩2.38 tn (13.5%); **P/E 15.4× TTM (Oct-2026)** vs 32.4× at end-2025 — Korean multiples have already **halved**. | HII 8-K [V]; companiesmarketcap [V-aggregator]; Fincantieri, Hanwha, HD HHI press via search [V-snip] |
+| S19 | §2.1 MDL, §C.2, Trap 7 | MDL cash + bank ₹13,096 Cr (implicitly all usable) | **Unrestricted cash + bank (incl. FDs) ₹11,401 Cr (FYE26) vs ₹16,149 Cr (FYE25)** per India Ratings. The ₹13,096 Cr AR total includes liened/earmarked deposits (₹950 Cr liened against the overdraft). Use ₹11,401 Cr for "free cash"; ex-cash P/E rises slightly [E]. | India Ratings 10-Aug-2026 [V]; MDL AR [V] |
+| S20 | Trap 6 ("MDL's deck EBITDA is also higher than screener's") | Unquantified | **MDL company/agency-basis EBITDA (incl. other income) FY26 ₹3,402 Cr = 24.33%** (FY25 ₹3,228 Cr, 25.62%; FY22–FY26 range 13.85–25.62%) vs screener OP ₹2,268 Cr (17.4%). | India Ratings 10-Aug-2026 [V] |
+| S21 | §2.2 "58 naval ships under construction" | PRS 58 ships + 62 approved (2025) | Keep PRS, but add PIB (3-Dec-2025): **51 large ships under construction, ~₹90,000 Cr**; a new vessel inducted **every ~40 days** in the past year; **Navy budget ₹49,623 Cr (FY21) → ₹1,03,548 Cr (FY26)**. The difference is scope (large ships vs all ships). | PIB 3-Dec-2025 [V] |
+| S22 | §G "29-May-2026 Finance Ministry clears P-75I" | 29-May | Army Recognition dates the Finance Ministry clearance **28-May-2026** and adds: **CNC concluded 16-Jan-2026** (negotiations began 10-Sep-2025); L&T–Navantia eliminated Jan-2025; CCS was "expected to reach the committee in August", with contract "targeted by September 2026" — **target missed**. Use "end-May 2026". | Army Recognition 19-Aug-2026 [V secondary] |
+| S23 | §E-10, §2.2 Japan "~5% [V-snip]" | Japan ~2.8 m CGT, ~5% of 2025 orders | Chinese industry body CANSI puts Japan at **6.2% of 2025 new orders** (Korea 21.6%). Clarksons Japan figure still not fetched. Use "~5–6%". | SCMP-reported CANSI data [V-snip] |
+| S24 | §2.1 GRSE, §6 archetype B, §9.2 | GRSE FY26 OPM 11.4% presented as a run-rate | CARE: FY26 PBILDT 11.45% (FY25 8.41%) was helped by **"reversal of excess cost provisions created in earlier years for ongoing projects"**, and CARE projects **~8%** over the medium term. Q1 FY27 screener OPM was 8.2%. **Treat 11% as flattered and ~8–9% as normal.** | CARE GRSE 22-Jun-2026 and 1-Jul-2025 [V] |
+| S25 | §2.3 GRSE "~25% non-defence" | ~25% | The GRSE AR says non-defence is **"about 22.5% of the order book"** (Mar-26 basis). CARE says ~76% Navy/Coast Guard (Mar-26) vs ~88% (Mar-25). The CMD's "~25%" is the Jun-26 shipbuilding-only basis. Quote the date. | GRSE AR FY26 [V]; CARE [V] |
+
+## 4.1 Verification table — 40 figures the writer will lean on
+
+Column "Primary?":
+- **P** = primary (company filing, rating rationale, government document, UNCTAD, SEC).
+- **S** = screener (near-primary aggregation of filings).
+- **2** = secondary article, fetched.
+- **snip** = search summary only.
+
+"Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Source (URL / doc) | Fetched? | Primary? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|---|
+| 1 | Combined FY26 revenue (3 yards) | ₹25,030 Cr | screener pages (MAZDOCK/consolidated, COCHINSHIP/consolidated, GRSE) | Yes (pass-1 HTML re-parsed) | S | Yes |
+| 2 | MDL order book 30-Jun-2026 | ₹18,218 Cr = warship ₹11,581 + submarine ₹2,170 + other ₹4,467 | MDL Q1 FY27 deck; **India Ratings 10-Aug-2026** (indiaratings.co.in/pressrelease/84805) | Yes (2 sources) | P | Yes; adds the split |
+| 3 | MDL order book Mar-25 → Sep-25 → Mar-26 | ₹32,260 → **₹27,415** → ₹20,535 Cr | MDL AR FY26; **MDL Q2 FY26 call** (BSE fef41a23) | Yes | P | Yes; adds Sep-25 |
+| 4 | MDL FY26 implied inflow | ~₹1,100 Cr (H1 ~₹710 + H2 ~₹405) | Derived from #3 + standalone revenue (H1 ₹5,555 Cr per call; FY ₹12,840 Cr per AR) | — | E from P | Yes; cross-checked |
+| 5 | MDL onerous-contract expected loss / provision | ₹1,179.72 Cr / ₹1,059.59 Cr (additions ₹634.25 Cr) | MDL AR FY26 note 59 + provisions note | Yes | P | Refines S4 |
+| 6 | MDL LD reversals | FY25 ₹199.37 Cr; FY26 ₹262.47 Cr; P-17A LD held ₹677.58 Cr | MDL AR FY26 note 57 + revenue note | Yes | P | Resolves §H-14 (S3) |
+| 7 | MDL cash + bank Mar-26 | ₹13,096 Cr (AR); **unrestricted ₹11,401 Cr** (Ind-Ra) | MDL AR; India Ratings | Yes | P | Adds the unrestricted figure (S19) |
+| 8 | MDL contract liabilities Mar-26 / Mar-25 | ₹10,303 / ₹15,494 Cr | MDL AR FY26 | Yes (pass-1 PDF) | P | Yes |
+| 9 | MDL revenue from MoD (FY26) | ₹11,077.22 Cr = **86%** of standalone revenue ₹12,840 Cr; MoD receivable ₹2,865 Cr (₹1,478 Cr) | MDL AR note 45 (related parties) | Yes | P | New |
+| 10 | MDL EBITDA incl. other income | FY26 ₹3,402 Cr, 24.33% (FY25 25.62%) | India Ratings 10-Aug-2026 | Yes | P | New (S20) |
+| 11 | MDL GoI stake / OFS floor | 81.22% / ₹2,525 (4.01% offered; 3.61 pp sold) | screener; Business Standard | Yes / snip | S + snip | Yes (S17 adds detail) |
+| 12 | Cochin order book 30-Jun-2026 (consolidated) | **₹22,223 Cr**; defence ~57%; export ₹6,038 Cr (29%) | CARE Cochin 12-Oct-2026 (careratings.com …202610121056_Cochin_Shipyard_Limited.pdf) | Yes | P | New (S7) |
+| 13 | Cochin order book 31-Mar-2026 (standalone SB) | ~₹18,900 Cr (Def ₹12,150 / Dom ₹725 / Export ₹6,025; 51 vessels) | Cochin AR FY26 §8 | Yes | P | Yes |
+| 14 | Cochin order book Jun-25 | ~₹21,100 Cr incl. repair ~₹1,500 Cr; SB ₹19,600 Cr / 75 vessels; defence ₹13,700 Cr | Cochin Q1 FY26 call (BSE 753064f1); CARE 4-Sep-2025 | Yes | P | Yes (upgrades the "primer/CARE" tag) |
+| 15 | Cochin repair segment FY26 | Revenue ₹1,656.3 Cr (−11%); result 25.9% (FY25 39.1%) | Cochin AR segment note 38 | Yes | P | Partly new (S6) |
+| 16 | Cochin shipbuilding segment FY26 | Revenue ₹2,651.4 Cr; result ₹475.4 Cr (17.9%) | Cochin AR segment note 38 | Yes | P | New |
+| 17 | Cochin GoI stake | 63.33% (as on 31-Jul-2026) | CARE 12-Oct-2026; screener; deck | Yes | P | Resolves §H-12 |
+| 18 | Cochin cash + bank Mar-26 | ₹2,406 Cr (AR) / ₹2,385 Cr (CARE) | Cochin AR; CARE | Yes | P | Yes — kills the primer's ₹10,600 Cr |
+| 19 | Cochin FY26 operating margin | PBILDT ₹845 Cr = 16.79% (CARE, TOI ₹5,036 Cr); screener OP 16.5% | CARE 12-Oct-2026 | Yes | P | Yes |
+| 20 | Advance terms | Defence 10% + 5% + 10%; exports 20–30% | CARE Cochin 4-Sep-2025 / 12-Oct-2026 | Yes | P | **No** — replaces "10–15% [K]" (S15) |
+| 21 | Cochin capex plan | ~₹6,000 Cr over 5–6 yrs; 25% government capital grant; DPR not final; gearing 0.31× (Mar-26) | CARE 12-Oct-2026; Cochin call | Yes | P | Broadly (call said ₹6,000–6,500 Cr) |
+| 22 | GRSE order book 31-Mar-2025 | **₹22,681 Cr** | CARE GRSE 1-Jul-2025 | Yes | P | New (S1) |
+| 23 | GRSE order book 31-Mar-2026 | ₹15,324.13 Cr (ship ₹14,969 + repair/AMC ₹133 + bridges ₹128 + deck machinery ₹7 + engines ₹86) | GRSE AR FY26; CARE 22-Jun-2026 | Yes | P | Yes; adds the split |
+| 24 | GRSE order book 30-Jun-2026 | ₹13,596 Cr (SB ₹12,980 Cr) | GRSE Q1 FY27 transcript; AR | Yes | P | Yes |
+| 25 | NGC value for GRSE | ₹33,000 Cr (post-CNC) | GRSE AR FY26; CARE 22-Jun-2026 | Yes | P | Narrows the range (S2) |
+| 26 | GRSE FY26 margin quality | PBILDT 11.45% incl. reversal of excess cost provisions; medium-term ~8% | CARE 22-Jun-2026 / 1-Jul-2025 | Yes | P | New caveat (S24) |
+| 27 | GRSE guarantees | Bank guarantees ₹6,320.66 Cr (2.4× net worth); indemnity bonds ₹1,430 Cr | GRSE AR note 29 | Yes | P | New |
+| 28 | GRSE FY26 deliveries | 8 warships (3 on one day); 118 warships delivered to date | GRSE AR FY26; CARE 2026 | Yes | P | Yes |
+| 29 | P-75I status | FinMin end-May-2026 (28th per AR-news; 29th per Sahi); CNC done 16-Jan-2026; CCS pending at 19-Aug; no signing found to 22-Oct | Army Recognition 19-Aug-2026; News Arena 16-Aug-2026; MDL Jun-26 order book (absent) | Yes | 2 + P (absence) | Yes |
+| 30 | P-17B RFP | 16-Sep-2026; 7 frigates; ~US$8 bn; technical bids ~120 days; award late-2027 | Shephard 25-Sep-2026 | Yes | 2 | Yes |
+| 31 | Defence capital outlay FY27 BE | ₹2,19,306 Cr (Demand 21) / ₹2,31,010 Cr (incl. MoD Civil) | EY Budget 2026 defence highlights; PRS DfG | Yes | P | Resolves the conflict (S11) |
+| 32 | Naval Fleet capital FY27 BE | 11% of capital (PRS) ≈ ₹25,400 Cr [E]; ₹25,023 Cr (press) | PRS [V]; press [snip] | Partly | P (share) / snip (₹) | Yes |
+| 33 | Navy total budget FY26; ships under construction | ₹1,03,548 Cr; 51 large ships ~₹90,000 Cr | PIB 3-Dec-2025 (static.pib.gov.in …doc2025123716101.pdf) | Yes | P | New (S21) |
+| 34 | Maritime package | ₹69,725 Cr = SBFAS ₹24,736 Cr + MDF ₹25,000 Cr + SbDS ₹19,989 Cr | Maritime Gateway (pass 1); IANS 14-Mar-2026 restates SBFAS ₹24,736 Cr | Yes | 2 | Yes |
+| 35 | SBFAP rate schedule | 20% → 17% → 14%; 30% green fuel; 20% electric/hybrid | shipmin.gov.in "Modified SBFAP guidelines" (29-Jan-2025) | Yes | P | **Corrects** the [K] taper (S12) |
+| 36 | SBFAP payouts to date | ₹620.57 Cr to 23 yards for 204 vessels; 288 contracts / ₹19,748 Cr / 456 vessels approved in principle | IANS 14-Mar-2026 (Lok Sabha written reply, Sonowal) | Yes | 2 (of P) | New (closes §H-6) |
+| 37 | Budget 2025-26 shipbuilding measures | BCD exemption +10 yrs; large ships into HML; MDF ₹25,000 Cr; SBFAP revamp | indiabudget.gov.in budget speech 2025-26 | Yes | P | Upgrades [K] (S13) |
+| 38 | India's share of world shipbuilding | 0.06% of 2024 output (GT); China 54.57%, Korea 28.02%, Japan 12.56% | UNCTAD RMT 2025, Table II.1 | Yes | P | Replaces <1% / 0.07% (S9) |
+| 39 | 2025 global new orders (CGT) | 56.43 m CGT; China 63%, Korea 21% | Asia Business Daily, 7-Jan-2026 (Clarksons) | Yes (pass 1) | 2 | Yes |
+| 40 | Western naval-prime margin and multiple | HII FY25 OPM 5.3% (segment 5.7%); P/E 16.3× TTM | HII 8-K (sec.gov …hiiq42025earningsrelease.htm); companiesmarketcap | Yes | P / aggregator | Replaces [K] (S18) |
+
+**Score: 32 of 40 rest on a primary document fetched or re-read in this pass.** These are #2–10, 12–28, 31, 33, 35, 37, 38 and 40. #1 and #11 are screener; #29, #30, #34, #36 and #39 are fetched secondary articles; #32 is partly a snippet.
+
+**Conflicts and which source to believe**
+- **GRSE order book.**
+  - CARE's Mar-25 ₹22,681 Cr against the AR's Mar-26 ₹15,324 Cr gives an FY26 inflow below zero (−₹355 Cr). Possible causes: de-scoping or price revisions, or revenue booked outside the order book (spares, repair, engineering).
+  - Believe both figures, and call FY26 inflow "nil".
+- **Cochin margin basis.** The CFO gave two answers ("normally we include the interest income" vs "I have not considered other income"). The arithmetic of the guide supports the ex-OI reading, so believe that one.
+- **P-75I clearance date.** Army Recognition says 28-May, Sahi says 29-May. Use "end-May 2026".
+- **Ships under construction.**
+  - PRS: 58 naval ships under construction and 62 approved (2025). PIB: 51 *large* ships, ~₹90,000 Cr (Dec-2025).
+  - Both are government-sourced and differ in scope. Use PIB for the value and PRS for the count.
+
+## 4.2 Company deep-dives (management digest · concall KPIs · 5-year · 8-quarter · annual-report findings)
+
+Basis: MDL and Cochin consolidated, GRSE standalone (as in Parts 1–3).
+- 5-year and 8-quarter numbers are screener 22-Oct-2026 [V S], re-parsed in this pass.
+- ROE is computed as PAT ÷ average year-end equity [E]. ROCE and working-capital days are screener's.
+- OI ÷ PBT = other income ÷ profit before tax [E].
+
+### 4.2.1 Mazagon Dock Shipbuilders (MAZDOCK · 543237)
+
+**Management-guidance digest.** MDL has not hosted an earnings call since **28-Oct-2025 (Q2 FY26)**. Screener's concall list shows no Q3 FY26, Q4 FY26 or Q1 FY27 transcript, so the latest guidance is that call plus the 23-Sep-2026 analyst deck and India Ratings' 10-Aug-2026 note. Paraphrased:
+
+1. **Revenue.** FY26 was guided at "approximately ₹12,500 Cr" (CMD, 28-Oct-2025). The outcome was **₹12,840 Cr standalone / ₹13,006 Cr consolidated, a beat of ~3–4%**. FY27 was guided at "maybe another 5% growth" (~₹13,100–13,500 Cr). Beyond that, growth depends on new orders. Q1 FY27 standalone revenue was +5.5% (Ind-Ra), on track [V].
+2. **Margin.** "For operationally efficient shipyards ~15%" (CMD). New projects run at **12–15%**. End-of-project margins reach **25–30%** because warranty and liability provisions are released at completion (Director Finance). The FY26 screener OPM of 17.4% (underlying ~18.7% after one-offs, S4) is therefore **completion-phase** margin on P-15B/P-17A. The next programmes (P-75I, P-17B) would start at 12–15% [V call].
+3. **Onerous contracts.** About ₹1,000 Cr was provided in Q4 FY25 + Q1 FY26 for **two fixed-price contracts: ICGS (Coast Guard) and the Navi Merchants hybrid MPVs**. "Wherever the provision were required for, are already made." ONGC work is mostly cost-plus; one PRP contract is fixed-price and "within bid cost" [V call]. The AR then added a further ₹634 Cr of provisions in FY26 (S4), so the "already made" assurance did not fully hold [E].
+4. **LD.** ₹102 Cr of LD was written back in Q2 FY26 (P-17A second ship). MDL expects **~₹100 Cr of submarine LD waiver** from MoD [V call]. The FY26 total reversal was ₹262 Cr [V AR].
+5. **Order timing — a record of slipped guidance.**
+   - **Three extra Scorpenes:** commercial negotiations completed "a few months ago… at the sanction stage" (Oct-2025). They are not in the Jun-26 book.
+   - **P-75I:** "sign the contract by this financial year" (i.e. by Mar-2026). Missed.
+   - **P-17B RFP:** "any time next month or definitely in this calendar year" (i.e. Nov–Dec-2025). It was issued **16-Sep-2026**.
+   - **LPD:** "a year from now" (~Oct-2026).
+   - Ind-Ra (Aug-2026): management says MDL is "in advanced stages of signing various government orders in FY27" [V].
+6. **Pipeline sizes (CMD).** LPD ₹35,000–40,000 Cr; MCMV ~₹40,000 Cr; P-17B ₹50,000–60,000 Cr; next-generation destroyer (P-15C/NGD) ₹70,000–80,000 Cr [V call]. GRSE's CMD expects no NGD RFP before FY29 [V].
+7. **Revenue start.** P-75I would book revenue ~6 months after signing (a one-year preparatory period, but work has already started). Add-on Scorpenes would book "immediately" [V call]. MDL has spent **₹100.6 Cr** (FY26) and ₹35.7 Cr (FY25) on concept and design for "a future contract", expensed (AR note 58).
+8. **Colombo Dockyard.** Revenue ~₹1,000 Cr, ~15% margin; target ~₹1,500 Cr in a year or so. 100% ownership would cost ~₹450 Cr; MDL ended at 51% for ₹236.95 Cr [V call; V AR].
+9. **Capex.** ~₹500 Cr a year, internally funded (Ind-Ra). MoD approval is needed for any single capex >₹1,000 Cr. Bank limits were raised from ₹2,500 Cr to **₹5,000 Cr** (Ind-Ra, Aug-2026), mostly non-fund-based (guarantees and LCs). That is consistent with preparing to post performance and advance guarantees on new contracts [V; E].
+10. **Q2 FY27.** The board meets **27-Oct-2026** for results and **an interim dividend for FY27**. The trading window is closed to 29-Oct [V BSE 22-Oct-2026]. FY26's first interim was declared at the Q2 board (Nov-2025) [K].
+
+**Concall / agency KPI table**
+
+| KPI | Value | Date | Source |
+|---|---|---|---|
+| Order book | ₹27,415 Cr | 30-Sep-2025 | Q2 FY26 call [V] |
+| Order book | ₹20,535 Cr | 31-Mar-2026 | AR [V] |
+| Order book (warship / submarine / other) | ₹18,218 Cr (11,581 / 2,170 / 4,467) | 30-Jun-2026 | Ind-Ra [V] |
+| FY26 revenue guide → actual (standalone) | ~₹12,500 Cr → ₹12,840 Cr | FY26 | call / AR [V] |
+| FY27 revenue guide | ~+5% | Oct-2025 | call [V] |
+| "Stable" margin guide | ~15% (new projects 12–15%) | Oct-2025 | call [V] |
+| EBITDA incl. other income | 24.33% (₹3,402 Cr) | FY26 | Ind-Ra [V] |
+| Shipbuilding share of revenue | avg 71.47% FY22–FY26 | — | Ind-Ra [V] |
+| Unrestricted cash + bank | ₹11,401 Cr (FY25 ₹16,149 Cr) | Mar-2026 | Ind-Ra [V] |
+| Bid/design spend expensed | ₹100.6 Cr (₹35.7 Cr) | FY26 | AR note 58 [V] |
+| Vessels under construction | 34 | Mar-2026 | AR [V] |
+| Ship-repair revenue (standalone) | ₹1,032 Cr (₹547 Cr) | FY26 | AR [V] |
+
+**5-year history (consolidated, ₹ Cr)**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 5,733 | 7,827 | 9,467 | 11,432 | 13,006 |
+| Operating profit (ex-OI) | 441 | 801 | 1,416 | 2,093 | 2,268 |
+| OPM % | 8 | 10 | 15 | 18 | 17 |
+| Other income | 396 | 687 | 1,101 | 1,112 | 1,139 |
+| PBT | 749 | 1,403 | 2,425 | 3,062 | 3,237 |
+| PAT | 611 | 1,119 | 1,937 | 2,414 | 2,578 |
+| OI ÷ PBT % | 53 | 49 | 45 | 36 | 35 |
+| Net worth (year-end) | 3,858 | 4,760 | 6,244 | 7,940 | 9,755 |
+| ROE % (avg equity) | 16.8 | 26.0 | 35.2 | 34.0 | 29.1 |
+| ROCE % (screener) | 21 | 33 | 44 | 43 | 36 |
+| CFO | −163 | 1,516 | 684 | 2,102 | −2,654 |
+| Working-capital days | −645 | −528 | −426 | −356 | −187 |
+| Dividend payout % | 29 | 29 | 29 | 29 | 28 |
+
+**8-quarter trend (consolidated, ₹ Cr)**
+
+| | Q2 FY25 (Sep-24) | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 (Jun-26) |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 2,757 | 3,144 | 3,174 | 2,626 | 2,929 | 3,601 | 3,850 | 2,943 |
+| Revenue YoY % | — | — | — | +11.4 | +6.2 | +14.5 | +21.3 | +12.1 |
+| OP | 511 | 817 | 119 | 302 | 695 | 887 | 543 | 447 |
+| OPM % | 19 | 26 | 3.8 | 11 | 24 | 25 | 14 | 15 |
+| Other income | 258 | 291 | 287 | 324 | 271 | 262 | 283 | 313 |
+| PBT | 740 | 1,063 | 370 | 567 | 934 | 1,120 | 793 | 686 |
+| PAT | 585 | 807 | 325 | 452 | 749 | 880 | 674 | 550 |
+| OI ÷ PBT % | 35 | 27 | 78 | 57 | 29 | 23 | 36 | 46 |
+
+Read: Q4 FY25 and Q1 FY26 are the onerous-provision quarters (CMD). Q2–Q3 FY26 carry the LD write-backs. Interest cost rose to ₹44 Cr in Q1 FY27 (from ₹8–10 Cr), reflecting the overdraft against liened FDs [V screener; E]. Other income was 46% of Q1 FY27 PBT.
+
+**Annual-report findings (FY26 AR, re-read) [V]**
+- **Related parties / customer concentration.** MDL is exempt from detailed Ind AS 24 disclosure for transactions with government entities.
+  - Note 45 still discloses **revenue from MoD of ₹11,077.22 Cr (FY25 ₹10,315.35 Cr) = 86% of standalone revenue**.
+  - Amount receivable from MoD: **₹2,865 Cr (₹1,478 Cr)**, which explains the receivables jump to ₹2,606 Cr.
+  - Dividend paid to MoD: ₹629 Cr.
+  - **No royalty or brand fee** of the kind private groups pay. The only "group" flows are dividends from Goa Shipyard (₹5.5 Cr vs ₹47.5 Cr) and none from Colombo Dockyard.
+- **Contingent liabilities and commitments (note 36):**
+  - Indemnity bonds to customers (mainly MoD) **₹24,732 Cr (₹34,875 Cr)**. These track the open MoD order book.
+  - Bank guarantees ₹1,221 Cr (₹971 Cr); letters of credit ₹601 Cr (₹742 Cr).
+  - Capital commitments ₹539 Cr (₹1,392 Cr).
+  - Claims not acknowledged as debt **₹284.9 Cr (₹71.4 Cr)**, of which suppliers/sub-contractors ₹226.9 Cr (₹14.3 Cr). This 16× jump fits fixed-price cost pressure on the ICGS/MPV contracts [E].
+  - Sales-tax disputes reimbursable by customers: ₹1,160.6 Cr.
+  - Russian deferred state credit: ₹59 Cr, reimbursable by the Navy.
+- **Provisions:**
+  - Expected losses ₹1,059.59 Cr (S4).
+  - Guarantee repairs ₹193.60 Cr (₹274.78 Cr; added ₹100 Cr, used ₹181.18 Cr).
+  - LD provision ₹11.06 Cr (unchanged).
+  - P-17A LD netted in contract balances: ₹677.58 Cr.
+- **Capacity (MD&A):**
+  - 3 dry docks, 3 wet basins, 3 large slipways; submarine dry dock; shore-integration facility.
+  - Under way: 12,000-t floating dry dock (target Jul-2026), new caisson gate for the East Yard dry dock (Aug-2026), South Yard Annex (15 acres; "waterfront handling capacity from 80 DWT to 200 DWT" [sic, likely thousand DWT]), and the Nhava greenfield yard (37 acres; hard stands, jetty, LL cranes) for ships and offshore platforms.
+  - Concurrent capacity: 11 submarines + 10 warships (deck).
+- **Deliveries (dated).** Year-by-year: FY22 2, FY23 2, FY24 1, FY25 3, FY26 2, FY27 YTD 1 major combatant.
+  - P-15B: 28-Oct-2021, 24-Nov-2022, 20-Oct-2023, Surat 20-Dec-2024 [V AR].
+  - P-17A: Nilgiri 20-Dec-2024, Udaygiri 1-Jul-2025, Taragiri 28-Nov-2025, Mahendragiri 30-Apr-2026 [V].
+  - Kalvari class: Vela Nov-2021, Vagir Dec-2022, Vagsheer Jan-2025 [K dates; V class completion].
+- **Risks named (MD&A §H):** project execution (milestones, cost overruns), supply chain, dependence on overseas suppliers (sanctions), infrastructure/waterfront constraints, regulatory. **Order-inflow concentration is not named as a risk.**
+- **Labour Codes (note 62):** the four new codes are noted; impact being assessed [V].
+
+### 4.2.2 Cochin Shipyard (COCHINSHIP · 540678)
+
+**Management-guidance digest** (Sep-2026 business-update call, 10-Sep-2026, re-read; Q1 FY26 call, 19-Aug-2025, new; paraphrased):
+1. **Revenue.** "Normally we guide around 12% every year." The outcome is usually 12–15% on FY26 consolidated ₹5,022 Cr (→ ~₹5,625–5,775 Cr FY27) [V].
+   - **Track record:** in Aug-2025 FY26 was framed the same way. The outcome was **+4.2%** (₹4,820 → ₹5,022 Cr) — **a miss**, driven by repair (−11%).
+   - Q1 FY27 was +2.3% [V screener].
+2. **Margin.** "EBITDA margin will be around 14%, blended, on a very conservative basis." Shipbuilding 10–12% (~70% of turnover), repair 22–24% (~30%).
+   - On basis, the CFO's final answer was that **other income was not considered** (S5).
+   - Past higher margins came from **nominated carrier work and a cash surplus "not there now"** after ~₹3,000 Cr of self-funded capex [V].
+   - In Aug-2025 the FY26 guide was **PAT margin ~15%**; the outcome was 14.3% (₹717/₹5,022 Cr) [V; E].
+3. **Repair.**
+   - FY26 was guided at "~₹1,500 Cr"; the outcome was ₹1,656 Cr, but that was **down from ₹1,865 Cr**, and the segment result fell from 39% to 26% (S6).
+   - **ISRF targets:** in Aug-2025, ₹250 Cr extra revenue in 18–24 months and ₹600 Cr+ at full run. In Sep-2026, ~₹600 Cr in 2 years and ₹1,000–1,200 Cr in 5 years — before the DDW JV, which will now take a 50% share [V].
+   - Vadinar: ₹300 Cr → ₹500–600 Cr. Tuticorin: ₹650–700 Cr → ₹1,800–2,000 Cr [V].
+4. **Long-range ambition (Aug-2025):** "₹10,000, 11,000, ₹12,000 crores in about 2030-31" of revenue, i.e. ~2.2× FY26, after ~₹3,250 Cr of completed capex [V].
+5. **Cash flow.** Export contracts are "tail-ended" (60–70% paid at delivery). CARE puts export advances at **20–30%**, so working-capital lines have been used since FY26. The CFO expects **positive CFO in FY27** as export vessels deliver (2 MPVs, 2 CSOVs, 1 Samskip boat) [V].
+6. **Orders and pipeline.**
+   - L1 on NGSV (~₹5,000 Cr). LPD (~₹32,000 Cr) "most suitable for us". MCMV (~₹36,000 Cr). P-17B ("other yards more competitive"). **IAC-2 has not reached AoN.** DCI dredger sister ~₹1,300 Cr [V].
+   - **9-Oct-2026 rumour reply:** the ET story of "40 ships from US, Germany, Norway" is wrong. "All orders… already intimated… **no further firm orders to report**" [V BSE].
+7. **JVs.** ISRF → DDW 50:50 JV at ₹1,800 Cr (₹900 Cr cash + ₹900 Cr equity), pending shareholder (postal ballot), MoPSW and DIPAM approvals. HD KSOE block-fabrication JV dropped; Cochin will build a smaller facility alone. HBL battery JV (40%) [V].
+8. **Capex.** ~₹6,000 Cr over 5–6 years; 25% government capital grant (SbDS); the balance from debt and equity. The DPR is not final (CARE). Debt gearing rose to 0.31× (Mar-26) from 0.14× [V].
+
+**Concall / agency KPI table**
+
+| KPI | Value | Date | Source |
+|---|---|---|---|
+| Order book (consolidated) | ~₹21,100 Cr (repair ~₹1,500 Cr; SB ₹19,600 Cr / 75 vessels; defence ₹13,700 Cr / 14 vessels) | 30-Jun-2025 | Q1 FY26 call [V] |
+| Order book (standalone SB) | ~₹18,900 Cr / 51 vessels | 31-Mar-2026 | AR [V] |
+| Order book (consolidated) | **₹22,223 Cr**; defence ~57%; export ₹6,038 Cr (29%); Udupi ₹2,003 Cr | 30-Jun-2026 | CARE [V] |
+| Order book (deck) | ~₹21,900 Cr (SB ₹20,700 Cr + repair ₹1,200 Cr; 78 vessels) | Sep-2026 | deck [V] |
+| 12-month inflow (Jul-25–Jun-26) | ~₹6,170 Cr → book-to-bill ~1.2× | — | [E] from CARE |
+| PBILDT (CARE, ex-OI) | 16.79% (FY25 19.03%); Q1 FY27 17.65% | FY26 | CARE [V] |
+| Interest coverage | 7.6× (FY25 16.7×) | FY26 | CARE [V] |
+| Gross cash accruals | ₹1,060 Cr (FY26); ₹203 Cr (Q1 FY27) | — | CARE [V] |
+| Vessels delivered since inception | 219 (52 foreign) | 31-Mar-2026 | CARE [V] |
+| Dock capability | SB dock 300,000 DWT; repair dock 225,000 DWT; new 310-m dock + ISRF (₹2,770 Cr) | — | CARE [V] |
+
+**5-year history (consolidated, ₹ Cr)**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 3,191 | 2,365 | 3,830 | 4,820 | 5,022 |
+| Operating profit (ex-OI) | 627 | 262 | 882 | 895 | 831 |
+| OPM % | 20 | 11 | 23 | 19 | 17 |
+| Other income | 260 | 269 | 310 | 389 | 409 |
+| Interest | 53 | 43 | 46 | 55 | 111 |
+| Depreciation | 68 | 69 | 75 | 103 | 130 |
+| PBT | 766 | 418 | 1,071 | 1,125 | 999 |
+| PAT | 564 | 305 | 783 | 827 | 717 |
+| OI ÷ PBT % | 34 | 64 | 29 | 35 | 41 |
+| Net worth (year-end) | 4,394 | 4,428 | 5,004 | 5,580 | 5,873 |
+| Borrowings | 554 | 587 | 502 | 560 | 1,672 |
+| ROE % (avg equity) | 13.4 | 6.9 | 16.6 | 15.6 | 12.5 |
+| ROCE % (screener) | 17 | 8 | 21 | 20 | 16 |
+| CFO | 1,398 | 1,889 | −172 | −284 | −1,234 |
+| Working-capital days | −95 | −423 | −168 | −54 | +16 |
+| Dividend payout % | 39 | 73 | 33 | 31 | 33 |
+
+**8-quarter trend (consolidated, ₹ Cr)**
+
+| | Q2 FY25 (Sep-24) | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 (Jun-26) |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,143 | 1,148 | 1,758 | 1,069 | 1,119 | 1,350 | 1,484 | 1,094 |
+| Revenue YoY % | — | — | — | +38.7 | −2.1 | +17.6 | −15.6 | +2.3 |
+| OP | 197 | 237 | 266 | 241 | 74 | 187 | 310 | 193 |
+| OPM % | 17 | 21 | 15 | 23 | 7 | 14 | 21 | 18 |
+| Other income | 101 | 47 | 157 | 54 | 127 | 71 | 157 | 67 |
+| Interest | 9 | 11 | 12 | 12 | 20 | 28 | 32 | 25 |
+| PBT | 263 | 242 | 384 | 250 | 150 | 197 | 403 | 202 |
+| PAT | 189 | 177 | 287 | 188 | 108 | 145 | 276 | 151 |
+| OI ÷ PBT % | 38 | 19 | 41 | 22 | 85 | 36 | 39 | 33 |
+
+Read:
+- Interest cost has roughly tripled in five quarters (₹9 → ₹25–32 Cr) as working-capital lines and the ₹150 Cr bond are drawn [V screener; CARE].
+- PAT has fallen YoY for **four consecutive quarters** (Q2 FY26 −43%, Q3 −18%, Q4 −4%, Q1 FY27 −20%), after +8% in Q1 FY26.
+- Q2 FY26 (7% OPM) was the repair trough.
+
+**Annual-report findings (FY26 AR, re-read) [V]**
+- **Segments** (standalone; ₹ Cr):
+  - Shipbuilding revenue 2,651.4 (2,663.3), result 475.4 (434.2).
+  - Ship repair revenue 1,656.3 (1,864.6), result 429.4 (729.2).
+  - Unallocated (other income) 404.6, result 64.8.
+  - Segment assets: SB ₹9,819 Cr; repair ₹3,689 Cr (the ISRF/new-dock base). Segment liabilities: SB ₹5,998 Cr (advances); repair ₹403 Cr (₹1,019 Cr).
+  - **Repair now earns 26% on an asset base of ~₹3,700 Cr, versus 39% a year ago** [E].
+- **Customer concentration:**
+  - Two customers = **59.9% of shipbuilding revenue** (₹1,588 Cr; FY25 ₹2,067 Cr).
+  - Two customers = **60.9% of repair revenue** (₹1,008 Cr; FY25 ₹1,530 Cr). Almost certainly the Navy and Coast Guard on both sides [E].
+- **Related parties.** No materially significant RPTs. Subsidiaries (Udupi, Hooghly), the HBL JV and Conoship are at arm's length. **No royalty or brand fee.**
+  - Cochin has given a **joint-and-several guarantee for Udupi-CSL's 11-tug Ocean Sparkle contract** (₹78.1 Cr refundable advance; 2 of 11 delivered in FY26).
+- **Contingent liabilities (note 48):**
+  - Supplier/sub-contractor claims ₹240.4 Cr (₹273.1 Cr), "under conciliation".
+  - Bank guarantees **₹2,332 Cr (₹2,016 Cr)**; LCs ₹181.6 Cr.
+- **Order inflow named in FY26 (directors' report §8):**
+  - 2 × 70T tugs + 2 × 60T green tugs (Polestar Maritime).
+  - 4 × fully electric 70T "TRAnsverse 2600E" tugs (Svitzer, Denmark).
+  - 6 × 1,700 TEU LNG feeders (CMA CGM).
+  - No naval order. **Cochin's FY26 inflow was entirely commercial.**
+- **Deliveries FY26 (standalone):**
+  - 2 ASW-SWC (incl. INS Mahe, commissioned 24-Nov-2025 [V PIB]).
+  - 1 MPV (HS Service GmbH & Co. KG, Germany).
+  - 1 hybrid electric catamaran (IWAI).
+  - Kochi Water Metro boats (19th and 20th).
+  - Udupi-CSL: 4 × 3,800 TDW cargo vessels (Wilson) plus the first green tugs.
+  - CARE's count of vessels delivered since inception rose from 180 (Sep-2025 report) to 219 (Oct-2026 report). Most are small craft [E].
+- **Outlook (MD&A §13).** "Defence shipbuilding order book is expected to grow by 8–9% over the coming years". The SWOT weaknesses include **"virtually non-existent indigenous ancillary industries"** and "Governmental system induced procedural delays" [V].
+- **Dividend.** ₹9/share (₹4 + ₹3.50 interim; ₹1.50 final) = ₹236.77 Cr [V].
+
+### 4.2.3 Garden Reach Shipbuilders & Engineers (GRSE · 542011)
+
+**Management-guidance digest.** Sources (paraphrased): Q4 FY26 call (12-May-2026) and Q1 FY27 call (6-Aug-2026), both re-read; FY26 AR; CARE 22-Jun-2026.
+1. **Revenue.**
+   - FY27 accrual "is going to be very healthy, in line with… the last three or four years" (May-2026). Q1's run-rate "will be able to replicate in the coming quarters" (Aug-2026) [V].
+   - Asked whether FY28 will not dip: "**No, I did not state that**." FY28 rests on the balance projects (NGOPV, research vessels, commercial ships) plus NGC design revenue [V].
+   - The remaining P-17A (~₹4,500 Cr) and ASW-SWC (~₹1,816 Cr) — **46% of the Jun-26 book** — complete in FY27.
+2. **Margin.**
+   - An analyst framed sustainable EBITDA at **9.5–10%** after stripping the Q4 FY25 and Q4 FY26 provision write-backs (FY25 8.3%, FY26 11.6%). The CMD: "we will be able to maintain similar margins" in FY27, but "I really can't say the exact" [V].
+   - CARE independently notes the FY26 margin "benefited from reversal of excess cost provisions" and projects **~8%** [V].
+   - Q1 FY27 screener OPM was 8.2%.
+   - **Read: ~9–10% is the defensible FY27 range; 11.5% needs another write-back** [E].
+3. **Costs.** The 8th Pay Commission is expected to add **15–20% to employee cost**, already "factored in" (Aug-2026) [V]. Contract-labour and other expenses swing with delivery quarters (Q4 FY26 had three commissionings) [V].
+4. **NGC timing — slippage record.** The guided signing date has moved four times: FY26 (Aug-2025 call) → "by 31st March" 2026 (expected earlier) → Q2 FY27 (Aug-2026) → still unsigned on 22-Oct-2026 (GRSE filings to 16-Oct show only director appointments) [V].
+   - Value **₹33,000 Cr for five ships** after price negotiation (AR) [V].
+   - Revenue starts FY28 at **3–5% of value a year** in FY28–29. First delivery ~5 years after signing; the last ships around 2034-35 [V].
+5. **Pipeline.**
+   - AoN-stage projects total ~₹1.5 lakh Cr ex-NGC (May-2026):
+     - 2 MPVs ~₹1,500 Cr.
+     - 5 ICG NGOPV ~₹2,000 Cr.
+     - 22 interceptors ~₹1,000 Cr.
+     - 120 FICs ~₹3,500 Cr.
+     - 31 follow-on FACs ~₹3,500 Cr.
+     - **7 P-17B ~₹70,000 Cr.**
+     - **12 MCMV — AoN ~₹32,000 Cr** (the CMD's figure; Parts 1–3 use ₹36,000 Cr).
+     - 4 LPD ~₹35,000 Cr.
+   - In Aug-2026: ~₹80,000 Cr of RFPs live and ~₹60,000 Cr more this year, contested by "five to six shipyards". No NGD RFP before FY29 [V].
+6. **Capex.** Brownfield ~₹200 Cr within a year; east-coast greenfield ~₹2,200 Cr and Gujarat ~₹2,000 Cr. Concurrent capacity rises from 28 to 43 platforms. CARE models **₹500–600 Cr over two years from internal accruals** [V].
+7. **Indigenisation (CMD).** "Float" 100%, "move" ~60–70%, "fight" lower; ~80–85% overall. 100% will take 5–10 years [V].
+
+**Concall / agency KPI table**
+
+| KPI | Value | Date | Source |
+|---|---|---|---|
+| Order book | **₹22,681 Cr** (Navy/CG ~88%; P-17A ₹11,436 Cr) | 31-Mar-2025 | CARE 1-Jul-2025 [V] |
+| Order book | ₹15,324.13 Cr (Navy/CG ~76%; P-17A ₹5,868 Cr; non-defence ~22.5%) | 31-Mar-2026 | AR; CARE [V] |
+| Order book | ₹13,596 Cr (SB ₹12,980 Cr; P-17A ~₹4,519 Cr; ASW ₹1,815 Cr; NGOPV ₹3,075 Cr) | 30-Jun-2026 | Q1 FY27 call [V] |
+| FY26 implied inflow / book-to-bill | ≈ nil / ~0× | FY26 | [E] |
+| NGC (GRSE share, 5 ships) | ₹33,000 Cr, CNC complete, unsigned | Oct-2026 | AR; CARE [V] |
+| PBILDT margin | 8.30% (FY25) → 11.45% (FY26; provision write-backs); CARE medium-term ~8% | — | CARE [V] |
+| Interest income | ₹250 Cr (FY25) → ₹246 Cr (FY26) | — | CARE; AR [V] |
+| Cash + bank | ₹3,720 Cr (Mar-24) → ₹3,732 Cr (Mar-25) → ₹3,634 Cr (Mar-26) | — | CARE; AR [V] |
+| Ship-repair revenue | ₹272.93 Cr (FY25 ₹113.82 Cr) | FY26 | AR [V] |
+| Platforms under construction | 39 (May-2026); 44 platforms / 11 projects (Aug-2026) | — | calls [V] |
+| Warships delivered | 8 in FY26; 118 to date | Mar-2026 | AR; CARE [V] |
+| Bailey bridges | 110 (11,254 MT; 30 exported); vertical > ₹200 Cr | FY26 | AR [V] |
+| CARE rating trigger | Liquid funds < ₹3,000 Cr on a sustained basis → negative | Jun-2026 | CARE [V] |
+
+**5-year history (standalone, ₹ Cr)**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 1,754 | 2,561 | 3,593 | 5,076 | 7,002 |
+| Operating profit (ex-OI) | 141 | 149 | 235 | 422 | 795 |
+| OPM % | 8 | 6 | 7 | 8 | 11 |
+| Other income | 154 | 202 | 300 | 335 | 274 |
+| PBT | 257 | 305 | 481 | 703 | 1,005 |
+| PAT | 190 | 228 | 357 | 527 | 748 |
+| OI ÷ PBT % | 60 | 66 | 62 | 48 | 27 |
+| Net worth (year-end) | 1,258 | 1,414 | 1,674 | 2,080 | 2,627 |
+| ROE % (avg equity) | 15.9 | 17.1 | 23.1 | 28.1 | 31.8 |
+| ROCE % (screener) | 20 | 20 | 27 | 37 | 43 |
+| CFO | −356 | 1,450 | −707 | 16 | −290 |
+| Working-capital days | −660 | −546 | −276 | −169 | −80 |
+| Dividend payout % | 35 | 31 | 30 | 30 | 27 |
+| Order book, year-end | n/a | n/a | n/a | 22,681 | 15,324 |
+
+**8-quarter trend (standalone, ₹ Cr)**
+
+| | Q2 FY25 (Sep-24) | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 (Jun-26) |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,153 | 1,271 | 1,642 | 1,310 | 1,677 | 1,896 | 2,119 | 1,815 |
+| Revenue YoY % | — | — | — | +29.7 | +45.4 | +49.2 | +29.0 | +38.5 |
+| OP | 69 | 75 | 221 | 112 | 156 | 172 | 355 | 149 |
+| OPM % | 6 | 6 | 13 | 9 | 9 | 9 | 17 | 8 |
+| Other income | 75 | 72 | 114 | 73 | 69 | 62 | 71 | 100 |
+| PBT | 131 | 134 | 324 | 167 | 209 | 218 | 411 | 232 |
+| PAT | 98 | 98 | 244 | 120 | 154 | 171 | 303 | 173 |
+| OI ÷ PBT % | 57 | 54 | 35 | 44 | 33 | 28 | 17 | 43 |
+
+Read: the two Q4 spikes (13% and 17% OPM) are the provision write-back quarters; the other six quarters run at 6–9%. Strip Q4 FY26 and the "normal" FY26 OPM is ~9% (OP ex-Q4 ₹440 Cr on revenue ₹4,883 Cr) [E].
+
+**Annual-report findings (FY26 AR, re-read) [V]**
+- **Order-book composition (31-Mar-2026):**
+  - Ship (incl. gun and spares) ₹14,968.98 Cr; ship repair and AMCs ₹133.42 Cr.
+  - Bailey bridges ₹128.47 Cr; deck machinery and pumps ₹7.21 Cr; engines ₹86.05 Cr.
+  - Nine projects, 39 platforms.
+- **Contingent liabilities (note 29):**
+  - **Bank guarantees ₹6,320.66 Cr (₹6,442.97 Cr) — 2.4× net worth.** These are mostly advance and performance guarantees backing the customer advances. CARE counts the advance-BG portion (₹2,584 Cr at Mar-25) as quasi-debt.
+  - Indemnity bonds for performance and warranties ₹1,430.36 Cr (₹1,260.32 Cr).
+  - Claims not acknowledged ₹93.07 Cr. LCs ₹79.89 Cr (₹2.40 Cr).
+  - Tax disputes: income tax ₹17.9 Cr, GST ₹8.4 Cr, customs ₹8.7 Cr.
+  - **LD on the 30 mm naval-surface-gun contract**: the delivery extension was granted *with* LD imposed. It has been moved from contingent (₹4.8 Cr at Mar-25) into the books.
+- **Key audit matter.** Revenue recognition on shipbuilding contracts by the input (cost) method: shipbuilding revenue **₹5,772.94 Cr (82%)** of ₹7,002.16 Cr revenue from operations (FY25 ₹4,448.53 Cr of ₹5,075.69 Cr). The auditor tested **cost-to-complete estimates and LD assessments**. That is exactly where the FY26 provision reversals sit [V; E].
+- **Related parties.** Government-related-entity exemption applies; **no royalty or brand fee**. MoD is the dominant customer (~76% of the book).
+- **Ship repair.** Revenue ₹272.93 Cr (2.4×), from three leased dry docks at the Khidderpore Dry Dock complex (concession with SMP Kolkata since Oct-2021) and a fourth being taken over. Export refits: Seychelles CG PS Zoroaster, Mauritius CGS Barracuda [V].
+- **SWOT weakness.** "Constraints of a riverine shipyard due to limitations in the depth and width of navigable channels with effects of silting". This is the structural reason for the 10,000 t / 200 m ceiling and the east-coast and Gujarat greenfield plans [V].
+- **People / MSE.** 1,595 regular staff. ₹1,401.36 Cr (69%) of procurement from micro and small enterprises [V].
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. Global shipbuilding output by country, 2024 (% of gross tonnage delivered)** — UNCTAD RMT 2025 Table II.1 (Clarksons) [V]
+
+| Country | China | Korea | Japan | Viet Nam | Philippines | Italy | Germany | Türkiye | **India** | USA | Norway |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Share % | 54.57 | 28.02 | 12.56 | 1.01 | 0.93 | 0.64 | 0.26 | 0.12 | **0.06** | 0.04 | 0.04 |
+
+**D2. 2024 deliveries by builder and ship type (thousand GT)** — UNCTAD Table II.6 [V]
+- Total **71,691**: China 39,118; Korea 20,091; Japan 9,002; Viet Nam 721; Philippines 668; Europe 625; rest of world 1,466.
+- By type: container ships 29,639 (41.3%); bulk 19,072 (26.6%); gas carriers 8,749 (12.2%); tankers 3,630 (5.1%); offshore 2,406 (3.4%); general cargo 1,966; ferries/passenger 1,434; chemical 1,202; other 3,594.
+- India sits inside "rest of world": 0.06% ≈ **43 thousand GT** [E].
+- Context: China took 74.4% of contracted GT in 2024 and held 63.7% of the GT orderbook at start-2025. About 348 yards worldwide won or delivered work in 2024, half the 2007 peak [V].
+
+**D3. Clarksons 2025 new orders (CGT)** [V secondary, pass 1]: total 56.43 m. China 35.37 m (62.7%); Korea 11.6 m (20.6%); Japan ~5–6% (CANSI 6.2%) [V-snip]. Backlog 173.91 m CGT (China 62%, Korea 20%).
+
+**D4. India SBFAP/SBFAS assistance rate by contract year (% of contract price or fair value)** [V shipmin Schedule IV; V-snip SBFAS]
+
+| Contract FY | FY17 | FY18 | FY19 | FY20 | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 | SBFAS (24-Sep-2025 → FY36) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Standard vessel | 20 | 20 | 20 | 17 | 17 | 17 | 14 | 14 | 14 | 14 | 15 (<₹100 Cr) / 20 (≥₹100 Cr) |
+| Green-fuel propulsion | — | — | — | — | — | — | — | — | 30* | 30* | 25 (green/hybrid/specialised) |
+| Electric/hybrid | — | — | — | — | — | — | — | — | 20* | 20* | 25 |
+
+\*The green-fuel and electric/hybrid flat rates appear in the Jan-2025 modified guidelines; their exact start year is not stated on the schedule page.
+
+Outcomes:
+- **SBFAP 2016–2026: 288 contracts, ₹19,748 Cr, 456 vessels approved in principle; ₹620.57 Cr disbursed to 23 yards for 204 vessels** (Lok Sabha, Mar-2026) [V 2].
+- Against the 2016 outlay of ~₹4,000 Cr [K], that is **~15% disbursed in ten years** [E].
+- The average approved contract was ~₹69 Cr for 1.6 vessels, i.e. small craft (tugs, ferries, barges per the reply's vessel list). **The policy has not yet touched an ocean-going merchant ship of size** [E].
+
+**D5. Defence capital (₹ Cr)** [V EY; V PRS]
+
+| | FY25 Actual | FY26 BE | FY26 RE | FY27 BE |
+|---|---|---|---|---|
+| Capital outlay, Defence Services (Demand 21) | n/a | 1,80,000 | 1,86,454 | **2,19,306** |
+| Capital outlay incl. MoD (Civil) (PRS) | 1,70,617 | n/a | 1,97,417 | **2,31,010** |
+| Naval Fleet share (PRS) | 15% | — | 11% | 11% |
+| Naval Fleet ₹ (share × PRS total) [E] | ~25,600 | 24,391 [snip] | ~21,700 | ~25,400 (press 25,023 [snip]) |
+| Naval dockyards/projects share (PRS) | 3% | — | 2% | 2% |
+| Aircraft & aero-engines (Demand 21) | — | 48,614 | ~72,780 | 63,734 [EY chart] |
+
+- Navy total budget: ₹49,623 Cr (FY21) → **₹1,03,548 Cr (FY26)** (PIB) [V].
+- **Naval Fleet capital is ~₹25,000 Cr a year.** A single P-75I (₹70,000 Cr) or P-17B (₹70,000 Cr) is ~2.8 years of the entire line, which is why signatures queue for budget headroom [E].
+
+**D6. Order book, inflow and book-to-bill by yard (₹ Cr)** [V; E]
+
+| Yard | Book t0 | Book t1 | Revenue in window | Implied inflow | Book-to-bill |
+|---|---|---|---|---|---|
+| MDL (Mar-25 → Mar-26, standalone) | 32,260 | 20,535 | 12,840 | ~1,115 | **0.09×** |
+| MDL (Mar-26 → Jun-26) | 20,535 | 18,218 | 2,770 (s/a, Ind-Ra) | ~453 | 0.16× |
+| GRSE (Mar-25 → Mar-26) | 22,681 | 15,324 | 7,002 | ~−355 (nil) | **~0×** |
+| GRSE (Mar-26 → Jun-26) | 15,324 | 13,596 | 1,815 | ~87 | 0.05× |
+| Cochin (Jun-25 → Jun-26, consolidated) | 21,100 | 22,223 | 5,047 | ~6,170 | **~1.2×** |
+| **Three yards (MDL/GRSE Mar-25 → Jun-26; Cochin Jun-25 → Jun-26)** | 76,041 | 54,037 | 29,474 | ~7,470 | **~0.25×** |
+| *of which Navy yards (MDL + GRSE, 15 months)* | 54,941 | 31,814 | 24,427 | ~1,300 | **~0.05×** |
+
+The aggregate rows mix 12- and 15-month windows; treat them as indicative [E]. Ex-Cochin, the two MoD yards replaced only ~5% of what they billed.
+
+**D7. Customer-advance terms** [V CARE]: defence = 10% at signing + 5% at design + 10% at major-material ordering; export commercial = 20–30% upfront, balance at delivery.
+
+**D8. Western and Korean peers, FY2025**
+
+| Company | Revenue | Op. margin | Book-to-bill / backlog | P/E (TTM, Oct-2026) | Source |
+|---|---|---|---|---|---|
+| HII (US) | $12.48 bn (~₹1.18 lakh Cr) | 5.3% (segment 5.7%; NNS 5.1%, Ingalls 7.6%); FY26 guide 5.5–6.5% | n/a | 16.3× (21.9× end-2025) | SEC 8-K [V]; cmc |
+| Fincantieri (IT) | €9.19 bn | EBITDA 7.4% | B2B 2.2×; backlog €63.2 bn (6.9×) | distorted TTM; 46.3× end-2025 | co. release [snip]; cmc |
+| HD HHI (KR) | ₩17.58 tn (~₹1.12 lakh Cr) | 13.5% | n/a | 15.4× (32.4× end-2025) | Korea Herald [snip]; cmc |
+| HD KSOE (KR) | ₩29.93 tn | 13.0% | n/a | n/a | Baird [snip] |
+| Hanwha Ocean (KR) | ₩12.69 tn (~₹81,000 Cr) | 8.7% | orders $10.05 bn | not fetched | JoongAng/Hellenic [snip] |
+| **Indian 3 (agg.)** | ₹25,030 Cr | 15.6% (ex-OI) | ~0.25× (D6; MoD yards ~0.05×) | **30.1×** | screener [S] |
+
+Read: the Indian trio trades at **~2× the TTM P/E of HII and HD HHI**, on lower revenue and a book-to-bill roughly one-ninth of Fincantieri's (0.25× vs 2.2×) [E].
+
+## 4.4 Gap log (§H items and the briefing's gap list)
+
+| # | Gap | Status | Result / what was tried |
+|---|---|---|---|
+| H1 | P-75I CCS / contract status, Oct-2026 | **Still open (partly filled)** | FinMin end-May-2026; CNC done 16-Jan-2026; at CCS stage in Aug-2026 with signing "targeted by September 2026" (Army Recognition, News Arena) [V 2]. No CCS approval or signing found to 22-Oct (three searches; MDL filings on screener to 22-Oct show only the board intimation, the Thoothukudi denial and the trading window). Not in the Jun-26 book. The primer's "IGA signed Jan-2026" remains unverified; the CNC conclusion date is 16-Jan-2026, which may be what the primer meant. |
+| H2 | NGC signing and value | **Value filled; signing still open** | ₹33,000 Cr post-CNC (GRSE AR, CARE) [V]. Unsigned as of 22-Oct-2026: GRSE filings to 16-Oct (director appointments only) [V]; no press report of signing. |
+| H3 | GRSE Mar-25 order book | **Filled** | ₹22,681 Cr (CARE 1-Jul-2025) → FY26 inflow ≈ nil [V; E]. |
+| H4 | Cochin FY26 inflow / Mar-25 book | **Partly filled** | Jun-25 → Jun-26 consolidated inflow ~₹6,170 Cr (B2B ~1.2×) [E from V]. FY26 inflow items named in the AR (tugs, Svitzer e-tugs, CMA CGM feeders) [V]. A Mar-25 like-for-like figure was not fetched (the FY25 AR is on BSE; not downloaded to save budget). |
+| H5 | CMA CGM order value | **Still open** | The AR names the order but not its value. The company's "mega" band (>₹2,000 Cr) and press ~₹3,240 Cr (US$360 m) stand. Cochin's export book rose from ₹6,025 Cr (Mar-26 standalone) to ₹6,038 Cr (Jun-26 consolidated, CARE), which is consistent with the order already being in the Mar-26 book. |
+| H6 | SBFAS revised rates and payouts | **Filled** | SBFAP schedule [V shipmin]; SBFAS 15/20/25% [V-snip]; payouts ₹620.57 Cr / 204 vessels [V 2 of Lok Sabha reply]. Latest SBFAS guideline versions (7-Jan-2026, 14-May-2026) could not be downloaded: shipmin.gov.in rejected the Annexure URL. |
+| H7 | Budget 2025-26 and 2026-27 shipbuilding measures | **Filled** | Budget speeches [V] (S13, S14). |
+| H8 | Naval-fleet ₹ and the ₹2.31 vs ₹2.19 lakh Cr conflict | **Conflict resolved; ₹ series partly filled** | Demand 21 vs incl. MoD Civil [V EY + PRS] (S11). Naval Fleet ₹25,023 Cr (FY27 BE) and ₹24,391 Cr (FY26 BE) remain press [snip]. The Expenditure Budget Demand-21 PDF was not fetched. |
+| H9 | India's global share, consistent basis | **Filled** | 0.06% of 2024 GT output, UNCTAD/Clarksons [V] (S9, S10). No CGT-basis India share found (Clarksons is paywalled). |
+| H10 | Global peer financials and multiples | **Mostly filled** | HII [V 8-K]; Fincantieri, Hanwha Ocean, HD HHI/KSOE [snip, from company releases]; P/Es for HII, HD HHI and Fincantieri from companiesmarketcap [aggregator]. Hanwha Ocean P/E not found; TKMS not attempted. |
+| H11 | Dry-dock dimensions (MDL, GRSE) | **Partly filled** | MDL Ritchie dock 228 × 21 m; Nhava FDD 180 × 44 m; planned ~180 × 60 m graving dock [snip]. GRSE: no dock dimensions found; the AR gives only the 10,000 t / 200 m ceiling, the riverine-channel constraint and the three leased KPDD docks [V]. Swan/Pipavav 662 × 65 m is company-stated [snip]. |
+| H12 | Cochin GoI 63.33% vs 62.87% | **Filled** | 63.33% as on 31-Jul-2026 (CARE) [V]. |
+| H13 | MDL Q2 FY27 board / dividend | **Board filled; amount open** | Board 27-Oct-2026, results plus FY27 interim dividend [V BSE intimation 22-Oct-2026]. The amount is unknowable before 27-Oct. |
+| H14 | Year of MDL's LD reversal | **Filled** | FY25 ₹199.37 Cr and FY26 ₹262.47 Cr [V AR] (S3). |
+| H15 | Deliveries per year per yard FY22–FY26 | **Partly filled** | MDL major combatants FY22 2 / FY23 2 / FY24 1 / FY25 3 / FY26 2 [V AR + K]. GRSE FY26 8 warships; 118 to date (CARE Jun-2026) vs 111 (CARE Jul-2025) [V]. Cochin 219 vessels since inception at Mar-26 vs 180 in the Sep-2025 CARE report (includes small craft) [V]. No consistent FY22–FY25 count for GRSE and Cochin. |
+| G1 | 3 additional Scorpenes | **Still open** | CMD Oct-2025: "commercial negotiations… completed… at the sanction stage" [V]. Nothing since; press says "silence/reconsideration" [snip]. Not in the Jun-26 book [V]. |
+| G2 | P-17B RFP bidders | **Partly filled** | RFP 16-Sep-2026 (Shephard) [V 2]. Recipients MDL/GRSE/GSL/CSL [snip Raksha Anirveda]. The L&T question is unresolved (paywalled). |
+| G3 | IAC-2 AoN | **Filled (negative)** | "Not reached the AoN stage" (Cochin CFO, 10-Sep-2026) [V]. In Aug-2025 Cochin was "not in a position to convey" [V]. |
+| G4 | DAP 2026 notified? | **Still open** | Draft released 10-Feb-2026; comments closed 3-Mar-2026; expected effective 1-Apr-2026 [V 2]. No final notification found. |
+| G5 | Western naval yards' margins | **Filled** | HII 5.3% / NNS 5.1% / Ingalls 7.6% [V]; Fincantieri EBITDA 7.4% [snip]. |
+| G6 | Cochin EBITDA basis / what 14% is measured on | **Filled** | S5. |
+| G7 | Advances at signing and LD caps | **Advances filled; LD cap open** | 10 + 5 + 10% (defence) and 20–30% (exports) [V CARE]. An LD cap of 5–10% stays [K]: DAP/contract texts were not fetched. MDL's P-17A LD of ₹940 Cr at Mar-25 on a ₹27,257 Cr project is 3.4% of contract value, consistent with a ≤5–10% cap [E]. |
+| G8 | MDL Apr-2025 OFS terms | **Filled (secondary)** | S17. |
+| G9 | Swan/Pipavav 662 m dock | **Company-stated only** | Baird Maritime [snip]. |
+
+## 4.5 New insights the first pass missed (for the writer)
+
+1. **The Navy yards stopped replacing their books in FY26.** This is a different situation from the industry as a whole.
+   - Over ~15 months (Mar-25 → Jun-26) MDL and GRSE together billed ~₹24,400 Cr and booked ~₹1,300 Cr of new orders, a **book-to-bill of ~0.05×** [E from V].
+   - Cochin, with no naval inflow at all in FY26, booked ~₹6,200 Cr of **commercial** orders in the year to Jun-26 (~1.2×).
+   - The commercial/export franchise is the only part of listed Indian shipbuilding currently growing its book. The market pays Cochin the highest multiple (45×) for it, but its *margins* on that work are the lowest.
+2. **The profit peak was partly a completion and write-back peak.**
+   - MDL's management says margins are 25–30% at project completion (warranty releases) against 12–15% on new projects. MDL's FY26 credits (LD reversal ₹262 Cr, P-75 amendment ₹123 Cr, inventory-provision reversal ₹90 Cr) total ₹476 Cr, offset by ₹634 Cr of onerous additions.
+   - GRSE's FY26 margin rose on provision write-backs (CARE; analyst estimate of sustainable 9.5–10%).
+   - Cochin's FY25 repair margin of 39% came from one-off carrier refits.
+   - When P-75I or NGC sign, **the first two years will combine low revenue (design phase, 3–10% of value) with new-project margins of 12–15% at MDL and ~8–10% at GRSE**. Margin mean-reversion and the revenue air-pocket arrive together [E].
+3. **The float is being replaced by guarantees and bank lines.**
+   - GRSE's bank guarantees (₹6,321 Cr) are 2.4× its net worth.
+   - MDL doubled its bank limits to ₹5,000 Cr (mostly non-fund) and is drawing an overdraft against liened FDs.
+   - Cochin moved from no working-capital use (12 months to Jul-2025) to regular use since FY26, because export advances are only 20–30%.
+   - The "net-cash fortress" language in the primers needs a liabilities footnote: indemnity bonds of **₹24,732 Cr at MDL** are effectively the Navy's claim on unfinished ships.
+4. **The government's own commercial-ship subsidy barely worked.** SBFAP (2016–26) disbursed **₹620.57 Cr** to 23 yards for 204 mostly small vessels; the average approved contract was ~₹69 Cr.
+   - The FY23–FY26 rate (14%) did not offset the 20–25% cost gap the budget speech itself acknowledged ("to address cost disadvantages").
+   - SBFAS (₹24,736 Cr; 15–25%) is ~6× the size and adds a shipbreaking credit note. Its success should be judged by disbursements for **ocean-going** hulls, not by the headline.
+   - India built **0.06%** of the world's 2024 tonnage — less than Türkiye and only slightly more than the US (0.04%) [V UNCTAD].
+5. **Repair is not the stabiliser the primers say.** Cochin's repair revenue fell 11% and its segment profit fell 41% in FY26 as carrier refits ended.
+   - The highest-return repair asset (ISRF) is now being moved into a 50:50 JV under DP World's operational control.
+   - What stays fully consolidated at Cochin is the lower-margin newbuild business plus the remaining legacy repair docks [V; E].
+6. **Customer concentration is extreme even at the "diversified" yard.** At Cochin, two customers make up ~60% of shipbuilding revenue and ~61% of repair revenue [V AR]. At MDL, MoD is 86% of revenue [V AR]. GRSE's order book is 76% Navy/CG [V CARE].
+7. **Guidance credibility is low on orders, high on execution.**
+   - Every dated order promise in the last 12 months slipped: P-75I by Mar-2026; the Scorpenes "in coming months"; P-17B RFP by Dec-2025; NGC by Mar-2026, then Q2 FY27.
+   - Revenue guidance was met or beaten at MDL (₹12,500 Cr guided vs ₹12,840 Cr) and at GRSE (+38%), but missed at Cochin (12% guided vs +4%).
+   - Writers should present order "expectations" with this track record attached [V calls; E].
+8. **The valuation gap to global peers has widened as Korean multiples halved.** HD HHI is now ~15× TTM (32× at end-2025) and HII ~16×, against India's 27–45×, while Korean yards book 2×+ revenue and Fincantieri's book-to-bill is 2.2× [E].
+
+### New primer issues (format for primer-issues.md)
+
+#### From Shipbuilding deep-research pass (2026-10-22, shipbuilding-industry.md Part 4)
+
+**mazagon-dock.html**
+- **LD reversals in both years.** FY25 ₹199 Cr and FY26 ₹262 Cr (P-17A ships 2–3; AR note 57). P-17A LD still held is ₹678 Cr, which gives upside if waived. Management also expects a ~₹100 Cr submarine LD waiver.
+- **Onerous-contract detail.** The expected-loss provision rose ₹521 → ₹1,060 Cr (additions ₹634 Cr) on the **ICGS and Navi Merchants MPV** fixed-price contracts (Q2 FY26 call).
+  - FY26 one-offs net ≈ −₹158 Cr → underlying OPM ~18.7%.
+  - Say plainly that new-project margins are guided at 12–15% vs 25–30% at completion.
+- **Guidance record.** FY26 revenue guided ~₹12,500 Cr vs actual ₹12,840 Cr (s/a). FY27 guided at only **~+5%**. P-75I signing was guided "by FY26" and missed; CNC concluded 16-Jan-2026; at CCS since Aug-2026; still unsigned 22-Oct-2026.
+- **Investor communication.** No earnings call since 28-Oct-2025 (latest transcript Q2 FY26). Note this if the primer cites "management commentary".
+- **Concentration.** MoD revenue ₹11,077 Cr = 86% of standalone FY26 revenue; MoD receivable ₹2,865 Cr.
+- **Liabilities behind the cash.**
+  - Unrestricted cash ₹11,401 Cr (Ind-Ra), not ₹13,096 Cr.
+  - Indemnity bonds to MoD ₹24,732 Cr.
+  - Supplier claims not acknowledged ₹227 Cr (₹14 Cr).
+  - Bank limits doubled to ₹5,000 Cr (Ind-Ra 10-Aug-2026).
+- **Nhava floating dock spec.** 12,000-t capacity, 180 × 44 m, ~₹475 Cr (Shoft), for 12,800-t-class ships. Replace the "~12,800 tonnes" description.
+- **Q2 FY27.** Board **27-Oct-2026** with an FY27 interim dividend.
+
+**cochin-shipyard.html**
+- **Repair segment.** FY26 revenue ₹1,656 Cr (**−11%**), segment result 25.9% vs 39.1% → profit **−41%**. Replace any "repair as stabiliser / 40%+ margins" framing; ISRF's upside now accrues 50% to DDW.
+- **Order book.** Add **₹22,223 Cr consolidated at 30-Jun-2026** (CARE; defence ~57%, export ₹6,038 Cr). 12-month inflow ~₹6,170 Cr (book-to-bill ~1.2×) — **all commercial**. FY26 named orders: Polestar tugs, Svitzer e-tugs, CMA CGM feeders.
+- **Margin guidance basis.** The ~14% FY27 guide is effectively **ex-other-income** (CFO: "I have not considered other income"). FY26 comparators: screener 16.5% / CARE 16.8% (not the deck's "24% EBITDA" incl. OI). CARE expects 16–17%.
+- **Revenue guidance record.** "~12% every year" vs FY26 +4.2% actual; Q1 FY27 +2.3%; PAT down YoY four quarters running.
+- **Working capital.** Export advances only 20–30% → working-capital lines since FY26; interest cost ₹9 Cr/qtr → ₹25–32 Cr/qtr; gearing 0.31×; capex plan ~₹6,000 Cr (25% grant; DPR pending).
+- **Concentration.** Two customers ≈ 60% of both shipbuilding and repair revenue (AR note 39).
+- **Rumour reply (9-Oct-2026).** "No further firm orders to report" — debunks the "40 ships from US/Germany/Norway" story. Add it if the primer cites that story.
+- **Contingent.** Bank guarantees ₹2,332 Cr; joint-and-several guarantee on Udupi's Ocean Sparkle tug contract.
+
+**garden-reach-shipbuilders.html**
+- **FY26 book-to-bill ≈ 0.** Order book ₹22,681 Cr (Mar-25, CARE) → ₹15,324 Cr (Mar-26) → ₹13,596 Cr (Jun-26): **−40% in 15 months**. Add the Mar-25 base.
+- **NGC value.** **₹33,000 Cr after price negotiation** (AR FY26; CARE Jun-2026). Retire ₹25,000 Cr. The signing date has slipped four times (FY26 → Mar-26 → Q2 FY27 → still unsigned 22-Oct-2026).
+- **Margin quality.** The FY26 11.4% OPM was helped by Q4 provision write-backs (CARE). Underlying ~9%; CARE medium-term ~8%; Q1 FY27 8.2%. The CMD says FY27 will be "similar" without a number, and FY28 revenue may dip ("I did not state" it won't).
+- **Guarantees.** Bank guarantees ₹6,321 Cr = 2.4× net worth; CARE treats advance BGs as quasi-debt and has a rating trigger if liquid funds stay below ₹3,000 Cr (Mar-26: ₹3,634 Cr).
+- **Ship repair.** ₹273 Cr in FY26 (2.4× FY25) from leased KPDD docks — a new line worth a sentence.
+- **Pipeline numbers.** MCMV AoN per the CMD is ~₹32,000 Cr (not ₹36,000 Cr); 8th Pay Commission +15–20% employee cost; no NGD RFP before FY29.
+- **Non-defence share.** ~22.5% of the Mar-26 order book (AR) — state the date.
+
+**General / sector (all three primers and subsectors/shipping.html cross-link)**
+- India's share of 2024 world shipbuilding output = **0.06% (UNCTAD RMT 2025)**. Use it instead of "<1%".
+- SBFAP paid only ₹620.57 Cr in ten years (Lok Sabha, Mar-2026). SBFAS rates are 15/20/25%.
+- Budget 2025-26 text (BCD exemption +10 yrs; HML for large ships) is now verified. Budget 2026-27 had **no** new shipbuilding measure.
+- Defence capital: quote ₹2.19 lakh Cr (Demand 21) or ₹2.31 lakh Cr (incl. MoD Civil) with the basis named.
+- Global multiples: HD HHI ~15× and HII ~16× TTM (Oct-2026). Retire "Korean yards at 25–40×".
+
+### 4.6 Source URLs added in this pass
+- MDL Q2 FY26 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fef41a23-8c85-4c71-b5ae-4016ac0b2697.pdf
+- MDL board intimation 22-Oct-2026: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d316204-1590-4ab4-904a-55095827516b.pdf
+- India Ratings MDL 10-Aug-2026: https://www.indiaratings.co.in/pressrelease/84805 (JSON: /pressReleases/GetPressreleaseData?pressReleaseId=84805)
+- Cochin Q1 FY26 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=753064f1-3d0a-4a0f-afbd-6bf04a23fef7.pdf
+- Cochin rumour reply 9-Oct-2026: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9fc72fb-1554-4dc4-8805-38adf22d708d.pdf
+- CARE Cochin 12-Oct-2026: https://www.careratings.com/upload/CompanyFiles/PR/202610121056_Cochin_Shipyard_Limited.pdf ; CARE Cochin Sep-2025: https://www.careratings.com/upload/CompanyFiles/PR/202509120917_Cochin_Shipyard_Limited.pdf
+- CARE GRSE 22-Jun-2026: https://www.careratings.com/upload/CompanyFiles/PR/202606140613_Garden_Reach_Shipbuilders_and_Engineers_Limited.pdf ; CARE GRSE 1-Jul-2025: https://www.careratings.com/upload/CompanyFiles/PR/202507120703_Garden_Reach_Shipbuilders_And_Engineers_Limited.pdf
+- Budget speech 2025-26: https://www.indiabudget.gov.in/budget2025-26/doc/budget_speech.pdf ; 2026-27: https://www.indiabudget.gov.in/doc/budget_speech.pdf
+- EY defence highlights 2026: https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/services/tax/union-budget-2026/ey-defense-sector-highlights.pdf
+- MoPSW modified SBFAP guidelines: https://shipmin.gov.in/sites/default/files/Modified%20SBFAP%20guidelines.pdf
+- PIB "Nation Building Through Shipbuilding" 3-Dec-2025: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/dec/doc2025123716101.pdf
+- UNCTAD RMT 2025: https://unctad.org/system/files/official-document/rmt2025_en.pdf
+- HII FY2025 8-K: https://www.sec.gov/Archives/edgar/data/1501585/000150158526000004/hiiq42025earningsrelease.htm
+- companiesmarketcap P/E: https://companiesmarketcap.com/huntington-ingalls-industries/pe-ratio/ · /hd-hyundai-heavy-industries/pe-ratio/ · /fincantieri/pe-ratio/
+- P-75I: https://www.armyrecognition.com/news/navy-news/2026/india-project-75i-submarine-deal-70000-crore-ccs-approval · https://newsarenaindia.com/nation/india-s-70-000-crore-submarine-deal-with-germany-nears-ccs-nod/84673
+- SBFAP payouts (IANS): https://ianslive.in/shipbuilding-centre-clears-288-contracts-worth-rs-19748-crore-covering-456-vessels--20260314101736
+- SBFAS rates: https://www.india-briefing.com/news/india-shipbuilding-policy-sbfas-sbds-guidelines-41731.html
+- DAP 2026 draft: https://www.airforce-technology.com/news/india-dap-2026-release/
+- MDL OFS: https://www.business-standard.com/amp/markets/capital-market-news/mazagon-dock-tumbles-as-ofs-concludes-125040700751_1.html
+
+*End of Part 4.*
+
+---
+
+# Orchestrator aggregate check (22-Oct-2026, after Part 4)
+
+Every aggregate in §2.0 and §3.1–3.2 was re-added from the company rows. All of them match: revenue 25,030; OP 3,894; other income 1,822; PAT 4,043; m-cap 1,30,616; contract liabilities 20,579; cash + bank 19,136; Q1 FY27 revenue 5,852 / PAT 874; free-float ₹31,519 Cr; and the subgroups Navy yards / ex-MDL / ex-GRSE. With Part 4's Supersedes applied:
+- **Order book, 30-Jun-2026 basis (S7):** MDL 18,218 + Cochin 22,223 (consolidated, CARE) + GRSE 13,596 = **₹54,037 Cr** = 2.09× TTM revenue (₹25,877 Cr). Use this instead of the mixed-date ₹53,714 Cr.
+- **Navy-yard order book (S1):** Mar-25 32,260 + 22,681 = ₹54,941 Cr → Mar-26 20,535 + 15,324 = ₹35,859 Cr (−35%). FY26 inflow on a standalone-revenue basis: MDL ≈ ₹1,115 Cr; GRSE ≈ −₹355 Cr (treat as nil). Combined ≈ ₹760 Cr on ₹19,842 Cr standalone revenue = ~0.04×. On consolidated MDL revenue the MDL figure is ≈ ₹1,281 Cr — the basis is stated wherever it is used.
+- **Cash basis (S19):** the peer table keeps ONE basis — the cash + bank balances in each FY26 annual report (₹19,136 Cr). MDL's unrestricted ₹11,401 Cr (India Ratings) goes in a note; on that basis the group total would be ₹17,441 Cr.
+- **Margins (S4, S5, S24):** reported screener OP stays in the peer table. MDL's underlying ~18.7%, GRSE's normal ~8–9% and Cochin's ex-OI ~14% guide are text notes, labelled INDICATIVE.
