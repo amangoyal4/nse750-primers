@@ -98,3 +98,5 @@ Logged by the cloud run on branch claude/ss-glass. Pre-existing primer problems 
 
 ---
 *End of Part 4. Scratch notes: `/tmp/glass-deep/notes.md`. Downloads: `/tmp/glass-deep/dl/`. Text extracts: `/tmp/glass-deep/txt/`.*
+
+- **asahi-india-glass.html / borosil-renewables.html — primer-audit (22-Oct-2026):** both lack the kit grid fix `main{min-width:0}` (phone overflow risk); 0 links to sub-sector reports (add glass.html once published, and commodity-chem.html).
