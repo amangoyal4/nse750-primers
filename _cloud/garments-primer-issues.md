@@ -138,3 +138,8 @@ Source: company research (garments-companies-1.md §3.4).
   - Freight WCI $4,485 (15-Oct-2026).
   - RoSCTL/RoDTEP extended to 31-Dec-2026 at unchanged rates.
   - The Sec 301 duty-free volume allowance is **only** for Bangladesh, Cambodia, Indonesia and Malaysia, despite Pearl's MD suggesting otherwise.
+
+## primer-audit.mjs (2026-10-22, orchestrator)
+
+- **page-industries.html:** FAILS a hard check (banned phrase; "honest" used more than once). Pre-existing problem, logged here and not fixed.
+- **All five primers:** missing `main{min-width:0}`, which can overflow on phones. None links a sub-sector report yet (0 report links), so the owner may want to add links to garments.html once it is published.
