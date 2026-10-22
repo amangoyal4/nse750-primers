@@ -1,0 +1,66 @@
+# Shipbuilding — primer issues (logged, not fixed; owner to apply)
+
+## From Shipbuilding research (2026-10-22, shipbuilding-industry.md §3.4)
+
+
+- **mazagon-dock.html — valuation stale (refreshed 2-Jul):** m-cap "~₹1.03 L Cr", P/E "~40×", P/B ">10×", price "~₹2,555" → **₹77,546 Cr, 27.1× TTM, 7.9× book, ₹1,922** (screener 22-Oct-26). Near its 52-week low ₹1,864 (high ₹2,883).
+- **mazagon-dock.html — order book needs Q1 FY27 update:** ₹20,535 Cr (Mar-26) → **₹18,218 Cr (30-Jun-26)** (company Q1 deck, 30-Jul-26).
+  - Item balances changed: P-17A 7,587; ONGC 2,774; ICGS 2,649; P-75 1,678; AIP 1,542.
+  - Add the **Mar-25 base of ₹32,260 Cr** (AR) so readers see the 36% one-year fall. The implied FY26 inflow was only ~₹1,100 Cr [E].
+- **mazagon-dock.html — P-75(I) status overstated/unverified:** the primer says an "India–Germany IGA signed Jan 2026; CNC completed; awaiting final approval". Verified press says **Finance Ministry approval 29-May-2026; CCS approval still pending**. No signature by 22-Oct-26, and it is not in the Jun-26 order book. Verify the "IGA Jan 2026" claim or remove it.
+- **mazagon-dock.html — margin explanation incomplete:** FY26 includes a **₹538 Cr onerous-contract charge**. The total expected loss on "certain ongoing projects" is **₹1,180 Cr**, with ₹1,060 Cr held as a provision (vs ₹521 Cr at Mar-25) (AR FY26 note 59). Also: FY25 revenue included a **₹199 Cr LD reversal**. Add both to §10/§12 — they explain Q4 FY25's 3.8% OPM and the FY26 "compression".
+- **mazagon-dock.html — cash/float dynamics missing:**
+  - Contract liabilities (customer advances) fell from **₹15,494 Cr to ₹10,303 Cr**.
+  - **CFO −₹2,654 Cr** in FY26.
+  - Cash + bank ₹16,149 Cr → ₹13,096 Cr.
+  - Borrowings ₹20 Cr → ₹447 Cr (overdraft against ₹950 Cr of liened FDs).
+  - Interest on bank deposits **₹1,007 Cr** (≈29% of PAT post-tax).
+  - The primer's "net-cash fortress" is true but shrinking.
+- **mazagon-dock.html — Nhava dock spec:** "India's largest floating dry dock at Nhava Island (~12,800 tonnes)" — the company deck says a **12,000-t floating dry dock under construction (target Jul-26)** and separately a **37-acre Nhava greenfield yard**. Reconcile the tonnage and location.
+- **mazagon-dock.html — add:**
+  - Workforce **5,770** (Mar-26; 2,988 fixed-term).
+  - 34 vessels under construction.
+  - **₹100.6 Cr bid/design spend expensed in FY26** (P-75I).
+  - **Q2 board 27-Oct-2026** with an interim dividend.
+  - The LPD teaming with SDHI (Swan).
+  - The P-17B RFP (16-Sep-26).
+  - The 2-Oct-26 denial of a Thoothukudi yard (Dighi and Dugarajapatnam instead).
+  - MPS overhang (GoI 81.22% → needs ~6 pp more OFS).
+- **cochin-shipyard.html — cash figure wrong (~4× overstated):** "~₹10,600 Cr of cash & investments" (cover, §00, §10) is screener's **"Other assets"** line (₹10,667 Cr), which includes inventories, contract assets and receivables.
+  - FY26 AR (consolidated): **cash ₹105 Cr + other bank balances ₹2,301 Cr = ₹2,406 Cr** (Mar-25 ₹3,113 Cr).
+  - Against borrowings of ₹1,672 Cr, **net cash is only ~₹734 Cr**.
+  - The CFO himself says the ₹2,000–3,000 Cr surplus "is also not there now" after spending ~₹3,000 Cr on the dry dock. **Rewrite the "cash-rich, effectively net cash" framing.**
+- **cochin-shipyard.html — GoI stake stale:** "~67.9%" → **63.33%** after the **7–8 Jul-2026 OFS** (floor ₹1,400; base 2.52% + green shoe 2.52%; ~4.58 pp sold). Add the OFS to the history/ownership sections.
+- **cochin-shipyard.html — valuation stale:** m-cap ~₹39,600 Cr / ~55× → **₹30,649 Cr / 45.1× TTM / 5.2× book**. The stock is at its 52-week low (₹1,146–1,164).
+- **cochin-shipyard.html — order book stale and mis-described:**
+  - "~₹21,100 Cr (Jun 2025)" → Mar-26 standalone shipbuilding **~₹18,900 Cr** (Defence ₹12,150 Cr / Export ₹6,025 Cr / Domestic ₹725 Cr; AR).
+  - Sep-26 **~₹21,900 Cr** incl. ₹1,200 Cr repair (deck); **L1 for 5 NGSV (~₹5,000 Cr)**.
+  - The primer says ~65% defence "anti-submarine craft, next-generation missile vessels, **and the potential second carrier**" — **IAC-2 is not in the order book** (CFO: "not reached the AoN stage"). Remove it from the order-book description.
+  - The subtitle "₹19,000-crore-plus defence order book" is also wrong: defence is ₹11,900–12,150 Cr.
+- **cochin-shipyard.html — ISRF now going into a DP World JV:** board-approved 9-Sep-2026 — a 50:50 JV with **Drydocks World**, ISRF transferred at **₹1,800 Cr (₹900 Cr cash + ₹900 Cr equity)**; DDW has operational control (3 of 5 directors). Shareholder/MoPSW/DIPAM approvals pending. This changes the "repair stabiliser" thesis — ISRF profits become a 50% JV share.
+- **cochin-shipyard.html — HD KSOE:** the block-fabrication JV with HD KSOE has been **dropped** (10-Sep-26); CSL will build a smaller facility alone. Update any Korean-partnership upside.
+- **cochin-shipyard.html — repair numbers:**
+  - FY26 repair revenue was **₹1,656 Cr (163 projects)**, not "guided ~₹1,500 Cr".
+  - ISRF capacity is **82** ships/yr (primer 84).
+  - The repair margin "~40%+" (one quarter's EBIT) should be paired with management's normalised **20–22% EBITDA** guidance.
+- **cochin-shipyard.html — margin guidance and Q1 FY27 missing:**
+  - Q1 FY27 PAT ₹151 Cr (−19%).
+  - FY27 guidance: revenue +12%, blended EBITDA ~14% **including interest income**.
+  - CFO says past higher margins came from nominated carrier work and the cash surplus.
+  - Also add: CMA CGM 6 LNG feeders (~₹3,240 Cr, Feb-26), Vadinar (₹1,570 Cr; CCEA May-26), Tuticorin (₹305.76 Cr lease), HBL JV, Conoship 23%, debt-funded capex (80:20) with SbDS 25% subsidy.
+- **cochin-shipyard.html — peer ROE:** "MDL and GRSE ROEs (~37–40%)" → screener **MDL 29.2%, GRSE 31.6%** (CSL 12.5% ✓).
+- **garden-reach-shipbuilders.html — valuation stale:** m-cap ~₹30,500 Cr / ~40× / ~12× book → **₹22,421 Cr / 28.0× / 8.5×** (price ₹1,956, −41% from the 52-week high of ₹3,339).
+- **garden-reach-shipbuilders.html — order book update:** ₹15,300 Cr (Mar-26) is confirmed at **₹15,324.13 Cr** (AR). Add **₹13,596 Cr at 30-Jun-26** — "first time in 10 years below ₹15,000 Cr" (CMD).
+  - Shipbuilding ₹12,980 Cr: P-17A 4,519; NGOPV 3,075; ASW-SWC 1,815; MPV + dredger 1,355; research ships 1,448; SVL 225; ferries 203.
+  - Split ~74% naval / ~25% non-defence — the primer's "~95% shipbuilding" is right, but its implied defence share is too high.
+- **garden-reach-shipbuilders.html — NGC timing stale:** "expected to finalise around Q1 FY27" → still unsigned at the 6-Aug-26 call ("delayed a bit"; expected Q2 FY27). No signing seen by 22-Oct-26. Revenue only from FY28 (design phase 3–5% of value in FY28–29).
+- **garden-reach-shipbuilders.html — P-17B:** the RFP was **issued 16-Sep-2026** (7 frigates, ₹70,000 Cr AoN, award late-2027; Category-A yards MDL/GRSE/GSL/CSL). The primer still treats it as a future RFP.
+- **garden-reach-shipbuilders.html — add numbers to the float story:** contract liabilities **₹5,751 Cr** (vs ₹6,900 Cr); cash + bank **₹3,634 Cr**; interest income **₹246 Cr**; other income fell ₹335 Cr → ₹274 Cr in FY26. Also add capacity (28 → 43 concurrent platforms; east ~₹2,200 Cr and Gujarat ~₹2,000 Cr yards), manpower **1,595** and FY26 DPS ₹19.60.
+- **garden-reach-shipbuilders.html — "₹2 lakh crore-plus sector tender wave":** the CMD's own figure is **~₹1.5 lakh Cr** of defence orders (₹80,000 Cr live RFPs + ₹70,000 Cr expected), excluding NGC. Use the CMD's number.
+- **garden-reach-shipbuilders.html — Q1 FY27 missing:** revenue ₹1,815 Cr (+39%), PAT ₹173 Cr (+44%), OPM 8%, total income ₹1,914 Cr; LoIs for 4 ONGC PSVs and an e-tug.
+- **General (all three):**
+  - None of the primers mentions the **customer-advance unwind** (−₹6,870 Cr in FY26) or the **negative FY26 operating cash flow** at all three.
+  - None gives a dated **naval pipeline status table** (P-75I CCS-pending; NGC unsigned; P-17B RFP Sep-26; MCMV/LPD RFP pending; IAC-2 no AoN).
+  - None covers the **₹69,725 Cr maritime package** (Sep-2025) — SBFAS ₹24,736 Cr, MDF ₹25,000 Cr, SbDS ₹19,989 Cr — which funds Cochin's and GRSE's capex.
+  - Market caps are 23–26% lower than in the primers.
+
