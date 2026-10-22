@@ -73,3 +73,11 @@ Logged for the owner; primers are NOT edited on this branch.
 ## Orchestrator note (2026-10-22)
 
 - Part 3 aggregates re-added from the company rows (FY26, FY25, Q1 FY27, Q1 FY26, m-cap, borrowings): no arithmetic errors. Part 4 Supersedes changes no summed figure (sums use screener consolidated revenue/OP/PAT/borrowings); it changes TBO adj. EBITDA (₹399.5 Cr, reference only), Thomas Cook company-basis debt (₹268.8 Cr ex-leases vs screener ₹539 Cr) and ixigo ownership (Prosus 16.08%, founders ~9.3%).
+
+## Primer-audit results (2026-10-22, orchestrator; pre-existing, not fixed)
+
+- irctc.html — FAILS a hard check: banned phrase present; also lacks `main{min-width:0}` (phone overflow risk). Refreshed 2026-06-30.
+- tbo-tek.html — passes hard checks; lacks `main{min-width:0}`. Refreshed 2026-06-30.
+- ixigo.html — passes hard checks; lacks `main{min-width:0}`. Refreshed 2026-07-27.
+- thomas-cook-india.html — passes hard checks; lacks `main{min-width:0}`. Refreshed 2026-07-27.
+- None of the four primers links back to a sub-sector report yet (Report links = 0).
