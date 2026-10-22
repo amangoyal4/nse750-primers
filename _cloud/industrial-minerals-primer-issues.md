@@ -33,3 +33,47 @@ Logged for the owner; primers were NOT edited on this branch.
 
 
 ## From Industrial Minerals deep-research pass (2026-10-22, industrial-minerals-industry.md Part 4 §4.5.2)
+
+- **nmdc.html — price-basis statement is time-dependent.**
+  - The primer says prices are "FOR, exclusive of royalty, DMF, NMET…". That is true only for 2021–Apr-2023 and Jan-2026 onwards. From at least Oct-2024 to Oct-2025 NMDC's notices said "**inclusive** of Royalty, DMF, NMET" (BSE notices 23-Oct-24, 9-Jan-25).
+  - Add a one-line note so the 2026 prices are not read as cuts from 2025 levels.
+- **nmdc.html — five-year table can now use NMDC's own AR series.**
+  - Production FY22–FY26: 42.19 / 40.82 / 45.02 / 44.07 / 53.16 mt. Sales: 40.67 / 38.22 / 44.48 / 44.40 / 50.24 mt.
+  - Capex FY26 **₹3,384 Cr** (not ₹3,690 Cr). DPS FY25 **₹3.30** (not ~₹3.75); FY26 ₹2.50 interim + ₹1.00 final.
+- **nmdc.html — royalty section:** quote the AR line "Additional Royalty (22.50% premium)" ₹5,875 Cr (FY26) alongside royalty ₹3,924 Cr, DMF ₹1,177 Cr and NMEDT ₹105 Cr. Total ₹11,082 Cr = ₹2,206/t, which is more than company EBITDA.
+- **nmdc.html — contingent liabilities and receivables:**
+  - Karnataka tax ₹15,482 Cr (Mar-26) / ₹15,786 Cr (Jun-26), with the **customer-recourse clause** in the LTAs and auction notices.
+  - Dantewada "Common Cause" ₹1,623 Cr (₹600 Cr paid under protest); railway-transit-pass penalty ₹1,621 Cr.
+  - NSL receivables ₹6,448 Cr and RINL ₹4,712 Cr (auditor emphasis).
+- **nmdc.html — lease expiries (new risk):** Bailadila mining leases expire Sep-2035 to Sep-2037; Donimalai 2038; Kumaraswamy 2042. Mention them in the risks section next to the 100 mtpa plan.
+- **nmdc.html — logistics status:**
+  - Kirandul–Jagdalpur doubling 128 of 131 km done; last section due Dec-2026.
+  - Bailadila evacuation 28–30 → ~40 → >60 mtpa after KK-line doubling. CMD: 60 mt achievable without it; 100 mt not.
+  - Slurry system commissioned 27–28-Sep-2026 (2–3 months later than the June guidance).
+  - Deposit-13 lapse relaxation ran only to 21-Sep-2026 (status unknown).
+- **nmdc.html — reserves:** add ">2,300 mt of Fe 64%+ reserves" (AR FY26).
+- **moil.html — use AR five-year series:**
+  - Production 12.31 / 13.02 / 17.56 / 18.03 / 19.07 LT (FY22–FY26); sales 12.12 / 11.78 / 15.36 / 15.88 / 15.89 LT.
+  - Revenue/t down from ~₹11,850 to ~₹9,270.
+  - Royalty & cess only ₹99 Cr (6.7% of revenue); **no 150% additional amount** (unlike NMDC).
+  - Cash ₹711 Cr, zero debt. FY26 board 29-Apr-26 recommended no final dividend.
+- **moil.html — imports/duty:** imports ran at **6.46 mt in CY25** (above the 5.5 mt 5-yr average). Since 9-Jun-2026, ≥46% Mn ore of Australian origin is duty-free (others 2.5%).
+- **moil.html — FY27 target realism:** H1 FY27 production 9.61 LT (+1.8%) vs the 25 LT FY27 target. Flag it as unlikely.
+- **sandur-manganese.html — segment economics (AR FY26 Note 36):**
+  - Mining revenue ₹1,657 Cr, PBT ₹863 Cr; steel (Arjas) ₹3,141 Cr / ₹202 Cr; ferroalloys ₹377 Cr / ₹10 Cr; coke & energy ₹142 Cr / ₹10 Cr (FY25 −₹91 Cr).
+  - The "integration" narrative should say mining earns ~105% of group PBT.
+- **sandur-manganese.html — FY26 volumes:** Mn ore 0.59 mt produced / **0.34 mt sold (+93%)**; Fe ore 4.35 mt / **4.10 mt sold**; closing stock carried into FY27.
+- **sandur-manganese.html — Karnataka tax and leases:** no Karnataka mineral-rights-tax contingent is disclosed (contingents total only ~₹176 Cr, mostly forest development tax ₹101 Cr). Note it beside NMDC's ₹15.5k Cr. Leases to 2033 vs ~31 years of iron-ore reserves.
+- **sandur-manganese.html — debt wording:** Sandur's own Q1 FY27 PPT labels 0.27 as both "gross" and "net" debt/equity. Standalone is net cash ₹93 Cr (Mar-26). State "consolidated net debt ~₹375 Cr (gross basis reading)".
+- **ashapura-minechem.html — India vs Guinea split:** FY26 India business ~₹998 Cr revenue / ₹112 Cr EBITDA; Guinea ~₹4,200 Cr / ₹561 Cr; company EBITDA ₹674 Cr (12.9%).
+- **ashapura-minechem.html — tax:** Guinea pays no income tax until the investment is recovered ("at least the next one or two years", CFO, Jun-26). Group current tax ₹29 Cr on ₹445 Cr PBT. Guinean duties rose with price in FY26.
+- **ashapura-minechem.html — misc:**
+  - Guinea iron-ore beneficiation started producing in FY26 (AR).
+  - Kaolin capacity 108,000 tpa (India #2).
+  - The AR's "~15% global bauxite export market" claim looks inflated (~8 mt of ~200 mt Guinean exports) — do not repeat it unqualified.
+  - Q1 FY27 board date was 7-Aug-26 (call 19-Aug).
+- **General (all four primers):**
+  - Section 9D of the MMDR Amendment Act 2026 is reportedly in force from 22-Aug-2026 (Gazette S.O. not seen). It bars *new* state levies but leaves royalty, the additional amount, DMF and premiums untouched, and excludes minor minerals such as bentonite.
+  - India's official FY26 iron-ore output is 313 mt (PIB).
+  - FY26 iron-ore imports were 12.35 mt.
+
