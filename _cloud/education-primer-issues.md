@@ -49,3 +49,7 @@
 - **crizac.html — ESOP dilution capacity:** the ESOP pool was raised to **1,22,48,775 shares (~7% of equity)** in Mar-2026 [FY26 AR note 46]. (§04)
 - **crizac.html — policy dates:** Graduate Route to **18 months for applications from 1-Jan-2027** (HC 1333); BCA from **1-Jun-2026: refusals <5%, enrolment ≥95%, completion ≥85% (≥90% from Jun-2027)**; levy ~£570 M in 2028-29 (OfS). UK sponsored-study applications **−19% in the year to Sep-2026** (gov.uk, 8-Oct-2026). (§07)
 
+
+## primer-audit.mjs (2026-10-22, pre-existing; not fixed)
+- physicswallah.html — FAILS hard checks: banned phrase(s) and "honest" > 1; also no `main{min-width:0}` (phone overflow risk); 0 report links.
+- crizac.html — passes hard checks; no `main{min-width:0}` (phone overflow risk); 0 report links.
