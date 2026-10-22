@@ -68,3 +68,10 @@
 - F&O participation: cite SEBI's Aug-2026 study (active individual traders 106.2 → 87.5 lakh), not 98.1 → 78.6 lakh.
 - MF Regs 2026: say explicitly that the registrar fee sits inside the BER cap.
 
+
+## From primer-audit.mjs (2026-10-22, pre-existing; logged, not fixed)
+
+- **cdsl.html — hard-check FAIL:** more than 22 bar rows (24), a banned phrase present, and "honest" used more than once. No `main{min-width:0}` (phone overflow risk).
+- **cams.html — note:** no `main{min-width:0}` (phone overflow risk); hard checks pass.
+- **kfin-technologies.html — note:** no `main{min-width:0}` (phone overflow risk); hard checks pass.
+- **All three:** no links to any sub-sector report (0 report links); refreshed 30-Jun-2026.
