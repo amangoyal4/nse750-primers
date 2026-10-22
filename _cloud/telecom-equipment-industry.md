@@ -988,3 +988,526 @@ All aggregates are **straight sums of the company rows above on one basis: scree
 - **Global fibre:** https://www.trendforce.com/presscenter/news/20261019-13275.html · https://www.crugroup.com/en/communities/thought-leadership/2026/optical-fibre-prices-rise-as-preform-availability-tightens/ · https://www.sec.gov/Archives/edgar/data/0000024741/000002474126000253/glw-20260728xex99xq22026.htm · https://www.prysmian.com/en/media/press-releases/prysmian-raises-guidance-after-its-best-quarter-yet
 - **EU trade remedies:** https://eur-lex.europa.eu/eli/reg/2024/3014/oj · https://eur-lex.europa.eu/eli/reg_impl/2025/1135/oj · https://www.voicendata.com/features/fibreoptics-face-off-as-eu-duties-challenge-indian-exporters-6239283
 - **BharatNet / BSNL / policy:** https://usof.gov.in/en/amended-bharatnet-program (503 on fetch) · https://www.dot.gov.in/static/uploads/2026/02/8bf9d30ae8ceac2c484dacced224d175.pdf · https://ianslive.in/centre-disburses-rs-1162-crore-under-telecom-pli-scheme--20250629202103 · https://www.sahi.com/news/vodafone-idea-engages-lenders-for-45-000-crore-capex-as-arpu-growth-continues-3338-PE1_COR
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-22)
+
+Second-pass, primary-source supplement compiled 22-Oct-2026 (UTC ~10:00–13:00). It sits on top of Parts 1–3. **Where Part 4 conflicts with Parts 1–3, Part 4 wins** (see 4.0).
+
+**What was read this pass (all fetched this session, generic user-agent, no logins):**
+- **HFCL:** Q2 FY27 earnings presentation (BSE `52bcff6e`, 19-Oct-26, 25 pp); Q2 FY27 board outcome with results, segment table, balance sheet, cash flow and press release (BSE `63336671`, 11 pp, partly scanned); Q1 FY27 earnings-call transcript (BSE `bbc45887`, call 22-Jul-26, 29 pp); FY26 Annual Report (BSE `60894750`, 406 pp: capacity, geography note, contingent liabilities); CARE Ratings rationale (Jul-2026).
+- **Tejas:** Q2 FY27 earnings presentation (BSE `c9e0674e`, 16-Oct-26); Q1 FY27 transcript (BSE `93df39a6`, call 28-Jul-26); FY26 Annual Report (BSE `d5acd3d0`, 277 pp: AGM notice RPT resolutions, PLI note 42, contingent liabilities note 32.1). The Q2 press release and results PDFs are image scans; they were not OCR'd. The Q2 transcript was not yet filed.
+- **STL:** Q1 FY27 press release + earnings deck + results (BSE `ffa18a79`, 57 pp); "Lakshya" investor & analyst meet transcript (3-Sep-26, BSE `46c547c0`); FY26 Annual Report (BSE `dd5015f0`, 361 pp: contingent liabilities note 37, related-party note 47); LTSA disclosure (BSE `e32c6959`, 1-Oct-26); board-meeting intimation (BSE `7ebac731`, 6-Oct-26); CRISIL rationale (1-Sep-26). The STL Q1 transcript link on screener returned an HTML error page, not the PDF.
+- **ITI:** FY26 Annual Report (BSE `32ef5b86`, filed 13-Oct-26, 255 pp: Directors' report, order book, auditor observations with company replies, shareholding, notes). ITI holds no earnings calls and has filed no investor deck since 2020, so ITI's "guidance" below comes from the AR.
+- **Industry:** PIB 2223942 (BSNL 4G, 5-Feb-26); PIB 2206477 (DoT Year-End Review, 19-Dec-25); UN Comtrade public preview API (India, HS 8517 / 851713 / 851762 / 851771 / 851779 / 854470 / 900110, CY2024–25, world and US partners); EU Implementing Regulations 2025/1135 and 2026/698 (official text via the lawplayer.com mirror; EUR-Lex itself served empty pages); YOFC 2026 interim results (HKEX); Prysmian Q2/H1-2026 press release (30-Jul-26); fresh screener pulls for all four (22-Oct-26).
+- **Blocked or failed:** bseindia API (Access Denied; the PDFs themselves downloaded fine); usof.gov.in (503 / TLS mismatch); eparlib.sansad.in (connection reset); sec.gov (no response with a generic UA); India Ratings and ICRA rationale pages (JavaScript shells); ITI press-coverage PDF (reset). About 60 web calls in total.
+
+**Tag discipline in Part 4:** **[V]** = read this session in the named primary document (company filing, AR, rating rationale, PIB, official regulation text, HKEX filing, Comtrade API). **[V-snip]** = search-result summary or secondary article only. **[E]** = my arithmetic on [V] inputs. **[K]** = memory.
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Item (where in Parts 1–3) | Old value | New value | Source (primary) |
+|---|---|---|---|---|
+| S1 | **EU duty on HFCL vs STL** (trap 4/§5.3/§A4/E12/primer issues: "HFCL 0% vs STL 11.4%") | HFCL/HTL 0%; STL 11.4%; Birla/Universal/Vindhya 6.9%; others 11.4% (ADD only) | **Since 12-Jun-2025, combined ADD+CVD: HFCL/HTL 8.1% (CVD 8.1% + ADD 0%); STL 12.5% (ADD 8.8% + CVD 3.7%); Birla/Universal/Vindhya 8.3% (2.9% + 5.4%); other cooperating 10.2% (4.4% + 5.8%); all others 12.6% (4.5% + 8.1%).** Reg 2025/1135 Art 2 cut the ADD rates by the CVD. Reg 2026/698 corrected the annexes and refunds any excess combined duty. **HFCL's EU edge over STL is 4.4 points, not 11.4.** | EU Reg 2025/1135 Art 1(2) & Art 2; Reg 2026/698 Art 1–4 [V] |
+| S2 | **HFCL H1 FY27 CFO** (§2.1 "H1 CFO ₹139.77 Cr (H1 FY26 ₹81.60 Cr)"; §12 item 6) | ₹139.77 Cr | **Consolidated H1 FY27 CFO = +₹455.27 Cr (H1 FY26 −₹43.60 Cr).** ₹139.77 Cr is the *financing* cash flow. H1 capex (PPE) ₹436.27 Cr; receivables increase ₹403.61 Cr. | HFCL Q2 results, cash-flow statement [V] |
+| S3 | **HFCL capacity plan** (trap 4; §4.3; JSON; primer issue) | "28 → 43.1 mn fkm fibre; 39 → 62 mn fkm cable; preform 600 tpa (into 2028)" given as one plan | **The plan was upsized twice in ~3 months.** FY26 AR (Jul-26): OF 28.0 → 33.90 → **38.50**; OFC 34.0 → 42.36 → **56.36** mn fkm by Jul-2028. Q1 call (22-Jul-26): preform **300 MT for ₹580 Cr**. Q2 deck (19-Oct-26): OF current 28 → **43.1**, OFC **current 39** → **62** mn fkm by **Jul-2028**; preform **600 MT, capex ₹1,250 Cr, by Oct-2028**; total ~₹1,800 Cr. | HFCL AR FY26; Q1 transcript; Q2 deck [V] |
+| S4 | **HFCL export share** (trap 10; §2.0; §3.1) | 55.5% (Q1 FY27); FY26 41% [primer] | FY26 **₹2,047.18 Cr = 41.4%** (FY25 ₹496.97 Cr = 12.2%) [V AR]. Q2 FY27 deck: "**exports ~63% of revenues**", target 65%+ from FY27 (another slide in the same deck says ">70% by FY27") [V]. 55.5% (Q1) remains V-snip. | HFCL AR geography note; Q2 deck [V] |
+| S5 | **HFCL "US share" gap** (§H5) | not found | **North American orders ~₹1,435 Cr executed in FY26 ≈ 29% of revenue and ~70% of exports** [V CARE; E share] | CARE rationale Jul-26 [V] |
+| S6 | **HFCL net debt, company basis** (§2.0 "n/a") | n/a (screener ₹1,761 Cr) | **₹1,245 Cr at both Mar-26 and Sep-26** (borrowings ₹1,713.37 Cr / ₹1,840.13 Cr less cash & bank ₹468.42 Cr / ₹594.76 Cr) [V inputs; E]. CARE: gearing 0.41× (Mar-26). | HFCL Q2 deck balance sheet [V] |
+| S7 | **HFCL warrants** (§0 item 4, "₹90 Cr of utilisation delayed") | ₹555 Cr of warrants; ₹90 Cr delayed | Up to **7.50 crore warrants at ₹74 to one promoter and one promoter-group member** (board 25-Mar-26, shareholders 24-Apr-26) = ₹555 Cr. 25% (**₹138.75 Cr**) was received on 25-May-26; ₹48.75 Cr used; **₹90 Cr parked in FDs**. The QIP: 8,79,29,651 shares at ₹62.55 = ₹550 Cr (FY26); ₹24.33 Cr unutilised. | HFCL Q2 results note 3 [V] |
+| S8 | **HFCL Q1 FY27 board date** (§H14 "~22/23-Jul") | inferred | **22-Jul-2026** (call held the same day) | Q1 transcript [V] |
+| S9 | **STL Q1 FY27 result date** (status table; JSON "2026-07-27") | 27-Jul-2026 | **24-Jul-2026** (press release dated 24-Jul; 27-Jul is the Arihant note) | STL Q1 press release [V] |
+| S10 | **STL Q1 EBITDA conflict** (trap 8; §H15) | ₹385 Cr (Arihant/screener) vs ₹397 Cr (DSIJ) | **Company: ₹397 Cr (20.8%)** [V deck/results]. Screener and CRISIL use "operating EBITDA" of ₹385 Cr (20.2%). Use ₹397 Cr with "company basis". FY26 company EBITDA ₹628 Cr (13.2%) is confirmed [V]. | STL Q1 results segment note [V] |
+| S11 | **STL Mar-26 order book** (§E5; §3.3) | ₹7,309 Cr | **Company deck: ₹7,687 Cr (FY26)** [V]; CRISIL says ~₹7,309 Cr [V]. Use the company figure and note the basis difference. Executable in Q2 FY27 ₹2,228 Cr; Q3 FY27 onwards ₹16,390 Cr [V]. | STL Q1 deck p.25; CRISIL [V] |
+| S12 | **STL $1.11 bn PAL in rupees** (§3.3 "₹9,271 Cr vs primer ~₹10,000 Cr"; primer issue) | "company/press give ₹9,271 Cr" | **The company itself says "US$1.11 billion (₹10,000+ Cr)"** [V]. The primer's figure is the company's; withdraw that primer issue. | STL Q1 press release [V] |
+| S13 | **STL capex plan** (§0; §2.4 Q1 bullet "₹500 Cr/yr × 3") | ₹500 Cr/yr × 3 yrs | **"Lakshya" (3-Sep-26): ~₹1,000 Cr a year for 3 years, +50% preform/fibre/cable capacity.** CRISIL (1-Sep-26): ₹700–800 Cr in FY27; ₹1,500–2,000 Cr over 3 years, funded from accruals. | STL investor meet; CRISIL [V] |
+| S14 | **STL guidance** (§0 "FY27 EBITDA guide 23%") | 23% FY27 | Still the Q1 guide (Arihant), but now superseded by **FY29 targets: revenue ₹20,000 Cr (4.2× FY26), EBITDA margin 27%+** [V]. CRISIL expects FY27 revenue >₹8,000 Cr at >20% [V]. FY26 AR: ~20% EBITDA by Q4 FY27 "as capacity utilisation reaches 70%+" [V]. | STL Lakshya; CRISIL; AR [V] |
+| S15 | **STL Mar-26 net debt** (§2.0 company ₹1,128 Cr) | ₹1,128 Cr | **CRISIL: ₹1,041 Cr** (31-Mar-26) [V]. Keep ₹1,128 Cr only as the primer/company figure, with a basis flag. Cash ~₹2,400 Cr at 30-Jun-26 [V CRISIL]. | CRISIL [V] |
+| S16 | **STL rating** (not in Parts 1–3) | — | ICRA upgraded to AA (Stable) (Jul-26) [V deck]; **CRISIL upgraded to AA/Stable on 1-Sep-26** (from AA-) [V]. | CRISIL; STL deck [V] |
+| S17 | **STL geography** (trap 10: "NA 54%, Europe 22%, RoW 22%") | Europe 22% | Deck (read from chart layout): **Q1 FY27 Americas 54% / Europe ~25% / RoW ~22%**; FY26 39/39/22 [V, layout-read; FLAG minor]. **Data-centre share 21% in Q1 FY27 vs 1% in FY26** [V CRISIL] (the dossier never gave the FY26 base). | STL deck p.24; CRISIL [V] |
+| S18 | **Tejas net debt Sep-26** (§H11; trap 5 used screener ₹4,666 Cr) | n/a | **Company net debt ₹4,384 Cr (Sep-26), ₹4,277 Cr (Jun-26), ₹3,531 Cr (Mar-26)**; cash ₹451 Cr; gross borrowing ₹4,866 Cr at Jun-26 [V]. | Tejas Q2 deck; Q1 transcript [V] |
+| S19 | **Tejas Q2 EBITDA** (§H11) | n/a | **−₹108 Cr** (Q2 FY26 −₹293 Cr); H1 −₹207 Cr; EBIT −₹199 Cr; PBT −₹277 Cr [V]. | Tejas Q2 deck [V] |
+| S20 | **Tejas revenue mix** (§2.3 "India 96% of book") | only OB mix | **Q2 revenue India 88% / international 12%** (Q1: ~50/50 per CFO); book India 96% (Q1: 93%) [V]. | Tejas Q2 deck; Q1 transcript [V] |
+| S21 | **Tejas patents** (676/371 used throughout) | 676 filed / 371 granted | FY26 AR 676 / 371 [V]; Jun-26 **722 filed / 380 granted** [V Q1 call]; Sep-26 **748 cumulative filings** [V Q2 deck]. | Tejas [V] |
+| S22 | **Tejas PLI** (§7.2 "Tejas received ₹189 Cr Apr-2025 for H1 FY26") | ₹189 Cr | FY25: PLI **₹467.70 Cr recognised** in other operating revenue; **FY26: none — Tejas missed the scheme's minimum threshold**. PLI/DLI receivable ₹278.78 Cr (Mar-25) → nil (Mar-26) [V]. ("₹189 Cr" stays V-snip.) | Tejas AR FY26 note 42 [V] |
+| S23 | **ITI "Government 7.88%" holder** (§H12; trap 2; E8) | unknown | **Special National Investment Fund (SNIF), Central Government — 7,58,69,381 shares (7.88%).** Promoter group also includes **Governor of Karnataka 0.03%**; President of India 89.99% [V]. | ITI AR FY26 shareholding table [V] |
+| S24 | **ITI land sale cash timing** (§0 item 5 "completed July 2026") | ₹914.31 Cr; completed Jul-26 | **Consideration ₹914.31 Cr, of which ₹884.20 Cr was received by 31-Mar-2026.** Possession letter 26-Mar-26; agreement 27-Mar-26; mortgage release 19-Jun-26; **sale deed registered 2-Jul-2026**. The gain is ₹832.19 Cr. The auditor says Ind AS 16 derecognition was not met at 31-Mar. | ITI AR: auditor observation 1 + company reply; note to SFS [V] |
+| S25 | **ITI order-book composition** (trap 2; §H12) | ₹18,637 Cr, unexplained drop to ₹13,883 Cr | AR: ₹18,637 Cr "**including AWO for BharatNet Phase-III, PO for BSNL 4G rollout projects and LoI of Solar LED street lights of around ₹4,191.14 Cr**" [V]. 18,637 − 4,191 − Q1 revenue 425 ≈ ₹14,021 Cr, close to the ₹13,883 Cr reported → **the drop most likely reflects removal of the solar-LED LoI** [E, strong inference; not stated by ITI]. | ITI AR Directors' report [V] |
+| S26 | **ITI FY25 PAT conflict** (§3.3; primer issue "FY25 PAT −₹233 Cr vs −₹215 Cr") | primer said to be wrong | The **FY26 AR states FY25 consolidated PBT/PAT as −₹233.15 Cr** [V]; screener shows −₹215 Cr. The primer matches the company. **Withdraw that primer issue**; footnote the basis. | ITI AR [V] |
+| S27 | **ITI "2013 BIFR"** (§3.4 primer issue) | "ITI was referred to BIFR in 2004 … fix the timeline" | The AR cites a **BIFR order dated 08-Jan-2013**, under which shares are still allotted to the President against capex grants (e.g. 19,65,029 shares at ₹300.25 on 30-Jul-2025 for ₹59 Cr) [V]. The primer's "2013 BIFR" is defensible (the BIFR revival order). Soften the issue to "clarify referral (2004) vs BIFR order (Jan-2013) vs CCEA package (Feb-2014 [K])". | ITI AR [V] |
+| S28 | **BSNL 4G site count** (§0; D6 "97,213 on air 31-Jul-26") | 98,557 installed / 97,213 on air (31-Jul-26) [V-snip] | Latest **primary** figure: **97,672 installed / 95,511 on air as of 15-Jan-2026** (PIB 5-Feb-26) [V]. Later secondary counts: 97,906 / 96,103 (28-Feb-26); ~98,550 / 97,174 (~30-Jun-26) [V-snip]. Keep 97,213 as V-snip, or use the PIB figure with its date for the stat strip. | PIB 2223942 [V] |
+| S29 | **PLI telecom outlay** (§7.2 "[K] ₹12,195 Cr") | [K] | **₹12,195 Cr, effective Apr-2021** [V PIB]. Cumulative to 30-Sep-25: investment >₹4,646 Cr; sales >₹96,240 Cr; exports ₹19,240 Cr; jobs 29,574 [V]. (The Part-1 "PLI participants: sales ₹78,672 Cr, exports ₹14,963 Cr, investment ₹4,081 Cr (to Jan-2025)" is an older series.) | PIB 2206477 [V] |
+| S30 | **"India telecom imports ₹1.46 lakh Cr (FY24)"** (§2.2) | composite, conflicting | Replace with HS data (CY, US$): **HS 8517 imports $17.39 bn (2024) → $21.78 bn (2025); exports $21.76 bn → $33.74 bn** (phones 851713 = $30.13 bn of 2025 exports). **Network gear (851762): imports $3.84 bn vs exports $1.46 bn (2025).** **Optical fibre & cable (900110 + 854470) exports $350 mn → $513 mn (+47%); the US took $201.5 mn of 900110 in 2025 (from $68.9 mn).** | UN Comtrade API [V] |
+| S31 | **Global fibre demand 2026** (§2.1 "577 mn fkm") | single figure | **Estimates conflict:** TrendForce 577 mn fkm [V Part 1]; YOFC's interim cites "a research institute (Jul-2026)": **>670 mn fkm (+>10%), DC fibre +69%** [V]; HFCL AR: "**750 mn fkm global OFC annual demand**" [V]. The definitions differ (bare fibre vs cable; inclusion of China). Present as a range, 577–750, and name each source. | YOFC interim; HFCL AR [V] |
+| S32 | **"BE series" tag** (header note on HFCL/STL) | "BE (trade-for-trade) — verify" | **Not confirmed.** No NSE circular found moving HFCL or STL to BE. HFCL is in the **long-term ASM** framework [V-snip]. STL **Networks** moved BE → EQ on 18-Sep-2025 [V-snip NSE circular]. Drop the BE claim; at most say "HFCL under long-term ASM". | search of NSE circulars [V-snip] |
+| S33 | **HFCL "turnkey ~5% of Q2"** (§9.1) | 5% [E] | Turnkey ₹136.07 Cr = **5.4%** of Q2 revenue [V]. Segment capital still tied up: **turnkey assets ₹3,448 Cr vs liabilities ₹903 Cr ≈ ₹2,545 Cr net** [V inputs; E] — a third of HFCL's capital employed earns a loss. | HFCL Q2 segment note [V] |
+| S34 | **Tejas–TCS LoI size vs FY27 revenue ceiling** (C.3; §B2) | LoI ₹1,537 Cr ≈ refill | AGM resolution: **material RPT with TCS up to ₹4,800 Cr in FY27, of which sales ₹4,750 Cr (435% of FY26 turnover)**; FY26 sales to TCS were ₹28.29 Cr [V]. The ceiling suggests management sees BSNL add-on billing well above the ₹1,537 Cr LoI. This is a ceiling, not guidance. | Tejas AR FY26 AGM notice [V] |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Fetched?": **V** = primary document read this session; **V-snip** = secondary/search only; **E** = arithmetic on V inputs. "Agrees?" compares the result with Parts 1–3.
+
+| # | Figure | Value | Primary source | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | HFCL Q2 FY27 revenue / EBITDA / PAT | ₹2,541.79 Cr / ₹658.00 Cr (25.89%) / ₹394.22 Cr (15.51%) | HFCL Q2 deck p.7 + press release (BSE 52bcff6e, 63336671) | V | Yes. Company EBITDA = total income ₹2,569.25 Cr − total expenses ₹1,911.25 Cr, so it **includes other income (₹27.46 Cr)**. Revenue less expenses = ₹630.54 Cr = screener OP. Trap 8 is confirmed. |
+| 2 | HFCL H1 FY27 revenue / EBITDA / PAT | ₹4,456.77 Cr / ₹1,103.27 Cr (24.75%) / ₹639.86 Cr | HFCL Q2 deck p.8 | V | Yes |
+| 3 | HFCL order book Sep-26 and split | ₹28,911 Cr = Products 19,751 + O&M 5,070 + Networks 4,090; Govt 10,105 / Private 18,806; 64% OFC/DCI; 57% export | HFCL Q2 deck p.10 | V | Yes; adds the Govt/Private split |
+| 4 | HFCL order book trend | ₹10,480 Cr (Jun-25) → 21,206 (Mar-26) → 26,665 (Jun-26) → 28,911 (Sep-26) | CARE Jul-26; Q2 deck | V | Yes; adds Jun-25 base |
+| 5 | HFCL Q2 segments | Telecom Products ₹2,321.98 Cr (PBIT ₹716.24 Cr, 30.8%); Turnkey ₹136.07 Cr (PBIT −₹122.58 Cr); Defence ₹54.94 Cr (PBIT +₹3.45 Cr); Others ₹28.80 Cr | HFCL Q2 results segment note | V | Yes (adds Others and the defence PBIT) |
+| 6 | HFCL capacity | OF 28 → 43.1 mn fkm; OFC 39 → 62 mn fkm (Jul-2028); preform 600 MT, ₹1,250 Cr (Oct-2028) | HFCL Q2 deck p.15 | V | Partly — see S3 (upsized plan; current OFC is 39, not 34) |
+| 7 | HFCL FY26 exports | ₹2,047.18 Cr (41.4%); FY25 ₹496.97 Cr | HFCL AR FY26 geography note; CARE | V | Yes (primer 41%) |
+| 8 | HFCL North America FY26 | ~₹1,435 Cr (~29% of revenue) | CARE Jul-26 | V (E share) | New (closes §H5) |
+| 9 | HFCL export share now | "~63% of revenues"; Q1 FY27 55.5% | Q2 deck p.18–19; angelone | V (63%); V-snip (55.5%) | Partly — 63% is newer |
+| 10 | HFCL realisation | International $18–28/fkm; data centre $22–28/fkm | Q1 FY27 transcript p.8 | V | New (closes §H5) |
+| 11 | HFCL receivables | ₹2,630.03 Cr current + ₹259.55 Cr non-current (Sep-26) vs ₹2,212.18 Cr + ₹269.80 Cr (Mar-26) | Q2 deck p.9 | V | Yes |
+| 12 | HFCL H1 CFO | +₹455.27 Cr consolidated (H1 FY26 −₹43.60 Cr) | Q2 results cash-flow statement | V | **No** — S2 |
+| 13 | HFCL net debt (company basis) | ~₹1,245 Cr (Mar-26 and Sep-26); gearing 0.41× | Q2 deck BS; CARE | V / E | New (closes §H5) |
+| 14 | HFCL QIP / warrants | ₹550 Cr QIP at ₹62.55; ₹555 Cr promoter warrants at ₹74 (25% = ₹138.75 Cr received) | Q2 results note 3; CARE | V | Yes; detail added (S7) |
+| 15 | HFCL FY27 guidance | Revenue growth ≥80% over FY26; ₹10,000 Cr "much earlier than FY29"; EBITDA >27% by FY29; defence ~₹500 Cr | Q2 deck p.4, p.18; press release | V | Yes; adds the margin target |
+| 16 | EU duties on HFCL | CVD 8.1% + ADD 0% = **8.1%** | EU Reg 2025/1135 | V | **No** — S1 |
+| 17 | EU duties on STL | ADD 8.8% + CVD 3.7% = **12.5%** | EU Reg 2025/1135 Art 1–2 | V | **No** — S1 |
+| 18 | STL Q1 FY27 revenue / EBITDA / PAT | ₹1,910 Cr / ₹397 Cr (20.8%, company) / ₹197 Cr | STL Q1 results + deck | V | Partly — S10 (₹397 vs ₹385) |
+| 19 | STL order book | ₹7,687 Cr (Mar-26) → ₹18,618 Cr (Jun-26); Q2-executable ₹2,228 Cr | STL Q1 deck p.25 | V | Partly — S11 |
+| 20 | STL net cash / QIP | Net cash ₹483 Cr (30-Jun-26); QIP ₹1,500 Cr (June 2026), "pending allocation" at 30-Jun | STL Q1 deck p.26; CRISIL | V | Yes (Part 1 had DSIJ V-snip) |
+| 21 | STL second hyperscaler deal | LTSA via WOS, "potential value" ~US$1.2 bn at prevailing prices; CY26–CY30; capped mutual liabilities | STL BSE disclosure 1-Oct-26 | V | Yes; adds terms |
+| 22 | STL first hyperscaler deal | US$1.11 bn (₹10,000+ Cr) multi-year; over 3 years per CRISIL | STL Q1 press release; CRISIL | V | Partly — S12 |
+| 23 | STL North America share | 54% of Q1 FY27 revenue (FY26 39%) | STL Q1 deck p.24 | V (layout-read) | Yes |
+| 24 | STL data-centre share | 21% of Q1 FY27 revenue vs 1% FY26 | CRISIL 1-Sep-26; deck | V | Yes; adds base |
+| 25 | STL FY29 "Lakshya" targets | Revenue ₹20,000 Cr; EBITDA 27%+; capex ~₹1,000 Cr/yr × 3; +50% capacity | STL investor meet 3-Sep-26 | V | New (S13/S14) |
+| 26 | STL ex-China OFC share | 8% (FY26) → 9% (Q1 FY27) | STL deck p.20; CRISIL | V | Yes |
+| 27 | Tejas Q2 FY27 revenue / EBITDA / PAT | ₹406 Cr / −₹108 Cr / −₹207 Cr | Tejas Q2 deck p.3 | V | Yes; adds EBITDA |
+| 28 | Tejas order book | ₹2,315 Cr (Sep-26; India 96%); ₹1,529 Cr (Jun-26; India 93%) | Tejas Q2 deck; Q1 call | V | Yes |
+| 29 | Tejas net debt / NWC | Net debt ₹4,384 Cr; NWC ₹4,235 Cr; inventory ₹2,314 Cr; net receivables ₹2,042 Cr (Sep-26) | Tejas Q2 deck p.4 | V | New (S18) |
+| 30 | Tejas BSNL add-on LoI | TCS LoI for **18,685 sites** (shipments began Q2) | Tejas Q2 deck p.5 | V (sites); V-snip (₹1,537 Cr value) | Yes |
+| 31 | Tejas original BSNL APO | ₹7,492 Cr | Outlook Business (Part 1); the Q1 call cites "initial ₹7,500 crores" (analyst's phrasing) | V-snip | Unchanged |
+| 32 | ITI land sale | ₹914.31 Cr consideration; ₹832.19 Cr gain; ₹884.20 Cr received by 31-Mar-26; deed 2-Jul-26 | ITI AR FY26 auditor observation 1 + reply | V | Partly — S24 |
+| 33 | ITI auditor | Disclaimer of opinion; going-concern doubt paragraph; EPS would be −₹8.65 per auditor (reported +₹3.04) | ITI AR FY26 | V | Yes. The qualification count (32) was not re-counted — FilingReader V-snip. My arithmetic: ₹292.8 Cr − ₹832.2 Cr = −₹539 Cr → EPS ≈ −₹5.60 on 96.3 cr shares; the auditor's −8.65 may be the change in EPS, not its level [E; FLAG]. |
+| 34 | ITI order book | ₹18,637 Cr (Mar-26, incl. ₹4,191 Cr solar-LED LoI); ₹13,883 Cr (Jun-26) | ITI AR (V); indianmasterminds (V-snip) | V / V-snip | Yes; explanation added (S25) |
+| 35 | ITI 7.88% holder | SNIF (Central Government) | ITI AR shareholding table | V | New (S23) |
+| 36 | ITI BSNL 4G add-on | ₹856.39 Cr, 7,613 sites (West Zone), 16-Jul-26; Tejas radios; two POs under 20% reservation | sahi/freepressjournal/angelone | V-snip | Yes |
+| 37 | BSNL 4G sites | 97,672 installed / 95,511 on air (15-Jan-26) | PIB 2223942 | V | Partly — S28 (97,213 on 31-Jul is V-snip) |
+| 38 | BharatNet (ABP) | Outlay ₹1.39 lakh Cr; 2.65 lakh GPs; Phase I+II: 6,94,711 km OFC, 2,14,843 GPs connected (Oct-25) | PIB 2206477 | V (₹1.39 lakh Cr; exact ₹1,39,579 Cr and "16 packages" V-snip) | Yes |
+| 39 | Telecom PLI | Outlay ₹12,195 Cr (Apr-2021); cumulative sales ₹96,240 Cr, exports ₹19,240 Cr (30-Sep-25); disbursed ₹1,162 Cr (to Mar-25) | PIB 2206477 (V); IANS (V-snip disbursal) | V / V-snip | Yes (S29) |
+| 40 | India OF/OFC exports | (HS 900110 + 854470) $349.5 mn (CY24) → $512.8 mn (CY25); US $80.4 mn → $214.3 mn | UN Comtrade API | V | New; Part 1's "~₹8,000–12,000 Cr annualised" [E] is too high for CY25 — see 4.3 note |
+
+**Tally: 33 of 40 rows rest on at least one primary document fetched this session** (rows 1–8, 10–29, 32–35, 37, 40; row 9 and rows 38–39 are part-V). **Fully V-snip: rows 31 and 36** (Tejas APO; ITI ₹856 Cr). Rows 9, 30, 34, 38 and 39 mix V and V-snip.
+
+Other Part-1 headline figures re-checked or left as they were:
+- TrendForce 577 / 180 mn fkm — V in Part 1 (press release); not re-fetched; conflicting estimates in S31.
+- CRU China G.652.D: Part 1 had +80% (Nov-25 → Jan-26) and ¥83.4/fkm (Mar-26). **New: ¥96.8/fkm spot (Aug-2026, tax incl.); China Mobile 2026–27 tender implies ~¥81.0/fkm bare fibre; China Telecom's first-round 2026–27 outdoor tender drew no bidders** [V-snip, C114 citing CRU].
+- Corning Q2-26 Optical Communications +32% to $2.07 bn; Enterprise +65%; ~$2 bn 2026 capex for OC; Q3 guide core sales $4.9–5.0 bn [V-snip]. **Corning Q3-2026 has not been reported as of 22-Oct**; sec.gov did not respond to a generic UA.
+- Prysmian Q2-26 Digital Solutions: organic +18.0%, adj. EBITDA margin 23.8% (16.8%), adj. EBITDA €122 mn ("almost doubling"); group FY26 guide €2.8–2.9 bn — **now V** (Prysmian press release 30-Jul-26).
+- Vi ₹45,000 Cr capex plan (FY27–29) — V-snip (not re-fetched).
+- MFN duty 0% on HTS 8544.70 — [K] (not re-fetched). CRISIL [V] confirms "reduction of tariff in US to 10% in February 2026" helped STL's margin.
+- Trusted Source dates (Mar-2021 amendment, effective 15-Jun-2021) — [K] (not re-fetched).
+
+---
+## 4.2 Company deep-dives (primary documents)
+
+Tables: **screener consolidated, re-pulled 22-Oct-2026 [V]**; OP = screener operating profit (excludes other income). Company-basis figures are labelled.
+
+### 4.2.1 HFCL (HFCL · 500183)
+
+**(a) Management-commentary digest** (paraphrased; MD Mahendra Nahata unless noted)
+- **Growth guide raised twice in a quarter.** 22-Jul-26 call: FY27 revenue growth ~40% (from ~20% in May), "better to under-promise". 19-Oct-26 deck and press release: **at least 80% over FY26** (≥₹8,909 Cr [E]). The ₹10,000 Cr revenue aspiration is now "much earlier" than FY29. [V Q1 transcript p.7–8; Q2 press release]
+- **Margins.** FY27 EBITDA aspiration was ">20%"; Q1 did 23.25% and Q2 25.89%. Management calls this "no seasonality" and says it comes from average, not exceptional, contracts. Telecom-products segment margin (~30%) is "sustainable" because sales and raw-material contracts are long-term with **annual price-reset clauses**. **Target: EBITDA >27% by FY29** (from ~16.7% in FY26). [V Q1 transcript p.9–12; Q2 deck p.18]
+- **Pricing.** International realisation ranges **$18–28/fkm**; data-centre fibre $22–28/fkm; telco fibre lower. Prices are up "quite significantly in the last 6 months". The AR expects **realisation ~2.5× by FY27**. [V transcript p.8; AR]
+- **US tariffs.** During the 50% IEEPA-era duty, customers bore most of it via a mid-contract reset. After the refund, HFCL paid that money back to them. US buyers are being "advised" by the administration not to buy Chinese fibre. The MD cites a 35% duty on Chinese fibre vs 10% on India. [V transcript p.11–12; the 35% figure is the MD's, not verified]
+- **Capex.** FY27 ₹640 Cr: 3 draw towers (fibre 28 → 34 mn fkm), IBR lines ₹60 Cr, DC-connectivity subsidiary ₹65 Cr, defence ₹100 Cr, ₹100 Cr of the ₹215 Cr DC plant. FY28 ~₹615 Cr: preform ₹325 Cr, defence ₹175 Cr, DC ₹115 Cr. The Q2 deck then lifted the plan to **~₹1,800 Cr in total, including a ₹1,250 Cr, 600 MT preform plant (Madhya Pradesh) by Oct-2028**. [V]
+- **Preform economics.** Making preform is "at least 30% cheaper" than buying. Preform is 65–70% of fibre cost and ~45% of cable cost, so the plant cuts raw-material cost by ~10–12%. [V transcript p.17–18]
+- **Data-centre connectivity.** First full year: ~₹800 Cr revenue in FY27; ₹850 Cr+ of orders in hand; capacity being raised 5×. [V transcript p.19]
+- **Defence & aerospace.** FY27 ~₹500 Cr "on track". FY29 ≥₹3,000 Cr and ₹5,000 Cr the year after, including an aerospace acquisition due to close in Q3 FY27. Defence order book ~₹1,850 Cr, of which ~₹1,600 Cr sits in the entity being acquired. ₹230 Cr phase 1 of a hand-grenade (MMHG) plant in a 1,000-acre Andhra ammunition complex. [V Q2 deck p.15–16; press release; transcript p.12]
+- **Corporate structure.** A **Restructuring Committee with EY as adviser** is evaluating "strategic alternatives aimed at simplifying the group structure" (Q1 call). The Q2 MD letter says each vertical has "a distinct operating, profitability and working-capital profile" and that "various strategic options" are being evaluated. **A demerger/separation of turnkey/EPC or defence is a live possibility** [V; outcome E].
+- **Mix targets.** Products ~91% of revenue; private customers ~92%; exports ~63% → 65%+ from FY27 (one slide says >70% in FY27). [V Q2 deck]
+- **Demand view.** No "let-up" in demand for at least 5 years; 10-year contracts are appearing (cites Prysmian–Molex). Fibre-guided drones need **70–100 mn fkm** a year of A2 fibre (the AR says 50–100 mn fkm, 12–15% of global demand). [V]
+
+**(b) Concall/deck KPI table**
+
+| KPI | Q2 FY26 | Q1 FY27 | Q2 FY27 | Source |
+|---|---|---|---|---|
+| Revenue (₹ Cr) | 1,043.34 | 1,914.98 | 2,541.79 | deck p.7 [V] |
+| EBITDA (₹ Cr; % ; incl. other income) | 203.37 (19.49%) | 445.27 (23.25%) | 658.00 (25.89%) | deck [V] |
+| PAT (₹ Cr) | 71.92 | 245.64 | 394.22 | deck [V] |
+| Telecom Products revenue / PBIT | 490.10 / 122.54 | 1,589.53 / 483.92 | 2,321.98 / 716.24 | results [V] |
+| Turnkey revenue / PBIT | 506.77 / 35.92 | 280.32 / −87.53 | 136.07 / −122.58 | results [V] |
+| Defence revenue / PBIT | 29.73 / 1.86 | 23.74 / −6.04 | 54.94 / 3.45 | results [V] |
+| Order book (₹ Cr) | ~10,480 (Jun-25) | 26,665 | 28,911 | CARE; deck [V] |
+| Export share of revenue | — | 55.5% [V-snip] | ~63% (deck claim) | deck [V] |
+| Foreign subsidiaries' revenue (2 subs) | — | — | ₹1,066.16 Cr in Q2; ₹1,779.02 Cr in H1 | auditor's review para 8 [V] |
+| Receivables (current, ₹ Cr) | — | — | 2,630.03 (Mar-26 2,212.18) | deck BS [V] |
+| Inventory (₹ Cr) | — | — | 1,543.98 (Mar-26 1,415.99) | deck BS [V] |
+| Net debt (₹ Cr, company) | — | — | ~1,245 (Mar-26 ~1,245) | deck BS [V/E] |
+| H1 CFO / capex (₹ Cr) | H1 FY26: −43.60 / 133.74 | — | H1 FY27: +455.27 / 436.27 | cash-flow statement [V] |
+| Fibre / cable capacity (mn fkm) | 28 / 34 | 28 → 34 / 34 → 43 (call) | 28 → 43.1 / 39 → 62 (Jul-28) | transcript; deck [V] |
+| R&D headcount | — | — | 253 (telecom 127, OF/OFC/DC 73, defence 53) | deck p.14 [V] |
+| M-cap (30-Sep-26) | — | — | ₹34,691 Cr; 153.06 cr shares | deck p.21 [V] |
+
+**(c) Five-year history (screener consolidated, ₹ Cr) [V]**
+
+| FY | Revenue | OP | OPM | Other inc. | Interest | Dep. | PAT | ROCE | Debtor days | WC days |
+|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 4,727 | 650 | 14% | 37 | 166 | 78 | 326 | 19% | 146 | 85 |
+| FY23 | 4,743 | 619 | 13% | 47 | 152 | 83 | 318 | 15% | 145 | 124 |
+| FY24 | 4,465 | 582 | 13% | 102 | 147 | 82 | 338 | 13% | 181 | 163 |
+| FY25 | 4,065 | 449 | 11% | 58 | 185 | 106 | 173 | 8% | 170 | 179 |
+| FY26 | 4,949 | 764 | 15% | 63 | 242 | 157 | 329 | 11% | 163 | 208 |
+| TTM Sep-26 | 7,492 | 1,586 | 21% | 97 | 253 | 194 | 927 | — | — | — |
+
+Company-basis FY26 (CARE): total operating income ₹4,984 Cr; PBILDT margin 16.03% (FY25 11.31%); product revenue ₹2,931 Cr (OFC ~₹2,259 Cr); EPC/turnkey ~38% of revenue; RJIL 13% of revenue (63% in FY18) [V].
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Qtr | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 | Sep-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,012 | 801 | 871 | 1,043 | 1,211 | 1,824 | 1,915 | 2,542 |
+| OP | 152 | −37 | 28 | 190 | 228 | 314 | 414 | 630 |
+| OPM | 15% | −4.6% | 3.3% | 18% | 19% | 17% | 22% | 25% |
+| Interest | 47 | 51 | 56 | 61 | 63 | 63 | 62 | 65 |
+| PAT | 73 | −83 | −29 | 72 | 102 | 184 | 246 | 394 |
+
+**(e) Annual-report and filing findings**
+- **Capacity (AR FY26):** OF 28.0 mn fkm → 33.90 (under way) → 38.50 (approved); OFC 34.0 → 42.36 → 56.36 mn fkm, all by Jul-2028. The Oct-26 deck goes further (S3). "Better capacity utilisation" is cited for the FY26 margin gain; no utilisation % is given. CARE: the ~₹10,159 Cr multi-year export contract alone uses "over 50%" of capacity [V].
+- **Geography (AR note):** FY26 revenue within India ₹2,902.09 Cr / **outside India ₹2,047.18 Cr** (FY25 ₹3,567.55 / ₹496.97 Cr). Non-current assets are almost all in India (₹1,771.82 Cr vs ₹0.13 Cr abroad): HFCL **has no US plant**, which leaves it exposed if BABA-type local-content rules spread [V; E].
+- **Contingent liabilities (AR note 47, consolidated):** unexpired LCs ₹307.19 Cr (₹164.30 Cr); bank guarantees ₹731.00 Cr (₹925.17 Cr; falling as turnkey work winds down); tax and other claims ₹69.98 Cr (₹45.48 Cr). Nothing large [V].
+- **Group structure (Q2 results):** subsidiaries HTL Ltd, Polixel, Moneta Finance, HFCL Advance Systems (defence), Raddef, DragonWave HFCL India, HFCL Technologies, HFCL Inc. (USA), HFCL B.V. (Netherlands; with HFCL Canada, HFCL UK; HFCL Pty Australia liquidated 19-Aug-26); JCEs Nimpaa Telecom and BigCat Wireless. Joint auditors S. Bhandari & Co LLP and Oswal Sunil & Co gave an unmodified review [V].
+- **Turnkey drag:** turnkey segment assets ₹3,448 Cr vs liabilities ₹903 Cr (Sep-26). About ₹2,545 Cr of capital sits in a segment that lost ₹210 Cr at PBIT in H1. This is the lever behind the restructuring talk [V inputs; E].
+- **Ratings:** CARE upgraded to **CARE A / Positive; A1** (Jul-26) from A-/Stable, A2+. WC cycle 191 days. Upgrade triggers: net debt (incl. acceptances)/PBILDT <2.5×; collection period <150 days [V].
+
+### 4.2.2 Tejas Networks (TEJASNET · 540595)
+
+**(a) Management-commentary digest** (MD & CEO Arnob Roy; CFO AVS Prasad)
+- **Path to profitability.** Three levers: grow revenue (the BSNL add-on plus international); optimise opex (employee costs to stay "flat for some more time"); and release working capital (inventory built ahead for the add-on order, receivables tied to BSNL acceptance tests and deferred features). The Q2 deck states a goal of **"quarterly positive EBITDA"** but gives no date. [V Q1 transcript p.10–11; Q2 deck p.10]
+- **BSNL add-on.** In July management expected "additional 26,000 sites" and the order "probably in this quarter". The TCS LoI came for **18,685 sites**, and shipments began in Q2. Press reports put BSNL's total add-on at **26,238 sites (TCS ~18,625 + ITI 7,613)**, and Tejas supplies radios for ITI's portion too [V Q1 call; V Q2 deck; V-snip on 26,238 and on ITI's radios]. **Tejas's addressable add-on is therefore ~26k sites, not 18.7k** [E].
+- **AMC annuity.** AMC on the 1-lakh-site network starts only after site acceptance and the warranty period ("next few quarters"). It will be recognised over **8 years**, ordered circle by circle on multi-year POs, at "much higher margin". It is **not in the order book** and its size is undisclosed. [V Q1 call p.11–12]
+- **International.** Q1 revenue was ~50/50 India/international (5G massive-MIMO radios to a European customer via NEC). Q2 was 88/12. First end-to-end 5G network (RAN + core) in South America; POCs in North America and APAC; custom 5G radio talks with Tier-1 MNOs; 400G DWDM win with a pan-African Tier-1. International orders carry standard payment terms, with **no performance-linked payments like BSNL's**. [V]
+- **Domestic wireline.** LoI from an SI to supply IP routers to upgrade the BharatNet middle mile in three states. **L1 in a GoI strategic pan-India OTN/WDM tender.** GPON OLT POs from ISPs. [V Q2 deck p.5]
+- **Balance sheet.** Net debt rose to ₹4,384 Cr "on account of increased operational and capex funding". Collections, non-recourse discounting and advance settlements cut net receivables to ₹2,042 Cr in Q2. Management expects BSNL execution to bring down inventory **and gross debt**. [V Q2 deck p.4]
+- **Tata linkage.** New logo with the Tata endorsement mark (IMC 2026). AGM approval sought for **up to ₹4,800 Cr of FY27 transactions with TCS** (sales ₹4,750 Cr) and ₹460 Cr with Tata Semiconductor Assembly & Test [V AR AGM notice]. No equity infusion is mentioned in any document.
+
+**(b) Concall/deck KPI table**
+
+| KPI | Q4 FY26 | Q1 FY27 | Q2 FY27 | Source |
+|---|---|---|---|---|
+| Revenue (₹ Cr) | 333 | 402 | 406 | deck; screener [V] |
+| EBITDA (₹ Cr, company) | n/a | −99 | −108 (Q2 FY26 −293) | deck p.3 [V] |
+| PBT / PAT (₹ Cr) | −281 / −211 | −271 / −202 | −277 / −207 | deck; transcript [V] |
+| Revenue mix India / Intl | — | ~50 / 50 | 88 / 12 | transcript; deck [V] |
+| Order book (₹ Cr) | 1,514 (India 83%) | 1,529 (India 93%) | 2,315 (India 96%) | deck; transcript [V]; Q4 India 83% V-snip |
+| Net working capital (₹ Cr) | 4,138 | 4,478 | 4,235 | deck p.4 [V] |
+| Net trade receivables (₹ Cr) | 1,905 | 2,232 | 2,042 | deck [V] |
+| Inventory (₹ Cr) | 2,438 | 2,358 | 2,314 | deck [V] |
+| Cash & equivalents (₹ Cr) | 505 | 589 | 451 | deck [V] |
+| Net debt (₹ Cr) | 3,531 | 4,277 (gross 4,866) | 4,384 | deck; transcript [V] |
+| Patents (cumulative filings / granted) | 676 / 371 | 722 / 380 | 748 / n.a. | AR; transcript; deck [V] |
+| Order intake (₹ Cr) [E] | — | ~417 | ~1,192 | OB_t − OB_t-1 + revenue |
+
+**(c) Five-year history (screener consolidated, ₹ Cr) [V]**
+
+| FY | Revenue | OP | OPM | Interest | Dep. | PAT | ROCE | Debtor days | WC days |
+|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 551 | −80 | −15% | 3 | 77 | −63 | −7% | 189 | 552 |
+| FY23 | 920 | 14 | 1.5% | 15 | 122 | −36 | −1% | 198 | 491 |
+| FY24 | 2,471 | 266 | 11% | 48 | 182 | 63 | 4% | 208 | 206 |
+| FY25 | 8,923 | 1,258 | 14% | 252 | 353 | 447 | 15% | 182 | 56 |
+| FY26 | 1,103 | −682 | −62% | 303 | 403 | −909 | −15% | 1,077 | 211 |
+| TTM Sep-26 | 1,447 | −459 | −32% | 315 | 391 | −817 | — | — | — |
+
+FY25 includes **₹467.70 Cr of PLI** in other operating revenue; FY26 has none [V AR note 42]. Excluding PLI, FY25 revenue from sales was ~₹8,455 Cr and the OPM would have been well under 14% [E].
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Qtr | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 | Sep-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 2,642 | 1,907 | 202 | 262 | 307 | 333 | 402 | 406 |
+| OP | 372 | 122 | −136 | −294 | −134 | −118 | −100 | −107 |
+| OPM | 14% | 6% | −67% | −112% | −44% | −36% | −25% | −26% |
+| Interest | 63 | 71 | 75 | 84 | 72 | 72 | 85 | 87 |
+| Depreciation | 111 | 103 | 96 | 101 | 104 | 101 | 94 | 91 |
+| PAT | 166 | −72 | −194 | −307 | −197 | −211 | −202 | −207 |
+
+**(e) Annual-report findings (FY26 AR)**
+- **PLI (note 42):** Tejas "did not meet the minimum threshold requirements" for FY26, so no incentive was booked. FY25 had booked ₹467.70 Cr. The PLI/DLI receivable of ₹278.78 Cr at Mar-25 was nil at Mar-26 (collected) [V]. Tejas therefore drops out of the telecom-PLI story from FY26.
+- **Related parties:** FY26 sales to TCS were only **₹28.29 Cr**. The BSNL campaign billing ended in FY25, so FY26 revenue was mostly non-BSNL. The FY27 TCS ceiling of ₹4,750 Cr of sales is 435% of FY26 turnover [V].
+- **Contingent liabilities (note 32.1):** excise ₹46.24 Cr, customs ₹33.44 Cr, income tax ₹9.73 Cr, GST ₹6.46 Cr (~₹96 Cr in total). Old income-tax s.276C proceedings (AY2012-13 to 2018-19) are under appeal in the Karnataka HC. Capital commitments for intangibles fell to ₹118.09 Cr from ₹437.44 Cr: **R&D capitalisation is slowing** [V; E].
+- **Risk read:** at −₹108 Cr quarterly EBITDA plus ~₹87 Cr of interest, cash burn is ~₹200 Cr a quarter before working capital. Equity fell from ₹3,847 Cr (Mar-25) to ₹2,527 Cr (Sep-26, screener). Net debt/equity is ~1.7× (company net debt ₹4,384 Cr ÷ equity ₹2,527 Cr) [E].
+
+### 4.2.3 Sterlite Technologies / STL (STLTECH · 532374) — Q2 FY27 results due 23-Oct-2026 (board and call confirmed in BSE `7ebac731`)
+
+**(a) Management-commentary digest** (MD Ankit Agarwal; Group CFO Ajay Jhanjhari)
+- **"Lakshya" (investor & analyst meet, 3-Sep-26).** FY29 revenue **₹20,000 Cr** (FY26 ₹4,750 Cr, ">4× in 3 years") and **EBITDA margin 27%+** (FY26 13.2%, "+1,380 bps"). The drivers: optical TAM expansion (fibre moving inside the rack); customer co-development; integrated connectivity; and technology (hollow-core and multi-core fibre, **13,000-fibre-count cable**, in-house co-packaged/near-packaged optics). Open order book **> US$2 bn**. [V]
+- **Capex.** **~₹1,000 Cr a year for three years**, raising preform, fibre and cable capacity **by 50%**. Plus a greenfield optical-connectivity facility in India and ~2% of revenue on innovation. CRISIL (two days earlier) modelled ₹700–800 Cr for FY27 and ₹1,500–2,000 Cr over 3 years, "met comfortably through accruals". **Lakshya implies ~₹3,000 Cr, above CRISIL's case** [V; E].
+- **AI content per rack** (management's figures): legacy ~1,000 fibres/rack; Hopper ~4,000; Blackwell ~16,000; **Vera Rubin ~64,000 (64×)**. DC interconnect paths scale as n(n−1)/2. India DC capacity 1.5 GW → 10 GW by 2030 (46% CAGR). "Supplying almost all major hyperscalers." [V]
+- **Near term (Q1 deck, 24-Jul-26).** Attach rate (connectivity ÷ OFC revenue) 15% (FY26) → 16% (Q1) → **>20% from Q2, 25%+ by Q4 FY27**. Ex-China OFC share 8% → 9%. "Net debt-free." [V] The FY26 AR (written ~May-26) guided **~20% EBITDA by Q4 FY27 "as total manufacturing capacity utilisation reaches the 70%+ milestone"**, DC + enterprise to **30% of revenue in 12–18 months**, and interest outlay down a further 5–6% [V]. Q1 already beat the margin (20.8%) and DC (21%) markers.
+- **Credit view (CRISIL 1-Sep-26).** Upgraded to **AA/Stable**. FY27 revenue **>₹8,000 Cr** at **>20%** margin. US tariff cut to 10% in Feb-2026 and the rising US share support margins. Interest cover 2.9× (FY26) → >9×. "No support is extended to group entities apart from subsidiaries." Key monitorables: tariffs, global supply easing, DC ramp, and the **Prysmian verdict** [V].
+- **Q2 FY27 setup [E]:** company-flagged executable book of **₹2,228 Cr in Q2** vs Q1 revenue ₹1,910 Cr. That implies Q2 revenue of ~₹2,000–2,250 Cr if conversion runs like Q1, before any LTSA contribution (the LTSA allocation runs CY26–CY30).
+
+**(b) Concall/deck KPI table**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|
+| Revenue (₹ Cr) | 1,019 | 1,441 | 1,910 | Q1 results [V] |
+| EBITDA (₹ Cr; company) | 140 (13.7%) | 218 (15.1%) | 397 (20.8%) | deck p.26 [V] |
+| Optical Networking revenue / EBITDA | 961 / 137 | 1,378 / 202 | 1,842 / 401 (21.8%) | segment note [V] |
+| Digital & Technology Solutions revenue / EBITDA | 64 / 1 | 69 / 0 | 72 / 2 | segment note [V] |
+| Depreciation / finance cost | 77 / 50 | 77 / 63 | 85 / 55 | deck [V] |
+| PAT (₹ Cr) | 10 | 59 | 197 | deck [V] |
+| Order book (₹ Cr) | — | 7,687 | 18,618 | deck p.25 [V] |
+| Geography: Americas / Europe / RoW | FY26: 39 / 39 / 22 | — | 54 / ~25 / ~22 | deck p.24 [V layout-read] |
+| Segment: DC & Cloud / Large Enterprise / Telecom | FY26: ~1 / 17 / 82 | — | 21 / 18 / 61 | deck p.24 [V]; CRISIL confirms 21% vs 1% |
+| Attach rate | FY26 15% | — | 16% | deck p.20 [V] |
+| Ex-China OFC share | FY26 8% | — | 9% | deck p.20 [V] |
+| Net debt (₹ Cr) | — | 1,041 (CRISIL) / 1,128 (primer) | −483 (net cash); cash ~2,400 | deck; CRISIL [V] |
+| Segment assets, Optical Networking (₹ Cr) | 4,523 | 5,399 | 5,947 | segment note [V] |
+
+**(c) Five-year history (screener consolidated, ₹ Cr) [V]** — FY25 onward continuing operations (Global Services demerged); FY24 and earlier include it.
+
+| FY | Revenue | OP | OPM | Interest | Dep. | PAT | ROCE | Debtor days | WC days |
+|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 5,437 | 665 | 12% | 238 | 308 | 45 | 8% | 115 | −29 |
+| FY23 | 6,925 | 895 | 13% | 311 | 309 | 127 | 11% | 96 | −46 |
+| FY24 | 4,083 | 471 | 12% | 293 | 314 | −57 | 3% | 143 | −87 |
+| FY25 | 3,996 | 416 | 10% | 241 | 316 | −123 | 3% | 75 | −63 |
+| FY26 | 4,745 | 569 | 12% | 224 | 313 | 56 | 8% | 82 | −30 |
+| TTM Jun-26 | 5,642 | 829 | 15% | 229 | 321 | 243 | — | — | — |
+
+Company-basis FY26: EBITDA ₹628 Cr (13.2%); Optical Networking revenue ₹4,486 Cr / EBITDA ₹606 Cr [V segment note].
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr) [V]** (Q2 FY27 due 23-Oct)
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,074 | 998 | 1,052 | 1,019 | 1,034 | 1,257 | 1,441 | 1,910 |
+| OP | 117 | 106 | 125 | 132 | 129 | 120 | 195 | 385 |
+| OPM | 11% | 11% | 12% | 13% | 12% | 10% | 14% | 20% |
+| Interest | 62 | 58 | 65 | 50 | 55 | 56 | 63 | 55 |
+| PAT | −14 | −24 | −40 | 10 | 4 | −17 | 59 | 197 |
+
+**(e) Annual-report and filing findings**
+- **Capacity:** the FY26 AR gives **no mn-fkm capacity figure**. It says only that ~20% EBITDA arrives "as total manufacturing capacity utilisation reaches the 70%+ milestone", i.e. **FY26 utilisation was below 70%** [V]. Plants (AR): Shendra (glass/preform + fibre draw), Waluj, Aurangabad; Silvassa/Rakholi and Dadra (cable); **Dello (Brescia), Italy**; **Lugoff, South Carolina** (cable & interconnect) [V]. "~50 mn fkm" stays unverified (gap 4 is half-closed).
+- **Prysmian litigation (NOT in Parts 1–3; material).** Prysmian Cables & Systems USA sued STL's US subsidiary Sterlite Technologies Inc. (STI) and an employee in the US District Court for South Carolina (non-compete, trade secrets). On **9-Aug-2024 a jury awarded $96.5 mn against STI** ($0.2 mn against the employee). On **29-Aug-2025 the court confirmed a total award of $101.25 mn** including $4.75 mn of fees (pre-judgement interest denied, per CRISIL). STI has **appealed to the 4th Circuit and deposited a $41.53 mn bond**. Not provided for. At ₹94.9 the award is **~₹960 Cr, ≈2× STL's Jun-26 net cash** [V AR note 37; CRISIL; E].
+- **Fujikura UK patent case** (low-fibre-count air-blown cables): under appeal, no injunction (AR). The Q1 deck claims a "decisive win in Europe patent dispute" [V].
+- **Other contingents (note 37, standalone):** tax ~₹21 Cr; bank LC claim ₹25 Cr (in litigation since 2010); ₹114 Cr corporate guarantee to income-tax authorities (FY2003-04) for group companies, backed by a Vedanta Inc. (ex-Volcan) counter-guarantee. Contingents of the demerged Global Services Business are reimbursable by STL Networks [V].
+- **Related parties (note 47):** immediate parent **Twin Star Overseas (Mauritius)**; ultimate parent **Vedanta Incorporated, Bahamas (ex-Volcan)**, beneficially owned by the Anil Agarwal Discretionary Trust. Royalty expense ₹9 Cr (₹11 Cr), royalty income ₹35 Cr. Loans to subsidiaries ₹2,007 Cr given / ₹1,884 Cr repaid. **Corporate guarantees given ₹392 Cr in FY26, of which ₹347 Cr appears in a non-subsidiary related-party column** (likely STL Networks; column mapping inferred) [V; FLAG].
+- **Promoter warrants:** **4,53,00,000 warrants to Twin Star at ₹110** (allotted 30-Mar-26). ₹27.5 paid (₹124.58 Cr); ₹82.5 per warrant (~₹373.7 Cr) is due within 18 months. Total ~₹498 Cr; objects: debt ₹373.73 Cr, GCP ₹124.57 Cr; CARE is the monitoring agency [V]. **With the ₹1,500 Cr QIP, ~₹2,000 Cr of equity was raised in 2026** [E].
+- **Ratings:** CRISIL AA/Stable (upgraded 1-Sep-26; ₹481 Cr of bank lines and ₹700 Cr of CP withdrawn); ICRA AA (Stable) (upgraded ~Jul-26) [V].
+- **LTSA (1-Oct-26):** with "a hyperscale partner" via a wholly owned subsidiary. **Potential value** ~US$1.2 bn "based on prevailing selling prices". Annual CY26–CY30 volume allocations; POs released periodically; **reciprocal, capped liabilities if either side falls short**. It is a capacity reservation, not a firm order [V].
+
+### 4.2.4 ITI Ltd (ITI · 523610) — Q2 FY27 board date still not announced (latest BSE items: C&AG auditor appointment 19-Oct; AGM book closure 29-Oct to 4-Nov; **76th AGM on 4-Nov-2026**) [V AR notice; screener]
+
+**(a) Management-commentary digest** (no concall; source: FY26 AR Directors' report and replies to auditors)
+- **Going concern rests on five pillars** (company reply to the auditor): the ₹18,637 Cr order book; **unbilled revenue of ₹2,241.11 Cr** to be billed and realised within 12 months; faster recovery of billed dues; sanctioned working-capital lines; continued Government of India support; and **"further monetization of non-core land assets"** [V]. More land sales are policy.
+- **Order book:** ~₹18,637 Cr including the BharatNet-III AWO, BSNL 4G rollout POs and a **₹4,191.14 Cr LoI for solar LED street lights** [V]. In FY26 ITI booked ₹504.68 Cr of BharatNet-III revenue (HP, WB, A&N, NE-II) [V]. Q1 FY27 book ₹13,882.81 Cr [V-snip]; see S25 for the likely reconciliation.
+- **Turnover:** FY26 "operational turnover" (product-wise) ₹2,464.77 Cr vs ₹4,323.37 Cr; consolidated revenue ₹2,183.72 Cr (−40%) [V]. 4G cabinet/RAN contract manufacturing collapsed to ₹0.38 Cr (₹42.78 Cr), so ITI's BSNL-4G manufacturing role in FY26 was negligible [V].
+- **Wins listed in the AR:** 4G LTE-R trials for South Central Railway (₹5.24 Cr RDSO + ₹2.16 Cr RailTel); defence/government orders ~₹29.69 Cr; EVMs. After year-end: **BSNL 4G add-on ₹856.39 Cr for 7,613 West-Zone sites (16-Jul-26)** [V-snip].
+- **Government support:** DoT soft loan ₹300 Cr; ₹165 Cr from DoT for wage payments; capex grant ₹59 Cr converted to equity at ₹300.25 per share (30-Jul-25) under the 08-Jan-2013 BIFR order [V].
+
+**(b) KPI table (FY26 AR; Q1 FY27 secondary)**
+
+| KPI | FY25 | FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|
+| Consolidated revenue (₹ Cr) | 3,616.42 | 2,183.72 | 425.03 | AR [V]; Q1 [V-snip] |
+| PBT/PAT (₹ Cr) | (233.15) | 292.79 (incl. ₹832.19 Cr land gain) | (32.25) | AR [V]; Q1 [V-snip] |
+| Ex-land FY26 result (₹ Cr) | — | ≈ −539 [E] | — | AR inputs |
+| Order book (₹ Cr) | — | 18,637 | 13,883 | AR [V]; V-snip |
+| Unbilled revenue (₹ Cr) | — | 2,241.11 | — | AR [V] |
+| Land sale: consideration / received by 31-Mar / gain (₹ Cr) | — | 914.31 / 884.20 / 832.19 | deed registered 2-Jul-26 | AR [V] |
+| Borrowings repaid after the sale (₹ Cr) | — | — | 902.81 (Jul-26) | sahi [V-snip] |
+| Shareholding: President / SNIF / Governor of Karnataka / public | — | 89.99 / 7.88 / 0.03 / ~2.1 | — | AR [V] |
+| Rating | — | — | India Ratings IND BB+/Positive (₹2,900 Cr) | V-snip (page did not render) |
+
+**(c) Five-year history (screener consolidated, ₹ Cr) [V]**
+
+| FY | Revenue | OP | OPM | Other inc. (incl. exceptional) | Interest | PAT | ROCE | Debtor days |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 1,861 | 107 | 6% | 255 | 192 | 120 | 8% | 536 |
+| FY23 | 1,395 | −154 | −11% | 53 | 210 | −360 | −4% | 635 |
+| FY24 | 1,264 | −318 | −25% | 43 | 241 | −569 | −8% | 709 |
+| FY25 | 3,616 | −60 | −1.7% | 138 | 224 | −215 (AR: −233) | −1% | 403 |
+| FY26 | 2,184 | 64 | 2.9% | 503 | 217 | 293 | 2% | 486 |
+| TTM Jun-26 | 2,111 | 53 | 2.5% | 502 | 176 | 324 | — | — |
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr) [V]** (Q2 FY27 not yet announced)
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,016 | 1,035 | 1,046 | 498 | 543 | 515 | 628 | 425 |
+| OP | −9 | −11 | −28 | −8 | −1 | 25 | 27 | 2 |
+| OPM | −0.9% | −1.0% | −2.7% | −1.5% | −0.2% | 4.9% | 4.3% | 0.4% |
+| Other income | 14 | 38 | 98 | 9 | 13 | 8 | 472 | 8 |
+| Interest | 62 | 64 | 45 | 51 | 53 | 48 | 45 | 30 |
+| PAT | −70 | −49 | −4 | −64 | −54 | −25 | 436 | −32 |
+
+**(e) Annual-report findings (FY26 AR)**
+- **Auditor (B.K. Ramadhyani & Co. LLP), observation 1:** at 31-Mar-26 the balance consideration (₹30.11 Cr) was outstanding, the sale deed was unexecuted, possession was "pending" and the bank's mortgage release had not been received, so **"transfer of control … was not satisfied"** under Ind AS 16. Without the sale, non-current assets held for sale would be ₹288.61 Cr, current liabilities **₹884.20 Cr higher** (the cash received would be an advance), and the loss ₹832.19 Cr larger. ITI replies that DoT/MoF/DPE approvals, the agreement and the handover letter put control in FY26 [V].
+- **Going concern:** the auditor's paragraph says that losses, current liabilities exceeding current assets, and the qualifications "may cast a doubt on the ability of the Company to continue as a going concern" [V]. **This sits on top of the disclaimer.** The writer should say both.
+- **Land bank and disputes:** Palakkad 77 acres (₹60.90 Cr book) resumed by the Kerala government, under Supreme Court adjudication. 12.15 acres in BMTC's possession pending GoI approval of a lease. A railway land acquisition at ₹11.72 Cr guideline value (SWR) [V]. These are the "non-core land" pipeline and its frictions.
+- **Receivables ageing (standalone, 31-Mar-26):** undisputed trade receivables considered good total **₹2,905.68 Cr**: <6 months ₹268.52 Cr; 6–12 months ₹110.18 Cr; 1–2 years ₹1,134.14 Cr; 2–3 years ₹153.66 Cr; **>3 years ₹1,239.18 Cr (43%)** [V]. Over 80% of ITI's receivables are more than a year old.
+- **Plants:** Bengaluru, Palakkad, Raebareli, Naini, Mankapur, Srinagar [V]. Shareholders 1.60 lakh individuals hold 1.90% [V].
+- **Mini-Ratna:** not mentioned anywhere in the AR [V, absence]. The primer's label stays unverified.
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**P1. India's telecom trade by HS code, calendar years (US$ mn; India as reporter; UN Comtrade public API, fetched 22-Oct-26) [V]**
+
+| HS | Description | CY2024 imports | CY2024 exports | CY2025 imports | CY2025 exports | CY25 export YoY |
+|---|---|---|---|---|---|---|
+| 8517 | Telephone sets & network apparatus (total) | 17,387.7 | 21,757.6 | 21,775.0 | 33,738.7 | +55% |
+| 851713 | Smartphones | 502.2 | 20,139.4 | 650.9 | 30,134.0 | +50% |
+| 851762 | Machines to receive/convert/transmit data (switches, routers, base stations, CPE) | 3,312.3 | 905.9 | 3,835.8 | 1,455.3 | +61% |
+| 851771 | Antennas and reflectors | 173.6 | 101.0 | 149.3 | 92.0 | −9% |
+| 851779 | Parts of 8517 | 13,125.6 | 530.9 | 16,807.1 | 2,004.3 | +278% |
+| 854470 | Optical-fibre cables (individually sheathed fibres) | 27.8 | 56.5 | 37.7 | 70.0 | +24% |
+| 900110 | Optical fibres, bundles and cables (non-8544) | 73.5 | 293.0 | 94.1 | 442.8 | +51% |
+| **900110 + 854470** | **Fibre & cable** | **101.3** | **349.5** | **131.8** | **512.8** | **+47%** |
+| — of which to USA (842) | | | 80.4 | | 214.3 | +167% |
+| — of which to China (156) | | | 0.9 | | 24.6 | — |
+
+- **Read-across:** India is a **net exporter of fibre and cable** (CY25 exports 3.9× imports) and a **net importer of network electronics** (851762 imports 2.6× exports; parts 851779 $16.8 bn, mostly phone parts [E]). The "telecom" surplus in HS 8517 is entirely smartphones.
+- **Units/caveats:** calendar years, not FY. 2026 data are not yet in the annual series. Indian OFC is often filed under 9001.10, not 8544.70, so use the sum. At ₹88/$ (CY25 average [K]) the CY25 fibre & cable exports are ~₹4,500 Cr [E]. HFCL's FY26 exports alone were ₹2,047 Cr. Part 1's "₹8,000–12,000 Cr annualised" can only describe a **2026 run-rate** (HFCL alone exported ~₹1,600 Cr in Q2 FY27 at ~63% of revenue [E]), not CY25 actuals.
+- **FY26 (Apr–Mar) HS data** would need commerce.gov.in TradeStat, which runs on query forms; not attempted [gap].
+
+**P2. EU trade remedies on Indian optical-fibre cable (CN ex 8544 70 00), % of CIF EU-frontier price [V Reg 2025/1135; 2024/3014 as amended; 2026/698]**
+
+| Exporter | ADD (Dec-2024 original) | ADD (from 12-Jun-2025) | CVD (from 12-Jun-2025) | Combined now |
+|---|---|---|---|---|
+| HFCL Ltd; HTL Ltd | 0% (not in ADD table) | 0% | 8.1% | **8.1%** |
+| Sterlite Technologies; Sterlite Tech Cables Solutions | 11.4% | 8.8% | 3.7% | **12.5%** |
+| Birla Cable; Universal Cables; Vindhya Telelinks | 6.9% | 2.9% | 5.4% | **8.3%** |
+| Other cooperating (Aberdare, Apar, UM Cables, ZTT India; Aksh, Polycab in the ADD annex) | 9.0% | 4.4% | 5.8% | **10.2%** |
+| All other Indian imports | 11.4% | 4.5% | 8.1% | **12.6%** |
+
+ADD rates rise automatically if the CVD is modified or removed (new Art 1(7) of 2024/3014). Reg 2026/698 (Mar-2026) refunds any combined duty paid in excess since 12-Jun-2025. Part 1's ADD column was correct for Dec-2024 to Jun-2025 only.
+
+**P3. BSNL indigenous 4G sites (installed / on air)**
+
+| As of | Installed | On air | Source |
+|---|---|---|---|
+| Oct-2025 | 97,068 | 93,511 | LS reply [V-snip] |
+| 15-Jan-2026 | 97,672 | 95,511 | **PIB 2223942 (RS starred Q73, 5-Feb-26) [V]** |
+| 28-Feb-2026 | 97,906 | 96,103 | LS reply [V-snip] |
+| ~30-Jun-2026 | ~98,550 | ~97,174 | indiantelevision [V-snip] |
+| 31-Jul-2026 | 98,557 | 97,213 | MoC data (Part 1) [V-snip] |
+| Add-on ordered Jul–Aug 2026 | 26,238 sites (TCS ~18,625–18,685; ITI 7,613) | — | Tejas deck (18,685) [V]; press [V-snip] |
+
+BSNL subscribers 8.86 cr (Mar-24) → 9.28 cr (Dec-25) [V PIB]. "5G upgradable from technology perspective"; **no 5G order in any primary document** [V, absence].
+
+**P4. BharatNet and policy series [V PIB 2206477 unless noted]**
+- BharatNet Phase I complete (Dec-2017; >1 lakh GPs). As of Oct-2025: **6,94,711 km OFC laid; 2,09,809 GPs service-ready on OFC + 5,034 on satellite = 2,14,843 GPs**. HFCL AR: >2.17 lakh GPs service-ready (Feb-2026) [V]. PIB factsheet (Jun-2026): 2.21 lakh GPs service-ready; >8.5 lakh route-km of OFC [V-snip].
+- **Amended BharatNet: 2.65 lakh GPs; outlay ₹1.39 lakh Cr** [V]. The exact ₹1,39,579 Cr and 16 packages remain V-snip (USOF page 503). Known Phase-III awards [V-snip]: Polycab Pkg 4 ₹4,099 Cr + Pkg 7 (₹5,649.36 Cr total); GR Infra L1 Pkg 16 ₹867.54 Cr; ITI consortium L1 on three packages (₹4,559 Cr in one report; ₹3,022 Cr middle-mile in another); ITI's AWOs for Pkgs 8, 9, 15 total ₹6,956 Cr (Pkg 15 NE-II ₹1,901 Cr); HFCL consortium UP E + W ~₹6,925 Cr (L1); the tender drew 187 bids from 21 bidders; Tejas is router OEM on 7 of the first 12 packages.
+- **Telecom & networking PLI:** outlay **₹12,195 Cr** (from Apr-2021); cumulative investment >₹4,646 Cr, sales >₹96,240 Cr, exports ₹19,240 Cr, jobs 29,574 (30-Sep-25) [V]. Disbursed ₹1,162 Cr to Mar-25 (21 of 42 firms) [V-snip]; ~₹1,586 Cr cumulative to ~Jul-25 [V-snip]. **Tejas booked no PLI for FY26 (missed threshold) after ₹467.70 Cr in FY25** [V].
+- 5G: 5.08 lakh 5G BTS; national OFC 42.36 lakh route-km (2025) [V].
+
+**P5. Indian telco capex (₹ Cr)**
+
+| Telco | FY24 | FY25 | FY26 | Source |
+|---|---|---|---|---|
+| Bharti Airtel (consolidated) | — | 48,927 | 47,522 (Q4 16,066; India Q4 13,488) | Outlook Business [V-snip] |
+| Reliance Jio (cash capex) | 53,510 | — | 34,184 | ipocentral review of Jio Platforms offer document [V-snip] |
+| Vodafone Idea | — | — | Q1 FY27 1,930; plan ₹45,000 Cr FY27–29 | Part 1 [V-snip] |
+| RIL group (all businesses) | — | — | 1,44,271 | Outlook Business [V-snip] |
+
+Jio's cash capex fell 36% FY24 → FY26: the private-telco pull on domestic fibre and gear is now lower than in the 5G peak [V-snip; E].
+
+**P6. Capacity and capex plans (updated)**
+
+| Player | Fibre (mn fkm/yr) | Cable (mn fkm/yr) | Preform | Capex | Source |
+|---|---|---|---|---|---|
+| HFCL (Oct-26 plan) | 28 → 43.1 (Jul-28) | 39 → 62 (Jul-28) | 0 → 600 MT/yr, ₹1,250 Cr (Oct-28, MP) | ~₹1,800 Cr total; FY27 ₹640 Cr; FY28 ₹615 Cr (Jul view) | Q2 deck; Q1 call [V] |
+| HFCL (Jul-26 AR plan) | 28 → 33.9 → 38.5 | 34 → 42.36 → 56.36 | 300 MT, ₹580 Cr | — | AR; Q1 call [V] |
+| STL | not disclosed; +50% planned | not disclosed; +50% | in-house; +50% | ~₹1,000 Cr/yr × 3 (Lakshya) vs CRISIL ₹700–800 Cr FY27 | Lakshya; CRISIL [V] |
+| STL utilisation | <70% in FY26 (implied); 70%+ targeted by Q4 FY27 | | | | AR [V] |
+| Corning | — | — | — | ~$2 bn 2026 capex for Optical Communications | [V-snip] |
+
+**P7. Global lens, primary-source upgrades**
+
+| Company | Period | Revenue | Margin | Growth | Source |
+|---|---|---|---|---|---|
+| YOFC | H1-2026 | RMB 9,809.0 mn (~₹12,850 Cr [E @13.1]) | GM 53.4% (28.3%); optical-communication products GM 63.11% | Revenue +53.6%; PAT RMB 2,924.5 mn (+889%) | HKEX interim [V] |
+| YOFC optical communication products | H1-2026 | RMB 6,126 mn | GM 63.11% | +59.2% | [V] |
+| Prysmian group | Q2-2026 | €6,021 mn | adj. EBITDA €730 mn (15.4%) | +9.4% organic | press release [V] |
+| Prysmian Digital Solutions | Q2-2026 | — | adj. EBITDA €122 mn, 23.8% (16.8%) | +18.0% organic | [V] |
+| Corning Optical Communications | Q2-2026 | $2.07 bn | — | +32%; Enterprise +65% | [V-snip]; Q3 not yet reported |
+| Fujikura | FY Mar-26 / Q1 FY Mar-27 | — | OP ~¥188.7 bn / ¥104.8 bn (+155%); FY guide raised to ¥432 bn | | [V-snip] |
+| HFCL | Q2 FY27 | ₹2,541.79 Cr | EBITDA 25.89% | +143.6% | [V] |
+| STL | Q1 FY27 | ₹1,910 Cr | EBITDA 20.8% | +87% | [V] |
+
+- YOFC says both **volume and average unit price** rose. It quotes CRU's **data-centre fibre demand CAGR of 20.74% for 2025–30** (DC >50% of global fibre demand by 2030) vs **2.47% for telecom** [V].
+- **Margin gap:** YOFC's gross margin (53.4%) sits above STL's Q1 gross margin (49.6%, Arihant [V Part 1]). Indian EBITDA margins (20–26%) are at or above Prysmian DS (23.8%) [E].
+- **China price points** [V-snip, C114 citing CRU]: G.652.D spot ¥83.4/fkm (Mar-26) → **¥96.8/fkm (Aug-26, tax incl.)**. The China Mobile 2026–27 tender implies ~¥81.0/fkm. China Telecom's first 2026–27 outdoor-cable round drew no bidders.
+
+**P8. Company-reported order books (₹ Cr; primary unless noted)**
+
+| Company | Jun-25 | Mar-26 | Jun-26 | Sep-26 |
+|---|---|---|---|---|
+| HFCL | 10,480 (CARE) | 21,206 | 26,665 | 28,911 |
+| STL | — | 7,687 (deck) / ~7,309 (CRISIL) | 18,618 | Q2 due 23-Oct |
+| Tejas | — | 1,514 | 1,529 | 2,315 |
+| ITI | — | 18,637 (incl. ₹4,191 Cr solar LoI) | 13,883 [V-snip] | Q2 not announced |
+
+---
+
+## 4.4 Gap log (§H items and the brief's gap list)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| H1 | India import bill by HS (8517, 8544 70, 9001 10) | **Filled (calendar years)**: see P1 | UN Comtrade public API [V]. FY (Apr–Mar) basis still open: commerce.gov.in TradeStat is form-driven; not attempted |
+| H2 | India telecom equipment market size | **Still open** | No primary estimate found. Proxy [E]: network-gear imports $3.8 bn (851762, CY25) plus domestic PLI sales (₹96,240 Cr cumulative over ~4.5 yrs ≈ ₹21,000 Cr/yr [E]) |
+| H3 | PLI disbursals FY26/FY27; ₹12,195 Cr vs ₹4,115 Cr | **Partly filled** | ₹12,195 Cr outlay [V PIB]; ₹4,115 Cr = "earmarked/committed" incentive [V-snip]; disbursal ₹1,162 Cr (Mar-25) and ~₹1,586 Cr (~Jul-25) [V-snip]. No FY26 or FY27 total in any primary document found |
+| H4 | STL fibre capacity and utilisation | **Half filled** | Utilisation <70% FY26, 70%+ targeted by Q4 FY27 [V AR]; +50% capacity plan [V]; mn-fkm figure not disclosed in the AR, deck or CRISIL |
+| H5 | HFCL realisation/fkm, US share, net debt | **Filled** | $18–28/fkm [V call]; North America ~₹1,435 Cr ≈ 29% of FY26 revenue [V CARE]; net debt ~₹1,245 Cr [V deck] |
+| H6 | BharatNet ABP 16-package award list | **Still open (partial)** | USOF 503; eparlib connection reset; partial list from secondary sources (P4) [V-snip] |
+| H7 | US AD/CVD on Indian OFC; STL US plant capacity | **Still open (no evidence of any US case)** | Searches found none; CRISIL [V] mentions only US tariffs (10%). STL Lugoff plant confirmed [V AR]; capacity not disclosed |
+| H8 | EU CVD rates by company | **Filled** | Reg 2025/1135 + 2026/698 [V] (P2) |
+| H9 | BSNL 5G order; BSNL receivables owed to vendors | **5G: none (absence confirmed in all docs). Receivables: partly** | Tejas net receivables ₹2,042 Cr (Sep-26), largely BSNL acceptance-linked [V]; ITI unbilled ₹2,241 Cr and receivables ₹2,906 Cr, 87% >1 year old [V]; BSNL's own payables not found |
+| H10 | Jio/Airtel FY26 capex | **Filled at V-snip** | Airtel ₹47,522 Cr; Jio cash capex ₹34,184 Cr (P5). Company investor decks not fetched |
+| H11 | Tejas Q2 EBITDA, segment split, net debt | **Filled except segments** | EBITDA −₹108 Cr; net debt ₹4,384 Cr; India/intl revenue mix 88/12 [V]. Tejas declines to give a wireless/wireline split (Q1 call) [V] |
+| H12 | ITI order-book drop; 7.88% holder; Mini-Ratna | **7.88% filled (SNIF) [V]; drop explained by inference [E]; Mini-Ratna not in the AR** | ITI AR |
+| H13 | YOFC/Fujikura/Corning/Prysmian 2026 | **YOFC, Prysmian filled [V]; Fujikura V-snip; Corning Q3 not yet reported** | HKEX; Prysmian; search |
+| H14 | HFCL Q1 FY27 board date | **Filled: 22-Jul-2026** | Q1 transcript [V] |
+| H15 | Conflicts | **Mostly resolved** | STL EBITDA (basis, S10); PAL rupees (S12); ITI FY25 PAT (S26); ITI ₹914 Cr vs ₹832 Cr (consideration vs gain, S24). **Still open:** HFCL Q2 PAT ₹362.92 Cr (Univest) — not standalone (standalone PBT is ₹358.51 Cr); basis unknown |
+| B1 | Tejas TCS LoI ₹1,537 Cr | Sites V (18,685); value V-snip | Tejas Q2 deck; the scanned LoI disclosure not located |
+| B2 | ITI Q1 land/debt facts | Land V (AR); ₹902.81 Cr repayment V-snip | ITI Q1 results PDF not linked on screener |
+| B3 | "BE" series tag | **Not confirmed — drop** | S32 |
+| B4 | Vi ₹45k Cr capex; MFN duty on OFC; Trusted Source dates | Unchanged ([V-snip]/[K]/[K]) | Not re-fetched (budget) |
+
+---
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+**Insights an expert would add**
+1. **HFCL's EU edge is mostly gone, and its US edge is unhedged.** Since Jun-2025 HFCL pays **8.1% CVD** into the EU vs STL's combined 12.5%. STL makes in Dello (Italy) and Lugoff (USA); HFCL has **no plant outside India** (non-current assets abroad ₹0.13 Cr). With ~29% of FY26 revenue from North America, HFCL's margin rests on the US tariff staying at ~10% and on BABA-style local-content rules not spreading beyond BEAD [V; E].
+2. **STL carries a ~₹960 Cr US lawsuit that the dossier never mentioned.** The Prysmian verdict against its US subsidiary ($101.25 mn confirmed, on appeal, $41.53 mn bond posted) equals roughly twice STL's Jun-26 net cash. The plaintiff is also a direct competitor in North American cable. CRISIL lists it as a monitorable [V].
+3. **HFCL's cash story is better than Part 1 said, and its real problem is the turnkey book.** H1 FY27 CFO was +₹455 Cr, not ₹140 Cr. Net debt stayed ~₹1,245 Cr while revenue doubled. But ~₹2,545 Cr of net capital sits in turnkey/EPC, which lost ₹210 Cr at PBIT in H1. The EY-advised Restructuring Committee and the "distinct working-capital profile" language point to a possible **separation of the EPC/O&M business (and/or defence)**. That is a 2027 catalyst the writer should flag, not predict [V; E].
+4. **The capacity race has started, and its arrival dates line up with the shortage's end.** HFCL doubled its plan in one quarter (preform 300 → 600 MT; cable 56 → 62 mn fkm; all due Jul–Oct 2028). STL plans +50% and ~₹3,000 Cr over 3 years. Corning plans ~$2 bn of 2026 capex. YOFC's volumes and prices are both rising, and it raised H-share equity. TrendForce sees the shortage lasting "to at least 2028", which is exactly when the new Indian capacity lands. The cycle risk is timing, not demand [V; E].
+5. **Tejas's refill is larger than the ₹1,537 Cr LoI, but lower-margin and later.** BSNL's add-on totals ~26,238 sites, and Tejas supplies radios for ITI's 7,613 as well. Tejas sought approval for up to **₹4,750 Cr of FY27 sales to TCS**. A high-margin 8-year AMC annuity on the 1-lakh-site base is due to start and is not in the order book. Against that: PLI income has gone (₹468 Cr in FY25 → nil), net debt is ₹4,384 Cr (~1.7× equity), and no Tata equity support is on record [V; E].
+6. **ITI's land cash arrived in FY26, and the receivables are the real asset-quality issue.** ₹884 Cr of the ₹914 Cr was in hand by 31-Mar-26, so the "July completion" was legal, not cash. 87% of ₹2,906 Cr of receivables are over a year old (43% over 3 years). ₹2,241 Cr more is unbilled. The auditor added a going-concern doubt paragraph to the disclaimer, and management lists further land sales as a going-concern pillar. The 7.88% non-promoter government block is SNIF, so effective state ownership is 97.9% [V].
+7. **India's trade data show a fibre surplus and an electronics deficit.** India exported $513 mn of fibre and cable in CY25 (+47%; the US share up from 23% to 42%) against $132 mn of imports. In network electronics (851762) India imported 2.6× what it exported. The "telecom equipment" export boom in HS 8517 is phones [V].
+8. **Fibre-demand numbers are not comparable across sources.** TrendForce gives 577 mn fkm; the source YOFC cites gives >670 mn fkm; HFCL's AR gives 750 mn fkm. Use a range and name the source. CRU's split (DC fibre +20.7% CAGR vs telecom +2.5%, 2025–30) is the cleaner structural statistic [V].
+
+**New primer issues (append to primer-issues.md)**
+
+- **hfcl.html — EU duty advantage overstated (and Part 3 §3.4 repeats it):** if the primer (or a fix) says "HFCL exempt from EU duties", correct it to **CVD 8.1% (Reg 2025/1135, from 12-Jun-2025); ADD 0%**; STL pays 12.5% combined.
+- **hfcl.html — capacity:** use the Oct-2026 plan (OF 28 → 43.1, OFC 39 → 62 mn fkm by Jul-2028; preform 600 MT, ₹1,250 Cr by Oct-2028; ~₹1,800 Cr total). Note the Jul-2026 AR figures (38.5 / 56.36) are superseded.
+- **hfcl.html — geography and customers:** FY26 exports ₹2,047 Cr (41.4%), North America ~₹1,435 Cr; RJIL 13% of revenue (63% in FY18); FY27 export share "~63%" (company).
+- **hfcl.html — cash flow and debt:** H1 FY27 CFO +₹455 Cr; net debt ~₹1,245 Cr; CARE A/Positive (Jul-26).
+- **hfcl.html — strategy:** Restructuring Committee with EY (Jul-26); defence targets ₹500 Cr FY27, ≥₹3,000 Cr FY29; aerospace acquisition closing Q3 FY27; EBITDA >27% by FY29.
+- **hfcl.html — remove the "BE/trade-for-trade" idea if it was added from Part 1**; HFCL is in long-term ASM [V-snip].
+- **sterlite-technologies.html — Prysmian US verdict:** add the $96.5 mn jury verdict (Aug-2024), $101.25 mn confirmed (Aug-2025), appeal pending, $41.53 mn bond. This is a material contingent liability.
+- **sterlite-technologies.html — EU duties:** STL combined ADD 8.8% + CVD 3.7% = **12.5%** (not 11.4%).
+- **sterlite-technologies.html — Lakshya targets and ratings:** FY29 ₹20,000 Cr revenue, 27%+ EBITDA; ~₹1,000 Cr/yr capex; CRISIL AA/Stable (1-Sep-26), ICRA AA (Stable). Promoter warrants 4.53 cr at ₹110 (~₹498 Cr) to Twin Star.
+- **sterlite-technologies.html — withdraw the Part-3 "award value ₹9,271 Cr" issue:** the company states "US$1.11 billion (₹10,000+ Cr)".
+- **sterlite-technologies.html — data-centre mix:** DC & Cloud 21% of Q1 FY27 revenue vs ~1% in FY26.
+- **tejas-networks.html — PLI:** FY25 revenue included ₹467.70 Cr PLI; FY26 none (threshold missed). Any PLI narrative must say this.
+- **tejas-networks.html — debt and EBITDA:** company net debt ₹4,384 Cr (Sep-26); Q2 EBITDA −₹108 Cr; TCS RPT ceiling ₹4,750 Cr for FY27; AMC over 8 years not in book; patents 748 filed (Sep-26).
+- **iti-limited.html — 7.88% holder:** name it — **Special National Investment Fund (SNIF)**; also Governor of Karnataka 0.03% (promoter group).
+- **iti-limited.html — land-sale timing and going concern:** ₹884 Cr of ₹914 Cr received by 31-Mar-26; sale deed 2-Jul-26; auditor's going-concern doubt paragraph; receivables 87% >1 year; unbilled ₹2,241 Cr.
+- **iti-limited.html — withdraw two Part-3 issues:** FY25 PAT −₹233 Cr is the company's own figure (FY26 AR); "2013 BIFR" refers to the BIFR order of 08-Jan-2013 (soften to a clarification).
+- **iti-limited.html — order book:** ₹18,637 Cr included a ₹4,191 Cr solar-LED LoI; that is the likely reason for the fall to ₹13,883 Cr.
+- **General (all four):** BSNL 4G count — use the PIB figure with its date (97,672 installed / 95,511 on air, 15-Jan-26) or label the later 97,213 as secondary. PLI outlay ₹12,195 Cr is now [V].
+
+**Chunk log:** Part 4 was appended in five chunks: (1) header + 4.0; (2) 4.1; (3) 4.2.1–4.2.2; (4) 4.2.3–4.2.4; (5) 4.3–4.5. Scratch notes: `/tmp/telecom-equipment-deep/notes.md`; extracted texts in `/tmp/telecom-equipment-deep/txt/`.
