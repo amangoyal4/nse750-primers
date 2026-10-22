@@ -1404,3 +1404,682 @@ All aggregates are **straight sums of the company rows on one basis: screener co
 - Chegg: https://stockanalysis.com/stocks/CHGG
 
 **Local working files (scratch, not for publication):** /tmp/education-dossier/notes.md (running notes), /tmp/education-dossier/*.txt (screener extracts, PDF text), /tmp/education-dossier/dl/ (raw downloads).
+
+---
+
+# PART 4 — Deep-research supplement (22-Oct-2026)
+
+Second, primary-source pass, compiled 22-Oct-2026 (UTC 17:00–18:30) for the writer. Its job is to make Parts 1–3 authoritative where they rested on snippets, memory or estimates. **Where Part 4 conflicts with Parts 1–3, Part 4 wins** (see the Supersedes table in 4.0).
+
+**What was read this pass (all fetched with a generic User-Agent; no logins):**
+- **PhysicsWallah**
+  - **Q4 FY26 shareholders' letter** (27-May-2026), from PW's IR site: https://static.pw.live/5eb393ee95fab7468a79d189/defb951d-5293-40ae-93f6-03ecb2dc0025.pdf (linked from https://www.pw.live/investor-relations/shareholder-letter-q4).
+  - **Q1 FY27 shareholders' letter** (14-Aug-2026): https://static.pw.live/5eb393ee95fab7468a79d189/7390ef43-919a-4b02-a598-c28e0e51b630.pdf.
+  - **Monitoring Agency Report for the IPO, quarter to 30-Jun-2026** (CARE Ratings, 14-Aug-2026): https://static.pw.live/5eb393ee95fab7468a79d189/c486d7b6-be2e-4545-a197-5e80fe5f527b.pdf.
+  - **FY26 Annual Report** (BSE): https://www.bseindia.com/xml-data/corpfiling/AttachHis/ae9bb4a7-4a9f-4760-8ae5-71f2293016a8.pdf. Read: balance sheet, borrowings, other financial liabilities, CCPS note, shareholders >5%, related parties, contingent liabilities, CARO dues table, segment note.
+  - Re-read the Q1 FY27 (14-Aug-2026) and Q3 FY26 (6-Feb-2026) call transcripts saved by the first pass.
+- **Crizac**
+  - **FY26 Annual Report** (BSE): https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff1f4fc3-f55a-4e1b-8b60-a100a35be41b.pdf. Read: related parties, revenue disaggregation, receivables, contingent liabilities, ESOP and investments.
+  - **IPO Prospectus** (SEBI, Jul-2025): https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1752043851362.pdf. Read: restated vs proforma financials, concentration tables, revenue model, related-party transactions, exceptional item.
+  - Re-read the Q1 FY27 deck and call transcript saved by the first pass.
+- **Industry primary sources**
+  - **UK**
+    - HC 1333 Explanatory Memorandum (gov.uk).
+    - Student Sponsor Guidance Document 3, version 06/2026 (gov.uk).
+    - Monthly entry-clearance visa applications, Sep-2026 release (gov.uk, 8-Oct-2026).
+    - OfS "Financial sustainability of higher education providers in England 2026" (updated PDF, 15-Jun-2026).
+  - **Canada:** IRCC notice of 25-Nov-2025 (canada.ca).
+  - **IDP Education:** FY26 results presentation (ASX, 20-Aug-2026).
+  - **Redseer:** report page (13-Aug-2026).
+  - **Peer quotes:** stockanalysis.com (22-Oct-2026 intraday).
+- **Blocked this pass:** BSE API (Akamai "Access Denied"); jeemain.nta.nic.in (connection reset); education.gov.in (empty/403); indiacode.nic.in (403/timeout); mea.gov.in (403). Facts from those bodies remain [V-snip], or [V-sec] where a full secondary page was read.
+- **Scratch:** notes are in /tmp/education-deep/notes.md; text extracts are in /tmp/education-deep/*.txt; raw files are in /tmp/education-deep/dl/.
+
+**Tags in Part 4.**
+- **[V]** = fetched and read this pass from the named primary document.
+- **[V-P1]** = primary, fetched by the first pass the same day and re-read from its saved copy.
+- **[V-sec]** = full secondary page read.
+- **[V-snip]** = search summary only.
+- **[E]** = arithmetic or estimate.
+- **[K]** = memory.
+
+**The five things the writer most needs to know from this pass**
+1. **PW's FY26 profit stack is now fully disclosed, and the ₹549 Cr "EBITDA" includes ₹232 Cr of other income, not ₹179 Cr.**
+   - Company bridge: pre-Ind AS EBITDA **₹300 Cr (7.7%)** + lease payments ₹252 Cr + other income ₹232 Cr = **adjusted EBITDA ₹784 Cr (20.1%)**.
+   - Then − ESOP ₹171 Cr − exceptional items ₹40 Cr − one-time items ₹24 Cr = **EBITDA ₹549 Cr (14.1%)** [V Q4 FY26 letter].
+   - Screener's "other income" of ₹179 Cr is a different classification. Screener OP + OI = ₹549 Cr is a coincidence of netting, not the company's own build.
+2. **PW has essentially no debt.**
+   - The ₹824 Cr "preference capital" that screener puts in borrowings is a mapping artefact: the pre-IPO CCPS (₹834 Cr at Mar-25) were *equity* instruments and converted before the IPO.
+   - Consolidated borrowings at Mar-26 are **₹10.5 Cr**; lease liabilities ₹1,041.6 Cr; a separate **₹339 Cr liability to buy out minority holders** (Xylem/Utkarsh/Sarrthi puts).
+   - True equity attributable to owners is **₹4,520 Cr**, not screener's ₹3,697 Cr, so **P/B ≈ 8.0×, not 9.7×** [V AR].
+3. **PW's IPO money is mostly unspent, and the spend so far is mostly "general corporate purposes".**
+   - ₹1,058.9 Cr of the ₹3,100 Cr fresh issue had been used by 30-Jun-2026, of which **₹674.5 Cr was GCP** (salaries, professional fees, GST) and only ₹34 Cr went on new-centre fit-outs (of ₹460.6 Cr earmarked).
+   - ₹2,041 Cr was unutilised, ₹1,986 Cr of it in bank FDs at 6.15–6.90% [V CARE monitoring report].
+4. **Crizac's FY24 "conflict" is two correct numbers on two bases, and FY24 hides two related-party items.**
+   - Revenue: ₹530 Cr restated consolidated (Crizac UK became a subsidiary only on **20-Nov-2023**) vs ₹635 Cr proforma (as if owned all year) [V prospectus].
+   - FY24 also carried a **₹74.9 Cr break fee (GBP 7.15 M)** paid to the promoter-group company **Crizac Informatics Ltd (UK)**, and **₹103.6 Cr of IT-software purchases from promoter-group Crizac Technologies Pvt Ltd** [V prospectus]. The last ₹56.7 Cr of the break fee was paid in FY26 [V AR].
+5. **The UK policy calendar is now dated from primary documents.**
+   - **Graduate Route cut to 18 months** applies to applications on or after **1-Jan-2027** [V HC 1333 EM].
+   - **BCA thresholds from 1-Jun-2026:** refusals <5%, enrolment ≥95%, **completion ≥85% (rising to 90% only from 1-Jun-2027)** [V UKVI guidance].
+   - Sponsored-study main-applicant **applications fell 19% to 352,500 in the year to Sep-2026** [V gov.uk]. That is a sharper fall than the −12% in grants to Jun-2026, and it is the leading indicator for Crizac's FY27–FY28.
+
+## 4.0 Supersedes (corrections to Parts 1–3; apply these)
+
+| # | Where in Parts 1–3 | Old value / statement | New value / statement | Source (this pass) |
+|---|---|---|---|---|
+| S1 | Trap 1; §2.1 table; §6; JSON | Company "EBITDA" ₹549 Cr = screener OP ₹370 Cr + other income ₹179 Cr | Company build: pre-Ind AS ₹300 Cr + lease payments ₹252 Cr + **other income ₹232 Cr** = adj. EBITDA ₹784 Cr; − ESOP ₹171 Cr − exceptional ₹40 Cr − one-time ₹24 Cr = EBITDA ₹549 Cr. Company other income FY26 = **₹232 Cr** (FY25 ₹152 Cr), not ₹179 Cr. Keep screener OP ₹370 Cr for cross-company tables, but describe ₹549 Cr as "after ESOP, including ₹232 Cr other income" | PW Q4 FY26 letter, KPI and walk tables [V] |
+| S2 | §H-1; company table "FY26 n/d" | FY26 adj. EBITDA n/d; pre-Ind AS "~₹300 Cr (one source)" | **Adj. EBITDA ₹784 Cr (20.1%) vs ₹432 Cr (15.0%); pre-Ind AS ₹300 Cr (7.7%) vs ₹94 Cr (3.2%); FY23 pre-Ind AS ₹52 Cr.** Q4 FY26: adj. ₹136 Cr (14.8%), pre-Ind AS ₹9 Cr (1.0%), EBITDA ₹65 Cr (7.0%). Q3 FY26: adj. ₹351 Cr (32.4%), pre-Ind AS ₹219 Cr (20.2%), EBITDA ₹278 Cr (25.6%) | Q4 FY26 letter [V] |
+| S3 | §6 "Working capital"; Part 2 balance sheet; trap §2.1; JSON `preference_capital_in_borrowings` 824 | Screener borrowings ₹1,876 Cr = leases ₹1,042 + "preference capital" ₹824 + debt ₹10; "nature unverified" | **No preference capital outstanding at Mar-26.** Pre-IPO CCPS (Series A ₹345.0 Cr, A1 ₹485.2 Cr, B ₹4.2 Cr = ₹834.5 Cr at Mar-25) were classified as *equity* ("instruments entirely equity in nature") and converted into 1,02,03,174 equity shares before the IPO. Mar-26 consolidated: **borrowings ₹10.5 Cr** (NC ₹0.20 + current ₹10.30); **lease liabilities ₹1,041.6 Cr**; **liability for acquisition of non-controlling interest ₹339.0 Cr** (inside other financial liabilities). Screener appears to deduct ₹824 Cr from reserves and add it to borrowings | PW FY26 AR, consolidated balance sheet and notes 9(b), 13(a), 13(c) [V] |
+| S4 | Part 2 BS table; §2.0 peer table (P/B 9.7); JSON `pb` | Net worth ₹3,697 Cr; P/B 9.7× | **Equity attributable to owners ₹4,520.4 Cr** (share capital ₹286.0 + other equity ₹4,234.4); NCI ₹50.4 Cr; total equity ₹4,570.8 Cr. **P/B ≈ 8.0×** at ₹36,231 Cr m-cap [E] | PW FY26 AR [V] |
+| S5 | §9.1, Part 2 KPI table, primer reconciliation | FY26 online ACPU "~₹4,012 revenue/user [E]" | **ACPU FY26 ₹4,104 (+11.4% vs ₹3,683)** (collections basis) | Q4 FY26 letter [V] |
+| S6 | Trap 3; §9.1; §3.3 reconciliation | FY26 offline ARPU "≈₹37,700 [E]"; primer's "~₹36,600, falling ~9%" treated as approximate | **Offline ARPU FY26 ₹36,625, −9% YoY (mix).** The primer was right; withdraw the ₹37,700 estimate | Q4 FY26 letter [V] |
+| S7 | Part 2 KPI table, Mar-26 column "n/d" | Mar-26 centre mix n/d (only Pathshala 84) | **Mar-26: Vidyapeeth 139 (256.6k enrolments), Pathshala 84 (42.9k), PW Other 62 (48.1k), subsidiary 68 (119.8k) = 353 (467.5k).** Mar-25: 79/47/19/53 = 198 (325.6k). 178 cities in India + 6 in the UAE | Q4 FY26 letter [V] |
+| S8 | §3.3 reconciliation; primer issue "treasury" | "Treasury at Mar-26 not found"; primer's "~₹5,000 Cr at end-2025" flagged as wrong | **Treasury ₹5,027 Cr at 31-Mar-2026 (incl. IPO proceeds); CFO said "~₹5,000 Cr post IPO" on the 6-Feb-2026 call.** The primer's ~₹5,000 Cr is correct for end-2025/Mar-26. **Withdraw that primer issue**; just add Jun-26 ₹5,601 Cr | Q4 FY26 letter [V]; Q3 FY26 transcript [V-P1] |
+| S9 | §11 (AI) and §9.1 "Employee cost" | "Employee cost ex-ESOP fell 2.6% YoY in Q1 FY27 while revenue rose 24%" | Employee cost ex-ESOP **rose 18% (₹489 Cr vs ₹415 Cr)**; it fell **2.6 percentage points as a share of revenue** (46.4% vs 49.0%). The CFO's "lower by 2.6%" refers to the ratio | Q1 FY27 letter, Appendix A [V]; transcript [V-P1] |
+| S10 | §9.1 "Online segment EBITDA margin Q1 FY27 n/d"; Part 2 segment | Q1 FY27 online segment n/d | **Online pre-Ind AS EBITDA Q1 FY27 ₹67 Cr (12%) vs ₹25 Cr (6%)**; offline −₹106 Cr (−22%) vs −₹113 Cr (−26%); others −₹5 Cr. Segment results before allocation: online ₹76 Cr, offline −₹27 Cr; ₹57 Cr of unallocated corporate costs were allocated. The FY26 online "~27%" (CFO) remains a management estimate; no audited FY26 segment note exists (FY26 AR: single segment) | Q1 FY27 letter, Appendix C [V]; FY26 AR note 31 [V] |
+| S11 | §H-4; E3 | Q1 FY26 channel split conflict (399/413/35 vs 412/428/7) "likely reclassification" | Confirmed restatement. **FY26 annual figures (1,954/1,774/172) are on the old basis** (Q1 399 + Q2 536 + Q3 600 + Q4 419 = 1,954). From Q1 FY27, books/hostel sales attached to a course sit in online/offline, and "others" = YouTube ads, content licensing, FinZ, Key Lifestyle, PW Foundation. Use 412/428/7 only for Q1 YoY | Q1 FY27 letter glossary and table; Q4 FY26 KPI table [V] |
+| S12 | §4.3; §H-3; primer issue | "72 of ~116 mature Vidyapeeth profitable" — unverified | **Not in any company document read** (Q2 FY26, Q4 FY26, Q1 FY27 letters; FY26 AR; two transcripts). Company wording: **"Centers opened in 2022, 2023, and 2024 were profitable at the EBITDA level in FY26, while centers opened in 2025 were EBITDA loss-making at a single digit margin"**; post-2024 "hyperlocal" centres "typically reach profitability within 24 months". Replace the 72/116 claim with this | Q1 FY27 letter §C Q5 [V] |
+| S13 | Part 2 IPO "Objects [K]"; §9.2 | ₹460.5 fit-outs; ₹548.3 leases; ₹47.2 Xylem fit-outs + ₹33.7 Xylem leases; ₹26.5 Utkarsh; ₹200.1 cloud; ₹710 marketing; balance inorganic/GCP | Exact objects (₹ Cr): new-centre fit-outs **460.55**; existing-centre leases **548.31**; Xylem **47.17 = fit-outs 31.65 + leases 15.52**; **Utkarsh leases 28.00**; Utkarsh additional stake **26.50**; server/cloud **200.11**; marketing **710.00**; inorganic + GCP **941.15** (GCP ≤ ₹775 Cr, inorganic ≤ ₹775 Cr, combined ≤ 35%); issue expenses **138.22**; total **3,100.00**. Part 2's Xylem split and the missing Utkarsh-lease line were wrong | CARE monitoring report Q1 FY27 [V] |
+| S14 | §7.3; Part 2 IPO | "~₹2,000 Cr remained unspent at 30-Jun-2026" | **₹2,041.06 Cr unutilised; ₹1,058.94 Cr used** (Q1 FY27 ₹291.35 Cr). ₹1,986 Cr in FDs (HDFC ₹1,000 Cr at 6.78%, Axis ₹500 Cr at 6.80%, Kotak ₹230 Cr at 6.90%, ICICI ₹200 Cr at 6.15%, small Kotak FDs). "No deviation" | CARE report [V] |
+| S15 | §5.3; Part 2 ownership | Pre-IPO stakes "WestBridge ~6%, Hornbill ~3%, GSV ~2%, Lightspeed ~2%" (unverified) | **At 31-Mar-2026 the only non-promoter holder above 5% is WestBridge AIF I, 5.84% (16,69,82,670 shares).** Promoters Alakh Pandey and Prateek Boob held **36.15% each** (72.30%). Pre-conversion CCPS holders at Mar-25: WestBridge (Series A 14.99%, A1 30.32% of those classes), GSV Ventures Fund III (A 9.22%, A1 6.15%), Hornbill Capital Partner (B 20.41%), Lightspeed India Opportunity Fund II (B 12.76%), Setu AIF Trust (B 5.21%). Present stakes of Hornbill/GSV/Lightspeed: <5% each, exact % not disclosed in the AR | PW FY26 AR, share-capital note [V] |
+| S16 | Trap 7; §H-8; E6 | Crizac FY24: company ₹635 Cr vs screener ₹530 Cr "not resolved"; FY24 EBITDA 11.4% "implies one-offs" | **Both are correct on different bases.** Restated consolidated FY24 revenue **₹530.05 Cr** (Crizac UK a subsidiary only from **20-Nov-2023**); proforma consolidated FY24 **₹634.87 Cr** (as if Crizac UK owned all year). FY23: restated *standalone* ₹274.1 Cr vs proforma ₹473.0 Cr (screener's FY23 = proforma). Restated FY24 EBITDA ₹71.7 Cr (13.5%); PAT ₹117.9 Cr was propped by **other income ₹128.6 Cr** (FVTPL gains ₹52.4 Cr, profit on sale of investments ₹50.2 Cr, derivatives ₹12.2 Cr, interest ₹8.3 Cr) despite an **exceptional ₹74.9 Cr break fee** | Crizac Prospectus, restated and proforma summaries, MD&A, note 39 [V] |
+| S17 | Trap 9; §9.1 "UK share ~97% FY24–FY26" | "Around 97%" historically | Prospectus (proforma): UK **96.42% (FY23), 96.13% (FY24), 95.12% (FY25)**; Q1 FY27 deck **98.7%**. UK dependence **rose** after listing, not fell — against the "<60% in three years" target | Prospectus risk factor 2 [V]; Q1 FY27 deck [V-P1] |
+| S18 | §9.1 top-10 universities | Only Q1 FY27 (68.7%) | **Top-3/5/10 institutions: FY23 63.8/72.9/82.4%; FY24 64.0/70.7/80.6%; FY25 52.9/60.3/70.6%; Q1 FY27 41/51/68.7%.** University concentration is falling | Prospectus [V]; Q1 deck [V-P1] |
+| S19 | §3.1 exam table; E12 | JEE Main 2026 S1 "~14.1–14.5 lakh, highest ever" | **Paper 1 (BE/BTech) S1: 13,55,293 registered, 13,04,653 appeared (96.3%), result 16-Feb-2026; S2: 11,10,904 registered, 10,34,330 appeared; 15,38,468 unique candidates appeared across both sessions** (NTA via Careers360/Collegedunia). The ~14.1–14.5 lakh figure seems to include Paper 2 or interim counts | [V-snip; NTA site blocked] |
+| S20 | §3.1 exam table | CUET-UG 2026 and UPSC 2026 "not sourced" | **CUET-UG 2026: 14,92,764 registrations (vs 13,54,699 in 2025, +10%)**; UPSC CSE Prelims 2026 (24-May-2026): **~8.19 lakh registered, ~5.49 lakh appeared, 13,343 qualified** | [V-snip] |
+| S21 | §7.2 UK; §12; §G | Graduate Route 18 months "from 1-Jan-2027 [K — verify]" | **Confirmed: applies to Graduate Route applications submitted on or after 1-Jan-2027; PhD stays at 3 years** (HC 1333, laid 14-Oct-2025) | HC 1333 Explanatory Memorandum §5.26 [V] |
+| S22 | §7.2 UK BCA | "<5% refusals, ≥95% enrolment, ≥90% completion [K]" | **For BCAs applied for from 1-Jun-2026: refusals <5%, enrolment ≥95%, completion ≥85%; completion ≥90% only from 1-Jun-2027.** Pre-June-2026: <10% / ≥90% / ≥85%. Public RAG rating set by the *worst* metric (refusal green <4%, amber 4–<5%; enrolment green ≥96%; completion green ≥92%) | UKVI Student Sponsor Guidance Doc 3, v06/2026 [V] |
+| S23 | §7.2 UK levy | Levy cost "~£445 M in 2028-29 (Wonkhe)" | **OfS estimate: ~£570 M for 2028-29** (£925 per non-UK student, providers above 220 students). Keep Wonkhe's figure only as an alternative | OfS FSR 2026 ¶58 [V] |
+| S24 | §7.2 OfS bullets | "36% in deficit; >40% forecast; severe: £4.2bn, ~200 providers (~70%)" | **35.8% (100 providers) in deficit 2024-25; 42.7% (119) forecast 2025-26; no-growth scenario £2.7bn losses and 163 providers (58.4%) in deficit by 2028-29; severe £4.2bn and 196 (70.3%)** | OfS FSR 2026 (updated 15-Jun-2026) [V] |
+| S25 | §5.2; §10 IDP | "FY26 revenue A$795.4 M (−9%)" | Revenue **A$795.4 M, −11% reported (−9% constant currency)**; placements **54.2k (−27%)**: Australia 31.7k (−9%), other destinations 22.5k (−42%; UK −20%, Canada −80%, USA −67%, Ireland +2%); placement revenue A$302.9 M (−19%); IELTS revenue A$388.9 M (−5%), volumes −8% (India −22%); headcount −1,250 (~20%) | IDP FY26 presentation [V] |
+| S26 | §10 peers; IDP m-cap | IDP "~A$0.6 bn [E]"; New Oriental/TAL/Gaotu [K]; Chegg "$82–114 M" | **22-Oct-2026: IDP A$2.25, m-cap A$625 M (277.9 M shares); New Oriental $58.75, m-cap $9.11 bn, TTM revenue $5.66 bn, P/E 19.8; TAL $10.43, m-cap $5.79 bn, TTM revenue $3.19 bn, P/E 6.5 (fwd 10.5); Gaotu $2.51, m-cap $590 M, TTM revenue $975 M, loss; Chegg $0.67, m-cap $74.6 M, TTM revenue $265.5 M (−48%)** | stockanalysis.com [V-sec] |
+| S27 | §5.1; §5.3; §3.3 | Allen: "Bodhi Tree invested ~$600 M in 2024 [K]" | **Bodhi Tree Systems (James Murdoch / Uday Shankar; Qatar Investment Authority is an investor in Bodhi Tree) announced the ~$600 M Allen investment in May-2022**, not 2024. A Temasek link to Allen was not found | TechCrunch 1-May-2022 [V-snip]; Gulf News [V-snip] |
+| S28 | §5.1; §8 | Edtech funding 2021 "~$4.7 bn [K, Tracxn]" | **Tracxn ~$4.1 bn (2021); PwC ~$4.0 bn (2021) → $1.8 bn (2022); Tracxn 2023 ~$321 M.** Use "about $4 bn" | [V-snip] |
+| S29 | §5.1 Aakash | "Manipal 39–58% (sources conflict)" | **Manipal 39.1% at 27-Nov-2025 (largest holder); on 3-Jun-2026 CCI approved a rights issue after which the Manipal group's holding "may cross 75%"**; Byju's diluted to a minority. Aakash FY26: education revenue ~₹2,040 Cr, loss ~₹186.5 Cr | Inc42 cap table; CCI via Storyboard18/Outlook; EntrepreneurIndia [V-snip] |
+| S30 | §7.1 Rajasthan; §G Sep-2025 | "Passed Sep-2025 [K — verify]" | **Enacted as the Rajasthan Coaching Centres (Control and Regulation) Act, 2025 (Act No. 16 of 2025); Governor's assent 23-Sep-2025**; Select Committee report 1-Sep-2025; district committee + state Authority; penalties ₹2 lakh (first) / ₹5 lakh (second) / cancellation. Notified rules not found | India Code record (search summary; PDF blocked) [V-snip]; PRS [V-snip] |
+| S31 | §2.1 Kota | Latest Kota count 2024-25 (1.24 lakh) | 2023→2025 **~2.5 lakh → 85,000–1 lakh students, ₹6,500–7,000 Cr → ~₹3,500 Cr** (PTI, Mar-2026). **2026-27 admissions tracking +20–30% YoY** (Kota Hostel Association; industry claim) | FPJ/PTI Mar-2026; YourStory May-2026 [V-snip] |
+| S32 | §2.2 / E9 UK applications | Applications YE Jul-2026 −11%, YE Aug-2026 −16% (snippets) | **Sponsored-study main-applicant applications YE Sep-2026: 352,500, −19%; dependants 15,700, −31%** (published 8-Oct-2026; next release 12-Nov-2026). September 2026 alone: ~71,600 vs 79,800 [V-snip THE] | gov.uk monthly applications [V] |
+| S33 | Part 2 §2.1 FY25 channel estimates | FY25 online ~₹1,406 Cr [E], offline ~₹1,354 Cr [E] | **FY25 online ₹1,404 Cr, offline ₹1,352 Cr, others ₹131 Cr**; Q4 FY25 292/264/54; Q4 FY26 419/406/94; Q3 FY26 600/476/7 | Q4 FY26 letter [V] |
+| S34 | Part 2 people | Faculty 7,268 / employees 19,567 only for Jun-26 | **Mar-26: 18,977 employees; 6,837 faculty (5,693 employees + 1,144 consultants); 16 categories.** Mar-25: 15,775 / 5,096 | Q4 FY26 letter [V] |
+| S35 | §7.2 Canada | 2026 cap 408,000 [V-snip] | **Confirmed: up to 408,000 study permits in 2026 (155,000 new arrivals + 253,000 extensions); 49,000 master's/PhD at public DLIs exempt from the PAL requirement from 1-Jan-2026; −7% vs 2025 (437,000), −16% vs 2024 (485,000).** Levels Plan student arrivals: 155k (2026), 150k (2027), 150k (2028), vs 305k in the previous plan | IRCC notice 25-Nov-2025 [V]; canada.ca Levels supplementary [V-snip] |
+| S36 | §G; §12 NEET | "NTA to conduct NEET online from next year" (letter) presented as settled | **CBT for NEET-UG 2027 was announced by the Education Ministry after the 2026 leak, but in Sep-2026 the Centre told the Supreme Court it is under "active consideration" pending a Nilekani-led task force; NTA has asked AICTE to identify CBT centres.** Treat it as likely, not final | [V-snip Quint/Careers360/Medical Dialogues] |
+
+## 4.1 Verification table — 40 figures the writer will use
+
+Column key:
+- **Fetched?** — V = primary, fetched and read this pass. V-P1 = primary, first-pass copy re-read. V-sec / V-snip = secondary.
+- **Agrees with Parts 1–3?** — Yes / No (→ Supersedes #) / New.
+
+**Count: 38 of 40 are [V] primary, fetched this pass (company filings, monitoring-agency report, regulators/governments, the ASX filing, and Redseer's own report page). Rows 27–29 also use the first-pass deck [V-P1] for the latest quarter. Two are secondary: row 39 [V-snip] (NTA/UPSC sites blocked) and row 40 [V-sec/V-snip] (MoE and India Code PDFs blocked).**
+
+| # | Figure | Value | Primary source (URL) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | PW FY26 revenue from operations | ₹3,900 Cr (+35%); 3-yr CAGR 74% | PW Q4 FY26 shareholders' letter — static.pw.live/…/defb951d-5293-40ae-93f6-03ecb2dc0025.pdf | V | Yes |
+| 2 | PW FY26 channel revenue | Online ₹1,954 Cr (+39%), offline ₹1,774 Cr (+31%), others ₹172 Cr (+32%) | same | V | Yes (others now V, not E) |
+| 3 | PW FY26 EBITDA (company) | ₹549 Cr (14.1%) vs ₹193 Cr (6.7%) | same | V | Yes in value; No in build (S1) |
+| 4 | PW FY26 adjusted EBITDA | ₹784 Cr (20.1%) vs ₹432 Cr (15.0%) | same | V | New (S2) |
+| 5 | PW FY26 pre-Ind AS EBITDA | ₹300 Cr (7.7%) vs ₹94 Cr (3.2%) | same | V | Yes (was 1 source) (S2) |
+| 6 | PW FY26 other income (company) | ₹232 Cr (FY25 ₹152 Cr) | same | V | No — Part 2 used ₹179 Cr (screener) (S1) |
+| 7 | PW FY26 cost lines | Direct ₹764 Cr; employee ex-ESOP ₹1,735 Cr (44%); marketing ₹354 Cr (9%); other ₹495 Cr; lease payments ₹252 Cr; ESOP ₹171 Cr | same | V | New (marketing 9% vs guide 8–9%) |
+| 8 | PW paid users FY26 | 5.34 M (online 4.87 M, offline 0.47 M) | same | V | Yes |
+| 9 | PW online ACPU FY26 | ₹4,104 (+11.4%) | same | V | No (S5) |
+| 10 | PW offline ARPU FY26 | ₹36,625 (−9%) | same | V | No (S6) |
+| 11 | PW centres Mar-26 | 353 = Vidyapeeth 139 / Pathshala 84 / other 62 / subsidiary 68 | same | V | Yes total; mix new (S7) |
+| 12 | PW treasury | ₹5,027 Cr (31-Mar-26); ₹5,601 Cr (30-Jun-26) | Q4 FY26 letter; Q1 FY27 letter — static.pw.live/…/7390ef43-919a-4b02-a598-c28e0e51b630.pdf | V | Jun-26 yes; Mar-26 new (S8) |
+| 13 | PW Q1 FY27 P&L | Revenue ₹1,054 Cr (+24%); EBITDA ₹52 Cr; adj. ₹135 Cr; pre-Ind AS −₹44 Cr; PAT −₹88 Cr; Sarrthi fair-value hit ₹42 Cr | Q1 FY27 letter | V | Yes (now primary) |
+| 14 | PW Q1 FY27 segments (pre-Ind AS) | Online ₹67 Cr (12%); offline −₹106 Cr (−22%); others −₹5 Cr | Q1 FY27 letter, Appendix C | V | Offline yes; online new (S10) |
+| 15 | PW Q1 FY27 centre mix and enrolments | Vidyapeeth 165 (219k), Pathshala 70 (30k), other 66 (39k), subsidiary 65 (59k) = 366 (347k) | Q1 FY27 letter | V | Yes (finer split new) |
+| 16 | PW centre-cohort profitability | 2022–24 cohorts EBITDA-positive in FY26; 2025 cohort single-digit loss; new centres profitable within ~24 months | Q1 FY27 letter §C Q5 | V | Replaces "72/116" (S12) |
+| 17 | PW IPO fresh issue and objects | ₹3,100 Cr; fit-outs 460.55; leases 548.31; Xylem 47.17; Utkarsh leases 28.00; Utkarsh stake 26.50; cloud 200.11; marketing 710.00; inorganic+GCP 941.15; expenses 138.22 | CARE Monitoring Agency Report Q1 FY27 — static.pw.live/…/c486d7b6-be2e-4545-a197-5e80fe5f527b.pdf | V | Partly (S13) |
+| 18 | PW IPO utilisation at 30-Jun-26 | Used ₹1,058.94 Cr (GCP ₹674.47 Cr, leases ₹100.81 Cr, marketing ₹66.59 Cr, cloud ₹37.71 Cr, fit-outs ₹34.05 Cr); unused ₹2,041.06 Cr | same | V | No (S14) |
+| 19 | PW IPO dates | Issue 11–13 Nov 2025; prospectus 13-Nov-2025; OFS ₹380 Cr | same (issue details) | V | Yes |
+| 20 | PW borrowings / leases / NCI-buyout liability (Mar-26) | ₹10.5 Cr / ₹1,041.6 Cr / ₹339.0 Cr | PW FY26 Annual Report — bseindia.com/xml-data/corpfiling/AttachHis/ae9bb4a7-4a9f-4760-8ae5-71f2293016a8.pdf | V | No (S3) |
+| 21 | PW equity attributable to owners (Mar-26) | ₹4,520.4 Cr (Mar-25 ₹1,524.6 Cr incl. ₹834.5 Cr CCPS) | same | V | No (S4) |
+| 22 | PW major shareholders (Mar-26) | Alakh Pandey 36.15%; Prateek Boob 36.15%; WestBridge AIF I 5.84% | same | V | No (S15) |
+| 23 | PW income-tax demand (FY2022-23, cited as "AY23") | ₹263.34 Cr (order 16-Mar-2026) → ₹192 Cr after rectification (31-Mar-2026); appeal to CIT(A) 13-Apr-2026; ₹19.27 Cr (10%) deposited 29-May-2026. Treats investor money (incl. Cat II AIFs) as income. CARO lists ₹192.76 Cr disputed | CARE report note 2; FY26 AR CARO annexure | V | New |
+| 24 | PW people (Mar-26 / Jun-26) | 18,977 employees, 6,837 faculty / 19,567, 7,268 | Q4 FY26 letter; Q1 FY27 letter | V | Jun yes; Mar new (S34) |
+| 25 | Crizac FY24 revenue, two bases | Restated ₹530.05 Cr; proforma ₹634.87 Cr; Crizac UK subsidiary from 20-Nov-2023 | Crizac Prospectus — sebi.gov.in/sebi_data/attachdocs/jul-2025/1752043851362.pdf | V | Resolves conflict (S16) |
+| 26 | Crizac FY24 one-offs | Other income ₹128.6 Cr; exceptional break fee ₹74.9 Cr (GBP 7.15 M) to Crizac Informatics Ltd UK | same | V | New (S16) |
+| 27 | Crizac UK share of revenue | FY23 96.42%; FY24 96.13%; FY25 95.12%; Q1 FY27 98.7% | Prospectus; Q1 FY27 deck | V; V-P1 | No (S17) |
+| 28 | Crizac top-10 institutions % revenue | FY23 82.39%; FY24 80.56%; FY25 70.56%; Q1 FY27 68.7% | same | V; V-P1 | New (S18) |
+| 29 | Crizac agent payments % revenue | FY23 65.04%; FY24 70.04%; FY25 70.54%; FY26 67.5% | Prospectus; Q1 FY27 deck | V; V-P1 | Yes (+FY23) |
+| 30 | Crizac commission basis | "Generally… a percentage of the tuition fee of the first year"; rate varies by contract; no student application fee | Prospectus "Revenue model" | V | Yes — rate still undisclosed |
+| 31 | Crizac receivables policy / contingent liabilities | Terms 90–180 days, nil expected-credit-loss provision; contingent liabilities nil | Crizac FY26 AR, notes 32.3 and 43 — bseindia.com/xml-data/corpfiling/AttachHis/ff1f4fc3-f55a-4e1b-8b60-a100a35be41b.pdf | V | New |
+| 32 | UK Graduate Route | 18 months for applications from 1-Jan-2027; PhD 3 years | HC 1333 EM — assets.publishing.service.gov.uk/media/691315157a0ccd6a3aad7f3f/EM+_to+Statement+of+changes+in+Immigration+Rules+-+HC+1333_.pdf | V | Yes (now V) (S21) |
+| 33 | UK BCA thresholds | From 1-Jun-2026: <5% / ≥95% / ≥85%; completion ≥90% from 1-Jun-2027 | UKVI Student Sponsor Guidance Doc 3 v06/2026 — assets.publishing.service.gov.uk/media/6a1866c6916cd732dcdaacb6/Student_sponsor_compliance.pdf | V | No on completion timing (S22) |
+| 34 | UK study visa applications | Main applicants YE Sep-2026 352,500 (−19%); dependants 15,700 (−31%) | gov.uk "Monthly entry clearance visa applications: September 2026" (8-Oct-2026) | V | New (S32) |
+| 35 | OfS sector finances | 35.8% in deficit 2024-25; 42.7% forecast 2025-26; levy ~£570 M 2028-29; non-UK PGT FTE −15.6% in 2024-25 | officeforstudents.org.uk/media/p0dd3sdq/ofs-2026_21-updated-15-6-26.pdf | V | No (S23, S24) |
+| 36 | Canada study permits 2026 | 408,000 (155k new + 253k extensions); −7% vs 2025; −16% vs 2024 | canada.ca IRCC notice 25-Nov-2025 | V | Yes (now V) (S35) |
+| 37 | IDP FY26 and FY27 outlook | Revenue A$795.4 M (−11%); placements −27%; adj. EBIT A$122.9 M; FY27 adj. EBIT A$95–115 M on market volumes −20–30% | announcements.asx.com.au/asxpdf/20260820/pdf/072yxx53wv5608.pdf | V | Yes (now V) (S25) |
+| 38 | India test-prep market (Redseer) | ~$14.8 bn FY26 → $23–26 bn FY30 (12–15% CAGR) | redseer.com/reports/india-test-preparation-market-outcome-is-king/ (13-Aug-2026) | V | Yes (now V) |
+| 39 | Exam pools 2026 | JEE Main S1 13.55 lakh registered (15.38 lakh unique appeared, both sessions); CUET-UG 14.93 lakh; UPSC CSE ~8.19 lakh registered; NEET-UG 22.79 lakh (Part 1) | NTA/UPSC via Careers360, Collegedunia, IASGyan; NTA site blocked | V-snip | No (S19, S20) |
+| 40 | Coaching regulation | MoE 2024: >50 students, under-16 bar, ₹25,000 / ₹1 lakh / revocation, 1 sq m per student [V-sec Drishti]; Rajasthan Act No. 16 of 2025, assent 23-Sep-2025, ₹2 lakh / ₹5 lakh [V-snip] | education.gov.in and indiacode.nic.in PDFs (both blocked) | V-sec / V-snip | Partly (S30) |
+
+**Where sources conflict and which wins:**
+- **PW other income:** company ₹232 Cr vs screener ₹179 Cr. Use the company figure when quoting the company's EBITDA build. Screener nets the ₹10.8 Cr fair-value loss on redemption liabilities and appears to reclassify ~₹42 Cr; use it only inside screener-based tables.
+- **PW net worth:** AR ₹4,520 Cr vs screener ₹3,697 Cr. **The AR wins**; screener's ₹824 Cr "preference capital" is a stale mapping of converted CCPS.
+- **Crizac FY24 revenue:** ₹530 Cr (restated, statutory) vs ₹635 Cr (proforma, company deck). For a growth series use the proforma (like-for-like with FY25–FY26) and footnote it. Statutory filings and screener use the restated figure.
+- **JEE Main S1:** 13.55 lakh (Paper 1, attached to the NTA result) vs "14.1–14.5 lakh" (pre-exam interim counts, likely including Paper 2). Use 13.55 lakh for BE/BTech and 15.38 lakh for unique candidates across both sessions.
+- **Levy cost:** OfS (regulator, using providers' own forecasts) £570 M vs Wonkhe £445 M. Prefer OfS.
+
+## 4.2 Per-company deep dives
+
+### 4.2.1 PhysicsWallah (PWL · 544609)
+
+#### (a) Management-commentary digest (paraphrased; source and date on each line)
+
+**Guidance and targets**
+- **FY27 guidance unchanged: revenue +30%, EBITDA +100%** (CFO and co-founder Prateek Boob on the 14-Aug-2026 call). On the company basis that implies **revenue ≈ ₹5,070 Cr and EBITDA ≈ ₹1,100 Cr** [E]. Management says users and ACPU will "trade off" but the topline is aligned with the annual operating plan [V-P1 Q1 FY27 transcript].
+- **Offline: "near profitability" in FY27** (pre-Ind AS segment basis) [V-P1 transcript]. The Dec-2025 letter had targeted offline pre-Ind AS EBITDA *positive* in FY27; the wording has softened [V-P1 Q2 FY26 letter].
+- **Centre roll-out has been cut back twice.** Dec-2025 letter: 75+ new centres identified for FY27. 6-Feb-2026 call: "~70 centres next year with an outlay of ₹200 Cr". 14-Aug-2026 call: expansion "opportunistic… limited to geographies that fit our cohort economics… decided over the next 2 quarters" [V-P1 Q3 FY26 and Q1 FY27 transcripts].
+- **Capital allocation priorities (Aug-2026):**
+  1. AI-led product and technology.
+  2. New online content and categories.
+  3. "Selective, online-focused inorganic expansion".
+
+  Offline is no longer on the list. **FinZ (education lending) is being exited**: a term sheet was signed with an RBI-registered partner, with completion expected "in the next 3 months" (the ₹95.79 Cr book to Auxilo, 4-Oct-2026) [V Q1 FY27 letter §D].
+- **FY26 delivered what was guided.** The Feb-2026 call guided FY26 growth of 32–35%; the outcome was +35% [V-P1 Q3 FY26 transcript; V Q4 letter].
+
+**Demand and the NEET shock**
+- NTA cancelled the 3-May exam on 12-May, re-held it on 21-Jun, and declared results on 16-Jul — "a full month later than last year".
+- Online NEET collections fell 28% in Q1. **From 1-Jul to 13-Aug, online collections rose 51% YoY**, and offline NEET enrolments rose 82% YoY since July (they were −19% to 30-Jun).
+- PW's free YouTube revision classes after the cancellation drew ~42 M views [V Q1 FY27 letter].
+
+**Seasonality (management's own framing)**
+- ~79% of FY26 collections came in the Mar–Sep decision window.
+- Q1 is cash-heavy and revenue-light; Q2–Q3 carry the P&L; Q4 is soft.
+- "Full year is a better basis to look into PW, not any single quarter" [V Q4 FY26 letter Q4].
+
+**Mix and premiumisation**
+- JEE+NEET fell to **29% of online enrolments in FY26** (31% FY25, 54% FY23).
+- Fastest-growing categories in FY26: Boards, CA, Civil Services, Commerce, Foundation.
+- State Boards and vernacular reached **393k enrolments, EBITDA-positive in year one**; premium products (Curious Jr. Power Batch, Infinity, Infinity Pro) crossed **960k enrolments** [V Q4 letter].
+- In Q1 FY27: Infinity attach rate 18%, Infinity Pro 9%; Infinity orders +32%; K-12/early learning revenue ₹56 Cr → ₹105 Cr (+88%) [V Q1 letter].
+
+**Profit tiers by category (Q1 FY27 letter)**
+- High profitability: NEET, JEE, CA, Commerce, MBA, Board+CUET.
+- Path to higher profitability: GATE, Foundation, UPSC, Government exams, State PSCs, State Boards.
+- Growth investments: NEET-PG, Skills, Curious Jr., Vernacular.
+- Foundation, CBSE/ICSE Boards and Commerce "were already double-digit EBITDA margin businesses last year" [V].
+
+**Offline economics levers (Q4 letter Q5)**
+- Five levers: student–teacher ratio, seat utilisation, average faculty cost (Faculty Training Programme), ARPU (longer courses, test series, hostels), and the academic-to-non-academic staff ratio.
+- Vidyapeeth is ~70% of offline revenue (72% in Q1 FY27) and "made significant strides toward profitability" [V].
+
+**AI**
+- Own models: "Aryabhata" (20B parameters, ~3B active), ConceptGuru and Awaaz.
+- AI voice bots handle 6,000+ calls a day at ~₹2.7/minute (~75% cheaper than human counselling); 91% of new code is AI-assisted.
+- AI-tutor proof of concept: 95% lesson-level accuracy, <1% hallucination, ~$0.20 per tutoring hour [V Q4 and Q1 letters].
+- **Read-through:** management is positioning AI as a *monetisable product line* (Pi had 38.4k paid subscribers and ~₹9.5 Cr ARR at Mar-26), not only a cost lever.
+
+**Disclosure quality**
+- First auditor-reviewed segment report in Q1 FY27. Management "will continue to monitor the evolution of the underlying assumptions and methodology over the next three quarters", so segment numbers may be restated [V Q1 letter].
+- The filed Q1 FY27 letter PDF carries a cover-page artefact, "DRAFT · ILLUSTRATIVE FIGURES" (page 2 of the BSE/IR copy). The figures inside match the results tables. **Flag it, do not dramatise it.**
+
+#### (b) Concall / letter KPI table (company basis, ₹ Cr unless stated) [V letters; V-P1 Q2 FY26 letter]
+
+| KPI | Q2 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | FY25 | FY26 |
+|---|---|---|---|---|---|---|---|---|---|
+| Revenue | 832 | 609 | 847 | 1,051 | 1,082 | 919 | 1,054 | 2,887 | 3,900 |
+| — Online | 396 | 292 | 399 (412 restated) | 536 | 600 | 419 | 549 | 1,404 | 1,954 |
+| — Offline | 419 | 264 | 413 (428 restated) | 479 | 476 | 406 | 490 | 1,352 | 1,774 |
+| — Others | 17 | 54 | 35 (7 restated) | 36 | 7 | 94 | 15 | 131 | 172 |
+| Other income | n/d | 57 | 55 | n/d | 65 | 65 | 109 | 152 | 232 |
+| Pre-Ind AS EBITDA | 117 (14.1%) | −140 (−22.9%) | −89 (−10.5%) | 161 (15.3%) | 219 (20.2%) | 9 (1.0%) | −44 (−4.2%) | 94 (3.2%) | 300 (7.7%) |
+| Adj. EBITDA | 195 (23.5%) | −44 (−7.3%) | 26 (3.1%) | 270 (25.7%) | 351 (32.4%) | 136 (14.8%) | 135 (12.9%) | 432 (15.0%) | 784 (20.1%) |
+| EBITDA (Ind AS, after ESOP) | 165 (19.8%) | −204 (−33.5%) | −21 (−2.5%) | 228 (21.7%) | 278 (25.6%) | 65 (7.0%) | 52 (4.9%) | 193 (6.7%) | 549 (14.1%) |
+| ESOP | 24 | 19 | 42 | 41 | 43 | 46 | 39 | 91 | 171 |
+| PBT | n/d | −330 | −152 | n/d | 144 | −81 | −84 | −259 | 10 |
+| PAT | 41 | −289 | −127 | 70 | 102 | −69 | −88 | −243 | −24 |
+| Online pre-Ind AS EBITDA | — | — | 25 (6%) | — | — | — | 67 (12%) | — | ~27% (mgmt est.) |
+| Offline pre-Ind AS EBITDA | — | — | −113 (−26%) | — | — | — | −106 (−22%) | — | n/d |
+| Paid users (M) | 2.99 (H1) | — | 2.43 | 3.62 (H1) | — | — | 2.49 | 4.46 | 5.34 |
+| Online ACPU (₹) | 3,624 (H1) | — | 3,931 | 3,918 (H1) | — | — | 4,311 | 3,683 | 4,104 |
+| Offline ARPU (₹, period) | 22,976 (H1) | — | 11,822 | 21,985 (H1) | — | — | 12,633 | 40,405 | 36,625 |
+| Centres (end) | 186 | 198 | 303 | 314 | n/d | 353 | 366 | 198 | 353 |
+| DAU (M) | — | — | ~3.2 | 3.5+ | — | 3.3+ (FY avg) | 4.03 (MAU 35 M) | — | 3.3+ |
+| Employees / faculty | — | 15,775 / 5,096 | 18,028 / 6,267 | 18,340 / 6,643 | — | 18,977 / 6,837 | 19,567 / 7,268 | — | — |
+
+- **Implied FY26 segment split [E]:** if online earned ~27% of ₹1,954 Cr (≈₹528 Cr, management estimate), then offline + others lost ≈₹228 Cr pre-Ind AS in FY26 to reach the reported ₹300 Cr.
+  - Q1 alone was −₹111 Cr (offline −₹106 Cr, others −₹5 Cr), so offline lost roughly ₹100–120 Cr across Q2–Q4 [E].
+  - **"Near profitability" in FY27 therefore means improving the offline segment by roughly ₹200 Cr** [E]. Q1 improved it by only ₹7 Cr YoY — the writer should flag this as the key execution test.
+- **FY27 arithmetic [E]:** +100% EBITDA on ₹549 Cr = ~₹1,100 Cr. Q1 contributed ₹52 Cr, so Q2–Q4 must deliver ~₹1,050 Cr vs ₹571 Cr in Q2–Q4 FY26 (228 + 278 + 65).
+  - That is an ~84% rise on a ~33% revenue rise — it needs both the NEET catch-up and offline improvement.
+  - **Other income will help mechanically:** Q1 FY27 other income was ₹109 Cr vs ₹55 Cr, because IPO cash sits in FDs.
+
+#### (c) 5-year history (₹ Cr) [V screener P1 for FY22–FY24; V Q4 FY26 letter for FY25–FY26 company metrics]
+
+| Item | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue (screener cons.) | 233 | 744 | 1,940 | 2,887 | 3,900 |
+| YoY | — | +219% | +161% | +49% | +35% |
+| Screener OP (EBITDA ex OI) | 134 | −22 | −975 | 73 | 370 |
+| Company EBITDA (after ESOP, incl. OI) | — | — | −829 | 193 | 549 |
+| Company adj. EBITDA | — | — | — | 432 | 784 |
+| Company pre-Ind AS EBITDA | — | 52 | — | 94 | 300 |
+| PAT | 98 | −84 | −1,131 | −243 | −24 |
+| CFO | — | — | 212 | 507 | 833 |
+| Paid users (M) | — | ~1.8 | ~3.7 [primer] | 4.46 | 5.34 |
+| Centres (year end) | — | — | 126 [primer] | 198 | 353 |
+| Employees / faculty | — | — | — | 15,775 / 5,096 | 18,977 / 6,837 |
+| Equity attributable to owners (AR) | — | — | — | 1,524.6 (incl. CCPS 834.5) | 4,520.4 |
+| Borrowings (AR, ex-leases) | — | — | — | 0.33 | 10.5 |
+
+#### (d) 8-quarter trend (screener cons. revenue / OP / OPM / PAT; company pre-Ind AS EBITDA) [V-P1 screener; V letters]
+
+| Quarter | Revenue | YoY | Screener OP | OPM | PAT | Pre-Ind AS EBITDA |
+|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 832 | — | 134 | 16% | 41 | 117 |
+| Q3 FY25 (Dec-24) | 810 | — | 184 | 23% | 77 | n/d |
+| Q4 FY25 (Mar-25) | 610 | — | −229 | −38% | −289 | −140 |
+| Q1 FY26 (Jun-25) | 847 | — | −76 | −9% | −127 | −89 |
+| Q2 FY26 (Sep-25) | 1,051 | +26% | 181 | 17% | 70 | 161 |
+| Q3 FY26 (Dec-25) | 1,082 | +34% | 236 | 22% | 102 | 219 |
+| Q4 FY26 (Mar-26) | 919 | +51% | 29 | 3% | −69 | 9 |
+| Q1 FY27 (Jun-26) | 1,054 | +24% | −57 | −5% | −88 | −44 |
+
+- The trailing-four-quarter pre-Ind AS EBITDA to Jun-26 is **₹345 Cr** (161 + 219 + 9 − 44) [E], vs ₹300 Cr for FY26.
+
+#### (e) Annual-report findings (FY26 AR) [V]
+
+- **Balance sheet (consolidated, Mar-26):**
+  - Total assets ₹7,676.8 Cr; equity attributable ₹4,520.4 Cr; NCI ₹50.4 Cr.
+  - Borrowings ₹10.5 Cr (non-current ₹0.20 Cr + current ₹10.30 Cr); lease liabilities ₹837.1 Cr + ₹204.5 Cr.
+  - Other financial liabilities ₹302.1 Cr + ₹161.2 Cr, of which **liability for acquisition of non-controlling interest ₹301.1 Cr + ₹37.9 Cr** (redemption liabilities for put/forward arrangements with minority holders of Xylem, Utkarsh, iNeuron and Sarrthi).
+  - Other current liabilities ₹1,209 Cr (mostly deferred revenue/advances from students — the working-capital float).
+  - Goodwill ₹273.6 Cr (₹223.3 Cr).
+- **CCPS history:** Series A (Jul-2022, premium ₹1,115/share), A1 (Feb-2023) and B CCPS were reclassified from liability to equity on 1-Apr-2024 (₹1,614.7 Cr at that date) and converted into 1,02,03,174 equity shares before the IPO. This explains why FY24 net worth was negative (−₹1,247 Cr on screener) and why screener still shows "preference capital".
+- **Forward contracts to buy out minorities** (standalone capital commitments, fair values at Mar-26):
+  - Utkarsh 24.50% (₹45.7 Cr);
+  - Xylem 22.75% (₹87.3 Cr);
+  - Sarrthi 45% (₹29.6 Cr).
+
+  Utkarsh went to 75.50% in Dec-2025 (₹26.5 Cr paid to the Gehlot family from IPO money) [V CARE report note 1]. **PW is contractually committed to consolidating its offline subsidiaries.**
+- **Contingent liabilities (consolidated):**
+  - Direct tax ₹22.99 Cr (assessments for FY2021-22 to FY2023-24); GST nil (₹16.2 Cr at Mar-25).
+  - SBLC for a $2 M Citi working-capital loan to Knowledge Planet (UAE).
+  - **However, the CARO annexure lists an income-tax demand of ₹192.76 Cr (FY2022-23) pending before CIT(A)**, and the monitoring report describes the original ₹263.34 Cr demand that treated investor funding (including Cat II AIFs) as taxable income. The writer should mention it as a **disputed tax demand of ~₹192 Cr (10% deposited)**. That is small against ₹5,600 Cr of treasury, but it is a governance/tax-risk talking point the first pass missed.
+- **Related parties:**
+  - Founders' remuneration was cut to **₹0.53 Cr each in FY26** (Alakh Pandey ₹3.20 Cr and Prateek Boob ₹1.35 Cr in FY25); ₹4.24 Cr payable to them at year end (₹2.12 Cr each).
+  - CFO Amit Sachdeva ₹3.69 Cr + ₹3.58 Cr ESOP.
+  - Small professional fees and salaries to relatives (Neha Boob, Sonal Mundhra).
+  - **No royalty, brand fee, rent to promoters or group purchases.** The related-party profile is clean.
+- **Segment note:** FY26 AR says PW operates in a **single segment** under Ind AS 108. Online/offline segment results exist only from Q1 FY27 (auditor-reviewed), so the FY26 online "27%" and offline loss are management estimates.
+- **Risks the AR and letters emphasise:** exam-calendar/NTA disruptions; faculty attrition and poaching; state coaching laws; AI substitution; offline centre ramp; key-person dependence (Alakh Pandey as CEO since 12-Feb-2025).
+
+### 4.2.2 Crizac (CRIZAC · 544439)
+
+#### (a) Management-commentary digest (Q1 FY27 call, 4-Aug-2026, and Q1 FY27 deck) [V-P1]
+
+**Guidance**
+- **FY27: "a flattish year"** (Manish Agarwal).
+  - Asked why the Q4 FY26 call had talked of 15–17% growth, he said no formal guidance had been given then because of geopolitical uncertainty. With Q1 known and Q2 visible, "even incorporating the pent-up demand… we will end up in the similar line as last year".
+  - EBITDA margin **25–27%** for FY27.
+  - Q2 FY27 "will be a bit down"; recovery is expected in Q3–Q4 as deferred students join the Sep-26 and Jan-27 intakes.
+- **Why Q2 is weak:** the West Asia/Iran war (Feb–Jun 2026) cancelled flights and unsettled families; rupee volatility; deferrals — "a lot of our application processed in Q4 and Q1 got deferred to… September '26 intake".
+- **Volume vs price:**
+  - Q1 enrolments +15% but revenue −4% in constant currency.
+  - Revenue per student fell because students went to universities with lower fees/commission, "not… [a cut in] universities' payment".
+  - Management attributes the FY24→Q1 FY27 rise in revenue per student (~₹3.55 lakh → ~₹4.2 lakh, +18%) to mix, not to GBP (which rose ~22% vs INR over the same span).
+- **Standalone vs consolidated:** in Q1 FY27 standalone PBT (~₹70 Cr) exceeded consolidated PBT (~₹65 Cr) for the first time. Management says the Indian entity received some intra-group payments while money was "invested… in Crizac UK and our subsidiaries", with the effect expected "in Q3". **Read: the new acquisitions and UK investment are dilutive in the near term** [E].
+- **Concentration:**
+  - Top-3 universities' 41% in Q1 is "only for quarter 1" (few universities have Apr–Jun intakes; ~10–15 active).
+  - The top 10 "change every year". Strategic tie-ups carry defined SLAs and fast offer turnaround, and replicating them "is a multi-year process".
+  - Top-10 share is falling "not because numbers are declining, but the numbers from remaining 90 are going up".
+  - Prospectus data support this: top-10 share 82.4% (FY23) → 70.6% (FY25) → 68.7% (Q1 FY27) [V].
+- **Diversification:**
+  - UK concentration target "<60% within the next 3 years… if things go as per our forecast". Inova (Netherlands/Mexico) was bought partly for this.
+  - Management cites US tightening as redirecting demand to Ireland, Germany and New Zealand.
+  - **But UK share went from 95.1% (FY25, proforma) to 98.7% (Q1 FY27)** [V prospectus; V-P1 deck]. The writer should present the <60% goal as aspirational.
+- **Capital return:**
+  - Dividend policy: at least 40% of PAT for at least three years (FY26 payout 63.9%).
+  - A buyback is not possible at the ~20% free float (MPS rules).
+- **Value-added services** (accommodation, education loans, visa insurance, forex, ForeignAdmits, ETS TOEFL/GRE): ~1–1.5% of revenue, targeted to add 2–5% to EBITDA.
+- **Conversion:** ~10% of unique applicants enrol (Q1 FY27: 47,488 unique applicants → 4,751 enrolments).
+
+#### (b) KPI table (company basis; ₹ Cr) [V prospectus for FY23–FY25 concentration; V-P1 deck for FY24–Q1 FY27]
+
+| KPI | FY23 | FY24 | FY25 | FY26 | Q1 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|
+| Revenue — proforma/company | 473.0 | 634.9 | 849.5 | 1,042.2 | 209.5 | 201.2 |
+| Revenue — restated statutory | 274.1 (standalone) | 530.1 | 849.5 | 1,042.2 | — | — |
+| Agent payouts % revenue | 65.0% | 70.0% | 70.5% | 67.5% | — | 62.5% |
+| EBITDA (company) | 104.8 (restated SA, 38.2%) | 72.6 (11.4%) proforma / 71.7 (13.5%) restated | 215.6 (25.4%) | 282.4 (27.1%) | 64.9 (31.0%) | 60.0 (29.8%) |
+| PAT | 110.1 (restated SA) / 112.1 (proforma) | 117.9 restated / 118.9 proforma | 155.0 | 219.1 | 45.8 | 47.1 |
+| Applications | — | 2,62,502 | 2,75,897 | 3,94,629 | ~1,10,400 [E] | 1,03,539 |
+| Enrolments | — | 17,842 | 21,710 | 24,697 | ~4,131 [E] | 4,751 |
+| Revenue per enrolment (₹ lakh) [E] | — | 3.56 | 3.91 | 4.22 | 5.07 | 4.23 |
+| Active partners | — | 2,532 | 3,948 | 5,389 | — | 4,032 |
+| Revenue-generating institutions | — | 124 | 173 | 198 | — | 110 |
+| UK % of revenue | 96.42% | 96.13% | 95.12% | ~97% (mgmt) | — | 98.7% |
+| Top-3 / top-10 institutions % | 63.8 / 82.4 | 64.0 / 80.6 | 52.9 / 70.6 | — | — | 41 / 68.7 |
+| Top-10 agents' share of revenue (prospectus) / of payouts (deck) | 14.8% | 9.5% | 9.9% | — | — | 24.5% of payouts |
+
+- **Agent concentration is low** (the top 10 agents account for <10% of revenue in FY24–FY25) while **university concentration is high**. Crizac's bargaining power is on the supply (agent) side; its risk is on the demand (university) side.
+
+#### (c) 5-year history (₹ Cr; screener consolidated, with company/proforma alternates) [V-P1 screener; V prospectus; V-P1 deck]
+
+| Item | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue (screener) | 264 | 473 | 530 | 849 | 1,042 |
+| Revenue (proforma/company) | — | 473.0 | 634.9 | 849.5 | 1,042.2 |
+| YoY (screener) | +138% | +79% | +12% | +60% | +23% |
+| YoY (proforma) | — | — | +34.2% | +33.8% | +22.7% |
+| OP (screener) | 89 | 107 | 145 | 215 | 286 |
+| EBITDA (company/restated) | — | 104.8 | 71.7–72.6 | 212.8–215.6 | 282.4 |
+| Other income (screener) | 3 | 45 | 53 (restated: 128.6) | 36 | 29 |
+| Exceptional (break fee to group company), P&L | — | — | −74.9 (cash paid FY24–FY26: FY25 ₹21.5 Cr, FY26 ₹56.7 Cr) | — | — |
+| PAT | 68 | 112 | 116 | 155 | 219 |
+| CFO (screener) | — | — | 114 | 184 | 144 |
+| Dividend | 0 | 0 | 0 | 0 | 140 |
+
+- **Note on FY24:**
+  - Screener's FY24 OP of ₹145 Cr does not match the restated EBITDA of ₹71.7 Cr. Arithmetic [E]: restated revenue ₹530.1 Cr − cost of services ₹344.2 Cr − employees ₹6.7 Cr − other expenses ₹32.6 Cr ≈ ₹146.6 Cr (≈ screener OP). The company's restated "EBITDA" of ₹71.7 Cr additionally deducts the ₹74.9 Cr exceptional break fee.
+  - Either way, **FY24 operating profit was depressed by a payment to a promoter-group company, and PAT was inflated by ₹128.6 Cr of treasury gains.** Treat FY24 as unrepresentative.
+- **Note on FY25 payments:** FY25 RPT shows ₹21.5 Cr "payment for termination fees" to Crizac Informatics (cash paid), and FY26 ₹56.7 Cr (balance cleared). The ₹74.9 Cr was expensed in FY24 and paid over FY24–FY26 [V AR; V prospectus].
+
+#### (d) 8-quarter trend (₹ Cr; screener revenue / OP / OPM / PAT; company EBITDA where available) [V-P1 screener; V-P1 deck]
+
+| Quarter | Revenue | YoY | OP | OPM | PAT | Company EBITDA |
+|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 130 | — | 32 | 25% | 20 | — |
+| Q3 FY25 (Dec-24) | 218 | — | 63 | 29% | 43 | — |
+| Q4 FY25 (Mar-25) | 341 | — | 65 | 19% | 50 | — |
+| Q1 FY26 (Jun-25) | 210 | +30% | 61 | 29% | 46 | 64.9 (31.0%) |
+| Q2 FY26 (Sep-25) | 162 | +25% | 63 | 39% | 48 | — |
+| Q3 FY26 (Dec-25) | 279 | +28% | 66 | 24% | 51 | — |
+| Q4 FY26 (Mar-26) | 392 | +15% | 95 | 24% | 74 | 93.9 (24.0%) |
+| Q1 FY27 (Jun-26) | 201 | −4% | 61 | 30% | 46 | 60.0 (29.8%) |
+
+- **Seasonality:** Q4 is ~38% of FY26 revenue. Q2 is the trough (₹162 Cr in FY26). A "bit down" Q2 FY27 means roughly ₹140–160 Cr [E].
+
+#### (e) Annual-report and prospectus findings [V]
+
+- **Revenue model** (prospectus): revenue is "generally… a percentage of the tuition fee of the first year of the student's programme", plus some admin-service revenue; no student application fees. **The commission rate is not disclosed.**
+  - Triangulation [E]: OfS data show non-UK *postgraduate taught* fee income of £5.0 bn on 234,800 FTE in 2024-25 ≈ **£21,300 per FTE**.
+  - Crizac's FY26 revenue per enrolment of ₹4.22 lakh is ≈ £3,700 at an FY26 average of ~₹115/£ [E].
+  - That implies a **gross commission of ~15–20% of first-year tuition**, consistent with UK norms [K]. Crizac keeps ~32.5% of it (~5–6% of tuition) after paying the agent.
+- **Revenue recognition and credit:** all revenue is recognised at a point in time (on enrolment/census). Trade receivables carry **90–180-day terms**, with **nil expected-credit-loss provision** in FY25 and FY26.
+  - Receivables were ₹238.5 Cr at Mar-26 (₹256.4 Cr); collections in FY26 were ₹1,060 Cr against ₹1,042 Cr of revenue.
+  - Read: **university credit risk is unprovided**. With 35.8–42.7% of English providers in deficit (OfS), the writer can fairly raise counterparty risk.
+- **Contingent liabilities: nil** (company and group, Mar-26 and Mar-25).
+- **Segment:** single segment (international student recruitment). Revenue billed in India ₹32.5 Cr vs overseas ₹1,009.7 Cr in FY26 (FY25: ₹3.8 Cr vs ₹845.7 Cr).
+- **Related parties (FY26):**
+  - Termination fee paid to **Crizac Informatics Ltd UK ₹56.74 Cr** (FY25 ₹21.54 Cr; nil outstanding now).
+  - Rent to **Altis Projects LLP ₹1.44 Cr** (₹0.60 Cr).
+  - CSR to **Gyan Bharti Educational Trust ₹2.60 Cr** (₹3.27 Cr).
+  - MD (Vikash Agarwal) and WTD (Manish Agarwal) **₹1.20 Cr each** (₹1.95 Cr).
+  - Dividends to the promoter family ~₹112 Cr of the ₹140 Cr total [E from RPT table].
+  - All four entities — Crizac Technologies, Gyan Bharti, Altis Projects, Crizac Informatics UK — are "enterprises where KMP/close members have control or significant influence".
+- **Investment in a promoter-group company:** Crizac holds **15,00,000 shares of Crizac Technologies Pvt Ltd** (FVOCI), marked down from ₹38.4 Cr to **₹31.0 Cr** at Mar-26. In FY24 the group bought ₹103.6 Cr of IT software from the same company [V prospectus RPT table]. **This is the governance item to note**: the platform's core IT was bought from a promoter-controlled entity just before the IPO.
+- **ESOP:** the pool was enlarged from 52,49,475 to **1,22,48,775 shares** (ESOP 2026, postal ballot 22-Mar-2026) ≈ **7% of equity** [E: 17.5 Cr shares]. Grants so far are small (₹11 Cr expense to KMP), but the dilution capacity is notable for a 20%-float company.
+- **IPO:** 100% OFS by Pinky Agarwal and Manish Agarwal. **No primary capital was raised; all proceeds went to the selling promoters** [V-P1; V prospectus].
+- **Risks (prospectus):** dependence on global institutions and on UK policy; differing institution criteria for earning commission; agents are non-exclusive and can bypass Crizac; FX; data security.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. UK Basic Compliance Assessment (BCA) thresholds for student sponsors** [V UKVI Student Sponsor Guidance Doc 3, v06/2026]
+
+| BCA applied for | Visa refusal rate | Enrolment rate | Course completion rate |
+|---|---|---|---|
+| Before 1-Jun-2026 | < 10% | ≥ 90% | ≥ 85% |
+| 1-Jun-2026 to 31-May-2027 | **< 5%** | **≥ 95%** | ≥ 85% |
+| From 1-Jun-2027 | < 5% | ≥ 95% | **≥ 90%** |
+| RAG bands (public) | Green < 4%; amber 4–< 5%; red ≥ 5% | Green ≥ 96%; amber 95–< 96%; red < 95% | Green ≥ 92%; amber 90–< 92%; red < 90% |
+
+- Overall rating = the *lowest* metric.
+- **Why it matters for Crizac:** a university with a 4–5% refusal rate is "amber" and one bad cohort from losing CAS allocations. Universities will therefore **concentrate recruitment on agents/platforms with low refusal rates**. This is the regulatory engine behind Crizac's share gain (3.5% → 6.0% of UK study visas, FY24 → FY26) [V-P1 deck]. It also lets universities drop recruitment partners quickly.
+
+**D2. UK policy calendar (dated from primary documents)**
+
+| Date | Measure | Status | Source |
+|---|---|---|---|
+| 1-Jan-2024 | Dependants ban for most taught-PG students | In force | gov.uk [V-P1] |
+| 12-May-2025 | Immigration White Paper | Published | [K] |
+| 14-Oct-2025 | Statement of Changes HC 1333 (Graduate Route 18 months; English requirement from 8-Jan-2026) | Laid | gov.uk HC 1333 EM [V] |
+| 1-Jun-2026 | Tighter BCA (refusal < 5%, enrolment ≥ 95%), public RAG | In force | UKVI guidance [V] |
+| **1-Jan-2027** | **Graduate Route 24 → 18 months** (BA/MA; PhD stays 3 years) | Legislated | HC 1333 EM §5.26 [V] |
+| 1-Jun-2027 | BCA completion ≥ 90% | Scheduled | UKVI guidance [V] |
+| 2028-29 AY | International student levy £925/student/yr (England; providers > 220 international students); OfS est. ~£570 M | Announced (Budget Nov-2025) | OfS FSR ¶58 [V]; UUK [V-snip] |
+
+**D3. UK sponsored-study demand, latest** [V gov.uk]
+
+| Series | Value | Change | Release |
+|---|---|---|---|
+| Sponsored-study visas granted, YE Jun-2026 (total) | 383,455 | −11% | 27-Aug-2026 [V-P1] |
+| — main applicants | 365,868 | −12% | same |
+| — India, main applicants | 82,523 | −16% | same |
+| **Sponsored-study main-applicant *applications*, YE Sep-2026** | **352,500** | **−19%** | 8-Oct-2026 [V] |
+| — dependant applications, YE Sep-2026 | 15,700 | −31% | same |
+| Sep-2026 month, main applicants | ~71,600 vs 79,800 | −10% | THE [V-snip] |
+| Next releases | Monthly applications (Oct) 12-Nov-2026; quarterly stats (YE Sep-2026) late Nov-2026 [K] | — | gov.uk [V] |
+
+**D4. English HE finances (OfS FSR 2026, updated 15-Jun-2026)** [V]
+
+| Metric | Value |
+|---|---|
+| Providers in deficit, 2024-25 (actual) | 100 (35.8%) |
+| Providers forecasting a deficit, 2025-26 | 119 (42.7%) |
+| No-growth scenario to 2028-29 | £2.7 bn cumulative income loss; 163 providers (58.4%) in deficit |
+| Severe scenario to 2028-29 | £4.2 bn; 196 providers (70.3%) in deficit |
+| Non-UK PGT students (FTE) | 278,235 (2023-24) → 234,800 (2024-25), −15.6% |
+| Non-UK PGT tuition income | £5.5 bn → £5.0 bn (−8.1%) |
+| Non-UK UG students (FTE) | 242,135 → 244,470 (+1.0%); fees £4.9 bn → £5.3 bn |
+| Non-UK fee income, total | £10.9 bn (2024-25) → forecast £14.6 bn (2028-29, +33%) — the OfS calls such forecasts over-optimistic |
+| Non-UK PG entrants vs forecast | 2024-25 −11.7% vs earlier forecast; 2025-26 forecast a further −13.0% |
+| Levy cost estimate | ~£570 M in 2028-29 |
+
+- **Read for Crizac [E]:** universities forecast +33% non-UK fee income while PGT volumes are falling. The gap will be chased through recruitment spend (good for agents' volumes and commissions) until budgets break (bad for payment terms and receivables).
+
+**D5. Canada study permits (IRCC)** [V notice 25-Nov-2025; V-snip Levels Plan]
+
+| Year | Study-permit target/cap | New arrivals | Extensions |
+|---|---|---|---|
+| 2024 | 485,000 | — | — |
+| 2025 | 437,000 | 305,000 (old plan) | — |
+| **2026** | **408,000** | **155,000** | **253,000** |
+| 2027 (notional) | — | 150,000 | — |
+| 2028 (notional) | — | 150,000 | — |
+
+- 49,000 master's/PhD permits at public institutions are exempt from provincial attestation from 1-Jan-2026.
+
+**D6. Global recruitment bellwether — IDP Education FY26 (Jun-year)** [V ASX 20-Aug-2026]
+
+| Metric | FY25 | FY26 | Change |
+|---|---|---|---|
+| Revenue (A$ M) | 891.4 | 795.4 | −11% (−9% cc) |
+| Student-placement revenue | 376.1 | 302.9 | −19% |
+| Placements ('000) | 73.9 | 54.2 | −27% |
+| — to Australia | 35.0 | 31.7 | −9% |
+| — to other destinations | 38.9 | 22.5 | −42% (UK −20%, Canada −80%, USA −67%, Ireland +2%) |
+| Placement revenue per placement (A$) [E] | ~5,090 | ~5,590 | +10% (yield) |
+| IELTS volumes ('000) | 1,293.8 | 1,195.4 | −8% (India −22%) |
+| EBITDA | 160.9 | 126.9 | −21% |
+| Adjusted EBIT | — | 122.9 | −7% |
+| Statutory NPAT | 50.7 | 13.3 | −74% |
+| FY27 guidance | — | Adj. EBIT A$95–115 M; market volumes −20% to −30%; yields +mid-single digit; buyback up to A$50 M | — |
+
+- **Crizac vs IDP per student [E]:**
+  - IDP books ~A$5,590 (≈ ₹3.5 lakh at ₹62/A$) per placement and keeps all of it (direct B2C counselling, own branches).
+  - Crizac books ₹4.22 lakh gross but keeps ~₹1.37 lakh after the agent's share.
+  - IDP's UK placements fell 20% in FY26 while Crizac's enrolments rose 14%, which supports the share-shift story.
+
+**D7. Listed-peer valuations, 22-Oct-2026** [V-sec stockanalysis; V-P1 screener]
+
+| Company | Price | M-cap | TTM revenue | TTM NI | P/E (TTM / fwd) | P/S [E] |
+|---|---|---|---|---|---|---|
+| PhysicsWallah (₹) | ₹125 | ₹36,231 Cr (~$3.8 bn) | ₹4,106 Cr | ₹15 Cr | n.m. | 8.8× |
+| Crizac (₹) | ₹143 | ₹2,488 Cr (~$262 M) | ₹1,034 Cr | ₹220 Cr | 11.3× | 2.4× |
+| IDP Education (ASX: IEL) | A$2.25 | A$625 M | A$795 M | A$12 M | 51× / 17× | 0.8× |
+| New Oriental (EDU) | $58.75 | $9.11 bn | $5.66 bn | $475 M | 19.8× / 13.8× | 1.6× |
+| TAL Education (TAL) | $10.43 | $5.79 bn | $3.19 bn | $907 M (incl. one-offs [E]) | 6.5× / 10.5× | 1.8× |
+| Gaotu (GOTU) | $2.51 | $590 M | $975 M | −$49 M | n.m. / 31× | 0.6× |
+| Chegg (CHGG) | $0.67 | $74.6 M | $265.5 M | −$53 M | n.m. | 0.3× |
+
+- **Takeaway:** every listed global education peer trades at **0.3–1.8× sales**. PW at ~9× sales is pricing a growth/margin path no peer has shown since 2021. Crizac at 2.4× sales but ~6.8× EV/EBITDA is cheap on cash earnings yet priced for decline, like IDP.
+
+**D8. India exam pools, 2024–2026 (lakh)** [V-snip unless noted]
+
+| Exam | 2024 | 2025 | 2026 | Note |
+|---|---|---|---|---|
+| NEET-UG registrations | ~24.1 [K] | 22.76 | 22.79 | 2026 re-exam: ~20.0 lakh sat [V-snip, Part 1] |
+| JEE Main Paper 1, Session 1 registered | — | — | 13.55 (13.05 appeared) | NTA via Careers360 |
+| JEE Main Paper 1, Session 2 registered | — | — | 11.11 (10.34 appeared) | NTA via Collegedunia |
+| JEE Main unique candidates appeared (both sessions) | — | — | 15.38 | same |
+| CUET-UG registrations | ~13.5 [K] | 13.55 | **14.93** | NBT via Careers360; +10% |
+| UPSC CSE Prelims registered / appeared | ~13 [K] | — | ~8.19 / ~5.49 | IASGyan/Vajiram; 13,343 qualified |
+
+- **Read [E]:** only CUET (the Delhi University and central-university gate) is clearly growing. NEET is flat; JEE is ~flat. The UPSC application pool looks far smaller than the "~13 lakh" folk number, so the folk number should not be used.
+
+**D9. Indian test-prep market** [V redseer.com 13-Aug-2026]
+- ~$14.8 bn FY26 → $23–26 bn FY30 (12–15% CAGR). The JEE+NEET ~70% share of UG-entrance prep and the $3.8 bn UG-entrance size come from the Outlook/newkerala coverage [V-snip]; they are not on the Redseer landing page.
+
+**D10. Edtech funding (USD)** [V-snip]
+- 2021 ~$4.0–4.1 bn (PwC/Tracxn); 2022 $1.8 bn (PwC); 2023 ~$321 M (Tracxn); H1 2024 $164 M; H1 2025 $120 M (Venture Intelligence, Part 1).
+
+## 4.4 Gap log (Part 1 §H items and the prompt's list)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| 1 | PW FY26 adj. and pre-Ind AS EBITDA | **Filled** | Q4 FY26 letter: ₹784 Cr / ₹300 Cr [V] |
+| 2 | PW FY26 segment EBITDA; Q1 FY26 channel reclassification | **Partly filled** | Q1 FY27 segment walk [V]. FY26 online ~27% is a management estimate; no audited FY26 segment note (single segment in AR). Reclassification explained (S11) |
+| 3 | "72 of ~116 mature Vidyapeeth profitable" | **Filled (negative)** | Not in letters, AR or transcripts; replaced with the cohort statement (S12) |
+| 4 | Nature of ₹824 Cr "preference capital" | **Filled** | Converted CCPS; screener artefact; borrowings ₹10.5 Cr (S3) [V AR] |
+| 5 | PW IPO use of proceeds, dates | **Filled** | CARE monitoring report (S13, S14) [V]. Listing-day price (₹143.10 NSE) remains [V-snip] |
+| 6 | PW pre-IPO and current major shareholders | **Mostly filled** | AR: promoters 36.15% each, WestBridge 5.84%; CCPS-class holders at Mar-25 (S15). Exact current Hornbill/GSV/Lightspeed % not disclosed (<5%) |
+| 7 | Crizac FY24 ₹635 vs ₹530 Cr | **Filled** | Proforma vs restated; Crizac UK consolidated from 20-Nov-2023 (S16) [V prospectus] |
+| 8 | Crizac commission rate / revenue per student / agent payout | **Partly filled** | Basis = % of first-year tuition (undisclosed rate); payouts 65–70.5% (FY23–FY25) [V]; the 15–20% commission is an [E] triangulation from OfS fee data |
+| 9 | Q2 FY27 board-meeting dates | **Still open** | Screener announcements (re-pulled 22-Oct) show no intimation; BSE API blocked; search found none. Crizac trading window closed from 1-Oct. SEBI LODR deadline 14-Nov-2026 [K] |
+| 10 | Rajasthan coaching law status | **Mostly filled** | Act No. 16 of 2025, assent 23-Sep-2025 [V-snip India Code; PDF blocked]; rules not found |
+| 11 | UK Graduate Route date; BCA thresholds | **Filled** | HC 1333 EM; UKVI guidance (S21, S22) [V] |
+| 12 | CUET-UG 2026 and UPSC CSE 2026 applicants | **Filled (snippet)** | 14.93 lakh; ~8.19 lakh (S20) |
+| 13 | JEE Main 2026 registrations | **Filled (snippet)** | 13.55 lakh S1 Paper 1; 15.38 lakh unique appeared (S19); NTA site blocked |
+| 14 | Aakash ownership | **Filled (snippet)** | Manipal 39.1% (Nov-25); rights issue → may exceed 75% (CCI, Jun-26) (S29) |
+| 15 | Allen backers | **Filled (snippet)** | Bodhi Tree $600 M, May-2022; QIA invests in Bodhi Tree; Temasek unverified (S27) |
+| 16 | Global peer valuations | **Filled** | stockanalysis 22-Oct-2026 (S26, D7) [V-sec] |
+| 17 | India coaching market in ₹ | **Partly filled** | Redseer USD figure verified [V]; no ₹ series exists — convert and say so |
+| 18 | Kota 2026 numbers | **Partly filled** | 2026-27 admissions +20–30% (industry claim) [V-snip]; no official headcount |
+| 19 | Edtech funding history | **Filled (snippet)** | ~$4.0–4.1 bn 2021 (not $4.7 bn) (S28) |
+| 20 | MoE coaching guidelines Jan-2024 | **Partly filled** | Penalties ₹25,000 / ₹1 lakh / revocation; > 50 students; under-16 bar; 1 sq m per student [V-sec Drishti full page]; the 10-day refund is [V-snip]; MoE PDF blocked (empty/403) |
+| 21 | Dummy-school / 75% attendance | **Filled (snippet)** | CBSE enforces 75% attendance from 2025-26; non-attenders may be barred (NIOS route); 25% relaxation for medical/sports [V-snip]; circular not fetched |
+| 22 | GST 18% on coaching | **Filled (snippet)** | AARs (Maharashtra, AP, Gujarat, Kerala): coaching is not an "educational institution" under entry 66 of Notification 12/2017 → 18% [V-snip] |
+| 23 | China double-reduction effects | **Still [K]** | Not re-sourced; today's EDU/TAL/GOTU valuations are V-sec (D7) |
+| 24 | MEA students-abroad data | **Still [V-snip]** | mea.gov.in PDF 403 |
+| 25 | PW treasury Mar-26 | **Filled** | ₹5,027 Cr (S8) |
+| 26 | Rating-agency notes on PW/Crizac | **Still open** | CARE acts only as PW's monitoring agency; no credit rating found for either (neither has debt) |
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### Insights (what an expert would add)
+
+1. **PW is a treasury company with a test-prep business attached, for now.**
+   - Q1 FY27 other income (₹109 Cr) was larger than adjusted EBITDA *minus* other income (₹26 Cr). FY26 other income (₹232 Cr) was 77% of pre-Ind AS EBITDA (₹300 Cr).
+   - With ₹2,041 Cr of IPO money in FDs at ~6.8% plus ~₹3,500 Cr of other treasury, other income alone can run at ~₹350–400 Cr a year [E]. That will carry a large part of the "EBITDA +100%" guide on the company's definition.
+   - **The writer should judge FY27 on pre-Ind AS EBITDA (₹300 Cr base), not on headline EBITDA.**
+2. **PW's IPO money is being used for overheads faster than for the stated growth objects.**
+   - By Jun-26, 64% of utilised funds (₹674 Cr of ₹1,059 Cr) was "general corporate purposes" — salaries, professional fees, GST.
+   - Only 7% of the ₹460.6 Cr fit-out budget and 9% of the ₹710 Cr marketing budget had been spent.
+   - Combined with "opportunistic" offline expansion, **the ₹460 Cr fit-out object may end up re-purposed** (it needs shareholder approval if the variation exceeds 10%). It is a disclosure to watch in each quarterly monitoring report.
+3. **Offline's FY27 "near profitability" target needs a ~₹200 Cr swing that Q1 did not start [E].**
+   - The company's cohort data are the bull case: 2022–24 centres are EBITDA-positive, and hyperlocal centres break even within ~24 months.
+   - The bear case is the arithmetic: 155 of the 353 centres (44%) were net additions in FY26 alone (198 → 353), so a large part of the network is still on the loss side of its J-curve [E].
+   - The Pathshala → Vidyapeeth conversions (84 → 70) and the subsidiary drag (Utkarsh enrolments down on scarce Rajasthan exam notifications; 59k vs 80k) are the swing factors.
+4. **PW is quietly consolidating its acquisitions with cash.** It has forward contracts to buy the rest of Utkarsh (24.5%), Xylem (22.75%) and Sarrthi (to 85% by FY31), plus a ₹339 Cr NCI-buyout liability on the balance sheet. This is where "selective inorganic" money is already committed.
+5. **Crizac's FY24 hides the clearest governance signal in the sub-sector.** In the year before the IPO:
+   - the listed group paid a ₹74.9 Cr break fee to a promoter-owned UK company (Crizac Informatics) to take over its university contracts and impose a 10-year non-compete;
+   - it bought ₹103.6 Cr of IT software from a promoter-owned Indian company (Crizac Technologies);
+   - the listed company still holds shares in Crizac Technologies.
+
+   All of this is disclosed and arm's-length per management. But the 100% OFS IPO, plus these transfers, means **the promoters monetised the business three ways before public shareholders came in**. The −42% share price and the institutions' exit (FII+DII 10% → 4%) should be read with this in mind.
+6. **Crizac's diversification is moving the wrong way, while its university concentration is improving.**
+   - UK share: 96.4% (FY23) → 95.1% (FY25) → 98.7% (Q1 FY27).
+   - Top-10 universities: 82.4% → 68.7%.
+   - The platform is broadening *within* the UK, which is the BCA-driven consolidation trade, not a geographic hedge. The <60%-UK target needs either a large non-UK acquisition or a UK collapse.
+7. **UK applications are now falling faster than UK grants** (−19% YE Sep-2026 vs −12% grants YE Jun-2026). With the Graduate Route cut on 1-Jan-2027 and the levy from 2028-29, the January-2027 and September-2027 intakes are at risk.
+   - Crizac's enrolment growth (+14–15%) has so far come from share gains of ~1 percentage point a year of UK visas. If the market shrinks ~20% (IDP's planning case), Crizac needs ~+25% share gains just to stay flat [E] — hence "flattish" guidance.
+8. **University credit risk is unprovided.** Crizac's receivables run on 90–180-day terms with nil ECL provision, while the OfS forecasts 42.7% of English providers in deficit in 2025-26. Receivables from a single top-3 university (top-3 ≈ ₹82 Cr of Q1 FY27 revenue) could approach a quarter's PAT (~₹47 Cr) if it failed or delayed payment [E].
+
+### New primer issues (format as primer-issues.md)
+
+#### From Education deep research (2026-10-22, education-industry.md §4.5)
+
+- **physicswallah.html — withdraw the earlier "treasury wrong" issue (Part 3 §3.4):** the primer's "cash/treasury of roughly ₹5,000 Cr at end-2025" is correct. The CFO said "~₹5,000 Cr post IPO" on 6-Feb-2026, and the treasury was **₹5,027 Cr at 31-Mar-2026** [Q4 FY26 shareholders' letter]. Just add **₹5,601 Cr at 30-Jun-2026**. (§03, §11)
+- **physicswallah.html — EBITDA definitions:** give the full FY26 ladder and label the cover stat.
+  - **Pre-Ind AS EBITDA ₹300 Cr (7.7%)** → + lease payments ₹252 Cr + other income ₹232 Cr = **adjusted EBITDA ₹784 Cr (20.1%)** → − ESOP ₹171 Cr − exceptional/one-time ₹64 Cr = **EBITDA ₹549 Cr (14.1%)** [Q4 FY26 letter].
+  - The "~14% operating margin" cover stat must say "after ESOP, including ₹232 Cr other income"; better, show pre-Ind AS 7.7%. (§00, §06, §11)
+- **physicswallah.html — "72 of the ~116 mature Vidyapeeth centres profitable":** not in any company document. Replace with the company's statement: centres opened in 2022, 2023 and 2024 were EBITDA-profitable in FY26; 2025 centres made single-digit EBITDA losses; newer hyperlocal centres typically break even within 24 months [Q1 FY27 letter]. (§05, §06)
+- **physicswallah.html — balance sheet / debt:** if the primer shows debt or uses screener's ₹1,876 Cr "borrowings" or ₹3,697 Cr net worth, correct it to **borrowings ₹10.5 Cr, lease liabilities ₹1,042 Cr, equity ₹4,520 Cr (P/B ~8×)**. Screener's ₹824 Cr "preference capital" is converted pre-IPO CCPS [FY26 AR]. (§03, §10)
+- **physicswallah.html — IPO objects and use:** add the exact objects (fit-outs ₹460.55 Cr; leases ₹548.31 Cr; Xylem ₹47.17 Cr; Utkarsh leases ₹28.00 Cr and stake ₹26.50 Cr; cloud ₹200.11 Cr; marketing ₹710 Cr; inorganic+GCP ₹941.15 Cr; expenses ₹138.22 Cr). Note that **₹2,041 Cr was unspent at 30-Jun-2026 and most spending so far was GCP (₹674 Cr)** [CARE monitoring report, 14-Aug-2026]. (§03, §09)
+- **physicswallah.html — tax dispute missing:** add the **income-tax demand of ₹263 Cr → ₹192 Cr (FY2022-23; "AY23" in the monitoring report)**, which treats investor funding (incl. Cat II AIFs) as income. It is under appeal at CIT(A) with 10% (₹19.3 Cr) deposited [CARE report; FY26 AR CARO]. (§11 risks)
+- **physicswallah.html — ownership:** "WestBridge ~6%, Hornbill ~3%, GSV ~2%, Lightspeed ~2%" → only **WestBridge AIF I 5.84%** is disclosed (>5%) at Mar-26; promoters 36.15% each at Mar-26 (71.17% combined by Sep-26 after ESOP dilution) [FY26 AR; screener]. (§04)
+- **physicswallah.html — FY26 KPIs:** use company figures — ACPU **₹4,104 (+11.4%)**, offline ARPU **₹36,625 (−9%)** (primer's ₹36,600 is right), centres 353 = 139 Vidyapeeth / 84 Pathshala / 62 other / 68 subsidiary, JEE+NEET only **29% of online enrolments**, 18,977 employees / 6,837 faculty. (§01, §05)
+- **crizac.html — related-party history missing:**
+  - FY24 exceptional **₹74.9 Cr (GBP 7.15 M) break fee to promoter-group Crizac Informatics Ltd (UK)**, paid off by FY26 (₹56.7 Cr in FY26).
+  - FY24 **₹103.6 Cr IT-software purchase from promoter-group Crizac Technologies Pvt Ltd**, in which Crizac still holds 15 lakh shares (FVOCI ₹31.0 Cr).
+  - Rent to promoter-linked Altis Projects LLP (₹1.44 Cr); CSR to the family trust Gyan Bharti (₹2.6 Cr) [Prospectus; FY26 AR note 45].
+
+  (§04, §11)
+- **crizac.html — FY24 basis:** FY24 revenue is **₹530 Cr restated (statutory) or ₹635 Cr proforma**; Crizac UK became a subsidiary on 20-Nov-2023. FY24 PAT (~₹118 Cr) included ₹128.6 Cr of investment/derivative gains [Prospectus]. (§06)
+- **crizac.html — UK concentration trend:** the primer's "~90–95%+" is low and static. Prospectus: **96.4% (FY23), 96.1% (FY24), 95.1% (FY25)**; Q1 FY27 deck: **98.7%**. Concentration is rising despite the <60% target. University concentration is *falling* (top-10: 82.4% FY23 → 70.6% FY25 → 68.7% Q1 FY27). (§00, §06)
+- **crizac.html — credit risk:** add that receivables (₹239 Cr) run on **90–180-day terms with nil expected-credit-loss provision**, while 35.8% of English providers were in deficit in 2024-25 and 42.7% forecast for 2025-26 (OfS, May-2026). (§11)
+- **crizac.html — ESOP dilution capacity:** the ESOP pool was raised to **1,22,48,775 shares (~7% of equity)** in Mar-2026 [FY26 AR note 46]. (§04)
+- **crizac.html — policy dates:** Graduate Route to **18 months for applications from 1-Jan-2027** (HC 1333); BCA from **1-Jun-2026: refusals <5%, enrolment ≥95%, completion ≥85% (≥90% from Jun-2027)**; levy ~£570 M in 2028-29 (OfS). UK sponsored-study applications **−19% in the year to Sep-2026** (gov.uk, 8-Oct-2026). (§07)
+
+### 4.6 Source list for Part 4
+
+**Primary, fetched this pass [V]**
+- PW Q4 FY26 shareholders' letter: https://static.pw.live/5eb393ee95fab7468a79d189/defb951d-5293-40ae-93f6-03ecb2dc0025.pdf (IR page https://www.pw.live/investor-relations/shareholder-letter-q4)
+- PW Q1 FY27 shareholders' letter: https://static.pw.live/5eb393ee95fab7468a79d189/7390ef43-919a-4b02-a598-c28e0e51b630.pdf
+- PW Monitoring Agency Report Q1 FY27 (CARE): https://static.pw.live/5eb393ee95fab7468a79d189/c486d7b6-be2e-4545-a197-5e80fe5f527b.pdf (Mar-26 report: https://static.pw.live/5eb393ee95fab7468a79d189/63a63725-e392-43a5-8b44-6060312856a6.pdf, not read)
+- PW FY26 Annual Report: https://www.bseindia.com/xml-data/corpfiling/AttachHis/ae9bb4a7-4a9f-4760-8ae5-71f2293016a8.pdf
+- Crizac FY26 Annual Report: https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff1f4fc3-f55a-4e1b-8b60-a100a35be41b.pdf
+- Crizac Prospectus (SEBI): https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1752043851362.pdf
+- HC 1333 Explanatory Memorandum: https://assets.publishing.service.gov.uk/media/691315157a0ccd6a3aad7f3f/EM+_to+Statement+of+changes+in+Immigration+Rules+-+HC+1333_.pdf
+- UKVI Student Sponsor Guidance Doc 3 (v06/2026): https://assets.publishing.service.gov.uk/media/6a1866c6916cd732dcdaacb6/Student_sponsor_compliance.pdf
+- gov.uk Monthly entry clearance visa applications, Sep-2026: https://www.gov.uk/government/statistics/monthly-entry-clearance-visa-applications-september-2026/monthly-entry-clearance-visa-applications-september-2026
+- OfS FSR 2026: https://www.officeforstudents.org.uk/media/p0dd3sdq/ofs-2026_21-updated-15-6-26.pdf
+- IRCC notice (25-Nov-2025): https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/2026-provincial-territorial-allocations-under-international-student-cap.html
+- IDP FY26 results: https://announcements.asx.com.au/asxpdf/20260820/pdf/072yxx53wv5608.pdf
+- Redseer: https://redseer.com/reports/india-test-preparation-market-outcome-is-king/
+
+**Secondary, read in full [V-sec]**
+- stockanalysis.com quotes (EDU, TAL, GOTU, CHGG, ASX:IEL), 22-Oct-2026
+- Drishti IAS, MoE coaching guidelines (24-Jan-2024)
+
+**Search summaries [V-snip]**
+- Careers360/Collegedunia (JEE Main 2026; CUET 2026); IASGyan/Vajiram (UPSC 2026)
+- India Code / PRS (Rajasthan Act 16 of 2025)
+- FPJ/PTI and YourStory (Kota 2026)
+- Inc42/CCI via Storyboard18, EntrepreneurIndia (Aakash)
+- TechCrunch/Gulf News (Allen–Bodhi Tree)
+- Tracxn/PwC via Entrepreneur/Business Today (edtech funding)
+- CBSE attendance coverage (Sakshi/Careers360)
+- NEET 2027 CBT coverage (Quint/Careers360/Medical Dialogues)
+- GST AAR coverage (ClearTax/TaxGuru)
+- canada.ca Levels Plan supplementary
+- THE (Sep-2026 UK applications)
+
+**Blocked:** api.bseindia.com (Access Denied), jeemain.nta.nic.in, education.gov.in, indiacode.nic.in, mea.gov.in.
+
+*End of Part 4.*
+
+## 4.7 Orchestrator re-add of aggregates (22-Oct-2026, after applying 4.0 Supersedes)
+
+Basis for the peer table and every combined row: **screener consolidated P&L, reported PAT (incl. minority), m-cap 22-Oct-26; balance sheet on the company basis** (S3/S4: PW borrowings ₹10.5 Cr, leases excluded; PW owners' equity ₹4,520.4 Cr per FY26 AR; Crizac screener net worth ₹585 Cr). Re-added by hand from the company rows:
+
+| Line | PW | Crizac | Sum | Check |
+|---|---|---|---|---|
+| FY26 revenue | 3,900 | 1,042 | 4,942 | ✓ (FY25 2,887 + 849 = 3,736; +32.3%) |
+| FY26 OP (EBITDA ex OI) | 370 | 286 | 656 | ✓ OPM 656/4,942 = 13.3% |
+| FY26 reported PAT | −24 | 219 | 195 | ✓ |
+| Q1 FY27 revenue | 1,054 | 201 | 1,255 | ✓ (Q1 FY26 847 + 210 = 1,057; +18.7%) |
+| Q1 FY27 OP | −57 | 61 | 4 | ✓ |
+| Q1 FY27 PAT | −88 | 46 | −42 | ✓ |
+| Treasury/free cash Jun-26 (company) | 5,601 | 571.1 | 6,172.1 | ✓ |
+| Borrowings ex-leases | 10.5 | ~1.5 | ~12 | net cash ≈ 6,160 ✓ |
+| Equity (Mar-26) | 4,520.4 (AR; supersedes screener 3,697) | 585 | 5,105.4 | P/B 38,719/5,105 = **7.6×** (supersedes 9.0×) |
+| M-cap 22-Oct-26 | 36,231 | 2,488 | 38,719 | ✓ |
+| EV (m-cap − net cash) | 30,640 | 1,920 | 32,559 | EV/OP 32,559/656 = **49.6×** (PW 82.8×; Crizac 6.7× on screener OP, 6.8× on company EBITDA 282) |
+| P/E (FY26) | n.m. | 11.4× | 198.6× | meaningless with a loss-maker inside; say so |
+
+No arithmetic errors found in Part 3 sums. Corrections that change aggregates: combined P/B 9.0× → 7.6× (S4); screener-basis net cash ₹1,870 Cr is superseded by the company basis (S3; screener's ₹824 Cr "preference capital" is converted CCPS). Ownership "averages" in 3.2(e) are simple averages, not sums — the writer must not present them as a combined row. Other income: use company ₹232 Cr (S1) only in the PW EBITDA ladder; the peer table stays on screener OP/PAT.
