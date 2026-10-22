@@ -58,3 +58,7 @@
 
 ---
 
+
+## From primer-audit.mjs (2026-10-22, castings-forgings run) — pre-existing, not fixed
+- **ptc-industries.html — hard check FAIL:** banned phrase present and "honest" used more than once.
+- **All four primers (aia-engineering, ptc-industries, cie-automotive-india, balu-forge):** no `main{min-width:0}` grid fix (phone overflow risk); none links to a sub-sector report (0 report links) — can now link `../subsectors/castings-forgings.html` once published.
