@@ -31,3 +31,5 @@ Logged for the owner; primers were NOT edited on this branch.
 - **ashapura-minechem.html — balance sheet risk under-stated:** borrowings rose to ₹1,444 Cr and receivables nearly doubled to ₹1,001 Cr in FY26; FY26 tax rate 6% (holiday). Add one line on working capital.
 - **General (all four):** none of the primers mentions the **MMDR Amendment Act 2026** (state-tax bar, captive-sale cap removal, NMEDT) or the **Supreme Court's 2024 8:1 ruling** and the 12-year arrears schedule starting Apr-2026. All four m-caps are 21–45% below the primers' figures and every stock is within 1% of its 52-week low.
 
+
+## From Industrial Minerals deep-research pass (2026-10-22, industrial-minerals-industry.md Part 4 §4.5.2)

@@ -1064,3 +1064,840 @@ All aggregates are **straight sums of the company rows above on one basis** (scr
 - **Industry data:** BigMint iron ore FY26 https://www.bigmint.co/insights/detail/indias-iron-ore-ec-capacity-rises-over-10-in-fy26-utilisation-drops-on-surging-mining-costs-760170 · BigMint steel FY26 https://www.bigmint.co/insights/detail/indias-steel-production-rises-10-7-y-o-y-in-fy26-jpc-740519 · GMK exports Sep-26 https://gmk.center/en/news/india-cut-iron-ore-exports-to-a-four-year-low-in-september/ · GMK iron-ore price https://gmk.center/en/news/iron-ore-prices-fell-back-below-100-per-tonne-at-the-end-of-september/
 - **NMDC slurry/pellet commissioning:** https://psuwatch.com/amp/story/newsupdates/nmdc-commissions-rs-5427-crore-integrated-iron-ore-processing-project-in-chhattisgarh
 - **Scratch notes:** /tmp/industrial-minerals-dossier/notes.md (raw screener pages and PDFs in /tmp/industrial-minerals-dossier/raw and /pdf).
+
+---
+
+# PART 4 — Deep-research supplement (22-Oct-2026)
+
+Second, primary-source pass, done 22-Oct-2026 (UTC 09:20 onward). **New primary documents read this session** (PDF text extracted with pdftotext and read in slices):
+- **All four FY26 annual reports**, fetched from BSE:
+  - NMDC *Integrated Annual Report 2025-26*, 554 pp, `AttachHis/3ba2efa9-af6e-4f79-ba34-fa96bf07e0aa.pdf`
+  - Sandur *Annual Report 2025-26*, 322 pp, `AttachHis/633d26ed-ef79-435e-b0e2-26f85e4f3bd3.pdf`
+  - Ashapura *Annual Report 2025-26*, 226 pp, `AttachHis/49c5ab95-f4f5-4614-a853-a9fdd74b3e03.pdf`
+  - MOIL *64th Annual Report 2025-26*, 232 pp, `AttachHis/5707f013-6ab7-4597-9b02-b10b952088f5.pdf`
+- **NMDC's Q1 FY27 integrated filing (iXBRL)** on NSE archives: `nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_187876_15082026015610_iXBRL_WEB.html`.
+- **Six NMDC price notices filed with the exchanges, 2021–2025.** Four were read as PDFs from BSE (3-Apr-21, 12-May-21, 23-Oct-24, 9-Jan-25). The 2022–23 notices were seen as BSE/NSE excerpts in search results.
+- **Re-read in full from the first pass:** NMDC Q1 FY27 PPT; NMDC Q4 FY26 call transcript (1-Jun-26); Sandur Q1 FY27 PPT; Ashapura Q1 FY27 transcript (19-Aug-26); MOIL investors'-meet transcript and PPT (17-Mar-26); the JM Financial and MOSL notes.
+
+Tags as in Part 1. **[V]** here means fetched and read this session from the named primary document.
+
+**Latest management commentary.** Screener's concall index was checked against BSE links for each company:
+- **NMDC:** latest transcript is Q4 FY26 (call held 1-Jun-26). **No Q1 FY27 call was held or filed**; only the PPT came out on 14-Aug-26.
+- **MOIL:** latest is the investors' meet of 17-Mar-26. MOIL held no FY26 or Q1 FY27 results call.
+- **Sandur:** does **not** hold earnings calls; it publishes a quarterly PPT only (screener lists 15 quarters of PPTs and zero transcripts).
+- **Ashapura:** latest is Q1 FY27 (call 19-Aug-26).
+
+The four "guidance digests" below therefore use the latest document that exists for each company.
+
+## 4.0 Supersedes (corrections to Parts 1–3)
+
+| # | Where in Parts 1–3 | Old value | New value | Source |
+|---|---|---|---|---|
+| S1 | Trap 2, §7.4, E4, §H1, primer issue (nmdc price basis) | Basis "disputed"; 2026 prices read as cuts from Oct-2025 | **NMDC changed the price basis twice.** 2021–Apr-2023 notices: prices *excluding* royalty, DMF, NMET. By Oct-2024 (and still in Jan-2025 and Oct-2025): *inclusive* of royalty, DMF, NMET. From **Jan-2026**: *exclusive* again ("reverts to base-price model"). The 2026 list prices (₹4,800–5,700 lump) are **not comparable** with Oct-2025's ₹5,550 inclusive. Grossed up for royalty + DMF + NMEDT (~20% of ASP), the Sep-26 lump price of ₹5,400 ≈ **₹6,450–6,500 inclusive-equivalent**, i.e. *above* Oct-2025 [E]. That fits realised prices: Q1 FY27 average ₹5,548/t vs Q3 FY26 ₹4,681/t. | NMDC BSE notices 3-Apr-21, 12-May-21 (excl.), 23-Oct-24 and 9-Jan-25 (incl.) [V]; BigMint 9-Jan-26 [V]; Mar/Jun-26 notice wording "exclusive of Royalty, DMF, NMEDT…" [V-snip Arihant] |
+| S2 | E4 / §7.4 2026 list-price series | Apr 5,300/4,500 → Jul 5,450/4,700 → 8-Aug 5,250/4,500 → 9-Sep 5,400/4,500; "date of May/June step-up not found" | Fuller series (excl. basis): **6-Mar 4,800/4,050 → 5-Apr 5,300/4,500 → 6-May 5,500/4,700 → 3-Jun 5,700/4,850 → ~10-Jul 5,450/4,700 → 8-Aug 5,250/4,500 → 9-Sep 5,400/4,500** | Arihant/Outlook/Tribune/AngelOne/PSUConnect reprints of NMDC notices [V-snip]; Mar/Jun wording [V-snip] |
+| S3 | Trap 5, §7.2, B1, D-strip (₹15,786 Cr) | ₹15,786 Cr "disclosed 13-Aug-26" | **₹15,481.72 Cr at 31-Mar-26** (₹13,975.07 Cr at 1-Apr-25; +₹1,506.65 Cr in FY26) → **₹15,785.72 Cr at 30-Jun-26**. The claim grows ~₹1,200–1,500 Cr a year. **NMDC's AR says the LTAs and auction notices make any future levy "contractually recoverable from customers/bidders"**, so the liability may be partly pass-through. | NMDC AR FY26 Note 2.48 A 1.1(a) and 1.3.1 [V]; Q1 FY27 filing via IndianMasterminds [V-snip] |
+| S4 | Trap 5 / 2.1 ("contingent ₹24,037 Cr, rest unexplained") | Rest unexplained | Standalone contingents Mar-26 = **₹21,579 Cr**: Karnataka tax 15,482; Dantewada "Common Cause" compensation 1,623 (₹600 Cr paid under protest); railway-transit-pass penalty 1,621 (dispatches 1-Apr to 25-Aug-24); GST/service tax 1,465; property tax 236; forest permit fee 145; Karnataka forest development tax 129; Monitoring Committee 125; others. Add bills discounted/LCs/BGs ₹1,604 Cr (incl. ₹504 Cr PBG for NCL's Deposit-13). Auditor's emphasis list at Q1 FY27 totals ₹30,830 Cr because it also counts **NSL receivables ₹6,448 Cr and RINL receivables ₹4,712 Cr**. | NMDC AR Note 2.48 [V]; Q1 filing [V-snip] |
+| S5 | Trap 2, §1.3, §4.1, C formula | "Additional amount = 150% of royalty" [K] | Confirmed: AR line **"Additional Royalty (22.50% premium)" ₹5,874.51 Cr vs royalty ₹3,923.57 Cr (ratio 1.497)**. 22.5% of ASP = 150% × the 15% royalty. FY26 statutory total **₹11,082 Cr = ₹2,206/t** sold: royalty ₹781, additional ₹1,169, DMF ₹234 (30.0% of royalty), NMEDT ₹21 (2.7%). | NMDC AR Note 2.41 [V] |
+| S6 | E3, 3.3, primer issue (FY24 "~44/~45 mt") | FY24 ~45 mt [K]; FY22–FY23 not given | **Production FY22 42.19 / FY23 40.82 / FY24 45.02 / FY25 44.07 / FY26 53.16 mt; sales 40.67 / 38.22 / 44.48 / 44.40 / 50.24 mt** | NMDC AR five-year table [V] |
+| S7 | §H18, 3.2(e), primer issue (FY25 DPS) | FY26 DPS ₹3.50 with interim "₹2.50 [E]"; FY25 "~₹3.75" (primer) or ~₹3.27 [E] | **FY26 = interim ₹2.50 (Feb-26) + final ₹1.00 = ₹3.50; FY25 = ₹3.30** (post-bonus). FY22–FY24 pre-bonus DPS 14.74 / 6.60 / 7.25 (÷3 = 4.91 / 2.20 / 2.42). | NMDC AR [V] |
+| S8 | 2.1 capex FY26 | ₹3,300 Cr (MOSL) / ₹3,690 Cr (primer) | **₹3,384 Cr** (FY25 ₹3,715 Cr) | NMDC AR five-year table [V] |
+| S9 | §4.3, §12.6, §H9 rail | "Kirandul–Jagdalpur doubling due Jun–Dec 2026; KK-line status unverified" | AR (data to Mar-26): Kirandul–Jagdalpur doubling **97% complete, 128 of 131 km operational**; last section (Bhansi–Bacheli bridges) due **Dec-2026** (CMD, 1-Jun-26). Evacuation 28–30 → ~40 mtpa when done, then **>60 mtpa** once Railways doubles the rest of the **150 km KK line** at its own cost. The CMD: "We'll not be able to do 100 without this, but 60 we can." | NMDC AR p.45 [V]; Q4 FY26 transcript [V] |
+| S10 | Sandur net debt (trap 7, 2.0, 3.2) | Consolidated net debt ~₹375 Cr (Jun-26) from "gross D/E 0.27" | **Ambiguous in Sandur's own PPT**: slide 21 says "Gross Debt/Equity 0.27", slide 22 says "0.27 Consolidated **Net** Debt to Equity". The gross reading fits the balance sheet (Mar-26 borrowings ₹999 Cr → ~₹940 Cr at Jun-26) → net debt ~₹375 Cr. On the net reading it would be ~₹940 Cr. **Use "₹375–940 Cr, most likely ~₹375 Cr"** and cite the inconsistency. Standalone: net cash ₹93 Cr (Mar-26), after net-debt reduction of ₹490 Cr (FY25) and ₹583 Cr (FY26). | Sandur Q1 FY27 PPT slides 21–22 [V] |
+| S11 | Trap 7, 1.1, §2.4 Arjas ₹3,141 Cr [V-snip] | Arjas FY26 revenue ₹3,141 Cr [V-snip]; "Sandur FY26 segment split not sourced" | **Steel segment FY26 revenue ₹3,141.09 Cr, segment PBT ₹202.33 Cr.** Mining ₹1,656.66 Cr revenue (₹1,478.64 Cr external), PBT ₹862.74 Cr. Ferroalloys ₹377.14 Cr / ₹10.13 Cr. Coke & Energy ₹141.83 Cr / ₹10.40 Cr. **Mining = 80% of segment PBT; steel 19%**. | Sandur AR Note 36 [V] |
+| S12 | §2.2, 2.2 Native KPIs (Sandur FY26 volumes from primer) | Fe 4.35 mt / Mn 0.59 mt production (primer) | Confirmed production; adds sales: **Mn ore 0.34 mt sold (+93%; FY25 0.18), 0.61 LT used captively; Fe ore 4.35 mt produced, 4.10 mt sold**, closing stock carried into FY27 | Sandur AR [V] |
+| S13 | E9, §H13 MOIL FY22–FY24 volumes | n/a; FY24 "~17.5 LT [primer]" | **Production (LT): FY22 12.31 / FY23 13.02 / FY24 17.56 / FY25 18.03 / FY26 19.07. Sales: 12.12 / 11.78 / 15.36 / 15.88 / 15.89.** FY26 production and sales now [V] (were V-snip). | MOIL AR "Performance at a glance" [V] |
+| S14 | §4.1, §7.1, §H8 MOIL royalty | Mn royalty ~5% [K]; "MOIL likely pays a 150% additional amount [E]" | MOIL FY26 "Royalty and cess" **₹99.03 Cr (6.7% of revenue)**, of which royalty MP ₹26.22 Cr + Maharashtra ₹37.83 Cr = ₹64.05 Cr (4.3% of revenue), DMF ₹19.22 Cr. **No additional-amount line exists in MOIL's accounts.** The "likely pays 150%" [E] is withdrawn. The statutory rate (5% of ASP) is still [K]: the 4.3%-of-gross-revenue outcome fits it. | MOIL AR Note 2.35 and expense schedule [V] |
+| S15 | Ashapura FY26 Guinea volume "~8 mt [primer]" | Not re-verified | **~8 mt FY26 vs 3.5 mt FY25** (company). Company EBITDA FY26 **₹674 Cr (12.9%)** vs screener OP ₹560 Cr. PAT attributable ₹401 Cr. Company net debt ₹1,112 Cr (Mar-26) | Ashapura AR MD&A [V] |
+| S16 | Trap 1 / 2.1 NMDC FY26 EBITDA | "Company EBITDA ₹10,737 Cr (definition incl. other income?)" | Confirmed ₹10,737 Cr company EBITDA (FY25 ₹9,847 Cr; FY22 ₹13,348 Cr). It includes other income: screener OP ₹9,260 Cr + other income ₹1,488 Cr ≈ ₹10,748 Cr. | NMDC AR [V]; screener [V] |
+| S17 | §H3 Kumaraswamy | Q1 FY27 sales collapse "not explained" | **Partly explained.** Karnataka ore is sold through monitored e-auctions. **NMDC sold only ~40,000 t at Karnataka auctions in April 2026 and held its first FY27 auction only on 26-May** (~0.40 mt sold in May). BigMint attributes this to buyers' year-end inventory adjustment and cautious buying. KIOM also ran under an MPAP of **8.6 mt** in FY26 vs 10 mt rated capacity. | BigMint 16-Jun-26 [V]; NMDC Q4 FY26 transcript [V] |
+| S18 | §H2 and the Q2 table | "No Q2 board date found" | Still none as of **22-Oct-26 14:29 IST** for NMDC (IIFL's board-meeting list shows 14-Aug-26 as the latest). Calendar pattern: Q2 FY26 board 29-Oct-25 (intimated 25-Oct); interim-dividend board 14-Nov-25 (none declared); Q3 + interim 3-Feb-26. | IIFL corporate-action page [V]; NSE iXBRL (Q1 intimation 8-Aug for a 14-Aug board) [V] |
+| S19 | Q2 status table (Part 1 header) | MOIL Q1 board **30-Jul-26**; Ashapura Q1 board "~19-Aug-26"; Sandur's last-year Q2 board "19-Nov-2025 [V-snip]" | **MOIL Q1 FY27 board 29-Jul-2026** (intimated 20-Jul; PSUWatch reported the next day). **Ashapura Q1 FY27 board 7-Aug-2026** (intimated 31-Jul); 19-Aug was the call. **Sandur Q2 FY26 board 7-Nov-2025** (intimated 4-Nov). MOIL Q2 FY26 board 11-Nov-2025 (intimated 30-Oct). MOIL FY26 board 29-Apr-2026, "no dividend recommended". **No member has announced a Q2 FY27 board as of 22-Oct.** On last year's pattern: NMDC ~late Oct; Sandur and MOIL early–mid Nov [E]. | IIFL corporate-action pages for all four [V] |
+| S20 | §2.2, §5.3, D-strip ("~5.5 mt/yr imports") | ~5.5 mt/yr (5-yr average, MOIL) | Keep 5.5 mt as the *5-year average*. The **current run-rate is higher: CY25 6.46 mt** (CY24 6.21): South Africa 3.93, Gabon ~2.0; 35–46% Mn grade 5.36 mt. H1 FY26 3.03 mt (−20%). MOIL ≈ **18% of consumption** (~1.9 of ~10.7 mt) [E]. | BigMint 10-Jun-26 [V]; Mysteel [V-snip] |
+| S21 | §2.1 ("India also imports… volume not sourced") | not sourced | **FY26 iron-ore imports 12.35 mt** (FY25 6.49; highest since 2018), of which JSW 10.02 mt and Brazil 6.86 mt. **Net exports fell to ~13.4 mt** (from ~23.9 mt) [E]. | BigMint 25-Apr-26 [V] |
+| S22 | §0, §2.1, §H11 ("62% Fe ~$96.6") | $96.6 (25-Sep) | **~$91–92/t in early Oct-2026; SGX low $90.95 on 5-Oct (lowest since Sep-2024)**. Dalian 682.5 yuan (8-Oct). End-April spot was $109.95. | procurementresource 9-Oct-26 [V]; SteelOrbis [V-snip] |
+| S23 | Trap 8, §0, 2.3 ("India ~16% of revenue; Q1 India EBITDA ~₹26 Cr [E]") | India ~16%; FY26 India not given | **FY26 India business revenue ~₹998 Cr (19%), EBITDA ₹112 Cr; Guinea ~₹4,200 Cr / ₹561 Cr.** Company consolidated EBITDA ₹674 Cr (12.9%) vs screener OP ₹560 Cr. | Ashapura Q4 FY26 call 4-Jun-26 [V]; AR [V] |
+| S24 | 2.3 / primer ("Guinea tax holiday", expiry undated) | Holiday, undated | **Guinea: no income tax until the investment is recovered; CFO: "at least the next one or two years"** (Jun-26). Not a dated statutory holiday. Guinean royalties/duties linked to price **rose** in FY26. | Ashapura Q4 FY26 call [V] |
+| S25 | §3, E8 (capacity "~221.9 mtpa Jun-26") | 221.9 | **222.9 mtpa** (Sep-26; top-7 groups 117.4). H1 FY27 crude 85.1 mt (+2.9%); **hot metal +2.5%**; consumption +7.5%; India a net importer of finished steel in H1 (imports 4.14 vs exports 3.55 mt). Part 1's "India a net exporter" is FY26 only. | Ministry of Steel data via IndianMasterminds 6-Oct-26 [V-snip] |
+| S26 | §7.3, §12.3, §H7 ("commencement — none found") | Not commenced / not found | **Reported in force from 22-Aug-2026** (one secondary source). Gazette S.O. still not seen. Treat as "reportedly in force; confirm S.O." | shankariasparliament [V-snip]; PIB backgrounder 18-Aug-26 [V] for the §9D text |
+| S27 | §7.1, §12.11 (lease cliffs: only the "2030 captive expiry") | 2030 captive-lease expiry is the next cliff | Add the **member-specific lease cliffs: NMDC Bailadila leases expire 10/11-Sep-2035, 6-Dec-2035 and 11-Sep-2037; Donimalai 3-Nov-2038; Kumaraswamy 17-Oct-2042. Sandur leases 2033.** | NMDC AR lease schedule [V]; Sandur PPT [V] |
+| S28 | E11 (Gabon Mn) | "Aug-26 cut (level n/a)" | Comilog 44.5% lump CIF China **$4.90/dmtu for Sep-26 shipment** (offer 30-Jul). South32 SA Mn37% **$4.20 (−$0.30)** | Mysteel [V-snip] |
+| S29 | §7.2 state responses ("Jharkhand Cess Act 2024 [K-verify]; Odisha revived tax [K-flag]") | K-flags | Odisha and Jharkhand **had no mineral tax on judgment day** [V Zerodha 19-Aug-26]. Jharkhand later brought in an MBL tax (iron ore reportedly ₹100 → ₹400/t) [V-snip]. Disclosed contingents: **Tata Steel ₹17,350 Cr, JSW ₹4,690 Cr**; CIL and other PSUs est. ₹70–80k Cr [V Zerodha]. Odisha statute: none found. | Zerodha Daily Brief [V]; Vajiram [V-snip] |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+Legend for "Fetched?":
+- **P** = primary document fetched and read this session (company AR, exchange filing, transcript, PPT, PIB, BSE notice).
+- **S** = secondary article fetched this session.
+- **R** = primary read in the first pass today and re-read locally this session.
+- **snip** = search-result summary only.
+
+| # | Figure | Value | Primary source (URL / document) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | India iron-ore production FY26 | **313 mt (record)** | PIB backgrounder on MMDR Amendment Act, static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc2026818962501.pdf; also BigMint 15-Jun-26 | **P** | Yes. Now official, not just BigMint |
+| 2 | NMDC production FY26 | 53.16 mt | NMDC AR FY26 five-year table (BSE AttachHis/3ba2efa9…pdf) | **P** | Yes |
+| 3 | NMDC sales FY26 | 50.24 mt | NMDC AR | **P** | Yes (50.23/50.2) |
+| 4 | NMDC production FY22–FY25 | 42.19 / 40.82 / 45.02 / 44.07 mt | NMDC AR | **P** | Fills gap; FY24 [K] 45 ✓ |
+| 5 | NMDC royalty and levies FY26 | ₹11,082 Cr = ₹2,206/t | NMDC AR Note 2.41 | **P** | Yes (JM ₹2,204/t) |
+| 6 | NMDC "additional amount" = 150% of royalty | ₹5,874.51 Cr vs royalty ₹3,923.57 Cr; labelled "22.50% premium" | NMDC AR Note 2.41; Q1 PPT line | **P** | Yes (was [K]) |
+| 7 | Karnataka mineral-tax contingent | ₹15,481.72 Cr (Mar-26) → ₹15,785.72 Cr (Jun-26) | NMDC AR Note 2.48; Q1 FY27 filing (via IndianMasterminds) | **P** + S | Refines (S3) |
+| 8 | NMDC total contingents (standalone) | ₹21,579 Cr + ₹1,604 Cr BG/LC | NMDC AR Note 2.48 | **P** | Explains screener ₹24,037 Cr (S4) |
+| 9 | NMDC Q1 FY27 consolidated PAT / royalty line | ₹1,976.33 Cr / ₹3,495.03 Cr | NSE iXBRL integrated filing (nsearchives …187876_15082026015610) | **P** | Yes |
+| 10 | NMDC Q1 FY27 realisation | ₹5,548/t (lump 6,540; fines 4,991) | NMDC Q1 FY27 PPT (BSE AttachLive/3d1e9c76…) | **R** | Yes |
+| 11 | NMDC price basis | excl. (2021–Apr-23) → incl. (Oct-24 to Oct-25) → excl. (Jan-26 onwards) | BSE notices AttachHis/01fb27af (3-Apr-21), ec1bb2f3 (12-May-21), 1d796f79 (23-Oct-24), 2758f8eb (9-Jan-25); BigMint 9-Jan-26 | **P** | **No — supersedes (S1)** |
+| 12 | NMDC list price from 9-Sep-26 | Lump ₹5,400 / fines ₹4,500 (excl.) | AngelOne/PSUConnect reprints of the NMDC notice | snip | Yes; basis now explained |
+| 13 | NMDC FY26 capex | ₹3,384 Cr | NMDC AR | **P** | **No** (₹3,300 / ₹3,690) |
+| 14 | NMDC DPS FY26 / FY25 | ₹3.50 (2.50 + 1.00) / ₹3.30 | NMDC AR | **P** | Corrects primer FY25 ~₹3.75 |
+| 15 | NMDC company EBITDA FY26 | ₹10,737 Cr (FY25 ₹9,847 Cr) | NMDC AR | **P** | Yes; confirms incl. other income |
+| 16 | NMDC H1 FY27 production / sales | 27.27 / 22.23 mt | NMDC monthly release (screener announcement feed, first pass); SteelOrbis | snip/R | Yes; not re-fetched from NMDC |
+| 17 | Rail evacuation | Kirandul–Jagdalpur 97%, 128/131 km (Mar-26), last section Dec-26; 28–30 → ~40 → >60 mtpa | NMDC AR p.45; Q4 FY26 transcript | **P** | Refines (S9) |
+| 18 | Slurry/pellet project | ₹5,427 Cr; 135 km, 15 mtpa; 2 mtpa pellet plant; commissioned 27–28-Sep-26 | NMDC AR (94% at Mar-26); Telangana Today 28-Sep-26 | **P** + S | Yes; ramp unknown |
+| 19 | NMDC FY26 revenue ex-HR-coil trading | ~₹28,420 Cr (+19%) | MOSL note 1-Jun-26 (company does not split it in the AR) | R (broker) | Yes |
+| 20 | MOIL production / sales FY26 | 19.07 LT / 15.89 LT | MOIL AR FY26 (BSE AttachHis/5707f013…) | **P** | Yes (was V-snip) |
+| 21 | MOIL revenue / PAT FY26 | ₹1,472.84 Cr / ₹267.48 Cr | MOIL AR | **P** | Yes (screener ₹1,470 Cr) |
+| 22 | MOIL royalty and cess; additional amount | ₹99.03 Cr (6.7%); none | MOIL AR Note 2.35 | **P** | **No** — withdraws the "likely 150%" [E] (S14) |
+| 23 | MOIL cash / debt | ₹710.6 Cr / nil | MOIL AR | **P** | Yes |
+| 24 | MOIL targets | 25 LT FY27; 3.5 mt by 2030; EC 36.33 → 50 LT | MOIL investors'-meet transcript 17-Mar-26 | **R** | Yes |
+| 25 | MOIL Q1 FY27 | PAT ₹87.62 Cr; NSR ₹9,749/t; board 29-Jul-26 | PSUWatch (S); IIFL board list | S | Board date corrected (S19) |
+| 26 | Mn-ore imports | CY25 6.46 mt; 5-yr avg ~5.5 mt | BigMint 10-Jun-26; MOIL meet | S + R | Adds current run-rate (S20) |
+| 27 | Sandur steel (Arjas) revenue FY26 | ₹3,141.09 Cr; PBT ₹202.33 Cr | Sandur AR FY26 Note 36 (BSE AttachHis/633d26ed…) | **P** | Yes (was V-snip) |
+| 28 | Sandur mining segment FY26 | Revenue ₹1,656.66 Cr; PBT ₹862.74 Cr | Sandur AR Note 36 | **P** | New |
+| 29 | Sandur ore volumes FY26 | Mn 0.59 mt produced / 0.34 mt sold; Fe 4.35 / 4.10 mt | Sandur AR | **P** | Yes; adds sales |
+| 30 | Sandur consolidated net debt | ~₹375 Cr (Jun-26; PPT label ambiguity) | Sandur Q1 FY27 PPT slides 21–22 | **R** | Flag (S10) |
+| 31 | Sandur Karnataka-tax contingent | None disclosed; total contingents ~₹176 Cr | Sandur AR Note 34 | **P** | New |
+| 32 | Ashapura Guinea volume FY26 | ~8 mt (FY25 3.5 mt) | Ashapura AR FY26 MD&A (BSE AttachHis/49c5ab95…); Q4 call | **P** | Yes (was primer) |
+| 33 | Ashapura Q1 FY27 EBITDA/t; FY27 volume guide | $6.3/t; 9–11 mt (from 10–12) | Q1 FY27 transcript 19-Aug-26 (BSE AttachLive/611ca85f…) | **R** | Yes |
+| 34 | Ashapura India business FY26 | ~₹998 Cr revenue; ₹112 Cr EBITDA | Q4 FY26 transcript 4-Jun-26 (BSE AttachHis/998baa80…) | **P** | Supersedes the estimate (S23) |
+| 35 | Ashapura port capacity | Boffa 8 + GSM 10 (Q4 FY27) + Konta 5 ≈ 23 mtpa; export capacity 18 mt | Q1 FY27 transcript | **R** | Yes |
+| 36 | India iron-ore exports | FY26 25.78 mt; Sep-26 0.70 mt | GMK/BigMint (first pass) | S (first pass) | Yes; not re-fetched |
+| 37 | India iron-ore imports FY26 | 12.35 mt (FY25 6.49) | BigMint 25-Apr-26 | S | New (S21) |
+| 38 | 62% Fe | ~$91–92 (early Oct-26); $96.6 (25-Sep) | procurementresource 9-Oct-26; Kallanish via GMK | S | Updates (S22) |
+| 39 | India steel | FY26 crude 168.4 mt (+10.7%); capacity 222.9 mtpa; H1 FY27 crude 85.1 (+2.9%), hot metal 48.3 (+2.5%) | BigMint/JPC; Ashapura AR (cites 168.4) **P**; MoS H1 data via IndianMasterminds | P + S | Yes; capacity updated (S25) |
+| 40 | MMDR Amendment Act 2026 §9D | Bars state levies on mineral rights/land; unpaid levies void; no refunds; assent 17-Aug-26; reportedly in force 22-Aug-26 | PIB backgrounder 18-Aug-26 (**P**); SCC Online (first pass); shankariasparliament (snip) for commencement | **P** | Yes; commencement updated (S26) |
+
+**Count:** 27 of 40 figures are now **[V] from a primary document fetched this session (P)** (rows 1–9, 11, 13–15, 17–18, 20–23, 27–29, 31–32, 34, 39–40), and a further 5 come from company primaries read in the first pass and re-read locally (R: rows 10, 24, 30, 33, 35) — **32 of 40 rest on primary documents.** The other 8 (rows 12, 16, 19, 25, 26, 36–38) rest on fetched secondary or broker sources (S) or search summaries (snip).
+
+**Argument-carrying [K] items the orchestrator listed, and their status:**
+- **Export-duty slabs** (30% on ≥58% Fe; nil below and on pellets; 22-May-22 rise to 50%/45%; 19-Nov-22 rollback): **still [K]** for the slabs; the CMD's "30% export duty" remark is [V].
+  - **Price evidence of the 2022 episode is now [V-snip]:** NMDC fines fell from ₹5,160 (1-Apr-22) to ₹2,810 (12-Jul-22) and ₹2,610 (17-Nov-22).
+- **2020 merchant-lease lapse / 2030 captive expiry:** still [K]. The PIB backgrounder confirms the 2015 regime ended discretionary allocation and that 723 blocks have been auctioned since.
+- **SC 8:1 ruling** (25-Jul-24) and 12-year instalments from 1-Apr-2026, with no interest or penalty for the earlier period: **[V] secondary** (Zerodha Daily Brief 19-Aug-26; AngelOne).
+- **Karnataka Bill rates** (₹100/t land; 3× royalty): still [V-snip]. Indirect check: the **FY26 increment in NMDC's claim ≈ ₹97/t of Karnataka output** [E], consistent with a ₹100/t land tax.
+- **Group aggregates** (m-cap ₹76,776 Cr; 8.7× PAT): screener 22-Oct-26 [V first pass]. Prices are unchanged in this pass.
+- **Per-tonne EBITDA:** NMDC FY26 ₹1,843/t (screener OP) or ₹2,137/t (company EBITDA incl. other income) [E from P]. MOIL FY26 ₹2,612/t (screener OP ₹415 Cr ÷ 15.89 LT) or ₹3,195/t (company EBITDA ₹507.65 Cr incl. other income) [E from P].
+
+## 4.2 Company deep-dives
+
+### 4.2.1 NMDC (NMDC · 526371)
+
+**(a) Management-commentary digest — latest call: Q4 FY26, held 1-Jun-2026, CMD Amitava Mukherjee** [V transcript]. No Q1 FY27 call was held; the Q1 FY27 PPT (14-Aug-26) and integrated filing carry no forward guidance beyond restating the 60 mt target.
+
+**Volume**
+- **FY27 target 60 mt, built mine by mine** (~58.5 mt NMDC + JV):
+  - Deposit 14 +1 mt and 14NMZ +1 mt.
+  - Kumaraswamy +1.3 mt. Its peak rated capacity is 10 mt, but an **MPAP of 8.6 mt was imposed in FY26**.
+  - Deposit 5 +2 mt (did ~10 mt vs 12 planned).
+  - Total ≈ +5.3 mt over FY26's 53 mt → ~58.5 mt standalone.
+  - Plus the NMDC-CMDC JV (Deposit 4 ~1 mt; Deposit 13 ~0.5 mt) → **60 mt**.
+- **60 mt does not need the rail doubling; 100 mt does.** CMD: "We'll not be able to do 100 without this, but 60 we can."
+
+**Rail evacuation**
+- Kirandul–Jagdalpur (131 km): only two sections left. One was due end-June. The last, **Bhansi–Bacheli (bridges), is due in December 2026**.
+- Rail evacuation then rises "immediately" from **28–30 to ~40 mtpa**; at least 60 mtpa once Railways doubles the line beyond Jagdalpur at its own cost.
+- Current loading is ">20 rakes/day on average, 23–26 at peak, 30 on a good day".
+
+**Price and margin**
+- Prices will be "range-bound… I don't expect any volatility either upside or downside" in FY27.
+- Price-setting looks at international prices, competitors, demand and logistics, not only steel prices.
+- **EBITDA margin guided at 42–43% for FY27.**
+
+**Projects and other businesses**
+- **Slurry system:** the 15 mtpa Bacheli–Nagarnar pipeline, Nagarnar pellet plant and Bacheli grinding were to be commissioned "end-June/mid-July". The actual commissioning was 27–28-Sep-26 [V-snip, Part 1] — about **2–3 months late versus the June guidance**.
+- **Vizag blending yard:** ~₹3,000 Cr sanctioned, to sell branded ore within ~3 years.
+- **Pellets:** ~2.4 mt FY26 via KIOCL job-work → ~3 mt FY27; 66.5% Fe DR-grade achieved; DR-grade premium $20–30/t.
+- **Exports:** "With a 30% export duty, it doesn't make too much of a sense."
+- **Coal:** Tokisud coal from Q2; mostly auction sales.
+- **HR-coil trading** for NMDC Steel was a one-off.
+- **Wage revision** provided from 1-Jan-26.
+
+**Analyst Q&A highlights**
+1. Mine-wise bridge to 60 mt (above).
+2. Whether the 60 mt target depends on the rail line: it does not.
+3. The lag in passing price increases through to average realisation: "prices more or less stabilised".
+4. EBITDA/t guidance: management declined to give one and gave margin % instead.
+5. Overseas critical-mineral assets: no profitability guidance until an asset is in price negotiation.
+6. Deposit 4 ore displaces some supply to the steel plant.
+7. Higher employee cost from government pay revision.
+
+**Post-call newsflow (from filings)**
+- **14-Aug-26:** Q1 FY27 results.
+- **13–14-Aug-26:** Karnataka contingent ₹15,785.72 Cr disclosed (in the Q1 filing).
+- **27–28-Sep-26:** slurry system and Nagarnar pellet plant commissioned.
+- **28-Sep-26 AGM:** final dividend ₹1.
+- Monthly production releases (H1 FY27 production 27.27 mt, sales 22.23 mt).
+
+**(b) Concall/PPT KPI table** [V NMDC Q1 FY27 PPT; Q4 FY26 PPT columns; MOSL for NSR]
+
+| KPI | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 (monthly data) |
+|---|---|---|---|---|---|---|
+| Production (mt) | 11.99 | 10.21 | 14.68 | 16.27 | 15.12 | ~12.15 [E] |
+| Sales (mt) | 11.52 | 10.72 | 12.73 | 15.30 | 11.73 | ~10.50 [E] |
+| Sales ÷ production | 0.96 | 1.05 | 0.87 | 0.94 | **0.78** | ~0.86 |
+| Avg domestic realisation (₹/t) | 5,353 | 4,973 | 4,681 | 4,759 | 5,548 | n/a (list prices: Jul 5,450 → Aug 5,250 → Sep 5,400, excl. basis) |
+| Lump / fines realisation (₹/t) | 6,424 / 4,745 | 5,695 / 4,528 | 5,441 / 4,206 | 5,610 / 4,248 | 6,540 / 4,991 | — |
+| Karnataka (DIOM + KIOM) production (mt) | 3.81 | 3.62 | 4.16 | 4.05 | 3.87 | — |
+| Karnataka sales (mt) | 3.38 | 3.72 | 3.84 | 4.63 | **2.45** | — |
+| Royalty + levies + additional amount (₹ Cr) | 2,680 | — | — | — | 3,495 | — |
+| Statutory cost per tonne sold (₹/t) | 2,327 | — | — | — | 2,980 | — |
+| Stock adjustment (₹ Cr; negative = inventory build) | −36 | — | — | — | −1,094 | — |
+| EBITDA (company, ₹ Cr) / margin | 2,777 / 42% | — | — | 3,072 / 27% | 2,817 / 41% | — |
+
+- Q2 FY26 production/sales are taken from H1 FY26 (22.20 / 22.23 mt) less Q1. Q3/Q4 FY26 are from the mine-wise PPT table.
+- Statutory cost per tonne: Q1 FY26 = 2,680 Cr ÷ 11.52 mt; Q1 FY27 = 3,495 Cr ÷ 11.73 mt [E].
+- **Read:** statutory cost per tonne rose 28% YoY in Q1 FY27 while realisation rose only 4%. Part of this is timing: royalty is paid on despatch/ASP while revenue recognition lags.
+
+**(c) Five-year history — company (standalone) basis from the AR, screener (consolidated) for comparison** [V NMDC AR five-year table; V screener]
+
+| FY | Production (mt) | Sales (mt) | Revenue SA (₹ Cr) | EBITDA co. (₹ Cr) | PAT SA (₹ Cr) | Screener cons. revenue / OP / PAT | ROCE % (screener) | Capex (₹ Cr) | DPS (post-bonus ₹) |
+|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 42.19 | 40.67 | 25,965 | 13,348 | 9,448 | 25,965 / 12,626 / 9,429 | 50 | 1,118 | 4.91 |
+| FY23 | 40.82 | 38.22 | 17,667 | 8,047 | 5,529 | 17,667 / 6,054 / 5,601 | 29 | 2,049 | 2.20 |
+| FY24 | 45.02 | 44.48 | 21,294 | 8,427 | 5,632 | 21,308 / 7,294 / 5,567 | 31 | 2,066 | 2.42 |
+| FY25 | 44.07 | 44.40 | 23,668 | 9,847 | 6,693 | 23,906 / 8,150 / 6,520 | 30 | 3,715 | 3.30 |
+| FY26 | 53.16 | 50.24 | 31,554 | 10,737 | 7,421 | 32,071 / 9,260 / 7,450 | 28 | 3,384 | 3.50 |
+
+- Net worth (SA): 17,875 → 22,332 → 25,406 → 29,579 → **33,836 Cr**.
+- EPS (SA, post-bonus): FY25 7.61, FY26 8.44 [V AR].
+- Revenue/t sold (SA revenue ÷ sales t): FY22 ₹6,384; FY23 ₹4,622; FY24 ₹4,787; FY25 ₹5,331; FY26 ₹6,281 (inflated by trading; ex-trading ~₹5,657 per MOSL) [E].
+- Company EBITDA/t: FY22 ₹3,282; FY23 ₹2,105; FY24 ₹1,895; FY25 ₹2,218; FY26 ₹2,137. These include other income; screener-OP basis is ₹1,843/t for FY26 [E].
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr)** [V screener 22-Oct-26]
+
+| Quarter | Sales | OP | OPM | PAT | Note |
+|---|---|---|---|---|---|
+| Sep-24 (Q2 FY25) | 4,919 | 1,386 | 28% | 1,205 | Monsoon trough |
+| Dec-24 (Q3 FY25) | 6,568 | 2,372 | 36% | 1,880 | |
+| Mar-25 (Q4 FY25) | 7,005 | 2,051 | 29% | 1,477 | |
+| Jun-25 (Q1 FY26) | 6,739 | 2,478 | 37% | 1,968 | |
+| Sep-25 (Q2 FY26) | 6,378 | 1,993 | 31% | 1,698 | |
+| Dec-25 (Q3 FY26) | 7,611 | 2,144 | 28% | 1,757 | Lowest realisation (₹4,681/t) |
+| Mar-26 (Q4 FY26) | 11,343 | 2,644 | 23% | 2,027 | Incl. ~₹3,000–3,900 Cr HR-coil trading |
+| Jun-26 (Q1 FY27) | 6,795 | 2,468 | 36% | 1,976 | ₹1,094 Cr inventory credit |
+
+**Q1 FY27 consolidated P&L lines** (NSE integrated filing, ₹ Cr) [V]:
+- Revenue 6,795.25; other income 347.29.
+- Materials 463.85; inventory change −1,093.86; employees 488.07.
+- **Royalty and other levies 3,495.03**; selling incl. freight 148.98; other expenses 824.75.
+- Finance cost 21.61; D&A 103.02.
+- PBT 2,691.09; tax 685.25; associates/JVs −29.38 → **PAT 1,976.33**.
+- Board met 14-Aug-26, 15:15–16:30; prior intimation 8-Aug-26.
+
+Segments (Q1 FY27, standalone) [V-snip filing reprint]:
+- Iron ore: revenue ₹6,802 Cr, result ₹2,631 Cr.
+- Pellets & others: ₹288 Cr / ₹29 Cr.
+- HR coil: nil revenue; trading ended.
+- Capital employed ₹35,821 Cr.
+
+**(e) Annual-report findings (FY26 Integrated Annual Report)** [V]
+
+1. **Royalty and levies (Note 2.41).** FY26 total ₹11,082.00 Cr (FY25 ₹9,705.35 Cr, +14%):
+   - royalty 3,923.57; **additional royalty (22.5% premium) 5,874.51**; DMF 1,177.16; NMEDT 104.80; other 1.96.
+   - Statutory take = **35% of standalone revenue** (39% of ex-trading revenue) and **103% of company EBITDA**.
+   - Royalty at 15% of IBM ASP implies an average ASP base of ~₹5,200/t across despatches [E].
+2. **Contingent liabilities (Note 2.48).** See S3/S4.
+   - **Recourse clause:** the Karnataka note says the long-term agreements and auction notices make "any future imposition of statutory duties, levies, or taxes… contractually recoverable from customers/bidders". NMDC will test enforceability if the Bill is enacted. That makes the ₹15.5–15.8k Cr a *working-capital and collection* risk at least as much as a P&L risk [E].
+   - The FY26 increment (₹1,506.65 Cr) is **~₹97/t on Karnataka's 15.6 mt FY26 output**, i.e. close to the Bill's ₹100/t land-tax rate. The ₹13,975 Cr opening stock is the retrospective element [E inference — check the Bill schedule].
+3. **Mining-lease validity (AR lease schedule).** **All Bailadila leases run to 2035–2037**:
+   - Deposit 14 ML to 11-Sep-2035; 14NMZ to 6-Dec-2035; Deposits 5 and 10 to 10-Sep-2035; Deposit 11 and 11A to 11-Sep-2037.
+   - Karnataka: **Donimalai to 3-Nov-2038; Kumaraswamy to 17-Oct-2042**.
+   - **Read:** the 100 mtpa plan's payback runs into a 2035 lease cliff for ~70% of current output. A further extension or renewal under MMDR (and its price, e.g. another additional amount) is a **new long-dated policy risk not in Parts 1–3**.
+4. **Reserves.** "Access to over **2,300 million tonnes** of high-grade Fe 64%+ reserves… production stability horizon extending for several decades" (100 MTPA section) — **~43 years at FY26 output, ~23 years at 100 mtpa** [E]. A deposit-wise UNFC table was not found in the AR text (still open in part).
+5. **EC and capacity.** EC capacity **64.8 mtpa**; NCL (Deposits 4 and 13) EC 17 mtpa. Applications filed to raise EC by 50% at Deposits 5 and 11 (Bacheli → 30–35 mtpa complex).
+   - Chhattisgarh complexes produced **~37.5 mt** in FY26; **Karnataka (Donimalai + Kumaraswamy) 15.6 mt**, i.e. 29% of output.
+   - Donimalai pellet plant 1.2 mtpa. New intermediate stockyard at Kumarmaranga (Chhattisgarh).
+6. **Deposit-13 timing risk.** The Ministry of Mines relaxed Section 4A(4) (lapse for non-commencement) for Deposit-13 **only up to 21-Sep-2026**, and Stage-I forest clearance was still awaited at Mar-26. Q1 FY27 filing: NCL has "commenced initial mining activities at Deposit-4 and Deposit-13".
+   - Whether the 21-Sep-26 deadline was met or extended is **not confirmed** (flag). ₹504 Cr PBG at stake.
+7. **Logistics at 31-Mar-26.** Slurry pipeline 94% (134.28 of 135.3 km laid); KK-line doubling (150 km) to lift Bailadila evacuation "from the current 28 MTPA to over 60 MTPA".
+8. **Coal.** Tokisud North production from **January 2026**. Rohne (coking, allotted 18-Jun-2021, 1,245 ha) awaits forest and land steps.
+   - The associate ICVL (NMDC 25.94%) produced **no** coal at Benga (Mozambique) in FY26 because of a contractor change. It exported 0.49 mt from stock (0.02 coking + 0.47 thermal).
+9. **Related parties and receivables.** NSL owes ₹6,448 Cr at Jun-26: demerger receivable ₹1,601 Cr; iron-ore trade ₹4,499 Cr; HR-product advance ₹180 Cr; employees ₹168 Cr. ECL ₹136 Cr; NSL has given a repayment schedule.
+   - **RINL owes ₹4,712 Cr** (ECL ₹298 Cr; the ₹11,440 Cr CCEA revival package of 17-Jan-25 is the comfort).
+   - Together that is **₹11,160 Cr ≈ 33% of NMDC's net worth** owed by two government steel companies [E].
+10. **Legacy Iron Ore (Australia).** Carrying value ₹443 Cr vs market value ₹295 Cr; no impairment on a recoverable-value test.
+11. **Integrity events.** Unauthorised removal of 20 t of ore from KIOM intercepted 16-Jan-2026. Monitoring Committee recovery ₹124.77 Cr is in contingents.
+
+**(f) NMDC list-price history 2021–2026 — chart-ready, with the basis flag (₹/t, Baila lump 65.5% / fines 64%, FOR)**
+
+| Effective | Lump | Fines | Basis | Source |
+|---|---|---|---|---|
+| 3-Apr-2021 | 5,850 | 4,560 | **excl.** royalty/DMF/NMET | BSE notice [V] |
+| 12-May-2021 (super-cycle peak) | **7,650** | **6,560** | excl. | BSE notice [V] |
+| 4-Sep-2021 | 6,150 | 5,160 | excl. | [V-snip] |
+| 30-Nov-2021 | 5,200 | 4,560 | excl. | [V-snip] |
+| 8-Mar-2022 | 6,000 | 4,960 | excl. | BSE notice excerpt [V-snip] |
+| 1-Apr-2022 | 6,100 | 5,160 | excl. | [V-snip] |
+| 12-Jul-2022 (after the 22-May-22 50% export duty) | **3,900** | **2,810** | excl. | [V-snip] |
+| 11-Aug-2022 | 4,100 | 2,910 | excl. | [V-snip] |
+| 17-Nov-2022 | 3,800 | 2,610 | excl. | [V-snip] |
+| 28-Jan-2023 | 4,400 | 3,910 | excl. | [V-snip BS] |
+| 21-Mar-2023 | 4,500 | 4,110 | excl. | [V-snip BS] |
+| 29-Apr-2023 | 4,200 | 4,010 | excl. | NSE notice [V-snip] |
+| *(switch to inclusive basis between May-2023 and Sep-2024 — month not pinned)* | | | | |
+| 23-Oct-2024 | 6,350 | 5,410 | **incl.** royalty/DMF/NMET | BSE notice [V] |
+| 9-Jan-2025 | 6,000 | 5,060 | incl. | BSE notice [V] |
+| 1-May-2025 | 6,440 | 5,500 | incl. | [V-snip] |
+| 4-Jun-2025 | 6,300 | 5,350 | incl. | [V-snip BS] |
+| 22-Oct-2025 | 5,550 | 4,750 | incl. | [V-snip] |
+| ~9-Jan-2026 | (Bacheli DR-CLO 67% 5,150) | 3,900 | **excl. again** | BigMint [V] |
+| 6-Mar-2026 | 4,800 | 4,050 | excl. | [V-snip] |
+| 5-Apr-2026 | 5,300 | 4,500 | excl. | primer/BS |
+| 6-May-2026 | 5,500 | 4,700 | excl. | [V-snip Outlook] |
+| 3-Jun-2026 | 5,700 | 4,850 | excl. | [V-snip Arihant] |
+| ~10-Jul-2026 | 5,450 | 4,700 | excl. | [V Sahi/Tribune] |
+| 8-Aug-2026 | 5,250 | 4,500 | excl. | [V Sahi] |
+| 9-Sep-2026 | 5,400 | 4,500 | excl. | [V-snip AngelOne/PSUConnect] |
+
+- **How to chart it:** use two line styles (excl./incl.), or gross up the exclusive prices by ~1.20 (royalty 15% + DMF 4.5% + NMEDT 0.3% of ASP, assuming ASP ≈ list price) [E].
+- On that basis Sep-26 lump ≈ ₹6,480 and fines ≈ ₹5,400 inclusive-equivalent, vs Oct-25 ₹5,550/₹4,750 → **+17% / +14%**, not a cut [E].
+- The 2022 trough (₹3,800/₹2,610 excl. ≈ ₹4,560/₹3,130 incl.-equivalent) is the export-duty episode. Fines fell 49% from the Apr-22 peak to Nov-22 [E].
+- A monthly series for May-2023 to Sep-2024 was not compiled (still open).
+
+**(g) What changes for the NMDC story**
+- **"Prices cut twice in 2026" is a basis artefact.** On a like-for-like basis NMDC's 2026 prices are the highest since mid-2025, consistent with Q1 FY27's +17% QoQ realisation. The real 2026 weakness is **volume (sales/production 0.78 in Q1, ~0.86 in Q2)**, not price.
+- **Statutory cost is now larger than EBITDA** (₹11,082 Cr vs ₹10,737 Cr company EBITDA in FY26).
+- **Two receivables from sister PSUs (₹11.2k Cr) plus a ₹15.8k Cr contingent** total ~₹27k Cr ≈ **45% of m-cap** [E]. This is the most plausible fundamental overhang behind the de-rating (see 4.4 on the share-price fall).
+
+### 4.2.2 MOIL (MOIL · 533286)
+
+**(a) Management-commentary digest — latest: investors' meet, 17-Mar-2026, CMD Ajit Kumar Saxena with directors** [V transcript and PPT]. MOIL has held no results call since; Q1 FY27 results (30-Jul-26) came as a press release only.
+
+**Long-run targets**
+- **Volume:** ~3.5 mt by 2030, from ~1.9 mt (FY26). The aim is to lift MOIL's share of India's Mn-ore requirement from ~20% to ~32%.
+- **Demand basis:** the National Steel Policy's 300 mt of steel needs ~11 mt of Mn ore. India imports ~5.5 mt a year (5-year average).
+- **Clearances:** EC 36.33 LT → 50 LT; ~5 mt of EC needed in total for 3.5 mt of output.
+
+**FY27 production target**
+- **25 LT** for all of MOIL (vs 19.07 LT FY26, i.e. +31%). Balaghat contributes ~4 LT.
+- H1 FY27 actual is **9.61 LT (+1.8%)**, so **H2 needs ~15.4 LT (+60% vs H2 FY26's ~9.63 LT)**. **The FY27 target is very unlikely** [E].
+
+**Shafts and capex**
+- Five shaft-sinking projects (₹664 Cr): three at Dongri Buzurg, one each at Kandri and Chikla.
+- The Balaghat high-speed shaft (to 650 m; ore body proven to 1,000 m) was delayed. Balaghat goes from ~3.5 LT to up to ~8 LT in 5–6 years, with EC to 6.5 LT.
+- Capex ~₹325 Cr/yr.
+
+**Pricing and moat**
+- Pricing follows steel demand, imported-ore landed cost and "LME and all those factors".
+- Furnaces need a 33–37% Mn blend. Imported ore pays at least **₹1,500/t** extra to reach central India.
+- Low grades are being upgraded or blended to raise realisation; lowest-grade sales rose ~50%.
+
+**Dividend:** FY26 two interims, ₹1.80 + ₹3.53.
+
+**Analyst Q&A highlights**
+1. Balaghat shaft progress: sinking done; equipping by a Chinese contractor completed; ore-body access explained.
+2. Timeline for EC and ramp-up after commissioning.
+3. FY27 target of 25 LT.
+4. Grade economics and blending demand.
+5. JV progress: MP (MOIL MPSMCL), Gujarat (GMDC), Chhattisgarh (exploration suspended).
+
+**Post-meet newsflow** [V/V-snip, Part 1]:
+- **Prices:** Apr-26 +15–17.5%; Jul −5/−10%; Aug −4/−5%; Sep flat; Oct +5%.
+- **Q1 FY27 (30-Jul):** production 5.08 LT, sales 3.69 LT, NSR ₹9,749/t, PAT ₹87.6 Cr (+70%).
+- **Sep-26:** production 1.81 LT (+19% YoY per SteelOrbis), sales 1.64 LT.
+- **Policy:** on **9-Jun-2026 India exempted ≥46% Mn ore of Australian origin from customs duty**; <46% ore still pays 2.5% [V BigMint 10-Jun-26]. This marginally lowers the landed cost of the high-grade blend partner [E].
+
+**(b) KPI table (quarterly volumes, LT)** [V MOIL AR/meet/press; E derivations]
+
+| Quarter | Production | Sales | NSR ₹/t | Revenue (screener, ₹ Cr) | PAT (₹ Cr) |
+|---|---|---|---|---|---|
+| Q1 FY26 | 5.02 | 3.56 | 8,884 | 348 | 52 |
+| Q2 FY26 | ~4.42 [E] | — | — | 348 | 70 |
+| Q3 FY26 | ~4.77 [E] | — | — | 348 | 53 |
+| Q4 FY26 | ~4.86 [E] | ~5.05 [E] | — | 444 | 93 |
+| Q1 FY27 | 5.08 | 3.69 | 9,749 | 371 | 88 |
+| Q2 FY27 | ~4.53 [E] | ~4.09 [E] | (Jul/Aug price cuts) | not reported | — |
+
+- Q2/Q3/Q4 FY26 production is derived from 9M FY26 14.21 LT, H1 FY26 ≈ 9.44 LT (H1 FY27 9.61 LT = +1.8%) and FY26 19.07 LT.
+- Q2+Q3 FY26 sales combined = 7.28 LT.
+
+**(c) Five-year history** [V MOIL AR "Performance at a glance"; V screener]
+
+| FY | Production (LT) | Sales (LT) | Revenue ops (₹ Cr) | Co. EBITDA incl. other inc. (₹ Cr) | Screener OP (₹ Cr) / OPM | PAT (₹ Cr) | EPS ₹ | ROCE % (screener) | Dividend paid (₹ Cr) |
+|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 12.31 | 12.12 | 1,436 | 621 | 541 / 38% | 377 | 16.15 | 20 | 177 |
+| FY23 | 13.02 | 11.78 | 1,342 | 446 | 369 / 28% | 251 | 12.31 | 15 | 122 |
+| FY24 | 17.56 | 15.36 | 1,449 | 531 | 438 / 30% | 293 | 14.42 | 16 | 85 |
+| FY25 | 18.03 | 15.88 | 1,585 | 639 | 528 / 33% | 382 | 18.76 | 19 | 134 |
+| FY26 | 19.07 | 15.89 | 1,473 | 508 | 415 / 28% | 267 | 13.14 | 12 | 141 |
+
+- **Revenue per tonne sold** [E]: FY22 ₹11,850; FY23 ₹11,390; FY24 ₹9,430; FY25 ₹9,980; FY26 ₹9,270.
+- **Production grew 55% from FY22 to FY26, but revenue only 2.5% and PAT fell 29%.** Volume growth came with lower average grade and price.
+- **Sales lag production by ~3.2 LT a year (FY24–FY26).** Stock builds mostly in low grades. Inventories were ₹363 Cr at Mar-26 [V screener].
+- Other products: FeMn production 10,003 t, sales 9,283 t (FY26); EMD production fell to **832 t** (1,413 t FY24); wind power 37.9 mn kWh.
+
+**(d) Eight-quarter trend (screener standalone, ₹ Cr)** [V]
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Sep-24 | 292 | 79 | 27% | 50 |
+| Dec-24 | 367 | 95 | 26% | 64 |
+| Mar-25 | 433 | 140 | 32% | 116 |
+| Jun-25 | 348 | 79 | 23% | 52 |
+| Sep-25 | 348 | 100 | 29% | 70 |
+| Dec-25 | 348 | 97 | 28% | 53 |
+| Mar-26 | 444 | 139 | 31% | 93 |
+| Jun-26 | 371 | 136 | 37% | 88 |
+
+Note: the screener quarters (348 + 348 + 348 + 444 = 1,488) do not sum to the AR's FY26 ₹1,472.84 Cr. One or more quarterly figures on screener are restated or rounded. Use the AR annual figure and treat the quarterly ₹348 Cr repeats as approximate.
+
+**(e) Annual-report findings (64th AR, FY26)** [V]
+1. **Statutory take is small.** "Royalty and cess" ₹99.03 Cr (FY25 ₹98.12 Cr) = **6.7% of revenue**:
+   - royalty paid to MP ₹26.22 Cr and to Maharashtra ₹37.83 Cr; DMF ₹19.22 Cr.
+   - **No "additional amount" line**, unlike NMDC.
+   - Revenue is recognised gross of royalty, DMF and NMET.
+   - Compare NMDC's 35%. MOIL's margin problem is **cost and grade, not levies**.
+2. **Cost structure** (expense schedule, ₹ Cr, FY26):
+   - Non-executive basic + IDA ~110 Cr; executive basic 28; post-retirement medical 15.5.
+   - Contractors (production, mining, mechanical) ~95 Cr; POL 67; electricity 58; stores 25.
+   - Depreciation on plant ~120 Cr.
+   - **Labour plus contractors is the dominant cost** — as expected for underground hand-plus-mechanised mining [E].
+3. **Cash.** Cash ₹5.12 Cr + other bank balances ₹705.48 Cr = **₹710.6 Cr** (Mar-25 ₹900.0 Cr). FD interest ₹61 Cr. **Zero borrowings in every year FY21–FY26.** Net worth ₹2,709 Cr.
+   - FY21's net worth of ₹2,820 Cr was higher than FY26's because of the FY22 buyback (equity ₹237 → ₹203 Cr).
+4. **Contribution to exchequer** and contingents: the auditor's emphasis paragraphs cite a ₹17.32 Cr demand and inventory (LGHS) valuation matters. No mineral-rights tax exposure is disclosed — **Maharashtra and MP have no mineral-land tax in sources found**.
+5. **Capital employed** ₹2,593 Cr; PBT/capital employed 13.0% (FY25 19.3%; FY22 28.8%).
+
+**(f) What changes for the MOIL story**
+- FY22–FY26 is a **volume-up, value-down** five years. The 3.5 mt 2030 plan adds tonnes of mixed grade into an import-priced market.
+- Now that the FY26 data is out, the FY27 target of 25 LT looks out of reach (H1 run-rate ~19 LT/yr).
+- The bear point: MOIL's levies are already low, so unlike NMDC it has no policy lever to pull.
+
+### 4.2.3 The Sandur Manganese & Iron Ores (SANDUMA · 504918)
+
+**(a) Management-commentary digest — Sandur holds no earnings calls.** The latest guidance-bearing documents are the **Q1 FY27 earnings PPT (Aug-2026)** and the **FY26 Annual Report** (Chairman/MD letters) [V].
+
+**Mining**
+- Iron ore output is at the legal limit: **MPAP 4.45 mtpa** (CEC approval Apr-2026 lifted it from 3.81 → 4.36 → 4.45). Manganese 0.599 mtpa.
+- **FY26 closing iron-ore stock** was carried into FY27, "a ready surplus to sell early in the new year". This supports Q1 FY27 sales.
+- More Mn ore is consumed captively in ferroalloys, and external Mn sales "gathered pace" (sales 0.34 mt, +93%).
+
+**Projects**
+- Downhill pipe conveyor complete; commercial operation Q2 FY27.
+- DCS beneficiation (₹285 Cr), COD Q2 FY28.
+- Coke: only 2 of 4 batteries run; merchant coke production kept "deliberately low", with contract manufacturing instead.
+- Arjas: Garret coiler (Feb-2025) and a new ingot-casting facility at Tadipatri (Dec-2025) widen SBQ reach into forging, rail, defence and heavy engineering. Arjas makes >100 SBQ/alloy grades.
+- **Outlook (AR):** "FY26 was a softer year for ore… early signs of recovery in the broader iron and steel industry."
+
+**Capital allocation**
+- ₹423 Cr of NCDs prepaid early (Mar-26). A+ rating (CRISIL, ICRA).
+- New verticals: Royal Sandur MedTech (AMTZ, Oct-26), Hospitality, Academy.
+- Contingent: ₹139 Cr compensatory-afforestation demand flagged by one analysis [V-snip compoundingai; not found in AR contingent note — check].
+
+**(b) KPI table** [V PPT/AR]
+
+| KPI | FY25 | FY26 | Q1 FY27 |
+|---|---|---|---|
+| Mn ore production | 0.51 mt | 0.59 mt (+15%) | 1.50 LT |
+| Mn ore sales (external) | 0.18 mt | 0.34 mt (+93%) | 0.97 LT (+99%) |
+| Mn ore captive use | 0.65 LT | 0.61 LT | — |
+| Fe ore production | ~3.82 mt | 4.35 mt (+14%) | 13.61 LT |
+| Fe ore sales | — | 4.10 mt | 9.64 LT (+13%) |
+| Ferroalloy sales | — | — | 16,292 t at ₹71,005/t |
+| SBQ steel sales | — | — | 1.05 LT at ₹74,385/t |
+| Realisation Mn / Fe ore (₹/t) | — | — | 7,954 / 3,095 |
+
+**(c) Five-year history (screener consolidated + AR segments)** [V]
+
+| FY | Revenue | OP / OPM | PAT | ROCE % | Mining segment rev / PBT | Steel segment rev / PBT |
+|---|---|---|---|---|---|---|
+| FY22 | 2,249 | 974 / 43% | 675 | — | (pre-segment split) | — |
+| FY23 | 2,126 | 392 / 18% | 271 | — | — | — |
+| FY24 | 1,252 | 320 / 26% | 239 | 15 | — | — |
+| FY25 | 3,135 | 782 / 25% | 471 | 21 | 1,615 / 768 | 1,212 / 87 (4.6 months) |
+| FY26 | 5,088 | 1,208 / 24% | 658 | 24 | **1,657 / 863** | **3,141 / 202** |
+
+- **FY26 segment margins (PBT ÷ segment revenue)** [E from AR]: mining **52%**; ferroalloys 2.7%; coke & energy 7.3%; steel 6.4%.
+- FY25 ferroalloys −1.7% and coke & energy **−38.8%** (₹−91 Cr). The FY26 coke turnaround (₹−91 Cr → ₹+10 Cr) came from shutting merchant coke and moving to contract manufacturing.
+- **Mining (₹863 Cr PBT) exceeds group PBT (₹827 Cr).** Every downstream layer combined, after unallocated finance cost (₹212 Cr) and corporate costs, contributes net ≈ −₹36 Cr [E].
+- **Read:** the "integrated" story is, on FY26 numbers, a mine subsidising a debt-funded steel acquisition. Steel's ₹202 Cr segment PBT roughly matches the group's ₹212 Cr finance cost, much of it Arjas acquisition debt [E].
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr)** [V]
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Sep-24 | 260 | 38 | 14% | 32 |
+| Dec-24 | 952 | 240 | 25% | 137 |
+| Mar-25 | 1,321 | 316 | 24% | 156 |
+| Jun-25 | 1,135 | 299 | 26% | 167 |
+| Sep-25 | 1,232 | 273 | 22% | 139 |
+| Dec-25 | 1,209 | 251 | 21% | 116 |
+| Mar-26 | 1,511 | 387 | 26% | 236 |
+| Jun-26 | 1,375 | 343 | 25% | 228 |
+
+Dec-24 onwards includes Arjas (from 11-Nov-24). Interest fell from ₹55–67 Cr a quarter to ₹26 Cr in Jun-26 after the debt paydown [V screener].
+
+**(e) Annual-report findings (FY26 AR)** [V]
+1. **Segment note 36** — see (c).
+   - Segment assets: steel ₹3,668 Cr of ₹5,527 Cr (66%); mining only ₹342 Cr.
+   - Steel segment liabilities ₹1,586 Cr.
+   - Group borrowings in the unallocated reconciliation fell from **₹1,020.53 Cr → ₹325.47 Cr**. This is not total borrowings: screener shows ₹999 Cr at Mar-26, so the rest sits in segment liabilities.
+2. **Contingent liabilities (Note 34, consolidated) total only ~₹176 Cr:**
+   - Forest Development Tax on Mn and Fe ore sales ₹100.8 Cr; differential royalty (DMG Karnataka) ₹12.2 Cr; GST ₹20.4 Cr; sales tax ₹19.0 Cr; entry tax ₹6.9 Cr; others.
+   - **There is no Karnataka mineral-rights/mineral-land tax contingent at all**, although Sandur mines the same Ballari belt as NMDC's Donimalai/Kumaraswamy and its leases are legacy (non-auctioned) Category-A leases.
+   - Either Sandur's legal view differs (e.g. that the Bill is not law; NMDC also said so but still disclosed), or the exposure is judged remote. **The writer should flag the disclosure asymmetry.**
+   - Order of magnitude if the Bill applied on NMDC-like terms: NMDC's ₹15.5k Cr on ~13–16 mt/yr Karnataka output scales to **~₹3,000–4,500 Cr** for Sandur's ~3–4.4 mt/yr over the same period. Sandur's lower-grade ore and lower royalty per tonne would cut this, perhaps by half [E, very rough] — still **0.4–0.6× Sandur's m-cap**. Section 9D (if in force) removes it.
+3. **Royalty and other taxes** (consolidated P&L) ₹481.6 Cr FY26 (₹476.6 Cr FY25) ≈ **29% of mining-segment revenue** — between MOIL (7%) and NMDC (35%) [E].
+4. **Leases valid to 2033** [V PPT]. Reserves 137 mt Fe and ~15 mt Mn → **~31 years of Fe at 4.45 mtpa but only 7 years of lease** [E]. The lease cliff, not geology, caps value.
+5. **Exports** are trivial (₹53.9 Cr FY26).
+
+**(f) What changes for the Sandur story:** the mining arm earns a ~52% PBT margin and carries the group. Arjas earns ~6%. The undisclosed Karnataka-tax exposure and the 2033 lease expiry are the two unpriced long-dated risks.
+
+### 4.2.4 Ashapura Minechem (ASHAPURMIN · 527001)
+
+**(a) Management-commentary digest — latest: Q1 FY27 call, 19-Aug-2026 (Chetan Shah, Manan Shah, CFO Ashish Desai), plus the Q4 FY26 call of 4-Jun-2026** [V transcripts]
+
+**Volume**
+- FY27 Guinea volume guidance was **10–12 mt** in June. In August it became "full-year target ±10%", reported as **9–11 mt**.
+- Long-term ambition 15 mt (FY28). In June: "increase our volume from 15 million tons to 20 million tons" of port capacity.
+
+**Ports** (management statements drift; use the latest, August)
+- **Boffa** 5 → **8 mtpa** commissioned. June had said "up to ~10"; August: "currently commissioned up to 8… could expand to 10–12".
+- **GSM jetty** 6 → **10 mtpa** by Q4 FY27. June had said "+50–60% by end FY27–28".
+- **Konta** port 5 mtpa linked to the ~230 mt Fako deposit.
+- Current export capacity **18 mtpa**; combined ~23 mtpa.
+
+**Pricing, freight and quotas**
+- FY26 margins were hit by fuel, freight, **higher Guinean taxes/duties (linked to price)** and lower bauxite prices. Q4 FY26 EBITDA $5.9/t → Q1 FY27 $6.3/t.
+- "We are close to the lowest end of the cycle as far as EBITDA is concerned."
+- Guinea's export **quota system** is expected to cut volumes and lift prices net of freight. Management thinks it favours established exporters; the largest exporters do 70–80 mt.
+- Freight volatility is expected "across 2027". Some long-term freight contracts are in place.
+
+**Tax**
+- **Guinea income tax: "currently there is no income tax" until the investment is recovered; "for at least… the next one or two years there won't be any tax liability".**
+- So the holiday runs at least to ~FY28. **It is not a dated statutory holiday but an investment-recovery provision.** Group FY26 current tax was only ₹29 Cr on PBT ₹445 Cr.
+
+**India business**
+- FY27 "stable… maybe a little better"; projects pay off in the medium term.
+- Bleaching clay squeezed by sulphuric acid (×5, >₹30/kg). India capex ~₹200 Cr.
+
+**Guinea iron ore**
+- **Beneficiation began producing in FY26** under a margin-based local arrangement (AR). The Q1 call says commercial direction is still "a couple of quarters" away.
+
+**Partnerships:** China Railway operational partnership; committed alumina-refinery offtake (AR).
+
+**(b) KPI table** [V calls/AR]
+
+| KPI | FY25 | FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|
+| Guinea bauxite exported (mt) | 3.5 | ~8 | 3.16 | 2.34 |
+| Guinea revenue (₹ Cr) | — | ~4,200 | — | ~1,360 |
+| Guinea EBITDA (₹ Cr) | — | 561 | — | 163 |
+| Guinea EBITDA/t (US$) | — | ~7.4 [E: 561 Cr ÷ 8 mt ÷ ₹94.9] | 5.9 | 6.3 |
+| India business revenue (₹ Cr) | — | **~998** | bentonite 291 + other | ~256 [E] |
+| India business EBITDA (₹ Cr) / margin | — | **112 / 11.2%** | — | ~26 [E] |
+| Consolidated EBITDA (company, ₹ Cr) / margin | 445 / 16.3% | 674 / 12.9% | 211 | 188.9 / 11.7% |
+
+**(c) Five-year history (screener consolidated, ₹ Cr)** [V]
+
+| FY | Revenue | OP / OPM | PAT | Tax rate | ROCE % | Borrowings (Mar) |
+|---|---|---|---|---|---|---|
+| FY22 | 1,278 | 102 / 8% | 87 | — | 12 | — |
+| FY23 | 1,831 | 178 / 10% | 110 | — | 16 | — |
+| FY24 | 2,654 | 252 / 10% | 282 | — | 17 | — |
+| FY25 | 2,739 | 377 / 14% | 289 | 5% | 19 | 1,163 |
+| FY26 | 5,237 | 560 / 11% (co. 674 / 12.9%) | 416 (attrib. 401) | 6% (current tax ₹29 Cr) | 21 | 1,444 |
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr)** [V]
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Sep-24 | 604 | 64 | 11% | 43 |
+| Dec-24 | 865 | 135 | 16% | 108 |
+| Mar-25 | 555 | 84 | 15% | 79 |
+| Jun-25 | 1,356 | 182 | 13% | 114 |
+| Sep-25 | 952 | 131 | 14% | 106 |
+| Dec-25 | 960 | 114 | 12% | 76 |
+| Mar-26 | 1,969 | 128 | 6% | 121 |
+| Jun-26 | 1,616 | 181 | 11% | 108 |
+
+Lumpy quarters track ship-loading in the November–May dry season in Guinea. Q2 (Jul–Sep) is the rainy-season low [K for seasonality; consistent with Sep-25's 952].
+
+**(e) Annual-report findings (FY26 AR)** [V]
+1. **Single reportable segment** ("Minerals and its derivative products"). The Guinea/India split comes only from call commentary (above).
+2. **MD&A claims:**
+   - bentonite reserves **60+ mt** (Kutch);
+   - **12–14% global bentonite market share**;
+   - **"~15% global bauxite export market"** (this looks overstated: 8 mt vs Guinea's ~200 mt, i.e. ~4% of Guinea, ~3–4% of world seaborne — treat as a company claim);
+   - **India's 2nd-largest kaolin producer, 108,000 tpa**;
+   - customers in 70+ countries; ONGC supplier since 1987.
+3. **Associates/JVs:**
+   - Ashapura Perfoclay (bleaching earth, JV): Q4 FY26 revenue ₹97 Cr; 9 MW group captive solar via a 26% LLP.
+   - Orient Ceratech (32.07% associate): Q4 FY26 revenue ₹98.2 Cr.
+4. **Working capital:** debtor days 238 vs 185 (ratio table; likely standalone/average basis). Company net debt **₹1,112 Cr** (₹1,039 Cr).
+5. **Promoter changes:** inter-se promoter transfer under a SEBI exemption order (16-Dec-2025) to Manan Shah and the group. Promoter ~48%.
+6. **Kaolin/alumina project:** no alumina-refinery project is described in the AR. "Alumina" appears only as customer offtake. The first-pass §H item on an Ashapura alumina project should be **closed as "no such project in FY26 AR"**.
+
+**(f) What changes for the Ashapura story:** India is a ~₹1,000 Cr, ~11%-margin specialty-clay business (19% of revenue, 17% of EBITDA). Guinea earns ~$6–7/t untaxed for 1–2 more years. A normal tax rate on Guinea earnings would take a large slice of PAT [E].
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**I1. Official FY26 iron-ore production = 313 mt (record)** — **Government of India (PIB backgrounder on the MMDR Amendment Act, 18-Aug-2026)** [V]
+- Same document: "value of major mineral production rose by 26.8% in FY 2025-26"; limestone 484 mt; coal >1 bn t in each of the last two years.
+- This confirms BigMint's 313 mt (Part 1). BigMint's April import article used ~310 mt (+7.3%) — an earlier estimate. **Use 313 mt (GoI).**
+
+**I2. India's iron-ore trade, FY25 → FY26 (mt)** [V BigMint 25-Apr-26 for imports; GMK/BigMint for exports, Part 1]
+
+| Item | FY25 | FY26 | Note |
+|---|---|---|---|
+| Exports (ore + pellets) | 30.39 | 25.78 | China 24.21 |
+| — of which pellets | ~7.4 | 3.47 | |
+| **Imports (ore + pellets)** | **6.49** | **12.35** | Highest since 2018; fines/lump 10.5, pellets 1.85 |
+| — Brazil | — | 6.86 | Overtook Australia (3.17 → 0.9) |
+| — Oman pellets | — | 1.79 | Partly Brazilian feed, processed in Oman/Malaysia |
+| — **JSW Steel** | 5.76 | **10.02** | 81% of all imports |
+| — by port | | Jaigarh 5.9; Krishnapatnam 3.56; Kandla 0.99 | West + east coast |
+| **Net exports** | **23.9** | **13.4** [E] | Net exports **halved** |
+| Jan–May 2026 imports | | ~4.8 (+50% YoY) | [V-snip BigMint Jun-26] |
+
+- **Read:** India is long low-grade ore but short **high-grade, low-alumina** ore at the coast. Domestic ≥65% Fe was only 11% of output in FY26 (20% in FY17).
+- NMDC's Bailadila ore (64–65.5% Fe) is exactly the grade coastal mills are importing. The binding constraint is logistics to the coast (KK line/Vizag, blending yard), not demand for the grade [E].
+- **The domestic market has a new price ceiling: landed Brazilian fines** (62% Fe ~$91–92 CFR in Oct-26 plus freight).
+
+**I3. Seaborne 62% Fe price path, 2026 ($/t)** [mixed sourcing]
+- 30-Apr: **109.95** CFR China [V-snip SteelOrbis]
+- 7–16 Jul: **98.9–100.0** (SGX/Qingdao) [V-snip MMi]
+- early Sep: >100 [V-snip]
+- 25-Sep: **96.6** [V-snip Kallanish via GMK]
+- **5-Oct: 90.95 (SGX Nov contract; lowest since Sep-2024); 91.3–92.3 in early Oct** [V procurementresource 9-Oct-26]
+- Dalian 682.5 yuan/t on 8-Oct (weakest since Apr-2025)
+- China: only **~7% of steel mills profitable** at end-September; hot-metal output 2.34 mt/day, a six-month low.
+- **October 62% Fe ≈ $91–92/t, down ~17% from end-April** [E].
+
+**I4. India steel, H1 FY27 (Apr–Sep 2026) vs H1 FY26 (mt)** [Ministry of Steel data via IndianMasterminds 6-Oct-26; V-snip]
+
+| Item | H1 FY26 | H1 FY27 | YoY |
+|---|---|---|---|
+| Crude steel | 82.7 | 85.1 | +2.9% |
+| **Hot metal (the iron-ore-consuming step)** | 47.2 | 48.3 | **+2.5%** |
+| Finished steel production | 78.8 | 81.8 | +3.7% |
+| Finished steel consumption | 79.0 | 84.9 | +7.5% |
+| Finished steel imports | 3.345 | 4.142 | +23.8% |
+| Finished steel exports | 2.810 | 3.548 | +26.2% |
+
+- Capacity **222.9 mtpa** (top-7 groups 117.4; others 105.4); PSU share of crude 15.5%.
+- Sep-26: crude 14.1 mt (+3.4%); hot metal 7.9 mt (+0.2%).
+- Sep-26 prices: HRC **₹76,085/t (+26.8% YoY)**; TMT ₹65,298/t (+21%).
+- **Read:** iron-ore demand (hot metal +2.5%) grew a tenth as fast as NMDC's production (+23% in H1). Meanwhile steel prices are up 20–28% YoY. **Steelmakers are capturing margin while ore piles up at the mine.** This is the clearest single explanation for NMDC's inventory build and de-rating [E].
+
+**I5. Manganese ore trade and prices** [V BigMint 10-Jun-26; V-snip Mysteel]
+- **Imports:** CY24 6.21 mt → **CY25 6.46 mt** (+4%).
+  - By source: South Africa 3.93; Gabon ~2.0; Australia 0.11 (+74%).
+  - By grade: 35–46% Mn **5.36 mt (+27%)**; ≥46% ~0.46 mt; 25–35% 0.58 mt (−60%).
+  - H1 FY26 imports 3.03 mt (−20% YoY) [V-snip].
+  - **FY26 total is still not sourced**; CY25 6.46 mt is the best annual proxy. This supersedes the "~5.5 mt 5-yr average" as the *current* run-rate.
+- **Duty (9-Jun-2026 MoF notification):** HS 26020010 ore with ≥46% Mn **of Australian origin** is exempt; other ore pays 2.5% [V BigMint].
+- **Prices:**
+  - Comilog 44.5% lump CIF China: $4.98/dmtu (Mar-26) → $5.45 (Jun) → $5.18 (Jul) → **$4.90 for Sep shipment** (offer 30-Jul) [V-snip].
+  - South32 South African Mn37% semi-carbonate: **$4.20/dmtu (−$0.30)** for Sep/Oct [V-snip].
+  - MOIL list: Oct +5% after Jul/Aug cuts [V-snip]. MOIL is raising prices while seaborne offers fall — a divergence to watch [E].
+- **National Mn production:** official monthly series [V-snip, Ministry of Mines via IANS/BS]:
+  - Apr–May 2025: 0.70 mt (+1.4%); Mar-2025: 0.39 mt.
+  - This implies **~4.0–4.3 mt/yr nationally** [E], so **MOIL (1.91 mt) ≈ 45%**.
+  - **Total consumption ≈ 4.2 + 6.5 ≈ 10.7 mt**, so MOIL ≈ 18% of consumption [E].
+
+**I6. MOIL volumes FY21–FY26 (t)** [V MOIL AR]
+
+| FY | Mn ore production | Mn ore sales | EMD production | FeMn production |
+|---|---|---|---|---|
+| FY21 | n/a | 12,17,891 | n/a | 8,851 |
+| FY22 | 12,31,264 | 12,12,054 | 1,202 | 10,245 |
+| FY23 | 13,02,217 | 11,77,944 | 1,100 | 8,660 |
+| FY24 | 17,56,113 | 15,36,341 | 1,413 | 10,163 |
+| FY25 | 18,02,997 | 15,87,679 | 1,350 | 12,000 |
+| FY26 | 19,07,013 | 15,89,122 | 832 | 10,003 |
+
+**I7. NMDC statutory levies, FY25 → FY26 (₹ Cr)** [V NMDC AR Note 2.41] — stacked-bar ready
+
+| Levy | FY25 | FY26 | ₹/t sold FY26 |
+|---|---|---|---|
+| Royalty (15% of IBM ASP) | 3,428.14 | 3,923.57 | 781 |
+| Additional royalty (22.5% of ASP = 150% of royalty) | 5,171.78 | 5,874.51 | 1,169 |
+| DMF (30% of royalty) | 1,028.48 | 1,177.16 | 234 |
+| NMEDT | 68.57 | 104.80 | 21 |
+| Other | 8.38 | 1.96 | 0 |
+| **Total** | **9,705.35** | **11,082.00** | **2,206** |
+
+Selling expenses also include an infrastructure-development cess and an environmental-development cess of ₹41.77 Cr each (FY26) [V].
+
+**I8. Statutory take across members (FY26)** [V ARs; E ratios]
+
+| Company | Royalty + levies (₹ Cr) | % of revenue | Additional amount? |
+|---|---|---|---|
+| NMDC | 11,082 | 35% (39% ex-trading) | Yes, ₹5,875 Cr |
+| Sandur (consolidated) | 482 | 9.5% of group; ~29% of mining revenue | Not disclosed separately |
+| MOIL | 99 | 6.7% | No |
+| Ashapura | Guinea royalties/taxes inside cost; "Guinean tax and duty linked to price" rose in FY26 | n/a | — |
+
+**I9. State revenue context** (PIB 18-Aug-26) [V]
+- States' mineral revenue (coal + non-coal) **~₹1,14,549 Cr in FY26**; major-mineral states ₹82,366 Cr (₹13,586 Cr in FY14; 16.2% CAGR).
+- Since 2015: royalty **₹2.32 lakh Cr** from 1,200 working mines; **auction premium ₹96,000 Cr** from 100 auctioned mines. Odisha alone took ~₹87,000 Cr of premium FY21–FY26.
+- **723 major-mineral blocks auctioned** in 17 states (FY26 record: 212 auctioned, 36 operationalised).
+- PIB's worked example: at an iron-ore ASP of ₹3,000/t an auctioned miner pays ₹3,150/t, **of which ₹3,016 goes to the State**.
+- "States currently impose around 14 taxes, charges and fees on mining… some States have additionally begun taxing mineral-bearing lands… at rates as high as 20 percent."
+
+**I10. Guinea / Ashapura split, FY26** [V Q4 FY26 call]
+- Guinea revenue ~₹4,200 Cr, EBITDA ₹561 Cr (13.4%).
+- India revenue ~₹998 Cr, EBITDA ₹112 Cr (11.2%).
+- Volume ~8 mt (FY25 3.5 mt).
+
+**I11. Global lens updates**
+- Rio Tinto Q3-2026: Pilbara shipments **85.7 mt (+2%)**, production 83.4 mt (−1%); 2026 Pilbara guidance **323–338 mt** [V-snip HL/SteelOrbis].
+- **Simandou (Guinea) SimFer ran at ~10 mtpa annualised in Q3-2026** [V-snip]. This is new high-grade seaborne supply (65%+ Fe) that competes directly with NMDC's grade niche over 2026–30, and it shares Guinea's port/rail/labour market with Ashapura's bauxite [E].
+- South32 Australia Manganese Sep-qtr 902 kwmt; FY27 guidance 2.65–2.9 mwmt [V-snip].
+
+**I12. Bentonite (Ashapura's home market)** [V IBM Indian Minerals Yearbook chapter]
+- Bentonite is a **minor mineral** (state-regulated), so there is no national production series: Gujarat's output is reported "NA". Rajasthan produced 0.31 / 0.45 / 0.29 mt in FY20 / FY21 / FY22.
+- Resources **583 mt** at 1-Apr-2015 (Rajasthan 428 mt, 73%; Gujarat 144 mt, 25%); reserves 15 mt; foundry grade 60 mt.
+- **Market size in ₹ is still unsourced.** Ashapura's own claims: 60+ mt reserves in Kutch, 12–14% global market share, >1 mt grinding capacity [V AR/call].
+- Because bentonite is a minor mineral, **Section 9D of the 2026 Act does not shield it**. States keep full taxing power over it (PIB: "nearly 50 minor minerals… The Act has no bearing on these… clay…") [V].
+
+## 4.4 Gap log (first-pass §H and the orchestrator's list)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| G1 | NMDC list-price basis (incl./excl. royalty) | **Filled** — basis switched excl. (≤Apr-23) → incl. (by Oct-24, through Oct-25) → excl. (Jan-26 onwards) | BSE notices 2021/2024/2025 [V]; BigMint Jan-26 [V] |
+| G2 | 5-year NMDC lump/fines price history | **Mostly filled** — 25 data points Apr-21 → Sep-26 (4.2.1(f)). May-23 to Sep-24 not compiled; exact month of the switch to inclusive basis not pinned | BSE/NSE notices via search; NMDC's site not fetched |
+| G3 | Q2 FY27 board dates (all four) | **Still none announced** as of 22-Oct-26 14:29 IST. Prior-year Q2 boards: NMDC 29-Oct-25; MOIL 11-Nov-25; **Sandur 7-Nov-25 (not 19-Nov)**; Ashapura (Q2 FY26 call Nov-25). Corrected Q1 FY27 board dates: **MOIL 29-Jul-26** (not 30-Jul), **Ashapura 7-Aug-26** (19-Aug was the call) | IIFL corporate-action pages [V]; BSE API refused (Akamai 403) |
+| G4 | Kumaraswamy Q1 FY27 sales collapse | **Partly filled** — NMDC held almost no Karnataka e-auctions in Apr-26 (~40 kt) and its first FY27 auction only on 26-May; FY26 MPAP 8.6 mt | BigMint 16-Jun-26 [V]; transcript [V]. Not explained by NMDC itself |
+| G5 | Cause of NMDC's ~−26% fall since June | **Analytically filled, not "sourced"** — no single news catalyst found. Evidence: 62% Fe down to ~$91 (Oct, 2-yr low); hot metal +2.5% vs NMDC output +23%; H1 sales flat (inventory); imports doubling; Karnataka contingent and ₹11.2k Cr NSL/RINL receivables (auditor emphasis); price drop to ₹83 after the 10-Jul cut; further falls 8/12/19-Oct | Searches; price-history page [V-snip] |
+| G6 | Official IBM/MoM FY26 iron ore and Mn production | **Iron ore filled: 313 mt (GoI, PIB)**. Mn: only monthly official points (Apr–May-25 0.70 mt) → ~4.0–4.3 mt/yr [E]; full-year FY26 still open | PIB [V]; IANS/BS [V-snip] |
+| G7 | FY26 Mn ore imports (HS 2602) | **Partly** — CY25 6.46 mt (by country/grade) and H1 FY26 3.03 mt; FY26 total not found. TradeStat not fetched (interactive form; no form use allowed) | BigMint [V]/Mysteel [V-snip] |
+| G8 | FY26 iron ore imports (HS 2601) | **Filled: 12.35 mt** (FY25 6.49) | BigMint [V] |
+| G9 | State mineral-tax status (Odisha, Jharkhand, Chhattisgarh, Karnataka) and Sandur's exposure | **Partly** — Odisha and Jharkhand had no tax on judgment day [V Zerodha]; **Jharkhand later introduced an MBL tax (iron ore ₹100 → ₹400/t reported)** [V-snip]; PIB: some states tax mineral land "at rates as high as 20%"; Karnataka Bill still awaiting Presidential assent (NMDC AR). Chhattisgarh: nothing found. **Sandur discloses no Karnataka-tax contingent** (AR) [V] | Searches; NMDC/Sandur ARs |
+| G10 | Commencement notification of MMDR Amendment Act 2026 | **Partly** — one secondary source says "come into force on 22nd August, 2026" [V-snip shankariasparliament]. No Gazette S.O. or PIB release found; the PIB backgrounder (18-Aug) is silent on the date | egazette not reachable by search; PIB [V] |
+| G11 | Mn royalty rate; does MOIL pay an additional amount? | **Filled (practice):** MOIL pays royalty to MP/Maharashtra (₹64 Cr = 4.3% of revenue) and **no additional amount**. Statutory 5% of ASP still [K] (Second Schedule not fetched) | MOIL AR [V] |
+| G12 | KK line doubling status | **Filled** — Kirandul–Jagdalpur 97%, 128/131 km (Mar-26); last section Dec-26; KK (150 km) doubling → >60 mtpa | NMDC AR [V]; transcript [V] |
+| G13 | Nagarnar pellet plant / slurry ramp | Commissioning **confirmed** (27–28-Sep-26; maiden production watched remotely; straight-grate). **Ramp data still open** | Telangana Today [V]; PSUConnect [V-snip] |
+| G14 | October-2026 62% Fe | **Filled (secondary):** SGX ~$91–92, low $90.95 (5-Oct) | procurementresource 9-Oct-26 [V] |
+| G15 | NMDC reserves | **Partly** — ">2,300 mt of Fe 64%+ reserves" (AR); deposit-wise UNFC table not found | NMDC AR [V] |
+| G16 | MOIL FY22–24 volumes | **Filled** (I6) | MOIL AR [V] |
+| G17 | Sandur FY26 segment split | **Filled** (4.2.3) | Sandur AR [V] |
+| G18 | Ashapura India segment; tax holiday; kaolin/alumina | **India filled (₹998 Cr / ₹112 Cr EBITDA)**; tax holiday = "no income tax until investment recovered… at least 1–2 years" (no statutory date); **no alumina project** in the AR; kaolin 108,000 tpa | Q4 call [V]; AR [V] |
+| G19 | Bentonite market size | **Still open** (minor mineral; no national data). Resources 583 mt [V IBM] | IBM IMY; Indexbox paywalled |
+| G20 | MOIL cash | **Filled: ₹710.6 Cr** (cash ₹5.1 Cr + bank deposits ₹705.5 Cr); zero debt | MOIL AR [V] |
+| G21 | NMDC FY25/FY26 dividend composition | **Filled:** FY26 ₹2.50 interim + ₹1.00 final; FY25 ₹3.30 | NMDC AR [V] |
+| G22 | Arjas FY26 revenue | **Filled:** steel segment ₹3,141.09 Cr | Sandur AR [V] |
+| G23 | NMDC Q1 FY27 earnings call | **Confirmed none held**; latest call 1-Jun-26 | Screener concall index; Quartr |
+| G24 | Deposit-13 Section 4A(4) deadline (21-Sep-26) — new gap | **Open** — whether extended | NMDC AR [V] |
+| G25 | Ashapura FY26 guidance drift (Boffa 8 vs 10 mtpa) — new | Use the Aug-26 statement (8 mtpa commissioned; 18 mt export capacity) | Both calls [V] |
+
+## 4.5 New insights and new primer issues
+
+### 4.5.1 What an expert would add (the first pass missed these)
+
+1. **NMDC's 2026 "price cuts" are mostly an accounting-basis illusion.**
+   - NMDC's notices went back to an *exclusive-of-royalty* basis in January 2026, after quoting *inclusive* prices from at least Oct-2024 to Oct-2025.
+   - Like-for-like, the 9-Sep-26 lump price (₹5,400 excl.) is roughly ₹6,450–6,500 inclusive — **above** Oct-2025's ₹5,550.
+   - This fits Q1 FY27's realisation (+17% QoQ, +4% YoY).
+   - The real 2026 problem is **volume**: H1 sales/production 0.82, and Q1 0.78. Any chart of NMDC list prices must carry the basis flag.
+2. **India's ore market has split: long low-grade ore inland, short high-grade ore at the coast.**
+   - Imports nearly doubled to **12.35 mt in FY26** (JSW alone 10 mt; Brazil 6.9 mt) while exports fell to 25.8 mt. Net exports halved to ~13 mt.
+   - Domestic ≥65% Fe fell to 11% of output.
+   - NMDC owns the scarcest grade but sells it into central India by rail. **Its Vizag blending yard and KK-line doubling are really bids to displace Brazilian fines at the coast.**
+   - Simandou (Guinea, ~10 mtpa annualised by Q3-2026) adds high-grade seaborne competition just as that window opens.
+3. **The ore cycle and the steel cycle have decoupled.**
+   - H1 FY27: hot metal +2.5% (the ore-consuming step), crude steel +2.9%, finished-steel consumption +7.5%, **HRC prices +27% YoY**.
+   - Over the same period NMDC's production was +23%, and 62% Fe fell ~17% from April to ~$91 in October.
+   - Steelmakers are taking the margin; miners are carrying the inventory.
+   - **This, not a single news event, is the best explanation for NMDC's −26% de-rating since June.** It compounds with ₹27k Cr of contingent-plus-PSU receivables (~45% of m-cap) [E].
+4. **The state already takes more than the shareholder at NMDC — and the 2026 Act caps the *next* layer, not the existing one.**
+   - FY26 statutory levies ₹11,082 Cr exceed company EBITDA (₹10,737 Cr). The 150% "additional royalty" alone is ₹5,875 Cr, or 79% of PAT.
+   - Section 9D blocks *new* state land/rights taxes (Karnataka's retrospective bill, Jharkhand's MBL tax). **It does not touch royalty, the additional amount, DMF or auction premiums**, which PIB itself celebrates (₹2.32 lakh Cr royalty and ₹96,000 Cr premium since 2015).
+   - Even if 9D survives the inevitable state challenge, NMDC's margin ceiling does not lift.
+5. **NMDC's next policy cliff is 2035, not 2030.**
+   - The AR lease schedule puts every Bailadila lease (Deposits 5, 10, 11, 14, 14NMZ; ~70% of output) at **Sep-2035 to Sep-2037**; Karnataka runs to 2038/2042.
+   - The ₹50,000 Cr+ 100 mtpa capex plan (₹6,000 Cr FY27; ₹7–10k Cr a year FY28–30) will be only ~5–7 years into payback when those leases need another extension. The price of that extension (another "additional amount"?) is unknowable today [E].
+   - **Sandur's 2033 cliff is even closer**: 31 years of iron-ore reserves, 7 years of lease.
+6. **Sandur is a mine wearing a steel company's balance sheet — and is silent on Karnataka.**
+   - Mining earned **₹863 Cr PBT on ₹1,657 Cr revenue (52%)**, more than the group's ₹827 Cr PBT.
+   - Steel (Arjas) earned ₹202 Cr on ₹3,141 Cr (6.4%), roughly offset by group finance cost (₹212 Cr). Steel holds 66% of segment assets.
+   - Sandur discloses **no** Karnataka mineral-tax contingent, while NMDC discloses ₹15.5k Cr on the same Ballari belt. If the Bill were ever enacted without 9D protection, Sandur's exposure could be a large fraction of its m-cap [E, rough]. **Disclosure asymmetry worth a sentence.**
+7. **MOIL's problem is grade and cost, not tax — and its volume plan is behind.**
+   - Statutory take is only 6.7% of revenue (no additional amount). Revenue/t fell from ₹11,850 (FY22) to ₹9,270 (FY26) as production rose 55% on lower grades.
+   - Sales trail production by ~3 LT a year.
+   - The FY27 target (25 LT) needs H2 production +60% after an H1 of +1.8%.
+   - MOIL raised prices 5% in October while Comilog/South32 offers fell ($4.90 and $4.20/dmtu). June's duty exemption for ≥46% Australian ore lowers the landed cost of the blend partner. **Expect pressure on MOIL's Q3 pricing** [E].
+8. **Ashapura's earnings are ~85% Guinea, almost untaxed, and the tax shield has a short fuse.**
+   - FY26 Guinea EBITDA ₹561 Cr vs India ₹112 Cr. Group current tax was ₹29 Cr on ₹445 Cr PBT.
+   - Guinea income tax is waived only "until the investment is recovered — at least one or two years". Guinea's price-linked royalties/duties already rose in FY26.
+   - Bentonite, the Indian franchise, is a *minor* mineral that Section 9D explicitly leaves to the states.
+
+### 4.5.2 New primer issues (add to the Part 3 list; format as primer-issues.md)
+
+### From Industrial Minerals deep-research pass (2026-10-22, industrial-minerals-industry.md Part 4)
+
+- **nmdc.html — price-basis statement is time-dependent.**
+  - The primer says prices are "FOR, exclusive of royalty, DMF, NMET…". That is true only for 2021–Apr-2023 and Jan-2026 onwards. From at least Oct-2024 to Oct-2025 NMDC's notices said "**inclusive** of Royalty, DMF, NMET" (BSE notices 23-Oct-24, 9-Jan-25).
+  - Add a one-line note so the 2026 prices are not read as cuts from 2025 levels.
+- **nmdc.html — five-year table can now use NMDC's own AR series.**
+  - Production FY22–FY26: 42.19 / 40.82 / 45.02 / 44.07 / 53.16 mt. Sales: 40.67 / 38.22 / 44.48 / 44.40 / 50.24 mt.
+  - Capex FY26 **₹3,384 Cr** (not ₹3,690 Cr). DPS FY25 **₹3.30** (not ~₹3.75); FY26 ₹2.50 interim + ₹1.00 final.
+- **nmdc.html — royalty section:** quote the AR line "Additional Royalty (22.50% premium)" ₹5,875 Cr (FY26) alongside royalty ₹3,924 Cr, DMF ₹1,177 Cr and NMEDT ₹105 Cr. Total ₹11,082 Cr = ₹2,206/t, which is more than company EBITDA.
+- **nmdc.html — contingent liabilities and receivables:**
+  - Karnataka tax ₹15,482 Cr (Mar-26) / ₹15,786 Cr (Jun-26), with the **customer-recourse clause** in the LTAs and auction notices.
+  - Dantewada "Common Cause" ₹1,623 Cr (₹600 Cr paid under protest); railway-transit-pass penalty ₹1,621 Cr.
+  - NSL receivables ₹6,448 Cr and RINL ₹4,712 Cr (auditor emphasis).
+- **nmdc.html — lease expiries (new risk):** Bailadila mining leases expire Sep-2035 to Sep-2037; Donimalai 2038; Kumaraswamy 2042. Mention them in the risks section next to the 100 mtpa plan.
+- **nmdc.html — logistics status:**
+  - Kirandul–Jagdalpur doubling 128 of 131 km done; last section due Dec-2026.
+  - Bailadila evacuation 28–30 → ~40 → >60 mtpa after KK-line doubling. CMD: 60 mt achievable without it; 100 mt not.
+  - Slurry system commissioned 27–28-Sep-2026 (2–3 months later than the June guidance).
+  - Deposit-13 lapse relaxation ran only to 21-Sep-2026 (status unknown).
+- **nmdc.html — reserves:** add ">2,300 mt of Fe 64%+ reserves" (AR FY26).
+- **moil.html — use AR five-year series:**
+  - Production 12.31 / 13.02 / 17.56 / 18.03 / 19.07 LT (FY22–FY26); sales 12.12 / 11.78 / 15.36 / 15.88 / 15.89 LT.
+  - Revenue/t down from ~₹11,850 to ~₹9,270.
+  - Royalty & cess only ₹99 Cr (6.7% of revenue); **no 150% additional amount** (unlike NMDC).
+  - Cash ₹711 Cr, zero debt. FY26 board 29-Apr-26 recommended no final dividend.
+- **moil.html — imports/duty:** imports ran at **6.46 mt in CY25** (above the 5.5 mt 5-yr average). Since 9-Jun-2026, ≥46% Mn ore of Australian origin is duty-free (others 2.5%).
+- **moil.html — FY27 target realism:** H1 FY27 production 9.61 LT (+1.8%) vs the 25 LT FY27 target. Flag it as unlikely.
+- **sandur-manganese.html — segment economics (AR FY26 Note 36):**
+  - Mining revenue ₹1,657 Cr, PBT ₹863 Cr; steel (Arjas) ₹3,141 Cr / ₹202 Cr; ferroalloys ₹377 Cr / ₹10 Cr; coke & energy ₹142 Cr / ₹10 Cr (FY25 −₹91 Cr).
+  - The "integration" narrative should say mining earns ~105% of group PBT.
+- **sandur-manganese.html — FY26 volumes:** Mn ore 0.59 mt produced / **0.34 mt sold (+93%)**; Fe ore 4.35 mt / **4.10 mt sold**; closing stock carried into FY27.
+- **sandur-manganese.html — Karnataka tax and leases:** no Karnataka mineral-rights-tax contingent is disclosed (contingents total only ~₹176 Cr, mostly forest development tax ₹101 Cr). Note it beside NMDC's ₹15.5k Cr. Leases to 2033 vs ~31 years of iron-ore reserves.
+- **sandur-manganese.html — debt wording:** Sandur's own Q1 FY27 PPT labels 0.27 as both "gross" and "net" debt/equity. Standalone is net cash ₹93 Cr (Mar-26). State "consolidated net debt ~₹375 Cr (gross basis reading)".
+- **ashapura-minechem.html — India vs Guinea split:** FY26 India business ~₹998 Cr revenue / ₹112 Cr EBITDA; Guinea ~₹4,200 Cr / ₹561 Cr; company EBITDA ₹674 Cr (12.9%).
+- **ashapura-minechem.html — tax:** Guinea pays no income tax until the investment is recovered ("at least the next one or two years", CFO, Jun-26). Group current tax ₹29 Cr on ₹445 Cr PBT. Guinean duties rose with price in FY26.
+- **ashapura-minechem.html — misc:**
+  - Guinea iron-ore beneficiation started producing in FY26 (AR).
+  - Kaolin capacity 108,000 tpa (India #2).
+  - The AR's "~15% global bauxite export market" claim looks inflated (~8 mt of ~200 mt Guinean exports) — do not repeat it unqualified.
+  - Q1 FY27 board date was 7-Aug-26 (call 19-Aug).
+- **General (all four primers):**
+  - Section 9D of the MMDR Amendment Act 2026 is reportedly in force from 22-Aug-2026 (Gazette S.O. not seen). It bars *new* state levies but leaves royalty, the additional amount, DMF and premiums untouched, and excludes minor minerals such as bentonite.
+  - India's official FY26 iron-ore output is 313 mt (PIB).
+  - FY26 iron-ore imports were 12.35 mt.
+
+### 4.5.3 Key source URLs (this pass)
+- **Annual reports FY26 (BSE):**
+  - NMDC https://www.bseindia.com/xml-data/corpfiling/AttachHis/3ba2efa9-af6e-4f79-ba34-fa96bf07e0aa.pdf
+  - Sandur https://www.bseindia.com/xml-data/corpfiling/AttachHis/633d26ed-ef79-435e-b0e2-26f85e4f3bd3.pdf
+  - Ashapura https://www.bseindia.com/xml-data/corpfiling/AttachHis/49c5ab95-f4f5-4614-a853-a9fdd74b3e03.pdf
+  - MOIL https://www.bseindia.com/xml-data/corpfiling/AttachHis/5707f013-6ab7-4597-9b02-b10b952088f5.pdf
+- **NMDC Q1 FY27 integrated filing (iXBRL):** https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_187876_15082026015610_iXBRL_WEB.html
+- **NMDC price notices (BSE):**
+  - 3-Apr-21 …/AttachHis/01fb27af-ded6-472e-8491-fdba3d0e4b52.pdf
+  - 12-May-21 …/ec1bb2f3-59f0-4dc8-8e86-2b67f38c9110.pdf
+  - 23-Oct-24 …/1d796f79-6892-4c67-a148-8dc0fb84ded6.pdf
+  - 9-Jan-25 …/2758f8eb-2df5-4a5b-aa87-75431cb2cb73.pdf
+  - BigMint basis switch https://www.bigmint.co/insights/detail/india-nmdc-reverts-to-base-price-model-announces-iron-ore-prices-for-jan26-701830
+- **Ashapura Q4 FY26 transcript (4-Jun-26):** https://www.bseindia.com/xml-data/corpfiling/AttachHis/998baa80-34bc-49fe-8113-073c7e0b724c.pdf
+- **PIB MMDR backgrounder:** https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc2026818962501.pdf · commencement claim: https://www.shankariasparliament.com/current-affairs/mmdr-amendment-act-2026 · Zerodha Daily Brief https://thedailybrief.zerodha.com/p/a-40-year-old-battle-over-indias
+- **Trade and prices:**
+  - BigMint iron-ore imports https://www.bigmint.co/events/bigmint-india-ferrous-week-2026/blog/india-iron-ore-imports-hit-7-year-high-in-fy26-as-domestic-steel-production-rises
+  - BigMint Mn duty/imports https://www.bigmint.co/insights/detail/india-removes-customs-duty-on-high-grade-manganese-ore-imports-758904
+  - BigMint Karnataka e-auctions https://www.bigmint.co/insights/detail/india-karnataka-s-iron-ore-e-auction-sales-rise-by-25-m-o-m-in-may-26-before-monsoon-onset-760260
+  - Iron ore Oct-26 https://www.procurementresource.com/news-and-articles/dalian-iron-ore-falls-to-682.5-yuan-per-tonne
+- **Steel H1 FY27:** https://indianmasterminds.com/news/india-steel-production-85-1-million-tonnes-h1-fy27-consumption-239691/ · NMDC Q1 filing reprint https://indianmasterminds.com/news/nmdc-q1-fy27-results-profit-revenue-contingent-liabilities-224533/
+- **Board-meeting histories:** https://www.indiainfoline.com/company/nmdc-ltd-share-price-board-meeting/corporate-action/12059 and …/company/{moil-ltd, sandur-manganese-iron-ores-ltd, ashapura-minechem-ltd}/corporate-action/board-meeting
+- **Slurry commissioning:** https://telanganatoday.com/nmdc-commissions-rs-5427-crore-iron-ore-project-in-chhattisgarh
+- **IBM bentonite chapter:** https://ibm.gov.in/writereaddata/files/1712755643661693bba90a0bentonite.pdf
+- **Scratch notes for this pass:** /tmp/industrial-minerals-deep/notes.md (PDFs and text in /tmp/industrial-minerals-deep/pdf, raw pages in /raw).
