@@ -1056,6 +1056,23 @@
         "Roll-ups and goodwill"
       ],
       "published": "2026-10-22"
+    },
+    {
+      "name": "Logistics Solution Providers",
+      "slug": "logistics",
+      "file": "logistics.html",
+      "sector": "Logistics",
+      "subsector": "Logistics Solution Provider",
+      "companies": 5,
+      "accent": "#278644",
+      "hook": "New rails, old roads, thin margins: why the finished freight corridor has not yet moved cargo to CONCOR, how Delhivery won the parcel war after buying Ecom Express, why BlackBuck is a fintech wearing a logistics badge, and what EBITDA really means once leases are counted.",
+      "tags": [
+        "DFC and rail modal shift",
+        "Parcel war after Ecom",
+        "BlackBuck's fintech model",
+        "Ind-AS 116, EBITDA and ROCE"
+      ],
+      "published": "2026-10-22"
     }
   ],
   "universe": [
@@ -1705,7 +1722,7 @@
       "sector": "Logistics",
       "sub": "Logistics Solution Provider",
       "companies": 5,
-      "report": null
+      "report": "logistics.html"
     },
     {
       "sector": "Logistics",
