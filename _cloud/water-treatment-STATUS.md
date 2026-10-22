@@ -5,3 +5,4 @@ Runner B. Phase 0 claim.
 Phase 1 dossier subagent running (started 12:45Z). Render-check env ready (playwright 1.56.1 matches preinstalled chromium-1194; 1.47.2 cannot launch it).
 Phase 1 dossier agent hit a usage limit at ~13:00Z; resumed 13:10Z.
 Phase 1 dossier done (122 KB, 13:25Z); aggregates re-added by orchestrator: all match; primer-issues written. Phase 1c deep research next.
+Phase 1c deep-research agent started 13:28Z.
