@@ -39,3 +39,30 @@ Logged by the cloud runner; owner fixes primers locally. Do not edit primers on 
 **General (both)**
 - Neither primer gives a dated discount history or explains that screener "Net Profit" includes NCI. Neither mentions the **7-Oct-2026 repo hike to 5.50%** or GST 2.0 effects on motor (Chola MS tailwind) and health (Care land-grab).
 
+
+### Additional primer issues from the deep-research pass (2026-10-22, holding-cos-industry.md Part 4 §4.0 and §4.5)
+
+
+**cholamandalam-financial-holdings.html**
+- **Cash flows to the holdco:** say CFHL's FY26 income was **₹74.88 Cr of dividends (all from CIFC, ₹2.00/share, plus ₹0.30 Cr from CMS Risk) + ₹10 Cr brand fee from Chola MS + ₹4.9 Cr interest**. **Chola MS has never paid a dividend** in the five years shown and declined again for FY26. Any "dividends from insurance" wording is wrong.
+- **CIC dividend cap:** add that RBI caps CIC dividends at 60% of standalone net profit, a structural ceiling on pass-through (~₹2.25/share max on FY26 PAT).
+- **Stake history:** 44.34% (Mar-25) → 43.76% (Mar-26) → 43.74% (Jun-26), with 37,28,85,889 shares unchanged; dilution comes from CIFC's CCD conversions (₹1,370 Cr FY26, ₹200 Cr Jul-26, ₹430 Cr Oct-26) and the 28-Oct QIP.
+- **SOTP basis:** compute the CIFC stake as shares × price (₹57,089 Cr at ₹1,531), not % × screener m-cap.
+- **Chola MS:** add the solvency history (1.79× FY24 → 2.18× → 1.96× → 1.93×), loss of crop business, motor share slipping (5.25% → 4.86%), the ₹256.6 Cr commission paid to CIFC, Ind AS deferred to 1-Apr-2027, and the new MD & CEO **Rajive Kumaraswami (from 1-Jun-2026)**. The CRISIL AA+ rating carries a "group below majority" sensitivity.
+- **People:** CFHL Manager **Shyam Shankar from 15-Jun-2026** (N. Ganesh until 14-Jun-2026).
+- **Ambadi Investments ~37.7%:** now derivable from AR dividend flows (₹9.20 Cr at ₹1.30), so the primer figure can be marked verified.
+
+**religare-enterprises.html**
+- **Unlock logic:** explain that the IRDAI amendment of 30-Jul-2026 allows REL to merge into Care only if REL has *no other non-insurance business*. The RBI-blocked demerger is therefore the gateway to *both* routes.
+- **Care metrics:** FY26 GDPI ₹10,031 Cr (GI Council), SAHI share 21.9% FY26 → **24.2% H1 FY27**; H1 FY27 growth **+42%**; retail +51%. Star's share is ~40%, not ~33%.
+- **Care valuation anchor:** the Sep-2025 rights at **₹149.04/share** (~₹14,800 Cr for 100%) is a disclosed, primary reference point. Use it alongside peer multiples.
+- **Care capital:** ₹150 Cr rights (Jun-26), **₹200 Cr (Aug-26) + ₹100 Cr (Sep-26) sub-debt at 10%**, Ind-Ra AA-/Stable; target 1.7× solvency; next equity "most probably a rights issue".
+- **Kedaara:** Trishikhar Ventures (Kedaara) is a named Care promoter; 10.61% of Care moved to Kedaara II Continuation Fund (IRDAI approval 16-Jan-2026).
+- **Promoter entities:** list Puran Associates 10.66%, VIC 7.74%, M.B. Finmart 5.65%, Milky 3.01%, Shivani Burman 2.82%, Gyan 0.40% (Mar-26).
+- **Contingent liabilities:** ₹545 Cr standalone, incl. a ₹380 Cr guarantee for Religare Broking and ₹121 Cr of disputed direct tax.
+- **Care Ind AS numbers:** FY26 Ind AS PAT ₹387 Cr (not "~₹389 Cr"); FY25 ₹290 Cr.
+
+**General / subsector page (holding-cos)**
+- Use the GI Council primary series (D1–D4) in place of the [K] industry totals; FY26 industry GDPI ₹3,36,123 Cr.
+- The IRDAI distribution consultation (23-Sep-2026) belongs in "what to watch" for both members: it touches Chola MS, Care and CIFC's fee income.
+

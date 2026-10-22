@@ -965,3 +965,577 @@ All aggregates are **straight sums of the company rows above on one basis** (scr
 - **Warrants:** https://www.outlookbusiness.com/corporate/religare-enterprises-board-approves-1500-cr-fund-raise-burman-family-to-infuse-750-cr · https://www.business-standard.com/markets/news/religare-enterprises-up-6-percent-on-getting-nod-from-bse-nse-for-warrants-issue-125090400495_1.html
 - **Care IPO (older reports):** https://www.angelone.in/news/ipos/religares-health-insurance-business-eyes-rs-2000-cr-ipo · https://news.ventureintelligence.com/public-market/religare-plans-rs2000cr-ipo-for-health-insurance-arm-care
 - **Sibling:** `subsectors/investment-cos.html` (19-Oct-2026) for BHIL/Bajaj Nivesh/TSF discounts, global holdco discounts, CIC/tax rules.
+
+---
+
+# PART 4 — Deep-research supplement (22-Oct-2026)
+
+Second pass, built from primary documents fetched this session: **CFHL Annual Report FY26** (files.cholamandalam.com/cholafhl/CFHL_AR_2026_4bea747567.pdf), **Chola MS General Insurance Annual Report FY26** (…/Chola_MS_Annual_Report_FY_2025_26_c5c2106fb9.pdf), **CIFC Q1 FY27 earnings-call transcript (28-Jul-2026, Kotak-hosted)** and **CIFC investor presentation Jun-2026** (files.cholamandalam.com), **REL Q4 FY26 investor presentation** (BSE, May-2026), **GI Council flash report and segment-wise workbooks for Mar-2026 (FY26) and Sep-2026 (H1 FY27)** (gicouncil.in), **RBI Master Direction – Core Investment Companies, 2016 (updated 1-Aug-2025)** (rbi.org.in), RBI homepage policy rates (22-Oct-2026), **CRISIL rating rationale on Chola MS (16-Apr-2026)**, REL/Care NSE filings (1-Sep and 18-Sep-2026), and a law-firm note on the **IRDAI amendment regulations of 30-Jul-2026** (Majmudar & Partners, 17-Aug-2026). First-pass raw files (REL FY26 AR, both Q1 FY27 decks and transcripts, screener pages, CIFC QIP intimation) were re-read rather than re-fetched. ~30 web calls used.
+
+Tags as in Part 1. **[V]** here means fetched this session from the named primary document. **[V-law]** = a law-firm or rating-agency summary of a primary instrument (the instrument itself was not opened). **[V-snip]** = search-result text only.
+
+## 4.0 Supersedes (corrections to Parts 1–3)
+
+| # | Where in Parts 1–3 | Old value | New value | Source |
+|---|---|---|---|---|
+| S1 | Trap 8, §0, C.1, E2, JSON, §3.1–3.3 | CIFC stake value ₹57,437 Cr (43.74% × screener m-cap ₹1,31,315 Cr) | **₹57,089 Cr** = 37,28,85,889 CIFC shares held × ₹1,531. Screener's ₹1,31,315 Cr implies 85.77 Cr shares, about 0.5 Cr more than the 85.25 Cr that 43.74% implies. The likely cause is that screener counts the ₹630 Cr of CCDs converting in Jul/Oct-2026 [E]. Count CFHL's holding by shares held, not by % × m-cap | CFHL AR FY26 Note 5 (share count) [V]; screener [V] |
+| S2 | C.1, §9.1, §3.1–3.2, JSON | CFHL NAV ₹61,696 Cr (₹60,652–62,731); NAV/sh ₹3,286; discount 59.9% (SOTP), 57.0% (stake only), 54.4% (post-tax) | **NAV ₹61,348 Cr (₹60,303–62,382); NAV/sh ₹3,267; discount 59.7% SOTP / 56.7% stake-only / 54.1% post-tax** (12.5% LTCG on gains over the ₹1,276 Cr cost of the three stakes) | Recomputed [E] from S1 and the AR's investment cost |
+| S3 | §3.2 aggregate | Combined NAV ₹73,014 Cr; discount 56.3% | **₹72,666 Cr; 56.1%** (REL unchanged at ₹11,318 Cr) | [E] |
+| S4 | Trap 10, §1.3 Leak 3, §6, §9.1, C.3, §3.2(b) | "CFHL received ~₹90 Cr dividends"; pass-through ~27% (24/90) | CFHL FY26 revenue ₹89.79 Cr = **dividends ₹74.88 Cr** (CIFC ₹74.58 Cr = ₹2.00/share on 37.29 Cr shares; Chola MS Risk Services ₹0.30 Cr; Carborundum ₹24,000) + **brand fee ₹10.00 Cr from Chola MS** + bank interest ₹4.91 Cr. **Chola MS paid no dividend** in any of the last five years. Dividend paid ₹1.30 × 18.78 Cr = ₹24.41 Cr → **pass-through 33% of dividends received** | CFHL AR FY26 Notes 14 & 20.2 [V]; Chola MS AR five-year table [V] |
+| S5 | Corporate actions ¶1 | CFHL stake in CIFC "~45.4% FY22 [K]; 44.4% FY24 [K]" | **44.34% (31-Mar-2025) → 43.76% (31-Mar-2026) → 43.74% (30-Jun-2026)**. Share count unchanged at 37,28,85,889, so the whole decline is dilution from CCD conversion. FY22/FY24 values stay [K]. After the Oct-2026 CCD tranche (~₹430 Cr) the stake falls to ~43.5% [E] before any QIP | CFHL AR FY26 Note 20.1 footnote & Note 46 (NCI 56.24% vs 55.66%) [V] |
+| S6 | Part 2.1 identity | "Manager & CFO Shyam Shankar" | **N. Ganesh** was Manager & CFO through 14-Jun-2026. **Shyam Shankar** has been Manager since 15-Jun-2026 (5-year term; shareholder approval sought at the 2026 AGM) | CFHL AR FY26 Board's report [V] |
+| S7 | §2.2 table, §H14 | Industry GI premium FY26 "~₹3.2–3.3 lakh Cr [K]" | **₹3,36,123 Cr GDPI, +9.25%** (FY25 ₹3,07,661 Cr). Health ₹1,37,144 Cr (40.8%), motor ₹1,08,216 Cr (32.2%) | GI Council segment-wise report, Mar-2026 [V] |
+| S8 | §5.2 | Star Health "~32–33% of SAHI [K]"; Niva "~17% [K]"; Aditya Birla Health "~10% [K]" | FY26 SAHI GDPI ₹45,866 Cr: **Star 40.6%, Care 21.9%, Niva 18.7%, ABHI 13.6%**, ManipalCigna 4.8%. H1 FY27: Star 37.4%, **Care 24.2%**, Niva 18.1%, ABHI 14.5% | GI Council Mar-26 & Sep-26 [V] |
+| S9 | §2.2, §3 ¶3, CFHL call quote | "Health ~47% of GI industry premium" | GI Council basis: **40.8% of FY26 GDPI, 43.1% of H1 FY27** (crop and credit insurance are in the denominator). The ~47% Chola MS quoted on its call is probably on a narrower base (ex-crop/specialised). State the basis | GI Council [V]; CFHL call [V] |
+| S10 | §5.3, §H11 | Kedaara: "invested 2020, ~₹570 Cr for ~16% [K]" | Kedaara's vehicle **Trishikhar Ventures LLP is a named promoter of Care**. It transferred 66.68% of its Care shares (**10.61% of Care's capital**) to **Kedaara II Continuation Fund** (GIFT City), with IRDAI approval on **16-Jan-2026**. That implies Trishikhar held ~15.9% before the transfer and ~5.3% after [E]. Entry price remains [K] | REL AR FY26, Care secretarial audit report [V] |
+| S11 | §1.1 table, §H11 | Burman entities "e.g., Puran, VIC, MB Finmart, Milky [K]" | Promoter group (31-Mar-2026): **Puran Associates 10.66%, VIC Enterprises 7.74%, M.B. Finmart 5.65%, Milky Investment & Trading 3.01%, Shivani Burman 2.82%, Gyan Enterprises 0.40% = 30.28%**. Change of control on 18-Feb-2025 at 25.16% | REL AR FY26 Note 26.4/26.7 [V] |
+| S12 | §6, §9.1, C.2 | REL look-through PAT ~₹358 Cr with Care Ind AS PAT "~389 [E]" | Care **Ind AS PAT FY26 ₹387 Cr** (FY25 ₹290 Cr), Ind AS PBT ₹519 Cr, tax ₹126 Cr. Look-through = 63.2% × 387 + RFL 138.8 + broking ~23.1 − 87.5% × 18.45 − holdco 33.8 = **₹357 Cr** (P/E 20.1×) | REL Q4 FY26 ppt "Transition bridge" [V] |
+| S13 | §1.2, §F, §H8 | CIFC ratio bars "mapping may be off by one column"; RoA ~2.4% [primer] | Company P&L slide, as % of assets: **FY26 NIM 8.0 / opex 3.1 / credit cost 1.7 / ROA-PBT 3.3 / ROA-PAT 2.5; Q1 FY26 7.8 / 2.9 / 1.8 / 3.1 / 2.3; Q1 FY27 8.2 / 3.0 / 1.5 / 3.7 / 2.8** | CIFC investor presentation Jun-26, slide 18 [V] |
+| S14 | Trap 6, §0, §H7 | CIFC AUM growth "+~20% [E]"; ₹18–21k Cr gap "unexplained" | CIFC uses two labels. **"Total AUM" ₹2,54,392 Cr (+23%)** is the headline and appears in the 15-year table. **"Business AUM" ₹2,33,586 Cr (+22%)** is the sum of the seven product segments. The gap has widened: ₹8,146 Cr (FY24) → ₹15,130 Cr (FY25) → ₹18,296 Cr (FY26) → ₹20,806 Cr (Q1 FY27). Business AUM roughly ties to balance-sheet loans (₹2,25,548 Cr net, plus ECL and assigned pools) [E]. The deck still does not define the difference (§4.4) | CIFC ppt slides 9, 12, 13, 18, 19 [V]; CIFC call [V] |
+| S15 | §2.3, §H12, E10 | Care FY24 GWP "~₹6,900–7,300 Cr indicative"; FY26 n-basis ₹11,417 Cr "from primer" | **FY24 GWP ₹7,022 Cr** (pre-1/n, so n = 1/n). **FY25 ₹8,562 Cr (1/n) / ₹9,223 Cr (n). FY26 ₹10,416 Cr (1/n) / ₹11,417 Cr (n), +24% on n** | REL Q4 FY26 ppt slides 17–18, 41 [V] |
+| S16 | §7.3, §H15 | 100% insurance FDI "Insurance Laws amendment, Dec-2025 [K — verify]" | **Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025 (Act No. 40 of 2025)**: Presidential assent **20-Dec-2025**; most provisions in force **5-Feb-2026**; FDI cap 74% → 100% (s.3AA) with at least one of chair/MD/CEO a resident Indian; FEMA NDI rule changes effective 2-May-2026 | Taxmann / Vinod Kothari summaries [V-snip]; Majmudar note [V-law] |
+| S17 | §7.3, §H5, B2 | IRDAI "non-insurer into insurer" guideline "title/date not verified" | **IRDAI (Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers) (Amendment) Regulations, 2026, notified 30-Jul-2026**. A non-insurance entity may amalgamate into an insurer only if it **holds >50% of the insurer and has no other non-insurance business on the application date**. Consideration must be equity only; fee ₹10 lakh per entity. Share-transfer approval thresholds reset to 5/10/25/50/75%, and passive dilution in a rights issue counts as a transfer | Majmudar & Partners note, 17-Aug-2026 [V-law] |
+| S18 | §7.3, §H6, Part 1 macro | IRDAI consultation paper 23-Sep-2026 "subject not re-read" | Titled **"Recalibrating Economics of Insurance Distribution"**: lower Expenses-of-Management (EoM) limits phased in (general insurers to 20% of GDPI over five years), lower commissions (health new-business ~40% → 15–20%; motor OD 16% → 5% reported), a ban on "dark patterns". Feedback due **25-Oct-2026**. Relevant to Chola MS/Care cost ratios and to CIFC's fee income from distributing insurance (CIFC's CFO flagged the "IRDAI circular" risk on 28-Jul) | ipomarket.in / TeamLease RegTech / Digital Policy Alert [V-snip]; CIFC call [V] |
+| S19 | Part 1 macro, §7.2 | Repo 5.50% [V-sib] | **Policy repo 5.50%, SDF 5.25%, Bank Rate 5.75%, CRR 3.00%** as shown on rbi.org.in, 22-Oct-2026 | RBI homepage [V] |
+| S20 | §7.1 | CIC rules [K]: two-layer cap, ₹100 Cr threshold | Confirmed, with additions: CIC = ≥₹100 Cr assets (alone or with group CICs) **and** raises/holds public funds. ≥90% of net assets in group companies, ≥60% in equity. ANW ≥30% of RWA. Outside liabilities ≤2.5× ANW. **Max two CIC layers (para 7)**. **Dividend payout capped at 60% of net profit (para 21A)**, or 10% if not fully compliant. Prior RBI approval for change of control, a ≥26% shareholding change or >30% board change (para 27). ANW adds **50% of unrealised appreciation on quoted investments at the last audited balance sheet** | RBI MD-CIC 2016, updated 1-Aug-2025 [V] |
+| S21 | §4.3, E7 | Chola MS solvency series FY25 2.18 → FY26 1.96 → Q1 1.93 | Full series: **FY22 1.95, FY23 2.01, FY24 1.79, FY25 2.18, Dec-25 2.04, FY26 1.96, Jun-26 1.93**. The 1.93× is not a record low; FY24 was 1.79× | Chola MS AR FY26 [V]; CRISIL 16-Apr-26 [V] |
+| S22 | Part 2.1 / §3.3 | Chola MS motor mix "cars 48%, CV 42.5%, 2W 9.5%" | That is the Q1 FY27 mix (call). FY26 per AR: **cars 49.26%, CV incl. tractors 40.1%, 2W 10.65%**. Motor share FY26 **5.25%** of industry motor GDPI (CRISIL: 5.3% for 11M); H1 FY27 **4.86%** | Chola MS AR [V]; GI Council [V]; CRISIL [V] |
+| S23 | §7.3, trap 3 | Chola MS figures in CFHL deck are IGAAP (implicit: Ind AS soon) | Chola MS has **taken IRDAI's one-year forbearance; Ind AS from 1-Apr-2027** (board decision in AR; confirmed on 14-Aug call). Both unlisted insurers therefore report IGAAP through FY27 | Chola MS AR [V]; CFHL call [V] |
+| S24 | §12, B2 | REL scheme "expected completion Q1 FY28 [V-snip]" | MD (13-Aug): "fair assessment" that **Q1 FY28 will slip**. Management also denied that RBI had made merger of the Burmans' private NBFCs a condition ("not part of the letter") | REL Q1 call [V] |
+| S25 | §4.3, §12 | Care capital: "₹150 Cr rights Q1; sub-debt planned" | **Sub-debt ₹200 Cr (Aug-2026) + ₹100 Cr (18-Sep-2026; 10% coupon, 10-year, call after 5 years)**. **Ind-Ra IND AA-/Stable** affirmed 31-Aug-2026. The Sep-2025 rights issue priced Care at **₹149.04/share** (2,16,48,543 shares) | REL call [V]; REL filing 1-Sep-26 [V]; Care NSE filing 18-Sep-26 [V]; REL AR Note 9.4 & secretarial audit [V] |
+| S26 | B4, §9.4, §H1 | Care valuation anchors: preipoindia ₹16,000–17,500 Cr (unverified) | **Primary anchor: Sep-2025 rights price ₹149.04 × ~99.6 Cr shares = ₹14,843 Cr for 100%** (5.5× Jun-26 IGAAP NW; 1.30× FY26 n-GWP; 1.48× FY26 GDPI). Rights prices are not arm's-length, but Kedaara subscribed alongside REL. Peer m-cap/GDPI 1.55–1.71× (Niva, Star) on Care's FY26 GDPI ₹10,031 Cr gives ₹15,550–17,150 Cr | REL AR (shares, price) [V]; GI Council [V]; screener [V]; [E] |
+| S27 | §5.3 | MSI stake 40% [V ppt] | Confirmed: **MSI holds 11,95,22,280 of 29,88,05,141 Chola MS shares (40%)**; CFHL 17,92,82,861 (60%) | Chola MS AR [V]; CFHL AR Note 5 [V] |
+| S28 | Part 2.1 identity | Chola MS MD Rajive Kumaraswami | Correct from **1-Jun-2026** (MD & CEO designate from 22-Apr-2026). Predecessor V. Suryanarayanan (MD since Jun-2020) retired 31-May-2026. MSI whole-time director Yuji Uchida from 29-Apr-2026 | Chola MS AR [V] |
+| S29 | §4.3 | CFHL capital ratio 2,359% (Jun-26) | Audited **2,466.10% (Mar-26) vs 1,999.12% (Mar-25)**. The jump reflects 50% of unrealised gains on CIFC at the Mar-26 price (back-solved ≈ ₹1,607/share [E]) | CFHL AR MD&A [V] |
+| S30 | §1.3 Leak 2 | Chola MS "no capital infusion in 13 years" | Confirmed, and the AR adds that the **board again declined a dividend "to conserve resources and augment the solvency ratio"** and moved ₹200 Cr to general reserve. Both partners have taken nil cash out in five years | Chola MS AR [V] |
+
+## 4.1 Verification table — 40 key figures
+
+The last column compares each figure with Parts 1–3. **37 of the 40 are [V] from primary documents fetched or re-read this session** (rows 36–37 add [E] arithmetic on [V] inputs). Rows 4–5 are [E] on [V] inputs and row 40 is [V-law].
+
+| # | Figure | Value | Primary source | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | CFHL price / m-cap (22-Oct-26) | ₹1,316 / ₹24,714 Cr (18.7777 Cr shares) | screener CHOLAHLDNG, re-fetched 22-Oct | [V] | Yes |
+| 2 | CIFC shares held by CFHL | 37,28,85,889 (cost ₹1,009.91 Cr) | CFHL AR FY26 Note 5 | [V] | New |
+| 3 | CFHL stake in CIFC | 44.34% Mar-25 → 43.76% Mar-26 → 43.74% Jun-26 | CFHL AR Note 20.1; Q1 ppt | [V] | Yes; adds history (S5) |
+| 4 | CIFC stake value at ₹1,531 | ₹57,089 Cr | AR shares × screener price | [E on V] | **No**: was ₹57,437 Cr (S1) |
+| 5 | CFHL discount (SOTP / stake-only / post-tax) | 59.7% / 56.7% / 54.1% | [E] on S1–S2 | [E] | Minor revision (S2) |
+| 6 | CFHL FY26 consolidated PAT incl. NCI | ₹5,485.18 Cr | CFHL AR segment note | [V] | Yes |
+| 7 | CFHL FY26 PAT attributable | ₹2,441.3 Cr (5,485.18 − NCI 2,942.61 − 101.28) | CFHL AR Note 46 | [V] | Yes (was EPS-derived) |
+| 8 | Attributable split | CIFC ₹2,290.00 Cr; Chola MS ₹151.93 Cr | CFHL AR Note 46 | [V] | Yes (was E) |
+| 9 | CFHL standalone revenue / dividends | ₹89.79 Cr / ₹74.88 Cr (CIFC 74.58) | CFHL AR Note 14 | [V] | **No**: "~90 dividends" (S4) |
+| 10 | Brand fee from Chola MS | ₹10.00 Cr p.a. | CFHL AR Note 20.2 | [V] | New |
+| 11 | CFHL standalone PAT / DPS | ₹70.41 Cr / ₹1.30 (130%) | CFHL AR | [V] | Yes |
+| 12 | CFHL ANW/RWA (audited) | 2,466.10% Mar-26; 1,999.12% Mar-25 | CFHL AR MD&A | [V] | New (Jun-26 2,359% stays V) |
+| 13 | CIC dividend payout cap | 60% of net profit | RBI MD-CIC para 21A | [V] | New |
+| 14 | CIC two-layer cap | ≤2 layers incl. parent (from 13-Aug-2020) | RBI MD-CIC para 7 | [V] | Yes (was K) |
+| 15 | CIC registration threshold | ≥₹100 Cr assets + public funds | RBI MD-CIC para 3(viii), 4 | [V] | Yes (was K) |
+| 16 | RBI repo | 5.50% | rbi.org.in, 22-Oct-26 | [V] | Yes (was V-sib) |
+| 17 | CIFC AUM Jun-26 | Total ₹2,54,392 Cr (+23%); Business ₹2,33,586 Cr (+22%) | CIFC ppt slides 12/18; call | [V] | Yes; labels fixed (S14) |
+| 18 | CIFC Q1 FY27 disbursements | ₹29,612 Cr (+22%) | CIFC ppt / call | [V] | Yes |
+| 19 | CIFC Q1 FY27 NIM / credit cost / ROA-PBT | 8.2% / 1.5% / 3.7% | CIFC ppt slide 18 | [V] | Yes; mapping fixed (S13) |
+| 20 | CIFC FY26 PAT (standalone) | ₹5,220 Cr; ROE 19.7% | CIFC ppt slide 9 | [V] | Yes |
+| 21 | CIFC CAR Jun-26 | 19.81% (Tier-I 14.81%) | CIFC ppt / call | [V] | Yes |
+| 22 | CIFC QIP | Board 28-Oct-26 to consider QIP + postal ballot; size not stated | CIFC Reg-29 letter 22-Oct-26 | [V] | Yes |
+| 23 | Chola MS FY26 GDPI / GWP | ₹7,762 Cr (−4.46%) / ₹8,904 Cr (+6.9%) | Chola MS AR; GI Council | [V] ×2 | Yes |
+| 24 | Chola MS FY26 PAT / PBT (IGAAP) | ₹331 Cr / ₹445 Cr | Chola MS AR | [V] | Yes |
+| 25 | Chola MS solvency | FY24 1.79, FY25 2.18, FY26 1.96, Jun-26 1.93 | Chola MS AR; CRISIL | [V] | Yes; adds FY24 low (S21) |
+| 26 | Chola MS H1 FY27 GDPI | ₹3,704.5 Cr (+1.6%; share 2.06%) | GI Council flash Sep-26 | [V] | New |
+| 27 | Chola MS commission paid to CIFC FY26 | ₹256.6 Cr (≈2.9% of GWP) | Chola MS AR, related-party note | [V] | New |
+| 28 | MSI stake in Chola MS | 40% (11.95 Cr shares) | Chola MS AR | [V] | Yes |
+| 29 | Industry GDPI FY26 | ₹3,36,123 Cr (+9.25%) | GI Council Mar-26 | [V] | **No**: ~₹3.2–3.3 lakh Cr [K] (S7) |
+| 30 | Industry GDPI H1 FY27 | ₹1,79,713 Cr (+8.9%); SAHI ₹25,586 Cr (+30.7%) | GI Council flash Sep-26 | [V] | New |
+| 31 | Care H1 FY27 GDPI / SAHI share | ₹6,192.7 Cr (+42.2%) / 24.2% | GI Council flash Sep-26 | [V] | Yes (company "24%") |
+| 32 | Star Health share of SAHI | 40.6% FY26; 37.4% H1 FY27 | GI Council | [V] | **No**: 32–33% [K] (S8) |
+| 33 | Care GWP FY26 | ₹11,417 Cr (n) / ₹10,416 Cr (1/n) | REL Q4 FY26 ppt | [V] | Yes (n was primer) |
+| 34 | Care Ind AS PAT FY26 | ₹387 Cr (PBT ₹519 Cr) | REL Q4 ppt bridge | [V] | ~Yes (was 389 E) |
+| 35 | Care solvency Jun-26 | 1.58× (target 1.7×) | REL Q1 ppt / call | [V] | Yes |
+| 36 | Care rights price Sep-2025 | ₹149.04/share; implies ₹14,843 Cr for 100% | REL AR Note 9.4; secretarial audit | [V] (+E) | New anchor (S26) |
+| 37 | Kedaara holding in Care | 10.61% moved to Kedaara II Continuation Fund (IRDAI OK 16-Jan-26); ~15.9% group total pre-move | REL AR (Care secretarial audit) | [V] (+E) | **No**: ~16% [K] confirmed in magnitude only (S10) |
+| 38 | RBI refusal of REL scheme | Letters 6-Aug (REL) / 7-Aug (RFL); no reasons given | REL Q1 call; REL AR | [V] | Yes |
+| 39 | REL warrants | 6,38,29,782 at ₹235 (₹1,499.99 Cr); ₹375 Cr upfront; ₹618 Cr received by 13-Aug; ₹881 Cr due by Mar-2027 | REL AR Note 26.8; Q1 call | [V] | Yes (was partly V-snip) |
+| 40 | IRDAI holdco→insurer amalgamation rule | Notified 30-Jul-2026; >50% stake + no other non-insurance business; equity-only consideration | Majmudar note | [V-law] | New (S17) |
+
+Not counted above but also checked: REL 7-Aug fall to ₹235.40 (−8.2%) remains [V-snip, AngelOne]. CFHL ~₹1,653 in June remains [primer]: the CFHL deck gives only CIFC's ₹1,791.70 on 30-Jun. SBSR Act date [V-snip]. IRDAI 23-Sep paper subject [V-snip]. ICRA AA (Stable) on Chola MS sub-debt [V-snip].
+
+## 4.2 Company deep-dives
+
+### 4.2A Cholamandalam Financial Holdings (CHOLAHLDNG · 504973) and its subsidiaries CIFC and Chola MS
+
+#### (i) Management-commentary digest (paraphrased; source and date given)
+
+**CFHL holdco (CFHL AR FY26, board's report dated 8-May-2026; CFHL Q1 FY27 call, 14-Aug-2026)**
+- CFHL describes itself as earning "primarily … dividend income" from group companies. In FY26 it made **no new investment in group companies** and gave no loans or guarantees. It has no debt and holds ₹109.65 Cr in bank deposits [AR].
+- **Risk register (AR):** financial risk ("risks to raise capital on a timely basis to fund business operations of its group companies" — mitigated "through own/borrowed funds"); governance risk ("risk of loss of dividend income"); market risk ("volatility in CFHL's share price"); reputation risk ("risk of loss of brand fee income"). The AR thus names the two cash lines (CIFC dividend, Chola MS brand fee) as the holdco's own key risks. It also allows that a capital call from a subsidiary could be met with *borrowed* funds, i.e. CFHL could borrow against its CIC leverage headroom [AR].
+- **Dividend:** ₹1.30/share recommended for FY26 (same as FY25). ₹14.09 Cr transferred to the s.45-IC statutory reserve [AR].
+
+**CIFC (Q1 FY27 call, 28-Jul-2026: Vellayan Subbiah, Executive Chairman; Ravindra Kundu, MD & CEO; Arul Selvan, CFO)**
+1. **Growth:** management "still holding" the 22–23% disbursement-growth trajectory. Q2 will be "better or as good"; H2 is harder because of the base. AUM growth of 23% for FY27 is "doable… definitely not going down".
+2. **Credit cost:** the FY27 guidance of ~1.5% net credit loss was **already reached in Q1** (1.5% vs 1.8%) and "will only improve". The ₹200 Cr management overlay is intact and will be reviewed at year-end. PD/LGD recalibration has moved to the December quarter.
+3. **Asset quality seasonality:** Stage-3 rose 25 bp Q4→Q1 (vs 45 bp a year earlier). VF Stage-3 was 3.84% (Mar-26) → 4.05% (Jun-26). Stage-2 + Stage-3 improved 20 bp YoY ("94% current"). Watch-points named: El Niño/below-normal monsoon (92% of LPA forecast), the West Asia conflict, US tariffs.
+4. **Funding/rates:** the CFO assumes **25–50 bp of repo hikes** and sees cost of funds up ~10 bp in H2, flat for the full year vs FY26. Bank loans are ~50% of borrowings; 25–30% of those are MCLR-linked at 1–3-month MCLR with no spread. "NIM will improve"; the CEO hopes to hold **8.2%**. The 7-Oct hike (to 5.50%) is at the low end of that assumption.
+5. **Profitability:** **PBT-ROTA ≥3.5% is the "minimum"** (Q1 3.7%). CSEL PBT-ROA is 3.3% (net credit loss down from 6.7% to 4.7%). SBPL pre-tax ROA 7.9%, NCL ~2.3–2.5%. LAP loan loss ~0.3%. HL pre-tax ROA 4.7% (from 3.9%).
+6. **New lines:** gold loans — **360 more branches in FY27**, AUM from ₹2,143 Cr to **~₹5,000 Cr by Mar-2027**; branch AUM ₹12–15 Cr; yields "on par or slightly better" (~16–17%); 90% of customers new to Chola. VF: ~125 resident locations to become branches in FY27.
+7. **Capital:** ₹1,370 Cr of CCDs converted in FY26, ₹200 Cr in Jul-2026, and **₹430 Cr due Oct-2026** ("not a game changer" on ~₹2.2 lakh Cr of borrowings). Three months later the board called a **QIP meeting for 28-Oct-2026** [Reg-29 letter, 22-Oct].
+8. **Accounting change:** from Q1 FY27, disbursement in LAP/HL/SBPL/used vehicles is recognised at cheque clearance (bank debit) rather than cheque handover. This flatters yields slightly; like-for-like LAP/HL disbursement growth was ~20%.
+9. **IRDAI risk:** the CFO declined to size the impact of an expected IRDAI circular on distribution economics ("let the circular come"). CIFC earns fee income from distributing insurance — Chola MS alone paid it **₹256.6 Cr of commission in FY26** [Chola MS AR]. See S18.
+
+**Chola MS (CFHL Q1 FY27 call, 14-Aug-2026: Rajive Kumaraswami, MD & CEO; Chola MS AR FY26)**
+1. Q1 GDPI ₹1,860 Cr (+2.6%) vs GWP ₹2,130 Cr (+6.7%), a gap driven by reinsurance inward. Growth "below our expectations".
+2. **Motor OD loss ratio "not acceptable"**. Fixes: mix of new vs renewal, the NCB segment, average-claim-severity controls, repair-vs-replace analytics. "It will likely take a couple of quarters."
+3. **Motor TP:** no provision yet for the Supreme Court homemaker-compensation ruling (a review petition is pending, with GI Council involved). Reserves for the new book now carry higher claims-inflation assumptions; the AR says TP reserving is ~10% above peers and raised the FY26 claims ratio by 2.71 pp. **TP premium has not been raised for 3–4 years.**
+4. **Fire:** industry −28% in Q1 (April renewals); Chola MS −15.5%. Management expects "greater pricing discipline" after the June NATCAT losses.
+5. **Health:** re-pricing group accounts, migrating to retail, and an SME focus. Health GDPI fell 27% in H1 FY27 (GI Council).
+6. **Ind AS 117:** IRDAI granted Chola MS a **one-year forbearance; Ind AS from 1-Apr-2027**. No estimate yet of the impact on profit or capital ("by the next quarter… preliminary observations").
+7. **Reinsurance:** capacity "robust" at the start of FY27. New capacity providers ("relatively new… might be okay to burn capital for a couple of years") are keeping rates soft; management expects discipline to return eventually.
+8. **Solvency:** "robust at 1.93×". CRISIL (16-Apr-2026) quotes management's medium-term range of **1.8–2.0×** and notes that both parents are "expected to … contribute to any incremental capital requirement".
+
+#### (ii) KPI tables
+
+**CFHL consolidated — five years (₹ Cr; screener consolidated for revenue/PBT/PAT/EPS/equity; attributable split from CFHL AR FY26 Note 46)** [V]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 14,644 | 18,154 | 25,830 | 33,196 | 39,156 |
+| PBT | 3,044 | 3,824 | 5,200 | 6,400 | 7,326 |
+| PAT incl. NCI | 2,239 | 2,810 | 3,851 | 4,740 | 5,485 |
+| EPS (₹, attributable) | 54.49 | 68.71 | 94.39 | 115.76 | 130.01 |
+| PAT attributable (EPS × 18.78 Cr) | 1,023 | 1,290 | 1,772 | 2,174 | **2,441** (AR: 2,441.3) |
+| of which CIFC / Chola MS (AR) | — | — | — | 1,890 / 291 | **2,290 / 152** |
+| Equity attributable | 6,446 | 7,661 | 10,242 | 12,515 | 15,454 |
+| Group borrowings | 69,229 | 97,191 | 1,34,014 | 1,74,366 | 2,10,400 |
+| ROE (screener) | 17% | 18% | 20% | 19% | 17% |
+
+**CFHL standalone — five years (₹ Cr)** [V screener standalone; FY26 detail from AR]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue (dividends + brand fee + interest) | 84 | 84 | 86 | 86.20 | 89.79 |
+| PAT | 56 | 58 | 62 | 64.40 | 70.41 |
+| Borrowings (year-end) | 100 | 50 | 0 | 0 | 0 |
+| Dividend payout (screener) | 19% | 18% | 17% | 38% | 35% |
+| DPS (₹) | ~0.55 [E] | ~0.55 [E] | 0.55 [E: Ambadi ₹3.89 Cr ÷ 7.08 Cr shares] | 1.30 | 1.30 |
+| ANW/RWA | — | — | — | 1,999% | 2,466% |
+
+Read: FY25 was the year CFHL raised its dividend from ~₹0.55 to ₹1.30 (payout 17% → 38%). At the CIC cap (60% of standalone PAT), the ceiling is **~₹2.25/share (₹42 Cr)**, still a 0.17% yield at ₹1,316 [E].
+
+**CFHL consolidated — eight quarters (₹ Cr)** [V screener; attributable = EPS × 18.7777 Cr shares, E]
+
+| ₹ Cr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 8,090 | 8,489 | 8,913 | 9,296 | 9,461 | 9,949 | 10,366 | 11,114 |
+| Financing margin % | 18% | 17% | 21% | 18% | 17% | 18% | 20% | 21% |
+| PBT | 1,513 | 1,471 | 1,862 | 1,696 | 1,632 | 1,863 | 2,142 | 2,400 |
+| PAT incl. NCI | 1,125 | 1,093 | 1,362 | 1,260 | 1,214 | 1,386 | 1,626 | 1,789 |
+| EPS ₹ | 27.99 | 25.89 | 32.68 | 30.81 | 29.29 | 33.32 | 36.59 | 42.92 |
+| PAT attributable [E] | 526 | 486 | 614 | 579 | 550 | 626 | 687 | 806 |
+| Non-CIFC PAT (CFHL − CIFC cons.) [E proxy for Chola MS + holdco] | 157 | 5 | 102 | 122 | 54 | 96 | **−19** | 133 |
+| Standalone revenue | 29.13 | 2.96 | 51.53 | 3.65 | 30.07 | 3.69 | 52.38 | 4.36 |
+| Standalone PAT | 23.52 | 1.89 | 37.60 | 2.11 | 27.16 | 2.66 | 38.48 | 4.38 |
+
+Read: standalone income arrives twice a year (Sep and Mar quarters, matching CIFC's dividend timing). The non-CIFC line, an Ind AS proxy for Chola MS, turned **negative in Q4 FY26 (−₹19 Cr)** before recovering to ₹133 Cr in Q1 FY27 (CFHL chart: Chola MS ₹128 Cr + others ₹5 Cr).
+
+**CIFC — five years (company Ind AS, standalone; ₹ Cr)** [V CIFC ppt Jun-26, 15-year table; ROE from slide 9]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Disbursements | 35,490 | 66,532 | 88,725 | 1,00,869 | 1,11,642 |
+| Total AUM | 82,904 | 1,12,782 | 1,53,718 | 1,99,876 | 2,42,630 |
+| Net income | 5,840 | 7,229 | 9,986 | 13,570 | 17,071 |
+| Opex | 2,069 | 2,780 | 4,082 | 5,339 | 6,574 |
+| Loan losses & provisions | 880 | 850 | 1,322 | 2,494 | 3,536 |
+| PBT | 2,891 | 3,600 | 4,582 | 5,737 | 6,961 |
+| PAT | 2,147 | 2,666 | 3,423 | 4,259 | 5,220 |
+| Income / assets % | 13.7 | 13.8 | 14.4 | 14.8 | 14.8 |
+| Cost of funds / assets % | 5.8 | 6.1 | 6.9 | 7.1 | 6.8 |
+| Net income margin % | 7.9 | 7.7 | 7.5 | 7.7 | 8.0 |
+| Opex / assets % | 2.8 | 3.0 | 3.1 | 3.0 | 3.1 |
+| Credit cost / assets % | 1.2 | 0.9 | 1.0 | 1.4 | 1.6 (slide 18: 1.7) |
+| ROE % | 20.4 [screener 20] | 20 | 20.6 | 19.8 | 19.7 |
+| Screener cons. revenue / PAT | 10,148 / 2,154 | 12,884 / 2,665 | 19,163 / 3,420 | 25,890 / 4,263 | 31,120 / 5,233 |
+
+**CIFC — eight quarters (screener consolidated; GS3 from CFHL/CIFC decks)** [V]
+
+| ₹ Cr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 6,255 | 6,733 | 7,046 | 7,267 | 7,491 | 7,898 | 8,417 | 8,856 |
+| Interest expense | 3,059 | 3,275 | 3,365 | 3,468 | 3,517 | 3,646 | 3,753 | 4,007 |
+| Financing margin % | 21% | 21% | 24% | 21% | 20% | 22% | 25% | 25% |
+| PBT | 1,305 | 1,466 | 1,699 | 1,532 | 1,566 | 1,736 | 2,143 | 2,224 |
+| PAT | 968 | 1,088 | 1,260 | 1,138 | 1,160 | 1,290 | 1,645 | 1,656 |
+| Gross Stage-3 % | 2.83 | 2.91 | 2.81 | 3.16 | 3.35 | 3.36 | 3.05 | 3.29 |
+
+CIFC operating snapshot Q1 FY27 vs Q1 FY26 [V ppt slide 18]: income ₹8,933 Cr vs ₹7,331 Cr; finance charges ₹4,003 Cr vs ₹3,466 Cr; net income ₹4,930 Cr (+28%); opex ₹1,787 Cr (+23%); net credit losses ₹922 Cr (+5%); PBT ₹2,220 Cr (+45%); PAT ₹1,654 Cr (+46%); cost/net income 36.3% vs 37.6%; Stage-3 PCR 45.7% vs 43.7%. Network: 1,820 branches (87% in Tier III–VI towns), 75,882 employees, 51.6 lakh customers; ~30,000 collection staff (call).
+
+**Chola MS General Insurance — five years (IGAAP; ₹ Cr)** [V Chola MS AR FY26 five-year table]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| GDPI | 4,824 | 6,156 | 7,533 | 8,124 | 7,762 |
+| GWP | 4,854 | 6,200 | 7,598 | 8,328 | 8,904 |
+| Net premium income | 3,572 | 4,610 | 5,508 | 5,998 | 6,600 |
+| Net incurred claims | 2,416 | 2,863 | 3,741 | 4,257 | 5,361 |
+| Commission (net) | 122 | 122 | 1,152 | 1,399 | 1,442 |
+| Operating expenses | 1,334 | 1,636 | 845 | 810 | 804 |
+| Operating profit | 595 | 586 | 378 | 657 | 227 |
+| PBT | 106 | 264 | 444 | 681 | 445 |
+| PAT | 77 | 199 | 331 | 507 | 331 |
+| Net worth | 1,962 | 2,160 | 2,492 | 2,999 | 3,329 |
+| BVPS / EPS (₹) | 65.65 / 2.58 | 72.30 / 6.65 | 83.39 / 11.09 | 100.36 / 16.97 | 111.43 / 11.07 |
+| Investment yield | 6.84% | 6.55% | 7.09% | 7.48% | 7.70% |
+| Solvency (×) | 1.95 | 2.01 | 1.79 | 2.18 | 1.96 |
+| Dividend | nil | nil | nil | nil | nil |
+| RoNW (PAT/avg NW) [E] | ~4% | ~9.6% | ~14.2% | ~18.5% | ~10.4% |
+
+Notes: the commission/opex reclassification between FY23 and FY24 follows IRDAI's 2023 EoM regulations (commission caps replaced by an overall EoM limit) [K]. The FY22–FY23 PBT includes large "contribution from shareholders towards excess EoM" charges (₹403 Cr in FY23) [V AR].
+
+**Chola MS — quarters (₹ Cr; mixed sources as tagged)**
+
+| | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|
+| GDPI | 1,812 [V ppt] | 1,835 [E: GI Council H1 3,647.4 − Q1] | 2,067 [E: CRISIL 9M 5,714 − H1] | 2,048 [E: FY 7,762 − 9M] | 1,860 [V] | **1,845 [E: GI Council H1 3,704.5 − Q1]; +0.5% YoY** |
+| PAT (IGAAP) | 107 [V] | 150 combined for Q2+Q3 [E: CRISIL 9M 257 − 107] | (in Q2) | 74 [E: 331 − 257] | 86 [V] | due 6-Nov |
+| Combined ratio | 114.8% | — | 9M: 116.2% [CRISIL] | FY: 115.2% | 120.4% | — |
+| Solvency | 2.17× | — | 2.04× [CRISIL] | 1.96× | 1.93× | — |
+
+Market position from GI Council [V]: overall share 2.31% FY26 → **2.06% H1 FY27** (2.21% H1 FY26). Motor GDPI ₹5,681.8 Cr FY26 (5.25% of industry motor; OD ₹2,590.6 Cr, TP ₹3,091.2 Cr); H1 FY27 motor ₹2,628.9 Cr (+4.1% vs industry +13.1%; share 4.86%). Health ₹887 Cr FY26 (−0.3%), ₹340 Cr H1 FY27 (−27.0%). Crop business lost in FY26 (crop/other ₹46.8 Cr, −₹615.6 Cr YoY).
+
+#### (iii) Annual-report findings
+
+**CFHL standalone (AR FY26)** [V]
+- **Related parties:** dividends received from CIFC ₹74.58 Cr (FY25 ₹74.58 Cr) and CMS Risk Services ₹0.30 Cr. **Brand fee from Chola MS ₹10.00 Cr** (both years). Deputation charges for the KMP to CIFC ₹1.56 Cr. **Dividends paid to Ambadi Investments ₹9.20 Cr** (FY25 ₹3.89 Cr) and to the rest of the promoter group ₹2.03 Cr. CSR to AMM Foundation ₹0.07 Cr. Ambadi is listed as "entity having significant influence"; ₹9.20 Cr ÷ ₹1.30 ⇒ **~7.08 Cr shares ≈ 37.7% of CFHL** [E]. This confirms the primer's figure, which was not re-verified in the first pass.
+- **Contingent liabilities (standalone):** income tax ₹1.36 Cr; GST ₹0.35 Cr. Negligible.
+- **Consolidated contingent liabilities:** income tax ₹30.93 Cr; sales tax ₹17.41 Cr; service tax/GST **₹231.19 Cr**; disputed third-party claims ₹219.66 Cr (FY25 ₹164.48 Cr). Total ~₹500 Cr, under 2% of attributable equity. Chola MS Risk Services' auditors made its uncertain tax positions (₹7.26 Cr) a key audit matter.
+- **Standalone debt:** nil since FY24 (₹201 Cr in FY20). Deposits over 3 months ₹109.65 Cr.
+- **Capacity:** the "capacity" of a CIC is its regulatory headroom. ANW/RWA 2,466% vs a 30% minimum; outside liabilities ₹4.89 Cr vs 2.5× ANW. Under the leverage rule CFHL could borrow up to ~₹77,000 Cr (on the Jun-26 ANW of ₹30,813 Cr). The binding limits are the **two-layer rule** (Ambadi above CFHL) and the 90%-in-group-companies test.
+- **Top risks (AR):** capital calls from group companies, loss of dividend or brand-fee income, share-price volatility, compliance. NBFC and insurance risks dominate on a consolidated basis.
+
+**Chola MS (AR FY26)** [V]
+- **Related parties with the Murugappa group:** **commission paid to CIFC ₹256.6 Cr**; premium from CIFC ₹61.8 Cr; interest income from CIFC instruments ₹65.1 Cr; **investments in CIFC securities ₹736 Cr** (≈3.6% of the ₹20,000+ Cr book); commission to Chola Insurance Distribution Services (group corporate agent) ₹225.6 Cr; management expenses to Chola People & Marketing Services ₹181 Cr. MSI-group fronting and reinsurance (MS First Capital etc.) are small. Read: the "captive distribution" synergy has a price. Roughly 2.9% of Chola MS's GWP goes to CIFC as commission, a cash flow that benefits CIFC's (43.76%-owned) P&L at the expense of Chola MS's (60%-owned) one. For CFHL the net effect is near-neutral (−60% × 256.6 + 43.76% × 256.6 ≈ −₹42 Cr pre-tax) [E].
+- **Contingent liabilities:** total **₹160.3 Cr** (FY25 ₹187.7 Cr), mostly GST: a DGGI order disallowing input tax credit, ₹120.5 Cr including interest/penalty (₹17.9 Cr paid under protest; writ before the Bombay HC); audit and assessment appeals ₹35.9 Cr; property tax ₹3.1 Cr.
+- **Debt:** subordinated debt ₹100 Cr (CRISIL AA+/Stable; ICRA AA/Stable [V-snip]); nothing else.
+- **Capacity:** solvency 1.96× (Mar-26), 1.93× (Jun-26); NW ₹3,329 Cr; total assets ₹21,352 Cr; policyholder funds ₹16,203 Cr; investment yield 7.70%; equities <7% and G-secs ~34% of the book (CRISIL).
+- **Risks (AR/CRISIL):** motor concentration (~72% of GWP vs ~50% for peers); motor TP court-award inflation; OD discounting; loss of crop tenders; group-health pricing; Ind AS 117 and RBC transition; the IRDAI EoM/commission consultation. CRISIL rating sensitivity: **"reduction in ownership by the group below a majority holding"**. This matters if MSI ever uses the 100% FDI room to buy more.
+
+**CIFC (call/ppt)** [V]: management overlay ₹200 Cr; ALM shows no negative cumulative mismatch (management, rebutting an analyst who read ~−10% in the AR's regulatory ALM column); disbursement-recognition change (above); CIFC is NBFC-UL and its AR treats CFHL as an "associate" (Companies Act).
+
+### 4.2B Religare Enterprises (RELIGARE · 532915) and its subsidiaries Care Health, RFL, RBL and RHDFC
+
+#### (i) Management-commentary digest (REL Q1 FY27 call, 13-Aug-2026: Arjun Lamba, MD; Pratul Gupta, Group CFO; Ajay Shah, Care MD & CEO; Ambrish Jindal, Care CFO; Srinivasan Karthik, RFL MD & CEO. Supplemented by the REL AR FY26 and Q4 FY26 deck)
+1. **Demerger/RBI:** the RBI letter is "brief and simple… no reasoning has been attached". REL is "engaging with the regulator… to assuage them and understand what the regulator wants us to do". **"We are not looking at anything else currently."** No timeline; Q1 FY28 completion will slip ("a fair assessment").
+2. **Alternatives:** the MD cited "a new IRDAI guideline… [on] the collapse of a non-insurer into an insurer" as "just come out… we are evaluating". This is the **30-Jul-2026 amendment (S17)**, which requires the holdco to have **no other non-insurance business**. Under that rule **the blocked demerger (moving RFL/RBL/RHDFC out of REL) is the precondition, not an alternative**: REL cannot collapse into Care while it still owns the NBFC and the broker. "RBI permission is needed whether we do this demerger or the other one." A Care-only demerger is "not under consideration at this particular point of time".
+3. **Rumoured RBI condition** (analyst: that RBI's 2024 change-of-control approval required the Burmans to merge their private NBFCs into Religare): management said this "was not part of the letter and we are not aware of this". It remains an open hypothesis for the refusal [E].
+4. **Care growth:** 37% GWP growth (n), retail +45%. "A land-grab moment… after GST relaxation." Fresh business is growing faster than renewals; customer count is growing faster than ticket size; growth is concentrated in Tier 2/3; the port-in share has fallen "drastically". **No full-year growth guidance.**
+5. **Care profitability:** Ind AS CISR target **~100% "in next two years"** (102.7% in Q1; Q1 is seasonally high because corporate-wellness claims are paid upfront; FY26 went from 103% in Q1 to 101.1% for the year).
+6. **Care capital:** solvency 1.58× (Jun-26). **₹200 Cr sub-debt raised Aug-2026** (plus ₹100 Cr on 18-Sep-2026, at a 10% coupon). Target **1.7×**. Investment leverage 4.3× to fall to **~3.7× by FY27-end** with fresh equity. **The next equity raise will be "most probably a rights issue"**; REL takes up more than its share each time (stake 62.84% → 63.20%). Of the ₹600 Cr of warrant money earmarked for Care, ₹376 Cr has been infused (Sep-2025 + Jun-2026 rights); the rest follows warrant conversion. Kedaara (the "other promoter") has "put money in whenever money is required".
+7. **Lending businesses:** RFL has ~₹1,000 Cr of capital and RHDFC ~₹200 Cr, with **₹250 Cr more to be committed to RHDFC**. Ambition: a **₹10,000–15,000 Cr book on ₹1,500–2,000 Cr of capital** (no timeline; the AOPs are being written by CEOs who joined 1–3 months earlier). RFL's written-off pool is **₹350–400 Cr**; recoveries run ~₹20 Cr a quarter and should be largely done "in the next two years", a declining source of profit.
+8. **Warrants:** ₹375 Cr received upfront (Sep-2025); **₹618 Cr received by 13-Aug-2026; ₹881 Cr due by Mar-2027**.
+9. **Accounting:** REL consolidates Care on IGAAP 1/n until Care adopts Ind AS (one-year forbearance). The Q1 consolidated loss (−₹46.9 Cr) is "mainly due to different reporting standards".
+
+#### (ii) KPI tables
+
+**REL consolidated — five years (₹ Cr)** [V screener consolidated]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue ("sales") | 3,227 | 4,679 | 6,266 | 7,394 | 8,462 |
+| Operating profit | −364 | 483 | 368 | 356 | 156 |
+| Other income | 137 | 3,473 (RFL OTS write-back) | 263 | 12 | 32 |
+| Interest | 750 | 641 | 112 | 63 | 53 |
+| PBT | −1,031 | 3,259 | 448 | 243 | 87 |
+| PAT incl. NCI | −1,539 | 3,169 | 347 | 183 | 73 |
+| EPS ₹ | −48.43 | 95.24 | 7.06 | 3.77 | 2.58 |
+| Equity + reserves | −982 | 2,058 | 2,343 | 2,516 | 2,908 |
+| Borrowings | 4,878 | 841 | 443 | 233 | 493 |
+| Investments | 3,836 | 5,094 | 6,718 | 8,700 | 11,203 |
+| Promoter holding (Mar) | 0.00% | 0.00% | 0.00% | 25.67% | 30.27% |
+
+**REL standalone — five years (₹ Cr)** [V screener standalone; FY26 from REL AR/ppt]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 28 | 32 | 23 | 40 | 8 (total income 16.4 incl. other) |
+| PAT | −26 | −15 | −65 | −38 | −34 |
+| Borrowings | 93 | 219 | 140 | 44 | 6 |
+| Investments (cost) | 2,284 | 2,265 | 2,261 | 2,206 | 2,485 |
+| Equity | 2,138 | 2,147 | 2,123 | 2,090 | 2,467 |
+
+**REL consolidated — eight quarters (₹ Cr)** [V screener]
+
+| ₹ Cr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,952 | 1,668 | 2,042 | 1,861 | 2,077 | 2,056 | 2,467 | 2,353 |
+| Operating profit | 76 | −61 | 237 | 15 | 67 | −95 | 143 | −49 |
+| PBT | 67 | −79 | 222 | 6 | 57 | −103 | 127 | −77 |
+| PAT incl. NCI | 69 | −63 | 151 | 8 | 46 | −77 | 96 | −47 |
+| EPS ₹ | 1.55 | −1.30 | 2.98 | 0.31 | 1.17 | −1.36 | 2.47 | −0.77 |
+| Standalone PAT | 9.41 | −13.37 | −17.74 | −6.15 | −3.97 | −11.31 | −12.36 | −9.62 |
+
+Read: REL's consolidated P&L follows Care's 1/n seasonality. Q3 and Q1 are loss quarters (claims-heavy, premium deferred) and Q4 is the profit quarter. Sum any four consecutive quarters and do not annualise one.
+
+**Care Health Insurance — five years (₹ Cr)** [V REL Q4 FY26 ppt slides 17–18, 41; GI Council for GDPI; FY22–FY23 not in the fetched documents]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| GWP, full premium (n) | n/a | n/a | 7,022 | 9,223 | 11,417 |
+| GWP, 1/n (statutory) | n/a | n/a | 7,022 | 8,562 | 10,416 |
+| GDPI (GI Council, 1/n) | n/a | n/a | n/a | 8,297 | 10,031 |
+| NEP | n/a | n/a | 5,329 | 6,347 | 7,256 |
+| Investment income | n/a | n/a | 411 | 540 | 693 |
+| PBT, IGAAP 1/n | n/a | n/a | 410 | 208 | 18 |
+| PBT, IGAAP n | — | — | 410 | 390 | 539 |
+| PBT / PAT, Ind AS | — | — | — | 388 / 290 | 519 / 387 |
+| PAT, IGAAP 1/n | n/a | n/a | 305 | 155 | 12 |
+| Combined ratio, 1/n | — | — | — | 102.8% | 106.7% |
+| Net worth (IGAAP) | n/a | n/a | 2,170 | 2,331 | 2,666 |
+| Investments | n/a | n/a | 6,633 | 8,399 | 10,944 |
+| Solvency | n/a | n/a | n/a | 1.68× | 1.68× |
+| SAHI share (GDPI) | — | — | — | 21.6% [E: 8,297/38,411] | 21.9% |
+
+**Care Health — quarters (IGAAP 1/n; ₹ Cr)** [V REL Q1 FY27 & Q4 FY26 ppts; Q2 FY26 by subtraction, E]
+
+| | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|---|
+| GWP (1/n) | 2,363 | 2,136 | 2,414 [E] | 2,621 | 3,245 | 3,028 (n: 3,247) | GDPI ≈ 3,165 [E: GI Council H1 6,192.7 − Q1 GWP]; **+43% YoY** |
+| PBT | 194 | −19 | 42 [E] | −112 | 107 | −131 (Ind AS +163) | — |
+| PAT | 144 | −15 | — | −84 | 79 | −98 (Ind AS +122) | — |
+| Combined ratio | 96.7% | 109.9% | — | 111.1% | 99.9% | 110.7% | — |
+| Solvency | 1.68 | 1.66 | — | 1.70 | 1.68 | 1.58 | after ₹300 Cr sub-debt: ~1.7 [E] |
+| Investments | 8,399 | 8,772 | — | 10,246 | 10,944 | 11,751 | — |
+
+H1 FY27 Care GDPI (GI Council) ₹6,192.7 Cr (+42.2%). Retail health ₹4,048.8 Cr (+50.7%) is **12.8% of all retail health written in India**; group ₹1,930.3 Cr (+28.6%). September 2026 alone: ₹1,041.6 Cr (+44.0%), so growth did not fade at the GST-exemption anniversary (22-Sep-2026) [V].
+
+**Religare Finvest (RFL) and Religare Housing (RHDFC)** [V REL Q4 FY26 & Q1 FY27 ppts; AR AOC-1]
+- RFL net worth: ₹760.5 Cr (Q4 FY25) → 781.6 → 811.8 → 812.9 → **₹898.8 Cr (Q4 FY26)** → ~₹914 Cr (Q1 FY27). CRAR 160.9% → 261.9% (Q4 FY26) → 238.4% (Q1 FY27). NNPA 0.8–1.4%. FY26 PAT ₹138.83 Cr (FY25 ₹23.8 Cr), mostly provision write-backs/recoveries (₹93.7 Cr).
+- RHDFC: AUM ₹250.5 Cr (Q4 FY25) → ₹243.2 Cr (Q4 FY26) → ₹247 Cr; GNPA 3.5–4.7%; CRAR ~130–142%; FY26 PAT −₹18.45 Cr; REL's effective stake 87.5% via RFL.
+- Religare Broking: FY26 PAT ₹14.39 Cr standalone (AOC-1); group broking incl. Religare Commodities (₹6.44 Cr) and Religare Digital (₹2.28 Cr) ≈ ₹23.1 Cr (matches Part 2). REL guarantees ₹380 Cr of RBL bank lines (₹280.7 Cr drawn).
+
+#### (iii) Annual-report findings (REL AR FY26) [V]
+- **Promoters (Mar-26):** Puran 10.66%, VIC 7.74%, M.B. Finmart 5.65%, Milky 3.01%, Shivani Burman 2.82%, Gyan 0.40% (30.28%). Change of control on 18-Feb-2025 at 25.16% (8.32 Cr shares).
+- **Warrants:** 6,38,29,782 at ₹235 (₹1,499.99 Cr); EGM of 8-Aug-2025 approved with 83.79%; ₹375 Cr upfront (Sep-2025); 19,85,816 warrants converted by four promoter entities in Q3 FY26 (₹35 Cr; shares allotted 5-Dec-2025).
+- **Care holding:** 62,94,07,920 shares (63.20%) at a **cost of ₹1,714.37 Cr** (FY25: 61,22,24,375 shares, ₹1,458.27 Cr). FY26 investment ₹256.10 Cr, of which the rights entitlement was 1,71,83,545 shares at **₹149.04** (₹10 + ₹139.04 premium). Care's rights issue (board 5-Sep-2025) was up to 2,16,48,543 shares (~₹322.6 Cr) [V]. Implied Care share count ~99.6 Cr [E].
+- **Kedaara:** Trishikhar Ventures LLP (a Care promoter) moved 10.61% of Care to Kedaara II Continuation Fund (IRDAI approval 16-Jan-2026). A continuation-fund transfer usually signals the sponsor extending its hold period rather than exiting; it also creates a secondary-market price for Care that is not disclosed [E].
+- **Related-party / promoter funding:** REL borrowed ₹10 Cr short-term from promoter entity **Milky Investment & Trading** (27-Mar-2025; repaid 29-May-2025) and ₹50 Cr from **JM Financial Products at 12%** (May-2025; repaid 16-Sep-2025 after the warrant money arrived). Also ₹25 Cr from group company Religare Commodities (repaid Sep-2025). Before the warrant cash, REL was funding itself with short-term promoter and NBFC loans.
+- **Standalone contingent liabilities ₹545.0 Cr** (FY25 ₹494.9 Cr): corporate guarantee to banks for Religare Broking **₹380 Cr** (₹280.74 Cr utilised); disputed direct tax ₹120.82 Cr; indirect tax ₹3.25 Cr (a VAT order inherited from Religare Comtrade); **unpaid call on equity shares ₹40.78 Cr**; letter of comfort ₹0.16 Cr. Consolidated contingent items include large bank guarantees in broking (exchange margins).
+- **Subsidiary results (AOC-1):** RFL PAT ₹138.83 Cr; RBL ₹14.39 Cr; Religare Commodities ₹6.44 Cr; Religare Digital ₹2.28 Cr; RHDFC −₹18.45 Cr; **Care −₹54.57 Cr PAT and −₹107.95 Cr OCI** on the Ind AS-for-consolidation basis used in the AR. This differs from both the IGAAP 1/n (+₹12 Cr) and the Care-reported Ind AS 117 (+₹387 Cr) figures, a **fourth** Care profit number. Use ₹387 Cr (economic) and ₹12 Cr (statutory) and footnote the AOC-1 figure.
+- **Regulatory history (unchanged, verified):** RBI dividend ban (5-Apr-2019; 19-Dec-2019); RFL CAP lifted 23-Jul-2025; Delhi HC quashed the fraud classification 22-Jul-2025; RBI approved new directors 8-Jul-2025.
+- **Top risks:** regulator dependence (RBI/IRDAI for every restructuring); Care solvency and capital calls; Ind AS transition; legacy litigation (CLB/Oscar matters); execution of the lending restart.
+- **Capacity/debt:** REL standalone borrowings ₹6 Cr (Mar-26). Consolidated borrowings ₹493 Cr, of which Care sub-debt ₹100 Cr (Mar-26; ₹400 Cr after Aug/Sep-2026 [E]) and broking working-capital lines (~₹281 Cr guaranteed).
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. Non-life industry GDPI by segment, FY25 → FY26 (₹ Cr)** [V GI Council segment-wise, Mar-2026; provisional; long-term premium on 1/n since 1-Oct-2024, so growth rates are not like-for-like]
+
+| Segment | FY25 | FY26 | Growth | Share FY26 |
+|---|---|---|---|---|
+| Health (incl. group, government, overseas) | 1,18,858 | 1,37,144 | +15.4% | 40.8% |
+| Motor total | 99,093 | 1,08,216 | +9.2% | 32.2% |
+| – Motor OD | 40,353 | 43,988 | +9.0% | 13.1% |
+| – Motor TP | 58,740 | 64,228 | +9.3% | 19.1% |
+| Fire | 24,265 | 27,524 | +13.4% | 8.2% |
+| Engineering | 6,015 | 6,801 | +13.1% | 2.0% |
+| Marine | 5,504 | 5,820 | +5.7% | 1.7% |
+| Personal accident | 8,595 | 11,604 | +35.0% | 3.5% |
+| Liability | 5,469 | 5,993 | +9.6% | 1.8% |
+| Crop + credit + other misc | 38,764 | 31,931 | −17.6% | 9.5% |
+| **Industry total** | **3,07,661** | **3,36,123** | **+9.25%** | 100% |
+
+**D2. Industry GDPI H1 FY27 (Apr–Sep 2026) vs H1 FY26 (₹ Cr)** [V GI Council flash & segment-wise, Sep-2026]
+
+| | H1 FY26 | H1 FY27 | Growth |
+|---|---|---|---|
+| Industry total | 1,64,988 | 1,79,713 | +8.9% |
+| Industry ex-specialised (AIC, ECGC) | 1,57,610 | 1,76,105 | +11.7% |
+| Private multi-line insurers | 1,38,032 | 1,50,519 | +9.1% |
+| Standalone health insurers (SAHI) | 19,578 | 25,586 | **+30.7%** |
+| Health — all insurers | 64,142 | 77,494 | +20.8% |
+| – Retail health | 24,029 | 31,707 | **+32.0%** |
+| – Group health | 35,486 | 40,908 | +15.3% |
+| Motor | 47,850 | 54,142 | +13.1% |
+| Fire | 17,405 | 12,769 | **−26.6%** |
+| AIC (crop) | 6,704 | 2,867 | −57.2% |
+
+**D3. SAHI market shares (GDPI)** [V GI Council]
+
+| Insurer | FY25 ₹ Cr | FY26 ₹ Cr | FY26 growth | FY26 share | H1 FY27 ₹ Cr | H1 growth | H1 FY27 share |
+|---|---|---|---|---|---|---|---|
+| Star Health | 16,716 | 18,606 | +11.3% | 40.6% | 9,562 | +19.3% | 37.4% |
+| **Care Health** | 8,297 | 10,031 | +20.9% | 21.9% | 6,193 | **+42.2%** | **24.2%** |
+| Niva Bupa | 6,762 | 8,586 | +27.0% | 18.7% | 4,634 | +33.4% | 18.1% |
+| Aditya Birla Health | 4,822 | 6,238 | +29.4% | 13.6% | 3,703 | +36.1% | 14.5% |
+| ManipalCigna | 1,798 | 2,213 | +23.1% | 4.8% | 1,324 | +37.1% | 5.2% |
+| Others (Galaxy, Narayana, Prudential HCL) | 17 | 192 | — | 0.4% | 171 | — | 0.7% |
+| **SAHI total** | **38,411** | **45,866** | **+19.4%** | 100% | **25,586** | **+30.7%** | 100% |
+
+**D4. Chola MS vs industry — growth and share (GDPI)** [V GI Council; Chola MS AR]
+
+| Period | Chola MS GDPI ₹ Cr | Growth | Industry growth | Overall share | Motor share |
+|---|---|---|---|---|---|
+| FY22 | 4,824 | — | — | — | — |
+| FY23 | 6,156 | +27.6% | — | — | — |
+| FY24 | 7,533 | +22.4% | — | — | — |
+| FY25 | 8,124 | +7.8% | — | 2.64% [E: 8,124/3,07,661] | — |
+| FY26 | 7,762 | −4.5% | +9.25% | 2.31% | 5.25% |
+| H1 FY27 | 3,705 | +1.6% | +8.9% | 2.06% | 4.86% |
+
+**D5. Listed insurer valuation benchmarks, 22-Oct-2026** [V screener (m-cap; equity Mar-26) + GI Council FY26 GDPI; E ratios]
+
+| Insurer | M-cap ₹ Cr | NW Mar-26 ₹ Cr | P/B (Mar-26 NW) | FY26 PAT ₹ Cr | P/E FY26 | FY26 GDPI ₹ Cr | M-cap / GDPI | Screener ROE |
+|---|---|---|---|---|---|---|---|---|
+| ICICI Lombard | 81,743 | 16,633 | 4.91× (screener 4.33× on latest BV) | 2,772 | 29.5× | 28,712 | 2.85× | 16.6% |
+| Go Digit | 25,118 | 4,662 | 5.39× | 544 | 46.2× | 9,846 | 2.55× | 12.2% |
+| Star Health | 31,862 | 7,575 | 4.21× | 557 | 57.2× | 18,606 | 1.71× | 7.6% |
+| Niva Bupa | 13,298 | 3,786 | 3.51× | 131 | 101× | 8,586 | 1.55× | 3.5% |
+| **Care (implied by REL price)** | ~9,450 [E] | 2,718 (Jun-26) | ~3.5× | Ind AS 387 | ~24× | 10,031 | 0.94× | Ind AS 14.5% |
+| **Care at Sep-25 rights price** | 14,843 [E] | 2,718 | 5.5× | 387 | 38× | 10,031 | 1.48× | — |
+| **Chola MS at 2.0× NW (base)** | 6,830 [E] | 3,415 (Jun-26) | 2.0× | 331 IGAAP | 20.6× | 7,762 | 0.88× | 10.4% |
+| Chola MS at the lowest listed P/B (3.5×) | 11,950 [E] | 3,415 | 3.5× | 331 | 36× | 7,762 | 1.54× | — |
+
+Read: listed P/B does not track ROE in this set (Niva at 3.5× on a 3.5% ROE; ICICI Lombard at 4.3–4.9× on 16.6%). Investors pay for growth and scarcity. The market prices Care *through REL* at Niva's P/B but at **half the peers' m-cap/GDPI** even though Care grows fastest, which quantifies REL's governance and regulatory discount. For Chola MS, the "listed-peer floor" (3.5× NW = ₹11,950 Cr for 100%, CFHL's 60% = ₹7,170 Cr) is the case for the primer's ₹10,000–13,000 Cr range. Part 1's 1.5–2.5× is the case for a JV-locked, cash-nil, soft-cycle insurer. Even the top of the range changes CFHL's NAV by only ~₹3,000 Cr (~5%).
+
+**D6. CIFC "Total AUM" vs "Business AUM" (₹ Cr)** [V CIFC ppt Jun-26]
+
+| | FY24 | FY25 | FY26 | Q1 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|
+| Total AUM (headline) | 1,53,718 | 1,99,876 | 2,42,630 | 2,07,663 | 2,54,392 |
+| Business AUM (7 segments) | 1,45,572 | 1,84,746 | 2,24,334 | 1,92,148 | 2,33,586 |
+| Gap | 8,146 | 15,130 | 18,296 | 15,515 | 20,806 |
+| VF | 84,498 | 1,01,257 | 1,19,558 | 1,04,720 | 1,24,132 |
+| LAP | 29,859 | 41,439 | 52,295 | 43,943 | 54,130 |
+| HL | 13,404 | 18,427 | 22,688 | 19,399 | 23,644 |
+| CSEL | 11,430 | 14,573 | 15,113 | 14,199 | 15,884 |
+| SME | 4,977 | 6,628 | 9,338 | 7,119 | 9,923 |
+| SBPL | 1,404 | 2,422 | 3,537 | 2,671 | 3,730 |
+| Gold | — | — | 1,804 | 97 | 2,143 |
+
+(Segment values for FY24–Q1 FY26 were read from a text-extracted stacked chart. Each column sums to its printed total within ±1, which supports the mapping [V/E].)
+
+**D7. CIFC ratios, % of average assets** [V CIFC ppt 15-year table & slide 18]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | Q1 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|
+| Income | 13.7 | 13.8 | 14.4 | 14.8 | 14.8 | 14.8 | 14.9 |
+| Cost of funds | 5.8 | 6.1 | 6.9 | 7.1 | 6.8 | 7.0 | 6.7 |
+| Net income margin | 7.9 | 7.7 | 7.5 | 7.7 | 8.0 | 7.8 | 8.2 |
+| Opex | 2.8 | 3.0 | 3.1 | 3.0 | 3.1 | 2.9 | 3.0 |
+| Credit cost | 1.2 | 0.9 | 1.0 | 1.4 | 1.6–1.7 | 1.8 | 1.5 |
+| ROA-PBT [E = NIM − opex − credit] | 3.9 | 3.8 | 3.4 | 3.3 | 3.3 | 3.1 | 3.7 |
+
+**D8. Holdco cash pass-through, FY26 (₹ Cr)** [V CFHL AR; REL AR; Chola MS AR; E ratios]
+
+| Flow | CFHL | REL |
+|---|---|---|
+| Dividends from subsidiaries | 74.88 (CIFC 74.58 @ ₹2.00/sh; CMSRSL 0.30) | 0 (Care pays none; RFL barred historically; RBL none) |
+| Other cash from subsidiaries | Brand fee 10.00 (Chola MS) | — |
+| Capital sent down to subsidiaries | 0 | 256.10 (Care rights) + RHDFC commitment ₹250 Cr ahead |
+| Holdco opex | 3.89 | ~50 |
+| Dividends paid | 24.41 (₹1.30) | 0 (RBI ban since 2019) |
+| Max payout allowed (CIC 60% of PAT) | 42.2 (₹2.25/sh) | 0 (explicit RBI restriction) |
+| Dividend yield at 22-Oct price | 0.10% | 0% |
+
+**D9. Regulatory calendar and capital rules (dated)** [V where shown]
+
+| Date | Instrument | Relevance |
+|---|---|---|
+| 13-Aug-2020 | RBI CIC two-layer rule (compliance by 31-Mar-2023) [V MD para 7] | Ambadi → CFHL is at the limit; no further CIC layer possible |
+| 1-Oct-2024 | IRDAI 1/n for long-term premium [V GI Council footnote] | Depresses reported GWP and profit of Care in FY25–27 |
+| 20-Dec-2025 / 5-Feb-2026 | SBSR Act 2025: assent / main commencement [V-snip] | FDI 100%; enables holdco→insurer amalgamation |
+| 1-Apr-2026 | Ind AS 117 for insurers; Care and Chola MS on one-year forbearance [V calls/AR] | Both unlisted jewels report IGAAP to Mar-2027 |
+| 30-Jul-2026 | IRDAI registration/transfer/amalgamation amendment regs [V-law] | REL→Care collapse possible only after REL sheds RFL/RBL |
+| 6/7-Aug-2026 | RBI declines REL/RFL scheme [V] | Blocks both the demerger and (indirectly) the collapse route |
+| 23-Sep-2026 (comments by 25-Oct) | IRDAI consultation "Recalibrating Economics of Insurance Distribution" [V-snip] | EoM/commission cuts: margin help for insurers, revenue hit for distributors such as CIFC |
+| 7-Oct-2026 | Repo 5.25% → 5.50% [V RBI site] | CIFC funding cost; within the CFO's 25–50 bp assumption |
+| 28-Oct-2026 | CIFC board: Q2 + QIP [V] | CFHL dilution |
+| 6-Nov-2026 | CFHL board: Q2 [V] | Chola MS Q2 (GDPI already known: ~₹1,845 Cr, +0.5%) |
+| by Mar-2027 | REL warrant conversion deadline [V] | ₹881 Cr due at ₹235 |
+| 1-Apr-2027 | Chola MS and Care Ind AS adoption [V] | REL reported PAT converges toward look-through |
+
+## 4.4 Gap log (§H items and brief-listed gaps)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| H1 | Care Health valuation basis | **Partly filled.** Primary anchor: Sep-2025 rights at ₹149.04/share ⇒ ~₹14,843 Cr for 100%. Peer m-cap/GDPI (Star 1.71×, Niva 1.55×) and P/B (3.5–4.2×) fetched. Market-implied via REL ≈ ₹9,450 Cr. Kedaara continuation-fund transfer price not disclosed | REL AR [V]; GI Council [V]; screener [V] |
+| H2 | Chola MS multiple | **Partly filled.** Listed GI peers: ICICI Lombard 4.3–4.9× P/B, 2.85× m-cap/GDPI; Go Digit 5.4×, 2.55×. New India not fetched. No Chola MS transaction price since MSI's 2016 increase (price [K]) | screener [V]; GI Council [V] |
+| H3 | REL Q2 FY27 board date | **Still open.** Screener announcements re-fetched 22-Oct: last REL filings 14-Oct (newspaper) and 7-Oct (ESOP allotment); trading window closed 28-Sep; no board intimation. BSE API refused (Access Denied) | screener [V] |
+| H4 | RBI's reasons for rejecting the scheme | **Filled as "none given"** (MD: "no reasoning has been attached"). The analyst theory about the Burman private-NBFC merger condition was denied by management. RBI's actual reasoning is still not public | REL Q1 call [V] |
+| H5 | IRDAI non-insurer→insurer rule | **Filled:** amendment regulations notified 30-Jul-2026; conditions >50% stake and no other non-insurance business; equity-only consideration | Majmudar note [V-law]; gazette text not opened |
+| H6 | IRDAI 23-Sep-2026 consultation subject | **Filled ([V-snip]):** "Recalibrating Economics of Insurance Distribution" (EoM/commission caps, dark patterns; comments by 25-Oct-2026). Primary IRDAI PDF not opened | search results |
+| H7 | CIFC AUM totals reconciliation | **Partly filled:** both totals are company terms ("Total AUM" vs "Business AUM"); gap series FY24–Q1 FY27 tabulated; Business AUM ≈ on-book loans + ECL + assigned. **What the ₹20.8k Cr gap contains is still undefined in the deck** | CIFC ppt [V] |
+| H8 | CIFC ratio-bar year mapping | **Filled** | CIFC ppt slide 18 + 15-year table [V] |
+| H9 | Split of CFHL dividends received | **Filled:** CIFC ₹74.58 Cr (₹2.00/share), CMS Risk ₹0.30 Cr; Chola MS ₹0 (pays a ₹10 Cr brand fee instead) | CFHL AR [V] |
+| H10 | CFHL historical CIFC stake | **Partly filled:** 44.34% (Mar-25), 43.76% (Mar-26), 43.74% (Jun-26), constant 37.29 Cr shares. FY22/FY24 still [K] (prior ARs exist on cholafhl.com but were not opened) | CFHL AR [V] |
+| H11 | Burman entities and Kedaara stake | **Filled** (Burman list with %; Kedaara 10.61% via the continuation fund, ~15.9% group). Kedaara entry price still [K] | REL AR [V] |
+| H12 | Care full-premium FY26 GWP; Q1 FY26 n-basis | FY26 n ₹11,417 Cr **filled**; FY25 n ₹9,223 Cr added. Q1 FY26 n-basis GWP still derived (~₹2,370 Cr [E]) | REL Q4 ppt [V] |
+| H13 | Star/Niva GWP for multiples | **Filled** on GDPI basis (FY26 Star ₹18,606 Cr; Niva ₹8,586 Cr) | GI Council [V] |
+| H14 | Industry GI/SAHI totals FY26 and Apr–Sep FY27 | **Filled** | GI Council [V] |
+| H15 | 100% FDI Act name/date | **Filled ([V-snip]):** SBSR Act 2025, No. 40 of 2025, assent 20-Dec-2025, main commencement 5-Feb-2026 | Taxmann/Vinod Kothari summaries |
+| H16 | REL attributable PAT vs TCI | **Clarified:** attributable PAT ≈ ₹86 Cr [E, EPS-based]; AR "TCI after NCI ₹25.71 Cr" includes OCI. AOC-1 shows Care −₹54.57 Cr PAT / −₹107.95 Cr OCI on the AR's consolidation basis (a fourth Care basis) | REL AR [V] |
+| H17 | Religare Housing ownership | **Confirmed** 87.5% (via RFL) — AOC-1 | REL AR [V] |
+| H18 | RFL lending status | **Confirmed:** book ₹53 Cr; restart under a new CEO; ambition ₹10–15k Cr book (no timeline); write-off recoveries ₹350–400 Cr pool | REL call [V] |
+| — | CIC rules (two-layer, threshold, dividend cap) | **Filled** | RBI MD-CIC [V] |
+| — | Repo before the hike | **Still [K]** (5.25%); RBI site shows only the current 5.50% | — |
+| — | 8.2% fall to ₹235.40 on 7-Aug-2026 | **Still [V-snip]** (AngelOne); price history not fetched | — |
+| — | Care IPO talk | **Unchanged:** no DRHP. Management: "not looking at anything else currently" | REL call [V] |
+| — | Mitsui Sumitomo stake history (26%→40% in 2016) | **Still [K]**; current 40% confirmed | Chola MS AR [V] |
+| — | QIP size/price (CIFC) | **Open until 28-Oct-2026**; the Reg-29 letter gives no size | CIFC letter [V] |
+| — | Rating rationales | Chola MS **filled** (CRISIL AA+/Stable sub-debt, 16-Apr-26 [V]; ICRA AA/Stable [V-snip]); Care **partly** (Ind-Ra IND AA-/Stable via REL filing [V]; press-release text not readable, JavaScript page). CIFC/RFL/RHDFC rationales not fetched | — |
+| — | Care NL-form public disclosures (quarterly CoR, solvency) | **Not fetched;** used REL decks instead | — |
+
+## 4.5 New insights the first pass missed
+
+1. **REL's blocked demerger is the precondition for the IRDAI "collapse" route, not an alternative to it.** The 30-Jul-2026 IRDAI amendment lets a non-insurance holdco merge into its insurer only if it holds >50% (REL: 63.2% ✔) **and has no other non-insurance business** (REL: RFL, Religare Broking and RHDFC ✘). The Feb-2026 scheme (financial services → RFL, listed separately) would have left REL as a pure Care holdco, which is exactly the eligibility condition. RBI's refusal therefore blocks *both* unlock paths, and the MD's "RBI permission is needed whether we do this demerger or the other one" is literally true. The consideration must be equity, so REL shareholders would receive Care shares, making Care a listed insurer by merger with no IPO. The structural end-game is visible; only the RBI step is missing.
+2. **CFHL's cash pass-through is capped by regulation as well as by policy.** RBI's CIC Direction caps dividends at **60% of the CIC's standalone net profit**. CFHL's standalone PAT (₹70 Cr) is about 3% of its attributable earnings (₹2,441 Cr), so even at the cap the yield is ~0.17%. CFHL also receives **nothing from Chola MS**: no dividend in five years (the board retains to support solvency), only a ₹10 Cr brand fee. Holdco cash depends wholly on CIFC's ₹2/share dividend (a 3% payout at CIFC). A wide discount is close to "rational" while CIFC retains 97% of its profit and the CIC rule caps what CFHL can pass on.
+3. **Group synergy is a transfer from Chola MS to CIFC.** Chola MS paid **₹256.6 Cr of commission to CIFC** in FY26 (~2.9% of GWP; 58% of Chola MS's ₹445 Cr PBT) and is the preferred insurer for ~30% of CIFC-financed CVs (CRISIL). CFHL owns 60% of the payer but only 43.76% of the receiver, so the arrangement costs CFHL shareholders ~₹40 Cr a year pre-tax [E]. The IRDAI distribution consultation (S18) would cut this flow, helping Chola MS's combined ratio and hurting CIFC's fee line, roughly neutral for CFHL. CIFC's CFO flagged it on 28-Jul.
+4. **Chola MS is losing share in motor during a motor boom.** Industry motor GDPI grew +13.1% in H1 FY27 (GST 2.0 car sales) but Chola MS grew +4.1%. Its motor share fell from 5.25% (FY26) to 4.86% (H1 FY27) and its overall share from 2.21% to 2.06%. Q2 FY27 GDPI is already known from GI Council (~₹1,845 Cr, +0.5% YoY), so the 6-Nov results will show a third straight quarter of flat premium unless reinsurance-inward GWP fills the gap. Solvency (1.93×) is not yet a problem (FY24: 1.79×), but CRISIL names a group stake below majority as a rating trigger. With 100% FDI now allowed, MSI buying control is a live option that would *crystallise* Chola MS's value for CFHL.
+5. **Care's growth is accelerating, not fading.** H1 FY27 GDPI +42.2% (September alone +44%), retail health +50.7%. Care now writes 12.8% of all retail health in India and **24.2% of SAHI premium (21.9% in FY26)**, taking share from Star (40.6% → 37.4%). This is the opposite of a "GST one-off" pattern. The cost is capital: solvency 1.58× before ₹300 Cr of 10% sub-debt. Each ~₹1,000 Cr of incremental annual GWP needs roughly ₹150–200 Cr of capital at 1.7× [E], i.e. ~₹100–125 Cr from REL per year at 63.2%. That is why the ₹881 Cr warrant money (due by Mar-2027, strike ₹235 vs price ₹208) matters to Care's growth, not just to REL's balance sheet.
+6. **Care has four profit numbers for FY26:** IGAAP 1/n ₹12 Cr (statutory, consolidated by REL), IGAAP n PBT ₹539 Cr, Ind AS 117 PAT ₹387 Cr (Care's own investor basis), and the AR's AOC-1 PAT **−₹54.57 Cr**. The writer should use ₹387 Cr for economics and ₹12 Cr for "reported", and footnote the AOC-1 figure.
+7. **The CIFC ANW arithmetic reveals CFHL's "audited NAV".** The RBI ANW definition (owned funds + 50% of unrealised gains on quoted stakes) implies CFHL's regulators valued CIFC at ~₹1,607/share at Mar-26. Today's ₹1,531 is 5% lower, and the next audited ANW will fall unless CIFC recovers [E].
+8. **REL's pre-warrant liquidity was thin.** In FY25–26 REL borrowed short-term from a promoter company (Milky, ₹10 Cr) and from JM Financial Products (₹50 Cr at 12%) and repaid only after the warrant cash arrived (Sep-2025). It has also guaranteed ₹380 Cr of Religare Broking's bank lines. The "debt-free holdco" description holds at period-ends but has depended on promoter money.
+
+### New primer issues (for primer-issues.md)
+
+**cholamandalam-financial-holdings.html**
+- **Cash flows to the holdco:** say CFHL's FY26 income was **₹74.88 Cr of dividends (all from CIFC, ₹2.00/share, plus ₹0.30 Cr from CMS Risk) + ₹10 Cr brand fee from Chola MS + ₹4.9 Cr interest**. **Chola MS has never paid a dividend** in the five years shown and declined again for FY26. Any "dividends from insurance" wording is wrong.
+- **CIC dividend cap:** add that RBI caps CIC dividends at 60% of standalone net profit, a structural ceiling on pass-through (~₹2.25/share max on FY26 PAT).
+- **Stake history:** 44.34% (Mar-25) → 43.76% (Mar-26) → 43.74% (Jun-26), with 37,28,85,889 shares unchanged; dilution comes from CIFC's CCD conversions (₹1,370 Cr FY26, ₹200 Cr Jul-26, ₹430 Cr Oct-26) and the 28-Oct QIP.
+- **SOTP basis:** compute the CIFC stake as shares × price (₹57,089 Cr at ₹1,531), not % × screener m-cap.
+- **Chola MS:** add the solvency history (1.79× FY24 → 2.18× → 1.96× → 1.93×), loss of crop business, motor share slipping (5.25% → 4.86%), the ₹256.6 Cr commission paid to CIFC, Ind AS deferred to 1-Apr-2027, and the new MD & CEO **Rajive Kumaraswami (from 1-Jun-2026)**. The CRISIL AA+ rating carries a "group below majority" sensitivity.
+- **People:** CFHL Manager **Shyam Shankar from 15-Jun-2026** (N. Ganesh until 14-Jun-2026).
+- **Ambadi Investments ~37.7%:** now derivable from AR dividend flows (₹9.20 Cr at ₹1.30), so the primer figure can be marked verified.
+
+**religare-enterprises.html**
+- **Unlock logic:** explain that the IRDAI amendment of 30-Jul-2026 allows REL to merge into Care only if REL has *no other non-insurance business*. The RBI-blocked demerger is therefore the gateway to *both* routes.
+- **Care metrics:** FY26 GDPI ₹10,031 Cr (GI Council), SAHI share 21.9% FY26 → **24.2% H1 FY27**; H1 FY27 growth **+42%**; retail +51%. Star's share is ~40%, not ~33%.
+- **Care valuation anchor:** the Sep-2025 rights at **₹149.04/share** (~₹14,800 Cr for 100%) is a disclosed, primary reference point. Use it alongside peer multiples.
+- **Care capital:** ₹150 Cr rights (Jun-26), **₹200 Cr (Aug-26) + ₹100 Cr (Sep-26) sub-debt at 10%**, Ind-Ra AA-/Stable; target 1.7× solvency; next equity "most probably a rights issue".
+- **Kedaara:** Trishikhar Ventures (Kedaara) is a named Care promoter; 10.61% of Care moved to Kedaara II Continuation Fund (IRDAI approval 16-Jan-2026).
+- **Promoter entities:** list Puran Associates 10.66%, VIC 7.74%, M.B. Finmart 5.65%, Milky 3.01%, Shivani Burman 2.82%, Gyan 0.40% (Mar-26).
+- **Contingent liabilities:** ₹545 Cr standalone, incl. a ₹380 Cr guarantee for Religare Broking and ₹121 Cr of disputed direct tax.
+- **Care Ind AS numbers:** FY26 Ind AS PAT ₹387 Cr (not "~₹389 Cr"); FY25 ₹290 Cr.
+
+**General / subsector page (holding-cos)**
+- Use the GI Council primary series (D1–D4) in place of the [K] industry totals; FY26 industry GDPI ₹3,36,123 Cr.
+- The IRDAI distribution consultation (23-Sep-2026) belongs in "what to watch" for both members: it touches Chola MS, Care and CIFC's fee income.
+
+---
+
+# ORCHESTRATOR RE-ADD (22-Oct-2026) — aggregates after applying Part 4 Supersedes (authoritative for the writer)
+
+Every row of §3.1/§3.2 was re-added by hand: all sums and ratios in Parts 1–3 were arithmetically correct on their own inputs. After applying S1–S3 and S12, use these:
+
+| Measure | CFHL | REL | Both (sum) | Ratio of sums |
+|---|---|---|---|---|
+| FY26 revenue (screener cons.) | 39,156 | 8,462 | 47,618 | +17.3% YoY (FY25 40,590) |
+| FY26 PAT incl. NCI (reported) | 5,485 | 73 | 5,558 | +12.9% YoY (FY25 4,923) |
+| FY26 PAT attributable (reported) | 2,441 | 86 | 2,527 | m-cap ÷ = 12.6× |
+| FY26 look-through economic PAT [E] | 2,441 | 357 | 2,798 | m-cap ÷ = 11.4× |
+| Q1 FY27 revenue | 11,114 | 2,353 | 13,467 | +20.7% YoY (11,157) |
+| Q1 FY27 PAT incl. NCI | 1,789 | −47 | 1,742 | +37.4% YoY (1,268) |
+| Attributable NW Mar-26 | 15,454 | 2,908 | 18,362 | P/B 1.74× |
+| M-cap 22-Oct-26 | 24,714 | 7,178 | 31,892 | — |
+| Look-through NAV base [E] | 61,348 | 11,318 | 72,666 | discount 56.1% |
+| NAV low [E] | 60,303 | 7,526 | 67,829 | discount 53.0% |
+| NAV high [E] | 62,382 | 14,478 | 76,860 | discount 58.5% |
+
+CFHL alone: NAV ₹3,267/sh; discount 59.7% (SOTP) / 56.7% (CIFC stake only, ₹57,089 Cr) / 54.1% post-tax. Shares of total: CFHL 82.2% of revenue, 96.6% of attributable PAT, 77.5% of m-cap, 84.4% of base NAV (61,348/72,666).
+Insurer subgroup (Chola MS + Care, §3.2c) unchanged. Holdco standalone layer (§3.2b) unchanged except CFHL dividends received = ₹74.88 Cr (S4): pass-through 24.41/74.88 = 33%.
