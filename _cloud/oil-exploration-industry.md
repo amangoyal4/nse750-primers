@@ -1361,3 +1361,907 @@ All aggregates are **straight sums of the company rows above on one stated basis
 - **Q2 timing [V-snip]:** https://univest.in/blogs/ongc-q2-results-fy27-preview-date-expectations · https://univest.in/blogs/oil-india-q2-results-fy27-preview-date-expectations
 - **Global P/E (Oct-2026):** https://companiesmarketcap.com/exxon-mobil/pe-ratio/ · /petrobras/pe-ratio/ · /cnooc/pe-ratio/ · /equinor/pe-ratio/ · /saudi-aramco/pe-ratio/
 - **Brent Oct-2026 [V-snip]:** https://gulfnews.com/business/energy/brent-crude-oil-surges-past-102-amid-hormuz-tensions-us-iran-conflict-1.500695537
+
+---
+
+# PART 4 — Deep-research supplement (22-Oct-2026)
+
+Second, primary-source pass on Parts 1–3. Done on 22-Oct-2026 (~62 web calls). No logins, no paid sources.
+
+**What was read this session (all tagged [V] below means fetched and read here):**
+- **ONGC Integrated Annual Report 2025-26** (BSE AttachHis a521f688…, 697 pp). Read: the 10-year "Standalone Performance at a Glance" and "Contribution to Exchequer" tables, the Board's Report (reserves, capex, drilling), MD&A, investments note, related-party note 45, contingent-liabilities note 49 and the top-10 shareholders.
+- **ONGC earnings-call transcripts** (ongcindia.com): Q1 FY27 (5-Aug-2026), Q4 FY26 (27-May-2026), Q3 FY26 (Feb-2026), Q2 FY26 (11-Nov-2025), Q1 FY26 (Aug-2025), Q4 FY25 (22-May-2025) and Q2 FY25.
+- **ONGC Annual Report 2014-15** (BSE bseplus 5003120315) for the subsidy-sharing years. ONGC BSE filings of 8-Oct-2026 (OPML) and 9-Oct-2026 (CARE rating).
+- **Oil India Integrated Annual Report 2025-26** (BSE AttachHis 8ca090c8…, 573 pp). Read: reserves tables, production section, five-year table, exchequer table, standalone P&L, note 40, balance sheets, related-party note 45.3 and the shareholding.
+- **Oil India Annual Report 2023-24** (BSE 87592a13…) for SAED paid in FY23–FY24.
+- **Oil India call transcripts** (BSE): Q1 FY27 (10-Aug-2026), Q4 FY26 (May-2026), Q3 FY26 (11-Feb-2026), Q2 FY26 (17-Nov-2025). Also the Investors' Meet FY26 deck (25-May-2026).
+- **CRISIL rating rationale on Oil India** (9-Oct-2026).
+- **ICRA "Indian Upstream Oil & Gas"** (Mar-2026).
+- **PPAC:**
+  - the international-price data service (Indian basket monthly FY26 and FY27-to-date, pulled 22-Oct-2026);
+  - the legacy under-recovery and subsidy tables 2002-03 to 2009-10 (embedded in the same PPAC workbook);
+  - the PPAC Ready Reckoner FY2025-26 (tables 2.5B, 2.8, 3.10, 8.23, 8.24).
+- **EIA Brent spot monthly series** (RBRTEm.xls).
+- **Screener.in** consolidated and standalone pages for ONGC and OIL, re-pulled 22-Oct-2026.
+
+**Tags in Part 4:**
+- **[V]** = fetched and read this session from the named primary source.
+- **[V-arith]** = arithmetic on [V] inputs only.
+- **[V-snip]** = secondary or search-snippet only.
+- **[E]** = estimate.
+- **[V-P1]** = verified in Parts 1–3 and not re-fetched here.
+
+Scratch notes are in /tmp/oil-exploration-deep/ (00-plan.md, 01-ongc-ar26.md, 02-screener-22oct.txt, 03-calls.md, 04-oil-ar26.md, 05-industry.md).
+
+## 4.0 Supersedes (corrections the writer must apply to Parts 1–3)
+
+| # | Where in Parts 1–3 | Old value | New value | Source |
+|---|---|---|---|---|
+| 1 | §C.5, §2.0 ("FY26 ~$63–67") | ONGC FY26 implied crude realisation **~$63/bbl** (crude revenue ÷ *production* 20.5 MMT) | **~$68.9/bbl** — divide by crude *sold*: ₹83,810 Cr ÷ 18.79 MMT = ₹44,604/t = ₹6,085/bbl ÷ ₹88.31. FY25 on the same method: **$77.2** (₹89,535 Cr ÷ 18.71 MMT ÷ ₹84.57). | [V-arith on V ONGC AR26 10-yr table] |
+| 2 | §0, E.4 (basket "Jul n/a") | Indian basket Jul-2026 not obtained | **Jul-2026 $82.04**. **Oct-2026 month-to-date (to 21-Oct) $120.09**; spot **$116.73 on 21-Oct-2026**. October's basket is unusually sour-heavy (sweet:sour 65:35 vs ~78:22 in Jul–Sep). | [V PPAC price service, posted 22-Oct-2026] |
+| 3 | Header "Brent ~$102–107 in early/mid Oct-2026" [V-snip Gulf News] | ~$102–107 | **Conflict.** PPAC's basket averaged $120 month-to-date in October, so Brent was probably well above $102–107 for much of the month. PPAC is the more credible source (official, daily-averaged). Say "the basket averaged ~$120 in Oct-2026 to date". | [V PPAC] |
+| 4 | §0 "Read-across for Q2 FY27" | Q2 FY27 average **~$95–97** | Indian basket Q2 average **$96.11** [V-arith PPAC]; EIA Brent Q2 average **$96.33** [V-arith EIA]. ONGC and OIL have realised **$1–4 *below* EIA dated Brent** in every quarter with a printed number (table in 4.2.1c). So expect **~$93–95/bbl realised in Q2 FY27** [E]. That is ~$5 below Q1's $99.45/$98.73, not "slightly below". | [V/E] |
+| 5 | Header table (ONGC Q2 FY26 call "~18-Nov-2025" from filename) | ~18-Nov-2025 | **Board 10-Nov-2025; call 11-Nov-2025.** OIL's Q2 FY26 call was 17-Nov-2025. Last year's Q2 cadence was therefore ~6 weeks after quarter-end, not at the 45-day deadline. | [V ONGC and OIL transcripts] |
+| 6 | §2.3 "overseas production 19.2 MMTOE FY26 (20.2 FY25)" | FY25 20.2 | **FY25 18.1 MMTOE.** Series FY21–FY26: 21.9 / 21.8 / 19.5 / 19.9 / 18.1 / 19.2. | [V PPAC RR FY26 Table 2.8] |
+| 7 | §5.2, §H-8, primer issue (MRPL) | "71.63% direct + 16.96% via HPCL = **88.58% group**" | **Legal holding:** 71.63% direct + ~16.96% via HPCL. **Economic (effective) group interest is 80.94%**: the consolidated statements show MRPL at 80.94% with **NCI 19.06%**, because HPCL's 16.96% is itself only 54.90% ONGC-owned (71.63 + 0.549 × 16.96 = 80.94). Use 80.94% for look-through value. | [V ONGC AR26 consolidated-entity table; E for 16.96% back-solve] |
+| 8 | §5.2 "IOC ~7.8% / GAIL ~2.5% hold ONGC" [K] | ~7.8% / ~2.5% | **IOC 7.84%, GAIL 2.45%** (31-Mar-2026). Also LIC 10.18%, CPSE ETF 1.25%. | [V ONGC AR26 top-10 shareholders] |
+| 9 | §5.2 "ONGC holds IOC ~14.2%, GAIL ~5.0%" [K] | [K] | ONGC holds **2,005.82 mn IOC shares** (fair value ₹27,159 Cr at Mar-26) ≈ **14.2%**, and **326.72 mn GAIL shares** (₹4,499 Cr) ≈ **4.97%**. Petronet LNG **12.50%** (associate). Via HPCL the group also holds **40.13 mn OIL shares = 2.47% of OIL** (₹1,908 Cr). | [V AR26 notes 11/14; E for % using ~1,412 Cr IOC and ~657.5 Cr GAIL shares outstanding] |
+| 10 | §7.5, story bullets (PMT contingent liability) | ₹15,216 Cr | **₹15,225 Cr** at 31-Mar-2026: ONGC's 40% share of the DGH demand, **US$1,624.05 m** incl. interest to Nov-2016. The ₹15,216 Cr in the call is the same exposure at a different exchange rate. | [V AR26 note 49] |
+| 11 | §7.5, OIL story (GST on royalty "~₹2,500 Cr principal; court gave 6 weeks") | ~₹2,500 Cr, pending | **~₹3,304 Cr paid in Aug and Sep 2026, under protest**. It was funded by internal accruals plus incremental borrowings and had been substantially provided for already; the Supreme Court outcome is still pending. FY26 P&L provision for GST on royalty was ₹865 Cr (FY25 ₹809 Cr). | [V CRISIL 9-Oct-2026; V OIL AR26 note 40] |
+| 12 | §B3, NREP cost "₹34–35k Cr" | ₹34–35k Cr + PP ₹7.2–7.3k Cr | **Refinery ₹33,901 Cr** (revised from ~₹28,000 Cr) + **PP ₹7,231 Cr** = **₹41,132 Cr** integrated complex. | [V CRISIL 9-Oct-2026] |
+| 13 | §7.4 (subsidy amounts all [K]) | "Upstream ~₹60–67k Cr/yr FY12–FY14; ONGC ~₹49–56k Cr" | **FY14: ONGC ₹56,384 Cr; upstream ₹67,021 Cr = 47.9% of total under-recovery ₹1,39,870 Cr. FY15: ONGC ₹36,300 Cr (nil in Q4 FY15); upstream ₹42,823 Cr = 59.2% of ₹72,314 Cr.** ONGC's gross crude price was $106.72 (FY14) and $85.28 (FY15); it gave a discount of $65.75 and $40.40/bbl; **net realisation $40.97 / $44.87**. PBT impact ₹47,756 Cr (FY14) and ₹30,960 Cr (FY15). | [V ONGC AR 2014-15 MD&A and note 26.1] |
+| 14 | primer ongc.html; §H-6 "SAED ~₹25,000 Cr in year one" | attributed to ONGC | **Company-paid SAED (standalone):** ONGC **₹10,964 Cr (FY23), ₹8,634 Cr (FY24), ₹3,948 Cr (FY25), nil (FY26)**; OIL **₹1,887 Cr, ₹1,405 Cr, ₹780 Cr, nil**. **Pair total ₹27,618 Cr over FY23–FY25.** The ~₹25,000 Cr is a government-wide FY23 crude-SAED figure [V-snip], not ONGC's. | [V ONGC AR26 exchequer table; V OIL AR24 note 57.16, AR26 note 57.10] |
+| 15 | §9.1, §F "Reserve life ~13–14 yrs (1P)"; "2P stock not given" | 2P not given | **ONGC 2P on 1-Apr-2026 = 709.32 MMTOE** (operated 697.83 + JV share 11.49; PRMS) [V AR26]. **2P R/P ≈ 17.6 years** on 40.3 MMTOE domestic incl. JV production [E]. 1P R/P ≈ 13.1 years (528.04 ÷ 40.3) [E]. | [V AR26 Board's Report §4] |
+| 16 | §9.1 "OIL 1P not disclosed (2P only)" | n.d. | **OIL 1P: domestic 107.73 + overseas 20.38 = 128.11 MMTOE.** 2P: domestic **190.09** + overseas **40.57** = **230.67**. 3P: 243.05 + 56.16. Domestic 2P = 68.68 MMT oil + 139.68 BCM gas (balance recoverable; 50.58 BCM on a sales-contract basis). FY26 2P accretion **6.232 MMTOE**. | [V OIL AR26 Board's Report] |
+| 17 | §1.3, §9.1, §F (opex/boe "not disclosed — FLAG") | not disclosed | Neither company publishes $/boe lifting cost. **Proxies [E from V]:** **ONGC** "operating expenses" ₹28,209 Cr ÷ (38.87 MMTOE × 7.33) = **₹990/boe ≈ $11.2/boe (FY26)**; FY25 ≈ $11.3. This excludes statutory levies, write-offs and DD&A, and includes VAP processing and transport. **OIL** cash opex (employees + stores + fuel + contract + insurance + misc) ₹5,432 Cr ÷ 48.7 mboe ≈ **₹1,116/boe ≈ $12.6/boe (FY26)**. Contract cost rose 41% YoY (₹2,798 vs ₹1,980 Cr). | [E on V AR26] |
+| 18 | §H-11, trap 5 ("8.7 MMTOE unreconciled") | unreconciled | **Partly reconciled.** OIL's FY26 share of overseas production = Vankor 0.945 MMTOE + Taas 0.464 MMT + Carabobo 0.014 MMT ≈ **1.42 MMTOE**. 6.64 + 1.42 = **~8.06 MMTOE**. The remaining ~0.6 MMTOE is not explained in the AR; it may be gas-equivalence or rounding on the slide. **Use 6.64 domestic / ~8.1 incl. overseas.** | [V OIL AR26 + presentation slide 'OIL's near-term strategy'] |
+| 19 | trap 5, primer issue ("primer's 18.36 MMT crude appears to exclude condensate — FLAG") | primer possibly wrong | **The primer is right on its own scope.** ONGC standalone crude **excluding condensate** was **18.355 MMT FY26** (18.558 FY25). 19.33 MMT is operated crude *incl.* condensate; 20.50 includes the JV share. Keep the primer number but label it "crude excl. condensate". | [V ONGC Q4 FY26 transcript] |
+| 20 | §H-2, E.7 (ONGC realisation series) | Q1 FY25 "~$83", Q2 FY26 "~67", Q3 FY26 "~61" unverified | **Q1 FY25 $83.05; Q2 FY25 $78.33; Q3 FY25 $72.57; Q1 FY26 $66.13; Q2 FY26 $67.34; Q3 FY26 $61.63; Q1 FY27 $99.45.** Q4 FY25 (~$74.9) and Q4 FY26 (~$80.5) are residual estimates. | [V ONGC transcripts; E residuals] |
+| 21 | JSON (OIL) "gas_price_usd_mmbtu": {"q4fy26": 6.72} | Q4 FY26 | **$6.72 is Q1 FY26** (the year-ago comparator), not Q4 FY26. OIL gas: Q2 FY26 $6.78, Q3 FY26 $6.65, Q1 FY27 $7.19. | [V OIL Q1 FY27/Q3/Q2 transcripts] |
+| 22 | §0 & §2.0 OIL net debt "~₹35,100 Cr (2.6×)"; standalone "~₹13,100 Cr (1.5×)" | ₹35.1k / ₹13.1k Cr | **Consolidated: borrowings ₹35,959 Cr − cash & bank ₹5,609 Cr = ~₹30,350 Cr ≈ 2.25× company EBITDA** (the company's 2.6× probably includes lease liabilities). **Standalone: ₹13,278 Cr − ₹3,693 Cr cash/bank/current investments ≈ ₹9,585 Cr ≈ 1.1×.** | [V OIL AR26 balance sheets; V CRISIL cash ₹5,609 Cr; E] |
+| 23 | §H-14, §3.2(c) "ONGC net debt not obtained" | n.a. | **ONGC standalone is net cash: cash & bank ₹28,660 Cr vs borrowings ₹7,823 Cr → net cash ~₹20,837 Cr** (Mar-26). Lease liabilities are **₹25,822 Cr** (mostly offshore vessels and rigs, Ind AS 116). Including leases → net debt ~₹4,985 Cr. Site Restoration Fund deposits ₹32,728 Cr are restricted and excluded. Consolidated net debt is essentially HPCL + MRPL + OPaL [E]. | [V ONGC AR26 10-yr table] |
+| 24 | §4.2(a) ONGC "Opex ~₹36,000 Cr (27/100)" and "statutory levies ~₹26.5k Cr" | composites [E] | **Statutory levies ₹26,148 Cr = 19.7% of revenue** (royalty ₹12,965 Cr + OIDB cess ₹13,034 Cr + NCCD ₹86 Cr + other ₹63 Cr). **Operating expenses ₹28,209 Cr (21.3%)**; survey + dry-well write-offs ₹9,729 Cr (7.3%); provisions/write-offs ₹3,948 Cr; FX loss ₹2,699 Cr. The "~27" opex line should read ~21 opex + ~5 provisions/FX. | [V ONGC AR26] |
+| 25 | §1.2 (ONGC exploration write-offs "₹8,236 Cr [primer]") | ₹8,236 Cr | AR26: survey ₹1,493 Cr + exploratory wells ₹8,236 Cr = **₹9,729 Cr** (FY25 ₹9,826 Cr). The primer's ₹8,236 Cr is dry wells only. | [V AR26] |
+| 26 | §9.1 RRR history | FY26 1.17 only | **ONGC 2P RRR FY25 = 1.35** (domestic, ex-JV; ">1 for the 19th consecutive year"). FY26 1.17. | [V Q4 FY25 transcript] |
+| 27 | §2.4 forecast ("national crude unlikely to grow") | qualitative | **ICRA (Mar-2026) expects India's FY27 crude at 28.0–28.5 MMT.** H1 FY27 is running −3.5% (13.7 MMT), so the full year is more likely ~27–27.5 MMT [E]. | [V ICRA; V-P1 PPAC] |
+| 28 | Guidance history (not in Parts 1–3) | — | **ONGC's FY27 standalone guidance was cut from 21 MMT oil + 21.5 BCM gas (≈42.5 MMTOE; Q2 FY26 call, Nov-2025) to ~39 MMTOE (Q1 FY27 call)**. At the Q4 FY25 call (May-2025) the plan was gas ~21 BCM FY26 and ~22 BCM FY27; actual FY26 gas was 19.53 BCM. | [V transcripts] |
+| 29 | §7.2 "HP-HT ceiling $8.90" | [V PPAC] | Confirmed in ONGC AR26 MD&A ("higher ceiling of USD 8.9/MMBtu for April–September 2026"). | [V AR26] |
+| 30 | §10 global lens "CNOOC lifting ~$7/boe, all-in ~$28" [K] | [K] | **CNOOC 2025: opex $7.46/boe (2024 $7.61); all-in cost $27.90/boe (−2.2%).** Petrobras Brazil lifting cost **$6.33/boe in Q2-2026; pre-salt $4.45/boe**. | [V-snip The Standard HK / World Oil / Economic News Brasil] |
+
+**Net effect for the writer:**
+- The Q2 FY27 earnings read-across moves down a little: realisation ~$93–95.
+- Balance sheets are cleaner than Part 2 implied: ONGC standalone is net cash, and OIL group net debt is ~2.25×.
+- The subsidy and windfall history can now be printed with primary numbers.
+
+## 4.1 Verification table — 40 figures the writer will lean on
+
+"Agrees?" compares the figure with Parts 1–3.
+
+| # | Figure | Value | Primary source (fetched?) | Agrees with Parts 1–3? |
+|---|---|---|---|---|
+| 1 | ONGC standalone PAT FY26 | ₹32,894 Cr (FY25 ₹35,610 Cr) | ONGC AR26 10-yr table (₹328,940 mn) [V]; screener [V] | Yes |
+| 2 | ONGC consolidated PAT attributable FY26 | **₹41,424 Cr** (+14.35%); NCI ₹8,369 Cr; pre-minority ₹49,793 Cr | ONGC AR26 MD&A consolidated table [V] | Yes |
+| 3 | ONGC standalone PAT Q1 FY27 | ₹17,034 Cr (+112%); PBT ₹22,848 Cr (record) | Q1 FY27 transcript [V]; screener [V] | Yes |
+| 4 | ONGC consolidated attributable PAT Q1 FY27 | **~₹11,900 Cr** (EPS ₹9.46 × 1,257.99 Cr shares); pre-minority ₹6,554 Cr | screener EPS [V-arith]; press figure ₹11,899 Cr [V-snip askfuzz] | Yes (two sources) |
+| 5 | ONGC crude realisation Q1 FY27 | **$99.45/bbl** vs $66.13 Q1 FY26. The transcript misprints "INR 99.45". | Q1 FY27 transcript [V]; Q1 FY26 transcript [V] | Yes |
+| 6 | ONGC standalone crude Q1 FY27 | 4.452 MMT (−4.93% YoY) | [V-snip Angel One/Ventura]. Cross-check: Q1 FY26 4.683 MMT [V transcript] × (1 − 4.93%) = 4.452 | Yes; not primary |
+| 7 | ONGC standalone gas Q1 FY27 | 4.756 BCM (−1.85%) | [V-snip]. Cross-check: Q1 FY26 4.846 BCM [V] × (1 − 1.85%) = 4.756 | Yes; not primary |
+| 8 | ONGC new-well-gas price Q1 FY27 | **$13.31/mmBtu** (Q1 FY26 $8.24) | [V-arith]: 1.2 × PPAC APM formula prices (10.76, 11.59, 10.93) = 12.91 / 13.91 / 13.12 → average 13.31. The Q4 FY26 call quotes "this month [May] NWG $13.91" [V]. | Yes (now primary-derived) |
+| 9 | NWG share, Q1 FY27 | 19% of gas volume; 24% of sales quantity (17% a year ago); 38% of nomination gas revenue; NWG revenue ~₹4,000 Cr, +~₹1,900 Cr over APM | Q1 FY27 transcript [V] | Yes |
+| 10 | ONGC production guidance | FY26 standalone ex-JV 38.87 MMTOE; **FY27 ~39; FY28 ~40** | Q1 FY27 transcript [V] | Yes (but see Supersede 28: guidance was cut) |
+| 11 | KG-DWN-98/2 | Oil **~21,000 bpd**; gas **1.5–1.7 MMSCMD**; **3+ MMSCMD** after 3 more wells (Q4 FY27); **6–7 MMSCMD** later (Q4 FY28) | Q1 FY27 transcript [V] | Yes |
+| 12 | ONGC group 1P reserves (1-Apr-2026) | **793.31 MMTOE** (ONGC 517.88 + JV 10.16 + OVL 265.27); FY22 845.87 | AR26 [V] | Yes |
+| 13 | ONGC 2P reserves (1-Apr-2026) | **709.32 MMTOE** (697.83 operated + 11.49 JV) | AR26 Board's Report [V] | **New** |
+| 14 | ONGC 2P RRR | **1.17 (FY26)**; 1.35 (FY25); 44.01 MMTOE accreted in FY26 | AR26 [V]; Q4 FY25 transcript [V] | Yes, plus FY25 |
+| 15 | ONGC FY26 dividend | **DPS ₹13.25 = ₹16,669 Cr** (payout 51%; record) | AR26 (₹166,689 mn) [V]; Q4 FY26 transcript [V] | Yes |
+| 16 | GoI stake in ONGC | **58.89%** (31-Mar-2026) | AR26 top-10 [V]; screener Sep-26 [V] | Yes |
+| 17 | PSU cross-holdings in ONGC | IOC **7.84%**, GAIL **2.45%** (= 10.29% ≈ screener "Government" 10.30%) | AR26 [V] | Refines [K] |
+| 18 | SAED paid by ONGC | FY23 ₹10,964 Cr; FY24 ₹8,634 Cr; FY25 ₹3,948 Cr; FY26 nil | AR26 exchequer table [V] | **New** |
+| 19 | ONGC statutory levies FY26 | **₹26,148 Cr** (19.7% of revenue); FY25 ₹30,968 Cr | AR26 [V]; Q4 FY26 transcript [V] | Yes (Part 1 ~₹26.5k [E]) |
+| 20 | ONGC crude sales FY26 | ₹83,810 Cr on **18.79 MMT sold** (gas ₹36,330 Cr on 15.491 BCM sold) | AR26 10-yr table [V] | Yes, plus volumes |
+| 21 | OIL standalone PAT FY26 | ₹4,455.34 Cr (FY25 ₹6,114.19 Cr) | OIL AR26 5-yr table [V]; screener [V] | Yes |
+| 22 | OIL consolidated PAT FY26 | ₹7,551 Cr pre-minority; **attributable ~₹6,620 Cr** (EPS ₹40.70 × 162.66 Cr shares) | CRISIL key indicators (₹7,551 Cr) [V]; screener EPS [V-arith] | Yes |
+| 23 | OIL Q1 FY27 | Crude **$98.73** (vs $66.20); gas $7.19; standalone PAT **₹2,870 Cr**; EBITDA ₹4,605 Cr (54%+) | OIL Q1 FY27 transcript [V] | Yes |
+| 24 | OIL consolidated PAT Q1 FY27 | ₹4,027 Cr pre-minority (revenue ₹12,503 Cr); **attributable ~₹3,631 Cr** (EPS ₹22.32 × 162.66 Cr) | CRISIL [V]; screener [V-arith] | Yes |
+| 25 | OIL 2P reserves | **190.09 domestic + 40.57 overseas = 230.67 MMTOE**; 1P 107.73 + 20.38 | OIL AR26 [V] | Yes (2P); 1P new |
+| 26 | OIL RRR | **1.02 (FY26)**, 0.94 (FY25); accretion 6.232 MMTOE | OIL AR26 [V] | Yes |
+| 27 | OIL gas guidance | 3.8 BCM FY28; 5 BCM annualised from ~Q1 FY28 jump → ~5 BCM FY29 (framed by an analyst and agreed by management) | OIL Q1 FY27 transcript [V] | Yes, with nuance |
+| 28 | OIL crude guidance | "minimum 3.9 MMT" FY27; ~4.2 MMT by FY29 | OIL Q1 FY27 transcript [V] | Yes |
+| 29 | OIL FY26 dividend | **₹1,870.60 Cr** (DPS ₹11.50; same as FY25) | OIL AR26 5-yr table [V] | Yes |
+| 30 | GoI stake in OIL | **56.66%** (921.56 mn shares); LIC 6.86% | OIL AR26 [V]; CRISIL (Jun-26) [V] | Yes |
+| 31 | APM ceiling | $6.50 FY24–FY25 → **$6.75 FY26 → $7.00 FY27** | ONGC AR26 MD&A and note 30.2 [V]; ICRA Mar-26 [V] | Yes |
+| 32 | HP-HT ceiling | **$8.90 (Apr–Sep 2026)**; $9.89 (Oct-26–Mar-27) | ONGC AR26 MD&A ($8.9) [V]; $9.89 [V-P1 PPAC] | Yes |
+| 33 | APM formula price Apr–Jun 2026 | $10.76 / $11.59 / $10.93 | [V-P1 PPAC]; consistent with figure #8 | Yes |
+| 34 | Crude SAED window | 1-Jul-2022 → abolished 2-Dec-2024 | ONGC AR26 exchequer-table caption [V]; Q2 FY26 transcript [V] | Yes |
+| 35 | 2026 fuel-export levy | from 27-Mar-2026 (diesel/ATF; petrol from 16-May-2026) | [V-P1 PPAC]; not re-fetched | Yes (Part 1) |
+| 36 | Samudra Manthan outlay | **₹84,084 Cr** | ONGC Q1 FY27 transcript [V] | Yes |
+| 37 | Indian basket | FY26 average **$70.99** (FY25 $78.56); **Jul-26 $82.04; Oct-26 MTD $120.09** | ONGC AR26 MD&A [V]; PPAC price service [V] | Yes; fills gap |
+| 38 | India crude + condensate FY26 | **27.9 MMT**: ONGC nomination 16.8, OIL nomination 3.4, PSC/RSC 5.7, condensate 2.0 | PPAC RR FY26 Table 2.5B [V] | Yes |
+| 39 | India crude imports FY26 | **245.8 MMT, $123.4 bn ($68.49/bbl)** | PPAC RR Table 8.24 [V] | Yes |
+| 40 | MRPL effective group ownership | **80.94%** (NCI 19.06%); 71.63% direct | ONGC AR26 [V] | **Corrects 88.58%** |
+
+**Score:**
+- **35 of 40 are [V] from primary documents fetched this session**, counting two [V-arith] that rest only on primary inputs (#4, #8).
+- **#33 and #35 are [V-P1]** (Part 1's PPAC fetches, consistent here).
+- **#6 and #7 remain [V-snip]**, but they reconcile exactly to primary prior-year figures.
+- **#27 is [V], with an attribution caveat:** the 5 BCM path was framed by the analyst and agreed by management.
+- **Conflicts resolved:**
+  - #40 MRPL: the AR beats the primer.
+  - #3/#37 October oil price: PPAC beats Gulf News.
+  - Supersede 1, ONGC FY26 realisation: the sold-volume basis beats the production basis.
+
+## 4.2 Company deep-dives
+
+### 4.2.1 ONGC (500312)
+
+**Primary documents read:**
+- Q1 FY27 call transcript (5-Aug-2026).
+- Earlier transcripts: Q4 FY26 (27-May-2026), Q3 FY26, Q2 FY26 (11-Nov-2025), Q1 FY26, Q4 FY25 (22-May-2025), Q2 FY25.
+- Integrated Annual Report 2025-26 and Annual Report 2014-15.
+- BSE filings of 8-Oct-2026 (OPML) and 9-Oct-2026 (CARE).
+- Screener consolidated and standalone (22-Oct-2026).
+
+**Not found:** a Q1 FY27 investor presentation. ONGC's last investor decks on its site and BSE are corporate presentations (2022, Apr-2023). The quarterly "presentation" is effectively the press release plus the call, so the transcript is the KPI source.
+
+#### (a) Management-commentary digest (paraphrased; source and date in brackets)
+
+1. **Q1 FY27 was a price quarter, not a volume quarter** (D(F), 5-Aug-26).
+   - Standalone revenue was ₹46,460 Cr (+45%) and PAT ₹17,034 Cr (+112%), with record PBT of ₹22,848 Cr.
+   - Average crude realisation was $99.45.
+   - Opex was held "broadly at the same level" YoY despite inflation and the weaker rupee.
+2. **Production dipped for "execution, not structural" reasons** (5-Aug-26):
+   - reservoir complexity at KG-98/2;
+   - pre-commissioning shut-ins for big offshore projects;
+   - pipeline replacement in Western Offshore;
+   - customer-side gas offtake disruptions.
+   - Recovery is expected from DUDP, the TSP expansion and DSF monetisation.
+3. **Volume guidance** (5-Aug-26):
+   - FY26 standalone ex-JV was 38.87 MMTOE. FY27 is expected at ~39 and FY28 at ~40.
+   - The upside is mainly gas: about +1 BCM a year from new developments (DUDP to ~3 MMSCMD by Q3, East Coast CPP +1.3 MMSCMD, Tapti/Daman +0.5 MMSCMD).
+   - **This is a cut.** In Nov-2025 the same company guided FY27 to 21 MMT oil + 21.5 BCM gas ≈ 42.5 MMTOE (Q2 FY26 call). In May-2025 it guided gas ~21 BCM FY26 and ~22 BCM FY27 (Q4 FY25 call); FY26 actual was 19.53 BCM.
+4. **KG-DWN-98/2** (5-Aug-26):
+   - Oil ~21,000 bpd, held back by inter-reservoir connectivity.
+   - Gas 1.5–1.7 MMSCMD; three more wells add ~1.5 MMSCMD (to "3 million plus") around the CPP start (Oct–Nov 2026).
+   - The 6–7 MMSCMD peak is a later goal.
+   - In May-2025 management had said 10 MMSCMD (Q4 FY25 call); in Nov-2025, 3 MMSCMD near term.
+5. **Western Offshore renewal** (5-Aug-26):
+   - More than ₹40,000 Cr of projects are in execution.
+   - bp's TSP-1 at Mumbai High is running at ~107% of baseline oil and ~113% of baseline gas, which offsets a 6–7% natural decline. The absolute gain is +1–2%.
+   - The TSP model is extended to all of Western Offshore.
+   - On cost, the CEO framed bp's programme as ~₹5,000 Cr per phase; an analyst converted this to ~$1.8/boe (27-May-26).
+6. **Gas pricing mix** (5-Aug-26):
+   - NWG was 19% of gas volume, 24% of sales quantity (17% a year earlier) and 38% of nomination gas revenue.
+   - NWG revenue was ~₹4,000 Cr in the quarter, ~₹1,900 Cr above what APM would have paid.
+   - Gas rose from 25% of standalone revenue in FY25 to 28% in FY26.
+   - In the May-2026 call the CEO cited NWG at $13.91 that month, against LNG ~$18 and imported ethane ~$9.
+7. **Crude pricing** (5-Aug-26). The COSA formula is "Brent is the base … Brent plus 1% … when we account … about 5% … 4% comes to our kitty". The Q1 premium analysts saw was "volatility, not formula".
+   - **Our check:** against EIA dated Brent, ONGC realised **$1.6–3.8 *below*** Brent in every printed quarter (table c). The "premium" depends on which Brent is used — ICE futures or dated, and the pricing-period lag.
+8. **Capex** (27-May-26):
+   - FY27 E&P capex is "INR 30,000 crore bound", ~₹30–32k Cr with some spillover to ~₹33k Cr.
+   - Non-E&P capex is separate (~one-third extra, ~₹8–11k Cr if opportunities arise).
+   - PPAC's FY27 target is ₹30,000 Cr; H1 actual ₹14,534 Cr [V-P1].
+9. **Consolidation drag** (5-Aug-26). HPCL lost ₹12,265 Cr on under-recoveries. OVL and MRPL cushioned it. Russian-asset realisations were weak because of geopolitics (price cap).
+10. **Dividends** (27-May-26). FY26 total ₹13.25/share = ₹16,669 Cr, the highest ever (interims ₹6.00 + ₹6.25, final ₹1.00), payout 51%.
+11. **Cost programme** (Q1 FY26 call, Aug-25):
+    - Pipavav supply base, crew boats instead of helicopters.
+    - Management declined to guide opex/bbl.
+    - Opex rose 9% YoY in Q3 FY26 (₹7,151 vs ₹6,563 Cr) on Dahej LNG consumption.
+12. **OVL** (Nov-25):
+    - FY26 ~10 MMTOE (actual 9.67).
+    - Mozambique Area 1 restart: OVL had spent ~$6.6 bn of own equity, plus its ~16% share of $16.1 bn project finance.
+
+#### (b) Concall KPI table — ONGC standalone (from transcripts, [V] unless marked)
+
+| KPI | Q1 FY25 | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|---|
+| Crude realisation ($/bbl) | 83.05 | 78.33 | 72.57 | ~74.9 [E] | 66.13 | 67.34 | 61.63 | ~80.5 [E] | **99.45** |
+| Crude realisation (₹/bbl) | — | 6,561 | — | — | — | — | — | — | ~9,400 [E] |
+| Avg crude price (₹/t) | — | 49,160 | — | — | — | 44,043 | — | — | — |
+| Crude prod. excl. condensate (MMT) | 4.63 [E] | 4.576 | — | FY25 18.558 | 4.683 | — | 4.592; 9M 13.907 | FY26 18.355 | 4.452 [V-snip] |
+| Gas prod. (BCM) | 4.863 | — | — | FY25 19.654 | 4.846 | — | ↑ YoY | FY26 19.533 | 4.756 [V-snip] |
+| Statutory levies (₹ Cr) | — | 7,830 (incl. SAED 1,128) | 6,630 | FY25 30,968 | — | 6,470 | 5,975 | FY26 26,148 | — |
+| NWG metric | — | — | — | ~20% of gas | — | H1 rev ₹3,352 Cr (+651 vs APM); >21% of nom. gas rev | 9M rev >₹5,000 Cr (+944); >18% of gas sales rev | May-26 price $13.91 | rev ~₹4,000 Cr (+~1,900); 38% rev; 19% vol; 24% sales qty |
+| APM ceiling ($/mmBtu) | 6.50 | 6.50 | 6.50 | 6.50 | 6.75 | 6.75 | 6.75 | 6.75 | 7.00 |
+| EIA Brent quarter avg ($) [V-arith EIA] | n.f. | n.f. | 74.61 | 75.81 | 68.01 | 68.97 | 63.63 | 80.21 | 103.28 |
+| Realisation − EIA Brent ($) | — | — | −2.0 | ~−0.9 [E] | −1.9 | −1.6 | −2.0 | ~+0.3 [E] | −3.8 |
+
+**Q4 residuals [E]:**
+- FY25 annual $77.2 and FY26 $68.9 come from AR26 crude revenue ÷ volume sold (Supersede 1).
+- Q4 = 4 × annual − the three printed quarters. This assumes equal quarterly volumes, so treat it as approximate.
+- Q1 FY25 crude of 4.63 MMT is back-solved from the "+1.2%" in the Q1 FY26 call.
+
+#### (c) 5-year history (₹ Cr; screener 22-Oct-2026 [V]; company figures from AR26 [V])
+
+**Standalone (the E&P company):**
+
+| FY | Revenue | OP (screener) | OPM | Company EBITDA (PBIDT) | Other income | DD&A | PBT | PAT | ROCE screener / company | DPS (₹) | Crude sold (MMT) | Gas sold (BCM) | Implied crude $/bbl [E] |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 1,10,319 | 54,430 | 49% | 60,946 | 6,516 | 17,546 | 41,040 | 40,306 | 18% / 29.0% | 10.50 | 20.30 | 16.753 | ~$76 |
+| FY23 | 1,44,513 | 71,499 | 49% | 80,843 | −1,609 | 16,795 | 50,395 | 38,829 (exceptional −₹9,235 Cr) | 24% / 33.8% | 11.25 | 19.19 | 16.677 | ~$91 |
+| FY24 | 1,29,741 | 66,815 | 52% | 77,593 | 10,778 | 20,496 | 53,016 | 40,526 | 19% / 30.6% | 12.25 | 18.87 | 15.927 | ~$80 |
+| FY25 | 1,33,863 | 65,237 | 49% | 75,716 | 10,479 | 24,352 | 46,760 | 35,610 | 15% / 26.5% | 12.25 | 18.71 | 15.510 | $77.2 |
+| FY26 | 1,32,506 | 61,722 | 47% | 72,078 | 10,356 | 25,134 | 42,415 | 32,894 | 13% / 22.5% | 13.25 | 18.79 | 15.491 | $68.9 |
+
+**Notes on the standalone table:**
+- **Gas price × volume:** gas revenue went from ₹12,441 Cr in FY22 to ₹36,330 Cr in FY26 (×2.9) while gas sold fell 7.5%.
+- **Crude revenue:** ₹83,661 Cr in FY22 vs ₹83,810 Cr in FY26 — flat on lower volume.
+- **Implied $/bbl for FY22–FY24** uses approximate FX of ₹74.5, ₹80.4 and ₹82.8 [K]. Treat those three as [E].
+
+**Consolidated (screener basis; attributable = EPS × 1,257.99 Cr shares [V-arith]):**
+
+| FY | Sales | OP | OPM | PBT | PAT pre-minority | PAT attributable | ROCE (screener) | Company ROCE |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 4,91,246 | 79,874 | 16% | 54,091 | 49,294 | ~45,527 | 16% | — |
+| FY23 | 6,32,291 | 75,527 | 12% | 43,051 | 32,778 | ~35,438 | 14% | — |
+| FY24 | 6,01,581 | 1,02,383 | 17% | 73,629 | 55,273 | ~49,137 | 18% | — |
+| FY25 | 6,12,064 | 88,857 | 15% | 52,398 | 38,329 | 36,226 [V AR] | 12% | 20.66% |
+| FY26 | 6,08,663 | 1,03,120 | 17% | 67,623 | 49,793 | **41,424 [V AR]** | 14% | 22.62% |
+
+#### (d) 8-quarter trend (₹ Cr; screener 22-Oct-2026 [V])
+
+**Standalone:**
+
+| Quarter | Revenue | OP | OPM | Other inc. | PBT | PAT | Crude $/bbl |
+|---|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 33,881 | 17,041 | 50% | 4,750 | 15,036 | 11,984 | 78.33 |
+| Q3 FY25 (Dec-24) | 33,717 | 17,132 | 51% | 1,722 | 11,000 | 8,240 | 72.57 |
+| Q4 FY25 (Mar-25) | 34,982 | 13,961 | 40% | 2,075 | 8,767 | 6,448 | ~74.9 [E] |
+| Q1 FY26 (Jun-25) | 32,003 | 17,185 | 54% | 1,210 | 10,744 | 8,024 | 66.13 |
+| Q2 FY26 (Sep-25) | 33,031 | 16,599 | 50% | 3,424 | 12,545 | 9,848 | 67.34 |
+| Q3 FY26 (Dec-25) | 31,547 | 15,272 | 48% | 3,094 | 10,602 | 8,372 | 61.63 |
+| Q4 FY26 (Mar-26) | 35,928 | 12,666 | 35% | 2,628 | 8,524 | 6,650 | ~80.5 [E] |
+| **Q1 FY27 (Jun-26)** | **46,460** | **28,355** | **61%** | 1,861 | **22,848** | **17,034** | **99.45** |
+
+**Pattern:** Q4 is the weak quarter every year (OPM 40% and 35%). Year-end dry-well write-offs and provisions land there — Q4 FY26 had GST-on-royalty, the KG-98/2 umbilical write-off, receivables and stores provisions, and an FX loss [V Q4 FY26 call]. Do not annualise a Q4.
+
+**Consolidated:**
+
+| Quarter | Sales | OP | OPM | PBT | PAT pre-minority | EPS (₹) | PAT attributable [V-arith] |
+|---|---|---|---|---|---|---|---|
+| Q2 FY25 | 1,59,331 | 20,574 | 13% | 12,655 | 9,841 | 8.14 | ~10,240 |
+| Q3 FY25 | 1,67,213 | 24,354 | 15% | 13,480 | 9,747 | 6.82 | ~8,580 |
+| Q4 FY25 | 1,67,749 | 21,766 | 13% | 13,137 | 8,965 | 5.91 | ~7,435 |
+| Q1 FY26 | 1,63,106 | 25,770 | 16% | 15,509 | 11,554 | 7.79 | ~9,800 |
+| Q2 FY26 | 1,57,911 | 26,521 | 17% | 17,284 | 12,615 | 8.57 | ~10,781 |
+| Q3 FY26 | 1,67,423 | 25,335 | 15% | 16,190 | 11,946 | 7.96 | ~10,014 |
+| Q4 FY26 | 1,73,801 | 25,352 | 15% | 18,640 | 13,678 | 8.60 | ~10,819 |
+| **Q1 FY27** | **2,04,987** | **15,485** | **8%** | 7,012 | **6,554** | 9.46 | **~11,901** |
+
+- **Check:** the four FY26 attributable quarters sum to ₹41,414 Cr vs ₹41,424 Cr in AR26. The method holds.
+- **Read:** in Q1 FY27, attributable PAT (₹11,901 Cr) *exceeded* pre-minority (₹6,554 Cr) by ₹5,347 Cr. That is the minorities' 45.1% share of HPCL's loss.
+
+#### (e) Annual-report findings (AR26 [V])
+
+**Reserves (1-Apr-2026):**
+- **2P 709.32 MMTOE** (697.83 operated + 11.49 JV, PRMS since 1-Apr-2019).
+- **1P** group 793.31 (ONGC 517.88; JV 10.16; OVL 265.27).
+- **1P trend FY22→FY26:**
+  - ONGC 557.31 → 530.71 → 514.83 → 515.17 → 517.88;
+  - JV 14.22 → 10.16;
+  - OVL 274.34 → 249.50 (FY25) → 265.27 (Sakhalin-1 restored).
+- Domestic 1P has stabilised since FY24 after a ~42 MMTOE fall in FY23–FY24.
+
+**Production (5-yr, AR26):**
+- Group crude 29.80 → 27.41 MMT FY22→FY26 (ONGC 19.54 → 19.33; JV 2.16 → 1.17; OVL 8.10 → 6.91).
+- Group gas 25.91 → 22.72 BCM (ONGC 20.91 → 19.53; JV 0.77 → 0.43; OVL 4.23 → 2.76).
+
+**Drilling and capex:**
+- 501 wells in FY26 (100 exploratory, 401 development) vs a 35-year-high 578 in FY25.
+- Group capex ₹61,131 Cr: ONGC ₹35,878; HPCL ₹15,705; OVL ₹7,207; MRPL ₹2,044; OPaL ₹184; OGL ₹100 Cr.
+- OALP-X & XI: 46 blocks on offer (28 offshore, 18 onland).
+
+**Where revenue goes (FY26 standalone, ₹ Cr, % of revenue from operations ₹1,32,508):**
+
+| Line | ₹ Cr | % |
+|---|---|---|
+| Royalty | 12,965 | 9.8% |
+| OIDB cess | 13,034 | 9.8% |
+| NCCD + other levies | 149 | 0.1% |
+| Operating expenses | 28,209 | 21.3% |
+| Survey write-off | 1,493 | 1.1% |
+| Dry-well write-off | 8,236 | 6.2% |
+| Provisions and write-offs | 3,948 | 3.0% |
+| FX loss | 2,699 | 2.0% |
+| Other | 55 | — |
+| **PBIDT (with other income ₹10,356 Cr)** | **72,078** | — |
+
+**10-year context of statutory levies (% of revenue):**
+- FY22 25.3%; **FY23 29.1% (SAED year)**; FY24 26.6%; FY25 22.5%; FY26 19.7%.
+- SAED ("other levies") was ₹11,054 Cr in FY23, ₹8,720 Cr in FY24 and ₹4,032 Cr in FY25 on the P&L line (the exchequer-table figures in Supersede 14 differ slightly).
+
+**Employees:** 23,117 at FY26 vs 33,660 at FY17 (−31%); employee cost ₹10,211 Cr.
+
+**Contribution to exchequer:** ₹55,865 Cr in FY26 (42.2% of turnover). Dividend to the Centre was ₹9,817 Cr (paid in FY26).
+
+**Related parties (FY26):**
+- ONGC sold **₹12,215 Cr of crude to MRPL** and **₹20,048 Cr of crude, gas and VAP to HPCL**. Together that is ₹32,263 Cr, ~24% of standalone revenue, eliminated on consolidation.
+- Dividends received: HPCL ₹1,811 Cr, MRPL ₹502 Cr, OVL ₹51 Cr, Petronet MHB ₹53 Cr.
+
+**Contingent liabilities:**
+- Total **₹71,577 Cr** at Mar-26 (Mar-25 ₹65,220 Cr). Main items:
+  - contractor claims ₹14,551 Cr (+₹1,888 Cr JV);
+  - income tax ₹11,235 Cr;
+  - **Assam specified land tax ₹1,639 Cr**;
+  - sales tax ₹3,100 Cr;
+  - JV-block ST/GST ₹8,950 Cr (of which ₹6,683 Cr is other partners' share);
+  - **PMT ₹15,225 Cr** (inside "JV others" ₹20,065 Cr).
+- **GST/ST on royalty:** provision **₹19,645 Cr** (FY26 addition ₹2,526 Cr), with **₹18,647 Cr deposited under protest**. The question is pending before a **nine-judge Supreme Court bench**.
+
+**Cash and leases (standalone, Mar-26):**
+- Cash & bank ₹28,660 Cr; borrowings ₹7,823 Cr; lease liabilities ₹25,822 Cr; SRF deposits ₹32,728 Cr.
+- Quoted investments' market value is **₹98,076 Cr**: HPCL, MRPL, IOC, GAIL, Petronet and others.
+
+**Ratings:** CARE AAA/Stable and A1+ reaffirmed 9-Oct-2026 on ₹42,500 Cr of facilities [V BSE].
+
+**OPML (gap 12 closed):**
+- **ONGC Petrochemicals Marketing Ltd**, incorporated 7-Oct-2026. It is a JV of ONGC : MRPL : OPaL at 50 : 25 : 25, with ₹50 Cr capital (ONGC ₹25 Cr).
+- Purpose: a single integrated marketing and trading platform for the group's petrochemicals — branding, pricing, distribution, logistics, sourcing/trading and S&OP.
+- It follows a 25-Apr-2026 board approval [V BSE 8-Oct-2026].
+- It is *not* a port or upstream vehicle. It is the commercial front-end for OPaL + MRPL polymers/aromatics.
+
+**Risks emphasised in the MD&A:**
+- natural decline and reservoir complexity;
+- APM-capped gas;
+- fiscal/levy risk;
+- offshore execution;
+- rupee volatility (FY26 FX loss from INR −₹9/$, +11%);
+- subsidiary (HPCL) margin exposure;
+- energy transition.
+
+### 4.2.2 Oil India (533106)
+
+**Primary documents read:**
+- Q1 FY27 call transcript (10-Aug-2026, BSE).
+- Q4 FY26 call (May-2026), Q3 FY26 call (11-Feb-2026), Q2 FY26 call (17-Nov-2025).
+- Investors' Meet FY26 deck (25-May-2026).
+- Integrated AR 2025-26 and AR 2023-24.
+- CRISIL rationale (9-Oct-2026).
+- Screener consolidated and standalone (22-Oct-2026).
+
+OIL does not publish a separate quarterly results deck; the call is the KPI source.
+
+#### (a) Management-commentary digest (paraphrased)
+
+1. **Record quarter on price and volume** (CIRO, 10-Aug-26).
+   - Production 1.707 MMTOE. Crude 0.95 MMT (+11% YoY); a record 10,921 t/d on 27-Jun-2026 and 11,017 t/d in early August.
+   - Gas +0.4% QoQ.
+   - Crude realisation $98.73 (vs $66.20); gas $7.19 (vs $6.72 in Q1 FY26).
+   - Standalone revenue ₹7,958 Cr (highest since listing); EBITDA ₹4,605 Cr (54%+ margin vs 34%); PBT ₹3,742 Cr; PAT ₹2,870 Cr (vs ₹813 Cr); EPS ₹17.65.
+2. **NRL** (10-Aug-26):
+   - Operating income ₹9,146 Cr (+45%); utilisation 105%; distillate yield 87%.
+   - **GRM $35.95 vs $5.02**; EBITDA ₹1,843 Cr (vs ₹786 Cr); PAT ₹1,305 Cr (vs ₹488 Cr).
+   - Consolidated operating revenue ₹12,886 Cr.
+3. **Crude guidance** (10-Aug-26): "minimum 3.9" MMT in FY27 (FY26 3.45), and ~4.2 MMT from the main producing area by FY29, excluding any deepwater.
+4. **Gas** (10-Aug-26):
+   - 3.8 BCM next year (FY28). Wells are being shut in today for lack of offtake.
+   - The big step-up comes in Q1 FY28, when the IGGL/DNPL evacuation links are complete. Only a ~200-m tie-in within the NRL campus remains on DNPL.
+   - Management accepted the analyst's framing of "2.93 BCM now → ~5 BCM annualised (FY29)".
+5. **Samudra Manthan** (10-Aug-26): the government reimburses seismic and roughly ₹675 Cr per deep/ultra-deep well (OIL's reading). Detailed modalities were not yet notified.
+6. **FY26 in hindsight** (Q4 FY26 call, May-2026).
+   - The $69/bbl realisation was the lowest in five years, yet standalone total income held at ₹24,039 Cr and consolidated at ₹38,981 Cr.
+   - Profit was hit by price and by E&P write-offs.
+7. **Q3 FY26** (11-Feb-26):
+   - Realisation $62.84 vs $73.80; 9M $65.73 vs $79.35 (−17%).
+   - Gas $6.65 vs $6.56; EBITDA margin 33.96% (Q2 34.82%).
+   - 19 wells in Q3, 51 in 9M (65% of the annual target).
+8. **Q2 FY26** (17-Nov-25): realisation $68.19 vs $79.33; H1 $67.22 vs $82.09; gas $6.78 vs $6.70.
+9. **Balance sheet events after FY26** (CRISIL, 9-Oct-26):
+   - ~₹3,304 Cr of GST on royalty was paid in Aug–Sep 2026 under protest.
+   - NRL refinery cost was revised to ₹33,901 Cr (from ~₹28,000 Cr); the PP plant costs ₹7,231 Cr.
+   - Consolidated cash was ₹5,609 Cr at Mar-26.
+   - CRISIL's FY27 crude assumption is $80–85/bbl.
+10. **Gas-offtake reality** (AR26):
+    - FY26 gas production was 3.186 BCM vs a MoU target of 3.889 BCM (82%). Sales were 2.632 BCM (83% of production).
+    - **Lost gas: low market demand / low uplift 0.221 BCM, evacuation 0.175 BCM, bandhs 0.009 BCM.**
+    - Rajasthan evacuates 98% of its gas; Assam/Arunachal only 78% (2.243 of 2.863 BCM).
+
+#### (b) Concall KPI table — OIL standalone
+
+| KPI | Q1 FY25 | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|---|
+| Crude realisation ($/bbl) | ~84.9 [E: 2 × H1 82.09 − 79.33] | 79.33 | 73.80 | ~74.3 [E] | 66.20 | 68.19 | 62.84 | ~79.0 [E] | **98.73** |
+| Gas price ($/mmBtu) | — | 6.70 | 6.56 | — | 6.72 | 6.78 | 6.65 | — | **7.19** |
+| EBITDA margin (company) | — | — | — | — | 34%+ | 34.82% | 33.96% | — | **54%+** |
+| Standalone PAT (₹ Cr) | 1,467 | 1,834 | 1,222 | 1,591 | 813 | 1,044 | 808 | 1,790 | **2,870** |
+| Wells drilled | — | — | — | FY25 57 | — | — | Q3 19; 9M 51 | FY26 74 | 17 (7E + 10D) |
+| Realisation − EIA Brent ($) | — | — | −0.8 | ~−1.5 [E] | −1.8 | −0.8 | −0.8 | ~−1.2 [E] | −4.6 |
+
+**Q4 residuals [E]:** FY25 average $78.09 and FY26 $69.04 [V presentation], minus the 9M averages [V], assuming equal volume. Q1 FY27's −$4.6 gap is the largest. It is consistent with month-lag pricing in a quarter where Brent peaked in April and fell to $85 in June, so expect a *smaller* or positive gap in Q2 FY27, when Brent rose through the quarter [E].
+
+#### (c) 5-year history (₹ Cr)
+
+**Standalone** (screener [V] and AR26 5-yr table [V]):
+
+| FY | Revenue (screener) | Company op. revenue | OP | OPM | Company EBITDA | Other inc. | DD&A | PBT | PAT | ROCE (screener) | Dividend (₹ Cr) | Crude $/bbl | O+OEG (MMTOE) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 14,530 | 14,530 | 5,369 | 37% | 7,266 | 1,897 | 1,497 | 4,986 | 3,887 | 14% | 1,545 | 78.96 | 6.06 |
+| FY23 | 21,372 | 23,260 | 9,679 | 45% | 11,176 | 1,497 | 1,595 | 8,857 | 6,810 | 22% | 2,169 | 95.47 | 6.36 |
+| FY24 | 20,008 | 22,130 | 9,693 | 48% | 11,643 | −413 | 1,775 | 6,745 | 5,552 | 20% | 1,708 | 83.03 | 6.54 |
+| FY25 | 20,527 | 22,117 | 8,766 | 43% | 10,636 | 1,870 | 1,919 | 7,851 | 6,114 | 15% | 1,871 | 78.09 | 6.71 |
+| FY26 | 20,480 | 21,346 | 6,060 | 30% | 8,753 | 2,693 | 2,367 | 5,420 | 4,455 | 10% | 1,871 | 69.04 | 6.64 |
+
+**Notes on the standalone table:**
+- FY23 includes ₹1,887 Cr of SAED and FY24 ₹1,405 Cr. Screener nets SAED/excise out of revenue, which is why its FY23–FY24 revenue is below the company's operating revenue.
+- **Plan expenditure (capex):** ₹4,367 / 5,534 / 5,907 / 8,467 / 13,026 Cr — tripled in 4 years.
+- **CFO:** ₹6,005 / 7,660 / 7,715 / 8,171 / 7,576 Cr.
+- **Borrowings:** ₹11,636 / 11,161 / 11,341 / 12,074 / 13,278 Cr.
+
+**Consolidated (screener; attributable ≈ EPS × 162.66 Cr bonus-adjusted shares [V-arith]):**
+
+| FY | Sales | OP | OPM | PBT | PAT pre-minority | PAT attributable [E] | ROCE |
+|---|---|---|---|---|---|---|---|
+| FY22 | 25,906 | 10,500 | 41% | 8,990 | 6,719 | ~5,622 | 21% |
+| FY23 | 36,084 | 15,255 | 42% | 13,144 | 9,854 | ~8,728 | 25% |
+| FY24 | 31,749 | 12,504 | 39% | 8,846 | 6,980 | ~6,336 | 18% |
+| FY25 | 31,703 | 11,158 | 35% | 9,436 | 7,040 | ~6,550 | 13% |
+| FY26 | 33,081 | 10,446 | 32% | 9,582 | 7,551 | ~6,620 | 12% |
+
+#### (d) 8-quarter trend (₹ Cr; screener 22-Oct-2026 [V])
+
+**Standalone:**
+
+| Quarter | Revenue | OP | OPM | Other inc. | PBT | PAT | Crude $/bbl |
+|---|---|---|---|---|---|---|---|
+| Q2 FY25 | 5,246 | 2,183 | 42% | 856 | 2,305 | 1,834 | 79.33 |
+| Q3 FY25 | 5,240 | 2,133 | 41% | 189 | 1,550 | 1,222 | 73.80 |
+| Q4 FY25 | 5,519 | 1,984 | 36% | 664 | 2,020 | 1,591 | ~74.3 [E] |
+| Q1 FY26 | 5,012 | 1,606 | 32% | 176 | 1,098 | 813 | 66.20 |
+| Q2 FY26 | 5,457 | 1,325 | 24% | 831 | 1,318 | 1,044 | 68.19 |
+| Q3 FY26 | 4,916 | 1,308 | 27% | 547 | 948 | 808 | 62.84 |
+| Q4 FY26 | 5,961 | 1,821 | 31% | 1,139 | 2,057 | 1,790 | ~79.0 [E] |
+| **Q1 FY27** | **7,958** | **4,084** | **51%** | 521 | **3,742** | **2,870** | **98.73** |
+
+**Consolidated:**
+
+| Quarter | Sales | OP | OPM | PBT | PAT pre-minority | EPS (₹) | PAT attributable [V-arith] |
+|---|---|---|---|---|---|---|---|
+| Q2 FY25 | 7,247 | 2,536 | 35% | 2,626 | 2,069 | 12.40 | ~2,017 |
+| Q3 FY25 | 8,337 | 2,542 | 30% | 1,917 | 1,457 | 8.23 | ~1,339 |
+| Q4 FY25 | 8,808 | 2,588 | 29% | 2,193 | 1,497 | 8.05 | ~1,309 |
+| Q1 FY26 | 7,929 | 2,351 | 30% | 2,505 | 2,047 | 11.66 | ~1,897 |
+| Q2 FY26 | 8,394 | 2,303 | 27% | 2,048 | 1,644 | 8.78 | ~1,428 |
+| Q3 FY26 | 8,330 | 2,287 | 27% | 1,910 | 1,436 | 7.35 | ~1,196 |
+| Q4 FY26 | 9,293 | 3,281 | 35% | 3,119 | 2,424 | 12.91 | ~2,100 |
+| **Q1 FY27** | **12,503** | **5,793** | **46%** | **5,322** | **4,027** | 22.32 | **~3,631** |
+
+- **Check:** the FY26 attributable quarters sum to ₹6,621 Cr vs ~₹6,620 Cr from annual EPS.
+- **NRL's share of Q1 FY27:** consolidated − standalone PAT = ₹1,157 Cr, broadly NRL's ₹1,305 Cr PAT less eliminations.
+
+#### (e) Annual-report findings (OIL AR26 [V])
+
+**Reserves (1-Apr-2026):**
+
+| Scope | 1P | 2P | 3P |
+|---|---|---|---|
+| Domestic oil + condensate (MMT) | 28.70 | 68.68 | 87.34 |
+| Domestic gas (BCM, balance recoverable) | 90.56 | 139.68 | 178.99 |
+| Domestic gas (BCM, sales-contract basis) | 35.30 | 50.58 | 61.96 |
+| **Domestic O+OEG (MMTOE)** | 107.73 | **190.09** | 243.05 |
+| Overseas oil + condensate (MMT) | 8.76 | 20.53 | 32.27 |
+| Overseas gas (BCM) | 11.62 | 20.04 | 23.89 |
+| **Overseas O+OEG (MMTOE)** | 20.38 | 40.57 | 56.16 |
+
+- **Read:** 73% of domestic 2P is gas (139.7 BCM). Only ~36% of that gas (50.6 BCM) is backed by sales contracts.
+- The "31-year reserve life" therefore overstates *monetisable* life. On the contract basis, domestic 2P is ~119 MMTOE, ~18 years at 6.64 MMTOE/yr [E].
+
+**Overseas assets:**
+- Vankor: 0.945 MMTOE share of FY26 production; cumulative dividends **$508.29 m** via VIPL.
+- Taas-Yuryakh: 0.464 MMT; **$491.89 m** of dividends and capital returned.
+- Russia investment ₹8,229.68 Cr ($1,033.7 m).
+- **Mozambique Area 1:** investment ₹11,714.19 Cr ($1,695.7 m); project 41.8% complete at Mar-26; OIL 2P share 16.21 MMTOE gas + 0.46 MMT condensate.
+- Carabobo (Venezuela): 3.5% share, 0.0139 MMT production.
+- License 61 (Russia): operator bankrupt.
+
+**Production detail FY26:**
+- Crude 3.45 MMT; gas 3.186 BCM (Assam/Arunachal 2.863, Rajasthan 0.255, Dirok JV 0.068).
+- Gas revenue ₹5,636.72 Cr (FY25 ₹5,514.09 Cr).
+- Terminal oil reached 10,566 MTPD in Mar-2026, a decade high.
+
+**P&L anatomy FY26 (standalone, ₹ Cr):**
+
+| Line | FY26 | FY25 | Note |
+|---|---|---|---|
+| Statutory levies | 5,299 | 5,520 | Royalty 2,800 (2,995); cess 2,482 (2,509); 24.8% of operating revenue |
+| Contract cost | 2,798 | 1,980 | +41% |
+| Employee cost | 1,929 | 1,837 | |
+| Exploratory wells written off | 746 | 77 | |
+| Impairment of exploratory wells | 1,342 | 569 | Andaman |
+| Exchange loss | 915 | 198 | |
+| GST on royalty | 865 | 809 | |
+| DD&A | 2,367 | 1,919 | Depletion 1,558; ROU depreciation net 376 |
+
+- **Dry-hole / impairment and FX items together took ~₹3,000 Cr** out of FY26 PBT (₹5,420 Cr) [E].
+
+**Related party:**
+- OIL sold **₹10,101 Cr of crude and gas to NRL** (FY25 ₹10,857 Cr) = **~47% of standalone operating revenue**. It also earned ₹588 Cr of pipeline tariff from NRL (₹243 Cr in FY25).
+- **This is why consolidated revenue is far below the sum of OIL + NRL:** OIL's own crude is NRL's main feedstock.
+- When NREP takes NRL to 9 MMTPA, OIL's ~3.5–4 MMT will be <45% of the feed, and NRL becomes a net crude importer via the Paradip pipeline [E].
+
+**Exchequer FY26:**
+- Total ₹9,213 Cr: Centre ₹5,335 Cr (corporate tax ₹1,607 Cr; cess ₹2,478 Cr; SAED + BED ₹0.33 Cr vs ₹773 Cr in FY25); states ₹3,878 Cr (royalty ₹2,644 Cr; VAT ₹1,156 Cr).
+- FY25 total was ₹11,232 Cr.
+
+**Balance sheet (Mar-26):**
+- Standalone borrowings ₹13,278 Cr vs cash, bank and current investments ₹3,693 Cr → **net ~₹9,585 Cr**.
+- Consolidated borrowings ₹35,959 Cr vs cash ₹5,609 Cr → **net ~₹30,350 Cr (~2.25× company EBITDA)**.
+- Net worth (company basis) ₹42,128 Cr standalone; ₹53,716 Cr consolidated.
+- D/E 0.27× standalone. DSCR improved to 2.03× from 1.61×.
+
+**Ownership (Mar-26):**
+- President of India 56.66% (921.56 mn shares); LIC 6.86% (6.51%).
+- IOC/BPCL/HPCL hold 9.87% [V-P1 presentation]. The ONGC group's look-through holding in OIL via HPCL is 2.47% [V ONGC AR26].
+
+**Contingent / legal:**
+- GST on royalty paid ~₹3,304 Cr (Aug–Sep 2026).
+- Assam land-tax law (state undertook to repeal) [V-P1 call].
+
+**Risks highlighted:** reserve replacement; offtake and evacuation; NE law and order (bandhs); overseas geopolitics (Russia sanctions, Mozambique security); NREP cost and timing; commodity prices.
+
+## 4.3 Industry datasets upgraded from primary sources (chart-ready)
+
+### D1. Crude benchmarks, monthly, Apr-2025 → Oct-2026 ($/bbl)
+
+**Sources:**
+- Indian basket: PPAC international-price service, posted 22-Oct-2026 [V].
+- Brent: EIA Europe Brent spot FOB monthly (RBRTEm), fetched 22-Oct-2026 [V].
+
+PPAC's Snapshot quotes Brent as $90.84 (Aug-26) and $116.77 (Sep-26) on its own assessment. EIA has $91.08 and $114.16. Use one series per chart.
+
+| Month | Indian basket | EIA Brent | Sweet:sour in basket |
+|---|---|---|---|
+| Apr-25 | 67.72 | 68.13 | — |
+| May-25 | 64.04 | 64.45 | — |
+| Jun-25 | 69.77 | 71.44 | — |
+| Jul-25 | 70.95 | 71.04 | — |
+| Aug-25 | 69.11 | 67.87 | — |
+| Sep-25 | 69.61 | 67.99 | — |
+| Oct-25 | 65.08 | 64.54 | — |
+| Nov-25 | 64.31 | 63.80 | — |
+| Dec-25 | 62.20 | 62.54 | — |
+| Jan-26 | 63.08 | 66.60 | — |
+| Feb-26 | 69.01 | 70.89 | — |
+| Mar-26 | 113.49 | 103.13 | 61.0 : 39.0 |
+| Apr-26 | 114.48 | 117.29 | 61.0 : 39.0 |
+| May-26 | 106.23 | 107.14 | 70 : 30 |
+| Jun-26 | 83.22 | 85.40 | 71.0 : 29.0 |
+| **Jul-26** | **82.04** | **83.76** | 79.4 : 20.6 |
+| Aug-26 | 90.19 | 91.08 | 74.9 : 25.1 |
+| Sep-26 | 116.09 | 114.16 | 77.8 : 22.2 |
+| **Oct-26 (to 21st)** | **120.09** (spot 21-Oct **116.73**) | n.a. | 65.3 : 34.7 |
+
+**Quarterly averages [V-arith]:**
+
+| Quarter | Basket | EIA Brent |
+|---|---|---|
+| FY26 (full year) | 70.99 | 70.20 |
+| Q1 FY26 | 67.18 | 68.01 |
+| Q2 FY26 | 69.89 | 68.97 |
+| Q3 FY26 | 63.86 | 63.63 |
+| Q4 FY26 | 81.86 | 80.21 |
+| Q1 FY27 | 101.31 | 103.28 |
+| **Q2 FY27** | **96.11** | **96.33** |
+
+The basket closed FY26 at $124.85 on 31-Mar-2026 (spot) [V PPAC].
+
+### D2. Upstream crude realisation vs Brent, quarterly ($/bbl)
+
+**Sources:** company transcripts [V]; [E] = residual from annual averages.
+
+| Quarter | ONGC | OIL | EIA Brent |
+|---|---|---|---|
+| Q1 FY25 | 83.05 | ~84.9 [E] | n.f. |
+| Q2 FY25 | 78.33 | 79.33 | n.f. |
+| Q3 FY25 | 72.57 | 73.80 | 74.61 |
+| Q4 FY25 | ~74.9 [E] | ~74.3 [E] | 75.81 |
+| Q1 FY26 | 66.13 | 66.20 | 68.01 |
+| Q2 FY26 | 67.34 | 68.19 | 68.97 |
+| Q3 FY26 | 61.63 | 62.84 | 63.63 |
+| Q4 FY26 | ~80.5 [E] | ~79.0 [E] | 80.21 |
+| **Q1 FY27** | **99.45** | **98.73** | **103.28** |
+| Q2 FY27 (expected) | ~93–95 [E] | ~93–95 [E] | 96.33 |
+
+- **Annual averages:** ONGC FY25 $77.2 and FY26 $68.9 [V-arith AR]; OIL FY22–FY26 $78.96 / 95.47 / 83.03 / 78.09 / 69.04 [V-P1 presentation].
+- **Gas ($/mmBtu):**
+  - OIL: Q2 FY25 6.70, Q3 FY25 6.56, Q1 FY26 6.72, Q2 FY26 6.78, Q3 FY26 6.65, Q1 FY27 7.19 [V].
+  - ONGC NWG: Q1 FY26 8.24, Q1 FY27 13.31 [V-arith]. APM cap: 6.50 → 6.75 → 7.00.
+
+### D3. Windfall tax actually paid by the two members (₹ Cr, standalone)
+
+**Sources:** ONGC AR26 exchequer table; OIL AR24 note 57.16 and AR26 note 57.10 [V].
+
+| FY | ONGC SAED | OIL SAED | Pair | Context: ONGC statutory levies total (% of revenue) |
+|---|---|---|---|---|
+| FY23 (from 1-Jul-22) | 10,964 | 1,887 | **12,852** | 45,284 (29.1%) |
+| FY24 | 8,634 | 1,405 | **10,039** | 36,798 (26.6%) |
+| FY25 (to 2-Dec-24; nil from 18-Sep-24) | 3,948 | 780 | **4,728** | 30,968 (22.5%) |
+| FY26 | nil | nil (₹0.33 Cr BED) | **0** | 26,148 (19.7%) |
+| **Total** | **23,546** | **4,072** | **27,618** | |
+
+- **Mechanism detail [V OIL AR24]:** SAED was charged only on crude volume up to the previous year's output. **Incremental production above the prior year was exempt.** That clause matters for any 2026-style reimposition debate, because both companies are now guiding volume growth.
+- **Government-wide crude SAED** was "about ₹25,000 Cr" in FY23, with FY24 at "40–50% of it" [V-snip Cogencis citing a finance-ministry official]. ICRA estimated ~₹40,000 Cr for FY23 including product-export SAED [V-snip].
+- **So ONGC + OIL paid roughly half of the government's FY23 crude windfall take** [E]. The rest came from Vedanta/Cairn, RIL-bp and other PSC producers.
+
+### D4. Under-recovery and upstream burden-sharing, 2002-03 → 2015-16 (₹ Cr)
+
+**(i) PPAC under-recoveries on sensitive products** [V PPAC legacy table, sheet "UR(FAQ)"]
+
+| FY | Petrol | Diesel | Domestic LPG | PDS kerosene | **Total** |
+|---|---|---|---|---|---|
+| 2002-03 | 0 | 0 | 3,363 | 2,067 | **5,430** |
+| 2003-04 | 0 | 0 | 5,523 | 3,751 | **9,274** |
+| 2004-05 | 150 | 2,154 | 8,362 | 9,480 | **20,146** |
+| 2005-06 | 2,723 | 12,647 | 10,246 | 14,384 | **40,000** |
+| 2006-07 | 2,027 | 18,776 | 10,701 | 17,883 | **49,387** |
+| 2007-08 | 7,332 | 35,166 | 15,523 | 19,102 | **77,123** |
+| 2008-09 | 5,181 | 52,286 | 17,600 | 28,225 | **1,03,292** |
+| 2009-10 | 5,151 | 9,279 | 14,257 | 17,364 | **46,051** |
+
+- Totals are [V-arith].
+- **Budgetary (fiscal) subsidy** on PDS kerosene + domestic LPG in the same years: 4,496 / 6,292 / 2,930 / 2,662 / 2,524 / 2,641 / 2,688 / 1,814 [V PPAC].
+
+**(ii) Upstream (ONGC + OIL + GAIL) share**
+
+| FY | Upstream share | of which ONGC | of which OIL | Total UR | Upstream % | Source |
+|---|---|---|---|---|---|---|
+| 2003-04 | ~3,100 | 2,695 | n.a. | 9,274 | ~1/3 | [V-snip Lok Sabha; Business Standard] |
+| 2004-05 | ~5,900 | 4,104 | ~706 [?] | 20,146 | ~1/3 | [V-snip LS] |
+| 2005-06 | — | 8,549 (Apr–Dec) | ~676 [?] | 40,000 | — | [V-snip LS] |
+| 2009-10 | 14,430 | n.a. | n.a. | 46,051 | 31% | [V-snip LS 2012] |
+| 2010-11 | 30,297 | n.a. | n.a. | ~78,000 | 39% | [V-snip LS 2012] |
+| 2011-12 | 36,894 (to Dec-11) | n.a. | n.a. | — | 38% | [V-snip LS 2012] |
+| **2013-14** | **67,021** | **56,384** | 8,737 [V-snip] | **1,39,870** | **47.9%** | **[V ONGC AR 2014-15]** |
+| **2014-15** | **42,823** | **36,300** | n.a. | **72,314** | **59.2%** | **[V ONGC AR 2014-15]** |
+| 2015-16 | 1,980 (Apr–Sep) | n.a. | n.a. | — | — | [V-snip LS]; sharing stopped from Q3 FY16 |
+
+- **ONGC FY14/FY15 economics [V AR15]:**
+  - gross crude $106.72 / $85.28;
+  - discount $65.75 / $40.40 per bbl;
+  - **net realisation $40.97 / $44.87**;
+  - PBT hit ₹47,756 / ₹30,960 Cr.
+- In FY15 the government bore 37.8% and the OMCs 3.0%. ONGC alone was 50.2% of the total and 84.8% of the upstream share.
+- **Still open:** primary company-wise rows for FY06–FY13 and the FY12–FY13 peak years. eparlib/sansad PDFs failed to load (502/503).
+
+**(iii) Today's equivalent, for scale [V PPAC RR Table 8.23]**
+
+Total subsidy and under-recovery on petroleum products and natural gas, FY21–FY26 (₹ Cr):
+
+| FY | Total | Note |
+|---|---|---|
+| FY21 | 12,231 | |
+| FY22 | 2,237 | |
+| FY23 | 30,396 | incl. LPG under-recovery compensation 22,000 |
+| FY24 | 12,696 | |
+| FY25 | 14,810 | |
+| FY26P | 27,584 | incl. LPG compensation 12,500 |
+
+- PMUY claims were ₹12,212 Cr in FY26.
+- NE gas subsidy ₹1,119 Cr in FY26: this is the 40% of APM price the budget pays on NE gas, which ONGC and OIL receive.
+
+### D5. Domestic crude + condensate by producer (MMT) and shares
+
+**Source:** PPAC RR FY26 Table 2.5B [V].
+
+| FY | ONGC nomination | OIL nomination | PSC/RSC (all cos) | Condensate | **Total** | ONGC nom. share | OIL share |
+|---|---|---|---|---|---|---|---|
+| FY20 | 19.2 | 3.1 | 8.2 | 1.6 | 32.2 | 59.6% | 9.6% |
+| FY21 | 19.1 | 2.9 | 7.1 | 1.4 | 30.5 | 62.6% | 9.5% |
+| FY22 | 18.5 | 3.0 | 7.0 | 1.2 | 29.7 | 62.3% | 10.1% |
+| FY23 | 18.4 | 3.2 | 6.2 | 1.4 | 29.2 | 63.0% | 11.0% |
+| FY24 | 18.1 | 3.3 | 5.7 | 2.2 | 29.4 | 61.6% | 11.2% |
+| FY25 | 17.4 | 3.4 | 5.6 | 2.2 | 28.7 | 60.6% | 11.8% |
+| FY26 | 16.8 | 3.4 | 5.7 | 2.0 | 27.9 | 60.2% | 12.2% |
+
+- **On a "company incl. JV share and condensate" basis**, ONGC is >73% (AR26) and OIL ~11–12% (CRISIL "~11%").
+- The PI-basis shares of 71.7% / 14.4% (Apr–Sep 2026, PPAC Snapshot chart) [V-P1] remain the best H1 FY27 split. Their label mapping is unverified.
+- **ICRA's FY27 projection for India is 28.0–28.5 MMT** [V]. H1 actual 13.7 MMT [V-P1].
+- **Overseas production by Indian companies (MMTOE)** [V RR 2.8]: FY21 21.9, FY22 21.8, FY23 19.5, FY24 19.9, FY25 18.1, FY26 19.2. Domestic O+OEG: 59.2 / 63.7 / 63.6 / 65.8 / 64.8 / 62.7.
+
+### D6. Gas price-mix split (gap 4) [E built on V inputs]
+
+**ONGC FY26:** production 19.53 BCM ≈ 53.5 MMSCMD.
+
+| Gas stream | Volume | Share of production | Price |
+|---|---|---|---|
+| **NWG** (Q1 FY27) | — | 19% of volume (24% of sales quantity) | $13.31 |
+| **HP-HT** (KG-98/2) | 1.5–1.7 MMSCMD | ~3% | ceiling $8.90 (Apr–Sep 26) / $9.89 |
+| **APM legacy** (remainder) | — | **~78% of production volume** | **$7.00 cap** |
+
+- **By revenue:** NWG = 38% of nomination gas revenue in Q1 FY27 [V].
+- **FY28 path [E]:** DUDP (NWG pricing [V Q4 FY25 call]) plus KG-98/2 at 6–7 MMSCMD would take uncapped gas to ~35–40% of volume.
+
+**OIL:**
+- No split is published. Management says "all incremental gas will be NWG" [V-P1].
+- **Inference [E]:** OIL's Q3 FY26 gas price was $6.65, against an APM price of ~$6.59 (the average of Oct–Dec 2025 formula prices capped at $6.75). In Q1 FY27 it realised $7.19 against the $7.00 cap. Both imply that NWG/premium gas is a **low-single-digit share** of OIL's gas today.
+- So OIL's FY28–FY29 gas growth (2.9 → ~5 BCM) is also a *price-mix* story: incremental gas earns ~12% of the basket.
+
+### D7. Imports (crude HS 2709 and LNG HS 2711) — PPAC series used in place of commerce.gov.in TradeStat
+
+TradeStat is a form-driven site and was not attempted within budget.
+
+**Sources:** PPAC RR Tables 8.24 and 3.10 [V].
+
+| FY | Crude imports (MMT) | Crude imports ($ bn) | $/bbl | LNG (MMT) | LNG ($ bn) | LNG $/mmBtu |
+|---|---|---|---|---|---|---|
+| FY19 | 226.5 | 111.9 | 67.41 | 21.7 | 10.25 | 9.0 |
+| FY20 | 227.0 | 101.4 | 60.94 | 25.6 | 9.49 | 7.1 |
+| FY21 | 196.5 | 62.2 | 43.23 | 25.1 | 7.88 | 6.0 |
+| FY22 | 212.4 | 120.7 | 77.52 | 23.4 | 13.47 | 10.9 |
+| FY23 | 232.7 | 157.5 | 92.36 | 19.9 | 17.11 | 16.4 |
+| FY24 | 234.3 | 133.4 | 77.67 | 24.0 | 13.41 | 10.8 |
+| FY25 | 243.2 | 137.2 | 76.94 | 27.0 | 14.91 | 10.6 |
+| FY26 | 245.8 | 123.4 | 68.49 | 26.0 (P) | 13.36 | 9.8 |
+
+- FY26 crude imports were ₹10,92,248 Cr.
+- **Domestic crude (27.9 MMT) is worth ~10% of the import bill.** At FY26 prices that is ~$14 bn of import substitution [E].
+- At $96 (Q2 FY27) and ₹95/$, every extra 1 MMT of domestic crude saves ~$0.70 bn a year [E].
+
+### D8. Reserves (chart-ready)
+
+| Series | FY22 | FY23 | FY24 | FY25 | FY26 | Source |
+|---|---|---|---|---|---|---|
+| ONGC 1P (MMTOE) | 557.31 | 530.71 | 514.83 | 515.17 | 517.88 | [V AR26] |
+| ONGC JV 1P | 14.22 | 12.10 | 11.26 | 10.75 | 10.16 | [V AR26] |
+| OVL 1P | 274.34 | 264.09 | 253.81 | 249.50 | 265.27 | [V AR26] |
+| ONGC group 1P | 845.87 | 806.90 | 779.90 | 775.42 | 793.31 | [V AR26] |
+| ONGC 2P (operated + JV) | — | — | — | — | **709.32** | [V AR26] |
+| ONGC 2P RRR (domestic) | — | — | — | 1.35 | 1.17 | [V calls / AR26] |
+| OIL 2P (domestic + overseas) | — | — | — | ~230 | 230.67 | [V AR26 / presentation] |
+| OIL RRR | — | — | — | 0.94 | 1.02 | [V] |
+
+- **India 2P (MoPNG physical asset account)** [V-P1 RR]: crude 3,101 Mbbl, gas 5,95,386 MMSCM (Mar-2025).
+- ONGC operated 2P (697.83 MMTOE) is roughly **two-thirds (~65–70%) of India's crude + gas 2P** on a 1:1 MMTOE basis [E: 3,101 Mbbl ≈ 423 MMT + 595 BCM ≈ 1,018 MMTOE; the dates differ by a year and the definitions may not match exactly].
+
+### D9. Cost benchmarks (lifting/opex per boe)
+
+| Company | Metric | Value | Basis / source |
+|---|---|---|---|
+| ONGC (standalone) | Opex ÷ O+OEG production | **~$11.2/boe FY26** (FY25 ~$11.3) | [E on V AR26]: ₹28,209 Cr ÷ 284.9 mboe ÷ ₹88.31; excludes levies (~$10.4/boe), write-offs and DD&A (~$10/boe) |
+| ONGC | Statutory levies per boe | ~$10.4/boe FY26 | [E: ₹26,148 Cr ÷ 284.9 mboe ÷ ₹88.31] |
+| ONGC | DD&A per boe | ~$10.0/boe | [E: ₹25,134 Cr screener ÷ 284.9 mboe] |
+| OIL (standalone) | Cash opex ÷ production | **~$12.6/boe FY26** | [E on V AR26] |
+| OIL | Statutory levies per boe | ~$12.3/boe | [E: ₹5,299 Cr ÷ 48.7 mboe ÷ ₹88.31] |
+| CNOOC | Operating expense per boe | $7.46 (2025); all-in cost $27.90 | [V-snip The Standard HK; World Oil] |
+| Petrobras | Lifting cost, Brazil / pre-salt | $6.33 / $4.45 per boe (Q2-2026) | [V-snip Economic News Brasil] |
+
+- **Read:** Indian NOC opex per boe is ~1.5× CNOOC's and ~2× Petrobras's.
+- **The bigger gap is the state's take**: royalty + cess ≈ $10–12/boe at $69 oil. All-in (opex + levies + DD&A) ONGC ≈ $31/boe vs CNOOC $27.90 [E]. So at $60 Brent, ONGC's standalone margin compresses faster than CNOOC's.
+
+### D10. Policy and rating datapoints (new, primary)
+
+- **ICRA (Mar-2026):**
+  - Import dependence 89–90% (FY25 and 10M FY26, ICRA basis).
+  - FY27 crude output 28.0–28.5 MMT.
+  - APM to stay at the $7.00 ceiling.
+  - Nomination production costs "low", so APM gas stays remunerative.
+  - Industry debt stable in FY27 [V].
+- **CRISIL on OIL (9-Oct-2026):** AAA/Stable reaffirmed. FY27 crude assumption $80–85/bbl. Downgrade trigger: GoI stake below 51% or large debt-funded capex [V].
+- **CARE on ONGC (9-Oct-2026):** AAA/Stable and A1+ reaffirmed on ₹42,500 Cr [V].
+- **Gas-price rules** confirmed in ONGC AR26: APM 10% of basket, floor $4 / ceiling $6.50 for FY24–FY25 then +$0.25/yr; NWG +20%; HP-HT ceiling $8.9 (Apr–Sep 2026). NE consumers pay 60%, and the budget pays the remaining 40% as "NE gas subsidy" [V].
+- **New royalty regime** (ONGC AR26 MD&A): a uniform formula for post-wellhead cost deduction. It removes long-standing inconsistencies in royalty computation and is a mild positive for net realisation [V; quantum not disclosed].
+
+## 4.4 Gap log (§H items and the extra gaps in the brief)
+
+| # | Gap | Status | What was found / tried |
+|---|---|---|---|
+| 1 | Lifting / production cost per boe | **Partly filled ([E] on [V])** | Neither ONGC (AR26, 7 transcripts) nor OIL (AR26, 4 transcripts) publishes $/boe lifting cost. ONGC declined to guide opex/bbl (Q1 FY26 call). Proxies computed from AR line items: ONGC ~$11.2/boe, OIL ~$12.6/boe (FY26), plus levies and DD&A per boe (D9). Peers: CNOOC $7.46 opex / $27.90 all-in [V-snip]; Petrobras $6.33 / $4.45 pre-salt [V-snip]. |
+| 2 | ONGC quarterly realisation series; 8-quarter tables for both | **Filled** (6 of 8 ONGC and 6 of 8 OIL quarters primary; Q4s residual [E]) | ONGC: Q1 FY25 83.05, Q2 78.33, Q3 72.57, Q1 FY26 66.13, Q2 67.34, Q3 61.63, Q1 FY27 99.45 [V transcripts]. OIL: Q2 FY25 79.33, Q3 73.80, Q1 FY26 66.20, Q2 68.19, Q3 62.84, Q1 FY27 98.73 [V]. Gas series in D2. Q4 FY25/Q4 FY26 not printed in either Q4 call → [E]. |
+| 3 | ONGC 2P stock; OIL 1P | **Filled** | ONGC 2P 709.32 MMTOE (1-Apr-2026) [V AR26]. OIL 1P 107.73 domestic + 20.38 overseas [V AR26]. |
+| 4 | APM / NWG / HP-HT volume split | **Partly filled** | ONGC: NWG 19% of volume / 24% of sales quantity / 38% of revenue [V]; HP-HT ~3% [E from 1.5–1.7 MMSCMD]; APM ~78% [E]. OIL: no disclosure; price evidence implies NWG is a low single-digit share [E] (D6). |
+| 5 | Subsidy-sharing history 2003–2016 | **Partly filled** | Primary: PPAC under-recovery by product 2002-03→2009-10 [V]; ONGC FY14 ₹56,384 Cr and FY15 ₹36,300 Cr, upstream ₹67,021 / ₹42,823 Cr, net realisation $40.97 / $44.87 [V ONGC AR15]. FY04–FY06 company rows and FY10–FY12 and FY16 aggregates are [V-snip Lok Sabha]. **Still open:** primary rows for FY06–FY13 (eparlib/sansad PDFs failed with 502/503; PPAC's subsidy page is JS-rendered with no table). |
+| 6 | SAED collections and amounts paid | **Filled for the companies; partly for the government** | ONGC ₹10,964 / 8,634 / 3,948 Cr; OIL ₹1,887 / 1,405 / 780 Cr (FY23–FY25) [V ARs]. Rate path: §7.3 [V-P1]. Government-wide totals only [V-snip] (~₹25k Cr FY23; FY24 40–50% of that). Rajya Sabha PDFs returned an HTML shell. |
+| 7 | Cross-holdings | **Filled** | IOC 7.84% and GAIL 2.45% in ONGC; ONGC holds 2,005.82 mn IOC shares (~14.2%), 326.72 mn GAIL shares (~4.97%), Petronet 12.5%; HPCL holds 2.47% of OIL [V AR26]. IOC 4.93%, BPCL 2.47%, HPCL 2.47% in OIL [V-P1]. |
+| 8 | MRPL holding split | **Filled** | 71.63% direct; effective group 80.94% (NCI 19.06%) [V AR26]; HPCL ~16.96% [E back-solve]. |
+| 9 | PPAC production shares by company FY26 | **Filled** | RR Table 2.5B [V] (D5). The H1 FY27 PI-share chart mapping is still best-effort [V-P1]. |
+| 10 | Brent and basket monthly 2026 incl. Jul–Sep | **Filled** | Basket Jul 82.04 / Aug 90.19 / Sep 116.09 / Oct-MTD 120.09 [V PPAC]; EIA Brent Jul 83.76 / Aug 91.08 / Sep 114.16 [V]. |
+| 11 | OIL "8.7 MMTOE" vs 6.64 | **Partly reconciled** | Overseas share ~1.42 MMTOE (Vankor 0.945, Taas 0.464, Carabobo 0.014) [V AR26] → ~8.06; ~0.6 unexplained. |
+| 12 | ONGC "OPML" | **Filled** | ONGC Petrochemicals Marketing Ltd: JV of ONGC 50 / MRPL 25 / OPaL 25; ₹50 Cr; integrated petchem marketing [V BSE 8-Oct-2026]. |
+| 13 | Net debt | **Filled** | ONGC standalone net cash ~₹20.8k Cr ex-leases (leases ₹25.8k Cr) [V]. OIL standalone net debt ~₹9.6k Cr; consolidated ~₹30.4k Cr (~2.25×) [V/E]. ONGC consolidated net debt is not computed (needs HPCL/MRPL/OPaL cash). |
+| 14 | Q2 FY27 board dates | **Still open (none filed)** | No intimation in the screener/BSE feeds as of 22-Oct-2026 (latest filings: ONGC 9-Oct, OIL 21-Oct) [V]. The BSE API is blocked (403). Last year: ONGC board 10-Nov-2025 / call 11-Nov [V]; OIL call 17-Nov-2025 [V]. IOC's board is 30-Oct-2026 [V-snip]. **Expect ONGC ~10–14 Nov and OIL ~10–14 Nov [E].** |
+| 15 | HPCL Q2 handout revenue basis (Part 1 §H-13) | Not pursued (out of scope) | — |
+| — | ONGC Q1 FY27 investor presentation | **Not available** | No Q1 FY27 deck on the ONGC site or BSE (the latest decks are corporate presentations from 2022–2023). |
+| — | ONGC Q1 FY27 production 4.452 MMT / 4.756 BCM | **Upgraded to [V-snip + arithmetic]** | Exact match to −4.93% / −1.85% on primary Q1 FY26 bases; the press release itself was not fetched. |
+| — | commerce.gov.in HS 2709 / 2711 | **Substituted** | PPAC RR import tables used (D7). TradeStat is form-driven and was not attempted within budget. |
+| — | DGH OALP data | **Partly** | RR Table 2.7B (OALP status) is available but not re-tabulated; AR26 gives OALP-X & XI = 46 blocks (28 offshore, 18 onland) [V]. |
+
+## 4.5 New insights the first pass missed
+
+1. **The 2022–24 windfall tax was smaller for these two than folklore says. The real lever was always gas.**
+   - ONGC + OIL paid **₹27,618 Cr of SAED over three years** (D3).
+   - That is less than ONGC alone gave up in **one** subsidy year (FY14: ₹56,384 Cr) and about the same as the FY26 APM-cap "transfer" if April–June 2026 prices had lasted a year (§B2 ≈ ₹17–22k Cr) [E].
+   - SAED also exempted incremental production. A reimposition in 2026–27 would likely carry the same carve-out, which favours the growing producer (OIL) over the declining one (ONGC).
+2. **"Brent-plus" realisation is a myth in the data.**
+   - Against dated Brent, both companies realised **$1–4/bbl *below*** in every quarter printed since Q3 FY25 (D2). The gap was widest in Q1 FY27 (−$3.8 / −$4.6), when prices fell through the quarter.
+   - Pricing lags help on the way up, so Q2 FY27 (Brent rising Jul→Sep) should see a narrower gap.
+   - Writers should model realisation ≈ Brent − $2, not Brent + 1–4%.
+3. **ONGC's volume guidance has been cut three times in 15 months.**
+   - Gas: ~22 BCM for FY27 (May-25) → 21.5 BCM (Nov-25) → total O+OEG ~39 MMTOE (Aug-26).
+   - KG-98/2 gas: 10 MMSCMD (May-25) → 3 MMSCMD near term (Nov-25) → 1.5–1.7 now, 3+ by Q4 FY27.
+   - The price windfall is masking a credibility problem on execution.
+4. **ONGC standalone is a net-cash company sitting on ~₹98k Cr of quoted stakes.**
+   - Net cash ~₹20.8k Cr ex-leases. Quoted investments (HPCL, MRPL, IOC, GAIL, Petronet) were worth ₹98,076 Cr at Mar-26, ~35% of today's m-cap.
+   - Leases of ₹25.8k Cr (vessels/rigs) are the real "debt".
+   - In SOTP terms (m-cap ₹2,83,395 Cr − quoted stakes at Mar-26 value − net cash), the E&P business is valued at ~₹1.64 lakh Cr, ~2.3× FY26 company EBITDA of ₹72,078 Cr [E].
+5. **OIL's reserve life is gas-heavy and contract-light.**
+   - 73% of domestic 2P is gas, and only 36% of that gas is backed by sales contracts.
+   - On the contract basis, domestic 2P life is ~18 years, not 31.
+   - That is why the IGGL feeder line and DNPL matter more than any discovery. The FY26 gas loss (0.40 BCM to low uplift and evacuation) was ~12% of output.
+6. **OIL and NRL are one integrated barrel.**
+   - ~47% of OIL's standalone revenue (₹10,101 Cr) is crude and gas sold to NRL.
+   - NREP's cost has crept to ₹41,132 Cr (incl. PP) from a ~₹28k Cr refinery estimate.
+   - After 9 MMTPA, NRL becomes a mostly-imported-crude refiner via the Paradip line. Its GRM will then look like a coastal refiner's, plus the NE excise benefit — not Q1 FY27's $36 [E].
+7. **Fiscal take dominates unit costs.**
+   - Royalty + cess ≈ $10–12/boe vs opex ~$11–13/boe at FY26 prices (D9). The state takes as much per barrel as it costs to lift it.
+   - The new uniform post-wellhead royalty formula (AR26) and any royalty relief under the 2025 Act are under-reported earnings levers.
+8. **The legal overhang is bigger at ONGC than the PMT headline.**
+   - Contingent liabilities ₹71.6k Cr. A ₹19.6k Cr GST/ST-on-royalty provision is already booked with ₹18.6k Cr deposited, awaiting a nine-judge Supreme Court bench.
+   - A favourable ruling would be a cash *inflow* of up to ~₹18.6k Cr (~6.6% of m-cap) [E].
+
+### New primer issues (format as primer-issues.md)
+
+#### From Oil & Gas E&P deep-research pass (2026-10-22, oil-exploration-industry.md Part 4)
+
+**primers/ongc.html**
+- **Crude volume:** keep "18.36 MMT", but label it "crude excl. condensate (standalone)". 19.33 MMT includes condensate; 20.50 includes the JV share [V Q4 FY26 call]. *Supersedes the Part 3 issue that called the primer figure suspect.*
+- **MRPL stake:** "~88.6% subsidiary" → "**71.63% direct; 80.94% effective group interest** (HPCL holds ~17%)" [AR26].
+- **Windfall section:** replace "~₹25,000 Cr in year one" with **ONGC paid ₹10,964 Cr (FY23), ₹8,634 Cr (FY24), ₹3,948 Cr (FY25)**. Add that SAED exempted output above the prior year's level.
+- **Subsidy history:** add FY14 ₹56,384 Cr / FY15 ₹36,300 Cr shared and net realisation $40.97 / $44.87 vs gross $106.72 / $85.28 [AR 2014-15]. Sharing ended from Q3 FY16.
+- **Reserves:** add **2P 709.32 MMTOE** (1-Apr-2026), the 1P trend 845.87 → 793.31 (FY22→FY26) and RRR 1.35 (FY25) / 1.17 (FY26).
+- **Realisation chart:** "Q1 FY25 ~$83" is confirmed ($83.05). Add Q2 FY25 $78.33, Q3 FY25 $72.57, Q2 FY26 $67.34, Q3 FY26 $61.63, Q1 FY27 $99.45. Note realisation runs ~$2 below dated Brent.
+- **Guidance credibility:** note the FY27 cut from ~42.5 MMTOE (Nov-25) to ~39 MMTOE (Aug-26), and the KG-98/2 gas target path (10 → 3 → 1.5–1.7 now).
+- **Balance sheet:** add standalone net cash ~₹20.8k Cr (ex-leases ₹25.8k Cr) and quoted investments ₹98k Cr. The PMT contingent is ₹15,225 Cr at Mar-26. Add the GST-on-royalty provision of ₹19.6k Cr (deposited ₹18.6k Cr; nine-judge SC bench).
+- **Cross-holdings:** IOC 7.84% and GAIL 2.45% own ONGC; ONGC owns ~14.2% of IOC, ~5% of GAIL and 12.5% of Petronet.
+- **New entity:** OPML (7-Oct-2026), a petchem marketing JV (ONGC 50 / MRPL 25 / OPaL 25).
+- **Cost:** add the opex proxy ~$11/boe and levies ~$10/boe (FY26), labelled as estimates.
+
+**primers/oil-india.html**
+- **GST on royalty:** "~₹2,500 Cr provided / pending" → **~₹3,304 Cr paid Aug–Sep 2026 under protest** (CRISIL 9-Oct-2026).
+- **NREP cost:** "~₹34,000 Cr" → **refinery ₹33,901 Cr + PP ₹7,231 Cr = ₹41,132 Cr** (CRISIL).
+- **Reserves:** add **1P 128.1 MMTOE** (107.73 domestic + 20.38 overseas). 2P is 190.09 + 40.57. Note that only 50.6 BCM of the 139.7 BCM domestic 2P gas is contract-backed.
+- **"8.7 MMTOE in FY26":** explain as domestic 6.64 + overseas ~1.42 (≈8.1); the residual is unexplained.
+- **Net debt:** use consolidated ~₹30.4k Cr (borrowings ₹35,959 Cr − cash ₹5,609 Cr) ≈ 2.25× EBITDA. Standalone ~₹9.6k Cr.
+- **SAED history:** OIL paid ₹1,887 Cr (FY23), ₹1,405 Cr (FY24) and ₹780 Cr (FY25).
+- **Related party:** ~47% of standalone revenue (₹10,101 Cr) is sales to NRL. Explain the consolidation elimination.
+- **Gas evacuation losses FY26:** 0.221 BCM low demand + 0.175 BCM evacuation + 0.009 BCM bandhs. Production was 3.186 BCM vs a MoU target of 3.889 BCM.
+- **Realisation series:** Q2 FY25 $79.33, Q3 FY25 $73.80, Q1 FY26 $66.20, Q2 $68.19, Q3 $62.84, Q1 FY27 $98.73. Gas $6.56–6.78 → $7.19.
+- **Ratings:** CRISIL AAA/Stable reaffirmed 9-Oct-2026, with an FY27 crude assumption of $80–85.
+
+**General (both)**
+- Update the 2026 oil-price narrative: **the Indian basket averaged ~$120 in October 2026 to date**, not ~$102–107.
+- Q2 FY27 realisation is expected at ~$93–95, not the high-$90s.
+
+### Part 4 source URLs (fetched 22-Oct-2026)
+
+- **ONGC:**
+  - AR 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/a521f688-6bf3-465c-8f05-b20ed08b2f32.pdf
+  - AR 2014-15: https://www.bseindia.com/bseplus/AnnualReport/500312/5003120315.pdf
+  - Transcripts (ongcindia.com/documents/77751/…):
+    - Q1 FY27: Transcription-Q1-FY2627.pdf
+    - Q4 FY26: 2659209/Transcription_Q4FY26.pdf
+    - Q3 FY26: Transcription-Q3-FY26200226.pdf
+    - Q2 FY26: Transcription181125.pdf
+    - Q1 FY26: Transcription-Q1-FY-2025-26.pdf
+    - Q4 FY25: Q4FY25Earnings.pdf
+    - Q2 FY25: Transcription-ONGCQ2-FY25-Conference.pdf
+  - OPML filing: https://www.bseindia.com/xml-data/corpfiling/AttachLive/0a212297-13a3-431a-9f58-9d5d2e0c85f6.pdf
+  - CARE filing: https://www.bseindia.com/xml-data/corpfiling/AttachLive/90bda03e-7496-4109-9f13-1523441ec2c7.pdf
+- **Oil India:**
+  - AR 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/8ca090c8-e109-41af-883a-496c2bb503c5.pdf
+  - AR 2023-24: https://www.bseindia.com/xml-data/corpfiling/AttachHis/87592a13-6f68-4fa8-8d13-118c99ea2e75.pdf
+  - Transcripts (BSE AttachHis): Q4 FY26 2a520951-8bd3-4612-92b2-5e1b1ca8af5b.pdf; Q3 FY26 6d71db85-f319-40c8-8df5-32d2a7964686.pdf; Q2 FY26 9dc539df-9ad6-432c-bb55-30e5f3f573cf.pdf; Q1 FY27 446efde6-34f5-4d65-b403-85acfbd635fa.pdf
+  - CRISIL: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/OilIndiaLimited_October%2009_%202026_RR_406244.html
+- **ICRA:** https://www.icra.in/Rating/DownloadResearchSummaryReport?id=6837
+- **PPAC:**
+  - Price service: https://ppac.gov.in/prices/international-prices-of-crude-oil (AJAX getInternationalPricesCrudeOil, pageId 30)
+  - Workbook: https://ppac.gov.in/download.php?file=reports/1792653040_crude_PP_1_a_InternationalPrice(C)_22.10.2026.xlsx
+  - Ready Reckoner FY26 (as in §3.5)
+- **EIA Brent:** https://www.eia.gov/dnav/pet/hist_xls/RBRTEm.xls
+- **Screener (re-pulled 22-Oct-2026):** /company/ONGC/, /company/ONGC/consolidated/, /company/OIL/, /company/OIL/consolidated/
+- **[V-snip] only:**
+  - Cogencis (FY23/FY24 SAED);
+  - eparlib Lok Sabha answers 26140, 121484, 26814, 49191 (subsidy shares; PDFs did not load);
+  - Angel One / Ventura (ONGC Q1 production);
+  - World Oil / The Standard (CNOOC costs);
+  - Economic News Brasil (Petrobras lifting cost);
+  - univest.in (Q2 date previews).
+
+*End of Part 4.*
