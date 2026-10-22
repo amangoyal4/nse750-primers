@@ -67,3 +67,9 @@
 - Replace any "Brent eased to ~$95 after the April ceasefire" with the EIA path (Sep–Oct 2026 above $110–125).
 - Replace "ADD lapsed 31-Dec-2020 after five years" with "ADD in force ~2010–2020; Government declined renewal on 5-Jan-2021".
 
+
+## primer-audit.mjs results (2026-10-22, pre-existing; not fixed here)
+- **himadri-speciality-chemical.html:** FAILS hard checks — bars < 10 (9), a banned phrase present, "honest" used more than once; no `main{min-width:0}` (phone overflow risk). 63 KB, 4,849 words, refreshed 2026-06-30.
+- **pcbl-chemical.html:** hard checks pass; no `main{min-width:0}` (phone overflow risk). Refreshed 2026-06-30.
+- **rain-industries.html:** hard checks pass; no `main{min-width:0}` (phone overflow risk). Refreshed 2026-07-27.
+- None of the three primers links to any sub-sector report (0 report links); once carbon-black.html is published, add a link back.
