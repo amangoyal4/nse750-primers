@@ -88,3 +88,8 @@ Logged only; primers are NOT edited on this branch. The owner applies fixes.
 
 ---
 
+
+## From primer-audit.mjs (2026-10-22, edible-oil Phase 3; pre-existing, not fixed on this branch)
+- **patanjali-foods.html — hard-check FAIL:** banned phrase present and "honest" used more than once. Remove/rephrase.
+- **patanjali-foods.html, awl-agri-business.html, gokul-agro-resources.html — no `main{min-width:0}`** kit grid fix (phone overflow risk).
+- All three primers have 0 links to sub-sector reports; add a link to `../subsectors/edible-oil.html` once it is published.
