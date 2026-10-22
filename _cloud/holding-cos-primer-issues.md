@@ -66,3 +66,7 @@ Logged by the cloud runner; owner fixes primers locally. Do not edit primers on 
 - Use the GI Council primary series (D1–D4) in place of the [K] industry totals; FY26 industry GDPI ₹3,36,123 Cr.
 - The IRDAI distribution consultation (23-Sep-2026) belongs in "what to watch" for both members: it touches Chola MS, Care and CIFC's fee income.
 
+
+### primer-audit.mjs hard-check fails (pre-existing; logged, not fixed — 2026-10-22)
+- **cholamandalam-financial-holdings.html** — ❌ "honest" used more than once; no `main{min-width:0}` (phone overflow). Refreshed 2026-06-30; 0 sub-sector report links (add a link to holding-cos.html once published).
+- **religare-enterprises.html** — ❌ "honest" used more than once; no `main{min-width:0}` (phone overflow). Refreshed 2026-07-27; 0 sub-sector report links (add a link to holding-cos.html once published).
