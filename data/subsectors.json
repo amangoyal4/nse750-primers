@@ -1005,6 +1005,23 @@
         "The holdco discount"
       ],
       "published": "2026-10-22"
+    },
+    {
+      "name": "Diversified FMCG",
+      "slug": "diversified-fmcg",
+      "file": "diversified-fmcg.html",
+      "sector": "FMCG",
+      "subsector": "Diversified FMCG",
+      "companies": 2,
+      "accent": "#3D5A99",
+      "hook": "One label, two opposite machines: how HUL sells volume and margin across four consumer segments while ITC's cigarette cash engine funds FMCG, agri and paperboards, the ₹10,000-crore excise quarter, HUL's volume comeback, portfolio surgery, what the parents take and why the market pays 41× for one and 16× for the other.",
+      "tags": [
+        "Two kinds of diversified",
+        "The ₹10,000-crore quarter",
+        "HUL's volume comeback",
+        "Portfolio surgery & the parent's take"
+      ],
+      "published": "2026-10-22"
     }
   ],
   "universe": [
@@ -1414,7 +1431,7 @@
       "sector": "FMCG",
       "sub": "Diversified FMCG",
       "companies": 2,
-      "report": null
+      "report": "diversified-fmcg.html"
     },
     {
       "sector": "FMCG",
