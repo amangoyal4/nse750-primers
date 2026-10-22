@@ -1014,3 +1014,613 @@ Components (screener quarterly, ₹ Cr): NII = revenue − interest: AU 5,303 �
 - **Crisil SFB outlook (Oct-2025):** https://hdfcsky.com/news/small-finance-banks-to-cross-rs-2-lakh-crore-in-advances-in-fy26
 - **UB returns:** https://c4scourses.in/?p=30704 (citing Mint) · Business Standard 28-Oct-2025 (snippet) https://www.business-standard.com/industry/banking/jana-sfb-rbi-returns-universal-bank-application-for-not-meeting-criteria-125102800274_1.html
 - **Rates & PSL (snippets):** https://www.angelone.in/news/economy/rbi-increases-repo-rate-to-5-50-first-hike-since-february-2023 · https://www.business-standard.com/finance/news/rbi-s-mpc-delivers-again-takes-2025-rate-cut-tally-to-125-basis-points-125120501302_1.html · https://website.rbi.org.in/web/rbi/-/notifications/review-of-priority-sector-lending-norms-small-finance-banks
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (2026-10-22)
+
+Second, primary-source pass on Parts 1–3. Everything below tagged **[V]** was fetched and read this session (22-Oct-2026) from the named document. Main documents read (full or the relevant sections):
+- **AU:** Q1 FY27 earnings-call transcript (call 25-Jul-2026, BSE filing 28-Jul); Q1 FY27 and Q4 FY26 investor decks (FY26 key-numbers slide read as an image); "CIO Roundtable" deck (BSE filing 24-Sep-2026); Q2 FY27 provisional business update (BSE filing 3-Oct-2026); FY26 Integrated Annual Report (BSE).
+- **Ujjivan:** Q1 FY27 call transcript (23-Jul-2026); transcript of the special call on the MD & CEO's exit (1-Sep-2026); Q4 FY26 deck; Q2 FY27 deck; EGM notice for the preferential issue (19-Oct-2026); FY26 Annual Report.
+- **Equitas:** Q1 FY27 call transcript (ir.equitas.bank.in, 19 pages); Q4 FY26 deck (annual key-ratios slide read as an image); Q1 FY27 deck; FY26 Integrated Annual Report.
+- **Jana:** call transcripts for Q1 FY27 (15-Jul-2026), Q4 FY26 (29-Apr-2026), Q3 FY26 (6-Feb-2026) and Q2 FY26 (17-Oct-2025); Q1 FY27 and Q4 FY26 decks; FY26 Annual Report.
+- **Screener.in:** standalone pages for all four (22-Oct-2026, ~04:25 UTC), giving the 5-year and 8-quarter tables.
+- **Industry:** MFIN Micrometer press releases for every quarter from Q4 FY24 to Q1 FY27 except Q2 FY25 (that file would not download); CareEdge's PSL note (24-Jun-2025); Crisil Ratings' SFB press release (2-Sep-2026); NCGTC's CGFMU FAQ (updated 18-Feb-2025); Karnataka Act 15 of 2025 (gazette text via PRS); FD rate cards of Ujjivan, Jana, SBI and HDFC Bank.
+
+**Tags:** **[V-snip]** = search-result summary of a named source (RBI pages are bot-blocked: the WSS PDF returned a CAPTCHA). **[V-sec]** = fetched secondary. **[E]** = arithmetic on [V] inputs.
+
+**Results check (22-Oct-2026):** none of Jana (board 23-Oct), AU (24-Oct) or Equitas (29-Oct) has reported Q2 FY27 early. Screener's announcement lists show only board intimations, and AU's 3-Oct provisional update. Ujjivan (16-Oct) is still the only Q2 FY27 reporter, and its Q2 call transcript was not yet filed; only an audio link was posted.
+
+## 4.0 Supersedes (corrections to Parts 1–3 — writer must apply)
+
+| # | Where in Parts 1–3 | Old value / statement | New value / statement | Source (fetched) |
+|---|---|---|---|---|
+| S1 | §0, §2.2, E2, §A, G (MFI GLP Mar-2024 peak) | "~₹4.4 lakh Cr" [K] | **₹4,33,697 Cr** (+24.5% YoY; 7.8 crore borrowers; 14.9 crore accounts) | MFIN Micrometer Q4 FY24 press release [V] |
+| S2 | §2.2 table, E2 (Mar-2025 GLP) | "~₹3,81,000 Cr" [K] | **₹3,75,030 Cr** (−13.5% YoY); PAR 1–90 4.22% | MFIN Q4 FY25 release [V] |
+| S3 | §2.2 table (Jun-2024) | "~₹4,30,000 Cr; PAR 2.5%" | GLP for Jun-24 is not in the release (+19.2% YoY only); **PAR 30–180 = 2.69%** (1.80% Jun-23). Add **Sep-24 ₹4,08,049 Cr** and **Dec-24 ₹3,85,348 Cr (PAR 31–180 6.4%)** | MFIN Q1 FY25, Q3 FY25, Q2 FY26 releases [V] |
+| S4 | §2.2 table (Jun-2025 / Sep-2025 / Dec-2025) | "~3,53,000 [E]"; "~3,39,000 [V-snip]"; Dec "improving" | **Jun-25 ₹3,53,233 Cr**; **Sep-25 ₹3,39,510 Cr** (−16.8% YoY); **Dec-25 ₹3,14,728 Cr** with **PAR 31–90 1.6% + PAR 91–180 2.0% ≈ 3.6% PAR 31–180** | MFIN Q1/Q2/Q3 FY26 releases [V] |
+| S5 | §2.2, H.3 (SFB share of MFI GLP) | "SFB ≈ 15–17% [E]; not split" | **SFBs held ₹74,278 Cr = 17.1% of MFI GLP at Mar-24** (NBFC-MFIs 39.4%, banks 33.2%, NBFCs 9.3%, others 0.9%). Later releases do not split SFBs from NBFCs. The SFB+NBFC residual was ~30.4% in Jun-26 | MFIN Q4 FY24 release [V] |
+| S6 | Header item 3, §7.2, §H.4, G (Jana UB status) | Jana "returned 28-Oct-2025 (BS)… and again reported returned 13-Apr-2026" | **Jana's application was returned once, in Q3 FY26 (Oct–Dec 2025).** On 17-Oct-2025 Jana said the RBI audits were complete and it was answering queries; on 6-Feb-2026 it said "in quarter 3… the RBI returned our application"; on 29-Apr-2026 it said it would now work on resubmitting. **The 13-Apr-2026 return applies to Ujjivan only.** | Jana Q2 FY26, Q3 FY26 and Q4 FY26 transcripts (BSE) [V] |
+| S7 | Header item 2, §7.2, H.4 (Ujjivan UB return) | "[V-sec] single secondary (Mint via c4scourses)" | **Primary confirmation:** Ujjivan's Q4 FY26 deck reads "On April 13th received response from RBI recognizing Loan Portfolio diversification; Re-application: Once Ujjivan SFB can demonstrate further progress". | Ujjivan Q4 FY26 deck (BSE) [V] |
+| S8 | Header item 2, §2.2 story, §12, G (Ujjivan CEO exit timing) | "Q2 FY27 deck says MD & CEO… early retirement"; G dates it 16-Oct-2026 | **Announced at a special investor call on 1-Sep-2026** (Nautiyal unwell since mid-July; about a year of his term was left). **Carol Furtado (Whole-time ED) is interim MD & CEO, subject to RBI approval.** The NRC expects to send names to RBI in 3–4 months; Furtado is a candidate. | Ujjivan call transcript 1-Sep-2026 (BSE) [V] |
+| S9 | Header item 2, §4.1, §12 (Ujjivan ₹409 Cr preferential) | "IFC and three domestic life insurers… at a premium to book" | **6,31,91,619 shares at ₹64.73** (≈1.7× Sep-26 BVPS ₹38.1; ~7% above the ₹60.3 market price). **IFC 3.18% → 4.99%** (~₹249 Cr [E]); **Bajaj Life 0.25% → 0.70%** (~₹60 Cr [E]); **Aditya Birla Sun Life ₹50 Cr (0.38%)**; **HDFC Life ₹50 Cr (0.38%)**. Comes under a ₹2,000 Cr enabling raise (board 8-May-26, AGM 24-Jul-26) | Ujjivan EGM notice 19-Oct-2026 (BSE) [V] |
+| S10 | Header (rates), §0, E1 (Oct-2026 hike vote) | "+25 bp… stance… on a 4–2 vote" | **The 25 bp hike was unanimous (6–0). The stance change, from neutral to "calibrated tightening", was 4–2.** 63rd MPC meeting, 5–7 Oct 2026; SDF 5.25%, MSF 5.75%; FY27 GDP forecast 7.1%, CPI 5.2%; next MPC 2–4 Dec 2026 | Several secondaries (5paisa, thetaxcorp, corplawupdates) [V-snip]; the RBI page was bot-blocked |
+| S11 | §5.1 table, §11, H.13 (slice–North East SFB) | "merged… (2025) [K, verify]" | **Effective 27-Oct-2024** (announced 29-Oct-2024; NCLT Guwahati sanction 19-Aug-2024) | TheWeek/PTI, YourStory, Inc42 [V-snip, 3 consistent] |
+| S12 | §2.1 (AU Q2 FY27 GLP) | "≈ ₹1.52–1.54 lakh Cr [E]" | **GLP ₹1,53,770 Cr** (gross advances ₹1,50,290 + securitised/assigned/IBPC ₹3,480); **deposits ₹1,70,460 Cr** (+28.6% YoY; +8.1% QoQ); **CASA ₹50,290 Cr = 29.5%** | AU letter to exchanges 3-Oct-2026 [V] |
+| S13 | Peer table (a), §3.2 (Ujjivan FY26 ratios) | "RoA ~1.3% [E]; RoE ~10.7% [E]" | **FY26 RoA 1.4%, RoE 10.9%, NIM 8.1% (FY25 8.8%), C/I 66% (62%), opex/ATA 6.4%, credit cost ₹799 Cr** (≈2.2% of avg GLB; ≈1.5% of ATA [E]) | Ujjivan Q4 FY26 deck [V] |
+| S14 | Peer table (a), H.9 (Equitas FY26 ratios) | "RoA ~0.2% [E]"; FY26 NIM/credit cost/CASA unsourced | **FY26: NIM 6.69% (old basis), CoF 7.22%, cost-to-assets 5.71%, RoA 0.19%, RoE 1.73%, credit cost 2.78%, GNPA 2.46% / NNPA 0.69%, PCR 73.03%; CASA 26% (Mar-26; 29% Mar-25)** | Equitas Q4 FY26 deck, "Key Ratios – Annual" slide (image) [V] |
+| S15 | §4.3, peer table (b) (Equitas Q1 FY26 C/I) | "C/I 68.38% (75.89% in Q1 FY26)" | **75.89% was the Q2 FY26 peak.** The CFO gives **70.62% for Q1 FY26**; Q4 FY26 was 67.52% | Equitas Q4 FY26 deck; Q1 FY27 transcript [V] |
+| S16 | H.11, §1.4 (AU FY26 yield) | "FY26 figure was a graphic" | **FY26 yield on advances 13.9%** (FY25 14.4%); **FY26 C/I 57.9%** (FY25 56.5%; the first pass had 57.7% [E]) | AU Q4 FY26 deck, slide 20 (image) [V] |
+| S17 | §7.3, trap 6, §9.2 (CGFMU mechanics) | "premium ~1–1.5% p.a. [K]"; "first-loss and a cap [K]" | **Guarantee fee: Standard Basic Rate 1% p.a. of sanctioned amount in the base year, then 1% on the outstanding at 1-April each year, plus a risk-based fee.** For loans sanctioned from FY21: **the lender bears a first loss of 3% of the amount in default; NCGTC pays 75% of the rest; payout capped at 15% of the crystallised portfolio.** Cover runs for the base year plus 3 years; loans up to ₹20 lakh incl. JLG; pure-agri loans excluded | NCGTC CGFMU FAQ, 18-Feb-2025 [V] |
+| S18 | §7.3, G (MFIN Guardrails dates) | "1.0 (Jul/Aug-2024) ≤4 lenders, ₹2 lakh; 2.0 from 1-Apr-2025 cut lenders to 3" | **Guardrails 1.0 instituted July 2024** (MFIN). **Guardrails 2.0** was announced Nov-2024. Its **₹2 lakh total-indebtedness cap (now including unsecured retail) and its bar on lending to borrowers more than 60 days overdue took effect 1-Jan-2025**; the **3-lender cap took effect 1-Apr-2025** (delayed three months) | MFIN Q1 FY25 release [V]; Crisil PR 2-Sep-2026 [V]; BS/5paisa [V-snip] |
+| S19 | §7.3 (Karnataka law) | "Ordinance Feb-2025 (later enacted)… RBI REs largely carved out [K]" | **Karnataka Act 15 of 2025:** assent 24-Mar-2025; gazette 25-Mar-2025; **deemed in force from 12-Feb-2025** (the ordinance date). **s.1(3): "Nothing in this Act shall be applicable to… Banks (including Small Finance Banks…)", co-op banks, NBFCs/HFCs.** Coercion offences carry up to 10 years and a ₹5 lakh fine (cognisable, non-bailable) | Act text (PRS gazette copy) [V] |
+| S20 | §7.3 (Tamil Nadu law) | "TN… Act, 2025 [K]" | **Tamil Nadu Money Lending Entities (Prevention of Coercive Actions) Act, 2025 (Act 40 of 2025).** Bill introduced 26-Apr-2025; Act published ~9-Jun-2025; **Act and rules brought into force 19-Nov-2025** | PRS / TN gazette (search) [V-snip] |
+| S21 | §2.1, H.1 (SFB share of system) | "SFBs ≈ 1.7–1.9% of system credit, ~1.5% of deposits [E]" | **Four members = 1.20% of SCB credit (₹2.63 of ₹218.85 lakh Cr) and 1.07% of SCB deposits (₹2.81 of ₹262.3 lakh Cr) at Mar-26.** All eight listed SFBs ≈ 1.34% of deposits. Whole SFB sector ≈ 1.4–1.5% of credit [E]. **AU alone: ~0.64% of credit, ~0.58% of deposits** (AU says ~0.7% / 0.6%) | RBI data via search [V-snip]; AU CIO deck 24-Sep-2026 [V]; arithmetic [E] |
+| S22 | §2.1 (sector advances) | "SFB gross loans ≈ ₹3.4–3.6 lakh Cr [E]" | **CareEdge: ₹41,000 Cr freed by the PSL cut = 15% of SFB advances (Mar-25 data) → SFB advances ≈ ₹2.73 lakh Cr at Mar-25** [E]. At ~20% FY26 growth that is **≈ ₹3.2–3.3 lakh Cr at Mar-26** [E]. The ₹3.4–3.6 lakh Cr range was too high | CareEdge PDF 24-Jun-2025 [V] |
+| S23 | §7.2 (Equitas UB stance) | "deliberately paused [primer]" | Equitas (28/29-Jul-2026): **"technically… in compliance with the guideline requirements"; "not really in a hurry"; no filing timeline; talking with RBI** | Equitas Q1 FY27 transcript [V] |
+| S24 | §2.3, H (sector GNPA) | Only ICRA's GNPA series (3.6% Mar-25; 3.9% Sep-25) | Add **Crisil: SFB GNPA 4.4% (Mar-25) → 3.8% (Mar-26) → 2.6–2.8% (Mar-27e); MFI GNPA 8.4% FY25 / 7.6% FY26; MFI ≈ 30% of SFB advances; SMA-1+2 2.4% (Mar-26)**. CareEdge: **4.35% (Mar-25) vs 3.50% (Mar-24)**. These are different universes; say which agency every time | Crisil PR 2-Sep-2026 [V]; CareEdge [V] |
+| S25 | Peer table (c), §3.4 (Jana promoter/TVS) | "TVS Venu Group awaits RBI approval for a 9.99% stake" | Detail: **JHL has committed to sell its "last 4.99%" to TVS Motors**. On RBI approval of TVS, the next **~₹80 Cr** of warrant money arrives; the remaining **75% of ₹728 Cr comes over 18 months**. **India Ratings downgraded JHL/JCL (1-Jul-2026) after the NCD holders asked for a 6-month extension**; CARE took no action on the bank | Jana Q1 FY27 transcript [V] |
+| S26 | Trap 7, §2.4 (Jana DTA) | "~₹156 Cr DTA credit [E]" | **The DTA on the balance sheet is ₹185.02 Cr at both Mar-26 and Mar-25** (brought-forward losses / unabsorbed depreciation). **No new DTA was recognised in FY26**, so FY26 PAT has no DTA benefit | Jana FY26 Annual Report, note p [V] |
+| S27 | §4.1 / stat strip (market cap) | ₹94,463 Cr (morning snapshot) | **₹94,445 Cr at the 22-Oct fetch** (AU 70,667 · Ujjivan 11,782 · Equitas 7,665 · Jana 4,331); P/B still **2.53×** | Screener 22-Oct-2026 [V] |
+| S28 | §2.1 (branch counts) | Ujjivan "880 branches (Sep-26)" only | Ujjivan **776 (Mar-26) → 814 (Jun-26) → 880 (Sep-26)**; plans **144 new branches in FY27**. **Jana ~820 branches**; its 78 "branch actions" are **8 new + 30 splits + 40 relocations** | Ujjivan Q4 FY26 deck, Q1 FY27 transcript; Jana Q1 FY27 transcript [V] |
+| S29 | §2.2 (PAR Mar-26) | 2.0% | **2.0% in the Q4 FY26 release, restated to 2.1% in the Q1 FY27 release.** Use 2.0–2.1% | MFIN [V] |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+Column key: **Fetched?** = read this session from that document. **Agrees?** = matches Parts 1–3 (✔), corrected (✘ → see S#), or refined (≈). "Primary" = the company's own filing or deck, a regulator, NCGTC, MFIN or the statute itself. Screener is counted as near-primary because it reproduces exchange filings.
+
+| # | Figure | Value | Primary source | Fetched? | Agrees? | Second source / note |
+|---|---|---|---|---|---|---|
+| 1 | Deposits of the four, Mar-26 | **₹2,80,646 Cr** (+19.9%) | Screener balance sheets (AU 1,52,661 · Ujj 45,668 · Eq 46,533 · Jana 35,784); AU's FY26 figure matches its deck | [V] | ✔ | Ujjivan EGM notice repeats ₹45,668 Cr [V] |
+| 2 | FY26 PAT of the four | **₹3,763 Cr** | AU deck 2,641 · Ujjivan deck 693 · Equitas deck 103 · Jana screener/AR 326 | [V] primary ×3 | ✔ | Screener matches all four |
+| 3 | Market cap of the four, 22-Oct-26 | **₹94,445 Cr** (AU 74.8%) | Screener top ratios | [V] | ≈ (S27) | Intraday drift of −₹18 Cr only |
+| 4 | Aggregate P/B | **2.53×** (₹94,445 ÷ ₹37,384 Cr net worth) | Screener equity + reserves, Mar-26 | [V]+[E] | ✔ | — |
+| 5 | Q1 FY27 PAT of the four | **₹1,452 Cr** (796 + 317 + 184 + 155) vs ₹562 Cr | AU / Ujjivan / Equitas / Jana call transcripts give each PAT | [V] | ✔ | Screener quarterly matches |
+| 6 | AU NIM Q1 FY27 | **5.9%** (+47 bp YoY; −7 bp QoQ) | AU Q1 FY27 deck + call transcript | [V] | ✔ | Basis: daily average IEA incl. off-book |
+| 7 | AU cost of funds Q1 FY27 | **6.48%** (SA ~5.05%, TD ~7.25%) | AU call 25-Jul-26 | [V] | ✔ | Q2 deposits +28.6% at higher marginal cost |
+| 8 | AU CASA | **29% (Jun-26) → 29.5% (Sep-26)** | AU deck; AU 3-Oct-26 update | [V] | ≈ (S12) | — |
+| 9 | AU GNPA / NNPA / PCR | **2.10% / 0.76% / ~64% ex-TWO** (~71% incl. contingency + guarantee benefit; 85% incl. TWO) | AU Q1 FY27 deck | [V] | ✔ | — |
+| 10 | AU RoA / RoE Q1 FY27 | **1.7% / 15.6%**; target RoA ~1.8% | AU deck + call | [V] | ✔ | — |
+| 11 | AU FY26 yield / CoF / NIM / C/I | **13.9% / 6.75% / 5.65% / 57.9%** | AU Q4 FY26 deck, slide 20 | [V] | ≈ (S16) | — |
+| 12 | AU Q2 FY27 provisional | Deposits **₹1,70,460 Cr**; GLP **₹1,53,770 Cr** (+25.1%) | AU letter 3-Oct-26 | [V] | ≈ (S12) | Screener headline matches |
+| 13 | AU UB status | In-principle 7-Aug-2025; NOFHC condition replaced; **final-licence application pending at 24-Sep-2026** | AU Q4 FY26 deck; AU CIO deck 24-Sep-26 ("Application submitted for final UB licence approval") | [V] | ✔ | Outlook/PTI (Part 1) [V-sec] |
+| 14 | Ujjivan NIM Q2 FY27 | **8.4%** (Q1 8.5%; FY26 8.1%) | Ujjivan Q2 FY27 / Q4 FY26 decks | [V] | ✔ | — |
+| 15 | Ujjivan CoF | **6.9%** (Q1 6.86%); Q4 FY26 7.0% | Q2 deck; Q1 transcript | [V] | ✔ | — |
+| 16 | Ujjivan CASA | **26.0% (Sep-26)**; 28.6% (Mar-26) | Q2 deck; EGM notice | [V] | ✔ | — |
+| 17 | Ujjivan GNPA / NNPA / PCR | **2.10% / 0.31% / 85%** | Q2 deck | [V] | ✔ | Screener matches GNPA/NNPA |
+| 18 | Ujjivan RoA / RoE Q2 FY27 | **2.4% / 19.7%**; FY27 guide RoA 1.8–2.0% | Q2 deck; Q1 transcript | [V] | ✔ | — |
+| 19 | Ujjivan secured share / JLG share | **52% (52.1%) / 25%** | Q2 deck; EGM notice | [V] | ✔ | — |
+| 20 | Ujjivan FY26 NIM / RoA / RoE | **8.1% / 1.4% / 10.9%** | Q4 FY26 deck | [V] | ✘ → S13 | — |
+| 21 | Ujjivan UB response date | **13-Apr-2026**; re-apply once further progress is shown | Q4 FY26 deck | [V] | ✔ (now primary) | Mint via c4scourses [V-sec] |
+| 22 | Ujjivan preferential issue | **₹409.04 Cr; 6.32 crore shares at ₹64.73**; IFC to 4.99% | EGM notice 19-Oct-26 | [V] | ≈ (S9) | Screener headline |
+| 23 | Ujjivan CEO exit | Announced **1-Sep-2026**; interim MD & CEO Carol Furtado | Transcript 1-Sep-26 | [V] | ✘ → S8 | Q2 deck |
+| 24 | Equitas NIM Q1 FY27 | **7.24%** (daily-average basis); guide ~7.1% | Q1 deck + transcript | [V] | ✔ | Old basis 7.07% |
+| 25 | Equitas CoF Q1 FY27 | **7.05%** (+11 bp QoQ; Q4 FY26 6.94%) | Q1 deck + transcript | [V] | ✔ | — |
+| 26 | Equitas CASA | **25% (Jun-26)**; 26% (Mar-26); 29% (Mar-25) | Q1 transcript; Q4 deck | [V] | ✔ | — |
+| 27 | Equitas GNPA / NNPA / PCR | **2.36% / 0.70% / 71.02%** (86.96% incl. TWO) | Q1 deck + transcript | [V] | ✔ | Screener 2.42% / 0.71% (different basis) |
+| 28 | Equitas FY26 NIM / credit cost / RoA | **6.69% / 2.78% / 0.19%** | Q4 FY26 annual-ratios slide | [V] | ✘ → S14 | — |
+| 29 | Equitas Q1 FY26 loss | **−₹224 Cr**; Q1 FY26 credit cost 6.48% incl. **₹185 Cr extra standard-asset provision (MFI)** + **~₹145 Cr from changed NPA provisioning norms** | Q4 FY26 deck footnotes | [V] | ✔ | Screener PAT −224 |
+| 30 | Jana NIM / CoF Q1 FY27 | **7.5% / 7.4%**; CoF guided 7.3–7.4% for FY27 | Q1 deck + transcript | [V] | ✔ | — |
+| 31 | Jana CASA | **19%**; target ~20% for FY27; CASA +31% YoY | Q1 deck + transcript | [V] | ✔ | — |
+| 32 | Jana GNPA / NNPA / PCR | **2.24% / 0.85% / 62.64%** (call says 62.4%) | Q1 deck + transcript | [V] | ✔ | Screener 2.39% / 0.91% |
+| 33 | Jana promoter situation | JHL/JCL **16.87–16.95%**; NCD "technical default" (6-month extension); India Ratings downgrade of JHL/JCL; ₹728 Cr warrants, ₹103 Cr received | Q1 deck; Q1 transcript; screener shareholding | [V] | ≈ (S25) | — |
+| 34 | Jana UB application | **Returned in Q3 FY26**; to be resubmitted | Q3 FY26 + Q4 FY26 transcripts | [V] | ✘ → S6 | BS 28-Oct-2025 [V-snip] consistent |
+| 35 | Industry MFI GLP and PAR, Jun-26 | **₹3,28,708 Cr; PAR 31–180 1.6%** | MFIN Q1 FY27 release | [V] | ✔ | — |
+| 36 | MFI GLP peak, Mar-24; SFB share | **₹4,33,697 Cr; SFBs ₹74,278 Cr = 17.1%** | MFIN Q4 FY24 release | [V] | ✘ → S1/S5 | — |
+| 37 | SFB PSL target | **60% of ANBC or CEOBE (whichever higher) from FY26**; mandatory 40% unchanged; flexible 35% → 20% (circular 20-Jun-2025) | CareEdge note 24-Jun-2025 (circular itself not fetched — RBI site blocked) | [V] (rating agency, not regulator) | ✔ | BS 21-Jun-2025, Taxmann, Drishti [V-snip] |
+| 38 | CGFMU terms | **1% p.a. fee; 3% first loss; 75% cover; 15% portfolio cap** | NCGTC FAQ 18-Feb-2025 | [V] | ✘ → S17 | AU call: annual pool cover, claims after 6-month NPA seasoning [V] |
+| 39 | Repo path | 6.50 → 6.25 (7-Feb-25) → 6.00 (9-Apr-25) → 5.50 (6-Jun-25) → 5.25 (5-Dec-25) → **5.50 (7-Oct-26, unanimous)** | RBI MPC statements — not fetchable (bot block) | [V-snip] | ≈ (S10) | Ujjivan Q1 call confirms the Jun-2026 hold at 5.25% [V] |
+| 40 | FD rate premium vs big banks (1-yr / 2-yr) | Ujjivan **7.35% / 7.65%**, Jana **7.30% / 7.65%** vs SBI **6.25% / 6.40%**, HDFC Bank **6.25% / 6.45%** → **SFB premium ~105–125 bp** | Bank rate-card pages, 22-Oct-26 | [V] (4 banks) | New (H.8 filled) | AU (bulk 1–3 Cr, eff 10-Jun-26) 7.20/7.10% [V-snip]; Equitas 6.90/7.00% (eff 2-Mar-26) [V-sec] |
+
+**Count:** **39 of 40 rows are [V]** (fetched this session); only row 39 (repo path) is [V-snip], because rbi.org.in served a CAPTCHA. **36 of 40 are [V] from primary sources** (company filing / deck / transcript / annual report, MFIN, NCGTC, statute, the banks' own rate cards). Rows 1, 2 and 5 count as primary because each company figure was also read in that company's deck or transcript. The four non-primary rows: 3 and 4 (screener-derived market cap and P/B), 37 (rating-agency summary of the RBI circular) and 39 ([V-snip]). In row 40, the AU and Equitas cells are context only and secondary.
+
+**Where sources conflict, and which to prefer:**
+- **Equitas GNPA:** the deck says 2.36% and screener 2.42%. Use the deck in prose; screener's quarterly table is computed on a different base.
+- **Jana PCR:** the deck says 62.64%, the call 62.4%. Use the deck.
+- **MFI PAR Mar-26:** MFIN restated 2.0% to 2.1%. Use the later release.
+- **Sector GNPA:** Crisil 4.4% / 3.8% vs ICRA 3.6% / ~3.8% vs CareEdge 4.35% (Mar-25). The universes differ (Crisil's sample appears to weight the MFI-heavy SFBs more). Quote each with its agency.
+- **Repo-hike vote:** use "unanimous on the rate; 4–2 on stance". Several independent write-ups say so explicitly, and the first pass conflated the two.
+
+## 4.2 Company deep-dives (primary documents)
+
+Table conventions: ₹ Cr, standalone. **5-year table:** screener P&L and balance sheet. "Revenue" = interest earned; NII = interest earned − interest expended [E]; "Opex + prov." = screener "Expenses", i.e. operating expenses **plus** provisions (screener does not split them). **8-quarter table:** screener quarterly figures, with company-reported ratios added where the decks or calls give them.
+
+### 4.2.1 AU Small Finance Bank (AUBANK · 540611)
+
+**Guidance digest — Q1 FY27 call (25-Jul-2026), paraphrased; plus the 24-Sep-2026 CIO deck and the 3-Oct update**
+- **Growth ambition:** compound at **2–2.5× India's nominal GDP** for the next decade. AU now calls itself "largely a pan-India franchise" after Fincare, the East and UP/Bihar. Q1: deposits +24% vs ~14% for private banks; loans +23% vs ~17%; disbursements +42%.
+- **RoA:** target ~1.8%. Q1 was 1.7%, "just ~10 bp away". The gap is to come from opex, credit cost and other income (Q1 treasury was only ₹9 Cr). **No NIM guidance.**
+- **Funding costs:** CoF has "effectively bottomed out". AU raised savings and deposit rates; CoF is expected to be "stable to maybe increasing a little" (said **before** the 7-Oct hike). SA cost ~5.05%, TD ~7.25%. FCNR rates were raised to ~7.4–7.5%.
+- **Opex:** cost-to-assets ex-CGFMU 4.0% (3.9%), to improve over the full year. Tech spend is ~₹1,000 Cr, ~12–13% of opex. Back-office headcount is flat because of AI; May-2026 was the first month headcount fell. 16 deposit branches added in Q1; **100+ more planned in FY27**.
+- **Credit:** credit cost incl. CGFMU fell to 0.8% from 1.4%. A one-time ₹23 Cr provision aligned all unsecured products (cards, MFI, PL) to one stricter norm. **MFI capped at up to ~10% of the book**, kept for the small/marginal-farmer PSL sub-target. MFI credit cost is now "maybe 2.5%" including the guarantee fee, vs a 3% build assumed at the Fincare deal. "Instead of building buffers, we are securing protection."
+- **CGFMU mechanics (AU):** pool-based annual cover; claims are lodged after 6 months of NPA seasoning, typically by end-Q2, and paid by about December. Coverage on the GNPA pool is lower than the 96% headline because older NPAs predate the cover.
+- **ECL (from FY28):** impact expected to be "neutral" because LGDs are low and stage-3 provisions are high. More detail by end-Q3 FY27. An analyst noted AU's UB timeline as "around February–March" (i.e. it would enter FY28 under ECL as a UB) — management did not contest it.
+- **Gold:** ₹4,500 Cr (+130%), offered in 1,300+ branches; average ticket ~₹2.5 lakh; >80% rural; portfolio IRR ~15.5%. **Wheels:** ₹48,600 Cr (+28%). **Commercial banking:** ₹32,800 Cr (+34%). Renewables are KUSUM-A/C solar developers with 2–5 MW projects (Rajasthan, Gujarat, Maharashtra, MP).
+- **Liquidity:** LCR range 115–120%; NSFR 105–115%. CD ratio ex-refinance ~80%: "we don't look at this number to optimise anything".
+- **Leadership:** Yogesh Jain elevated to Deputy CEO (technology). New CRO designate Amol Padhye (ex-HDFC Bank); Anil Agarwal (ex-Axis) heads commercial and institutional. Board has 10 members, 8 independent. Sanjay Agarwal: "AU should be run by professional leadership in times to come."
+- **UB (CIO deck, 24-Sep-2026):** still "in-principle". "Application submitted for final UB licence approval"; NOFHC condition replaced. Benefits the deck lists: PSL to 40%; no ticket-size cap (mortgages); brand and counterparty acceptance; cheaper deposits. Market share ~0.7% of loans / 0.6% of deposits.
+- **Q2 FY27 update (3-Oct):** deposits ₹1,70,460 Cr (+8.1% QoQ); CASA 29.5%; GLP ₹1,53,770 Cr (+6.6% QoQ). **Deposits grew faster than loans in the quarter.**
+
+**Concall KPI table (Q1 FY27 vs Q1 FY26; company)**
+
+| KPI | Q1 FY27 | Q1 FY26 | Q4 FY26 | FY26 | FY25 |
+|---|---|---|---|---|---|
+| GLP (₹ Cr) | 1,44,250 | ~1,17,600 | 1,40,327 | 1,40,327 | 1,15,704 [E] |
+| Deposits (₹ Cr) | 1,57,727 | 1,27,199 [E] | 1,52,661 | 1,52,661 | 1,24,269 |
+| Yield on gross advances | 13.7% | 14.1% | 13.8% | **13.9%** | 14.4% |
+| Cost of funds | 6.48% | 7.08% | 6.49% | 6.75% | 7.07% |
+| NIM | 5.9% | 5.4% | 5.96% | 5.65% | 5.94% |
+| Cost-to-assets (ex-CGFMU) | 4.0% | 3.9% | — | 4.1% (4.2% incl.) | — |
+| Credit cost (incl. CGFMU, % ATA) | 0.8% | 1.4% | — | 0.96% | 1.3% |
+| Slippages (₹ Cr) | 798 | ~1,023 [E: −22%] | — | — | — |
+| GNPA / NNPA | 2.10 / 0.76 | 2.47 / 0.88 | 2.03 / 0.74 | 2.03 / 0.74 | 2.28 / 0.74 |
+| PCR ex-TWO | ~64% | 65% | 64% | — | — |
+| RoA / RoE | 1.7 / 15.6 | 1.5 / 13.3 | 1.8 / 17.0 | 1.6 / 14.2 | 1.5 / 13.1 |
+| CRAR / Tier-1 | 18.9 / 17.1 | — | 18.7 / 16.9 | 18.7 / 16.9 | 20.1 / 18.1 |
+| Stable deposits (CASA + retail TD + non-callable bulk) | 79% | — | — | — | — |
+| Deposit mix by vertical | Branch banking 60%; govt & interbank 21%; FIG 8%; commercial/wholesale 7% | | | | |
+
+**5-year history (screener, ₹ Cr) [V]**
+
+| FY | Interest earned | Interest expended | NII [E] | Other income | Opex + prov. | PBT | PAT | Deposits | Borrowings | Net worth | Total assets |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 5,922 | 2,688 | 3,234 | 994 | 2,634 | 1,454 | 1,130 | 52,585 | 5,991 | 7,514 | 69,078 |
+| FY23 | 8,205 | 3,780 | 4,425 | 1,034 | 3,410 | 1,865 | 1,428 | 69,365 | 6,299 | 10,978 | 90,216 |
+| FY24 | 10,555 | 5,398 | 5,157 | 1,697 | 4,629 | 1,999 | 1,535 | 87,182 | 5,479 | 12,559 | 1,09,426 |
+| FY25 (incl. Fincare) | 16,064 | 8,052 | 8,012 | 2,526 | 7,491 | 2,788 | 2,106 | 1,24,269 | 11,660 | 17,167 | 1,57,846 |
+| FY26 | 18,636 | 9,524 | 9,112 | 2,978 | 8,345 | 3,474 | 2,641 | 1,52,661 | 13,872 | 19,973 | 1,91,797 |
+| 4-yr CAGR FY22–26 [E] | 33% | 37% | 30% | 32% | — | 24% | **24%** | **31%** | — | 28% | 29% |
+
+Screener ROE: 16% / 15% / 13% / 14% / 14%. AU's own 9-year averages: RoA ~1.6%, RoE ~14.2–14.4%; deposit CAGR 45%, loan CAGR 34% (FY18–26) [V CIO deck].
+
+**8-quarter trend (₹ Cr; screener + company ratios) [V]**
+
+| Quarter | Interest earned | Interest exp. | NII [E] | Other inc. | Opex + prov. | PBT | PAT | GNPA / NNPA | Yield / CoF / NIM (co.) |
+|---|---|---|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 3,911 | 1,936 | 1,975 | 638 | 1,854 | 759 | 571 | 1.98 / 0.75 | — |
+| Q3 FY25 (Dec-24) | 4,113 | 2,091 | 2,022 | 618 | 1,938 | 703 | 528 | 2.31 / 0.91 | — |
+| Q4 FY25 (Mar-25) | 4,271 | 2,177 | 2,094 | 761 | 2,197 | 657 | 504 | 2.28 / 0.74 | 14.4 / 7.1 / 5.8 |
+| Q1 FY26 (Jun-25) | 4,378 | 2,334 | 2,044 | 811 | 2,076 | 779 | 581 | 2.47 / 0.88 | 14.1 / 7.08 / 5.4 |
+| Q2 FY26 (Sep-25) | 4,511 | 2,367 | 2,144 | 713 | 2,128 | 729 | 561 | 2.41 / 0.88 | 13.9 / 6.8 / 5.5 |
+| Q3 FY26 (Dec-25) | 4,727 | 2,386 | 2,341 | 724 | 2,181 | 884 | 668 | 2.30 / 0.88 | 13.8 / 6.6 / 5.7 |
+| Q4 FY26 (Mar-26) | 5,019 | 2,437 | 2,582 | 731 | 2,231 | 1,082 | 832 | 2.03 / 0.74 | 13.8 / 6.49 / 5.96 |
+| Q1 FY27 (Jun-26) | 5,303 | 2,607 | 2,696 | 689 | 2,321 | 1,064 | 796 | 2.10 / 0.76 | 13.7 / 6.48 / 5.9 |
+
+Read: NII rose 36% over the eight quarters while "opex + provisions" rose 25%; PAT rose 39%. The NIM trough was Q1 FY26 (5.4%), when floating EBLR assets repriced down faster than TDs.
+
+**Annual-report findings (FY26 Integrated Annual Report, BSE) [V]**
+- **Employees:** 59,207 at 31-Mar-2026 (58,400+ by Jun-26, per the Q1 press release — the first fall in years). Customers 1.2 crore+.
+- **Contingent liabilities ₹13,047 Cr (Mar-25 ₹7,370 Cr; +77%)**:
+  - forward FX contracts ₹5,644 Cr (from ₹1,595 Cr) and new derivative contracts ₹519 Cr — the FX/trade and FCNR build-out;
+  - guarantees ₹5,401 Cr (₹4,136 Cr);
+  - credit enhancement on securitisation ₹1,046 Cr; acceptances ₹123 Cr; capital commitments ₹224 Cr; claims not acknowledged as debts ₹39 Cr.
+  - **These are small relative to a ₹1.9 lakh Cr balance sheet, but they show AU already building universal-bank-type off-balance-sheet business.**
+- **Key audit matter:** NPA identification and provisioning (total NPA provision ₹1,766 Cr) and IT systems — standard for banks. Nothing unusual flagged.
+- **Related parties:** AU has no group companies; related-party dealings are KMP remuneration and deposits of KMP/relatives, on an omnibus Audit Committee approval. No royalty, brand fee or parent purchases. That is why the NOFHC condition could be dropped: there is no group entity.
+- **Risks named (deck, AR and call):** geopolitics and crude; inflation and rate hikes; weather; policy changes. Internally: card-book losses, the unsecured legacy book, and ECL transition.
+
+### 4.2.2 Ujjivan Small Finance Bank (UJJIVANSFB · 542904)
+
+**Guidance digest — Q1 FY27 call (23-Jul-2026), special call (1-Sep-2026), Q4 FY26 deck (May-2026), EGM notice (19-Oct-2026); paraphrased**
+- **FY27 guidance (raised in July):**
+  - asset growth ~25%;
+  - **RoA 1.8–2.0%** (May guidance was ~1.6%);
+  - **credit cost 0.9–1.0% of average total assets** (May: 1.4–1.5% of average GLB) — the basis changed to ATA;
+  - **opex ~6.4% of ATA**, after ~₹250 Cr of capacity spending (branches, branding, tech/analytics) that started in late Q1.
+  - Analysts read the guidance as roughly ₹1,250 Cr PAT; H1 FY27 delivered ₹682 Cr.
+- **Funding:** the repricing benefit is "almost" over. CoF is expected to stay at current levels or edge up a few bp. Deposit rates were raised in June on key buckets.
+  - Levers: IBPC, refinance, securitisation.
+  - Branches: 144 new in FY27 (38 done by Jun-26); liability focus on the top 8 and top 30 markets (CASA +~75% there); FCNR ₹60 Cr in Q1.
+- **Assets:**
+  - Affordable-housing yield ~12.5% on ₹16–20 lakh tickets in semi-urban markets; micro-mortgage (~₹1,800 Cr) yields ~19.5%.
+  - MSME tickets moving up (LAP ₹58–60 lakh → ₹80–90 lakh; working capital → ₹1.1–1.2 Cr), so yields fall from ~11–11.5% to ~10.5%.
+  - Gold: active branches 455 → ~575 by Mar-27; exit disbursement run-rate ₹230–250 Cr/month; origination LTV 75%, book LTV 56%.
+  - New products: digital "Fast Track" unsecured loan, pre-owned cars (Karnataka pilot), mid-corporate lending, purchase-invoice discounting.
+- **Microfinance:** X-bucket collection efficiency ~99.7%. Credit cost moves only ±5–7 bp with each ±0.1 pp of collection efficiency. Borrower base grew again after seven quarters of decline (+1.72 lakh new customers in Q1). No El Niño impact seen as of 1-Sep.
+- **Leadership:** MD & CEO Sanjeev Nautiyal unwell since mid-July; early retirement accepted. **Interim MD & CEO Carol Furtado**, subject to RBI. NRC aims to send names to RBI in 3–4 months, so a permanent CEO is ~6+ months away; internal candidates are being considered. Chairman B.A. Prabhakar admitted succession planning should have been "more robust". Vikas Agarwal joined as MSME head.
+- **UB:** RBI's 13-Apr-2026 response "recognises" the diversification; Ujjivan may re-apply "once [it] can demonstrate further progress". In Sep-2026 management would not give a timeline.
+- **Capital:** board approved a ₹2,000 Cr enabling raise (8-May-2026; AGM 24-Jul-2026). The first use is the ₹409 Cr preferential issue at ₹64.73 (IFC to 4.99%; Bajaj Life, ABSLI, HDFC Life). It adds ~1.2 pp to CRAR; EGM 13-Nov-2026. Last equity raise was the FY23 QIP.
+
+**Concall KPI table [V]**
+
+| KPI | Q2 FY27 | Q1 FY27 | Q4 FY26 | FY26 | FY25 |
+|---|---|---|---|---|---|
+| Gross loan book (₹ Cr) | 45,699 | 42,903 | 40,655 | 40,655 | ~32,113 [E: 40,655 ÷ 1.266] |
+| Secured share | 52% | 50.4% | 49.4% | 49.4% | 43.5% [primer] |
+| JLG share of GLB | 25% | — | 26.7% | 26.7% | — |
+| Deposits (₹ Cr) | 50,643 | 48,129 | 45,668 | 45,668 | 37,630 |
+| CASA | 26.0% | 26.9% | 28.6% | 28.6% | — |
+| CoF | 6.9% | 6.86% | 7.0% | — | — |
+| NIM | 8.4% | 8.5% | 8.5% | **8.1%** | 8.8% |
+| C/I | 62% | 62.0% | — | **66%** | 62% |
+| Opex / ATA | — | — | — | **6.4%** | 6.3% |
+| Credit cost | 0.7% ATA | 0.9% ATA (₹127 Cr) | 1.5% (GLB basis) | ₹799 Cr | ₹748 Cr |
+| GNPA / NNPA | 2.10 / 0.31 | 2.17 / 0.34 | 2.3 / 0.43 | — | — |
+| PCR | 85% | 85% | 81% | — | — |
+| PAT (₹ Cr) | 365 | 317 | 282 | 693 | 726 |
+| RoA / RoE | 2.4 / 19.7 | 2.2 / 18.2 | 2.1 / 17.2 | **1.4 / 10.9** | 1.6 / 12.4 |
+| CRAR | 20.69% | 20.36% | — | — | — |
+| LCR | 131% | ~132% | 142% | — | — |
+| Branches | 880 | 814 | 776 (197 URC) | 776 | — |
+
+FY26 other income ₹1,108 Cr: processing fees 384 · insurance 175 · bad-debt recovery 105 · treasury 89 · PSLC 36 · misc 320. FY26 opex: personnel ₹1,798 Cr + other ₹1,470 Cr. Floating provision ₹181 Cr, of which ₹130 Cr is counted in PCR [V Q4 deck].
+
+**5-year history (screener, ₹ Cr) [V]**
+
+| FY | Interest earned | Interest expended | NII [E] | Other income | Opex + prov. | PBT | PAT | Deposits | Borrowings | Net worth | Total assets |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 2,813 | 1,039 | 1,774 | 360 | 2,603 | −550 | −415 | 18,292 | 1,964 | 2,602 | 23,612 |
+| FY23 | 4,165 | 1,467 | 2,698 | 589 | 1,730 | 1,467 | 1,100 | 25,538 | 2,841 | 4,009 | 33,317 |
+| FY24 | 5,677 | 2,268 | 3,409 | 787 | 2,396 | 1,702 | 1,281 | 31,462 | 2,171 | 5,614 | 40,422 |
+| FY25 | 6,354 | 2,718 | 3,636 | 846 | 3,406 | 942 | 726 | 37,630 | 2,845 | 6,083 | 47,689 |
+| FY26 | 6,931 | 3,060 | 3,871 | 1,108 | 3,923 | 911 | 693 | 45,668 | 3,736 | 6,816 | 57,541 |
+| 4-yr CAGR [E] | 25% | 31% | 22% | 32% | — | n.m. | n.m. | **26%** | — | 27% | 25% |
+
+Note: the FY24 net worth (₹5,614 Cr) is the pre-holdco-merger bank; the equity-capital line jumps in FY25 after the UFSL reverse merger. Screener ROE: −15% / 33% / 27% / 12% / 11%.
+
+**8-quarter trend (₹ Cr) [V]**
+
+| Quarter | Interest earned | Interest exp. | NII [E] | Other inc. | Opex + prov. | PBT | PAT | GNPA / NNPA | NIM (co.) |
+|---|---|---|---|---|---|---|---|---|---|
+| Q3 FY25 (Dec-24) | 1,591 | 704 | 887 | 172 | 923 | 136 | 109 | 2.68 / 0.56 | — |
+| Q4 FY25 (Mar-25) | 1,573 | 709 | 864 | 270 | 1,039 | 95 | 83 | 2.18 / 0.49 | 8.3 |
+| Q1 FY26 (Jun-25) | 1,619 | 763 | 856 | 249 | 969 | 136 | 103 | 2.52 / 0.70 | ~7.9 |
+| Q2 FY26 (Sep-25) | 1,682 | 761 | 921 | 256 | 1,018 | 160 | 122 | 2.45 / 0.67 | ~7.9 [E: 8.4 − 55 bp] |
+| Q3 FY26 (Dec-25) | 1,752 | 751 | 1,001 | 295 | 1,051 | 244 | 186 | 2.38 / 0.57 | 8.2 |
+| Q4 FY26 (Mar-26) | 1,878 | 785 | 1,093 | 307 | 1,029 | 371 | 282 | 2.26 / 0.43 | 8.5 |
+| Q1 FY27 (Jun-26) | 2,025 | 838 | 1,187 | 256 | 1,023 | 421 | 317 | 2.16 / 0.34 | 8.5 |
+| Q2 FY27 (Sep-26) | 2,153 | 905 | 1,248 | 296 | 1,053 | 491 | 365 | 2.10 / 0.31 | 8.4 |
+
+Read: "opex + provisions" was flat at ~₹1,020–1,050 Cr for six quarters while NII grew 44%. Provisions fell as opex rose, and the gap flowed straight to PBT (₹95 Cr → ₹491 Cr).
+
+**Annual-report findings (FY26 Annual Report, BSE) [V]**
+- **Employees:** 26,555 permanent (BRSR total incl. other categories 30,820). **Customers served 99.6 lakh** ("over 100 lakh").
+- **Contingent liabilities ₹1,486 Cr (Mar-25 ₹73 Cr):** the jump is **forward FX contracts of ₹1,375 Cr** (nil a year earlier). These hedge the new FCNR(B) / forex capability (AD-I). Otherwise: claims not acknowledged ₹22 Cr; guarantees ₹1.6 Cr; capital commitments ₹88 Cr.
+- **Related parties:** no promoter since the 2024 reverse merger. Related-party items are KMP remuneration and KMP deposits only.
+- **Key audit matters:** NPA identification/provisioning and IT controls.
+- **Branch footprint:** 26 states/UTs, 335 districts; 8,000+ electronic collection retail points (Mar-26 deck).
+
+### 4.2.3 Equitas Small Finance Bank (EQUITASBNK · 543243)
+
+**Guidance digest — Q1 FY27 call (28/29-Jul-2026; first call of the new CFO Mukund Barsagade) and Q4 FY26 deck; paraphrased**
+- **FY27 guidance:** advances **20%+**; **RoA ~1.2% for the year, exiting Q4 at ~1.5%**. MD P.N. Vasudevan said Q1 makes it likely the bank will beat both, and promised a revised RoA guide "by end of second quarter". FY28 RoA should beat FY27's full-year figure.
+- **NIM:** 7.24% (now on daily-average interest-earning assets). It is guided down to **~7.1% over the next two to three quarters**, entirely because funding costs are rising; yields are flat to slightly up. The QoQ NIM fall came from CoF (+11 bp), not yields (+3–4 bp).
+- **Funding:**
+  - CoF rose to 7.05% after a savings-rate tweak and a new branded FD, "Maxima" (3 years and 1 day).
+  - **Deposit mix has drifted institutional:** co-op banks ~18% and government bodies/institutions ~12% of term deposits, so individuals/HUFs are ~68%. Management wants this back to 70:30 or 72:28 within two quarters.
+  - 91% of bulk deposits are non-callable. FCNR(B) has passed ~$42 m.
+  - Affluent book "Elite" ₹18,475 Cr (~40% of deposits); new tiers "Artha" (HNI) and "Elite Lite".
+  - Target: ₹200 Cr/month of new-to-bank SA plus ₹100 Cr/month from existing Elite customers.
+  - CD ratio ~93%, to be held or trimmed. LCR is 142% on a daily average (176–178% at quarter-end).
+  - Refinance from NABARD/SIDBI is "marginally lower" in cost than deposits once CRR/SLR exemption is counted.
+- **Microfinance:** Q1 disbursement ₹1,343 Cr (~11% of the mix); the MFI share is to be held "around 10%". It is 13% including the DA book bought. **87% of the organic MFI book is CGFMU-covered.** X-bucket collection efficiency 99.7%; 1–90 DPD 1.10%. The remaining MFI standard-asset stress provision is **₹44 Cr** (₹46 Cr at Mar-26). It is 50% of standard MFI loans to borrowers with >₹2 lakh total leverage or >3 lenders, and could be reversed in one to three quarters if MFI stays normal.
+- **Asset quality, Q1:**
+  - Gross slippage ₹397 Cr (3.45% annualised): MFI ₹36 Cr, non-MFI ₹360 Cr. Net slippage 1.43%.
+  - Provisions ₹160.6 Cr: MFI ₹34.7 Cr, non-MFI ₹125.9 Cr. Write-offs ~₹200 Cr (MFI ₹143.8 Cr; VF ₹24.2 Cr), already ~100% provided.
+  - Q4 FY26 credit cost was ~1.38% after adjusting for a ₹29 Cr stress-provision reversal, i.e. stable QoQ.
+- **Capital:** CRAR 19.44% (Tier-1 16.01%). An AGM enabling resolution for **₹1,250 Cr of Tier-1** is planned; a raise is likely in **Q4 FY27 or Q1 FY28**, depending on how much capital is conserved. The previous year's enabling resolution went unused.
+- **UB:** "technically… in compliance"; "not really in a hurry"; no timeline (see S23). The June-2026 Investor Day set out a five-year vision; the transcript does not give its targets.
+- **People:** ~500 net hires for the rest of FY27, mostly liability frontline. Asset-side headcount flat. First AI projects due "in the coming couple of quarters".
+- **Treasury view (Head of Treasury):** 10-year G-sec closed Q1 at 6.77%. Rupee under pressure. RBI's June-2026 FX measures drew >$20 bn. Monsoon shortfall and imported inflation are upside risks to RBI's forecasts.
+
+**Concall KPI table [V]**
+
+| KPI | Q1 FY27 | Q4 FY26 | Q3 FY26 | Q2 FY26 | Q1 FY26 | FY26 | FY25 |
+|---|---|---|---|---|---|---|---|
+| Gross advances (₹ Cr) | 47,641 | 46,165 | — | — | 37,610 [E] | 46,165 | 36,209 |
+| Deposits (₹ Cr) | 48,976 | 46,533 | — | — | 44,345 [E] | 46,533 | 43,102 |
+| CASA | 25% | 26% | — | — | — | 26% | 29% |
+| CoF (daily avg) | 7.05% | 6.94% | 7.13% | 7.35% | 7.49% | **7.22%** | 7.50% |
+| Yield on gross advances | 15.74% | 15.51% | — | — | 16.06% | — | — |
+| NIM | 7.24% (new) / 7.07% (old) | 7.29% (old; 7.36% new) | — | — | — | **6.69% (old)** | 7.51% |
+| Cost-to-assets | 5.61% | 5.75% | — | — | — | 5.71% | 5.71% |
+| C/I | 68.38% | 67.52% | — | **75.89% (peak)** | 70.62% | — | — |
+| Credit cost (on advances) | 1.37% | 1.11% | 1.88% | 2.16% | 6.48% | **2.78%** | 3.14% |
+| GNPA / NNPA | 2.36 / 0.70 | 2.49 / 0.68 | 2.62 / 0.88 | 2.82 / 0.95 | 2.82 / 0.94 | 2.46 / 0.69 | 2.89 / 0.98 |
+| PCR (ex-TWO) | 71.02% | 73.03% | — | — | — | 73.03% | 66.83% |
+| RoA | 1.18% | 1.46% | 0.65% | 0.18% | −1.68% | **0.19%** | 0.30% |
+| RoE | 11.76% | 14.10% | 6.10% | 1.65% | −15.02% | 1.73% | 2.45% |
+| MFI 1–90 DPD | 1.10% | 1.34% | — | — | 8.05% | — | 7.82% (Q4 FY25) |
+
+Long view (company annual-ratios slide, FY21–FY26): **NIM 8.44 / 8.54 / 9.00 / 8.36 / 7.51 / 6.69%; RoA 1.70 / 1.10 / 1.89 / 2.00 / 0.30 / 0.19%; credit cost 2.26 / 2.60 / 1.56 / 1.01 / 3.14 / 2.78%; CoF 7.34 / 6.58 / 6.38 / 7.26 / 7.50 / 7.22%; GNPA 3.59 / 4.06 / 2.60 / 2.52 / 2.89 / 2.46%; PCR 58.6 / 42.7 / 56.9 / 56.1 / 66.8 / 73.0%** [V]. **Equitas's NIM has compressed ~230 bp since FY23 as MFI fell from ~25% to ~10%.** That is the price of de-risking.
+
+FY26 P&L (company): interest income ₹6,794 Cr; finance cost ₹3,403 Cr; NII ₹3,391 Cr (+4%); other income ₹1,053 Cr (net of digital expenses); opex ₹3,179 Cr (employee ₹1,964 Cr, +21%); PPoP ₹1,265 Cr (−5%); credit cost ₹1,137 Cr; PBT ₹128 Cr; tax ₹25 Cr; PAT ₹103 Cr [V]. GNPA roll-forward: Q1 FY26 write-offs ₹484.5 Cr; ARC sales ₹216.5 Cr (Q2) and ₹54.9 Cr (Q3) [V].
+
+**5-year history (screener, ₹ Cr) [V]**
+
+| FY | Interest earned | Interest expended | NII [E] | Other income | Opex + prov. | PBT | PAT | Deposits | Borrowings | Net worth | Total assets |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 3,460 | 1,421 | 2,039 | 538 | 2,123 | 378 | 281 | 18,951 | 2,616 | 4,246 | 26,948 |
+| FY23 | 4,162 | 1,617 | 2,545 | 670 | 2,361 | 769 | 574 | 25,348 | 2,974 | 5,158 | 34,958 |
+| FY24 | 5,486 | 2,407 | 3,079 | 799 | 2,681 | 1,063 | 799 | 36,129 | 1,788 | 5,969 | 45,304 |
+| FY25 | 6,312 | 3,060 | 3,252 | 911 | 3,816 | 199 | 147 | 43,102 | 2,137 | 6,073 | 52,836 |
+| FY26 | 6,794 | 3,403 | 3,391 | 1,074 | 4,170 | 128 | 103 | 46,533 | 5,773 | 6,125 | 60,610 |
+| 4-yr CAGR [E] | 18% | 24% | 14% | 19% | — | −24% | −22% | **25%** | — | 10% | 22% |
+
+Read: **borrowings nearly tripled in FY26 (₹2,137 → ₹5,773 Cr)** while deposits grew 8%. Refinance and CDs filled the gap, which explains the rising CD ratio.
+
+**8-quarter trend (₹ Cr; screener + company ratios) [V]**
+
+| Quarter | Interest earned | Interest exp. | NII [E] | Other inc. | Opex + prov. | PBT | PAT | GNPA / NNPA (scr.) | CoF / credit cost / RoA (co.) |
+|---|---|---|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 1,555 | 753 | 802 | 239 | 1,021 | 20 | 13 | 2.95 / 0.97 | — |
+| Q3 FY25 (Dec-24) | 1,612 | 794 | 818 | 238 | 967 | 90 | 66 | 2.97 / 0.96 | — |
+| Q4 FY25 (Mar-25) | 1,644 | 815 | 829 | 225 | 1,002 | 53 | 42 | 2.89 / 0.98 | 7.54 / 2.74 / 0.32 |
+| Q1 FY26 (Jun-25) | 1,649 | 863 | 786 | 292 | 1,375 | −297 | −224 | 2.92 / 0.98 | 7.49 / 6.48 / −1.68 |
+| Q2 FY26 (Sep-25) | 1,617 | 844 | 773 | 229 | 969 | 34 | 24 | 2.92 / 0.98 | 7.35 / 2.16 / 0.18 |
+| Q3 FY26 (Dec-25) | 1,692 | 840 | 852 | 289 | 1,027 | 114 | 90 | 2.75 / 0.92 | 7.13 / 1.88 / 0.65 |
+| Q4 FY26 (Mar-26) | 1,836 | 856 | 980 | 263 | 965 | 278 | 213 | 2.60 / 0.72 | 6.94 / 1.11 / 1.46 |
+| Q1 FY27 (Jun-26) | 1,960 | 931 | 1,029 | 255 | 1,041 | 244 | 184 | 2.42 / 0.71 | 7.05 / 1.37 / 1.18 |
+
+**Annual-report findings (FY26 Integrated Annual Report, BSE) [V]**
+- **Employees:** 28,072 (BRSR). Outlets 1,063 at Jun-26 (deck).
+- **Contingent liabilities ₹1,024.5 Cr (Mar-25 ₹794.6 Cr):**
+  - new forward FX contracts ₹314 Cr (the FCNR programme);
+  - investment purchases pending settlement ₹286 Cr; capital commitments ₹191 Cr; securitisation credit enhancement ₹128 Cr; guarantees ₹31 Cr.
+  - **Tax claims not acknowledged: income tax ₹47.4 Cr, GST/service tax ₹5.5 Cr**, other ₹21.3 Cr.
+- **Advances against book debts ₹1,938 Cr (₹520 Cr)** — a balance-sheet footnote showing the fast growth of business loans and NBFC lending.
+- **No promoter** (Equitas Holdings merged 2023). Related parties are KMP only.
+- **Key audit matters:** NPA identification and provisioning (incl. the FY26 stress-provision overlay) and IT systems.
+
+### 4.2.4 Jana Small Finance Bank (JSFB · 544118)
+
+**Guidance digest — Q1 FY27 call (15-Jul-2026), plus the Q4 FY26 (29-Apr-2026) and Q3 FY26 (6-Feb-2026) calls; paraphrased**
+- **FY27 guidance (reiterated):** gross loans **+19–21%**; deposits **+23–25%**; **PAT +80%+** (→ ≥₹590 Cr [E]); **C/I down to 63–65%** (not below 60%); CASA ratio to **~20%** (CASA growth 27–30%). None of this assumes a universal-bank licence.
+- **Margins/funding:** NIM 7.5% "back to where it should have been had there been no microfinance stress", and should stay steady. **CoF 7.4%, "±5 bp" through FY27; "the opportunity to drop cost of funds is now over".** April–May 2026 liquidity was tight; deposit rates were raised in June. Bulk deposits fell ~6% QoQ while retail TD grew +31% YoY.
+- **Credit:** net credit cost 0.45% per quarter (Q4 FY26 and Q1 FY27) is the floor to hold. Q2 slippage roughly flat with better recoveries; small drops in Q3–Q4. Unsecured slippage fell from ₹155 Cr to ₹125 Cr QoQ. No impact seen from the Iran war or El Niño by 15-Jul.
+- **Guarantee cover:**
+  - 79.8% of the unsecured book is under CGFMU/CGTMSE.
+  - Unsecured NNPA is ₹214 Cr, of which ₹196 Cr is guaranteed. **The first CGFMU claim, ₹65 Cr, is due in Q3 FY27.**
+  - The guarantee commission (~1%) costs **~₹80–100 Cr a year** and is now treated as business-as-usual cost.
+- **Mix:** MFI book ₹10,240 Cr (~27% of the book), to grow only **10–12%** in FY27. NBFC term lending kept flat by design. Micro-LAP dipped in Q1 while sourcing moves to the direct channel; growth expected from Q2. Gold LTV 64%, GNPA ~0.5%, offered in ~568–570 of ~820 branches, adding 50–75 branches.
+  - New: used cars (launched Oct-2025, ~₹45 Cr/month, 50 cities); UPI credit line and loans against shares (Q2 FY27); FCNR(B) "possibly a small one".
+  - Secured share is heading for 80%: five secured product lines vs one unsecured.
+- **Promoter/TVS:**
+  - JHL/JCL hold 16.9% (peak 44%) and have put no capital in since Jun-2022. **Their "last 4.99%" is committed to TVS Motors.**
+  - The NCD holders' 6-month extension was technically a default; **India Ratings downgraded JHL/JCL (1-Jul-2026)**. **CARE took no action on the bank.**
+  - No common directors and no cross-default with the bank.
+  - Warrants: ₹103 Cr received; ~₹80 Cr more on RBI approval of TVS; the remaining 75% of ₹728 Cr over 18 months.
+  - "No comment on market speculation" about a merger. (NSE queried a media report on 19-Oct-2026; Jana said no undisclosed event existed.)
+- **UB:** the Q3 FY26 return was put down to "shortages" in the application; resubmission will follow the audited FY26 results. Jana's stated rationale is cheaper deposits once the name drops "small finance".
+- **Marketing:** an RCB (IPL) "official banking partner" deal drove CASA +7% QoQ in Q1.
+
+**Concall KPI table [V Q1 FY27 deck]**
+
+| KPI | Q1 FY27 | Q4 FY26 | Q3 FY26 | Q2 FY26 | Q1 FY26 | FY26 | FY25 |
+|---|---|---|---|---|---|---|---|
+| Advances incl. IBPC/securitisation (₹ Cr) | 37,612 | ~36,305 | — | — | 29,922 [E] | ~36,300 | — |
+| Deposits (₹ Cr) | 35,756 | 35,784 | — | — | 29,426 [E] | 35,784 | 29,120 |
+| CASA | 19% | 18% | — | — | 18% | 18% | 18% |
+| Cost of funds | 7.4% | 7.5% | — | — | 8.0% | 7.7% | 8.1% |
+| Yield on advances | 16.4% | 16.1% | — | — | 16.4% | — | — |
+| NIM | 7.5% | 7.2% | — | — | 6.6% | — | — |
+| Slippages (GNPA additions, ₹ Cr) | 291 | 334 | 438 | 590 | 515 | 1,877 | — |
+| Gross credit cost (₹ Cr) | 178 | 195 | 266 | 191 | 187 | 839 | — |
+| Recoveries in other income (₹ Cr) | 12 | 39 | 25 | 33 | 31 | 128 | — |
+| Net credit cost % avg GLP (quarterly) | 0.45% | 0.45% | 0.74% | 0.51% | 0.52% | ~2.2% [E sum] | — |
+| GNPA / NNPA | 2.24 / 0.85 | 2.33 / 0.87 | 2.49 / 0.90 | 2.75 / 0.90 | 2.76 / 0.89 | 2.33 / 0.87 | — |
+| PCR | 62.64% | 63.10% | 64.44% | 67.93% | 68.15% | 63.10% | — |
+| RoA / RoE (annualised) | 1.4 / 13.6 | 1.3 / 12.8 | — | — | 1.1 / 9.8 | — | — |
+| CD ratio | 97.0% | — | — | — | — | — | — |
+| Secured share | 72.8% | 72.6% | — | — | — | 72.6% | 69.8% |
+
+Note the **PCR fell every quarter (68% → 63%)** even as GNPA fell. Jana is writing off and recovering faster than it is adding specific provisions, and leaning on guarantee cover (unsecured NNPA ₹214 Cr, 92% guaranteed).
+
+**5-year history (screener, ₹ Cr) [V]**
+
+| FY | Interest earned | Interest expended | NII [E] | Other income | Opex + prov. | PBT | PAT | Deposits | Borrowings | Net worth | Total assets |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 2,727 | 1,337 | 1,390 | 324 | 1,627 | 5 | 5 | 13,540 | 4,660 | 1,050 | 20,189 |
+| FY23 | 3,075 | 1,415 | 1,660 | 625 | 1,960 | 256 | 256 | 16,334 | 6,547 | 1,527 | 25,644 |
+| FY24 | 4,014 | 1,886 | 2,128 | 670 | 2,222 | 514 | 670 (DTA) | 22,571 | 5,211 | 3,578 | 32,710 |
+| FY25 | 4,671 | 2,317 | 2,354 | 776 | 2,596 | 474 | 501 | 29,120 | 3,867 | 4,118 | 38,467 |
+| FY26 | 5,353 | 2,760 | 2,593 | 1,022 | 3,213 | 326 | 326 | 35,784 | 5,497 | 4,470 | 47,448 |
+| 4-yr CAGR [E] | 18% | 20% | 17% | 33% | — | n.m. | n.m. | **28%** | — | 44% (IPO Feb-24) | 24% |
+
+**8-quarter trend (₹ Cr; screener) [V]**
+
+| Quarter | Interest earned | Interest exp. | NII [E] | Other inc. | Opex + prov. | PBT | PAT | GNPA / NNPA (scr.) | Co. GNPA / PCR |
+|---|---|---|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 1,166 | 572 | 594 | 176 | 681 | 88 | 97 | 2.97 / 0.99 | — |
+| Q3 FY25 (Dec-24) | 1,177 | 585 | 592 | 177 | 665 | 105 | 111 | 2.80 / 0.94 | — |
+| Q4 FY25 (Mar-25) | 1,184 | 602 | 582 | 234 | 696 | 120 | 123 | 2.71 / 0.94 | — |
+| Q1 FY26 (Jun-25) | 1,241 | 655 | 586 | 266 | 750 | 102 | 102 | 2.91 / 0.94 | 2.76 / 68.15 |
+| Q2 FY26 (Sep-25) | 1,305 | 686 | 619 | 247 | 791 | 75 | 75 | 2.87 / 0.94 | 2.75 / 67.93 |
+| Q3 FY26 (Dec-25) | 1,374 | 709 | 665 | 245 | 899 | 10 | 10 | 2.59 / 0.94 | 2.49 / 64.44 |
+| Q4 FY26 (Mar-26) | 1,445 | 709 | 736 | 266 | 861 | 140 | 140 | 2.46 / 0.92 | 2.33 / 63.10 |
+| Q1 FY27 (Jun-26) | 1,515 | 732 | 783 | 227 | 854 | 155 | 155 | 2.39 / 0.91 | 2.24 / 62.64 |
+
+Read: Q3 FY26 (PAT ₹10 Cr) was the trough, with ₹266 Cr of credit cost — Jana "under-judged the velocity of NPA flows" (6-Feb-2026 call). Its FY26 credit-cost estimate was ~2.6–2.7% and FY27 1.7–1.8%. Q1 FY27 annualises below that.
+
+**Annual-report findings (FY26 Annual Report, BSE) [V]**
+- **Employees 26,462; customers 4.3 million** (up from 4.2 m), per the AR. The Q1 deck's "4.7 m active" uses a different definition — flag it.
+- **Deferred tax asset: ₹185.02 Cr at both Mar-26 and Mar-25.** It comes from brought-forward business losses and unabsorbed depreciation, recognised on "virtual certainty" estimated from the static book's contracted cash flows. **No additional DTA was recognised in FY26.** So FY26's zero tax reflects set-off of carried-forward losses, not DTA credits. Once the losses are used up (timing not disclosed), Jana moves to a ~25% tax rate: **PAT growth of 80%+ in FY27 is pre-tax-normalisation.**
+- **Contingent liabilities ₹486 Cr (₹522 Cr):** guarantees ₹62.9 Cr (₹137 Cr); claims not acknowledged ₹42.9 Cr; other items (note 18.13) ₹380 Cr.
+- **Related parties:** "no materially significant related party transactions having potential conflict" in FY26. The promoter link to JHL/JCL is shareholding only.
+- **Key audit matter:** NPA identification and provisioning (Schedule 18.7(a)), plus IT controls.
+
+## 4.3 Industry datasets upgraded from primary sources (chart-ready)
+
+**D1. Microfinance industry GLP (₹ Cr) and PAR 31–180 (%), MFIN Micrometer press releases [V] (replaces E2)**
+
+| Quarter-end | GLP ₹ Cr | YoY | QoQ | PAR 31–180 | Notes |
+|---|---|---|---|---|---|
+| Mar-24 | **4,33,697** | +24.5% | — | 2.2% | Peak; 7.8 cr borrowers; FY24 disbursement ₹3,35,473 Cr |
+| Jun-24 | n.d. (≈4.2–4.3 lakh [E]) | +19.2% | — | **2.69%** (PAR 30–180) | Heatwave and "incitement not to repay"; Guardrails 1.0 instituted Jul-2024 |
+| Sep-24 | **4,08,049** | — | — | — | Figure from the Q2 FY26 release (base year) |
+| Dec-24 | **3,85,348** | −3.5% | −5.6% [E] | **6.4%** | |
+| Mar-25 | **3,75,030** | −13.5% | −2.7% [E] | **6.3%** | PAR 1–90 4.22% |
+| Jun-25 | **3,53,233** | — | −5.8% [E] | **5.6%** | Q1 disbursement ₹56,677 Cr; PAR 31–60 1.1%, 61–90 1.4% |
+| Sep-25 | **3,39,510** | −16.8% | −3.9% [E] | ~2.5–3% [E] (PAR 31–90 1.09%) | ~50 lakh borrowers exited formal credit; 98% of clients within guardrails |
+| Dec-25 | **3,14,728** | −18.3% [E] | −7.3% | **~3.6%** (31–90 1.6% + 91–180 2.0%) | ~5% of POS reclassified by banks from MF to retail |
+| Mar-26 | **3,25,174** | −13.3% [E] | +3.3% | **2.0% (restated 2.1%)** | Q4 disbursement ₹77,524 Cr |
+| Jun-26 | **3,28,708** | −6.9% | +1.1% | **1.6%** | Q1 disbursement ₹61,718 Cr (+8.9%) |
+
+**D2. MFI lender mix (% of GLP) [V MFIN]**
+
+| | Mar-24 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|
+| NBFC-MFIs | 39.4 | 39 | 39.2 | 42.1 | 44.2 | 44.3 |
+| Banks | 33.2 | 33 | 31.4 | 26.7 | 32.7 | 25.3 |
+| SFBs | **17.1 (₹74,278 Cr)** | } residual | } residual | } residual | } residual | } residual ~30.4 |
+| NBFCs | 9.3 | | | | | |
+| Others | 0.9 | | | | | |
+
+Implied SFB microfinance book: ₹74,278 Cr at Mar-24. The four members' JLG-only exposure today is ~₹28,000 Cr [E, Part 3]. The rest of the SFB microfinance book sits largely with ESAF, Utkarsh, Suryoday and the AU/Fincare legacy. **Crisil puts MFI at ~30% of all SFB advances (FY26); the four members are at ~16.6% including Ujjivan's individual micro loans** [V Crisil; E].
+
+**D3. SFB-sector asset quality — three agencies, three universes [V]**
+
+| Agency | Mar-24 | Mar-25 | Sep-25 | Mar-26 | Mar-27e |
+|---|---|---|---|---|---|
+| Crisil (SFB GNPA) | — | 4.4% | — | 3.8% | 2.6–2.8% |
+| Crisil (MFI-book GNPA) | — | 8.4% (FY25) | — | 7.6% (FY26) | 3.8–4.0% |
+| ICRA (SFB GNPA) | 2.4% [Part 1] | 3.6% | 3.9% | 3.7–3.9% (e) | — |
+| CareEdge (SFB GNPA) | 3.50% | 4.35% | — | — | — |
+| Four members, loan-weighted (company bases) | — | ~2.4% [E] | — | ~2.2% [E] | — |
+
+Crisil also reports SFB SMA-1+2 at 2.4% (Mar-26) vs ~3.4%, non-MFI GNPA 2.2–2.4%, and write-offs of ~7% of the portfolio since Mar-24 [V].
+
+**D4. Size of the SFB sector vs the banking system (Mar-26) [V-snip RBI data; V company; E]**
+
+| Item | ₹ lakh Cr | Share of SCB total |
+|---|---|---|
+| SCB bank credit, 31-Mar-26 | 218.85 (~+16% YoY; FSR: credit growth 14.5% FY26) | 100% |
+| SCB aggregate deposits, 31-Mar-26 | 262.30 (+13.5% YoY) | 100% |
+| Four members — gross loans (company definitions) | 2.63 | **1.20%** |
+| Four members — deposits | 2.81 | **1.07%** |
+| Eight listed SFBs — deposits | 3.52 | 1.34% |
+| SFB sector advances (CareEdge-implied ₹2.73 lakh Cr Mar-25, +~20%) | ~3.2–3.3 [E] | ~1.5% |
+| AU alone — loans / deposits | 1.40 / 1.53 | 0.64% / 0.58% (AU: "~0.7% / 0.6%") |
+
+**D5. Retail FD card rates, general public, < ₹3 Cr (% p.a., fetched 22-Oct-2026) [V unless noted]**
+
+| Bank | ~1 year | ~2 years | Best retail bucket | Effective |
+|---|---|---|---|---|
+| Ujjivan SFB | 7.35 (1–<2 yr) | 7.65 (2 yr) | 7.90 (3y1d–3.5y) | 1-Sep-2026 |
+| Jana SFB | 7.30 (>12–24 m); 7.00 (>9–12 m) | 7.65 (>24–35 m) | 8.00 (36 m) | page fetched 22-Oct |
+| AU SFB (non-callable ₹1–3 Cr) | 7.20 (12m1d–15m) | 7.10 (18m1d–24m); 7.20 (24m1d–30m) | — | 10-Jun-2026 [V-snip; site 403] |
+| Equitas SFB | 6.90 (1y–443d) | 7.00 (2y1d–776d) | 7.40 (888d) | 2-Mar-2026 [V-sec bankbazaar; site 503] |
+| SBI | 6.25 (1–<2 yr) | 6.40 (2–<3 yr) | — | card w.e.f. 15-Dec-2025 (page updated 19-Oct-2026) |
+| HDFC Bank | 6.25 (1y–<15m) | 6.45 (21m–2y; 2y1d–<2y11m) | — | page fetched 22-Oct |
+| **SFB premium vs SBI/HDFC** | **+105–110 bp** (Ujjivan/Jana) | **+120–125 bp** | | [E] |
+
+Read:
+- The **headline FD premium (~110–125 bp) is smaller than the cost-of-funds gap (~150–200 bp).** The rest of the gap comes from SFBs' lower CASA share (19–29% vs ~32–38%), their savings-rate tiers, and bulk/CD funding.
+- **Neither SBI nor HDFC Bank had repriced retail FDs upward by 19–22 Oct** after the 7-Oct hike.
+- Ujjivan and Jana had already raised rates in June 2026 (both calls); Ujjivan's current card is effective 1-Sep-2026.
+
+**D6. Large-bank comparators, Q2 FY27 (Sep-26) [V-snip press coverage of bank releases]**
+
+| Bank | NIM | CASA | GNPA / NNPA | PAT growth |
+|---|---|---|---|---|
+| ICICI Bank | 4.18% (Q1 4.36%) | 35.8% avg (38.1%) | 1.20% / 0.30% | +20% (₹14,843 Cr) |
+| HDFC Bank | 3.32% on IEA / 3.16% on TA (Q1 3.26%) | ~32% (Q1) | — | +4.7% (~₹19,510 Cr); Q1 RoA 1.85% |
+| Four SFBs (Q1/Q2 FY27) | 5.9–8.4% | 19–29.5% | 2.10–2.36% / 0.31–0.85% | +158% (Q1 FY27, low base) |
+| Kotak Mahindra Bank | not fetched (reports late Oct) [K: NIM ~4.5–5%, CASA ~40%] | | | |
+
+**D7. CGFMU economics per ₹100 of covered MFI loans [V NCGTC; E illustration]**
+- **Fee:** ₹1.0 p.a. on sanctioned amount in year 1, then on outstanding. Jana pays ~₹80–100 Cr a year; AU says MFI credit cost is "~2.5% including guarantee".
+- **Payout if ₹10 defaults:** lender bears the first ₹0.30 (3% of default); NCGTC pays 75% of ₹9.70 = **₹7.28**; the lender's net loss is **₹2.73** (27%).
+- **Cap:** total payout ≤ 15% of the crystallised portfolio. **The cap binds only in a catastrophic year** (default > ~20% of the pool).
+- **Read:** CGFMU turns a fat-tailed MFI loss distribution into a fixed ~1% cost plus ~27% of losses. That is why AU, Jana and Equitas (87%) all buy it, and why the MFI-heritage banks can again talk of "normal" 2–2.5% MFI credit costs.
+
+**D8. RBI policy timeline (repo %, with stance) [V-snip; S10]**
+7-Feb-25 6.25 · 9-Apr-25 6.00 · 6-Jun-25 5.50 (+ CRR −100 bp in tranches) · Aug/Oct-25 hold · 5-Dec-25 **5.25** · Feb/Apr/Jun/Aug-26 hold (June 2026: neutral, GDP 6.6%, CPI 5.1% — Ujjivan call [V]) · **7-Oct-26 5.50**: unanimous hike; stance "calibrated tightening" 4–2; FY27 GDP 7.1%, CPI 5.2% · next MPC 2–4 Dec 2026.
+
+**D9. Regulation table (verified)**
+
+| Rule | Value | Date | Source |
+|---|---|---|---|
+| SFB PSL target | 60% of ANBC or CEOBE (higher); mandatory 40%; flexible 20% | 20-Jun-2025, effective FY26 | CareEdge note [V]; RBI circular [V-snip] |
+| NBFC-MFI qualifying-asset norm | 75% → 60% | Jun-2025 | CareEdge note; MFIN Q1 FY26 [V] |
+| MFIN Guardrails 1.0 | ≤4 lenders; ₹2 lakh MFI indebtedness; no lending if 90+ DPD with > ₹3,000 overdue | Jul-2024 | MFIN [V]; secondaries |
+| MFIN Guardrails 2.0 | ₹2 lakh cap incl. unsecured retail; no lending to borrowers > 60 DPD (1-Jan-2025); ≤3 lenders (1-Apr-2025) | Nov-2024 announced | Crisil PR [V]; BS [V-snip] |
+| Karnataka Act 15 of 2025 | MFI/money-lender registration; anti-coercion; **excludes SFBs and all RBI-regulated banks/NBFCs** | in force 12-Feb-2025 (ordinance); assent 24-Mar-2025 | Act text [V] |
+| Tamil Nadu Act 40 of 2025 | anti-coercion for money-lending entities | in force 19-Nov-2025 | TN gazette [V-snip] |
+| Bihar MFI Bill 2026 | excludes RBI-regulated entities (s.2(2)) | passed 26-Feb-2026 | MFIN [V, Part 1] |
+| CGFMU | 1% fee; 3% FL; 75% cover; 15% cap; loans ≤ ₹20 lakh | FAQ 18-Feb-2025 | NCGTC [V] |
+| CGSMFI 2.0 | guarantee on bank loans to NBFC-MFIs | extended to Aug-2026 | MFIN [V, Part 1] |
+
+## 4.4 Gap log (§H items and the brief's list)
+
+| # | Gap | Status | What closed it / what was tried |
+|---|---|---|---|
+| H.1 / brief 1 | SFB-sector totals and system share | **Partly filled** | System credit ₹218.85 lakh Cr and deposits ₹262.3 lakh Cr at 31-Mar-26 [V-snip RBI data]; members' share 1.20% / 1.07% [E]; CareEdge-implied SFB advances ₹2.73 lakh Cr (Mar-25) [V]. **Still open:** an RBI table of SFB-group advances/deposits. RBI WSS PDF and the FSR returned a CAPTCHA; DBIE not attempted (JS app). |
+| H.2 / brief 2 | MFI GLP/PAR series Mar-24 → Jun-26 | **Filled** except Jun-24 GLP (release gives only +19.2% YoY) and the Sep-24 PAR (Q2 FY25 release did not download) | MFIN releases ×9 [V] → D1 |
+| H.3 / brief 2 | SFB share of MFI GLP | **Filled for Mar-24 (17.1%, ₹74,278 Cr)**; later quarters not split | MFIN Q4 FY24 [V]; Crisil "MFI ≈30% of SFB advances" [V] |
+| H.4 / brief 3 | Ujjivan/Jana UB application returns | **Filled — primary for both** | Ujjivan Q4 FY26 deck ("April 13th… response"); Jana Q3 FY26 transcript ("in quarter 3… RBI returned our application"); Jana Q4 FY26 transcript (resubmission planned). The Apr-2026 Jana item was wrong (S6) |
+| H.5 / brief 4 | AU final licence; NOFHC; rebrand | **Filled (status) / open (rebrand date)** | Still "in-principle" with final application pending at 24-Sep-2026 [V CIO deck]; NOFHC replaced [V Q4 deck]. The "AU Bank from Apr-2027" rebrand date was not found in any AU document read — keep [V-sec] or drop |
+| H.6 / brief 5 | Guardrails 1.0/2.0; Karnataka; TN; Bihar | **Filled** | MFIN [V]; Crisil [V]; Karnataka Act text [V]; TN gazette [V-snip]; Bihar (Part 1) [V] |
+| H.7 / brief 6 | CGFMU mechanics | **Filled** | NCGTC FAQ [V]; AU and Jana calls [V] |
+| H.8 / brief 7 | SFB vs large-bank FD premium | **Filled** (Ujjivan, Jana, SBI, HDFC primary; AU/Equitas secondary) | Rate-card pages [V] → D5. AU site blocks bots (403); Equitas site 503 |
+| H.9 / brief 8 | Equitas FY26 NIM, credit cost, CASA | **Filled** | Q4 FY26 annual-ratios slide (image) [V] |
+| H.10 / brief 8 | Ujjivan FY26 ratios | **Filled** | Q4 FY26 deck [V] |
+| H.11 / brief 8 | AU FY26 yield | **Filled (13.9%)** | Q4 FY26 deck slide 20 (image) [V] |
+| brief 9 | RBI rate dates; Oct-2026 hike; PSL circular | **Partly filled** | Hike details from ≥3 consistent secondaries [V-snip]; June-2026 hold from the Ujjivan call [V]; PSL from the CareEdge PDF [V]. **The RBI press releases and circular themselves could not be fetched** (rbi.org.in CAPTCHA; website.rbi.org.in redirects) |
+| H.12 / brief 10 | Utkarsh promoter drop 68.9% → 42.7% | **Still open (cause)** | Search: Utkarsh CoreInvest 68.92% (Jul-25) → 42.67% (Mar-26); reverse merger of CoreInvest into the bank is under way (unsecured-creditor meeting 28-Mar-2026); no source ties the drop to a specific transaction |
+| H.13 / brief 10 | slice–NESFB merger date | **Filled: 27-Oct-2024** | 3 consistent news reports [V-snip] (S11) |
+| H.14 / brief 10 | Large private-bank comparators | **Partly filled** | ICICI and HDFC Q2 FY27 NIM/CASA/GNPA [V-snip] → D6; Kotak not yet reported; CoF for large banks not found (keep the [K] ~5.0–5.5%) |
+| Part-1 "verify" items | Q2 FY27 for Jana/AU/Equitas | **Confirmed not out**; AU Q2 provisional numbers now primary [V] | Screener announcements; AU 3-Oct letter |
+| Part-1 "verify" | ECL implementation date | **Partly**: AU (Jul-2026) talks of entering FY28 under ECL and expects a "neutral" impact [V]; RBI final circular not fetched | — |
+
+## 4.5 New insights and new primer issues
+
+**Insights the first pass missed (expert-level)**
+1. **The funding tailwind ended in Q1 FY27 — before the RBI hiked.**
+   - All four managements said in July 2026 that CoF had bottomed: AU "effectively bottomed out"; Jana "the opportunity to drop cost of funds is now over"; Ujjivan "repricing benefit… almost done"; Equitas CoF already +11 bp.
+   - All four raised savings or term-deposit rates during **Q1 FY27 (Jun-2026 for Jana and Ujjivan)**, after tight liquidity in April–May and a deposit war.
+   - The 7-Oct-2026 hike therefore lands on books already repricing upward. **Peak SFB NIMs were Q4 FY26/Q1 FY27; expect 10–20 bp of compression per quarter in H2 FY27** (Equitas guides 7.24% → ~7.1%) [V; E].
+2. **The FD premium is only ~110–125 bp; the CoF gap is 150–200 bp.** The rest is CASA share and bulk/institutional funding. Equitas now draws ~30% of term deposits from co-operative banks and government bodies; AU 21% from government and interbank; Jana lost state-government CASA in Q4 FY26 (−8% QoQ). **SFB funding is less granular than "retail-deposit" labels suggest, and government/co-op money is the most rate-sensitive and politically mobile** [V].
+3. **CGFMU has changed MFI economics from a tail risk to a toll.** At a 1% fee plus ~27% of losses net (3% first loss, 75% cover, 15% cap), the guarantee turns MFI credit cost into a predictable ~2–2.5%. That is why AU (96%), Jana (~80%) and Equitas (87%) cover their books, and why all three now cap MFI at ~10% of loans or ~10–12% growth instead of exiting. **The cap binds only if a vintage loses >~20%** — a 2010-AP-style event would still hurt [V; E].
+4. **The universal-bank gate is qualitative, slow and sequential.**
+   - AU is still waiting **13+ months after in-principle approval** (AU's own 24-Sep-2026 deck); its NOFHC condition had to be removed first.
+   - RBI returned Jana's application (Q3 FY26) and Ujjivan's (13-Apr-2026) on diversification, not on the numeric tests. Ujjivan was told to show "further progress"; Jana cited "shortages".
+   - Equitas, which meets the numbers, is deliberately slow.
+   - **Expect no second UB conversion before FY28; AU's final licence is the only FY27 catalyst** [V; E].
+5. **State anti-coercion laws do not legally reach SFBs.** Karnataka's Act (s.1(3)) explicitly excludes SFBs, as Bihar's Bill excludes RBI-regulated entities. Yet Karnataka is still Ujjivan's worst MFI state (GL PAR 90+ 5.4%). **The damage runs through borrower behaviour and field-collection climate, not legal liability** — a point the report should make precisely [V].
+6. **Equitas's de-risking cost ~230 bp of NIM (9.00% FY23 → 6.69% FY26, old basis), with no better through-cycle RoA yet** (FY25–26 RoA 0.30% / 0.19%). Ujjivan has kept NIM at 8.1–8.5% while getting to 52% secured. The contrast shows migration pays only if opex falls with ticket size — Ujjivan's MSME ticket-size lift is an explicit opex-for-yield trade [V].
+7. **Jana's earnings quality depends on a ₹185 Cr DTA and carried-forward losses.** No DTA was added in FY26, so its zero tax is loss set-off. FY27's "PAT +80%" is pre-normalisation. Its **PCR fell from 68% to 63% over five quarters** while guarantee cover rose — Jana is substituting guarantees for provisions [V].
+8. **AU is quietly building universal-bank plumbing.** Contingent liabilities rose 77% (₹7,370 → ₹13,047 Cr), mostly forward FX (₹5,644 Cr) and new derivatives (₹519 Cr). There is also a "zero-forex-margin" remittance product, GIFT City/OFCB funding, and a CRO hired from HDFC Bank. Ujjivan (₹1,375 Cr) and Equitas (₹314 Cr) show smaller FX books from FCNR(B) launches after the RBI's June-2026 FX-inflow measures [V].
+
+**New primer issues (append to primer-issues.md)**
+
+- **au-small-finance-bank.html — Q2 FY27 provisional numbers:** deposits **₹1,70,460 Cr** (+28.6% YoY), CASA **29.5%**, GLP **₹1,53,770 Cr** (+25.1%) (AU letter 3-Oct-2026). Replace any "≈" estimate.
+- **au-small-finance-bank.html — FY26 ratios:** FY26 yield on advances **13.9%**, C/I **57.9%**, CoF 6.75%, NIM 5.65% (AU Q4 FY26 deck slide 20).
+- **au-small-finance-bank.html — universal bank still pending:** AU's 24-Sep-2026 investor deck still describes "in-principle" approval with the final-licence application pending. Do not say "licence granted". Add AU's own market-share figure (~0.7% of loans, ~0.6% of deposits).
+- **au-small-finance-bank.html — MFI policy:** management caps MFI at ~10% of the book (small/marginal-farmer PSL); MFI credit cost ~2.5% including the CGFMU fee; 96% CGFMU cover.
+- **ujjivan-small-finance-bank.html — leadership date:** the MD & CEO's early retirement was announced **1-Sep-2026** (special call), not with the Q2 results. **Carol Furtado is interim MD & CEO** (subject to RBI); permanent appointment is ~6+ months away.
+- **ujjivan-small-finance-bank.html — capital raise detail:** ₹409 Cr preferential at **₹64.73/share** to **IFC (to 4.99%), Bajaj Life, Aditya Birla Sun Life and HDFC Life**; EGM 13-Nov-2026; adds ~1.2 pp CRAR; sits under the ₹2,000 Cr enabling resolution.
+- **ujjivan-small-finance-bank.html — UB return now primary:** cite Ujjivan's own Q4 FY26 deck ("On April 13th received response from RBI… Re-application once Ujjivan SFB can demonstrate further progress"). Drop the "verify" flag.
+- **ujjivan-small-finance-bank.html — FY26 ratios:** NIM 8.1%, RoA 1.4%, RoE 10.9%, C/I 66%, credit cost ₹799 Cr. FY27 guidance raised to RoA 1.8–2.0%; credit cost 0.9–1.0% of ATA (basis changed from GLB).
+- **equitas-small-finance-bank.html — FY26 ratios and NIM history:** FY26 NIM 6.69% (old basis), CoF 7.22%, credit cost 2.78%, RoA 0.19%, RoE 1.73%, PCR 73%. NIM has fallen from 9.00% (FY23) as MFI shrank. Q1 FY26 C/I was **70.62%**; the **75.89%** often quoted was the Q2 FY26 peak.
+- **equitas-small-finance-bank.html — funding mix:** ~30% of term deposits now come from co-operative banks (~18%) and government/institutions (~12%). Borrowings rose to ₹5,773 Cr (from ₹2,137 Cr) in FY26. A ₹1,250 Cr Tier-1 enabling resolution; raise likely Q4 FY27/Q1 FY28.
+- **equitas-small-finance-bank.html — UB stance:** replace "paused" with management's July-2026 words: technically compliant, no timeline, "not in a hurry", in dialogue with RBI.
+- **jana-small-finance-bank.html — UB chronology:** the application was **returned in Q3 FY26** (Oct–Dec 2025; Jana's 6-Feb-2026 call). It was **not** returned again in April 2026. Jana plans to resubmit after the FY26 audit.
+- **jana-small-finance-bank.html — tax:** zero tax is carried-forward-loss set-off. The balance-sheet DTA is **₹185 Cr, unchanged in FY26**. Flag that tax normalisation (~25%) will eventually cut PAT growth.
+- **jana-small-finance-bank.html — promoter detail:** JHL's last **4.99% is committed to TVS Motors**. India Ratings downgraded JHL/JCL on 1-Jul-2026; CARE took no action on the bank. ~₹80 Cr of warrant money follows RBI approval of TVS; the rest of ₹728 Cr comes over 18 months.
+- **jana-small-finance-bank.html — guidance additions:** CoF 7.3–7.4% for FY27; C/I to 63–65%; CASA ratio ~20%; MFI growth capped at 10–12%; first CGFMU claim ₹65 Cr in Q3 FY27; guarantee commission ~₹80–100 Cr a year.
+- **All four primers — microfinance cycle numbers:** the MFI GLP peak is **₹4,33,697 Cr (Mar-24)**, not "₹4.4 lakh Cr". SFBs held **17.1%** of MFI GLP at the peak. MFIN Guardrails 2.0's indebtedness and 60-DPD rules started **1-Jan-2025**; the 3-lender cap started 1-Apr-2025.
+- **All four primers — Karnataka law:** if a primer implies the Karnataka micro-loan law applies to SFBs, correct it. **Act 15 of 2025 s.1(3) excludes SFBs**; the impact is behavioural/collection climate only.
+- **All four primers — repo hike wording:** the 7-Oct-2026 hike to 5.50% was **unanimous**; only the stance change ("calibrated tightening") was 4–2.
+
+*End of Part 4.*
+
+
+---
+
+# PART 5 — Orchestrator re-add of aggregates (22-Oct-2026, applying Part 4 Supersedes S27)
+
+Re-added by the orchestrator from the company rows (screener standalone FY26/FY25/FY24, reported PAT; market caps per S27, 22-Oct-2026 fetch). Ratios are ratios of sums: RoA = PAT ÷ average total assets (Mar-25, Mar-26); RoE = PAT ÷ average net worth; P/B = m-cap ÷ Mar-26 net worth; P/E = m-cap ÷ FY26 PAT; CD = gross loans ÷ deposits. Every Part 3 sum checked: no arithmetic errors found; only the m-cap snapshot moved (₹94,463 → ₹94,445 Cr; ex-AU ₹23,736 → ₹23,778 Cr; Ujjivan+Jana ₹16,114 → ₹16,113 Cr; AU+Equitas ₹78,349 → ₹78,332 Cr). Writer: use THIS table for the peer combined rows, and do not use the words "pair"/"trio"/"two"/"three" in row labels.
+
+| Group | Deposits Mar-26 | Dep YoY | Gross loans Mar-26 | NII FY26 | NII YoY | PAT FY26 | PAT FY25 | PAT FY24 | PAT YoY | RoA | RoE | Net worth | M-cap 22-Oct | P/B | P/E | CD |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| All four | 280,646 | +19.9% | 263,436 | 18,968 | +9.9% | 3,763 | 3,480 | 4,285 | +8.1% | 1.15% | 10.6% | 37,384 | 94,445 | 2.53x | 25.1x | 93.9% |
+| AU | 152,661 | +22.8% | 140,327 | 9,113 | +13.7% | 2,641 | 2,106 | 1,535 | +25.4% | 1.51% | 14.2% | 19,973 | 70,667 | 3.54x | 26.8x | 91.9% |
+| Ujjivan | 45,668 | +21.4% | 40,655 | 3,871 | +6.5% | 693 | 726 | 1,281 | -4.5% | 1.32% | 10.7% | 6,816 | 11,782 | 1.73x | 17.0x | 89.0% |
+| Equitas | 46,533 | +8.0% | 46,165 | 3,391 | +4.3% | 103 | 147 | 799 | -29.9% | 0.18% | 1.7% | 6,125 | 7,665 | 1.25x | 74.4x | 99.2% |
+| Jana | 35,784 | +22.9% | 36,289 | 2,593 | +10.2% | 326 | 501 | 670 | -34.9% | 0.76% | 7.6% | 4,470 | 4,331 | 0.97x | 13.3x | 101.4% |
+| MFI-heritage SFBs (ex-AU) | 127,985 | +16.5% | 123,109 | 9,855 | +6.6% | 1,122 | 1,374 | 2,750 | -18.3% | 0.74% | 6.7% | 17,411 | 23,778 | 1.37x | 21.2x | 96.2% |
+| Housing-led migrants (Ujjivan + Jana) | 81,452 | +22.0% | 76,944 | 6,464 | +7.9% | 1,019 | 1,227 | 1,951 | -17.0% | 1.07% | 9.5% | 11,286 | 16,113 | 1.43x | 15.8x | 94.5% |
+| Secured-majority banks (AU + Equitas) | 199,194 | +19.0% | 186,492 | 12,504 | +11.0% | 2,744 | 2,253 | 2,334 | +21.8% | 1.19% | 11.1% | 26,098 | 78,332 | 3.00x | 28.5x | 93.6% |
+
+Note: Ujjivan P/B here is on Mar-26 book (1.73×); on Sep-26 book (BVPS ₹38.1) it is ~1.59×. State the basis.
