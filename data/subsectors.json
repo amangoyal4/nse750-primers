@@ -1107,6 +1107,23 @@
         "Cash that isn't all theirs"
       ],
       "published": "2026-10-22"
+    },
+    {
+      "name": "Shipping",
+      "slug": "shipping",
+      "file": "shipping.html",
+      "sector": "Logistics",
+      "subsector": "Shipping",
+      "companies": 2,
+      "accent": "#0048B0",
+      "hook": "Less oil, longer voyages, record profits: how Great Eastern and SCI earn dollars a day at sea, why the 2026 Hormuz closure lifted rates as volumes fell, why GE's own earnings lag the market averages, GE's discount to NAV and buyback, and SCI between privatisation and a national-fleet mandate.",
+      "tags": [
+        "The Hormuz paradox",
+        "GE: a value fund that owns ships",
+        "SCI: sale or national fleet",
+        "Tax, flag and ₹69,725 crore"
+      ],
+      "published": "2026-10-22"
     }
   ],
   "universe": [
@@ -1768,7 +1785,7 @@
       "sector": "Logistics",
       "sub": "Shipping",
       "companies": 2,
-      "report": null
+      "report": "shipping.html"
     },
     {
       "sector": "Media & Entertainment",
