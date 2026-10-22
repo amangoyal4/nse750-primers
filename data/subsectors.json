@@ -1073,6 +1073,23 @@
         "Ind-AS 116, EBITDA and ROCE"
       ],
       "published": "2026-10-22"
+    },
+    {
+      "name": "Garments & Apparels",
+      "slug": "garments",
+      "file": "garments.html",
+      "sector": "Textile",
+      "subsector": "Garments & Apparels",
+      "companies": 5,
+      "accent": "#931A93",
+      "hook": "Two industries, one tariff-shaped label: why India's garment exporters (Pearl, Gokaldas, Kitex) ride US tariff swings, Bangladesh and FTAs at 9% margins, while one innerwear licence (Page/Jockey) is two-thirds of the profit and value, and what pieces, price per piece and utilisation reveal.",
+      "tags": [
+        "US tariff roller-coaster",
+        "Bangladesh, Vietnam and China+1",
+        "Innerwear and the branded engine",
+        "Two industries, one label"
+      ],
+      "published": "2026-10-22"
     }
   ],
   "universe": [
@@ -1920,7 +1937,7 @@
       "sector": "Textile",
       "sub": "Garments & Apparels",
       "companies": 5,
-      "report": null
+      "report": "garments.html"
     },
     {
       "sector": "Trading",
