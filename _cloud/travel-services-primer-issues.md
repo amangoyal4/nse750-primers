@@ -34,7 +34,6 @@ Logged for the owner; primers are NOT edited on this branch.
 ## From Travel Services deep-research pass (2026-10-22, travel-services-industry.md §4.6) — supersedes earlier bullets where they conflict
 
 
-### From Travel Services deep-research pass (2026-10-22, travel-services-industry.md Part 4)
 
 - **irctc.html — convenience fee:** keep ₹15/₹30 + GST with ₹10/₹20 for UPI/BHIM. The primer was right; drop any "conflict" note. Add the fee-per-ticket check: ~₹18.6 in Q1 FY27 at a 51% UPI share [PL/company].
 - **irctc.html — online share:** "~80%" → **~89% e-booking penetration** (company, Q3 FY26 to Q1 FY27 calls).
@@ -70,7 +69,6 @@ Logged for the owner; primers are NOT edited on this branch.
 
 ---
 
-## 4.7 Source URLs fetched this session (Part 4)
 
 ## Orchestrator note (2026-10-22)
 
