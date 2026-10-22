@@ -77,3 +77,14 @@ Logged for the owner; primers were NOT edited on this branch.
   - India's official FY26 iron-ore output is 313 mt (PIB).
   - FY26 iron-ore imports were 12.35 mt.
 
+
+## From primer-audit.mjs (2026-10-22, orchestrator run; pre-existing, not fixed here)
+
+| Primer | KB | Words | Bars | Plain | Sections | Report links | Refreshed | Hard checks | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| nmdc.html | 74 | 6525 | 7 | 12 | 13 | 0 | 2026-06-30 | ❌ bars<10, banned | no main{min-width:0} (phone overflow) |
+| sandur-manganese.html | 69 | 6206 | 19 | 11 | 12 | 0 | 2026-07-27 | ✅ | no main{min-width:0} (phone overflow) |
+| ashapura-minechem.html | 72 | 6227 | 19 | 11 | 12 | 0 | 2026-07-27 | ✅ | no main{min-width:0} (phone overflow) |
+| moil.html | 67 | 5666 | 19 | 10 | 11 | 0 | 2026-07-27 | ✅ | no main{min-width:0} (phone overflow) |
+
+- **nmdc.html** fails the hard checks: fewer than 10 bar charts (7) and a banned phrase present. All four primers lack the `main{min-width:0}` phone-overflow fix and none links back to a sub-sector report (0 report links); add a link to industrial-minerals.html once it is published.
