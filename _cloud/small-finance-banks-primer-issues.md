@@ -50,3 +50,8 @@
 - **All four primers — microfinance cycle numbers:** the MFI GLP peak is **₹4,33,697 Cr (Mar-24)**, not "₹4.4 lakh Cr". SFBs held **17.1%** of MFI GLP at the peak. MFIN Guardrails 2.0's indebtedness and 60-DPD rules started **1-Jan-2025**; the 3-lender cap started 1-Apr-2025.
 - **All four primers — Karnataka law:** if a primer implies the Karnataka micro-loan law applies to SFBs, correct it. **Act 15 of 2025 s.1(3) excludes SFBs**; the impact is behavioural/collection climate only.
 - **All four primers — repo hike wording:** the 7-Oct-2026 hike to 5.50% was **unanimous**; only the stance change ("calibrated tightening") was 4–2.
+
+## From primer-audit.mjs (2026-10-22, orchestrator; pre-existing, not fixed)
+
+- **au-small-finance-bank.html:** FAILS a hard check — banned phrase present and "honest" used more than once. Also lacks `main{min-width:0}` (phone overflow risk).
+- **ujjivan-small-finance-bank.html, equitas-small-finance-bank.html, jana-small-finance-bank.html:** hard checks pass; each lacks `main{min-width:0}` (phone overflow risk). None of the four primers links to a sub-sector report (0 report links). They are now cross-linkable to subsectors/small-finance-banks.html once it is published.
