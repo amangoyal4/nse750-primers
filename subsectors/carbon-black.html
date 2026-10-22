@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Carbon Black — Sub-sector Report</title>
+<meta name="description" content="A complete guide to India's listed carbon black group: PCBL Chemical, Himadri Speciality Chemical and Rain Industries. How the per-tonne spread is made and lost, why tyres and exports set the volume, what the 2026 oil shock did to margins and cash, the battery-materials bets, and how the three companies compare.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#2B167E;          /* deep carbon indigo */
+    --brand-bright:#5B45C9;   /* bright indigo accent */
+    --gold:#C08A1E;           /* amber - feedstock oil */
+    --wtg:#3E5C8A;            /* slate blue */
+    --epc:#8A7FC4;            /* lavender */
+    --om:#2F3A4F;            /* carbon slate */
+    --spec:#5B45C9;          /* indigo accent */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#2B167E,#5B45C9);}
+  .fill.gold{background:linear-gradient(90deg,#C08A1E,#DCA845);}
+  .fill.wtg{background:linear-gradient(90deg,#3E5C8A,#5E7CAA);}
+  .fill.epc{background:linear-gradient(90deg,#8A7FC4,#A79EDA);}
+  .fill.om{background:linear-gradient(90deg,#2F3A4F,#4F5B72);}
+  .fill.spec{background:linear-gradient(90deg,#5B45C9,#7D6BDA);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Chemicals · Carbon Black</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> Soot by design: the value chain</a></li>
+    <li><a href="#p2"><span class="n">02</span> Size: a surplus country</a></li>
+    <li><a href="#p3"><span class="n">03</span> Tyres pull the demand</a></li>
+    <li><a href="#p4"><span class="n">04</span> Where ₹100 goes</a></li>
+    <li><a href="#p5"><span class="n">05</span> Who makes it</a></li>
+    <li><a href="#p6"><span class="n">06</span> Four ways to earn from carbon</a></li>
+    <li><a href="#p7"><span class="n">07</span> No shield: trade &amp; policy</a></li>
+    <li><a href="#p8"><span class="n">08</span> Same tonnes, different year</a></li>
+    <li><a href="#p9"><span class="n">09</span> Russia's lost market</a></li>
+    <li><a href="#p10"><span class="n">10</span> The windfall that ate the cash</a></li>
+    <li><a href="#p11"><span class="n">11</span> Six decades, five cycles</a></li>
+    <li><a href="#p12"><span class="n">12</span> Reading carbon black: the KPIs</a></li>
+    <li><a href="#p13"><span class="n">13</span> The peer table</a></li>
+    <li><a href="#p14"><span class="n">14</span> Who is winning</a></li>
+    <li><a href="#p15"><span class="n">15</span> Three company profiles</a></li>
+    <li><a href="#p16"><span class="n">16</span> From soot to silicon</a></li>
+    <li><a href="#p17"><span class="n">17</span> Two balance sheets, one cycle</a></li>
+    <li><a href="#p18"><span class="n">18</span> The global lens</a></li>
+    <li><a href="#p19"><span class="n">19</span> Technology &amp; disruption</a></li>
+    <li><a href="#p20"><span class="n">20</span> Bull vs bear</a></li>
+    <li><a href="#p21"><span class="n">21</span> What to watch</a></li>
+    <li><a href="#p22"><span class="n">22</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Chemicals · Carbon Black</span>
+    <span class="tag gold">3 listed companies</span>
+  </div>
+  <h1>Indian carbon black: <em>tyres, crude and the per-tonne spread</em></h1>
+  <p class="dek">A complete guide to the three NSE 750 companies classified as carbon black: PCBL Chemical, India's largest producer; Himadri Speciality Chemical, a coal-tar refinery that feeds its own carbon black reactors; and Rain Industries, a global calcined-coke and pitch maker that sells carbon black oil. How a tonne of heavy oil becomes a tonne of black, why the profit is a spread that Chinese and Russian surplus can squeeze, how the 2026 oil shock turned into a windfall quarter and a cash drain at the same time, and what the battery-materials bets are worth.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹31,989 <small>Cr</small></div><div class="l">Combined revenue, TTM Jul-25 to Jun-26</div></div>
+    <div class="cell"><div class="v">₹44,804 <small>Cr</small></div><div class="l">Combined m-cap (22 Oct 2026)</div></div>
+    <div class="cell"><div class="v">900 <small>ktpa</small></div><div class="l">PCBL capacity, India's largest</div></div>
+    <div class="cell"><div class="v">₹22,900</div><div class="l">PCBL EBITDA per tonne, Q1 FY27 (FY26 ₹14,900)</div></div>
+    <div class="cell"><div class="v">₹4,376 <small>Cr</small></div><div class="l">India carbon black exports FY26 (443.9 kt)</div></div>
+    <div class="cell"><div class="v">₹13,521 <small>Cr</small></div><div class="l">Combined net debt (company bases)</div></div>
+  </div>
+  <p class="prov">Basis: aligned trailing twelve months July 2025 to June 2026 for all three companies (screener.in consolidated), because Rain reports on a calendar year. Latest quarters: PCBL Q1 FY27 (Jun-26), Himadri Q2 FY27 (Sep-26), Rain Q2 CY26 (Jun-26). Market data as of 22 October 2026. Trade data from DGCI&amp;S TradeStat; trade-remedy history from DGTR. Estimates, composites and worked examples are labelled illustrative or indicative.</p>
+</header>
+
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: three carbon companies, one spread</h2></div>
+<p class="part-sub">The tonnes barely move from year to year. The rupees earned on each tonne swing by half, and that swing is the whole investment case.</p>
+
+<p class="lead">Carbon black is the fine black powder that makes up roughly a quarter to a third of the weight of a tyre. It is made by burning a heavy aromatic oil in too little air, so that the carbon falls out as soot of a controlled size and shape instead of burning to carbon dioxide. Nobody buys it for its own sake. Tyre makers buy it because it turns soft rubber into a tread that lasts 50,000 kilometres; pipe, cable and ink makers buy smaller amounts of finer grades for colour, ultraviolet protection or electrical conductivity. The product is old, the chemistry is well understood, and in India there is now more capacity than domestic demand.</p>
+<p>That last fact shapes everything. India had about 2.0 million tonnes a year of carbon black capacity in early 2024 (CRISIL) and, after PCBL's, BKT Carbon's and Birla Carbon's expansions, roughly 2.2–2.4 million tonnes in late 2026 (an indicative estimate). Domestic consumption is about 1.3–1.45 million tonnes, an indicative figure extrapolated from the only regulator-published demand series. The gap leaves the country. India turned net exporter of carbon black in FY22 and in FY26 shipped 443.9 thousand tonnes (kt) worth ₹4,376 crore while importing 130.2 kt. An industry that exports a third of its output cannot set its own price: it takes the price that clears in Thailand, Poland and the United States, where Chinese and Russian black compete.</p>
+<p>So the number that matters is not revenue and not even volume, but <strong>EBITDA per tonne</strong>: the rupees of operating profit left on each tonne after paying for the oil, the gas, the plant and the freight, plus whatever the plant earns by turning its waste gas into electricity. PCBL, the largest producer, earned about ₹19,350 a tonne in the first half of FY25, about ₹15,500 in the first half of FY26 and about ₹14,900 for FY26 as a whole, while selling a record 618,956 tonnes. Volume rose 3.8%; EBITDA fell 22% and profit after tax fell 54%. Then the West Asia war that began on 28 February 2026 pushed Brent crude from the mid-$60s to $117 a barrel in April, and PCBL's Q1 FY27 (April–June 2026) EBITDA per tonne jumped to ₹22,900, including about ₹70 crore of gains on cheap inventory. Management still guides FY27 at only ₹16,500–17,000 a tonne. Same plants, same customers, same tonnes: three very different years.</p>
+
+<div class="chart">
+  <div class="c-title">PCBL's carbon black EBITDA per tonne: the swing is the story</div>
+  <div class="c-sub">₹ per tonne of carbon black sold, company basis (consolidated EBITDA less Aquapharm, divided by carbon black tonnes; includes tail-gas power). H1 figures from CRISIL (Jan-2026); FY26 and Q1 FY27 from company calls; FY27 is the guidance midpoint</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">H1 FY25<small>Apr–Sep 2024</small></div><div class="track"><span class="fill brand" style="width:77.4%"></span></div><div class="bval">~19,350</div></div>
+    <div class="bar-row"><div class="blab">H1 FY26<small>Apr–Sep 2025</small></div><div class="track"><span class="fill om" style="width:62%"></span></div><div class="bval">~15,500</div></div>
+    <div class="bar-row"><div class="blab">FY26<small>trough year</small></div><div class="track"><span class="fill om" style="width:59.5%"></span></div><div class="bval">~14,900</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27<small>oil-shock quarter</small></div><div class="track"><span class="fill gold" style="width:91.6%"></span></div><div class="bval">22,900</div></div>
+    <div class="bar-row"><div class="blab">FY27 guidance<small>₹16,500–17,000</small></div><div class="track"><span class="fill spec" style="width:67%"></span></div><div class="bval">~16,750</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹25,000 a tonne. Q1 FY27 includes ~₹70 Cr of inventory gains (about ₹4,500 a tonne), of which ₹40–50 Cr was expected to reverse in Q2 FY27.</span></div>
+</div>
+
+<p>The three listed companies in this bucket are very different businesses, and the report treats them that way. <strong>PCBL Chemical</strong> (900 ktpa, about 40% of Indian capacity) is the purest carbon black play, with tail-gas power plants and, since January 2024, a debt-funded phosphonates business called Aquapharm. <strong>Himadri Speciality Chemical</strong> is India's largest coal-tar distiller: it turns coke-oven tar into pitch for aluminium smelters, naphthalene for chemicals and heavy oils that feed its own 250 ktpa of carbon black reactors, and it is spending on lithium-iron-phosphate cathode, anode material and carbon nanotubes. <strong>Rain Industries</strong> makes no furnace carbon black at all: it is the world's largest coal tar pitch maker and a top calcined petroleum coke producer, sitting here because its distillation units sell carbon black oil to carbon black makers.</p>
+<p>The market prices them on anything but tonnes. On an aligned twelve-month basis to June 2026, Rain earned 58% of the group's revenue and 57% of its operating profit but carries only 15% of its market value. Himadri earned 16% of revenue and 20% of operating profit but carries 59% of the value. The difference is leverage, growth and optionality. Rain's enterprise value is more than half debt, and minority shareholders in its subsidiaries took 69% of its CY25 profit. Himadri had net cash until March 2026 and is the only one of the three with a credible claim to be building a battery-materials business at commercial scale.</p>
+
+<div class="chart">
+  <div class="c-title">Who earns the money and who gets the valuation</div>
+  <div class="c-sub">Shares of the three-company total, aligned TTM Jul-25 to Jun-26 (screener consolidated; PAT before non-controlling interest); market cap 22-Oct-2026</div>
+  <div class="stack-row"><div class="blab">Revenue ₹31,989 Cr</div><div class="stack"><span style="width:26.7%;background:var(--brand)">PCBL 27%</span><span style="width:15.6%;background:var(--gold)">HSCL 16%</span><span style="width:57.7%;background:var(--wtg)">Rain 58%</span></div></div>
+  <div class="stack-row"><div class="blab">Operating profit ₹4,915 Cr</div><div class="stack"><span style="width:22.8%;background:var(--brand)">PCBL 23%</span><span style="width:20.5%;background:var(--gold)">HSCL 20%</span><span style="width:56.7%;background:var(--wtg)">Rain 57%</span></div></div>
+  <div class="stack-row"><div class="blab">PAT ₹1,730 Cr</div><div class="stack"><span style="width:15%;background:var(--brand)">PCBL 15%</span><span style="width:46.5%;background:var(--gold)">HSCL 46%</span><span style="width:38.5%;background:var(--wtg)">Rain 39%</span></div></div>
+  <div class="stack-row"><div class="blab">Market cap ₹44,804 Cr</div><div class="stack"><span style="width:25.7%;background:var(--brand)">PCBL 26%</span><span style="width:58.9%;background:var(--gold)">HSCL 59%</span><span style="width:15.4%;background:var(--wtg)">Rain 15%</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>PCBL Chemical</span><span><i style="background:var(--gold)"></i>Himadri Speciality Chemical</span><span><i style="background:var(--wtg)"></i>Rain Industries (PAT includes ₹130 Cr owed to minorities; attributable ₹537 Cr)</span></div>
+</div>
+
+<p>Five forces define this sub-sector, and the rest of the report is built around them:</p>
+<ul class="clean">
+  <li><strong>The spread cycle.</strong> Tyre contracts pass feedstock costs through with a quarter's lag, about a third of PCBL's volume is spot, and inventory is bought months ahead. Rising crude produces windfalls; falling crude, or a flood of cheap Russian and Chinese black, produces squeezes. EBITDA per tonne is the number to track (deep dive, section 08).</li>
+  <li><strong>Tyres as the anchor customer.</strong> About 60–65% of Indian carbon black goes into tyres, 55–65% of tyre sales are replacement, and Indian tyre exports reached ₹27,312 crore in FY26. Since the EU banned Russian carbon black in July 2024, India's exports to the EU-27 rose from 5.3 kt (FY22) to 130.3 kt (FY26), but the squeeze arrived through prices, not import volumes, and there is no anti-dumping shield (deep dive, section 09).</li>
+  <li><strong>The 2026 oil shock and working capital.</strong> Higher oil prices inflate receivables and inventory. Himadri's H1 FY27 operating cash flow was −₹154 crore; Rain built safety stocks with US$257 million of working-capital debt (section 10).</li>
+  <li><strong>Leverage and capital allocation.</strong> PCBL carries ₹4,536 crore of net borrowings and Negative outlooks at CRISIL and CARE; Himadri swung from net cash to ₹519.8 crore of net debt in six months; Rain owes US$892 million net (deep dive, section 17).</li>
+  <li><strong>Specialty, conductive and battery bets.</strong> Specialty grades earn a multiple of rubber black per tonne; Himadri's LFP, anode and nanotube lines and PCBL's Nanovace silicon-anode joint venture are what the market is paying for, but they are still pilot-scale (deep dive, section 16).</li>
+</ul>
+
+<div class="mini-stats">
+  <div class="ms"><div class="msv">₹4,915 Cr</div><div class="msl">Combined operating profit, TTM to Jun-26: a 15.4% margin on ₹31,989 Cr of revenue</div></div>
+  <div class="ms gold"><div class="msv">28.0×</div><div class="msl">Combined market cap ÷ attributable TTM PAT (₹1,600 Cr); 25.9× on PAT before minorities</div></div>
+  <div class="ms red"><div class="msv">2.75×</div><div class="msl">Combined net debt ₹13,521 Cr ÷ TTM operating profit; interest takes 29% of operating profit</div></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>A carbon black plant earns a fee for converting oil into a tyre ingredient. The fee is not written in any contract: it is whatever is left after the customer pays a price linked to last quarter's oil and the company pays this quarter's. When oil rises fast, the company wins for a quarter; when oil falls fast, or when cheaper imports appear, it loses. In 2026 all three companies reported their best margins in years, and all three spent cash to carry more expensive oil and tar through their warehouses and receivables.</p>
+</div>
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>This is not one industry. PCBL is a carbon black maker with a chemicals bolt-on, Himadri is a coal-tar refinery that happens to make carbon black, and Rain is an aluminium-supply company that sells carbon black oil as a by-product. They share feedstocks, customers in the carbon value chain and exposure to the same oil, freight and rupee shocks, which is why they are worth reading together, but no single "carbon black market share" can be computed across them.</p>
+</div>
+</section>
+
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>Soot by design: how a tonne of oil becomes a tonne of black</h2></div>
+<p class="part-sub">Carbon black is a conversion business with two feedstock routes, a power plant bolted on, and a customer list dominated by tyre makers.</p>
+
+<p>Furnace carbon black, which is more than 95% of world output, is made in a refractory-lined reactor. A heavy, highly aromatic oil is sprayed into a flame of natural gas and air at 1,300–1,800 °C. Because there is not enough oxygen to burn it fully, the oil cracks into carbon particles a few tens of nanometres across that fuse into grape-like aggregates. Water sprays quench the reaction at a precisely chosen point; the smoke passes through bag filters; the collected black is wetted, pelletised, dried and shipped in bulk trucks or bags. The grade is set by two properties, particle size (surface area) and "structure" (how branched the aggregates are). Tyre treads need small, high-surface-area particles (the N100–N300 series); sidewalls and carcasses use larger particles (N500–N700). The volume grades are N330, N550 and N660.</p>
+<p>Yield is the first piece of economics. Depending on the grade and the oil's aromaticity, a plant needs about 1.6–1.9 tonnes of oil for each tonne of carbon black; the rest leaves as "tail gas", a low-calorific mixture rich in carbon monoxide and hydrogen. Modern plants burn that gas in boilers and turbines. PCBL generated about 839 million units (MU) of electricity in FY26 against 618,956 tonnes of carbon black, roughly 1.36 megawatt-hours per tonne, and sold about 511 MU to the grid and to group companies. The power plant turns a waste stream into a second revenue line worth ₹1,500–2,500 a tonne in a normal year (an indicative estimate) and much more when grid prices spike, as they did in Q1 FY27 at ₹5.39 per unit.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The furnace carbon black value chain (PCBL, Birla Carbon, Himadri route)</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Step 1 · Feedstock</div><div class="nname">Heavy aromatic oil</div><div class="nwho">CBFS from refinery slurry or cracker tar, or coal-tar CBO. ~75% of PCBL's comes from the US Gulf Coast.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Step 2 · Reactor</div><div class="nname">Partial combustion</div><div class="nwho">1.6–1.9 t of oil per tonne of black, burned in gas and air at 1,300–1,800 °C.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Step 3 · Finish</div><div class="nname">Quench, filter, pelletise</div><div class="nwho">Particle size and structure set the grade: tread, carcass, specialty.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Step 4 · Tail gas</div><div class="nname">Cogeneration</div><div class="nwho">~1.36 MWh per tonne generated at PCBL (FY26); surplus sold to the grid.</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Step 5 · Customer</div><div class="nname">Tyres, rubber, specialty</div><div class="nwho">Tyre majors on quarterly formula contracts; rubber goods; pigment and conductive users.</div></div>
+  </div>
+  <div class="flow-note">Value concentrates at Step 1 (who buys oil cheapest and with the best yield) and at the grade mix leaving Step 3. Step 4 is the hidden profit line that flatters "EBITDA per tonne".</div>
+</div>
+
+<p>The feedstock comes by two routes, and the choice matters. <strong>Carbon black feedstock (CBFS)</strong> is a petroleum residue: the decant or clarified slurry oil from a refinery's fluid catalytic cracker, or the tar left by an ethylene cracker. It is priced off crude and high-sulphur fuel oil, plus freight. <strong>Carbon black oil (CBO)</strong> is a coal-tar fraction produced by tar distillers such as Himadri and Rain. In mid-2026 PCBL said CBO was about US$150 a tonne dearer than CBFS. Indian makers mainly use imported CBFS, which ICRA judged in 2023 to be cheaper than China's coal-tar route. Himadri is different: its own distillation produces the heavy oils its reactors burn, so part of its feedstock is captive and does not have to be bought at a market price on the US Gulf Coast.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The coal-tar barrel (Himadri and Rain): one input, three markets</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Input</div><div class="nname">Coal tar</div><div class="nwho">By-product of steel-plant coke ovens, about 3–4% of the coal charged.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Process</div><div class="nname">Continuous distillation</div><div class="nwho">Himadri 600,000 MTPA; Rain 1.3 mtpa across Europe, North America, Russia.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">~50–55% of tar</div><div class="nname">Coal tar pitch</div><div class="nwho">Binder for aluminium anodes and graphite electrodes.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Oils</div><div class="nname">CBO, creosote, naphthalene</div><div class="nwho">CBO feeds carbon black reactors (Himadri's own; Rain sells it).</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Downstream</div><div class="nname">Chemicals</div><div class="nwho">SNF and PCE admixtures, anthraquinone, carbazole, resins.</div></div>
+  </div>
+  <div class="flow-note">A distiller earns the "barrel value" of everything that comes out of a tonne of tar. Himadri's edge is that its oils go straight into its own carbon black reactors; Rain's link to carbon black is the CBO it sells to producers.</div>
+</div>
+
+<p>Customers sort into three groups. Tyre makers (MRF, Apollo, JK Tyre, CEAT, Bridgestone India, Balkrishna and the global majors) buy most of the volume on annual volume agreements with quarterly formula pricing; Birla Carbon's five largest customers took 63% of its India sales (CRISIL). Non-tyre rubber goods makers (belts, hoses, seals, footwear, moulded parts) buy similar grades, which PCBL reports as "performance chemicals". Specialty users (plastics masterbatch, pressure pipes, semi-conductive cable compounds, printing inks, automotive coatings, and lithium-ion electrode makers) buy in small lots with tight specifications and pay much more per tonne. Approval for a tyre grade takes 6–18 months, which makes customers sticky once a supplier is in.</p>
+
+<div class="chart">
+  <div class="c-title">What PCBL actually sells: mostly tyre black</div>
+  <div class="c-sub">PCBL carbon black sales volume FY26 by segment, tonnes (company investor update, Q1 FY27). Total 618,956 t</div>
+  <div class="stack-row"><div class="blab">FY26 volume 618,956 t</div><div class="stack"><span style="width:57.3%;background:var(--brand)">Tyre 57%</span><span style="width:31.4%;background:var(--wtg)">Performance 31%</span><span style="width:11.3%;background:var(--gold)">Spec 11%</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Tyre grades 354,841 t</span><span><i style="background:var(--wtg)"></i>Performance chemicals (non-tyre rubber) 194,480 t</span><span><i style="background:var(--gold)"></i>Specialty (plastics, inks, coatings, conductive) 69,635 t</span></div>
+</div>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>The product map: what each member makes</caption>
+    <thead><tr><th>Product</th><th>What it is</th><th>Main uses</th><th>Members</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Rubber carbon black</td><td>Furnace black, N100–N700 series; ~25–30% of a tyre's weight</td><td>Treads, carcasses, sidewalls; belts, hoses, seals</td><td>PCBL (768 ktpa rubber), Himadri</td></tr>
+      <tr><td class="t-strong">Specialty black</td><td>Pigment, plastics, ink, coating and conductive grades; small lots, tight specs</td><td>Masterbatch, pipes, cables, inks, auto coatings, Li-ion conductive additive</td><td>PCBL (132 ktpa specialty), Himadri (70+ grades)</td></tr>
+      <tr><td class="t-strong">Conductive carbons</td><td>Super-conductive black, acetylene black, carbon nanotubes</td><td>Battery electrodes, semi-conductive cables, anti-static plastics</td><td>PCBL (1 ktpa Palej; 4 ktpa acetylene black planned); Himadri (CNT 200 MTPA, Q4 FY27)</td></tr>
+      <tr><td class="t-strong">Coal tar pitch</td><td>Residue of tar distillation</td><td>Binder for aluminium anodes and graphite electrodes</td><td>Himadri (~65% of India), Rain (world #1)</td></tr>
+      <tr><td class="t-strong">Calcined petroleum coke</td><td>Green petcoke roasted at ~1,200–1,350 °C</td><td>Aluminium anode filler, TiO₂, recarburiser</td><td>Rain (2.4 mtpa calcination)</td></tr>
+      <tr><td class="t-strong">Carbon black oil and distillates</td><td>Distillation cuts</td><td>Carbon black feedstock, creosote, naphthalene</td><td>Rain (sells CBO), Himadri (captive)</td></tr>
+      <tr><td class="t-strong">Coal-tar chemicals</td><td>Naphthalene, SNF/PCE, anthraquinone, carbazole; resins</td><td>Dyes, concrete admixtures, H₂O₂ catalyst; adhesives, coatings</td><td>Himadri (~67% naphthalene share); Rain Advanced Materials</td></tr>
+      <tr><td class="t-strong">Phosphonates</td><td>Aquapharm (acquired Jan-2024)</td><td>Water treatment, detergents, oilfield chemicals</td><td>PCBL (167 ktpa)</td></tr>
+      <tr><td class="t-strong">Battery materials</td><td>Nano-silicon, anode material, LFP cathode, anode coatings</td><td>Lithium-ion cells</td><td>PCBL (Nanovace JV), Himadri (anode, LFP, stakes), Rain (PETRORES coatings)</td></tr>
+      <tr><td class="t-strong">Power, cement, tyres</td><td>Tail-gas power; cement; tyres</td><td>Grid and group sales; South Indian cement; agri, OTR, truck tyres</td><td>PCBL (122 MW → 134 MW), Rain Cements, Himadri (Birla Tyres)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Where is value captured along this chain? First at feedstock: buying oil cheaply, in the right aromatic quality, with freight under control, decides cost; the CBFS-versus-CBO choice alone is worth about US$150 a tonne of oil. Second at yield: a point of yield on 1.75 tonnes of oil per tonne is real money at oil prices of ₹40,000–50,000 a tonne. Third at grade mix: specialty black earns perhaps two to four times rubber black per tonne (the industry rule of thumb; Orion, the US-listed producer, earned about three times as much per tonne in specialty as in rubber in Q4 2025, a single-source indicative figure). Fourth at location: port-side plants at Mundra, Kochi and Chennai cut freight on imported oil and on exports. Last, the power plant converts waste into cash.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>A carbon black plant is a small refinery in reverse: it buys a cheap, dirty oil, throws away about 40% of its mass as gas, and sells the rest as a carefully engineered powder. The gas is burned for electricity, which the plant sells. Its profit depends on how cheaply it buys oil, how much black it gets from each tonne, how many specialty grades it can sell, and how much power it can export.</p>
+</div>
+</section>
+
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>Size: a surplus country in a 14-million-tonne world</h2></div>
+<p class="part-sub">The world uses about 14 million tonnes a year and has rated capacity for nearly 20 million. India has built faster than it consumes.</p>
+
+<p>Global carbon black demand was 14,301 kt in 2024 (estimate) against rated capacity of 19,621 kt, according to the consultancy Notch, as cited in PCBL's FY25 annual report. That is nominal utilisation of about 73%, although Notch says achievable capacity is 20–22% below the rated figure, so real plants run nearer 92–94% of what they can actually make. Notch expects demand to reach 17,050 kt by 2030 (about 3% a year), against rated capacity of 22,606 kt. Specialty black is a small, faster-growing slice: about 1.06 million tonnes in 2025, growing about 4% a year (Notch, via Himadri's FY26 annual report). The global value of the market is commonly put at US$18–22 billion, but that is an indicative industry range we could not tie to a primary source.</p>
+
+<div class="chart">
+  <div class="c-title">Global carbon black: demand grows 3% a year, capacity stays ahead</div>
+  <div class="c-sub">Thousand tonnes; demand vs rated capacity. Notch data as cited in PCBL's FY25 Integrated Report (2024 is an estimate, 2030 a forecast)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">2019 demand</div><div class="track"><span class="fill brand" style="width:54.4%"></span></div><div class="bval">13,601</div></div>
+    <div class="bar-row"><div class="blab">2019 capacity</div><div class="track"><span class="fill ink" style="width:66.9%"></span></div><div class="bval">16,735</div></div>
+    <div class="bar-row"><div class="blab">2024E demand</div><div class="track"><span class="fill brand" style="width:57.2%"></span></div><div class="bval">14,301</div></div>
+    <div class="bar-row"><div class="blab">2024E capacity</div><div class="track"><span class="fill ink" style="width:78.5%"></span></div><div class="bval">19,621</div></div>
+    <div class="bar-row"><div class="blab">2030F demand</div><div class="track"><span class="fill brand" style="width:68.2%"></span></div><div class="bval">17,050</div></div>
+    <div class="bar-row"><div class="blab">2030F capacity</div><div class="track"><span class="fill ink" style="width:90.4%"></span></div><div class="bval">22,606</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 25,000 kt. Rated capacity overstates what plants can really make by roughly a fifth.</span></div>
+</div>
+
+<p>India's own numbers are harder to pin down because no regulator publishes national capacity. CRISIL put it at about 2,000 ktpa in February 2024, up 36% in two fiscal years. Since then PCBL has added 110 ktpa (790 to 900), BKT Carbon, the carbon black arm of tyre maker Balkrishna Industries, has added 92 ktpa (to 360 ktpa by April 2026), and Birla Carbon is starting a 120 ktpa plant at Naidupeta in Andhra Pradesh "before year-end 2026". That puts current capacity at roughly 2.2–2.4 million tonnes, an indicative estimate. On demand, the only regulator-published series is from DGTR's 2020 anti-dumping review: rubber-grade demand of 806 kt (FY17), 865 kt (FY18), 949 kt (FY19) and 824 kt (FY20, a Covid-hit year). Growing FY19 at about 6% a year and adding specialty gives FY26 consumption of about 1.3–1.45 million tonnes; a bottom-up check of producers' domestic sales plus imports lands in the same range. Both are indicative.</p>
+
+<div class="chart">
+  <div class="c-title">India's carbon black capacity by producer</div>
+  <div class="c-sub">Thousand tonnes a year, October 2026. INDICATIVE: PCBL from the Q1 FY27 deck and CARE; Birla from DGTR (2020) and CRISIL (2025), Naidupeta not yet started; BKT from trade press (single source); Himadri from its Q1 FY27 call; "others" is the balance to ~2.3 mtpa</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">PCBL Chemical<small>768 rubber + 132 specialty</small></div><div class="track"><span class="fill brand" style="width:90%"></span></div><div class="bval">900</div></div>
+    <div class="bar-row"><div class="blab">Birla Carbon India<small>+120 Naidupeta pending</small></div><div class="track"><span class="fill wtg" style="width:38.6%"></span></div><div class="bval">~386</div></div>
+    <div class="bar-row"><div class="blab">BKT Carbon<small>Balkrishna, Bhuj</small></div><div class="track"><span class="fill wtg" style="width:36%"></span></div><div class="bval">360</div></div>
+    <div class="bar-row"><div class="blab">Himadri<small>~130 "specialty"</small></div><div class="track"><span class="fill gold" style="width:25%"></span></div><div class="bval">~250</div></div>
+    <div class="bar-row"><div class="blab">Others<small>Continental, Epsilon, Cabot India, small units</small></div><div class="track"><span class="fill ink" style="width:40%"></span></div><div class="bval">~300–500</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 1,000 ktpa. Continental Carbon India, Epsilon Carbon and Cabot India do not publish capacity.</span></div>
+</div>
+
+<p>That gives India about 15% of global rated capacity (an indicative ratio) and a domestic market worth roughly ₹14,000–17,000 crore at ₹1.0–1.2 lakh a tonne; including exports, Indian producers' carbon black revenue is perhaps ₹18,000–22,000 crore. Both are indicative estimates built from company figures. Growth tracks tyres: the Indian tyre industry grew about 7–8% in FY26 and PCBL expects high single digits for FY27–29, while ICRA's snippet-grade outlook has replacement tyre demand rising 5–7% and OEM demand 4–6% in FY27. Carbon black volume growth of 6–8% a year for the country is a reasonable indicative assumption, which is roughly 80–110 kt a year of new demand against a pipeline of about 500 kt of new capacity over three years.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Revenue of the three listed members, ₹ Cr (screener consolidated; Rain on calendar years)</caption>
+    <thead><tr><th>Company</th><th class="num">FY22 / CY21</th><th class="num">FY23 / CY22</th><th class="num">FY24 / CY23</th><th class="num">FY25 / CY24</th><th class="num">FY26 / CY25</th><th class="num">TTM Jun-26</th><th class="num">4-yr CAGR</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">PCBL Chemical</td><td class="num">4,446</td><td class="num">5,774</td><td class="num">6,420</td><td class="num">8,404</td><td class="num">8,189</td><td class="num">8,549</td><td class="num">16.5%</td></tr>
+      <tr><td class="t-strong">Himadri Speciality</td><td class="num">2,791</td><td class="num">4,172</td><td class="num">4,185</td><td class="num">4,613</td><td class="num">4,661</td><td class="num">4,975</td><td class="num">13.7%</td></tr>
+      <tr><td class="t-strong">Rain Industries (CY)</td><td class="num">14,527</td><td class="num">21,011</td><td class="num">18,141</td><td class="num">15,374</td><td class="num">16,946</td><td class="num">18,465</td><td class="num">3.9%</td></tr>
+      <tr><td class="t-strong">Sum (mixed FY/CY)</td><td class="num">21,764</td><td class="num">30,957</td><td class="num">28,746</td><td class="num">28,391</td><td class="num">29,796</td><td class="num">31,989</td><td class="num">8.2%</td></tr>
+      <tr><td class="t-strong">PCBL + Himadri</td><td class="num">7,237</td><td class="num">9,946</td><td class="num">10,605</td><td class="num">13,017</td><td class="num">12,850</td><td class="num">13,524</td><td class="num">15.4%</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The listed revenue history tells three stories. PCBL's 16.5% four-year growth is flattered by Aquapharm, consolidated from January 2024 (₹1,443 crore of FY26 revenue); carbon black revenue alone grew more slowly, and FY26 revenue fell 2.6% as realisations dropped. Himadri grew 13.7% a year with volumes (all products) rising from 371,974 tonnes in FY22 to 564,206 tonnes in FY26. Rain's revenue is a function of calcined coke and pitch prices: it peaked at ₹21,011 crore in CY22, fell to ₹15,374 crore in CY24 and is recovering, with a weaker rupee inflating the reported number (the dollar was up 10.7% and the euro 13.5% against the rupee year on year in Q2 CY26).</p>
+
+<div class="chart">
+  <div class="c-title">Combined revenue of the three: flat for four years, then the oil shock</div>
+  <div class="c-sub">₹ Cr; sum of screener consolidated revenue, PCBL and Himadri on April–March fiscal years, Rain on calendar years (a three-month offset); TTM aligned to Jul-25 to Jun-26 for all three</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22 / CY21</div><div class="track"><span class="fill om" style="width:62.2%"></span></div><div class="bval">21,764</div></div>
+    <div class="bar-row"><div class="blab">FY23 / CY22</div><div class="track"><span class="fill brand" style="width:88.4%"></span></div><div class="bval">30,957</div></div>
+    <div class="bar-row"><div class="blab">FY24 / CY23</div><div class="track"><span class="fill om" style="width:82.1%"></span></div><div class="bval">28,746</div></div>
+    <div class="bar-row"><div class="blab">FY25 / CY24</div><div class="track"><span class="fill om" style="width:81.1%"></span></div><div class="bval">28,391</div></div>
+    <div class="bar-row"><div class="blab">FY26 / CY25</div><div class="track"><span class="fill om" style="width:85.1%"></span></div><div class="bval">29,796</div></div>
+    <div class="bar-row"><div class="blab">TTM Jun-26</div><div class="track"><span class="fill gold" style="width:91.4%"></span></div><div class="bval">31,989</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹35,000 Cr. CY22 was Rain's record year; the TTM jump is mostly oil and coal-tar pass-through.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>India now has roughly 900,000 tonnes a year more carbon black capacity than it uses, and another half a million tonnes is being built. That surplus must be exported, which means Indian prices are set by what buyers in Asia, Europe and the US will pay, not by Indian tyre makers alone. Combined revenue of the three listed companies barely moved for four years; most of the recent rise is higher oil and tar prices passed through to customers.</p>
+</div>
+</section>
+
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>Tyres pull the demand, and tyre exports pull the growth</h2></div>
+<p class="part-sub">Six of every ten tonnes go into tyres; most tyres are replacements; and every tyre India exports carries Indian carbon black with it.</p>
+
+<p>Tyres are the anchor. CARE Ratings (July 2026) says more than 60% of Indian carbon black goes into tyre manufacturing, CRISIL says nearly 65%, and PCBL's own FY26 tyre share was 57%. Globally the convention is about 70% tyres, 20% other rubber goods and 10% specialty. A passenger-car tyre is roughly a quarter to a third carbon black by weight, and a truck tyre uses more in absolute terms. Within tyres, replacement demand is the steady part: CARE puts replacement at about 55% of tyre-industry sales and CRISIL at 60–70%. Replacement depends on the kilometres the existing vehicle fleet drives, not on new-vehicle sales, so it holds up in an auto downturn. GST 2.0, from 22 September 2025, cut the tax on new tyres from 28% to 18% (a snippet-grade source: Apollo Tyres' release), which supported replacement demand in the second half of FY26.</p>
+
+<div class="chart">
+  <div class="c-title">Where India's carbon black goes</div>
+  <div class="c-sub">INDICATIVE shares of domestic consumption; tyres from CARE (&gt;60%) and CRISIL (~65%); the non-tyre rubber and specialty split follows the global convention and PCBL's mix</div>
+  <div class="stack-row"><div class="blab">Indian demand ~1.3–1.45 mt</div><div class="stack"><span style="width:62%;background:var(--brand)">Tyres ~62%</span><span style="width:25%;background:var(--wtg)">Rubber ~25%</span><span style="width:13%;background:var(--gold)">Spec ~13%</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Tyres (replacement ~55–65% of tyre sales)</span><span><i style="background:var(--wtg)"></i>Belts, hoses, seals, footwear, moulded goods</span><span><i style="background:var(--gold)"></i>Plastics, pipes, cables, inks, coatings, batteries</span></div>
+</div>
+
+<p>The growth engine is exports. India's tyre industry has 28 companies and 62 plants and a turnover of about ₹1 lakh crore (ATMA, FY25 estimate). It exported tyres worth ₹27,311.77 crore in FY26, up 9.0% from ₹25,056.83 crore (TradeStat, HS 4011), and about ₹7,700 crore in Q1 FY27, up 16% (a snippet-grade figure). Tyre makers are running at about 90% utilisation and committing roughly ₹30,000 crore of capex over four to five years. Every tyre exported is carbon black exported by another route, and it ties Indian producers' volumes to the competitiveness of Indian tyres in Europe and the Americas. Orion, the US-listed carbon black maker, cut its 2026 guidance partly because of "historically high" imports of low-tier tyres into the Western Hemisphere: the mirror image of India's tyre-export boom.</p>
+
+<div class="chart">
+  <div class="c-title">Where Indian tyres went in FY26</div>
+  <div class="c-sub">Indian tyre exports by destination, ₹ Cr, FY26 (TradeStat HS 4011; total ₹27,312 Cr, +9.0%)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">United States<small>−5.9% YoY</small></div><div class="track"><span class="fill brand" style="width:90.7%"></span></div><div class="bval">4,082</div></div>
+    <div class="bar-row"><div class="blab">Germany<small>+37.4%</small></div><div class="track"><span class="fill spec" style="width:43.4%"></span></div><div class="bval">1,955</div></div>
+    <div class="bar-row"><div class="blab">Italy<small>+39.7%</small></div><div class="track"><span class="fill spec" style="width:29%"></span></div><div class="bval">1,307</div></div>
+    <div class="bar-row"><div class="blab">Brazil</div><div class="track"><span class="fill wtg" style="width:28.4%"></span></div><div class="bval">1,276</div></div>
+    <div class="bar-row"><div class="blab">France</div><div class="track"><span class="fill spec" style="width:22.1%"></span></div><div class="bval">993</div></div>
+    <div class="bar-row"><div class="blab">UAE</div><div class="track"><span class="fill wtg" style="width:21.8%"></span></div><div class="bval">979</div></div>
+    <div class="bar-row"><div class="blab">Philippines</div><div class="track"><span class="fill wtg" style="width:21.3%"></span></div><div class="bval">960</div></div>
+    <div class="bar-row"><div class="blab">United Kingdom<small>+19.7%</small></div><div class="track"><span class="fill spec" style="width:19.5%"></span></div><div class="bval">876</div></div>
+    <div class="bar-row"><div class="blab">Netherlands</div><div class="track"><span class="fill spec" style="width:17.7%"></span></div><div class="bval">798</div></div>
+  </div>
+  <div class="legend"><span><i style="background:var(--spec)"></i>Europe</span><span><i style="background:var(--brand)"></i>US (tariff year)</span><span><i style="background:var(--wtg)"></i>Other markets. Scale: full bar = ₹4,500 Cr.</span></div>
+</div>
+
+<p>The geography is shifting toward Europe. Exports to the United States, India's largest tyre market, fell 5.9% in FY26 (the year of the 50% US tariff), while Germany rose 37% and Italy 40%. Europe takes roughly a third of India's tyre exports, and the India–EU free trade agreement, concluded in January 2026 and awaiting ratification, would remove the EU's 4.5% duty on Indian tyres. The EU charges no duty on carbon black itself, so the agreement helps Indian carbon black mostly indirectly, through more Indian tyres sold in Europe. In the US, Indian goods now face a 10% Section 301 tariff on top of the normal duty, while China and several other origins face more, which PCBL calls a "materially lower tariff" than competing Asian and Middle Eastern carbon black. US sales are only about 5% of PCBL's revenue.</p>
+<p>Tyre technology is also moving in carbon black's favour on balance. Radial truck tyres, larger SUV tyres and heavier EVs need more reinforcement and longer-wearing treads, raising carbon black per tyre and the share of premium high-dispersion grades. The offset is silica: "green" low-rolling-resistance treads replace part of the tread black with precipitated silica. For Indian volumes, the net effect so far has been positive, and the tyre industry's own capex plans are the clearest leading indicator of carbon black demand two to three years out.</p>
+
+<div class="chart">
+  <div class="c-title">India's tyre exports keep climbing</div>
+  <div class="c-sub">₹ Cr. FY25 and FY26 from TradeStat (HS 4011). Q1 FY27 annualised is ILLUSTRATIVE (₹7,700 Cr quarter × 4, snippet-grade ATMA figure)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill om" style="width:78.3%"></span></div><div class="bval">25,057</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:85.4%"></span></div><div class="bval">27,312</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27 × 4<small>illustrative run-rate</small></div><div class="track"><span class="fill gold" style="width:96.3%"></span></div><div class="bval">~30,800</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹32,000 Cr. Part of the FY27 jump is price: tyre makers passed on higher rubber and carbon black costs.</span></div>
+</div>
+
+<p>Outside tyres, demand is a mix of industrial and infrastructure drivers. Non-tyre rubber, roughly a fifth to a quarter of demand, tracks industrial production and auto components (see the <a href="auto-components.html">auto components report</a>). Plastics masterbatch, pipes and power cables tie specialty black to construction and electrification. Inks and coatings are small. Battery conductive additives are under 1% of demand today, but they are the fastest-growing slice: Himadri's investor deck puts global lithium-ion consumption at about 1.6 TWh in 2025 rising to about 6.8 TWh by 2035, and conductive carbons are 1–2% of electrode mass. For Rain and for Himadri's pitch business the relevant demand is aluminium: about 0.4 tonnes of carbon anode per tonne of aluminium, with China's 45 million-tonne output cap pushing new smelters to the Middle East, India and Indonesia.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>If you want to know how much carbon black India will sell next year, look at the tyre industry: how many tyres it makes, how many it exports, and how much new capacity it is building. Replacement tyres keep the floor steady; tyre exports, especially to Europe, supply the growth. A trade deal that removes the EU's tyre duty matters more to carbon black makers than any change in duty on carbon black itself.</p>
+</div>
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The two companies outside the furnace-black business answer to different customers. Himadri's pitch and Rain's calcined coke go into aluminium smelters, so their volumes follow aluminium output outside China. Rain's carbon black oil goes to carbon black makers, which is the only literal carbon black link in its business.</p>
+</div>
+</section>
+
+<section class="part" id="p4">
+<div class="part-head"><span class="pno">04</span><h2>Where ₹100 goes: two-thirds oil, a seventh profit</h2></div>
+<p class="part-sub">Feedstock is the bill, freight and the rupee sit inside it, and the margin is whatever survives the lag between buying oil and billing the tyre maker.</p>
+
+<p>The cost structure of a furnace carbon black plant is brutally simple. Oil is about two-thirds of the selling price. In PCBL's own description, carbon black feedstock is 90–95% of material cost and about 90% of it is imported, against exports of about 35% of sales, which makes PCBL a net payer of foreign currency (it hedges most of the net exposure). About 75% of PCBL's oil comes from the US Gulf Coast. That means three prices sit inside the feedstock bill: the oil itself (which tracks Brent and high-sulphur fuel oil), ocean freight from Texas and Louisiana to Gujarat or Tamil Nadu, and the rupee-dollar rate. A plant cannot control any of them. What it controls is yield, the grade mix, fixed costs, and how fast its own selling prices catch up.</p>
+
+<div class="chart">
+  <div class="c-title">Where ₹100 of revenue goes at an Indian furnace carbon black producer</div>
+  <div class="c-sub">ILLUSTRATIVE composite for a normal (FY26-like) spread year, built from PCBL, Birla Carbon and dossier cost data; not any one company's accounts</div>
+  <div class="stack-row"><div class="blab">₹100 of carbon black revenue</div><div class="stack"><span style="width:65%;background:var(--om)">Oil 65</span><span style="width:5.5%;background:var(--epc)">5.5</span><span style="width:3.5%;background:var(--wtg)"></span><span style="width:12%;background:var(--ink-faint)">Freight 12</span><span style="width:14%;background:var(--brand)">EBITDA 14</span></div></div>
+  <div class="legend"><span><i style="background:var(--om)"></i>Feedstock oil, delivered (₹62–68)</span><span><i style="background:var(--epc)"></i>Gas, packing, net power and fuel (₹5–6)</span><span><i style="background:var(--wtg)"></i>Employees (₹3–4)</span><span><i style="background:var(--ink-faint)"></i>Freight-out and other expenses (₹10–13)</span><span><i style="background:var(--brand)"></i>EBITDA incl. power sales (₹13–15)</span></div>
+</div>
+
+<p>Below EBITDA, the composite loses another ₹3–4 to depreciation, ₹2–5 to interest and ₹1–2 to tax, leaving ₹3–6 of profit after tax. PCBL's FY26 group accounts show how much of that range the balance sheet can eat: on ₹8,189 crore of revenue, operating profit was ₹1,043 crore (12.7%), depreciation ₹373 crore (4.6%) and interest ₹423 crore (5.2%), most of it on the debt raised to buy Aquapharm. Profit after tax was ₹198 crore, 2.4% of revenue. In a trough year, interest took more than 40% of PCBL's operating profit.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>The ₹100 composite against PCBL's actual FY26 group P&amp;L</caption>
+    <thead><tr><th>Line</th><th class="num">Composite ₹ of ₹100 (ILLUSTRATIVE)</th><th class="num">PCBL FY26 group, ₹ Cr</th><th class="num">PCBL, % of revenue</th><th>Comment</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Revenue</td><td class="num">100</td><td class="num">8,189</td><td class="num">100.0</td><td>Includes Aquapharm ₹1,443 Cr and power sales</td></tr>
+      <tr><td>Feedstock oil, delivered</td><td class="num">62–68</td><td class="num" colspan="2">not split in reported accounts</td><td>~1.75 t oil per tonne of black</td></tr>
+      <tr><td>Gas, packing, power, staff, freight, other</td><td class="num">18–24</td><td class="num" colspan="2">not split</td><td>Export freight sits here on CIF sales</td></tr>
+      <tr><td class="t-strong">EBITDA (screener operating profit)</td><td class="num">13–15</td><td class="num">1,043</td><td class="num">12.7</td><td>Company EBITDA ₹1,082 Cr (13.2%)</td></tr>
+      <tr><td>Depreciation</td><td class="num">3–4</td><td class="num">373</td><td class="num">4.6</td><td>Rising with Chennai and Mundra lines</td></tr>
+      <tr><td>Interest</td><td class="num">2–5</td><td class="num">423</td><td class="num">5.2</td><td>Aquapharm acquisition debt</td></tr>
+      <tr><td>Other income, exceptional, tax</td><td class="num">−1 to −2</td><td class="num">−49</td><td class="num">−0.6</td><td>Other income ₹14 Cr; exceptional ₹25 Cr</td></tr>
+      <tr><td class="t-strong">PAT</td><td class="num">3–6</td><td class="num">198</td><td class="num">2.4</td><td>Dividend payout 119% of FY26 PAT</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The second archetype in this bucket, a global carbon-materials company like Rain, has a different shape. Its raw materials are green petroleum coke, coal tar and, for its Advanced Materials chemicals, benzene. In CY25 they were 57% of revenue; employees took 7.8% and energy, freight, maintenance and other expenses 22.6% (Arihant Capital's breakdown of the company's figures), leaving EBITDA of 12.6% on screener's basis (company adjusted EBITDA 13.4%). Depreciation and interest then took 5.4% each, and profit before minorities was just 0.8% of revenue. Rain's cost base is heavier in energy and labour because much of it sits in Germany, Belgium, Canada and the US, where natural gas and wages cost more than in India.</p>
+
+<div class="chart">
+  <div class="c-title">Where ₹100 of revenue goes at a carbon-materials major (Rain, CY25)</div>
+  <div class="c-sub">Rain Industries consolidated CY25; cost shares from Arihant Capital's breakdown of company figures (RM ₹96,522 Mn, staff ₹13,186 Mn, other ₹38,378 Mn on ₹169,458 Mn); EBITDA on screener basis</div>
+  <div class="stack-row"><div class="blab">₹100 of Rain revenue</div><div class="stack"><span style="width:57%;background:var(--om)">Raw materials 57</span><span style="width:7.8%;background:var(--wtg)">7.8</span><span style="width:22.6%;background:var(--ink-faint)">Other 22.6</span><span style="width:12.6%;background:var(--brand)">EBITDA 12.6</span></div></div>
+  <div class="legend"><span><i style="background:var(--om)"></i>Petcoke, coal tar, benzene</span><span><i style="background:var(--wtg)"></i>Employees</span><span><i style="background:var(--ink-faint)"></i>Energy, freight, maintenance, other</span><span><i style="background:var(--brand)"></i>EBITDA; then depreciation 5.4, interest 5.4, tax 1.8, other income +0.8, PAT before minorities 0.8</span></div>
+</div>
+
+<p>The single biggest driver of cost is the oil price, and 2026 has been a year of violent moves. The EIA's Brent spot series shows monthly averages of $66.60 in January, $103.13 in March, $117.29 in April, then a fall to $85.40 in June and $83.76 in July before a second spike to $114.16 in September and $120–127 in the first weeks of October (the week to 16 October averaged $125.59). There was no lasting "post-ceasefire normalisation": crude re-spiked in September and October above April's peak. PCBL quoted a Brent average of $97 for its April–June quarter, against $78 for January–March; the calendar-quarter EIA average for April–June was about $103, so PCBL's figure is best read as its own procurement-weighted or lagged number.</p>
+
+<div class="chart">
+  <div class="c-title">Brent in 2026: two spikes, not one</div>
+  <div class="c-sub">EIA Brent spot, monthly average, US$ per barrel; October is the average of the weeks to 16-Oct-2026</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Jan-26</div><div class="track"><span class="fill om" style="width:51.2%"></span></div><div class="bval">66.6</div></div>
+    <div class="bar-row"><div class="blab">Feb-26<small>war from 28-Feb</small></div><div class="track"><span class="fill om" style="width:54.5%"></span></div><div class="bval">70.9</div></div>
+    <div class="bar-row"><div class="blab">Mar-26</div><div class="track"><span class="fill gold" style="width:79.3%"></span></div><div class="bval">103.1</div></div>
+    <div class="bar-row"><div class="blab">Apr-26</div><div class="track"><span class="fill gold" style="width:90.2%"></span></div><div class="bval">117.3</div></div>
+    <div class="bar-row"><div class="blab">May-26</div><div class="track"><span class="fill gold" style="width:82.4%"></span></div><div class="bval">107.1</div></div>
+    <div class="bar-row"><div class="blab">Jun-26</div><div class="track"><span class="fill om" style="width:65.7%"></span></div><div class="bval">85.4</div></div>
+    <div class="bar-row"><div class="blab">Jul-26</div><div class="track"><span class="fill om" style="width:64.4%"></span></div><div class="bval">83.8</div></div>
+    <div class="bar-row"><div class="blab">Aug-26</div><div class="track"><span class="fill om" style="width:70.1%"></span></div><div class="bval">91.1</div></div>
+    <div class="bar-row"><div class="blab">Sep-26</div><div class="track"><span class="fill gold" style="width:87.8%"></span></div><div class="bval">114.2</div></div>
+    <div class="bar-row"><div class="blab">Oct-26<small>to 16-Oct</small></div><div class="track"><span class="fill bad" style="width:95.4%"></span></div><div class="bval">~124</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = $130 a barrel. Calendar-quarter averages: Q1-26 $80.2, Q2-26 $103.3, Q3-26 $96.3.</span></div>
+</div>
+
+<p>How much does a crude move matter per tonne of carbon black? A tonne of heavy residual oil is roughly 6.3–6.7 barrels, so a $10 a barrel move in crude shifts the oil price by about $63–67 a tonne. At 1.75 tonnes of oil per tonne of black and ₹94.9 to the dollar, that is roughly ₹10,500–11,000 of cost per tonne of carbon black, about a tenth of the selling price. This is an illustrative calculation that assumes residue prices move one-for-one with crude, which they do only loosely. The pass-through mechanics then decide who bears the move. About two-thirds of PCBL's volume is sold to tyre majors on formulas that reset prices each quarter using the previous quarter's feedstock index; about a third is spot, which reprices at once. When crude rises fast, spot prices rise immediately and inventory bought at lower prices is sold at new prices, so the plant earns a windfall for a quarter; when crude falls fast, the formula keeps prices high for a quarter but spot buyers walk away and inventory loses value. In Q1 FY27 PCBL's realisation rose about ₹27,000 a tonne quarter on quarter, of which ₹11,000–12,000 was margin and the rest cost pass-through.</p>
+<p>Freight and gas are the other variables the 2026 crisis exposed. The Red Sea and Hormuz disruptions rerouted tankers around the Cape of Good Hope, adding about 14 days and pushing container and tanker rates sharply higher. PCBL deliberately held back export orders in Q1 FY27 where freight "was eating away" the margin. Natural gas, used as reactor fuel, became scarce enough that PCBL's 1 ktpa super-conductive line at Palej was delayed by "gas shortage", and Aquapharm cited LPG availability problems. For Rain, European energy prices and Asian imports drove losses at its hydrogenated hydrocarbon resin (HHCR) plant, which management says were "substantially reduced" from Q2 2026.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>For every ₹100 a carbon black maker bills, about ₹65 goes straight to the oil supplier and about ₹14 is left as operating profit. A ₹10 a barrel move in crude changes the cost of each tonne of black by roughly ₹10,000–11,000, nearly as much as the whole profit on that tonne. The business survives only because most of that cost is passed to customers, with a delay of about a quarter.</p>
+</div>
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The profit line below EBITDA is where the three companies really differ. A carbon black plant with no debt keeps about half of its EBITDA as profit. PCBL, carrying acquisition debt, kept less than a fifth of its FY26 operating profit; Rain, carrying legacy dollar and euro debt, kept about a sixteenth of its CY25 operating profit before paying minority shareholders.</p>
+</div>
+</section>
+
+<section class="part" id="p5">
+<div class="part-head"><span class="pno">05</span><h2>Who makes it: one giant, an MNC, a tyre maker and a tar refiner</h2></div>
+<p class="part-sub">Four producers hold about four-fifths of Indian capacity. Two of them are unlisted or captive, and the newest big entrant is a customer.</p>
+
+<p>India's carbon black industry is a tight oligopoly with a fringe. PCBL, with 900 ktpa (768 ktpa rubber black and 132 ktpa specialty after the 20 ktpa Mundra specialty line commissioned in Q1 FY27), has about 39–41% of national capacity. Birla Carbon India, owned by the Aditya Birla group's global carbon black holding SKI Carbon Black (Mauritius), had about 386 ktpa according to DGTR's 2020 findings (382 ktpa per CRISIL in 2025) and is adding 120 ktpa at Naidupeta, Andhra Pradesh. BKT Carbon, the captive arm of the off-highway tyre maker Balkrishna Industries, reached 360 ktpa (35 ktpa specialty) by April 2026 after a 92 ktpa expansion at Bhuj, and plans about 300 ktpa more within four years; the trade press calls it India's third-largest producer. Himadri, at about 250 ktpa, is therefore number four, not number three as our older primer said. Continental Carbon India (Ghaziabad), Epsilon Carbon (Ballari, integrated with coal-tar distillation) and Cabot India make up most of the rest; none of them publishes capacity.</p>
+
+<div class="chart">
+  <div class="c-title">Share of Indian carbon black capacity, October 2026</div>
+  <div class="c-sub">INDICATIVE: shares of ~2.3 mtpa (midpoint of the 2.2–2.4 mtpa estimate). PCBL 900, Birla ~386 (before Naidupeta), BKT 360, Himadri ~250, others ~400 ktpa</div>
+  <div class="stack-row"><div class="blab">~2.3 mtpa</div><div class="stack"><span style="width:39%;background:var(--brand)">PCBL 39%</span><span style="width:17%;background:var(--wtg)">Birla 17%</span><span style="width:16%;background:var(--epc)">BKT 16%</span><span style="width:11%;background:var(--gold)">HSCL 11%</span><span style="width:17%;background:var(--ink-faint)">Others 17%</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>PCBL Chemical (listed)</span><span><i style="background:var(--wtg)"></i>Birla Carbon India (unlisted, Aditya Birla)</span><span><i style="background:var(--epc)"></i>BKT Carbon (captive, Balkrishna Industries)</span><span><i style="background:var(--gold)"></i>Himadri (listed)</span><span><i style="background:var(--ink-faint)"></i>Continental, Epsilon, Cabot India and small units</span></div>
+</div>
+
+<p>Market share by sales differs from capacity share. CRISIL says Birla Carbon has 17% of capacity but 25–30% of the market, because it has run at more than 85% utilisation for four years (92% in FY24) while PCBL ran at about 77% in FY26. BKT's tonnes are mostly captive: they leave the merchant market altogether. That is a structural change. When a large tyre maker builds its own carbon black, the independent producers lose a customer and gain a competitor, and BKT is seeking approvals from other tyre majors for 2027. Himadri is moving the opposite way, into tyres, through the Birla Tyres business it is absorbing. Two of PCBL's and Birla's customers are therefore becoming suppliers to themselves.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>India's carbon black producers</caption>
+    <thead><tr><th>Producer</th><th>Owner</th><th class="num">Capacity, ktpa</th><th>Plants</th><th>What matters</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">PCBL Chemical</td><td>RP-Sanjiv Goenka group, 53.38% (listed)</td><td class="num">900</td><td>Durgapur (WB), Palej and Mundra (Gujarat), Kochi (Kerala), Chennai (TN); Naidupeta (AP) planned</td><td>Cost leader, 122 MW power (134 MW in FY27), ~38% of volume exported; Phase I Naidupeta 150 kt for ~₹1,100 Cr</td></tr>
+      <tr><td class="t-strong">Birla Carbon India</td><td>SKI Carbon Black (Mauritius), Aditya Birla group (unlisted)</td><td class="num">~386 (+120)</td><td>Renukoot (UP, 1988), Gummidipoondi (TN), Patalganga (MH); Naidupeta (AP)</td><td>FY25 revenue ₹4,343 Cr, PAT ₹346 Cr, debt ₹70 Cr; EBITDA/t ₹16,817 (FY24) → ₹13,273 (FY25); top-5 customers 63%</td></tr>
+      <tr><td class="t-strong">BKT Carbon</td><td>Balkrishna Industries (captive)</td><td class="num">360</td><td>Bhuj (Gujarat)</td><td>35 ktpa specialty; ~300 ktpa more planned; exports ~30 ktpa (single-source trade press)</td></tr>
+      <tr><td class="t-strong">Himadri Speciality</td><td>Choudhary family, 52.49% (listed)</td><td class="num">~250</td><td>Mahistikry (WB) and other sites; China (Longkou)</td><td>Captive coal-tar feedstock; ~130 ktpa labelled "specialty" (includes tyre performance grades)</td></tr>
+      <tr><td class="t-strong">Continental Carbon India</td><td>Private</td><td class="num">n.d.</td><td>Ghaziabad (UP)</td><td>Co-applicant with PCBL and Himadri in the 2020 anti-dumping review</td></tr>
+      <tr><td class="t-strong">Epsilon Carbon; Cabot India</td><td>Private; Cabot Corp</td><td class="num">n.d.</td><td>Ballari (Karnataka); Maharashtra</td><td>Epsilon integrates coal-tar distillation; Cabot is the US major's local arm</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Birla Carbon is the single most useful comparator, because it is the one large Indian producer with no diversification to muddy its numbers. CRISIL's September 2025 rationale shows India revenue of ₹4,343 crore and profit of ₹346 crore in FY25 (₹446 crore in FY24), net worth of ₹3,640 crore against only ₹70 crore of debt, and EBITDA per tonne falling from ₹16,817 in FY24 to ₹13,273 in FY25 on "cheaper imports". Its group also lends: Birla Carbon India had ₹1,677 crore of loans to group entities. Birla's per-tonne figure is on an all-in basis like PCBL's, so PCBL's ₹14,900 in FY26 and Birla's ₹13,273 in FY25 belong in the same table, and together they show that the 2024–26 squeeze hit the whole industry, not one company's execution.</p>
+<p>Imports are small but set the marginal price. TradeStat (the Commerce Ministry's customs database) shows 130.2 kt of carbon black imports in FY26 (US$164.9 million, down 11%), roughly 9–10% of apparent consumption. China was the largest source at 39.8 kt; Turkey, Korea, the UAE and Saudi Arabia together sent 57.4 kt; Russia only 11.0 kt. That contradicts the common story, repeated by PCBL management on a call, that Russia was sending 1,500–2,000 tonnes a month. The customs record shows less than 1,000 tonnes a month from Russia. The pressure from Russian black was felt mainly through prices in third markets, which section 09 explains.</p>
+
+<div class="chart">
+  <div class="c-title">Where India's carbon black imports came from in FY26</div>
+  <div class="c-sub">Thousand tonnes, HS 28030010, TradeStat (DGCI&amp;S). Total 130.2 kt; "other" is the balance</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">China</div><div class="track"><span class="fill bad" style="width:88.4%"></span></div><div class="bval">39.8</div></div>
+    <div class="bar-row"><div class="blab">Turkey</div><div class="track"><span class="fill om" style="width:43.6%"></span></div><div class="bval">19.6</div></div>
+    <div class="bar-row"><div class="blab">Korea</div><div class="track"><span class="fill om" style="width:34.7%"></span></div><div class="bval">15.6</div></div>
+    <div class="bar-row"><div class="blab">UAE</div><div class="track"><span class="fill om" style="width:30%"></span></div><div class="bval">13.5</div></div>
+    <div class="bar-row"><div class="blab">Russia</div><div class="track"><span class="fill gold" style="width:24.4%"></span></div><div class="bval">11.0</div></div>
+    <div class="bar-row"><div class="blab">Saudi Arabia</div><div class="track"><span class="fill om" style="width:19.3%"></span></div><div class="bval">8.7</div></div>
+    <div class="bar-row"><div class="blab">USA</div><div class="track"><span class="fill om" style="width:2.9%"></span></div><div class="bval">1.3</div></div>
+    <div class="bar-row"><div class="blab">Other origins</div><div class="track"><span class="fill ink" style="width:46%"></span></div><div class="bval">20.7</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 45 kt. Acetylene black (HS 28030020) and other carbon (28030090) are excluded.</span></div>
+</div>
+
+<p>Globally, the leaders are Cabot (US, the largest), Birla Carbon (about 2 million tonnes worldwide), Orion (US-listed, 714.8 kt of rubber black sold in 2025), Tokai Carbon (Japan, owner of Continental Carbon in the US and Cancarb), the large Chinese producers such as Jiangxi Black Cat, and Russia's Omsk Carbon. PCBL ranks sixth or seventh in the world depending on the source (CRISIL says sixth; the RPSG group says seventh). China is fragmented across dozens of producers and in 2025 cut export prices about 21% year on year (Intratec's China benchmark fell to US$955 a tonne in November 2025, a snippet-grade figure).</p>
+<p>In the adjacent coal-tar businesses the structure is even more concentrated. Himadri has about 65% of India's coal tar pitch market and about 67% of naphthalene; Rain is the world's largest pitch maker and one of the two largest calcined coke producers outside captive Chinese capacity. Ownership of the three listed members is family-controlled: the RPSG group holds 53.38% of PCBL, the Choudhary family 52.49% of Himadri, and the Nellore Reddy family 41.35% of Rain (all at September 2026). Promoters have been adding at PCBL and Himadri through preferential warrants, while foreign institutions have nearly halved their Rain holding since 2023 (12.09% to 7.69%).</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Four firms own about four-fifths of Indian capacity, which would normally mean pricing power. It does not here, because the country makes more than it uses and must sell the rest abroad, and because the third-largest producer is a tyre company making carbon black for itself. The industry's best-run unlisted player, Birla Carbon, saw its profit per tonne fall a fifth in one year, which tells you the squeeze was market-wide.</p>
+</div>
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Imports are only about a tenth of Indian demand, and Russia sends less than a tenth of that. The damage from cheap foreign black came less from tonnes landing in India and more from the price Indian exporters had to accept in Thailand, Vietnam and Europe to keep their plants running.</p>
+</div>
+</section>
+
+<section class="part" id="p6">
+<div class="part-head"><span class="pno">06</span><h2>Four ways to earn from carbon, and why Rain is in this bucket</h2></div>
+<p class="part-sub">A converter, a tar refinery, a global aluminium-carbon supplier and a set of bolt-on bets: the same chemistry, four different profit engines.</p>
+
+<p>The first archetype is the <strong>scale furnace-black converter with power</strong>: PCBL's core and Birla Carbon. Revenue is tonnes times a selling price that passes through feedstock cost plus a conversion spread; profit is the spread per tonne plus power income, improved by specialty mix and yield. A greenfield plant costs about ₹1.2 lakh per tonne of annual capacity at Birla's Naidupeta (₹1,400–1,500 crore for 120 ktpa), while PCBL's Naidupeta Phase I is budgeted at about ₹73,000 a tonne (₹1,100 crore for 150 kt) and its Chennai brownfield cost about ₹50,000 a tonne (₹450 crore for 90 ktpa). At a realisation of ₹1.0–1.3 lakh a tonne, a greenfield plant turns over its capital about once a year; at ₹14,000–17,000 of EBITDA a tonne its pre-tax cash payback is five to nine years depending on cost, which is why brownfield debottlenecks earn far better returns than new sites (indicative arithmetic). Typical EBITDA margins are 13–18% and through-cycle ROCE 12–20%.</p>
+<p>The second is the <strong>integrated coal-tar refinery</strong>: Himadri. Revenue is the barrel value of everything a tonne of tar yields: pitch for smelters, naphthalene for chemicals and the SNF/PCE concrete admixtures, and heavy oils, much of which Himadri burns in its own carbon black reactors instead of buying imported CBFS. Its carbon materials and chemicals segment, which holds all of these, earned a 19.0% segment margin in FY26 (15.2% in FY25) on ₹4,366.9 crore of external revenue, even though that revenue fell 4.8%. Integration lowers feedstock cost, capital intensity is lower because growth has come from brownfield additions on owned sites, and the company's own ROCE (excluding investments and capital work in progress) was 32% in FY26. Its weakness is disclosure: Himadri does not split revenue between carbon black, pitch and naphthalene, so any estimate of carbon black's share (we use 40–50% of revenue) is indicative.</p>
+<p>The third is the <strong>global carbon-materials supplier</strong>: Rain. Its Carbon segment calcines green petroleum coke into anode-grade calcined coke (2.4 mtpa) and distils coal tar into pitch and oils (1.3 mtpa), both sold mainly to aluminium smelters; Advanced Materials (0.5 mtpa, the old Rütgers chemicals business) makes resins and aromatic intermediates; Cement (4.0 mtpa) sells in Andhra Pradesh and Telangana; and the group co-generates 187 MW. Rütgers is a German coal-tar chemicals group based in Castrop-Rauxel, acquired in 2013 through a Belgian holding company. Rain makes no furnace carbon black. It sits in this NSE classification because its distillation units sell carbon black oil to carbon black producers: in Q2 CY26, "lower calcination volumes were partly offset by higher carbon black oil sales in Carbon distillation".</p>
+
+<div class="chart">
+  <div class="c-title">Rain is a calcined-coke and pitch company: segment shares, CY25</div>
+  <div class="c-sub">Rain Industries CY25 Integrated Annual Report, segment note: external revenue ₹12,618 Cr Carbon, ₹3,198 Cr Advanced Materials, ₹1,131 Cr Cement; segment operating profit ₹1,986 Cr, ₹154 Cr, ₹48 Cr</div>
+  <div class="stack-row"><div class="blab">Revenue ₹16,947 Cr</div><div class="stack"><span style="width:74.4%;background:var(--brand)">Carbon 74%</span><span style="width:18.9%;background:var(--gold)">AM 19%</span><span style="width:6.7%;background:var(--ink-faint)">7%</span></div></div>
+  <div class="stack-row"><div class="blab">Segment profit ₹2,188 Cr</div><div class="stack"><span style="width:90.8%;background:var(--brand)">Carbon 91%</span><span style="width:7%;background:var(--gold)">7%</span><span style="width:2.2%;background:var(--ink-faint)"></span></div></div>
+  <div class="stack-row"><div class="blab">Carbon revenue by product</div><div class="stack"><span style="width:49.3%;background:var(--wtg)">CPC 49%</span><span style="width:28.4%;background:var(--epc)">CTP 28%</span><span style="width:22.3%;background:var(--om)">CBO etc 22%</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Carbon (CPC, CTP, CBO, energy)</span><span><i style="background:var(--gold)"></i>Advanced Materials</span><span><i style="background:var(--ink-faint)"></i>Cement</span><span><i style="background:var(--wtg)"></i>CPC ₹6,216 Cr (+41%)</span><span><i style="background:var(--epc)"></i>CTP ₹3,579 Cr (+3%)</span><span><i style="background:var(--om)"></i>CBO and other distillates, residual ~₹2,823 Cr</span></div>
+</div>
+
+<p>The product split shows how thin the literal carbon black link is. Of Rain's ₹12,618 crore of Carbon revenue in CY25, calcined coke was ₹6,216 crore (up 41%) and coal tar pitch ₹3,579 crore (up 3%); the residual, about ₹2,823 crore, covers carbon black oil and every other distillate and energy sale. Even if all of it were CBO, which it is not, it would be about 17% of Rain's group revenue. The CY25 recovery was a calcined-coke story. Rain has also stopped disclosing product-level volumes because, management says, competitors were reading them. What does connect Rain to the other two is coal-tar chemistry (Himadri is its direct competitor in pitch), exposure to the same oil, freight, energy and rupee shocks, and an equity that moves with commodity spreads.</p>
+<p>The fourth archetype is the <strong>bolt-on and the option</strong>. PCBL's Aquapharm, bought in January 2024 and India's largest phosphonates maker (#3 globally), earned ₹162 crore of EBITDA on ₹1,443 crore of revenue in FY26, an 11.2% margin, lower than the 13.6% of PCBL's carbon black and power business, and made EBIT losses in two FY26 quarters. It is 17.6% of PCBL's revenue, not the 13% our older primer said. The battery bets, Himadri's LFP, anode and nanotube lines and PCBL's Nanovace nano-silicon joint venture, are pre-revenue or pilot-scale; their economics are covered in section 16.</p>
+
+<div class="chart">
+  <div class="c-title">PCBL is four-fifths carbon black, and the bolt-on earns less</div>
+  <div class="c-sub">PCBL FY26: revenue ₹8,189 Cr (Aquapharm ₹1,443 Cr); company EBITDA ₹1,082 Cr (Aquapharm ₹162 Cr). Carbon black includes tail-gas power</div>
+  <div class="stack-row"><div class="blab">Revenue</div><div class="stack"><span style="width:82.4%;background:var(--brand)">Carbon black + power 82%</span><span style="width:17.6%;background:var(--epc)">Aqua 18%</span></div></div>
+  <div class="stack-row"><div class="blab">EBITDA</div><div class="stack"><span style="width:85%;background:var(--brand)">Carbon black + power 85%</span><span style="width:15%;background:var(--epc)">Aqua 15%</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Carbon black and power: ~₹6,746 Cr revenue, ~₹920 Cr EBITDA (13.6%)</span><span><i style="background:var(--epc)"></i>Aquapharm phosphonates: ₹1,443 Cr revenue, ₹162 Cr EBITDA (11.2%)</span></div>
+</div>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>The four business models compared</caption>
+    <thead><tr><th>Archetype</th><th>Members</th><th>Revenue driver</th><th>Margin driver</th><th>Capital intensity</th><th>Typical EBITDA margin</th><th>Typical ROCE</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Scale furnace-black converter + power</td><td>PCBL core; Birla Carbon</td><td>Tonnes × (feedstock pass-through + spread)</td><td>₹/t spread, specialty mix, power price, yield</td><td>₹50,000–1.2 lakh per tonne of capacity</td><td>13–18%</td><td>12–20% through-cycle</td></tr>
+      <tr><td class="t-strong">Integrated coal-tar refinery + carbon black + chemicals</td><td>Himadri</td><td>Barrel value of pitch, black, naphthalene, AQ/carbazole</td><td>Coal-tar spread, captive feedstock, mix</td><td>Lower (brownfield, owned sites)</td><td>18–22%</td><td>22–33% (company basis)</td></tr>
+      <tr><td class="t-strong">Global carbon materials (CPC/CTP) + chemicals</td><td>Rain</td><td>Smelter run-rates × CPC/CTP spread; AM pricing</td><td>Petcoke and tar cost, European energy, FX</td><td>Heavy and legacy (goodwill ₹6,963 Cr)</td><td>8–19% (cycle)</td><td>2–17%</td></tr>
+      <tr><td class="t-strong">Specialty chemical bolt-on</td><td>PCBL (Aquapharm)</td><td>Phosphonate volumes × pricing</td><td>Phosphorus and amine costs, utilisation</td><td>Acquisition-heavy</td><td>~11–13%</td><td>Low (goodwill)</td></tr>
+      <tr><td class="t-strong">Battery-materials option</td><td>All three (pilot scale)</td><td>Customer qualification</td><td>n.a.</td><td>₹1,125 Cr for 40,000 t LFP (Himadri)</td><td>Aspirational (&gt;30% at Nanovace per CRISIL)</td><td>n.a.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="chart">
+  <div class="c-title">Margins by business line</div>
+  <div class="c-sub">EBITDA or segment margin, %. PCBL carbon black + power and Aquapharm FY26 (company); Himadri carbon materials and chemicals segment result FY26 (annual report); Rain segments Q2 CY26 (company deck, adjusted EBITDA)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Rain Carbon<small>Q2 CY26, shock quarter</small></div><div class="track"><span class="fill wtg" style="width:86%"></span></div><div class="bval">21.5%</div></div>
+    <div class="bar-row"><div class="blab">Himadri carbon materials<small>FY26 segment result</small></div><div class="track"><span class="fill gold" style="width:76%"></span></div><div class="bval">19.0%</div></div>
+    <div class="bar-row"><div class="blab">Rain Advanced Materials<small>Q2 CY26</small></div><div class="track"><span class="fill wtg" style="width:62.8%"></span></div><div class="bval">15.7%</div></div>
+    <div class="bar-row"><div class="blab">PCBL carbon black + power<small>FY26</small></div><div class="track"><span class="fill brand" style="width:54.4%"></span></div><div class="bval">13.6%</div></div>
+    <div class="bar-row"><div class="blab">PCBL Aquapharm<small>FY26</small></div><div class="track"><span class="fill epc" style="width:44.8%"></span></div><div class="bval">11.2%</div></div>
+    <div class="bar-row"><div class="blab">Rain Cement<small>Q2 CY26</small></div><div class="track"><span class="fill ink" style="width:20.4%"></span></div><div class="bval">5.1%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 25%. Periods differ: Rain's figures are one strong quarter; PCBL's and Himadri's are full trough-year figures.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Rain is in this report because a stock classification put it here, not because it makes carbon black. About three-quarters of its revenue comes from roasting petroleum coke and distilling coal tar for aluminium smelters. Treat it as a related carbon-materials business that sells carbon black oil on the side, and never add its tonnes to PCBL's or Himadri's.</p>
+</div>
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Himadri's higher margin is mostly structural. It makes much of its own carbon black feedstock from coal tar it already distils, sells pitch and naphthalene into markets it dominates, and borrowed little to grow. PCBL buys almost all its oil abroad and bought a lower-margin chemicals business with debt.</p>
+</div>
+</section>
+
+<section class="part" id="p7">
+<div class="part-head"><span class="pno">07</span><h2>No shield: anti-dumping history, trade deals and the tariff maze</h2></div>
+<p class="part-sub">India protected rubber-grade carbon black for about eleven years and then let the duty lapse. Today the industry's protection is cost, freight and trade agreements.</p>
+
+<p>The trade-remedy history is longer than most summaries say. DGTR, India's trade-remedies authority, opened an anti-dumping investigation into carbon black used in rubber applications from Australia, China, Iran, Malaysia, Russia and Thailand on 26 December 2008, issued final findings on 24 December 2009, ran a mid-term review in 2013 and a first sunset review whose findings on 1 October 2015 continued duties on China, Russia and Thailand. A separate case against Korea was opened in February 2015 and terminated in November 2015. The second sunset review, filed by PCBL, Himadri and Continental Carbon India, was initiated on 20 May 2020; on 22 December 2020 DGTR recommended duties of US$494 a tonne on China and US$36.17 a tonne on Russia. On 5 January 2021 the Finance Ministry, by Office Memorandum F.No.354/148/2020-TRU, recorded the government's decision not to impose them. Duties had been in force from about 2010 to the end of 2020.</p>
+
+<ul class="timeline">
+  <li><div class="yr">26 Dec 2008</div><div class="ev">DGTR initiates anti-dumping investigation on rubber-grade carbon black from six countries.</div></li>
+  <li class="major"><div class="yr">24 Dec 2009</div><div class="ev">Final findings; definitive duties follow, beginning about 11 years of protection.</div></li>
+  <li><div class="yr">28 Feb 2013</div><div class="ev">Mid-term review findings.</div></li>
+  <li><div class="yr">2015</div><div class="ev">First sunset review (findings 1 Oct 2015) continues duties on China, Russia and Thailand; a Korea case opens in February and is terminated in November.</div></li>
+  <li><div class="yr">20 May 2020</div><div class="ev">Second sunset review initiated on the application of PCBL, Himadri and Continental Carbon India.</div></li>
+  <li><div class="yr">22 Dec 2020</div><div class="ev">DGTR recommends US$494/t on China and US$36.17/t on Russia.</div></li>
+  <li class="major"><div class="yr">5 Jan 2021</div><div class="ev">Finance Ministry declines to impose; carbon black has no Indian trade remedy from here on.</div></li>
+  <li><div class="yr">2021 – Oct 2026</div><div class="ev">No anti-dumping, countervailing or safeguard case on carbon black initiated (DGTR site search, updated 1 Oct 2026).</div></li>
+</ul>
+
+<p>Why did the government say no? DGTR's own 2020 data help explain it. Imports from the subject countries were 8.1% of consumption in FY17, 9.2% in FY18, 14.2% in FY19 and 9.0% in FY20, and opposing parties pointed to Birla Carbon, which was not an applicant, earning a 20.8% operating margin in FY20. A duty would have raised costs for tyre makers, a much larger and more export-oriented industry. Since then India has become a net exporter (FY22) and its net exports have tripled, so a fresh case would have to argue injury from imports that are now under a tenth of demand. That is not impossible: Russian and Chinese price undercutting in 2024–25 was the kind of evidence trade cases are built on. But as of October 2026 DGTR's site shows no new case, and without a DGTR recommendation there can be no duty notification.</p>
+
+<div class="chart">
+  <div class="c-title">Imports from China and Russia as a share of Indian rubber-grade demand</div>
+  <div class="c-sub">Subject-country imports ÷ total Indian demand, %, DGTR final findings of 22-Dec-2020 (rubber grades only; FY20 is the period of investigation)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY17<small>demand 806 kt</small></div><div class="track"><span class="fill om" style="width:54%"></span></div><div class="bval">8.1%</div></div>
+    <div class="bar-row"><div class="blab">FY18<small>865 kt</small></div><div class="track"><span class="fill om" style="width:61.3%"></span></div><div class="bval">9.2%</div></div>
+    <div class="bar-row"><div class="blab">FY19<small>949 kt</small></div><div class="track"><span class="fill bad" style="width:94.7%"></span></div><div class="bval">14.2%</div></div>
+    <div class="bar-row"><div class="blab">FY20<small>824 kt</small></div><div class="track"><span class="fill om" style="width:60%"></span></div><div class="bval">9.0%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 15%. In FY26 all carbon black imports from every origin were about 9–10% of demand (TradeStat; indicative denominator).</span></div>
+</div>
+
+<p>Trade agreements now matter more than duties. The India–EU FTA, concluded in January 2026 and in ratification, does nothing directly for carbon black (the EU charges none) but removes the 4.5% EU duty on Indian tyres. The India–UK CETA and the India–EFTA TEPA are in force, and agreements with Oman and New Zealand were signed. On the US side, the sequence has been chaotic, and it is easy to quote a rate that never applied. Print the chronology, not a single number:</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>US tariffs on Indian goods, 2025–26 (relevant to tyres and carbon black)</caption>
+    <thead><tr><th>Date</th><th>Measure</th><th>Rate on most Indian goods</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>Aug 2025</td><td>IEEPA "reciprocal" tariff plus Russia-oil penalty</td><td>50%</td><td>Applied until Feb 2026</td></tr>
+      <tr><td>Early Feb 2026</td><td>India–US interim framework announced</td><td>~18% headline</td><td>Never signed into effect</td></tr>
+      <tr><td>20 Feb 2026</td><td>US Supreme Court strikes down IEEPA tariffs</td><td>—</td><td>PCBL applies for a ₹40–45 Cr refund (PCBL + Aquapharm)</td></tr>
+      <tr><td>24 Feb – ~24 Jul 2026</td><td>Section 122 balance-of-payments tariff, 150 days</td><td>10%</td><td>Expired</td></tr>
+      <tr><td>Since ~24 Jul 2026</td><td>Section 301 tariff on top of MFN duty</td><td>10% (China, Vietnam 12.5%)</td><td>In force; under legal challenge</td></tr>
+      <tr><td>2025–26</td><td>Section 232 on copper and aluminium derivatives</td><td>50%</td><td>Rain says CPC, CTP and key raw materials are exempt</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>For carbon black the US is a modest market: about 5% of PCBL's revenue, and India's FY26 carbon black exports to the US were 46.7 kt, down 5.9%. CRISIL estimated the 50% peak cost PCBL 0.5–1.0 percentage points of margin, softened because the duty was computed net of the US-origin oil inside the product. The new regime is better for India relatively, since competing origins face higher effective duties, and PCBL talks of an "upcoming presence in Texas", where Aquapharm already has a plant. For Rain, Section 232 was the larger risk; it says calcined coke and pitch are on the exempt list and that US smelter restarts help it indirectly.</p>
+<p>Environmental policy shapes costs at the margin. Carbon black plants are "red category" industries under the Central Pollution Control Board, and PCBL and Himadri run zero-liquid-discharge plants. PCBL reports greenhouse-gas intensity of 1.91 tonnes of CO₂-equivalent per tonne of carbon black (Scope 1 and 2, FY25). The EU's carbon border tax (CBAM) does not yet cover carbon black or tyres, but customer Scope 3 targets increasingly reward tail-gas power and certified circular feedstock (Himadri's Mahistikry site holds ISCC PLUS certification). India's restrictions on petcoke imports, in place since 2018, are Rain's main domestic policy exposure: its Indian calciners ran at about 50% until 2024 and about 90% in 2025 after allocations improved. India Ratings reports a DTA allocation of 598,589 tonnes of green petcoke for FY26, while the SEZ unit (370,000 tonnes) may import without a cap for export production. Finally, the production-linked incentive for advanced chemistry cells (50 GWh) and the US push for non-Chinese battery supply chains underpin the battery-materials plans.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Indian carbon black makers once had a decade of anti-dumping protection. The government ended it in January 2021 because the tyre industry, the bigger customer, would have paid the cost, and because imports were already small. There has been no new case since. A company that tells you a duty is coming is guessing; one that tells you its edge is cost, freight and trade deals is describing the real world.</p>
+</div>
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The US tariff on Indian goods has been 50%, then a promised 18% that never took effect, then 10% under one law and now 10% under another, which is being challenged in court. For carbon black the US matters less than Europe; for tyres it matters a lot. What counts is not the headline rate but the gap between India's rate and its competitors'.</p>
+</div>
+</section>
+
+<section class="part" id="p8">
+<div class="part-head"><span class="pno">08</span><h2>Same tonnes, different year: anatomy of a spread cycle <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">From FY24 to Q1 FY27 PCBL sold roughly the same 150,000 tonnes a quarter. Its quarterly profit after tax ranged from ₹2 crore to ₹155 crore.</p>
+
+<p>The cleanest way to see how carbon black makes and loses money is to hold volume constant and watch the spread. PCBL is the right subject: it is the largest producer, discloses tonnes every quarter, and its management gives an EBITDA-per-tonne figure for the carbon black and power business. Its volume barely moved through the cycle: 596,262 tonnes in FY25, 618,956 tonnes in FY26, 153,513 tonnes in Q1 FY27 (154,093 a year earlier). What moved was the rupee margin on each tonne. CRISIL's January 2026 rationale puts it at about ₹19,350 in H1 FY25 and about ₹15,500 in H1 FY26, citing "subdued spot prices… softening crude, dumping by Russia and… US tariff related uncertainties". For FY26 as a whole it was about ₹14,900 (our check: ₹1,082 crore company EBITDA less ₹162 crore Aquapharm, divided by 618,956 tonnes, is ₹14,864). In Q1 FY27 it was ₹22,900 (check: ₹400 crore less ₹47 crore, divided by 153,513 tonnes, is about ₹23,000).</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>PCBL: eight quarters of the same tonnes (screener consolidated, ₹ Cr)</caption>
+    <thead><tr><th>Quarter</th><th class="num">Sep-24</th><th class="num">Dec-24</th><th class="num">Mar-25</th><th class="num">Jun-25</th><th class="num">Sep-25</th><th class="num">Dec-25</th><th class="num">Mar-26</th><th class="num">Jun-26 (Q1 FY27)</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Revenue</td><td class="num">2,163</td><td class="num">2,010</td><td class="num">2,087</td><td class="num">2,114</td><td class="num">2,164</td><td class="num">1,846</td><td class="num">2,066</td><td class="num">2,473</td></tr>
+      <tr><td class="t-strong">Operating profit</td><td class="num">364</td><td class="num">317</td><td class="num">298</td><td class="num">319</td><td class="num">266</td><td class="num">215</td><td class="num">243</td><td class="num">396</td></tr>
+      <tr><td class="t-strong">OPM %</td><td class="num">17</td><td class="num">16</td><td class="num">14</td><td class="num">15</td><td class="num">12</td><td class="num">12</td><td class="num">12</td><td class="num">16</td></tr>
+      <tr><td class="t-strong">Interest</td><td class="num">119</td><td class="num">118</td><td class="num">103</td><td class="num">112</td><td class="num">107</td><td class="num">106</td><td class="num">97</td><td class="num">93</td></tr>
+      <tr><td class="t-strong">PAT</td><td class="num">123</td><td class="num">93</td><td class="num">100</td><td class="num">94</td><td class="num">62</td><td class="num">2</td><td class="num">40</td><td class="num">155</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Read the table from left to right and the cycle is visible without any per-tonne arithmetic. Operating margin fell from 17% in September 2024 to 12% for three straight quarters (September 2025 to March 2026), and because interest on the Aquapharm debt was a fixed ₹100–120 crore a quarter, profit after tax fell almost to zero: ₹2 crore in the December 2025 quarter, when an 80% effective tax rate on a small profit compounded the damage. Then margin jumped back to 16% in Q1 FY27 and profit to ₹155 crore, up 65% year on year. The revenue line also moved with oil, not tonnes: the December 2025 quarter's ₹1,846 crore and the June 2026 quarter's ₹2,473 crore were made on similar volumes.</p>
+
+<div class="chart">
+  <div class="c-title">PCBL operating margin, eight quarters</div>
+  <div class="c-sub">Screener consolidated operating profit ÷ revenue, % (includes Aquapharm). Calendar quarter-end shown; Jun-26 = Q1 FY27</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Sep-24</div><div class="track"><span class="fill brand" style="width:85%"></span></div><div class="bval">17%</div></div>
+    <div class="bar-row"><div class="blab">Dec-24</div><div class="track"><span class="fill brand" style="width:80%"></span></div><div class="bval">16%</div></div>
+    <div class="bar-row"><div class="blab">Mar-25</div><div class="track"><span class="fill brand" style="width:70%"></span></div><div class="bval">14%</div></div>
+    <div class="bar-row"><div class="blab">Jun-25</div><div class="track"><span class="fill brand" style="width:75%"></span></div><div class="bval">15%</div></div>
+    <div class="bar-row"><div class="blab">Sep-25</div><div class="track"><span class="fill om" style="width:60%"></span></div><div class="bval">12%</div></div>
+    <div class="bar-row"><div class="blab">Dec-25<small>PAT ₹2 Cr</small></div><div class="track"><span class="fill bad" style="width:60%"></span></div><div class="bval">12%</div></div>
+    <div class="bar-row"><div class="blab">Mar-26</div><div class="track"><span class="fill om" style="width:60%"></span></div><div class="bval">12%</div></div>
+    <div class="bar-row"><div class="blab">Jun-26<small>Q1 FY27</small></div><div class="track"><span class="fill gold" style="width:80%"></span></div><div class="bval">16%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 20%.</span></div>
+</div>
+
+<p>Why did the spread fall in FY25–FY26? Three things happened together. First, crude softened: Brent averaged about $63–64 in the December 2025 quarter. Under formula pricing a falling oil price is good for a quarter (selling prices lag down) and then neutral, but it also lowers the absolute rupee value of the margin the market will allow and weakens spot prices. Second, Russian and Chinese black flooded the third markets where Indian exporters sell. After the EU ban on Russian carbon black from July 2024, Russia had to place hundreds of thousands of tonnes elsewhere; China cut export prices about 21% in 2025. India's own export unit value fell from US$1,530 a tonne in FY23 to US$1,118 in FY26 (TradeStat). Third, Indian capacity rose faster than demand, which PCBL itself called "surplus domestic capacity". Birla Carbon's numbers confirm it was industry-wide: its EBITDA per tonne fell from ₹16,817 (FY24) to ₹13,273 (FY25).</p>
+
+<div class="chart">
+  <div class="c-title">The squeeze hit the unlisted leader too</div>
+  <div class="c-sub">EBITDA per tonne of carbon black, ₹, all-in basis including power. Birla Carbon India from CRISIL (Sep-2025); PCBL H1 FY25 from CRISIL (Jan-2026), FY26 and Q1 FY27 company</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">PCBL H1 FY25</div><div class="track"><span class="fill brand" style="width:77.4%"></span></div><div class="bval">~19,350</div></div>
+    <div class="bar-row"><div class="blab">Birla Carbon FY24</div><div class="track"><span class="fill wtg" style="width:67.3%"></span></div><div class="bval">16,817</div></div>
+    <div class="bar-row"><div class="blab">Birla Carbon FY25</div><div class="track"><span class="fill wtg" style="width:53.1%"></span></div><div class="bval">13,273</div></div>
+    <div class="bar-row"><div class="blab">PCBL FY26</div><div class="track"><span class="fill brand" style="width:59.5%"></span></div><div class="bval">~14,900</div></div>
+    <div class="bar-row"><div class="blab">PCBL Q1 FY27</div><div class="track"><span class="fill gold" style="width:91.6%"></span></div><div class="bval">22,900</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹25,000. Birla's FY26 figure is not yet available.</span></div>
+</div>
+
+<p>Then the West Asia war reversed the sign. From 28 February 2026 crude, freight and LPG all spiked, Brent averaging $117 in April. Three mechanisms delivered PCBL's record ₹22,900 a tonne in Q1 FY27. About a third of PCBL's volume is spot, and spot prices rose at once, "monetising" the April–May crude run-up, in the CFO's word. Inventory bought before the spike was sold at post-spike prices, worth about ₹70 crore, of which management expected ₹40–50 crore to reverse in Q2 FY27 as higher-cost feedstock flowed through. And power realisation rose from ₹3.66 to ₹5.39 a unit as grid prices jumped, lifting power EBIT from about ₹80 crore in Q4 FY26 to about ₹110 crore. PCBL also chose to hold volume flat, selling cheap inventory domestically into new formula prices rather than chasing exports where freight "was eating away" the margin.</p>
+
+<div class="chart">
+  <div class="c-title">What was inside Q1 FY27's ₹22,900 a tonne</div>
+  <div class="c-sub">ILLUSTRATIVE decomposition: inventory gain ~₹70 Cr ÷ 153,513 t ≈ ₹4,550/t; power-tariff uplift ~₹30 Cr QoQ ÷ 153,513 t ≈ ₹1,950/t; remainder treated as the underlying spread. Company does not publish this split</div>
+  <div class="stack-row"><div class="blab">₹22,900 per tonne</div><div class="stack"><span style="width:71.6%;background:var(--brand)">Underlying ~16,400</span><span style="width:8.5%;background:var(--epc)">Pwr</span><span style="width:19.9%;background:var(--gold)">Stock ~4,550</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Underlying spread after formula reset (~₹16,400)</span><span><i style="background:var(--epc)"></i>Higher power tariff, ₹5.39 vs ₹3.66/kWh (~₹1,950)</span><span><i style="background:var(--gold)"></i>Low-cost inventory gain (~₹4,550), largely one-off</span></div>
+</div>
+
+<p>Strip out the inventory gain and the power-price spike and the underlying spread is roughly ₹16,400 a tonne, which is almost exactly management's FY27 guidance of ₹16,500–17,000 (14–15% above the FY26 average). That is the most useful single conclusion of this section: the guidance is not conservative sandbagging of a ₹22,900 run-rate, it is the underlying number. The windfall was real cash in the quarter, but it was a timing gain. The same logic runs in reverse: if Brent falls from October's $125 toward $80, PCBL will carry high-cost inventory into lower selling prices and give back part of the gain, as it did in the December 2025 quarter.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>One tonne of PCBL carbon black, trough year vs shock quarter (ILLUSTRATIVE composite, ₹ per tonne)</caption>
+    <thead><tr><th>Line</th><th class="num">FY26 (trough)</th><th class="num">Q1 FY27 (shock)</th><th class="num">Change</th><th>Basis</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Realisation</td><td class="num">1,05,000</td><td class="num">1,32,000</td><td class="num">+27,000</td><td>Q4 FY26 ~₹105/kg; QoQ +₹27,000/t per management</td></tr>
+      <tr><td>Feedstock, 1.75 t oil delivered</td><td class="num">−74,000</td><td class="num">−89,000</td><td class="num">−15,000</td><td>Cost pass-through; the other ₹12,000 of the price rise was margin</td></tr>
+      <tr><td>Gas, packing, other variable</td><td class="num">−5,000</td><td class="num">−6,000</td><td class="num">−1,000</td><td>LPG and gas prices up</td></tr>
+      <tr><td>Fixed conversion, staff, SG&amp;A, freight-out</td><td class="num">−13,500</td><td class="num">−16,500</td><td class="num">−3,000</td><td>Freight surcharges only partly recovered</td></tr>
+      <tr><td>Net power credit</td><td class="num">+2,400</td><td class="num">+2,400</td><td class="num">0</td><td>Held flat here; the tariff uplift is shown in the stack above</td></tr>
+      <tr><td class="t-strong">EBITDA per tonne</td><td class="num">14,900</td><td class="num">22,900</td><td class="num">+8,000</td><td>Totals tie to company figures</td></tr>
+      <tr><td>× tonnes sold</td><td class="num">618,956</td><td class="num">153,513</td><td class="num"></td><td>Company</td></tr>
+      <tr><td class="t-strong">= carbon black + power EBITDA</td><td class="num">~₹920 Cr</td><td class="num">~₹352 Cr</td><td class="num"></td><td>Group EBITDA less Aquapharm (1,082 − 162; 400 − 47)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>What does the cycle mean for earnings? A worked example helps (illustrative, not a forecast). If PCBL sells about 668 kt in FY27 (619 kt grown 8%, the top of its "high single digit" guide) at the ₹16,750 guidance midpoint, carbon black and power EBITDA is about ₹1,119 crore. Adding Aquapharm at ₹180–220 crore gives group EBITDA of about ₹1,300–1,340 crore, up 20–25%. After about ₹400 crore of depreciation, ₹380 crore of interest and 25% tax, profit after tax would be roughly ₹380–420 crore, against ₹259 crore in the twelve months to June 2026, putting the stock on about 27–30 times FY27 earnings at the 22 October market value of ₹11,495 crore. Each ₹1,000 a tonne of spread on 668 kt is worth about ₹67 crore of EBITDA and about ₹50 crore of profit after tax, roughly a fifth of trailing profit.</p>
+<p>The same anatomy applies at Rain and, more loosely, at Himadri. Rain's Carbon segment earned ₹7,702 a tonne across CY25 (adjusted EBITDA of ₹19.97 billion on 2,593 kt), ₹7,756 in Q2 CY25, ₹10,287 in Q1 CY26 and ₹13,653 in Q2 CY26, its best quarter in four years, "aided by… favourable inventory pricing" and "some opportunistic margins… not necessarily from the Carbon segment's traditional core products". Management called it "not… a new run-rate, but… not… purely one-off". Himadri's blended figure (company EBITDA divided by all-product standalone tonnes, not comparable with carbon-black-only numbers) rose from ₹4,382 in FY22 to ₹17,831 in FY26 and ₹20,993 in Q2 FY27, a structural climb rather than a cycle, built on mix and integration.</p>
+
+<div class="chart">
+  <div class="c-title">Rain's Carbon segment rode the same wave</div>
+  <div class="c-sub">Carbon segment adjusted EBITDA per tonne sold, ₹ (Rain earnings presentation, Q2 CY26; CY25 = ₹19.97 bn ÷ 2,593 kt). Calendar quarters</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">CY25 full year</div><div class="track"><span class="fill om" style="width:51.3%"></span></div><div class="bval">7,702</div></div>
+    <div class="bar-row"><div class="blab">Q2 CY25<small>Apr–Jun 2025</small></div><div class="track"><span class="fill om" style="width:51.7%"></span></div><div class="bval">7,756</div></div>
+    <div class="bar-row"><div class="blab">Q1 CY26<small>Jan–Mar 2026</small></div><div class="track"><span class="fill wtg" style="width:68.6%"></span></div><div class="bval">10,287</div></div>
+    <div class="bar-row"><div class="blab">Q2 CY26<small>Apr–Jun 2026</small></div><div class="track"><span class="fill gold" style="width:91%"></span></div><div class="bval">13,653</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹15,000. Volume fell to 594 kt in Q2 CY26 (−10.5%) as Middle East cargoes were deferred.</span></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">Himadri's blended EBITDA per tonne: a climb, not a cycle</div>
+  <div class="c-sub">Company EBITDA (excluding other income and FX) ÷ all-product standalone sales volume, ₹ per tonne. Covers pitch, carbon black, oils, naphthalene, SNF; NOT comparable with PCBL's carbon-black figure</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill ink" style="width:17.5%"></span></div><div class="bval">4,382</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill gold" style="width:41.5%"></span></div><div class="bval">10,376</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill gold" style="width:53.4%"></span></div><div class="bval">13,352</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill gold" style="width:61.4%"></span></div><div class="bval">15,339</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill gold" style="width:71.3%"></span></div><div class="bval">17,831</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27<small>standalone</small></div><div class="track"><span class="fill brand" style="width:91.4%"></span></div><div class="bval">22,857</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY27<small>standalone</small></div><div class="track"><span class="fill brand" style="width:84%"></span></div><div class="bval">20,993</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹25,000. Quarterly figures use standalone EBITDA; annual figures use consolidated company EBITDA.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>PCBL sold about the same amount of carbon black every quarter for two years. Its quarterly profit went from ₹123 crore to ₹2 crore and back to ₹155 crore. Nothing about the plants changed. What changed was the gap between the price of oil and the price tyre makers paid, plus a one-off gain from selling cheap stock at expensive prices when the war began.</p>
+</div>
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>When PCBL guides ₹16,500–17,000 a tonne after a ₹22,900 quarter, it is not being timid. Take away the inventory gain and the temporary jump in power prices and the record quarter's underlying spread was about ₹16,400. The guidance is the real number; the record was a timing bonus.</p>
+</div>
+</section>
+
+<section class="part" id="p9">
+<div class="part-head"><span class="pno">09</span><h2>Russia's lost market: EU sanctions and India's export arbitrage <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">Europe shut out Russian carbon black in July 2024. Indian exporters filled part of the gap and tripled net exports, but paid for it in price.</p>
+
+<p>Before 2023 Russia was Europe's carbon black supplier. CRISIL estimated that Russia exported about 1,000 kt in FY23, roughly 70% of it (about 700 kt) to the EU; PCBL puts Western Europe's import need at about 500 kt a year, and its management cites an EU-wide market of about 1.8 million tonnes. The EU's tenth sanctions package changed that. Implementing Regulation (EU) 2023/427 set a quota of 752,475 tonnes for Russian carbon black (CN 2803) from 26 February 2023 to 30 June 2024, about 560 kt a year, and from 1 July 2024 imports were banned. European tyre makers had to find hundreds of thousands of tonnes elsewhere, and Russian producers had to find new buyers for the same tonnes.</p>
+<p>The Indian customs data show who won the European business. India's carbon black exports to the EU-27 were 4.4 kt in FY21 and 5.3 kt in FY22, then 43.0 kt in FY23, 48.4 kt in FY24, 99.7 kt in FY25 and 130.3 kt in FY26, when the EU took 29% of India's carbon black exports. The beachheads are Poland (25.2 kt in FY26, up 53%), Germany (20.6 kt), Italy (18.1 kt), the Netherlands (13.4 kt) and Belgium (12.9 kt, up 130%), the countries with large tyre plants. In Q1 FY27 PCBL shipped about 16,000 tonnes to Europe. China won a similar share of the European gap.</p>
+
+<div class="chart">
+  <div class="c-title">India's carbon black exports to the EU-27</div>
+  <div class="c-sub">Thousand tonnes, HS 28030010, TradeStat (DGCI&amp;S) country rows summed for the 27 EU members; excludes the UK and Turkey</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill om" style="width:2.9%"></span></div><div class="bval">4.4</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill om" style="width:3.5%"></span></div><div class="bval">5.3</div></div>
+    <div class="bar-row"><div class="blab">FY23<small>EU quota from Feb-23</small></div><div class="track"><span class="fill spec" style="width:28.7%"></span></div><div class="bval">43.0</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill spec" style="width:32.3%"></span></div><div class="bval">48.4</div></div>
+    <div class="bar-row"><div class="blab">FY25<small>ban from Jul-24</small></div><div class="track"><span class="fill brand" style="width:66.5%"></span></div><div class="bval">99.7</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:86.9%"></span></div><div class="bval">130.3</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 150 kt. The EU share of Indian exports rose from 2% (FY22) to 29% (FY26).</span></div>
+</div>
+
+<p>India's overall trade position changed just as fast. In FY21 India was a net importer of 42.5 kt. It became a net exporter in FY22 (+59.2 kt) and by FY26 exported 443.9 kt against imports of 130.2 kt, net exports of 313.7 kt. Exports more than tripled in five years. The table below is the customs record; it supersedes the rough estimates (exports of "350–400 kt") that circulated in broker notes.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>India carbon black trade, HS 28030010 (TradeStat / DGCI&amp;S)</caption>
+    <thead><tr><th>Fiscal</th><th class="num">Exports kt</th><th class="num">Exports US$ m</th><th class="num">Export unit value $/t</th><th class="num">Imports kt</th><th class="num">Import unit value $/t</th><th class="num">Net exports kt</th><th class="num">To EU-27 kt</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">FY21</td><td class="num">133.1</td><td class="num">111.8</td><td class="num">840</td><td class="num">175.6</td><td class="num">920</td><td class="num neg">−42.5</td><td class="num">4.4</td></tr>
+      <tr><td class="t-strong">FY22</td><td class="num">200.0</td><td class="num">290.1</td><td class="num">1,451</td><td class="num">140.8</td><td class="num">1,379</td><td class="num pos">+59.2</td><td class="num">5.3</td></tr>
+      <tr><td class="t-strong">FY23</td><td class="num">218.8</td><td class="num">334.7</td><td class="num">1,530</td><td class="num">113.8</td><td class="num">1,673</td><td class="num pos">+105.0</td><td class="num">43.0</td></tr>
+      <tr><td class="t-strong">FY24</td><td class="num">310.8</td><td class="num">405.1</td><td class="num">1,303</td><td class="num">144.3</td><td class="num">1,356</td><td class="num pos">+166.5</td><td class="num">48.4</td></tr>
+      <tr><td class="t-strong">FY25</td><td class="num">395.7</td><td class="num">498.2</td><td class="num">1,259</td><td class="num">145.9</td><td class="num">1,349</td><td class="num pos">+249.8</td><td class="num">99.7</td></tr>
+      <tr><td class="t-strong">FY26</td><td class="num">443.9</td><td class="num">496.1</td><td class="num">1,118</td><td class="num">130.2</td><td class="num">1,266</td><td class="num pos">+313.7</td><td class="num">130.3</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="chart">
+  <div class="c-title">Exports tripled; imports drifted down</div>
+  <div class="c-sub">India carbon black exports and imports, thousand tonnes, TradeStat HS 28030010</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY21 exports</div><div class="track"><span class="fill brand" style="width:26.6%"></span></div><div class="bval">133.1</div></div>
+    <div class="bar-row"><div class="blab">FY21 imports</div><div class="track"><span class="fill bad" style="width:35.1%"></span></div><div class="bval">175.6</div></div>
+    <div class="bar-row"><div class="blab">FY23 exports</div><div class="track"><span class="fill brand" style="width:43.8%"></span></div><div class="bval">218.8</div></div>
+    <div class="bar-row"><div class="blab">FY23 imports</div><div class="track"><span class="fill bad" style="width:22.8%"></span></div><div class="bval">113.8</div></div>
+    <div class="bar-row"><div class="blab">FY25 exports</div><div class="track"><span class="fill brand" style="width:79.1%"></span></div><div class="bval">395.7</div></div>
+    <div class="bar-row"><div class="blab">FY25 imports</div><div class="track"><span class="fill bad" style="width:29.2%"></span></div><div class="bval">145.9</div></div>
+    <div class="bar-row"><div class="blab">FY26 exports</div><div class="track"><span class="fill brand" style="width:88.8%"></span></div><div class="bval">443.9</div></div>
+    <div class="bar-row"><div class="blab">FY26 imports</div><div class="track"><span class="fill bad" style="width:26%"></span></div><div class="bval">130.2</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 500 kt. FY26 export value ₹4,376 Cr (US$496.1 m).</span></div>
+</div>
+
+<p>The price of that success is the export unit value. Indian exporters earned US$1,530 a tonne on average in FY23 and US$1,118 in FY26, a 27% fall. In FY26 export tonnes rose 12% while export value was flat (US$498.2 million to US$496.1 million). Part of the fall is lower oil (prices pass through) but part is spread: the Western majors saw the same thing, with Cabot's Reinforcement Materials EBIT down 24% to US$97 million in April–June 2026 on lower 2026 tyre-contract prices and Orion's rubber black EBITDA down from US$48.9 million to US$19.2 million in Q2 2026 (both snippet-grade). Europe's tyre makers, freed of Russian supply, ran competitive tenders among Indian, Chinese, Turkish and Middle Eastern sellers, and they won.</p>
+
+<div class="chart">
+  <div class="c-title">Export unit value: the squeeze, in customs data</div>
+  <div class="c-sub">India carbon black export value ÷ export tonnes, US$ per tonne (TradeStat, calculated)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill om" style="width:46.7%"></span></div><div class="bval">840</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill brand" style="width:80.6%"></span></div><div class="bval">1,451</div></div>
+    <div class="bar-row"><div class="blab">FY23<small>peak</small></div><div class="track"><span class="fill brand" style="width:85%"></span></div><div class="bval">1,530</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill spec" style="width:72.4%"></span></div><div class="bval">1,303</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill spec" style="width:69.9%"></span></div><div class="bval">1,259</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill bad" style="width:62.1%"></span></div><div class="bval">1,118</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = $1,800 a tonne. Import unit values stayed $100–150 a tonne above export values, reflecting more specialty grades in imports.</span></div>
+</div>
+
+<p>Where did the Russian tonnes go? Not, mostly, to India. The common story in rating-agency notes is that a "large influx of Russian carbon black in India" hurt domestic prices. The customs record does not support the volume part of that claim. Russian carbon black imports into India were 31.4 kt in FY21 and 28.2 kt in FY22, before sanctions, then 13.2 kt, 7.8 kt, 14.7 kt and 11.0 kt in FY23–FY26. Chinese imports rose instead, from 10.6 kt in FY23 to 39.8 kt in FY26. CARE's version is closer to the data: "cheaper exports from Russia to South-East Asian countries poses a pressure on realisations". Russian black displaced from Europe went to Thailand, Vietnam, Indonesia and Turkey, exactly the markets where Indian exporters sell (Thailand, Sri Lanka, Vietnam and Indonesia were four of India's top seven destinations in FY26), and set a lower clearing price there.</p>
+
+<div class="chart">
+  <div class="c-title">Russia was never the volume problem in India; China grew</div>
+  <div class="c-sub">India's carbon black imports from Russia and China, thousand tonnes, TradeStat HS 28030010</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY21 Russia</div><div class="track"><span class="fill gold" style="width:69.8%"></span></div><div class="bval">31.4</div></div>
+    <div class="bar-row"><div class="blab">FY21 China</div><div class="track"><span class="fill bad" style="width:59.8%"></span></div><div class="bval">26.9</div></div>
+    <div class="bar-row"><div class="blab">FY23 Russia</div><div class="track"><span class="fill gold" style="width:29.3%"></span></div><div class="bval">13.2</div></div>
+    <div class="bar-row"><div class="blab">FY23 China</div><div class="track"><span class="fill bad" style="width:23.6%"></span></div><div class="bval">10.6</div></div>
+    <div class="bar-row"><div class="blab">FY25 Russia</div><div class="track"><span class="fill gold" style="width:32.7%"></span></div><div class="bval">14.7</div></div>
+    <div class="bar-row"><div class="blab">FY25 China</div><div class="track"><span class="fill bad" style="width:73.1%"></span></div><div class="bval">32.9</div></div>
+    <div class="bar-row"><div class="blab">FY26 Russia</div><div class="track"><span class="fill gold" style="width:24.4%"></span></div><div class="bval">11.0</div></div>
+    <div class="bar-row"><div class="blab">FY26 China</div><div class="track"><span class="fill bad" style="width:88.4%"></span></div><div class="bval">39.8</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 45 kt. FY22 Russia 28.2, China 22.4; FY24 Russia 7.8, China 31.9.</span></div>
+</div>
+
+<p>The geography of Indian exports in FY26 shows the arbitrage at work. The United States was still the single largest destination at 46.7 kt (US$58.3 million), but it fell 5.9% in the tariff year. Next came Thailand (39.1 kt), Sri Lanka (35.9 kt), Vietnam (33.6 kt), the UAE (25.8 kt), Poland (25.2 kt), Indonesia (20.9 kt), Germany (20.6 kt), Italy (18.1 kt), the Netherlands (13.4 kt), Belgium (12.9 kt) and Japan (12.8 kt, up 73%). Asia's tyre clusters and Europe's tyre plants together account for most of it. PCBL exports about 38% of its volume (CARE, FY26) to more than 45 countries, and about 70% of its specialty black is sold abroad.</p>
+
+<div class="chart">
+  <div class="c-title">Where Indian carbon black went in FY26</div>
+  <div class="c-sub">Top export destinations, thousand tonnes, TradeStat HS 28030010 (total 443.9 kt)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">United States</div><div class="track"><span class="fill brand" style="width:93.4%"></span></div><div class="bval">46.7</div></div>
+    <div class="bar-row"><div class="blab">Thailand</div><div class="track"><span class="fill wtg" style="width:78.2%"></span></div><div class="bval">39.1</div></div>
+    <div class="bar-row"><div class="blab">Sri Lanka</div><div class="track"><span class="fill wtg" style="width:71.8%"></span></div><div class="bval">35.9</div></div>
+    <div class="bar-row"><div class="blab">Vietnam</div><div class="track"><span class="fill wtg" style="width:67.2%"></span></div><div class="bval">33.6</div></div>
+    <div class="bar-row"><div class="blab">UAE</div><div class="track"><span class="fill wtg" style="width:51.6%"></span></div><div class="bval">25.8</div></div>
+    <div class="bar-row"><div class="blab">Poland</div><div class="track"><span class="fill spec" style="width:50.4%"></span></div><div class="bval">25.2</div></div>
+    <div class="bar-row"><div class="blab">Indonesia</div><div class="track"><span class="fill wtg" style="width:41.8%"></span></div><div class="bval">20.9</div></div>
+    <div class="bar-row"><div class="blab">Germany</div><div class="track"><span class="fill spec" style="width:41.2%"></span></div><div class="bval">20.6</div></div>
+    <div class="bar-row"><div class="blab">Italy</div><div class="track"><span class="fill spec" style="width:36.2%"></span></div><div class="bval">18.1</div></div>
+    <div class="bar-row"><div class="blab">Netherlands</div><div class="track"><span class="fill spec" style="width:26.8%"></span></div><div class="bval">13.4</div></div>
+  </div>
+  <div class="legend"><span><i style="background:var(--spec)"></i>EU</span><span><i style="background:var(--wtg)"></i>Asia and Middle East</span><span><i style="background:var(--brand)"></i>US. Scale: full bar = 50 kt. Belgium 12.9 kt and Japan 12.8 kt follow.</span></div>
+</div>
+
+<p>2026 has added a twist. Ukrainian drone strikes on Russian refineries cut Russia's own supply of carbon black feedstock and, PCBL says, its carbon black exports "sharply". US customers are diversifying away from Chinese and Russian supply toward India, helped by India's lower tariff. And the West Asia war disrupted the Middle Eastern producers that compete in Asia and East Africa. For the first time since 2023 the third-market price war has eased, which helped Q1 FY27 spot prices. Whether that lasts depends on how quickly Russian refining recovers and where China sends its surplus.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>When Europe banned Russian carbon black, Indian producers won much of the business: exports to the EU went from almost nothing to 130,000 tonnes a year. But Russia still had to sell its tonnes, so it cut prices in Asia, where Indian producers also sell. India ended up exporting far more carbon black for roughly the same total dollars.</p>
+</div>
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>"Russian dumping in India" is mostly a myth on the customs numbers: Russia sold India only 11,000 tonnes in FY26, less than in FY21. China sold almost four times as much. The Russian effect came through the prices Indian exporters had to match abroad.</p>
+</div>
+</section>
+
+<section class="part" id="p10">
+<div class="part-head"><span class="pno">10</span><h2>The windfall that ate the cash: the 2026 oil shock and working capital</h2></div>
+<p class="part-sub">Higher oil prices lifted margins and, in the same quarters, tied up hundreds of crores in inventory and receivables.</p>
+
+<p>A pass-through business has a cash problem that its profit and loss account hides. When feedstock prices rise 30–50%, the company pays more for every tonne of oil or tar in its tanks and in transit, and it waits 60 days or more for customers to pay invoices that are now 30–50% larger. Supplier credit grows too, but usually by less, and some suppliers shorten it in a crisis. The result is that a year of record margins can also be a year of negative operating cash flow. The West Asia war produced exactly that in 2026, and because Brent re-spiked to $114 in September and about $125 in mid-October, the second half of FY27 will repeat it unless prices fall.</p>
+<p>Himadri shows it most clearly, because it filed a full half-year balance sheet and cash flow on 17 October 2026. Its Q2 FY27 consolidated revenue rose 58% to ₹1,691 crore while all-product standalone volume rose only 8.3% (146,806 tonnes against 135,513): about a third of the revenue growth was price and pass-through. Gross profit was ₹520 crore in Q2, the same as in Q1, on revenue 18% higher. Gross margin fell from 38.2% a year earlier to 36.3% in Q1 FY27 and 30.8% in Q2 FY27, and company EBITDA margin from 22.2% to 17.9%, even though absolute EBITDA rose 27% to ₹303 crore.</p>
+
+<div class="chart">
+  <div class="c-title">Himadri: more revenue, the same gross profit</div>
+  <div class="c-sub">Consolidated gross margin, % (gross profit ÷ revenue), Himadri Q2 FY27 investor presentation. Gross profit ₹409 Cr, ₹520 Cr, ₹520 Cr on revenue ₹1,071 Cr, ₹1,432 Cr, ₹1,691 Cr</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q2 FY26<small>Jul–Sep 2025</small></div><div class="track"><span class="fill gold" style="width:95.5%"></span></div><div class="bval">38.2%</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27<small>Apr–Jun 2026</small></div><div class="track"><span class="fill gold" style="width:90.8%"></span></div><div class="bval">36.3%</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY27<small>Jul–Sep 2026</small></div><div class="track"><span class="fill bad" style="width:77%"></span></div><div class="bval">30.8%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 40%. The whole Q1→Q2 revenue increase came in at roughly zero gross margin: the signature of a feedstock spike being passed on.</span></div>
+</div>
+
+<p>The cash flow statement then shows where the money went. In H1 FY27 Himadri made ₹608 crore of profit before tax, but working capital absorbed ₹686 crore, so operating cash flow was −₹154 crore. Receivables rose from ₹696 crore (March 2026) to ₹1,026 crore (September 2026), trade payables fell from ₹375 crore to ₹160 crore, and inventories stood at ₹806 crore. Capital spending and investments used another ₹215 crore. To fund it, Himadri raised ₹301 crore of financing: current borrowings rose from ₹762 crore to ₹1,152 crore. Net cash of ₹121 crore at March 2026 (company figure; ₹93.7 crore on our arithmetic) became net debt of ₹519.8 crore at September 2026.</p>
+
+<div class="chart">
+  <div class="c-title">Himadri H1 FY27: profit in, cash out</div>
+  <div class="c-sub">Consolidated cash flow, April–September 2026, ₹ Cr (Himadri Q2 FY27 investor presentation)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Profit before tax</div><div class="track"><span class="fill brand" style="width:86.9%"></span></div><div class="bval">+608</div></div>
+    <div class="bar-row"><div class="blab">Working-capital change</div><div class="track"><span class="fill bad" style="width:98%"></span></div><div class="bval">−686</div></div>
+    <div class="bar-row"><div class="blab">Operating cash flow</div><div class="track"><span class="fill bad" style="width:22%"></span></div><div class="bval">−154</div></div>
+    <div class="bar-row"><div class="blab">Investing cash flow</div><div class="track"><span class="fill bad" style="width:30.7%"></span></div><div class="bval">−215</div></div>
+    <div class="bar-row"><div class="blab">Financing cash flow</div><div class="track"><span class="fill wtg" style="width:43%"></span></div><div class="bval">+301</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹700 Cr. Red bars are outflows. Operating cash flow also reflects non-cash items and tax paid.</span></div>
+</div>
+
+<p>Rain went through the same squeeze a year earlier and on a bigger scale. Its net working capital rose from ₹2,626 crore at December 2024 to ₹3,999 crore at December 2025, up ₹1,373 crore on higher calcined coke and pitch prices, and it then built safety stocks of green petcoke for its Indian calciners during the 2026 shipping disruption, funded by working-capital loans: US$257 million of its US$1,064 million gross debt at June 2026 is working-capital debt. Management says the build was volume-driven rather than price-driven and should unwind as the stocks are consumed, and that the first use of surplus cash will be to repay those loans. Operating cash flow recovered to ₹188 crore in H1 CY26 from −₹197 crore in H1 CY25, which is modest against an adjusted EBITDA run-rate of nearly ₹1,000 crore a quarter.</p>
+
+<div class="chart">
+  <div class="c-title">Working capital grew faster than profit</div>
+  <div class="c-sub">₹ Cr. Himadri receivables Mar-26 vs Sep-26 (consolidated balance sheet); Rain net working capital Dec-24 vs Dec-25 (company)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Himadri receivables<small>Mar-26</small></div><div class="track"><span class="fill gold" style="width:17.4%"></span></div><div class="bval">696</div></div>
+    <div class="bar-row"><div class="blab">Himadri receivables<small>Sep-26</small></div><div class="track"><span class="fill bad" style="width:25.7%"></span></div><div class="bval">1,026</div></div>
+    <div class="bar-row"><div class="blab">Rain NWC<small>Dec-24</small></div><div class="track"><span class="fill wtg" style="width:65.7%"></span></div><div class="bval">2,626</div></div>
+    <div class="bar-row"><div class="blab">Rain NWC<small>Dec-25</small></div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">3,999</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹4,000 Cr. Rain's NWC grew a further step in H1 CY26 with petcoke safety stocks.</span></div>
+</div>
+
+<p>PCBL's exposure is similar in kind. Its screener working-capital metrics for FY26 were 62 debtor days, 65 inventory days and 92 payable days, a 35-day cash conversion cycle; management warned in April of "significant pressure on working capital and hence on the net debt", and CARE reports it was using about 59% of its working-capital limits. As an illustrative calculation, a 30% rise in oil prices held for a year raises the value of PCBL's inventory and receivables by roughly ₹400–600 crore before longer supplier credit offsets part of it. PCBL's FY26 operating cash flow was strong (₹1,576 crore) precisely because oil prices were falling and working capital was releasing cash; FY27 is likely to run the other way.</p>
+<p>The lesson for investors is to read the cash flow statement in the same breath as the margin. In an oil spike, EBITDA per tonne rises, reported profit rises, and debt rises too. In an oil collapse, margins fall for a quarter but cash floods back. The two effects partly offset over a full cycle, but they rarely land in the same fiscal year, and the companies with the most leverage, PCBL and Rain, have the least room to carry an extra ₹500 crore of working capital at the wrong moment. The RBI's 25-basis-point repo hike to 5.50% on 7 October 2026 makes that carry slightly more expensive.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>When oil prices jump, a carbon black company's profit rises but its bank balance falls, because every tonne of oil in the tank and every unpaid customer invoice is now worth more. Himadri made ₹608 crore before tax in the first half of FY27 and still ended up ₹154 crore short on operating cash. If oil stays above $110 into early 2027, expect the same pattern again.</p>
+</div>
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Strong profits in an oil spike and strong cash in an oil collapse are two halves of the same cycle. Judge a carbon company across a full cycle, and be wary of any balance sheet that cannot absorb a sudden ₹500 crore increase in working capital.</p>
+</div>
+</section>
+
+<section class="part" id="p11">
+<div class="part-head"><span class="pno">11</span><h2>Six decades, five cycles: how the industry got here</h2></div>
+<p class="part-sub">A national champion, a protected decade, a Russian boom for exporters, a diversification wave and an oil-shock windfall.</p>
+
+<p>Indian carbon black began as an import-substitution industry. Phillips Carbon Black was incorporated in 1960 and built its first plant at Durgapur; Birla's Hi-Tech Carbon started at Renukoot in 1988. Himadri was incorporated in 1987 in Kolkata and moved from coal-tar distillation into carbon black much later. Rain, incorporated in Hyderabad in 1974, began in cement and petroleum coke calcining before borrowing to globalise. The first cycle that matters for today's investor began in 2007–2013, when Rain bought CII Carbon in the US and then Rütgers in Germany, creating the dollar and euro debt that still dominates its balance sheet.</p>
+
+<ul class="timeline">
+  <li><div class="yr">1960</div><div class="ev">Phillips Carbon Black incorporated (Durgapur plant); renamed PCBL Ltd (2021) and PCBL Chemical Ltd (2024).</div></li>
+  <li><div class="yr">1974 / 1987 / 1988</div><div class="ev">Rain incorporated in Hyderabad; Himadri incorporated in Kolkata; Birla's Hi-Tech Carbon starts carbon black at Renukoot.</div></li>
+  <li class="major"><div class="yr">2007–2013</div><div class="ev">Rain buys CII Carbon (US calcined coke, 2007) and Rütgers (German coal-tar chemicals, 2013), building a global, leveraged carbon-materials group.</div></li>
+  <li><div class="yr">2009–2020</div><div class="ev">Anti-dumping duties on rubber-grade carbon black (final findings Dec 2009; continued 2015).</div></li>
+  <li class="major"><div class="yr">5 Jan 2021</div><div class="ev">Government declines to renew the duties after DGTR's sunset review.</div></li>
+  <li><div class="yr">FY21–FY23</div><div class="ev">Covid trough then boom: PCBL revenue ₹2,660 Cr (FY21) → ₹5,774 Cr (FY23); Rain's record CY22 profit ₹1,577 Cr; Himadri's FY22 trough (PAT ₹39 Cr). India turns net exporter in FY22.</div></li>
+  <li class="major"><div class="yr">Feb 2023 – Jul 2024</div><div class="ev">EU quota then ban on Russian carbon black; Indian exports to the EU jump from 5 kt to 100 kt a year.</div></li>
+  <li><div class="yr">Oct 2023 – Jan 2024</div><div class="ev">Himadri and Dalmia Bharat Refractories buy Birla Tyres under IBC (₹347 Cr); PCBL completes the Aquapharm acquisition (borrowings jump to ₹4,983 Cr).</div></li>
+  <li><div class="yr">CY23–CY24</div><div class="ev">Rain loses ₹938 Cr (attributable) in CY23 and ₹564 Cr in CY24 on impairments, European energy and weak calcined coke.</div></li>
+  <li><div class="yr">FY25–FY26</div><div class="ev">Spread compression: Russian and Chinese surplus, softer crude, US tariffs at 50% from Aug 2025. PCBL PAT halves; Birla's EBITDA/t falls to ₹13,273. CRISIL (9 Jan 2026) and CARE (7 Jul 2026) put PCBL on Negative outlook.</div></li>
+  <li class="major"><div class="yr">28 Feb 2026</div><div class="ev">West Asia war begins; Brent $117 in April, $114 in September, ~$125 in mid-October.</div></li>
+  <li><div class="yr">Apr – Aug 2026</div><div class="ev">Himadri commissions India's first anode-material line (200 MTPA, April); PCBL records ₹22,900/t (Q1 FY27); Rain posts its best quarter in four years (Q2 CY26, reported 6 Aug).</div></li>
+  <li><div class="yr">Sep – Oct 2026</div><div class="ev">Himadri board approves demerger of DBRL's tyre business into Himadri (21 Sep); Nanovace Advanced Materials incorporated (9 Oct); Himadri Q2 FY27 results (17 Oct).</div></li>
+</ul>
+
+<p>The profit history shows how differently the three rode those cycles. PCBL's profit after tax was a steady ₹426–491 crore from FY22 to FY24, then fell to ₹435 crore (FY25) and ₹198 crore (FY26) as interest on the Aquapharm debt met a falling spread. Himadri went the other way: from ₹39 crore in FY22, when its pitch and carbon black margins collapsed, to ₹755 crore in FY26, a nineteen-fold rise driven by mix, integration and a net-cash balance sheet. Rain swung from a record ₹1,577 crore (CY22, before minorities) to losses of ₹796 crore and ₹450 crore in CY23 and CY24, then a small profit in CY25.</p>
+
+<div class="chart">
+  <div class="c-title">Five years of profit: three different shapes</div>
+  <div class="c-sub">PAT, ₹ Cr, screener consolidated (Rain before non-controlling interest; calendar years for Rain: FY22 = CY21 and so on)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">PCBL FY22</div><div class="track"><span class="fill brand" style="width:26.6%"></span></div><div class="bval">426</div></div>
+    <div class="bar-row"><div class="blab">PCBL FY24</div><div class="track"><span class="fill brand" style="width:30.7%"></span></div><div class="bval">491</div></div>
+    <div class="bar-row"><div class="blab">PCBL FY26</div><div class="track"><span class="fill brand" style="width:12.4%"></span></div><div class="bval">198</div></div>
+    <div class="bar-row"><div class="blab">Himadri FY22</div><div class="track"><span class="fill gold" style="width:2.4%"></span></div><div class="bval">39</div></div>
+    <div class="bar-row"><div class="blab">Himadri FY24</div><div class="track"><span class="fill gold" style="width:25.7%"></span></div><div class="bval">411</div></div>
+    <div class="bar-row"><div class="blab">Himadri FY26</div><div class="track"><span class="fill gold" style="width:47.2%"></span></div><div class="bval">755</div></div>
+    <div class="bar-row"><div class="blab">Rain CY22</div><div class="track"><span class="fill wtg" style="width:98.6%"></span></div><div class="bval">1,577</div></div>
+    <div class="bar-row"><div class="blab">Rain CY23</div><div class="track"><span class="fill bad" style="width:49.8%"></span></div><div class="bval">−796</div></div>
+    <div class="bar-row"><div class="blab">Rain CY25</div><div class="track"><span class="fill wtg" style="width:8.5%"></span></div><div class="bval">136</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹1,600 Cr; red bars are losses (length shows size). Other years: PCBL 442 (FY23), 435 (FY25); Himadri 216, 555; Rain 694 (CY21), −450 (CY24).</span></div>
+</div>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Return on capital employed through the cycle, % (screener; Rain on calendar years CY18–CY25)</caption>
+    <thead><tr><th>Company</th><th class="num">FY19</th><th class="num">FY20</th><th class="num">FY21</th><th class="num">FY22</th><th class="num">FY23</th><th class="num">FY24</th><th class="num">FY25</th><th class="num">FY26</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">PCBL</td><td class="num">25</td><td class="num">16</td><td class="num">17</td><td class="num">18</td><td class="num">17</td><td class="num">14</td><td class="num">12</td><td class="num">8</td></tr>
+      <tr><td class="t-strong">Himadri</td><td class="num">25</td><td class="num">11</td><td class="num">4</td><td class="num">5</td><td class="num">13</td><td class="num">19</td><td class="num">22</td><td class="num">22</td></tr>
+      <tr><td class="t-strong">Rain</td><td class="num">12</td><td class="num">8</td><td class="num">10</td><td class="num">12</td><td class="num">17</td><td class="num">2</td><td class="num">4</td><td class="num">8</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>The ROCE table is the most compressed history of the industry. PCBL earned 25% in FY19, before Aquapharm, when its borrowings were only ₹793 crore; by FY26 it earned 8%, half because of the spread and half because of the acquisition's goodwill and interest. Himadri fell to 4–5% in FY21–FY22 and climbed to 22% (32% on the company's own basis, excluding investments and capital work in progress). Rain's returns have stayed in single digits in five of eight years.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Ten years ago PCBL was the high-return company in this group and Himadri the struggling one. Today it is the reverse. The difference was not carbon black: it was what each company did with its balance sheet. PCBL borrowed to buy a chemicals business just before its core spread fell; Himadri paid down debt and invested in the products it already understood.</p>
+</div>
+</section>
+
+<!--CONTINUE-->
+
+</main>
+</div>
+</div>
+</body>
+</html>
