@@ -111,3 +111,9 @@
 - Defence capital: quote ₹2.19 lakh Cr (Demand 21) or ₹2.31 lakh Cr (incl. MoD Civil) with the basis named.
 - Global multiples: HD HHI ~15× and HII ~16× TTM (Oct-2026). Retire "Korean yards at 25–40×".
 
+
+## From primer-audit.mjs (2026-10-22, pre-existing — not fixed)
+
+- **mazagon-dock.html** — FAIL: banned phrase(s) and "honest" > 1; no `main{min-width:0}` (phone overflow); refreshed 2026-06-30; 0 sub-sector report links.
+- **cochin-shipyard.html** — FAIL: banned phrase(s) and "honest" > 1; no `main{min-width:0}`; refreshed 2026-06-30; 0 report links.
+- **garden-reach-shipbuilders.html** — FAIL: banned phrase(s) and "honest" > 1; no `main{min-width:0}`; refreshed 2026-06-30; 0 report links.
