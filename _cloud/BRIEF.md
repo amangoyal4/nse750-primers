@@ -46,6 +46,7 @@ Prompt: "Read and follow `_cloud/ref/brief-writer.md` exactly (treat `C:\bse500\
 - Equation flows: operators use `<div class="arrow op">…</div>` (=, −, +, ×, ÷).
 - Maps: keep labels clear of dots and of other labels; quadrant labels at the plot corners.
 - Label every estimate, worked example or single-source figure ILLUSTRATIVE/INDICATIVE. Strip all [V]/[K]/[E] tags. No banned phrases (see brief-writer.md, plus "think of" in any form); never use the word "honest".
+- Keep every stacked-bar segment label SHORT (≤ ~20 characters, e.g. "Others 30%") — `.stack` clips overflowing text on phones; put the detail in the legend.
 - Long source URLs in the footer must not overflow phones (keep the skeleton's `footer.src` CSS; add `overflow-wrap:anywhere` to `footer.src li`).
 - Dates and status: say which quarter each figure is (FY26, Q1 FY27 Jun-26, Q2 FY27 Sep-26) and list upcoming result dates in "What to watch".
 - Writers write in chunks with `<!--CONTINUE-->` (5–7 rounds), keep a progress note in their scratch folder, run the gate, and fix every FAIL.
