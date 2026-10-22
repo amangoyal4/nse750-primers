@@ -44,3 +44,47 @@ Logged only; primers are NOT edited on this branch. The owner applies fixes.
   - Market caps are 3–4 months stale: Patanjali −14%, AWL −6%, Gokul −17% vs primer figures.
   - The AWL and Gokul primers say "India grows ~40% / imports ~57%". The official figure is **import dependence 56.25% (2023-24; PIB)**.
 
+
+## From Edible Oils deep-research pass (2026-10-22, edible-oil-industry.md Part 4 §4.5.2)
+
+- **awl-agri-business.html — edible-oil volume and per-tonne margin (§02/§05):**
+  - Add **FY26 edible-oil volume 4.26–4.3 MMT (+6%; FY25 4.0)** and segment revenue **₹59,788 Cr** (AR FY26).
+  - Add FY26 edible-oil EBITDA/t of **~₹4,420** [E: ₹1,884 Cr ÷ 4.26 MMT] against management's **₹4,000–4,500/t** guidance (Q1 FY27 call, 30-Jul-2026). Q1 FY27's ₹5,030/t is ~14% above the FY26 average.
+- **awl-agri-business.html — market share (§03):** add **branded edible-oil share 18.1% (Nielsen ROCP MAT Mar-2026), ~1.5× the next competitor**; Fortune revenue ₹30,000+ Cr; category ranks (#1 soybean, mustard, rice bran) (AR FY26).
+- **awl-agri-business.html — capacity utilisation and capex (§08):** refining utilisation **~60–61%** (CEO, Q1 FY27 call); ~50% of Foods volume still tolled; steady-state capex **~₹700 Cr/yr**; refining capacity 6.0+ mt ≈ 25% of India's (AR).
+- **awl-agri-business.html — guidance block (§10):** EO volume +5–6% (rest of FY27), ₹4,000–4,500/t; IE +8–9%, ₹3,000–3,500/t; Foods 18–20% revenue growth (CEO) / mid-teens (CFO) at a 3–4% margin.
+- **awl-agri-business.html — Adani exit history (§01/§11):** correct the sequence:
+  - **18-Jul-2025: 10.42% sold by open-market block** (not to Wilmar);
+  - 19-Nov-2025: 13% off-market to Lence at ₹275 (Wilmar subsidiary from that date);
+  - 21-Nov-2025: final 7% bulk deal;
+  - promoter reclassification no-objection 6-Mar-2026 (AR FY26).
+- **awl-agri-business.html — related parties (§09 risks):** FY26 raw-material purchases from **Wilmar Trading ~₹14,537 Cr** (₹10,138 Cr + ₹4,399 Cr; FY25 ₹8,694 Cr), ≈ one-third of AWL's imports (CEO). Material-RPT approvals for Wilmar Trading (FY27) and ADM International (FY26). New **0.5% royalty on Madhur** to Shree Renuka.
+- **awl-agri-business.html — sourcing facts:** >70% of AWL's oil raw material is imported; mix palm ~30% / soy 30–35% / sunflower ~20% / local 15%; 30–35 days of stock; 18–19% of procurement direct from farmers; no oil-palm plantation (Q1 FY27 call).
+- **patanjali-foods.html — capital advance to promoter (§09/§11, NEW):** at 31-Mar-2026 the company had paid a **₹600 Cr capital advance to Patanjali Ayurved** to buy a biscuit manufacturing plant. The deal needs YEIDA approval within 6 months, failing which the advance is refundable with interest. A further ₹150 Cr capital commitment to PAL (AR FY26 notes 5/36). The primer must mention it; it is the fourth promoter-to-listed-company asset transfer.
+- **patanjali-foods.html — related-party flows (§09):** FY26 royalty to PAL **₹123.4 Cr** (₹66.9 Cr); purchases from group entities ~₹1,257 Cr; freight via Patanjali Parivahan ₹366 Cr; security/manufacturing charges (Parakram) ₹236 Cr — **~₹2,000 Cr/yr in total** (AR note 36).
+- **patanjali-foods.html — Ashav Advisory (§11 risks, NEW):** arbitration award of 8-Oct-2024 directs the promoter entities to provide, or cause the company to provide, **1,86,70,213 pre-bonus shares (~5.15% of equity post-bonus)** to Ashav Advisory LLP. The company has challenged it in the Delhi HC. The HC ordered dividend and bonus on the award shares deposited with the court (Dec-2025), and the SC upheld that. Management called it "sub judice" on the Q1 FY27 call.
+- **patanjali-foods.html — FY26 earnings quality (§06):**
+  - Tax line = current ₹453.8 Cr, deferred −₹126.6 Cr, **earlier-years credit −₹788.2 Cr**; income-tax refund ₹329.6 Cr received (Feb-2026).
+  - Exceptional ₹199 Cr (impairment ₹168.8 Cr + labour codes ₹30.2 Cr).
+  - Normalised PAT ₹1,013–1,162 Cr at 25.17% tax.
+- **patanjali-foods.html — segment profit (§05):** standalone segment PBIT FY26 — **FMCG ₹1,145 Cr vs edible oils ₹605 Cr (FMCG = 66% of segment PBIT)**.
+- **patanjali-foods.html — guidance wording:** EO volume **+3–5%**; EO EBITDA margin "construct" 2–4% moving to 5%+; FMCG ~₹12,500 Cr FY27; ~₹2,500 Cr EBITDA annualised within 18 months (Q1 FY27 call, 17-Aug-2026).
+- **patanjali-foods.html — capacity:** if the primer quotes a refining capacity, date it: **~11,000 TPD across 22 units (16 operational), Jun-2021 (FPO-era disclosure)**. The FY26 AR gives no TPD.
+- **gokul-agro-resources.html — no earnings calls (§10):** Gokul holds no analyst calls (only PPTs on BSE/screener). The primer should not cite "management commentary on the call".
+- **gokul-agro-resources.html — leverage (§06):** company-reported **net debt ₹297 Cr** (31-Mar-2026), D/E 0.27× consolidated (0.39× standalone) (AR FY26 MD&A). Do not use "net cash".
+- **gokul-agro-resources.html — capacity and utilisation (§03):** **2 Mn MTPA refining (6,250 TPD), 1 Mn MTPA seed crushing, 2.5 lakh MTPA specialty + biodiesel; average utilisation ~83%** (AR FY26). Storage: liquid 2.1 lakh t, silos 37,000 t, terminal 70,000 t.
+- **gokul-agro-resources.html — related parties and sourcing (§09):**
+  - 22.8% of standalone purchases are from related parties (its Singapore procurement subsidiaries).
+  - **Kiara International Pte (wholly owned by promoter-family Jashodaben Commodities LLP)** is a disclosed related party.
+  - 54% of purchases come via trading houses (top-10 = 82%) (AR FY26 BRSR and note 34).
+- **gokul-agro-resources.html — EBITDA basis:** AR MD&A EBITDA **₹716 Cr (2.97%)** incl. other income vs screener OP ₹676 Cr; PAT ₹370 Cr (AR) vs ₹369 Cr (screener). State the basis.
+- **All three primers — industry facts to update:**
+  - OY2024-25 imports **16.36 mt veg / 16.01 mt edible**, bill **₹1.61 lakh Cr ($18.3 bn)** (SEA EC-170).
+  - Nov-25 to Sep-26 edible imports 15.16 mt (+3%); refined share 5%; **Nepal 682 kt** (SEA EC-162).
+  - Duty notifications **31/2025-Customs** and **31/2026-Customs**; effective duty from 24-Sep-2026: crude palm/soy 11%, crude sunflower 5.5%, refined palm/soy 30.25%, refined sunflower 24.75% (SEA).
+  - MSP mustard ₹6,613 (RMS 2027-28), soybean ₹5,708 (KMS 2026-27).
+  - Indonesia B50 live from 1-Jul-2026.
+  - Malaysian stocks 3.51 mt (Sep-2026; not a confirmed record).
+
+---
+
