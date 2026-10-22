@@ -54,3 +54,10 @@
 - **cesc.html — share-price context:** the 1-year −28% is mostly a −35% fall from the 4-May-2026 peak (₹198.7), shared with Tata (−23%) and Torrent (−32%) — present it as a sector de-rating plus a CESC-specific leg in August.
 
 ---
+
+## From the orchestrator's primer-audit run (2026-10-22, primer-audit.mjs)
+
+- **tata-power.html — banned phrase:** line ~287 opens "Think of Tata Power as an …" — the house rules ban "think of" in any form; rephrase. Also lacks `main{min-width:0}` (phone overflow risk).
+- **torrent-power.html — banned phrase:** line ~526 opens "Think of Torrent building a …" — rephrase. Also lacks `main{min-width:0}`.
+- **cesc.html — layout:** passes hard checks, but lacks `main{min-width:0}` (phone overflow risk).
+- All three primers: "Refreshed 2026-06-30", 0 links to sub-sector reports — add a link to `../subsectors/integrated-power.html` once it is published.
