@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Castings &amp; Forgings — Sub-sector Report</title>
+<meta name="description" content="A complete guide to India's listed castings and forgings companies: AIA Engineering, PTC Industries, CIE Automotive India and Balu Forge. How each makes money, the KPIs that matter, a peer table, tariffs, and what to watch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#56682C;          /* foundry olive */
+    --brand-bright:#7E9A3A;   /* lighter olive accent */
+    --gold:#C27C1E;           /* molten-metal amber */
+    --wtg:#5E7480;            /* steel grey-blue */
+    --epc:#9AAA5A;            /* pale olive */
+    --om:#8A5A2B;            /* bronze */
+    --spec:#7E9A3A;          /* olive accent */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#56682C,#7E9A3A);}
+  .fill.gold{background:linear-gradient(90deg,#C27C1E,#DE9D45);}
+  .fill.wtg{background:linear-gradient(90deg,#5E7480,#7D929D);}
+  .fill.om{background:linear-gradient(90deg,#8A5A2B,#A97A48);}
+  .fill.spec{background:linear-gradient(90deg,#7E9A3A,#9DB65A);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Automobile &amp; Ancillaries · Castings &amp; Forgings</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> From melt to money</a></li>
+    <li><a href="#p2"><span class="n">02</span> India's foundry floor</a></li>
+    <li><a href="#p3"><span class="n">03</span> Four demand curves</a></li>
+    <li><a href="#p4"><span class="n">04</span> Scrap, chrome, titanium, power</a></li>
+    <li><a href="#p5"><span class="n">05</span> A crowded floor, a narrow top</a></li>
+    <li><a href="#p6"><span class="n">06</span> Four archetypes, four rents</a></li>
+    <li><a href="#p7"><span class="n">07</span> The ball that eats itself</a></li>
+    <li><a href="#p8"><span class="n">08</span> Sponge to spar: titanium</a></li>
+    <li><a href="#p9"><span class="n">09</span> CIE's two halves</a></li>
+    <li><a href="#p10"><span class="n">10</span> Crankshafts to shell casings</a></li>
+    <li><a href="#p11"><span class="n">11</span> Tariff walls &amp; carbon borders</a></li>
+    <li><a href="#p12"><span class="n">12</span> Booms, busts and wars</a></li>
+    <li><a href="#p13"><span class="n">13</span> Reading a melt shop: KPIs</a></li>
+    <li><a href="#p14"><span class="n">14</span> The peer table</a></li>
+    <li><a href="#p15"><span class="n">15</span> Who is winning</a></li>
+    <li><a href="#p16"><span class="n">16</span> Four company profiles</a></li>
+    <li><a href="#p17"><span class="n">17</span> The global lens</a></li>
+    <li><a href="#p18"><span class="n">18</span> Technology &amp; disruption</a></li>
+    <li><a href="#p19"><span class="n">19</span> Bull vs bear</a></li>
+    <li><a href="#p20"><span class="n">20</span> What to watch</a></li>
+    <li><a href="#p21"><span class="n">21</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Automobile &amp; Ancillaries · Castings &amp; Forgings</span>
+    <span class="tag gold">4 listed companies</span>
+  </div>
+  <h1>Castings &amp; forgings: <em>four furnaces, four different fortunes</em></h1>
+  <p class="dek">A complete guide to the four castings and forgings companies in the NSE 750: a mining wear-parts exporter, a titanium and superalloy aspirant, a multi-technology auto supplier with a European half, and a crankshaft machinist turning into a shell-maker. They share molten metal and almost nothing else. This report explains how each turns a tonne of steel or titanium into profit, why the market values the smallest of them at more than the other three combined, and which numbers to watch as tariffs, wars and the vehicle cycle pull them in different directions.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹15,536 <small>Cr</small></div><div class="l">Combined revenue, latest FY (CIE = CY25)</div></div>
+    <div class="cell"><div class="v">₹92,762 <small>Cr</small></div><div class="l">Combined m-cap, 21 Oct 2026</div></div>
+    <div class="cell"><div class="v">42.9%</div><div class="l">PTC share of m-cap, on 3.9% of revenue</div></div>
+    <div class="cell"><div class="v">15.6–317×</div><div class="l">P/E range, CIE to PTC (TTM)</div></div>
+    <div class="cell"><div class="v">2.58 <small>lakh t</small></div><div class="l">AIA FY26 volume, +1.0% (peak FY24 2.97)</div></div>
+    <div class="cell"><div class="v">15.86 <small>mt</small></div><div class="l">India castings output 2024-25 (IIF, indicative)</div></div>
+  </div>
+  <p class="prov">Basis: screener.in consolidated figures for the latest fiscal year (FY26 = year to 31 Mar 2026 for AIA, PTC and Balu; CY2025 = year to 31 Dec 2025 for CIE), the Jun-2026 quarter (Q1 FY27; CIE's Q2 CY26) as the latest reported quarter, company annual reports, presentations and transcripts, and market data at the 21 Oct 2026 close. Industry data from the Institute of Indian Foundrymen, AIFI, UN Comtrade and the US Federal Register. Estimates and single-source figures are labelled.</p>
+</header>
+
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: one label, four unrelated businesses</h2></div>
+<p class="part-sub">The four companies melt or hot-shape metal. After that, their customers, cycles, margins and valuations have almost nothing in common, and an average across them hides more than it shows.</p>
+
+<p class="lead">"Castings &amp; Forgings" sounds like one industry. In the NSE 750 it is four. <strong>AIA Engineering</strong> casts high-chrome steel balls and liners that grind ore inside the world's copper, gold and iron-ore mills and cement plants, and the balls wear away in use, so mines buy them every month. <strong>PTC Industries</strong> is a Lucknow investment-casting foundry that has spent five years building India's first private aerospace-grade titanium melting, casting and forging complex, and is now qualifying parts for Safran and Airbus. <strong>CIE Automotive India</strong> is a multi-technology auto-component supplier, controlled by Spain's CIE Automotive, that forges, stamps, casts and machines parts for Indian vehicle makers and, through its European subsidiaries, for European car and truck makers. <strong>Balu Forge Industries</strong> machines crankshafts for export aftermarkets and has pivoted part of its new Belagavi forging capacity into artillery-shell bodies.</p>
+
+<p>The four share a process family. Each heats metal until it can be poured into a mould (casting) or squeezed into a die (forging), and then machines, heat-treats and inspects the result. That shared process is why the market data vendors file them together. But the demand curve each one rides is unrelated to the others: tonnes of ore milled in Chile and Ghana; aircraft build rates in Toulouse and engine output at Safran; Indian tractor and two-wheeler production and German car output; and defence budgets in Delhi and the NATO capitals. In a normal year, these four curves do not peak together, which is why any sector-wide average of growth or margin is close to meaningless.</p>
+
+<p>The clearest way to see how different they are is to put revenue next to market value. On the latest full year (FY26 for the three March-year companies, calendar 2025 for CIE) the four sold ₹15,536 crore of goods and earned ₹2,458 crore of reported profit after tax. The market values them at ₹92,762 crore. CIE produces 60.5% of the combined revenue but only 15.1% of the market value. PTC produces 3.9% of the revenue and 4.1% of the profit, yet commands 42.9% of the market value: on 21 October 2026 the smallest company by sales was worth more than AIA, and nearly three times CIE. Strip PTC out and the other three trade at about 22.5 times their combined profit; leave it in and the group's multiple jumps to 37.7 times. That single fact shapes this report: three of the companies are valued on what they earn today, and one is valued on what it might become.</p>
+
+<div class="chart">
+  <div class="c-title">Revenue share versus market-value share</div>
+  <div class="c-sub">Share of combined revenue (latest FY: FY26; CIE CY25) and of combined m-cap (21 Oct 2026 close). Screener consolidated; our arithmetic</div>
+  <div class="stack-row"><div class="blab">Revenue ₹15,536 Cr</div><div class="stack"><span style="width:60.5%;background:var(--wtg)">CIE 60.5</span><span style="width:28.5%;background:var(--brand)">AIA 28.5</span><span style="width:7.1%;background:var(--om)">Balu 7.1</span><span style="width:3.9%;background:var(--gold)">P</span></div></div>
+  <div class="stack-row"><div class="blab">PAT ₹2,458 Cr</div><div class="stack"><span style="width:51.6%;background:var(--brand)">AIA 51.6</span><span style="width:33.7%;background:var(--wtg)">CIE 33.7</span><span style="width:10.5%;background:var(--om)">Balu 10.5</span><span style="width:4.2%;background:var(--gold)">P</span></div></div>
+  <div class="stack-row"><div class="blab">M-cap ₹92,762 Cr</div><div class="stack"><span style="width:42.9%;background:var(--gold)">PTC 42.9</span><span style="width:36.1%;background:var(--brand)">AIA 36.1</span><span style="width:15.1%;background:var(--wtg)">CIE 15.1</span><span style="width:5.9%;background:var(--om)">B</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>AIA Engineering</span><span><i style="background:var(--gold)"></i>PTC Industries (P)</span><span><i style="background:var(--wtg)"></i>CIE Automotive India</span><span><i style="background:var(--om)"></i>Balu Forge (B)</span></div>
+</div>
+
+<p>Six forces define the group and organise the rest of this report. First, the <strong>height of the qualification wall</strong>: every company's margin maps onto how hard it is to become an approved supplier, from an aerospace titanium casting at the top to a jobbing auto forging near the bottom. Second, <strong>mining throughput and AIA's "conversion" thesis</strong>: the claim that mines will keep switching from forged steel balls to AIA's longer-lasting high-chrome balls, set against the fact that AIA's tonnage in FY26 (258,002 tonnes) was below FY22 and 13% below its FY24 peak. Third, <strong>the Western aerospace and defence supply-chain reshuffle</strong> after Russia's invasion of Ukraine, which opened a door for Indian titanium (PTC) and artillery-shell bodies (Balu). Fourth, <strong>the vehicle cycle</strong>, which in 2026 means Indian production growing in double digits while European output shrinks; CIE straddles both. Fifth, <strong>cash conversion</strong>: the companies' accounting margins look similar, but how much of that profit arrives as cash differs enormously. Sixth, <strong>tariffs, carbon borders and input costs</strong>, including the US Section 232 duty that since 6 April 2026 charges 50% on the full value of grinding balls and many other steel articles.</p>
+
+<div class="chart">
+  <div class="c-title">Four valuations, four different questions</div>
+  <div class="c-sub">P/E on trailing-twelve-month PAT to Jun-2026, screener, 21 Oct 2026 close. Bar length capped: PTC's bar is drawn at full scale = 320×</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">CIE Automotive India<small>auto Tier-1, India + Europe</small></div><div class="track"><span class="fill wtg" style="width:4.9%"></span></div><div class="bval">15.6×</div></div>
+    <div class="bar-row"><div class="blab">Balu Forge<small>crankshafts → shells</small></div><div class="track"><span class="fill om" style="width:6.4%"></span></div><div class="bval">20.4×</div></div>
+    <div class="bar-row"><div class="blab">AIA Engineering<small>mining wear-parts</small></div><div class="track"><span class="fill brand" style="width:8.3%"></span></div><div class="bval">26.4×</div></div>
+    <div class="bar-row"><div class="blab">PTC Industries<small>titanium &amp; superalloys</small></div><div class="track"><span class="fill gold" style="width:99%"></span></div><div class="bval">317×</div></div>
+  </div>
+  <div class="legend"><span>Group: 36.2× combined m-cap ÷ combined TTM PAT; ex-PTC about 22.5× on latest-FY PAT.</span></div>
+</div>
+
+<p>The de-rating since mid-2026 underlines how separately the market treats them. Between the dates our company primers were last refreshed (July and August 2026) and the 21 October close, AIA's market value fell about 25% to ₹33,472 crore, CIE's about 22% to ₹14,019 crore (it closed one rupee above its 52-week low), and Balu's about 29% to ₹5,471 crore. PTC's rose about 50% to ₹39,800 crore, close to its 52-week high, after it signed an agreement with Airbus in August, completed a ₹1,800 crore share sale to institutions on 13 October and announced a Safran LEAP titanium-casting order the next day. Three stocks were sold on worries about volume, margin and cash; the fourth was bought on qualification news.</p>
+
+<div class="mini-stats">
+  <div class="ms"><div class="msv">₹4,282 Cr</div><div class="msl">Combined revenue in the Jun-2026 quarter, +14.6% year on year (screener; CIE's Q2 CY26 with the others' Q1 FY27)</div></div>
+  <div class="ms gold"><div class="msv">19.4%</div><div class="msl">Combined operating margin in the Jun-2026 quarter, unchanged on a year earlier: AIA fell 3 points, the rest rose</div></div>
+  <div class="ms red"><div class="msv">₹32 Cr</div><div class="msl">Balu Forge's FY26 cash from operations, against ₹259 Cr of reported profit</div></div>
+</div>
+
+<p>Every figure in this report says which period it belongs to, because the four do not report on the same calendar. AIA, PTC and Balu close their books on 31 March, so their latest full year is FY26 (April 2025 to March 2026) and their latest quarter is Q1 FY27 (April to June 2026). CIE closes on 31 December, so its latest full year is calendar 2025 (CY25) and its latest reported quarter is Q2 CY26, which is the same April-to-June 2026 period. When this report compares quarters across the four, it says "the Jun-2026 quarter". None of the four had reported the September 2026 quarter when this report was written: CIE's Q3 CY26 results and call were scheduled for the evening of 22 October 2026, and the other three had not yet announced board dates, though last year's pattern points to early-to-mid November.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>These are four different bets wearing one sector label. AIA is a bet that mines keep grinding more ore and keep switching to its balls. PTC is a bet that India becomes a qualified supplier of titanium parts to the world's jet-engine and airframe makers. CIE is a bet on Indian vehicle production, with a European business that is shrinking in euros. Balu is a bet that a crankshaft machinist can become a reliable defence supplier and turn its accounting profit into cash. Judge each on its own question.</p>
+</div>
+
+<p>How to use this report: sections 01 to 06 explain the processes, the industry's size and structure, the demand drivers, the input costs and the four business models. Sections 07 to 10 are deep dives on each company's defining question. Section 11 covers tariffs and policy, 12 the cycle. Section 13 is the KPI masterclass: what each native measure means, how to calculate it and where the definition traps lie. Sections 14 to 17 compare the companies, profile each one and set them against global peers. The report closes with technology risks, the bull and bear cases, a watch-list with thresholds and dates, and a glossary.</p>
+</section>
+
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>From melt to money: how hot metal becomes a margin</h2></div>
+<p class="part-sub">Casting pours liquid metal into a shape; forging squeezes hot solid metal into one. The money is made not on the metal, which is passed through, but on qualification, yield and machining.</p>
+
+<p>Start with the two words. A <strong>casting</strong> is made by melting metal, usually in an electric induction furnace, and pouring it into a mould. The mould can be sand (cheap, for engine blocks and pump bodies), a permanent steel die (for aluminium parts made at high speed), or a ceramic shell built around a wax pattern that is melted out before the metal is poured, the "lost-wax" or investment-casting method used for turbine blades and other thin-walled, precise parts. Casting can make complicated shapes in one step, but the metal's grain structure is random, so a casting is generally weaker in fatigue than a forging of the same alloy.</p>
+
+<p>A <strong>forging</strong> is made by heating a solid steel bar (a billet) to around 1,150–1,250 °C and pressing or hammering it between dies. The metal is never liquid. Its grain is squeezed to follow the part's shape, which gives forgings the best fatigue strength for parts that are loaded and unloaded millions of times: crankshafts, axle beams, steering knuckles, connecting rods, gear blanks. Forging is capital-heavy (an 8,000-tonne press costs tens of crores) and wasteful of material (the "flash" squeezed out at the edges is scrap), so the forged blank is normally machined on CNC lathes and grinders to its final dimensions.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>The processes behind the four companies</caption>
+  <thead><tr><th>Process</th><th>What happens</th><th>Strength and shape trade-off</th><th>Typical products</th><th>Who uses it</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">Alloy / high-chrome casting</td><td>Steel scrap plus ferro-chrome (and some molybdenum or nickel) melted in induction furnaces, cast, then heat-treated</td><td>Extreme hardness and wear resistance; brittle if made badly</td><td>Grinding balls, mill liners, diaphragms, crusher wear parts</td><td>AIA</td></tr>
+    <tr><td class="t-strong">Investment (lost-wax) casting</td><td>Wax pattern dipped in ceramic, wax melted out, metal poured into the shell</td><td>Near-net shape, thin walls, fine detail; expensive</td><td>Turbine blades, impellers, aero-engine structural castings, valve parts</td><td>PTC (steel and superalloy for decades; titanium via Aerolloy)</td></tr>
+    <tr><td class="t-strong">Vacuum melting (VAR, EB, PAM)</td><td>Reactive or very clean alloys melted under vacuum or inert gas to make ingots</td><td>Needed for titanium, which reacts with air when molten</td><td>Titanium and superalloy ingots, billets</td><td>PTC / Aerolloy</td></tr>
+    <tr><td class="t-strong">Iron and aluminium casting</td><td>Grey or ductile iron in sand moulds; aluminium in steel dies</td><td>Complex shapes cheaply; aluminium light and fast at volume</td><td>Housings, brackets, turbocharger and transmission housings</td><td>CIE (India)</td></tr>
+    <tr><td class="t-strong">Closed-die hot forging</td><td>Billet heated and pressed or hammered between shaped dies</td><td>Best fatigue strength; capital-heavy</td><td>Crankshafts, axle beams, steering knuckles, gear blanks</td><td>CIE (India, Spain, Lithuania), Balu</td></tr>
+    <tr><td class="t-strong">Open-die forging</td><td>Large ingot squeezed between flat or simple dies</td><td>Very large parts</td><td>Aero-engine discs and shafts, heavy rings</td><td>PTC (4,500/5,100-tonne press, in production since Mar-2026)</td></tr>
+    <tr><td class="t-strong">Shell forging and machining</td><td>Billet pierced, drawn and machined into a hollow shell body</td><td>Pressure- and fragmentation-critical; tight tolerances</td><td>Empty 155 mm and 152 mm artillery shell bodies</td><td>Balu (automated line, 360,000 a year nameplate)</td></tr>
+    <tr><td class="t-strong">Stamping, gears, machining</td><td>Sheet pressed into parts; gears cut and ground; castings and forgings finished on CNC machines</td><td>Where much of the value is added</td><td>Chassis parts, gears, finished crankshafts</td><td>CIE, Balu, all four in some form</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>Every one of the four sells the same thing underneath: <strong>processed metal with a guarantee attached</strong>. The metal itself (steel scrap, ferro-chrome, special-bar-quality steel, titanium sponge, aluminium ingot) is bought at market prices and, in nearly every contract, passed through to the customer with a lag of one quarter or so. The company earns its margin on everything it adds: the yield it gets from each tonne melted, the speed and reliability of its lines, the machining that turns a rough blank into a finished part, and above all the right to supply at all, which is granted only after a customer has tested the part, audited the plant and signed off the process. In aerospace that sign-off can take two to five years; in mining a trial in a working mill takes three months to two years; in autos a new part is typically approved in six to eighteen months.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The common value chain: where the margin is made</div>
+  <div class="flow-row">
+    <div class="node wtg"><div class="ntag">Step 1 · Input</div><div class="nname">Metal &amp; alloys</div><div class="nwho">Scrap, ferro-chrome, SBQ steel bar, titanium sponge, aluminium. Market-priced; passed through with a lag.</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Step 2 · Melt or heat</div><div class="nname">Furnace &amp; press</div><div class="nwho">Induction, vacuum or electron-beam melting; billet heating. Power and gas are the big costs.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Step 3 · Shape</div><div class="nname">Cast or forge</div><div class="nwho">Mould, die or press. Yield and scrap rate decide the cost per good part.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Step 4 · Finish</div><div class="nname">Heat-treat &amp; machine</div><div class="nwho">CNC machining, grinding, inspection, NDT. Most of the value-add for Balu and CIE.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Step 5 · Qualify &amp; sell</div><div class="nname">Approved supplier</div><div class="nwho">Mine trial, OEM PPAP, aerospace first-article and NADCAP audits. The real moat.</div></div>
+  </div>
+  <div class="flow-note">The metal in Step 1 is largely a pass-through. Margins come from Steps 3–5, and the highest margins go to whoever has cleared the hardest Step 5.</div>
+</div>
+
+<p>The four companies' value chains differ in where they start and end. AIA buys scrap and ferro-chrome, melts and casts in Gujarat, heat-treats, and ships to stock-points run by its Vega subsidiaries in Chile, Peru, Australia, Africa and North America, from which balls are delivered to the mill and consumed continuously. It captures value by selling the mine a lower total cost of grinding (fewer kilograms of media per tonne of ore and better throughput) rather than by marking up the metal. PTC's chain is the longest: titanium sponge (bought, mostly imported) is melted with master alloy and scrap into ingots in vacuum furnaces, which are then cast or forged, machined (in its UK subsidiary Trac Precision or in Lucknow), inspected and certified before going to Safran, Airbus, Blue Origin or Indian defence integrators. CIE buys special-bar-quality steel from Indian and European mills, cuts, heats, forges, trims, heat-treats and machines it, and delivers to the assembly lines of Mahindra, Maruti, Tata, tractor makers and, in Europe, carmakers and truck makers. Balu historically bought or made forgings and machined them into finished crankshafts for export aftermarkets and engine makers; it is now integrating backward into heavy forging at Belagavi and forward into empty shell bodies supplied to ammunition integrators.</p>
+
+<div class="chart">
+  <div class="c-title">The qualification ladder: harder approval, higher margin</div>
+  <div class="c-sub">Operating EBITDA margin by business, latest period. Aerolloy and Trac: Q1 FY27 company data; Balu FY26; AIA FY26 screener; CIE India Q2 CY26 company; MSME foundry band is an INDICATIVE rating-agency norm (8–14%, midpoint shown)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Aerolloy (PTC)<small>aerospace titanium castings</small></div><div class="track"><span class="fill gold" style="width:90%"></span></div><div class="bval">45.0%</div></div>
+    <div class="bar-row"><div class="blab">AIA Engineering<small>engineered consumable</small></div><div class="track"><span class="fill brand" style="width:57%"></span></div><div class="bval">28.5%</div></div>
+    <div class="bar-row"><div class="blab">Balu Forge<small>machined crankshafts, shells</small></div><div class="track"><span class="fill om" style="width:54%"></span></div><div class="bval">27.0%</div></div>
+    <div class="bar-row"><div class="blab">CIE India<small>auto Tier-1</small></div><div class="track"><span class="fill wtg" style="width:33.4%"></span></div><div class="bval">16.7%</div></div>
+    <div class="bar-row"><div class="blab">Typical MSME foundry<small>indicative band</small></div><div class="track"><span class="fill ink" style="width:22%"></span></div><div class="bval">8–14%</div></div>
+    <div class="bar-row"><div class="blab">Trac Precision (PTC, UK)<small>job-shop machining</small></div><div class="track"><span class="fill bad" style="width:17%"></span></div><div class="bval">8.5%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 50%. Aerolloy's margin is on total income for one quarter; treat it as a run-rate, not a through-cycle figure.</span></div>
+</div>
+
+<p>The ladder in the chart is the first thing an expert notices. Margin follows the height of the approval wall, not the tonnage. Aerolloy, PTC's titanium-casting subsidiary, earned a 45% EBITDA margin in the Jun-2026 quarter because there are very few places in the world that can melt and cast flight-critical titanium to Safran's standard. AIA's 28–29% operating margin on what looks like a commodity steel ball comes from the fact that a mine will only switch suppliers after months of trial in its own mill, and AIA and its Belgian rival Magotteaux are the two established names in high-chrome media. Balu's 27% reflects its machining and aftermarket niche. CIE India's 16–18% is a good number for an auto Tier-1, where the carmaker's purchasing department sets the price each year. Trac Precision, the UK machining job shop PTC bought in December 2024, earned 8.5%, the margin of a business anyone with the right machines can enter. Below them all sits the typical Indian MSME foundry at around 8–14% EBITDA.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Nobody in this industry gets rich by selling metal. They get paid for being trusted to turn metal into a part that will not fail. The harder it is to win that trust, the fewer competitors there are, and the higher the margin. That is why a titanium casting for a jet engine earns three times the margin of a forged car part, even though both start as a lump of metal heated until it glows.</p>
+</div>
+
+<p>Two consequences follow. First, revenue growth is a poor guide to profit growth in this sub-sector, because metal prices move revenue up and down without changing the margin in rupees. When ferro-chrome or steel prices rise 10%, a pass-through supplier's revenue rises a few per cent and its margin percentage falls, even though it is no worse off. Analysts therefore prefer measures per tonne or per part. Second, the moat is mostly invisible in the accounts. A qualification is not an asset on the balance sheet, so the value of PTC's Safran and Airbus approvals, or of AIA's trial record at a Chilean copper mine, shows up only in future orders. That makes these businesses hard to value from published numbers alone, and explains why the market's estimates of them swing so widely.</p>
+</section>
+
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>India's foundry floor: the world's second-largest, and mostly small</h2></div>
+<p class="part-sub">India pours about 16 million tonnes of castings and forges about 3 million tonnes a year. The four listed members are a sliver of that tonnage and a much larger share of its high-specification value.</p>
+
+<p>India is the world's second-largest producer of both castings and forgings, behind China. The Institute of Indian Foundrymen (IIF) put castings output at <strong>15.86 million tonnes in 2024-25</strong>, up from 15.16 million tonnes in 2023-24, worth about US$22 billion (roughly ₹2.1 lakh crore at ₹94.9 to the dollar), from about 5,000 foundries of which roughly 90% are MSMEs. The figure is single-sourced (it comes from IIF's president at the 74th Indian Foundry Congress in February 2026, as reported by the trade press) and should be treated as indicative. An older and still widely quoted estimate of about 12 million tonnes dates from an earlier Foundry Congress and should not be used for 2024-25. China produces around 50 million tonnes a year, roughly three times India's output.</p>
+
+<div class="chart">
+  <div class="c-title">India's castings output</div>
+  <div class="c-sub">Million tonnes, fiscal years. INDICATIVE: single source (IIF via trade press, Feb-2026). China ~50 mt shown for scale (approximate)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">India 2023-24</div><div class="track"><span class="fill spec" style="width:30.3%"></span></div><div class="bval">15.16 mt</div></div>
+    <div class="bar-row"><div class="blab">India 2024-25</div><div class="track"><span class="fill brand" style="width:31.7%"></span></div><div class="bval">15.86 mt</div></div>
+    <div class="bar-row"><div class="blab">China (approx.)</div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">~50 mt</div></div>
+  </div>
+  <div class="legend"><span>India's output grew about 4.6% in 2024-25. IIF's long-stated ambition is 25–30 mt.</span></div>
+</div>
+
+<p>Forging is a smaller and more concentrated industry. The Association of Indian Forging Industry (AIFI) puts output at about <strong>2.9 million tonnes on 4.8 million tonnes of capacity</strong>, so roughly 60% utilisation, with about 30% exported and about US$3.8 billion invested. AIFI does not publish a recent turnover figure; at ₹2.0–2.6 lakh a tonne the industry would be worth roughly ₹60,000–75,000 crore a year, an INDICATIVE estimate. Automobiles take about 60–65% of forgings (commercial vehicles, cars, two-wheelers and tractors), with the rest going to industrial machinery, railways, oil and gas, defence and aerospace. Bharat Forge, which is not in this sub-sector's list, is the largest Indian forger by a wide margin; the other listed forgers include Ramkrishna Forgings, Happy Forgings, MM Forgings and Sona BLW, as well as CIE and Balu.</p>
+
+<p>The castings mix is dominated by grey iron (roughly two-thirds of tonnage), followed by ductile (SG) iron, steel and aluminium and other non-ferrous metals, each around a tenth. Foundries cluster by tradition: Rajkot and Ahmedabad in Gujarat, Kolhapur and Pune in Maharashtra, Coimbatore and Chennai in Tamil Nadu, Belagavi in Karnataka, Batala and Jalandhar in Punjab, Howrah in Bengal and Agra in Uttar Pradesh. Most are family-owned units that pour grey-iron castings for pumps, valves, tractors and local engineering firms at thin margins. Pollution rules have slowly squeezed them: foundries are in the "red" or "orange" categories of the pollution boards, cupola furnaces (which burn coke) have been pushed towards electric induction furnaces, and the National Green Tribunal has forced foundries in the Delhi region and around the Taj Mahal to switch to piped natural gas. That steady rise in the cost of being small is a slow consolidation force.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>India's foundry industry is huge in tonnes and tiny in companies. Thousands of small units make ordinary iron castings. The four listed members sell perhaps 0.4–0.5 million tonnes of metal products between them (an INDICATIVE estimate), about 2–3% of national tonnage, but they sit at the top of the ladder: high-alloy consumables, aerospace metals, Tier-1 auto parts and defence components. Their fortunes depend on their own niches, not on national foundry output.</p>
+</div>
+
+<h3>Exports: big in auto parts, shrinking in grinding balls</h3>
+
+<p>Trade data show where Indian castings and forgings go. UN Comtrade figures for India's exports in calendar 2025 put "parts and accessories of motor vehicles" (HS 8708) at about US$7.6 billion, transmission shafts, cranks, gears and similar parts (HS 8483) at about US$2.3 billion, "other articles of iron or steel", which includes many forged and stamped parts (HS 7326), at about US$1.4 billion, and "other cast articles of iron or steel" (HS 7325) at about US$1.2 billion. Two sub-headings matter for the members. Crankshafts and transmission shafts (HS 8483.10) ran at about US$490 million in 2025 on roughly 20,000 tonnes, an average of US$21,000–25,000 a tonne, which shows how much machining adds to a forged blank. Grinding balls (HS 7325.91), the product AIA is best known for, were US$183.5 million on 155,000 tonnes.</p>
+
+<div class="chart">
+  <div class="c-title">India's exports of the relevant product codes, 2025</div>
+  <div class="c-sub">US$ million, calendar 2025, India-reported exports to the world (UN Comtrade). Sub-headings 8483.10 and 7325.91 are subsets of their parent codes</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">8708 Motor-vehicle parts</div><div class="track"><span class="fill wtg" style="width:100%"></span></div><div class="bval">7,591</div></div>
+    <div class="bar-row"><div class="blab">8483 Shafts, cranks, gears</div><div class="track"><span class="fill spec" style="width:29.9%"></span></div><div class="bval">2,268</div></div>
+    <div class="bar-row"><div class="blab">7326 Other iron/steel articles</div><div class="track"><span class="fill om" style="width:18.5%"></span></div><div class="bval">1,407</div></div>
+    <div class="bar-row"><div class="blab">7325 Other cast articles</div><div class="track"><span class="fill brand" style="width:16.4%"></span></div><div class="bval">1,246</div></div>
+    <div class="bar-row"><div class="blab">8483.10 Crankshafts &amp; shafts</div><div class="track"><span class="fill gold" style="width:6.5%"></span></div><div class="bval">490</div></div>
+    <div class="bar-row"><div class="blab">7325.91 Grinding balls</div><div class="track"><span class="fill bad" style="width:2.4%"></span></div><div class="bval">184</div></div>
+  </div>
+</div>
+
+<p>The grinding-ball line is the more telling one, because it has been shrinking. India's grinding-ball exports peaked at US$276 million in 2022 and fell to US$184 million in 2025, a drop of about a third in value; in tonnes they fell from 202,000 in 2023 to 155,000 in 2025. The fall is not a clean proxy for AIA, which also exports liners and diaphragms under other codes and invoices much of its export trade through its UAE subsidiaries, but the direction matches what AIA's management told analysts in August 2026: Chinese forged-ball makers have taken large accounts in Chile, and local producers in Brazil and Canada are protected by duties. The 2024 destinations for Indian grinding balls were led by Australia (US$26.8 million), Ghana (US$26.3 million), the United States (US$19.8 million, about a tenth), Brazil, Canada and Tanzania.</p>
+
+<div class="chart">
+  <div class="c-title">India's grinding-ball exports have fallen by a third since 2022</div>
+  <div class="c-sub">HS 7325.91, US$ million (bars) and thousand tonnes (labels), calendar years, UN Comtrade (India as reporter). 2022 tonnage not reported</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">2021<small>181 kt</small></div><div class="track"><span class="fill brand" style="width:78%"></span></div><div class="bval">215</div></div>
+    <div class="bar-row"><div class="blab">2022<small>n.a.</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">276</div></div>
+    <div class="bar-row"><div class="blab">2023<small>202 kt</small></div><div class="track"><span class="fill brand" style="width:94.2%"></span></div><div class="bval">260</div></div>
+    <div class="bar-row"><div class="blab">2024<small>162 kt</small></div><div class="track"><span class="fill gold" style="width:73.3%"></span></div><div class="bval">202</div></div>
+    <div class="bar-row"><div class="blab">2025<small>155 kt</small></div><div class="track"><span class="fill bad" style="width:66.5%"></span></div><div class="bval">184</div></div>
+  </div>
+  <div class="legend"><span>Average unit value ~US$1,190–1,290 a tonne, well below AIA's own realisation of about US$1,780 a tonne in FY26, because AIA's mix includes higher-alloy media and castings.</span></div>
+</div>
+
+<h3>The four members' own growth</h3>
+
+<p>Added together on screener's consolidated figures, the four members' revenue rose from ₹10,797 crore in FY22 (CIE: CY21) to ₹15,536 crore in FY26 (CIE: CY25), a compound growth rate of about 9.5% a year. That number is a blend of very different paths. Balu grew at about 40% a year and PTC at about 36%, from small bases and, in PTC's case, with the help of an acquisition. CIE grew at about 8.6% and AIA at about 5.5%. Most of the group's revenue growth came in a single year, FY23, when AIA's realisations jumped on freight and alloy costs and CIE's Indian business recovered from Covid; FY25 actually fell, because AIA's revenue dropped 12% and CIE's 3%. Combined profit has grown faster than revenue, from ₹1,056 crore to ₹2,458 crore, because AIA's margin and treasury income rose and CIE stopped losing money in Germany.</p>
+
+<div class="chart">
+  <div class="c-title">Combined revenue of the four members</div>
+  <div class="c-sub">₹ crore, screener consolidated; FY = year to March (AIA, PTC, Balu), CIE on calendar year (CY21 sits with FY22). TTM = twelve months to Jun-2026</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22 / CY21</div><div class="track"><span class="fill spec" style="width:65.8%"></span></div><div class="bval">10,797</div></div>
+    <div class="bar-row"><div class="blab">FY23 / CY22</div><div class="track"><span class="fill spec" style="width:86.5%"></span></div><div class="bval">14,208</div></div>
+    <div class="bar-row"><div class="blab">FY24 / CY23</div><div class="track"><span class="fill spec" style="width:91.1%"></span></div><div class="bval">14,951</div></div>
+    <div class="bar-row"><div class="blab">FY25 / CY24</div><div class="track"><span class="fill spec" style="width:88.2%"></span></div><div class="bval">14,483</div></div>
+    <div class="bar-row"><div class="blab">FY26 / CY25</div><div class="track"><span class="fill brand" style="width:94.6%"></span></div><div class="bval">15,536</div></div>
+    <div class="bar-row"><div class="blab">TTM Jun-26</div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">16,418</div></div>
+  </div>
+  <div class="legend"><span>Four-year CAGR about 9.5%. By company: Balu ~40%, PTC ~36% (partly inorganic), CIE ~8.6%, AIA ~5.5%.</span></div>
+</div>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Revenue and PAT by member, ₹ crore (screener consolidated; CIE on calendar year)</caption>
+  <thead><tr><th>Year</th><th class="num">AIA</th><th class="num">PTC</th><th class="num">CIE</th><th class="num">Balu</th><th class="num">Total revenue</th><th class="num">Total PAT</th></tr></thead>
+  <tbody>
+    <tr><td>FY22 / CY21</td><td class="num">3,567</td><td class="num">179</td><td class="num">6,765</td><td class="num">286</td><td class="num">10,797</td><td class="num">1,056</td></tr>
+    <tr><td>FY23 / CY22</td><td class="num">4,909</td><td class="num">219</td><td class="num">8,753</td><td class="num">327</td><td class="num">14,208</td><td class="num">985</td></tr>
+    <tr><td>FY24 / CY23</td><td class="num">4,854</td><td class="num">257</td><td class="num">9,280</td><td class="num">560</td><td class="num">14,951</td><td class="num">2,397</td></tr>
+    <tr><td>FY25 / CY24</td><td class="num">4,287</td><td class="num">308</td><td class="num">8,964</td><td class="num">924</td><td class="num">14,483</td><td class="num">2,153</td></tr>
+    <tr><td>FY26 / CY25</td><td class="num">4,420</td><td class="num">603</td><td class="num">9,406</td><td class="num">1,107</td><td class="num">15,536</td><td class="num">2,458</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>The PAT line has two distortions worth knowing. CIE's reported CY22 figure was a loss of ₹136 crore because it booked the write-down on exiting its German forging business; on continuing operations it earned ₹673.5 crore that year. And CY23's ₹1,125 crore for CIE includes about ₹409 crore of other income. On continuing operations CIE's profit has been flat at about ₹800–825 crore since CY23. The group's profit growth is therefore mostly AIA's (₹620 crore to ₹1,269 crore) and Balu's (₹30 crore to ₹259 crore).</p>
+</section>
+
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>Four demand curves: ore milled, vehicles built, aircraft ordered, shells fired</h2></div>
+<p class="part-sub">Each member rides a different end-market. Knowing which curve drives which company is the first step to reading their results.</p>
+
+<p>The demand drivers split cleanly by company, which is why the group rarely moves together. AIA sells into mining (about 62% of its FY26 tonnage) and into cement, power and aggregates (about 38%). PTC sells into aerospace, defence, space and industrial valves and pumps. CIE sells only to vehicle makers, about two-thirds in India and one-third in Europe and Mexico. Balu sells to commercial-vehicle, agricultural, oil-and-gas and power-generation engine makers and their aftermarkets, and increasingly to defence and aerospace customers.</p>
+
+<div class="chart">
+  <div class="c-title">What each member sells into</div>
+  <div class="c-sub">Approximate end-market or entity mix, latest year. AIA: FY26 tonnes (company). PTC: FY26 revenue by entity (annual report; legacy = residual after eliminations). CIE: CY25 company sales by region. Balu: FY26 revenue by end-market, INDICATIVE parse of company pie charts</div>
+  <div class="stack-row"><div class="blab">AIA (tonnes)</div><div class="stack"><span style="width:61.9%;background:var(--brand)">Mining 61.9</span><span style="width:38.1%;background:var(--epc)">Cement, power, other 38.1</span></div></div>
+  <div class="stack-row"><div class="blab">PTC (revenue)</div><div class="stack"><span style="width:41%;background:var(--wtg)">Trac UK 41</span><span style="width:29%;background:var(--gold)">Aerolloy 29</span><span style="width:30%;background:var(--om)">Legacy PTC 30</span></div></div>
+  <div class="stack-row"><div class="blab">CIE (sales)</div><div class="stack"><span style="width:65%;background:var(--wtg)">India autos 65</span><span style="width:35%;background:var(--epc)">Europe + Mexico 35</span></div></div>
+  <div class="stack-row"><div class="blab">Balu (revenue)</div><div class="stack"><span style="width:36%;background:var(--om)">CV ~36</span><span style="width:20%;background:var(--epc)">Agri ~20</span><span style="width:13%;background:var(--gold)">Def/aero 13</span><span style="width:31%;background:var(--ink-faint)">Other ~31</span></div></div>
+</div>
+
+<h3>Mining: ore milled, not mine capex</h3>
+
+<p>Grinding media demand follows the tonnes of ore that pass through a mine's grinding mills, not the size of the mining industry's capital budget. A concentrator grinding copper, gold or iron ore consumes roughly 0.3–1.0 kilograms of media per tonne of ore, depending on how hard the rock is and the type of mill (an INDICATIVE industry range). Two long trends work in AIA's favour. Ore grades keep falling (average copper head grades have slid from around 1% to around 0.6% over two decades), so more rock has to be milled for every tonne of metal. And copper and gold prices were strong through 2025 and 2026, with gold at record highs, which keeps mines running at full throughput and willing to spend on optimisation. Against that, AIA's management told analysts in August 2026 that its mining trials in Chile, Peru and Ghana were "taking longer than anticipated", and its mining tonnage fell 3.8% in FY26. Section 07 explains why.</p>
+
+<p>The non-mining part of AIA's business (cement, coal-fired power and aggregates) is mature. High-chrome media are already standard in cement ball mills, and new cement plants increasingly use vertical roller mills, which need far less grinding media. Indian cement capacity additions of 40–50 million tonnes a year keep this business growing in line with Indian construction, which is one reason AIA's "others" tonnage rose 9.8% in FY26 even as mining fell. About 35.55% of AIA's FY26 consolidated sales were made in India, more than its "exporter" label suggests; readers interested in the cement leg can see our <a href="cement.html">cement report</a>.</p>
+
+<h3>Vehicles: India up, Europe down</h3>
+
+<p>CIE's demand is vehicle production. In the April–June 2026 quarter, the industry data cited in CIE's own results presentation showed Indian light-vehicle production up 16.2% year on year, two-wheelers up 22.9%, tractors up 14.6% and medium and heavy commercial vehicles up 6.3%. Indian demand was lifted by the September 2025 cut in GST rates on vehicles. Europe went the other way: light-vehicle production fell 2.4% and medium and heavy commercial vehicles 2.5%. German car output in 2025 was 4.15 million, still 11% below 2019, and the German industry association VDA expected a further 1% fall in 2026. For more on these end-markets see our reports on <a href="auto-components.html">auto components</a>, <a href="two-wheelers.html">two-wheelers</a> and <a href="commercial-vehicles.html">commercial vehicles</a>.</p>
+
+<div class="chart">
+  <div class="c-title">Vehicle production growth, April–June 2026</div>
+  <div class="c-sub">Year-on-year % change, industry data cited in CIE's Q2 CY26 presentation (IHS for light vehicles, SIAM for 2W and MHCV, TMA for tractors). CIE India company sales growth shown for comparison. Bars scaled to 25%</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">India two-wheelers</div><div class="track"><span class="fill spec" style="width:91.6%"></span></div><div class="bval">+22.9%</div></div>
+    <div class="bar-row"><div class="blab">India light vehicles</div><div class="track"><span class="fill spec" style="width:64.8%"></span></div><div class="bval">+16.2%</div></div>
+    <div class="bar-row"><div class="blab">India tractors</div><div class="track"><span class="fill spec" style="width:58.4%"></span></div><div class="bval">+14.6%</div></div>
+    <div class="bar-row"><div class="blab">CIE India sales</div><div class="track"><span class="fill gold" style="width:52%"></span></div><div class="bval">+13%</div></div>
+    <div class="bar-row"><div class="blab">India MHCV</div><div class="track"><span class="fill spec" style="width:25.2%"></span></div><div class="bval">+6.3%</div></div>
+    <div class="bar-row"><div class="blab">Europe light vehicles</div><div class="track"><span class="fill bad" style="width:9.6%"></span></div><div class="bval">−2.4%</div></div>
+    <div class="bar-row"><div class="blab">Europe MHCV</div><div class="track"><span class="fill bad" style="width:10%"></span></div><div class="bval">−2.5%</div></div>
+  </div>
+  <div class="legend"><span>Red bars are declines (length shows size). CIE grew more slowly than every Indian segment except heavy trucks this quarter.</span></div>
+</div>
+
+<p>The forecasts in the same presentation show the Indian boost fading: light vehicles +10.8% in the September 2026 quarter and −2.8% in the December quarter as the GST effect laps, two-wheelers slowing to +5–10%, tractors lower in the September quarter and negative in the December quarter after a below-normal monsoon. Europe was expected to stay slightly negative. Electric vehicles are a second, slower force: they delete crankshafts and connecting rods, but keep the chassis, axle, steering and gear forgings that make up most of CIE's book, and add demand for aluminium housings.</p>
+
+<h3>Aerospace: the bottleneck is castings and forgings</h3>
+
+<p>Commercial aircraft demand is not the problem. Airbus and Boeing together hold a backlog of well over 15,000 aircraft, more than ten years of production at current rates, and Airbus is working towards building 75 A320-family aircraft a month. The constraint is the supply chain, and in particular engine and structural castings and forgings: the CFM LEAP engine that powers most new narrow-bodies has been held back by shortages of exactly these parts. That bottleneck is why Safran and Airbus are qualifying new suppliers such as PTC's Aerolloy. The PTC annual report, citing vendor estimates, puts the aerospace titanium market at about US$3.2 billion in 2025, growing to about US$4.5 billion by 2030 (6.5% a year); this is an INDICATIVE vendor figure. Our <a href="aerospace-defence.html">aerospace &amp; defence report</a> covers the wider Indian supply chain.</p>
+
+<h3>Defence: budgets, indigenisation and the shell shortage</h3>
+
+<p>Two defence trends support PTC and Balu. In India, the government reserves about 75% of the capital procurement budget for domestic industry and has issued positive-indigenisation lists of several hundred items that must be bought from Indian suppliers. Titanium castings for missiles (PTC supplies a BrahMos sub-system and castings), a titanium cradle for the 105 mm gun on the Indian Light Tank (ordered by DRDO's ARDE lab) and artillery components for Gun Factory Kanpur all sit within that push. Abroad, Russia's invasion of Ukraine in 2022 exposed a severe shortage of 155 mm artillery shells in Europe and the United States; the EU set a target of 2 million shells a year. Balu's automated empty-shell line (nameplate 360,000 bodies a year), a five-year binding MoU with a NATO-affiliated buyer, a 30,000-unit order for 152 mm shells from an Indian energetics company and a 10,000-unit pilot order for 155 mm extended-range shells all ride this wave.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>If copper prices fall and mines slow down, AIA feels it. If Indian tractor sales slump after a bad monsoon, CIE feels it. If Airbus slows its build rate or Safran delays a qualification, PTC feels it. If a ceasefire cuts NATO's appetite for shells, Balu feels it. Very few events hit all four at once, which is the one useful thing about owning them together.</p>
+</div>
+
+<p>Two forces do hit all four, though less evenly. The first is the rupee, at about ₹94.9 to the dollar on 19 October 2026 and close to a record low of about ₹96.8. A weaker rupee raises the rupee value of AIA's and Balu's export sales and of PTC's dollar and pound revenues, while making imported titanium sponge and alloys dearer. AIA hedges very little (its forward cover in August 2026 was about US$21 million, against roughly US$300 million of annual sales outside India), so it booked a ₹170 crore foreign-exchange gain in FY26. The second is energy: the West Asia war that began on 28 February 2026 disrupted shipping through the Strait of Hormuz, pushed Brent crude to about US$118 a barrel before a ceasefire on 7 April, and raised freight, gas and LPG costs. CIE blamed it for an 80 basis-point fall in its Indian margin in the Jun-2026 quarter; AIA cited ocean freight of US$8,000–9,000 a container; Balu said the conflict disrupted its India–UAE operations in the March 2026 quarter.</p>
+</section>
+
+<section class="part" id="p4">
+<div class="part-head"><span class="pno">04</span><h2>Scrap, chrome, titanium, power: where ₹100 of revenue goes</h2></div>
+<p class="part-sub">Metal is the largest cost for every member except the aerospace caster, but it is largely passed through. Energy, freight and labour are the costs that actually squeeze margins.</p>
+
+<p>Each member buys a different basket of inputs, and that basket explains much of its margin behaviour. AIA's main charge is steel scrap, to which it adds high-carbon ferro-chrome (high-chrome grinding media contain roughly 12–28% chromium) and, for some grades, molybdenum and nickel; then it spends heavily on electricity to melt the charge in induction furnaces and on ocean freight to ship heavy balls across the world. CIE and Balu buy special-bar-quality (SBQ) alloy steel from Indian and European mills and spend on gas or electricity to heat billets, and on machining. PTC buys titanium sponge, master alloys and titanium scrap for its vacuum furnaces, plus nickel and cobalt for superalloys; its biggest cost is people, because aerospace casting and inspection is labour- and skill-intensive.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Key inputs, how they are priced, and how they reach the customer</caption>
+  <thead><tr><th>Input</th><th>Main users</th><th>Price driver</th><th>Pass-through</th><th>Status, October 2026</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">Steel scrap</td><td>AIA, MSME foundries</td><td>Global scrap markets, domestic steel cycle</td><td>Lagged, via price resets on repeat orders</td><td>"Fairly elevated" (AIA, Aug-2026)</td></tr>
+    <tr><td class="t-strong">High-carbon ferro-chrome</td><td>AIA</td><td>Chrome ore (South Africa dominates), smelter power costs, stainless-steel demand</td><td>Lagged</td><td>₹1.18–1.25 lakh/t Feb–Jun 2026 (indicative trade-press quotes); "on the higher side"</td></tr>
+    <tr><td class="t-strong">SBQ / alloy steel bar</td><td>CIE, Balu</td><td>Iron ore, coking coal, Indian mill pricing</td><td>Contractual, about one quarter's lag</td><td>"Very much stable" (CIE, Jul-2026)</td></tr>
+    <tr><td class="t-strong">Titanium sponge, master alloy, scrap</td><td>PTC</td><td>Sponge from Japan, Kazakhstan, Saudi Arabia, China; Russia sanctions; aerospace demand</td><td>Cost-plus and long-term contracts typical in aerospace</td><td>China now makes over 75% of the world's titanium metal (vendor estimate)</td></tr>
+    <tr><td class="t-strong">Nickel, cobalt, molybdenum</td><td>PTC (superalloys), AIA (some grades)</td><td>LME prices, Indonesian supply</td><td>Index-linked surcharges common in aerospace</td><td>—</td></tr>
+    <tr><td class="t-strong">Aluminium ingot</td><td>CIE (die castings)</td><td>LME plus regional premium</td><td>Pass-through</td><td>"Gone up a lot" (CIE, Jul-2026); passed on from Q3 CY26</td></tr>
+    <tr><td class="t-strong">Electricity</td><td>All (melting, induction heating)</td><td>State industrial tariffs, captive renewables</td><td>Not passed through quickly</td><td>AIA has captive wind and solar; new hybrid plant in Q1 FY27</td></tr>
+    <tr><td class="t-strong">Natural gas, LPG, furnace oil</td><td>Forging furnaces, heat treatment</td><td>LNG prices; West Asia war shock from Mar-2026</td><td>Partial</td><td>Hit CIE India's margin by 80 bp in the Jun-2026 quarter</td></tr>
+    <tr><td class="t-strong">Ocean freight</td><td>AIA, Balu</td><td>Red Sea and Hormuz disruption, container rates</td><td>Partly in price</td><td>US$8,000–9,000 a container, "elevated but dropping" (AIA)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>The pass-through mechanism is the most important thing to understand about input costs here. Nearly every contract in the sector links price to the cost of metal, either by formula (CIE's steel clauses reset prices each quarter against an index) or by habit (AIA re-prices repeat orders when scrap and ferro-chrome move). The lag matters. When metal prices rise, the supplier pays the new price immediately but bills the customer at the old price for one or two quarters, so its margin dips; when metal prices fall, the reverse happens and margins widen temporarily. Over a full cycle the effect washes out, but in any one quarter it can move margins by one or two percentage points, and it inflates and deflates revenue with no change in the underlying business.</p>
+
+<p>The costs that are <em>not</em> passed through quickly are the ones that cause lasting damage: electricity, gas, freight and wages. These bit in 2026. The West Asia war raised gas and LPG prices for forging furnaces and heat-treatment lines, pushed up consumables, and disrupted container shipping. CIE said its "countervailing measures" (price negotiations and efficiency projects) would show up over the next two quarters. AIA, which ships tens of thousands of tonnes of heavy steel balls by sea every quarter, is the most exposed to freight; it partly protects itself with captive renewable power, which cuts its exposure to state electricity tariffs.</p>
+
+<div class="chart">
+  <div class="c-title">Where ₹100 of revenue goes: five archetypes</div>
+  <div class="c-sub">ILLUSTRATIVE composites. AIA FY26 uses company-reported cost shares of revenue from operations (materials 38.4, employees 4.5, other incl. power and freight 28.7); the others are estimates from screener cost lines, company commentary and rating-agency norms. Aerolloy = Q1 FY27 margin</div>
+  <div class="stack-row"><div class="blab">AIA (high-chrome media)</div><div class="stack"><span style="width:38.4%;background:var(--wtg)">Metal 38</span><span style="width:4.5%;background:var(--epc)"></span><span style="width:28.7%;background:var(--ink-faint)">Power, freight, other 29</span><span style="width:28.4%;background:var(--brand)">EBITDA 28</span></div></div>
+  <div class="stack-row"><div class="blab">CIE India (auto Tier-1)</div><div class="stack"><span style="width:52%;background:var(--wtg)">Steel &amp; alloys 52</span><span style="width:9%;background:var(--epc)">Staff 9</span><span style="width:22%;background:var(--ink-faint)">Power, other 22</span><span style="width:17%;background:var(--brand)">EBITDA 17</span></div></div>
+  <div class="stack-row"><div class="blab">Balu (machined parts)</div><div class="stack"><span style="width:52%;background:var(--wtg)">Steel 52</span><span style="width:4%;background:var(--epc)"></span><span style="width:17%;background:var(--ink-faint)">Other 17</span><span style="width:27%;background:var(--brand)">EBITDA 27</span></div></div>
+  <div class="stack-row"><div class="blab">Aerolloy (aero titanium)</div><div class="stack"><span style="width:30%;background:var(--wtg)">Metal 30</span><span style="width:10%;background:var(--epc)">Staff 10</span><span style="width:15%;background:var(--ink-faint)">Other 15</span><span style="width:45%;background:var(--gold)">EBITDA 45</span></div></div>
+  <div class="stack-row"><div class="blab">Typical MSME foundry</div><div class="stack"><span style="width:58%;background:var(--wtg)">Metal 58</span><span style="width:7%;background:var(--epc)">Staff 7</span><span style="width:24%;background:var(--ink-faint)">Power, other 24</span><span style="width:11%;background:var(--bad)">EBITDA 11</span></div></div>
+  <div class="legend"><span><i style="background:var(--wtg)"></i>Metal and alloys</span><span><i style="background:var(--epc)"></i>Employees</span><span><i style="background:var(--ink-faint)"></i>Power, fuel, freight, consumables, tooling, other</span><span><i style="background:var(--brand)"></i>Operating EBITDA</span></div>
+</div>
+
+<p>Three readings stand out from the "where ₹100 goes" chart. AIA spends only about ₹38 of every ₹100 on metal, unusually little for a steel-ball maker, because its price reflects the grinding savings it delivers rather than the weight of steel; but it spends nearly ₹29 on power, freight and other costs, so a freight spike or a power-tariff rise bites directly. CIE India spends more than half its revenue on steel and alloys, which is why its margin percentage falls whenever steel prices rise, even when its rupee profit is unchanged. The typical MSME foundry spends close to 60% on metal and has little left after power and wages, which is why it cannot afford pollution upgrades or quality systems.</p>
+
+<div class="chart">
+  <div class="c-title">Indian high-carbon ferro-chrome price, 2026</div>
+  <div class="c-sub">₹ per tonne, 60% Cr grade, ex-Jajpur (Odisha). INDICATIVE: single source (BigMint, via trade-press search results)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">4 Feb 2026<small>highest since Sep-2023</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">1,24,600</div></div>
+    <div class="bar-row"><div class="blab">29 Apr 2026</div><div class="track"><span class="fill gold" style="width:94.7%"></span></div><div class="bval">1,18,000</div></div>
+    <div class="bar-row"><div class="blab">10 Jun 2026</div><div class="track"><span class="fill gold" style="width:98.1%"></span></div><div class="bval">1,22,200</div></div>
+  </div>
+  <div class="legend"><span>Bars scaled to the February peak. Low-carbon ferro-chrome traded near ₹2.43 lakh/t.</span></div>
+</div>
+
+<p>AIA's own disclosures show how the cost mix moves. Materials, including the change in inventory, fell from 40.53% of revenue from operations in FY25 to 38.36% in FY26, while employee costs were about 4.5% and "other expenses", which include freight, power and consumables, were about 28.7%. AIA sources about 88% of its inputs within India. PTC's mix looks completely different: net material cost was only about 17.6% of revenue in FY26, while employee costs rose to 25.0% (from 18.4% in FY25), partly because Trac's UK machinists are on the payroll and partly because PTC is hiring ahead of qualification programmes that have not yet turned into revenue.</p>
+
+<div class="chart">
+  <div class="c-title">PTC and AIA: very different cost structures</div>
+  <div class="c-sub">% of revenue from operations, FY26, company annual reports</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">AIA materials</div><div class="track"><span class="fill brand" style="width:76.7%"></span></div><div class="bval">38.4%</div></div>
+    <div class="bar-row"><div class="blab">AIA employees</div><div class="track"><span class="fill brand" style="width:9%"></span></div><div class="bval">4.5%</div></div>
+    <div class="bar-row"><div class="blab">PTC net materials</div><div class="track"><span class="fill gold" style="width:35.2%"></span></div><div class="bval">17.6%</div></div>
+    <div class="bar-row"><div class="blab">PTC employees</div><div class="track"><span class="fill gold" style="width:50%"></span></div><div class="bval">25.0%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 50%. PTC's employee share rose from 18.4% in FY25 as Trac (UK) was consolidated for a full year.</span></div>
+</div>
+
+<h3>Titanium: the input with geopolitics attached</h3>
+
+<p>Titanium deserves its own paragraph, because for PTC the source of the metal is part of the product. Aerospace-grade titanium starts as ilmenite or rutile sand, which is chlorinated into titanium tetrachloride and reduced with magnesium into porous "sponge" (the Kroll process). Sponge, master alloy and scrap are then melted together under vacuum into ingots. Only a handful of countries make aerospace-grade sponge: chiefly the United States, Japan, Russia, Kazakhstan and China, plus a small Indian plant at Chavara in Kerala. China's share of global titanium-metal production rose from about 40% in 2019 to more than 75% in 2025, according to vendor figures quoted in PTC's annual report, but Western aerospace qualification of Chinese titanium is limited by politics and export controls. Russia's VSMPO-AVISMA, historically the largest supplier to Western aerospace, remains the dominant producer of aerospace-grade mill products outside China; one weak, single-source estimate says it still supplies 25–30% of Western aerospace titanium. Canada and the UK have sanctioned VSMPO; the United States and the EU have not listed it directly. PTC has signed a sponge-supply memorandum with AMIC TOHO Titanium in Saudi Arabia and an MoU with the Odisha government for a proposed sponge plant, for which no cost or timeline has been disclosed.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Rising metal prices make these companies' revenue look bigger and their margins look thinner, without changing much else. The costs to worry about are the ones customers do not reimburse quickly: power, gas, shipping and wages. For PTC the issue is different: the question is not what titanium costs, but whose titanium a Western jet-engine maker will accept.</p>
+</div>
+</section>
+
+<section class="part" id="p5">
+<div class="part-head"><span class="pno">05</span><h2>A crowded floor, a narrow top: who competes with whom</h2></div>
+<p class="part-sub">Indian castings are fragmented; global grinding media is a duopoly at the top with Chinese forgers underneath; aerospace castings are an oligopoly of Western giants.</p>
+
+<p>Structure depends on the layer of the industry. At the bottom, Indian castings are very fragmented: about 5,000 units, roughly 90% of them MSMEs, and the largest listed foundries (AIA, Nelcast, Alicon, Kirloskar Ferrous, Electrosteel, Steelcast, PTC and others) together account for well under 15% of national tonnage, an INDICATIVE estimate. Forgings are more concentrated at the top: AIFI represents more than 200 companies, but Bharat Forge alone sells around ₹9,000–10,000 crore on a standalone basis, and the top eight listed forgers probably account for 40–50% of organised forging value (INDICATIVE). Neither national number tells you much about the four members, because each competes in a global niche with its own set of rivals.</p>
+
+<h3>Grinding media: a high-chrome duopoly fighting forged incumbents</h3>
+
+<p>Grinding media come in two families. <strong>Forged</strong> steel balls are the traditional product in mining: cheaper per tonne, tougher, but faster-wearing. <strong>High-chrome cast</strong> media, AIA's speciality, are harder and wear more slowly, so a mine that switches typically consumes fewer kilograms per tonne of ore. In high-chrome, AIA and Magotteaux are the two established global suppliers; report vendors put AIA at about 19% of the high-chrome market and Magotteaux at about 16%, but these shares are INDICATIVE and have not been verified from primary data. Magotteaux, based in Belgium, has been owned since 2012 by Chile's Sigdo Koppers, which paid about US$790 million for it. In forged media, the leaders are Moly-Cop (owned by the US private-equity firm American Industrial Partners since 2017), Chile's ME Elecmetal, South Africa's Scaw and Brazil's Gerdau, plus a fast-growing group of Chinese forgers. AIA's management said in August 2026 that about 20 Chinese forging companies now supply mines worldwide and that "the top two mines in Chile today use Chinese forged media". It added that there is no Chinese presence in high-chrome yet.</p>
+
+<div class="chart">
+  <div class="c-title">Global high-chrome grinding media: a duopoly at the top</div>
+  <div class="c-sub">Approximate share of the high-chrome segment. INDICATIVE: report-vendor estimates cited in our AIA primer; not verified from primary data. High-chrome is itself only about a fifth of mining grinding-media tonnage</div>
+  <div class="stack-row"><div class="blab">High-chrome market</div><div class="stack"><span style="width:19%;background:var(--brand)">AIA ~19</span><span style="width:16%;background:var(--wtg)">Magotteaux ~16</span><span style="width:65%;background:var(--ink-faint)">Regional and captive makers ~65</span></div></div>
+  <div class="stack-row"><div class="blab">Mining media by type</div><div class="stack"><span style="width:20%;background:var(--brand)">High-chrome ~20</span><span style="width:80%;background:var(--om)">Forged steel ~80 (Moly-Cop, ME Elecmetal, Chinese forgers)</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>AIA / high-chrome</span><span><i style="background:var(--wtg)"></i>Magotteaux (Sigdo Koppers)</span><span><i style="background:var(--om)"></i>Forged media</span></div>
+</div>
+
+<h3>Aerospace castings and titanium: an entrenched Western oligopoly</h3>
+
+<p>PTC is trying to break into one of the most concentrated supply bases in industry. The incumbents are Precision Castparts (owned by Berkshire Hathaway, which also owns the titanium producer TIMET), Howmet Aerospace, ATI, Carpenter Technology, Doncasters, Consolidated Precision Products, Safran's own foundries, France's Aubert &amp; Duval (sold by Eramet in 2024 to a consortium of Airbus, Safran and Tikehau), Germany's Otto Fuchs and Leistritz, and Russia's VSMPO-AVISMA. These firms have decades of qualifications, process data and customer trust. Their scale is daunting: Howmet alone reported revenue of US$8.3 billion in 2025. In India, the comparable names are state-owned MIDHANI (superalloys and titanium alloys for defence and space), HAL's foundry and forge, and listed private firms such as Azad Engineering, MTAR and Bharat Forge's aerospace arm. PTC's differentiation is the claim to integrate melting, casting, forging and machining on one site, which none of its Indian peers does.</p>
+
+<h3>Auto forgings: global Tier-1s and a Spanish parent</h3>
+
+<p>CIE competes with Bharat Forge, Ramkrishna Forgings, Happy Forgings, Sona BLW and others in India, and with Thyssenkrupp Forged Technologies, Hirschvogel and others in Europe. Its controlling shareholder is CIE Automotive S.A. of Spain, which owns 65.70% through Participaciones Internacionales Autometal Dos SL. Mahindra, which brought its forging and component businesses into the venture in 2013, exited CIE India in May 2023 and trimmed its stake in the Spanish parent in December 2025. Balu competes in crankshafts with Bharat Forge, Indian MSME machinists and Chinese suppliers in the aftermarket, and in shell bodies with Bharat Forge's defence arm, ordnance-factory successors and other private shell makers.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Unlisted, MNC and state players that shape each niche</caption>
+  <thead><tr><th>Player</th><th>Owner</th><th>Niche</th><th>Relevance</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">Magotteaux</td><td>Sigdo Koppers (Chile), since 2012</td><td>High-chrome media and wear parts</td><td>AIA's principal high-chrome rival</td></tr>
+    <tr><td class="t-strong">Moly-Cop</td><td>American Industrial Partners (PE), since 2017</td><td>Forged grinding media</td><td>The forged incumbent AIA tries to convert away from</td></tr>
+    <tr><td class="t-strong">Chinese forged-ball makers</td><td>Private</td><td>Forged media at low prices</td><td>Now at the top two Chilean mines (AIA management)</td></tr>
+    <tr><td class="t-strong">Precision Castparts / TIMET</td><td>Berkshire Hathaway</td><td>Aero castings, forgings, titanium</td><td>The benchmark PTC must displace</td></tr>
+    <tr><td class="t-strong">VSMPO-AVISMA</td><td>Russian state-linked</td><td>Integrated titanium</td><td>Its partial exit from Western chains is PTC's opening</td></tr>
+    <tr><td class="t-strong">CIE Automotive S.A.</td><td>Listed in Spain</td><td>Multi-technology auto components</td><td>Owns 65.70% of CIE India; runs a group cash pool</td></tr>
+    <tr><td class="t-strong">MIDHANI, HAL, KMML</td><td>Government of India / Kerala</td><td>Superalloys, aero forgings, titanium sponge</td><td>State capacity in PTC's niches</td></tr>
+    <tr><td class="t-strong">Private ammunition makers</td><td>Various Indian groups</td><td>Filled ammunition</td><td>Customers (and potential rivals) for Balu's shell bodies</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>Ownership tells its own story about who controls capital allocation. CIE has the most concentrated control (a 65.70% foreign parent). AIA is founder-led: the Shah family holds 58.50%, and founder Bhadresh Shah resumed the chair in April 2026. PTC's promoter, the Agarwal family, holds 56.46% after the October 2026 share sale, down from 62.95% in March 2024. Balu's promoters, the Chandock family, hold 53.99%. Domestic institutions are large holders of AIA (22.50%) and CIE (20.75%) but almost absent from Balu (0.92%). Foreign investors have been selling AIA and Balu and buying PTC.</p>
+
+<div class="chart">
+  <div class="c-title">Who owns the four</div>
+  <div class="c-sub">% shareholding, Sep-2026 (PTC: Oct-2026, after its share sale). Screener. Balu's "other" includes the Central Government's 3.81%</div>
+  <div class="stack-row"><div class="blab">AIA Engineering</div><div class="stack"><span style="width:58.5%;background:var(--brand)">Promoter 58.5</span><span style="width:16.45%;background:var(--wtg)">FII 16.5</span><span style="width:22.5%;background:var(--epc)">DII 22.5</span><span style="width:2.55%;background:var(--ink-faint)"></span></div></div>
+  <div class="stack-row"><div class="blab">PTC Industries</div><div class="stack"><span style="width:56.46%;background:var(--brand)">Promoter 56.5</span><span style="width:8.39%;background:var(--wtg)">FII</span><span style="width:10.07%;background:var(--epc)">DII 10</span><span style="width:25.08%;background:var(--ink-faint)">Public 25</span></div></div>
+  <div class="stack-row"><div class="blab">CIE Automotive India</div><div class="stack"><span style="width:65.7%;background:var(--brand)">Promoter 65.7</span><span style="width:4.68%;background:var(--wtg)"></span><span style="width:20.75%;background:var(--epc)">DII 20.8</span><span style="width:8.87%;background:var(--ink-faint)">9</span></div></div>
+  <div class="stack-row"><div class="blab">Balu Forge</div><div class="stack"><span style="width:53.99%;background:var(--brand)">Promoter 54.0</span><span style="width:5.13%;background:var(--wtg)"></span><span style="width:0.92%;background:var(--epc)"></span><span style="width:39.96%;background:var(--ink-faint)">Public &amp; other 40</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Promoter</span><span><i style="background:var(--wtg)"></i>Foreign institutions</span><span><i style="background:var(--epc)"></i>Domestic institutions</span><span><i style="background:var(--ink-faint)"></i>Public and others</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Each member is a small player in a big global game. AIA is one of two names in high-chrome balls but faces cheap Chinese forged balls in the wider market. PTC is a newcomer knocking on the door of a club dominated by American and European giants. CIE is a mid-sized supplier owned by a Spanish group. Balu is a niche machinist trying to win a place in defence supply chains. None has the luxury of a protected home market.</p>
+</div>
+
+<p>Imports matter less than exports for these four. India runs a large trade surplus in castings and forgings, and none of the members faces meaningful import competition at home in its core product (there is no Indian anti-dumping duty on grinding media or the relevant castings). The competitive threat is abroad: Chinese forged media in Latin America and Africa, protection for local producers in Brazil and Canada (AIA's annual report says it has defended anti-dumping cases there but is "losing our market share in those countries"), and established Western suppliers in aerospace. That outward orientation is also why trade policy, covered in section 11, matters more here than in most Indian industrial sub-sectors.</p>
+</section>
+
+<section class="part" id="p6">
+<div class="part-head"><span class="pno">06</span><h2>Four archetypes, four rents: how each model earns its return</h2></div>
+<p class="part-sub">An engineered consumable, a qualification platform, a processing fee on steel and a machining premium: different sources of profit with very different cash needs.</p>
+
+<p>The four members are best understood as four business-model archetypes. Each earns a different kind of economic rent, has a different capital and working-capital profile, and deserves a different valuation framework. Mixing them up is the commonest analytical error in this sub-sector.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>The four archetypes compared (screener consolidated, latest FY; P/E at 21 Oct 2026)</caption>
+  <thead><tr><th>Archetype</th><th>Member</th><th>Revenue model</th><th>Operating margin</th><th>Capital intensity</th><th>Working capital</th><th>Cyclicality</th><th>P/E (TTM)</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">A. Engineered consumable exporter</td><td>AIA</td><td>Tonnes × realisation; repeat orders; conversions won by trial</td><td>26–30%</td><td>Low incremental (capacity ahead of demand)</td><td>Heavy: inventory at overseas depots, CCC 320 days</td><td>Moderate (ore milled; cement)</td><td>26.4×</td></tr>
+    <tr><td class="t-strong">B. Aerospace and defence materials platform</td><td>PTC</td><td>Development → qualification → low-rate → serial supply over a programme's life</td><td>22–27% group; 45% Aerolloy</td><td>Very high, ahead of revenue</td><td>Very heavy: qualification WIP; CCC ~970 days</td><td>Low, but binary qualification risk</td><td>317×</td></tr>
+    <tr><td class="t-strong">C. Multi-technology auto Tier-1</td><td>CIE</td><td>Vehicles built × content per vehicle; steel pass-through</td><td>14–17%</td><td>Medium (capex ~5% of sales)</td><td>Light; negative at Dec-25, turned positive by Jun-26</td><td>High (vehicle production)</td><td>15.6×</td></tr>
+    <tr><td class="t-strong">D. Machining exporter pivoting to defence</td><td>Balu</td><td>Parts × price; aftermarket, OEM, defence</td><td>27–31%</td><td>Rising (Belagavi heavy forging)</td><td>Heavy: debtor days 140, CCC 182 days</td><td>Moderate; lumpy defence</td><td>20.4×</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p><strong>Archetype A, the engineered consumable.</strong> AIA sells something that is destroyed in use. A grinding ball shrinks as it tumbles in the mill until it is too small to work and passes out with the ore; liners and diaphragms wear and are replaced on a schedule. A mine running a mill at full throughput therefore reorders every month, which gives AIA an annuity-like revenue stream tied to tonnes of ore milled rather than to the mine's capital budget. AIA's rent comes from the total-cost-of-ownership argument: if its balls wear 25–40% more slowly than forged balls and improve throughput, the mine saves money even at a higher price per tonne. That rent is protected by the trial process, which ties up a mill for months and makes switching costly for the mine. The drawback is working capital: to guarantee supply, AIA holds large stocks at Vega depots near its customers.</p>
+
+<p><strong>Archetype B, the qualification platform.</strong> PTC is building capabilities (vacuum melting, large castings, open-die forging) that very few companies have, then spending years getting each part number qualified with each customer. Revenue arrives in stages: development orders (small), qualification batches, low-rate initial production, and finally serial supply for the life of an engine or aircraft programme, which can run for decades. Margins on qualified parts are high, because once a part is approved the customer cannot switch without re-qualifying another supplier. The cost is capital spent years before revenue, inventory tied up in parts going through qualification, and binary risk: a failed qualification can strand an investment.</p>
+
+<p><strong>Archetype C, the processing fee on steel.</strong> CIE earns a conversion margin on steel it buys and passes through. Its rent is modest because carmakers set prices annually and multi-source most parts, but it has two advantages: scale across six technologies (forging, stamping, aluminium and iron casting, gears, composites, magnets), which lets it offer a carmaker several parts from one supplier, and negative or low working capital, because carmakers pay in about a month while steel suppliers give longer credit. Operating leverage is high: a 10% rise in volume on a largely fixed cost base lifts EBITDA by more.</p>
+
+<p><strong>Archetype D, the machining premium.</strong> Balu buys or makes forgings and machines them into finished crankshafts and components, selling into export aftermarkets where it can earn more than an OEM-dedicated supplier. Its margin of about 27% reflects that niche. The same machining skill has been redeployed into shell bodies, which need tight tolerances and certification. The model's weakness is credit: aftermarket distributors and new export customers are given 140–180 days to pay, according to CRISIL, so profit arrives as receivables before it arrives as cash.</p>
+
+<div class="chart">
+  <div class="c-title">Cash conversion cycle: the hidden difference between the archetypes</div>
+  <div class="c-sub">Days, screener consolidated, FY26 (CIE: CY25, a December snapshot). Inventory days + debtor days − payable days. PTC bar capped at full scale (1,000 days)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">CIE (Dec-25)</div><div class="track"><span class="fill spec" style="width:3.3%"></span></div><div class="bval">−33</div></div>
+    <div class="bar-row"><div class="blab">Balu Forge</div><div class="track"><span class="fill om" style="width:18.2%"></span></div><div class="bval">182</div></div>
+    <div class="bar-row"><div class="blab">AIA Engineering</div><div class="track"><span class="fill brand" style="width:32%"></span></div><div class="bval">320</div></div>
+    <div class="bar-row"><div class="blab">PTC Industries</div><div class="track"><span class="fill gold" style="width:97%"></span></div><div class="bval">970</div></div>
+  </div>
+  <div class="legend"><span>CIE's negative figure reversed in H1 CY26: net working capital moved from −₹384 Cr to +₹291 Cr by June 2026 as receivables doubled.</span></div>
+</div>
+
+<p>The returns that result are quite different. On screener's FY26 numbers, Balu's return on capital employed was 23% (down from 31% in FY25 as Belagavi capex and new equity came onto the books), AIA's 21% (diluted by a cash and investment book of roughly ₹4,300 crore; excluding cash, AIA's operating business earns an INDICATIVE 35–40%), CIE's 15% (calendar 2025; its own return on net assets was 19.4% at June 2026), and PTC's 9%, held down by a capital base that is years ahead of its revenue.</p>
+
+<div class="chart">
+  <div class="c-title">Return on capital employed, latest FY</div>
+  <div class="c-sub">ROCE %, screener consolidated (FY26; CIE CY25). AIA's figure includes about ₹4,300 Cr of cash and investments; PTC's excludes the Oct-2026 share-sale cash</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Balu Forge</div><div class="track"><span class="fill om" style="width:76.7%"></span></div><div class="bval">23%</div></div>
+    <div class="bar-row"><div class="blab">AIA Engineering</div><div class="track"><span class="fill brand" style="width:70%"></span></div><div class="bval">21%</div></div>
+    <div class="bar-row"><div class="blab">CIE Automotive India</div><div class="track"><span class="fill wtg" style="width:50%"></span></div><div class="bval">15%</div></div>
+    <div class="bar-row"><div class="blab">PTC Industries</div><div class="track"><span class="fill gold" style="width:30%"></span></div><div class="bval">9%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 30%.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>AIA is paid for saving mines money. PTC is paid for being one of the few places that can make a flight-worthy titanium part. CIE is paid a fee for turning steel into car parts reliably at scale. Balu is paid for precise machining. The first and the last tie up a lot of cash in stock and unpaid bills; the second ties up even more in plants and parts still being tested; only the third has historically been funded by its customers and suppliers.</p>
+</div>
+
+<p>Valuation follows the archetype, which is why a single sector multiple is useless. A consumable with a duopoly and a cash pile (AIA) has historically traded at 25–40 times earnings. An auto Tier-1 with a foreign parent and European exposure (CIE) trades at mid-teens, below its own history, partly because of its slowing Indian growth and European decline. A defence-pivoting machinist with cash-conversion questions (Balu) has de-rated to about 20 times. A qualification platform with a few hundred crore of revenue (PTC) is valued on a guess about what its revenue will be in a decade, not on today's earnings. The deep dives that follow take each archetype in turn.</p>
+</section>
+
+<section class="part" id="p7">
+<div class="part-head"><span class="pno">07</span><h2>The ball that eats itself: AIA's consumable duopoly and the conversion thesis <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">AIA's profit has doubled since FY22 while its tonnage has gone nowhere. The bull case rests on mines switching to high-chrome balls; the evidence of the last two years is that the switch has stalled.</p>
+
+<p>AIA Engineering, founded in 1978 by Bhadresh Shah as Ahmedabad Induction Alloys and listed in 2005, is the second-largest maker of high-chrome grinding media and mill internals in the world. It makes balls, liners, diaphragms and discharge systems for ball mills and semi-autogenous (SAG) mills at its Gujarat plants, with installed capacity of 4,36,000 tonnes a year (after closing the Bangalore plant of its listed subsidiary Welcast Steels), and sells through Vega subsidiaries in the UAE, the US, Chile, Australia, South Africa, Indonesia, China, Ghana and elsewhere. In FY26 it sold 258,002 tonnes, booked ₹4,420 crore of revenue from operations and earned ₹1,269 crore of profit. It has almost no debt (₹10 crore at March 2026) and a treasury book that management describes as "₹4,500 crore to maybe ₹5,000 crore".</p>
+
+<p>The economics of the product explain the business. A grinding ball literally eats itself: it is consumed by abrasion and impact inside the mill until it is too small to be useful. A mine therefore buys media continuously, in proportion to the ore it grinds, much as a printer owner buys ink. The pitch for high-chrome media over traditional forged steel balls is total cost of ownership. High-chrome balls are harder and wear more slowly, so a mine consumes fewer kilograms per tonne of ore (an INDICATIVE 25–40% fewer); they also tend to hold their shape, which can improve grinding efficiency and metal recovery. The mine pays more per tonne of media and less per tonne of ore ground. That is why AIA can earn a 28–29% operating margin on a product that, to an outsider, is a steel ball.</p>
+
+<h3>The conversion thesis, and the number that undermines it</h3>
+
+<p>The bull case for AIA has always been conversion. AIA's own disclosures and its subsidiary Welcast's have described a mining grinding-media pool of roughly 2.5 million tonnes a year, of which only about a fifth uses high-chrome; the rest is forged. In August 2026 management framed it as a "2–2.5 million ton" total opportunity, narrowing to "1–1.5 million tons" in gold, copper and iron ore (media plus liners), with Latin America alone consuming more than 500,000 tonnes of grinding media, a market it said "can become a 300,000–400,000-ton market for us". With 436,000 tonnes of capacity and 258,000 tonnes of sales, AIA has room for roughly 178,000 more tonnes without building a new plant. On paper, that is many years of growth.</p>
+
+<p>The difficulty is the volume record. AIA's FY26 annual report gives a five-year sales-volume series that settles the question: <strong>260,469 tonnes in FY22, 291,342 in FY23, 297,345 in FY24 (the peak), 255,443 in FY25 (−14.1%) and 258,002 in FY26 (+1.0%)</strong>. FY26 tonnage was below FY22. Worse for the conversion story, the growth that did occur in FY26 came from cement, power and aggregates ("others" +9.8%, from 89,390 to 98,189 tonnes), while <strong>mining tonnes fell 3.8%</strong>, from 166,053 to 159,813. The mining share of volume fell from 65.0% to 61.9%. There was, on these numbers, no measurable conversion in FY26.</p>
+
+<div class="chart">
+  <div class="c-title">AIA's tonnage: below FY22, 13% below the FY24 peak</div>
+  <div class="c-sub">Sales volume, tonnes, consolidated, company annual report FY26. Mining/other split disclosed only from FY25</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill spec" style="width:87.6%"></span></div><div class="bval">260,469</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill spec" style="width:98%"></span></div><div class="bval">291,342</div></div>
+    <div class="bar-row"><div class="blab">FY24 (peak)</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">297,345</div></div>
+    <div class="bar-row"><div class="blab">FY25<small>mining 166,053</small></div><div class="track"><span class="fill bad" style="width:85.9%"></span></div><div class="bval">255,443</div></div>
+    <div class="bar-row"><div class="blab">FY26<small>mining 159,813</small></div><div class="track"><span class="fill gold" style="width:86.8%"></span></div><div class="bval">258,002</div></div>
+  </div>
+  <div class="legend"><span>Installed capacity 4,36,000 t a year: FY26 utilisation about 59%.</span></div>
+</div>
+
+<p>So where did the profit growth come from? From price, margin, treasury and currency. Realisation (screener revenue divided by tonnes) rose from about ₹137 a kilogram in FY22 to about ₹168 in FY23 as freight and alloy costs were passed through, and to about ₹171 in FY26. On the company's net-sales basis, realisation was ₹168.8/kg in FY26 and ₹178.4/kg in the Jun-2026 quarter, helped by the rupee's fall from about ₹85 to about ₹95 to the dollar. Operating margin rose from 20% to 28–29%. Other income, mostly treasury returns and foreign-exchange gains, rose to ₹474 crore in FY26 (of which ₹170 crore was a foreign-exchange gain, against ₹53 crore in FY25). The result: PAT compounded about 20% a year from FY22 to FY26 while tonnage compounded at about −0.2%.</p>
+
+<div class="chart">
+  <div class="c-title">Flat tonnes, rising price: AIA's realisation per kilogram</div>
+  <div class="c-sub">₹ per kg = screener revenue from operations ÷ tonnes sold (our arithmetic); Q1 FY27 on company net-sales basis. Management's "indicative" realisation, set about 18 months before Aug-2026, was ₹160–165/kg</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill spec" style="width:75.3%"></span></div><div class="bval">₹137</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill spec" style="width:92.3%"></span></div><div class="bval">₹168</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill spec" style="width:89.6%"></span></div><div class="bval">₹163</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill spec" style="width:92.3%"></span></div><div class="bval">₹168</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:94%"></span></div><div class="bval">₹171</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27</div><div class="track"><span class="fill gold" style="width:98%"></span></div><div class="bval">₹178</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹182/kg.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>AIA has made a lot more money over four years without selling more balls. It charged more per kilogram, kept more of each rupee as profit, earned more on its cash pile and gained from a weaker rupee. Those are real gains, but they are not the story investors were told, which was that mines would keep switching to AIA's balls and tonnage would climb. Tonnage is where it was in FY22.</p>
+</div>
+
+<h3>Why conversion has stalled</h3>
+
+<p>Management's August 2026 call offered four explanations, and the trade data add a fifth. First, <strong>trials are slow</strong>: AIA's mining trials in Chile and Latin America (a second mill at an existing customer), a Peruvian copper mine and a Ghanaian gold mine were "taking longer than anticipated because of certain technicalities", and a trial in a working mill can take from three months to two years. Second, <strong>Chinese forged media</strong> have moved into AIA's target accounts; management said the top two Chilean mines now use Chinese forged balls and about 20 Chinese forgers supply mines worldwide, which raises the price gap that AIA's TCO argument has to overcome. Third, <strong>protectionism</strong>: Brazil and Canada have trade actions that favour local makers, and the annual report concedes that AIA is losing share there. Fourth, <strong>timing and mix</strong>: mining volume fell about 5,400 tonnes from the March to the June 2026 quarter, which management attributed to "timing, product mix, order execution". The fifth is India's export record: grinding-ball exports fell about a third in value between 2022 and 2025.</p>
+
+<div class="chart">
+  <div class="c-title">Mining tonnes by quarter: no upward trend yet</div>
+  <div class="c-sub">AIA mining-segment sales volume, tonnes, company presentations. The Jun-2026 quarter includes roughly 3,000–3,500 t a quarter from a ~₹300 Cr Chilean high-chrome order won in Oct-2025</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q1 FY25 (Jun-24)</div><div class="track"><span class="fill spec" style="width:79.2%"></span></div><div class="bval">36,786</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY25</div><div class="track"><span class="fill spec" style="width:85.9%"></span></div><div class="bval">39,896</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY25</div><div class="track"><span class="fill spec" style="width:92.4%"></span></div><div class="bval">42,919</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY25</div><div class="track"><span class="fill spec" style="width:100%"></span></div><div class="bval">46,452</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY26 (Jun-25)</div><div class="track"><span class="fill brand" style="width:78.4%"></span></div><div class="bval">36,396</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY26</div><div class="track"><span class="fill brand" style="width:82.6%"></span></div><div class="bval">38,387</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY26</div><div class="track"><span class="fill brand" style="width:87%"></span></div><div class="bval">40,429</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY26</div><div class="track"><span class="fill brand" style="width:96%"></span></div><div class="bval">44,601</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27 (Jun-26)</div><div class="track"><span class="fill gold" style="width:84.4%"></span></div><div class="bval">39,228</div></div>
+  </div>
+  <div class="legend"><span>Each fiscal year shows the same seasonal shape (weak first quarter, strong fourth). Q1 FY27 was +7.8% on Q1 FY26.</span></div>
+</div>
+
+<p>The Jun-2026 quarter was better on its face. Total volume was 64,644 tonnes, up 7.5% on 60,156 tonnes a year earlier (secondary sources that compared it with the March quarter's 70,138 tonnes and reported an 8% fall were comparing the wrong quarters). Mining tonnes rose 7.8% to 39,228, partly because of the Chilean order. Revenue rose 12.4% to ₹1,168 crore on screener's basis. But operating profit was flat at ₹308 crore and the operating margin fell to about 26% from 29.5%, because the foreign-exchange gain dropped from about ₹65 crore in the March quarter to about ₹25 crore, the product mix was weaker (fewer large castings), trial costs were expensed and freight was high. PAT slipped 1.3% to ₹301 crore. Management declined to give tonnage guidance for FY27, asked investors to "wait one more quarter", and described the current pace as "a flat run rate of 60,000–65,000 tons a quarter". Asked whether FY27 could reach 280,000–290,000 tonnes, it would not say.</p>
+
+<h3>The conversion arithmetic</h3>
+
+<p>It helps to put rough numbers on what conversion would be worth, because the arithmetic shows both why the thesis is attractive and why progress has to be measured in tonnes, not adjectives. The flow below is ILLUSTRATIVE, using the pool size from AIA's disclosures and FY26 unit economics.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">ILLUSTRATIVE: what one percentage point of conversion is worth</div>
+  <div class="flow-row">
+    <div class="node wtg"><div class="ntag">Pool</div><div class="nname">~2.5 mt</div><div class="nwho">Mining grinding media a year (AIA/Welcast disclosure)</div></div>
+    <div class="arrow op">×</div>
+    <div class="node om"><div class="ntag">Switch</div><div class="nname">1 point</div><div class="nwho">= ~25,000 t of forged media displaced</div></div>
+    <div class="arrow op">×</div>
+    <div class="node epc"><div class="ntag">Wear factor</div><div class="nname">0.60–0.75</div><div class="nwho">High-chrome lasts longer: 15,000–19,000 t needed</div></div>
+    <div class="arrow op">×</div>
+    <div class="node spec"><div class="ntag">Price</div><div class="nname">₹171/kg</div><div class="nwho">FY26 realisation</div></div>
+    <div class="arrow op">=</div>
+    <div class="node wtg"><div class="ntag">Prize</div><div class="nname">₹260–330 Cr</div><div class="nwho">Revenue; at ~₹49/kg operating EBITDA, ₹75–95 Cr of EBITDA</div></div>
+  </div>
+  <div class="flow-note">If AIA captured every point of conversion itself, each point would add roughly 6–7% to FY26 volume. FY26 mining tonnes fell instead, so the observed conversion rate for the year was about zero.</div>
+</div>
+
+<p>Each percentage point of conversion of the mining pool from forged to high-chrome is worth, at FY26 economics, about ₹260–330 crore of revenue and ₹75–95 crore of operating EBITDA, if AIA wins it all (it would not; Magotteaux and regional makers would take some). That is roughly 6–7% of FY26 volume per point. The bull case of the last decade assumed something like one point a year. Management's own Latin American framing (a 300,000–400,000-tonne opportunity for AIA in that region alone) implies conversion far beyond that. The FY24–FY26 record shows that, in practice, conversion has been lumpy and has recently gone backwards. Investors should judge it by mining tonnes reported each quarter.</p>
+
+<h3>Cash, capex and working capital</h3>
+
+<p>Two further questions hang over AIA. The first is what it will do with its cash. Management said in August 2026 it would hold the ₹4,500–5,000 crore "for at least a few more quarters" and then consider "how we should distribute"; it has done one buyback (₹500 crore at ₹5,000 a share in 2024) and pays a modest dividend (₹16 a share for FY26, a payout of about 12%). FY27 capex is guided at "minimum close to ₹350–400 crore", of which ₹170–200 crore is for a dedicated plot and a new corporate house and ₹50–100 crore may be land for a future plant; capital commitments at March 2026 were only ₹16.5 crore, so most of this was not yet contracted. Little of it adds tonnage, because capacity already runs well ahead of demand; local plants planned in China and Ghana were "in slow mode" and are to be expedited in H2 FY27.</p>
+
+<p>The second is working capital. On screener's figures, debtor days rose from 70 to 97 in FY26 and inventory days from 214 to 270, taking the cash conversion cycle from 243 to 320 days. On the company's own basis receivable days were 84 at March 2026 and 90 at June 2026, against 74 a year earlier. Cash from operations halved to ₹592 crore in FY26 from ₹1,162 crore in FY25, equal to only 47% of operating profit, though free cash flow was still a healthy ₹491 crore. Contingent liabilities rose to ₹688.6 crore (standalone), of which ₹368.8 crore is income tax, largely transfer-pricing disputes; AIA won ₹289.4 crore of this at the tribunal and the tax department has appealed to the High Court.</p>
+
+<div class="chart">
+  <div class="c-title">AIA's working capital stretched in FY26</div>
+  <div class="c-sub">Screener consolidated ratios, days; and cash from operations, ₹ Cr. FY25 vs FY26</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Debtor days<small>FY25 → FY26</small></div><div class="track"><span class="fill gold" style="width:30.3%"></span></div><div class="bval">70 → 97</div></div>
+    <div class="bar-row"><div class="blab">Inventory days</div><div class="track"><span class="fill gold" style="width:84.4%"></span></div><div class="bval">214 → 270</div></div>
+    <div class="bar-row"><div class="blab">Cash conversion cycle</div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">243 → 320</div></div>
+    <div class="bar-row"><div class="blab">CFO ₹ Cr</div><div class="track"><span class="fill brand" style="width:51%"></span></div><div class="bval">1,162 → 592</div></div>
+  </div>
+  <div class="legend"><span>Day bars show FY26 on a 320-day scale; the CFO bar shows FY26 as a share of FY25.</span></div>
+</div>
+
+<p>A final calibration concerns margin guidance. AIA's management guides to an operating margin of <strong>20–22%</strong> ("our guidance continues at 20%… 20% to 22% is our operating margin"), and has delivered about 27–29% for three years. The gap is usually read as conservatism, and gross margins have been "consistently" about 60–61%. But it also says management does not regard the recent level as guaranteed: freight, ferro-chrome and the currency have all been favourable or passed through, and Chinese pricing pressure is real.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>AIA is a very good business with a famous growth story that has not shown up in its tonnage for four years. If mining trials convert into orders and quarterly mining tonnes start rising above about 45,000, the story revives quickly, because the plant capacity is already built. If not, AIA is a high-margin, cash-rich, slow-growing exporter whose profit depends partly on the rupee, and its valuation has already fallen from about 35 to about 26 times earnings in recognition of that.</p>
+</div>
+
+<p>AIA's own disclosures also correct two common misconceptions. It is not ">90% export": on a consolidated basis 35.55% of FY26 sales were made in India and 64.45% outside India (the standalone company exports 59.19%, mostly to its own Vega hubs in the UAE). And its company "EBITDA margin" of 39.46% for FY26 (₹1,744.3 crore) includes ₹474 crore of other income; the operating margin, before treasury and currency gains, was about 28.7%. Section 13 explains why the distinction matters. For the company's full history and segment detail, see the <a href="../primers/aia-engineering.html">AIA Engineering primer</a>.</p>
+</section>
+
+<section class="part" id="p8">
+<div class="part-head"><span class="pno">08</span><h2>Sponge to spar: India's titanium chain and the ₹39,800 crore question <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">PTC is building what India has never had: a private, integrated aerospace-grade titanium and superalloy chain. The market already values it as if the build will succeed. The accounts show how early it still is.</p>
+
+<p>PTC Industries was incorporated in Lucknow in 1963 as Precision Tools &amp; Castings and spent most of its life making investment and sand castings in steel and alloys for valves, pumps, cryogenic LNG equipment and marine use, often for export. In the last five years it has reinvented itself around a subsidiary, <strong>Aerolloy Technologies</strong>, built on 50 acres allotted in the Lucknow node of the Uttar Pradesh Defence Industrial Corridor. The goal is to do on one site what normally takes several companies in several countries: melt titanium and nickel superalloys under vacuum into ingots, cast and forge them into aerospace and defence parts, machine and inspect them, and certify them to Safran's, Airbus's or a defence laboratory's standard. In December 2024 it also bought <strong>Trac Precision Solutions</strong>, a UK machining business, for ₹181.2 crore.</p>
+
+<p>The reason this matters goes back to 2022. Russia's VSMPO-AVISMA had been one of the largest suppliers of titanium to Western aerospace. After the invasion of Ukraine, Boeing stopped buying from it, Airbus began phasing out direct Russian supply, and Canada and later the UK imposed sanctions. Western engine and airframe makers set out to qualify new sources of titanium and of castings and forgings, which were already the tightest bottleneck in an industry trying to raise build rates. India, with low costs, a growing defence-industrial policy and no political objection from Western buyers, was an obvious candidate, but it had, in PTC's own words, "no aerospace-grade titanium melting capacity of its own" until PTC built it.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">India's titanium chain as PTC is building it (status at 31 Mar 2026)</div>
+  <div class="flow-row">
+    <div class="node wtg"><div class="ntag">Sponge</div><div class="nname">Bought in</div><div class="nwho">Imported; AMIC TOHO (Saudi) supply MoU; Odisha sponge-plant MoU, no capex or date disclosed</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Melt</div><div class="nname">VAR · PAM · EB</div><div class="nwho">VAR ~1,500 tpa (since Dec-2024); PAM ~600 tpa ingot (Jan-2026); EB 5,000 tpa under installation</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Shape</div><div class="nname">Cast &amp; forge</div><div class="nwho">Investment castings (plan 300 t Ti + 300 t superalloy); 4,500/5,100 t open-die press (Mar-2026)</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Finish</div><div class="nname">Machine</div><div class="nwho">Lucknow and Trac Precision (UK); rolling mills under installation</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Qualify</div><div class="nname">OEM approval</div><div class="nwho">Safran, Airbus, Blue Origin, BrahMos, DRDO-ARDE, Gun Factory Kanpur, ISRO</div></div>
+  </div>
+  <div class="flow-note">VAR = vacuum arc remelting; PAM = plasma arc melting; EB = electron-beam cold-hearth refining, which recycles titanium scrap. Ingot capacity is in tonnes of ingot, not tonnes of finished parts, which are far smaller.</div>
+</div>
+
+<h3>Three businesses inside one P&amp;L</h3>
+
+<p>PTC reports one segment, but its annual report and presentations reveal three businesses with very different economics. In FY26, consolidated revenue from operations was ₹602.78 crore, up 95.7%. Of that, Trac contributed about <strong>₹247 crore (41%) and earned a profit of just ₹0.66 crore</strong>; Aerolloy's revenue rose 210% to <strong>₹175.3 crore</strong> with a PAT of ₹67.95 crore, a 38.8% net margin; and the standalone legacy business grew 20.2% to ₹285.7 crore, which includes sales to Aerolloy that are eliminated in consolidation. The FY26 doubling was therefore largely Trac's first full year. Our estimate of organic growth, excluding Trac, is about 45–55%: impressive, but not 96%.</p>
+
+<div class="chart">
+  <div class="c-title">What PTC's FY26 revenue was made of</div>
+  <div class="c-sub">₹ Cr and % of consolidated revenue from operations (₹602.8 Cr). Annual report FY26 (MD&amp;A, Form AOC-1). Legacy = consolidated minus Trac minus Aerolloy (our residual, after inter-company eliminations)</div>
+  <div class="stack-row"><div class="blab">FY26 revenue</div><div class="stack"><span style="width:41%;background:var(--wtg)">Trac UK 247</span><span style="width:29.1%;background:var(--gold)">Aerolloy 175</span><span style="width:29.9%;background:var(--om)">Legacy ~181</span></div></div>
+  <div class="stack-row"><div class="blab">FY26 PAT (entity)</div><div class="stack"><span style="width:0.6%;background:var(--wtg)"></span><span style="width:66.9%;background:var(--gold)">Aerolloy 68</span><span style="width:32.5%;background:var(--om)">Legacy, other ~33</span></div></div>
+  <div class="legend"><span><i style="background:var(--wtg)"></i>Trac Precision Solutions (UK), PAT ₹0.66 Cr</span><span><i style="background:var(--gold)"></i>Aerolloy Technologies</span><span><i style="background:var(--om)"></i>Legacy PTC castings and eliminations</span></div>
+</div>
+
+<p>The Jun-2026 quarter shows the mix effect clearly. Total income was ₹197.1 crore, up 83%; company EBITDA was ₹54.2 crore (27.5%, up from 18.0%); PAT was ₹29.2 crore, up 466%. Within that, Aerolloy had total income of ₹74.3 crore (up 466%) at a 45.0% EBITDA margin (₹33.4 crore) and ₹22.1 crore of PAT. Trac had ₹71.4 crore of income and only ₹6.1 crore of EBITDA (8.5%). The residual legacy business contributed roughly ₹51 crore of income and an implied ₹15 crore of EBITDA. In other words, Aerolloy produced 38% of PTC's income and 62% of its EBITDA, while Trac produced 36% of income and 11% of EBITDA.</p>
+
+<div class="chart">
+  <div class="c-title">Jun-2026 quarter: where PTC's EBITDA came from</div>
+  <div class="c-sub">₹ Cr, Q1 FY27, company presentation. Legacy is our residual (total minus Aerolloy minus Trac), before eliminations, so approximate</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Aerolloy income<small>EBITDA 33.4 (45.0%)</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">74.3</div></div>
+    <div class="bar-row"><div class="blab">Trac UK income<small>EBITDA 6.1 (8.5%)</small></div><div class="track"><span class="fill wtg" style="width:96.1%"></span></div><div class="bval">71.4</div></div>
+    <div class="bar-row"><div class="blab">Legacy income<small>EBITDA ~14.6 (~28%)</small></div><div class="track"><span class="fill om" style="width:69.2%"></span></div><div class="bval">~51.4</div></div>
+  </div>
+  <div class="legend"><span>Group: total income ₹197.1 Cr, EBITDA ₹54.2 Cr (27.5%), PAT ₹29.2 Cr. Every extra ₹100 Cr of Aerolloy income at 45% adds ~₹45 Cr of EBITDA; at Trac, ~₹8.5 Cr.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Inside PTC there is a small, very profitable aerospace titanium caster (Aerolloy), a large, barely profitable UK machine shop (Trac) and an old castings business. Almost all of the excitement, and most of the profit, is in the first. When reading PTC's results, look at Aerolloy's line first; the group total is mostly a mix of the three.</p>
+</div>
+
+<h3>The customer ladder</h3>
+
+<p>PTC's customer wins are the evidence for the thesis, and they have come quickly in 2026. Safran awarded PTC a contract for LEAP engine castings in November 2023, and on 14 October 2026 added a development order for LEAP titanium castings and a long-term production MoU. Airbus signed an agreement in August 2026 covering titanium castings for the A320neo, A330neo and A350, described as "development, qualification, industrialisation pathway and future supply". Blue Origin placed a development-and-supply order in January 2026 for large nickel-superalloy castings for its BE-4 engine. In defence, PTC has a BrahMos "strategic missile sub-system" order (development, integration and supply), the ARDE-DRDO titanium cradle for the 105 mm gun of the Indian Light Tank, a Gun Factory Kanpur development order for two artillery components, and earlier BrahMos titanium castings and M777 howitzer parts. ISRO's VSSC has ordered conversion of 40 tonnes of titanium sponge into Ti-6Al-4V ingot by double-VAR melting. Other customers include Honeywell, Dassault, BAE and IAI.</p>
+
+<ul class="timeline">
+  <li><div class="yr">1963</div><div class="ev">Precision Tools &amp; Castings incorporated in Lucknow; decades of steel and alloy investment castings for valves, pumps and marine.</div></li>
+  <li><div class="yr">Jan 2022</div><div class="ev">UPEIDA allots 50 acres in the Lucknow node of the UP Defence Industrial Corridor for the Aerolloy complex.</div></li>
+  <li class="major"><div class="yr">Nov 2023</div><div class="ev">Safran contract for LEAP engine castings: PTC's first major Western aero-engine qualification.</div></li>
+  <li><div class="yr">Sep 2024</div><div class="ev">₹700 Cr QIP (₹699.99 Cr) to fund the titanium ingot-to-castings project, outlay ~₹700 Cr to Mar-2027 (CARE).</div></li>
+  <li class="major"><div class="yr">Dec 2024</div><div class="ev">VAR mill enters production (India's first aerospace-grade titanium ingot "without foreign supervision"); Trac Precision (UK) acquisition completed on 19 Dec for ₹181.2 Cr.</div></li>
+  <li><div class="yr">Jan 2026</div><div class="ev">Plasma arc melting furnace (~600 tpa ingot) enters production; Blue Origin BE-4 superalloy castings order.</div></li>
+  <li><div class="yr">Mar 2026</div><div class="ev">4,500/5,100-tonne open-die forging press enters production; EB furnace and rolling mills still under installation.</div></li>
+  <li class="major"><div class="yr">Aug 2026</div><div class="ev">Airbus agreement for titanium castings (A320neo, A330neo, A350); Q1 FY27 Aerolloy income +466% at 45% EBITDA.</div></li>
+  <li class="major"><div class="yr">13–14 Oct 2026</div><div class="ev">₹1,800 Cr QIP completed (8,54,700 shares at ₹21,060); Safran LEAP titanium-casting development order and long-term production MoU.</div></li>
+</ul>
+
+<p>Three caveats apply. None of these orders has a disclosed value, and PTC does not publish an order book. Most are development or qualification orders, which typically run for years before serial production; an aerospace part can need two to five years to move from first article to rate production. And PTC holds no quarterly earnings calls (the only transcript on file is from a 2023 analyst meet) and gives no numeric guidance, so investors have only press releases, presentations and the annual report to go on. The standalone business is also concentrated: its top three customer groups accounted for 47% of standalone revenue in FY26.</p>
+
+<h3>Capital ahead of revenue</h3>
+
+<p>Building the chain is expensive, and PTC's cash flow shows it. Cash from operations was negative ₹69 crore in FY26 and free cash flow negative ₹386 crore, the third negative year in a row (−₹213 crore in FY24 and −₹176 crore in FY25). Screener's inventory days of about 1,030 look alarming; the annual report explains that "a large part of that material remained in work-in-progress at the year end, in ingots, forgings and castings moving through qualification and production", with inventory building by ₹236.7 crore in the year. That is qualification work in progress, not obsolete stock, but it is cash spent on goods nobody has yet been billed for. Capital commitments rose to ₹672.3 crore at March 2026 from ₹261 crore, and capital work in progress stood at ₹310.7 crore, mainly the electron-beam furnace, the rolling mills and the balance of the strategic materials complex.</p>
+
+<p>The funding has come from shareholders. PTC raised ₹699.99 crore in a qualified institutional placement in September 2024 and ₹1,800 crore in another on 13 October 2026, issuing 8,54,700 shares at ₹21,060: about ₹2,500 crore of equity in two years, against cumulative revenue over FY25 and FY26 of about ₹911 crore. The promoter stake fell from 62.95% in March 2024 to 56.46% after the October issue, and foreign institutions rose to 8.39%. On an ILLUSTRATIVE pro-forma basis (₹1,800 crore raised, minus issue costs and March 2026 borrowings of ₹261 crore, before H1 FY27 capex), PTC moves from net debt of about ₹258 crore to net cash of roughly ₹1,500 crore. Screener's balance sheet does not yet include the October cash, while its market capitalisation does include the new shares.</p>
+
+<div class="chart">
+  <div class="c-title">PTC's quarterly revenue: Trac's arrival, then Aerolloy</div>
+  <div class="c-sub">₹ Cr, screener consolidated sales. Trac consolidated from 19 Dec 2024 (first visible in Mar-25 quarter)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Jun-24</div><div class="track"><span class="fill ink" style="width:20.9%"></span></div><div class="bval">47</div></div>
+    <div class="bar-row"><div class="blab">Sep-24</div><div class="track"><span class="fill ink" style="width:32%"></span></div><div class="bval">72</div></div>
+    <div class="bar-row"><div class="blab">Dec-24</div><div class="track"><span class="fill ink" style="width:29.8%"></span></div><div class="bval">67</div></div>
+    <div class="bar-row"><div class="blab">Mar-25<small>Trac in</small></div><div class="track"><span class="fill wtg" style="width:54.2%"></span></div><div class="bval">122</div></div>
+    <div class="bar-row"><div class="blab">Jun-25</div><div class="track"><span class="fill wtg" style="width:43.1%"></span></div><div class="bval">97</div></div>
+    <div class="bar-row"><div class="blab">Sep-25</div><div class="track"><span class="fill wtg" style="width:55.6%"></span></div><div class="bval">125</div></div>
+    <div class="bar-row"><div class="blab">Dec-25</div><div class="track"><span class="fill wtg" style="width:69.3%"></span></div><div class="bval">156</div></div>
+    <div class="bar-row"><div class="blab">Mar-26</div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">225</div></div>
+    <div class="bar-row"><div class="blab">Jun-26</div><div class="track"><span class="fill gold" style="width:85.3%"></span></div><div class="bval">192</div></div>
+  </div>
+  <div class="legend"><span>Operating margin by quarter swung from 9% (Jun-25) to 32% (Mar-26) and 25% (Jun-26): lumpy, as qualification batches ship.</span></div>
+</div>
+
+<h3>What the multiple implies</h3>
+
+<p>At ₹39,800 crore, PTC trades at 317 times trailing profit (₹126 crore) and about 390 times FY26 profit (₹102 crore). Annualising the Jun-2026 quarter gives income of about ₹790 crore and PAT of about ₹117 crore, still a multiple of about 340. The useful question is not whether that multiple is high (it plainly is) but what it assumes. The ILLUSTRATIVE arithmetic below asks how large PTC would need to become for today's price to look like a normal multiple for a mature aerospace-components business.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">ILLUSTRATIVE: what PTC's ₹39,800 Cr market value implies</div>
+  <div class="flow-row">
+    <div class="node wtg"><div class="ntag">Price today</div><div class="nname">₹39,800 Cr</div><div class="nwho">M-cap, 21 Oct 2026</div></div>
+    <div class="arrow op">÷</div>
+    <div class="node om"><div class="ntag">Mature P/E</div><div class="nname">35–40×</div><div class="nwho">Assumed multiple for an established aero-components maker</div></div>
+    <div class="arrow op">=</div>
+    <div class="node spec"><div class="ntag">PAT needed</div><div class="nname">₹1,000–1,150 Cr</div><div class="nwho">About 8–9× TTM PAT of ₹126 Cr</div></div>
+    <div class="arrow op">÷</div>
+    <div class="node epc"><div class="ntag">PAT margin</div><div class="nname">20%</div><div class="nwho">Assumed: Aerolloy-like mix after capital charges</div></div>
+    <div class="arrow op">=</div>
+    <div class="node wtg"><div class="ntag">Revenue needed</div><div class="nname">₹5,000–5,700 Cr</div><div class="nwho">7–8× TTM revenue of ₹697 Cr</div></div>
+  </div>
+  <div class="flow-note">At 30% annual revenue growth that takes about eight years; at 45%, about five and a half. Any delay, dilution or lower margin pushes the date out. This is arithmetic, not a forecast.</div>
+</div>
+
+<p>The arithmetic is a way to make the bet explicit. A buyer at today's price is assuming that PTC's revenue rises roughly eightfold and that the new revenue comes at high margins, within the better part of a decade, without much further dilution. Each of those is plausible given the qualifications won and the scarcity of the capability, and each can go wrong: an aerospace qualification can slip by years, a programme can be cut, a Western competitor can expand, and the capital bill (the Lucknow phases, the Odisha sponge plant) is not yet disclosed. Howmet Aerospace, the best listed proxy for what PTC aspires to be, traded at roughly 45–55 times earnings (an INDICATIVE range) with US$8.3 billion of revenue and a 29.3% adjusted EBITDA margin in 2025; PTC trades at six to seven times Howmet's multiple with less than 1% of its revenue.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Investors are paying today for the PTC of the 2030s: a company several times larger, making titanium parts for Airbus and Safran at high margins. The orders it has won make that plausible. Its current accounts, with a loss-making cash flow, a UK machine shop that earns almost nothing and inventory waiting for qualification, show how much still has to go right. The things to track are Aerolloy's quarterly income, any disclosed order values, and how the ₹1,800 crore is spent.</p>
+</div>
+
+<p>Two further points complete the picture. First, the 5,000-tonne-a-year electron-beam furnace often quoted as PTC's capacity was still being installed at March 2026; the operating melt capacity was the VAR (about 1,500 tonnes a year of ingot) and the PAM furnace (about 600 tonnes a year of ingot). Second, ingot tonnes are not part tonnes: a titanium casting or forging uses a fraction of the ingot that goes into it, and PTC's 2023 plan for aerospace castings was 300 tonnes a year of titanium plus 300 tonnes of superalloy, against 30–40 tonnes at the time. Readers should not multiply ingot capacity by a part price. For the full company story, see the <a href="../primers/ptc-industries.html">PTC Industries primer</a>, and for the wider supply chain our <a href="aerospace-defence.html">aerospace &amp; defence report</a>.</p>
+</section>
+
+<section class="part" id="p9">
+<div class="part-head"><span class="pno">09</span><h2>CIE's two halves: a growing Indian supplier and a shrinking European one, on a calendar year <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">CIE Automotive India is two businesses under one ticker. India grows in double digits with a slipping margin; Europe shrinks in euros with a recovering margin. Reading it requires knowing which half moved, and which calendar it is on.</p>
+
+<p>CIE Automotive India is the Indian arm of Spain's CIE Automotive, a multi-technology auto-components group. It was formed in 2013 when CIE took a controlling stake in Mahindra's forging and component businesses, including Mahindra's European forgers; it bought Bill Forge in Bengaluru in 2016 for about ₹1,331 crore; it exited its German forging units in 2022 at a heavy loss; and it was renamed after Mahindra sold out in 2023. Its plants make forgings, stampings, aluminium and iron castings, gears, composites and magnets in India, and forgings and gears in Spain, Lithuania and Italy (Metalcastello), with a forging plant in Mexico that has been reported within the "Europe" segment since 2025 even though Mexico is not in Europe. In calendar 2025 it reported revenue from operations of ₹9,406.5 crore, operating profit of ₹1,362 crore (14.5% on screener's basis) and PAT of ₹828 crore.</p>
+
+<h3>The calendar trap and the revenue trap</h3>
+
+<p>Two accounting conventions catch out almost every reader. First, CIE's financial year ends in December, not March. Its latest full year is CY2025, three months earlier than the others' FY26. Its Q2 CY26 is April–June 2026, the same period as the others' Q1 FY27, and its Q3 CY26 (results due on the evening of 22 October 2026) matches their Q2 FY27. For a like-for-like comparison with the March-year companies, use the twelve months to June 2026: screener shows sales of ₹9,997 crore, operating profit of ₹1,482 crore and PAT of ₹903 crore. Second, CIE's own "sales" figure excludes other operating income (scrap sales and export incentives), which screener includes. In CY25 the company reported "sales" of ₹9,122 crore against revenue from operations of ₹9,406.5 crore; in Q2 CY26 the gap was exactly the ₹77.3 crore of other operating income (₹48.9 crore in India, ₹28.4 crore in Europe). Company margins (16–17%) are on the smaller denominator; screener's (14–15%) on the larger one. This report uses screener for cross-company comparisons and the company's figures for the India-Europe split, and never mixes them in one ratio.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>When CIE says "Q2", it means April to June. When AIA, PTC and Balu say "Q2", they mean July to September. And CIE's "16.4% EBITDA margin" and screener's "14.9% operating margin" for the same quarter are both correct, measured on different revenue figures. Always check which quarter and which revenue line you are reading.</p>
+</div>
+
+<h3>India: growth with a margin leak</h3>
+
+<p>The Indian business is about two-thirds of sales (₹59 billion of ₹91 billion in CY25 on company figures). Its technology mix is more diversified than the "forging company" label suggests: in CY25, <strong>forgings were 35% of Indian sales, stampings 23%, aluminium castings 18%, iron castings 11%, gears 6%, composites 5% and magnets 2%</strong>. Forgings dominate only in Europe (85%, with gears 15%), which is why the group-wide forging share is 51%. The products that matter most are crankshafts, stub axles, steering parts, constant-velocity joints, stampings and magnets (71% of sales by the company's sustainability report), followed by turbocharger housings and axle and transmission parts.</p>
+
+<div class="chart">
+  <div class="c-title">CIE's technology mix, CY2025</div>
+  <div class="c-sub">% of company sales by technology. CIE annual report CY25, p.6. India ₹59 bn, Europe (incl. Mexico) ₹32 bn, group ₹91 bn</div>
+  <div class="stack-row"><div class="blab">India</div><div class="stack"><span style="width:35%;background:var(--brand)">Forgings 35</span><span style="width:23%;background:var(--wtg)">Stampings 23</span><span style="width:18%;background:var(--epc)">Aluminium 18</span><span style="width:11%;background:var(--om)">Iron 11</span><span style="width:6%;background:var(--gold)">G 6</span><span style="width:5%;background:var(--ink-faint)">C</span><span style="width:2%;background:var(--bad)"></span></div></div>
+  <div class="stack-row"><div class="blab">Europe + Mexico</div><div class="stack"><span style="width:85%;background:var(--brand)">Forgings 85</span><span style="width:15%;background:var(--gold)">Gears 15</span></div></div>
+  <div class="stack-row"><div class="blab">Group</div><div class="stack"><span style="width:51%;background:var(--brand)">Forgings 51</span><span style="width:16%;background:var(--wtg)">Stampings 16</span><span style="width:12%;background:var(--epc)">Al 12</span><span style="width:9%;background:var(--om)">Iron 9</span><span style="width:8%;background:var(--gold)">G 8</span><span style="width:4%;background:var(--ink-faint)"></span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Forgings</span><span><i style="background:var(--wtg)"></i>Stampings</span><span><i style="background:var(--epc)"></i>Aluminium castings</span><span><i style="background:var(--om)"></i>Iron castings</span><span><i style="background:var(--gold)"></i>Gears (G)</span><span><i style="background:var(--ink-faint)"></i>Composites (C) and magnets</span></div>
+</div>
+
+<p>In the Jun-2026 quarter, Indian sales rose 13% to ₹1,654.9 crore and H1 CY26 sales 14% to ₹3,273.9 crore. That sounds strong, but it lagged the market: Indian light-vehicle production rose 16.2%, two-wheelers 22.9% and tractors 14.6%. Management, which says CIE has grown "within ±2% of the weighted-average market" over the past three to five quarters, gave three reasons for falling behind: its aluminium vertical "let go of some loss-making products" at one customer; exports were flat for a second quarter; and some customers (Hyundai was named) had falling volumes. Growth by vertical was strongest in gears (+18%), composites (+17%) and stampings (+16%).</p>
+
+<p>The Indian margin is the bigger worry. CIE India's EBITDA margin peaked at <strong>18.2% in CY24</strong>, slipped to 17.5% in CY25, and fell to <strong>16.7% in the Jun-2026 quarter</strong> (from 17.5% a year earlier and 17.6% in the March quarter), which management blamed on West-Asia-driven inflation in energy, consumables and part of raw materials. It promised "countervailing measures" over the next two quarters. Steel prices were "very much stable", but aluminium had "gone up a lot", to be passed on from the September quarter. CIE's growth target for India is 12–15%, but it expects a slowdown as the GST-cut effect fades and a below-normal monsoon hits rural demand; the industry forecasts in its presentation show Indian light vehicles growing 10.8% in the September 2026 quarter and falling 2.8% in the December quarter.</p>
+
+<h3>Europe: shrinking in euros, recovering in margin</h3>
+
+<p>The European half (Spain, Lithuania, Italy, plus Mexico) is about a third of sales and is shrinking in its own currency. In the Jun-2026 quarter, European sales were ₹888.3 crore, up 7% in rupees but <strong>down 6% in euros</strong>; the rupee's fall against the euro (an average of ₹110.12 per euro in the quarter) flattered the translated number. Management said the European quarterly run-rate was about €80–81 million against about €100 million earlier, and expects the European market to fall 2–3% this year and next. Mexico's revenue fell 20% after GKN, under new ownership, stretched contracted volumes over more years. Metalcastello, the Italian gear maker, was the bright spot, growing about 15% at about 20% EBITDA.</p>
+
+<p>Yet Europe's margin has recovered. After falling from a peak of 17.8% in CY23 to 13.3% in CY25, European EBITDA margin rose to 15.9% in the Jun-2026 quarter, from 12.5% a year earlier, because of restructuring done in 2025 at Legazpi in Spain and at Metalcastello. For the first time in several years, Europe's margin (15.9%) was close to India's (16.7%).</p>
+
+<div class="chart">
+  <div class="c-title">India and Europe EBITDA margin: converging from opposite directions</div>
+  <div class="c-sub">% of company sales, CIE annual report CY25 and Q2 CY26 presentation. Calendar years; Q2 CY26 = Apr–Jun 2026</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">India CY23</div><div class="track"><span class="fill brand" style="width:83.5%"></span></div><div class="bval">16.7%</div></div>
+    <div class="bar-row"><div class="blab">India CY24 (peak)</div><div class="track"><span class="fill brand" style="width:91%"></span></div><div class="bval">18.2%</div></div>
+    <div class="bar-row"><div class="blab">India CY25</div><div class="track"><span class="fill brand" style="width:87.5%"></span></div><div class="bval">17.5%</div></div>
+    <div class="bar-row"><div class="blab">India Q2 CY26</div><div class="track"><span class="fill gold" style="width:83.5%"></span></div><div class="bval">16.7%</div></div>
+    <div class="bar-row"><div class="blab">Europe CY23 (peak)</div><div class="track"><span class="fill wtg" style="width:89%"></span></div><div class="bval">17.8%</div></div>
+    <div class="bar-row"><div class="blab">Europe CY24</div><div class="track"><span class="fill wtg" style="width:78.5%"></span></div><div class="bval">15.7%</div></div>
+    <div class="bar-row"><div class="blab">Europe CY25</div><div class="track"><span class="fill wtg" style="width:66.5%"></span></div><div class="bval">13.3%</div></div>
+    <div class="bar-row"><div class="blab">Europe Q2 CY26</div><div class="track"><span class="fill gold" style="width:79.5%"></span></div><div class="bval">15.9%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 20%. In CY20 the margins were 11.7% (India) and 7.6% (Europe).</span></div>
+</div>
+
+<div class="tbl-wrap">
+<table>
+  <caption>CIE's two halves, company basis, ₹ Cr (Q2 CY26 = Apr–Jun 2026)</caption>
+  <thead><tr><th>Item</th><th class="num">Q2 CY25</th><th class="num">Q1 CY26</th><th class="num">Q2 CY26</th><th class="num">H1 CY26</th></tr></thead>
+  <tbody>
+    <tr><td>India sales</td><td class="num">1,459.1</td><td class="num">1,619.0</td><td class="num">1,654.9</td><td class="num">3,273.9</td></tr>
+    <tr><td>India EBITDA %</td><td class="num">17.5%</td><td class="num">17.6%</td><td class="num">16.7%</td><td class="num">17.2%</td></tr>
+    <tr><td>Europe sales (incl. Mexico)</td><td class="num">831.5</td><td class="num">922.1</td><td class="num">888.3</td><td class="num">1,810.4</td></tr>
+    <tr><td>Europe EBITDA %</td><td class="num">12.5%</td><td class="num">15.7%</td><td class="num">15.9%</td><td class="num">15.8%</td></tr>
+    <tr><td>Company sales</td><td class="num">2,290.6</td><td class="num">2,541.1</td><td class="num">2,543.2</td><td class="num">5,084.3</td></tr>
+    <tr><td>Revenue from operations (incl. other operating income)</td><td class="num">2,369.0</td><td class="num">2,612.0</td><td class="num">2,620.6</td><td class="num">5,232.5</td></tr>
+    <tr><td>Consolidated EBITDA</td><td class="num">358.8</td><td class="num">430.3</td><td class="num">418.3</td><td class="num">848.6</td></tr>
+    <tr><td>PAT</td><td class="num">203.5</td><td class="num">249.4</td><td class="num">235.6</td><td class="num">485.0</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Cash: a working-capital reversal and a parent's cash pool</h3>
+
+<p>CIE has long been the one member funded by its customers and suppliers: at December 2025 its cash conversion cycle was −33 days and its net working capital −₹384 crore. That changed sharply in the first half of 2026. By June, net working capital had swung to <strong>+₹291 crore</strong>, trade receivables had more than doubled from ₹609 crore to ₹1,341 crore, and the working-capital outflow for the half was ₹701 crore. Operating cash flow was ₹620 crore (73% of EBITDA), and after a ₹266 crore dividend, net cash fell from ₹1,881 crore to <strong>₹1,416 crore</strong>. At the same time, non-current loans on the balance sheet rose from ₹391 crore to ₹725 crore. CIE's April 2026 AGM approved its Spanish subsidiary CIE Galfor's participation in the parent's group cash pool, with transfers of up to €250 million a year each way and a maximum receivable from the parent of €50 million at any time. The rise in loans is consistent with lending into that pool, though the filings read for this report do not prove it. A search of CIE's annual report found no royalty or technical-fee payment to the parent.</p>
+
+<p>Capital spending is stepping up. H1 CY26 capex was ₹210 crore against ₹380 crore in all of CY25, and management said H2 would be "significantly higher": a new moulding line for the iron foundry, expanded gear buildings at Rajkot and Chakan, a fully robotic stamping line at Kanhe by mid-2027, and three new forging presses (one at Chakan, two at Bill Forge Bengaluru). A machined iron-castings export programme for "our American customers", worth about ₹200 crore a year, began deliveries with revenue from Q3 CY26. New business won in H1 CY26 was about ₹500 crore a year of peak revenue. Management said it is evaluating acquisitions but that Indian sellers' expectations are "very, very high" and "return on investment is not negotiable".</p>
+
+<div class="chart">
+  <div class="c-title">CIE's quarterly revenue and operating profit</div>
+  <div class="c-sub">₹ Cr, screener consolidated revenue from operations (bars) with operating profit and margin (labels). Calendar quarters</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Sep-24<small>OP 331 · 15%</small></div><div class="track"><span class="fill wtg" style="width:81.5%"></span></div><div class="bval">2,135</div></div>
+    <div class="bar-row"><div class="blab">Dec-24<small>OP 299 · 14%</small></div><div class="track"><span class="fill wtg" style="width:80.5%"></span></div><div class="bval">2,110</div></div>
+    <div class="bar-row"><div class="blab">Mar-25<small>OP 335 · 15%</small></div><div class="track"><span class="fill wtg" style="width:86.7%"></span></div><div class="bval">2,273</div></div>
+    <div class="bar-row"><div class="blab">Jun-25<small>OP 337 · 14%</small></div><div class="track"><span class="fill wtg" style="width:90.4%"></span></div><div class="bval">2,369</div></div>
+    <div class="bar-row"><div class="blab">Sep-25<small>OP 356 · 15%</small></div><div class="track"><span class="fill wtg" style="width:90.5%"></span></div><div class="bval">2,372</div></div>
+    <div class="bar-row"><div class="blab">Dec-25<small>OP 335 · 14%</small></div><div class="track"><span class="fill wtg" style="width:91.3%"></span></div><div class="bval">2,393</div></div>
+    <div class="bar-row"><div class="blab">Mar-26<small>OP 402 · 15%</small></div><div class="track"><span class="fill brand" style="width:99.7%"></span></div><div class="bval">2,612</div></div>
+    <div class="bar-row"><div class="blab">Jun-26<small>OP 390 · 15%</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">2,621</div></div>
+  </div>
+</div>
+
+<p>At ₹370, CIE closed on 21 October one rupee above its 52-week low, valued at ₹14,019 crore: 15.6 times trailing earnings, 1.81 times book value and about 9.3 times CY25 operating profit net of cash. That is cheap against Indian auto-component peers and in line with its Spanish parent's history. The discount reflects the European drag, the slowing Indian growth and margin, a parent that controls capital allocation (analysts on the July call asked why the CEO sits in Spain), and now the working-capital reversal. Against that: about 19% return on net assets, net cash, a diversified technology base that is less exposed to electric vehicles than the crankshaft image suggests, and a calendar-year reporting quirk that means its next results arrive before its peers'. See the <a href="../primers/cie-automotive-india.html">CIE Automotive India primer</a> and our <a href="auto-components.html">auto components report</a>.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>CIE's India business is growing a little slower than the vehicle market and losing a little margin to energy costs; its European business is shrinking but has been made more profitable by restructuring. Over the first half of 2026 its customers also started paying more slowly, which used up cash. The market prices it as a steady, unexciting supplier at a low multiple. What would change that is Indian margins back above 17.5% and a stop to the euro decline.</p>
+</div>
+</section>
+
+<section class="part" id="p10">
+<div class="part-head"><span class="pno">10</span><h2>Crankshafts to shell casings: Balu Forge and the cash-conversion question <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">Balu reports 27% operating margins and a quarter of a thousand crore of profit. Very little of it has arrived as cash, much of it is earned in a tax-free UAE subsidiary, and its auditor has flagged its receivables.</p>
+
+<p>Balu Forge Industries, based in Belagavi, Karnataka, built its business machining crankshafts and other forged components, selling to engine makers and export aftermarkets in more than 80 countries. Its growth in the last three years has been remarkable on reported figures: revenue rose from ₹286 crore in FY22 to ₹1,107.4 crore in FY26, EBITDA margin from 13% to 27%, and PAT from ₹30 crore to ₹258.9 crore (up 27.0% in FY26). In parallel it has built a 46-acre forging and machining campus at Hattargi near Belagavi, with an 8,000-tonne mechanical press, a 25-tonne hammer and other presses and hammers giving more than 100,000 tonnes a year of forging capacity (target 150,000) and 45,000 tonnes a year of machining (target 80,000), and an automated empty-shell line with a nameplate of 360,000 artillery-shell bodies a year, commissioned in December 2025.</p>
+
+<div class="chart">
+  <div class="c-title">Balu's reported growth</div>
+  <div class="c-sub">₹ Cr, company figures (revenue, PAT) and EBITDA margin; FY = year to March</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22<small>PAT 30 · 13.0%</small></div><div class="track"><span class="fill om" style="width:25.8%"></span></div><div class="bval">286</div></div>
+    <div class="bar-row"><div class="blab">FY23<small>PAT 39 · 15.2%</small></div><div class="track"><span class="fill om" style="width:29.5%"></span></div><div class="bval">327</div></div>
+    <div class="bar-row"><div class="blab">FY24<small>PAT 94 · 21.3%</small></div><div class="track"><span class="fill om" style="width:50.6%"></span></div><div class="bval">560</div></div>
+    <div class="bar-row"><div class="blab">FY25<small>PAT 204 · 27.2%</small></div><div class="track"><span class="fill om" style="width:83.4%"></span></div><div class="bval">924</div></div>
+    <div class="bar-row"><div class="blab">FY26<small>PAT 259 · 27.0%</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">1,107</div></div>
+  </div>
+  <div class="legend"><span>Four-year revenue CAGR about 40%; FY26 growth slowed to +19.9% from +65% in FY25.</span></div>
+</div>
+
+<h3>The defence pivot</h3>
+
+<p>The defence and aerospace pivot is what drew investors. Defence, aerospace and railway sales rose from 5% of revenue in FY24 to 9% in FY25 and 13% in FY26, and the company says they make up about half of its order book (whose value it does not disclose). The shell line is the centrepiece. Balu has a five-year binding MoU with a NATO-affiliated entity for large-calibre shells from Belagavi and says it has been "inducted into the NATO supply chain"; an Indian energetics company ordered 30,000 152 mm shells with supplies from June 2026; and a domestic ammunition maker placed a 10,000-unit pilot order for 155 mm extended-range full-bore (ERFB) shells. Balu also won a maiden US aerospace order from Alpha Aircraft Systems, and has renamed a dormant subsidiary Quantum Energetics, with objects expanded to explosives (TNT, RDX, HMX), subject to licences it does not yet have.</p>
+
+<p>The ILLUSTRATIVE value of the shell line depends on a price nobody has disclosed. At an assumed ₹8,000–12,000 per empty 155 mm body, 360,000 bodies a year would be worth ₹290–430 crore of revenue at full utilisation: 25–40% of FY26 revenue from one line. In practice early orders are for tens of thousands of units, so the line is a long way from full. In the same ILLUSTRATIVE spirit, value per kilogram rises along Balu's product ladder from a raw forging (perhaps ₹150–200/kg) to a machined crankshaft (₹350–450/kg) to a certified defence part (₹550–700/kg equivalent). Trade data support the middle of that ladder: India's crankshaft and transmission-shaft exports averaged US$21,000–25,000 a tonne in 2021–25.</p>
+
+<h3>Where the profit is earned</h3>
+
+<p>Balu's FY26 annual report contains a fact that changes how its numbers should be read. About <strong>44% of consolidated revenue and 41% of PAT came from a wholly owned UAE subsidiary</strong>, Safa Otomotiv FZ-LLC, registered in the Ras Al Khaimah free zone, which "assembles and supplies power-train sub-assemblies" to customers in the Middle East and North Africa. Safa reported FY26 turnover of ₹486.2 crore and PAT of ₹105.7 crore, and as a Qualifying Free Zone Person it pays 0% tax on qualifying income. The standalone Indian company had revenue of ₹620.5 crore, of which exports were ₹330.6 crore (55.23% of standalone turnover). The UAE profits explain why Balu's consolidated tax rate was only about 15% in FY26. Balu also said the West Asia conflict "disrupted global logistics and temporarily impacted the Company's India UAE operations" in the March 2026 quarter, when its margin dipped to 22.7%.</p>
+
+<div class="chart">
+  <div class="c-title">Balu's FY26 revenue by entity</div>
+  <div class="c-sub">₹ Cr, annual report FY26 (Form AOC-1, key audit matters). Consolidated ₹1,107.4 Cr</div>
+  <div class="stack-row"><div class="blab">Revenue</div><div class="stack"><span style="width:43.9%;background:var(--gold)">UAE (Safa) 486</span><span style="width:29.9%;background:var(--om)">India exports 331</span><span style="width:26.2%;background:var(--epc)">India domestic 290</span></div></div>
+  <div class="stack-row"><div class="blab">PAT ₹258.9 Cr</div><div class="stack"><span style="width:40.8%;background:var(--gold)">UAE 106 (0% tax)</span><span style="width:59.2%;background:var(--om)">India and consolidation ~153</span></div></div>
+  <div class="legend"><span><i style="background:var(--gold)"></i>Safa Otomotiv FZ-LLC, Ras Al Khaimah</span><span><i style="background:var(--om)"></i>Standalone exports</span><span><i style="background:var(--epc)"></i>Standalone domestic</span></div>
+</div>
+
+<h3>Profit without cash</h3>
+
+<p>The central issue is cash conversion. In FY26 Balu reported PAT of ₹259 crore but generated only <strong>₹32 crore of cash from operations</strong>, about 11% of its operating profit; free cash flow, after ₹354 crore of investment, was <strong>negative ₹322 crore</strong>. The pattern is not new: operating cash flow was negative ₹58 crore in FY22 and negative ₹32 crore in FY24, with FY25 (₹148 crore) the only recent year of meaningful cash generation. On screener's figures, about ₹225 crore of FY26 profit stayed in working capital; debtor days were 140 (down from 235 in FY23), inventory 75 days and the cash conversion cycle 182 days.</p>
+
+<div class="chart">
+  <div class="c-title">Reported profit versus cash from operations</div>
+  <div class="c-sub">₹ Cr, screener consolidated. FY23 CFO not available. Bars show PAT; labels show CFO</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22<small>CFO −58</small></div><div class="track"><span class="fill om" style="width:11.6%"></span></div><div class="bval">PAT 30</div></div>
+    <div class="bar-row"><div class="blab">FY23<small>CFO n/a</small></div><div class="track"><span class="fill om" style="width:15.1%"></span></div><div class="bval">PAT 39</div></div>
+    <div class="bar-row"><div class="blab">FY24<small>CFO −32</small></div><div class="track"><span class="fill om" style="width:35.9%"></span></div><div class="bval">PAT 93</div></div>
+    <div class="bar-row"><div class="blab">FY25<small>CFO 148</small></div><div class="track"><span class="fill om" style="width:78.8%"></span></div><div class="bval">PAT 204</div></div>
+    <div class="bar-row"><div class="blab">FY26<small>CFO 32</small></div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">PAT 259</div></div>
+  </div>
+  <div class="legend"><span>Cumulative FY22–FY26 (ex-FY23): PAT ₹586 Cr, CFO ₹90 Cr.</span></div>
+</div>
+
+<p>The receivables themselves have drawn the auditor's attention. The FY26 audit report includes an <strong>emphasis of matter</strong> on standalone trade receivables of ₹339.08 crore: management "represented that the realization of certain export and receivables has been impacted/interrupted due to prevailing geopolitical and market conditions". It also notes <strong>₹24.41 crore of customer cheques that had been received and recorded but not deposited or realised</strong> at the report date, and ₹5.24 crore of export receivables from the UAE subsidiary outstanding beyond RBI's realisation timelines. CRISIL, in its February 2026 rationale, said existing customers get 140–180 days of credit, that debtors were 158 days at March 2025 (181 a year earlier), that packing-credit limits had been about 99% used over the twelve months to September 2025, and that debtors sustained above 130 days would be a downgrade trigger. FY26 debtor days on screener were 140.</p>
+
+<p>Growth has been financed by shareholders and lenders. A ₹496.8 crore preferential issue, including 93 lakh warrants at ₹360, was converted in tranches in February and March 2026; equity capital rose from ₹111 crore to ₹121 crore; borrowings rose from ₹40 crore to ₹152 crore; and financing inflows were ₹315 crore in FY26. Fixed assets rose from ₹183 crore to ₹547 crore as Hattargi capital work was capitalised, with ₹277 crore still in progress and ₹200.7 crore of capital commitments at March 2026.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Balu Forge: governance and credit watch-items (as disclosed)</caption>
+  <thead><tr><th>Item</th><th>What the filings say</th><th>Source</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">Auditor emphasis of matter</td><td>Receivables ₹339.08 Cr with export realisation "impacted/interrupted"; ₹24.41 Cr cheques recorded but not deposited/realised; ₹5.24 Cr subsidiary receivable beyond RBI timelines</td><td>Annual report FY26, auditor's report</td></tr>
+    <tr><td class="t-strong">Income-tax search</td><td>Search under s.132 on 7 Jan 2026 covering FY21–FY26; assessments and reassessments pending; company "unable to ascertain the exact financial impact"</td><td>Annual report FY26, note 45</td></tr>
+    <tr><td class="t-strong">Credit ratings</td><td>CRISIL BBB+/Negative, reaffirmed and withdrawn at the company's request (27 Feb 2026); ICRA A-(Stable)</td><td>CRISIL rationale; company presentation</td></tr>
+    <tr><td class="t-strong">Shareholding</td><td>The Central Government holds 46,24,001 shares (4.02% at 31 Mar 2026; 3.81% on screener at Sep-2026); the annual report does not explain the holding</td><td>Annual report FY26 shareholding table</td></tr>
+    <tr><td class="t-strong">Promoter pledge</td><td>About 8.75 lakh shares pledged, reported in early 2026</td><td>Our primer</td></tr>
+    <tr><td class="t-strong">Tax structure</td><td>~41% of FY26 PAT earned in a 0%-tax UAE free-zone subsidiary</td><td>Annual report FY26, AOC-1</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Balu's income statement says it is a fast-growing, high-margin company. Its cash-flow statement says most of that profit is still owed to it by customers, and its auditor has highlighted some of those debts. The pivot to defence is real and the plant is being built, but until profits start arriving as cash, the reported earnings deserve a discount, which the market has started to apply.</p>
+</div>
+
+<p>The latest quarter was steadier. In the Jun-2026 quarter, revenue rose 29% to ₹300.7 crore, EBITDA margin recovered to 28.2% (from 22.7% in the March quarter, though below 31% a year earlier) and PAT rose 15.9% to ₹66.1 crore. Management gave no numeric guidance (Balu holds no earnings calls), saying only that it would keep investing in precision engineering, defence and aerospace capacity. At ₹451, the stock was valued at ₹5,471 crore on 21 October, 20.4 times trailing earnings, after falling about 29% since August. The things to watch are simple and quarterly: cash from operations, debtor days against CRISIL's 130-day threshold, the half-yearly balance sheet, shell deliveries, and any disclosure of the order book's value. See the <a href="../primers/balu-forge.html">Balu Forge primer</a> for the full company story.</p>
+</section>
+
+<section class="part" id="p11">
+<div class="part-head"><span class="pno">11</span><h2>Tariff walls and carbon borders: the rules that now shape export economics</h2></div>
+<p class="part-sub">Since April 2026 the US charges 50% on the full value of grinding balls and many steel castings and forgings. Europe's carbon border tax is now live. At home, defence procurement rules tilt orders towards Indian suppliers.</p>
+
+<p>Trade policy matters more to this sub-sector than to most Indian industrials, because three of the four members earn much of their revenue abroad and the fourth (CIE) is starting a US export programme. The US tariff regime changed three times in 2026, and the change that matters most for castings and forgings is the one that received least attention.</p>
+
+<h3>The US: three layers, one that bites</h3>
+
+<p>The broad "reciprocal" tariffs the US imposed under emergency powers (IEEPA), including the extra 25% penalty on India linked to Russian-oil purchases from August 2025, were struck down by the US Supreme Court on 20 February 2026. A temporary 10% surcharge under Section 122 ran until 24 July 2026. Since then India has faced a 10% Section 301 duty on top of the normal (MFN) tariff, after being placed in the 10% band of a forced-labour investigation covering 17 economies (China and Vietnam are at 12.5%); the duty is under legal challenge, and a second Section 301 investigation, into excess manufacturing capacity, also names India.</p>
+
+<p>For castings and forgings, though, the binding constraint is <strong>Section 232</strong>, the national-security tariff on steel, aluminium and copper and their "derivatives". CBP's steel-derivative list, effective 18 August 2025, includes HTS 7325.91 (grinding balls and similar articles for mills), 7325.99 (other cast articles of iron or steel) and the 7326 lines (other articles of iron or steel, including many forged and stamped parts); the August 2025 inclusions also covered 8483.10 (transmission shafts and crankshafts) and several 8708 auto-part lines. These goods pay 50%. A proclamation of 2 April 2026 (91 FR 18201) made the change that matters: <strong>from 6 April 2026 the 50% applies to the full customs value of the article, regardless of its metal content</strong>, rather than only to the value of the steel in it. Separately, medium- and heavy-duty vehicle parts have paid 25% since 1 November 2025 (90 FR 48451), in a proclamation that explicitly cites US dependence on imported "transmission shafts, castings, forgings"; passenger-vehicle and light-truck parts have paid 25% since May 2025. Goods under Section 232 do not also pay the Section 301 layer, and the 232 measures generally do not stack on each other, though CBP's treatment of each entry needs checking.</p>
+
+<div class="chart">
+  <div class="c-title">The extra US duty on the members' product types, October 2026</div>
+  <div class="c-sub">Additional US tariff layer (excluding the normal MFN rate) by product, from the Federal Register and CBP's steel-derivative list. Section 232 goods do not also pay the Section 301 layer. Which 232 measure applies to a given crankshaft entry depends on CBP classification</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Grinding balls<small>HTS 7325.91 · AIA</small></div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">50%</div></div>
+    <div class="bar-row"><div class="blab">Other steel castings, forged/stamped articles<small>7325.99, 7326</small></div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">50%</div></div>
+    <div class="bar-row"><div class="blab">Crankshafts, transmission shafts<small>8483.10 · Balu, CIE</small></div><div class="track"><span class="fill gold" style="width:75%"></span></div><div class="bval">25–50%</div></div>
+    <div class="bar-row"><div class="blab">MHDV and car parts<small>232 auto annexes</small></div><div class="track"><span class="fill gold" style="width:50%"></span></div><div class="bval">25%</div></div>
+    <div class="bar-row"><div class="blab">Other Indian goods<small>Section 301 layer</small></div><div class="track"><span class="fill wtg" style="width:20%"></span></div><div class="bval">10%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 50%. Since 6 Apr 2026 the 50% steel-derivative duty is charged on the full customs value, not just the steel content.</span></div>
+</div>
+
+<p>How much does this matter to each member? Less than the headline suggests, because none of the four depends heavily on the US. AIA's mining customers are mainly in Latin America, Australia and Africa; India's grinding-ball exports to the US were about US$20 million in 2024, roughly a tenth of the total, and AIA's own US share is not disclosed but is small. Still, those US balls now pay 50% on full value, which effectively closes that market to price-sensitive buyers. Balu's commercial-vehicle and industrial crankshafts to the US face 25% or 50%, depending on classification. CIE's new ₹200 crore-a-year machined iron-castings programme for "American customers" is the most directly exposed new revenue stream; management has not said how the duty is shared. PTC's US customers (Blue Origin, Honeywell) buy aerospace parts that are generally covered by separate civil-aircraft rules, though this report has not verified the treatment line by line. A further risk is the US Department of Defense's identification of castings and forgings as one of four areas of pressing supply-chain concern, which supports US foundries' requests to extend the lists. The next inclusion window for auto parts is expected in January 2027.</p>
+
+<h3>Europe: CBAM goes live</h3>
+
+<p>The EU's Carbon Border Adjustment Mechanism entered its definitive phase on 1 January 2026. Importers of covered iron and steel products, including some articles in chapters 72 and 73 (such as 7318 and 7326), must report embedded emissions and buy certificates priced off the EU carbon market. For Indian castings and forgings exported to the EU in covered codes, that is a new cost and a new compliance burden, with more weight on suppliers whose electricity is coal-heavy. It is relevant to AIA (European cement customers), to Balu and to any CIE India exports to Europe; whether grinding balls (7325) fall within the covered codes has not been verified for this report. The flip side is that foundries running electric induction furnaces on renewable power, as AIA partly does with its captive wind and solar and its new hybrid plant, will carry a lower certificate cost than coke-fired MSMEs.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The US now charges a 50% tax on the whole value of steel grinding balls and many other steel castings and forgings, and 25% on truck and car parts. That mostly closes the US to Indian suppliers in those products unless they have something US buyers cannot get elsewhere. Europe now charges for the carbon in imported steel goods. Neither is decisive for these four today, because their big markets lie elsewhere, but both narrow the export routes for anyone hoping to grow by shipping more steel to rich countries.</p>
+</div>
+
+<h3>At home: indigenisation, corridors and pollution rules</h3>
+
+<p>Indian policy pulls the other way for the defence-exposed members. The Defence Acquisition Procedure (DAP-2020) and the Ministry of Defence's positive-indigenisation lists (several hundred items that must be sourced domestically) push orders to Indian suppliers, and about 75% of the capital procurement budget is earmarked for domestic industry; Balu cites a FY26 defence budget of ₹7.84 lakh crore and national targets of ₹3 lakh crore of defence production and ₹50,000 crore of exports by FY30. The Uttar Pradesh and Tamil Nadu Defence Industrial Corridors provide land and approvals, and PTC's Aerolloy complex sits in the Lucknow node. PTC has "Green Channel" status with the Directorate General of Quality Assurance, which speeds acceptance. Exports of shells and other military items need SCOMET licences from the DGFT, which matters for Balu's NATO-linked contracts. Large-calibre ammunition has been opened to private manufacturers, though shell bodies were long subcontracted.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Policy and regulation: who is affected, and how</caption>
+  <thead><tr><th>Measure</th><th>Status</th><th>AIA</th><th>PTC</th><th>CIE</th><th>Balu</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">US Sec 232 steel derivatives (50%, full value)</td><td>Full-value basis from 6 Apr 2026</td><td>Grinding balls to the US (small share)</td><td>Limited</td><td>US machined-castings programme</td><td>Crankshafts to the US</td></tr>
+    <tr><td class="t-strong">US Sec 232 vehicle parts (25%)</td><td>Cars from May 2025; MHDV from 1 Nov 2025</td><td>—</td><td>—</td><td>Any US auto-part exports</td><td>CV crankshafts</td></tr>
+    <tr><td class="t-strong">US Sec 301 (10%)</td><td>From 24 Jul 2026; under challenge</td><td>Non-232 goods</td><td>Non-232, non-aircraft goods</td><td>—</td><td>Non-232 goods</td></tr>
+    <tr><td class="t-strong">EU CBAM</td><td>Definitive from 1 Jan 2026</td><td>EU cement customers; code coverage unverified</td><td>—</td><td>India-to-Europe flows</td><td>EU exports</td></tr>
+    <tr><td class="t-strong">Defence indigenisation (DAP-2020, positive lists)</td><td>Ongoing</td><td>—</td><td>Titanium castings, missile and gun parts</td><td>—</td><td>Shell bodies, armoured-vehicle parts</td></tr>
+    <tr><td class="t-strong">SCOMET export licensing</td><td>Ongoing</td><td>—</td><td>Defence exports</td><td>—</td><td>NATO-linked shells</td></tr>
+    <tr><td class="t-strong">RoDTEP export rebates</td><td>Ongoing</td><td>₹64.4 Cr export benefits FY26</td><td>Small</td><td>Small</td><td>Exports</td></tr>
+    <tr><td class="t-strong">Critical minerals mission (titanium listed)</td><td>Ongoing</td><td>—</td><td>Supports Odisha sponge plan</td><td>—</td><td>—</td></tr>
+    <tr><td class="t-strong">Pollution norms (CPCB/SPCB, NGT)</td><td>Ongoing</td><td>Induction furnaces, captive renewables</td><td>Vacuum furnaces</td><td>Forge emissions</td><td>New Belagavi plant</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>Other domestic measures are secondary. The auto-components PLI scheme (₹25,938 crore) rewards advanced automotive technology; CIE is not a notable beneficiary. RoDTEP export rebates appear in AIA's "other operating income" (₹64.4 crore in FY26, ₹14.8 crore in the Jun-2026 quarter). Titanium is on India's list of 30 critical minerals, which supports PTC's proposed sponge plant. BIS quality-control orders on special steels raised input costs for importers in 2024–25. India has no anti-dumping duty on grinding media or the castings relevant to these members. Pollution rules raise costs for small foundries more than for the members, and so act as a slow consolidation force. Finally, monetary policy has tightened: the RBI raised the repo rate to 5.50% on 7 October 2026, which matters little to these largely ungeared companies directly but does affect their vehicle and capital-goods customers.</p>
+</section>
+
+<section class="part" id="p12">
+<div class="part-head"><span class="pno">12</span><h2>Booms, busts and wars: six decades in one timeline</h2></div>
+<p class="part-sub">Forgers follow the vehicle cycle with leverage, AIA follows ore milled with an annuity's smoothing, aerospace follows build rates and qualification, and defence follows budgets and wars. The four rarely peak together.</p>
+
+<p>The history of these companies is a history of separate cycles that occasionally collide. Before 2000, India's foundries and forges were MSME clusters serving pumps, valves, textile machinery and a small auto industry; PTC (1963) and AIA (1978) were born in that world. The 2003–2008 commodity super-cycle brought a mining capex boom and the first Indian auto-part exports; AIA listed in 2005 and built its Vega network. The 2008–09 crash hit forgers hard on both continents. In 2013 CIE took control of Mahindra's forging and component businesses, including European plants in Germany, Italy, Lithuania and the UK. Between 2016 and 2020 AIA's mining business overtook cement and its capacity passed 300,000 tonnes.</p>
+
+<p>The 2020s brought three shocks in quick succession. Covid in 2020 and the freight and commodity spike of 2021–22 inflated AIA's realisations and revenue (FY23's ₹4,909 crore was a peak) while volumes barely moved. Russia's invasion of Ukraine in February 2022 then did three things at once: it pushed Western aerospace to look for non-Russian titanium (PTC's opportunity), created a NATO artillery-shell shortage (Balu's), and sent European energy prices soaring, which led CIE to exit its German forging business at a loss in 2022. And in 2025–26 trade policy and war returned: US Section 232 tariffs on auto parts and steel derivatives, the Supreme Court's IEEPA ruling, the West Asia war of February–April 2026, and the Section 301 regime from July 2026.</p>
+
+<ul class="timeline">
+  <li><div class="yr">1963 · 1978</div><div class="ev">PTC (Precision Tools &amp; Castings) incorporated in Lucknow; Bhadresh Shah founds Ahmedabad Induction Alloys, the seed of AIA.</div></li>
+  <li><div class="yr">2005</div><div class="ev">AIA Engineering IPO; overseas Vega distribution network built in the mining boom.</div></li>
+  <li><div class="yr">2008–09</div><div class="ev">Global crash hits Indian and European forgers; CIE S.A. expands by acquisition.</div></li>
+  <li><div class="yr">2012</div><div class="ev">Sigdo Koppers buys Magotteaux, AIA's main high-chrome rival, for about US$790 m.</div></li>
+  <li class="major"><div class="yr">Jun 2013</div><div class="ev">CIE S.A. takes control of Mahindra's forging and components businesses (incl. Mahindra Forgings Europe) → Mahindra CIE.</div></li>
+  <li><div class="yr">2016</div><div class="ev">Mahindra CIE buys Bill Forge (~₹1,331 Cr). AIA's mining pivot gathers pace through 2020.</div></li>
+  <li><div class="yr">2017</div><div class="ev">American Industrial Partners buys Moly-Cop, the largest forged-media maker.</div></li>
+  <li class="major"><div class="yr">Feb 2022</div><div class="ev">Russia invades Ukraine: Western titanium de-risking from VSMPO, NATO shell shortage, European energy shock; CIE exits German forging (CY22 reported loss).</div></li>
+  <li><div class="yr">May 2023</div><div class="ev">Mahindra exits; company renamed CIE Automotive India. Nov 2023: Safran LEAP castings contract for PTC.</div></li>
+  <li><div class="yr">2024</div><div class="ev">AIA's first buyback (₹500 Cr at ₹5,000); PTC's ₹700 Cr QIP (Sep); Canada sanctions VSMPO; PTC completes Trac acquisition (19 Dec); AIA's volume falls 14% in FY25.</div></li>
+  <li><div class="yr">2025</div><div class="ev">US 232: car parts 25% (May), steel derivatives 50% and list expansion (Jun–Aug), MHDV parts 25% (1 Nov). Balu commissions its automated shell line (Dec).</div></li>
+  <li class="major"><div class="yr">Jan–Apr 2026</div><div class="ev">CBAM definitive phase (1 Jan); Balu IT search (7 Jan); PTC PAM furnace; SCOTUS strikes IEEPA tariffs (20 Feb); West Asia war (28 Feb–7 Apr); Sec 232 full-value basis (6 Apr).</div></li>
+  <li><div class="yr">Jul–Aug 2026</div><div class="ev">Section 301 10% on India from 24 Jul; PTC–Airbus titanium castings agreement; Q1 FY27 results.</div></li>
+  <li class="major"><div class="yr">Oct 2026</div><div class="ev">RBI repo to 5.50% (7 Oct); PTC ₹1,800 Cr QIP (13 Oct) and Safran LEAP titanium order (14 Oct); CIE Q3 CY26 results (22 Oct).</div></li>
+</ul>
+
+<p>The cycle pattern for each archetype is distinct. Forgers like CIE follow vehicle production with roughly 1.5–2 times operating leverage on the way up and down (an INDICATIVE rule of thumb): a 10% swing in volume moves operating profit by 15–20%. AIA follows ore milled and commodity prices, smoothed by the annuity nature of consumables and by the lag in re-pricing; its worst recent year (FY25, volume −14%) still produced a 27% operating margin. Aerospace follows aircraft build rates over multi-year programmes, punctuated by qualification steps. Defence follows budgets and wars, with orders that arrive in lumps. Because these rarely coincide, the group's combined margin has been remarkably stable even as individual members swung.</p>
+
+<div class="chart">
+  <div class="c-title">Combined PAT of the four members</div>
+  <div class="c-sub">₹ Cr, screener consolidated reported PAT; CIE on calendar year (CY22 includes the German-exit write-down; continuing-operations PAT that year was ₹673.5 Cr)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22 / CY21</div><div class="track"><span class="fill spec" style="width:43%"></span></div><div class="bval">1,056</div></div>
+    <div class="bar-row"><div class="blab">FY23 / CY22</div><div class="track"><span class="fill bad" style="width:40.1%"></span></div><div class="bval">985</div></div>
+    <div class="bar-row"><div class="blab">FY24 / CY23</div><div class="track"><span class="fill spec" style="width:97.5%"></span></div><div class="bval">2,397</div></div>
+    <div class="bar-row"><div class="blab">FY25 / CY24</div><div class="track"><span class="fill spec" style="width:87.6%"></span></div><div class="bval">2,153</div></div>
+    <div class="bar-row"><div class="blab">FY26 / CY25</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">2,458</div></div>
+  </div>
+</div>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Operating margin through the cycle, % (screener consolidated; CIE on calendar year)</caption>
+  <thead><tr><th>Year</th><th class="num">AIA</th><th class="num">PTC</th><th class="num">CIE</th><th class="num">Balu</th><th>What happened</th></tr></thead>
+  <tbody>
+    <tr><td>FY22 / CY21</td><td class="num">20</td><td class="num">24</td><td class="num">14</td><td class="num">13</td><td>Freight and alloy spike; Covid recovery</td></tr>
+    <tr><td>FY23 / CY22</td><td class="num">25</td><td class="num">27</td><td class="num">13</td><td class="num">15</td><td>AIA re-prices; Europe energy shock</td></tr>
+    <tr><td>FY24 / CY23</td><td class="num">28</td><td class="num">28</td><td class="num">15</td><td class="num">21</td><td>AIA volume peak; CIE Europe margin peak</td></tr>
+    <tr><td>FY25 / CY24</td><td class="num">27</td><td class="num">24</td><td class="num">15</td><td class="num">27</td><td>AIA volume −14%; Trac consolidated</td></tr>
+    <tr><td>FY26 / CY25</td><td class="num">29</td><td class="num">22</td><td class="num">14</td><td class="num">27</td><td>Rupee weakens; Trac full year dilutes PTC</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>The Jun-2026 quarter shows the hedging at work. Combined revenue rose 14.6% and operating profit 14.9%, leaving the combined operating margin flat at 19.4%. Underneath, the aerospace and defence members (PTC and Balu) grew revenue about 49% and operating profit about 65%; CIE grew revenue about 11% with a slightly higher margin; and AIA grew revenue 12% with flat operating profit, its margin down about three points. AIA's squeeze was the single biggest drag on the group, offset by the others.</p>
+
+<div class="chart">
+  <div class="c-title">Jun-2026 quarter: who drove the group</div>
+  <div class="c-sub">Year-on-year growth in operating profit, Jun-2026 vs Jun-2025 quarter, screener consolidated (CIE: Q2 CY26; others: Q1 FY27). Bars scaled to 70%</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">PTC + Balu<small>OP 81 → 134</small></div><div class="track"><span class="fill gold" style="width:93.4%"></span></div><div class="bval">+65.4%</div></div>
+    <div class="bar-row"><div class="blab">CIE<small>OP 337 → 390</small></div><div class="track"><span class="fill wtg" style="width:22.4%"></span></div><div class="bval">+15.7%</div></div>
+    <div class="bar-row"><div class="blab">All members<small>OP 724 → 832</small></div><div class="track"><span class="fill spec" style="width:21.3%"></span></div><div class="bval">+14.9%</div></div>
+    <div class="bar-row"><div class="blab">AIA<small>OP 306 → 308</small></div><div class="track"><span class="fill brand" style="width:1%"></span></div><div class="bval">+0.7%</div></div>
+  </div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Each member has its own boom-and-bust rhythm: vehicles for CIE, mines for AIA, aircraft programmes for PTC and wars for Balu. Wars, in particular, have been good for two of the four (titanium de-risking and shell demand) and bad for a third (Europe's energy shock hurt CIE). Do not expect them to rise or fall together.</p>
+</div>
+</section>
+
+<!--CONTINUE-->
+
+</main>
+</div>
+</div>
+</body>
+</html>
