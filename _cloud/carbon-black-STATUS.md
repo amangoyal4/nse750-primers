@@ -24,7 +24,7 @@ Indian carbon black: <em>tyres, crude and the per-tonne spread</em>
 ## Forces
 1. The spread cycle: formula pricing with a feedstock lag; EBITDA/t is the number (PCBL FY26 ~₹14,900 → Q1 FY27 ₹22,900 incl. ~₹70 Cr inventory gain; FY27 guide ₹16,500–17,000; Rain Carbon ₹7,702 CY25 → ₹13,653 Q2 CY26).
 2. Tyres as the anchor customer (~60–65% of Indian CB), and the export arbitrage after the EU ban on Russian black (India exports 443.9 kt FY26, 130.3 kt to the EU-27; imports 130.2 kt). There is no anti-dumping shield: the duty ran ~2010–2020 and renewal was declined on 5-Jan-2021.
-3. The 2026 oil shock: a windfall quarter and a working-capital drain (Himadri H1 FY27 operating cash flow −₹154 Cr; Brent per EIA 17 Apr, 5 Jun, 14 Sep, 25.6 week to 16-Oct).
+3. The 2026 oil shock: a windfall quarter and a working-capital drain (Himadri H1 FY27 operating cash flow −₹154 Cr; Brent per EIA $117 Apr, $85 Jun, $114 Sep, $125.6 week to 16-Oct).
 4. Leverage and capital allocation (PCBL 5.02× CARE with two Negative outlooks; Himadri swings from net cash to ₹519.8 Cr net debt; Rain US$892 m net debt, minorities take 69% of PAT, thin goodwill headroom).
 5. Specialty, conductive and battery-materials bets (Himadri LFP/anode/Sicona; PCBL Nanovace with Kindia; specialty volumes).
 
@@ -53,7 +53,7 @@ Hand-check (company rows PCBL 8,549/1,120/259/259/4,536/11,495; HSCL 4,975/1,006
 - Returns-vs-valuation map: all 3 dot coordinates match ROCE/EV/EBITDA on the plotted scale.
 
 ## Labelled ILLUSTRATIVE / INDICATIVE
-India capacity 2.2–2.4 mtpa, consumption, capacity-share bar; domestic market value and global US$18–22 bn value; Himadri carbon-black share of revenue (40–50%); both ₹100-of-revenue breakdowns; decomposition of PCBL's ₹22,900/t (underlying ~₹16,400 / power ~₹1,950 / inventory ~₹4,550); per-tonne worked examples, PCBL FY27 bridge, spread scenarios and sensitivities (0/bbl ≈ ₹10,500–11,000/t of CB); oil-lag path chart; specialty-mix example; 150-ktpa plant P&L and chart; payback and incremental-ROCE examples; working-capital sensitivity; rupee effect on Rain debt; Q1 FY27 tyre-export run-rate; battery market-share and revenue-potential figures; Birla export share; US$/t conversions; benchmark bands and watch thresholds. Single-source/snippet items flagged in text: BKT 360 ktpa, Orion, Cabot, GST 2.0 tyre rate, the Feb-2026 "18%" US framework.
+India capacity 2.2–2.4 mtpa, consumption, capacity-share bar; domestic market value and global US$18–22 bn value; Himadri carbon-black share of revenue (40–50%); both ₹100-of-revenue breakdowns; decomposition of PCBL's ₹22,900/t (underlying ~₹16,400 / power ~₹1,950 / inventory ~₹4,550); per-tonne worked examples, PCBL FY27 bridge, spread scenarios and sensitivities ($10/bbl ≈ ₹10,500–11,000/t of CB); oil-lag path chart; specialty-mix example; 150-ktpa plant P&L and chart; payback and incremental-ROCE examples; working-capital sensitivity; rupee effect on Rain debt; Q1 FY27 tyre-export run-rate; battery market-share and revenue-potential figures; Birla export share; US$/t conversions; benchmark bands and watch thresholds. Single-source/snippet items flagged in text: BKT 360 ktpa, Orion, Cabot, GST 2.0 tyre rate, the Feb-2026 "18%" US framework.
 
 ## Figures not sourced or not reconciled
 - Dossier arithmetic error (fixed in the report, not in the dossier): its "$10/bbl → ₹1,000–1,200/t CB" is 10× too low; the report uses ~₹10,500–11,000/t, labelled illustrative.
