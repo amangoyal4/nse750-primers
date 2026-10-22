@@ -807,7 +807,7 @@ Standardised figures: **screener.in consolidated, fetched 22-Oct-2026 (prices = 
 
 | Company | Latest FY | Revenue | YoY % | OP | OPM % | PAT | Jun-26 qtr rev | YoY % | Qtr OPM % | Qtr PAT | M-cap | % of group m-cap | P/E | EV/EBITDA | Volume / capacity | Native KPI (latest) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| AIA Engineering | FY26 | 4,420 | +3.1 | 1,261 | 28.5 | 1,269 | 1,168 | +12.4 | 26.4 | 301 | 33,472 | 36.1 | 26.4 | 23.1× | 64,644 t Q1 FY27; 4.36 lakh t | Op. EBITDA ~₹48/kg [E] |
+| AIA Engineering | FY26 | 4,420 | +3.1 | 1,261 | 28.5 | 1,269 | 1,168 | +12.4 | 26.4 | 301 | 33,472 | 36.1 | 26.4 | 23.1× | 64,644 t Q1 FY27; 4.36 lakh t | Op. EBITDA ~₹49/kg [E] (1,261 Cr ÷ 258,002 t) |
 | PTC Industries | FY26 | 603 | +95.8 | 134 | 22.2 | 102 | 192 | +97.9 | 25.5 | 29 | 39,800 | 42.9 | 317 | ~286× (FY26) | VAR 1,500 tpa | Aerolloy 45% EBITDA |
 | CIE Automotive India | **CY25** | 9,406 | +4.9 | 1,362 | 14.5 | 828 | 2,621 (Q2 CY26) | +10.6 | 14.9 | 236 | 14,019 | 15.1 | 15.6 | 9.3× | n.d. | India 16.7% / Europe 15.9% |
 | Balu Forge | FY26 | 1,107 | +19.8 | 300 | 27.1 | 259 | 301 | +29.2 | 28.2 | 66 | 5,471 | 5.9 | 20.4 | 18.7× | 150k MTPA forging (target) | Defence ~50% of order book |
@@ -945,3 +945,6 @@ Notes: CIE's "latest FY" is CY2025 (Jan–Dec 2025), three months earlier than t
 - **Tariffs:** https://www.theweek.in/news/biz-tech/2026/07/24/us-tariffs-section-301-india.html · https://www.gktoday.in/india-gets-lower-us-tariff-rate-under-section-301/ · https://www.basispointinsight.com/Story/why-most-indian-exports-to-us-will-get-tariff-relief-from-july-24-and-why-this-may-not-last-long_0ef10a2bfe31.html · https://www.moderncasting.com/node/3098
 - **Titanium/VSMPO:** https://www.exterrajsc.com/p/russias-titanium-grip · https://www.kyivpost.com/amp/post/31597
 - **Autos:** https://www.vda.de/en/press/press-releases/2025/251208_PM_Forecasts_2026 · https://ianslive.in/passenger-vehicle-sales-up-254-pc-to-437312-units-in-april-siam-data--20260514130448
+
+## 3.6 Orchestrator re-add check (22-Oct-2026)
+Every Part 3 aggregate was re-added from the company rows: all-four revenue 15,536 / OP 3,057 / PAT 2,458 / m-cap 92,762; ex-CIE 6,130 / 1,695 / 1,630 / 78,743; PTC+Balu 1,710 / 434 / 361 / 45,271; AIA+CIE 13,826 / 2,623 / 2,097 / 47,491; Jun-26 quarter revenue 4,282 and PAT 632; net cash 5,298 (pro-forma 7,096). All agree. One fix: AIA operating EBITDA per kg in the §3.1 grid read ~₹48; 1,261 Cr ÷ 258,002 t = ₹48.9/kg, so it now reads ~₹49 (consistent with §2.0). Part 4's Supersedes table (when written) overrides these rows; aggregates will be re-checked after it.

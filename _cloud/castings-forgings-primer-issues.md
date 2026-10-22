@@ -1,0 +1,34 @@
+# Primer issues — Castings & Forgings
+
+## From Castings & Forgings research (2026-10-22, castings-forgings-industry.md §3.4)
+
+- **aia-engineering.html — valuation stale:** m-cap ~₹44,400 Cr → **₹33,472 Cr**; P/E ~35× → **26.4×** (price ₹3,587; 52-wk ₹3,220–5,180). Rewrite the "How to think about the ~35× multiple" box and the bull/bear "Full valuation" bullet.
+- **aia-engineering.html — disclaimer revenue basis wrong:** "revenue from operations (~₹4,355 Cr) versus total income (~₹4,420 Cr)". Screener shows **sales ₹4,420 Cr and other income ₹485 Cr**, i.e. total income ~₹4,905 Cr. Verify the ₹4,355 Cr figure (it may be revenue ex-other-operating-income) and restate.
+- **aia-engineering.html — cash conversion overstated:** "operating cash flow ran well over ₹1,000 Cr" — true for FY25 (₹1,162 Cr) but **FY26 CFO was ₹592 Cr** (CFO/OP 69%); debtor days rose 70 → 97 and inventory days 214 → 270; CCC 243 → 320 days. Add a working-capital caveat (§07/§10).
+- **aia-engineering.html — capex guidance stale:** "~₹100–150 Cr guided" → **FY27 ₹350–400 Cr** (incl. ₹170–200 Cr dedicated plot + corporate house; ₹50–100 Cr land). Q1 FY27 capex ₹50 Cr.
+- **aia-engineering.html — internal contradiction on rank:** text says world's **#2**; the moat stat card reads "#2 — World's largest high-chrome grinding-media maker by sales". Make it "#2" consistently (or source "largest").
+- **aia-engineering.html — Q1 FY27 omitted (refreshed 4-Jul):** volume 64,644 t (+7.5% YoY; mining 39,228 t), sales ₹1,168 Cr (+12%), OP ₹308 Cr (OPM 26% vs 29.5%), PAT ₹301 Cr (−1%), **order book ₹977 Cr**, **no FY27 tonnage guidance**, freight $8–9k/container, ferro-chrome elevated, no buyback planned.
+- **aia-engineering.html — conversion pool:** primer "~2–2.8 mt"; AIA's own subsidiary Welcast cites **~2.5 mt mining consumption, ~20% shifted** — cite it. Also note HPGR/stirred mills as a technology risk (absent).
+- **ptc-industries.html — Trac Precision Solutions (UK) omitted entirely:** acquired (completed 19-Dec-2024); **Q1 FY27 total income ₹71.4 Cr (36% of group), EBITDA ₹6.1 Cr (8.5%)**. The "+96% FY26 growth" is partly inorganic — the §09 narrative ("an inflection as the aerospace mix scaled") must be corrected and the "two businesses" model (§02) becomes three.
+- **ptc-industries.html — QIP now done:** "board approved Jun 2026" → **₹1,800 Cr QIP completed 13-Oct-2026, 8,54,700 shares at ₹21,060**. Promoter ~60% → **56.46%**; FII 8.39%. Balance sheet moves to net cash (~₹1,500 Cr pro-forma).
+- **ptc-industries.html — valuation stale:** m-cap ~₹26,500 Cr → **₹39,800 Cr**; P/E ~260× → **317× TTM** (~390× FY26).
+- **ptc-industries.html — new customers/orders:** add **Airbus** titanium castings agreement (A320neo/A330neo/A350; Aug-2026), **Safran LEAP titanium castings development order + long-term production MoU (14-Oct-2026)**, BrahMos missile sub-system, ARDE-DRDO titanium cradle (105 mm Light Tank), Gun Factory Kanpur artillery components.
+- **ptc-industries.html — Q1 FY27 omitted (refreshed 12-Jul):** total income ₹197.1 Cr (+83%), EBITDA ₹54.2 Cr (27.5%), PAT ₹29.2 Cr (+466%); Aerolloy ₹74.3 Cr income, 45.0% EBITDA, ₹22.1 Cr PAT.
+- **ptc-industries.html — capacity numbers missing:** add VAR 1,500 tpa, EB cold-hearth 5,000 tpa, PAM ~600 tpa (Jan-2026), site plan peak 5,000 tpa.
+- **ptc-industries.html — sponge-maker list incomplete:** "only the US, Russia, Kazakhstan and Japan make aerospace-grade titanium sponge" omits **China** (largest sponge producer, some aerospace grade) and India's own **KMML/DMRL Chavara** sponge plant (small). Soften to "a handful of countries — chiefly the US, Japan, Russia, Kazakhstan and China".
+- **ptc-industries.html — EBITDA basis:** ~₹172 Cr "company basis (incl. other income)" vs screener OP ₹134 Cr (22%). The stat "~27–32% EBITDA margin" should read "~22% operating (screener), ~28% incl. other income".
+- **ptc-industries.html — cash burn not shown:** FY26 CFO −₹69 Cr, FCF −₹386 Cr (third negative year); inventory days ~1,030. Add to §09 bear case.
+- **cie-automotive-india.html — revenue basis:** CY25 ₹9,122 Cr (company) vs screener **₹9,406 Cr**. Label the basis on the stat card and charts; same ~3% gap each quarter.
+- **cie-automotive-india.html — valuation stale:** m-cap ~₹17,900 Cr → **₹14,019 Cr**; P/E ~21× → **15.6×**; P/B ~2.4× → **1.81×**; price ~₹473 → ₹370 (52-wk low ₹366).
+- **cie-automotive-india.html — Q2 CY26 omitted (refreshed 17-Jul):** company sales ₹2,543 Cr (+11%); India ₹1,655 Cr (+13%) at **16.7% EBITDA (down from 17.5%)** on West-Asia-driven energy/consumables inflation; Europe ₹888 Cr (+7% in ₹, **−6% in €**) at 15.9% (from 12.5%); H1 CY26 PAT ₹485 Cr (+18%); net cash ₹1,416 Cr (Jun-26); RONA 19.4%. The primer's "India margin stable ~17–18%" thesis marker went the wrong way this quarter.
+- **cie-automotive-india.html — net cash:** ~₹1,881 Cr → ₹1,416 Cr (Jun-26, company).
+- **cie-automotive-india.html — "European operations sit in Italy, Spain, Lithuania and Mexico":** Mexico is not in Europe. Say "Europe (Italy, Spain, Lithuania) plus Mexico, reported within the Europe/overseas segment" and mention the Q2 CY26 Mexico customer renegotiation.
+- **cie-automotive-india.html — new items:** iron-casting export project (~₹200 Cr/yr from Q3/Q4 CY26); H2 CY26 capex step-up at Chakan/Bengaluru; merger scheme notices dispatched 8-Oct-2026; Q3 CY26 results 22-Oct-2026.
+- **balu-forge.html — valuation stale:** m-cap ~₹7,760 Cr → **₹5,471 Cr**; P/E ~29× → **20.4×** (price ₹451; 52-wk ₹341–667). The repeated "near 29× earnings" framing (§00, §04, §09, §10) needs rewriting.
+- **balu-forge.html — cash conversion should be quantified:** FY26 **CFO ₹32 Cr vs PAT ₹259 Cr**; FCF −₹322 Cr; **debtor days 140**; CCC 182. The primer describes the debate qualitatively only.
+- **balu-forge.html — funding detail:** add the ₹496.8 Cr preferential issue incl. 93 lakh warrants at ₹360 (conversions Feb–Mar 2026); equity capital ₹111 → ₹121 Cr.
+- **balu-forge.html — shareholder table:** "Government" category **3.81%** (since Dec-24) not mentioned; identify the holder. FII down from 10.4% (Sep-24) to 5.1%.
+- **balu-forge.html — Q1 FY27 omitted (refreshed 28-Aug):** revenue ₹301 Cr (+29%), EBITDA 28.2% (31%), PAT ₹66 Cr (+16%); 155 mm ERFB pilot order (10,000 units).
+- **balu-forge.html — capacity base:** give the starting points (forging 100,000 → 150,000 MTPA; machining 45,000 → 80,000 MTPA) and the Hattargi 8,000 t press / 25 t hammer.
+- **General (all four):** none mentions **US Section 232** (25% on specified auto parts — relevant to crankshafts/axle forgings; 50% steel derivatives — check grinding balls), the **Section 301 10% regime from 24-Jul-2026**, **EU CBAM (definitive from 1-Jan-2026)**, or India's position as **#2 global castings (15.86 mt) and forgings (~2.9 mt) producer**. Market caps moved −22% to −29% (AIA, CIE, Balu) and +50% (PTC) since the primers.
+
