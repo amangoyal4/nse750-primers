@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Financial Holding Companies — Sub-sector Report</title>
+<meta name="description" content="A complete guide to India's listed financial holding companies, Cholamandalam Financial Holdings and Religare Enterprises: the holdco discount, look-through earnings, RBI and IRDAI rules, and the NBFC and insurance jewels underneath.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#1A931A;          /* holdco green */
+    --brand-bright:#228B3B;   /* readable bright green accent */
+    --gold:#B8860B;           /* dark goldenrod accent */
+    --wtg:#3E7C5A;            /* sage green */
+    --epc:#7FA650;            /* olive green */
+    --om:#2F6B8A;            /* steel blue (contrast) */
+    --spec:#228B3B;          /* bright green accent */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#1A931A,#3BAA4F);}
+  .fill.gold{background:linear-gradient(90deg,#B8860B,#D4A537);}
+  .fill.wtg{background:linear-gradient(90deg,#3E7C5A,#5C9A78);}
+  .fill.om{background:linear-gradient(90deg,#2F6B8A,#4E88A6);}
+  .fill.spec{background:linear-gradient(90deg,#228B3B,#4DB862);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Finance · Holding Companies</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> What a holdco makes</a></li>
+    <li><a href="#p2"><span class="n">02</span> Size &amp; growth</a></li>
+    <li><a href="#p3"><span class="n">03</span> The businesses underneath</a></li>
+    <li><a href="#p4"><span class="n">04</span> Where ₹100 goes</a></li>
+    <li><a href="#p5"><span class="n">05</span> Who owns the jewels</a></li>
+    <li><a href="#p6"><span class="n">06</span> Four ways to hold a jewel</a></li>
+    <li><a href="#p7"><span class="n">07</span> Regulators hold the keys</a></li>
+    <li><a href="#p8"><span class="n">08</span> ₹1 of Chola for 43 paise</a></li>
+    <li><a href="#p9"><span class="n">09</span> Whose profit is it?</a></li>
+    <li><a href="#p10"><span class="n">10</span> Religare after the RBI said no</a></li>
+    <li><a href="#p11"><span class="n">11</span> Chola MS in a soft market</a></li>
+    <li><a href="#p12"><span class="n">12</span> Care Health's land-grab year</a></li>
+    <li><a href="#p13"><span class="n">13</span> Capital flows down, not up</a></li>
+    <li><a href="#p14"><span class="n">14</span> A century, two families</a></li>
+    <li><a href="#p15"><span class="n">15</span> Reading a holdco: the KPIs</a></li>
+    <li><a href="#p16"><span class="n">16</span> The peer table</a></li>
+    <li><a href="#p17"><span class="n">17</span> Who is winning</a></li>
+    <li><a href="#p18"><span class="n">18</span> Company profiles</a></li>
+    <li><a href="#p19"><span class="n">19</span> The global lens</a></li>
+    <li><a href="#p20"><span class="n">20</span> Technology &amp; disruption</a></li>
+    <li><a href="#p21"><span class="n">21</span> Bull vs bear</a></li>
+    <li><a href="#p22"><span class="n">22</span> What to watch</a></li>
+    <li><a href="#p23"><span class="n">23</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Finance · Holding Companies</span>
+    <span class="tag gold">2 listed companies</span>
+  </div>
+  <h1>Financial holding companies: <em>a rupee of value for 44 paise</em></h1>
+  <p class="dek">A complete guide to India's two listed financial holding companies, Cholamandalam Financial Holdings and Religare Enterprises: what a holding company actually produces, why the market prices each of them at well under half the value of what they own, how the RBI and IRDAI hold the keys to every unlock, and how a vehicle lender, a general insurer and a health insurer underneath them are running on three different cycles at once.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹31,892 <small>Cr</small></div><div class="l">Combined m-cap, 22 Oct 2026</div></div>
+    <div class="cell"><div class="v">~₹72,700 <small>Cr</small></div><div class="l">Look-through NAV (indicative)</div></div>
+    <div class="cell"><div class="v">~56%</div><div class="l">Combined discount to NAV (indicative)</div></div>
+    <div class="cell"><div class="v">₹2.54 <small>lakh Cr</small></div><div class="l">CIFC Total AUM, Jun 2026</div></div>
+    <div class="cell"><div class="v">₹20,321 <small>Cr</small></div><div class="l">FY26 GWP, Chola MS + Care (Care full-premium basis)</div></div>
+    <div class="cell"><div class="v">₹24 <small>Cr</small></div><div class="l">Dividends paid FY26 vs ₹2,527 Cr attributable PAT</div></div>
+  </div>
+  <p class="prov">Basis: FY26 (year to 31 Mar 2026) and Q1 FY27 (Apr–Jun 2026) company figures, the latest reported quarter for both members; market prices at the close of 22 Oct 2026. Industry data from the General Insurance Council (FY26 and H1 FY27), RBI and IRDAI instruments, company annual reports, presentations and call transcripts. NAV, discount and look-through figures are indicative estimates and are labelled as such.</p>
+</header>
+
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: two wrappers, three jewels and a widening discount</h2></div>
+<p class="part-sub">Each of India's two listed financial holdcos owns one very valuable thing. The market prices each wrapper far below what it holds, and in 2026 the gap got wider.</p>
+
+<p class="lead">A financial holding company makes nothing. Cholamandalam Financial Holdings (CFHL) owns 43.74% of Cholamandalam Investment and Finance (CIFC), one of India's best-run vehicle and small-business lenders, plus 60% of Chola MS General Insurance and 49.5% of a small risk-services firm. Religare Enterprises (REL) owns 63.20% of Care Health Insurance, the country's second-largest standalone health insurer, plus a cash-rich lending shell, a small stockbroker and a small housing-finance company. Both are registered with the Reserve Bank of India as Core Investment Companies (CICs), which means at least 90% of what they own must sit in group companies. Each holdco is, in effect, a listed ticket to one jewel.</p>
+
+<p>On 22 October 2026 the two tickets were worth ₹31,892 crore together: ₹24,714 crore for CFHL at ₹1,316 a share and ₹7,178 crore for Religare at ₹208. What they own, valued on market prices where they exist and on stated assumptions where they do not, is worth about ₹72,700 crore (indicative). That is a combined discount of roughly 56%: a buyer of the two wrappers pays about 44 paise for each rupee of underlying value. CFHL's discount alone is about 60% to its sum-of-the-parts and about 57% to its CIFC stake by itself, ignoring everything else it owns. Religare's is about 37% in our base case, but anywhere from 5% to 50% depending on what Care Health is worth, because Care has no market price.</p>
+
+<div class="chart">
+    <div class="c-title">What the wrappers cost versus what they hold</div>
+    <div class="c-sub">₹ crore. Market cap at the 22 Oct 2026 close; look-through NAV is an INDICATIVE base-case sum-of-the-parts (CIFC stake = 37,28,85,889 shares × ₹1,531; Chola MS at 2.0× net worth; Care Health at ₹16,000 Cr for 100%). Source: screener.in, CFHL AR FY26, company presentations; estimates as labelled</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">CFHL look-through NAV<small>indicative</small></div><div class="track"><span class="fill brand" style="width:94.4%"></span></div><div class="bval">61,348</div></div>
+      <div class="bar-row"><div class="blab">CFHL's CIFC stake alone<small>shares × price</small></div><div class="track"><span class="fill spec" style="width:87.8%"></span></div><div class="bval">57,089</div></div>
+      <div class="bar-row"><div class="blab">CFHL market cap</div><div class="track"><span class="fill gold" style="width:38.0%"></span></div><div class="bval">24,714</div></div>
+      <div class="bar-row"><div class="blab">REL look-through NAV<small>indicative</small></div><div class="track"><span class="fill brand" style="width:17.4%"></span></div><div class="bval">11,318</div></div>
+      <div class="bar-row"><div class="blab">REL market cap</div><div class="track"><span class="fill gold" style="width:11.0%"></span></div><div class="bval">7,178</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹65,000 Cr. CFHL's market value is less than half of one line in its own balance sheet, the listed CIFC stake that anyone can price on a screen.</span></div>
+  </div>
+
+<p>Five forces shape everything in this report, and the sections that follow are built around them.</p>
+<ul class="clean">
+  <li><strong>The holding-company discount is structural, and in 2026 it widened.</strong> CFHL's discount to its CIFC stake moved from about 53–54% at the end of June to about 57% on 22 October (indicative). CFHL fell about 20% over that period while CIFC fell about 15%: the wrapper behaves like a geared bet on the jewel.</li>
+  <li><strong>Reported earnings are not the holdco's earnings.</strong> CFHL's consolidated FY26 profit of ₹5,485 crore includes the share belonging to CIFC's and Chola MS's other owners; only about ₹2,441 crore is attributable to CFHL shareholders. Religare's reported profit understates its economics because it still consolidates Care on a statutory accounting basis that defers multi-year premium.</li>
+  <li><strong>Regulators hold the unlock keys.</strong> The RBI caps CIC dividends at 60% of standalone profit, limits groups to two layers of CICs and must approve any scheme. On 6–7 August 2026 it declined Religare's demerger without giving reasons. IRDAI's 30 July 2026 rule on merging a holdco into its insurer only works once that holdco has no other business.</li>
+  <li><strong>The jewels' cycles are out of phase.</strong> CIFC is growing assets 23% with a 21% return on equity. Chola MS is in a soft general-insurance market with combined ratios of 115–120%. Care Health is growing more than 40% after GST was removed from retail health premiums, on a thin 1.58× solvency ratio.</li>
+  <li><strong>Capital flows down the chain, not up.</strong> CIFC has called a board meeting on 28 October to consider a QIP, Care needs rights issues and sub-debt, and Religare is waiting for ₹881 crore of warrant money from holders whose ₹235 strike is above the ₹208 share price. Meanwhile the two holdcos paid ₹24 crore of dividends in FY26 on ₹2,527 crore of attributable profit.</li>
+</ul>
+
+<div class="chart">
+    <div class="c-title">What each holdco's NAV is made of</div>
+    <div class="c-sub">Share of gross look-through value, INDICATIVE base case at 22 Oct 2026 prices. CFHL: CIFC ₹57,089 Cr, Chola MS (60%) ₹4,098 Cr, risk services and cash ₹161 Cr. REL: Care (63.2%) ₹10,112 Cr, Religare Finvest incl. housing ₹820 Cr, Religare Broking ₹575 Cr, cash ₹81 Cr, before deducting ₹270 Cr of capitalised head-office cost</div>
+    <div class="stack-row"><div class="blab">CFHL (₹61,348 Cr)</div><div class="stack"><span style="width:93.1%;background:var(--brand)">CIFC 93%</span><span style="width:6.7%;background:var(--gold)">MS 7%</span><span style="width:0.2%;background:var(--ink-faint)"></span></div></div>
+    <div class="stack-row"><div class="blab">REL (₹11,588 Cr gross)</div><div class="stack"><span style="width:87.3%;background:var(--om)">Care 87%</span><span style="width:7.1%;background:var(--wtg)">RFL 7%</span><span style="width:5.0%;background:var(--epc)">RBL 5%</span><span style="width:0.6%;background:var(--ink-faint)"></span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>CIFC stake (listed)</span><span><i style="background:var(--gold)"></i>Chola MS General Insurance (unlisted)</span><span><i style="background:var(--om)"></i>Care Health Insurance (unlisted)</span><span><i style="background:var(--wtg)"></i>Religare Finvest + 87.5% of Religare Housing</span><span><i style="background:var(--epc)"></i>Religare Broking and subsidiaries</span><span><i style="background:var(--ink-faint)"></i>Cash, risk services, other</span></div>
+  </div>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>Buying CFHL is mostly buying CIFC through a side door at a steep markdown. Buying Religare is mostly buying Care Health, which you cannot buy any other way. The markdown is not a mistake the market will correct on its own: very little cash comes up from the jewels to the holdco, less still reaches holdco shareholders, and the people who could dissolve the structure either do not want to or are not allowed to.</p>
+  </div>
+
+<p>The timing matters. Both companies last reported Q1 FY27 (the quarter to June 2026). CIFC, which drives about 93% of CFHL's value, reports Q2 FY27 on 28 October together with its QIP proposal; CFHL's own Q2 board meets on 6 November; Religare has not announced a date and has had its trading window shut since 28 September. Unless stated otherwise, profit and balance-sheet figures in this report are FY26 or Q1 FY27 and prices are from the 22 October 2026 close.</p>
+
+<div class="mini-stats">
+    <div class="ms"><div class="msv">59.7%</div><div class="msl">CFHL discount to its sum-of-the-parts NAV of ₹3,267 a share (indicative; 54.1% after notional 12.5% capital-gains tax)</div></div>
+    <div class="ms gold"><div class="msv">36.6%</div><div class="msl">Religare base-case discount (indicative); 5–50% depending on Care's value</div></div>
+    <div class="ms red"><div class="msv">0.95%</div><div class="msl">Combined FY26 payout: ₹24 Cr of dividends on ₹2,527 Cr of attributable profit</div></div>
+  </div>
+
+<p>For readers who want the wider context: the NBFC economics behind CIFC are covered in our <a href="nbfc.html">NBFC report</a>, the insurance cycle behind Chola MS, Care, Star Health and Niva Bupa in our <a href="general-insurance.html">general insurance report</a>, and the generic holdco-discount literature, with Bajaj Holdings, Tata Investment and the other investment companies, in our <a href="investment-cos.html">investment companies report</a>. This report does not repeat that material. It goes deep on what is specific to financial-services holdcos: look-through earnings from a listed lender, unlisted insurers under three accounting bases, and the RBI and IRDAI approvals that decide whether any of the value ever reaches the holdco's shareholders.</p>
+</section>
+
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>What a holding company makes: a liquid claim on a locked block</h2></div>
+<p class="part-sub">The product is a listed share that stands for an illiquid or controlled stake. The price of that product is the discount.</p>
+
+<p>A financial holdco earns in two ways that look nothing alike. The first is cash: dividends and fees that its subsidiaries actually pay it, which show up in its standalone accounts. The second is accounting: its share of the subsidiaries' profits, which shows up in its consolidated accounts whether or not a rupee moves. For CFHL in FY26 the first number was ₹89.79 crore of standalone revenue. The second was ₹2,441 crore of attributable consolidated profit. The holdco's shareholders own a claim on the second number but are paid out of the first, and the distance between them is the starting point for understanding why the discount exists.</p>
+
+<div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">The Murugappa chain: who owns what, and which way the money moves</div>
+    <div class="flow-row">
+      <div class="node om"><div class="ntag">Layer 1 · Family</div><div class="nname">Ambadi Investments + promoter group</div><div class="nwho">46.39% of CFHL (Sep-26); Ambadi alone ~37.7%. Ambadi is the first CIC layer.</div></div>
+      <div class="arrow">→</div>
+      <div class="node spec"><div class="ntag">Layer 2 · Listed CIC</div><div class="nname">CFHL</div><div class="nwho">18.78 Cr shares; standalone net worth ₹1,412 Cr; no debt; ₹110 Cr of deposits.</div></div>
+      <div class="arrow">→</div>
+      <div class="node wtg"><div class="ntag">Jewel · 43.74%</div><div class="nname">CIFC (listed NBFC)</div><div class="nwho">Total AUM ₹2,54,392 Cr; FY26 PAT ₹5,233 Cr (cons.); pays ₹2.00 a share.</div></div>
+      <div class="arrow">→</div>
+      <div class="node epc"><div class="ntag">Jewel · 60%</div><div class="nname">Chola MS General Insurance</div><div class="nwho">GWP ₹8,904 Cr; MSI owns 40%; no dividend in five years; pays a ₹10 Cr brand fee.</div></div>
+    </div>
+    <div class="flow-note">Cash up in FY26: ₹74.58 Cr dividend from CIFC, ₹0.30 Cr from Chola MS Risk Services, ₹10.00 Cr brand fee from Chola MS, ₹4.91 Cr bank interest. Cash out to CFHL's own shareholders: ₹24.41 Cr.</div>
+  </div>
+
+<p>The Religare chain looks similar on paper and works very differently. The Burman family (the Dabur promoters) controls REL through six vehicles that together held 30.28% at March 2026 and 31.26% by September; they control the board but do not own a majority. REL owns 63.20% of Care Health at a cost of ₹1,714 crore, 100% of Religare Finvest (RFL), 100% of Religare Broking and, through RFL, 87.5% of Religare Housing. Nothing comes up from the subsidiaries as dividends: Care is consuming capital, RFL has only just emerged from an RBI corrective plan, and REL itself has been barred by the RBI from paying dividends since April 2019. In Religare's case the money moves only one way, downwards.</p>
+
+<div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">The Burman chain: a holdco funded from above, funding below</div>
+    <div class="flow-row">
+      <div class="node om"><div class="ntag">Promoters · 31.26%</div><div class="nname">Puran, VIC, MB Finmart, Milky, others</div><div class="nwho">Change of control Feb-2025; ₹750 Cr of the ₹1,500 Cr warrants at ₹235.</div></div>
+      <div class="arrow">→</div>
+      <div class="node spec"><div class="ntag">Listed CIC</div><div class="nname">Religare Enterprises</div><div class="nwho">34.48 Cr shares (~39.5 Cr fully diluted); standalone loss ₹34 Cr in FY26; RBI dividend ban since 2019.</div></div>
+      <div class="arrow">→</div>
+      <div class="node wtg"><div class="ntag">Jewel · 63.20%</div><div class="nname">Care Health Insurance</div><div class="nwho">GWP ₹11,417 Cr (full-premium basis); solvency 1.58×; Kedaara is the other promoter.</div></div>
+      <div class="arrow">→</div>
+      <div class="node epc"><div class="ntag">Stubs · 100% / 87.5%</div><div class="nname">RFL, Religare Broking, Religare Housing</div><div class="nwho">RFL: ₹914 Cr net worth, ₹53 Cr loan book. Broking: ₹23 Cr FY26 PAT.</div></div>
+    </div>
+    <div class="flow-note">Capital down in FY26: ₹256 Cr into Care's rights issue, with ₹250 Cr more promised to Religare Housing over the next few years. Cash up: effectively nil.</div>
+  </div>
+
+<p>Between the jewel's profit and the holdco shareholder's bank account, value leaks out at five points. Each one is a reason for the discount, and each is measurable:</p>
+<ul class="clean">
+  <li><strong>The other owners.</strong> 56.26% of CIFC's profit, 40% of Chola MS's and 36.8% of Care's belong to someone else. Consolidated profit shows all of it; the holdco owns only its slice.</li>
+  <li><strong>Retention at the jewel.</strong> CIFC paid ₹2.00 a share on FY26 earnings of ₹61.41, a payout of about 3%. Chola MS has paid nothing for five years and has not raised capital for 13. Care pays nothing and needs money.</li>
+  <li><strong>Retention at the holdco.</strong> CFHL passed on ₹24.41 crore of the ₹74.88 crore of dividends it received, 33%. Even if it wanted to pay everything, the RBI caps a CIC's dividend at 60% of its standalone profit. Religare passes on nothing because it is not allowed to.</li>
+  <li><strong>Tax.</strong> Dividends are taxed in shareholders' hands; any stake sale would attract 12.5% long-term capital-gains tax; and since October 2024 buybacks are taxed as dividends, which removes the cleanest discount-closing tool.</li>
+  <li><strong>Head-office cost.</strong> Trivial at CFHL (₹3.89 crore a year). Material at Religare (about ₹50 crore of expenses and a ₹34 crore standalone loss in FY26), which capitalised at eight times is worth about ₹270 crore of NAV (indicative).</li>
+</ul>
+
+<div class="chart">
+    <div class="c-title">CFHL's entire cash economy in one year</div>
+    <div class="c-sub">FY26 standalone, ₹ crore. Source: CFHL Annual Report FY26, Notes 14 and 20.2. Compare with ₹2,441 Cr of profit attributable to CFHL shareholders on a consolidated basis</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Dividend from CIFC<small>₹2.00 × 37.29 Cr shares</small></div><div class="track"><span class="fill brand" style="width:93.2%"></span></div><div class="bval">74.58</div></div>
+      <div class="bar-row"><div class="blab">Brand fee from Chola MS</div><div class="track"><span class="fill gold" style="width:12.5%"></span></div><div class="bval">10.00</div></div>
+      <div class="bar-row"><div class="blab">Bank interest</div><div class="track"><span class="fill wtg" style="width:6.1%"></span></div><div class="bval">4.91</div></div>
+      <div class="bar-row"><div class="blab">Dividend from Chola MS Risk Services</div><div class="track"><span class="fill wtg" style="width:0.4%"></span></div><div class="bval">0.30</div></div>
+      <div class="bar-row"><div class="blab">Holdco operating cost</div><div class="track"><span class="fill bad" style="width:4.9%"></span></div><div class="bval">3.89</div></div>
+      <div class="bar-row"><div class="blab">Dividend paid to CFHL shareholders<small>₹1.30 × 18.78 Cr</small></div><div class="track"><span class="fill ink" style="width:30.5%"></span></div><div class="bval">24.41</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹80 Cr. The ₹89.79 Cr of income is 3.7% of CFHL's attributable profit; the dividend it paid is 1%.</span></div>
+  </div>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>CFHL "earns" ₹2,441 crore a year on paper, but its own bank account receives about ₹90 crore and pays out about ₹24 crore. A shareholder who buys CFHL for income is buying a 0.1% yield. A shareholder who buys it for value is betting that the paper earnings will one day turn into something they can collect, through a higher share price, a merger or a distribution. Until that happens, the market charges a large discount for the wait.</p>
+  </div>
+
+<p>The holdco's "price" is therefore the discount, and that price moves. It narrows when investors expect an unlock (a listing, a merger, a large special dividend) and when markets are buoyant, and widens in drawdowns, when the jewel needs capital, or when a regulator closes a door. In 2026 all three widening forces arrived together for these two companies: a repo-rate hike on 7 October that hit lender valuations, a CIFC capital raise on the horizon, and the RBI's refusal of Religare's scheme in August.</p>
+</section>
+
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>Size and growth: a ₹47,618 crore revenue line that is really a lender and two insurers</h2></div>
+<p class="part-sub">Consolidated, the two holdcos look like large, fast-growing financial companies. That is because they consolidate their jewels in full.</p>
+
+<p>On a consolidated basis CFHL and Religare reported combined FY26 revenue of ₹47,618 crore, up 17.3% on FY25, and combined profit including minorities of ₹5,558 crore, up 12.9%. Those numbers are real but misleading as a measure of "the sub-sector". Almost all of CFHL's revenue is CIFC's interest income and Chola MS's premium income, consolidated line by line because CFHL treats both as subsidiaries under Ind AS (it consolidates CIFC on de facto control even though the Murugappa group's combined stake in CIFC has been below 50% since December 2024). Between 85% and 94% of Religare's revenue is Care Health's net premium. Strip out the jewels and the holdco layer is tiny: combined standalone income of about ₹106 crore and a combined standalone profit of about ₹36 crore in FY26.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>The two holdcos, five years (consolidated, ₹ crore)</caption>
+    <thead><tr><th>₹ Cr</th><th class="num">FY22</th><th class="num">FY23</th><th class="num">FY24</th><th class="num">FY25</th><th class="num">FY26</th><th class="num">3-yr CAGR</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">CFHL revenue</td><td class="num">14,644</td><td class="num">18,154</td><td class="num">25,830</td><td class="num">33,196</td><td class="num">39,156</td><td class="num">29%</td></tr>
+      <tr><td>CFHL PAT incl. minorities</td><td class="num">2,239</td><td class="num">2,810</td><td class="num">3,851</td><td class="num">4,740</td><td class="num">5,485</td><td class="num">25%</td></tr>
+      <tr><td>CFHL PAT attributable</td><td class="num">1,023</td><td class="num">1,290</td><td class="num">1,772</td><td class="num">2,174</td><td class="num">2,441</td><td class="num">24%</td></tr>
+      <tr><td class="t-strong">REL revenue</td><td class="num">3,227</td><td class="num">4,679</td><td class="num">6,266</td><td class="num">7,394</td><td class="num">8,462</td><td class="num">22%</td></tr>
+      <tr><td>REL PAT incl. minorities</td><td class="num">−1,539</td><td class="num">3,169ᵃ</td><td class="num">347</td><td class="num">183</td><td class="num">73</td><td class="num">n.m.</td></tr>
+      <tr><td class="t-strong">Combined revenue</td><td class="num">17,871</td><td class="num">22,833</td><td class="num">32,096</td><td class="num">40,590</td><td class="num">47,618</td><td class="num">28%</td></tr>
+    </tbody>
+  </table>
+  <div class="peer-note">Source: screener.in consolidated, 22 Oct 2026; CFHL attributable = EPS × 18.78 Cr shares (FY26 per CFHL AR Note 46: ₹2,441.3 Cr). ᵃ REL FY23 profit came from the write-back on Religare Finvest's ₹2,178 Cr one-time settlement with lenders (other income ₹3,473 Cr): never use FY23 as a base.</div>
+</div>
+
+<p>CFHL's line is a near-perfect reflection of CIFC. CIFC's Total AUM, the headline figure in its presentations, has almost trebled in four years, from ₹82,904 crore in FY22 to ₹2,42,630 crore in FY26 (a compound rate of about 31%), and reached ₹2,54,392 crore in June 2026, up 23% on a year earlier. CFHL's attributable profit has compounded at 24% a year over three years. Over ten years, screener data show CFHL's sales compounding at 17% and profit at 15%; its share price compounded at only 11%, and over one year it fell 29%. The business underneath has grown faster than the wrapper's value, which is another way of saying the discount has widened over the long run as well as in 2026.</p>
+
+<div class="chart">
+    <div class="c-title">CIFC Total AUM: the engine behind 93% of CFHL</div>
+    <div class="c-sub">₹ crore, company "Total AUM" (headline) basis, fiscal year-ends and Jun-2026. Source: CIFC investor presentation Jun-2026 (15-year table)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill brand" style="width:31.9%"></span></div><div class="bval">82,904</div></div>
+      <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill brand" style="width:43.4%"></span></div><div class="bval">1,12,782</div></div>
+      <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:59.1%"></span></div><div class="bval">1,53,718</div></div>
+      <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:76.9%"></span></div><div class="bval">1,99,876</div></div>
+      <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:93.3%"></span></div><div class="bval">2,42,630</div></div>
+      <div class="bar-row"><div class="blab">Q1 FY27<small>Jun-26</small></div><div class="track"><span class="fill spec" style="width:97.8%"></span></div><div class="bval">2,54,392</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹2.6 lakh Cr. "Business AUM", the sum of CIFC's seven product segments, was ₹2,33,586 Cr in Jun-26; the ₹20,806 Cr gap between the two company terms is not defined in the deck.</span></div>
+  </div>
+
+<p>Religare's line tells a different story. Revenue has grown steadily, from ₹3,227 crore in FY22 to ₹8,462 crore in FY26, because Care Health has been growing its premium at 20–25% a year. But reported profit has gone the other way, from ₹347 crore in FY24 to ₹183 crore and then ₹73 crore. The reason is accounting rather than economics. From 1 October 2024 IRDAI required insurers to recognise multi-year premiums one year at a time (the "1/n" rule), which pushes profit on long policies into later years. A fast-growing health insurer that sells many multi-year policies looks less profitable under 1/n the faster it grows. Care's own Ind AS 117 profit rose from ₹290 crore in FY25 to ₹387 crore in FY26, but Religare still consolidates Care on the statutory 1/n basis because Care took a one-year forbearance from Ind AS 117.</p>
+
+<div class="chart">
+    <div class="c-title">CFHL's profit: the group's versus the shareholders'</div>
+    <div class="c-sub">₹ crore, consolidated. Darker bar = PAT including minority (non-controlling) interests, as shown on data sites; lighter bar = PAT attributable to CFHL shareholders. Source: screener.in; CFHL AR FY26 Note 46</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">FY22 group</div><div class="track"><span class="fill ink" style="width:37.3%"></span></div><div class="bval">2,239</div></div>
+      <div class="bar-row"><div class="blab">FY22 attributable</div><div class="track"><span class="fill brand" style="width:17.1%"></span></div><div class="bval">1,023</div></div>
+      <div class="bar-row"><div class="blab">FY24 group</div><div class="track"><span class="fill ink" style="width:64.2%"></span></div><div class="bval">3,851</div></div>
+      <div class="bar-row"><div class="blab">FY24 attributable</div><div class="track"><span class="fill brand" style="width:29.5%"></span></div><div class="bval">1,772</div></div>
+      <div class="bar-row"><div class="blab">FY26 group</div><div class="track"><span class="fill ink" style="width:91.4%"></span></div><div class="bval">5,485</div></div>
+      <div class="bar-row"><div class="blab">FY26 attributable</div><div class="track"><span class="fill brand" style="width:40.7%"></span></div><div class="bval">2,441</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹6,000 Cr. Consistently, about 55% of the profit CFHL consolidates belongs to CIFC's and Chola MS's other shareholders.</span></div>
+  </div>
+
+<div class="chart">
+    <div class="c-title">Religare: revenue up every year, reported profit down</div>
+    <div class="c-sub">₹ crore, consolidated revenue ("sales") with reported PAT including minorities in the label. FY23 profit was a one-off settlement write-back. Source: screener.in consolidated, 22 Oct 2026</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">FY22<small>PAT −1,539</small></div><div class="track"><span class="fill om" style="width:35.9%"></span></div><div class="bval">3,227</div></div>
+      <div class="bar-row"><div class="blab">FY23<small>PAT 3,169 (one-off)</small></div><div class="track"><span class="fill om" style="width:52.0%"></span></div><div class="bval">4,679</div></div>
+      <div class="bar-row"><div class="blab">FY24<small>PAT 347</small></div><div class="track"><span class="fill om" style="width:69.6%"></span></div><div class="bval">6,266</div></div>
+      <div class="bar-row"><div class="blab">FY25<small>PAT 183</small></div><div class="track"><span class="fill om" style="width:82.2%"></span></div><div class="bval">7,394</div></div>
+      <div class="bar-row"><div class="blab">FY26<small>PAT 73</small></div><div class="track"><span class="fill om" style="width:94.0%"></span></div><div class="bval">8,462</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹9,000 Cr. Care Health's own Ind AS profit rose from ₹290 Cr to ₹387 Cr over FY25–26 while REL's reported profit fell: the gap is accounting, explained in Part 09.</span></div>
+  </div>
+
+<p>Quarterly figures sharpen the picture. In Q1 FY27 (April–June 2026) CFHL's consolidated revenue rose 19.6% to ₹11,114 crore and group profit 42% to ₹1,789 crore; attributable profit was about ₹806 crore against ₹579 crore a year earlier, up 39%. Religare's revenue rose 26.4% to ₹2,353 crore, but it reported a consolidated loss of ₹47 crore against a ₹8 crore profit, while Care's own Ind AS profit rose to ₹122 crore from ₹76 crore. Added together, the two holdcos' Q1 FY27 revenue was ₹13,467 crore (up 20.7%) and their profit including minorities ₹1,742 crore (up 37.4%).</p>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>The sub-sector is essentially CFHL: it accounts for 82% of combined revenue, 97% of attributable profit, 77.5% of market value and 84% of base-case NAV. Religare matters for a different reason. It is the swing factor in valuation, because the price of Care Health inside it is the only market signal of what a fast-growing private health insurer is worth before listing.</p>
+  </div>
+</section>
+
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>The businesses underneath: trucks, motor policies and retail health</h2></div>
+<p class="part-sub">A holdco's demand drivers are its jewels' demand drivers. Here that means the vehicle cycle, a soft general-insurance market and a health-insurance boom triggered by a tax change.</p>
+
+<p>Three industries sit under these two wrappers. The largest by value is retail non-bank credit, through CIFC. India's NBFC retail loan book is expected by ICRA to cross ₹30 lakh crore by FY27, growing 16–18% a year; at ₹2.54 lakh crore CIFC holds roughly 8–9% of it (indicative). The second is general insurance, through Chola MS: an industry that wrote ₹3,36,123 crore of gross direct premium (GDPI) in FY26, up 9.25%. The third is standalone health insurance, through Care: a ₹45,866 crore segment in FY26 that grew 30.7% in the first half of FY27.</p>
+
+<p><strong>The vehicle cycle</strong> drives CIFC's largest book and Chola MS's largest line. In Q1 FY27 industry volumes were strong: heavy commercial vehicles up 13% (their best-ever first quarter), light CVs up 18%, small CVs up 31%, cars and utility vehicles up 26% (a record first quarter), two-wheelers up 20% and tractors up 19%. GST 2.0, which from 22 September 2025 cut the rate on small cars and two-wheelers from 28% to 18%, is a large part of that. CIFC's vehicle-finance disbursements rose 21% to ₹16,503 crore and the segment's pre-tax profit rose 50% to ₹945 crore. Chola MS should have been a beneficiary too, through motor insurance on new vehicles; as Part 11 shows, it largely was not.</p>
+
+<div class="chart">
+    <div class="c-title">Q1 FY27 vehicle volumes: the strongest first quarter in years</div>
+    <div class="c-sub">Year-on-year growth in industry volumes, Apr–Jun 2026. Source: SIAM/ICRA as cited in the CFHL Q1 FY27 presentation (14 Aug 2026)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Small CVs</div><div class="track"><span class="fill brand" style="width:88.6%"></span></div><div class="bval">+31%</div></div>
+      <div class="bar-row"><div class="blab">Cars &amp; MUVs<small>best-ever Q1</small></div><div class="track"><span class="fill brand" style="width:74.3%"></span></div><div class="bval">+26%</div></div>
+      <div class="bar-row"><div class="blab">Two-wheelers</div><div class="track"><span class="fill spec" style="width:57.1%"></span></div><div class="bval">+20%</div></div>
+      <div class="bar-row"><div class="blab">Tractors<small>best-ever Q1</small></div><div class="track"><span class="fill spec" style="width:54.3%"></span></div><div class="bval">+19%</div></div>
+      <div class="bar-row"><div class="blab">Light CVs</div><div class="track"><span class="fill spec" style="width:51.4%"></span></div><div class="bval">+18%</div></div>
+      <div class="bar-row"><div class="blab">Heavy CVs<small>best-ever Q1</small></div><div class="track"><span class="fill wtg" style="width:37.1%"></span></div><div class="bval">+13%</div></div>
+      <div class="bar-row"><div class="blab">Construction equipment</div><div class="track"><span class="fill wtg" style="width:25.7%"></span></div><div class="bval">+9%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = +35%.</span></div>
+  </div>
+
+<p><strong>Small-business and property credit</strong> is CIFC's second engine. Loans against property (LAP) were ₹54,130 crore in June 2026 and home loans ₹23,644 crore, each growing about 22–23% a year. New lending in these books has slowed deliberately (Q1 FY27 disbursements up only 2%, or about 20% on a like-for-like basis after a change in when disbursements are recognised), but the back book keeps compounding. ICRA expects LAP and affordable housing to grow 19–21% in FY27.</p>
+
+<div class="chart">
+    <div class="c-title">What CIFC lends against</div>
+    <div class="c-sub">Business AUM by segment, Jun-2026, share of ₹2,33,586 Cr. Source: CIFC / CFHL Q1 FY27 presentations</div>
+    <div class="stack-row"><div class="blab">CIFC, Jun-26</div><div class="stack"><span style="width:53.1%;background:var(--brand)">VF 53%</span><span style="width:23.2%;background:var(--wtg)">LAP 23%</span><span style="width:10.1%;background:var(--om)">HL 10%</span><span style="width:6.8%;background:var(--gold)">CSEL 7%</span><span style="width:4.2%;background:var(--epc)"></span><span style="width:1.6%;background:var(--ink-faint)"></span><span style="width:1.0%;background:var(--bad)"></span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>Vehicle finance ₹1,24,132 Cr</span><span><i style="background:var(--wtg)"></i>Loans against property ₹54,130 Cr</span><span><i style="background:var(--om)"></i>Home loans ₹23,644 Cr</span><span><i style="background:var(--gold)"></i>Consumer &amp; small-enterprise loans (CSEL) ₹15,884 Cr</span><span><i style="background:var(--epc)"></i>SME ₹9,923 Cr</span><span><i style="background:var(--ink-faint)"></i>Secured business &amp; personal loans ₹3,730 Cr</span><span><i style="background:var(--bad)"></i>Gold ₹2,143 Cr</span></div>
+  </div>
+
+<p><strong>General insurance</strong> is the most mature of the three markets and, in 2025–26, the weakest. Industry GDPI grew 9.25% in FY26 and 8.9% in the first half of FY27, but the mix underneath is volatile. Health, at 40.8% of FY26 premium, is the largest and fastest-growing line. Motor (32.2%) has grown with vehicle sales. Fire fell 26.6% in H1 FY27 because insurers cut prices to win renewals after IRDAI removed tariff floors on fire and engineering covers in 2024, and crop insurance (through the state-owned AIC) more than halved. Industry combined ratios, the sum of claims and expenses as a share of premium, deteriorated from about 112.6% in FY25 to about 117.8% in FY26 according to Chola MS's management, with motor at about 128%. That is a soft market: insurers are competing on price and losing money on underwriting, relying on investment income to make a profit.</p>
+
+<div class="chart">
+    <div class="c-title">India's non-life premium pool, FY26</div>
+    <div class="c-sub">Share of industry GDPI of ₹3,36,123 Cr (+9.25%). Source: General Insurance Council segment-wise report, Mar-2026 (provisional; long-term premium on 1/n since 1 Oct 2024)</div>
+    <div class="stack-row"><div class="blab">Industry GDPI FY26</div><div class="stack"><span style="width:40.8%;background:var(--brand)">Health 41%</span><span style="width:19.1%;background:var(--om)">Motor TP 19%</span><span style="width:13.1%;background:var(--wtg)">Motor OD 13%</span><span style="width:8.2%;background:var(--gold)">Fire 8%</span><span style="width:9.5%;background:var(--epc)">Crop 10%</span><span style="width:3.5%;background:var(--bad)"></span><span style="width:5.8%;background:var(--ink-faint)"></span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>Health incl. group, government, overseas ₹1,37,144 Cr</span><span><i style="background:var(--om)"></i>Motor third party ₹64,228 Cr</span><span><i style="background:var(--wtg)"></i>Motor own damage ₹43,988 Cr</span><span><i style="background:var(--gold)"></i>Fire ₹27,524 Cr</span><span><i style="background:var(--epc)"></i>Crop, credit and other misc ₹31,931 Cr</span><span><i style="background:var(--bad)"></i>Personal accident ₹11,604 Cr</span><span><i style="background:var(--ink-faint)"></i>Engineering, marine, liability ₹18,614 Cr</span></div>
+  </div>
+
+<p><strong>Health insurance after GST 2.0</strong> is the fastest-moving demand driver in the sub-sector. From 22 September 2025, premiums on individual health and life policies were exempted from the 18% GST they had carried, an effective price cut of about 15% for buyers (indicative: 1 ÷ 1.18). Insurers lost input-tax credit on their own costs, which raised expenses by an estimated 3–5 percentage points, partly passed on. The demand response has been large and has not faded. Retail health premium across all insurers grew 32.0% in H1 FY27; standalone health insurers grew 30.7%; Care Health grew 42.2%, and its September 2026 premium, written in the month the exemption's first anniversary fell, was still up 44%. Care's managing director called it "a land-grab moment".</p>
+
+<div class="chart">
+    <div class="c-title">Where non-life growth is, and is not, in H1 FY27</div>
+    <div class="c-sub">GDPI growth, Apr–Sep 2026 vs Apr–Sep 2025. Red bars are declines. Source: General Insurance Council flash and segment-wise reports, Sep-2026</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Retail health (all insurers)</div><div class="track"><span class="fill brand" style="width:53.3%"></span></div><div class="bval">+32.0%</div></div>
+      <div class="bar-row"><div class="blab">Standalone health insurers</div><div class="track"><span class="fill brand" style="width:51.2%"></span></div><div class="bval">+30.7%</div></div>
+      <div class="bar-row"><div class="blab">Group health</div><div class="track"><span class="fill spec" style="width:25.5%"></span></div><div class="bval">+15.3%</div></div>
+      <div class="bar-row"><div class="blab">Motor</div><div class="track"><span class="fill spec" style="width:21.8%"></span></div><div class="bval">+13.1%</div></div>
+      <div class="bar-row"><div class="blab">Private multi-line insurers</div><div class="track"><span class="fill wtg" style="width:15.2%"></span></div><div class="bval">+9.1%</div></div>
+      <div class="bar-row"><div class="blab">Industry total</div><div class="track"><span class="fill ink" style="width:14.8%"></span></div><div class="bval">+8.9%</div></div>
+      <div class="bar-row"><div class="blab">Fire</div><div class="track"><span class="fill bad" style="width:44.3%"></span></div><div class="bval">−26.6%</div></div>
+      <div class="bar-row"><div class="blab">Crop (AIC)</div><div class="track"><span class="fill bad" style="width:95.3%"></span></div><div class="bval">−57.2%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 60 percentage points in either direction.</span></div>
+  </div>
+
+<p><strong>Claims inflation is the counter-force.</strong> Medical inflation runs at 12–14% a year, and claims frequency rises as more people are covered. Chola MS's loss ratio on health, travel and personal accident rose from 73.0% in FY25 to 88.0% in FY26 and 90.4% in Q1 FY27; it responded by cutting its health premium 27% in H1 FY27 to re-price group accounts. Care's Ind AS claims ratio was 68.2% in Q1 FY27. On motor, third-party premiums have not been raised for three to four years while court awards keep rising, and Chola MS has not yet provided for a pending Supreme Court ruling on compensation for homemakers in third-party claims.</p>
+
+<p><strong>Rates</strong> are the last driver and the newest. The RBI raised the repo rate by 25 basis points to 5.50% on 7 October 2026, reversing part of the 2025 easing cycle. CIFC's CFO had budgeted for 25–50 basis points of hikes and expected cost of funds to rise about 10 basis points in the second half, with bank loans making up about half of borrowings. For the insurers, higher yields lift income on new investments but cause mark-to-market losses on existing bonds. For the holdcos themselves, higher discount rates usually widen holdco discounts, because a distant and uncertain unlock is worth less when money is dearer.</p>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>Under one roof, CFHL owns a lender enjoying a vehicle boom and an insurer struggling in a price war. Under the other, Religare owns a health insurer riding a tax cut. The holdco price is a weighted bet on these three cycles, minus a discount, and the three cycles are not moving together.</p>
+  </div>
+</section>
+
+<section class="part" id="p4">
+<div class="part-head"><span class="pno">04</span><h2>Where ₹100 goes: three money machines and one rationed input</h2></div>
+<p class="part-sub">A lender keeps about ₹17 of each ₹100 of revenue, a soft-market general insurer under ₹4 of each ₹100 of premium. At the holdco layer, the scarce input is capital.</p>
+
+<p>The supply side of a holding company is simple: its only input is capital already sunk into the stakes. CFHL's three stakes cost ₹1,276 crore and are worth about ₹61,300 crore at today's prices (indicative); Religare's investments cost ₹2,485 crore. What matters is the cost structure of the jewels, because that decides how much profit there is to look through to, and the capital each jewel needs to keep growing, because that decides whether money flows up or down.</p>
+
+<p><strong>A vehicle and small-business lender</strong> such as CIFC borrows wholesale from banks, bond markets, commercial paper, external commercial borrowings and securitisation at about 8–8.5%, and lends at 14–20%. Of each ₹100 of FY26 revenue, about ₹46 went to its lenders as interest, ₹19 to staff, branches, technology and collections, ₹12–13 to loan losses and provisions, ₹1 to depreciation and ₹6 to tax, leaving about ₹17 as profit (indicative composite from CIFC's FY26 consolidated accounts: revenue ₹31,120 crore, interest ₹14,384 crore, PAT ₹5,233 crore). The two variables that management controls most directly are operating cost and credit cost. Interest cost is largely set by the market and the RBI.</p>
+
+<div class="chart">
+    <div class="c-title">₹100 of CIFC revenue, FY26</div>
+    <div class="c-sub">INDICATIVE composite, ₹ per ₹100 of consolidated revenue (plus ₹1 of other income). Split of ₹9,890 Cr "expenses" into operating cost and credit cost is an estimate using a credit cost of ~1.7% of average assets. Source: screener.in CIFC consolidated FY26; CIFC presentation</div>
+    <div class="stack-row"><div class="blab">CIFC FY26</div><div class="stack"><span style="width:45.6%;background:var(--om)">Interest 46</span><span style="width:19.1%;background:var(--wtg)">Opex 19</span><span style="width:12.3%;background:var(--bad)">Credit 13</span><span style="width:0.9%;background:var(--ink-faint)"></span><span style="width:5.5%;background:var(--gold)">Tax 6</span><span style="width:16.6%;background:var(--brand)">PAT 17</span></div></div>
+    <div class="legend"><span><i style="background:var(--om)"></i>Interest to lenders ~₹46</span><span><i style="background:var(--wtg)"></i>Staff, branches, IT, collections ~₹19</span><span><i style="background:var(--bad)"></i>Loan losses and provisions ~₹12–13</span><span><i style="background:var(--ink-faint)"></i>Depreciation ~₹1</span><span><i style="background:var(--gold)"></i>Tax ~₹6</span><span><i style="background:var(--brand)"></i>Profit after tax ~₹17</span></div>
+  </div>
+
+<p><strong>A multi-line general insurer</strong> such as Chola MS works the other way round: it collects money first and pays later. Of each ₹100 of FY26 gross written premium, about ₹25 was passed to reinsurers; the remaining ₹75 was its net premium. Claims took about ₹60 and commissions plus operating expenses about ₹25, so underwriting alone lost about ₹10–11. Investment income of about ₹16, earned on a ₹19,172 crore portfolio funded largely by policyholders' money, turned that into a pre-tax profit of about ₹5 and a post-tax profit of under ₹4. In a soft market, a general insurer is an investment fund that pays for its float with an underwriting loss. The calculation reconciles exactly: net earned premium of ₹6,604 crore times (1 − 1.152) is roughly −₹1,004 crore, plus investment income of ₹1,448 crore gives the reported ₹445 crore pre-tax.</p>
+
+<div class="chart">
+    <div class="c-title">₹100 of Chola MS premium, FY26: an underwriting loss paid for by the float</div>
+    <div class="c-sub">INDICATIVE walk built from IGAAP figures: GWP ₹8,904 Cr; net written ₹6,648 Cr; net earned ₹6,604 Cr; claims ₹5,361 Cr; underwriting result −₹1,004 Cr; investment income ₹1,448 Cr; PBT ₹445 Cr; PAT ₹331 Cr. Bar shows ₹116 of resources (₹100 premium + ₹16 investment income); labels in ₹ per ₹100 of GWP. Source: Chola MS AR FY26; CFHL Q1 FY27 presentation</div>
+    <div class="stack-row"><div class="blab">Chola MS FY26</div><div class="stack"><span style="width:21.8%;background:var(--om)">Reinsurers 25</span><span style="width:51.8%;background:var(--bad)">Claims 60</span><span style="width:22.1%;background:var(--wtg)">Costs 25</span><span style="width:1.1%;background:var(--gold)"></span><span style="width:3.2%;background:var(--brand)"></span></div></div>
+    <div class="legend"><span><i style="background:var(--om)"></i>Ceded to reinsurers ~₹25</span><span><i style="background:var(--bad)"></i>Net incurred claims ~₹60</span><span><i style="background:var(--wtg)"></i>Commission, expenses, reserve change ~₹26</span><span><i style="background:var(--gold)"></i>Tax ~₹1.3</span><span><i style="background:var(--brand)"></i>Profit after tax ~₹3.7</span></div>
+  </div>
+
+<p><strong>A standalone health insurer</strong> such as Care runs closer to breakeven on underwriting because retail health, sold mostly through its own agents, carries lower claims ratios than motor or group health. On the full-premium (n) basis, of each ₹100 of FY26 premium about ₹55 went in claims, ₹32 in commissions and operating costs and about ₹13–14 in reinsurance and reserve movements, with about ₹6 of investment income bringing pre-tax profit to roughly ₹5 (₹539 crore). On the statutory 1/n basis, which spreads multi-year premium over the policy term, the same year produced only ₹18 crore. That is a deferral, not a loss: the profit appears in later years as the multi-year policies run off.</p>
+
+<div class="chart">
+    <div class="c-title">₹100 of Care Health premium, FY26 (full-premium basis)</div>
+    <div class="c-sub">ILLUSTRATIVE composite built from IGAAP "n" figures: GWP ₹11,417 Cr; claims ratio 62.8% of net earned premium; combined ratio 98.9%; PBT ₹539 Cr; investment income ~₹693 Cr. Bar shows ₹106 of resources (premium + investment income). Source: REL Q4 FY26 and Q1 FY27 presentations</div>
+    <div class="stack-row"><div class="blab">Care FY26 (n)</div><div class="stack"><span style="width:51.9%;background:var(--bad)">Claims 55</span><span style="width:30.2%;background:var(--wtg)">Costs 32</span><span style="width:13.2%;background:var(--om)">Re/reserves 14</span><span style="width:4.7%;background:var(--brand)"></span></div></div>
+    <div class="legend"><span><i style="background:var(--bad)"></i>Claims ~₹55</span><span><i style="background:var(--wtg)"></i>Commission and opex ~₹32</span><span><i style="background:var(--om)"></i>Reinsurance and reserve movements ~₹14</span><span><i style="background:var(--brand)"></i>Pre-tax profit ~₹5 (on 1/n: ~₹0.2)</span></div>
+  </div>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>The lender keeps a sixth of what it earns. The general insurer keeps almost nothing from insuring and lives off the interest on money it holds for policyholders. The health insurer roughly breaks even on insurance and makes a thin profit on its investments, but how much of that profit shows up this year depends on an accounting rule. Three very different machines, owned by two very similar-looking wrappers.</p>
+  </div>
+
+<h3>Capital is the holdco's "capacity"</h3>
+<p>Manufacturers have plants and utilisation rates. A financial group's equivalent is regulatory capital: each operating company must hold a minimum amount of equity against the risk it takes, and growth uses that headroom up. The table below shows where each entity stands. The pattern is the opposite of what a holdco shareholder would like. The capital sits where it is not needed: Religare Finvest has a capital ratio of 238% on a ₹53 crore loan book, and CFHL's CIC ratio is twenty-three times the minimum. Meanwhile the businesses that are growing are running short: CIFC is four to five points above its floor and has called a QIP meeting, Chola MS has slipped from 2.18× to 1.93× solvency in fifteen months, and Care is at 1.58× against a 1.5× minimum.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Capital adequacy across the two groups (latest available)</caption>
+    <thead><tr><th>Entity</th><th>Measure</th><th class="num">Latest</th><th class="num">Regulatory floor</th><th>Read</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">CFHL (CIC)</td><td>Adjusted net worth ÷ risk-weighted assets</td><td class="num">2,359% (Jun-26)</td><td class="num">30%</td><td>Vast headroom; could in theory borrow ~₹77,000 Cr under the 2.5× leverage test</td></tr>
+      <tr><td class="t-strong">REL (CIC)</td><td>Same tests</td><td class="num">"In compliance"</td><td class="num">30% / 2.5×</td><td>Not quantified in the FY26 annual report</td></tr>
+      <tr><td class="t-strong">CIFC (NBFC, Upper Layer)</td><td>Capital adequacy (Tier I)</td><td class="num">19.81% (14.81%)</td><td class="num">15% (10%)</td><td>Growing ~23% a year; QIP board on 28 Oct 2026</td></tr>
+      <tr><td class="t-strong">Chola MS</td><td>Solvency ratio</td><td class="num">1.93× (Jun-26)</td><td class="num">1.50×</td><td>Management range 1.8–2.0×; no equity raised in 13 years; ₹100 Cr sub-debt</td></tr>
+      <tr><td class="t-strong">Care Health</td><td>Solvency ratio</td><td class="num">1.58× (Jun-26)</td><td class="num">1.50×</td><td>Target 1.7×; ₹300 Cr of 10% sub-debt raised Aug–Sep 2026; rights issue likely</td></tr>
+      <tr><td class="t-strong">Religare Finvest</td><td>Capital adequacy</td><td class="num">238.4%</td><td class="num">15%</td><td>₹914 Cr net worth, ₹609 Cr of cash, ₹53 Cr of loans</td></tr>
+      <tr><td class="t-strong">Religare Housing</td><td>Capital adequacy</td><td class="num">121%</td><td class="num">15%</td><td>₹250 Cr more committed by REL over the next few years</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="chart">
+    <div class="c-title">Headroom over the regulatory floor, operating companies</div>
+    <div class="c-sub">Latest capital measure ÷ regulatory minimum (1.0 = at the floor). CIFC 19.81% ÷ 15%; Chola MS 1.93× ÷ 1.5×; Care 1.58× ÷ 1.5×; RFL 238.4% ÷ 15%; Religare Housing 121% ÷ 15%. Source: CFHL and REL Q1 FY27 presentations (Jun-26)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Religare Finvest</div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">15.9×</div></div>
+      <div class="bar-row"><div class="blab">Religare Housing</div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">8.1×</div></div>
+      <div class="bar-row"><div class="blab">CIFC</div><div class="track"><span class="fill brand" style="width:66.0%"></span></div><div class="bval">1.32×</div></div>
+      <div class="bar-row"><div class="blab">Chola MS</div><div class="track"><span class="fill gold" style="width:64.3%"></span></div><div class="bval">1.29×</div></div>
+      <div class="bar-row"><div class="blab">Care Health</div><div class="track"><span class="fill bad" style="width:52.7%"></span></div><div class="bval">1.05×</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 2.0× the floor (the two Religare lending stubs run off the scale). Capital is idle where there is no growth and scarce where there is.</span></div>
+  </div>
+
+<p>Which inputs drive the cost of that capital? For CIFC, the main one is the cost of borrowing: its ratings are AA+ across India Ratings, CARE and ICRA, and it held ₹22,765 crore of cash and liquid assets plus undrawn lines, ₹23,984 crore of total liquidity, in June 2026. For the insurers, it is claims inflation (medical costs rising 12–14% a year; motor repair costs; third-party court awards), reinsurance pricing (capacity "robust" at the start of FY27, according to Chola MS, partly because new reinsurers are "burning capital" to buy market share), and distribution costs, which IRDAI caps through an overall expenses-of-management (EoM) limit of 30% of gross premium for general insurers and 35% for standalone health insurers. IRDAI's 23 September 2026 consultation proposes to lower those limits, which Part 07 discusses.</p>
+
+<p>The holdco layer has one more cost: the cost of holding capital that does nothing. CFHL keeps about ₹110 crore in bank deposits; Religare Finvest keeps about ₹609 crore of cash against almost no lending. Idle cash at a holdco earns a deposit rate while shareholders value the holdco on the jewel's much higher return on equity. It is a small drag at CFHL and a larger one at Religare, where about ₹900 crore of the group's capital sits in a lender with no loan book.</p>
+</section>
+
+<section class="part" id="p5">
+<div class="part-head"><span class="pno">05</span><h2>Who owns the jewels: families, a Japanese partner and a private-equity continuation fund</h2></div>
+<p class="part-sub">The listed holdcos are only one of several owners in each operating company. The others decide much of what the holdco can do.</p>
+
+<p>India has a handful of listed financial holding companies, but only two in the NSE 750 universe are classified as such. Others sit elsewhere in our library: Bajaj Holdings &amp; Investment and Tata Investment Corporation are covered in the <a href="investment-cos.html">investment companies report</a>, and Bajaj Finserv, Aditya Birla Capital and Max Financial are operating-company holdcos rather than CICs in the narrow sense. The useful comparison is the discount, because all of them face the same question: why pay full price for a wrapper when the jewel inside can be valued, and sometimes bought, separately?</p>
+
+<div class="chart">
+    <div class="c-title">Indian holdco discounts: CFHL sits at the wide end</div>
+    <div class="c-sub">Discount to pre-tax NAV, INDICATIVE. CFHL and REL at 22 Oct 2026 (this report's base cases); BHIL, Bajaj Nivesh and TSF Investments at 19 Oct 2026 from our investment companies report. Each NAV is built differently; compare directions, not decimals</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Bajaj Nivesh</div><div class="track"><span class="fill bad" style="width:87.1%"></span></div><div class="bval">~61%</div></div>
+      <div class="bar-row"><div class="blab">CFHL<small>SOTP basis</small></div><div class="track"><span class="fill brand" style="width:85.3%"></span></div><div class="bval">~60%</div></div>
+      <div class="bar-row"><div class="blab">CFHL<small>CIFC stake only</small></div><div class="track"><span class="fill spec" style="width:81.0%"></span></div><div class="bval">~57%</div></div>
+      <div class="bar-row"><div class="blab">Bajaj Holdings (BHIL)</div><div class="track"><span class="fill ink" style="width:65.7%"></span></div><div class="bval">~46%</div></div>
+      <div class="bar-row"><div class="blab">Religare<small>base case; range 5–50%</small></div><div class="track"><span class="fill om" style="width:52.3%"></span></div><div class="bval">~37%</div></div>
+      <div class="bar-row"><div class="blab">TSF Investments</div><div class="track"><span class="fill ink" style="width:45.7%"></span></div><div class="bval">~32%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 70%.</span></div>
+  </div>
+
+<p>Indian financial holdcos whose jewel is <strong>listed</strong> (CFHL with CIFC, BHIL with Bajaj Finserv and Bajaj Auto) carry the widest discounts, because the alternative of buying the jewel directly is one click away and far more liquid. CFHL has about 43,800 shareholders; CIFC has about 1.7 lakh. Where the jewel is <strong>unlisted</strong>, as with Religare and Care Health, the holdco is the only listed door to the asset, which supports a narrower discount and turns the holdco into the jewel's de facto public listing.</p>
+
+<h3>CIFC: a listed lender with a group below 50%</h3>
+<p>In September 2026 the Murugappa group held 48.93% of CIFC: CFHL's 43.74% plus about 5.2% held by family members and other group companies. Foreign investors held 24.87%, domestic institutions 20.38% and the public 5.82%. The group has been below 50% since December 2024. CFHL still consolidates CIFC as a subsidiary on the basis of de facto control under Ind AS (CIFC's own annual report calls CFHL an "associate" under the Companies Act). Each capital raise at CIFC that CFHL does not join pushes the group further below half; Part 13 sizes the QIP effect.</p>
+
+<div class="chart">
+    <div class="c-title">Who owns CIFC (Sep-2026)</div>
+    <div class="c-sub">Shareholding of Cholamandalam Investment &amp; Finance, % of shares. Other Murugappa entities = 48.93% group total less CFHL's 43.74% (approximate). Source: screener.in CHOLAFIN; CFHL Q1 FY27 presentation</div>
+    <div class="stack-row"><div class="blab">CIFC, Sep-26</div><div class="stack"><span style="width:43.74%;background:var(--brand)">CFHL 43.7%</span><span style="width:5.19%;background:var(--spec)"></span><span style="width:24.87%;background:var(--om)">FII 24.9%</span><span style="width:20.38%;background:var(--gold)">DII 20.4%</span><span style="width:5.82%;background:var(--ink-faint)"></span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>CFHL 43.74%</span><span><i style="background:var(--spec)"></i>Other Murugappa entities ~5.2%</span><span><i style="background:var(--om)"></i>Foreign investors 24.87%</span><span><i style="background:var(--gold)"></i>Domestic institutions 20.38%</span><span><i style="background:var(--ink-faint)"></i>Public 5.82%</span></div>
+  </div>
+
+<h3>Chola MS: a 60:40 joint venture with MS&amp;AD</h3>
+<p>Chola MS General Insurance was formed in 2001 as a joint venture with Mitsui Sumitomo Insurance, part of Japan's MS&amp;AD group, which describes itself as the world's eighth-largest insurance group and number one in ASEAN. MSI holds 11,95,22,280 of Chola MS's 29,88,05,141 shares (40%) and CFHL holds the other 60%. Two things about this ownership matter for CFHL. First, IRDAI's rules require an Indian promoter to remain "fit and proper", and CRISIL lists "reduction in ownership by the group below a majority holding" as a rating sensitivity for Chola MS. Second, the Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025, which received assent on 20 December 2025 and mostly took effect on 5 February 2026, raised the foreign-investment cap in insurance from 74% to 100%. MSI could now legally buy control. If it ever did, it would put a transaction price on 60% of an asset that CFHL's shareholders currently have to value by assumption.</p>
+
+<p>In its market, Chola MS is mid-table. It wrote 2.31% of industry GDPI in FY26 and 2.06% in H1 FY27, and 5.25% of motor premium in FY26 (fifth in motor) falling to 4.86% in H1 FY27. The private multi-line leaders are ICICI Lombard, Bajaj General, Tata AIG, HDFC Ergo, Go Digit, SBI General, IFFCO-Tokio and Reliance General, with the four state-owned insurers holding about 30% of the market. Our <a href="general-insurance.html">general insurance report</a> covers the competitive landscape in full.</p>
+
+<h3>Care Health: Religare, Kedaara and a market led by Star</h3>
+<p>Religare holds 63.20% of Care Health (62.84% a year earlier; it takes up more than its share in each rights issue). The other named promoter is Trishikhar Ventures LLP, a Kedaara Capital vehicle, which in January 2026 moved 66.68% of its Care shares, 10.61% of Care's capital, to Kedaara II Continuation Fund with IRDAI approval. That implies Kedaara's group held about 15.9% before the transfer (indicative). A continuation-fund move usually means the private-equity sponsor is extending its holding period rather than exiting, and the transfer would have been at a price that is not disclosed. Care's management describes Kedaara as having "put money in whenever money is required".</p>
+
+<div class="chart">
+    <div class="c-title">Standalone health insurance: Care is taking share from Star</div>
+    <div class="c-sub">Share of standalone health insurer (SAHI) GDPI. FY26 total ₹45,866 Cr; H1 FY27 total ₹25,586 Cr. Source: General Insurance Council, Mar-2026 and Sep-2026</div>
+    <div class="stack-row"><div class="blab">FY26</div><div class="stack"><span style="width:40.6%;background:var(--om)">Star 40.6%</span><span style="width:21.9%;background:var(--brand)">Care 21.9%</span><span style="width:18.7%;background:var(--wtg)">Niva 18.7%</span><span style="width:13.6%;background:var(--gold)">ABHI 13.6%</span><span style="width:5.2%;background:var(--ink-faint)"></span></div></div>
+    <div class="stack-row"><div class="blab">H1 FY27</div><div class="stack"><span style="width:37.4%;background:var(--om)">Star 37.4%</span><span style="width:24.2%;background:var(--brand)">Care 24.2%</span><span style="width:18.1%;background:var(--wtg)">Niva 18.1%</span><span style="width:14.5%;background:var(--gold)">ABHI 14.5%</span><span style="width:5.8%;background:var(--ink-faint)"></span></div></div>
+    <div class="legend"><span><i style="background:var(--om)"></i>Star Health (listed)</span><span><i style="background:var(--brand)"></i>Care Health (63.2% Religare)</span><span><i style="background:var(--wtg)"></i>Niva Bupa (listed)</span><span><i style="background:var(--gold)"></i>Aditya Birla Health</span><span><i style="background:var(--ink-faint)"></i>ManipalCigna, Galaxy, Narayana, others</span></div>
+  </div>
+
+<p>The standalone health market is concentrated: the top four held 94.8% of FY26 premium. Star Health, listed since December 2021, leads with 40.6% but is losing share (37.4% in H1 FY27). Care is the clear number two and gaining fastest. Niva Bupa, listed in November 2024, is third. Aditya Birla Health and ManipalCigna follow. Two of the five largest are listed, which is why Care's value can be estimated from peers even though it has no share price of its own (Part 12).</p>
+
+<h3>Who owns the holdcos</h3>
+<p>CFHL's register has shifted from foreign to domestic money. Promoters held 46.39% in September 2026 (Ambadi Investments alone about 37.7%, which CFHL's annual report confirms indirectly: Ambadi received ₹9.20 crore of the ₹1.30-a-share dividend, which implies about 7.08 crore shares). Foreign investors cut their holding from 18.32% in June 2025 to 12.57%; domestic institutions raised theirs from 21.43% to 27.78%, with mutual funds at 24.22% in June 2026. Domestic funds appear to be using CFHL as a cheap proxy for CIFC. Religare's register is the opposite: promoters 31.26%, foreign investors 9.76%, domestic institutions 7.53% and the public 51.46%, a retail-heavy base consistent with its higher volatility and thin research coverage. Its shareholder count fell from 85,873 to 64,023 in a year.</p>
+
+<div class="chart">
+    <div class="c-title">Who owns the two holdcos (Sep-2026)</div>
+    <div class="c-sub">% of shares. Source: screener.in shareholding pattern, Sep-2026</div>
+    <div class="stack-row"><div class="blab">CFHL</div><div class="stack"><span style="width:46.39%;background:var(--brand)">Promoter 46%</span><span style="width:12.57%;background:var(--om)">FII 13%</span><span style="width:27.78%;background:var(--gold)">DII 28%</span><span style="width:13.26%;background:var(--ink-faint)">Public 13%</span></div></div>
+    <div class="stack-row"><div class="blab">Religare</div><div class="stack"><span style="width:31.26%;background:var(--brand)">Promoter 31%</span><span style="width:9.76%;background:var(--om)"></span><span style="width:7.53%;background:var(--gold)"></span><span style="width:51.45%;background:var(--ink-faint)">Public 51%</span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>Promoter group</span><span><i style="background:var(--om)"></i>Foreign investors (REL 9.76%)</span><span><i style="background:var(--gold)"></i>Domestic institutions (REL 7.53%)</span><span><i style="background:var(--ink-faint)"></i>Public and others (CFHL incl. 0.46% government)</span></div>
+  </div>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>The holdco is never the only decision-maker. At CIFC the family owns less than half and depends on outside capital to grow. At Chola MS a Japanese partner owns 40% and could, under the new law, try to buy the rest. At Care a private-equity fund is the co-promoter. Each of these other owners can change the value of the holdco's stake more than the holdco's own board can.</p>
+  </div>
+</section>
+
+<section class="part" id="p6">
+<div class="part-head"><span class="pno">06</span><h2>Four ways to hold a jewel, and what each one is worth</h2></div>
+<p class="part-sub">A listed jewel, an unlisted jewel, a joint-venture insurer and a set of operating stubs each call for a different valuation method and attract a different discount.</p>
+
+<p>Financial holdcos come in recognisable types. The type decides how to value the holdco, which number to watch, and how wide a discount is "normal". CFHL is mostly the first type with a little of the third; Religare is mostly the second with a meaningful amount of the fourth.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Business-model archetypes of financial holding companies</caption>
+    <thead><tr><th>Archetype</th><th>Example here</th><th>What drives value</th><th>Key KPI</th><th>How to value</th><th>Typical discount (indicative)</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">A. Listed-jewel holdco</td><td>CFHL (CIFC); BHIL elsewhere</td><td>Jewel's share price × stake</td><td>Discount to the listed stake</td><td>Mark-to-market sum of parts; discount versus its own history</td><td>40–65% (CFHL 57–60%)</td></tr>
+      <tr><td class="t-strong">B. Unlisted-jewel holdco</td><td>REL (Care Health)</td><td>Private-market value of the jewel; probability of a listing or merger</td><td>Implied jewel value = (m-cap − other parts) ÷ stake</td><td>Sum of parts with peer multiples; the holdco price is itself a market estimate of the jewel</td><td>0–50% (wide range)</td></tr>
+      <tr><td class="t-strong">C. Joint-venture insurer stake</td><td>CFHL → Chola MS</td><td>Partner's intentions, IRDAI rules, eventual listing</td><td>Solvency, combined ratio, RoE</td><td>Price-to-book or price-to-premium versus listed peers, less a JV discount of 10–25%</td><td>Embedded in the parent's discount</td></tr>
+      <tr><td class="t-strong">D. Holdco with operating stubs</td><td>REL (Religare Finvest, Broking, Housing)</td><td>Whether stubs release or consume capital</td><td>Stub RoE; holdco cash burn</td><td>Book value × 0.5–1.5×</td><td>Stubs drag if loss-making</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p><strong>Type A</strong> is the cleanest to measure and the hardest to fix. Because CIFC trades every day, CFHL's discount can be calculated to the rupee: 1 − ₹24,714 crore ÷ (37,28,85,889 shares × ₹1,531) = 56.7%. Everyone can see it, and nothing in the structure forces it to close. Indian experience suggests listed-jewel discounts of 40–65% are the norm rather than an anomaly; our investment companies report shows BHIL averaging about 58% between 2015 and 2019 and touching 66% in the COVID crash.</p>
+
+<p><strong>Type B</strong> works the other way. The market cannot see Care's value, so Religare's share price is the market's estimate of it. That makes the discount a range rather than a number, and it also means news about Care (growth, solvency, a listing route) moves Religare more directly than CIFC news moves CFHL. Back out the other parts and Religare's ₹7,178 crore market value implies about ₹9,450 crore for 100% of Care at zero holdco discount (indicative), against ₹14,843 crore at the price of Care's own September 2025 rights issue.</p>
+
+<p><strong>Type C</strong> covers Chola MS. A joint-venture insurer that pays no dividend, has a foreign partner with its own plans and is locked by IRDAI ownership rules deserves a lower multiple than a listed insurer. We use 1.5–2.5× net worth (₹5,100–8,500 crore for 100%) against 3.5–5.4× for listed general and health insurers; Part 11 explains why. Even at the top of the range, Chola MS is under 9% of CFHL's NAV.</p>
+
+<p><strong>Type D</strong> is where Religare's head-office complexity lives. Religare Finvest, Religare Broking and Religare Housing have about ₹1,300 crore of net worth between them (RFL ₹914 crore including its housing subsidiary, broking ₹384 crore). We value them at about ₹1,395 crore (RFL including housing at 0.9× book, broking at 1.5× book; indicative). They matter less for their value than for their effect on the structure: as Part 10 explains, their presence inside Religare is what stops the holdco merging into Care.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Economics of the two holdcos compared, FY26 (₹ crore)</caption>
+    <thead><tr><th>Measure</th><th class="num">CFHL</th><th class="num">REL</th><th>Note</th></tr></thead>
+    <tbody>
+      <tr><td>Look-through economic PAT (illustrative)</td><td class="num">2,441</td><td class="num">357</td><td>REL uses Care's Ind AS PAT of ₹387 Cr</td></tr>
+      <tr><td>Reported attributable PAT</td><td class="num">2,441</td><td class="num">~86</td><td>REL from EPS ₹2.58 × weighted shares</td></tr>
+      <tr><td>Cash received from subsidiaries</td><td class="num">84.88</td><td class="num">~0</td><td>CFHL: ₹74.88 Cr dividends + ₹10 Cr brand fee</td></tr>
+      <tr><td>Dividends paid</td><td class="num">24.41</td><td class="num">0</td><td>REL under RBI ban since Apr-2019</td></tr>
+      <tr><td>Capital sent down</td><td class="num">0</td><td class="num">256</td><td>REL's take-up of Care rights in FY26</td></tr>
+      <tr><td>Holdco operating cost</td><td class="num">3.89</td><td class="num">~50</td><td>REL standalone loss ₹33.8 Cr</td></tr>
+      <tr><td>Market cap ÷ look-through PAT (illustrative)</td><td class="num">10.1×</td><td class="num">20.1×</td><td>22 Oct 2026 prices</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="chart">
+    <div class="c-title">Typical discount ranges by archetype</div>
+    <div class="c-sub">INDICATIVE ranges from this report and our investment companies report; bar shows the mid-point, label the range</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">A. Listed-jewel holdco</div><div class="track"><span class="fill brand" style="width:75%"></span></div><div class="bval">40–65%</div></div>
+      <div class="bar-row"><div class="blab">B. Unlisted-jewel holdco</div><div class="track"><span class="fill om" style="width:35.7%"></span></div><div class="bval">0–50%</div></div>
+      <div class="bar-row"><div class="blab">C. JV insurer (vs listed peers)</div><div class="track"><span class="fill gold" style="width:25%"></span></div><div class="bval">10–25%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 70%. Type D (operating stubs) is valued on book, not on a discount.</span></div>
+  </div>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>CFHL's discount is easy to measure and hard to close; Religare's is hard to measure and could in principle close quickly if a regulator said yes. That difference shapes how each stock trades. CFHL moves with CIFC, plus or minus a slowly drifting discount. Religare moves on regulatory news and on whatever investors think Care is worth this month.</p>
+  </div>
+</section>
+
+<section class="part" id="p7">
+<div class="part-head"><span class="pno">07</span><h2>Regulators hold the keys: RBI, IRDAI and the tax code</h2></div>
+<p class="part-sub">Every route by which a holdco's discount could close, whether a payout, a merger, a demerger or a listing, needs at least one regulator's consent. Several are capped by rule.</p>
+
+<p>Both members are registered with the RBI as Core Investment Companies. Their subsidiaries include an Upper Layer NBFC (CIFC), a middle-layer investment-and-credit NBFC (Religare Finvest), a housing finance company (Religare Housing), a stockbroker and two insurers regulated by IRDAI. That gives three regulators a say over almost any change, and in 2026 two of them acted in ways that shaped this sub-sector.</p>
+
+<h3>RBI: the Core Investment Company rulebook</h3>
+<p>The RBI's Master Direction on Core Investment Companies (2016, updated 1 August 2025) sets the frame. A CIC is a non-bank whose assets are at least ₹100 crore (alone or with group CICs) and which raises or holds public funds. At least 90% of its net assets must be in group companies, with at least 60% in their equity; it may not trade those investments except by block sale. Its adjusted net worth (ANW), which is owned funds plus 50% of the unrealised appreciation on quoted investments, must be at least 30% of risk-weighted assets, and outside liabilities may not exceed 2.5 times ANW. Since August 2020 a group may have no more than two layers of CICs (paragraph 7). Any change of control, any shareholding change of 26% or more and any change of more than 30% of the board needs prior RBI approval (paragraph 27).</p>
+
+<p>Two rules bear directly on the discount. Paragraph 21A caps a CIC's dividend at <strong>60% of its net profit</strong> (10% if it is not fully compliant). For CFHL, whose standalone profit was ₹70.41 crore in FY26, that means a maximum payout of about ₹42 crore, or ₹2.25 a share: a 0.17% yield at ₹1,316, against ₹1.30 actually paid. And the two-layer rule means the Murugappa structure, with Ambadi Investments above CFHL, is already at the limit: no further CIC can be inserted, and any simplification has to remove a layer rather than add one.</p>
+
+<p>Religare faces an extra, company-specific restriction. In a letter of 5 April 2019, reiterated on 19 December 2019, the RBI advised Religare to stop paying dividends "till further orders", in the context of the 2016–18 diversion of funds through Religare Finvest's corporate loan book under the previous promoters. The FY26 annual report says that instruction is still in force. Religare Finvest's own Corrective Action Plan, imposed in January 2018, was lifted only on 23 July 2025.</p>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>A CIC cannot pay out more than 60% of its own small profit, and Religare cannot pay anything at all. So even a holdco board that wanted to close the discount by handing cash to shareholders could not do it at scale. The rulebook was written to stop CICs becoming leveraged shadow banks, and it does that well; a side effect is that it also stops them being efficient conduits of cash.</p>
+  </div>
+
+<h3>RBI: the jewel and the schemes</h3>
+<p>CIFC is on the RBI's Upper Layer list under scale-based regulation, which brings bank-like rules: a minimum common equity tier-1 ratio of 9%, large-exposure limits and a mandatory listing (already met). Its asset-quality reporting is shaped by the RBI's November 2021 clarification that a loan cannot be upgraded from non-performing until all arrears are cleared, which is why CIFC shows a higher RBI-basis gross NPA (4.50%) than its Ind AS Stage-3 ratio (3.29%). The RBI's November 2023 increase in risk weights on bank lending to NBFCs and on unsecured consumer credit, partly reversed from April 2025, touched CIFC's ₹15,884 crore consumer and small-enterprise book.</p>
+
+<p>The decisive RBI power in 2026 was its approval of schemes of arrangement involving NBFCs and CICs. Religare's board approved a demerger on 14 February 2026; the stock exchanges issued their observation letters on 7 July; and in letters of 6 August (to Religare) and 7 August (to Religare Finvest) the RBI said the request "could not be acceded to", giving no reasons. Religare's shares fell 8.2% to ₹235.40 on 7 August. Part 10 examines what this blocks.</p>
+
+<h3>IRDAI: owning an insurer, accounting for it, and merging into it</h3>
+<p>IRDAI's rules govern who may own an insurer and how its profit is counted. Anyone holding 10% or more, or exercising control, is a "promoter" and must be approved; transfers above set thresholds need approval too. IRDAI's amendment regulations of 30 July 2026 (the Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers Amendment) reset those thresholds to 5, 10, 25, 50 and 75%, and treat passive dilution in a rights issue as a transfer. More importantly for this report, they allow a non-insurance company to amalgamate into an insurer only if it holds more than 50% of that insurer and has <strong>no other non-insurance business</strong> on the date of application, with consideration paid only in equity and a fee of ₹10 lakh per entity. Religare meets the first test (63.2% of Care) and fails the second (it still owns a lender, a broker and a housing financier).</p>
+
+<p>On accounting, three IRDAI decisions overlap. From 1 October 2024 multi-year premiums must be recognised 1/n per year, depressing reported premium and profit for fast-growing health insurers through FY25–FY27. From 1 April 2026 insurers moved to Ind AS 117, but both Chola MS and Care took a one-year forbearance and will report under Ind AS only from 1 April 2027. And IRDAI's 2023 expenses-of-management regulations replaced line-by-line commission caps with an overall cap (30% of gross premium for general insurers, 35% for standalone health insurers), which is why Chola MS's reported commissions jump between FY23 and FY24 in its five-year table.</p>
+
+<p>On 23 September 2026 IRDAI published a consultation paper titled "Recalibrating Economics of Insurance Distribution", with comments due by 25 October 2026. As reported, it proposes to phase general insurers' EoM limit down to 20% of GDPI over five years, cut health new-business commissions from about 40% to 15–20% and motor own-damage commissions from 16% to about 5%, and ban "dark patterns" in online selling. That would help Chola MS's and Care's expense ratios, and cut fee income at distributors, including CIFC, which received ₹256.6 crore of commission from Chola MS in FY26.</p>
+
+<h3>SEBI and tax</h3>
+<p>SEBI's takeover code made the Burman family make an open offer at ₹235 a share in September 2023 when they crossed 25% of Religare; it was resisted by the board of the time and completed on 13 February 2025, with change of control recorded on 18 February 2025 at 25.16%. Schemes such as Religare's demerger need stock-exchange observation letters before court and regulatory approval. On tax: demergers that meet section 2(19AA) of the Income Tax Act are tax-neutral, and Religare's scheme was drafted to comply; dividends are taxed in shareholders' hands, with section 80M letting a holdco deduct dividends it passes on so that tax does not cascade; long-term capital gains on any stake sale are taxed at 12.5% (since the July 2024 Budget); and since 1 October 2024 buybacks are taxed as deemed dividends in shareholders' hands, which removes the buyback as a cheap way to close a discount.</p>
+
+<ul class="timeline">
+    <li><div class="yr">5 Apr 2019</div><div class="ev">RBI advises Religare to stop paying dividends "till further orders" (reiterated 19 Dec 2019). Still in force.</div></li>
+    <li><div class="yr">13 Aug 2020</div><div class="ev">RBI limits groups to two layers of CICs (compliance by 31 Mar 2023). Ambadi above CFHL uses both layers.</div></li>
+    <li><div class="yr">1 Oct 2024</div><div class="ev">IRDAI 1/n rule: multi-year premium recognised one year at a time. Care's reported profit falls as growth accelerates.</div></li>
+    <li><div class="yr">1 Oct 2024</div><div class="ev">Buybacks taxed as deemed dividends in shareholders' hands.</div></li>
+    <li class="major"><div class="yr">20 Dec 2025 / 5 Feb 2026</div><div class="ev">Sabka Bima Sabki Raksha Act: insurance FDI cap raised to 100%. MSI could now own all of Chola MS.</div></li>
+    <li><div class="yr">1 Apr 2026</div><div class="ev">Ind AS 117 for insurers; Chola MS and Care take a one-year forbearance to 1 Apr 2027.</div></li>
+    <li class="major"><div class="yr">30 Jul 2026</div><div class="ev">IRDAI amendment allows a holdco to merge into its insurer if it owns more than 50% and has no other non-insurance business.</div></li>
+    <li class="major"><div class="yr">6–7 Aug 2026</div><div class="ev">RBI declines Religare's demerger scheme, with no reasons given.</div></li>
+    <li><div class="yr">23 Sep 2026</div><div class="ev">IRDAI consultation on distribution economics (EoM and commission cuts); comments due 25 Oct 2026.</div></li>
+    <li><div class="yr">7 Oct 2026</div><div class="ev">RBI raises the repo rate 25 bp to 5.50% (SDF 5.25%, Bank Rate 5.75%, CRR 3.00%).</div></li>
+  </ul>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>How each rule bites on each holdco</caption>
+    <thead><tr><th>Rule</th><th>Effect on CFHL</th><th>Effect on Religare</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">CIC dividend cap (60% of standalone PAT)</td><td>Maximum ~₹42 Cr (₹2.25/share) vs ₹24 Cr paid</td><td>Irrelevant while the 2019 dividend ban stands</td></tr>
+      <tr><td class="t-strong">Two-layer CIC limit</td><td>Ambadi + CFHL uses both layers; simplification must remove one</td><td>Not binding</td></tr>
+      <tr><td class="t-strong">RBI approval of schemes and control changes</td><td>Any CFHL–CIFC merger would need it (and IRDAI's, because of Chola MS)</td><td>Demerger refused Aug-2026; every alternative also needs RBI</td></tr>
+      <tr><td class="t-strong">IRDAI holdco-into-insurer rule (30 Jul 2026)</td><td>Not usable: CFHL owns a lender, and only 60% of Chola MS</td><td>Usable only after shedding RFL, broking and housing, which needs RBI</td></tr>
+      <tr><td class="t-strong">Ind AS 117 forbearance</td><td>Chola MS on IGAAP until Mar-2027</td><td>Care consolidated on IGAAP 1/n until Mar-2027; reported PAT understated</td></tr>
+      <tr><td class="t-strong">100% insurance FDI</td><td>MSI could buy control of Chola MS, crystallising its value</td><td>A foreign buyer could, in principle, bid for Care</td></tr>
+      <tr><td class="t-strong">Buyback taxed as dividend; 12.5% LTCG</td><td>Buyback or stake sale less efficient as a discount-closer</td><td>Same</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>For CFHL the rules make the structure stable: it cannot pay much out, cannot add layers and has no reason to change. For Religare the rules make the structure stuck: it wants to change, has a route in principle, and needs the RBI to say yes to the first step. In both cases the most important decision-maker for the discount sits outside the company.</p>
+  </div>
+</section>
+
+<!--CONTINUE-->
+
+
+</main>
+</div>
+</div>
+</body>
+</html>
