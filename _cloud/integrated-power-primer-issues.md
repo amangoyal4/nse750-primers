@@ -33,3 +33,24 @@
 - **cesc.html — Malegaon:** quantify the loss — FY26 PAT **−₹125 Cr** on ₹799 Cr revenue; Q1 FY27 −₹43 Cr. Rajasthan franchises Q1 FY27 loss 9.21% (from 12.78%).
 - **cesc.html — ratings & Q1 FY27 omitted:** CARE AA/Stable (outlook raised from Negative, 12-Aug-2026); Q1 FY27 PAT ₹419 Cr (+3%), EBITDA ₹1,149 Cr (−3%), interim dividend ₹6.
 
+
+## From Integrated Power Utilities deep-research pass (2026-10-22, integrated-power-industry.md Part 4)
+
+- **tata-power.html — Kleros arbitration omitted (material):** add the SIAC award (US$490.32 mn damages + 5.33% simple interest from 30-Nov-2020 + SGD 11.34 mn costs), the SICC dismissal of Tata's set-aside challenge (announced 26-Aug-2026), the intended appeal, and that **no provision** is booked (FY26 AR note 39(d)); CRISIL left ratings unchanged (2-Sep-2026). At ₹94.9/$ the claim with interest is ≈₹6,100 Cr.
+- **tata-power.html — owners' PAT fell in FY26:** "record PAT ₹5,118 Cr" should sit beside **PAT to owners ₹3,747 Cr (FY25 ₹3,971 Cr, −5.6%)**; NCI ₹1,370 Cr (₹804 Cr). Explain the TPDDL one-off (₹1,047 Cr revenue / ₹783 Cr PAT from APTEL/SC-directed true-ups) and that ₹5,212 Cr is "PAT before exceptional items".
+- **tata-power.html — distribution facts:** customers 13.1 mn (Mumbai 0.80 mn, TPDDL 2.2, Odisha 9.9, Ajmer 0.17 mn — not 0.5 mn); Mumbai 6,127 MU, AT&C 0.9%; TPDDL 10,981 MU, AT&C 5.42%; Odisha FY26 AT&C 15.5% (TPNODL 9.9%), sales 30,163 MU, PAT ₹809 Cr (confirmed; driven partly by ECL reversals).
+- **tata-power.html — Mundra SPPA economics:** SPPA reimburses actual coal and heat rate and normative fixed cost with **no ROE**; approvals from three more states were expected in Aug-2026 and the fourth in Sep-2026 (not yet confirmed); management targets operation to 2038.
+- **tata-power.html — guidance update:** FY27 capex ₹25,000 Cr (Q1 ₹5,300 Cr); RE to >9 GW by Mar-2027 (adds 2.5–2.7 GW); rooftop revenue ₹4,800 Cr in FY26 with +60–70% planned; third-party solar EPC discontinued; Bhivpuri PSP commissioning from early CY2029; Dorjilung 40% (~₹1,572 Cr equity).
+- **torrent-power.html — Bhiwandi franchise expiry:** add that the Bhiwandi agreement **expires in January 2027** (renewal application under MSEDCL review, AR note 70); Agra runs to 2030 and SMK to 2040 (from 1-Mar-2020).
+- **torrent-power.html — franchise loss bases:** distribution (T&D) losses FY26 are Bhiwandi 9.11%, **Agra 8.42%**, SMK 23.74%; the "~5.4%" for Agra is **AT&C** (collections above billing). Use one basis per table.
+- **torrent-power.html — customers and QIP:** customers **~4.3 mn** (not ~4.2 mn); QIP **allotted 5-Dec-2024** at ₹1,503/share (2.33 Cr shares, ₹3,500 Cr; ₹2,625 Cr repaid debt).
+- **torrent-power.html — "Government" holding explained:** the 8.35% is the "Central/State Government(s)" category, incl. **GUVNL 6.95%** (3.5 Cr shares); the Sep-2024 jump was a reclassification from "public". A Gujarat government nominee sits on the board.
+- **torrent-power.html — regulated returns:** replace "14–15.5% ROE" with the GERC MYT 2024 regime: new assets on ROCE with base ROE 13% rising to 15% on milestones; legacy assets 14% → ~15% with incentives; transmission CERC 15.5%. Note Torrent does carry a regulatory gap (cut by ~₹800 Cr in FY26; carrying-cost income ₹186 Cr in Q4 FY26).
+- **torrent-power.html — capex and Nabha numbers:** FY26 capex **₹8,681 Cr**; Nabha = ₹3,661 Cr equity/convertibles + ₹495 Cr promoter loan + ~₹2,733 Cr net debt (SPA 16-Feb-2026, CCI 7-Apr-2026, closed 25-Jun-2026); ~₹6,000–6,500 Cr gross debt added; AMGEN may run only to Dec-2030, with an ~800 MW replacement planned subject to central coal allocation.
+- **cesc.html — Vision 2030 and capex:** add management's 2030 aim (PAT ~2× FY25 to ~₹2,860 Cr; ROE +400 bp) and ~₹35,000 Cr five-year capex (distribution ₹6,000 Cr, RE ₹26,000+ Cr, cells ~₹3,000 Cr); Purvah contracted **4.8 GWp + 2.2 GWh** (not 4.5 GWp); annualised revenue ~₹3,400 Cr / EBITDA ~₹3,000 Cr at full build.
+- **cesc.html — regulatory assets basis:** state both the CARE-adjusted ₹5,257 Cr and the balance-sheet regulatory-deferral balance **₹8,666 Cr consolidated / ₹6,510 Cr standalone** (₹2,103 Cr of it is deferred-tax recoverable); WBERC's FY21 APR order and Haldia's FY19–26 tariff order are under appeal.
+- **cesc.html — dates and ownership:** NPCL 72.73%; franchises Kota 1-Sep-2016, Bharatpur 1-Dec-2016, Bikaner May-2017, Malegaon 1-Mar-2020; CPDL from 1-Feb-2025; Kolkata loss 8.4% (FY21) → 6.11% (FY26).
+- **cesc.html — no earnings calls:** the primer should not cite "management said on the call"; CESC communicates via investor updates and conference presentations (latest 18-Sep-2026).
+- **cesc.html — share-price context:** the 1-year −28% is mostly a −35% fall from the 4-May-2026 peak (₹198.7), shared with Tata (−23%) and Torrent (−32%) — present it as a sector de-rating plus a CESC-specific leg in August.
+
+---
