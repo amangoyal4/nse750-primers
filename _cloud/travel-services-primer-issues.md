@@ -30,3 +30,48 @@ Logged for the owner; primers are NOT edited on this branch.
 - **thomas-cook-india.html — Q1 FY27 and war impact omitted:** total income −12%, PBT −21% (₹88.5 Cr), GCC subsidiaries DEI and Desert Adventures hit; ex-GCC EBIT +8%; Financial Services EBIT margin 45.3%; Sterling EBIT +28% (margin 32.4%) [Investywise]. Also: DEI Inc. (US) dissolved 14-Oct-2026.
 - **thomas-cook-india.html — rivals table:** "EbixCash" as a live forex rival is questionable after Ebix Inc.'s 2023 Chapter 11 and the EbixCash sale [K] — check before keeping.
 
+
+## From Travel Services deep-research pass (2026-10-22, travel-services-industry.md §4.6) — supersedes earlier bullets where they conflict
+
+
+### From Travel Services deep-research pass (2026-10-22, travel-services-industry.md Part 4)
+
+- **irctc.html — convenience fee:** keep ₹15/₹30 + GST with ₹10/₹20 for UPI/BHIM. The primer was right; drop any "conflict" note. Add the fee-per-ticket check: ~₹18.6 in Q1 FY27 at a 51% UPI share [PL/company].
+- **irctc.html — online share:** "~80%" → **~89% e-booking penetration** (company, Q3 FY26 to Q1 FY27 calls).
+- **irctc.html — FY26 segment table:**
+  - Use the filed numbers: Catering ₹2,398.8 Cr / EBIT ₹249.9 Cr (10.4%); Ticketing ₹1,535.5 / ₹1,267.9 Cr (82.6%); Tourism (incl. State Teertha) ₹890.1 / ₹127.5 Cr (14.3%); Rail Neer ₹407.5 / ₹55.7 Cr (13.7%).
+  - "~85% ticketing margin" → "82.6% in FY26; 76–85% by quarter" [IRCTC FY26 integrated filing].
+- **irctc.html — Rail Neer:**
+  - Capacity "~18 lakh" → **17.8 lakh bottles/day** (Q1 FY27).
+  - Add the **MRP cut ₹15 → ₹14 (1 L) from 22-Sep-2025** (Railway Board CC 18/2025).
+- **irctc.html — balance sheet:** add cash + bank ₹2,841.6 Cr (Mar-26), no borrowings, lease liabilities ₹80.7 Cr. Note the Railways-related liabilities.
+- **irctc.html — legal:** GSTAT 14-Oct-2026 anti-profiteering order: ₹50.41 Cr + 18% interest from 28-Jun-2019 (~₹117 Cr total) [E]; IRCTC appealing.
+- **irctc.html — channel risk:** add that ~28% of tickets come via OTAs/partners, and that non-fee income fell 5.5% in Q1 FY27 on agent restrictions and diversion to RailOne.
+- **irctc.html — guidance:** management targets catering +15%, tourism +19–20% (₹1,000 Cr in FY27) and ticketing +7–10% a year; payment-aggregator licence (IRCTC Payments) expected in FY27.
+- **tbo-tek.html — adjusted EBITDA:** FY26 "₹414 Cr" is *before acquisition costs*. The company's adjusted EBITDA is **₹399.5 Cr (14.9%)**. Label it.
+- **tbo-tek.html — FY26 mix:** add H+A 64.0% of GTV (₹23,542 Cr), air ₹13,267 Cr; India 39.6% / international 60.4%; air take 2.45%, H+A 9.51% (sum of quarterly letters). Classic H2 FY26: GTV ~₹2,086 Cr, revenue ~₹534 Cr, adj. EBITDA ~₹53 Cr.
+- **tbo-tek.html — ED order detail:** FEMA s.3(c) read with s.42(1); order 16-Oct-2026; the auditors' Emphasis of Matter already flagged it; the company is evaluating options.
+- **tbo-tek.html — growth quality:** Q1 FY27 organic growth +15% in constant currency vs +37% reported consolidated GTV. Organic SG&A +4% in constant currency.
+- **ixigo.html — ownership (major):**
+  - **Prosus (MIH Investments One B.V.) 16.08%**, the largest shareholder.
+  - **Founders ~9.3%** (Rajnish Kumar 4.82%, Aloke Bajpai 4.52%), not ~17%.
+  - GIC (Gamnat) 8.29%, Peak XV 5.94%; SAIF/Elevation fully exited (Sep-25 → Dec-25).
+- **ixigo.html — new segment reporting:**
+  - Four segments (Trains incl. Zoop, Flights, Buses, Hotels).
+  - Q2 FY27: trains revenue ₹149.1 Cr (+16%), CM 31.7%, OTA rail share ~64%; buses GTV ₹753 Cr (+32%), CM 53.2%; flights revenue ₹82.7 Cr (down), gross take 7.0% vs 9.4%; hotels GTV ₹111 Cr, CM −₹1.2 Cr.
+  - Contribution-margin bands: trains ≥30%, flights ≥40%, buses ≥50%.
+- **ixigo.html — outlook language:** hotels are the 2–3-year investment priority (~₹10 Cr a quarter of group cost); "October started softer" for domestic flights (not guidance); pre-exceptional PBT +37% is management's preferred Q2 measure.
+- **thomas-cook-india.html — Financial Services:** replace the "~₹485 Cr derived" revenue with **₹326.2 Cr segment revenue (net), EBIT ₹149.3 Cr (45.8%)**. Add **forex turnover ₹133 bn (FY26)**, float ₹1,600 Cr → ₹1,800 Cr (Q1 FY27), and active card users 1.2 m → 1.1 m.
+- **thomas-cook-india.html — Sterling:** 78 resorts / 3,798 rooms (Mar-26) is correct; drop the "over 72 / 62 locations" wording if added. Add FY26 occupancy 59%, ARR ₹6,176; Q1 FY27 67% / ₹7,809; the 95-resort target by 2027.
+- **thomas-cook-india.html — segment EBIT mix:** forex 29% + Sterling 25% of FY26 segment EBIT on ~10% of revenue; travel 43% at a 3.3% margin; DEI 2%.
+- **thomas-cook-india.html — scheme status:** NSE no-objection 1-Sep-2026 (SEBI comments 27-Aug); NCLT filing due within 6 months; transferors TC Visa Services, Jardin Travel Solutions, Borderless Travel Services.
+- **thomas-cook-india.html — debt:** company total debt ₹268.8 Cr (Jun-26) vs screener ₹539 Cr (incl. leases); cash & ST investments ₹2,648.8 Cr (incl. float).
+- **thomas-cook-india.html — promoter:** Fairbridge 63.83% → 64.77% (Jun-26 quarter) by share purchase (equity capital unchanged); not a buyback.
+
+---
+
+## 4.7 Source URLs fetched this session (Part 4)
+
+## Orchestrator note (2026-10-22)
+
+- Part 3 aggregates re-added from the company rows (FY26, FY25, Q1 FY27, Q1 FY26, m-cap, borrowings): no arithmetic errors. Part 4 Supersedes changes no summed figure (sums use screener consolidated revenue/OP/PAT/borrowings); it changes TBO adj. EBITDA (₹399.5 Cr, reference only), Thomas Cook company-basis debt (₹268.8 Cr ex-leases vs screener ₹539 Cr) and ixigo ownership (Prosus 16.08%, founders ~9.3%).

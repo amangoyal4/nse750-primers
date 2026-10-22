@@ -1026,3 +1026,781 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
 - Rupee record (May-2026): https://www.wionews.com/videos/oil-shock-sends-rupee-to-record-lows-1779089440573
 
 **Blocked:** bseindia.com API (Access Denied); nseindia.com (not tried, blocks bots); tourism.gov.in PDF (bot page); arihantcapital research PDF (connection reset); yourstory (403).
+
+---
+
+# PART 4 — Deep-research supplement (22-Oct-2026)
+
+Second, primary-source pass (compiled 22-Oct-2026, ~05:00–07:30 UTC). It **adds to and corrects** Parts 1–3; where they conflict, Part 4 wins (see 4.0). About 45 web calls. Scratch files and extracted PDF text are in /tmp/travel-services-deep (notes.md, p_*.txt, dl/).
+
+**Tags in Part 4**
+- **[V]** = fetched and read this session from the named document.
+- **[V-b]** = company data relayed by a free broker note that was fetched this session. These are PL Capital (Prabhudas Lilladher) IRCTC result notes, "Source: Company, PL", whose con-call highlights come from the company's call; also the Arihant Capital Thomas Cook note. Good for KPIs the company states on its calls. They are not a filing.
+- **[V-snip]**, **[K]**, **[E]** = as in Parts 1–3.
+
+**Primary documents read this session**
+1. **IRCTC**
+   - FY26 Integrated Filing (iXBRL, audited standalone, NSE, 26-May-2026): segment revenue and results, balance sheet, related-party table.
+   - BSE disclosure on the GSTAT order (15-Oct-2026).
+   - Railway Board Commercial Circular 18 of 2025 (Rail Neer price).
+   - PL result notes for Q2 FY26, Q3 FY26, Q4 FY26 and Q1 FY27 (dated 13-Nov-25, 14-Feb-26, 27-May-26 and 14-Aug-26).
+2. **TBO Tek**
+   - Letters to shareholders for Q3 FY26 (NSE, 11-Feb-2026) and Q1 FY27 (NSE, 29-Jul-2026; the revised filing).
+   - BSE intimation of the ED order (21-Oct-2026).
+   - Quartr AI summary of the Q1 FY27 call.
+3. **ixigo**
+   - Q2 FY27 Earnings Release, a 14-page shareholder FAQ letter (BSE, 17-Oct-2026).
+   - Media releases for FY26 (21-May-2026) and Q2 FY27 (17-Oct-2026).
+   - Earnings-call audio intimation (19-Oct-2026). The call itself is audio only; no transcript was found.
+4. **Thomas Cook (India)**
+   - Q1 FY27 investor presentation (58 pp, NSE, 3-Aug-2026), with segment data for FY21–FY26 and Q1 FY26–Q1 FY27.
+   - NSE observation letter on the composite scheme (1/2-Sep-2026).
+   - Arihant Q1 FY27 note.
+5. **Regulators and other sources**
+   - RBI Bulletin Table 36, LRS (25-Sep-2026).
+   - Screener consolidated pages and shareholder-detail endpoints for all four companies, re-fetched 22-Oct ~04:56 UTC.
+   - DGCA August-2026 data via Angel One.
+   - Trading Economics USD/INR.
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3)
+
+| # | Where in Parts 1–3 | Old value / statement | New value / statement | Source |
+|---|---|---|---|---|
+| 1 | §2.2, §2.0, JSON (TBO) | FY26 **adjusted EBITDA ₹414 Cr** (primer) | Company-defined **Adj. EBITDA = ₹399.5 Cr (14.9% of revenue)**. ₹414.1 Cr (15.5%) is "Adjusted EBITDA **before acquisition-related cost** (₹14.5 Cr)". EBITDA ₹378.5 Cr = screener OP ₹378 Cr. Use ₹399.5 Cr as "adj. EBITDA" and say "₹414 Cr before Classic deal costs". | TBO Q1 FY27 letter, "Key Financials" reconciliation [V] |
+| 2 | §0, §5.2, §2.3, §3.2(e), JSON (ixigo) | **Prosus 10.10%** of ixigo | **MIH Investments One B.V. (Prosus) 16.08% (Sep-26)**; it was 16.20% in Dec-25, the first quarter after the issue. The preferential issue gave 10.10% post-issue. The other ~6 pp came from secondary purchases as SAIF/Elevation exited (5.05% in Sep-25 → nil in Dec-25) and Peak XV halved (10.04% → 5.98%) [E: inferred from the holder table]. **Prosus is ixigo's largest shareholder.** | Screener shareholder-detail endpoint (BSE shareholding-pattern data) [V] |
+| 3 | §2.3, §3.3 (ixigo) | Founders "~17%" (primer) | **Founders ~9.3% combined (Sep-26):** Rajnish Kumar 4.82% (shown as "Rajnish Kumar Benedict"; 4.61% in Jun-26) + Aloke Bajpai 4.52% (4.32% in Jun-26). Both sit in the **public** category, so there is no promoter row. Others above 1%: Gamnat (GIC) 8.29%, Peak XV 5.94%, Malabar 3.93%, Micromax 2.95%, Discovery 2.11%, Bay Capital 2.15%, Coronation 2.01%, Kotha Dinesh Kumar 1.62%, Sripad Vaidya 1.56%. | Screener holder table [V] |
+| 4 | §7.1, §H1, §2.1, §3.3 (IRCTC fee) | Conflict: ₹10/₹20 UPI vs ₹15/₹30 (Yourstory) | **Both are right.** The base fee is ₹15 (non-AC) / ₹30 (AC) + GST, restored 1-Sep-2019 (Railways/PIB 2019). A 2019 government mandate sets ₹10 / ₹20 for UPI/BHIM payments. Rail Minister's written reply (Rajya Sabha, Aug-2025): ₹10/₹20 online. **Arithmetic check:** UPI share 51.2% and AC share ~50% (Q1 FY27) give a blended ~₹18.7 per ticket. Reported fee per ticket is ₹2,480 mn ÷ 133 mn = **₹18.6** [E], consistent only with the two-tier structure. | V-snip (PIB 2019 via gconnect; medianama; Angel One 11-Aug-2025 [V fetched]); PL Q1 FY27 [V-b]; [E] |
+| 5 | §3, §5.1, §9.1, §2.1 (online share) | ~86–89% [V-snip]; primer ~80% | **89.0% "e-booking penetration"**, stated on the Q3 FY26, Q4 FY26 and Q1 FY27 calls; 89.2% in Q2 FY26. The Rail Minister cited "~87% of reserved tickets" (Aug-2025). Use **~89%**. | PL notes [V-b]; Angel One [V] |
+| 6 | §B1, §2.1, §3.3 (ticketing margin) | "~80%"; primer ~85% | **FY26 ticketing segment result ₹1,267.9 Cr on ₹1,535.5 Cr revenue = 82.6%.** By quarter: Q1 FY26 84.2%, Q2 84.7%, Q3 85.1%, Q4 76.3%, Q1 FY27 80.2%. Q4 and Q1 were dragged by ~₹10 Cr of platform-upgrade maintenance (Q1 FY27). Say **"80–85%; 82.6% in FY26"**. Ticketing = **74.5% of FY26 segment profit** on 29.3% of segment revenue. | IRCTC FY26 iXBRL [V]; PL [V-b] |
+| 7 | §H2, §2.1 (IRCTC FY26 segments) | Not fetched; only FY26 ticketing ~₹1,536 Cr [V-snip] | **FY26 standalone segment revenue / result (₹ Cr):** Catering 2,398.75 / 249.90 (10.4%); Internet Ticketing 1,535.51 / 1,267.92 (82.6%); Tourism (incl. State Teertha) 890.08 / 127.50 (14.3%); Rail Neer 407.51 / 55.66 (13.7%). Total 5,231.85 / 1,700.98; inter-segment −16.99; revenue from operations 5,214.86. Unallocable net income +174.10 gives **PBT 1,875.08**. | IRCTC FY26 iXBRL [V] |
+| 8 | Trap #4, §2.1 | "State Teertha often reported as a separate small segment" | **State Teertha is inside the Tourism segment** ("Tourism (Includes State Teertha)"). There are four reported segments, not five. | PL segment tables [V-b]; iXBRL shows 4 segments [V] |
+| 9 | §2.1, JSON (IRCTC Q1 FY27 segment results) | V-snip | Now **V-b**, same numbers. EBIT: Catering 68.0 (9.3%), Ticketing 289.6 (80.2%), Tourism 19.3 (11.5%), Rail Neer 11.2 (9.8%). | PL Q1 FY27 note [V-b] |
+| 10 | §H3, §9.2, trap #5 (IRCTC convenience fee) | FY26 fee "~₹1,000 Cr [E]" | **FY26 convenience fee ≈ ₹989 Cr** [E]. Stated quarters: Q2 ₹252 Cr, Q3 ₹251 Cr, Q4 ₹247 Cr; Q1 FY26 ≈ ₹239 Cr is backed out from Q1 FY27's non-fee income of ₹113 Cr (−5.5% YoY). **Non-fee income FY26 ≈ ₹546 Cr** [E]. Q1 FY27: fee ₹248 Cr, non-fee ₹113 Cr. | PL [V-b]; [E] |
+| 11 | §H4, §2.0, §3.2(d), JSON (IRCTC cash) | "Net cash, amount unverified" | **Mar-26 standalone: cash & equivalents ₹409.94 Cr + other bank balances ₹2,431.68 Cr = ₹2,841.6 Cr. Borrowings nil; lease liabilities ₹80.7 Cr.** Gross cash less leases ≈ ₹2,761 Cr. Against it: other current liabilities ₹1,523.9 Cr, other current financial liabilities ₹635.6 Cr and trade payables ₹766.7 Cr (much of it due to Railways and caterers). "Free" cash is well below ₹2,842 Cr [E]. EV on gross cash ≈ ₹33,450 Cr gives **~20× FY26 OP** (not 21.8× on gross debt). | IRCTC FY26 iXBRL [V]; PL BS (₹2,867.5 Cr) [V-b] |
+| 12 | §0 item 4, §7.1, §2.1 (GSTAT) | "GST Appellate Tribunal order … ₹50.41 Cr + 18% interest … small vs PAT" | It is an **anti-profiteering** matter (DGAP report; case began 26-Jun-2020 before the erstwhile authority, the CCI). GSTAT's final order of **14-Oct-2026** accepted the DGAP report and directed deposit of **₹50,41,44,461 + 18% interest from 28-Jun-2019** (Rule 133(3)(c)) into the Central and State Consumer Welfare Funds (50:50) within a month, with a further **10% penalty** if not paid in 30 days. **IRCTC is appealing.** Interest at 18% simple over ~7.3 years adds ~₹66 Cr, so the cash exposure is **~₹117 Cr ≈ 8% of FY26 PAT** [E]. Not "small" for a quarter. | BSE disclosure 15-Oct-2026 [V]; [E] |
+| 13 | §7.1, §4.1 (Rail Neer price) | "₹15/litre since 2023? reduced to ₹14 in Sep-2025? [K, FLAG]" | **₹15 → ₹14 (1 litre) and ₹10 → ₹9 (500 ml), w.e.f. 22-Sep-2025** (Railway Board CC 18 of 2025, 20-Sep-2025, on IRCTC's letter of 15-Sep-2025). The cut also applies to shortlisted other brands. The ₹15 MRP dated from **CC 72 of 2012 (22-Nov-2012)**, not 2023. | Railway Board circular PDF [V] |
+| 14 | §1.1, §4.3, §2.1 (Rail Neer capacity) | ~18 lakh bottles/day | **17.8 lakh bottles/day** (Q1 FY27; down from 18.4 lakh after a plant closure). Expansions: Danapur 2 → 3 lakh; Ambernath 1 → 2 lakh; land allotted at Mysore and Prayagraj; Bhagalpur and Ranchi under negotiation. | PL Q1 FY27 [V-b] |
+| 15 | §7.6, §H6, §2.2 (TBO ED penalty) | Nature not read | **Order dated 16-Oct-2026 by the Special Director (Adjudication), Directorate of Enforcement**, received 21-Oct 4 pm. Penalty **₹22,21,63,535 on TBO Tek** and **₹2,46,84,837 on each Joint MD**, for contravention of **FEMA s.3(c) read with s.42(1)**. s.3(c) bars receiving payment "by order or on behalf of" a person resident outside India other than through an authorised person; s.42 makes officers in charge liable. The intimation refers to the "**Emphasis of Matter**" note in the statutory auditors' report. Company: "examining the order and evaluating the available course of action" with counsel; no appeal yet. Background [V-snip]: in Aug-2025 TBO sought post-facto approval for alleged FEMA violations on transactions of ₹71.23 Cr, resubmitted to RBI via its AD bank on 28-Jul-2025. | BSE intimation 21-Oct-2026 [V]; filingreader [V-snip] |
+| 16 | §2.2, trap #2 (Classic commission) | "~12.4 pp of Classic's 25.4% passed to advisors [V-snip]" | **V:** in Q3 FY26, Classic's 24.94% take rate included a **12.38%-of-GTV service-fee (advisor commission) component**; Classic GP was 12.57% of GTV vs organic 4.06%. | TBO Q3 FY26 letter [V] |
+| 17 | §2.2 | Q1 FY27 letter treated as a single filing | The Q1 FY27 letter on NSE (timestamp 23:00:50, 29-Jul-2026) is a **revised** filing correcting "an inadvertent error" in the first submission that day. The figures in Parts 1–3 match the revised letter. | Investywise [V]; letter [V] |
+| 18 | §2.0, §3.2(d), JSON (TBO Mar-26 cash) | ₹1,592 Cr "derived" | **₹1,592 Cr** (cash, bank balances, deposits and liquid investments, 31-Mar-2026) is now **stated** (Q4 FY26 letter as summarised in search) and consistent with the Q1 letter (₹1,984 Cr = Mar-26 + ₹392 Cr). Loans outstanding at Jun-26: **US$70 m + €6 m** (~₹725 Cr) [V Quartr summary; E conversion]. | V-snip + V letter |
+| 19 | §H5 (TBO FY26 mix) | Only Q1 FY27 and Q4 FY26 KPIs | **FY26 consolidated (sum of four quarters) [E from V]:** GTV Air ₹13,267 Cr / H+A ₹23,542 Cr (**64.0% H+A**); India ₹14,593 Cr (**39.6%**) / International ₹22,216 Cr; revenue Air ₹324.5 Cr (take 2.45%) / H+A ₹2,239.2 Cr (9.51%) / Others ₹113.7 Cr; GP ₹1,673.9 Cr (4.55% of GTV). Totals reconcile to GTV ₹36,808.7 Cr and revenue ₹2,677.4 Cr. | TBO Q3 FY26 and Q1 FY27 letters [V]; [E] |
+| 20 | §H5 (Classic FY26) | Not sourced | **Classic Vacations FY26 (6 months, Oct–Mar) [E from V]:** GTV ~₹2,086 Cr (Q3 1,045 + Q4 ~1,041); revenue ~₹534 Cr (261 + ~273); GP ~₹270 Cr; adj. EBITDA ~₹53 Cr (25.7 + ~27.3). That is ~20% of FY26 revenue and ~13% of FY26 adj. EBITDA. Organic adj. EBITDA FY26 ≈ ₹347 Cr. | Letters [V]; [E] |
+| 21 | §1.1, §9.5, trap #6, §2.4, primer (TC Financial Services revenue) | "~₹485 Cr (derived residual)" | **FY26 Financial Services segment revenue ₹326.2 Cr; EBIT ₹149.3 Cr (45.8%).** By quarter: revenue 84.2 / 84.5 / 76.2 / 81.3; EBIT 37.4 / 41.1 / 31.6 / 39.2. The ₹485 Cr residual is wrong. Reported on a **net** basis. | TC Q1 FY27 deck [V] |
+| 22 | §H9, §9.1, trap #6 (TC forex turnover) | "Not disclosed" | **Gross forex turnover FY26 ₹133 bn (₹13,300 Cr):** retail ~₹94 bn, wholesale ~₹39 bn. FY21–FY26: ₹38 / 60 / 107 / 124 / 123 / 133 bn. Q1 FY27 ₹33.0 bn vs ₹32.8 bn (+0.5%): retail ₹24 bn (+8%), wholesale ₹9 bn. FS revenue ÷ turnover ≈ **2.45%**; EBIT ÷ turnover ≈ 1.1% [E]. | TC deck [V]; [E] |
+| 23 | §2.4 (TC FY26 segments) | Primer numbers not re-verified | **FY26 segment revenue / EBIT (₹ Cr):** Travel & Related 6,702.5 / 221.7 (3.3%); Financial Services 326.2 / 149.3 (45.8%); Leisure Hospitality 533.6 / 129.2 (24.2%); Digital Imaging (DEI) 836.0 / 11.0 (1.3%); total 8,398.3 / 511.2. Primer's travel 6,703, DEI 836 and Sterling 534 are **confirmed**. | TC deck quarterly segment charts [V]; sums [E] |
+| 24 | §1.1, §4.3, §2.4, §3.3 (Sterling footprint) | "over 72 resorts … 62 locations" (Mar-2026 PR) over primer's 78 | **78 resorts and 3,798 rooms at Mar-26** (3,810 at Jun-26); 62 resorts / 3,285 rooms at Jun-25. The primer's **78 is right**; the scheme PR's "over 72 … 62 locations" counts something else (locations). Target **95 resorts by 2027**; 20+ sign-ups in the pipeline. | TC deck [V] |
+| 25 | §H9, §9.1 (Sterling occupancy/ARR) | Not found | **Q1 FY27: occupancy 67% (vs 62%), ARR ₹7,809 (+9% vs ₹7,162), guest ratio 78% (vs 74%), room-nights sold 2.31 lakh (+26%).** FY26 occupancy 59%, ARR ₹6,176. Arihant's "77% occupancy, +700 bp" conflicts with the deck: **use the deck.** | TC deck [V]; Arihant [V-b, rejected] |
+| 26 | §H10, §2.4, §3.1 (TC owners' PAT) | Unverified | Minority is **small in FY26 and negative in Q1 FY27** [E]. FY26 EPS ₹4.65 × 47.04 crore shares ≈ ₹219 Cr owners' vs ₹220 Cr total. Q1 FY27 EPS ₹1.54 ≈ ₹72 Cr owners' vs ₹63.7 Cr total: DEI's 49% minority absorbs part of DEI's loss. Use **₹220 Cr**, flagging ±₹1–2 Cr. | TC deck (EPS, PAT) [V]; Arihant (equity ₹47.04 Cr) [V-b]; [E] |
+| 27 | §H11, §2.4 (promoter 63.83 → 64.77%) | Reason not researched | **Fairbridge Capital (Mauritius)** alone went 63.83% → 64.77% in the Jun-26 quarter. Equity capital was unchanged at ₹47.04 Cr (Aug-2026), so it was **not a buyback**. Implied purchase ≈ 44 lakh shares (~0.94%, ~₹45–50 Cr) [E], consistent with a creeping acquisition (SAST Reg 3(2) allows 5% a year). No SAST filing was read: still partly open. | Screener holder table [V]; Arihant [V-b]; [E] |
+| 28 | §0 item 1, §2.4, §12 (scheme status) | "No NCLT sanction found" | **NSE "No objection" observation letter dated 1-Sep-2026** (SEBI comments of 27-Aug-2026). It is valid for 6 months from 1-Sep-2026, within which the scheme must be filed with the NCLT. SHRL must list within 60 days of the NCLT order. TCIL must disclose all pending adjudication and enforcement against itself, promoters and directors to the NCLT and shareholders. Transferor companies: **TC Visa Services (India), Jardin Travel Solutions, Borderless Travel Services**. **NCLT approval: not yet**, so the earliest effective date is realistically CY2027 [E]. | NSE observation letter [V] |
+| 29 | §2.0, §3.2(d) (TC net cash) | ₹2,077 Cr (cash ₹2,616 Cr − screener borrowings ₹539 Cr) | Company states **total debt ₹268.8 Cr (Jun-26)**; screener's ₹539 Cr includes lease liabilities. Cash & ST investments ₹2,648.8 Cr (Jun-26) / ₹2,616.2 Cr (Mar-26) give **company-basis net cash ~₹2,380 Cr**, still including customer float (card float ~₹1,800 Cr) [E]. | TC deck [V] |
+| 30 | §9.1, primer (TC card float) | ~₹1,600 Cr; 1.2 m+ cardholders | **Float ₹16 bn at FY26 (₹1,600 Cr ✓) → ₹18 bn (Q1 FY27, +11%).** Active prepaid card users **1.1 m (Q1 FY27, −8%)**; 1.2 m in FY26. Card loads US$764 m (FY26) vs US$860 m (FY25); Q1 FY27 US$225 m (−5%). | TC deck [V] |
+| 31 | §2.3 (ixigo trains) | "Trains: not disclosed (implied weak)" | **Q2 FY27 trains (now including Zoop food-on-train): revenue ₹149.1 Cr (+16% YoY); CM ₹47.2 Cr (31.7% vs 28.6%); passenger segments ~29 m (+7% YoY, +19% QoQ); ixigo's share of the OTA rail market ~64% (63% in Q1).** Trains remain the largest revenue line. Flights revenue **fell** to ₹82.7 Cr (from ₹89.4 Cr) even as flight GTV rose 37%. | ixigo Q2 FY27 Earnings Release [V]; flight revenue [V-snip] |
+| 32 | §1.2, §9.4 (ixigo flight take) | "~8.6% gross take (Q4 FY26)" | **Flight gross take 7.0% in Q2 FY27 vs 9.4% a year ago.** Management: largely optical, because average transaction value per segment rose ~27% while fees are per ticket; also more self-funded discounts. | ixigo Q2 FY27 release [V] |
+| 33 | §1.3, §7.3, §H13 (LRS) | Travel US$16.4–16.9 bn range | **FY26 LRS total US$28,979.36 m; travel US$16,437.99 m (56.7%); studies abroad US$2,309.74 m.** Jul-2026 total US$2,582.6 m (+5.3% YoY); travel US$1,463.1 m (+1.2%); studies abroad US$148.5 m (−35%). | RBI Bulletin Table 36, 25-Sep-2026 [V] |
+| 34 | header FX, §0, §12, §H15 (rupee) | "₹94.9; record near ₹96.8 [brief/V-sib]" | **USD/INR ~94.8–94.9 on 22-Oct-2026** [V Trading Economics]. Best-attested **record close ₹95.71 (~13-May-2026; intraday 95.80)** [V-snip ×2]. Trading Economics lists an "all-time high of 99.82 in Mar-2026", probably an intraday or bad tick, and it conflicts with the May-2026 "record" reports. **₹96.8 was not found in any source.** Writer: say "near record lows (record close ~₹95.7 in May-2026)" unless the sibling dossier holds a dated source for 96.8. | Trading Economics [V]; WION/others [V-snip] |
+| 35 | §2.1 table, §12 (DGCA Sep-2026) | "Not yet found" | **Still not published or indexed** as of 22-Oct-2026 (DGCA usually releases in the 3rd–4th week). The latest is Aug-2026. Extra context from ixigo's 17-Oct letter: domestic flown pax ~4.2 lakh/day at end-Aug vs 5+ lakh at earlier peaks; ~130 of 840+ Indian-carrier aircraft grounded in August; international ~1.2 lakh/day in early March → ~2.1 lakh/day by August. | Search [V-snip]; ixigo release [V] |
+| 36 | §7.4, §H14 (GST air) | "business 12% → 18% [K, FLAG]" | **From 22-Sep-2025: economy 5% (no ITC); premium economy/business/first 18% with ITC** (was 12%). The rate is locked by booking and payment date. | Angel One / Bajaj [V-snip] |
+| 37 | §1.1, §2.1 (IRCTC catering) | — | Catering EBIT margin fell from **13.1% (Q1 FY26) to 9.3% (Q1 FY27)**, on ₹20 Cr of one-off gratuity/HR cost, ₹4 Cr of proof-of-concept trains (to phase out by Nov-2026) and a higher prepaid mix. FY26 catering margin was 10.4%, with **Q4 FY26 at 6.2%**. | PL [V-b]; iXBRL [V] |
+| 38 | §2.4 (TC Q1 FY27 travel) | "Travel services revenue steady" | Travel & Related revenue **−14% (₹1,710.6 Cr), EBIT −50% (₹40.5 Cr; 2.4% margin)**. **Outbound B2C −20%; long-haul −28%; short-haul ex-Middle-East +21%**; International DMS −33%; MICE +14%; domestic B2C +29%; DEI EBIT −₹15.2 Cr (revenue −38%). "Steady" applies only to TCIL/SOTC/TCI in management's words. | TC deck [V] |
+
+---
+
+## 4.1 Verification table (40 figures)
+
+"Agrees?" compares with Parts 1–3. "Primary" = company filing, presentation or letter, a regulator document, or screener for standard financials.
+
+| # | Figure | Value | Source (fetched?) | Primary? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | IRCTC FY26 revenue from operations | ₹5,214.86 Cr | IRCTC FY26 iXBRL, NSE 26-May-2026 [V] | Yes | Yes (5,215) |
+| 2 | IRCTC FY26 Internet Ticketing revenue | ₹1,535.51 Cr | iXBRL [V] | Yes | Yes (~1,536 V-snip, now V) |
+| 3 | IRCTC FY26 ticketing segment result / margin | ₹1,267.92 Cr / 82.6% | iXBRL [V] | Yes | Refines "~80%" |
+| 4 | IRCTC FY26 catering revenue / result | ₹2,398.75 / ₹249.90 Cr (10.4%) | iXBRL [V] | Yes | New |
+| 5 | IRCTC FY26 tourism (incl. State Teertha) | ₹890.08 / ₹127.50 Cr | iXBRL [V] | Yes | New |
+| 6 | IRCTC FY26 Rail Neer | ₹407.51 / ₹55.66 Cr | iXBRL [V] | Yes | New |
+| 7 | IRCTC cash + bank balances, 31-Mar-26 | ₹2,841.6 Cr; borrowings nil; leases ₹80.7 Cr | iXBRL [V]; PL ₹2,867.5 Cr [V-b] | Yes | Fills §H4 |
+| 8 | IRCTC FY26 PAT | ₹1,393 Cr (screener); PL "adjusted" ₹1,376.7 Cr ex ₹16.8 Cr exceptional | Screener [V]; PL [V-b] | Yes | Yes. Note a small FY26 exceptional gain |
+| 9 | IRCTC Q1 FY27 revenue / EBITDA / PAT | ₹1,369.5 Cr / ₹386.7 Cr (28.2%) / ₹330.2 Cr | PL (company data) [V-b]; screener [V] | Yes (screener) | Yes |
+| 10 | IRCTC Q1 FY27 segment EBIT | Cat 68.0; Tkt 289.6; Tour 19.3; RN 11.2 | PL Exhibit 3 [V-b] | Company via broker | Yes (was V-snip) |
+| 11 | IRCTC tickets Q1 FY27 | ~13.3 crore; **14.58 lakh/day** | PL [V-b] (~133 mn); Quartr 13.27 crore [V first pass] | Company via broker | Yes |
+| 12 | IRCTC convenience fee Q1 FY27 | ₹248 Cr; non-fee ₹113 Cr (−5.5%) | PL [V-b] | Company via broker | New |
+| 13 | IRCTC e-booking penetration | 89.0% | PL [V-b]; Minister ~87% (Angel One) [V] | Company via broker | Narrows 86–89% |
+| 14 | Convenience fee per ticket | ₹15/₹30 + GST; ₹10/₹20 on UPI/BHIM | PIB-2019 and others [V-snip]; [E] arithmetic | No (secondary) | Resolves conflict |
+| 15 | Rail Neer MRP | ₹14 (1 L) from 22-Sep-2025 | Railway Board CC 18/2025 [V] | Yes | Corrects [K] |
+| 16 | GSTAT order on IRCTC | ₹50.41 Cr + 18% interest from 28-Jun-2019; anti-profiteering; appeal | BSE disclosure 15-Oct-2026 [V] | Yes | Recharacterised |
+| 17 | TBO FY26 adj. EBITDA | ₹399.5 Cr (₹414.1 Cr pre-acquisition cost) | TBO Q1 FY27 letter [V] | Yes | **Corrects ₹414** |
+| 18 | TBO Q1 FY27 take rate, consolidated / organic | 8.3% / 6.0% | TBO letter [V] | Yes | Yes |
+| 19 | Classic take rate and advisor commission | 25.4% (Q1 FY27); 24.94% incl. 12.38% commission (Q3 FY26) | TBO letters [V] | Yes | Yes (upgraded) |
+| 20 | TBO H+A share of GTV | 67.9% (Q1 FY27); 64.0% FY26 [E] | TBO letters [V] | Yes | Yes |
+| 21 | TBO MTBs | 33,736 (31,540 organic) | TBO letter [V] | Yes | Yes |
+| 22 | TBO cash 30-Jun-26 / 31-Mar-26 | ₹1,984 Cr / ₹1,592 Cr | TBO letter [V]; Q4 letter summary [V-snip] | Yes | Yes |
+| 23 | TBO ED penalty | ₹22.22 Cr + ₹2.47 Cr × 2; FEMA s.3(c) r/w s.42(1); order 16-Oct-2026 | BSE intimation [V] | Yes | Adds nature |
+| 24 | ixigo Q2 FY27 GTV | ₹5,304.47 Cr (+22%) | ixigo Earnings Release / media release [V] | Yes | Yes |
+| 25 | ixigo Q2 FY27 revenue | ₹320.96 Cr (+13%) | Same [V] | Yes | Yes |
+| 26 | ixigo Q2 FY27 adj. EBITDA | ₹23.58 Cr (−17%) | Same [V] | Yes | Yes |
+| 27 | ixigo Q2 FY27 PAT / Freshbus gain | ₹63.42 Cr / ₹40.66 Cr (stake 25.66% → 8.27%) | Same [V] | Yes | Yes (gain was V-snip) |
+| 28 | ixigo train revenue and OTA rail share | ₹149.1 Cr (+16%); ~64% | Earnings Release [V] | Yes | New |
+| 29 | ixigo bus GTV / revenue | ₹753 Cr (+32%) / ₹81.0 Cr (+24%) | Earnings Release [V] | Yes | New (rupees) |
+| 30 | Prosus stake in ixigo | 16.08% (Sep-26) | Screener holder table [V] | Yes (BSE SHP data) | **Corrects 10.10%** |
+| 31 | ixigo founders' stake | ~9.3% (4.82 + 4.52) | Screener holder table [V] | Yes | **Corrects ~17%** |
+| 32 | ixigo FY26 CFO | ₹195.7 Cr (+60%) | ixigo FY26 media release, re-fetched [V] | Yes | Yes |
+| 33 | Thomas Cook Q1 FY27 PBT | ₹88.5 Cr (−21%); PAT ₹63.7 Cr | TC deck [V] | Yes | Yes |
+| 34 | TC FY26 Financial Services revenue / EBIT | ₹326.2 / ₹149.3 Cr | TC deck [V] | Yes | **Corrects ₹485 Cr** |
+| 35 | TC FY26 forex turnover | ₹133 bn (~₹13,300 Cr) | TC deck [V] | Yes | Fills §H9 |
+| 36 | Sterling Q1 FY27 occupancy / ARR | 67% / ₹7,809 | TC deck [V] | Yes | Fills §H9 |
+| 37 | TC scheme status | NSE no-objection 1-Sep-2026; NCLT pending | NSE letter [V] | Yes | Updates |
+| 38 | LRS travel FY26 | US$16,437.99 m of US$28,979.36 m | RBI Bulletin Table 36 [V] | Yes | Narrows range |
+| 39 | Domestic air pax Aug-2026 | 12.126 m (−6.34%); Jan–Aug 110.53 m (−0.18%) | Angel One citing DGCA, re-fetched [V] | No (secondary report of DGCA) | Yes |
+| 40 | IndiGo DGCA penalty | ₹22.20 Cr (₹1.80 Cr + ₹20.40 Cr for 68 days); ₹50 Cr guarantee under ISRAS | Moneylife / Outlook / Business Today / WION [V-snip ×4] | No | Yes |
+
+**Score:** 33 of 40 are [V] from primary sources (company filings, letters and presentations, regulator documents, screener). Four more are company data via broker notes (#10–#13; #9 is primary via screener). Three are secondary (#14, #39, #40).
+
+**Other checks on Part 1 headline items (not in the 40):**
+- TCS on overseas tour packages: 2% from the first rupee, effective 1-Apr-2026 (now s.394(1) of the Income-tax Act 2025) [V-snip tdsman/calcguru; Outlook Business V first pass]. Agrees.
+- Outbound departures 2025: 3.28 crore (328.3 lakh, +6.3%; revised snapshot) [V-snip; tourism.gov.in PDFs return 403 to both curl and WebFetch]. Agrees, still snippet-only.
+- TBO organic constant-currency growth Q1 FY27: +15% [Quartr V]. New.
+- IRCTC Q1 FY27 one-offs: ₹20 Cr HR/gratuity and ₹10 Cr ticketing maintenance [V-b]. New.
+
+**Where sources conflict:**
+- Sterling Q1 FY27: Arihant says revenue +21%, EBITDA margin 37%, occupancy 77%. The deck says +19%, EBITDA 39%, occupancy 67%. **The deck is primary.**
+- IRCTC FY26 PAT: screener ₹1,393 Cr vs PL "adjusted" ₹1,376.7 Cr. The gap is an exceptional item. **Use reported.**
+- USD/INR record: see Supersedes #34.
+
+---
+
+## 4.2 Company deep-dives
+
+### 4.2.1 IRCTC (IRCTC · 542830)
+
+**Documents read:**
+- FY26 Integrated Filing iXBRL (NSE, audited standalone, filed 26-May-2026) [V].
+- GSTAT disclosure (BSE, 15-Oct-2026) [V].
+- Railway Board CC 18/2025 [V].
+- PL result notes on the Q2 FY26, Q3 FY26, Q4 FY26 and Q1 FY27 calls (company data and con-call highlights) [V-b].
+- Screener standalone page (12-year history) [V].
+- No transcript PDF was found on a free host. The Q1 FY27 call (13-Aug-2026) is covered through PL's 16-point con-call summary and the Quartr/Scanx summaries.
+
+**Management guidance digest (paraphrased; call dates in brackets)**
+1. **Segment growth ambition (Q4 FY26 call, ~27-May-2026):** catering ~15% a year, tourism 19–20%, internet ticketing 7–10% "over the next few years". **Tourism revenue target ₹1,000 Cr in FY27** (Q1 FY27 call) vs ₹890 Cr in FY26 [V-b].
+2. **Margins (Q1 FY27 call, 13-Aug-2026):**
+   - Catering margin fell to ~9.3% on one-offs: ₹10 Cr HR cost allocation, ₹4 Cr proof-of-concept trains, and a higher share of lower-margin prepaid catering.
+   - PoC trains are to phase out by Nov-2026; the ₹20 Cr gratuity/post-retirement charge is non-recurring [V-b; V-snip Scanx].
+   - The long-run company aim of ~30% EBITDA margin was reported in May-2026 [V-snip].
+   - PL forecasts 30.9% for FY27 [V-b].
+3. **Ticketing:**
+   - Ticket counts are flat to slightly down: 13.6 crore (Q2 FY26) → 13.5 → 13.4 → 13.3 crore (Q1 FY27).
+   - Non-fee income fell 5.5% YoY (to ₹113 Cr). Reasons: **ads removed in the new UI, agent restrictions, and diversion to the Railways' own "RailOne" app** [V-b].
+   - ~₹10 Cr of platform-upgrade maintenance hit Q1 margins (80.2%).
+   - A unified tourism and ticketing portal is planned to lift non-fee income [V-snip].
+4. **Channel mix:** about **28% of tickets are booked through channel partners and OTAs** (Q4 FY26 call) [V-b]. UPI share was 51.2% in Q1 FY27 (48.7% a year earlier); AC tickets ~51% of the total (Q4 FY26).
+5. **Catering scale:**
+   - E-catering grew from ~1.25 to >1.6 lakh meals/day; e-pantry is in 50+ trains, going to ~100.
+   - Catering opt-out rate on prepaid trains is ~25–30%.
+   - Mobile catering on 1,318 trains (Q2 FY26); 40 trains added in Q3 FY26, of which 19 Vande Bharat.
+   - Q1 FY27 catering revenue: prepaid trains ~₹413 Cr, licence fees ~₹257 Cr, election specials ~₹41 Cr [V-b].
+6. **Rail Neer:**
+   - Capacity 17.8 lakh bottles/day; EBIT margin fell to 9.8% in Q1 FY27 on resin and petro-linked input costs (West Asia).
+   - Expansions at Danapur and Ambernath, and four greenfield plants (Mysore and Prayagraj land allotted) [V-b].
+   - MRP cut to ₹14 from 22-Sep-2025 [V circular].
+7. **War-time operations (Q4 FY26 call):** during the commercial-LPG shortage, vendors were allowed to cook on trains with electricity, and tie-ups with HPCL, BPCL and IOCL covered supply [V-b].
+8. **New business:** **IRCTC Payments Ltd (payment aggregator).** The final RBI application has been submitted and approval is expected within FY27; RBI had extended the document deadline to Aug-2026 (Q3 FY26 call) [V-b].
+9. **Non-fee income detail (Q3 FY26):** advertising ₹24.8 Cr (vs ₹13.3 Cr), loyalty programme ₹21.9 Cr (vs ₹15.4 Cr) [V-b].
+
+**Concall KPI table**
+
+| KPI | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|---|
+| Tickets booked (crore) | ~13.6 | ~13.5 | ~13.4 | ~13.3 (14.58 lakh/day) | PL [V-b] |
+| Convenience fee (₹ Cr) | 252 | 251 | 247 | 248 | PL [V-b] |
+| Non-fee ticketing income (₹ Cr) | ~134 [E] | 150 | 143 | 113 | PL [V-b]; [E] |
+| Fee per ticket (₹) [E] | 18.5 | 18.6 | 18.4 | 18.6 | [E] |
+| E-booking penetration | 89.2% | 89.0% | 89.0% | 89.0% | PL [V-b] |
+| UPI share of transactions | 49.8% | 50.2% | 51.7% | 51.2% | PL [V-b] |
+| Ticketing EBIT margin | 84.7% | 85.1% | 76.3% | 80.2% | PL [V-b]; iXBRL Q4 [V] |
+| Catering EBIT margin | 12.9% | 10.4% | 6.2% | 9.3% | PL [V-b]; iXBRL Q4 [V] |
+| Rail Neer capacity (lakh bottles/day) | ~18.4 | ~18.4 | ~18.4 | 17.8 | PL [V-b] |
+
+**Segment trend (standalone, ₹ Cr; revenue / EBIT)**
+
+| Segment | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | **FY26** | Q1 FY27 | Q1 YoY |
+|---|---|---|---|---|---|---|---|
+| Catering | 546.8 / 71.7 | 519.7 / 67.0 | 661.4 / 68.5 | 670.9 / 42.2 | **2,398.8 / 249.9** | 732.3 / 68.0 | +33.9% / −5.2% |
+| Internet ticketing | 358.8 / 301.9 | 385.9 / 326.8 | 400.6 / 341.0 | 390.3 / 298.0 | **1,535.5 / 1,267.9** | 361.0 / 289.6 | +0.6% / −4.1% |
+| Tourism (incl. State Teertha) | 147.7 / 12.9 | 149.5 / 10.2 | 289.3 / 54.9 | 303.6 / 49.4 | **890.1 / 127.5** | 168.1 / 19.3 | +13.8% / +50% |
+| Rail Neer | 110.5 / 15.4 | 94.1 / 8.7 | 102.8 / 15.3 | 100.2 / 16.2 | **407.5 / 55.7** | 113.9 / 11.2 | +3.1% / −27.5% |
+| Total segment | 1,163.7 / 401.9 | 1,149.2 / 412.7 | 1,454.1 / 479.7 | 1,464.9 / 405.8 | **5,231.9 / 1,701.0** | 1,375.2 / 388.1 | +18.2% / −3.4% |
+
+FY26 and Q4 FY26 are from the iXBRL [V]; the other quarters are from PL segment tables [V-b]. Quarterly sums match FY26 within ₹1 Cr.
+
+**5-year history (₹ Cr; screener standalone = consolidated for FY23–26) [V screener 22-Oct-26]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 1,879 | 3,541 | 4,260 | 4,675 | 5,215 |
+| YoY | +142% (COVID base) | +88% | +20% | +10% | +12% |
+| Operating profit (EBITDA) | 874 | 1,276 | 1,466 | 1,551 | 1,666 |
+| OPM | 47% | 36% | 34% | 33% | 32% |
+| Other income | 72 | 148 | 106 | 276 | 277 |
+| PAT | 660 | 1,006 | 1,111 | 1,315 | 1,393 |
+| ROCE | 51% | 59% | 54% | 49% | 46% |
+| CFO | 524 | 812 | 882 | 834 | 1,274 |
+| Dividend payout | 42% | 44% | 47% | 49% | 52% |
+
+Read: the FY22 OPM of 47% was the convenience-fee-only year, before catering and tourism recovered. Margins have since been diluted by mix (catering), not by any fee cut.
+
+**8-quarter trend (₹ Cr) [V screener]**
+
+| Quarter | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,064 | 1,225 | 1,269 | 1,160 | 1,146 | 1,449 | 1,460 | 1,370 |
+| Operating profit | 373 | 417 | 385 | 397 | 404 | 465 | 399 | 387 |
+| OPM | 35% | 34% | 30% | 34% | 35% | 32% | 27% | 28% |
+| PAT | 308 | 341 | 358 | 330 | 342 | 394 | 327 | 330 |
+
+**Annual-report / filing findings** (FY26 iXBRL; the full annual report PDF was not fetched)
+1. **Related-party flows with the Ministry of Railways** (H2 FY26 transaction value; ₹ Cr; balances are closing):
+   - Catering and comprehensive services income from the Ministry: ₹760 Cr; closing receivable ₹1,382 Cr.
+   - **"Railway share on catering services": ₹227.5 Cr** (closing ₹394.6 Cr payable).
+   - Railway share on Rail Neer profit: ₹9.3 Cr.
+   - Railway share on internet-ticketing service charge, advertising, rent and utilities: ₹1.3 Cr (closing ₹75.5 Cr).
+   - Haulage charges (Maharaja's Express, Tejas, election specials, etc.): ₹260 Cr.
+   - Provision for doubtful debts on the Ministry: ₹17.9 Cr in H2 (closing ₹138.3 Cr).
+   - **Rolling deposits with the Ministry for train-ticket booking: ₹400.6 Cr** (closing ₹863.8 Cr).
+   - CRIS ticketing maintenance and development: ₹11.7 Cr; CRIS income (139/Rail Madad): ₹6.9 Cr.
+
+   **Read:** the Railways already takes a profit share on catering and Rail Neer and a share of ticketing's non-fee items. The convenience fee itself is not shared, which is why the 2021 50%-share order mattered [V iXBRL; interpretation E].
+2. **Balance sheet (31-Mar-26, standalone):**
+   - Cash & equivalents ₹409.9 Cr + other bank balances ₹2,431.7 Cr = ₹2,841.6 Cr.
+   - Trade receivables ₹1,883.2 Cr (largely the Ministry).
+   - Deferred tax asset ₹265.3 Cr.
+   - Lease liabilities ₹80.7 Cr; no borrowings.
+   - Other current liabilities ₹1,523.9 Cr; total equity ₹4,308.4 Cr [V].
+3. **Contingent and legal:**
+   - The GSTAT anti-profiteering order (Supersedes #12) is the live item; cash exposure ~₹117 Cr if the appeal fails [E].
+   - Contingent liabilities were ₹258 Cr at Mar-25 [V-snip Anand Rathi]; the FY26 note was not read.
+4. **Exceptional:** FY26 includes a small exceptional gain of ₹16.8 Cr (PL: adjusted PAT ₹1,376.7 Cr vs reported ₹1,393.5 Cr) [V-b].
+5. **Risks management flags:**
+   - Input-cost inflation on fixed Railway tariffs (catering, Rail Neer).
+   - Agent restrictions and RailOne cannibalising non-fee income.
+   - PoC train losses.
+   - Tax litigation.
+
+### 4.2.2 TBO Tek (TBOTEK · 544174)
+
+**Documents read:**
+- Q1 FY27 letter to shareholders (revised, NSE 29-Jul-2026, 20 pp) [V].
+- Q3 FY26 letter (NSE 11-Feb-2026) [V].
+- ED intimation (BSE 21-Oct-2026) [V].
+- Quartr summary of the Q1 FY27 call (30-Jul-2026) [V].
+- Screener [V].
+- No transcript was found free. The FY26 annual report was not fetched; the AGM was held 27-Aug-2026.
+
+**Management guidance digest**
+1. **Q2 FY27 to be seasonally stronger than Q1,** with QoQ and YoY growth targeted (call, 30-Jul-2026) [V Quartr].
+2. **Operating leverage is the stated model:**
+   - Organic SG&A growth has slowed for six quarters: 29% → 27% → 22% → 20% → 18% → 13% YoY.
+   - In constant currency organic SG&A grew only **4%**; headcount costs have been flat for several quarters; hosting fell 13.7%.
+   - Management expects "each incremental rupee of GP to require progressively less opex" and further margin expansion.
+   - Organic adj. EBITDA/GP went 23.5% (Q4 FY26) → 27.5% (Q1 FY27) [V letter].
+3. **Middle East:**
+   - ME is "among our higher-margin markets". In Q1 TBO chose to protect volumes where business was contribution-positive.
+   - Exit margins improved through the quarter, and H+A gross-profit margins should "gravitate towards the historical average over the near term".
+   - Organic H+A GP/GTV fell 5.5% → 5.2% [V letter].
+   - Saudi Arabia and Jordan exited the quarter at positive YoY growth [V letter].
+4. **Classic Vacations:**
+   - Integration on track, "bulk … by end of Q3 FY27" (Dec-2026); organic TBO North America is growing on synergies.
+   - No synergy number has been given [V letter; Quartr].
+5. **Cash:**
+   - ₹1,984 Cr at Jun-26 (+₹392 Cr in the quarter). Part of the rise was a working-capital timing release, "should not be considered a steady state".
+   - Includes ₹65 Cr drawn on a Jumbonline working-capital line [V letter].
+   - Loans US$70 m + €6 m [V Quartr].
+6. **Growth:** organic business +15% YoY in constant currency in Q1 FY27; Europe +24% CC; ME ~+1% CC; North America ~24% of H+A GTV [V Quartr/letter].
+7. **Strategy:**
+   - AI Centre of Excellence and the "Voya" advisor tooling.
+   - Premium, advisor-assisted travel as the target segment.
+   - McKinsey's US$391 bn luxury-leisure hospitality pool by 2028 is cited [V letter].
+8. **FX:** reported growth was flattered by rupee weakness. Consolidated H+A +49.8% reported vs +38.9% CC; air +16.9% vs +16.3%; net FX loss ₹5.5 Cr [V letter].
+
+**Concall / letter KPI table (consolidated unless noted)**
+
+| KPI | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|---|---|
+| GTV (₹ Cr) | 8,119.3 | 8,901.0 | 9,709.4 | 10,079.0 | 11,154.3 | Letters [V] |
+| of which organic | 8,119.3 | 8,901.0 | 8,664 | 9,037.9 | 9,918.4 | Letters [V] |
+| H+A share of GTV | 62.3% | 63.6% | 64.7% | 64.8% | 67.9% | [V] |
+| India share of GTV | 44.2% | 40.1% | 38.4% | 36.8% | 35.9% | [V] |
+| Revenue (₹ Cr) | 511.3 | 567.5 | 784.3 | 814.4 | 925.8 | [V] |
+| Take rate, total / organic | 6.3% / 6.3% | 6.4% / 6.4% | 8.1% / 6.0% | 8.1% / 6.0% | 8.3% / 6.0% | [V] |
+| Take rate, air / H+A (consolidated) | 2.6% / 8.4% | 2.4% / 8.5% | 2.4% / 10.5% | 2.4% / 10.3% | 2.3% / 10.6% | [V] |
+| Gross profit (₹ Cr) | 333.3 | 363.3 | 483.2 | 494.1 | 552.4 | [V] |
+| Adj. EBITDA (₹ Cr) | 84.7 | 90.8 (104.0 pre-M&A cost) | 113.3 (114.7) | 110.7 | 149.9 | [V] |
+| of which Classic | — | — | 25.7 | ~27.3 [E] | 43.9 | [V]/[E] |
+| MTBs | 29,570 | 30,662 | 33,324 | 32,751 | 33,736 | [V] |
+| Cash (₹ Cr, period-end) | — | — | — | 1,592 | 1,984 | [V]/[V-snip] |
+
+**FY26 by product and geography** (sum of four quarters, consolidated) [E from V]:
+
+| | Air | Hotels & ancillary | Others | Total |
+|---|---|---|---|---|
+| GTV ₹ Cr | 13,267 | 23,542 | — | 36,809 |
+| Revenue ₹ Cr | 324.5 | 2,239.2 | 113.7 | 2,677.4 |
+| Take rate | 2.45% | 9.51% | — | 7.27% |
+| Gross profit ₹ Cr | 169.1 | 1,400.3 | ~104.5 | 1,673.9 |
+
+- **Geography (GTV):** India ₹14,593 Cr (39.6%) vs international ₹22,216 Cr (60.4%).
+- Within FY26, Classic (H2 only) contributed GTV ~₹2,086 Cr, revenue ~₹534 Cr and adj. EBITDA ~₹53 Cr. Organic FY26 adj. EBITDA ≈ ₹347 Cr.
+
+**5-year history (₹ Cr; screener consolidated) [V]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 483 | 1,065 | 1,393 | 1,737 | 2,677 |
+| Operating profit (EBITDA) | 32 | 189 | 261 | 285 | 378 |
+| OPM | 7% | 18% | 19% | 16% | 14% |
+| Company adj. EBITDA | — | — | — | — | 399.5 (414.1 pre-acquisition cost) |
+| PAT | 34 | 148 | 201 | 230 | 244 |
+| ROCE | 18% | 53% | 43% | 27% | 18% |
+| CFO | 198 | 237 | 226 | 289 | −21 |
+| Borrowings (year-end) | 63 | 71 | 210 | 214 | 756 |
+
+Read: ROCE has fallen from 53% to 18% because Classic added ~₹1,270 Cr of goodwill and intangibles (fixed assets ₹345 → ₹1,619 Cr), and PAT growth is now held back by D&A (₹52 → ₹86 Cr) and interest (₹33 → ₹52 Cr).
+
+**8-quarter trend (₹ Cr) [V screener]**
+
+| Quarter | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 451 | 422 | 446 | 511 | 568 | 784 | 814 | 926 |
+| Operating profit | 75 | 55 | 65 | 74 | 88 | 100 | 105 | 138 |
+| OPM | 17% | 13% | 15% | 14% | 16% | 13% | 13% | 15% |
+| PAT | 60 | 50 | 59 | 63 | 68 | 54 | 60 | 83 |
+| GTV (company) | — | 7,166 | ~7,813 [E] | 8,119 | 8,901 | 9,709 | 10,079 | 11,154 |
+
+**Annual-report / filing findings** (FY26 AR not fetched; items from filings)
+1. **ED/FEMA order** (Supersedes #15):
+   - Total penalty ₹27.16 Cr (company ₹22.22 Cr + JMDs ₹4.94 Cr); ~11% of FY26 PAT if borne by the company [E].
+   - The auditors had already put an **Emphasis of Matter** in the FY26 report on this proceeding, so the risk was disclosed before the order.
+   - Appeal route: Appellate Tribunal under FEMA s.19, which normally requires a pre-deposit unless waived [K].
+2. **Acquisition accounting:** Classic was bought by TBO's US arm (TBO LLC) for US$125 m (US$110.36 m at close + US$14.64 m adjustments), funded by inter-corporate loans, accruals and credit facilities [V-snip first pass]. FY26 exceptional items were a net ₹2.4 Cr; acquisition costs ₹14.5 Cr [V letter].
+3. **Working capital:** FY26 CFO −₹21 Cr and Q1 FY27 inflow +₹392 Cr. Management attributes the swing to timing; screener debtor days are 724 (on net revenue).
+4. **Ownership:** promoters 44.40% (unchanged since IPO). FII 22.52% (from 42.79% at listing); DII 27.21% (from 6.61%) [V]. A large domestic-for-foreign rotation in Jul–Sep 2026.
+
+### 4.2.3 ixigo — Le Travenues Technology (IXIGO · 544192)
+
+**Documents read:**
+- Q2 FY27 Earnings Release, a 14-page shareholder FAQ letter (BSE AttachLive 11c375b2…, 17-Oct-2026) [V].
+- Q2 FY27 and FY26 media releases (NSE) [V].
+- Earnings-call audio intimation (19-Oct-2026; MP3 only, not transcribed) [V].
+- Screener page and shareholder-detail endpoints [V].
+- The FY26 annual report was not fetched. The Earnings Release's FAQ format is the management-commentary source; it answers the questions analysts ask on the call.
+
+**Management guidance digest (Q2 FY27 Earnings Release, 17-Oct-2026)**
+1. **Segment reporting changed:**
+   - Four segments now: **Trains, Flights, Buses, Hotels**.
+   - Zoop (food on trains) moved into Trains; Hotels is a separate segment; prior periods restated.
+2. **Hotels is the investment priority for "the next 2 to 3 years":**
+   - The aspiration (first stated in Q1 FY27) is to become the **largest player in budget, mid-market and independent hotels within 4–5 years**.
+   - About **₹10 Cr of the ₹20 Cr YoY rise in group costs** (ex-ESOP) is hotels-related and sits below contribution margin.
+   - Hotel CM was −₹1.2 Cr (−15% of revenue vs −55% a year ago).
+   - TAM cited (VIDEC, Sep-2026): hotels ₹1,57,100 Cr in FY26; OTA-booked hotels ₹40,200 Cr growing ~19% a year to ~₹57,000 Cr by FY28, about 3× the OTA rail market.
+3. **Margin bands the company "endeavours to operate around" over a year:** Trains ≥30%, Flights ≥40%, Buses ≥50% contribution margin. Q2 actuals: 31.7%, ~43% and 53.2%.
+4. **Trains:**
+   - Q1's "conserve margins" stance was temporary. In Q2 ixigo "pushed the pedal on growth" into the festive season: QoQ train GTV +5%, revenue +1%, direct costs +11%.
+   - OTA rail share rose to ~64%.
+   - Management wants momentum "past the season before calling it a sustained recovery".
+5. **Flights:**
+   - Q2 was hit by capacity cuts: double-digit at Air India, single-digit at IndiGo. Very high fares held back bookings.
+   - Segments −10% QoQ and +8% YoY; GTV +37%.
+   - The gross take-rate fall (9.4% → 7.0%) is largely the fare effect: fees are per ticket.
+   - **"October has started on a softer note"** domestically, with capacity not back as expected. Explicitly "not guidance".
+   - International flight GTV +59% (Hanoi doubled; Bali, Colombo and Bangkok each >70%).
+6. **Buses:** GTV +32% vs a market growing ~14%. Growth drivers: supply additions (West Bengal), brand (Tamil Nadu), Roadside Assistance (~95% of bookings) and the "Women Zone" feature. Market ~₹54,500 Cr (FY26); OTA bus segment growing ~27%.
+7. **Costs and AI:**
+   - Tech spend ₹14.3 Cr (+46% YoY, −12% QoQ) ≈ 0.27% of GTV vs ~0.28% historically.
+   - TARA resolves 94% of chats and 82% of calls end to end; 43 lakh AI-handled queries.
+   - AI shows up as capacity, not lower costs (not guidance).
+8. **AI agents:**
+   - ixigo apps are live as native apps on ChatGPT, and ixigo NEXT is being built on its own small language models.
+   - Trains and buses are **>70% of contribution margin**, which management treats as a moat against agents.
+   - 94% of transactions involve Tier-2/3 travellers.
+9. **Freshbus:**
+   - Stake sold 25.66% → 8.27%; associate status ended; **exceptional gain ₹40.66 Cr**.
+   - Share of associate loss ₹2.49 Cr (Freshbus + Sqaas).
+   - **PBT before associates, exceptional items and the prior-year ESOP charge: ₹33.5 Cr vs ₹24.4 Cr (+37%)**. Management calls this "the better measure".
+   - Freshbus was a subsidiary until 13-Sep-2023.
+10. **Other:**
+    - "ixigo Bharat Darshan" resells IRCTC rail tour packages (from ~₹7,000).
+    - Trains are bookable inside **Uber**; Apple Pay launch partner; "ixigo for work" corporate fares.
+    - CARE monitoring-agency report: nil deviation in use of the ₹1,295.56 Cr Prosus proceeds (17-Oct).
+
+**Q2 FY27 segment table (₹ Cr)**
+
+| Segment | GTV Q2 FY27 | GTV YoY | Revenue Q2 FY27 | Revenue Q2 FY26 (restated) | CM Q2 FY27 | CM % | Volume |
+|---|---|---|---|---|---|---|---|
+| Trains (incl. Zoop) | ~2,500 [E] | ~+8% [E] | 149.1 | ~128.5 [E: +16%] | 47.2 | 31.7% (28.6%) | ~29 m passenger segments (+7%) |
+| Flights | ~1,900–2,000 [E] | +37% | 82.7 [V-snip] | 89.4 [V-snip] | ~35.8 [E] | ~43% | 2.6 m segments (+8%) |
+| Buses | 753 | +32% | 81.0 | ~65.3 [E: +24%] | 43.1 | 53.2% (52.1%) | 7.7 m segments (+28%) |
+| Hotels | 111.3 | +159% | 8.1 | 1.3 | −1.2 | −15% | >5,000 room nights/day; 4.7 lakh room nights in the quarter |
+| **Total** | **5,304.5** | **+22%** | **321.0** | **284.2** | **124.9** | 38.9% | |
+
+Train and flight GTV are not disclosed. The split above is an [E] that solves train + flight GTV = ₹4,440 Cr (total less buses and hotels) with flights +37% and trains ~+8%. Implied train take ~6.0% and flight net take ~4.3%. **Do not print as company data.** Revenue segments sum to ₹320.9 Cr vs ₹320.96 Cr reported.
+
+**5-year history (₹ Cr; screener consolidated) [V]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 380 | 501 | 656 | 914 | 1,228 |
+| Operating profit (after ESOP) | −12 | 29 | 38 | 72 | 62 |
+| OPM | −3.2% | 6% | 6% | 8% | 5% |
+| Company adj. EBITDA | — | — | — | ~94 [E: 120.9/1.28] | 120.9 [V] |
+| PAT | −21 | 23 | 73 | 60 | 71 |
+| ROCE | −9% | 8% | 7% | 13% | 6% |
+| CFO | −34 | 31 | 43 | 122 | 196 |
+| GTV (company) | — | — | — | ~14,950 [E: ÷1.25] | 18,692.7 [V] |
+
+**8-quarter trend (₹ Cr) [V screener; company figures where marked]**
+
+| Quarter | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 | Sep-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 242 | 284 | 316 | 284 | 320 | 308 | 357 | 321 |
+| Operating profit | 19 | 21 | 23 | −5 | 24 | 20 | 20 | 16 |
+| OPM | 8% | 8% | 7% | −1.8% | 7% | 6% | 6% | 4.8% |
+| Other income | 5 | 6 | 7 | 5 | 14 | 19 | 29 | 63 (incl. 40.7 exceptional) |
+| PAT | 16 | 17 | 19 | −3 | 24 | 32 | 34 | 63 |
+| Company adj. EBITDA | — | — | — | 28.5 | — | 30.3 | — | 23.6 |
+| GTV | — | — | — | 4,347.5 | — | n/d (flights >2,018 in Q4) | — | 5,304.5 |
+
+**Annual-report / filing findings** (FY26 AR not fetched)
+1. **Ownership (Sep-26):**
+   - Prosus/MIH **16.08%**, the largest holder; GIC's Gamnat 8.29%; Peak XV 5.94%; founders ~9.3%; FII 56.51% in total.
+   - The FII total **includes Prosus**, so "FII selling" Jun → Sep-26 (61.28% → 56.51%) is portfolio funds, not Prosus (16.16% → 16.08%, dilution only) [V].
+2. **Balance sheet:**
+   - Investments ₹546 Cr (Mar-26) → ₹359 Cr (Sep-26); other assets ₹1,464 Cr → ₹1,753 Cr.
+   - The money was moved from investments into deposits/other assets, not spent: CARE reports nil deviation [V].
+3. **One-offs:**
+   - Q2 FY26 ESOP charge ₹26.93 Cr, triggered by early achievement of performance thresholds.
+   - Q2 FY27 Freshbus gain ₹40.66 Cr [V].
+4. **Dependence:** ixigo's train product is IRCTC inventory. IRCTC says ~28% of tickets come through channel partners and OTAs, and ixigo claims ~64% of the OTA rail market [V-b; V]. **ixigo therefore handles roughly 18% of IRCTC's e-tickets** [E: 28% × 64%; tickets vs passenger segments differ]. That makes it IRCTC's largest single channel partner, and the one most exposed to Tatkal/agent rules and to RailOne.
+
+### 4.2.4 Thomas Cook (India) (THOMASCOOK · 500413)
+
+**Documents read:**
+- Q1 FY27 investor presentation (NSE, 3-Aug-2026, 58 pp, including FY21–FY26 segment history) [V].
+- Q1 FY27 press release (NSE) [V].
+- NSE observation letter on the scheme (1-Sep-2026) [V].
+- Arihant Q1 FY27 note [V-b].
+- Screener and shareholder-detail data [V].
+- The Q1 FY27 call transcript link on BSE (AttachLive 396c4cbd…) returned an HTML error page, so the transcript was not read. The FY26 annual report was not fetched.
+
+**Management guidance digest (Q1 FY27 results 3-Aug-2026; call 4-Aug-2026)**
+1. **Outlook:**
+   - "Cautiously optimistic about the outlook for the remainder of the year" (MD & CEO Mahesh Iyer) [V deck].
+   - Per Arihant's call notes, management expects **H2 FY27 to be better than H1** as long-haul conversion improves, and keeps a long-term **20% return-on-capital** goal [V-b].
+2. **War impact:**
+   - Q1 was hit mainly through the GCC subsidiaries **DEI and Desert Adventures**. DEI's Middle East sites are ~50% of its portfolio; several attractions stayed closed.
+   - **Ex-GCC, group EBIT +8%.**
+   - Responses: timely repricing, partner renegotiation, cost discipline; DEI site rationalisation (262 → 236 sites) [V deck].
+3. **Travel mix:**
+   - Long-haul outbound −28% and short-haul ex-Middle-East +21%, so demand is moving to short-haul and Asia.
+   - Domestic B2C +29% (spiritual/pilgrimage circuits); MICE +14%; air volumes +14.4%.
+   - International DMS −33%, after Q1 FY26's one-time ~US$4 m Allied TPro MICE group and Desert Adventures' collapse [V deck].
+4. **Forex:**
+   - Retail turnover +8% vs wholesale down. Education turnover **+36%**, holiday −5%, corporate +9%.
+   - Digital adoption 23.5%; card loads −5%; float +11% (₹1,800 Cr).
+   - New counters at Delhi T1 and T2; branches closed in Guwahati, Jaipur and Margao.
+   - Prepaid card now in 28 currencies; "Zero Forex Card" launched; Blinkit delivers forex cards; partnership with Muthoot Forex [V deck].
+5. **Sterling:**
+   - "Best-ever quarter": occupancy 67%, ARR ₹7,809, EBITDA margin 39%, EBIT margin 32.4%.
+   - **Target 95 resorts by 2027** (78 now); "min. 20 sign-ups in the pipeline" (deck). Arihant cites ">35 properties" in the pipeline.
+   - Asset-right (managed) growth: managed resorts are 57% of resorts and 44% of rooms.
+   - SHRL net worth approaching ₹300 Cr; cash ₹373.7 Cr; zero debt [V deck].
+6. **Scheme:** NSE no-objection received 1-Sep-2026; next step is the NCLT filing (Supersedes #28).
+
+**Segment table (₹ Cr; deck charts) [V]**
+
+| Segment | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | **FY26** | Q1 FY27 | Q1 YoY |
+|---|---|---|---|---|---|---|---|
+| Financial Services, revenue (net) | 84.2 | 84.5 | 76.2 | 81.3 | **326.2** | 89.2 | +6% |
+| Financial Services, EBIT (margin) | 37.4 (44.4%) | 41.1 (48.7%) | 31.6 (41.5%) | 39.2 (48.3%) | **149.3 (45.8%)** | 40.4 (45.3%) | +8% |
+| Travel & Related, revenue | 1,978.4 | 1,689.1 | 1,678.1 | 1,356.9 | **6,702.5** | 1,710.6 | −14% |
+| Travel & Related, EBIT (margin) | 81.1 (4.1%) | 65.1 (3.9%) | 51.6 (3.1%) | 23.9 (1.8%) | **221.7 (3.3%)** | 40.5 (2.4%) | −50% |
+| Leisure Hospitality, revenue | 135.7 | 104.4 | 155.0 | 138.5 | **533.6** | 161.4 | +19% |
+| Leisure Hospitality, EBIT (margin) | 40.9 (30.2%) | 16.9 (16.2%) | 47.1 (30.4%) | 24.3 (17.5%) | **129.2 (24.2%)** | 52.3 (32.4%) | +28% |
+| Digital Imaging (DEI), revenue | 209.7 | 195.8 | 236.5 | 194.0 | **836.0** | 130.7 | −38% |
+| DEI, EBIT | 10.6 | 2.3 | 8.3 | −10.2 | **11.0** | −15.2 | n.m. |
+| **Total revenue** | 2,408.0 | 2,073.8 | 2,145.8 | 1,770.7 | **8,398.3** | 2,091.9 | −13% |
+| **Segment EBIT** | 170.0 | 125.4 | 138.6 | 77.2 | **511.2** | 118.0 | −31% |
+
+**FY26 share of segment EBIT:** Travel 43%, Financial Services 29%, Sterling 25%, DEI 2%. Forex and resorts together are **~54% of EBIT on ~10% of revenue** [E].
+
+**Segment history FY22–FY26 (₹ Cr; deck charts) [V]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Fin. Services revenue / EBIT | 110.4 / −3.2 | 246.4 / 72.3 | 302.3 / 123.7 | 327.7 / 149.8 | 326.1 / 149.4 |
+| Gross forex turnover (₹ bn) | 60 | 107 | 124 | 123 | 133 |
+| Travel revenue / EBIT | 1,047.0 / −251.2 | 3,643.2 / 8.5 | 5,618.7 / 192.6 | 6,468.9 / 248.5 | 6,702.5 / 221.8 |
+| Sterling revenue / EBIT | 270.8 / 58.2 | 368.4 / 79.0 | 455.7 / 136.8 | 500.6 / 129.1 | 533.6 / 129.2 |
+| Sterling resorts / ARR (₹) / occupancy | 36 / 5,159 / 52% | 40 / 6,268 / 61% | 48 / 6,405 / 61% | 61 / 6,263 / 59% | 78 / 6,176 / 59% |
+
+The resort series is read from the deck's FY21–FY26 bars: resorts 32/36/40/48/61/78; ARR ₹4,306/5,159/6,268/6,405/6,263/6,176; occupancy 43/52/61/61/59/59% (FY21 → FY26). ARR has *fallen* since FY24 because new resorts, often managed and in smaller towns, dilute the mix as room count rises [E interpretation].
+
+**5-year history (₹ Cr; screener consolidated) [V]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 1,888 | 5,048 | 7,299 | 8,140 | 8,398 |
+| Operating profit | −187 | 178 | 437 | 478 | 428 |
+| OPM | −10% | 3.5% | 6% | 6% | 5% |
+| PAT | −254 | 10 | 271 | 258 | 220 |
+| ROCE | −11% | 5% | 19% | 19% | 15% |
+| CFO | −139 | 649 | 829 | 717 | 643 |
+| EPS (₹) | −5.18 | 0.14 | 5.51 | 5.41 | 4.65 |
+
+**8-quarter trend (₹ Cr) [V screener]**
+
+| Quarter | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 2,004 | 2,061 | 1,969 | 2,408 | 2,074 | 2,146 | 1,771 | 2,092 |
+| Operating profit | 125 | 116 | 98 | 127 | 108 | 114 | 78 | 93 |
+| OPM | 6% | 6% | 5.0% | 5% | 5% | 5% | 4.4% | 4.5% |
+| PAT | 72 | 47 | 66 | 74 | 71 | 45 | 31 | 64 |
+
+Company EBITDA including other income (deck): Q1 FY27 ₹154.1 Cr vs ₹171.6 Cr; Q4 FY26 ₹113.1 Cr.
+
+**Annual-report / filing findings**
+1. **Minority and owners' PAT:** see Supersedes #26. FY26 minority ~₹1 Cr. Q1 FY27 owners' PAT exceeds the consolidated figure as DEI losses are shared 51:49 [E from V].
+2. **Debt and cash:**
+   - Total debt ₹268.8 Cr (Jun-26) [V deck]; screener borrowings ₹539 Cr include leases.
+   - Cash & ST investments ₹2,648.8 Cr includes customer float.
+   - CRISIL AA/Stable/A1+ retained [V].
+3. **Scheme:** NSE/SEBI conditions (Supersedes #28). One condition, disclosure of all adjudication, recovery and enforcement proceedings against the company, promoters and directors, suggests SEBI wants Fairfax-level litigation disclosed in the NCLT petition [V; interpretation E].
+4. **Subsidiary housekeeping:** DEI Inc. (US step-down) voluntarily dissolved, 14-Oct-2026 [V first pass]; three dormant subsidiaries to merge under the scheme [V].
+5. **Promoter creep:** Fairbridge rose to 64.77% with no change in share capital, so it bought shares (Supersedes #27) [E].
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. LRS outward remittances, FY26 (US$ m) — RBI Bulletin Table 36 (25-Sep-2026) [V]**
+
+| Item | FY26 | Share |
+|---|---|---|
+| Total LRS | 28,979.36 | 100% |
+| Travel | 16,437.99 | 56.7% |
+| Maintenance of close relatives | 3,539.04 | 12.2% |
+| Investment in equity/debt | 2,652.01 | 9.2% |
+| Gift | 2,594.81 | 9.0% |
+| Studies abroad | 2,309.74 | 8.0% |
+| Deposits | 753.08 | 2.6% |
+| Immovable property | 528.70 | 1.8% |
+| Medical treatment | 58.55 | 0.2% |
+| Others / donations | 105.42 | 0.4% |
+
+**Monthly (US$ m):**
+
+| | Jul-25 | May-26 | Jun-26 | Jul-26 |
+|---|---|---|---|---|
+| Total | 2,452.93 | 2,396.42 | 2,551.34 | 2,582.62 |
+| Travel | 1,445.34 | 1,282.63 | 1,366.81 | 1,463.11 |
+| Studies abroad | 229.25 | 92.61 | 96.76 | 148.54 |
+
+- From FY27 RBI splits travel into business, pilgrimage, medical, education-travel (Jul-26 US$665.8 m) and other/holiday incl. international card settlement (Jul-26 US$770.8 m).
+- **Read:** the first months of the 2% package-TCS regime show travel remittances **flat to +1% YoY** (Jul-26). The policy tailwind is not visible yet in aggregate, consistent with Thomas Cook's long-haul −28% (Q1 FY27).
+
+**D2. Railway reserved e-ticketing (IRCTC; company via PL [V-b] and iXBRL [V])**
+
+| Quarter | Tickets (crore) | Tickets/day (lakh) | Conv. fee ₹ Cr | Non-fee ₹ Cr | Ticketing revenue ₹ Cr | Ticketing EBIT % | UPI share |
+|---|---|---|---|---|---|---|---|
+| Q2 FY26 | ~13.6 | ~14.8 | 252 | ~134 | 385.9 | 84.7% | 49.8% |
+| Q3 FY26 | ~13.5 | ~14.7 | 251 | 150 | 400.6 | 85.1% | 50.2% |
+| Q4 FY26 | ~13.4 | ~14.9 | 247 | 143 | 390.3 | 76.3% | 51.7% |
+| Q1 FY27 | ~13.3 | 14.58 | 248 | 113 | 361.0 | 80.2% | 51.2% |
+
+E-booking penetration ~89%; ~28% of tickets via channel partners and OTAs.
+
+**D3. TBO quarterly GTV by product and source (₹ Cr) — TBO letters [V]**
+
+| Quarter | Air | H+A | India | International | Total | Organic |
+|---|---|---|---|---|---|---|
+| Q3 FY25 (Dec-24) | 2,863.9 | 4,302.3 | 3,247.2 | 3,919.0 | 7,166.2 | 7,166.2 |
+| Q1 FY26 (Jun-25) | 3,059.6 | 5,059.7 | 3,591.9 | 4,527.4 | 8,119.3 | 8,119.3 |
+| Q2 FY26 (Sep-25) | 3,236.1 | 5,664.9 | 3,567.5 | 5,333.6 | 8,901.0 | 8,901.0 |
+| Q3 FY26 (Dec-25) | 3,428.2 | 6,281.2 | 3,723.9 | 5,985.5 | 9,709.4 | 8,664 |
+| Q4 FY26 (Mar-26) | 3,543.1 | 6,535.9 | 3,709.3 | 6,369.7 | 10,079.0 | 9,037.9 |
+| Q1 FY27 (Jun-26) | 3,576.6 | 7,577.7 | 3,999.8 | 7,154.5 | 11,154.3 | 9,918.4 |
+
+**D4. Thomas Cook forex franchise, FY21–FY26 — TC deck [V]**
+
+| | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|
+| Gross forex turnover (₹ bn) | 38 | 60 | 107 | 124 | 123 | 133 |
+| Float on cards (₹ bn) | 4 | 5 | 9 | 12 | 14 | 16 |
+| Active prepaid card users (m) | 0.2 | 0.3 | 0.9 | 1.2 | 1.3 | 1.2 |
+| Card loads (US$ m) | ~109 | ~225 | 611 | 823 | 860 | 764 |
+| FS revenue (₹ Cr) | 108.4 | 110.4 | 246.4 | 302.3 | 327.7 | 326.1 |
+| FS EBIT margin | 13% | n.m. | 29% | 41% | 46% | 46% |
+
+Read: turnover and float grew in FY26 while card users and loads fell (US$860 m → US$764 m), so growth is coming from wholesale and education rather than holiday cards. Fintech/zero-markup card competition [K] shows up here.
+
+**D5. Domestic aviation (DGCA via Angel One [V]; ixigo letter [V])**
+- Aug-26: 12.126 m (−6.34% YoY); Jan–Aug-26: 110.53 m (−0.18%).
+- Aug-26 shares: IndiGo 65.0%, Air India Group 26.7%, Akasa 5.5%, SpiceJet 1.2%. Cancellation rate 1.39%. OTP: IndiGo 91.5%, Akasa 90.5%, AI Group 83.9%.
+- Jun-26: 1.35 crore (−~12% MoM; IndiGo 66.3%) [V-snip].
+- Supply: ~130 of 840+ aircraft grounded (Aug-26); ~2,000 on order.
+- Sep-2026 DGCA data: not out as of 22-Oct.
+
+**D6. Policy facts (dated)**
+
+| Item | Fact | Source |
+|---|---|---|
+| Rail Neer MRP | ₹14/1 L, ₹9/500 ml from 22-Sep-2025 (was ₹15/₹10 since Nov-2012) | Railway Board CC 18/2025 [V] |
+| IRCTC convenience fee | ₹15/₹30 + GST (non-AC/AC) from 1-Sep-2019; ₹10/₹20 via UPI/BHIM | PIB 2019 / Rajya Sabha Aug-2025 [V-snip; Angel One V] |
+| GST, air | Economy 5% (no ITC); premium/business 18% (with ITC) from 22-Sep-2025 | [V-snip] |
+| GST, hotels | ≤₹7,500/night 5% no ITC; >₹7,500 18% | [V-snip, Part 1] |
+| GST, tour operators | 5% without ITC (unchanged) | [K, still unconfirmed] |
+| TCS, overseas packages | 2% from first rupee from 1-Apr-2026 (s.394(1), Income-tax Act 2025) | [V-snip; Outlook V first pass] |
+| IndiGo penalty | ₹22.20 Cr (17-Jan-2026); ₹50 Cr guarantee under ISRAS in four tranches (₹10 Cr / ₹15 Cr / ₹15 Cr / ₹10 Cr over 3–15 months) | [V-snip ×4] |
+| GSTAT/IRCTC | ₹50.41 Cr + 18% interest from 28-Jun-2019 (anti-profiteering), 14-Oct-2026 | BSE [V] |
+| ED/TBO | ₹22.22 Cr + ₹2.47 Cr × 2, FEMA s.3(c)/42(1), order 16-Oct-2026 | BSE [V] |
+| TC scheme | NSE no-objection 1-Sep-2026; NCLT filing due by ~1-Mar-2027 | NSE [V] |
+
+**D7. Market-size claims from the companies (label as company-cited, VIDEC Sep-2026 via ixigo [V])**
+- India online share of travel GBV ~42.5% (FY26).
+- Hotel market ₹1,57,100 Cr (FY26) → ₹1,93,900 Cr (FY28); OTA-booked hotels ₹40,200 Cr → ~₹57,000 Cr.
+- Intercity bus ₹54,500 Cr (+14%/yr).
+- About 60% of hotel room-nights sell below ₹2,000; independents hold 73% of rooms.
+- These conflict in definition with Phocuswright's US$41.7 bn and 57% online (Part 1 §2.1). Different scope: do not mix.
+
+---
+
+## 4.4 Gap log (§H and §2.6 items)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| H1 | IRCTC fee structure | **Filled**: ₹15/₹30 + GST; ₹10/₹20 UPI/BHIM; arithmetic-consistent | PIB 2019 (via search), Angel One (Aug-2025, fetched), PL fee/ticket |
+| H2 | IRCTC FY26 segment revenue/results; State Teertha | **Filled** (iXBRL); State Teertha sits inside Tourism, no separate figure | NSE iXBRL [V] |
+| H3 | FY26 convenience fee; online share | **Filled**: ~₹989 Cr [E from V-b]; 89.0% | PL notes |
+| H4 | IRCTC cash/net cash | **Filled**: ₹2,841.6 Cr cash + bank; no debt | iXBRL |
+| — | IRCTC Q1 FY27 segment results | **Upgraded** to V-b (PL Exhibit 3). Q1 FY27 results PDF not fetched | PL |
+| H5 | TBO FY26 product/geography; Classic FY26; adj. EBITDA; Mar-26 cash | **Filled** (sums of quarterly letters; adj. EBITDA corrected to ₹399.5 Cr; cash ₹1,592 Cr) | TBO letters |
+| H6 | TBO ED penalty nature and response | **Filled** (FEMA s.3(c)/42(1); auditors' EoM; evaluating options). Appeal not yet filed | BSE intimation |
+| H7 | ixigo segment GTV and take rates | **Partly filled**: bus GTV ₹753 Cr, hotel GTV ₹111 Cr, train and flight revenue and CM, flight gross take 7.0%. Train and flight GTV still not disclosed; split is [E] | Earnings Release |
+| H8 | ixigo founders' holding | **Filled**: ~9.3%; Prosus 16.08% | Screener holder data |
+| — | Freshbus gain | **Upgraded** to V (₹40.66 Cr) | Earnings Release |
+| H9 | TC forex turnover; FY26 segments; Sterling occupancy/ARR | **Filled** | TC deck |
+| H10 | TC owners' PAT | **Filled (approx.)**: minority ~₹1 Cr FY26 [E from EPS] | Deck EPS; Arihant equity capital |
+| H11 | TC promoter 63.83 → 64.77% | **Partly filled**: Fairbridge bought ~0.94% (not a buyback). Exact mode (open market vs block) not confirmed; SAST filing not read | Screener holder data; Arihant |
+| — | TC demerger status | **Filled**: NSE no-objection 1-Sep-2026; NCLT pending | NSE letter |
+| H12 | MoT outbound departures | **Still V-snip**: 3.28 crore (328.3 lakh, revised). tourism.gov.in returns 403 to curl and WebFetch; PIB release not found | Searches ×2; three PDF URLs tried |
+| H13 | LRS travel FY26 | **Filled**: US$16,437.99 m | RBI Bulletin |
+| H14 | GST tour operators / business-class air | **Air filled** (V-snip, consistent across 3 sources); tour-operator 5% still [K] | Search |
+| H15 | Rupee record ~₹96.8 | **Not confirmed**: record close 95.71 (May-2026) [V-snip]; TE 99.82 (Mar-2026) is suspect; current ~94.8 [V] | Trading Economics; search |
+| H16 | DGCA Sep-2026 | **Still open**: not published/indexed | Search |
+| H17 | Rail Neer price | **Filled** (Railway Board CC 18/2025) | Circular PDF |
+| — | Indian Railways reserved passengers (annual) | **Still open**: not sought further; use IRCTC's ~53–54 crore e-tickets in FY26 [E: 4 × ~13.4 crore] ÷ 0.89 penetration ≈ ~60 crore reserved tickets [E] | — |
+| — | IRCTC / TBO / ixigo / TC FY26 annual reports (contingent liabilities, full RPT notes) | **Open**: AR PDFs not fetched (budget). IRCTC RPT and balance sheet from the iXBRL instead; IRCTC contingent liabilities ₹258 Cr (Mar-25) [V-snip] | — |
+| — | Full concall transcripts (Q1 FY27 for IRCTC, TBO, TC; Q2 FY27 ixigo) | **Open**: IRCTC via PL highlights [V-b]; TBO via letter + Quartr [V]; ixigo via FAQ letter [V], audio only; TC transcript link returned HTML | — |
+
+---
+
+## 4.5 New insights the first pass missed
+
+1. **ixigo is IRCTC's biggest channel and is shrinking IRCTC's non-fee income.**
+   - IRCTC says ~28% of tickets come via partners and OTAs; ixigo claims ~64% of the OTA rail market, so **~18% of IRCTC's e-tickets** pass through ixigo/ConfirmTkt [E].
+   - IRCTC's non-fee income fell 5.5% in Q1 FY27, blamed on agent restrictions, the ad-free new UI and **RailOne** (the Railways' own app) [V-b].
+   - So the Railways is competing with both its listed toll-collector and its largest reseller. RailOne needs a line in both primers.
+2. **The fee toll has stalled, and Railways already takes a cut of everything except the fee.**
+   - Tickets fell from ~13.6 to ~13.3 crore a quarter over four quarters; fee per ticket is pinned at ~₹18.6 by the 51% UPI share at ₹10/₹20.
+   - The iXBRL related-party table shows "Railway share" on catering (₹227 Cr in H2 FY26), on Rail Neer profit, and on ticketing ads, rent and utilities, but **not on the convenience fee**. The fee is the one stream left unshared (the 2021 50% order was withdrawn).
+   - Each 1 pp of UPI-share gain costs ~₹1 Cr a quarter of fee revenue [E: 1% of 13.3 crore tickets = 13.3 lakh × ~₹7.5 average UPI discount (₹5 non-AC / ₹10 AC)]. A slow, structural erosion.
+3. **IRCTC's legal exposure is larger than it looks.** The GSTAT anti-profiteering order with 18% interest from Jun-2019 is ~₹117 Cr (~8% of FY26 PAT) if the appeal fails, against the "₹50 Cr" headline [E from V].
+4. **TBO's acquisition has changed the returns profile more than the growth profile.**
+   - Classic adds ~20% of revenue but ~13% of adj. EBITDA (H2 FY26), plus ₹1,270 Cr of goodwill and intangibles, ₹540 Cr of new debt and ₹34 Cr more D&A.
+   - ROCE has gone from 53% (FY23) to 18%.
+   - Organic constant-currency growth was only **+15%** in Q1 FY27; the rupee and Classic make the reported +37% GTV look stronger.
+   - The ED order (~11% of FY26 PAT including the JMDs) had been flagged by the auditors' Emphasis of Matter.
+5. **Thomas Cook is a forex-and-resorts company wearing a tour-operator's revenue.**
+   - Forex (₹13,300 Cr turnover, ₹326 Cr net revenue, 46% EBIT margin) and Sterling (24% EBIT margin) produce **~54% of FY26 segment EBIT on ~10% of revenue**.
+   - Travel produces 43% of EBIT at a 3.3% margin, and fell to 2.4% in Q1 FY27.
+   - The SHRL demerger therefore hands shareholders one of the two high-margin engines directly. Card users and loads are falling (1.3 m → 1.2 m → 1.1 m; US$860 m → US$764 m) even as turnover grows, which suggests holiday-card share loss to zero-markup cards.
+6. **The "rerouting east" shows up in all three outbound-exposed members in the same quarter:**
+   - TBO's India H+A −2% as destinations shifted to lower-ADR places.
+   - Thomas Cook's long-haul −28% vs short-haul ex-ME +21%.
+   - ixigo's international flight GTV +59% (Hanoi ×2; Bali, Colombo, Bangkok >70%).
+   - The 2% TCS cut has not yet lifted aggregate LRS travel (+1.2% YoY in Jul-26).
+7. **ixigo's ownership is more strategic than "no promoter" suggests.** Prosus holds 16.08% (not 10.1%), nearly as much as the founders (~9.3%) and GIC (8.3%) combined (17.6%). An exit or further step-up by Prosus is the key overhang/optionality, and Prosus paid ₹280/share against ₹141 now.
+8. **Sterling's ARR is falling while occupancy rises** (FY24 ₹6,405 → FY26 ₹6,176), as managed, smaller-town resorts dilute the mix (32 → 78 resorts in five years; target 95 by 2027). Q1 FY27's ARR of ₹7,809 is a seasonal peak, not a run-rate.
+
+---
+
+## 4.6 New primer issues (format as primer-issues.md; add to §3.4)
+
+### From Travel Services deep-research pass (2026-10-22, travel-services-industry.md Part 4)
+
+- **irctc.html — convenience fee:** keep ₹15/₹30 + GST with ₹10/₹20 for UPI/BHIM. The primer was right; drop any "conflict" note. Add the fee-per-ticket check: ~₹18.6 in Q1 FY27 at a 51% UPI share [PL/company].
+- **irctc.html — online share:** "~80%" → **~89% e-booking penetration** (company, Q3 FY26 to Q1 FY27 calls).
+- **irctc.html — FY26 segment table:**
+  - Use the filed numbers: Catering ₹2,398.8 Cr / EBIT ₹249.9 Cr (10.4%); Ticketing ₹1,535.5 / ₹1,267.9 Cr (82.6%); Tourism (incl. State Teertha) ₹890.1 / ₹127.5 Cr (14.3%); Rail Neer ₹407.5 / ₹55.7 Cr (13.7%).
+  - "~85% ticketing margin" → "82.6% in FY26; 76–85% by quarter" [IRCTC FY26 integrated filing].
+- **irctc.html — Rail Neer:**
+  - Capacity "~18 lakh" → **17.8 lakh bottles/day** (Q1 FY27).
+  - Add the **MRP cut ₹15 → ₹14 (1 L) from 22-Sep-2025** (Railway Board CC 18/2025).
+- **irctc.html — balance sheet:** add cash + bank ₹2,841.6 Cr (Mar-26), no borrowings, lease liabilities ₹80.7 Cr. Note the Railways-related liabilities.
+- **irctc.html — legal:** GSTAT 14-Oct-2026 anti-profiteering order: ₹50.41 Cr + 18% interest from 28-Jun-2019 (~₹117 Cr total) [E]; IRCTC appealing.
+- **irctc.html — channel risk:** add that ~28% of tickets come via OTAs/partners, and that non-fee income fell 5.5% in Q1 FY27 on agent restrictions and diversion to RailOne.
+- **irctc.html — guidance:** management targets catering +15%, tourism +19–20% (₹1,000 Cr in FY27) and ticketing +7–10% a year; payment-aggregator licence (IRCTC Payments) expected in FY27.
+- **tbo-tek.html — adjusted EBITDA:** FY26 "₹414 Cr" is *before acquisition costs*. The company's adjusted EBITDA is **₹399.5 Cr (14.9%)**. Label it.
+- **tbo-tek.html — FY26 mix:** add H+A 64.0% of GTV (₹23,542 Cr), air ₹13,267 Cr; India 39.6% / international 60.4%; air take 2.45%, H+A 9.51% (sum of quarterly letters). Classic H2 FY26: GTV ~₹2,086 Cr, revenue ~₹534 Cr, adj. EBITDA ~₹53 Cr.
+- **tbo-tek.html — ED order detail:** FEMA s.3(c) read with s.42(1); order 16-Oct-2026; the auditors' Emphasis of Matter already flagged it; the company is evaluating options.
+- **tbo-tek.html — growth quality:** Q1 FY27 organic growth +15% in constant currency vs +37% reported consolidated GTV. Organic SG&A +4% in constant currency.
+- **ixigo.html — ownership (major):**
+  - **Prosus (MIH Investments One B.V.) 16.08%**, the largest shareholder.
+  - **Founders ~9.3%** (Rajnish Kumar 4.82%, Aloke Bajpai 4.52%), not ~17%.
+  - GIC (Gamnat) 8.29%, Peak XV 5.94%; SAIF/Elevation fully exited (Sep-25 → Dec-25).
+- **ixigo.html — new segment reporting:**
+  - Four segments (Trains incl. Zoop, Flights, Buses, Hotels).
+  - Q2 FY27: trains revenue ₹149.1 Cr (+16%), CM 31.7%, OTA rail share ~64%; buses GTV ₹753 Cr (+32%), CM 53.2%; flights revenue ₹82.7 Cr (down), gross take 7.0% vs 9.4%; hotels GTV ₹111 Cr, CM −₹1.2 Cr.
+  - Contribution-margin bands: trains ≥30%, flights ≥40%, buses ≥50%.
+- **ixigo.html — outlook language:** hotels are the 2–3-year investment priority (~₹10 Cr a quarter of group cost); "October started softer" for domestic flights (not guidance); pre-exceptional PBT +37% is management's preferred Q2 measure.
+- **thomas-cook-india.html — Financial Services:** replace the "~₹485 Cr derived" revenue with **₹326.2 Cr segment revenue (net), EBIT ₹149.3 Cr (45.8%)**. Add **forex turnover ₹133 bn (FY26)**, float ₹1,600 Cr → ₹1,800 Cr (Q1 FY27), and active card users 1.2 m → 1.1 m.
+- **thomas-cook-india.html — Sterling:** 78 resorts / 3,798 rooms (Mar-26) is correct; drop the "over 72 / 62 locations" wording if added. Add FY26 occupancy 59%, ARR ₹6,176; Q1 FY27 67% / ₹7,809; the 95-resort target by 2027.
+- **thomas-cook-india.html — segment EBIT mix:** forex 29% + Sterling 25% of FY26 segment EBIT on ~10% of revenue; travel 43% at a 3.3% margin; DEI 2%.
+- **thomas-cook-india.html — scheme status:** NSE no-objection 1-Sep-2026 (SEBI comments 27-Aug); NCLT filing due within 6 months; transferors TC Visa Services, Jardin Travel Solutions, Borderless Travel Services.
+- **thomas-cook-india.html — debt:** company total debt ₹268.8 Cr (Jun-26) vs screener ₹539 Cr (incl. leases); cash & ST investments ₹2,648.8 Cr (incl. float).
+- **thomas-cook-india.html — promoter:** Fairbridge 63.83% → 64.77% (Jun-26 quarter) by share purchase (equity capital unchanged); not a buyback.
+
+---
+
+## 4.7 Source URLs fetched this session (Part 4)
+
+- IRCTC FY26 Integrated Filing (iXBRL): https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_161690_26052026223824_iXBRL_WEB.html
+- IRCTC GSTAT disclosure (BSE): https://www.bseindia.com/xml-data/corpfiling/AttachLive/ba59ec57-db8f-4aa2-827c-cedcc3c81882.pdf
+- PL IRCTC notes: https://plindia.com/ResReport/IRCTC-14-8-26-PL.pdf · …/IRCTC-27-5-26-PL.pdf · …/IRCTC-14-2-26-PL.pdf · …/IRCTC-13-11-25-PL.pdf
+- Railway Board CC 18/2025 (Rail Neer): https://www.indianrailwayrules.com/wp-content/uploads/2025/11/MRP-of-Rail-Neer-Shortlisted-packaged-drinking-water-CC-18-of-2025-20.09.2025-indianrailwayrules.com_.pdf
+- Rail Minister on fees (Angel One, 11-Aug-2025): https://oga-prod.angelone.in/news/market-updates/irctc-defends-upi-and-online-ticket-fees-railway-minister-explains-rs-10-20-charge-for-convenience
+- TBO Q1 FY27 letter: https://nsearchives.nseindia.com/corporate/9810411243_29072026230050_Letter_to_Shareholders_29072026_.pdf
+- TBO Q3 FY26 letter: https://nsearchives.nseindia.com/corporate/9810411243_11022026164610_ShareholderLetter.pdf
+- TBO ED intimation (BSE): https://www.bseindia.com/xml-data/corpfiling/AttachLive/e58439e8-c1e7-426f-bed2-22f9b3eee76a.pdf
+- TBO Q1 FY27 call summary (Quartr): https://quartr.com/events/tbo-tek-limited-tbotek-q1-26-27_F4Tq46NT
+- TBO revised-letter note (Investywise): https://www.investywise.com/?p=97988
+- ixigo Q2 FY27 Earnings Release (BSE): https://www.bseindia.com/xml-data/corpfiling/AttachLive/11c375b2-c52a-4009-850d-5000bc79eb14.pdf
+- ixigo earnings-call audio intimation (BSE): https://www.bseindia.com/xml-data/corpfiling/AttachLive/b952b63c-6cad-4235-8405-21b20c465706.pdf
+- ixigo FY26 / Q2 FY27 media releases: https://nsearchives.nseindia.com/corporate/IXIGO_21052026175538_Regulation_30_Media_Release_21052026.pdf · https://nsearchives.nseindia.com/corporate/IXIGO_17102026131559_Regulation_30_Media_Release_17102026.pdf
+- Screener holder data (ixigo): https://www.screener.in/api/3/1284805/investors/foreign_institutions/quarterly/ · …/public/quarterly/; Thomas Cook promoters endpoint similarly
+- Thomas Cook Q1 FY27 investor presentation: https://nsearchives.nseindia.com/corporate/THOMASCOOK_03082026191836_Investor_Presentation_Intimation.pdf
+- Thomas Cook Q1 FY27 press release: https://nsearchives.nseindia.com/corporate/THOMASCOOK_03082026184848_Stock_Exchange_Intimation_Press_Release.pdf
+- Thomas Cook NSE observation letter: https://nsearchives.nseindia.com/corporate/THOMASCOOK_02092026135158_Stock_Exchange_Intimation-_NSE_Observation_Letter.pdf
+- Arihant Thomas Cook Q1 FY27: https://arihantresearch.arihantcapital.com/Mumbai_Research/Thomas_Cook_Q1FY27_Result_Update.pdf
+- RBI Bulletin Table 36 (LRS): https://rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=24488
+- DGCA Aug-2026 (Angel One): https://www.angelone.in/news/economy/india-s-domestic-air-traffic-drops-6-34-to-12-126-million-passengers-in-august-2026
+- USD/INR (Trading Economics): https://tradingeconomics.com/india/currency
+- Screener consolidated pages (re-fetched): https://www.screener.in/company/{IRCTC,TBOTEK,IXIGO,THOMASCOOK}/consolidated/ and https://www.screener.in/company/IRCTC/
+
+**Blocked or failed:**
+- tourism.gov.in PDFs (403 to curl and WebFetch).
+- investors.ixigo.com (403).
+- BSE shareholding pages (JS app) and api.bseindia.com (Access Denied).
+- BSE AttachLive 396c4cbd… (TC Q1 transcript; returned HTML).
