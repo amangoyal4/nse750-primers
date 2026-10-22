@@ -46,3 +46,8 @@
 - **tvs-supply-chain-solutions.html — one-offs detail:** FY26 share of JV profit ₹182.0 Cr (TVS ILP, 24.48% JV, InvIT transfer); exceptional loss ₹105.6 Cr = restructuring ₹91.3 Cr + Labour Code ₹14.3 Cr; impairment on financial instruments ₹56 Cr (₹21 Cr). PAT attributable to owners ₹114.3 Cr.
 - **tvs-supply-chain-solutions.html — guidance:** add mid-teen FY27 revenue growth; ISCS margin 9% from Q2 and 9.5–10% by Q4 FY27; 4% PBT "aspiration" with FY28 as the firm target. Group related-party revenue (TVS Srichakra ₹162 Cr etc.) is ~1.7% of revenue; TVS Motor is not a related party.
 - Annual reports 2025-26 (BSE): CONCOR f7ed8d97-f3e0-4afd-bd99-6af5f3902be8 · Delhivery f2df7720-e670-4a6a-9dcf-fea3c31421a0 · Blue Dart 130422d5-3941-4526-93a9-65bb73997786 · BlackBuck af09c5c2-52da-4ad7-804e-273efcc55f78 · TVS SCS 8f4fdadc-d070-4c5a-aa4f-13eedb4cc62a (all under https://www.bseindia.com/xml-data/corpfiling/AttachHis/<id>.pdf)
+
+## From primer-audit.mjs (22-Oct-2026, logistics report Phase 3; pre-existing, not fixed)
+- **concor.html** — hard-check FAIL: banned phrase present and "honest" used more than once; no `main{min-width:0}` (phone overflow risk); 0 links to sub-sector reports.
+- **delhivery.html** — hard-check FAIL: banned phrase present; no `main{min-width:0}`; 0 report links.
+- **blue-dart-express.html**, **blackbuck.html**, **tvs-supply-chain-solutions.html** — hard checks pass; no `main{min-width:0}`; 0 report links (each should link `../subsectors/logistics.html` once published).
