@@ -988,6 +988,23 @@
         "China, imports and US tariffs"
       ],
       "published": "2026-10-21"
+    },
+    {
+      "name": "Tea & Coffee",
+      "slug": "tea-coffee",
+      "file": "tea-coffee.html",
+      "sector": "FMCG",
+      "subsector": "Tea & Coffee",
+      "companies": 2,
+      "accent": "#B0413E",
+      "hook": "A converter, a planter, a holdco: how CCL earns per tonne whatever beans cost, why the 2025 coffee spike hit its debt not its margin, Vietnam vs India and the new tariff map, why Indian tea estates lose money, and Bombay Burmah's Britannia discount and ₹6,462 Cr Singampatti claim.",
+      "tags": [
+        "The coffee spike: who carried the risk",
+        "Vietnam vs India",
+        "The tea estate's broken P&L",
+        "The holdco discount"
+      ],
+      "published": "2026-10-22"
     }
   ],
   "universe": [
@@ -1409,7 +1426,7 @@
       "sector": "FMCG",
       "sub": "Tea & Coffee",
       "companies": 2,
-      "report": null
+      "report": "tea-coffee.html"
     },
     {
       "sector": "FMCG",
