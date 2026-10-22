@@ -1090,6 +1090,23 @@
         "Two industries, one label"
       ],
       "published": "2026-10-22"
+    },
+    {
+      "name": "Engineering & Infrastructure Consultants",
+      "slug": "infra-consulting",
+      "file": "infra-consulting.html",
+      "sector": "Infrastructure",
+      "subsector": "Consulting Services",
+      "companies": 2,
+      "accent": "#0B6E99",
+      "hook": "Brains for hire, priced by the mix: how Engineers India and RITES earn ~30% on consultancy but ~6% on turnkey, the one-offs that flatter FY26, EIL's Kenya order and the refinery cycle, RITES' six flat years, and how much of their cash is really clients' money.",
+      "tags": [
+        "The mix machine",
+        "EIL's order book and Kenya",
+        "RITES' six flat years",
+        "Cash that isn't all theirs"
+      ],
+      "published": "2026-10-22"
     }
   ],
   "universe": [
@@ -1643,7 +1660,7 @@
       "sector": "Infrastructure",
       "sub": "Consulting Services",
       "companies": 2,
-      "report": null
+      "report": "infra-consulting.html"
     },
     {
       "sector": "Infrastructure",
