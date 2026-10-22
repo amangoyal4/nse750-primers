@@ -1,5 +1,5 @@
 done 2026-10-22T19:08:21Z · branch claude/ss-oil-exploration · report subsectors/oil-exploration.html (unpublished — publish.mjs not run, no PR, nothing merged)
-deep-research: done (Part 4 0 KB; 35/40 figures verified from primary sources)
+deep-research: done (Part 4 72 KB; 35/40 figures verified from primary sources)
 
 **Gate:** GATE PASSED: 27/27 checks · 22286 prose words · 29733 total words · 299 KB
 **Audit totals (tier C, 2 cos):** prose 22,286 (target 12,000; benchmark 19,815) · 23 sections · 5 deep dives · KPI masterclass 4,422 words / 17 h3 · 64 chart blocks · 4 positioning maps · 16 tables · 35 "In plain terms" callouts · 2 profile cards (224 / 220 words) · TOC 23/23 · banned phrases 0 · "honest" 0 · stat strip ₹-only · 42× "illustrative", 44× "indicative".
@@ -97,4 +97,4 @@ CHECK [All members (consolidated)] (2 cos): Revenue ✓ | OP ✓ | PAT attributa
 | oil-india.html | 72 | 6284 | 9 | 10 | 12 | 0 | 2026-06-30 | ❌ bars<10, banned, USD-in-strip | no main{min-width:0} (phone overflow) |
 
 **Publish entry:**
-{"key":"Crude Oil || Oil Exploration & Production","name":"Oil & Gas E&P","slug":"oil-exploration","accent":"#653479","noun":"producers","hook":"The windfall the state let them keep: how ONGC and Oil India turn Brent into profit, why the 2026 West Asia shock gave record E&P quarters without a crude windfall tax, why legacy gas stays capped at $7, the fight against field decline, and why their consolidated accounts hide refiners on the opposite cycle.","tags":["Who keeps the windfall","The $7 gas cap","Decline, KG-98/2 and reserves","The consolidation trap"]}
+{"key":"Crude Oil || Oil Exploration & Production","name":"Oil & Gas E&P","slug":"oil-exploration","accent":"#653479","noun":"producers","hook":"The windfall the state let them keep: how ONGC and Oil India earn from Brent, why the 2026 West Asia shock gave record E&P quarters without a crude windfall tax, why legacy gas stays capped at $7, the fight against decline, and why their consolidated accounts hide refiners on the opposite cycle.","tags":["Who keeps the windfall","The $7 gas cap","Decline, KG-98/2 and reserves","The consolidation trap"]}
