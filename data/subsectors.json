@@ -1158,6 +1158,23 @@
         "Secured-loan shift"
       ],
       "published": "2026-10-22"
+    },
+    {
+      "name": "Travel Services",
+      "slug": "travel-services",
+      "file": "travel-services.html",
+      "sector": "Hospitality",
+      "subsector": "Tour, Travel Related Services",
+      "companies": 4,
+      "accent": "#1A9387",
+      "hook": "A toll, two marketplaces, a forex desk: how IRCTC's rail-ticket monopoly, TBO Tek's global B2B hotel marketplace, ixigo's app and Thomas Cook's forex-and-resorts group make money, why headline revenue misleads, and what the 2026 West Asia war, a weak rupee and Railways policy mean for each.",
+      "tags": [
+        "IRCTC's ticket toll",
+        "The war quarter",
+        "TBO vs ixigo",
+        "Thomas Cook forex & resorts"
+      ],
+      "published": "2026-10-22"
     }
   ],
   "universe": [
@@ -1687,7 +1704,7 @@
       "sector": "Hospitality",
       "sub": "Tour, Travel Related Services",
       "companies": 4,
-      "report": null
+      "report": "travel-services.html"
     },
     {
       "sector": "Inds. Gases & Fuels",
