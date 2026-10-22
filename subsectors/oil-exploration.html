@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Oil &amp; Gas E&amp;P — Sub-sector Report</title>
+<meta name="description" content="A complete guide to India's listed oil and gas producers, ONGC and Oil India: how a barrel and an mmBtu become profit, how much of the 2026 West Asia price shock the state let them keep, the APM gas cap, the fight against field decline, the refining subsidiaries that blur their accounts, the KPIs that matter and a peer table on one basis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#653479;          /* deep crude purple */
+    --brand-bright:#8E4FB0;   /* bright purple accent */
+    --gold:#C9962B;           /* flare gold */
+    --wtg:#2F6F8F;            /* petrol blue */
+    --epc:#7E62A0;            /* muted violet */
+    --om:#3F4A6B;            /* ink navy */
+    --spec:#8E4FB0;          /* purple accent */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#653479,#8E4FB0);}
+  .fill.gold{background:linear-gradient(90deg,#C9962B,#E0B458);}
+  .fill.wtg{background:linear-gradient(90deg,#2F6F8F,#4F8DAB);}
+  .fill.om{background:linear-gradient(90deg,#3F4A6B,#5E6A8C);}
+  .fill.spec{background:linear-gradient(90deg,#8E4FB0,#A877C6);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Crude Oil · Oil &amp; Gas E&amp;P</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> How a barrel becomes profit</a></li>
+    <li><a href="#p2"><span class="n">02</span> Size, decline &amp; the import gap</a></li>
+    <li><a href="#p3"><span class="n">03</span> The 2026 price shock</a></li>
+    <li><a href="#p4"><span class="n">04</span> Who keeps the windfall</a></li>
+    <li><a href="#p5"><span class="n">05</span> Seven dollars: the gas cap</a></li>
+    <li><a href="#p6"><span class="n">06</span> The down escalator</a></li>
+    <li><a href="#p7"><span class="n">07</span> Where ₹100 of revenue goes</a></li>
+    <li><a href="#p8"><span class="n">08</span> Two producers and the rest</a></li>
+    <li><a href="#p9"><span class="n">09</span> One ticker, two cycles</a></li>
+    <li><a href="#p10"><span class="n">10</span> Five business models</a></li>
+    <li><a href="#p11"><span class="n">11</span> The policy reset</a></li>
+    <li><a href="#p12"><span class="n">12</span> Capital allocation</a></li>
+    <li><a href="#p13"><span class="n">13</span> 135 years, six shocks</a></li>
+    <li><a href="#p14"><span class="n">14</span> Reading an E&amp;P: the KPIs</a></li>
+    <li><a href="#p15"><span class="n">15</span> The peer table</a></li>
+    <li><a href="#p16"><span class="n">16</span> Who is winning</a></li>
+    <li><a href="#p17"><span class="n">17</span> Company profiles</a></li>
+    <li><a href="#p18"><span class="n">18</span> The global lens</a></li>
+    <li><a href="#p19"><span class="n">19</span> Technology &amp; transition</a></li>
+    <li><a href="#p20"><span class="n">20</span> Bull vs bear</a></li>
+    <li><a href="#p21"><span class="n">21</span> What to watch</a></li>
+    <li><a href="#p22"><span class="n">22</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Crude Oil · Oil &amp; Gas E&amp;P</span>
+    <span class="tag gold">2 listed companies</span>
+  </div>
+  <h1>Indian oil &amp; gas E&amp;P: <em>the windfall the state let them keep</em></h1>
+  <p class="dek">A complete guide to India's two listed oil and gas producers, ONGC and Oil India: how a barrel and an mmBtu turn into profit, why the 2026 West Asia shock produced record upstream quarters while the government reached for every lever except a windfall tax on crude, why legacy gas is still capped at seven dollars, how two decades of field decline are being fought, and why each company's consolidated accounts hide a refinery that runs on the opposite cycle.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹3.58 <small>lakh Cr</small></div><div class="l">Combined m-cap (22 Oct 2026)</div></div>
+    <div class="cell"><div class="v">₹6.42 <small>lakh Cr</small></div><div class="l">FY26 consolidated revenue</div></div>
+    <div class="cell"><div class="v">₹37,349 <small>Cr</small></div><div class="l">FY26 standalone E&amp;P PAT</div></div>
+    <div class="cell"><div class="v">₹19,904 <small>Cr</small></div><div class="l">Q1 FY27 standalone E&amp;P PAT</div></div>
+    <div class="cell"><div class="v">₹18,540 <small>Cr</small></div><div class="l">FY26 dividends declared</div></div>
+    <div class="cell"><div class="v">₹27,618 <small>Cr</small></div><div class="l">Windfall tax paid FY23–FY25</div></div>
+  </div>
+  <p class="prov">Basis: FY26 (year to 31 Mar 2026) and Q1 FY27 (Apr–Jun 2026, the latest quarter both companies have reported) from screener.in consolidated and standalone pages, the FY26 annual reports and the Q1 FY27 earnings calls; industry data from PPAC, the PPAC Ready Reckoner FY26, ICRA and CRISIL. Market data as of 22 Oct 2026. Estimates, worked examples and single-source figures are labelled illustrative or indicative.</p>
+</header>
+
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: the price is set abroad, the take is set in Delhi</h2></div>
+<p class="part-sub">Two state-controlled producers pump about 86% of India's crude. Their earnings depend on one number they do not control and on a second decision they cannot predict.</p>
+
+<p class="lead">Indian oil and gas exploration and production (E&amp;P) is a two-company sub-sector. Oil and Natural Gas Corporation (ONGC) and Oil India (OIL) produced roughly 86% of the country's crude in the first half of FY27 and about 62% of its gross gas in FY26. Every barrel they lift is sold to an Indian refinery at a price linked to Brent. Every unit of their legacy gas is sold at a price the government sets and caps. Neither company decides how much of a price spike it may keep: that is settled in New Delhi through royalty, an oil-industry cess, and in the past a windfall tax or forced discounts to fuel retailers. Understanding this sub-sector means understanding three things at once: the global oil price, the domestic fiscal and pricing rules that filter it, and the slow physical battle against ageing fields.</p>
+
+<p>2026 put all three under a spotlight. The West Asia war that began on 28 February 2026 took the Indian crude basket from $69 a barrel in February to $113–114 in March and April. It eased to $82–83 in June and July, then spiked again to $116 in September, and averaged about $120 in October to date (PPAC). For the first time in two decades of $100-plus oil, the government did not reimpose a windfall tax on domestic crude. It taxed fuel exports instead, cut excise on petrol and diesel, and leaned on refiners. The result was the best quarter in the history of both producers. In Q1 FY27 (the June 2026 quarter), ONGC's standalone profit after tax was ₹17,034 crore, up 112%, on a crude realisation of $99.45 a barrel. Oil India's was ₹2,870 crore, against ₹813 crore a year earlier, on $98.73.</p>
+
+<div class="chart">
+  <div class="c-title">One quarter earned more than half of a whole year</div>
+  <div class="c-sub">Standalone (E&amp;P company) PAT, ₹ crore. FY26 = year to Mar 2026; Q1 FY27 = Apr–Jun 2026. Source: screener.in standalone pages, 22 Oct 2026; sums are of company rows</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY26 full year<small>ONGC 32,894 + OIL 4,455</small></div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">37,349</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27 alone<small>ONGC 17,034 + OIL 2,870</small></div><div class="track"><span class="fill brand" style="width:53.3%"></span></div><div class="bval">19,904</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY26<small>year-ago quarter</small></div><div class="track"><span class="fill gold" style="width:23.7%"></span></div><div class="bval">8,837</div></div>
+  </div>
+  <div class="legend"><span>Q1 FY27 standalone PAT was up 125% on the year-ago quarter and equal to 53% of all of FY26.</span></div>
+</div>
+
+<p>But a reader who looks only at the consolidated numbers would see the opposite story. ONGC owns 54.90% of Hindustan Petroleum (HPCL), a refiner and fuel retailer whose pump prices were held while its crude costs soared. HPCL lost ₹12,265 crore in Q1 FY27. ONGC's consolidated profit before minority interest therefore fell to ₹6,554 crore, even as its E&amp;P business doubled its earnings. Oil India's refinery, Numaligarh Refinery (NRL), has no retail arm, so it gained from wide refining margins: its gross refining margin (GRM) hit $35.95 a barrel. The same oil shock helped one listed producer twice and the other only once, once the subsidiary layers are added in.</p>
+
+<div class="chart">
+  <div class="c-title">Q1 FY27: the E&amp;P layer and the subsidiary layer moved in opposite directions</div>
+  <div class="c-sub">₹ crore, PAT before minority interest. Subsidiary layer = consolidated minus standalone (HPCL, MRPL, ONGC Videsh, OPaL and NRL, before inter-company eliminations; derived). Source: screener.in, 22 Oct 2026</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">E&amp;P layer<small>standalone ONGC + OIL</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">+19,904</div></div>
+    <div class="bar-row"><div class="blab">Subsidiary layer<small>ONGC −10,480; OIL +1,157</small></div><div class="track"><span class="fill bad" style="width:46.8%"></span></div><div class="bval">−9,323</div></div>
+    <div class="bar-row"><div class="blab">Consolidated total<small>pre-minority</small></div><div class="track"><span class="fill ink" style="width:53.2%"></span></div><div class="bval">+10,581</div></div>
+  </div>
+  <div class="legend"><span>Red bar is a loss, drawn to scale. Attributable to shareholders the consolidated figure is about ₹15,530 crore, because outside shareholders of HPCL absorb about 45% of its loss.</span></div>
+</div>
+
+<p>Both companies are still at Q1 FY27 as their latest print, and both FY26 annual reports are out. Neither has announced a board date for Q2 FY27 (the September 2026 quarter) as of 22 October 2026. Last year the Q2 boards met between about 10 and 17 November, and the SEBI deadline this year is 14 November 2026. Two subsidiaries have already reported Q2: MRPL on 14 October (consolidated PAT ₹1,901 crore) and HPCL on 22 October (consolidated PAT ₹3,625 crore, back in profit). Section 21 lists what to look for.</p>
+
+<p>This report is built around five forces:</p>
+<ul class="clean">
+  <li><strong>Price, filtered through a weak rupee.</strong> Realisation in dollars per barrel is the master variable. Costs are mostly in rupees, so with the rupee near ₹94.9 to the dollar (against an FY26 average of ₹88.31), each dollar of crude is worth about 7% more in rupees than a year ago (sections 3 and 14).</li>
+  <li><strong>The state's claw-back toolkit.</strong> Subsidy sharing in 2003–2015, the windfall tax (SAED) of 2022–24, the APM gas cap, royalty and cess, and dividends to a 57–59% government shareholder decide how much of a spike the producer keeps (sections 4 and 5).</li>
+  <li><strong>The volume problem.</strong> India's crude output has fallen from 32.2 million tonnes in FY20 to 27.9 million tonnes in FY26. KG-98/2, the Mumbai High redevelopment with bp, Oil India's Assam and Rajasthan push and reserve replacement are the counter-moves (section 6).</li>
+  <li><strong>Two-layer consolidation.</strong> ONGC's E&amp;P layer sits under HPCL, MRPL, ONGC Videsh (OVL) and OPaL; Oil India's sits under NRL, which is tripling capacity from 3 to 9 million tonnes a year (section 9).</li>
+  <li><strong>Policy reset and capital allocation.</strong> OALP and HELP acreage rounds, the Oilfields Amendment Act 2025, the Petroleum and Natural Gas Rules 2025, the ₹84,084 crore Samudra Manthan offshore exploration scheme, record dividends, capex and the energy transition (sections 11 and 12).</li>
+</ul>
+
+<div class="mini-stats">
+  <div class="ms"><div class="msv">88.7%</div><div class="msl">India's crude import dependence in FY26 (consumption basis, PPAC). Domestic barrels supply only about one-tenth of refinery runs.</div></div>
+  <div class="ms gold"><div class="msv">$7.00</div><div class="msl">The FY27 cap on legacy (APM) gas per mmBtu, about ₹664 at ₹94.9/$, against an October 2026 formula price of $11.22 (about ₹1,065).</div></div>
+  <div class="ms red"><div class="msv">−13%</div><div class="msl">Fall in India's crude and condensate output, FY20 to FY26 (32.2 to 27.9 MMT).</div></div>
+</div>
+
+<p>The market's verdict is a deep state-owned discount. On 22 October 2026 ONGC traded at ₹225 (market cap ₹2,83,395 crore), 6.48 times trailing attributable earnings and 0.76 times book, with a 5.89% dividend yield. Oil India traded at ₹457 (₹74,467 crore), 8.91 times earnings and 1.28 times book, with a 2.52% yield. Together they are worth ₹3.58 lakh crore, about 7.45 times their FY26 attributable profit. Those multiples sit next to other state-controlled producers such as CNOOC (6.8 times) and Petrobras (7.4 times) and far below Equinor, Saudi Aramco and ExxonMobil. The discount reflects the policy risk, the falling volumes and the refinery exposure, all of which this report examines.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>ONGC and Oil India sell oil at world prices and pay costs in rupees, so a jump in crude and a weaker rupee both lift their profits sharply. What they are allowed to keep depends on the government, which has in the past taken most of any spike through discounts or a special tax. In 2026 it chose not to tax domestic crude, which is why both companies just had record quarters. The open questions are whether that holds, whether their ageing fields can be made to grow again, and how much their refining subsidiaries cost or add along the way.</p>
+</div>
+</section>
+
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>How a barrel becomes profit: from licence to refinery gate</h2></div>
+<p class="part-sub">An upstream company finds hydrocarbons, lifts them and sells them at the wellhead. Almost everything that decides its margin happens before and after that sale.</p>
+
+<p>An E&amp;P company does five things. It secures acreage: a licence from the government to explore a block of land or sea. It explores, by shooting seismic surveys and drilling exploratory wells, most of which in frontier areas find nothing commercial. When it does find something, it develops the field by building platforms, pipelines, processing plants and production wells. It then produces, lifting crude and gas and separating them, and finally it sells. In India that last step is unusually constrained. Domestic crude is sold to designated public-sector refiners such as HPCL, IOC, BPCL, MRPL and CPCL under Crude Oil Sales Agreements (COSA), at a formula price based on Brent plus or minus a quality adjustment. Gas from old fields is sold into the national grid at a price set monthly by the government and allocated to city gas, fertiliser and power consumers.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The Indian upstream value chain: who earns what along the way</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Step 1 · Acreage</div><div class="nname">Licence or contract</div><div class="nwho">Nomination fields (pre-1999), NELP profit-sharing PSCs, HELP/OALP revenue-sharing blocks, small-field (DSF) rounds.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Step 2 · Explore</div><div class="nname">Seismic &amp; wells</div><div class="nwho">A deepwater exploratory well costs ₹800–1,000 Cr. Dry wells are written off as they happen.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Step 3 · Develop &amp; produce</div><div class="nname">Platforms, wells, plants</div><div class="nwho">Heavy capex; fields decline 5–7% a year offshore without new work.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Step 4 · Sell</div><div class="nname">Crude, gas, VAP</div><div class="nwho">Crude at Brent-linked COSA prices; gas at APM, new-well or HP-HT prices; LPG, naphtha, C2-C3.</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Step 5 · The state's cut</div><div class="nname">Royalty, cess, tax, dividend</div><div class="nwho">Royalty to the Centre or states, 20% OIDB cess on nomination crude, corporate tax, then dividends to a 57–59% owner.</div></div>
+  </div>
+  <div class="flow-note">Steps 1–3 decide volume and cost. Step 4 sets the gross price, mostly abroad. Step 5 decides how much of that price stays with shareholders. Refining and marketing (HPCL, MRPL, NRL) sit downstream of this chain inside the consolidated accounts.</div>
+</div>
+
+<p>The products are more varied than the label "oil company" suggests. ONGC's FY26 standalone revenue of ₹1,32,508 crore (company basis) was 63% crude and condensate (₹83,810 crore on 18.79 million tonnes sold), 27% natural gas (₹36,330 crore on 15.49 billion cubic metres sold), and 9% value-added products (₹11,879 crore): LPG, naphtha, ethane-propane (C2-C3) and kerosene stripped out of the gas stream at its Hazira, Uran and Dahej plants. Oil India is simpler: crude from Upper Assam and Arunachal, gas from Assam and Rajasthan, a little LPG and condensate, and tariff income from its crude and product pipelines in the North-East.</p>
+
+<div class="chart">
+  <div class="c-title">What ONGC actually sells</div>
+  <div class="c-sub">ONGC standalone revenue from operations FY26 by product, % of ₹1,32,508 crore. Source: ONGC Integrated Annual Report 2025-26</div>
+  <div class="stack-row"><div class="blab">ONGC FY26</div><div class="stack"><span style="width:63.2%;background:var(--brand)">Crude 63%</span><span style="width:27.4%;background:var(--wtg)">Gas 27%</span><span style="width:9%;background:var(--gold)">VAP 9%</span><span style="width:0.4%;background:var(--ink-faint)"></span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Crude &amp; condensate ₹83,810 Cr</span><span><i style="background:var(--wtg)"></i>Natural gas ₹36,330 Cr</span><span><i style="background:var(--gold)"></i>Value-added products ₹11,879 Cr</span><span><i style="background:var(--ink-faint)"></i>Other ₹490 Cr</span></div>
+</div>
+
+<p>The legal form of the acreage matters for every later number. About 79% of India's crude still comes from <strong>nomination</strong> fields, the blocks handed to ONGC and OIL before 1999 without competitive bidding. Nomination crude pays royalty (roughly 20% of wellhead value onshore and 10% offshore) plus an Oil Industry Development Board (OIDB) cess of 20% ad valorem and a small National Calamity Contingent Duty of ₹50 a tonne. Nomination gas is sold under the Administered Pricing Mechanism (APM). <strong>Production-sharing contracts</strong> (PSCs) under the pre-NELP and NELP rounds let the operator recover costs before splitting "profit petroleum" with the government. The <strong>Hydrocarbon Exploration and Licensing Policy</strong> (HELP, 2016) and its Open Acreage Licensing Policy (OALP) rounds replaced this with simpler revenue-sharing contracts and gave the operator pricing and marketing freedom.</p>
+
+<div class="chart">
+  <div class="c-title">Most of India's crude still comes from blocks awarded before 1999</div>
+  <div class="c-sub">India crude and condensate production by contract regime, FY26, million tonnes. Nomination includes about 1 MMT of condensate. Source: PPAC Ready Reckoner FY2025-26</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Nomination<small>ONGC 16.8 + OIL 3.4 + condensate</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">21.2</div></div>
+    <div class="bar-row"><div class="blab">Pre-NELP PSCs<small>Rajasthan, PMT, Ravva</small></div><div class="track"><span class="fill wtg" style="width:17.5%"></span></div><div class="bval">3.7</div></div>
+    <div class="bar-row"><div class="blab">NELP PSCs<small>incl. KG-D6</small></div><div class="track"><span class="fill om" style="width:13.9%"></span></div><div class="bval">2.94</div></div>
+    <div class="bar-row"><div class="blab">Small fields (DSF)</div><div class="track"><span class="fill gold" style="width:0.6%"></span></div><div class="bval">0.03</div></div>
+    <div class="bar-row"><div class="blab">OALP blocks</div><div class="track"><span class="fill gold" style="width:0.5%"></span></div><div class="bval">0.02</div></div>
+  </div>
+  <div class="legend"><span>Ten years after HELP, the new-regime blocks produce almost nothing yet. India's output is still the legacy fields of its two state producers.</span></div>
+</div>
+
+<p>Where is value captured? At the wellhead, when crude prices are high, but only on crude. The two producers' standalone operating margins run at 30–61% of revenue, after royalty and cess have already taken about a fifth of gross sales. Gas value is captured mostly by consumers, because the APM cap holds legacy gas below its formula price whenever oil is above roughly $70. Refining margins are captured by integrated owners only when pump prices are allowed to move: in 2026 HPCL's marketing arm bled while standalone refiners without pumps (MRPL, NRL) earned windfall margins. And the exchequer captures a large share at every step: the petroleum sector contributed ₹4,75,719 crore to the central exchequer in FY26, 14% of the Centre's revenue receipts, and ₹3,41,821 crore to the states (PPAC). ONGC alone contributed ₹55,865 crore in FY26, equal to 42.2% of its turnover.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The oil itself is priced off Brent, but the gas is priced by the government, and the old fields that produce most of both pay a heavy royalty and a 20% cess before the company sees a rupee of profit. A company that finds new oil under the newer contracts keeps more of each barrel; a company living off fields awarded fifty years ago keeps less. ONGC and Oil India are mostly the second kind, which is why their margins move so strongly with policy.</p>
+</div>
+
+<p>One more structural feature shapes the numbers: neither company competes with imports on price. Both domestic and imported crude are priced off international benchmarks, so a domestic barrel is simply an imported barrel that did not need shipping through the Strait of Hormuz. That makes domestic production strategically valuable to the state in a crisis year like 2026, which strengthens the argument for letting producers keep their windfall and fund more drilling. It also means the producers have no pricing power of their own: they are price-takers on crude and policy-takers on gas.</p>
+</section>
+
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>Size, decline and the import gap: a shrinking share of a growing bill</h2></div>
+<p class="part-sub">India refines more than 5 million barrels a day and produces barely 0.6 million. The gap is widening every year.</p>
+
+<p>India is the world's third-largest oil consumer but a minor producer. Its refineries processed 272.1 million tonnes of crude in FY26, about 5.46 million barrels a day, while domestic fields produced 27.9 million tonnes of crude and condensate, about 0.56 million barrels a day and roughly 0.6% of world supply. Crude import dependence on a consumption basis rose from 84.4% in FY21 to 88.7% in FY26, and was 88.1% in the first half of FY27 (PPAC). Gas is less import-dependent at about 50%, but domestic gas output has also slipped: 36.4 billion cubic metres (BCM) gross in FY24, 34.8 BCM in FY26 and down 4.4% in H1 FY27.</p>
+
+<div class="chart">
+  <div class="c-title">India's crude output has fallen six years out of seven</div>
+  <div class="c-sub">India crude oil plus condensate production, million tonnes. FY = April–March. Source: PPAC Ready Reckoner FY2025-26, Table 2.5B</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY20</div><div class="track"><span class="fill brand" style="width:92%"></span></div><div class="bval">32.2</div></div>
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill brand" style="width:87.1%"></span></div><div class="bval">30.5</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill brand" style="width:84.9%"></span></div><div class="bval">29.7</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill brand" style="width:83.4%"></span></div><div class="bval">29.2</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:84%"></span></div><div class="bval">29.4</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:82%"></span></div><div class="bval">28.7</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill bad" style="width:79.7%"></span></div><div class="bval">27.9</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 35 MMT. India produced about 37.5 MMT in FY12. H1 FY27 output was 13.7 MMT, down 3.5% on H1 FY26.</span></div>
+</div>
+
+<p>The decline is not evenly spread. Western Offshore, home to Mumbai High and the Bassein, Heera and Neelam fields, produced 11.9 million tonnes in FY26 against 14.9 million in FY20. Rajasthan, where Cairn's Mangala field once ran at 175,000–200,000 barrels a day, fell from 6.65 million tonnes to 2.95 million. The only bright spots were Eastern Offshore, which rose from 0.56 million tonnes to 2.73 million on the back of ONGC's KG-98/2 deepwater block, and Assam, where Oil India lifted output from 4.09 to 4.42 million tonnes for the region. By company, ONGC's nomination share of national crude has stayed around 60% while OIL's rose from 9.6% in FY20 to 12.2% in FY26, because OIL is the only producer whose fields have grown.</p>
+
+<div class="chart">
+  <div class="c-title">Who produced India's crude in FY26</div>
+  <div class="c-sub">Share of 27.9 MMT crude and condensate, FY26, by producer category. Nomination volumes only for ONGC and OIL; their joint-venture shares sit in PSC/RSC. Source: PPAC Ready Reckoner FY26, Table 2.5B</div>
+  <div class="stack-row"><div class="blab">FY26 crude, 27.9 MMT</div><div class="stack"><span style="width:60.2%;background:var(--brand)">ONGC 60%</span><span style="width:12.2%;background:var(--gold)">OIL 12%</span><span style="width:20.4%;background:var(--wtg)">PSC/RSC 20%</span><span style="width:7.2%;background:var(--ink-faint)">Cond.</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>ONGC nomination 16.8 MMT</span><span><i style="background:var(--gold)"></i>OIL nomination 3.4 MMT</span><span><i style="background:var(--wtg)"></i>PSC/RSC (Cairn, RIL-bp, JV shares) 5.7 MMT</span><span><i style="background:var(--ink-faint)"></i>Condensate 2.0 MMT</span></div>
+</div>
+
+<p>The import bill is where the decline hurts the country. India imported 245.8 million tonnes of crude in FY26 for $123.4 billion, an average of $68.49 a barrel, and its net oil and gas import bill was $119.1 billion. In H1 FY27 the crude bill alone was $90.6 billion, up 46% on H1 FY26, despite lower volumes. Domestic crude is worth roughly a tenth of the import bill, about $14 billion at FY26 prices. At Q2 FY27 prices of around $96 a barrel and ₹95 to the dollar, every extra million tonnes of domestic crude saves roughly $0.7 billion of imports a year (indicative arithmetic). That is the national-interest case for the exploration push described in section 11.</p>
+
+<div class="chart">
+  <div class="c-title">Import dependence keeps creeping up</div>
+  <div class="c-sub">Crude oil import dependence, % of consumption. Source: PPAC Ready Reckoner FY26 and PPAC monthly data</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill wtg" style="width:84.4%"></span></div><div class="bval">84.4%</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill wtg" style="width:85.5%"></span></div><div class="bval">85.5%</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill wtg" style="width:87.4%"></span></div><div class="bval">87.4%</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill wtg" style="width:87.8%"></span></div><div class="bval">87.8%</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill wtg" style="width:88.2%"></span></div><div class="bval">88.2%</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:88.7%"></span></div><div class="bval">88.7%</div></div>
+    <div class="bar-row"><div class="blab">H1 FY27</div><div class="track"><span class="fill brand" style="width:88.1%"></span></div><div class="bval">88.1%</div></div>
+  </div>
+</div>
+
+<p>Gas tells a slightly different story. India's gross gas output rose from 28.7 BCM in FY21 to 36.4 BCM in FY24, almost entirely because RIL and bp revived the KG-D6 deepwater block with new fields. ONGC's own gas fell every year over the same period, from 21.9 BCM to 18.5 BCM, and OIL's edged up from 2.5 to 3.1 BCM. Gas consumption was 68.75 BCM in FY26, down 3.6%, and fell 6.7% year on year in September 2026 as spot LNG became unaffordable. The government's aim of raising gas to 15% of India's primary energy by 2030, from 6.13% in 2025, depends on domestic output that is currently going the wrong way.</p>
+
+<div class="chart">
+  <div class="c-title">ONGC's gas has fallen for five straight years; OIL's has edged up</div>
+  <div class="c-sub">Gross gas production, million standard cubic metres (MMSCM). Company nomination scope as reported by PPAC (differs from ONGC's own 19.53 BCM, which uses a different scope). Source: PPAC Ready Reckoner FY26, Table 3.5</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">ONGC FY21</div><div class="track"><span class="fill brand" style="width:97.2%"></span></div><div class="bval">21,872</div></div>
+    <div class="bar-row"><div class="blab">ONGC FY23</div><div class="track"><span class="fill brand" style="width:88.8%"></span></div><div class="bval">19,969</div></div>
+    <div class="bar-row"><div class="blab">ONGC FY26</div><div class="track"><span class="fill brand" style="width:82.1%"></span></div><div class="bval">18,481</div></div>
+    <div class="bar-row"><div class="blab">OIL FY21</div><div class="track"><span class="fill gold" style="width:11%"></span></div><div class="bval">2,480</div></div>
+    <div class="bar-row"><div class="blab">OIL FY23</div><div class="track"><span class="fill gold" style="width:13.5%"></span></div><div class="bval">3,041</div></div>
+    <div class="bar-row"><div class="blab">OIL FY26</div><div class="track"><span class="fill gold" style="width:13.8%"></span></div><div class="bval">3,099</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 22,500 MMSCM. Private and joint-venture gas (mostly KG-D6) rose from 4,321 to 13,195 MMSCM over the same years.</span></div>
+</div>
+
+<p>In money terms, the sub-sector is modest by revenue and large by profit. The two producers' standalone revenue was ₹1,52,986 crore in FY26 (down 0.9%), with operating profit (screener basis) of ₹67,782 crore and PAT of ₹37,349 crore (down 10.5%). Including their refining, overseas and petrochemical subsidiaries, consolidated revenue was ₹6,41,744 crore, operating profit ₹1,13,566 crore and PAT before minorities ₹57,344 crore (up 26%), of which about ₹48,044 crore was attributable to shareholders. Overseas, ONGC Videsh produced 9.67 million tonnes of oil equivalent (MMTOE) in FY26 and Indian companies together 19.2 MMTOE abroad.</p>
+
+<p>The forecast is flat. ICRA expected India's FY27 crude output at 28.0–28.5 million tonnes in March 2026; with H1 down 3.5%, a full year near 27–27.5 million tonnes is more likely (indicative). Company guidance implies ONGC standalone production rising about 1–3% a year to FY28 (from 38.87 to about 40 MMTOE) and Oil India growing faster, to a stretch target of 10–12 MMTOE by FY30 from 6.64. No large national increase is plausible before FY29 without a major deepwater discovery, which is what Samudra Manthan is designed to find.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>India buys almost nine of every ten barrels it uses, and the share it produces itself keeps shrinking because the big old fields are running down faster than new ones replace them. For the two producers that is a volume problem, but in a year of $100 oil it also makes every domestic barrel more valuable to the country, which helps explain why the government let them keep more of the price this time.</p>
+</div>
+</section>
+
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>The 2026 price shock: a war, a weak rupee and a record quarter</h2></div>
+<p class="part-sub">Realisation per barrel is the master variable. In 2026 it rose by half in a single quarter, and the rupee added another 7%.</p>
+
+<p>The West Asia war that began on 28 February 2026 disrupted shipping through the Strait of Hormuz, the route for a large share of India's crude, LPG and LNG imports. A ceasefire around 7 April did not fully reopen transits. The Indian crude basket, which PPAC redefined from March 2026 to track the crude India actually imports each month, jumped from $69.01 in February to $113.49 in March and $114.48 in April. It eased to $83.22 in June and $82.04 in July, rose to $90.19 in August and spiked again to $116.09 in September. October to date (to the 21st) averaged $120.09, with a spot price of $116.73 on 21 October and an unusually sour-heavy mix. Brent, on EIA's dated series, averaged $103.28 in Q1 FY27 and $96.33 in Q2 FY27.</p>
+
+<div class="chart">
+  <div class="c-title">The Indian crude basket in 2026: two spikes and a plateau</div>
+  <div class="c-sub">Indian basket, $/bbl, monthly average. October = 1–21 Oct 2026. Source: PPAC international-price service, posted 22 Oct 2026</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Jan 2026</div><div class="track"><span class="fill ink" style="width:50.5%"></span></div><div class="bval">63.08</div></div>
+    <div class="bar-row"><div class="blab">Feb 2026</div><div class="track"><span class="fill ink" style="width:55.2%"></span></div><div class="bval">69.01</div></div>
+    <div class="bar-row"><div class="blab">Mar 2026<small>war from 28 Feb</small></div><div class="track"><span class="fill bad" style="width:90.8%"></span></div><div class="bval">113.49</div></div>
+    <div class="bar-row"><div class="blab">Apr 2026</div><div class="track"><span class="fill bad" style="width:91.6%"></span></div><div class="bval">114.48</div></div>
+    <div class="bar-row"><div class="blab">May 2026</div><div class="track"><span class="fill bad" style="width:85%"></span></div><div class="bval">106.23</div></div>
+    <div class="bar-row"><div class="blab">Jun 2026</div><div class="track"><span class="fill gold" style="width:66.6%"></span></div><div class="bval">83.22</div></div>
+    <div class="bar-row"><div class="blab">Jul 2026</div><div class="track"><span class="fill gold" style="width:65.6%"></span></div><div class="bval">82.04</div></div>
+    <div class="bar-row"><div class="blab">Aug 2026</div><div class="track"><span class="fill gold" style="width:72.2%"></span></div><div class="bval">90.19</div></div>
+    <div class="bar-row"><div class="blab">Sep 2026</div><div class="track"><span class="fill bad" style="width:92.9%"></span></div><div class="bval">116.09</div></div>
+    <div class="bar-row"><div class="blab">Oct 2026<small>to 21 Oct</small></div><div class="track"><span class="fill bad" style="width:96.1%"></span></div><div class="bval">120.09</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = $125/bbl. Quarterly averages: Q1 FY27 $101.31, Q2 FY27 $96.11 (basket).</span></div>
+</div>
+
+<p>Put in a longer frame, 2026 is the third episode of $100-plus oil in fifteen years. The basket averaged $111.89 in FY12, $107.97 in FY13 and $105.52 in FY14; it then crashed to $46 by FY16, hit a COVID trough of $44.82 in FY21, rebounded to $93.15 in FY23 after Russia invaded Ukraine, and drifted down to $70.99 in FY26. Each spike was followed by a different policy response, and section 4 shows that those responses, not the spike itself, decided what the producers earned.</p>
+
+<div class="chart">
+  <div class="c-title">Fifteen years of the Indian basket</div>
+  <div class="c-sub">Indian crude basket, annual average, $/bbl, FY12–FY26. Source: PPAC Ready Reckoner FY2025-26</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY12</div><div class="track"><span class="fill bad" style="width:93.2%"></span></div><div class="bval">111.89</div></div>
+    <div class="bar-row"><div class="blab">FY14</div><div class="track"><span class="fill bad" style="width:87.9%"></span></div><div class="bval">105.52</div></div>
+    <div class="bar-row"><div class="blab">FY16</div><div class="track"><span class="fill ink" style="width:38.5%"></span></div><div class="bval">46.17</div></div>
+    <div class="bar-row"><div class="blab">FY19</div><div class="track"><span class="fill gold" style="width:58.2%"></span></div><div class="bval">69.88</div></div>
+    <div class="bar-row"><div class="blab">FY21<small>COVID trough</small></div><div class="track"><span class="fill ink" style="width:37.4%"></span></div><div class="bval">44.82</div></div>
+    <div class="bar-row"><div class="blab">FY23<small>Ukraine</small></div><div class="track"><span class="fill bad" style="width:77.6%"></span></div><div class="bval">93.15</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill gold" style="width:68.8%"></span></div><div class="bval">82.58</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill gold" style="width:65.5%"></span></div><div class="bval">78.56</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill gold" style="width:59.2%"></span></div><div class="bval">70.99</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = $120/bbl. Selected years shown; FY13 $107.97, FY15 $84.16, FY17 $47.56, FY18 $56.43, FY20 $60.47, FY22 $79.18.</span></div>
+</div>
+
+<p>What the producers actually receive is not the basket. Both companies sell at formula prices linked to dated Brent, with a lag and a quality adjustment. ONGC's management describes the formula as "Brent is the base… about 5%… 4% comes to our kitty", which sounds like a premium. The data say otherwise. Against EIA's dated Brent, ONGC realised $1.6–3.8 a barrel below Brent in every quarter with a printed number since Q3 FY25, and Oil India $0.8–4.6 below. The gap was widest in Q1 FY27 ($3.8 for ONGC, $4.6 for OIL) because Brent peaked in April and fell through June, and the pricing lag works against sellers on the way down. In Q2 FY27, with Brent rising from July to September, the gap should narrow.</p>
+
+<div class="chart">
+  <div class="c-title">ONGC's realisation runs just below Brent, not above it</div>
+  <div class="c-sub">ONGC standalone crude realisation vs EIA dated Brent, quarterly average, $/bbl. Realisation from ONGC earnings-call transcripts; Brent quarterly averages calculated from EIA monthly data</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q3 FY25<small>Brent 74.61</small></div><div class="track"><span class="fill brand" style="width:66%"></span></div><div class="bval">72.57</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY26<small>Brent 68.01</small></div><div class="track"><span class="fill brand" style="width:60.1%"></span></div><div class="bval">66.13</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY26<small>Brent 68.97</small></div><div class="track"><span class="fill brand" style="width:61.2%"></span></div><div class="bval">67.34</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY26<small>Brent 63.63</small></div><div class="track"><span class="fill brand" style="width:56%"></span></div><div class="bval">61.63</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27<small>Brent 103.28</small></div><div class="track"><span class="fill bad" style="width:90.4%"></span></div><div class="bval">99.45</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY27 (indicative)<small>Brent 96.33</small></div><div class="track"><span class="fill gold" style="width:85.5%"></span></div><div class="bval">~93–95</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = $110/bbl. The Q2 FY27 figure is an INDICATIVE read-across (Brent minus $1–3), not a reported number.</span></div>
+</div>
+
+<p>The rupee amplifies everything. Realisations are in dollars, while most costs (salaries, domestic contracts, depreciation on rupee assets) are in rupees. The rupee averaged ₹84.57 to the dollar in FY25 and ₹88.31 in FY26; it was ₹95.46 in September 2026 and about ₹94.9 on 19 October, near a record low of ₹96.8. A move from ₹88.3 to ₹94.9 raises the rupee value of every barrel by about 7.5%. As an illustration: ONGC's Q1 FY26 realisation of $66.13 at roughly ₹86 was worth about ₹5,690 a barrel; Q1 FY27's $99.45 at roughly ₹94.5 was worth about ₹9,400, a 65% rise in rupees against a 50% rise in dollars (indicative FX).</p>
+
+<p>The shock reached beyond crude. LPG consumption fell 14.9% in H1 FY27 as Gulf supply was disrupted, while petrol rose 7.0% and diesel 4.9%. Spot gas on the Indian Gas Exchange averaged $28.4 per mmBtu in September 2026, pricing imported LNG out of power and industry. Freight and insurance costs rose. The government responded with an excise cut on petrol and diesel from 26 March (to ₹11.90 and ₹7.80 a litre), export levies on diesel and ATF from 27 March, and four pump-price increases in May. On the macro side, the RBI raised the repo rate to 5.50% on 7 October 2026 and the Nifty closed at 22,780 on 28 September.</p>
+
+<div class="chart">
+  <div class="c-title">Q1 FY27: the oil sector split in two</div>
+  <div class="c-sub">Profit after tax by segment, Q1 FY27 (Apr–Jun 2026), ₹ crore. PSU upstream/midstream includes ONGC, OIL and GAIL standalone. Source: PPAC Snapshot of India's Oil &amp; Gas data, Oct 2026</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">PSU upstream &amp; midstream</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">+24,196</div></div>
+    <div class="bar-row"><div class="blab">Reliance Industries</div><div class="track"><span class="fill om" style="width:54.9%"></span></div><div class="bval">+13,272</div></div>
+    <div class="bar-row"><div class="blab">PSU standalone refiners<small>MRPL, CPCL, NRL</small></div><div class="track"><span class="fill wtg" style="width:13.4%"></span></div><div class="bval">+3,237</div></div>
+    <div class="bar-row"><div class="blab">PSU oil marketing cos<small>IOC, BPCL, HPCL</small></div><div class="track"><span class="fill bad" style="width:75%"></span></div><div class="bval">−18,150</div></div>
+  </div>
+  <div class="legend"><span>Red bar is a loss. Upstream gained almost exactly what the fuel retailers lost. For the retailers' side of this story see the <a href="refining.html">refining sub-sector report</a>.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>When oil jumps, the producers' revenue jumps with it, but their costs barely move, so profit rises much faster than price. A weaker rupee adds a second boost because the oil is sold in dollars. In the June 2026 quarter both effects arrived together and nothing was taken away by a new tax, which is why profit doubled. The same shock hit the government-owned fuel retailers in reverse, because they could not raise pump prices fast enough.</p>
+</div>
+
+<p>What does this mean for the September quarter? The basket averaged $96.11 in Q2 FY27 and Brent $96.33. Given the consistent $1–4 discount to dated Brent, expect ONGC and Oil India to report realisations of roughly $93–95 a barrel, about $5 below Q1 (indicative read-across). APM gas stayed capped at $7.00 throughout the quarter. Standalone profits should therefore be strong again but below Q1, while ONGC's consolidated profit should swing up because HPCL returned to a ₹3,625 crore profit. October's $120 basket points to a stronger Q3 if it holds, and also to a higher risk that the government revisits its decision not to tax domestic crude.</p>
+</section>
+
+<!--CONTINUE-->
+
+</main>
+</div>
+</div>
+</body>
+</html>
