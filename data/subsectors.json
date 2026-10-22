@@ -1022,6 +1022,23 @@
         "Portfolio surgery & the parent's take"
       ],
       "published": "2026-10-22"
+    },
+    {
+      "name": "City Gas & LNG",
+      "slug": "gas-distribution",
+      "file": "gas-distribution.html",
+      "sector": "Gas Transmission",
+      "subsector": "LPG/CNG/PNG/LNG Supplier",
+      "companies": 5,
+      "accent": "#937B1A",
+      "hook": "Cheap gas fades, the tolls cash in: how India's city-gas utilities lost margin per cubic metre as cheap domestic gas was rationed and the 2026 West Asia war lifted LNG costs, while the LNG and LPG terminal operators booked record profits, and which KPIs show who is winning.",
+      "tags": [
+        "The cheap-gas squeeze",
+        "CNG vs EVs and petrol",
+        "War, Qatar & LNG",
+        "LPG & liquid terminals"
+      ],
+      "published": "2026-10-22"
     }
   ],
   "universe": [
@@ -1473,7 +1490,7 @@
       "sector": "Gas Transmission",
       "sub": "LPG/CNG/PNG/LNG Supplier",
       "companies": 5,
-      "report": null
+      "report": "gas-distribution.html"
     },
     {
       "sector": "Gas Transmission",
