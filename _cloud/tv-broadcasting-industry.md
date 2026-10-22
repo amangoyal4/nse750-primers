@@ -1131,3 +1131,511 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
 - **Zee warrants:** https://hdfcsky.com/news/zeel-share-price-falls-4percent-after-rs3143-cr-fundraise-plan · https://www.angelone.in/news/stocks/zee-entertainment-share-price-falls-over-3-percent-after-rs-3143-5-crore-promoter-warrant-issue
 - **Star v Zee ICC claim:** https://www.afaqs.com/news/media/zee-dismisses-star-indias-940-million-damage-claim · https://www.socialsamosa.com/media-samosa/star-india-claims-940-mn-zee-failed-icc-media-rights-deal-7087130
 - **Zee Q3 FY26:** https://storyboard18.com/advertising/zee-q3-fy26-subscription-revenue-rises-to-rs-1050-crore-ad-revenue-falls-9-88116.htm
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (22-Oct-2026)
+
+Second, primary-source pass for the writer. It **corrects** Parts 1–3 (see 4.0, which the writer must apply) and **upgrades** the figures that carry the argument to [V] wherever a company filing, regulator/government page, RIL release or the FICCI-EY report itself was fetched and read this session. Scratch notes: `/tmp/tv-broadcasting-deep/notes.md`.
+
+**What was read in full or in the relevant sections (all fetched 22-Oct-2026):**
+- **Sun TV:** FY26 Annual Report (BSE, 232 pp: revenue note, balance sheet, related-party note, contingent liabilities, Sunrisers Leeds note, MD&A); Q1 FY27 results + earnings release (BSE, board 12-Aug-2026); Q2 FY26 results + earnings release (BSE, 14-Nov-2025); Reg 30(11) rumour letter (30-Sep-2026); screener consolidated (FY15–FY26, 13 quarters).
+- **Zee:** Q1 FY27 earnings-call transcript (call 10-Aug-2026, BSE filing 14-Aug-2026); Q1 FY27 earnings update deck (BSE, 10-Aug-2026); Q4 FY26 & FY26 deck; Q2 FY26 deck; FY26 Integrated Annual Report (BSE, 252 pp: litigation notes 36/52, contingent liabilities 34A, commitments); screener.
+- **Network18:** FY26 Annual Report (BSE, 238 pp: MD&A, associates table, Form AOC-1, related parties with JioStar, borrowings, contingent liabilities); Q1 FY27 investor update (NSE archive, 15-Jul-2026); CARE rating rationale (15-Dec-2025); screener.
+- **JioStar:** RIL media releases for Q4 FY26 (24-Apr-2026) and Q1 FY27 (Jul-2026) from ril.com. **RIL had not published Q2 FY27 on ril.com as of 22-Oct-2026** (its financial-reporting page lists Q1 FY27 as the latest).
+- **Industry:** FICCI-EY 2026 report PDF "Stories, scale and impact" (ey.com, 327 pp) and EY press release (24-Mar-2026); TRAI PIR Apr–Jun 2026 via full-text trade articles (medianews4u, indiantelevision; **trai.gov.in failed TLS even with the CA bundle, and WebFetch got HTTP 503**); WPP Media mid-2026 forecast (indiantelevision, 16-Jun-2026); AIR/newsonair (government) on the 12-minute ad-cap removal; indiantelevision on the Television Ratings Policy 2026; outlookbusiness on the Zee warrant allotment.
+- **Not available:** Sun TV and Network18 hold **no earnings calls** (screener lists no concall documents for either; the companies publish only results and earnings releases/investor updates). Their "management guidance" digests below come from the earnings releases, the investor update and the annual-report MD&A. bseindia.com's announcement API returned "Access Denied", but BSE PDF attachments downloaded normally.
+
+**Tags in Part 4:** [V] = fetched and read this session from the named source; [V-sec] = full article from a secondary outlet fetched and read (not the primary document); [V-snip] = search-result summary only; [E] = arithmetic by this supplement; [K] = memory.
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3 — the writer must apply these)
+
+| # | Where in Parts 1–3 | Old value / claim | New value | Source [tag] |
+|---|---|---|---|---|
+| 1 | Header table; trap list; §G | Zee Q1 FY27 results "~11-Aug-2026" | **Results, deck and earnings call all on 10-Aug-2026** (transcript filed 14-Aug) | Zee transcript + deck cover letters, BSE [V] |
+| 2 | §1.1, §4.2(a), C.1, E6, §H1, 2.1 | Sun FY26 advertising "~₹1,150–1,200 Cr [E]" | **Consolidated ₹1,292.41 Cr (FY25 ₹1,445.70 Cr, −10.6%)**; standalone ₹1,154.24 Cr (FY25 ₹1,304.69 Cr, −11.5%). The quarterly prints (₹289.9/292.2/291.9/276.5 Cr) are **standalone** and sum to ₹1,150.5 Cr | Sun FY26 AR, notes 20 & 22 [V] |
+| 3 | E6, 2.1, §H1 | Sun Q2 FY26 ad "n/a" | **₹292.15 Cr vs ₹335.42 Cr (−12.9%)** standalone; Q2 FY25 = ₹335.42 Cr | Sun Q2 FY26 earnings release, 14-Nov-2025 [V] |
+| 4 | E6, 2.1 | Sun Q4 FY26 ad ₹276.0 Cr (Elara) | ₹276.45 Cr (company) | Sun Q1 FY27 earnings release [V] |
+| 5 | §1.1, B4, 2.1, JSON, §3.4 | Sun FY26 cricket income **₹662.1 Cr** (primer) | **Consolidated ₹652.44 Cr** (FY25 ₹641.73 Cr); standalone (SRH + SEC) ₹557.92 Cr; **Sunrisers Leeds added ₹94.52 Cr** (Q2 FY26, PBT ₹22.19 Cr). The ₹422.6 Cr cost figure is unverified | Sun FY26 AR note 22/20; Q2 FY26 release [V] |
+| 6 | §1.1, trap 7, §9 | Sun subscription only as "domestic ₹1,891.7 Cr" | **Total subscription income FY26 ₹1,980.48 Cr (+8.6% from ₹1,823.22 Cr)**; domestic is the bulk (₹1,892 Cr per primer, not re-verified). Movies & rights ₹405.32 Cr (FY25 ₹108.75 Cr). **Revenue mix FY26: subscription 45.7%, ad 29.8%, cricket 15.1%, movies 9.4%** [E from V] | Sun FY26 AR note 22 [V] |
+| 7 | B4, 2.1, §3.3, §3.4, §H12 | Sunrisers Leeds "~100%, ~£100m [K]" / primer "a stake" | **100% of Northern Superchargers Ltd bought from the ECB for GBP 100.5m (₹1,184.99 Cr), effective 28-Jul-2025**, renamed SunRisers Leeds Ltd; accounted as an **asset acquisition (franchise rights, an intangible)**. Investment in standalone books ₹1,190.88 Cr | Sun FY26 AR (Directors' report; consolidated note on SRL) [V] |
+| 8 | 2.1 balance sheet flag | FY26 "fixed assets +₹959 Cr … consistent with Leeds [E; FLAG]" | Confirmed: **other intangibles ₹693 → ₹1,708 Cr and intangibles under development ₹327 → ₹857 Cr** (film rights in production); PPE fell (₹757 → ₹722 Cr) | Sun FY26 AR consolidated balance sheet [V] |
+| 9 | Trap 10, 2.0, 3.2(c), §9.1, §H3 | Sun net cash "≥₹7,715 Cr (floor)"; "borrowings ₹106 Cr" | **Treasury ₹7,832.8 Cr** = current investments ₹6,260.07 Cr (of which MFs ₹5,521.22 Cr, bonds ₹661.10 Cr) + non-current investments ₹1,283.21 Cr + cash ₹243.04 Cr + other bank balances ₹46.49 Cr. **Sun has no borrowings**; screener's "₹106 Cr" is lease liabilities (₹105.93 Cr). Screener's "investments ₹7,821 Cr" includes the **₹277.39 Cr JV** (South Asia FM). **Net cash after leases ≈ ₹7,727 Cr** — the floor was right in size | Sun FY26 AR consolidated balance sheet & note 10.1 [V] |
+| 10 | C.1, 3.1 notes, §3.4 | Sun FY26 exceptional "₹67.9 Cr JV impairment" | **Standalone exceptional ₹102.66 Cr** = JV (South Asia FM) impairment (₹27.44 Cr in Q2) plus Q4 ₹70.98 Cr covering further JV impairment and the labour-code impact. Consolidated split not re-read; keep "₹68 Cr JV impairment" only as the primer's consolidated figure | Sun Q1 FY27 results (FY26 column, note 6); Q2 FY26 results note 8 [V] |
+| 11 | 2.1, 3.2(e) | Sun FY26 DPS ₹12.50 | Confirmed ₹12.50 (four interims: ₹5.00 + ₹3.75 + ₹2.50 + ₹1.25; outgo ₹492.61 Cr); **FY25 DPS was ₹15.00** (the dividend fell 17%) | Sun FY26 AR [V] |
+| 12 | Header item 4; B4; §A5; §3.4 | "Sun **denied** the sports-demerger report" | Sun said the report "**is a rumour and the Company cannot comment on market rumours**", and confirmed there is no pending price-sensitive information. **That is not an explicit denial.** Write "called it a rumour" | Sun Reg 30(11) letter, 30-Sep-2026 [V] |
+| 13 | Trap 3, C.5, 2.2, §H17 | Zee FY26 EBITDA conflict "₹755 vs ₹399 vs ₹346 Cr" | **Resolved:** company-reported EBITDA **₹346.3 Cr (4.3%)**. **Adjusted ₹754.7 Cr (9.3%)** adds back **₹408.4 Cr booked in Q4 FY26 for a change in the estimated amortisation pattern of movie-rights inventory plus additional impairment** (Q4 adjusted ₹139.8 Cr, 6.9%, vs reported −₹268.6 Cr). Screener's ₹399 Cr is a classification variant. FY25 EBITDA was ₹1,196.2 Cr (14.4%) | Zee Q4 FY26 deck p.13 and Q1 FY27 deck p.12 [V] |
+| 14 | E7, 2.2, §H14 | Zee Q2 FY25 ad "~₹844 Cr [E]"; Q1 FY25 "~₹968.7 Cr"; Q1 FY26 YoY "−21.7%"; Q2 FY26 "~₹806 Cr (−4.5%)" | **Q2 FY25 ₹901.7 Cr; Q4 FY25 ₹837.5 Cr** (confirms the estimate); Q1 FY25 ≈ **₹911.3 Cr** (residual from FY25 ₹3,591.1 Cr); so **Q1 FY26 ad −16.8%**, not −21.7%; **Q2 FY26 ₹806.3 Cr = −10.6% YoY** | Zee Q2 FY26 and Q4 FY26 decks [V]; residual [E] |
+| 15 | Trap 10, 2.0, 2.2, 3.2(c), §9.1 | Zee net cash "~₹2,459–2,530 Cr; use ~₹2,500 Cr" | **Cash & treasury ₹2,759.5 Cr at Mar-26** (the primer's ~₹2,760 Cr was right) **→ ₹2,210.9 Cr at Jun-26** (MFs ₹1,180.0 Cr; bank FDs ₹217.2 Cr; subsidiaries' FDs ₹377.2 Cr; bank & other ₹436.4 Cr). Borrowings incl. leases ₹254.6 Cr → **net cash ≈ ₹1,956 Cr (Jun-26)**. Q1 fall was driven by FIFA rights outflows (inventory +₹174 Cr; management). **Add ₹659.76 Cr of warrant money received 21-Aug-2026** → pro-forma ≈ ₹2,616 Cr | Zee Q1 FY27 deck pp.14–15; transcript [V]; warrant cash [V-sec] |
+| 16 | Header item 3; 2.2; §3.4; §H9; JSON | Warrant allotment "unverified"; post-conversion promoter "23.79%" | **20,94,47,805 warrants (of 24,94,85,563 approved) allotted to Sunbright Mauritius on 21-Aug-2026 at ₹126 = ₹2,639 Cr issue; 25% (₹659.76 Cr) received; balance ₹94.50/warrant due by 21-Feb-2028.** On full conversion Sunbright alone ≈ **17.9%** (fully diluted), so promoter group roughly 21% [E]. Zee asked SAT for a one-day extension for ~₹76 Cr that arrived late (hearing 27-Aug; outcome not found) | outlookbusiness (two articles citing Moneycontrol) [V-sec] |
+| 17 | Header item 3; §7.5; §A8 | SAT allowed "dividend use of MF units" | SAT (14-Aug-2026) allowed the warrant issue within a week (subject to depositing the penalty) and allowed **use of MF investments for day-to-day operations, but not for other purposes, including payment of the proposed dividend** | outlookbusiness [V-sec] |
+| 18 | §0, §7.4, §A5, B2, §12, 2.2, §3.4 | Star/JioStar ICC claim **US$940m (~₹8,900 Cr)** | **JioStar raised the claim to US$1.097 billion after the FY26 year-end** (≈ **₹10,410 Cr at ₹94.9 = 1.6× Zee's m-cap**). Zee is filing a rejoinder; first instalment at issue was US$203.56m; Zee seeks a refund of ₹68.5 Cr. **Hearings were held in July 2026**, final written submissions due ~Sep-2026, **outcome "possibly in Q3" FY27** (management, 10-Aug). No provision; not quantified as a contingent liability | Zee FY26 AR note 52; Q1 FY27 transcript [V] |
+| 19 | Header item 2; trap 9; §5.2; 2.3; B3; JSON | Network18 holds "~13.5% of Viacom18 [V-snip]"; Viacom18 holds 46.82% of JioStar; look-through "≈6.3%" | **Studio18 Media Pvt Ltd (formerly Viacom18) is an associate at 16.12% (13.54% on a fully diluted basis, i.e. after the remaining CCPS convert); Studio18 holds 46.61% of JioStar** (CARE's Dec-2025 note still said 46.82%). **Look-through = 7.51% today (equity-accounting basis) / 6.31% fully diluted** | Network18 FY26 AR (p.13; consolidated note list p.171; AOC-1) [V]; CARE PR [V] |
+| 20 | Trap 2; C.3; B3; 2.3 | Associates ₹303.4 Cr "≈ JioStar ~₹203 Cr [E] + BookMyShow/others ~₹100 Cr [E]" | **Studio18 (JioStar) ₹246.50 Cr; Big Tree/BookMyShow ₹37.23 Cr; Eenadu TV ₹17.54 Cr (to 7-Jul-2025); News18 Marathi JV ₹2.11 Cr; Ubona ₹0.04 Cr = ₹303.42 Cr.** Cross-check: JioStar FY26 PAT ₹3,210 Cr × 7.51% ≈ ₹241 Cr [E] | Network18 FY26 AR (consolidation table, AOC-1) [V] |
+| 21 | 2.3; §5.2 | BookMyShow "~39% (Mar-2024 ICRA)" | **39.29%; carrying value ₹351.56 Cr** (cost ₹535.87 Cr) | Network18 FY26 AR [V] |
+| 22 | Trap 10; 2.0; 2.3; 3.2(c) | Network18 "borrowings ₹3,288 Cr; cash n/a" | **Borrowings ₹3,112.84 Cr (CP + bank) + lease liabilities ₹174.87 Cr** (= screener's ₹3,288 Cr); cash ₹38.51 Cr + bank ₹1.17 Cr + current investments ₹124.81 Cr → **net debt ex-leases ≈ ₹2,948 Cr** [E]. Ratings CARE AAA/A1+ (RIL support) | Network18 FY26 AR balance sheet; CARE [V] |
+| 23 | §4.2(c); §6; 9.1 | Network18 revenue "~75–80% advertising [E]" | CARE: **advertising is "over 50%" of total operating income.** Also new: **₹554.65 Cr (26% of FY26 consolidated revenue) came from JioStar (fellow subsidiary)** vs ₹75.96 Cr in FY25; ₹378.11 Cr of expenses were paid to JioStar | CARE PR; Network18 FY26 AR related-party note [V] |
+| 24 | Trap 9; §6; §10; E11; B3 | JioStar FY26 EBITDA "₹4,885 Cr, ~16%" | **EBITDA from operations ₹4,056 Cr (13.1% of ₹31,048 Cr)**; ₹4,885 Cr (15.7%) includes ₹829 Cr investment income. Gross revenue ₹36,248 Cr | RIL Q1 FY27 media release [V] |
+| 25 | E11 | JioStar "Q3 FY26 rev 8,010"; Q2 missing | Q3 FY26 **revenue from operations ₹6,896 Cr** (₹8,010 Cr is gross), EBITDA ₹1,303 Cr, PAT ₹888 Cr. **Q2 FY26 (derived): ops revenue ₹6,179 Cr, EBITDA ₹1,738 Cr, PAT ₹1,322 Cr** — the non-IPL Q2 is JioStar's most profitable quarter | RIL Q4 FY26 & Q1 FY27 releases [V]; Q2 = FY26 − Q1 − Q3 − Q4 [E], matches press [V-snip] |
+| 26 | §2.1; E3; §H7 | TV revenue split (CY, ₹ Cr): 2022 ~70,900; 2023 ~69,600 (ad 30,500/sub 39,100); 2024 ~67,900 (ad ~30,800/sub ~37,100); 2025 ad ~27,600/sub ~34,100 | **2021 73,600; 2022 72,600; 2023 71,100 (ad 31,200 / distribution 39,800); 2024 67,900 (29,400 / 38,500); 2025 61,700 (26,300, −10.3% / 35,400, −8.0%); 2026E 58,700 (24,400 / 34,200); 2028E 53,500 (21,300 / 32,200)** — gross of taxes | FICCI-EY 2026 report PDF, TV chapter [V] |
+| 27 | §0; D; E4 | TV ≈ 18% of the ₹1.5 lakh Cr ad market; "print/radio/OOH/other ~₹27,700 Cr [E residual]" | **Linear TV ad ₹26,300 Cr = 17.5%**; residual non-digital non-TV ≈ ₹29,000 Cr [E]. E-commerce/POS ads alone (₹22,000 Cr) = 85% of linear TV ad | FICCI-EY 2026 PDF; EY press release [V] |
+| 28 | §1.2; §3.1; §11; §H8 | DD FreeDish "~45–50m homes [K]" | **Free TV ≈ 53m homes in 2025 (+4.5m), "larger than active pay DTH"** (48.6m). FreeDish hosted 484 channels (Jan-2026) | FICCI-EY 2026 PDF [V] |
+| 29 | §3.1; §A1; D | Pay-TV homes "~91m [E back-solved]", "~11m lost" | **"Just under 100 million" pay-TV homes in 2025 after losing 11.5m** (includes ~8–10m under-declared/pirated homes); Pay + Connected TV stable at 140m; **total TV homes 193m**; CTV sets ~68m, >40m weekly active | FICCI-EY 2026 PDF [V] |
+| 30 | §4.3; §C; §9.4 | "Ad inventory is regulated: 12 minutes per hour … revenue growth needs rate, not volume" | **The 12-minute (10+2) cap was removed**: MIB announced it 14-Aug-2026 and notified the Cable Television Networks (Amendment) Rules, 2026 (~21–22 Aug, deleting Rule 7(11)); TRAI repealed its matching 2012 regulations on 10-Sep-2026. Volume is now a lever (but TAM AdEx shows TV ad volumes −7% in Jan–Jul 2026 [V-snip]) | newsonair.gov.in (AIR), 23-Aug-2026 [V]; TRAI repeal [V-snip] |
+| 31 | §7.1 | 2024 amendments "carriage-fee framework relaxed (no cap for HD) [K; FLAG]" | Tariff (Fourth Amendment) Order, Interconnection (Sixth Amendment) and QoS (Fourth Amendment) Regulations, **8-Jul-2024**, effective 90 days after gazette: **NCF ceilings of ₹130 (200 channels) / ₹160 removed → forbearance**, with NCF variable by channel count, region and customer class; **HD/SD distinction in carriage fees removed**; installation/visit charges under forbearance; channels free on DD FreeDish may not be declared pay for addressable DPOs (TRAI order upheld by TDSAT per FICCI-EY) | teamleaseregtech summary [V-sec]; FICCI-EY 2026 PDF [V]; search summary [V-snip] |
+| 32 | §1.2; E2; §A1 | Cable "large MSO + HITS 38.3m → 32.5m in nine months" | **Do not build a cable trend from TRAI's MSO numbers: only 127 of 736 MSOs report.** Jun-26: MSO 37.24m, HITS 4.72m (GTPL 3.10m, NXTDIGITAL 1.61m), IPTV 6.21m (Airtel 4.09m, Hathway 1.28m), DTH 48.56m → 96.73m incl. subscribers inactive up to 90 days | TRAI PIR Apr–Jun 2026 via indiantelevision [V-sec] |
+| 33 | E1; §H16 | Pay DTH Jun-25 "56.07 vs 56.92 conflict"; Mar-26 49.05 vs 49.09 | **Jun-25 56.07m** (Jun-26 48.56m = −7.51m, −13.4%). **Mar-26: 49.09m in the Apr–Jun report vs 49.05m in the Jan–Mar report** (TRAI revised). Mar-25 56.92m not re-verified | TRAI PIR via medianews4u/indiantelevision [V-sec] |
+| 34 | §1.2 | "917 permitted channels, 342 pay, 566 FTA (Mar-2026)" | Jun-26: **915 permitted, 906 downlinkable, 342 pay (238 SD/104 HD; 333 a year earlier), 566 FTA**; pay genres: GEC 108, movies 63, news 61, sports 41, kids 24 | TRAI PIR via indiantelevision [V-sec] |
+| 35 | §1.2; §7.2 | BARC panel "~55,000 meters [K]"; TRP Policy details | **Television Ratings Policy 2026 replaces the 2014 guidelines: fresh registration required; ≥33% independent directors; panel to expand to 80,000 metered homes; establishment survey every three years**; under legal challenge | indiantelevision, 2-Jul-2026 [V-sec] |
+| 36 | 2.2 | Zee FY26 tax "~nil" unexplained | FY26 tax includes a **₹96.9 Cr credit from writing off the Margo Networks investment** | Zee FY26 AR note 37 [V] |
+| 37 | 2.2; §B2 | Zee FY26 operational cost etc. | Confirmed: operating ₹4,859.4 Cr; personnel ₹842.4 Cr; A&P ₹1,425.1 Cr; other ₹625.7 Cr (FY25: 4,517.2 / 926.6 / 1,146.6 / 507.5) | Zee Q4 FY26 deck [V] |
+| 38 | §2.4; B3 | JioStar "34%", "530m MAU" [V-snip/V] | Confirmed from RIL: **34% TV entertainment viewership share (810m viewers), 44% HSM pay, 47% kids, JioHotstar 530m average MAU (+15% YoY), IPL 2026 reach 1.2bn (digital 700m)**; Q4 FY26 34.2% / 500m MAU | RIL Q1 FY27 & Q4 FY26 releases [V] |
+| 39 | 9.1; F | Zee network share 17.9% "TG unstated" | **BARC All 15+ Urban**; Q1 FY26 16.8%, Q4 FY26 17.4%, Q1 FY27 17.9% (to week 24 only), week 24 peak 20.0% ("highest in over seven years") | Zee Q1 FY27 deck p.7 [V] |
+| 40 | §1.1 | Zee sports rights "FIFA WC 2026" | **FIFA digital + broadcast rights for 39 events through 2034** (8 years; payments staggered, heavier for the 2030 World Cup); four "Unite8" sports channels launched Jun-2026; Bundesliga + Serie A | Zee Q1 FY27 transcript [V] |
+
+---
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Primary" = the company's own filing, the regulator/government, RIL, or the FICCI-EY report itself. URLs are listed once at the end of Part 4 (4.6); short names are used here.
+
+| # | Figure | Value | Primary source (short name → 4.6) | Fetched? / tag | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Indian linear TV revenue, CY2025 | ₹61,700 Cr (−9%) | FICCI-EY 2026 PDF | Yes [V] | Yes |
+| 2 | TV advertising, CY2025 | ₹26,300 Cr (−10.3%) | FICCI-EY 2026 PDF | Yes [V] | **No** — was ~₹27,600 Cr [E] (Supersede 26) |
+| 3 | TV distribution/subscription, CY2025 | ₹35,400 Cr (−8.0%); ARPU ₹288 (+2.4%) | FICCI-EY 2026 PDF | Yes [V] | **No** — was ~₹34,100 Cr [E] |
+| 4 | TV ad and distribution, CY2024 | ₹29,400 Cr / ₹38,500 Cr (total ₹67,900 Cr) | FICCI-EY 2026 PDF | Yes [V] | Total yes; split **no** |
+| 5 | Linear TV forecast | 2026E ₹58,700 Cr; 2028E ₹53,500 Cr (−5% CAGR) | FICCI-EY 2026 PDF | Yes [V] | New |
+| 6 | Pay-TV homes lost, 2025 | 11.5m, to "just under 100m" | FICCI-EY 2026 PDF | Yes [V] | Roughly (11m; base was ~91m [E]) |
+| 7 | Free TV (DD FreeDish) homes | ~53m (+4.5m in 2025) | FICCI-EY 2026 PDF | Yes [V] | **No** — was 45–50m [K] |
+| 8 | Digital share of ad spend, CY2025 | 63% (₹94,700 Cr of ₹1,50,000 Cr) | EY press release + PDF | Yes [V] | Yes |
+| 9 | TV share of ad spend, CY2025 | 17.5% | FICCI-EY [E from V] | Derived | ~18% before; now exact |
+| 10 | WPP Media 2026 TV ad forecast | −6.8%; total +8.8% to ~₹2 lakh Cr | WPP via indiantelevision (16-Jun-2026) | Yes [V-sec] | Yes |
+| 11 | Pay DTH active subs, Jun-26 | 48.56m (−13.4% YoY from 56.07m) | TRAI PIR Apr–Jun 2026 (via medianews4u/indiantelevision; TRAI site unreachable) | Full article [V-sec] | Yes |
+| 12 | Pay DTH, Mar-26 | 49.09m (Apr–Jun report) / 49.05m (Jan–Mar report) | TRAI PIR | [V-sec] | Conflict explained (revision) |
+| 13 | DTH operator shares, Jun-26 | Tata Play 14.84m (30.6%); Airtel 13.58m (28.0%); Sun Direct 10.93m; Dish TV 9.21m | TRAI PIR | [V-sec] | Tata Play yes; rest new |
+| 14 | 12-minute ad cap | Removed (Cable TV Networks (Amendment) Rules 2026; notified Aug-2026) | newsonair.gov.in (AIR, 23-Aug-2026) | Yes [V] | **No** — §4.3 said cap applies |
+| 15 | Television Ratings Policy 2026 | 80,000 meters; ≥33% independent directors; fresh registration; ratings suspended since Jul-2026; no resumption found to 22-Oct | indiantelevision 2-Jul-2026; e4m snippets for Sep | [V-sec]/[V-snip] | Yes, with detail |
+| 16 | JioStar FY26 revenue from operations | ₹31,048 Cr (gross ₹36,248 Cr) | RIL Q4 FY26 & Q1 FY27 releases | Yes [V] | Yes (was V-snip) |
+| 17 | JioStar FY26 EBITDA from operations | ₹4,056 Cr (13.1%); ₹4,885 Cr incl. investment income | RIL Q1 FY27 release | Yes [V] | **No** — "~16%" overstated |
+| 18 | JioStar FY26 PAT | ₹3,210 Cr | RIL releases | Yes [V] | Yes |
+| 19 | JioStar Q1 FY27 | Ops revenue ₹10,946 Cr (+14%); op EBITDA ₹933 Cr (8.5%); PAT ₹665 Cr | RIL Q1 FY27 release | Yes [V] | Yes |
+| 20 | JioStar viewership share / MAU | 34% (810m viewers); JioHotstar 530m MAU | RIL Q1 FY27 release | Yes [V] | Yes |
+| 21 | Sun FY26 revenue (consolidated) | ₹4,334.82 Cr (+7.8%) | Sun FY26 AR note 22 | Yes [V] | Yes |
+| 22 | Sun FY26 advertising | ₹1,292.41 Cr cons. (−10.6%); ₹1,154.24 Cr standalone (−11.5%) | Sun FY26 AR notes 20/22 | Yes [V] | **No** — was ~₹1,150–1,200 Cr [E] |
+| 23 | Sun FY26 subscription | ₹1,980.48 Cr (+8.6%) total | Sun FY26 AR note 22 | Yes [V] | Different scope from "domestic ₹1,891.7 Cr" |
+| 24 | Sun Q1 FY27 ad / domestic subscription | ₹282.51 Cr (−2.6%) / ₹485.46 Cr (+3.3%) | Sun Q1 FY27 earnings release | Yes [V] | Yes |
+| 25 | Sun Q1 FY27 cricket income / cost | ₹629.83 Cr / ₹321.17 Cr (SRH + SEC) | Sun Q1 FY27 results note 5 | Yes [V] | Yes |
+| 26 | Sun FY26 cricket income | ₹652.44 Cr cons. (Leeds ₹94.52 Cr) | Sun FY26 AR; Q2 FY26 release | Yes [V] | **No** — was ₹662.1 Cr |
+| 27 | Sun treasury / net cash, Mar-26 | ₹7,833 Cr / ≈₹7,727 Cr after leases; no debt | Sun FY26 AR balance sheet | Yes [V] | Yes in size; basis corrected |
+| 28 | Sunrisers Leeds price | 100%, GBP 100.5m = ₹1,184.99 Cr, from 28-Jul-2025 | Sun FY26 AR | Yes [V] | Was [K] |
+| 29 | Sun OPM FY26 / ROCE | 50% / 16% | screener (22-Oct-2026) | Yes [V] | Yes |
+| 30 | Zee FY26 revenue / ad / subscription | ₹8,098.9 / ₹3,224.3 (−10.2%) / ₹4,079.6 Cr (+3.9%) | Zee Q4 FY26 deck | Yes [V] | Yes |
+| 31 | Zee FY26 EBITDA, reported vs adjusted | ₹346.3 Cr (4.3%) vs ₹754.7 Cr (9.3%); gap ₹408.4 Cr Q4 amortisation-estimate change + impairment | Zee Q4 FY26 & Q1 FY27 decks | Yes [V] | Resolves conflict |
+| 32 | Zee Q1 FY27 | Revenue ₹1,907.3 Cr; ad ₹671.4 Cr (−11%); sub ₹1,136.9 Cr (+16%); EBITDA ₹78.9 Cr (4.1%); PAT ₹74.3 Cr | Zee Q1 FY27 deck + transcript | Yes [V] | Yes (₹74.3 Cr PAT confirmed; ₹76.3 Cr press figure wrong) |
+| 33 | ZEE5 FY26 / Q1 FY27 | Revenue ₹1,488.8 Cr, EBITDA −₹49.0 Cr / ₹457.1 Cr, +₹4.4 Cr | Zee Q1 FY27 deck p.4 (quarterly series) | Yes [V] | Yes (was PL-based) |
+| 34 | Zee cash & treasury | ₹2,759.5 Cr (Mar-26) → ₹2,210.9 Cr (Jun-26) | Zee Q1 FY27 deck | Yes [V] | **No** — ~₹2,724 Cr; net cash now ~₹1,956 Cr |
+| 35 | JioStar claim against Zee | US$1.097bn (raised from US$940m after Mar-26) | Zee FY26 AR note 52 | Yes [V] | **No** — was $940m |
+| 36 | Zee warrants allotted | 20.94 crore at ₹126; ₹659.76 Cr received 21-Aug-2026 | outlookbusiness (citing Moneycontrol/filing) | Full article [V-sec] | Was unverified |
+| 37 | Network18 Studio18 stake / JioStar look-through | 16.12% (13.54% FD) × 46.61% = 7.51% (6.31% FD) | Network18 FY26 AR | Yes [V] | Partly — 13.54% right as FD; look-through basis corrected |
+| 38 | Network18 FY26 share of associates | ₹303.4 Cr (Studio18 ₹246.5 Cr; BMS ₹37.2 Cr; Eenadu ₹17.5 Cr) | Network18 FY26 AR | Yes [V] | Total yes; split new |
+| 39 | Network18 FY26 revenue / op EBITDA / PAT | ₹2,120.8 Cr / ₹43.7 Cr / ₹155.2 Cr (owners ₹152.2 Cr) | Network18 FY26 AR MD&A | Yes [V] | Yes |
+| 40 | Network18 net debt, Mar-26 | Borrowings ₹3,112.8 Cr + leases ₹174.9 Cr; cash & current investments ₹164.5 Cr → ≈₹2,948 Cr ex-leases | Network18 FY26 AR | Yes [V] | Gross yes; net new |
+
+**Count:** **33 of the 40 are [V] from primary sources** (rows 1–8, 14, 16–35, 37–40: the FICCI-EY PDF, a government page, RIL releases, company filings and screener); 1 is [E] derived from [V] (row 9); 6 rest on full secondary articles, partly snippets (rows 10–13, 15, 36). The TRAI rows (11–13) stay [V-sec] only because trai.gov.in would not complete a TLS handshake through the session proxy; the figures come from two independent full-text trade reports that agree with each other.
+
+**Where sources conflict and which to prefer:**
+- **Pay DTH Mar-26 (49.09m vs 49.05m):** both are TRAI; the later report (49.09m) is the revised figure — use it for QoQ, but quote 49.05m only if citing the Jan–Mar report.
+- **JioStar's share of Studio18 (46.61% vs 46.82%):** Network18's FY26 AR (Mar-26) beats CARE (Dec-2025, older). Use 46.61%.
+- **Zee "adjusted" vs reported EBITDA:** both are company numbers; quote reported ₹346 Cr in peer tables, adjusted ₹755 Cr only as "management's adjusted".
+- **Sun cricket income (₹652.4 Cr vs ₹662.1 Cr):** the AR beats the primer; the ₹662.1 Cr figure could not be found in any filing.
+- **Network18 ad share ("over 50%" CARE vs "~75–80%" Part 1):** CARE is the only sourced figure; the company does not disclose a split.
+
+---
+
+## 4.2 Company deep-dives (primary documents)
+
+### 4.2.1 Sun TV Network (SUNTV · 532733)
+
+**Management commentary digest.** Sun holds **no earnings call**; it publishes a short earnings release with each result and an MD&A in the annual report. Nothing below is numeric guidance, because Sun gives none.
+- **Q1 FY27 earnings release (12-Aug-2026)** [V]: headline was revenue +13% to ₹1,423.39 Cr (standalone), EBITDA +19% to ₹732.99 Cr, PAT +16% to ₹611.97 Cr, domestic subscription "up ~3%" to ₹485.46 Cr; advertising ₹282.51 Cr was reported **without a growth rate** (it fell 2.6% YoY; +2% QoQ from ₹276.45 Cr). Cricket income ₹629.83 Cr vs ₹473.03 Cr, cost ₹321.17 Cr vs ₹256.09 Cr. First interim dividend ₹5.00.
+- **Q2 FY26 earnings release (14-Nov-2025)** [V]: revenue +29.86% to ₹1,168.99 Cr (Coolie); EBITDA +41.77% to ₹749.94 Cr; domestic subscription +9.01% to ₹476.09 Cr; ad ₹292.15 Cr vs ₹335.42 Cr (−12.9%); **Sunrisers Leeds' first quarter: revenue ₹94.52 Cr, PBT ₹22.19 Cr**; ₹27.44 Cr JV impairment (South Asia FM).
+- **FY26 AR MD&A (Outlook)** [V]: leadership in Tamil Nadu, Kerala, Karnataka and Andhra Pradesh and a growing footprint in Bangla, Marathi and Hindi; the Leeds franchise "is expected to contribute positively to revenue and profitability"; the company "anticipates improved growth from its cricket franchise and movie production and distribution businesses". Threats named: OTT/digital competition for audiences and ad budgets, shifting advertiser spend to digital. Net profit margin (standalone) 30.05% vs 36.41%.
+- **Rumour letter (30-Sep-2026)** [V]: the CNBC-TV18 report of a "possible demerger of Sun TV's sports division" is "a rumour and the Company cannot comment on market rumours"; no pending price-sensitive information.
+- **Read for the writer:** management talks about cricket and films as the growth engines, not TV. That fits the numbers: FY26 TV advertising fell 10.6% while cricket + movies grew from ₹750 Cr to ₹1,058 Cr [E from AR].
+
+**KPI table (company disclosures)** [V unless tagged]
+
+| ₹ Cr | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | FY25 | FY26 |
+|---|---|---|---|---|---|---|---|
+| Advertising (standalone) | 289.94 | 292.15 | 291.94 [V-snip] | 276.45 | **282.51** | 1,304.69 | 1,154.24 |
+| Ad YoY | −10.4% | −12.9% | −12.1% | ~−11.8% [E] | **−2.6%** | — | −11.5% |
+| Advertising (consolidated) | — | — | — | — | — | 1,445.70 | **1,292.41** |
+| Domestic subscription | 470.12 | 476.09 | ~473.0 [E] | 472.47 | **485.46** | ~1,724 [E] | ~1,892 [primer] |
+| Domestic subscription YoY | +10.4% | +9.0% | — | — | **+3.3%** | — | +9.7% [primer] |
+| Total subscription (consolidated) | — | — | — | — | — | 1,823.22 | **1,980.48 (+8.6%)** |
+| Movie distribution & rights | — | Coolie quarter | — | — | — | 108.75 | **405.32** |
+| Cricket income (consolidated) | 473.03 | 94.52 (Leeds) | — | — | 629.83 (SRH+SEC) | 641.73 | **652.44** |
+| Standalone EBITDA | 617.23 | 749.94 | — | 379.51 | **732.99** | — | — |
+
+Q4 FY25 standalone ad ≈ ₹313.3 Cr is the residual of the FY25 AR total minus Q1 ₹323.8 Cr, Q2 ₹335.42 Cr and Q3 ₹332.2 Cr [E].
+
+**5-year history (screener consolidated, 22-Oct-2026; revenue split from the FY26 AR)** [V]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 3,585 | 3,772 | 4,282 | 4,020 | **4,335** |
+| Operating profit (EBITDA) | 2,279 | 2,393 | 2,638 | 2,129 | **2,183** |
+| OPM % | 64 | 63 | 62 | 53 | **50** |
+| Other income | 256 | 380 | 515 | 642 | 493 |
+| D&A | 306 | 486 | 532 | 541 | 723 |
+| PAT | 1,642 | 1,707 | 1,926 | 1,703 | **1,441** |
+| ROCE % | 27 | 25 | 26 | 20 | **16** |
+| CFO / FCF | 1,634 / 504 | 2,096 / 1,775 | 2,171 / 1,660 | 1,665 / 1,281 | 1,802 / **−409** |
+| Debtor days | 149 | 143 | 107 | 111 | 121 |
+| of which: ad / subscription / movies / cricket (AR) | — | — | — | 1,446 / 1,823 / 109 / 642 | 1,292 / 1,980 / 405 / 652 |
+
+**8-quarter trend (screener consolidated; ad standalone from company releases)** [V]
+
+| Quarter | Revenue | OP | OPM % | PAT | Ad (standalone) | Note |
+|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 936 | 541 | 58 | 409 | 335.42 | — |
+| Q3 FY25 (Dec-24) | 829 | 445 | 54 | 364 | 332.2 [V-snip] | — |
+| Q4 FY25 (Mar-25) | 942 | 414 | 44 | 371 | ~313.3 [E] | SA20 quarter |
+| Q1 FY26 (Jun-25) | 1,290 | 617 | 48 | 529 | 289.94 | IPL 2025 |
+| Q2 FY26 (Sep-25) | 1,300 | 754 | 58 | 355 | 292.15 | Coolie; D&A ₹404 Cr; Leeds consolidated from 28-Jul |
+| Q3 FY26 (Dec-25) | 862 | 420 | 49 | 324 | 291.94 [V-snip] | — |
+| Q4 FY26 (Mar-26) | 883 | 391 | 44 | 232 | 276.45 | Exceptional −₹71 Cr (standalone) |
+| Q1 FY27 (Jun-26) | 1,458 | 735 | 50 | 619 | 282.51 | IPL 2026; cricket ₹630 Cr |
+
+**Annual-report findings (FY26 AR)** [V]
+- **Segment:** one segment ("Media and Entertainment"). **No revenue by language, no Sun NXT revenue or subscriber numbers, no Tamil GEC share** anywhere in the AR, results or releases. These gaps are structural (the company does not disclose), not search failures.
+- **Related parties — the big new finding.** Standalone subscription income booked from **Maran-family-linked distribution companies** in FY26: Sun Distribution Services ₹143.84 Cr (FY25 ₹140.09 Cr); **Sun Direct TV ₹293.69 Cr (FY25 ₹0.60 Cr)**; Kal Media Services ₹231.57 Cr (₹63.48 Cr); Gemini TV Distribution Services ₹152.88 Cr (₹162.43 Cr); **TVCH Distribution Services ₹288.98 Cr (₹13.38 Cr)**. **Total ≈ ₹1,111 Cr = 56% of Sun's ₹1,980 Cr subscription income, up from ≈ ₹380 Cr (21%) in FY25** [E from V]. Sun paid the same entities ₹253.2 Cr of "pay channel service charges" (FY25 ₹92.0 Cr). Movie-distribution income from Sun Business Solutions ₹149.39 Cr (₹37.35 Cr). Receivable from Sun Direct ₹106.44 Cr (nil a year earlier). The AR lists these as "enterprises in which KMP or their relatives have control/significant influence". **The AR does not explain the shift** (it looks like a move of DPO collections into group distribution/aggregator companies). It matters for receivable risk (debtor days rose to 121) and for the governance lens.
+- **Sunrisers Leeds:** 100% for GBP 100.5m (₹1,184.99 Cr), effective 28-Jul-2025, accounted as an asset acquisition of franchise rights (valuation by an external valuer). It explains most of FY26's negative FCF.
+- **Balance sheet:** treasury ₹7,833 Cr; no borrowings; leases ₹106 Cr; intangibles ₹1,708 Cr + intangibles under development ₹857 Cr (film rights in production); JV (South Asia FM) carried at ₹277 Cr after impairments.
+- **Contingent liabilities:** only ₹96.45 Cr (service tax/GST and income-tax disputes). **Commitments for film/programme rights ₹279.15 Cr** (FY25 ₹354.20 Cr). No material litigation disclosed.
+- **Dividend:** FY26 DPS ₹12.50 (FY25 ₹15.00); outgo ₹492.61 Cr = 34% payout.
+- **Risks named by the company:** competition from OTT/digital, advertiser migration to digital, changing viewer habits, content-cost inflation. No numeric risk sizing.
+
+### 4.2.2 Zee Entertainment Enterprises (ZEEL · 505537)
+
+**Management-guidance digest (Q1 FY27 call, 10-Aug-2026; CEO Punit Goenka, Deputy CEO & CFO Mukund Galgali)** [V transcript]
+1. **No margin guidance.** Asked for FY27 EBITDA margin, the CEO said he was "not in a position" to guide given market uncertainty. (Contrast with the 18–20% "ambition" in older material.)
+2. **Advertising:** Q1 ad −11% was blamed on the West Asia conflict "severely impacting us during April and May"; "green shoots" in June with FIFA; "cautiously optimistic" for the festive season as the war "seems to be sorting itself out". The deck also cites cricket (IPL) as a Q1 drag.
+3. **FIFA economics:** rights for **39 FIFA events through 2034**; payments staggered over eight years, heavier for the 2030 World Cup. **A significant part of FIFA revenue and cost falls in Q2 FY27** (knockouts; subscription accrual); ad monetisation had only 10 days before kick-off. 83% of FIFA watch time was live on ZEE5; reach 400m+.
+4. **Sports strategy:** "prudent", value over expensive properties; Bundesliga + Serie A signed; building a domestic sports calendar; no date for sports breakeven. Marquee advertisers may leave after FIFA.
+5. **Subscription:** +16% "largely" from digital (higher ARPU and B2C subscribers — B2C base "more than doubled" in Q1) plus linear price increases. **Next linear price increase at the next NTO cycle, "February next year" (2027).** Language packs on ZEE5 "aided" growth (no numbers).
+6. **Linear share:** network share 17.9% in Q1 (to week 24), peak ~20% (highest in seven years); Zee TV led prime time for 32 weeks; unique monthly reach >800m.
+7. **Costs:** opex +15% (A&P for FIFA and four "Unite8" sports channels; programming for FIFA and new initiatives like Bullet, KidZ, Live). D&A run-rate (~₹44 Cr/quarter) is "in the range". Inventory up because FIFA cash went out in Q1 and hits P&L in Q2.
+8. **Capital/legal:** warrants — Zee had written to SEBI and appealed to SAT; approval "valid for 1 year"; matter sub judice. **Star (JioStar) arbitration: hearings held in July; final submissions in 1–1.5 months; outcome "possibly in Q3"** FY27. Music demerger considered but "no strategic reason" now; music disclosures being prepared.
+9. **Treasury:** cash & treasury ₹2,210.9 Cr at Jun-26 (deck itemises MFs ₹1,180 Cr, AU SFB FD ₹214.8 Cr, subsidiaries' FDs ₹377.2 Cr, bank & other ₹436.4 Cr).
+
+**KPI table (company decks)** [V]
+
+| ₹ Cr | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Advertising | 901.7 | 940.6 [prior V-snip] | 837.5 | 758.5 | 806.3 | 851.5 | 808.0 | **671.4** |
+| Subscription | 969.9 | — | 986.5 | 981.7 | 1,023.0 | 1,050.2 | 1,024.7 | **1,136.9** |
+| Other sales & services | 129.1 | — | 360.1 | 84.6 | 139.9 | 378.4 | 192.1 | 99.0 |
+| EBITDA reported (adjusted) | — | — | 285.2 | 228.0 | 146.4 | 240.5 | −268.6 (139.8) | **78.9** |
+| ZEE5 revenue | 236.3 | 241.3 | 274.7 | 290.0 | 310.8 | 418.0 | 470.0 | **457.1** |
+| ZEE5 EBITDA | −158.8 | −136.2 | −75.3 | −65.8 | −31.2 | +56.4 | −8.4* | **+4.4** |
+| Network share (BARC All 15+ U) | — | — | — | 16.8% | — | — | 17.4% | **17.9%** |
+
+*Q4 FY26 ZEE5 EBITDA includes the amortisation-estimate change. ZEE5 figures include Zee's other digital businesses and exclude costs borne on the ZEEL network (deck footnote). Q2 FY25–Q4 FY25 ZEE5 from PL Exhibit 4 (Part 2), consistent with the deck's FY26 series.
+
+**5-year history (screener consolidated; company EBITDA from decks)** [V]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 8,186 | 8,088 | 8,637 | 8,294 | **8,099** |
+| Operating profit (screener) | 1,777 | 1,107 | 911 | 1,212 | **399** |
+| OPM % (screener) | 22 | 14 | 11 | 15 | **4.9** |
+| Company EBITDA (deck) | — | — | — | 1,196.2 (14.4%) | **346.3 (4.3%)**; adj. 754.7 |
+| Advertising (deck) | — | — | — | 3,591.1 | **3,224.3** |
+| Subscription (deck) | — | — | — | 3,926.1 | **4,079.6** |
+| PAT | 956 | 48 | 141 | 680 | **271** |
+| ROCE % | 16 | 8 | 6 | 9 | **3** |
+| CFO | 280 | 129 | 714 | 1,161 | 708 |
+| Working-capital days | 340 | 352 | 326 | 335 | 322 |
+
+**8-quarter trend (screener consolidated)** [V]
+
+| Quarter | Revenue | OP | OPM % | PAT |
+|---|---|---|---|---|
+| Q2 FY25 | 2,001 | 323 | 16 | 209 |
+| Q3 FY25 | 1,979 | 321 | 16 | 164 |
+| Q4 FY25 | 2,184 | 298 | 14 | 188 |
+| Q1 FY26 | 1,825 | 239 | 13 | 144 |
+| Q2 FY26 | 1,969 | 159 | 8 | 76 |
+| Q3 FY26 | 2,280 | 256 | 11 | 155 |
+| Q4 FY26 | 2,025 | −255 | −13 | −104 |
+| Q1 FY27 | 1,907 | 100 | 5 | 74 |
+
+**Annual-report findings (FY26 Integrated AR)** [V]
+- **JioStar ICC arbitration (note 52):** Alliance Agreement of 26-Aug-2022 (exclusive TV sub-licence of ICC Men's and U-19 events 2024–27). Unpaid first instalment US$203.56m. Zee terminated on 8-Jan-2024 alleging JioStar's repudiatory breach and seeks a refund of ₹68.5 Cr (bank-guarantee commission and interest). JioStar: notice 14-Mar-2024; terminated 20-Jun-2024; Statement of Case 16-Sep-2024 claiming US$940m (as at a 31-Aug-2024 proxy award date). Zee's defence and **counterclaim of US$8.06m** (23-Dec-2024). During FY26 the tribunal adjourned a hearing on Zee's application after "certain developments/disclosures made by JioStar". **After the year-end JioStar raised its damages claim to US$1.097bn.** Management: not in default; no provision.
+- **Yes Bank put option (note 36):** a 2016 letter of comfort and put option for ATL Media (Mauritius) to buy 64.38% of Veria International from related-party Living Entertainment at **US$52.5m (₹492.8 Cr)**, extended to 30-Dec-2026. After the year-end Yes Bank (assignee of Axis Bank) sued Living Entertainment in the **High Court of England and Wales** and amended the claim to include ATL. Zee relies on a Mauritius Supreme Court order that the option was rescinded. **A second foreign legal tail (~₹490 Cr) the dossier missed.**
+- **SEBI:** a show-cause notice of 12-Feb-2026 against the company (in addition to the Jul-2026 final order on the Hyderabad land pledge); Zee has filed a settlement application.
+- **Contingent liabilities (note 34A):** indirect tax ₹222.8 Cr (FY25 ₹314.5 Cr), incl. a ₹173.6 Cr GST input-credit demand upheld by the adjudicator and under appeal; direct tax ₹88.8 Cr; other claims ₹9.2 Cr; legal cases "not ascertainable"; a new US class action on data protection.
+- **Commitments:** media content ₹1,588.7 Cr (FY25 ₹2,264.7 Cr) — excludes FIFA (signed Jun-2026).
+- **Tax:** FY26 tax ~nil because of a ₹96.9 Cr credit on writing off the Margo Networks investment.
+- **Related parties:** no royalty; the material related-party exposure is the Living Entertainment/Veria put option above.
+- **Risks named:** advertising cyclicality and digital migration, content-cost inflation, regulation (NTO, ratings), litigation and regulatory proceedings.
+
+### 4.2.3 Network18 Media & Investments (NETWORK18 · 532798)
+
+**Management commentary digest.** Network18 holds **no earnings call**; the Q1 FY27 investor update (15-Jul-2026), the FY26 AR MD&A and the CARE rationale are the record.
+- **Q1 FY27 investor update** [V]: consolidated operating revenue +10.3% to ₹516 Cr on state-election advertising (West Bengal, Tamil Nadu); **industry non-government ad inventory fell >10% while Network18's non-government inventory grew ~2%; total inventory +10% vs industry +3%**. Corporate spend hit by the West Asia conflict and a weak-monsoon forecast. Opex +9.7% because the annual increment moved into Q1. CTV monetisation "emerging as an important revenue stream". Chairman Adil Zainulbhai called it "a mixed" quarter and flagged government intervention on ratings. No numeric guidance.
+- **FY26 AR MD&A** [V]: "a mixed year"; standalone operating revenue +3.1% (₹1,955.1 Cr vs ₹1,896.2 Cr) against weak advertising and an election-inflated base; subscription "broadly stable"; **off-platform (YouTube etc.) video revenue under pressure from algorithm changes**; expenses +2.5%; standalone debt rose to ₹3,113 Cr from ₹2,787 Cr. Strategy: "News+" monetisation (Moneycontrol Pro/Super Pro paywall, hyperlocal Local18 via a 250+ district stringer network), AI in the newsroom. Industry context it cites: online news reach fell ~9% in 2025 because of AI search summaries; digital-news subscription revenue ₹5bn (2025) → ₹8bn (2028) per FICCI-EY.
+- **CARE (15-Dec-2025)** [V]: AAA/A1+ rests on RIL parentage (RIL holds 52.41%; promoter group 56.89%) and strategic importance; weaknesses: moderate gearing (0.64×), weak profitability, ad cyclicality; **downgrade trigger: RIL's stake below 50.1%**. H1 FY26 revenue ₹966 Cr, PBILDT ₹4 Cr. Indirect JioStar investment valued at ₹4,461 Cr (Mar-2025).
+
+**KPI table** [V]
+
+| Item | Q1 FY26 | Q4 FY26 | Q1 FY27 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Consolidated operating revenue (₹ Cr) | 468 | 616 | **516** | 6,887.9 (incl. Viacom18 to 14-Nov-24) | 2,120.8 |
+| Operating EBITDA (₹ Cr) | 4 | 30 | **8** | −330.3 | 43.7 |
+| Share of associates/JVs (₹ Cr) | 70.3 | — | 37.7 | 224.5 | **303.4** (Studio18 246.5) |
+| Standalone operating revenue (₹ Cr) | — | — | — | 1,896.2 | 1,955.1 (+3.1%) |
+| Revenue from JioStar (related party) | — | — | — | 75.96 | **554.65** |
+| Digital monthly users | — | — | ~360m (Comscore TDP, May-26) | — | >350m UVs |
+| MC Pro paid subscribers | — | — | >1m | — | — |
+| TV news network share (pre-blackout) | — | — | 13.8% (wk 1–8 '26) | — | — |
+
+**5-year history (screener consolidated)** [V] — perimeter breaks: FY22–FY24 include Viacom18; FY25 includes Viacom18 to 14-Nov-2024; FY26 is news + digital only.
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 5,880 | 6,223 | 9,297 | 6,888 | **2,121** |
+| Operating profit | 1,081 | 137 | −658 | −337 | **43** |
+| OPM % | 18 | 2.2 | −7 | −4.9 | **2.0** |
+| Interest | 97 | 209 | 322 | 477 | 205 |
+| PAT | 838 | −16 | −325 | −1,777 | **155** |
+| ROCE % | 16 | 2 | −0 | 1 | **3** |
+| Borrowings incl. leases (year-end) | 2,284 | 6,069 | 8,156 | 2,960 | 3,288 |
+| CFO | 641 | −2,804 | −6,465 | −1,912 | −28 |
+
+**8-quarter trend (screener consolidated)** [V]
+
+| Quarter | Revenue | OP | OPM % | PAT | Note |
+|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 1,825 | −179 | −10 | −152 | Viacom18 consolidated |
+| Q3 FY25 (Dec-24) | 1,360 | −22 | −1.6 | −1,400 | Viacom18 to 14-Nov; ~₹1,225 Cr loss on de-recognition |
+| Q4 FY25 (Mar-25) | 561 | 19 | 3.4 | −29 | first clean news + digital quarter |
+| Q1 FY26 (Jun-25) | 468 | 4 | 0.9 | 149 | Eenadu TV fair-value gain ₹150.6 Cr |
+| Q2 FY26 (Sep-25) | 498 | 0 | −0.1 | 41 | — |
+| Q3 FY26 (Dec-25) | 539 | 10 | 1.8 | −5 | News18 Marathi consolidated from 29-Oct |
+| Q4 FY26 (Mar-26) | 616 | 30 | 4.9 | −30 | labour-code charge |
+| Q1 FY27 (Jun-26) | 516 | 8 | 1.4 | −38 | associates ₹37.7 Cr |
+
+**Annual-report findings (FY26 AR)** [V]
+- **Stake structure (closes §H4):** Studio18 Media Pvt Ltd (ex-Viacom18) is an associate from 30-Dec-2024 at **16.12% (13.54% fully diluted)**; 5.80 crore shares at cost ₹4,460.60 Cr; equity-method carrying value **₹5,666.94 Cr**; FY26 share of profit **₹246.50 Cr**. Studio18 holds **46.61% of JioStar** → look-through **7.51% / 6.31% fully diluted**. Big Tree (BookMyShow) 39.29%, carrying ₹351.56 Cr, profit share ₹37.23 Cr. Eenadu TV: voting rights on the 24.5% stake assigned to ETPL's promoter on 7-Jul-2025; economic interest retained; fair-value gain ₹587.01 Cr standalone / ₹150.64 Cr consolidated.
+- **Segment (closes §H5 negatively):** one reportable segment, "Media Operations" (Ind AS 108). **No TV-news vs digital vs fintech split exists in the AR.** The primer's "TV news revenue +23%" has no source in any filing; the only growth figure is standalone operating revenue +3.1%.
+- **Related parties — JioStar is now a customer and a supplier.** Revenue from operations from JioStar India ₹554.65 Cr (FY25 ₹75.96 Cr) and expenditure for services ₹378.11 Cr (₹19.76 Cr); receivable ₹211.06 Cr, payable ₹227.72 Cr. With IndiaCast (distribution) transferred to Viacom18/JioStar in Nov-2024, this most likely reflects JioStar distributing/selling Network18's channels and inventory [E: the AR does not describe the nature]. **A quarter of Network18's reported revenue is intra-Reliance.**
+- **Debt and liquidity:** borrowings ₹3,112.84 Cr (CP-heavy; CP rated A1+ by CARE, ICRA and India Ratings); leases ₹174.87 Cr; cash and current investments ₹164.5 Cr; goodwill ₹1,237 Cr.
+- **Exceptional items FY26:** Eenadu gain ₹150.64 Cr less labour codes ₹32.84 Cr (consolidated = +₹117.8 Cr); standalone also took a ₹32.25 Cr impairment on News18 Marathi (bought from Lokmat for ₹25 Cr on 29-Oct-2025).
+- **Contingent liabilities:** small — claims ₹18.59 Cr (FY25 ₹91.49 Cr) and EPCG ₹6.77 Cr; capital commitments ₹25.66 Cr.
+- **Risks named:** ad cyclicality, AI disruption of search-led traffic, platform dependence, regulation (ratings blackout), cost of debt.
+
+### 4.2.4 JioStar (unlisted; not consolidated by any member) — RIL releases [V]
+
+| ₹ Cr | Q1 FY26 | Q2 FY26 [E derived] | Q3 FY26 | Q4 FY26 | FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|
+| Gross revenue | 11,222 | 7,232 [V-snip] | 8,010 | 9,784 | 36,248 | 12,799 |
+| Revenue from operations | 9,601 | 6,179 | 6,896 | 8,372 | **31,048** | **10,946 (+14.0%)** |
+| EBITDA from operations | 714 | — | — | 699 | **4,056 (13.1%)** | **933 (8.5%)** |
+| EBITDA incl. investment income | 1,017 | 1,738 | 1,303 | 827 | 4,885 (15.7%) | 1,049 (9.6%) |
+| PAT | 581 | **1,322** | 888 | 419 | **3,210** | 665 |
+| JioHotstar average MAU | — | — | — | 500m | 451m avg [prior V-snip] | **530m** |
+
+- FY25 stub (14-Nov-2024 to 31-Mar-2025): operating revenue ₹9,497 Cr, EBITDA ₹774 Cr, PAT ₹229 Cr.
+- **Pattern:** the IPL quarter (Q1) has the most revenue but thin margins (rights cost); **the non-IPL Q2 is the most profitable** (PAT ₹1,322 Cr in Q2 FY26). So Network18's Q2 associate share should rebound from Q1's ₹37.7 Cr [E].
+- **Q2 FY27 (Jul–Sep 2026): not yet reported by RIL as of 22-Oct-2026** (ril.com shows Q1 FY27 as latest). Gap (6) is therefore closed for FY26 and Q1 FY27, open for Q2 FY27.
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**E3-R. Linear TV revenue by stream, calendar years (₹ '000 Cr, gross of taxes) — FICCI-EY 2026 PDF [V]** (replaces E3 and §2.1)
+
+| CY | Advertising | Distribution (subscription) | Total | YoY total |
+|---|---|---|---|---|
+| 2021 | — | — | 73.6 | — |
+| 2022 | — | — | 72.6 | −1% |
+| 2023 | 31.2 | 39.8 | 71.1 | −2% |
+| 2024 | 29.4 | 38.5 | 67.9 | −4.5% |
+| 2025 | **26.3** (−10.3%) | **35.4** (−8.0%) | **61.7** | −9.1% |
+| 2026E | 24.4 | 34.2 | 58.7 | −4.9% |
+| 2028E | 21.3 | 32.2 | 53.5 | −5% CAGR |
+
+- Notes: ad volumes −10% on national and −11% on regional channels in 2025; HSM entertainment ad revenue down "up to 18%"; sports-channel ad revenue **+7%**; number of TV advertisers −3% to 7,275; real-money-gaming advertisers vanished from Aug-2025. **Linear + CTV advertising was "stable" at ₹36,200 Cr in 2025** (CTV ₹9,900 Cr, +42%) and is forecast at ₹37,700 Cr in 2028 — i.e. the ad money is moving screen, not leaving the TV set.
+
+**E-new-1. TV households, millions — FICCI-EY 2026 PDF [V]**
+
+| | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---|---|---|---|---|
+| Pay TV + Connected TV* | 135 | 135 | 141 | 141 | 140 |
+| Free TV (balancing figure) | 43 | 45 | 45 | 49 | **53** |
+| Total TV homes | 178 | 180 | 186 | 190 | **193** |
+
+*Duplication exists between pay and CTV. Pay TV alone: "just under 100m" in 2025 after −11.5m (incl. ~8–10m under-declared/pirated). CTV sets ~68m; >40m weekly active. Average TV viewing 3h44m/day (+0.5%); 76% of viewing is GEC + movies; weekly reach ~745m.
+
+**E1-R. Distribution platforms, TRAI PIR (m subscribers)** [V-sec, two full-text reports agree]
+
+| Platform | Jun-25 | Mar-26 | Jun-26 | Note |
+|---|---|---|---|---|
+| Pay DTH (4 operators) | 56.07 | 49.09 (rev.) / 49.05 | **48.56** | −13.4% YoY; Tata Play 14.84, Airtel 13.58, Sun Direct 10.93, Dish 9.21 |
+| MSO (cable, reporting MSOs only) | — | — | 37.24 | only 127 of 736 MSOs report — not a trend series |
+| HITS | — | — | 4.72 | GTPL 3.10, NXTDIGITAL 1.61 |
+| IPTV | — | 3.6 (Airtel, prior V) | 6.21 | Airtel 4.09, Hathway 1.28 |
+| All reporting platforms | — | — | 96.73 | incl. subscribers inactive up to 90 days |
+| DD FreeDish (FICCI-EY, CY2025) | — | — | ~53 | free; not in TRAI's paid base |
+
+- **The free platform (~53m) is now larger than pay DTH (48.6m)** — FICCI-EY says so explicitly [V].
+
+**E4-R. India ad market CY2025 (₹ '000 Cr) — FICCI-EY [V]:** digital 94.7 (63%); linear TV 26.3 (17.5%); residual print/radio/OOH/other ≈ 29.0 [E]; total 150. Within digital: e-commerce/POS 22.0; SME/long-tail 36.3.
+
+**E-new-2. Regulatory timeline additions [V unless tagged]**
+- 8-Jul-2024: TRAI Tariff (4th Amendment) Order + Interconnection (6th Amendment) + QoS (4th Amendment): NCF forbearance; HD/SD carriage parity; installation charges under forbearance; FreeDish-free channels cannot be pay on addressable DPOs [V-sec/V-snip].
+- Mar-2026: MIB pauses BARC news ratings; Jul-2026: all genres suspended pending registration under the **Television Ratings Policy 2026** (80,000 meters; ≥33% independent directors; triennial establishment survey) [V-sec]. 31-Jul: report of conditional/provisional registration to a Jan-2027 review [V-snip]; ~21-Sep IBDF AGM demanded immediate restoration and set a November deadline [V-snip]. **No resumption found as of 22-Oct-2026.**
+- 14/21-Aug-2026: **12-minute ad cap removed** (Cable TV Networks (Amendment) Rules 2026) [V AIR]; 10-Sep-2026: TRAI repeals its 2012 ad-duration regulations [V-snip].
+- FICCI-EY expects "greater flexibility on NCF and discounts under NTO 4.0" and pushes "business-model forbearance" [V]; **no NTO 4.0 notification was found** [V-snip negative search].
+
+**E-new-3. Advertising forecasts (verified)**
+- WPP Media mid-year (16-Jun-2026): India +8.8% to ~₹2 lakh Cr ($22.5bn); **TV −6.8%**; social/other digital +13.2% to $8.3bn; commerce media +29% to $3.9bn; double-digit growth again from 2027 [V-sec].
+- FICCI-EY: linear TV ad ₹24,400 Cr in 2026E (−7%), ₹21,300 Cr in 2028E [V].
+- TAM AdEx: TV ad **volumes** −7% in Jan–Jul 2026 [V-snip, via The Week].
+
+**E-new-4. Global lens (light touch)** — Disney's fiscal Q3 2025 linear networks revenue −15% and operating income −28% (partly the Star India deconsolidation) [V-snip thedesk]; Disney fiscal Q3 2026 total revenue +7% to $25.2bn, ESPN operating income −17% [V-snip]. Peer EV/EBITDA ranges in §10 remain [K]. The India data now match the US base rate: pay DTH −13% a year vs US pay-TV −6–8% a year [K].
+
+---
+
+## 4.3b Recomputed aggregates and stat strip after the corrections [E from V]
+
+Revenue, OP and PAT aggregates in Part 3 (screener basis) **do not change**. The balance-sheet and valuation lines do:
+
+| Item | Part 3 | Revised | Basis |
+|---|---|---|---|
+| Sun net cash | ≥₹7,715 Cr (floor) | **₹7,727 Cr** (treasury ₹7,833 Cr − leases ₹106 Cr) | FY26 AR, Mar-26 |
+| Zee net cash | ~₹2,459 Cr (Mar-26) | **₹1,956 Cr (Jun-26)**; ₹2,616 Cr pro-forma for warrant cash received 21-Aug | Q1 FY27 deck; Mar-26 equivalent was ₹2,505 Cr (₹2,759.5 − ₹254.6) |
+| Network18 net debt | ~₹3,288 Cr gross | **₹2,948 Cr ex-leases** (₹3,123 Cr incl. leases) | FY26 AR |
+| Group net cash (3 members) | ≈ ₹6,900 Cr | **≈ ₹6,735 Cr** (Jun-26 for Zee) | sum |
+| Pure-play (Sun + Zee) net cash ÷ m-cap | 34% | **32%** (₹9,683 Cr ÷ ₹30,258 Cr) | m-cap 22-Oct-26 |
+| Sun EV / EV÷FY26 OP | ₹15,938 Cr / 7.3× | ₹15,926 Cr / **7.3×** | unchanged |
+| Zee EV / multiples | ₹4,146 Cr; 10.4× OP; 5.5× adj. | **₹4,649 Cr; 11.7× screener OP; 13.4× reported EBITDA (₹346 Cr); 6.2× adjusted (₹755 Cr)** | Jun-26 net cash |
+| Zee: JioStar claim ÷ m-cap / ÷ net cash | $940m ≈ 1.35× m-cap | **$1.097bn ≈ ₹10,410 Cr = 1.58× m-cap; ~4× pro-forma net cash** | ₹94.9/$ |
+| Network18: JioStar look-through value | ~₹4,460 Cr (6.34% × ₹70,352 Cr) | **₹4,440 Cr (6.31% FD) to ₹5,280 Cr (7.51%)** at the Nov-2024 post-money; equity-method book ₹5,667 Cr; CARE ₹4,461 Cr (Mar-25) | AR; CARE |
+| Network18 EV (m-cap + net debt ex-leases) | ~₹7,030 Cr | **₹6,690 Cr** | — |
+| Members' ad share of CY2025 TV ad (FY26 ad ÷ ₹26,300 Cr; FY/CY mismatch) | Zee ~12%, Sun ~4% | **Zee 12.3%, Sun 4.9%** (consolidated ad ₹1,292 Cr) | — |
+
+**Revised 6-cell stat strip (replaces §D):**
+
+| Cell | Value | Source |
+|---|---|---|
+| Indian TV revenue, CY2025 | **₹61,700 Cr** — ad ₹26,300 Cr (−10%), subscription ₹35,400 Cr (−8%) | FICCI-EY 2026 PDF [V] |
+| Free TV vs pay DTH | **~5.3 crore free-TV homes vs 4.86 crore pay-DTH subscribers** (Jun-26, −13% YoY) | FICCI-EY [V]; TRAI PIR [V-sec] |
+| Digital share of India ad spend, CY2025 | **63%** (TV 17.5%) | FICCI-EY [V] |
+| Three members' FY26 revenue / OP | **₹14,555 Cr / ₹2,625 Cr (18%)** | screener sums [E] |
+| JioStar FY26 operating revenue | **₹31,048 Cr ≈ 2.1× the three members combined**; operating EBITDA 13% | RIL [V] |
+| Sun vs Zee EBITDA margin, FY26 | **50% vs 4.3%** (company-reported; 9.3% "adjusted") | screener; Zee deck [V] |
+
+Alternatives: **JioStar's claim on Zee US$1.097bn ≈ 1.6× Zee's m-cap** [V]; **56% of Sun's subscription income booked via Maran-family-linked distributors** [V]; **12-minute ad cap scrapped (Aug-2026)** [V].
+
+---
+
+## 4.4 Gap log (every §H item)
+
+| §H # | Item | Status | Source / what was tried |
+|---|---|---|---|
+| 1 | Sun FY26 & Q2 FY26 ad; quarterly split of ad/subscription/movie/IPL | **Filled.** FY26 ad ₹1,292.41 Cr cons. / ₹1,154.24 Cr standalone; Q2 FY26 ₹292.15 Cr; FY26 subscription ₹1,980.48 Cr, movies ₹405.32 Cr, cricket ₹652.44 Cr. **Partly open:** quarterly movie and international subscription lines are not disclosed; Q3 FY26 ad (₹291.94 Cr) and domestic subscription Q3 remain snippet/residual | Sun FY26 AR; Q2 FY26 and Q1 FY27 releases (BSE) |
+| 2 | Sun revenue by language; Sun NXT revenue/subscribers; Tamil GEC share | **Still open — not disclosed** (single segment; no OTT KPIs in AR, results or releases). Not a search failure | Sun FY26 AR searched for "Sun NXT", "language", "subscribers" |
+| 3 | Sun cash & bank / total treasury | **Filled.** ₹7,833 Cr treasury; no debt | Sun FY26 AR balance sheet, note 10.1 |
+| 4 | Network18's Viacom18 stake and look-through | **Filled.** 16.12% (13.54% FD) of Studio18, which owns 46.61% of JioStar → 7.51% / 6.31% | Network18 FY26 AR |
+| 5 | Network18 segment revenue (TV vs digital) | **Closed negatively — does not exist** (one reportable segment). Standalone revenue +3.1% is the only growth disclosure; JioStar related-party revenue ₹554.65 Cr found instead | Network18 FY26 AR note 41/MD&A |
+| 6 | JioStar FY26 / Q1 FY27 / Q2 FY27 from RIL | **Filled for FY26 and Q1 FY27; Q2 FY27 open** — RIL had not published it on ril.com by 22-Oct-2026 | RIL Q4 FY26 and Q1 FY27 media releases |
+| 7 | FICCI-EY TV ad vs subscription split CY2024/CY2025 | **Filled** (2023–2028E series) | FICCI-EY 2026 PDF |
+| 8 | DD FreeDish households | **Filled (estimate by FICCI-EY): ~53m in 2025.** No Prasar Bharati/MIB official count found (FreeDish is non-addressable) | FICCI-EY 2026 PDF |
+| 9 | Zee warrant allotment status | **Filled** [V-sec]: 20.94 crore allotted 21-Aug-2026; ₹659.76 Cr received. Open: outcome of the ~₹76 Cr late-money SAT extension (hearing 27-Aug); the BSE allotment filing itself was not opened (BSE announcement API blocked) | outlookbusiness ×2 |
+| 10 | Star v Zee LCIA latest | **Filled:** claim raised to US$1.097bn after Mar-26; July-2026 hearings; final submissions ~Sep; outcome "possibly Q3 FY27". No award reported to 22-Oct | Zee FY26 AR note 52; Q1 FY27 transcript |
+| 11 | BARC status Oct-2026; TRP Policy 2026 | **Partly filled:** policy terms verified; suspension continuing; no resumption found to 22-Oct (latest item: ~21-Sep IBDF AGM). MIB/PIB primary text not fetched | indiantelevision (Jul); e4m snippets (Jul–Sep) |
+| 12 | Sunrisers Leeds ownership/price | **Filled:** 100%, GBP 100.5m (₹1,184.99 Cr), effective 28-Jul-2025 | Sun FY26 AR |
+| 13 | TRAI 2024 amendments; 2025–26 consultations | **Filled for 2024** (NCF forbearance; HD/SD carriage parity; FreeDish rule) [V-sec]. **2025–26:** no NTO 4.0 notification found; but the **12-minute ad cap was removed (Aug-2026) and TRAI repealed its ad-duration regulations (Sep-2026)**. trai.gov.in failed TLS through the proxy even with the CA bundle | teamleaseregtech; FICCI-EY; AIR; search |
+| 14 | Zee Q2 FY25 & Q4 FY25 ad | **Filled:** ₹901.7 Cr / ₹837.5 Cr; Q1 FY25 ≈ ₹911.3 Cr residual | Zee Q2 FY26 & Q4 FY26 decks |
+| 15 | Conflict: Zee Q1 FY27 PAT | **Resolved: ₹74.3 Cr** (company deck and CFO on the call) | Zee deck/transcript |
+| 16 | Conflict: TRAI DTH numbers | **Resolved:** Jun-25 56.07m; Mar-26 49.09m (revised) vs 49.05m (original); Jun-26 48.56m. Mar-25 56.92m not re-verified | TRAI PIR via two trade reports |
+| 17 | Conflict: Zee FY26 EBITDA basis | **Resolved:** reported ₹346.3 Cr; adjusted ₹754.7 Cr excludes ₹408.4 Cr Q4 amortisation-estimate change + impairment; screener ₹399 Cr is classification | Zee decks |
+
+**Other dossier flags checked:** JioStar 34% and 530m MAU [V RIL]; WPP −6.8% [V-sec]; digital 63% [V]; pay-TV homes lost 11.5m [V]; ZEE5 revenue/EBITDA [V deck]; Network18 associates ₹303.4 Cr [V AR]; primer's "TV news +23%" — **no source exists**; Sun "denial" — **was a no-comment**.
+
+---
+
+## 4.5 New insights the first pass missed
+
+1. **Sun's subscription now flows mostly through the promoter family's distribution companies.** In FY26, ~₹1,111 Cr (56%) of Sun's ₹1,980 Cr subscription income was booked from Maran-family-linked entities (Sun Direct ₹294 Cr, up from ₹0.6 Cr; TVCH Distribution ₹289 Cr, up from ₹13 Cr; Kal Media ₹232 Cr; Gemini TV Distribution ₹153 Cr; Sun Distribution ₹144 Cr), against ~21% a year earlier, and Sun paid them ₹253 Cr of service charges. This is the single most important governance/quality-of-revenue fact about Sun that no primer or Part 1–3 section mentions. It also sits behind the rise in debtor days to 121.
+2. **Free TV is now bigger than pay DTH.** FICCI-EY puts free-TV homes at ~53m (+4.5m in 2025) vs 48.6m active pay-DTH subscribers. Combined with TRAI's rule that a channel free on FreeDish must be free on every platform, Hindi broadcasters face a hard choice between FreeDish reach and pay revenue. The South is less exposed (fewer Southern pay channels on FreeDish), which supports the "South holds" theme with data.
+3. **The 12-minute ad cap is gone (Aug-2026).** Broadcasters can now sell more minutes per hour. In a falling market (FICCI-EY: TV ad volumes −10–11% in 2025; TAM: −7% in Jan–Jul 2026) this is more likely to depress rates than lift revenue, and it may irritate pay subscribers. The writer should drop the "regulated inventory, so growth needs yield" framing.
+4. **The ad money is moving screens, not leaving TV sets.** Linear + CTV ad revenue was flat at ₹36,200 Cr in 2025 (CTV +42% to ₹9,900 Cr). The winners are whoever sells CTV inventory at scale — JioStar (JioHotstar) and, at the margin, Network18 (which cites CTV monetisation) — not Zee or Sun's linear sales teams.
+5. **Zee's legal tail is larger and has two heads.** JioStar's claim rose to US$1.097bn (≈1.6× m-cap, ~4× net cash after the warrant money), with an award possible in Oct–Dec 2026. Separately, Yes Bank is pursuing a US$52.5m (₹493 Cr) put-option claim against Zee's Mauritius subsidiary in the English High Court. Zee's cash also fell ₹550 Cr in Q1 FY27 because FIFA rights were paid upfront.
+6. **A quarter of Network18's revenue comes from JioStar.** ₹555 Cr of FY26 revenue (26%) and ₹378 Cr of costs were with JioStar after IndiaCast moved into the JioStar perimeter. Network18's operating story cannot be separated from Reliance's internal arrangements; minorities should read related-party pricing closely.
+7. **JioStar's margin is lower than it looked, and its best quarter is Q2.** FY26 operating EBITDA was 13.1% (not ~16%); the IPL quarter earns ~8.5%; the non-IPL Q2 FY26 delivered PAT ₹1,322 Cr. For Network18's associate line, Q2 is the seasonal high; for advertisers, IPL sets JioStar's revenue, not its profit.
+8. **Sun outgrew the industry on subscription in FY26 (+8.6% vs industry −8%)**, helped by price and Southern stickiness, but the Q1 FY27 slowdown to +3.3% coincides with FICCI-EY's forecast of continued distribution decline (−3% in 2026E). Cricket and film (₹1,058 Cr in FY26, from ₹750 Cr) are what management now talks about as growth.
+
+## 4.5b New primer issues (append to the §3.4 list; format as primer-issues.md)
+
+### From TV Broadcasting deep research (2026-10-22, tv-broadcasting-industry.md §4.5b)
+
+- **sun-tv-network.html — related-party subscription (new, material):** FY26 AR shows ~₹1,111 Cr (56%) of subscription income from Maran-family-linked distributors (Sun Direct ₹293.7 Cr vs ₹0.6 Cr; TVCH Distribution ₹289.0 Cr vs ₹13.4 Cr; Kal Media ₹231.6 Cr; Gemini TV Distribution ₹152.9 Cr; Sun Distribution ₹143.8 Cr) and ₹253 Cr of service charges paid to them. Add to the governance/risk section.
+- **sun-tv-network.html — advertising figure:** replace "~₹1,180 Cr [est.]" with **₹1,292.4 Cr consolidated (−10.6%) / ₹1,154.2 Cr standalone (−11.5%)**; Q2 FY26 ad ₹292.15 Cr (−12.9%).
+- **sun-tv-network.html — cricket income:** FY26 **₹652.4 Cr** consolidated (incl. Sunrisers Leeds ₹94.5 Cr), not ₹662.1 Cr.
+- **sun-tv-network.html — The Hundred:** "a stake in Northern Superchargers" → **100% of SunRisers Leeds, GBP 100.5m (₹1,185 Cr), from 28-Jul-2025**; first-quarter revenue ₹94.5 Cr, PBT ₹22.2 Cr.
+- **sun-tv-network.html — cash and debt:** treasury **₹7,833 Cr**, **no borrowings** (screener's ₹106 Cr is leases).
+- **sun-tv-network.html — dividend:** FY26 DPS ₹12.50 vs **₹15.00 in FY25** (cut 17%).
+- **sun-tv-network.html — demerger rumour wording:** Sun called the sports-demerger report "a rumour" and declined comment; do not write "denied".
+- **sun-tv-network.html — revenue mix:** subscription 45.7%, ad 29.8%, cricket 15.1%, movies 9.4% (FY26 AR).
+- **zee-entertainment.html — JioStar claim:** US$940m → **US$1.097bn** (raised after Mar-26; FY26 AR note 52); July-2026 hearings; outcome possibly Q3 FY27. Also the **Yes Bank put-option suit (US$52.5m) in the English High Court** against ATL Media.
+- **zee-entertainment.html — warrants:** allotted **20.94 crore (not 24.95 crore) on 21-Aug-2026; ₹659.76 Cr received**; balance due 21-Feb-2028; Sunbright ~17.9% on conversion (not "~20%"/"23.79%").
+- **zee-entertainment.html — SAT:** MF investments may be used for operations, **not for dividends**.
+- **zee-entertainment.html — cash:** ₹2,760 Cr (Mar-26) → **₹2,211 Cr (Jun-26)**; net ~₹1,956 Cr.
+- **zee-entertainment.html — EBITDA basis:** reported FY26 EBITDA ₹346.3 Cr (4.3%); "adjusted ₹754.7 Cr" excludes a ₹408.4 Cr Q4 change in movie-rights amortisation estimate + impairment. Label it.
+- **zee-entertainment.html — guidance:** management gave **no FY27 margin guidance** (10-Aug call); next linear price rise ~Feb-2027 NTO cycle; FIFA rights run to 2034 (39 events).
+- **zee-entertainment.html — SEBI:** add the 12-Feb-2026 SCN and the settlement application (FY26 AR).
+- **network18-media.html — JioStar stake:** "13.5% of Viacom18 × 47%" → **16.12% of Studio18 (13.54% fully diluted) × 46.61% = 7.51% (6.31% FD)**; FY26 share of profit ₹246.5 Cr; carrying value ₹5,667 Cr.
+- **network18-media.html — associates split:** Studio18 ₹246.5 Cr; BookMyShow ₹37.2 Cr (39.29%); Eenadu ₹17.5 Cr (to 7-Jul-2025).
+- **network18-media.html — related-party revenue:** ₹554.65 Cr (26% of FY26 revenue) from JioStar; ₹378.1 Cr of costs to JioStar.
+- **network18-media.html — "TV news revenue +23%":** no source in the AR (single segment); remove or replace with "standalone operating revenue +3.1%".
+- **network18-media.html — debt:** borrowings ₹3,113 Cr (CP-heavy, A1+) + leases ₹175 Cr; net debt ex-leases ≈ ₹2,948 Cr; CARE downgrade trigger = RIL stake below 50.1% (RIL holds 52.41%).
+- **network18-media.html — ad share:** CARE says advertising is "over 50%" of operating income.
+- **General (all three):** the **12-minute ad cap was removed in Aug-2026**; **free-TV homes (~53m) now exceed pay DTH (48.6m)**; **FICCI-EY linear TV ad ₹26,300 Cr / subscription ₹35,400 Cr (2025)**; TRP Policy 2026 terms (80,000 meters).
+
+---
+
+## 4.6 Source URLs (Part 4)
+
+- **Sun FY26 Annual Report (BSE):** https://www.bseindia.com/xml-data/corpfiling/AttachHis/973f3ba0-1016-4b1d-aacf-cb7b7acd043d.pdf
+- **Sun Q1 FY27 results + earnings release (BSE, 12-Aug-2026):** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6d33d26-2540-4293-be22-93eecb64ab06.pdf
+- **Sun Q2 FY26 results + earnings release (BSE, 14-Nov-2025):** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8211791-b820-4959-a2a0-3600e107bff3.pdf
+- **Sun rumour clarification (BSE, 30-Sep-2026):** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ba24309-c89e-4952-8d1d-9370bfcfa599.pdf
+- **Zee Q1 FY27 transcript (BSE, 14-Aug-2026):** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65df7e9b-693b-43d7-b994-969a7804b8d4.pdf (also https://assets-prod.zee.com/wp-content/uploads/2026/08/Q1_FY27_Earnings_Call_Transcript_vF.pdf)
+- **Zee Q1 FY27 earnings update (BSE, 10-Aug-2026):** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78835a84-ccb2-44cc-94e4-5d9b9c4749b4.pdf
+- **Zee Q4 FY26 & FY26 earnings update (BSE):** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=683c29c8-6621-4d00-89b6-910a083b7b5a.pdf
+- **Zee Q2 FY26 earnings update (BSE):** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94042373-9a8c-474d-b8a4-9fa0756ee371.pdf
+- **Zee FY26 Integrated Annual Report (BSE):** https://www.bseindia.com/xml-data/corpfiling/AttachHis/edeef32e-3d90-44e8-a03b-9d4701ec3efb.pdf
+- **Zee warrant allotment:** https://www.outlookbusiness.com/corporate/zee-entertainment-allots-2094-cr-warrants-to-promoter-entity-what-it-means · https://www.outlookbusiness.com/corporate/zee-entertainment-seeks-fresh-sat-extension-for-warrant-subscription
+- **Network18 FY26 Annual Report (BSE):** https://www.bseindia.com/xml-data/corpfiling/AttachHis/4a1acb27-05ca-4021-bb3d-0930a4827ca3.pdf
+- **Network18 Q1 FY27 investor update (NSE archive):** https://nsearchives.nseindia.com/corporate/Shambhu_15072026182223_NW18_Investor_Release_15072026.pdf
+- **CARE on Network18 (15-Dec-2025):** https://www.careratings.com/upload/CompanyFiles/PR/202512121209_Network18_Media_and_Investments_Limited.pdf
+- **RIL Q1 FY27 media release:** https://rilstaticasset.akamaized.net/sites/default/files/2026-07/Media_Release_RIL_Q1_FY2026-27_Financial_and_Operational_Performance.pdf
+- **RIL Q4 FY26 media release (24-Apr-2026):** https://rilstaticasset.akamaized.net/sites/default/files/2026-04/24042026_Media_Release_RIL_Q4_FY2025-26_Financial_and_Operational_Performance.pdf
+- **RIL financial-reporting page (Q2 FY27 absent on 22-Oct):** https://www.ril.com/investors/financial-reporting
+- **FICCI-EY 2026 report PDF:** https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/insights/media-entertainment/2026/03/ey-stories-scale-and-impact-un-locking-indias-media-and-entertainment-economy.pdf · press release: https://www.ey.com/en_in/newsroom/2026/03/india-s-media-and-entertainment-sector-grew-9-percent-to-inr-2-point-78-trillion-in-2025-driven-by-digital-and-live-experiences-ficci-ey-report
+- **TRAI PIR Apr–Jun 2026 (trade full text; TRAI PDF unreachable):** https://www.medianews4u.com/indias-pay-dth-subscriber-base-falls-to-48-56-million-in-june-2026-fm-radio-ad-revenue-declines-9-1/ · https://indiantelevision.com/dth/paid-dth-sheds-7-5-million-subscribers-as-indias-tv-and-radio-map-is-redrawn/ · TRAI (not reached): https://www.trai.gov.in/sites/default/files/2026-10/QPIR_12102026.pdf
+- **12-minute ad cap removal (AIR, 23-Aug-2026):** https://newsonair.gov.in/centre-notifies-removal-of-12-minute-advertisement-duration-cap-for-television-channels/ · TRAI repeal (not reached): https://www.trai.gov.in/sites/default/files/2026-09/Repealing_Regulation_10092026.pdf
+- **TRP Policy 2026 / BARC suspension:** https://indiantelevision.com/regulators/mib-halts-all-tv-ratings-as-barc-awaits-licence-renewal/ · https://www.exchange4media.com/media-tv-news/ibdf-agm-broadcasters-seek-immediate-restoration-of-barc-ratings-158425.html (snippet)
+- **TRAI Jul-2024 amendments summary:** https://www.teamleaseregtech.com/updates/article/33288/trai-notified-amendments-to-the-regulatory-framework-for-broadcasting-
+- **WPP Media mid-2026:** https://indiantelevision.com/mam/indias-ad-market-set-to-near-rs-2-lakh-crore-in-2026-wpp-media/
+- **JioStar Q2 FY26 (press):** https://www.business-standard.com/amp/companies/quarterly-results/jiostar-s-net-profit-rises-127-5-to-1-322-crore-sequentially-in-q2-125101701424_1.html (snippet)
+- **Screener (22-Oct-2026):** https://www.screener.in/company/SUNTV/consolidated/ · https://www.screener.in/company/ZEEL/consolidated/ · https://www.screener.in/company/NETWORK18/consolidated/
+
+*End of Part 4.*

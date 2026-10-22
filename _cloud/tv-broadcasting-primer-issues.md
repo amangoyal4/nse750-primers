@@ -44,3 +44,31 @@
   - The "TV news revenue +23%" claim needs a source.
 - **General (all three):** none mentions the **TRAI pay-DTH collapse** (56.9m → 48.6m, Mar-25 → Jun-26), the **BARC suspension under the Television Ratings Policy 2026**, **FICCI-EY 2026's ₹61,700 Cr TV figure** (ad −10%+, subscription −8%, 11m homes lost), or **WPP's −6.8% TV ad forecast for 2026**. All market caps are 1–3 months stale (Sun +22%, Zee −36%, Network18 −11% vs primer).
 
+
+## From TV Broadcasting deep research (2026-10-22, tv-broadcasting-industry.md §4.5b)
+
+- **sun-tv-network.html — related-party subscription (new, material):** FY26 AR shows ~₹1,111 Cr (56%) of subscription income from Maran-family-linked distributors (Sun Direct ₹293.7 Cr vs ₹0.6 Cr; TVCH Distribution ₹289.0 Cr vs ₹13.4 Cr; Kal Media ₹231.6 Cr; Gemini TV Distribution ₹152.9 Cr; Sun Distribution ₹143.8 Cr) and ₹253 Cr of service charges paid to them. Add to the governance/risk section.
+- **sun-tv-network.html — advertising figure:** replace "~₹1,180 Cr [est.]" with **₹1,292.4 Cr consolidated (−10.6%) / ₹1,154.2 Cr standalone (−11.5%)**; Q2 FY26 ad ₹292.15 Cr (−12.9%).
+- **sun-tv-network.html — cricket income:** FY26 **₹652.4 Cr** consolidated (incl. Sunrisers Leeds ₹94.5 Cr), not ₹662.1 Cr.
+- **sun-tv-network.html — The Hundred:** "a stake in Northern Superchargers" → **100% of SunRisers Leeds, GBP 100.5m (₹1,185 Cr), from 28-Jul-2025**; first-quarter revenue ₹94.5 Cr, PBT ₹22.2 Cr.
+- **sun-tv-network.html — cash and debt:** treasury **₹7,833 Cr**, **no borrowings** (screener's ₹106 Cr is leases).
+- **sun-tv-network.html — dividend:** FY26 DPS ₹12.50 vs **₹15.00 in FY25** (cut 17%).
+- **sun-tv-network.html — demerger rumour wording:** Sun called the sports-demerger report "a rumour" and declined comment; do not write "denied".
+- **sun-tv-network.html — revenue mix:** subscription 45.7%, ad 29.8%, cricket 15.1%, movies 9.4% (FY26 AR).
+- **zee-entertainment.html — JioStar claim:** US$940m → **US$1.097bn** (raised after Mar-26; FY26 AR note 52); July-2026 hearings; outcome possibly Q3 FY27. Also the **Yes Bank put-option suit (US$52.5m) in the English High Court** against ATL Media.
+- **zee-entertainment.html — warrants:** allotted **20.94 crore (not 24.95 crore) on 21-Aug-2026; ₹659.76 Cr received**; balance due 21-Feb-2028; Sunbright ~17.9% on conversion (not "~20%"/"23.79%").
+- **zee-entertainment.html — SAT:** MF investments may be used for operations, **not for dividends**.
+- **zee-entertainment.html — cash:** ₹2,760 Cr (Mar-26) → **₹2,211 Cr (Jun-26)**; net ~₹1,956 Cr.
+- **zee-entertainment.html — EBITDA basis:** reported FY26 EBITDA ₹346.3 Cr (4.3%); "adjusted ₹754.7 Cr" excludes a ₹408.4 Cr Q4 change in movie-rights amortisation estimate + impairment. Label it.
+- **zee-entertainment.html — guidance:** management gave **no FY27 margin guidance** (10-Aug call); next linear price rise ~Feb-2027 NTO cycle; FIFA rights run to 2034 (39 events).
+- **zee-entertainment.html — SEBI:** add the 12-Feb-2026 SCN and the settlement application (FY26 AR).
+- **network18-media.html — JioStar stake:** "13.5% of Viacom18 × 47%" → **16.12% of Studio18 (13.54% fully diluted) × 46.61% = 7.51% (6.31% FD)**; FY26 share of profit ₹246.5 Cr; carrying value ₹5,667 Cr.
+- **network18-media.html — associates split:** Studio18 ₹246.5 Cr; BookMyShow ₹37.2 Cr (39.29%); Eenadu ₹17.5 Cr (to 7-Jul-2025).
+- **network18-media.html — related-party revenue:** ₹554.65 Cr (26% of FY26 revenue) from JioStar; ₹378.1 Cr of costs to JioStar.
+- **network18-media.html — "TV news revenue +23%":** no source in the AR (single segment); remove or replace with "standalone operating revenue +3.1%".
+- **network18-media.html — debt:** borrowings ₹3,113 Cr (CP-heavy, A1+) + leases ₹175 Cr; net debt ex-leases ≈ ₹2,948 Cr; CARE downgrade trigger = RIL stake below 50.1% (RIL holds 52.41%).
+- **network18-media.html — ad share:** CARE says advertising is "over 50%" of operating income.
+- **General (all three):** the **12-minute ad cap was removed in Aug-2026**; **free-TV homes (~53m) now exceed pay DTH (48.6m)**; **FICCI-EY linear TV ad ₹26,300 Cr / subscription ₹35,400 Cr (2025)**; TRP Policy 2026 terms (80,000 meters).
+
+---
+
