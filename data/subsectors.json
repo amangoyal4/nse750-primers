@@ -1039,6 +1039,23 @@
         "LPG & liquid terminals"
       ],
       "published": "2026-10-22"
+    },
+    {
+      "name": "BPO & KPO",
+      "slug": "bpo-kpo",
+      "file": "bpo-kpo.html",
+      "sector": "IT",
+      "subsector": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
+      "companies": 5,
+      "accent": "#1A2693",
+      "hook": "The seat is being repriced: how India's five listed BPO/KPO firms turn offshore hours into US healthcare claims, revenue cycles, pharma content and bank operations, why GenAI shifts pricing from the FTE to the outcome, the hedged rupee, and what the 2024 IPO premium buys.",
+      "tags": [
+        "GenAI and the seat",
+        "US healthcare admin",
+        "Rupee and hedges",
+        "Roll-ups and goodwill"
+      ],
+      "published": "2026-10-22"
     }
   ],
   "universe": [
@@ -1652,7 +1669,7 @@
       "sector": "IT",
       "sub": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
       "companies": 5,
-      "report": null
+      "report": "bpo-kpo.html"
     },
     {
       "sector": "IT",
