@@ -27,3 +27,44 @@
 - **kfin-technologies.html — AIF and global metrics:** "~37%, ~592 funds" → **37.3%, 731 funds**; "~US$360 bn serviced" → deck now says **US$370 bn global AUM** and **US$49.6 bn international AAUM** (explain the difference: platform/fund-admin AUM vs AAUM).
 - **kfin-technologies.html — chairman:** primer presents Dinesh Khara as chairman during FY26; he **took over on 1-Oct-2026** (V. M. Nair retired 30-Sep-2026).
 - **kfin-technologies.html — Q1 FY27 omitted (refreshed 18-Jul):** revenue ₹356.5 Cr (+30.1%), EBITDA ₹122 Cr (34.2%; 39.4% ex-Ascent), PAT ₹75.2 Cr (−2.6%); QAAUM ₹27.3 Tn (32.8% share); guidance 18–20% revenue CAGR, 40–45% EBITDA margin; cash ₹687 Cr; **Q2 results 26-Oct-2026 (call 27-Oct)**.
+
+## From Depositories & Registrars deep-research pass (2026-10-22, market-infra-industry.md Part 4 §4.5)
+
+**cdsl.html**
+- **Revenue mix (§ revenue bars):** replace the illustrative mix with FY26 consolidated operating revenue from AR note 19:
+  - annual issuer ₹456 Cr (39.9%)
+  - transactions ₹240 Cr (20.9%)
+  - KYC/online data incl. e-sign and e-KYC ₹179 Cr (15.6%)
+  - IPO/CA ₹160 Cr (14.0%)
+  - e-CAS ₹50 Cr (4.4%)
+  - e-voting ₹37 Cr (3.2%)
+  - other ₹22 Cr
+  - The primer's current bars are essentially the FY25 mix.
+- **Cash:** replace "~₹2,850 Cr" with "~₹1.7k Cr of cash, deposits and investments at Mar-26 (₹1.6k Cr unencumbered); total assets ₹2.4k Cr" (AR FY26 consolidated balance sheet).
+- **CVL:** add FY26 revenue ₹182 Cr (−21%) and PAT ₹55 Cr (−50%) *before* the 1-Apr-2026 KRA tariff cut (fetch ₹35 → ₹28; create ₹20 → ₹5; ~80% of KYC revenue is fetch); CVL claims >70% KRA share (CDSL Q4 FY26 call; AR).
+- **Regulatory:** add SEBI's ₹3 Cr financial disincentive (Apr-2025) for 2021–24 technical glitches, and IPF at 5% of depository profit.
+- **"585+ DPs":** verified (585 at 31-Mar-26) — keep.
+- **Bonus:** 1:1, record date 24-Aug-2024 (AGM 17-Aug-2024) — date any per-share history accordingly.
+
+**cams.html**
+- **Yield history:** "~3 bps" was true of FY24 all-MF revenue (~2.99 bps). FY26 is 2.42 bps all-MF and 2.08 bps asset-based; Q1 FY27 is 2.35 / 2.04. Write "about 2 paise per ₹100 of AUM a year (asset-based), down ~11% in FY26's pricing reset".
+- **"+21% serviced AUM in FY26":** verified as Q4-on-Q4 (₹55.1 Tn ex-FoF, +21.0%). Annual average +19.3% (₹52.7 Tn). Keep, and label the basis.
+- **Dividend:** FY26 total ₹12.50/share post-split (interims ₹11 and ₹14 pre-split, ₹3.50 post-split, plus ₹4 final), not "~₹4 final".
+- **Split date:** effective 5-Dec-2025 (board 10-Oct-2025; postal ballot 15-Nov-2025).
+- **KRA:** CAMS KRA acquired NSE's KRA business in FY26 and is #2 with 2.07 Cr records (Mar-26).
+- **Wins:** Taurus AMC migrated to CAMS from the competitor in FY26; first international RTA client (Ceybank, Sri Lanka).
+- **Cash:** ₹854 Cr (Mar-26) → ₹971 Cr (Jun-26).
+
+**kfin-technologies.html**
+- **Ascent terms:** 51% for ₹307.7 Cr (US$34.7 mn) on 13-Oct-2025. The 49% follows via put/call in three equal tranches after Ascent's years to Jul-2028/29/30, EBITDA-linked, fair-valued at ₹579 Cr at acquisition (₹619 Cr per MD&A). Total ~US$100 mn; goodwill ~₹619 Cr. Ascent added ₹99 Cr revenue and ₹2 Cr PBT in H2 FY26 (AR note 42).
+- **GA stake:** 14.06% = GA Singapore Fund 13.13% + GA Singapore KFT 0.93% (Sep-26).
+- **Folios:** "37.9 mn live folios" is SIP live folios. KFin's live MF folios average 118.1 mn (Q1 FY27). Do not call 199 mn or 373 mn "investors".
+- **Yield:** domestic-MF revenue ÷ AAUM 3.64 bps (FY25) → 3.37 (FY26) → 3.15 (Q1 FY27). KFin's reset is as large as CAMS's.
+- **Dividend:** FY26 final ₹12/share (FY25 ₹7.50).
+- **EV:** add the Ascent put (~₹600 Cr) as debt-like; EV/EBITDA ~27.6× FY26, not ~26×.
+
+**General / industry (all three)**
+- Use the AMFI Sep-26 note (now [V]): AUM ₹82.64 lakh Cr after an Aug-26 peak of ₹87.08 lakh Cr; SIP ₹32,490 Cr (+10.7% YoY); 10.06 Cr SIP accounts; folios 28.62 Cr; FY26 SIP ₹3.50 lakh Cr.
+- F&O participation: cite SEBI's Aug-2026 study (active individual traders 106.2 → 87.5 lakh), not 98.1 → 78.6 lakh.
+- MF Regs 2026: say explicitly that the registrar fee sits inside the BER cap.
+

@@ -978,3 +978,744 @@ All aggregates are **straight sums of the company rows above on one basis: scree
 - **CDSL ₹3.50 uniform tariff (secondary, search snippets):** businessworld.in "cdsl introduces uniform tariff of rs 350 per transaction effective 1 oct"; in.benzinga.com (Sep-2024)
 - **SEBI F&O study FY26 (secondary, search snippets):** moneylife.in "Retail F&O Traders Lose Rs91,685 Crore in FY26"; angelone.in "sebi report shows over 50 drop in options trading volumes in fy26"
 - **Global peer multiples (secondary, search snippets):** multiples.vc (Broadridge, SS&C); opencapital.sh; valueinvesting.io (Computershare)
+
+---
+
+# PART 4 — Deep-research supplement (22-Oct-2026)
+
+Second, primary-source pass, done on 22-Oct-2026 after Parts 1–3. **Status check:** no member and not NSDL has reported Q2 FY27 as of 22-Oct-2026. The dates are unchanged: KFin 26-Oct (call 27-Oct), CAMS 29-Oct, CDSL and NSDL boards 31-Oct. **Q1 FY27 (Jun-26) is still the latest quarter.**
+
+**What was read this session.** Tag **[V]** in this part means the item was fetched this session and read from the named primary document.
+- **Annual reports (FY26):**
+  - CDSL Integrated Annual Report 2025-26 (354 pp; consolidated balance sheet, notes 6, 11, 19, 20 and 34, MD&A).
+  - CAMS 38th Annual Report 2025-26 (386 pp).
+  - KFin Annual Report 2025-26 (full version from investor.kfintech.com; note 42 on the business combination, MD&A).
+  - NSDL Annual Report 2025-26 (296 pp; standalone and consolidated revenue notes, directors' report).
+- **Investor decks:**
+  - Q1 FY27: CDSL, CAMS, KFin, NSDL.
+  - Q4 FY26: CDSL, CAMS, KFin, NSDL.
+  - Q4 FY25: CAMS, KFin.
+- **Transcripts:**
+  - Q1 FY27: CDSL (3-Aug-26), CAMS (4-Aug-26), KFin (27-Jul-26), NSDL (31-Jul-26).
+  - Q4 FY26: CDSL, CAMS, KFin.
+  - KFin's Ascent-acquisition call (16-Apr-2025).
+- **Screener.in:** consolidated pages for all four companies, plus the screener shareholding API, which reproduces the BSE shareholding pattern.
+- **AMFI monthly notes:** Sep-2026, Aug-2026, Sep-2025 and Mar-2025, from amfiindia.com.
+- **SEBI:**
+  - Board press release PR 84/2025 (17-Dec-2025).
+  - SEBI (Mutual Funds) Regulations 2026 text, amended to 7-Jul-2026.
+  - SEBI study "Profitability of Individual Traders in the Equity Derivatives Segment (FY25–FY26)", Aug-2026.
+- **CDSL tariff page:** cdslindia.com.
+- **Global peers:**
+  - Broadridge FY26 8-K earnings release [V].
+  - SS&C and Computershare: search summaries of their own IR documents [V-snip].
+
+PDFs and extracted text are in /tmp/market-infra-deep/ (pdf/, txt/, notes.md).
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Where in Parts 1–3 | Old value | New value | Source (fetched 22-Oct-26) |
+|---|---|---|---|---|
+| S1 | §E4, §C.1, §2.1, Part 2.1, JSON `fy26_income_streams`, §3.3 | CDSL FY26 consolidated income: issuer 456 / transactions 240 / IPO-CA 159 / **online data 197** / **other 186** (= 1,238) | **Revenue note 19 (consolidated, ₹ Cr):** annual issuer **456.4** (+40.2%), transaction **239.5** (−9.9%), IPO/CA **159.8** (−1.2%), **online data (KYC) 149.5 (−27.9%)**, e-CAS 50.3, e-voting 37.1, e-sign 20.3, e-KYC/C-KYC 8.9, other operating lines 23.0 → **operating revenue 1,144.9**; other income **93.6** (fair-value gain 39.2, interest on debt instruments/STRIPS/deposits 47.7). On the deck's five-bar basis (online data incl. e-sign/e-KYC): **issuer 456 / txn 240 / IPO-CA 160 / online data 180 / other 203 = 1,238** | CDSL AR FY26 notes 19 and 20 [V]; reconciles to deck bars [V] |
+| S2 | §E5 quarterly table (Q2–Q4 FY26) | Online data / other: Q2 59/46, Q3 53/49, Q4 49/29 | **Q2 46/59; Q3 49/53; Q4 49/29** (Q1 FY26 36/62 and Q1 FY27 45/75 unchanged). The first pass swapped the two top bar segments for Q2 and Q3. Corrected FY26 sums (online 180, other 203) tie to the annual note | CDSL Q1 FY27 and Q4 FY26 decks (stack order: other is the top segment) + AR note 19 [V] |
+| S3 | §A.10 (cash trap), §H1, §9.1, 2.0 peer table, 3.2(c), JSON `cash_company` | CDSL cash & investments "~₹1.6–1.9k Cr [E]"; primer ₹2,850 Cr | **₹1,677 Cr gross treasury at 31-Mar-26.** Made up of investments excl. associate ₹1,438.6 Cr (MF units ₹726.7 Cr, ETFs ₹77.9 Cr, bonds/STRIPS/other ~₹634 Cr), cash ₹51.4 Cr, other bank balances ₹31.7 Cr and bank deposits in "other financial assets" ₹155.2 Cr. About ₹72 Cr of this is earmarked (stamp duty, unpaid dividend, guarantees), so **~₹1,605 Cr is unencumbered**. ₹1,725 Cr including the ₹48.4 Cr associate stake. Total assets **₹2,419.0 Cr confirmed** — the primer's ₹2,850 Cr stays impossible | CDSL AR FY26 consolidated balance sheet; notes 4, 6, 11 [V] |
+| S4 | §2.2, §3, §7.2 F&O row, §H12 | "Unique retail F&O traders 98.1 → 78.6 lakh (FY25 → FY26); options contracts −51.5%" [V-snip] | **Active individual traders in equity derivatives: 106.2 lakh (FY25) → 87.5 lakh (FY26), −18%** (the first decline since FY16). New entrants 34.3 → 20.8 lakh. Net losses **₹91,685 Cr** (FY25 revised to ₹1.12 lakh Cr). Notional turnover **+4.2%**; futures −15%; **options premium turnover +7%**. The "−51.5% options" figure is not in SEBI's study — drop it | SEBI study, Aug-2026 (sebi.gov.in) [V] |
+| S5 | §9.1 MF yield, §C.2, §F, primer issue (cams.html "~3 bps") | CAMS asset-based yield ~2.04 bps (Q1 FY27) vs ~2.13 (Q1 FY26); FY history not built | **Asset-based yield, on AAUM incl. FoF: FY24 ~2.51 bps (ex-FoF base) → FY25 2.33 → FY26 2.08 (−11%) → Q1 FY27 2.04.** All-MF yield: FY24 ~2.99 → FY25 2.78 → FY26 2.42. **The primer's "~3 bps" was right for FY24 all-MF revenue and is out of date now.** Q4 FY26 vs Q4 FY25: 2.04 vs 2.24 (−9%) | CAMS Q4 FY26 and Q4 FY25 decks (revenue mix %, AAUM incl. FoF) [V]; arithmetic [E] |
+| S6 | §9.1, §C.3, §F (KFin yield) | KFin ~3.15 bps (Q1 FY27) vs ~3.43 (Q1 FY26); no FY history | **Domestic-MF revenue ÷ average AAUM: FY25 3.64 bps → FY26 3.37 (−7.4%)**. Q4 basis: Q4 FY24 3.66 → Q4 FY25 3.61 → Q4 FY26 3.23 (−10.6%) → Q1 FY27 3.15 | KFin Q4 FY26 and Q4 FY25 fact sheets (avg AAUM ₹21,178.5 bn FY25, ₹25,323.0 bn FY26; dom-MF revenue ₹770.4 / ₹852.8 Cr; Q4 FY24 AAUM ₹17.4 Tn, revenue ₹159.0 Cr) [V]; arithmetic [E] |
+| S7 | §9.1 KFin folios, §2.3 KPIs, §H7 | "Live folios 37.9 mn (flag basis)" vs "199 mn total folios" | **37.9 mn = KFin's *SIP* live folios** (fact sheet line "SIP live folios (million)": 43.4 Q4 FY25 → 37.5 Q4 FY26 → 37.9 Q1 FY27). **Average live MF folio count = 118.1 mn** (Q1 FY27; 103.9 mn Q4 FY25; 117.0 mn Q4 FY26). Issuer folios 174.8 mn. "199 mn total investor folios" and "373+ mn investor folios" are headline totals on the at-a-glance page (all registers) — do not use them as MF investors | KFin Q1 FY27 and Q4 FY26 fact sheets [V] |
+| S8 | Still-listed item 3, §5.2, §H8, 3.2(d) | GA "14.06% (screener) vs ~13.1% (press) — reconcile" | **Both are right.** General Atlantic Singapore Fund Pte Ltd **13.13%** plus GA Singapore KFT Pte Ltd **0.93%** = promoter group **14.06%** (Sep-26). Main fund: 21.89% (Jun-26) → 13.13% (Sep-26) after the 20-Aug-2026 block | Screener shareholding API (BSE SHP data) [V] |
+| S9 | Still-listed item 4, §2.3, §6 D, §H9, 2.0 EV, 3.2(c) | Ascent 49% put "unquantified"; "other liabilities ₹1,041 Cr likely includes it" | **51% bought 13-Oct-2025 for ₹307.7 Cr (US$34.68 mn).** The remaining **49% comes in three equal tranches after Ascent's years to Jul-2028, Jul-2029 and Jul-2030**, through simultaneous put and call options priced on adjusted-EBITDA milestones. **Deferred and contingent consideration was fair-valued at ₹579.1 Cr (US$65.27 mn) at acquisition; the MD&A cites ₹618.8 Cr.** Implied total ~US$100 mn for 100%. Deal-call terms: pre-money US$63 mn / post US$68 mn; "<4× revenue"; ~US$30 mn secondary + US$5 mn primary. FV changes go to other equity, not P&L. **KFin EV/EBITDA including the put: (14,642 + 55 − 687 + 619) ÷ 530 = ~27.6×** | KFin AR FY26 note 42 and MD&A [V]; KFin Ascent call transcript 16-Apr-2025 (BSE) [V] |
+| S10 | §2.2 E-series, §H4 | FY26 annual SIP "~₹3.5 lakh Cr [E]"; FY22/FY24 AUM and FY22–FY25 SIP totals [K] | **FY26 SIP total ₹3,49,589 Cr [V]** (Apr–Sep-25 from AMFI Sep-25 note + Oct–Mar from Mar-26 note). **FY25 ₹2.89 lakh Cr** (avg ₹24,113 Cr/month) and **FY24 ₹1.99 lakh Cr** (avg ₹16,602 Cr) [V AMFI Mar-25 note]. Mar-24 AUM ₹53.40 lakh Cr [V] | AMFI notes [V] |
+| S11 | §0, §B3, §2.3 | CAMS FY26 serviced AUM "+21%" (primer) "not verifiable" | **Verified as Q4-on-Q4: CAMS Q4 FY26 AAuM ₹55.1 Tn (ex-FoF), +21.0% YoY; industry +20.9%. FY26 average AAuM ₹52.7 Tn, +19.3%** | CAMS Q4 FY26 deck [V] |
+| S12 | §2.1, §9.1 NSDL, 2.4 | NSDL standalone depository revenue "~₹690 Cr [E]"; Q1 +66% "flag" | **NSDL standalone FY26: revenue ₹704.7 Cr (+13.9%), total income ₹835.1 Cr, PAT ₹360.6 Cr (+12.1%).** The Q1 FY27 consolidated +66% (₹312 → ₹517 Cr) is **~88% NSDL Payments Bank**: NPBL total income ₹134.2 → ₹314.1 Cr (+134%), driven by joining fees on a card-partner project that are largely passed to the partner (CEO), and by UPI acquiring (2.9×). Consolidated "other expenses" +105%. NPBL FY26: total income ₹747.9 Cr, **PAT ₹15.2 Cr** | NSDL AR FY26; NSDL Q1 FY27 deck and transcript (31-Jul-26) [V] |
+| S13 | §2.2 NSDL account row | NSDL BO accounts FY24 ~37 mn, FY25 ~38.5 mn, FY26 ~44.4 mn [K/E] | **FY24 3.58 Cr, FY25 3.95 Cr, FY26 4.44 Cr (active, excl. closed).** FY26 gross adds 59.33 lakh, closures 9.96 lakh, net +49.37 lakh | NSDL AR FY26 [V] |
+| S14 | §1.1 / §5.1 KRA row, §H14 | KRA shares "not published"; "CAMS KRA ~20% share (basis unclear)" | Records: **CVL 10.35 Cr (Mar-26) / 10.62 Cr (Jun-26)** — CDSL's AR claims **"over 70% market share"**; **CAMS KRA 2.07 Cr (Mar-26)**, now #2 after **buying NSE's KRA business (DotEx) in FY26**; **NDML (NSDL) 2.02 Cr records**, 1,995 intermediaries (Jun-26). On records, CVL ≈ 68–72%, CAMS ≈ 13–14%, NDML ≈ 13% [E]. NSE's DotEx should be dropped from the list of five KRAs | CDSL AR; CAMS AR MD&A; NSDL Q1 FY27 deck [V] |
+| S15 | §9.1 dividend row, §H13, primer issue (cams.html) | CAMS FY26 DPS "~₹12.5 [E]" vs primer "~₹4 final" | **₹12.50/share post-split = interims ₹11 + ₹14 (pre-split FV ₹10, i.e. ₹2.2 + ₹2.8 adjusted) + ₹3.50 (FV ₹2) + final ₹4.00.** The primer's ₹4 is only the final | CAMS AR FY26 directors' report [V] |
+| S16 | §G timeline, still-listed item 2 | CAMS split "Dec-2025 (primer, not re-verified)" | **1:5 split approved by the board 10-Oct-2025, postal ballot 15-Nov-2025, effective 5-Dec-2025 (record date)** | CAMS AR FY26 [V] |
+| S17 | §G timeline, still-listed item 1 | CDSL bonus "K, Jul-2024" | **1:1 bonus approved at the AGM of 17-Aug-2024; record date 24-Aug-2024**; 10.45 crore bonus shares | CDSL AR FY26 note 12 [V] |
+| S18 | §7.2 MF Regs row, §H10 | Notified 16-Jan-2026; BER caps [V-snip]; "RTA fee inside BER? [K/E]" | **Gazette F.No. SEBI/LAD-NRO/GN/2026/296, dated 14-Jan-2026 (per AMC SID; posted on SEBI's site 16-Jan); in force 1-Apr-2026.** Full BER table in §4.3. **The RTA fee is explicitly inside the BER**: the expenses regulation lists "registrar services for transfer of units sold or redeemed" as a scheme recurring expense, and BER is defined as the sum of those expenses. Brokerage: cash 12 bps incl. levies (8.59 bps net) → **6 bps excl. levies**; derivatives 5 bps (3.89 net) → **2 bps**; the extra 5 bps for exit-load schemes is removed | SEBI PR 84/2025; MF Regulations 2026 text [V] |
+| S19 | §2.2 demat row FY22 | "~90 [K]" | **90 mn (FY22); 55 mn (FY21)** | KFin Q4 FY25 deck citing SEBI [V] |
+| S20 | §5.1 depository row (incremental share) | NSDL's "gross incremental share ~18.7%" | Also: NSDL's management gives **net incremental share 17.6% in Q1 FY27 (Q4 FY26 ~14%, Q1 FY26 ~15.5%)**; **fintech brokers' share of NSDL's new accounts rose from ~2% to ~20%** | NSDL Q1 FY27 transcript [V] |
+| S21 | §10 global table | Broadridge "revenue ~US$6.5–7 bn [K], adj. margin ~20% [K]" | **Broadridge FY26 (to Jun-26): revenue US$7,476.8 mn, recurring US$4,878.0 mn; adj. operating margin 20.5% (GAAP 17.4%); FY27 guide ~21%, recurring growth 6–8% cc.** SS&C FY2025 revenue US$6,272.2 mn, adj. op. margin 38.2%, organic +4.8% [V-snip]. Computershare FY26 management revenue US$3,212.5 mn, of which margin income US$748.7 mn; EBIT ex-MI US$447.5 mn (18.2%) [V-snip] | Broadridge 8-K Ex. 99.1 [V]; SS&C / CPU IR documents via search summary [V-snip] |
+| S22 | §2.2, §9.1 (CAMS) | CAMS cash only at Jun-26 (₹971 Cr) | Add **₹854.45 Cr at 31-Mar-26** (same definition) | CAMS Q4 FY26 deck [V] |
+| S23 | 3.3 / primer issue on CDSL DPs | "585+ DPs — not verified" | **585 DPs at 31-Mar-2026 — verified**; the primer is correct | CDSL AR FY26 [V] |
+| S24 | Still-listed item 6 | NSDL IPO "₹760–800, ~₹4,012 Cr [K]" | **₹800 per share (₹724 for employees); 100% OFS of ₹4,010.95 Cr**; IPO expenses ₹161.6 Cr borne by selling shareholders (IDBI, NSE and others) | NSDL AR FY26 [V] |
+
+**Not superseded, but re-verified and unchanged** (see 4.1): screener FY22–FY26 histories and 8-quarter series for all four companies (re-pulled, identical); CDSL ₹3.50/debit; the KRA tariff reset (company transcript; a SEBI/KRA circular was not found); AMFI Sep-26 AUM ₹82.64 lakh Cr, SIP ₹32,490 Cr, 10.06 Cr SIP accounts, SIP AUM ₹17.86 lakh Cr, folios 28.62 Cr (all now [V] from AMFI's own note); CDSL DPS ₹12.75; KFin FY26 final DPS ₹12.
+
+## 4.1 Verification table — 40 figures the writer will lean on
+
+Columns: figure | value | primary source URL | fetched this session? | agrees with Parts 1–3?
+
+| # | Figure | Value | Primary source | Fetched? | Agrees? |
+|---|---|---|---|---|---|
+| 1 | Demat accounts, all depositories (Jun-26) | 23.2 Cr (CDSL 18.59 + NSDL 4.56) | CDSL Q1 FY27 deck https://nsearchives.nseindia.com/corporate/CDSL_01082026134647_NSEIntimation_InvestorPresentation.pdf ; NSDL Q1 FY27 deck https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de31aace-8ba0-402e-ba26-f4fb553b3a02.pdf | Y [V] | Yes |
+| 2 | CDSL BO accounts Mar-26 / Jun-26 | 18.01 Cr / 18.59 Cr; net adds 58 lakh Q1 FY27 | CDSL Q1 FY27 deck + transcript https://nsearchives.nseindia.com/corporate/CDSL_07082026155803_NSEintimationtranscript.pdf | Y [V] | Yes |
+| 3 | NSDL accounts FY24/FY25/FY26 | 3.58 / 3.95 / 4.44 Cr | NSDL AR FY26 https://www.bseindia.com/xml-data/corpfiling/AttachHis/a61bc02b-657b-4b53-892b-eb4b45f08350.pdf | Y [V] | **No — FY25/FY26 corrected (S13)** |
+| 4 | Industry demat FY21/FY22 | 55 mn / 90 mn | KFin Q4 FY25 deck (SEBI) https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79d4667c-ff2e-4ad9-b209-d3305aaa49b6.pdf | Y [V] | Yes (FY22 upgraded from K) |
+| 5 | CDSL incremental account share Jun-26 | 81.4% (−420 bps since Mar) | CDSL Q1 FY27 transcript (analyst's figure, undisputed) | Y [V] | Yes |
+| 6 | NSDL incremental net share Q1 FY27 | 17.6% (Q4 ~14%; Q1 FY26 ~15.5%) | NSDL Q1 FY27 transcript https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1254ef0-9cb0-4149-96f4-cb52825dc547.pdf | Y [V] | New (consistent with CDSL ~82%) |
+| 7 | CDSL FY26 consolidated operating revenue | ₹1,144.9 Cr (+5.8%) | CDSL AR FY26 https://archives.nseindia.com/annual_reports/AR_29665_CDSL_2025_2026_A_15773086_08072026190152.pdf (note 19) | Y [V] | Yes |
+| 8 | CDSL FY26 annual issuer charges | ₹456.4 Cr (+40.2%) | CDSL AR note 19 | Y [V] | Yes (growth now known) |
+| 9 | CDSL FY26 transaction charges | ₹239.5 Cr (−9.9%) | CDSL AR note 19 | Y [V] | Yes |
+| 10 | CDSL FY26 online data (KYC) charges | ₹149.5 Cr (−27.9%); ₹178.7 Cr incl. e-sign and e-KYC | CDSL AR note 19 | Y [V] | **No — was 197 (S1)** |
+| 11 | CDSL FY26 IPO/CA charges | ₹159.8 Cr | CDSL AR note 19 | Y [V] | Yes |
+| 12 | CDSL FY26 other income | ₹93.6 Cr (FV gain ₹39.2 Cr) | CDSL AR note 20 | Y [V] | Yes (₹93 Cr) |
+| 13 | CDSL FY26 PAT (consolidated, owners) | ₹455.1 Cr (−13.5%); standalone ₹468.2 Cr | CDSL AR MD&A / KPI page | Y [V] | Yes |
+| 14 | CDSL total assets 31-Mar-26 | ₹2,419.0 Cr | CDSL AR consolidated balance sheet | Y [V] | Yes |
+| 15 | CDSL treasury (cash + investments + deposits) | ₹1,677 Cr gross; ~₹1,605 Cr unencumbered | CDSL AR balance sheet, notes 4/6/11 | Y [V]/[E sum] | Narrows the range (S3) |
+| 16 | CDSL tariff per debit | ₹3.50 flat from 1-Oct-2024; ₹0.25 off for women first holders, MF and bond ISINs | https://www.cdslindia.com/DP/CurrentDPs.html | Y [V] | Yes (upgraded from V-snip) |
+| 17 | CDSL issuer folios | 38.73 Cr (Jun-26) vs 33.2 Cr a year ago (+17%) | CDSL Q1 FY27 transcript | Y [V] | Yes (adds YoY) |
+| 18 | CDSL DPS FY26 | ₹12.75 final | CDSL AR FY26 | Y [V] | Yes |
+| 19 | CVL KYC records | 10.62 Cr (Jun-26); AR: ">100 mn, over 70% market share" | CDSL Q1 deck; CDSL AR | Y [V] | Yes; share added |
+| 20 | KRA tariff reset | Create ₹20 → ₹5; fetch ₹35 → ₹28; Search API ₹0.25 | CDSL Q1 FY27 transcript (CVL head and MD) | Y [V company]; SEBI/KRA circular not found | Yes |
+| 21 | NSDL standalone FY26 revenue / PAT | ₹704.7 Cr / ₹360.6 Cr | NSDL AR FY26 | Y [V] | **New; replaces ~₹690 Cr [E] (S12)** |
+| 22 | NSDL Q1 FY27 consolidated revenue jump | +65.6% (₹312.0 → ₹516.6 Cr); NPBL ₹134.2 → ₹314.1 Cr | NSDL Q1 FY27 deck | Y [V] | Cause now explained (S12) |
+| 23 | NSDL custody-value share | ~86% (85.8%); ~₹535 lakh Cr | NSDL Q1 FY27 deck/transcript | Y [V] | Yes |
+| 24 | NSDL IPO price | ₹800 (OFS ₹4,010.95 Cr) | NSDL AR FY26 | Y [V] | Yes (upgraded from K) |
+| 25 | CAMS QAAUM share Q1 FY27 | 67.2% (ex-FoF ₹55.9 Tn) | CAMS Q1 FY27 deck https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb36cffa-352e-463d-b5c9-dc99ff304b8d.pdf | Y [V] | Yes |
+| 26 | CAMS Q4 FY26 AAuM growth | +21.0% YoY (₹55.1 Tn); FY26 avg ₹52.7 Tn (+19.3%) | CAMS Q4 FY26 deck https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2aad185c-60d6-4e7e-9355-daf00337ee01.pdf | Y [V] | **Resolves the "+21%" flag (S11)** |
+| 27 | CAMS asset-based yield FY25 / FY26 / Q1 FY27 | 2.33 / 2.08 / 2.04 bps | CAMS Q4 FY26, Q4 FY25, Q1 FY27 decks (mix % × revenue ÷ AAUM incl. FoF) | Y [V inputs; E ratio] | Extends; Q1 matches |
+| 28 | CAMS FY26 revenue / op. EBITDA / PAT attrib. | ₹1,516.2 Cr / ₹686.0 Cr (45.2%) / ₹476.0 Cr | CAMS Q4 FY26 deck | Y [V] | Yes |
+| 29 | CAMS FY26 DPS | ₹12.50 post-split (incl. ₹4 final) | CAMS AR FY26 https://www.bseindia.com/xml-data/corpfiling/AttachHis/9404e4ec-f6f9-45bd-8933-63227dcd5f4e.pdf | Y [V] | Yes vs [E]; primer wrong |
+| 30 | CAMS split date | effective 5-Dec-2025 (1:5) | CAMS AR FY26 | Y [V] | Yes (month) |
+| 31 | KFin QAAUM share Q1 FY27 | 32.8% (₹27.31 Tn) | KFin Q1 FY27 deck https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf87b284-279c-401c-bba4-8f3a494ffb7b.pdf | Y [V] | Yes |
+| 32 | KFin domestic-MF yield FY25 / FY26 | 3.64 / 3.37 bps | KFin Q4 FY26 deck https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69e6bce0-432e-4e6e-92de-127a5a7915b7.pdf | Y [V inputs; E ratio] | Extends |
+| 33 | KFin GA stake Sep-26 | 13.13% (GA Singapore Fund) + 0.93% (GA KFT) = 14.06% | Screener SHP API (BSE data) https://www.screener.in/api/3/1275381/investors/promoters/quarterly/ | Y [V] | **Reconciled (S8)** |
+| 34 | Ascent deal | 51% for ₹307.7 Cr; 49% put/call FV ₹579.1 Cr (₹618.8 Cr per MD&A) | KFin AR FY26 https://investor.kfintech.com/wp-content/uploads/2026/07/KFin-Technologies_AR_2025-26-1.pdf | Y [V] | **New (S9)** |
+| 35 | KFin FY26 DPS | ₹12 final (FY25 ₹7.50) | KFin AR FY26 | Y [V] | Yes (~₹12) |
+| 36 | AMFI AUM Sep-26 / Mar-26 / Mar-25 / Mar-24 | ₹82.64 / 73.73 / 65.74 / 53.40 lakh Cr | AMFI Sep-26 note https://www.amfiindia.com/uploads/AMFI_Monthly_Note_September2026_554f6604b6.pdf ; Mar-25 note https://www.amfiindia.com/Themes/Theme1/downloads/AMFIMonthlyNote_March2025.pdf | Y [V] | Yes (Sep-26, Mar-24 upgraded) |
+| 37 | SIP Sep-26; contributing accounts; SIP AUM | ₹32,490 Cr (+10.7% YoY); 10.06 Cr; ₹17.86 lakh Cr | AMFI Sep-26 note | Y [V] | Yes (upgraded from V-snip) |
+| 38 | Annual SIP FY24 / FY25 / FY26 | ₹1.99 / 2.89 / 3.50 lakh Cr | AMFI Mar-25 and Sep-25 notes + Mar-26 note | Y [V] | Yes (upgraded from K/E) |
+| 39 | SEBI MF Regs 2026 brokerage caps; RTA fee inside BER | 6 bps cash / 2 bps derivatives excl. levies; registrar services = BER expense | SEBI PR 84/2025 https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1765977060104.pdf ; Regs https://www.sebi.gov.in/sebi_data/attachdocs/jul-2026/1783933012694.pdf | Y [V] | Yes; RTA point now [V] |
+| 40 | F&O active individual traders FY25 → FY26 | 106.2 → 87.5 lakh (−18%); losses ₹91,685 Cr | SEBI study https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1787233506209.pdf | Y [V] | **No — trader counts corrected (S4)** |
+
+**Count: all 40 were fetched this session; 38 are [V] from the issuer's, regulator's or industry body's own document.** Row 20 rests on the company's transcript, not the SEBI circular, and row 33 on screener's reproduction of the BSE shareholding pattern. Ratios built on [V] inputs are marked E. **Six rows correct Parts 1–3:** rows 3, 10, 15, 26, 33 and 40, plus the related items S1–S9.
+
+**Two-source checks and conflicts:**
+- CDSL FY26 PAT: ₹455 Cr on screener = ₹455.08 Cr owners' share in the AR.
+- CAMS FY26 PAT: ₹472 Cr on screener vs ₹476.0 Cr in the deck (NCI); both are [V]; the basis difference is already explained in Part 1.
+- KFin FY26 EBITDA: ₹529.7 Cr in the deck = ₹530 Cr on screener.
+- KRA share: CDSL's ">70%" is a self-claim, and its basis is not stated. On records (CVL 10.6 Cr vs CAMS 2.1 Cr and NDML 2.0 Cr, plus KFin KRA, n/d) it is plausible. Prefer "about two-thirds to three-quarters of KYC records". CAMS's own "~20%" in the deck is probably a share of new KYC flow.
+- Ascent liability: note 42 gives ₹579.1 Cr; the MD&A gives ₹618.8 Cr. The note is the acquisition-date fair value; the MD&A figure is most likely the 31-Mar-26 carrying value after unwinding and FX. Use "~₹580–620 Cr".
+
+## 4.2 Per-company deep dives (primary documents)
+
+### 4.2.1 CDSL — Central Depository Services (India) Ltd (NSE: CDSL)
+
+**A. Management commentary digest (paraphrased)**
+
+*Q1 FY27 call, 3-Aug-2026 (MD & CEO Nehal Vora, CFO Girish Amesara, CVL head Sunil Alvares) [V]*
+- **No guidance, as a matter of policy.** Management repeatedly declined forward-looking statements and describes CDSL as "a market infrastructure company" whose income is "market volume driven and rate driven".
+- **Issuer charges.** Growth (+12.3% YoY) is "formula-driven… it is what it is". Folios were 38.73 Cr vs ~33.2 Cr a year earlier (+17%), so revenue per folio fell.
+  - Management agreed the gap is the unlisted piece "on a quarter-on-quarter basis".
+  - Revenue from admitting unlisted companies fell to ₹0.3 Cr in Q1 from ₹3.5 Cr in Q4, after MCA narrowed the "small company" definition.
+  - CDSL does not split listed vs unlisted annual fees.
+- **KYC (CVL).**
+  - The SEBI-recommended tariff cut (from 1-Apr-2026: fetch ₹35 → ₹28, create ₹20 → ₹5) was partly offset by higher fetch volumes and the new ₹0.25 Search-API charge, and SEBI's direction applies to all KRAs.
+  - Mix is ~80% fetch / 20% create by revenue (Q4 call). The blended price cut is therefore ~31% [E: 0.8 × 20% + 0.2 × 75%], close to CAMS's "~29% market-wide rate revision".
+- **Technology spend.** Management would not say whether the heavy lifting is done: regulatory requirements "keep on changing". In the Q4 FY26 call (May-2026) it put annual tech investment at **~₹240–250 Cr: ~₹160 Cr of tech opex + ₹80–100 Cr of capex**.
+- **Competition.** An analyst said CDSL's incremental share fell ~420 bps since March to 81.4% as a rival "reduced onboarding friction" for fintech brokers. Management did not dispute the number. NSDL's own call (31-Jul) says fintech brokers now bring ~20% of its new accounts, up from ~2%.
+- **Other income Q1 FY27 = ₹75 Cr:**
+  - e-CAS ₹14.8 Cr
+  - e-voting ₹6.3 Cr
+  - investment MTM + accrual ₹43.8 Cr
+  - other operating ₹6 Cr
+  - misc ₹3.9 Cr
+  - Margin-pledge income ₹6.19 Cr is inside these lines. Treasury is mainly debt MFs with 5–7% in ETFs; tax rate ~25.2%.
+
+*Q4 FY26 call, May-2026 [V]*
+- Management claimed a "consistently incremental market share of 85% to 90%" for FY26. The analyst's 81.4% in Jun-26 is the later, lower figure — use the latter.
+- **CVL FY26 (standalone subsidiary):**
+  - Revenue **₹182 Cr vs ₹231 Cr (−21%)**; total income ₹198.2 Cr vs ₹254.9 Cr.
+  - PBT ₹74.1 Cr vs ₹146.5 Cr.
+  - **PAT ₹55.4 Cr vs ₹110.0 Cr (−50%)** — before the KRA tariff cut took effect.
+- Q4 FY26 other-income detail: e-CAS ₹12.1 Cr; e-voting ₹5.6 Cr; pledge ₹6.3 Cr; application-processing fees ₹3 Cr; impairment (debtor provision) ₹7.6 Cr.
+
+**B. Concall / deck KPI table (consolidated unless stated)**
+
+| KPI | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|---|---|
+| BO accounts, period-end (lakh) | 1,586 | 1,651 | 1,727 | 1,801 | 1,859 | Deck [V] |
+| Net adds (lakh) | 57 | 65 | 76 | 74 | 58 | Deck [V] |
+| Annual issuer income (₹ Cr) | 114 | 115 | 113 | 114 | 128 | Deck bars; FY26 456.4 per AR [V] |
+| Transaction charges (₹ Cr) | 62 | 59 | 60 | 59 | 66 | Deck; FY26 239.5 [V] |
+| IPO/CA (₹ Cr) | 21 | 62 | 59 | 17 | 27 | Deck; FY26 159.8 [V] |
+| "Online data" incl. e-sign/e-KYC (₹ Cr) | 36 | **46** | **49** | 49 | 45 | Deck, corrected (S2) [V] |
+| Other (e-CAS, e-voting, misc. operating + other income) (₹ Cr) | 62 | **59** | **53** | 29 | 75 | Deck, corrected (S2) [V] |
+| Total income (₹ Cr) | 295 | 341 | 334 | 268 | 341 | Deck [V] |
+| Expenses incl. D&A and tax per deck bars (₹ Cr) | 193 | 201 | 201 | 188 | 223 | Deck [V] |
+| PAT (₹ Cr) | 102 | 140 | 133 | 80 | 118 | Deck / screener [V] |
+| Issuer folios (Cr) | ~33.2 | — | — | — | 38.73 | Transcript [V] |
+| CVL KYC records (Cr) | — | — | — | 10.35 | 10.62 | Deck [V] |
+| CVL revenue (₹ Cr) | 36 | — | — | FY26: 182 | 45 | Transcripts [V] |
+
+**C. Five-year history (screener consolidated, re-pulled 22-Oct-26) [V]**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | 4-yr CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 551 | 555 | 812 | 1,082 | 1,145 | 20.1% |
+| Operating profit (ex-OI) | 365 | 319 | 488 | 625 | 582 | 12.4% |
+| OPM % | 66 | 57 | 60 | 58 | 51 | — |
+| Other income | 55 | 66 | 95 | 119 | 93 | — |
+| D&A | 11 | 19 | 27 | 49 | 66 | — |
+| PAT | 312 | 276 | 420 | 526 | 455 | 9.9% |
+| EPS (₹, bonus-adjusted) | 14.89 | 13.20 | 20.05 | 25.20 | 21.82 | — |
+| Dividend payout % | 50 | 61 | 55 | 50 | 58 | — |
+| ROCE % | 40 | 30 | 40 | 42 | 32 | — |
+
+- **Standalone KPI page in the AR [V]:**
+  - Total income FY22–FY26: 480.2 / 544.1 / 742.9 / 984.6 / 1,095.9.
+  - Annual issuer income: 115.4 / 183.2 / 254.6 / 325.6 / 456.4 (5-yr CAGR 40%).
+  - Transaction charges: 199.5 / 158.7 / 221.6 / 265.9 / 239.5.
+  - IPO/CA: 60.5 / 49.8 / 91.7 / 161.8 / 159.8.
+  - Standalone PAT: 263.8 / 272.1 / 363.3 / 462.1 / 468.2.
+- **Issuer income has quadrupled in four years and is now the anchor.** Transaction charges in FY26 were only 20% above FY22.
+
+**D. Eight-quarter trend (screener consolidated) [V]**
+
+| ₹ Cr | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 322 | 278 | 224 | 259 | 319 | 304 | 263 | 293 |
+| OP | 200 | 161 | 109 | 130 | 176 | 160 | 116 | 138 |
+| OPM % | 62 | 58 | 49 | 50 | 55 | 52 | 44 | 47 |
+| Other income | 37 | 21 | 32 | 36 | 22 | 29 | 6 | 48 |
+| PAT | 162 | 130 | 100 | 102 | 140 | 133 | 80 | 118 |
+
+- Q4 FY26 other income of ₹6 Cr reflects the March-2026 MTM hit, which shows the treasury sensitivity. Q1 FY27 bounced to ₹48 Cr.
+- After the 7-Oct-2026 repo hike, expect a weaker Q2/Q3 treasury line [E].
+
+**E. Annual-report findings (FY26) [V]**
+- **Revenue structure — the four biggest moves:**
+  - Annual issuer +40%.
+  - Transactions −10%.
+  - IPO/CA +1%.
+  - Online data −28%.
+  - Revenue recognised "over time" (issuer-type annuity) rose to **₹471.7 Cr (41% of revenue)** from ₹338.4 Cr (31%). "Point in time" (activity-linked) revenue fell to ₹673.2 Cr from ₹743.8 Cr. **CDSL's revenue became materially more annuity-like in FY26.**
+- **Costs:**
+  - Employee cost +28% (₹156.5 Cr).
+  - Computer-technology expenses **+43% (₹162.2 Cr)**.
+  - D&A +35%.
+  - Inter-KRA charges paid ₹25.4 Cr (₹31.9 Cr in FY25) — CVL pays other KRAs when its intermediaries fetch their records.
+  - The MD&A says employee and technology costs are "largely fixed in nature".
+- **Balance sheet:** treasury ₹1,677 Cr gross (S3); MF units ₹726.7 Cr and ETFs ₹77.9 Cr carry price risk (a 5% move = ±₹40 Cr post-tax). Equity attributable ₹1,959.8 Cr; NCI ₹42.5 Cr (CIRL, CCRL).
+- **Regulatory:**
+  - **IPF contribution** is set at 5% of profit from depository operations (provision ₹23.8 Cr in FY26).
+  - **SEBI levied a ₹3 Cr "financial disincentive" (letter 7-Apr-2025) for technical glitches in 2021–24**, paid into CDSL IPF on 15-Apr-2025.
+  - BSDA rules require depositories to pay DPs ₹100 per new BSDA outside the top-15 cities, funded by issuer-charge increments.
+- **Contingent liabilities are small:** bank guarantee ₹0.8 Cr; income tax ₹1.9 Cr; arbitral awards from terminated DPs BRH Wealth Kreators and Anugrah Stock & Broking ₹8.9 Cr, under appeal.
+- **Network and market:**
+  - 585 DPs at 31-Mar-2026.
+  - MD&A "threats": industry new demat additions fell to **30.63 mn in CY2025 from 46 mn in CY2024**; industry demat accounts >22.45 Cr at FY26-end.
+- **Related parties:** BSE (15% promoter) is a related party. No royalty-type flows are disclosed; dealings with associate/subsidiaries are ordinary-course (dividend from CVL ₹62 Cr in FY26).
+
+### 4.2.1a NSDL context pack upgrades (peer, not a member)
+
+**Q1 FY27 call, 31-Jul-2026 (MD & CEO Vijay Chandok; NSDL Payments Bank CEO; CFO) [V]**
+- Custody ~86% of value (~₹535 lakh Cr, ~US$5.7 tn; 80% equity).
+- Net incremental account share 17.6% (Q4 ~14%; Q1 FY26 ~15.5%); 12.4 lakh net adds vs 10.4 lakh.
+- Fintech brokers' share of NSDL's new accounts ~20% (from ~2% "a few quarters back"). DPs: +21 in FY26, +6 in Q1.
+- e-voting market share 64% (61%).
+- Issuer base >1.15 lakh. Custody-fee growth is attributed to bringing ~33,000 (FY25) and ~30,000 (FY26) unlisted companies into the NSDL fold.
+- **Payments bank:** margins were hit by "upfront onboarding revenue sharing" on a specific card-partner project — a joining fee "virtually a pass through". Onboarding "peaked in this quarter", so normal transaction revenue follows from Q2.
+- NPBL ranks among the top-34 UPI remitter banks and is 6th as a payee PSP.
+
+**Financials [V]**
+
+| ₹ Cr | FY25 | FY26 | YoY | Source |
+|---|---|---|---|---|
+| Standalone revenue | 618.6 | 704.7 | +13.9% | AR |
+| — custody fees | 235.1 | 312.4 | +32.8% | AR note 19 |
+| — transaction fees | 122.2 | 142.5 | +16.6% | AR note 19 |
+| — CA/IPO | 106.8 | 87.0 | −18.5% | AR note 19 |
+| — settlement | 67.7 | 56.0 | −17.3% | AR note 19 |
+| — e-voting | 44.4 | 46.4 | +4.5% | AR note 19 |
+| — CAS | 20.7 | 21.7 | +4.8% | AR note 19 |
+| — annual fees | 17.2 | 32.3 | +88% | AR note 19 |
+| Standalone total income | 731.4 | 835.1 | +14.2% | AR |
+| Standalone PAT | 321.6 | 360.6 | +12.1% | AR |
+| NDML total income / PAT | — | 96.9 / 26.9 | — | AR |
+| NPBL total income / PAT | — | 747.9 / 15.2 | — | AR |
+| Consolidated revenue (incl. banking ₹746.8 Cr) | 1,420.2 | 1,530.0 | +7.7% | AR note 21 |
+| Accounts, active (Cr, Mar) | 3.95 | 4.44 | +12.4% | AR |
+| DPs | 294 | 311 | — | AR KPI page |
+
+- **Revenue per account:**
+  - NSDL standalone ≈ ₹704.7 Cr ÷ 4.20 Cr average accounts = **~₹168/yr**.
+  - CDSL ≈ ₹1,144.9 Cr ÷ 16.65 Cr = **~₹69/yr** (2.4×) [E].
+  - The gap is NSDL's custody fees on institutional and unlisted holdings.
+- **Depository fee pool FY26 = CDSL ₹1,144.9 Cr + NSDL standalone ₹704.7 Cr = ₹1,850 Cr [V sum]**, the top of Part 1's ₹1,800–1,900 Cr range. CDSL takes 61.9% of depository revenue. On total income, standalone basis, the split is CDSL ₹1,095.9 Cr vs NSDL ₹835.1 Cr = **56.8% / 43.2%** — exactly NSDL's quoted "43.2% total-income share".
+- **Q1 FY27 consolidated:**
+  - Revenue ₹516.6 Cr (+65.6%); other expenses ₹357.5 Cr (+105%).
+  - Operating profit ₹85.0 Cr (OPM 16.4% vs 26.8%); PAT ₹98.3 Cr (+9.7%).
+  - **~₹180 Cr of the ₹205 Cr revenue increase is NPBL** [V deck; E share].
+- **Ownership (Jun-26):** NSE 15.0%, IDBI Bank 15.0%, HDFC Bank 6.9%, SUUTI 5.1%, Deutsche Bank 3.6%, HSBC 3.1%, Citibank 3.1%, SBI 3.0%, Union Bank 2.6%, Canara 2.3% [V deck]. **NSE still holds 15% of NSDL** — this resolves Part 1's "NSE must cut" flag: NSE sits at the cap.
+- NDML (Jun-26): KRA with 20.2 mn KYC records and 1,995 intermediaries; National Insurance Repository ~16.3 mn policies (36% share); RTA for 9,993 issuers (29,030 ISINs) [V deck].
+
+### 4.2.2 CAMS — Computer Age Management Services Ltd (NSE: CAMS · BSE 543232)
+
+**A. Management commentary digest (paraphrased)**
+
+*Q1 FY27 call, 4-Aug-2026 (MD & CEO Anuj Kumar, CFO Ram Charan) [V]*
+- **The one-time pricing adjustment is behind us.** After FY26's reset, operating EBITDA margin has climbed back over 4–5 quarters to 46.4%; the CEO says the reset is now "in the background". In Q1 there was no quarter-on-quarter yield decline.
+- **FY27 guidance:**
+  - revenue ~13%
+  - operating EBITDA ~16%
+  - MF revenue ≥12%
+  - **non-MF ≥20% blended** ("22–23% if lucky")
+  - non-MF share ~16% of revenue by year-end (14.9% in Q1)
+  - costs ex-D&A <10% YoY (Q1 <7%)
+  - average headcount −4–5% (Q1 −2–3%)
+  - appraisals deferred to 1-Jul, so Q2 carries a cost step-up
+- **Volumes:**
+  - Serviced QAAUM ~₹56 lakh Cr in Q1; "July has been a lot better" (April–June muted).
+  - Equity AUM grew ahead of the industry (+16% vs market).
+  - SIP collections just short of ₹60,000 Cr in the quarter.
+- **New asset classes:**
+  - SIFs went from zero (first launch early Oct-2025) to 11 launched, 3–4 more coming, ~₹1,000 Cr of inflow in the quarter (deck: >₹10,000 Cr AUM).
+  - GIFT City retail funds growing.
+  - New AMCs (ASK, Carnelian, Oaklane, Neo) "will definitely go live before December".
+- **Non-MF businesses:**
+  - CAMSPay is growing fast, but margins "will remain limited" because of bank charges.
+  - Alternatives grew mid-20s with AUA >₹3.2 lakh Cr and 50 new mandates.
+  - The KRA price cut weighed on Q1 (revenue −2.6%); management expects KRA to look better from Q2.
+- **Platform and AI:**
+  - Fundsnet (the new MF platform) go-live planned for Sep-2026, with the old platform deprecated during FY27.
+  - AI at the "maker layer" already accepts ~10% of physical transactions, with all eight transaction types by Nov-2026. This underpins the headcount guidance.
+
+*AR FY26 (directors' report, MD&A) [V]*
+- Five new mandates out of nine new AMCs (Carnelian, ASK, AlphaGrep, Oaklane, Neo).
+- **Taurus AMC migrated to CAMS from the competitor**; Choice and Jio BlackRock launched; first international RTA client (Ceybank AMC, Sri Lanka).
+- CAMS is one of "three QRTAs" (RTAs with more than 2 crore folios get SEBI's "qualified RTA" governance regime).
+- CAMS KRA holds 2.07 Cr records and became #2 after buying **NSE's KRA business** during FY26; an IFSCA (GIFT) KRA branch is planned.
+- FY26 operating data:
+  - transactions 107 Cr (+20%)
+  - new SIP registrations 4.7 Cr (+17%)
+  - SIP gross sales ₹2.2 lakh Cr (30% of CAMS equity gross sales)
+  - live SIPs 6.7 Cr (+17%)
+  - equity net sales ₹3.4 lakh Cr (**−3%**)
+- CAMSfinserv (AA) exited FY26 with 235 live / 140 billed clients in a 17-licensee market.
+
+**B. KPI table (company decks) [V]**
+
+| KPI | FY24 | FY25 | FY26 | Q4 FY25 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|
+| Avg AAuM ex-FoF (₹ Tn) | ~33.0 | 44.1 (+33.6%) | 52.7 (+19.3%) | 45.6 | 55.1 (+21.0%) | 55.9 (+14.8%) |
+| AAuM incl. FoF (₹ Tn) | n/a | 44.6 | 53.68 | 46.10 | 56.59 | 57.33 |
+| Industry AAuM (₹ Tn) | — | 65.3 | 78.0 | 67.4 | 81.5 | 83.1 |
+| Market share | ~68% | ~68% | ~68% | ~68% | ~68% | 67.2% |
+| Revenue mix: asset / non-asset MF / non-MF (%) | 73.0 / 13.9 / 13.1 | 73.2 / 13.8 / 13.0 | 73.5 / 12.2 / 14.3 | 72.6 / 13.7 / 13.7 | 73.0 / 11.7 / 15.3 | 74.1 / 11.0 / 14.9 |
+| Revenue (₹ Cr) | 1,136.5 | 1,422.5 | 1,516.2 | 356.2 | 395.2 | 395.0 |
+| **Asset-based yield (bps, incl. FoF)** [E] | ~2.51* | 2.33 | **2.08** | 2.24 | 2.04 | 2.04 |
+| All-MF yield (bps) [E] | ~2.99* | 2.78 | 2.42 | 2.67 | 2.37 | 2.35 |
+| Equity share of AAuM | — | 54.0% | 53.8% | 53.6% | 53.5% | 54.3% |
+| Unique investors (Cr) | — | 4.04 | 4.76 | 4.04 | 4.76 | 4.85 |
+| Live folios (mn) | — | — | 114.1 | 94.2 | 114.1 | 116.2 |
+| Op. EBITDA margin | — | 46.1% | 45.2% | 44.9% | 46.5% | 46.4% |
+| Cash & equivalents (₹ Cr) | — | — | 854.45 (Mar-26) | — | 854.45 | 971.45 |
+
+\*FY24 on ex-FoF AAuM (no FoF-inclusive figure is published), so slightly overstated. FY26 revenue growth by line: asset-based +7.1%, non-asset −6.2%, MF +5.0%, non-MF +17.3% [V].
+- **Read:** asset-based yield fell **~11% in FY26** (2.33 → 2.08 bps) — the "one-time pricing adjustment". It has been flat for three quarters since (2.04–2.05 bps).
+- Asset-based revenue grew 7.1% on AUM incl. FoF +20.4%: the FY26 wedge was ~13 points, at the top of Part 1's −9 to −13 range.
+
+**C. Five-year history (screener consolidated) [V]**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | 4-yr CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 910 | 972 | 1,137 | 1,422 | 1,516 | 13.6% |
+| OP | 424 | 421 | 505 | 652 | 683 | 12.7% |
+| OPM % | 47 | 43 | 44 | 46 | 45 | — |
+| D&A | 52 | 60 | 70 | 78 | 99 | — |
+| PAT | 287 | 285 | 351 | 465 | 472 | 13.2% |
+| EPS (₹, post-split) | 11.74 | 11.64 | 14.39 | 19.03 | 19.20 | — |
+| Payout % | 66 | 65 | 65 | 76 | 65 | — |
+| ROCE % | 56 | 46 | 48 | 54 | 47 | — |
+
+**D. Eight quarters (screener consolidated) [V]**
+
+| ₹ Cr | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 365 | 370 | 356 | 354 | 377 | 390 | 395 | 395 |
+| OP | 170 | 173 | 159 | 154 | 168 | 179 | 183 | 182 |
+| OPM % | 47 | 47 | 45 | 43 | 44 | 46 | 46 | 46 |
+| PAT | 121 | 124 | 113 | 108 | 114 | 125 | 125 | 127 |
+
+The dip-and-recovery is visible: OPM 47% → 43% (Q1 FY26, the reset quarter) → 46%. Revenue is flat at ₹395 Cr for two quarters while AUM ex-FoF rose only 1.4% QoQ.
+
+**E. Annual-report findings [V]**
+- **Capital and dividends:**
+  - FY26 DPS ₹12.50 post-split (three interims + ₹4 final; S15).
+  - Split effective 5-Dec-2025 (S16).
+  - Paid-up capital 24.80 crore shares of ₹2 (ESOP allotments continue).
+- **Ownership and related parties:** no promoter, hence no promoter related-party flows. MF Central is a 50:50 JV with KFin (share of loss ₹0.76 Cr). Think360 AI (55%) and Fintuple carry a negative NCI.
+- **Platform risk:** CWIP rose to ₹89 Cr (₹44 Cr in FY25) as Fundsnet is capitalised (screener [V]). D&A will step up once it goes live — another reason EBITDA guidance (+16%) beats likely PAT growth [E].
+
+### 4.2.3 KFin Technologies Ltd (NSE: KFINTECH · BSE 543720)
+
+**A. Management commentary digest (paraphrased)**
+
+*Q1 FY27 call, 27-Jul-2026 (MD & CEO Sreekanth Nadella; WTD & CFO Vivek Mathur) [V]*
+- **Guidance unchanged:** revenue 18–20% CAGR; EBITDA margin 40–45%; **≥40% including Ascent by the end of FY27**. Management expects "sizable expansion" in margins from Q2 as cost initiatives flow through.
+- **Ascent:**
+  - EBITDA margin 8.4% in Q1; double digits by year-end, then "at least finite basis points every single year".
+  - EBITDA-accretive to the group "by the end of this year or early next year".
+  - Reaching KFin-level margins takes "three to five years".
+  - Larger single-client mandates (one US$100 mn fund vs many US$200 mn aggregates) are the margin lever.
+- **Yields:** the CEO frames yield as three factors — price, mix, and which AMCs grow (telescopic pricing). Q1's ~2% QoQ decline was ~30% mix (debt → liquid). Normal erosion is "maybe 3-odd percent in a year".
+- **Business outlook:**
+  - Issuer solutions: guides to "slightly tepid corporate action" in the near term and notes slower net new folios industry-wide despite IPOs.
+  - Alternatives/wealth/PMS has broken even and should become one of the highest-margin lines.
+  - International ex-Ascent grew ~32%.
+
+*Ascent acquisition call, 16-Apr-2025 [V]*
+- Ascent had ~US$13.5 mn revenue in the six months to early 2025 and was growing >35% YoY; it supported ~576 funds.
+- Its FY24 EBITDA was −US$0.7 mn, and it turned positive in H1 FY25.
+- Terms: pre-money US$63 mn, post US$68 mn, "<4× revenue".
+- KFin pays ~₹300 Cr (US$34.7 mn) from internal cash for 51%. The 49% follows in three 16.3% tranches (FY28–FY30) at EBITDA-linked prices.
+
+**B. KPI table (fact sheets) [V]**
+
+| KPI | Q4 FY24 | FY25 | Q4 FY25 | Q1 FY26 | FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|
+| Domestic-MF revenue (₹ Cr) | 159.0 | 770.4 | 197.0 | 201.4 | 852.8 | 213.2 | 215.2 |
+| AAUM (₹ bn; Q = last-qtr avg; FY = yearly avg) | 17,400 | 21,178.5 | 21,853.2 | 23,452.9 | 25,323.0 | 26,435.4 | 27,306.2 |
+| **Dom-MF yield (bps)** [E] | 3.66 | **3.64** | 3.61 | 3.43 | **3.37** | 3.23 | 3.15 |
+| AAUM share | — | 32.4% | 32.4% | 32.5% | 32.5% | 32.4% | 32.8% |
+| Equity AAUM share (last qtr) | — | 33.1% | 33.1% | 33.0% | 32.1% | 32.1% | 32.4% |
+| SIP inflows (₹ bn) | — | 1,135.5 | 308.5 | — | 1,323.3 | 340.7 | 341.7 |
+| **SIP live folios (mn)** | — | 43.4 | 43.4 | — | 37.5 | 37.5 | 37.9 |
+| Avg live MF folios (mn) | — | 103.9 | 103.9 | 106.4 | 117.0 | 117.0 | 118.1 |
+| MF transactions (mn) | — | 503.4 | 134.3 | 135.0 | 588.1 | 158.0 | 159.1 |
+| Issuer clients / folios (mn) | — | — | — | 8,867 / 162.9 | 10,603 / 166.9 | 10,603 / 166.9 | 11,275 / 174.8 |
+| Ascent clients / funds / AAUM (US$ bn) | — | — | — | 309 / 667 / 26.4 | 390 / 818 / 32.8 | 390 / 818 / 32.8 | 394 / 836 / 36.3 |
+| KFintech SEA clients / AAUM (₹ bn) | — | 76 / 812.7 | 76 / 812.7 | 82 / 863.6 | 109 / 1,162.6 | 109 / 1,162.6 | 117 / 1,265.6 |
+
+- **Read:** KFin's yield fell ~7% in FY26 on an annual basis and ~10.6% Q4-on-Q4 — as large a reset as CAMS's, just less advertised.
+- The fall in SIP live folios (43.4 → 37.5 mn) while SIP inflows rose 16.5% suggests a clean-up of dormant SIP registrations or a definitional change. Ask management on the 27-Oct call [E/flag].
+- FY24 domestic-MF revenue was ₹576.95 Cr (FY25 +33.5%) [V Q4 FY25 deck].
+
+**C. Five-year history (screener consolidated) [V]**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | 4-yr CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 640 | 720 | 838 | 1,091 | 1,301 | 19.4% |
+| OP | 288 | 298 | 364 | 479 | 530 | 16.5% |
+| OPM % | 45 | 41 | 43 | 44 | 41 | — |
+| D&A | 37 | 47 | 53 | 64 | 86 | — |
+| PAT | 149 | 196 | 246 | 333 | 344 | 23.3% |
+| EPS (₹) | 8.87 | 11.57 | 14.39 | 19.33 | 19.92 | — |
+| Payout % | 0 | 0 | 40 | 39 | 60 | — |
+| ROCE % | 34 | 29 | 30 | 33 | 29 | — |
+
+**D. Eight quarters (screener consolidated) [V]**
+
+| ₹ Cr | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 280 | 290 | 283 | 274 | 309 | 371 | 347 | 357 |
+| OP | 127 | 131 | 122 | 114 | 136 | 152 | 128 | 122 |
+| OPM % | 45 | 45 | 43 | 41 | 44 | 41 | 37 | 34 |
+| Other income | 11 | 9 | 10 | 10 | 11 | −2 | 11 | 10 |
+| PAT | 89 | 90 | 85 | 77 | 93 | 92 | 81 | 75 |
+
+- Ex-Ascent EBITDA margin (company): Q3 FY26 46.3% → Q4 FY26 41.9% → Q1 FY27 39.4%; FY26 43.5% [V deck].
+- **Even ex-Ascent, margins fell ~7 points over two quarters.** Domestic-MF yield erosion plus investment (people, CISO, platforms) explain it — not only Ascent [E].
+
+**E. Annual-report findings [V]**
+- **Ascent (note 42):**
+  - Consideration ₹307.7 Cr for 51%; deferred and contingent consideration ₹579.1 Cr; total ₹886.8 Cr.
+  - Net assets acquired ₹267.8 Cr, including customer relationships and brand valued by MEEM and relief-from-royalty. **Goodwill ~₹619 Cr** [E: 886.8 − 267.8].
+  - Ascent contributed **₹99.4 Cr revenue and ₹2.1 Cr PBT** (1-Oct-25 to 31-Mar-26).
+  - Pro forma for a full year, revenue would have been ₹81.4 Cr higher and **profit ₹41.7 Cr lower**, so Ascent was loss-making in Apr–Sep 2025.
+  - Acquisition costs ₹7.8 Cr. Effective consolidation date 1-Oct-2025.
+  - **Changes in the put liability's fair value go to other equity, not the P&L**, so a stronger Ascent raises the liability without hitting EPS.
+- **Balance sheet:** the jump in "other liabilities" (₹296 → ₹1,041 Cr on screener) is mostly this ₹580–620 Cr put plus Ascent's working capital. MD&A: current liabilities +59% to ₹272.3 Cr.
+- **Dividend:** final ₹12/share recommended 29-Apr-2026 (FY25 ₹7.50).
+- **Governance and related parties:** GA Singapore Fund was the "sole promoter" and has nominee directors; Kotak Mahindra Bank has a nominee. KFin is a "Qualified RTA" and a SEBI-registered fund administrator.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. MF industry closing AUM (₹ lakh Cr)**
+- Sources: AMFI Sep-26 note (amfiindia.com) [V]; Mar-25 note [V]; CAMS AR FY26 for Mar-21 [V]; Mar-22 [K].
+
+| Mar-21 | Mar-22 | Mar-23 | Mar-24 | Mar-25 | Mar-26 | Sep-23 | Sep-25 | Aug-26 | Sep-26 |
+|---|---|---|---|---|---|---|---|---|---|
+| 31.43 | 37.57 [K] | 39.42 | 53.40 | 65.74 | 73.73 | 46.58 | 75.61 | **87.08 (peak)** | 82.64 |
+
+- Sep-26 is −5.1% MoM and +12.1% in H1 FY27 (vs Mar-26), but only **+9.3% YoY**. Aug-2026 was the all-time high (₹87,07,888 Cr).
+- The September fall was MTM losses plus **₹1.83 lakh Cr of debt outflows** (advance-tax season).
+
+**D2. AUM by category, ₹ Cr (AMFI Sep-26 note) [V]**
+
+| Category | Sep-25 | Mar-26 | Aug-26 | Sep-26 | YoY |
+|---|---|---|---|---|---|
+| Equity | 33,68,315 | 31,97,698 | 39,21,147 | 37,54,275 | +11.5% |
+| Debt | 17,79,828 | 16,51,502 | 19,33,476 | 17,64,044 | −0.9% |
+| Hybrid | 10,32,911 | 10,34,774 | 11,85,966 | 11,52,158 | +11.5% |
+| Passive (index + ETF) | 12,64,717 | 13,73,428 | 15,41,732 | 14,70,443 | +16.3% |
+| FoF overseas | 34,424 | 38,287 | 48,548 | 48,803 | +41.8% |
+| Solution-oriented / life-cycle | 55,782 | 52,925 | 61,461 | 59,498 | +6.7% |
+| Close-ended / interval | 25,332 | 24,763 | 15,557 | 14,895 | −41.2% |
+| **Total** | **75,61,309** | **73,73,377** | **87,07,888** | **82,64,117** | **+9.3%** |
+
+- Equity is 45.4% of AUM (Sep-26). This mix drives RTA yields: equity pays the highest slab rates.
+
+**D3. Monthly SIP contributions (₹ Cr) — complete series Apr-25 to Sep-26**
+- Sources: AMFI Sep-25, Mar-26 and Sep-26 notes [V all].
+
+| Apr-25 | May-25 | Jun-25 | Jul-25 | Aug-25 | Sep-25 | Oct-25 | Nov-25 | Dec-25 |
+|---|---|---|---|---|---|---|---|---|
+| 26,632 | 26,688 | 27,269 | 28,464 | 28,265 | 29,361 | 29,529 | 29,445 | 31,002 |
+
+| Jan-26 | Feb-26 | Mar-26 | Apr-26 | May-26 | Jun-26 | Jul-26 | Aug-26 | Sep-26 |
+|---|---|---|---|---|---|---|---|---|
+| 31,002 | 29,845 | 32,087 | 31,115 | 30,954 | 31,781 | 31,961 | 32,297 | 32,490 |
+
+- **Annual SIP: FY24 ₹1,99,224 Cr; FY25 ₹2,89,356 Cr; FY26 ₹3,49,589 Cr (+20.8%); H1 FY27 ₹1,90,598 Cr (+14.3% vs H1 FY26 ₹1,66,679 Cr)** [V; sums E].
+- Sep-26 YoY is +10.7%, so SIP growth is decelerating into the low teens.
+- Dec-25 and Jan-26 both print ₹31,002 Cr in AMFI's Mar-26 note — possibly a typo in the note; leave as published.
+
+**D4. SIP accounts, SIP AUM and folios**
+- Source: AMFI notes [V].
+
+| Month-end | Contributing SIP accounts (Cr) | SIP AUM (₹ lakh Cr) | SIP AUM % of industry | Folios (Cr) |
+|---|---|---|---|---|
+| Mar-24 | — | — | — | ~17.78 [E from +31.85%] |
+| Mar-25 | 8.11 | 13.35 | 20.3 | 23.45 |
+| Sep-25 | 9.25 | 15.52 | 20.5 | 25.19 |
+| Mar-26 | 9.72 | 15.11 | — | 27.39 |
+| Jun-26 | 9.78 | 17.70 | 21.5 | — |
+| Aug-26 | 10.02 | 18.62 | 21.4 | 28.35 |
+| Sep-26 | 10.06 | 17.86 | 21.6 | 28.62 |
+
+**D5. Equity-fund net inflows (₹ Cr), AMFI Sep-26 note [V]**
+- Mar-26 40,450 · Apr-26 38,440 · May-26 22,908 · Jun-26 28,973 · Jul-26 24,697 · Aug-26 29,329 · Sep-26 38,307 (67th straight positive month).
+- Debt, same months: −2,94,987 · +2,47,490 · −96,949 · −1,09,054 · +1,87,511 · −8,127 · −1,83,156.
+- **Debt flows swing the industry AUM (and RTA liquid-fund AUM) by ±₹2–3 lakh Cr a month.** This is why QAAUM, not month-end AUM, is the right RTA driver.
+
+**D6. Demat accounts (mn, March)**
+- Sources: KFin decks citing SEBI [V]; NSDL AR [V]; CDSL decks [V].
+
+| | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 | Jun-26 |
+|---|---|---|---|---|---|---|---|
+| Industry | 55 | 90 | 114 | 151 | 192 | 225 | 232 |
+| CDSL | — | — | — | — | 152.9 | 180.1 | 185.9 |
+| NSDL (active) | — | — | — | 35.8 | 39.5 | 44.4 | 45.6 |
+| CDSL share of stock | — | — | — | — | 79.5% | 80.2% | 80.3% |
+
+- Industry new-account additions per CDSL's MD&A: CY2024 46 mn → CY2025 30.6 mn (−33%).
+
+**D7. Depository revenue by stream, FY26 (₹ Cr) — CDSL consolidated vs NSDL standalone**
+- Sources: AR notes [V].
+
+| Stream | CDSL FY25 | CDSL FY26 | YoY | NSDL FY25 | NSDL FY26 | YoY |
+|---|---|---|---|---|---|---|
+| Issuer / annual / custody fees | 325.6 | 456.4 | +40% | 252.3 (custody 235.1 + annual 17.2) | 344.7 (312.4 + 32.3) | +37% |
+| Transaction (debits) | 265.9 | 239.5 | −10% | 122.2 | 142.5 | +17% |
+| Settlement | 1.4 | 1.5 | — | 67.7 | 56.0 | −17% |
+| IPO / corporate action | 161.8 | 159.8 | −1% | 106.8 | 87.0 | −19% |
+| KYC / online data (+ e-sign, e-KYC) | 228.7 | 178.7 | −22% | (in NDML, not standalone) | — | — |
+| e-CAS / CAS | 46.9 | 50.3 | +7% | 20.7 | 21.7 | +5% |
+| e-voting | 33.8 | 37.1 | +10% | 44.4 | 46.4 | +5% |
+| Other operating | 18.2 | 21.6 | — | 4.6 | 6.5 | — |
+| **Total operating revenue** | **1,082.3** | **1,144.9** | **+5.8%** | **618.6** | **704.7** | **+13.9%** |
+
+- **The two depositories' annuity lines grew ~40% each in FY26** (unlisted-company dematerialisation, issuer folios, custody value); activity lines fell.
+- NSDL grew revenue 2.4× faster than CDSL because it has no KYC drag and its custody fee is value-linked.
+
+**D8. CDSL revenue mix, % of consolidated operating revenue [V]**
+- FY25: issuer 30.1 · transactions 24.6 · KYC (online data + e-sign + e-KYC) 21.1 · IPO/CA 14.9 · e-CAS 4.3 · e-voting 3.1 · other 1.7.
+- FY26: issuer **39.9** · transactions **20.9** · KYC **15.6** · IPO/CA **14.0** · e-CAS 4.4 · e-voting 3.2 · other 1.9.
+- The primer's mix (issuer ~31 / transactions ~27 / online ~20 / IPO ~11) is essentially **FY25**, not FY26.
+
+**D9. RTA yields (bps of AAUM)**
+- Sources: company decks [V inputs]; ratios [E].
+
+| | FY24 | FY25 | FY26 | Q4 FY25 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|
+| CAMS asset-based (AAUM incl. FoF) | ~2.51 | 2.33 | 2.08 | 2.24 | 2.04 | 2.04 |
+| CAMS all-MF | ~2.99 | 2.78 | 2.42 | 2.67 | 2.37 | 2.35 |
+| KFin domestic-MF (all MF revenue) | ~3.66 (Q4) | 3.64 | 3.37 | 3.61 | 3.23 | 3.15 |
+| Industry QAAUM (₹ Tn, Q4/latest) | 54.1 | 67.4 | 81.6 | 67.4 | 81.6 | 83.2 |
+
+- **Implied MF-RTA fee pool:** FY26 = CAMS MF ₹1,299 Cr + KFin dom-MF ₹853 Cr = **₹2,152 Cr** [V inputs]. That is **~2.76 bps of FY26 industry average AAUM** (CAMS ₹52.7 Tn ÷ 67.5% ≈ ₹78 Tn) [E].
+
+**D10. SEBI (Mutual Funds) Regulations 2026 — Base Expense Ratio caps (excl. statutory levies), in force 1-Apr-2026**
+- Source: SEBI PR 84/2025; Regulations text [V].
+
+| Open-ended scheme AUM slab (₹ Cr) | Equity: old (incl. levies) → BER | Non-equity: old → BER |
+|---|---|---|
+| ≤500 | 2.25% → 2.10% | 2.00% → 1.85% |
+| 500–750 | 2.00% → 1.90% | 1.75% → 1.65% |
+| 750–2,000 | 1.75% → 1.60% | 1.50% → 1.40% |
+| 2,000–5,000 | 1.60% → 1.50% | 1.35% → 1.25% |
+| 5,000–10,000 | 1.50% → 1.40% | 1.25% → 1.15% |
+| 10,000–15,000 | 1.45% → 1.35% | 1.20% → 1.10% |
+| 15,000–20,000 | 1.40% → 1.30% | 1.15% → 1.05% |
+| 20,000–25,000 | 1.35% → 1.25% | 1.10% → 1.00% |
+| 25,000–30,000 | 1.30% → 1.20% | 1.05% → 0.95% |
+| 30,000–35,000 | 1.25% → 1.15% | 1.00% → 0.90% |
+| 35,000–40,000 | 1.20% → 1.10% | 0.95% → 0.85% |
+| 40,000–45,000 | 1.15% → 1.05% | 0.90% → 0.80% |
+| 45,000–50,000 | 1.10% → 1.00% | 0.85% → 0.75% |
+| >50,000 | 1.05% → 0.95% | 0.80% → 0.70% |
+
+- Other caps:
+  - Index funds/ETFs 1.00% → 0.90%.
+  - FoFs (liquid/index/ETF) 1.00% → 0.90%; FoFs (>65% equity) 2.25% → 2.10%; other FoFs 2.00% → 1.85%.
+  - Close-ended equity 1.25% → 1.00%; close-ended other 1.00% → 0.80%.
+  - Brokerage: cash 6 bps, derivatives 2 bps (excl. levies); the 5-bp exit-load add-on is removed.
+- **The headline cut per slab is 10–15 bps, but most of it is the removal of statutory levies from the cap** (SEBI says the thresholds for slabs ≥₹2,000 Cr were "revised upwards to limit the impact on cost structure of AMCs broadly to the extent of exclusion of statutory levies").
+- **The economic squeeze on AMCs is therefore smaller than the table suggests** — mainly the brokerage cut and the lost 5 bps [E]. The registrar fee is a BER expense, so any AMC margin pressure shows up at RTA renewals rather than as a mechanical cut.
+- A **second amendment dated 10-Oct-2026** exists on SEBI's site but was not read — the writer should not describe it.
+
+**D11. Equity-derivatives participation, SEBI study Aug-2026 [V]**
+
+| | FY24 | FY25 | FY26 |
+|---|---|---|---|
+| Active individual traders (lakh) | — | 106.2 | 87.5 |
+| New entrants (lakh) | 43.1 | 34.3 | 20.8 |
+| Exits (lakh) | — | 26 | 46 |
+| Individuals' net loss (₹ Cr) | — | ~1,12,000 (revised) | 91,685 |
+| Loss-makers % | — | 90.9 | 87.7 |
+| Notional turnover growth | — | +20.4% | +4.2% |
+| Options premium turnover growth | +31% | +14% | +7% |
+
+- Expiry-day (0DTE) share of index-option turnover fell from 70% (FY25) to 59% (FY26) after SEBI's measures.
+
+**D12. KRA records (Cr) [V]**
+- CVL 10.35 (Mar-26) / 10.62 (Jun-26); CAMS KRA 2.07 (Mar-26, incl. the ex-NSE KRA book); NDML 2.02 (Jun-26); KFin KRA n/d.
+- CVL claims ">70% market share" (CDSL AR). Tariff from 1-Apr-2026: create ₹5, fetch ₹28, search ₹0.25. CVL revenue mix ~80% fetch / 20% create.
+
+**D13. Global peers — latest fiscal year (company documents)**
+
+| Company | FY | Revenue | Margin | Growth / guide | Tag |
+|---|---|---|---|---|---|
+| Broadridge | FY26 (Jun-26) | US$7,476.8 mn (recurring US$4,878.0 mn) | Adj. op. 20.5%; GAAP 17.4% | FY27: recurring +6–8% cc; adj. margin ~21%; adj. EPS +8–12% | [V 8-K] |
+| SS&C Technologies | CY2025 | US$6,272.2 mn (+6.6%) | Adj. op. 38.2%; GAAP op. 22.9% | Organic +4.8% | [V-snip IR release] |
+| Computershare | FY26 (Jun-26) | Mgmt revenue US$3,212.5 mn (ex-margin-income US$2,463.8 mn; margin income US$748.7 mn) | EBIT ex-MI US$447.5 mn = 18.2%; mgmt EBIT US$1,210.7 mn | EBIT ex-MI +8.3% | [V-snip IR docs] |
+| Members (3) | FY26 | ₹3,962 Cr ≈ US$418 mn | OP 45.3% | Rev +10.2%; Q1 FY27 +17.8% | [V screener] |
+
+- **Multiples remain indicative** (Part 1 §10: Broadridge ~15–23× P/E, SS&C ~12–20×, Computershare ~20–25×). They were not re-priced this session.
+- **The like-for-like point:** Computershare earns only an **18% EBIT margin excluding interest on client balances**. Indian RTAs earn 40–46% EBITDA with no float income at all. And Broadridge — the closest analogue to KFin's issuer business plus CDSL's e-voting/e-CAS — runs at ~20.5%. Indian margins are 2× global ones; the debate is durability, not scale.
+
+## 4.4 Gap log (§H items and the brief's 15 gaps)
+
+| # | Gap | Status | Result / what was tried |
+|---|---|---|---|
+| 1 | CDSL cash & investments; total assets | **Filled** | ₹1,677 Cr gross treasury (₹1,605 Cr unencumbered; ₹1,725 Cr incl. associate); total assets ₹2,419.0 Cr (AR balance sheet) — S3 |
+| 2 | CDSL revenue split by stream, every quarter FY26 + Q1 FY27 | **Filled (annual exact; quarterly on deck basis)** | Annual: AR note 19 with 18 lines (S1). Quarterly: the five deck streams, with the Q2/Q3 online-vs-other swap corrected and tied to the annual note (S2). A quarterly split of e-CAS and e-voting exists only for Q4 FY26 (₹12.1 / ₹5.6 Cr) and Q1 FY27 (₹14.8 / ₹6.3 Cr) from the transcripts; there is no quarterly KYC-only figure beyond CVL's revenue (₹36 Cr Q1 FY26; ₹45 Cr Q1 FY27) |
+| 3 | NSDL accounts FY22–FY26, tariffs, FY26 depository revenue/PAT, Q1 FY27 jump | **Mostly filled** | Accounts FY24–FY26 [V], revenue/PAT [V], cause of the jump = payments bank [V] (S12, S13). **Still open:** NSDL accounts FY22–FY23 (the RHP was not read — 300+ pages) and NSDL's tariff card (not fetched; its per-debit charge is believed similar to CDSL's ₹3.50 [K]) |
+| 4 | AMFI FY22–FY26 AUM, SIP inflows, SIP accounts, unique investors, folios; Sep-26 note | **Mostly filled** | Sep-26 note fetched [V]; FY24–FY26 SIP totals [V]; Mar-24/25/26 AUM [V]; folios Mar-25/Sep-25/Mar-26/Sep-26 [V]. **Still open:** Mar-22 AUM (₹37.57 lakh Cr [K]); FY22–FY23 SIP totals [K]; **AMFI unique-investor counts** (not in the notes read; CAMS serviced 4.76 Cr at Mar-26 and 4.85 Cr at Jun-26). The portal.amfiindia.com monthly-report PDFs returned 404 to curl |
+| 5 | RTA yields FY24–Q1 FY27; CAMS FY26 like-for-like AUM growth | **Filled** | D9 table; CAMS Q4 FY26 AAuM +21.0% YoY, FY26 avg +19.3% (S5, S6, S11). FY24 CAMS yield uses ex-FoF AAuM (slight overstatement) |
+| 6 | KFin folios: 37.9 mn vs 199 mn | **Filled** | 37.9 mn = SIP live folios; 118.1 mn = average live MF folios; 199 mn/373 mn = headline totals (S7) |
+| 7 | GA stake after the Aug-2026 block | **Filled** | 13.13% + 0.93% = 14.06% (S8) |
+| 8 | Ascent deal terms | **Filled** | ₹307.7 Cr for 51%; ₹579–619 Cr put/call for 49% in three tranches after Jul-2028/29/30; pre-money US$63 mn (S9) |
+| 9 | SEBI MF Regs 2026 BER caps, brokerage caps, date, RTA fee in BER | **Filled** | D10; S18. **Open:** content of the 10-Oct-2026 second amendment |
+| 10 | SEBI F&O study / measures | **Filled (study)** | Aug-2026 SEBI study (S4, D11). The Nov-2024 measures list (contract size ₹15 lakh, weekly expiry rationalisation, upfront premium, calendar-spread removal) remains [K]; that circular was not refetched |
+| 11 | CDSL tariff per debit; KRA fee cut | **Half filled** | ₹3.50 from CDSL's tariff page [V]. KRA fees confirmed by CDSL management on two calls (incl. 80/20 fetch/create mix) [V transcript], but **no SEBI or KRA circular was found** (one web search plus a check of the Karvy KRA circular list); the effective date 1-Apr-2026 comes from the Q4 call |
+| 12 | CAMS DPS, CAMS split date, CDSL bonus date, NSDL IPO price | **Filled** | ₹12.50; 5-Dec-2025; record date 24-Aug-2024; ₹800 (S15, S16, S17, S24) |
+| 13 | KRA shares; unlisted issuer-RTA context | **Half filled** | KRA records (D12). **Open:** MUFG Intime India / Bigshare revenue and folio data (one search, nothing primary). CAMS's AR says "three QRTAs" dominate — the third is most likely MUFG Intime [E] |
+| 14 | Global peers | **Filled for fundamentals; multiples still indicative** | D13; Broadridge [V], SS&C/CPU [V-snip]. Share prices not refetched |
+| 15 | Re-verify Part 1–3 argument figures | **Done for 40 figures** | 4.1; six corrections; screener series unchanged on re-pull |
+
+**Also still open:**
+- CDSL's FY26 issuer-folio count at 31-Mar-26 (management said it will be disclosed in the June-quarter call; only 38.73 Cr at Jun-26 is known).
+- A free CRISIL/ICRA/CARE sector report on MIIs and RTAs (not searched — budget).
+- KFin's explanation of the SIP live-folio drop, a question for the 27-Oct call.
+
+## 4.5 New insights and new primer issues
+
+### Insights the first pass missed
+1. **CDSL quietly became an annuity business in FY26.**
+   - Issuer charges +40% to ₹456 Cr are now 40% of operating revenue (30% in FY25).
+   - "Over-time" revenue rose from 31% to 41%.
+   - KYC fell 22% and transactions 10%. CVL's PAT halved (₹110 → ₹55 Cr) *before* the 2026 KRA cut.
+   - So CDSL's FY26 PAT fall (−13.5%) is a KYC-and-treasury story, not a debit story. The FY27 debate is whether issuer growth (now ~12% on +17% folios, with unlisted admissions collapsing after the "small company" redefinition) can carry the group while KYC takes a further ~30% price cut.
+2. **Both RTAs took ~10% yield resets in FY26, not just CAMS.**
+   - CAMS asset-based yield fell 2.33 → 2.08 bps (−11%); KFin domestic-MF fell 3.64 → 3.37 bps (−7%; −10.6% Q4-on-Q4).
+   - CAMS has since held flat for three quarters; KFin is still sliding (3.23 → 3.15).
+   - The "CAMS took the pricing hit" narrative misses that KFin's yield is falling faster now.
+3. **The SEBI BER reset is gentler on AMCs than headlines suggest.** Most of the 10–15 bp reduction per slab removes statutory levies from the cap, by SEBI's own wording. RTA fees sit inside BER, though, so they compete with distribution and other costs for the same capped budget: the second-order risk to RTAs is at renewals, not a mechanical cut.
+4. **NSDL's consolidated numbers are now a payments bank story.**
+   - Banking income is ₹747 Cr of ₹1,530 Cr consolidated revenue at a ~2% PAT margin.
+   - The Q1 FY27 +66% is a pass-through card-partner project.
+   - The depository itself grew revenue 13.9% in FY26 vs CDSL's 5.8%, on custody fees +33%.
+   - **On a depository-only basis NSDL is the faster-growing, steadier franchise**, and it is regaining fintech-broker flow (fintech ~20% of its adds; incremental net share 17.6%).
+5. **KFin's Ascent is a ~US$100 mn commitment, ~₹580–620 Cr of it deferred and EBITDA-linked.**
+   - Because fair-value changes go to equity, success raises the liability without touching EPS.
+   - Ascent lost money in Apr–Sep 2025 (pro forma −₹41.7 Cr for the full year).
+   - Even ex-Ascent, KFin's EBITDA margin fell from 46.3% (Q3 FY26) to 39.4% (Q1 FY27). The margin problem is not only Ascent.
+6. **The KRA market is consolidating, and CDSL's CVL is the incumbent.** CAMS bought NSE's KRA (DotEx) in FY26 and became #2 with 2.07 Cr records, roughly equal to NSDL's NDML (2.02 Cr). CVL holds ~10.6 Cr (">70%"). The tariff cut hits CVL hardest in rupees and CAMS hardest in growth optics.
+7. **MF AUM peaked at ₹87.08 lakh Cr in Aug-2026** and fell 5.1% in September. With the repo hike on 7-Oct, Q2 FY27 QAAUM for the RTAs should still be up QoQ (July–August were strong; CAMS: "July has been a lot better"). Q3 is the quarter at risk [E].
+8. **The global comparison is starker than Part 1 says.** Computershare's EBIT margin excluding interest on client cash is 18%, and Broadridge's adjusted margin is 20.5%. Indian depositories and RTAs run at 40–51% with no float income. That is a regulatory-utility risk SEBI could act on (IPF levy, tariff cuts, the ₹3 Cr disincentive precedent), not just a valuation premium.
+
+### New primer issues (append to primer-issues.md)
+
+**cdsl.html**
+- **Revenue mix (§ revenue bars):** replace the illustrative mix with FY26 consolidated operating revenue from AR note 19:
+  - annual issuer ₹456 Cr (39.9%)
+  - transactions ₹240 Cr (20.9%)
+  - KYC/online data incl. e-sign and e-KYC ₹179 Cr (15.6%)
+  - IPO/CA ₹160 Cr (14.0%)
+  - e-CAS ₹50 Cr (4.4%)
+  - e-voting ₹37 Cr (3.2%)
+  - other ₹22 Cr
+  - The primer's current bars are essentially the FY25 mix.
+- **Cash:** replace "~₹2,850 Cr" with "~₹1.7k Cr of cash, deposits and investments at Mar-26 (₹1.6k Cr unencumbered); total assets ₹2.4k Cr" (AR FY26 consolidated balance sheet).
+- **CVL:** add FY26 revenue ₹182 Cr (−21%) and PAT ₹55 Cr (−50%) *before* the 1-Apr-2026 KRA tariff cut (fetch ₹35 → ₹28; create ₹20 → ₹5; ~80% of KYC revenue is fetch); CVL claims >70% KRA share (CDSL Q4 FY26 call; AR).
+- **Regulatory:** add SEBI's ₹3 Cr financial disincentive (Apr-2025) for 2021–24 technical glitches, and IPF at 5% of depository profit.
+- **"585+ DPs":** verified (585 at 31-Mar-26) — keep.
+- **Bonus:** 1:1, record date 24-Aug-2024 (AGM 17-Aug-2024) — date any per-share history accordingly.
+
+**cams.html**
+- **Yield history:** "~3 bps" was true of FY24 all-MF revenue (~2.99 bps). FY26 is 2.42 bps all-MF and 2.08 bps asset-based; Q1 FY27 is 2.35 / 2.04. Write "about 2 paise per ₹100 of AUM a year (asset-based), down ~11% in FY26's pricing reset".
+- **"+21% serviced AUM in FY26":** verified as Q4-on-Q4 (₹55.1 Tn ex-FoF, +21.0%). Annual average +19.3% (₹52.7 Tn). Keep, and label the basis.
+- **Dividend:** FY26 total ₹12.50/share post-split (interims ₹11 and ₹14 pre-split, ₹3.50 post-split, plus ₹4 final), not "~₹4 final".
+- **Split date:** effective 5-Dec-2025 (board 10-Oct-2025; postal ballot 15-Nov-2025).
+- **KRA:** CAMS KRA acquired NSE's KRA business in FY26 and is #2 with 2.07 Cr records (Mar-26).
+- **Wins:** Taurus AMC migrated to CAMS from the competitor in FY26; first international RTA client (Ceybank, Sri Lanka).
+- **Cash:** ₹854 Cr (Mar-26) → ₹971 Cr (Jun-26).
+
+**kfin-technologies.html**
+- **Ascent terms:** 51% for ₹307.7 Cr (US$34.7 mn) on 13-Oct-2025. The 49% follows via put/call in three equal tranches after Ascent's years to Jul-2028/29/30, EBITDA-linked, fair-valued at ₹579 Cr at acquisition (₹619 Cr per MD&A). Total ~US$100 mn; goodwill ~₹619 Cr. Ascent added ₹99 Cr revenue and ₹2 Cr PBT in H2 FY26 (AR note 42).
+- **GA stake:** 14.06% = GA Singapore Fund 13.13% + GA Singapore KFT 0.93% (Sep-26).
+- **Folios:** "37.9 mn live folios" is SIP live folios. KFin's live MF folios average 118.1 mn (Q1 FY27). Do not call 199 mn or 373 mn "investors".
+- **Yield:** domestic-MF revenue ÷ AAUM 3.64 bps (FY25) → 3.37 (FY26) → 3.15 (Q1 FY27). KFin's reset is as large as CAMS's.
+- **Dividend:** FY26 final ₹12/share (FY25 ₹7.50).
+- **EV:** add the Ascent put (~₹600 Cr) as debt-like; EV/EBITDA ~27.6× FY26, not ~26×.
+
+**General / industry (all three)**
+- Use the AMFI Sep-26 note (now [V]): AUM ₹82.64 lakh Cr after an Aug-26 peak of ₹87.08 lakh Cr; SIP ₹32,490 Cr (+10.7% YoY); 10.06 Cr SIP accounts; folios 28.62 Cr; FY26 SIP ₹3.50 lakh Cr.
+- F&O participation: cite SEBI's Aug-2026 study (active individual traders 106.2 → 87.5 lakh), not 98.1 → 78.6 lakh.
+- MF Regs 2026: say explicitly that the registrar fee sits inside the BER cap.
+
+### Source URLs added in Part 4 (all fetched 22-Oct-2026)
+- **CDSL:**
+  - AR FY26: https://archives.nseindia.com/annual_reports/AR_29665_CDSL_2025_2026_A_15773086_08072026190152.pdf
+  - Q4 FY26 transcript: https://nsearchives.nseindia.com/corporate/CDSL_07052026193244_NSEintimationtranscript_Sign.pdf
+  - Tariff page: https://www.cdslindia.com/DP/CurrentDPs.html
+- **CAMS:**
+  - AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/9404e4ec-f6f9-45bd-8933-63227dcd5f4e.pdf
+  - Q4 FY26 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2aad185c-60d6-4e7e-9355-daf00337ee01.pdf
+  - Q4 FY25 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cab4f2a3-046d-4dd9-b95d-a2160640930c.pdf
+- **KFin:**
+  - AR FY26: https://investor.kfintech.com/wp-content/uploads/2026/07/KFin-Technologies_AR_2025-26-1.pdf
+  - Q4 FY26 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69e6bce0-432e-4e6e-92de-127a5a7915b7.pdf
+  - Q4 FY25 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79d4667c-ff2e-4ad9-b209-d3305aaa49b6.pdf
+  - Ascent call transcript (16-Apr-2025): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d453e4be-798d-4494-8024-9eec418c74d1.pdf
+  - Shareholding (via screener API): https://www.screener.in/api/3/1275381/investors/promoters/quarterly/
+- **NSDL:**
+  - AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/a61bc02b-657b-4b53-892b-eb4b45f08350.pdf
+  - Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1254ef0-9cb0-4149-96f4-cb52825dc547.pdf
+- **AMFI notes:**
+  - Sep-2026: https://www.amfiindia.com/uploads/AMFI_Monthly_Note_September2026_554f6604b6.pdf
+  - Aug-2026: https://www.amfiindia.com/uploads/AMFI_Monthly_Note_August2026_230122d90a.pdf
+  - Sep-2025: https://www.amfiindia.com/uploads/AMFI_Monthly_Note_September2025_414d6bb2c3.pdf
+  - Mar-2025: https://www.amfiindia.com/Themes/Theme1/downloads/AMFIMonthlyNote_March2025.pdf
+- **SEBI:**
+  - PR 84/2025: https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1765977060104.pdf
+  - MF Regulations 2026 (amended to 7-Jul-2026): https://www.sebi.gov.in/sebi_data/attachdocs/jul-2026/1783933012694.pdf
+  - F&O profitability study (Aug-2026): https://www.sebi.gov.in/sebi_data/attachdocs/aug-2026/1787233506209.pdf
+- **Broadridge** FY26 8-K Ex. 99.1: https://www.sec.gov/Archives/edgar/data/0001383312/000138331226000022/ex991earningsrelease4q2026.htm
+- **SS&C** FY2025 release (search summary): https://investor.ssctech.com/news-releases/news-release-details/ssc-technologies-releases-record-q4-and-full-year-2025-financial
+- **Computershare** FY26 results announcement (search summary): https://content-assets.computershare.com/eh96rkuu9740/iBxSpdglI8oJPQu7nnNl8/b75d5cba3ffac0bab6ab42adeb36c764/3101454.pdf
