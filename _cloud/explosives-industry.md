@@ -922,3 +922,571 @@ Notes: Solar's quarterly OPM 27.7% is screener (1,015 ÷ 3,668); company 27.91%.
 - [primer] ~330,000 t capacity; ~₹72,000/t realisation; FY24 defence ~₹350 Cr; Maharashtra MoU ~₹12,700 Cr.
 - [K] AN import share 40–60%; CIL PVC formula indexing; strip ratio 2.5–3; Maxam/Nammo/Hanwha numbers; DAP/SCOMET details; 2023 Nagpur plant blast.
 - [E] India market 1.4–1.8 mt / ₹10,000–14,000 Cr; Solar CIL tonnage ~205–230 kt; C.1 per-tonne composite; Omnia ~7.3× EV/EBITDA and 16.4× P/HE; Solar EV/EBITDA 60×/53×/42×; FY27E P/E 61–65×; AN-shock unrecovered cost ~5.6% of sales; Deepak TAN realisations; AOC-1 overseas mapping.
+
+---
+
+# PART 4 — Deep-research supplement (23-Oct-2026)
+
+Second, primary-source pass, done on 23-Oct-2026 after Parts 1–3. About 65 web calls. Every document was fetched anonymously with a generic User-Agent. Scratch notes and the downloaded PDFs are in `/tmp/explosives-deep/`.
+
+**What changed, in one paragraph.** The pass went to the companies' and the government's own documents.
+- **Solar's own disclosures:** solargroup.com investor JSON; Reg-30 order filings; the AGM transcript of 11-Aug-2026; press releases of 13-Aug and 14-Sep-2026; FY24, Q2 FY25, Q3 FY25 and Q2 FY26 board presentations, with slides rendered where needed; FY26 annual-report notes 30, 31 and 32.
+- **Coal India's own BSE filings:** FY26 and Q1 FY27 results presentations, and the 1-Oct-2026 production release.
+- **PIB releases:** defence production, defence exports, defence budget, Pinaka, and the SDAL facility inauguration.
+- **Deal documents:** Omnia's scheme circular (7-Oct-2026) and the Apollo–Premier Letter of Offer.
+- **Global peers' own releases:** Orica 1H26, Dyno Nobel 1H26, AECI FY25 and Rheinmetall H1-2026.
+
+Five headline findings:
+1. **Solar's share of the ₹10,147 Cr Pinaka package is ₹6,084 Cr**, to be executed over **8–15 years**.
+2. **Solar's FY24 defence revenue was ₹517 Cr**, not ~₹350 Cr.
+3. **60% of Solar's FY26 revenue came from customers outside India.** This implies roughly **three-quarters of defence revenue was exported** [E].
+4. **No Q1 FY27 earnings call was held.** The latest management commentary is the AGM (11-Aug-2026) and the Omnia call (15-Sep-2026).
+5. **Coal India's own filings** confirm FY26 production of 768.19 MT and a 2% fall in overburden removal (OBR). They also put a number on the AN shock: **+₹244 Cr of explosives expense in Q1 FY27 alone.**
+
+Tag discipline is as in Part 1. [V] here means fetched and read this session from the named primary document. [V-snip] means a search-engine summary or a secondary article.
+
+## 4.0 Supersedes — corrections to Parts 1–3 (the writer should apply these)
+
+| # | Where in Parts 1–3 | Old value / statement | New value / statement | Primary source (fetched 23-Oct-2026) |
+|---|---|---|---|---|
+| S1 | §E5, §3.3 "Defence FY24", §3.4 primer issue, §3.6 | FY24 defence revenue "~₹350 Cr [primer, approximate]" | **FY24 defence ₹517 Cr (9% of sales); FY23 ₹396 Cr (6%)**. Series: FY23 396 → FY24 517 → FY25 1,355 → FY26 2,634. Same slide: FY24 CIL 929; Non-CIL & Institutional 1,007; Housing & Infra 1,116; Exports & Overseas 2,458; Others 43; total 6,070. | Solar Q4 FY24 board presentation, BSE 16-May-2024, slide "Yearly Customers" (rendered) — bseindia.com/xml-data/corpfiling/AttachHis/2cdeb1e1-447d-4aa1-9232-519fa1b54287.pdf |
+| S2 | Trap #6, §2.8, §3.4, §H-7 | "Solar's share of the ₹10,147 Cr Pinaka contracts not disclosed" | **Solar disclosed ₹6,084 Cr** (filing of 6-Feb-2025, 21:01 IST): contracts with EEL (now SDAL) for Pinaka ADM Type-1 (DPICM) and, per Solar's wording, HEPF Mk-1 (E) rockets. Solar called it "the biggest contract in the history of Solar Group". **Execution 8–15 years; 86% within 10 years** (≈₹520 Cr/yr on average [E]). DRDO has nominated EEL as production agency "for all the variations of Pinaka". MIL plus BEL take the remaining ~₹4,063 Cr [E]. Note that PIB says EEL→ADM and MIL→HEPF "respectively", whereas Solar's filing lists both rocket types against EEL. Treat the product attribution as **disputed** and the ₹6,084 Cr value as firm. | Solar Reg-30 filing (solargroup.com IR, "order received pinaka_ 6084 crores.pdf"); PIB PRID 2100335 (6-Feb-2025) |
+| S3 | Trap #5, §0, §2.1 order book, §3.3, §3.4 | Defence order book split ~₹11,000 Cr international / ~₹6,500–7,000 Cr Indian (Feb-2026) | **At 31-Mar-2026: total ~₹21,000 Cr = defence ~₹18,000 Cr (international ~₹12,000 Cr; Indian ~₹6,000 Cr) + institutional/CIL-SCCL ~₹3,000 Cr** (MD at the AGM, 11-Aug-2026). Export share of the defence book is **~67%** (was ~61%). | AGM transcript (solargroup.com, "Transcript_ 31st AGM_2025-26_.pdf") |
+| S4 | §3.5, §G, §H-8, §2.8, §3.6 | 30-Jan-2026 export orders "₹1,419 Cr vs ₹830 Cr — conflict" | **Not a conflict.** Two contracts: **₹589 Cr + ₹830 Cr = ₹1,419 Cr**, 4 years [V-snip DSIJ]. Verified export-defence order filings in the same window: **18-Nov-2025 ₹1,400 Cr (4 yrs)** [V] and **29-May-2026 ₹1,076 Cr (3 yrs)** [V]. Verified domestic filings: **SECL bulk explosives ₹483 Cr (8-Oct-2025, 2 yrs)** and **CIL additional ₹1,746 Cr (31-Dec-2025, 2 yrs) → CIL total ₹2,229 Cr** [V]. | Solar Reg-30 filings (solargroup.com IR); DSIJ |
+| S5 | §0 "Still listed?" #2, §2.2.1, §2.7 JSON, §H-9 | Premier open offer "₹698 vs ₹705.65 — FLAG" | **Both are correct.** Offer price ₹698 plus "Applicable Interest" ₹7.65 per share (10% p.a. for the delay after SEBI's extension letter of 21-Aug-2026) = **₹705.65**. Offer size up to 1,39,77,911 shares (26%), **up to ₹986.35 Cr**. No minimum acceptance. CCI letter of 23-Sep-2026: not a "combination". | Letter of Offer dated 29-Sep-2026 (Cumulative Capital), BSE 5-Oct-2026 (cover letter and p.1 rendered) |
+| S6 | §0 "Still listed?" #1, §2.5.1, §12-2, §G | Omnia longstop "31-Jul-2027"; value "R21.8 bn vs R21.5 bn"; completion "H1 CY2027" | Scheme consideration **R134.50/share; aggregate R21,828,973,400** (Miningmx's R21.5 bn is wrong). **Long Stop Date 31-Jul-2027**, extendable to **30-Sep-2027** if the TRP cash confirmation is extended, with automatic extensions **no later than 1-Dec-2027**. **Scheme meeting 5-Nov-2026**; TRP compliance certificate ~7-Jun-2027; **expected implementation ~28-Jun-2027**; JSE delisting ~29-Jun-2027. Completion is therefore **Q1 FY28 (end-June 2027)**, not "H1 CY2027" in the loose sense. | Omnia scheme circular, released on SENS 7-Oct-2026 (omnia.co.za/media/omnia-circular-2026.pdf) |
+| S7 | §2.5.1, §B1 | Omnia premium and fairness "V-snip" | **Premia [V]:** 30.98% to R102.69 (10-Sep-2026); 14.30% to R117.67 (11-Sep); 35.73% to 30-day VWAP R99.09; 70.69% to R78.80 (31-Dec-2025). **Independent expert fair-value range R113.60–R125.98, core R119.41** → the offer is **12.6% above the core value** and above the whole range. **Break fees 1% each way.** Bank guarantee: RMB irrevocable, unconditional. | Omnia circular §3, §7.9–7.10, §10.2.6; Omnia announcement 14-Sep-2026 |
+| S8 | §0, §2.5.1 | Omnia rupee value "₹12,951 Cr (CRISIL's figure)" | **₹12,951 Cr and US$1.355 bn are Solar's own figures.** Solar also puts **Omnia's FY26 revenue at ~US$1.41 bn (₹13,307 Cr)**. Omnia operates in 23 countries, has 70+ distribution centres and 3,500+ employees. | Solar press release 14-Sep-2026 (BSE/solargroup.com) |
+| S9 | Trap #12, §3.1, §E7, §H-4, §3.6 | CIL FY26 "~768 MT [V-snip]"; FY27 target "~815 (some 810) [V-snip]"; Q1 FY27 "169.6 vs 183.3 [V-snip]" | **CIL FY26 768.19 MT (−1.6% vs 781.06)**; offtake 744.88 MT (−2%); **OBR 1,980.09 Mcum (−2% vs 2,019.49)**; departmental OBR only 236 Mcum (12%), the rest by contractors. **Q1 FY27 169.63 MT (−7.5% vs 183.32)**; offtake 197.86 (+3.6%); **OBR 504.68 Mcum (−1%; target 529.04)**. **Q2 FY27 151.37 MT (+3.81%)**; Sep-26 53.50 MT (+9.18%). **FY27 targets: production 815 MT, supply 850 MT** (810 is wrong). The "1.15 bn t record" headline is wrong. | CIL FY26 and Q1 FY27 results presentations (BSE, via screener COALINDIA); CIL press release 1-Oct-2026 (BSE) |
+| S10 | §G timeline, §3.5 sources | "17-Jun-2026: India FY26 defence production ₹1.78 lakh Cr, exports ₹38,424 Cr" | **Two releases.** Exports: **PIB 2-Apr-2026** (PRID 2248124) — ₹38,424 Cr (+62.66%), DPSUs ₹21,071 Cr (+151%), private ₹17,353 Cr (+14%). Production: **PIB 17-Jun-2026** (PRID 2273824) — ₹1.78 lakh Cr (+15.6%), private ~₹42,000 Cr (24%). | PIB (fetched) |
+| S11 | §E2 note | Q2 FY26 baskets by subtraction: "domestic + others ≈ 613" | **Q2 FY26 actual [V]:** CIL 156; Non-CIL & Institutional 271; Housing & Infra 171 (domestic **598**); International 963; Defence 506; Others 15; total 2,082. | Q2 FY26 board presentation (BSE e69ab9f2…, slide rendered) |
+| S12 | §2.1 "Guidance FY27 … Reaffirmed in Aug-26 (₹14,000 Cr) [V-snip]" | Reaffirmation sourced to press | **[V] reaffirmed twice:** (i) AGM 11-Aug-2026 — joint CFO: ₹14,000 Cr in FY27 "while maintaining the current margins of 28% plus"; capex ₹2,050 Cr. (ii) Press release 13-Aug-2026 — "firmly on track"; **~₹450 Cr of the ₹2,050 Cr capex already deployed in Q1**. **No Q1 FY27 earnings call was held**: solargroup.com lists calls on 4-Feb, 15-May and 15-Sep-2026 only. | AGM transcript; press release 13-Aug-2026; solargroup.com IR JSON |
+| S13 | Trap #4, §2.1 | "Segments are customer baskets" (correct) | Add the **statutory** view. Ind AS 108 has **one reportable segment, "Explosives and its accessories"**. Geography by customer location (FY26): **India ₹3,821 Cr; Outside India ₹5,790 Cr (60%)** vs FY25 ₹3,508 / ₹3,852 (52%). Implication [E]: outside-India revenue minus international explosives (₹3,815 Cr) leaves **~₹1,975 Cr of defence exports (~75% of FY26 defence revenue)**; Indian defence ≈ ₹660 Cr (FY25: ~₹950 Cr of ₹1,355 Cr exported, ~70%). | AR FY26, consolidated Note 32 |
+| S14 | §5.1, §9.1 "CIL share" | CIL 9.4% of FY26 revenue (₹924 Cr) | Unchanged. The AR adds that **CIL is the only customer above 10% of group revenue: gross ₹964.31 Cr (FY25 ₹956.76 Cr)** (gross basis, so higher than the PPT's ₹924 Cr). | AR FY26 Note 32 |
+| S15 | §2.1 "Footprint" | "manufacturing in 11 countries" | Solar uses **both 9 and 11**. The 13-Aug-2026 PR says "manufacturing facilities in 9 countries … 40 manufacturing facilities"; the 14-Sep-2026 PR says "11 countries … more than 40 … over 16,500 employees". The AR gives **15,727 employees at 31-Mar-2026**. Use "9–11 countries; 40+ plants" and say why the counts differ. | Solar PRs 13-Aug and 14-Sep-2026; AR FY26 MD&A |
+| S16 | §1.1 Nagastra, §8 | "Operation Sindoor — Nagastra and Solar munitions reportedly used [primer]" | **Officially confirmed:** the Raksha Mantri said Nagastra drones made by the Solar Group "were successfully used during Operation Sindoor". On 18-Jan-2026 he also inaugurated SDAL's fully automated **30 mm medium-calibre ammunition plant** in Nagpur, **flagged off the first tranche of Guided Pinaka rockets to Armenia**, and noted a successful **Bhargavastra** counter-drone test launch. | PIB PRID 2215884 (18-Jan-2026) |
+| S17 | §2.5.5, §10.1, §E10 | AECI FY25 "[V-snip]"; "AECI Mining ~R20 bn [K]" | **[V]** Group continuing revenue R32,183m (−4%), EBITDA R3,412m (+12%), net debt **R465m** (R3,738m). **AECI Mining revenue R17,622m (−8%; FY24 R19,108m); EBITDA R2,722m (record), margin 15% (12%)**; Mining op profit R2,089m. | AECI reviewed FY25 results booklet (investor.aeciworld.com) |
+| S18 | §2.6, §10.2 | Rheinmetall "2026 guide €14.0–14.5 bn" | **Cut to €13.7–14.2 bn** (after the F126 frigate cancellation), still ~19% margin. **H1-2026:** sales €5,227m (+39%), operating result €786m (15.0%), backlog €80.5 bn; **W&A sales €1,757m (+33%), op result €417m (23.7%), W&A backlog €25.3 bn.** | Rheinmetall H1-2026 news PDF (6-Aug-2026) |
+| S19 | §2.5.2, §10.1 | Orica FY25 "[V-snip]" only; "FY26 results due ~mid-Nov" | Unchanged for FY25 (EBIT A$992m). **Added 1H FY26 (to 31-Mar-2026) [V]:** sales revenue A$3,884m (−1%), EBITDA A$761m, **EBIT A$512m (+5%)**, NPAT pre-SI A$283m; statutory loss A$0.6m (CF Industries litigation and AN-supply SIs); **net debt ex-leases A$2,159m (Sep-25: A$1,921.5m)**; leverage 1.53×; RONA 14.7%. Blasting Solutions EBIT A$434.9m. FY26 outlook: EBIT up in all segments and regions; "no immediate material constraints" from the Middle East — inputs are generally not shipped via Hormuz. | Orica ASX release 7-May-2026 |
+| S20 | §2.5.3 | Dyno Nobel FY25 only | **Added 1H FY26 [V]:** group revenue A$1,897.8m (−15.7% post-fertiliser exit); **Explosives revenue A$1,609.8m (+9.3%), EBIT A$224.2m (+28%), EBIT margin ~13.9%**; DNAP A$130m, Americas A$101m, EMEA & LATAM A$9m; net debt A$1,260.8m (1.3×). FY26 explosives EBIT guidance A$460–500m reaffirmed; **FY28 ambition A$600m**. | Dyno Nobel ASX release 11-May-2026 |
+| S21 | AR product mix (not used before) | AR p.105 pie "Defence 42%" | **The joint CFO said at the AGM that p.105 is a typo: defence is 27%, not 42%.** The same pie gives **initiating systems ≈11% of FY26 revenue (13% FY25)**; treat as approximate. | AGM transcript; AR FY26 p.105 |
+| S22 | AGM (not used before) | — | **Do not quote the Chairman's AGM line "EBITDA margin of 35%".** It is a misstatement: FY26 EBITDA margin = **27.95%**. | AGM transcript vs FY26 PPT |
+| S23 | §5.3 AN imports | "India imports 40–60% of explosive-grade AN [K; FLAG]" | Downgrade [V-snip]. Trade-press data: AN imports **~356 kt in FY23; ~305 kt in Apr–Nov FY24 (+113%), almost entirely from Russia**, against domestic AN capacity of **~1.10 mtpa** (another ~1.02 mtpa under construction). Imports are therefore **~25–30% of supply**, not 40–60%. TradeStat (HS 310230) could not be queried (404); DGCI&S figure still open. | indiaseatradenews / tradeint search summaries [V-snip] |
+| S24 | §7.2 | "DAP 2026 revision in progress [K; FLAG]" | **[V-snip PIB titles]** Draft DAP-2026 released for comment on **10-Feb-2026** (comments to 3-Mar-2026). Main changes: categories 5 → 4; IDDM indigenous content 50% → 60%; Long-Term Bulk Acquisition and Low-Cost Capital Acquisition routes. **Still labelled "Draft" in a PIB document of Jun-2026**; no final notification found by 23-Oct-2026. | PIB PRIDs 2226097 / 2227775 (titles via search) |
+| S25 | §2.2.1 Premier read | "Apollo assembles India's #2 private explosives/detonator group" | Unchanged, but add the AGM context: a shareholder asked whether Solar "missed" Premier. The MD said Solar already makes pyros, igniters, fuses, energetics and propellants and assembles rockets and missiles, so it **did not need Premier**. Also note **Premier's Sep-26 shareholding shows a new "Government" holding of 2.94%** [V screener]. | AGM transcript; screener PREMEXPLN |
+
+## 4.1 Verification table — 40 figures the writer will lean on
+
+"Fetched?" = fetched and read this session (Y), or search summary only (snip). "Agrees?" = against Parts 1–3. Primary = issuer, ministry/PIB, regulator, CIL, or the peer's own report.
+
+| # | Figure | Value | Primary source | Fetched? | Agrees with Parts 1–3? | Tag |
+|---|---|---|---|---|---|---|
+| 1 | Solar FY26 revenue | ₹9,838 Cr (+30%) | FY26 PPT (BSE 5370aa89); AR FY26; AGM chairman's speech | Y | Yes | [V] |
+| 2 | Solar FY26 EBITDA / margin | ₹2,750 Cr / 27.95% | FY26 PPT; AGM CFO "28% plus" | Y | Yes (chairman's "35%" is a misstatement) | [V] |
+| 3 | Solar FY26 PAT | ₹1,737 Cr (+35%) | FY26 PPT; AGM; screener | Y | Yes | [V] |
+| 4 | Solar Q1 FY27 revenue / EBITDA / PAT | ₹3,668 / ₹1,024 / ₹666 Cr (+70% / +82% / +89%); Q1 FY26 base 2,154 / 564 / 353 | Press release 13-Aug-2026; Q1 PPT | Y | Yes | [V] |
+| 5 | Q1 FY27 basket split | Domestic expl. ₹1,361 Cr (+52%); International ₹1,364 Cr (+65%); Defence ₹933 Cr (+123%); Others ₹10 Cr | Q1 FY27 PPT (BSE fdc843e7) | Y | Yes | [V] |
+| 6 | FY26 defence revenue | ₹2,634 Cr (27%; FY25 ₹1,355 Cr) | FY26 PPT; AGM (27%, AR typo 42%) | Y | Yes | [V] |
+| 7 | FY24 / FY23 defence revenue | **₹517 Cr / ₹396 Cr** | Q4 FY24 PPT (BSE 2cdeb1e1), rendered | Y | **No — supersedes ~₹350 Cr (S1)** | [V] |
+| 8 | Order book | ₹21,350 Cr (30-Jun-26); ~₹21,000–21,300 Cr (31-Mar-26) | Q1 PPT; PR 13-Aug-26; AGM | Y | Yes | [V] |
+| 9 | Defence order book split | ~₹18,000 Cr: international ~₹12,000 / India ~₹6,000 (31-Mar-26) | AGM transcript (MD) | Y | **Updates ₹11k / ₹6.5–7k (S3)** | [V] |
+| 10 | FY27 guidance | Revenue ~₹14,000 Cr at "28% plus" margin; capex ₹2,050 Cr (₹450 Cr done in Q1) | AGM; PR 13-Aug-26 | Y | Yes; adds Q1 capex | [V] |
+| 11 | Pinaka package (MoD total) | ₹10,147 Cr, 6-Feb-2025, EEL + MIL (+ BEL SHAKTI software) | PIB PRID 2100335 | Y | Yes (was V-snip) | [V] |
+| 12 | Solar's Pinaka share | **₹6,084 Cr, 8–15 yrs, 86% within 10 yrs** | Solar Reg-30 filing 6-Feb-2025 | Y | **New (S2)** | [V] |
+| 13 | Revenue from customers outside India | ₹5,790 Cr of ₹9,612 Cr product revenue (60%; FY25 52%) | AR FY26 Note 32 | Y | New | [V] |
+| 14 | CIL as >10% customer | ₹964.31 Cr gross (FY25 ₹956.76 Cr) | AR FY26 Note 32 | Y | Consistent (PPT net ₹924 Cr) | [V] |
+| 15 | Net debt (Mar-26) | ₹867 Cr; total debt ₹1,468 Cr; 0.32× EBITDA | FY26 PPT (first-pass PDF, re-read); AR D/E 0.23 | Y | Yes | [V] |
+| 16 | Contingent liabilities (consolidated) | ~₹15.3 Cr (excise 2.41, GST 3.04, VAT 8.44, IT 0.68, others 0.70) | AR FY26 consol. Note 30 | Y | New | [V] |
+| 17 | Promoter remuneration FY26 | Chairman ₹24.50 Cr + MD ₹50.50 Cr = ₹75 Cr (FY25 ₹48 Cr) — 4.3% of PAT | AR FY26 consol. Note 31 | Y | New | [V] |
+| 18 | Omnia price and aggregate | R134.50/share; R21,828,973,400 | Omnia circular (7-Oct-26) | Y | Yes (now [V]) | [V] |
+| 19 | Omnia deal in US$/₹ | US$1.355 bn; ₹12,951 Cr | Solar PR 14-Sep-2026 | Y | Yes | [V] |
+| 20 | Omnia premium | 30.98% to R102.69 (10-Sep-26); 35.73% to 30-d VWAP | Omnia circular §3.1; Omnia post 14-Sep-26 | Y | Yes | [V] |
+| 21 | Omnia long stop | 31-Jul-2027 (→ 30-Sep-2027; auto-extension ≤1-Dec-2027) | Omnia circular, definitions | Y | Refines (S6) | [V] |
+| 22 | Omnia timetable | Scheme meeting 5-Nov-2026; implementation ~28-Jun-2027 | Omnia circular, salient dates | Y | New | [V] |
+| 23 | Omnia independent-expert range | R113.60–R125.98, core R119.41 | Omnia circular §10.2.6, Annexure 1 | Y | New | [V] |
+| 24 | Omnia FY26 revenue / EBITDA | R24,200m / R2,775m; Mining R9,816m / R1,314m | Omnia FY26 audited results (first-pass PDF) | Y | Yes | [V] |
+| 25 | Premier open offer | ₹698 + ₹7.65 interest = ₹705.65; up to ₹986.35 Cr | Letter of Offer (BSE 5-Oct-26) | Y | Resolves conflict (S5) | [V] |
+| 26 | CIL FY26 production | 768.19 MT (FY25 781.06) | CIL FY26 results PPT (BSE) | Y | Yes (was V-snip) | [V] |
+| 27 | CIL FY26 OBR | 1,980.09 Mcum (−2%); 88% contractual | CIL FY26 results PPT | Y | Confirms "OBR negative" | [V] |
+| 28 | CIL Q1 FY27 production / OBR | 169.63 MT (−7.5%) / 504.68 Mcum (−1%) | CIL Q1 FY27 results PPT | Y | Yes (was V-snip) | [V] |
+| 29 | CIL Q2 FY27 production; FY27 targets | 151.37 MT (+3.81%); target 815 MT, supply 850 MT | CIL press release 1-Oct-2026 (BSE) | Y | Yes; 810 is wrong | [V] |
+| 30 | CIL explosives cost shock | Q1 FY27 "Increase in Explosive Expenses: ₹244 Crore" YoY; FY26 −₹107 Cr (volume) | CIL Q1 FY27 and FY26 PPTs | Y | New; consistent with PTI +26% price | [V] |
+| 31 | Captive and commercial coal FY26 | 210.46 MT (+10.22%) | MoC/PIB press 2-Apr-2026 (first pass) | Y | Yes | [V] |
+| 32 | All-India coal FY26 | ~1,036 MT | Solar AR FY26 MD&A, citing MoC (a full-year MoC/PIB release was not found) | Y (company AR) | Yes | [V-AR; secondary for coal] |
+| 33 | India defence production FY26 | ₹1.78 lakh Cr (+15.6%); private 24% (~₹42,000 Cr); FY21 ₹84,643 Cr | PIB PRID 2273824 (17-Jun-2026) | Y | Yes (was V-snip) | [V] |
+| 34 | India defence exports FY26 | ₹38,424 Cr (+62.66%); DPSU ₹21,071 Cr; private ₹17,353 Cr (+14%); 145 exporters | PIB PRID 2248124 (2-Apr-2026) | Y | Yes; date corrected (S10) | [V] |
+| 35 | Defence budget FY27 | ₹7.85 lakh Cr (+15.19%); capital ₹2,19,306.47 Cr (+21.84%); capital acquisition ₹1.85 lakh Cr | PIB PRID 2221612 (1-Feb-2026) | Y | Yes (was V-snip; the "₹7,84,678 Cr" exact figure is not in PIB) | [V] |
+| 36 | AN price shock | ₹50,500 → ₹72,750/t (1-Mar → 1-Apr-2026); CIL explosive ₹39,588 → ₹49,783/t | PTI via Outlook Business (secondary; no CIL tender doc) | Y (secondary) | Yes; cross-checked by #30 | [V-secondary] |
+| 37 | AN export ban | PESO notification 13015/4/2020-EXPLOSIVE dated 18-Mar-2026 | teamleaseregtech (secondary); peso.gov.in failed TLS | Y (secondary) | Yes | [V-secondary] |
+| 38 | Deepak TAN capacity / Gopalpur | 587 KTPA; +376 KTPA Gopalpur "Q2 FY27"; **no commissioning filing by 23-Oct-26** | Deepak Q1 FY27 PPT; screener DEEPAKFERT announcements | Y | Yes; status adds "not yet announced" | [V] |
+| 39 | Orica | FY25 EBIT A$992m [snip]; **1H FY26 EBIT A$512m, revenue A$3,884m, net debt A$2,159m** | Orica ASX release 7-May-2026 | Y | Extends | [V] |
+| 40 | Dyno Nobel explosives | 1H FY26 revenue A$1,609.8m, EBIT A$224.2m (+28%); FY26 guide A$460–500m | Dyno Nobel ASX release 11-May-2026 | Y | Extends | [V] |
+
+**Count:** 36 of 40 are [V] from primary documents fetched this session (#1–31, #33–35, #38–40). #32 comes from the company's AR citing the ministry. #36–37 are fetched secondary sources. **0 rest on memory.**
+Additional primary verifications not in the 40:
+- AECI FY25 (S17)
+- Rheinmetall H1-2026 (S18)
+- PIB 18-Jan-2026 (Nagastra in Sindoor; Armenia Pinaka; 30 mm plant)
+- Solar orders: ₹1,400 Cr (Nov-25), ₹1,076 Cr (May-26), SECL ₹483 Cr, CIL ₹1,746 Cr
+- AR related-party, contingent-liability and geographic notes
+
+**Where sources still conflict, and which is more credible:**
+- **Pinaka product attribution.** PIB (the buyer's own statement) says EEL→ADM and MIL→HEPF "respectively". Solar's filing appears to have copied the PIB sentence but listed both products. The AGM line "first private sector company to dispatch Pinaka Enhanced Mark I" suggests SDAL also makes HEPF Mk-1 (E), possibly under a different or earlier contract. Use PIB for the contract scope and Solar for the ₹6,084 Cr value.
+- **Defence order-book split.** Feb-26 call (₹11,000 Cr international / ₹6,500–7,000 Cr India) vs AGM (₹12,000 Cr / ₹6,000 Cr). The AGM is later and explicitly dated "as of 31st March", so it is more credible. The ~₹1,000 Cr shift is consistent with Indian Pinaka deliveries in Q4 and new export orders.
+- **Manufacturing countries (9 vs 11).** Neither PR defines its count. "11" matches the Sep-26 call ("manufacturing in 11 countries") and Omnia's announcement. "9" probably counts operating plants only (excluding Kazakhstan, Zimbabwe or Sierra Leone start-ups) [E].
+
+## 4.2 Company packs from primary documents
+
+### 4.2.1 Solar Industries India (MEMBER) — management-commentary digest
+
+**Which "latest call"?** Solar held **no earnings call for Q1 FY27**. Its investor-relations site lists audio and transcripts for 15-Sep-2026 (Omnia), 15-May-2026 (FY26), 4-Feb-2026 (Q3 FY26), Nov-2025 and earlier; Q1 FY27 has only the board presentation and the press release of 13-Aug-2026. The latest management statements are therefore:
+- **(a)** the **31st AGM, 11-Aug-2026**, with Q&A answered by the MD and joint CFO;
+- **(b)** the **Q1 FY27 press release, 13-Aug-2026**;
+- **(c)** the **Omnia business-update call, 15-Sep-2026**.
+
+The FY26 call (15-May-2026) remains the last full results call. Guidance is paraphrased below with source and date.
+
+| Topic | What management said (paraphrase) | Source, date | Tag |
+|---|---|---|---|
+| FY27 revenue | Target ~₹14,000 Cr; "firmly on track" after Q1 | PR 13-Aug-26; AGM 11-Aug-26 | [V] |
+| FY27 margin | Maintain "current margins of 28% plus" (joint CFO); MD: "try our best to meet the same EBITDA level margins, or … exceed" | AGM 11-Aug-26 | [V] |
+| Sustainable margin | Expects "sustainable EBITDA margins in the 27–28% range" as defence and international grow | AR FY26 MD&A | [V] |
+| FY27 capex | ₹2,050 Cr, "mainly for defence projects"; ~₹450 Cr deployed in Q1; FY26 ~₹1,500+ Cr; ₹2,700 Cr+ over FY25–26 | AGM; PR 13-Aug-26 | [V] |
+| Order book | ~₹21,000 Cr at 31-Mar-26: defence ~₹18,000 Cr (international ~₹12,000 Cr, Indian ~₹6,000 Cr) + institutional ~₹3,000 Cr; ₹21,350 Cr at 30-Jun-26 | AGM; Q1 PPT | [V] |
+| Defence pipeline | "Confident of securing sizeable new orders in the coming quarters"; defence +123% in Q1 | PR 13-Aug-26 | [V] |
+| FY27 defence | >₹4,500 Cr (not repeated after May) | FY26 call 15-May-26 | [V] |
+| FY27 ex-defence | ~₹9,500 Cr = +30–33%; split ~10–15% volume, ~18–20% price | FY26 call 15-May-26 | [V] |
+| Domestic plants | Dhule (W. India) commissioned; "significant expansions" at Dholpur (N. India); "upcoming new facility at Orissa" | PR 13-Aug-26 | [V] |
+| Market share | Will not give product- or country-level shares | AGM 11-Aug-26 | [V] |
+| Segment disclosure | Explosives and defence treated as "one segment"; will not give margins by product or country | AGM; AR Note 32 | [V] |
+| Space | Strategic investor and supply-chain partner in **Skyroot** (Vikram-1 launch); also works with ISRO; "nascent" | AGM 11-Aug-26 | [V] |
+| Global ammunition | Ammunition and missile stocks low in Europe and the US; Solar "expanding footprints"; will not name countries | AGM 11-Aug-26 | [V] |
+| R&D | R&D centres in Nagpur, Hyderabad, Bangalore; counter-drone system in "last stage of development"; R&D expensed through P&L | AGM 11-Aug-26 | [V] |
+| Workforce | 80:20 male:female (up from near-zero women 6–7 years ago); 15,727 employees at 31-Mar-26; ">16,500" by Sep-26 | AGM; AR; PR 14-Sep-26 | [V] |
+| Premier / Apollo | Did not need Premier — already makes pyros, igniters, fuses, energetics, propellants, and assembles rockets and missiles; deploys capital for "strategic" long-term benefit | AGM 11-Aug-26 | [V] |
+| Omnia economics | Omnia FY26 revenue ~₹13,300 Cr; PAT + depreciation ~US$110m; EBITDA ~US$180m by FY28 without synergies; BME EBITDA margin 13–14% vs global explosives 18–19% | Omnia call 15-Sep-26 | [V] |
+| Combined FY28 | Solar ~₹16,500 Cr (+17–20%); combined revenue "plus ₹30,000 Cr" (₹31–32k Cr); EBITDA ₹6,800–7,000 Cr; D&A ~₹700 Cr; interest ₹1,000–1,100 Cr; PBT ₹5,000 Cr+ | Omnia call | [V] |
+| Leverage | Debt ~₹10,000–11,000 Cr by FY28; net debt/EBITDA <2×; **no equity issuance**; acquisition debt at Omnia/SA level, with guarantees | Omnia call; ICRA note 23-Sep-26 | [V] |
+| Omnia agriculture | A "complementary" vertical (AN/nitric-acid plants sit inside the agri segment); **no intention** to take agri into India; will keep it "as long as it is adding value" — no divestment commitment | Omnia call | [V] |
+| Geography after Omnia | Focus on India and Africa; Australia "not in our immediate strategic roadmap"; Africa mining revenue ~US$300m → ~US$1 bn | Omnia call | [V] |
+| Pre-defence margin | "We will keep generating EBITDA margin around 18% to 20% even before defense" | Omnia call | [V] |
+| AN pass-through | Rise-and-fall clauses recover ~60% of an AN increase; past 50–70% RM spikes cost 2–3 margin points | FY26 call 15-May-26 | [V] |
+| Working capital | Q4 FY26 inventory build for geopolitical risk; normalise "in 2 quarters" (i.e. by Q2 FY27) | FY26 call 15-May-26 | [V] |
+
+**What Q1 FY27 implies for the rest of FY27 [E, arithmetic on V inputs]:**
+
+| Line | FY27 guide | Q1 FY27 actual | Needed in Q2–Q4 | Per quarter needed | Q1 run-rate |
+|---|---|---|---|---|---|
+| Total revenue | ~₹14,000 Cr | ₹3,668 Cr | ₹10,332 Cr | **₹3,444 Cr** | ₹3,668 Cr (guide implies a *lower* run-rate) |
+| Defence | >₹4,500 Cr | ₹933 Cr | >₹3,567 Cr | **>₹1,189 Cr** | ₹933 Cr (Q4 FY26 ₹1,008 Cr) — defence must **accelerate ~27%** |
+| Ex-defence (domestic + international + others) | ~₹9,500 Cr | ₹2,735 Cr | ₹6,765 Cr | **₹2,255 Cr** | ₹2,735 Cr — explosives run well **ahead** of guide |
+
+**Read:** the ₹14,000 Cr guide looks conservative in aggregate (Q1 annualises to ~₹14,700 Cr), but the mix is the risk. Explosives are over-delivering on AN-price pass-through, while defence needs a step-up in Q2–Q4 (Pinaka, MCA, exports). If Q2 explosives realisations fall with the post-monsoon AN price, the defence ramp has to carry the year.
+
+### 4.2.2 Solar — concall/presentation KPI table (company basis, ₹ Cr) [V]
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | FY25 | FY26 | Source |
+|---|---|---|---|---|---|---|
+| Net sales | 2,154 | 3,053 | 3,668 | 7,540 | 9,838 | PPTs |
+| Materials % of sales | 50.80% | 49.84% | 50.63% | 52.77% | 49.74% | PPTs |
+| Employee cost % | 8.53% | 8.27% | 6.97% | — | 8.59% | PPTs |
+| Other expenses % | 15.85% | 14.83% | 14.73% | — | 15.02% | PPTs |
+| EBITDA | 564 | 870 | 1,024 | 2,031 | 2,750 | PPTs |
+| EBITDA margin | 26.18% | 28.51% | 27.91% | 26.94% | 27.95% | PPTs |
+| PAT | 353 | 556 | 666 | 1,288 | 1,737 | PPTs |
+| PAT margin | 16.37% | 18.21% | 18.17% | 17.08% | 17.65% | PPTs; AR ratios |
+| Defence revenue | 418 | 1,008 | 933 | 1,355 | 2,634 | PPTs |
+| Defence % of sales | 19% | 33% | 26% | 18% | 27% | PPTs |
+| International explosives | 826 | 1,006 | 1,364 | 2,900 | 3,815 | PPTs |
+| Domestic explosives | 898 | 1,033 | 1,361 | 3,236 | 3,343 | PPTs |
+| Order book | — | ~21,300 | 21,350 | — | ~21,300 | PPTs |
+| Capex | — | — | ~450 | 1,182 | 1,556 | PR; PPT |
+| Net debt | — | 867 | n/d | (276) net cash | 867 | FY26 PPT |
+| AR ratios | — | — | — | Debtors turnover 6.67; inventory turnover 21.19; ICR 15.50; current ratio 1.95; D/E 0.21; RoNW 29.18% | Debtors turnover 5.95; inventory turnover 17.00; ICR 20.10; current ratio 2.06; D/E 0.23; RoNW 27.67% | AR FY26 MD&A |
+
+### 4.2.3 Solar — 5-year history FY22–FY26 (screener consolidated, re-pulled 23-Oct-2026; company EBITDA where available) [V]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | 4-yr CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 3,948 | 6,918 | 6,070 | 7,540 | 9,838 | **25.6%** |
+| YoY | +57% | +75% | −12% | +24% | +30% | — |
+| Operating profit (screener) | 748 | 1,336 | 1,482 | 2,026 | 2,717 | 38.0% |
+| OPM (screener) | 19% | 19% | 24% | 27% | 28% | — |
+| EBITDA (company) | n/f | 1,320 (19.07%) | 1,414 (23.29%) | 2,031 (26.94%) | 2,750 (27.95%) | — |
+| Materials % (company) | n/f | 62.73% | 52.66% | 52.77% | 49.74% | — |
+| Depreciation | 109 | 128 | 143 | 182 | 251 | — |
+| Interest | 50 | 90 | 109 | 116 | 134 | — |
+| PAT | 455 | 811 | 875 | 1,288 | 1,737 | **39.8%** |
+| EPS (₹, attributable) | 48.77 | 83.68 | 92.38 | 133.65 | 185.38 | 39.6% |
+| ROCE | 25% | 36% | 32% | 38% | 38% | — |
+| CFO | 298 | 656 | 1,406 | 2,468 | 621 | — |
+| CFO before tax / OP (screener) | 61% | 68% | 115% | 142% | **47%** | — |
+| Free cash flow | 17 | 183 | 858 | 1,466 | **−1,072** | — |
+| Working-capital days | 41 | 31 | 39 | 37 | **74** | — |
+| Inventory days | 113 | 92 | 97 | 95 | **130** | — |
+| Net worth | 1,914 | 2,610 | 3,306 | 4,413 | 6,277 | — |
+| Borrowings | 888 | 1,195 | 1,138 | 975 | 1,524 | — |
+| Fixed assets + CWIP | 1,723 | 1,984 | 2,518 | 3,436 | 4,737 | — |
+| Dividend payout | 15% | 10% | 9% | 7% | 6% | — |
+
+**Customer-basket history (₹ Cr) [V: FY24 PPT for FY23–FY24; FY26 PPT for FY25–FY26]:**
+
+| Basket | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|
+| CIL | 1,067 | 929 | 960 | 924 |
+| Non-CIL & Institutional | 1,278 | 1,007 | 1,118 | 1,222 |
+| Housing & Infra | 1,322 | 1,116 | 1,158 | 1,197 |
+| **Domestic explosives** | **3,667** | **3,052** | **3,236** | **3,343** |
+| Exports & Overseas / International | 2,796 | 2,458 | 2,900 | 3,815 |
+| **Defence** | **396** | **517** | **1,355** | **2,634** |
+| Others | 64 | 43 | 49 | 46 |
+| Total | 6,923* | 6,070 | 7,540 | 9,838 |
+
+*The slide shows 6,923 vs P&L 6,922.53.
+
+**Read:** domestic explosives revenue in FY26 (₹3,343 Cr) is **still 9% below FY23** (₹3,667 Cr, the Russia–Ukraine AN-price peak). In rupee terms the Indian mining business went sideways for three years. All of FY23→FY26 growth (+₹2,915 Cr) came from defence (+₹2,238 Cr) and international (+₹1,019 Cr). CIL revenue fell from ₹1,067 Cr to ₹924 Cr.
+
+### 4.2.4 Solar — 8-quarter trend Q2 FY25–Q1 FY27 (screener consolidated) and customer baskets (company PPTs) [V]
+
+| Quarter | Revenue | YoY | Op. profit | OPM | PAT | Domestic expl. (CIL / NonCIL / H&I) | International | Defence | Others |
+|---|---|---|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 1,716 | +27.4% | 445 | 26% | 304 | 584 (169 / 224 / 191) | 799 | 322 | 11 |
+| Q3 FY25 (Dec-24) | 1,973 | +38.1% | 527 | 27% | 338 | 794 (259 / 278 / 257) | 758 | 409 | 12 |
+| Q4 FY25 (Mar-25) | 2,167 | +34.5% | 537 | 25% | 346 | 955 (286 / 312 / 357) | 764 | 430 | 18 |
+| Q1 FY26 (Jun-25) | 2,154 | +27.8% | 535 | 25% | 353 | 898 (238 / 348 / 312) | 826 | 418 | 12 |
+| Q2 FY26 (Sep-25) | 2,082 | +21.3% | 552 | 26% | 361 | 598 (156 / 271 / 171) | 963 | 506 | 15 |
+| Q3 FY26 (Dec-25) | 2,548 | +29.1% | 708 | 28% | 467 | 815 (261 / 287 / 267) | 1,020 | 702 | 11 |
+| Q4 FY26 (Mar-26) | 3,053 | +40.9% | 826 | 27% | 556 | 1,033 (269 / 316 / 448) | 1,006 | 1,008 | 6 |
+| Q1 FY27 (Jun-26) | 3,668 | +70.3% | 1,015 | 28% | 666 | 1,361 (split not given) | 1,364 | 933 | 10 |
+
+Reference quarter: Q1 FY25 = 1,685 revenue; baskets 903 (246 / 304 / 353), 579, 194, 9.
+
+Pattern notes [E]:
+- **Q2 is the seasonal trough for domestic explosives (monsoon).** Domestic fell to ₹584 Cr in Q2 FY25 and ₹598 Cr in Q2 FY26, about 35–40% below the Q1/Q4 level. Q2 FY27 has an easy domestic base (₹598 Cr) and the AN-price uplift, so domestic YoY growth should stay very high even as volumes dip.
+- **International has grown for 8 straight quarters YoY** (Q1 FY27 +65%). Its Q2 is not seasonal — Q2 FY26 ₹963 Cr was the highest at that time.
+- **Defence is lumpy:** ₹1,008 Cr in Q4 FY26, then ₹933 Cr in Q1 FY27 (−7% QoQ).
+- **Q2 FY27 tests** (results ~10–14 Nov-2026; board date not announced as of 23-Oct [V screener]):
+  - defence ≥₹1,100 Cr, to stay on the >₹4,500 Cr path;
+  - working-capital release (promised by Q2);
+  - margin with AN still elevated.
+
+### 4.2.5 Solar — annual-report FY26 findings (AR on BSE: AttachHis/83d2a209…) [V]
+
+- **Segment (Note 32):**
+  - One reportable segment, "Explosives and its accessories". The CODM "does not review any discrete information" by product or geography — which is why Solar will not give defence margins.
+  - **Geography by customer location:** India ₹3,821.47 Cr (FY25 ₹3,508.28 Cr, +8.9%); **Outside India ₹5,790.40 Cr (₹3,851.78 Cr, +50.3%)**; total product revenue ₹9,611.87 Cr.
+  - **Non-current assets:** India ₹4,142 Cr, outside India ₹1,037 Cr. 80% of the asset base earns 40% of revenue — exports from Indian plants (defence) explain the gap.
+- **Largest customer:** only one customer exceeds 10% of revenue — CIL, ₹964.31 Cr gross (FY25 ₹956.76 Cr).
+- **Contingent liabilities (consolidated Note 30):** about **₹15.3 Cr** in total (excise ₹2.41 Cr, GST ₹3.04 Cr, sales tax/VAT ₹8.44 Cr, income tax ₹0.68 Cr, others ₹0.70 Cr) — immaterial (0.24% of net worth).
+- **Related parties (Note 31):**
+  - **No royalty, brand fee or promoter-entity purchases** of any size.
+  - Material flows are with the associate **ZMotion Autonomous Systems** (45.99%, drones/autonomy): purchases ₹32.53 Cr (FY25 ₹128.82 Cr), technical services ₹4.32 Cr, **advance given ₹63.20 Cr (FY25 ₹3.58 Cr)**.
+  - Ortiz Investments (SA associate, not yet operating): loan ₹0.88 Cr.
+  - Solar Synthetics (promoter-influenced): rent ₹0.04 Cr.
+- **Promoter remuneration:** Chairman ₹24.50 Cr (₹18.00 Cr) + MD ₹50.50 Cr (₹30.00 Cr) = **₹75 Cr, +56%**, ≈4.3% of consolidated PAT. Total KMP remuneration ₹81.68 Cr (₹54.50 Cr). Worth a governance line given the 73% promoter holding.
+- **Board refresh:** four independent directors left between Sep-2025 and Mar-2026 (N. Ramakrishna, J. Belwal, R. Prasad, D.K. Batra). Three were appointed Sep–Dec 2025 (G. Balakrishnan, V. Lakshmanan, R. Bhujang); R. Jha Tripathi was appointed at the 2026 AGM. Joint statutory auditors: SRBC & Co LLP and Gandhi Rathi & Co; **unqualified** opinions.
+- **Capacity/production table:** **not disclosed** — the AR has no installed-capacity or tonnage table. The "~330,000 tpa" figure remains unverified (see 4.4).
+- **Product-mix pie (p.105):** explosives / initiating systems / defence. The joint CFO confirmed defence is 27% (the printed 42% is a typo). **Initiating systems ≈11% of FY26 revenue (13% FY25)** — first quantification of the IS share; approximate.
+- **MD&A risks named** (FY26):
+  - (1) execution of large defence programmes — trials delay revenue;
+  - (2) geopolitics and export-control policy;
+  - (3) cyclicality of domestic mining — "heavy monsoons, slower growth in coal offtake, flat electricity demand";
+  - (4) AN and energetic-precursor price volatility not passed through in time;
+  - (5) regulatory and safety compliance;
+  - (6) capital allocation and scale — a delayed capacity ramp "could temporarily affect return ratios";
+  - (7) technology and qualification risk in UAVs and loitering munitions.
+- **MD&A opportunities named:** 155 mm shells "initiated production … progressing through qualification stages"; ammunition across 23 / 30 / 155 mm; MPATGM; Pinaka supplies made in FY26; robotics and UAV centre; MALE UAV.
+- **Forex (standalone, Directors' report):** earnings ₹2,622.61 Cr, outgo ₹806.27 Cr — Solar is a **large net foreign-exchange earner** (~₹1,816 Cr net), which supports the defence-export reading of Note 32.
+- **Key ratios (AR):** inventory turnover down to 17.0× (21.2×), confirming the inventory build; interest cover 20.1×; RoNW 27.67% (29.18%).
+
+### 4.2.6 Solar — disclosed order ledger (Reg-30 filings; ₹ Cr) [V unless noted]
+
+| Date | Customer | Value | Tenor | Type |
+|---|---|---|---|---|
+| 6-Feb-2025 | MoD (EEL/SDAL) — Pinaka ADM Type-1 (DPICM) (+ HEPF Mk-1 (E) per Solar wording) | **6,084** | 8–15 yrs (86% ≤10 yrs) | Domestic defence |
+| Jan-2025 | International | 2,039 | n/f | Export defence (filing listed on IR site; not opened) |
+| Mar-2025 | International | 2,150 | n/f | Export defence (listed; not opened) |
+| 8-Oct-2025 | SECL (CIL subsidiary) | 483 | 2 yrs | Bulk explosives |
+| 18-Nov-2025 | International clients (company + subsidiary) | 1,400 | 4 yrs | Export defence |
+| 31-Dec-2025 | CIL for its subsidiaries (additional) | 1,746 (CIL total 2,229) | 2 yrs | Bulk explosives |
+| 30-Jan-2026 | International (two orders) | 1,419 (= 589 + 830) | 4 yrs | Export defence [V-snip DSIJ] |
+| 29-May-2026 | International clients | 1,076 | 3 yrs | Export defence |
+| Other IR-listed filings (dates not opened) | — | 580 (export); 887; 399.4 (export); 158 (GoI); SCCL 1,563; loitering-munition contract; MMHG contract | — | — |
+
+**Read [E]:**
+- Disclosed export-defence orders since Jan-2025 total **≥₹8,100 Cr** (2,039 + 2,150 + 1,400 + 1,419 + 1,076), on 3–4-year tenors — about **₹2,000–2,500 Cr/yr of export defence revenue capacity**. That matches the ~₹1,975 Cr of FY26 defence exports implied by Note 32.
+- The Indian book (~₹6,000 Cr) is dominated by Pinaka ₹6,084 Cr spread over 8–15 years, i.e. only **~₹400–700 Cr/yr**.
+- The FY27 defence guide (>₹4,500 Cr) therefore leans on exports plus new Indian orders (EP-6 emergency procurement, 30 mm MCA, Pinaka guided variants) that are not yet in the disclosed ledger.
+
+### 4.2.7 Premier Explosives (REFERENCE — other sub-sector; lighter pack) [V screener 23-Oct-26; V Letter of Offer]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Jun-26 |
+|---|---|---|---|---|---|---|
+| Revenue | 199 | 202 | 272 | 417 | 388 | 349 |
+| Operating profit | 21 | 26 | 58 | 58 | 40 | 24 |
+| OPM | 11% | 13% | 22% | 14% | 10% | 7% |
+| Other income | 3 | 2 | 4 | 2 | 36 | 37 |
+| PAT | 5 | 7 | 28 | 29 | 46 | 34 |
+| ROCE | 5% | 7% | 18% | 17% | 23% | — |
+| CFO | −2 | 21 | 79 | 118 | −1 | — |
+| Inventory days | 142 | 335 | 290 | 235 | 168 | — |
+| Borrowings | 78 | 83 | 61 | 41 | 32 | — |
+
+- **Latest quarter, Q1 FY27 (Jun-26):** revenue ₹102.56 Cr (−27.9% YoY vs ₹142.15 Cr); OP ₹5.88 Cr (5.73%); PAT ₹3.08 Cr. Q4 FY26 OP was −₹0.38 Cr. FY26 PAT was propped by ₹36 Cr of other income.
+- **Corporate action [V LoF]:** Apollo Micro Systems open offer at ₹698 + ₹7.65 interest = **₹705.65**, up to 1,39,77,911 shares (≤₹986.35 Cr). The promoter SPA (9-Jul-2026) covers 41.33% for ₹1,550 Cr [V-snip]. After the offer Apollo could hold up to 67.33%. Stock at ₹689 (23-Oct) — just below the offer price.
+- **Shareholding Sep-26 [V]:** promoters 41.33%; DIIs 11.93% (9.37% in Jun-26); a new **Government** line of 2.94%; FIIs 2.15%; shareholders fell to 81,430 from 96,995 (Jun-25).
+- **Read:** Premier's ₹388 Cr revenue and 7–10% margin make it **~4% of Solar's revenue at about a third of Solar's margin**. Apollo is paying ~₹2,750 Cr in equity value (₹3,702 Cr m-cap × 74%) for a business earning ~₹24 Cr TTM operating profit. That price is for licences, ISRO/DRDO propellant O&M positions and a Pinaka-related capability, the same "licence is the asset" logic as Sivasakthi.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3.1 Coal India physical series — replaces §E7 CIL rows [V CIL filings]
+
+| Period | CIL production (MT) | YoY | Offtake/supply (MT) | OBR (Mcum) | YoY | Source |
+|---|---|---|---|---|---|---|
+| FY24 | 773.6 | — | n/f | n/f | — | MoC AR (first pass) |
+| FY25 | 781.06 | +1.0% | 762.98 | 2,019.49 | — | CIL FY26 PPT (comparatives) |
+| FY26 | **768.19** | **−1.6%** | 744.88 | **1,980.09** | **−2.0%** | CIL FY26 results PPT |
+| Q1 FY26 | 183.32 | — | 190.96 | 508.31 | — | CIL Q1 FY27 PPT |
+| Q1 FY27 | **169.63** | **−7.5%** | 197.86 | **504.68** (target 529.04) | **−0.7%** | CIL Q1 FY27 PPT |
+| Q2 FY26 | 145.82 | — | 166.05 [E: 186.04 ÷ 1.1204] | n/f | — | CIL PR 1-Oct-26 |
+| Q2 FY27 | **151.37** | **+3.8%** | **186.04** (+12.0%) | n/f | — | CIL PR 1-Oct-26 |
+| H1 FY27 | **321.0** [E sum] | −2.5% [E] | 383.9 [E] | — | — | derived |
+| FY27 target | **815** (+6.1% vs FY26) | — | **850** | — | — | CIL PR 1-Oct-26 |
+
+Chart notes:
+- **OBR, not coal tonnes, drives explosives demand.** CIL's OBR fell 2% in FY26 and was flat-to-down in Q1 FY27 even as offtake rose (CIL liquidated ~63 MT of pithead stock in H1 FY27). Liquidating stock needs no blasting, so **the explosives demand signal is weaker than the coal-supply headline.**
+- **88–89% of CIL's OBR is done by contractors** (departmental 236 of 1,980 Mcum in FY26; 55 of 505 Mcum in Q1 FY27). The *buyer* of explosives is still CIL — the bulk-explosive orders (SECL ₹483 Cr; CIL ₹1,746 Cr) are placed by CIL and its subsidiaries — but blasting activity follows OB-contractor (MDO/hiring) cycles [E/K: CIL typically issues explosives to OB contractors; FLAG — contract terms not fetched].
+- To hit 815 MT, CIL must produce **~494 MT in H2 FY27 (+12–13% over H2 FY26's ~439 MT [E: 768.19 − 329.14])**. H2 is the dry-season peak, so a strong Q3–Q4 for domestic bulk explosives is plausible but not assured.
+
+### 4.3.2 CIL explosives cost — the AN shock seen from the buyer's side [V CIL PPTs; V-secondary PTI; E]
+
+| Item | Value | Tag |
+|---|---|---|
+| CIL explosives consumption | ~0.9 mt/yr | [V-secondary PTI 12-Apr-26] |
+| CIL average explosive price | ₹39,588/t (Feb-26) → ₹49,783/t (end-Mar-26), +26% | [V-secondary PTI] |
+| FY26 explosive expense change | **−₹107 Cr YoY** ("reduction in total composite production by 2%") | [V CIL FY26 PPT] |
+| Q4 FY26 explosive expense change | −₹23 Cr YoY | [V] |
+| **Q1 FY27 explosive expense change** | **+₹244 Cr YoY** (materials ₹3,260 Cr vs ₹2,562 Cr, +27%; oil & lubricants +₹435 Cr) | [V CIL Q1 FY27 PPT] |
+| Implied quarterly explosives bill | Pre-shock ~₹850–950 Cr/qtr → post-shock ~₹1,100–1,200 Cr/qtr | [E: 0.225 mt/qtr × ₹40k → ₹50k/t] |
+| Implied annual CIL explosives spend, FY27 | **~₹4,300–4,700 Cr** (FY26 ~₹3,500–3,700 Cr) | [E] |
+| Solar's CIL revenue as a share of CIL's explosives spend | FY26 ₹924–964 Cr ÷ ~₹3,600 Cr ≈ **26–27%** | [E] — cross-checks CRISIL's ~24% domestic share |
+
+**Read:** the +₹244 Cr in Q1 FY27 is the cleanest primary-source measure of the AN pass-through anywhere in this dossier. On flat OBR (−1%), CIL's explosives bill rose ~25–28%. That matches the PTI price reset (+26%) and says **the April 2026 price reset was implemented in full at CIL**. Solar's CIL-basket revenue should therefore show a ~25% price uplift from Q1 FY27 (not separately disclosed — the Q1 PPT gives domestic in aggregate only).
+
+### 4.3.3 India defence macro — replaces §E9 [V PIB]
+
+| Series | FY14 | FY21 | FY25 | FY26 | Source |
+|---|---|---|---|---|---|
+| Defence production (₹ Cr) | 43,746 | 84,643 | 1,54,000 | **1,78,000** (+15.6%) | PIB 2273824 |
+| Private share of production | — | — | 22% | **24% (~₹42,000 Cr)** | PIB 2273824 |
+| Defence exports (₹ Cr) | — | — | 23,622 | **38,424** (+62.66%) | PIB 2248124 |
+| — DPSU exports | — | — | 8,389 | **21,071** (+151%) | PIB 2248124 |
+| — Private exports | — | — | 15,233 | **17,353** (+14%) | PIB 2248124 |
+| Number of exporters | — | — | 128 | 145 | PIB 2248124 |
+
+| Budget line | FY26 BE | FY27 BE | Change | Source |
+|---|---|---|---|---|
+| MoD total | ~₹6.81 lakh Cr | **₹7.85 lakh Cr** | +15.19% | PIB 2221612 |
+| Capital outlay (Defence Services) | ₹1.80 lakh Cr | **₹2,19,306 Cr** | +21.84% | PIB 2221612 |
+| Capital acquisition | ~₹1.49 lakh Cr [E] | **₹1.85 lakh Cr** | ~+24% | PIB 2221612 |
+| Share of central government expenditure | — | 14.67% | — | PIB 2221612 |
+| MoD contracts concluded Apr–Dec 2025 | ₹2.10 lakh Cr | — | — | PIB 2221612 |
+| Acceptances of Necessity (AoN) to date | >₹3.50 lakh Cr | — | — | PIB 2221612 |
+
+**Solar against the macro [E]:**
+- Solar's FY26 defence revenue ₹2,634 Cr ≈ **1.5% of national production**.
+- Its implied defence *exports* of ~₹1,975 Cr ≈ **11% of all private-sector defence exports (₹17,353 Cr)** and ~5% of India's total defence exports.
+- Private-sector exports grew only 14% in FY26 while Solar's exports roughly doubled, so **Solar took share within private defence exports.**
+- The DPSU export jump (+151%) is consistent with MIL's export ramp (₹3,082 Cr in FY25 [V CARE]).
+- The FY27 budget explicitly funds **emergency procurement after Operation Sindoor "under both Capital and Revenue"**. Ammunition replenishment can therefore come from the revenue head too, not only capital acquisition.
+
+### 4.3.4 Omnia scheme — deal terms and timetable dataset [V Omnia circular; Solar PR]
+
+| Item | Value |
+|---|---|
+| Offeror chain | Solar SA Investments (Pty) Ltd ← Solar Overseas Mauritius Ltd ← Solar Industries India Ltd; Solar Mauritius guarantee; RMB irrevocable unconditional bank guarantee (TRP cash confirmation) |
+| Consideration | R134.50/share cash; aggregate R21,828,973,400 (≈US$1.355 bn ≈ ₹12,951 Cr per Solar) |
+| Premia | 30.98% (10-Sep-26 close R102.69); 14.30% (11-Sep close R117.67); 35.73% (30-day VWAP R99.09); 70.69% (31-Dec-25 close R78.80) |
+| Independent expert | Fair value R113.60–R125.98; core R119.41 → offer 12.6% above core; Independent Board recommends |
+| Implied multiples [E] | EV ≈ R21.83 bn − R1.68 bn net cash = **R20.15 bn → 7.3× FY26 EBITDA (R2,775m)**; **16.4× FY26 headline earnings (R1,329m)**; 2.0× NAV (R10,759m) |
+| Conditions | ≥75% special resolution; ≤3% appraisal-rights dissent; SARB FinSurv; competition approvals in **South Africa, COMESA, EAC, ECOWAS, Botswana, Namibia, Mali, Nigeria**; consents from 4 undisclosed material-contract counterparties; no MAC; no blocking order |
+| Break fees | 1% of aggregate consideration each way (Omnia fee / Solar SA fee) |
+| Timetable | Circular 7-Oct-2026 → voting LDT 27-Oct → **scheme meeting 5-Nov-2026** → TRP certificate ~7-Jun-2027 → finalisation ~8-Jun → LDT ~22-Jun → **implementation ~28-Jun-2027** → delisting ~29-Jun-2027 |
+| Long stop | 31-Jul-2027 → 30-Sep-2027 (if TRP cash confirmation extended) → automatic extensions capped at 1-Dec-2027 |
+| Omnia footprint | 23 countries; customers in 40+; 70+ distribution centres; 3,500+ employees; nitric acid + AN plants (in the Agriculture segment); new 5,000 t AN tank |
+| Solar's stated rationale | Vertical integration in AN; BME's electronic initiation (AXXIS) and digital blasting; SADC access; benefits "increasingly visible from FY2028"; Africa mining revenue ~US$300m → ~US$1 bn |
+
+**Watch:**
+- 5-Nov-2026 scheme vote. With an above-range price and "broad shareholder support", rejection risk looks low [E].
+- **Eight competition regimes plus SA public-interest conditions** (B-BBEE, employment), which Solar's announcement pre-emptively addresses — these set the critical path to the ~28-Jun-2027 target.
+
+### 4.3.5 Global explosives peers — latest primary data (replaces V-snip rows in §10.1) [V unless tagged]
+
+| Company | Latest period | Explosives / mining revenue | Profit | Margin | Balance sheet | Source |
+|---|---|---|---|---|---|---|
+| Orica | 1H FY26 (to Mar-26) | Group A$3,884m (−1%) | EBIT A$512m; Blasting Solutions A$434.9m | Group EBIT 13.2% | Net debt ex-leases A$2,159m; 1.53× | ASX 7-May-26 |
+| Orica | FY25 (Sep-25) | ~A$8.1bn [V-snip] | EBIT A$992m; NPAT pre-SI A$541m | ~12% | Net debt ex-leases A$1,921.5m [V, from 1H26 comparatives] | orica.com / 1H26 release |
+| Dyno Nobel | 1H FY26 (to Mar-26) | Explosives A$1,609.8m (+9.3%) | Explosives EBIT A$224.2m (+28%) | **13.9%** EBIT | Net debt A$1,260.8m; 1.3× | ASX 11-May-26 |
+| AECI | FY25 (Dec-25) | AECI Mining R17,622m (−8%) | Mining EBITDA R2,722m; op profit R2,089m | **15.4%** EBITDA | Group net debt R465m | AECI results booklet |
+| Omnia | FY26 (Mar-26) | Mining R9,816m | Mining EBITDA R1,314m | 13.4% | Group net cash R1,678m | Omnia FY26 results |
+| Enaex | CY2025 | US$2,163m [V-snip Memoria] | EBITDA US$380m | 18% | — | Enaex Memoria 2025 (via search) |
+| Rheinmetall W&A | H1-2026 | €1,757m (+33%) | Op result €417m | **23.7%** | W&A backlog €25.3bn | Rheinmetall 6-Aug-26 |
+| **Solar (group)** | Q1 FY27 | ₹3,668 Cr (explosives ₹2,725 Cr) | EBITDA ₹1,024 Cr | **27.9%** | Net debt ₹867 Cr (Mar-26) | Solar Q1 PPT |
+
+**Read:** on primary numbers the global explosives majors earn **13–15% EBIT/EBITDA on explosives** (Dyno 13.9% EBIT, Orica Blasting ~11–12% EBIT [E], AECI Mining 15.4% EBITDA, Omnia Mining 13.4% EBITDA), and Enaex is the 18% outlier. Solar's management benchmark ("global explosives margins 18–19%") is therefore **generous to the peers**; the realistic peer band is 13–18%. That widens the gap to Solar's 27.9% group margin and means BME's 13–14% is *in line with* peers, not below them.
+
+### 4.3.6 Global commercial-explosives market size — chosen estimate and why [E built from V]
+
+- **Third-party estimates disagree because definitions differ:** IMARC US$8.0 bn (2023) and 360iResearch US$14.4 bn [V-snip]. The IMARC figure appears to count explosive product only; the higher one includes initiating systems and services.
+- **Bottom-up from issuers' own reports (latest annual, US$) [E]:**
+  - Orica ~5.3 bn (FY25, incl. digital and mining chemicals)
+  - Dyno Nobel explosives ~2.1 bn (1H26 × 2)
+  - Enaex ~2.2 bn
+  - Maxam ~1.5–1.8 bn [K]
+  - AECI Mining ~1.0 bn (incl. mining chemicals)
+  - Solar explosives ~0.8 bn
+  - Omnia Mining ~0.55 bn
+  - **Subtotal ≈ US$13.5–14 bn for the top seven outside China.**
+  - China's civil-explosives industry (state-licensed, largely domestic) adds roughly US$5–6 bn [K, low confidence]; Russia/CIS, regional African, Latin American and Indian independents add US$1–3 bn [E].
+- **Chosen figure:** **~US$18–22 bn including initiating systems, bulk delivery and blasting services; ~US$8–10 bn for explosive product alone.** Cite the bottom-up method, not a single paid-report number.
+- **India's share:** ₹10,000–14,000 Cr (FY26) ≈ US$1.2–1.6 bn ≈ **6–8% of the global market** (unchanged from §2.2).
+
+### 4.3.7 Ammonium nitrate supply (India) — status update
+
+| Item | Value | Tag |
+|---|---|---|
+| Deepak TAN capacity | 587 KTPA (Taloja 544 + 43) at 92% utilisation FY26; Q1 FY27 volume 130 kt (−12%) on PESO ANRS disruption | [V Deepak PPT] |
+| Gopalpur 376 KTPA | Guided "Q2 FY27"; **no commissioning announcement on BSE by 23-Oct-2026** (latest Deepak filings: Reg 74(5) 6-Oct, SEBI warning 1-Oct, CS resignation 28-Sep) | [V screener DEEPAKFERT] |
+| Domestic AN capacity (all producers) | ~1.10 mtpa installed; ~1.02 mtpa under construction | [V-snip trade press] |
+| AN imports | ~356 kt FY23; ~305 kt Apr–Nov FY24 (+113%), ~100% Russia | [V-snip] |
+| AN export ban | 18-Mar-2026, "until further orders"; no revocation found | [V-secondary] |
+| TradeStat HS 310230 | query failed (404) | open |
+
+## 4.4 Gap log — every §H item (and §2.8 / §3.6 flags)
+
+| §H # | Gap | Status | How / what was tried |
+|---|---|---|---|
+| H-1 | India explosives tonnage (PESO series) | **Still open** | PESO site refused TLS (self-signed chain; not bypassed); no public PESO production series found. Bottom-up 1.4–1.8 mt [E] stands. New primary anchor: CIL OBR 1,980 Mcum and a Q1 FY27 explosives bill of +₹244 Cr (4.3.1–4.3.2). |
+| H-2 | Solar volumes, capacity (~330,000 tpa), realisation (~₹72,000/t) | **Still open (confirmed undisclosed)** | AR FY26 has no capacity/production table; FY26 and Q1 FY27 PPTs, AGM, press releases and four transcripts have no tonnage. Management gives only % volume vs price splits (10–15% / 18–20% for FY27). Writer: drop ~330,000 t and ~₹72,000/t, or label them "[primer, unverified]". |
+| H-3 | Market shares (Solar 24% vs 25–30%; IDL, Premier, Keltech, Orica India) | **Partly filled** | MD at the AGM declines to give shares [V]. New cross-check: Solar CIL revenue ÷ implied CIL explosives spend ≈ 26–27% [E], consistent with CRISIL's ~24%. Peer shares still unsourced. |
+| H-4 | CIL FY26 production; 1.15 bn t headline; FY27 target 810 vs 815 | **Filled** | CIL FY26 PPT: 768.19 MT; CIL PR 1-Oct-26: target 815 MT, supply 850 MT; "1.15 bn" is wrong (S9). All-India FY26 ~1,036 MT rests on Solar's AR (no MoC full-year release found). |
+| H-5 | CIL explosives procurement value and supplier split | **Partly filled** | CIL PPTs give *changes* in explosive expense (FY26 −₹107 Cr; Q1 FY27 +₹244 Cr) [V], not the level. Solar's CIL orders: ₹483 Cr + ₹1,746 Cr = ₹2,229 Cr over 2 years [V]. CIL AR FY26 (with the explosives line) not fetched; supplier split still open. |
+| H-6 | AN imports (DGCI&S HS 310230) | **Still open** | TradeStat POST returned 404; only trade-press figures (FY23 356 kt; Apr–Nov FY24 305 kt) [V-snip]. |
+| H-7 | Solar's share of the ₹10,147 Cr Pinaka contract | **Filled** | ₹6,084 Cr; 8–15 years [V Solar filing] (S2). |
+| H-8 | 30-Jan-2026 export orders ₹1,419 vs ₹830 Cr | **Filled (V-snip)** | ₹589 + ₹830 = ₹1,419 Cr (S4); BSE PDF not opened. |
+| H-9 | Premier open-offer price ₹698 vs ₹705.65 | **Filled** | Letter of Offer: ₹698 + ₹7.65 interest (S5). |
+| H-10 | Munitions India FY26 revenue | **Still open** | Searches found only FY25 (₹8,264–8,282 Cr provisional) and the seven-DPSU FY26 total of ₹26,496 Cr [V-snip]. DPSU export surge (+151%, PIB) implies strong MIL FY26 exports [E]. |
+| H-11 | Orica FY25 revenue / net debt; Maxam, Nammo, Hanwha | **Partly filled** | Orica net debt ex-leases A$1,921.5m (Sep-25) and full 1H FY26 [V]; FY25 revenue still V-snip (~A$8.1 bn). Maxam / Nammo / Hanwha not attempted (context only). |
+| H-12 | Global market size | **Resolved by method** | Chose bottom-up US$18–22 bn incl. services; US$8–10 bn product only (4.3.6) [E from V peer data]. |
+| H-13 | Explosives Bill 2025 and DAP 2026 status | **Partly filled** | Explosives Bill: no evidence of introduction in Parliament by 23-Oct-2026 (searches return only the 2024/2025 drafts) — **still open**. DAP 2026: draft released 10-Feb-2026; still "Draft" in Jun-2026 [V-snip PIB] (S24). |
+| H-14 | Omnia value R21.8 vs R21.5 bn; US$1.35 vs 1.355 bn | **Filled** | R21,828,973,400 (circular); US$1.355 bn / ₹12,951 Cr (Solar PR) (S6, S8). |
+| H-15 | Sivasakthi location and capacity | **Still open** | Not in the filing; not re-searched (low value). The name points to Tamil Nadu (Sivakasi belt) [E]. |
+| H-16 | AOC-1 overseas mapping | **Still open** | Not re-done; superseded for analysis by Note 32 geography (S13), which is unambiguous. |
+| H-17 | Solar Q2 FY27 board date | **Still open (checked)** | Screener announcements re-pulled 23-Oct-2026: none since 15-Oct (Sivasakthi). Expect ~10–14 Nov-2026 [E]. |
+| §2.8 | Capex FY26 ₹1,556 vs ₹1,788 Cr | Unchanged | AGM: "1,500 plus"; company basis stands. |
+| §2.8 | FY25 revenue ₹7,540 vs ₹7,551 Cr | Explained | AR Note 32 FY25 product revenue ₹7,360 Cr + other operating revenue; CRISIL uses a gross basis. |
+| §3.6 | Defence production / exports / budget V-snip | **Filled** | PIB [V] (4.3.3). |
+| §3.6 | Omnia R134.50 / premium / longstop V-snip | **Filled** | Circular [V]. |
+| §3.6 | Orica / Enaex / AECI / Rheinmetall V-snip | **Mostly filled** | Orica 1H26, AECI FY25, Rheinmetall H1-26 [V]; Enaex still V-snip (Sigdo Koppers PDF 404). |
+| §3.6 | Maharashtra MoU ~₹12,700 Cr [primer] | **Filled** | Solar PR 14-Sep-2026: "proposed investment of ₹12,700 crores in Maharashtra" for defence & aerospace [V]. |
+| §3.6 | 2023 Nagpur plant blast [K] | Still [K] | Not re-checked (not in the AR risk text); avoid specifics in prose. |
+| new | Electric-detonator ban (Jul-2025) | Stays [V AR] | PESO notification itself not fetched (TLS). |
+
+**Still open after this pass (8):**
+1. PESO tonnage series
+2. Solar volumes, capacity and realisation
+3. Peer market shares
+4. CIL explosives spend level and supplier split
+5. AN imports (DGCI&S)
+6. MIL FY26 revenue
+7. Explosives Bill status
+8. Solar Q2 FY27 board date
+
+Minor still open: Sivasakthi location; AOC-1 mapping; Enaex primary; Maxam.
+
+## 4.5 New insights the first pass missed
+
+1. **Solar's defence business is mainly an export business.**
+   - Outside-India revenue is ₹5,790 Cr against ₹3,815 Cr of international explosives. That implies ~₹1,975 Cr of defence exports, ~75% of FY26 defence revenue. In FY25 the share was ~70%.
+   - The defence order book is ~67% export (₹12,000 Cr of ₹18,000 Cr).
+   - Solar is a net foreign-exchange earner of ~₹1,800 Cr a year (standalone).
+   - **The re-rating story is "India's private ammunition exporter", not "beneficiary of the Indian defence budget".** The Indian defence book (~₹6,000 Cr) is mostly a slow-burn Pinaka contract.
+   - Risks shift accordingly: export licences (SCOMET/DDP), end-user politics, payment terms and FX matter more than MoD capex. [V Note 32, AGM; E]
+2. **Pinaka is long-dated.** Solar's ₹6,084 Cr share runs over **8–15 years** (86% within 10 years), i.e. ~₹500–700 Cr/yr. It is "the biggest contract in Solar's history" but **not** a near-term revenue wave. Upside sits in guided variants and exports — the first Guided Pinaka tranche shipped to **Armenia** in Jan-2026 [V PIB] — and in new series orders "in negotiation". [V filing; V PIB]
+3. **Domestic explosives in rupees are still below FY23.**
+   - FY26 ₹3,343 Cr vs FY23 ₹3,667 Cr; CIL revenue ₹1,067 Cr → ₹924 Cr over the same period.
+   - Q1 FY27's +52% is a price event. CIL's own books show explosive expense +₹244 Cr on flat OBR, i.e. the full +26% price reset.
+   - When AN normalises, domestic revenue will deflate as in FY24 (−17% domestic). The structural growers are international and defence. [V PPTs; V CIL]
+4. **CIL's blasting demand is weaker than its coal-supply headlines.** Offtake rose (+3.6% Q1; +12% Q2) largely by **liquidating ~63 MT of pithead stock**. Production and OBR — what consumes explosives — fell (FY26 OBR −2%; Q1 FY27 OBR −1%; production −7.5%). The 815 MT target needs H2 FY27 production of ~494 MT (+12–13% YoY). Watch CIL's monthly OBR, not dispatches. [V CIL]
+5. **The global-peer margin gap is wider than management says.** Primary numbers put explosives majors at **13–15%** (Dyno Nobel explosives EBIT 13.9%, AECI Mining EBITDA 15.4%, Omnia Mining 13.4%); Enaex (18%) is the exception. Solar's "global 18–19%" benchmark flatters the peers. Two consequences:
+   - (a) BME's 13–14% is normal, so the margin uplift Solar expects from Omnia must come from AN integration and initiating systems, not from "catching up to peers";
+   - (b) Solar's ~21–24% ex-defence margin [E] is a genuine outlier, explained by in-house initiating systems (~11% of revenue per the AR pie) and low-cost Indian packaged-explosives manufacturing.
+6. **Omnia: a fair price, slow and multi-jurisdictional.**
+   - The R134.50 price is 12.6% above the independent expert's core value, but still only ~7.3× EV/EBITDA versus Solar's ~50×+.
+   - The critical path is **eight competition authorities** (SA, COMESA, EAC, ECOWAS, Botswana, Namibia, Mali, Nigeria) plus SARB and SA public-interest conditions, giving **implementation ~28-Jun-2027** (Q1 FY28) and a hard stop at 1-Dec-2027.
+   - The 1% break fee each way (~R218m ≈ ₹130 Cr) is small relative to Solar.
+   - Agriculture (54% of Omnia's revenue) is **not** earmarked for sale, and the AN/nitric-acid plants Solar wants sit *inside* the agri segment. A carve-out would undo the strategic logic, so expect Solar to keep agri. [V circular; V call]
+7. **The guidance mix is the Q2–Q4 risk, not the total.** Q1 FY27 annualises to ~₹14,700 Cr, above the ₹14,000 Cr guide. But defence needs **>₹1,189 Cr per quarter** for the rest of FY27, vs ₹933 Cr in Q1 and ₹1,008 Cr in Q4 FY26, while explosives need only ₹2,255 Cr per quarter vs ₹2,735 Cr in Q1. A defence shortfall can be hidden by AN-inflated explosives revenue. Read Q2 for the *defence* number. [E from V]
+8. **Governance details a careful reader will notice** [V AR]:
+   - Promoter pay rose 56% to ₹75 Cr (4.3% of PAT).
+   - Four of the independent directors were replaced within six months (Sep-2025 to Mar-2026).
+   - The associate ZMotion (drones) received a ₹63 Cr advance (17× FY25's).
+   - The Chairman misstated the EBITDA margin (35%) at the AGM, and the AR printed defence at 42% instead of 27%.
+   - None is a red flag on its own. Together they argue for citing filings, not speeches.
+
+### New primer issues — `primers/solar-industries.html` (append to the §3.4 list)
+
+- **solar-industries.html — Pinaka value and tenor:** quote **Solar's own disclosed share: ₹6,084 Cr of the ₹10,147 Cr MoD package (filing 6-Feb-2025), executed over 8–15 years (86% within 10 years)**, instead of "₹10,200 Cr … split with Munitions India". A ₹6,084 Cr book over ~10 years is ~₹600 Cr/yr — say so where the primer implies a near-term revenue wave. [V Solar Reg-30 filing; V PIB PRID 2100335]
+- **solar-industries.html — FY24 defence revenue:** "~₹350 Cr" → **₹517 Cr (9% of FY24 sales); FY23 ₹396 Cr**. Defence path FY23→FY26: 396 → 517 → 1,355 → 2,634. [V Q4 FY24 PPT, BSE 16-May-2024]
+- **solar-industries.html — defence is export-led (new framing, §05/§11):** FY26 revenue from customers outside India ₹5,790 Cr (60%) per AR Note 32 → ~₹1,975 Cr (~75%) of defence revenue was exported [E]. The defence order book at 31-Mar-2026 was ~₹12,000 Cr international vs ~₹6,000 Cr Indian (MD, AGM 11-Aug-2026). Rewrite any line that ties Solar's defence growth mainly to the Indian defence budget. [V AR; V AGM]
+- **solar-industries.html — export order ledger:** add the verified orders: ₹1,400 Cr (18-Nov-2025, 4 yrs), ₹1,419 Cr (30-Jan-2026, two contracts of ₹589 + ₹830 Cr) [V-snip], ₹1,076 Cr (29-May-2026, 3 yrs). Add domestic bulk-explosives orders from CIL (₹2,229 Cr over 2 years: SECL ₹483 Cr + CIL ₹1,746 Cr). [V filings]
+- **solar-industries.html — domestic explosives not growing in rupees:** FY26 domestic explosives ₹3,343 Cr is below FY23 ₹3,667 Cr. CIL revenue ₹1,067 Cr (FY23) → ₹924 Cr (FY26). Q1 FY27's +52% is mostly the AN price reset — CIL's own Q1 FY27 presentation shows explosive expense +₹244 Cr on flat overburden. [V PPTs; V CIL]
+- **solar-industries.html — Omnia timetable and terms:** add the scheme meeting (5-Nov-2026), expected implementation (~28-Jun-2027), long stop 31-Jul-2027 (extendable to 1-Dec-2027 at the latest), eight competition approvals + SARB, the independent-expert range R113.60–125.98 (offer R134.50 is above it), and 1% break fees. [V Omnia circular 7-Oct-2026]
+- **solar-industries.html — official confirmation of Nagastra in Operation Sindoor and Armenian Pinaka export:** replace "reportedly used" with the Raksha Mantri's statement (PIB 18-Jan-2026). Add the **30 mm MCA plant inauguration** and the **first Guided Pinaka tranche to Armenia**. [V PIB PRID 2215884]
+- **solar-industries.html — no Q1 FY27 call:** if the primer cites "Q1 FY27 call commentary", re-source it to the **AGM (11-Aug-2026)** or the **press release (13-Aug-2026)**. Solar did not hold a Q1 FY27 earnings call. [V solargroup.com IR]
+- **solar-industries.html — guidance mix:** add that FY27 guidance (₹14,000 Cr, "28% plus") requires defence of >₹1,189 Cr per quarter in Q2–Q4 vs ₹933 Cr in Q1 — the swing factor for Q2 FY27 results. [E from V]
+- **solar-industries.html — workforce / footprint numbers:** 15,727 employees (31-Mar-2026, AR); >16,500 (Sep-2026, PR); manufacturing in "9" (Aug PR) or "11" (Sep PR) countries; 40+ plants. Pick one count and footnote the other. [V]
+- **solar-industries.html — governance strip:** promoter remuneration ₹75 Cr in FY26 (+56%); board refresh (four IDs out, four in); related-party flows limited to the associate ZMotion (₹32.5 Cr purchases, ₹63.2 Cr advance); no royalty; contingent liabilities ~₹15 Cr. [V AR Notes 30–31]
+- **solar-industries.html — Skyroot / space:** Solar is a strategic investor and supply-chain partner in Skyroot (Vikram-1 launch) and works with ISRO (AGM). Add if the primer lists space only generically. [V AGM]
+- **solar-industries.html — Maharashtra ₹12,700 Cr:** now sourced to Solar's own press release (14-Sep-2026): "proposed investment of ₹12,700 crores in Maharashtra" for defence & aerospace. Change the tag from primer-only to company-sourced. [V]
+- **Cross-reference (premier-explosives.html):** open-offer price is ₹698 + ₹7.65 interest = ₹705.65 (Letter of Offer 29-Sep-2026); up to ₹986.35 Cr; CCI said not a combination (23-Sep-2026); new 2.94% Government holding in Sep-26. [V LoF; V screener]
+
+### 4.6 Sources fetched in this pass (primary unless noted)
+- **Solar IR data (JSON):** https://solargroup.com/admin-panel/Investor-relation (file downloads via /api/download-file):
+  - AGM transcript 11-Aug-2026
+  - Press releases 13-Aug-2026 and 14-Sep-2026
+  - Order filings: Pinaka ₹6,084 Cr; SECL ₹483 Cr; CIL ₹1,746 Cr; ₹1,400 Cr; ₹1,076 Cr
+- **Solar board presentations (BSE AttachHis):**
+  - Q4 FY24: 2cdeb1e1-447d-4aa1-9232-519fa1b54287
+  - Q2 FY25: e53a0adf-6b50-47b0-92c9-5678f64700ed
+  - Q3 FY25: f022e831-4a6c-4fb6-8ce5-18ddeaf3fd94
+  - Q2 FY26: e69ab9f2-2d58-4127-b7e7-686348231bbc
+  - Q1 FY27, FY26 and transcripts as listed in §3.5
+- **Solar AR FY26:** https://www.bseindia.com/xml-data/corpfiling/AttachHis/83d2a209-44e0-4b21-8585-4905541a7832.pdf (Notes 30, 31, 32; MD&A pp.100–105; Directors' report annexure)
+- **Omnia:**
+  - Scheme circular: https://omnia.co.za/media/omnia-circular-2026.pdf
+  - Announcement: https://omnia.co.za/posts/omnia-and-solar-group-announce-proposed-r21-8-billion-all-cash-transaction-to-power-next-phase-of-strategic-growth
+- **Premier Letter of Offer:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=F609E5CB-3510-49D2-BFE1-A254408D8DF9-080141.pdf
+- **Coal India (BSE):**
+  - Q1 FY27 PPT: AnnPdfOpen Pname=32b8c85f-6bdb-47dc-9aef-728e526ec886
+  - FY26 PPT: Pname=eaca51fa-e009-4738-a3dc-5fbc54257fcf
+  - Press release 1-Oct-2026: Pname=10da2259-4faa-4f12-8e73-8ed463bbe283
+- **PIB:**
+  - PRID 2273824 (production, 17-Jun-2026)
+  - PRID 2248124 (exports, 2-Apr-2026)
+  - PRID 2221612 (budget, 1-Feb-2026)
+  - PRID 2100335 (Pinaka, 6-Feb-2025)
+  - PRID 2215884 (SDAL MCA plant / Armenia Pinaka / Nagastra, 18-Jan-2026)
+  - DAP-2026 PRIDs 2226097 / 2227775 (titles only, via search)
+- **Orica 1H FY26:** https://announcements.asx.com.au/asxpdf/20260507/pdf/06zbfhw84l78m5.pdf
+- **Dyno Nobel 1H FY26:** https://announcements.asx.com.au/asxpdf/20260511/pdf/06zg0w0pw5rswl.pdf
+- **AECI FY25:** https://investor.aeciworld.com/pdf/annual-results/2025/booklet.pdf
+- **Rheinmetall H1-2026:** https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Documents/2026/08/2026-08-06-Rheinmetall-News-Half-Yearly-Financial-Report-H1.pdf
+- **Screener (re-pulled 23-Oct-2026):** SOLARINDS, PREMEXPLN, COALINDIA, DEEPAKFERT (consolidated)
+- **Secondary / snippet only:**
+  - DSIJ (30-Jan-2026 orders)
+  - Enaex Memoria 2025 (via search)
+  - trade press on AN imports
+  - search results on Explosives Bill status and MIL FY26
+
+*End of Part 4.*
