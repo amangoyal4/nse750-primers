@@ -39,3 +39,7 @@
 - **gail-india.html — CBG:** GAIL handled 91% of India's SATAT CBG sales in FY26 (88 TMT) and 85.5 TMT in H1 FY27 (PPAC).
 - **gail-india.html — Q2 FY27 preview (for the next refresh):** Brent re-spiked to ~$117 in Sep-2026 (World Bank/PPAC) with HH ~$2.9 — the JCC-lag and HH cross-index gains may persist into Q2/Q3 FY27, against management's July guidance of a decline.
 
+
+## From primer-audit.mjs run (2026-10-23, gas-transmission orchestrator) — pre-existing, not fixed
+- **gail-india.html — FAILS a hard check (banned phrase):** the "In plain terms" callout opens "Think of GAIL as a national gas highway operator…" — "think of" is banned house-wide; reword.
+- **gail-india.html — no `main{min-width:0}` grid fix** (phone overflow risk); add the kit grid fix from the template.
