@@ -1311,6 +1311,23 @@
         "Making the panels"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Shipbuilding",
+      "slug": "shipbuilding",
+      "file": "shipbuilding.html",
+      "sector": "Ship Building",
+      "subsector": "Ship Building & Allied Services",
+      "companies": 3,
+      "accent": "#7E1673",
+      "hook": "Full yards, empty order books: India's three listed shipyards doubled revenue on orders signed a decade ago, but the Navy yards booked almost nothing in FY26. The unsigned P-75I/NGC/P-17B pipeline, customer advances, margin quality and the ₹69,725 Cr package.",
+      "tags": [
+        "The naval pipeline that won't sign",
+        "The float: advances and cash",
+        "Merchant shipbuilding & ₹69,725 Cr",
+        "Full yards, empty books"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -2122,7 +2139,7 @@
       "sector": "Ship Building",
       "sub": "Ship Building & Allied Services",
       "companies": 3,
-      "report": null
+      "report": "shipbuilding.html"
     },
     {
       "sector": "Telecom",
