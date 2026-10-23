@@ -58,7 +58,7 @@ All ₹/mmBtu conversions (25.2 scm/mmBtu); the profit equation and its sensitiv
 - New-well gas "2–13" (management) vs the ~20%-over-APM formula — flagged as probably tender-priced.
 - SOTP: the dossier's component ranges add to ~₹96,700 Cr – ₹1,29,500 Cr; the report shows the arithmetic and calls ₹1.0–1.25 lakh Cr the central zone.
 - GSPL Transmission has no published results yet; global peers' EBITDA from guidance/press; ATGL Q1 FY26 OP derived from the CGD-trio total; Jun–Aug-2026 LNG import months averaged from the H1 total; 9-Mar-2026 gas supply order gazette text not fetched; exact Gujarat Energy rename date (before 19-Jun-2026).
-- Macro flag for the owner: World Bank and PPAC give Brent 20.4 (Apr-2026) and 16.8 (Sep-2026), contradicting the line "Brent ~$95 after the 7-Apr ceasefire" used in some sibling dossiers.
+- Macro flag for the owner: World Bank and PPAC give Brent $120.4 (Apr-2026) and $116.8 (Sep-2026), contradicting the line "Brent ~$95 after the 7-Apr ceasefire" used in some sibling dossiers.
 
 ## Primer audit
 | Primer | KB | Words | Bars | Plain | Sections | Report links | Refreshed | Hard checks | Notes |
