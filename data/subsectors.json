@@ -1294,6 +1294,23 @@
         "Regional TV"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Integrated Power Utilities",
+      "slug": "integrated-power",
+      "file": "integrated-power.html",
+      "sector": "Power",
+      "subsector": "Integrated Power Utilities",
+      "companies": 3,
+      "accent": "#3E931A",
+      "hook": "Wires that pay for the build: how Tata Power, Torrent Power and CESC earn regulated returns on distribution licences, why 2–6% losses are a moat when India averages 15%, why regulatory assets split their valuations, and how ₹84,000 Cr of debt funds renewables and solar factories.",
+      "tags": [
+        "The Odisha experiment",
+        "Moats of 2–6%",
+        "The fuel shock that skipped the wires",
+        "Making the panels"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -2045,7 +2062,7 @@
       "sector": "Power",
       "sub": "Integrated Power Utilities",
       "companies": 3,
-      "report": null
+      "report": "integrated-power.html"
     },
     {
       "sector": "Power",
