@@ -1362,6 +1362,23 @@
         "Car glass at ~80% share"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Oil & Gas E&P",
+      "slug": "oil-exploration",
+      "file": "oil-exploration.html",
+      "sector": "Crude Oil",
+      "subsector": "Oil Exploration & Production",
+      "companies": 2,
+      "accent": "#653479",
+      "hook": "The windfall the state let them keep: how ONGC and Oil India earn from Brent, why the 2026 West Asia shock gave record E&P quarters without a crude windfall tax, why legacy gas stays capped at $7, the fight against decline, and why their consolidated accounts hide refiners on the opposite cycle.",
+      "tags": [
+        "Who keeps the windfall",
+        "The $7 gas cap",
+        "Decline, KG-98/2 and reserves",
+        "The consolidation trap"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1639,7 +1656,7 @@
       "sector": "Crude Oil",
       "sub": "Oil Exploration & Production",
       "companies": 2,
-      "report": null
+      "report": "oil-exploration.html"
     },
     {
       "sector": "Diamond & Jewellery",
