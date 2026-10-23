@@ -19,3 +19,19 @@
 - **itc.html — cigarette revenue basis:** "FY26 gross cigarette revenue (~₹40,600 Cr)" is the **consolidated** segment (₹40,601 Cr); the standalone figure used in diversified-fmcg.html is **₹37,100 Cr** (PBIT ₹21,051 Cr standalone vs ₹22,246 Cr consolidated). State the basis to keep the two reports consistent.
 - **itc.html — tax description:** "a revived, fixed Additional Excise Duty of roughly ₹2.05–₹8.50 per stick" — the levy is the central excise duty under the Central Excise (Amendment) Act 2025 with effective rates set by Notification 03/2025-CE (not an "additional" duty). "GST valued on retail sale price" was not verified this session — confirm or drop.
 
+
+## From Cigarettes & Tobacco deep research (2026-10-23, cigarettes-industry.md Part 4)
+
+- **godfrey-phillips-india.html — market share (§05):** replace "~13–14%" with "**~19% of legal volume (CRISIL, Jul-2026)**; ~13% of domestic net value [E]". Drop the Part 3 "~23% volume" suggestion.
+- **godfrey-phillips-india.html — insurance (§00/§09 "What's new"):** the ₹100 Cr interim insurance payment was received in **Q1 FY27**, not Q4 FY26. The claim is **₹284.36 Cr** (fire 10-Oct-2025 at a third-party facility in Prakasam, AP), booked as a receivable at Mar-26. Q4 FY26 PAT of ₹521 Cr was not boosted by it.
+- **godfrey-phillips-india.html — IPM/PMITPL (§04):** add PMITPL's CY2025 profit **₹1,141.6 Cr**; GPI's share ₹283 Cr; PMITPL = 30% of GPI's standalone revenue and its only customer above 10%; year-end 31-Dec.
+- **godfrey-phillips-india.html — net cash (§09):** "~₹3,300 Cr investments" includes **₹759 Cr of shares in K K Modi Investment & Financial Services** (a promoter entity). Liquid surplus is ~₹2,383 Cr (CRISIL).
+- **godfrey-phillips-india.html — plants:** Rabale (cigarettes), Guldhar/Ghaziabad (cigarettes, via subsidiary International Tobacco Co), Ongole (reconstituted tobacco).
+- **godfrey-phillips-india.html — governance (§08):** add pay ratios 685:1 / 1,119:1 and median pay −0.92%. Date the MD re-appointment vote to the **6-Sep-2024 AGM** (Glass Lewis against). Samir Modi ceased as director 6-Sep-2024 and still occupies a company office (AR FY26).
+- **godfrey-phillips-india.html — tax section:** cite **Notification 03/2025-CE, G.S.R. 955(E), 31-Dec-2025** (corrigendum G.S.R. 105(E), 4-Feb-2026, code fix only). GST is now **40% on retail sale price** (CGST Rule 31D).
+- **itc.html — tax/GST basis:** "GST valued on retail sale price" is **verified** (ITC R&A 2026; Rule 31D). Keep it.
+- **itc.html — ownership:** BAT **22.90%** (30-Jun-2026; TMI 17.79%), LIC 15.83%, SUUTI 7.78%. Note GQG's Oct-2026 sell-down (3.48% → ~3.16%).
+- **itc.html — brands:** ITC bought Benson & Hedges, Dunhill and Rothmans of Pall Mall assets from BAT-group companies for ~₹404 Cr in FY26; Rothmans GT/XT launched in Q1 FY27.
+- **itc.html — Q1 FY27 excise:** state "₹10,036 Cr standalone (₹10,409 Cr consolidated, incl. Surya Nepal)".
+- **diversified-fmcg.html (sibling) — ITC cigarette volume "~70 bn" (INDICATIVE):** CRISIL shares imply ITC ~85–90 bn. Flag for the next refresh; per-stick figures (₹3.9 net, ₹3.0 PBIT, ₹6.0 excise) would fall to ~₹3.1 / ₹2.4 / ₹4.8.
+

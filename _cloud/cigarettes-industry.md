@@ -1055,3 +1055,612 @@ All aggregates are **straight sums of the rows above on the stated basis**; rati
 - Marlboro price / insurance: https://www.sahi.com/news/godfrey-phillips-secures-100-crore-insurance-payout-hikes-marlboro-price-by-21-to-85-338-PE1_CORP [K]
 - Feb-2026 price-hike rally: https://www.outlookmoney.com/invest/godfrey-phillips-itc-share-price-cigarette-stocks-rally-up-to-16-amid-price-hike-reports [K]
 - Search-snippet only [V-snip]: newkerala (Lok Sabha export reply, 403 on fetch); Tribune (FY24 export record; Excise Amendment Act); PRS (Excise Amendment Bill 2025); angelone/Business Today/Business Standard (bonus); Outlook Business/Businessworld/Storyboard18 (Modi dispute); indialaw/adda247 (Karnataka COTPA); ThePrint/newsonair (AP auctions); DSIJ (1979 JV).
+
+---
+
+# PART 4 — Deep-research supplement (23-Oct-2026)
+
+Second-pass, primary-source supplement compiled 23-Oct-2026 (11:25–14:30 UTC) under `_cloud/ref/brief-deep-research.md`. It sits on top of Parts 1–3. Parts 1–3 are not edited. Where Part 4 disagrees with Parts 1–3, **Part 4 wins** and the change is listed in §4.0.
+
+**What was fetched this session (all with a generic browser User-Agent, no logins):**
+- **Company filings (bseindia.com PDFs, text extracted with pdftotext):**
+  - GPI: Q1 FY27 results (BSE AttachHis `7728d5dd…`), Q1 FY27 earnings presentation (`4158bff1…`), Q3 FY26 results (`815578c4…`), Annual Report FY26 (`6bf81ef7…`), 89th AGM scrutiniser report (`54c648b3…`).
+  - ITC: Q1 FY27 results (`e2847586…`), Q1 FY27 presentation (`20b685f4…`), Q3 FY26 results (`8e744885…`), Report & Accounts 2026 (`590b42ae…`), 2024 (`f0d1e906…`) and 2023 (`139aec7a…`), and a SAST Reg 29(2) filing by GQG Partners (7-Oct-2026, scanned; pages rendered to PNG and read).
+  - VST: Q1 FY27 results (`c95a7084…`), Q3 FY26 results (`41b8b293…`), Annual Report FY26 (`eb1dbbc8…`), 95th AGM proceedings (`e699b6fe…`).
+- **Screener.in** (pulled 23-Oct-2026 ~16:55 IST): GPI consolidated, ITC standalone and consolidated, VST standalone. Covers the P&L, 13 quarters, ratios and cash flow.
+- **Rating rationales (crisil.com):** GPI (31-Jul-2026), VST (14-May-2026), ITC (24-Apr-2026).
+- **Government:**
+  - Union Receipt Budget 2026-27, Tax Revenue (indiabudget.gov.in `tr.pdf`).
+  - PRS Legislative Research summary of the Central Excise (Amendment) Bill 2025.
+  - Full text of Notification 03/2025-CE (G.S.R. 955(E)), its corrigendum (G.S.R. 105(E)), Notification 03/2025-CE (N.T.) and Notification 03/2025-Compensation Cess (Rate) on taxguru.in. This is a legal-text mirror, so it is tagged [K-text]. The gazette PDF itself did not download (egazette returned an empty response).
+  - Akashvani/newsonair (AP Agriculture Minister, 6-Sep-2026).
+- **Global:**
+  - PMI Q3-2026 8-K, Ex. 99.1 (sec.gov, via WebFetch; curl got 403).
+  - BAT Half-Year Report 2026 (bat.com PDF).
+  - Altria Q2-2026 earnings release (q4cdn PDF).
+  - Imperial Brands HY26 RNS (FCA National Storage Mechanism).
+- **Press, fetched and tagged [K]:** IANS on the Lok Sabha reply of 28-Jul-2026 (webindia123, socialnews.xyz); Business Today (16-Sep-2026 price revisions; 10-Feb-2026 Nomura note; 3-Jul-2026 Emkay note); Telangana Today (AP crop cap); Outlook Business (Glass Lewis, 25-Aug-2024).
+- **Could not reach:** tobaccoboard.com (no response on any scheme or host; tobaccoboard.in is only the registration portal); egazette PDF; the MoHFW and NHM copies of the GATS-2 fact sheet (404, or an HTML page in place of the PDF); api.bseindia.com (Akamai "Access Denied"); newkerala (403).
+- **Web calls used:** about 68 (curl fetches plus WebSearch/WebFetch).
+
+**Tag discipline in Part 4.**
+- **[V]** = fetched this session from the named primary document: company filing, rating rationale, Union Budget, PRS, or a company IR release.
+- **[K-text]** = the full legal text, read on a mirror site.
+- **[K]** = fetched secondary press.
+- **[V-snip]** = search summary only.
+- **[E]** = my arithmetic.
+- Part 1–3 tags are left as they were.
+
+**Unit note:** GPI and VST file results in ₹ lakh. They are converted here (₹1 Cr = 100 lakh) and rounded to 2 decimals where the decimals matter.
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3 — the writer should apply these)
+
+| # | Part 1–3 location | Old value / statement | New value / statement | Source (tag) |
+|---|---|---|---|---|
+| S1 | §2.1.2 Q4 FY26 row; Part 2 §2.8 item 8; §G "Oct-2025"; §3.4 primer table | "Q4 FY26 PAT ₹521 Cr incl. ~₹100 Cr interim insurance receipt"; "insurance claim ₹344.5 Cr" | **Claim ₹284.36 Cr** (loss of inventories + input tax credits, "besides additional claim of loss of profit"). The fire was on **10-Oct-2025** at a **third-party-operated** tobacco processing plant and warehouse in Prakasam district, AP. GPI booked an **insurance-claim receivable of ₹284.36 Cr at 31-Mar-2026**, so the loss was offset in FY26. The **₹100 Cr interim payment was received "during the current quarter" = Q1 FY27**, not Q4 FY26. Q4 FY26 PAT of ₹521 Cr therefore does **not** contain a ₹100 Cr insurance gain; the receipt is a balance-sheet cash event. | GPI Q1 FY27 results note 6; AR FY26 note on other financial assets [V] |
+| S2 | Trap 4; §7.1; §H item 4 | "G.S.R. 955(E) not visible on fetched copy — keep [V-sib]"; corrigendum 4-Feb-2026 unspecified | **Notification No. 03/2025-Central Excise, 31-Dec-2025 = G.S.R. 955(E)** (s.5A(1); F.No. CBIC-190349/72/2025-TRU; supersedes 3/2019-CE, G.S.R. 486(E) of 6-Jul-2019). The **corrigendum is G.S.R. 105(E) of 4-Feb-2026**. It only corrects a tariff code at page 35, line 10 ("2404 11 10" → "2404 11 00", i.e. the products-for-inhalation-without-combustion line). **No cigarette rate changed.** | taxguru full text [K-text] |
+| S3 | §7.1 "11–12-Dec-2025: Act notified"; statutory range [V-snip] | Statutory ₹2,700–11,000 [V-snip] | Bill introduced in Lok Sabha **1-Dec-2025**. Statutory cigarette duty **₹200–735 → ₹2,700–11,000 per 1,000** (upgrade to [V]). Other rates in the Bill: unmanufactured tobacco 64% → 70%, chewing tobacco 25% → 100%, hookah/gudaku 25% → 40%, smoking mixtures 60% → 325%. Stated aim: "to keep taxes on these products at the existing level" (i.e. replace the cess). Presidential assent 11-Dec-2025 [K-text]. The Act was brought into force from **1-Feb-2026 by Notification 03/2025-CE (N.T.)** [K-text]. | PRS Bill Summary, 2-Dec-2025 [V]; taxguru [K-text] |
+| S4 | Trap 9; §2.2 ITC row; Part 2 §2.8 item 3; §H item 8 | ITC Q1 FY27 excise conflict ₹10,036 vs ₹10,409 Cr | **Resolved.** Standalone excise is **₹10,035.63 Cr** (Q1 FY26 ₹1,309.07 Cr) and consolidated is **₹10,408.93 Cr** (₹1,634.56 Cr). Both come from ITC's own 31-Jul-2026 results. The ₹373 Cr gap is subsidiaries' excise, mainly **Surya Nepal Pvt Ltd** (ITC's Nepal cigarette subsidiary, listed in the results annexure). Keep **standalone ₹10,036 Cr** in the report, consistent with diversified-fmcg.html (₹1,309 → ₹10,036 Cr). | ITC Q1 FY27 results [V] |
+| S5 | Trap 3; §5.1; §3.2(a); §E-12; §F; JSON | GPI ~23% / VST ~8% / ITC ~68% of a ~103 bn legal market (ITC ~70 bn) | **CRISIL puts GPI at "~19% of volume" (second-largest) and VST at "~7%" (third-largest by volume).** Applied to company-disclosed volumes (GPI 24.01 bn; VST 8.356 bn), that implies a **legal market of ~120–126 bn sticks** and **ITC at ~85–90 bn (~72–74%)** [E]. The CRISIL shares are rating-agency estimates (base not stated), but they are the only independent, recent, primary-published volume shares found. Recommend: **volume shares ITC ~73 / GPI ~19 / VST ~7 / others ~1 (INDICATIVE, CRISIL-based)**. The old ITC ~70 bn figure (V-sib) is too low. Consequence: ITC net revenue/stick FY26 ≈ ₹27,443 Cr ÷ ~88 bn ≈ **₹3.1** (not ₹3.9), and ITC excise/stick in Q1 FY27 ≈ ₹10,036 Cr ÷ ~21 bn ≈ **₹4.8** (not ₹6.0). The value shares (ITC 83.5 / GPI 13.0 / VST 3.5, domestic net) are unaffected. | CRISIL GPI 31-Jul-2026; CRISIL VST 14-May-2026 [V]; arithmetic [E] |
+| S6 | §5.3; §H 13; JSON | BAT ~22.9% of ITC [K, not re-fetched] | **BAT 22.90% at 30-Jun-2026** (22.91% at 31-Dec-2025; ESOS dilution). Tobacco Manufacturers (India) Ltd holds **17.79%** (2,22,84,95,863 shares; 20.31% at Mar-25). Myddleton 3.88% and Rothmans International 1.24% [K BT/Emkay]. The 2025 sale was **313.0 mn shares (2.5%)**, net proceeds **£1,052 mn**, gain £904 mn. LIC is **15.83%**, SUUTI 7.78%. | BAT HY26 report [V]; ITC R&A 2026 note on shareholders >5% [V] |
+| S7 | §10.1 BAT row; §2.6; §H 12 | BAT revenue "US$21.7 bn" (flagged) | **H1-2026 revenue £12,235 mn** (+1.4%; +2.9% cc); smokeless products **19.8%** of revenue; New Categories £1,928 mn (+18% cc). A full year of ~£24–25 bn ≈ **US$32–34 bn** [E at ~1.33–1.35 $/£]. Drop the $21.7 bn figure. | BAT HY26 [V] |
+| S8 | §5.4; §2.5; §H 10 | PMITPL "financials not fetched"; "if paid pro rata ~₹1,040 Cr" [E] | GPI's AOC-1 (Part B, associates) gives **PMITPL profit for its year (statutory year-end 31-Dec-2025) of ₹1,141.56 Cr**. GPI's 24.80% share considered in consolidation is ₹283.11 Cr. GPI holds **49,60,000 shares of ₹10** (cost ₹4.96 Cr), so PMITPL has ~2.0 crore shares in all [E]. Dividend received by GPI was ₹258.41 Cr, implying ~**₹1,042 Cr** paid out by PMITPL (~91% of profit) [E]. PMITPL alone = **30.1% of GPI's standalone revenue** (₹2,746.70 Cr of ₹9,119.02 Cr): it is GPI's only customer above 10% of revenue. | GPI AR FY26 AOC-1, note 9.1, segment note [V] |
+| S9 | Trap 6 ("dividend ≈53% of screener FY26 other income ₹489 Cr") | Mixed basis | Screener's consolidated "other income" ₹489 Cr = consolidated other income **₹204.79 Cr + share of associates' profit ₹283.12 Cr** (PMITPL ₹283.11 Cr + KKM ₹0.01 Cr). In consolidation the ₹258 Cr dividend is eliminated and replaced by the equity-accounted share. Correct phrasing: "PMITPL contributes ~₹283 Cr (58%) of screener's consolidated other income; on a standalone basis its ₹258 Cr dividend is 56% of other income (₹464.12 Cr)." Q1 FY27: share of associates ₹28.27 Cr vs ₹64.70 Cr (−56%); standalone dividend from associate ₹12.40 Cr vs ₹80.10 Cr. | GPI Q1 FY27 results; AR FY26 [V] |
+| S10 | §8 item 5; §G 7-Aug-2024; Part 2 §2.1.6 | "Samir Modi not re-appointed to the board (7-Aug-2024)" | The board decided not to re-appoint him at its 7-Aug-2024 meeting [K]. Per the AR, **Samir Modi ceased to be a director w.e.f. close of business 6-Sep-2024** (the 2024 AGM date). Charu Modi became **Executive Director w.e.f. 7-Sep-2024**. AR FY26 adds that Samir Modi **has not vacated a company office in New Delhi** and GPI is "pursuing… peaceful possession… along with compensation". | GPI AR FY26 notes [V]; Outlook Business 25-Aug-2024 [K] |
+| S11 | §H 18; primer "Bina Modi re-elected MD with ~87%" | Date unknown | The MD re-appointment was a **special resolution at the 6-Sep-2024 AGM**: her pay exceeded the ₹5 Cr / 2.5%-of-profit limits, so a 75% supermajority was needed. Glass Lewis recommended **against** it. The ~87% vote therefore dates to **Sep-2024** (vote % not re-fetched). | Outlook Business [K] |
+| S12 | §1.2 item 3; Part 2 | GPI factories "Ghaziabad (UP) and Rabale/Mumbai" | Three plants. **Rabale, Navi Mumbai** (cigarettes). **Guldhar, Ghaziabad** (cigarettes; owned by wholly owned subsidiary International Tobacco Company Ltd, hence the ₹73 Cr manufacturing charge). **Ongole, Prakasam district, AP** (reconstituted tobacco). | GPI AR FY26 corporate governance report, "Plant Locations" [V] |
+| S13 | §1.2 item 4; primer-ITC issue | "GST valued on retail sale price [not verified]" | **Verified.** ITC R&A 2026: "increase in GST rate from 28% of transaction value to **40% of retail sale price**". The Lok Sabha reply (28-Jul-2026) cites **CGST Rule 31D (valuation on RSP) from 1-Feb-2026**. CRISIL VST: "GST hike to 40% on RSP". | ITC R&A 2026 [V]; CRISIL [V]; IANS [K] |
+| S14 | §H 9; status table | VST Q1 FY27 result date not fetched | **Board 28-Jul-2026** (2:45–4:30 pm); MD & CEO **Piyush Srivastava**. 95th AGM was 29-Jul-2026; it appointed **Price Waterhouse Chartered Accountants LLP** as statutory auditor (replacing B S R & Associates). | VST results; AGM proceedings [V] |
+| S15 | Part 2 §2.3; §6 archetype 3; §F | VST FY26 OPM 30.7% shown as a recovery | CRISIL: FY26 OPM "improved to 30.7% **mainly due to one-time gain on account of tax transition in Q4**", expected to **normalise to 24–25%**. Q4 FY26 OP of ₹208 Cr (46%) is not a run-rate. VST also provided **₹49.05 Cr** for compensation-cess input tax credit on transition inventory. | CRISIL VST [V]; VST AR FY26 [V] |
+| S16 | §0, §9.1 item 7, Part 2 §2.2 pricing | "Gold Flake Premium ₹135, Classic Connect ₹428 (pack sizes unstated)" [K univest] | Dealer checks (via NDTV Profit, BT 16-Sep-2026): **Classic Connect 20s ₹300 → 360 → 390 (Feb) → ₹428 (Sep; +43% cumulative)**; **Gold Flake Super Star 10s ₹59 → 70 (Feb) → 79 (May) → ₹89 (Sep; +51% cumulative)**. Keep "Gold Flake Premium ₹135" only as unverified. | Business Today [K] |
+| S17 | §7.1 excise per stick; §9.2 | Q2/Q3 FY26 GPI excise "n/f" (705 combined [E]) | **Q2 FY26 ₹343.18 Cr; Q3 FY26 ₹361.32 Cr** (Q3 FY25 ₹304.26 Cr; FY25 ₹1,156.47 Cr). | GPI Q3 FY26 results [V] |
+| S18 | §2.2, §0 exports; §H 6 | ₹17,192 Cr / 368.85 mn kg, "year inferred" [V-snip] | Source is the **MoCI written reply in Lok Sabha, 28-Jul-2026** (Piyush Goyal): exports of tobacco and products rose over the past decade from **240.93 mn kg / ₹6,450.66 Cr (US$958.68 mn)** to **368.85 mn kg / ₹17,192.04 Cr (US$1,948.98 mn)**, i.e. +53.10% by quantity and +166.51% by value. The end year is not stated in the press copy; it is almost certainly FY26 (2025-26) because the reply was given in the FY27 monsoon session [E]. Average realisation ≈ **US$5.28/kg** [E]. | IANS via webindia123/socialnews [K] |
+| S19 | §8 item 8; §3.3 | AP FCV 2025-26 "₹213/kg vs ₹249/kg" [K Deccan] | Minister K. Atchannaidu (Akashvani, 6-Sep-2026): **86.59 mn kg sold in 132 auction days to 4-Sep-2026 at an average of ₹209.83/kg vs ₹248.86/kg** a year earlier, against an authorised **142 mn kg**. No-bid lots fell by 11–12 percentage points. Production estimate **~236–240 mn kg**. **2026-27 permitted crop cut to 81 mn kg** (Telangana Today). The CM wrote to the FM and Commerce Minister in May-2026 blaming the tax reset. Lok Sabha: the decade-average FCV grower price rose **₹134.43 → ₹251.14/kg**. | newsonair.gov.in [K-gov]; Telangana Today [K]; IANS [K] |
+| S20 | Part 2 §2.1.4 net cash | "₹3,000 Cr+ net cash" (screener investments − borrowings) | CRISIL: **"cash surplus and investments ~₹2,383 Cr at 31-Mar-2026"** (standalone, liquid), gearing 0.02×. Screener's ₹3,299 Cr of investments includes **₹758.74 Cr of unquoted shares in GPI's own promoter, K K Modi Investment & Financial Services** (FVTOCI) and the ₹113.6 Cr PMITPL carrying value. Use **"~₹2,400 Cr of liquid surplus"** in prose. | CRISIL GPI [V]; GPI AR FY26 note 9 [V] |
+| S21 | §2.1.6 related-party map | AO Philip Morris Izhora ₹344.8 Cr | AR: Philip Morris Products S.A. **₹882.30 Cr**, PT HM Sampoerna **₹304.74 Cr**, AO Philip Morris Izhora (Russia) **₹344.84 Cr**. Unchanged; now re-verified. | GPI AR FY26 note 46 footnote [V] |
+| S22 | §11 item 3; ITC strategy | Format engineering example list | Add: ITC launched a **64 mm Gold Flake Deluxe at ₹94/10, the same price as the 69 mm Regular** (Nomura) — moving volume into the lower ₹2,100 slab (≤65 mm). ITC's Q1 FY27 slide lists ~17 new SKUs incl. **Rothmans GT & XT**. ITC bought **~₹404 Cr of brand assets from BAT-group companies in FY26**: Benson & Hedges (Overseas) ₹286.14 Cr, Dunhill Tobacco of London ₹73.14 Cr, Rothmans of Pall Mall ₹44.33 Cr. | BT/Nomura [K]; ITC Q1 PPT [V]; ITC R&A 2026 RPT note [V] |
+| S23 | §0 "Volumes … ITC ~−4–5% (Nomura)" | "Nomura: Q1 volume −5% vs −10% est." [K univest] | Not re-verified. Verified broker views: **Nomura (10-Feb-2026): price hikes c.30% vs 35–40% needed after a 40–45% tax hike**. **Emkay (3-Jul-2026): "cigarette volumes to decline by high single-digits"** in FY27. **CRISIL (May-2026): VST cigarette revenue flat in FY27.** | BT [K]; CRISIL [V] |
+| S24 | Part 2 §2.2 ITC snapshot | ITC m-cap ₹3,22,321 Cr (consolidated page) | Screener standalone page at 23-Oct close: **₹3,23,132 Cr, P/E 16.9, DY 5.64%, ROCE 38.6%**. The consolidated page gives P/E 16.2. Both are fine; state the page used. | screener [V] |
+
+---
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Agrees?" compares with Parts 1–3. **P** = primary document fetched this session. **[V]** count is given at the end.
+
+| # | Figure | Value | Primary source (fetched this session) | Tag | Agrees with P1–3? |
+|---|---|---|---|---|---|
+| 1 | Effective excise, filter ≤65 mm / 65–70 / 70–75 / other (₹ per 1,000) | 2,100 / 4,000 / 5,400 / 8,500 (non-filter 2,050 / 3,600) | Notification 03/2025-CE, G.S.R. 955(E), full text on taxguru (?p=1014507) | K-text | ✓ |
+| 2 | Notification number and date; corrigendum | G.S.R. 955(E), 31-Dec-2025; corrigendum G.S.R. 105(E), 4-Feb-2026 (HTP code only) | taxguru (same page) | K-text | Fills gap (S2) |
+| 3 | Statutory cigarette duty, old → new (₹/1,000) | 200–735 → 2,700–11,000 | PRS Bill Summary (prsindia.org PDF) | **V** | ✓ (upgraded) |
+| 4 | Effective date of new excise and nil cess | 1-Feb-2026 (Notification 03/2025-CE (N.T.); 03/2025-Compensation Cess (Rate)) | taxguru ?p=1014478, ?p=1014470 | K-text | ✓ |
+| 5 | Basic excise duties, FY25 A / FY26 BE / RE / FY27 BE (₹ Cr) | 32,046.69 / 39,180 / 45,780 / **90,810** | Receipt Budget 2026-27, tr.pdf | **V** | ✓ |
+| 6 | GST compensation cess FY25 A / FY26 RE / FY27 BE (₹ Cr) | 1,50,569.84 / 88,000 / nil | same | **V** | ✓ |
+| 7 | NCCD (Union excise) FY26 RE / FY27 BE (₹ Cr) | 9,000 / 9,750 | same | **V** | ✓ |
+| 8 | HSNS cess (pan masala) RE FY26 / BE FY27 | ₹2,330 / ₹14,000 Cr | same | **V** | ✓ |
+| 9 | GPI excise Q1 FY27 vs Q1 FY26 | ₹2,614.05 vs ₹327.06 Cr | GPI Q1 FY27 results | **V** | ✓ |
+| 10 | GPI excise FY26 / FY25 | ₹2,729.83 / ₹1,156.47 Cr | GPI Q1 FY27 and Q3 FY26 results | **V** | ✓ |
+| 11 | GPI net revenue Q1 FY27 (YoY) | ₹1,206 Cr (−18.8%) | GPI Q1 FY27 presentation | **V** | ✓ |
+| 12 | GPI EBITDA / PAT Q1 FY27 | ₹182 Cr (−46.2%) / ₹198 Cr (−44.3%) | same | **V** | ✓ |
+| 13 | GPI domestic volume FY26 / Q1 FY27 | 2,001 mn/month (24.0 bn, +20%) / 1,866 mn/month (−2%) | same (volume chart) | **V** | ✓ |
+| 14 | GPI GSV FY26 / FY22 | ₹18,379 / ₹6,931 Cr | same | **V** | ✓ |
+| 15 | GPI FY26 net revenue / OP / PAT (consol.) | ₹6,391 / ₹1,585 / ₹1,526 Cr | screener; presentation | **V** | ✓ |
+| 16 | GPI cigarette/tobacco segment result FY26; Q1 FY27 vs Q1 FY26 | ₹1,474.78 Cr; ₹137.73 vs ₹296.61 Cr (−53.6%) | GPI Q1 FY27 results (standalone segment) | **V** | New |
+| 17 | PMITPL profit (CY2025) and GPI share | ₹1,141.56 Cr; ₹283.11 Cr | GPI AR FY26 AOC-1 | **V** | New (S8) |
+| 18 | Dividend from PMITPL FY26 / Q1 FY27 | ₹258.41 Cr / ₹12.40 Cr | GPI Q1 FY27 results; AR | **V** | ✓ |
+| 19 | GPI sales to PMITPL; purchases netted | ₹2,746.70 Cr (30.1% of standalone revenue); ₹4,859.39 Cr | GPI AR FY26 note 46 and segment note | **V** | ✓ |
+| 20 | GPI sales to PMI-group entities | ₹1,362.20 Cr (PM Products S.A. 882.30; Izhora 344.84; Sampoerna 304.74) | GPI AR FY26 note 46 | **V** | ✓ |
+| 21 | Royalty / technical fee to PMI | ₹21.37 Cr (₹18.04 Cr) | GPI AR FY26 | **V** | ✓ |
+| 22 | Ownership: PMI / K K Modi group | 25.1% / 47.48% | CRISIL GPI rationale; AR | **V** | ✓ |
+| 23 | GPI volume share | ~19% (second-largest) | CRISIL GPI 31-Jul-2026 | **V** | ✗ supersedes ~23% [E] (S5) |
+| 24 | VST volume share | ~7% (third-largest) | CRISIL VST 14-May-2026 | **V** | ✗ supersedes ~8% (S5) |
+| 25 | GPI North + West share of cigarette sales | ~90% | CRISIL GPI | **V** | New |
+| 26 | KMP pay: Bina / Charu Modi; ratio to median | ₹60.27 / ₹98.43 Cr; 685:1 / 1,119:1 | GPI AR FY26 Annexure (ratios) | **V** | ✓ (ratios new) |
+| 27 | AGM 24-Aug-2026: institutions against Charu Modi | 27.44% (4,712,241 votes); overall 96.38% for | Scrutiniser report | **V** | ✓ |
+| 28 | Fire insurance claim; interim receipt timing | ₹284.36 Cr; ₹100 Cr in Q1 FY27 | GPI Q1 FY27 results note 6 | **V** | ✗ (S1) |
+| 29 | GPI contingent liabilities (tax demands) | ₹187.43 Cr (FY25 ₹210.11 Cr) | GPI AR FY26 note 37 | **V** | New |
+| 30 | ITC Q1 FY27 excise standalone / consolidated | ₹10,035.63 / ₹10,408.93 Cr | ITC Q1 FY27 results | **V** | Resolves conflict (S4) |
+| 31 | ITC cigarette PBIT Q1 FY27 vs Q1 FY26 (standalone) | ₹3,341.23 vs ₹5,145.28 Cr (−35.1%) | same | **V** | ✓ |
+| 32 | ITC cigarette revenue / PBIT FY26 (standalone) | ₹37,099.65 / ₹21,051.12 Cr | same (FY column) and R&A 2026 | **V** | ✓ |
+| 33 | BAT's ITC stake | 22.90% (30-Jun-2026); TMI 17.79% | BAT HY26; ITC R&A 2026 | **V** | ✓ (upgraded) |
+| 34 | VST excise Q1 FY27 vs Q1 FY26; PAT | ₹605.25 vs ₹116.22 Cr (+421%); PAT ₹42.42 vs ₹56.13 Cr | VST Q1 FY27 results (scanned/OCR; Q1 FY26 excise reconciled to FY26 total ₹581.21 Cr and to screener net sales) | **V** | ✓ (matches K univest +421%) |
+| 35 | Industry FY26 volume growth; VST growth | ~+7%; VST ~+9% (after four years of decline) | VST AR FY26 directors' report | **V** | ✓ |
+| 36 | Illicit: ~26.1% of market / ~1/3 of legal; ~₹23,000 Cr loss; India "4th largest illicit market (Euromonitor)" | as stated | GPI AR FY26; ITC R&A 2026 (both quote industry sources) | **V** (industry-sourced) | ✓ |
+| 37 | Legal cigarettes' share of tobacco consumption; tax share | ~10% (21% in 1981-82); >4/5 of tobacco tax | ITC R&A 2026 | **V** (company claim) | ✓ |
+| 38 | Tobacco + products exports (latest year) | ₹17,192.04 Cr / 368.85 mn kg / US$1,948.98 mn | Lok Sabha reply 28-Jul-2026 via IANS | K | ✓ (source named, S18) |
+| 39 | AP FCV 2025-26 auctions | 86.59 mn kg @ ₹209.83/kg to 4-Sep (₹248.86 PY); authorised 142 mn kg; 2026-27 → 81 mn kg | Akashvani (newsonair.gov.in); Telangana Today | K (gov media) | ✓ (refined) |
+| 40 | PMI Q3-26: net revenue; smoke-free share | US$11.4 bn (+5.5%, +7.1% organic); >40% Q3, ~42% YTD | PMI 8-K Ex. 99.1 (sec.gov) | **V** | ✓ |
+
+**Count: 34 of the 40 figures are [V] from primary documents fetched this session.** The other six: rows 1, 2 and 4 are [K-text], the full legal text on a mirror site; row 38 is [K]; row 39 is [K-gov media]; row 36 is [V] for "the company says so", but the underlying number is industry-funded. Two independent sources agree on: illicit (GPI AR + ITC AR); BAT stake (BAT + ITC); exports value (IANS report + Lok Sabha figures repeated in the dossier); the RSP basis of GST (ITC AR + CRISIL + Lok Sabha).
+
+Sources that conflict and which one wins:
+- **Volume share:** CRISIL (~19% GPI) vs my Part 1 arithmetic (~23%). CRISIL wins because it is independent and recent; my figure rested on an assumed ITC volume.
+- **GPI cash:** CRISIL ₹2,383 Cr vs screener's ₹3,065 Cr. CRISIL wins as the measure of liquidity; screener counts a promoter-company stake.
+- **Insurance timing:** the company's own note beats sahi.com.
+
+---
+
+## 4.2 Company packs (primary-source pass)
+
+### 4.2.1 Godfrey Phillips India (GODFRYPHLP · 500163) — member
+
+**(a) Management-commentary digest.** GPI holds **no earnings calls**: screener lists no transcript, and none appears in the BSE announcements list. Management speaks only through the earnings presentation, the chair's letter and directors' report in the AR, and the AGM. The views below are paraphrased, with source and date.
+
+| Theme | What management said | Source / date |
+|---|---|---|
+| Profit hit | The steep tax increase in Q4 FY26 cut Q1 FY27 profitability by 44% YoY. | CEO Sharad Aggarwal, Q1 FY27 presentation, 27-Jul-2026 [V] |
+| Illicit trade | The higher tax burden has "contributed to the growth of illicit trade", now a significant concern for the legal industry. The chair's letter says the new structure "inadvertently led to growth of illicit tobacco trade" and calls for engagement with policymakers and enforcement agencies. | Same; AR FY26 chair's letter [V] |
+| Pricing (the central guidance) | "Balanced pricing strategy" so that consumer impact is "phased and not in one go"; keep investing in brands, innovation, execution and efficiencies. Strategic-direction slide: "sustain calibrated growth… leveraging pricing and mix optimization to protect margins amid **demand moderation** following recent tax increases". | Q1 FY27 presentation [V] |
+| Volume | Domestic cigarette volume fell "only 2%" in Q1 FY27 despite significant tax-led price rises; credited to brand resilience and distribution. | Same [V] |
+| Distribution / capex stance | "Leverage distribution infrastructure to drive throughput and profitability, **prioritizing asset utilization over scale expansion** (including Ferrero distribution)". This signals a pause on outlet expansion. | Same [V] |
+| PMI | "Strengthen partnership with Philip Morris International in the manufacture and distribution of Marlboro brand cigarettes in India". | Same [V] |
+| Exports | Unmanufactured exports ₹248 Cr in Q1 FY27 (7% of ex-GST net sales), "impacted due to various geopolitical factors". Focus on crop-development expertise and customer relationships. | Same [V] |
+| Medium-term | Directors' report: the tax change "has posed major challenges for the industry in the future, particularly impacting consumer affordability across the segments and price points". Strategy: core brands (Four Square, Stellar), "selective innovation", optimising sales and distribution. | AR FY26 business review [V] |
+| Brand pricing evidence | Nomura (Feb-2026): GPI raised **Stellar Shift (Kings Slims) +90% to ₹19/stick**, close to ITC's Classic Connect (~₹19.50/stick after ~30%), i.e. a "shift in focus from volumes to margins" in Slims. Marlboro Pocket ₹70 → ₹85 (May-2026) stays [K sahi, Part 1]. | Business Today 10-Feb-2026 [K] |
+| Rating-agency view | CRISIL (31-Jul-2026) reaffirmed AA+/Stable/A1+. FY26 operating income net of excise ₹6,399 Cr (+14%), OPM 25.4%. Expects "operating performance to remain healthy over medium term". Downgrade trigger: **OPM below 10% sustained** (Q1 FY27 company OPM was 15% on net revenue). The family dispute "has not impacted performance, and will remain monitorable". | CRISIL [V] |
+
+**(b) Q1 FY27 KPI table (consolidated unless noted)** [V Q1 FY27 presentation and results; E = derived]
+
+| KPI | Q1 FY27 | Q1 FY26 | Q4 FY26 | FY26 |
+|---|---|---|---|---|
+| Domestic volume (mn sticks/month) | 1,866 | 1,903 | 1,928 | 2,001 |
+| Domestic volume (bn sticks, quarter / year) [E] | 5.60 | 5.71 | 5.78 | 24.01 |
+| GSV (₹ Cr) | 5,676 | 4,094 | 5,574 | 18,379 |
+| Gross revenue (ex-GST, incl. excise) | 3,820 | 1,813 | 3,486 | 9,121 |
+| Excise duty | 2,614 | 327 | 1,698 | 2,730 |
+| Net revenue | 1,206 | 1,486 | 1,788 | 6,391 |
+| Gross profit / % of GSV | 444 / 7.8% | 628 / 15.3% | 908 / 16.3% | 2,848 / 15.5% |
+| Employee cost | 80 | 114 | 111 | 453 |
+| EBITDA (operating) / % of GSV | 182 / 3.2% | 338 / 8.3% | 553 / 9.9% | 1,584 / 8.6% |
+| EBITDA / net revenue [E] | 15.1% | 22.7% | 30.9% | 24.8% |
+| PAT (continuing) | 198 | 356 | 521 | 1,525 |
+| Excise per stick (₹) [E] | **4.67** | 0.57 | 2.94 | n.m. (regime change mid-year) |
+| Segment result, cigarettes & tobacco (standalone) | 137.7 | 296.6 | 551.6 | 1,474.8 |
+| Segment result per domestic stick (₹) [E] | 0.25 | 0.52 | 0.95 | 0.61 |
+| Segment net revenue (segment revenue − excise) [E] | 1,165.8 | 1,454.3 | 1,763.5 | 6,278.4 |
+| Segment margin on segment net [E] | **11.8%** | 20.4% | 31.3% | 23.5% |
+| Share of associates' profit (PMITPL etc.) | 28.3 | 64.7 | 105.0 | 283.1 |
+| Unmanufactured tobacco exports | 248 | — | — | 1,945 |
+
+(Excise-per-stick for the full year is not meaningful because the regime changed on 1-Feb-2026. Q4 FY26 mixes one old month and two new months. Q4 FY26's high segment result (₹551.6 Cr) reflects trade loading before the February price increases, plus stock that had already paid the old duty; do not annualise it.)
+
+**(c) Five-year history, FY22–FY26 (consolidated; ₹ Cr)** [V screener 23-Oct-2026; GSV/volume V Q1 FY27 presentation; excise V results]
+
+| FY | Net revenue | YoY % | OP (EBITDA) | OPM % | Other income | PAT | EPS (₹, post-bonus) | ROCE % | Payout % | GSV | Volume (mn/month) | Volume (bn) | Debtor / inventory days |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 2,688 | +6.5 | 633 | 24 | 114 | 438 | 28.08 | 17 | 33 | 6,931 | 930 | 11.16 | 21 / 247 |
+| FY23 | 3,562 | +32.5 | 804 | 23 | 252 | 690 | 44.26 | 22 | 33 | 8,929 | 1,163 | 13.96 | 15 / 190 |
+| FY24 | 4,018 | +12.8 | 903 | 22 | 328 | 884 | 56.61 | 23 | 33 | 10,789 | 1,295 | 15.54 | 16 / 242 |
+| FY25 | 5,611 | +39.6 | 1,177 | 21 | 349 | 1,072 (cont. 1,153) | 68.72 | 26 | 46 | 14,480 | 1,671 | 20.05 | 34 / 224 |
+| FY26 | 6,391 | +13.9 | 1,585 | 25 | 489 | 1,526 | 97.84 | 30 | 51 | 18,379 | 2,001 | 24.01 | 52 / 233 |
+| 4-yr CAGR [E] | **24.2%** | | **25.8%** | | | **36.6%** | | | | **27.6%** | **21.1%** | | |
+
+Notes:
+- Screener's FY22–FY24 sales include the 24Seven retail business in some years; the company's GSV series is continuing operations only.
+- FY25 excise was ₹1,156.47 Cr and FY26 ₹2,729.83 Cr [V]. FY22–FY24 excise not fetched.
+- Net revenue grew more slowly than GSV in FY26 (+13.9% vs +26.9%) because of the February excise.
+
+**(d) Eight-quarter trend (consolidated; ₹ Cr)** [V screener; excise and segment V results; volume and GSV V presentation]
+
+| Quarter | Net revenue | OP | OPM % | Other income | PAT | Excise | Volume (mn/month) | GSV | Seg. result (standalone) |
+|---|---|---|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 1,360 | 277 | 20 | 94 | 248 | n/f (Q1+Q2 FY25 = 537.81) | — | — | — |
+| Q3 FY25 (Dec-24) | 1,589 | 361 | 23 | 80 | 316 | 304.26 | — | — | 325.46 |
+| Q4 FY25 (Mar-25) | 1,573 | 269 | 17 | 136 | 280 | 314.40 [E: FY25 − 9M] | — | — | — |
+| Q1 FY26 (Jun-25) | 1,486 | 338 | 23 | 141 | 356 | 327.06 | 1,903 | 4,094 | 296.61 |
+| Q2 FY26 (Sep-25) | 1,289 | 314 | 24 | 101 | 305 | 343.18 | 1,985 | 3,974 | 277.96 |
+| Q3 FY26 (Dec-25) | 1,829 | 380 | 21 | 94 | 343 | 361.32 | 2,190 | 4,737 | 348.59 |
+| Q4 FY26 (Mar-26) | 1,787 | 553 | 31 | 152 | 521 | 1,698.27 | 1,928 | 5,574 | 551.62 |
+| Q1 FY27 (Jun-26) | **1,206** | **181** | **15** | 107 | **198** | **2,614.05** | **1,866** | **5,676** | **137.73** |
+
+- Excise per stick [E]: 0.57 (Q1 FY26), 0.58, 0.55, 2.94, **4.67**. That is an **8.2× step-up** in the first full post-reset quarter.
+- On ₹4.67/stick, GPI's mix sits between the ≤65 mm filter slab (₹2.10) and the 70–75 mm slab (₹5.40) plus NCCD. That is consistent with a portfolio weighted to regular/king-size filters plus Marlboro [E].
+- Q2 FY27 base effects: Q2 FY26 volume was 1,985 mn/month and the segment result ₹278 Cr. A flat-volume Q2 FY27 would still face an excise bill of ~₹2,700–2,800 Cr [E].
+
+**(e) Annual-report findings (AR FY26, BSE `6bf81ef7…`)** [V unless tagged]
+
+*Related parties and the PMI web (standalone, ₹ Cr):*
+- **Philip Morris India Trading Pvt Ltd (PMITPL; formerly IPM India Wholesale Trading; associate 24.80%).**
+  - Sales of goods ₹2,746.70 Cr (FY25 ₹1,421.31 Cr). This is **one customer** = 30.1% of standalone revenue from operations (₹9,119.02 Cr), and the only customer above 10% (segment note).
+  - Purchases from PMITPL "**reduced by ₹4,859.39 Cr** (PY ₹3,321.63 Cr) owing to sale of Marlboro cigarettes manufactured by the Company". Reading the two numbers together: GPI makes Marlboro and invoices it to PMITPL, and PMITPL's invoices back to GPI are netted against that [E interpretation; mechanics still undisclosed].
+  - Dividend received ₹258.41 Cr (₹193.44 Cr).
+  - **PMITPL profit ₹1,141.56 Cr** (year to 31-Dec-2025); GPI's equity-accounted share ₹283.11 Cr; carrying value ₹113.61 Cr.
+  - So PMITPL earns roughly **3/4 of GPI's own FY26 PAT** on Marlboro distribution in India [E: 1,141.56 ÷ 1,525].
+  - PMITPL's year-end is **31-Dec**; auditors' CARO reporting on it is restricted to that date.
+- **PMI group entities** (Philip Morris Global Brands Inc. group). Sales ₹1,362.20 Cr: Philip Morris Products S.A. ₹882.30 Cr, AO Philip Morris Izhora (Russia) ₹344.84 Cr, PT HM Sampoerna ₹304.74 Cr. Technical services fee and royalty paid ₹21.37 Cr (₹18.04 Cr).
+- **Sanctions/geopolitics:** sales to the Russian PMI factory are ~25% of PMI-group sales and ~18% of FY26 unmanufactured exports [E]. Forex earnings fell to **₹1,742.70 Cr** (FY25 ₹2,001.77 Cr); outgo was ₹1,035.92 Cr (₹776.76 Cr).
+- **AOC-2:** the board states there were **no "material contracts or arrangements"** with related parties under s.188(1). All PMI transactions are treated as ordinary-course and arm's-length. The Marlboro licence/supply term and expiry are **not disclosed** anywhere in the AR (searched "licence", "supply agreement", "royalty", "trademark").
+- **Circular promoter holding:** GPI owns **91,875 shares of K K Modi Investment & Financial Services Pvt Ltd**, its largest promoter (29.85% of GPI), carried at **₹758.74 Cr** (FVTOCI; FY25 ₹764.52 Cr). That is ~23% of the ₹3,299 Cr "investments" on screener. It is not liquid treasury, and it is an unusual cross-holding for governance analysis.
+
+*Capacity and footprint:*
+- Plants: **Rabale** (Navi Mumbai, cigarettes; R&D unit, ISO 17025); **Guldhar, Ghaziabad** (cigarettes; owned by WOS International Tobacco Co, which charged ₹73.1 Cr of manufacturing charges); **Ongole, AP** (reconstituted tobacco).
+- No installed-capacity table is published (none is required for cigarettes post-delicensing disclosure norms). FY26 capex ₹308 Cr; CWIP ₹168 Cr [Part 2 V].
+- 942 permanent employees; 1,100+ distributors; 9,000+ field force.
+
+*Contingent liabilities (note 37):*
+- Tax demands not accepted **₹187.43 Cr** (FY25 ₹210.11 Cr). These include: ₹82.90 Cr alleged **undervaluation of supplies under GST**; ₹27.72 Cr ISD-related input credit (Jul-2017 to Jun-2018); ₹7.26 Cr classification; ₹19.93 Cr excise demands on the subsidiary International Tobacco Co.
+- Disputed GST dues in appeal before the Commissioner (Appeals): **₹400.92 Cr** for 2017-18 to 2022-23 (deposited ₹11.14 Cr; this figure includes amounts already provided).
+- Watch item: the GST undervaluation dispute matters more now that GST is levied on RSP (Rule 31D).
+
+*Risks (board and MD&A):*
+- Board: "no risks which… threaten the very existence of your Company".
+- MD&A names: the tax reset and affordability; illicit and contraband trade; regulatory risk; geopolitics (US sanctions and tariffs, West Asia).
+- CRISIL adds geographic concentration (North + West ~90% of cigarette sales) and intense competition from ITC.
+
+*Insurance:* see S1. The fire was at a **third-party** processing facility. The full ₹284.36 Cr was booked as a receivable, so any shortfall in settlement would be a future P&L hit [E].
+
+*Pay and governance:*
+- FY26 pay ratios to the median employee: **Bina Modi 685:1** (pay +33.75%); **Charu Modi 1,119:1** (not comparable, appointed Sep-2024); CEO Sharad Aggarwal 160:1 (−62%, because FY25 included ₹26.26 Cr of ESPS perquisites on 36,000 shares at ₹1,600).
+- **Median employee pay −0.92%** while total managerial pay rose 14.54% and non-managerial salaries rose 8.75%.
+- PMI nominees: Paul Norman Janelle (from 16-May-2025) and **Marco Mariotti (from 1-Feb-2026, the day the new tax came in)**.
+- Independent director Atul Kumar Gupta ceased 19-Jun-2025. CRISIL counts a 50% independent board.
+
+*Family dispute (status Oct-2026):* AR FY26 records the office-possession dispute with Samir Modi (S10). CRISIL calls the family dispute "ongoing". No 2026 court ruling was found (§4.4).
+
+**(f) Story implications for the writer.** GPI's FY26 economics were: domestic cigarettes (own brands) + Marlboro made for PMITPL (₹2,747 Cr of sales; ₹283 Cr of equity income) + leaf exports (~2/3 to PMI affiliates). Q1 FY27 shows the reset compressing the **segment** margin from 20% to 12% on segment net revenue, while PMITPL's equity income fell 56%. The Marlboro channel is therefore squeezed too, not insulated. Its first-quarter profit per stick (₹0.25 segment result) is now level with VST's, the value specialist (~₹0.24 OP per stick on ~2.1 bn sticks [E: ₹50 Cr ÷ ~2.1 bn, assuming VST volume roughly flat]), and about a tenth of ITC's (~₹1.6 PBIT per stick on ~21 bn [E]).
+
+### 4.2.2 ITC Ltd — cigarettes segment (reference; keep consistent with diversified-fmcg.html)
+
+**(a) Management-commentary digest.** ITC does **not** hold analyst earnings calls. Its "concall" is the quarterly results presentation and media statement. Sources below are the Q1 FY27 presentation (BSE `20b685f4…`, 31-Jul-2026) and R&A 2026, plus fetched broker notes.
+
+| Theme | What ITC said / did | Source |
+|---|---|---|
+| Strategy | "Strategic and calibrated response… to the **unprecedented increase in tax**, balancing the interests of all stakeholders." | Q1 FY27 PPT [V] |
+| Pricing | "**Staggered and agile pricing actions** are aiding the Business to mitigate the risk of significant migration of volumes to illicit trade while protecting consumer franchise." Q1 segment results "reflect the impact of staggered pricing approach". | Q1 FY27 PPT [V] |
+| Portfolio | "**Over 30 interventions**… re-architecting & fortifying the product portfolio". New SKUs named: Rothmans GT & XT; Classic World Series; Gold Flake Discover World Series; Classic Balance Taste Sleek; Gold Flake Indie Paan Sleek; American Club Magic Mix Sleek; Classic/Gold Flake/American Club Longs; American Club Clove Mint Fresh; Players Magic Mix RSFT; Gold Flake Deluxe and Indie Deluxe; Wave, Scissors and Players Deluxe Filter; Flake Premium Deluxe. "Deluxe" and "Sleek" formats are the slab-engineering response (S22). | Q1 FY27 PPT [V] |
+| Q1 FY27 headline | Segment gross revenue +81%; **segment net revenue −25%**; segment results −35%. | Q1 FY27 PPT [V] |
+| FY26 narrative | "Resilient performance on the back of **sustained volume-led growth momentum**"; "consumption of high-cost leaf tobacco inventory weighed on margin". | R&A 2026 [V] |
+| Policy view | GST moved from 28% of transaction value to **40% of RSP**, plus steep excise. Arguments ITC makes: legal cigarettes are 10% of consumption vs 90% globally; India is the **4th-largest illicit market (Euromonitor)**; illicit ≈ **1/3 of the legal industry**; ~₹23,000 Cr revenue loss; tax per 2,000 cigarettes = **4.90% of per-capita GDP** (USA 0.36%, Japan 0.73%, China 1.00%, UK 2.63%, Pakistan 3.40%; WHO GHO 2025); per-capita consumption **90 sticks/yr** (China 1,971; Japan 1,133; Bangladesh 898; USA 897; UK 468; Pakistan 394; Tobacco Atlas 2022). | R&A 2026 [V] |
+| Leaf / Agri | Agri segment hit by West Asia disruptions; "**nicotine & nicotine derivative exports scaled up; PBIT positive (last 2 quarters)**". This is a new, small export line worth noting for the nicotine-pouch theme. | Q1 FY27 PPT [V] |
+| Brokers (fetched) | **Nomura** (10-Feb-2026; Reduce, TP ₹318): hikes c.30% vs 35–40% needed; Gold Flake Regular 10s ₹95 → ₹125 (+32%); 64 mm Gold Flake Deluxe at ₹94/10; cigarette EBIT could fall ~20% without more pricing. **Emkay** (3-Jul-2026; Add, TP ₹310): FY27 cigarette volumes to fall "by high single-digits"; EBIT margin under pressure because pricing lagged tax. **Citi** Buy TP ₹300 (5-Oct-2026) [K univest, Part 1, not re-fetched]. | Business Today [K] |
+| Subsequent pricing | Sep-2026 dealer checks: Classic Connect 20s ₹390 → ₹428 (+9.7%); Gold Flake Super Star 10s ₹79 → ₹89 (+12.7%). | Business Today 16-Sep-2026 [K] |
+
+**(b) Q1 FY27 KPI table (standalone; ₹ Cr)** [V ITC Q1 FY27 results]
+
+| KPI | Q1 FY27 | Q1 FY26 | YoY |
+|---|---|---|---|
+| Cigarette segment revenue (gross, incl. excise) | 15,383.55 | 8,520.04 | +80.6% |
+| Company excise duty (≈ all cigarettes) | 10,035.63 | 1,309.07 | ×7.7 |
+| Cigarette net revenue [E: gross − excise] | 5,347.92 | 7,210.97 | **−25.8%** (ITC: −25%) |
+| Cigarette PBIT | 3,341.23 | 5,145.28 | **−35.1%** |
+| PBIT / net [E] | 62.5% | 71.4% | −8.9 pp |
+| Cigarettes' share of segment PBIT [E] | 76.1% | 83.9% | |
+| Cigarette segment assets / liabilities | 13,204.05 / 9,771.49 | 10,071.82 / 5,975.77 | Capital employed ₹3,433 Cr vs ₹4,096 Cr [E]. Liabilities rose with excise payables and trade advances. |
+| Consolidated cigarette revenue / PBIT | 16,596.67 / 3,769.11 | 9,553.86 / 5,498.93 | PBIT −31.5% |
+| Company standalone net revenue / EBITDA / PAT | 16,812 / 4,514 / 3,579 | 19,635 / 6,261 / 4,911 | −14.4% / −27.9% / −27.1% |
+| Excise per stick [E] | ~₹4.8 at ~21 bn sticks/qtr (CRISIL-implied ITC ~88 bn/yr, −5%); ~₹6.0 at ~16.6 bn (old 70 bn assumption) | ~₹0.6 | INDICATIVE |
+
+**(c) Five-year history — cigarette segment, standalone (₹ Cr)** [V: ITC R&A 2023 (FY22–23), R&A 2024 (FY24), Q3 FY26 results (FY25), Q1 FY27 results / R&A 2026 (FY26)]
+
+| FY | Segment revenue (gross) | Company excise | Net (gross − excise) [E] | Net YoY [E] | PBIT | PBIT YoY | PBIT / net [E] | Segment cap. employed (yr-end) [E] |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 23,451.39 | 3,404.29 | 20,047 | — | 14,869.07 | — | 74.2% | 1,970 (6,654.58 − 4,684.28) |
+| FY23 | 28,206.83 | 4,208.01 | 23,999 | +19.7% | 17,927.06 | +20.6% | 74.7% | 2,234 |
+| FY24 | 30,596.59 | 4,664.48 | 25,932 | +8.1% | 19,089.17 | +6.5% | 73.6% | 3,912 |
+| FY25 | 32,631.27 | 4,912.55 | 27,719 | +6.9% | 20,024.87 | +4.9% | 72.2% | 4,413 |
+| FY26 | 37,099.65 | 9,656.33 | 27,443 | −1.0% | 21,051.12 | +5.1% | 76.7% | 7,749 |
+| 4-yr CAGR [E] | 12.2% | | **8.2%** | | **9.1%** | | | |
+
+- Company-level standalone history [V screener]:
+  - Sales: FY22 56,341 → FY23 66,043 → FY24 62,628 → FY25 69,326 → FY26 71,984.
+  - OP: 18,893 → 23,981 → 23,435 → 23,906 → 25,196.
+  - PAT: 15,058 → 18,753 → 20,422 → 35,197 (incl. the hotels-demerger gain) → 20,286.
+  - ROCE: 33 → 38 → 36 → 37 → 39%.
+- The FY26 "net" is depressed and its margin inflated by the Q4 FY26 excise-in-inventory effect (inventory change −₹2,515.95 Cr in Q4 FY26). Use FY25 (~72%) as the clean pre-reset margin.
+- Cigarette segment capex FY26 **₹869.13 Cr** vs ₹320.52 Cr in FY25. The jump includes the ~₹404 Cr of BAT-group brand assets (S22).
+
+**(d) Eight-quarter trend — cigarette segment (standalone, ₹ Cr)** [V results; Q2 FY25 only partly available]
+
+| Quarter | Seg. revenue | Company excise | Net [E] | PBIT | PBIT / net [E] | Company net sales (screener) | Company OPM % |
+|---|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | n/f (Q1+Q2 FY25 = 16,095.37) | n/f | — | n/f | — | 18,649 | 33 |
+| Q3 FY25 (Dec-24) | 8,136.29 | 1,237.42 | 6,898.87 | 4,924.04 | 71.4% | 17,053 | 34 |
+| Q4 FY25 (Mar-25) | 8,399.61 [E: FY − 9M] | 1,245.85 [E] | 7,153.76 | 5,117.86 [E] | 71.5% | 17,249 | 35 |
+| Q1 FY26 (Jun-25) | 8,520.04 | 1,309.07 | 7,210.97 | 5,145.28 | 71.4% | 19,761 | 32 |
+| Q2 FY26 (Sep-25) | 8,722.83 | 1,360.74 | 7,362.09 | 5,240.66 | 71.2% | 18,021 | 35 |
+| Q3 FY26 (Dec-25) | 8,790.76 | 1,342.32 | 7,448.44 | 5,177.02 | 69.5% | 18,092 | 35 |
+| Q4 FY26 (Mar-26) | 11,066.02 | 5,644.20 | (5,421.82 — distorted) | 5,488.16 | n.m. | 16,050 | 40 |
+| Q1 FY27 (Jun-26) | **15,383.55** | **10,035.63** | **5,347.92** | **3,341.23** | **62.5%** | 16,908 | 27 |
+
+**(e) Annual-report findings (R&A 2026)** [V]
+
+- **BAT relationship (related parties, FY26):**
+  - Sales to British American Tobacco (GLP) Ltd ₹1,587.03 Cr (FY25 ₹1,445.27 Cr), mostly leaf and other exports. Advances received from BAT (GLP) ₹1,370.30 Cr.
+  - Brand-asset purchases: Benson & Hedges (Overseas) Ltd ₹286.14 Cr; Dunhill Tobacco of London Ltd ₹73.14 Cr; Rothmans of Pall Mall Ltd ₹44.33 Cr (nil in FY25).
+  - Investment purchased from British American Tobacco (Investments) Ltd ₹154.22 Cr.
+  - Dividends paid: Tobacco Manufacturers (India) ₹3,197.89 Cr + Myddleton ₹697.86 Cr = **₹3,895.75 Cr** (FY25 ₹4,238.93 Cr).
+  - Sales to Surya Nepal (subsidiary) ₹391.92 Cr.
+- **Ownership (Mar-26):** TMI 17.79%, LIC 15.83%, SUUTI 7.78%; "Shareholding of Promoters: Nil". GQG Partners funds sold 39,685,790 shares (0.32%) on-market, cutting their holding from 3.48% to ~3.16% (Reg 29(2) disclosure, 6/7-Oct-2026) [V].
+- **Capacity / footprint:** cigarette factories at **Bengaluru, Kolkata, Munger, Pune and Saharanpur**; green-leaf threshing at Anaparthi, Chirala (AP) and Nanjangud (Karnataka). No capacity-in-sticks disclosure.
+- **Contingent liabilities:** claims not acknowledged **₹1,008.67 Cr** (₹917.25 Cr). Of this, indirect-tax applicability/classification is ₹647.83 Cr and local taxes/cess ₹306.89 Cr. Capital commitments ₹1,480.38 Cr.
+- **Litigation:** the challenge to 85% pictorial warnings is still pending in the Supreme Court (the Karnataka HC struck the rule down in Dec-2017; the SC stayed that ruling).
+- **Pay:** CMD Sanjiv Puri **338:1** median; ED & CFO 133:1; ED H. Malik 108:1. Contrast GPI's 685:1 and 1,119:1 for family executives at a company ~1/15th ITC's PAT [E].
+
+### 4.2.3 VST Industries (reference)
+
+**(a) Management-commentary digest.** No earnings call or investor presentation is filed (screener lists none). Sources: Directors' Report FY26 (16-Apr-2026), AR FY26 MD&A, 95th AGM proceedings (29-Jul-2026), CRISIL (14-May-2026).
+
+| Theme | Commentary | Source |
+|---|---|---|
+| Industry | Industry volume **~+7%** in FY26 on a "stable regulatory and taxation regime for most of the year"; mid-premium "vibrant"; premium and value stable; **low-price segment below industry**. | AR FY26 [V] |
+| Company volume | **~+9%**, "higher than industry trend after four consecutive years of volume decline". TOTAL (first national trademark) grew in all major markets. EDITIONS became the second national trademark, in mid-premium where VST had no presence. Launches: Editions Trio, Total Spin, Total Paan Delight. | AR FY26 [V] |
+| Outlook | "The recently introduced tax structure has resulted in price increases across the board"; the challenge is "negating the impact of illegal cigarettes where the tax arbitrage has grown substantially". | Directors' Report, chairman N. K. Sethi [V] |
+| Market sizing used by VST | Indian cigarette market **~₹1,20,000 Cr (2025)**, 9.5% CAGR to 2034 (IMARC); **value-priced cigarettes >51% of the market**. | AR FY26 [V; IMARC INDICATIVE] |
+| CRISIL view | Cigarette revenue to be **flat in FY27 despite higher taxes, supported by price hikes**; overall revenue +1–2% medium term; unmanufactured tobacco +5–10%; OPM to normalise to **24–25%** (FY26 30.7% flattered by a Q4 tax-transition gain); "significant price hikes in Q4 FY26"; volumes "to recover gradually". Capex ₹50–70 Cr p.a.; cash ₹593 Cr. | CRISIL [V] |
+| Market position | Third-largest by volume, **~7% share**. Core states WB, AP, Telangana, Bihar, UP; expanding into UP, Delhi, Maharashtra, Karnataka. | CRISIL [V] |
+
+**(b) Q1 FY27 KPI table (₹ Cr)** [V VST results 28-Jul-2026; OCR-read and reconciled]
+
+| KPI | Q1 FY27 | Q4 FY26 | Q1 FY26 | FY26 |
+|---|---|---|---|---|
+| Gross sales (net of GST and cess, incl. excise) | 861.27 | 688.88 | 412.14 | 2,041.95 |
+| Excise duty | 605.25 | 232.34 | 116.22 | 581.21 |
+| Net sales (screener) | 256 | 457 | 298 | 1,465 |
+| OP / OPM (screener) | 50 / 19% | 208 / 46% | 77 / 26% | 450 / 31% |
+| Other income | 19.78 | 9.49 | 10.81 | 41.31 |
+| PBT / PAT | 58.28 / 42.42 | 154.55 / 116.69 | 75.99 / 56.13 | 390.04 / 292.24 |
+| EPS (₹) | 2.50 | 6.87 | 3.30 | 17.21 |
+| Excise per stick [E] | ~₹2.9 if volume ≈ FY26 run-rate (2.09 bn/qtr); ~₹3.2 at −10% | ~₹1.1 | ~₹0.56 | — |
+
+The ~₹2.9/stick implied for VST (vs GPI ₹4.67 and ITC ~₹4.8) fits a portfolio centred on the ≤65 mm (₹2.10) and 65–70 mm (₹4.00) filter slabs [E]. This makes VST the clearest test of trade-down to bidis and illicit sticks.
+
+**(c) Five-year history (standalone; ₹ Cr)** [V screener; gross revenue and volume V AR]
+
+| FY | Net sales | YoY % | OP | OPM % | Other income | PAT | ROCE % | Payout % | Revenue from ops (gross, AR) | Volume (mn sticks) | Volume YoY | Net sales / stick (₹) [E] |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 1,178 | +6.0 | 412 | 35 | 47 | 320 | 42 | 68 | 1,560.7 | 8,340 | — | 1.41 |
+| FY23 | 1,292 | +9.7 | 383 | 30 | 76 | 327 | 38 | 71 | 1,672.5 | 8,253 | −1.0% | 1.57 |
+| FY24 | 1,420 | +9.9 | 353 | 25 | 80 | 302 | 32 | 77 | 1,837.5 | 7,988 | −3.2% | 1.78 |
+| FY25 | 1,398 | −1.5 | 279 | 20 | 135 | 290 | 21 | 58 | 1,809.4 | 7,697 | −3.6% | 1.82 |
+| FY26 | 1,465 | +4.8 | 450 | 31 | 41 | 292 | 28 | 70 | 2,045.7 | 8,356 | +8.6% | 1.75 |
+
+(Net sales per stick include leaf exports of ~₹300 Cr a year, so the domestic value is lower: FY26 ≈ ₹1.39 [E]. FY25 PAT includes ~₹108 Cr of one-off other income in Q3 FY25 [V screener].)
+
+**(d) Eight-quarter trend (₹ Cr)** [V screener; excise V results]
+
+| Quarter | Net sales | OP | OPM % | Other income | PAT | Excise |
+|---|---|---|---|---|---|---|
+| Q2 FY25 | 360 | 68 | 19 | 8 | 48 | n/f |
+| Q3 FY25 | 367 | 68 | 19 | 108 | 136 | 103.40 |
+| Q4 FY25 | 349 | 70 | 20 | 10 | 53 | n/f |
+| Q1 FY26 | 298 | 77 | 26 | 11 | 56 | 116.22 |
+| Q2 FY26 | 336 | 79 | 23 | 12 | 59 | 114.25 |
+| Q3 FY26 | 373 | 86 | 23 | 9 | 60 | 118.40 |
+| Q4 FY26 | 457 | 208 | 46 | 9 | 117 | 232.34 |
+| Q1 FY27 | **256** | **50** | **19** | 20 | **42** | **605.25** |
+
+**(e) Annual-report findings (AR FY26)** [V]
+
+- **Ownership: two blocks, not one.** BAT group holds **32.16%** (Raleigh Investment 23.45%, Tobacco Manufacturers (India) 8.28%, Rothmans International Enterprises 0.43%). **Bright Star Investments Pvt Ltd (R. K. Damani group) holds 25.95%** and is disclosed, with Damani Estates & Finance, Derive Trading and family trusts, as a ">20% incl. PAC" related party. FY26 dividends paid: BAT group ₹54.62 Cr; Damani group ₹52.58 Cr.
+  - Part 1 calls VST "BAT-controlled". In fact the founder of DMart owns a blocking stake close to BAT's. That matters for any future consolidation in the industry.
+- **Related parties:** no royalty to BAT appears (VST owns its brands); RPTs are dividends, KMP pay and employee trusts. Chairman **Naresh Kumar Sethi** is a BAT executive (BAT Japan background). New MD & CEO **Piyush Srivastava** (DIN 10775803) replaced Sanjay Wali during FY26.
+- **Capacity:** single integrated **Toopran** plant (primary + secondary manufacturing) near Hyderabad; registered office at Azamabad. No capacity-in-sticks disclosure.
+- **Contingent liabilities:** ₹9.83 Cr (₹9.07 Cr), of which excise/GST/customs ₹4.79 Cr. Provisions: **₹49.05 Cr for compensation-cess input credit on transition inventory**, plus ₹52.47 Cr of other statutory liabilities.
+- **Risks (MD&A list):** non-duty-paid illicit cigarettes and alternative tobacco products; taxation and regulation; infringement of intellectual property; geopolitical and economic-policy risk; inefficient facilities.
+- **Pay:** chairman 20:1 median; independent directors 3.4–5.2:1; median employee pay +2%; **712 permanent employees**; CFO +25.8%.
+- **Auditor change:** Price Waterhouse Chartered Accountants LLP appointed at the 29-Jul-2026 AGM.
+
+### 4.2.4 Global reference rows (latest reported period; lower depth)
+
+| Company | Period | Revenue | Growth | Mix / KPI | Guidance | Source (tag) |
+|---|---|---|---|---|---|---|
+| Philip Morris International | Q3-2026 (21-Oct-2026) | Net revenue **US$11.4 bn** | +5.5% reported, +7.1% organic | Smoke-free >40% of Q3 and ~42% YTD; cigarettes 158.0 bn units (flat); HTU 41.5 bn (+1.5%); adj. OPM 44.7%; US ZYN 3.2 bn pouches (+4.2%); adj. EPS $2.36 | FY26 adj. EPS **$8.29–8.44** (2025: $7.54) | sec.gov 8-K Ex. 99.1 [V] |
+| British American Tobacco | H1-2026 (30-Jul-2026) | **£12,235 mn** | +1.4% (+2.9% cc) | Smokeless 19.8% of revenue; New Categories £1,928 mn (+18% cc); Modern Oral +65.9%; APMEA −6.3% (illicit, regulation); ITC stake 22.90% | FY26 revenue +3–5% cc; NC mid-teens | bat.com HY26 [V] |
+| Altria | Q2-2026 (29/30-Jul-2026) | Net revenues **US$6,111 mn**; net of excise $5,356 mn | +0.1% / +1.2% | H1: $11,539 mn / $10,114 mn | FY26 adj. EPS **$5.61–5.72** | Altria release PDF [V] |
+| Imperial Brands | H1 FY26 (to 31-Mar-2026; 12-May-2026) | Reported revenue +0.8%; tobacco & NGP net revenue +1.8% | Tobacco net revenue +1.5%; NGP +7.5% | 12-m FCF £2.6 bn; £1.45 bn buyback; interim dividend +4% | Low-single-digit tobacco growth; 3–5% adj. op. profit [K ii] | FCA NSM RNS [V]; £ levels (revenue £14.72 bn; T&NGP net £3.73 bn) [K] |
+| Japan Tobacco | H1-2026 | Revenue ¥1,986.1 bn | +17.7% | Adj. OP ¥661.7 bn (+26%); Ploom growth | FY26 revenue ¥3,885 bn (+12%); DPS ¥272 | [V-snip search summaries] |
+
+- The m-cap values in Part 1 §10.1 were not re-fetched; they stay [K].
+- PMI's 2025 adjusted EPS of $7.54 and 2026 guidance midpoint ~$8.37 → **~11% growth**, while Indian cigarette profit pools shrink 35–50% this year.
+- That contrast is the cleanest global framing: **a smoke-free hedge vs a 100% combustible, tax-shocked market**.
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. Statutory vs effective central excise on cigarettes (₹ per 1,000 sticks), from 1-Feb-2026.**
+- Effective rates [K-text, G.S.R. 955(E)]: non-filter ≤65 mm **2,050**; non-filter 65–70 mm **3,600**; filter ≤65 mm **2,100**; filter 65–70 mm **4,000**; filter 70–75 mm **5,400**; other (>75 mm etc.) **8,500**; cigarettes of tobacco substitutes **4,006**; cigars/cheroots **21% or ₹4,170**; cigarillos/other substitutes **12.5% or ₹4,006, whichever is higher**; unmanufactured tobacco **18%**; hookah/gudaku **33%**.
+- Filter length is counted as 11 mm or the actual length, whichever is more.
+- The statutory schedule range is **₹2,700–11,000** (old ₹200–735) [V PRS].
+- NCCD is additional; the per-1,000 NCCD rates were not fetched (§4.4).
+
+**D2. Union receipts tied to tobacco (₹ Cr)** [V Receipt Budget 2026-27]
+
+| Line | FY25 actual | FY26 BE | FY26 RE | FY27 BE |
+|---|---|---|---|---|
+| Basic excise duties (petroleum + tobacco) | 32,046.69 | 39,180 | 45,780 | 90,810 |
+| NCCD — Union excise (tobacco + crude) | 8,341.22 | 9,160 | 9,000 | 9,750 |
+| NCCD — Customs | 1,116.28 | 1,220 | 1,140 | 1,160 |
+| Special Additional Duty of Excise on Tobacco Products | 170.26 | — | — | — |
+| GST compensation cess | 1,50,569.84 | 1,67,110 | 88,000 | — |
+| Health Security se National Security Cess (pan masala) | — | — | 2,330 | 14,000 |
+| Total Union excise duties | 3,00,253.08 | 3,17,000 | 3,36,550 | 3,88,910 |
+
+The Budget text says basic excise is "presently leviable on specified petroleum products and tobacco and tobacco products". The FY25 BED of ~₹32,000 Cr was therefore almost all petroleum. If the petroleum share stays similar, FY27 BE implies **~₹55,000–58,000 Cr of tobacco BED** [E]. That compares with an annualised **~₹53,000 Cr** run-rate for the three listed makers (D3 × 4; this includes their NCCD).
+
+**D3. Excise paid by the three listed makers, by quarter (₹ Cr; standalone)** [V company results; ITC Q4 FY25 and GPI Q4 FY25 are E = FY − 9M]
+
+| Quarter | ITC | GPI | VST | Trio | Index (Q1 FY26 = 100) |
+|---|---|---|---|---|---|
+| Q3 FY25 | 1,237.42 | 304.26 | 103.40 | 1,645.08 | 94 |
+| Q4 FY25 | 1,245.85 | 314.40 | n/f | — | — |
+| Q1 FY26 | 1,309.07 | 327.06 | 116.22 | 1,752.35 | 100 |
+| Q2 FY26 | 1,360.74 | 343.18 | 114.25 | 1,818.17 | 104 |
+| Q3 FY26 | 1,342.32 | 361.32 | 118.40 | 1,822.04 | 104 |
+| Q4 FY26 | 5,644.20 | 1,698.27 | 232.34 | 7,574.81 | 432 |
+| Q1 FY27 | 10,035.63 | 2,614.05 | 605.25 | **13,254.93** | **756** |
+
+- Shares of the Q1 FY27 trio excise: ITC 75.7%, GPI 19.7%, VST 4.6% [E].
+- Because excise is per stick and slab-weighted, the excise share sits between volume share and value share. GPI's 19.7% excise share is consistent with CRISIL's ~19% volume share once mix is allowed for [E]. This is a second, independent check on S5.
+
+**D4. Listed cigarette profit pool, by quarter (₹ Cr; mixed basis: ITC cigarette PBIT + GPI cigarette/tobacco segment result + VST company OP)** [V; E sum]
+
+| Quarter | ITC | GPI | VST | Pool | YoY |
+|---|---|---|---|---|---|
+| Q3 FY25 | 4,924.04 | 325.46 | 68 | 5,317.50 | |
+| Q1 FY26 | 5,145.28 | 296.61 | 77 | 5,518.89 | |
+| Q2 FY26 | 5,240.66 | 277.96 | 79 | 5,597.62 | |
+| Q3 FY26 | 5,177.02 | 348.59 | 86 | 5,611.61 | +5.5% |
+| Q4 FY26 | 5,488.16 | 551.62 | 208 | 6,247.78 | (pre-loading) |
+| Q1 FY27 | 3,341.23 | 137.73 | 50 | **3,528.96** | **−36.1%** |
+
+GPI's share of the pool fell from 5.4% to **3.9%**; ITC's rose from 93.2% to **94.7%**. The reset concentrates profit in the price-setter [E].
+
+**D5. Legal cigarette market structure, FY26 (INDICATIVE)** [V CRISIL; E]
+
+| Basis | ITC | GPI | VST | Others | Legal market |
+|---|---|---|---|---|---|
+| Volume share (CRISIL-based) | ~73% (~85–90 bn) [E] | **~19%** (24.01 bn) [V] | **~7%** (8.36 bn) [V] | ~1% | **~120–126 bn sticks** [E] |
+| Domestic net revenue share (Part 3 basis, unchanged) | ~83.5% | ~13.0% | ~3.5% | — | ~₹32,900 Cr |
+| Q1 FY27 excise share (D3) | 75.7% | 19.7% | 4.6% | — | ₹13,255 Cr/qtr |
+| Q1 FY27 profit-pool share (D4) | 94.7% | 3.9% | 1.4% | — | ₹3,529 Cr/qtr |
+
+**D6. Price ladder evidence (₹ per pack, MRP)** [K Business Today; K Nomura via BT]
+
+| SKU | Pre-Feb-2026 | Feb-2026 | May-2026 | Sep-2026 | Cumulative |
+|---|---|---|---|---|---|
+| ITC Classic Connect (20s) | 300 | 360 → 390 | 390 | **428** | +42.7% |
+| ITC Gold Flake Super Star (10s) | 59 | 70 | 79 | **89** | +50.8% |
+| ITC Gold Flake Regular 69 mm (10s) | 95 | 125 | — | — | +31.6% (Feb) |
+| ITC Gold Flake Deluxe 64 mm (10s, new) | — | 94 | — | — | Slab-engineered |
+| GPI Stellar Shift (per stick) | ~10 | **19** | — | — | +90% |
+| GPI Marlboro Pocket | 70 | — | 85 | — | +21.4% [K sahi] |
+| Illicit/imported brands (per stick) | | 10–15 | | | Nomura |
+
+**D7. Exports of tobacco and tobacco products (decade endpoints)** [K, Lok Sabha reply 28-Jul-2026]
+- Start of decade: 240.93 mn kg, ₹6,450.66 Cr, US$958.68 mn (US$3.98/kg) [E].
+- End of decade: 368.85 mn kg, ₹17,192.04 Cr, US$1,948.98 mn (**US$5.28/kg**) [E].
+- Change: +53.10% by volume, +166.51% by value. Average FCV grower price ₹134.43 → **₹251.14/kg** (+86.82%).
+- GPI AR (citing IBEF), FY25: FCV exports 146,954 t, US$895.9 mn; all unmanufactured + products 364,575.84 t, ₹16,728 Cr (US$1.97 bn) [V AR, secondary within].
+
+**D8. AP FCV auctions** [K-gov Akashvani; K Telangana Today; K Deccan Chronicle in Part 1]
+
+| Season | Authorised crop (mn kg) | Production est. (mn kg) | Marketed (mn kg) | Avg price (₹/kg) |
+|---|---|---|---|---|
+| 2024-25 | — | — | — | 248.86 (same stage); highs >₹360 |
+| 2025-26 (to 4-Sep-2026, 132 days) | 142 | ~236–240 | 86.59 | **209.83** (NLS high ₹329; SLS ₹255; SBS ₹252) |
+| 2025-26 (to 24-Sep, Part 1 [K]) | 142 | 236 | 111.64 | 213.27 |
+| 2026-27 | **81** | — | — | — |
+
+**D9. International comparison used by ITC (R&A 2026; WHO GHO 2025 and Tobacco Atlas 2022)** [V as quoted]
+- Tax per 2,000 cigarettes as % of per-capita GDP: USA 0.36; Japan 0.73; China 1.00; Germany 1.04; Russia 1.04; Canada 1.18; Thailand 2.10; Malaysia 2.44; Australia 2.62; UK 2.63; Pakistan 3.40; **India 4.90**. This is pre-reset 2024 tax data, so the post-reset ratio is higher.
+- Cigarettes per capita per year: China 1,971; Japan 1,133; Bangladesh 898; USA 897; UK 468; Pakistan 394; **India 90**.
+
+**D10. Consumption structure** [V-snip, MoHFW/TISS GATS-2 fact-sheet search summary; PDF not downloadable]
+- GATS-2 (Aug-2016 to Feb-2017; 74,037 respondents): tobacco users **28.6% of adults (266.8 mn)**; smokers 10.7% (men 19.0%, women 2.0%); smokeless **21.4% (199.4 mn)**; cigarettes **4.0%**; bidis **7.7%**.
+- GATS-1 (2009-10): 34.6% tobacco users, 14.0% smokers. Ages 15–24: 18.4% → 12.4%.
+- **GATS-3: no results found.**
+- Legal cigarettes' share of tobacco consumption fell from **21% (1981-82) to ~10%** [V ITC AR].
+
+---
+
+## 4.4 Gap log (each §H item and each brief item: filled / partly filled / still open)
+
+| # | Gap (Part 1 §H or brief) | Status | Detail / what was tried |
+|---|---|---|---|
+| H1 | Legal industry volume series | **Partly filled** | No official series exists. New: CRISIL volume shares (GPI ~19%, VST ~7%) imply ~120–126 bn sticks in FY26 [E]. The FY26 growth of ~7% comes from the VST AR [V]. The FY13–FY18 path is still unsourced: tobaccoboard.com was unreachable and TII has no free statistics page. |
+| H2 | GPI market share | **Filled** | CRISIL ~19% of volume [V]; value ~13% [E, Part 3]. GPI's own AR gives no share figure. |
+| H3 | Illicit share, post-reset measurement | **Partly filled** | 26.1% and ~₹23,000 Cr (GPI AR) [V]; "~1/3 of legal industry" and "4th largest illicit market (Euromonitor)" (ITC AR) [V]; Nomura puts illicit prices at ₹10–15/stick [K]. Still no post-reset measurement. Euromonitor, FICCI-CASCADE and Oxford Economics primary reports are paywalled or not fetched. |
+| H4 | G.S.R. number; corrigendum | **Filled** | G.S.R. 955(E); corrigendum G.S.R. 105(E), 4-Feb-2026 (tariff code only) [K-text]. |
+| H5 | NCCD per-1,000 rates post-Feb-2026; residual BED | **Open** | Budget totals only [V]. The NCCD schedule sits in the Seventh Schedule to the Finance Act 2001 as amended. The CBIC tariff page was not fetched (budget). |
+| H6 | Tobacco Board FY26 export statistics | **Partly filled** | Lok Sabha 28-Jul-2026 decade endpoints [K] (S18). The unmanufactured-only split is not available. tobaccoboard.com did not respond; commerce TradeStat (HS 2401/2402) needs an interactive query and was not attempted. |
+| H7 | Karnataka FCV 2025-26 crop and prices | **Open** | Searched. Only an older-season Board notice turned up (85.12 mn kg; ₹228/kg "last year"); not usable. |
+| H8 | ITC Q1 FY27 excise conflict | **Filled** | 10,035.63 standalone vs 10,408.93 consolidated [V] (S4). |
+| H9 | VST Q1 FY27 result date | **Filled** | 28-Jul-2026 [V]. |
+| H10 | PMITPL financials, ownership, netting mechanism | **Partly filled** | Profit ₹1,141.56 Cr; GPI 24.80% = 49.6 lakh shares; ~₹1,042 Cr total dividend [V/E]; year-end 31-Dec. Still open: PMI's exact stake (the K.K. Modi group's other holding is undisclosed; MCA filings need login or payment), and the mechanics of the ₹4,859 Cr netting. |
+| H11 | Marlboro licence term / expiry | **Open** | AR searched for "licence/supply agreement/royalty/trademark": no term disclosed. AOC-2 says no material RPT contracts. |
+| H12 | BAT revenue | **Filled** | H1-2026 £12,235 mn [V] (S7). |
+| H13 | BAT's ITC stake | **Filled** | 22.90% (30-Jun-2026) [V]; TMI 17.79% [V]. |
+| H14 | GATS-2; GATS-3 | **Partly filled** | GATS-2 numbers confirmed against the MoHFW fact-sheet summary [V-snip]; both PDF mirrors failed. GATS-3: nothing found. |
+| H15 | Quick-commerce rules; nicotine pouches; track-and-trace | **Partly filled** | Lok Sabha reply lists **track-and-trace for evasion-prone commodities**, a **capacity-based central excise levy**, **Rule 31D RSP valuation**, **withdrawal of the IGST-refund route on tobacco exports** and **monthly capacity/production declarations** (all from 1-Feb-2026) [K]. Nicotine pouches: no specific statute (COTPA/PECA/D&C Act grey zone; imports "restricted") [V-snip]. ITC now exports "nicotine & nicotine derivatives" [V]. No central quick-commerce tobacco rule was found. |
+| H16 | Elasticity history FY13–FY18 | **Open** | No primary volume series. ITC R&A 2026 only says stable taxes "enabled the legal cigarette industry to recover volumes lost to illicit trade during the years of high incidence of taxation" [V]. |
+| H17 | 24Seven sale terms | **Open** | Not in AR FY26 (discontinued-operation profit ₹0.70 Cr only). |
+| H18 | "Bina Modi re-elected MD ~87%" date | **Filled (date)** | 6-Sep-2024 AGM special resolution; Glass Lewis against [K] (S11). Vote % not re-fetched. |
+| B1 | Pre-reset tax incidence ~53% (WHO country profile) | **Open** | WHO report PDF not fetched. ITC's WHO-GHO tax-to-GDP table (D9) is a substitute metric [V]. |
+| B2 | Post-reset NCCD / GST 40% notification number | **Partly** | Compensation-cess nil via Notification 03/2025-Compensation Cess (Rate) [K-text]. The CGST-rate notification moving tobacco to 40% was not fetched. RSP valuation = Rule 31D [K]. |
+| B3 | Price hikes post reset | **Filled** | D6 [K]. |
+| B4 | Broker volume estimates | **Partly** | Nomura (Feb) and Emkay (Jul) fetched [K]; "Nomura Q1 −5% vs −10%" not re-verified. |
+| B5 | GPI governance: litigation status | **Partly** | AR: office-possession dispute with Samir Modi; CRISIL: dispute "ongoing… monitorable" [V]. No 2026 court order found (searched). AGM 24-Aug-2026 vote re-verified [V]. |
+| B6 | ₹100 Cr insurance receipt "Q4 FY26" | **Filled / corrected** | Q1 FY27; claim ₹284.36 Cr [V] (S1). |
+| B7 | Global m-caps; smoke-free share | **Partly** | Smoke-free: PMI ~42% YTD [V]; BAT smokeless 19.8% [V]. M-caps not re-fetched. |
+| B8 | GPI earnings call / concall | **N/A** | GPI, ITC and VST hold no analyst calls. Digests use presentations, AR text, AGM filings and rating rationales. |
+| B9 | ITC contingent liabilities / pay | **Filled** | ₹1,008.67 Cr; CMD 338:1 [V]. |
+| B10 | GPI Q2 FY27 board date | **Open** | Not announced on screener's announcement list as of 23-Oct-2026 [V]. |
+
+---
+
+## 4.5 New insights the first pass missed (for the writer)
+
+1. **ITC is bigger, and GPI smaller, by volume than Part 1 assumed.**
+   - CRISIL's ~19% (GPI) and ~7% (VST) volume shares put the legal market at ~120–125 bn sticks and ITC near ~88 bn.
+   - The Q1 FY27 excise split (ITC 75.7 / GPI 19.7 / VST 4.6) corroborates this.
+   - Consequences: ITC's per-stick economics are lower (net ~₹3.1, PBIT ~₹2.4 in FY26) than the V-sib ₹3.9/₹3.0. GPI's "challenger" story is about **value under-capture** (13% of value on ~19% of volume), not a hidden volume lead.
+2. **Profit is concentrating in the price-setter.**
+   - The listed profit pool fell 36% in Q1 FY27. ITC's share rose to ~95%; GPI's segment margin halved to ~12%; VST's OPM fell to 19%.
+   - A specific excise rewards whoever can push price through without losing sticks, and that is ITC with ~73% of volume and a deep slab-engineered portfolio.
+3. **GPI's Marlboro economics sit largely outside GPI's P&L.**
+   - PMITPL earned **₹1,142 Cr** in CY2025, about 75% of GPI's own PAT. GPI books only its 24.8% (₹283 Cr).
+   - The Marlboro channel is also hit: GPI's share of associates' profit fell 56% in Q1 FY27.
+   - PMITPL is a single customer worth 30% of GPI's revenue, with undisclosed contract terms.
+4. **The GST base change matters as much as the excise.** GST moved from 28% of transaction value to **40% of RSP** (CGST Rule 31D). Tax now rises automatically with every retail price increase. That widens the illicit gap at the bottom of the ladder, where illicit sells at ₹10–15/stick against ~₹19 for Kings Slims.
+5. **The state is building an anti-evasion toolkit, not just raising rates.** From 1-Feb-2026 the Lok Sabha reply lists:
+   - a capacity-based excise levy for specified tobacco products;
+   - monthly capacity/production declarations;
+   - withdrawal of the IGST-refund route on tobacco exports;
+   - track-and-trace for evasion-prone goods.
+   The IGST change could hurt exporters' working capital, which is relevant for GPI and VST leaf [E].
+6. **VST is not just a BAT satellite.** R. K. Damani's Bright Star Investments holds **25.95%**, close to BAT's 32.16%. VST also changed auditors (to Price Waterhouse) and CEO in 2026.
+7. **ITC is buying its brand stack from BAT.** It bought ₹404 Cr of brand assets in FY26 (Benson & Hedges, Dunhill, Rothmans of Pall Mall) and launched Rothmans GT/XT in Q1 FY27. Combined with BAT's 2025 sell-down to 22.9%, this points to ITC **owning the international trademarks it uses in India**, which cuts future royalty or ownership friction [E interpretation].
+8. **GPI's governance metrics are now quantifiable.** Pay at 685:1 (Bina Modi) and 1,119:1 (Charu Modi) against a median employee whose pay fell 0.92%. A ₹759 Cr investment in its own promoter company. 27.4% institutional dissent. CRISIL's explicit "monitorable" on the family dispute.
+
+### New primer issues (format for primer-issues.md)
+
+#### From Cigarettes & Tobacco deep research (2026-10-23, cigarettes-industry.md Part 4)
+
+- **godfrey-phillips-india.html — market share (§05):** replace "~13–14%" with "**~19% of legal volume (CRISIL, Jul-2026)**; ~13% of domestic net value [E]". Drop the Part 3 "~23% volume" suggestion.
+- **godfrey-phillips-india.html — insurance (§00/§09 "What's new"):** the ₹100 Cr interim insurance payment was received in **Q1 FY27**, not Q4 FY26. The claim is **₹284.36 Cr** (fire 10-Oct-2025 at a third-party facility in Prakasam, AP), booked as a receivable at Mar-26. Q4 FY26 PAT of ₹521 Cr was not boosted by it.
+- **godfrey-phillips-india.html — IPM/PMITPL (§04):** add PMITPL's CY2025 profit **₹1,141.6 Cr**; GPI's share ₹283 Cr; PMITPL = 30% of GPI's standalone revenue and its only customer above 10%; year-end 31-Dec.
+- **godfrey-phillips-india.html — net cash (§09):** "~₹3,300 Cr investments" includes **₹759 Cr of shares in K K Modi Investment & Financial Services** (a promoter entity). Liquid surplus is ~₹2,383 Cr (CRISIL).
+- **godfrey-phillips-india.html — plants:** Rabale (cigarettes), Guldhar/Ghaziabad (cigarettes, via subsidiary International Tobacco Co), Ongole (reconstituted tobacco).
+- **godfrey-phillips-india.html — governance (§08):** add pay ratios 685:1 / 1,119:1 and median pay −0.92%. Date the MD re-appointment vote to the **6-Sep-2024 AGM** (Glass Lewis against). Samir Modi ceased as director 6-Sep-2024 and still occupies a company office (AR FY26).
+- **godfrey-phillips-india.html — tax section:** cite **Notification 03/2025-CE, G.S.R. 955(E), 31-Dec-2025** (corrigendum G.S.R. 105(E), 4-Feb-2026, code fix only). GST is now **40% on retail sale price** (CGST Rule 31D).
+- **itc.html — tax/GST basis:** "GST valued on retail sale price" is **verified** (ITC R&A 2026; Rule 31D). Keep it.
+- **itc.html — ownership:** BAT **22.90%** (30-Jun-2026; TMI 17.79%), LIC 15.83%, SUUTI 7.78%. Note GQG's Oct-2026 sell-down (3.48% → ~3.16%).
+- **itc.html — brands:** ITC bought Benson & Hedges, Dunhill and Rothmans of Pall Mall assets from BAT-group companies for ~₹404 Cr in FY26; Rothmans GT/XT launched in Q1 FY27.
+- **itc.html — Q1 FY27 excise:** state "₹10,036 Cr standalone (₹10,409 Cr consolidated, incl. Surya Nepal)".
+- **diversified-fmcg.html (sibling) — ITC cigarette volume "~70 bn" (INDICATIVE):** CRISIL shares imply ITC ~85–90 bn. Flag for the next refresh; per-stick figures (₹3.9 net, ₹3.0 PBIT, ₹6.0 excise) would fall to ~₹3.1 / ₹2.4 / ₹4.8.
+
+### 4.6 Part 4 source URLs (fetched this session)
+
+- GPI Q1 FY27 results: https://www.bseindia.com/xml-data/corpfiling/AttachHis/7728d5dd-e11b-489a-a5f8-2953f7d13cb8.pdf ; Q3 FY26 results: https://www.bseindia.com/xml-data/corpfiling/AttachHis/815578c4-1fbb-4140-ae01-bf0ef5b4103e.pdf ; Q1 FY27 presentation, AR FY26 and AGM scrutiniser as listed in §3.5.
+- ITC Q1 FY27 results: https://www.bseindia.com/xml-data/corpfiling/AttachHis/e2847586-ee31-4653-a408-22031738b71f.pdf ; Q3 FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/8e744885-e64c-474a-aaf4-2265e066b443.pdf ; Q1 FY27 presentation: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20b685f4-2aec-4887-bb2a-eaf9fd999da2.pdf ; R&A 2026 / 2024 / 2023: https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf , …/f0d1e906-3c13-4993-ad06-e04ad1d3edf9.pdf , …/139aec7a-7a7c-458f-ac5a-29f6dbe67c93.pdf ; GQG SAST: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4A76F0DB_EACC_426D_9D7C_C907E5CE4065_103659.pdf
+- VST Q1 FY27 results: https://www.bseindia.com/xml-data/corpfiling/AttachHis/c95a7084-1e65-423e-a963-721e4bd85fd1.pdf ; Q3 FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/41b8b293-ccc6-4cf2-bbd5-b0b8bea3b02e.pdf ; AGM proceedings: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e699b6fe-b4aa-467d-b134-d0aece39072a.pdf ; AR FY26 as in §3.5.
+- CRISIL: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/GodfreyPhillipsIndiaLimited_July%2031_%202026_RR_400650.html ; …/VSTIndustriesLimited_May%2014_%202026_RR_394779.html ; …/ITCLimited_April%2024_%202026_RR_394279.html
+- Receipt Budget 2026-27: https://www.indiabudget.gov.in/doc/rec/tr.pdf ; PRS: https://prsindia.org/files/bills_acts/bills_parliament/2025/Summary_Central_Excise_(A)_Bill_2025.pdf
+- Notifications (full text): https://taxguru.in/?p=1014507 (03/2025-CE + corrigendum) ; https://taxguru.in/?p=1014478 (03/2025-CE (N.T.)) ; https://taxguru.in/?p=1014470 (03/2025-Compensation Cess (Rate))
+- Lok Sabha reply (IANS): https://news.webindia123.com/news/Articles/Business/20260728/4480147.html ; https://www.socialnews.xyz/2026/07/28/no-data-to-show-higher-taxes-on-tobacco-products-has-hit-growers-govt/
+- AP FCV: https://newsonair.gov.in/tobacco-market-situation-improving-in-andhra-pradesh-agri-minister-atchannaidu/ ; https://telanganatoday.com/andhra-pradesh-plans-to-cap-fcv-tobacco-production-amid-surplus-crop-crisis
+- Pricing/brokers: https://www.businesstoday.in/india/story/itc-cigarette-prices-revised-again-classic-connect-gold-flake-super-star-get-costlier-555862-2026-09-16 ; https://www.businesstoday.in/amp/markets/stocks/story/itc-shares-cigarette-price-hike-at-30-volume-fall-may-not-be-sharp-says-nomura-515330-2026-02-10 ; https://www.businesstoday.in/amp/markets/stocks/story/itc-share-price-target-cigarette-volumes-seen-falling-by-high-single-digits-buy-hold-or-sell-540693-2026-07-03
+- Governance: https://www.outlookbusiness.com/corporate/glass-lewis-recommends-against-reappointment-of-bina-modi-as-md-of-godfrey-phillips
+- Globals: PMI https://www.sec.gov/Archives/edgar/data/0001413329/000162828026066596/earningsreleasepm-ex991xq3.htm ; BAT https://www.bat.com/content/dam/batcom/global/main-nav/investors-and-reporting/results-centre/pdf/HY_2026_Annoucement.pdf ; Altria https://s204.q4cdn.com/505541855/files/doc_downloads/2026/Altria-Q2-2026-Earnings-Release.pdf ; Imperial https://data.fca.org.uk/artefacts/NSM/RNS/f78fb72f-5e4d-4963-9a60-7191af9723d2.html
+- Scratch notes and extracted texts: `/tmp/claude-0/-home-user-nse750-primers/b2aff20a-8812-58aa-976e-a1638039c780/scratchpad/cigarettes-deep/` (`notes.md`, `txt/`, `pdfs/`).
+
+*End of Part 4.*
+
+---
+
+# ORCHESTRATOR AGGREGATE RE-CHECK (23-Oct-2026; Part 4 Supersedes applied)
+
+Re-added from the §3.1 Basis A company rows (₹ Cr, cigarette business, FY26 vs FY25, net of excise, segment EBIT). Part 4 changes no net revenue or EBIT input; S5 changes only the volume estimate for ITC.
+
+| Group | Net rev FY26 | Net rev FY25 | EBIT FY26 | EBIT FY25 | EBIT/net FY26 | Check |
+|---|---|---|---|---|---|---|
+| Listed cigarette makers (ITC-cig + GPI + VST) | 27,443 + 6,278 + 1,465 = **35,186** | 27,718 + 5,533 + 1,398 = **34,649** (dossier showed 34,650, rounding) | 21,051 + 1,475 + 349 = **22,875** | 20,025 + 1,055 + 235 = **21,315** | 22,875 ÷ 35,186 = **65.0%** (FY25 61.5%) | ✓ |
+| Ex-ITC (GPI + VST) | **7,743** | **6,931** | **1,824** | **1,290** | **23.6%** | ✓. Do NOT label the row "pair". |
+
+- Domestic-only net revenue, GPI: 6,278 − 2,014 international = **4,264** (dossier showed 4,266; the "others ₹111 Cr" is already outside the standalone cigarette segment). Domestic trio = 27,443 + 4,264 + 1,164 = **32,871** → value shares **ITC 83.5% / GPI 13.0% / VST 3.5%** (unchanged).
+- Volume (S5 applied): ITC ~88 bn [E, CRISIL-implied range 85–90] + GPI 24.01 + VST 8.36 = **~120 bn** → **ITC ~73% / GPI ~20% / VST ~7%**. Quote CRISIL's GPI ~19% / VST ~7% as INDICATIVE; per-stick ITC figures: net ~₹3.1, PBIT ~₹2.4 (21,051 ÷ 88 bn) — INDICATIVE.
+- Q1 FY27 mixed-basis profit pool: 3,341 + 181 + 50 = **3,572** vs 5,145 + 338 + 77 = **5,560** → **−35.8%** (dossier −35.7%, rounding); ITC share 3,341 ÷ 3,572 = **93.5%** (Q1 FY26 92.5%). Part 4's "~95%" overstates — use 93.5%. Label mixed basis (ITC segment PBIT; GPI, VST company OP).
+- Company-level ex-ITC (GPI consolidated + VST standalone, screener): FY26 net rev 6,391 + 1,465 = 7,856 ✓; PAT 1,526 + 292 = 1,818 ✓ (VST FY26 PAT 292, §2.3 row).
