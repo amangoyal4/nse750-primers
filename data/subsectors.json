@@ -1549,6 +1549,23 @@
         "Gas vs LPG, power and biogas"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Road Assets",
+      "slug": "road-assets",
+      "file": "road-assets.html",
+      "sector": "Infrastructure",
+      "subsector": "Road Assets-Toll, Annuity, Hybrid-Annuity",
+      "companies": 1,
+      "accent": "#066B41",
+      "hook": "The toll compounds, the builders starve: how toll, TOT, hybrid-annuity and InvIT contracts turn traffic into cash, why India's toll pool doubled to ₹70,278 crore while road awards collapsed, and how IRB's build-and-sell-to-its-own-trusts machine compares with builders, trusts and global toll majors.",
+      "tags": [
+        "IRB's two-trust machine",
+        "TOT economics",
+        "The 2030 Mumbai–Pune cliff",
+        "Builders in a drought"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -2114,7 +2131,7 @@
       "sector": "Infrastructure",
       "sub": "Road Assets-Toll, Annuity, Hybrid-Annuity",
       "companies": 1,
-      "report": null
+      "report": "road-assets.html"
     },
     {
       "sector": "Insurance",
