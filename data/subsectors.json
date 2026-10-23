@@ -1430,6 +1430,23 @@
         "The ₹9 lakh crore grid plan"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Tractors",
+      "slug": "tractors",
+      "file": "tractors.html",
+      "sector": "Automobile & Ancillaries",
+      "subsector": "Tractors",
+      "companies": 1,
+      "accent": "#B30909",
+      "hook": "The million-tractor peak and the turn: how monsoon rain, MSP and tractor finance become orders, why a GST cut and the TREM emission rule pulled demand into a record FY26, how M&M and five challengers split 11.6 lakh tractors, and what Kubota's control means for Escorts Kubota.",
+      "tags": [
+        "The million-tractor year",
+        "GST, TREM and tractor prices",
+        "Japan Inc. in Indian tractors",
+        "The export race"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1497,7 +1514,7 @@
       "sector": "Automobile & Ancillaries",
       "sub": "Tractors",
       "companies": 1,
-      "report": null
+      "report": "tractors.html"
     },
     {
       "sector": "Aviation",
