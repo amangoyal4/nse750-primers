@@ -1566,6 +1566,23 @@
         "Builders in a drought"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Computer Hardware & AI Servers",
+      "slug": "computer-hardware",
+      "file": "computer-hardware.html",
+      "sector": "IT",
+      "subsector": "Computers Hardware & Equipments",
+      "companies": 1,
+      "accent": "#2D6476",
+      "hook": "Sovereign compute, imported silicon: how India's AI-server boom works when the GPUs come from NVIDIA. IndiaAI tenders and the government order book, why GPU pass-through compresses gross margin, why working capital is the business, and what Netweb's numbers reveal.",
+      "tags": [
+        "Sovereign-AI order book",
+        "Pass-through economics",
+        "Working capital is the business",
+        "IndiaAI and the GPU boom"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -2209,7 +2226,7 @@
       "sector": "IT",
       "sub": "Computers Hardware & Equipments",
       "companies": 1,
-      "report": null
+      "report": "computer-hardware.html"
     },
     {
       "sector": "Logistics",
