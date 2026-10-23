@@ -1413,6 +1413,23 @@
         "Who mines India's coal next"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Power Transmission",
+      "slug": "power-transmission",
+      "file": "power-transmission.html",
+      "sector": "Power",
+      "subsector": "Power - Transmission",
+      "companies": 2,
+      "accent": "#8F1414",
+      "hook": "A ₹9 lakh crore plan waiting on transformers: how grid owners earn (regulated cost-plus vs 35-year auctioned tolls), why lines lag the plan, what Power Grid’s capex surge and Adani Energy Solutions’ meters, Mumbai licence and trading arm are worth, and the rate squeeze on bond-like utilities.",
+      "tags": [
+        "RTM vs TBCB bid economics",
+        "Smart meters and RDSS",
+        "AESL Energy Solutions Platform",
+        "The ₹9 lakh crore grid plan"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -2170,7 +2187,7 @@
       "sector": "Power",
       "sub": "Power - Transmission",
       "companies": 2,
-      "report": null
+      "report": "power-transmission.html"
     },
     {
       "sector": "Power",
