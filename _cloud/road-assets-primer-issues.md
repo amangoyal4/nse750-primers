@@ -57,3 +57,9 @@ These add to §3.4; the source rows are cited.
 
 
 
+
+## From primer-audit.mjs (2026-10-23, road-assets orchestrator)
+
+- **irb-infrastructure.html — hard-check FAIL (banned phrases):** line ~290 "Think of IRB as…" and line ~608 part-sub "The honest counterweight…". Pre-existing; not fixed here.
+- **irb-infrastructure.html — no `main{min-width:0}` grid fix** (phone overflow risk). Pre-existing; not fixed here.
+- Primer stats: 69 KB, 5,593 words, 14 bars, 10 callouts, 12 sections, 0 report links, refreshed 2026-06-30.
