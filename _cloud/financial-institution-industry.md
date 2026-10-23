@@ -913,3 +913,510 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
 - **SIDBI FY26 standalone results:** https://www.sidbi.in//uploads/financialreport/Financial_result_31.03.2026_Eng_standalone_publication.pdf
 - **Press (V-snip):** EXIM FY26 https://www.outlookbusiness.com/corporate/exim-bank-fy26-net-profit-jumps-32-pc-to-4273-cr · NABARD Q1 FY27 https://askfuzz.ai/discover/news/banking/nabard-q1-profit-drops-0-34-to-2-170-crore · PFC–REC merger https://www.sahi.com/news/pfc-board-to-review-rec-merger-june-28-targeting-10-81-l-cr-aum-giant-2815-PE1_COR · NSE IPO https://www.kotakneo.com/ipo/nse-ipo/ · IDBI sale process https://telanganatoday.com/govt-evaluating-financial-bids-for-idbi-bank-strategic-sale-sources and https://hdfcsky.com/news/idbi-bank-stake-sale-revised-bids-fairfax-emirates-nbd · IFCI ₹100 https://www.businesstoday.in/amp/markets/stocks/story/ifci-shares-cross-rs-100-mark-after-19-years-heres-why-553141-2026-09-03 · GoI ₹500 Cr infusion (Jan-2025) https://www.business-standard.com/amp/industry/news/govt-approves-rs-500-cr-infusion-in-ifci-via-issue-of-preferential-shares-125012401377_1.html · ECL https://kpmg.com/in/en/insights/2026/05/expected-credit-loss.html · Budget PFC/REC https://www.outlookmoney.com/news/budget-2026-finance-minister-announces-restructuring-of-pfc-rec
 - Scratch notes: /tmp/financial-institution-dossier/notes.md
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-23)
+
+Second, primary-source pass on Parts 1–3. Compiled 23-Oct-2026 (afternoon IST). Scratch notes: `/tmp/financial-institution-deep/notes.md`; downloaded documents in `/tmp/financial-institution-deep/dl/`.
+
+**What changed in this pass (headline)**
+1. **SHCIL's NSE position is now exact, not estimated.** NSE's abridged prospectus (on SEBI's website, RHP dated 10-Sep-2026) shows StockHolding held **11,00,00,000 NSE shares (4.44%)** at a weighted average cost of **₹0.46/share**, and offered **up to 61,87,500 shares** in the IPO. That is 47 lakh fewer than the ~1,08,87,500 in the draft. With the issue 5.7× subscribed, SHCIL's residual stake is **10,38,12,500 shares (4.19% of NSE)**. Gross OFS proceeds were **₹1,104.5 Cr** (at ₹1,785) [V].
+2. **SHCIL carried NSE at ₹13,944.26 Cr at Mar-25 (₹1,267.7/share)**, valued on six-month resident-to-resident trades (Level 2, a key audit matter). IFCI's consolidated Level-3 roll-forward implies the value was roughly flat at Mar-26 (~₹1,266/share) [V SHCIL AR FY25; E for Mar-26]. At ₹1,670 the listing adds ~₹4,100 Cr pre-tax of unrecognised value at SHCIL level, of which ~₹2,200 Cr is attributable to IFCI [E].
+3. **IFCI's real debt wall is FY31, not FY27.** From the FY26 annual report's instrument-wise schedule [V AR], principal due by fiscal year is: **FY27 ₹768 Cr** (₹469 Cr already repaid on 1-Aug-2026), FY28 ₹132 Cr, FY29 ₹495 Cr, FY30 nil, **FY31 ₹1,500 Cr** (five private placements at 9.70–9.98%, due May–Oct 2030), and a ₹624 Cr tail of zero-coupon and other bonds out to 2040. The weighted average contractual coupon is **9.91%**. The "~11.4% cost of funds" in Part 1 is the accounting finance cost ÷ average principal, which includes accruals; it is not the coupon.
+4. **The IDBI deal is confirmed from the PIB release itself** (attached to IDBI's 14-Oct-2026 exchange filing). The buyer is 10955230 Canada Inc. (Fairfax), paying **₹52,878.08 Cr for 60.72%** (GoI 30.48% + LIC 30.24%). The **bid was ₹81/share against a ₹75.99 benchmark fair value**. The FY26 round had failed against a ₹94.42 reserve. After the sale **GoI keeps 15% and LIC 19%** [V].
+5. **The PFC–REC swap ratio is 88 PFC shares for every 100 REC shares** (REC board outcome, 28-Jun-2026) [V]. PFC is **targeting 1-Apr-2027** for the merged entity (FY26 analyst-meet transcript) [V]. PFC's consolidated loan book was **~₹11.64 lakh Cr** at Mar-26 [V].
+6. **NaBFID's FY26 ratios are now from its own results, not chart readings**: NIM 3.72%, ROA 3.34%, ROE 11.50%, net cost of borrowings 6.63%, balance sheet ₹1,44,472 Cr [V]. **Q1 FY27 NIM fell to 2.75% and ROA to 2.21%** as the book doubled and cost of borrowings rose to 6.56% [V]. This is a new insight.
+7. **ECL: the 1-Apr-2027 date applies to commercial banks only.** AIFIs (EXIM, NABARD, NHB, SIDBI, NaBFID) follow a separate set of RBI AIFI Directions, 2025 dated **28-Nov-2025**: income recognition/asset classification/provisioning (updated to 1-Oct-2026), capital adequacy, transfer of credit risk, and financial-statement disclosures. No AIFI ECL direction was found [V RBI page; V NaBFID filing; V-snip].
+8. **Both IFCI PCR figures are right; they use different bases** (arithmetic from AR notes). 73.16% (AR) = Ind AS Stage-3 ECL ₹2,997.83 Cr ÷ gross Stage 3 ₹4,097.39 Cr. 71.93% (CARE) = total ECL ₹2,998.81 Cr ÷ gross loans ₹4,168.99 Cr. On the RBI basis, NPA provisions ₹3,016.21 Cr ÷ GNPA ₹3,589.98 Cr = **84.0%** [E from V].
+
+## 4.0 Supersedes (corrections to Parts 1–3 for the writer to apply)
+
+| # | Where in Parts 1–3 | Old figure / statement | Corrected value | Source (fetched this session unless noted) |
+|---|---|---|---|---|
+| S1 | "Still listed?" #2; §2.1.7; §B1; §3.3 | SHCIL held "~10.99 crore NSE shares" [E] | **11,00,00,000 shares = 4.44% of 2,47,50,00,000** (WACA ₹0.46/share) | NSE abridged prospectus, SEBI site [V]; SHCIL AR FY25 investments note [V] |
+| S2 | §H-1; §B1; §12-2; §2.10 | SHCIL OFS quantity "unknown; one snippet >1.09 crore" | **Up to 61,87,500 shares offered** in the RHP, cut by 47 lakh from the DRHP's ~1,08,87,500. Issue 5.7× subscribed, so treat as fully sold. **Residual 10,38,12,500 shares (4.19%)**; gross proceeds ₹1,104.5 Cr at ₹1,785 | NSE abridged prospectus [V]; DRHP quantity [V-snip angelone] |
+| S3 | "Still listed?" #2 | OFS "~₹22,562 Cr at the top of the band" | **12,64,36,650 shares × ₹1,785 = ₹22,568.9 Cr** (₹22,562 Cr is the figure quoted by some brokers) | NSE abridged prospectus [V]; arithmetic |
+| S4 | §B1 table | NSE look-through for IFCI "₹8,700–9,700 Cr pre-tax" | **₹9,748 Cr pre-tax** = 52.86% × (10.38 cr × ₹1,670 + ₹1,104.5 Cr OFS cash). **~₹8,330 Cr after ~14.6% capital-gains tax** on gain over ₹0.46 cost [E]. Each ₹100 on NSE = **₹549 Cr** pre-tax for IFCI (not ₹520–580) | S1–S2 + screener NSE price 23-Oct |
+| S5 | §B1 "cross-check"; §H-2 | SHCIL's NSE carrying value "~₹1,200–1,300/share [E]" | **₹13,944.26 Cr = ₹1,267.7/share at Mar-25** (Level 2, six-month trade VWAP). Mar-26 ≈ unchanged (~₹13.9k Cr; IFCI consolidated Level-3 balance moved only ₹14,901.91 → ₹14,882.85 Cr) | SHCIL AR FY25 [V]; IFCI AR FY26 note 58F [V]; Mar-26 split [E] |
+| S6 | Trap 7; §B1 | NSE dividend to SHCIL "~₹385–390 Cr [E]" | **~₹385 Cr confirmed by arithmetic.** IFCI consolidated dividends ₹389.94 Cr − third-party dividends of the parent ≈ ₹4.6 Cr (standalone ₹186.00 − SHCIL ₹166.62 − IIDL ₹14.52 − MPCON ₹0.24) = ₹385.3 Cr = ₹35 × 11.00 cr shares. NSE's FY26 financing outflow (₹8,809 Cr) fits a ₹35 dividend on 247.5 cr shares | IFCI AR related-party note [V]; NSE AP cash flow [V]; ₹35/share [K] |
+| S7 | §4.1; §9.1; §F | IFCI cost of funds "~11.4%" | **Contractual weighted coupon 9.91%** on ₹3,591.6 Cr (9.79% after the 1-Aug-2026 Tier II redemption). Accounting finance cost ÷ average principal = 11.3% (includes accrual/EIR effects). Use "~10% coupon; ~11% accounting cost" | AR notes 17–18 bond schedule [V]; arithmetic |
+| S8 | §9.3; §12-5; §H-13 | "FY28 schedule not disclosed" | **Principal by FY: FY27 768.1 · FY28 131.6 · FY29 495.0 · FY30 0 · FY31 1,500.0 · FY32 63.6 · FY33 164.8 · FY34–FY41 468.5** (incl. ₹106.88 Cr Nov-37 bonds and ₹50 Cr Tier II Sep-37) = ₹3,591.6 Cr | AR FY26 notes 17–18 and ALM note xxxiv [V] |
+| S9 | §9.1; §2.1.5; §H-17 | PCR "71.93% (CARE) vs 73.16% (AR) — different definitions" | Resolved: **AR 73.16% = Stage-3 ECL ÷ gross Stage 3 (2,997.83 ÷ 4,097.39); CARE 71.93% = total ECL ÷ gross loans (2,998.81 ÷ 4,168.99); RBI-basis NPA provisions ÷ GNPA = 84.0%** | AR notes [V]; CARE [V]; arithmetic |
+| S10 | §H-18; §2.10 | ICRA managed assets ₹7,312 Cr (Jun-26) vs ₹10,064 Cr "unexplained" | **Most likely a basis change, not a collapse.** Mar-26 standalone liabilities include **₹2,856.77 Cr of PLI scheme funds and ₹401.87 Cr of the SC credit-guarantee fund** placed by GoI (other financial liabilities, note 19); ₹10,064 − ₹2,857 ≈ ₹7,207 Cr. ICRA's Jun-26 ROMA (0.47% annualised on ₹8.6 Cr) implies ~₹7.3k Cr average | AR note 19 [V]; ICRA table [V]; interpretation [E] |
+| S11 | "Still listed?" #3; §2.2; §B5 | IDBI implied "≈₹81 per share [E]"; GoI 45.48%/LIC 49.24% split [K] | **Bid ₹81/share [V]**; benchmark fair value ₹75.99 (average of two valuers); FY26 reserve ₹94.42 (bids failed); residual **GoI 15%, LIC 19%** (so pre-deal 45.48%/49.24% now [V by arithmetic]). Two qualified bidders; RBI fit-and-proper pending | PIB release 14-Oct-2026 in IDBI BSE filing [V] |
+| S12 | "Still listed?" #4; §3.1 | PFC–REC "indicative ~8 PFC per 9 REC (88:100)" | **88 PFC shares (FV ₹10) for every 100 REC shares**. Valuers: EY Merchant Banking + RBSA; fairness opinion: Nuvama. RPT approval not needed (PSU–PSU). PFC targets the merged entity from **1-Apr-2027** | REC BoD outcome 28-Jun-2026 [V]; PFC transcript 13-May-2026 [V] |
+| S13 | "Still listed?" #4; §5.1; §2.0 | Combined PFC+REC AUM "~₹10.81 lakh Cr [V-snip]" | **PFC consolidated loan book ~₹11.64 lakh Cr (Mar-26)** [V]; ~₹11.60 lakh Cr (Jun-26) [V-snip]. ₹10.81 lakh Cr was an older (Dec-25-type) press figure | PFC FY26 transcript [V] |
+| S14 | §2.0 basis note; §2.10; §H-8 | PFC consolidated net worth ₹1,32,861 Cr "may or may not include NCI" | **Screener figure is attributable equity. PFC consolidated net worth incl. NCI = ₹1,73,441 Cr; PFC standalone ₹1,02,532 Cr; REC standalone ₹84,290 Cr / consolidated ₹85,054 Cr** (FY26) | REC BoD outcome Annexure-1 [V] |
+| S15 | §2.7 PFC; E12 | PFC "GNPA 0.66% / NNPA 0.13% (Jun-26)" | 0.66%/0.13% are screener (consolidated) figures. **PFC standalone gross credit-impaired 1.09%, net 0.15% (Mar-26); Stage-3 book ₹6,323 Cr in 19 projects; coverage ~86%.** State the basis | PFC transcript [V] |
+| S16 | §2.6; §1.2; §2.1 | EXIM "net loans ~₹2.07 lakh Cr; GNPA 0.57% (1.14%)" | **Net loans ₹2,07,779 Cr (₹1,85,739 Cr, +11.87%); GNPA 0.57% from 1.71% (−114 bp); NNPA 0.01%; CRAR 26.39% (25.29%); PCR 99.85%; borrowings ₹2,05,306 Cr; total business ₹4,50,804 Cr.** "1.14%" was the bp change misread as the prior level | EXIM FY26 release (PR-agency copy, board 8-May-2026) [V-near-primary] |
+| S17 | §2.1; §2.0; §3.1; B3 | NaBFID total assets "~₹1,40,000 [E]"; borrowings ₹1,05,186 [V-chart]; NIM ~3.7, ROA ~3.3, ROE ~11.5 [V-chart] | **Total assets ₹1,44,472 Cr; borrowings ₹48,744 Cr + debt securities ₹56,442 Cr = ₹1,05,186 Cr; NIM 3.72%, ROA 3.34%, ROE 11.50%, cost of borrowings (net) 6.63%, yield on advances 8.49%, cost-to-income 8.34% (FY26)** | NaBFID press release 6-May-2026 [V]; Q1 FY27 results [V] |
+| S18 | §7.1; §12-10; §H-10/11 | "ECL final directions effective 1-Apr-2027 … whether the final text covers AIFIs is not confirmed" | **The 1-Apr-2027 ECL date is in the Commercial Banks directions (excl. SFBs, PBs, LABs).** AIFIs are under **RBI (AIFIs – Income Recognition, Asset Classification and Provisioning) Directions, 2025 (updated 1-Oct-2026)**, **RBI (AIFIs – Prudential Norms on Capital Adequacy) Directions, 2025 dated 28-Nov-2025**, and the AIFI Transfer of Credit Risk and Financial Statements directions (same date). No AIFI ECL direction was found as of 23-Oct-2026 | RBI master-direction page [V]; NaBFID Q1 FY27 notes 9, 10, 14 [V]; azbpartners/mondaq [V-snip] |
+| S19 | §3.3; §3.4 e-stamping bullet | e-stamping "24 states/UTs; ~0.5 m transactions a day — not re-verified" | **25 States/UTs (Mar-25); 18.09 crore e-stamp certificates in FY25 (15.66 crore FY24) ≈ 4.96 lakh/day**; e-court fees in 16 States/UTs; AUC ₹69.27 lakh Cr. The primer's "half a million a day" holds; "24" should be **25** | SHCIL AR FY25 [V] |
+| S20 | §12-1; §H-15 | SHCIL's other 47.14% "PSU banks/insurers [K]" | **8 promoter shareholders hold 99.74%**: "Government companies" 84.78% (IFCI 52.86% + ~31.92% others) and insurance companies 14.96%. Public 0.26% (192 holders). The company names LIC, GIC, SU-UTI, New India, National, United India and Oriental as shareholders. **No bank among the promoters** | SHCIL MGT-7 FY25 (scanned, pages read) [V]; SHCIL website [V] |
+| S21 | §2.7 HUDCO | "Q4 FY26 PAT ₹1,981 Cr looks one-off-boosted — verify" | Screener shows **Q4 FY26 PBT ₹621 Cr vs PAT ₹1,981 Cr**: a tax credit of ~₹1,360 Cr. FY26 PBT ₹3,221 Cr < PAT ₹4,034 Cr. HUDCO's "+48.9% PAT" is a tax effect; **PBT fell 11%** (₹3,637 → ₹3,221 Cr) | screener HUDCO (23-Oct fetch) [V]; nature of credit [E] |
+| S22 | §G 24-Sep-2026; §2.7 NSE | NSE "listed 24-Sep-2026" (listing price not given) | **Listed at ₹1,809.10 on BSE (+1.35% over ₹1,785)**; 5.69–5.71× (QIB 12.68×, NII 6.54×, retail 1.36×); anchor ₹6,746 Cr; allotment 22-Sep | theweek / analyticsinsight [V-snip] |
+| S23 | §12-4; §2.1.4 | IFCI Q1 FY27 "board date not captured (mid-Aug)" | **Board met 11-Aug-2026**: standalone PAT ₹8.64 Cr; consolidated PAT ₹60.64 Cr; CRAR −17.58% | multibagg / investywise / trendlyne [V-snip, consistent] |
+| S24 | §B4; §2.1.8 | IFCI "advisory franchise … fees ₹79 Cr" (cash it holds not mentioned) | IFCI also holds **₹2,856.77 Cr of PLI funds (₹2,143.90 Cr Mar-25) and ₹401.87 Cr of SC credit-guarantee funds** placed by GoI, as liabilities. Auditors note that **PLI and SDF case files are not shared with them** on ministry instructions | AR note 19; EoM paras [V] |
+| S25 | §B2; §H-12 | "IFCI is a respondent in an NCLT matter with 91 others — content not read" | **SFIO (Union of India) petition before NCLT New Delhi against IFCI and 91 other respondents** under ss. 221/222/224(5)/241/242/246; notice served; **no interim orders**. **No IBC proceedings against IFCI** in FY26. Separately, IFCI's associate Shiga Energy (28.43%, held for sale) is a ₹522 Cr stressed PFC loan "awaiting co-lender approval" | AR Board's report para 21(g),(m) [V]; PFC transcript [V] |
+| S26 | §2.5; §2.1 | NABARD "Q1 FY27 PAT ₹2,170.12 Cr" | **Unresolved:** one search summary of NABARD's own June-2025 results PDF ties ₹2,177.57 Cr to the June-2025 quarter. That is consistent with ₹2,170.12 Cr being Q1 FY27, but a mislabel cannot be excluded. NABARD FY25 standalone PAT ₹7,628.33 Cr; capital ₹17,080 Cr; reserves ₹60,985.96 Cr (NW ~₹78,066 Cr) [V-snip of primary] | nabard.org unreachable (4 tries); search summaries |
+| S27 | §4.1 IRFC | IRFC cost of borrowing "~7.3–7.5% [K]" | **Still not primary.** IRFC's site timed out/503. Press: Q2 FY27 NIM 1.50% annualised; AUM ₹4,79,282 Cr (Jun-26) [V-snip]. Keep 4.7% (screener) out of print; present IRFC as "pass-through lease margin ~1.5% NIM" | kotakneo / multibagg [V-snip] |
+| S28 | "Still listed?" #2; §G | IFCI "above ₹100 on ~3-Sep-2026" [V-snip] | Unchanged (screener 52-week high ₹108 [V]); daily chart not re-fetched | — |
+
+## 4.1 Verification table — the 40 figures the writer is most likely to use
+
+**How to read the tags.** "V-primary" means a company, regulator, government or rating-agency document that was fetched and read on 23-Oct-2026. Where the document was downloaded earlier the same day by the first-pass agent (IFCI AR FY26, CARE 17-Aug-2026, ICRA 14-Sep-2026, SIDBI results) and re-read from the saved copy in this pass, the row says "(re-read)". Screener rows are aggregator data, not primary. **Count: 33 of 40 are V-primary.** The 7 that are not: rows 5, 12, 18, 19, 32, 36 and 37.
+
+| # | Figure | Value | Primary source (URL) | Tag | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | SHCIL's NSE holding pre-IPO | 11,00,00,000 shares = 4.44%; WACA ₹0.46 | NSE abridged prospectus (RHP 10-Sep-2026), SEBI: https://www.sebi.gov.in/sebi_data/commondocs/sep-2026/NATIONAL%20STOCK%20EXCHANGE%20OF%20INDIA%20LIMITED%20-%20AP_p.pdf | V-primary | % yes; count was E (~10.99 cr) → S1 |
+| 2 | SHCIL shares offered in NSE OFS | up to 61,87,500 (0.25% of NSE); residual 10,38,12,500 (4.19%) | same as #1 | V-primary | **No** (was unknown/">1.09 cr") → S2 |
+| 3 | NSE OFS size | 12,64,36,650 shares; ₹22,568.9 Cr at ₹1,785 | same as #1 (shares) + arithmetic | V-primary | ~ (₹22,562 Cr quoted) → S3 |
+| 4 | NSE financials | FY26 PAT ₹10,302 Cr (FY25 ₹12,188 Cr); Q1 FY27 ₹3,120 Cr; net worth ₹31,870 Cr (Mar-26); no borrowings; EPS ₹41.62 | same as #1 (restated consolidated) | V-primary | Yes (screener matched) |
+| 5 | NSE IPO pricing/listing | ₹1,785 (top of ₹1,700–1,785); 5.69–5.71×; listed 24-Sep-2026 at ₹1,809.10 | theweek.in 21-Sep-2026; analyticsinsight (listing) | V-snip (press) | Yes; adds listing price |
+| 6 | SHCIL carrying value of NSE | ₹13,944.26 Cr at Mar-25 (₹1,267.7/share); ₹6,867.23 Cr at Mar-24 (pre-bonus 2.2 cr shares) | SHCIL AR FY2024-25: https://corporate.stockholding.com/assets/frontend/pdf/Stock_Holding_Annual_Report_2024-25_Web_Upload_file.pdf | V-primary | Was E (~₹1,200–1,300) → S5 |
+| 7 | SHCIL standalone FY25 | Total income ₹915 Cr (FY24 ₹788 Cr); PAT ₹357 Cr (₹264 Cr); net worth ₹13,305 Cr; EPS ₹170; dividend 932% | same as #6 | V-primary | New (primary had FY24 788/264 — confirmed) |
+| 8 | SHCIL ownership | 8 promoters 99.74% (govt companies 84.78% incl. IFCI 52.86%; insurers 14.96%); public 0.26% | SHCIL MGT-7 FY25 (scanned; pp. 9–11 read): https://corporate.stockholding.com/assets/frontend/pdf/Annual-Return-of-FY-2024-25.pdf | V-primary | Was K → S20 |
+| 9 | e-stamping footprint | 25 States/UTs; 18.09 crore certificates FY25 (≈4.96 lakh/day); AUC ₹69.27 lakh Cr | same as #6 | V-primary | Primer "24" → 25 (S19) |
+| 10 | IFCI standalone debt | Principal ₹3,591.56 Cr (debt securities ₹2,846.89 + Tier II ₹744.67) + accrued ₹593.84 Cr = ₹4,185 Cr (Mar-26) | IFCI AR FY26 notes 17–19 (re-read): https://www.bseindia.com/xml-data/corpfiling/AttachHis/6c3dc26c-f5fd-495d-b4d6-a4e1ec59ffe1.pdf | V-primary | Yes |
+| 11 | IFCI maturity profile | FY27 ₹768 Cr; FY28 ₹132 Cr; FY29 ₹495 Cr; FY30 nil; **FY31 ₹1,500 Cr**; FY32+ ₹697 Cr | same as #10 (bond schedule; ALM note xxxiv) | V-primary | **New** (was "not disclosed") → S8 |
+| 12 | IFCI cost of debt | Weighted contractual coupon 9.91% (9.79% post-Aug-26); accounting cost 11.3% | #10 + arithmetic | E from V | Refines "~11.4%" → S7 |
+| 13 | IFCI GNPA | 95.79% (Mar-26, ₹3,589.98 Cr); 95.68% (Jun-26) | AR (re-read); CARE 17-Aug-2026 (re-read): https://www.careratings.com/upload/CompanyFiles/PR/202608140846_IFCI_Limited.pdf | V-primary | Yes |
+| 14 | IFCI CRAR | −18.78% (Mar-26); −17.58% (Jun-26); negative since Dec-2020 | AR EoM (re-read); ICRA 14-Sep-2026 (re-read): https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/145556 | V-primary | Yes |
+| 15 | IFCI FY26 PAT | Standalone ₹51.71 Cr; consolidated ₹434.71 Cr (owners ₹180.87 Cr, NCI ₹253.84 Cr) | AR (re-read) | V-primary | Yes |
+| 16 | IFCI scheme funds held | PLI ₹2,856.77 Cr (₹2,143.90 Cr); SC credit-guarantee ₹401.87 Cr | AR note 19 (re-read) | V-primary | **New** (S10, S24) |
+| 17 | SHCIL dividend to IFCI | ₹166.62 Cr FY26 (₹94.94 Cr FY25); IIDL ₹14.52 Cr; MPCON ₹0.24 Cr | AR related-party note (re-read) | V-primary | New; underpins S6 |
+| 18 | IFCI PCR bases | 73.16% (Stage-3 ECL/Stage 3); 71.93% (total ECL/gross loans); 84.0% (RBI NPA provisions/GNPA) | AR + CARE + arithmetic | E from V | Resolves conflict → S9 |
+| 19 | IFCI Q1 FY27 board date | 11-Aug-2026; Q2 FY27 date not announced (23-Oct) | multibagg, investywise, trendlyne; screener announcement list | V-snip | New → S23 |
+| 20 | GoI FY25 infusion | Board 29-Jan-2025: up to ₹500 Cr, 8,07,23,280 shares to GoI (≈₹61.94/share); EGM 28-Feb-2025 | IFCI NSE filing: https://nsearchives.nseindia.com/corporate/IFCI_29012025123109_STX_OUTCOME.pdf | V-primary | Yes (was V-snip) |
+| 21 | GoI capital FY20–FY25 | ₹2,000 Cr total; nil FY26; none earmarked FY27; GoI 56.42% (Mar-20) → 72.57% | ICRA (re-read) | V-primary | Yes |
+| 22 | IFCI contingent liabilities | Standalone ₹227.54 Cr (claims ₹129.53, income tax ₹90.97); consolidated ₹460.22 Cr | AR note 33.1 / 37 (re-read) | V-primary | New |
+| 23 | SFIO petition | NCLT New Delhi, Union of India (SFIO) v. IFCI + 91 others; no interim orders; no IBC case against IFCI | AR Board's report 21(g),(m) (re-read) | V-primary | New → S25 |
+| 24 | IDBI sale | ₹52,878.0806181 Cr for 60.72% (GoI 30.48% + LIC 30.24%); buyer 10955230 Canada Inc. (Fairfax); CCEA 14-Oct-2026 | PIB release in IDBI BSE filing: https://www.bseindia.com/xml-data/corpfiling/AttachLive/d1434487-8320-42bf-8f92-67e9d2651856.pdf | V-primary | Yes (was V-ann/V-snip) |
+| 25 | IDBI price/residual | Bid ₹81/share vs ₹75.99 benchmark; reserve ₹94.42 (FY26 round, failed); residual GoI 15%, LIC 19% | same as #24 | V-primary | Refines → S11 |
+| 26 | PFC–REC swap ratio | 88 PFC : 100 REC; EY + RBSA valuers; Nuvama fairness | REC BoD outcome 28-Jun-2026: https://nsearchives.nseindia.com/corporate/RECLTD_28062026223441_Signed_OutcomeofBOD280626.pdf | V-primary | Yes (was V-snip) |
+| 27 | PFC KPIs | Consolidated loan book ~₹11.64 lakh Cr; standalone ~₹5.8 lakh Cr; CoF 7.50%; NIM 3.55%; CRAR 23.44%; SA PAT ₹20,051 Cr; FY27 spread guide 2.40–2.50%; merged entity target 1-Apr-2027 | PFC analyst-meet transcript 13-May-2026: https://www.bseindia.com/xml-data/corpfiling/AttachHis/38ed6fcd-21c7-49e2-bfa6-127d22947718.pdf | V-primary | Replaces ₹10.81 lakh Cr → S13 |
+| 28 | AAA ratings | CRISIL AAA/Stable: PFC (26-Mar-2026), REC (27-Mar-2026), IRFC (1-Apr-2026) | CRISIL rationales (e.g.) https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/IndianRailwayFinanceCorporationLimited_April%2001_%202026_RR_392388.html | V-primary | Yes (was K); SIDBI CRISIL AAA reaffirmed 8-Jan-2026 [V-snip] |
+| 29 | IRFC model | Lease rental = average incremental cost of borrowings + 35/40 bp; GNPA nil; AUM ₹4,75,451 Cr (Dec-25); NW ₹56,625 Cr | same as #28 | V-primary | Confirms "GNPA ~0 [K]" |
+| 30 | REC KPIs | Loan book ₹5.81 lakh Cr (Dec-25), 85% state sector; GNPA 0.88%; CAR 24.3% | CRISIL REC 27-Mar-2026: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/RECLimited_March%2027_%202026_RR_392399.html | V-primary | New |
+| 31 | HUDCO KPIs | Loan book ₹1,73,123 Cr (Jun-26, +28.8%); GNPA 0.96%; NNPA 0.048%; CoB 6.95%; NW ₹22,867 Cr; Q1 PAT ₹851.11 Cr | HUDCO press release 27-Jul-2026: https://hudco.org.in/writereaddata/PublicNotice/press-270726.pdf | V-primary | New (GNPA was n/s) |
+| 32 | IREDA fraud | ₹672.74 Cr = Gensol Engineering ₹453.77 Cr + Gensol EV Lease ₹218.97 Cr; reported to RBI 10-Jul-2026; 85% provided at Mar-26 | solarquarter, filingreader, indianpsu, psuconnect | V-snip (4 consistent) | **No** — not "three cases on 19-Oct" → S29 (below) |
+| 33 | NaBFID FY26 | PAT ₹3,037 Cr; NII ₹3,268 Cr; NIM 3.72%; ROA 3.34%; ROE 11.50%; CRAR 44.22% | NaBFID press release 6-May-2026: https://nabfid.org/uploads/files/PressRelease_06052026.pdf | V-primary | Yes; chart readings now primary |
+| 34 | NaBFID balance sheet | ₹1,44,472 Cr (Mar-26); debt ₹1,05,186 Cr (bonds ₹56,442 / loans ₹48,744); ₹1,60,650 Cr (Jun-26) | Q1 FY27 results (NSE debt filing): https://nsearchives.nseindia.com/content/debt/WDM/nabfidtt_29072026192516_Outcome.pdf | V-primary | Replaces ~₹1.4 lakh Cr [E] → S17 |
+| 35 | NaBFID Q1 FY27 | PAT ₹801.85 Cr; NIM 2.75%; ROA 2.21%; CoB 6.56%; CRAR 45.13%; nil NPA | same as #34 | V-primary | NIM drop is new |
+| 36 | EXIM FY26 | PAT ₹4,273 Cr; net loans ₹2,07,779 Cr; GNPA 0.57% (1.71%); CRAR 26.39% | Bank release via PR agency: https://investmentguruindia.com/newsdetail/exim-bank-reports-11-87-loan-growth-and-31-74-rise-in-pat-in-fy26283274 | V-near-primary (not counted) | Partly → S16 |
+| 37 | NABARD scale | Balance sheet ~₹10.96 lakh Cr (Mar-26); FY25 PAT ₹7,628.33 Cr | nabard.org unreachable; UNI / search summary | V-snip | Unverified |
+| 38 | SIDBI FY26 | PAT ₹5,493 Cr; loans ₹5,79,755 Cr; CRAR 20.07%; GoI 27.57% | SIDBI results (re-read): https://www.sidbi.in//uploads/financialreport/Financial_result_31.03.2026_Eng_standalone_publication.pdf | V-primary | Yes |
+| 39 | AIFI regulation | RBI (AIFIs – IRACP) Directions 2025 (updated 1-Oct-2026); (AIFIs – Capital Adequacy) Directions 2025 dated 28-Nov-2025; ECL (1-Apr-2027) is for commercial banks | RBI master-direction page: https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12973 ; NaBFID Q1 notes (#34) | V-primary (bank-ECL scope V-snip) | Clarifies → S18 |
+| 40 | KfW (global anchor) | Total assets €540.7 bn; promotional volume €98.0 bn; equity €40.6 bn; profit €1.0 bn (2025) | KfW Financial Report 2025: https://www.kfw.de/PDF/Download-Center/Finanzpublikationen/PDF-Dokumente-Berichte-etc/3_Finanzberichte/KfW-Finanzbericht-2025-2.pdf | V-primary | Replaces K (~€550 bn) |
+
+**Where sources conflict, which wins**
+- **SHCIL OFS count:** the abridged prospectus (61,87,500) beats Upstox's ">1.09 crore", which was the DRHP figure (DRHP 17-Jun; RHP 10-Sep).
+- **PFC GNPA:** the company's own transcript (1.09% gross credit-impaired, standalone, Mar-26) and CRISIL (1.64% standalone Dec-25; 1.26% consolidated Dec-25) beat screener's unlabeled 0.66%. Use the company figure with its basis.
+- **IREDA fraud:** four consistent reports of a 10-Jul-2026 RBI filing on two Gensol accounts beat the first pass's reading of a 19-Oct screener summary ("three fraud cases"). The 19-Oct note may have repeated the July disclosure in the Q2 results notes; the PDF was not opened.
+- **NABARD Q1 PAT (₹2,170.12 Cr):** unresolved (S26). Do not print without the label "unaudited, as reported by press".
+- **IFCI recoveries FY26:** AR ₹397 Cr (NPAs + SRs) + ₹140 Cr (unquoted investments) = ₹537 Cr ≈ ICRA ₹536 Cr. CARE's ₹576 Cr likely adds ~₹40 Cr of other realisations (e.g., written-off accounts or asset sales). **Use ₹537 Cr (AR) as the headline**; cite CARE's figure only with its source.
+
+**S29 (added to the Supersedes table): IREDA.** Old: "board also disclosed three fraud cases totalling ₹672.74 Cr" on 19-Oct-2026 (Q2 status table; §2.7; §3.1). New: **₹672.74 Cr relates to two Gensol group accounts (Gensol Engineering ₹453.77 Cr; Gensol EV Lease ₹218.97 Cr), declared fraud and reported to RBI on 10-Jul-2026, 85% provided at Mar-26.** Q2 FY27 PAT ₹554 Cr (Q1 ~₹338 Cr) with impairment up to ~₹187 Cr [V-snip ×4].
+
+## 4.2 Company packs (primary-source upgrade)
+
+### 4.2.1 IFCI Limited (NSE IFCI · BSE 500106) — the single member
+
+**(a) Is there a concall or investor deck?** No. IFCI does not hold earnings calls, and no investor presentation for Q1 FY27 or any recent quarter was found. The exchange announcement list (screener, 23-Oct) shows results, trading-window, AGM and rating filings but no presentation or transcript. ifciltd.com reset the connection on every attempt this session. So the guidance digest below is built from: the FY26 Annual Report (Board's Report, MD&A, notes, auditors' report; results approved 28-Apr-2026, revised audit report after C&AG comments of 30-Jun-2026); the Q1 FY27 results (board 11-Aug-2026); the AGM of 25-Sep-2026; and the CARE (17-Aug-2026) and ICRA (14-Sep-2026) rationales, which quote management's plans. **Tell readers plainly that there is no forward guidance in the usual sense.**
+
+**(b) Management-commentary digest (paraphrased; source and date in brackets)**
+1. **Lending stays shut.** No new loan was sanctioned or disbursed in FY26. The Board's report frames the business as resolution of stressed assets plus advisory, with an "aggressive" multi-pronged recovery approach [AR FY26 Board's report §4.0, Apr/Jul-2026]. CARE says IFCI would need "substantial equity infusion" to meet regulatory minimums and restart lending [CARE 17-Aug-2026].
+2. **Profit drivers named by management:** higher dividend, rental and advisory income and lower finance cost explain FY26 standalone PAT of ₹51.71 Cr (₹43.80 Cr). Total comprehensive income was ₹49.93 Cr (₹21.39 Cr) [AR §3.0]. Read: none of these is lending income.
+3. **Recoveries:** ₹397 Cr from NPAs and SRs plus ₹140 Cr from unquoted investments in FY26 [AR §4.0]. Q1 FY27 brought ₹199–202 Cr [ICRA/CARE]. Management gives no target; the de-facto run-rate is ~₹130–200 Cr a quarter.
+4. **Capital:** management reports PCR 73.16% and CRAR −18.78% "an improvement from (−)23.04%" [AR §3.0]. **No fresh GoI capital was received in FY26 and none is earmarked for FY27** [ICRA]. The improvement in CRAR comes from shrinking risk assets and retained profit, not new equity.
+5. **Consolidation is the strategy.** "Consolidation of IFCI Group" covers the merger of IFCI, SHCIL and other group entities, intimated to exchanges on 22-Nov-2024 and 14-Jul-2025. The board has recommended it and GoI approval is awaited [AR MD&A §3; ICRA 14-Sep-2026: "clarity is still awaited on the approval, structure and timelines"]. ICRA expects IFCI to be the surviving entity with GoI the largest shareholder. It flags SHCIL's 4.44% NSE stake as "significant financial flexibility" once NSE lists, and says the merged entity's debt depends on "the quantum of NSE stake held by StockHolding at the time of the merger" [ICRA]. **New fact for that sentence: SHCIL now holds 4.19%, not 4.44%** (S2).
+6. **Liquidity guidance (via raters):** FY27 outflows ~₹1,452 Cr were covered by ₹1,121 Cr of liquidity, ₹66 Cr of MFs, recoveries and ~₹126 Cr of undrawn lines. IFCI had ~₹540 Cr of cash on 3-Aug-2026 against ~₹550 Cr due in the rest of FY27 [CARE; ICRA]. The ₹468.55 Cr Tier II bond was repaid on 1-Aug-2026 (ICRA withdrew that rating) [ICRA; AR note 18]. **Next large dates:** ₹102.49 Cr Tier II on 31-Oct-2026, ₹123.63 Cr Tier II on 28-Feb-2027, then nothing above ₹110 Cr until ₹350 Cr on 26-Apr-2028 [AR note 17–18].
+7. **Advisory franchise:** IFCI is PMA for 10 of 14 PLI schemes and nodal agency for the Sugar Development Fund, with ISM, PM E-DRIVE, SMEC, REPM and an ECMS portal [AR MD&A]. Management lists the Budget 2026-27 "seven frontier sectors" as a tailwind [AR MD&A Outlook, quoting RBI AR 2025-26]. **The auditors could not review PLI or SDF case files**, because the nodal ministries instructed IFCI not to share them (auditors' Emphasis of Matter 3–4) [AR].
+8. **Subsidiary actions:** IIDL is selling "IIDL Suites" (Mayur Vihar serviced apartments; SBI Caps as adviser; carrying ₹149.91 Cr vs fair value less cost to sell ₹165.56 Cr; completion "expected by June 2026"). Outcome not found [AR consolidated EoM E]. MPCON is to be divested to GoI; IFCI Factors has no lending and has assigned its whole portfolio to IFCI [AR EoM C, D].
+9. **People:** Rahul Bhave is MD & CEO and also Non-Executive Chairman of SHCIL (he signs SHCIL's FY25 chairman's letter) [SHCIL AR FY25]. M. Sivaramakrishnan joined as DMD on 6-Apr-2026 [AR]. Independent-director shortfall: the IDs' meeting "could not be held". **NSE and BSE fined IFCI ₹77,52,600 in FY26** for board-composition non-compliance; NSE waived its fines on application [AR Board's report; CG report].
+10. **Rating triggers management is working towards:** completion of the merger; timely monetisation of non-core assets; GoI equity [CARE]. Both agencies keep "Rating Watch with Developing Implications" [CARE; ICRA].
+
+**(c) KPI tracker (standalone, what a concall would have shown)** [V AR/CARE/ICRA re-read; screener for quarterly GNPA/NNPA]
+
+| KPI | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|
+| Gross loans (CARE "AUM"), ₹ Cr | 4,367 | — | — | — | 4,169 | 3,981 |
+| GNPA % (RBI) | 95.98 | 96.05 | 96.28 | 96.31 | 95.79 | 95.68 |
+| NNPA % | 79.69 (AR) / 83.55 (screener) | 79.78 | 80.80 | 81.10 | 78.44 | n/s |
+| Gross Stage 3 % (Ind AS) | 98.15 | — | — | — | 98.28 | 98.23 |
+| CRAR % | −23.04 | −21.85 | — | — | −18.78 | −17.58 |
+| Reported net worth, ₹ Cr | 1,735 | — | — | — | 1,785.5 | 1,797 |
+| TNW (CARE), ₹ Cr | 766 | — | — | — | 809 | — |
+| Recoveries in period, ₹ Cr | 580 (FY25) | — | — | — | 537 (FY26, AR) | 199–202 (Q1) |
+| Standard net loans, ₹ Cr | — | 78 | — | — | — | 70 |
+| Debt incl. accrued, ₹ Cr | ~4,349 | — | — | — | 4,185 | ~3,700 after the 1-Aug repayment [E] |
+| Liquidity, ₹ Cr | — | — | — | — | 1,121 + 66 MF | ~540 cash (3-Aug) |
+Note the NNPA conflict at Mar-25: AR 79.69% vs screener 83.55%. Use the AR.
+
+**(d) Five-year history — standalone (₹ Cr)** [V screener (23-Oct fetch, re-parsed); AR lines re-read; ratios E]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue (screener) | 760 | 747 | 841 | 841 | 899 |
+| Finance cost | 923 | 631 | 573 | 537 | 416 |
+| Revenue − finance cost | −163 | 116 | 268 | 304 | 483 |
+| PBT | −1,785 | −186 | 484 | 372 | 46 |
+| PAT | −1,991 | −288 | 128 | 44 | 52 |
+| Net worth | 445 | 626 | 1,215 | 1,735 | 1,785 |
+| Borrowings | 7,012 | 5,808 | 5,451 | 3,778 | 3,592 |
+| Total assets | 9,070 | 8,930 | 10,008 | 9,386 | 10,064 |
+| GoI equity received (CFF) | 100 | 500 | 500 | 500 | 0 |
+| Debt ÷ net worth (×) | 15.8 | 9.3 | 4.5 | 2.2 | 2.0 |
+| ROE (screener) | −141% | −54% | 14% | 3% | 2% |
+| GNPA % (year-end) | 92.21 | n/s | n/s | 95.98 | 95.79 |
+| CRAR % | negative | negative | negative | −23.04 | −18.78 |
+- **Read:** finance cost fell 55% in four years (₹923 → ₹416 Cr) as borrowings fell 49% (₹7,012 → ₹3,592 Cr), mostly funded by recoveries and ₹1,600 Cr of GoI equity (FY22–FY25). Net worth rose 4× from equity infusions, not from profits: cumulative FY22–FY26 PAT was −₹2,055 Cr [E].
+
+**(e) Five-year history — consolidated (₹ Cr)** [V screener; owners'/NCI split V AR for FY25–26]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 1,556 | 1,699 | 1,988 | 2,021 | 2,077 |
+| Finance cost | 943 | 642 | 571 | 535 | 416 |
+| PBT | −1,523 | 26 | 751 | 749 | 524 |
+| PAT (total) | −1,761 | −120 | 241 | 349 | 435 |
+| of which owners | n/s | n/s | n/s | 171.04 | 180.87 |
+| OCI (total) | n/s | n/s | n/s | 6,662.09 | 139.24 |
+| Parent equity | 2,818 | 3,767 | 4,535 | 8,690 | 8,944 |
+| NCI | n/s | n/s | n/s | 6,388 | 6,560 |
+| Borrowings | 7,095 | 6,020 | 5,367 | 3,714 | 3,523 |
+| Investments | 6,541 | 7,700 | 8,678 | 15,323 | 15,081 |
+| Total assets | 15,487 | 16,939 | 18,918 | 25,724 | 26,570 |
+| CFO | −257 | −336 | 12 | −984 | 280 |
+- The FY25 step-up in investments (+₹6,645 Cr) is SHCIL's NSE revaluation: Level-3 unquoted equity went from ₹7,690.48 Cr to ₹14,901.91 Cr, a ₹7,211.43 Cr gain [V AR note 58F]. In FY26 Level-3 value barely moved (₹14,882.85 Cr; −₹19.06 Cr through P&L) [V].
+
+**(f) Eight-quarter trend (₹ Cr)** [V screener quarterly, 23-Oct fetch]
+
+| Quarter | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| **Standalone** revenue | 159.73 | 194.56 | 222.68 | 155.51 | 177.78 | 298.80 | 265.11 | 102.64 |
+| SA finance cost | 136.06 | 131.79 | 134.95 | 102.61 | 107.03 | 104.45 | 101.98 | 103.61 |
+| SA other income | 140.90 | 0.77 | 0.02 | 25.35 | 0.83 | 0.30 | 0.40 | 22.75 |
+| SA PBT | 0.63 | 28.33 | 379.21 | 29.93 | 1.51 | 6.32 | 7.79 | 25.36 |
+| **SA PAT** | **−21.56** | **−58.96** | **272.54** | **7.38** | **16.13** | **6.85** | **21.36** | **8.64** |
+| SA GNPA % | n/s | 96.21 | 95.98 | 96.05 | 96.28 | 96.31 | 95.79 | 95.68 |
+| **Consolidated** revenue | 617 | 459 | 414 | 407 | 735 | 456 | 470 | 327 |
+| Cons. finance cost | 135 | 131 | 134 | 104 | 107 | 103 | 102 | 104 |
+| Cons. PBT | 275 | 94 | 340 | 103 | 381 | 13 | 27 | 96 |
+| **Cons. PAT** | **185** | **−9** | **260** | **62** | **317** | **21** | **34** | **60** |
+- **Seasonality:** Q2 is the big consolidated quarter (Q2 FY25 ₹185 Cr; Q2 FY26 ₹317 Cr) because NSE pays its annual dividend to SHCIL around Aug–Sep. SHCIL's consolidated dividend income was ₹385 Cr in FY26, almost all of it in Q2 [E from S6]. **For Q2 FY27, expect another large NSE dividend, but no P&L gain on the 61.9 lakh NSE shares SHCIL sold.** They are FVTOCI equity under Ind AS 109, so the realised gain moves within equity and is not recycled through P&L [K accounting; E]. The mark-to-market of the residual 10.38 crore shares from ~₹1,268 to the 30-Sep price (Level 1 after listing) will flow through OCI. At ₹1,670 that is ~₹4,180 Cr pre-tax at SHCIL, or ~₹1,900 Cr after DTL to IFCI's owners [E].
+- Q4 FY25 standalone PAT of ₹272.54 Cr was an impairment write-back (FY25 impairment −₹224 Cr) [V AR]. It explains the primer's "Q4 FY26 −87%/−94%" comparison: the base was one-off.
+
+**(g) Annual-report findings (FY26) not in Parts 1–3** [V AR re-read unless stated]
+- **Debt ladder (principal, ₹ Cr, by fiscal year):** FY27 768.1 (paid 468.55 on 1-Aug-26; 102.49 due 31-Oct-26; 123.63 due 28-Feb-27; 73.43 of infra bonds Dec-26 to Mar-27) · FY28 131.6 (Oct/Nov-27) · FY29 495.0 (₹350 Cr 9.75% due 26-Apr-28; ₹145 Cr 8.76% tax-free, secured, due 31-Mar-29) · FY30 nil · **FY31 1,500.0** (₹250 Cr 9.70% 4-May-30; ₹250 Cr 9.70% 18-May-30; ₹250 Cr 9.75% 13-Jul-30; ₹500 Cr 9.75% 16-Jul-30; ₹250 Cr 9.98% 29-Oct-30) · FY32–FY41 ~624 (9.75% zero-coupon strips ₹27–64 Cr a year to Jul-2040; ₹106.88 Cr 9.90% bonds Nov-32 and Nov-37; ₹50 Cr 9.98% Tier II Sep-37). **There are no bank borrowings.** The only bank lines are ₹110 Cr from IDBI Bank (secured by an FD at 6.51%) and ₹16 Cr from HDFC Bank (against MFs).
+- **ALM:** of ₹3,763 Cr of contractual loan inflows, ₹3,657 Cr sits in the ">5 years" bucket. In practice that means legal recovery, not scheduled repayment. Investments maturing within 30 days were ₹213 Cr. On paper, cumulative liquidity in 1–5 years is negative, so IFCI relies on recoveries, which are not in the buckets.
+- **Scheme money on the balance sheet:** PLI funds placed with IFCI ₹2,856.77 Cr (+33%) and SC credit-guarantee enhancement ₹401.87 Cr. These are pass-through liabilities matched by bank balances. They inflate "total assets" and explain ICRA's lower managed-assets figure (S10).
+- **Related parties:** dividends from SHCIL ₹166.62 Cr, IIDL ₹14.52 Cr and MPCON ₹0.24 Cr. Rent from SHCIL ₹2.67 Cr. IFCI pays IIDL ₹7.28 Cr of interest (IIDL holds IFCI bonds). No material RPTs; AOC-2 not applicable.
+- **Contingent liabilities:** standalone ₹227.54 Cr (₹190.06 Cr): claims not acknowledged ₹129.53 Cr; income tax ₹90.97 Cr; GST ₹2.48 Cr; guarantees ₹4.56 Cr. Consolidated ₹460.22 Cr (₹353.01 Cr), incl. "others" ₹161.35 Cr. SHCIL has a ₹24.41 Cr FY2000-01 securities dispute pending before the Supreme Court, and a fire-related third-party liability at SDMS.
+- **Litigation:** SFIO petition before NCLT New Delhi against IFCI and 91 others (Companies Act ss. 221/222/224/241/242/246); notice served; no interim order. No IBC application against IFCI.
+- **Auditors' Emphasis of Matter:** (1) ₹93.01 Cr of interest recognised on Stage-3 assets was written off as bad debt in the same year, with nil P&L effect; (2) CRAR −18.78% per RBI notification RBI/DOR/2025-26/345 of 28-Nov-2025; (3) SDF data not shared with auditors; (4) PLI files not shared with auditors.
+- **Tax:** standalone current tax nil; deferred-tax credit ₹6.17 Cr (FY25 charge ₹328.37 Cr). Consolidated tax ₹89.50 Cr, almost all SHCIL.
+- **Regulatory fines:** ₹77.53 lakh levied by NSE/BSE for board-composition non-compliance (NSE waived on application). 95.65% of procurement went through GeM.
+
+**(h) SOTP refresh with primary inputs [E — ILLUSTRATIVE]** (replaces the first two rows of §B1)
+
+| Block | Value (₹ Cr) | Basis |
+|---|---|---|
+| SHCIL's residual NSE stake at market | 17,337 | 10,38,12,500 × ₹1,670 (23-Oct) [V count; V price] |
+| SHCIL's OFS cash (gross) | 1,104 | 61,87,500 × ₹1,785 [V] |
+| Less capital-gains tax at SHCIL (~14.6% incl. surcharge/cess on gain over ₹0.46 cost) | −2,694 | on 17,337 + 1,104 [E; rate K] |
+| **SHCIL NSE block, post-tax** | **15,747** | |
+| SHCIL core business (custody, DP, e-stamping, DMS, broking) at 15–22× core PAT of ~₹200–230 Cr | 3,000–5,000 | SHCIL FY26 PAT ₹526 Cr standalone less ~₹330 Cr after-tax NSE dividend [E] |
+| SHCIL other net assets (cash/treasury outside NSE) | not separable | (SHCIL net worth ₹13,655 Cr includes NSE at ~₹13.9k Cr carrying; the rest is roughly offset by DTL/liabilities) [E] |
+| **SHCIL equity value** | **~18,700–20,700** | |
+| **IFCI's 52.86%** | **~9,900–10,900** | |
+| Other subsidiaries at book | 600–780 | §B1 (unchanged) |
+| Parent ex-subsidiaries (net NPA ₹574 Cr + liquidity ~₹540 Cr + IFCI Tower/investments − debt ~₹3,700 Cr after Aug-26 repayment) | −1,500 to +500 | §B1 (unchanged; property undisclosed) |
+| **Gross SOTP** | **~9,000–12,200** | vs §B1's ₹8,150–12,830 Cr |
+| IFCI m-cap (23-Oct) | 15,945 | [V] |
+- **Merger arithmetic (S-check on §C.4):** SHCIL minorities' 47.14% of ₹18,700–20,700 Cr is ₹8,800–9,750 Cr. At ₹59.2 per IFCI share that is **~149–165 crore new IFCI shares (+55–61% on 269.43 crore)**. §C.4's "~160 crore" holds. Each SHCIL share carries 5.22 NSE shares at the pre-IPO count (11.00 cr ÷ 2.1054 cr), 4.93 after the OFS [V counts; E].
+- **Look-through sensitivity:** ±₹100 on NSE = ±₹549 Cr pre-tax (±₹469 Cr post-tax) for IFCI shareholders [E].
+
+### 4.2.2 Stock Holding Corporation of India (SHCIL / StockHolding) — 52.86% subsidiary, unlisted
+
+**Sources:** SHCIL Annual Report FY2024-25 (271 pp., fetched from corporate.stockholding.com and read in the relevant sections); SHCIL Annual Return (MGT-7) FY2024-25 (scanned; pages 6 and 9–11 read as images); IFCI AR FY26 AOC-1 for FY26. **SHCIL's FY26 annual report is not yet on its site.** The site lists SDMS's FY26 report but not the parent's. FY26 figures therefore come from IFCI's AOC-1 and consolidation notes [V].
+
+**(a) Identity and ownership.** Incorporated 28-Jul-1986 as a public limited company; CIN U67190MH1986GOI040506; 2,10,54,400 equity shares of ₹10 (₹21.05 Cr). **Eight promoter shareholders hold 99.74%**: "Government companies" 1,78,50,000 shares (84.78%), i.e. IFCI 52.86% plus ~31.92% with other government institutions, and "insurance companies" 31,50,000 shares (14.96%). Public 54,400 shares (0.26%) with 192 holders; 200 shareholders in all [V MGT-7]. The company names its shareholders as LIC, GIC, IFCI, SU-UTI, New India, National, United India and Oriental [V website]. The exact split of the 31.92% between LIC and SU-UTI was not readable from the pages viewed [gap]. **No bank is a promoter.** Merger implication: almost all of the 47.14% minority sits with state-owned insurers and SU-UTI, so GoI's look-through control of the merged IFCI would rise even as its direct 72.57% is diluted [E].
+**Management:** Non-Executive Chairman Rahul Bhave (IFCI MD & CEO); MD & CEO Atul Saxena; CFO Vinay E Purohit; CS Rajneesh Singh; auditors V. Singhi & Associates [V AR FY25]. ICRA rates SHCIL [ICRA]AA- (Rating Watch with Developing Implications) [V ICRA IFCI rationale].
+
+**(b) What SHCIL does (FY25 operating KPIs)** [V AR FY25]
+- **Custody and depository participant:** assets under custody **₹69.27 lakh Cr** (Mar-25). Strategic custody-banking alliances with SBI and IDFC First. GIFT-IFSC custody branch.
+- **e-Governance:** Central Record Keeping Agency for e-stamping in **25 States/UTs**, with mandates renewed in seven in FY25 (Assam, HP, Punjab, Rajasthan, Ladakh, Uttarakhand, Karnataka) and Goa launched. **18.09 crore e-stamp certificates in FY25** (15.66 crore FY24), ≈4.96 lakh a day. e-court fees in 16 States/UTs (1.17 crore receipts); e-registration.
+- **Retail broking/distribution** through StockHolding Services (SSL): cash-segment turnover ₹43,415 Cr and derivatives ₹14,694 Cr in FY25; FDs, bonds, MFs, IPOs, NPS, insurance (corporate agent).
+- **Document management** (SDMS) and a GIFT City broking arm (SSIL).
+
+**(c) Five-year history — standalone (₹ Cr)** [FY21–FY25 V-chart from AR FY25 five-year charts, with FY24–FY25 lines V from the "Performance Highlights" table; FY26 V from IFCI AR AOC-1]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Total income (turnover) | ~596 [E from PAT ÷ margin] | ~685 [E] | 788 | 915 | 1,137.01 |
+| of which interest & dividend | n/s | n/s | 256 | 310 | ~525 [E: FY25 310 + ~₹173 Cr higher NSE dividend + treasury] |
+| Operating expenses | 438 | 464 | 450 (487 incl. dep. per chart) | 460 (498 incl. dep.) | n/s |
+| PBT | n/s | n/s | 301 | 417 | 597.25 |
+| **PAT** | **137** | **178** | **264** | **357** | **525.95** |
+| PAT margin | 23% | 26% | 34% | 39% | 46% [E] |
+| Net worth | 4,553 | 5,956 | 6,445 | 13,305 | 13,655 |
+| EPS (₹) | 64.86 | 84.60 | 125.52 | 169.56 | ~249.8 [E] |
+| Dividend per share (₹) | 30.50 | 42.30 | 69.00 | 93.20 | n/s (IFCI received ₹166.62 Cr in FY26 ≈ ₹150/share paid in the year [E]) |
+| Dividend income (standalone) | n/s | n/s | 178.59 | 212.20 | ~385 (consolidated, S6) [E] |
+| NSE stake carrying value | n/s | n/s | 6,867 | 13,944 | ~13,900 [E] |
+- **Read:** SHCIL's PAT nearly quadrupled in four years (₹137 → ₹526 Cr), but the NSE dividend explains a large part of the climb. NSE's dividend to SHCIL roughly doubled from ₹178.6 Cr (FY24 receipts) to ~₹385 Cr (FY26 receipts) [V/E]. Core operating profit (EBITDA ex-dividend) is smaller: AR EBITDA was ₹456 Cr in FY25 at a 50% margin (V-chart), and that EBITDA includes treasury income.
+- **Net worth doubled in FY25** (₹6,445 → ₹13,305 Cr) from the NSE fair-value gain, not from earnings. Book value per share was ₹6,319 [V].
+- **Consolidated (SHCIL group, from IFCI's NCI note):** revenue from operations ₹749.17 Cr (₹706.20 Cr); PAT ₹537.76 Cr (₹373.79 Cr); OCI ₹141.02 Cr (₹6,683.29 Cr); net assets ₹13,760.10 Cr (₹13,396.52 Cr) [V IFCI AR].
+
+**(d) Annual-report findings (FY25 AR)** [V]
+- **NSE valuation policy is a key audit matter.** NSE was carried at the weighted average price of the last six months' resident-to-resident trades (excluding related-party and indirect-foreign trades), shown ex-bonus after NSE's 4:1 bonus. Level 2. **₹13,944.26 Cr for 11,00,00,000 shares at Mar-25** (₹6,867.23 Cr for 2,20,00,000 pre-bonus shares at Mar-24). After the 24-Sep-2026 listing the stake becomes Level 1 at the quoted price [E].
+- Other holdings: India INX (2.35 crore shares, ₹2.14 Cr), India ICC (₹1.36 Cr), BSE Ltd (1,30,500 shares, ₹71.51 Cr at Mar-25); subsidiaries at cost: SDMS ₹68.6 Cr, SSL ₹17.1 Cr, SSIL ₹20 Cr.
+- Dividend history (rate on ₹10 face value): FY20 50% · FY21 131% · FY22 305% · FY23 423% · FY24 690% · FY25 932% (incl. final ₹23.70) [V].
+- Litigation: ₹24.41 Cr FY2000-01 securities transaction, civil appeal pending in the Supreme Court (also an EoM in IFCI's consolidated audit report) [V].
+- Operational risk: a fraud through linked bank accounts on the trading platform (₹55 lakh) [V IFCI AR note 43, from Part 1].
+
+**(e) What SHCIL's NSE sale means (₹ Cr)** [E from V counts]
+- Gross OFS proceeds ₹1,104.5 Cr. Cost ₹0.46/share (₹2.8 Cr), so almost all of it is gain. Tax at ~14.6% ≈ ₹161 Cr → **net cash ~₹943 Cr, ~₹499 Cr attributable to IFCI**. That is enough to cover IFCI's entire FY27–FY29 principal (₹768 + 132 + 495 = ₹1,395 Cr) **only if** the cash can reach IFCI, by dividend (47% leaks to minorities) or through the merger. This is the concrete version of ICRA's "financial flexibility" point.
+- If SHCIL paid out the whole net ₹943 Cr as a special dividend, IFCI would get ~₹499 Cr, roughly the parent's next 2.5 years of scheduled principal outside the FY31 wall [E].
+
+### 4.2.3 NaBFID (unlisted equity; listed NCDs and USD notes) — reference DFI
+
+**Sources:** FY26 results press release (6-May-2026, nabfid.org) and Q1 FY27 results with balance sheet (NSE debt-segment filing, 29-Jul-2026), both fetched and read this session [V]. **No FY26 annual report was found online**; the Act-mandated report is usually laid later in the year. "Annual-report findings" below therefore come from the results notes.
+
+**(a) Quarterly trend (₹ Cr; %)** [V]
+
+| | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|
+| Total credit exposure | 63,763 | 68,167 | 78,990 | 1,15,424 | 1,28,185 (incl. NFB 2,447) |
+| Term loans | 59,018 | 60,040 | 69,408 | 1,02,712 | 1,09,259 |
+| Bonds (credit substitutes) | 4,669 | 8,051 | 9,505 | 12,635 | 16,479 |
+| Interest income | 1,640 | 1,688 | 1,786 | 2,143 | 2,808 |
+| Interest expended | 907 | 898 | 983 | 1,201 | 1,838 |
+| NII | 733 | 790 | 803 | 942 | 970 |
+| Operating profit | 733 | 790 | 820 | 954 | 955 |
+| Provisions (standard assets) | 18.5 | ~61 [E] | ~0 [E] | 179.7 | 153.2 |
+| **PAT** | **714** | **772** | **777** | **774** | **802** |
+| NIM % | 3.75 | 3.91 | 3.70 | 3.58 | **2.75** |
+| ROA % (annualised) | 3.53 | 3.66 | 3.45 | 2.85 | **2.21** |
+| ROE % | 11.33 | 11.76 | 11.51 | 11.39 | 11.35 |
+| CRAR % | 70.94 | 50.24 | 53.65 | 44.22 | 45.13 |
+| Cost-to-income % | 8.71 | 8.89 | 8.40 | 7.53 | 9.77 |
+| Yield on advances % | 8.59 | 8.56 | 8.52 | 8.37 | 8.07 |
+| Cost of borrowings (net) % | 7.07 | 6.66 | 6.77 | 6.22 | 6.56 |
+| GNPA / NNPA | nil | nil | nil | nil | nil |
+- **The new insight: NaBFID's margin is compressing fast as leverage replaces free capital.** NIM fell 116 bp in a year (3.91% → 2.75%) and ROA 145 bp (3.66% → 2.21%). Yield on advances fell 49 bp to 8.07% (competitive pricing on a doubling book). Borrowings rose from ₹53,157 Cr (Jun-25: loans ₹7,983 + debt securities ₹45,174) to ₹1,20,655 Cr (Jun-26). ROE held at ~11.4% only because leverage rose (debt/equity 1.71× → 3.50×). Expect ROA to converge towards ~1.5–2% as the ₹25,000 Cr of free capital is diluted by a ₹4–5 lakh Cr target book [E].
+
+**(b) Annual figures (₹ Cr)** [V; FY24 and earlier not in the fetched filings]
+
+| | FY25 | FY26 | YoY |
+|---|---|---|---|
+| Interest income | 4,973 | 7,257 | +45.9% |
+| Other income | 235 | 328 | +39.6% |
+| Total income | 5,208 | 7,585 | +45.6% |
+| Interest expended | 2,725 | 3,989 | +46.4% |
+| NII | 2,248 | 3,268 | +45.4% |
+| Opex | 191 | 300 | +57.1% (employees ₹150.65 Cr) |
+| Operating profit | 2,292 | 3,296 | +43.8% |
+| Provisions | n/s | 259 | standard-asset/project-finance norms |
+| PAT (no tax: 10-year exemption from FY22) | 2,191 | 3,037 | +38.6% |
+| Credit exposure (Mar) | 59,441 | 1,15,424 | +94.2% |
+| Balance sheet (Mar) | 83,213 [E from +73.62%] | 1,44,472 | +73.6% |
+| Borrowings + debt securities (Mar) | 49,125 [V-chart] | 1,05,186 (48,744 + 56,442) | +114% |
+| Net worth incl. grant (ex-intangibles) | ~31,400 [E] | 34,260 | — |
+| CRAR / CET1 | 73.93 / 73.35 | 44.22 / 43.61 | −29.7 pp |
+| NIM / ROA / ROE | 3.67 / 3.48 / 9.11 | 3.72 / 3.34 / 11.50 | — |
+| Yield / CoB (net) | 8.38 / 7.52 | 8.49 / 6.63 | spread 0.86 → 1.86 pp |
+| Debt ÷ total assets | n/s | 75.64% | (Jun-26: 76.69%) |
+- **Funding mix (Mar-26 → Jun-26):** debt securities ₹56,442 → ₹68,892 Cr (54% → 57% of debt); borrowings (bank lines, ECB, CP/CD) ₹48,744 → ₹51,763 Cr. In Q1 FY27 the interest-service coverage ratio was 1.53× (FY26 1.83×). The **US$750 m bond (30-Sep-2026, 6.122%)** adds ~₹7,118 Cr in Q2 FY27 [V Part 2; E INR].
+- **Results-note findings:** governed by the RBI AIFI Directions, 2025 dated 28-Nov-2025 (capital adequacy; financial statements, including project-finance disclosures; transfer and distribution of credit risk). ₹2,205.70 Cr of loans were down-sold in FY26 under the transfer directions (nil acquired by novation in Q1 FY27). Pillar 3 disclosures are on its website. Contingent liabilities ₹2,446.86 Cr (Jun-26) [V Q1 FY27 notes].
+
+### 4.2.4 Listed sovereign-lender peers — five-year tables (₹ Cr; screener 23-Oct fetch re-parsed [V screener]; loan book/GNPA from company/CRISIL where stated)
+
+**PFC (consolidated, includes REC)**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 76,262 | 77,568 | 91,508 | 1,06,502 | 1,15,450 |
+| PAT | 18,768 | 21,179 | 26,461 | 30,514 | 33,625 |
+| Net worth (attributable) | 71,676 | 84,158 | 1,01,147 | 1,17,738 | 1,32,861 (₹1,73,441 Cr incl. NCI [V REC filing]) |
+| Borrowings | 6,60,476 | 7,51,158 | 8,61,961 | 9,71,758 | 10,12,503 |
+| Loan book | n/s | n/s | ~10.7 lakh Cr (Dec-24) [V CRISIL] | ~11.0 lakh Cr [V-snip] | **~11.64 lakh Cr** [V transcript] |
+| GNPA % (consolidated) | n/s | n/s | 3.02 [V CRISIL] | 1.64 [V CRISIL] | 0.66 (screener, Mar-26) / 1.26 (CRISIL, Dec-25) |
+Quarterly PAT Q1 FY26 → Q1 FY27: 8,981 · 7,834 · 8,212 · 8,598 · 8,998.
+
+**REC (consolidated)**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 39,276 | 39,486 | 47,517 | 56,369 | 59,586 |
+| PAT | 10,036 | 11,167 | 14,145 | 15,884 | 16,308 |
+| Net worth | 51,314 | 58,120 | 69,350 | 77,817 | 84,496 |
+| Borrowings | 3,33,043 | 3,80,790 | 4,45,568 | 4,96,801 | 5,15,284 |
+| Loan book | n/s | n/s | n/s | 5.66 lakh Cr [V CRISIL] | 5.81 lakh Cr (Dec-25) [V CRISIL] |
+| GNPA % | n/s | n/s | 2.71 | 1.35 | 0.88 (Dec-25) [V CRISIL] |
+Quarterly PAT: 4,466 · 4,415 · 4,052 · 3,375 · 4,193.
+
+**IRFC (standalone)**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 20,299 | 23,892 | 26,650 | 27,153 | 27,285 |
+| PAT | 6,090 | 6,337 | 6,412 | 6,502 | 7,009 |
+| Net worth | 40,997 | 45,471 | 49,179 | 52,668 | 56,749 |
+| Borrowings | 3,88,440 | 4,18,935 | 4,12,039 | 4,12,133 | 4,36,471 |
+| AUM | n/s | n/s | n/s | 4,60,048 [V CRISIL] | 4,75,451 (Dec-25) [V CRISIL]; 4,79,282 (Jun-26) [V-snip] |
+| GNPA | nil | nil | nil | nil | nil [V CRISIL] |
+Quarterly PAT: 1,746 · 1,777 · 1,802 · 1,684 · 1,927 · Q2 FY27 1,958. **Spread model:** lease rentals = average incremental cost of borrowing + 35/40 bp [V CRISIL]. IRFC's cost of funds is therefore set by the market, and the margin is fixed by contract. Q2 FY27 annualised NIM ~1.50% [V-snip].
+
+**IREDA (consolidated; screener's consolidated series starts FY24)**
+
+| | FY24 | FY25 | FY26 |
+|---|---|---|---|
+| Revenue | 4,965 | 6,755 | 8,339 |
+| PAT | 1,252 | 1,698 | 1,874 |
+| Net worth | 8,560 | 10,267 | 13,785 |
+| Borrowings | 49,687 | 64,740 | 77,846 |
+| Loan book | n/s | 79,852 (Jun-25) [V-snip] | ~94,900 (Jun-26) [V-snip] |
+| GNPA % | — | 4.13 (Jun-25) | 3.75 (Jun-26) |
+Quarterly PAT: 247 · 549 · 585 · 493 · 339 · Q2 FY27 552. Q1 FY27 sanctions ₹3,380 Cr (₹11,740 Cr) — **sanctions collapsed 71% YoY** [V-snip].
+
+**HUDCO (consolidated)**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 6,986 | 7,082 | 7,831 | 10,345 | 13,150 |
+| PBT | 2,346 | 2,289 | 2,843 | 3,637 | 3,221 |
+| PAT | 1,716 | 1,701 | 2,117 | 2,709 | 4,034 (tax credit; S21) |
+| Net worth | 14,467 | 15,444 | 16,613 | 17,968 | 21,976 |
+| Borrowings | 61,503 | 62,905 | 73,996 | 1,07,297 | 1,41,677 |
+| Loan book | n/s | n/s | n/s | 1,34,410 (Jun-25) [V] | **1,73,123 (Jun-26, +28.8%)** [V HUDCO PR] |
+| GNPA % | n/s | n/s | n/s | 1.34 (Jun-25) | 0.96 (Jun-26) [V] |
+Quarterly PAT: 630 · 710 · 713 · 1,981 · 851. Q1 FY27 sanctions ₹65,485 Cr (+91%); disbursements ₹16,377 Cr (record); blended CoB 6.95% [V].
+
+**Peer loan books on one basis (latest company-stated, ₹ lakh Cr)** [V unless noted]: PFC consolidated 11.64 (Mar-26) · PFC standalone ~5.8 (Mar-26) / ~5.70 (Jun-26 [V-snip]) · REC 5.81 (Dec-25) · IRFC 4.79 (Jun-26 [V-snip]) / 4.75 (Dec-25) · SIDBI 5.80 (Mar-26) · EXIM 2.08 (Mar-26) · HUDCO 1.73 (Jun-26) · NaBFID 1.28 exposure / 1.09 loans (Jun-26) · IREDA ~0.95 (Jun-26 [V-snip]) · IFCI 0.040 gross / 0.0007 standard net (Jun-26).
+
+**Cost of funds on one basis (latest, %):** NaBFID 6.56 (Q1 FY27, net) · SIDBI ~5.9 [E] · HUDCO 6.95 (Q1 FY27) · PFC 7.50 (FY26) · IRFC n/s (cost-plus pass-through) · **IFCI 9.91 coupon / 11.3 accounting** [V/E].
+
+### 4.2.5 SIDBI, EXIM, NABARD — status after this pass
+- **SIDBI:** Part 2 figures stand (V, results PDF re-read). CRISIL AAA/Stable/A1+ reaffirmed 8-Jan-2026 [V-snip].
+- **EXIM (FY26; board 8-May-2026):** total business ₹4,50,804 Cr (+13.31%); net loans ₹2,07,779 Cr (+11.87%); borrowings ₹2,05,306 Cr (+14.58%); PAT ₹4,273 Cr (+31.74%); GNPA 0.57% (1.71%); NNPA 0.01% (0.14%); PCR 99.85%; CRAR 26.39% (25.29%); sanctions ₹1,55,761 Cr; resources raised ₹65,315 Cr plus US$2.17 bn; 307 lines of credit worth US$27.25 bn across 63 countries; dividend ₹428 Cr (10% of PAT) [V-near-primary]. Net worth still not sourced.
+- **NABARD:** still not primary. nabard.org reset or 503'd on four curl and two fetch attempts. From search summaries of NABARD's own June-2025 results PDF: FY25 standalone PAT ₹7,628.33 Cr; paid-up capital ₹17,080 Cr; reserves ₹60,985.96 Cr (NW ~₹78,066 Cr). Keep "~₹10.96 lakh Cr balance sheet (Mar-26)" as V-snip. RRBs (supervised by NABARD) FY26: net profit ₹10,177 Cr; net worth ₹74,086 Cr; CRAR 15% [V-snip KNN/MoF].
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. IFCI principal maturities by fiscal year (₹ Cr; Mar-26 stock)** [V AR notes 17–18]
+FY27: 768.1 · FY28: 131.6 · FY29: 495.0 · FY30: 0 · FY31: 1,500.0 · FY32: 63.6 · FY33: 164.8 · FY34–FY41: 468.5 · Total 3,591.6. Chart note: label FY27's ₹468.55 Cr "repaid 1-Aug-2026".
+
+**D2. IFCI bond coupons (₹ Cr outstanding by coupon band, Mar-26)** [V AR]
+8.7–9.2% (infra and tax-free): 218.4 · 9.70–9.75% (private placements, ZCB): 2,033.1 · 9.90–9.98%: 620.6 · 10.10–10.75% (Tier II and old placements): 719.4. Weighted average 9.91%.
+
+**D3. SHCIL five-year (standalone, ₹ Cr)** [V-chart AR FY25; FY26 V IFCI AOC-1]
+PAT FY21 69 · FY22 137 · FY23 178 · FY24 264 · FY25 357 · FY26 526 | Net worth 2,684 · 4,553 · 5,956 · 6,445 · 13,305 · 13,655 | DPS (₹) 13.10 · 30.50 · 42.30 · 69.00 · 93.20 · n/s
+
+**D4. e-stamp certificates issued by SHCIL (crore)** [V AR FY25]
+FY24: 15.66 · FY25: 18.09 (+15.5%); States/UTs 25 (Mar-25)
+
+**D5. NaBFID quarterly NIM and ROA (%)** [V results]
+NIM: Q1 FY26 3.75 · Q2 3.91 · Q3 3.70 · Q4 3.58 · Q1 FY27 2.75 | ROA: 3.53 · 3.66 · 3.45 · 2.85 · 2.21 | CoB: 7.07 · 6.66 · 6.77 · 6.22 · 6.56
+
+**D6. NaBFID funding (₹ Cr)** [V balance sheets]
+Jun-25: loans 7,983 + debt securities 45,174 = 53,157 · Mar-26: 48,744 + 56,442 = 1,05,186 · Jun-26: 51,763 + 68,892 = 1,20,655
+
+**D7. Sovereign-lender cost of funds (%)** [V company; E where marked]
+NaBFID 6.56 (Q1 FY27) · HUDCO 6.95 (Q1 FY27) · PFC 7.50 (FY26) · SIDBI ~5.9 [E] · IFCI 9.91 (coupon) / 11.3 (accounting) [E from V]
+
+**D8. GNPA across the state lending system (%; latest company-stated)** [V unless noted]
+NaBFID 0.00 (Jun-26) · IRFC nil (Dec-25) · SIDBI 0.12 (Mar-26) · EXIM 0.57 (Mar-26) [near-primary] · REC 0.88 (Dec-25) · HUDCO 0.96 (Jun-26) · PFC 1.09 (Mar-26, standalone) · IREDA 3.75 (Jun-26) [V-snip/screener] · IFCI 95.68 (Jun-26)
+
+**D9. Capital adequacy (%)** [V]
+NaBFID 45.13 (Jun-26) · EXIM 26.39 (Mar-26) [near-primary] · REC 24.3 (Dec-25) · PFC 23.44 (Mar-26) · SIDBI 20.07 (Mar-26) · IFCI −17.58 (Jun-26)
+
+**D10. Loan books (₹ lakh Cr; latest)** — see the one-basis list in §4.2.4. Chart in two panels: the five-lakh-crore club (PFC consolidated 11.64; REC 5.81; SIDBI 5.80; PFC SA 5.8; IRFC 4.79) and the rest (EXIM 2.08; HUDCO 1.73; NaBFID 1.28; IREDA ~0.95; IFCI 0.04).
+
+**D11. IDBI price discovery (₹/share)** [V PIB]
+Unimpacted pre-EoI (Oct-2022) 42.40 · impacted pre-bid (Jan-2026) 108.12 · FY26 reserve 94.42 · first discovered bid 75 · pre-best-offer (May-2026) 70.38 · fair-value benchmark 75.99 · **winning bid 81.00** · market 23-Oct-2026 76.4 [V screener]
+
+**D12. Global DFIs (latest reported)** [KfW V; others V-snip]
+KfW (2025): total assets €540.7 bn; promotional volume €98.0 bn; equity €40.6 bn; consolidated profit €1.0 bn; CET1 27.7% · BNDES (2025): total assets R$962.5 bn; net income ~R$26.8 bn (recurring R$15.2 bn); credit portfolio R$663.6 bn · CDB (2025): total assets RMB 19.55 trn; net profit RMB 91.5 bn · JBIC: not sourced · For scale at ₹94.9/$ [E, indicative FX]: KfW ≈ US$630 bn; CDB ≈ US$2.7 trn; BNDES ≈ US$175 bn; NaBFID ≈ US$16.9 bn (₹1.61 lakh Cr balance sheet, Jun-26).
+
+**D13. NSE ownership changes in the IPO (selected sellers; shares held → offered)** [V NSE AP]
+SBI 7,98,47,050 → 1,59,69,410 · SBI Caps 10,72,50,000 → 87,80,590 · PSU general insurers: New India 3,52,00,000 → 1,05,00,000; GIC 4,07,00,000 → 61,87,500; United India 1,93,90,000 → 60,00,000 · **SHCIL 11,00,00,000 → 61,87,500** · Bank of Baroda 2,19,72,500 → 76,90,375 · CPPIB 3,95,80,200 → 1,18,74,060 · Aranda (Temasek) 11,24,63,356 → 1,12,46,336 · MS Strategic 2,97,60,000 → 1,10,00,000. **SHCIL sold only 5.6% of its holding**, the smallest proportion among the PSU sellers listed (SBI 20%, New India 30%, GIC 15%, United India 31%, BoB 35%).
+
+## 4.4 Gap log (each §H item and each task-brief gap)
+
+| # | Gap | Status | How / what was tried |
+|---|---|---|---|
+| G1 | SHCIL NSE shares sold in IPO and residual stake | **Filled** | 61,87,500 offered; holding 11,00,00,000; residual 10,38,12,500 (4.19%) — NSE abridged prospectus on SEBI [V]. Final allotment per seller not published, but the 5.7× subscription implies full sale |
+| G2 | SHCIL carrying value of NSE at Mar-26; NSE dividend received FY26 | **Mostly filled** | Mar-25 carrying ₹13,944.26 Cr (₹1,267.7/share) [V SHCIL AR FY25]; Mar-26 ~flat [E from IFCI Level-3 note]; FY26 NSE dividend ~₹385 Cr [E from IFCI related-party and consolidated dividend lines]. SHCIL FY26 AR not online |
+| G3 | IFCI Q1 FY27 and Q2 FY27 board dates | **Q1 filled (11-Aug-2026, V-snip); Q2 open** | BSE API blocked (403); ifciltd.com reset; screener list shows only the trading-window closure (30-Sep). The outer limit for Q2 results is 14-Nov-2026 |
+| G4 | NABARD FY26 PAT, net worth, CRAR | **Still open** | nabard.org connection reset ×4 (curl) and 503 ×2 (fetch); two searches found only FY25 (PAT ₹7,628.33 Cr) and the disputed Q1 figure |
+| G5 | EXIM FY26 from own release | **Largely filled (near-primary)** | Bank release text via PR-agency republication: PAT, loans, CRAR, GNPA, PCR, borrowings. Net worth missing; eximbankindia.in not tried (budget) |
+| G6 | NaBFID FY26 NIM/ROA/ROE, borrowings, bond split | **Filled** | Press release 6-May-2026 + Q1 FY27 results/balance sheet [V]. FY26 AR not online |
+| G7 | Peer loan books on one basis | **Filled for PFC, REC, IRFC, HUDCO (V); IREDA (V-snip)** | PFC transcript; CRISIL rationales; HUDCO PR; IREDA press |
+| G8 | IRFC cost of funds | **Partly** | Contract rule filled (incremental CoB + 35/40 bp; CRISIL [V]). Numeric CoB not found: irfc.co.in TLS error/503. Q2 FY27 NIM ~1.50% [V-snip] |
+| G9 | ECL and 2025-26 AIFI directions — applicability | **Filled (with caveat)** | RBI master-direction page (AIFI IRACP Directions 2025, updated 1-Oct-2026) [V]; NaBFID notes cite the AIFI capital adequacy, credit-risk transfer and financial-statement directions of 28-Nov-2025 [V]; bank ECL (1-Apr-2027) excludes AIFIs [V-snip]. The RBI PDF itself was served as HTML (blocked), so the applicability clause was not read verbatim |
+| G10 | IFCI NCLT/IBC outcomes; FY28+ maturities | **Maturities filled [V]; IBC partly** | Bond schedule and ALM table [V AR]. IBC: AR confirms no proceedings against IFCI and an SFIO petition naming IFCI. Case-by-case recoveries as financial creditor are not disclosed (only aggregates) |
+| G11 | SHCIL other shareholders | **Filled (category level)** | MGT-7 FY25: govt companies 84.78%, insurers 14.96%, public 0.26% [V]. Name-wise split of the 31.92% not legible on pages read |
+| G12 | Global DFI figures | **KfW filled [V]; BNDES/CDB V-snip; JBIC open** | KfW Financial Report 2025 fetched; one search each for BNDES and CDB |
+| G13a | PCR conflict | **Resolved** | Arithmetic from AR notes (S9) |
+| G13b | FY26 recoveries ₹536/₹576/₹537 Cr | **Explained** | AR ₹537 Cr = ICRA ₹536 Cr; CARE ₹576 Cr likely a wider definition. Use ₹537 Cr |
+| G13c | ICRA managed assets ₹7,312 vs ₹10,064 Cr | **Probably explained [E]** | ₹2,857 Cr PLI funds + ₹402 Cr SC fund are pass-through liabilities (AR note 19) |
+| §H-4 | Any GoI/Cabinet decision on IFCI consolidation after 14-Sep-2026 | **Still none found** | No filing in the screener announcement list through 23-Oct; ICRA/CARE remain on watch |
+| §H-7 | NaBFID chart readings | **Replaced by primary** | S17 |
+| §H-8 | PFC net-worth basis | **Resolved** | S14 |
+| §H-14 | IFCI residual stakes in ICRA, LICHF, TFCI | **Still open** | Not visible in the AR text searched; none appears among IFCI's Level-1 quoted investments (₹112.89 Cr total consolidated Level 1), so any residual is immaterial [E] |
+| Brief | NSE IPO terms primary | **Partly** | Share counts V (SEBI AP); price/subscription/listing V-snip (press). NSE's own listing notice not fetched |
+| Brief | IFCI >₹100 in Sep-2026 | **Unchanged (V-snip + screener 52-week high ₹108)** | Daily price series not fetched |
+| Brief | IREDA ₹672.74 Cr | **Corrected** (S29) | Four consistent press reports of the 10-Jul-2026 RBI filing |
+| Brief | DFI history (ICICI 2002, IDBI 2004) | **Unchanged [K]**; the PIB release confirms IDBI's PCA (5-May-2017 to 10-Mar-2021) [V] | — |
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+**Insights an expert would add**
+1. **IFCI's binding constraint is FY31, not FY27.** FY27–FY30 principal is only ₹1,395 Cr (₹468.55 Cr already repaid). That is within reach of recoveries (~₹540 Cr/yr) after interest of ~₹300–350 Cr/yr, with SHCIL dividends (~₹167 Cr/yr) as a buffer. Then **₹1,500 Cr falls due in six months (May–Oct 2030)**. Without the merger or a GoI cheque before then, IFCI's own cash cannot meet that wall. This gives the consolidation a hard deadline the market has not discussed [E from V].
+2. **SHCIL sold little.** SHCIL offered only 5.6% of its NSE shares (61.9 lakh of 11.0 crore). SBI sold 20%, New India 30% and Bank of Baroda 35%. Its quantity was also cut by 47 lakh between DRHP and RHP. So most of the value is still there (₹17,337 Cr at ₹1,670), and still trapped behind the 47% minority until the merger. The low sale is consistent with keeping the stake intact for the merged entity, or with letting IFCI/GoI decide later [E].
+3. **Q2 FY27 consolidated results will look bigger than they are.** The Q2 NSE dividend lands every year. The FVOCI listing gain (~₹4,180 Cr pre-tax at SHCIL at ₹1,670) will swell OCI and book value, not P&L. Parent book value per share could jump from ₹33.2 to ~₹40 [E], which would mechanically cut the reported P/B (1.78× → ~1.5×) without any change in economics. Warn readers in advance.
+4. **The three PCR numbers matter for the "how bad is it" sentence.** On the RBI basis (84.0%), IFCI is better provided than the headline 72–73% suggests. Net NPA of ₹574 Cr is the remaining book-value-at-risk, and it is less than one year of recoveries.
+5. **NaBFID's economics are normalising fast.** Q1 FY27 NIM 2.75% (from 3.91% in Q2 FY26) and ROA 2.21%. The "ROE 11% at 45% CRAR" story is a phase, not a steady state. As leverage rises towards the 0.9%-of-GDP target book, NaBFID will look more like a well-rated refinance AIFI (ROA 1–2%) than a super-profitable lender. That makes the IFCI-vs-NaBFID contrast about design (free capital, guarantee, tax holiday) rather than permanent outperformance [E from V].
+6. **The state fixes old DFIs by selling or merging them, never by recapitalising them to grow.** IDBI was sold at a price set against a fair-value benchmark (₹81 vs ₹75.99) after a failed round. PFC absorbs REC at 88:100 into a "Government Company". IFCI awaits a merger with its own subsidiary. All three are portfolio restructurings in which GoI keeps control or monetises, and none involves fresh growth capital [V/E].
+7. **IFCI's balance sheet carries ₹3,259 Cr of government scheme money** (PLI disbursement float and SC credit-guarantee fund). It explains the managed-assets mismatch and inflates total assets by a third. It is also a quiet source of float and a reason GoI values the institution's administrative role [V/E].
+8. **Shiga Energy links IFCI and PFC.** IFCI holds 28.43% of Shiga Energy as an associate held for sale. Shiga's ₹522 Cr loan is one of PFC's last Stage-3 assets, with resolution "awaiting co-lender approval" [V]. A resolution would help both institutions; it is small but concrete.
+
+**New primer issues (primers/ifci.html)** — append to the §3.4 list:
+- **ifci.html — NSE look-through numbers:** use the primary count: SHCIL held **11,00,00,000 NSE shares (4.44%)**, sold **≤61,87,500** in the Sep-2026 OFS and now holds **10,38,12,500 (4.19%)**. The look-through for IFCI at ₹1,670 is **~₹9,750 Cr pre-tax (incl. ₹1,104 Cr OFS cash × 52.86%)**, not "₹10,000 Cr+" and not "~110 m shares at 4.44%". Source: NSE abridged prospectus (SEBI).
+- **ifci.html — liquidity/debt box:** add the maturity ladder from the FY26 AR: FY27 ₹768 Cr (₹469 Cr repaid 1-Aug-2026), FY28 ₹132 Cr, FY29 ₹495 Cr, FY30 nil, **FY31 ₹1,500 Cr**. Weighted coupon ~9.9%. No bank borrowings.
+- **ifci.html — e-stamping footprint:** "24 states and union territories" → **25 States/UTs** (SHCIL AR FY25). "~half a million transactions a day" is consistent with **18.09 crore certificates in FY25** (≈4.96 lakh/day); cite it.
+- **ifci.html — SHCIL ownership:** if the primer describes the SHCIL minority, it is **state-owned insurers and SU-UTI** (govt companies 84.78% incl. IFCI; insurers 14.96%; public 0.26%), not banks.
+- **ifci.html — PCR wording:** if PCR is quoted, state the basis. AR 73.16% is Stage-3 ECL ÷ gross Stage 3; RBI-basis NPA provisions ÷ GNPA is ~84%.
+- **ifci.html — governance:** NSE and BSE fined IFCI ₹77.5 lakh in FY26 for board composition (shortfall of independent directors); the IDs' meeting could not be held. Auditors could not review PLI and SDF files (ministry instruction). Worth a line in the risks section.
+- **ifci.html — NaBFID comparison:** NaBFID's FY26 NIM was 3.72% and ROE 11.5%, but **Q1 FY27 NIM fell to 2.75% and ROA to 2.21%**. Avoid implying NaBFID's current returns are permanent.
+- **ifci.html — IDBI read-across (if added):** Fairfax bid **₹81/share** vs ₹75.99 fair value; GoI keeps 15% and LIC 19% (PIB, 14-Oct-2026).
+
+**Notes for other primers touched by this pass (flag to their owners; not edited here)**
+- *IREDA primer (if any):* the ₹672.74 Cr fraud is **Gensol Engineering ₹453.77 Cr + Gensol EV Lease ₹218.97 Cr**, reported to RBI on 10-Jul-2026 and 85% provided at Mar-26. It was not "three cases disclosed 19-Oct".
+- *HUDCO primer:* FY26 PAT +48.9% is a tax effect. **PBT fell 11%**, and Q4 FY26 carried a ~₹1,360 Cr tax credit. Latest loan book ₹1,73,123 Cr (Jun-26), GNPA 0.96%, CoB 6.95%.
+- *PFC/REC primers:* swap ratio **88 PFC : 100 REC**; merged entity targeted from 1-Apr-2027; PFC consolidated loan book ~₹11.64 lakh Cr; PFC standalone GNPA (credit-impaired) 1.09%, not 0.66%.
+
+*End of Part 4.*
+
+---
+
+# PART 5 — Orchestrator re-add of aggregates (2026-10-23; applies Part 4 Supersedes S14)
+
+I re-added every Part 3 aggregate from the company rows. The Part 3 sums (revenue, PAT, total assets, borrowings, m-cap) are arithmetically correct. **One basis error is fixed:** screener's consolidated "Net Profit" for PFC (₹33,625 Cr) and IFCI (₹435 Cr) is total PAT including non-controlling interests, while the Part 3 net-worth column used attributable equity (PFC ₹1,32,861 Cr; IFCI ₹8,944 Cr). Mixing them overstated the set's ROE and P/B. **On ONE basis (total PAT ↔ total equity incl. NCI ↔ m-cap incl. the REC minority's market value):**
+
+| Group (FY26; m-cap 23-Oct-2026) | Revenue | PAT (total) | Net worth incl. NCI | Total assets | M-cap* | ROE (PAT ÷ NW) | ROA | P/E | P/B |
+|---|---|---|---|---|---|---|---|---|---|
+| All six listed sovereign lenders (PFC group, IRFC, IREDA, HUDCO, IDBI, IFCI) | 1,95,321 | 56,214 | 3,50,019 | 25,15,857 | 3,92,553 | 16.1% | 2.23% | 6.98× | 1.12× |
+| NBFC five (ex-IDBI) | 1,66,301 | 46,977 | 2,81,455 | 20,48,471 | 3,10,437 | 16.7% | 2.29% | 6.61× | 1.10× |
+| Ex-IFCI five | 1,93,244 | 55,779 | 3,34,515 | 24,89,287 | 3,76,608 | 16.7% | 2.24% | 6.75× | 1.13× |
+| IFCI alone (cons.) | 2,077 | 435 | 15,504 (8,944 parent + 6,560 NCI) | 26,570 | 15,945 | 2.8% | 1.64% | 36.7× (88.9× on owners' ₹181 Cr) | 1.03× (1.78× on parent book) |
+
+Company rows used: PFC 1,15,450 / 33,625 / 1,73,441 / 12,44,579 / m-cap 1,03,986 + 36,392 (47.37% × REC 76,824) · IRFC 27,285 / 7,009 / 56,749 / 5,16,676 / 96,772 · IREDA 8,339 / 1,874 / 13,785 / 93,808 / 28,134 · HUDCO 13,150 / 4,034 / 21,976 / 1,66,838 / 29,208 · IDBI 29,020 / 9,237 / 68,564 / 4,67,386 / 82,116 (NCI negligible) · IFCI 2,077 / 435 / 15,504 / 26,570 / 15,945.
+*M-cap includes the REC minority's market value because REC's full profit sits in PFC's consolidated PAT. Ratios are ratios of sums. Label the set ratios INDICATIVE.
+
+**Writer rule:** quote IFCI's headline P/E and P/B on the screener/owners basis (88.9×, 1.78×) because that is what the market quotes, but compare it with the set on the like-for-like basis above (or compare owners' P/E 88.9× with peers' screener P/Es individually). Do not print "set P/B 1.30×" or "set ROE 18.6%" from Part 3.
+
+**Other Part 3 items superseded by Part 4:** PFC GNPA basis (S15), EXIM (S16), NaBFID (S17), HUDCO PAT growth is tax-led (S21), IREDA fraud (S29), NSE look-through ₹9,748 Cr pre-tax (S4), SOTP (Part 4 §4.2.1).
