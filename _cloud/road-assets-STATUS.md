@@ -1,1 +1,1 @@
-claimed 2026-10-23T14:37:18Z, in progress (resume) — phase 1 dossier done 15:05Z; phase 1c next
+claimed 2026-10-23T14:38Z, in progress (resume) — phase 1c done 15:32Z, writer next

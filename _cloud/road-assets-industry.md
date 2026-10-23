@@ -1244,3 +1244,737 @@ Hand-check: EPC Q1 FY27 revenue 1,500 + 1,688 + 588 + 1,101 + 2,784 + 2,378 = 10
 - Q2 FY26 IRB results date (snippet): https://www.business-standard.com/amp/companies/quarterly-results/irb-infra-q2-results-net-profit-rises-41-to-141-cr-revenue-grows-11-125111201026_1.html
 
 *End of dossier.*
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-23)
+
+Second, primary-source pass on Parts 1–3. About 64 web calls, no subagents. Scratch notes: `/tmp/road-assets-deep/00-plan.md`; downloaded source files in `/tmp/road-assets-deep/dl/`.
+
+**Primary documents read this pass:**
+- **IRB:**
+  - FY26 Integrated Annual Report, 241 pages. BSE: `https://www.bseindia.com/xml-data/corpfiling/AttachHis/564705ec-3512-4a4a-a7a7-9846a93f2428.pdf`. Sections read: MD&A, Note 36 contingent liabilities, Note 38 related parties, Note 39 segments, Note 47 capital management, the borrowings notes, and the service-concession disclosures.
+  - Q1 FY27 investor presentation and the Q1 FY27 call transcript (30-Jul-2026), both re-read in full.
+  - Monthly toll press releases for July, August and September 2026 (irb.co.in).
+  - CARE Ratings rationale of 5-Oct-2026, plus the 6-Oct exchange intimation.
+  - Screener consolidated history: FY15–FY26 and 13 quarters.
+- **IRB InvIT:**
+  - Unitholding pattern after the 5-Oct-2026 issue (BSE `5443b5e0…`).
+  - Institutional-placement release of 29-Sep-2026.
+- **Cube Highways Trust:** Q1 FY27 investor presentation and call transcript (cubehighwaystrust.com).
+- **NHIT:** Q1 FY27 investor presentation (nsearchives).
+- **Reference developers:**
+  - Ashoka, G R Infra and PNC Q1 FY27 call transcripts (BSE AttachHis).
+  - PNC's board-meeting intimation of 17-Oct-2026.
+  - Screener pages for Ashoka, PNC, GR and Indus Infra Trust (BSE 544137).
+- **Government:**
+  - MoRTH Annual Report 2025-26. The PDF is scanned, so pages were rendered and read: Ch. II, Ch. III §3.4–3.12 and Appendix 8.
+  - NHAI press release of 1-Apr-2026.
+  - IHMCL ETC transaction-reports page and IHMCL Annual Report 2025-26.
+  - SEBI (InvIT) Regulations 2014, as amended to 16-Oct-2026 (sebi.gov.in PDF).
+  - newsonair.gov.in WPI release of 14-Oct-2026.
+- **Ratings and research:** CRISIL press release of 14-May-2026 on road InvIT AUM.
+- **Secondary (fetched):**
+  - Swarajya (Rajya Sabha toll reply, 30-Jul-2026).
+  - Autocar Pro (ICRA toll outlook, 31-Aug-2026).
+  - Business Today (Rajya Sabha reply, 15-Dec-2021, user fee FY17–FY21).
+  - stockanalysis.com statistics pages (global EV/EBITDA).
+  - Swarajya (MSRDC 10-lane plan, 28-Jun-2026).
+- **Blocked or failed:**
+  - NPCI NETC statistics (403 / JavaScript page). IHMCL publishes the same FASTag series and was used instead.
+  - eaindustry.nic.in: TLS failure; the WPI figures come from AIR/newsonair instead.
+  - MoRTH monthly summaries (single-page app; no file served).
+  - BSE API (403).
+  - Rajya Sabha and Lok Sabha PDF archives (sansad redirect).
+  - data.gov.in (403).
+  - Business Standard (403).
+
+**Tags in Part 4:**
+- **[V]** = fetched this session from the named primary document (company filing, regulator, ministry, rating agency).
+- **[V-sec]** = fetched this session, but from a secondary outlet quoting a primary source.
+- **[V-snip]** = search-result summary only.
+- **[V-P1]** = verified in Parts 1–3 and not re-fetched here.
+- **[E]** = estimate or arithmetic.
+- **[K]** = from memory.
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Where in Parts 1–3 | Old value | New value | Source / note |
+|---|---|---|---|---|
+| S1 | Trap 4, §2.1 pack, §3.2(c), E12 | IRB company net debt **~₹11,100 Cr [E, derived from 0.53×]** | **₹11,057 Cr (₹110,572 mn) at 31-Mar-2026**; **~₹10,700 Cr at 30-Jun-2026** (₹107 bn) | [V] IRB AR FY26 p.~20 ("Net Debt: ₹110,572 Mn"); [V] Q1 FY27 deck p.12 chart. The figure is now printed, not derived. |
+| S2 | E12 net-debt/equity series | FY22 0.89×, **FY23 0.88×, FY24 0.75×**, FY25 0.59×, FY26 0.53× | **FY23 0.75× (net debt ₹101 bn / NW ₹134 bn); FY24 0.88× (₹120 bn / ₹137 bn)**; FY25 0.59× (₹117 bn / ₹198 bn); FY26 0.53× (₹111 bn / ₹209 bn); Q1 FY26 0.58×; Q1 FY27 0.51× | [V] Q1 FY27 deck p.12. FY23 and FY24 were swapped in Part 1. The deck does not show FY22, so drop "FY22 0.89×" or keep it as [K]. |
+| S3 | New caveat on S1 | — | **The Ind AS capital-management definition gives net debt of ₹19,784 Cr** (long-term borrowings ₹19,563 Cr + short-term ₹567 Cr − cash ₹346 Cr; gearing 48.6%). The ₹11,057 Cr KPI also nets off liquid investments. | [V] AR Note 47. State which definition is used. Cash fell from ₹1,860 Cr (Mar-25) to ₹346 Cr (Mar-26). |
+| S4 | §2.2 toll table FY15–FY19 | FY15 ~17,900; FY16 ~19,000; **FY17 ~22,000; FY18 ~23,700; FY19 ~25,200** (all [K]) | **NHAI fee-plaza user fee: FY17 ₹17,942 Cr; FY18 ₹21,948 Cr; FY19 ₹24,396 Cr**; FY20 ₹26,851 Cr; FY21 ₹27,744 Cr | [V-sec] Gadkari, Rajya Sabha written reply, reported by Business Today 15-Dec-2021. FY20–FY21 differ slightly from PRS (27,504 / 27,927), a scope difference. **Delete the FY15 and FY16 values:** they cannot exceed FY17's ₹17,942 Cr on a rising series. FY15–FY16 remain open. |
+| S5 | §2.4 awards/construction [K] | FY22–FY25 awards and construction [K] | **Now [V]:** awards FY22 12,731; FY23 12,376; FY24 8,581; FY25 7,538 km. Construction FY22 10,457; FY23 10,331; FY24 12,349; FY25 10,660 km. Pace 29.2 km/day (FY25) vs 16.6 (FY16) and 12.1 (FY15). | [V] MoRTH AR 2025-26 pp.10–11; [V] IRB AR MD&A (citing PIB). FY16–FY21 chart labels are low-resolution: FY17 15,948; FY18 17,055; FY19 5,493; FY20 8,948 awards (agree with [K]). |
+| S6 | §2.4 FY26 row | Construction "~9,380 km" (ICRA, the only source) | **MoRTH: 4,989 km built and 2,257 km awarded in Apr–Dec 2025** (9 months). **NHAI alone: 5,313 km built in FY26 vs a 4,640 km target.** ICRA's full-year MoRTH figure of 9,380 km implies ~4,400 km in Q4 FY26. | [V] MoRTH AR p.10; [V] NHAI press release 1-Apr-2026; [V-sec] ICRA. |
+| S7 | §2.3 NHAI budget | NHAI ₹1,70,266 Cr (FY26 RE) presented as the whole NHAI budget | Keep the PRS line items, but note that **NHAI's own figure for FY26 Government Budgetary Support is ₹2,38,384 Cr, and FY26 NHAI capex was ₹2,44,362 Cr** (₹5,978 Cr from own resources). The PRS "NHAI" head understates total budget flow to NHAI, which also gets money through other heads (e.g. Bharatmala/NH(O)). | [V] NHAI press release 1-Apr-2026; [V] MoRTH AR p.25 (₹1.90 lakh Cr released to NHAI to Dec-2025). |
+| S8 | §2.6 monetisation split | "TOT ₹58,265 Cr; InvIT ₹43,638 Cr; SPV ₹50,125 Cr = ₹1,52,028 Cr (Jul-2025)" | **MoRTH year table to FY25: TOT ₹48,995 Cr (11 bundles, 2,564 km); InvIT ₹43,638 Cr (4 rounds, 2,345 km); project-based financing ₹50,125 Cr; total ₹1,42,758 Cr.** Adding FY26's ₹28,307 Cr (NHAI) gives **exactly ₹1,71,065 Cr**, the IRB deck figure. PRS's ₹1,52,028 Cr = ₹1,42,758 Cr + TOT-17's ₹9,270 Cr. | [V] MoRTH AR pp.26–27; [V] IRB AR MD&A. No conflict, only different cut-off dates. |
+| S9 | §2.6 FY26 monetisation | ₹28,078 Cr (ICRA) | **₹28,307 Cr (NHAI, via IRB AR text)**; the IRB AR chart shows **₹28,077.9 Cr** = InvIT (Public) ₹9,500 Cr + InvIT (Private) ₹6,220.9 Cr (NHIT R5) + TOT ₹12,357 Cr (TOT-17 + TOT-18) | [V] IRB AR. Use ₹28,307 Cr for the reconciliation in S8 and ~₹28,100–28,300 Cr in prose. |
+| S10 | Trap 7, §7.2, §9.1, C | HAM interest "bank rate + 3%"; 40% "in 5 milestone tranches" | **40% of bid project cost, adjusted by the Price Index Multiple, is paid in 5–10 equal instalments during construction. 60% is paid in 30 half-yearly instalments from the 180th day after COD. Interest runs on the reducing balance at the Bank Rate *or* the average 1-year MCLR of the top-5 scheduled commercial banks, plus 1.25%–3%** (depending on MCA vintage). O&M is repriced half-yearly on the inflation index. | [V] IRB AR FY26 service-concession note (VM7, Pathankot–Mandi, Chittoor–Thachur). |
+| S11 | §2.6, §7.5 SEBI leverage | "Cap 49%; up to 70% with AAA and six years of continuous distributions" | **Cap 70% of InvIT asset value** (net consolidated borrowings + deferred payments of InvIT, holdco and SPVs). **Above 25%:** credit rating + unitholder approval. **Above 49%:** AAA issuer rating + use of funds only for acquisition/development (widened by SEBI's May-2026 circular to include capex, major maintenance and refinancing) + **≥6 continuous distributions (counting at most one per quarter), not six years** + unitholder approval under Reg 22(5A). | [V] SEBI InvIT Regulations Reg 20(2)–(3), as amended to 16-Oct-2026. |
+| S12 | §7.5 sponsor holding | "Minimum 15% for 3 years post-listing (lowered for later years) [K]" | **Sponsor plus sponsor group: ≥15% for years 1–3; ≥5% for years 4–5; ≥3% for years 6–10; ≥2% for years 11–20; ≥1% after year 20. The value required is capped at ₹500 Cr (at NAV)** (Reg 12(3)/(3A), w.e.f. 18-Aug-2023). Distribute ≥90% of NDCF at SPV and InvIT level (Reg 18(6)). | [V] SEBI regs. **IRB InvIT (listed May-2017, now in year 10) needs only 3%. IRB's 16.12% is voluntary.** |
+| S13 | §2.6, §9 IRB InvIT units / m-cap | "128.16 Cr units + Sep-26 QIP; screener m-cap ₹6,225 Cr stale" | **165.31 Cr units outstanding** (1,653,050,316) after the 25/29-Sep-2026 allotments. **IRB holds 26.64 Cr units = 16.12%**; sponsor group 17.13%. **M-cap ≈ ₹10,084 Cr at ₹61** [E]. IRB's stake ≈ ₹1,625 Cr at market. | [V] IRB InvIT unitholding pattern (BSE, 5-Oct-2026). CARE quotes 16.57% at 31-Mar-2026 (before the issue). |
+| S14 | §2.6 table; §1.1 | "Bharat Highways InvIT (GR) — screener failed"; "Indus Infra Trust (Bharat Highways? / Sadbhav-linked) [K; FLAG]" | **Bharat Highways InvIT has been renamed Indus Infra Trust (BSE 544137).** M-cap ₹7,554 Cr at ₹124 (BV ₹107); FY26 revenue ₹757 Cr, OP ₹421 Cr, PAT ₹295 Cr; borrowings ₹3,688 Cr. It bought KNR Ramanattukara on 5-Oct-2026. | [V] screener /company/544137/. These are not two separate trusts. |
+| S15 | §2.6, E17 Cube lane-km | 8,819 lane-km / 2,021 km (Jun-25); 8,754 (IRB chart) | **8,442 lane-km / 1,927 km across 26 operating road assets (Jun-26)**; 27 InvIT assets (9 BOT/DBFOT, 9 TOT, 6 HAM, 3 annuity). The WUPTPL concession expired on 23-Jun-2026. AUM ₹36,659 Cr; EV ₹36,659 Cr; net debt ₹16,558 Cr (45.17%); units 134.4 Cr; NAV ₹149.56. | [V] Cube Q1 FY27 deck pp.3, 20. |
+| S16 | §7.3, trap 9, §2.6 Cube | Annual-pass compensation "₹108 Cr vs '₹1,081 crore' ambiguity" | **₹1,081 mn = ₹108.1 Cr in Q1 FY27 = 11.8% of Cube's tolled revenue (₹918.1 Cr).** Private-car pass adoption ~32%; compensation receivable days 42. | [V] Cube deck p.3 footnote 3 and call transcript. |
+| S17 | §7.3 annual-pass uptake | ">77 lakh passes, >63 crore transactions; ~33% of car ETC transactions (Jun-26)" | **83.3 lakh passes sold and 71.1 crore transactions by Jul-2026; pass transactions ≈ 20% of *all* FASTag transactions** (the 33% figure is car-only, so both can stand). | [V] IHMCL Annual Report 2025-26 §6. |
+| S18 | §7.6, §11 MLFF | "17 plazas awarded, 5 operational" | **6 MLFF plazas live as of 1-Aug-2026**; Choryasi (Surat) was first on 1-May-2026; Mundka inaugurated 11-May-2026. | [V] IHMCL AR 2025-26. |
+| S19 | Part 1 header table, §2.6 conflict 10 | PNC Q2 board "25-Oct vs 25-Nov" | **Wednesday 25-Nov-2026 (Agra)**. 25-Oct-2026 is a Sunday; the "25-Oct" reading was a typo in a summary. | [V] PNC letter dated 17-Oct-2026 (BSE `514e6e43…`). |
+| S20 | Ratings (Part 1 header item 1; §2.1; conflict 9) | "CARE AA on bank lines vs issuer AA- (deck); confirm" | **CARE assigned AA/Stable (₹459 Cr long-term) and A1+ (₹50 Cr short-term) to IRBIDL bank facilities on 5-Oct-2026.** The basis is the **combined IRBIDL + MRM** financials; MRM is also CARE AA. The deck's "AA- by domestic agencies" predates this assignment (it refers to India Ratings or older ratings). **Use "CARE AA (Oct-2026)" for IRB's domestic rating**; IND AA- is unverified. | [V] CARE press release 5-Oct-2026 (revised). |
+| S21 | §5.2, §12, §3.3 promoter drop 34.39% → 30.42% | "Cause not researched (block sale / QIP?)" | **Block deals of 30-May-2024 (about 24 Cr pre-bonus shares, ~4%, reported sellers IRB Holding and Deepali Mhaiskar, ₹63–72.7 band) and a Cintra block of up to ~5% around 11-Jun-2024.** Public holding rose 10.59% → 17.46%; shareholders 8.69 → 16.99 lakh; FII 47.21% → 44.47%. | [V screener shareholding] + [V-snip Business Standard 30-May and 11-Jun-2024]. Seller names come from press reports, not exchange filings. |
+| S22 | §0, §2.1, B1 AUM target | "AUM ₹80,000 Cr → ~₹1,40,000 Cr **by FY30**" | **Road AUM ₹80,000 Cr → ~₹1,40,000 Cr in 3 years (deck) / 3–4 years (call).** The FY30 targets are separate: net debt 0.6× → 0.0×, cash ROE 8% → 14%+, PAT CAGR 25%. | [V] Q1 FY27 deck p.7; [V] call 30-Jul-2026. |
+| S23 | Trap 2, §2.1 | FY26 exceptional "−₹42.6 Cr" (nature not stated) | **The −₹42.65 Cr is a past-service gratuity cost** (₹426.54 mn) booked as an exceptional item. | [V] AR Note 37. |
+| S24 | §2.1 dividend FLAG, §3.3 | "~₹0.31/share on 604 Cr shares vs screener DY 0.95% — FLAG" | **1:1 bonus approved 13-Feb-2026 and allotted 2-Apr-2026; shares now 1,207.8 Cr.** FY26 dividend of ₹187 Cr ≈ ₹0.155/share post-bonus → **0.96% yield at ₹16.2, matching screener**. The FLAG is resolved. Screener's EPS, BV ₹17.3 and m-cap are already on the post-bonus count. | [V] AR Note 35 (bonus); [E] arithmetic. |
+| S25 | B3, §G (MPEW 2.0) | "₹8,262 Cr for 10 years [K]" | **₹8,262 Cr = ₹6,500 Cr upfront + ₹850 Cr (year 2) + ₹850 Cr (year 3) + ₹62 Cr (year 4).** Period **10 years 2 months, 1-Mar-2020 to 30-Apr-2030**; concessionaire IRB MP Expressway Pvt Ltd (MSRDC). | [V] AR service-concession note (TOT disclosure). |
+| S26 | §2.6 NHIT sponsor | "NHAI ~10%" | **Keep ~10%** (NHIT deck, Aug-2026). The MoRTH AR 2025-26 text says "16 percent", which is probably a pre-R4/R5 figure. | [V] NHIT deck p.4; [V] MoRTH AR p.27. NHIT is the issuer and the later source. |
+| S27 | §1.1, §12, C.1 (April-2027 toll revision) | "~6.3% (ICRA: WPI Dec-26 at 8–8.5%)" | **WPI was 11.39% in Sep-2026 (Aug 9.92%; H1 FY27 average 9.85%).** If December-2026 WPI is 9–12%, the formula gives **~6.6–7.8%** for post-2008 concessions (before ₹5 rounding). ICRA's 6.2–6.4% looks low. | [V] newsonair.gov.in 14-Oct-2026; [V-sec] ICRA; [E] arithmetic. |
+| S28 | §9.2 WOS HAM concession ends | Pathankot–Mandi Dec-2040; Chittoor–Thachur Nov-2040 | **Contractual ends (17 years from appointed date):** VM7 8-Nov-2038; Pathankot–Mandi 16-May-2039; Chittoor–Thachur 22-Jan-2040. The deck's Dec-2040 / Nov-2040 dates include expected extensions. | [V] AR; [V] deck footnote "*Including extensions". |
+| S29 | §2.1, §3.3 order book | ₹44,100 Cr (Jun-26) only | Keep ₹44,100 Cr (company, Jun-26). Add **CARE: ~₹44,858 Cr, 95% O&M; EPC ₹2,059 Cr at 31-Mar-2026**; two-year executable ~₹4,300 Cr. | [V] CARE PR. |
+| S30 | B1 distributions to IRB | FY26 ₹297 Cr (IRBIT ₹181 Cr + IRB InvIT ₹116 Cr) | Keep the company figure, but **CARE counts ₹207 Cr in FY26 and ₹136 Cr in Q1 FY27** (likely cash received at standalone level). CARE expects **holdco inflows of ₹1,200 Cr+** a year including MPEW upstreaming. | [V] CARE PR. Name the basis. |
+| S31 | §10 global lens | P/E only; "EV/EBITDA not fetched" | **EV/EBITDA (TTM, stockanalysis 23-Oct-26): Ferrovial 25.5× (EV US$44.9 bn); Transurban 28.3× (EV A$63.4 bn); Vinci 6.3× (EV €88.2 bn; a conglomerate dominated by construction); Atlas Arteria n.m.** (equity-accounted APRR stake). | [V-sec] stockanalysis statistics pages. |
+| S32 | §5.2 shareholders | Cintra 19.9%, GIC 16.9% | **Cintra 19.86%, GIC affiliates 16.94%, promoters 30.81% (30-Jun-2026)** | [V] CARE PR. |
+| S33 | §1.1, §5.1, B1 IRB portfolio count | "27 revenue assets" | CARE: **28 projects = 18 BOT + 6 TOT + 4 HAM**; 17,355 lane-km, of which 780 are under construction | [V] CARE PR. Use "28 projects (27 revenue-generating)". |
+| S34 | §7.3 (scope of the annual pass) | Implied for all IRB assets | **The pass applies only at NH/NE fee plazas.** **MPEW (an MSRDC state expressway) and Hyderabad ORR (HMDA)** are state concessions and appear to be outside it. Together they were ~42% of WOS+IRBIT FY26 toll (₹27,325 mn of ₹64,057 mn) and ~33% of group toll. | [E] from the §9.2 table; scope per the NH Fee Rules amendment [V-P1]. FLAG: confirm with IRB. |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+Columns:
+- **Fetched?** The tag for this session. Only [V] counts as primary.
+- **Agrees with P1–3?** ✓ = agrees; Δ = changed (see the 4.0 row); + = new.
+
+| # | Figure | Value | Primary source (URL / document) | Fetched? | Agrees with P1–3? | Second source / credibility note |
+|---|---|---|---|---|---|---|
+| 1 | NH + expressway toll, FY26 | ₹70,278 Cr (user fee ₹68,483 Cr + annual pass ₹1,795 Cr); 1,209 plazas | Gadkari reply to Kharge, Rajya Sabha (Jul-2026) via swarajyamag.com 30-Jul-2026 | V-sec | ✓ | The ₹68,483 Cr split is arithmetic, not printed in the article. IHMCL FASTag FY26 is ₹82,342 Cr, but that includes state-highway plazas (row 3), so it is a different scope, not a conflict. |
+| 2 | NH toll, FY22 | ₹33,929 Cr; 733 plazas | Same RS reply; PRS DfG Table 5 | V-sec | ✓ | Two independent routes (RS reply, PRS) agree. |
+| 3 | FASTag ETC collection (NH + MoRTH + SH plazas) | FY25 ₹72,390 Cr → **FY26 ₹82,342 Cr (+13.7%)**; 41,638 → 47,817 lakh transactions (+14.8%); FY27 to Sep-26 ₹43,074 Cr / 25,946 lakh | ihmcl.co.in/etc-transaction-reports/ (updated 14-Oct-2026); IHMCL AR 2025-26 | **V** | + (fills §H-6) | IRB AR MD&A quotes the same ₹82,342 Cr / 47,817 lakh. |
+| 4 | NHAI fee-plaza user fee FY17–FY21 | 17,942 / 21,948 / 24,396 / 26,851 / 27,744 ₹ Cr | Rajya Sabha reply (Gadkari) via Business Today 15-Dec-2021 | V-sec | Δ S4 | PRS gives FY20 27,504 and FY21 27,927 (different scope). |
+| 5 | ICRA toll growth | FY26 ~10% (traffic ~6%); FY27e 7–9% (traffic 4.5–5.5%, rate 3.4–4%); FY28e 10–12% | autocarpro.in 31-Aug-2026 (ICRA) | V-sec | ✓ | ICRA itself not fetched. |
+| 6 | April-2027 toll revision | ICRA 6.2–6.4% (new) / 4.5–5.5% (old); **our range 6.6–7.8% if Dec-26 WPI is 9–12%** | ICRA via Autocar; WPI via newsonair | V-sec + E | Δ S27 | Sep-26 WPI of 11.39% is far above ICRA's 8–8.5% assumption. |
+| 7 | WPI inflation | Sep-2026 **11.39%** (Aug 9.92%; H1 FY27 9.85%; fuel & power 25.85%); Dec-2025 0.83% | newsonair.gov.in 14-Oct-2026 (All India Radio, GoI); Dec-25: Statesman/Swarajya snippets | **V** (Sep) / V-snip (Dec) | + | eaindustry.nic.in not reachable (TLS). |
+| 8 | 1-Apr-2026 toll revision | ~2.5% realised (₹5 rounding); ~3% at IRBIT; formula 3% + 0.4 × 0.83% = 3.33% before rounding | IRB call 30-Jul-2026; WPI Dec-25 | **V** + E | ✓ | Consistent. |
+| 9 | Monetisation by year (MoRTH) | FY19 9,682; FY20 0; FY21 15,824; FY22 22,262; FY23 25,112; **FY24 41,154 (peak)**; FY25 28,724; total ₹1,42,758 Cr | MoRTH Annual Report 2025-26, p.27 (rendered) | **V** | + | IRB AR chart: FY24 ₹41,079 Cr (minor difference). |
+| 10 | Cumulative monetisation to Mar-2026 | **₹1,71,065 Cr** | IRB Q1 FY27 deck p.33 (citing MoRTH); reconciles as ₹1,42,758 Cr + ₹28,307 Cr | **V** | ✓ (now reconciled) | Exact arithmetic match. |
+| 11 | FY26 monetisation | ₹28,307 Cr (NHAI); chart ₹28,077.9 Cr; ICRA ₹28,078 Cr | IRB AR MD&A (citing NHAI) | **V** | Δ S9 (small) | Both are fine; ₹28,307 Cr reconciles row 10. |
+| 12 | TOT-1 (2018) price | ₹9,681.5 Cr (FY19, the only TOT that year) | MoRTH AR p.27 (FY19 TOT ₹9,682 Cr); IRB AR chart ₹9,681.50 Cr | **V** | ✓ (was [K]) | Two primary sources. |
+| 13 | NMP 2.0 roads target; FY27 monetisation target | ₹4.42 lakh Cr over FY26–30; >₹30,000 Cr in FY27; NHAI identified 17 projects / 1,692 km in 9 states for FY27 | IRB deck p.33; IRB AR MD&A | **V** | ✓ (+1,692 km) | The deck also says "~2,068 km via TOT"; the two are different lists. |
+| 14 | NHAI FY26 construction and capex | 5,313 km (target 4,640); capex ₹2,44,362 Cr; GBS ₹2,38,384 Cr | NHAI press release 1-Apr-2026 (nhai.gov.in) | **V** | + | IRB AR quotes the same 5,313 / 4,640. |
+| 15 | MoRTH FY26 to Dec-2025 | 4,989 km built; 2,257 km awarded | MoRTH AR 2025-26 p.10 | **V** | + (Δ S6) | ICRA's full-year 9,380 km implies a heavy Q4. |
+| 16 | MoRTH awards FY22–FY25 | 12,731 / 12,376 / 8,581 / 7,538 km | MoRTH AR p.10–11; IRB AR MD&A (PIB) | **V** | ✓ (was [K]) | Two primary sources. |
+| 17 | MoRTH construction FY22–FY25; pace | 10,457 / 10,331 / 12,349 / 10,660 km; 29.2 km/day FY25 | MoRTH AR p.10–11; IRB AR | **V** | ✓ | PRS gives 29 km/day. |
+| 18 | NHAI awards FY26 | 3,124 km (Nuvama); Q1 FY27 only **107 km** (May ~102 km, June ~5 km) | PNC and Ashoka Q1 FY27 transcripts (BSE) | V-snip (FY26) / **V** (Q1 FY27) | + | FY26 NHAI full year still rests on Nuvama. |
+| 19 | EPC / HAM bid discounts | EPC median ~30% (FY25), ~35% (FY26); **HAM 16% / 19%** | ICRA via Autocar | V-sec | ✓ (+HAM) | — |
+| 20 | Road-InvIT AUM | ~₹3.0 lakh Cr (Mar-26) → ~₹3.9 lakh Cr (Mar-27e); 16 InvITs; >200 assets; >15,000 km; toll ~85% of AUM; gross debt/EV ~45% | CRISIL Ratings press release 14-May-2026 | **V** | + | — |
+| 21 | SEBI InvIT leverage | Cap 70%; >25% rating + approval; >49% AAA + 6 continuous distributions + use restriction + approval | SEBI InvIT Regs (as amended 16-Oct-2026), Reg 20 | **V** | Δ S11 | — |
+| 22 | SEBI sponsor holding | 15% / 5% / 3% / 2% / 1% by listing age; ₹500 Cr cap; ≥90% NDCF | SEBI InvIT Regs Reg 12(3)/(3A), 18(6) | **V** | Δ S12 | — |
+| 23 | HAM payment terms | 40% (5–10 instalments, PIM-adjusted) + 60% in 30 half-yearly instalments; interest Bank Rate/MCLR + 1.25–3% | IRB AR FY26 HAM disclosure | **V** | Δ S10 | The concession agreement itself was not fetched. |
+| 24 | MPEW 2.0 TOT | ₹8,262 Cr (6,500 + 850 + 850 + 62); 1-Mar-2020 → 30-Apr-2030 | IRB AR FY26 TOT disclosure | **V** | ✓ (was [K]) | Lok Sabha answer (snippet): end date fixed against a ₹704.45 Cr capitalised common-portion cost. |
+| 25 | IRB net debt (company KPI) | ₹11,057 Cr (Mar-26); ~₹10,700 Cr (Jun-26); 0.53× / 0.51× | IRB AR p.~20; deck p.12 | **V** | Δ S1/S2 | Ind AS Note-47 net debt ₹19,784 Cr (S3). |
+| 26 | IRB Q1 FY27 P&L | Total income ₹2,173 Cr; EBITDA ₹1,188 Cr; finance ₹438 Cr (incl. ₹37 Cr one-off; underlying ₹401 Cr); PAT **₹306 Cr (+51%)** | Deck p.10; call transcript | **V** | ✓ | Screener: sales ₹2,137 Cr, OP ₹1,153 Cr. |
+| 27 | IRB segment margins Q1 FY27 | BOT/TOT 91%; InvIT 94%; construction 15% (total 57%) | Deck p.11 | **V** | ✓ | Call guides BOT 90–91%, InvIT 90–94% as sustainable. |
+| 28 | IRB Sep-2026 group toll | ₹772.5 Cr vs ₹622.3 Cr (+24.1%) | IRB press release 8-Oct-2026 | **V** | ✓ | — |
+| 29 | IRB Q2 FY27 group toll | **₹2,377.6 Cr (+25.0%)**: Jul ₹797.7 Cr, Aug ₹807.4 Cr, Sep ₹772.5 Cr; WOS +14.6%, Pvt InvIT +41.9%, Pub InvIT +6.7% | IRB releases 10-Aug, 9-Sep, 8-Oct-2026 | **V** | + | — |
+| 30 | MPEW share of group toll | Sep-26 21.0%; **Q2 FY27 20.7%**; MPEW Q2 ₹491.9 Cr (+13.9%) | Same releases | **V** + E | ✓ ("~22%" holds for FY26 only) | Use ~21% for the current run-rate. |
+| 31 | Bid IRR vs transfer IRR | Bid 15–16%; transfer 12–12.5%; ₹8,400 Cr transferred; ₹4,900 Cr equity released; ₹14,000 Cr redeployed | Deck p.6 | **V** | ✓ | — |
+| 32 | SYTL + CGTL transfer; IRB InvIT raise | EV ₹4,605 Cr, completed 30-Sep-2026; raise ₹2,351 Cr = ₹2,000 Cr placement (allotted 29-Sep) + ₹351 Cr preferential to IRB (25-Sep) | IRB filing 30-Sep (screener summary); IRB InvIT release 29-Sep-2026 | **V** | ✓ | CARE confirms the 30-Sep completion. |
+| 33 | IRB InvIT units and IRB stake | 165.31 Cr units; IRB 16.12% (26.64 Cr units) | IRB InvIT unitholding pattern, BSE 5-Oct-2026 | **V** | Δ S13 | — |
+| 34 | Private InvIT ownership | IRB 51 / GIC 25 / Cintra 24; board of 8: 2 IRB, 1 GIC, 1 Ferrovial, 4 independent | CRISIL 25-May-2026 [V-P1]; deck p.28 board table | V-P1 + **V** (board) | ✓ | — |
+| 35 | Annual pass | Live 15-Aug-2025; 83.3 lakh passes; 71.1 crore transactions; ~20% of all FASTag transactions (Jul-26); ₹3,075 in FY27 | IHMCL AR 2025-26 | **V** | Δ S17 | FY26 receipts ₹1,795 Cr (row 1). |
+| 36 | Annual-pass compensation (Cube) | ₹108.1 Cr in Q1 FY27 = 11.8% of tolled revenue | Cube Q1 FY27 deck; transcript | **V** | Δ S16 | NHIT: "FY27 revenue includes compensation" (no amount). IRB: not disclosed (see 4.4-11). |
+| 37 | Road-InvIT yields vs G-sec | IRB InvIT ~10.7% (₹6.5 ÷ ₹61); Cube ~9.5% (₹14.50 guide ÷ ₹153); NHIT ~8.2% on NAV; 10-year 7.23–7.36% | Cube deck (guide) **V**; IRB InvIT DPU [V-P1]; G-sec [V-snip] | V / E | ✓ | Yields are [E] ratios. |
+| 38 | IRB valuation (23-Oct-26) | M-cap ₹19,615 Cr; P/E 19.9×; P/B 0.94×; 1,207.8 Cr shares (post-bonus) | screener (aggregator) + AR (share count) | V (aggregator) + **V** | ✓ | EV/EBITDA ≈ (19,615 + 11,057) ÷ 4,188 = 7.3× [E]. |
+| 39 | IRB order book | ₹44,100 Cr (Jun-26: O&M ₹42,400 Cr + EPC ₹1,700 Cr); CARE ~₹44,858 Cr | Deck p.23; call; CARE PR | **V** | ✓ (+CARE) | Different dates. |
+| 40 | IRB domestic rating | CARE AA/Stable + A1+ assigned 5-Oct-2026 (combined IRBIDL + MRM); Fitch BB+; Moody's Ba1 CFR / Ba2 notes | CARE PR; BSE intimation 6-Oct | **V** | Δ S20 | — |
+
+**Count:**
+- **28 of the 40 are [V] from primary documents fetched this session:** rows 3, 7 (Sep), 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 (Q1), 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 35, 36, 39, 40.
+  - Strictly, rows 7, 18 and 30 are part-[V]. Excluding them leaves 28.
+- 7 are [V-sec]: rows 1, 2, 4, 5, 6, 19 and the global multiples in S31.
+- The rest are aggregator data or Part-1 verifications: rows 34, 37, 38.
+- Not re-fetched this pass, though they carry arguments: **NHAI debt ₹3.48 → ₹2,39,818 Cr** (PRS DfG 2026-27, [V-P1]); **the WPI-factor reversal of 8-Jul-2026** (ION Analytics, [V-P1]); **10-year G-sec 7.2–7.4%** (V-snip). Keep their Part-1 tags.
+
+## 4.2 Company pack — IRB Infrastructure Developers (member), full depth; lighter digests for reference peers
+
+### 4.2.1 IRB management-commentary digest
+
+Sources: Q1 FY27 call (30-Jul-2026) [V]; Q1 FY27 deck [V]; FY26 AR chairman/MD letters and MD&A [V]. Guidance is paraphrased.
+
+**Strategy and capital recycling**
+- **Fourth B.E.S.T. cycle:** IRBIT signed a binding term sheet to move SYTL + CGTL (EV ₹4,605 Cr) to the public InvIT. Management describes this as a self-funding platform: "without requiring additional equity from the sponsor". The deal closed on 30-Sep-2026 [V].
+- **AUM ambition:** ₹1,40,000 Cr "over the next three to four years" (call); "3 years" on the deck. "Multiple virtuous cycles planned over the next 24–36 months" [V].
+- **Net-debt-free by FY30.** Supported by scheduled repayment; finance cost is already falling.
+  - Underlying Q1 finance cost was **₹401 Cr vs ₹462 Cr** a year earlier, excluding a ₹37 Cr one-off [V].
+- **Refinancing:**
+  - MPEW ~₹3,700 Cr (₹3,654 Cr in the deck) at −65 bp → ~₹25 Cr/yr saved.
+  - IRBIT ~₹11,000 Cr across **six SPVs, refinanced at the AAA trust level**, at −160 bp → ~₹180 Cr/yr saved. Also gives better amortisation and tax efficiency [V].
+
+**Toll and pricing**
+- WOS toll +13% in Q1 (MPEW +9%, AV +21%). IRBIT average daily toll ₹13.35 Cr vs ₹9.2 Cr (+45% ex the 3 transferred assets), helped by "the annual toll tariff revision of approximately 3%". Group ~₹27 Cr/day vs ₹21.4 Cr (+26%) [V].
+- Tariff revision ~3–3.5% in FY26 and **~2.5% in FY27 (rounding to ₹5)**. With inflation "tracking close to 6–7%", management expects **higher tariff growth in FY28**. "Not seeing any meaningful impact from geopolitical tensions" [V].
+
+**Mix and margins**
+- Construction fell to ~42% of segment revenue (57% a year ago) as under-construction projects completed.
+- Over the next two years the existing order book should yield **₹4,000–4,300 Cr of construction revenue, mostly O&M**. The mix should move to **~50:50 O&M : construction within 2–3 years** [V].
+- **BOT segment 90–91% EBITDA margin and InvIT segment 90–94% "expected to continue"**. BOT margin dips in years with major maintenance [V].
+
+**Order book and pipeline**
+- Order book ~₹44,100 Cr (EPC ₹1,700 Cr). **No new orders in Q1**; change-of-scope work of ₹800–900 Cr.
+- TOT-17/18 added ~₹8,000 Cr of order book (initial capex + O&M). O&M additions expected at **₹4,000–5,000 Cr a year** depending on TOT wins [V].
+- **TOT-20/21/22 (Bihar NH-27):** NHAI raised the initial capex obligations and postponed bids to late August. "MLFF clarifications" are still pending. IRB will decide on viability [V].
+- **Government TOT+BOT pipeline:**
+  - ~₹4.4 lakh Cr over 4–5 years; TOT ₹40,000–50,000 Cr a year.
+  - BOT tenders run ₹5,000–9,000 Cr each; net-worth criterion 25% (PE 50%); typically 5–7 bidders.
+  - The no-bid BOT packages were "one-off cases" where toll did not justify the project.
+  - No state TOT on the radar [V].
+
+**Distributions and dividend**
+- IRBIT Q1 distribution ~₹200 Cr → IRB ~₹102 Cr (+278% YoY).
+- IRB InvIT ~₹208 Cr → IRB ~₹35 Cr (effective ~17% holding).
+- Interim dividend ~₹60 Cr [V].
+
+**Rating agency view (CARE, 5-Oct-2026)** [V]
+- Holdco inflows (InvIT distributions + MPEW upstreaming + O&M/PM) expected at **₹1,200 Cr+ a year**.
+- Net debt / adjusted PBILDT "slightly elevated in FY27", then below 2×. Upgrade trigger ≤1×.
+- **Key weaknesses named by CARE:**
+  - ~₹3,853 Cr receivable from the Private InvIT, whose recovery depends on arbitration claims for cost overruns.
+  - The AV competing-road arbitration.
+  - **Ganga Expressway collections below expectation.**
+  - Sizeable foreign-currency repayments in FY31–FY32 (refinancing risk).
+
+### 4.2.2 IRB concall KPI table (Q1 FY27 vs Q1 FY26) [V deck/call]
+
+| KPI | Q1 FY26 | Q1 FY27 | YoY | Note |
+|---|---|---|---|---|
+| Group gross toll (₹ mn) | 19,450 | 24,436 | +25.6% | WOS 6,546 → 7,384; Pvt InvIT 10,250 → 12,152; Pub InvIT 2,654 → 4,900 |
+| Group average daily toll (₹ Cr) | 21.4 | ~27 | +26% | Call |
+| IRBIT average daily toll (₹ Cr) | 9.2 | 13.35 | +45% | Ex the 3 assets transferred |
+| WOS average daily toll (₹ mn) | — | 81 | — | FY26 75 |
+| Total income (₹ mn) | 21,646 | 21,727 | +0.4% | Deck p.10 |
+| EBITDA (₹ mn) | 10,176 | 11,879 | +16.7% | Deck |
+| Finance cost (₹ mn) | 4,620 | 4,380 | −5.2% | Incl. 370 one-off |
+| D&A (₹ mn) | 2,692 | 3,334 | +23.8% | — |
+| PAT (₹ mn) | 2,025 | 3,063 | +51.3% | — |
+| Segment revenue: BOT / InvIT / construction (₹ mn) | 6,460 / 2,331 / 12,199 | 7,333 / 4,367 / 9,672 | +14% / +87% / −21% | — |
+| Segment EBITDA margin: BOT / InvIT / construction | 88% / 91% / 18% | 91% / 94% / 15% | — | Total 47% → 57% |
+| IRBIT distribution, total / IRB share (₹ mn) | 530 / 269 | 1,990 / 1,020 | +278% (IRB) | Deck p.4, 8 |
+| IRB InvIT distribution to IRB (₹ mn) | 185 | 345 | +86% | — |
+| Private InvIT AUM (₹ bn) / NAV per unit (₹) | 628 / 310 | 710 / 326 | +13% / +5% | FY25 → FY26: 617 → 700; ₹304 → ₹320 |
+| Net debt (₹ bn) / ND:E | 118 / 0.58× | 107 / 0.51× | −9% | Deck p.12 |
+| Order book (₹ Cr) | — | 44,100 (O&M 42,400) | — | — |
+
+**Q2 FY27 operating read-across (monthly releases, ₹ mn) [V]**
+
+| Vehicle | Jul-26 | Aug-26 | Sep-26 | **Q2 FY27** | Q2 FY26 | YoY |
+|---|---|---|---|---|---|---|
+| WOS (MPEW + AV) | 2,340 | 2,524 | 2,416 | **7,280** | 6,351 | **+14.6%** |
+| — of which MPEW | 1,577 | 1,721 | 1,621 | 4,919 | 4,319 | +13.9% |
+| — of which AV | 763 | 803 | 795 | 2,361 | 2,032 | +16.2% |
+| Private InvIT (15 SPVs; CG and SY still inside until 30-Sep) | 4,056 | 4,058 | 3,908 | **12,022** | 8,470 | **+41.9%** (TOT-17/18 and Ganga new) |
+| Public InvIT (8 → 7 SPVs; MVR/Omalur absent in Sep) | 1,581 | 1,492 | 1,401 | **4,474** | 4,193 | **+6.7%** |
+| **Group** | **7,977** | **8,074** | **7,725** | **23,776** | **19,014** | **+25.0%** |
+
+Read-outs:
+- **Q2 group toll (₹2,378 Cr) is 2.7% below Q1 (₹2,444 Cr).** This is monsoon seasonality; the same pattern held a year earlier (Q2 FY26 ₹1,901 Cr vs Q1 FY26 ₹1,945 Cr).
+- **Hapur–Moradabad printed ₹22.3 Cr in Aug-26 vs ₹28.9 Cr (−23%)** but +30% in July and +4% in September. Treat it as a one-month disruption.
+- **Kota bypass (TOT-13) is declining** (Sep ₹6.1 Cr vs ₹6.5 Cr; Aug −11%).
+- **Ganga Expressway** ran ₹12.1 / 22.6 / 13.1 Cr a month (Jul / Aug / Sep), volatile. This is consistent with CARE's "lower than envisaged" remark.
+
+### 4.2.3 IRB five-year history (FY22–FY26)
+
+Sources: [V screener consolidated 23-Oct-26] unless marked; company figures [V AR/deck].
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue (screener) | 5,804 | 6,402 | 7,409 | 7,613 | **7,648** |
+| Revenue (company, ₹ bn, deck) | — | 67 | 82 | 80 | 79 |
+| Operating profit (screener) | 2,575 | 3,130 | 3,022 | 3,472 | **4,008** |
+| OPM % | 44 | 49 | 41 | 46 | **52** |
+| EBITDA (company, ₹ bn) | — | 35 | 41 | 40 | 42 (41,877 mn) |
+| Other income | 552 | 300 | 793 | 6,222 | 138 |
+| Interest | 1,894 | 1,521 | 1,868 | 1,795 | 1,756 |
+| Depreciation | 683 | 832 | 995 | 1,038 | 1,142 |
+| PAT reported | 361 | 720 | 606 | **6,481** | **850** |
+| PAT pre-exceptional (company) | — | — | — | 677 | 893 |
+| ROCE % (screener) | 9 | 9 | 9 | 8 | 7 |
+| Borrowings | 16,697 | 16,748 | 18,653 | 20,599 | 20,027 |
+| Net worth | 12,566 | 13,379 | 13,745 | 19,827 | 20,949 |
+| **Company net debt** | n/a | **10,100** | **12,000** | **11,700** | **11,057** |
+| Net debt / equity (company) | n/a | 0.75× | 0.88× | 0.59× | 0.53× |
+| CFO | 364 | 1,764 | 4,054 | 1,971 | 2,098 |
+| FCF (screener) | −1,010 | 1,354 | 3,816 | 1,776 | 1,417 |
+| Promoter % (March) | 34.02 | 34.20 | 34.39 | 30.42 | 30.79 |
+| Segment revenue: BOT/TOT · InvIT · construction (AR Note 39) | — | — | — | 2,484 · 760 · 4,561 | **2,692 · 1,318 · 3,622** |
+| Segment result: BOT · InvIT · construction (after D&A) | — | — | — | 1,170 · 699 · 1,105 | 1,317 · 1,220 · 569 |
+
+Notes:
+- The FY25 PAT includes a ₹5,804 Cr exceptional gain (Private InvIT deconsolidation). FY26 includes −₹42.65 Cr (gratuity past-service cost) [V AR].
+- FY26 tax: current only ₹72 Cr vs **deferred ₹325 Cr**. Cash tax is low [V AR segment note].
+- The deck reports total income; screener reports sales. They differ by other income.
+
+### 4.2.4 IRB eight-quarter trend [V screener consolidated]
+
+| ₹ Cr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | **Jun-26** |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,586 | 2,025 | 2,149 | 2,099 | 1,751 | 1,871 | 1,927 | **2,137** |
+| Operating profit | 683 | 984 | 998 | 952 | 925 | 1,022 | 1,083 | **1,153** |
+| OPM % | 43 | 49 | 46 | 45 | 53 | 55 | 56 | **54** |
+| Other income | 166 | 5,869 | 69 | 66 | 49 | −2 | 50 | 35 |
+| Interest | 434 | 461 | 458 | 462 | 451 | 436 | 406 | 438 |
+| Depreciation | 231 | 265 | 286 | 269 | 262 | 289 | 321 | 333 |
+| PAT | 100 | **6,026** (exceptional) | 215 | 202 | 141 | 211 | 296 | **306** |
+| Group gross toll (₹ Cr, company) | — | — | — | 1,945 | 1,901 | — | — | 2,444 (Q2 FY27: 2,378) |
+
+**Trend read:**
+- OPM stepped up from ~45% to 53–56% from Sep-25 as construction (15–18% margin) shrank and InvIT income (90%+) grew.
+- Interest is trending down: ₹462 Cr → ₹406 Cr between Jun-25 and Mar-26. The Jun-26 figure of ₹438 Cr includes the ₹37 Cr one-off.
+- Depreciation is rising (₹269 Cr → ₹333 Cr), led by TOT intangibles at WOS level and the AV amortisation profile.
+- **PAT has risen for four straight quarters** (141 → 211 → 296 → 306).
+
+### 4.2.5 IRB FY26 Annual-Report findings [V AR FY26 unless marked]
+
+**1. Related-party flows: IRB's income is largely from its own trusts.**
+- Contract (EPC) revenue from IRBIT-group SPVs: **₹2,009 Cr in FY26 (₹2,989 Cr in FY25)**. Largest payers: Samakhiyali ₹774 Cr; Meerut–Budaun (Ganga) ₹687 Cr (₹1,683 Cr in FY25); Harihara (TOT-17) ₹327 Cr; Palsit–Dankuni ₹116 Cr (₹457 Cr).
+- O&M revenue from IRBIT SPVs: **₹727 Cr (₹663 Cr)**. HORR (Golconda) ₹142 Cr is the largest.
+- Interest income from IRBIT: ₹65.8 Cr (₹13.6 Cr), plus ₹45.1 Cr unwinding on a loan to IRBIT.
+- **Together, ~₹2,736 Cr ≈ 36% of FY26 consolidated revenue is billed to the 51%-owned Private InvIT** [E from V]. Billing to IRB InvIT SPVs comes on top.
+  - IRB also earns a ₹10 Cr investment-management fee from IRB InvIT via IRB Infrastructure Pvt Ltd.
+  - On 15-May-2026 IRB approved amended O&M agreements with three IRB InvIT SPVs (Jaipur–Deoli, Pathankot–Amritsar, Talegaon–Amravati) **running from 1-Apr-2030 to the end of their concessions**.
+- RPT policy: all transactions are "in ordinary course and at arm's length"; the material RPTs (O&M extensions) went to shareholders.
+- **CARE flags ~₹3,853 Cr of receivables from the Private InvIT**, tied to arbitration recoveries.
+
+**2. Capital commitments and contingent liabilities are small.**
+- Sponsor commitment to Samakhiyali (through IRBIT): ₹108.5 Cr.
+- Contingent liabilities: ₹183.8 Cr (₹360.4 Cr in FY25) = guarantees for JVs ₹120.8 Cr + bid/authority bank guarantees ₹63.1 Cr.
+- The MSRDC-era stamp-duty dispute (MIPL, 2004 MPEW agreement): ₹27.5 Cr demand, provided for.
+- Termination-payment liabilities to JVs are judged remote.
+- **The large off-headline liability is at AV:**
+  - an **additional concession fee to NHAI of ₹14,881 Cr over the concession**, booked as a liability against a toll-collection-rights intangible;
+  - deferred premium under the 2014-15 Premium Deferment Scheme, at bank rate + 2%, payable from surplus **by FY2035**.
+  - It sits in "other financial liabilities", not in borrowings, so neither net-debt figure includes it.
+
+**3. Debt structure.**
+- **USD senior secured notes: US$740 mn at 7.11% = ₹7,004 Cr at Mar-26** (₹6,333 Cr at Mar-25; the ₹671 Cr rise is pure FX).
+  - Repayable in 8 structured instalments **from 11-Sep-2028**.
+  - Secured by a pledge of MPEW SPV shares/sub-debt and part of IRB's IRBIT units.
+  - Covenants: Segment-II gross leverage 2.8× (cap 4.0×); Segment-I PLCR 2.8× (min 1.8×); Segment-II gross debt ₹6,862 Cr [V deck].
+- **Rupee weakness (₹94.9/$) is a balance-sheet cost:** each ₹1/$ adds ~₹74 Cr to the notes [E].
+- Listed 9.55% NCDs (₹22 Cr) were repaid in FY26.
+
+**4. Concession schedule (company-owned, contractual).**
+
+| Asset | Contract start → end | Note |
+|---|---|---|
+| MPEW (TOT) | 1-Mar-2020 → **30-Apr-2030** | ₹8,262 Cr fee |
+| AV (DBFOT) | → Mar-2043 (deck, incl. extensions) | — |
+| VM7 HAM (sold to IRB InvIT for ₹513 Cr equity, SPA 1-Dec-2025) | 9-Nov-2021 → 8-Nov-2038 | — |
+| Pathankot–Mandi HAM | 18-May-2022 → 16-May-2039 | — |
+| Chittoor–Thachur HAM | 24-Jan-2023 → 22-Jan-2040 | — |
+
+- On the remaining HAMs, the AR says the PM and CT balance obligations are under construction and **both are to be offered to the Public InvIT on COD**; CARE says in FY27.
+
+**5. Industry facts the AR adds (its MD&A cites PIB / MoRTH / IHMCL).**
+- Bharatmala Phase I: 26,424 km awarded, 21,597 km built (to 30-Nov-2025; MoRTH AR gives 21,785 km to 31-Dec-2025).
+- HSC network: 3,052 km operational (MoRTH-built), target 18,000 km by FY29 and 26,000 km by FY33.
+- Rule: **when a 2-lane road is being upgraded to 4+ lanes, users pay 50% of the old toll until completion.**
+- IRB's claimed shares: 16% of the Golden Quadrilateral; 12% of the North–South corridor; 43% of TOT.
+
+**6. Governance and ownership.**
+- IRB board: 2 promoters + 2 Cintra nominees + 4 independent; GIC has an observer.
+- IRBIT board: 2 IRB + 1 GIC + 1 Ferrovial + 4 independent.
+- Promoter 30.79% at Mar-26 (AR shareholding table: 185.95 Cr pre-bonus shares).
+- Political contributions: ₹3.0 Cr in FY26 (₹58.2 Cr in FY25, incl. Shiv Sena (UBT) ₹6 Cr in FY25) [V AR CSR/political note]. A small but disclosable governance datapoint.
+
+**7. Risks emphasised.**
+- Traffic risk.
+- Competing roads (AV arbitration).
+- MAV restrictions (SY/YA force majeure).
+- Commodity costs vs WPI.
+- Bid aggression by mid-sized players.
+- Interest rates.
+- Refinancing of the FCY notes (FY31–32, per CARE).
+- The AR does **not** quantify annual-pass compensation, and does not discuss MPEW after 2030.
+
+### 4.2.6 Reference-peer digests (lighter; NOT members; never summed with IRB)
+
+**(a) IRB InvIT Fund (IRBINVIT · 540526)**
+
+Sources: [V unitholding 5-Oct-26; V release 29-Sep-26; V screener; V IRB monthly releases].
+- **Units: 165.31 Cr after the ₹2,351 Cr raise.** At ₹61 the m-cap is ~₹10,084 Cr (screener's ₹6,225 Cr is stale). Sponsor 16.12% (min required 3%).
+- Portfolio "₹23,000 Cr" after SYTL+CGTL (Mhaiskar, 29-Sep). Previously "EV >₹20,000 Cr".
+- Q2 FY27 toll of its 8→7 SPVs: ₹447.4 Cr (+6.7%). September: ₹140.1 Cr (+6%) after the Omalur concession ended. SYTL and CGTL add ~₹45–48 Cr/month from October [E from Sep: CG 33.8 + SY 12.1].
+
+| ₹ Cr (screener) | FY22 | FY23 | FY24 | FY25 | FY26 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,392 | 1,442 | 1,062 | 1,084 | 1,485 | 277 | 450 | 528 | 492 |
+| OP | 1,150 | 808 | 862 | 890 | 1,175 | 232 | 372 | 388 | 396 |
+| Interest | 142 | 193 | 272 | 294 | 519 | 73 | 190 | 184 | 188 |
+| PAT | 303 | 370 | 373 | 356 | 339 | 83 | 60 | 97 | 79 |
+
+- Interest more than doubled after the Nov-2025 acquisitions, as borrowings rose from ₹3,198 Cr to ₹9,361 Cr. PAT is flat; DPU is the right lens.
+- The 1.625/qtr DPU includes ₹0.625 return of capital.
+
+**(b) National Highways Infra Trust (NHIT)** [V Q1 FY27 deck, Aug-2026]
+- Sponsor NHAI ~10%; investors ~90% (CPPIB, OTPP, KKR hold board seats). Investment manager NHIIMPL is 100% GoI; project manager NHIPMPL is 100% NHAI.
+- Units 213.86 Cr (from 193.68 Cr after R5 at ₹153). NAV ₹156.2. EV ₹58,604 Cr. Debt ₹25,252 Cr.
+- Q1 FY27: revenue ₹1,312 Cr (+28%); EBITDA ₹1,048 Cr; PAT ₹235 Cr; DSCR 2.49×.
+- **Revenue includes annual-pass compensation and quarterly adjustments** (amount not given).
+- Traffic notes:
+  - **MH** site +, because ~24% exempt traffic was added and the pass induces trips.
+  - **GM** −, from West-Asia MAV disruption.
+  - **NSPPL (R4)** comparisons are distorted by the transition period to Sep-2025.
+- Issuer and debt ratings AAA (CARE, IndRa).
+
+**(c) Cube Highways Trust (CUBEINVIT · 543899)** [V Q1 FY27 deck + transcript]
+- 27 InvIT assets; operates 26 road assets, **8,442 lane-km / 1,927 km**. AUM ₹36,659 Cr; WAL 17.8 years.
+- **Net debt / AUM 45.17%; cost of debt 7.49%** (28.5% fixed at the trust). Debt/EBITDA 4.18×; DSCR 2.0×.
+- Issued a ₹637 Cr NCD at 7.39% (Mar-2038, put/call Jun-2033).
+- Q1 FY27:
+  - Traffic +9.3% (simple) / +12.7% (AUM-weighted).
+  - **Toll +11.5% (₹918.1 Cr vs ₹823.5 Cr), including ₹108.1 Cr of annual-pass compensation** (11.8% of toll).
+  - Ex-compensation, toll was −1.6% YoY [E]. The pass converts a slice of car toll into an NHAI receivable (42 days).
+- DPU ₹3.95; FY27 guide raised to ₹14.50; cumulative DPU ₹38.81; NAV +49.6% since listing.
+- WUPTPL concession ended 23-Jun-2026.
+- Acquiring 4 sponsor assets (CNTL, DTPL + 2) via preferential issue (board 28-Oct-2026); ROFO on 3 more.
+- On conversion to a public InvIT, ~60–70% of distributions are expected to become tax-exempt over time.
+
+| ₹ Cr (screener consolidated, from Part 2) | FY24 | FY25 | FY26 | Q1 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|
+| Revenue | 2,916 | 3,307 | 4,239 | 944 | 1,127 |
+| OP | 1,211 | 2,234 | 3,117 | 672 | 788 |
+| PAT | −706 | −36 | 217 | 0 | 61 |
+
+**(d) Indus Infra Trust (ex-Bharat Highways InvIT, BSE 544137)** [V screener]
+- HAM InvIT (G R Infra-sponsored at IPO, Mar-2024).
+- M-cap ₹7,554 Cr; price ₹124; BV ₹107; FY26 revenue ₹757 Cr, OP ₹421 Cr, PAT ₹295 Cr; borrowings ₹3,688 Cr (₹1,750 Cr Mar-25).
+- Jun-26 quarter: revenue ₹244 Cr, OP ₹195 Cr, PAT ₹128 Cr.
+- Bought KNR Ramanattukara (₹549 Cr) on 5-Oct-2026. **It is the main buyer of mid-size developers' HAMs.**
+
+**(e) Ashoka Buildcon (ASHOKA · 533271)** [V Q1 FY27 transcript; V screener]
+- **Guidance cut:** FY27 revenue growth lowered from 20% to **10–15%**; order inflow ₹6,000–8,000 Cr; EBITDA margin ~9.5% (EPC).
+- Order book ₹15,251 Cr: road + rail 63.3%, buildings 33.2%; **HAM only ~₹1,500 Cr after it sold its HAM/BOT SPVs.**
+- Bid pipeline: NHAI + MoRTH ~₹1 lakh Cr; states ~₹25,000 Cr; railways ~₹50,000 Cr.
+- Sector colour: **NHAI awarded ~102 km in May-26 and ~5 km in June-26**; June construction −32% YoY (~274 km); Apr–May ~638 km (−34%).
+
+| ₹ Cr (screener) | FY22 | FY23 | FY24 | FY25 | FY26 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|---|
+| Revenue | 5,999 | 8,100 | 9,798 | 10,037 | 7,520 | 1,851 | 1,827 | 1,954 | 1,500 |
+| OP | 1,789 | 1,969 | 2,235 | 2,920 | 1,879 | 585 | 435 | 258 | 258 |
+| PAT | 771 | 294 | 521 | 1,734 | 2,576 | 91 | 2,111 | 147 | 127 |
+
+**(f) PNC Infratech (PNCINFRA · 539150)** [V Q1 FY27 transcript; V board letter; V screener]
+- **Q2 board: 25-Nov-2026** [V].
+- Order book >₹19,100 Cr (highways 64%). 14 HAMs (BPC >₹17,200 Cr; equity ₹1,623 Cr); 2 new HAMs won in Apr-2026.
+- Consolidated debt ₹5,448 Cr on net worth ₹7,147 Cr (0.76×).
+- **Overhang:** analysts asked about possible "non-performer" status or a bidding ban linked to the **Lucknow–Kanpur expressway** defect/repair issue (and the UP state pipeline of ~₹10,000 Cr before elections). Management did not quantify it.
+- Positives: ₹244 Cr arbitration award (31-Jul-2026) and a Vivad-se-Vishwas settlement.
+- NHAI context: **NHAI awarded only 107 km in Q1 FY27; execution ~640 km.** NHAI launched **54 projects, ~₹1.8 lakh Cr (26 EPC, 21 HAM, 7 DBOT-toll)** for bidding over 2–3 months.
+
+| ₹ Cr (screener) | FY22 | FY23 | FY24 | FY25 | FY26 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|---|
+| Revenue | 7,208 | 7,956 | 8,650 | 6,769 | 5,368 | 1,128 | 1,201 | 1,617 | 1,688 |
+| OP | 1,534 | 1,600 | 2,005 | 2,066 | 1,137 | 253 | 239 | 277 | 524 |
+| PAT | 580 | 658 | 909 | 815 | 832 | 216 | 77 | 108 | 332 |
+
+**(g) G R Infraprojects (GRINFRA · 543317)** [V Q1 FY27 transcript; V screener]
+- Order book ~₹25,300 Cr (1-Jul-26); bids pending ~₹32,000 Cr (road ~₹28,000 Cr).
+- FY27 standalone revenue guidance **+15–20%**; standalone EBITDA ~11%.
+- Standalone D/E 0.03; consolidated debt ₹5,286 Cr (0.55×); HAM debtors ₹1,784 Cr.
+- **Toll-cum-annuity model, described on the call:**
+  - 10–25% upfront government support for viability-gap projects;
+  - the concessionaire keeps the toll over a **fixed 20-year concession**;
+  - "the revamped BOT toll framework is expected to bring **over 10,000 km** into the private bidding pipeline".
+- Sector pipeline ~₹3.85 lakh Cr (78% highways).
+
+| ₹ Cr (screener) | FY22 | FY23 | FY24 | FY25 | FY26 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|---|
+| Revenue | 8,458 | 9,482 | 8,980 | 7,395 | 8,399 | 1,602 | 2,308 | 2,500 | 2,784 |
+| OP | 1,735 | 2,554 | 2,122 | 1,636 | 1,622 | 387 | 468 | 368 | 468 |
+| PAT | 832 | 1,454 | 1,323 | 1,015 | 903 | 190 | 259 | 210 | 358 |
+
+**Peer read-across.** The three EPC/HAM developers agree on three things:
+1. NHAI awarding is close to zero in Q1 FY27 (107 km).
+2. The H2 FY27 pipeline is large (₹1.8 lakh Cr NHAI list).
+3. Margins are compressed: EPC ~9.5–11% standalone vs 19–26% consolidated, where HAM interest is included.
+
+IRB's call shares the H2-weighted award view but says IRB is "not tracking HAM/EPC". The developers are **sellers** of HAMs to InvITs (Indus, Capital, Cube); IRB recycles toll assets into its own trusts.
+
+## 4.3 Industry datasets upgraded from primary sources (chart-ready)
+
+**D1. FASTag ETC collections, all plazas (NH + MoRTH + state highways)** [V IHMCL]
+
+| FY | Transactions (lakh) | Value (₹ Cr) | Value YoY |
+|---|---|---|---|
+| FY17 | 236 | 661 | — |
+| FY18 | 1,271 | 3,352 | — |
+| FY19 | 2,544 | 5,760 | — |
+| FY20 | 5,830 | 11,306 | — |
+| FY21 | 13,269 | 22,755 | — |
+| FY22 | 24,352 | 38,069 | +67% |
+| FY23 | 33,887 | 54,068 | +42% |
+| FY24 | 38,152 | 64,594 | +19% |
+| FY25 | 41,638 | 72,390 | +12.1% |
+| **FY26** | **47,817** | **82,342** | **+13.7%** |
+| FY27 to Sep-26 | 25,946 | 43,074 | — |
+
+- The jumps in FY20–FY22 come from FASTag adoption, which became mandatory in Feb-2021, not from toll growth.
+- From FY24 the series tracks toll growth.
+- Average daily NH & MoRTH FASTag collection was ₹187.6 Cr in Mar-2026; the peak day was ₹213.8 Cr on 28-Feb-2026 [V IHMCL AR].
+- **Caveat:** annual-pass trips carry no per-trip FASTag value, so FASTag value understates toll economics from Aug-2025. FY27 H1 annualises to ~₹86,000 Cr (+~5% on FY26) [E]; H2 is usually seasonally stronger.
+
+**D2. NH toll / user fee, best-available spliced series (₹ Cr)**
+
+| FY | Value (₹ Cr) | Basis | Tag |
+|---|---|---|---|
+| FY17 | 17,942 | NHAI fee plazas | V-sec, RS reply |
+| FY18 | 21,948 | NHAI fee plazas | V-sec |
+| FY19 | 24,396 | NHAI fee plazas | V-sec |
+| FY20 | 26,851 / 27,504 | RS reply / PRS | V-sec / V-P1 |
+| FY21 | 27,744 / 27,927 | RS reply / PRS | V-sec / V-P1 |
+| FY22 | 33,929 | — | V-sec + V-P1 |
+| FY23 | 48,032 | — | V-P1 |
+| FY24 | 55,882 | — | V-P1 |
+| FY25 | 61,408 | — | V-P1 |
+| **FY26** | **70,278** (user fee 68,483 + annual pass 1,795) | — | V-sec |
+
+- FY15 and FY16 are unsourced (§4.4-1).
+- **CAGR FY17–FY26 ≈ 16.4%** [E: (70,278 ÷ 17,942)^(1/9)].
+
+**D3. Toll collected on public-funded NH plazas and remitted to the Consolidated Fund** (MoRTH revenue head 1054 "Roads & Bridges") [V MoRTH AR App. 8]
+
+| FY | Head 1054 (₹ Cr) | Share of NH toll | Head 4000 misc. capital receipts, mostly TOT (₹ Cr) |
+|---|---|---|---|
+| FY23 | 22,011 | ~46% [E] | 10,662 |
+| FY24 | 27,888 | ~50% | 15,969 |
+| FY25 | 31,810 | **~52%** | 6,661 |
+| FY26 to Dec-2025 | 26,460 | — | 18,837 |
+
+- **About half of NH toll still comes from publicly-funded plazas that are not yet monetised.** That is the stock NHAI/MoRTH can still sell through TOT or InvIT.
+
+**D4. Highway awards and construction, MoRTH (km)** [V MoRTH AR 2025-26; IRB AR; NHAI PR]
+
+| FY | Awarded | Constructed | km/day |
+|---|---|---|---|
+| FY16 | ~10,098 | 6,061 | 16.6 |
+| FY17 | 15,948 | 8,231 | — |
+| FY18 | 17,055 | 9,829 | — |
+| FY19 | 5,493 | 10,855 | — |
+| FY20 | 8,948 | 10,237 | — |
+| FY21 | ~10,9xx (label unclear; [K] 10,467) | 13,327 | 37 (PRS) |
+| FY22 | 12,731 | 10,457 | — |
+| FY23 | 12,376 | 10,331 | — |
+| FY24 | 8,581 | 12,349 | — |
+| FY25 | 7,538 | 10,660 | 29.2 |
+| FY26 Apr–Dec | 2,257 | 4,989 | ~18 |
+| FY26 full year | ~7,000 (ICRA) | ~9,380 (ICRA); NHAI 5,313 (vs target 4,640) | ~26 |
+| Q1 FY27 | NHAI 107 | ~640 (Apr–Jun, per PNC) | — |
+
+- Low-resolution chart labels for FY16–FY21 are flagged; FY22 onward is confirmed by text in two documents.
+- Average award over FY15–FY25: 10,973 km a year (MoRTH).
+
+**D5. Monetisation by year and mode (₹ Cr)** [V MoRTH AR p.27; FY26 V IRB AR]
+
+| FY | TOT | InvIT | Project-based financing (DME SPV) | Total |
+|---|---|---|---|---|
+| FY19 | 9,682 (TOT-1) | — | — | 9,682 |
+| FY20 | — | — | — | 0 |
+| FY21 | 5,011 | — | 10,813 | 15,824 |
+| FY22 | 1,011 | 7,350 | 13,901 | 22,262 |
+| FY23 | 10,662 | 2,850 | 11,600 | 25,112 |
+| FY24 | 15,968 | 15,700 | 9,486 | **41,154** |
+| FY25 | 6,661 | 17,738 | 4,325 | 28,724 |
+| FY26 | 12,357 (TOT-17 + 18) | 15,721 (public 9,500 + NHIT R5 6,220.9) | — | **28,307** (NHAI) / 28,078 (chart) |
+| **Cumulative** | 61,352 | 59,359 | 50,125 | **1,71,065** (using NHAI's ₹28,307 Cr for FY26; the mode columns sum to ₹1,70,836 Cr because the FY26 mode split comes from the ₹28,078 Cr chart; the ₹229 Cr difference is unallocated) |
+
+- **NMP 2.0 implies ~₹88,000 Cr a year over FY26–30 [E], roughly 3× the FY25–FY26 run-rate.**
+- NHAI has identified only 17 projects / 1,692 km for FY27 (target >₹30,000 Cr).
+- IRB's TOT model assumes ₹40,000–50,000 Cr of TOT awards a year. **The record so far is ₹6,661–15,968 Cr of TOT a year.**
+
+**D6. IRB group toll by vehicle (₹ mn)** [V IRB deck and monthly releases]
+
+| Period | WOS | Private InvIT | Public InvIT | Group | YoY |
+|---|---|---|---|---|---|
+| Q1 FY26 | 6,546 | 10,250 | 2,654 | 19,450 | — |
+| Q2 FY26 | 6,351 | 8,470 | 4,193 | 19,014 | — |
+| Q1 FY27 | 7,384 | 12,152 | 4,900 | 24,436 | +25.6% |
+| **Q2 FY27** | **7,280** | **12,022** | **4,474** | **23,776** | **+25.0%** |
+
+- The Q2 FY26 split above uses the Q2 FY27 perimeter (assets classified by owner as of Sep-26 releases). The Q1 split uses the deck's perimeter.
+
+**D7. IRB net debt (company KPI)** [V deck p.12; V AR]
+
+| | FY23 | FY24 | FY25 | FY26 | Q1 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|
+| Net debt (₹ bn) | 101 | 120 | 117 | **110.6** | 118 | 107 |
+| Net worth (₹ bn) | 134 | 137 | 198 | 209 | 202 | 210 |
+| ND/E | 0.75× | 0.88× | 0.59× | 0.53× | 0.58× | 0.51× |
+
+- Ind AS gearing view: net debt ₹197.8 bn (FY26) and ₹188.7 bn (FY25) [V AR Note 47].
+
+**D8. WPI and the NH toll revision**
+
+| Revision date | WPI used | Formula result | Realised / estimate |
+|---|---|---|---|
+| 1-Apr-2026 | Dec-2025 WPI 0.83% [V-snip] | 3% + 0.4 × 0.83% = **3.33%** | Realised ~2.5–3% after ₹5 rounding [V IRB] |
+| 1-Apr-2027 | Dec-2026 WPI; Sep-2026 is **11.39%** [V AIR] | 3% + 0.4 × (9–12%) = **6.6–7.8%** [E] | ICRA 6.2–6.4% assumed WPI 8–8.5% [V-sec] |
+
+- Older concessions use March WPI (ICRA assumes 4.5–5.5% for Mar-27).
+- The annual-pass price is also indexed: ₹3,000 → ₹3,075 for FY27 (+2.5%).
+
+**D9. Road InvIT universe (updated)**
+
+| Trust | Size | Network | Leverage / other | Source |
+|---|---|---|---|---|
+| **Sector** | AUM ~₹3.0 lakh Cr (Mar-26) → ~₹3.9 lakh Cr (Mar-27e) | 16 InvITs, >200 assets, >15,000 km; toll ~85% of AUM | Gross debt/EV ~45% (+100–150 bp by Mar-27); DSCR 1.7–1.8× | [V CRISIL 14-May-2026] |
+| NHIT | EV ₹58,604 Cr | ~2,655 km | Debt ₹25,252 Cr | [V] |
+| IRBIT | EV ~₹66,300 Cr; AUM ₹71,000 Cr | — | — | [V-P1; V deck] |
+| Cube | AUM ₹36,659 Cr | 8,442 lane-km / 1,927 km | ND/AUM 45.17% | [V] |
+| IRB InvIT | ~₹23,000 Cr portfolio; m-cap ~₹10,084 Cr | 165.31 Cr units | — | [V; E] |
+| Vertis | AUM ~₹26,500 Cr | — | ND/AUM ~41% (Q3 FY26) | [V-snip screener] |
+| Indus (ex-Bharat Highways) | m-cap ₹7,554 Cr | — | Borrowings ₹3,688 Cr | [V] |
+| Capital Infra | QIP ₹1,115 Cr; 18 HAMs | — | — | [V-P1] |
+| Interise, Sekura, Maple | n/s | — | — | [open] |
+
+**D10. Global toll majors, EV/EBITDA (TTM)** [V-sec stockanalysis 23-Oct-2026]
+
+| Company | EV | EV/EBITDA |
+|---|---|---|
+| Transurban | A$63.4 bn | **28.3×** |
+| Ferrovial | US$44.9 bn | **25.5×** |
+| Vinci (group) | €88.2 bn | 6.3× |
+| Atlas Arteria | — | n.m. |
+
+- **Indian comparisons:**
+  - IRB ~7.3× (company basis) [E].
+  - Listed road InvITs ~12–13× [E, Part 3].
+  - **Cube on its own valuation: EV ₹36,659 Cr ÷ FY26 OP ₹3,117 Cr ≈ 11.8× [E].**
+
+**D11. Annual pass** [V IHMCL AR; V Cube; V-sec RS]
+- Launched 15-Aug-2025.
+- 83.3 lakh passes and 71.1 crore transactions by Jul-2026; ~20% of all FASTag transactions.
+- FY26 receipts ₹1,795 Cr.
+- ₹3,075 in FY27.
+- Cube: ~32% private-car adoption; compensation = 11.8% of toll.
+
+## 4.4 Gap log (the 20 items in §H)
+
+| # | §H gap | Status | What was found / tried |
+|---|---|---|---|
+| 1 | NH toll FY15–FY19 | **Partly filled** | FY17 ₹17,942 Cr, FY18 ₹21,948 Cr, FY19 ₹24,396 Cr (NHAI fee plazas, RS reply via Business Today) [V-sec]. **FY15 and FY16 still open.** Tried: rsdebate/sansad PDFs (redirect blocked), data.gov.in (403); an Aug-2015 RS answer (snippet) gives FY15 ≈ ₹5,927 Cr on a narrower public-plaza basis, not comparable. Part 1's [K] FY15–16 values should be deleted (S4). |
+| 2 | Awards by mode (HAM/EPC/BOT/TOT), km, FY18–FY26 | **Still open (partial)** | Total awards are now [V] (D4). Mode split remains unsourced in km. Available: ICRA shares (EPC 65–70%, HAM 25–30%; FY27e HAM 24–26%); Bharatmala 56% EPC (PRS); NHAI's FY27 bid list by count (26 EPC / 21 HAM / 7 DBOT of 54 projects, ₹1.8 lakh Cr) [V PNC call]. The IRB deck chart (FY19–FY24) is still not decodable. Tried: MoRTH AR (no mode table found in Ch. II–III), Lok Sabha search, Indian Infrastructure (charts are images). |
+| 3 | NHAI 3,124 km vs MoRTH ~7,000 km (FY26) | **Filled (scope)** | The two are different scopes. MoRTH (all agencies: NHAI, NHIDCL, state PWDs, BRO) awarded 2,257 km to Dec-2025 [V MoRTH AR]; ICRA's full-year ~7,000 km is MoRTH-wide. NHAI's 3,124 km is NHAI only (Nuvama, V-snip). Construction scopes likewise: NHAI 5,313 km [V] vs MoRTH ~9,380 km [V-sec]. |
+| 4 | NHAI FY27 budget (PRS vs Nuvama) | **Filled** | PRS ₹1,87,293 Cr (+10% vs RE) is confirmed via IRB AR's PRS table [V]. NHAI's own FY26 GBS was ₹2,38,384 Cr (capex ₹2,44,362 Cr) [V NHAI PR]: the PRS "NHAI" line is not the whole NHAI budget flow. Nuvama's "no increase" is not supported. |
+| 5 | FY26 construction km (MoRTH primary) | **Partly filled** | MoRTH 4,989 km to Dec-2025 [V]; NHAI full year 5,313 km [V]. A MoRTH full-year primary figure was not found (monthly-summary site does not serve files). ICRA's 9,380 km stays [V-sec]. |
+| 6 | FASTag/NETC FY26 value and transactions | **Filled** | ₹82,342 Cr; 47,817 lakh transactions (+13.7% / +14.8%); FY27 to Sep ₹43,074 Cr [V IHMCL]. NPCI page blocked (403). |
+| 7 | E-way bills (GSTN) and diesel (PPAC) | **Still open** | Not fetched within the call budget, given the priority on IRB primary documents. Proxy in hand: IHMCL FASTag transactions (+14.8% FY26). |
+| 8 | WPI monthly series | **Partly filled** | Sep-2026 11.39%, Aug 9.92%, Jul 9.78% (final), H1 FY27 9.85% [V AIR]; Dec-2025 0.83% and Feb-2026 2.13% [V-snip]. eaindustry.nic.in failed TLS. Full monthly index table still open. |
+| 9 | SEBI InvIT leverage and sponsor rules | **Filled** | Regs as amended to 16-Oct-2026 (S11, S12) [V SEBI]. |
+| 10 | HAM interest and price-index multiple | **Filled (company-disclosed)** | Bank Rate / avg 1-yr MCLR of top-5 SCBs + 1.25–3%; 40% in 5–10 instalments, PIM-adjusted; 60% in 30 half-yearly instalments from COD + 180 days [V IRB AR]. The NHAI MCA text itself was not fetched. |
+| 11 | Annual-pass compensation for IRB | **Still open** | Not disclosed in the IRB AR, the Q1 deck, the call or the monthly releases (the releases do not say whether compensation is inside the toll figures). Benchmarks: Cube ₹108.1 Cr = 11.8% of toll (Q1 FY27) [V]; NHIT includes it, unquantified [V]. MPEW and HORR are state concessions, likely outside the pass (S34, FLAG). Ask IRB at Q2. |
+| 12 | Cube lane-km; AUMs of Vertis, Interise, Sekura, Maple | **Partly filled** | Cube 8,442 lane-km / 1,927 km, AUM ₹36,659 Cr [V]. Vertis ~₹26,500 Cr (V-snip). Interise, Sekura, Maple: open. Sector AUM ₹3.0 lakh Cr [V CRISIL]. |
+| 13 | Bharat Highways InvIT | **Filled** | Renamed **Indus Infra Trust** (BSE 544137); figures in 4.2.6(d) [V screener]. |
+| 14 | IRB InvIT units after the Sep-26 raise and true m-cap | **Filled** | 165.31 Cr units; ~₹10,084 Cr at ₹61; IRB 16.12% [V]. |
+| 15 | IRB absolute net debt | **Filled** | ₹11,057 Cr (Mar-26), ~₹10,700 Cr (Jun-26); Ind AS ₹19,784 Cr [V]. |
+| 16 | MPEW concession end and post-2030 | **Partly filled** | End **30-Apr-2030** confirmed contractually [V AR]. Post-2030: no decision. MSRDC has sent the state a revised funding proposal to widen MPEW to 10 lanes on **BOT**, with toll from existing traffic funding it and construction to finish by 2030 (Swarajya 28-Jun-2026) [V-sec]. A Lok Sabha answer (snippet) says the 2030 date was fixed against the ₹704.45 Cr capitalised cost of the common Expressway/NH-4 stretch. |
+| 17 | MPEW 2.0 ₹8,262 Cr; HORR ₹7,380 Cr; MPEW-2004 ₹918 Cr; TOT-1 ₹9,681 Cr | **Mostly filled** | MPEW 2.0 [V AR]; TOT-1 ₹9,681.5 Cr [V MoRTH AR + IRB AR]; MPEW-2004 agreement date (4-Aug-2004, MSRDC–MIPL–GoM) [V AR], **but ₹918 Cr not found**. **HORR ₹7,380 Cr not verified** (the AR lists the HORR concession under IRBIT without the fee). Keep [K] for those two. |
+| 18 | IRB Q2 FY27 board date | **Still open** | No intimation on screener or IRB announcements as of 23-Oct; BSE API blocked. Q2 FY26 was 12-Nov-2025. Expect ~mid-Nov [E]. |
+| 19 | Promoter drop 34.39% → 30.42% (Jun-2024) | **Filled (V-snip)** | Block deals: 30-May-2024 (~4%, IRB Holding / Deepali Mhaiskar reported) and a Cintra block around 11-Jun-2024 (up to ~5%) [V-snip Business Standard]; shareholding shifts [V screener]. Exchange bulk-deal files not fetched. |
+| 20 | Global peer EV/EBITDA | **Filled (aggregator)** | S31 / D10 [V-sec stockanalysis]. The companies' own reports were not fetched. |
+
+**Status of the figures the brief asked us to verify:**
+- **Verified:**
+  - NH toll ₹70,278 / ₹68,483 / ₹1,795 Cr and ₹33,929 Cr [V-sec].
+  - ICRA 7–9% / 10–12% [V-sec]. The ~6.3% April-2027 hike is **challenged** (S27).
+  - Monetisation ₹1,71,065 Cr [V, reconciled] / ₹28,078 Cr [V, ₹28,307 Cr NHAI] / NMP 2.0 ₹4.42 lakh Cr [V].
+  - EPC discounts ~35% [V-sec].
+  - IRB Q1 FY27 PAT +51% and segment margins [V].
+  - Sep-26 toll ₹773 Cr +24% [V].
+  - Bid / transfer IRR [V].
+  - ₹4,605 Cr transfer and ₹2,351 Cr raise [V].
+  - MPEW ~22% (FY26; ~21% now) [V/E].
+  - Annual pass live 15-Aug-2025 [V].
+  - IRB m-cap, P/B, P/E [V aggregator].
+  - Order book ₹44,100 Cr [V].
+  - CARE AA [V, resolved].
+  - PNC 25-Nov [V, resolved].
+- **Not re-fetched (Part-1 tags stand):**
+  - NHAI debt ₹3.48 → ₹2.40 lakh Cr [V-P1 PRS].
+  - Private InvIT 51/25/24 [V-P1 CRISIL].
+  - WPI-factor reversal 8-Jul-2026 [V-P1 ION].
+  - Road-InvIT yields 8.5–10.7% [E].
+  - 10-year G-sec 7.2–7.4% [V-snip].
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### 4.5.1 Insights (expert additions)
+
+1. **The annual pass has quietly turned ~10–12% of NH toll into an NHAI receivable.**
+   - Cube's Q1 FY27 toll grew 11.5% only because of ₹108 Cr of pass compensation (11.8% of toll). **Ex-compensation, collections fell ~1.6%** [V/E].
+   - Pass trips are ~20% of all FASTag transactions [V IHMCL]. They carry no FASTag value, so FASTag value growth (+13.7% FY26; FY27 H1 annualising ~+5%) now understates concession revenue.
+   - For concessionaires the risk changes from traffic to **counterparty and timing** (42 receivable days at Cube), plus formula risk on the compensation constant.
+   - **IRB is partly insulated:** MPEW (MSRDC) and HORR (HMDA) are state concessions, apparently outside the NH pass (~33% of group toll) [E; FLAG]. Its NH TOTs and BOTs in IRBIT are exposed.
+2. **The 1-Apr-2027 toll hike could be the largest since FY23, and larger than ICRA's 6.3%.**
+   - WPI hit 11.39% in Sep-2026 (fuel & power +25.9%). With December WPI at 9–12%, the 3% + 40% formula gives 6.6–7.8% [E].
+   - Combined with 4.5–5.5% traffic growth, FY28 NH toll growth could reach ~12–14% [E], above ICRA's 10–12%.
+   - The same WPI spike raises O&M and major-maintenance costs (bitumen) and HAM price-index multiples. Toll owners gain; fixed-price EPC contractors lose.
+3. **IRB's "two net debts" and the off-balance-sheet AV liability.**
+   - Headline net debt is ₹11,057 Cr; Ind AS net debt is ₹19,784 Cr [V].
+   - Neither includes the **₹14,881 Cr additional concession fee AV owes NHAI** over its life, nor the deferred premium (bank rate + 2%, by FY2035).
+   - The US$740 mn notes add ~₹74 Cr of rupee debt for every ₹1/$ of depreciation.
+   - A credit analyst would present all four alongside each other. CARE's own metric, net debt/adjusted PBILDT, is "elevated in FY27".
+4. **Related-party concentration is the business model, and it has a receivable tail.**
+   - ~36% of FY26 consolidated revenue (₹2,736 Cr) was billed to IRBIT SPVs [E from V AR].
+   - CARE notes ₹3,853 Cr owed by the Private InvIT, recoverable mainly through arbitration (cost overruns).
+   - The governance debate (B1) now has a number: **receivables ≈ 20% of IRB's market cap**.
+5. **The monetisation pipeline is too small for IRB's TOT thesis.**
+   - MoRTH's own table shows TOT proceeds of ₹1,011–15,968 Cr a year (FY22–FY25) and ₹12,357 Cr in FY26. Total monetisation peaked at ₹41,154 Cr (FY24).
+   - IRB's thesis needs ₹40,000–50,000 Cr of TOT **a year**; NMP 2.0 implies ~₹88,000 Cr a year. NHAI identified only 1,692 km for FY27 [V].
+   - Supply, not IRB's bidding discipline, is the binding constraint. The ~52% of NH toll still collected on public plazas (₹31,810 Cr FY25 [V]) shows the stock exists; the flow is a policy choice.
+6. **The award drought is worse than "~7,000 km" suggests.**
+   - MoRTH awarded 2,257 km in Apr–Dec 2025 [V]; NHAI awarded 107 km in Q1 FY27 (May ~102, June ~5) [V].
+   - EPC developers cut guidance (Ashoka 20% → 10–15%) while IRB's owner model grew PAT 51%.
+   - The toll-cum-annuity hybrid (10–25% upfront support, 20-year fixed concession, >10,000 km targeted) is the key policy to watch for IRB's BOT optionality.
+7. **IRB's 16% of IRB InvIT is voluntary capital.**
+   - SEBI requires only 3% at this listing age (year 10), with the value requirement capped at ₹500 Cr. IRB nonetheless put ₹351 Cr into the Sep-2026 issue to hold 16.12%.
+   - The ~13 percentage points above the floor (~₹1,300 Cr at market [E]) is a liquidity reserve IRB could release. It is also an alignment signal that matters for the pricing of related-party transfers.
+8. **MPEW after 2030 may be decided before 2030.**
+   - MSRDC's 10-lane widening proposal is a BOT funded by existing traffic, targeted for award once the state approves and for completion by 2030.
+   - If it proceeds, IRB (incumbent operator, ~21% of group toll) must win that BOT or lose its largest cash source. The decision could come in FY27–FY28, not FY30 [E].
+
+### 4.5.2 New primer issues — `primers/irb-infrastructure.html`
+
+These add to §3.4; the source rows are cited.
+
+- **Net debt figure:** replace "~₹20,000 Cr gross" framing with **net debt ₹11,057 Cr (FY26, company KPI; 0.53×) / ~₹10,700 Cr (Jun-26)**. Footnote the Ind AS net debt of ₹19,784 Cr and the **AV additional concession fee of ₹14,881 Cr** owed to NHAI (S1–S3; 4.2.5-2).
+- **MPEW terms:** add the contract — ₹8,262 Cr (₹6,500 Cr upfront + ₹850 + ₹850 + ₹62 Cr), **1-Mar-2020 to 30-Apr-2030** — and MSRDC's 10-lane BOT proposal (Jun-2026) as the post-2030 swing factor (S25; 4.4-16).
+- **Rating:** domestic rating is now **CARE AA/Stable (assigned 5-Oct-2026)**, not "AA-". Add CARE's flags: ₹3,853 Cr Private-InvIT receivable (arbitration-dependent), the AV competing-road arbitration, Ganga Expressway collections below expectation, and FCY refinancing in FY31–32 (S20).
+- **Share count:** note the **1:1 bonus (allotted 2-Apr-2026; 1,207.8 Cr shares)**. Any per-share figure, price history or "₹30+ peak" in the primer must be on the post-bonus basis (the May-2024 peak was ~₹34 adjusted / ~₹70 unadjusted) (S24).
+- **Ownership history:** the promoter fall from 34.4% to 30.4% in mid-2024 came from **block deals (promoter entities ~4%; a Cintra block up to ~5%)**. Current holdings: Cintra 19.86%, GIC 16.94% (S21, S32).
+- **IRB InvIT stake:** 16.12% of **165.31 Cr units** (~₹1,625 Cr at market) after IRB's ₹351 Cr preferential subscription. SEBI requires only 3% at this listing age (S12, S13).
+- **Q2 FY27 operating data:** group toll **₹2,378 Cr (+25.0%)**; WOS +14.6% (MPEW +13.9%, AV +16.2%); Private InvIT +41.9%; Public InvIT +6.7% (4.2.2).
+- **Related-party dependence:** ~36% of FY26 revenue is EPC/O&M billed to IRBIT SPVs (₹2,009 Cr + ₹727 Cr). Add it to the governance discussion (4.2.5-1).
+- **Annual pass:** say whether IRB's NH assets receive compensation (undisclosed). State that MPEW and HORR appear to be outside the NH pass. Use Cube's 11.8%-of-toll compensation as the industry marker (S16, S34).
+- **Toll-revision outlook:** replace "~6.3% in April-2027" with "**6.6–7.8% if Dec-2026 WPI is 9–12% (Sep-2026 WPI 11.39%)**; ICRA 6.2–6.4%" (S27).
+- **HAM description (if present):** interest is Bank Rate/MCLR **+1.25–3%** and the 40% construction support comes in 5–10 instalments (S10). The two WOS HAMs have contract ends of May-2039 / Jan-2040 and go to the Public InvIT on COD (FY27, per CARE).
+- **USD bond:** US$740 mn at 7.11%, amortising from Sep-2028 and secured on MPEW shares and IRBIT units. Show the FX sensitivity (4.2.5-3).
+- **Sector stats:**
+  - NH toll FY17 ₹17,942 Cr → FY26 ₹70,278 Cr (~16% CAGR).
+  - FASTag FY26 ₹82,342 Cr.
+  - Monetisation ₹1,71,065 Cr cumulative, reconciled to MoRTH's year table; TOT only ₹6,661–15,968 Cr a year.
+  - NHAI awarded only 107 km in Q1 FY27.
+  - MLFF: 6 plazas live.
+  - Bharat Highways InvIT is now **Indus Infra Trust**: fix this if the competitor table names it.
+
+
+---
+
+## Orchestrator note — aggregates re-added after Part 4 (2026-10-23)
+
+All Part 3 sums (§3.2 a, b) were re-added by hand from the company rows: every column checks, and every ratio is a ratio of sums. Applying Part 4's Supersedes changes ONE input: **IRB InvIT m-cap ₹6,225 Cr (stale) → ₹10,084 Cr (S13: 165.31 Cr units × ₹61)**. Revised reference sums (screener FY26 basis, reported PAT; m-cap 23-Oct-26):
+- Reference listed road InvITs (IRB InvIT, Cube, Capital): m-cap **34,366** (10,084 + 20,449 + 3,833); agg. m-cap ÷ PAT 34,366 ÷ 767 = **44.8×**; P/B 34,366 ÷ 21,419 = **1.60×**; EV/OP (34,366 + 29,987 − 1,124) ÷ 4,602 = **13.7×**.
+- Reference, all nine: m-cap **59,306**; ÷ PAT 7,243 = **8.2×**; P/B 59,306 ÷ 59,256 = **1.00×**; EV/OP (59,306 + 57,151 − 6,611) ÷ 12,732 = **8.6×**.
+- IRB share of IRB + nine references by m-cap: 19,615 ÷ 78,921 = **24.9%** (was 26.1%). Revenue share unchanged at 14.6%.
+- IRB InvIT's own EV/EBITDA on the corrected m-cap: (10,084 + borrowings) ÷ 1,175 — use the screener borrowings in §2.3 for the arithmetic; the §2.0 "12.8×" used the stale m-cap.
+- Indus Infra Trust (ex-Bharat Highways, S14) is an extra reference row, not added to the three-InvIT group (no FY25 base in the dossier).
+- IRB net debt: use **₹11,057 Cr (company KPI, Mar-26)**, say it nets liquid investments, and note the Ind AS figure ₹19,784 Cr (S1, S3). IRB EV/EBITDA on company basis: (19,615 + 11,057) ÷ 4,188 = **7.3×**.
+- Single-company sub-sector: the report has **no combined row**; reference rows only.

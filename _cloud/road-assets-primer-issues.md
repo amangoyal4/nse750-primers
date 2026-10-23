@@ -29,3 +29,31 @@
 - **irb-infrastructure.html — "India's first InvIT":** correct for the public InvIT (2017). The deck also claims IRBIT is "India's 1st Private InvIT listed on NSE" — the primer could add it.
 - **irb-infrastructure.html — tone:** contains "Think of IRB as…" and "The honest counterweight" (§10 heading). Both phrasings are banned in the report style guide; flag for the next primer refresh.
 
+
+## From Road Assets deep-research pass (2026-10-23, road-assets-industry.md §4.5.2)
+
+
+These add to §3.4; the source rows are cited.
+
+- **Net debt figure:** replace "~₹20,000 Cr gross" framing with **net debt ₹11,057 Cr (FY26, company KPI; 0.53×) / ~₹10,700 Cr (Jun-26)**. Footnote the Ind AS net debt of ₹19,784 Cr and the **AV additional concession fee of ₹14,881 Cr** owed to NHAI (S1–S3; 4.2.5-2).
+- **MPEW terms:** add the contract — ₹8,262 Cr (₹6,500 Cr upfront + ₹850 + ₹850 + ₹62 Cr), **1-Mar-2020 to 30-Apr-2030** — and MSRDC's 10-lane BOT proposal (Jun-2026) as the post-2030 swing factor (S25; 4.4-16).
+- **Rating:** domestic rating is now **CARE AA/Stable (assigned 5-Oct-2026)**, not "AA-". Add CARE's flags: ₹3,853 Cr Private-InvIT receivable (arbitration-dependent), the AV competing-road arbitration, Ganga Expressway collections below expectation, and FCY refinancing in FY31–32 (S20).
+- **Share count:** note the **1:1 bonus (allotted 2-Apr-2026; 1,207.8 Cr shares)**. Any per-share figure, price history or "₹30+ peak" in the primer must be on the post-bonus basis (the May-2024 peak was ~₹34 adjusted / ~₹70 unadjusted) (S24).
+- **Ownership history:** the promoter fall from 34.4% to 30.4% in mid-2024 came from **block deals (promoter entities ~4%; a Cintra block up to ~5%)**. Current holdings: Cintra 19.86%, GIC 16.94% (S21, S32).
+- **IRB InvIT stake:** 16.12% of **165.31 Cr units** (~₹1,625 Cr at market) after IRB's ₹351 Cr preferential subscription. SEBI requires only 3% at this listing age (S12, S13).
+- **Q2 FY27 operating data:** group toll **₹2,378 Cr (+25.0%)**; WOS +14.6% (MPEW +13.9%, AV +16.2%); Private InvIT +41.9%; Public InvIT +6.7% (4.2.2).
+- **Related-party dependence:** ~36% of FY26 revenue is EPC/O&M billed to IRBIT SPVs (₹2,009 Cr + ₹727 Cr). Add it to the governance discussion (4.2.5-1).
+- **Annual pass:** say whether IRB's NH assets receive compensation (undisclosed). State that MPEW and HORR appear to be outside the NH pass. Use Cube's 11.8%-of-toll compensation as the industry marker (S16, S34).
+- **Toll-revision outlook:** replace "~6.3% in April-2027" with "**6.6–7.8% if Dec-2026 WPI is 9–12% (Sep-2026 WPI 11.39%)**; ICRA 6.2–6.4%" (S27).
+- **HAM description (if present):** interest is Bank Rate/MCLR **+1.25–3%** and the 40% construction support comes in 5–10 instalments (S10). The two WOS HAMs have contract ends of May-2039 / Jan-2040 and go to the Public InvIT on COD (FY27, per CARE).
+- **USD bond:** US$740 mn at 7.11%, amortising from Sep-2028 and secured on MPEW shares and IRBIT units. Show the FX sensitivity (4.2.5-3).
+- **Sector stats:**
+  - NH toll FY17 ₹17,942 Cr → FY26 ₹70,278 Cr (~16% CAGR).
+  - FASTag FY26 ₹82,342 Cr.
+  - Monetisation ₹1,71,065 Cr cumulative, reconciled to MoRTH's year table; TOT only ₹6,661–15,968 Cr a year.
+  - NHAI awarded only 107 km in Q1 FY27.
+  - MLFF: 6 plazas live.
+  - Bharat Highways InvIT is now **Indus Infra Trust**: fix this if the competitor table names it.
+
+
+
