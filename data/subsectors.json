@@ -1447,6 +1447,23 @@
         "The export race"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Explosives & Defence Energetics",
+      "slug": "explosives",
+      "file": "explosives.html",
+      "sector": "Chemicals",
+      "subsector": "Explosives",
+      "companies": 1,
+      "accent": "#B32609",
+      "hook": "From coal benches to rocket motors: how India's explosives industry turns ammonium nitrate and overburden into profit, why the 2026 AN shock moved prices rather than tonnes, and how Solar Industries became an export-led defence-energetics house buying Omnia.",
+      "tags": [
+        "The 2026 AN shock",
+        "Pinaka to Nagastra",
+        "Omnia and owning AN",
+        "Licence-moat consolidation"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1664,7 +1681,7 @@
       "sector": "Chemicals",
       "sub": "Explosives",
       "companies": 1,
-      "report": null
+      "report": "explosives.html"
     },
     {
       "sector": "Construction Materials",
