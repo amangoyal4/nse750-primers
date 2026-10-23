@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explosives &amp; Defence Energetics — Sub-sector Report</title>
+<meta name="description" content="A complete guide to India's commercial explosives and defence-energetics industry: how ammonium nitrate becomes a blasted coal bench or a rocket motor, why the 2026 AN shock was a price event and not a volume boom, how a private company built an export-led ammunition business, what the Omnia deal changes, and how to read every number, with Solar Industries as the one listed lens.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#B32609;          /* blasting red-oxide */
+    --brand-bright:#E0502A;   /* detonation orange */
+    --gold:#C98A12;           /* brass - shell-case accent */
+    --wtg:#8C5A3C;            /* overburden umber */
+    --epc:#D08A5C;            /* sandstone */
+    --om:#4F5B66;            /* gunmetal slate */
+    --spec:#E0502A;          /* orange accent */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#B32609,#E0502A);}
+  .fill.gold{background:linear-gradient(90deg,#C98A12,#E2A93E);}
+  .fill.wtg{background:linear-gradient(90deg,#8C5A3C,#A8775A);}
+  .fill.om{background:linear-gradient(90deg,#4F5B66,#6F7B87);}
+  .fill.spec{background:linear-gradient(90deg,#E0502A,#EC7A58);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Chemicals · Explosives</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> From gas to a blasted bench</a></li>
+    <li><a href="#p2"><span class="n">02</span> How big, how fast</a></li>
+    <li><a href="#p3"><span class="n">03</span> Overburden, not coal</a></li>
+    <li><a href="#p4"><span class="n">04</span> The molecule India rations</a></li>
+    <li><a href="#p5"><span class="n">05</span> Price, not tonnes: the 2026 AN shock</a></li>
+    <li><a href="#p6"><span class="n">06</span> Where ₹100 goes: five models</a></li>
+    <li><a href="#p7"><span class="n">07</span> A quarter, a tail and a new No. 2</a></li>
+    <li><a href="#p8"><span class="n">08</span> Defence at home after Sindoor</a></li>
+    <li><a href="#p9"><span class="n">09</span> Grenades to Pinaka to Nagastra</a></li>
+    <li><a href="#p10"><span class="n">10</span> The export turn</a></li>
+    <li><a href="#p11"><span class="n">11</span> Buying the molecule: Omnia</a></li>
+    <li><a href="#p12"><span class="n">12</span> The licence is the asset</a></li>
+    <li><a href="#p13"><span class="n">13</span> Four decades, six shocks</a></li>
+    <li><a href="#p14"><span class="n">14</span> Reading the numbers: the KPIs</a></li>
+    <li><a href="#p15"><span class="n">15</span> The peer table</a></li>
+    <li><a href="#p16"><span class="n">16</span> Who is winning</a></li>
+    <li><a href="#p17"><span class="n">17</span> The listed lens: Solar</a></li>
+    <li><a href="#p18"><span class="n">18</span> The global lens</a></li>
+    <li><a href="#p19"><span class="n">19</span> Why 83× and 7× coexist</a></li>
+    <li><a href="#p20"><span class="n">20</span> Technology &amp; disruption</a></li>
+    <li><a href="#p21"><span class="n">21</span> Bull vs bear</a></li>
+    <li><a href="#p22"><span class="n">22</span> What to watch</a></li>
+    <li><a href="#p23"><span class="n">23</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Chemicals · Explosives</span>
+    <span class="tag gold">1 listed company</span>
+  </div>
+  <h1>Explosives &amp; defence energetics: <em>from coal benches to rocket motors</em></h1>
+  <p class="dek">A complete guide to India's commercial-explosives and defence-energetics industry: how a tonne of ammonium nitrate becomes a blasted coal bench or a rocket motor, why the 2026 ammonium nitrate shock was a price event rather than a volume boom, how one private company built an export-led ammunition business on top of a mining-explosives franchise, what a ₹12,951 crore bid for South Africa's Omnia changes, and how to read every number the industry reports. Solar Industries, the only listed member, is the lens; the industry is the subject.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹9,838 <small>Cr</small></div><div class="l">Solar revenue FY26 (+30%)</div></div>
+    <div class="cell"><div class="v">₹2,634 <small>Cr</small></div><div class="l">Solar defence revenue FY26 (27% of sales)</div></div>
+    <div class="cell"><div class="v">₹21,350 <small>Cr</small></div><div class="l">Solar order book, 30 Jun 2026 (Q1 FY27)</div></div>
+    <div class="cell"><div class="v">₹72,750 <small>/t</small></div><div class="l">Ammonium nitrate, 1 Apr 2026 (₹50,500 on 1 Mar)</div></div>
+    <div class="cell"><div class="v">₹49,783 <small>/t</small></div><div class="l">Coal India avg explosive price, Apr 2026 (₹39,588 Feb)</div></div>
+    <div class="cell"><div class="v">₹12,951 <small>Cr</small></div><div class="l">Solar's Omnia offer, Sep 2026 (pending)</div></div>
+  </div>
+  <p class="prov">Basis: FY26 (year to 31 Mar 2026) consolidated figures; Q1 FY27 (Apr–Jun 2026, results 13 Aug 2026) is Solar's latest reported quarter, and its Q2 FY27 (Jul–Sep 2026) board date had not been announced by 23 Oct 2026. Market data from screener.in, 23 Oct 2026. Industry data from Coal India filings, the Ministry of Coal, PIB (Ministry of Defence), PESO notices, Deepak Fertilisers and the annual reports of global peers. Foreign-currency conversions are indicative. Estimates, composites and worked examples are labelled.</p>
+</header>
+
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: one listed company, three businesses, one chemistry</h2></div>
+<p class="part-sub">India's explosives industry is a coal-mining consumable, an ammunition supply chain and a bet on a single imported-and-rationed molecule, all at once.</p>
+
+<p class="lead">Every tonne of coal India digs from an opencast mine starts with a blast. Before a shovel can reach the seam, the rock above it, the overburden, has to be broken, and the cheapest way to break rock is to drill a hole, fill it with a mixture of ammonium nitrate and fuel oil, and set it off with a detonator. Coal India alone uses roughly <strong>0.9 million tonnes of explosives a year</strong>. Cement quarries, iron-ore mines, tunnels in the Himalaya and metro lines under Indian cities use more. The same chemistry, pushed further, gives the military its high explosives, its rocket propellants and its shells. That shared chemistry, called high-energy materials, is what holds this sub-sector together.</p>
+<p>The listed universe is unusually thin. Only one company in the NSE 750 sits here: <a href="../primers/solar-industries.html">Solar Industries India</a> (NSE SOLARINDS, BSE 532725), worth ₹1,64,873 crore on 23 October 2026. It is India's largest commercial-explosives maker, with about 24% of the domestic market on CRISIL's estimate. It is also an emerging-market explosives multinational with plants in 9–11 countries, and the country's leading private maker of defence energetics: explosives, propellants, rockets, ammunition and loitering munitions. Everything else in the industry is either unlisted (the state-owned Munitions India, Orica's Indian arm, dozens of licensed regional makers), listed in another sub-sector (Premier Explosives, now being bought by Apollo Micro Systems), tiny (Keltech Energies), or an input supplier (Deepak Fertilisers, which makes the ammonium nitrate). This report therefore treats Solar as a lens on the whole industry, not as its subject, and uses those other companies as clearly marked reference points.</p>
+<p>Five forces define the industry in October 2026, and the report is built around them:</p>
+<ul class="clean">
+<li><strong>Overburden sets the base load.</strong> Explosives demand follows the volume of rock moved, not the coal mined. Coal India's overburden removal fell 2% in FY26 to 1,980 million cubic metres and was flat again in Q1 FY27, which is why Solar's Indian explosives revenue in FY26 (₹3,343 crore) was still below FY23's. Captive and commercial coal mines, up 10% to 210 million tonnes, are the growing customers.</li>
+<li><strong>Ammonium nitrate is now a geopolitical commodity.</strong> The West Asia war from 28 February 2026 lifted Indian ammonium nitrate (AN) from ₹50,500 to ₹72,750 a tonne in one month. India banned AN exports on 18 March. Coal India's average explosive price was reset from ₹39,588 to ₹49,783 a tonne. Q1 FY27 explosives growth of 52% was mostly this price, not more tonnes.</li>
+<li><strong>Defence demand at home.</strong> India produced ₹1.78 lakh crore of defence equipment in FY26, and the FY27 capital budget rose 21.8% after Operation Sindoor in May 2025. Solar's defence revenue went from ₹396 crore in FY23 to ₹2,634 crore in FY26. The Ministry of Defence confirmed that Solar-made Nagastra loitering munitions were used in Sindoor.</li>
+<li><strong>The export turn.</strong> India's defence exports rose 63% to ₹38,424 crore in FY26 while Europe ran short of artillery shells. About two-thirds of Solar's ~₹18,000 crore defence order book is international, and roughly three-quarters of its FY26 defence revenue appears to have been exported (an estimate built from its annual report).</li>
+<li><strong>Overseas plants, M&amp;A and the licence moat.</strong> Solar has bid ₹12,951 crore for Omnia Holdings of South Africa, which would bring its own ammonium nitrate plants. At home, licences issued by the explosives regulator are scarce enough that Solar is paying ₹115 crore for a licensed company with no revenue, and Apollo Micro Systems is assembling a second private group from IDL Explosives and Premier.</li>
+</ul>
+
+<div class="mini-stats">
+  <div class="ms"><div class="msv">₹3,668 Cr</div><div class="msl">Solar revenue in Q1 FY27 (Jun-26), +70% YoY; EBITDA margin 27.9%</div></div>
+  <div class="ms gold"><div class="msv">+26%</div><div class="msl">Reset in Coal India's average explosive price, Feb to Apr 2026, as AN rose 44%</div></div>
+  <div class="ms red"><div class="msv">−₹1,072 Cr</div><div class="msl">Solar's FY26 free cash flow, after a deliberate inventory build and ₹1,556 Cr of capex</div></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">What the one listed company actually sells</div>
+  <div class="c-sub">Solar Industries revenue by customer basket, FY26, ₹9,838 Cr = 100. Company FY26 results presentation; baskets are customer groups, not products</div>
+  <div class="stack-row"><div class="blab">FY26 revenue mix</div><div class="stack"><span style="width:9.4%;background:var(--wtg)">CIL 9</span><span style="width:12.4%;background:var(--epc)">Non-CIL 12</span><span style="width:12.2%;background:var(--om)">Infra 12</span><span style="width:38.8%;background:var(--gold)">International 39</span><span style="width:26.8%;background:var(--brand)">Defence 27</span><span style="width:0.4%;background:var(--ink-faint)"></span></div></div>
+  <div class="stack-row"><div class="blab">FY23 revenue mix</div><div class="stack"><span style="width:15.4%;background:var(--wtg)">CIL 15</span><span style="width:18.5%;background:var(--epc)">Non-CIL 18</span><span style="width:19.1%;background:var(--om)">Infra 19</span><span style="width:40.4%;background:var(--gold)">Intl 40</span><span style="width:5.7%;background:var(--brand)">Def 6</span><span style="width:0.9%;background:var(--ink-faint)"></span></div></div>
+  <div class="legend"><span><i style="background:var(--wtg)"></i>Coal India (₹924 Cr FY26; ₹1,067 Cr FY23)</span><span><i style="background:var(--epc)"></i>Non-CIL &amp; institutional: SCCL, captive coal, metals, cement (₹1,222 Cr)</span><span><i style="background:var(--om)"></i>Housing &amp; infrastructure (₹1,197 Cr)</span><span><i style="background:var(--gold)"></i>International: overseas plants plus explosives exports (₹3,815 Cr)</span><span><i style="background:var(--brand)"></i>Defence (₹2,634 Cr)</span><span><i style="background:var(--ink-faint)"></i>Others (₹46 Cr)</span></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">Where FY23–FY26 growth came from</div>
+  <div class="c-sub">Change in Solar revenue by basket between FY23 (₹6,923 Cr) and FY26 (₹9,838 Cr), ₹ Cr. Company results presentations, FY24 and FY26</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Defence<small>₹396 → ₹2,634 Cr</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">+2,238</div></div>
+    <div class="bar-row"><div class="blab">International<small>₹2,796 → ₹3,815 Cr</small></div><div class="track"><span class="fill gold" style="width:45.5%"></span></div><div class="bval">+1,019</div></div>
+    <div class="bar-row"><div class="blab">Domestic explosives<small>₹3,667 → ₹3,343 Cr</small></div><div class="track"><span class="fill bad" style="width:14.5%"></span></div><div class="bval">−324</div></div>
+    <div class="bar-row"><div class="blab">Others</div><div class="track"><span class="fill ink" style="width:0.8%"></span></div><div class="bval">−18</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹2,238 Cr. Red bar shows a decline. Three years of Indian mining explosives went sideways in rupee terms; all of the growth came from defence and overseas.</span></div>
+</div>
+
+<p>Three numbers sum up where the industry stands. First, <strong>domestic mining explosives are a slow, price-driven business</strong>: in rupees they shrank between FY23 and FY26 because the Russia–Ukraine AN spike of 2022 had inflated FY23, and because coal output went flat in FY26. Second, <strong>defence energetics is the growth engine</strong>, and for the one listed company it is mostly an export business. Third, <strong>the cost of the molecule is set outside any company's control</strong>: by the price of natural gas and ammonia, by war in the Gulf, and by a regulator that can ban exports or rewrite the transport rules overnight. The market prices Solar at 82.7 times trailing earnings, against about 7 times EBITDA for the Omnia business it is buying, because it believes the second fact matters more than the first and third. The rest of this report explains how each piece works and how to check whether that belief is holding.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>This industry sells controlled explosions. Most of the tonnes go to coal mines, where the product is close to a commodity and the price moves with the cost of ammonium nitrate. The profits and the stock-market excitement come from a smaller, faster-growing slice: military explosives, rocket motors and ammunition, much of it sold abroad. One listed company does both, which is why its valuation looks nothing like that of a mining-supplies business.</p>
+</div>
+</section>
+
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>From gas to a blasted bench: how the money is made</h2></div>
+<p class="part-sub">Two value chains share one chemistry. One ends in broken rock at a coal mine; the other ends in a qualified rocket on a launcher.</p>
+
+<p>The commercial chain starts with natural gas, which is turned into ammonia. Ammonia is partly oxidised into nitric acid, and the two are combined into <strong>ammonium nitrate</strong>, a white salt that is also a fertiliser. For explosives, AN is made into low-density porous prills (technical ammonium nitrate, or TAN) or kept as a hot solution. The explosive maker mixes AN with a fuel and an emulsifier. The cheapest product, ANFO, is AN prills soaked in fuel oil. The dominant product at big mines is <strong>bulk emulsion</strong>: an AN-and-water solution dispersed in oil, which is water-resistant and pumpable. It is mixed on site by "site-mixed explosive" trucks that drive from a bulk plant, usually within 50–60 km of the mine, and pump it straight into the blast hole.</p>
+<p>Two other product families matter more for profit than for tonnes. <strong>Packaged or cartridge explosives</strong> are factory-filled sticks used in underground mines, small quarries, tunnels and construction, and they sell for more per tonne. <strong>Initiating systems</strong> are the detonators, shock tube, detonating cord and boosters that set the main charge off in the right sequence. They are sold by the unit, not the tonne, and carry the highest margins in the commercial chain. Since July 2025 India has banned the manufacture and possession of electric detonators, so the market is moving to electronic detonators, which favours makers that design their own electronics. Solar's annual report implies initiating systems were about 11% of its FY26 revenue (an approximate figure from a product-mix chart).</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The commercial chain: from gas to a blasted bench</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Step 1 · Feedstock</div><div class="nname">Gas → ammonia</div><div class="nwho">Middle East, Russia, India's own plants. Ammonia FOB $298/t (Jun-25) to $801/t (May-26).</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Step 2 · Oxidiser</div><div class="nname">Nitric acid → AN</div><div class="nwho">Deepak (TAN 587 KTPA), RCF, imports. AN is ~60% of a bulk explosive by weight.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Step 3 · Explosive</div><div class="nname">Emulsion, ANFO, cartridge</div><div class="nwho">Bulk plants near mines; packaged factories; detonators made in-house by the leaders.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Step 4 · Delivery</div><div class="nname">Licensed transport &amp; magazines</div><div class="nwho">PESO licences for every step; QR-coded cartridges; GPS-tracked vehicles.</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Step 5 · Use</div><div class="nname">Blast at the bench</div><div class="nwho">Coal India, SCCL, captive coal, iron ore, limestone, tunnels. DGMS rules at the mine.</div></div>
+  </div>
+  <div class="flow-note">Value pools sit at the two ends of Step 3: the AN maker earns the spread over ammonia, and the explosive maker earns most where it adds initiating systems, packaged products and blasting services, not in bulk tonnes sold on a lowest-price tender.</div>
+</div>
+
+<p>The defence chain uses the same nitration and mixing skills, pushed to military specifications. <strong>High-energy materials</strong> such as RDX, HMX and TNT are made by nitrating organic compounds. They fill warheads, shells, bombs and mines. <strong>Composite propellants</strong>, made from ammonium perchlorate and a rubbery binder called HTPB, are cast into rocket motors for missiles such as Akash and BrahMos and for Pinaka rockets. The final steps, filling, integration and qualification, are long and trial-heavy. A product earns revenue only after the Army's quality agency or DRDO signs off, which is why defence revenue arrives in lumps and why a slipped trial can move a quarter's numbers by hundreds of crores.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The defence chain: from chemistry to a qualified munition</div>
+  <div class="flow-row">
+    <div class="node wtg"><div class="ntag">Step 1 · Chemistry</div><div class="nname">HMX, RDX, TNT</div><div class="nwho">Nitration plants; the same licences and safety culture as commercial explosives.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Step 2 · Energy</div><div class="nname">Propellants &amp; fills</div><div class="nwho">Composite (AP/HTPB) motors for Akash, Pinaka, BrahMos; gun propellants.</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Step 3 · Product</div><div class="nname">Rockets, shells, grenades</div><div class="nwho">Pinaka rockets, 30 mm and 155 mm rounds, hand grenades, Nagastra drones.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Step 4 · Gate</div><div class="nname">Trials &amp; qualification</div><div class="nwho">DRDO, DGQA, user trials; export needs DDP/SCOMET authorisation and end-user certificates.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Step 5 · Buyer</div><div class="nname">MoD or foreign state</div><div class="nwho">Milestone or delivery billing; Army advances of up to 60%, exports 15% upfront (Munitions India's terms).</div></div>
+  </div>
+  <div class="flow-note">The gate at Step 4 is why defence revenue is lumpy and why an order book converts slowly: Solar's ₹6,084 crore share of the Pinaka package runs over 8–15 years.</div>
+</div>
+
+<div class="tbl-wrap">
+<table>
+  <caption>The product families, who buys them, and who makes them in India</caption>
+  <thead><tr><th>Product family</th><th>What it is</th><th>Main users</th><th>Indian makers (examples)</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">Bulk explosives</td><td>Site-mixed emulsion, ANFO, heavy ANFO, pumped from trucks into blast holes</td><td>Opencast coal (Coal India, SCCL, captive), iron ore, limestone</td><td>Solar, IDL (now Apollo), Orica India, Keltech, Premier, regional makers</td></tr>
+    <tr><td class="t-strong">Packaged / cartridge</td><td>Factory-filled emulsion or slurry sticks; "permitted" explosives for gassy underground coal</td><td>Underground coal, quarries, tunnels, hydro, roads, housing</td><td>Solar (Nagpur is described as the world's largest packaged-explosives site), many small units</td></tr>
+    <tr><td class="t-strong">Initiating systems</td><td>Electronic detonators, shock tube (NONEL), detonating cord, cast boosters</td><td>Every blast; electronic detonators for precision and low-vibration work</td><td>Solar (in-house), IDL, Premier, imports by Orica and Dyno Nobel</td></tr>
+    <tr><td class="t-strong">Blasting services</td><td>Drill-and-blast contracting, blast design, fragmentation analytics</td><td>Large mines and mine developers</td><td>Solar (Problast in South Africa), Orica, Deepak Mining Solutions</td></tr>
+    <tr><td class="t-strong">Technical AN (input)</td><td>Porous prills, AN solution, high-density AN</td><td>Explosive makers</td><td>Deepak Fertilisers, RCF, imports (mainly Russia)</td></tr>
+    <tr><td class="t-strong">High-energy materials</td><td>HMX, RDX, TNT and compositions</td><td>Warheads, shells, bombs, mines</td><td>Munitions India, Solar (SDAL), Premier (small)</td></tr>
+    <tr><td class="t-strong">Propellants</td><td>Composite rocket propellant; nitrocellulose gun propellant</td><td>Missiles, rockets, artillery, space launch</td><td>Solar, Munitions India, Premier (operates ISRO and DRDO plants)</td></tr>
+    <tr><td class="t-strong">Ammunition, rockets, loitering munitions</td><td>Filled shells, 23–30 mm rounds, mortars, grenades, Pinaka rockets, Nagastra drones</td><td>Army, Navy, Air Force, home ministry, export customers</td><td>Munitions India, Solar, Adani Defence, Bharat Forge (shells)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="chart">
+  <div class="c-title">Where the margin sits along the chain</div>
+  <div class="c-sub">Typical EBITDA margin bands, latest full year; bar = midpoint. INDICATIVE composites: Keltech 7.7% (FY26), Deepak 15–26% (FY26 to Q1 FY27), Dyno Nobel explosives 13.9% EBIT, AECI Mining 15.4%, Enaex 18%, Solar ex-defence ~21–24% (estimate), SDAL PAT margin 22% implying ~30–35% EBITDA (estimate)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Bulk supplier on CIL tender<small>Keltech-type</small></div><div class="track"><span class="fill ink" style="width:25%"></span></div><div class="bval">5–12%</div></div>
+    <div class="bar-row"><div class="blab">Global AN-integrated major<small>Orica, Dyno, AECI, Omnia</small></div><div class="track"><span class="fill om" style="width:45%"></span></div><div class="bval">13–18%</div></div>
+    <div class="bar-row"><div class="blab">AN producer<small>Deepak TAN, cyclical</small></div><div class="track"><span class="fill wtg" style="width:55%"></span></div><div class="bval">12–26%</div></div>
+    <div class="bar-row"><div class="blab">Integrated explosives with initiating systems<small>Solar ex-defence</small></div><div class="track"><span class="fill gold" style="width:62.5%"></span></div><div class="bval">18–24%</div></div>
+    <div class="bar-row"><div class="blab">Defence energetics<small>SDAL-type</small></div><div class="track"><span class="fill brand" style="width:87.5%"></span></div><div class="bval">30–35%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 40% EBITDA margin. The highest margins sit furthest from the commodity: in detonators, services and defence products, not in tonnes of bulk emulsion.</span></div>
+</div>
+
+<p>The commercial chain has one awkward feature: <strong>the explosive maker does not control its main cost</strong>. AN is about 65% of Solar's raw-material bill and roughly a third of the selling price of a typical explosive. When ammonia doubles, AN follows, and the explosive maker must pass the increase on through price-variation clauses that recover only part of it at first. That is why revenue in this industry can jump 75% in a year (Solar in FY23) and fall 12% the next (FY24) while the business underneath barely changes. It is also why Solar wants Omnia, which owns AN plants. Section 05 follows the 2026 shock through each link.</p>
+<p>The defence chain has the opposite feature: <strong>costs are specialised and largely in the maker's hands, but the timing of revenue is not</strong>. Raw materials such as ammonium perchlorate, HTPB and metal bodies matter, yet the margin is set by the contract and by the maker's yield, while revenue waits on trials, inspections and export licences.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>There are two ways to earn money from the same chemistry. Selling explosives to mines is a volume business where the customer is powerful and the main ingredient's price swings wildly, so margins are thin unless you add detonators and services. Selling energetics to armies is a contract business where margins are fat but the money arrives only when each batch passes its tests. A company that does both can use the first to fund the second.</p>
+</div>
+</section>
+
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>How big, how fast: a ₹10,000–14,000 crore market nobody measures</h2></div>
+<p class="part-sub">India publishes no official explosives tonnage series, so the market has to be rebuilt from Coal India's consumption, one company's revenue and a market-share estimate.</p>
+
+<p>Start with what is measured. Coal India's subsidiaries consume about <strong>0.9 million tonnes of explosives a year</strong>, a figure Coal India itself cited in April 2026 when it explained why it would absorb the explosives price rise rather than pass it on in coal prices. Coal India produced 768 million tonnes of the roughly 1,036 million tonnes of coal India mined in FY26, about 74%. Singareni Collieries and the captive and commercial mines produce the rest, and their opencast mines are similarly blasting-intensive. Coal is usually put at 65–75% of Indian explosives demand by volume, with limestone, iron ore, other metals and infrastructure making up the remainder. Scaling up, India uses an INDICATIVE <strong>1.4–1.8 million tonnes of explosives a year</strong>.</p>
+<p>The value can be cross-checked two ways. Solar's FY26 domestic explosives revenue was ₹3,343 crore across its three Indian baskets. If that is about 24% of the market, as CRISIL estimates, the market was about ₹13,900 crore in FY26 at pre-war AN prices. Building up instead, 1.4–1.8 million tonnes at ₹45,000–55,000 a tonne is ₹6,300–9,900 crore of explosive product, plus ₹2,500–4,000 crore of initiating systems and accessories, for ₹9,000–14,000 crore. The overlap gives an INDICATIVE <strong>₹10,000–14,000 crore market in FY26</strong>. The April 2026 price reset alone would lift FY27's value by roughly a quarter before any volume growth, to perhaps ₹16,000–18,000 crore (INDICATIVE).</p>
+
+<div class="chart">
+  <div class="c-title">Two ways to size India's explosives market</div>
+  <div class="c-sub">FY26, ₹ Cr. INDICATIVE: top-down = Solar's domestic explosives revenue ÷ CRISIL's ~24% share; bottom-up = 1.4–1.8 mt × ₹45,000–55,000/t plus initiating systems; bars show midpoints, labels the ranges. Dossier estimates</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Top-down<small>₹3,343 Cr ÷ 24%</small></div><div class="track"><span class="fill brand" style="width:77.2%"></span></div><div class="bval">~13,900</div></div>
+    <div class="bar-row"><div class="blab">Bottom-up, product<small>tonnes × price</small></div><div class="track"><span class="fill wtg" style="width:45%"></span></div><div class="bval">6,300–9,900</div></div>
+    <div class="bar-row"><div class="blab">Bottom-up, incl. initiating systems</div><div class="track"><span class="fill gold" style="width:63.9%"></span></div><div class="bval">9,000–14,000</div></div>
+    <div class="bar-row"><div class="blab">FY27 after the price reset<small>before volume growth</small></div><div class="track"><span class="fill spec" style="width:94.4%"></span></div><div class="bval">16,000–18,000</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹18,000 Cr. The chosen range for FY26 is ₹10,000–14,000 Cr. No PESO tonnage series could be found to anchor it.</span></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">Where Indian explosives go, by tonnes</div>
+  <div class="c-sub">INDICATIVE split of 1.4–1.8 mt a year by end use, FY26. Coal India's ~0.9 mt is reported; the rest is an industry rule of thumb (coal 65–75% of volume)</div>
+  <div class="stack-row"><div class="blab">Explosives tonnes</div><div class="stack"><span style="width:56%;background:var(--wtg)">Coal India 56</span><span style="width:14%;background:var(--epc)">Other coal 14</span><span style="width:18%;background:var(--om)">Metals 18</span><span style="width:12%;background:var(--gold)">Infra 12</span></div></div>
+  <div class="legend"><span><i style="background:var(--wtg)"></i>Coal India (~0.9 mt)</span><span><i style="background:var(--epc)"></i>SCCL and captive/commercial coal</span><span><i style="background:var(--om)"></i>Limestone, iron ore, other metals and minerals</span><span><i style="background:var(--gold)"></i>Tunnels, hydro, roads, rail, construction</span></div>
+</div>
+
+<p>Growth is slower than the headlines suggest. Solar's annual report cites a third-party forecast of <strong>9% a year</strong> for the Indian industrial-explosives market. Management's own long-run view is more conservative and more useful: mining explosives demand of <strong>6–7% a year in volume</strong>, Solar growing volumes at 10–12% by taking share, and value growth of about 15% including mix and price. FY26 delivered roughly none of that: Indian coal production was about 1% lower, Coal India's overburden removal fell 2%, and Solar's domestic explosives revenue rose only 3%.</p>
+<p>The global market is harder to pin down because published estimates use different definitions. One research house puts it at US$8 billion, another at US$14.4 billion. Adding up what the largest makers report gives a more defensible answer: Orica about US$5.3 billion of revenue, Dyno Nobel's explosives arm about US$2.1 billion, Enaex about US$2.2 billion, Maxam perhaps US$1.5–1.8 billion, AECI Mining about US$1 billion, Solar's explosives about US$0.8 billion and Omnia's mining arm about US$0.55 billion. The top seven outside China total roughly US$13.5–14 billion. Including China's large state-licensed industry and regional independents, the market is an INDICATIVE <strong>US$18–22 billion</strong> (about ₹1.7–2.1 lakh crore) including initiating systems and services, or US$8–10 billion for explosive product alone. India is about 6–8% of it.</p>
+
+<div class="chart">
+  <div class="c-title">The world's explosives majors by revenue</div>
+  <div class="c-sub">Latest full-year revenue converted to ₹ Cr at INDICATIVE rates (A$1 = ₹61.7, US$1 = ₹94.9, R1 = ₹5.5). Orica FY25 (Sep-25) group; Dyno Nobel explosives = 2 × 1H FY26; Enaex CY2025; AECI Mining CY2025; Omnia Mining FY26 (Mar-26); Solar explosives = FY26 domestic + international</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Orica<small>Australia, group</small></div><div class="track"><span class="fill om" style="width:100%"></span></div><div class="bval">~50,000</div></div>
+    <div class="bar-row"><div class="blab">Enaex<small>Chile</small></div><div class="track"><span class="fill om" style="width:41%"></span></div><div class="bval">~20,500</div></div>
+    <div class="bar-row"><div class="blab">Dyno Nobel explosives<small>Australia/US</small></div><div class="track"><span class="fill om" style="width:39.7%"></span></div><div class="bval">~19,900</div></div>
+    <div class="bar-row"><div class="blab">AECI Mining<small>South Africa</small></div><div class="track"><span class="fill om" style="width:19.4%"></span></div><div class="bval">~9,700</div></div>
+    <div class="bar-row"><div class="blab">Solar explosives<small>India, ex-defence</small></div><div class="track"><span class="fill brand" style="width:14.4%"></span></div><div class="bval">7,204</div></div>
+    <div class="bar-row"><div class="blab">Omnia Mining<small>South Africa</small></div><div class="track"><span class="fill gold" style="width:10.8%"></span></div><div class="bval">~5,400</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹50,000 Cr. Foreign figures are INDICATIVE conversions. Solar's explosives business is about a seventh of Orica's; adding Omnia's mining arm would take it to about a quarter.</span></div>
+</div>
+
+<p>Solar's own history shows how much of this industry's "growth" is price. Revenue rose from ₹1,276 crore in FY15 to ₹9,838 crore in FY26, a compound rate of about 20%. But the path was jagged: +57% in FY22 and +75% in FY23 as the Russia–Ukraine war inflated AN, then −12% in FY24 as AN deflated, while profit kept rising throughout. Over FY22–FY26 revenue compounded at 25.6% and profit at 39.8%. The gap between those two numbers is defence, whose margins are higher, and the lag between AN costs and selling prices, which flatters margins when AN is falling.</p>
+
+<div class="chart">
+  <div class="c-title">Solar Industries: revenue, FY15 to FY26</div>
+  <div class="c-sub">Consolidated revenue, ₹ Cr, with operating margin. screener.in, 23 Oct 2026; TTM to Jun-26 = ₹11,351 Cr; FY27 guidance ~₹14,000 Cr</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY15<small>OPM 20%</small></div><div class="track"><span class="fill ink" style="width:13%"></span></div><div class="bval">1,276</div></div>
+    <div class="bar-row"><div class="blab">FY17<small>OPM 20%</small></div><div class="track"><span class="fill ink" style="width:16.1%"></span></div><div class="bval">1,580</div></div>
+    <div class="bar-row"><div class="blab">FY19<small>OPM 20%</small></div><div class="track"><span class="fill ink" style="width:25%"></span></div><div class="bval">2,462</div></div>
+    <div class="bar-row"><div class="blab">FY21<small>OPM 20%</small></div><div class="track"><span class="fill om" style="width:25.6%"></span></div><div class="bval">2,516</div></div>
+    <div class="bar-row"><div class="blab">FY22<small>OPM 19%</small></div><div class="track"><span class="fill om" style="width:40.1%"></span></div><div class="bval">3,948</div></div>
+    <div class="bar-row"><div class="blab">FY23<small>OPM 19%, AN spike</small></div><div class="track"><span class="fill gold" style="width:70.3%"></span></div><div class="bval">6,918</div></div>
+    <div class="bar-row"><div class="blab">FY24<small>OPM 24%, AN falls</small></div><div class="track"><span class="fill wtg" style="width:61.7%"></span></div><div class="bval">6,070</div></div>
+    <div class="bar-row"><div class="blab">FY25<small>OPM 27%</small></div><div class="track"><span class="fill brand" style="width:76.6%"></span></div><div class="bval">7,540</div></div>
+    <div class="bar-row"><div class="blab">FY26<small>OPM 28%</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">9,838</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹9,838 Cr. Revenue fell 12% in FY24 while operating profit rose 11%, the clearest sign that the top line here tracks the price of AN.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>India blasts somewhere around one and a half million tonnes of explosives a year, worth roughly ₹10,000–14,000 crore before the 2026 price jump. That is small next to the coal it unlocks, but it is a necessity: no blast, no coal. The number grows a little faster than mining volumes and swings a lot with the price of ammonium nitrate, so a year of 50% revenue growth can be mostly inflation.</p>
+</div>
+</section>
+
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>Overburden, not coal: the base load nobody headlines</h2></div>
+<p class="part-sub">Explosives are consumed in proportion to rock moved. Coal India's rock-moving fell in FY26 and again in Q1 FY27, even as its coal dispatches rose.</p>
+
+<p>A coal mine reports tonnes of coal, but an explosives maker sells into <strong>overburden removal</strong>, the cubic metres of soil and rock stripped away to reach the seam. Coal India's opencast mines move roughly 2.5–3 cubic metres of overburden for every tonne of coal, and most of that rock is blasted. The distinction matters because the two series can diverge. In FY26 Coal India produced <strong>768.19 million tonnes, 1.6% less than FY25</strong>, and removed <strong>1,980 million cubic metres of overburden, 2% less</strong>. Heavy monsoons hit both Coal India and Singareni; Solar's annual report calls FY26's coal year "muted". Only 12% of Coal India's overburden was removed by its own departmental crews; the rest was done by contractors, but the explosives are still bought by Coal India and its subsidiaries through rate contracts.</p>
+
+<div class="chart">
+  <div class="c-title">Coal India: coal output versus rock moved</div>
+  <div class="c-sub">Production (MT) and overburden removal (million cubic metres, Mcum). Coal India FY26 and Q1 FY27 results presentations and 1 Oct 2026 production release</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY25 production</div><div class="track"><span class="fill wtg" style="width:95.8%"></span></div><div class="bval">781.1 MT</div></div>
+    <div class="bar-row"><div class="blab">FY26 production</div><div class="track"><span class="fill wtg" style="width:94.3%"></span></div><div class="bval">768.2 MT</div></div>
+    <div class="bar-row"><div class="blab">FY27 target</div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">815 MT</div></div>
+    <div class="bar-row"><div class="blab">FY25 overburden</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">2,019 Mcum</div></div>
+    <div class="bar-row"><div class="blab">FY26 overburden</div><div class="track"><span class="fill brand" style="width:98%"></span></div><div class="bval">1,980 Mcum</div></div>
+  </div>
+  <div class="legend"><span>Scales: production bars, full = 815 MT; overburden bars, full = 2,019 Mcum. Both fell in FY26; the 815 MT target for FY27 implies +6%.</span></div>
+</div>
+
+<p>FY27 has started the same way. In Q1 FY27 (Apr–Jun 2026) Coal India's production fell <strong>7.5% to 169.6 million tonnes</strong> and overburden removal was 504.7 million cubic metres, 1% lower and short of its 529 million target. Yet offtake, the coal dispatched to customers, rose 3.6% in Q1 and 12% in Q2, because Coal India sold down about 63 million tonnes of pithead stock in the first half. Selling stock needs no blasting. Q2 FY27 production recovered 3.8% to 151.4 million tonnes, with September up 9.2%, but first-half production was still about 2.5% lower than a year earlier (INDICATIVE, summed from the quarterly releases). To reach its 815 million tonne target, Coal India needs about 494 million tonnes in the second half, 12–13% more than in the second half of FY26. The dry season makes Q3 and Q4 the peak blasting quarters, so a strong second half for bulk explosives is plausible, but it is not yet in the numbers.</p>
+
+<div class="chart">
+  <div class="c-title">Coal India by quarter: production fell while dispatches rose</div>
+  <div class="c-sub">Production and offtake, million tonnes; Q1 and Q2 of FY26 and FY27. Coal India Q1 FY27 presentation and 1 Oct 2026 release; Q2 FY26 offtake back-calculated from the reported growth rate</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q1 FY26 production</div><div class="track"><span class="fill wtg" style="width:92.6%"></span></div><div class="bval">183.3</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27 production<small>−7.5%</small></div><div class="track"><span class="fill bad" style="width:85.7%"></span></div><div class="bval">169.6</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27 offtake<small>+3.6%</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">197.9</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY26 production</div><div class="track"><span class="fill wtg" style="width:73.7%"></span></div><div class="bval">145.8</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY27 production<small>+3.8%</small></div><div class="track"><span class="fill wtg" style="width:76.5%"></span></div><div class="bval">151.4</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY27 offtake<small>+12.0%</small></div><div class="track"><span class="fill gold" style="width:94%"></span></div><div class="bval">186.0</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 197.9 MT. The gap between gold (dispatch) and brown (production) bars is stock being drawn down, which needs no explosives.</span></div>
+</div>
+
+<p>The fastest-growing customers are not Coal India at all. <strong>Captive and commercial coal mines produced 210.46 million tonnes in FY26, up 10.2%</strong>, and twelve more blocks received permission to open during the year, adding about 86 million tonnes of capacity. These mines are run by power utilities, steel and aluminium makers, and mine developers such as Adani, Vedanta, Hindalco, JSPL and NTPC. They buy explosives on commercial terms rather than on Coal India's lowest-price tenders, and they are part of what Solar calls its "Non-CIL &amp; Institutional" basket, which grew 9% in FY26 while its Coal India basket shrank 4%.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>India's coal supply by producer (million tonnes)</caption>
+  <thead><tr><th>Year</th><th class="num">All-India</th><th class="num">Coal India</th><th class="num">SCCL</th><th class="num">Captive &amp; others</th><th>Note</th></tr></thead>
+  <tbody>
+    <tr><td>FY24</td><td class="num">998</td><td class="num">773.7</td><td class="num">70.0</td><td class="num">154.2</td><td>Ministry of Coal annual report</td></tr>
+    <tr><td>FY25</td><td class="num">1,047.5</td><td class="num">781.1</td><td class="num">69.0</td><td class="num">197.5</td><td>Target was 1,080 MT</td></tr>
+    <tr><td>FY26</td><td class="num">~1,036</td><td class="num">768.2</td><td class="num">n/a</td><td class="num">210.5</td><td>Captive &amp; commercial +10.2%; all-India from Solar's annual report</td></tr>
+    <tr><td>FY27 target</td><td class="num">n/a</td><td class="num">815</td><td class="num">n/a</td><td class="num">n/a</td><td>Coal India supply target 850 MT</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>Solar's own numbers show the flat year clearly. Its three Indian baskets earned <strong>₹3,343 crore in FY26, up 3%</strong>, and that is still 9% below FY23's ₹3,667 crore. Coal India revenue fell from ₹1,067 crore in FY23 to ₹924 crore in FY26. Part of that is AN deflation after 2022, and part is lost volume in a weak coal year. Domestic explosives also have a strong season: Q2, the monsoon quarter, is the trough. Solar's domestic revenue fell to ₹584 crore in Q2 FY25 and ₹598 crore in Q2 FY26, 35–40% below the Q1 and Q4 levels. Q2 FY27 therefore has an easy base, and the AN price reset will flatter its year-on-year growth even if volumes dip.</p>
+
+<div class="chart">
+  <div class="c-title">Solar's Indian explosives baskets, FY23 to FY26</div>
+  <div class="c-sub">₹ Cr, company results presentations (FY24 presentation for FY23–FY24; FY26 presentation for FY25–FY26)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Coal India<small>FY23 → FY26</small></div><div class="track"><span class="fill wtg" style="width:86.6%"></span></div><div class="bval">1,067 → 924</div></div>
+    <div class="bar-row"><div class="blab">Non-CIL &amp; institutional</div><div class="track"><span class="fill epc" style="width:95.6%"></span></div><div class="bval">1,278 → 1,222</div></div>
+    <div class="bar-row"><div class="blab">Housing &amp; infra</div><div class="track"><span class="fill om" style="width:90.5%"></span></div><div class="bval">1,322 → 1,197</div></div>
+    <div class="bar-row"><div class="blab">Domestic total, FY23</div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">3,667</div></div>
+    <div class="bar-row"><div class="blab">Domestic total, FY24</div><div class="track"><span class="fill ink" style="width:83.2%"></span></div><div class="bval">3,052</div></div>
+    <div class="bar-row"><div class="blab">Domestic total, FY25</div><div class="track"><span class="fill ink" style="width:88.2%"></span></div><div class="bval">3,236</div></div>
+    <div class="bar-row"><div class="blab">Domestic total, FY26</div><div class="track"><span class="fill brand" style="width:91.2%"></span></div><div class="bval">3,343</div></div>
+  </div>
+  <div class="legend"><span>Basket bars show FY26 as a share of FY23 (full = FY23 level). Total bars: full = ₹3,667 Cr. Every Indian basket is smaller in rupees than in FY23.</span></div>
+</div>
+
+<p>Why does management still talk of 6–7% demand growth? Because the long-run drivers have not changed. The Ministry of Coal projects coal demand of about 1.5 billion tonnes by FY30 (its upper projection is 1,665 million tonnes), and India's power demand is still rising. Cement capacity of about 680 million tonnes is heading for 850 million by FY30, and every tonne of cement needs blasted limestone. Infrastructure spending, including Himalayan rail and road tunnels and pumped-storage hydro projects, uses packaged explosives and precision initiation. After the West Asia shock, some industrial users switched from diesel and LPG to coal-based power, which supports demand. And captive mining, the faster-growing customer, is still ramping. Solar's management called FY26 "the bottom-out kind of situation for OB removal". That may prove right, but Q1 FY27's overburden numbers did not yet confirm it, so the claim needs checking month by month.</p>
+<p>The long-run risk is the reverse: <strong>India's coal peak</strong>. As renewable power grows, coal production will eventually plateau, and with it the largest single source of explosives demand. Nobody in the industry expects that before the 2030s, and limestone, metals and infrastructure would cushion it, but it is the reason the industry's growth multiple should not look like a consumer company's.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Count the rock, not the coal. Explosives are used to break the rock above the coal seam, so the useful number is cubic metres of overburden removed, which Coal India reports every quarter. In FY26 and early FY27 that number fell slightly, even though Coal India dispatched more coal by selling from its stockpiles. Domestic explosives revenue rose in Q1 FY27 because prices went up, not because more rock was blasted.</p>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The private and captive coal mines are where the volume growth is. They grew about 10% in FY26 while Coal India shrank, and they buy explosives on negotiated commercial terms rather than on a lowest-bidder tender. A supplier that wins those customers grows faster and earns more per tonne than one that depends on Coal India alone.</p>
+</div>
+</section>
+
+<section class="part" id="p4">
+<div class="part-head"><span class="pno">04</span><h2>The molecule India rations: ammonium nitrate supply</h2></div>
+<p class="part-sub">One input is about a third of the selling price of an explosive. India makes most of it, imports the rest from Russia, and in March 2026 banned its export.</p>
+
+<p>Ammonium nitrate is about 60% of a typical bulk explosive by weight and about 65% of Solar's raw-material bill. Raw materials were 49.7% of Solar's FY26 sales, so AN alone is roughly <strong>a third of the selling price</strong> of the explosives it makes (an INDICATIVE calculation, since the company does not split its material costs). For a pure bulk-explosives supplier with no initiating systems or services, the share is higher still. No other cost line comes close, which is why AN supply, AN price and AN logistics shape the whole industry.</p>
+<p>India's explosive-grade AN comes from three places. The largest is <strong>Deepak Fertilisers</strong> (<a href="../primers/deepak-fertilisers.html">primer</a>), through its Smartchem subsidiary: 587 thousand tonnes a year of technical AN capacity (544 at Taloja near Mumbai plus a 43 thousand tonne satellite unit), which ran at 92% utilisation in FY26. Deepak describes itself as India's only maker of high-density AN. The second is the state-owned Rashtriya Chemicals &amp; Fertilizers, whose Trombay complex makes AN as a small product line. The third is imports. Trade-press figures put AN imports at about 356 thousand tonnes in FY23 and about 305 thousand tonnes in April–November of FY24, almost all from Russia. Against domestic capacity of about 1.1 million tonnes, that makes imports roughly <strong>25–30% of supply</strong> (INDICATIVE), lower than the 40–60% often quoted. India's official trade database could not be queried to confirm it.</p>
+
+<div class="chart">
+  <div class="c-title">Where India's explosive-grade AN comes from</div>
+  <div class="c-sub">INDICATIVE shares of AN supply, FY24–FY26 average. Deepak capacity and utilisation from its Q1 FY27 presentation; imports from trade-press reports (~300–350 kt a year, mostly Russian); remainder RCF and smaller producers</div>
+  <div class="stack-row"><div class="blab">AN supply today</div><div class="stack"><span style="width:52%;background:var(--wtg)">Deepak ~52</span><span style="width:20%;background:var(--epc)">Other domestic ~20</span><span style="width:28%;background:var(--om)">Imports ~28</span></div></div>
+  <div class="stack-row"><div class="blab">After Gopalpur (FY28E)</div><div class="stack"><span style="width:70%;background:var(--wtg)">Deepak ~70</span><span style="width:18%;background:var(--epc)">Other ~18</span><span style="width:12%;background:var(--om)">Imports ~12</span></div></div>
+  <div class="legend"><span><i style="background:var(--wtg)"></i>Deepak Fertilisers (Smartchem) technical AN</span><span><i style="background:var(--epc)"></i>RCF and other domestic AN</span><span><i style="background:var(--om)"></i>Imports, mainly Russia</span><span>Second row is ILLUSTRATIVE: it assumes Gopalpur runs near capacity and imports fall to fill only the gap.</span></div>
+</div>
+
+<p>That balance is about to shift. Deepak is commissioning a <strong>376 thousand tonne TAN plant at Gopalpur in Odisha</strong> (₹2,675 crore) and a nitric-acid complex at Dahej (₹1,983 crore). Together they would take its AN capacity to about 963 thousand tonnes, roughly 1 million, which Deepak says would make it the world's third-largest pure-play technical AN producer. Both were guided for Q2 FY27, but by 23 October 2026 Deepak had filed no commissioning announcement. India's explosive-grade AN need is roughly 0.6 tonnes per tonne of explosive, or about 0.85–1.1 million tonnes a year (INDICATIVE). Once Gopalpur runs, one domestic company could in principle supply almost all of it, for the first time making India close to self-sufficient in explosive-grade AN.</p>
+
+<div class="chart">
+  <div class="c-title">Deepak's technical AN capacity is about to grow by 64%</div>
+  <div class="c-sub">Thousand tonnes a year. Deepak Fertilisers Q1 FY27 presentation (30 Jul 2026); Gopalpur guided for Q2 FY27, not announced as commissioned by 23 Oct 2026</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Taloja main plant</div><div class="track"><span class="fill wtg" style="width:55.5%"></span></div><div class="bval">544</div></div>
+    <div class="bar-row"><div class="blab">Satellite unit</div><div class="track"><span class="fill wtg" style="width:4.4%"></span></div><div class="bval">43</div></div>
+    <div class="bar-row"><div class="blab">Gopalpur, Odisha<small>₹2,675 Cr, pending</small></div><div class="track"><span class="fill gold" style="width:38.4%"></span></div><div class="bval">376</div></div>
+    <div class="bar-row"><div class="blab">Total after Gopalpur</div><div class="track"><span class="fill brand" style="width:98.3%"></span></div><div class="bval">963</div></div>
+    <div class="bar-row"><div class="blab">India's explosive-grade need<small>INDICATIVE midpoint</small></div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">~980</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 980 KTPA. India's need is an INDICATIVE 0.85–1.1 mt (midpoint shown), built from 1.4–1.8 mt of explosives at ~0.6 t of AN per tonne.</span></div>
+</div>
+
+<p>Supply concentration is a mixed blessing for explosive makers. A domestic supplier near the mines means shorter freight, no exposure to Russian shipping or sanctions, and less rupee risk. But it also means one price-setter. Deepak's own numbers show how much pricing power AN has when supply is tight: its group operating margin was <strong>15% in FY26 and 26% in Q1 FY27</strong>, when it reported an "all-time high EBITDA" and its TAN revenue rose 36% to ₹904 crore on 12% lower volumes. Deepak is also building a downstream business, Deepak Mining Solutions, that sells explosives, initiating systems and blasting services. The supplier is becoming a competitor. The <a href="fertilizers.html">Fertilizers</a> report covers the ammonia and nitrogen economics behind Deepak and RCF in more depth.</p>
+
+<p>The second reason AN behaves like a policy variable is regulation. Under the <strong>Ammonium Nitrate Rules, 2012</strong>, any mixture with more than 45% AN is treated as an explosive: making, storing, transporting and selling it each require a licence from the Petroleum and Explosives Safety Organisation (PESO). The Beirut port explosion of August 2020, caused by badly stored AN, renewed the focus on storage and tracking. PESO's online Ammonium Nitrate Return System now requires advance intimation and a transport pass for every consignment (forms R-11(a) and R-11(b)) and barcoding of AN bags. When those portal procedures changed in 2026, Deepak's production and dispatches were disrupted: its Q1 FY27 TAN volume fell to <strong>130 thousand tonnes, 12% lower than a year earlier and 21% below Q4 FY26</strong>, at the very moment the market wanted every tonne.</p>
+
+<div class="chart">
+  <div class="c-title">Deepak's TAN volumes fell just as prices peaked</div>
+  <div class="c-sub">Technical AN sales volume, thousand tonnes. Q1 FY27 reported (130 kt); Q1 FY26 and Q4 FY26 back-calculated from the reported −12% YoY and −21% QoQ changes (INDICATIVE)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q1 FY26 (Jun-25)</div><div class="track"><span class="fill wtg" style="width:89.7%"></span></div><div class="bval">~148</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY26 (Mar-26)</div><div class="track"><span class="fill wtg" style="width:100%"></span></div><div class="bval">~165</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27 (Jun-26)<small>ANRS disruption</small></div><div class="track"><span class="fill bad" style="width:78.8%"></span></div><div class="bval">130</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 165 kt. Lower volumes but 36% higher TAN revenue: the shortage was priced in full.</span></div>
+</div>
+
+<p>Then came the ban. On <strong>18 March 2026</strong>, three weeks into the West Asia war, PESO notified a complete ban on AN exports (notification 13015/4/2020-EXPLOSIVE), put export licences in abeyance and said the ban would last "until further orders". The stated reason was the Middle East conflict and the need to secure supply for domestic coal mining. No revocation had been found by October 2026. The ban protects Indian explosive makers from being outbid for local AN, but it also caps what Deepak can earn abroad, and it confirms that in a crisis the state treats AN as a strategic material.</p>
+
+<ul class="timeline">
+  <li><div class="yr">2012</div><div class="ev">Ammonium Nitrate Rules: mixtures above 45% AN regulated as explosives; licences for manufacture, storage, transport and sale.</div></li>
+  <li><div class="yr">Aug 2020</div><div class="ev">Beirut port explosion of stored AN renews global scrutiny of storage and tracking.</div></li>
+  <li class="major"><div class="yr">28 Feb 2026</div><div class="ev">West Asia war begins; Hormuz disruption lifts ammonia, AN, diesel and freight costs. Ceasefire on 7 April.</div></li>
+  <li class="major"><div class="yr">18 Mar 2026</div><div class="ev">PESO bans all AN exports "until further orders".</div></li>
+  <li><div class="yr">1 Apr 2026</div><div class="ev">Indian AN at ₹72,750/t, up 44% from ₹50,500/t on 1 March.</div></li>
+  <li><div class="yr">Q1 FY27 (Apr–Jun 2026)</div><div class="ev">ANRS portal changes (online transport passes, barcoded bags) disrupt Deepak's TAN dispatches: volume −12% YoY.</div></li>
+  <li><div class="yr">Q2 FY27 (guided)</div><div class="ev">Deepak's Gopalpur 376 KTPA TAN plant due; no commissioning filing by 23 Oct 2026.</div></li>
+</ul>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The single biggest ingredient in a commercial explosive is a fertiliser chemical whose price follows natural gas. India makes most of what it needs, mainly at one company, and imports the rest, mainly from Russia. When the Gulf war pushed prices up, the government stopped exports and tightened tracking. Explosive makers who own no AN plant are price-takers on their main cost.</p>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>When Deepak's new plant starts, India should, for the first time, be able to make almost all the explosive-grade ammonium nitrate it uses. That would reduce the risk of shortages and import shocks, but it would also hand one domestic supplier a dominant position over the industry's main input.</p>
+</div>
+</section>
+
+<section class="part" id="p5">
+<div class="part-head"><span class="pno">05</span><h2>Price, not tonnes: the 2026 AN shock through the chain <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">In five months ammonia went from $298 to $801 a tonne. Here is where each rupee of that increase landed: at the AN maker, the explosive maker, Coal India and the investor reading the results.</p>
+
+<p>The 2026 shock is the best natural experiment this industry has had since 2022, and it explains most of what investors saw in Q1 FY27 results. It started upstream. Middle Eastern bulk ammonia, priced free on board, was <strong>$298 a tonne in June 2025</strong>. It rose through the second half of 2025 as gas markets tightened, reaching $528 in December. When the West Asia war began on 28 February 2026 and shipping through the Strait of Hormuz was disrupted, ammonia jumped to $707 in April and <strong>$801 in May</strong> before easing to $777 in June. Even after the 7 April ceasefire, prices stayed far above pre-war levels.</p>
+
+<div class="chart">
+  <div class="c-title">Step 1: the ammonia price</div>
+  <div class="c-sub">Middle East bulk ammonia, FOB, US$ per tonne. Deepak Fertilisers Q1 FY27 investor presentation chart</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Jun-25</div><div class="track"><span class="fill ink" style="width:37.2%"></span></div><div class="bval">298</div></div>
+    <div class="bar-row"><div class="blab">Sep-25</div><div class="track"><span class="fill ink" style="width:46.8%"></span></div><div class="bval">375</div></div>
+    <div class="bar-row"><div class="blab">Dec-25</div><div class="track"><span class="fill wtg" style="width:65.9%"></span></div><div class="bval">528</div></div>
+    <div class="bar-row"><div class="blab">Mar-26<small>war from 28 Feb</small></div><div class="track"><span class="fill wtg" style="width:68%"></span></div><div class="bval">545</div></div>
+    <div class="bar-row"><div class="blab">Apr-26</div><div class="track"><span class="fill spec" style="width:88.3%"></span></div><div class="bval">707</div></div>
+    <div class="bar-row"><div class="blab">May-26</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">801</div></div>
+    <div class="bar-row"><div class="blab">Jun-26</div><div class="track"><span class="fill brand" style="width:97%"></span></div><div class="bval">777</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = $801/t. Ammonia nearly tripled in twelve months; the war added the last 50%.</span></div>
+</div>
+
+<p>The shock then moved down the chain in a month. Indian AN went from <strong>₹50,500 a tonne on 1 March to ₹72,750 on 1 April 2026, a 44% rise</strong>. Diesel for Coal India's bulk buyers, the fuel phase of an emulsion and the fuel for the trucks that deliver it, went from about ₹92 to ₹142 a litre over the same period. Coal India's suppliers invoked the price-variation terms in their contracts, and its average price for explosives was reset from <strong>₹39,588 to ₹49,783 a tonne, a 26% increase</strong>. Coal India chose to absorb the cost rather than raise its notified coal prices.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">How the 2026 shock travelled, Feb to Apr 2026</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Ammonia</div><div class="nname">$545 → $801/t</div><div class="nwho">Mar to May 2026; Hormuz disruption; +47%.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Indian AN</div><div class="nname">₹50,500 → ₹72,750/t</div><div class="nwho">1 Mar to 1 Apr 2026; +44%. Export ban 18 Mar.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">CIL explosive price</div><div class="nname">₹39,588 → ₹49,783/t</div><div class="nwho">Feb to Apr 2026; +26%, via price-variation clauses.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">CIL's bill</div><div class="nname">+₹244 Cr in one quarter</div><div class="nwho">Q1 FY27 explosive expense vs Q1 FY26, on flat overburden.</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Explosive makers</div><div class="nname">Revenue up, margin tested</div><div class="nwho">Solar domestic +52%, margin held; Premier and Keltech margins thin.</div></div>
+  </div>
+  <div class="flow-note">A 44% rise in the main input became a 26% rise in the selling price. Whether the explosive maker kept its margin depended on its contract terms, its inventory and how much of its revenue was not AN-heavy bulk product.</div>
+</div>
+
+<p>The best primary evidence that the price reset actually stuck comes from the buyer. Coal India's Q1 FY27 results presentation lists the reasons its costs moved, and one line reads <strong>"Increase in Explosive Expenses: ₹244 Crore"</strong> compared with Q1 FY26. Its total materials bill rose 27% to ₹3,260 crore, with oil and lubricants up a further ₹435 crore. Overburden removal in the quarter was 1% lower. A 25–28% rise in the explosives bill on flat rock movement is exactly what a full 26% price reset would produce. In FY26, by contrast, explosive expense had fallen ₹107 crore on 2% lower production. On an INDICATIVE basis, Coal India's explosives bill moved from roughly ₹850–950 crore a quarter to ₹1,100–1,200 crore, and its FY27 spend could be ₹4,300–4,700 crore against about ₹3,500–3,700 crore in FY26.</p>
+
+<div class="chart">
+  <div class="c-title">Step 3: the shock seen from Coal India's side</div>
+  <div class="c-sub">Year-on-year change in Coal India's explosive expense, ₹ Cr. Coal India FY26 and Q1 FY27 results presentations (cost-bridge slides)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY26 full year<small>production −2%</small></div><div class="track"><span class="fill wtg" style="width:43.9%"></span></div><div class="bval">−107</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY26</div><div class="track"><span class="fill wtg" style="width:9.4%"></span></div><div class="bval">−23</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27<small>overburden −1%</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">+244</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹244 Cr. Brown bars are decreases. One quarter of the new price undid more than two years of volume-driven savings.</span></div>
+</div>
+
+<p>At the AN maker, the shock was a windfall. Deepak's implied TAN realisation, its TAN revenue divided by its TAN tonnes, rose from about ₹45,400 a tonne in Q1 FY26 and ₹47,500 in Q4 FY26 to about <strong>₹69,500 in Q1 FY27</strong>, a 53% rise (INDICATIVE, calculated from Deepak's reported revenue and volumes). That is slightly more than the 44% rise in the reference AN price, consistent with a market where buyers were short. Deepak's group operating margin went from 15% for FY26 to 26% in Q1 FY27, and its quarterly profit doubled to ₹490 crore.</p>
+
+<div class="chart">
+  <div class="c-title">Step 2: three prices, one shock</div>
+  <div class="c-sub">Index, pre-shock = 100. Indian AN reference price (PTI, 1 Mar → 1 Apr 2026); Deepak implied TAN realisation (INDICATIVE: revenue ÷ volume, Q1 FY26 → Q1 FY27); Coal India average explosive price (PTI, Feb → Apr 2026)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Deepak TAN realisation<small>₹45,400 → ~₹69,500/t</small></div><div class="track"><span class="fill wtg" style="width:100%"></span></div><div class="bval">153</div></div>
+    <div class="bar-row"><div class="blab">Indian AN price<small>₹50,500 → ₹72,750/t</small></div><div class="track"><span class="fill gold" style="width:94.1%"></span></div><div class="bval">144</div></div>
+    <div class="bar-row"><div class="blab">CIL explosive price<small>₹39,588 → ₹49,783/t</small></div><div class="track"><span class="fill brand" style="width:82.4%"></span></div><div class="bval">126</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 153. The further down the chain, the smaller the increase: the AN maker gained, and the explosive maker had to absorb part of the gap.</span></div>
+</div>
+
+<h3>What a 44% input rise does to one tonne</h3>
+<p>The arithmetic of a single tonne makes the squeeze visible. The table below is an ILLUSTRATIVE composite for a tonne of bulk emulsion supplied to Coal India, using the reported Coal India average price and AN price and composite assumptions for the other lines. It assumes 0.62 tonnes of AN per tonne of explosive. Coal India's average price covers several products, so real bulk margins differ; the point is the direction, not the decimal.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>ILLUSTRATIVE: one tonne of bulk emulsion to Coal India, before and after the reset (₹ per tonne)</caption>
+  <thead><tr><th>Line</th><th class="num">Feb 2026</th><th class="num">Apr 2026, AN at replacement cost</th><th class="num">Apr 2026, AN bought before the spike</th></tr></thead>
+  <tbody>
+    <tr><td>Coal India average price</td><td class="num">39,588</td><td class="num">49,783</td><td class="num">49,783</td></tr>
+    <tr><td>AN (0.62 t × AN price)</td><td class="num">31,310</td><td class="num">45,105</td><td class="num">31,310</td></tr>
+    <tr><td>Other raw materials (nitrates, fuel, emulsifier)</td><td class="num">3,000</td><td class="num">3,600</td><td class="num">3,600</td></tr>
+    <tr><td>Freight, delivery truck, site service</td><td class="num">2,200</td><td class="num">2,600</td><td class="num">2,600</td></tr>
+    <tr><td>Conversion (power, labour, overhead)</td><td class="num">1,500</td><td class="num">1,500</td><td class="num">1,500</td></tr>
+    <tr><td class="t-strong">Contribution</td><td class="num t-strong">1,578 (4.0%)</td><td class="num t-strong">−3,022 (−6.1%)</td><td class="num t-strong">10,773 (21.6%)</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="chart">
+  <div class="c-title">The same tonne, three outcomes</div>
+  <div class="c-sub">ILLUSTRATIVE contribution per tonne of bulk emulsion to Coal India, ₹, from the table above. Composite cost lines; reported CIL and AN prices</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Feb 2026<small>pre-shock</small></div><div class="track"><span class="fill ink" style="width:14.6%"></span></div><div class="bval">1,578</div></div>
+    <div class="bar-row"><div class="blab">Apr 2026<small>AN at new price</small></div><div class="track"><span class="fill bad" style="width:28.1%"></span></div><div class="bval">−3,022</div></div>
+    <div class="bar-row"><div class="blab">Apr 2026<small>old-price AN in stock</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">10,773</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹10,773. Red = loss. A supplier with pre-war AN inventory earned a windfall for a quarter; one buying AN at the new price lost money on every tonne.</span></div>
+</div>
+
+<p>Three lessons follow. First, <strong>a pure bulk supplier with no AN stock and a price formula that lags is underwater</strong> after a shock like this, which is why the small tender-driven suppliers suffered. Premier Explosives' operating margin fell to 5.7% in Q1 FY27 on revenue 28% lower, after a negative operating profit in Q4 FY26. Keltech held a 7.5% margin on 28% higher revenue, typical of its thin-margin model. Second, <strong>inventory bought before the spike is a temporary gift</strong>. Solar built inventory ahead of the war in Q4 FY26 (its inventory days rose from 95 to 130) and told investors to expect "inventory gain in the coming quarters". That gain cannot repeat. Third, <strong>product mix is the real defence</strong>. Packaged explosives, detonators and services carry less AN per rupee of revenue, and defence carries almost none.</p>
+
+<h3>How Solar's results absorbed it</h3>
+<p>Solar's Q1 FY27 (Apr–Jun 2026, reported 13 August) showed the shock in its top line. <strong>Domestic explosives revenue rose 52% to ₹1,361 crore</strong> and international explosives 65% to ₹1,364 crore; total revenue rose 70% to ₹3,668 crore. Raw materials took 50.63% of sales, barely above Q1 FY26's 50.80%. The EBITDA margin was 27.91%, up from 26.18% a year earlier. Coal India's own books say its explosives bill rose about a quarter on flat overburden, so most of Solar's domestic growth was price. Management had already said as much in May: it expects its non-defence revenue to grow 30–33% in FY27, of which only <strong>10–15% is volume and 18–20% is price</strong>.</p>
+
+<div class="chart">
+  <div class="c-title">Q1 FY27: growth by basket</div>
+  <div class="c-sub">Solar Industries, year-on-year revenue growth, Q1 FY27 (Jun-26) vs Q1 FY26. Company Q1 FY27 presentation</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Defence<small>₹418 → ₹933 Cr</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">+123%</div></div>
+    <div class="bar-row"><div class="blab">International<small>₹826 → ₹1,364 Cr</small></div><div class="track"><span class="fill gold" style="width:52.8%"></span></div><div class="bval">+65%</div></div>
+    <div class="bar-row"><div class="blab">Domestic explosives<small>₹898 → ₹1,361 Cr</small></div><div class="track"><span class="fill wtg" style="width:42.3%"></span></div><div class="bval">+52%</div></div>
+    <div class="bar-row"><div class="blab">Total<small>₹2,154 → ₹3,668 Cr</small></div><div class="track"><span class="fill om" style="width:56.9%"></span></div><div class="bval">+70%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = +123%. Explosives growth in both baskets was mostly AN pass-through; defence growth was real volume.</span></div>
+</div>
+
+<p>Why did the margin hold when the one-tonne example says it should have collapsed? Management has described the mechanics. Rise-and-fall clauses in its contracts pass on <strong>about 60% of an AN increase immediately</strong>, with more recovered after a lag of a quarter or so. In past episodes, when raw materials rose 50–70% (as in 2022), Solar's EBITDA margin fell by only 2–3 percentage points. A rough INDICATIVE elasticity shows the size of the gap that needed covering: if AN is about 32% of explosives sales, a 44% AN rise with 60% immediate pass-through leaves 0.32 × 0.44 × 0.40, or about <strong>5.6% of explosives sales unrecovered</strong> at first. That was covered by pre-war inventory, lagged repricing, a higher share of defence and international revenue, and the operating leverage of a 70% larger top line.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>When the main ingredient gets 44% dearer, the selling price follows only partly and only after a delay. A company that stocked up in advance, sells many products that use little ammonium nitrate, and has a big defence business can keep its margin through the shock. A small supplier that sells only bulk explosives to Coal India cannot. Q1 FY27 showed both outcomes.</p>
+</div>
+
+<h3>What happens when AN falls</h3>
+<p>The shock also runs in reverse, and investors should be ready for it. If AN eases back towards pre-war levels, Coal India's price-variation formula will cut explosive prices, and domestic explosives revenue will deflate even if tonnes rise. The precedent is FY24, when AN fell after the 2022 spike: Solar's domestic explosives revenue fell 17% (₹3,667 to ₹3,052 crore) and group revenue 12%, while operating profit rose because selling prices lagged falling costs. A fall in AN is therefore usually <strong>good for margins and bad for reported growth</strong>. The FY27 guidance of about ₹14,000 crore already contains 18–20% price inflation in explosives; if AN normalises in the second half, that part of the guidance is at risk even as margins widen.</p>
+<p>The global majors were less exposed. Orica said in May 2026 that it saw "no immediate material constraints" from the Middle East because its inputs are generally not shipped through Hormuz, and that it expected earnings to rise in every segment and region. AN-integrated majors own their supply; that, more than anything else, is what Solar is trying to buy in Omnia (Section 11).</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Read this industry's revenue growth with suspicion. In a year when ammonium nitrate gets expensive, revenue jumps even if no extra rock is blasted; in a year when it gets cheaper, revenue shrinks even if volumes grow. The numbers to check are the share of growth from price versus volume, the raw-material cost as a share of sales, and the overburden data from Coal India.</p>
+</div>
+</section>
+
+<section class="part" id="p6">
+<div class="part-head"><span class="pno">06</span><h2>Where ₹100 goes: five business models in one industry</h2></div>
+<p class="part-sub">The same tonne of AN can earn a 5% margin or a 35% one, depending on who carries the AN risk, how much capital the model needs and how powerful the buyer is.</p>
+
+<p>Companies that call themselves explosives makers run very different businesses. The table below sorts them into five archetypes. The archetypes matter more than company names, because the same company can contain several of them: Solar is an archetype-2 explosives major that owns an archetype-4 defence business and, with Omnia, would add an archetype-3 AN-integrated arm.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Five business models and their economics (INDICATIVE margin and return bands)</caption>
+  <thead><tr><th>Archetype</th><th>Examples</th><th>How it earns</th><th>EBITDA margin</th><th>ROCE</th><th>Key risk</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">1. Bulk supplier on Coal India tenders</td><td>Keltech, IDL, regional makers</td><td>Lowest-price (L1) rate contracts with price-variation formulas linked to AN</td><td><span class="rng poor">5–12%</span></td><td>15–25% if asset-light</td><td>Price wars, formula lag, AN availability</td></tr>
+    <tr><td class="t-strong">2. Integrated domestic and international explosives major</td><td>Solar (ex-defence)</td><td>Bulk + packaged + initiating systems + services; plants near mines in India, Africa, Turkey</td><td><span class="rng good">18–24%</span></td><td>25–35%</td><td>AN spikes; currency and country risk (Zambia, Nigeria, Turkey)</td></tr>
+    <tr><td class="t-strong">3. AN-integrated global major</td><td>Orica, Dyno Nobel, Enaex, Omnia, AECI, Maxam</td><td>Owns AN plants + explosives + services + digital tools</td><td><span class="rng avg">13–18%</span></td><td>8–15%</td><td>Gas and ammonia costs; plant outages; mining cycle</td></tr>
+    <tr><td class="t-strong">4. Defence energetics specialist</td><td>SDAL (Solar), Munitions India, Rheinmetall Weapon &amp; Ammunition</td><td>Contracted rockets, ammunition, propellants and explosives; milestone billing; advances</td><td><span class="rng good">20–35%</span></td><td>30%+ (Solar); lower for state firms</td><td>Trial delays; a single domestic buyer; export licences</td></tr>
+    <tr><td class="t-strong">5. AN producer</td><td>Deepak (Smartchem), RCF</td><td>Sells AN to explosive makers; spread over ammonia</td><td><span class="rng avg">12–26%, cyclical</span></td><td>10–20%</td><td>Gas and ammonia; PESO logistics; export bans</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>The economics differ for three reasons. The first is <strong>who carries the AN risk</strong>. The bulk supplier is hostage to the lag in its price formula. The integrated major has broader pass-through, more products that use little AN, and inventory buffers. The AN producer benefits from a spike. The second is <strong>capital intensity</strong>. An AN plant of 350–380 thousand tonnes costs ₹2,000–2,700 crore (Deepak's Gopalpur is ₹2,675 crore), while a bulk-explosives plant near a mine costs tens of crores. That is why the AN-integrated majors earn 8–15% returns on capital and Solar, which owns no AN plant, earns 38%. The third is <strong>customer power</strong>: Coal India buys on lowest price, the Ministry of Defence is a single buyer that sets the terms, and private miners and foreign governments sit in between.</p>
+
+<div class="chart">
+  <div class="c-title">Where ₹100 of revenue goes in four models</div>
+  <div class="c-sub">INDICATIVE composites, per ₹100 of revenue. Rows 1–3 are dossier composites built from Keltech's 7.7% FY26 margin, Solar management's "18–20% even before defence" and SDAL's 22% FY26 PAT margin; the last row is Solar's reported FY26 cost structure (company presentation; its lines sum to 101% because company EBITDA includes some other income, so widths are scaled to 100)</div>
+  <div class="stack-row"><div class="blab">Bulk tender supplier</div><div class="stack"><span style="width:52%;background:var(--wtg)">AN 52</span><span style="width:10%;background:var(--epc)">RM 10</span><span style="width:8%;background:var(--om)">Freight 8</span><span style="width:20%;background:var(--ink-faint)">Other 20</span><span style="width:10%;background:var(--brand)">10</span></div></div>
+  <div class="stack-row"><div class="blab">Integrated explosives</div><div class="stack"><span style="width:38%;background:var(--wtg)">AN 38</span><span style="width:12%;background:var(--epc)">RM 12</span><span style="width:5%;background:var(--om)">5</span><span style="width:23%;background:var(--ink-faint)">Other 23</span><span style="width:22%;background:var(--brand)">EBITDA 22</span></div></div>
+  <div class="stack-row"><div class="blab">Defence energetics</div><div class="stack"><span style="width:44%;background:var(--epc)">Materials 44</span><span style="width:22%;background:var(--ink-faint)">Other 22</span><span style="width:34%;background:var(--brand)">EBITDA 34</span></div></div>
+  <div class="stack-row"><div class="blab">Solar FY26, reported</div><div class="stack"><span style="width:49.1%;background:var(--epc)">Materials 50</span><span style="width:8.5%;background:var(--om)">Staff 9</span><span style="width:14.8%;background:var(--ink-faint)">Other 15</span><span style="width:27.6%;background:var(--brand)">EBITDA 28</span></div></div>
+  <div class="legend"><span><i style="background:var(--wtg)"></i>Ammonium nitrate</span><span><i style="background:var(--epc)"></i>Other raw materials (all materials in rows 3–4)</span><span><i style="background:var(--om)"></i>Freight and site services (row 4: employees)</span><span><i style="background:var(--ink-faint)"></i>Power, employees, overhead, testing</span><span><i style="background:var(--brand)"></i>EBITDA</span></div>
+</div>
+
+<p>Solar's reported FY26 structure is a blend of all three Indian models: <strong>materials 49.74% of sales, employees 8.59%, other expenses 15.02%, EBITDA 27.95%</strong>. Materials were 62.7% of sales in FY23, at the peak of the last AN spike, and 52.8% in FY25. The fall to below 50% in FY26 is partly AN prices and partly the rising share of defence, which uses less bought-in material per rupee of revenue. In Q1 FY27 the share rose only to 50.63%, despite the AN shock, because the inventory bought before the war was being used up.</p>
+
+<div class="chart">
+  <div class="c-title">Explosives margins around the world</div>
+  <div class="c-sub">Latest full year or half-year, EBITDA margin unless noted. Company reports: Solar FY26 (company basis); Enaex CY2025; AECI Mining CY2025; Dyno Nobel explosives 1H FY26 EBIT; Omnia Mining FY26; Munitions India FY25 (PBILDT, CARE); Orica FY25 EBIT (INDICATIVE); Premier and Keltech FY26 (screener)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Solar (group)<small>member</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">27.95%</div></div>
+    <div class="bar-row"><div class="blab">Enaex</div><div class="track"><span class="fill om" style="width:64.4%"></span></div><div class="bval">18%</div></div>
+    <div class="bar-row"><div class="blab">AECI Mining</div><div class="track"><span class="fill om" style="width:55.1%"></span></div><div class="bval">15.4%</div></div>
+    <div class="bar-row"><div class="blab">Dyno Nobel explosives<small>EBIT</small></div><div class="track"><span class="fill om" style="width:49.7%"></span></div><div class="bval">13.9%</div></div>
+    <div class="bar-row"><div class="blab">Omnia Mining</div><div class="track"><span class="fill gold" style="width:47.9%"></span></div><div class="bval">13.4%</div></div>
+    <div class="bar-row"><div class="blab">Munitions India</div><div class="track"><span class="fill wtg" style="width:47.6%"></span></div><div class="bval">13.3%</div></div>
+    <div class="bar-row"><div class="blab">Orica<small>group EBIT</small></div><div class="track"><span class="fill om" style="width:42.9%"></span></div><div class="bval">~12%</div></div>
+    <div class="bar-row"><div class="blab">Premier Explosives</div><div class="track"><span class="fill ink" style="width:36.9%"></span></div><div class="bval">10.3%</div></div>
+    <div class="bar-row"><div class="blab">Keltech Energies</div><div class="track"><span class="fill ink" style="width:27.5%"></span></div><div class="bval">7.7%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 27.95%. Reference companies are context only. Solar's group figure includes defence; its explosives-only margin is not disclosed (INDICATIVE ~21–24%).</span></div>
+</div>
+
+<p>The margin chart contains the industry's central puzzle. On primary numbers, the AN-integrated global majors earn <strong>13–15% on explosives</strong> (Dyno Nobel 13.9% EBIT, AECI Mining 15.4% EBITDA, Omnia Mining 13.4%), with Enaex the 18% exception. Solar's management uses "18–19%" as the global benchmark, which flatters the peers. Solar's own explosives margin is not disclosed, because the company reports a single segment, but management says it would earn "around 18% to 20% even before defence", and an INDICATIVE estimate puts the ex-defence figure at 21–24%. Either way it is an outlier. The explanation offered is in-house initiating systems (about 11% of revenue), low-cost Indian manufacturing for packaged explosives, and plants placed close to customers. The risk in that explanation is that it cannot be checked: the margin by product and by country is exactly what the company declines to show.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Of every ₹100 a Coal India bulk supplier bills, about ₹50 goes straight to the ammonium nitrate maker and the supplier keeps perhaps ₹10 as operating profit. A company that also sells detonators, packaged explosives and services keeps about twice that. A defence-energetics maker keeps about a third. That spread, from ₹10 to ₹34, is the whole reason the industry's companies are valued so differently.</p>
+</div>
+</section>
+
+<section class="part" id="p7">
+<div class="part-head"><span class="pno">07</span><h2>A quarter, a long tail and a new No. 2</h2></div>
+<p class="part-sub">One company holds about a quarter of the market. The rest is a state ammunition maker, a multinational, a fertiliser company moving downstream and dozens of licensed regional makers, now consolidating.</p>
+
+<p>India's commercial-explosives industry has one clear leader and no clear second. <strong>Solar holds about 24% of the domestic market</strong> on CRISIL's September 2026 estimate (CRISIL does not say whether this is by value or volume). Solar's management will not give a number. An independent cross-check supports CRISIL: Solar's ₹924–964 crore of Coal India revenue in FY26 is about 26–27% of Coal India's INDICATIVE explosives spend of about ₹3,600 crore, and at ₹40,000–45,000 a tonne it would be about 205–230 thousand tonnes, or roughly a quarter of Coal India's 0.9 million tonnes (also INDICATIVE). No other company's share has a published primary basis.</p>
+
+<div class="chart">
+  <div class="c-title">Who supplies India's explosives</div>
+  <div class="c-sub">Domestic commercial-explosives market share. Solar ~24% is CRISIL's estimate (Sep 2026); every other share is INDICATIVE, inferred from revenue (IDL FY24 ₹623 Cr; Keltech FY26 ₹532 Cr; Premier FY26 ₹388 Cr, of which explosives are a part) against a ₹10,000–14,000 Cr market</div>
+  <div class="stack-row"><div class="blab">Market share</div><div class="stack"><span style="width:24%;background:var(--brand)">Solar 24</span><span style="width:9%;background:var(--om)">IDL 9</span><span style="width:4%;background:var(--epc)">Kel 4</span><span style="width:3%;background:var(--gold)"></span><span style="width:60%;background:var(--ink-faint)">Orica India + others ~60</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Solar ~24% (CRISIL)</span><span><i style="background:var(--om)"></i>IDL Explosives, now Apollo (~8–10%)</span><span><i style="background:var(--epc)"></i>Keltech (~3–4%)</span><span><i style="background:var(--gold)"></i>Premier (~3%)</span><span><i style="background:var(--ink-faint)"></i>Orica India, Deepak Mining Solutions, dozens of licensed regional makers</span></div>
+</div>
+
+<p>The others fall into four groups. <strong>IDL Explosives</strong>, set up in Hyderabad in 1958 as Indian Detonators, was for decades the Hinduja group's explosives arm through GOCL Corporation. Its turnover was ₹623 crore in FY24, 87% of GOCL's consolidated revenue, but GOCL's consolidated operating profit was negative in FY23 and FY24. In November 2025 GOCL sold IDL to Apollo Defence Industries, part of the Apollo Micro Systems group, for just <strong>₹107 crore, about 0.17 times sales</strong>, and stopped making detonators at Kukatpally. GOCL has left the industry. <strong>Premier Explosives</strong>, a Hyderabad company that makes industrial explosives and detonators and operates solid-propellant plants for ISRO at Sriharikota and for DRDO at Jagdalpur, earned ₹388 crore in FY26. On 9 July 2026 Apollo Micro Systems agreed to buy its 41.33% promoter stake for ₹1,550 crore and launched an open offer for another 26%. Once closed, Apollo will own IDL and Premier together: India's new No. 2 private explosives and detonator group, with propellant capability attached.</p>
+<p><strong>Keltech Energies</strong>, part of Goa's Chowgule group and listed only on the BSE, makes cartridge and bulk explosives and also perlite insulation. It earned ₹532 crore in FY26 at a 7.7% margin and is the cleanest listed example of archetype 1. <strong>Orica Mining Services</strong>, the Indian arm of the Australian leader, supplies bulk systems and electronic detonators to Coal India, Singareni and steel companies' captive mines. <strong>Deepak Mining Solutions</strong> is the AN maker's downstream entry. And there are <strong>dozens of small licensed regional makers</strong> of packaged explosives and detonators across Telangana, Tamil Nadu, Rajasthan, Madhya Pradesh and Maharashtra, whose individual shares are small and unrecorded. A Kalyani group entry was rumoured in an analyst's question on Solar's May 2026 call; nothing has been announced.</p>
+
+<div class="chart">
+  <div class="c-title">India's explosives makers by revenue</div>
+  <div class="c-sub">Latest reported revenue, ₹ Cr. Solar = FY26 domestic explosives baskets only; IDL = FY24 turnover (GOCL disclosure); Emul Tek = Solar subsidiary that absorbed Rajasthan Explosives, FY26 (annual report); Keltech and Premier FY26 total revenue (screener). Reference companies are context only</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Solar, India explosives<small>member</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">3,343</div></div>
+    <div class="bar-row"><div class="blab">IDL Explosives<small>FY24, now Apollo</small></div><div class="track"><span class="fill om" style="width:18.6%"></span></div><div class="bval">623</div></div>
+    <div class="bar-row"><div class="blab">Keltech Energies</div><div class="track"><span class="fill om" style="width:15.9%"></span></div><div class="bval">532</div></div>
+    <div class="bar-row"><div class="blab">Emul Tek (incl. RECL)<small>inside Solar</small></div><div class="track"><span class="fill gold" style="width:13.5%"></span></div><div class="bval">452</div></div>
+    <div class="bar-row"><div class="blab">Premier Explosives<small>whole company</small></div><div class="track"><span class="fill om" style="width:11.6%"></span></div><div class="bval">388</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹3,343 Cr. Solar's Indian explosives business is about five times the next-largest maker. Emul Tek's ₹452 Cr is already inside Solar's figure.</span></div>
+</div>
+
+<p>Defence energetics has a different structure. The incumbent is <strong>Munitions India Ltd</strong>, a 100% government-owned company formed on 1 October 2021 when the Ordnance Factory Board was split into seven corporations. It had FY25 revenue of ₹8,264 crore, an operating margin of 13.3%, exports of ₹3,082 crore (38% of revenue), an order book of about ₹30,000 crore and ₹6,100 crore of cash. Among private firms, Solar is the largest maker of high explosives and propellants. Adani Defence has built an ammunition complex at Kanpur; Bharat Forge and the Kalyani group make artillery shells and guns; Premier makes propellants on a small scale. <a href="../primers/bharat-dynamics.html">Bharat Dynamics</a>, the listed missile integrator, is a customer rather than a competitor: it buys propellants and warheads, and Solar supplies the Akash missile's propellant.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">Consolidation since 2023: two groups form</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Dec 2023</div><div class="nname">Solar buys RECL</div><div class="nwho">Rajasthan Explosives &amp; Chemicals; merged into Emul Tek Oct 2024.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Nov 2025</div><div class="nname">Apollo buys IDL</div><div class="nwho">From GOCL (Hinduja) for ₹107 Cr; GOCL exits explosives.</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Jul 2026</div><div class="nname">Apollo agrees Premier</div><div class="nwho">41.33% for ₹1,550 Cr; open offer at ₹705.65 incl. interest.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Oct 2026</div><div class="nname">Solar buys Sivasakthi</div><div class="nwho">₹115 Cr for a licensed company with nil FY26 revenue.</div></div>
+  </div>
+  <div class="flow-note">The tail is being bought for its licences. Section 12 covers why a licence with no revenue can be worth ₹115 crore.</div>
+</div>
+
+<p>Imports barely matter for the explosives themselves. Explosives are dangerous goods that are expensive to ship and store, so plants are built near customers, and that is why Solar's "international" revenue comes mostly from its overseas factories rather than from exports out of India. The exceptions are electronic detonators, which multinationals partly import, and AN itself. China is one of the world's largest makers of industrial explosives and detonators, but it has little presence in India; the import threat that shapes chemicals such as soda ash (covered in the <a href="commodity-chem.html">Commodity Chemicals</a> report) is largely absent here.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>One company supplies about a quarter of India's commercial explosives and is several times bigger than anyone else. Behind it are a few mid-sized firms, a multinational and many small licensed makers. In 2025–26 the tail started to consolidate: Apollo Micro Systems bought IDL and agreed to buy Premier, creating a credible second group, while Solar kept buying smaller licensed companies.</p>
+</div>
+</section>
+
+<section class="part" id="p8">
+<div class="part-head"><span class="pno">08</span><h2>Defence at home: Sindoor, budgets and the indigenisation rulebook</h2></div>
+<p class="part-sub">India's defence production has quadrupled in twelve years and the first budget after Operation Sindoor raised capital spending by 22%. The domestic order flow is real, but for the one listed explosives maker it arrives slowly.</p>
+
+<p>The Indian defence market that matters for energetics has grown fast and on purpose. The Ministry of Defence reports that domestic defence production was <strong>₹43,746 crore in FY14, ₹84,643 crore in FY21, about ₹1.54 lakh crore in FY25 and a record ₹1.78 lakh crore in FY26</strong>, up 15.6% in the latest year. Private companies made about 24% of it, roughly ₹42,000 crore, up from 22% a year earlier. The government's stated goal is ₹3 lakh crore of production by FY29. These are national totals that include aircraft, ships, electronics and vehicles, so they are not an ammunition number; Solar's ₹2,634 crore of FY26 defence revenue is about 1.5% of the total.</p>
+
+<div class="chart">
+  <div class="c-title">India's defence production</div>
+  <div class="c-sub">Value of domestic defence production, ₹ Cr. PIB (Ministry of Defence) release of 17 Jun 2026; includes public and private sectors and all equipment types</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY14</div><div class="track"><span class="fill ink" style="width:24.6%"></span></div><div class="bval">43,746</div></div>
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill om" style="width:47.6%"></span></div><div class="bval">84,643</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill gold" style="width:86.5%"></span></div><div class="bval">1,54,000</div></div>
+    <div class="bar-row"><div class="blab">FY26<small>private ~24%</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">1,78,000</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹1,78,000 Cr. Production has roughly quadrupled since FY14; the private share is still under a quarter.</span></div>
+</div>
+
+<p>The trigger for the latest step-up was <strong>Operation Sindoor</strong>, the strikes of 7–10 May 2025. Short, intense conflicts consume ammunition and loitering munitions quickly, and Sindoor exposed how thin some stocks were. The budget for FY27, presented on 1 February 2026, was the first full budget afterwards. It gave the Ministry of Defence <strong>₹7.85 lakh crore, up 15.2%</strong>, and capital outlay of <strong>₹2,19,306 crore, up 21.8%</strong>, of which about ₹1.85 lakh crore is for capital acquisition, roughly 24% more than the year before. The budget documents say emergency procurement after Sindoor is funded "under both Capital and Revenue" heads, which matters for ammunition: replenishing shells and rockets can be paid from the revenue budget, not only from the capital line. The ministry concluded ₹2.10 lakh crore of contracts in April–December 2025 alone, and acceptances of necessity, the first formal step towards a purchase, exceeded ₹3.5 lakh crore.</p>
+
+<div class="chart">
+  <div class="c-title">The first budget after Sindoor</div>
+  <div class="c-sub">Ministry of Defence budget estimates, ₹ lakh Cr, FY26 BE vs FY27 BE. PIB release of 1 Feb 2026; FY26 capital acquisition is an INDICATIVE back-calculation</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Total MoD, FY26</div><div class="track"><span class="fill ink" style="width:86.8%"></span></div><div class="bval">~6.81</div></div>
+    <div class="bar-row"><div class="blab">Total MoD, FY27<small>+15.2%</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">7.85</div></div>
+    <div class="bar-row"><div class="blab">Capital outlay, FY26</div><div class="track"><span class="fill ink" style="width:22.9%"></span></div><div class="bval">1.80</div></div>
+    <div class="bar-row"><div class="blab">Capital outlay, FY27<small>+21.8%</small></div><div class="track"><span class="fill gold" style="width:27.9%"></span></div><div class="bval">2.19</div></div>
+    <div class="bar-row"><div class="blab">Capital acquisition, FY27<small>~+24%</small></div><div class="track"><span class="fill spec" style="width:23.6%"></span></div><div class="bval">1.85</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹7.85 lakh Cr. Capital spending is growing faster than the total, and ammunition replenishment can also be funded from the revenue budget.</span></div>
+</div>
+
+<p>The rules of procurement favour domestic makers. Under the Defence Acquisition Procedure (DAP 2020), the "Buy (Indian-IDDM)" category, for indigenously designed, developed and manufactured equipment, sits at the top of the preference order. The ministry has issued five Positive Indigenisation Lists for the armed services and five for the defence public-sector companies, each embargoing imports of named items after a set date. A <strong>draft DAP 2026</strong>, released for comment on 10 February 2026, would cut the number of acquisition categories from five to four, raise the indigenous-content requirement for IDDM from 50% to 60%, and add long-term bulk-acquisition and low-cost capital-acquisition routes. A long-term bulk route would suit ammunition well, since it would let the services sign multi-year volume contracts. The DAP was still labelled a draft in a June 2026 government document, and no final version had been notified by 23 October 2026.</p>
+<p>Private manufacturers need an industrial licence under the Industries (Development and Regulation) Act to make arms, ammunition and military explosives, and foreign investment of up to 74% is allowed automatically. Solar obtained the first private licence for military explosives in 2010. Until 2021 its main domestic competitor was a government department, the Ordnance Factory Board. On 1 October 2021 the board's factories were split into seven state-owned companies, of which <strong>Munitions India</strong> took over ammunition and explosives. The seven together reported provisional revenue of ₹26,496 crore in FY26.</p>
+
+<div class="chart">
+  <div class="c-title">Who makes India's defence equipment</div>
+  <div class="c-sub">Share of FY26 defence production value; PIB (17 Jun 2026). Public = defence public-sector companies and other PSUs</div>
+  <div class="stack-row"><div class="blab">FY26 production</div><div class="stack"><span style="width:76%;background:var(--om)">Public sector 76%</span><span style="width:24%;background:var(--brand)">Private 24%</span></div></div>
+  <div class="stack-row"><div class="blab">FY25 production</div><div class="stack"><span style="width:78%;background:var(--om)">Public sector 78%</span><span style="width:22%;background:var(--brand)">Private 22%</span></div></div>
+  <div class="legend"><span><i style="background:var(--om)"></i>Defence PSUs and other public-sector units</span><span><i style="background:var(--brand)"></i>Private sector (~₹42,000 Cr in FY26)</span></div>
+</div>
+
+<p>For the one listed explosives maker, the domestic opportunity is real but slow. At 31 March 2026 Solar's Indian defence order book was about <strong>₹6,000 crore</strong>, and it is dominated by its ₹6,084 crore share of the February 2025 Pinaka contract, which runs over 8–15 years with 86% delivered within ten. That works out to roughly ₹400–700 crore a year. On an INDICATIVE reading of the annual report's geographic split, Solar's Indian defence revenue in FY26 was only about ₹660 crore. The domestic programmes that could change that are named in its annual report and calls: further Pinaka series and guided variants ("in negotiation"), the 30 mm medium-calibre ammunition plant opened in Nagpur in January 2026, 155 mm complete rounds that were "progressing through qualification stages", the MPATGM anti-tank missile, the Kusha air-defence programme, and the next tranches of emergency procurement. Solar has declined to quantify its emergency-procurement orders.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>India is spending much more on weapons and is steering that money towards Indian makers. That is good for anyone who makes explosives, propellants and ammunition. But a big domestic contract is often paid out over a decade, so a headline order can add only a few hundred crores of revenue a year. Solar's largest Indian contract, its share of the Pinaka rocket deal, works out to roughly ₹600 crore a year.</p>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The fine print of procurement rules matters. If the draft DAP 2026 is finalised with long-term bulk-acquisition contracts and a 60% indigenous-content bar, ammunition makers could sign multi-year volume deals instead of one-off emergency orders. Until it is notified, the industry runs on a mix of slow regular contracts and fast but unpredictable emergency purchases.</p>
+</div>
+</section>
+
+<section class="part" id="p9">
+<div class="part-head"><span class="pno">09</span><h2>From grenades to Pinaka to Nagastra: building a private energetics house <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">How a Nagpur explosives maker turned its licences and nitration chemistry into a ₹2,634 crore defence business with a ₹18,000 crore order book, two-thirds of it from abroad.</p>
+
+<p>Solar's defence business is the most important single development in Indian energetics since the ordnance factories were corporatised, and it shows how a private company enters a market that was a state monopoly for decades. The logic was simple: the plants, licences, safety systems and nitration chemistry needed for commercial explosives are a large part of what is needed for military ones. The execution took fifteen years. Solar obtained the first private licence to make military explosives in 2010 and used its subsidiary <strong>Economic Explosives Ltd (EEL)</strong>, incorporated in 1995, as its defence platform. Early products were explosives and propellants supplied to state integrators. Its multi-mode hand grenade, designed by DRDO, became the first private-sector grenade order in 2016–17. The Army took delivery of the first Nagastra-1 loitering munitions in 2024. On 17 February 2025 EEL was renamed <strong>Solar Defence &amp; Aerospace Ltd (SDAL)</strong>.</p>
+
+<ul class="timeline">
+  <li><div class="yr">2010</div><div class="ev">Solar enters defence with the first private licence for military explosives; first overseas plant (Zambia) the same year.</div></li>
+  <li><div class="yr">2016–17</div><div class="ev">Multi-mode hand grenade: first private-sector order for the DRDO design.</div></li>
+  <li><div class="yr">1 Oct 2021</div><div class="ev">Ordnance Factory Board corporatised; Munitions India becomes the state ammunition company and Solar's main domestic rival.</div></li>
+  <li><div class="yr">2024</div><div class="ev">Nagastra-1 loitering munitions delivered to the Army.</div></li>
+  <li class="major"><div class="yr">6 Feb 2025</div><div class="ev">MoD signs ₹10,147 Cr of Pinaka ammunition contracts with EEL (Solar), Munitions India and BEL. Solar's share: ₹6,084 Cr over 8–15 years, "the biggest contract in the history of Solar Group".</div></li>
+  <li><div class="yr">17 Feb 2025</div><div class="ev">EEL renamed Solar Defence &amp; Aerospace Ltd.</div></li>
+  <li class="major"><div class="yr">7–10 May 2025</div><div class="ev">Operation Sindoor. The Raksha Mantri later confirms that Nagastra drones made by the Solar Group were used successfully.</div></li>
+  <li class="major"><div class="yr">18 Jan 2026</div><div class="ev">Raksha Mantri opens SDAL's automated 30 mm ammunition plant in Nagpur, flags off the first tranche of Guided Pinaka rockets to Armenia, and notes a successful Bhargavastra counter-drone test.</div></li>
+  <li><div class="yr">FY26</div><div class="ev">Defence revenue ₹2,634 Cr (+94%); defence order book ~₹18,000 Cr at 31 Mar 2026.</div></li>
+</ul>
+
+<p>The revenue path is steep and recent. Solar's defence revenue was <strong>₹396 crore in FY23 (6% of sales), ₹517 crore in FY24 (9%), ₹1,355 crore in FY25 (18%) and ₹2,634 crore in FY26 (27%)</strong>. Management guided for more than ₹4,500 crore in FY27 at its May 2026 results call. The FY24 figure is worth noting because it is often quoted as about ₹350 crore; the company's own FY24 results presentation shows ₹517 crore. Quarterly, defence revenue has been lumpy: ₹418 crore in Q1 FY26, ₹1,008 crore in Q4 FY26, then ₹933 crore in Q1 FY27, a 7% fall from the previous quarter but more than double the year before.</p>
+
+<div class="chart">
+  <div class="c-title">Solar's defence revenue, FY23 to FY27 guidance</div>
+  <div class="c-sub">₹ Cr and share of group revenue. Company results presentations (FY24 presentation for FY23–FY24); FY27 = management guidance of more than ₹4,500 Cr (May 2026)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY23<small>6% of sales</small></div><div class="track"><span class="fill ink" style="width:8.8%"></span></div><div class="bval">396</div></div>
+    <div class="bar-row"><div class="blab">FY24<small>9%</small></div><div class="track"><span class="fill ink" style="width:11.5%"></span></div><div class="bval">517</div></div>
+    <div class="bar-row"><div class="blab">FY25<small>18%</small></div><div class="track"><span class="fill gold" style="width:30.1%"></span></div><div class="bval">1,355</div></div>
+    <div class="bar-row"><div class="blab">FY26<small>27%</small></div><div class="track"><span class="fill brand" style="width:58.5%"></span></div><div class="bval">2,634</div></div>
+    <div class="bar-row"><div class="blab">FY27 guidance<small>&gt;32% of ₹14,000 Cr</small></div><div class="track"><span class="fill spec" style="width:100%"></span></div><div class="bval">&gt;4,500</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹4,500 Cr. A business that was 6% of revenue three years ago is now a quarter of it.</span></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">Defence revenue quarter by quarter</div>
+  <div class="c-sub">Solar Industries defence basket, ₹ Cr, Q1 FY25 to Q1 FY27 (Jun-26). Company quarterly presentations</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q1 FY25</div><div class="track"><span class="fill ink" style="width:19.2%"></span></div><div class="bval">194</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY25</div><div class="track"><span class="fill ink" style="width:31.9%"></span></div><div class="bval">322</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY25</div><div class="track"><span class="fill ink" style="width:40.6%"></span></div><div class="bval">409</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY25</div><div class="track"><span class="fill ink" style="width:42.7%"></span></div><div class="bval">430</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY26</div><div class="track"><span class="fill gold" style="width:41.5%"></span></div><div class="bval">418</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY26</div><div class="track"><span class="fill gold" style="width:50.2%"></span></div><div class="bval">506</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY26</div><div class="track"><span class="fill gold" style="width:69.6%"></span></div><div class="bval">702</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY26</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">1,008</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27</div><div class="track"><span class="fill brand" style="width:92.6%"></span></div><div class="bval">933</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹1,008 Cr. To meet the FY27 guidance, defence must average more than ₹1,189 Cr a quarter in Q2–Q4 FY27, above any quarter so far.</span></div>
+</div>
+
+<h3>What the defence business earns</h3>
+<p>Solar does not report a defence margin. It treats explosives and defence as one segment, "explosives and its accessories", and says its chief decision-maker does not review product or geographic profit. The best window is SDAL's own accounts, disclosed in the annual report's subsidiary statement: in FY26 SDAL had <strong>turnover of ₹1,577 crore, profit before tax of ₹474 crore (30%) and profit after tax of ₹349 crore (22%)</strong>, about a fifth of group profit. Group defence revenue (₹2,634 crore) is larger than SDAL's turnover, so some defence products, such as propellants and high explosives from Nagpur, are billed through the parent or other entities. SDAL's 22% net margin compares with 17.7% for the group, and implies an INDICATIVE EBITDA margin of roughly 30–35%. Rheinmetall's Weapon &amp; Ammunition division earned about 29% in CY2025 and 23.7% in H1 2026; Munitions India earned 13.3% in FY25. The private model, with modern plants, a narrow product focus and high export prices, earns much more than the state one.</p>
+
+<h3>The order book: export-led, long-dated at home</h3>
+<p>Solar's total order book was <strong>₹21,350 crore at 30 June 2026</strong>. At the 11 August 2026 AGM the managing director broke down the 31 March figure of about ₹21,000 crore: <strong>defence about ₹18,000 crore, of which about ₹12,000 crore international and about ₹6,000 crore Indian</strong>, plus about ₹3,000 crore of institutional orders, mainly Coal India and Singareni explosives contracts. In February 2026 he had given ₹11,000 crore international and ₹6,500–7,000 crore Indian; the later, explicitly dated figure is the one to use. Two-thirds of the defence book is export.</p>
+
+<div class="chart">
+  <div class="c-title">What is in Solar's order book</div>
+  <div class="c-sub">Order book of ~₹21,000 Cr at 31 Mar 2026, ₹ Cr, as described by the MD at the AGM (11 Aug 2026); ₹21,350 Cr at 30 Jun 2026 (Q1 FY27 presentation)</div>
+  <div class="stack-row"><div class="blab">Order book, Mar-26</div><div class="stack"><span style="width:57%;background:var(--gold)">Export defence 12,000</span><span style="width:29%;background:var(--brand)">India def 6,000</span><span style="width:14%;background:var(--wtg)">Inst 3,000</span></div></div>
+  <div class="legend"><span><i style="background:var(--gold)"></i>International defence (~₹12,000 Cr)</span><span><i style="background:var(--brand)"></i>Indian defence (~₹6,000 Cr), mostly Pinaka over 8–15 years</span><span><i style="background:var(--wtg)"></i>Institutional explosives, mainly Coal India and SCCL (~₹3,000 Cr)</span></div>
+</div>
+
+<p>The disclosed order ledger explains the shape. Solar files each large order with the exchanges, and the filings since January 2025 show two kinds: a single very large, very long domestic contract, and a run of mid-sized export contracts on three- to four-year tenors.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Solar's disclosed large orders since January 2025 (stock-exchange filings)</caption>
+  <thead><tr><th>Date</th><th>Customer</th><th class="num">Value ₹ Cr</th><th>Tenor</th><th>Type</th></tr></thead>
+  <tbody>
+    <tr><td>Jan 2025</td><td>International customer</td><td class="num">2,039</td><td>n/d</td><td>Export defence</td></tr>
+    <tr><td>6 Feb 2025</td><td>Ministry of Defence (EEL/SDAL): Pinaka rockets</td><td class="num">6,084</td><td>8–15 years (86% within 10)</td><td>Domestic defence</td></tr>
+    <tr><td>Mar 2025</td><td>International customer</td><td class="num">2,150</td><td>n/d</td><td>Export defence</td></tr>
+    <tr><td>8 Oct 2025</td><td>SECL (Coal India subsidiary)</td><td class="num">483</td><td>2 years</td><td>Bulk explosives</td></tr>
+    <tr><td>18 Nov 2025</td><td>International clients</td><td class="num">1,400</td><td>4 years</td><td>Export defence</td></tr>
+    <tr><td>31 Dec 2025</td><td>Coal India for its subsidiaries (additional)</td><td class="num">1,746</td><td>2 years</td><td>Bulk explosives (Coal India total ₹2,229 Cr)</td></tr>
+    <tr><td>30 Jan 2026</td><td>International, two contracts (₹589 + ₹830 Cr)</td><td class="num">1,419</td><td>4 years</td><td>Export defence</td></tr>
+    <tr><td>29 May 2026</td><td>International clients</td><td class="num">1,076</td><td>3 years</td><td>Export defence</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>Disclosed export-defence orders since January 2025 add up to <strong>at least ₹8,100 crore</strong>. Spread over three to four years, that is about ₹2,000–2,500 crore a year of export defence revenue capacity (INDICATIVE), which matches the roughly ₹1,975 crore of defence exports implied by the FY26 annual report. The Indian book, by contrast, is mostly Pinaka at roughly ₹400–700 crore a year. The FY27 guidance of more than ₹4,500 crore therefore depends on exports plus new Indian orders, such as emergency procurement, 30 mm ammunition and guided Pinaka variants, that are not yet visible in the disclosed ledger.</p>
+
+<h3>The Pinaka contract, correctly sized</h3>
+<p>The Pinaka package is often misdescribed, so it is worth stating precisely. On <strong>6 February 2025</strong> (in FY25, not FY26) the Ministry of Defence signed contracts worth <strong>₹10,147 crore in total</strong> with three suppliers: EEL (now SDAL) for Area Denial Munition Type-1 rockets, Munitions India for High Explosive Pre-Fragmented Mk-1 (Enhanced) rockets, and Bharat Electronics for upgrades to the SHAKTI fire-control software. Solar's own filing that evening put <strong>its share at ₹6,084 crore</strong>, leaving about ₹4,063 crore for Munitions India and BEL. One detail is disputed: the PIB release assigns the two rocket types to EEL and Munitions India "respectively", while Solar's filing lists both against EEL, and Solar has said it was the first private company to dispatch Pinaka Enhanced Mk-1 rockets, perhaps under another contract. The value is firm; the product split is not. DRDO has nominated EEL as a production agency for all Pinaka variants.</p>
+
+<div class="chart">
+  <div class="c-title">The ₹10,147 crore Pinaka package, split</div>
+  <div class="c-sub">MoD contracts signed 6 Feb 2025, ₹ Cr. PIB release (total and suppliers) and Solar's stock-exchange filing (its share); the MIL plus BEL remainder is a calculation</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Solar (EEL/SDAL)<small>8–15 years</small></div><div class="track"><span class="fill brand" style="width:60%"></span></div><div class="bval">6,084</div></div>
+    <div class="bar-row"><div class="blab">Munitions India + BEL<small>remainder</small></div><div class="track"><span class="fill om" style="width:40%"></span></div><div class="bval">~4,063</div></div>
+    <div class="bar-row"><div class="blab">Total package</div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">10,147</div></div>
+    <div class="bar-row"><div class="blab">Solar's share per year<small>INDICATIVE, ~10-year average</small></div><div class="track"><span class="fill gold" style="width:6%"></span></div><div class="bval">~600</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹10,147 Cr. The largest contract in Solar's history adds roughly ₹600 Cr of revenue a year, about a seventh of FY27's defence guidance.</span></div>
+</div>
+
+<h3>Solar against the state incumbent</h3>
+<p>Munitions India is the obvious yardstick. It is three times Solar's defence size and holds a larger order book, but its economics are different. It earns a much lower margin, carries large inventories, and depends on advances: the Army pays it 60% upfront and the home ministry 40%, while export customers pay 15% upfront and 85% before dispatch. Its auditors qualified its FY25 accounts. Its export share jumped from about 5% in FY23 to 38% in FY25, which shows that the export wave is lifting the state sector too; defence public-sector exports rose 151% in FY26.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Solar's defence business versus Munitions India (reference, unlisted)</caption>
+  <thead><tr><th>Measure</th><th>Solar defence</th><th>Munitions India</th></tr></thead>
+  <tbody>
+    <tr><td>Revenue</td><td>₹2,634 Cr (FY26)</td><td>₹8,264 Cr (FY25; FY26 not published)</td></tr>
+    <tr><td>Margin</td><td>SDAL PAT 22%, PBT 30% (FY26)</td><td>Operating (PBILDT) 13.3% (FY25)</td></tr>
+    <tr><td>Export share</td><td>~75% of FY26 defence revenue (INDICATIVE)</td><td>38% (FY25)</td></tr>
+    <tr><td>Order book</td><td>~₹18,000 Cr (Mar-26), two-thirds export</td><td>~₹30,000 Cr (Aug-25), ~₹6,000 Cr export</td></tr>
+    <tr><td>Order book ÷ revenue</td><td>6.8×</td><td>~3.6×</td></tr>
+    <tr><td>Balance sheet</td><td>Group net debt ₹867 Cr (Mar-26)</td><td>Net cash ~₹6,100 Cr, no debt (Mar-25)</td></tr>
+    <tr><td>Capex</td><td>Group ₹2,050 Cr in FY27, "mainly for defence"</td><td>~₹2,000 Cr over two years, 75% government-funded</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="chart">
+  <div class="c-title">Private challenger, state incumbent</div>
+  <div class="c-sub">₹ Cr. Solar defence FY26 revenue and Mar-26 defence order book (company); Munitions India FY25 revenue and Aug-25 order book (CARE Ratings, Sep 2025)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Munitions India revenue</div><div class="track"><span class="fill om" style="width:27.5%"></span></div><div class="bval">8,264</div></div>
+    <div class="bar-row"><div class="blab">Solar defence revenue</div><div class="track"><span class="fill brand" style="width:8.8%"></span></div><div class="bval">2,634</div></div>
+    <div class="bar-row"><div class="blab">Munitions India order book</div><div class="track"><span class="fill om" style="width:100%"></span></div><div class="bval">~30,000</div></div>
+    <div class="bar-row"><div class="blab">Solar defence order book</div><div class="track"><span class="fill brand" style="width:60%"></span></div><div class="bval">~18,000</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹30,000 Cr. Solar is a third of Munitions India's size but holds a book worth more years of its own revenue.</span></div>
+</div>
+
+<h3>From explosives to drones</h3>
+<p>The product range now runs well beyond chemistry: HMX, RDX and TNT; composite propellants for Akash, Pinaka and BrahMos; complete rocket integration; 23 mm, 30 mm, 81 mm and 155 mm ammunition; grenades, mines, bombs and warheads; pyrotechnics and igniters; propellants for space launchers, including a strategic investment in Skyroot Aerospace; and drones. <strong>Nagastra-1</strong>, a loitering munition, is in service with repeat orders. <strong>Bhargavastra</strong>, a counter-drone micro-missile system, was in trials in 2026, and <strong>Rudrastra</strong> is in development. A MALE (medium-altitude long-endurance) drone and a robotics and UAV centre are under way. Solar's drone work runs partly through an associate, ZMotion Autonomous Systems (46% owned), to which it made a ₹63 crore advance in FY26. Capex of ₹2,050 crore in FY27 is "mainly for defence projects", and Solar has announced a proposed ₹12,700 crore investment in Maharashtra for defence and aerospace over about ten years.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">How a defence order becomes revenue</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Months 0–3</div><div class="nname">Contract signed</div><div class="nwho">Filing to exchanges; advance received (Army up to 60%, exports ~15%).</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Months 3–12</div><div class="nname">Raw materials &amp; lot production</div><div class="nwho">Propellant casting, filling; inventory builds and working capital rises.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Gate</div><div class="nname">Lot acceptance trials</div><div class="nwho">DGQA or customer inspection; a failed or delayed trial shifts revenue a quarter or more.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Years 1–4+</div><div class="nname">Deliveries billed</div><div class="nwho">Revenue recognised per accepted lot; exports need DDP authorisation per shipment.</div></div>
+  </div>
+  <div class="flow-note">The Pinaka start slipped from Q3 to Q4 FY26 on qualification. Each step is a place where an order book can sit unconverted.</div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Solar has turned a commercial-explosives business into a weapons-energetics business in about fifteen years, mostly in the last three. Its defence arm earns roughly twice the margin of the state ammunition company and has a bigger order book relative to its sales. But most of those orders come from foreign buyers, and the biggest Indian contract is paid out over a decade, so the growth depends on exports and on passing each batch's trials on time.</p>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Ignore the size of a headline order and divide it by its tenor. ₹6,084 crore over ten years is about ₹600 crore a year; ₹1,076 crore over three years is about ₹360 crore a year. The FY27 target of more than ₹4,500 crore needs many such contracts running at once, plus new ones that have not been announced yet.</p>
+</div>
+</section>
+
+<section class="part" id="p10">
+<div class="part-head"><span class="pno">10</span><h2>The export turn: India's share of a global ammunition shortage</h2></div>
+<p class="part-sub">Europe ran short of shells; India's defence exports rose 63% in a year. Solar's defence business is, in practice, an export business.</p>
+
+<p>The global backdrop is the largest ammunition shortage since the Cold War. The war in Ukraine consumed artillery shells faster than Western factories could make them, and European and American stocks of ammunition and missiles fell to levels that governments now describe as a security risk. Solar's annual report refers to a "well-documented global shortage of medium and large calibre ammunition, especially 155mm", and its managing director told the 2026 AGM that ammunition and missile stocks in Europe and the US remain low. The clearest measure of the resulting boom is Germany's Rheinmetall. Its Weapon &amp; Ammunition division earned <strong>€3.53 billion of sales in CY2025, up 27%, at an operating margin of about 29%</strong>, and in H1 2026 its sales rose another 33% to €1.76 billion. Rheinmetall's group backlog reached €80.5 billion by mid-2026, and its new Unterlüß plant is ramping towards 350,000 shells a year.</p>
+
+<div class="chart">
+  <div class="c-title">The global benchmark: Rheinmetall's ammunition arm</div>
+  <div class="c-sub">Weapon &amp; Ammunition division, € million. Rheinmetall annual report 2025 and H1 2026 release (6 Aug 2026). INDICATIVE ₹ conversion at €1 = ₹110: CY2025 sales ≈ ₹38,900 Cr</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Sales CY2025<small>+27%</small></div><div class="track"><span class="fill om" style="width:100%"></span></div><div class="bval">3,532</div></div>
+    <div class="bar-row"><div class="blab">Operating result CY2025<small>~29%</small></div><div class="track"><span class="fill gold" style="width:29.4%"></span></div><div class="bval">1,037</div></div>
+    <div class="bar-row"><div class="blab">Sales H1 2026<small>+33%</small></div><div class="track"><span class="fill om" style="width:49.7%"></span></div><div class="bval">1,757</div></div>
+    <div class="bar-row"><div class="blab">Operating result H1 2026<small>23.7%</small></div><div class="track"><span class="fill gold" style="width:11.8%"></span></div><div class="bval">417</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = €3,532 m. Reference only. Solar's whole defence business (₹2,634 Cr) is about 7% of this division's CY2025 sales.</span></div>
+</div>
+
+<p>India has started to export into that shortage. The Ministry of Defence reported <strong>defence exports of ₹38,424 crore in FY26, up 62.7%</strong> from ₹23,622 crore. The mix shifted sharply: defence public-sector companies exported ₹21,071 crore, up 151%, while private companies exported ₹17,353 crore, up 14%. The number of registered exporters rose from 128 to 145. The government's target is ₹50,000 crore of exports by FY29. These totals include components and systems of every kind, not only ammunition, but ammunition and explosives are among the fastest-growing lines, and Munitions India's export share rose from 5% to 38% in two years.</p>
+
+<div class="chart">
+  <div class="c-title">India's defence exports</div>
+  <div class="c-sub">₹ Cr, FY25 vs FY26. PIB (Ministry of Defence) release of 2 Apr 2026</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Total FY25</div><div class="track"><span class="fill ink" style="width:61.5%"></span></div><div class="bval">23,622</div></div>
+    <div class="bar-row"><div class="blab">Total FY26<small>+62.7%</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">38,424</div></div>
+    <div class="bar-row"><div class="blab">Public sector FY25</div><div class="track"><span class="fill om" style="width:21.8%"></span></div><div class="bval">8,389</div></div>
+    <div class="bar-row"><div class="blab">Public sector FY26<small>+151%</small></div><div class="track"><span class="fill om" style="width:54.8%"></span></div><div class="bval">21,071</div></div>
+    <div class="bar-row"><div class="blab">Private FY25</div><div class="track"><span class="fill gold" style="width:39.6%"></span></div><div class="bval">15,233</div></div>
+    <div class="bar-row"><div class="blab">Private FY26<small>+14%</small></div><div class="track"><span class="fill gold" style="width:45.2%"></span></div><div class="bval">17,353</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹38,424 Cr. The state sector led FY26's export jump; the private sector grew modestly as a whole.</span></div>
+</div>
+
+<p>Solar's place in this is larger than its share of Indian defence production suggests. Its annual report gives revenue by customer location: <strong>₹5,790 crore from customers outside India in FY26, 60% of product revenue</strong>, up from ₹3,852 crore (52%) in FY25. Its international explosives basket, which includes its overseas plants, was ₹3,815 crore. The difference, about ₹1,975 crore, is an INDICATIVE measure of defence exports: about <strong>75% of FY26 defence revenue</strong>, up from about 70% in FY25. That is roughly 11% of all private-sector defence exports from India. Private exports grew only 14% in FY26 while Solar's implied defence exports roughly doubled, so Solar gained share. Its standalone accounts confirm the direction: foreign-exchange earnings of ₹2,623 crore against outgo of ₹806 crore, a net inflow of about ₹1,816 crore.</p>
+
+<div class="chart">
+  <div class="c-title">Solar's revenue by where the customer is</div>
+  <div class="c-sub">Product revenue by customer location, ₹ Cr, FY25 vs FY26 (annual report Note 32). The defence-export line is an INDICATIVE derivation: outside-India revenue minus the international explosives basket</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">India, FY25</div><div class="track"><span class="fill wtg" style="width:60.6%"></span></div><div class="bval">3,508</div></div>
+    <div class="bar-row"><div class="blab">India, FY26</div><div class="track"><span class="fill wtg" style="width:66%"></span></div><div class="bval">3,821</div></div>
+    <div class="bar-row"><div class="blab">Outside India, FY25</div><div class="track"><span class="fill gold" style="width:66.5%"></span></div><div class="bval">3,852</div></div>
+    <div class="bar-row"><div class="blab">Outside India, FY26<small>60% of total</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">5,790</div></div>
+    <div class="bar-row"><div class="blab">of which defence exports, FY26<small>INDICATIVE</small></div><div class="track"><span class="fill brand" style="width:34.1%"></span></div><div class="bval">~1,975</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹5,790 Cr. Outside-India revenue grew 50% in FY26; Indian revenue grew 9%.</span></div>
+</div>
+
+<p>The export framing changes which risks matter. Each shipment of military goods needs an authorisation from the Department of Defence Production under the SCOMET list (Category 6, munitions) and an end-user certificate from the buying government; India has been a member of the Wassenaar Arrangement on export controls since 2017. Buyers are foreign governments or their contractors, so politics can stop a contract, and payment terms are less generous than at home: Munitions India's export customers pay 15% upfront, against 60% for the Army. Solar does not name its export customers or countries. The one publicly confirmed destination is <strong>Armenia</strong>, which received the first tranche of Guided Pinaka rockets in January 2026. Rupee weakness helps: at about ₹94.9 to the dollar in October 2026, near a record low, export contracts priced in dollars or euros translate into more rupees.</p>
+<p>The global benchmark also shows the risk at the top of a cycle. Rheinmetall cut its 2026 sales guidance to €13.7–14.2 billion after a frigate cancellation, and its H1 2026 ammunition margin of 23.7% was below CY2025's 29% as it absorbed new plants. Ammunition booms end when stocks are rebuilt and new capacity arrives. Europe is building plants that will compete with Indian exporters later in the decade. Dyno Nobel, the US-Australian explosives major, has formed a joint venture called Nitradyn with REPKON USA to make defence energetics, a sign that commercial-explosives companies everywhere see the same opportunity.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Most of Solar's defence money comes from foreign governments, not the Indian Army. That is good while the world is short of shells and the rupee is weak. It also means the business depends on export licences, foreign politics and how long the shortage lasts, more than on India's defence budget.</p>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The quickest test of whether an Indian defence exporter is gaining ground is to compare its growth with the national export total. In FY26 India's private defence exports grew 14%; Solar's implied defence exports roughly doubled. That gap is market share being won, at least for now.</p>
+</div>
+</section>
+
+<!--CONTINUE-->
+
+</main>
+</div>
+</div>
+</body>
+</html>
