@@ -1,4 +1,4 @@
-claimed 2026-10-23T18:00:01Z, in progress
+claimed 2026-10-23T18:00:01Z, in progress (resumed 20:21Z after usage-limit pause)
 
 # Paper — STATUS
 
