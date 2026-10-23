@@ -60,3 +60,6 @@
 - **crisil.html — margin narrative:** Q3 CY26 PBT +5.3% despite revenue +20.2%. Drivers: professional/associate fees +37% YoY, D&A +38%, FX gain ₹2.3 Cr vs ₹15.5 Cr. Employee cost stable at 54% of revenue. The 3-year PAT CAGR (CY22–25) is only ~7% against a 38.8× P/E.
 - **crisil.html — global comparison (if the primer has one):** S&P Ratings US$4,724m (64–65% margin); Moody's MIS US$4,119m (63.6% adj.); Morningstar DBRS US$354m (32.4% adj.). The Indian CRA pool is ~₹1,700–2,000 Cr [E].
 
+
+## From primer-audit (2026-10-23, ratings run Phase 3)
+- **crisil.html — fails a hard check (pre-existing, not fixed here):** banned phrases "Think of it as" and "no room for error" (also one "honest"); missing the kit grid fix `main{min-width:0}` (phone overflow risk); refreshed stamp 2026-06-30 per primer-audit (the dossier read it as 12-Jul-2026); 0 links to sub-sector reports — add a link to `../subsectors/ratings.html` once published.
