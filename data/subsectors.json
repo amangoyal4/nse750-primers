@@ -1498,6 +1498,23 @@
         "NaBFID and the DFI reborn"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Cigarettes & Tobacco",
+      "slug": "cigarettes",
+      "file": "cigarettes.html",
+      "sector": "FMCG",
+      "subsector": "Cigarettes & Tobacco Products",
+      "companies": 1,
+      "accent": "#54620E",
+      "hook": "The toll that doubled overnight: how the 1 Feb 2026 tax reset (40% GST plus a length-based excise) moved most of every rupee a smoker pays to the state, how far price can run before volume breaks or smugglers win, and what Godfrey Phillips is beneath Marlboro.",
+      "tags": [
+        "The 2026 tax reset",
+        "Illicit trade",
+        "Godfrey Phillips & Philip Morris",
+        "How far can price run?"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1925,7 +1942,7 @@
       "sector": "FMCG",
       "sub": "Cigarettes & Tobacco Products",
       "companies": 1,
-      "report": null
+      "report": "cigarettes.html"
     },
     {
       "sector": "FMCG",
