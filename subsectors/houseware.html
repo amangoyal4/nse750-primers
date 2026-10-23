@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Houseware — Sub-sector Report</title>
+<meta name="description" content="A complete guide to Indian houseware and consumerware (plasticware, steel and insulated ware, glass and opalware, writing instruments, moulded furniture), seen through its one listed pure play, Cello World: market size, imports and quality-control orders, GST 2.0, furnaces, brands, KPIs, reference peers and what to watch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#2F18A5;          /* indigo-violet */
+    --brand-bright:#5B44D9;   /* bright violet accent */
+    --gold:#D9971C;           /* warm kitchen amber */
+    --wtg:#7A62D0;            /* lavender (plasticware) */
+    --epc:#3E8FA3;            /* glass blue-green */
+    --om:#B0546E;            /* rose (writing instruments) */
+    --spec:#5B44D9;          /* violet accent */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#2F18A5,#5B44D9);}
+  .fill.gold{background:linear-gradient(90deg,#D9971C,#EBB552);}
+  .fill.wtg{background:linear-gradient(90deg,#7A62D0,#9784DC);}
+  .fill.om{background:linear-gradient(90deg,#B0546E,#C7768C);}
+  .fill.spec{background:linear-gradient(90deg,#5B44D9,#7D6AE3);}
+  .fill.epc{background:linear-gradient(90deg,#3E8FA3,#5FA9BA);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Trading · Houseware</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> How a houseware rupee is made</a></li>
+    <li><a href="#p2"><span class="n">02</span> Two yardsticks, one slowdown</a></li>
+    <li><a href="#p3"><span class="n">03</span> Who buys, and when</a></li>
+    <li><a href="#p4"><span class="n">04</span> Where ₹100 goes</a></li>
+    <li><a href="#p5"><span class="n">05</span> Milton, Cello and the long tail</a></li>
+    <li><a href="#p6"><span class="n">06</span> Five ways to sell a bottle</a></li>
+    <li><a href="#p7"><span class="n">07</span> Policy, not demand</a></li>
+    <li><a href="#p8"><span class="n">08</span> The furnace and the flood</a></li>
+    <li><a href="#p9"><span class="n">09</span> The bottle that vanished</a></li>
+    <li><a href="#p10"><span class="n">10</span> Buying back the name</a></li>
+    <li><a href="#p11"><span class="n">11</span> One house, many shelves</a></li>
+    <li><a href="#p12"><span class="n">12</span> Six decades, five shocks</a></li>
+    <li><a href="#p13"><span class="n">13</span> Reading a houseware company: the KPIs</a></li>
+    <li><a href="#p14"><span class="n">14</span> The peer table</a></li>
+    <li><a href="#p15"><span class="n">15</span> Who is winning</a></li>
+    <li><a href="#p16"><span class="n">16</span> Cello World up close</a></li>
+    <li><a href="#p17"><span class="n">17</span> Who owns the house</a></li>
+    <li><a href="#p18"><span class="n">18</span> The global lens</a></li>
+    <li><a href="#p19"><span class="n">19</span> Technology &amp; disruption</a></li>
+    <li><a href="#p20"><span class="n">20</span> Bull vs bear</a></li>
+    <li><a href="#p21"><span class="n">21</span> What to watch</a></li>
+    <li><a href="#p22"><span class="n">22</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Trading · Houseware</span>
+    <span class="tag gold">1 listed company</span>
+  </div>
+  <h1>Indian houseware: <em>brands, furnaces and a policy wall</em></h1>
+  <p class="dek">A complete guide to India's consumer houseware industry: plastic bottles and lunchboxes, insulated steel flasks, glass tumblers and opal dinner sets, ball pens and moulded chairs. How a brand turns a ₹500 bottle into profit, why trade policy now decides which categories make money, what a half-empty glass furnace does to a balance sheet, and how the one listed pure play, Cello World, compares with the listed and unlisted companies around it.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹56,500 <small>Cr</small></div><div class="l">Consumerware market FY27P (₹34,800 Cr FY22, Technopak)</div></div>
+    <div class="cell"><div class="v">₹2,324 <small>Cr</small></div><div class="l">Cello World revenue FY26 (+8.8%)</div></div>
+    <div class="cell"><div class="v">22.7%</div><div class="l">Cello EBITDA FY26 incl. other income (FY24 26.7%)</div></div>
+    <div class="cell"><div class="v">~60%</div><div class="l">Falna glass furnace utilisation, of ~20,000 tpa</div></div>
+    <div class="cell"><div class="v">−87%</div><div class="l">India's vacuum-flask imports, CY2023 → CY2025</div></div>
+    <div class="cell"><div class="v">₹7,984 <small>Cr</small></div><div class="l">Cello m-cap, 25.1× P/E (23 Oct 2026)</div></div>
+  </div>
+  <p class="prov">Basis: FY26 = year to 31 Mar 2026; Q1 FY27 = Apr–Jun 2026, Cello World's latest reported quarter (results 7 Aug 2026). Q2 FY27 (Jul–Sep 2026) is not yet reported; the board date had not been intimated as of 23 Oct 2026. Company figures from Cello's FY26 annual report, investor presentations and earnings calls; reference-peer figures from screener.in (23 Oct 2026 close); market sizes from the Technopak report in Cello's 2023 prospectus; trade data from UN Comtrade; tax rates from the GST Council and CBIC; unlisted Milton from CRISIL Ratings. Cello is the only listed company classified in this sub-sector, so other companies appear as clearly marked reference peers. Estimates, worked examples and single-source figures are labelled illustrative or indicative.</p>
+</header>
+
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: a brand business that policy is turning into a factory business</h2></div>
+<p class="part-sub">Houseware looks like a slow, safe consumer category. In 2025–26 it was reshaped by import bans, a gas shock and a furnace that would not fill.</p>
+
+<p class="lead">Every Indian kitchen holds the products of this industry: a plastic water bottle for school, a steel flask for the office, a casserole that keeps rotis warm, a set of glass tumblers, an opal-glass dinner set bought for a wedding, a ball pen, a plastic chair on the balcony. None of these is high technology. A moulded polypropylene container can be made by any of thousands of small workshops. Yet the leading brands earn gross margins of around 50% and operating margins of 15–25%, well above most Indian manufacturing. This report explains why, and why that comfortable picture changed in the two years to October 2026.</p>
+
+<p>The short answer to the first question is that value in houseware sits in the <strong>brand and the shelf</strong>, not in the moulding machine. A family buying a ₹500 bottle pays for a name it trusts not to leak or smell, and it buys from a neighbourhood shop that stocks that name because a distributor visits every week. Build the brand and the distribution and the margin follows; the factory behind it can be your own or someone else's. For most of the 2010s, Indian houseware brands ran exactly that model: they moulded the plastic themselves, and imported much of the steel and glass from China.</p>
+
+<p>The short answer to the second question is that <strong>policy, input costs and fixed-cost bets</strong> have arrived in a business that used to be about brands alone. Five forces now decide who earns what:</p>
+<ul class="clean">
+<li><strong>Import competition and the policy toolkit.</strong> China supplies roughly 70% of India's imported glassware, plastic houseware and steel kitchenware. A single Bureau of Indian Standards quality-control order cut India's vacuum-flask imports from US$114.6 million in 2023 to US$14.6 million in 2025, while ordinary glass tumblers have no protection at all. Which category sits on which side of the policy wall now matters more than demand.</li>
+<li><strong>Input-cost pass-through.</strong> Resin, stainless steel, soda ash and natural gas are most of the cost. The West Asia war from 28 February 2026 pushed Indian polymer prices up 43% in three weeks and furnace gas about 80% above March levels. Brands raised prices 7–20% in the April–June quarter and lost volume.</li>
+<li><strong>Distribution reach and the channel shift.</strong> General trade (the kirana and the utensil shop) still sells 71–75% of Cello's goods, but online and quick commerce went from about 10% to 16.3% of its sales in a single year.</li>
+<li><strong>Fixed-cost manufacturing bets.</strong> Glass furnaces and steel-bottle lines turn an asset-light brand house into a manufacturer whose profit depends on utilisation. La Opala's full opal furnaces earn 37% operating margins; Cello's new Falna glass furnace, at about 60%, roughly breaks even.</li>
+<li><strong>Brand ownership and promoter control.</strong> The "Cello" trademarks belong to a partnership owned by the promoter family, not to the listed company; the promoters hold 73.5%; and a press report in August 2026 that a private-equity firm was in talks to buy a majority stake moved the share price 18.6% in a day.</li>
+</ul>
+
+<p>Around these sit three further themes that run through the report: the <strong>asymmetry of GST 2.0</strong> (steel utensils and ceramic tableware fell from 12% to 5% in September 2025 while plastic, glass, flasks, pens and furniture stayed at 18%), <strong>writing instruments as a second engine</strong> (Cello's pen vertical grew 52% in Q1 FY27 after the Cello pen brand returned to the group), and a sharp <strong>split between electric and non-electric home goods</strong> in early 2026, when an LPG shortage sent households to induction cooktops and kettles.</p>
+
+<div class="chart">
+    <div class="c-title">The split of 2026: appliances boomed, non-electric houseware stalled</div>
+    <div class="c-sub">Revenue growth, Q1 FY27 (Apr–Jun 2026) vs Q1 FY26, %. Cello is the sub-sector's only member; all others are reference peers from other sub-sectors. Screener.in quarterly figures (consolidated for Cello, Borosil, TTK; standalone for the rest), 23 Oct 2026</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Stove Kraft<small>reference · appliances</small></div><div class="track"><span class="fill gold" style="width:92.2%"></span></div><div class="bval">+41.5%</div></div>
+      <div class="bar-row"><div class="blab">TTK Prestige<small>reference · cookware</small></div><div class="track"><span class="fill gold" style="width:74.9%"></span></div><div class="bval">+33.7%</div></div>
+      <div class="bar-row"><div class="blab">Hawkins Cookers<small>reference · cookware</small></div><div class="track"><span class="fill gold" style="width:73.6%"></span></div><div class="bval">+33.1%</div></div>
+      <div class="bar-row"><div class="blab">Butterfly Gandhimathi<small>reference · appliances</small></div><div class="track"><span class="fill gold" style="width:32%"></span></div><div class="bval">+14.4%</div></div>
+      <div class="bar-row"><div class="blab">La Opala RG<small>reference · opalware</small></div><div class="track"><span class="fill epc" style="width:20.4%"></span></div><div class="bval">+9.2%</div></div>
+      <div class="bar-row"><div class="blab">Borosil<small>reference · glass &amp; opal</small></div><div class="track"><span class="fill epc" style="width:20%"></span></div><div class="bval">+9.0%</div></div>
+      <div class="bar-row"><div class="blab">Cello World<small>member</small></div><div class="track"><span class="fill brand" style="width:1%"></span></div><div class="bval">−0.4%</div></div>
+    </div>
+    <div class="legend"><span><i style="background:var(--gold)"></i>Cookware &amp; appliance reference peers</span><span><i style="background:var(--epc)"></i>Glass &amp; opal reference peers</span><span><i style="background:var(--brand)"></i>Member. Scale: full bar = +45%.</span></div>
+  </div>
+
+<p>The member company, <a href="../primers/cello-world.html">Cello World</a>, is the lens through which this report reads the industry, and its FY26 is a clean case study of all five forces at once. Revenue rose 8.8% to ₹2,324 crore, but company-defined EBITDA fell from 26.0% to 22.7% of revenue, and that 22.7% <em>includes</em> ₹55 crore of treasury income; on a pure operating basis the margin was 20.3%. Net profit fell 9% to ₹332 crore. The reasons were specific: the Falna glass furnace stuck near 60% utilisation against Chinese imports; steel bottles ran out of stock after the flask quality-control order ended Cello's Chinese sourcing (steelware sales fell about 25%); and the newly returned Cello pen range was loss-making when the company took it over. Then Q1 FY27 added the gas and polymer shock: revenue flat at ₹526.7 crore, profit down 9%, and the FY27 guidance of 10–12% growth withdrawn.</p>
+
+<div class="chart">
+    <div class="c-title">What Cello World sells: FY26 revenue by vertical</div>
+    <div class="c-sub">₹ crore and share of ₹2,324 Cr, FY26. Vertical (company presentation): the audited accounts report one operating segment, "Consumer Products"; these splits are management's own</div>
+    <div class="stack-row"><div class="blab">FY26, ₹2,324 Cr</div><div class="stack"><span style="width:69.1%;background:var(--brand)">Consumerware 69%</span><span style="width:15.9%;background:var(--om)">Pens 16%</span><span style="width:15%;background:var(--epc)">Furniture 15%</span></div></div>
+    <div class="stack-row"><div class="blab">Q1 FY27, ₹527 Cr</div><div class="stack"><span style="width:63.6%;background:var(--brand)">Consumerware 64%</span><span style="width:21.2%;background:var(--om)">Pens 21%</span><span style="width:15.2%;background:var(--epc)">Furniture 15%</span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>Consumerware ₹1,606 Cr (plastic, insulated and steel ware, glass, opal, cleaning aids, small appliances)</span><span><i style="background:var(--om)"></i>Writing instruments &amp; stationery ₹369 Cr</span><span><i style="background:var(--epc)"></i>Moulded furniture &amp; allied ₹349 Cr (incl. air coolers)</span></div>
+  </div>
+
+<div class="mini-stats">
+    <div class="ms"><div class="msv">₹2,865 Cr</div><div class="msl">Revenue of unlisted Hamilton Housewares (Milton) in FY26, provisional, +13%: 23% larger than all of Cello (CRISIL, Jun 2026)</div></div>
+    <div class="ms gold"><div class="msv">69%</div><div class="msl">China's share of India's table-glassware imports in CY2025, up from 55% in 2022 (UN Comtrade)</div></div>
+    <div class="ms red"><div class="msv">178 days</div><div class="msl">Cello's working-capital cycle in FY26, with receivables at 118 days</div></div>
+  </div>
+
+<p>The investment case for the sub-sector, such as it is with one listed member, therefore turns on three questions. Can the new factories (Falna glass, Falna steel lines) fill up fast enough to restore the "26% kind of numbers" management talks about? Will trade policy (a borosilicate-glass anti-dumping duty recommended on 24 September 2026, the opal-glass duty that runs to about August 2027, any action on soda-lime tumblers) tilt the field back toward domestic makers? And will governance, from brand ownership to a possible change of control, help or hurt minority shareholders? The market's answer so far is sceptical: Cello's shares fell 44% in the year to 23 October 2026, to ₹354, and trade at 25.1 times trailing earnings, against 39 times for the listed cookware and appliance makers.</p>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>Houseware used to be a simple business: own a trusted name, get it into one lakh shops, make the plastic yourself and import the steel and glass. Since 2024 the government has blocked some imports and taxed others, the war in West Asia has made plastic and gas far dearer, and the biggest listed player has built its own glass furnace and steel lines just as demand slowed. The brand still matters most, but the factory and the rulebook now decide how much of the brand's premium reaches profit.</p>
+  </div>
+</section>
+
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>How a houseware rupee is made: five materials, one shelf</h2></div>
+<p class="part-sub">The products share a shopper and a shop, not a process. Plastic, steel, glass, ink and furniture each have their own factory economics.</p>
+
+<p>"Houseware" is a shopper's category, not an engineer's. The same family, in the same utensil shop, buys a polypropylene lunchbox, a stainless-steel vacuum flask, a soda-lime glass tumbler and an opal-glass bowl. Behind the counter these come from five very different production systems: injection and blow moulding for plastics; deep drawing, welding and vacuum brazing for insulated steel; continuous gas-fired furnaces for glass and opal; precision tip-making and ink filling for pens; and large-tonnage moulding for chairs and tables. A brand like Cello or Milton is a coordinator that puts one name across all of them and sells them through one distribution network.</p>
+
+<p>That is the first thing to grasp about the economics. The shared asset is the <strong>brand and the route to market</strong>; the cost structures underneath are not shared at all. A plastic container is mostly resin and labour, can be made in a small plant close to the market, and has little fixed cost. A glass furnace costs ₹200–250 crore for about 20,000 tonnes a year (indicative, from Cello's capex), must run 24 hours a day for its ten-year campaign whatever the demand, and burns gas whether the forming machines are busy or idle. An insulated steel bottle needs a vacuum process that was, until 2024, done almost entirely in Chinese clusters such as Yongkang. Each material has a different exposure to imports, to input prices and to policy.</p>
+
+<div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">The plastic houseware value chain: from naphtha to the kitchen shelf</div>
+    <div class="flow-row">
+      <div class="node om"><div class="ntag">Step 1 · Feedstock</div><div class="nname">Naphtha &amp; propylene</div><div class="nwho">Refinery and cracker output; priced off crude and Gulf supply.</div></div>
+      <div class="arrow">→</div>
+      <div class="node wtg"><div class="ntag">Step 2 · Resin</div><div class="nname">PP, HDPE, PET, ABS, Tritan</div><div class="nwho">Reliance, IOCL, HPCL-Mittal, GAIL, Haldia; imports from the Gulf and Korea.</div></div>
+      <div class="arrow">→</div>
+      <div class="node spec"><div class="ntag">Step 3 · Conversion</div><div class="nname">Moulding, printing, assembly</div><div class="nwho">Injection and blow moulding at Daman, Haridwar, Baddi; masterbatch for colour.</div></div>
+      <div class="arrow">→</div>
+      <div class="node epc"><div class="ntag">Step 4 · Route to market</div><div class="nname">Depot → distributor → retailer</div><div class="nwho">General trade dominates; modern trade, e-commerce and quick commerce growing.</div></div>
+      <div class="arrow">→</div>
+      <div class="node om"><div class="ntag">Step 5 · Shelf</div><div class="nname">Consumer at MRP</div><div class="nwho">Brand premium earned here; replacement every 2–3 years.</div></div>
+    </div>
+    <div class="flow-note">Margin concentrates at Steps 4–5. Conversion is cheap to copy; a recalled brand stocked in one lakh shops is not.</div>
+  </div>
+
+<p>Resin is the largest single cost in plastic houseware. Indian polymer prices track naphtha, which jumped from about US$620 to US$1,078 a tonne in two weeks after the West Asia war began, and domestic polymer prices were 43% higher by 19 March 2026. Because a brand prints a maximum retail price (MRP) on the pack and distributors hold weeks of stock, cost increases reach the shelf with a lag of one to two quarters. That lag is where margins are won and lost, and it is covered in section 04.</p>
+
+<div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">The glass and opal value chain: a furnace that never sleeps</div>
+    <div class="flow-row">
+      <div class="node om"><div class="ntag">Step 1 · Batch</div><div class="nname">Silica, soda ash, limestone, cullet</div><div class="nwho">Soda ash from Tata Chemicals, GHCL, Nirma and imports; opacifiers for opal.</div></div>
+      <div class="arrow">→</div>
+      <div class="node wtg"><div class="ntag">Step 2 · Melt</div><div class="nname">Gas-fired furnace, ~1,500°C</div><div class="nwho">Runs continuously for a ~10-year campaign; fuel is roughly a fifth to a quarter of cost.</div></div>
+      <div class="arrow">→</div>
+      <div class="node spec"><div class="ntag">Step 3 · Form</div><div class="nname">Press, blow, temper</div><div class="nwho">Tumblers, stemware, bowls (soda-lime); dinnerware (opal); bakeware (borosilicate).</div></div>
+      <div class="arrow">→</div>
+      <div class="node epc"><div class="ntag">Step 4 · Finish</div><div class="nname">Anneal, decorate, pack</div><div class="nwho">Decoration and gift packing lift realisation; breakage is a hidden cost.</div></div>
+      <div class="arrow">→</div>
+      <div class="node om"><div class="ntag">Step 5 · Channel</div><div class="nname">Gifting, trade, online</div><div class="nwho">Festive and wedding demand peaks in Q2–Q3; competes with Chinese imports on price.</div></div>
+    </div>
+    <div class="flow-note">Value goes to whoever keeps the furnace full. The same product earns 37% operating margin at a full plant and roughly nothing at 60%.</div>
+  </div>
+
+<p>The table below maps the product families to their materials, rivals and Cello's position. Two features stand out. First, Cello is unusually broad: it is one of very few Indian companies that sells plastic, steel, glass, opal, porcelain and melamine under one name, plus pens and furniture. Second, the categories that Technopak counts in the "houseware" market are dominated by small kitchen appliances and cookware, where Cello is a minor player. That matters for every market-share number quoted about this industry.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Houseware product families, how they are made, and who competes</caption>
+    <thead><tr><th>Category</th><th>What it is</th><th>Process</th><th>Main rivals</th><th>Cello position</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Hydration</td><td>Plastic (PET, PP, Tritan) and insulated steel bottles, flasks, sippers</td><td>Blow and injection moulding; steel deep-draw and vacuum brazing</td><td>Milton, Borosil (Hydra), Tupperware, Signoraware, imports before 2024</td><td>Core; steel sub-line disrupted in FY26, now made in-house at Falna</td></tr>
+      <tr><td class="t-strong">Insulated ware</td><td>Casseroles, hot-pots, insulated lunchboxes</td><td>Moulding plus PU foam or vacuum wall</td><td>Milton (category leader), Borosil, Signoraware, Jaypee</td><td>Heritage category of the Cello name since the 1960s</td></tr>
+      <tr><td class="t-strong">Storage &amp; kitchen</td><td>Containers, jars, organisers</td><td>Injection and blow moulding</td><td>Tupperware, Milton, Lock &amp; Lock, Princeware, Signoraware</td><td>Broad range; Puro and Maxfresh sub-brands</td></tr>
+      <tr><td class="t-strong">Melamine &amp; serveware</td><td>Melamine-formaldehyde tableware</td><td>Compression moulding</td><td>Milton, Signoraware</td><td>Small; a ~₹600 Cr market by FY27P</td></tr>
+      <tr><td class="t-strong">Cleaning aids</td><td>Mops, wipers, buckets (Kleeno)</td><td>Moulding plus sourcing</td><td>Scotch-Brite, Gala, SpotZero (Milton), Prestige</td><td>Present</td></tr>
+      <tr><td class="t-strong">Small appliances</td><td>Kettles, induction tops, choppers</td><td>Mostly sourced</td><td>TTK Prestige, Bajaj, Philips, Pigeon, Butterfly, Havells</td><td>Minor, lower margin; sold out in the March 2026 LPG scare</td></tr>
+      <tr><td class="t-strong">Opalware</td><td>Opal dinner sets, bowls, cups</td><td>Continuous furnace, pressing, tempering</td><td>La Opala (Diva), Borosil (Larah), Milton (new), Corelle, Luminarc, imports</td><td>Daman, ~25,000 tpa at 80–85%</td></tr>
+      <tr><td class="t-strong">Glassware</td><td>Soda-lime tumblers, stemware, jars</td><td>Gas-fired furnace, machine pressing and blowing</td><td>Borosil, Treo (Milton), Ocean, Pasabahçe, Chinese imports</td><td>Falna, ~20,000 tpa at ~60%</td></tr>
+      <tr><td class="t-strong">Writing instruments</td><td>Ball and gel pens, markers, stationery</td><td>Moulding, tip-making, ink filling</td><td>Flair (incl. Hauser), Linc, DOMS, Kokuyo Camlin, Hamilton (Milton group)</td><td>Unomax (2019) plus the Cello pen brand from Nov 2025</td></tr>
+      <tr><td class="t-strong">Moulded furniture</td><td>Plastic chairs, tables, extrusion sheets, air coolers</td><td>Large-tonnage moulding</td><td>Supreme, Nilkamal, regional moulders</td><td>Ex-Wim Plast, merged in 2026; thin margin, flat</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+<p>Where is the value captured? The cleanest evidence is margins by business model. Cello's gross margin has stayed between 49.8% and 52.6% across FY22–FY26, which is the premium a brand-led, multi-category houseware house earns over its cost of goods. Hamilton Housewares, the unlisted owner of Milton, earned an EBITDA margin of 16.0% in FY26 on a lower price-point mix. La Opala, a pure opal-glass specialist with full furnaces, earned 37% operating margins. Kitchen-appliance and cookware makers such as TTK Prestige and Stove Kraft earned 9–10%, because they buy more finished goods and sell into more competitive, more promotional categories. The ordering is the point: <strong>brand plus own manufacturing beats brand plus sourcing, and both beat appliances</strong>, provided the factory is full.</p>
+
+<div class="chart">
+    <div class="c-title">Where value is captured: operating margin by business model</div>
+    <div class="c-sub">FY26 operating margin excluding other income, %. Screener.in for listed companies (23 Oct 2026); Milton is CRISIL-reported EBITDA (FY26 provisional). Cello is the member; the others are reference peers</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">La Opala RG<small>opal specialist, full furnaces</small></div><div class="track"><span class="fill epc" style="width:93.8%"></span></div><div class="bval">37.5%</div></div>
+      <div class="bar-row"><div class="blab">Cello World<small>multi-category brand house</small></div><div class="track"><span class="fill brand" style="width:50.8%"></span></div><div class="bval">20.3%</div></div>
+      <div class="bar-row"><div class="blab">Milton (unlisted)<small>Hamilton Housewares</small></div><div class="track"><span class="fill wtg" style="width:40%"></span></div><div class="bval">16.0%</div></div>
+      <div class="bar-row"><div class="blab">Borosil<small>glass, opal, appliances</small></div><div class="track"><span class="fill epc" style="width:36%"></span></div><div class="bval">14.4%</div></div>
+      <div class="bar-row"><div class="blab">Hawkins Cookers<small>pressure cookers</small></div><div class="track"><span class="fill gold" style="width:36%"></span></div><div class="bval">14.4%</div></div>
+      <div class="bar-row"><div class="blab">Stove Kraft<small>Pigeon, appliances</small></div><div class="track"><span class="fill gold" style="width:24.5%"></span></div><div class="bval">9.8%</div></div>
+      <div class="bar-row"><div class="blab">TTK Prestige<small>cookware, appliances</small></div><div class="track"><span class="fill gold" style="width:23.3%"></span></div><div class="bval">9.3%</div></div>
+      <div class="bar-row"><div class="blab">Butterfly<small>appliances</small></div><div class="track"><span class="fill gold" style="width:21.5%"></span></div><div class="bval">8.6%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 40%. Cello's company-defined EBITDA including ₹55 Cr of other income is 22.7%.</span></div>
+  </div>
+
+<p>One more structural fact belongs here: Cello makes 77% of its revenue in its own plants, across 14 facilities (eight at Daman, two at Haridwar, and one each at Baddi, Chennai, Kolkata and Falna in Rajasthan). At the time of its 2023 listing the in-house share was 79–83%, and the main outsourced lines were exactly steel and glass. So the Falna glass furnace and the Falna steel-bottle lines are <strong>insourcing</strong> projects as much as capacity projects: they replace a purchased product, with someone else's margin in it, by a made one, with a fixed cost attached. That trade raises the margin ceiling and lowers the margin floor, which is the theme of the two deep dives in sections 08 and 09.</p>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>A houseware company sells many different things through one set of shops. Plastic goods are cheap to make and easy to copy, so their profit comes from the brand. Glass needs a huge furnace that burns gas around the clock, so its profit comes from keeping that furnace busy. Steel bottles used to come from China, so their profit depended on import rules. One brand name spans all three, which is why one company's results can swing for three unrelated reasons in the same year.</p>
+  </div>
+</section>
+
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>Two yardsticks, one slowdown: how big the market is</h2></div>
+<p class="part-sub">The only detailed market study is a 2023 IPO-era forecast. Reality since then has run slower, and the company's own newer estimate uses a different scope.</p>
+
+<p>The standard source for the size of Indian houseware is the industry report by Technopak that sits inside Cello World's November 2023 prospectus. It defines <strong>consumerware</strong> as consumer houseware plus consumer glassware, and sizes it at ₹212 billion in FY15, ₹305 billion in FY20 and ₹348 billion (₹34,800 crore) in FY22, growing at 6.9% a year over FY20–22, with a projection of ₹565 billion (₹56,500 crore) by FY27, a 10.2% compound growth rate. Branded products were about 52% of value in FY15, 61% in FY23 and are projected at 67% by FY27.</p>
+
+<div class="chart">
+    <div class="c-title">Indian consumerware market, Technopak series</div>
+    <div class="c-sub">₹ crore (₹100 Cr = ₹1 billion). FY15–FY22 actuals and FY27 projection from the Technopak report in Cello's 2023 prospectus. FY27P is a consultant's IPO-era projection, not an outcome</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">FY15</div><div class="track"><span class="fill wtg" style="width:37.5%"></span></div><div class="bval">21,200</div></div>
+      <div class="bar-row"><div class="blab">FY20</div><div class="track"><span class="fill wtg" style="width:54%"></span></div><div class="bval">30,500</div></div>
+      <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill brand" style="width:61.6%"></span></div><div class="bval">34,800</div></div>
+      <div class="bar-row"><div class="blab">FY27P<small>projection</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">56,500</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹56,500 Cr. Houseware ₹31,800 Cr and glassware ₹3,100 Cr in FY22; ₹50,200 Cr and ₹6,300 Cr in FY27P.</span></div>
+  </div>
+
+<p>Three warnings come with that number. The first is <strong>scope</strong>. Technopak's consumer houseware (₹318 billion in FY22) is about 39% small kitchen appliances and 24% cookware, the world of TTK Prestige, Hawkins and Stove Kraft. The categories Cello actually leads in (hydration, storage, lunchboxes, insulated ware, melamine, cleaning aids and glass/opal) were roughly ₹11,000–15,000 crore in FY22 on the same data, an indicative figure we derive by adding the relevant category sizes (with or without glassware). So Technopak's own statement that Cello held 4.9% of total consumerware in FY23 (a ratio that sets all of Cello's revenue, pens and furniture included, against the whole pool) and an indicative estimate that Cello's consumerware vertical held roughly 7–9% of the categories it actually competes in can both be defended. Always ask which definition is in use.</p>
+
+<p>The second warning is that the forecast <strong>has not been met</strong>. Technopak's path implies a market of roughly ₹50,000 crore in FY26 (an illustrative interpolation). But Cello's management told analysts in August 2026 that its categories grew "upwards of 30%" in the Covid home-goods boom of 2021–23 and only "8–10%" a year over the following three years, calling it "an industry problem". A realistic FY26 market is probably ₹43,000–47,000 crore (indicative estimate, not a published figure). Technopak's other projections look stretched in the same way: it forecast writing instruments to grow about 16% a year from FY23, while Cello's own pen revenue fell from ₹334 crore to ₹309 crore between FY24 and FY25.</p>
+
+<p>The third warning is that the company's own newer estimate is a <strong>different series</strong>. Cello's FY26 annual report, citing a "Gift City / Ambit" study, sizes Indian consumerware at US$3.08 billion in FY24 and US$3.38 billion in FY25 (estimated), rising to US$5.62 billion by FY30. In rupees that is roughly ₹28,400 crore for FY25 at about ₹84 per dollar (an illustrative conversion), around 20% <em>below</em> Technopak's FY22 figure, with a branded share of 54% rather than 61%. The two series clearly measure different baskets, probably because the Ambit scope leaves out much of small appliances and cookware. They cannot be spliced into one growth line, and this report keeps them apart.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Two market-size series that must not be merged</caption>
+    <thead><tr><th>Series</th><th>Source and date</th><th>Latest actual</th><th>Projection</th><th>Branded share</th><th>Scope note</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Technopak consumerware</td><td>Industry report in Cello's IPO prospectus, Oct 2023</td><td>₹34,800 Cr (FY22)</td><td>₹56,500 Cr (FY27P), 10.2% CAGR</td><td>61% (FY23) → 67% (FY27P)</td><td>Includes small kitchen appliances (~39% of houseware) and cookware (~24%)</td></tr>
+      <tr><td class="t-strong">"Gift City / Ambit" consumerware</td><td>Cello FY26 annual report, MD&amp;A</td><td>US$3.38 bn (FY25E), about ₹28,400 Cr at ~₹84/$ (illustrative)</td><td>US$5.62 bn (FY30P), 10.7% CAGR</td><td>54% (FY24/25E) → 60% (2030)</td><td>Narrower basket; houseware US$2.88 bn and glassware US$0.50 bn in FY25E</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+<p>Inside the Technopak numbers, the fastest-growing pieces were the ones closest to Cello's core. Hydration (bottles and flasks) was a ₹5,000 crore market in FY22, projected to reach ₹9,500 crore by FY27 at 14.6% a year; storage containers ₹2,400 crore growing 11.6%; lunchboxes ₹2,000 crore growing 11.2%. Consumer glassware was the fastest of all: ₹3,100 crore in FY22, projected to double to ₹6,300 crore by FY27 at 15.5%, with glass at about 53% and opal at 39% of it. Importantly, Technopak put imports of consumer glassware at ₹1,100 crore in calendar 2021, which is about 35% of the domestic glassware market (an indicative ratio). Glass is the one houseware category where imports are a large share of supply, which is why it became the battleground described in section 08.</p>
+
+<div class="chart">
+    <div class="c-title">What "houseware" contains: Technopak category split, FY22</div>
+    <div class="c-sub">Share of the ₹31,800 Cr consumer houseware market, FY22 (Technopak, Cello prospectus). Category sizes read from charts; treat ±₹100–200 Cr as reading error</div>
+    <div class="stack-row"><div class="blab">Houseware FY22</div><div class="stack"><span style="width:39%;background:var(--gold)">Appliances 39%</span><span style="width:24%;background:var(--om)">Cookware 24%</span><span style="width:16%;background:var(--brand)">Hydration 16%</span><span style="width:8%;background:var(--wtg)">Store 8%</span><span style="width:6%;background:var(--epc)">6%</span><span style="width:7%;background:var(--ink-faint)">7%</span></div></div>
+    <div class="legend"><span><i style="background:var(--gold)"></i>Small kitchen appliances ~₹12,500 Cr</span><span><i style="background:var(--om)"></i>Cookware ~₹7,500 Cr</span><span><i style="background:var(--brand)"></i>Hydration ₹5,000 Cr</span><span><i style="background:var(--wtg)"></i>Storage ~₹2,400 Cr</span><span><i style="background:var(--epc)"></i>Lunchbox ₹2,000 Cr</span><span><i style="background:var(--ink-faint)"></i>Insulated ware, cleaning, melamine ~₹2,400 Cr</span></div>
+  </div>
+
+<div class="chart">
+    <div class="c-title">Projected growth by category, FY22–FY27P</div>
+    <div class="c-sub">Compound annual growth, %, Technopak projection (Cello prospectus, 2023). Indicative: these were IPO-era forecasts and actual growth since FY23 has been slower</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Consumer glassware</div><div class="track"><span class="fill epc" style="width:86.1%"></span></div><div class="bval">15.5%</div></div>
+      <div class="bar-row"><div class="blab">Hydration</div><div class="track"><span class="fill brand" style="width:81.1%"></span></div><div class="bval">14.6%</div></div>
+      <div class="bar-row"><div class="blab">Storage containers</div><div class="track"><span class="fill wtg" style="width:64.4%"></span></div><div class="bval">11.6%</div></div>
+      <div class="bar-row"><div class="blab">Lunchbox</div><div class="track"><span class="fill wtg" style="width:62.2%"></span></div><div class="bval">11.2%</div></div>
+      <div class="bar-row"><div class="blab">Insulated ware</div><div class="track"><span class="fill wtg" style="width:52.8%"></span></div><div class="bval">9.5%</div></div>
+      <div class="bar-row"><div class="blab">Small appliances</div><div class="track"><span class="fill gold" style="width:51.7%"></span></div><div class="bval">9.3%</div></div>
+      <div class="bar-row"><div class="blab">Cookware</div><div class="track"><span class="fill gold" style="width:34.4%"></span></div><div class="bval">6.2%</div></div>
+      <div class="bar-row"><div class="blab">Melamine</div><div class="track"><span class="fill ink" style="width:25.6%"></span></div><div class="bval">4.6%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 18%.</span></div>
+  </div>
+
+<p>Two adjacent markets matter because Cello sells into them. <strong>Writing instruments</strong> were ₹9,770 crore in FY22 and ₹13,350 crore in FY23 on Technopak's numbers, with pens about 80% and branded products 78% of value; the projection was ₹24,460 crore by FY27. <strong>Plastic moulded furniture</strong> was ₹12,200 crore in FY22 and ₹14,200 crore in FY23, projected at ₹27,000 crore by FY27. Cello's FY23 shares were small: 2.4% of branded writing instruments and 4.7% of branded moulded furniture. Treat both projections as consultant views at IPO, not as forecasts this report endorses; Cello's furniture revenue went ₹343 crore, ₹367 crore, ₹349 crore over FY24–FY26, which is no growth at all.</p>
+
+<div class="chart">
+    <div class="c-title">Writing instruments: market size, Technopak series</div>
+    <div class="c-sub">₹ crore. FY15–FY23 actuals and FY27 projection (Technopak, Cello prospectus). Projection is indicative and looks optimistic against what listed pen makers have reported since</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">FY15</div><div class="track"><span class="fill om" style="width:27%"></span></div><div class="bval">6,600</div></div>
+      <div class="bar-row"><div class="blab">FY20</div><div class="track"><span class="fill om" style="width:41.5%"></span></div><div class="bval">10,150</div></div>
+      <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill om" style="width:39.9%"></span></div><div class="bval">9,770</div></div>
+      <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill om" style="width:54.6%"></span></div><div class="bval">13,350</div></div>
+      <div class="bar-row"><div class="blab">FY27P<small>projection</small></div><div class="track"><span class="fill gold" style="width:100%"></span></div><div class="bval">24,460</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹24,460 Cr. The FY22 dip reflects school closures in the pandemic.</span></div>
+  </div>
+
+<p>Against these markets, Cello's own growth has followed the industry's deceleration closely. Revenue rose 32.2% in FY23 (helped by the reopening of schools and offices and by the Covid-era boom in home goods), 11.3% in FY24, 6.8% in FY25 and 8.8% in FY26, then 0% in Q1 FY27. Over FY22–FY26 the compound growth was 14.3%, with consumerware compounding at 16.5%, writing instruments at 21.6% (from a low pandemic base) and furniture at 2.3%. The more telling comparison is with the category leader: Hamilton Housewares (Milton) grew 9.3% in FY25 and 13% in FY26, faster than Cello in both years. The "industry problem" explains part of Cello's slowdown, but not all of it.</p>
+
+<div class="chart">
+    <div class="c-title">Cello's growth has slowed with the category, and below the leader's</div>
+    <div class="c-sub">Revenue growth year on year, %. Cello company-reported (FY25 restated for the Wim Plast merger); Milton from CRISIL rationales (FY26 provisional). Cello is the member; Milton is an unlisted reference</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Cello FY23</div><div class="track"><span class="fill brand" style="width:92%"></span></div><div class="bval">+32.2%</div></div>
+      <div class="bar-row"><div class="blab">Cello FY24</div><div class="track"><span class="fill brand" style="width:32.3%"></span></div><div class="bval">+11.3%</div></div>
+      <div class="bar-row"><div class="blab">Cello FY25</div><div class="track"><span class="fill brand" style="width:19.4%"></span></div><div class="bval">+6.8%</div></div>
+      <div class="bar-row"><div class="blab">Cello FY26</div><div class="track"><span class="fill brand" style="width:25.1%"></span></div><div class="bval">+8.8%</div></div>
+      <div class="bar-row"><div class="blab">Cello Q1 FY27</div><div class="track"><span class="fill brand" style="width:0.5%"></span></div><div class="bval">−0.4%</div></div>
+      <div class="bar-row"><div class="blab">Milton FY25<small>unlisted</small></div><div class="track"><span class="fill wtg" style="width:26.6%"></span></div><div class="bval">+9.3%</div></div>
+      <div class="bar-row"><div class="blab">Milton FY26<small>unlisted, provisional</small></div><div class="track"><span class="fill wtg" style="width:37.9%"></span></div><div class="bval">+13.3%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = +35%.</span></div>
+  </div>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>Nobody has measured this market properly since 2023. The best study says it was worth about ₹35,000 crore in 2022 and would reach ₹56,500 crore by 2027, but growth since then has been nearer 8–10% a year than the 10%+ the study assumed, and the study counts kettles and pressure cookers that Cello hardly sells. The company's own newer estimate is smaller still because it counts a narrower basket. When someone quotes a market share, ask which basket they mean.</p>
+  </div>
+</section>
+
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>Who buys, and when: households, school bags, weddings and a gas shortage</h2></div>
+<p class="part-sub">Demand is steady but seasonal, mildly cyclical, and in 2026 it was bent by an energy shock that helped the electric half of the kitchen.</p>
+
+<p>Houseware demand rests on a few slow-moving fundamentals. Technopak's list is the standard one: <strong>household formation and nuclearisation</strong> (each new household buys a starter kit of bottles, storage, a casserole and a dinner set), more working women, urbanisation at about 35% and a median age of 28.7 years. On top of that sits <strong>replacement</strong>: plastic ware is typically replaced every two to three years, and the replacement is increasingly an upgrade, from plain plastic to steel, from steel to glass, from basic to insulated, driven partly by health worries about plastics. Cello's management describes steelware as a category that "will contribute very well" because imports have been curbed and consumers are moving towards it.</p>
+
+<p>Several demand pools behave differently and should be read separately:</p>
+<ul class="clean">
+<li><strong>School and office.</strong> Bottles, lunchboxes and pens sell hardest in the back-to-school months. For pens, management says January–June is the strongest half; Q4 and Q1 are the peak quarters.</li>
+<li><strong>Festive and wedding gifting.</strong> Opal dinner sets, glass sets, casseroles and flasks are classic gifts. Opalware "really picks up from the second and third quarter", and Q1 is the slowest. Corporate and institutional gifting adds lumpy volume in the same season.</li>
+<li><strong>Institutional and government orders.</strong> Tenders for furniture, bottles and kits for schools and hostels arrive in bulk and pay slowly. Cello attributes part of its stretched receivables to "a couple of institutional government orders".</li>
+<li><strong>Exports.</strong> Mostly pens. Cello's statutory geographic note shows ₹158.7 crore of revenue from outside India in FY26, 6.9% of the total, down 10.4% from FY25.</li>
+<li><strong>Discretionary mood.</strong> Houseware is a small-ticket purchase, but gifting and upgrades are postponable. In FY26's second half and Q1 FY27, management said discretionary spending "was impacted by inflationary pressures and the prevailing macroeconomic uncertainties".</li>
+</ul>
+
+<p>The seasonality shows clearly in Cello's quarterly revenue. The September and March quarters are strong (festive opal and gifting in the first; pens and the year-end push in the second), the June quarter is usually the weakest for consumerware, and the December quarter is uneven because the festive season shifts between October and November. In FY26 the September quarter grew 19.8% on "strong festive momentum", while the December quarter shrank 0.5% as steel bottles ran out of stock and demand softened.</p>
+
+<div class="chart">
+    <div class="c-title">Cello's quarterly revenue: festive peaks, a June trough</div>
+    <div class="c-sub">Revenue, ₹ crore, Q2 FY25 (Sep-24) to Q1 FY27 (Jun-26), with YoY growth. Company and screener.in figures (Q4 FY25 onward restated for the Wim Plast merger). Q2 FY27 (Sep-26) not yet reported</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Q2 FY25<small>Sep-24 · +0.2%</small></div><div class="track"><span class="fill wtg" style="width:74.9%"></span></div><div class="bval">490</div></div>
+      <div class="bar-row"><div class="blab">Q3 FY25<small>Dec-24 · +5.7%</small></div><div class="track"><span class="fill wtg" style="width:85.2%"></span></div><div class="bval">557</div></div>
+      <div class="bar-row"><div class="blab">Q4 FY25<small>Mar-25 · +15.0%</small></div><div class="track"><span class="fill wtg" style="width:90.1%"></span></div><div class="bval">589</div></div>
+      <div class="bar-row"><div class="blab">Q1 FY26<small>Jun-25 · +5.6%</small></div><div class="track"><span class="fill brand" style="width:80.9%"></span></div><div class="bval">529</div></div>
+      <div class="bar-row"><div class="blab">Q2 FY26<small>Sep-25 · +19.8%</small></div><div class="track"><span class="fill brand" style="width:89.8%"></span></div><div class="bval">587</div></div>
+      <div class="bar-row"><div class="blab">Q3 FY26<small>Dec-25 · −0.5%</small></div><div class="track"><span class="fill brand" style="width:84.7%"></span></div><div class="bval">554</div></div>
+      <div class="bar-row"><div class="blab">Q4 FY26<small>Mar-26 · +11.0%</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">654</div></div>
+      <div class="bar-row"><div class="blab">Q1 FY27<small>Jun-26 · −0.4%</small></div><div class="track"><span class="fill gold" style="width:80.6%"></span></div><div class="bval">527</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹654 Cr. Q2 FY27 is the festive quarter that management expects to show "better momentum".</span></div>
+  </div>
+
+<p>The defining demand event of 2026 was an <strong>energy-substitution shock</strong>. When the West Asia war disrupted LPG supplies from March 2026, households that could not get gas cylinders bought induction cooktops, electric kettles and rice cookers. Cello saw "a sharp increase in demand for electric kitchenware products driven by the LPG gas supply chain" and a "complete liquidation of inventory" of those lines in March. For Cello, a minor appliance seller, this was a small one-off. For the listed cookware and appliance makers it was large: in Q1 FY27 TTK Prestige's revenue rose 34%, Hawkins 33% and Stove Kraft 41%. We treat the LPG link as a plausible driver for those peers rather than a proven one, because they did not all attribute it in those terms, but the timing fits.</p>
+
+<p>The result was a split industry. Aggregating the screener figures, the four cookware and appliance reference peers grew revenue 32.9% and operating profit 56.5% in Q1 FY27, while the three non-electric consumerware and tableware companies (Cello, La Opala and Borosil) grew revenue 3.0% and saw operating profit fall 6.5%. The detail is in section 14; the point for demand analysis is that "home goods" is not one cycle. In 2026, electric and non-electric kitchenware moved in opposite directions for a reason that had nothing to do with brands.</p>
+
+<div class="chart">
+    <div class="c-title">Two cycles in one kitchen: Q1 FY27 growth by reference group</div>
+    <div class="c-sub">Year-on-year change, Q1 FY27 vs Q1 FY26, %. Reference-peer constructs, sums of screener.in quarterly figures: non-electric consumerware = Cello + La Opala + Borosil; cookware &amp; appliances = TTK + Hawkins + Stove Kraft + Butterfly. Ratios of sums</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Cookware &amp; appliances<small>revenue</small></div><div class="track"><span class="fill gold" style="width:52.6%"></span></div><div class="bval">+32.9%</div></div>
+      <div class="bar-row"><div class="blab">Cookware &amp; appliances<small>operating profit</small></div><div class="track"><span class="fill gold" style="width:90.4%"></span></div><div class="bval">+56.5%</div></div>
+      <div class="bar-row"><div class="blab">Non-electric consumerware<small>revenue</small></div><div class="track"><span class="fill brand" style="width:4.8%"></span></div><div class="bval">+3.0%</div></div>
+      <div class="bar-row"><div class="blab">Non-electric consumerware<small>operating profit</small></div><div class="track"><span class="fill bad" style="width:10.4%"></span></div><div class="bval">−6.5%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = +62.5%; the red bar is a decline, drawn to its absolute size.</span></div>
+  </div>
+
+<p>Channel shift is the other demand-side change, and it is large enough to get its own deep dive (section 11). In brief: Technopak put e-commerce at 9% of consumerware sales in FY22, projected to 12% by FY27, with general trade falling from 96.5% in FY15 to 85% in FY22 and 79% by FY27. Cello is already ahead of that path: online was 10.4% of its revenue in Q1 FY26 and 16.3% in Q1 FY27, and quick commerce has "done also extremely well in the last one-odd year". Online buyers skew to bottles, lunchboxes and storage sets, which photograph well and ship small, rather than to dinner sets and chairs.</p>
+
+<div class="chart">
+    <div class="c-title">How Indian consumerware reaches shoppers: industry channel mix</div>
+    <div class="c-sub">Share of consumerware sales by channel, %, FY15, FY22 and FY27P (Technopak, Cello prospectus). FY27P is a projection</div>
+    <div class="stack-row"><div class="blab">FY15</div><div class="stack"><span style="width:96.5%;background:var(--brand)">General trade 96.5%</span><span style="width:1.5%;background:var(--epc)"></span><span style="width:2%;background:var(--gold)"></span></div></div>
+    <div class="stack-row"><div class="blab">FY22</div><div class="stack"><span style="width:85%;background:var(--brand)">General trade 85%</span><span style="width:6%;background:var(--epc)">6%</span><span style="width:9%;background:var(--gold)">9%</span></div></div>
+    <div class="stack-row"><div class="blab">FY27P</div><div class="stack"><span style="width:79%;background:var(--brand)">General trade 79%</span><span style="width:9%;background:var(--epc)">9%</span><span style="width:12%;background:var(--gold)">12%</span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>General trade (kirana, utensil and gift shops)</span><span><i style="background:var(--epc)"></i>Modern trade (chains, hypermarkets)</span><span><i style="background:var(--gold)"></i>E-commerce</span></div>
+  </div>
+
+<div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>People buy houseware when they set up a home, when children go back to school, when someone gets married and when the old plastic box cracks. Those reasons do not disappear in a slowdown, but the nicer gift set can wait. In early 2026 a gas-cylinder shortage made families rush out for induction stoves and electric kettles, which helped appliance makers a lot and plastic-and-glass makers hardly at all. The same shoppers are also moving to apps that deliver in ten minutes.</p>
+  </div>
+</section>
+
+<!--CONTINUE-->
+
+</main>
+</div>
+</div>
+</body>
+</html>
