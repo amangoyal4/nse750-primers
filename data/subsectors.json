@@ -1277,6 +1277,23 @@
         "Three business models"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "TV Broadcasting",
+      "slug": "tv-broadcasting",
+      "file": "tv-broadcasting.html",
+      "sector": "Media & Entertainment",
+      "subsector": "TV Broadcasting & Software Production",
+      "companies": 3,
+      "accent": "#6F1A93",
+      "hook": "A shrinking screen and one giant: why Indian TV lost a tenth of its revenue in 2025 as pay homes fell and ad money moved to digital, how JioStar's scale resets pricing power, and what Sun's regional moat, Zee's post-Sony crisis and Network18's JioStar sliver are really worth.",
+      "tags": [
+        "JioStar",
+        "Cord-cutting",
+        "Zee after Sony",
+        "Regional TV"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1944,7 +1961,7 @@
       "sector": "Media & Entertainment",
       "sub": "TV Broadcasting & Software Production",
       "companies": 3,
-      "report": null
+      "report": "tv-broadcasting.html"
     },
     {
       "sector": "Media & Entertainment",
