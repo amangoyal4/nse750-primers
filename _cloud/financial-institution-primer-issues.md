@@ -20,3 +20,20 @@
 - **ifci.html — legacy-stake claims unverified:** the group table lists "NSE (via SHCIL), ICRA, LIC Housing Finance, TFCI" as legacy holdings. Only the NSE stake (via SHCIL) is confirmed; say "incubated" rather than "held" for ICRA/LICHF/TFCI unless current holdings are verified.
 - **ifci.html — e-stamping footprint ("24 states and union territories", "~half a million transactions a day")** — not re-verified this session; cite StockHolding's site or drop the numbers.
 
+
+## From Development Financial Institutions deep-research pass (2026-10-23, financial-institution-industry.md §4.5)
+
+- **ifci.html — NSE look-through numbers:** use the primary count: SHCIL held **11,00,00,000 NSE shares (4.44%)**, sold **≤61,87,500** in the Sep-2026 OFS and now holds **10,38,12,500 (4.19%)**. The look-through for IFCI at ₹1,670 is **~₹9,750 Cr pre-tax (incl. ₹1,104 Cr OFS cash × 52.86%)**, not "₹10,000 Cr+" and not "~110 m shares at 4.44%". Source: NSE abridged prospectus (SEBI).
+- **ifci.html — liquidity/debt box:** add the maturity ladder from the FY26 AR: FY27 ₹768 Cr (₹469 Cr repaid 1-Aug-2026), FY28 ₹132 Cr, FY29 ₹495 Cr, FY30 nil, **FY31 ₹1,500 Cr**. Weighted coupon ~9.9%. No bank borrowings.
+- **ifci.html — e-stamping footprint:** "24 states and union territories" → **25 States/UTs** (SHCIL AR FY25). "~half a million transactions a day" is consistent with **18.09 crore certificates in FY25** (≈4.96 lakh/day); cite it.
+- **ifci.html — SHCIL ownership:** if the primer describes the SHCIL minority, it is **state-owned insurers and SU-UTI** (govt companies 84.78% incl. IFCI; insurers 14.96%; public 0.26%), not banks.
+- **ifci.html — PCR wording:** if PCR is quoted, state the basis. AR 73.16% is Stage-3 ECL ÷ gross Stage 3; RBI-basis NPA provisions ÷ GNPA is ~84%.
+- **ifci.html — governance:** NSE and BSE fined IFCI ₹77.5 lakh in FY26 for board composition (shortfall of independent directors); the IDs' meeting could not be held. Auditors could not review PLI and SDF files (ministry instruction). Worth a line in the risks section.
+- **ifci.html — NaBFID comparison:** NaBFID's FY26 NIM was 3.72% and ROE 11.5%, but **Q1 FY27 NIM fell to 2.75% and ROA to 2.21%**. Avoid implying NaBFID's current returns are permanent.
+- **ifci.html — IDBI read-across (if added):** Fairfax bid **₹81/share** vs ₹75.99 fair value; GoI keeps 15% and LIC 19% (PIB, 14-Oct-2026).
+
+### Other primers (flagged, not edited)
+- *IREDA primer (if any):* the ₹672.74 Cr fraud is **Gensol Engineering ₹453.77 Cr + Gensol EV Lease ₹218.97 Cr**, reported to RBI on 10-Jul-2026 and 85% provided at Mar-26. It was not "three cases disclosed 19-Oct".
+- *HUDCO primer:* FY26 PAT +48.9% is a tax effect. **PBT fell 11%**, and Q4 FY26 carried a ~₹1,360 Cr tax credit. Latest loan book ₹1,73,123 Cr (Jun-26), GNPA 0.96%, CoB 6.95%.
+- *PFC/REC primers:* swap ratio **88 PFC : 100 REC**; merged entity targeted from 1-Apr-2027; PFC consolidated loan book ~₹11.64 lakh Cr; PFC standalone GNPA (credit-impaired) 1.09%, not 0.66%.
+
