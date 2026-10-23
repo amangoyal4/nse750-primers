@@ -979,3 +979,529 @@ All sums below are straight sums of the screener consolidated rows above on one 
 - **GSPC restructuring [V-snip]:** https://insights.dsij.in/dsijarticledetail/gspc-group-restructuring-effective-from-may-1-2026-ggl-merger-gtl-demerger-share-swap-ratios-announced-id003-56862 · https://filingreader.com/news-wire/mumbai/2026-07-08/gspl-transmission-allots-312m-shares-to-gujarat-energy · https://themachinemaker.com/news/gspc-group-restructuring-comes-into-effect/
 - **Unified tariff press [V-snip]:** https://indianinfrastructure.com/2025/12/16/pngrb-rationalises-unified-tariff-structure-for-natural-gas-transportation/
 - **Global [V-snip]:** https://www.offshore-technology.com/news/kinder-morgan-surge-q4-2025-net-income/ · Cheniere Q3-2025 release (worldports.org summary)
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-23)
+
+Second, primary-source pass by the deep-research agent (same day as Parts 1–3). **Reading order note:** because Part 4 was appended in chunks while research was still running, the company material (4.2) comes first and the corrections (4.0 Supersedes) and the 40-figure verification table (4.1) come later in this Part, after 4.3. Numbering follows the brief; physical order is 4.2 → 4.3 → 4.0 → 4.1 → 4.4 → 4.5. **Where Part 4 and Parts 1–3 disagree, Part 4 wins** (see 4.0).
+
+**Primary documents fetched and read in this pass ([V] below = read this session from these):**
+- GAIL Q1 FY27 earnings-call transcript (31-Jul-2026), gailebank.gail.co.in/InvestorsZone/GAIL_EARNINGS_CALL_Q1_FY27.pdf — read in full (13 pp).
+- GAIL Annual Report FY2025-26 (BSE AttachHis 474d7528…; 426 pp) — MD&A, BRSR investee list, Ind AS 112 note 47 (ownership), note 29 (contingent liabilities & commitments), segment note (FY26 and FY25), AGM related-party resolutions.
+- GAIL standalone results filings (via screener "source" links to the BSE PDFs): **Q4 FY22 (FY22 + FY21 annual columns), Q4 FY23 (FY23), Q4 FY25 (FY25 + FY24 annual, Q4 FY25, Q3 FY25, Q4 FY24), Q1 FY26 (Q1 FY26, Q4 FY25, Q1 FY25), Q2 FY26 (emphasis-of-matter notes; segment table is a poor scan), Q3 FY26 (Q3 FY26, Q2 FY26, Q3 FY25, 9M FY26, 9M FY25)**, and Q1 FY27 (already used in Parts 1–3).
+- GAIL FY26 Investors' & Analysts' Meet PPT (22-May-2026) — **slides 18 and 19 rendered to PNG and read visually** (transmission-mix and marketing-mix pies, which the text layer scrambles).
+- GAIL Reg. 30 disclosure of 28-Nov-2025 on the PNGRB INGPL tariff order (NSE archive PDF).
+- Others as cited in 4.3 (PPAC, PIB, PNGRB, World Bank, company releases).
+
+## 4.2 GAIL (India) Ltd — member deep-dive
+
+### 4.2.1 Management-commentary digest — Q1 FY27 call (31-Jul-2026; Director (Finance) S. K. Sinha, ED Marketing Sumit Kishore, IR head Anjana Sanjeeva; host Ambit) [V transcript]
+
+**Guidance (paraphrased):**
+| Item | FY27 guidance / statement | Comment |
+|---|---|---|
+| Gas marketing | **~₹4,500 Cr PBT for FY27, maintained**; "will review and revise, if required, after subsequent quarters" | Q1 alone was **₹3,353 Cr at PBT level** (segment PBIT ₹3,481 Cr). Implies only ~₹1,150 Cr for Q2–Q4 if unchanged — i.e., management is signalling a sharp fall or deliberately conservative |
+| NG transmission volume | **~123 MMSCMD for FY27** (cut from ~133–134 earlier), "with the assumption that the geopolitical situation continues" | Q1 122.36; FY26 122.18; Q1 rise of ~4 MMSCMD came from **third-party shippers' volume** |
+| Petrochemicals | **Breakeven in FY27**; Pata at 100% load now (50% load from mid-May) | Q1 segment loss: call says "₹130 Cr"; filing −₹122.53 Cr (basis difference) |
+| LHC | Production "likely to remain in this range" (~232 TMT/qtr) on ~1.9 MMSCMD gas; **profitability to decline in Q2** as LPG prices softened | Gas: 1.12 MMSCMD APM (~$7) + ~0.78 NWG (~$12–13). Earlier allocation 1.32 MMSCMD; +0.597 NWG added |
+| Capex | **~₹11,500 Cr FY27, "on track"**; Q1 ₹6,176 Cr | |
+| Depreciation | **~₹3,200–3,300 Cr a year** after life extension (pipelines 40 yrs; petchem 35 yrs) **+ ~₹312 Cr** when PDH-PP (₹11,256 Cr, ~4% dep. rate) is commissioned | |
+| Finance cost | Q1 ₹310 Cr → **~₹1,200–1,300 Cr a year**; **+~₹440 Cr a year** once PDH-PP interest stops being capitalised (₹6,000 Cr loan × ~7%) | |
+| PDH-PP Usar (500 KTA) | Schedule June-2027, **"another 6 to 7 months… may be completed by December '27"** | No profit built in for FY28 for GMPL/PDH-PP |
+| GMPL PTA (1,250 KTA) | "Advanced stage of commissioning… should start production shortly" | |
+| LNG sourcing | Portfolio **16.5 MTPA**; plan **+7–8 MTPA by 2030, ~2.5 MTPA signed** (later in the call "up to 7 MMTPA") | FY26 PPT said "+4–5 MTPA by 2030" — the target has been raised or restated; quote both |
+| Dabhol (Konkan LNG) | Ambient-air heating system complete by **June-2027**; all new deals carry "West India optionality" | Konkan 100% GAIL from 6-Jul-2026 |
+| Unbundling | **PNGRB has withdrawn clause 5A** (2014 clause requiring separation of transmission and marketing from 1-Apr-2027); GAIL's court case still pending; TSO will only monitor 25% open-access capacity | Management statement, not a fetched PNGRB notification (see 4.4) |
+| Jharsuguda (MNJPL tail) | ~0.5 MMSCMD today; two GAIL fertiliser plants on the MNJPL corridor would be "a big boost" in 3–4 years | |
+| Policy tailwinds | Strategic gas storage being studied "very seriously"; coal-gasification incentives; better CBG schemes "likely"; strong MoPNG push for PNG-D and I&C LPG→gas switch | |
+
+**The 8 most important analyst Q&A points [V transcript]:**
+1. **Why Q1 marketing was so high (Probal Sen, ICICI Sec):** the **2.4 MTPA JCC-linked contract prices on a 9-month crude-cocktail average with a 2-month lag, while downstream sales are on 3-month dated Brent**; the Brent spike in Mar–Jun 2026 lifted sales prices far above sourcing cost. "This is one-off definitely. Much of it will get cured within the year." Plus HH-linked US gas sold into Brent-linked contracts.
+2. **Henry Hub book (Amit Murarka, Axis):** ~21 MMSCMD (5.8 MTPA) on HH: **"around half or slightly less than half" back-to-back on HH; ~20% consumed at Pata; ~25–30% sold on Brent (cross-index)**, hedged "time to time". With Pata back at 100% load, **less HH gas is available for arbitrage** in Q2 (IR head).
+3. **Q2 direction (Sumeet Rohra; Vikas Jain, CLSA):** management agreed that **marketing, petchem and LHC profitability will all decline from Q1 levels**; "if Brent goes down significantly, we may lose on that number because the 3-month Brent will start reflecting a lower number than our sourcing" — i.e., the JCC lag can become a **loss** when crude falls.
+4. **Spot cargoes:** 7 cargoes from other contracts were affected (besides Qatar via Petronet FM); GAIL bought **8 spot cargoes** in Q1 — "closed at market price" and earned "reasonable margins", helped by strong power-sector peak demand in a deficient monsoon.
+5. **Market share (Mayank Maheshwari, Morgan Stanley):** GAIL's marketing volume has lagged its transmission volume "over the years" because CGDs source on their own; management expects the LPG→gas shift (I&C customers) to narrow the gap.
+6. **System-use gas (360 ONE):** pipeline SUG currently comes from **HPHT gas bought earlier by bidding**; PNGRB now requires **≥3-year long-term sourcing for SUG** — GAIL is "examining" it. (SUG was the main driver of the Nov-2025 tariff increase — see 4.2.4.)
+7. **NFCL provision (Nomura):** the Q4 FY26 ~₹675 Cr doubtful-dues provision was **not reversed** in Q1 FY27.
+8. **Fertiliser plants (Emkay):** a new urea investment policy was published by the Ministry of Fertilizers the day before the call; GAIL's two plants (Maharashtra, Chhattisgarh) are "under active evaluation"; DFR/FID to be announced later. (The "12–16% IRR" was the analyst's wording.)
+
+**Numbers in the call that are not in the PPT:** Q4 FY26 consolidated EBITDA ₹2,703 Cr, PBT ₹1,966 Cr, PAT ₹1,485 Cr; standalone Q4 FY26 PBT ₹1,577 Cr; Q1 crude average "~$96–97"; polymer realisation ₹1,46,000/t (Q1) vs ₹98,000/t (Q4); LPG ₹90,796/t vs ~₹54,000/t; Pata landed gas $10.54/mmBtu; petchem breakeven at $13–14 gas and ₹1.30 lakh/t; GAIL Gas Q1 turnover ₹3,326 Cr, PBT ₹162 Cr, PAT ₹120 Cr; GAIL's own 6 GAs added 20,069 DPNG and 3 CNG stations in Q1; GAIL Gas added 16,610 DPNG.
+
+**Q2 FY27 event:** board and call on **30-Oct-2026** (call 4:30 pm) [V screener, Part 1]. Not reported as of 23-Oct-2026.
+
+### 4.2.2 Concall / presentation KPI table (standalone unless stated) [V]
+| KPI | Q4 FY26 | Q1 FY27 | FY26 | Source |
+|---|---|---|---|---|
+| NG transmission (MMSCMD) | 118.99 | 122.36 | 122.18 | call / PPT |
+| NG marketing (MMSCMD) | 101.88 | 93.82 (8.76 overseas) | 104.21 (113.41 incl. subsidiaries) | call / AR |
+| LPG transmission (TMT) | 1,114 | 1,077 | 4,600 | call / AR |
+| LHC production (TMT) | 194 | 232 | 813 (sales 815) | call / AR |
+| Polymer production (TMT) | n.a. | 51 | 768 prod. / 785 sales | call / AR |
+| Marketing PBT (mgmt) | n.a. | ₹3,353 Cr | — | call |
+| Marketing segment PBIT | −₹151.32 Cr | ₹3,481.29 Cr | ₹3,077.58 Cr | filings |
+| LHC "PBT" | ₹144 Cr | ₹772 Cr | ₹489 Cr | call |
+| Petchem loss | ₹378 Cr | ₹130 Cr (call) / ₹122.53 Cr (filing) | ₹1,408 Cr | call / filing |
+| SA PBT / PAT | ₹1,577 / 1,262 Cr | ₹5,773 / 4,292 Cr | ₹8,964 / 6,968 Cr | call / AR |
+| Cons EBITDA / PAT (owners) | ₹2,703 / 1,485 Cr | ₹7,573 / 4,665 Cr | ₹14,524 / 7,582 Cr | call / PPT |
+| Capex | — | ₹6,176 Cr | ₹9,594 Cr | call / PPT |
+| GAIL Gas turnover / PAT | ₹3,227 / 117 Cr | ₹3,326 / 120 Cr | ₹12,681 Cr turnover | call / AR |
+| FY26 average ₹/$ (AR) | | | **₹90.15** (closing rate also given) | AR p.~54 |
+
+### 4.2.3 GAIL 5-year history (FY22–FY26) — standalone segment PBIT now complete [V results filings; AR segment note]
+
+**(a) Standalone segment results — profit before interest and tax (₹ Cr)**
+| Segment | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|
+| NG transmission | 3,677.93 | 3,805.75 | 1,919.69 | 4,523.74 | 5,488.35 | 6,229.11 |
+| LPG transmission | 351.38 | 335.04 | 368.69 | 317.06 | 421.44 | 455.54 |
+| NG marketing | **−702.25** | 4,932.17 | 3,078.75 | 6,067.30 | **7,446.28** (incl. ₹2,440 SMTS one-off) | 3,077.58 |
+| Petrochemicals | 1,064.86 | 1,245.26 | **−1,060.85** | −136.64 | −37.31 | **−1,408.22** |
+| LPG & liquid hydrocarbons | 1,303.45 | 2,899.70 | 1,228.43 | 769.53 | 1,149.22 | 489.32 |
+| Other (CGD own GAs, E&P, CBG, power) | 372.00 | 356.96 | 506.85 | 357.29 | 515.53 | 517.91 |
+| **Total segment PBIT** | **6,067.37** | **13,574.88** | **6,041.56** [E sum of V rows] | **11,898.28** | **14,983.51** | **9,361.24** |
+| Unallocable (net) | — | — | — | — | −1,464.77 (AR basis) | −1,527.12 (AR basis) |
+
+Sources: FY21–FY22 from the Q4 FY22 results PDF; FY23 from the Q4 FY23 PDF; FY24–FY25 from the Q4 FY25 PDF; FY25–FY26 also in AR FY26 segment note (identical). Note the filings' "other un-allocable expenditure net of unallocable income" line (e.g., +₹585.22 Cr FY25) is presented differently from the AR's "unallocated expenses (net)" (−₹1,464.77 Cr FY25) because the AR moves interest/dividend income below the line — don't mix them.
+
+**(b) Segment revenue (₹ Cr, incl. inter-segment)**
+| Segment | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| NG transmission | 6,392.48 | 6,661.07 | **10,308.03** | 11,068.43 | 11,205.94 |
+| LPG transmission | 668.59 | 721.62 | 731.87 | 834.92 | 916.18 |
+| NG marketing | 77,325.95 | 1,35,290.35 | 1,14,589.95 | 1,20,411.66 | 1,24,244.41 |
+| Petrochemicals | 8,548.52 | 4,917.26 | 7,753.41 | 8,088.17 | 7,574.42 |
+| LHC | 4,865.16 | 5,569.97 | 5,075.83 | 5,180.17 | 4,293.33 |
+| Sales/income from operations | 91,645.72 | 1,44,301.61 | 1,30,638.11 | 1,37,287.56 | 1,38,696.52 |
+
+**(c) Derived unit economics [E from V inputs; 1 MMSCMD-year = 13.87 million mmBtu at 0.038 mmBtu/scm]**
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Transmission volume (MMSCMD) | 111 | 107 | 120 | 127.32 | 122.18 |
+| Transmission revenue ₹/mmBtu | 41.5 | 44.9 | 61.9 | 62.7 | 66.1 |
+| Transmission PBIT ₹/mmBtu | 24.7 | **12.9** | 27.2 | 31.1 | 36.8 |
+| Transmission PBIT margin | 59.5% | **28.8%** | 43.9% | 49.6% | 55.6% |
+| Marketing volume (MMSCMD) | 96 | 95 | 98 | 101.49 | 104.21 |
+| Marketing PBIT ₹/mmBtu | 37.0 | 23.4 | 44.6 | 52.9 (35.6 ex-SMTS) | 21.3 |
+| Petchem PBIT ₹/t sold | +15,760 | −26,590 | −1,740 | −440 | −17,940 |
+| LHC PBIT ₹/t sold | 28,880 | 12,310 | 8,280 | 12,080 | 6,000 |
+
+- **Read-across:** (i) the **FY23 transmission collapse** (PBIT margin 29%) was the year of ruinous system-use-gas/fuel cost (SUG priced off LNG at ~$19–24) under a tariff still at the pre-2023 level [E reasoning; consistent with PNGRB's Nov-2025 order being driven by SUG]; (ii) **the 22-Mar-2023 PNGRB order (₹58.61 from 1-Apr-2023) lifted NG-transmission revenue 55% in FY24** (₹6,661 → ₹10,308 Cr) — the biggest single profit step in GAIL's recent history, and the template for what the 2028 review could do; (iii) marketing has **ranged ₹3,078–7,446 Cr** in five years (−₹702 Cr in FY21) — the ₹4,500 Cr "normal" is the mid-point of a very wide band.
+
+**(d) Consolidated P&L (screener; ₹ Cr) — FY22–FY26 [V; from Part 1 E11, re-confirmed]:** sales 92,770 / 1,45,668 / 1,33,228 / 1,41,902 / 1,41,598; OP 15,161 / 7,500 / 14,314 / 15,412 / 11,502; OPM 16% / 5% / 11% / 11% / 8%; PAT 12,304 / 5,596 / 9,903 / 12,463 / 7,582; EPS ₹18.40 / 8.54 / 15.06 / 18.93 / 11.53. Company-basis consolidated EBITDA 18,086 / 10,323 / 16,986 / 20,643 / 14,524 [V PPT]. Screener cons ROCE FY26 9.67%; company SA ROCE 10.04% FY26 vs 16.91% FY25 [V].
+
+### 4.2.4 GAIL 8-quarter trend (Q2 FY25 → Q1 FY27) — standalone segment PBIT (₹ Cr) [V filings unless marked]
+| Segment | Q2 FY25 [E derived] | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| NG transmission | 1,402.81 | 1,370.29 | 1,268.38 | 1,557.56 | 1,413.88 | 1,376.09 | 1,881.58 | 1,782.65 |
+| LPG transmission | 85.51 | 139.97 | 115.21 | 120.27 | 128.77 | 130.37 | 76.13 | 122.87 |
+| NG marketing | 1,328.83 | **2,880.98** (incl. SMTS ₹2,440) | 1,203.67 | 1,071.60 | 1,304.12 | 853.18 | **−151.32** (NFCL −675; entry-tax +291) | **3,481.29** |
+| Petrochemicals | 157.49 | 4.68 | −158.01 | −248.63 | −299.24 | −482.64 | −377.71 | −122.53 |
+| LHC | 248.94 | 378.46 | 291.97 | 205.01 | 111.79 | 28.63 | 143.89 | 772.50 |
+| Other | 145.95 | 86.36 | 115.76 | 191.23 | 146.71 | 88.65 | 91.31 | 200.52 |
+| **Total** | **3,369.53** | **4,860.74** | **2,836.98** | **2,897.04** | **2,806.03** | **1,994.28** | **1,663.88** | **6,237.30** |
+Q1 FY25 for reference: 1,446.87 / 80.75 / 2,032.80 / −41.47 / 229.85 / 167.46 = 3,916.26 [V Q1 FY26 filing]. Q2 FY25 = 9M FY25 (Q3 FY26 filing) − Q1 FY25 − Q3 FY25 [E]. **This replaces Part 1's E14 "Q2+Q3 derived" — the individual Q2 and Q3 FY26 values are now fetched and sum exactly to the derived figures (marketing 1,304.12 + 853.18 = 2,157.30 ✓).** Q4 FY26 NG transmission includes the +₹475 Cr depreciation write-back from the 30→40-year life change and +₹87 Cr write-back, −₹111 Cr provision [V FY26 PPT].
+
+**Consolidated quarterly (screener; ₹ Cr) [V]**
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 33,889 | 36,835 | 36,440 | 35,311 | 35,537 | 35,173 | 35,577 | 41,198 |
+| Operating profit | 3,937 | 3,169 | 3,526 | 3,669 | 3,460 | 2,927 | 1,453 | 7,098 |
+| OPM [E] | 11.6% | 8.6% | 9.7% | 10.4% | 9.7% | 8.3% | 4.1% | 17.2% |
+| PAT | 2,690 | 4,084 | 2,506 | 2,382 | 1,989 | 1,729 | 1,481 | 4,671 |
+- **Pattern:** marketing PBIT fell for five straight quarters from the SMTS-boosted Q3 FY25 to a loss in Q4 FY26, while petchem losses deepened every quarter of FY26 (−249 → −299 → −483 → −378). Transmission was the only line that rose (₹1,268 Cr Q4 FY25 → ₹1,783 Cr Q1 FY27, helped by the Jan-2026 tariff and lower depreciation). Q1 FY27 is an outlier on marketing and LHC, not a new run-rate (management's own words).
+
+### 4.2.5 Annual-report findings (AR FY2025-26) [V]
+**Ownership of investees (note 47, Ind AS 112, as on 31-Mar-2026; BRSR list identical):**
+| Investee | Relation | GAIL % (31-3-26) | (31-3-25) |
+|---|---|---|---|
+| GAIL Gas | Subsidiary | 100.00 | 100.00 |
+| GAIL Global (USA) Inc.; GAIL Global (Singapore); GAIL Mangalore Petrochemicals; GAIL Global IFSC (new) | Subsidiaries | 100.00 each | (IFSC 0) |
+| **Konkan LNG** | Subsidiary | **93.50** (→ **100% from 6-Jul-2026** after NCLT capital reduction) | 93.50 |
+| Bengal Gas | Subsidiary | 88.13 | 88.13 |
+| Tripura Natural Gas | Subsidiary | 48.98 | 48.98 |
+| **Brahmaputra Cracker & Polymer (BCPL)** | **Associate (sic) at 70.00%** | 70.00 | 70.00 |
+| **Petronet LNG** | Associate | **12.50** | 12.50 |
+| **Indraprastha Gas** | Associate | **22.50** | 22.50 |
+| **Mahanagar Gas** | Associate | **32.50** | 32.50 |
+| **ONGC Petro-additions (OPaL)** | Associate | **4.19** | 4.19 |
+| Ramagundam Fertilizers & Chemicals | Associate | 14.30 | 14.30 |
+| China Gas Holdings | Associate | 2.75 | 2.76 |
+| Fayum Gas (Egypt) | Associate | 19.00 | 19.00 |
+| ONGC Tripura Power | Associate | 26.00 | 26.00 |
+| LNG Japonica Shipping | Associate | 26.00 | 26.00 |
+| Coal Gas India | Associate | 49.00 | 49.00 |
+| LLC Bharat Energy Office (Russia) | Associate | 20.00 | 20.00 |
+| Leafiniti Bioenergy (CBG; acquired 18-3-2026) | Associate | 49.00 | 0 |
+| **Indradhanush Gas Grid (IGGL)** | JV | **20.00** | 20.00 |
+| Talcher Fertilizers | JV | **39.87** | 33.33 |
+| Maharashtra Natural Gas (MNGL) | JV | 22.50 | 22.50 |
+| Central UP Gas | JV | 25.00 | 25.00 |
+| Green Gas; Aavantika Gas | JV | 49.99 each | 49.99 |
+| Bhagyanagar Gas | JV | 47.72 | 47.51 |
+| Vadodara Gas | JV | 50.00 (incl. 17.07% via GAIL Gas) | 50.00 |
+| TAPI Pipeline Co. | JV | 5.00 | 5.00 |
+- **Correction:** OPaL is **4.19%**, not "~49%" (Part 1 §5.4 [K]); GAIL's OPaL exposure is mainly through earlier share-warrant/CCD instruments and supply contracts rather than equity [E — the AR lists the equity %, the other instruments were not traced]. BCPL is 70% but classified as an associate in the AR's list (likely because of joint control/board rights with the Assam government/OIL/NRL) [E]. GAIL's 99.49 crore OPaL shares carry ₹994.95 Cr book value; 99.24 crore BCPL shares ₹992.37 Cr; Petronet 18.75 crore shares ₹98.75 Cr; IGL 31.5 crore shares ₹31.50 Cr; MGL 3.21 crore shares ₹32.10 Cr; IGGL 23.06 crore shares ₹234.72 Cr [V AR investment schedule].
+- **Listed-stake look-through is now [V] on stakes** (Petronet 12.5%, IGL 22.5%, MGL 32.5%): **≈ ₹13,148 Cr at 23-Oct-2026 m-caps (~12.2% of GAIL's m-cap)** [E arithmetic]. Note book value of these three stakes is only ~₹162 Cr — hence the large unrecognised fair-value gap.
+
+**Related-party transactions (AGM notice, material RPT approvals) [V]:**
+| Party | GAIL holds | FY26 transactions | FY25 | Approval sought (AGM-to-AGM) | Nature |
+|---|---|---|---|---|---|
+| Petronet LNG | 12.50% | **₹26,594 Cr** | ₹27,134 Cr | ₹38,300 Cr (27% of GAIL's FY26 cons turnover; 88% of PLL's) | RLNG purchase + regas services at Dahej/Kochi; spot via tenders |
+| IGL | 22.50% | ₹9,982 Cr | ₹8,584 Cr | ₹13,500 Cr | Gas sales |
+| MGL | 32.50% | ₹4,071 Cr | ₹3,454 Cr | ₹6,800 Cr | Gas sales |
+| Ramagundam Fertilizers | 14.30% | ₹2,117 Cr | ₹3,240 Cr | ₹5,500 Cr (147% of RFCL's turnover) | Gas sales |
+- **Insight:** ~19% of GAIL's FY26 revenue is sold to or bought from four associates; **Petronet alone supplies gas worth ~₹26,600 Cr (≈ 21% of GAIL's marketing revenue)** — the channel through which the Qatar force majeure hit GAIL. There is no royalty; terms are "market-linked and similar to contracts with other off-takers".
+
+**Contingent liabilities & commitments (standalone, note 29, 31-Mar-2026) [V]:**
+- Claims not acknowledged as debt: **₹2,967 Cr** (FY25 ₹2,988 Cr) — LDs/price-reduction by suppliers; customers' gas-price-differential and transmission-charge disputes.
+- Disputed indirect taxes: **₹4,550.56 Cr** (FY25 ₹4,019.74 Cr), of which **excise ₹3,834.92 Cr** — chiefly the **naphtha classification case: CESTAT (30-Nov-2018) demand ₹2,889 Cr, ₹3,768 Cr with interest/penalty at Mar-26** (₹3,705 Cr at Sep-25); Supreme Court stay on deposit of ₹20 Cr + ₹132 Cr security. GST disputes jumped to ₹373 Cr (₹38 Cr); entry tax ₹130 Cr (₹0.5 Cr).
+- Corporate guarantees for related parties' loans **₹5,163.5 Cr** (loans outstanding ₹2,650 Cr) + **non-fund guarantees ₹11,743.6 Cr**; financial liability recognised ₹362.9 Cr.
+- CGD MWP shortfall (6 GAs along JHBDPL; Cuttack and Jamshedpur pipeline-inch-km below target): contingent ₹33.2 Cr; cumulative PNG connections 4.81 lakh vs 2.00 lakh target.
+- Capital commitments **₹8,464 Cr** (FY25 ₹9,884 Cr); further investment/loan commitments to subsidiaries/JVs **₹3,121 Cr**.
+- **Lease commitments not yet commenced ₹9,847 Cr (FY25 ₹3,088 Cr)** — new LNG-carrier time charters (e.g., *Energy Fidelity*, delivered Apr-2026, chartered to 2038; *GAIL Bhuwan* extended to 2038). This explains the Q1 FY27 "operational capex incl. ship chartering ₹4,548 Cr" (right-of-use asset) and will lift reported consolidated borrowings/lease liabilities [E link].
+- Q2 FY26 filing (emphasis of matter): **GAIL withdrew its six APTEL appeals against PNGRB natural-gas final tariff orders "on account of various moderations done by PNGRB"**, with no financial impact; two provisional tariff orders on petroleum-product pipelines remain under appeal [V]. SMTS settlement agreement dated **15-Jan-2025** [V].
+
+**Capacity / project table (AR, as on Mar-26) [V]:**
+| Project | Length (km) | Commissioned by Mar-26 | States |
+|---|---|---|---|
+| JHBDPL incl. Barauni–Guwahati (PM Urja Ganga) | 3,290 | 3,128 | UP, Bihar, Odisha, Jharkhand, WB |
+| Kochi–Koottanad–Bengaluru–Mangaluru Ph-II | 902 | 608 | Kerala, TN, Karnataka |
+| Srikakulam–Angul (SAPL) | 744 | 469.5 | Odisha, AP |
+| Dhamra–Haldia | 253 | 154 | Odisha, WB |
+| Mumbai–Nagpur–Jharsuguda (MNJPL) | 1,707 | 1,504 (all 1,707 by 31-May-2026) | MH, MP, CG, Odisha |
+| Gurdaspur–Jammu | 153 | 0 | Punjab, J&K |
+Dedications in FY26: Durgapur–Kolkata 132 km (18-Jul-2025); SAPL mainline 422 km (16-Oct-2025); MNJPL CG–Odisha 489 km (1-Nov-2025). LPG: 2,040 km (JLPL 1,427 km — record 3.26 MMT; VSPL 610 km — record 1.334 MMT).
+
+**LNG portfolio additions (AR MD&A) [V]:** FY26 SPAs executed — **Vitol Singapore ~1 MTPA from 2026** and **QatarEnergy Trading ~0.8 MTPA from 2025**; seven LNG carriers in the fleet. Domestic gas: ~334 MMSCM bought on IGX and ~410 MMSCM won in upstream tenders in FY26.
+
+**Top corporate risks (AR ERM list) [V]:** (i) project-execution delay (pipelines, plants); (ii) under-utilisation of pipelines; (iii) restructuring (monetisation & unbundling) — now largely moot after clause-5A withdrawal; (iv) petrochemical margin/unviable operations; (v) LNG market risk (price, cargo shortage, supplier default); (vi) third-party damage/encroachment; (vii) unfavourable regulatory change; (viii) domestic-gas business risk. Mega insurance cover **₹1.69 lakh Cr** sum insured (New India Assurance lead).
+
+### 4.2.6 GAIL's sourcing and sales mix (FY26 analyst-meet PPT, slides 18–19, read from rendered images) [V]
+| Share of FY26 volume | APM/NAPM (domestic) | RLNG (long-term) | Spot | Mid-term | RIL & bp (KG-D6 MDP) | Overseas sales |
+|---|---|---|---|---|---|---|
+| **Transmission mix** (122.18 MMSCMD) | **26%** | **44%** | 4% | 24% | 2% | — |
+| **Marketing mix** (104.21 MMSCMD) | **35%** | **17%** | 4% | **28%** | 3% | **13%** |
+- Slide text: "18,000+ km… (~65% market share)"; "**~14,200 km integrated pipeline network**"; "~1,500 km under construction"; marketing "**~48% market share in India's natural gas consumption**" (not "RLNG share", as Part 1 §5.2 implied); "5 long-chartered and 2 short-chartered vessels"; "source additional 4–5 MMTPA LNG by 2030"; "capacity expansion of DUPL pipeline and Dabhol LNG terminal".
+- **Read:** two-thirds of what flows through GAIL's pipes is imported (RLNG 44% + mid-term 24% + spot 4% ≈ 72%) — the network is an LNG-evacuation system as much as a domestic-gas grid. GAIL's own marketing book is more domestic (APM/NAPM 35%) because it is the designated seller of ONGC/OIL APM gas to CGD and fertiliser.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3.1 India gas balance FY14–FY26 — PPAC Ready Reckoners [V] (replaces Part 1 §2.1–2.2 [K] rows)
+Sources: PPAC Ready Reckoner June-2018 (FY14–FY18, published in MMSCMD); PPAC Ready Reckoner Dec-2021 (FY18–FY21, MMSCM); **The PPAC Ready Reckoner FY2025-26 (dated 22-Jul-2026; FY21–FY26, MMSCM; Table 3.4)**; PPAC Snapshot of India's Oil & Gas Data, Oct-2026 edition (Sep-2026 data). All public PDFs on ppac.gov.in/download.php (no login). "Consumption" = net production + LNG imports (availability basis, includes producers' internal use). LNG source DGCIS. MMSCMD = MMSCM ÷ days [E].
+
+| FY | Gross production (MMSCM) | Net production | LNG imports (MMSCM) | LNG (MMT) | Consumption (MMSCM) | Consumption (bcm) | ≈ MMSCMD [E] | Import dependence |
+|---|---|---|---|---|---|---|---|---|
+| FY14 | 97.0 MMSCMD | 94.7 MMSCMD | 47.1 MMSCMD | — | 141.8 MMSCMD | ~51.8 [E] | 141.8 | 33.2% |
+| FY15 | 92.2 MMSCMD | 89.6 MMSCMD | 50.8 MMSCMD | ~14.0 [E] | 140.4 MMSCMD | ~51.2 [E] | 140.4 | 36.2% |
+| FY16 | 88.1 MMSCMD | 85.1 MMSCMD | 58.4 MMSCMD | ~16.1 [E] | 143.5 MMSCMD | ~52.5 [E] | 143.5 | 40.7% |
+| FY17 | 87.4 MMSCMD | 84.5 MMSCMD | 67.6 MMSCMD | ~18.6 [E] | 152.1 MMSCMD | ~55.5 [E] | 152.1 | 44.5% |
+| FY18 | 32,649 | 31,731 | 27,439 | 20.7 | 59,170 | 59.2 | 162.1 | 46.4% [E] (RR-2018: 45.3% provisional) |
+| FY19 | 32,875 | 32,058 | 28,740 | 21.7 | 60,798 | 60.8 | 166.6 | 47.3% [E] |
+| FY20 | 31,184 | 30,257 | 33,887 | 25.6 | 64,144 | 64.1 | 175.3 | 52.8% [E] |
+| FY21 | 28,672 | 27,784 | 33,198 | 25.1 | 60,981 | 61.0 | 167.1 | **54.4%** |
+| FY22 | 34,024 | 33,131 | 31,028 | 23.4 | 64,159 | 64.2 | 175.8 | 48.4% |
+| FY23 | 34,450 | 33,664 | 26,304 | 19.9 | 59,969 | 60.0 | 164.3 | **43.9%** |
+| FY24 | 36,438 | 35,717 | 31,795 | 24.0 | 67,512 | 67.5 | 184.5 | 47.1% |
+| FY25 | 36,113 | 35,594 | 35,720 | 27.0 | 71,314 | 71.3 | 195.4 | 50.1% |
+| **FY26 (P)** | **34,776 (−3.7%)** | 34,326 | **34,427 (−3.6%)** | **26.0** | **68,753 (−3.6%)** | **68.8** | **188.4** | **50.1%** |
+| H1 FY27 (Apr–Sep-26, P) | 16,804 (−4.4%; target 17,740) | 16,580 | **18,189 (+4.5%)** | — | 34,769 (≈ flat) | 34.8 | ~190 | 52.3% |
+| Sep-2026 (P) | 2,730 | — | 2,957 (−8.6%) | — | 5,653 (−6.7%) | — | ~188 | — |
+- FY21 LNG is 33,198 in the 2026 Reckoner vs 33,031 in the 2021 edition (revision); use the latest.
+- **PPAC's FY26 consumption (188.4 MMSCMD; −3.6%) agrees with GAIL's AR (189.2 MMSCMD; −3.1%) within 0.5%** — two primary sources. GAIL's AR FY22–FY23 figures (168.5 / 160.8) are ~4% below PPAC's (175.8 / 164.3) — a different basis (GAIL's table appears to exclude producers' internal use); for a single long series use PPAC.
+- **CAGR FY15–FY26 (PPAC): 140.4 → 188.4 MMSCMD = +2.7% a year** [E]; FY22–FY26 +1.7% a year [E]. Domestic gross production FY26 (95.3 MMSCMD) is **below FY14 (97.0)** — twelve years of zero domestic growth. ONGC nomination gross output fell every year from 23,746 MMSCM (FY20) to 18,481 (FY26); PSC/JV fields (KG-D6) rose from 4,321 (FY21) to 14,143 (FY25) then fell 6.7% to 13,195 in FY26 [V Table 3.5].
+- **War-period nuance (new):** PPAC's H1 FY27 data show **LNG imports +4.5% YoY and consumption flat** — the 2026 crisis was a **March–May shock** (Apr −18%, May −9% in LNG) followed by a rebuild of cargoes from non-Gulf sources in Jun–Aug; by September consumption was again −6.7% as prices re-spiked. "India's LNG imports fell ~25%" (Part 1, from GAIL's AR) refers to the immediate post-FM period, not the half-year.
+- EI Statistical Review 2026 vs PPAC (CY2025): consumption 67 bcm (EI; India #11) vs 69 bcm (PPAC); production 31 bcm (EI; #24) vs 35 bcm net (PPAC) [V RR notes]. Use PPAC for India series, EI only for global ranking.
+
+### 4.3.2 LNG import bill by year — PPAC Ready Reckoner FY2025-26, Table 3.10 (DGCIS) [V] (closes §H-2)
+| FY | MMT | MMSCM | Value (US$ mn) | Avg $/mmBtu (cif) | Value ₹ Cr [E] |
+|---|---|---|---|---|---|
+| FY18 | 20.7 | 27,439 | 8,051 | 7.4 | — |
+| FY19 | 21.7 | 28,740 | 10,253 | 9.0 | — |
+| FY20 | 25.6 | 33,886 | 9,489 | 7.1 | — |
+| FY21 | 25.1 | 33,198 | 7,881 | 6.0 | — |
+| FY22 | 23.4 | 31,028 | 13,472 | 10.9 | — |
+| FY23 | 19.9 | 26,304 | **17,114 (peak)** | **16.4** | ~1.37 lakh Cr [E at ~₹80/$] |
+| FY24 | 24.0 | 31,795 | 13,405 | 10.8 | ~1.11 lakh Cr [E at ~₹82.8/$] |
+| FY25 | 27.0 | 35,720 | 14,908 | 10.6 | **₹1,26,080 Cr** [E at PPAC FY25 avg ₹84.57/$] |
+| **FY26 (P)** | **26.0** | 34,427 | **13,356 (−10.4%)** | **9.8** | **₹1,17,950 Cr** [E at PPAC FY26 avg ₹88.31/$] |
+| Sep-2026 (month) | — | 2,957 | ~1,200 | — | ~₹11,450 Cr [E at ₹95.46] |
+- PPAC converts at **1 mmBtu = 25.2 scm** (i.e., 0.0397 mmBtu/scm), slightly richer than this dossier's 0.038 working factor; 1 MMT = 1,325 MMSCM. Our ₹/mmBtu margin estimates in Parts 1–3 would be ~4% lower on PPAC's factor — immaterial, but state it.
+- **Average landed LNG cost fell to $9.8/mmBtu in FY26** — the cheapest since FY21 — which is exactly why GAIL's marketing spread compressed in FY26 (cheap spot competing with its HH/Brent-slope term book).
+
+### 4.3.3 Global gas/LNG prices 2026, monthly — World Bank Pink Sheet (Apr, Jul, Oct-2026 editions) [V] (closes §H-3 as far as public data allow)
+| Month 2026 | Brent $/bbl | Henry Hub $/mmBtu | Europe TTF $/mmBtu | Japan LNG import (cif) $/mmBtu | GIXI (IGX India) $/mmBtu |
+|---|---|---|---|---|---|
+| Jan | 66.8 | **7.58** (US cold snap) | 11.76 | 11.49 | — |
+| Feb | 71.1 | 3.61 | 11.24 | 11.32 | — |
+| Mar | 103.7 | 3.05 | 17.91 | 14.85 | 10.8 [Part 1, FIPI] |
+| Apr | **120.4** | 2.77 | 15.41 | 15.65 | 16.9 (₹1,572 Western region cum.) [V PPAC RR] |
+| May | 107.5 | 2.93 | 16.17 | 12.88 | — |
+| Jun | 85.4 | 3.15 | 15.17 | 12.83 | 18.6 [Part 1, FIPI] |
+| Jul | 83.4 | 2.89 | 18.06 | 13.85 | — |
+| Aug | 90.9 | 2.77 | 21.11 | 15.27 | — |
+| **Sep** | **116.8** | 2.95 | **25.42** | 14.25 (estimate) | **28.4 (₹2,712; 456 MMSCM)** [V PPAC Snapshot] |
+| Q1 / Q2 / Q3 2026 avg | 80.5 / 104.4 / 97.1 | 4.75 / 2.95 / 2.87 | 13.63 / 15.58 / 21.53 | 11.41 / 13.44 / 14.45 | |
+| CY2023 / 2024 / 2025 avg | 82.6 / 80.7 / 69.0 | 2.54 / 2.19 / 3.53 | 13.11 / 10.96 / 11.96 | 14.39 / 12.84 / 12.04 | |
+- Monthly values are from the most recent edition carrying that month; the Oct-2026 edition revised Q2 Japan LNG to 13.44 (13.79 in the Jul edition) — the latest two months are World Bank estimates. Japan LNG is a lagged **contract** import price, not spot JKM; **no free primary JKM monthly series exists** (Platts is paywalled). For a spot proxy use **TTF** (World Bank) or India's **GIXI** (IGX).
+- **CRITICAL NEW FACT for the writer — a second price spike in September 2026.** Both the World Bank (Brent **$116.8** Sep-2026 average; TTF $25.42) and PPAC (Brent **$116.77**, Indian basket **$116.09** in Sep-2026 vs $90.84/$90.19 in Aug; GIXI $28.4) show crude and gas re-spiking in September 2026. The macro line used in Parts 1–3 ("ceasefire 7-Apr-2026; Brent → ~$95 thereafter") is **incomplete**: Brent averaged $120.4 in **April** (above the "~$118 peak" quoted), fell to $83–91 in Jul–Aug, then rose to ~$117 in September. Henry Hub stayed ~$2.8–3.2 throughout. Implications: (i) GAIL's **JCC-lag/3-month-Brent arbitrage re-opens in Q3 FY27** (Oct–Dec sales on Jul–Sep Brent ~$97 vs JCC 9-month average lagged two months) — Q2 FY27 (Jul–Sep) sales were priced on Apr–Jun Brent (~$104) against a JCC average still catching up, so Q2 marketing may be stronger than management's July caution implied [E]; (ii) the HH-vs-Asia/Europe spread hit a record (~$22 vs TTF in Sep) [E]; (iii) APM formula price Oct-2026 $11.22 vs $7 cap reflects this. The writer should treat the September spike as fact (two primary sources) but avoid narrative detail on its cause — this pass did not find a primary account of the September events (search results were limited to March–April 2026 reporting). **Flag to the orchestrator: the shared macro context may need updating.**
+
+### 4.3.4 Domestic gas prices — PPAC (Ready Reckoner FY2025-26 Table 3.11; Snapshot Oct-2026 Table 23) [V] (upgrades Part 1 §4.3 [K] rows to [V])
+Half-yearly (2014 guidelines, $/mmBtu GCV): Nov-14–Mar-15 5.05; Apr–Sep-15 4.66; Oct-15–Mar-16 3.82; Apr–Sep-16 3.06 (HPHT ceiling 6.61); Oct-16–Mar-17 2.50 (5.30); Apr–Sep-17 2.48 (5.56); Oct-17–Mar-18 2.89 (6.30); Apr–Sep-18 3.06 (6.78); Oct-18–Mar-19 3.36 (7.67); Apr–Sep-19 3.69 (9.32); Oct-19–Mar-20 3.23 (8.43); Apr–Sep-20 2.39 (5.61); Oct-20–Mar-21 1.79 (4.06); Apr–Sep-21 1.79 (3.62); Oct-21–Mar-22 2.90 (6.13); Apr–Sep-22 6.10 (9.92); Oct-22–Mar-23 **8.57 (12.46)**; 1–7 Apr-2023 9.16 (12.12). **All Part 1 §4.3 [K] values for 2019–2023 are confirmed exactly.**
+
+Monthly under the 7-Apr-2023 "Review of New Domestic Gas Pricing Guidelines" (calculated price → APM ceiling actually paid to ONGC/OIL):
+| Month | Calc. | APM paid | | Month | Calc. | APM paid |
+|---|---|---|---|---|---|---|
+| Apr-23 (8–30) | 7.92 | 6.50 | | Jan-26 | 6.25 | **6.25** |
+| FY24 range | 7.48–9.20 | 6.50 | | Feb-26 | 6.21 | **6.21** |
+| FY25 range | 7.29–8.90 | 6.50 | | Mar-26 | 6.81 | 6.75 |
+| Apr-25 | 7.26 | 6.75 | | Apr-26 | 10.76 | 7.00 |
+| Jun-25 | 6.41 | **6.41** | | May-26 | **11.59** | 7.00 |
+| Jul–Oct-25 | 6.89–7.02 | 6.75 | | Jun-26 | 10.93 | 7.00 |
+| Nov-25 | 6.55 | **6.55** | | Jul-26 | 8.73 | 7.00 |
+| Dec-25 | 6.48 | **6.48** | | Aug-26 | 7.86 | 7.00 |
+| | | | | Sep-26 | 9.00 | 7.00 |
+| | | | | Oct-26 | **11.22** | 7.00 |
+HPHT ceiling: Apr–Sep-23 12.12; Oct-23–Mar-24 9.96; Apr–Sep-24 9.87; Oct-24–Mar-25 10.16; Apr–Sep-25 10.04; Oct-25–Mar-26 9.72; Apr–Sep-26 8.90; Oct-26–Mar-27 9.89 [V].
+- **New nuance:** the APM "cap" is a ceiling, not a fixed price — in **5 of 12 months of FY26 the formula fell below the $6.75 cap** (Jun-25, Nov-25 to Feb-26), so APM gas was cheaper than the cap. The APM path is therefore **$6.50 (FY24–FY25) → $6.75 cap (FY26; actual 6.21–6.75) → $7.00 (FY27; binding every month so far)** [V]. This closes §H-16/item-9's APM path. The Kirit Parikh committee's "move to market pricing by 2027" has **no notification** in the PPAC documents; treat it as not implemented [V absence].
+
+### 4.3.5 Pipeline network and flows — PNGRB data via PPAC [V] (resolves Trap 11 / §H-15)
+**(a) Common-carrier NG pipeline network as on 30-Jun-2026 (PNGRB via PPAC Snapshot Oct-2026, Table 20)**
+| Entity | Fully operational km | Partially commissioned km | **Total operational km** | Under construction km | Total km | Authorised capacity (MMSCMD, arithmetic sum) |
+|---|---|---|---|---|---|---|
+| **GAIL** | 13,075 | 5,642 | **18,717** | 1,582 | 20,299 | 268.5 |
+| GSPL (now GSPL Transmission) | 2,916 | — | 2,916 | 337 | 3,253 | 75.3 |
+| PIL (East-West; Energy InvIT) | 1,497 | — | 1,497 | — | 1,497 | 87.0 |
+| IOCL | 249 | 1,121 | 1,370 | 496 | 1,866 | 25.2 |
+| GIGL | — | 1,440 | 1,440 | 764 | 2,204 | — |
+| GITL (GSPL India Transco) | — | 365 | 365 | 1,516 | 1,881 | — |
+| AGCL / RGPL / GGL / DFPCL / ONGC | 107 / 304 / 73 / 42 / 54 | — | 580 | — | 580 | 2.4 / 3.5 / 5.1 / 0.7 / 9.5 |
+| Others (APGDC, IGGL, IMC, HPPL/H-Energy) | 713 | — | 713 | 1,296 | 2,009 | 42.1 |
+| **India total** | 19,030 | 8,568 | **27,598** | 5,991 | **33,589** | |
+Including tie-in connectivity, dedicated lines and sub-transmission (STPL): **27,905 km operational, 34,803 km authorised, 8,551 km under construction (P)**.
+- **This resolves the network-length conflict:** GAIL's "**~18,700 km**" (AR, 31-Mar-2026) = PNGRB's **18,717 km operational at 30-Jun-2026**, of which **5,642 km is only partially commissioned** (JHBDPL/PBG, MNJPL, SAPL, KKBMPL-II sections). "18,000+ km" (PPT) is the rounded version; "**~14,200 km integrated network**" (PPT) and PNGRB's **13,658 km INGPL (31-3-2025)** are the INGPL tariff zone only; PPAC's RR footnote gives "18,413 km total operational as on 31-Mar-2026" (pre-MNJPL completion). **GAIL share of India's operational common-carrier km = 18,717 / 27,598 = 67.8%** [E] (GAIL says ~65%; PPAC pie ~59% on a capacity/flow basis). Use **"~18,700 km, about two-thirds of India's operating gas pipelines (PNGRB, Jun-2026)"**.
+
+**(b) Average flows and utilisation (PPAC Ready Reckoner FY2025-26, Table 5.1) [V]**
+| Network | Capacity (MMSCMD) | FY25 flow | FY25 util. | FY26 flow | FY26 util. | H2 FY26 flow |
+|---|---|---|---|---|---|---|
+| **GAIL INGPL (integrated)** | 163.8 | 115.87 | 70.7% | **109.41** | **66.8%** | 110.09 (67.2%) |
+| GAIL KG basin | 19.37 | 3.90 | 20.1% | 3.14 | 16.2% | 3.27 |
+| GAIL Kochi–Bangalore–Mangalore | 12 | 3.94 | 32.9% | 5.14 | 42.8% | 4.65 |
+| GAIL MNJPL (part-operational) | 14.6 | — | — | 0.12 | 0.8% | 0.09 |
+| GAIL SAPL (op. from Sep-2025) | 6.65 | — | — | 0 | 0% | 0 |
+| PIL East-West (Kakinada–Bharuch) | 85 | 35.45 | 41.7% | **34.45** | **40.5%** | 34.41 |
+| GSPL HP Gujarat grid | 36 | 24.55 | 68.2% | 21.49 | 59.7% | 22.38 |
+| GIGL Mehsana–Bhatinda | 48.94 | 3.60 | 7.8% | 5.03 | 10.3% | 4.70 |
+| GITL Mallavaram–Bhilwara | 78.25 | 1.96 | 2.5% | 2.05 | 2.6% | 1.49 |
+| IOCL Dadri–Panipat | 9.5 | 5.42 | 59% | 4.64 | 50% | 4.49 |
+| IOCL Ennore–Tuticorin etc. | 34.67 | 5.19 | 16% | 5.29 | 16% | 5.28 |
+| ONGC Uran–Trombay | 6 | 3.41 | 57% | 3.36 | 56% | 3.30 |
+| RGPL Shahdol–Phulpur | 3.5 | 0.74 | 21% | 0.83 | 24% | 0.82 |
+- **INGPL utilisation was ~67% in FY26, not "~75%"** as Part 1 §4.5/§9.1 estimated (122.18 ÷ 163.8). GAIL's 122.18 MMSCMD "transmission" counts gas on all its networks and double-counts gas moving across more than one GAIL network; PPAC's per-network flow is the cleaner utilisation measure. **East-West (PIL) runs at ~40%; GSPL ~60%; the new trunk lines (MNJPL, SAPL, GIGL, GITL) at 0–10%** — India's grid is roughly half empty, which is why the cost-plus tariff with normative volumes matters so much.
+
+### 4.3.6 LNG terminals — two PPAC dates [V] (replaces Part 1 §5.3 / E9 capacities)
+| Terminal | Owner | Capacity 1-Apr-2026 (MTPA) | Util. FY26 | Capacity 1-Oct-2026 | Util. Apr–Sep-2026 |
+|---|---|---|---|---|---|
+| Dahej | Petronet LNG | 17.5 | **91.9%** | **22.5** | 68.45% (Apr–Aug) |
+| Hazira | Shell Energy India | **6.0** | 27.2% | 6.0 | 42.4% |
+| Dabhol | Konkan LNG (GAIL) | 5.0 | 34.5% | 5.0 | **43.9%** |
+| Kochi | Petronet LNG | 5.0 | 26.3% | 5.0 | 23.6% (Apr–Aug) |
+| Ennore | Indian Oil LNG | 5.0 | 25.1% | 5.0 | 26.2% |
+| Mundra | GSPC LNG | 5.0 | 17.4% | 5.0 | 26.9% |
+| Dhamra | Adani Total Pvt | 5.0 | 34.1% | 5.0 | **46.5%** |
+| Chhara | HPCL LNG | 5.0 | 6.2% | 5.0 | 6.0% |
+| **Total** | | **53.5** | | **58.5** | |
+- Conflict resolved: GAIL's PPT "57.7 MTPA, Dahej 22.5 from 31-3-2026, Hazira 5.2" vs PPAC "53.5 MTPA on 1-Apr-2026 (Dahej 17.5, Hazira 6.0)" — PPAC added the Dahej expansion (+5 MTPA) after 1-Apr and lists Hazira at 6.0. **Use PPAC: 58.5 MTPA from 1-Oct-2026 (≈ 210 MMSCMD at 3.6) vs LNG imports ~100 MMSCMD in H1 FY27 → ~48% utilisation.** PPAC's RR text says "52.7 MMTPA" for the FY26 utilisation base — a third, transitional figure. Jaigarh (4 MTPA, H-Energy FSRU) is **not** in PPAC's operational list [V absence].
+- **War signature:** non-Qatar-linked terminals (Dhamra 46.5%, Dabhol 43.9%, Hazira 42.4%) **gained** utilisation in Apr–Sep 2026 while Dahej (Qatar-dependent) fell from 92% to 68%.
+
+### 4.3.7 CGD and CBG infrastructure — PNGRB/PPAC [V]
+- **1-Apr-2026: 8,916 CNG stations (+10.5% YoY from 8,067); 1,70,21,202 PNG connections — domestic 1,69,49,377 (+12.7% from 1,50,41,471), commercial 49,994, industrial 21,831** [V PPAC RR]. (Part 1's "~1.67 crore Feb-2026" ✓; "8,692 CNG stations" was an earlier date.)
+- CNG/PNG prices (Oct-2026): Delhi CNG ₹86.98/kg, PNG-D ₹50.59/scm (IGL, 13-Oct-2026); Mumbai ₹89.00 / ₹53.00 [V Snapshot].
+- **CBG under SATAT (1-Oct-2026): 194 plants selling CBG, of which 99 tie up with GAIL**; CBG sales FY26 **96.5 TMT, GAIL 88.2 TMT (91%)**; H1 FY27 88.4 TMT (GAIL 85.5) — already ~92% of the full FY26 volume; 629 tripartite agreements by GAIL with CGD entities; biomethane injection points at 23 locations [V Snapshot]. GAIL is effectively India's CBG offtaker of last resort.
+
+### 4.3.8 PNGRB tariff facts verified [V]
+- **INGPL tariff order TO/NGPL/25-26/09 dated 27-Nov-2025: ₹65.69/mmBtu (GCV) levelised, effective 1-Jan-2026, "as an interim measure", vs previous ₹58.61/mmBtu → ~+12%, positive impact ~₹1,200 Cr a year.** Scope limited to **system-use gas (incl. reduction for calorific value) and capacity determination**; true-up of capex/opex, transmission loss, working days, revenue-sharing etc. at the **next tariff review effective 1-Apr-2028 (FY2027-28 exercise)** [V GAIL Reg-30 letter of 28-Nov-2025, NSE archive].
+- **₹58.61 was set by the PNGRB order of 22-Mar-2023, effective 1-Apr-2023** (GAIL had sought ~₹68.55) [V-snip: GAIL disclosure title "Integrated tariff by PNGRB 24-03-2023" and ICICI Direct sector note; the GAIL PDF returned HTTP 503]. The FY24 NG-transmission revenue jump (+55%, 4.2.3b) is the financial footprint of that order [V].
+- **GAIL's ask in the 2025 process:** secondary sources disagree (₹77.98, ~₹78, ₹78.72, ₹79.98); the GAIL letter does not state it. **Keep "~₹78–80 sought" [V-snip]**, not the precise ₹78.72.
+- Other unified-tariff values (₹54.00 / ₹102.86; levelised ₹83.94) remain [V PNGRB MIS 13-Jan-2026, Part 1].
+
+### 4.2.7 Reference peers — brief 5-year and 8-quarter tables (NOT members) [V screener consolidated, fetched 23-Oct-2026]
+
+**Petronet LNG (PETRONET) — India's regas toll-collector (GAIL holds 12.50% [V AR])**
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Jun-26 |
+|---|---|---|---|---|---|---|
+| Sales | 43,169 | 59,899 | 52,729 | 50,982 | 43,495 | 37,173 |
+| Operating profit | 5,250 | 4,854 | 5,209 | 5,525 | 5,338 | 5,711 |
+| OPM | 12% | 8% | 10% | 11% | 12% | 15% |
+| PAT | 3,438 | 3,326 | 3,652 | 3,973 | 3,913 | 4,208 |
+| EPS ₹ | 22.92 | 22.17 | 24.35 | 26.48 | 26.08 | 28.06 |
+| Dividend payout | 50% | 45% | 41% | 38% | 38% | — |
+| ROCE | 30% | 26% | 26% | 25% | 23% | — |
+| Borrowings (Mar) | 3,438 | 3,345 | 3,008 | 2,657 | 2,341 | — |
+| Quarter | Jun-24 | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|---|
+| Sales | 13,415 | 13,024 | 12,227 | 12,316 | 11,880 | 11,009 | 11,164 | 9,442 | 5,558 |
+| OP | 1,562 | 1,202 | 1,247 | 1,512 | 1,159 | 1,117 | 1,198 | **1,861** | 1,535 |
+| OPM | 12% | 9% | 10% | 12% | 10% | 10% | 11% | 20% | 28% |
+| PAT | 1,105 | 871 | 902 | 1,095 | 842 | 830 | 870 | **1,371** | 1,137 |
+- **Read:** OP has sat in a ₹4,850–5,550 Cr band for five years while sales swung ±40% — the purest proof in the reference set that regas is a fee business. Q4 FY26 (the force-majeure quarter) was Petronet's **best-ever quarterly OP (₹1,861 Cr)** — use-or-pay capacity charges and possibly one-offs — and Q1 FY27 OP held at ₹1,535 Cr on sales of ₹5,558 Cr [V; interpretation E]. Petronet's FY26 transactions with GAIL were **₹26,594 Cr** (GAIL AR), i.e., ~61% of Petronet's FY26 revenue [E]. M-cap ≈ US$4.5 bn (companiesmarketcap) / ₹42,952 Cr (screener). Q2 FY27 board 2-Nov-2026.
+
+**Indraprastha Gas (IGL; GAIL 22.50%) and Mahanagar Gas (MGL; GAIL 32.50%) — CGD associates**
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| IGL sales | 7,710 | 14,133 | 14,000 | 14,913 | 16,168 |
+| IGL OP (OPM) | 1,894 (25%) | 2,044 (14%) | 2,388 (17%) | 1,979 (13%) | 1,876 (12%) |
+| IGL PAT | 1,502 | 1,640 | 1,983 | 1,713 | 1,544 |
+| IGL ROCE | 27% | 27% | 28% | 21% | 18% |
+| MGL sales | n.a. (cons) | 6,299 | 6,290 | 7,264 | 8,246 |
+| MGL OP (OPM) | n.a. | 1,184 (19%) | 1,844 (29%) | 1,569 (22%) | 1,446 (18%) |
+| MGL PAT | n.a. | 790 | 1,285 | 1,040 | 841 |
+Quarterly OP Jun-24 → Jun-26: **IGL 576, 535, 362, 493, 511, 441, 471, 421, 294; MGL 437, 413, 325, 394, 500, 336, 351, 258, 342**; PAT IGL 480 … 238; MGL 289 … 193 [V].
+- **Read:** CGD profitability peaked in FY24 when APM allocation was generous and has fallen ~20–25% since as APM was cut and replaced by NWG/RLNG. GAIL is both their main gas supplier (FY26 sales to IGL ₹9,982 Cr, MGL ₹4,071 Cr [V AR]) and a 22.5%/32.5% shareholder — so a CGD margin squeeze is partly a transfer *to* GAIL's marketing book.
+
+**Global midstream/LNG peers — INDICATIVE (companiesmarketcap.com fetched 23-Oct-2026 for m-cap and revenue; EBITDA from Part 1 [V-snip/K])**
+| Company | Model | Revenue CY2024 (US$ bn) | Revenue CY2025 | Revenue TTM (to Jun-26) | M-cap 23-Oct-2026 (US$ bn) | EBITDA (latest, as in Part 1) |
+|---|---|---|---|---|---|---|
+| Kinder Morgan (KMI) | US gas pipelines | 15.1 [E from +12.2%] | **16.93** | 17.95 | **77.1** | Adj. EBITDA $8.39 bn (2025) [V-snip] |
+| Williams (WMB) | Transco; gathering | 10.50 | **11.95** | 12.20 | **88.0** | ~$7.7 bn (2025) [K] |
+| Cheniere (LNG) | US LNG exporter; GAIL's Sabine Pass seller | 15.70 | **19.97** | 21.49 | **61.5** | $6.6–7.0 bn guidance 2025 [V-snip] |
+| Enbridge (ENB) | Liquids + gas pipelines + utility | 38.75 | **46.84** | 50.07 | **107.5** | ~US$14 bn [K] |
+| TC Energy (TRP) | Gas pipelines (post-spin) | 8.45 | **10.97** | 11.26 | **65.3** | ~C$11 bn [K] |
+| Petronet LNG | India regas | — | — | ~4.2 (₹37,173 Cr) | **4.54** | ₹5,711 Cr TTM OP |
+| **GAIL** | | | ~16.0 (₹1,42,094 Cr FY26 at ₹88.31) | ~15.5 TTM (₹1,47,485 Cr at ₹94.9) | **~11.4 (₹1,07,749 Cr)** | ₹14,524 Cr ≈ $1.6 bn (FY26 at ₹88.31) |
+- **Read:** Williams (m-cap ~$88 bn) is worth ~7.7× GAIL on a revenue base 25% smaller; KMI's m-cap/revenue is ~4.3× vs GAIL's ~0.7× — because GAIL's revenue is ~90% traded gas, while US pipelines' is fee income. On EBITDA, KMI earns ~5× GAIL. The relevant multiple comparison is EV/EBITDA (Part 1 §10: GAIL ~9×, NA midstream ~10–12×).
+
+## 4.0 Supersedes — corrections to Parts 1–3 (writer: apply these)
+| # | Where (Parts 1–3) | Old value / statement | New value / statement | Source (fetched this pass) |
+|---|---|---|---|---|
+| 1 | §5.4, Part 2 group structure | OPaL stake "~49% [K—verify]" | **GAIL holds 4.19% of ONGC Petro-additions (associate)** | GAIL AR FY26 note 47 & BRSR list |
+| 2 | Trap 3, §3.2(e), stakes everywhere [K] | Petronet 12.5%, IGL 22.5%, MGL 32.5%, BCPL ~70%, IGGL 20% [K] | **Confirmed [V]**: 12.50 / 22.50 / 32.50 / 70.00 (classified associate) / 20.00; Konkan 93.50% at 31-3-26 → 100% from 6-Jul-26; Talcher 39.87% (was 33.33%); China Gas 2.75% | AR FY26 note 47 |
+| 3 | §2.1–2.2 FY15–FY21 [K] | FY15 ~51 bcm … FY21 ~60.8; FY15 production ~33.7 bcm; LNG FY20 ~25–26 MMT, FY22 ~23 MMT etc. | **PPAC [V]:** consumption FY15 140.4 MMSCMD (~51.2 bcm), FY16 143.5, FY17 152.1, FY18 59.2 bcm, FY19 60.8, FY20 64.1, FY21 61.0, FY22 64.2, FY23 60.0, FY24 67.5, FY25 71.3, FY26 68.8; LNG 20.7/21.7/25.6/25.1/23.4/19.9/24.0/27.0/26.0 MMT (FY18–FY26); import dependence 54.4% (FY21) → 43.9% (FY23) → 50.1% (FY25–FY26) | PPAC Ready Reckoners 2018, 2021, FY2025-26 |
+| 4 | §2.2 FY26 row | Domestic production ~34.3 bcm, LNG ~26.5 MMT, import dep. 50.6% (GAIL AR) | PPAC: **gross production 34.78 bcm (net 34.33), LNG 26.0 MMT (34,427 MMSCM), import dependence 50.1%** — GAIL AR values are its own rounded estimates; prefer PPAC | PPAC RR FY2025-26 Table 3.4 |
+| 5 | §2.3, §H-2 | LNG import bill "not sourced"; est. $14–15 bn FY26 | **FY26 US$13,356 mn (−10.4%; $9.8/mmBtu); FY25 $14,908 mn; FY23 peak $17,114 mn** (DGCIS) | PPAC RR Table 3.10 |
+| 6 | §7.2, Trap 10, §G, 3.3, 3.4 primer issue | Previous INGPL tariff ₹58.61 [K—verify] | **₹58.61 confirmed** — GAIL letter: ₹65.69 "compared to the previous levelized tariff of ₹58.61… ~12%… positive impact of approximately ₹1,200 Crore"; order TO/NGPL/25-26/09 dated 27-11-2025, **interim**, SUG + capacity only; next full review effective **1-Apr-2028** | GAIL Reg-30 letter 28-11-2025 (NSE archive) |
+| 7 | §7.2, primer | GAIL's ask "₹78.72" | **Unverified; secondary sources give ₹77.98–79.98** — write "~₹78–80 sought" | (no primary found) |
+| 8 | Status item 1, §7.4, §G | Clause 5A required unbundling "with effect from 1-Apr-2027"; withdrawal "per GAIL" | **PNGRB Notification F.No. PNGRB/M(C)/42 dated 8-Jul-2026 (Affiliate Code of Conduct Amendment Regulations, 2026) omits regulation 5A** ("Degree of legal separation"); in force on Gazette publication. The omitted text's deadline was **"on or before 31 March 2017"** (stayed by litigation) — the "1-Apr-2027" in the transcript is a mis-statement or transcription error | pngrb.gov.in 20260715-NGPL-Affiliate-Code-Amendment.doc |
+| 9 | §4.5, §9.1, §F | INGPL utilisation "~75%" (122.18 ÷ 163.8) | **PPAC: INGPL average flow 109.41 MMSCMD in FY26 = 66.8% of 163.8 (FY25 115.87 = 70.7%)**; GAIL's 122.18 includes other networks and multi-network double counting | PPAC RR Table 5.1 |
+| 10 | Trap 11, §4.5, §5.1, E8, §H-15 | Network 18,000+ / ~18,700 / 13,658 km unresolved; India 23,286 (Mar-25) / 27,427 (Dec-25) | **PNGRB 30-Jun-2026: GAIL 18,717 km operational (13,075 full + 5,642 partially commissioned), 1,582 km under construction; India 27,598 km operational / 33,589 km total (27,905 / 34,803 incl. tie-ins & dedicated)**. GAIL share of operational km ≈ 68% | PPAC Snapshot Oct-2026 Table 20 |
+| 11 | §2.2, §5.3, E9 | Regas ~57.7 MTPA; Dahej 22.5 "from 31-3-2026"; Hazira 5.2; Dahej util. 92% | **PPAC: 53.5 MTPA on 1-Apr-2026 (Dahej 17.5, Hazira 6.0); 58.5 MTPA on 1-Oct-2026 (Dahej 22.5)**; FY26 util. Dahej 91.9%, Hazira 27.2%, Dabhol 34.5%, Kochi 26.3%, Ennore 25.1%, Mundra 17.4%, Dhamra 34.1%, Chhara 6.2%; Apr–Sep-26 Dahej 68.5% | PPAC RR Table 3.9; Snapshot Table 21 |
+| 12 | Part 1 §0, §A-1, §8-13 | "India's LNG imports fell ~25%" (implicitly for the crisis period/year) | **H1 FY27 LNG imports +4.5% YoY (18,189 vs 17,414 MMSCM); consumption flat (34,769 MMSCM)**; the fall was concentrated in Mar–May 2026 (Apr −18%). Keep "~25%" only for the immediate post-FM weeks, with that label | PPAC Snapshot Oct-2026 Table 18 |
+| 13 | Macro line (Units §; §0; §8-13) | Brent peak ~$118; ceasefire 7-Apr; Brent ~$95 thereafter | **Monthly Brent 2026: Mar 103.7, Apr 120.4, May 107.5, Jun 85.4, Jul 83.4, Aug 90.9, Sep 116.8**; Indian basket Sep-26 $116.09 | World Bank Pink Sheet (Apr/Jul/Oct-26); PPAC Snapshot Oct-26 |
+| 14 | §4.2 "2026 monthly", §4.1 | JKM "~$24–25 reported"; Mar-26 Japan LNG 14.49; Apr 11.67 | **World Bank (latest editions): Japan LNG Mar 14.85, Apr 15.65, May 12.88, Jun 12.83, Jul 13.85, Aug 15.27, Sep 14.25; TTF Mar 17.91 … Sep 25.42; HH Jan 7.58 (cold snap), Mar 3.05, Sep 2.95**; GIXI Sep-26 $28.4 (₹2,712). The Apr-26 Japan LNG 11.67 in Part 1 (FIPI) is superseded by the World Bank's 15.65 | World Bank Pink Sheet; PPAC Snapshot |
+| 15 | E14, §H-8 | Segment EBIT FY22–FY25 and Q2/Q3 FY26 "not fetched"; Q2+Q3 derived | **Full FY21–FY26 and Q1 FY25–Q1 FY27 segment PBIT now [V]** (4.2.3–4.2.4). FY25 marketing ₹7,446 Cr; FY24 ₹6,067 Cr; FY23 ₹3,079 Cr; FY22 ₹4,932 Cr | GAIL results PDFs (Q4 FY22, Q4 FY23, Q4 FY25, Q1 FY26, Q3 FY26) |
+| 16 | §H-14, 3.3, 3.4 primer issue | Primer's "Q1 FY26 marketing ~₹661 Cr vs ~₹2,057 Cr" flagged as unverified/wrong | **Primer is right on the originally-reported CONSOLIDATED basis**: Q1 FY26 consolidated marketing segment PBIT ₹661.25 Cr vs ₹2,056.58 Cr (Q1 FY25) in the Q1 FY26 filing; the Q1 FY27 filing shows Q1 FY26 consolidated restated to ₹1,044.68 Cr; standalone ₹1,071.60 Cr. Fix = add the basis label, not replace the number | GAIL Q1 FY26 results PDF (consolidated segment table) |
+| 17 | §5.2 | "GAIL ~48% share of India's gas marketing/RLNG" | Slide wording: "**~48% market share in India's natural gas consumption**"; AR: "share in the Country's Domestic Gas Market is ~48%" | FY26 PPT slide 19; AR |
+| 18 | §H-9 | Marketing/transmission mix "unverified" | **Transmission mix FY26: RLNG 44%, APM/NAPM 26%, mid-term 24%, spot 4%, RIL-bp 2%. Marketing mix: APM/NAPM 35%, mid-term 28%, RLNG 17%, overseas 13%, spot 4%, RIL-bp 3%** | FY26 PPT slides 18–19 (rendered images) |
+| 19 | §9.2, guidance | "+7–8 MTPA by 2030, ~2.5 signed" vs PPT "+4–5 MTPA" | Both are GAIL statements: PPT (May-26) "4–5 MMTPA"; call (Jul-26) "7 to 8… 2.5 sourced" and later "up to 7"; AR: FY26 SPAs executed — Vitol ~1 MTPA from 2026, QatarEnergy Trading ~0.8 MTPA from 2025 | PPT; transcript; AR |
+| 20 | Status item 3 (GSPC) | Effective 1-May-2026, rename 1-Jul-2026, 1:3 GTL [V-snip] | **[V] MCA sanction received 17-Apr-2026; effective 1-May-2026; GSPL holders' record date 12-May-2026 (27,06,97,005 GGL shares; GSPC holders 35,20,17,714); GTL record date 2-Jul-2026, 1 GTL (₹10) for 3 Gujarat Energy (₹2)**. The company was already filing as "Gujarat Energy Limited (Erstwhile Gujarat Gas Limited)" on **19-Jun-2026**, so the rename took effect **before** 1-Jul (exact date not captured) | NSE archive filings 29-Apr-2026 (GGL, GSPL), 19-Jun-2026 (GEL) |
+| 21 | §4.3 [K] rows 2019–Mar-2023 | APM/HPHT half-yearly values [K] | **All confirmed [V]** (3.69/9.32 … 8.57/12.46); plus FY26 APM actual 6.21–6.75 (formula below cap in 5 months) and FY27 formula Aug 7.86, Sep 9.00 | PPAC RR Table 3.11; Snapshot Table 23 |
+| 22 | §9.4, transcript | LHC gas "~1.9 MMSCMD after +0.597" | Confirmed; prior allocation **1.32 MMSCMD**; 1.12 APM | Transcript |
+| 23 | 4.2.1 vs Part 1 | Q1 FY27 petchem loss −₹122.5 Cr | Call says "₹130 crores" loss; filing −₹122.53 Cr segment PBIT — basis difference; use filing | Transcript; filing |
+| 24 | Trap 3 / 3.3 | FY26 average rupee "≈ ₹87–88/$ [K/E]" | **PPAC: FY26 average ₹88.31/$ (FY25 ₹84.57; Sep-26 ₹95.46)**; GAIL AR states FY26 average ₹90.15 (its own basis) | PPAC Snapshot Table 25; AR |
+| 25 | §5.4 CGD/§3 | "~1.67 crore PNG-D (Feb-2026); 8,692 CNG stations" | **1-Apr-2026: 1,69,49,377 PNG-D (+12.7%), 8,916 CNG stations (+10.5%)** | PPAC RR (PNGRB data) |
+| 26 | §4.4 conversion | 0.038 mmBtu/scm working factor | PPAC uses **25.2 scm/mmBtu (0.0397)**; 1 MMT = 1,325 MMSCM (PPAC) vs GAIL 1 MTPA ≈ 3.6 MMSCMD (=1,314 MMSCM/yr) — consistent. ₹/mmBtu estimates in Parts 1–3 may be ~4% high | PPAC RR notes |
+| 27 | §9.2 | FY25 marketing segment EBIT "not fetched"; normal ≈ ₹31/mmBtu | **FY25 SA marketing PBIT ₹7,446 Cr (₹52.9/mmBtu; ₹35.6 ex-SMTS); FY24 ₹6,067 Cr (₹44.6)** | Q4 FY25 filing; AR |
+| 28 | §1.2, §C-6 SOTP | Petchem segment capital ~₹18,100 Cr (Mar-26) [E] | **Petchem segment assets ₹19,794.85 Cr (Mar-26), ₹16,994.90 Cr (Mar-25)** | AR segment note |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+Tag key for this table: **[V]** = fetched and read in THIS pass from the named primary document; **[V-P1]** = primary, fetched in Parts 1–3 earlier today, consistent with this pass but not re-opened; **[V-snip]** = secondary only.
+| # | Figure | Value | Primary source (fetched?) | Agrees with Parts 1–3? |
+|---|---|---|---|---|
+| 1 | India gas consumption FY26 | **188.4 MMSCMD (68,753 MMSCM; −3.6%)** PPAC; 189.2 MMSCMD (−3.1%) GAIL AR | PPAC Ready Reckoner FY2025-26 T3.4 [V]; GAIL AR MD&A [V] | Yes (two sources within 0.5%) |
+| 2 | Domestic gross production FY26 | 34,776 MMSCM (−3.7%) = 34.8 bcm | PPAC RR T3.4 [V] | Close (AR ~34.3) — superseded |
+| 3 | LNG imports FY26 | 26.0 MMT / 34,427 MMSCM (−3.6%) | PPAC RR T3.10 (DGCIS) [V] | AR said ~26.5 — superseded |
+| 4 | Import dependence FY26 | 50.1% (PPAC); 50.6% (AR) | PPAC RR [V]; AR [V] | Yes |
+| 5 | LNG import bill FY26 | US$13,356 mn (FY25 $14,908 mn; FY23 $17,114 mn) | PPAC RR T3.10 [V] | New (was a gap) |
+| 6 | Gas share of primary energy | 6.13% CY2025 (6.58% CY2024) | GAIL AR (citing EI Statistical Review 2026) [V] | Yes |
+| 7 | Hormuz-exposed LNG share | Qatar 40.4% + UAE 12.1% = 52.5%; ~94% of LPG imports from Gulf | GAIL AR MD&A [V] | Yes |
+| 8 | India regas capacity | 58.5 MTPA (1-Oct-2026); 53.5 MTPA (1-Apr-2026) | PPAC Snapshot T21; RR T3.9 [V] | No — Part 1 57.7; superseded |
+| 9 | Dahej utilisation | 91.9% FY26; 68.5% Apr–Aug-2026 | PPAC [V] | Yes (92%) + new |
+| 10 | GAIL NG pipeline network | **18,717 km operational (30-Jun-2026)**; "~18,700 km" (31-Mar-2026) | PNGRB via PPAC Snapshot T20 [V]; AR [V] | Yes — definition now resolved |
+| 11 | India operational gas pipelines | 27,598 km (33,589 km incl. under construction) | PNGRB via PPAC Snapshot [V] | Updates 27,427 (Dec-25) |
+| 12 | GAIL INGPL tariff | ₹65.69/mmBtu from 1-Jan-2026 (order 27-11-2025, interim) | GAIL Reg-30 letter 28-11-2025 [V]; PNGRB MIS [V-P1] | Yes |
+| 13 | Previous INGPL tariff | ₹58.61/mmBtu (from 1-Apr-2023) | GAIL Reg-30 letter [V] | Yes — [K] upgraded |
+| 14 | GAIL's ask (2025) | ~₹78–80 (₹78.72 / 77.98 / 79.98 in press) | none primary [V-snip] | Unverified |
+| 15 | Unified tariff | ₹54.00 (≤300 km) / ₹102.86; levelised ₹83.94 | PNGRB NGPL Tariff MIS 13-Jan-2026 [V-P1] | Yes |
+| 16 | INGPL utilisation | 109.41 MMSCMD / 163.8 = 66.8% FY26 | PPAC RR T5.1 [V] | No — Part 1 ~75%; superseded |
+| 17 | GAIL transmission volume FY26 | 122.18 MMSCMD (FY25 127.32) | FY26 PPT slide 18 [V]; AR [V] | Yes |
+| 18 | GAIL marketing volume FY26 | 104.21 MMSCMD (113.41 incl. subsidiaries) | AR [V]; PPT slide 19 [V] | Yes + new |
+| 19 | FY27 transmission guidance | ~123 MMSCMD | Q1 FY27 transcript [V] | Yes |
+| 20 | FY27 marketing guidance | ~₹4,500 Cr PBT (maintained) | Transcript [V] | Yes |
+| 21 | Q1 FY27 marketing PBT (mgmt) | ₹3,353 Cr | Transcript [V] | Yes |
+| 22 | Q1 FY27 marketing segment PBIT | ₹3,481.29 Cr SA (₹3,607.72 Cr cons) | Q1 FY27 results filing [V-P1] | Yes |
+| 23 | FY26 marketing segment PBIT | ₹3,077.58 Cr | AR segment note [V] | Yes |
+| 24 | FY26 petchem segment loss | −₹1,408.22 Cr | AR segment note [V] | Yes |
+| 25 | FY26 NG transmission PBIT | ₹6,229.11 Cr on ₹11,205.94 Cr revenue | AR segment note [V] | Yes |
+| 26 | FY25 marketing PBIT / SMTS one-off | ₹7,446.28 Cr incl. ₹2,440 Cr SMTS settlement | AR segment note + MD&A [V]; Q4 FY25 filing [V] | Yes + new |
+| 27 | GAIL FY26 consolidated PAT | ₹7,582 Cr (FY25 ₹12,450 Cr owners / ₹12,463 Cr total) | AR Directors' Report table [V] | Yes |
+| 28 | GAIL FY26 standalone PAT | ₹6,968 Cr (PBT ₹8,964 Cr) | AR MD&A 2.2 [V] | Yes |
+| 29 | Q1 FY27 standalone PAT | ₹4,292 Cr (Q4 FY26 ₹1,262 Cr); PBT ₹5,773 Cr | Transcript [V] | Yes |
+| 30 | Q1 FY27 consolidated | PAT ₹4,665 Cr; EBITDA ₹7,573 Cr; turnover ₹41,277 Cr | Transcript [V] | Yes |
+| 31 | FY27 capex plan | ~₹11,500 Cr (call); ₹11,600 Cr (PPT) | Transcript [V]; FY26 PPT [V] | Yes |
+| 32 | FY26 capex | ₹9,594 Cr (FY25 ₹10,512 Cr) | AR [V] | Yes |
+| 33 | GAIL stakes in listed associates | Petronet 12.50%, IGL 22.50%, MGL 32.50% | AR note 47 + AGM RPT notice [V] | Yes — [K] upgraded |
+| 34 | GAIL stake in OPaL / BCPL / IGGL / Konkan | 4.19% / 70.00% / 20.00% / 93.50%→100% (6-Jul-26) | AR note 47 [V]; transcript [V] | OPaL **No** (Part 1 ~49%) |
+| 35 | APM ceiling path and Oct-2026 formula | $6.50 (FY24–25) → $6.75 (FY26) → $7.00 (FY27); formula Oct-26 $11.22 | PPAC RR T3.11 & Snapshot T23 [V] | Yes |
+| 36 | HPHT ceiling Oct-26–Mar-27 | $9.89/mmBtu (Apr–Sep-26 $8.90) | PPAC Snapshot T23 [V] | Yes |
+| 37 | PNGRB 2030 demand vision | ~297 MMSCMD (2040 ~495) | GAIL FY26 PPT citing PNGRB [V]; transcript [V] (PNGRB report itself not fetched) | Yes |
+| 38 | Clause 5A unbundling withdrawn | PNGRB notification dated 8-Jul-2026 omits reg. 5A | pngrb.gov.in amendment document [V] | Yes — upgraded from management claim |
+| 39 | Brent, Sep-2026 average | $116.8 (World Bank); $116.77 (PPAC); Aug $90.9 | World Bank Pink Sheet Oct-2026 [V]; PPAC Snapshot [V] | **No** — shared macro said ~$95 after April |
+| 40 | H1 FY27 LNG imports | 18,189 MMSCM, +4.5% YoY; consumption flat | PPAC Snapshot Oct-2026 T18 [V] | **No** — contradicts "LNG −25%" if read as the year |
+**Score: 37 of 40 figures [V] from primary documents read in this pass** (company filings/transcript/AR/PPT: 22; regulator/ministry PPAC/PNGRB: 13; World Bank: 2 overlapping); 2 [V-P1] (primary, earlier today); 1 [V-snip] (the ₹78.72 ask). Where two primary sources conflict (consumption 188.4 vs 189.2; LNG 26.0 vs 26.5 MMT; regas 53.5/57.7/58.5 MTPA), **PPAC is more credible** — it is the ministry's statistical cell compiling producer/DGCIS data, while GAIL's AR rounds and estimates.
+
+## 4.4 Gap log — every §H item and every priority gap in the brief
+| # | Gap (Part 1 §H / brief priority) | Status | Source / what was tried |
+|---|---|---|---|
+| H-1 / P-1 | India consumption, production, LNG FY15–FY21 [K] | **Filled** (FY14–FY26 full series) | PPAC Ready Reckoners June-2018, Dec-2021, FY2025-26 (public PDFs; no login) |
+| H-2 / P-2 | LNG import bill by year | **Filled** (FY18–FY26, US$; ₹ estimated for FY25–FY26) | PPAC RR T3.10 (DGCIS). TradeStat HS 271111 not needed |
+| H-3 / P-3 | 2026 spot JKM monthly | **Partly filled** — no free JKM series; filled with World Bank monthly Japan LNG, TTF, HH, Brent (Jan–Sep-2026) and IGX GIXI (Apr, Jun, Sep) | World Bank Pink Sheets Apr/Jul/Oct-2026; PPAC. JKM itself remains [V-snip] "reported $24–25" — label as press reports |
+| H-4 / P-4 | Previous INGPL tariff ₹58.61 | **Filled** | GAIL Reg-30 letter 28-11-2025 (NSE archive) |
+| H-5 / P-4 | GAIL's ₹78.72 ask | **Still open** | GAIL letter silent; press values differ (₹77.98–79.98); PNGRB order PDF not located; gailonline.com returned TLS errors/HTTP 503 |
+| H-6 / P-5 | Exact GAIL stakes | **Filled** (30 investees) | AR note 47 / BRSR list; AGM RPT notice. Correction: OPaL 4.19% |
+| H-7 | Energy InvIT / PIL FY26 financials | **Still open** (flows filled: 34.45 MMSCMD, 40.5% util.) | Not searched further within budget; PPAC T5.1 gives operating data |
+| H-8 / P-6 | Segment EBIT FY22–FY25 and Q2/Q3 FY26 | **Filled** (FY21–FY26; Q1 FY25–Q1 FY27) | Results PDFs via screener source links; Q4 FY26 (scanned) not needed — its numbers come as comparatives in the Q1 FY27 filing |
+| H-9 / P-7 | Marketing & transmission mix (FY26 PPT) | **Filled** | Rendered slides 18–19 to PNG |
+| H-10 | Q1 FY27 sector supply by domestic vs RLNG | **Still open** (Part 1 split stands as partly ambiguous) | Q1 FY27 PPT text layer ambiguous; slide not rendered (budget) |
+| H-11 / P-8 | Global peers | **Partly filled** — m-caps and revenues fetched (companiesmarketcap, INDICATIVE); EBITDA still [K]/[V-snip] | companiesmarketcap.com |
+| H-12 | FY26 consumption conflict (Care 212) | **Closed** — PPAC 188.4 and GAIL 189.2 agree; Care's was a pre-war forecast | PPAC RR |
+| H-13 | Import-dependence basis conflict | **Closed** — PPAC 50.1% (consumption basis) is the official figure; 54.35% is EI energy basis | PPAC RR |
+| H-14 / P-10 | Q1 FY26 marketing ₹661 Cr vs ₹1,071.60 Cr | **Closed** — ₹661.25 Cr = originally-reported **consolidated** segment PBIT (Q1 FY26 filing); ₹1,071.60 Cr standalone; consolidated later restated to ₹1,044.68 Cr | GAIL Q1 FY26 results PDF |
+| H-15 / P-11 | Network length definitions | **Closed** — 18,717 km operational incl. 5,642 km partially commissioned (PNGRB 30-6-2026); INGPL ~13,658–14,200 km | PPAC Snapshot T20; FY26 PPT |
+| H-16 / P-9 | NWG "$12–13" vs Parikh 20% premium; APM path | **APM path filled**; NWG conflict **still open** — PPAC tables do not publish an NWG price; management's $12–13 likely reflects NWG bought by tender/auction at market-linked prices (as the AR says other domestic gas is bought "at discovered prices… linked to WIM, JKM, Brent") rather than the 20%-premium formula [E] | PPAC RR T3.11; AR MD&A |
+| P-12 | Clause 5A withdrawal notification/date | **Filled** — PNGRB notification dated 8-Jul-2026 | pngrb.gov.in amendment doc (Gazette page itself not fetched) |
+| P-13 | GSPC/GSPL/Gujarat Gas restructuring | **Filled** (MCA 17-Apr; effective 1-May; record dates 12-May & 2-Jul; 1:3 GTL); rename date **open** (before 19-Jun, not 1-Jul) | NSE archive filings (GGL/GSPL 29-Apr-2026; GEL 19-Jun-2026) |
+| P-14 | Headline verifications | **Done** — see 4.1 (37/40 [V]) | — |
+| — | Q1 FY27 investor PPT & transcript | Transcript **re-read in full** [V]; PPT used from Part 1 | gailebank PDF |
+| — | West Asia crisis allocation (priority ladder) | **Partly filled** — Natural Gas (Supply Regulation) Order, 2026, 9-Mar-2026 under the Essential Commodities Act: Priority I (PNG-D, CNG-T, LPG production, pipeline fuel) 100%; II fertiliser 70%; III grid industry 80%; IV CGD I&C 80%; petchem then power curtailed; refineries ~65%; PPAC notifies pooled prices for diverted gas; GAIL with PPAC manages supplies [V-snip SCC Online]; gazette text not fetched | scconline.com |
+| — | Rating-agency notes | **Partly** — ICRA (Dec-2025): FY27 consumption +3–4%, LNG price moderation from CY2027, sector debt ~₹30,000 Cr by Mar-26 [V-snip]; IEA (2026): India gas demand −~8% in CY2026 [V-snip] | search summaries only |
+| — | GAIL Q2 FY27 | Board/call 30-Oct-2026 — not out | — |
+
+## 4.5 New insights the first pass missed
+1. **GAIL's transmission profit grows by regulatory order, not by volume — and the next order (1-Apr-2028) is set up to be large.** The 22-Mar-2023 order (₹58.61) lifted NG-transmission revenue **+55% in one year** (₹6,661 → ₹10,308 Cr, FY23 → FY24) while volume rose only 12%; the Nov-2025 order (+12%, ~₹1,200 Cr/yr) was explicitly **interim** (SUG and capacity only). The 2028 review must true-up **~5,600 km of partially-commissioned trunk lines** (JHBDPL/PBG, MNJPL, SAPL, KKBMPL-II) whose utilisation is **0–10%** (MNJPL 0.8%, SAPL 0%), plus actual capex/opex. Under cost-plus with normative volumes, empty new pipes *raise* the levelised tariff. With INGPL at only **67% utilisation**, the writer should frame transmission as a **regulated-asset-base story** with a 2028 catalyst, not a volume story. [V PPAC T5.1; GAIL letter; filings; E inference]
+2. **The September-2026 price re-spike changes the Q2/Q3 FY27 set-up.** Brent averaged **$116.8 in Sep-2026** (World Bank; PPAC $116.77), TTF $25.4, GIXI $28.4, while Henry Hub stayed ~$2.9. GAIL's JCC contract (9-month average, 2-month lag) vs 3-month-Brent sales and its ~25–30% open HH cross-index book both **widen again** when crude rises — management's July caution assumed convergence. The ₹4,500 Cr FY27 guidance (₹3,353 Cr done in Q1) now looks conservative on our arithmetic [E]; the risk is the mirror image when crude falls (management: "we may lose on that number"). Expect high quarter-to-quarter volatility, not mean reversion in a straight line.
+3. **The war did not shrink India's LNG intake for the half-year — it re-routed it.** PPAC: H1 FY27 LNG imports **+4.5%**, consumption flat; Dahej (Qatar-dependent) fell to 68% utilisation while **Dabhol (GAIL's Konkan LNG) rose to 43.9%**, Dhamra 46.5%, Hazira 42.4%. That is the economic case for GAIL taking Konkan LNG to 100% by cancelling MSEB's 6.5% through the NCLT-sanctioned capital reduction (6-Jul-2026) and for "West India optionality" in new SPAs. [V PPAC]
+4. **India's gas grid is mostly an LNG-evacuation system.** GAIL's FY26 transmission mix: **RLNG 44% + mid-term 24% + spot 4% ≈ 72% imported**; domestic APM/NAPM only 26% [V PPT]. Domestic gross production in FY26 (95 MMSCMD) is **below FY14 (97)** — twelve years without growth — and H1 FY27 is −4.4% [V PPAC]. Every incremental MMSCMD on GAIL's pipes is imported gas, so transmission volume is ultimately a function of LNG affordability (FY23 shows the downside: transmission PBIT margin 29%).
+5. **The APM "cap" cuts both ways.** In FY26 the formula price fell **below** the $6.75 cap in five months (as low as $6.21), so ONGC/OIL received less than the cap; in FY27 the cap ($7.00) binds every month (formula up to $11.59). The cap is an asymmetric option written by producers to CGD/fertiliser users — relevant for GAIL's LHC (1.12 MMSCMD APM) and its CGD sales. [V PPAC]
+6. **Hidden commitments grew sharply in FY26.** Lease commitments not yet commenced jumped to **₹9,847 Cr (from ₹3,088 Cr)** — new LNG-carrier charters to 2038 — and non-fund guarantees for group companies stand at **₹11,744 Cr**; the naphtha excise dispute is **₹3,768 Cr** with interest (Supreme Court). None is in net debt. Meanwhile **Petronet supplies ~₹26,600 Cr of GAIL's gas (≈21% of marketing revenue)** — the single counterparty through which a Gulf shock enters GAIL. [V AR]
+7. **GAIL is India's CBG offtaker.** 99 of 194 SATAT CBG plants sell through GAIL; GAIL bought **88.2 TMT of 96.5 TMT (91%)** of CBG in FY26 and **85.5 TMT in H1 FY27 alone** — the H1 run-rate is ~2× FY26 [V PPAC]. Small in ₹ today but the fastest-growing gas molecule GAIL touches, and the 5% CBO by FY29 makes it mandatory demand.
+8. **The marketing "normal" is the mid-point of an ₹8,000 Cr-wide range.** Standalone marketing PBIT: **FY21 −₹702 Cr, FY22 ₹4,932 Cr, FY23 ₹3,079 Cr, FY24 ₹6,067 Cr, FY25 ₹7,446 Cr (incl. ₹2,440 Cr one-off), FY26 ₹3,078 Cr, Q1 FY27 ₹3,481 Cr in one quarter** [V filings]. A writer should present ₹4,500 Cr as management's planning anchor inside a historically observed −₹700 to +₹7,400 Cr band.
+
+### New primer issues — `primers/gail-india.html` (add to the Part 3 §3.4 list)
+- **gail-india.html — Q1 FY26 marketing figure: keep, but label the basis.** "~₹661 Cr vs ~₹2,057 Cr" is the **originally-reported consolidated** marketing segment PBIT (₹661.25 Cr vs ₹2,056.58 Cr, Q1 FY26 results filing). Standalone was ₹1,071.60 Cr (vs ₹2,032.80 Cr); the Q1 FY27 filing restates consolidated Q1 FY26 to ₹1,044.68 Cr. Part 3's "verify / replace" note is withdrawn — add "(consolidated, as reported)".
+- **gail-india.html — prior tariff now verified:** the INGPL tariff rose from **₹58.61 to ₹65.69/mmBtu (+~12%, ~₹1,200 Cr a year) from 1-Jan-2026** under PNGRB order TO/NGPL/25-26/09 (27-Nov-2025), an **interim** order covering SUG and capacity only; full true-up at the **next review effective 1-Apr-2028**. Replace "cut" with "interim increase, below what GAIL sought (~₹78–80)"; drop the precise "₹78.72" unless a primary source is cited.
+- **gail-india.html — unbundling: cite the regulator, not just management:** PNGRB's notification dated **8-Jul-2026** omits regulation 5A (legal separation of transmission and marketing). The original deadline in the clause was **31-Mar-2017** (not "1-Apr-2027").
+- **gail-india.html — OPaL stake:** if the primer or its sources describe GAIL's OPaL holding as ~49% (or call OPaL a JV), correct to **4.19% equity (associate)** per AR FY26 note 47. BCPL is 70%.
+- **gail-india.html — utilisation:** add that GAIL's integrated network ran at **~67% of its 163.8 MMSCMD capacity in FY26 (PPAC)**, and the new eastern lines (MNJPL, SAPL) at ~0–1% — context for both the tariff case and volume risk.
+- **gail-india.html — network length wording:** "~18,700 km" is right but **~5,600 km of it is only partially commissioned** (PNGRB, 30-Jun-2026: 13,075 km fully operational + 5,642 km partial).
+- **gail-india.html — sourcing mix:** add FY26 marketing sources (APM/NAPM 35%, mid-term 28%, RLNG 17%, overseas sales 13%, spot 4%, RIL-bp 3%) and transmission mix (RLNG 44%, APM/NAPM 26%, mid-term 24%) from the FY26 analyst-meet deck.
+- **gail-india.html — segment history:** the primer's profit narrative should use the verified standalone segment PBIT series (FY22–FY26 marketing 4,932 / 3,079 / 6,067 / 7,446 / 3,078; transmission 3,806 / 1,920 / 4,524 / 5,488 / 6,229; petchem 1,245 / −1,061 / −137 / −37 / −1,408 ₹ Cr) and note that FY24's jump came from the Apr-2023 tariff order (+55% transmission revenue).
+- **gail-india.html — commitments/risks:** add lease commitments of ₹9,847 Cr (LNG ship charters to 2038), the ₹3,768 Cr naphtha excise contingent liability (Supreme Court), and GAIL's ~₹26,600 Cr annual gas purchases from Petronet (related party) as the Qatar-FM transmission channel.
+- **gail-india.html — India gas facts:** PPAC FY26: consumption 68.8 bcm (188 MMSCMD, −3.6%), LNG 26.0 MMT costing **US$13.4 bn**, import dependence 50.1%; H1 FY27 LNG imports +4.5% despite the war.
+- **gail-india.html — CBG:** GAIL handled 91% of India's SATAT CBG sales in FY26 (88 TMT) and 85.5 TMT in H1 FY27 (PPAC).
+- **gail-india.html — Q2 FY27 preview (for the next refresh):** Brent re-spiked to ~$117 in Sep-2026 (World Bank/PPAC) with HH ~$2.9 — the JCC-lag and HH cross-index gains may persist into Q2/Q3 FY27, against management's July guidance of a decline.
+
+### Flags for the orchestrator (outside this dossier's remit)
+- The shared macro context ("Brent peak ~$118; ceasefire 7-Apr-2026; Brent ~$95 thereafter") is contradicted by two primary sources: Brent averaged **$120.4 in Apr-2026** and **$116.8 in Sep-2026** (World Bank Pink Sheet; PPAC Snapshot). Sibling dossiers using the same line may need a correction.
+- PPAC public PDFs (Ready Reckoner, monthly Snapshot) are freely downloadable via `ppac.gov.in/download.php?file=rep_studies/…` — no login needed — and carry the gas, LNG-value, pipeline-flow, terminal and price tables that earlier passes believed were login-gated.
+
+*End of Part 4 (deep-research supplement, 2026-10-23).*

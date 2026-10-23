@@ -23,3 +23,19 @@
 - **gail-india.html — ownership detail:** promoter 51.85% (Sep-26) vs "President of India 51.52%" in the FY26 PPT; other PSUs (ONGC, IOC) hold a further 7.60% ("Government" on screener).
 - **General:** the primer's sources list cites ₹78.72 ask and "Q1 FY26 ₹661 Cr" from secondary press; replace with filings where possible (PNGRB MIS; GAIL results PDFs).
 
+
+## From Gas Transmission & Marketing deep-research pass (2026-10-23, gas-transmission-industry.md §4.5)
+
+- **gail-india.html — Q1 FY26 marketing figure: keep, but label the basis.** "~₹661 Cr vs ~₹2,057 Cr" is the **originally-reported consolidated** marketing segment PBIT (₹661.25 Cr vs ₹2,056.58 Cr, Q1 FY26 results filing). Standalone was ₹1,071.60 Cr (vs ₹2,032.80 Cr); the Q1 FY27 filing restates consolidated Q1 FY26 to ₹1,044.68 Cr. Part 3's "verify / replace" note is withdrawn — add "(consolidated, as reported)".
+- **gail-india.html — prior tariff now verified:** the INGPL tariff rose from **₹58.61 to ₹65.69/mmBtu (+~12%, ~₹1,200 Cr a year) from 1-Jan-2026** under PNGRB order TO/NGPL/25-26/09 (27-Nov-2025), an **interim** order covering SUG and capacity only; full true-up at the **next review effective 1-Apr-2028**. Replace "cut" with "interim increase, below what GAIL sought (~₹78–80)"; drop the precise "₹78.72" unless a primary source is cited.
+- **gail-india.html — unbundling: cite the regulator, not just management:** PNGRB's notification dated **8-Jul-2026** omits regulation 5A (legal separation of transmission and marketing). The original deadline in the clause was **31-Mar-2017** (not "1-Apr-2027").
+- **gail-india.html — OPaL stake:** if the primer or its sources describe GAIL's OPaL holding as ~49% (or call OPaL a JV), correct to **4.19% equity (associate)** per AR FY26 note 47. BCPL is 70%.
+- **gail-india.html — utilisation:** add that GAIL's integrated network ran at **~67% of its 163.8 MMSCMD capacity in FY26 (PPAC)**, and the new eastern lines (MNJPL, SAPL) at ~0–1% — context for both the tariff case and volume risk.
+- **gail-india.html — network length wording:** "~18,700 km" is right but **~5,600 km of it is only partially commissioned** (PNGRB, 30-Jun-2026: 13,075 km fully operational + 5,642 km partial).
+- **gail-india.html — sourcing mix:** add FY26 marketing sources (APM/NAPM 35%, mid-term 28%, RLNG 17%, overseas sales 13%, spot 4%, RIL-bp 3%) and transmission mix (RLNG 44%, APM/NAPM 26%, mid-term 24%) from the FY26 analyst-meet deck.
+- **gail-india.html — segment history:** the primer's profit narrative should use the verified standalone segment PBIT series (FY22–FY26 marketing 4,932 / 3,079 / 6,067 / 7,446 / 3,078; transmission 3,806 / 1,920 / 4,524 / 5,488 / 6,229; petchem 1,245 / −1,061 / −137 / −37 / −1,408 ₹ Cr) and note that FY24's jump came from the Apr-2023 tariff order (+55% transmission revenue).
+- **gail-india.html — commitments/risks:** add lease commitments of ₹9,847 Cr (LNG ship charters to 2038), the ₹3,768 Cr naphtha excise contingent liability (Supreme Court), and GAIL's ~₹26,600 Cr annual gas purchases from Petronet (related party) as the Qatar-FM transmission channel.
+- **gail-india.html — India gas facts:** PPAC FY26: consumption 68.8 bcm (188 MMSCMD, −3.6%), LNG 26.0 MMT costing **US$13.4 bn**, import dependence 50.1%; H1 FY27 LNG imports +4.5% despite the war.
+- **gail-india.html — CBG:** GAIL handled 91% of India's SATAT CBG sales in FY26 (88 TMT) and 85.5 TMT in H1 FY27 (PPAC).
+- **gail-india.html — Q2 FY27 preview (for the next refresh):** Brent re-spiked to ~$117 in Sep-2026 (World Bank/PPAC) with HH ~$2.9 — the JCC-lag and HH cross-index gains may persist into Q2/Q3 FY27, against management's July guidance of a decline.
+
