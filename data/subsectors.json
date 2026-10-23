@@ -1481,6 +1481,23 @@
         "Laminate exports"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Development Financial Institutions",
+      "slug": "financial-institution",
+      "file": "financial-institution.html",
+      "sector": "Finance",
+      "subsector": "Financial Institution",
+      "companies": 1,
+      "accent": "#833B07",
+      "hook": "A lender with no loans: how India's development financial institutions became run-off books, why IFCI trades on its StockHolding and NSE look-through, how the state sells or merges old DFIs instead of recapitalising them, and why NaBFID works.",
+      "tags": [
+        "Run-off and the FY31 wall",
+        "SHCIL, NSE and the SOTP",
+        "Sell, merge, never regrow",
+        "NaBFID and the DFI reborn"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1836,7 +1853,7 @@
       "sector": "Finance",
       "sub": "Financial Institution",
       "companies": 1,
-      "report": null
+      "report": "financial-institution.html"
     },
     {
       "sector": "Finance",
