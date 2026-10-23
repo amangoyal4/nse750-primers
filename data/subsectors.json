@@ -1396,6 +1396,23 @@
         "Care Health and GST 2.0"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Coal",
+      "slug": "coal",
+      "file": "coal.html",
+      "sector": "Mining",
+      "subsector": "Coal",
+      "companies": 2,
+      "accent": "#620E0E",
+      "hook": "A policy price in a market squeeze: how Coal India and GMDC make money when the state sets the price but the weather sets the profit — FSA vs e-auction realisations, the FY26 glut and FY27 squeeze, wages and state mineral taxes, captive miners eroding the monopoly, imports and the peak-coal hedges.",
+      "tags": [
+        "The e-auction premium",
+        "Glut to squeeze",
+        "Wages, cess and the state",
+        "Who mines India's coal next"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -2093,7 +2110,7 @@
       "sector": "Mining",
       "sub": "Coal",
       "companies": 2,
-      "report": null
+      "report": "coal.html"
     },
     {
       "sector": "Miscellaneous",
