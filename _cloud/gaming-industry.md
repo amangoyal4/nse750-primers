@@ -1062,3 +1062,421 @@ Peer note for the writer: the member row is Nazara only. All other rows are REFE
 - Entrackr, Nazara Q2 FY26 (12-Nov-2025): https://entrackr.com/fintrackr/pokerbaazi-write-off-pushes-nazara-into-losses-in-q2-fy26-10651956 [V]
 - stockanalysis.com statistics pages (23-Oct-2026): /stocks/rblx, /stocks/ttwo, /stocks/ntes, /stocks/se, /stocks/pltk, /stocks/ea, /quote/krx/259960, /quote/tyo/3659, /quote/epa/UBI, /quote/sto/EMBRAC.B, /quote/hkg/0700, /quote/nse/NAZARA [V]
 - Search-summary only [V-snip]: Tribune/Deccan Herald (GST +412%), Vision IAS/Quint (SC GST totals), Sensor Tower India 2025 (8.45bn downloads), Lumikai FY24 (Outlook Business), FICCI–EY 2025 (esports+casual), Krafton 2025 results, JetSynthesys FY25 (Entrackr), MPL FY25 (Moneycontrol), Zupee/WinZO FY24, Olympic Esports Games (Wikipedia/Sheep Esports), Bluetile 50% deal coverage (Storyboard18/agbrief), Nazara split+bonus record date (HDFC Sky/Business Standard).
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-23)
+
+Second-pass, primary-source supplement compiled 23-Oct-2026 (evening, after the close) under `_cloud/ref/brief-deep-research.md`. Scratch notes: `/tmp/gaming-deep/notes.md`. **Q2 FY27 is not out** (board 26-Oct-2026; call 27-Oct-2026 12:00 IST). Q1 FY27 (results 03-Aug-2026, call 04-Aug-2026) is the latest quarter.
+
+**What was read in full this pass (all fetched this session):**
+- Nazara **FY26 Annual Report** (27th AR, 366 pages, filed on BSE 03-Sep-2026): https://www.bseindia.com/xml-data/corpfiling/AttachHis/c3a8af1b-6e93-480b-884c-d8b8d9641c41.pdf. Read: MD&A (industry, business overview, investments table, risk factors), consolidated P&L, revenue note 22 (geography and revenue type), goodwill note 4A, investments/associates note 41B, contingent liabilities note 31, discontinued operations note 44, loss-of-control note 45, standalone investment note (Moonshine impairment), shareholding notes.
+- **Q1 FY27 investor presentation** (BSE, 03-Aug-2026) and **Q1 FY27 call transcript** (04-Aug-2026, filed 06-Aug-2026), both re-downloaded and read in full, including image-only slides rendered to PNG (Kiddopia KPI table).
+- **FY26 / Q4 presentation** (12-May-2026) and **FY26 call transcript** (13-May-2026), re-read, including the image-only Kiddopia KPI slide.
+- **NSE filings**: the announcements feed for NAZARA from Jun-2025 to 23-Oct-2026 (200 items); the NSE pledge-data record for the 30-Sep-2026 shareholding pattern; SAST Reg 31(1) (Plutus, 08-Jul-2025) and Reg 31(4) (Plutus, 10-Apr-2026); the warrant allotment (05-Jun-2026); loan intimations (30-Jul, 13-Aug, 21-Sep-2026); Funky Monkeys stake updates (21-Aug, 03-Sep-2026); Paper Boat scheme withdrawal (07-Jul-2026); Nazara UK funding timeline (16-Jun-2026).
+- **Screener** consolidated page re-pulled 23-Oct-2026 (10-year P&L, balance sheet, cash flow, ratios, nine quarters).
+- Industry and regulatory sources are listed in §4.3 and §4.4.
+
+**Tags in Part 4.** [V] = fetched this session from the source named next to it. [V-snip] = search-result summary only. [K] = memory. [E] = my arithmetic or judgement. "AR" = the FY26 Annual Report above. AR amounts are in ₹ lakh in the source and are converted here to ₹ Cr (÷100).
+
+**Section order.** 4.0 Supersedes and 4.1 Verification table are placed directly below (they were written last, after every fetch). Then 4.2 Company, 4.3 Industry data, 4.4 Gap log, 4.5 New insights and primer issues.
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Where (Part 1–3) | Old value | New value | Source (this session) |
+|---|---|---|---|---|
+| S1 | Trap 1, §2.1, §2.4, §B4 | Global games market ~US$185–190bn [K]; India ~0.8% of global | **US$201.6bn (2025, +9.1%)**; mobile US$113.3bn; **India 0.74%** (US$1.5bn ÷ 201.6) | Newzoo report summary, 26-Jun-2026 [V]; E for share |
+| S2 | §0, §2.2, §9, §2.1.3, §A7, §12, §H10 | Nazara earns "~75–80% of revenue overseas" [E] | **87.3% outside India in FY26** (India ₹232.7 Cr = 12.7%; US 41.9%, UK 22.4%); FY25 77.6% | FY26 AR note 22(a) [V] |
+| S3 | §0, §8, §2.1.5, §3.4 | Moonshine cost "~₹832 Cr [K]" / primer "₹820 Cr" | **₹1,058.5 Cr** (cash ₹758.3 Cr + share swap/ESOP ₹300.2 Cr incl. Openplay ₹104.34 Cr) for **46.07%** | AR MD&A investments table; standalone note C [V] |
+| S4 | §5.2 Moonshine row; §2.1.5 | Stake "~46–47.7%"; revenue n/a | **46.07%**; Moonshine FY26 revenue **₹312.8 Cr**, loss **₹131.6 Cr**; carrying value Mar-26 **₹78.5 Cr** (not ₹96.53 Cr, which was the Sep-25 figure) | AR note 41B [V] |
+| S5 | Trap 6, §C.3, §2.3, §H8 | FY26 screener PAT ₹82 Cr vs company ₹67 Cr "gap unexplained" | **₹81.94 Cr = continuing ₹67.02 Cr + discontinued ₹14.92 Cr** (Openplay sale gain ₹15.12 Cr); **owners' share ₹95.85 Cr** (NCI −₹13.9 Cr) | AR consolidated P&L, note 44 [V] |
+| S6 | Trap 9, E11, §2.1.4, §C.2 | Kiddopia subscribers per the Q3 FY26 deck (232,295 … 221,458); "FY26 deck 212,551–222,584" ordered oldest to newest | KPI-table series: **Q4 FY25 222,584 · Q1 FY26 219,180 · Q2 212,551 · Q3 215,863 · Q4 FY26 220,362 · Q1 FY27 220,012** (flat). The FY26 bar chart is mislabelled | FY26 deck slide 8; Q1 FY27 deck slide 14 (rendered) [V] |
+| S7 | §9.1, E11, §F | Kiddopia LTV/CAC "1.67 → 1.89 → 2.08"; metric "cost per trial US$35.8" | Restated in the Q1 FY27 deck: **Q1 FY26 1.77 · Q2 1.76 · Q3 1.80 · Q4 1.92 · Q1 FY27 2.08**. FY26 decks report **CAC per subscriber US$70.1 → US$62.6**, ARPU US$7.81, churn 6.6% (Q1 FY27) | Q1 FY27 deck [V] |
+| S8 | §0, §7.2, §A2, §B1, §D3, §H4 | GST demands "₹1.12 lakh Cr across 71 notices (FY23–FY24)"; Vision IAS/Quint totals | **91 SCNs >₹1.44 lakh Cr; 158 cases ₹1,53,167 Cr (Jul-2017–Jan-2025)**, Rajya Sabha reply (MoS Finance), Mar-2025. Stat strip: "over ₹1.4 lakh crore" | caclubindia report of the RS reply [V] |
+| S9 | §0, §7.2, §G | SC GST ruling "May-2026 (reported 27-May)"; case name not confirmed | ***DGGI (HQs) v Gameskraft Technologies Pvt Ltd*, SLP(C) 19366–19369/2023, decided 27-May-2026** (Pardiwala, Mahadevan JJ); Karnataka HC 11-May-2023 set aside; 23-Sep-2022 SCNs restored | LiveLaw [V] |
+| S10 | §7.2, §B1 policy arithmetic | "Annualised ~₹13,800 Cr — about half the RMG pool" | **₹7,000–14,000 Cr a year** (six-month actual ₹6,909 Cr; FY25 expectations ₹7,500 Cr and ₹14,000 Cr conflict) | V-snip; E |
+| S11 | §7.1 timeline | SC transfer "8-Sep (approx.; year missing)" | **8-Sep-2025**, Pardiwala and Viswanathan JJ, Art. 139A; case **T.C.(C) 133/2025, *Head Digital Works v UoI*** | SC Observer [V] |
+| S12 | §7.1 litigation; §0; §G | "Three-judge bench: CJI Surya Kant, Justices Joymala Bagchi and V. Mohana"; latest "19-Aug-2026" | Bench **CJI Surya Kant, Joymalya Bagchi, V.M. Pancholi**; **latest hearing 5-Aug-2026** (final hearing agreed; pleadings; no stay; no date fixed). The 19-Aug article reported on it | SC Observer; Kashmir Observer/PTI 05-Aug-2026 [V] |
+| S13 | §7.1 | Notification numbers "not read" | Commencement **S.O. 1994(E), 22-Apr-2026 → in force 1-May-2026**; OGAI (s.8) and investigating officers (s.15) notified the same day | TeamLease RegTech; SCC Online [V] |
+| S14 | §2.1, §H1 | FICCI–EY 2025 figure "not found; do not invent" | FICCI–EY 2026: **video games −17% in 2025** after the ban; IAP +15%; non-money video games +14%; **video games + esports ₹6,300 Cr (2025) → ₹9,200 Cr (2028)**; 515–525m gamers; implied total ≈ ₹19,300 Cr [E] | EY newsroom; AnimationXpress [V] |
+| S15 | §2.1 Naavik row | "Naavik/Sensor Tower non-RMG mobile US$1.1bn → 2.4bn by 2029 [V-snip]" | Same figures, now **[V]** as cited in Nazara's FY26 AR MD&A (source: mixi "India's State of Play", 08-Jul-2026); adds **2026F US$1.5bn (+35%)** | AR [V] |
+| S16 | §5.2, §3.2(b), E5 | WinZO FY24 revenue ₹1,055 Cr [V-snip] | **Conflict:** Inc42 data page ₹892 Cr total revenue (FY24). Use "₹0.9–1.06k Cr" or drop | Inc42 [V] |
+| S17 | §5.2, §3.2(b) | Games24x7 FY25 "n/a" | **FY25 total revenue ≈ ₹2,236 Cr (FY24 ₹2,273.5 Cr); loss ₹64–73 Cr** | Inc42 data page [V; secondary database] |
+| S18 | §2.1.3, §3.3, §3.4, §H17 | NODWIN inside FY26 consolidated "~₹155 Cr [E]"; primer ₹348 Cr | **≈ ₹156–160 Cr**: statutory eSports segment ₹307.4 Cr − Absolute Sports ₹147 Cr; cross-check ₹658 Cr − ₹497.8 Cr | AR notes 22, 41B [V]; E |
+| S19 | §2.1.7, §3.3, §H12 | Jhunjhunwala "sold or below 1%; not confirmed" | **Nil at Mar-26** (7.06% at Mar-25) | AR shareholder note [V] |
+| S20 | Trap 7, §2.1.7, §H11 | Pledge 87.7% "screener machine flag; verify" | **87.74% of promoter holding encumbered = 29.82% of equity** (SHP 30-Sep-2026); originates with Plutus/Khandelwal encumbrance pre-dating their promoter classification | NSE pledge data; SAST Reg 31(1) 08-Jul-2025 [V] |
+| S21 | §2.1.6, §2.2 JSON | Capital: "₹494 Cr FY26 (primer ~₹486 Cr Kamath/Axana-linked)"; no warrants | **Axana Estates LLP preferential: 50 lakh shares at ₹990 (FV ₹4) = ₹495 Cr, 16-Jun-2025** → open offer (1,889 shares tendered). **Warrants 1,82,31,000 at ₹260 (05-Jun-2026); 1,42,31,000 converted (30-Jul/03-Aug-2026); 40 lakh outstanding**; fully diluted ≈ 41.26 Cr shares | AR; NSE filings [V] |
+| S22 | §H16, §0 | Bluetile CY25 revenue ₹1,405 Cr vs "₹1,460 Cr" conflict | **₹1,405 Cr (US$153.6m)** — deck and AR agree; ₹1,460 Cr was a spoken figure | Bluetile deck; AR [V] |
+| S23 | §2.1.9, §12 | Bluetile US$214m "by 1-Apr-2027" (no schedule) | **~US$75m within ~90 days of 04-Aug-2026 (≈ early Nov-2026), ~US$35m Dec-2026, balance by 1-Apr-2027** | Q1 FY27 call [V] |
+| S24 | §2.1.5 table (Funky Monkeys) | "Stake increase" (unspecified) | **68.10%** (64% via ₹8 Cr primary, 21-Aug-2026; +4.10% for ₹1.9 Cr, 03-Sep-2026) | NSE filings [V] |
+| S25 | §9.1 / E11 | Bluetile Q1 FY26 margin 16.6% | Deck 16.6% vs call "17.6%" — **keep the deck (16.6%)**; note the discrepancy | Q1 FY27 deck/call [V] |
+| S26 | §7.4 | Asian Games 2026 esports "verify medal events" | **11 esports medal titles** (OCA, Feb-2025); India no esports medal reported [V-snip] | DT Next/PTI [V] |
+| S27 | §10.1 / §B3 | Goodwill & intangibles "₹1,421 Cr" (no goodwill split) | Goodwill **₹794.7 Cr** (gaming 534.3, esports 40.3, ad-tech 220.1); no FY26 impairment; Smaaash goodwill ₹108.6 Cr provisional | AR note 4A [V] |
+| S28 | §0 ("one-quarter of Mar-25 net worth") | ₹914.7 Cr ≈ ¼ of ₹2,863 Cr | Total cost ₹1,058.5 Cr written off ≈ **37% of Mar-25 equity / 30% of Mar-26 equity** | AR [V]; E |
+
+## 4.1 Verification table — 40 argument-carrying figures
+
+Columns: figure | value | primary source (fetched this session) | fetched? | agrees with Part 1–3? Primary = company filing (AR, deck, transcript, exchange filing), regulator, government, or the publisher's own release. 
+
+| # | Figure | Value | Source | Fetched | Agrees? |
+|---|---|---|---|---|---|
+| 1 | Nazara FY26 revenue | ₹1,828.98 Cr | FY26 AR consolidated P&L (BSE c3a8af1b); screener 1,829 | V primary | ✓ |
+| 2 | Nazara FY26 company EBITDA | ₹255 Cr (13.9%); AR line items give ₹254.8 Cr [E] | FY26 deck (BSE f3a89402); AR P&L | V primary | ✓ |
+| 3 | FY26 profit for the year (total) | ₹81.94 Cr | AR P&L | V primary | ✓ (now reconciled) |
+| 4 | FY26 PAT, continuing operations | ₹67.02 Cr | AR P&L; deck | V primary | ✓ |
+| 5 | FY26 PAT attributable to owners | ₹95.85 Cr | AR P&L | V primary | **New** |
+| 6 | NODWIN deconsolidation gain | ₹1,098.46 Cr (retained FV ₹1,445.9 Cr) | AR note 45 | V primary | ✓ |
+| 7 | Moonshine impairment (consolidated) | ₹914.70 Cr | AR note 41B; auditor KAM | V primary | ✓ |
+| 8 | FY26 share of associates | ₹(278.48) Cr | AR note 41B | V primary | ✓ |
+| 9 | Moonshine total cost | ₹1,058.5 Cr for 46.07% | AR MD&A investments table | V primary | ✗ supersedes ₹832/820 Cr (S3) |
+| 10 | Moonshine group GST notices | ₹10,369 Cr (share ₹4,777 Cr) | AR note 41B(d) | V primary | **New** |
+| 11 | Nazara revenue from India | 12.7% (₹232.7 Cr) | AR note 22(a) | V primary | ✗ supersedes 75–80% overseas (S2) |
+| 12 | Goodwill (net) Mar-26 | ₹794.7 Cr | AR note 4A | V primary | **New** |
+| 13 | FY26 gaming segment revenue / EBITDA | ₹1,072.1 Cr / ₹265 Cr (24.7%) | AR note 22 (segment revenue); FY26 deck/call (EBITDA) | V primary | ✓ |
+| 14 | Q1 FY27 revenue / EBITDA / PAT; comparable growth | ₹429 Cr / ₹46 Cr (10.8%) / −₹82 Cr; ~+9% ex-NODWIN | Q1 FY27 deck (BSE dfebbdb7) | V primary | ✓ |
+| 15 | Q1 FY27 gaming revenue / margin | ₹275 Cr (+14%) / 19.5% | Q1 FY27 deck | V primary | ✓ |
+| 16 | Bluetile Q1 FY27 revenue / EBITDA / UA ratio | ₹518 Cr / ₹55 Cr / 85% | Q1 FY27 deck | V primary | ✓ |
+| 17 | Bluetile CY25 revenue / EBITDA | US$153.6m (₹1,405 Cr) / US$27.7m (₹254 Cr) | Bluetile deck (BSE 6304896e); AR MD&A | V primary | ✓ (₹1,460 Cr rejected) |
+| 18 | Bluetile price and structure | US$303m fixed cash; US$89m at first close + US$214m by 1-Apr-2027 | Q1 FY27 deck; call | V primary | ✓ |
+| 19 | Bluetile payment timing | ~US$75m ≈ early Nov-2026; ~US$35m Dec-2026 | Q1 FY27 call transcript | V primary | **New** |
+| 20 | Original Bluetile terms | 50% for US$100.3m (US$59.7m first close + US$40.6m in 6 months); put/call at 6.6× trailing EBITDA; earn-out US$98.2m | Bluetile deck | V primary | ✓ |
+| 21 | Preferential issue Oct-2026 | 2,38,81,711 shares × ₹306 = ₹730.78 Cr | NSE announcement 12-Oct-2026; arithmetic | V primary | ✓ |
+| 22 | Shares outstanding | 40,85,77,735 (= 37,04,65,024 Mar-26 + 1,42,31,000 warrant conversions + 2,38,81,711) | AR; NSE filings | V primary | ✓ (now reconciled) |
+| 23 | Warrants | 1,82,31,000 at ₹260; 40 lakh outstanding | NSE filing 05-Jun-2026; conversion filings | V primary | **New** |
+| 24 | Promoter encumbrance | 87.74% of promoter holding; 29.82% of equity (SHP 30-Sep-2026) | NSE pledge data; SAST Reg 31(1) | V primary | ✓ (verified) |
+| 25 | Promoter holding | 33.98% (30-Sep-2026 SHP, pre-allotment) → 31.99% (Oct-2026 after dilution) | NSE pledge record; screener | V primary / V screener | ✓ |
+| 26 | Kiddopia LTV/CAC and subscribers | 2.08×; 220,012 iOS subs (Q1 FY27) | Q1 FY27 deck slide 14 | V primary | ✓ / series corrected (S6) |
+| 27 | NODWIN FY26 revenue / EBITDA | ₹658 Cr / ₹21 Cr; post-deconsolidation revenue ₹497.8 Cr, loss ₹461.5 Cr | FY26 deck; AR note 41B | V primary | ✓ |
+| 28 | Market cap | ₹16,425 Cr at ₹402 | screener 23-Oct-2026; arithmetic on 40.86 Cr shares | V (aggregator) | ✓ |
+| 29 | Lumikai CY25 India video-games market | US$1.5bn (+17%); CY30 US$3.2bn | Outlook Respawn report of Lumikai report, 23-Mar-2026 | V (press, not the PDF) | ✓ |
+| 30 | Lumikai gamers / payers | 555m (−9% from 609m); 25% | same | V (press) | ✓ |
+| 31 | RMG share of 2024 industry | ₹27,438 Cr of ₹31,938 Cr (85.7%) | Outlook Business citing WinZO–IEIC (Mar-2025) | V (press) | ✓ |
+| 32 | FICCI–EY 2024 online gaming | ₹23,200 Cr (₹232 bn); 77% transaction-based; ₹316 bn by 2027 (pre-ban) | PIB backgrounder 30-Apr-2026 | V primary (govt) | ✓ |
+| 33 | FICCI–EY 2025 video games | −17% after the ban; IAP +15% | EY newsroom release, Mar-2026 | V primary (publisher) | **New** (S14) |
+| 34 | PROGA commencement | S.O. 1994(E) of 22-Apr-2026; in force 1-May-2026 | PIB 30-Apr-2026 (date) [V primary]; TeamLease (S.O. number) [V secondary] | V | ✓ + number added |
+| 35 | OGAI composition | Attached office of MeitY; chaired by Additional Secretary; JS-level members from Home, Finance, I&B, MYAS, Law | PIB 30-Apr-2026 | V primary | ✓ |
+| 36 | Government harm estimate | ~45 crore people; >₹20,000 Cr losses | PIB 30-Apr-2026 | V primary | ✓ |
+| 37 | SC GST judgment | *DGGI v Gameskraft*, 27-May-2026, 28% upheld, retrospective | LiveLaw (law report) | V (legal press) | ✓ + case details (S9) |
+| 38 | GST notices outstanding | 91 SCNs >₹1.44 lakh Cr; 158 cases ₹1.53 lakh Cr (to Jan-2025) | caclubindia report of the RS written reply, Mar-2025 | V (press of parliamentary reply) | ✗ supersedes ₹1.12 lakh Cr (S8) |
+| 39 | Dream Sports / Gameskraft FY25 | Dream: rev ₹6,759 Cr, PAT −₹479 Cr (FY24 +₹1,295 Cr); Gameskraft: rev ₹3,896 Cr, PAT ₹706 Cr | Entrackr (RoC filings), re-fetched | V (press of RoC) | ✓ |
+| 40 | Global market and peer multiples | Newzoo 2025 US$201.6bn; Krafton EV/EBITDA 4.04×, Playtika 4.48×, Tencent 9.97× | Newzoo summary (gamedevreports); stockanalysis 23-Oct-2026 | V (secondary/aggregator) | ✗ market size (S1); ✓ multiples |
+
+**Count:** all 40 figures were fetched this session. **30 are [V] from primary sources** (rows 1–27 company filings and NSE/BSE records; rows 32, 33, 35, 36 government or publisher; row 34 partly). Rows 28–31 and 37–40 rest on reputable secondary or aggregator sources (screener, Lumikai/WinZO–IEIC via press, LiveLaw, Entrackr, Newzoo summary, stockanalysis).
+
+**Where sources conflict, which wins:**
+- Bluetile CY25 revenue: deck + AR (₹1,405 Cr) over the spoken ₹1,460 Cr.
+- Bluetile Q1 FY26 margin: deck 16.6% over the spoken 17.6%.
+- Moonshine cost: AR (₹1,058.5 Cr) over memory.
+- GST notices: the later RS reply (Jan-2025 cut-off) over the Dec-2023 figure.
+- WinZO FY24: unresolved (Inc42 ₹892 Cr vs press ₹1,055 Cr, possibly standalone vs consolidated).
+- India market size: Lumikai (market, incl. global publishers) and FICCI–EY (industry revenue) measure different things — keep both, labelled.
+
+## 4.2 Nazara Technologies (NAZARA · 543280) — primary-document pack
+
+### 4.2.1 Guidance and management-commentary digest (latest call first; paraphrased)
+
+**Q1 FY27 call, 04-Aug-2026** (hosted by ICICI Securities; Nitish Mittersain then MD & CEO; Rohit Sharma ED; CFO Rakesh Shah; Bluetile CPO Maxime Loppin; Raymond Stauffer absent because he was on a flight) [V transcript, BSE 85b1cb15]:
+1. **No formal guidance.** Asked directly for group revenue, EBITDA or margin guidance: "Not at this point of time."
+2. **Bluetile payment schedule (new detail not in the deck).** Of the US$214m balance, **about US$75m falls due within 90 days of the call (i.e. by early Nov-2026)**, about **US$35m in Dec-2026**, and the rest before 1-Apr-2027. Head of Corporate Development Anupriya Sinha Das said "within the total of $131 million beyond that"; 214 − 75 = 139, so one of the numbers is misspoken [E]. The writer should say "about US$75m by early November, about US$35m in December, the remainder by 1-April-2027".
+3. **Why the price was fixed.** The original earn-outs were performance-based and "could go up to 180% of the committed payouts". The board's Investment Committee judged that Bluetile's trajectory would make the earn-outs larger than the fixed price. Under the old structure, 50% of Bluetile's cash would have leaked to the founders, and a CEO with earn-out targets tied to one subsidiary would have been conflicted.
+4. **Funding the balance.** Options named: Bluetile's own cash (**about US$20m**), cash generated by Nazara and Bluetile until April 2027, "some component of debt", equity (the ₹730.78 Cr preferential issue followed on 12-Oct), and possible stake sales (a secondary sale of NODWIN shares was not ruled out).
+5. **Bluetile margin is a choice.** The growth was "not organic… mostly driven by paid acquisition". Bluetile margin was **"17.6%" a year earlier, "around 11%" now** (Loppin; the deck prints 16.6%). Management said margins are "deferred because all the user acquisition cost is being absorbed upfront", and there are "no caps" on UA while LTV/CAC guardrails hold.
+6. **Curve.** The Q1 margin of 27% is "lower than our expectation for the full year", against "almost 40%" in FY26. New titles typically take 12–18 months to develop. Releases: Sovereign Tower (Aug-2026), Dragon Shelter (Sep-2026; ~130k Steam wishlists), and more unannounced titles before year-end. Badlands Crew sold 50–60k copies. Human: Fall Flat is at "60 million units shifted". No in-app purchases are planned for the new titles.
+7. **Fusebox.** Love Island drives "most of the growth". Big Brother is "reaching that threshold" to scale, and The Traitors (global rights) launches "soon"; Nazara filed a press release on 05-Oct-2026, "Step into the castle: The Traitors interactive game" [V NSE feed]. Nitish agreed that "high 20%+" growth was plausible "if executed correctly".
+8. **Sportskeeda** has "hit their bottom". Revenue is expected to rise in Q2 and more so in Q3/Q4 with the US sports season. Pro Football Network made a 19% EBITDA margin in Q1 FY27.
+9. **Ad-tech.** **Pass-through media spend is 60–80% of reported ad-tech revenue** (Datawrkz CEO). The strategy shifts to the Vizibl DSP; the CEO has moved to the UK.
+10. **Offline.** About ₹50 Cr committed across Smaaash 2.0 and Funky Monkeys (including a stake increase, since executed: 60% → 64% → 68.10%, Aug–Sep 2026 [V NSE]). Smaaash 2.0 opens at Lower Parel, Mumbai in Q4 FY27 (Jan–Mar 2027).
+11. **Moonshine / tax.** The Q1 FY27 associate loss and impairment are "mainly related to Moonshine… after the recent judgments, we have written it off completely". Exposure to RMG tax liabilities is "limited to the extent of our investments".
+12. **NODWIN** (founder Akshat Rathee): Comic Con goes from 11 to 14 domestic shows plus 2–3 international; there is "very strong traction… for pre-IPO participation versus normal primary funding rounds"; organic growth target 30%+ in FY27.
+
+**FY26 call, 13-May-2026** [V transcript, BSE 31a3541a]:
+- FY27: "organic growth and expansion of margins" from the CoE (centres of excellence) work and AI. Pro-forma with Bluetile, "our EBITDA — at the least — would double". Bluetile CY25 was "around ₹1,460 crores revenue and ₹254 crores EBITDA" (the deck and AR say ₹1,405 Cr; see gap 16).
+- Q4 FY26 other income of ₹51 Cr includes a **₹31 Cr one-time gain on the Rusk Media stake** (an up-round) plus FX gains on loans to Nazara UK. The Q4 associate loss of ₹31 Cr includes **NODWIN writing off ₹50 Cr of goodwill on the OML/NH7 Weekender acquisition**.
+- Curve CEO Stuart Dinsey: "at least 6 new releases in this current year, maybe a couple more" (Wax Heads released in May-2026).
+- Non-core divestment (ad-tech, sports media): "not in a rush… some actions happen in FY'27 and FY'28".
+
+**What to listen for on 27-Oct-2026 (first call under CEO Stauffer and CFO Arun Agrawal):** the Bluetile closing date and how much of Q2 is consolidated; the purchase-price allocation (goodwill vs intangibles; amortisation); how the ~US$75m November payment is funded (cash, debt, Nazara UK infusion); Moonshine nil; FX gains on the GBP/USD loans; NODWIN pre-IPO round valuation versus the ₹1,226.9 Cr carrying value; and whether a first group guidance appears [E].
+
+### 4.2.2 Concall / deck KPI table (Q1 FY27 vs Q1 FY26; ₹ Cr unless stated) [V Q1 FY27 deck and call]
+
+| KPI | Q1 FY26 | Q1 FY27 | Change | Note |
+|---|---|---|---|---|
+| Consolidated revenue | 499 | 429 | −14% (≈ +9% ex-NODWIN) | |
+| Company EBITDA | 47 (9.5%) | 46 (10.8%) | −2% | Pre-corporate EBITDA 58 (13.5%); unallocated corporate (11) |
+| Gaming revenue / EBITDA | 241 / 59 [E from +14% / −9%] | 275 / 54 (19.5%) | +14% / −9% | All gaming businesses EBITDA-positive |
+| "Others" revenue / EBITDA | 258 [E] | 154 / 4 (2.9%) | −41% (≈ flat comparable) | Datawrkz incl. Space & Time 126/3; Absolute Sports 28/1 |
+| Fusebox revenue / UA / EBITDA | 73 / 27 / 10 | 82 / 36 / 10 | +12% / +33% / flat | Love Island #1 Free, #5 Top Grossing (US) |
+| Kiddopia revenue / UA / EBITDA | 45 / 22 / 8 | 54 / 28 / 7 | +19% / +27% / −13% | UA includes Android and iOS |
+| Kiddopia iOS subscribers | 219,180 | 220,012 | +0.4% | See the series fix in 4.2.6 |
+| Kiddopia iOS ARPU (US$/month) | 7.25 | 7.81 | +7.7% | |
+| Kiddopia iOS monthly churn | 5.3% | 6.6% | +130 bp | Note the rise |
+| Kiddopia CAC per subscriber (US$) | 68.2 | 62.6 | −8% | CAC, not cost-per-trial |
+| Kiddopia marketing spend (US$m, iOS) | 2.2 | 2.74 | +25% | |
+| Kiddopia 24-month LTV/CAC | 1.77 | 2.08 | +0.31 | At an assumed 6.0% monthly churn; actual Q1 FY27 churn was 6.6% |
+| Animal Jam revenue / UA / EBITDA | 26 / 5 / 3 | 29 / 6 / 3 | +11% | |
+| Curve revenue / EBITDA | n/d (FY26 margin 38.9%) | 53 / 14 (27%) | | Overheads +15% |
+| Offline revenue / EBITDA | n/d | 34 / 11 (33%) | | Smaaash 27/7; Funky Monkeys 8/4 (+58% from 5) |
+| Bluetile + BestPlay (not yet consolidated) revenue / UA / EBITDA | 336 / 263 / 56 (16.6%) | 518 / 438 / 55 (10.7%) | +54% / +67% / flat | Revenue − UA 73 → 80 |
+| D&A | 65 | 48 | −26% | Lower after NODWIN's exit |
+| Other income | 77 | 9 | | Q1 FY26 included treasury and FX income |
+| Impairment (operating line) | 0 | 22 | | Moonshine-related remnant per call |
+| Share of associates | (24) | (62) | | Mostly the Moonshine write-off remnant, plus NODWIN's seasonal Q1 loss |
+| PAT (continuing) | 36 | (82) | n.m. | |
+
+### 4.2.3 Five-year history (₹ Cr) [V screener re-pulled 23-Oct-2026; company-basis rows from AR/decks]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Jun-26 |
+|---|---|---|---|---|---|---|
+| Revenue (screener = company) | 622 | 1,091 | 1,138 | 1,624 | 1,829 | 1,759 |
+| Screener "operating profit" | 86 | 102 | 99 | 115 | −28 | −90 |
+| Company EBITDA | n/f | n/f | n/f | 153.5 (9.4%) | 255 (13.9%) | ~254 [E] |
+| Other income (screener) | 24 | 47 | 65 | 80 | 343 | 259 |
+| Depreciation & amortisation | 39 | 57 | 67 | 118 | 231 | 214 |
+| PBT incl. discontinued (screener) | 70 | 87 | 89 | 66 | 60 | −66 |
+| **PAT, total for the year** (screener "net profit" = AR "profit for the year") | 51 | 61 | 75 | 51 | **82** | −52 |
+| of which continuing operations (AR) | — | — | — | 62.5 | **67.0** | — |
+| of which discontinued operations (AR) | — | — | — | (11.6) | **14.9** (₹15.1 Cr gain on the sale of Openplay to Moonshine) | — |
+| PAT attributable to owners (AR) | — | — | — | — | **95.9** (continuing 80.9 + discontinued 14.9; NCI −13.9) | — |
+| EPS (₹, post split/bonus) | 1.09 | 1.49 | 1.85 | 2.16 | 2.59 screener / 2.62 AR (2.21 + 0.41) | −1.41 |
+| ROCE % (screener, right-aligned) | 7 | 7 | 6 | 3 | 27 (distorted) | — |
+| CFO (screener) | 62 | 8 | 91 | 66 | 149 | — |
+| Debtor days | 50 | 62 | 88 | 129 | 75 | — |
+| Equity + reserves | 1,041 | 1,104 | 1,999 | 2,863 | 3,473 | — |
+| Borrowings (screener, incl. leases) | 4 | 38 | 28 | 219 | 215 | — |
+| Screener compounded sales growth | 10y 24% · 5y 32% · 3y 19% · TTM −6% | | | | | |
+| Screener ROE | 10y 11% · 5y 13% · 3y 15% · last year 31% | | | | | |
+
+**The FY26 PAT gap is closed:** the AR's consolidated P&L shows **profit for the year ₹81.94 Cr = continuing ₹67.02 Cr + discontinued ₹14.92 Cr**. The discontinued line is the gain on selling Openplay Technologies to Moonshine on 07-May-2025 (₹15.12 Cr gain, ₹0.20 Cr operating loss). Screener's ₹82 Cr is the total; the company decks quote the continuing figure. Profit attributable to Nazara's shareholders is higher still, **₹95.85 Cr**, because minorities absorbed a ₹13.9 Cr loss [V AR consolidated P&L].
+
+### 4.2.4 Eight-quarter trend (₹ Cr) [V screener re-pull for revenue/OP/OI/PBT/PAT; V decks for company EBITDA]
+
+| Quarter | Revenue | Company EBITDA (margin) | Screener OP | Other income | D&A | PBT (screener) | PAT (screener) | Key item |
+|---|---|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 319 | 25.2 (7.9%) | 24 | 23 | 26 | 20 | 16 | Fusebox from 22-Aug-24 |
+| Q3 FY25 (Dec-24) | 535 | 52.4 (9.8%) | 37 | 22 | 31 | 25 | 14 | Space & Time from Oct-24 |
+| Q4 FY25 (Mar-25) | 520 | 51 (9.8%) | 29 | 9 | 37 | −4 | 4 | |
+| Q1 FY26 (Jun-25) | 499 | 47 (9.5%) | 23 | 92 | 65 | 46 | 51 | Curve from 1-Apr-25; Openplay sale gain in discontinued ops |
+| Q2 FY26 (Sep-25) | 526 | 62.0 (11.8%) | −164 | 190 | 61 | −42 | −34 | NODWIN deconsolidated 13-Aug (+₹1,098.5 Cr); Moonshine −₹914.7 Cr |
+| Q3 FY26 (Dec-25) | 406 | 67.8 (16.7%) | 68 | 10 | 60 | 14 | 9 | First full quarter ex-NODWIN |
+| Q4 FY26 (Mar-26) | 398 | 78 (19.5%) | 44 | 51 | 46 | 42 | 56 | Rusk gain ₹31 Cr; NODWIN ₹50 Cr goodwill write-off inside associates |
+| Q1 FY27 (Jun-26) | 429 | 46 (10.8%) | −38 | 9 | 48 | −80 | −82 | Moonshine remnant written off; UA step-up |
+| Q2 FY27 (Sep-26) | due 26-Oct-2026 | | | | | | | First quarter with Bluetile (from closing) |
+
+The quarterly series confirms screener's FY26 total: 499 + 526 + 406 + 398 = 1,829; screener PAT 51 − 34 + 9 + 56 = 82 ✓. Nine-quarter screener data are dated Jun-2024 to Jun-2026; Q1 FY25 (Jun-24) = revenue 250, PAT 24.
+
+### 4.2.5 Annual-report findings (FY26 AR, read this session)
+
+**(a) Geography — replaces the "75–80% overseas" estimate.** Note 22(a), revenue by customer location, FY26 (₹ Cr):
+
+| Region | Gaming | eSports* | Ad tech | Total | Share |
+|---|---|---|---|---|---|
+| India | 121.7 | 102.4 | 8.6 | **232.7** | **12.7%** |
+| USA | 634.3 | 90.7 | 41.6 | **766.6** | **41.9%** |
+| UK | 86.2 | 0.5 | 323.5 | **410.1** | **22.4%** |
+| APAC (ex-India) | 114.9 | 28.7 | — | 143.6 | 7.9% |
+| Rest of world | 83.4 | 83.6 | 75.9 | 242.8 | 13.3% |
+| Africa | 21.8 | — | — | 21.8 | 1.2% |
+| Middle East | 9.9 | 1.5 | — | 11.3 | 0.6% |
+| **Total** | **1,072.1** | **307.4** | **449.5** | **1,829.0** | 100% |
+
+*Statutory "eSports" segment = NODWIN (to 13-Aug-2025) + Absolute Sports/Sportskeeda.
+- **87.3% of FY26 revenue came from outside India** (FY25: 77.6%; India ₹364.5 Cr of ₹1,623.9 Cr). For the gaming segment it is **88.6%** (India ₹121.7 Cr). The US alone is 42% of group revenue and 59% of gaming revenue [V AR; E %].
+- With Bluetile/BestPlay (US 50%+ of revenue per the AR business-overview table), the overseas share from Q2 FY27 will be **~92–94%** [E].
+- Revenue by type, FY26: advertising ₹645.8 Cr (35%; ad-tech 449.5 + esports 148.3 + gaming 48.1); subscription ₹354.0 Cr (Kiddopia, Animal Jam); in-app ₹342.7 Cr; game sales via distribution platforms ₹193.2 Cr (Curve); indoor gaming & entertainment ₹98.5 Cr (Smaaash/Funky Monkeys); brand sponsorship & media rights (esports) and merchandise make up the rest [V AR note 22(c)].
+- Recognised **at a point in time ₹675.1 Cr vs over time ₹1,153.8 Cr** [V].
+
+**(b) Moonshine (PokerBaazi) — the full chain [V AR MD&A investments table; consolidated note 41B; standalone note G]:**
+
+| Step | ₹ Cr | Source |
+|---|---|---|
+| Cash paid for 46.07% | 758.3 | MD&A "Investments made by Nazara Group" |
+| Share swap / ESOP component (incl. Openplay sold for Moonshine CCPS ₹104.34 Cr, 07-May-2025) | 300.2 | MD&A; standalone note C |
+| **Total invested** | **1,058.5** | MD&A (standalone cost ₹1,058.55 Cr) |
+| Associate from | 17-Jan-2025 | note 41B |
+| Consolidated carrying value, 31-Mar-2025 | 948.6 | note 41B |
+| Share of FY26 loss (46.07% × Moonshine loss ₹131.6 Cr) | (59.8) | note 41B |
+| Other adjustments (incl. Openplay CCPS) | +104.4 [E residual; ≈ the ₹104.34 Cr Openplay CCPS] | — |
+| **Impairment, Q2 FY26 (exceptional)** | **(914.7)** | note 41B; auditor KAM ₹91,470 lakh |
+| Carrying value, 31-Mar-2026 | **78.5** | note 41B (not the ₹96.53 Cr at 30-Sep-2025 — H2 losses absorbed) |
+| Written off in Q1 FY27 | ~78.5 (impairment ₹22 Cr + associate loss share) [E split] | Q1 FY27 deck/call |
+| Standalone impairment (Nazara Ltd books) | 988.9 (+ ₹0.41 Cr Halaplay) | standalone note G |
+
+- **Moonshine's own numbers (first audited figures in the dossier):** **FY26 revenue ₹312.8 Cr, loss ₹131.6 Cr** (most revenue came before paid play stopped in Aug-2025); FY25 for 17-Jan to 31-Mar-2025 only: revenue ₹149.5 Cr, loss ₹12.2 Cr; net assets ₹146.1 Cr at Mar-26 [V AR note 41B].
+- **Moonshine group GST exposure:** DGGI show-cause notices (s.74 CGST, Jan-2018–Sep-2023) of **₹845.7 Cr (Openplay), ₹123.6 Cr (SBN Gaming), ₹333.2 Cr (Baazi Networks) and ₹9,066.5 Cr (Baazi Games)**. Disclosed contingent liability **₹10,369 Cr at Mar-26 (Nazara's 46.07% share ₹4,777 Cr)**, down from ₹10,751 Cr. Management says "no present or future liability is anticipated… on these Components", even though the AR (signed Sep-2026) post-dates the May-2026 Supreme Court GST ruling. Nazara's legal exposure is limited to its equity, now nil [V AR; E]. **This is a ₹10,000 Cr+ GST claim against one poker group — about 1.5× Nazara's whole FY26 revenue — that the writer can cite as a concrete example of the retrospective demands.**
+- Group contingent liabilities fell from **₹1,135.1 Cr to ₹286.7 Cr** because Openplay (with its ₹845.7 Cr notice) moved to Moonshine and NODWIN left consolidation [V AR note 31B].
+
+**(c) NODWIN deconsolidation arithmetic [V AR note 45 and 41B]:** retained 47.66% stake fair-valued at **₹1,445.9 Cr** on 13-Aug-2025 (implies **~₹3,034 Cr for 100% of NODWIN** [E]); derecognised net assets ₹694.2 Cr (including **₹542.4 Cr goodwill**); derecognised NCI ₹346.8 Cr; **gain ₹1,098.46 Cr** ✓. NODWIN results from 14-Aug-2025 to 31-Mar-2026: **revenue ₹497.8 Cr, loss ₹461.5 Cr** (Freaks 4U ₹384 Cr impairment plus the ₹50 Cr NH7/OML goodwill); Nazara's share **₹219.0 Cr**. Carrying value **₹1,226.9 Cr at Mar-26**. NODWIN contingent liabilities are small (₹3.5 Cr) [V].
+- **NODWIN revenue inside Nazara's FY26 consolidated (1-Apr to 13-Aug-2025):** statutory eSports segment ₹307.4 Cr − Absolute Sports ₹147 Cr ≈ **₹160 Cr** [E on V]; the deck's segment residual gives ₹156 Cr. **Closes gap 17 (~₹155–160 Cr; the primer's ₹348 Cr is wrong).** NODWIN's own FY26 revenue of ₹658 Cr ≈ ₹160 Cr (pre-deconsolidation) + ₹497.8 Cr (post) ✓ [E check].
+
+**(d) Goodwill and impairment testing [V AR note 4A]:** goodwill net **₹794.7 Cr** at Mar-26 (gaming ₹534.3 Cr, esports ₹40.3 Cr, ad-tech ₹220.1 Cr) vs ₹977.4 Cr at Mar-25. Movements: +₹273.5 Cr from FY26 acquisitions (Curve, Smaaash ₹108.6 Cr provisional, AFK), −₹542.4 Cr on the NODWIN exit, +₹74.4 Cr FX translation. **No goodwill impairment in FY26.** Gaming CGUs are tested at **WACC 11.76–20.27%** and terminal growth 1–5%; a 100 bp WACC rise with a 50 bp lower growth rate would cut the gaming headroom by ₹190 Cr. The Smaaash goodwill is "excess of consideration over net liabilities at book value" — provisional; the purchase-price allocation (PPA) is pending [V]. The auditor's key audit matters are (1) goodwill/intangibles impairment (citing the ₹914.70 Cr Moonshine impairment) and (2) the NODWIN loss-of-control accounting [V AR auditor's report].
+
+**(e) Capital raised and share count — a full reconciliation [V AR; V NSE filings]:**
+- 16-Jun-2025: **Axana Estates LLP preferential, 50,00,000 shares at ₹990 (face value ₹4) = ₹495 Cr.** This triggered a SEBI SAST **open offer for up to 26%** by Axana + Plutus Wealth Management (Junomoneta Finsol as person acting in concert). The offer concluded on 07-Jul-2025 with **only 1,889 shares tendered**. Axana and Plutus were then classified as promoters, and Junomoneta, Arpit Khandelwal and Mithun/Siddhartha Sacheti as promoter group. This is the mechanism behind the 8.30% → 35.45% promoter jump. (₹990 pre-split ≈ ₹247.5 per share today, after the 1:4 effect.)
+- Sep-2025: split ₹4 → ₹2 plus 1:1 bonus → 37,04,65,024 shares at Mar-26 [V AR].
+- **05-Jun-2026: 1,82,31,000 warrants at ₹260 (₹474 Cr; 25% = ₹118.5 Cr paid up front)** to Riambel Capital PCC (94.85 lakh), S Gupta Family Enterprises (40 lakh), **Plutus Investments & Holding (38.46 lakh; made promoter group on allotment)** and Founders Collective Fund (9 lakh); 18-month exercise window [V NSE]. **Not in Part 1–3.**
+- Warrant conversions: **1,33,31,000 (30-Jul-2026) + 9,00,000 (03-Aug-2026)** → 38,46,96,024 shares ✓ (matches the pre-allotment count in Part 1). **40,00,000 warrants remain unexercised** [E: 182.31 − 142.31].
+- 12-Oct-2026: 2,38,81,711 shares at ₹306 (₹730.78 Cr) to the Bluetile sellers → **40,85,77,735 shares**; fully diluted for the remaining warrants **~41.26 Cr** [E].
+- Equity raised FY25–Oct-2026: ₹843 Cr (FY25) + ₹494 Cr (FY26, mainly Axana) + ~₹474 Cr (warrants, if fully exercised) + ₹730.78 Cr (Oct-2026) ≈ **₹2,540 Cr in ~2.5 years** [E].
+
+**(f) Promoter pledge — verified [V NSE pledge-data API, 30-Sep-2026 SHP]:** promoter holding 13,07,27,212 shares (33.98%); **promoter shares encumbered 11,46,99,640 = 87.74% of promoter holding = 29.82% of all shares**. The SAST Reg 31(1) filing by Plutus Wealth Management (08-Jul-2025) shows the encumbrance **pre-dated their promoter classification**: Plutus 1,01,07,580 shares (10.91%, 100% encumbered) and Arpit Khandelwal 66,92,420 of 68,92,420 (7.23%), both pre-split. That is about **6.72 Cr post-split shares (~17.5% of equity)**, the core of the pledge [E ×4]. The remaining ~4.75 Cr encumbered shares are not attributed in the documents read (likely other promoter-group entities) [gap]. Plutus's Reg 31(4) declaration (10-Apr-2026) says no new encumbrance was created in FY26. Separately, **59.0% of all demat shares are pledged in the depository system** (includes margin pledges by non-promoters) [V NSE]. **Screener's 87.7% is confirmed; it reflects the financial-investor promoters (Plutus/Khandelwal), not the Mittersain family.**
+
+**(g) Founder and Jhunjhunwala holdings:**
+- AR promoter table at Mar-26: Mitter Infotech LLP 2,25,69,800 shares (6.09%) in the promoter note, but 1,93,30,800 (5.22%) in the top-10 list (a folio vs PAN-consolidation difference) [V AR]. Screener Oct-2026 shows Mitter Infotech at **0.81%** and Nitish 1.98% → **the founder family sold or transferred about 4–5% of equity between Mar-26 and Oct-26** [E; the transaction disclosures were not read — flag].
+- **Rekha Jhunjhunwala held 2,47,34,480 shares (7.06%) at Mar-25 and nil at Mar-26** in the AR's >5% shareholder note → **exited in FY26** [V AR]. Closes gap 12.
+
+**(h) Related-party and intra-group items [V AR; V NSE]:** a ₹116 Cr inter-corporate loan to Smaaash for creditor settlement (Jun-2025), plus ₹129.35 Cr converted to equity (Oct-2026) and a new ₹28 Cr loan facility (21-Sep-2026, convertible). Cash is being pooled toward Nazara UK (Bluetile acquirer): Sportskeeda Inc lends US$0.517m and Kiddopia Inc US$1.23m to Nazara UK (29-Jul-2026); Paper Boat lends ₹7.5 Cr to Kiddopia Inc. The Paper Boat–Nazara amalgamation was withdrawn (NCLT order 18-Jun-2026). An independent director (Arun Vijaykumar Gupta) resigned with effect from 04-Aug-2026. The standalone company has 76 permanent employees [V].
+
+**(i) Risk factors as the company states them [V AR MD&A]:** platform dependence (Apple/Google); algorithm/traffic risk (Sportskeeda after Google's March core update); regulatory risk "as seen in the RMG ban and the resulting impairment" of Moonshine; geopolitical risk (German/European slowdown, Taiwan, US sanctions affecting Freaks 4U); esports stagnation in Western markets; M&A integration risk, with a "high failure rate (estimated at 70–80% for early-stage experiments)" when incubating new IPs.
+
+**(j) Business-line economics from the AR overview [V]:** Curve FY26 ₹260.7 Cr / ₹101.3 Cr (38.9%), US/Japan 75%+; Fusebox ₹317.7 Cr / ₹68.4 Cr (21.5%) vs ₹161.7 Cr / ₹30.2 Cr (18.7%) for 22-Aug-2024 to 31-Mar-2025, US/UK 75%+; Animal Jam US ~90%; Bluetile US 50%+. Gaming = 59% of revenue and 90% of EBITDA.
+
+### 4.2.6 Kiddopia subscriber series — reconciled (gap 9)
+Three decks print three series. The **Q1 FY27 KPI table and the FY26 KPI table agree** on every overlapping quarter: **Q4 FY25 222,584 · Q1 FY26 219,180 · Q2 FY26 212,551 · Q3 FY26 215,863 · Q4 FY26 220,362 · Q1 FY27 220,012** (iOS; CAC US$70.1 / 68.2 / 69.4 / 68.8 / 65.0 / 62.6; ARPU US$7.13 / 7.25 / 7.34 / 7.45 / 7.49 / 7.81; churn 6.9 / 5.3 / 6.2 / 5.7 / 6.4 / 6.6%) [V both slides rendered]. The FY26 deck's **bar chart** (slide 7) prints the same five numbers in shifted order (212,551 labelled Q4 FY25 … 222,584 labelled Q4 FY26). It is **mislabelled**: read literally, it shows growth where the table shows a dip and recovery. The **Q3 FY26 deck series** (Q3 FY25 232,295 … Q3 FY26 221,458) is a different, earlier definition and is superseded. **Use the table series.** The subscriber base is **flat at ~220k**, not growing. Revenue growth (+19%) comes from ARPU (+7.7%) and Android/other platforms. Note also that the company's LTV uses 6.0% churn while reported churn was 6.4–6.6% in the last two quarters, so the 2.08× is flattered [E].
+
+## 4.3 Industry data upgraded from primary sources
+
+### 4.3.1 Market size — the 2025 FICCI–EY figures now exist (gap 1, partly filled)
+The **FICCI–EY 2026 report** ("Stories, scale and impact", Mar-2026) is the first edition that measures a year affected by the ban [V EY newsroom; V AnimationXpress report summary; FICCI press release returned HTTP 403]:
+- Indian M&E sector **₹2.78 lakh Cr in 2025 (+9%)**; digital media passed ₹1 lakh Cr for the first time [V EY].
+- **"Video games: the segment saw a 17% decrease following the ban on money gaming that took effect from August 2025"**; **in-app purchases +15%** [V EY newsroom, verbatim].
+- AnimationXpress's summary of the gaming chapter: **money gaming −17% in "the segment" and −26% in revenues**; non-money **video games +14% over 2024**; game advertising +12%; battle royale/shooter titles >40% of IAP; **515–525m gamers**; >100m daily users; >8bn downloads. **Video games + esports revenue ₹63 bn (₹6,300 Cr) in 2025 → ₹92 bn by 2028 (13% CAGR)**. Esports dipped ~7.5% in 2025 (headline; Variety says −8%, partly from the loss of money-gaming sponsors) [V AnimationXpress; V-snip Variety].
+- **Implied 2025 FICCI–EY "online gaming" total ≈ ₹19,300 Cr** = ₹23,200 Cr (2024) × (1 − 17%) [E; applies EY's −17% to the 2024 base published by PIB]. **The exact 2025 total in ₹ was not visible in any fetched page — label it "≈" and attribute the −17% to EY.** The ex-money-gaming component is ₹6,300 Cr (2025), consistent with the 2025 edition's projection [V].
+- **Reconciliation with Lumikai.** Lumikai's ex-RMG US$1.5bn (≈ ₹13,000–14,000 Cr) is roughly **twice** FICCI–EY's ₹6,300 Cr "video games + esports". Lumikai includes all IAP and ads spent in India on global titles, measured from app-store and ad-network data; FICCI–EY counts revenue of the domestic industry and is conservative on global publishers' Indian IAP [E judgement]. **Writer rule: quote both, never mix them; use Lumikai for "market" and FICCI–EY for "industry revenue".**
+
+**Chart-ready dataset I1 — India gaming market by source (₹ Cr unless stated)**
+
+| Year | FICCI–EY online gaming (incl. RMG) | FICCI–EY non-RMG (video games + esports) | WinZO–IEIC (incl. RMG) | Lumikai ex-RMG (US$bn) | Mixi/Naavik-type mobile IAP+ads (US$bn) |
+|---|---|---|---|---|---|
+| 2023 | 22,000 [V-snip] | — | — | — | — |
+| 2024 | 23,200 (77% transaction-based) [V PIB 30-Apr-2026] | 5,300 [V-snip] | 31,938 (RMG 27,438) [V Outlook Business] | ~1.28 [E] | — |
+| 2025 | **≈19,300 [E from EY −17%]** | **6,300 [V AnimationXpress]** | — | **1.5 (+17%) [V Lumikai via Outlook Respawn]** | **1.1 (IAP 0.8 + ads 0.3) [V AR MD&A chart citing mixi "India's State of Play"]** |
+| 2026F | — | — | — | ~1.75 [E] | 1.5 (+35%; IAP 1.16 + ads 0.33) [V AR] |
+| 2027F | 31,600 (pre-ban, obsolete) [V PIB] | — | — | — | — |
+| 2028F | — | 9,200 [V] | — | — | — |
+| 2029F | — | — | — | — | 2.4 (IAP 1.94 + ads 0.50; 17% CAGR) [V AR] |
+| 2030F | — | — | — | 3.2 (17% CAGR) [V] | — |
+
+Note: Nazara's own FY26 AR (MD&A) uses the **US$1.1bn (2025) → US$1.5bn (2026F) → US$2.4bn (2029P)** mobile series, sourced to a mixi Global Investments "India's State of Play" PDF dated 2026-07-08. This supersedes the "Naavik/Sensor Tower [V-snip]" label in Part 1 §2.1 for the 2029 figure (2.4bn) [V AR].
+
+### 4.3.2 Users and payers
+| Metric | Value | Source |
+|---|---|---|
+| Gamers CY25 (ex-RMG basis) | **555m (−9% from 609m)**; payers 25% (~139m [E]) | Lumikai "State of India Interactive Media Report 2025", 23-Mar-2026 [V re-fetched] |
+| Gamers 2025 (FICCI–EY) | **515–525m**; >100m daily | FICCI–EY 2026 [V AnimationXpress] |
+| ARPPU mid-core / casual | US$15 / US$3 | Lumikai [V] |
+| eCPM blended / rewarded | US$1.1 / US$2.43 | Lumikai [V] |
+| Top-10 grossing titles from global franchises | 10 of 10 | Lumikai [V] |
+| RMG category removed | ~US$2.3bn | Lumikai [V] |
+| Offshore migration (indicative) | 1 in 3 ex-RMG players | Lumikai [V] |
+| People "affected" by money games / losses | ~45 crore / >₹20,000 Cr | PIB 30-Apr-2026 [V re-fetched] |
+| Smartphone shipments 2025 / 5G installed base | 151m units (+0.5%) / ~415m | tele.net.in report summary [V-snip] — **no fetched figure for smartphone users; keep "~650–700m" as [K]** |
+
+### 4.3.3 Global market (replaces "~US$185–190bn [K]")
+**Newzoo, Global Games Market Report (published 26-Jun-2026):** **2025 revenue US$201.6bn (+9.1%)**, the first year above US$200bn. Mobile **US$113.3bn (+10.7%)**, console US$44.7bn (+2.8%), PC US$43.6bn (+12%). By region: APAC US$95bn, North America US$54bn, Europe US$36.3bn, LatAm US$8.6bn, MEA US$7.7bn. 2026F mobile US$121.1bn; **US$234.4bn by 2028 (5.1% CAGR)** [V gamedevreports summary of the Newzoo report]. Newzoo's earlier Sep-2025 forecast was US$188.8bn, which is why first-pass memory said "~US$185–190bn" [V-snip]. Players: **3.578bn (+4.4%)** [V-snip Newzoo via search]. **India's share = US$1.5bn ÷ US$201.6bn = 0.74%** (Lumikai basis) [E]. Global revenue per player ≈ US$56 vs India ≈ US$2.7 → India ARPU ≈ 1/21 of global [E].
+
+**Chart-ready dataset I2 — global games revenue 2025 by segment (US$bn):** Mobile 113.3 · Console 44.7 · PC 43.6 · **Total 201.6** [V Newzoo summary].
+
+### 4.3.4 Regulation — PROGA facts upgraded (gap 3)
+| Fact | Value | Source |
+|---|---|---|
+| Act | Promotion and Regulation of Online Gaming Act, 2025 (No. 32 of 2025); LS 20-Aug, RS 21-Aug, assent 22-Aug-2025 | PIB [V Part 1]; SC Observer [V] |
+| Originally intended commencement | 1-Oct-2025 (reported) — did not happen | Outlook Respawn, Oct-2025 [V] |
+| **Commencement notification** | **S.O. 1994(E), 22-Apr-2026: "The aforesaid Act shall come into force on May 01, 2026"** | TeamLease RegTech digest of the gazette [V]; SCC Online [V] |
+| Companion notifications (22-Apr-2026) | (i) establishment of the **Online Gaming Authority of India under s.8**; (ii) investigating authority under **s.15** (cyber-cell and nodal police officers in States/UTs) | SCC Online blog, 23-Apr-2026 [V]; S.O. numbers for these two not found |
+| Rules | Promotion and Regulation of Online Gaming Rules, 2026 — in force 1-May-2026 | PIB backgrounder 30-Apr-2026 [V re-fetched] |
+| OGAI | Attached office of MeitY, head office in Delhi, "digital office"; chaired by Additional Secretary MeitY; Joint Secretary representation from Home, Finance, I&B, Youth Affairs & Sports, Law & Justice | PIB [V] |
+| Determination | Suo motu, on application, or by Central notification; tests: stakes, expected monetary winnings, revenue model, monetisation of in-game assets outside the game; ~90 days; specific to game and provider | PIB [V] |
+| Registration | Only when notified; **mandatory for all e-sports**; certificate valid up to 10 years; criteria include country of origin | PIB [V] |
+| **Constitutional challenge** | **T.C.(C) No. 133/2025, *Head Digital Works v Union of India*** (petitioners incl. Head Digital Works/A23, Clubboom 11, Bagheera Carrom, K.A. Paul, CASC) | SC Observer [V] |
+| Transfer of HC petitions (Delhi, Karnataka, MP) | **8-Sep-2025**, Justices J.B. Pardiwala and K.V. Viswanathan (Art. 139A) — the year is now confirmed | SC Observer [V] |
+| CASC PIL notice to Centre | 17-Oct-2025 (Pardiwala bench) | Kashmir Observer/PTI [V] |
+| **Latest hearing** | **5-Aug-2026 (Wednesday): bench of CJI Surya Kant and Justice Joymalya Bagchi agreed to accord a final hearing; parties (SG Tushar Mehta for the Union) to complete pleadings; no date fixed; no interim stay** | Kashmir Observer/PTI 05-Aug-2026 [V] |
+| Three-judge bench composition | CJI Surya Kant, Joymalya Bagchi, **V.M. (Vipul M.) Pancholi** | SC Observer [V] — Part 1's "V. Mohana" is wrong |
+| Status at 23-Oct-2026 | Pending; no final-hearing date found after 5-Aug-2026 | searches [V-snip] |
+
+### 4.3.5 GST — judgment and demand totals (gap 4, filled; gap 5, partly filled)
+- **Judgment:** *Directorate General of Goods and Services Tax Intelligence (HQs) v. Gameskraft Technologies Pvt Ltd*, **SLP(C) Nos. 19366–19369/2023** (Diary 30797/2023) and connected matters; **decided Wednesday 27-May-2026** by **Justices J.B. Pardiwala and R. Mahadevan**. Reported citations: 2026 INSC 595; 2026-VIL-511-SC [V LiveLaw for title, number, bench, date; V-snip citations].
+- **Holdings [V LiveLaw]:** the 28% levy is valid. Games involving staking on uncertain outcomes (rummy, fantasy) are "betting and gambling" for GST purposes; the test is staking, not skill vs chance. Operators are **suppliers of actionable claims**, not intermediaries. The 2023 amendments (Schedule III Entry 6, Rule 31C) are **clarificatory and retrospective**. **Rule 31A is intra vires.** The Karnataka HC judgment of **11-May-2023** is set aside, and the **23-Sep-2022 s.74(1) show-cause notices are restored** (the Gameskraft ₹21,000 Cr SCN [V-snip amount]). Challenges under Arts 14, 19(1)(g), 21 and 265 are rejected. Assessees may still contest the facts and quantum before the adjudicating authority (no automatic crystallisation).
+- **Demand totals — use the latest official figure:** **Rajya Sabha written reply (MoS Finance Pankaj Chaudhary, Mar-2025): 158 cases with ₹1,53,167 Cr detected and 91 show-cause notices for >₹1.44 lakh Cr against online gaming companies, Jul-2017 to Jan-2025** [V caclubindia report of the reply]. This **supersedes** "₹1.12 lakh Cr across 71 notices (Dec-2023)" as the headline. The SC had earlier stayed SCNs worth >₹1 lakh Cr to ~50 firms pending the ruling [V same]. Company-level example from a primary document: **the Moonshine/PokerBaazi group alone carries ₹10,369 Cr of DGGI notices** (Baazi Games ₹9,066.5 Cr) per Nazara's FY26 AR [V].
+- **Stat-strip wording:** "**over ₹1.4 lakh crore** of GST notices (91 SCNs, Jul-2017–Jan-2025), revived by the Supreme Court on 27-May-2026".
+- **Collections (gap 5):** a full-year FY25 actual was **not found**. Data points: ₹6,909 Cr in the first six months of the 28% regime vs ₹1,349 Cr in the prior six months (+412%; casinos ₹164.6 Cr → ₹214 Cr, +30%) [V-snip Deccan Herald/Goodreturns, FM Sep-2024]. FY25 expectations differ: **₹7,500 Cr** (Revenue Secretary Sanjay Malhotra, interview; FY24 ~₹1,600 Cr) vs **₹14,000 Cr** (Feb-2024 statement) [V-snip both]. **Use "₹7,000–14,000 Cr a year" or the hard six-month ₹6,909 Cr** [E]. This revises the Part 1 "~₹13,800 Cr annualised — about half the RMG pool" to a range.
+
+### 4.3.6 Unlisted RMG and peer financials (gap 2, partly filled)
+**Chart-ready dataset I3 — RMG / gaming companies, latest audited (₹ Cr)**
+
+| Company | Year | Revenue | PAT | Source / tag |
+|---|---|---|---|---|
+| Dream Sports (consolidated) | FY25 | 6,759 (GGR 10,284; total income 7,374) | −479 (FY24 +1,295) | Entrackr 09-Feb-2026 [V re-fetched]; A&P ₹3,913 Cr = 58% of expenses; one-time tax ₹575 Cr; director benefits ₹771–778 Cr; cash ₹1,801 Cr |
+| Gameskraft | FY25 | 3,896 (total 4,009) | 706 (FY24 947) | Entrackr [V re-fetched]; A&P ₹2,072 Cr (FY24 ₹1,315 Cr); exceptional ₹270.5 Cr incl. ~₹231 Cr ex-CFO siphoning write-off |
+| **Games24x7** | **FY25** | **~2,236 (total income; FY24 2,273.5)** | **loss ₹64–73 Cr** (page inconsistent) | Inc42 company data page [V; secondary database] — new |
+| **Moonshine (PokerBaazi)** | **FY26** | **312.8** | **−131.6** | **Nazara FY26 AR note 41B [V primary]** — new |
+| Moonshine | FY25 (17-Jan–31-Mar-2025 only) | 149.5 | −12.2 | Nazara AR [V] |
+| Zupee | FY24 | 1,173 (total; FAQ 1,174.8) | 138.8 (FAQ 146) | Inc42 [V] — FY25 not found |
+| WinZO | FY24 | **892 (Inc42 total revenue)** vs 1,055 (Part 1 [V-snip]) | n/a | Inc42 [V] — **conflict; Inc42 is the database figure, Part 1's figure is unverified** |
+| NODWIN Gaming | FY26 | 658 (₹160 Cr pre-13-Aug + ₹497.8 Cr post) | loss ₹461.5 Cr for 14-Aug–31-Mar (Freaks 4U + NH7 goodwill) | Nazara AR/decks [V] |
+| Bluetile + BestPlay | CY25 | 1,405 (US$153.6m) | EBITDA 254 (US$27.7m) | Bluetile deck 18-Mar-2026 [V re-fetched]; AR [V] |
+| Junglee (Flutter) | 2025e | ~US$200m | adj. EBITDA ~US$50m | Outlook Business [V re-fetched] |
+
+### 4.3.7 Esports and the Olympic/Asian Games (gaps 13–14)
+- Market size: the FICCI–EY 2026 headline is that **esports dipped ~7.5% in 2025** (−8% per Variety), as money-gaming brands vanished as sponsors [V-snip/V AnimationXpress headline]. FICCI–EY bundles "video games + esports" at **₹6,300 Cr (2025)**; a stand-alone esports ₹ figure was not visible. Older series (EY 2021: ₹250 Cr → ₹1,100 Cr by 2025; FEAI ₹1,100 Cr) are projections, not outcomes [V-snip]. **The writer should say: "low-thousands of crore at most; fell in 2025".** NODWIN alone reported ₹658 Cr in FY26, but most of it is global (StarLadder, Comic Con, EVO) [V].
+- **Asian Games, Aichi-Nagoya (19-Sep to 4-Oct-2026):** OCA approved **11 esports medal titles** (Street Fighter 6, Pokémon Unite, Honor of Kings, League of Legends AG version, PUBG AG version, Mobile Legends: Bang Bang, Naraka: Bladepoint, Gran Turismo 7, eFootball, Puyo Puyo Champions, plus one more) at Harbin, Feb-2025. Hangzhou 2022 had 7 titles, of which India entered 4 [V DT Next/PTI]. PUBG and Mobile Legends remain banned in India, so India could not field teams in those. **India: no esports medal reported** (a mid-Games tracker showed eFootball, Puyo Puyo and Pokémon Unite exits, with LoL still in groups) [V-snip]. India's overall haul: 85 medals (21 gold, 27 silver, 37 bronze), 4th [V-snip]. Verify the final LoL result before citing "no medal".
+- **Olympic Esports Games:** the IOC–Saudi partnership ended 30-Oct-2025. By May-2026 the IOC Esports Commission was disbanded and planning "paused"; President Kirsty Coventry said plans are "very much alive", now under her executive office. A review was due at the extraordinary IOC Session of 24–25 Jun-2026 (outcome not found) [V-snip Wikipedia/Outlook Respawn]. **No Olympic Esports Games date exists.**
+
+### 4.3.8 Jobs (gap 6)
+"More than two lakh direct and indirect jobs linked to the real-money gaming ecosystem were **reportedly** affected" — **unattributed** in Outlook Business [V re-fetched]. The verifiable base is **~1,900 gaming companies employing ~1.3 lakh professionals** (WinZO–IEIC, Mar-2025) [V]. Company-level cuts: Games24x7 to cut ~70% of staff [V-snip Outlook Business headline]. **Writer: present 2 lakh as an industry claim; never as a government number.**
+
+### 4.3.9 Global peers — spot re-verification [V stockanalysis 23-Oct-2026, re-fetched]
+Krafton: m-cap KRW 8.07tn, EV/EBITDA 4.04×, EV/sales 1.30×, P/E 9.85×, EBITDA margin 33.94%, −36% 52-wk ✓. Playtika: m-cap US$789.5m, EV US$2.86bn, EV/EBITDA 4.48×, net debt US$2.07bn, −44.2% ✓. Tencent: HKD 3.47tn, EV/EBITDA 9.97×, P/E 13.14×, EBITDA margin 37.67%, −38.1% ✓. Part 1's other peer rows (NetEase, Sea, Nexon, Roblox, Take-Two, EA, Ubisoft, Embracer) were not re-fetched; they stay [V SA 23-Oct-26, first pass].
+
+**Nazara valuation recomputed on verified inputs [E]:** m-cap = 40,85,77,735 shares × ₹402 = **₹16,425 Cr** ✓. Fully diluted for 40 lakh warrants (₹260): ₹16,586 Cr. EV/FY26 company EBITDA: (16,425 − 623 net cash at Mar-26) ÷ 255 ≈ **62×**. The Oct-2026 raise of ₹730.78 Cr is cash in hand that is earmarked for Bluetile, so it nets out. On attributable FY26 PAT (₹95.9 Cr): **171×**. On the pro-forma (FY26 ₹255 Cr + Bluetile CY25 ₹254 Cr = ₹509 Cr), with EV adjusted for the US$303m cash outflow at ~₹95.6/$ (≈₹2,900 Cr) less Bluetile cash (~US$20m): **~35×** — unchanged from Part 1.
+
+## 4.4 Gap log (every §H item)
+
+| # | §H gap | Status | Result / what was tried |
+|---|---|---|---|
+| 1 | FICCI–EY 2026 report, 2025 online gaming size | **Partly filled** | EY newsroom: "video games" −17% after the ban; IAP +15% [V]. AnimationXpress: money gaming −17% (segment) / −26% (revenues); video games + esports ₹63 bn 2025 → ₹92 bn 2028; 515–525m gamers [V]. The exact 2025 ₹ total was not visible (FICCI press release returned 403; the full PDF is not free) → implied ≈ ₹19,300 Cr [E]. |
+| 2 | FY25 audited figures: Games24x7, Zupee, WinZO, PokerBaazi, NODWIN | **Partly filled** | Games24x7 FY25 ≈ ₹2,236 Cr revenue, loss ₹64–73 Cr [V Inc42 data page]; **Moonshine FY26 rev ₹312.8 Cr / loss ₹131.6 Cr** [V Nazara AR]; NODWIN FY26 [V]. Zupee and WinZO: FY24 only (Inc42: Zupee ₹1,173 Cr / PAT ₹139 Cr; WinZO ₹892 Cr, which conflicts with Part 1's ₹1,055 Cr). FY25 for Zupee/WinZO and NODWIN standalone FY25 still open (Entrackr/Inc42 FY25 stories not found). |
+| 3 | PROGA notification numbers; commencement; OGAI; SC challenge | **Filled (mostly)** | Commencement **S.O. 1994(E), 22-Apr-2026 → 1-May-2026** [V]; OGAI under s.8 and investigating officers under s.15 notified the same day (their S.O. numbers not found); OGAI composition [V PIB]; **T.C.(C) 133/2025 *Head Digital Works v UoI***; transfer **8-Sep-2025**; **latest hearing 5-Aug-2026** (final hearing agreed; pleadings; no stay); bench CJI Surya Kant, Bagchi, Pancholi [V]. No date after 5-Aug found. |
+| 4 | GST demand totals; SC judgment date and name | **Filled** | *DGGI (HQs) v Gameskraft Technologies*, SLP(C) 19366–19369/2023, **27-May-2026**, Pardiwala & Mahadevan [V LiveLaw]. Demand total: **91 SCNs >₹1.44 lakh Cr; 158 cases ₹1.53 lakh Cr (Jul-2017–Jan-2025)**, RS reply Mar-2025 [V caclubindia]. Moonshine group ₹10,369 Cr [V AR]. The Vision IAS/Quint totals are superseded. |
+| 5 | FY25 GST collections from online gaming | **Still open** | Only the six-month ₹6,909 Cr (+412%) and conflicting FY25 expectations (₹7,500 Cr vs ₹14,000 Cr) [V-snip]. Tried searches for a Rajya Sabha/Lok Sabha reply with FY25 actuals: none found. |
+| 6 | Job losses | **Filled as "claim"** | ">2 lakh… reportedly affected" is unattributed in Outlook Business [V]; base 1.3 lakh employees in ~1,900 companies (WinZO–IEIC) [V]. No government figure exists. |
+| 7 | Moonshine original cost and impairment chain | **Filled** | Cash ₹758.3 Cr + swap/ESOP ₹300.2 Cr = **₹1,058.5 Cr** for 46.07% [V AR MD&A]; carrying value Mar-25 ₹948.6 Cr → impairment ₹914.7 Cr → Mar-26 ₹78.5 Cr → nil in Q1 FY27 [V AR; V Q1 call]. Standalone impairment ₹988.9 Cr [V]. The "~₹832 Cr [K]" and the primer's "₹820 Cr" are superseded. |
+| 8 | Screener FY26 PAT ₹82 Cr vs company ₹67 Cr | **Filled** | ₹81.94 Cr = continuing ₹67.02 Cr + discontinued ₹14.92 Cr (Openplay sale gain ₹15.12 Cr). Owners' share ₹95.85 Cr [V AR P&L]. |
+| 9 | Kiddopia subscriber series | **Filled** | FY26 and Q1 FY27 KPI tables agree; the FY26 bar chart is mislabelled; the Q3 FY26 deck series is superseded (see 4.2.6) [V]. |
+| 10 | Nazara geographic revenue split | **Filled** | **India 12.7%, outside India 87.3% (FY26)**; FY25 India 22.4% [V AR note 22]. |
+| 11 | Promoter pledge 87.7% | **Filled** | NSE pledge data for the 30-Sep-2026 SHP: **87.74% of promoter holding (29.82% of total shares) encumbered** [V]. Origin: Plutus/Khandelwal encumbrance pre-dating promoter classification (Reg 31(1), 08-Jul-2025) [V]. Attribution of the remaining ~4.75 Cr shares is still open. |
+| 12 | Jhunjhunwala stake | **Filled** | 7.06% at Mar-25 → **nil at Mar-26** per the AR's >5% table [V]. |
+| 13 | Esports market size | **Partly filled** | FICCI–EY: esports −7.5% in 2025; bundled with video games at ₹6,300 Cr [V/V-snip]. No stand-alone ₹ figure. |
+| 14 | Olympic Esports Games; Asian Games 2026 | **Filled (snip-level)** | Olympic esports paused, no date [V-snip]; Asian Games 2026: 11 esports medal titles [V PTI]; India no esports medal reported [V-snip]. |
+| 15 | India smartphone users; global market; global players | **Partly filled** | **Newzoo 2025 US$201.6bn** [V summary]; players 3.578bn [V-snip]; smartphone users still [K] (shipments 151m, 5G base ~415m [V-snip]). |
+| 16 | Bluetile CY25 revenue ₹1,405 Cr vs ₹1,460 Cr | **Filled** | Deck (US$153.6m ≈ ₹1,405 Cr) [V re-fetched] and AR MD&A (₹1,405 Cr) [V] agree; the ₹1,460 Cr was spoken on the 13-May-2026 call (likely a different FX rate: US$153.6m × ₹95 = ₹1,459 Cr) [E]. **Use ₹1,405 Cr / US$153.6m.** |
+| 17 | NODWIN FY26 revenue inside Nazara consolidated | **Filled** | **≈ ₹156–160 Cr** (statutory eSports segment ₹307.4 Cr − Absolute Sports ₹147 Cr; cross-check ₹658 Cr − ₹497.8 Cr post-deconsolidation = ₹160 Cr) [V AR; E]. |
+
+**New gaps opened this pass:** (a) who holds the ~4.75 Cr encumbered promoter shares beyond Plutus/Khandelwal; (b) the founder-family (Mitter Infotech) stake fall from ~5–6% (Mar-26) to 0.81% (Oct-26) — sale, gift or pledge invocation? (c) the exact date of the ~US$75m Bluetile payment and the debt raised for it; (d) whether the 40 lakh unexercised warrants (S Gupta Family Enterprises, 25% paid) will convert by Dec-2027.
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### 4.5.1 Insights an expert would add
+1. **Nazara is ~87% an export business, not "75–80%".** The FY26 AR puts India at **12.7%** of revenue (₹232.7 Cr) and the US at **41.9%**. With Bluetile (US 50%+), group revenue from India falls to **~6–8%** in FY27 [E]. Nazara's earnings are a US/UK consumer-spending and USD/GBP story with an Indian listing. The Indian gaming market's 17% growth is almost irrelevant to its P&L; the PROGA ban mattered only through Moonshine and NODWIN's sponsors.
+2. **The PokerBaazi bet cost ₹1,058.5 Cr, not ~₹830 Cr, and the investee carries a ₹10,369 Cr GST notice.** The write-off equals **~30% of Nazara's Mar-26 equity (₹3,473 Cr)**. Moonshine's own FY26 revenue (₹312.8 Cr) was barely 3% of its tax notice. The AR still says management anticipates "no present or future liability", although the Supreme Court restored such notices on 27-May-2026. That is moot for Nazara (carrying value nil; liability limited to equity), but it is a vivid case study for the RMG section.
+3. **Nazara's "promoter" is now a financial consortium with pledged shares, and capital is being raised continuously.** Sequence: Axana ₹495 Cr preferential at ₹990 (₹247.5 adjusted, Jun-2025) → SAST open offer with only 1,889 shares tendered → promoter reclassification → warrants at ₹260 to Riambel/S Gupta/Plutus/Founders Collective (Jun-2026) → ₹306 preferential to the Bluetile sellers (Oct-2026). **~₹2,540 Cr of equity in ~2.5 years at rising prices (₹247.5 → ₹260 → ₹306 → market ₹402)** [E]. 87.7% of promoter shares are encumbered, almost all on the financial-investor side [V NSE; V SAST]. Governance is a theme in its own right, not a footnote.
+4. **The FY26 "best year ever" was manufactured below EBITDA.** Owners' PAT ₹95.9 Cr came from a ₹1,098.5 Cr non-cash NODWIN revaluation, a ₹15.1 Cr Openplay sale gain and a ₹31 Cr Rusk revaluation, against a ₹914.7 Cr Moonshine impairment and ₹278.5 Cr of associate losses. Retained NODWIN was valued at ₹1,445.9 Cr (≈ ₹3,034 Cr for 100%) on 13-Aug-2025, against NODWIN FY26 EBITDA of ₹21 Cr — about **145× EBITDA** [E]. The ₹1,226.9 Cr carrying value now depends on NODWIN's IPO pricing.
+5. **Bluetile is a cash-call business before it is a cash cow.** About US$75m falls due within ~90 days of 04-Aug-2026 (≈ early Nov-2026), ~US$35m in Dec-2026 and the remainder by 1-Apr-2027. Nazara is already pooling subsidiary cash (Kiddopia, Sportskeeda lending to Nazara UK) [V NSE]. Expect debt on the Mar-27 balance sheet for the first time at scale [E].
+6. **Kiddopia's "growth" is ARPU, not users.** iOS subscribers are flat at ~220k for six quarters. Churn rose to 6.4–6.6%, above the 6.0% assumed in the company's LTV, so the headline LTV/CAC of 2.08× is flattered [V; E]. CAC per subscriber fell from US$70.1 to US$62.6, which is the genuine improvement.
+7. **Ad-tech revenue is mostly pass-through.** Datawrkz says 60–80% of reported ad-tech revenue is media pass-through [V call]. So ~₹450 Cr of FY26 "revenue" is ~₹90–180 Cr of net revenue. Divesting it (flagged for FY27–28) would cut reported revenue by ~25% but barely touch EBITDA (₹26 Cr) [E].
+8. **The GST question is legally settled for the industry; the ban question is not.** The 27-May-2026 Gameskraft judgment ended the tax argument (staking test; retrospective). The PROGA challenge has had **no hearing since 5-Aug-2026** and no stay. Any "RMG comeback" thesis is long-dated [V; E].
+
+### 4.5.2 New primer issues (format as primer-issues.md)
+
+### From Gaming deep-research pass (2026-10-23, gaming-industry.md §4.5.2)
+- **nazara-technologies.html — geography (any "global"/"overseas" claim and the currency discussion):** state that **87.3% of FY26 revenue was earned outside India (India ₹232.7 Cr of ₹1,829 Cr; US 41.9%, UK 22.4%)** per FY26 AR note 22. Replace any "~75–80%" or "majority overseas" wording.
+- **nazara-technologies.html — Moonshine cost:** replace "~₹820 Cr associate" with "**₹1,058.5 Cr invested (₹758.3 Cr cash + ₹300.2 Cr share swap incl. Openplay) for 46.07%**; ₹914.7 Cr impaired in Q2 FY26 (consolidated), remainder written off in Q1 FY27." Add that Moonshine's group faces **₹10,369 Cr of GST show-cause notices** (AR note 41B), and that Nazara's exposure is limited to its equity.
+- **nazara-technologies.html — FY26 PAT basis:** FY26 profit for the year **₹81.9 Cr = ₹67.0 Cr continuing + ₹14.9 Cr discontinued (Openplay sale gain)**; attributable to owners **₹95.9 Cr**. State which one the primer uses.
+- **nazara-technologies.html — ownership/governance (§03):** add the Jun-2025 Axana ₹495 Cr preferential and SAST open offer (1,889 shares tendered) that made Axana/Plutus promoters; the **Jun-2026 warrants (1.82 Cr at ₹260; 1.42 Cr converted; 40 lakh outstanding)**; NSE-verified **87.74% promoter encumbrance (29.82% of equity)**, originating with Plutus/Khandelwal; **Jhunjhunwala stake nil since FY26**; founder entities ≈2.8% (Mitter Infotech fell from ~5–6% at Mar-26 to 0.81% by Oct-26).
+- **nazara-technologies.html — Kiddopia KPIs:** use the KPI-table series (Q4 FY25 222,584 → Q1 FY27 220,012; flat); CAC per subscriber US$62.6; ARPU US$7.81; churn 6.6% (above the 6.0% LTV assumption). Do not chart the FY26 deck's bar-chart series (mislabelled) or the Q3 FY26 deck series.
+- **nazara-technologies.html — NODWIN valuation:** retained stake fair-valued at **₹1,445.9 Cr** on 13-Aug-2025 (≈ ₹3,034 Cr for 100%); carrying ₹1,226.9 Cr at Mar-26; NODWIN post-deconsolidation loss ₹461.5 Cr. NODWIN revenue inside Nazara FY26 ≈ ₹160 Cr (not ₹348 Cr).
+- **nazara-technologies.html — Bluetile payment schedule:** about US$75m due ~early Nov-2026, ~US$35m Dec-2026, balance by 1-Apr-2027 (04-Aug-2026 call); funding from Bluetile cash (~US$20m), accruals, debt, the ₹730.78 Cr preferential and possible stake sales.
+- **nazara-technologies.html — regulation (§07):** add the commencement notification **S.O. 1994(E) (22-Apr-2026; in force 1-May-2026)**; the SC GST judgment ***DGGI v Gameskraft*, 27-May-2026**; GST notices "over ₹1.4 lakh crore (91 SCNs to Jan-2025)"; PROGA challenge **T.C.(C) 133/2025**, last heard 5-Aug-2026, no stay.
+- **nazara-technologies.html — goodwill:** goodwill ₹794.7 Cr (Mar-26) with no FY26 impairment; Smaaash goodwill ₹108.6 Cr is provisional. Bluetile (US$303m) will roughly double goodwill and intangibles in FY27 [E].
+- **nazara-technologies.html — Funky Monkeys stake:** now **68.10%** (60% → 64% via ₹8 Cr primary on 21-Aug-2026 → 68.10% via ₹1.9 Cr secondary on 03-Sep-2026).
+
