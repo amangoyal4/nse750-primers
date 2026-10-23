@@ -1532,6 +1532,23 @@
         "Summer, heat and capacity"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Gas Transmission & Marketing",
+      "slug": "gas-transmission",
+      "file": "gas-transmission.html",
+      "sector": "Gas Transmission",
+      "subsector": "Gas Transmission/Marketing",
+      "companies": 1,
+      "accent": "#0E6223",
+      "hook": "A toll road beside a trading desk: how India's gas pipelines earn a regulated 12% whether full or half-empty, how an LNG contract book turns gaps between Henry Hub, Brent and spot prices into swings of −₹700 to +₹7,400 Cr, and why the 2026 Hormuz war re-routed India's gas rather than cutting it.",
+      "tags": [
+        "The Hormuz year",
+        "Three indices, one contract book",
+        "One Nation, One Grid, One Tariff",
+        "Gas vs LPG, power and biogas"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1989,7 +2006,7 @@
       "sector": "Gas Transmission",
       "sub": "Gas Transmission/Marketing",
       "companies": 1,
-      "report": null
+      "report": "gas-transmission.html"
     },
     {
       "sector": "Healthcare",
