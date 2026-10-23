@@ -1260,6 +1260,23 @@
         "Gokul's trading model"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Water Treatment",
+      "slug": "water-treatment",
+      "file": "water-treatment.html",
+      "sector": "Infrastructure",
+      "subsector": "Water Supply & Management",
+      "companies": 3,
+      "accent": "#1A9363",
+      "hook": "The payer matters more than the plant: how Va Tech Wabag, Ion Exchange and Enviro Infra Engineers turn desalination, sewage, industrial water and resins into profit, why JJM's funding stop, Gulf desal and HAM annuities decide their cash, and how to read order books, burn rates and working capital.",
+      "tags": [
+        "Who pays: JJM, AMRUT & HAM",
+        "Desalination & the Gulf",
+        "Working capital is the real P&L",
+        "Three business models"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1807,7 +1824,7 @@
       "sector": "Infrastructure",
       "sub": "Water Supply & Management",
       "companies": 3,
-      "report": null
+      "report": "water-treatment.html"
     },
     {
       "sector": "Infrastructure",
