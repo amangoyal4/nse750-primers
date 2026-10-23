@@ -40,10 +40,10 @@ Indian gas transmission: <em>a toll road beside a trading desk</em>
 
 ## Forces
 1. The 2026 West Asia war / Qatar force majeure: LNG re-routed, not cut (H1 FY27 LNG imports +4.5%; Dahej 68.5% vs Dabhol/Dhamra/Hazira up).
-2. The index basis of the marketing book (HH vs Brent vs JCC lag vs spot): standalone marketing PBIT −₹702 Cr (FY21) to ₹7,446 Cr (FY25); ₹4,500 Cr FY27 guidance; Sep-2026 Brent 16.8.
+2. The index basis of the marketing book (HH vs Brent vs JCC lag vs spot): standalone marketing PBIT −₹702 Cr (FY21) to ₹7,446 Cr (FY25); ₹4,500 Cr FY27 guidance; Sep-2026 Brent $116.8.
 3. Regulated returns and the tariff pen: 12% post-tax, ₹58.61 → ₹65.69 interim order (1-Jan-2026), full review 1-Apr-2028, half-empty new lines raise levelised tariffs.
 4. Volume vs the 15% goal: consumption ~188 MMSCMD (−3.6% FY26), gas share 6.13%, domestic output below FY14, ~72% of GAIL's flow imported; CGD/CBG the growth.
-5. Price administration (APM cap .00 vs formula 1.22, HPHT ceiling, allocation ladder) and the petchem capex re-mix (FY26 petchem loss ₹1,408 Cr).
+5. Price administration (APM cap $7.00 vs formula $11.22, HPHT ceiling, allocation ladder) and the petchem capex re-mix (FY26 petchem loss ₹1,408 Cr).
 
 ## Peer table combined rows
 None — single-company sub-sector (per brief): one member row "GAIL · 532155" linked to ../primers/gail-india.html, then REFERENCE rows (Petronet LNG, IGL, MGL, ATGL, Gujarat Energy, GSPL Transmission, ONGC; global: Kinder Morgan, Williams, Cheniere, Enbridge, TC Energy — INDICATIVE) with no "·" code and no primer link. One PAT basis: screener consolidated reported FY26. peersum: no combined rows to check.
@@ -54,8 +54,8 @@ All ₹/mmBtu conversions (25.2 scm/mmBtu); the profit equation and its sensitiv
 
 ## Figures not sourced / not reconciled
 - GAIL's exact tariff ask (secondary sources give ₹77.98–79.98; shown as "~₹78–80", single-source).
-- No free primary monthly JKM series for 2026 (the 4–25 peak is attributed to press reports; World Bank Japan LNG/TTF/HH used instead).
-- New-well gas "2–13" (management) vs the ~20%-over-APM formula — flagged as probably tender-priced.
+- No free primary monthly JKM series for 2026 (the $24–25 peak is attributed to press reports; World Bank Japan LNG/TTF/HH used instead).
+- New-well gas "$12–13" (management) vs the ~20%-over-APM formula — flagged as probably tender-priced.
 - SOTP: the dossier's component ranges add to ~₹96,700 Cr – ₹1,29,500 Cr; the report shows the arithmetic and calls ₹1.0–1.25 lakh Cr the central zone.
 - GSPL Transmission has no published results yet; global peers' EBITDA from guidance/press; ATGL Q1 FY26 OP derived from the CGD-trio total; Jun–Aug-2026 LNG import months averaged from the H1 total; 9-Mar-2026 gas supply order gazette text not fetched; exact Gujarat Energy rename date (before 19-Jun-2026).
 - Macro flag for the owner: World Bank and PPAC give Brent $120.4 (Apr-2026) and $116.8 (Sep-2026), contradicting the line "Brent ~$95 after the 7-Apr ceasefire" used in some sibling dossiers.
