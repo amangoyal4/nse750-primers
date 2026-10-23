@@ -35,3 +35,7 @@
 - **varun-beverages.html — QIP and credit rating dates:** QIP **₹7,500 Cr in Nov-2024**; CRISIL AAA upgrade **Feb-2025** (reaffirmed 21-Apr-2026). Check that the timeline does not place the upgrade in Dec-2025.
 - **varun-beverages.html — low/no-sugar India vs group:** if the primer quotes ~59% or 73% as "India", note that at 9M CY25 India was only **~45%** (group ~56%). The 73% (H1 CY26) is consolidated.
 
+
+## From primer-audit.mjs (2026-10-23, beverages run)
+
+- **varun-beverages.html — hard-check FAIL (pre-existing, not fixed here):** banned phrases "no room for error" and "a long way to fall"; also no `main{min-width:0}` (phone overflow risk). 0 links to sub-sector reports.
