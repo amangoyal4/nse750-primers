@@ -58,3 +58,7 @@
 **polycab-india.html / kei-industries.html**
 - No new primary findings this pass beyond Part 3; optional context line: copper scrap import duty went to nil from Feb-2025 and the BIS cathode QCO (Dec-2024) protects domestic smelters — both affect cable makers' metal sourcing.
 
+
+## From primer-audit.mjs (2026-10-23, orchestrator)
+- **hindustan-copper.html — fails a hard check (banned phrases):** contains "a long way to fall", "grow into the multiple", "no margin for error" and "honestly". Pre-existing; not fixed here.
+- **hindustan-copper.html — no `main{min-width:0}`** grid fix (phone overflow risk). Pre-existing; not fixed here.
