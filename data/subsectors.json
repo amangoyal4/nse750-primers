@@ -1243,6 +1243,23 @@
         "Three balance sheets"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Edible Oils",
+      "slug": "edible-oil",
+      "file": "edible-oil.html",
+      "sector": "FMCG",
+      "subsector": "Edible Oil",
+      "companies": 3,
+      "accent": "#737E16",
+      "hook": "A refining business run by customs: how a 19-point gap between crude and refined import duty decides who refines India's oil, why inventory gains swing profits more than demand does, and why the market pays for Patanjali's FMCG, AWL's brands and Gokul's 37% ROCE so differently.",
+      "tags": [
+        "Crude–refined duty gap",
+        "AWL vs Patanjali",
+        "Palm plantation bet",
+        "Gokul's trading model"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1640,7 +1657,7 @@
       "sector": "FMCG",
       "sub": "Edible Oil",
       "companies": 3,
-      "report": null
+      "report": "edible-oil.html"
     },
     {
       "sector": "FMCG",
