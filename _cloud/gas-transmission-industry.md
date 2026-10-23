@@ -737,3 +737,245 @@ GAIL's FY26 PPT shows "President of India 51.52%" [V] vs screener promoter 51.85
 14. **Conflict — Q1 FY26 marketing profit:** our primer says "~₹661 Cr (vs ~₹2,057 Cr a year earlier)"; the results filing shows Q1 FY26 standalone marketing segment EBIT **₹1,071.60 Cr** (consolidated ₹1,044.68 Cr) [V]. The primer's figure may be management "PBT" on a different basis — unverified.
 15. **Network length:** 18,000+ km (PPT) vs ~18,700 km (AR) vs 13,658 km INGPL operating (PNGRB, 31-3-2025) — dates/definitions differ (see Trap 11).
 16. **NWG landed price "$12–13"** (GAIL CFO) vs Parikh's 20% premium over APM (~$8.40 at a $7 cap) [V/K] — likely includes transport/other costs or refers to a different NWG pricing; flag.
+
+---
+
+# PART 2 — COMPANY FACT PACK (member) + REFERENCE-PEER PACK
+
+## 2.0 Member peer table (single member; FY26; m-cap and multiples 23-Oct-2026)
+
+| Company | NSE | Year | Revenue ₹ Cr | Growth | EBITDA margin | PAT ₹ Cr | ROCE | ROE | Net debt ₹ Cr | M-cap ₹ Cr | P/E | P/B | EV/EBITDA | Transmission vol. | Marketing vol. | Marketing EBIT |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| GAIL (India) | GAIL | FY26 cons | 1,41,598 (screener) / 1,42,094 (filing) | −0.2% | 8.1% screener OP (₹11,502 Cr); 10.2% company EBITDA (₹14,524 Cr) | 7,582 | 9.67% | 8.71% | gross borrowings 24,831; screener investments 26,233 are mostly strategic → **use gross debt** | **1,07,749** | 10.9× TTM; 14.2× FY26 | 1.21× | **9.1× FY26 on gross debt (company EBITDA)**; 8.9× TTM screener OP | 122.18 MMSCMD | 104.21 MMSCMD | ₹3,078 Cr (SA) |
+
+## 2.1 GAIL (India) Ltd (GAIL · 532155) — India's gas highway operator, largest gas marketer, gas-based petchem and LPG producer
+
+**Full record (screener consolidated, fetched 23-Oct-2026, ~6 pm IST) [V]**
+- Price **₹163**; m-cap **₹1,07,749 Cr**; 52-week high/low ₹187/₹134; P/E 10.9 (TTM); book value ₹135/share (P/B 1.21×); dividend yield 3.36%; ROCE 9.67%; ROE 8.71%; FV ₹10; shares ~657.5 crore [E from equity capital ₹6,575 Cr].
+- **FY26:** sales ₹1,41,598 Cr (FY25 ₹1,41,902 Cr; −0.2%); OP ₹11,502 Cr (8%); other income ₹3,023 Cr; depreciation ₹3,835 Cr; interest ₹964 Cr; PBT ₹9,725 Cr; tax 22%; **PAT ₹7,582 Cr** (FY25 ₹12,463 Cr; −39%); EPS ₹11.53; payout 48%.
+- **TTM (to Jun-26):** sales ₹1,47,485 Cr; OP ₹14,939 Cr; PAT ₹9,870 Cr; EPS ₹15.03.
+- **Balance sheet Mar-26 (cons):** equity ₹6,575 Cr + reserves ₹82,474 Cr = net worth ₹89,049 Cr; borrowings ₹24,831 Cr (FY25 ₹21,595 Cr); other liabilities ₹26,688 Cr; fixed assets ₹68,667 Cr; CWIP ₹24,072 Cr; investments ₹26,233 Cr; total ₹1,40,569 Cr.
+- **Cash flow FY26 (cons):** CFO ₹11,249 Cr; CFI −₹8,856 Cr; CFF −₹2,750 Cr; FCF ₹2,451 Cr (FY25 ₹7,818 Cr). CFO/OP 113%.
+- **Working capital:** debtor days 22; inventory 16; payables 19; working-capital days −14 (FY26).
+- **Standalone (screener):** FY26 sales ₹1,38,601 Cr; OP ₹10,324 Cr; PAT ₹6,968 Cr; ROCE 10.7%; ROE 9.63%; P/E 11.5; BV ₹113.
+- **Company-reported (SA, AR FY26) [V]:** total loans ₹17,414 Cr (FY25 ₹13,577 Cr); net worth ₹66,365 Cr; D/E 0.28; ICR 10.14×; DSCR 2.47×; current ratio 0.83; capital employed ₹98,667 Cr (Mar-26) → ₹1,05,910 Cr (Jun-26); net worth ₹70,658 Cr and LT loans ₹13,823 Cr at Jun-26 (D/E 0.32) [V Q1 PPT].
+- **Q1 FY27 (Jun-26):** cons sales ₹41,198 Cr (+16.7% YoY; screener), OP ₹7,098 Cr (17%), PAT ₹4,671 Cr (+96%); company: cons turnover ₹41,277 Cr, EBITDA ₹7,573 Cr, PBT ₹6,268 Cr, PAT (ex-MI) ₹4,665 Cr; SA turnover ₹38,912 Cr, EBITDA ₹6,948 Cr, PBT ₹5,773 Cr, PAT ₹4,292 Cr [V].
+- **Net debt basis for the writer:** screener "borrowings − investments" would show ~net cash ₹1,400 Cr — **wrong**: the ₹26,233 Cr investments are strategic equity stakes (Petronet, IGL, MGL, China Gas, JVs). **Use gross debt (₹24,831 Cr cons; ₹17,414 Cr SA total loans)** and value stakes separately (listed stakes ≈ ₹13,148 Cr at market [E]). Consolidated borrowings likely include lease liabilities for chartered LNG ships [E — verify].
+
+**Native KPIs [V unless tagged]**
+- Transmission: 122.18 MMSCMD FY26 (127.32 FY25); 122.36 Q1 FY27; FY27 guide ~123. INGPL tariff ₹65.69 (from 1-1-26). INGPL capacity 163.8 MMSCMD. Network ~18,700 km (+~1,500 km under construction).
+- Marketing: 104.21 MMSCMD FY26; 93.82 Q1 FY27 (8.76 overseas); segment EBIT ₹3,078 Cr FY26 / ₹3,481 Cr Q1 FY27; FY27 guidance ~₹4,500 Cr PBT; LNG portfolio 16.56 MTPA; HH book ~21 MMSCMD.
+- Petchem: capacity 870 KTA (+BCPL 280 KTA subsidiary); sales 785 TMT FY26; Q1 FY27 production 51 TMT; EBIT −₹1,408 Cr FY26, −₹123 Cr Q1 FY27.
+- LHC: 1.34 MMTPA capacity; 815 TMT sales FY26; Q1 FY27 232 TMT production; EBIT ₹489 Cr FY26, ₹772.5 Cr Q1 FY27.
+- LPG transmission: 4,600 TMT FY26 (record; 4.58 MMTPA capacity); 1,077 TMT Q1 FY27; EBIT ₹456 Cr FY26.
+- City gas (own GAs + GAIL Gas): own 6 GAs — 217 CNG stations, 2.63 lakh DPNG; GAIL Gas 16 GAs + 9 via JVs — 592 CNG, 7.94 lakh DPNG (Jun-26); consolidated City Gas EBIT ₹699 Cr FY26.
+- Capex ₹9,594 Cr FY26; ₹11,500–11,600 Cr FY27 plan; ₹6,176 Cr Q1 FY27.
+- Dividend ₹5.50/share FY26 (51.9% payout).
+- Employees 5,356; R&D ₹262.67 Cr; CSR ₹179.59 Cr (AR) / ~₹189 Cr (PPT) — flag minor conflict.
+- Ratings: domestic AAA (Stable); international Baa3/BBB− (capped at sovereign) [V PPT]; ICRA/CARE rating updates in 2026 (30-Sep ICRA; 6-Aug CARE) [V screener].
+
+**Ownership (screener, Sep-2026) [V]:** Promoter (President of India) 51.85%; FII 16.59% (up from 13.04% in Mar-26); DII 17.88%; Government (other PSUs — ONGC ~4.9%, IOC ~2.4% [K]) 7.60%; public 6.07%; 15.20 lakh shareholders. GDRs listed on LSE [V PPT].
+
+**Group structure (FY26 PPT/AR) [V]:** Subsidiaries — GAIL Gas, BCPL, GAIL Mangalore Petrochemicals, Konkan LNG (100% from 6-Jul-26), Tripura Natural Gas, Bengal Gas, GAIL Global (Singapore), GAIL Global (USA) Inc / GAIL Global (USA) LNG LLC, GAIL Global IFSC. JVs/associates — Petronet LNG, IGL, MGL, ONGC Petro-additions, ONGC Tripura Power, Indradhanush Gas Grid, Ramagundam Fertilizers, Talcher Fertilizers, Coal Gas India, China Gas Holdings, Fayum Gas (Egypt), LNG Japonica Shipping, South-East Asia Gas Pipeline, TAPI Pipeline Co., Aavantika, Bhagyanagar, Central UP Gas, Green Gas, Maharashtra Natural Gas, Vadodara Gas, Leafiniti Bioenergy (49% acquired Mar-2026), Indian Gas Exchange (stake [K]).
+
+**Story bullets**
+1. **What defines it:** a regulated pipeline annuity (~2/3 of normal EBIT) bolted to the country's largest gas trading book and a loss-making petchem arm; consolidated PAT has swung ₹5,596 Cr (FY23) → ₹12,463 Cr (FY25) → ₹7,582 Cr (FY26) → ₹4,671 Cr in a single quarter (Q1 FY27) [V].
+2. **Its edge:** owns ~65% of India's transmission grid incl. all the new eastern/central trunk lines; most diversified LNG portfolio in India (US HH, JCC, Qatar, spot, new Vitol/ADNOC), which made it the system's shock absorber in the 2026 crisis (nodal agency for pooling) [V].
+3. **Main risks:** marketing mean-reversion after Q1 FY27 (management guides lower); petchem capex (PDH-PP ₹11,256 Cr, delayed to ~Dec-2027) into a weak polymer cycle; transmission volume stagnation (FY27 ~123 vs 127 in FY25); PNGRB tariff decisions; PSU governance (no independent directors since 28-Mar-2026) [V].
+4. **What changed since our primer (2-Jul-2026):** Q1 FY27 record quarter; FY27 transmission guidance cut; clause-5A unbundling withdrawn; Konkan LNG 100%; MNJPL complete; LPG pipelines authorised; Gujarat restructuring created a listed pure-play pipeline comparable (GTL); stock −13% vs the primer's m-cap [V].
+
+**Sources:** screener.in/company/GAIL/consolidated/ and /GAIL/ (23-Oct-2026); BSE results filing Q1 FY27 (via screener source link /company/source/quarter/1074/6/2026/); BSE PPTs (Pname 3eda4efe… Q1 FY27; 07a07684… FY26 analyst meet); gailebank.gail.co.in/InvestorsZone/GAIL_EARNINGS_CALL_Q1_FY27.pdf; GAIL Annual Report 2025-26 (BSE AttachHis 474d7528…).
+
+## 2.2 Reference-peer fact pack (NOT members; for industry context) — screener consolidated, fetched 23-Oct-2026 [V]
+
+| Company | Role in gas chain | FY26 revenue ₹ Cr (FY25) | YoY | OP ₹ Cr (OPM) | PAT ₹ Cr | ROCE / ROE | Borrowings / investments ₹ Cr | M-cap ₹ Cr | P/E | P/B | EV/EBITDA [E] | Q1 FY27 rev / OP / PAT | Promoter Sep-26 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **Petronet LNG** (PETRONET) | LNG import/regas (Dahej, Kochi) | 43,495 (50,982) | −14.7% | 5,338 (12.3%) | 3,913 | 22.6% / 18.3% | 2,341 / 742 | **42,952** (₹286) | 10.2 | 1.92 | 8.5× gross | 5,558 / 1,535 / 1,137 | 50.00% (GAIL, IOCL, BPCL, ONGC 12.5% each [K]) |
+| **Indraprastha Gas** (IGL) | CGD Delhi NCR | 16,168 (14,913) | +8.4% | 1,876 (11.6%) | 1,544 | 17.5% / 13.3% | 98 / 3,175 | **19,882** (₹142) | 14.6 | 1.73 | ~9.0× net-cash basis | 4,587 / 294 / 238 | 45.00% (GAIL 22.5 + BPCL 22.5 [K]); Govt (Delhi) 5% |
+| **Mahanagar Gas** (MGL) | CGD Mumbai | 8,246 (7,264) | +13.5% | 1,446 (17.5%) | 841 | 17.0% / 12.2% | 223 / 1,148 | **10,172** (₹1,025) | 14.2 | 1.57 | ~6.4× net cash | 2,373 / 342 / 193 | 32.50% (GAIL [K]); Govt (Maharashtra) 10% |
+| **Adani Total Gas** (ATGL) | CGD (Ahmedabad etc.); Q2 reported | 5,894 (5,000) | +17.9% | 1,195 (20.3%) | 656 | 15.3% / 14.4% | 2,255 / 1,690 (Mar-26) | **58,182** (₹529) | 90.6 | 11.2 | ~49× | 1,754 / 270 / 142; **Q2: 1,944 / 328 / 173** | 74.80% (Adani + TotalEnergies [K]) |
+| **Gujarat Energy** (GUJENERGY; ex-Gujarat Gas + GSPC + GSPL, transmission demerged) | CGD + gas trading (GSPC) | 23,614 (27,615 restated) | −14.5% (mixed base) | 3,087 (13.1%) | 1,678 | 11.7% / 10.2% | 3,243 / 1,010 | **20,090** (₹214) | 10.3 | 0.80 | ~7.2× (mixed basis) | 9,545 / 1,381 / 1,007 | 38.94% (GoG entities); Govt 7.38% |
+| **GSPL Transmission** (GSPLTRANS) | Gujarat gas grid (~2,900 km) | n.a. (new) | — | — | — | — | — | **3,525** (₹113) | — | — | — | Q2 board 3-Nov | n.a. |
+| **ONGC** | Producer (APM/NWG/deepwater gas); OPaL | 6,08,663 (6,12,064) | −0.6% | 1,03,120 (16.9%) | 49,793 | 14.2% / 11.6% | 1,74,316 / 1,01,084 | **2,84,504** (₹226) | 6.5 | 0.76 | 4.5× gross | 2,04,987 / 15,485 / 6,554 | 58.89%; Govt 10.30% |
+| **Reliance** | KG-D6 gas (with bp), CBM, gas marketing | 10,55,780 (9,62,820) | +9.7% | 1,79,065 (17.0%) | 95,754 | 10.3% / 8.9% | 4,02,962 / 2,48,332 | **16,22,011** (₹1,190) | 21.7 | 1.78 | 11.3× gross | 3,09,468 / 47,517 / 23,196 | 50.44% |
+| **IOCL** (IOC) | Ennore LNG, Dadri–Panipat & Ennore–Tuticorin pipelines, gas marketing | 7,84,415 (7,58,106) | +3.5% | 77,108 (9.8%) | 43,677 | 18.7% / 20.5% | 1,31,822 / 73,298 | **1,82,834** (₹129) | 5.4 | 0.83 | 4.1× gross | 2,66,407 / 4,062 / **−1,141** | 51.50%; Govt 19.57% |
+| **BPCL** | Gas marketing (RLNG), IGL 22.5%, Petronet 12.5% [K] | 4,55,228 (4,40,272) | +3.4% | 41,202 (9.1%) | 25,843 | 25.6% / 28.8% | 54,424 / 30,136 | **1,22,212** (₹281) | 7.9 | 1.22 | 4.3× gross | 1,51,277 / −4,055 / **−1,873** | 52.98% |
+| GSPL (old page — STALE) | pre-merger | FY25 17,370 | — | FY25 2,650 | FY25 1,637 | — | — | 15,141 (frozen) | — | — | — | last qtr Dec-25 | — |
+
+Notes:
+- **Petronet's Q1 FY27 revenue fell 53% YoY (₹5,558 Cr vs ₹11,880 Cr) while OP rose 32% (₹1,535 Cr vs ₹1,159 Cr)** — Qatar FM removed traded LNG volume; regas fees (incl. use-or-pay) held [V screener; interpretation E]. Board 2-Nov.
+- **IGL and MGL Q1 FY27 margins compressed** (IGL OP −42% YoY; MGL −32%) — costlier replacement gas for lost APM/LNG [V screener; E reason].
+- **IOCL and BPCL posted Q1 FY27 losses** (LPG under-recoveries and crude spike during the war) [V screener; reason E/V-sib].
+- **ONGC Q1 FY27 PAT ₹6,554 Cr (−43%)** despite higher crude — APM cap $7 vs formula $10.76–11.59 and windfall-type effects [V screener; reason E — verify].
+- **Gujarat Energy's history is restated for the merger**; its Q1 FY27 (₹9,545 Cr revenue) includes GSPC's trading; YoY comparisons are not like-for-like [V screener; E].
+- **Energy InvIT (East-West, PIL):** FY25 total income ₹4,036 Cr; distributions ₹1,141 Cr [V-snip]; tariff ₹74.67 [V].
+- **GAIL Gas (unlisted, 100% GAIL):** FY26 turnover ₹12,681 Cr; Q1 FY27 turnover ₹3,326 Cr, PAT ₹120 Cr [V].
+- **Indradhanush Gas Grid (unlisted JV):** NE grid 1,656 km authorised; tariff ₹166.33 [V].
+- Global peers: §10 (INDICATIVE).
+
+## 2.3 JSON (numeric; ₹ Cr unless noted; null = not sourced)
+
+```json
+{
+  "asof": "2026-10-23",
+  "fx_inr_per_usd": 94.9,
+  "member": {
+    "name": "GAIL (India) Ltd", "nse": "GAIL", "bse": "532155", "primer": "primers/gail-india.html",
+    "price_inr": 163, "mcap_cr": 107749, "pe_ttm": 10.9, "pe_fy26": 14.2, "pb": 1.21, "div_yield_pct": 3.36,
+    "fy26_cons": {"revenue_screener": 141598, "revenue_filing": 142094, "revenue_fy25_screener": 141902, "op_screener": 11502, "ebitda_company": 14524, "other_income": 3023, "depreciation": 3835, "interest": 964, "pbt": 9725, "pat": 7582, "roce_pct": 9.67, "roe_pct": 8.71, "borrowings": 24831, "investments_strategic": 26233, "cfo": 11249, "fcf": 2451},
+    "fy26_sa": {"revenue": 138697, "ebitda": 13119, "pbt": 8964, "pat": 6968, "total_loans": 17414, "net_worth": 66365, "de": 0.28, "roce_pct": 10.04, "ronw_pct": 10.49},
+    "fy25": {"cons_pat_company": 12450, "cons_pat_screener": 12463, "sa_pat": 11312, "smts_settlement_one_off": 2440},
+    "q1fy27": {"cons_revenue_screener": 41198, "cons_op_screener": 7098, "cons_pat_screener": 4671, "cons_ebitda_company": 7573, "cons_pat_company": 4665, "sa_turnover": 38912, "sa_ebitda": 6948, "sa_pbt": 5773, "sa_pat": 4292},
+    "segments_sa_ebit": {
+      "fy26": {"ng_transmission": 6229.11, "lpg_transmission": 455.54, "marketing": 3077.58, "petchem": -1408.22, "lhc": 489.32, "other": 517.91, "total": 9361.24},
+      "q1fy26": {"ng_transmission": 1557.56, "lpg_transmission": 120.27, "marketing": 1071.60, "petchem": -248.63, "lhc": 205.01, "other": 191.23, "total": 2897.04},
+      "q4fy26": {"ng_transmission": 1881.58, "lpg_transmission": 76.13, "marketing": -151.32, "petchem": -377.71, "lhc": 143.89, "other": 91.31, "total": 1663.88},
+      "q1fy27": {"ng_transmission": 1782.65, "lpg_transmission": 122.87, "marketing": 3481.29, "petchem": -122.53, "lhc": 772.50, "other": 200.52, "total": 6237.30}
+    },
+    "segments_sa_revenue_fy26": {"ng_transmission": 11205.94, "lpg_transmission": 916.18, "marketing": 124244.41, "petchem": 7574.42, "lhc": 4293.33, "other": 2210.76, "intersegment": -11749.06},
+    "city_gas_cons": {"fy26_revenue": 7401.37, "fy26_ebit": 698.68, "q1fy27_revenue": 2256.11, "q1fy27_ebit": 225.62},
+    "volumes": {
+      "transmission_mmscmd": {"FY22": 111, "FY23": 107, "FY24": 120, "FY25": 127.32, "FY26": 122.18, "Q4FY26": 118.99, "Q1FY27": 122.36, "FY27_guide": 123},
+      "marketing_mmscmd": {"FY22": 96, "FY23": 95, "FY24": 98, "FY25": 101.49, "FY26": 104.21, "Q4FY26": 101.88, "Q1FY27": 93.82},
+      "polymer_sales_tmt": {"FY22": 790, "FY23": 399, "FY24": 787, "FY25": 845, "FY26": 785, "Q1FY27": 37},
+      "lhc_sales_tmt": {"FY22": 1004, "FY23": 998, "FY24": 929, "FY25": 951, "FY26": 815, "Q1FY27": 225},
+      "lpg_transmission_tmt": {"FY22": 4199, "FY23": 4335, "FY24": 4396, "FY25": 4478, "FY26": 4600, "Q4FY26": 1114, "Q1FY27": 1077}
+    },
+    "tariff_ingpl_inr_per_mmbtu": 65.69, "tariff_ask_inr_per_mmbtu": 78.72, "network_km": 18700, "ingpl_capacity_mmscmd": 163.8,
+    "marketing_guidance_pbt_fy27": 4500, "capex": {"FY25": 10512, "FY26": 9594, "FY27_plan": 11600, "Q1FY27": 6176},
+    "dps_inr": {"FY22": 10.0, "FY23": 4.0, "FY24": 5.5, "FY25": 7.5, "FY26": 5.5}, "payout_pct_fy26": 51.9,
+    "shareholding_sep26_pct": {"promoter": 51.85, "fii": 16.59, "dii": 17.88, "govt_other": 7.60, "public": 6.07},
+    "q2fy27_board": "2026-10-30"
+  },
+  "reference_peers": [
+    {"name": "Petronet LNG", "nse": "PETRONET", "fy26_rev": 43495, "fy25_rev": 50982, "fy26_op": 5338, "fy26_pat": 3913, "mcap": 42952, "pe": 10.2, "roce": 22.6, "borrowings": 2341, "q1fy27_rev": 5558, "q1fy27_op": 1535, "q1fy27_pat": 1137, "q2_board": "2026-11-02"},
+    {"name": "Indraprastha Gas", "nse": "IGL", "fy26_rev": 16168, "fy25_rev": 14913, "fy26_op": 1876, "fy26_pat": 1544, "mcap": 19882, "pe": 14.6, "roce": 17.5, "borrowings": 98, "q1fy27_rev": 4587, "q1fy27_op": 294, "q1fy27_pat": 238, "q2_board": "2026-10-30"},
+    {"name": "Mahanagar Gas", "nse": "MGL", "fy26_rev": 8246, "fy25_rev": 7264, "fy26_op": 1446, "fy26_pat": 841, "mcap": 10172, "pe": 14.2, "roce": 17.0, "borrowings": 223, "q1fy27_rev": 2373, "q1fy27_op": 342, "q1fy27_pat": 193, "q2_board": null},
+    {"name": "Adani Total Gas", "nse": "ATGL", "fy26_rev": 5894, "fy25_rev": 5000, "fy26_op": 1195, "fy26_pat": 656, "mcap": 58182, "pe": 90.6, "roce": 15.3, "borrowings": 2255, "q1fy27_rev": 1754, "q1fy27_op": 270, "q1fy27_pat": 142, "q2fy27_rev": 1944, "q2fy27_op": 328, "q2fy27_pat": 173},
+    {"name": "Gujarat Energy (ex-Gujarat Gas)", "nse": "GUJENERGY", "fy26_rev": 23614, "fy25_rev_restated": 27615, "fy26_op": 3087, "fy26_pat": 1678, "mcap": 20090, "pe": 10.3, "roce": 11.7, "borrowings": 3243, "q1fy27_rev": 9545, "q1fy27_op": 1381, "q1fy27_pat": 1007, "note": "restated, mixed basis"},
+    {"name": "GSPL Transmission", "nse": "GSPLTRANS", "mcap": 3525, "price": 113, "q2_board": "2026-11-03"},
+    {"name": "ONGC", "nse": "ONGC", "fy26_rev": 608663, "fy26_op": 103120, "fy26_pat": 49793, "mcap": 284504, "pe": 6.51},
+    {"name": "Reliance Industries", "nse": "RELIANCE", "fy26_rev": 1055780, "fy26_op": 179065, "fy26_pat": 95754, "mcap": 1622011, "pe": 21.7},
+    {"name": "Indian Oil", "nse": "IOC", "fy26_rev": 784415, "fy26_op": 77108, "fy26_pat": 43677, "mcap": 182834, "pe": 5.44, "q1fy27_pat": -1141},
+    {"name": "BPCL", "nse": "BPCL", "fy26_rev": 455228, "fy26_op": 41202, "fy26_pat": 25843, "mcap": 122212, "pe": 7.88, "q1fy27_pat": -1873}
+  ]
+}
+```
+
+## 2.4 Conflicts and gaps (company level)
+1. Consolidated revenue: ₹1,42,094 Cr (results filing "sales/income from operations") vs ₹1,41,598 Cr (screener "sales") vs ₹1,41,716 Cr (PPT "gross turnover") [V]. Use the filing figure in prose; screener in peer tables.
+2. FY25 cons PAT: ₹12,450 Cr (company, owners) vs ₹12,463 Cr (screener) [V]. Our primer uses both in different places.
+3. Q1 FY27 marketing: ₹3,353 Cr "PBT" (call) vs ₹3,481 Cr standalone segment EBIT vs ₹3,608 Cr consolidated segment EBIT [V]. State the basis.
+4. CSR spend: ₹179.59 Cr (AR) vs "~₹189 Cr" (PPT) [V].
+5. President of India 51.52% (PPT) vs promoter 51.85% (screener) [V].
+6. Fertiliser plant capacity: "1.2 MMTPA each" (PPT) vs "1.27 MMTPA"-type wording partially legible in the AR text [V/unclear].
+7. Consolidated borrowings ₹24,831 Cr vs standalone total loans ₹17,414 Cr — difference = subsidiaries (BCPL, GAIL Gas, GMPL, Konkan) and probably lease liabilities [E].
+
+---
+
+# PART 3 — COMPANY-KPI APPENDIX
+
+## 3.1 Summary grid (member + reference peers; ₹ Cr; screener consolidated 23-Oct-2026 unless noted)
+
+| Company | Role | FY26 rev | YoY % | OP | OPM % | PAT | Q1 FY27 rev | Q1 YoY % | Q1 OPM % | Q1 PAT | M-cap | P/E | EV/EBITDA FY26 | Native KPI (latest) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **GAIL (MEMBER)** | Transmission + marketing + petchem + LHC | 1,41,598 | −0.2 | 11,502 (co. EBITDA 14,524) | 8.1 (10.2) | 7,582 | 41,198 | +16.7 | 17.2 | 4,671 | 1,07,749 | 10.9 TTM | 9.1× (gross debt, co. EBITDA) | Transmission 122.36 MMSCMD; marketing EBIT ₹3,481 Cr (Q1) |
+| Petronet LNG (ref) | Regas | 43,495 | −14.7 | 5,338 | 12.3 | 3,913 | 5,558 | −53.2 | 27.6 | 1,137 | 42,952 | 10.2 | 8.5× gross | Dahej util. 92% (Apr-25–Apr-26) |
+| IGL (ref) | CGD | 16,168 | +8.4 | 1,876 | 11.6 | 1,544 | 4,587 | +17.2 | 6.4 | 238 | 19,882 | 14.6 | ~9.0× net cash | — |
+| MGL (ref) | CGD | 8,246 | +13.5 | 1,446 | 17.5 | 841 | 2,373 | +13.9 | 14.4 | 193 | 10,172 | 14.2 | ~6.4× net cash | — |
+| ATGL (ref) | CGD | 5,894 | +17.9 | 1,195 | 20.3 | 656 | 1,754 | +27.2 | 15.4 | 142 | 58,182 | 90.6 | ~49× | Q2 FY27 vol +12% |
+| Gujarat Energy (ref) | CGD + trading | 23,614 | −14.5 (restated) | 3,087 | 13.1 | 1,678 | 9,545 | +63.1 (mixed) | 14.5 | 1,007 | 20,090 | 10.3 | ~7.2× | — |
+| GSPL Transmission (ref) | Pipeline | n.a. | | | | | | | | | 3,525 | n.a. | n.a. | ~2,900 km Gujarat grid; tariff ₹18.1 |
+
+## 3.2 Aggregates (reference only — this sub-sector has ONE member, so the report has no "combined" row)
+
+All sums below are straight sums of the screener consolidated rows above on one basis (FY26 vs FY25; Q1 FY27 vs Q1 FY26; m-cap 23-Oct-2026). Ratios are ratios of sums. **Label them "India listed gas-chain reference set", never "sub-sector".** [E]
+
+**(a) FY26 — "listed gas-chain pure plays" (GAIL + Petronet + IGL + MGL + ATGL + Gujarat Energy)**
+| Group | FY26 rev | FY25 rev | YoY | OP | OPM | PAT | FY25 PAT | M-cap | Agg. P/E (m-cap ÷ FY26 PAT) |
+|---|---|---|---|---|---|---|---|---|---|
+| All six | 2,39,015 | 2,47,676 | −3.5% | 24,444 | 10.2% | 16,214 | 23,822 | 2,59,027 | 16.0× |
+| Ex-ATGL (valuation outlier) | 2,33,121 | 2,42,676 | −3.9% | 23,249 | 10.0% | 15,558 | 23,168 | 2,00,845 | 12.9× |
+| CGD trio (IGL, MGL, ATGL) | 30,308 | 27,177 | +11.5% | 4,517 | 14.9% | 3,041 | 3,407 | 88,236 | 29.0× (ex-ATGL: 30,054 ÷ 2,385 = 12.6×) |
+| GAIL alone | 1,41,598 | 1,41,902 | −0.2% | 11,502 | 8.1% | 7,582 | 12,463 | 1,07,749 | 14.2× |
+- GAIL = **59% of the six's revenue, 47% of OP, 47% of PAT, 42% of m-cap** [E].
+- FY25 Gujarat Energy is the restated merged figure; the six-company FY25 base is therefore approximate.
+- With GTL (₹3,525 Cr) the reference m-cap is ₹2,62,552 Cr.
+
+**(b) Q1 FY27 vs Q1 FY26 (six)**
+| Group | Rev Q1 FY27 | Rev Q1 FY26 | YoY | OP Q1 FY27 | OP Q1 FY26 | YoY | PAT Q1 FY27 | PAT Q1 FY26 | YoY |
+|---|---|---|---|---|---|---|---|---|---|
+| All six | 65,015 | 60,418 | +7.6% | 10,920 | 6,969 | **+56.7%** | 7,388 | 4,683 | +57.8% |
+| GAIL | 41,198 | 35,311 | +16.7% | 7,098 | 3,669 | +93.5% | 4,671 | 2,382 | +96.1% |
+| Ex-GAIL (five) | 23,817 | 25,107 | −5.1% | 3,822 | 3,300 | +15.8% | 2,717 | 2,301 | +18.1% |
+| CGD trio | 8,714 | 7,376 | +18.1% | 906 | 1,304 | **−30.5%** | 573 | 912 | **−37.2%** |
+- **Read:** the war quarter split the chain — GAIL (diversified supply, lagged-index purchases) and Petronet (fee model) gained; CGD margins collapsed (−31% OP on +18% revenue) [E]. Gujarat Energy's +65% OP is distorted by the GSPC merger.
+
+**(c) Balance sheet (screener Mar-26) [E]:** borrowings GAIL 24,831 + Petronet 2,341 + IGL 98 + MGL 223 + ATGL 2,255 + Gujarat Energy 3,243 = **₹32,991 Cr**; GAIL is 75% of it. Gross debt/OP for the six ≈ 1.35×.
+
+**(d) Ownership (Sep-26):** state/PSU control dominates — GAIL 51.85% GoI; Petronet 50% (four PSUs); IGL 45% (GAIL+BPCL) + 5% Delhi; MGL 32.5% GAIL + 10% Maharashtra; Gujarat Energy 38.94% + 7.38% GoG entities; ATGL 74.8% Adani/TotalEnergies (the only private-promoter name) [V screener; stake splits K].
+
+**(e) GAIL's listed-stake look-through [E]:** Petronet 12.5% × ₹42,952 Cr = ₹5,369 Cr; IGL 22.5% × ₹19,882 Cr = ₹4,474 Cr; MGL 32.5% × ₹10,172 Cr = ₹3,306 Cr → **₹13,148 Cr ≈ 12.2% of GAIL's m-cap** (stakes [K]).
+
+## 3.3 Reconciliation vs primer (`primers/gail-india.html`, refreshed 2-Jul-2026)
+
+| Item | Primer | Fetched (23-Oct-2026) | Use |
+|---|---|---|---|
+| FY26 cons revenue / EBITDA / PAT | ₹1,42,094 / 14,524 / 7,582 Cr | Same (filing/PPT) [V] | — |
+| FY26 SA revenue / EBITDA / PAT | ₹1,38,697 / 13,119 / 6,968 Cr | Same [V] | — |
+| FY25 cons PAT | ₹12,450 Cr (table) and ₹12,463 Cr (chart) | 12,450 company / 12,463 screener [V] | Pick one basis; note SMTS ₹2,440 Cr one-off |
+| M-cap | ~₹1.15 lakh Cr (Jun-26) | **₹1,07,749 Cr** (₹163) [V] | Screener |
+| P/E / P/B / yield | ~15× / ~1.3× (₹174 vs ₹135) / ~4.3% | **10.9× TTM (14.2× FY26) / 1.21× / 3.36%** [V] | Screener |
+| ROCE / ROE | ~9.7% / ~8.7% | 9.67% / 8.71% screener cons; company SA ROCE 10.04%, RONW 10.49% [V] | Label basis |
+| Network | ~16,000+ km, ~70% of grid | **~18,700 km (31-3-26), ~65% share** [V AR/PPT] | Fetched |
+| Unified tariff | ₹73.93; zones 39.45/74.97/99.90 | **₹83.94 levelised; two zones ₹54.00/₹102.86 from 1-1-26** (₹80.97; 42.04/80.08/106.77 at Mar-25) [V] | Fetched |
+| GAIL tariff | "cut to ₹65.69 (below ask ₹78.72)" | ₹65.69 from 1-1-26 [V]; prior ₹58.61 [K] → an increase below ask | Reframe |
+| FY27 transmission guidance | ~133–134 MMSCMD | **~123 MMSCMD** (Q1 call) [V] | Fetched |
+| Q1 FY26 marketing profit | ~₹661 Cr vs ~₹2,057 Cr | Segment EBIT ₹1,071.60 Cr SA [V] | Verify / relabel |
+| Petchem capacity | ~810 KTA | 870 KTA (810 PE + 60 PP from 4-Feb-26) [V] | Fetched |
+| Polymer "output 768 TMT" | production | Sales 785 TMT [V AR] | Label both |
+| US LNG pricing | "~115% HH + ~$3" for all 5.8 MTPA | Sabine SPA (HH-linked); Cove Point is tolling (GAIL buys gas + pays liquefaction) [V AR; K] | Clarify |
+| Capex FY26 | ₹9,594 Cr | Same [V]; FY27 plan ₹11,500–11,600 Cr [V] | Add |
+| Renewables | ~154 MW; ~1 GW ambition | 154 MW; 1,063 MW near-term programme; **3.6 GW by 2035** target [V PPT/AR] | Update |
+| Ownership | GoI ~51.9%; DIIs ~20%+; FIIs ~13% | 51.85% / 17.88% / 16.59% (Sep-26) [V] | Screener |
+| CGD stakes | "Mahanagar Gas via associates" | MGL is a JV/associate (GAIL ~32.5% [K]) | Minor wording |
+| Unbundling | not covered | PNGRB withdrew clause 5A (per GAIL, Jul-26) [V] | Add |
+| Konkan LNG | not covered | 100% GAIL from 6-Jul-26 [V] | Add |
+| Q1 FY27 | not covered | SA PAT ₹4,292 Cr; cons ₹4,665 Cr; marketing EBIT ₹3,481 Cr; LHC ₹772.5 Cr; petchem −₹122.5 Cr (51 TMT output) [V] | Add |
+
+## 3.4 Primer issues (format as primer-issues.md)
+
+### From Gas Transmission & Marketing research (2026-10-23, gas-transmission-industry.md §3.4)
+
+- **gail-india.html — valuation stale:** m-cap "~₹1.15 lakh Cr (Jun '26)" → **₹1,07,749 Cr at ₹163 (23-Oct-2026)**; "~15× trailing P/E" → **10.9× TTM consolidated** (14.2× on FY26); "~1.3× book (₹174 vs ~₹135)" → **1.21×**; "~4.3% dividend yield" → **3.36%** (screener) / ~3.4% on ₹5.50 DPS. FII holding "~13%" → **16.59% (Sep-26)**.
+- **gail-india.html — network length and share stale:** "~16,000+ km… roughly 70% of India's grid" → **~18,700 km at 31-Mar-2026, ~65% share** (GAIL AR FY26; FY26 analyst-meet PPT). Mumbai–Nagpur–Jharsuguda (1,707 km) became fully operational on 31-May-2026; ~1,500 km more under construction.
+- **gail-india.html — Unified Tariff numbers are the 2023 launch values:** "Zone 1 ~₹39.45, Zone 2 ~₹74.97, Zone 3 ~₹99.90 (~₹73.93 blended)" → from **1-Jan-2026 PNGRB moved to two zones: ₹54.00/mmBtu (≤300 km) and ₹102.86 (>300 km), levelised ₹83.94; CNG and domestic PNG pay ₹54 nationwide** (PNGRB NGPL Tariff MIS, 13-Jan-2026). The three-zone values just before the change were ₹42.04/₹80.08/₹106.77 (levelised ₹80.97).
+- **gail-india.html — tariff "cut" framing:** the Nov-2025 order set GAIL's integrated tariff at **₹65.69/mmBtu from 1-Jan-2026**, below the ₹78.72 sought. The previous INGPL tariff was ~₹58.61 [K — verify], so it was an **increase that fell short of the ask**, not a cut. Fix §02, §03, timeline and bear case.
+- **gail-india.html — FY27 transmission guidance stale:** "management targets ~133–134 MMSCMD by FY27" (§02, §07, bull case) → **cut to ~123 MMSCMD** on the Q1 FY27 call (31-Jul-2026), "assumption that the geopolitical situation continues".
+- **gail-india.html — Q1 FY27 and the West Asia war omitted (refreshed 2-Jul):** add Q1 FY27 — SA PAT **₹4,292 Cr** (Q4 FY26 ₹1,262 Cr), cons PAT ₹4,665 Cr, cons EBITDA ₹7,573 Cr; marketing EBIT **₹3,481 Cr** (JCC 9-month-lag vs 3-month-Brent arbitrage + HH discount; 8 spot cargoes; Qatar FM via Petronet); **LHC EBIT ₹772.5 Cr** (LPG ₹90,796/t; +0.597 MMSCMD new-well gas); **petchem output 51 TMT** (gas diverted to priority sectors under the Essential Commodities notification), loss ₹122.5 Cr; FY27 marketing guidance **~₹4,500 Cr PBT** (maintained); GAIL designated nodal agency for gas pooling.
+- **gail-india.html — FY25 "record" profit explained wrongly:** §09 says FY25 was a "strong LNG spread" year. FY25 PBT included a **one-time ₹2,440 Cr settlement with SMTS** (SEFE Marketing & Trading Singapore — the former Gazprom Marketing & Trading Singapore that defaulted on LNG deliveries in 2022) (GAIL AR FY26 MD&A). It sits in Q3 FY25 other income (₹3,211 Cr). The 2022 Gazprom default — the main reason FY23 PAT fell to ₹5,596 Cr — is not mentioned anywhere.
+- **gail-india.html — FY26 profit-fall drivers incomplete:** AR attributes the PBT fall to the SMTS base effect, **~₹1,400 Cr higher petchem input-gas cost** and a **~₹675 Cr provision on NFCL dues**. Also: Q4 FY26 one-offs incl. **₹475 Cr + ₹189 Cr depreciation write-backs from extending pipeline life 30→40 years and PE-plant life 25→35 years**. Depreciation now guided at ~₹3,200–3,300 Cr a year.
+- **gail-india.html — FY25 PAT inconsistency:** table "₹12,450 Cr" vs chart "₹12,463 Cr" (company vs screener basis). FY24 chart ₹9,903 Cr (screener) vs company ₹9,899 Cr. Pick one basis and label it.
+- **gail-india.html — Q1 FY26 marketing figure unverified:** "Q1 FY26 marketing profit fell to ~₹661 Cr from ~₹2,057 Cr" — the results filing shows Q1 FY26 standalone marketing segment EBIT **₹1,071.60 Cr** (cons ₹1,044.68 Cr). Verify the source of ₹661 Cr or replace.
+- **gail-india.html — petchem capacity and volumes:** "~810 KTA" → **870 KTA (810 KTA PE + 60 KTA PP commissioned 4-Feb-2026)**; "polymer output 768 TMT" is production — sales were 785 TMT (AR). Add BCPL (280 KTA subsidiary; 302 TMT marketed FY26). PDH-PP Usar (500 KTA, ₹11,256 Cr) commissioning has slipped to ~Dec-2027 (Q1 call); GMPL 1,250 KTA PTA "in advanced stage of commissioning". Petchem breakeven: gas ~$13–14/mmBtu at ~₹1.3 lakh/t polymer.
+- **gail-india.html — US LNG description:** "~115% of HH plus about $3" applies to the **Sabine Pass** SPA (3.5 MTPA); **Cove Point (2.3 MTPA) is a tolling/liquefaction-capacity arrangement** where GAIL buys US gas and pays a liquefaction fee (AR: "LNG Tolling Agreement with Cove Point"). Add the HH-book split from the Q1 call: ~21 MMSCMD, ~45–50% back-to-back HH, ~20% to Pata, ~25–30% open cross-index (partly hedged); and the 2.4 MTPA JCC contract (9-month average, 2-month lag).
+- **gail-india.html — unbundling/pipeline-subsidiary risk missing:** PNGRB's clause-5A requirement to separate transmission and marketing from 1-Apr-2027 has been **withdrawn** (per GAIL, Jul-2026); a TSO will only monitor 25% open access. Add as a removed overhang.
+- **gail-india.html — omissions (corporate):** **Konkan LNG became a wholly-owned subsidiary from 6-Jul-2026** (NCLT 3-Jun-2026); **3 LPG pipelines authorised 14-Jul-2026** (~1,800 km, ~₹6,700 Cr); **no independent director on the board since 28-Mar-2026** (audit committee of three whole-time directors); six GAIL CGD GAs moving to GAIL Gas; Leafiniti Bioenergy 49% (CBG) acquired Mar-2026; GAIL Gas FY26 turnover ₹12,681 Cr.
+- **gail-india.html — capex guidance:** add FY27 plan **₹11,500–11,600 Cr** (net-zero/RE ₹1,950 Cr, pipelines ₹2,401 Cr, operational ₹3,530 Cr, petchem ₹1,486 Cr) and Q1 FY27 ₹6,176 Cr (incl. ₹4,548 Cr "operational capex incl. ship chartering").
+- **gail-india.html — renewables target:** "targeting ~1 GW" → programme to 1,063 MW under way (600 MW solar + 550 MWh BESS UP; 100 MW solar MH; 178.2 MW wind MH) and a **3.6 GW-by-2035** target (AR/PPT).
+- **gail-india.html — gas-economy facts:** gas share is **6.13% (CY2025), down from 6.58%** (EI Statistical Review 2026 via GAIL AR) — "~6%" is fine but the trend is *down*; India's FY26 consumption **fell 3.1% to ~189 MMSCMD**; PNGRB's 2030 projection (~297 MMSCMD) and CGD 45 → 80–85 MMSCMD are worth adding. "India still imports about half its gas" ✓ (50.6% FY26).
+- **gail-india.html — CGD wording:** "Mahanagar Gas via associates" — MGL and IGL are JV/associate stakes held directly by GAIL (MGL ~32.5%, IGL ~22.5% [K]); listed-stake value ≈ ₹13,150 Cr at 23-Oct prices incl. Petronet 12.5% [E].
+- **gail-india.html — ownership detail:** promoter 51.85% (Sep-26) vs "President of India 51.52%" in the FY26 PPT; other PSUs (ONGC, IOC) hold a further 7.60% ("Government" on screener).
+- **General:** the primer's sources list cites ₹78.72 ask and "Q1 FY26 ₹661 Cr" from secondary press; replace with filings where possible (PNGRB MIS; GAIL results PDFs).
+
+## 3.5 Key source URLs
+- **Screener (23-Oct-2026):** https://www.screener.in/company/GAIL/consolidated/ · https://www.screener.in/company/GAIL/ · /PETRONET/consolidated/ · /IGL/consolidated/ · /MGL/consolidated/ · /ATGL/consolidated/ · /ONGC/consolidated/ · /RELIANCE/consolidated/ · /IOC/consolidated/ · /BPCL/consolidated/ · /GUJENERGY/consolidated/ · /GSPLTRANS/ · /GSPL/consolidated/ (stale)
+- **GAIL filings:** Q1 FY27 results (screener source link) https://www.screener.in/company/source/quarter/1074/6/2026/ · Q1 FY27 PPT https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3eda4efe-9d6d-438f-941c-a3a8a2389644.pdf · FY26 analyst meet PPT https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07a07684-1220-4a04-a416-ac2cb360abbf.pdf · Q1 FY27 call transcript https://gailebank.gail.co.in/InvestorsZone/GAIL_EARNINGS_CALL_Q1_FY27.pdf · Annual Report 2025-26 https://www.bseindia.com/xml-data/corpfiling/AttachHis/474d7528-dc8d-40e6-bc63-d81008cbb813.pdf
+- **PNGRB:** https://pngrb.gov.in/data-bank/20260113-NGPL-Tariff-MIS.pdf
+- **PPAC:** https://ppac.gov.in/download.php?file=whatsnew/1790767900_Domestic_Natural_Gas_Price_October_2026.pdf · https://ppac.gov.in/download.php?file=whatsnew/1790767903_Gas_Price_Ceiling_October2026-March2027.pdf · https://ppac.gov.in/download.php?file=menu/1790857950_WEB_UPLOAD_Sep26_Flash_Report.pdf
+- **FIPI Policy & Economic Reports (PPAC data):** https://fipi.org.in/Policy_Economic_Report/July26/files/basic-html/page47.html (and page48–50) · https://fipi.org.in/Policy_Economic_Report/May26/files/basic-html/page47.html (and 48–51) · https://fipi.org.in/Policy_Economic_Report/April26/files/basic-html/page38.html (and 39–42)
+- **World Bank CMO monthly:** https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/related/CMO-Historical-Data-Monthly.xlsx (file version ends Dec-2024)
+- **West Asia/LNG:** https://pgjonline.com/news/2026/march/india-s-gail-weighs-gas-supply-cuts-after-petronet-lng-force-majeure [V] · https://moneylife.in/article/global-lng-crisis-deepens-qatar-declares-force-majeure-india-faces-supply-shock-with-spot-prices-doubling-to-24mmbtu/79846.html [V-snip; 403 on fetch]
+- **GSPC restructuring [V-snip]:** https://insights.dsij.in/dsijarticledetail/gspc-group-restructuring-effective-from-may-1-2026-ggl-merger-gtl-demerger-share-swap-ratios-announced-id003-56862 · https://filingreader.com/news-wire/mumbai/2026-07-08/gspl-transmission-allots-312m-shares-to-gujarat-energy · https://themachinemaker.com/news/gspc-group-restructuring-comes-into-effect/
+- **Unified tariff press [V-snip]:** https://indianinfrastructure.com/2025/12/16/pngrb-rationalises-unified-tariff-structure-for-natural-gas-transportation/
+- **Global [V-snip]:** https://www.offshore-technology.com/news/kinder-morgan-surge-q4-2025-net-income/ · Cheniere Q3-2025 release (worldports.org summary)
