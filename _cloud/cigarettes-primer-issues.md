@@ -35,3 +35,7 @@
 - **itc.html — Q1 FY27 excise:** state "₹10,036 Cr standalone (₹10,409 Cr consolidated, incl. Surya Nepal)".
 - **diversified-fmcg.html (sibling) — ITC cigarette volume "~70 bn" (INDICATIVE):** CRISIL shares imply ITC ~85–90 bn. Flag for the next refresh; per-stick figures (₹3.9 net, ₹3.0 PBIT, ₹6.0 excise) would fall to ~₹3.1 / ₹2.4 / ₹4.8.
 
+
+## From primer-audit.mjs (2026-10-23, orchestrator)
+
+- **godfrey-phillips-india.html — fails hard checks (pre-existing, not fixed here):** banned phrase(s) present; "honest" used more than once; missing the kit grid fix `main{min-width:0}` (phone overflow risk). 70 KB, 5,815 words, 15 bars, 11 plain callouts, 12 sections, 0 report links, refreshed 2026-06-30. Add a link to `subsectors/cigarettes.html` when published.
