@@ -1379,6 +1379,23 @@
         "The consolidation trap"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Holding Companies",
+      "slug": "holding-cos",
+      "file": "holding-cos.html",
+      "sector": "Finance",
+      "subsector": "Holding Company",
+      "companies": 2,
+      "accent": "#1A931A",
+      "hook": "A rupee of value for 44 paise: why CFHL and Religare trade at deep discounts to the lender and insurers they own, how look-through earnings differ from reported profit, and how RBI and IRDAI rules, out-of-phase jewels and capital flowing down the chain keep the discount wide.",
+      "tags": [
+        "The CFHL discount",
+        "Religare after the RBI said no",
+        "Chola MS in a soft market",
+        "Care Health and GST 2.0"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1728,7 +1745,7 @@
       "sector": "Finance",
       "sub": "Holding Company",
       "companies": 2,
-      "report": null
+      "report": "holding-cos.html"
     },
     {
       "sector": "Finance",
