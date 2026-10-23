@@ -1226,6 +1226,23 @@
         "Build versus buy: CAMS vs KFin"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Carbon Black",
+      "slug": "carbon-black",
+      "file": "carbon-black.html",
+      "sector": "Chemicals",
+      "subsector": "Carbon Black",
+      "companies": 3,
+      "accent": "#2B167E",
+      "hook": "Tyres, crude and the per-tonne spread: how PCBL, Himadri and Rain turn heavy oil and coal tar into profit, why EBITDA per tonne swings by half with feedstock lags, Russian surplus and the 2026 oil shock, and what the leverage and battery-materials bets are worth.",
+      "tags": [
+        "Spread cycle",
+        "Russia's lost market",
+        "Battery materials",
+        "Three balance sheets"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1431,7 +1448,7 @@
       "sector": "Chemicals",
       "sub": "Carbon Black",
       "companies": 3,
-      "report": null
+      "report": "carbon-black.html"
     },
     {
       "sector": "Chemicals",
