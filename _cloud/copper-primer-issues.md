@@ -28,3 +28,33 @@
 - **kei-industries.html — "Adani (via a Kutch Copper joint venture) moved into the space":** Kutch Copper is a wholly owned AEL subsidiary, not a JV; verify the cable-entry vehicle.
 - **General (all copper-touching primers):** none uses the **TradeStat import series** or the **Hindalco India-demand slide (FY26 ~1.56 Mt incl. ~39% scrap; Q1 FY27 −9%)**, and none mentions the **2026 TC/RC benchmark of $0**. All market caps are stale by 1–4 months.
 
+
+## From Copper deep-research pass (2026-10-23, copper-industry.md Part 4)
+
+**hindustan-copper.html**
+- **Credit rating missing/stale:** add **ICRA AAA (Stable), upgraded 29-Sep-2026 from AA+**; HCL is debt-free (nil debt, >₹1,000 Cr liquid investments, Sep-2026). Source: ICRA rationale 29-Sep-2026.
+- **Vision-2030 table — revise the Part 3 issue:** the primer's "Khetri ~1.0 → 2.9" matches HCL's AR FY26 text and should *not* be called wrong; the real error is the **missing ICC 0.4 → 4.2 MTPA (Rakha/Chapri MDO 3.0 + Surda 0.9 + Kendadih 0.4)**. Prefer the deck's MCP 2.5 → 5.0 / KCC 1.5 → 3.0 / ICC 0.4 → 4.2 = 12.2.
+- **Add the year-by-year ore roadmap** (deck slide 22): FY26 3.67 → FY27 4.71 → FY28 5.18 → FY29 5.90 → FY30 12.20 Mt, and note it is back-end loaded.
+- **Add MDO economics:** Rakha/Chapri MDO with South West Mining (JSW): ~₹2,700 Cr capex funded by the MDO, 20 + 10 years, **HCL receives 12.5% of revenue**, MDO has first right of refusal on concentrate; first output expected end-FY27 (ICRA).
+- **Add the execution track record:** FY26 guidance (Sep-2025 meet) ore 4.35 Mt / MIC ~30,000 t vs actual 3.67 Mt / 27,421 t; FY27 expectation MIC sales ~30,000 t (ICRA).
+- **Add contingent liabilities/IVRCL risk:** ₹1,262 Cr contingent liabilities (31-Mar-2026); ~₹320 Cr + interest arbitral award to IVRCL (no stay; execution petition in Calcutta HC); terminal tax ₹246.5 Cr; Jharkhand water cess ₹246.2 Cr.
+- **Add management:** CMD **Anupam Misra w.e.f. 01-Jul-2026** (ex-Director Marketing, FACT); Director (Finance)/CFO R.V.N. Vishweshwar; Director (Ops) Sanjeev Kumar Sinha.
+- **Pricing mechanics:** concentrate sold at LME minus **spot** TC/RC (not annual), payable ~95–96%; mention negative spot TCs; management cost of production ~$5,000/t (MCP) and ~$6,000/t (Khetri/ICC).
+- **Customs facts (if the primer mentions duties):** copper ores/concentrates and blister BCD nil since Jul-2024; copper scrap nil since Feb-2025.
+- **KABIL:** if the primer implies overseas copper assets via KABIL — KABIL's Argentine blocks are lithium; HCL has no overseas copper blocks.
+
+**vedanta.html**
+- **Copper economics:** copper segment **FY26 revenue ₹31,069 Cr, EBITDA −₹48 Cr**; Q1 FY27 ₹8,538 Cr / ₹11 Cr; cathode 170 kt FY26 and 41 kt Q1 FY27 (−7%); rods 283 kt FY26; Fujairah rod sales −51% in Q1 FY27 (Hormuz); copper sensitivity only ~₹55–70 Cr EBITDA per $1,000/t. Source: Vedanta Q1 FY27 investor presentation (30-Jul-2026).
+- **Do not repeat the ">245 ktpa Silvassa run-rate"** from press reports; installed capacity ~222 ktpa after debottlenecking (press summary of the Q1 release).
+- Tuticorin land (3 parcels) is listed for monetisation in the same deck — note alongside the restart bid.
+
+**hindalco.html**
+- **Copper history:** FY23 EBITDA ₹2,253 Cr (+62%), FY24 ₹2,616 Cr (+16%; metal sales 506 kt), FY25 ₹3,025 Cr, FY26 ₹2,809 Cr, Q1 FY27 ₹918 Cr (record). The "copper EBITDA per t" rose from ~₹51,700 (FY24) to ~₹87,400 (Q1 FY27) on acid.
+- Q1 FY27 PR: Inner-Grooved Tubes plant "fully operational and scaling up"; copper & e-waste recycling project to commission in FY27.
+
+**adani-enterprises.html**
+- **Kutch Copper balance sheet:** copper-vertical debt rose from **₹8,844 Cr (Mar-26) to ₹10,542 Cr (Jun-26)**, driven by working-capital debt (₹3,782 → ₹5,553 Cr) during the ramp; Q1 FY27 sales 64.7 kt; utilisation basis = quarterly output ÷ 125 kt (52%).
+
+**polycab-india.html / kei-industries.html**
+- No new primary findings this pass beyond Part 3; optional context line: copper scrap import duty went to nil from Feb-2025 and the BIS cathode QCO (Dec-2024) protects domestic smelters — both affect cable makers' metal sourcing.
+
