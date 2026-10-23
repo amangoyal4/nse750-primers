@@ -1515,6 +1515,23 @@
         "How far can price run?"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Soft Drinks & Beverages",
+      "slug": "beverages",
+      "file": "beverages.html",
+      "sector": "FMCG",
+      "subsector": "Other Beverages",
+      "companies": 1,
+      "accent": "#3B6426",
+      "hook": "The weather, the ₹10 war and PepsiCo's bottler: how a ₹20 bottle is split between tax, trade, brand owner and bottler, why one rainy summer erases a year's growth, who is paying for Reliance's Campa price war, why Coca-Cola is refranchising India, and how to read Varun Beverages quarter by quarter.",
+      "tags": [
+        "The ₹10 Campa war",
+        "PepsiCo franchise to 2049",
+        "Africa, the second engine",
+        "Summer, heat and capacity"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1954,7 +1971,7 @@
       "sector": "FMCG",
       "sub": "Other Beverages",
       "companies": 1,
-      "report": null
+      "report": "beverages.html"
     },
     {
       "sector": "FMCG",
