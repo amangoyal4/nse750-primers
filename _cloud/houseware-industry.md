@@ -1021,3 +1021,358 @@ Checks: 527 + 71 + 254 = 852; 529 + 65 + 233 = 827; 814 + 318 + 481 + 214 = 1,82
 - **Trade remedies:** https://antidumping.vn/definitive-anti-dumping-duty-imposed-on-certain-opal-glassware-imports-from-china-uae-n24787.html · https://www.corpseed.com/law-update/dgtr-recommends-anti-dumping-duty-on-borosilicate-table-and-kitchen-glassware-from-china · https://nsearchives.nseindia.com/corporate/BOROSIL_25092026205729_SE_Intimation.pdf
 - **Tupperware:** https://fortune.com/2024/10/30/tupperwares-sale-lenders-bankruptcy-judge-iconic-food-containers · https://www.retaildive.com/news/tupperware-bankruptcy-lender-group/730771 · https://brusselstimes.com/1283141/tupperware-announces-withdrawal-from-some-countries-amid-restructuring
 - **Q2 FY27 date:** https://quartr.com/companies/cello-world-limited_24157 · https://www.arihantcapital.com/company-information/board-meetings/91835 · https://univest.in/blogs/cello-world-q2-results-fy27-preview-date-expectations
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-23)
+
+Second, primary-source pass by the deep-research agent (same day as Parts 1–3). Scope: the member (Cello World) in full; La Opala RG and Borosil Ltd as the glass/opal comparators (short guidance digest + FY26 annual-report findings); lighter updates on Hamilton Housewares (Milton), Butterfly, Wonderchef and global peers; industry policy and trade data re-checked against primary documents.
+
+**Primary documents fetched and read this pass** (all free, no login; generic User-Agent):
+- **Cello World:** FY26 Annual Report (8th AR, filed Jul-2026; 17,163 lines of extracted text — Board's report, MD&A, consolidated notes 17–51 read in slices) — https://corporate.celloworld.com/wp-content/uploads/2026/07/CWL_AR25-26.pdf ; Q1 FY27 earnings-call transcript (call 10-Aug-2026, filed 14-Aug-2026) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01f15fa2-17cc-468c-9e3f-7b4c76bccaff.pdf ; Q4 FY26 transcript (29-May-2026) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42de0942-a266-4ad3-80e5-708476185d0f.pdf ; Q1 FY27 investor presentation (7-Aug-2026) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2aafae6-e724-4d2d-80c3-136b93ced33a.pdf ; FY26 investor presentation (incl. 5-year balance sheet and cash flow) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c3d0e64-9b0a-4f4d-ae22-1eea21065cd0.pdf ; QIP Monitoring Agency report for Q1 FY27 (Aug-2026) — https://corporate.celloworld.com/wp-content/uploads/2026/08/Intimationofmonitoringagencyreport.pdf ; rumour-verification letter to BSE (6-Aug-2026) — https://corporate.celloworld.com/wp-content/uploads/2026/08/Clarification-BSE_Signed.pdf ; volume clarifications to NSE (6-Oct-2026) and BSE (7-Oct-2026) — https://corporate.celloworld.com/wp-content/uploads/2026/10/Clarification.pdf · https://corporate.celloworld.com/wp-content/uploads/2026/10/Clarification_Signed.pdf ; fractional-entitlement report (17-Sep-2026) — https://corporate.celloworld.com/wp-content/uploads/2026/09/Intimation_signed.pdf ; AGM proceedings (7-Aug-2026) — https://corporate.celloworld.com/wp-content/uploads/2026/08/AGMOutcome-CWL_Signed.pdf ; corporate-announcements index — https://corporate.celloworld.com/corporate-announcement/
+- **La Opala RG:** Q1 FY27 investor presentation (12-Aug-2026) — https://www.laopala.in/uploads/documents/LORG_InvestorsPresentation_June2026_F.pdf ; Q4/FY26 presentation — https://www.laopala.in/uploads/documents/LORG_InvestorsPresentation_March2026.pdf (La Opala does not post call transcripts on its investor page).
+- **Borosil Ltd:** Q1 FY27 call transcript (19-Aug-2026) — https://www.borosil.com/site/assets/files/8670/transcript_on_concall_held_on_august_19-_2026.pdf ; Q1 FY27 presentation — https://www.borosil.com/site/assets/files/8663/presentation_on_companys_performance_for_the_quarter_ended_june_30-_2026.pdf ; FY26 Annual Report — https://www.borosil.com/site/assets/files/8678/annual_report_for_fy_2025-26_along_with_notice_of_agm-1.pdf ; DGTR final-findings intimation (25-Sep-2026) — https://www.borosil.com/site/assets/files/8697/intimation_under_regulation_30_of_sebi_lodr_regulations-_2015_the_sebi_listing_regulations_-_final_findings_of_dgt.pdf ; Bharuch-project change (22-Sep-2026) — https://www.borosil.com/site/assets/files/8689/disclosure_under_regulation_30_of_sebi_lodr_regulations-_2015_22_9_2026.pdf ; Q2 FY27 board intimation (22-Oct-2026) — https://www.borosil.com/site/assets/files/8710/intimation_of_board_meeting_on_october_29-_2026.pdf
+- **Rating agency:** CRISIL rationale, Hamilton Housewares, **25-Jun-2026** — https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/HamiltonHousewaresPrivateLimited_June%2025_%202026_RR_398434.html
+- **Policy:** GST Council, Recommendations of the 56th meeting (Annexures I–II, HSN-wise) — https://gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau_0.pdf ; PIB explainer "GST Reforms 2025" (4-Sep-2025) — https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc202594628401.pdf ; BIS circular CMD-1/3:3 (17-Oct-2024) on the Cookware, Utensils and Cans QCO — https://services.bis.gov.in/tmp/Circular_qDGr_2024-10-17.pdf
+- **Trade data:** UN Comtrade public API re-queried for CY2023, CY2024, CY2025 (India imports, World and China) — https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=699&period=2025&cmdCode=7013,3924,7323,9617,9608,9403&flowCode=M&partnerCode=0,156 (and period=2023, 2024).
+- **Other:** Butterfly BSE filing ref. 83/2023-24 (scheme not approved by public shareholders) — https://www.bseindia.com/xml-data/corpfiling/AttachHis/70202fd5-bf4a-49fb-bc77-450c156170f5.pdf and ref. 64/2023-24 — https://www.bseindia.com/xml-data/corpfiling/AttachHis/32a6188b-215b-4ef5-b2dd-f2db349811b3.pdf ; Newell Brands Q4/FY2025 results, SEC 8-K Ex. 99.1 (6-Feb-2026) — https://www.sec.gov/Archives/edgar/data/814453/000081445326000004/exhibit991_q4xdecemberx2025.htm
+
+**Could not fetch (blocked or 403/503):** nseindia.com archives (NSE circular on Wim Plast suspension), BSE announcements API, Tata Chemicals price circulars (TLS chain error), SGS QCO bulletins (403), Karnataka CGST list (502), plastemart (empty). Items depending on these stay [V-snip].
+
+Tags in Part 4: **[V4]** = fetched and read in THIS pass from the primary source named; [V-snip] = search-result summary or secondary article only; [E] = arithmetic/estimate; [V1] = verified in Parts 1–3 (earlier today) and not re-fetched.
+
+---
+
+## 4.0 Supersedes (corrections the writer must apply to Parts 1–3)
+
+| # | Where (Part/section) | Old figure / statement | New figure / statement | Source and reason |
+|---|---|---|---|---|
+| S1 | Part 1 §9.1 (Net cash row), §0 valuation bullet, Part 2 §2.0 peer table, §2.1 balance sheet and valuation, §2.3 JSON (`net_cash_company_est`, `cash_and_bank_company`), §2.4 item 2, Part 3 §3.2(c), §3.3, §3.4 | Cello net cash **≈ ₹720–740 Cr / ~₹730 Cr (Mar-26)**; "other bank balances ~₹32.9 Cr"; cash & bank ₹159.3 Cr | **≈ ₹709 Cr (Mar-26)**: current investments ₹597.9 + non-current other investments ₹21.6 + cash ₹126.4 + other bank balances **₹1.4** − borrowings ₹34.6 − lease liabilities ₹3.5 (₹3.3 non-current + ₹0.2 current). Cash & bank = **₹127.8 Cr**. Mar-25 comparable: ₹681.9 Cr | FY26 presentation consolidated balance sheet, re-read column by column [V4]. The "₹32.9 Cr" was a column mis-read: ₹35.9 Cr is the **Mar-25** other-bank figure; Mar-26 is ₹1.4 Cr. **EV/EBITDA is unchanged at ~15.4× FY26 OP** (EV ≈ ₹7,984 − ₹709 = ₹7,275 Cr; ~15.8× TTM). Net cash = 8.9% of m-cap. In Part 3 §3.2(c) replace "adds ~₹150 Cr of cash/bank → ~₹730 Cr" with "adds ~₹128 Cr of cash/bank and ₹22 Cr non-current investments, less ₹3.5 Cr leases → ~₹709 Cr"; "Cello + La Opala hold ~₹1,300 Cr" becomes **~₹1,290 Cr** (709 + 584). |
+| S2 | Trap 8; Part 1 §0 corp-action 3; §5.2; B3; Part 3 §3.3 & §3.4 ("leases … from CPIW") | The listed company **leases** the "Cello" writing-instrument/stationery trademark from CPIW | **Conflicting company language — present both.** The FY26 Annual Report says Cello World **"entered into deed of assignment for Cello trademark for Stationery and Writing Instruments"** (2025) and calls it the "reacquisition"/"acquisition of the iconic Cello brand … after its divestment in 2015". The Q1 FY27 and FY26 presentations say "agreement to **lease** the trademark … from CPIW". The FY26 related-party note (41.2) shows **no payment of any kind to CPIW** in FY25 or FY26, and intangible assets are only ₹1.0 Cr — so whatever the legal form, **no consideration or royalty was recognised** | FY26 AR p.5 timeline, chairman's letter, product page; consolidated note 41 [V4]; presentations [V1]. Writer: say "brought back into the group from the promoters' firm CPIW in Nov-2025 (the AR calls it an assignment; presentations a lease); no fee was paid in FY26". Ask management which is correct — it matters for who owns the brand. |
+| S3 | Part 1 §0 corp-action 2; §12 "Promoter holding / any OFS" row; Part 3 §3.4 stake-sale bullet | Stake-sale "news items" with no named counter-party | **Named rumour:** Livemint, **4-Aug-2026**, "Bain Capital leads talks to buy majority stake in Cello World"; the scrip rose **18.59% on 5-Aug-2026 (₹344.90 → ₹409.00)**; BSE sought clarification; Cello replied on **6-Aug-2026** that it is "not privy to any such negotiation and thus considers the said news item speculative", adding that it "explores various strategic / growth opportunities … from time to time" | Cello letter to BSE, 6-Aug-2026 [V4]. Still do **not** state that a sale is planned; do state that a PE majority-stake report exists and was called speculative by the company (the company is not a party to a promoter sale, so "not privy" is not a denial by the promoters). |
+| S4 | Part 1 §5.1 league table; §5.2; §0 ("Hamilton … flat in FY24"); Part 2 §2.2.7; §2.3 JSON (Hamilton row); §H item 1; Part 3 §3.3 (Milton row), §3.4 Milton bullet | Hamilton (Milton) latest = **FY24 ₹2,314 Cr**, op. margin 15.3%; FY25/FY26 "not found" | **FY25 ₹2,529 Cr (+9.3%), PAT ₹219 Cr, EBITDA 14.2%; FY26 (prov.) ₹2,865 Cr (+13%), PAT ₹264 Cr (9.2%), EBITDA 16.0% (≈ ₹458 Cr [E])**; net worth ₹1,971 Cr; debt ₹164 Cr; FY27 outlook +9–10% revenue, EBITDA 14–15%; now consolidates Hamilton Writing Instruments (controlling stake bought Q4 FY26); has **"fully commercialized their Opalware segment"** | CRISIL rationale 25-Jun-2026 [V4]. Consequences: Milton **out-grew Cello in both FY25 (+9.3% vs +6.8%) and FY26 (+13% vs +8.8%)**, is **23% larger than all of Cello** and ~1.8× Cello's consumerware segment, and earns almost the same rupee EBITDA (₹458 Cr vs Cello's ₹471 Cr ex-OI). Replace "flat in FY24 … industry problem" framing with: the leader grew double-digit in FY26 while Cello did not. |
+| S5 | Part 1 §5.1 (Wonderchef row) | Wonderchef ~₹600–700 Cr (FY25) [K] | **₹421 Cr FY25 (FY24 ₹378 Cr), PAT ₹4.4 Cr** | RoC filings via Entrackr [V-snip]. Lower by ~35–40%. |
+| S6 | Part 1 §4.3 capacity table, §H item 11; Part 2 §2.2.1 | La Opala "total opal+crystal ~40,000+ tpa [K, verify]" | **32,000 MTPA**: Sitarganj Unit 1 opal 20,000 + Unit 2 opal 12,000 (greenfield, commercial production 2022) + Madhupur crystal 1,000 (slide total for opal printed as 31,000); history 4,000 → 8,000 (2012) → 16,000 (2016) → 19,000 (2018) → 32,000 (2022) | La Opala Q1 FY27 presentation [V4]. Utilisation is **not disclosed**. |
+| S7 | Part 1 §4.3, §H item 11; Part 2 §2.2.2 | Borosil "Bharuch opal ~? tpd [K, verify]" | **Two opal furnaces at Jaipur, 84 TPD combined (42 → 84), "full capacity utilisation" (~90%)**; **borosilicate pressware furnace at Jaipur 25 TPD** (lit Jan-2024, rebuild due Jan-2028) at **90%**, being expanded to **32 TPD + 3rd forming line (₹50 Cr, by Q4 FY28)**; ~₹100 Cr of tumblers/jars/jugs sourced from Borosil Scientific's **Bharuch** plant; a ₹42 Cr Bharuch glassware line approved Mar-2026 will now be **built and funded by Borosil Scientific** (22-Sep-2026) | Borosil Q1 FY27 transcript, FY26 AR, 22-Sep-2026 filing [V4]. Opal is Jaipur, not Bharuch. 84 TPD ≈ 30,700 tpa [E]. |
+| S8 | Part 1 trap 7, §7.2 table "Rate before" column, §H item 7 | Pre-22-Sep-2025 rates all [K] | **[V4] for the 12% → 5% moves**: 6911, 6912 (ceramic/porcelain tableware), 7323 (iron & steel table/kitchen articles, utensils), 7418 (copper), 7615 (aluminium), 4419 (wood) were in the Council's "12% to 5%" household list; **pencils/crayons (9608/9609 part), sharpeners (8214), exercise books (4820) → Nil**. 3924, 7013, 9617, 9608 (ball pens) and 9403 (non-bamboo furniture) appear in **no** change list → **unchanged at 18%** | GST Council 56th-meeting release, Annexure II [V4]; Notification 9/2025-IT(Rate) [V1]. Keep the table; change the "[K]" tags to [V4] for these rows. Note the pencil line: 9608 is split — ball pens 18%, pencils/crayons Nil. |
+| S9 | Part 1 §7.1 (utensil QCO bullet), §H item 8 | "Stainless Steel and Aluminium Utensils (QC) Order — notified 2024, effective ~Mar-2025 [K]" | Correct name **Cookware, Utensils and Cans for Foods and Beverages (Quality Control) Order, 2024**: original S.O. 1365(E) of 14-Mar-2024 (IS 14756:2022 from 1-Sep-2024) [V-snip]; superseded by **S.O. 4494(E) of 14-Oct-2024 — IS 14756:2022 (stainless-steel utensils) and IS 1660 (wrought aluminium utensils) from 1-Apr-2025** [V4 BIS circular]; a 2025 order moved IS 14756 (2024 revision) to **1-Oct-2025** for large units, 1-Jan-2026 small, 1-Apr-2026 micro [V-snip SGS] | Use "in force for large manufacturers from Oct-2025 after two deferrals". |
+| S10 | Part 1 §0 corp-action 4; §H item 15; Part 2 §2.2.6 | Butterfly–Crompton merger "did not complete [K — withdrawal date not verified]" | NCLT Chennai convened meetings (order 12-Sep-2023); at the **28-Oct-2023** shareholder meeting the scheme got 3/4-in-value approval but **not a majority of public shareholders**, so under the SEBI master circular it "will not be acted upon" (exchange letter ref. 83/2023-24). Swap had been 22 Crompton shares per 5 Butterfly shares | Butterfly BSE filings [V4]. It was voted down by minorities, not withdrawn by the boards. |
+| S11 | Part 1 §0 corp-action 1(a), §H item 14 | Wim Plast delisting "[K]" | **NSE suspended WIMPLAST from 9-Jun-2026 (last trading day 8-Jun-2026)**; record date for Cello allotment **9-Jun-2026**; Wim Plast dissolved without winding up | AR note 17.9 [V4] (record date); NSE circular CML74603 [V-snip]. |
+| S12 | Part 1 §0 corp-action 1, Part 2 §2.1 identity | Wim Plast "minority holders received Cello shares" (no ratio) | **Ratio 86 Cello shares (FV ₹5) per 100 Wim Plast shares (FV ₹10)** = 55 for the demerger of WPL's manufacturing business into CCPPL + 31 for the amalgamation of the remainder into Cello World; **46,53,239 new shares** (29,75,909 + 16,77,330) → total **22,55,38,273 shares**; accounted as a common-control combination (Ind AS 103 App. C) → "share pending issuance" ₹409.3 Cr and a **capital reserve on business combination under common control of −₹329.3 Cr** | AR notes 17.9, 18.3; Board's report share-capital table [V4]. Promoter dilution check: 75.00% × 22.0885/22.5538 = **73.45%** ≈ screener 73.50% [E]. |
+| S13 | Part 1 §3 item 9; §9.1 channel row | Exports **7.9%** of FY26 revenue (presentation channel mix) | Channel mix still says 7.9%, but the AR's Ind AS 108 geographic note shows **revenue from customers outside India ₹158.7 Cr = 6.9% of ₹2,307.1 Cr, down 10.4% from ₹177.1 Cr (FY25)** | AR note 39.2 [V4]. Use 6.9% (statutory) and note the presentation's "exports" channel may include deemed/merchant exports. Export decline matches "weaker export demand" (Q1 call). |
+| S14 | Part 1 §9.1 "Segment EBITDA — not disclosed"; trap 2 | Three reported segments | **Statutorily Cello has ONE operating segment ("Consumer Products")** under Ind AS 108; the three "verticals" (Consumerware / WI / Moulded Furniture) are voluntary presentation splits with gross profit only | AR note 39.1 [V4]. Writer should call them "verticals (company presentation)" not "segments (audited)". |
+| S15 | Part 1 §10 global table; §2.4 | Newell "~US$7.6 bn (2024), adj. op ~8–9%" [K] | **FY2025 net sales US$7.2 bn (−5.0%; core −4.6%); reported operating margin 0.5% (after US$340 mn trade-name impairments); normalized operating margin 8.4% (US$606 mn); gross margin 33.8%; 2026 guide: flat sales** | Newell 8-K Ex. 99.1, 6-Feb-2026 [V4]. |
+| S16 | Part 1 §10 | Zojirushi "~¥90 bn, op ~5–7%" [K] | **FY Nov-2025: ¥91.2 bn (+4.5%), operating profit ¥7.4 bn (8.2%, +24.9%)** | Company disclosure via FilingReader [V-snip]. |
+| S17 | Part 1 §2 §0 (market size framing), §H item 13 | No post-2023 market size | Cello's own FY26 MD&A (citing "Gift City ‖ Ambit") sizes Indian consumerware at **US$3.08 bn (FY24) → US$3.38 bn (FY25E) → US$5.62 bn (FY30P, 10.7% CAGR)**; houseware US$2.88 bn (FY25E) → 4.68 bn (2030); glassware US$0.50 bn (FY25E) → 0.93 bn (16.5% CAGR); **branded 43% (2015) → 54% (2024/25E) → 60% (2030)** | AR MD&A p.58 [V4 as quoted]. At ~₹84/$ FY25 ≈ **₹28,400 Cr** — **~20% below Technopak's FY22 ₹34,800 Cr** and with a lower branded share (54% vs Technopak's 61% FY23). The two series use different scopes; present Technopak as the IPO-era consultant view and the AR figure as "the company's latest cited estimate", never splice them. |
+| S18 | Part 1 §3 item 8, §9.1, §H item 6 | Online share Q1 FY26 not stated | **Online 10.4% in Q1 FY26 → 16.3% in Q1 FY27** (CFO, Q1 call); Q4 FY26 presentation "online 9.5%" vs JMD "e-commerce and quick commerce … nearly 17%" in the same call — **definitional conflict remains** (see 4.4 gap 5) | Q1 & Q4 transcripts [V4]. |
+| S19 | Part 1 §9.1 KPI "Receivables target" | "target <100 days" | Q4 call: "about 10 to 15 days lesser than what we are at today … over this financial year"; "our target is about 15-odd days less — less than 100 days" (the two statements are not consistent with 118 days; treat target as **~100–105 days by Mar-27**) | Q4 transcript [V4]. |
+| S20 | Part 1 §7.3 (opal ADD) | "definitive duty imposed Aug-2022 after a sunset review" | Add history: **original definitive ADD Nov-2011 (Notification 103/2011-Cus); first sunset continuation Aug-2017; second Aug-2022 for five years; China 30.64% of CIF, UAE 4.38%** — so the duty has protected Indian opal makers for **15 years**; a third sunset review would have to be initiated before ~Aug-2027 | antidumping.vn / money9 / Global Trade Alert [V-snip]. No 2026 sunset initiation found. |
+| S21 | Part 2 §2.1 Native KPIs ("8 lines at Falna (2 + 4 + 2)"); §12 watch list | Steel lines commissioned as a capex item only | The steel-bottle plant is **QIP Object 1 (₹105.25 Cr, "new facility for manufacturing stainless steel bottles and plastic …")**: only ₹75.44 Cr spent by Mar-26 and ₹91.74 Cr by Jun-26 (**₹13.51 Cr unspent**); deadline extended **Mar-2025 → Mar-2026 (board 23-May-2025) → 30-Sep-2026 (board 27-May-2026)**; the monitoring agency flags "delay in implementation as per both revised timeline and original timeline" | QIP Monitoring Agency report, Q1 FY27 [V4]. Also: QIP issue period **3–5 Jul-2024**, size **₹737.32 Cr** (Part 1 "₹737 Cr (2024)" confirmed). |
+
+**Aggregates impact:** none of the Part 3 sums change (all are screener-basis). Only the company-basis Cello net cash (S1) and the narrative comparisons with Milton (S4) change. Borosil's FY26 revenue in the AR is ₹1,195.9 Cr (sale of products ₹1,171 Cr + other operating revenue ₹24.8 Cr) vs screener ₹1,175 Cr — screener appears to exclude most other operating revenue; keep screener in the aggregates for one basis, note the difference.
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Agrees?" compares with Parts 1–3. Short URL keys: **AR26** = Cello FY26 AR (https://corporate.celloworld.com/wp-content/uploads/2026/07/CWL_AR25-26.pdf); **P26** = Cello FY26 presentation (https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c3d0e64-9b0a-4f4d-ae22-1eea21065cd0.pdf); **PQ1** = Cello Q1 FY27 presentation (https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2aafae6-e724-4d2d-80c3-136b93ced33a.pdf); **TQ1** = Cello Q1 FY27 transcript (https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01f15fa2-17cc-468c-9e3f-7b4c76bccaff.pdf); **TQ4** = Cello Q4 FY26 transcript (https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42de0942-a266-4ad3-80e5-708476185d0f.pdf); **MA** = QIP monitoring-agency report (https://corporate.celloworld.com/wp-content/uploads/2026/08/Intimationofmonitoringagencyreport.pdf); **CR** = CRISIL Hamilton 25-Jun-2026 (URL in header); **GSTC** = GST Council 56th release (https://gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau_0.pdf); **UNC** = UN Comtrade API (URL in header); **BT** = Borosil Q1 FY27 transcript; **BAR** = Borosil FY26 AR; **LQ1** = La Opala Q1 FY27 presentation.
+
+| # | Figure | Value | Primary source (URL key) | Fetched this pass? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Cello FY26 revenue from operations | ₹2,323.7 Cr (+8.8%) | P26 P&L; AR26 Board's report (consolidated ₹2,307.1 Cr revenue from external customers per note 39.2; difference = other operating revenue) | **[V4]** | Yes |
+| 2 | Cello FY26 EBITDA (company, incl. ₹55.1 Cr OI) | ₹526.4 Cr, 22.7% | P26; AR26 MD&A key ratios (22.7% vs 26%) | **[V4]** | Yes |
+| 3 | Cello FY26 PAT | ₹331.5 Cr (−9.1%); owners' profit ₹331.51 Cr (₹33,150.64 lakh) | P26; AR26 Board's report | **[V4]** | Yes |
+| 4 | Vertical revenue FY26 (CW / WI / MF) | ₹1,606 / ₹369 / ₹349 Cr | P26 slide 31 | **[V4]** | Yes |
+| 5 | Vertical gross profit FY26 (CW / WI / MF) | ₹818 / ₹198 / ₹140 Cr (50.9 / 53.6 / 40.2%) | P26 slide 31 | **[V4]** | Yes (₹ GP new) |
+| 6 | Q1 FY27 revenue / EBITDA / PAT | ₹526.7 / ₹117.1 (22.2%) / ₹73.4 Cr (13.9%) | PQ1 P&L; TQ1 CFO remarks | **[V4]** | Yes |
+| 7 | Q1 FY27 vs restated Q1 FY26 gross margin | 52.4% vs 54.0% (GP ₹275.9 vs ₹285.6 Cr) | PQ1 | **[V4]** | Yes |
+| 8 | Online share of revenue | 16.3% Q1 FY27 vs 10.4% Q1 FY26; FY26 10.5%; Q4 FY26 9.5% | TQ1 (CFO); TQ4; P26 | **[V4]** | Yes; Q1 FY26 figure new |
+| 9 | Falna glassware capacity and utilisation | ~20,000 tpa installed, "phased", ~60% | AR26 p.19; TQ1; TQ4 | **[V4]** | Yes |
+| 10 | Daman opalware utilisation | 80–85% (Q1 call); 85% (Q4 call); "about 15% left" | TQ1; TQ4 | **[V4]** | Yes |
+| 11 | Q1 FY27 price increases | 7–20% range; houseware 10–20%; opal/glass 12–14%; ~12–13% average; ~90% realised in Q1; "no more price hikes" | TQ1 | **[V4]** | Yes (+ "no more hikes" new) |
+| 12 | Furnace gas cost | "almost 80% higher than … March" | TQ1 | **[V4]** | Yes |
+| 13 | Glass plant peak revenue / margin | ₹250–275 Cr (Aug-26) vs ₹300 Cr (May-26); peak EBITDA 28–30% | TQ1; TQ4 | **[V4]** | Yes |
+| 14 | Steel-bottle peak revenue with 8 lines | ~₹300 Cr; SKUs 150 (import peak) / 100–110 (Q1 FY26) → 20–25 → target 50–55 | TQ1; TQ4 | **[V4]** | Yes (Q1 FY26 SKU count new) |
+| 15 | FY27 guidance | May: +10–12% revenue, +2–2.5 pp EBITDA; Aug: "tough year … would not like to guide" | TQ4; TQ1 | **[V4]** | Yes |
+| 16 | Cello net cash, company basis, Mar-26 | **₹709 Cr** | P26 balance sheet | **[V4]** | **No — supersedes ~₹730 Cr (S1)** |
+| 17 | Shares issued for Wim Plast | 46,53,239 shares (86 per 100 WPL); record date 9-Jun-2026 | AR26 note 17.9 | **[V4]** | New detail |
+| 18 | QIP | ₹737.32 Cr, issue 3–5 Jul-2024; promoters to ~75% | MA; AR26 timeline | **[V4]** | Yes |
+| 19 | Steel-bottle QIP object | ₹105.25 Cr; ₹91.74 Cr used by Jun-26; deadline 30-Sep-2026 after two extensions | MA | **[V4]** | New (S21) |
+| 20 | Stake-sale rumour | Livemint 4-Aug-2026 "Bain Capital leads talks…"; stock +18.59% on 5-Aug; company "not privy … speculative" (6-Aug) | Cello letter to BSE | **[V4]** | Refines (S3) |
+| 21 | Promoter holding after merger | 73.50% (screener Sep-26); arithmetic 73.45% | Screener [V1]; AR26 share data [V4] | [V4] for share count | Yes |
+| 22 | Contingent liabilities (GST/sales-tax) | ₹33.1 Cr (Mar-26) vs ₹2.2 Cr (Mar-25) | AR26 note 38 | **[V4]** | New |
+| 23 | Rent paid to promoter entities | ₹25.5 Cr FY26 (₹25.5 Cr FY25) | AR26 note 41.2 D | **[V4]** | New |
+| 24 | Operating segments (Ind AS 108) | One ("Consumer Products") | AR26 note 39.1 | **[V4]** | New (S14) |
+| 25 | Revenue from outside India | ₹158.7 Cr FY26 (6.9%), −10.4% YoY | AR26 note 39.2 | **[V4]** | **No — 7.9% in Part 1 (S13)** |
+| 26 | Hamilton (Milton) revenue FY25 / FY26 | ₹2,529 Cr / ₹2,865 Cr (prov.) | CR | **[V4]** | Fills gap (S4) |
+| 27 | Hamilton EBITDA margin FY25 / FY26 | 14.2% / 16.0%; FY27E 14–15% | CR | **[V4]** | Fills gap |
+| 28 | La Opala installed capacity | 32,000 MTPA (opal 31,000 + crystal 1,000) | LQ1 | **[V4]** | **No — supersedes ~40,000 [K] (S6)** |
+| 29 | La Opala FY26 / Q1 FY27 | Rev ₹309.1 Cr (−6.9%), EBITDA ex-OI 36.9%; Q1 FY27 ₹71.4 Cr (+9.3%), 36.3%, GM 69.1% (72.1%) | La Opala Q4 & Q1 presentations | **[V4]** | Yes (screener) |
+| 30 | Borosil furnaces | Opal 84 TPD (two furnaces, ~90%); borosilicate 25 TPD (90%) → 32 TPD by Q4 FY28 (₹50 Cr) | BT; BAR | **[V4]** | **No — supersedes [K] (S7)** |
+| 31 | Borosilicate glassware ADD | DGTR final findings **24-Sep-2026**, ADD recommended for 5 years on China; Borosil sole domestic producer; "material retardation of establishment"; CG notification pending | Borosil intimation 25-Sep-2026 | **[V4]** | Yes (was V-snip) |
+| 32 | GST 12% → 5% on steel utensils & ceramic tableware | 7323, 7418, 7615, 6911, 6912 (and 4419) | GSTC Annexure II | **[V4]** | Yes (was [K] for pre-rate) |
+| 33 | GST unchanged 18% on plastic houseware, glassware, flasks, ball pens, furniture | 3924, 7013, 9617, 9608 (pens), 9403 | GSTC (absent from change lists) + Notif. 9/2025 [V1] | **[V4]** | Yes |
+| 34 | India vacuum-flask imports (HS 9617) | US$114.6 mn (2023) → 62.9 (2024) → 14.6 (2025); China 98% → 98% → 85% | UNC | **[V4]** | Yes |
+| 35 | India glassware imports (HS 7013) | US$130.7 mn (2025), China 69% (61% in 2023) | UNC | **[V4]** | Yes |
+| 36 | Stainless-steel utensil QCO | S.O. 4494(E) 14-Oct-2024 → IS 14756 from 1-Apr-2025; later moved to 1-Oct-2025 (large) | BIS circular 17-Oct-2024 [V4]; SGS [V-snip] | Partly | **No — corrects "~Mar-2025 [K]" (S9)** |
+| 37 | Butterfly–Crompton scheme | Failed public-shareholder vote, 28-Oct-2023 | Butterfly BSE letter 83/2023-24 | **[V4]** | Fills gap (S10) |
+| 38 | Newell Brands FY2025 | US$7.2 bn sales (−5%); normalized op. margin 8.4%; reported 0.5% | Newell 8-K Ex. 99.1 | **[V4]** | **No — supersedes [K] (S15)** |
+| 39 | Opal glassware ADD (China/UAE) | China 30.64% CIF, UAE 4.38%; Aug-2022, 5 years; original 2011 | antidumping.vn / money9 / GTA | [V-snip] | Yes (history added) |
+| 40 | Insulated-flask QCO | S.O. 1072(E), 5-Mar-2024, IS 17526/17790/17569 | egazette/taxguru (Part 1) | [V-snip] | Yes |
+
+**Count: 37 of 40 figures are [V4] from a primary document fetched in this pass** (items 1–35, 37, 38; item 21 is V4 for the share count, with the % from screener [V1]); item 36 is partly V4 (BIS circular) and partly V-snip. Items 39–40 remain [V-snip]: the CBIC customs notification (opal ADD) and the e-Gazette QCO PDF were not retrievable through this session's network path. Where two independent primary sources exist they agree (e.g. FY26 EBITDA in presentation and AR MD&A; glass utilisation in AR and both calls; QIP size in MA and AR). The one internal conflict found in primary documents is the **trademark "lease" (presentations) vs "deed of assignment" (AR)** — the AR is the audited-period statutory document and is the more formal statement, but the related-party note shows no consideration either way (S2).
+
+## 4.2 Company packs from primary documents
+
+### 4.2.1 Cello World Ltd (member) — CELLO · BSE 544012 · primer `primers/cello-world.html`
+
+#### (a) Management-guidance digest — latest call: Q1 FY27, 10-Aug-2026 (JMD Gaurav Rathod, CFO Atul Parolia; host ICICI Securities) [V4 TQ1]
+Paraphrased; dates are the call date.
+1. **No FY27 guidance.** "It's a tough year"; guidance deferred to the Q2 call ("in a couple of months"). The 29-May guidance of +10–12% revenue / +2–2.5 pp EBITDA is therefore suspended, not reaffirmed.
+2. **Demand.** Consumer demand "subdued"; discretionary spending hit by inflation and macro uncertainty. Primary sales fell but **secondary sales improved**; channel inventory corrected and is now "comfortable"; management expects "better momentum" from Q2 because dealers liquidated old low-priced stock.
+3. **Pricing.** Price increases of **7% to almost 20%** (houseware 10–20% depending on polymer content; opal/glass **12–14%**; **~12–13% average**); ~90% of the effect was already in Q1 (some lines/channels moved only in May). **No further price increases planned**: Chinese competitors' prices "have not increased", so Cello cannot go higher. Volumes dropped in Q1 because of the hikes.
+4. **Input costs.** Polymer inflation **12–20%** by product (PP, PVC etc.), "another rise because of the continuing conflict"; furnace gas **~80% above March** and very volatile; inventory gains were "nullified" because MT/e-commerce prices were not raised until mid-May.
+5. **Gross margin.** Consumerware GM should hold a **54–55% band** and "should be improving"; mix moves it only 1–2 pp. Consumerware GM fell YoY (−120 bp) because steel is now in-house and sub-scale and glass revenue carries little profit.
+6. **Glass (Falna).** Utilisation **still ~60%** (the plant was "eating up" stock built earlier); plant sales **+30–35% YoY in Q1**, and that growth rate is hoped for the full year; FY27 glass sales "a lot more than" ₹150 Cr; **+10–15 pp of utilisation → "healthy profitability"**; peak plant revenue **₹250–275 Cr** (lower than the ₹300 Cr given in May). Management still "stand[s] by" the capex; the dumping problem was smaller when the plant was planned.
+7. **Opal (Daman).** **80–85% utilised**; "almost at complete capacity"; Q1 is the seasonal low; opal/glass revenue grew "marginally"; share of revenue not reported.
+8. **Steel bottles.** 8 lines running at Falna, "no fixed utilisation" yet; SKUs ~20–25 now vs 100–110 in Q1 FY26 and ~150 at the import peak; **target 50–55 SKUs within a couple of quarters**; peak revenue with 8 lines **~₹300 Cr**; **more lines to be ordered soon, commissioned "early next year"**. Excluding steel, consumerware grew a "modest 4–5%".
+9. **Writing instruments.** +52% YoY on the Cello brand; GP margin diluted because the inherited Cello range included loss-making SKUs, now rationalised; margins to match Unomax "in the next couple of quarters"; the Cello-pen ramp is "profitable" but "might not" reach the previous owner's revenue this year.
+10. **Moulded furniture.** ₹80 Cr; "not going to be a revenue driver … even in the future"; aim is to hold revenue and profitability; institutional orders make it lumpy.
+11. **Channels.** Online **16.3%** (10.4% in Q1 FY26) with profitability "in line with" GT; e-commerce growing "more aggressively" than GT; quick commerce "done also extremely well in the last one-odd year" (share not given). A&P **~2.5–3%** of revenue, mostly in-shop/BTL plus digital; ATL called "more of a wasted marketing effort".
+12. **Capex / cash.** FY27 capex: maintenance plus "a few lines in the steel segment"; **no buyback**; cash preserved for **inorganic opportunities** ("nothing on the table").
+13. **Corporate.** Promoter stake-sale press reports: "we have nothing at present" (refers to the exchange clarification — see S3). Wim Plast share allotment delayed by "technical glitches" (completed by mid-Sep, per the 17-Sep filing).
+
+#### (b) Guidance digest — Q4 FY26 call, 29-May-2026 [V4 TQ4]
+1. FY27: **revenue +10–12%** (value growth; volumes "could be subdued"); **EBITDA +2–2.5 pp** from steel and glass; "challenges do seem looming in the first quarter".
+2. Bridge to **"26% kind of numbers"**: steel + glass scale-up +2–2.5 pp; Cello pens +1 pp; "definitely achievable" if demand holds. Consumerware EBITDA margin expected +2.5–3 pp as steel/glass mature.
+3. Steel: 2 lines in Q4 FY26, 4 in Q1 FY27, 2 more "shortly"; "**by July we should be in complete full-scale mode**" (by Aug this had become "next couple of quarters" — a slip). Steelware sales were −40% YoY in Q3 FY26, −30% in Q4, **−25% for FY26**; aim to recover FY25 levels. OEM sourcing cost **5–6 pp** of margin. Steel was a **greenfield**; future lines are brownfield and take "a couple of months".
+4. Glass: ~60%, breakeven; "actively engaging with relevant authorities" for protection from Chinese dumping; "a 10-year furnace … just been a year"; peak **₹300 Cr** revenue at **28–30% EBITDA**; quality "at par or better than most of the Chinese manufacturers"; "the rising dollar … should help".
+5. Opal: **85%**, ~15% headroom, strategy is to exhaust it this year; **"new competition which has come in about 6-odd months back"** (i.e. ~Nov-2025 — consistent with Milton's opalware commercialisation in CRISIL's Jun-2026 rationale [V4 CR]); expansion only after "no crazy price wars", and it needs a **greenfield at "a new hub in Rajasthan"**.
+6. Writing instruments: Q4 ₹128 Cr (+64%); even ex-Cello brand "healthy double-digit" growth (exports, premium pens); **target ₹500 Cr+ in FY27** (FY26 ₹368–369 Cr); Cello-brand revenue not split out "for confidentiality"; price points extended to ₹12/₹15/₹20; seasonality: Jan–Jun strongest (back-to-school).
+7. Appliances: March LPG shortage → "complete liquidation of inventory" of electric kitchenware; appliances are lower-margin and diluted mix.
+8. Capex FY26 **~₹219 Cr**; FY27 **~₹100 Cr** of which ~₹30 Cr steelware and building; CFO ₹255.1 Cr; debt/equity 0.01.
+9. Receivables: stretched by "a couple of institutional government orders"; target 10–15 days lower in FY27, "less than 100 days"; tools: channel-inventory checks, help distributors liquidate, SKU rationalisation, "very limited" discounts.
+10. Pass-through: CFO — "whatever raw material prices, we pass on the burden to the end consumer"; JMD — unorganised players struggle in inflation, helping brands.
+
+**Guidance track record (for the writer):** Nov-2025 "glass 80% by Q4 FY26" → missed (60%); May-2026 "steel full-scale by July" → slipped to "next couple of quarters"; May-2026 FY27 revenue +10–12% → withdrawn in Aug; WI ₹500 Cr+ FY27 → Q1 run-rate ₹112 Cr ×4 ≈ ₹450 Cr before seasonality (Q1 is a peak quarter for pens) [E] — at risk.
+
+#### (c) Concall KPI table [V4 unless marked]
+
+| KPI | Q2 FY26 (Nov-25) | Q4 FY26 (May-26 call) | Q1 FY27 (Aug-26 call) | Direction |
+|---|---|---|---|---|
+| Falna glass utilisation | ~55% [V1] | ~60% | ~60% | Flat; 80% target missed |
+| Daman opal utilisation | — | 85% | 80–85% | Near full |
+| Glass plant sales growth | — | grew "without any profits" | +30–35% YoY | Up |
+| Steel lines operating | 0 | 2 (+4 in Q1) | 8 | Up |
+| Steel SKUs | ~100–150 (imported) | — | 20–25 (target 50–55) | Down, rebuilding |
+| Steelware sales YoY | — | Q3 −40%, Q4 −30%, FY −25% | "dropped substantially" | Down |
+| Price increase taken | — | 12–20% MRP | 7–20% (avg 12–13%) | Peak; no more |
+| Polymer inflation | — | — | 12–20% | Up |
+| Gas price vs March | — | "rising energy costs" | +80% | Up |
+| Online share | — | 9.5% (ppt) / "nearly 17%" e-com+q-com (JMD) | 16.3% (10.4% Q1 FY26) | Up |
+| A&P / revenue | — | — | 2.5–3% | Flat |
+| WI growth YoY | — | +64% | +52% | Strong |
+| Capex | — | FY26 ₹219 Cr; FY27 ~₹100 Cr | maintenance + few steel lines | Down |
+| FY27 guidance | — | +10–12% rev; +2–2.5 pp EBITDA | none | Withdrawn |
+
+#### (d) Five-year history (company basis, restated for Wim Plast from FY25) [V4 P26]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | FY22–26 CAGR |
+|---|---|---|---|---|---|---|
+| Revenue from operations | 1,359.2 | 1,796.7 | 2,000.3 | 2,136.4 | 2,323.7 | 14.3% |
+| Gross profit (GM %) | 680.6 (50.1) | 901.2 (50.2) | 1,051.8 (52.6) | 1,104.9 (51.7) | 1,156.2 (49.8) | 14.2% |
+| Consumerware revenue / GP | 871 / 464 | 1,181 / 614 | 1,324 / 710 | 1,460 / 768 | 1,606 / 818 | 16.5% / 15.2% |
+| Writing instruments revenue / GP | 169 / 92 | 285 / 152 | 334 / 196 | 309 / 175 | 369 / 198 | 21.6% / 21.1% |
+| Moulded furniture & allied revenue / GP | 319 / 125 | 331 / 135 | 343 / 146 | 367 / 162 | 349 / 140 | 2.3% / 2.9% |
+| Employee cost | 131.9 | 157.6 | 189.5 | 211.2 | 242.0 | 16.4% |
+| Other expenses | 215.1 | 323.1 | 352.7 | 383.3 | 442.8 | 19.8% |
+| Other income | 15.9 | 16.7 | 25.1 | 44.7 | 55.1 | 36.4% |
+| EBITDA incl. OI (%) | 349.5 (25.7) | 437.3 (24.3) | 534.3 (26.7) | 554.7 (26.0) | 526.4 (22.7) | 10.8% |
+| EBITDA ex-OI (%) [E] | 333.6 (24.5) | 420.6 (23.4) | 509.2 (25.5) | 510.0 (23.9) | 471.3 (20.3) | 9.0% |
+| Depreciation | 47.6 | 50.3 | 56.7 | 62.0 | 77.7 | 13.0% |
+| PAT (%) | 219.5 (16.2) | 285.1 (15.9) | 356.2 (17.8) | 364.6 (17.1) | 331.5 (14.3) | 10.9% |
+| CFO | 187.3 | 227.4 | 231.2 | 261.7 | 255.1 | 8.0% |
+| CFI | −261.8 | −556.8 | −255.6 | −553.4 | −175.7 | |
+| CFF | 94.1 | 323.8 | 26.0 | 311.2 | −4.7 | |
+| Total equity (of which NCI) | 272.8 (185.1) | 536.4 (199.9) | 1,369.9 (220.6) | 2,408.5 (0) | 2,700.9 (0) | |
+| Borrowings (current + non-current) | 452.5 | 326.1 | 362.7 | 0.5 | 34.6 | |
+| Inventories / receivables | 376.5 / 406.7 | 429.8 / 462.3 | 462.2 / 610.6 | 524.6 / 657.8 | 534.7 / 749.6 | |
+| Cash + bank + investments (current + non-current other) | 204.7 | 226.0 | 234.5 | 687.2 | 747.3 | |
+| **Net cash / (net debt) incl. leases [E]** | **(258)** | **(109)** | **(136)** | **682** | **709** | |
+| CWIP | 11.8 | 20.9 | 180.0 | 18.8 | 65.5 | |
+| ROCE % (screener) [V1] | 53 | 48 | 36 | 24 | 17 | |
+| Company ROCE (EBIT/CE) | — | — | — | 20.3% | 16.3% | (AR26 key ratios) |
+| WC days (company) [V1] | 154 | 177 | 169 | 176 | 178 | |
+
+Read: revenue +71% over four years but EBITDA ex-OI only +41%; the margin peak was FY24. The balance sheet swung from **₹136 Cr net debt (Mar-24) to ₹682 Cr net cash (Mar-25)** on the ₹737 Cr QIP (Jul-2024) — and in FY25 Cello **repaid ₹360.6 Cr of loans to promoters and their relatives** (₹340.9 Cr to Pradeep, Pankaj and Gaurav Rathod; ₹19.7 Cr to relatives) [V4 AR26 note 41.2 L; QIP objects 3–4 = ₹183 Cr "repayment/prepayment of borrowings" (MA)]. In other words, part of the QIP money replaced promoter loans; it was not all growth capital.
+
+#### (e) Eight-quarter trend (Q2 FY25 → Q1 FY27)
+
+| ₹ Cr | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue (company; screener rounding) | 490 | 557 | 588.8 | 529.0 | 587 | 554 | 653.6 | 526.7 |
+| YoY % | +0.2 | +5.7 | +15.0 | +5.6 | +19.8 | −0.5 | +11.0 | −0.4 |
+| Gross margin % (company) | 51.6 | 49.7 | ~51.9 [E] | 54.0 | 49.5 | 49.6 | ~46.7 [E] | 52.4 |
+| EBITDA incl. OI (company) | 131.9 | 139.7 | ~148.2 [E] | 126.3 | 141.3 | 122.3 | 136.6 | 117.1 |
+| EBITDA margin % (company) | 26.9 | 25.1 | ~25.2 [E] | 23.9 | 24.0 | 22.1 | 20.9 | 22.2 |
+| Screener OP ex-OI (OPM %) | 119 (24) | 127 (23) | 135 (23) | 109 (21) | 128 (22) | 106 (19) | 129 (20) | 99 (19) |
+| PAT (company, restated where available) | 87 [s] | 92 [s] | 96 [s] | 80.7 | 91 [s] | 69 [s] | 90.1 | 73.4 |
+| WI revenue | — | — | 78 [E] | 74 [E] | — | — | 128 | ~112 [E] |
+| Online share % | — | — | — | 10.4 | — | — | 9.5 | 16.3 |
+| Glass utilisation % | — | — | — | — | ~55 | — | ~60 | ~60 |
+
+Sources: Q1 FY26, Q4 FY26 and Q1 FY27 figures [V4 PQ1/TQ4/TQ1]; Q2–Q3 FY25 and Q2–Q3 FY26 company figures [V1 from the respective BSE presentations]; [s] = screener consolidated (pre-restatement quarters include NCI); WI Q4 FY25 = 128/1.64, Q1 FY26 = 112/1.52, Q1 FY27 = 21.2% × 526.7 [E]. Seasonality: Q2–Q3 (festive, opal) and Q4/Q1 (pens) are the strong quarters; Q1 is weakest for opal.
+
+#### (f) FY26 Annual Report findings [V4 AR26 unless marked]
+1. **Auditors and opinion.** Statutory auditor **Deloitte Haskins & Sells LLP** (FRN 117366W/W-100018); the only consolidated **key audit matter is existence of inventory** (spread across factories, warehouses, depots and third-party locations). Internal auditor Shah Gohil & Associates. No emphasis-of-matter paragraph surfaced in the consolidated report text read.
+2. **Single segment.** Ind AS 108 note 39.1: one operating segment, "Consumer Products"; the three verticals are management splits (S14). No customer ≥10% of revenue.
+3. **Geography.** India ₹2,148.4 Cr; **outside India ₹158.7 Cr (6.9%), down 10.4%** from ₹177.1 Cr; all non-current assets in India (S13).
+4. **Brand.** Timeline: 2025 "Entered into deed of assignment for Cello trademark for Stationery and Writing Instruments, bringing the iconic brand back into our portfolio"; chairman's letter: "reacquisition of iconic Cello brand … after its divestment in 2015" — versus "lease" in the presentations; **no CPIW transaction in the related-party note** (CPIW is listed as a related party) (S2). The 2022 licence for the core "Cello" houseware marks (fee 0.5%, cap 1%, waived from 1-Oct-2023 [V1 RHP]) is consistent with **zero royalty in FY25 and FY26**.
+5. **Related-party transactions (FY26, consolidated, ₹ Cr):** **rent to promoter entities ₹25.2 Cr** (Cello Household Appliances Pvt Ltd ₹14.2; Cello Home Products ₹6.6; Vardhaman Realtors ₹3.7; Millennium Houseware ₹0.4; Cello Houseware ₹0.4) **+ ₹0.3 Cr to Pradeep Rathod = ₹25.5 Cr** (flat vs FY25) — ≈1.1% of revenue, 5.4% of EBITDA ex-OI [E]; **CSR paid to the promoter-linked Cello Foundation ₹6.3 Cr** (₹12.4 Cr FY25); sales to Wim Plast Moldetipo Pvt Ltd ₹2.9 Cr (₹10.8 Cr FY25), purchases from Cello Houseware ₹1.5 Cr; director remuneration Pradeep ₹1.40 Cr, Pankaj ₹1.20 Cr; **FY25 loan repayments to promoters/relatives ₹360.6 Cr**, none in FY26; loan payable to Umraoben Family Trust ₹0.5 Cr. Associate Pecasa Tableware Pvt Ltd (FY25 purchases ₹9.0 Cr, sales ₹0.6 Cr) shows no FY26 activity.
+6. **KMP pay.** Group KMP short-term benefits ₹5.63 Cr (₹5.09 Cr); at the listed company the CMD, JMDs and the nominee director draw **NIL** (pay comes from subsidiaries); CFO +9%, CS +37%, median employee +11%, other employees +8%; **469 employees on the standalone rolls** (most staff sit in subsidiaries). Independent-director sitting fees ₹2–3.75 lakh each.
+7. **Contingent liabilities (₹ Cr, Mar-26 vs Mar-25):** sales-tax/**GST disputes on tax-rate determination and pending forms 33.1 (2.2)** — a 15× jump; **legal-metrology cases on weight/measurement disclosures 3.7 (0.04)**; income tax 1.8 (nil); trademark disputes 0.3; consumer complaints 0.2; bank guarantees: Indraprastha Gas 1.3, Rajasthan PCB 0.1, tender deposits 9.5 (26.8). **Capital commitments ₹45.2 Cr (₹38.2 Cr)**. Total contingent ≈ ₹39 Cr ≈ 1.4% of equity [E] — small, but the GST rate-classification dispute is worth one line (classification is exactly where houseware's 5%/18% split bites).
+8. **Wim Plast merger accounting.** Demerger of WPL's manufacturing business into CCPPL (WOS) + amalgamation of WPL's remainder into Cello World; appointed date 1-Apr-2025; effective 27-May-2026; **86 Cello shares per 100 WPL shares; 46,53,239 shares** to WPL's minority on record date 9-Jun-2026; **pooling (common control)** → comparatives restated, NCI acquired, "share pending issuance" ₹409.3 Cr, capital reserve on common-control combinations **−₹329.3 Cr** (unchanged) and ₹200 Cr of reserves reclassified in FY25 opening retained earnings (S12).
+9. **Capacity.** Falna glassware "~20,000 tonnes" installed, **"being operationalized in a phased manner"**, ~60% utilised, "European-made machinery"; steel-ware lines installed at Falna; "planned capacity increases" across plastics, insulated ware, furniture and WI "in a phased manner as demand scales". 14 facilities (Daman 8, Haridwar 2, Baddi, Chennai, Kolkata, Falna). The AR gives **no tonnage for Daman opal**; 25,000 tpa remains from presentations [V1].
+10. **Capital deployment.** Cello invested **₹600 Cr in Cello Consumerware Pvt Ltd** during FY26 (₹500 Cr loan converted to equity + ₹100 Cr cash) to fund Falna, working capital and debt repayment.
+11. **Shares and dividend.** 22,08,85,034 shares + 46,53,239 pending = 22,55,38,273; final dividend ₹1.50/share (30%) = **₹33.8 Cr** (record date 31-Jul-2026); entire remaining profit retained ("directing its entire annual profits toward growth initiatives").
+12. **Disclosure quality flag.** The MD&A key-ratio table carries an unedited drafter's note — **"Note for the client: Please provide the numbers"** — and prints ratios with % signs (debtor turnover "3.30%", current ratio "5.87%", interest cover "293.38%"); one remuneration row calls JMD Gaurav Rathod a "Non-Executive Director". Minor, but a governance-hygiene point an analyst would note.
+13. **MD&A market data** (S17): consumerware US$3.38 bn FY25E (branded 54%), citing "Gift City ‖ Ambit"; stationery ~₹30,000 Cr (2025).
+14. **QIP use** (MA): of ₹737.32 Cr, ₹236.96 Cr into subsidiaries, ₹183.05 Cr debt repayment, ₹79.80 Cr working capital, ₹108.06 Cr general corporate purposes, ₹24.20 Cr expenses — all used; only the **steel-bottle facility object (₹105.25 Cr) is late** (₹13.51 Cr unspent at Jun-26; deadline 30-Sep-2026) (S21).
+
+#### (g) Other dated facts from the company's own filings [V4]
+- 6-Aug-2026: rumour verification (Bain Capital report) — "speculative" (S3).
+- 7-Aug-2026: 8th AGM held (VC), 11:00–11:58.
+- 17-Sep-2026: audit-committee/independent-director reports certifying compensation of fractional entitlements → allotment complete.
+- 6/7-Oct-2026: volume clarifications to NSE (ref. NSE/CM/Surveillance/17663) and BSE — "purely market driven".
+- 7-Oct-2026: Reg. 74(5) certificate for the Sep quarter.
+- **Q2 FY27 board date: not intimated on the company's announcement page as of 23-Oct-2026** (latest posting 7-Oct). Last year's pattern (intimation 4-Nov, board 10-Nov-2025) and the 14-Nov SEBI deadline imply ~6–12-Nov-2026 [E]. Borosil reports on **29-Oct-2026** (intimated 22-Oct) [V4].
+
+### 4.2.2 La Opala RG Ltd (reference peer) — LAOPALA · 526947
+
+**Guidance / commentary digest.** La Opala publishes presentations but no call transcripts on its investor page; no forward guidance is given in the Q1 FY27 or Q4 FY26 decks [V4 LQ1]. What the decks say:
+- **Q1 FY27 (12-Aug-2026):** revenue ₹71.4 Cr (+9.3%); EBITDA ex-OI ₹25.9 Cr (**36.3%** vs 37.0%); **gross margin 69.1% vs 72.1%** (COGS +21% on +9% sales — the West Asia fuel shock, as at Borosil and Cello) [E on the cause]; other income ₹13.7 Cr (= 53% of EBITDA ex-OI); PAT ₹26.2 Cr (+3.3%); **net current investments ₹537.9 Cr**, non-current ₹77.7 Cr; secured loan ₹2.1 Cr. The company's own "ROCE on operating capital employed" is 5.7% for the quarter (≈ 23% annualised on ₹238 Cr operating capital) [E].
+- **FY26:** revenue ₹309.1 Cr (−6.9%); EBITDA ex-OI ₹113.9 Cr (36.9% vs 32.6% FY25); Q4 FY26 revenue ₹68.4 Cr (−11.3%) [V4].
+- **Channels named:** general trade, modern trade, exports, e-commerce, **q-commerce**, HORECA, institutional, CPC (canteen stores) [V4].
+
+**FY26 annual-report-type findings (from the presentation; AR not fetched this pass):**
+- **Capacity 32,000 MTPA** — Sitarganj (Uttarakhand) Unit 1 opal 20,000 + Unit 2 opal 12,000 (greenfield, commercial production 2022); Madhupur (Jharkhand) crystal 1,000 (24% lead crystal, "Solitaire"); capacity path 4,000 (2007) → 8,000 (2012) → 16,000 (2016) → 19,000 (2018) → 32,000 (2022) [V4].
+- **Utilisation: not disclosed.** Arithmetic hint: FY26 revenue ₹309 Cr on 31,000 t of opal capacity is ~₹100/kg of capacity; at an industry-typical opal realisation of ~₹180–250/kg [K/E] that implies **~55–70% utilisation**, i.e. La Opala probably has the most spare opal capacity in India despite the best margins [E — flag as estimate, ask management].
+- **Furnace plans:** none announced; no CWIP-heavy project visible (screener CWIP small [V1]).
+- Network: **265 distributors, 23,000+ dealers**, 40+ export countries, 800+ employees [V4] (vs Cello's 888 houseware distributors / 86,144 retailers; Borosil 24,000 outlets).
+- Brands: La Opala, Diva, Solitaire, plus a borosilicate "Cook Serve Store" range (sourced) [V4].
+
+### 4.2.3 Borosil Ltd (reference peer) — BOROLTD · 543212
+
+**Guidance digest — Q1 FY27 call, 19-Aug-2026 (CEO Rituraj Sharma, CFO Anand Sultania)** [V4 BT]:
+1. **FY27 EBITDA ~18%** (medium term 18–20%), excluding any benefit from the borosilicate ADD; Q1 was 14.6% (17.8%) because of fuel and packaging inflation — **net West Asia impact ~₹10 Cr in Q1** (≈4 pp of sales); only "a couple of crores" recouped through price in Q1; price increases **5–7%** (more in some categories), realisation from Q2.
+2. **Growth by category (Q1):** Larah opal **₹83.6 Cr (+9.8%)**, volume-led, ~9% expected for FY27; glassware (borosilicate microwaveables, tumblers, storage) **₹65.6 Cr (+16.8%)**, volume-led; non-glassware (appliances, Hydra bottles, cookware) **₹98.1 Cr (+4.2%)** — Hydra hit by **BIS compliance**, offset by appliances and steel cookware.
+3. **Capacity and utilisation:** opal **84 TPD (two furnaces), "full capacity utilisation"** (~90%); borosilicate pressware **25 TPD at 90%**, to be expanded to **32 TPD + third forming line (₹50 Cr, Q4 FY28)**; an opal furnace **rebuild falls in FY27**. **Hydra** BIS-compliant vacuum-flask plant (Stylenest India, Rajasthan): **2 double-wall lines in commercial production from 30-Jun-2026**, third in Q2 FY27.
+4. **Capex FY27 ₹125–150 Cr**; depreciation ~₹92 Cr; Q1 net debt ₹99 Cr (debt ₹155 Cr; cash/investments ₹56 Cr).
+5. **Chinese dumping in borosilicate continues** "despite depreciation of the rupee as well as the shipping freight rates going up"; ADD final findings came 24-Sep-2026 (after the call).
+6. **Sourcing from the sister company:** ~₹100 Cr of tumblers/jars/jugs/bottles come from Borosil Scientific's Bharuch plant; the ₹42 Cr dedicated Bharuch line (Mar-2026 board approval) will now be built and funded **by Borosil Scientific** (22-Sep-2026) — i.e. capex shifted to a related party, supply via a manufacturing arrangement [V4].
+7. Distribution: **24,000+ retail outlets**; quick commerce via Blinkit, Zepto, Swiggy; first exclusive brand outlets (Pune, Gurugram); solar meets ~61% of energy.
+
+**FY26 AR findings [V4 BAR]:**
+- FY26 consolidated revenue from operations **₹1,195.9 Cr** (+8.0%; ₹1,107.8 Cr FY25) — **single segment "Consumerware"**; exports only **₹37.9 Cr (3.2%)**; other operating revenue ₹24.8 Cr (mostly shared-service income ₹24.1 Cr); variable consideration (schemes/discounts) ₹38.5 Cr deducted from ₹1,234.4 Cr contract price.
+- **Royalty income ₹12.0 Cr from Borosil Renewables** (new in FY26) — Borosil Ltd licenses the "Borosil" name to the solar-glass sister company: the mirror image of Cello, where the listed company is the licensee of the promoter's brand.
+- Furnaces per AR: borosilicate 25 TPD; **two opal furnaces at Jaipur, combined 84 TPD**.
+- Contingent liabilities tiny: entry tax ₹0.18 Cr, income tax ₹0.48 Cr, BOCW ₹0.15 Cr, bank guarantees ₹1.1 Cr, LCs ₹9.7 Cr.
+- Exceptional item ₹4.0 Cr in FY26; PBT ₹100.9 Cr (consolidated).
+- **Q2 FY27 results: board 29-Oct-2026** [V4].
+
+### 4.2.4 Lighter updates on other reference players
+- **Hamilton Housewares (Milton, Treo, SpotZero; unlisted)** — see S4. Adds: CRISIL now rates on a **consolidated** basis after Milton bought control of **Hamilton Writing Instruments** (Crisil A−/Stable) in Q4 FY26 — **Milton is now also in pens**, a direct overlap with Cello's fastest-growing vertical; plants Silvassa, Guwahati, Sri City, Haridwar; liquid surplus ₹106 Cr; working-capital limits only ~8% used; CRISIL notes that "with imports now being regulated and HHPL having its in house manufacturing capacities in place, it is able to cater better to the growing demand compared to its peers" — i.e. Milton localised steel bottles **before** the QCO bit, Cello after [V4 CR].
+- **Butterfly Gandhimathi** — merger with Crompton failed at the 28-Oct-2023 public-shareholder vote (S10); Crompton keeps 75%; Q2 FY27 already reported ₹331 Cr (+13%) [V1].
+- **Wonderchef** — FY25 ₹421 Cr, PAT ₹4.4 Cr [V-snip] (S5).
+- **Tupperware India** — still no dated 2025–26 exit or restructuring notice found (see gap log).
+- **Newell Brands** (S15); **Zojirushi** (S16). Lock & Lock, Arc, Libbey, Thermos — not re-sourced; keep [K].
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+1. **India imports by HS code, US$ mn, World / China share (UN Comtrade, re-queried 23-Oct-2026) [V4]:**
+
+| HS | 2023 | 2024 | 2025 | China share 2023 → 2025 |
+|---|---|---|---|---|
+| 3924 plastic tableware/kitchenware | 64.5 | 75.5 | 85.5 | 65% → 74% |
+| 7013 glassware | 115.0 | 125.0 | 130.7 | 61% → 69% |
+| 7323 steel table/kitchen articles | 70.6 | 72.8 | 67.2 | 84% → 73% |
+| 9617 vacuum flasks | 114.6 | 62.9 | 14.6 | 98% → 85% |
+| 9608 ball pens etc. | 83.4 | 76.0 | 88.7 | 51% → 57% |
+| 9403 furniture | 431.5 | 465.4 | 616.4 | 46% → 58% |
+
+(Part 1 §5.3 numbers confirmed exactly. Correction of one label: Part 1's 7323 "China share 73%" is 2025; it was **84% in 2023** — the utensil QCO (in force Apr/Oct-2025) shows up as a falling China share, not yet as a falling total.)
+
+2. **Indian opal and glass furnace capacity, latest disclosed [V4 unless marked]:**
+
+| Company | Plant | Product | Capacity | Utilisation |
+|---|---|---|---|---|
+| La Opala | Sitarganj U1 + U2 | Opal | 32,000 tpa incl. 1,000 crystal (Madhupur) | not disclosed (~55–70% [E]) |
+| Borosil | Jaipur (2 furnaces) | Opal (Larah) | 84 tpd ≈ 30,700 tpa [E] | ~90–100% |
+| Borosil | Jaipur | Borosilicate pressware | 25 tpd → 32 tpd (Q4 FY28) | 90% |
+| Cello | Daman | Opal | ~25,000 tpa [V1] | 80–85% |
+| Cello | Falna | Soda-lime glassware | ~20,000 tpa (≈55 tpd) | ~60% |
+| Hamilton (Milton) | n/d | Opal ("fully commercialized") | not disclosed | n/d |
+| **Listed opal total** | | | **~87,000 tpa [E]** | |
+
+3. **GST on houseware, before vs after 22-Sep-2025 [V4 GSTC; V1 Notif. 9/2025]:** 3924 18→18; 7013 18→18; 9617 18→18; 9608 ball pens 18→18, pencils/crayons 12→0; 9403 18→18 (bamboo/cane 12→5); **7323 12→5; 7418 12→5; 7615 12→5; 6911 12→5; 6912 12→5; 4419 12→5**; 4820 exercise books 12→0; 8214 sharpeners 12→0.
+
+4. **Market size — two incompatible series (label both):** Technopak (Cello RHP 2023): consumerware ₹305 Bn FY20 → ₹348 Bn FY22 → ₹565 Bn FY27P, branded 61% FY23 [V1]. Cello AR FY26 MD&A ("Gift City ‖ Ambit"): US$2.30 bn FY20 → 3.08 bn FY24 → **3.38 bn FY25E** → 5.62 bn FY30P; branded 54% (2024/25E) → 60% (2030) [V4]. In rupees FY20 the Ambit series is ~₹17,000 Cr vs Technopak ~₹30,500 Cr — a different scope (probably excluding much of small appliances/cookware) [E].
+
+5. **Peer company growth, FY26 YoY (company sources):** Milton +13% (₹2,865 Cr) [V4 CR]; Cello +8.8% [V4]; Borosil +8.0% (AR basis) [V4]; La Opala −6.9% [V4]; Wonderchef FY25 +11% [V-snip].
+
+6. **Input prices (dated points):** Indian PP: RIL +₹2,500/t (1-Feb-2026), IOC +₹2,000/t (9-Feb-2026) [V-snip]; polymer prices +43% by 19-Mar-2026 [V-sib]; Cello polymer inflation 12–20% (Q1 FY27) [V4]; Borosil/La Opala/Cello all cite fuel as the main Q1 FY27 shock (Cello gas +80% vs March) [V4]. Tata Chemicals dense soda ash ex-works ₹27,100–28,200/t from 1-Jun-2026 [V-snip]. SS-304 coil series — not found (gap).
+
+---
+
+## 4.4 Gap log (Part 1 §H and the 18 gaps in the brief)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| 1 | Hamilton (Milton) FY25/FY26 revenue, EBITDA | **Filled** | CRISIL 25-Jun-2026 [V4] (S4) |
+| 2 | Wonderchef, Signoraware, Nayasa, Princeware latest revenue | **Partly** — Wonderchef FY25 ₹421 Cr [V-snip]; Signoraware, Nayasa, Princeware still open | Searches on rating rationales/RoC press returned nothing for the other three; no CRISIL/ICRA/CARE rationale found |
+| 3 | Tupperware India status 2025–26 | **Still open** | Searches found only 2024 coverage (India among the post-bankruptcy "core markets"; European exits). No dated India exit notice. Keep "shrunk and restructured" |
+| 4 | Cello glass/opal revenue split, Falna revenue, capacity, capex | **Partly** — capacity ~20,000 t "phased", util ~60%, plant sales +30–35% in Q1 FY27, peak ₹250–275 Cr, "European-made machinery" [V4]; **split still not disclosed** ("we did not report it separately") | AR, both calls. Falna capex not separately disclosed; FY26 ₹600 Cr injection into Cello Consumerware is the funding vehicle [V4] |
+| 5 | Quick-commerce share and online definitions | **Still open (documented)** | Q1 FY27 online 16.3% vs 10.4% (CFO); Q4 FY26 presentation online 9.5% vs JMD "nearly 17%" e-com + q-com — the two cannot both be right on one definition; quick-commerce share never given. Borosil/La Opala do not disclose either |
+| 6 | GST rates before 22-Sep-2025 | **Filled** for the 12%→5% items; 18% items confirmed by absence from change lists [V4] (S8) | GST Council 56th release |
+| 7 | BIS QCOs: steel utensils, flasks, plastics/glass | **Mostly filled** — utensil QCO S.O. 4494(E) 14-Oct-2024 → 1-Apr-2025 [V4], later 1-Oct-2025 [V-snip]; flask QCO S.O. 1072(E) [V-snip]; **no glassware or finished-plastic-houseware QCO found** | BIS circular; SGS bulletin blocked (403) |
+| 8 | Opal ADD notification; borosilicate DGTR finding | **Partly** — borosilicate final findings 24-Sep-2026 [V4 Borosil filing]; opal ADD history 2011/2017/2022, 30.64% [V-snip]; CBIC notification number for 2022 not retrieved | antidumping.vn, GTA |
+| 9 | PP/HDPE, SS-304, soda ash price trends | **Partly** — dated PP hikes and soda-ash list price [V-snip]; no SS-304 series | Tata Chemicals circulars blocked by TLS chain; plastemart empty |
+| 10 | La Opala & Borosil capacities, utilisation, furnace plans | **Filled** (La Opala utilisation not disclosed) [V4] (S6, S7) | |
+| 11 | Global peers | **Partly** — Newell [V4], Zojirushi [V-snip]; Lock & Lock, Arc, Libbey, Thermos, Tupperware post-bankruptcy still [K] | |
+| 12 | India market size FY24–FY26 | **Filled with caveat** — Cello AR MD&A US$3.08 bn FY24 / 3.38 bn FY25E [V4 as quoted] (S17); no Technopak/Redseer update found | |
+| 13 | Wim Plast delisting; Butterfly–Crompton withdrawal | **Filled** — WPL suspended 9-Jun-2026 [V-snip], record date 9-Jun [V4]; Butterfly scheme failed 28-Oct-2023 [V4] | |
+| 14 | Cello Q2 FY27 board date | **Still open** — no intimation on the company site as of 23-Oct-2026 [V4]; BSE API blocked | Expect ~6–12-Nov [E] |
+| 15 | Cello net cash Mar-26 | **Filled — ₹709 Cr** [V4] (S1) | |
+| 16 | Promoter stake path, QIP, OFS, rumour | **Filled** — IPO OFS Nov-2023 [V1]; QIP ₹737.32 Cr 3–5 Jul-2024 [V4]; no promoter OFS 2025–26 found; 73.50% after merger issue; Bain Capital rumour 4–6-Aug-2026 [V4] | |
+| 17 | Cello pen brand terms; licence waiver | **Partly** — Nov-2025 deal; "deed of assignment" (AR) vs "lease" (ppt); **no consideration/royalty in FY26 RPT note** [V4]; waiver from 1-Oct-2023 [V1]. BIC's exit terms still unknown | |
+| 18 | UN Comtrade 2023–25 | **Filled** — re-confirmed [V4] | |
+| H5 | Segment EBITDA | **Closed as "not reportable"** — Ind AS single segment [V4] | |
+| H17 | BIC Cello India status/settlement | **Still open** | Not in AR; not in calls |
+
+---
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### Insights (for the report's argument)
+1. **Milton is pulling away.** The category leader grew **+9.3% (FY25) and +13% (FY26)** with EBITDA margins rising to 16.0%, while Cello grew 6.8% and 8.8% with margins falling 330 bp; Milton also commercialised **opalware** (Cello's "new competition" of ~Nov-2025) and bought control of **Hamilton Writing Instruments** (pens). CRISIL credits Milton's earlier in-house manufacturing for its ability to serve demand after import curbs. The "industry problem" framing Cello used on the Q1 call does not fit the leader's numbers.
+2. **Every Indian glass/opal maker had the same Q1 FY27: fuel shock, volume-led growth, lagging price.** Gross margin fell 300 bp at La Opala, EBITDA 320 bp at Borosil (~₹10 Cr West Asia hit), and Cello's gas is +80%. Borosil (5–7%) took far smaller price increases than Cello (12–14% on opal/glass) — Cello may be giving up share in glass/opal to protect margin.
+3. **Opal capacity has roughly doubled since 2021 and protection is ageing.** Listed opal capacity is ~87,000 tpa (La Opala 32k, Borosil ~31k, Cello 25k) plus Milton's new line, against an opal market Technopak put at ~₹12 Bn (FY22). The China/UAE opal ADD dates from 2011 and its current term ends ~Aug-2027; a sunset review is the key 2026–27 policy event for all three listed players. La Opala's falling revenue on unchanged capacity suggests idle furnace time already.
+4. **The QIP partly refinanced the promoters.** In FY25 Cello repaid **₹360.6 Cr of loans to promoters and relatives** and ₹183 Cr of QIP money went to "repayment/prepayment of borrowings"; the only QIP object still incomplete is the steel-bottle plant (two deadline extensions, now 30-Sep-2026). A precise way to describe Cello's capital history.
+5. **Related-party economics are modest but structural.** ₹25.5 Cr/yr rent to promoter entities (≈5% of EBITDA), CSR routed to the family foundation, brand marks held by CPIW with zero fee — and an unclear legal form ("assignment" vs "lease") for the pen brand. Combined with the Bain Capital report (stock +18.6% in a day) and the FII exit, governance and control are a live part of the equity story.
+6. **Exports are shrinking, not "7.9% of revenue".** Statutory geography shows ₹158.7 Cr (6.9%), down 10.4% — before the 10% US Section 301 tariff of 24-Jul-2026.
+7. **Borosil's licensor model vs Cello's licensee model.** Borosil Ltd earns ₹12 Cr royalty from Borosil Renewables for the name; Cello's listed entity pays nothing for — and does not own — the "Cello" houseware marks. Same promoter-family pattern, opposite direction of value.
+8. **Hydration localisation is an industry-wide race.** Borosil's Hydra plant (2 double-wall lines from 30-Jun-2026) and Cello's 8 Falna lines came within a quarter of each other; Milton localised earlier. The 9617 import collapse (US$114.6 mn → US$14.6 mn) is being filled by three domestic brands at once — so the "market share gain" Cello expects is contested.
+
+### New primer issues (cello-world.html) — add to Part 3 §3.4
+- **cello-world.html — net cash figure:** if the primer quotes a net cash/treasury figure, use **≈₹709 Cr (Mar-26)** (investments ₹619.5 Cr + cash & bank ₹127.8 Cr − borrowings ₹34.6 Cr − leases ₹3.5 Cr), not ~₹730 Cr (Part 3 also said ~₹730 Cr — superseded by S1).
+- **cello-world.html — pen-brand transaction wording:** the FY26 Annual Report calls it a **"deed of assignment"/"reacquisition"** of the Cello WI trademark; the presentations call it a **lease** from CPIW; no consideration appears in related-party transactions. Describe it as "brought back from the promoters' firm in Nov-2025 (no fee recorded in FY26)", and avoid both "acquired for ₹X" and "leased" unless clarified.
+- **cello-world.html — competitor sizing:** Hamilton Housewares (Milton) reported **₹2,529 Cr (FY25) and ₹2,865 Cr (FY26, prov.)**, EBITDA 16.0% (CRISIL, Jun-2026) — larger and faster-growing than Cello; Milton now also owns Hamilton Writing Instruments (pens) and makes opalware.
+- **cello-world.html — exports:** statutory exports FY26 ₹158.7 Cr (6.9% of revenue), −10.4% YoY; the "~7%" channel figure is fine for Q1 FY27 but the trend is down.
+- **cello-world.html — segments:** the three "segments" are management verticals; the audited accounts have **one operating segment**. Label charts "vertical (company presentation)".
+- **cello-world.html — stake-sale rumour specifics:** Livemint 4-Aug-2026 (Bain Capital); stock +18.6% on 5-Aug; company "not privy … speculative" (6-Aug).
+- **cello-world.html — QIP and steel plant:** QIP ₹737.32 Cr (3–5 Jul-2024); steel-bottle plant object ₹105.25 Cr delayed twice (deadline 30-Sep-2026).
+- **cello-world.html — guidance slippage list:** glass 80% by Q4 FY26 (missed), steel full-scale by Jul-2026 (slipped), FY27 +10–12% (withdrawn Aug-2026).
+
+### Note for the orchestrator
+- Part 3 §3.4 bullet "net cash ~₹730 Cr (EV/EBITDA ~15×)" — EV/EBITDA stays ~15×; only the cash figure changes.
+- No primer issue arises for La Opala/Borosil (no primers for them in this sub-sector).

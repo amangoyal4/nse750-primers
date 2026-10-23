@@ -19,3 +19,14 @@
 - **cello-world.html — GST 2.0 and policy absent:** no mention that plastic houseware, glass/opal, vacuum flasks, pens and furniture stayed at **18%** while steel utensils and ceramic tableware fell to **5%** (22-Sep-2025); no mention of the opal ADD (China/UAE, to ~2027) or the 24-Sep-2026 DGTR recommendation on borosilicate glassware.
 - **cello-world.html — stake-sale rumour:** add the Aug-2026 "no proposal at present" clarification and the 7-Oct-2026 volume clarification as a watch item (FII holding fell 5.52% → 2.03% in two quarters).
 
+
+## From Houseware deep research (2026-10-23, houseware-industry.md Part 4 §4.5)
+
+- **cello-world.html — net cash figure:** if the primer quotes a net cash/treasury figure, use **≈₹709 Cr (Mar-26)** (investments ₹619.5 Cr + cash & bank ₹127.8 Cr − borrowings ₹34.6 Cr − leases ₹3.5 Cr), not ~₹730 Cr (Part 3 also said ~₹730 Cr — superseded by S1).
+- **cello-world.html — pen-brand transaction wording:** the FY26 Annual Report calls it a **"deed of assignment"/"reacquisition"** of the Cello WI trademark; the presentations call it a **lease** from CPIW; no consideration appears in related-party transactions. Describe it as "brought back from the promoters' firm in Nov-2025 (no fee recorded in FY26)", and avoid both "acquired for ₹X" and "leased" unless clarified.
+- **cello-world.html — competitor sizing:** Hamilton Housewares (Milton) reported **₹2,529 Cr (FY25) and ₹2,865 Cr (FY26, prov.)**, EBITDA 16.0% (CRISIL, Jun-2026) — larger and faster-growing than Cello; Milton now also owns Hamilton Writing Instruments (pens) and makes opalware.
+- **cello-world.html — exports:** statutory exports FY26 ₹158.7 Cr (6.9% of revenue), −10.4% YoY; the "~7%" channel figure is fine for Q1 FY27 but the trend is down.
+- **cello-world.html — segments:** the three "segments" are management verticals; the audited accounts have **one operating segment**. Label charts "vertical (company presentation)".
+- **cello-world.html — stake-sale rumour specifics:** Livemint 4-Aug-2026 (Bain Capital); stock +18.6% on 5-Aug; company "not privy … speculative" (6-Aug).
+- **cello-world.html — QIP and steel plant:** QIP ₹737.32 Cr (3–5 Jul-2024); steel-bottle plant object ₹105.25 Cr delayed twice (deadline 30-Sep-2026).
+- **cello-world.html — guidance slippage list:** glass 80% by Q4 FY26 (missed), steel full-scale by Jul-2026 (slipped), FY27 +10–12% (withdrawn Aug-2026).
