@@ -42,3 +42,7 @@ Logged by the cloud runner; owner fixes primers locally. Do not edit primers on 
 - **solar-industries.html — Maharashtra ₹12,700 Cr:** now sourced to Solar's own press release (14-Sep-2026): "proposed investment of ₹12,700 crores in Maharashtra" for defence & aerospace. Change the tag from primer-only to company-sourced. [V]
 - **Cross-reference (premier-explosives.html):** open-offer price is ₹698 + ₹7.65 interest = ₹705.65 (Letter of Offer 29-Sep-2026); up to ₹986.35 Cr; CCI said not a combination (23-Sep-2026); new 2.94% Government holding in Sep-26. [V LoF; V screener]
 
+
+## From primer-audit (2026-10-23, orchestrator)
+
+- **solar-industries.html — primer-audit hard-check FAIL (pre-existing, not fixed here):** "❌ banned": the banned word "honest" at line ~617 ("The honest tension: …"). Also flagged: no `main{min-width:0}` grid fix (phone overflow risk). 0 links to sub-sector reports; refreshed 2026-06-30 — once published, add a link to `../subsectors/explosives.html`.
