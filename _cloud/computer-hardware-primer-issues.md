@@ -25,3 +25,39 @@
 - **redington.html — valuation stale:** m-cap ~₹21,900 Cr (Jul-26) → **₹28,093 Cr** (+28%); P/E 15.6×. Consider mentioning that Redington fits the description of the distributor behind Netweb's ₹1,734 Cr IndiaAI order — **only if a source confirms it**. Add Redington Gulf–AWS collaboration (22-Oct-2026).
 - **General:** none of these primers mentions the IndiaAI GPU-tender mechanics (providers buy GPUs, government subsidises GPU-hours) or the CY2026 laptop/server Import Management System renewal (DGFT circular 08/2025-26, 17-Dec-2025).
 
+
+## From Computer Hardware & AI Servers deep-research pass (2026-10-23, computer-hardware-industry.md §4.5.2; supersedes conflicting bullets above — notably the '300+ supercomputers' and PLI 2.0 items)
+
+
+#### From Computer Hardware deep-research pass (2026-10-23, computer-hardware-industry.md Part 4)
+
+**netweb-technologies.html**
+- **Cash flow:** any FY26 "strong cash generation" claim must use **CFO ₹171.5 Cr** (AR; CFO on the Q4 call), not screener's ₹790 Cr (an AR sign misprint propagated by screener). CFO/EBITDA ≈ 60%. Mention customer advances of ₹412.8 Cr at Mar-26.
+- **Gross margin:** add the company-reported **20.85% (FY26) vs 23.11% (FY25)**. Explain that EBITDA held because of operating leverage (opex 10.7% → 6.5% of revenue).
+- **Government share:** add "**Government 42.8% / non-government 57.2% of FY26 customers** (AR)". Replace any unsourced "government-favoured" sizing.
+- **PLI:** the "PLI wording" fix in Part 3 §3.4 is **superseded**. Netweb **is** a PLI IT Hardware 2.0 beneficiary for servers (migrated via approval of 24-Nov-2023), but **booked nil PLI income in FY26** (₹5.94 Cr in FY25). Say both.
+- **R&D:** "₹13.14 Cr incl. capex (0.6% of revenue), 110 R&D staff (AR)". Avoid "2–3% of revenue" unless attributed to CRISIL.
+- **Supercomputers:** the Part 3 fix "300+ → 60+" is **wrong; reverse it**. The AR says **600+ supercomputing systems installed**, 10,000+ GPU AI systems and 60+ private-cloud/HCI installations. CRISIL says "300+ made-in-India HPC units". Use the AR figure with attribution.
+- **Guidance:** the Part 3 fix is **partly wrong**. 35–40% *was* guided on 4-May-2026, but **for organic business excluding the strategic order**. Add that qualifier. On 29-Jul management said it is "not guiding" revenue.
+- **Order book:** explain the **₹2,184 Cr strategic basket = ₹1,734 Cr (3-Sep-25) + ₹450 Cr (19-Sep-25)** from one distributor; ~₹1,195 Cr was due in Q2 FY27 [E]. Do not name the distributor.
+- **Ownership:** promoter 64.16% (Sep-26) after two events: (a) a **3.65% open-market sale on 12-Feb-2026** ("for liquidity"; no further sale for 12 months, per the Q4 call); (b) **4.4% dilution from the ₹1,200 Cr QIP at ₹4,790 (20-Aug-2026)**. QIP allottees include ICICI Pru MF, Nomura, Goldman Sachs and Think.
+- **Credit:** add **CRISIL A+/Stable / A1 (upgraded 25-May-2026), ₹2,420 Cr bank lines**. CRISIL flags top-3 suppliers at 65–70% of procurement (Taiwan imports) and top-5 customers at 65–70% of revenue.
+- **Concentration:** add "three customers each ≥10% of FY26 revenue (AR note 40)".
+- **Capacity:** "utilisation 65–70%" (CMD, 4-May-2026); three Faridabad facilities plus a dense-GPU line (>150 kW/rack).
+- **Valuation context:** global AI-server OEMs trade at 7–16× forward (Supermicro, Dell, HPE; 23-Oct-2026). Netweb ~99× TTM. QIP buyers are ~9.5% under water at ₹4,336.
+- **Competition:** add C-DAC Rudra servers built by Indian EMS partners under technology transfer (PIB 4-Oct-2026) as a PPP-MII-eligible rival in HPC.
+
+**dixon-technologies.html**
+- The PLI 2.0 IT-hardware list also includes Kaynes and Syrma (AngelOne, 16-May-2026). Dixon's IT-hardware ramp should be read against **laptop imports of $6.73 bn in FY26 (72% from China; TradeStat)**: that is the import pool PLI is meant to replace.
+
+**kaynes-technology.html / syrma-sgs-technology.html**
+- Both are reported among the 27 PLI IT Hardware 2.0 approvals [V-snip]. Kaynes/Syrma-type EMS firms are the kind of manufacturing partner C-DAC uses for Rudra servers (PIB says "Indian EMS partners", unnamed). **Do not claim either is a Rudra partner without a source.**
+
+**redington.html**
+- Unchanged: do **not** link Redington to Netweb's ₹1,734 Cr / ₹450 Cr orders. Both filings describe the awarder only generically, and no source names it.
+
+**General / sector primers**
+- Replace "laptop imports ~96% from China" (if used anywhere) with **TradeStat: China 71.8% of HS 847130 in FY26 (peak 79.9% in FY25)**.
+- AI Diffusion rule: say "**rescission announced May-2025; not yet formally removed from the CFR; replacement pending**", not "rescinded".
+- IndiaAI: add the **round-2 L1 rates (B200 ₹323/hr, H100 ₹153/hr; PIB 30-May-2025)** and the **₹65/hr subsidised user price**.
+

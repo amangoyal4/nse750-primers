@@ -916,3 +916,674 @@ Global m-caps and P/Es not fetched → n/a.
 - PLI IT HW 2.0 status (secondary, 14-Aug-2026): https://sarkariyojana.com/scheme/production-linked-incentive-pli-it-hardware-2-0/
 - IndiaAI GPU counts (PIB search results): https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245069 · https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf (not fetched)
 - India PC market 2025 (IDC, 5-Mar-2026; snippet): https://www.idc.com/resource-center/press-releases/india-pc-market-2025/
+
+---
+
+# PART 4 — Deep-research supplement (23-Oct-2026)
+
+Second, primary-source pass. It was compiled on 23-Oct-2026, ~4:15–6:00 pm IST, the day **before** Netweb's Q2 FY27 board meeting. Scratch notes and downloaded documents are in `/tmp/computer-hardware-deep/` (notes.md, pdf/, ind/, raw/).
+
+**Status check: Q2 FY27 results are NOT out.** NSE's corporate-announcement feed for NETWEB, pulled at ~4:20 pm on 23-Oct-2026, ends with the 20-Oct-2026 intimation of the Q2 FY27 earnings call. The board meets on 24-Oct-2026 and the call is on 26-Oct-2026 at 3:30 pm [V NSE API]. Every Netweb number below therefore stops at Q1 FY27 (Jun-26), plus the August 2026 QIP.
+
+**Tags used in Part 4**
+- **[V]** = fetched in this pass from the named source.
+- **[V-P1]** = verified from a primary source in Parts 1–3 earlier today but not re-fetched in this pass.
+- **[V-snip]**, **[K]** and **[E]** mean the same as in Part 1.
+
+**Primary documents read in this pass**
+1. **Netweb FY26 Annual Report** (BSE, AttachHis 87148e7d…; financial statements signed 2-May-2026; 32,000 lines of text extracted). Sections read: MD&A, KPI table, notes 38 (related parties), 40 (segment, major customers), 42 (contingencies), 50 (PLI) and 57, the cash-flow statement, the balance sheet, and the Board's-report annexure (R&D, FX).
+2. **Q1 FY27 results statement**: a scanned PDF from NSE, 28-Jul-2026. Page 4 was rendered to an image and read line by line.
+3. **Q1 FY27 presentation and Q1 call transcript**: re-downloaded from NSE (byte-identical to the Part 1 copies).
+4. **Q4 FY26 presentation and the Q4 FY26 call transcript** (call held 4-May-2026; transcript filed 7-May-2026). Part 1 had not read this transcript.
+5. **Four QIP filings on NSE**: 17-Aug, 20-Aug (issue closure), 20-Aug (allotment, with the list of allottees above 5%) and the 25-Aug press release.
+6. **NSE SAST Reg 29(2) disclosures** (Feb-2026 and Aug-2024 promoter sales) and the **NSE shareholding-pattern history**.
+7. **Two CRISIL rating letters with full rationale** (filed 26-May and 10-Jun-2026).
+8. **The two Reg-30 order intimations** of 3-Sep-2025 (₹1,734 Cr) and 19-Sep-2025 (₹450 Cr).
+9. **Screener**: Netweb standalone and six Indian peers, refreshed.
+10. **Industry sources**:
+    - PIB factsheet of 13-Aug-2026 (re-fetched).
+    - PIB backgrounder of 10-Feb-2026 (IndiaAI).
+    - PIB release of 30-May-2025 with the L1 GPU-hour rate tables (via the negd.gov.in mirror).
+    - PIB backgrounder of 4-Oct-2026 on NSM (PRID 2318908).
+    - **DGCI&S/Commerce TradeStat EIDB queries for HS 8471, 847130 and 847150, FY22–FY26, including country splits.**
+    - IDC India press releases of 25-Aug-2026 and 19-Jan-2026.
+    - TrendForce releases of 30-Sep, 14-Oct and 22-Oct-2026.
+    - Miller & Chevalier BIS mid-year review (Aug-2026).
+    - Lenovo Q1 FY26/27 press release (Zawya copy).
+    - HPE FQ3 2026 (Pulse2 summary).
+    - Dell Q2 FY27 (Futurum).
+    - stockanalysis.com quotes (23-Oct-2026).
+
+Web calls used: ~55.
+
+## 4.0 Supersedes — corrections to Parts 1–3 (the writer should apply these)
+
+| # | Where in Parts 1–3 | Old value / statement | New value / statement | Source |
+|---|---|---|---|---|
+| S1 | §9.1, §9.2, B2, F, 2.1 "Cash flow", JSON `cfo_fy26` | Netweb CFO FY26 **₹790 Cr**, FCF ₹779 Cr, CFO/EBITDA **301%**; "FY26 cash flow flattered by advances" | **CFO FY26 = ₹171.5 Cr** (₹1,714.92 mn); capex ₹12.0 Cr; FCF ≈ **₹159 Cr**; CFO/op. EBITDA ≈ **60%**. Screener's ₹790 Cr picks up a **sign misprint in the AR's cash-flow statement**: "(Increase)/Decrease in trade receivables 3,092.14" is printed without brackets, but the statement only adds up to "cash generated from operations ₹2,404.21 mn" if it is **−3,092.14**. ₹1,714.9 mn + 2 × ₹3,092.1 mn = ₹7,899 mn = screener's ₹790 Cr. FY26 working-capital movements (₹ mn): inventories −5,835; receivables −3,092; payables +4,546; other liabilities (customer advances) +4,135 | V AR FY26 cash-flow statement and balance sheet; arithmetic E |
+| S2 | Trap 5, §4.2, §9.1, F, H4, JSON | Gross margin "not disclosed"; ~20–22% **[E]** | **Company-reported gross margin: FY26 20.85%, FY25 23.11%** (−2.26 pp). The company defines COGS as materials consumed + change in FG/WIP inventories; COGS was ₹1,728.3 Cr vs ₹883.5 Cr. Quarterly, derived on the same definition from the Q1 results: **Q1 FY26 25.6% → Q2+Q3 FY26 19.9% → Q4 FY26 20.4% → Q1 FY27 21.2%** | V AR MD&A KPI table; V Q1 FY27 results statement; quarterly derivation E |
+| S3 | §3, §9.1, F, H5, JSON `govt_share_pct` | Government vs enterprise split "not disclosed" | **FY26 customers: Government 42.8% vs non-government 57.2%** (AR KPI page). On the Q4 call the CMD said "50% is government, 50% is enterprise" | V AR p.4; V Q4 FY26 transcript (4-May-2026) |
+| S4 | §9.1, F, H6, JSON `rnd_pct` | R&D spend "not disclosed"; 125 R&D staff | **R&D expenditure ₹13.14 Cr including capex (≈0.6% of revenue)** per the Board's-report annexure. R&D team **110 (19.33% of workforce) at 30-Jun-2026**, per the AR; the Q1 PPT says 125. Total employees 441 → **569**. CRISIL's rationale says Netweb invests "2–3% of annual revenues" in R&D, which conflicts. **Use the AR's statutory ₹13.14 Cr** and note that much engineering cost probably sits in employee cost rather than in "R&D" | V AR; V CRISIL 10-Jun-2026 |
+| S5 | §7.2, H7, primer issue "PLI wording", JSON `pli_accrued` | "PLI 2.0 participation not confirmed"; PLI accrued n/d | **Netweb IS a PLI IT Hardware 2.0 beneficiary for servers.** It was originally approved under PLI 1.0 (IFCI letter of 1-Jul-2021) and **migrated to PLI 2.0 by approval letter of 24-Nov-2023** (IFCI/MeitY/PLI-ITHW-231124033). The scheme is valid FY24 (Jul–Mar) to FY29 (Apr–Jun). **PLI income booked: nil in FY26; ₹5.94 Cr in FY25** (other operating revenue); PLI receivable nil at Mar-26 | V AR note 50 and note 28 |
+| S6 | Front matter item 1, trap 8, B4, C.3, H1, §3.3 | QIP ≈ ₹1,170–1,230 Cr **[E]**, ~25 lakh shares, price unknown | **QIP: 25,05,219 shares at ₹4,790 (1.96% below the ₹4,885.90 floor) = ₹1,200.00 Cr.** Opened 17-Aug-2026, closed and allotted 20-Aug-2026. Equity went from 5,69,40,687 to **5,94,45,906 shares (+4.40%)**. Allottees above 5%: ICICI Prudential MF schemes 16.67%, Nomura India Investment Fund 13.10%, Goldman Sachs India Equity Portfolio 11.21%, Think India Opportunities 8.33%. BRLMs: IIFL Capital, CLSA, Resurgent. Use: working capital and general corporate purposes. It is the first equity raise since the IPO | V NSE filings 17-Aug, 20-Aug ×2, 25-Aug-2026 |
+| S7 | Front matter item 2, H2, 2.1 Ownership | Promoter 71.00% → 66.98% (Dec-25 → Mar-26) "looks like a block/OFS — not found" | **Open-market sale on 12-Feb-2026**: Sanjay Lodha 8,99,000 shares; Navin, Niraj and Vivek Lodha 3,93,645 each. Total **20,79,935 shares = 3.65%**. Sanjay is left with 26.58% and each brother with 13.39%. An ESOP allotment of 2,86,819 shares on 4-Feb-2026 had already diluted the group from 71.00% to ~70.64%. **The Jun→Sep 2026 fall to 64.16% is pure QIP dilution** (66.98% × 5.694/5.945 = 64.16%). The sale price is not in the filing [still open]. **This is the promoters' second ~3.65% sale in 18 months**: the Aug-2024 sale was 20,54,795 shares at ~₹2,232 | V NSE SAST API; V NSE shareholding history; V-snip AngelOne (2024 price), ScanX (70.64%) |
+| S8 | Trap 2, B1, H3, §2.1 story, primer issue | "Strategic order ≠ ₹1,734 Cr — or maybe it is. Do not assert either"; 558.8 + 1,625.2 = 2,184 > 1,734 "→ more than one strategic order" | **Resolved.** The strategic book consists of **two POs from the same awarder**, "one of the largest Indian-headquartered global providers of technology distribution and integrated supply chain solutions": **₹1,734 Cr (3-Sep-2025**; NVIDIA Blackwell/HGX-B200 servers; IndiaAI sovereign AI; execution by H1 FY27) + **₹450 Cr (19-Sep-2025**; Tyrone AI GPU systems; execution by end-FY26). **1,734 + 450 = ₹2,184 Cr = ₹558.8 Cr executed in FY26 + ₹1,625.2 Cr outstanding at Mar-26, exactly.** About ₹430 Cr of the ~₹1,600 Cr was executed in Q1 FY27, which leaves **~₹1,195 Cr due in Q2 FY27** (the "H1 FY27" deadline) [E]. The awarder is **still unnamed**; no search result names Redington | V NSE Reg-30 filings 3-Sep and 19-Sep-2025; V Q4 PPT; V Q1 call |
+| S9 | §2.1 "Installed base", §3.3 row "Supercomputers built", primer issue "300+ supercomputers" | "60+ supercomputers designed"; label mapping garbled; primer's "300+" called unverified | AR operational highlights: **600+ supercomputing systems installed; 10,000+ accelerator/GPU-based AI systems; 60+ private-cloud/HCI installations; 3 supercomputers (AIRAWAT, KABRU, PARAM Yuva-II) listed 17 times in the Top500.** CRISIL says "more than 300 made-in-India HPC units". **The primer's "300+" therefore has a source (CRISIL), and the company's own number is higher (600+).** Part 3's "fix" should be reversed to "attribute" | V AR p.5 and value-creation page; V CRISIL rationale |
+| S10 | §3.3 Guidance row, primer issue "guidance misstated", C.3 anchors | "No revenue guidance ('not guiding'); primer's 35–40% is not what management says" | On the **Q4 FY26 call (4-May-2026)** management guided **35–40% revenue growth for the organic/base business, explicitly excluding the strategic order**, plus 13–14% EBITDA. CFO Sanjeev Sancheti: "the guidance on the top line is not inclusive of the strategic order… about 35%". On the **Q1 call (29-Jul)**: "not guided really" and "not guiding on revenue at all" for new verticals; the 13–14% margin band, ~60% conversion over 18–24 months and 16–20-week execution all reiterated. **Primer fix: keep 35–40% but add "organic, ex-strategic, as of May-2026"** | V Q4 transcript; V Q1 transcript |
+| S11 | §2.3, §5.3, E12 | PC imports FY23 **$5.33 bn, China $5.11 bn (~96%)**; FY22 $7.37 bn; FY24 $8.4 bn for IMS items | **TradeStat (DGCI&S), HS 847130 portable computers/laptops: FY22 $7.95 bn, FY23 $5.89 bn, FY24 $5.45 bn, FY25 $6.13 bn, FY26 $6.73 bn; China share 71.9 / 75.7 / 76.6 / 79.9 / 71.8%.** Whole HS 8471: FY23 $10.08 bn, FY24 $9.37 bn, FY25 $11.40 bn, **FY26 $13.71 bn (+20.2%)**. The "96%" in Part 1 is wrong: China's share of laptop imports has never exceeded 80% in FY22–FY26 | V TradeStat EIDB, fetched 23-Oct-2026 |
+| S12 | §2.3 "FY26 HS 8471 not sourced", H9 | Not reached | **FY26 HS 8471 = $13,706.78 mn**, 1.77% of India's imports. **HS 847150 (processing units, incl. rack servers and GPU systems) $4,957.5 mn in FY26, +38.1%**, after +51.1% in FY25. China is only **6.6%** of 847150. Leading sources: Singapore $858 mn, USA $833 mn, Malaysia $388 mn, Taiwan $375 mn, China $325 mn, Mexico $226 mn | V TradeStat |
+| S13 | §7.7, A6, timeline | AI Diffusion rule "rescinded by BIS on 13-May-2025" | **Rescission was announced on 13-May-2025, but as of Aug-2026 the rule had not been formally removed from the CFR.** BIS is not enforcing it, and a replacement is "planned", tied to the AI Action Plan and expected by end of US FY2026 (Sep-2026); none had been published by the time of the alert. Since **15-Jan-2026**, license review for certain advanced chips has been case-by-case rather than presumption of denial (applies to D:5/China destinations). There are **no India-specific caps** | V Miller & Chevalier alert (~12-Aug-2026) |
+| S14 | §10.1, §3.2(c), H13 | Global peer m-caps and P/Es "not fetched"; Lenovo ISG not split; HPE only via IDC | **23-Oct-2026 quotes (stockanalysis.com, intraday):** Dell **$293.8 bn, P/E 27.0× TTM / 16.4× fwd**; HPE **$76.9 bn, 29.5× / 12.5×**; Supermicro **$22.2 bn, 10.4× / 7.2×**; Lenovo **HK$280.8 bn (~US$36 bn), fwd 9.1×**. **Lenovo ISG Q1 FY26/27: $8.5 bn (+98%), op. profit $777 mn (9.1%, a record); AI server pipeline $54 bn.** **HPE FQ3 2026 (to Jul-26): revenue $12.2 bn (+34%), Server $6.8 bn (+35.3%), Networking $2.9 bn (+74.9%); FY26 growth guide 34–37%** | V stockanalysis; V Lenovo PR (Zawya); V-snip/secondary HPE (Pulse2) |
+| S15 | §7.2 PLI | "Most approved companies treating FY26 as their first production year" | A May-2026 report says **"most participating companies had selected FY25 as their first year of production"**. Sources conflict, so say "FY25–FY26". The ~₹82 Cr disbursed and the possible addition of AI servers in a late-FY27 review are re-confirmed. The 27 approved names include Kaynes and Syrma as well as Dell, HP, Lenovo, Asus, Foxconn, Dixon and Sahasra; **Netweb is also one of them (S5)** | V-snip AngelOne 16-May-2026 (secondary) |
+| S16 | §2.4, E10 | India DC capacity: PIB ~1,575 MW (Aug-26) | Add an earlier PIB point: **"cloud data centre capacity ~1,280 MW", expected to grow 4–5× by 2030** (PIB backgrounder, 10-Feb-2026). City split per PIB: Mumbai/Navi Mumbai >25%, Bengaluru ~22%, Hyderabad ~22%, NCR 14%, Chennai 13%, Pune 6%, Kolkata 3%. India holds ~20% of the world's data but 3% of its DC capacity | V PIB 10-Feb-2026 |
+| S17 | §2.4 hyperscaler pledges [K] | Microsoft $17.5 bn, Amazon ~$35 bn, Google $15 bn "verify" | **Microsoft $17.5 bn by 2030** (AI/cloud; announced ~9-Dec-2025), **Amazon $35 bn by 2030** (all India businesses, not only AWS; 10-Dec-2025), **Google $15 bn** Visakhapatnam AI hub. PIB adds **AWS $8.3 bn** for a Maharashtra data centre | V-snip Reuters syndications; V PIB 10-Feb-2026 (Google, AWS) |
+| S18 | §2.1 / §2.2 India server market | "No public vendor-share table"; market $1.7–6.6 bn | **IDC: India enterprise-infrastructure market (servers + storage + networking infrastructure tracker) $1.67 bn in Q1 2026 vs $1.28 bn (+30%)**, driven by CSP AI front-loading and memory/NAND price inflation, with muted units. West + South India = **>89% of server demand** (3Q25). Lenovo **claims** IDC ranks it #2 in India x86 servers with **24.7%** in Q4 CY25 (10% a year earlier) [V-snip] | V IDC PRs 25-Aug-2026 and 19-Jan-2026 |
+| S19 | §7.5 NSM | "40 supercomputers, ~68 PF [V-snip]" | **Now [V] from PIB (4-Oct-2026):** 40 systems, 68 PF; target 50 systems, >123 PF; outlay ~₹4,500 Cr. The PIB adds that **C-DAC's Rudra servers are indigenously designed, "with technology transferred to Indian EMS partners for manufacturing"** (secondary summaries: ~6,000 deployed, 1,500 being built). **This is a state-designed rival server line built by EMS firms.** No NSM 2.0 outlay | V PIB PRID 2318908 |
+| S20 | §7.4 IndiaAI rates | "L1 rates blog-level ₹115–150/hr" | **PIB, 30-May-2025 (round 2): L1 on-demand ₹/GPU-hour** — **NVIDIA B200 SXM ₹323.00** (Yotta; ₹308 on one-month terms); **H100 SXM ₹153.00** (Cyfuture); H100 NVL ₹168.74 (Netmagic); A100 80 GB ₹135.90; AMD MI300X ₹168.22; MI325X ₹169.20. Round 2 took the pool from 18,417 to **34,333 GPUs** (+15,916), with seven bidders (Cyfuture, Ishan, Locuz, Netmagic, Sify, Vensysco, Yotta). The ₹115.85/₹150 figures are "average discovered rates" from round 1, not L1 | V PIB 30-May-2025 |
+| S21 | §9.1 CCC row / F | CCC 73 → 84 → 96 days (company) | Add management's framing from the Q4 call: CCC "typically operates from **90 to 110 days**". CRISIL measures **gross current assets of 268 days** at Mar-26 (205 a year earlier): debtors 112 days, inventory 155 days. **30–40% of annual revenue is booked in Q4** | V Q4 transcript; V CRISIL |
+| S22 | §4.3 Capacity | "Can support ₹3,000+ Cr" | Add: **"capacity utilisation would be around 65% to 70%"** (CMD, Q4 call). There are three facilities in Faridabad (H1, H2, IMT) plus the new dense-GPU line, which supports ">150 kW per rack" | V Q4 transcript; V AR |
+| S23 | §2.4 cust. concentration, §9.1, E7 | Top-10/top-5 only | Add: **three customers each ≥10% of FY26 revenue (two in FY25)** (AR note 40). CRISIL: **top-5 customers 65–70% of revenue; top-3 suppliers 65–70% of procurement**, with a "significant percentage" imported from Taiwan. Customers named by CRISIL: IITs, ISRO, RailTel, University of Delhi, Infosys, **Yotta**, Zoho, TCS | V AR; V CRISIL |
+| S24 | Front matter item 4 | "CRISIL rating actions 25-May and 10-Jun-2026 (content not read)" | **25-May-2026: long-term rating upgraded from Crisil A/Stable to A+/Stable; A1 reaffirmed; rated bank facilities ₹260 Cr → ₹700 Cr. 10-Jun-2026: reaffirmed; facilities raised to ₹2,420 Cr** (incl. a ₹2,040 Cr working-capital facility). Fund-based utilisation averaged **24%** in the 12 months to Apr-26. Upgrade trigger: revenue >₹4,000 Cr at a 13–14% margin. Downgrade trigger: revenue <₹2,000 Cr or OPM <11% | V CRISIL letters on NSE |
+| S25 | §2.5 / C.4 | (none) | Note: CRISIL's FY26 "revenue ₹2,138 Cr" in the text conflicts with its own table (₹2,183.6 Cr). Use ₹2,183.6 Cr | V CRISIL |
+| S26 | §2.1 global server market | IDC 2Q26 only | Add the TrendForce full-year view (14-Oct-2026): **2026 server market $639.2 bn, of which AI servers ~$479 bn (~75%)**; **2027 >$1 trn, AI ~$920 bn (~81%)**; top-9 CSP capex **$957 bn in 2026 (+106%)** and **>$1.5 trn in 2027** | V TrendForce |
+
+## 4.1 Verification table — 40 figures the writer will use
+
+"Agrees?" compares with Parts 1–3. **P** = primary source (company filing, regulator, government statistics, the company's own release); **S** = secondary.
+
+| # | Figure | Value | Source (URL / document) | Fetched this pass? | P/S | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|---|
+| 1 | Netweb FY26 revenue from operations | ₹2,183.56 Cr (+90.0%) | AR FY26 MD&A KPI table (BSE AttachHis 87148e7d…pdf) | V | P | Yes |
+| 2 | Netweb FY26 operating EBITDA / margin | ₹284.84 Cr / 13.04% (FY25 ₹159.04 Cr / 13.84%) | AR FY26 | V | P | Yes |
+| 3 | Netweb FY26 PAT | ₹205.82 Cr (+80.9%) | AR; Q1 results statement (FY26 column) | V | P | Yes |
+| 4 | **Netweb FY26 gross margin (company)** | **20.85% (FY25 23.11%)** | AR FY26 KPI table | V | P | **New** (was [E] 20–22%) |
+| 5 | **Netweb FY26 CFO** | **₹171.5 Cr** (FY25 −₹13.2 Cr) | AR cash-flow statement | V | P | **No**: supersedes ₹790 Cr (S1) |
+| 6 | **Government share of customers** | **42.8% (non-govt 57.2%)** | AR FY26 p.4 | V | P | **New** |
+| 7 | **R&D expenditure** | **₹13.14 Cr incl. capex (0.6%)** | AR Board's report annexure | V | P | **New**; CRISIL's "2–3%" conflicts |
+| 8 | **PLI income** | Nil FY26; ₹5.94 Cr FY25; PLI 2.0 approval 24-Nov-2023 | AR notes 28 and 50 | V | P | **New** |
+| 9 | Customers ≥10% of revenue | 3 in FY26 (2 in FY25) | AR note 40 | V | P | New |
+| 10 | Bank guarantees outstanding (contingent) | ₹136.3 Cr (₹81.7 Cr) | AR note 42 | V | P | New |
+| 11 | Q1 FY27 revenue / PAT | ₹819.69 Cr / ₹85.32 Cr | Q1 results statement (NSE, 28-Jul-2026) | V | P | Yes |
+| 12 | **Q1 FY27 gross margin (derived, company definition)** | **21.2%** (Q1 FY26 25.6%; Q4 FY26 20.4%) | Q1 results statement | V | P (+E arithmetic) | New |
+| 13 | Order book / L1 at 30-Jun-26 | ₹2,506.9 Cr / ₹848.0 Cr | Q1 FY27 PPT (NSE) | V | P | Yes |
+| 14 | Order book / L1 / pipeline at 31-Mar-26 | ₹2,097.6 Cr / ₹327.8 Cr / ₹4,431.5 Cr | AR KPI page (₹20,976 / 3,278 / 44,315 mn); Q4 PPT | V | P | Yes |
+| 15 | AI-systems revenue FY26 / Q1 FY27 | ₹947.8 Cr (43.4%) / ₹510.6 Cr (62.3%) | AR; Q1 PPT | V | P | Yes |
+| 16 | FY26 six-line segment split | AI 947.8; HPC 530.8; private cloud 517.0; HPS 32.8; DC servers 32.1; software/services/spares 123.2 (₹ Cr) | AR MD&A | V | P | Refines E4 (the three small lines are now named) |
+| 17 | Top-10 / top-5 customers, Q1 FY27 | 87.7% / 81.2% | Q1 PPT | V | P | Yes |
+| 18 | **QIP size / price / shares** | **₹1,200.00 Cr / ₹4,790 / 25,05,219** | NSE allotment intimation 20-Aug-2026 | V | P | **No**: was [E] (S6) |
+| 19 | Post-QIP share count | 5,94,45,906 | same | V | P | Yes ([E] ~5.95 cr) |
+| 20 | **Promoter sale, Feb-2026** | **20,79,935 shares (3.65%), open market, 12-Feb-2026** | NSE SAST Reg 29(2) | V | P | **New** (S7) |
+| 21 | Promoter holding path | 75.45 (IPO) → 71.39 (Sep-24) → 71.00 (Dec-25) → 66.98 (Mar-26) → 64.16% (Sep-26) | NSE shareholding API | V | P | Yes |
+| 22 | **Strategic orders** | ₹1,734 Cr (3-Sep-25) + ₹450 Cr (19-Sep-25) = ₹2,184 Cr | NSE Reg-30 filings | V | P | **Resolves** trap 2 |
+| 23 | CRISIL rating / bank lines | A+/Stable, A1; ₹2,420 Cr facilities (10-Jun-26) | CRISIL letter on NSE | V | P | New |
+| 24 | Netweb m-cap / P/E (23-Oct) | ₹25,782 Cr / 98.9× TTM | screener.in/company/NETWEB/ | V | S | Yes |
+| 25 | IndiaAI outlay | ₹10,371.92 Cr ("about ₹10,372 Cr") | PIB 10-Feb-2026; PIB factsheet 13-Aug-2026 | V | P | Yes |
+| 26 | IndiaAI GPUs onboarded | 18,417 → 34,333 (May-25) → 38,000+ (Feb-26) → 45,000+ (Jun-26) | PIB 30-May-2025; PIB 10-Feb-2026; PIB 13-Aug-2026 | V | P | Yes (round-1 figure 18,417 per PIB vs 18,693 in press) |
+| 27 | IndiaAI subsidised usage | 237 projects, 93.18 lakh GPU-hours (Aug-26); user price ₹65/hr | PIB 13-Aug-2026 / 10-Feb-2026 | V | P | Yes |
+| 28 | **IndiaAI L1 rate, B200 / H100** | **₹323 / ₹153 per GPU-hour (round 2, on-demand)** | PIB 30-May-2025 | V | P | **New** |
+| 29 | India DC capacity | ~1,280 MW cloud DC (Feb-26); ~1,575 MW (Aug-26); 375 MW (2020) | PIB 10-Feb-2026; PIB 13-Aug-2026 | V | P | Yes, adds the Feb point |
+| 30 | NSM status | 40 systems, 68 PF (Sep-26); target 50 / >123 PF; ₹4,500 Cr | PIB 4-Oct-2026 | V | P | Yes (upgrades [V-snip]) |
+| 31 | Semicon India 2.0 | ₹1,27,500 Cr (Jul-2026); 1.0 ₹76,000 Cr | PIB 13-Aug-2026 | V | P | Yes |
+| 32 | **HS 8471 imports FY26** | **$13.71 bn (+20.2%)** | TradeStat EIDB | V | P | **New** |
+| 33 | **Laptop imports (847130) FY26 / China share** | **$6.73 bn / 71.8%** | TradeStat EIDB | V | P | **No**: supersedes "96% China" (S11) |
+| 34 | **Server/processing-unit imports (847150) FY26** | **$4.96 bn (+38%)**; China 6.6% | TradeStat EIDB | V | P | **New** |
+| 35 | IDC India enterprise infrastructure Q1 2026 | $1.67 bn (+30%) | IDC PR 25-Aug-2026 | V | P (vendor) | New |
+| 36 | IDC WW servers 2Q26 | $166.3 bn (+52%); Dell 13.4%, SMCI 6.1%, Lenovo 5.1%, HPE 3.5%, ODM 53.9% | IDC PR 10-Sep-2026 | V-P1 | P (vendor) | Yes |
+| 37 | TrendForce 2026 server market / AI share | $639.2 bn / ~$479 bn (~75%) | TrendForce 14-Oct-2026 | V | P (analyst) | New |
+| 38 | DRAM / NAND contract, 4Q26 | +10–15% / +15–20% QoQ | TrendForce 30-Sep-2026 | V | P (analyst) | Yes |
+| 39 | Dell Q2 FY27 | ISG $31.78 bn (+89%); AI orders $60.9 bn; backlog $95 bn; FY27 AI servers ~$74 bn | Futurum 9-Sep-2026 | V | S | Yes |
+| 40 | Supermicro FY26 | $39.1 bn; GAAP GM 10.8%; CFO −$6.8 bn | SEC 8-K exhibit 99.1 (11-Aug-2026) | V-P1 (SEC returned 403 this pass) | P | Yes |
+
+**Count: 38 of 40 are [V] this pass. 32 of those 38 are from primary sources** (company filings, PIB, DGCI&S, CRISIL letters, IDC/TrendForce releases). The six [V] secondaries are #24 screener, #39 Futurum, and the cross-checks behind #26, #27, #29 and #31. Two are [V-P1] (#36 IDC worldwide, #40 Supermicro). Independent double-sourcing:
+- **#2/#3**: AR and Q1 results statement agree.
+- **#14**: AR and Q4 PPT agree.
+- **#18**: three separate NSE filings agree.
+- **#20**: SAST API agrees with the shareholding-pattern delta (71.00 → 70.64 after ESOPs → 66.98).
+- **#22**: two filings sum exactly to the PPT's executed + outstanding.
+
+**Conflicts and which source to prefer**
+1. R&D: AR ₹13.14 Cr vs CRISIL "2–3%". Prefer the AR, which is a statutory disclosure.
+2. Team size: AR says 110 R&D staff at 30-Jun-26; the Q1 PPT says 125. Both are company documents. Use "110–125".
+3. FY26 revenue: CRISIL's text says ₹2,138 Cr, against ₹2,183.6 Cr in its own table. The text is a typo.
+4. IndiaAI round 1: PIB says 18,417 GPUs; press reports say 18,693. Prefer PIB.
+5. CFO: AR ₹171.5 Cr vs screener ₹790 Cr. Prefer the AR, which is arithmetically consistent.
+
+**Extra confirmation of S1 (CFO).** On the Q4 FY26 call (4-May-2026) the CFO said: "The net cash generated from operating activities was INR1,715 million for the financial year 2026", and that net free cash was ₹83.3 Cr at 31-Mar-2026 [V Q4 transcript]. Two independent company statements give ₹171.5 Cr. **Screener's ₹790 Cr is definitively wrong.**
+
+## 4.2 Netweb Technologies — primary-document pack
+
+### 4.2.1 Management-commentary digest (paraphrased; source and date on each line)
+
+**Q4 FY26 call — 4-May-2026** (speakers: CMD Sanjay Lodha, CFO Ankit Kumar Singhal, Sanjeev Sancheti, Hirdey Vikram) [V transcript filed 7-May-2026]
+- **Revenue guidance: 35–40% growth for the organic/base business, excluding the strategic order.** The strategic order is to be executed over "the next 3 quarters", i.e. Q1–Q3 FY27. EBITDA guided at 13–14% "at the enterprise level". The CMD said, "We are guiding you the best case."
+- **Order book at the start of FY27:** "around ₹2,100 Cr", or ₹2,400 Cr including L1, plus a pipeline of ₹4,400 Cr. That makes "about ₹6,500 Cr" of OB + L1 + pipeline. Sancheti said the base (non-strategic) book was ~₹500 Cr.
+- **Capex:** "no significant capex" in FY27; routine only. Capacity utilisation is "around 65% to 70%". "We are a capability-driven company", meaning a new facility would be built only for a new platform such as NVIDIA Vera Rubin.
+- **Mix:** HPC "has always been around 30%" of revenue; private cloud/HCI "used to be around 30–35%". DC servers (box selling) are "only some marginal 5%… we don't even track it". More than 95% of revenue comes from the three pillars.
+- **Customers:** "50% is government, 50% is enterprise." Netweb is **not targeting hyperscalers** ("India is not a hyperscaler-driven market… primarily more of a sovereign" market). GSIs (TCS, Infosys, Wipro) are customers or prospects. Yotta is a customer.
+- **Government compute plans:** the government is renting GPUs from neoclouds (RFP model) and also building its own infrastructure. GPU ambitions went "10,000 → 25,000 → now up to 100,000 GPUs".
+- **Working capital:** CCC "typically operates from 90 to 110 days". Receivable days fell from 114 (Dec-25) to 86 (Mar-26); inventory days rose from 60 to 86, to stock up for the strategic orders and hedge shortages.
+- **Promoter sale (Feb-2026):** done to "increase the liquidity of the stock". Promoters committed to **no further dilution for 12 months from February 2026**, i.e. until ~Feb-2027.
+- **Hedging:** FY26 adjusted EBITDA (₹290.1 Cr) adds back ₹5.24 Cr of hedging gains that offset MTM losses on payables.
+
+**Q1 FY27 call — 29-Jul-2026** [V transcript, NSE 1-Aug-2026] (Part 1 already digested it; the points below are additions or emphasis)
+- **Margins:** 13–14% EBITDA band reiterated. The strategic and base books are now merged ("there is no strategic order now… strategic is the new normal").
+- **Order book:** OB + L1 ≈ ₹3,400 Cr; OB mix ~40–45% AI. Pipeline ₹10,410 Cr, **now including strategic**. Conversion ~60% over 18–24 months. Execution cycle 16–20 weeks (was 8–12).
+- **About ₹430 Cr of the ~₹1,600 Cr strategic order was executed in Q1.** By the filing schedule the remaining ~₹1,195 Cr is due by end-Q2 FY27 (Sep-26) [E].
+- **Revenue guidance:** "not guided really"; an analyst referred to ₹4,000 Cr of FY27 revenue and was not contradicted.
+- **Funding:** "first time in many quarters" with positive net debt. Any capital raised would be "largely for working capital, no M&A".
+- **QIP signalling (governance note):** when an analyst asked about a "₹1,200 Cr QIP", Sancheti replied "I don't know where you got this news… There was an enabling resolution". **The QIP launched 19 days later (17-Aug-2026) at exactly ₹1,200 Cr.** Board approval (1-Jul) and shareholder approval (postal ballot, result 1-Aug) were public.
+- **Other:** memory prices are not expected to soften "for the next couple of quarters / about a year"; inventory is a deliberate hedge. Exports are 4–5% and not a focus. Physical-AI and quantum R&D are under way, with no revenue guidance.
+
+**FY26 Annual Report — MD&A, signed 2-May-2026** [V]
+- Growth plans: "expand international business" (overseas sales and support build-out); deeper private-cloud/DC push "by supplying indigenously designed… servers, storage… HCI".
+- **Risk register:** regulatory/cyber, credit (delayed payments), FX ("natural hedging"), **customer concentration ("dependence on a limited number of large customers")** and reputation (execution delays on large HPC/AI projects).
+
+### 4.2.2 Concall / filing KPI table (Netweb, company basis; ₹ Cr unless noted)
+
+| KPI | Q1 FY26 (Jun-25) | Q4 FY26 (Mar-26) | FY26 | Q1 FY27 (Jun-26) | Source |
+|---|---|---|---|---|---|
+| Revenue from operations | 301.21 | 773.70 | 2,183.56 | 819.69 | V Q1 results |
+| Materials + Δ FG/WIP inventory (COGS) | 224.05 | 615.82 | 1,728.29 | 646.24 | V Q1 results / AR |
+| **Gross margin (company definition)** | **25.6%** | **20.4%** | **20.85%** | **21.2%** | V AR (FY26); E derived (quarters) |
+| Employee cost | 16.08 | 21.43 | 80.29 | 24.69 | V |
+| Other expenses | 16.28 | 39.88 | 90.15 | 28.25 | V |
+| Employee + other exp. as % of revenue | 10.7% | 7.9% | 7.8% | **6.5%** | E |
+| Operating EBITDA (co.) | 44.8 (14.87%) | 96.6 (12.48%) | 284.84 (13.04%) | 120.52 (14.70%) | V PPTs |
+| Other income | 1.11 | 10.24 | 18.84 | 8.47 | V |
+| Finance cost | 0.98 | 8.15 | 12.95 | 11.52 | V |
+| D&A | 3.32 | 3.83 | 14.21 | 3.33 | V |
+| PBT | 41.61 | 94.82 | 276.52 | 114.14 | V |
+| PAT | 30.48 | 70.59 | 205.82 | 85.32 | V |
+| Order book (period-end) | n/a | 2,097.6 | 2,097.6 | 2,506.9 | V |
+| L1 | n/a | 327.8 | 327.8 | 848.0 | V |
+| Pipeline | n/a | 4,431.5 (ex-strategic) | — | 10,410 (incl. strategic) | V |
+| CCC (co., avg-balance) | — | 84 d | 84 d | 96 d | V |
+| Top-10 / top-5 customers | — | — | 76.4% / 62.2% | 87.7% / 81.2% | V |
+| Headcount | — | — | 569 (FY25 441) | R&D 110–125 | V AR / PPT |
+
+**Read.** Gross margin fell ~4–5 points (25.6% → ~20–21%) once the GPU-heavy strategic orders began shipping in Q2–Q3 FY26. **EBITDA margin held at 12.5–14.7% because operating costs fell from ~10.7% to ~6.5% of revenue.** Revenue nearly tripled while employee and other costs rose ~65%. **This is operating leverage, not pricing power.** It is a cleaner explanation than Part 1's (§4.2(b) and B2), and it implies the margin is vulnerable if revenue growth slows while the headcount build continues [E]. Q2+Q3 FY26 (derived) was the low point at 19.9% gross margin.
+
+### 4.2.3 Five-year history (screener standalone, ₹ Cr; refreshed 23-Oct-2026) [V], with company-basis overlays [V AR]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | CAGR FY22–26 |
+|---|---|---|---|---|---|---|
+| Revenue | 247 | 445 | 724 | 1,149 | 2,184 | **72.4%** |
+| Operating profit (EBITDA) | 35 | 70 | 103 | 159 | 285 | 69.0% |
+| OPM | 14% | 16% | 14% | 14% | 13% | — |
+| PAT | 22 | 47 | 76 | 114 | 206 | **74.9%** |
+| EPS (₹) | 4.41 | 9.22 | 13.47 | 20.08 | 36.15 | — |
+| ROCE | 52% | 64% | 38% | 32% | 37% | — |
+| CCC (screener, year-end) | 86 | 69 | 85 | 83 | 121 | — |
+| **Gross margin (co.)** | n/a | n/a | n/a | **23.11%** | **20.85%** | — |
+| **CFO (AR)** | — | — | — | **−13.2** | **171.5** (screener shows 790: wrong) | — |
+| PLI income (AR) | — | — | — | 5.94 | 0 | — |
+
+### 4.2.4 Eight-quarter trend (screener standalone, ₹ Cr) [V]
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 251 | 334 | 415 | 301 | 304 | 805 | 774 | 820 |
+| YoY | — | — | — | +102% | +21% | +141% | +87% | +172% |
+| Operating profit | 36 | 43 | 59 | 45 | 45 | 98 | 97 | 121 |
+| OPM | 14% | 13% | 14% | 15% | 15% | 12% | 12% | 15% |
+| Interest | 1 | 1 | 1 | 1 | 1 | 3 | 8 | 12 |
+| PAT | 26 | 30 | 43 | 30 | 31 | 73 | 71 | 85 |
+| Gross margin (co. def., derived) | — | — | — | 25.6% | ~19.9% (Q2+Q3 avg) | ~19.9% | 20.4% | 21.2% |
+
+- **Q2 FY27 (Sep-26): not reported; board 24-Oct-2026.** YoY base: revenue ₹304 Cr, PAT ₹31 Cr.
+- Arithmetic for the writer [E]: the remaining strategic order (~₹1,195 Cr) is due by H1 FY27. If most of it plus the organic book lands in Q2, revenue could well exceed **₹1,000 Cr (+230% YoY)**. If it slips, Q2 could look flat on Q1. **Do not forecast in print; wait for 24-Oct.**
+- Interest cost has risen 12× in four quarters (₹1 Cr → ₹12 Cr). The AR shows FY26 interest on borrowings of ₹7.97 Cr and "other borrowing costs" of ₹3.62 Cr. Post-QIP, Q3 FY27 finance cost should fall [E].
+
+### 4.2.5 Annual-report findings (FY26 AR, signed 2-May-2026) [V]
+
+**Segment and customers**
+- Note 40 reports a single segment, "Computer servers". Exports are "not significant" (FX earnings ₹60.7 Cr = 2.8% of revenue).
+- **Three customers are each ≥10% of revenue** (two in FY25).
+- **Government 42.8% / non-government 57.2%.**
+- Repeat-customer revenue 75.6%. 302 repeat customers have been with Netweb for over 6 years. 131 new clients in FY26.
+
+**Six-line revenue split (₹ Cr) and CAGR FY23–26**
+
+| Line | FY26 revenue | FY23–26 CAGR |
+|---|---|---|
+| AI systems | 947.79 | 212.9% |
+| HPC | 530.75 | 45.4% |
+| Private cloud & HCI | 516.97 | 52.4% |
+| High-performance storage | 32.77 | 2.1% |
+| DC servers | 32.08 | 4.3% |
+| Software, services, spares & others | 123.20 | — |
+
+- Sale of products ₹2,132.2 Cr; sale of services ₹51.4 Cr (+12.9%); other operating revenue nil (FY25 ₹5.94 Cr, all PLI).
+
+**Cost structure (FY26, ₹ Cr)**
+
+| Line | FY26 | FY25 | Note |
+|---|---|---|---|
+| Materials consumed | 1,715.5 | 912.2 | |
+| Δ FG/WIP | +12.8 | −28.7 | |
+| COGS | 1,728.3 | 883.5 | |
+| Employee cost | 80.3 | 62.3 | Headcount 441 → 569 |
+| Other expenses | 90.1 | 44.1 | FX loss ₹18.1 Cr; technical support ₹13.5 Cr (₹4.9 Cr); legal & professional ₹13.5 Cr; business promotion ₹7.7 Cr; CSR ₹2.1 Cr |
+| Other income | 18.8 | — | Interest ₹8.8 Cr; derivative fair-value gain ₹9.5 Cr |
+
+- The FX loss in other expenses and the derivative gain in other income are the hedge pair behind the "adjusted EBITDA".
+
+**R&D and IP**
+- R&D spend ₹13.14 Cr including capex (0.6% of revenue).
+- R&D team of 110 at 30-Jun-2026, working from Faridabad, Gurugram, Bengaluru and Hyderabad.
+- 17 patents and designs (registered + applied); 18 trademarks.
+- Products: Tyrone Cluster Manager, KUBYTS, VERTA, ParallelStor, COLLECTIVO, Skylus, Skylus.ai, FMOcean, VELOX, CAMARERO.
+
+**PLI**
+- Approved under PLI 1.0 for servers (1-Jul-2021); **migrated to PLI 2.0 (approval 24-Nov-2023; scheme FY24–FY29)**. Also qualified under the PLI for telecom & networking (2022).
+- **Booked nil PLI in FY26** (₹5.94 Cr in FY25).
+- Why nil in FY26 is not explained. Possible reasons are that eligible incremental *server* sales vs the base year did not meet thresholds, or that claims are recognised only on approval. Ask management [open].
+
+**Balance sheet at 31-Mar-2026 (₹ Cr; FY25 in brackets)**
+- Inventories 804.8 (221.3), of which raw materials 761.9.
+- Trade receivables 670.0 (361.5).
+- Cash 365.5 (170.1); other bank balances 223.8 (9.4).
+- Trade payables 760.7 (297.9).
+- **Advances from customers 412.8 (2.5)**: the strategic-order advances.
+- Short-term borrowings 270.6; total borrowings incl. leases 282.2 (7.9).
+- Net cash (company) 124.4 (162.1); current ratio 1.44 (2.33); ICR 22.4× (38.4×).
+- Year-end days (FY26 revenue/COGS basis) [E]: inventory 170, debtors 112, payables 161, i.e. the same as screener.
+
+**Contingent liabilities**
+- Bank guarantees ₹136.3 Cr (₹81.7 Cr).
+- Customs demand ₹1.06 Cr (CESTAT appeal; concessional duty denied on imported non-carrier Ethernet switches).
+- Income-tax appeals for AY2019-20 and AY2020-21 (₹0.99 Cr) decided in the company's favour.
+- Capital commitments ₹0.17 Cr.
+- **Nothing material.**
+
+**Related parties (note 38)**
+- Only KMP, Netweb Foundation (Section 8 subsidiary) and Ashoka Bajaj Automobiles LLP (an entity where KMP exercise influence).
+- **No royalty, no group purchases, no material RPTs.**
+- Dividends to the four Lodha promoters ₹10.0 Cr.
+- A relative, Raghav Lodha, has been employed as "Technology Evangelist" since 1-Feb-2026.
+
+**Capacity**
+- Three manufacturing facilities in Faridabad (H1, H2, IMT) with SMT, plus the new 15,000 sq ft dense-GPU line (>150 kW/rack).
+- Capital employed ₹1,005.5 Cr; gross PPE ₹69.5 Cr.
+- **No installed-capacity table** (the company says it is capability- rather than capacity-driven). Utilisation 65–70% [V Q4 call].
+
+**Other**
+- IPO proceeds were fully used (SMT-line civil works ₹7.31 Cr against ₹9.0 Cr planned).
+- Auditor: S S Kothari Mehta & Co. LLP (unchanged).
+- Inventory valuation switched from FIFO to moving weighted-average from Q1 FY26; "not material".
+
+### 4.2.6 Capital-structure events (complete record from NSE filings) [V]
+
+| Date | Event | Shares | Price | ₹ Cr | Promoter % after |
+|---|---|---|---|---|---|
+| 27-Jul-2023 | IPO listing (₹631 Cr; ₹206 Cr fresh, 41.2 lakh new shares at ₹500) | 41,20,000 new | 500 | 206 fresh | 75.45 |
+| 2-Aug-2024 | Promoter open-market sale (Sanjay 8,21,918; Navin, Niraj, Vivek 4,10,959 each) | 20,54,795 | ~2,232 [V-snip] | ~459 [V-snip] | 71.39 |
+| 16-Sep-2025 | Goldman Sachs AMI sells (to 2.35%) | 5,16,411 | n/a | n/a | — |
+| 4-Feb-2026 | ESOP allotment | 2,86,819 | — | — | ~70.64 |
+| **12-Feb-2026** | **Promoter open-market sale** (Sanjay 8,99,000; Navin, Niraj, Vivek 3,93,645 each) | **20,79,935** | **not disclosed** | **n/a** | **66.98** |
+| 1-Jul-2026 | Board approves fund-raise (QIP enabling) | — | — | up to ~1,200 | — |
+| 1-Aug-2026 | Postal-ballot special resolution passed | — | — | — | — |
+| 17-Aug-2026 | QIP opens; floor ₹4,885.90 | — | — | — | — |
+| **20-Aug-2026** | **QIP closes and is allotted** | **25,05,219** | **4,790** | **1,200.00** | **64.16** |
+| 3-Sep-2026 | ESOP allotment | 1,645 | — | — | 64.16 |
+
+- **Read.** Promoters have sold ~7.3% of the company in two open-market tranches 18 months apart. On the Q4 call the stated reason was liquidity, with a 12-month no-sale pledge from Feb-2026. **The next window is ~Feb-2027.** Write it as a fact with the stated reason, not as a red flag.
+- QIP investors paid ₹4,790. **At ₹4,336 (23-Oct) they are 9.5% under water** [E]. This supersedes Part 1's "7–11%" range, which used the floor price.
+- The FII share was 9.27% in Jun-26 and 9.47% in Sep-26 despite Nomura, Goldman and Think taking ~33% of the issue. So other FIIs sold, or the allottees were categorised differently (e.g. ICICI/iSIF as DII) [E].
+
+### 4.2.7 CRISIL view (rationale of 10-Jun-2026) [V]
+
+| | |
+|---|---|
+| **Rating** | Crisil A+/Stable (upgraded from A on 25-May-2026) / Crisil A1 |
+| **Rated facilities** | ₹2,420 Cr: working-capital facility ₹2,040 Cr; bank guarantee ₹190 Cr; CC ₹70 Cr; other fund-based ₹40 Cr; non-fund-based ₹80 Cr. Up from ₹260 Cr in May-2025 |
+| **Financial profile** | Net worth ₹720.9 Cr; gearing 0.38×; TOL/TNW 2.1×; interest cover 22.3×; liquid surplus ₹350–370 Cr at Mar-26; fund-based utilisation averaged 24% over the 12 months to Apr-2026 |
+| **Strengths cited** | Management experience; design capability; supplier access (NVIDIA, Samsung, AMD, Intel roadmaps 9–12 months ahead); ROCE 29–33% over two years |
+| **Weaknesses cited** | **Working-capital intensity (GCA 268 days)**; **top-3 suppliers 65–70% of procurement, significant imports from Taiwan**; **top-5 customers 65–70% of revenue**; competition; R&D talent retention |
+| **Sensitivities** | Upgrade if revenue >₹4,000 Cr at 13–14% OPM with diversification. Downgrade if revenue <₹2,000 Cr, OPM <11%, or a large debt-funded capex / working-capital stretch |
+
+- **Read.** A ₹2,420 Cr bank line (≈1.1× FY26 revenue) and a ₹1,200 Cr QIP mean Netweb has assembled **~₹3,600 Cr of working-capital firepower** against a CCC of ~96 days [E]. At 96 days, ₹3,600 Cr of funding supports roughly ₹13,000 Cr of annual revenue [E arithmetic: 3,600 × 365/96 ÷ 1.05]. **Funding is no longer the binding constraint; GPU allocation and order flow are.**
+
+### 4.2.8 The strategic orders, fully reconciled [V filings; E arithmetic]
+
+| | ₹ Cr |
+|---|---|
+| PO 1 — 3-Sep-2025: NVIDIA Blackwell (8× HGX-B200, Tyrone Camarero); "IndiaAI Mission sovereign AI"; execute Q4 FY26 – H1 FY27 | 1,734 |
+| PO 2 — 19-Sep-2025: Tyrone AI GPU-accelerated systems; execute by end-FY26 | 450 |
+| **Total strategic basket** | **2,184** |
+| Executed in FY26 (Q4 PPT) | 558.8 |
+| Outstanding at 31-Mar-26 (Q4 PPT) | 1,625.2 |
+| Executed in Q1 FY27 (Q1 call, "close to") | ~430 |
+| **Outstanding at 30-Jun-26 [E]** | **~1,195** |
+
+- Both POs came from the same unnamed domestic awarder: "one of the largest Indian-headquartered global providers of technology distribution and integrated supply chain solutions". The filings confirm it is not a related party.
+- **Unit arithmetic [E].** At ~₹3.5–4.0 Cr per 8-GPU B200 node (Part 1 C.1), ₹2,184 Cr ≈ 550–620 nodes ≈ **4,400–5,000 GPUs**. That is consistent with the AR milestone "order to deploy AI infrastructure for India's foundational LLM model with over 5,000 GPUs" (2025). **The two are very likely the same project.** The writer may say "consistent with", not "is".
+- **Customer-advance footprint.** Advances from customers jumped from ₹2.5 Cr to ₹412.8 Cr at Mar-26 [V AR]. The strategic awarder appears to have prepaid roughly a quarter of the outstanding value [E]. This is why FY26 CFO was positive at all.
+
+### 4.2.9 Indian reference peers — five-year headlines (screener consolidated, refreshed 23-Oct-2026; E2E standalone) [V]
+
+These are reference only; they are not members.
+
+**Dixon Technologies (DIXON)**, ₹ Cr
+| | FY22 | FY23 | FY24 | FY25 | FY26 | CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 10,697 | 12,192 | 17,691 | 38,860 | 48,873 | 46.2% |
+| OP / OPM | 384 / 3.6% | 519 / 4.3% | 705 / 4.0% | 1,515 / 3.9% | 1,873 / 3.8% | — |
+| PAT | 190 | 255 | 375 | 1,233 | 1,644 | 71.5% |
+| ROCE | 23% | 24% | 29% | 40% | 29% | — |
+| CCC (d) | 3 | 2 | −6 | −5 | −7 | — |
+
+- Last 4 quarters of revenue: 14,855 / 10,672 / 10,511 / 15,548 (Q1 FY27; OPM 3.0%).
+- M-cap ₹68,568 Cr; P/E 36.5×.
+
+**Kaynes Technology (KAYNES)**, ₹ Cr
+| | FY22 | FY23 | FY24 | FY25 | FY26 | CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 706 | 1,126 | 1,805 | 2,722 | 3,626 | 50.5% |
+| OP / OPM | 95 / 13% | 170 / 15% | 257 / 14% | 416 / 15% | 578 / 16% | — |
+| PAT | 42 | 95 | 183 | 293 | 364 | 71.6% |
+| ROCE | 25% | 22% | 15% | 14% | 13% | — |
+| CCC (d) | 148 | 162 | 123 | 102 | 193 | — |
+
+- Q1 FY27: revenue 946, PAT 56.
+- M-cap ₹21,521 Cr; P/E 62×.
+
+**Syrma SGS (SYRMA)**, ₹ Cr
+| | FY22 | FY23 | FY24 | FY25 | FY26 | CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 1,267 | 2,048 | 3,154 | 3,787 | 4,819 | 39.7% |
+| OP / OPM | 129 / 10% | 192 / 9% | 203 / 6% | 323 / 9% | 546 / 11% | — |
+| PAT | 79 | 123 | 124 | 184 | 346 | 44.7% |
+| ROCE | 16% | 15% | 10% | 12% | 17% | — |
+| CCC (d) | 99 | 95 | 76 | 52 | 48 | — |
+
+- Q1 FY27: revenue 1,589 (+68%), PAT 106.
+- M-cap ₹27,623 Cr; P/E 74×.
+
+**Redington (REDINGTON)**, ₹ Cr
+| | FY22 | FY23 | FY24 | FY25 | FY26 | CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 62,644 | 79,377 | 89,346 | 99,334 | 1,19,162 | 17.4% |
+| OP / OPM | 1,839 / 2.9% | 2,203 / 2.8% | 2,009 / 2.2% | 2,154 / 2.2% | 2,348 / 2.0% | — |
+| PAT | 1,315 | 1,439 | 1,239 | 1,821* | 1,284 | −0.6% |
+| ROCE | 28% | 25% | 19% | 19% | 18% | — |
+| CCC (d) | 15 | 36 | 34 | 36 | 34 | — |
+
+- *FY25 includes a one-off gain in other income.
+- Q1 FY27: revenue 34,922 (+35%), PAT 453.
+- M-cap ₹28,093 Cr; P/E 15.6×.
+
+**Rashi Peripherals (RPTECH)**, ₹ Cr
+| | FY22 | FY23 | FY24 | FY25 | FY26 | CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 9,313 | 9,454 | 11,095 | 13,773 | 15,827 | 14.2% |
+| OP / OPM | 301 / 3.2% | 256 / 2.7% | 297 / 2.7% | 305 / 2.2% | 464 / 2.9% | — |
+| PAT | 183 | 123 | 144 | 210 | 282 | 11.4% |
+| ROCE | 25% | 16% | 14% | 14% | 17% | — |
+| CCC (d) | 48 | 56 | 57 | 60 | 60 | — |
+
+- Q1 FY27: revenue 5,102 (+62%), PAT 105.
+- M-cap ₹5,387 Cr; P/E 16.9×.
+
+**E2E Networks (E2E, standalone)**, ₹ Cr
+| | FY22 | FY23 | FY24 | FY25 | FY26 | CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 52 | 66 | 94 | 164 | 246 | 47.5% |
+| OP / OPM | 23 / 44% | 33 / 50% | 48 / 51% | 97 / 59% | 126 / 51% | — |
+| PAT | 6 | 10 | 22 | 47 | −16 | n.m. |
+| ROCE | 15% | 29% | 25% | 8% | −1% | — |
+
+- Last 4 quarters of revenue: 70 / 96 / 157 / **224 (Q2 FY27, OPM 77%, PAT 73)**.
+- M-cap ₹11,656 Cr; P/E 99× (standalone).
+
+**Peer read [E]**
+- **Netweb's FY22–26 revenue CAGR (72%) is the highest in the set.** Kaynes (51%), E2E (48%), Dixon (46%) and Syrma (40%) follow; the distributors grew 14–17%.
+- **Netweb's PAT CAGR (75%) is matched by Dixon (72%) and Kaynes (72%).**
+- Netweb's ROCE (37%) trails only Dixon's FY25 peak (40%).
+- Netweb's year-end CCC (121 days) is now closer to Kaynes (193) than to the distributors (34–60). **The AI mix has turned a designer-OEM into a working-capital-heavy business.**
+
+**Global reference valuations (23-Oct-2026, stockanalysis.com) [V]**
+
+| | M-cap | P/E TTM | P/E fwd | Revenue TTM | Latest server datapoint |
+|---|---|---|---|---|---|
+| Dell Technologies | $293.8 bn | 27.0× | 16.4× | $151.2 bn | ISG $31.78 bn in Q2 FY27 (+89%); AI backlog $95 bn [V Futurum] |
+| HPE | $76.9 bn | 29.5× | 12.5× | $41.9 bn | Server $6.8 bn in FQ3-26 (+35%) [V-snip/secondary] |
+| Supermicro | $22.2 bn | 10.4× | 7.2× | $39.1 bn | FY26 GM 10.8%; export-control review [V-P1] |
+| Lenovo | HK$280.8 bn (~$36 bn) | (45×, distorted) | 9.1× | — | ISG $8.5 bn (+98%), 9.1% op. margin [V] |
+| **Netweb** | ₹25,782 Cr (~$2.7 bn) | **98.9×** | n/a | ₹2,702 Cr (~$0.29 bn) | FY26 13.0% EBITDA [V] |
+
+- **Read.** Netweb trades at ~6× Dell's and ~14× Supermicro's forward-style multiples. The global server OEMs are priced as cyclical box-makers (7–16× forward), even at record AI demand. **Netweb's premium is a "sovereign scarcity" premium**: it is the only listed Indian designer-OEM. The writer should say that explicitly. Supermicro's de-rating (to $22 bn on $39 bn revenue) shows what happens to an AI-server multiple when governance or export-control questions appear.
+
+## 4.3 Industry datasets upgraded from primary sources (chart-ready)
+
+**D1. India imports of computers, HS 8471 and key sub-headings (US$ mn; fiscal years) [V DGCI&S TradeStat EIDB, queried 23-Oct-2026]**
+
+| HS | Description | FY22 | FY23 | FY24 | FY25 | FY26 | FY26 YoY |
+|---|---|---|---|---|---|---|---|
+| 8471 | All automatic data-processing machines and units | n/q | 10,082.6 | 9,368.1 | 11,402.2 | **13,706.8** | +20.2% |
+| 847130 | Portable computers ≤10 kg (laptops, notebooks) | 7,954.6 | 5,889.2 | 5,450.0 | 6,131.6 | **6,726.5** | +9.7% |
+| — of which China | | 5,721.4 | 4,457.0 | 4,174.6 | 4,896.9 | 4,829.5 | −1.4% |
+| China share of 847130 | | 71.9% | 75.7% | 76.6% | 79.9% | **71.8%** | — |
+| 847150 | Processing units (incl. rack/GPU servers) | 2,199.3 | 2,579.8 | 2,375.7 | 3,589.0 | **4,957.5** | +38.1% |
+
+- n/q = not queried.
+- Notes: FY26 total India merchandise imports were $775.7 bn; HS 8471 = 1.77% of them. The IMS (import-authorisation) regime started on 1-Nov-2023, i.e. in FY24. **Laptop imports fell 7.5% in FY24 and then rose again in FY25–FY26.** The IMS is a monitoring regime, not a quota.
+- The China share of laptops rose to ~80% in FY25 and fell to ~72% in FY26 [V]. The most likely reason is Vietnam/Taiwan-sourced and domestically assembled (PLI) supply [E].
+
+**D2. Server-type imports (HS 847150) by source country (US$ mn) [V TradeStat]**
+
+| Country | FY22 | FY23 | FY24 | FY25 | FY26 | FY26 share |
+|---|---|---|---|---|---|---|
+| Singapore | 575.4 | 758.0 | 472.4 | 849.4 | 858.1 | 17.3% |
+| USA | 310.9 | 314.7 | 489.4 | 833.9 | 832.5 | 16.8% |
+| Malaysia | 192.6 | 290.0 | 276.7 | 751.6 | 387.9 | 7.8% |
+| Taiwan | 183.8 | 122.8 | 72.6 | 246.5 | 375.4 | 7.6% |
+| China | 440.1 | 470.3 | 505.0 | 301.6 | 325.4 | 6.6% |
+| Mexico | 49.9 | 71.8 | 73.8 | 54.0 | 226.1 | 4.6% |
+| Vietnam | 1.2 | 0.4 | 0.6 | 20.5 | 69.3 | 1.4% |
+| Thailand | — | — | 0.3 | 23.6 | 5.7 | 0.1% |
+| Others (residual) | — | — | — | — | ~1,877 | ~37.9% |
+| **Total** | 2,199.3 | 2,579.8 | 2,375.7 | 3,589.0 | **4,957.5** | 100% |
+
+- Read [E]. Unlike laptops, **India's server imports are not China-dependent**. They come via the ODM/OEM hubs: Singapore (regional distribution), US (Dell/HPE/Supermicro), Malaysia/Taiwan (ODMs) and Mexico (Dell/Supermicro/Foxconn). That fits the "trusted source" preference. **$4.96 bn ≈ ₹43,000 Cr at FY26's ~₹87/$ average [E]** of imported processing units. That is ~20× Netweb's FY26 revenue, and **the cleanest public proxy for the size of India's imported-server pool.**
+- Caveats: 847150 also covers some desktops and other processing units. GPU modules/baseboards imported as parts (HS 847330) are not included. Netweb imports components, not finished servers, so its own spend sits largely in 8473/8542/8523 [E].
+
+**D3. IndiaAI compute pillar — GPUs and pricing [V PIB]**
+
+| Date | GPUs onboarded | Event | Source |
+|---|---|---|---|
+| Jan/early-2025 | 18,417 | Round 1 empanelment (press reports 18,693) | PIB 30-May-2025 |
+| 30-May-2025 | 34,333 | Round 2 adds 15,916; 7 bidders | PIB 30-May-2025 |
+| mid/late-2025 | ~38,183 | Round 3 adds ~3,850 (Locuz, Sify, Ishan; incl. TPUs) | V-snip inc42/ICAI |
+| 10-Feb-2026 | 38,000+ GPUs + 1,050 TPUs | User price ₹65/hr ("~⅓ of global average") | PIB 10-Feb-2026 |
+| Jun-2026 | 45,000+ | 237 projects; 93.18 lakh GPU-hours used (Aug-26) | PIB 13-Aug-2026 |
+
+Round-2 L1 on-demand rates (₹ per GPU-hour, single-GPU instance) [V PIB 30-May-2025]:
+
+| Accelerator | On-demand ₹/hr | Bidder | 1-month ₹/hr |
+|---|---|---|---|
+| NVIDIA B200 SXM | 323.00 | Yotta | 308 |
+| NVIDIA H100 SXM | 153.00 | Cyfuture | 134.1 |
+| NVIDIA H100 NVL | 168.74 | Netmagic | 135 |
+| NVIDIA A100 80 GB | 135.90 | Cyfuture | 89.1 |
+| AMD MI300X | 168.22 | Cyfuture | 165.05 |
+| AMD MI325X | 169.20 | Cyfuture | 123.3 |
+
+8-GPU B200 node: ₹2,584/hr on-demand.
+
+**Provider economics [E, illustrative].**
+- An 8×B200 node earns ₹2,584/hr × 8,760 h = **₹2.26 Cr a year at 100% utilisation**.
+- At a ~₹3.5–4.0 Cr build cost (servers + networking; Part 1 C.1) that is a **~1.6–1.8-year payback at full utilisation, ~3–3.5 years at 50%**, before power, DC rent and financing.
+- Reported subsidised usage (93.18 lakh GPU-hours over ~18 months on a 34–45k GPU pool) implies **low single-digit % utilisation of the subsidised channel**. Providers therefore depend on non-IndiaAI customers. That is the demand-quality risk behind Netweb's neocloud and sovereign orders.
+
+**D4. India data-centre capacity (MW) [V PIB; V-P1 CBRE]**
+| Date | Capacity | Basis | Source |
+|---|---|---|---|
+| 2020 | 375 | Installed | PIB 13-Aug-2026 |
+| Feb-2026 | ~1,280 | "Cloud data centre capacity" | PIB 10-Feb-2026 |
+| Aug-2026 | ~1,575 | Installed | PIB 13-Aug-2026 |
+| end-2026E | ~2,000 | CBRE | V-P1 |
+| 2030E | 4–5× Feb-26 level (~5–6.4 GW) | PIB projection | PIB 10-Feb-2026 |
+| City split (Feb-26) | Mumbai/Navi Mumbai >25%; Bengaluru ~22%; Hyderabad ~22%; NCR 14%; Chennai 13%; Pune 6%; Kolkata 3% | | PIB 10-Feb-2026 |
+
+Note: the city percentages sum to more than 100%, so they are probably on different bases. Quote them as "about".
+
+**D5. Global server market and AI share (US$ bn) [V TrendForce 14-Oct-2026; V-P1 IDC]**
+| | 2025 | 2026E | 2027E |
+|---|---|---|---|
+| Total server market (TrendForce) | — | 639.2 | >1,000 |
+| AI servers (TrendForce) | — | ~479 (~75%) | ~920 (~81%; +>90%) |
+| AI server shipments YoY | — | +32.2% | ~+36% |
+| Top-9 CSP capex | ~465 | 957 (+106%) | >1,500 (+60%) |
+| Server CPU shipments YoY (TrendForce 22-Oct) | — | +31% | >+40% |
+| IDC quarterly server revenue | 4Q25 125.3 | 2Q26 166.3 (+52%) | — |
+
+- The 2025 CSP capex figure is backed out from +106% [E].
+- TrendForce also says the CPU:accelerator ratio is moving from 1:8 toward **1:2 or 1:1** with agentic AI. **This favours general-purpose and CPU-dense servers, Netweb's HPC/private-cloud heritage, not only GPU boxes.** AMD's share of server CPUs is ~27% in 2026; Intel is supply-constrained.
+
+**D6. Memory price path (contract, QoQ) [V TrendForce 30-Sep-2026; V-snip for Q2/Q3]**
+| | Q2-26 | Q3-26 | Q4-26E |
+|---|---|---|---|
+| Conventional DRAM | ~+80% (V-snip) | ~+40% (V-snip) | **+10–15%** (V) |
+| NAND flash | n/a | n/a | **+15–20%** (V) |
+| Server DRAM | undersupplied | undersupplied | **undersupplied** (V) |
+| Enterprise SSD | | | the only category where price growth accelerates (V) |
+
+**D7. India enterprise infrastructure and server demand [V IDC]**
+- Enterprise infrastructure market: **Q1 2026 $1.67 bn vs Q1 2025 $1.28 bn (+30%)**, value-led (ASP inflation), units muted (IDC, 25-Aug-2026). Annualised ≈ **$6.7 bn ≈ ₹58,000–63,000 Cr** [E].
+- Regional: West + South = **>89% of server demand**, 77% of storage revenue (3Q25) (IDC, 19-Jan-2026).
+- Vendor claim [V-snip]: Lenovo #2 in India x86 servers, 24.7% share in Q4 CY25.
+
+**D8. Global OEM server-segment snapshot (latest quarter) [V / V-snip]**
+| | Quarter | Server/infra revenue | YoY | Segment op. margin |
+|---|---|---|---|---|
+| Dell ISG | Q2 FY27 (May–Jul 26) | $31.78 bn | +89% | ~15% (V-snip P1) |
+| Lenovo ISG | Q1 FY26/27 (Apr–Jun 26) | $8.5 bn | +98% | 9.1% (record) |
+| HPE Server | FQ3 26 (May–Jul 26) | $6.8 bn | +35.3% | Cloud & AI segment 17.0% (V-snip) |
+| Supermicro | FY26 (Jul-25–Jun-26) | $39.1 bn (full year) | +78% | 7.1% op. (V-P1) |
+| Netweb | Q1 FY27 (Apr–Jun 26) | $0.086 bn (₹820 Cr) | +172% | 14.7% EBITDA |
+
+- HPE's 10-Q (per secondary analysis) attributes most of its server growth to **higher ASPs from memory/SSD prices**, not units. So does IDC India. **A large slice of 2026 "growth" across the industry, including Netweb's, is component-price pass-through** [E].
+
+**D9. National Supercomputing Mission (PIB 4-Oct-2026) [V]**
+- 40 systems / 68 PF (Sep-26): 13 >1 PF, 12 at 0.5–1 PF, 15 <0.5 PF (secondary summary of the same PIB release).
+- Target 50 systems / >123 PF; outlay ~₹4,500 Cr (2015); >16,000 researchers.
+- **C-DAC's Rudra servers are made by Indian EMS partners under technology transfer** (~6,000 deployed per secondary summaries).
+- World #1 system ≈ 2.19 EF (2026) vs India's whole NSM fleet at 0.068 EF.
+
+## 4.4 Gap log (Part 1 §H items and other first-pass gaps)
+
+| # | Gap (§H / other) | Status | Detail / what was tried |
+|---|---|---|---|
+| H1 | QIP size, price, allottees | **Filled** | ₹1,200.00 Cr; 25,05,219 shares at ₹4,790; allottees above 5% named (S6). NSE filings 17/20/25-Aug-2026. The placement document itself (on netwebindia.com) was not downloaded; the use of proceeds is taken from the press release |
+| H2 | Promoter 71 → 66.98% mechanism | **Filled (except price)** | Open-market sale of 20,79,935 shares on 12-Feb-2026 plus ESOP dilution (S7). The sale price is not in the SAST data. NSE historical-price API was blocked, and search found no price → **still open: sale price/value** |
+| H3 | ₹1,734 Cr order identity vs "₹1,600 Cr strategic" | **Filled (reconciliation); customer name still open** | Two POs (₹1,734 + ₹450 Cr) = ₹2,184 Cr = executed + outstanding (S8). Awarder unnamed in both filings; a search for "Redington" found nothing → **still do not name Redington** |
+| H4 | Gross margin | **Filled** | FY26 20.85%, FY25 23.11% (company); quarters derived (S2) |
+| H5 | Government vs enterprise split | **Filled** | 42.8% / 57.2% (AR); CMD says "50/50" |
+| H6 | R&D spend | **Filled (with conflict)** | ₹13.14 Cr incl. capex (AR) vs CRISIL "2–3% of revenue" |
+| H7 | PLI accrued; PLI 2.0 status | **Filled** | PLI 2.0 servers (24-Nov-2023); nil FY26, ₹5.94 Cr FY25 |
+| H8 | India server market size and vendor shares | **Partly filled** | IDC India enterprise infrastructure $1.67 bn/qtr (Q1-26); HS 847150 imports $4.96 bn (FY26). **Vendor shares still unsourced** (IDC tracker is paid; only Lenovo's own claim of 24.7%) |
+| H9 | FY26 HS 8471 import value | **Filled** | $13.71 bn; laptops $6.73 bn; 847150 $4.96 bn; country splits (D1, D2) |
+| H10 | IndiaAI L1 rates per GPU | **Filled for round 2** | PIB 30-May-2025 table (S20). Round-3 and 2026 rate revisions are **still open** |
+| H11 | PPP-MII local-content threshold for servers | **Still open** | The MeitY Electronic Products PPP-MII Order is dated 7-Sep-2020 (component-by-component LC for listed items such as HDDs, memory modules and SMPS), and the general Class-I ≥50% / Class-II 20–50% bands apply [V-snip Nishith Desai summary]. **A server-specific notified threshold was not found**; the MeitY order PDF was not reached. The size of the "ring-fenced pool" remains unsourced |
+| H12 | NSM 2.0 outlay | **Still open** | The PIB NSM backgrounder (4-Oct-2026) gives no NSM 2.0 outlay. The only source for "pre-exascale/exascale by CY28" is Netweb's own deck |
+| H13 | Global peers' m-cap/P/E; Lenovo ISG; HPE servers | **Filled** | stockanalysis.com 23-Oct; Lenovo PR; HPE FQ3 (S14) |
+| H14 | Hyperscaler India commitments | **Filled (V-snip/PIB)** | Microsoft $17.5 bn, Amazon $35 bn (whole India, to 2030), Google $15 bn, AWS $8.3 bn Maharashtra (PIB) |
+| H15 | PLI incentive-rate conflict (5% vs 3%) | **Partly** | A Lok Sabha answer (Dec-2024) is quoted as "average incentive of around 5% on net incremental sales" [V-snip]; ICEA claims "up to ~13%" incl. component add-ons [V-snip]. **Use "~5% average"** |
+| H16 | India PC 2025 vendor shares (HP 29.1%?) | **Still open** | Not re-attempted; IDC PC releases are not free |
+| H17 | DC capacity basis conflict | **Clarified** | PIB itself uses "cloud DC capacity ~1,280 MW" (Feb-26) and "installed ~1,575 MW" (Aug-26). CBRE ~2 GW (end-26E). Quote with dates and bases |
+| H18 | VVDN, Yotta financials | **Still open** | Not attempted; Tofler/RoC data is paywalled. CRISIL confirms Yotta as a Netweb customer |
+| new | Netweb CFO | **Corrected** | ₹171.5 Cr (S1); confirmed by the CFO on the Q4 call |
+| new | CRISIL rationale content | **Filled** | A+/Stable; ₹2,420 Cr lines (S24) |
+| new | Q2 FY27 results | **Not out** (as of 23-Oct-2026) | Board 24-Oct; call 26-Oct, 3:30 pm |
+| new | Supermicro 8-K re-fetch | **Blocked** | SEC returned 403 to an anonymous UA; Part 1 figures stand as [V-P1] |
+| new | CBRE H1-2026 re-fetch | **Blocked** | IBEF returned 503; Part 1 figures stand as [V-P1] |
+| new | Why PLI income was nil in FY26 | **Open** | Not explained in the AR; ask management on the 26-Oct call |
+| new | Feb-2026 promoter sale value | **Open** | ~3.65% × Feb-2026 price. Do not estimate in print |
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### 4.5.1 Insights an expert would add
+
+1. **Netweb's margin story is operating leverage, not pricing power.** Gross margin fell from 25.6% (Q1 FY26) to ~20–21% once the B200 strategic orders shipped, and from 23.1% (FY25) to 20.9% (FY26). Yet EBITDA stayed at 13–15%, because employee + other costs fell from ~10.7% to ~6.5% of revenue while revenue nearly tripled [V Q1 results/AR; E]. Management's "pricing power" and "inventory bought early" explanations are secondary. **Implication:** if quarterly revenue plateaus at ~₹800 Cr while the team keeps growing (441 → 569 employees in FY26), EBITDA margin will drift toward the ~11% CRISIL downgrade trigger. Watch Q2–Q3 FY27.
+2. **Screener's FY26 cash flow is wrong, and the "301% cash conversion" story is false.** The true CFO is ₹171.5 Cr (60% of EBITDA). It was positive only because one customer prepaid ~₹410 Cr and suppliers extended ~₹460 Cr of extra credit, while inventories rose ~₹580 Cr and receivables ~₹310 Cr [V AR]. **In this business, cash comes from customer advances, not from margins.** When the advance-funded strategic order finishes (Q2 FY27), working capital will jump. That is why the ₹1,200 Cr QIP and the ₹2,420 Cr bank lines were put in place in May–Aug 2026.
+3. **The "strategic order" was one customer-channel: ₹2,184 Cr through a single Indian distributor in two POs.** That explains why three customers exceeded 10% of revenue and why top-5 concentration hit 81% in Q1 FY27. It is also probably the ">5,000-GPU foundational-LLM" project in the AR milestones [E]. **The FY27 question is whether Netweb can replace ~₹1,600 Cr of one-off sovereign revenue with organic orders.** The Q4 guide of "35–40% organic growth ex-strategic" implies the base business goes from ~₹1,625 Cr (FY26 ex-strategic, 2,184 − 559) to ~₹2,200–2,300 Cr in FY27 [E].
+4. **India's server imports are not a China story; laptops are.** HS 847150 (servers/processing units) was $4.96 bn in FY26 (+38%), and China supplied only 6.6%: Singapore, the US, Malaysia, Taiwan and Mexico dominate. Laptops ($6.73 bn) are still ~72% Chinese [V TradeStat]. **Two consequences.** (a) The IMS and "trusted source" policy hits laptops, not servers. (b) **Netweb's competition in servers is US/ODM-built product (Dell, HPE, Supermicro, Lenovo via SE Asia/Mexico), not Chinese brands.** Imported processing units worth ~₹43,000 Cr are the realistic addressable pool for a domestic designer-OEM [E].
+5. **The state has its own server line, and it is built by EMS firms.** C-DAC's Rudra servers (NSM) are "indigenously designed… with technology transferred to Indian EMS partners for manufacturing" [V PIB 4-Oct-2026]. With PPP-MII Class-I rules, **a C-DAC design + EMS assembler (Kaynes/Syrma/VVDN-type) can meet local-content norms without Netweb**. This is a quieter competitive threat in HPC than Dell or HPE localising.
+6. **Funding is no longer the constraint.** CRISIL-rated bank lines rose from ₹260 Cr to ₹2,420 Cr in two weeks (May–Jun 2026), utilisation averaged 24%, and the ₹1,200 Cr QIP followed. Netweb can now finance ~₹13,000 Cr of revenue at a 96-day CCC [E]. **The binding constraints are GPU allocation (NVIDIA), memory supply, and sovereign order timing.** The writer should drop Part 1's framing of "working capital is the binding constraint".
+7. **IndiaAI's subsidy channel is thinly used.** 93.18 lakh GPU-hours over ~18 months against a 34–45k GPU pool is low single-digit utilisation, at L1 rates of ₹153/hr (H100) to ₹323/hr (B200) [V PIB; E]. Neocloud hardware buyers (Yotta, E2E, Sify, Cyfuture…) must fill capacity with private demand. E2E's Q2 FY27 (₹224 Cr revenue, 77% OPM) shows some can. **For Netweb, neocloud orders are higher-risk receivables than government HPC.** Watch the credit quality of CSP customers.
+8. **Global peers price AI servers as a cyclical, low-margin business.** Supermicro trades at 7× forward and Dell at 16×, even as the TrendForce server market heads past $1 trn in 2027. Netweb's ~99× TTM rests on Indian sovereign scarcity, not on a structurally better business model. Its gross margin (20.9%) is above Supermicro's (10.8%) but below Dell ISG/HPE-type 25–30% enterprise mixes [E].
+
+### 4.5.2 New primer issues (append to primer-issues.md)
+
+#### From Computer Hardware deep-research pass (2026-10-23, computer-hardware-industry.md Part 4)
+
+**netweb-technologies.html**
+- **Cash flow:** any FY26 "strong cash generation" claim must use **CFO ₹171.5 Cr** (AR; CFO on the Q4 call), not screener's ₹790 Cr (an AR sign misprint propagated by screener). CFO/EBITDA ≈ 60%. Mention customer advances of ₹412.8 Cr at Mar-26.
+- **Gross margin:** add the company-reported **20.85% (FY26) vs 23.11% (FY25)**. Explain that EBITDA held because of operating leverage (opex 10.7% → 6.5% of revenue).
+- **Government share:** add "**Government 42.8% / non-government 57.2% of FY26 customers** (AR)". Replace any unsourced "government-favoured" sizing.
+- **PLI:** the "PLI wording" fix in Part 3 §3.4 is **superseded**. Netweb **is** a PLI IT Hardware 2.0 beneficiary for servers (migrated via approval of 24-Nov-2023), but **booked nil PLI income in FY26** (₹5.94 Cr in FY25). Say both.
+- **R&D:** "₹13.14 Cr incl. capex (0.6% of revenue), 110 R&D staff (AR)". Avoid "2–3% of revenue" unless attributed to CRISIL.
+- **Supercomputers:** the Part 3 fix "300+ → 60+" is **wrong; reverse it**. The AR says **600+ supercomputing systems installed**, 10,000+ GPU AI systems and 60+ private-cloud/HCI installations. CRISIL says "300+ made-in-India HPC units". Use the AR figure with attribution.
+- **Guidance:** the Part 3 fix is **partly wrong**. 35–40% *was* guided on 4-May-2026, but **for organic business excluding the strategic order**. Add that qualifier. On 29-Jul management said it is "not guiding" revenue.
+- **Order book:** explain the **₹2,184 Cr strategic basket = ₹1,734 Cr (3-Sep-25) + ₹450 Cr (19-Sep-25)** from one distributor; ~₹1,195 Cr was due in Q2 FY27 [E]. Do not name the distributor.
+- **Ownership:** promoter 64.16% (Sep-26) after two events: (a) a **3.65% open-market sale on 12-Feb-2026** ("for liquidity"; no further sale for 12 months, per the Q4 call); (b) **4.4% dilution from the ₹1,200 Cr QIP at ₹4,790 (20-Aug-2026)**. QIP allottees include ICICI Pru MF, Nomura, Goldman Sachs and Think.
+- **Credit:** add **CRISIL A+/Stable / A1 (upgraded 25-May-2026), ₹2,420 Cr bank lines**. CRISIL flags top-3 suppliers at 65–70% of procurement (Taiwan imports) and top-5 customers at 65–70% of revenue.
+- **Concentration:** add "three customers each ≥10% of FY26 revenue (AR note 40)".
+- **Capacity:** "utilisation 65–70%" (CMD, 4-May-2026); three Faridabad facilities plus a dense-GPU line (>150 kW/rack).
+- **Valuation context:** global AI-server OEMs trade at 7–16× forward (Supermicro, Dell, HPE; 23-Oct-2026). Netweb ~99× TTM. QIP buyers are ~9.5% under water at ₹4,336.
+- **Competition:** add C-DAC Rudra servers built by Indian EMS partners under technology transfer (PIB 4-Oct-2026) as a PPP-MII-eligible rival in HPC.
+
+**dixon-technologies.html**
+- The PLI 2.0 IT-hardware list also includes Kaynes and Syrma (AngelOne, 16-May-2026). Dixon's IT-hardware ramp should be read against **laptop imports of $6.73 bn in FY26 (72% from China; TradeStat)**: that is the import pool PLI is meant to replace.
+
+**kaynes-technology.html / syrma-sgs-technology.html**
+- Both are reported among the 27 PLI IT Hardware 2.0 approvals [V-snip]. Kaynes/Syrma-type EMS firms are the kind of manufacturing partner C-DAC uses for Rudra servers (PIB says "Indian EMS partners", unnamed). **Do not claim either is a Rudra partner without a source.**
+
+**redington.html**
+- Unchanged: do **not** link Redington to Netweb's ₹1,734 Cr / ₹450 Cr orders. Both filings describe the awarder only generically, and no source names it.
+
+**General / sector primers**
+- Replace "laptop imports ~96% from China" (if used anywhere) with **TradeStat: China 71.8% of HS 847130 in FY26 (peak 79.9% in FY25)**.
+- AI Diffusion rule: say "**rescission announced May-2025; not yet formally removed from the CFR; replacement pending**", not "rescinded".
+- IndiaAI: add the **round-2 L1 rates (B200 ₹323/hr, H100 ₹153/hr; PIB 30-May-2025)** and the **₹65/hr subsidised user price**.
+
+### 4.5.3 Source URLs (this pass)
+- Netweb FY26 Annual Report: https://www.bseindia.com/xml-data/corpfiling/AttachHis/87148e7d-f96d-40e5-9d8a-06d0ec00daa3.pdf
+- Q4 FY26 call transcript (4-May-2026): https://www.bseindia.com/xml-data/corpfiling/AttachHis/01b266d6-defa-46f0-acbc-b53b9debed80.pdf
+- Q1 FY27 results (scanned): https://nsearchives.nseindia.com/corporate/NETWEB1234_28072026151552_Results.pdf
+- Q1 FY27 presentation: https://nsearchives.nseindia.com/corporate/NETWEB1234_28072026180056_Earning_Presentation_28072026.pdf
+- Q1 FY27 transcript: https://nsearchives.nseindia.com/corporate/NETWEB1234_01082026124230_Transcript_Q1_2027.pdf
+- QIP filings:
+  - https://nsearchives.nseindia.com/corporate/NETWEB1234_17082026193948_Outcome_Fund_Raising.pdf
+  - https://nsearchives.nseindia.com/corporate/NETWEB1234_20082026230157_Issue_Closure_Intimation__3_.pdf
+  - https://nsearchives.nseindia.com/corporate/NETWEB1234_20082026235154_Allotment_Intimation__1_.pdf
+  - https://nsearchives.nseindia.com/corporate/NETWEB1234_25082026090156_Intimation_Press_release_QIP.pdf
+- Order filings:
+  - https://nsearchives.nseindia.com/corporate/NETWEB1234_03092025103838_Intimation_of_Order.pdf (₹1,734 Cr)
+  - https://nsearchives.nseindia.com/corporate/NETWEB1234_03092025105026_Intimation_Press.pdf
+  - https://nsearchives.nseindia.com/corporate/NETWEB1234_19092025183027_Intimation_of_Order_New.pdf (₹450 Cr)
+- CRISIL:
+  - https://nsearchives.nseindia.com/corporate/NETWEB1234_26052026132424_Intimation_of_Credit_Rating_2026.pdf
+  - https://nsearchives.nseindia.com/corporate/NETWEB1234_10062026181259_Intimation_Updated_Credit_Rating_2026.pdf
+- NSE APIs (SAST Reg 29, shareholding, announcements): https://www.nseindia.com/api/corporate-sast-reg29?index=equities&symbol=NETWEB · https://www.nseindia.com/api/corporate-share-holdings-master?index=equities&symbol=NETWEB · https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=NETWEB
+- Screener (refreshed): https://www.screener.in/company/NETWEB/ and /DIXON/ /KAYNES/ /SYRMA/ /REDINGTON/ /RPTECH/ /E2E/ (consolidated pages; E2E standalone)
+- PIB:
+  - Factsheet 13-Aug-2026: https://www.pib.gov.in/FactsheetDetails.aspx?Id=150860
+  - Backgrounder 10-Feb-2026: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf
+  - Release 30-May-2025 (L1 rates): https://negd.gov.in/wp-content/uploads/2025/06/PIB2132817.pdf
+  - NSM backgrounder 4-Oct-2026: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318908
+- TradeStat EIDB (commodity-wise and commodity × country imports; HS 8471/847130/847150): https://tradestat.commerce.gov.in/eidb/commodity_wise_import · https://tradestat.commerce.gov.in/eidb/commodityx_countries_wise_import
+- IDC India:
+  - https://www.idc.com/resource-center/press-releases/india-enterprise-infrastructure-market-growth/ (25-Aug-2026)
+  - https://www.idc.com/resource-center/press-releases/inda-server-demand-concentrated-in-west-and-south/ (19-Jan-2026)
+- TrendForce: https://www.trendforce.com/presscenter/news/20261014-13269.html · /20261022-13279.html · /20260930-13258.html
+- Export controls: https://www.millerchevalier.com/publication/bis-export-controls-2025-year-review-and-2026-mid-year-update
+- Lenovo Q1 FY26/27: https://www.zawya.com/en/press-release/companies-news/lenovo-delivers-strongest-quarter-in-group-history-hybrid-ai-strategy-powers-growth-momentum-437812
+- HPE FQ3 2026: https://pulse2.com/hpe-q3-fiscal-2026-revenue-hits-record-12-2-billion-as-outlook-is-raised/
+- Dell Q2 FY27: https://futurumgroup.com/insights/dell-technologies-q2-fy-2027-ai-orders-fuel-server-and-storage-growth/
+- Global quotes: https://stockanalysis.com/stocks/dell/ · /smci/ · /hpe/ · https://stockanalysis.com/quote/hkg/0992/
+- PLI status (secondary): https://www.angelone.in/news/economy/meity-likely-to-assess-it-hardware-pli-scheme-after-rise-in-payouts · https://www.communicationstoday.co.in/pli-scheme-for-it-hardware-disappoints-hugely-incremental-investment-dismal/
+- Promoter sale (secondary cross-check): https://scanx.trade/stock-market-news/orders-deals/netweb-technologies-promoters-sell-20-79-lakh-shares-worth-3-65-stake/32523470
+
+*End of Part 4.*
