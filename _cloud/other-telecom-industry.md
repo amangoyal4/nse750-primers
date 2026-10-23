@@ -1218,3 +1218,648 @@ Notes:
   - CRSC (V-snip): https://www.itiger.com/news/1163675267
   - Network Rail Project Reach (V-snip): https://www.ispreview.co.uk/index.php/2025/06/project-reach-launched-to-fix-mobile-signal-notspots-on-uk-rail-network.html · https://www.find-tender.service.gov.uk/Notice/029322-2025
 - **Macro:** ICRA research headlines page (fetched 23-Oct-2026): WPI 11.4% Sep-2026; GDP moderation Q2 FY27.
+
+---
+---
+
+# PART 4 — Deep-research supplement (2026-10-23)
+
+Second, primary-source pass, run on 23-Oct-2026 (UTC). Q1 FY27 is still the latest reported quarter: the Q2 FY27 board meeting is on 25-Oct-2026 and its results are not out.
+
+**What this pass did**
+- **Re-read in full (scanned images, page by page):**
+  - The Q1 FY27 call transcript (31-Jul-2026, 10 pp).
+  - The Q4 FY26 call transcript (1-May-2026, 12 pp).
+- **Mined the RailTel annual reports already downloaded this session:**
+  - FY26 AR, notes 12, 31, 32, 48, 50, 51, 54, 55, 56.12, the 10-year table and MD&A §10–11.
+  - FY24 AR (REL amalgamation, dividend table).
+  - FY22 AR (standalone vs consolidated segment note, IPO note, revenue share, RoW wording).
+- **Fetched new primary documents:**
+  - Union Budget 2026-27 *Expenditure Profile*: Railway Budget at a Glance, Statements II and IV.
+  - Union Budget *Notes on Demands for Grants 2026-27*, Demand No. 13 (DoT).
+  - ICRA rating rationales for RailTel (17-Feb-2026 and 18-Feb-2025).
+  - ICRA data-centre research note (25-Sep-2025).
+  - RailTel's BSE Navratna filing (30-Aug-2024).
+  - NBM&CW page on RailTel's WCR Kavach award.
+  - IANS copy of the 5-Aug-2026 Lok Sabha reply on railway capex and Kavach.
+  - A copy of TRAI's Jan–Mar 2026 Performance Indicator press release.
+- **Searched** for the remaining gaps: Kavach orders and unit costs, OEMs, MPS, DIPAM, POWERTEL/GAILTEL, Airtel Business, RailWire, tower policy, RBI.
+- **Approximate call count:**
+  - About 50 web calls (searches and fetches).
+  - About 30 local document reads (transcript page images, AR text slices).
+  - 10 curl downloads of government, ICRA and BSE PDFs.
+- **Scratch notes:** `/tmp/other-telecom-deep/notes.md`.
+
+**No investor presentation exists for Q1 FY27 or Q4 FY26.**
+- RailTel files only the results PDF and a call transcript. Its calls have no slide deck.
+- Searches of BSE-derived aggregators and railtelindia.com found no presentation (the company site returned 503).
+- The "concall KPI table" below is therefore built from the results filing and the transcript.
+
+**Tags in Part 4**
+- **[V]** = read this session from the named primary document (or from a near-primary copy of it, such as an IANS copy of a Lok Sabha reply).
+- **[V-snip]** = search summary or secondary article only.
+- **[E]** = arithmetic or estimate.
+- Local primary files (ARs, results PDF, transcripts) were downloaded earlier this session by the first pass and re-read here. They count as [V].
+
+---
+
+## 4.0 Supersedes: corrections to Parts 1–3 (the writer should apply these)
+
+| # | Where in Parts 1–3 | Old value / claim | New value / claim | Source (tag) |
+|---|---|---|---|---|
+| S1 | Trap 6, §2.2 "FY27 guidance", §H-19, §2.3, JSON `fy27_growth_guide_pct: 20` | "Use ~20% as formal guidance; the 25% was an analyst restatement the CMD did not contradict" | **The CMD affirmed 25% on the Q1 call.** Analyst (ICICI Securities, p.5): "So we maintain the outlook… that we will grow at 25% of revenue." CMD (p.6): "**Yes. Yes.**" He then explained quarterly volatility and ECL. The latest guidance (31-Jul-2026) is **~25%**; on 1-May-2026 it was "around 20%". Present it as "**20–25%; most recently 25%**". FY27E revenue at 25% ≈ ₹5,350 Cr | [V Q1 FY27 transcript pp.5–6; Q4 FY26 transcript p.10] |
+| S2 | Trap 6, §H-1, §2.3 | AR's "order book exceeding ₹10,400 Cr as on date" conflicts with ₹11,747 Cr | **Not a conflict but a stale statement.** The chairman's speech figure sits just below the CMD's verbal ~₹10,600–10,700 Cr for 31-Mar-2026. It predates the ₹700 Cr+ of April orders, so it was drafted around year-end. Drop it from the order-book series; keep ₹11,747 Cr (31-Jul-2026) as the latest | [V AR26 p.12; Q4 transcript p.3; E] |
+| S3 | Trap 6, §E-7, JSON `order_book` | Series: mid-2024 ~₹4,750 → Dec-25 ₹8,563 → Apr-26 ₹11,466 → Jul-26 ₹11,747 | **Add:** **~₹5,280 Cr (Jan-2025, ICRA)**; **₹6,616 Cr (~5-May-2025; some reports say 31-Mar-2025)**; **~₹8,600 Cr (Jan-2026, ICRA)** | [V ICRA 18-Feb-2025 and 17-Feb-2026 rationales; V-snip Angel One/DSIJ for ₹6,616 Cr] |
+| S4 | §0, §5.3, §H-3, (b) KPIs | "RailTel holds 2–3 Kavach orders (ECR, WCR; '>2,000 RKM'); values not in fetched sources" | **Three trackside Kavach orders totalling ₹1,007.2 Cr incl. GST over 2,176 RKM:**<br>• ECR-1: **₹288.15 Cr / 502.2 RKM**, low-density, Feb-2025, due 20-Feb-2027.<br>• ECR-2: **₹264.07 Cr / 607 RKM**, low-density, Jul-2025, due 14-Jul-2027.<br>• WCR Jabalpur: **₹454.95 Cr / 1,067 RKM**, high-density, LoA ~10-Feb-2026, 960 days; scope includes **OFC laying, tower erection, station/LC/IBS equipment, civil/electrical works under EPC**.<br>≈ **₹46 lakh/RKM incl. GST (~₹39 lakh ex-GST)**; ≈ 8.6% of the ₹11,747 Cr book | [V NBM&CW 11-Feb-2026 (WCR); V-snip Business Standard/Angel One (ECR-1), Indian Infrastructure 17-Jul-2025 (ECR-2); E arithmetic] |
+| S5 | §2.1, §H-6, Trap list | "S&T head ~₹7,500 Cr FY27 [V-snip, single secondary source]" | **[V] Union Budget, Railway Budget at a Glance, Statement II, item 24 "Signalling and Telecommunication Works":**<br>• FY25 actual **₹5,567.60 Cr**.<br>• FY26 BE ₹6,800 Cr; FY26 RE **₹6,500 Cr**.<br>• **FY27 BE ₹7,500 Cr** (+15.4% vs FY26 RE; +34.7% vs FY25 actual).<br>• S&T = **2.6%** of the ₹2,93,030 Cr capex. Kavach's ₹2,066 Cr ≈ 28% of S&T | [V indiabudget.gov.in/doc/eb/railstat2.pdf] |
+| S6 | §H-12, §9 payout row | "DPS FY21–FY25 not found; FY25 ≈₹2.90 [E]" | **DPS: FY21 ₹2.20 · FY22 ₹2.40 · FY23 ₹2.55 · FY24 ₹2.85 · FY25 ₹2.85 · FY26 ₹3.25.**<br>Dividend ₹ Cr: 70.61 · 77.02 · 81.83 · 91.47 · 91.47 · 104.30 | [V AR26 10-year table, line 9; AR22/AR24 dividend notes] |
+| S7 | Trap 9, §7 CPSE governance, §9, §F, primer issue on dividend | "₹3.25 = 30.1% payout exactly at the DIPAM floor… Payout fell from 50% (FY21) to 30% (FY26)" | **Correct, but the reason is the floor that bound.**<br>• Under DIPAM's 2016 guidelines (higher of 30% PAT or **5% of net worth**), RailTel paid **5.0% of NW every year FY18–FY24** (5.00/5.00/5.00/5.03/5.08/5.01/4.96%). The NW leg was binding, hence 37–58% payouts.<br>• The **18-Nov-2024 revision (4% NW)** let the PAT leg bind: FY25 4.57% NW / 30.5% PAT; FY26 4.61% / 30.1%.<br>• The payout "decline" is a **rule change plus PAT growth**, not a policy choice | [V AR26 10-yr table rows 28–29; V-snip DIPAM OM summaries (PTI/BS/Foxmandal)] |
+| S8 | §2.2 note, §H-18 | "FY21/FY22 segment totals exceed revenue… older ARs appear to include some other operating income" | **They are CONSOLIDATED figures.** The FY22 standalone AR (Note 25) gives no segment data ("disclosed in the consolidated financial statements"). The consolidated segment table includes subsidiary **RailTel Enterprises Ltd (REL)**: consolidated revenue ₹1,548.45 Cr (FY22) and ₹1,377.82 Cr (FY21) equal the segment totals. REL was **amalgamated into RailTel (appointed date 1-Oct-2022; effective 29-Aug-2023)**, which is also why screener's consolidated page stops at Sep-2023. FY23 onward is standalone and reconciles. **Telecom/project shares for FY21–22 are on a consolidated basis; say so in the chart footnote** | [V AR22 Note 25 & consolidated Note 26; V AR24 Board's report §16] |
+| S9 | Trap 10, §E-14, 3.4 levies | "DoT licence fee FY25 ₹88.56 Cr" | **₹99.52 Cr per AR26 P&L Note 32** (FY26 ₹91.60 Cr). The Board's report figure (₹88.56 Cr) differs, probably a cash-paid vs accrued basis. Use the P&L note. **FY26 LF fell 8% YoY** while telecom revenue rose 10%, consistent with the reclassification of DC/ICT revenue (not all of it licensed AGR) | [V AR26 Note 32; E] |
+| S10 | §5.1 table, §H-8 | "GAILTEL ~13,000 km OFC [K — verify]" | **~11,000 km of OFC along GAIL pipelines, 100+ towns/cities.** The business is mainly dark-fibre IRU/lease and co-location. The 13,000 km figure is a 2007-era claim | [V-snip gailonline.com/gailtel.html] |
+| S11 | §5.1 table, §H-8 | "POWERTEL… FY14 telecom income ₹288 Cr; 60,946 km / ~1,00,000 km" | **POWERGRID's telecom business moved to subsidiary Powergrid Teleservices Ltd (POWERTEL) w.e.f. 1-Oct-2023.** Network **>1,00,000 km, >3,000 locations**. The last broken-out telecom revenue found is **₹698.21 Cr in FY20 (+5.3%)**. That is ~half of RailTel's FY26 telecom revenue, on ~1.6× the route-km | [V-snip powergrid.in directors' report/company overview; FY20 V-snip] |
+| S12 | §7 Disinvestment/MPS, §H-17 | "SEBI MPS would require GoI to sell 2.16 pp by Feb-2026 [K]" | **The legal regime is a DEA exemption under SCRR Rule 19A(6).** Listed CPSEs, PSBs and FIs were exempted from the 25% MPS until **1-Aug-2026** (extension granted Aug-2024; the 2021 amendment allows government to exempt any listed PSE). No further extension was found in Oct-2026 searches. RailTel's register is still 72.84% (Sep-2026), so either a fresh exemption was issued or a compliance gap exists. **Treat it as an open overhang, not a dated sell-down** | [V-snip Business Standard 1-Aug-2024; Drishti/IOCL] |
+| S13 | Trap 9, §8, §G | "Navratna Aug-2024" | **DPE letter PD-1-26/0002/2024-DPE dated 30-Aug-2024**; RailTel was the **22nd Navratna** (NHPC, SJVN and SECI were upgraded the same day) | [V BSE filing RailTel/Sectt/21/SE/S-16/V-3, 30-Aug-2024; V-snip DPE ranking] |
+| S14 | §8, §G | "IPO Feb-2021… ₹94, pure OFS of ~8.7 crore shares, ~₹819 Cr [K]" | **[V]: GoI offered 8,71,53,369 shares at ₹94 (₹10 face value + ₹84 premium); listed 26-Feb-2021; proceeds went to GoI (no fresh issue).** ₹94 × 8.715 Cr shares = **₹819.2 Cr** | [V AR22 accounting-policy note A.3; AR26 Note 18.7] |
+| S15 | §2.1 "Internet subscribers (Dec-2025) 1,306.14 mn… [V-AR]" | 1,306.14 mn internet subs | **The AR's MD&A appears to misquote total telephone subscribers as internet subscribers.** TRAI: internet subs **1,028.61 mn (Dec-2025) → 1,092.79 mn (Mar-2026; wired 46.54 mn, wireless 1,046.26 mn)**; broadband 1,065.88 mn; telephone subs 1,330.58 mn; teledensity 93.26%. Use TRAI | [V-snip TRAI PR 76/2026 via civilsdaily/tele.net] |
+| S16 | §0 "cash is the hidden problem", §A-5 "cash is flat (~₹777 Cr)" | Cash flat ~₹777 Cr vs ~₹832 Cr | **Cash has fallen and swings hard within the year.** ICRA: cash & liquid investments incl. FDs **~₹1,006 Cr (31-Mar-2024)** → our estimate ~₹832 Cr (31-Mar-2025) → **~₹319 Cr (30-Sep-2025, ICRA)** → ~₹777 Cr (31-Mar-2026). The Mar-26 figure is flattered by year-end collections (see S17) | [V ICRA 18-Feb-2025 & 17-Feb-2026; E] |
+| S17 | §H-13, Trap/BS "collection account ₹299.5 Cr may be pass-through" | Possibly pass-through, not free cash | **It is unrestricted cash**: earmarked balances (CSR escrow ₹1.15 Cr, dividend escrow ₹0.77 Cr) are shown separately in Note 13. The collection account is bank collection accounts holding customer receipts at the balance-sheet date. Its size tracks year-end collection drives: **₹97 Cr (FY21) · ₹76 Cr (FY22) · ₹40 Cr (FY23) · ₹139 Cr (FY24) · ₹179 Cr (FY25) · ₹300 Cr (FY26)**. Not pass-through, but seasonal | [V AR22/AR24/AR26 Note 12–13] |
+| S18 | §4.1, §5.4, §12, JSON | "Noida 10 MW, phase-1 5 MW by ~May-2027" | **Management has given two versions.** Q4 call (1-May-26): "5-megawatt capacity should be ready by May next year". Q1 call (31-Jul-26): "by May 2027, **10-megawatt facility** should be commissioned in Noida… maybe even a month early". Quote both; the latest says 10 MW. Also from Q1: +500 kW at Hyderabad and +500 kW at Noida, both small | [V Q4 p.12; Q1 p.9] |
+| S19 | §7 "Railway RoW access… exclusive ROW" and the primer-issue framing | Exclusivity implied for all railway-land telecom | **Fibre RoW along track is still described as exclusive** (AR26 Corporate Information; ICRA 2026: "exclusive RoW to lay fibre… along the railway tracks"; AR22: "exclusive seamless RoW along 67,956 km of track through 7,325 stations").<br>**Tower exclusivity ended in late 2022.** Indian Railways' revised land-licence-fee policy lets all 68 divisions license private telcos/IPs to put towers on railway land at **1.5% of land market value p.a.** (replacing a 7% revenue share; a 2016 order had reserved this for RailTel) | [V AR26/AR22; V ICRA; V-snip Outlook Business, Swarajya, Indian Infrastructure] |
+| S20 | §1.3 / Trap 4 "nomination… exists, but…" | Reliance on nomination tempered | **ICRA corroborates:** "Despite the Indian Railways' **policy shift towards open tenders involving private parties**, its order procurement remains healthy." ICRA also says parentage "enables the company to execute all connectivity-related projects of the Indian Railways". Both effects exist; railway *connectivity* work is still captive, railway *project* work is increasingly tendered | [V ICRA 17-Feb-2026] |
+| S21 | §2.1 BharatNet row, §3-5 | FY27 BharatNet BE ₹20,000 Cr | **Add the execution reality: FY26 BE ₹22,000 Cr was cut to RE ₹5,500 Cr (−75%); FY25 actual ₹3,995 Cr.** DoT total FY26 BE ₹81,005 Cr → RE ₹53,398 Cr. BSNL capital infusion FY26 RE ₹6,885 Cr vs BE ₹33,758 Cr. BharatNet money is budgeted, not spent | [V Notes on Demands for Grants 2026-27, Demand No. 13] |
+| S22 | §2.1 DC row "~1.8 GW… ICRA 2.4–2.5 GW by FY28" | Mixed bases | **ICRA [V]: third-party operational DC capacity 1,250 MW in FY2025 → 2,400–2,500 MW by FY2028; ~₹90,000 Cr capex FY26–28; pipeline 3.0–3.5 GW (₹2.3–2.5 lakh Cr) over 7–10 yrs; Mumbai ~50%.** The broker figures (1.8 GW H1-2026) count total/IT capacity on a different basis. RailTel's ~3 MW = **0.24% of ICRA's FY25 base** | [V ICRA research 25-Sep-2025] |
+| S23 | Trap 6 / §9 order book | "FY24 orders ~₹2,870 Cr; FY25 inflow not found" | FY25 inflow **~₹3,146 Cr** is reported by a single secondary source. It **does not reconcile** with the book rising from ~₹4,750 Cr (mid-2024) to ₹6,616 Cr (May-2025) while ~₹2,100 Cr of project revenue was executed. **Treat as unreliable**; leave FY25 inflow as "not disclosed in primary sources" | [V-snip; E reconciliation] |
+| S24 | §4.1 / §11-3 Kavach OFC "11,547 km" | — | **Kavach OFC series:** Nov-2024 5,133 km → Feb-2025 5,743 → Feb-2026 8,570 → Mar-2026 8,921 (AR) → Jul-2026 11,547 km. Spec: underground **2×48-fibre** cable beside the track for "Kavach, LTE etc." (ITI EoI). ~96 fibres per route, of which Kavach uses a handful | [V-snip Indian Infrastructure series; ITI EoI] |
+
+## 4.1 Verification table: the 40 figures the writer will lean on
+
+"Agrees?" compares with Parts 1–3. "Primary [V]" = read this session in the primary document itself. URLs for local files are in §3.5 (Part 3); new URLs are in §4.6.
+
+| # | Figure | Value | Primary source | Fetched / read? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | FY26 revenue from operations | ₹4,277.48 Cr (+23.0%) | AR26 P&L / Table 1 | **[V]** primary | Yes |
+| 2 | FY26 PAT / EPS | ₹346.32 Cr / ₹10.79 (weighted shares 32,09,38,407) | AR26 P&L; Note 49 | **[V]** | Yes |
+| 3 | FY26 Telecom segment revenue / result | ₹1,500.69 / ₹400.25 Cr (26.7%) | AR26 segment note (Note 52) | **[V]** | Yes |
+| 4 | FY26 Project segment revenue / result | ₹2,776.79 / ₹109.47 Cr (3.9%) | AR26 Note 52 | **[V]** | Yes |
+| 5 | Order book latest | **₹11,747 Cr** "as on date", 31-Jul-2026 | Q1 FY27 transcript p.2 (CMD) | **[V]** re-read | Yes |
+| 6 | Order book earlier | ₹11,466 Cr (30-Apr-26); ₹8,563 Cr (31-Dec-25); ~₹10,600–10,700 Cr (31-Mar-26, verbal) | Q4 FY26 transcript pp.3 | **[V]** | Yes |
+| 7 | Order book, second source | ~₹8,600 Cr (Jan-2026); ~₹5,280 Cr (Jan-2025) | ICRA rationales 17-Feb-2026, 18-Feb-2025 | **[V]** | Consistent; new points (S3) |
+| 8 | FY26 order inflow | ₹7,363 Cr | AR26 chairman's speech p.12 | **[V]** | Yes |
+| 9 | Railway share of order book | ~21% (Q4 call); "23%, 23.5% exactly" (Q1 call) | Transcripts p.4 / p.3 | **[V]** | Yes |
+| 10 | Q1 FY27 revenue / segments | ₹893.27 Cr (+20.1%); telecom ₹360.81; project ₹532.46 | Q1 FY27 results PDF; transcript p.2 | **[V]** | Yes |
+| 11 | Q1 FY27 PAT / ECL | ₹65.78 Cr (−0.5%); ECL ₹7.04 Cr vs ₹3.42 Cr write-back | Q1 results PDF | **[V]** | Yes |
+| 12 | Trade receivables and ageing | Net ₹2,052.95 Cr (gross ₹2,195.51); **>1 yr ₹626 Cr (28.5%)**; >3 yr ₹238 Cr | AR26 Note 56.12 | **[V]** | Yes + new ageing |
+| 13 | Unbilled revenue and ageing | ₹898.33 Cr; **1–2 yr bucket ₹216.38 Cr** (FY25 ₹52.55 Cr) | AR26 Note 56.12 | **[V]** | Yes + new |
+| 14 | Contingent liabilities | **₹446.86 Cr** (arbitration/court ₹406.44 Cr; GST ₹23.80; IT ₹13.68) | AR26 Note 51(b) | **[V]** | New |
+| 15 | Bank guarantees given | **₹1,481.66 Cr** (FY25 ₹723.95 Cr) | AR26 Note 51(b) | **[V]** | New |
+| 16 | DPS FY26 / FY25 | ₹3.25 / ₹2.85 | AR26 10-yr table; Q4 transcript p.2 | **[V]** | FY26 yes; FY25 supersedes ₹2.90 [E] |
+| 17 | Dividend / PAT and / NW | FY26 30.12% / 4.61%; FY24 37.18% / 4.96% | AR26 10-yr table | **[V]** | Adds history (S7) |
+| 18 | DIPAM dividend floor | Higher of 30% PAT / 4% NW (OM 18-Nov-2024); was 30% / 5% (2016) | DIPAM OM (via PTI/BS/Foxmandal summaries) | [V-snip] (3 sources agree) | Yes |
+| 19 | Navratna date | DPE letter 30-Aug-2024 | RailTel BSE filing 30-Aug-2024 | **[V]** | Yes (date sharpened) |
+| 20 | IPO | OFS of 8,71,53,369 shares at ₹94 (₹10 + ₹84); listed 26-Feb-2021 | AR22 accounting note A.3; AR26 Note 18 | **[V]** | Yes ([K] → [V]) |
+| 21 | GoI shareholding | 72.84% (23,37,85,038 shares) unchanged FY25–FY26 | AR26 Note 18.5–18.6 | **[V]** | Yes |
+| 22 | MPS exemption | CPSEs exempt from 25% MPS until 1-Aug-2026 (SCRR 19A(6)) | DEA notification via Business Standard | [V-snip] | Supersedes [K] (S12) |
+| 23 | DoT licence fee / IR revenue share | FY26 ₹91.60 Cr / ₹46.03 Cr (FY25 LF ₹99.52 per Note 32) | AR26 Notes 31–32 | **[V]** | FY25 LF differs (S9) |
+| 24 | RailWire subs / ARPU / revenue | 6.23 lakh (Jul-26); ARPU ~₹474; ~₹350 Cr FY26 | Q1 transcript p.4; AR26 chairman's speech | **[V]** | Yes |
+| 25 | RailWire partner payout | "Railwire expenses" ₹228.52 Cr FY26 (₹217.03 Cr FY25) ≈ 65% of RailWire revenue | AR26 Note 31 | **[V]** (+[E] ratio) | New |
+| 26 | Data-centre revenue and guide | ₹202.29 Cr FY26 (₹127.49); ~₹300 Cr FY27; ~₹500 Cr FY28 | AR26 Note 28; Q1 transcript p.8 | **[V]** | Yes |
+| 27 | DC capacity | "already have 3 MW"; 5 MW (Q4) / 10 MW (Q1) Noida by May-2027 | Q4 p.12; Q1 p.9 | **[V]** | Partly superseded (S18) |
+| 28 | FY27 project-revenue guidance | ₹3,000–3,500 Cr ("₹3,500 Cr maybe") | Q4 p.7; Q1 p.5 | **[V]** | Yes |
+| 29 | FY27 growth guidance | ~20% (1-May-26) → 25% affirmed (31-Jul-26) | Q4 p.10; Q1 pp.5–6 | **[V]** | **No — superseded (S1)** |
+| 30 | FY27 capex | ~₹300 Cr, "mostly data centre and partly telecom" (Q4) vs ₹241 Cr (AR chairman) | Q4 pp.8, 10; AR26 | **[V]** | Yes (conflict stands) |
+| 31 | Railways FY27 capex | **₹2,93,030 Cr** BE (incl. EBR-Partnership ₹12,000 Cr); FY26 BE = RE ₹2,65,200 Cr; FY25 actual ₹2,69,360.64 Cr | Railway Budget at a Glance, Statement IV | **[V]** | Yes ([V-AR] → [V]) |
+| 32 | S&T Works plan head | FY27 BE **₹7,500 Cr**; FY26 RE ₹6,500; FY25 actual ₹5,567.60 | Statement II item 24 | **[V]** | Yes ([V-snip] → [V]) |
+| 33 | DoT FY27 / BharatNet / BSNL capital | ₹73,990.94 Cr / ₹20,000 Cr / ₹28,473 Cr | Demand No. 13, Notes on DfG 2026-27 | **[V]** | Yes ([V-AR] → [V]); add FY26 RE (S21) |
+| 34 | Amended BharatNet | ₹1,39,579 Cr; 2.64 lakh GPs ring; 10-yr O&M; approved Aug-2023 | PIB BharatNet backgrounder 21-Apr-2025 | **[V]** (re-read) | Yes |
+| 35 | Kavach national status | 2,633 RKM commissioned (31-Jul-26); 21,794 RKM trackside; 6,290 locos; FY27 allocation ₹2,066 Cr; spend ₹3,875 Cr to Jun-26 | Lok Sabha written reply 5-Aug-2026 (IANS copy) + Indian Infrastructure 7-Aug + NBM&CW 6-Aug | **[V]** (two independent copies) | Yes |
+| 36 | Kavach unit costs | ~₹50 lakh/km trackside incl. station equipment; ~₹80 lakh/loco | Parliamentary replies Dec-2024 / Mar-2025 / Jul-2025 (reported) | [V-snip] | Replaces Moradabad ₹24 lakh/RKM as the official benchmark |
+| 37 | RailTel Kavach orders | ₹288.15 + ₹264.07 + ₹454.95 = **₹1,007.2 Cr**, 2,176 RKM | NBM&CW (WCR) fetched; ECR via BS/Indian Infrastructure | **[V]** WCR; [V-snip] ECR | New (S4) |
+| 38 | Kavach OEMs | HBL, Kernex, Medha approved early (3 OEMs per Dec-24/Mar-25 replies); Siemens, Kyosan reported later; Progota (Concord) prototype clearance Oct-2025; Quadrant (RailTel's OEM) in passenger trials since 26-May-2026, no final approval found | Company filings via press | [V-snip] | Mostly; Quadrant status updated |
+| 39 | India DC capacity | 1,250 MW (FY25, third-party) → 2.4–2.5 GW FY28; ₹90,000 Cr capex FY26–28 | ICRA research 25-Sep-2025 | **[V]** | Adds a primary base (S22) |
+| 40 | Fixed broadband / RailWire share | Wired internet subs 46.54 mn (Mar-2026) → RailWire 6.15 lakh ≈ **1.3%** | TRAI PR 76/2026 (copy) | [V-snip] (TRAI copy) | Yes (~1.3%) |
+| (41) | 700 MHz for railways | 5 MHz paired; Cabinet 9-Jun-2021; >₹25,000 Cr; assigned 22-Oct-2021 | PIB/Cabinet (reported); TRAI response 4-Jul-2025 | [V-snip] | Yes |
+| (42) | Repo / macro | Repo 5.25% → 5.50% on 7-Oct-2026 (unanimous); stance "calibrated tightening" (4–2); FY27 CPI 5.2% | RBI MPC (reported) | [V-snip] | Yes. **Rupee ~₹94.9/$ not re-verified** |
+| (43) | Screener P/E | 19.8 printed vs ₹229 ÷ TTM EPS ₹10.78 = 21.2× | screener standalone 23-Oct-26 | **[V]** | Unreconciled (gap 20) |
+
+**Count:**
+- Of the 40 numbered figures, **31 are [V] from primary documents**: #1–17, 19–21, 23–35, 37 (WCR leg) and 39.
+- **9 are [V-snip]**: #18, 22, 36, 38, 40, plus the ECR legs of #37 counted with it.
+- The 3 bonus rows (41–43) are not counted.
+
+**Conflict calls (which source wins):**
+- **Guidance:** the transcript wins over all summaries. 25% is the latest statement and was explicitly affirmed. 20% is the earlier, more cautious one.
+- **FY25 DoT licence fee:** the audited P&L note (₹99.52 Cr) beats the Board's report narrative (₹88.56 Cr).
+- **Internet subscribers:** TRAI beats the AR's MD&A.
+- **Order book:** the CMD's dated statements beat the undated chairman's speech.
+- **DC capacity:** the latest call (10 MW by May-2027) is the latest *claim*. The writer should still present "5–10 MW" because the two calls disagree.
+
+---
+
+## 4.2 RailTel Corporation of India (RAILTEL · 543265): primary-document pack
+
+### 4.2.1 Management-commentary digest: guidance as of the latest call (Q1 FY27, 31-Jul-2026; hosted by PL Capital; transcript filed 5-Aug-2026) [V, all pages re-read]
+
+Paraphrased, with page numbers from the 10-page transcript. "Q4" points come from the 1-May-2026 call (12 pp) [V].
+
+**Headline numbers given by the CMD (p.2)**
+- Q1 FY27 operating revenue ₹893 Cr vs ₹744 Cr (+20%).
+- Telecom ₹361 Cr; projects ₹532 Cr. Total income ₹910 Cr vs ₹758 Cr.
+- PBT before exceptional items ₹96 Cr vs ₹86 Cr (+12%). PBT ₹89 Cr and PAT ₹66 Cr, "almost the same" as Q1 FY26.
+- Orders received in the quarter ₹1,688 Cr vs ₹721 Cr.
+- Order book ₹11,747 Cr "as on date".
+- CAG gave "nil comments" on the FY26 accounts.
+
+**Guidance table**
+
+| Topic | Latest statement (Q1, 31-Jul-2026) | Earlier statement (Q4, 1-May-2026) | Read |
+|---|---|---|---|
+| **FY27 revenue growth** | Analyst: "we maintain the outlook… grow at 25% of revenue". CMD: "Yes. Yes." (pp.5–6) | "Our growth guidance will be around 20% for this financial year… growth which was in the range of 25%… will certainly be around 20%. Last year we did 22%." Director Finance: "We have met the earlier guidance" (p.10) | **Raised/affirmed to ~25%** after a strong Q1 order intake. Implied FY27 revenue ≈ ₹5,350 Cr (at 25%) or ₹5,130 Cr (at 20%) [E] |
+| **FY27 project revenue** | "close to minimum maybe ₹3,000 Cr – ₹3,500 Cr… ₹3,500 Cr maybe… anticipated projected revenue" (p.5) | "₹3,000 Cr to ₹3,500 Cr of income should… get converted into revenue this year" (p.7); analyst "₹3,500-odd" → "more or less correct" (p.12) | Project revenue +8% to +26% on FY26's ₹2,777 Cr |
+| **Project margin** | "We are maintaining our margins between 4% to 5% in project"; Q1 margin improved sequentially; "industry… 2%, 3% or 4%. Very few even operate in 4% to 5%" (pp.5, 7) | "continuously striving to remain in the 4% to 5% bracket" (p.9) | Stable 4–5% (Q1 FY27 segment EBIT 4.5%) |
+| **Telecom margin** | Telecom margins are "almost… in the range… they used to be"; telecom growth "subdued by the pricing pressures" (p.7) | "always been in the range of 35% to 40%… I think it's 39% for this year" (p.6); Q4 spike "slight aberration… one-off kind of instance" from VSS (p.6–7) | EBITDA basis ~35–40% |
+| **Kavach** | Two orders in outdoor execution (ECR advanced; WCR started). RDSO approval of OEM "likely to happen any time now, maybe next month" / "maybe this month itself"; approval "not delaying" projects. Revenue from Kavach to be booked "this year". Margin "slightly better than" 4–5%. "Not seeing many Kavach tenders in this current financial year" (pp.3, 5, 6) | "No new tenders are seen at least for now… we have already 3 orders… deliver those during next 2 to 3 years" (p.7) | No sign of final Quadrant approval by 23-Oct-2026 (searches) [V-snip]. Kavach = ~₹1,007 Cr of book (S4) |
+| **Other Kavach OEMs** | Asked whether other OEMs approach RailTel for integration: "I will not comment… we are open… whoever gives us best commercial" (p.6) | — | RailTel is OEM-agnostic in principle, tied to Quadrant in practice |
+| **NLD** | Q1 NLD ₹144 Cr vs ₹151 Cr: government renewals pending; "We book on accrual basis, but then POs have to be there". New customers Air Force, "one private operator", Starlink. NIC decentralised NKN ordering to individual institutes (pp.3–4) | Q4 NLD ₹182 Cr; enterprise price pressure "on the South side" (p.4) | Revenue recognition depends on POs: a renewal-timing risk (see §4.2.6) |
+| **ISP/RailWire** | 6.23 lakh subs, ~+50,000 YoY; "segment is very heated"; "ARPU is continuously under pressure"; ITPO a good customer (p.4) | — | Subs +8–9% YoY; ARPU down |
+| **Dark fibre to private players** | "Private players, fiber demand is there… we having independent and completely different right of way… we don't want to put a lot of capital expenditure… partner with someone who is sharing best revenue"; "it will take time"; "most other players are along the road" (pp.4–5) | — | Partner/revenue-share model; no timeline |
+| **Data centre** | FY27 ~₹300 Cr, FY28 ~₹500 Cr (p.8). Noida "10-megawatt facility" by May-2027, "maybe a month early". Edge DCs Mumbai and Gurgaon commissioned. +500 kW Hyderabad, +500 kW Noida. Leases passive DC space from **Anant Raj, Adani** and others; RailTel provides managed/cloud services on its own servers; empanelment in RailTel's name (pp.9–10) | "Already have 3 MW… 5-megawatt capacity should be ready by May next year" (p.12). Three models: partners' real estate, partners investing in RailTel DCs, own DCs (p.11). Edge DCs: Indore, Ujjain, Chandigarh, Vizag targeted; "growth is not happening in general also in India" for edge (p.8). Separate DC disclosure "planning" (p.11). DC margin currently higher than pure telecom (ED Finance correction, p.11) | DC is the stated priority ("first priority today") |
+| **AI/GPU** | "We are in the process… you will see something in news"; railway AI project; SLMs, "completely air-gapped… not the public cloud" (p.10) | — | Optionality, no capex number |
+| **ECL** | Provisional, on ageing beyond 1–2 years; "none of the accounts are doubtful"; non-cash; "can get reversed as soon as we receive those payments" (p.8). "Most of the projects are government projects. So payment delays, of course, happens" (p.6) | — | See ageing (§4.2.5): ECL is structural |
+| **Telecom receivables spike** | "Some revisions… mostly those belong to railways… one-off event" (p.6) | VSS billing accepted for Q2 and Q3 and billed in Q4; "this trend might continue for a few… quarters" (p.7) | Watch the H1 FY27 balance sheet on 25-Oct |
+| **International** | Ethiopia DC ~₹18 Cr (project office and a project director posted); laptops and BHISHM cubes already booked; Uzbekistan bidding; Sri Lanka lost; Vietnam trying (pp.8–9) | — | AR26: export revenue ₹7.65 Cr FY26 (nil FY25) [V Note 54] |
+| **Capex** | — | "₹300 Cr… mostly it is data centre and partly telecom and some other smaller, power" (pp.8, 10) | AR chairman: ₹241 Cr. Use "₹240–300 Cr" |
+| **LTE-R** | — | "I don't have any latest update… presently, I'm not aware" (p.8) | No LTE-R revenue in view |
+| **Digital services** | — | Aadhaar biometric authentication at exams (UPSC, NEET, JEE, state recruitment); Standard Chartered KYC; "lowest hanging" government demand (pp.5–6) | Inside "ICT others" ₹88.7 Cr |
+
+**The 8 most important analyst Q&A points**
+1. **Guidance moved up, not down** (S1). 25% growth was affirmed despite flat Q1 PAT.
+2. **NLD is PO-dependent.** Revenue for services already being consumed is not booked until the renewal PO arrives. Q1 NLD fell 4.6% YoY for this reason. This is the most important line on the quality of the "annuity" (§4.2.6).
+3. **The order book is 23.5% railway.** Kavach is ~₹1.0k Cr of ~₹11.7k Cr. Few new Kavach tenders are expected in FY27.
+4. **Kavach revenue starts in FY27 but depends on Quadrant's RDSO approval.** Promised "next month" on 31-Jul. No final approval was visible in public sources by 23-Oct-2026 [V-snip].
+5. **ECL is recurring by design.** The CMD frames it as a transparency policy on 1–2-year-old debtors and admits government payment delays are routine.
+6. **DC economics shift toward an asset-light model.** RailTel leases third-party shells and sells managed services and cloud. That explains DC revenue per MW of ~₹67 Cr (FY26 ₹202 Cr ÷ ~3 MW), well above a colocation yield (§4.2.6).
+7. **Fibre monetisation via a partner model:** demand exists, capex will not be committed, "will take time".
+8. **Q4 FY26 telecom (₹449 Cr; 33.4% EBIT) included catch-up billing** for VSS services delivered in Q2–Q3. Telecom will not run at ₹449 Cr per quarter. A cleaner run-rate is ~₹360–400 Cr [E].
+
+### 4.2.2 Concall/results KPI table (no investor deck exists; results PDF + transcripts) [V]
+
+| KPI | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|---|---|
+| Revenue from ops (₹ Cr) | 743.8 | 951 | 913 | 1,668.9 | 893.3 | Results PDFs; screener |
+| Telecom segment (₹ Cr) | 334.8 | ~717 combined for Q2+Q3 [E: FY26 − Q1 − Q4] | (in Q2+Q3) | 448.9 | 360.8 | Results PDF; AR26 |
+| of which NLD / ISP / IP-1 (₹ Cr) | 151 / n.a. / n.a. | n.a. | n.a. | 182 / 120 / 30 (= 332) | 144 / 112 / 27 (= 283) | Transcripts |
+| of which DC + ICT + other (₹ Cr) | n.a. | n.a. | n.a. | 117 | ~78 [E] | Transcripts; E |
+| Project segment (₹ Cr) | 409.1 | ~1,148 combined for Q2+Q3 [E] | (in Q2+Q3) | 1,220.0 | 532.5 | Results PDF; AR26 |
+| Telecom EBIT % | 20.5 | n.a. | n.a. | 33.4 | 19.2 | Results PDF |
+| Project EBIT % | 5.3 | n.a. | n.a. | 3.8 | 4.5 | Results PDF |
+| ECL "exceptional" (₹ Cr; + = charge) | −3.42 (write-back) | n.a. | n.a. | 2.47 | 7.04 | Results PDFs |
+| Orders received (₹ Cr) | 721 | n.a. | n.a. | n.a. (Apr-26: ₹700+ Cr) | 1,688 | Transcripts |
+| Order book (₹ Cr, at date) | — | — | 8,563 (31-Dec) / ~8,600 (Jan, ICRA) | ~10,650 (31-Mar, verbal); 11,466 (30-Apr) | 11,747 (31-Jul) | Transcripts; ICRA |
+| Railway share of book | — | — | — | ~21% | 23.5% | Transcripts |
+| RailWire subs (lakh) | ~5.7–5.8 [E: 6.23 − 0.5] | — | — | 6.15 (FY26) | 6.23 | AR26; Q1 transcript |
+| Capital employed: telecom / project (₹ Cr) | — | — | — | — | 1,183.7 / 742.4 | Q1 results PDF |
+| Cash & liquid (₹ Cr) | — | ~319 (30-Sep-25, ICRA) | — | ~777 (31-Mar-26) [E] | n.d. | ICRA; AR26 |
+
+### 4.2.3 Five-year history (FY22–FY26, standalone unless flagged) [V screener standalone 23-Oct-26; V AR10-yr table; V AR segment notes; E where marked]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | 4-yr CAGR / note |
+|---|---|---|---|---|---|---|
+| Revenue from operations | 1,522 | 1,957 | 2,568 | 3,478 | 4,277 | **29.5%** [E] |
+| Telecom segment revenue | 1,041.6* | 1,169.5 | 1,265.4 | 1,362.5 | 1,500.7 | 9.6% (*FY22 consolidated, incl. REL) |
+| Project segment revenue | 506.9* | 787.9 | 1,302.4 | 2,115.0 | 2,776.8 | 53.0% |
+| Telecom share of revenue | 67.3%* | 59.7% | 49.3% | 39.2% | 35.1% | — |
+| Telecom segment EBIT % | 19.2%* | 19.5% | 21.9% | 22.2% | 26.7% | — |
+| Project segment EBIT % | 8.4%* | 4.7% | 5.4% | 4.4% | 3.9% | — |
+| Operating profit (screener) | 368 | 379 | 464 | 535 | 638 | 14.7% |
+| OPM (screener) | 24% | 19% | 18% | 15% | 15% | ICRA OPBDIT/OI: FY24 18.1%, FY25 15.3% |
+| PBT before exceptional (AR) | 280 | 255 | 355 | 424 | 494 | 15.3% |
+| ECL/exceptional (AR) | — | 2.06 | 26.72 | 21.72 | 24.36 | Recurring since FY24 |
+| PAT | 208 | 188 | 246 | 300 | 346 | 13.6% |
+| EPS (₹) | 6.49 | 5.84–5.87 | 7.67 | 9.34 | 10.79 | — |
+| **DPS (₹)** | **2.40** | **2.55** | **2.85** | **2.85** | **3.25** | AR10-yr table (S6) |
+| Dividend (₹ Cr) / payout / % of NW | 77.02 / 26.9%† / 5.08% | 81.83 / 43.8% / 5.01% | 91.47 / 37.2% / 4.96% | 91.47 / 30.5% / 4.57% | 104.30 / 30.1% / 4.61% | †AR basis (screener 37%) |
+| Net worth (AR) | 1,516 | 1,636 | 1,827 | 2,000 | 2,262 | — |
+| Gross block incl. ROU (AR) | 2,143 | 2,331 | 2,570 | 2,898 | 3,263 | — |
+| Employees | 698 | 765 | 858 | 881 | 928 | Income/employee ₹2.29 → ₹4.66 Cr |
+| CFO (screener) | 258 | 284 | 556 | 255 | 316 | — |
+| FCF (screener) | 142 | 107 | 347 | −70 | 44 | 5-yr cumulative FCF ₹570 Cr vs dividends declared ₹446 Cr [E] |
+| Debtor days (screener) | 160 | 195 | 180 | 166 | 175 | MoU target 90 |
+| ROCE (screener) | 16% | 16% | 20% | 22% | 23% | AR PBT/CE 18.5 → 20.8% |
+| Order book (approx., year-end) | n.d. | n.d. | ~4,750 (mid-2024, AR24) | ~6,616 (~May-2025) | ~10,650 (31-Mar-26) | Dated points only |
+| Order inflow | n.d. | n.d. | ~2,870 (AR24) | ~3,146? (unreliable, S23) | 7,363 (AR26) | — |
+| Cash & liquid incl. FDs | n.d. | n.d. | ~1,006 (ICRA) | ~832 [E] | ~777 [E] | Falling (S16) |
+
+### 4.2.4 Eight-quarter trend (Q2 FY25 – Q1 FY27) [V screener standalone 23-Oct-26 quarterly table; segment data from results PDFs where available]
+
+| ₹ Cr | Sep-24 (Q2 FY25) | Dec-24 (Q3) | Mar-25 (Q4) | Jun-25 (Q1 FY26) | Sep-25 (Q2) | Dec-25 (Q3) | Mar-26 (Q4) | Jun-26 (Q1 FY27) |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 843 | 768 | 1,308 | 744 | 951 | 913 | 1,669 | 893 |
+| YoY growth | +40.7% | +15.0% | +57.0% | +33.3% | +12.8% | +18.9% | +27.6% | +20.1% |
+| Operating profit | 129 | 121 | 180 | 116 | 154 | 133 | 233 | 132 |
+| OPM | 15% | 16% | 14% | 16% | 16% | 15% | 14% | 15% |
+| Other income (screener, net of ECL) | 5 | 12 | 32 | 18 | −2 | 1 | 8 | 9 |
+| Depreciation | 40 | 43 | 60 | 44 | 47 | 49 | 49 | 50 |
+| PBT | 94 | 90 | 151 | 89 | 105 | 85 | 190 | 89 |
+| PAT | 73 | 65 | 113 | 66 | 76 | 62 | 142 | 66 |
+| EPS (₹) | 2.26 | 2.03 | 3.53 | 2.06 | 2.37 | 1.94 | 4.42 | 2.05 |
+| Telecom / project revenue | n.a. | n.a. | n.a. | 334.8 / 409.1 | (Q2+Q3: ~717 / ~1,148) | — | 448.9 / 1,220.0 | 360.8 / 532.5 |
+| Order book at/after quarter | — | ~5,280 (Jan-25, ICRA) | ~6,616 (May-25) | — | — | 8,563 | ~10,650 | 11,747 (31-Jul) |
+
+**Reading the 8 quarters [E]:**
+- **H1 FY26** revenue ₹1,695 Cr and PAT ₹142 Cr match ICRA's provisional H1 figures exactly [V ICRA].
+- **Q4 carries the year.** Q4 FY25 was 37.6% of FY25 revenue; Q4 FY26 was 39.0% of FY26. Q4 PAT was 37.7% and 41.0% of the year's PAT.
+- **OPM has sat at 14–16% for eight quarters.** The mix shift has stopped eroding margin, because the project share is now stable at ~60–73% by quarter.
+- **For Q2 FY27 (25-Oct):** if the 25% guidance holds, the Q2–Q4 run-rate must be ~₹4,450 Cr (≈ ₹5,350 Cr − ₹893 Cr) against ₹3,533 Cr in Q2–Q4 FY26, i.e. +26%.
+
+### 4.2.5 FY26 annual-report findings (26th AR 2025-26; notes re-read this pass) [V AR26 unless noted]
+
+**(a) Related parties, royalty-like payments, ownership**
+- **Related-party note (Note 48).** RailTel applies the Ind AS 24 government-related-entity exemption and gives "limited disclosures". Transactions with railway entities are therefore not quantified.
+  - The common-control list includes CRIS, IRCON, IRCTC, RVNL, Konkan Railway, DFCCIL, NHSRCL, KMRC, MRVC, RLDA, CONCOR, Braithwaite, production units (CLW, MCF) and state rail-infra JVs (HRIDC, MRIDC, Chhattisgarh East Rly).
+  - **No RPT values for Indian Railways are disclosed.**
+- **Royalty-like payments to the parent.**
+  - **7% revenue share on services to Indian Railways: ₹46.03 Cr FY26** (₹42.35 Cr FY25; ₹39.72 Cr FY22; ₹30.68 Cr FY21). It sits inside "Access & other charges" (Note 31).
+  - Revenue share payable to IR was ₹61.85 Cr at Mar-22 [V AR22]. The 7% has been unchanged since at least FY21 ("computed at prescribed rate of 8% and 7%" [V AR22]).
+- **Ownership.**
+  - President of India (through MoR) holds 23,37,85,038 shares = 72.84%, unchanged.
+  - No shares were issued for non-cash consideration in the last five years (Note 18.7). The ₹305.94 Cr non-cash equity is pre-2016.
+- **Subsidiaries.** None since the REL amalgamation (appointed date 1-Oct-2022; effective 29-Aug-2023) [V AR24].
+
+**(b) Contingent liabilities and guarantees (Note 51)**
+
+| ₹ Cr | 31-Mar-25 | Additions | Adjusted | 31-Mar-26 |
+|---|---|---|---|---|
+| Arbitration / court cases | 397.68 | 8.76 | — | **406.44** |
+| GST | 12.84 | 11.05 | 0.09 | 23.80 |
+| Income tax | 13.68 | — | — | 13.68 |
+| Service tax / VAT / other | 5.47 | 0.66 | 3.20 | 2.93 |
+| **Total claims not acknowledged as debt** | **429.67** | 20.47 | 3.29 | **446.86** (19.8% of net worth) |
+| **Bank guarantees given to customers/government** | 723.95 | — | — | **1,481.66** (65.5% of NW; ×2.05 YoY) |
+| Capital commitments | 311.53 | — | — | 345.39 |
+
+- **Contingent liabilities are a Key Audit Matter (#2)** in the auditor's report.
+- **The BG jump matches ICRA's limits table.** Non-fund-based (BG/LC) limits were raised from ₹926 Cr to ₹1,775 Cr in Feb-2026; unallocated limits fell from ₹1,053 Cr to ₹190 Cr [V ICRA].
+- **The project book now consumes guarantee capacity.** A ₹11.7k Cr book with 3–10% performance BGs is consistent with ~₹1.5k Cr of BGs outstanding [E].
+- **One named dispute:**
+  - A ₹42.78 Cr receivable from one customer (₹26.38 Cr disputed) is fully provided under ECL.
+  - RailTel's own claim of ₹26.66 Cr (SLA deductions plus interest on delayed payment) is **not recognised** in the accounts.
+  - The dispute has been referred to **AMRCD** (the government's Administrative Mechanism for Resolution of CPSE Disputes) via the Ministry of Railways (Note 54 footnote). The counterparty is evidently a government entity.
+- **Impairment.** The NE (North-East) fibre project impairment is cumulative ₹120.97 Cr (₹18.50 Cr charged in FY25; nil in FY26). The project "was halted for the long time due to difficult working conditions" (Note 50.1).
+
+**(c) Receivables, unbilled and payables ageing (Note 56.12)**
+
+| Trade receivables, gross (₹ Cr) | <6 m | 6 m–1 y | 1–2 y | 2–3 y | >3 y | Total |
+|---|---|---|---|---|---|---|
+| 31-Mar-2025 | 1,034.54 | 213.68 | 210.28 | 81.70 | 161.47 | 1,701.67 |
+| **31-Mar-2026** | **1,235.56** | **333.72** | **267.07** | **120.76** | **238.40** | **2,195.51** |
+| Share FY26 | 56.3% | 15.2% | 12.2% | 5.5% | 10.9% | 100% |
+
+- **Receivables older than one year: ₹626 Cr (28.5% of gross) vs ₹453 Cr (26.6%).**
+- Older than three years: ₹238 Cr, up 48%.
+- Credit-impaired plus significant-increase-in-credit-risk buckets total ₹170 Cr (mostly >3 years). The **ECL allowance is ₹142.56 Cr = 6.5% of gross**, i.e. the provision does not even cover the stressed buckets in full [E].
+
+| Unbilled revenue (₹ Cr) | <6 m | 6 m–1 y | 1–2 y | 2–3 y | Total |
+|---|---|---|---|---|---|
+| 31-Mar-2025 | 671.03 | 91.17 | 52.55 | — | 814.75 |
+| **31-Mar-2026** | 639.34 | 42.23 | **216.38** | 0.38 | 898.33 |
+
+- **Unbilled work aged 1–2 years quadrupled to ₹216 Cr.** This is work done but not yet billable (milestone not certified).
+- It is the same signal as the CMD's "revisions and estimates… mostly railways" [V Q1 p.6]. It may be the VSS programme [E].
+
+| Trade payables (₹ Cr) | <1 y | 1–2 y | 2–3 y | >3 y | Total |
+|---|---|---|---|---|---|
+| MSME 31-Mar-25 | 397.75 | 13.16 | 2.73 | 33.18 | 446.82 |
+| **MSME 31-Mar-26** | 874.75 | 44.18 | 19.40 | 48.47 | **986.80** |
+| Others 31-Mar-26 | 601.39 | 38.96 | 14.23 | 32.78 | 687.37 (FY25 982.93) |
+
+- **MSME payables more than doubled to ₹987 Cr (59% of payables vs 31%).** Ageing is "based on date of transaction as payment milestones are not yet achieved" (back-to-back terms).
+- **This is how RailTel funds its receivables: by paying sub-contractors when the government pays it.** ICRA says the same: "working capital intensity continues to be negative/very low, as a majority of such receivables are backed with subcontractors' liability, along with the receipt of customer advances" [V ICRA].
+- **The risk:** MSME vendors increasingly have statutory 45-day payment protection (the MSMED Act, and the tax disallowance under §43B(h) on the buyer's side). The back-to-back float could shrink [E/K].
+
+**(d) Revenue disaggregation (Ind AS 115, Note 54; non-lease contract revenue only, ₹2,802.48 Cr)**
+- **Government customers ₹2,765.18 Cr = 98.7%** (FY25: 96.6%); non-government ₹37.30 Cr.
+- **Fixed-price contracts ₹2,464.50 Cr = 87.9%**; time-and-materials ₹337.98 Cr.
+- **Long-term contracts ₹956.67 Cr = 34.1%** (FY25 29.5%).
+- **Abroad ₹7.65 Cr** (first year; MEA-funded).
+- By product line: railway project works ₹503.08 Cr; other projects ₹2,072.57 Cr; others ₹226.83 Cr.
+- Contract assets ₹2,320.41 Cr (receivables ₹1,568.67 + unbilled ₹707.44 + WIP ₹44.30). **Contract liabilities (customer advances) fell from ₹372.46 Cr to ₹230.74 Cr.** Fewer advances are funding the book.
+- Warranty obligations are passed **back-to-back to OEMs**; no separate warranty provision.
+
+**(e) Telecom revenue is lease income, and it is short-dated (Note 55B) — NEW, important**
+- RailTel books its **NLD, IP-1 (dark fibre, tower, co-location), ILD and internet services as operating leases (lessor)**.
+- **Lease income FY26 ₹1,459.51 Cr** (FY25 ₹1,262.23 Cr) ≈ 97% of the Telecom segment.
+- **Undiscounted non-cancellable lease payments still to be received: only ₹184.31 Cr.**
+  - <1 yr ₹113.04 Cr.
+  - 1–2 yrs ₹45.15 Cr.
+  - 2–3 yrs ₹10.41 Cr.
+  - 3–4 yrs ₹7.25 Cr.
+  - 4–5 yrs ₹4.30 Cr.
+  - >5 yrs ₹4.16 Cr.
+- **Only ~13% of a year's telecom revenue is contractually locked in. The rest renews PO by PO**, which is exactly why Q1 FY27 NLD dipped while customers kept using the service [V Q1 p.3].
+- IRU dark-fibre deals are recognised straight-line over the term. If a customer terminates early, RailTel refunds or adjusts prepaid IRU charges net of a penalty.
+- **Implication for the "annuity" thesis.** The telecom stream is *sticky* (government users on RailTel's network) but **not contracted**. It behaves like an annually re-bid service book, exposed to price resets ("pressure on prices… South side") [E].
+
+**(f) Cost lines (Note 31–32), FY26 vs FY25 (₹ Cr)**
+- O&M of fibre & equipment: 179.64 (156.83).
+- Hire of radio modem/OFC/internet access: 109.06 (108.89).
+- **RailWire expenses: 228.52 (217.03).** These are partner payouts and last-mile costs, ≈ **65% of RailWire's ~₹350 Cr revenue**. RailTel keeps ~35% (~₹120 Cr) before backbone costs [E]. Gap 11 is now approximately filled.
+- Power & fuel on network: 41.03 (44.84).
+- Revenue share to IR: 46.03 (42.35).
+- Total access charges: 604.28 (569.94).
+- **DoT licence fee 91.60 (99.52 per Note 32; see S9).**
+- Leases as lessee: ROU assets ₹225.31 Cr (buildings ₹143.77 Cr, land ₹50.21 Cr, **leased telecom assets — dark fibre/duct — ₹31.10 Cr**). Lease liabilities ₹63.72 Cr. A ₹53.76 Cr capital advance has been paid to NBCC for office space (possession offered 25-Mar-2026, not yet taken).
+
+**(g) Cash composition (Notes 12–13), ₹ Cr, 31-Mar-26 (31-Mar-25)**
+- Collection account **299.51** (179.18).
+- Current accounts 69.19 (105.13).
+- Flexi deposits ≤3 m 28.58 (23.55).
+- Imprest 0.18.
+- Earmarked: CSR escrow 1.15; dividend escrow 0.77 (32.33).
+- See S16/S17: unrestricted, but year-end-peaked.
+
+**(h) Ten-year table highlights (AR26 p.~30)**
+- **Employees 698 (FY22) → 928 (FY26).** Income per employee ₹2.29 → ₹4.66 Cr.
+- **Expenditure/income 72.5% (FY22) → 84.2% (FY26).** PBT/total income 17.5% → 10.9%.
+- **PAT/net worth 13.7% → 15.3%.**
+- **Book value/share ₹70 (FY26).** Screener ₹70.5 ✓.
+
+**(i) Risks (MD&A §10) and strategy (§11)**
+- **Twelve risks** in the ERM framework: project; strategy; **market (private telcos, hyperscale cloud)**; people/talent; technology obsolescence; reputation; insurable; **contractor/vendor dependence**; cyber; **sectoral (dependence on government and railway capex cycles)**; sustainability; information/DPDP.
+- **Three-horizon plan:**
+  - **H1 (FY27) "Consolidate":** operationalise DC capacity and edge; Kavach and station milestones; DPDP and telecom cyber-rules compliance; managed-services mix and project tail revenue.
+  - **H2 (FY27–29) "Expand":** DC/edge scale-up; cyber-security-as-a-service; managed cloud.
+  - No numeric targets are attached.
+
+**(j) Rating (ICRA, 17-Feb-2026) [V]**
+- **[ICRA]AA (Stable) / [ICRA]A1+, reaffirmed;** total rated ₹2,000 Cr. The rating was also AA (Stable) in Feb-2023, Mar-2024 and Feb-2025.
+- **Strengths:** GoI/MoR parentage; "exclusive RoW to lay fibre… along the railway tracks"; 62,000+ km; zero debt.
+- **Constraints:** OPM moderating with project mix ("expected to continue"); intense telecom competition; lumpy, competitive project revenue; elevated receivables; **"obligations to pay dividends to the GoI, which might impact its liquidity position"**.
+- **Rating triggers:**
+  - Downgrade on "weakening of linkages with the MoR".
+  - Upgrade needs "material improvement in the receivable position".
+- **ICRA's FY25 revenue mix:** NLD 18%, ISP 13%, IP-1 8%, projects ~59%. FY24 NLD was 23% [V ICRA 2025].
+
+### 4.2.6 Order-book reconciliation and quality [V points; E arithmetic]
+
+| Date | Order book (₹ Cr) | Source |
+|---|---|---|
+| mid-2024 (AR24) | ~4,750 | AR24 [V] |
+| Jan-2025 | ~5,280 | ICRA 18-Feb-2025 [V] |
+| ~31-Mar / 5-May-2025 | 6,616 | Press summaries of Q4 FY25 call [V-snip] |
+| 31-Dec-2025 | 8,563 | Q4 FY26 call [V] |
+| Jan-2026 | ~8,600 | ICRA 17-Feb-2026 [V] |
+| 31-Mar-2026 | ~10,600–10,700 (verbal); AR speech ">10,400" | Q4 call [V]; AR26 |
+| 30-Apr-2026 | 11,466 | Q4 call [V] |
+| 31-Jul-2026 | 11,747 | Q1 call [V] |
+
+- **FY26 roll-forward [E]:**
+  - Opening ~6,616 + inflow 7,363 − closing ~10,650 ⇒ **~₹3,330 Cr executed out of the book**.
+  - That compares with project revenue of ₹2,777 Cr. The book therefore also contains some telecom/DC service contracts, consistent with "unexecuted value incl. multi-year telecom contracts".
+- **Q1 FY27 roll-forward [E]:**
+  - ~10,650 + 1,688 (Q1) + April's ~700 is already inside 11,466. Ending at 11,747 on 31-Jul implies **~₹600–700 Cr burned per quarter** at Q1 execution rates.
+- **Composition known so far:**
+  - Railway ~23.5% (≈ ₹2,760 Cr), including Kavach ≈ ₹1,007 Cr (incl. GST) and the MoR e-Office upgrade **₹334.52 Cr (LoA 23-Jun-2026, execution to Jun-2031)** [V-snip].
+  - Non-railway ≈ ₹9,000 Cr, including EPFO IT extension ₹166.80 Cr (18-Aug-2026, to Feb-2027), RRB Secunderabad AM-RMS ₹167.52 Cr, HARTRON LAN rate contract ₹47.4 Cr, HITPA ₹18.99 Cr, Munitions India ₹15.78 Cr, Goa LWB ₹27.06 Cr [V/V-snip].
+- **Nomination vs competitive:** still not disclosed in any primary document.
+  - ICRA's language ("IR policy shift towards open tenders"; parentage "enables… all connectivity-related projects of the Indian Railways") points to: railway connectivity and DC/e-Office work largely on nomination or PSU route; Kavach and state ICT tendered.
+  - **Gap 1 remains partially open.**
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. Indian Railways capital expenditure by plan head (₹ Cr) [V Union Budget 2026-27, Expenditure Profile, Railway Budget at a Glance, Statements II and IV]**
+
+| Plan head | FY25 actual | FY26 BE | FY26 RE | FY27 BE | FY27 vs FY26 RE |
+|---|---|---|---|---|---|
+| New lines | 33,363.03 | 32,235.24 | 30,631.50 | 36,721.55 | +19.9% |
+| Doubling | 32,791.16 | 32,000.00 | 29,026.00 | 37,750.00 | +30.1% |
+| Gauge conversion | 5,212.30 | 4,550.00 | 4,284.00 | 4,600.00 | +7.4% |
+| Rolling stock | 60,624.55 | 58,894.93 | 63,372.56 | 65,496.63 | +3.4% |
+| Leased assets (capital component) | 22,699.42 | 27,904.65 | 28,157.13 | 39,650.00 | +40.8% |
+| Track renewals | 23,432.67 | 22,800.00 | 25,166.45 | 22,853.00 | −9.2% |
+| **Signalling & telecom works** | **5,567.60** | **6,800.00** | **6,500.00** | **7,500.00** | **+15.4%** |
+| Electrification | 4,248.38 | 6,150.00 | 4,500.00 | 5,000.00 | +11.1% |
+| Computerisation | 360.98 | 428.00 | 441.01 | 492.64 | +11.7% |
+| Customer amenities | 13,034.11 | 12,118.39 | 12,120.50 | 11,971.82 | −1.2% |
+| Investment in PSUs/JVs/SPVs | 25,740.82 | 22,444.33 | 21,598.40 | 17,251.00 | −20.1% |
+| Road safety (ROB/RUB) | 7,048.85 | 7,000.00 | 7,734.42 | 8,225.00 | +6.3% |
+| EBR-Partnership | 15,048.85 | 10,000.00 | 10,000.00 | 12,000.00 | +20.0% |
+| **Total capex** | **2,69,360.64** | **2,65,200.00** | **2,65,200.00** | **2,93,030.00** | **+10.5%** |
+
+**Other railway lines:**
+- Total revenue expenditure FY27 BE ₹2,99,500 Cr. Total railway revenue ₹3,02,500 Cr. PRS: operating ratio >98%; ~90% of revenue committed to salary, pension and lease [V-snip PRS DfG analysis].
+- **Read:** S&T is a small (2.6%) but fast-growing head (+35% over two years). Kavach (₹2,066 Cr) is ~28% of it.
+- **Capex utilisation:** ₹1,14,973 Cr spent by Jul-2026 = 39% of the grant [V LS reply, IANS].
+
+**D2. Department of Telecommunications (₹ Cr) [V Notes on Demands for Grants 2026-27, Demand No. 13]**
+
+| Line | FY25 actual | FY26 BE | FY26 RE | FY27 BE |
+|---|---|---|---|---|
+| **Grand total DoT** | 1,21,726.64 | 81,005.24 | 53,398.17 | **73,990.94** |
+| BharatNet (USOF/DBN scheme 11.03) | 3,995.01 | 22,000.00 | **5,500.00** | **20,000.00** |
+| USOF/DBN total | 18,500.00 | 20,000.00 | 20,000.00 | 17,063.00 |
+| Capital infusion in BSNL | 71,940.02 | 33,757.58 | 6,885.00 | 28,473.00 |
+| Establishment (Centre) | 19,480.93 | 21,729.48 | 21,049.91 | 22,521.73 |
+
+- **Read:** BharatNet spending has run at 18–25% of its budget in FY25–FY26. The ₹1.40 lakh Cr Amended BharatNet is back-loaded and late versus its Mar-2027 completion target.
+- RailTel's role is a fee-earning **Independent Engineer (Phase-3 Package 4)** [V AR26 MD&A]. It is not exposed to BharatNet capex volumes.
+
+**D3. Kavach programme: national (official) and RailTel slice**
+
+| Metric | Value | Date | Source |
+|---|---|---|---|
+| Kavach v4.0 RKM commissioned | 1,452 → 2,633 (Delhi–Mumbai 1,423; Delhi–Howrah 1,210) | 11-Mar-26 → 31-Jul-26 | AR26 citing LS; LS reply 5-Aug-26 [V] |
+| Trackside work taken up | 7,100 → 21,794 RKM | Mar-26 → Jul-26 | AR26; LS reply [V] |
+| Locos fitted / in progress | 4,277 → 6,290 / 7,190 (+1,200 EMU/MEMU rakes) | Mar-26 → Jul-26 | AR26; LS reply [V] |
+| Kavach OFC laid | 5,133 (Nov-24) → 5,743 (Feb-25) → 8,570 (Feb-26) → 8,921 (Mar-26) → 11,547 km (Jul-26) | — | Indian Infrastructure series [V-snip]; AR26 [V] |
+| Towers | 1,100+ (Mar-26) → 1,721 (Jul-26) | — | newsonair [V-snip]; Indian Infrastructure [V] |
+| Cumulative spend | ₹2,763.9 Cr (Feb-26) → ₹3,875 Cr (Jun-26) | — | AR26; LS reply [V] |
+| Allocation | FY26 ₹1,673 Cr → FY27 ₹2,066 Cr | — | AR26; LS reply [V] |
+| Official unit cost | ~₹50 lakh/km trackside incl. station; ~₹80 lakh/loco (₹70 lakh in 2023) | 2023–2025 replies | Parliamentary replies [V-snip] |
+| Remaining TAM [E] | Track ~68,000 RKM − 2,633 commissioned ≈ 65,000 RKM × ₹50 lakh ≈ **₹33,000 Cr trackside**; plus ~13,000 locos still to fit (≈ 20,000 fleet − 6,290) × ₹80 lakh ≈ **₹10,000 Cr**. **Total ≈ ₹40,000–45,000 Cr** | — | E (narrows the Part 1 ₹15–40k Cr range upward) |
+| **RailTel orders** | ₹1,007.2 Cr / 2,176 RKM (ECR ₹288.15 Cr/502.2; ECR ₹264.07 Cr/607; WCR ₹454.95 Cr/1,067) ≈ ₹46 lakh/RKM incl. GST | Feb-25, Jul-25, Feb-26 | S4 |
+| RailTel share | ~10% of the 21,794 RKM taken up; ~2.5% of the trackside TAM [E] | — | E |
+
+**OEM landscape (approval status, Oct-2026) [V-snip]:**
+- Kavach 4.0 specification approved by RDSO in **Jul-2024**.
+- HBL (first v4.0 approval, May-2025), Kernex, Medha: approved. Siemens and Kyosan: reported approved.
+- Progota (Concord Control associate): technical prototype clearance Oct-2025; ₹185.09 Cr loco order in Feb-2026.
+- **Quadrant Future Tek (RailTel's OEM): RDSO passenger-trial permission 26-May-2026; final approval not found by 23-Oct-2026.**
+
+**Order flow to OEMs is moving to locomotives:**
+- HBL: ~₹1,714 Cr CLW loco Kavach order and ₹575 Cr ICF on-board order (2026) [V-snip].
+- Quadrant: ₹230.42 Cr ICF (192 units, ≈ ₹1.2 Cr/unit) and ₹20.19 Cr PLW.
+- HBL Q1 FY27: revenue ₹638 Cr, PAT ₹111 Cr (−24%), electronics +26% on Kavach [V-snip].
+
+**D4. TRAI market data (primary releases via copies) [V-snip]**
+- **Mar-2026 (PR 76/2026, 22-Jun-2026):**
+  - Telephone subs 1,330.58 mn; teledensity 93.26%; private share 92.32%.
+  - Wireline 48.25 mn.
+  - Internet 1,092.79 mn (wired 46.54 mn, wireless 1,046.26 mn).
+  - Broadband 1,065.88 mn.
+  - Wireless ARPU ₹196.04.
+  - **Sector AGR ₹86,716 Cr for the quarter.**
+- **Jun-2026 (PR 135/2026, 12-Oct-2026):** broadband 1,087.50 mn. Yearly report 2025-26 (5-Oct-2026): broadband +12.9% YoY.
+- **RailWire share:** 6.15 lakh ÷ 46.54 mn wired internet = **1.32%** (Mar-26) [E].
+- **RailTel's NLD revenue vs sector AGR:** ₹640 Cr ÷ (~₹86.7k Cr × 4 ≈ ₹3.47 lakh Cr annualised) ≈ 0.18% of sector AGR [E]. TRAI's NLD-only AGR was not obtained (**gap 7 stays open**).
+
+**D5. Data centres [V ICRA 25-Sep-2025]**
+- Third-party operational capacity 1,250 MW (FY25) → **2,400–2,500 MW (FY28)**; ~₹90,000 Cr capex FY26–28 (≈ ₹72–78 Cr/MW incremental [E]).
+- Pipeline 3.0–3.5 GW over 7–10 years (₹2.3–2.5 lakh Cr). Mumbai ~50%. Hyperscaler-backed colocation is 85–90% of major developers' revenue.
+- **RailTel benchmarks [E]:**
+  - ~3 MW operational = 0.24% of FY25 capacity.
+  - Its ₹300 Cr FY27 capex buys ~4 MW at ICRA's implied cost. **The 10 MW Noida build must rely on partner capital** (consistent with the "partners investing in our DCs" model, Q4 p.11).
+
+**D6. Same-model PSU carriers (utility RoW fibre)**
+
+| Carrier | Parent | RoW | Network | Revenue (latest found) | Tag |
+|---|---|---|---|---|---|
+| RailTel | MoR (72.84%) | Railway track (exclusive fibre RoW) | 63,000+ RKM | Telecom ₹1,501 Cr (FY26) | [V] |
+| POWERTEL (Powergrid Teleservices Ltd, since 1-Oct-2023) | POWERGRID | OPGW on transmission towers | >1,00,000 km; >3,000 locations | ₹698 Cr (FY20, last broken out) | [V-snip] |
+| GAILTEL | GAIL | Gas pipelines | ~11,000 km; 100+ towns | n.d. (₹25 Cr in FY07) | [V-snip] |
+| BSNL/BBNL | DoT | Road/BharatNet | BharatNet 42.13 lakh km OFC (incl. state/PIA) | BSNL capital infusion FY27 ₹28,473 Cr | [V] |
+
+**D7. Policy datapoints**
+- **DIPAM (18-Nov-2024):**
+  - Dividend floor = higher of 30% PAT or 4% NW (was 5% NW).
+  - Buyback trigger: price < book for 6 months **and** NW ≥ ₹3,000 Cr **and** cash ≥ ₹1,500 Cr.
+  - Bonus if reserves ≥ 20× paid-up capital (was 10×).
+  - Split if price > 150× face value for 6 months.
+  - Review within 3 years.
+  - **RailTel:** reserves ₹1,941 Cr = 6.0× paid-up, so no bonus trigger; NW ₹2,262 Cr, so no buyback trigger [V-snip; E].
+  - (One summary claims a "90% of expected dividend as interim" rule. Unverified; RailTel paid 62% as interims in FY26.)
+- **MPS:** DEA exemption for CPSEs to 1-Aug-2026 under SCRR Rule 19A(6); later status unconfirmed [V-snip].
+- **Railway land for towers (late 2022):** all 68 divisions may license private telcos/IPs; fee 1.5% of land market value p.a. (was a 7% revenue share); 2-month reclaim clause; no advertising rights [V-snip].
+- **700 MHz:** Cabinet 9-Jun-2021; 5 MHz paired assigned to IR on 22-Oct-2021; >₹25,000 Cr, 5-year plan. Status: CMD "not aware" of progress (May-2026) [V-snip; V transcript].
+- **RBI (7-Oct-2026):** repo 5.50% (+25 bp, unanimous); SDF 5.25%; MSF 5.75%; stance "calibrated tightening" (4–2); FY27 CPI forecast 5.2%, GDP 7.1% [V-snip].
+
+---
+
+## 4.4 Gap log (§H items)
+
+| §H # | Gap | Status after this pass | How / source |
+|---|---|---|---|
+| 1 | Order-book split (nomination vs competitive, client, segment); ₹11,747 vs ">₹10,400" | **Partly filled.** Conflict resolved (S2). Railway 23.5% incl. Kavach ₹1,007 Cr and MoR e-Office ₹334.5 Cr. Ind AS 115 shows 98.7% government customers. ICRA language on open tenders. **Nomination vs competitive split still undisclosed** | Transcripts; AR26 Note 54; ICRA; LoA press |
+| 2 | FY25 inflow; 31-Mar-2025 book | **Partly filled.** Book ₹6,616 Cr (~May-2025, V-snip); Jan-2025 ~₹5,280 Cr (ICRA, V). FY25 inflow ₹3,146 Cr (single source) fails reconciliation (S23) | ICRA 2025; press |
+| 3 | RailTel Kavach order values | **Filled:** ₹288.15 + ₹264.07 + ₹454.95 = ₹1,007.2 Cr; 2,176 RKM | NBM&CW [V]; BS, Indian Infrastructure [V-snip] |
+| 4 | Legal basis of exclusive RoW; RoW Rules 2024 | **Partly filled.** Exclusivity is asserted in AR26/AR22 and by ICRA ("exclusive RoW to lay fibre along railway tracks"; 67,956 km / 7,325 stations in FY22). Consideration is the 7% revenue share on services. **Tower exclusivity ended in 2022** (LLF policy). The underlying MoR–RailTel agreement text (tenure, termination) was not found; CAG's 2010 PSU review would hold it but its URL served HTML. RoW Rules 2024 govern public-land RoW under the Telecom Act; nothing found that opens railway track RoW to others | AR26/AR22 [V]; ICRA [V]; LLF press [V-snip] |
+| 5 | Kavach OFC/tower ownership | **Partly filled.** RailTel's WCR order includes "OFC laying, tower erection" under an **EPC** contract for the zone, i.e. built for and owned by Indian Railways (S&T plan head); cable spec 2×48F "for Kavach, LTE etc." **Whether spare Kavach fibres can be commercialised by RailTel is undocumented** | NBM&CW [V]; ITI EoI [V-snip] |
+| 6 | Official S&T budget | **Filled [V]:** ₹5,567.60 (FY25 A) / ₹6,500 (FY26 RE) / ₹7,500 Cr (FY27 BE) | Railway Budget at a Glance Stmt II |
+| 7 | TRAI enterprise/NLD market data | **Still open.** Sector AGR ₹86,716 Cr/qtr (Mar-26) obtained; NLD-specific AGR and operator shares not fetched (TRAI PDFs return 503 / bad TLS) | TRAI PR copies [V-snip] |
+| 8 | POWERTEL/GAILTEL | **Partly filled:** POWERTEL subsidiary since 1-Oct-2023, >1 lakh km, >3,000 locations, ₹698 Cr telecom revenue (FY20); GAILTEL ~11,000 km. No FY26 revenues | powergrid.in, gailonline.com [V-snip] |
+| 9 | Airtel Business absolute revenue | **Still open.** Only growth: +12.0% YoY (Q1 FY27), +2.6% QoQ (Q4 FY26); India revenue ₹41,214 Cr (Q1 FY27) | Airtel press release copies [V-snip] |
+| 10 | DC MW / utilisation | **Partly filled:** "already have 3 MW" (Q4); Noida 5 MW (Q4) vs 10 MW (Q1) by May-2027; +0.5 MW Hyderabad, +0.5 MW Noida; leased partner space (Anant Raj, Adani). **Utilisation not disclosed**; DC segment reporting "planning" | Transcripts [V] |
+| 11 | RailWire economics | **Approximately filled:** RailWire expenses ₹228.52 Cr ≈ 65% of ~₹350 Cr revenue → RailTel keeps ~35% gross. Formal partner revenue-share % not published | AR26 Note 31 [V]; E |
+| 12 | DPS FY21–FY25 | **Filled:** ₹2.20 / 2.40 / 2.55 / 2.85 / 2.85 | AR26 10-yr table [V] |
+| 13 | Collection account nature | **Filled:** unrestricted cash (earmarked balances shown separately); seasonal year-end receipts; ₹40 → ₹300 Cr FY23–26 | AR22/24/26 Notes 12–13 [V] |
+| 14 | Q2 FY27 | **Open by design.** Board 25-Oct-2026 | BSE letter [V] |
+| 15 | Government ICT SI market size | **Still open.** No primary market sizing found; proxy remains RailTel's own "other projects" plus Ind AS 115 government share | — |
+| 16 | Kavach unit costs | **Filled (official benchmark):** ~₹50 lakh/km trackside, ~₹80 lakh/loco (parliamentary replies, V-snip). RailTel's awards ~₹46 lakh/RKM incl. GST [E from V] | Parl. replies; S4 |
+| 17 | MPS deadline | **Partly filled:** exemption to 1-Aug-2026 under SCRR 19A(6); post-Aug status unconfirmed | BS / Drishti [V-snip] |
+| 18 | FY21–22 segment mismatch | **Filled:** consolidated (incl. REL) vs standalone (S8) | AR22 [V] |
+| 19 | Capex and growth guidance conflicts | **Filled / clarified:** growth 20% (May) → 25% affirmed (Jul); capex ₹300 Cr (call) vs ₹241 Cr (AR) remains | Transcripts [V] |
+| 20 | Screener P/E 19.8 vs 21.2× | **Still open.** 19.8 implies EPS ₹11.57 / PAT ₹371 Cr, which matches no reported period (TTM ₹10.78; FY26 ₹10.79). Likely a screener data lag. **Use 21.2× and footnote** | screener [V] |
+
+**Tally:** filled 8 (3, 6, 12, 13, 16, 18, 19, and 11 approximately); partly filled 7 (1, 2, 4, 5, 8, 10, 17); still open 5 (7, 9, 15, 20, plus 14 by design).
+
+---
+
+## 4.5 New insights the first pass missed
+
+1. **The telecom "annuity" is sticky but not contracted.**
+   - RailTel books ₹1,459.5 Cr of telecom revenue as lease income. Yet only **₹184 Cr of future lease receipts are non-cancellable** (₹113 Cr within a year) [V AR26 Note 55B].
+   - Government customers renew by annual PO, and revenue is accrued only once a PO exists (Q1 NLD −4.6% on delayed renewals) [V Q1 p.3–4].
+   - The ~39% EBITDA telecom stream is therefore a **re-priced, re-ordered service book**: excellent retention (incumbency, security clearance, RoW), but exposed every year to price resets. Value it as a high-retention service franchise, not a contracted infrastructure lease. The SOTP in §10 should use a lower multiple than fibre InvITs with 15–20-year MSAs.
+2. **The real working-capital engine is supplier credit, and it is changing character.**
+   - Receivables + unbilled = ₹2,951 Cr, funded mainly by **trade payables ₹1,674 Cr (MSME ₹987 Cr, ×2.2 YoY)** and other financial liabilities ₹865 Cr [V].
+   - ICRA calls the WC intensity "negative/very low" because receivables are "backed with subcontractors' liability". Customer advances, though, fell from ₹372 Cr to ₹231 Cr, and MSME vendors have 45-day statutory payment protection.
+   - **If the back-to-back float shrinks, the 175-day receivable cycle hits RailTel's own cash.** That cash was ~₹319 Cr at Sep-2025 (ICRA) against a Mar-2024 peak of ~₹1,006 Cr [V].
+3. **Guarantee capacity, not equity, is the binding constraint on project growth.**
+   - BGs outstanding doubled to **₹1,482 Cr (65% of net worth)**. ICRA raised non-fund limits to ₹1,775 Cr and cut unallocated headroom from ₹1,053 Cr to ₹190 Cr [V].
+   - Another doubling of the project book would need fresh BG lines.
+   - Contingent liabilities ₹447 Cr (91% arbitration/court) are a Key Audit Matter [V].
+4. **The ageing tail is growing faster than revenue.**
+   - Receivables >1 year +38% (₹453 → ₹626 Cr); >3 years +48% (₹161 → ₹238 Cr); **unbilled 1–2 years ×4 (₹53 → ₹216 Cr)**. Revenue grew 23% [V].
+   - The ECL allowance (6.5% of gross) trails the stressed buckets (₹170 Cr). "Exceptional" ECL of ₹20–30 Cr/yr is the floor, not the ceiling [E].
+5. **Dividend policy: the old 5%-of-NW rule mattered more than the 30% rule.**
+   - FY18–FY24 dividends were ~5.0% of net worth every year. That is why payout ran at 37–58%.
+   - DIPAM's Nov-2024 cut to 4% means DPS was held flat at ₹2.85 in FY25 despite +22% PAT [V].
+   - Going forward DPS ≈ 30% × EPS (₹3.25 FY26; ~₹3.9–4.0 FY27E at the 25% growth path [E]).
+6. **S&T is growing faster than total railway capex, but it is small.**
+   - ₹7,500 Cr (2.6% of capex): +15.4% vs FY26 RE against +10.5% for total capex, and +35% over two years [V Budget]. Leased assets (+41%), doubling (+30%) and new lines (+20%) grow faster.
+   - Kavach takes ~28% of it. RailTel's three Kavach awards (₹1,007 Cr incl. GST) equal ~13% of one year's S&T budget and ~10% of the trackside RKM taken up.
+   - The ~₹40–45k Cr remaining Kavach TAM is **mostly OEM equipment and loco fitment**: HBL won a ~₹1,714 Cr CLW loco order; RailTel has no loco position.
+7. **BharatNet is a budget line, not a spend line.** FY26 BE ₹22,000 Cr → RE ₹5,500 Cr; FY25 actual ₹3,995 Cr [V DfG]. Any thesis that RailTel benefits from BharatNet capex should be dropped; its role is an IE fee.
+8. **Railway exclusivity is narrower than "exclusive RoW" implies.**
+   - Fibre RoW along track remains exclusive (AR, ICRA). But **towers on railway land were opened to private IPs/telcos in 2022** at 1.5% of land value [V-snip].
+   - The **Kavach build is creating a second, railway-owned 2×48F fibre plant** under EPC contracts, some executed by RailTel itself [V].
+   - The strategic question for 2027+ is who operates and monetises that spare fibre. RailTel (as O&M operator/lessor) is the natural candidate, but no policy exists yet.
+
+## 4.6 New primer issues (`primers/railtel.html`), in addition to Part 3 §3.4
+
+### From Other Telecom Services deep-research pass (2026-10-23, other-telecom-industry.md §4.6)
+
+- **railtel.html — FY27 guidance is now ~25%, not ~20%.** On the Q1 FY27 call (31-Jul-2026) the CMD answered "Yes. Yes." to "we maintain… 25% of revenue". The ~20% figure dates from 1-May-2026. Show "20–25% (latest 25%)" and project revenue ₹3,000–3,500 Cr. (§00, §10)
+- **railtel.html — Kavach: add order values.** Three trackside orders worth **₹1,007 Cr incl. GST over 2,176 RKM**:
+  - ECR ₹288.15 Cr / 502.2 RKM (Feb-2025).
+  - ECR ₹264.07 Cr / 607 RKM (Jul-2025).
+  - WCR Jabalpur ₹454.95 Cr / 1,067 RKM (Feb-2026).
+  - ≈ ₹46 lakh/RKM vs the ministry's ~₹50 lakh/km benchmark; ~9% of the order book.
+  - Quadrant (RailTel's OEM) has been in RDSO passenger trials since 26-May-2026; no final approval was found as of 23-Oct-2026. (§11)
+- **railtel.html — the telecom "annuity" wording needs a qualifier.** AR26 Note 55B: telecom services are lease income of ₹1,459.5 Cr, but only **₹184 Cr is non-cancellable** (₹113 Cr within one year). Revenue renews by government PO (Q1 FY27 NLD dipped on delayed renewals). Say "recurring and sticky, but renewed annually". (§04, §08, §10)
+- **railtel.html — balance-sheet risks to add:**
+  - Bank guarantees **₹1,482 Cr** (×2 YoY; 65% of net worth).
+  - Contingent liabilities **₹447 Cr** (₹406 Cr arbitration/court; a Key Audit Matter).
+  - Receivables >1 yr **₹626 Cr**.
+  - Unbilled 1–2 yrs **₹216 Cr** (×4).
+  - MSME payables **₹987 Cr** (×2.2).
+  - NE project impairment ₹121 Cr cumulative.
+  - (§10 risks box)
+- **railtel.html — cash is not "flat ~₹780 Cr".** ICRA puts cash and liquid investments at ~₹1,006 Cr (Mar-2024) and **~₹319 Cr (Sep-2025)**. Mar-2026 ~₹777 Cr includes ₹300 Cr sitting in collection accounts at year-end. Qualify any "cash-rich" language. (§10/§11)
+- **railtel.html — dividend history and rule.**
+  - DPS ₹2.20 (FY21) · 2.40 · 2.55 · 2.85 · 2.85 · 3.25 (FY26).
+  - Through FY24 the binding DIPAM floor was **5% of net worth** (paid 5.0% every year). The Nov-2024 revision to 4% NW / 30% PAT explains the payout falling to ~30%. (§10)
+- **railtel.html — S&T budget.** If the primer cites railway signalling spend, use the **Budget figure ₹7,500 Cr FY27 BE** (FY26 RE ₹6,500 Cr; FY25 actual ₹5,567.6 Cr) and Kavach ₹2,066 Cr (≈28% of S&T). Railway capex ₹2,93,030 Cr incl. ₹12,000 Cr EBR-Partnership. (§02, §08)
+- **railtel.html — tower exclusivity ended in 2022.** Railway land is now open to private tower companies at 1.5% of land value p.a. If the primer implies exclusivity for towers or station co-location, limit "exclusive" to **fibre RoW along the track** (AR26, ICRA). (§02, §08)
+- **railtel.html — credit rating.** Add **ICRA AA (Stable)/A1+, reaffirmed 17-Feb-2026** (₹2,000 Cr limits). ICRA flags moderating OPM, elevated receivables, dividend obligations, and the "IR policy shift towards open tenders involving private parties". (§10)
+- **railtel.html — Navratna and IPO facts.**
+  - Navratna by DPE letter of **30-Aug-2024** (22nd Navratna).
+  - IPO = GoI OFS of **8,71,53,369 shares at ₹94** (₹10 + ₹84), listed 26-Feb-2021 (≈₹819 Cr, all to GoI). (§01 timeline)
+- **railtel.html — data-centre capacity statements conflict.** Q4 call: "5 MW by May-2027"; Q1 call: "10 MW facility… by May 2027". Show "5–10 MW Noida by ~May-2027". Note the asset-light model: RailTel leases partner shells (Anant Raj, Adani) and sells managed/cloud services. That is why DC revenue per MW (~₹67 Cr) is far above colocation yields. (§07)
+- **railtel.html — RailWire economics.** "RailWire expenses" (partner payouts/last mile) were **₹228.5 Cr against ~₹350 Cr revenue**, so RailTel keeps roughly a third. Use it if the primer discusses RailWire profitability. (§06)
+- **railtel.html — railway order examples.** The **₹334.5 Cr Ministry of Railways e-Office upgrade (Jun-2026, to 2031)** and the ₹167.5 Cr RRB Secunderabad order are better illustrations of railway captive/connectivity work than generic "nomination". (§05)
+- **railtel.html — FY21/FY22 segment shares are consolidated.** If the primer charts telecom share from FY21, footnote that FY21–22 segment data include the former subsidiary RailTel Enterprises (merged 2023). (§04 chart)
+- **railtel.html — internet subscriber figure.** If the primer quotes "1,306 mn internet subscribers" from the AR, replace it with TRAI's **1,092.79 mn (Mar-2026; wired 46.54 mn)**. (§02)
+
+## 4.7 New source URLs (this pass)
+
+- **Union Budget 2026-27, Railway Budget at a Glance:**
+  - https://www.indiabudget.gov.in/doc/eb/railstat2.pdf (Statement II, Railway Expenditure, incl. item 24 S&T) [V]
+  - https://www.indiabudget.gov.in/doc/eb/railstat4.pdf (Statement IV, Investment) [V]
+  - https://www.indiabudget.gov.in/doc/eb/railstat3.pdf (receipts) [V]
+- **Notes on Demands for Grants 2026-27, Demand No. 13 (DoT):** https://www.indiabudget.gov.in/doc/eb/sbe13.pdf [V]
+- **ICRA RailTel rationales:**
+  - 17-Feb-2026: https://www.icra.in/Rating/GetRationalReportFilePdf?id=140966 [V]
+  - 18-Feb-2025: https://www.icra.in/Rating/GetRationalReportFilePdf?id=133064 [V]
+  - Limits change 22-Apr-2026: https://www.icra.in/Rating/GetRationalReportFilePdf?id=142542 [V, no new analysis]
+- **ICRA DC research (25-Sep-2025):** https://www.icra.in/Research/ViewResearchReport/india-s-digital-backbone-to-strengthen-with-rs-90-000-crore-data-centre-impetus-during-fy2026-fy2028/6543 [V]
+- **RailTel Navratna filing (30-Aug-2024):** https://www.bseindia.com/xml-data/corpfiling/AttachHis/8e9d67e3-fbc4-47e7-896d-194113f29137.pdf [V]
+- **Lok Sabha reply 5-Aug-2026 (IANS copy):** https://www.socialnews.xyz/2026/08/05/indian-railways-utilises-39-pc-of-fy27-capex-spent-till-july-govt/ [V]
+- **RailTel WCR Kavach:** https://www.nbmcw.com/news/railtel-wins-rs-455-cr-order-to-install-kavach-system-on-1-067-km-in-jabalpur-division.html [V]
+- **RailTel ECR Kavach:**
+  - https://www.business-standard.com/markets/news/railtel-share-rises-3-on-rs-288-crore-order-win-from-east-central-railway-125022400147_1.html [V-snip]
+  - https://indianinfrastructure.com/2025/07/17/railtel-secures-rs-2-64-billion-kavach-system-contract-from-east-central-railway/ [V-snip]
+- **Quadrant trials:** https://hdfcsky.com/news/quadrant-future-tek-gets-kavach-passenger-trial-approval-shares-surge-10-50-percent [V-snip]
+- **Progota:** https://themachinemaker.com/news/concord-control-systems-progota-india-secures-rdso-clearance-for-kavach-4-0-paving-way-for-nationwide-deployment/ [V-snip]
+- **Kavach OFC series:** https://indianinfrastructure.com/2026/02/20/indian-railways-deploys-8570-km-of-optical-fibre-cable-for-kavach/ [V-snip]
+- **TRAI Jan–Mar 2026 PIR (copy):** https://www.civilsdaily.com/news/indian-telecom-services-performance-indicator-report-jan-mar-2026/ [V-snip]; originals https://www.trai.gov.in/sites/default/files/2026-06/PR_No.76of2026.pdf and https://trai.gov.in/sites/default/files/2026-10/PR_No135of2026.pdf (503/TLS failure on fetch)
+- **MPS exemption:** https://www.business-standard.com/companies/news/govt-extends-minimum-public-shareholding-deadline-for-psus-till-aug-2026-124080100534_1.html [V-snip, 403 on fetch]
+- **DIPAM 2024 guidelines:** https://www.theweek.in/wire-updates/business/2024/11/18/dcm97-biz-cpse-restucturing.html · https://foxmandal.in/News/revised-guidelines-for-capital-restructuring-by-cpses-released/ [V-snip]
+- **Railway-land towers policy:** https://www.outlookbusiness.com/news/private-telecom-companies-get-permission-for-setting-up-towers-on-railway-lands-report-news-248283 [V-snip]
+- **POWERTEL:** https://www.powergrid.in/sites/default/files/annual_reports/DirectorsReportPowerTel.pdf (503 on fetch; V-snip) · **GAILTEL:** https://gailonline.com/gailtel.html [V-snip]
+- **Recent RailTel orders:** https://www.freepressjournal.in/business/railtel-secures-16680-crore-work-order-extension-from-epf-organisation · https://www.zerodha.com/markets/stocks/NSE/RAILTEL/ [V-snip]
+- **RBI Oct-2026:** https://www.gktoday.in/rbi-hikes-repo-rate-by-25-basis-points-to-5-50/ [V-snip]
+
+*End of Part 4.*

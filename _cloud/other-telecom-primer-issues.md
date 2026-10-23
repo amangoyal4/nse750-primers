@@ -48,3 +48,41 @@ Logged by the cloud runner; NOT fixed here (primers are out of scope for this br
 - **railtel.html — competitor table.** Add **POWERTEL (OPGW on POWERGRID towers) and GAILTEL** as the two same-model PSU carriers. Add **Kavach OEMs (HBL, Kernex, Medha, Siemens, Kyosan, Quadrant)**, which capture the 30–35% equipment margins while RailTel integrates. "Power Grid's telecom arm" is named in passing but not as the closest analogue.
 - **railtel.html — screener consolidated trap.** If the primer refresh pulls screener "consolidated", it will get stale Sep-2023 data (P/E 39, ROCE 16%). Always use the standalone page.
 
+
+## From Telecom Services (RailTel) deep-research pass (2026-10-23, other-telecom-industry.md §4.6)
+
+
+### From Other Telecom Services deep-research pass (2026-10-23, other-telecom-industry.md §4.6)
+
+- **railtel.html — FY27 guidance is now ~25%, not ~20%.** On the Q1 FY27 call (31-Jul-2026) the CMD answered "Yes. Yes." to "we maintain… 25% of revenue". The ~20% figure dates from 1-May-2026. Show "20–25% (latest 25%)" and project revenue ₹3,000–3,500 Cr. (§00, §10)
+- **railtel.html — Kavach: add order values.** Three trackside orders worth **₹1,007 Cr incl. GST over 2,176 RKM**:
+  - ECR ₹288.15 Cr / 502.2 RKM (Feb-2025).
+  - ECR ₹264.07 Cr / 607 RKM (Jul-2025).
+  - WCR Jabalpur ₹454.95 Cr / 1,067 RKM (Feb-2026).
+  - ≈ ₹46 lakh/RKM vs the ministry's ~₹50 lakh/km benchmark; ~9% of the order book.
+  - Quadrant (RailTel's OEM) has been in RDSO passenger trials since 26-May-2026; no final approval was found as of 23-Oct-2026. (§11)
+- **railtel.html — the telecom "annuity" wording needs a qualifier.** AR26 Note 55B: telecom services are lease income of ₹1,459.5 Cr, but only **₹184 Cr is non-cancellable** (₹113 Cr within one year). Revenue renews by government PO (Q1 FY27 NLD dipped on delayed renewals). Say "recurring and sticky, but renewed annually". (§04, §08, §10)
+- **railtel.html — balance-sheet risks to add:**
+  - Bank guarantees **₹1,482 Cr** (×2 YoY; 65% of net worth).
+  - Contingent liabilities **₹447 Cr** (₹406 Cr arbitration/court; a Key Audit Matter).
+  - Receivables >1 yr **₹626 Cr**.
+  - Unbilled 1–2 yrs **₹216 Cr** (×4).
+  - MSME payables **₹987 Cr** (×2.2).
+  - NE project impairment ₹121 Cr cumulative.
+  - (§10 risks box)
+- **railtel.html — cash is not "flat ~₹780 Cr".** ICRA puts cash and liquid investments at ~₹1,006 Cr (Mar-2024) and **~₹319 Cr (Sep-2025)**. Mar-2026 ~₹777 Cr includes ₹300 Cr sitting in collection accounts at year-end. Qualify any "cash-rich" language. (§10/§11)
+- **railtel.html — dividend history and rule.**
+  - DPS ₹2.20 (FY21) · 2.40 · 2.55 · 2.85 · 2.85 · 3.25 (FY26).
+  - Through FY24 the binding DIPAM floor was **5% of net worth** (paid 5.0% every year). The Nov-2024 revision to 4% NW / 30% PAT explains the payout falling to ~30%. (§10)
+- **railtel.html — S&T budget.** If the primer cites railway signalling spend, use the **Budget figure ₹7,500 Cr FY27 BE** (FY26 RE ₹6,500 Cr; FY25 actual ₹5,567.6 Cr) and Kavach ₹2,066 Cr (≈28% of S&T). Railway capex ₹2,93,030 Cr incl. ₹12,000 Cr EBR-Partnership. (§02, §08)
+- **railtel.html — tower exclusivity ended in 2022.** Railway land is now open to private tower companies at 1.5% of land value p.a. If the primer implies exclusivity for towers or station co-location, limit "exclusive" to **fibre RoW along the track** (AR26, ICRA). (§02, §08)
+- **railtel.html — credit rating.** Add **ICRA AA (Stable)/A1+, reaffirmed 17-Feb-2026** (₹2,000 Cr limits). ICRA flags moderating OPM, elevated receivables, dividend obligations, and the "IR policy shift towards open tenders involving private parties". (§10)
+- **railtel.html — Navratna and IPO facts.**
+  - Navratna by DPE letter of **30-Aug-2024** (22nd Navratna).
+  - IPO = GoI OFS of **8,71,53,369 shares at ₹94** (₹10 + ₹84), listed 26-Feb-2021 (≈₹819 Cr, all to GoI). (§01 timeline)
+- **railtel.html — data-centre capacity statements conflict.** Q4 call: "5 MW by May-2027"; Q1 call: "10 MW facility… by May 2027". Show "5–10 MW Noida by ~May-2027". Note the asset-light model: RailTel leases partner shells (Anant Raj, Adani) and sells managed/cloud services. That is why DC revenue per MW (~₹67 Cr) is far above colocation yields. (§07)
+- **railtel.html — RailWire economics.** "RailWire expenses" (partner payouts/last mile) were **₹228.5 Cr against ~₹350 Cr revenue**, so RailTel keeps roughly a third. Use it if the primer discusses RailWire profitability. (§06)
+- **railtel.html — railway order examples.** The **₹334.5 Cr Ministry of Railways e-Office upgrade (Jun-2026, to 2031)** and the ₹167.5 Cr RRB Secunderabad order are better illustrations of railway captive/connectivity work than generic "nomination". (§05)
+- **railtel.html — FY21/FY22 segment shares are consolidated.** If the primer charts telecom share from FY21, footnote that FY21–22 segment data include the former subsidiary RailTel Enterprises (merged 2023). (§04 chart)
+- **railtel.html — internet subscriber figure.** If the primer quotes "1,306 mn internet subscribers" from the AR, replace it with TRAI's **1,092.79 mn (Mar-2026; wired 46.54 mn)**. (§02)
+
