@@ -35,3 +35,27 @@
 - **adani-energy-solutions.html — EBITDA basis:** ₹8,726 Cr includes other income and one-time regulatory income; operating EBITDA ₹7,407 Cr; screener OP ₹8,005 Cr. Add one line. Smart-metering EBITDA is reported both Ind AS and non-Ind AS — quote the basis.
 - **adani-energy-solutions.html — ownership trend:** promoter 72.72% → **73.39%** (Sep-26); **FII 17.58% (Mar-25) → 9.57%**, DII 6.33% → 13.61% [V screener]. Worth a sentence in §06/§08.
 
+
+## From Power Transmission deep-research pass (2026-10-23, power-transmission-industry.md §4.5.2 — in addition to the above)
+
+**power-grid.html**
+- **ROE regime (§01/§05):** state that assets commissioned from Apr-2024 earn a **15.0%** base ROE (legacy 15.5%) and depreciate at 4.22% over 15 years [V-CERC]. Any "15.5% regulated ROE" line must say "on pre-2024 assets".
+- **Availability wording (§01):** replace "99.75% normative threshold" with "full tariff at 98% availability; incentive from 98.5% capped at 99.75% (≤~1.3% of AFC)" [V-CERC]. Supersedes the §3.4 suggestion that 99.75% was "likely an incentive cap" — it is confirmed.
+- **Net debt missing (§10/strip):** add **net debt ₹1,38,837 Cr (Mar-26), ND/EBITDA 3.5×, EV/EBITDA ~9.2×** [V-AR].
+- **Capex history (§07):** FY22 ₹9,060 Cr → FY26 ₹39,967 Cr (4.4×) with FCF down from ₹31.1k Cr (FY23) to ₹3.7k Cr (FY26) [V-AR, V screener].
+- **ISTS share (§02/§03):** add "≈74% of all-India ISTS transmission charges standalone, ≈83% with its TBCB SPVs (NLDC, Dec-2025 billing)" [V-NLDC]. A more defensible scale claim than "85% of inter-state".
+- **Contingent liabilities (§12 risks):** ~₹7.4k Cr, incl. land/crop compensation claims ₹3,974 Cr (+13%), evidence of ROW cost creep [V-AR].
+- **Rates context (§11):** 10-yr G-sec 7.47% vs earnings yield ~7.0%; the primer's valuation discussion predates the hike.
+- **Execution (§12):** H1 FY27 POWERGRID line additions 4,715 ckm (89% of FY27 target) [V-snip]. A positive update to the "execution gap" theme.
+
+**adani-energy-solutions.html**
+- **Operational growth stalled (§01/§03):** operational ckm 20,023 at both Mar-26 and Sep-26; only 799 ckm added in FY26 [V-AR]. The "27,949/29,802 ckm" headline is mostly a pipeline.
+- **ESP related-party sourcing (§04/§06):** ~4,000 MW of ~5,000 MW of supply from Adani Green at market-linked prices; MSEDCL 2.5 GW RTC LoI originally to Adani Power [V-call]. FY26 related-party purchases ≈₹22.2k Cr (FY25 ≈₹9.1k Cr) [V-AR]. Trading segment EBIT was only ₹84 Cr in FY26.
+- **Group PPAs (§04 distribution):** AEML 700 MW hybrid at ₹3.24/kWh (25 yrs) from an Adani Green SPV and 500 MW thermal from Adani Power; MUL PPAs with Adani Power at ₹4.60–5.00/kWh [V-AR].
+- **Shareholder register (§08):** IHC is no longer material (0.85% after the Aug-2025 sale) [V-snip]. QIA 25.1% of AEML confirmed [V-AR]. Promoter group includes 12.99% held via promoter-group FPIs [V-AR]. Pledge ~0.5% [V-snip].
+- **Domestic rating (§08/§10):** AESL standalone is **AA+** (India Ratings/CRISIL), not AAA; AAA is AEML [V-AR].
+- **US case precision (§06):** the 10-Aug-2026 dismissal was **with prejudice** for the three Adani-linked individuals. FCPA and obstruction counts concerned five other (absent) defendants and were reserved. SEC penalties US$6 mn (Gautam) + US$12 mn (Sagar). AESL was never named (NSE clarification 21-Nov-2024) [V/V-snip].
+- **Kenya (§06):** add the US$736 mn KETRACO PPP cancellation on 21-Nov-2024 [V-snip]. A direct AESL casualty of the indictment.
+- **TBCB returns (§05):** the Vizag tariff is ~10.2% of the estimated project cost [V-snip/E]. If the primer implies mid-teens returns on new wins, soften it.
+- **Locked-in tariff (§05):** "₹10,994 Cr" excludes the ₹2,852 Cr ROA "estimated billing" line; TBCB-only tariff in the table is ₹10,708 Cr [V-deck].
+

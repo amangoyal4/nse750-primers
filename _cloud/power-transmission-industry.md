@@ -1225,3 +1225,628 @@ All aggregates are **straight sums of the company rows above on one stated basis
 13. **10-yr G-sec yield Oct-2026** [not fetched]; repo 5.50% [K-sib].
 14. **Peak demand series** [K: integrated-power dossier]; 270.82 GW [V-snip].
 15. **AESL smart-meter capex per meter ₹6,000–7,000** [E].
+
+---
+
+# PART 4 — Deep-research supplement (23-Oct-2026)
+
+Compiled 23-Oct-2026 (UTC) in a second, primary-source pass, for the writer agent. **Where Part 4 conflicts with Parts 1–3, Part 4 wins.** Apply §4.0 before drafting.
+
+**What was read this pass (all fetched 23-Oct-2026 unless marked):**
+- **POWERGRID Integrated Annual Report FY2025-26** (366 pp; filed with BSE 29-Jul-2026; AGM 20-Aug-2026): https://www.bseindia.com/xml-data/corpfiling/AttachHis/5bfc82cf-cf35-4f6d-9d47-c00b6583a3bc.pdf. Read: Directors' Report and MD&A (industry table, capex funding, tariff norms, outlook), risk register, five-year economic-value table, consolidated balance sheet and P&L, notes 59–63 (commitments, contingent liabilities, capital management, EPS), investment schedule (PGInvIT units).
+- **AESL Integrated Annual Report FY2025-26** (750 pp): https://www.bseindia.com/xml-data/corpfiling/AttachHis/6bd769e5-13a6-46fd-8e87-b80b232d03d3.pdf. Read: strategic review (transmission/AEML/smart-meter KPIs), MD&A industry section (CEA tables), shareholding pattern, ratings, consolidated balance sheet and P&L, note 44 (contingent liabilities and commitments, incl. group PPAs), note 46 (related-party transactions), note 53 (segments), note 59 (non-controlling interest).
+- **CERC (Terms and Conditions of Tariff) Regulations, 2024** (notified 15-Mar-2024; 175 pp): https://cercind.gov.in/regulations/notification-2024.pdf. Read: Reg. 18 (debt:equity), 30–31 (ROE and tax gross-up), 33 + Appendix I/II (depreciation), 35(3) (transmission O&M norms), the transmission-charge formula, and Reg. 72 (NATAF).
+- **Grid-India/NLDC "Notification of Transmission charges payable by DICs for Billing Month of February 2026"** (No. TC/01/2026, 25-Jan-2026; mirrored at https://archive.prayaspune.org/collection/5/document/1429): licensee-wise yearly transmission charges (YTC) and the monthly ISTS pool.
+- **Company documents re-read from the first pass** (in /tmp/power-transmission-dossier/dl): AESL Q1 FY27 call transcript (22-Jul-2026), Q1 and Q2 FY27 decks and the Q2 media release; POWERGRID Q1 FY27 webinar transcript (7-Aug-2026), Q1 FY27 deck and FY26 analyst-meet deck.
+- **Screener** (re-pulled 23-Oct-2026 ~05:45 UTC): POWERGRID ₹244, m-cap ₹2,27,214 Cr; AESL ₹1,220, m-cap ₹1,49,201 Cr.
+- **Web, ~45 calls:**
+  - OFAC (primary).
+  - tradingeconomics (G-sec yield).
+  - companiesmarketcap (peer P/Es).
+  - ThePrint (EDNY order).
+  - Trade press for H1 FY27 CEA progress, the Vizag award, NEP split, RDSS, the Kenya cancellation and IHC (tndindia, Tribune/ANI, others).
+
+**Still unavailable:**
+- **AESL Q2 FY27 earnings-call transcript:** not yet filed on BSE as of 23-Oct-2026 ~05:45 UTC. Screener's document list shows only the deck, release and results. The guidance digest therefore uses the Q1 FY27 call (22-Jul-2026) plus the Q2 release and deck.
+- **POWERGRID Q2 FY27 board date:** still not announced. Last year the intimation came on 24-Oct-2025 for a 3-Nov-2025 meeting [V-snip filingreader], so an intimation is likely within days [E].
+- **Sources that blocked or were unreachable:** BSE's announcement API returned "Access Denied"; cea.nic.in dashboard PDFs downloaded empty; the CEA NEP Vol II PDF was not reachable.
+
+**Tags in Part 4:**
+- **[V-AR]** = verified in the company's FY26 annual report.
+- **[V-CERC]** = the regulation text.
+- **[V-NLDC]** = the NLDC billing notification.
+- **[V-call]** = transcript.
+- **[V-deck]** = investor presentation or release.
+- **[V]** = other fetched page.
+- **[V-snip]** = search summary or secondary article only.
+- [K] and [E] as before.
+
+---
+
+## 4.0 Supersedes — corrections to Parts 1–3 (apply these)
+
+| # | Where in Parts 1–3 | Old | New | Source |
+|---|---|---|---|---|
+| 1 | §0, §6, §7.1, §C, §C.1, §10 | "CERC 2024–29 keeps **15.5% post-tax base ROE** for transmission" (final [K]) | **15.5% only for assets with COD before 1-Apr-2024 ("existing").** Transmission assets with **COD on or after 1-Apr-2024 earn a 15.00% base ROE** (thermal/run-of-river stay at 15.50%), grossed up by the effective tax rate and trued up annually. ROE is cut by 1.00% if COD is declared without telemetry, communication or protection systems. **The Jan-2024 draft's 15% for new transmission was retained, not dropped.** | CERC Tariff Regs 2024, Reg. 30(2)–(3) [V-CERC]; POWERGRID AR FY26 Directors' Report, "salient changes" [V-AR] |
+| 2 | §7.1, trap 9, §3.4 primer issue | NATAF 98% (AC); incentive band unverified ("98.5%? to a 99.75% cap?") | **Full AFC is recovered at a monthly TAFM of 98.00% (AC); HVDC bipole and back-to-back 95.00%** (85% in the first 12 months). **Incentive accrues above 98.50% (AC) / 97.50% (HVDC) and stops at 99.75%.** Above 98.5% the charge is AFC × TAFM/98.5, capped at 99.75/98.5, so **the maximum incentive is ~1.27% of AFC**. Tripping beyond two per year adds 12 outage hours each; outages that block generation evacuation count double. **The 99.75% line in POWERGRID's chart is the incentive cap, not a "normative threshold".** | CERC Regs 2024, transmission-charge formula and Reg. 72 [V-CERC] |
+| 3 | §7.1, §C, §C.1 | "Depreciation ~5.28% for the first 12 years, then spread" (all assets) [K] | **Existing assets: 5.28% straight-line (Appendix I) for 12 years, balance spread over the remaining life. New assets (COD ≥1-Apr-2024): 4.22% (Appendix II) for 15 years, then spread.** Salvage 10%; useful life of lines 35 years. New RTM assets therefore carry lower year-1 tariffs (lower depreciation and ROE) and a longer, gentler "drag" profile. | CERC Regs 2024, Reg. 33(5)–(6), Appendix I/II [V-CERC] |
+| 4 | §7.1 | IoWC and O&M "[K]" | **IoWC: SBI one-year MCLR + 325 bp** (350 bp in 2019–24). **Transmission O&M norms escalate ~5.25%/yr** (e.g., 765 kV bay ₹41.34 lakh in FY25 → ₹50.73 lakh in FY29; D/C quad line ₹1.291 → ₹1.585 lakh/km; per MVA ₹0.262 → ₹0.322 lakh; HVDC bipole ₹1.04 → ₹1.28 lakh/MW; GIS bays at 0.70×). **Debt:equity 70:30** for new projects confirmed (Reg. 18). | CERC Regs 2024 [V-CERC] |
+| 5 | §2.2 | NEP ₹9.15 L Cr split "inter-state ~₹4.75 L Cr / intra-state ~₹4.4 L Cr" [K] | **The ₹9.15 L Cr is split by period, not by network: FY23–27 ≈ ₹4.25 L Cr + FY28–32 ≈ ₹4.91 L Cr.** For FY28–32, **ISTS is ₹3.91 L Cr (80%) and InSTS ₹0.99 L Cr (20%)**, with 76,787 ckm, 4,97,855 MVA and 32,250 MW of HVDC. The "₹4.75 L Cr" was the **draft** FY23–27 total (₹4,75,804 Cr: ISTS ₹3,13,950 Cr = 66%; InSTS ₹1,61,854 Cr = 34%). **Implied ISTS share of the whole plan ≈ 70–75%** [E]. | Tribune/ANI citing NEP Oct-2024 via InVed (Jul-2025) [V]; tndindia on draft NEP [V-snip]; ₹9.15 L Cr in POWERGRID AR [V-AR] |
+| 6 | §2.2, §H9 | ISTS charge pool **₹60,000–65,000 Cr/yr** [E] | **≈ ₹47,500 Cr/yr.** NLDC put total ISTS monthly charges for the Dec-2025 billing period at **₹3,959.92 Cr across 102 licensees** (GNA quantum 1,23,255 MW). **POWERGRID's own YTC is ₹34,375 Cr/yr (₹2,919.54 Cr/month = 73.7%). POWERGRID plus its 30 TBCB SPVs = ₹3,299 Cr/month ≈ 83% of the pool.** AESL-group ISTS SPVs ≈ ₹229 Cr/month ≈ 5.8% (~₹2,750 Cr/yr) [E: name-matched]. **The national "transmission revenue pool ₹1.2–1.4 L Cr" [E] should be cut to ~₹1.0–1.2 L Cr** [E]. | NLDC notification TC/01/2026 [V-NLDC]; matching [E] |
+| 7 | §2.1, §4.3, §E6, §H1 | FY20–FY25 ckm additions "[K] VERIFY"; FY26 12,139 vs 9M 5,077 "FLAG" | **Confirmed from the CEA series printed in both annual reports.** Network ckm: Mar-22 4,56,716 → Mar-23 4,71,341 → Mar-24 4,85,544 → Mar-25 4,94,374 → **Mar-26 5,06,513**. **Additions: FY23 14,625; FY24 14,203; FY25 8,830 (decade low, confirmed); FY26 12,139 (confirmed).** **Conflict resolved: FY26 was extremely back-ended** (H1 2,411 ckm; 9M 5,077; Q4 ≈ 7,060 ckm). FY20–FY22 values remain [K]. | POWERGRID AR MD&A table [V-AR]; AESL AR MD&A CEA table [V-AR]; tndindia H1 FY26 [V-snip] |
+| 8 | §2.1, §5.1, §H2 | IR capacity latest "1,20,340 MW (Jun-25)" | **1,20,340 MW at 31-Mar-2026** — **unchanged since Jun-2025; +1.35% in FY26** (1,12,250 FY22 and FY23; 1,18,740 FY24 and FY25). POWERGRID's assets are 1,01,180 MW of it (84%). NEP target 168 GW by 2032 (CTUIL rolling plan: ~167 GW by FY31). | POWERGRID AR [V-AR] |
+| 9 | §2.0, §3.2, §9.1, §B2, §F, JSON | POWERGRID net debt "n/d"; EV/EBITDA ~9.4× on gross debt | **Net debt ₹1,38,837 Cr at 31-Mar-2026** = total borrowings ₹1,48,009.01 Cr − cash ₹5,280.62 Cr − other bank balances ₹3,639.79 Cr − current investments ₹251.22 Cr (consolidated). **ND/EBITDA 3.50×; EV/EBITDA 9.2×** (m-cap ₹2,27,214 Cr). Mar-25 comparatives: borrowings ₹1,30,965 Cr; cash ₹3,797 Cr; bank ₹6,280 Cr → net ₹1,20,888 Cr [E]. | POWERGRID AR consolidated balance sheet and note 61 [V-AR] |
+| 10 | §4.3, §E3, §H6 | POWERGRID FY24/FY25 capex "~12,500 / 26,255 [E chart labels]" | **Capex (consolidated, accrual): FY22 ₹9,060 Cr; FY23 ₹9,212 Cr; FY24 ₹12,500 Cr; FY25 ₹26,255 Cr; FY26 ₹39,967 Cr.** FY26 on a cash basis was ₹33,305 Cr, funded by bonds/term loans ₹23,214 Cr + foreign loans ₹2,644 Cr + internal accruals ₹7,447 Cr. FY24/FY25 **capitalisation is still not in a fetched table** (keep ~₹9,014 / ~₹15,291 Cr as [E]). | POWERGRID AR five-year table and Directors' Report §6 [V-AR] |
+| 11 | §4.3, §H13 | AESL operational ckm a year ago "~18,800 [E]"; "grew ~1,200 ckm in a year" | **Operational network 20,023 ckm at 31-Mar-2026 AND at 30-Sep-2026: zero net operational additions in H1 FY27.** FY26 added 799 ckm (4 lines), so **Mar-25 ≈ 19,224 ckm** [E]. FY26 availability 99.70%. Operational MVA 49,400 (Mar-26) vs 49,150 (Sep-26 deck). | AESL AR strategic review [V-AR]; Q2 deck [V-deck] |
+| 12 | §3, §E (peak), §H20 | Peak FY23 215.9 / FY24 243.3 / FY25 249.9 / FY26 245.4 GW [K] | **Peak met (CEA, printed in POWERGRID AR): FY22 203; FY23 216; FY24 243; FY25 250; FY26 245 GW.** Record **270.82 GW on 21-May-2026** at 15:45 (fourth consecutive daily record; earlier high 256.11 GW on 25-Apr-2026). | POWERGRID AR [V-AR]; MoP via S&P Global/latestly/Power Foundation [V-snip] |
+| 13 | §3 | Installed capacity "~552 GW (2026)"; FY26 generation "1,845 BU" | **Installed 533 GW at Mar-26 (AESL AR: 532.74 GW), of which non-fossil 283 GW; FY26 generation 1,840 BU (excl. Bhutan imports); energy demand 1,707 BU (+0.8%).** The 552 GW figure is a later 2026 data point; date it if used. | POWERGRID AR [V-AR] |
+| 14 | §10, §B5, §H17 | 10-yr G-sec "~6.3–6.8% in 2025–26 [K]" | **7.47% on 22-Oct-2026**, its highest since Mar-2023 (~6.54% a year earlier; 7.37% on 13-Oct after the repo hike and an RBI ₹25,000 Cr OMO sale). | tradingeconomics [V] |
+| 15 | §0 item 6, §7.6, §3.4 | "With prejudice" and the Sagar Adani/Jaain counts "[K: brief]"; SEC split unknown | **Confirmed.** Judge Garaufis's 47-page order of **10-Aug-2026 dismissed with prejudice Counts 2–4** (securities-fraud conspiracy, wire-fraud conspiracy, securities fraud) against **Gautam Adani, Sagar Adani and Vneet Jaain**. He **reserved judgment on Count 1 (FCPA) and Count 5 (obstruction)**, which concern five non-appearing India-based co-defendants (Ranjit Gupta, Cyril Cabanes, Saurabh Agarwal, Deepak Malhotra, Rupesh Agarwal), and gave DoJ until 31-Aug to justify those dismissals; the outcome was not found. **SEC: Gautam US$6 mn + Sagar US$12 mn = US$18 mn**, no admission. **AESL was never a defendant:** NSE clarification of 21-Nov-2024 — "no allegations made against the Company"; repeated Jan-2026. | ThePrint [V]; OFAC [V]; americanbazaar/moneylife on SEC [V-snip]; NSE filing summary [V-snip] |
+| 16 | §8, §3.4, §H19 | "IHC invested ~US$500 mn in AESL (2022) [K]" — implied current holder | **IHC (via Envestcom Holding) sold 1.83% of AESL in Aug-2025 (~₹1,737 Cr), leaving 0.85%.** It is no longer a material holder. QIA's **25.1% of AEML is confirmed**: AESL's note 59 shows NCI of 25.10% in Adani Electricity Mumbai, and AEML repaid US$84 mn (₹599 Cr) of QIA sub-debt in FY26. **TotalEnergies has no AESL stake** (its JV is Adani Total Gas, per AESL AR footnote). | theweek/PTI [V-snip]; AESL AR [V-AR] |
+| 17 | §7.6, §2.2 pack, §H12 | AESL promoter pledge "not fetched" | **~0.54% of total equity pledged (Mar-2026)**; 0.55% Dec-25; 0.79% Sep-25. Separately, **AESL itself pledges 100%/51% of shares of most TBCB SPVs and AEML to project lenders** (standard project finance), and AEMIL's shares are 51% pledged to AESL. | marketsmojo/finology [V-snip]; AESL AR standalone note 7 [V-AR]; Q2 deck footnote [V-deck] |
+| 18 | §0, §6, §C.2, §F, §H8 | "Street TBCB equity IRRs 12–14%"; Vizag capex assumed ₹6,800 Cr (12.6% tariff yield) | **Vizag GH2 scheme: estimated cost ₹8,300–8,500 Cr vs tariff ₹856 Cr/yr → 10.1–10.3% tariff yield** (competitors PGCIL, Resonia, Dilip Buildcon; LoI 24-Jul-2026; SPV transferred 14-Aug-2026; 30-month SCOD). On a 35-year flat tariff, 92% EBITDA, 75:25 leverage and 25% tax [E model], **equity IRR ≈ 7–8% at a 10% tariff yield, ≈10–11% at 12%, ≈12–13% at 13% and ≈13–15% at 14%** (range = 7.5–8.5% debt cost, 18–25-year tenor). **A 12–14% equity IRR therefore needs tariff ÷ capex ≥ ~13%, i.e. a build cost well below the NCT estimate, or refinancing gains.** Replace the C.2 inputs and say so. | tndindia/solarquarter/angelone [V-snip]; IRR grid [E] |
+| 19 | §3.2, §2.0 | Combined net debt "not summable on one basis" | **₹1,81,552 Cr at Mar-26 on one basis** (annual-report total borrowings − cash − other bank balances − current investments): POWERGRID ₹1,38,837 Cr + AESL ₹42,715 Cr. ÷ company EBITDA ₹48,403 Cr = **3.75×**. AESL's own "net debt ₹39,268 Cr" excludes ₹1,405 Cr of shareholder sub-debt and uses the company's definition. | Both ARs [V-AR]; sums [E] |
+| 20 | §2.0, §3.2 | Combined EV/EBITDA 11.7× (m-cap + gross borrowings − screener investments) | **11.5×** on AR net debt: EV ₹5,57,967 Cr (m-cap ₹3,76,415 Cr on the 23-Oct re-pull + net debt ₹1,81,552 Cr) ÷ ₹48,403 Cr. POWERGRID 9.2×; AESL 22.0× FY26 (company EBITDA). | [E from V] |
+| 21 | §1.3, §7.6, B4, §2.4 | ESP counterparties "not disclosed" | **"Roughly 4,000 [MW] is from AVL [i.e., Adani Green], rest from third parties"** of the ~5,000 MW supply tie-up. Price discovery is "essentially market-linked", not tendered. BESS 3,500 MWh is contracted on fixed hire, take-or-pay. FY26 related-party purchases from Adani Green SPVs ≈ ₹5,683 Cr (FY25 ≈ ₹2,290 Cr) [V-AR, my sum]. | AESL Q1 FY27 call [V-call]; AR note 46 [V-AR] |
+| 22 | §0 item 3, §7.4 | "On 22-Oct AESL signed a 25-year 2,500 MW RTC PPA with MSEDCL" | Keep, but add: on the Q1 call the CEO said the **MSEDCL LoI was issued to Adani Power**, that AESL "will certainly be a party" and "might even buy some power to fulfil this solution from Adani Power". **The contract structure is intra-group; ask whether AESL is the signatory or a back-to-back intermediary.** | AESL Q1 call [V-call]; Q2 release [V-deck] |
+| 23 | §E8, §H14 | UC tariff total ₹10,994 Cr vs component sum ₹13,560 Cr "FLAG" | **Reconciled.** Component sum = TBCB ₹10,708 Cr + ROA augmentation "estimated billing" ₹2,852 Cr. The headline "Locked-in Tariff ₹10,994 Cr" (Q1: ₹9,510 Cr; +₹1,484 Cr ≈ Vizag + Satara ₹1,474 Cr) **is TBCB-only plus an unexplained ~₹280 Cr** (Q1 table: TBCB ₹9,234 Cr vs headline ₹9,510 Cr). **Use ₹10,708 Cr for TBCB tariff ÷ cost yields; never add the ₹2,852 Cr ROA line.** | Q1/Q2 decks [V-deck]; arithmetic [E] |
+| 24 | §C.2, §4.3 | Vizag 1,470 ckm | The deck says 1,470 ckm / 10,500 MVA; the scheme outline in trade press says 1,582 ckm. Use the deck. | [V-deck]; [V-snip] |
+| 25 | §2.1/§4.3 FY27 row | FY27 progress "35,670 MVA in 4M" only | **H1 FY27 line additions 6,108 ckm (2.5× H1 FY26's 2,411)**; Sep-26 alone 1,807 ckm. **FY27 target 16,554 ckm. POWERGRID 4,715 ckm in H1 (89% of its 5,299 ckm FY27 target); states 2,212 of 3,642; private sector 1,198 of 4,437 (27%).** (Ownership figures sum to 8,125, not 6,108 — inconsistent in source; use the total.) Q1 FY27 3,090 ckm vs 5,034 planned. | tndindia (fetched) [V-snip] |
+| 26 | §2.2 RDSS, §3.6 | RDSS 5.73 crore installed only | Series: **3.90 crore (Dec-25) → 4.69 crore (Mar-26) → 5.73 crore (30-Jun-26)**, i.e. ~1 crore per quarter. The 14.6 crore left by Mar-2028 needs ~1.9 crore per quarter. | Rajya Sabha replies via secondary [V-snip] |
+| 27 | §7.4, §H16 | "Consumer/political resistance — no fetched source [K]" | **Uttar Pradesh (May-2026) moved all smart meters to postpaid and suspended prepaid replacements** after billing complaints (≈83 lakh of 86.5 lakh UP smart-meter users had been prepaid). The Union Power Minister told the Lok Sabha (Apr-2026) that prepaid was never mandatory. West Bengal suspended residential installs (Jun-2025). **Maharashtra (AESL's MSEDCL book) has seen CPI(M) statewide agitation in 2026; no state halt found.** | outlookbusiness/KNN/freepressjournal [V-snip] |
+| 28 | §10 | Terna 16.1× (2026E), National Grid 14.8× LTM | **TTM P/E (companiesmarketcap, Oct-2026): Terna 16.6×; Red Eléctrica/Redeia 13.8×; AEP 18.6×; Fortis 24.1×.** National Grid: companiesmarketcap prints a "2026" P/E of 19.3× (multiples.vc LTM 14.8×) — conflicting; cite a range of 15–19×. Elia: no fetch. | companiesmarketcap [V] |
+| 29 | §0, §3.2, §D | Combined m-cap ₹3,76,375 Cr | ₹3,76,415 Cr on the 05:45 UTC re-pull (POWERGRID ₹2,27,214 Cr at ₹244; AESL ₹1,49,201 Cr at ₹1,220). The difference is immaterial; **pick one timestamp and state it.** | screener [V] |
+| 30 | §0, §C.3, primer issue | "₹832 Cr DTL credit flatters FY26 PAT" | Keep, but add: POWERGRID's EPS **excluding regulatory-deferral movements was ₹20.11 (FY25 ₹16.39) vs ₹17.13 reported**. FY26 PAT therefore absorbed a net **−₹2,777 Cr regulatory-deferral movement** [E: (20.11 − 17.13) × 930.06 Cr shares]; the RDA asset fell from ₹9,877 Cr to ₹6,515 Cr. The DTL credit and the RDA reversal are two sides of the same tax-regime remeasurement. **"Ex-credit PAT ₹15,096 Cr" understates the underlying number if the RDA side is also one-off — present both.** | POWERGRID AR note 62 and balance sheet [V-AR]; [E] |
+
+### 4.0.1 Corrected combined FY26 aggregates (one basis: audited consolidated annual reports; m-cap 23-Oct-2026 05:45 UTC)
+
+| Measure | POWERGRID | AESL | Total | Note |
+|---|---|---|---|---|
+| Revenue from operations | 46,732.87 | 27,588.03 | **74,320.90** | = screener sales; unchanged vs Part 3 |
+| Total income | 47,684.43 | 28,325.16 | **76,009.59** | AR P&L [V-AR] |
+| Company EBITDA | 39,677 | 8,726 | **48,403** | POWERGRID per AR five-year table and deck; AESL company definition (incl. other income and one-time regulatory income) |
+| PAT (reported, incl. NCI) | 15,927.95 | 2,392.75 | **18,320.70** | [V-AR] |
+| PAT attributable to owners | 15,927.95 | 2,282.54 | **18,210.49** | AESL NCI ₹110.21 Cr (QIA 25.1% of AEML) [V-AR]; Part 3's ~₹18,214 Cr estimate confirmed |
+| Total borrowings (Mar-26) | 1,48,009 | 48,898 | **1,96,907** | AR basis, excl. lease liabilities (screener ₹1,97,247 Cr incl. leases) |
+| Cash + other bank balances + current investments | 9,172 | 6,184 | 15,356 | [V-AR] |
+| **Net debt (Mar-26)** | **1,38,837** | **42,715** | **1,81,552** | **Replaces "not summable"** |
+| ND / company EBITDA | 3.50× | 4.90× | **3.75×** | AESL's own ND/EBITDA 4.5× FY26 → 3.63× TTM Sep-26 |
+| M-cap (23-Oct-26) | 2,27,214 | 1,49,201 | **3,76,415** | screener re-pull |
+| EV | 3,66,051 | 1,91,916 | **5,57,967** | m-cap + AR net debt |
+| EV / FY26 EBITDA | 9.2× | 22.0× | **11.5×** | |
+| P/E on FY26 reported PAT | 14.3× | 62.4× | **20.5×** | |
+| Capex FY26 | 39,967 | 14,232 | **54,199** | unchanged |
+| Contingent liabilities (Mar-26) | ~7,373 | 1,799 | ~9,172 | §4.2 |
+| Capital commitments (Mar-26) | 75,397 | 38,255 | 1,13,652 | §4.2 |
+
+---
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+**Status key** ("Fetched?" column):
+- **V-primary** = read in the issuer's or regulator's own document this session.
+- **V-secondary** = a fetched page other than the issuer's (news, aggregator).
+- **V-snip** = search summary only.
+
+The "Agrees?" column compares with Parts 1–3.
+
+| # | Figure | Value | Primary source (URL) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | National transmission network (220 kV+) | **5,06,513 ckm (31-Mar-2026)** | POWERGRID AR FY26 MD&A table (CEA data), BSE AttachHis/5bfc82cf… | V-primary | Refines "crossed 5 lakh ckm on 14-Jan-2026" — consistent |
+| 2 | FY26 line additions | **12,139 ckm** (765 kV 5,111; 400 kV 3,064; 220 kV 3,964; central 4,801; state 5,280; private 2,058; ISTS 6,009; InSTS 6,130) vs revised target 15,382 | AESL AR FY26 MD&A CEA table; POWERGRID AR (stock difference) | V-primary (two ARs) | **Yes** — upgrades V-snip to V; 9M conflict resolved by Q4 bunching |
+| 3 | FY25 line additions | **8,830 ckm** (central 2,586; state 4,761; private 1,483) | AESL AR; POWERGRID AR stock series | V-primary | **Yes** — upgrades [K] |
+| 4 | FY23 / FY24 line additions | **14,625 / 14,203 ckm** | POWERGRID AR stock series | V-primary | Yes (was [K]) |
+| 5 | FY26 transformation added | **1,13,013 MVA** (stock 13,37,513 → 14,50,526 MVA); FY25 86,433; FY24 70,728; FY23 75,902 | POWERGRID AR | V-primary | FY26 yes; **FY25 was ~71,200 [K] → 86,433** |
+| 6 | Inter-regional capacity | **1,20,340 MW (Mar-26)**, +1.35% YoY | POWERGRID AR | V-primary | Yes (fills §H2) |
+| 7 | POWERGRID share of IR | **1,01,180 MW = ~84%** | POWERGRID AR Directors' Report | V-primary | Yes |
+| 8 | H1 FY27 line additions; FY27 target | **6,108 ckm; 16,554 ckm** | tndindia (CEA data), fetched | V-secondary | New |
+| 9 | CERC base ROE, transmission | **15.50% existing / 15.00% COD ≥1-Apr-2024** | cercind.gov.in/regulations/notification-2024.pdf Reg. 30 | V-primary | **No** — Part 1 said 15.5% for all |
+| 10 | NATAF and incentive | **AC 98.00% recovery; incentive 98.50% → 99.75% cap; HVDC 95.00% / 97.50%** | CERC Regs 2024 Reg. 72 | V-primary | Refines (was [K]/FLAG) |
+| 11 | Depreciation | **5.28% × 12 yrs (existing); 4.22% × 15 yrs (new)** | CERC Regs 2024 Reg. 33, App. I/II | V-primary | Partly — new-asset rate was missing |
+| 12 | NEP-Trans outlay and split | **₹9.15 L Cr = FY23–27 ₹4.25 L Cr + FY28–32 ₹4.91 L Cr (ISTS ₹3.91 / InSTS ₹0.99 L Cr)** | ₹9.15 L Cr in POWERGRID AR; split via Tribune/ANI (InVed, citing NEP Oct-2024) | V-primary (total) + V-secondary (split) | **No** — the ₹4.75/₹4.4 L Cr inter/intra split was wrong |
+| 13 | CEA 900+ GW plan | **1,37,500 ckm; 8,27,600 MVA; ~₹7.93 L Cr by FY36** | POWERGRID AR Directors' Report | V-primary | Yes |
+| 14 | CTUIL ISTS rolling plan FY26–FY31 | **77,228 ckm; 6,97,747 MVA; ₹5,41,481 Cr** (FY27 alone 25,146 ckm / ₹1,42,979 Cr; FY30 22,041 ckm / ₹1,95,183 Cr); ~42,000 ckm and 414 GVA (₹2.83 L Cr) under construction | POWERGRID AR MD&A | V-primary | New |
+| 15 | ISTS monthly pool | **₹3,959.92 Cr (Dec-25 billing), 102 licensees → ~₹47,500 Cr/yr** | NLDC notification TC/01/2026 | V-primary | **No** — Part 1 had ₹60–65k Cr [E] |
+| 16 | POWERGRID YTC and group share | **₹34,375 Cr/yr standalone (73.7%); group ≈83% of the pool** | NLDC notification | V-primary (share = E sum) | Refines "~70–75% share" [E] |
+| 17 | POWERGRID FY26 PAT (cons.) | **₹15,927.95 Cr**; EPS ₹17.13 (₹20.11 ex-RDA movement) | POWERGRID AR consolidated P&L, note 62 | V-primary | Yes; ex-RDA EPS new |
+| 18 | DTL remeasurement credit | **₹832 Cr (cons.)** → ex-credit PAT ₹15,096 Cr [E] | Q1 FY27 deck footnote (first pass) | V-primary (deck) | Yes |
+| 19 | POWERGRID company EBITDA FY22–FY26 | **37,642 / 40,434 / 40,821 / 40,532 / 39,677** | POWERGRID AR five-year table | V-primary | Yes (FY26); history new |
+| 20 | POWERGRID total borrowings and net debt (Mar-26) | **₹1,48,009 Cr; net ₹1,38,837 Cr** | POWERGRID AR balance sheet and note 61 | V-primary | Fills §H5 |
+| 21 | POWERGRID capex FY22–FY26 | **9,060 / 9,212 / 12,500 / 26,255 / 39,967** | POWERGRID AR five-year table | V-primary | Yes; upgrades [E] labels |
+| 22 | POWERGRID capitalisation FY26; FY27 guidance | **₹28,206 Cr; capex ₹37,000 / capitalisation ₹30,000 Cr** | POWERGRID AR outlook; Q1 call | V-primary | Yes |
+| 23 | POWERGRID works in hand | **~₹1.7 L Cr incl. CWIP ₹0.48 L Cr (Mar-26); ₹1,75,700 Cr (Jun-26)** | POWERGRID AR outlook; Q1 deck | V-primary | Yes |
+| 24 | POWERGRID regulated equity | **Not disclosed** in AR, deck or call; ~₹83k Cr remains a proxy | — | Not found | Unchanged [E] |
+| 25 | PGInvIT holding | **136,500,100 units (fair value ₹1,231 Cr, Mar-26) = 15%** of ~910 mn units | POWERGRID AR investment schedule | V-primary (units); 15% [K denominators] | Yes |
+| 26 | POWERGRID DPS FY26; 5-yr dividends | **₹9.00/sh; ₹48,712 Cr paid over 5 years; ₹8,371 Cr in FY26** | POWERGRID AR | V-primary | Yes |
+| 27 | AESL operational network | **20,023 ckm at Mar-26 and Sep-26; FY26 +799 ckm** | AESL AR strategic review; Q2 deck | V-primary | Refines (H13) |
+| 28 | AESL UC book and tariff | **₹87,222 Cr; TBCB tariff ₹10,708 Cr/yr (+ ROA est. ₹2,852 Cr); headline ₹10,994 Cr** | Q2 FY27 deck (BSE 4777b812…) | V-primary | Reconciles §H14 |
+| 29 | AESL FY26 attributable PAT | **₹2,282.54 Cr** (NCI ₹110.21 Cr) | AESL AR consolidated P&L | V-primary | Yes (E confirmed) |
+| 30 | QIA in AEML | **25.10% NCI** | AESL AR note 59 | V-primary | Yes (K confirmed) |
+| 31 | AESL net debt (Mar-26) | **₹42,715 Cr (AR basis) vs ₹39,268 Cr (company)** | AESL AR balance sheet; Q1 deck | V-primary | Adds basis |
+| 32 | AESL H1 FY27 PAT / EBITDA | **₹2,600 Cr / ₹6,726 Cr (op. ₹5,878 Cr); ESP op. EBITDA ₹1,393 Cr** | Q2 release (BSE bf01031c…) | V-primary | Yes |
+| 33 | AESL related-party purchases FY26 | **≈₹22,207 Cr** (Adani Power + thermal subsidiaries ≈₹14,523 Cr; Adani Green SPVs ≈₹5,683 Cr; Adani Infra EPC ₹1,269 Cr) vs FY25 ≈₹9,081 Cr | AESL AR note 46 (my sum of line items) | V-primary (sum E) | New |
+| 34 | ESP supply from group | **~4,000 MW of ~5,000 MW from Adani Green ("AVL")** | AESL Q1 FY27 transcript (BSE d1265bbd…) | V-primary | New |
+| 35 | AESL FY25 ISTS-TBCB share | **28.6% of ₹19,786 Cr (45 schemes)**; 9M FY26 "highest tariff share" (12 schemes, 7 winners); ~32% cumulative unverified | tndindia (paywalled) | V-snip | Unchanged |
+| 36 | Vizag tariff ÷ cost | **₹856 Cr ÷ ₹8,300–8,500 Cr ≈ 10.2%** | tndindia / solarquarter / angelone | V-snip | **No** — C.2 assumed 12.6% |
+| 37 | RDSS smart meters | **5.73 crore installed of 20.33 crore (28.2%), 30-Jun-26; sunset Mar-2028** | Rajya Sabha reply via secondary | V-snip | Yes |
+| 38 | Peak demand | **270.82 GW (21-May-2026); FY26 peak met 245 GW** | MoP via S&P/latestly; POWERGRID AR | V-primary (FY26) / V-snip (record) | Yes |
+| 39 | Rates | **10-yr G-sec 7.47% (22-Oct-2026); repo 5.50% (7-Oct-2026)** | tradingeconomics (fetched); RBI via trade press | V-secondary / V-snip | **No** on G-sec (Part 1 had 6.3–6.8%) |
+| 40 | US / OFAC facts | **OFAC US$275 mn with Adani Enterprises (Iran LPG, Nov-2023–Jun-2025, 32 apparent violations); EDNY counts 2–4 dismissed with prejudice 10-Aug-2026; SEC US$6 mn + US$12 mn; AESL not a party** | ofac.treasury.gov/recent-actions/20260518; ThePrint | V-primary (OFAC) + V-secondary | Yes; "with prejudice" upgraded from [K] |
+
+**Count:**
+- **32 of 40 are V-primary** (rows 1–7, 9–11, 12 on its total, 13–23, 25–34). Rows 18 and 32 come from company decks/releases re-read this pass; rows 16 and 33 are primary documents with my arithmetic.
+- **Excluding the two re-read decks, 30 are primaries fetched this session.**
+- **3 are mixed primary/secondary:** 38 (FY26 peak from the AR, record from press), 39 (G-sec fetched from a data provider, repo from press) and 40 (OFAC primary, EDNY via ThePrint).
+- **1 is V-secondary** (8).
+- **3 are V-snip** (35, 36, 37).
+- **1 is not found** (24).
+
+**Where sources conflict, which wins:**
+- National ckm: the CEA stock series in the annual reports beats trade-press monthly sums.
+- NEP split: the period split (InVed citing the final NEP) beats the old "₹4.75/₹4.4" (which was the draft FY23–27 total).
+- ISTS pool: NLDC beats any estimate.
+- National Grid P/E: unresolved between providers.
+
+---
+
+## 4.2 Company deep-dives
+
+### 4.2.1 POWERGRID (532898)
+
+**Status:** latest reported quarter is Q1 FY27 (board 5-Aug-2026; webinar 7-Aug-2026). The **Q2 FY27 board date is not yet announced** as of 23-Oct-2026. Last year: intimation 24-Oct-2025 → meeting 3-Nov-2025, with a first interim dividend. Expect a similar early-November date [E].
+
+#### (a) Management-guidance digest — Q1 FY27 webinar, 7-Aug-2026 (CMD B. Vamsi Rama Mohan; paraphrased) [V-call]
+
+1. **Capex ₹37,000 Cr and capitalisation ₹30,000 Cr for FY27, reiterated.**
+   - Q1 delivered capex ₹7,765 Cr (>10% YoY) and capitalisation ₹5,277 Cr (3.13× YoY).
+   - Asked about upside to the ₹30,000 Cr, management named Koppal, Gadag and Bidar–Maheshwaram as the next big commissionings and said the number "would be steadier and improve". **No upgrade.**
+   - The AR repeats FY27 capex ~₹37,000 Cr / capitalisation ~₹30,000 Cr and lists Koppal, Gadag, Vataman, Kurnool-III and Ananthpuram substations for FY27 [V-AR].
+2. **Earnings bridge, Q1 FY27:**
+   - New assets added **+₹788 Cr of transmission charges and +₹247 Cr of PAT** YoY. The PAT-to-revenue ratio of ~31% on new assets is a useful run-rate marker [E].
+   - Offsets: **"regulatory drag" of ~₹560 Cr**, i.e. depreciation/interest trajectory ~₹330 Cr plus **interest on differential tariff down ~₹230 Cr** once CERC orders were issued.
+   - Management calls the drag "inherent and natural".
+3. **TBCB returns are "well-calibrated"; no numbers.**
+   - Analysts (Sumit Kishore; Satyadeep Jain) asked for separate TBCB revenue/EBITDA/PAT. The CMD said "we will examine that"; another executive said "what we have to disclose, we have already disclosed".
+   - **Treat TBCB profitability as undisclosed.**
+   - An analyst said the FY27 YTD awards' ₹2,200 Cr annual revenue "seems large" relative to typical revenue/gross-block. NCT cost was promised offline.
+4. **Accounting:** TBCB SPVs use **lease accounting** — lease receivable, no depreciation, amortisation of lease. Management says PAT is the same as under PPE accounting.
+5. **Normative vs actual debt** (a key test of whether regulatory adjustments hit PAT): the CMD said "difference would be there" and promised to revert. **Open question for the writer.**
+6. **Revenue is not flow-linked:** "my tariff is rupees per annum". Under-utilised lines do not cut revenue. **₹300 Cr of RTM revenue awaits CERC deemed-DOCO orders.**
+7. **BESS under RTM:** petitions were filed after NR/WR RPC clearance, following the CERC 2nd amendment (20-Mar-2026). Timing depends on CERC.
+8. **Execution:** GoI widened SCODs (e.g., 765 kV D/C from ~18 to 26–30 months+). Equipment supply is easing; four Chinese-linked suppliers are now permitted. MoP ROW compensation guidelines (adopted in Delhi, Haryana, Gujarat) are **not in the ₹7.9 L Cr plan cost**.
+9. **Grid-strengthening schemes:** the NCT decides between RTM-to-incumbent and TBCB case by case — "no specific rule".
+10. **Funding:** JBIC JPY 80 bn green loan. FY26 capex was funded 70% by bonds/term loans, 8% foreign loans and 22% internal accruals (cash basis ₹33,305 Cr) [V-AR].
+
+**Concall/deck KPI table (Q1 FY27 vs Q1 FY26) [V-deck/call]**
+
+| KPI | Q1 FY27 | Q1 FY26 | Note |
+|---|---|---|---|
+| Transmission charges (cons.) | 10,905 | 10,620 | +2.7% |
+| Total income | 11,697 | 11,444 | +2.2% |
+| EBITDA | 9,581 | 9,527 | +0.6% |
+| PAT (cons.) | 3,598 | 3,631 | −0.9% |
+| PAT (standalone) | 3,411 | 3,653 | −6.6% |
+| Interest on differential tariff | 22 | 257 | the swing factor |
+| Incentive (cons.) | 123 | 118 | — |
+| Capex / capitalisation | 7,765 / 5,277 | 6,981 / 1,683 | — |
+| Lines / MVA commissioned | 1,635 ckm / 10,500 MVA | — | H1 FY27 national data: POWERGRID 4,715 ckm [V-snip] |
+| Availability | 99.80% | 99.84% | incentive band 98.5–99.75% [V-CERC] |
+| Collection efficiency / receivable days | 104.03% / 12.1 | — / 19.4 | — |
+| Equity in TBCB (operational / UC) | 9,965 / 3,408 | 4,671 / 2,546 | all internal accruals |
+| WIH (Jun-26) | ₹1,75,700 Cr | — | 83% TBCB |
+| Bidding pipeline (31-Jul-26) | ₹1,19,495 Cr | — | — |
+
+#### (b) Five-year history FY22–FY26 (consolidated, ₹ Cr) [V screener 23-Oct-26; company EBITDA, capex, DPS, BVPS from AR five-year table V-AR]
+
+| Item | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue from operations | 41,622 | 45,581 | 45,843 | 45,792 | 46,733 |
+| Company EBITDA (AR) | 37,642 | 40,434 | 40,821 | 40,532 | 39,677 |
+| Screener OP / OPM | 35,826 / 86% | 38,580 / 85% | 39,244 / 86% | 38,779 / 85% | 32,831 / 70% (distorted) |
+| Other income (screener) | 4,692 | 2,089 | 1,138 | 2,120 | 3,193 |
+| Interest | 8,036 | 9,634 | 8,773 | 8,700 | 8,448 |
+| Depreciation | 12,872 | 13,333 | 13,095 | 12,904 | 13,030 |
+| PAT | 16,824 | 15,417 | 15,573 | 15,521 | 15,928 |
+| EPS (₹) | 18.09 | 16.58 | 16.74 | 16.69 | 17.13 |
+| DPS (₹) | 11.63 | 9.19 | 12.06 | 10.50 | 9.00 |
+| Net worth | 76,256 | 83,026 | 87,145 | 92,663 | 1,00,494 |
+| ROE (PAT ÷ closing NW) [E] | 22.1% | 18.6% | 17.9% | 16.7% | 15.8% |
+| ROCE (screener) | 11% | 13% | 13% | 13% | 9% (OP distortion) |
+| Borrowings | 1,34,696 | 1,26,661 | 1,23,516 | 1,31,030 | 1,48,071 |
+| CWIP | 12,854 | 13,772 | 18,197 | 33,585 | 43,747 |
+| Capex (accrual, AR) | 9,060 | 9,212 | 12,500 | 26,255 | 39,967 |
+| CFO | 26,124 | 38,005 | 37,290 | 36,222 | 40,935 |
+| FCF (screener) | 18,157 | 31,102 | 25,886 | 12,111 | 3,687 |
+| M-cap at 31-Mar (AR) | 1,51,228 | 1,57,436 | 2,57,534 | 2,70,136 | 2,75,391 |
+
+- **Read:**
+  - Five years of flat profit (₹15.4–16.8k Cr) while capex rose 4.4× and FCF collapsed from ₹31k Cr to ₹3.7k Cr.
+  - ROE drifted down from 22% to 16% as equity compounded faster than earnings.
+  - FY26 is the trough of the earnings/capex gap. FY22 PAT included one-offs; screener other income was ₹4,692 Cr.
+
+#### (c) Eight-quarter trend (consolidated, screener, ₹ Cr) [V]
+
+| Quarter | Sales | OP | OPM | PAT | Note |
+|---|---|---|---|---|---|
+| Sep-24 (Q2 FY25) | 11,278 | 9,597 | 85% | 3,793 | — |
+| Dec-24 (Q3 FY25) | 11,233 | 9,533 | 85% | 3,862 | — |
+| Mar-25 (Q4 FY25) | 12,275 | 10,194 | 83% | 4,143 | — |
+| Jun-25 (Q1 FY26) | 11,196 | 9,102 | 81% | 3,631 | — |
+| Sep-25 (Q2 FY26) | 11,476 | 9,055 | 79% | 3,566 | — |
+| Dec-25 (Q3 FY26) | 12,395 | 10,607 | 86% | 4,185 | true-ups |
+| Mar-26 (Q4 FY26) | 11,666 | 5,303 | 45% | 4,546 | DTL/RDA remeasurement (screener tax −2,829%) |
+| Jun-26 (Q1 FY27) | 11,497 | 9,430 | 82% | 3,598 | drag ₹560 Cr |
+
+TTM sales ₹47,033 Cr; TTM PAT ₹15,896 Cr. **The writer should show quarterly PAT, not OPM**: OPM is distorted by RDA classification in Q4 FY26.
+
+#### (d) Annual-report findings (FY26 Integrated AR) [V-AR]
+
+- **Industry table in the MD&A (CEA)** gives the authoritative national series used in §4.3: ckm, MVA, IR capacity, installed capacity, generation, peak demand and short-term power-market volumes. Short-term transactions rose to **2,40,566 (+47.6%); 204 BU traded (+19.9%)**.
+- **Inter-regional energy transfer fell 2.99% to 252 BU in FY26.** It is the first decline in the series and is consistent with a mild-summer FY26 (peak 245 GW, −1.8%).
+- **Tariff regime summary** (Directors' Report): ROE 15.5% protected for pre-Apr-2024 assets, 15.0% base for new; new-asset depreciation over 15 years "at slightly reduced rates"; IoWC MCLR + 325 bp; 1st amendment raised the self-insurance premium allowance to 0.12% (from 0.09%); 2nd amendment (20-Mar-2026) lets transmission licensees install BESS in existing substations under RTM. Process: share the proposal with DICs/RPC/CTU/RLDC → concurrence → CERC in-principle approval → supplementary tariff.
+- **Capital structure:**
+  - Total borrowings ₹1,48,009 Cr; D:E 1.47 (FY25 1.41); covenant D:E < 75:25; no covenant breaches.
+  - Cash ₹5,281 Cr; other bank balances ₹3,640 Cr; current investments ₹251 Cr.
+  - **Regulatory deferral account asset ₹6,515 Cr (₹9,877 Cr)**; assets held for sale ₹2,956 Cr (JV stakes).
+  - Trade receivables ₹11,673 Cr (₹7,965 Cr).
+  - **Standalone "loans to related parties" ₹56,730 Cr (+59%)**: the parent funds TBCB SPVs largely with inter-company loans, which earn the parent ₹3,350 Cr of interest. TBCB SPV economics are therefore spread between "interest from subsidiaries" in standalone and the lease income in consolidated [E].
+- **Contingent liabilities (consolidated) ≈ ₹7,373 Cr:**
+  - Contractor claims ₹2,230 Cr (₹3,176 Cr).
+  - **Land/tree/crop compensation claims ₹3,974 Cr (₹3,517 Cr, +13%)** — ROW costs showing up as litigation.
+  - Statutory/other ₹306 Cr; tax ₹667 Cr; others ₹196 Cr.
+  - Beneficiary appeals against CERC orders: not ascertainable.
+  - **Powerlinks buy-out obligation** under its TSA if a POWERGRID default or force majeure occurs (not quantified).
+- **Capital commitments ₹75,397 Cr (₹73,247 Cr)**, roughly 1.9 years of capex.
+- **Related parties:** GoI-controlled entities, JVs and subsidiaries; no royalty/brand fee. Material flows: dividends from subsidiaries (₹1,516 Cr standalone) and loans/interest to SPVs.
+- **Risk register (top risks named):** R1 ROW/land/statutory clearances; R3 market competition under TBCB; R4 technological obsolescence; R5 cyber/IT. A CRO coordinates the ERM.
+- **FY26 approvals and wins:** RTM investment approvals ~₹7,380 Cr; TBCB projects won ~₹14,200 Cr (estimated cost). RTM is now a small share of new work.
+- **PGInvIT:** 136.5 mn units at fair value ₹1,231 Cr; ₹35.49 Cr received from PGInvIT towards SPV loan repayment.
+- **Dividends:** ₹48,712 Cr paid over five years; FY26 interims ₹7.75 + final ₹1.25 = ₹9.00.
+- **Economic value table:** tax shown as **−₹1,381 Cr** in FY26 (refund/credit effect) vs ₹3,773 Cr in FY25; the AR quotes a 17.47% tax rate.
+
+### 4.2.2 Adani Energy Solutions (539254)
+
+**Status:** Q2 FY27 reported 22-Oct-2026 (results, media release; deck 23-Oct). **The Q2 earnings call transcript was not yet on BSE at the time of this pass.** Latest transcript is Q1 FY27 (22-Jul-2026).
+
+#### (a) Management-guidance digest — Q1 FY27 call (22-Jul-2026; CEO Kandarp Patel, Raj Kumar Jain for ESP) + Q2 release/deck (22–23-Oct-2026) [V-call, V-deck]
+
+1. **Transmission order intake: "at least" ~25% market share** of an annual **≥₹1 L Cr** bidding opportunity (central + state). That is **₹20,000–25,000 Cr of new capex awards a year**, plus a STU-only pipeline of ₹20,000–25,000 Cr/yr "to start with" (Maharashtra, Rajasthan, UP active). Near-term tender pipeline ~₹1.4 L Cr (Q2). **Actual H1 FY27 share of TBCB bids was 17%** (deck) — below the 25% aspiration.
+2. **HVDC timelines:** Bhadla–Fatehpur (Rajasthan) commissioning "beginning of '29"; KPS III–South Olpad around Dec-2029 (FY30). One more HVDC is under bidding and another is coming. Together these two are ₹5,949 Cr/yr (55% of TBCB UC tariff), so **most UC tariff arrives only in FY29–FY30** [E].
+3. **Capex run-rate:** ~₹3,500 Cr/quarter in Q1 and ₹4,353 Cr in Q2; H1 ₹7,850 Cr (transmission ₹5,542 Cr, 1.7×). No formal FY27 capex number was given.
+4. **ESP (Energy Solutions Platform):**
+   - ~5,000 MW of supply is tied up take-or-pay, mostly green; **~4,000 MW from Adani Green**, priced "market-linked". BESS 3,500 MWh is on fixed hire.
+   - 350 MW of C&I customers. "Long-term contracts in very advanced stage" to absorb capacity.
+   - Q1 ESP EBIT ~₹590 Cr, of which ₹570 Cr came from the position book (3,325 MU, LT-PPA revenue ₹1,838 Cr ≈ ₹5.5/kWh). Only 400–500 MU was back-to-back; the rest went to exchanges and 1–13-month bilaterals at ₹3–15/kWh. Services were 9,800 MU at ~₹0.03/kWh.
+   - Management acknowledged **quarter-to-quarter and year-to-year variability** (delayed monsoon lifted Q1 prices) and said the aim is to close positions "on both sides without much time lag".
+   - Opportunity "7.5 GW+ by 2031". "Some capex" for last-mile connectivity.
+   - Q2: ESP EBITDA ₹803–810 Cr; 2,500 MW / 25-yr RTC supply to MSEDCL (LoI originally to Adani Power).
+5. **Data centres:** "very negligible" today (one 20–25 MW contract). The group's own data-centre pipeline is cited as a source of future demand. **Related-party flavour.**
+6. **Smart meters:**
+   - Remaining national tender pool 100–120 mn meters (Tamil Nadu, Karnataka, Telangana, part of AP).
+   - IntelliSmart (₹3,050 Cr, 22.3 mn meters) awaits CCI; the combined portfolio of ~47 mn has "natural growth" provisions.
+   - FY27 YTD installs 2.1 mn (Q1) + 1.3 mn (Q2). Operating revenue from commissioned meters rose from ₹68 Cr to ₹161–166 Cr per quarter.
+7. **AEML parallel licences** (Mumbai): pending with MERC. The Maharashtra government has advised MERC to wait for the central tariff-policy amendment.
+8. **ROW:** "industry-specific issue"; AESL works with landowners in parallel rather than relying on state machinery.
+9. **Q2 release headline:** H1 PAT ₹2,600 Cr (+137%); UC book ~₹87,000 Cr; ₹3,500 Cr QIP plus "primary and secondary equity investments from marquee investors"; net debt ₹41,067 Cr, ND/EBITDA 3.63× (4.4× a year earlier).
+
+**Concall/deck KPI table [V-deck]**
+
+| KPI | Q2 FY27 | Q2 FY26 | H1 FY27 | H1 FY26 |
+|---|---|---|---|---|
+| Total income | 10,239 | 6,767 | 20,092 | 13,793 |
+| Operational revenue | 7,167 | 4,740 | 14,351 | 9,548 |
+| Operating EBITDA | 3,070 | 1,825 | 5,878 | 3,463 |
+| EBITDA (company) | 3,548 | 2,126 | 6,726 | 4,144 |
+| PAT | 1,364 | 557 | 2,600 | 1,096 |
+| Transmission op. EBITDA | 1,394 | — | 2,871 | 2,285 |
+| ESP op. EBITDA | 803 (release text: 810) | — | 1,393 | 28 |
+| Transmission availability | 99.8% | — | 99.63% | 99.71% |
+| Operational ckm (end) | 20,023 | n/d | 20,023 (Mar-26 also 20,023) | n/d (Mar-25 ≈19,224 [E]) |
+| UC: projects / ckm / cost / TBCB tariff | 15 / 9,779 / ₹87,222 Cr / ₹10,708 Cr | — | — | — |
+| Smart meters installed (cum., mn) | 14.8 | 7.4 | — | — |
+| AEML units (MU) / loss | 2,930 / — | 2,650 | 6,190 / 4.29% | 5,589 / 4.30% |
+| AEML RAB | ₹10,456 Cr | — | — | — |
+| Capex | 4,353 | — | 7,850 | 5,976 |
+| Net debt / ND÷EBITDA | ₹41,067 Cr / 3.63× | — / 4.4× | — | — |
+
+#### (b) Five-year history FY22–FY26 (consolidated, ₹ Cr) [V screener; attributable PAT and segment data V-AR]
+
+| Item | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue from operations | 11,258 | 13,293 | 16,607 | 23,767 | 27,588 |
+| Screener OP / OPM | 4,206 / 37% | 4,518 / 34% | 5,711 / 34% | 7,067 / 30% | 8,005 / 29% |
+| Company EBITDA | n/f | n/f | n/f | ~7,720 [E: 8,726 ÷ 1.13] | 8,726 |
+| Other income | 1,286 | 1,583 | 611 | −827 (Q1 FY25 −₹1,395 Cr; AR shows a −₹1,506 Cr exceptional) | 721 |
+| Interest | 2,365 | 2,781 | 2,767 | 3,259 | 3,633 |
+| Depreciation | 1,427 | 1,608 | 1,776 | 1,906 | 1,978 |
+| PAT (reported) | 1,236 | 1,281 | 1,196 | 922 | 2,393 |
+| PAT attributable (AR) | n/f | n/f | n/f | 1,059.9 | 2,282.5 |
+| EPS (₹) | 10.95 | 11.26 | 10.20 | 8.82 | 19.00 |
+| Owners' equity | 9,913 | 11,749 | 12,641 | 22,068 | 25,428 |
+| ROE (PAT ÷ closing equity) [E] | 12.5% | 10.9% | 9.5% | 4.2% | 9.4% |
+| ROCE (screener) | 10% | 10% | 9% | 10% | 10% |
+| Borrowings | 29,902 | 34,270 | 37,070 | 39,926 | 49,176 |
+| CFO | 4,097 | 3,777 | 6,038 | 9,045 | 10,997 |
+| FCF (screener) | −94 | −925 | 608 | −334 | −3,435 |
+
+- **Read:**
+  - Revenue grew 2.5× over FY22–FY26, but PAT doubled only in FY26, and FY27 H1 alone exceeds FY26.
+  - Equity more than doubled (2024 QIP), so ROE has never exceeded ~12.5% in five years.
+  - FCF has been negative in four of five years, consistent with a developer.
+
+#### (c) Eight-quarter trend (consolidated, screener, ₹ Cr) [V]
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Dec-24 (Q3 FY25) | 5,830 | 1,661 | 28% | 625 |
+| Mar-25 (Q4 FY25) | 6,375 | 2,040 | 32% | 714 |
+| Jun-25 (Q1 FY26) | 6,819 | 1,811 | 27% | 539 |
+| Sep-25 (Q2 FY26) | 6,596 | 1,955 | 30% | 557 |
+| Dec-25 (Q3 FY26) | 6,730 | 1,995 | 30% | 574 |
+| Mar-26 (Q4 FY26) | 7,443 | 2,145 | 29% | 723 |
+| Jun-26 (Q1 FY27) | 9,711 | 3,008 | 31% | 1,237 |
+| Sep-26 (Q2 FY27) | 10,076 | 3,101 | 31% | 1,364 (other income ₹447 Cr; interest ₹1,180 Cr) |
+
+The step-change starts in Q1 FY27 and coincides with ESP scaling: segment EBITDA went from ₹28 Cr in H1 FY26 to ₹1,393 Cr in H1 FY27. **Q2 other income (₹447 Cr vs ₹170 Cr in Q1) also helped PAT** [V screener].
+
+#### (d) Annual-report findings (FY26 Integrated AR) [V-AR]
+
+- **Operational network: 20,023 ckm, 49,400 MVA, availability 99.70% (FY26). FY26 added 799 ckm (four lines commissioned).** Order book ₹71,779 Cr at Mar-26, with two new projects.
+- **Smart metering FY26:** 11.4 mn meters installed at >23k/day; 83% commercialised; new AEML AMISP for 18.35 lakh meters.
+- **Segments (note 53; smart meters on the non-Ind AS view), FY26 revenue / segment result (EBIT), ₹ Cr:**
+  - Transmission 9,824 / 3,965 (FY25 8,331 / 3,429). Revenue includes SCA construction income.
+  - Distribution 12,450 / 1,239 (FY25 12,266 / 1,525 before the ₹1,506 Cr exceptional).
+  - Smart meter 828 / 368.
+  - **Trading 1,091 / 84** (FY25 1,380 / 14).
+  - Others (EPC) 648 / 132.
+  - **Trading earned only ₹84 Cr of EBIT in all of FY26, vs ₹1,393 Cr of ESP EBITDA in H1 FY27.** The 16× jump in a new, related-party-heavy segment is the single biggest analytical question in the AESL story.
+- **Related-party purchases of goods/services FY26 ≈ ₹22,207 Cr (FY25 ≈ ₹9,081 Cr)** [V-AR line items; E sum]:
+  - **Adani Power ₹9,884 Cr (₹3,390 Cr)**.
+  - Mahan Energen ₹2,545 Cr; Vidarbha Industries Power ₹1,081 Cr; Moxie Power ₹1,008 Cr. Adani Power-group thermal total ≈ ₹14,523 Cr.
+  - **Adani Green SPVs ≈ ₹5,683 Cr (₹2,290 Cr)**, e.g. Adani Hybrid Energy Jaisalmer Four ₹946 Cr.
+  - **Adani Infra (India) EPC ₹1,269 Cr (₹866 Cr)**; APSEZ ₹179 Cr; Ambuja ₹187 Cr.
+  - Sales to Adani Power ₹720 Cr.
+  - **These related-party purchases exceed the P&L's "cost of power purchased" (₹6,348 Cr) plus "purchases of stock-in-trade" (₹1,004 Cr).** Some flows are presumably netted (trading presented net) or capitalised. **Ask the company how the ESP/trading flows are presented (gross vs net) and what share of ESP revenue is related-party** [E].
+- **Group PPAs (note 44):**
+  - **AEML: 25-yr, 700 MW hybrid RE PPA with Adani Hybrid Energy Jaisalmer Four at ₹3.24/kWh**; 5-yr, 2 × 250 MW thermal PPA with Adani Power at MERC-determined rates.
+  - **MUL: 15-yr PPAs with Adani Power — 360 MW at ₹5.00/kWh (85% PLF) and 800 MW at ₹4.60/kWh; plus 40 + 10 MW at ₹4.669/kWh for 25 years.**
+- **Contingent liabilities ₹1,799 Cr**, mostly a VIPL fuel-cost claim of ₹1,381 Cr and service tax/wheeling/CSS of ₹354 Cr, recoverable from R-Infra under the AEML SPA. **R-Infra's arbitration claims were settled and withdrawn in FY26.**
+- **Capital commitments ₹38,255 Cr (₹12,312 Cr, 3.1×)**: the UC book is now contracted.
+- **Capital structure (Mar-26):**
+  - Borrowings ₹48,898 Cr (non-current ₹45,367 Cr + current ₹3,531 Cr).
+  - Cash ₹1,735 Cr; other bank ₹2,213 Cr; current investments ₹2,236 Cr.
+  - **NCI ₹1,098 Cr**. OCI hedging gain ₹1,453 Cr (USD bonds).
+- **Ratings (AR):**
+  - ATSOL obligor group and USPP: Fitch BBB-/Stable, Moody's Baa3/Stable.
+  - AEML: Fitch BBB-, S&P BBB-/Stable, Moody's Baa3/Stable, CareEdge Global BBB+.
+  - **Domestic AESL: AA+ (India Ratings, CRISIL), A1+ (ICRA) — not AAA.** AEML AAA.
+- **Shareholding (31-Mar-26):**
+  - Promoter group 72.73%, comprising Adani family entities 59.74% and **promoter-group FPIs 12.99%**.
+  - Public: FPI 12.23%, insurance 3.58%, MF/banks 6.66%, NRI/foreign companies 1.39%, bodies corporate 0.48%, individuals 2.73%.
+  - Shareholders fell from 5.27 lakh to 4.10 lakh.
+- **Distribution sector context (MD&A):** discoms posted aggregate PAT ₹2,701 Cr in FY25; AT&C losses 15.04%; ACS–ARR gap ₹0.06/kWh; national energy shortage 0.03%; Draft Electricity (Amendment) Bill 2026 promotes competition (relevant to AEML parallel licences).
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. National grid stock and additions, FY22–FY27 H1** [V-AR POWERGRID FY26 AR MD&A table (CEA); AESL AR CEA table; FY27 from tndindia V-snip]
+
+| FY | Lines, stock at Mar (ckm) | Lines added (ckm) | Target (ckm) | Transformation, stock (MVA) | MVA added | IR capacity (MW) |
+|---|---|---|---|---|---|---|
+| FY22 | 4,56,716 | ~14,895 [K] | — | 11,04,450 | — | 1,12,250 |
+| FY23 | 4,71,341 | 14,625 | — | 11,80,352 | 75,902 | 1,12,250 |
+| FY24 | 4,85,544 | 14,203 | — | 12,51,080 | 70,728 | 1,18,740 |
+| FY25 | 4,94,374 | **8,830** | ~15,250 [K] | 13,37,513 | 86,433 | 1,18,740 |
+| FY26 | **5,06,513** | **12,139** | 24,400 → 15,382 | **14,50,526** | **1,13,013** | **1,20,340** |
+| FY27 H1 | — | **6,108** (Q1 3,090; Sep-26 1,807) | **16,554** (full year) | — | 35,670 (Apr–Jul, V-snip) | — |
+
+- FY20 ~11,664 and FY21 ~16,750 remain [K].
+- **FY26 by voltage:** 765 kV 5,111 (+137%); 400 kV 3,064; 220 kV 3,964.
+- **FY26 by owner:** central 4,801 (+86%; POWERGRID); state 5,280; private 2,058 vs a 3,217 target.
+- **FY26 by network:** ISTS 6,009 (+85%); InSTS 6,130.
+- **FY26 phasing:** H1 2,411 → 9M 5,077 → FY 12,139.
+
+**D2. CTUIL ISTS rolling plan 2030-31 (envisaged additions)** [V-AR POWERGRID]
+
+| FY | ckm | MVA | Est. cost (₹ Cr) |
+|---|---|---|---|
+| FY26 | 4,872 | 58,815 | 22,797 |
+| FY27 | 25,146 | 2,48,050 | 1,42,979 |
+| FY28 | 6,498 | 1,02,717 | 43,372 |
+| FY29 | 7,726 | 1,04,205 | 51,558 |
+| FY30 | 22,041 | 1,20,260 | 1,95,183 |
+| FY31 | 10,946 | 63,700 | 85,592 |
+| **Total** | **77,228** | **6,97,747** | **5,41,481** |
+
+- Of this, ~42,000 ckm and 414 GVA (₹2.83 L Cr) were already under construction.
+- **The FY27 "plan" of 25,146 ISTS ckm compares with an all-India FY27 target of 16,554 ckm and an FY26 actual ISTS addition of 6,009 ckm.** The rolling plan is a wish list; the slippage is structural [E].
+
+**D3. NEP-Transmission money (₹ L Cr)** [V-AR total; V split via Tribune/ANI]
+- FY23–27: 4.25 (draft 4.76 = ISTS 3.14 + InSTS 1.62).
+- FY28–32: 4.91 = ISTS 3.91 + InSTS 0.99.
+- Total ≈ 9.15.
+- Separately: CEA 900+ GW plan to FY36 ₹7.93 L Cr; ICRA's FY27–FY32 transmission capex estimate ₹5–6 L Cr [V-snip]. **ICRA's number is a useful "realistic" counterweight to the ₹9 L Cr+ headline.**
+
+**D4. ISTS charge pool (NLDC, Dec-2025 billing)** [V-NLDC]
+
+| Item | ₹ Cr/month | Share | Annualised (₹ Cr) [E] |
+|---|---|---|---|
+| All 102 ISTS licensees | 3,959.92 | 100% | ~47,500 |
+| POWERGRID (standalone, YTC ₹34,375 Cr) | 2,919.54 | 73.7% | 35,034 |
+| POWERGRID + 30 TBCB SPVs | ~3,299 | ~83% | ~39,600 |
+| AESL-group ISTS SPVs [E name-match: ATIL, Warora-Kurnool, AESL Mahan, RRWTL, CWRTL, Alipurduar, Bikaner-Khetri, Khavda-Bhuj, Khavda II-A, WRSS XXI(A), Western Transco, Sipat, Fatehgarh-Bhadla, Jam Khambaliya, North Karanpura, Karur] | ~229 | ~5.8% | ~2,750 |
+| Other licensees (IndiGrid SPVs, Resonia, Tata/Powerlinks, Kalpataru, Megha, etc.) | ~432 | ~11% | ~5,200 |
+
+**Read:**
+- **AESL's ISTS revenue is small. Most of its operating transmission is intra-state or regulated by states:** MEGPTCL in Maharashtra, the Rajasthan RVPN-route SPVs, WTPL/WTGL, Mumbai transmission, plus the CERC-regulated ATIL.
+- The AESL ISTS share rises sharply only as its TBCB UC book commissions (FY27–FY30).
+- **The aggregate GNA quantum was 1,23,255 MW, so the average ISTS charge is ~₹3.2 lakh per MW per month (~₹0.44/kWh at 100% load factor)** [E]. This is the cost that the RE waiver phase-out progressively shifts back onto RE buyers.
+
+**D5. Peak demand and energy** [V-AR; record V-snip]
+
+| FY | Installed (GW) | Non-fossil (GW) | Generation (BU) | Energy demand (BU) | Peak met (GW) |
+|---|---|---|---|---|---|
+| FY22 | 399 | 163 | 1,484 | 1,380 | 203 |
+| FY23 | 416 | 179 | 1,618 | 1,512 | 216 |
+| FY24 | 442 | 199 | 1,732 | 1,626 | 243 |
+| FY25 | 475 | 228 | 1,824 | 1,694 | 250 |
+| FY26 | 533 | 283 | 1,840 | 1,707 | 245 |
+| FY27 YTD | — | — | May-26 consumption 164.98 BU (+11.6%) | — | **270.82 (21-May-2026)** |
+
+- FY20 (~183 GW) and FY21 (~190 GW) peaks are [K].
+- **Non-fossil capacity added 55 GW in FY26 while IR capacity grew 1.6 GW and ckm grew 2.5%.** That is the curtailment story in one line.
+
+**D6. CERC 2024–29 RTM parameters (for the "how RTM earns" box)** [V-CERC]
+
+| Parameter | Existing assets (COD < 1-Apr-2024) | New assets (COD ≥ 1-Apr-2024) |
+|---|---|---|
+| Base ROE (post-tax, grossed up) | 15.50% | **15.00%** |
+| Debt : equity | 70:30 normative | 70:30 |
+| Depreciation | 5.28% SL for 12 yrs, then spread | **4.22% SL for 15 yrs**, then spread |
+| Useful life (lines) | 35 yrs | 35 yrs |
+| IoWC | SBI 1-yr MCLR + 325 bp | same |
+| NATAF (recovery) | AC 98.00%; HVDC 95.00% | same |
+| Incentive band | AC 98.50% → 99.75% cap (≤~1.27% of AFC); HVDC from 97.50% | same |
+| O&M | voltage-wise norms per bay / MVA / km, +~5.25%/yr | same |
+
+**Worked-example correction (replaces §C.1 year-1 AFC for a NEW ₹1,000 Cr asset)** [E]:
+- ROE 15.0% × ₹300 Cr = ₹45.0 Cr post-tax (₹60.1 Cr grossed up at 25.17%).
+- Depreciation 4.22% = ₹42.2 Cr.
+- Interest ~₹52.5 Cr; O&M ~₹18 Cr; IoWC ~₹4 Cr.
+- **Year-1 AFC ≈ ₹177 Cr (17.7% of capex vs ~19% under the old regime).** Maximum incentive at 99.75% is ~₹2.2 Cr.
+- Post-tax ROE on equity is unchanged by availability above 98% except for the incentive.
+
+**D7. Global peers, TTM P/E Oct-2026** [V companiesmarketcap]
+
+| Company | TTM P/E |
+|---|---|
+| Terna | 16.6× (end-2025 16.3×) |
+| Redeia (Red Eléctrica) | 13.8× (end-2025 16.9×) |
+| AEP | 18.6× |
+| Fortis (ITC Holdings parent) | 24.1× |
+| National Grid | 15–19× (provider conflict) |
+| POWERGRID | 14.3× |
+| AESL | 40.3× TTM / 62.4× FY26 |
+| India 10-yr G-sec | 7.47% (22-Oct-2026) [V] |
+
+**POWERGRID's earnings yield (7.0%) is now below the 10-yr G-sec (7.47%).** In Jun-2026 the primer's ~16.7× P/E implied a ~6.0% earnings yield vs a ~6.5–7.0% G-sec [E]. The equity's yield premium over sovereign debt has gone negative, which is the cleanest single explanation for the October de-rating [E].
+
+---
+
+## 4.4 Gap log (each §H item and each item in the prompt)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| H1 | National ckm FY20–FY26 vs targets; FY26 12,139 vs 9M 5,077; FY25 "decade low"; H1 FY27 | **Filled** for FY23–FY27 H1 (FY25 8,830 confirmed; FY26 12,139 confirmed; Q4 bunching explains the 9M conflict; H1 FY27 6,108). **Open:** FY20–FY22 additions and FY24/FY25 targets (still [K]) | POWERGRID and AESL ARs [V-AR]; tndindia [V-snip]. CEA dashboard PDFs downloaded empty |
+| H2 | IR capacity Mar-2026 | **Filled:** 1,20,340 MW | POWERGRID AR [V-AR] |
+| H3 | CERC 2024–29 final parameters | **Filled** (ROE 15.5%/15.0%, NATAF and incentive band, depreciation 5.28%/4.22%, IoWC, O&M norms, D:E) | CERC notification PDF [V-CERC] |
+| H4 | POWERGRID regulated equity | **Still open.** Not in AR, deck or call; ~₹83k Cr proxy stays [E]. Analyst asked about normative vs actual debt on 7-Aug; the CMD promised to revert | AR grep "regulated equity/equity base" — none |
+| H5 | POWERGRID cash / net debt | **Filled:** net debt ₹1,38,837 Cr (Mar-26) | AR consolidated balance sheet [V-AR] |
+| H6 | POWERGRID capex/capitalisation FY20–FY26 | **Capex filled FY22–FY26**; FY20–FY21 capex and FY22–FY25 capitalisation **open** (FY20/21 ARs exist on BSE but were not read; budget) | AR five-year table [V-AR] |
+| H7 | TBCB awards by winner FY24–FY27; bid IRR | **Partly filled:** FY25 AESL 28.6% [V-snip]; 9M FY26 12 schemes / 7 winners, AESL top by tariff [V-snip]; Q1 FY26 PG + AESL only; FY27 YTD company claims. **Winner-wise tables are paywalled (tndindia).** Bid IRR: no published source; replaced by a sensitivity grid anchored on Vizag's 10.2% tariff/cost [E] | tndindia (paywall), ICRA search (no IRR content) |
+| H8 | ISTS pool | **Filled:** ₹3,959.92 Cr/month → ~₹47.5k Cr/yr | NLDC notification [V-NLDC] |
+| H9 | NEP inter/intra split | **Filled (by period):** FY28–32 ISTS ₹3.91 / InSTS ₹0.99 L Cr; FY23–27 ₹4.25 L Cr (draft 66/34). CEA PDF itself not reached | Tribune/ANI [V]; tndindia [V-snip] |
+| H10 | US matter | **Filled:** with prejudice (counts 2–4, three named individuals), FCPA/obstruction reserved for five absent co-defendants; SEC US$6 mn + US$12 mn; AESL never named (NSE clarification 21-Nov-2024); OFAC = Adani Enterprises. **Open:** whether the court later dismissed the reserved counts after 31-Aug-2026 | ThePrint, OFAC [V]; others [V-snip] |
+| H10b | Kenya KETRACO | **Filled** [V-snip]: US$736 mn, 30-yr PPP signed Oct-2024, cancelled 21-Nov-2024 citing "new information provided by investigative agencies and partner nations"; group said no SEBI disclosure needed | aljazeera/deccanherald/theeastafrican |
+| H11 | Promoter pledge; QIA/IHC/TotalEnergies | **Filled:** pledge ~0.54% (Mar-26) [V-snip]; QIA 25.10% of AEML [V-AR]; IHC down to 0.85% after Aug-2025 sale [V-snip]; TotalEnergies not in AESL [V-AR footnote]. **Open:** Sep-26 pledge figure | — |
+| H12 | ESP counterparties / related-party nature | **Filled (substantially):** ~4,000 of 5,000 MW from Adani Green, market-linked pricing [V-call]; FY26 related-party purchases ≈₹22.2k Cr [V-AR]; MSEDCL RTC LoI to Adani Power [V-call]. **Open:** share of ESP revenue that is related-party; gross vs net presentation | — |
+| H13 | AESL operational ckm a year ago | **Filled:** Mar-25 ≈ 19,224 (20,023 − 799); Sep-26 = Mar-26 = 20,023 | AESL AR [V-AR] |
+| H14 | ₹10,994 vs ₹13,560 Cr | **Reconciled:** table = TBCB ₹10,708 + ROA ₹2,852; headline ≈ TBCB + ~₹280 Cr unexplained | Q1/Q2 decks [V-deck] |
+| H15 | AESL Q2 distribution loss 3.30% typo | **Still open** (needs the Q2 call). Use H1 4.29% | — |
+| H16 | RDSS installs; state pushback | **Filled:** 3.90 → 4.69 → 5.73 crore; UP postpaid switch (May-2026); WB suspension; Maharashtra agitation [V-snip] | — |
+| H17 | 10-yr G-sec | **Filled:** 7.47% (22-Oct-2026) | tradingeconomics [V] |
+| H18 | Global peers | **Mostly filled:** Terna, Redeia, AEP, Fortis P/E [V]. **Open:** Elia; State Grid (unlisted); National Grid provider conflict | companiesmarketcap |
+| H19 | QIA/IHC/TotalEnergies | See H11 | — |
+| H20 | Peak demand series | **Filled:** FY22–FY26 [V-AR]; 270.82 GW record [V-snip] | — |
+| P1 | POWERGRID Q2 FY27 board date | **Still open:** not announced at 23-Oct-2026; last year intimation 24-Oct → board 3-Nov | search [V-snip] |
+| P2 | AESL Q2 FY27 transcript | **Still open:** not filed yet | screener document list |
+| P3 | AESL QIP Jul-2026 terms | **Unchanged [V-snip]:** ₹1,615/sh, ~₹3,500 Cr (company confirms ₹3,500 Cr [V-deck]). Equity capital rose ₹1,201 → ₹1,223 Cr (≈2.2 Cr shares × ₹1,615 ≈ ₹3,550 Cr [E]) — consistent. Aug-2024 QIP ₹8,373 Cr is consistent with equity capital ₹1,115 → ₹1,201 Cr (8.6 Cr shares at ~₹976) [E] | — |
+| P4 | PGInvIT 15% | **Filled:** 136.5 mn units held at Mar-26 [V-AR] | — |
+| P5 | ISTS waiver Apr-2026 extension | **Upgraded but still secondary:** PPA by 31-Mar-2026 plus connectivity date 1-Jul-2025 to 30-Jun-2028 keeps the graded 75/50/25% waiver despite transmission-linked delay; projects with connectivity by 30-Jun-2025 keep 100% [V-snip energetica/solarquarter; MoP order text not fetched] | — |
+| P6 | RE curtailment, MERC ROE, repo 5.50% | **Not re-verified** beyond the sibling dossier (curtailment ~5%, MERC 15.5% wires) and trade-press repo confirmation [V-snip] | — |
+
+---
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### 4.5.1 Insights (for the report's argument)
+
+1. **Two-tier RTM returns.**
+   - From FY25, every new POWERGRID RTM asset earns a 15.0% base ROE (not 15.5%) and depreciates at 4.22% over 15 years (not 5.28% over 12).
+   - New RTM capex is therefore ~7% less tariff-accretive in year 1 than the legacy book [E], while legacy 2012–14 assets keep rolling off their 12-year depreciation, i.e. the "regulatory drag".
+   - Combined with a TBCB-dominated award mix (83% of WIH), **POWERGRID's earnings growth per rupee of capitalisation is structurally lower than its history**. The ₹30k Cr capitalisation guidance probably buys ~₹1,200–1,400 Cr of incremental annual PAT, not more [E]. This fits Q1's "+₹247 Cr PAT on +₹788 Cr revenue".
+2. **The ISTS pool is ~₹47.5k Cr and POWERGRID's group owns ~83% of it.**
+   - AESL's ISTS slice is ~6% today. Its transmission profit comes largely from state-regulated and ROA assets, and from the TBCB book still to be commissioned (FY27–FY30).
+   - "AESL vs POWERGRID" is a contest for new awards, not for today's revenue.
+3. **Execution has turned for POWERGRID but not for private developers.**
+   - H1 FY27 national additions doubled to 6,108 ckm. POWERGRID did 4,715 ckm (89% of its full-year target) while **private developers managed 27% of target**.
+   - **AESL added zero net operational ckm between Mar-26 and Sep-26.**
+   - AESL's FY26 growth came from ESP and meters, not new lines. Its UC tariff (₹10.7k Cr TBCB) is back-ended into FY29–FY30, when the two HVDCs commission.
+4. **IR capacity was flat at 120.3 GW for 15 months while non-fossil capacity rose 55 GW in FY26.**
+   - The NEP needs 168 GW by 2032 (CTUIL: ~167 GW by FY31), i.e. +47 GW in ~5 years vs +8 GW in the last four.
+   - This is why curtailment and ISTS-waiver extensions keep recurring. It argues for a multi-year award pipeline even if execution lags.
+5. **TBCB returns are thinner than the "12–14% equity IRR" shorthand.**
+   - Vizag's tariff is ~10.2% of the estimated cost. On standard financing that is a ~7–8% equity IRR unless the build comes in well under estimate or refinancing helps [E].
+   - AESL's book averages ~12.3% (TBCB ₹10,708 Cr ÷ ₹87,222 Cr) → ~10–11% [E].
+   - POWERGRID's analysts flagged the opposite puzzle: its FY27 awards' ₹2,200 Cr revenue "seems large" vs gross block, i.e. possibly richer tariffs.
+   - **Neither company discloses project-level returns. The writer should present the sensitivity grid in §4.0 #18, not a point estimate.**
+6. **AESL's profit jump is dominated by a related-party-heavy trading engine.**
+   - Trading/ESP made ₹84 Cr of EBIT in FY26 and ₹1,393 Cr of EBITDA in H1 FY27.
+   - ~80% of its supply is from Adani Green at market-linked prices. The marquee 2.5 GW MSEDCL RTC contract was originally awarded to Adani Power.
+   - FY26 related-party purchases rose to ≈₹22.2k Cr. The reported margin is real cash only if the arm's-length pricing of both legs holds; the auditor and audit committee note says RPTs were at arm's length [V-AR].
+   - **The investment question: is ESP an annuity (as management frames it) or a merchant/intra-group transfer-pricing book?**
+7. **Rates now bite: the 10-yr G-sec is 7.47% vs POWERGRID's 7.0% earnings yield and 3.7% dividend yield.**
+   - The regulatory spread (15.0% new-asset ROE − 7.47% G-sec ≈ 7.5 pp) is the narrowest since 2023 [E].
+   - RTM economics are fixed to FY29, so this is a valuation and TBCB-bid-hurdle story rather than an earnings story.
+   - Union Bank expects one or two more hikes in FY27 [V-snip].
+8. **POWERGRID's reported FY26 PAT sits between two tax-regime effects.**
+   - The ₹832 Cr DTL credit flatters it.
+   - A ~₹2.8k Cr negative regulatory-deferral movement (EPS ex-RDA ₹20.11 vs ₹17.13) depresses it.
+   - The two are linked. **Neither "₹15,096 Cr ex-credit" nor ₹15,928 Cr is a clean run-rate; Q1 FY27 annualised (~₹14.4–15.0k Cr) is the more honest base** [E].
+
+### 4.5.2 New primer issues (in addition to §3.4)
+
+**power-grid.html**
+- **ROE regime (§01/§05):** state that assets commissioned from Apr-2024 earn a **15.0%** base ROE (legacy 15.5%) and depreciate at 4.22% over 15 years [V-CERC]. Any "15.5% regulated ROE" line must say "on pre-2024 assets".
+- **Availability wording (§01):** replace "99.75% normative threshold" with "full tariff at 98% availability; incentive from 98.5% capped at 99.75% (≤~1.3% of AFC)" [V-CERC]. Supersedes the §3.4 suggestion that 99.75% was "likely an incentive cap" — it is confirmed.
+- **Net debt missing (§10/strip):** add **net debt ₹1,38,837 Cr (Mar-26), ND/EBITDA 3.5×, EV/EBITDA ~9.2×** [V-AR].
+- **Capex history (§07):** FY22 ₹9,060 Cr → FY26 ₹39,967 Cr (4.4×) with FCF down from ₹31.1k Cr (FY23) to ₹3.7k Cr (FY26) [V-AR, V screener].
+- **ISTS share (§02/§03):** add "≈74% of all-India ISTS transmission charges standalone, ≈83% with its TBCB SPVs (NLDC, Dec-2025 billing)" [V-NLDC]. A more defensible scale claim than "85% of inter-state".
+- **Contingent liabilities (§12 risks):** ~₹7.4k Cr, incl. land/crop compensation claims ₹3,974 Cr (+13%), evidence of ROW cost creep [V-AR].
+- **Rates context (§11):** 10-yr G-sec 7.47% vs earnings yield ~7.0%; the primer's valuation discussion predates the hike.
+- **Execution (§12):** H1 FY27 POWERGRID line additions 4,715 ckm (89% of FY27 target) [V-snip]. A positive update to the "execution gap" theme.
+
+**adani-energy-solutions.html**
+- **Operational growth stalled (§01/§03):** operational ckm 20,023 at both Mar-26 and Sep-26; only 799 ckm added in FY26 [V-AR]. The "27,949/29,802 ckm" headline is mostly a pipeline.
+- **ESP related-party sourcing (§04/§06):** ~4,000 MW of ~5,000 MW of supply from Adani Green at market-linked prices; MSEDCL 2.5 GW RTC LoI originally to Adani Power [V-call]. FY26 related-party purchases ≈₹22.2k Cr (FY25 ≈₹9.1k Cr) [V-AR]. Trading segment EBIT was only ₹84 Cr in FY26.
+- **Group PPAs (§04 distribution):** AEML 700 MW hybrid at ₹3.24/kWh (25 yrs) from an Adani Green SPV and 500 MW thermal from Adani Power; MUL PPAs with Adani Power at ₹4.60–5.00/kWh [V-AR].
+- **Shareholder register (§08):** IHC is no longer material (0.85% after the Aug-2025 sale) [V-snip]. QIA 25.1% of AEML confirmed [V-AR]. Promoter group includes 12.99% held via promoter-group FPIs [V-AR]. Pledge ~0.5% [V-snip].
+- **Domestic rating (§08/§10):** AESL standalone is **AA+** (India Ratings/CRISIL), not AAA; AAA is AEML [V-AR].
+- **US case precision (§06):** the 10-Aug-2026 dismissal was **with prejudice** for the three Adani-linked individuals. FCPA and obstruction counts concerned five other (absent) defendants and were reserved. SEC penalties US$6 mn (Gautam) + US$12 mn (Sagar). AESL was never named (NSE clarification 21-Nov-2024) [V/V-snip].
+- **Kenya (§06):** add the US$736 mn KETRACO PPP cancellation on 21-Nov-2024 [V-snip]. A direct AESL casualty of the indictment.
+- **TBCB returns (§05):** the Vizag tariff is ~10.2% of the estimated project cost [V-snip/E]. If the primer implies mid-teens returns on new wins, soften it.
+- **Locked-in tariff (§05):** "₹10,994 Cr" excludes the ₹2,852 Cr ROA "estimated billing" line; TBCB-only tariff in the table is ₹10,708 Cr [V-deck].
+
+### 4.5.3 Source URLs added in Part 4
+- POWERGRID AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/5bfc82cf-cf35-4f6d-9d47-c00b6583a3bc.pdf [V-AR]
+- AESL AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/6bd769e5-13a6-46fd-8e87-b80b232d03d3.pdf [V-AR]
+- CERC Tariff Regulations 2024: https://cercind.gov.in/regulations/notification-2024.pdf (listing: https://cercind.gov.in/Current_reg.html) [V-CERC]
+- NLDC transmission-charge notification, Feb-2026 billing: https://archive.prayaspune.org/collection/5/document/1429 [V-NLDC]
+- OFAC 18-May-2026: https://ofac.treasury.gov/recent-actions/20260518 [V]
+- EDNY dismissal: https://theprint.in/economy/us-court-permanently-dismisses-criminal-case-against-gautam-adani/3011686/ [V]
+- SEC penalties: https://americanbazaaronline.com/2026/05/15/gautam-and-sagar-adani-to-pay-18-million-in-sec-settlement-over-fraud-allegations/ [V-snip]
+- AESL NSE clarification 21-Nov-2024: https://nsearchives.nseindia.com/corporate/ADANIENSOL_21112024141718_AESL_-_NSE_-_Clarification.pdf [V-snip]
+- Kenya: https://www.aljazeera.com/economy/2024/11/21/kenya-cancels-more-than-2-5bn-in-deals-with-adani-after-us-indictment [V-snip]
+- 10-yr G-sec: https://tradingeconomics.com/india/government-bond-yield [V]
+- H1 FY27 line additions: https://www.tndindia.com/transmission-line-addition-spikes-in-september-2026-achievement-in-h1fy27-more-than-doubles-year-on-year/amp/ [V]
+- NEP split: https://www.tribuneindia.com/news/business/india-to-spend-about-5-lakh-crore-in-power-grid-modernisation-between-2027-32-report [V]; https://www.tndindia.com/nep-envisages-rs-4-76-trillion-capex-in-power-transmission/ [V-snip]
+- Vizag award: https://solarquarter.com/2026/07/24/adani-energy-solutions-wins-inr-8500-crore-transmission-project-in-andhra-pradesh/ ; https://www.tndindia.com/adani-energy-wins-vizag-green-hydrogen-scheme-under-tbcb/amp/ [V-snip]
+- IHC sale: https://www.theweek.in/wire-updates/business/2025/08/06/dcm129-biz-ihc-adani-energy.html [V-snip]
+- Smart-meter pushback (UP): https://www.outlookbusiness.com/economy-and-policy/up-govt-scraps-smart-prepaid-meter-system-shifts-all-consumers-to-postpaid-mode [V-snip]
+- Peak 270.82 GW: https://www.spglobal.com/energy/en/news-research/latest-news/lng/052226-indias-peak-power-demand-hits-record-high-amid-heatwaves-spurring-gas-demand [V-snip]
+- Peer P/Es: https://companiesmarketcap.com/terna/pe-ratio/ ; /red-electrica/pe-ratio/ ; /american-electric-power/pe-ratio/ ; /fortis/pe-ratio/ ; /national-grid/pe-ratio/ [V]
+- ISTS waiver extension: https://www.energetica-india.net/news/ministry-of-power-extends-ists-charge-waivers-for-solar-wind-projects-hit-by-grid-delays [V-snip]
+- Scratch notes for this pass: /tmp/power-transmission-deep/notes.md
+
+*End of Part 4.*
