@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Indian credit ratings and financial research: how an issuer-pays rating oligopoly earns, why rating revenue grew while bond issuance fell in 2026, what RBI's 2027 risk-weight rules mean, and how CRISIL's ratings franchise and offshore analytics engine compare with ICRA, CARE and the global raters.">
+<title>Indian Credit Ratings &amp; Research — Sub-sector Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#0909B3;          /* deep ratings blue */
+    --brand-bright:#3D5AFE;   /* bright cobalt accent */
+    --gold:#C8961E;           /* old gold - accent */
+    --wtg:#2E5FA8;            /* steel blue */
+    --epc:#5C8FD0;            /* sky blue */
+    --om:#3B3F8F;            /* indigo slate */
+    --spec:#3D5AFE;          /* cobalt accent */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#0909B3,#3D5AFE);}
+  .fill.gold{background:linear-gradient(90deg,#C8961E,#E0B04A);}
+  .fill.wtg{background:linear-gradient(90deg,#2E5FA8,#4C7CC4);}
+  .fill.om{background:linear-gradient(90deg,#3B3F8F,#5A5EAE);}
+  .fill.spec{background:linear-gradient(90deg,#3D5AFE,#6A82FF);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Ratings · Credit Ratings &amp; Research</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> How an opinion earns</a></li>
+    <li><a href="#p2"><span class="n">02</span> Size of the pool</a></li>
+    <li><a href="#p3"><span class="n">03</span> Bonds down, raters up</a></li>
+    <li><a href="#p4"><span class="n">04</span> The debt market underneath</a></li>
+    <li><a href="#p5"><span class="n">05</span> Eight licences, two tiers</a></li>
+    <li><a href="#p6"><span class="n">06</span> Five business models</a></li>
+    <li><a href="#p7"><span class="n">07</span> The rating that sets the risk weight</a></li>
+    <li><a href="#p8"><span class="n">08</span> SEBI's rulebook</a></li>
+    <li><a href="#p9"><span class="n">09</span> Five eras of Indian ratings</a></li>
+    <li><a href="#p10"><span class="n">10</span> The IL&amp;FS scar</a></li>
+    <li><a href="#p11"><span class="n">11</span> Reading a rater: the KPIs</a></li>
+    <li><a href="#p12"><span class="n">12</span> The peer table</a></li>
+    <li><a href="#p13"><span class="n">13</span> India's analysts, Wall Street's spreadsheets</a></li>
+    <li><a href="#p14"><span class="n">14</span> Who is winning</a></li>
+    <li><a href="#p15"><span class="n">15</span> The lens company: CRISIL</a></li>
+    <li><a href="#p16"><span class="n">16</span> Three raters, three parents</a></li>
+    <li><a href="#p17"><span class="n">17</span> The global lens</a></li>
+    <li><a href="#p18"><span class="n">18</span> Technology &amp; disruption</a></li>
+    <li><a href="#p19"><span class="n">19</span> Bull vs bear</a></li>
+    <li><a href="#p20"><span class="n">20</span> What to watch</a></li>
+    <li><a href="#p21"><span class="n">21</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Ratings · Credit Ratings &amp; Research</span>
+    <span class="tag gold">1 listed company</span>
+  </div>
+  <h1>Indian credit ratings: <em>bonds down, raters up</em></h1>
+  <p class="dek">A complete guide to the business of judging Indian credit: how eight licensed agencies turn an opinion into a 50–60% margin, why their revenue grew fastest in the year bond issuance shrank, how RBI's 2027 capital rules will put a price on each agency's default record, and why the only member of this sub-sector, CRISIL, earns most of its money exporting research to Wall Street.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹61.5 <small>lakh Cr</small></div><div class="l">Corporate bonds outstanding, Sep-2026 (SEBI)</div></div>
+    <div class="cell"><div class="v">46.8%</div><div class="l">CRISIL share of fresh listed ratings, FY26</div></div>
+    <div class="cell"><div class="v">~₹1,395 <small>Cr</small></div><div class="l">Domestic ratings revenue, listed CRAs (indicative)</div></div>
+    <div class="cell"><div class="v">19.1%</div><div class="l">Bank credit growth, Aug-2026 (10.3% a year ago)</div></div>
+    <div class="cell"><div class="v">₹4,310 <small>Cr</small></div><div class="l">CRISIL revenue, 12 months to Sep-2026</div></div>
+    <div class="cell"><div class="v">20%</div><div class="l">AA bank-loan risk weight from Apr-2027 (was 30%)</div></div>
+  </div>
+  <p class="prov">Basis: CRISIL reports on a calendar year, so its figures are CY25 (Jan–Dec 2025) and Q3 CY26 (Jul–Sep 2026, reported 23 Oct 2026), consolidated. ICRA and CARE Ratings appear as reference peers on India's fiscal year: FY26 (Apr-25 to Mar-26) and Q1 FY27 (Apr–Jun 2026). Market data from screener.in, 23 Oct 2026. Industry data from SEBI, RBI, CareEdge, Prime Database (via CRISIL) and company filings. The domestic ratings figure sums Crisil Ratings Ltd (CY25), CARE standalone and ICRA's ratings segment (FY26), so it mixes years. Estimates are labelled.</p>
+</header>
+
+<section class="part" id="p0">
+  <div class="part-head"><span class="pno">00</span><h2>The one-page view: an opinion business that grew while bonds shrank</h2></div>
+  <p class="part-sub">Five forces explain Indian credit ratings and research. Here they are before the detail.</p>
+
+  <p class="lead">Two industries share the name "credit ratings and research" in India. The first is the <strong>domestic rating business</strong>. Eight SEBI-registered agencies give published opinions on whether a borrower will repay a bond, a commercial-paper programme, a securitised pool or a bank loan. The borrower pays the fee. Investors, banks and regulators use the opinion. The business is small. The three listed raters booked about <strong>₹1,395 crore</strong> of domestic ratings revenue in their latest full years, and the whole industry, including the unlisted India Ratings, Acuité, Infomerics, Brickwork and Acer, is perhaps <strong>₹1,700–2,000 crore</strong> (an indicative estimate, because the unlisted agencies' revenue is not public). But it is one of the most profitable businesses in Indian finance. The domestic rating arms earn 48–60% margins on almost no capital, because their product is an analyst's judgement backed by a licence and a reputation.</p>
+  <p>The second industry is the <strong>export of financial research and analytics</strong> from India to global banks, asset managers and the rating agencies' own foreign parents: credit notes for S&amp;P's rating committees, risk models for European banks, league tables of investment-banking revenue, client surveys and wealth-adviser benchmarks. It is larger, lower-margin and exposed to global bank budgets, the rupee and generative AI. CRISIL, the only listed member of this sub-sector, does both. About <strong>70% of its revenue</strong> comes from the research engine and about <strong>69% is earned outside India</strong>, yet its small domestic rating subsidiary earns close to 39% of group profit. To understand CRISIL you have to understand both industries, and how each one moves.</p>
+
+  <h3>The five forces</h3>
+  <ul class="clean">
+    <li><strong>Bank credit versus the bond market.</strong> Ratings demand comes from two credit channels with different fee yields. Bonds pay more per mandate; bank-loan ratings give volume and stickiness. In 2026 bank credit grew 19.1% (August) while corporate bond issuance fell 6% in the first nine months of the calendar year. Rating revenue still grew 15–29% at the listed agencies. Section 03 explains why.</li>
+    <li><strong>The surveillance annuity and a two-tier oligopoly.</strong> Every outstanding rating pays an annual monitoring fee, so this year's revenue follows last year's new mandates. In listed bonds investors effectively choose the agency, and CRISIL takes 46.8% of fresh ratings. In small-company bank-loan ratings, borrowers shop on price, and the default record of the long tail is weaker.</li>
+    <li><strong>Regulation now prices rating quality.</strong> RBI's Standardised Approach directions, effective 1 April 2027, cut the risk weight on an AA loan from 30% to 20%, but only if the rating agency's own one-year default rate for AA stays within RBI's ceiling. On some averaging windows, several grades at the big agencies breach those ceilings, so the relief is not assured. SEBI, meanwhile, widened the licence in January 2026.</li>
+    <li><strong>CRISIL's offshore analytics engine.</strong> Research, Analytics &amp; Solutions (RAS) is about 70% of CRISIL's revenue. Its margin fell to 17.2% in Q3 CY26 from 21.9% a year earlier. S&amp;P Global entities pay about 13% of CRISIL's revenue. The rupee, the hedge book (struck at ₹88.84 per US dollar for 2026) and generative AI decide this engine's profits.</li>
+    <li><strong>Reputation and defaults.</strong> IL&amp;FS defaulted in 2018 while rated AAA and AA. CARE's operating margin fell from 63% to 33%, two chief executives left their posts, and SEBI rebuilt its default-disclosure rules. Every rating agency's value rests on the belief that its AAA means AAA.</li>
+  </ul>
+
+  <div class="mini-stats">
+    <div class="ms"><div class="msv">₹670.6 Cr</div><div class="msl">Crisil Ratings Ltd turnover, CY25, at a 59.5% pre-tax margin: 38.8% of CRISIL group profit on 7.5% of its net assets</div></div>
+    <div class="ms gold"><div class="msv">−6% vs +25%</div><div class="msl">Corporate bond issuance, 9M CY26 (Prime) vs Crisil Ratings revenue growth, Q3 CY26</div></div>
+    <div class="ms red"><div class="msv">17.2%</div><div class="msl">CRISIL research (RAS) segment margin in Q3 CY26, down from 21.9% a year earlier</div></div>
+  </div>
+
+  <div class="chart">
+    <div class="c-title">How big is CRISIL in Indian ratings? It depends on the basis</div>
+    <div class="c-sub">CRISIL's share on five bases. SEBI count share is reported; the revenue shares are INDICATIVE calculations that mix CRISIL's CY25 with ICRA and CARE's FY26, and the pool share uses the ~₹1,850 Cr midpoint estimate. Sources: SEBI Annual Report 2025-26; company filings; dossier arithmetic</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Same-quarter ratings revenue<small>Apr–Jun 2026, segment incl. GAC</small></div><div class="track"><span class="fill ink" style="width:62.6%"></span></div><div class="bval">62.6%</div></div>
+      <div class="bar-row"><div class="blab">Same quarter, ex-GAC<small>indicative</small></div><div class="track"><span class="fill spec" style="width:53%"></span></div><div class="bval">~53%</div></div>
+      <div class="bar-row"><div class="blab">Revenue of listed CRAs<small>CY25/FY26, indicative</small></div><div class="track"><span class="fill brand" style="width:48%"></span></div><div class="bval">~48%</div></div>
+      <div class="bar-row"><div class="blab">Fresh listed ratings<small>SEBI count, FY26</small></div><div class="track"><span class="fill gold" style="width:46.8%"></span></div><div class="bval">46.8%</div></div>
+      <div class="bar-row"><div class="blab">Whole domestic pool<small>indicative</small></div><div class="track"><span class="fill wtg" style="width:36%"></span></div><div class="bval">~36%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 100%. The grey bar overstates CRISIL because its reported Ratings segment includes the Global Analytics Centre, a cost-plus service for S&amp;P. Our earlier primer's "&gt;60% share" has no verifiable basis.</span></div>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>A rating agency sells a published opinion, not a loan or a product. The borrower pays for it because investors and banks will not lend cheaply without it. Once the rating exists, the agency is paid every year to keep watching, so a good year of new mandates keeps paying for years afterwards. That is why rating revenue can rise even when fewer bonds are sold.</p>
+  </div>
+
+  <div class="chart">
+    <div class="c-title">CRISIL: research is most of the revenue, ratings is half the profit</div>
+    <div class="c-sub">Share of 9M CY26 (Jan–Sep 2026) segment revenue and segment profit, consolidated. Ratings segment includes the Global Analytics Centre. Source: CRISIL Q3 CY26 segment statement</div>
+    <div class="stack-row"><div class="blab">Revenue ₹3,230 Cr</div><div class="stack"><span style="width:30.1%;background:var(--brand)">Ratings 30%</span><span style="width:69.9%;background:var(--epc)">Research 70%</span></div></div>
+    <div class="stack-row"><div class="blab">Segment profit ₹907 Cr</div><div class="stack"><span style="width:50%;background:var(--brand)">Ratings 50%</span><span style="width:50%;background:var(--epc)">Research 50%</span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>Ratings services: ₹973.4 Cr revenue, ₹453.3 Cr profit (46.6% margin)</span><span><i style="background:var(--epc)"></i>Research, Analytics &amp; Solutions: ₹2,256.4 Cr revenue, ₹453.4 Cr profit (20.1%)</span></div>
+  </div>
+
+  <p>The paradox of 2026 sits at the centre of this report. The Indian corporate bond market had a poor year. Rising government-bond yields after the West Asia war began in February, and a rate hike to 5.50% in October, made bank loans cheaper than bonds for many top borrowers. Value raised through private placements fell 8.8% in FY26 on SEBI's own data. Yet Crisil Ratings' revenue grew 25.6% in the July–September quarter of 2026, CARE's ratings revenue grew 19.1% in April–June and ICRA's about 13%. Three mechanisms explain it: bank credit growing at 19%, which multiplies bank-loan ratings; the annual surveillance fees on the large crop of 2024–25 mandates; and a rise in the <em>number</em> of bond issues even as their value fell. Raters bill per issue and per issuer far more than per rupee.</p>
+  <p>The second big change is regulatory. From April 2027, RBI will let banks hold less capital against loans rated AA, BBB and BB, but it ties each grade's risk weight to the rating agency's own observed default rate. For the first time in Indian banking, the quality of a rating agency's track record has a price that a bank treasurer can calculate. On the data we have, the top agencies pass comfortably at AAA, AA and A on recent windows, but every agency's BB grade breaches RBI's 1% ceiling, and CRISIL's BBB is fractionally over the 0.40% ceiling on SEBI's ten-year window. RBI has not said which averaging window it will use. That single definitional choice, still open in October 2026, will decide how much capital relief Indian banks get and which agencies they prefer.</p>
+  <p>The third story is CRISIL's own. The company reported its July–September quarter on 23 October 2026: revenue up 20.2% to ₹1,095.2 crore, but profit before tax up only 5.3% and net profit up 5.9% to ₹204.6 crore. Ratings delivered; the research engine did not. RAS revenue grew 16.5%, but its profit fell 8.3%, as Coalition Greenwich renewals pulled into the first half of the year, the FX gain shrank from ₹15.5 crore to ₹2.3 crore and amortisation from the PriceMetrix acquisition rose. At ₹34,745 crore of market value and 38.8 times trailing earnings, CRISIL is priced as a global compounder. Its three-year profit growth to CY25 was about 7% a year.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>CRISIL is a small, very profitable Indian rating agency attached to a large, moderately profitable research exporter, controlled by S&amp;P Global. The rating half is booming on bank lending. The research half is slowing and is exposed to the rupee and to AI. The stock price assumes both halves keep compounding.</p>
+  </div>
+
+  <p>How to use this report. Sections 01 to 06 explain the product, the money flows, the size of the market and the structure of the industry. Sections 07 and 08 cover the two regulators, with a deep dive on RBI's 2027 rules. Sections 09 and 10 cover the history and the IL&amp;FS shock that still shapes behaviour. Section 11 is the KPI masterclass: every number an investor needs to read a rater's results, with worked examples. Sections 12 to 17 compare CRISIL with ICRA, CARE and the global agencies, and Section 13 is a deep dive into CRISIL's offshore research business. The report closes with technology, the bull and bear cases, a watch-list with thresholds and a glossary. ICRA and CARE Ratings belong to other sub-sectors in our library, so they appear here as reference peers, not as members.</p>
+</section>
+
+<section class="part" id="p1">
+  <div class="part-head"><span class="pno">01</span><h2>How an opinion earns: the two value chains</h2></div>
+  <p class="part-sub">A rating is paid for by the borrower, used by the lender and policed by two regulators. Research is paid for by a global bank and billed in dollars.</p>
+
+  <p class="lead">A credit rating is a published opinion on the probability that a borrower will pay interest and principal on time, expressed on a standard scale from AAA (highest safety) down to D (default) for long-term debt, and A1+ to A4 for short-term paper such as commercial paper. In India almost all ratings are on the <strong>Indian national scale</strong>, which ranks Indian borrowers against each other. An Indian AAA is not a global AAA: on the global scale India's sovereign sits at the lowest investment-grade rung, and no Indian company is rated above it there. The national scale matters because it is what Indian investors, banks and regulators use to set limits and prices.</p>
+
+  <div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">The ratings value chain: from a funding need to an annual fee</div>
+    <div class="flow-row">
+      <div class="node om"><div class="ntag">Step 1 · Trigger</div><div class="nname">A borrower needs money</div><div class="nwho">A listed bond or CP needs a rating by SEBI rule; a bank loan needs one to cut the bank's capital charge.</div></div>
+      <div class="arrow">→</div>
+      <div class="node wtg"><div class="ntag">Step 2 · Mandate</div><div class="nname">Agreement and initial fee</div><div class="nwho">Fee scaled to the size of the debt, with floors and caps. Paid by the issuer.</div></div>
+      <div class="arrow">→</div>
+      <div class="node spec"><div class="ntag">Step 3 · Analysis</div><div class="nname">Analysts and committee</div><div class="nwho">Management meetings, models, peer benchmarks; a rating committee with no sales staff decides.</div></div>
+      <div class="arrow">→</div>
+      <div class="node epc"><div class="ntag">Step 4 · Publication</div><div class="nname">Press release</div><div class="nwho">Rating, outlook and rationale go to the website, the exchanges and the monthly bulletin.</div></div>
+      <div class="arrow">→</div>
+      <div class="node om"><div class="ntag">Step 5 · Surveillance</div><div class="nname">Annual review fee</div><div class="nwho">Reviewed at least once a year until the debt is repaid or the rating is withdrawn.</div></div>
+    </div>
+    <div class="flow-note">The money is earned twice: once at Step 2 and then every year at Step 5. Step 3 is where the cost sits, and Step 4 is where reputation is won or lost, because every rating is public.</div>
+  </div>
+
+  <p>The trigger comes from two places. On the <strong>capital-market route</strong>, SEBI's issue regulations require a rating from a registered agency for public issues and listed private placements of debt, and investor mandates add their own floors: insurers and pension funds, for example, may invest only in paper rated AA or above. On the <strong>bank route</strong>, a bank lending to a large company prefers the loan to be rated because an external rating can cut the capital it must hold. That is the bank-loan rating, or BLR, a product born when RBI adopted the Basel II capital rules in 2007–08. CRISIL says it was the first agency to rate a bank loan in India. BLRs are less glamorous than bond ratings, and CARE's management calls them "fairly commoditized", but they make up the bulk of rated entities. Crisil Ratings alone had about 7,300 companies with active ratings at March 2026 and issued more than 1,280 new BLRs in CY25.</p>
+  <p>The fee is paid by the borrower. That is the <strong>issuer-pays model</strong>, used by every large rating agency in the world, and it carries an obvious conflict: the party being judged pays the judge. The industry manages that conflict with rules (rating committees exclude business-development staff, analysts rotate, non-rating fees from rated entities are disclosed) and, more powerfully, with reputation. A rating is only worth paying for if investors trust it. In the listed bond market investors effectively choose which agency's rating they accept, and that is why one agency can take nearly half of all fresh ratings while charging more per mandate than its rivals.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>The borrower pays, but the lender decides whether the rating is worth anything. An agency whose AAA ratings keep defaulting will find that investors demand a higher interest rate for its AAA paper, and borrowers will stop paying it for ratings. The licence lets an agency rate; only its track record makes the rating valuable.</p>
+  </div>
+
+  <h3>The second value chain: research exported from India</h3>
+  <p>CRISIL's larger business looks nothing like a rating agency. Its Research, Analytics &amp; Solutions segment sells to global corporate and investment banks, asset managers, insurers and private-credit funds, and it serves S&amp;P Global's rating committees through a dedicated Global Analytics Centre (GAC). The buyers have two motives. The first is cost and scale: Indian analysts can build a credit model, validate a bank's risk model against US or UK supervisory rules, or write first-draft equity research at a fraction of the cost in New York or London. The second is proprietary data the buyer cannot build for itself, such as Coalition Greenwich's league tables of investment-bank revenue and headcount, its client-experience surveys, and PriceMetrix's benchmarks of wealth-adviser productivity.</p>
+
+  <div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">The research-export value chain: an Indian analyst's hour billed in dollars</div>
+    <div class="flow-row">
+      <div class="node om"><div class="ntag">Buyer</div><div class="nname">Global bank or asset manager</div><div class="nwho">Front office, risk, compliance; or S&amp;P's rating analysts.</div></div>
+      <div class="arrow">→</div>
+      <div class="node wtg"><div class="ntag">Contract</div><div class="nname">FTE, project or subscription</div><div class="nwho">Billed in US$, £ or €; benchmarks sold as annual subscriptions.</div></div>
+      <div class="arrow">→</div>
+      <div class="node spec"><div class="ntag">Delivery</div><div class="nname">Indian analyst teams</div><div class="nwho">88% of CRISIL's 5,081 staff sit in India; nearshore centres in China and Colombia.</div></div>
+      <div class="arrow">→</div>
+      <div class="node epc"><div class="ntag">Conversion</div><div class="nname">Hedged into rupees</div><div class="nwho">Forward contracts: US$69.45m sold at ₹88.84 for 2026 deliveries.</div></div>
+      <div class="arrow">→</div>
+      <div class="node om"><div class="ntag">Margin</div><div class="nname">17–22% segment profit</div><div class="nwho">Rupee costs against foreign-currency revenue: the spread is the business.</div></div>
+    </div>
+    <div class="flow-note">Unlike a rating, this work has close substitutes: other outsourcers such as Acuity Knowledge Partners and Evalueserve, the client's own India captive centre, and increasingly generative-AI tools.</div>
+  </div>
+
+  <div class="tbl-wrap">
+  <table>
+    <caption>What the Indian ratings and research industry sells</caption>
+    <thead><tr><th>Product</th><th>What it is</th><th>Who pays / who uses</th><th>Regulator</th><th>Economics</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Capital-market rating</td><td>Bonds, NCDs, CP, CDs, AT1/Tier-II, securitised paper, covered bonds, fixed deposits, municipal and InvIT/REIT debt</td><td>Issuer pays; mutual funds, insurers, pension funds and banks use it to price and to meet limits</td><td>SEBI (CRA Regulations 1999)</td><td>Highest fee yield per mandate; CRISIL 46.8% of FY26 fresh listed ratings</td></tr>
+      <tr><td class="t-strong">Bank-loan rating (BLR)</td><td>Rating of a term loan, cash credit or guarantee facility</td><td>Borrower pays; bank uses it for its capital charge</td><td>SEBI for the activity; RBI decides which agencies count</td><td>Lower fee, high volume, sticky; the bulk of rated entities</td></tr>
+      <tr><td class="t-strong">Structured and expected-loss ratings</td><td>Securitisation pools, infrastructure projects, municipal bonds on an expected-loss scale</td><td>Issuer / originator</td><td>SEBI</td><td>Higher fee per transaction; analytically heavy</td></tr>
+      <tr><td class="t-strong">ESG ratings</td><td>Ratings of listed companies' ESG profile; second-party opinions on green bonds</td><td>Issuer or subscriber</td><td>SEBI (ERP chapter, July 2023)</td><td>Tiny: 45 outstanding Cat-I issuer-pays ESG ratings, CARE 26 of them</td></tr>
+      <tr><td class="t-strong">Parent analytics (captive)</td><td>Credit notes, models, surveillance support for a global parent's rating analysts</td><td>S&amp;P (CRISIL GAC) or Moody's (ICRA KnowTech)</td><td>Transfer-pricing rules</td><td>Cost-plus: steady, low-risk, capped margin</td></tr>
+      <tr><td class="t-strong">Research and risk outsourcing</td><td>Equity and credit research, model validation, regulatory reporting, lending-operations support</td><td>Global banks, asset managers, private credit</td><td>Client-side regulators</td><td>Mid-teens to ~22% margins; AI and captive-centre pressure</td></tr>
+      <tr><td class="t-strong">Benchmarks and data</td><td>Investment-bank league tables, client surveys, wealth-adviser benchmarks</td><td>Global banks, brokers, wealth firms</td><td>—</td><td>Subscription renewals; Coalition Development Ltd ~25% PAT margin, CY25</td></tr>
+      <tr><td class="t-strong">India research and indices</td><td>Industry reports, macro forecasts, bond indices and valuations, mutual-fund rankings</td><td>Corporates, banks, AMCs, government</td><td>SEBI for valuation agencies</td><td>Brand halo; modest, undisclosed margins</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>Where is value captured? The clearest answer comes from comparing margins along the chain. The domestic licence earns the most: Crisil Ratings Ltd made a 59.5% pre-tax margin in CY25 (including treasury income), ICRA's ratings segment a 56.7% segment result in FY26, and CARE's standalone business a 48% operating margin. Proprietary benchmarks earn less but still well: Coalition Development Ltd, the UK entity behind Coalition Greenwich, earned about 25% of turnover as net profit in CY25. Generic research outsourcing earns mid-teens to low-twenties, and captive work for a parent earns a fixed mark-up over cost that neither CRISIL nor ICRA discloses. The ranking is intuitive: the harder a product is to copy, the higher its margin. A licence plus thirty years of default history is very hard to copy; a team of analysts building spreadsheets is not.</p>
+
+  <div class="chart">
+    <div class="c-title">Margins along the chain: the licence earns the most</div>
+    <div class="c-sub">Latest-year margins on the bases each company discloses, so measures differ (PBT, segment result, EBITDA, PAT). Crisil Ratings Ltd and CRISIL RAS are CY25; ICRA and CARE are FY26; RAS Q3 is Jul–Sep 2026. Sources: CRISIL AR25 AOC-1 and segment note; ICRA and CARE FY26 releases</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Crisil Ratings Ltd<small>PBT ÷ turnover</small></div><div class="track"><span class="fill brand" style="width:59.5%"></span></div><div class="bval">59.5%</div></div>
+      <div class="bar-row"><div class="blab">ICRA ratings<small>segment result</small></div><div class="track"><span class="fill brand" style="width:56.7%"></span></div><div class="bval">56.7%</div></div>
+      <div class="bar-row"><div class="blab">CARE standalone<small>EBITDA</small></div><div class="track"><span class="fill brand" style="width:48%"></span></div><div class="bval">48.0%</div></div>
+      <div class="bar-row"><div class="blab">CRISIL Ratings segment<small>incl. GAC</small></div><div class="track"><span class="fill spec" style="width:44.3%"></span></div><div class="bval">44.3%</div></div>
+      <div class="bar-row"><div class="blab">Coalition Development<small>PAT ÷ turnover</small></div><div class="track"><span class="fill wtg" style="width:25%"></span></div><div class="bval">~25%</div></div>
+      <div class="bar-row"><div class="blab">ICRA research &amp; analytics<small>segment result</small></div><div class="track"><span class="fill wtg" style="width:24.3%"></span></div><div class="bval">24.3%</div></div>
+      <div class="bar-row"><div class="blab">CRISIL RAS, CY25</div><div class="track"><span class="fill om" style="width:22%"></span></div><div class="bval">22.0%</div></div>
+      <div class="bar-row"><div class="blab">CRISIL RAS, Q3 CY26</div><div class="track"><span class="fill bad" style="width:17.2%"></span></div><div class="bval">17.2%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 100%. Blue = domestic rating licence; cobalt = rating segment blended with a cost-plus captive; steel = benchmarks and analytics; red = the latest quarter of CRISIL's research engine.</span></div>
+  </div>
+
+  <p>The last link in the ratings chain is the one most investors miss: what happens when a borrower stops cooperating. If an issuer stops paying fees or sharing information, the agency cannot simply drop the rating. It must publish an "issuer not cooperating" (INC) rating, usually with a downgrade. From April 2027 RBI attaches a penalty to that label: a loan whose rating is INC carries at least a 100% risk weight for six months and 150% after that. The rule makes it costly for a borrower to walk away from its rating agency and makes the annual surveillance fee even stickier.</p>
+</section>
+
+<section class="part" id="p2">
+  <div class="part-head"><span class="pno">02</span><h2>Size of the pool: a ₹1,850 crore industry beside a ₹61 lakh crore market</h2></div>
+  <p class="part-sub">Indian ratings is tiny next to the debt it rates and next to the global agencies. CRISIL's research engine is larger than the whole domestic rating industry.</p>
+
+  <p class="lead">Start with what can be measured. The three listed agencies disclose their domestic ratings revenue: <strong>Crisil Ratings Ltd ₹670.6 crore</strong> (CY25), <strong>CARE Ratings standalone ₹387.7 crore</strong> (FY26) and <strong>ICRA's ratings segment ₹336.5 crore</strong> (FY26). Together that is ₹1,394.8 crore, or about ₹1,395 crore, mixing CRISIL's calendar year with the others' fiscal year. India Ratings, owned by Fitch, is the fourth large agency and is unlisted; its revenue sits behind paid databases. A database snippet says its net sales grew 11.1% in 2025. Given that it took 19% of fresh listed ratings in FY26, close to ICRA's 20%, a range of ₹300–380 crore is a reasonable indicative estimate. The long tail of Acuité, Infomerics, Brickwork and Acer, mostly small-company bank-loan raters, adds perhaps ₹120–250 crore. The whole domestic pool is therefore roughly <strong>₹1,700–2,000 crore</strong>, about US$195 million at today's rupee (INDICATIVE).</p>
+
+  <div class="chart">
+    <div class="c-title">Who earns the Indian rating pool (indicative)</div>
+    <div class="c-sub">Revenue shares at the ~₹1,850 Cr midpoint of the INDICATIVE ₹1,700–2,000 Cr pool. Listed figures are reported (CRISIL CY25, CARE and ICRA FY26); India Ratings and the tail are estimates. Source: dossier §4.3.1</div>
+    <div class="stack-row"><div class="blab">Domestic rating revenue</div><div class="stack"><span style="width:36%;background:var(--brand)">Crisil 36%</span><span style="width:21%;background:var(--wtg)">CARE 21%</span><span style="width:18%;background:var(--om)">ICRA 18%</span><span style="width:18%;background:var(--epc)">IndRa 18%</span><span style="width:7%;background:var(--ink-faint)">7%</span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>Crisil Ratings Ltd ₹670.6 Cr</span><span><i style="background:var(--wtg)"></i>CARE standalone ₹387.7 Cr</span><span><i style="background:var(--om)"></i>ICRA ratings ₹336.5 Cr</span><span><i style="background:var(--epc)"></i>India Ratings ~₹300–380 Cr (estimate)</span><span><i style="background:var(--ink-faint)"></i>Acuité, Infomerics, Brickwork, Acer ~₹120–250 Cr (estimate)</span></div>
+  </div>
+
+  <p>Set that pool against the debt it rates. Corporate bonds outstanding in India reached <strong>₹61.52 lakh crore at September 2026</strong> on SEBI's statistics, up from ₹59.09 lakh crore in March 2026 and ₹53.64 lakh crore a year before that. The stock has more than tripled since FY15 (₹18.0 lakh crore), compounding at about 11% a year, slightly faster than nominal GDP. Add commercial paper (₹16.9 lakh crore issued in FY26), securitisation (₹2.6–2.7 lakh crore expected in FY27 by ICRA) and the bank loans of rated companies, and the agencies are opining on well over ₹100 lakh crore of debt. Their combined revenue is a few basis points of that. Fees are small per rupee because they are charged per instrument and per borrower, with caps for the largest programmes, not as a percentage of the amount raised.</p>
+
+  <div class="chart">
+    <div class="c-title">Indian corporate bonds outstanding, ₹ lakh crore</div>
+    <div class="c-sub">Fiscal year-ends (March) and September 2026. Sources: SEBI statistics (Mar-25 onwards); CareEdge "Indian Debt Capital Market" (15 Jun 2026) using SEBI data for earlier years</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">FY15</div><div class="track"><span class="fill om" style="width:29.3%"></span></div><div class="bval">18.0</div></div>
+      <div class="bar-row"><div class="blab">FY17</div><div class="track"><span class="fill om" style="width:41.3%"></span></div><div class="bval">25.4</div></div>
+      <div class="bar-row"><div class="blab">FY19</div><div class="track"><span class="fill om" style="width:52.5%"></span></div><div class="bval">32.3</div></div>
+      <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill wtg" style="width:61.9%"></span></div><div class="bval">38.1</div></div>
+      <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill wtg" style="width:70.2%"></span></div><div class="bval">43.2</div></div>
+      <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill wtg" style="width:76.7%"></span></div><div class="bval">47.2</div></div>
+      <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:87.2%"></span></div><div class="bval">53.64</div></div>
+      <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:96.1%"></span></div><div class="bval">59.09</div></div>
+      <div class="bar-row"><div class="blab">Sep-2026</div><div class="track"><span class="fill spec" style="width:100%"></span></div><div class="bval">61.52</div></div>
+    </div>
+    <div class="legend"><span>Sep-2026 split: financial issuers ₹30.34 lakh Cr, non-financial ₹29.68 lakh Cr, others ₹1.50 lakh Cr. The stock keeps growing even in a year when new issuance falls, because issuance still exceeds redemptions.</span></div>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>India's rating agencies watch over more than ₹60 lakh crore of bonds and far more in bank loans, yet the whole industry earns less than ₹2,000 crore a year. Each rating is cheap relative to the money it unlocks. That is the industry's pricing power in one sentence: a borrower will not argue much over a fee that is a rounding error on its interest bill.</p>
+  </div>
+
+  <h3>CRISIL: a ₹4,310 crore company in a ₹1,850 crore industry</h3>
+  <p>CRISIL's consolidated revenue of ₹3,649 crore in CY25, and ₹4,310 crore in the twelve months to September 2026, is more than twice the size of the entire domestic rating pool. That is the clearest signal that CRISIL is mainly a research company with a rating agency inside it. Its revenue has compounded at about 10% a year over ten years, from ₹1,253 crore in CY14, and about 13% over five years. Growth was uneven: revenue was flat in CY19 (₹1,732 crore against ₹1,748 crore), jumped 20% in CY22, was nearly flat again in CY24 (+3.8%) when global banks cut discretionary spending, and re-accelerated in CY26 with the PriceMetrix acquisition and a weaker rupee. Net profit rose from ₹268 crore in CY14 to ₹766 crore in CY25 and ₹896 crore on a trailing basis.</p>
+
+  <div class="chart">
+    <div class="c-title">CRISIL revenue, ₹ crore (consolidated, calendar years)</div>
+    <div class="c-sub">Revenue from operations; net profit (PAT) in the label. TTM = twelve months to Sep-2026 (Q4 CY25–Q3 CY26). Source: screener.in consolidated, 23 Oct 2026; CY25 company basis. CY23 is ₹3,140 Cr revenue and ₹658 Cr PAT, correcting lower figures in our earlier primer</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">CY14</div><div class="track"><span class="fill om" style="width:29.1%"></span></div><div class="bval">1,253 · 268</div></div>
+      <div class="bar-row"><div class="blab">CY16</div><div class="track"><span class="fill om" style="width:35.9%"></span></div><div class="bval">1,548 · 294</div></div>
+      <div class="bar-row"><div class="blab">CY18</div><div class="track"><span class="fill om" style="width:40.6%"></span></div><div class="bval">1,748 · 363</div></div>
+      <div class="bar-row"><div class="blab">CY20</div><div class="track"><span class="fill wtg" style="width:46%"></span></div><div class="bval">1,982 · 355</div></div>
+      <div class="bar-row"><div class="blab">CY21</div><div class="track"><span class="fill wtg" style="width:53.4%"></span></div><div class="bval">2,301 · 466</div></div>
+      <div class="bar-row"><div class="blab">CY22</div><div class="track"><span class="fill wtg" style="width:64.2%"></span></div><div class="bval">2,769 · 564</div></div>
+      <div class="bar-row"><div class="blab">CY23</div><div class="track"><span class="fill brand" style="width:72.9%"></span></div><div class="bval">3,140 · 658</div></div>
+      <div class="bar-row"><div class="blab">CY24</div><div class="track"><span class="fill brand" style="width:75.6%"></span></div><div class="bval">3,260 · 684</div></div>
+      <div class="bar-row"><div class="blab">CY25</div><div class="track"><span class="fill brand" style="width:84.7%"></span></div><div class="bval">3,649 · 766</div></div>
+      <div class="bar-row"><div class="blab">TTM Sep-26</div><div class="track"><span class="fill spec" style="width:100%"></span></div><div class="bval">4,310 · 896</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹4,310 Cr. Ten-year revenue CAGR ~10%, five-year ~13%; three-year PAT CAGR (CY22–25) ~7%.</span></div>
+  </div>
+
+  <p>The ratings-only growth record is shorter but stronger. CRISIL's Ratings segment, which includes the GAC, grew from ₹911.3 crore in CY24 to ₹1,078.7 crore in CY25 (+18.4%) and to ₹973.4 crore in the first nine months of CY26 alone (+23.6%). ICRA's ratings revenue went from roughly ₹300–330 crore a year through FY15–21 to ₹336.5 crore in FY26 (+14.2%). CARE's ratings revenue peaked at ₹333 crore in FY18, fell to about ₹248 crore by FY21–22 after IL&amp;FS and recovered to ₹473 crore of consolidated revenue in FY26, of which ₹423 crore was ratings. The industry's long-run growth tracks the stock of rated debt plus pricing, roughly 10–14% a year, with sharp deviations when reputation or the credit cycle intervenes.</p>
+
+  <h3>The global yardstick</h3>
+  <p>The comparison with the global agencies is humbling. S&amp;P Global Ratings earned US$4,724 million in 2025, about ₹44,800 crore at ₹94.9 per dollar; Moody's Investors Service earned US$4,119 million, about ₹39,100 crore. Each is more than 20 times the entire Indian industry. Even Morningstar DBRS, the distant fourth global agency, earned US$354.4 million (about ₹3,360 crore) in 2025, almost twice India's total. The gap says less about India's economy than about issuer-pays pricing: a US corporate pays a fee on every bond calibrated to a deep, global investor base, while an Indian borrower pays a national-scale fee in a market where most debt is still bank loans. If India's bond market grows toward the 36–40% of GDP seen in China and the US, from about 16–17% today, the pool could grow faster than credit for a long time. That is the industry's structural bull case.</p>
+
+  <div class="chart">
+    <div class="c-title">Ratings revenue, 2025: India against the global agencies (₹ crore)</div>
+    <div class="c-sub">Global figures converted at ₹94.9/US$ (19 Oct 2026). India pool is the INDICATIVE ~₹1,850 Cr midpoint. Sources: S&amp;P Global 4Q25 exhibits; Moody's 4Q25 release (MIS segment); Morningstar FY2025 10-K; CRISIL AR25</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">S&amp;P Global Ratings</div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">~44,800</div></div>
+      <div class="bar-row"><div class="blab">Moody's MIS</div><div class="track"><span class="fill ink" style="width:87.3%"></span></div><div class="bval">~39,100</div></div>
+      <div class="bar-row"><div class="blab">Morningstar DBRS</div><div class="track"><span class="fill wtg" style="width:7.5%"></span></div><div class="bval">~3,360</div></div>
+      <div class="bar-row"><div class="blab">All Indian CRAs<small>indicative</small></div><div class="track"><span class="fill gold" style="width:4.1%"></span></div><div class="bval">~1,850</div></div>
+      <div class="bar-row"><div class="blab">Crisil Ratings Ltd</div><div class="track"><span class="fill brand" style="width:1.5%"></span></div><div class="bval">671</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹44,800 Cr. India's entire rating industry is roughly 4% of either of the two largest global rating divisions.</span></div>
+  </div>
+
+  <div class="tbl-wrap">
+  <table>
+    <caption>The debt markets that drive rating demand (latest available)</caption>
+    <thead><tr><th>Metric</th><th class="num">Value</th><th>Period</th><th>Source</th></tr></thead>
+    <tbody>
+      <tr><td>Corporate bonds outstanding</td><td class="num">₹61.52 lakh Cr</td><td>Sep-2026</td><td>SEBI statistics</td></tr>
+      <tr><td>Corporate bonds as % of GDP</td><td class="num">~16–17%</td><td>FY26</td><td>CareEdge (China 36%, US 40%)</td></tr>
+      <tr><td>Private placements of bonds (value)</td><td class="num">₹8.99 lakh Cr, −8.8%</td><td>FY26</td><td>SEBI statistics</td></tr>
+      <tr><td>Private placements (number of issues)</td><td class="num">1,924, +16.0%</td><td>FY26</td><td>SEBI statistics</td></tr>
+      <tr><td>Corporate bond issuance, Prime basis</td><td class="num">₹8,407 bn, −6.1%</td><td>9M CY26</td><td>Prime Database via CRISIL</td></tr>
+      <tr><td>Commercial paper issuance</td><td class="num">₹16.9 lakh Cr, +7.2%</td><td>FY26</td><td>RBI via CARE</td></tr>
+      <tr><td>Bank credit growth</td><td class="num">19.1%</td><td>Aug-2026</td><td>RBI via CRISIL</td></tr>
+      <tr><td>Bank credit as % of GDP</td><td class="num">~61%</td><td>FY26</td><td>CareEdge (China 179%)</td></tr>
+      <tr><td>Banking gross NPA ratio</td><td class="num">~1.8–2.2%</td><td>FY26</td><td>Crisil Intelligence (7.5% in FY21)</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>One more size measure matters for CRISIL. Its research engine, RAS, booked ₹2,572.4 crore in CY25, and the GAC added roughly ₹390–410 crore inside the Ratings segment. That research revenue alone is larger than the domestic rating industry, and it competes in a multi-billion-dollar global market for outsourced financial research, risk and data work in which CRISIL is one of the largest specialist vendors. That market has no reliable published size, and we do not print one. What matters for an investor is that CRISIL's growth is set more by global bank budgets and the rupee than by Indian bond issuance, which is why its stock does not trade like ICRA's or CARE's.</p>
+</section>
+
+<section class="part" id="p3">
+  <div class="part-head"><span class="pno">03</span><h2>Bonds down, raters up: the anatomy of 2026's rating boom <span class="dd">Deep dive</span></h2></div>
+  <p class="part-sub">Bond issuance fell, yet rating revenue grew 15–29%. Four mechanisms explain the gap, and one of them sets up a risk for 2027.</p>
+
+  <p class="lead">On almost every headline measure, 2026 was a bad year for the Indian corporate bond market. On Prime Database's calendar-year series, which CRISIL uses, issuance fell <strong>12% in January–March</strong>, <strong>26% in April–June</strong> and rose 36% in July–September only because the same quarter of 2025 had collapsed by 31.7%. Over nine months, issuance was ₹8,407 billion against ₹8,950 billion, a fall of 6.1%. SEBI's own series of exchange-listed private placements shows the fiscal year FY26 (April 2025 to March 2026) at ₹8,99,736 crore, down 8.8% and the first fall in four years. CareEdge measured issuance in April–June 2026 at ₹2.5 lakh crore, down 29.3%. If ratings revenue simply tracked bond value, the agencies should have had a poor year.</p>
+  <p>They had their best year in a decade. CRISIL's Ratings segment revenue grew 20.2% in Q1 CY26, 21.4% in Q2 and <strong>28.9% in Q3</strong>; within it, Crisil Ratings, the domestic agency, grew 25.6% in the July–September quarter. ICRA's ratings revenue rose 14.2% in FY26 and about 13% in Q1 FY27 (₹83.8 crore against ₹74.2 crore). CARE's ratings revenue rose 17% in FY26 and 19.1% in Q1 FY27. The rest of this section explains the gap between the bond market and the raters, because the same mechanisms will decide the next two years.</p>
+
+  <div class="chart">
+    <div class="c-title">Corporate bond issuance by quarter, ₹ billion (Prime Database, calendar)</div>
+    <div class="c-sub">Same quarter of 2025 vs 2026. Q1 −12%, Q2 −26%, Q3 +36% on a −31.7% base; 9M CY26 −6.1%. Source: Prime Database via CRISIL Q3 CY26 press release and analyst presentation</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Q1 CY25</div><div class="track"><span class="fill ink" style="width:84.2%"></span></div><div class="bval">3,050</div></div>
+      <div class="bar-row"><div class="blab">Q1 CY26</div><div class="track"><span class="fill bad" style="width:74.1%"></span></div><div class="bval">2,684</div></div>
+      <div class="bar-row"><div class="blab">Q2 CY25</div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">3,622</div></div>
+      <div class="bar-row"><div class="blab">Q2 CY26</div><div class="track"><span class="fill bad" style="width:74.4%"></span></div><div class="bval">2,693</div></div>
+      <div class="bar-row"><div class="blab">Q3 CY25</div><div class="track"><span class="fill ink" style="width:62.9%"></span></div><div class="bval">2,278</div></div>
+      <div class="bar-row"><div class="blab">Q3 CY26</div><div class="track"><span class="fill brand" style="width:85.4%"></span></div><div class="bval">3,092</div></div>
+    </div>
+    <div class="legend"><span><i style="background:#5a5446"></i>2025</span><span><i style="background:var(--bad)"></i>2026, down</span><span><i style="background:var(--brand)"></i>2026, up. Scale: full bar = ₹3,622 bn.</span></div>
+  </div>
+
+  <div class="chart">
+    <div class="c-title">Rating revenue growth at the listed agencies, latest quarters</div>
+    <div class="c-sub">Year-on-year revenue growth. CRISIL segment includes the GAC; Crisil Ratings Ltd is the domestic agency alone. CRISIL quarters are calendar (Q3 CY26 = Jul–Sep 2026); ICRA and CARE Q1 FY27 = Apr–Jun 2026. ICRA growth computed from ₹83.8 Cr vs ₹74.2 Cr. Sources: company results and presentations</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">CRISIL Ratings seg.<small>Q1 CY26</small></div><div class="track"><span class="fill spec" style="width:67.3%"></span></div><div class="bval">+20.2%</div></div>
+      <div class="bar-row"><div class="blab">CRISIL Ratings seg.<small>Q2 CY26</small></div><div class="track"><span class="fill spec" style="width:71.3%"></span></div><div class="bval">+21.4%</div></div>
+      <div class="bar-row"><div class="blab">CRISIL Ratings seg.<small>Q3 CY26</small></div><div class="track"><span class="fill brand" style="width:96.3%"></span></div><div class="bval">+28.9%</div></div>
+      <div class="bar-row"><div class="blab">Crisil Ratings Ltd<small>Q3 CY26</small></div><div class="track"><span class="fill brand" style="width:85.3%"></span></div><div class="bval">+25.6%</div></div>
+      <div class="bar-row"><div class="blab">CARE ratings<small>Q1 FY27</small></div><div class="track"><span class="fill wtg" style="width:63.7%"></span></div><div class="bval">+19.1%</div></div>
+      <div class="bar-row"><div class="blab">ICRA ratings<small>Q1 FY27</small></div><div class="track"><span class="fill om" style="width:43%"></span></div><div class="bval">~+12.9%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = +30%. Every listed agency grew ratings revenue at double digits in the quarters when bond issuance was falling hardest.</span></div>
+  </div>
+
+  <h3>Mechanism 1: bank credit replaced bonds, and bank loans get rated too</h3>
+  <p>Indian borrowers can raise debt from banks or from the bond market, and in 2026 the price signal pointed firmly to banks. After the West Asia war began on 28 February 2026, the ten-year government-bond yield approached 7% in March, lifting the benchmark against which corporate bonds are priced. Banks, by contrast, were flush with deposits and keen to lend to top-rated corporates. CRISIL's management described "some level of substitution of bonds by bank loans" on its April call, and the October repo hike to 5.50% did not change that: a rate hike "does not favour the bond market because yields further harden". Bank credit growth accelerated from 10.3% in August 2025 to <strong>19.1% in August 2026</strong>, and credit to large industry swung from 2.0% growth in June 2025 to 16.6% in June 2026.</p>
+  <p>For a rating agency, a large-company bank loan is not lost business. It is a bank-loan rating instead of a bond rating. The fee per mandate is lower, and CARE's management describes BLRs as "fairly commoditized", but the count of mandates rises with credit growth. CRISIL itself expected bank credit to grow "around 13%" in FY27 when it spoke in April; actual growth ran about six percentage points ahead. Most of the volume surprise in 2026 ratings revenue came from that gap.</p>
+
+  <div class="chart">
+    <div class="c-title">Bank credit growth, % year-on-year</div>
+    <div class="c-sub">Scheduled commercial banks. FY25 and FY26 are March year-ends (FY26: 15.9% non-food, 16.1% gross). Large-industry credit shown separately. Sources: RBI via CARE AR 2025-26, ICRA and CRISIL Q3 CY26 press release</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">FY25 (Mar-25)</div><div class="track"><span class="fill om" style="width:55%"></span></div><div class="bval">~11.0%</div></div>
+      <div class="bar-row"><div class="blab">Aug-2025</div><div class="track"><span class="fill om" style="width:51.5%"></span></div><div class="bval">10.3%</div></div>
+      <div class="bar-row"><div class="blab">Feb-2026</div><div class="track"><span class="fill wtg" style="width:72.5%"></span></div><div class="bval">14.5%</div></div>
+      <div class="bar-row"><div class="blab">FY26 (Mar-26)</div><div class="track"><span class="fill wtg" style="width:80.5%"></span></div><div class="bval">16.1%</div></div>
+      <div class="bar-row"><div class="blab">Jun-2026</div><div class="track"><span class="fill brand" style="width:93%"></span></div><div class="bval">18.6%</div></div>
+      <div class="bar-row"><div class="blab">Aug-2026</div><div class="track"><span class="fill brand" style="width:95.5%"></span></div><div class="bval">19.1%</div></div>
+      <div class="bar-row"><div class="blab">Large industry<small>Jun-25 → Jun-26</small></div><div class="track"><span class="fill gold" style="width:83%"></span></div><div class="bval">2.0% → 16.6%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 20%. CRISIL's April 2026 expectation for FY27 credit growth was "around 13%".</span></div>
+  </div>
+
+  <h3>Mechanism 2: the surveillance annuity runs a year behind</h3>
+  <p>Every outstanding rating pays an annual surveillance fee until the debt is repaid or the rating withdrawn. So a large part of this year's revenue is set by last year's new mandates. Subodh Rai, who runs Crisil Ratings, put it plainly in April 2026: surveillance revenue "is driven by the new rating revenues performance in prior year … what you're going to see in '26 will be largely driven by the new revenues we did in 2025 and partly … '24". CY24 and CY25 were strong years for new mandates: calendar 2025 issuance was ₹11,245 billion, a record level, and FY25 private placements rose 17.8% in value and 23.2% in number. Those mandates are now paying their first and second surveillance fees.</p>
+
+  <div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">Why rating revenue lags the bond market: this year's revenue equation</div>
+    <div class="flow-row">
+      <div class="node spec"><div class="ntag">Reported</div><div class="nname">Ratings revenue, year t</div><div class="nwho">What the agency books this year.</div></div>
+      <div class="arrow op">=</div>
+      <div class="node wtg"><div class="ntag">Moves with year t</div><div class="nname">New-mandate fees</div><div class="nwho">This year's bond issues, CP programmes, new bank loans.</div></div>
+      <div class="arrow op">+</div>
+      <div class="node om"><div class="ntag">Set by years t−1, t−2</div><div class="nname">Surveillance fees</div><div class="nwho">Annual fees on the outstanding book built in earlier years.</div></div>
+      <div class="arrow op">+</div>
+      <div class="node epc"><div class="ntag">Small</div><div class="nname">Structured &amp; other</div><div class="nwho">Securitisation pools, reviews, gradings.</div></div>
+    </div>
+    <div class="flow-note">No agency discloses the split. An INDICATIVE reconstruction for Crisil Ratings puts surveillance at roughly 60–65% of revenue, which is why a bad issuance year shows up in revenue a year later, not immediately.</div>
+  </div>
+
+  <div class="chart">
+    <div class="c-title">An illustrative split of a large agency's rating revenue</div>
+    <div class="c-sub">ILLUSTRATIVE only: no Indian agency discloses new vs surveillance revenue. Built on Crisil Ratings Ltd CY25 turnover of ₹670.6 Cr and a ~65/35 assumption (dossier worked example)</div>
+    <div class="stack-row"><div class="blab">₹670.6 Cr, CY25</div><div class="stack"><span style="width:65%;background:var(--om)">Surveillance ~65%</span><span style="width:35%;background:var(--wtg)">New ~35%</span></div></div>
+    <div class="legend"><span><i style="background:var(--om)"></i>Surveillance on ~7,300 rated companies, roughly ₹436 Cr (illustrative)</span><span><i style="background:var(--wtg)"></i>Initial fees on new bonds, CP and 1,280+ new bank-loan ratings, roughly ₹235 Cr (illustrative)</span></div>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>A rating agency is part toll road and part construction company. The construction part (new ratings) rises and falls with the bond market. The toll part (annual surveillance) depends on how many roads were built in earlier years. In 2026 the construction business slowed, but the tolls from the record 2024–25 build kept coming in.</p>
+  </div>
+
+  <h3>Mechanism 3: more issues, smaller issues</h3>
+  <p>The third mechanism is the one most commentary missed, and SEBI's statistics show it clearly. In FY26 the <em>value</em> of private placements fell 8.8%, but the <em>number</em> of issues rose 16.0%, from 1,659 to 1,924. The average issue shrank from ₹595 crore to ₹468 crore, a fall of about 21%. CRISIL's slides show the same thing on a calendar basis: the number of bond issuers in January–September 2026 was about 1,191, up 3.8% from about 1,147, even though value was down 6%. Rating fees are charged per instrument and per issuer, with caps on the largest programmes. A mega-issue of ₹10,000 crore by a public-sector financier pays a capped fee of a few tens of lakhs; ten mid-sized NBFC issues of ₹500 crore each pay ten fees. A market with more, smaller issuers is better for rating revenue than a market with fewer, larger ones, even at the same rupee volume.</p>
+
+  <div class="chart">
+    <div class="c-title">Private placements of corporate bonds: value fell, count rose</div>
+    <div class="c-sub">BSE + NSE listed private placements, fiscal years. Value in ₹ lakh crore (scale: full bar = 9.87); issues (scale: full bar = 1,924). Average issue size is calculated. Source: SEBI statistics, "Private placement data of corporate bonds"</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Value FY24</div><div class="track"><span class="fill ink" style="width:84.9%"></span></div><div class="bval">₹8.38</div></div>
+      <div class="bar-row"><div class="blab">Value FY25</div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">₹9.87</div></div>
+      <div class="bar-row"><div class="blab">Value FY26</div><div class="track"><span class="fill bad" style="width:91.1%"></span></div><div class="bval">₹9.00 (−8.8%)</div></div>
+      <div class="bar-row"><div class="blab">Issues FY24<small>avg ₹622 Cr</small></div><div class="track"><span class="fill brand" style="width:70%"></span></div><div class="bval">1,347</div></div>
+      <div class="bar-row"><div class="blab">Issues FY25<small>avg ₹595 Cr</small></div><div class="track"><span class="fill brand" style="width:86.2%"></span></div><div class="bval">1,659</div></div>
+      <div class="bar-row"><div class="blab">Issues FY26<small>avg ₹468 Cr</small></div><div class="track"><span class="fill spec" style="width:100%"></span></div><div class="bval">1,924 (+16%)</div></div>
+    </div>
+    <div class="legend"><span>FY27 so far (Apr–Sep 2026): 974 issues raising ₹4,34,011 Cr; September 2026 alone, 228 issues and ₹1,11,586 Cr.</span></div>
+  </div>
+
+  <div class="chart">
+    <div class="c-title">Bond issuers by period (count, Prime Database)</div>
+    <div class="c-sub">From CRISIL's analyst presentations. The press release's "issuers declined 7.2%" refers to Q3 only; the nine-month count rose. Scale: full bar = 1,191</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">9M CY25</div><div class="track"><span class="fill ink" style="width:96.3%"></span></div><div class="bval">~1,147</div></div>
+      <div class="bar-row"><div class="blab">9M CY26</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~1,191 (+3.8%)</div></div>
+      <div class="bar-row"><div class="blab">Q2 CY25</div><div class="track"><span class="fill ink" style="width:42.8%"></span></div><div class="bval">~510</div></div>
+      <div class="bar-row"><div class="blab">Q2 CY26</div><div class="track"><span class="fill bad" style="width:36.1%"></span></div><div class="bval">~430</div></div>
+      <div class="bar-row"><div class="blab">Q3 CY25</div><div class="track"><span class="fill ink" style="width:50.5%"></span></div><div class="bval">~601</div></div>
+      <div class="bar-row"><div class="blab">Q3 CY26</div><div class="track"><span class="fill bad" style="width:46.9%"></span></div><div class="bval">~558 (−7.2%)</div></div>
+    </div>
+  </div>
+
+  <h3>Mechanism 4: price and mix</h3>
+  <p>The last mechanism is pricing. Crisil Ratings' management said it "acquired a lot of new clients at good prices" and handles pricing "in a very disciplined manner", while declining to give any five-year price trend. CARE's management, for its part, has made "continuously improving the pricing" a formal performance goal. Other short-term instruments helped: commercial-paper issuance rose 7.2% in FY26 to ₹16.9 lakh crore and 18.5% in Q1 FY27 to ₹5.4 lakh crore, and NBFC securitisation grew about 25% in FY26. In a year when the industry's mix shifted from bonds toward lower-fee bank loans, holding or raising price per mandate mattered. The agency with the most investor-preferred brand can raise prices most easily, which is one reason Crisil Ratings outgrew ICRA in the same quarters.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>Rating revenue grew in 2026 because four things went right at once: banks lent more to rated companies, last year's record mandates paid their annual fees, the bond market had more (smaller) deals even though it raised less money, and the leading agencies held their prices. Only the first and third depend on this year's credit market.</p>
+  </div>
+
+  <h3>The risk: the lag works both ways</h3>
+  <p>The surveillance lag that cushioned 2026 cuts the other way later. The new bond mandates written in 2026 were fewer by value, and in Q2 and Q3 fewer by issuer count, than in 2025. They form the base for CY27 and FY28 surveillance revenue. If bank credit growth slows from 19% toward the low teens, which RBI's rate hike and tighter stance make plausible, and the bond market does not recover, the industry could face a year in which both new-mandate fees and surveillance growth slow at the same time. This is an INDICATIVE inference, not a forecast: bank-loan ratings on the 2026 credit surge also feed surveillance, and CP and securitisation volumes are still growing. But the lag means the best time to watch for a slowdown in rating revenue is twelve to eighteen months after bond issuance turns down, not the same quarter.</p>
+  <p>The upside case is equally mechanical. CRISIL's management sees the bank-versus-bond swing as cyclical, not structural: "the pendulum" swings back when government-bond yields fall or banks run short of deposits. The comparison base also eases: Q4 CY26 laps a weak Q4 CY25 for bonds, and Q3 CY26 already showed issuance up 36% on a depressed base. RBI's 2027 rules, which raise the penalty on unrated and non-cooperating borrowers, add a regulatory push toward more bank-loan ratings from April 2027. For the agencies, a slower bond market is an irritation; a sharp slowdown in bank credit and bonds together, as in FY20–22, is the real threat.</p>
+</section>
+
+<section class="part" id="p4">
+  <div class="part-head"><span class="pno">04</span><h2>The debt market underneath: who borrows, who holds, and why bonds are only 16% of GDP</h2></div>
+  <p class="part-sub">Rating demand is a function of India's credit structure: bank-heavy, AAA-heavy and dominated by financial issuers.</p>
+
+  <p class="lead">India's corporate bond market is young, concentrated and growing. At about 16–17% of GDP, it is less than half the size of China's (36%) or the US market (40%) relative to their economies, while bank credit, at about 61% of GDP, does most of the lending. That structure matters for raters in two ways. First, a large share of rated entities are rated for bank loans, not bonds. Second, the bond market itself is dominated by a few hundred financial issuers that raise money frequently, which makes them the agencies' most valuable recurring clients.</p>
+
+  <div class="chart">
+    <div class="c-title">Debt markets relative to GDP: India against larger economies</div>
+    <div class="c-sub">Corporate bonds outstanding and bank credit as % of GDP, latest available. India bonds shown at the midpoint of 16–17%. Source: CareEdge "Indian Debt Capital Market" (15 Jun 2026)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Bonds: India</div><div class="track"><span class="fill brand" style="width:9.2%"></span></div><div class="bval">~16.5%</div></div>
+      <div class="bar-row"><div class="blab">Bonds: China</div><div class="track"><span class="fill ink" style="width:20.1%"></span></div><div class="bval">36%</div></div>
+      <div class="bar-row"><div class="blab">Bonds: USA</div><div class="track"><span class="fill ink" style="width:22.3%"></span></div><div class="bval">40%</div></div>
+      <div class="bar-row"><div class="blab">Bank credit: India</div><div class="track"><span class="fill brand" style="width:34.1%"></span></div><div class="bval">61%</div></div>
+      <div class="bar-row"><div class="blab">Bank credit: Japan</div><div class="track"><span class="fill ink" style="width:52%"></span></div><div class="bval">93%</div></div>
+      <div class="bar-row"><div class="blab">Bank credit: Korea</div><div class="track"><span class="fill ink" style="width:54.7%"></span></div><div class="bval">98%</div></div>
+      <div class="bar-row"><div class="blab">Bank credit: China</div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">179%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 179% of GDP. India is under-penetrated in both channels, more so in bonds.</span></div>
+  </div>
+
+  <p>Who borrows? On CareEdge's breakdown of outstanding bonds, NBFCs account for 30.2%, private non-financial corporates 27.6%, public-sector undertakings 20.5%, banks 13.0%, and housing-finance companies and others the remaining ~8.7%. Financial issuers made up about 64–66% of FY26 issuance, down from 75–78% earlier, as banks took back NBFC lending after RBI rolled back its November 2023 risk-weight increase on bank loans to NBFCs in April 2025. That policy swing illustrates how quickly regulation moves volume between the bond and loan channels: the 2023 hike pushed NBFCs into bonds in FY25; the 2025 rollback pulled them back to banks in FY26. Readers who follow our <a href="nbfc.html">NBFC</a> and <a href="housing-finance.html">housing-finance</a> reports will recognise those issuers as the agencies' anchor clients.</p>
+
+  <div class="chart">
+    <div class="c-title">Who issued India's outstanding corporate bonds, and who holds them</div>
+    <div class="c-sub">Shares of outstanding corporate bonds, FY26. Residual "others" categories are calculated. Source: CareEdge (15 Jun 2026) using SEBI, CCIL and RBI data</div>
+    <div class="stack-row"><div class="blab">Issuers</div><div class="stack"><span style="width:30.2%;background:var(--brand)">NBFCs 30%</span><span style="width:27.6%;background:var(--wtg)">Pvt corp 28%</span><span style="width:20.5%;background:var(--om)">PSUs 21%</span><span style="width:13%;background:var(--epc)">Banks 13%</span><span style="width:8.7%;background:var(--ink-faint)">9%</span></div></div>
+    <div class="stack-row"><div class="blab">Holders</div><div class="stack"><span style="width:32%;background:var(--om)">Corporates 32%</span><span style="width:19.5%;background:var(--brand)">Insurers 20%</span><span style="width:12.9%;background:var(--wtg)">MFs 13%</span><span style="width:9.2%;background:var(--epc)">Banks 9%</span><span style="width:5.4%;background:var(--gold)">5%</span><span style="width:21%;background:var(--ink-faint)">Others 21%</span></div></div>
+    <div class="legend"><span><i style="background:var(--ink-faint)"></i>Issuers: HFCs and others ~8.7%</span><span><i style="background:var(--gold)"></i>Holders: foreign portfolio investors 5.4% (2% in FY22; limit 15%)</span><span>Holders "others" (~21%) includes pension and provident funds.</span></div>
+  </div>
+
+  <p>Who holds the bonds, and why do they care about ratings? Corporates (about 32%), insurers (19.5%), mutual funds (12.9%) and banks (9.2%) are the largest holders. Each has rules that embed ratings: insurers and pension funds may invest only in paper rated AA or above; debt mutual funds face scheme-level limits by rating; banks use ratings to compute capital. That is why more than 85% of outstanding bonds are rated AAA or AA, and about 95% of FY26 issuance was. A borrower rated below AA has almost no institutional market for its bonds and goes to banks instead. The regulatory use of ratings, rather than investor curiosity, is the foundation of demand. Foreign portfolio investors hold just 5.4%, up from 2% in FY22, which is another reason the national scale, not the global one, dominates.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>India's bond market is a club for the highest-rated borrowers, because the biggest buyers are allowed to buy only AA and above. Everyone else borrows from banks. That is why bank-loan ratings, not bond ratings, make up most of the rated companies in India, and why the bond market's growth is capped until lower-rated borrowers can sell bonds too.</p>
+  </div>
+
+  <h3>The demand drivers, ranked</h3>
+  <ul class="clean">
+    <li><strong>Bank credit to rated-size borrowers.</strong> The dominant driver of rated-entity count and bank-loan rating revenue: 15.9–16.1% growth in FY26 and 19.1% by August 2026. ICRA expects bank credit "to drive bulk of our growth" in FY27.</li>
+    <li><strong>Bond and commercial-paper issuance.</strong> Higher fee per mandate; sensitive to the government-bond curve, bank pricing and regulation. CP rose 18.5% in Q1 FY27.</li>
+    <li><strong>NBFC, HFC and microfinance funding.</strong> Financial issuers are about two-thirds of bond issuance and the core of CP and securitisation; NBFC securitisation grew 25% in FY26.</li>
+    <li><strong>Infrastructure, InvITs, REITs and municipal bonds.</strong> SEBI extended the expected-loss rating scale to municipal bonds in FY26; CRISIL projects infrastructure capex to double by fiscal 2030.</li>
+    <li><strong>Regulatory use-cases.</strong> RBI's capital rules (with a sharper edge from April 2027), insurer and pension investment limits, mutual-fund limits, and since January 2026 ratings of instruments under other financial regulators.</li>
+    <li><strong>The surveillance stock.</strong> 1,942 outstanding ratings on listed securities at March 2026 (SEBI) and many thousands of bank-loan ratings, each paying an annual fee.</li>
+    <li><strong>Credit quality.</strong> With banking gross NPAs near 2%, defaults are rare and upgrades outnumber downgrades, a reputational tailwind. Stress brings non-cooperating issuers, withdrawals and unpaid fees.</li>
+  </ul>
+
+  <div class="chart">
+    <div class="c-title">Banking gross NPA ratio, % (fiscal years)</div>
+    <div class="c-sub">Scheduled commercial banks. FY26 shown at the ~2.0% midpoint of a 1.8–2.2% range. Source: Crisil Intelligence (via CRISIL presentations)</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">FY20</div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">8.4%</div></div>
+      <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill bad" style="width:89.3%"></span></div><div class="bval">7.5%</div></div>
+      <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill gold" style="width:70.2%"></span></div><div class="bval">5.9%</div></div>
+      <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill gold" style="width:46.4%"></span></div><div class="bval">3.9%</div></div>
+      <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill wtg" style="width:33.3%"></span></div><div class="bval">2.8%</div></div>
+      <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill wtg" style="width:27.4%"></span></div><div class="bval">2.3%</div></div>
+      <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:23.8%"></span></div><div class="bval">~2.0%</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = 8.4%. A clean credit cycle means few defaults, fewer embarrassing rating actions and a reputational tailwind for the agencies.</span></div>
+  </div>
+
+  <p>The structure has a subtle consequence for the agencies' rated universes. Crisil Ratings' default study notes that its median rating moved from BB to BBB in FY22, and about 73% of its ~7,300 rated companies were investment grade by March 2026, against about 24% in March 2013. That is partly better credit and partly selection: many sub-investment-grade borrowers stopped cooperating with their raters once banks' thresholds for using external ratings rose, so they dropped out of the rated universe. RBI's 2027 rules push the other way, with a 150% risk weight on unrated exposures above ₹500 crore and penalties on non-cooperating ratings, which should pull some weaker borrowers back into the rated universe from FY28. That is volume for the bank-loan raters, but at the riskier end of the scale, where default records are weakest (INDICATIVE inference).</p>
+
+  <div class="chart">
+    <div class="c-title">Commercial paper issuance, ₹ lakh crore</div>
+    <div class="c-sub">Every CP issue needs a short-term rating. Fiscal years and quarters; Q1 FY26 approximate. Source: RBI data via CARE Ratings releases</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill wtg" style="width:92.9%"></span></div><div class="bval">15.7</div></div>
+      <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">16.9 (+7.2%)</div></div>
+      <div class="bar-row"><div class="blab">Q1 FY26</div><div class="track"><span class="fill wtg" style="width:27.2%"></span></div><div class="bval">~4.6</div></div>
+      <div class="bar-row"><div class="blab">Q1 FY27</div><div class="track"><span class="fill brand" style="width:32%"></span></div><div class="bval">5.4 (+18.5%)</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹16.9 lakh Cr. CP is a short-term substitute for bonds and bank lines; it rose while long-term bond issuance fell.</span></div>
+  </div>
+
+  <p>The bond market's under-penetration is the long-run opportunity. If corporate bonds rose from about 16–17% of GDP toward 25%, the stock of rated bonds would grow far faster than GDP for a decade, and with it the surveillance base. The obstacles are well known: thin secondary-market liquidity, the AA-and-above investment rules that shut out lower-rated issuers, and the ease of bank borrowing for top companies. SEBI's chairman has spoken repeatedly about deepening the market; CareEdge's June 2026 study asks whether it "can finance India's growth". For the rating agencies, the drivers that matter in any given year remain the bank-bond price gap and the credit cycle, but the direction of travel, toward more market-based debt, is in their favour. Our <a href="market-infra.html">market-infrastructure</a> report covers the exchanges and depositories that sit on the same pipes.</p>
+</section>
+
+<section class="part" id="p5">
+  <div class="part-head"><span class="pno">05</span><h2>Eight licences, two tiers: who rates India</h2></div>
+  <p class="part-sub">Three of the four leading agencies belong to the global big three. In listed bonds investors pick the rater; in small-company loans, borrowers shop on price.</p>
+
+  <p class="lead">SEBI had <strong>eight registered credit rating agencies</strong> at 31 March 2026: Crisil Ratings, ICRA, India Ratings &amp; Research, CARE Ratings, Acuité, Infomerics, Brickwork and Acer Credit Rating, the newest, registered on 21 August 2025. (Our earlier CRISIL primer said nine; eight is correct.) RBI's 2026 list of agencies whose ratings banks may use for capital has seven domestic names, all but Acer, plus CareEdge Global IFSC for non-resident corporates and the three global agencies. The licence is the entry ticket, but it is not what separates the winners.</p>
+
+  <div class="tbl-wrap">
+  <table>
+    <caption>India's eight SEBI-registered rating agencies (31 March 2026)</caption>
+    <thead><tr><th>Agency</th><th>Founded</th><th>Owner</th><th>Listed?</th><th>RBI-eligible 2026</th><th>Profile</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Crisil Ratings</td><td>1987 (CRISIL); subsidiary since 2019</td><td>100% CRISIL Ltd; S&amp;P Global 66.64% of CRISIL</td><td>Parent listed</td><td>Yes</td><td>46.8% of FY26 fresh listed ratings; ~7,300 rated companies</td></tr>
+      <tr><td class="t-strong">ICRA</td><td>1991</td><td>Moody's group 51.86%</td><td>Yes</td><td>Yes</td><td>20.1% of fresh listed ratings; analytics arm for Moody's</td></tr>
+      <tr><td class="t-strong">India Ratings &amp; Research</td><td>1996 (as Duff &amp; Phelps/Fitch India)</td><td>100% Fitch Group (Hearst)</td><td>No</td><td>Yes</td><td>19.3% of fresh listed ratings; most downgrades in FY26 (20)</td></tr>
+      <tr><td class="t-strong">CARE Ratings (CareEdge)</td><td>1993</td><td>No promoter; institutions</td><td>Yes</td><td>Yes</td><td>~4% of fresh listed ratings but 5,200+ rated entities; BLR-led</td></tr>
+      <tr><td class="t-strong">Acuité</td><td>2005 (as SMERA)</td><td>Co-promoted by Dun &amp; Bradstreet</td><td>No</td><td>Yes</td><td>SME focus; ~6% of fresh listed ratings; 5 listed defaults FY25</td></tr>
+      <tr><td class="t-strong">Infomerics</td><td>c.2015 as a CRA</td><td>Private</td><td>No</td><td>Yes</td><td>~3%; SEBI penalty ₹3 lakh (Apr-2025)</td></tr>
+      <tr><td class="t-strong">Brickwork</td><td>2007</td><td>Private</td><td>No</td><td>Yes</td><td>~1%; licence cancelled 2022, reinstated on appeal with curbs</td></tr>
+      <tr><td class="t-strong">Acer Credit Rating</td><td>Registered Aug-2025</td><td>Private</td><td>No</td><td>No</td><td>New entrant; 0% in FY26</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>The first striking feature is ownership. The global big three own three of India's four leading agencies: S&amp;P controls CRISIL (66.64%), Moody's controls ICRA (51.86%) and Fitch owns India Ratings outright. CARE is the only large independent, held by Indian and foreign institutions with no promoter. In most large economies the big three rate directly on the global scale; in India they operate through local affiliates on the national scale, because almost every Indian borrower is rated only on that scale. Moody's minority stake in the Philippines' PhilRatings in September 2026 shows the template is still spreading.</p>
+
+  <div class="chart">
+    <div class="c-title">Fresh ratings of listed securities, FY26: CRISIL takes almost half</div>
+    <div class="c-sub">Share of 725 fresh ratings assigned to listed or to-be-listed securities. Shares below ICRA read from SEBI's rendered pie chart (approximate). Bank-loan ratings are excluded. Source: SEBI Annual Report 2025-26, Ch. 7, Chart 7.1</div>
+    <div class="stack-row"><div class="blab">725 fresh ratings</div><div class="stack"><span style="width:46.8%;background:var(--brand)">CRISIL 47%</span><span style="width:20.1%;background:var(--om)">ICRA 20%</span><span style="width:19.3%;background:var(--epc)">IndRa 19%</span><span style="width:6%;background:var(--gold)">6%</span><span style="width:4%;background:var(--wtg)">4%</span><span style="width:3.8%;background:var(--ink-faint)"></span></div></div>
+    <div class="legend"><span><i style="background:var(--brand)"></i>CRISIL 46.8% (339)</span><span><i style="background:var(--om)"></i>ICRA 20.1%</span><span><i style="background:var(--epc)"></i>India Ratings 19.3%</span><span><i style="background:var(--gold)"></i>Acuité ~6%</span><span><i style="background:var(--wtg)"></i>CARE ~4%</span><span><i style="background:var(--ink-faint)"></i>Infomerics ~3%, Brickwork ~1%, Acer 0%</span></div>
+  </div>
+
+  <h3>Concentration depends on what you count</h3>
+  <p>Market share in Indian ratings has at least three bases, and they tell different stories. On SEBI's count of fresh ratings on listed securities, CRISIL, ICRA and India Ratings together hold 86%, and CRISIL alone 46.8%. On revenue among the listed agencies, CRISIL's domestic agency earns about 48%, CARE about 28% and ICRA about 24% (mixing CRISIL's CY25 with the others' FY26; INDICATIVE). On revenue across the whole estimated pool, the shares fall to roughly 36% for CRISIL, 21% for CARE, 18% each for ICRA and India Ratings and 7% for the tail (INDICATIVE). CARE is the outlier: about 4% of fresh listed ratings, yet roughly a fifth of industry revenue and, by its management's account, 24–25% of incremental rating business by count and by volume of debt rated. The reconciliation is that CARE's franchise is bank loans, commercial paper, securitisation and unlisted instruments, which SEBI's chart excludes.</p>
+
+  <div class="tbl-wrap">
+  <table>
+    <caption>Three share bases, side by side</caption>
+    <thead><tr><th>Agency</th><th class="num">Fresh listed ratings FY26 (SEBI)</th><th class="num">Revenue share of pool (indicative)</th><th class="num">Rated entities</th><th class="num">Listed defaults FY26</th><th class="num">Downgrades FY26</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">CRISIL</td><td class="num">46.8%</td><td class="num">~36%</td><td class="num">~7,300 (Mar-26)</td><td class="num">2</td><td class="num">14</td></tr>
+      <tr><td class="t-strong">ICRA</td><td class="num">20.1%</td><td class="num">~18%</td><td class="num">n/d</td><td class="num">2</td><td class="num">12</td></tr>
+      <tr><td class="t-strong">India Ratings</td><td class="num">19.3%</td><td class="num">~18%</td><td class="num">n/d</td><td class="num">2</td><td class="num">20</td></tr>
+      <tr><td class="t-strong">CARE</td><td class="num">~4%</td><td class="num">~21%</td><td class="num">5,200+</td><td class="num">3</td><td class="num">20</td></tr>
+      <tr><td class="t-strong">Acuité</td><td class="num">~6%</td><td class="num">~3–4%</td><td class="num">n/d</td><td class="num">0</td><td class="num" rowspan="1">—</td></tr>
+      <tr><td class="t-strong">Infomerics</td><td class="num">~3%</td><td class="num">~2–3%</td><td class="num">n/d</td><td class="num">2</td><td class="num">—</td></tr>
+      <tr><td class="t-strong">Brickwork / Acer</td><td class="num">~1% / 0%</td><td class="num">&lt;1%</td><td class="num">n/d</td><td class="num">0</td><td class="num">—</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>CRISIL wins the bond market, CARE wins a lot of bank-loan and unlisted work, and the smaller agencies fight over small-company ratings. A single "market share" figure for Indian ratings is meaningless unless it says which of these it is counting.</p>
+  </div>
+
+  <h3>Why two tiers? Investor preference versus price shopping</h3>
+  <p>The issuer pays, but in the listed bond market the investor decides which ratings matter. A mutual fund or insurer that knows an agency's history will price a bond more keenly if that agency rated it, and a borrower that wants the tightest spread pays for the investor's preferred rating. CRISIL's annual report attributes its leadership in corporate bonds to "investor and issuer preference" for quality ratings. The revenue arithmetic supports that: Crisil Ratings earns about ₹9.2 lakh per rated company a year against about ₹7.5 lakh at CARE (INDICATIVE averages that blend bank-loan, bond and structured mandates), a premium of roughly 23% for the investor-preferred rater.</p>
+
+  <div class="chart">
+    <div class="c-title">Average revenue per rated company, ₹ lakh a year (indicative)</div>
+    <div class="c-sub">INDICATIVE: domestic ratings revenue ÷ rated entities. Crisil Ratings ₹670.6 Cr (CY25) ÷ ~7,300 (Mar-26); CARE standalone ₹387.7 Cr (FY26) ÷ 5,200+. Averages blend very different mandate sizes</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Crisil Ratings</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~₹9.2</div></div>
+      <div class="bar-row"><div class="blab">CARE Ratings</div><div class="track"><span class="fill wtg" style="width:81.5%"></span></div><div class="bval">~₹7.5</div></div>
+    </div>
+    <div class="legend"><span>Scale: full bar = ₹9.2 lakh. ICRA and India Ratings do not disclose rated-entity counts.</span></div>
+  </div>
+
+  <p>In small-company bank-loan ratings the dynamic is the opposite. The borrower needs a rating only so its bank can use it, the bank cares mainly that the agency is on RBI's eligible list, and the cheapest acceptable rating wins. This is where "rating shopping" risk is highest, and where defaults cluster: in FY25 Acuité and Infomerics together accounted for 9 of the 22 defaults on listed-security ratings that SEBI recorded, and Brickwork's licence was cancelled in 2022 before an appeal tribunal restored it with curbs. The tail earns thin fees on small mandates and carries most of the regulatory risk. RBI's 2027 framework, which ties risk weights to each agency's default record, is likely to widen the gap between the tiers (Section 07).</p>
+
+  <div class="chart">
+    <div class="c-title">Defaults on listed-security ratings by agency, FY25 → FY26</div>
+    <div class="c-sub">Count of defaults among ratings of listed securities as recorded by SEBI. Total 22 in FY25, 11 in FY26. Both of CRISIL's FY26 defaults came from investment grade. Source: SEBI Annual Report 2025-26</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Acuité</div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">5 → 0</div></div>
+      <div class="bar-row"><div class="blab">CARE</div><div class="track"><span class="fill bad" style="width:80%"></span></div><div class="bval">4 → 3</div></div>
+      <div class="bar-row"><div class="blab">Infomerics</div><div class="track"><span class="fill bad" style="width:80%"></span></div><div class="bval">4 → 2</div></div>
+      <div class="bar-row"><div class="blab">ICRA</div><div class="track"><span class="fill gold" style="width:60%"></span></div><div class="bval">3 → 2</div></div>
+      <div class="bar-row"><div class="blab">India Ratings</div><div class="track"><span class="fill gold" style="width:60%"></span></div><div class="bval">3 → 2</div></div>
+      <div class="bar-row"><div class="blab">CRISIL</div><div class="track"><span class="fill brand" style="width:40%"></span></div><div class="bval">2 → 2</div></div>
+      <div class="bar-row"><div class="blab">Brickwork</div><div class="track"><span class="fill brand" style="width:20%"></span></div><div class="bval">1 → 0</div></div>
+    </div>
+    <div class="legend"><span>Bar length = FY25 count (full bar = 5). Small numbers: one large default can move a ranking, so read several years together.</span></div>
+  </div>
+
+  <p>Downgrades tell a related story. Of 84 downgrades of listed-security ratings in FY26, CARE and India Ratings had 20 each, CRISIL 14 and ICRA 12. Upgrades (149) outnumbered downgrades by 1.8 to 1, a benign credit environment. A higher downgrade count is not automatically bad: an agency that downgrades early, before a default, is doing its job. What investors punish is the cliff-edge, a rating that stays at AA until weeks before a default, as happened with IL&amp;FS in 2018 and DHFL in 2019 (Section 10).</p>
+
+  <h3>The research-side competition</h3>
+  <p>CRISIL's larger business faces a completely different competitive set. In research and risk outsourcing, its rivals are specialist providers such as Acuity Knowledge Partners (formerly part of Moody's), Evalueserve and eClerx, and the financial-services arms of Genpact and WNS, which our <a href="bpo-kpo.html">BPO and KPO</a> and <a href="it-services.html">IT services</a> reports cover. In benchmarking, it competes with consulting firms and data vendors. The most powerful competitor is the client's own captive centre: virtually every bulge-bracket bank runs a research and risk centre in India. And the data and AI platforms (Bloomberg, LSEG, FactSet, Moody's Analytics, S&amp;P Market Intelligence itself) keep moving into territory that used to need an analyst. There is no licence protecting this business, which is why its margins are a third of the rating licence's.</p>
+</section>
+
+<section class="part" id="p6">
+  <div class="part-head"><span class="pno">06</span><h2>Five business models, five very different margins</h2></div>
+  <p class="part-sub">The same word, "rating agency", covers a 60%-margin licence, a cost-plus captive and a 17%-margin research exporter. CRISIL is the only listed company that runs all five models.</p>
+
+  <p class="lead">To value a company in this sub-sector you first have to decompose it into business models, because each model has its own margin, capital need and growth driver. A single price-to-earnings multiple applied to CRISIL as if it were ICRA or CARE will mislead. The table below sets out the five archetypes that exist in Indian ratings and research.</p>
+
+  <div class="tbl-wrap">
+  <table>
+    <caption>Five archetypes in Indian ratings and research</caption>
+    <thead><tr><th>Archetype</th><th>Examples</th><th>Revenue model</th><th>Margin (latest)</th><th>Growth driver</th><th>Key risk</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">A. Domestic issuer-pays rater</td><td>CARE (89% ratings), India Ratings, Acuité, Infomerics, Brickwork</td><td>Initial and surveillance fees on bonds, CP, BLRs, securitisation</td><td>CARE standalone EBITDA 48% (FY26); CARE was 61–63% in FY15–18</td><td>Credit volumes, surveillance stock, pricing</td><td>A reputation event (CARE's margin fell to 32–33% after IL&amp;FS)</td></tr>
+      <tr><td class="t-strong">B. Rater inside a global parent, with captive work</td><td>ICRA (Moody's); Crisil Ratings plus the GAC (S&amp;P)</td><td>Domestic fees plus cost-plus services to the parent</td><td>ICRA ratings 56.7% (FY26); CRISIL Ratings segment 44.3% (CY25), blended with the GAC</td><td>As A, plus the parent's delegation of work</td><td>Parent in-sourcing or automation; transfer-pricing caps</td></tr>
+      <tr><td class="t-strong">C. Research and risk outsourcing</td><td>CRISIL Integral IQ; ICRA KnowTech; Acuity</td><td>FTE, time-and-materials and projects, billed in US$/£</td><td>~15–25% (ICRA R&amp;A 24.3% FY26; CRISIL RAS 17–22%)</td><td>Global bank budgets, offshoring share, regulation</td><td>Generative AI, bank captives, a stronger rupee</td></tr>
+      <tr><td class="t-strong">D. Proprietary benchmarks, data, software</td><td>Coalition Greenwich (incl. PriceMetrix); ICRA BankTech; CareEdge Analytics</td><td>Subscriptions and licences, renewal cycles</td><td>Coalition Development ~25% PAT (CY25); ICRA guides 20–35% EBITDA for products</td><td>Investment-bank revenue pools, wealth management</td><td>Bank budget cuts; renewal timing</td></tr>
+      <tr><td class="t-strong">E. India research, consulting, data</td><td>Crisil Intelligence, ICRA Research, CareEdge Advisory</td><td>Subscriptions, consulting, government advisory</td><td>Low to mid; not disclosed</td><td>Corporate and government spending</td><td>Commoditisation; AI-written reports</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>Archetype A is the purest and, at its best, the most profitable. CARE is the listed example: 89% of its FY26 revenue came from ratings, and its standalone domestic business earned a 48% operating margin and a 39% net margin. Its costs are almost entirely people, and once the analysts are in place each extra mandate carries a very high incremental margin. Its weakness is that it has no second engine: when IL&amp;FS damaged its reputation, there was nothing to offset the fall in fees.</p>
+  <p>Archetype B adds a captive relationship with a global parent. ICRA's ratings segment earned 56.7% in FY26, the best disclosed figure in India. CRISIL's reported Ratings segment earned 44.3% in CY25, but that blends two different businesses: the domestic agency, Crisil Ratings Ltd, which earned 59.5% before tax, and the Global Analytics Centre, which serves S&amp;P Global Ratings at a transfer-pricing mark-up on cost. The GAC is large (about ₹390–410 crore of revenue, roughly 11% of CRISIL's total) and steady, but its margin is fixed by tax rules, not by the market.</p>
+
+  <div class="chart">
+    <div class="c-title">Where ₹100 of revenue goes, by business model</div>
+    <div class="c-sub">Row 1 is an ILLUSTRATIVE composite of CARE standalone and ICRA ratings (FY26). Row 2 is CRISIL consolidated CY25 as reported. Row 3 is CRISIL RAS CY25 with an ILLUSTRATIVE split of the ₹78 segment cost. Sources: company filings; dossier §4.2</div>
+    <div class="stack-row"><div class="blab">Domestic rater<small>illustrative</small></div><div class="stack"><span style="width:42%;background:var(--om)">Staff 42</span><span style="width:10%;background:var(--ink-faint)">10</span><span style="width:48%;background:var(--brand)">EBITDA 48</span></div></div>
+    <div class="stack-row"><div class="blab">CRISIL group<small>CY25</small></div><div class="stack"><span style="width:53.3%;background:var(--om)">Staff 53.3</span><span style="width:8.3%;background:var(--epc)">8.3</span><span style="width:8.7%;background:var(--ink-faint)">8.7</span><span style="width:29.7%;background:var(--brand)">Op. profit 29.7</span></div></div>
+    <div class="stack-row"><div class="blab">CRISIL RAS<small>CY25, split illustrative</small></div><div class="stack"><span style="width:60%;background:var(--om)">Staff ~60</span><span style="width:18%;background:var(--ink-faint)">~18</span><span style="width:22%;background:var(--brand)">Profit 22</span></div></div>
+    <div class="legend"><span><i style="background:var(--om)"></i>Employee costs</span><span><i style="background:var(--epc)"></i>Professional + associate service fees (4.4 + 3.9)</span><span><i style="background:var(--ink-faint)"></i>Other opex: rent, IT, data, travel</span><span><i style="background:var(--brand)"></i>Operating or segment profit</span></div>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>A pure rating agency keeps about half of every rupee it earns as operating profit. CRISIL as a whole keeps about 30, because most of its revenue comes from research work where people cost more relative to the price the client pays. Same brand, very different economics.</p>
+  </div>
+
+  <h3>From ₹100 of revenue to ₹21 of profit: CRISIL's CY25 waterfall</h3>
+  <p>Follow ₹100 of CRISIL's CY25 revenue down the income statement. Employees take ₹53.3, the single largest cost and the reason revenue per employee is the company's core productivity measure. Professional fees (₹4.4) and fees paid to associated service providers (₹3.9) cover contractors and partner networks. Other expenses, mostly technology, data, rent and travel, take ₹8.7. That leaves ₹29.7 of operating profit. Treasury and other income add ₹2.9; lease interest, CRISIL's only finance cost, takes ₹0.6; depreciation and amortisation take ₹3.5, rising as acquired intangibles are written down. Profit before tax is ₹28.5 and, after ₹7.6 of tax, net profit is ₹21.0. A domestic rating agency runs the same waterfall with a much shorter cost bar: Crisil Ratings Ltd kept ₹44 of every ₹100 of turnover as net profit in CY25.</p>
+
+  <div class="chart">
+    <div class="c-title">CRISIL CY25: from ₹100 of revenue to ₹21 of net profit</div>
+    <div class="c-sub">Consolidated, per ₹100 of revenue from operations. Source: CRISIL Integrated Annual Report 2025; screener basis for operating profit</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Revenue</div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">100.0</div></div>
+      <div class="bar-row"><div class="blab">− Employee cost</div><div class="track"><span class="fill bad" style="width:53.3%"></span></div><div class="bval">53.3</div></div>
+      <div class="bar-row"><div class="blab">− Fees + other opex</div><div class="track"><span class="fill bad" style="width:17%"></span></div><div class="bval">17.0</div></div>
+      <div class="bar-row"><div class="blab">= Operating profit</div><div class="track"><span class="fill brand" style="width:29.7%"></span></div><div class="bval">29.7</div></div>
+      <div class="bar-row"><div class="blab">+ Other income − D&amp;A − lease interest</div><div class="track"><span class="fill gold" style="width:1.2%"></span></div><div class="bval">−1.2</div></div>
+      <div class="bar-row"><div class="blab">= PBT</div><div class="track"><span class="fill brand" style="width:28.5%"></span></div><div class="bval">28.5</div></div>
+      <div class="bar-row"><div class="blab">− Tax</div><div class="track"><span class="fill bad" style="width:7.6%"></span></div><div class="bval">7.6</div></div>
+      <div class="bar-row"><div class="blab">= Net profit</div><div class="track"><span class="fill spec" style="width:21%"></span></div><div class="bval">21.0</div></div>
+    </div>
+    <div class="legend"><span>Other income +2.9, D&amp;A −3.5, lease interest −0.6. Rounding: PBT minus tax shows 20.9; reported PAT ÷ revenue is 21.0%.</span></div>
+  </div>
+
+  <p>Archetypes C and D are where CRISIL's growth has come from. Research outsourcing (C) is a people business with a currency spread: costs in rupees, revenue in dollars, pounds and euros. Margins in the high teens to low twenties are normal, and every point of rupee depreciation helps once hedges roll over. Benchmarks and data (D) are higher-margin subscriptions. Coalition Greenwich's league tables and surveys are hard to replicate and are renewed annually, which makes revenue lumpy around renewal dates. CRISIL bought Coalition in July 2012, Greenwich Associates in February 2020 and PriceMetrix, a wealth-management benchmarking business, from McKinsey for US$38 million with effect from 7 November 2025.</p>
+  <p>Archetype E, Indian research and consulting, is small and undisclosed at every company, but it carries brand value. CRISIL's industry reports, mutual-fund rankings and bond indices make the name familiar to every Indian fund manager and bank credit officer, which indirectly supports the rating franchise. ICRA and CARE run similar but smaller research and advisory units.</p>
+
+  <h3>Capital needs: almost none</h3>
+  <p>All five models share one feature: they need very little capital. CRISIL's capital commitments at December 2025 were just ₹9 crore, its only fixed obligations are office leases (₹296.8 crore of lease liabilities) and it has no financial debt. Crisil Ratings Ltd earned 38.8% of CRISIL's group net profit on 7.5% of its net assets, a return on equity of roughly 130%, and paid ₹272 crore of dividends to its parent in CY25. The constraint on growth is people and reputation, not money. That is why the whole sector carries net cash and pays out most of its profit: CRISIL's CY25 payout was 58.2%, ICRA's 56% (including a special dividend) and CARE's 39%.</p>
+
+  <div class="chart">
+    <div class="c-title">Returns on capital: the licence is the best business</div>
+    <div class="c-sub">Crisil Ratings Ltd ROE is INDICATIVE (CY25 PAT ₹297.4 Cr on ~₹226 Cr of net assets, AR25 Schedule III). Group ROCE from screener, 23 Oct 2026: CRISIL CY25; ICRA and CARE FY26. Full bar = 130%</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Crisil Ratings Ltd<small>ROE, indicative</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~130%</div></div>
+      <div class="bar-row"><div class="blab">CRISIL group<small>ROCE</small></div><div class="track"><span class="fill spec" style="width:25.1%"></span></div><div class="bval">32.6%</div></div>
+      <div class="bar-row"><div class="blab">CARE group<small>ROCE</small></div><div class="track"><span class="fill wtg" style="width:20.2%"></span></div><div class="bval">26.3%</div></div>
+      <div class="bar-row"><div class="blab">ICRA group<small>ROCE</small></div><div class="track"><span class="fill om" style="width:17.7%"></span></div><div class="bval">23.0%</div></div>
+    </div>
+    <div class="legend"><span>Group returns are diluted by cash piles (ICRA and CARE) and by acquisition goodwill (CRISIL: goodwill plus intangibles ₹989 Cr at Dec-25 vs ₹533 Cr a year earlier).</span></div>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>A rating agency's balance sheet is mostly cash and receivables, and its factory is its analysts. It does not need to borrow or build to grow. So the right question is not "how much capital does it need?" but "how long can it keep its reputation and its pricing?".</p>
+  </div>
+</section>
+
+<section class="part" id="p7">
+  <div class="part-head"><span class="pno">07</span><h2>The rating that sets the risk weight: RBI's 2027 Standardised Approach <span class="dd">Deep dive</span></h2></div>
+  <p class="part-sub">From 1 April 2027 a bank's capital charge will depend on the rating agency's own default record. It is the biggest change to Indian rating economics since Basel II, and the relief it promises is not assured.</p>
+
+  <p class="lead">On 27 April 2026 RBI issued the <strong>Reserve Bank of India (Commercial Banks – Capital Charge for Credit Risk – Standardised Approach) Directions, 2026</strong>, replacing a draft of 7 October 2025. They take effect on <strong>1 April 2027</strong>. For banks they rewrite the risk weights used to calculate capital on corporate loans. For rating agencies they do something new: they make the quality of an agency's past ratings a number that changes a bank's capital, and therefore its lending price, from one agency to the next. Our <a href="private-banks.html">private banks</a>, <a href="psu-banks.html">PSU banks</a> and <a href="small-finance-banks.html">small finance banks</a> reports cover the effect on lenders; this section covers what it means for the raters.</p>
+
+  <h3>What changes: lower base weights</h3>
+  <p>For long-term ratings of corporates, the base risk weights fall at three grades. AA moves from 30% to <strong>20%</strong>, the same as AAA. BBB moves from 100% to <strong>75%</strong>. BB moves from 150% to <strong>100%</strong>. A stays at 50% and anything below BB at 150%. Unrated corporate exposures carry 100%, but if the borrower's aggregate exposure across the banking system exceeds <strong>₹500 crore</strong>, the weight rises to 150%; the same threshold applies to unrated MSMEs. Short-term ratings run from 20% (A1+/A1) to 150% (A4/D). On its January 2026 reading of the draft, Crisil Ratings estimated that the lower weights could release about <strong>₹71,000 crore</strong> of bank capital on a base of about ₹4.35 lakh crore, and cut lending rates for qualifying AA borrowers by up to about 50 basis points a year, provided every agency qualified.</p>
+
+  <div class="chart">
+    <div class="c-title">Corporate risk weights by rating grade: old vs from April 2027</div>
+    <div class="c-sub">Base risk weights for long-term corporate ratings, before the ODR adjustment. "Unrated" is 100%, or 150% if banking-system exposure exceeds ₹500 Cr. Sources: RBI SA Directions 2026; old weights per Crisil Ratings (Jan-2026). Full bar = 150%</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">AAA old → new</div><div class="track"><span class="fill brand" style="width:13.3%"></span></div><div class="bval">20 → 20</div></div>
+      <div class="bar-row"><div class="blab">AA old</div><div class="track"><span class="fill ink" style="width:20%"></span></div><div class="bval">30</div></div>
+      <div class="bar-row"><div class="blab">AA new</div><div class="track"><span class="fill brand" style="width:13.3%"></span></div><div class="bval">20</div></div>
+      <div class="bar-row"><div class="blab">A old → new</div><div class="track"><span class="fill brand" style="width:33.3%"></span></div><div class="bval">50 → 50</div></div>
+      <div class="bar-row"><div class="blab">BBB old</div><div class="track"><span class="fill ink" style="width:66.7%"></span></div><div class="bval">100</div></div>
+      <div class="bar-row"><div class="blab">BBB new</div><div class="track"><span class="fill brand" style="width:50%"></span></div><div class="bval">75</div></div>
+      <div class="bar-row"><div class="blab">BB old</div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">150</div></div>
+      <div class="bar-row"><div class="blab">BB new</div><div class="track"><span class="fill brand" style="width:66.7%"></span></div><div class="bval">100</div></div>
+      <div class="bar-row"><div class="blab">Unrated &gt;₹500 Cr</div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">150</div></div>
+    </div>
+  </div>
+
+  <h3>The catch: each agency's observed default rate</h3>
+  <p>The base weights apply only if the rating agency's track record at that grade is good enough. Paragraph 27(2) and Table 21 of the Directions say the weights are "adjusted for the average one-year ODR for each rating category published by the respective ECRAs". ODR is the observed default rate: the share of borrowers rated at a grade at the start of a year that defaulted within the year. If an agency's average one-year ODR for a grade exceeds RBI's ceiling, loans rated at that grade by that agency move one risk-weight bucket up. An AA rating from an agency whose AA ODR is above 0.10% would carry 50%, the A weight, instead of 20%.</p>
+
+  <div class="flow">
+    <div class="eyebrow" style="margin-bottom:14px;">How a rating becomes a bank's capital charge from April 2027</div>
+    <div class="flow-row">
+      <div class="node om"><div class="ntag">Input</div><div class="nname">Agency's rating</div><div class="nwho">Public, in the monthly bulletin, reviewed within 15 months, naming the bank and facility.</div></div>
+      <div class="arrow">→</div>
+      <div class="node wtg"><div class="ntag">Lookup</div><div class="nname">Base risk weight</div><div class="nwho">AA 20%, BBB 75%, BB 100%…</div></div>
+      <div class="arrow">→</div>
+      <div class="node spec"><div class="ntag">Test</div><div class="nname">Agency's one-year ODR at that grade</div><div class="nwho">Within RBI's ceiling: keep. Above: one bucket up.</div></div>
+      <div class="arrow">→</div>
+      <div class="node epc"><div class="ntag">Output</div><div class="nname">Capital held</div><div class="nwho">Exposure × risk weight × capital ratio.</div></div>
+    </div>
+    <div class="flow-note">With two ratings, the higher weight applies; with three or more, the higher of the two most favourable. Unsolicited ratings do not count. A non-cooperating (INC) rating carries a 100% floor for six months and 150% after.</div>
+  </div>
+
+  <div class="tbl-wrap">
+  <table>
+    <caption>One-year default rates by grade against RBI's Table 21 ceilings (%)</caption>
+    <thead><tr><th>Grade</th><th class="num">RBI ceiling</th><th class="num">CRISIL, SEBI long-run FY16–26</th><th class="num">CRISIL, SEBI short-run (24 cohorts)</th><th class="num">CRISIL own method FY16–26</th><th class="num">ICRA 10-yr avg</th><th class="num">ICRA 5-yr avg</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">AAA</td><td class="num">≤0.05</td><td class="num">0.01 ✓</td><td class="num">0.00 ✓</td><td class="num">0.00 ✓</td><td class="num neg">0.2 ✗</td><td class="num">0.0 ✓</td></tr>
+      <tr><td class="t-strong">AA</td><td class="num">≤0.10</td><td class="num">0.06 ✓</td><td class="num">0.01 ✓</td><td class="num">0.02 ✓</td><td class="num">0.1 at limit</td><td class="num">0.0 ✓</td></tr>
+      <tr><td class="t-strong">A</td><td class="num">≤0.20</td><td class="num">0.09 ✓</td><td class="num">0.13 ✓</td><td class="num">0.07 ✓</td><td class="num">0.1 ✓</td><td class="num">0.0 ✓</td></tr>
+      <tr><td class="t-strong">BBB</td><td class="num">≤0.40</td><td class="num neg">0.42 ✗</td><td class="num">0.12 ✓</td><td class="num neg">0.43 ✗</td><td class="num neg">1.0 ✗</td><td class="num">0.3 ✓</td></tr>
+      <tr><td class="t-strong">BB</td><td class="num">≤1.0</td><td class="num neg">1.97 ✗</td><td class="num neg">1.18 ✗</td><td class="num neg">2.80 ✗</td><td class="num neg">3.7 ✗</td><td class="num neg">2.5 ✗</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p style="font-size:12.5px;color:var(--ink-soft);">Sources: RBI SA Directions 2026, Table 21; Crisil Ratings "Default and rating transitions study up to fiscal 2026"; ICRA "Rating Transition and Default Study FY2026". CARE's FY26 study was not available; CARE says its rates are "well within" RBI's benchmarks. ✓ = within the ceiling; ✗ = above it, so the risk weight moves one bucket up.</p>
+
+  <h3>Why the relief is not assured</h3>
+  <p>The table is the most important new dataset in this report, and it overturns a comfortable assumption. On recent, short-run windows, the big agencies pass at AAA, AA, A and BBB. But on SEBI's long-run window (FY16–26), which still contains the IL&amp;FS and DHFL defaults of 2018–20, CRISIL's BBB rate of 0.42% is fractionally above the 0.40% ceiling, and ICRA's AAA (0.2%) and BBB (1.0%) are well above. At BB every rate we have, 1.2% to 3.7%, breaches the 1.0% ceiling on every window. RBI's text says only "latest available average one-year ODR … published by the domestic ECRA" and does not fix the averaging period. Which window applies will decide whether BBB loans get the 75% weight or stay at 100%.</p>
+
+  <div class="chart">
+    <div class="c-title">BBB and BB default rates as a multiple of RBI's ceiling</div>
+    <div class="c-sub">One-year default rate ÷ RBI ceiling, in %. 100% = exactly at the ceiling; above 100% means the risk weight moves one bucket up. Full bar = 400%. Sources: Crisil Ratings and ICRA default studies, FY2026; RBI Table 21</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">CRISIL BBB<small>SEBI long-run</small></div><div class="track"><span class="fill gold" style="width:26.3%"></span></div><div class="bval">105%</div></div>
+      <div class="bar-row"><div class="blab">CRISIL BBB<small>SEBI short-run</small></div><div class="track"><span class="fill brand" style="width:7.5%"></span></div><div class="bval">30%</div></div>
+      <div class="bar-row"><div class="blab">ICRA BBB<small>10-yr average</small></div><div class="track"><span class="fill bad" style="width:62.5%"></span></div><div class="bval">250%</div></div>
+      <div class="bar-row"><div class="blab">ICRA BBB<small>5-yr average</small></div><div class="track"><span class="fill brand" style="width:18.8%"></span></div><div class="bval">75%</div></div>
+      <div class="bar-row"><div class="blab">CRISIL BB<small>SEBI long-run</small></div><div class="track"><span class="fill bad" style="width:49.3%"></span></div><div class="bval">197%</div></div>
+      <div class="bar-row"><div class="blab">CRISIL BB<small>SEBI short-run</small></div><div class="track"><span class="fill bad" style="width:29.5%"></span></div><div class="bval">118%</div></div>
+      <div class="bar-row"><div class="blab">ICRA BB<small>10-yr average</small></div><div class="track"><span class="fill bad" style="width:92.5%"></span></div><div class="bval">370%</div></div>
+      <div class="bar-row"><div class="blab">ICRA BB<small>5-yr average</small></div><div class="track"><span class="fill bad" style="width:62.5%"></span></div><div class="bval">250%</div></div>
+    </div>
+    <div class="legend"><span>The window decides BBB. At BB, every window breaches, so the advertised 150% → 100% cut is largely void in practice.</span></div>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>RBI is telling banks: you can hold less capital against a loan rated AA or BBB, but only if the agency that gave the rating has a clean record at that grade. The agencies' records look clean on recent years but not on a ten-year view that includes IL&amp;FS. RBI has not said which view counts. Until it does, nobody can say how much capital banks will actually save.</p>
+  </div>
+
+  <h3>A worked example: what a qualifying rating is worth to a bank</h3>
+  <p>Take an ILLUSTRATIVE ₹1,000 crore loan to an AA-rated company, with the bank holding capital at a 12% ratio and needing a pre-tax return of about 20% on that capital (roughly a 15% post-tax return on equity). If the rating agency qualifies at AA, the risk weight is 20%, so risk-weighted assets are ₹200 crore and capital is ₹24 crore, costing about ₹4.8 crore a year, or 48 basis points on the loan. Under the old rules (30%), the same loan tied up ₹36 crore of capital, costing about 72 basis points. If the agency's AA default rate breaches the ceiling, the weight moves to 50%: ₹60 crore of capital and about 120 basis points. If the borrower were unrated and its system-wide exposure exceeded ₹500 crore, 150% would apply: ₹180 crore of capital, about 360 basis points.</p>
+
+  <div class="tbl-wrap">
+  <table>
+    <caption>ILLUSTRATIVE: ₹1,000 Cr loan to an AA borrower under the 2027 rules</caption>
+    <thead><tr><th>Scenario</th><th class="num">Risk weight</th><th class="num">Risk-weighted assets ₹ Cr</th><th class="num">Capital at 12% ₹ Cr</th><th class="num">Capital cost at ~20% pre-tax ₹ Cr/yr</th><th class="num">Equivalent on loan rate</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">AA, agency within the AA ceiling</td><td class="num">20%</td><td class="num">200</td><td class="num">24</td><td class="num">4.8</td><td class="num">~48 bp</td></tr>
+      <tr><td class="t-strong">AA under the old rules</td><td class="num">30%</td><td class="num">300</td><td class="num">36</td><td class="num">7.2</td><td class="num">~72 bp</td></tr>
+      <tr><td class="t-strong">AA, agency breaches the ceiling</td><td class="num">50%</td><td class="num">500</td><td class="num">60</td><td class="num">12.0</td><td class="num">~120 bp</td></tr>
+      <tr><td class="t-strong">Unrated, system exposure &gt;₹500 Cr</td><td class="num">150%</td><td class="num">1,500</td><td class="num">180</td><td class="num">36.0</td><td class="num">~360 bp</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="chart">
+    <div class="c-title">Capital a bank must hold against the same ₹1,000 crore loan (illustrative)</div>
+    <div class="c-sub">ILLUSTRATIVE worked example at a 12% capital ratio. Full bar = ₹180 Cr</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">AA, qualifying agency</div><div class="track"><span class="fill brand" style="width:13.3%"></span></div><div class="bval">₹24 Cr</div></div>
+      <div class="bar-row"><div class="blab">AA, old rules</div><div class="track"><span class="fill ink" style="width:20%"></span></div><div class="bval">₹36 Cr</div></div>
+      <div class="bar-row"><div class="blab">AA, breaching agency</div><div class="track"><span class="fill gold" style="width:33.3%"></span></div><div class="bval">₹60 Cr</div></div>
+      <div class="bar-row"><div class="blab">Unrated &gt;₹500 Cr</div><div class="track"><span class="fill bad" style="width:100%"></span></div><div class="bval">₹180 Cr</div></div>
+    </div>
+  </div>
+
+  <p>The point of the arithmetic is the gap between the first and third rows. For the bank, the same borrower with the same AA rating costs 72 basis points more a year if the rating came from an agency that fails RBI's test. The rating fee, perhaps ₹10–15 lakh a year for a facility of this size (INDICATIVE; fee schedules are not published), is trivial next to that. Banks will therefore steer borrowers toward agencies whose ratings qualify at the relevant grade, and borrowers will comply because the saving is theirs. For the first time, an Indian agency's default history becomes a selling point that a bank can price.</p>
+
+  <h3>What it means for the agencies</h3>
+  <ul class="clean">
+    <li><strong>Rating quality becomes a commercial differentiator.</strong> The race will be fought at BBB, where mid-corporate bank-loan volume lives. CRISIL looks clean at AAA–A on every window; CARE claims the best short-term default rates at AAA, AA and A. Agencies with weak records in the long tail risk losing bank-loan mandates.</li>
+    <li><strong>Bank-loan ratings get stickier.</strong> The ₹500 crore unrated threshold and the INC penalties make walking away from a rating costly. Expect more ratings and fewer withdrawals.</li>
+    <li><strong>Lower-grade volume may return.</strong> Borrowers that left the rated universe because external ratings did not help them now face 150% if unrated above the threshold, which should pull some back from FY28 (INDICATIVE).</li>
+    <li><strong>The headline relief is an upper bound.</strong> Crisil Ratings' ₹71,000 crore estimate assumed every agency qualifies. On the final text, with BB breaches everywhere and BBB depending on the window, it is a ceiling, not a forecast.</li>
+    <li><strong>Compliance cost rises.</strong> Ratings must name the bank and facility, appear in a monthly bulletin and be reviewed within 15 months, or the exposure counts as unrated.</li>
+  </ul>
+
+  <div class="chart">
+    <div class="c-title">How often Crisil Ratings' grades stay unchanged over a year</div>
+    <div class="c-sub">One-year rating stability (share of ratings at the same grade a year later), FY16–26 average, Crisil's own method. FY26 annual default rate 0.7% (38 defaults), the lowest in 17 years. Source: Crisil Ratings default study FY2026. Full bar = 100%</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">AAA</div><div class="track"><span class="fill brand" style="width:99%"></span></div><div class="bval">99.03%</div></div>
+      <div class="bar-row"><div class="blab">A1+ (short-term)</div><div class="track"><span class="fill brand" style="width:99%"></span></div><div class="bval">99.01%</div></div>
+      <div class="bar-row"><div class="blab">AA</div><div class="track"><span class="fill spec" style="width:96.1%"></span></div><div class="bval">96.05%</div></div>
+      <div class="bar-row"><div class="blab">A</div><div class="track"><span class="fill wtg" style="width:92.8%"></span></div><div class="bval">92.81%</div></div>
+      <div class="bar-row"><div class="blab">BBB</div><div class="track"><span class="fill om" style="width:91.6%"></span></div><div class="bval">91.64%</div></div>
+      <div class="bar-row"><div class="blab">BB</div><div class="track"><span class="fill gold" style="width:89.2%"></span></div><div class="bval">89.20%</div></div>
+    </div>
+  </div>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>Until now an Indian bank treated every eligible agency's AA the same. From April 2027 it will check each agency's AA track record first. That turns a rating agency's default history from a reputational asset into a price that borrowers can see, which favours the big, cautious agencies and threatens the small ones.</p>
+  </div>
+
+  <p>What to watch before 1 April 2027: any RBI FAQ or Indian Banks' Association clarification on the averaging window; whether agencies begin publishing ODRs in exactly RBI's format; and early bank behaviour, such as credit policies that name "qualifying" agencies by grade. Two broader points complete the picture. First, the regime cuts both ways for the incumbents: if RBI chooses a long window, CRISIL's BBB and ICRA's AAA and BBB would breach, embarrassing the very agencies the rules are expected to favour. Second, the rules arrive alongside banks' move to expected-credit-loss provisioning, also from April 2027, which ICRA sees as a tailwind for its banking-technology business. Regulation in this industry rarely arrives alone.</p>
+</section>
+
+<section class="part" id="p8">
+  <div class="part-head"><span class="pno">08</span><h2>SEBI's rulebook: from licence conditions to outcome metrics</h2></div>
+  <p class="part-sub">SEBI licenses the agencies and polices their conduct; since IL&amp;FS it has increasingly measured their results. In 2026 it widened what they may rate.</p>
+
+  <p class="lead">The SEBI (Credit Rating Agencies) Regulations, 1999 set the rules of entry and conduct: who may register, minimum net worth, the rating process, conflicts of interest and restrictions on rating instruments of promoters and associates. Over 27 years SEBI has layered on disclosure and default-recognition rules, and the direction of travel is clear. Early rules governed how agencies were structured. Later rules govern how their ratings perform.</p>
+
+  <ul class="timeline">
+    <li><div class="yr">1999</div><div class="ev">SEBI (Credit Rating Agencies) Regulations notified: registration, eligibility, code of conduct, rating process.</div></li>
+    <li><div class="yr">2010–2017</div><div class="ev">Rating histories and default studies published; default-recognition norms, mandatory "issuer not cooperating" disclosures and rating-committee independence rules.</div></li>
+    <li class="major"><div class="yr">28 Dec 2017</div><div class="ev">SEBI's board raises minimum net worth from ₹5 Cr to ₹25 Cr, requires promoters to hold at least 26% for three years, caps cross-holdings in another agency below 10%, and mandates segregation of non-rating activities into a separate entity (notified 30 May 2018). This is the origin of Crisil Ratings Ltd, incorporated 3 Jun 2019, which took over the rating business on 31 Dec 2020.</div></li>
+    <li class="major"><div class="yr">13 Jun 2019</div><div class="ev">After IL&amp;FS, circular on enhanced disclosures: liquidity indicators, rating-sensitivity factors and probability-of-default benchmarks by grade. Later folded into circulars of 2023 and 2024 and the Master Circular of 11 Jul 2025.</div></li>
+    <li><div class="yr">25 Aug 2022</div><div class="ev">Cumulative default rates for listed securities to be published with and without non-cooperating issuers.</div></li>
+    <li><div class="yr">3 Jul 2023</div><div class="ev">ESG Rating Providers chapter inserted into the CRA Regulations. An ESG rater may not itself be a credit rating agency, so every agency's ESG arm is a separate subsidiary.</div></li>
+    <li class="major"><div class="yr">13 Jan 2026</div><div class="ev">CRA (Amendment) Regulations, 2026: agencies may rate instruments under other financial-sector regulators, following that regulator's rules; the segregation proviso of 2018 is omitted. A ring-fencing circular follows (separate email IDs and web sections; SEBI net worth met independently).</div></li>
+    <li><div class="yr">FY26</div><div class="ev">Expected-loss rating scale extended to municipal bonds.</div></li>
+  </ul>
+
+  <p>The 2017 package is worth understanding because it shaped CRISIL's corporate structure. The requirement to separate non-rating businesses into a different legal entity is why the domestic agency sits in Crisil Ratings Ltd, a wholly owned subsidiary, while the research businesses and the GAC sit in CRISIL Ltd and its other subsidiaries. That separation also explains why CRISIL's standalone accounts (₹536.75 crore of revenue and ₹151.94 crore of profit in Q3 CY26) say almost nothing about its rating business: the domestic agency's revenue is not in them, and the standalone profit is swollen by dividends from subsidiaries. Investors should use consolidated numbers only. In January 2026 SEBI removed the segregation proviso, loosening the structural ring-fence just as RBI began to measure outcomes.</p>
+
+  <div class="plain">
+    <div class="ptag">In plain terms</div>
+    <p>SEBI first told rating agencies how to organise themselves (separate companies, minimum capital, independent committees). After IL&amp;FS it started telling them to publish how often their ratings default, grade by grade. That data is now what RBI will use to set bank capital. The rules have moved from structure to scorecards.</p>
+  </div>
+
+  <h3>What SEBI's oversight data shows</h3>
+  <p>SEBI's annual report gives a yearly snapshot of ratings on listed securities. In FY26 the agencies assigned 725 fresh ratings and had 1,942 outstanding ratings; 88.4% of outstanding ratings were investment grade, up from 85.8% a year earlier. There were 149 upgrades and 84 downgrades, and defaults fell by half to 11, from 22. Only three of FY26's defaults came from investment-grade ratings, against eleven in FY25. SEBI also noted that some same-day moves from investment grade to sub-investment grade and back came from the timing of escrow transfers rather than credit deterioration, a reminder that strict default-recognition rules can create noise.</p>
+
+  <div class="chart">
+    <div class="c-title">Rating actions on listed securities, FY25 vs FY26 (count)</div>
+    <div class="c-sub">All SEBI-registered agencies. Full bar = 192. Source: SEBI Annual Report 2025-26, Ch. 7</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">Upgrades FY25</div><div class="track"><span class="fill ink" style="width:100%"></span></div><div class="bval">192</div></div>
+      <div class="bar-row"><div class="blab">Upgrades FY26</div><div class="track"><span class="fill brand" style="width:77.6%"></span></div><div class="bval">149</div></div>
+      <div class="bar-row"><div class="blab">Downgrades FY25</div><div class="track"><span class="fill ink" style="width:51.6%"></span></div><div class="bval">99</div></div>
+      <div class="bar-row"><div class="blab">Downgrades FY26</div><div class="track"><span class="fill gold" style="width:43.8%"></span></div><div class="bval">84</div></div>
+      <div class="bar-row"><div class="blab">IG → sub-IG FY25</div><div class="track"><span class="fill ink" style="width:9.9%"></span></div><div class="bval">19</div></div>
+      <div class="bar-row"><div class="blab">IG → sub-IG FY26</div><div class="track"><span class="fill gold" style="width:8.9%"></span></div><div class="bval">17</div></div>
+      <div class="bar-row"><div class="blab">Defaults FY25</div><div class="track"><span class="fill ink" style="width:11.5%"></span></div><div class="bval">22</div></div>
+      <div class="bar-row"><div class="blab">Defaults FY26</div><div class="track"><span class="fill bad" style="width:5.7%"></span></div><div class="bval">11</div></div>
+    </div>
+  </div>
+
+  <div class="chart">
+    <div class="c-title">Outstanding ratings on listed securities by grade, March 2026 (count)</div>
+    <div class="c-sub">Total 1,942; 88.4% investment grade. Grade split is approximate (derived from SEBI's tables). Full bar = 718. Source: SEBI Annual Report 2025-26</div>
+    <div class="bars">
+      <div class="bar-row"><div class="blab">AAA</div><div class="track"><span class="fill brand" style="width:77.2%"></span></div><div class="bval">554</div></div>
+      <div class="bar-row"><div class="blab">AA</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">718</div></div>
+      <div class="bar-row"><div class="blab">A</div><div class="track"><span class="fill spec" style="width:41.2%"></span></div><div class="bval">296</div></div>
+      <div class="bar-row"><div class="blab">BBB</div><div class="track"><span class="fill wtg" style="width:20.6%"></span></div><div class="bval">148</div></div>
+      <div class="bar-row"><div class="blab">BB</div><div class="track"><span class="fill gold" style="width:18.2%"></span></div><div class="bval">131</div></div>
+      <div class="bar-row"><div class="blab">B</div><div class="track"><span class="fill gold" style="width:7.7%"></span></div><div class="bval">55</div></div>
+      <div class="bar-row"><div class="blab">C</div><div class="track"><span class="fill bad" style="width:3.9%"></span></div><div class="bval">28</div></div>
+      <div class="bar-row"><div class="blab">D</div><div class="track"><span class="fill bad" style="width:1.7%"></span></div><div class="bval">12</div></div>
+    </div>
+  </div>
+
+  <h3>Enforcement: penalties are small; reputational damage is not</h3>
+  <p>SEBI's monetary penalties on agencies have been modest. After IL&amp;FS it fined ICRA, CARE and India Ratings ₹25 lakh each in December 2019 and later raised the penalties to ₹1 crore each. It cancelled Brickwork's registration in October 2022; the Securities Appellate Tribunal set that order aside in June 2023, and SEBI replaced it in September 2023 with a six-month bar on new mandates, a reconstituted board and an independent chief executive. Brickwork later settled a further show-cause notice for about ₹1.54 crore (settlement order dated December 2024) and remains registered and RBI-eligible. Infomerics was fined ₹3 lakh in April 2025 for delayed reviews and late default recognition. We found no SEBI penalty order against an agency in 2026. The real sanction has always been commercial: after IL&amp;FS, CARE and ICRA lost chief executives, and CARE lost most of its margin for three years (Section 10).</p>
+
+  <div class="tbl-wrap">
+  <table>
+    <caption>Who regulates what in Indian ratings and research</caption>
+    <thead><tr><th>Regulator</th><th>What it controls</th><th>2026 change</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">SEBI</td><td>Licence, conduct, disclosure, default recognition, ESG raters, valuation agencies</td><td>Jan-2026 amendment: rating of other regulators' instruments; segregation proviso removed</td></tr>
+      <tr><td class="t-strong">RBI</td><td>Which agencies' ratings banks may use, and the risk weights attached</td><td>SA Directions 2026: ODR-linked risk weights from Apr-2027</td></tr>
+      <tr><td class="t-strong">IRDAI, PFRDA, EPFO</td><td>Investment limits by rating for insurers and pension funds (AA and above)</td><td>—</td></tr>
+      <tr><td class="t-strong">SEBI / AMFI (mutual funds)</td><td>Scheme credit limits by rating; debt-fund categories</td><td>—</td></tr>
+      <tr><td class="t-strong">IFSCA (GIFT City)</td><td>Ratings and ESG ratings issued from the IFSC</td><td>CARE selling 19.8% of CareEdge Global IFSC to SBI and NSE IFSC (Oct-2026)</td></tr>
+      <tr><td class="t-strong">Overseas regulators</td><td>Model-risk rules (US Fed SR 11-7, UK PRA), data protection, EU AI Act: shape demand for CRISIL's research work</td><td>Continuing; drives model-validation demand</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>The January 2026 amendment deserves a final word because it opens a new revenue line. Agencies may now rate financial instruments that fall under other regulators, for example instruments regulated by IFSCA or RBI, provided they follow that regulator's guidelines and ring-fence the activity: separate communication channels, explicit statements that SEBI's investor-protection framework does not apply, and SEBI net worth maintained independently. It is too early to size, and no agency has disclosed revenue from it. Its importance is directional: SEBI is widening the licence's scope while RBI tightens the test of its output. For an agency with a clean record, both changes add volume. For one without, the second change may outweigh the first.</p>
+</section>
+
+<!--CONTINUE-->
+
+<footer class="src">
+</footer>
+
+</main>
+</div>
+</div>
+</body>
+</html>
