@@ -198,5 +198,175 @@
   "accent": "#1A931A",
   "angle": "Cholamandalam Financial Holdings (Murugappa: Chola Investment & Finance + Chola MS General Insurance) and Religare Enterprises (Burman takeover, Care Health, Religare Finvest). Forces: the holding-company discount (NAV vs m-cap), look-through earnings, RBI CIC rules, governance and control battles (Religare), listed subsidiary values. KPIs: NAV per share, holdco discount %, look-through PAT, subsidiary contribution, standalone debt, dividends passed through. Cross-link nbfc.html, general-insurance.html, investment-cos.html.",
   "companies": 2
+ },
+ {
+  "order": 21,
+  "queue_no": 56,
+  "slug": "coal",
+  "key": "Mining || Coal",
+  "name": "Coal",
+  "accent": "#620E0E",
+  "angle": "Coal India (CIL, the state monopoly-scale miner: production, offtake, e-auction premium vs FSA price, wage revision, overburden removal, subsidiaries, dividends) and GMDC (Gujarat lignite + new critical-minerals/rare-earth push). Forces: power-demand-driven coal offtake vs record stocks at plants; coal imports and import substitution; commercial coal block auctions and captive miners (private competition); e-auction premium collapse/recovery; coal price notified; diversification (solar, coal gasification, critical minerals); energy transition and peak-coal debate; the 2026 West Asia crisis effect on imported coal/LNG substitution. KPIs: production and offtake (mt), realisation per tonne (FSA vs e-auction), cost per tonne, EBITDA/t, stripping ratio, payout, cash.",
+  "companies": 2
+ },
+ {
+  "order": 22,
+  "queue_no": 58,
+  "slug": "power-transmission",
+  "key": "Power || Power - Transmission",
+  "name": "Power Transmission",
+  "accent": "#8F1414",
+  "angle": "Power Grid (regulated ISTS transmission, ~85% of inter-state network, CERC ROE, capitalisation pipeline, TBCB wins, telecom/consultancy) and Adani Energy Solutions (transmission TBCB + Mumbai distribution + smart meters; OFAC/US-indictment overhang — keep facts consistent: OFAC $275m 18-May-2026; criminal counts vs Gautam/Sagar Adani and Vneet Jaain dismissed with prejudice Aug-2026). Forces: the ₹9+ lakh Cr transmission capex plan (NEP), green-energy corridors and HVDC, TBCB vs RTM (regulated) returns, transformer/equipment shortages and execution, smart-meter rollout (RDSS), CERC 2024–29 tariff regulations (ROE), cost of capital (repo 5.50%). KPIs: regulated asset base / gross block, capitalisation per year, order/bid pipeline won, availability %, ROE, EBITDA margin, net debt/EBITDA, smart meters installed.",
+  "companies": 2
+ },
+ {
+  "order": 23,
+  "queue_no": 60,
+  "slug": "tractors",
+  "key": "Automobile & Ancillaries || Tractors",
+  "name": "Tractors",
+  "accent": "#B30909",
+  "angle": "Escorts Kubota (single member) — but the report must cover the whole Indian tractor industry: M&M (Mahindra/Swaraj, market leader; listed but classified elsewhere), TAFE (unlisted), Sonalika/ITL (unlisted), John Deere, CNH, Kubota. Forces: monsoon and rabi/kharif cycles, MSP and farm incomes, tractor finance, GST 2.0 cut on tractors (Sep-2025), TREM-V emission norms, exports, Kubota parent integration and Escorts' railway/construction-equipment divisions (and their sale), farm-mechanisation and rental. KPIs: domestic volume and market share (TMA data), realisation per tractor, EBITDA per tractor/margin, export share, inventory days at dealers, ROCE.",
+  "companies": 1
+ },
+ {
+  "order": 24,
+  "queue_no": 62,
+  "slug": "explosives",
+  "key": "Chemicals || Explosives",
+  "name": "Explosives & Defence Energetics",
+  "accent": "#B32609",
+  "angle": "Solar Industries (single member): industrial explosives (coal/mining/infra demand — Coal India the key customer), exports and overseas plants, and defence (ammunition, propellants, Pinaka rockets, drones, Nagastra; Operation Sindoor 2025 demand; export orders). Peers: other Indian explosives makers (identify the listed/unlisted ones from primary sources), global leaders Orica and Dyno Nobel, and defence PSUs (Munitions India, BDL). Forces: mining volume, ammonium-nitrate cost pass-through, defence order book and indigenisation, export licensing, capacity build-out. KPIs: explosives volume (t) and realisation, defence order book and revenue share, EBITDA margin by segment, capex, ROCE, working capital.",
+  "companies": 1
+ },
+ {
+  "order": 25,
+  "queue_no": 64,
+  "slug": "plywood-laminates",
+  "key": "Construction Materials || Plywood Boards/ Laminates",
+  "name": "Plywood & Laminates",
+  "accent": "#894934",
+  "angle": "Century Plyboards (single member) — cover the whole wood-panel industry: plywood (largely unorganised), laminates, MDF (capacity glut), particle board; listed peers in other sub-sectors (Greenpanel, Greenply, Merino, Stylam, Rushil) as reference. Forces: housing/real-estate completions and furniture demand, timber prices (eucalyptus/poplar), MDF oversupply and pricing, BIS QCOs on plywood/MDF and import curbs, chemicals (urea/phenol/melamine) costs, distribution and brand. KPIs: volume and realisation by segment (plywood, laminates, MDF), MDF utilisation, segment EBITDA margins, timber cost, working capital, ROCE.",
+  "companies": 1
+ },
+ {
+  "order": 26,
+  "queue_no": 66,
+  "slug": "financial-institution",
+  "key": "Finance || Financial Institution",
+  "name": "Development Financial Institutions",
+  "accent": "#833B07",
+  "angle": "IFCI (single member, a legacy government development financial institution) — cover the DFI landscape: IFCI, IDBI (bank), SIDBI, NABARD, EXIM, NaBFID (unlisted), and the listed PSU lenders in other sub-sectors (PFC, REC, IRFC, IREDA, HUDCO) as reference. Forces: IFCI's legacy bad book and recoveries, government capital infusion and merger/restructuring talk, subsidiaries (StockHolding/SHCIL, IFCI Factors, IIDL), NaBFID's role, RBI/government DFI policy. KPIs: loan book, GNPA/NNPA, provision cover, recoveries, net worth, subsidiaries' value (SOTP), P/B.",
+  "companies": 1
+ },
+ {
+  "order": 27,
+  "queue_no": 68,
+  "slug": "cigarettes",
+  "key": "FMCG || Cigarettes & Tobacco Products",
+  "name": "Cigarettes & Tobacco",
+  "accent": "#54620E",
+  "angle": "Godfrey Phillips India (single member; Philip Morris licensee; Marlboro, Four Square, Red & White; also 24Seven retail) — cover the cigarette industry: ITC (~75–80% share; in Diversified FMCG report — link diversified-fmcg.html), VST Industries, illicit trade. Forces: the Feb-2026 tax reset (40% GST + specific excise by length, compensation cess ended — keep consistent with diversified-fmcg.html), volumes and price hikes, illicit share (~26%, industry estimate), leaf tobacco exports and Tobacco Board, PMI relationship and royalties, the Godfrey Phillips family dispute/governance, heated tobacco/vapes ban. KPIs: net revenue per stick (estimates), volume growth, tax incidence, EBITDA margin, unmanufactured tobacco exports, payout.",
+  "companies": 1
+ },
+ {
+  "order": 28,
+  "queue_no": 70,
+  "slug": "beverages",
+  "key": "FMCG || Other Beverages",
+  "name": "Soft Drinks & Beverages",
+  "accent": "#3B6426",
+  "angle": "Varun Beverages (single member; PepsiCo's largest franchise bottler; India + Africa: South Africa (BevCo), Morocco, Zimbabwe, Zambia, DRC, Nepal, Sri Lanka) — cover the Indian beverage market: Coca-Cola/HCCB (refranchising), Reliance Campa Cola (price war), Bisleri, dairy-based drinks, energy drinks. Forces: summer weather and heat waves, Campa's price disruption, sugar/PET/resin costs, GST 2.0 rate on aerated drinks (verify the slab), capacity additions, Africa expansion and currency risk, snacks/dairy diversification, PepsiCo terms. KPIs: case volumes (mn cases) India vs international, realisation per case, gross margin, EBITDA per case, capacity/utilisation, capex, net debt.",
+  "companies": 1
+ },
+ {
+  "order": 29,
+  "queue_no": 72,
+  "slug": "gas-transmission",
+  "key": "Gas Transmission || Gas Transmission/Marketing",
+  "name": "Gas Transmission & Marketing",
+  "accent": "#0E6223",
+  "angle": "GAIL (single member): gas transmission (pipeline tariffs, unified tariff, PNGRB), gas marketing (US LNG contracts — Sabine Pass/Cove Point, Henry Hub-linked spreads, spot LNG), petrochemicals (Pata polymer plant), LPG/liquid hydrocarbons, city-gas stakes (IGL, MGL — link gas-distribution.html), new pipelines (Jagdishpur–Haldia–Bokaro, Mumbai–Nagpur) and the national gas grid. Forces: the 2026 West Asia crisis and spot LNG, transmission volumes, marketing margin volatility, petchem spreads, APM gas allocation, gas-in-energy-mix target 15%. KPIs: transmission volumes (mmscmd) and tariff, marketing volumes and margin, petchem utilisation and spread, segment EBIT, capex, ROE.",
+  "companies": 1
+ },
+ {
+  "order": 30,
+  "queue_no": 74,
+  "slug": "road-assets",
+  "key": "Infrastructure || Road Assets-Toll, Annuity, Hybrid-Annuity",
+  "name": "Road Assets",
+  "accent": "#066B41",
+  "angle": "IRB Infrastructure Developers (single member; toll-operate-transfer (TOT) and BOT toll portfolio, private InvIT (IRB Infrastructure Trust) and public InvIT (IRB InvIT Fund), Mumbai–Pune Expressway, Ferrovial and GIC as shareholders) — cover the road-asset industry: NHAI award modes (HAM, BOT-toll, EPC, TOT), road InvITs (IndiGrid? no; Cube Highways, NHAI InvIT), FASTag/GNSS tolling, toll rate indexation to WPI. Forces: traffic growth and toll revenue, NHAI asset monetisation, award slowdown/recovery, interest rates (repo 5.50%) and InvIT yields, construction order book. KPIs: toll collection growth (traffic vs rate), lane-km, portfolio IRR, EBITDA margin, net debt and InvIT leverage, order book, ROE.",
+  "companies": 1
+ },
+ {
+  "order": 31,
+  "queue_no": 76,
+  "slug": "computer-hardware",
+  "key": "IT || Computers Hardware & Equipments",
+  "name": "Computer Hardware & AI Servers",
+  "accent": "#2D6476",
+  "angle": "Netweb Technologies (single member; high-performance computing, private cloud, AI servers built on NVIDIA platforms, Make-in-India supercomputers) — cover India's server/hardware industry: global OEMs (Dell, HPE, Lenovo, Supermicro), domestic EMS assemblers (Dixon, Kaynes — link consumer-electronics.html), IT hardware PLI 2.0, the IndiaAI Mission GPU tenders, data-centre buildout. Forces: AI/GPU demand, government/defence/research orders, PLI, component supply (GPU allocation), working capital, US export controls on AI chips. KPIs: revenue mix (HPC/AI/private cloud), order book, gross margin, EBITDA margin, working-capital days, R&D %, customer concentration.",
+  "companies": 1
+ },
+ {
+  "order": 32,
+  "queue_no": 78,
+  "slug": "gaming",
+  "key": "Media & Entertainment || Gaming & Interactive Entertainment",
+  "name": "Gaming & Interactive Entertainment",
+  "accent": "#073083",
+  "angle": "Nazara Technologies (single member; gaming + esports (Nodwin) + ad-tech, kids learning (Kiddopia), Fusebox, Animal Jam, Moonshine/PokerBaazi stake) — cover India's gaming industry: the Online Gaming Act 2025 ban on real-money gaming (impact on Dream11/MPL/PokerBaazi), casual/mobile gaming, esports, ad-tech, global peers. Forces: the RMG ban and write-downs, M&A-led growth and goodwill, mobile gaming monetisation (IAP vs ads), esports and IP, valuation. KPIs: revenue by segment, organic vs inorganic growth, EBITDA margin, MAU/payers, goodwill and impairments, cash.",
+  "companies": 1
+ },
+ {
+  "order": 33,
+  "queue_no": 80,
+  "slug": "copper",
+  "key": "Non - Ferrous Metals || Copper",
+  "name": "Copper",
+  "accent": "#0926B3",
+  "angle": "Hindustan Copper (single member; India's only vertically integrated copper miner — mines in Khetri, Malanjkhand, Rakha etc.; mine expansion to 12.2 mtpa ore; sells concentrate/cathode) — cover the Indian copper industry: Hindalco (Birla Copper — in Aluminium/Diversified), Adani Kutch Copper (new 0.5 mtpa smelter), Sterlite Tuticorin closure, imports; global copper price cycle (LME record highs 2025–26, energy-transition demand), US Sec 232 50% tariff on copper derivatives. Forces: LME prices, ore grade and mine expansion execution, critical-minerals policy and auctions, import dependence. KPIs: ore production (mt), metal-in-concentrate (t), grade, cost per tonne, realisation vs LME, EBITDA margin, reserves/mine life, capex.",
+  "companies": 1
+ },
+ {
+  "order": 34,
+  "queue_no": 82,
+  "slug": "paper",
+  "key": "Paper || Paper & Paper Products",
+  "name": "Paper",
+  "accent": "#071183",
+  "angle": "JK Paper (single member; writing & printing paper, packaging board, Sirpur Paper Mills, Horizon Packs/Securipax corrugated) — cover the Indian paper industry: West Coast Paper, Andhra Paper, Seshasayee, TNPL, ITC paperboards (link diversified-fmcg.html), imports from ASEAN/China (FTA), virgin vs recycled fibre, packaging board boom and oversupply. Forces: pulpwood and imported pulp prices, board capacity additions and price war, import duties/MIP, demand from education/publishing (W&P) vs FMCG/pharma packaging, energy costs. KPIs: capacity (tpa) and utilisation by grade, realisation per tonne, EBITDA per tonne, wood cost, net debt, ROCE.",
+  "companies": 1
+ },
+ {
+  "order": 35,
+  "queue_no": 84,
+  "slug": "ratings",
+  "key": "Ratings || Ratings",
+  "name": "Credit Ratings & Research",
+  "accent": "#0909B3",
+  "angle": "CRISIL (single member; S&P Global subsidiary; ratings, research (global analytics centre, GR&RS), risk solutions/data; calendar-year reporter) — cover India's rating industry: ICRA (Moody's), CARE Ratings, India Ratings (Fitch), Acuité, Brickwork (licence cancelled), SEBI regulation, bond-market growth, bank-loan ratings, ESG ratings. Forces: corporate bond issuance and bank credit cycle, SEBI rules on issuer-pay and conflicts, the research/analytics export business to S&P and global banks (rupee tailwind), AI in analytics. KPIs: ratings revenue and margin, research revenue share, EBIT margin by segment, revenue per employee, payout, cash.",
+  "companies": 1
+ },
+ {
+  "order": 36,
+  "queue_no": 86,
+  "slug": "other-telecom",
+  "key": "Telecom || Other Telecom Services",
+  "name": "Telecom Services (RailTel)",
+  "accent": "#14089B",
+  "angle": "RailTel Corporation of India (single member; Navratna PSU — railway-corridor optical fibre network, telecom services (bandwidth, VPN, data centre, RailWire broadband), and project work/system integration (railway signalling, Kavach, station Wi-Fi, govt ICT)) — cover the context: Indian Railways capex and Kavach rollout, BSNL/BharatNet, government ICT spending, telecom PSU peers (ITI, Tejas — link telecom-equipment.html). Forces: low-margin project-work growth vs high-margin telecom services, order book and nomination vs competitive orders, receivables from government, Kavach. KPIs: telecom services vs project revenue and margins, order book, EBITDA margin, receivable days, cash, dividend.",
+  "companies": 1
+ },
+ {
+  "order": 37,
+  "queue_no": 88,
+  "slug": "houseware",
+  "key": "Trading || Houseware",
+  "name": "Houseware",
+  "accent": "#2F18A5",
+  "angle": "Cello World (single member; consumerware — plasticware, steel/thermoware, glassware (opalware), writing instruments, moulded furniture; distribution-led; promoter OFS/QIP history) — cover India's houseware market: Milton (Hamilton Housewares), Borosil (consumer), La Opala (listed — opalware), Tupperware (exit), unorganised and Chinese imports, quick commerce and modern trade. Forces: polymer/steel/glass costs, BIS QCOs on kitchenware and import curbs, distribution reach, new glassware plant ramp, GST 2.0 rate cuts on houseware, gifting/institutional demand. KPIs: revenue by category, gross margin, EBITDA margin, capacity utilisation (glassware), working capital, ROCE.",
+  "companies": 1
  }
 ]
