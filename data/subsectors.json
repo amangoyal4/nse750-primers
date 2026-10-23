@@ -1464,6 +1464,23 @@
         "Licence-moat consolidation"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Plywood & Laminates",
+      "slug": "plywood-laminates",
+      "file": "plywood-laminates.html",
+      "sector": "Construction Materials",
+      "subsector": "Plywood Boards/ Laminates",
+      "companies": 1,
+      "accent": "#894934",
+      "hook": "A brand moat beside a board glut: why branded plywood earns ~41% on its capital while MDF earns ~7%, how the 2025 BIS quality orders cut panel imports by 36–50%, and what 4.0–4.5 mn CBM of MDF capacity against ~3.0 mn of demand means for Century Plyboards and its peers.",
+      "tags": [
+        "BIS quality orders and imports",
+        "MDF capacity glut",
+        "Century's four-panel segment table",
+        "Laminate exports"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1705,7 +1722,7 @@
       "sector": "Construction Materials",
       "sub": "Plywood Boards/ Laminates",
       "companies": 1,
-      "report": null
+      "report": "plywood-laminates.html"
     },
     {
       "sector": "Construction Materials",
