@@ -1028,3 +1028,531 @@ Notes:
 - Rabi MSP 2027-28 (DT Next, 30-Sep-2026): https://www.dtnext.in/news/business/centre-raises-wheat-msp-by-rs-25-to-rs-2610quintal-pulses-oilseeds-get-bigger-hike-for-2027-28
 
 **Search-snippet only (not fetched) [V-snip]**: superkalam (monsoon 12.6% deficit; wheat hike 17-year low); tractorjunction/cmv360 (CNH ₹2,000 Cr); global-agriculture (Sonalika FY26 1,80,504); themachinemaker (Sonalika Q1 FY27 53,661); business-standard (John Deere Financial India FY25); quifinanza (CNH 2025); dtnpf (Deere 2026 "bottom"); tractorforeveryone (Mar-2026 FADA shares); autocarpro/agrospectrum/tractorjunction (FY23–FY25 volumes).
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-23)
+
+Second, primary-source pass. Every **[V]** in Part 4 means the document was fetched in this session (23-Oct-2026) and the figure was read from it; the URL is given inline or in §4.6. **[V-P1]** = verified in Parts 1–3 and re-read this session from the same primary file. [K]/[E] keep their Part 1 meanings. Scratch notes and extracted texts: `/tmp/tractors-deep/`.
+
+**Order of sections in this Part (appended in chunks):** 4.2 company deep-dives (Escorts → VST → M&M FES) → 4.3 industry data upgraded → 4.0 Supersedes → 4.1 Verification table (40 figures) → 4.4 Gap log → 4.5 New insights and primer issues → 4.6 URLs. The writer should apply 4.0 before using Parts 1–3.
+
+## 4.2 Company deep-dives
+
+### 4.2.1 Escorts Kubota Ltd (MEMBER) — primary documents read
+
+Documents re-downloaded and read as text this session: Integrated Annual Report 2025-26 (BSE AttachHis aa4acd39…, 13.6 MB, ~32,500 text lines); Q1 FY27 earnings presentation (3-Aug-2026); Q1 FY27 earnings-call transcript (call 3-Aug-2026); Q4 FY26 earnings presentation (7-May-2026); September-2026 sales release (1-Oct-2026); screener consolidated page (23-Oct-2026, 12:xx IST: price ₹2,630, m-cap ₹29,424 Cr, P/E 20.7, BV ₹1,106, ROCE 13.9%, ROE 18.7%) [V].
+
+#### (a) Management-guidance digest — Q1 FY27 earnings call, 3-Aug-2026 (transcript filed with BSE) [V]
+
+Speakers: Bharat Madan (Group CFO & Corporate Head), Neeraj Mehra (CSO, Escorts Agri Machinery), Rajan Chugh (Kubota brand & Agri Solutions), Sanjeev Bajaj (CE business), Prateek (IR/strategy — opening remarks).
+
+| # | Topic | What management said (paraphrase; speaker) | Implication for the report |
+|---|---|---|---|
+| 1 | **FY27 domestic tractor industry** | Earlier (May) guidance was "±2–3%" — i.e. roughly flat, not negative; after a strong Q1 and "the last 45–50 days" the company now looks for **"middle or mid-single-digit growth" for FY27**; will not guide quarterly/monthly because of the high base, season shifts and last year's GST cut (Mehra). | Escorts' Aug view sits **above** ICRA (1–4%) and CRISIL (0–2%). The 2026 monsoon outturn and the Sep-26 fall came after this call — expect a downgrade risk on 2-Nov. |
+| 2 | **Escorts vs industry** | Analyst: "growth for Escorts should be higher than the mid-single digit … for the industry" — Mehra: **"Absolutely."** i.e. guidance is for **share gain in FY27**. | H1 FY27: Escorts domestic +11.3% vs industry Q1 +18.6% / Q2 negative → share gain plausible on H1 (see 4.3). |
+| 3 | **Regional** | Q1 industry +19% all-India; **South ~+33%** (fastest); Escorts' strong North/Central markets grew faster than all-India; Escorts gained **~0.6 pp share in the South in Q1 → ~6% three-brand South share** (Mehra / Damani Q&A). | South remains the structural share gap. |
+| 4 | **Cost inflation** | Q1 tractor cost impact **~5%** (≈1 pp from Haryana contract-labour minimum wages, "unique to us"; ~400 bp commodity at industry level); offset partly by operating leverage (tractor revenue +23%) and an **April price rise of ~1–1.5%**; **more cost increase expected in Q2** (metal, rubber); a further price rise "will happen sometime in this quarter itself", quantum not fixed; industry reluctant to raise prices while growing double-digit (Madan). | Q2 FY27 margin likely still below Q2 FY26 (13%); watch price-realisation vs cost on 2-Nov. |
+| 5 | **Exports** | Q1 industry exports 29,778 (+17.7%) but growth was in >40 HP where Escorts is small; Escorts' **<40 HP** segment fell; geopolitics hit shipments; Kubota network ~61% of Escorts' export volume. **FY27 exports "more or less flattish"**, made up over Q2–Q4; **FY28 "good growth"** if the **North American market opens** (Madan). | Export thesis is FY28+; H1 FY27 exports −14.8% [V Sep release]. |
+| 6 | **Component exports** | ~₹160–170 Cr in FY26; Q1 flat; expected to **more than double in ~2 years** (Madan). | Small (~1.5% of revenue). |
+| 7 | **Capex** | FY27 capex **₹850–900 Cr** = greenfield (mainly land, ₹450–500 Cr) + normal **₹350–400 Cr**; **"overall capex for greenfield is INR 2,000 crores"**; FY28 spend depends on construction pace (Madan). | Conflicts with the AR's ₹3,000–3,500 Cr (see (c) and Supersedes S-3). |
+| 8 | **Capital return** | Analyst cited a **"cash surplus of almost INR 10,000 crores"**; CFO did not dispute it; buyback scope "very limited" because promoters (68%+) and non-public holders (IEPF etc.) already hold ~70% and a buyback cannot push public float below the listing minimum (Madan). | AR balance sheet confirms ~₹9.6–9.8k Cr of liquid assets (see (c)). |
+| 9 | **Dealer inventory** | "Comfortable … about a 30-day inventory with our dealers" (Madan). | No channel-stuffing signal at Aug-26. |
+| 10 | **CE business** | Industry growth **12–15% for FY27** (served segments) despite a monsoon-hit Q2; Escorts gained ~2.7 pp share in CE last year; new models from **Oct-2026**; BS-V-related price rises 6–7% last year and similar this year (Bajaj). | CE Q2 volumes +53.9% [V] support this. |
+| 11 | **Kubota brand** | New series introduced in the Kubota brand last year and this year (Star, MU4201); improving Kubota-brand share (Chugh). | See (c)(iv) for an implied Kubota-brand turnover. |
+| 12 | **4WD/products** | Farmtrac Promaxx 20–22% of Farmtrac; Powertrac Digitrac 23–25% of Powertrac; new launches aimed at the 20–25% of volume where Escorts is under-represented (Mehra/Chugh). | — |
+
+**Q4 FY26 call (May-2026) — not re-fetched this session**; its guidance ("±2–3% industry", capex) is reported second-hand by the CFO's correction in row 1 [V via Q1 transcript].
+
+#### (b) KPI tables (standalone, company presentations; all re-read this session) [V-P1]
+
+The KPI table in Part 2 §2.1(b) was re-checked line-by-line against the Q4 FY26 and Q1 FY27 presentations: revenue, EBITDA, material %, volumes, shares, HP mix, Kubota-channel %, ROCE all **agree**. Additional KPIs from the AR (FY26) [V]:
+
+| KPI (FY26) | Value | Source line |
+|---|---|---|
+| Tractor assembly capacity | **1,70,000 units/yr** (3 Faridabad plants for tractors & components) | AR p.62 "Our Manufacturing Competencies" |
+| Tractor capacity utilisation | 77% | AR p.62, p.8 |
+| CE capacity / utilisation | **10,000 units/yr** (Ballabhgarh) / **47%** | AR p.64, p.8 |
+| Other plants | Pune (1), Chennai (1), Poland (1, Farmtrac Tractors Europe, 100%) | AR p.62 |
+| >40 HP share of Escorts sales | ~66% (driven by 41–50 HP) | AR MD&A |
+| Kubota-routed export share | 60% | AR Chairman/MD letter |
+| Escorts' own wording on share | "approximately 10.9% … remains way below our mid-term aspirations. The domestic industry expanded at a faster pace" | AR letter |
+| Revenue by geography (SA, continuing) | Domestic ₹10,758.6 Cr; **Export ₹635.6 Cr (5.6%)** (FY25: 9,572.0 / 536.2) | AR note 46 |
+| Dealers | 2,072 dealers/distributors (2,156 FY25); 92.5% of sales via dealers | AR BRSR [V-P1] |
+
+#### (c) Annual-report findings (FY26 Integrated AR) [V]
+
+**(i) Royalty — Kubota is paid almost nothing; the Nanda family's brand-owning company is paid ~9×.**
+- Royalty to **Kubota Corporation: ₹5.27 Cr (FY26)**, ₹4.21 Cr (FY25), ₹5.07 Cr (FY24), ₹4.10 Cr (FY23) — **= 0.22% / 0.33% / 0.47% / 0.64% of the previous year's net profit**. Rate **"remains 0.5% of the turnover"** [of the royalty-bearing (Kubota-brand) products]; no rate increase over 3 years. The royalty "is based on the sales which includes Brand name"; Kubota provides the Kubota Production System; "Brand royalty is not bifurcated" [AR AGM-notice Part B7/C6 disclosures, SEBI royalty ISN].
+- For comparison, the AR's own peer table: Maruti pays Suzuki ₹5,038 Cr (36.1% of net profit, FY25); Honda India ₹31.78 Cr; Hero ₹7.96 Cr.
+- Kubota's global royalty range from group entities: **minimum 0.5% (₹75.40 Cr absolute), maximum 17% (₹156.62 Cr absolute)** — i.e. Escorts sits at Kubota's floor rate.
+- **Royalty to Harparshad & Co. Pvt Ltd (Nanda-family promoter entity, owner of the "Escorts" name) ₹45.16 Cr (FY25 ₹44.15 Cr)** [AR note 45(iv)]. The P&L line "Royalty paid" is **₹49.78 Cr (FY25 ₹43.89 Cr)** [AR note on other expenses] — so total royalty is ~0.43% of revenue, and **~90% of it goes to the Indian promoter family, not to Kubota**. Part 1 §4.2(a) "royalty to Kubota on Kubota-brand/technology [K — royalty size not verified]" is superseded (S-5).
+- **Implied Kubota-brand turnover inside Escorts ≈ ₹1,050 Cr** [E: ₹5.27 Cr ÷ 0.5%] ≈ **~11% of Agri revenue**, i.e. roughly **14,000–16,000 Kubota-brand tractors + combines/transplanters** at ₹6.5–7.5 lakh per unit [E]. This is the first fetched anchor for §H gap 16; treat as an order-of-magnitude estimate (the royalty base may include Agri Solutions machines).
+
+**(ii) Related-party trade with the Kubota group (standalone, FY26; FY25 in brackets) [AR note 45(iii)]**
+- **Purchases of goods from Kubota group ≈ ₹1,286 Cr** (₹1,018 Cr): Kubota Corporation ₹883.38 Cr (711.25); Kubota Engine (Thailand) ₹210.16 Cr (201.15) — the Kubota engines used in ~10–12k Escorts tractors/yr; Kubota Agricultural Machinery (Suzhou) ₹65.64 Cr; Siam Kubota ₹65.14 Cr; Kubota Machinery Trading ₹61.04 Cr. ≈ **11% of revenue / ~16% of material cost** [E: ÷ ₹11,472.8 Cr; ÷ (69.7% × revenue)].
+- **Sales of goods to Kubota group ≈ ₹392 Cr** (≈ ₹258 Cr): Kubota Europe S.A.S. ₹152.10 Cr (48.41 — **tripled**), Kubota Machinery Trading ₹52.76 Cr, Kubota Northern Europe Distribution ₹46.74 Cr, Kubota Manufacturing of America ₹43.41 Cr, Kubota UK ₹28.55 Cr, Siam Kubota ₹21.71 Cr, Kubota Mexico ₹13.07 Cr, Kubota Precision Machinery (Thailand) ₹12.48 Cr, Kubota Turkey ₹5.87 Cr. **≈ 62% of Escorts' ₹635.6 Cr export revenue** [E] — consistent with "60% of export volumes routed through Kubota" [V].
+- Services: Kubota Corporation rendering ₹13.47 Cr / receiving ₹23.32 Cr; Kubota Design Corporation ₹5.41 Cr.
+- **Dividend paid to Kubota Corporation ₹217.77 Cr** (₹166.90 Cr); trade payable to Kubota Corporation ₹568.55 Cr at Mar-26.
+- Net: Escorts is a **net importer from Kubota (~₹1,286 Cr bought vs ~₹392 Cr sold)** — the "India as Kubota's export base" story is still, in FY26 money terms, the reverse.
+
+**(iii) Treasury / cash — company balance sheet definition (standalone, 31-Mar-2026) [AR balance sheet & note 40]**
+
+| Item | Mar-26 ₹ Cr | Mar-25 ₹ Cr |
+|---|---|---|
+| Non-current investments (6(i)) | 2,314.43 | 3,348.56 |
+| Current investments (6(ii)) | 6,107.31 | 2,292.42 |
+| of which investments at FVTPL + amortised cost (financial assets, excl. subsidiaries at cost) | 4,301.01 + 3,975.11 = **8,276.12** | 2,195.93 + 3,369.43 = 5,565.36 |
+| Cash and cash equivalents | 166.10 | 335.80 |
+| Other bank balances (7(i) + 13) | 1,397.79 (incl. escrow ₹210.54 Cr not available for use) | 979.04 |
+| **Liquid assets (investments as financial assets + cash + bank)** | **~₹9,840 Cr; ~₹9,630 Cr ex-escrow** [E sum] | ~₹6,880 Cr |
+| Borrowings (consolidated, screener) | 162 | 105 |
+- So the analyst's **"almost ₹10,000 Cr"** is right on the company's balance sheet; screener's ₹8,281 Cr "investments" omits ~₹1,560 Cr of cash/bank deposits. Use **"~₹9.6–9.8k Cr of cash, deposits and treasury investments (Mar-26), ~33% of m-cap"** (S-4). Investment in subsidiary EKFL rose to ₹130 Cr (₹70 Cr infused in FY26).
+- Standalone cash flow FY26: CFO ₹1,515.15 Cr (₹1,207.13 Cr); CFI −₹1,234.09 Cr; CFF −₹452.02 Cr; dividends paid ₹398.47 Cr (net of treasury shares) [AR cash-flow statement].
+
+**(iv) Greenfield — the AR and the CFO disagree**
+- AR (Directors' Report): board approved buying land in the **YEIDA industrial area (Uttar Pradesh)**; **YEIDA allotted ~154 acres on 24-Mar-2026** [V].
+- AR (strategy pages): "Over the next four to five years, we plan to invest **approximately ₹3,000–3,500 crore** towards expanding manufacturing capacity across **tractors, construction equipment and components**" — box "Total Planned Investment ₹3,000–₹3,500 crores" [V].
+- CFO, 3-Aug-2026 call: "overall capex for greenfield is INR 2,000 crores"; normal capex ₹350–400 Cr/yr on top [V].
+- Reconciliation [E]: ₹2,000 Cr greenfield + 4–5 years × ₹350–400 Cr maintenance/brownfield ≈ ₹3,400–4,000 Cr — so the AR's ₹3,000–3,500 Cr is **total capex over 4–5 years**, the CFO's ₹2,000 Cr is **the greenfield alone**. Part 3 §3.4's primer issue ("₹3,000–3,500 Cr" is wrong) is **withdrawn**: the primer number is the AR's own total-capex number; the primer should say so (S-3).
+
+**(v) RED divestment**: AR confirms "the transaction for sale/transfer of RED Business has been closed on **June 01, 2025**" to Sona BLW Precision Forgings [V]. The **EV ₹1,600 Cr** was not found in the AR text searched (grep "1,600") — still [primer/K] (gap 13 open, see 4.4).
+
+**(vi) Risks named in the AR**: emission and safety norms (TREM-V), monsoon dependence, commodity prices, competition in South/West, FX on imports from Kubota (₹1,286 Cr of group purchases is the natural FX exposure) [V AR risk table; E for FX link].
+
+#### (d) 5-year and 8-quarter tables (screener consolidated, fetched 23-Oct-2026) [V]
+
+**Annual (₹ Cr)**
+
+| | FY22 | FY23 | FY24* | FY25 | FY26 | TTM Jun-26 |
+|---|---|---|---|---|---|---|
+| Sales | 7,283 | 8,429 | 9,804 | 10,244 | 11,540 | 12,248 |
+| Operating profit | 966 | 770 | 1,130 | 1,164 | 1,496 | 1,529 |
+| OPM % | 13 | 9 | 12 | 11 | 13 | 12 |
+| Other income | 174 | 228 | 525 | 601 | 1,618** | 566 |
+| PBT | 993 | 835 | 1,390 | 1,492 | 2,838 | 1,813 |
+| Net profit | 736 | 637 | 1,077 | 1,265 | 2,394 | 1,383 |
+| EPS ₹ | 55.82 | 48.26 | 97.44 | 113.06 | 213.99 | 123.62 |
+| Investments (Mar) | 4,836 | 4,767 | 5,019 | 5,605 | 8,281 | — |
+| Borrowings (Mar) | 52 | 57 | 448 | 105 | 162 | — |
+| Net worth (Mar) | 7,600 | 8,187 | 9,388 | 10,367 | 12,373 | — |
+
+\*FY24 and earlier include RED; FY25–26 continuing. \*\*incl. RED sale gain.
+
+**Quarterly (₹ Cr)**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 2,277 | 2,948 | 2,445 | 2,500 | 2,792 | 3,280 | 2,968 | 3,208 |
+| OP | 230 | 332 | 287 | 321 | 360 | 435 | 381 | 354 |
+| OPM % | 10 | 11 | 12 | 13 | 13 | 13 | 13 | 11 |
+| Other income | 140 | 143 | 178 | 1,260 | 134 | 102 | 122 | 208 |
+| PBT | 299 | 410 | 398 | 1,518 | 427 | 466 | 428 | 492 |
+| Net profit | 324 | 321 | 318 | 1,397 | 318 | 358 | 321 | 386 |
+| Tax % | −8 | 22 | 20 | 8 | 26 | 23 | 25 | 22 |
+| Tractors (co.) | n/a† | 32,556 | 26,633 | 30,581 | 33,877 | 36,955 | 32,257 | 36,862 |
+
+†Sep-24 tractors not in fetched docs; Q2 FY26 (Sep-25) 33,877 = 32,329 dom + 1,548 exp [V-P1]; Q2 FY25 is derivable only as ~30,800–31,000 [E from FY25 total]. Use "n/a" in print. (Part 2's 8-quarter row put 33,877 under Sep-25 correctly.)
+
+**Q2 FY27 volume read-through (Sep-2026 release, re-read) [V]**: Q2 FY27 tractors 34,017 (+0.4%) = domestic 32,628 (+0.9%) + exports 1,389 (−10.3%); Sep-26 15,214 (−16.7%); H1 FY27 tractors 70,879 (+10.0%), domestic 68,085 (+11.3%), exports 2,794 (−14.8%); CE Q2 1,764 (+53.9%).
+
+
+### 4.2.2 V.S.T. Tillers Tractors (REFERENCE, listed) — primary documents read
+
+Fetched this session: Q1 FY27 investor presentation (13-Aug-2026, BSE a28d48bd…); Q1 FY27 con-call transcript (call 13-Aug-2026, filed 19-Aug-2026, BSE 3a9e7a60…); 58th Annual Report 2025-26 (BSE AttachHis ec61097e…); September-2026 sales release (1-Oct-2026, BSE 3a4a43ff…); screener standalone + consolidated (23-Oct-2026). ICRA rationale (29-Jul-2026) page downloaded but is a JS shell (not read).
+
+#### (a) Management-guidance digest — Q1 FY27 call, 13-Aug-2026 (Nitin Agrawal CFO; Antony Cherukara CEO; V.T. Ravindra MD) [V]
+
+| # | Topic | What management said (paraphrase) |
+|---|---|---|
+| 1 | FY27 outlook | Too early to give an FY27 outlook; "outlook till September looks positive"; H2 depends on whether standing kharif crops survive the next 15–20 days and on soil moisture for rabi (CEO). No numeric guidance. |
+| 2 | Q1 performance | Revenue ₹313.4 Cr (+11%); operating EBITDA (ex other income and fair-value gains) ₹40.3 Cr, **12.85% vs 13.3%** (−45 bp) on raw-material inflation (steel, forgings, castings, aluminium, copper, rubber); PAT ₹48.7 Cr (₹44.6 Cr) (CFO). |
+| 3 | Tractors | Domestic tractors +4.5% (985), exports 275 (−11.9%); new VST Zetor (40–50 HP) production ramp-up lagged demand in Q1; "the 40 to 50 HP segment is a crowded market"; >30 tractor variants to launch in 3 years; target **~15,000 tractors near-term and "close to 20,000" by FY30, of which 5,000–6,000 international** (CEO). |
+| 4 | Tillers / SFM | Power tillers +18% in Q1 and expected to keep growing **15–20%**; power weeders **+50–60%** for several quarters; "creating a market"; 500 new retail counters in 3 months on top of 750–800 SFM dealers; target ~2,000 counters by year-end (CEO). |
+| 5 | Emission norms — **key primary evidence on TREM** | Three stages "as per the current notification": **Stage V for all products <25 HP (tillers and tractors) from October 2026** (VST "completely ready", "moving into production"; no big cost increase for customers); **TREM IIIA(A) step from April 2028**; **"the complete range of tractors will move to Stage 5 … in 2032"**; full Stage V (DOC, DPF) costs **~25–30%** of today's tractor cost at current technology prices (CEO). The analyst's framing: "TREM 3A from April '28 and TREM 5 from '32 … are the dates announced". |
+| 6 | Exports / US | Europe ~1,400–2,000 VST tractors/yr (0–30 HP); Indian tractors in Europe's 0–30 HP segment total ~15,000/yr, the largest Indian player ~9,000 (Escorts/Kubota or Mahindra's compact line — not named; "the market leader in India doesn't do any tractor in Europe"); Africa entry with 50/60/72/75 HP; **US expansion "still unclear"** — a proposed "100% tariff … on the new bill that is going through the U.S. Congress" could derail it; US electric-tractor plans "taken a back seat" (CEO). |
+| 7 | Capital allocation | Vision **₹3,000 Cr revenue by 2030**; new production facility needed within ~2 years; deployment of surplus funds (mutual funds/equities) "in the next 18 to 24 months"; ~19 acres of non-core Bengaluru land — no monetisation decision (CEO). |
+| 8 | Finance | Bajaj Finance retail finance: ~1,000 tillers in Q1 vs ~400 a year earlier (8–9% of retail; target 15–20%); partners Chola, TVS, Bajaj, PSU banks. |
+| 9 | Network | Added 40–50 tractor dealers in FY26; target 50–60 in FY27, mainly North India. |
+
+#### (b) Volumes and KPIs [V]
+
+| Units | FY26 (AR) | Q1 FY26 | Q1 FY27 | YoY | Sep-25 | Sep-26 | H1 FY26 | H1 FY27 | YoY |
+|---|---|---|---|---|---|---|---|---|---|
+| Power tillers | **50,332** (+44% per AR graphic) | 11,701 | 13,801 | +17.9% | 3,002 | 4,520 | 24,829 | 27,158 | +9.4% |
+| Tractors (dom + exp) | **5,911** | 1,255 | 1,260 | +0.4% | 478 | 430 | 2,576 | 2,426 | **−5.8%** |
+| of which domestic / export | — | 943 / 312 | 985 / 275 | +4.5% / −11.9% | — | — | — | — | — |
+| Power weeders | — | 2,349 | 3,680 | +56.7% | 1,001 | 1,004 | 4,970 | 6,076 | +22.3% |
+| Total (release basis) | — | — | — | — | 4,481 | **5,954** | 32,375 | **35,660** | +10.1% |
+
+- FY26 AR highlights: revenue ₹1,240.4 Cr; operating EBITDA ₹165.9 Cr; PAT ₹106.0 Cr; **1,429 dealers (450 tractor dealers)**; "dominant domestic market share in power tillers"; exports to 40+ countries [V AR].
+- **VST's tractor volume (~5,900/yr) is ~0.5% of the Indian industry; its tractor business is shrinking in H1 FY27 while the industry grew** — VST is a power-tiller/small-farm-machine story, not a tractor-cycle proxy [E].
+
+#### (c) Annual-report findings (FY26) [V]
+- **Related parties**: royalty to **VST & Sons** (promoter firm) ₹13.06 lakh (₹9.95 lakh) — immaterial [AR note; amounts in ₹ lakh]; job-work income from **Mitsubishi Heavy Industries–VST Diesel Engines (JV)** ₹332.8 lakh; JV **VST Zetor Pvt Ltd (51%)** with HTC Investments (owner of the Czech Zetor brand) — VST's share of JV loss ₹127.64 lakh (₹149.15 lakh) [AR consolidated notes].
+- **Capex/R&D**: Global Technology Centre at **Hosur** (foundation stone July 2026) for engines, electric powertrains, batteries, testing [AR MD letter].
+- **Regulation**: "Power Tiller Industry will transition to TREM-V emission norms and our engines are ready with certification" [AR] — consistent with the Oct-2026 <25 HP step.
+- **Market framing** in the AR uses report-mill figures ("India's tractor market USD 8.4 bn (2025) → USD 15.3 bn (2034)"; "global tractor market USD 96.8 bn") — **do not print as authoritative** (same caution as Escorts AR's USD 51.9 bn).
+
+#### (d) 5-year table (screener **standalone**, ₹ Cr; fetched 23-Oct-2026) [V]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Jun-26 |
+|---|---|---|---|---|---|---|
+| Sales | 854 | 1,006 | 968 | 995 | 1,240 | 1,271 |
+| Operating profit | 125 | 128 | 125 | 111 | 167 | 169 |
+| OPM % | 15 | 13 | 13 | 11 | 13 | 13 |
+| Other income | 34 | 25 | 60 | 38 | 4 | 7 |
+| Net profit | 99 | 92 | 122 | 94 | 106 | 110 |
+| ROCE % | 19 | 16 | 18 | 12 | 14 | — |
+| Working-capital days | 27 | 50 | 72 | 76 | 64 | — |
+
+Long history (standalone sales / OPM): FY15 552 / 18%; FY16 647 / 17%; FY17 675 / 15%; FY18 763 / 16%; FY19 615 / 9%; FY20 544 / 6%; FY21 764 / 12% [V screener]. **VST's FY19–FY20 collapse (OPM 18% → 6%) is the clearest illustration of how power-tiller subsidies and a weak cycle hit a small player.**
+
+#### (e) 8-quarter table (screener consolidated, ₹ Cr) [V]
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 283 | 219 | 301 | 282 | 315 | 314 | 328 | 313 |
+| Operating profit | 37 | 19 | 40 | 37 | 40 | 40 | 47 | 40 |
+| OPM % | 13 | 9 | 13 | 13 | 13 | 13 | 14 | 13 |
+| Other income | 27 | −9 | −1 | 26 | 3 | 7 | −31 | 28 |
+| PBT | 57 | 4 | 32 | 56 | 36 | 41 | 9 | 62 |
+| Net profit | 45 | 1 | 24 | 44 | 25 | 30 | 5 | 48 |
+
+Other income swings (−₹31 Cr in Mar-26) are mark-to-market on VST's equity/MF portfolio — strip out for operating comparisons. Valuation (23-Oct-26): ₹3,907, m-cap ₹3,381 Cr, P/E 31.0 (cons.), near its 52-week low ₹3,844 (high ₹6,374) [V].
+
+### 4.2.3 Mahindra & Mahindra — Farm Equipment Sector (REFERENCE) — primary documents read
+
+Fetched this session: Q1 F27 press release + factsheet (30-Jul-2026); **Q1 F27 analyst-meet presentation (30-Jul-2026, NSE archive)**; **Q1 F27 analyst-meet transcript (30-Jul-2026, mahindra.com)**; Q4 F26 press release/media release (May-2026); Q2 F26 press release (4-Nov-2025); Q4 F24 press release (May-2024); Sep-2026 tractor sales release [V-P1]; screener consolidated (23-Oct-2026).
+
+#### (a) Management-guidance digest — Q1 F27 analyst meet, 30-Jul-2026 (Anish Shah, MD & CEO; Rajesh Jejurikar, ED & CEO Auto & Farm; Amarjyoti Barua, Group CFO; Veejay Nakra, CEO Farm) [V]
+
+| # | Topic | What management said (paraphrase) |
+|---|---|---|
+| 1 | Q1 | Tractor volumes 158k (+18%), **share 44.9% (+280 bp QoQ)**; exports +15%; **core tractor PBIT 19.2%** despite commodity inflation; farm consolidated PBIT 14.2% (Jejurikar). |
+| 2 | Rural backdrop (late July) | Farm-labour shortage accelerating mechanisation; **rabi wheat procurement +19%**; rainfall deficit narrowed from very bad in June to **~15%**; reservoirs 7% below LPA; kharif sowing shortfall ~4%; GoI rural-related spending +16%; ground sentiment "not negative" despite El Niño headlines (Jejurikar). |
+| 3 | Commodity | Group saw 400–500 bp commodity impact; **steel +24% and rubber +30% YTD (53% since the start of the calendar year), both unhedgeable**; farm price increase (~₹15,000/tractor in August, per analyst) "is not going to be sufficient" → **"some temporary blip is likely in Farm"** in Q2 (Barua). |
+| 4 | Q2 seasonality | Festive season moved to **11-Oct-2026** vs Navratri inside Q2 last year → Q2 tractor volumes shift into Q3, adding an **operating-leverage** hit in Q2; Q3 expected to benefit from season upcycle and possibly softer commodities (Jejurikar). |
+| 5 | Channel inventory | Both brands broadly at norm, **30–40 days**; Swaraj below norm (supply issues); OEMs are more disciplined, so down-cycles need less de-stocking — one reason industry volatility is lower (Jejurikar). |
+| 6 | HP mix | **~69–70% of industry mix now 40–50 HP** (Q1 F27), driven by heavier implements (seeders, balers) and the GST cut letting farmers trade up (Nakra). |
+| 7 | Margin outlook | Group "cautiously optimistic … should be able to ideally maintain margins, potentially improve" (Shah) — but Farm specifically flagged for a Q2 blip (Barua). |
+| 8 | International farm | International subsidiaries PBIT **−₹341 Cr in Q1 F27 (−19.7% margin; incl. impairment)** vs −₹241 Cr; **exit from Erkunt (Turkey) foundry** and "3 International Farm exits" in F26 (presentation; Q4 F26 release). |
+
+#### (b) Q1 F27 farm margin bridge (presentation slide 22) [V]
+
+| ₹ Cr | Core tractor (dom + exp) | International subsidiaries | Others (Powerol, farm machinery, domestic subs) | Farm consolidated |
+|---|---|---|---|---|
+| Revenue Q1 F27 | 9,964 | 1,735 | 1,927 | 12,501 (net of ₹1,125 Cr eliminations) |
+| Revenue Q1 F26 | 8,274 | 2,094 | 1,711 | 10,892 |
+| PBIT Q1 F27 | **1,917 (19.2%)** | **−341 (−19.7%)** | 205 (10.7%) | 1,781 (14.2%) |
+| PBIT Q1 F26 | 1,717 (20.7%) | −241 (−11.5%) | 155 (9.1%) | 1,631 (15.0%) |
+
+- **Core tractor revenue per tractor ≈ ₹6.30 lakh** (₹9,964 Cr ÷ 1,58,041) and **core tractor PBIT per tractor ≈ ₹1.21 lakh** in Q1 F27 [E from V]. This is the clean like-for-like with Escorts' Agri EBIT/tractor (~₹0.81 lakh Q1 FY27, which includes non-tractor revenue). Part 1's "₹1.37 lakh/tractor" used standalone FES PBIT (incl. farm machinery, Powerol) over 5.26 lakh units — still arithmetically right for that perimeter, but **core-tractor ₹1.2 lakh is the better comparator** (S-8).
+- Farm machinery revenue: Q1 F25 ₹265 Cr → Q1 F26 ₹309 Cr → **Q1 F27 ₹362 Cr (+17%)**; rotavators #2 in industry [V slide 21].
+
+#### (c) Market share and core-tractor margin history (presentation slides 20, 24) [V]
+
+| Period | Industry growth (domestic, M&M basis) | M&M core tractor PBIT % |
+|---|---|---|
+| F19 | +8.0% | 19.8% |
+| F20 | −9.9% | 19.7% |
+| F21 | +26.9% | 23.4% |
+| F22 | −6.4% | 19.0% |
+| F23 | +12.2% | 17.4% |
+| F24 | −7.4% | 17.7% |
+| Q1 F25 | +0.5% | 19.7% |
+| Q2 F25 | +0.7% | 18.7% |
+| Q3 F25 | +13.5% | 19.5% |
+| Q4 F25 | +17.3% | 20.8% |
+| Q1 F26 | +9.2% | 20.7% |
+| Q2 F26 | +30.7% | 20.6% |
+| Q3 F26 | +23.2% | 21.2% |
+| Q4 F26 | +34.8% | 20.4% |
+| Q1 F27 | +18.6% | 19.2% |
+
+(Read off the slide's two-series chart by column position; Q1 F26 20.7% and Q1 F27 19.2%/18.6% cross-check exactly with slide 22 and Escorts' 18.6% [V]; Q4 F26 +34.8% cross-checks with Escorts' Q4 industry 2.71 vs 2.01 lakh [V]. Treat other points as ±0.1 pp.)
+
+- **M&M Q1 market share (incl. Gromax): Q1 F23 42.7%, Q1 F24 42.9%, Q1 F25 44.7%, Q1 F26 45.2%, Q1 F27 44.9%** [V slide 20] — i.e. Q1 F27 is **−30 bp YoY** (+280 bp QoQ). Full-year: **FY24 41.6%** [V Q4 F24 release], FY25 ~43.3% [E: FY26 43.6% "up 30 bps"], **FY26 43.6%** [V].
+- The F19–F24 industry growth chain is the **first primary-source series for the pre-FY25 industry** — see 4.3(a), where it is used to verify the FY19–FY24 volume history.
+- **Margin resilience**: core tractor PBIT stayed **17.4–23.4% through a −10% (F20), −6% (F22) and −7% (F24) industry year** — the down-cycle cost to M&M is ~2–3 pp of margin, not a collapse [V; E].
+
+#### (d) 5-year table — Farm Equipment segment (₹ Cr) [V company releases]
+
+| | FY23 | FY24 | FY25 | FY26 | Q1 FY27 |
+|---|---|---|---|---|---|
+| **Standalone FES revenue** | 25,744 | 25,337 | **29,237** | 36,409 | 10,947 |
+| **Standalone FES PBIT** | 4,171 | 4,116 | **5,371** | 7,206 | 2,028 |
+| PBIT margin % | 16.2 | 16.2 | **18.4** | 19.8 | 18.5 |
+| Tractors sold (SA, dom + exp) | 4,03,981 | 3,74,955 | 4,24,641 | 5,26,403 | 1,58,041 |
+| Consolidated farm revenue | 34,306 | 33,474 | 35,375 | 42,568 | 12,501 |
+| Consolidated farm PBIT | 4,464 | 4,327 | 4,947 | 5,517 | 1,781 |
+| Consolidated PBIT % | 13.0 | 12.9 | 14.0 | 13.0 | 14.2 |
+| Domestic tractor share | ~41.2% [E: 41.6 − 0.4] | **41.6%** | ~43.3% [E] | **43.6%** | 44.9% |
+
+Sources: Q4 F24 press release (FY24, FY23 comparatives; FY23 SA excludes trucks impairment, consolidated excludes SEL gain); Q4 F26 press release (FY26, FY25); Q1 F27 press release. FY22 not fetched (budget). **FY25 standalone PBIT is ₹5,371 Cr (18.4%), not the ₹5,340 Cr [E] in Part 2 R1 (S-7).** M&M's "19.9%" FY26 headline in the Q4 release bullets is a normalised figure ("up 150 bps", asterisked); the table prints **19.8%** — both appear in M&M's own document.
+
+#### (e) 8-quarter table — standalone FES (₹ Cr) [V; two quarters derived]
+
+| | Q2 F25 (Sep-24) | Q3 F25 (Dec-24) | Q4 F25 (Mar-25) | Q1 F26 (Jun-25) | Q2 F26 (Sep-25) | Q3 F26 (Dec-25) | Q4 F26 (Mar-26) | Q1 F27 (Jun-26) |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 6,497 | 8,168 [E] | 6,428 | 9,186 | 8,540 | 10,200 | 8,483 | 10,947 |
+| PBIT | 1,136 | 1,479 [E] | 1,250 | 1,819 | 1,684 | 2,061 | 1,643 | 2,028 |
+| PBIT % | 17.5 | 18.1 [E] | 19.4 | 19.8 | 19.7 | 20.2 | 19.4 | 18.5 |
+| Tractors (SA) | 93,382 | 1,21,774 [E] | 88,018 | 1,34,089 | 1,22,936 | 1,49,567 | 1,19,811 | 1,58,041 |
+| Consolidated farm revenue / PBIT | 8,194 / 1,115 | n/a | 7,933 / 942 | 10,892 / 1,631 | 10,225 / 1,608 | 11,501 / 1,259 | 10,022 / 1,019 | 12,501 / 1,781 |
+
+Q3 F25 derived = FY25 − H1 F25 − Q4 F25 (H1 F25 SA revenue ₹14,641 Cr, PBIT ₹2,642 Cr, tractors 2,14,849 [V Q2 F26 release]). The four FY26 quarters sum exactly to the FY26 total (₹36,409 Cr / ₹7,207 Cr) [check].
+
+#### (f) Annual-report / structural findings (from the releases and deck; M&M F26 AR not fetched — budget)
+- **The consolidated–standalone gap is the international tractor tail**: international subsidiaries lost **₹341 Cr in Q1 F27** alone (incl. impairment) [V]; the Erkunt (Turkey) foundry exit and "3 International Farm exits" in F26 [V] show M&M pruning it. Mahindra USA / Mitsubishi Mahindra / Sampo identities remain [K].
+- **Mahindra Finance** (tractor-loan proxy): GS3 **3.45%** (Jun-26), AUM +13%, PAT +78% [V Q1 F27 release]; MMFSL is #1 in used-tractor finance [V transcript].
+- **Sep-2026**: domestic 50,208 (−23%), exports 1,892 (+62%); H1 domestic 2,62,872 (+6%) [V-P1].
+
+## 4.3 Industry data upgraded from primary (or fetched) sources
+
+### 4.3(a) Domestic volume history — FY19–FY26 now chain-verified
+
+Method: M&M's Q1 F27 analyst deck (slide 24, "Stability in volatility") prints **industry growth by fiscal year F19–F24** [V]; anchored on FY23 = 9,45,311 (re-derived exactly from TMA calendar-month data, below) and FY25 = 9,39,713 / FY26 = 11,60,231 (Escorts PPT/AR [V]).
+
+| FY | Domestic (lakh) | YoY | Status now | Evidence |
+|---|---|---|---|---|
+| FY18 | 7.29 (chain) vs 7.11 (Part 1 [K]) | — | **conflict** | Chain from M&M F19 +8.0% gives 7.29; TMA FY18 is usually quoted ~7.1 (implying FY19 +10.8%). M&M's growth base may include brands outside TMA; keep [K] 7.11 with flag |
+| FY19 | **7.87** | +8.0% (M&M) | [V-derived] | FY20 ÷ 0.901 |
+| FY20 | **7.09** | −9.9% | [V-derived] | FY21 ÷ 1.269; matches Part 1 [K] 7.09 |
+| FY21 | **9.00** | +26.9% | [V-derived] | FY22 ÷ 0.936; matches Part 1 8.99 and autocarpro "~8.99 lakh" quote [V] |
+| FY22 | **8.42** | −6.4% | [V-derived] | FY23 ÷ 1.122; matches Part 1 8.42 |
+| FY23 | **9.45 (9,45,311)** | +12.2% | **[V]** | Sum of TMA monthly domestic Apr-22…Mar-23 (tractorgyan TMA tables) = **9,45,311** — identical to Part 1's figure |
+| FY24 | **8.75** | −7.4% | **[V]** | FY23 × 0.926 = 8.75; Ministry of Agriculture series (dataful mirror of agriwelfare.gov.in) prints **875 thousand** for 2023-24 [V]. **Resolves the 8.67 / 8.75 / 8.92 conflict → 8.75 lakh** (S-1) |
+| FY25 | 9.40 (9,39,713) | +7.4% | [V] | Escorts PPT; AR chart "9.4" |
+| FY26 | 11.60 (11,60,231) | +23.5% | [V] | Escorts PPT/AR chart "11.6"; M&M Q4 +34.8% |
+
+FY10–FY17 remain **[K]** (no fetched source; the agriwelfare/dataful table covers 2004-05 to 2024-25 but only three years were visible without login — not attempted further, no sign-up).
+
+**Calendar-year TMA totals (domestic / export / total)** [V tractorgyan TMA monthly tables, monthly figures sum to totals]: **CY2022: 9,12,061 / 1,31,850 / 10,43,911; CY2023: 9,15,474 / 96,223 / 10,11,697.** CY2021 domestic 9,03,724 [V-snip tractorgyan].
+
+### 4.3(b) Export history — the "first time above 1 lakh in FY26" claim is wrong
+
+| FY | Exports (units) | Status | Evidence |
+|---|---|---|---|
+| FY22 | **~1.27–1.28 lakh** (record) | [V-derived] | Apr–Nov 2021 = **85,281** (TMA via autocarpro, 28-Dec-2022 [V]) + Jan–Mar 2022 = **32,169** (TMA monthly [V]) + Dec-2021 (~10k, not fetched) |
+| FY23 | **1,24,542** | [V] | Sum of TMA monthly exports Apr-22…Mar-23 (Apr–Nov 2022 = 89,192 also confirmed by autocarpro [V]) |
+| FY24 | ~0.95–1.0 lakh | [E] | Apr–Dec 2023 = 71,362 [V] + Jan–Mar 2024 (~25k [E]) |
+| FY25 | 0.99 lakh (98,800) | [V] | Escorts AR chart "0.99" |
+| FY26 | 1.06 lakh (1,05,600) | [V] | Escorts AR chart "1.06" |
+| Q1 FY27 | 29,778 (+17.7%) | [V] | Escorts Q1 call |
+
+- **Exports peaked in FY22–FY23 (~1.25–1.28 lakh), fell ~20% in FY24–FY25, and FY26's 1.06 lakh is a partial recovery, not a record** (S-2). Part 1 §2.1's FY22 "~128 (record?)" is confirmed as approximately right; autocarpro's "first time above 1 lakh" is wrong (it probably meant something narrower).
+- CY2022 exports of 1,31,850 (≈12.6% of total TMA volume) vs FY26 1.06 lakh (≈8.3%) — export intensity has **fallen**, which matters for the "India as global sourcing hub" story [E].
+
+### 4.3(c) Q2 FY27 industry — September is now fetched
+
+**September 2026 domestic wholesale by OEM** (cmv360, "Domestic tractor sales fall 18.14% in September 2026", TMA-structured wholesale table) [V]:
+
+| OEM | Sep-26 | Sep-25 | YoY | Share Sep-26 | Share Sep-25 |
+|---|---|---|---|---|---|
+| M&M group (Mahindra + Swaraj) | 50,208 | 64,946 | −22.7% | 41.96% | 44.43% |
+| TAFE group (Massey Ferguson + Eicher) | 19,711 | 27,530 | −28.4% | 16.47% | 18.83% |
+| Sonalika (ITL) | 19,086 | 17,971 | **+6.2%** | 15.95% | 12.29% |
+| **Escorts Kubota** | **14,911** | 17,803 | −16.2% | **12.46%** | 12.18% |
+| John Deere | 8,676 | 9,240 | −6.1% | 7.25% | 6.32% |
+| New Holland (CNH) | 5,504 | 6,825 | −19.4% | 4.60% | 4.67% |
+| Preet / Indo Farm / VST / ACE / Captain / SDF | 383 / 344 / 300 / 262 / 205 / 77 | 475 / 402 / 357 / 305 / 240 / 86 | −10 to −19% | 1.31% combined | 1.27% |
+| **Industry** | **1,19,667** | **1,46,180** | **−18.1%** | 100% | 100% |
+
+Cross-checks: M&M 50,208 = M&M's own release [V]; Escorts 14,911 domestic ≈ Escorts' 15,214 total less exports [V]. So the table is reliable.
+
+**Q2 FY27 industry estimate (upgraded)** [E from V]: Jul-26 domestic **77,482** (TMA total 86,262 − exports 8,780 [V ruralvoice]) + Aug-26 **~67,600** (ICRA: +6.5% YoY [V autocarpro] on an Aug-25 base of ~63,500 [E]) + Sep-26 **1,19,667** [V] = **~2.65 lakh (−3% YoY vs ~2.74 lakh)**. **Escorts' Q2 share ≈ 12.3%** (32,628 ÷ 2.65 lakh) vs ~11.8% a year earlier [E]. **H1 FY27 industry ≈ 6.04 lakh (+8%); Escorts H1 share ≈ 11.3% vs 10.9%** [E].
+
+Retail (FADA): Aug-26 87,977 vs 87,244 (+0.8%) [V-snip]; Jul-26 1,07,329 (+27.8%) [V-snip tractorgyan headline].
+
+### 4.3(d) FY26 wholesale shares — TAFE now from TAFE's own release
+
+| OEM | FY26 units | Share of 11,60,231 | Status |
+|---|---|---|---|
+| M&M | 5,05,930 | 43.6% | [V] |
+| **TAFE (MF + Eicher)** | **~2,02,400 domestic** (2,14,951 total − 12,584 exports) | **~17.4%** | [V tractorgyan reproducing TAFE's 2-Apr-2026 announcement; split derived] |
+| Sonalika / ITL | 1,80,504 total (domestic ~1.45–1.55 lakh [E]) | ~12.5–13.4% [E] | [V-snip] |
+| Escorts Kubota | 1,26,994 | 10.9% | [V] |
+| John Deere | ~0.95–1.05 lakh (residual) | **~8–9%** [E] | residual; Sep-26 7.25%, Mar-26 FADA 7.87%, Apr–Jul-25 retail 8.52% [V-snip] |
+| CNH (New Holland) | 53,225 | 4.6% | [V-P1] |
+| Others | ~15,000 | ~1.3% | [E from Sep-26 mix] |
+
+- **TAFE ~17.4% (FY26 full year), not "~18% (9M)"** (S-6); TAFE exports **12,584 = 5.9% of its volume** — matches CRISIL's "5–6%" [V-P1].
+- **John Deere's residual share is ~8–9%, higher than Part 1's "~7–8%"**; with Sonalika's domestic split unknown, present John Deere as "~8%" [E].
+- **"Others" are only ~1.3%**, not 2–3% (Part 1 §5.1) — the top six hold ~98.7% [E from V Sep-26].
+
+### 4.3(e) Policy facts — fetched
+
+| Item | Fact | Source / status |
+|---|---|---|
+| **TREM final rule** | **Central Motor Vehicles (Eleventh Amendment) Rules, 2026** notified by MoRTH (u/s 110 MV Act) — reported 2-Jul-2026: **8–19 kW (≈11–25 HP) → Stage V from 1-Oct-2026; >56 kW (≈75 HP) up to 560 kW → Stage V from 1-Oct-2026; 19–37 kW (≈25–50 HP) → TREM Stage IIIAA from 1-Apr-2028, Stage V from 1-Apr-2032; 37–56 kW (≈50–75 HP) → Stage V from 1-Apr-2032**; combine harvesters on the same schedule; CEV Stage V for >56 kW from 1-Oct-2026 | [V newswav reprint of The Tribune, 2-Jul-2026]; draft was issued ~6-Mar-2026 with objections to 27-Mar-2026 [V teamleaseregtech; V-snip]; **corroborated by VST's CEO on 13-Aug-2026: "Stage 5 for all products less than 25 HP … from October '26 … TREM 3AA from April '28 … the complete range of tractors will move to Stage 5 as per the current notification in 2032"** [V transcript]. G.S.R. number not found. |
+| GST | Tractors 12% → 5% from 22-Sep-2025 | [V-P1 autocarpro/CRISIL]; PIB not fetched |
+| **Paddy MSP KMS 2026-27** | **Common ₹2,441/qtl (+₹72, +3.0% on ₹2,369); Grade A ₹2,461**; CCEA 13-May-2026; 14 kharif crops; payout est. ₹2.60 lakh Cr | [V Deccan Chronicle 13-May-2026; IANS for date] |
+| **Wheat MSP RMS 2027-28** | ₹2,610 (+₹25, **+0.97%**), "a 17-year-low hike"; attributed to overflowing wheat stocks; cost ₹1,264/qtl; CCEA 30-Sep-2026 | [V superkalam; V-P1 dtnext] |
+| **2026 SW monsoon** | 759.4 mm vs LPA 868.6 mm = **−12.6% (~87% of LPA)**; IMD/UNI: "fourth weakest monsoon since 2001" (weaker: 2002, 2009, 2015 [K]) — consistent with "weakest since 2015"; East & NE driest since 1901; 17 of 36 subdivisions deficient | [V UNI 30-Sep-2026; V-snip superkalam/pwonlyias]. IMD's own PDFs fail TLS from this sandbox — not fetched |
+| 2025 SW monsoon | 937.2 mm = **108% of LPA** (107.9%); NW India 127%, E&NE 80% | [V-snip DownToEarth / DTN] |
+| Post-monsoon stress | Centre formed a team to assess **drought damage in 265 talukas of Maharashtra** (6-Oct-2026); "El Niño threatens rabi crops … agricultural GDP set to contract this year" (16-Oct-2026) | [V ruralvoice headlines, fetched page] |
+| **US tariff on Indian tractors (as of Oct-2026)** | IEEPA tariffs struck down 20-Feb-2026 → **Section 122 surcharge 10%** (from 24-Feb-2026, 150 days) → lapsed **24-Jul-2026** → replaced by **Section 301 duty of 10% on India** (USTR notice 23-Jul-2026; forced-labour investigation, 60 economies; India got 10% vs 12.5% draft after a 14-Jun-2026 forced-labour import ban); **Section 232 steel/aluminium (25–50%) still applies** to covered goods; US MFN duty on HS 8701 tractors is **free** [K] | [V The Week 24-Jul-2026; V-snip BusinessToday/GTRI]. Whether tractors are Section 232 "derivatives" — **not verified**. VST's CEO (Aug-2026) cites a proposed "100% tariff … on the new bill that is going through the U.S. Congress" as a risk [V] |
+
+### 4.3(f) Global lens — Kubota now fetched
+
+**Kubota Corporation, H1 CY2026 (Jan–Jun), results presentation notes (Aug-2026)** [V kubota.com financial_results_26q2e(note).pdf]:
+- Revenue **¥1.6903 trillion (+16.2%)**; operating income **¥235.6 bn (13.9% margin, +64.7%)**; net profit to owners ¥173.7 bn [V; growth rates V-snip].
+- **FY2026 (CY) guidance: revenue ¥3.28 trillion, operating income ¥400 bn (12.2%)**, raised on the weak yen and **US tariff refunds**; FCF ~¥230 bn.
+- Regional FY26 forecast: Japan ¥360 bn; **North America ¥1.341 trillion** (tractor market "will continue to shrink"); Europe ¥407 bn; **Asia & others ¥762 bn** ("in India … the market is expected to continue growing"); water & environment ¥395 bn.
+- **India is named, with construction machinery, as one of Kubota's two "key growth drivers"**; Kubota cites new **Promaxx (Farmtrac brand) and Shaurya (Powertrac brand)** launches and "incorporating Kubota's manufacturing and design expertise" to "accelerate our market share growth".
+- Scale: Escorts FY26 consolidated revenue ₹11,540 Cr ≈ ¥186 bn [E at ₹0.62/¥] ≈ **5.7% of Kubota's FY26 guided revenue**.
+
+## 4.0 Supersedes — corrections to Parts 1–3 (apply before writing)
+
+| # | Item | Old value (Part, section) | New value | Source (fetched 23-Oct-2026) | Sections affected |
+|---|---|---|---|---|---|
+| S-1 | FY24 domestic industry | "~8.75 (8.67–8.92 by source)", conflict flag (§2.1, trap 12, §H-1) | **8.75 lakh (−7.4%)** — conflict resolved | M&M Q1 F27 deck slide 24 (F24 −7.4%) on FY23 9,45,311; Ministry of Agriculture series 875 thousand (dataful) | §2.1, E1, trap 12, §8 item 9, §H-1 |
+| S-2 | Export history | FY22 "~128 (record?)" [K, flagged]; autocarpro "first time above 1 lakh in FY26" (§2.1, §H-2) | **FY22 ~1.27–1.28 lakh (record); FY23 1,24,542; FY24 ~0.95–1.0 lakh; FY25 0.99; FY26 1.06 lakh** — FY26 was **not** a record and not the first year above 1 lakh | TMA monthly (tractorgyan); autocarpro 28-Dec-2022 (Apr–Nov 2021 85,281); Escorts AR chart | §2.1, §0 bullet 1, B3, E16 |
+| S-3 | Escorts greenfield / capex — the primer issue | Part 3 §3.4 and §2.4: primer's "₹3,000–3,500 Cr over 4–5 years" called wrong; use CFO's ₹2,000 Cr | **Both are company figures.** AR FY26: "approximately ₹3,000–3,500 crore" over 4–5 years for tractors, CE and components (= total capex); CFO 3-Aug-2026: "overall capex for greenfield is INR 2,000 crores" + normal ₹350–400 Cr/yr. **YEIDA allotted ~154 acres on 24-Mar-2026.** Withdraw the primer-issue bullet; ask the primer to say "₹2,000 Cr greenfield within ₹3,000–3,500 Cr total 4–5-year capex" | Escorts AR FY26 (strategy pages; Directors' Report); Q1 FY27 transcript | §2.4, §3.3, §3.4, §4.3 table, §0 last bullet |
+| S-4 | Escorts cash | "~₹8,300–10,000 Cr"; screener investments ₹8,281 Cr; "~₹8,300 Cr+" in stat strip (§0, §D, §2.0) | **~₹9,840 Cr of cash, bank deposits and treasury investments (standalone, 31-Mar-2026); ~₹9,630 Cr excluding ₹210.5 Cr escrow** = financial-asset investments ₹8,276 Cr + cash ₹166 Cr + other bank balances ₹1,398 Cr; borrowings ₹162 Cr (cons.) → **net cash ~₹9.5–9.7k Cr ≈ 33% of m-cap** | Escorts AR FY26 balance sheet, notes 12, 13, 40 | §0, §D cell 6, §2.0 net-debt column and EV/EBITDA (→ ~13.2× FY26), §F net cash/m-cap, B5 |
+| S-5 | Royalty to Kubota | "royalty to Kubota on Kubota-brand/technology [K — royalty size not verified]" in "other expenses" (§4.2(a)) | **Royalty to Kubota ₹5.27 Cr (FY26) = 0.5% of royalty-bearing turnover, 0.22% of prior-year PAT; royalty to Harparshad & Co (Nanda family) ₹45.16 Cr; P&L royalty line ₹49.78 Cr (~0.43% of revenue)** | Escorts AR FY26 (AGM notice royalty disclosures; note 45; other-expenses note) | §4.2(a), B2, R7 |
+| S-6 | TAFE FY26 share | "~18% (9M FY26)" (§0, §5.1, E2) | **~17.4% full-year FY26** (2,14,951 total incl. 12,584 exports → ~2,02,400 domestic); Sep-26 month 16.5% | TAFE announcement 2-Apr-2026 (tractorgyan); cmv360 Sep-26 table | §0, §5.1(a)(c), E2, R2, §3.4 primer bullet |
+| S-7 | M&M FY25 standalone FES PBIT | "≈ ₹5,340 Cr [E]" (R1) | **₹5,371 Cr on revenue ₹29,237 Cr (18.4%)**; consolidated FY25 ₹4,947 Cr on ₹35,375 Cr (14.0%) | M&M Q4 F26 press release (May-2026) | R1, §2.0 M&M growth cell (FY26 SA revenue **+24.5%**), JSON |
+| S-8 | M&M EBIT per tractor comparator | "~₹1.37 lakh/tractor" (§1.3, §9.1, C.4, F) | Keep ₹1.37 lakh for **standalone FES** (incl. farm machinery, Powerol, spares) but use **core-tractor PBIT ≈ ₹1.21 lakh/tractor (Q1 F27: ₹1,917 Cr ÷ 1,58,041)** as the like-for-like with Escorts' ~₹0.8–0.9 lakh | M&M Q1 F27 deck slide 22 | §1.3, §9.1, C.4, F |
+| S-9 | Escorts tractor capacity | "~1.75 lakh [E: 1,33,670 ÷ 0.77]" (§4.3) | **1,70,000 units/yr assembly capacity** (3 Faridabad plants); CE capacity **10,000/yr at 47% utilisation** | Escorts AR FY26 pp.62–64 | §4.3, §1.2 item 2 |
+| S-10 | RED sale EV | "₹1,600 Cr [primer; K — not re-fetched]" (§H-13, Still-listed item 3) | **₹1,600 Cr proceeds — confirmed** ("divestment … generated proceeds of ₹1,600 crores and an additional gain of ₹1,027.6 crores to PAT") | Escorts AR FY26 Chairman's letter | Still-listed 3, §G 23-Oct-2024, §H-13 |
+| S-11 | Kubota stake steps | "~10% Mar-2020 (~₹1,042 Cr) [primer]; ~44.8% via ₹1,873 Cr + open offer [primer]" | **9.09% (12,257,688 shares; Mar-2020 investment) → preferential 9,363,726 shares @ ₹2,000 = ₹1,872.745 Cr (18-Feb-2022) → open offer 37,491,556 shares @ ₹2,000 ≈ ₹7,498 Cr (tendering 14–28 Mar-2022; 52.0 mn shares tendered, pro-rated; settled 11-Apr-2022) → 59,112,970 shares = 44.80%** (after cancellation of 12,257,688 trust shares on 27-Dec-2021) → 54.07% (Sep-2024 merger allotment). ₹1,042 Cr for 2020 still unverified | Kubota news releases 18-Nov-2021 and 13-Apr-2022 (kubota.com); Escorts AR FY26 (preferential funds) | §8 items 6–7, B2, §G |
+| S-12 | Use of Kubota's 2022 money | not in Parts 1–3 | **Only ₹545.2 Cr of the ₹1,855.3 Cr net preferential proceeds was utilised by 31-Mar-2026 (~29%)** for the stated agri-machinery expansion objects | Escorts AR FY26 "Utilisation of Funds" | B2, B5, §A item 6 |
+| S-13 | TREM-V status | "DRAFT re-phasing, not an implemented rule … final gazette not found" (trap 11, §7.2, §H-7) | **Notified** as CMV (Eleventh Amendment) Rules 2026 (reported 2-Jul-2026): 8–19 kW and 56–560 kW → Stage V from **1-Oct-2026**; 19–37 kW → **TREM IIIAA 1-Apr-2028**, Stage V **1-Apr-2032**; 37–56 kW → Stage V **1-Apr-2032**. Note the HP bands: ≈ <25 HP and >75 HP now; 25–50 HP interim step in 2028; 50–75 HP straight to V in 2032 | Tribune via newswav (2-Jul-2026); VST Q1 FY27 call (13-Aug-2026) "as per the current notification" | trap 11, §7.2, §11 item 1, §12 table, B4, §G |
+| S-14 | Paddy MSP KMS 2026-27 | "not fetched (§H)" (E10) | **₹2,441/qtl common (+₹72, +3.0%); Grade A ₹2,461** (CCEA 13-May-2026) | Deccan Chronicle / IANS 13-May-2026 | E10, §3 table, §A item 2 |
+| S-15 | "Others" share | "~2–3%"; top-5 ≈ 93–94% (§0, §5.1) | **~1.3% (Sep-26: Preet, Indo Farm, VST, ACE, Captain, SDF = 1.31%)**; top-6 ≈ 98.7% | cmv360 Sep-26 table | §0, §5.1, E2 |
+| S-16 | John Deere share | "~7–8% [E residual]" | **~8–9% FY26 residual [E]**; 7.25% in Sep-26 [V]; 6.32% Sep-25 [V] — present as "~8%" | cmv360; TAFE/M&M/Escorts/CNH FY26 totals | §0, §5.1, E2, R4 |
+| S-17 | Q2 FY27 industry | "~2.6–2.7 lakh (−3 to −5%) [E]; September not found" | **Sep-26 1,19,667 (−18.1%) [V]; Q2 FY27 ≈ 2.65 lakh (−3%) [E]; Escorts Q2 share ≈ 12.3%; H1 FY27 ≈ 6.04 lakh (+8%), Escorts H1 share ≈ 11.3% vs 10.9%** | cmv360; ruralvoice Jul-26; ICRA Aug +6.5% | §0 bullet 2, E4, §H-3, C.2 |
+| S-18 | M&M Q1 F27 share | "44.9% (+280 bp QoQ)" | Same, but **−30 bp YoY (Q1 F26 45.2%)** — M&M did **not** gain share YoY in Q1 | M&M Q1 F27 deck slide 20 | R1, §5.1(c), §3.4 M&M bullet |
+| S-19 | Escorts m-cap history | "AR chart values extracted out of order; not usable" (§H-18) | **FY14 1,479; FY15 1,556; FY16 1,709; FY17 6,604; FY18 10,028; FY19 9,758; FY20 8,122; FY21 18,712; FY22 22,309; FY23 24,951; FY24 30,689; FY25 36,310; FY26 30,639 (₹ Cr, March)** — "~18× over the last decade vs ~2.8× NSE" | Escorts AR FY26 pp.28, 33 (column-mapped) | §H-18, B5 |
+| S-20 | Kubota financials | "~¥3.0 trillion [K — IR page 404]" (§2.2, §10, R7) | **H1 CY2026 revenue ¥1.6903 tn, OP ¥235.6 bn (13.9%); FY2026 guidance ¥3.28 tn revenue, ¥400 bn OP (12.2%)**; India named a "key growth driver" | Kubota Q2 2026 results notes (kubota.com) | §2.3, §10 table, R7 |
+| S-21 | US tariff stack | "Feb-2026 math: India 18% + metal tariffs; current stack unverified" (§5.3, §H-11) | **IEEPA struck down 20-Feb-2026 → Section 122 10% (24-Feb to 24-Jul-2026) → Section 301 10% on India from late Jul-2026 (USTR notice 23-Jul-2026)**; Section 232 steel/aluminium 25–50% still applies to covered goods; MFN on tractors free [K] | The Week 24-Jul-2026; BusinessToday 21-Feb-2026 [V-snip] | §5.3, §12 table, B3 |
+| S-22 | Escorts treasury income share | "Treasury income ~31% of PBT" | unchanged, but on the AR liquid-asset base of ~₹9.8k Cr the **pre-tax yield is ~6.7%** (₹564 Cr ÷ average ~₹8.4k Cr) [E] | AR | §4.2 |
+| S-23 | Escorts exports via Kubota (₹ terms) | volumes only (~60%) | **Sales of goods to Kubota group ≈ ₹392 Cr ≈ 62% of ₹635.6 Cr export revenue; purchases from Kubota group ≈ ₹1,286 Cr** — Escorts is a net importer from Kubota | AR note 45, 46 | B2, B3, §A item 6 |
+| S-24 | Part 2 8-quarter tractor row | Sep-24 shown "n/a"; Mar-25 26,633 [E] | Unchanged (no fetched Q2 FY25 volume); Mar-25 26,633 = 24,801 + 1,832 [V-P1] — drop the [E] tag | Q4 FY26 PPT comparatives | §2.1(a) |
+
+## 4.1 Verification table — 40 figures the writer will use
+
+Status key: **V-prim** = read this session in a company/government/regulator primary document; **V-sec** = read this session in a fetched secondary article that reports the primary; **V-der** = arithmetic on V inputs; **open** = could not verify.
+
+| # | Figure | Dossier value (Parts 1–3) | Verified value | Primary source (fetched) | Status | Agrees? |
+|---|---|---|---|---|---|---|
+| 1 | FY26 domestic tractor industry | 11,60,231 (+23.5%) | 11.6 lakh (chart), +23.5% (PPT) | Escorts AR FY26 p.~110 chart; Q4 FY26 PPT | V-prim | Yes |
+| 2 | FY26 industry exports | 1.056 lakh | 1.06 lakh | Escorts AR FY26 chart | V-prim | Yes |
+| 3 | FY25 domestic industry | 9,39,713 | 9.4 lakh | Escorts AR FY26 chart | V-prim | Yes |
+| 4 | FY24 domestic industry | ~8.75 (conflict) | 8.75 lakh (−7.4%) | M&M Q1 F27 deck slide 24; MoA (dataful) 875k | V-prim | Resolves conflict |
+| 5 | FY23 domestic industry | 9,45,311 [V-snip] | 9,45,311 | TMA monthly tables (tractorgyan) summed | V-sec | Yes (exact) |
+| 6 | Industry growth F20 / F21 / F22 | −10% / +27% / −6% [K] | −9.9% / +26.9% / −6.4% | M&M Q1 F27 deck slide 24 | V-prim | Yes |
+| 7 | FY22 exports | ~1.28 lakh [K, flagged] | ~1.27–1.28 lakh (85,281 Apr–Nov + 32,169 Jan–Mar + Dec) | autocarpro 28-Dec-2022; TMA monthly | V-sec/V-der | Yes; contradicts "first >1 lakh in FY26" |
+| 8 | FY23 exports | ~124k [K] | 1,24,542 | TMA monthly summed | V-sec | Yes |
+| 9 | Escorts domestic share FY25 → FY26 | 11.8% → 10.9% | 11.8% → 10.9%; AR "approximately 10.9% … way below our mid-term aspirations" | Q4 FY26 PPT; AR FY26 letter | V-prim | Yes |
+| 10 | Escorts Q1 FY27 share / industry | 10.5%; 3.39 lakh (+18.6%) | 10.5%; 3.39 lakh; +18.6% | Q1 FY27 PPT | V-prim | Yes |
+| 11 | M&M FY26 domestic share | 43.6% | 43.6% (+30 bp) | M&M Q4 F26 media release | V-prim | Yes |
+| 12 | M&M Q1 F27 share | 44.9% | 44.9% (+280 bp QoQ; Q1 F26 45.2% → −30 bp YoY) | M&M Q1 F27 deck slides 19–20 | V-prim | Yes, plus YoY nuance |
+| 13 | M&M FY24 share | ~41% [K] | 41.6% (+40 bp) | M&M Q4 F24 press release | V-prim | Yes |
+| 14 | TAFE share | ~18% (9M FY26) | ~17.4% FY26 (2,14,951 incl. 12,584 exports) | TAFE announcement via tractorgyan | V-sec | Slightly lower |
+| 15 | Sep-26 domestic industry | not found | 1,19,667 (−18.14%) | cmv360 OEM table | V-sec | New |
+| 16 | Escorts Sep-26 domestic / share | −16.2% (company) | 14,911 (−16.24%), 12.46% share | cmv360; Escorts Sep release | V-sec + V-prim | Yes |
+| 17 | M&M SA FES FY26 revenue / PBIT / % | 36,409 / 7,206 / 19.8% | 36,409 / 7,206 / 19.8% | M&M Q4 F26 release | V-prim | Yes |
+| 18 | M&M SA FES FY25 PBIT | ~5,340 [E] | 5,371 (18.4%) on 29,237 | M&M Q4 F26 release | V-prim | Supersede (S-7) |
+| 19 | M&M core tractor PBIT Q1 F27 | 19.2% | 19.2% (₹1,917 Cr on ₹9,964 Cr); Q1 F26 20.7% | M&M Q1 F27 deck slide 22 | V-prim | Yes |
+| 20 | M&M international farm subs | "lose money" [E] | PBIT −₹341 Cr Q1 F27 (−19.7%) incl. impairment | M&M deck slide 22 | V-prim | Yes, quantified |
+| 21 | Escorts Agri revenue / EBIT FY26 | ₹9,779.6 Cr / 12.6% | same | Q4 FY26 PPT (re-read) | V-prim | Yes |
+| 22 | Escorts tractor realisation | ~₹5.93 lakh [E] | ~₹5.9 lakh [E]; export revenue ₹635.6 Cr ÷ 6,676 = ~₹9.5 lakh incl. components [E] | AR note 46 inputs | V-der | Yes (E stays E) |
+| 23 | Escorts cash/treasury | ₹8,281 Cr vs "~₹10,000 Cr" | ~₹9,840 Cr (₹9,630 Cr ex-escrow) | AR FY26 balance sheet & notes | V-prim | Supersede (S-4) |
+| 24 | Royalty to Kubota | not verified | ₹5.27 Cr (0.5% rate) | AR FY26 royalty disclosure | V-prim | New (S-5) |
+| 25 | Purchases from Kubota group | not extracted | ~₹1,286 Cr; sales to Kubota group ~₹392 Cr | AR FY26 note 45 | V-prim | New |
+| 26 | Escorts tractor capacity / CU | ~1.75 lakh [E] / 77% | 1,70,000 / 77% | AR FY26 p.62 | V-prim | Supersede (S-9) |
+| 27 | CE capacity / CU | 10k→15k plan | 10,000 units / 47% | AR FY26 p.64 | V-prim | Yes |
+| 28 | RED sale proceeds | ₹1,600 Cr [K] | ₹1,600 Cr | AR FY26 Chairman's letter | V-prim | Yes |
+| 29 | RED effective date / gain | 1-Jun-2025 / ₹1,004.4 Cr | 1-Jun-2025 / ₹1,004.4 Cr (discontinued PAT ₹1,027.6 Cr) | AR FY26; Q4 FY26 PPT | V-prim | Yes |
+| 30 | Kubota stake steps | ~10% (2020) → ~44.8% → 54.07% | 9.09% → 44.80% (11-Apr-2022) → 54.07% (6-Sep-2024) | Kubota releases 18-Nov-2021, 13-Apr-2022; Escorts AR | V-prim | Yes, refined |
+| 31 | Kubota preferential | ₹1,873 Cr | ₹1,872.745 Cr on 18-Feb-2022; ₹545.2 Cr utilised by Mar-26 | Escorts AR FY26; Kubota release | V-prim | Yes + new |
+| 32 | Greenfield capex | ₹2,000 Cr; primer ₹3,000–3,500 Cr "wrong" | ₹2,000 Cr greenfield (CFO) **and** ₹3,000–3,500 Cr total 4–5-yr capex (AR); 154 acres YEIDA 24-Mar-2026 | Q1 FY27 transcript; AR FY26 | V-prim | Partly supersede (S-3) |
+| 33 | Escorts FY27 capex | ₹850–900 Cr | ₹850–900 Cr (land ₹450–500 Cr + normal ₹350–400 Cr) | Q1 FY27 transcript | V-prim | Yes |
+| 34 | Escorts FY27 industry guidance | "mid-single-digit" | "middle or mid-single-digit growth"; Escorts to beat industry ("Absolutely") | Q1 FY27 transcript | V-prim | Yes |
+| 35 | M&M channel inventory / HP mix | — | 30–40 days; 40–50 HP ≈ 69–70% of industry Q1 F27 | M&M Q1 F27 transcript | V-prim | New |
+| 36 | 2026 monsoon | ~87% LPA, "weakest since 2015" | −12.6% (759.4 vs 868.6 mm); "fourth weakest since 2001" | UNI 30-Sep-2026 (citing IMD) | V-sec | Yes (consistent) |
+| 37 | Wheat MSP RMS 2027-28 | ₹2,610, +1.0%, "smallest in ~17 years" | ₹2,610, +₹25 (0.97%), "17-year-low hike" | superkalam 1-Oct-2026; dtnext | V-sec | Yes |
+| 38 | Paddy MSP KMS 2026-27 | not fetched | ₹2,441 (+₹72, +3.0%) | Deccan Chronicle 13-May-2026 | V-sec | New |
+| 39 | TREM-V dates | draft only | Final CMV (11th Amdt) Rules 2026: <25 HP & >75 HP from 1-Oct-2026; 25–50 HP IIIAA 2028, V 2032; 50–75 HP V 2032 | Tribune/newswav 2-Jul-2026; VST call 13-Aug-2026 | V-sec + V-prim | Supersede (S-13) |
+| 40 | Kubota FY2026 revenue | ~¥3.0 tn [K] | Guide ¥3.28 tn; OP ¥400 bn (12.2%); H1 ¥1.69 tn / 13.9% | Kubota Q2 2026 results notes | V-prim | Supersede (S-20) |
+
+**Count: 40 figures; 40 verified or re-verified this session; 29 are V-prim (company/government primary documents: #1–4, 6, 9–13, 17–21, 23–35, 40), 10 are V-sec (#5, 7, 8, 14, 15, 36–39, plus 16 mixed), 1 V-der (#22, still an estimate).** Two sources exist and agree for #1, #4, #9, #16, #29, #30, #31, #39.
+
+Figures still not verified that the writer may be tempted to use: **India ~40–45% of world tractor units** [E — no fetched global unit data; Kubota/Deere do not publish world units]; **industry revenue ~₹73,000 Cr** [E — inputs now firmer: M&M core-tractor revenue/tractor ₹6.3 lakh × 11.6 lakh ≈ ₹73,000 Cr, consistent]; **GST cut date** (V-P1 secondary; PIB not fetched); **monsoon 2014–2024 %LPA** [K]; **FY10–FY18 volumes** [K]; **John Deere/CNH India financials** (open).
+
+## 4.4 Gap log (§H items)
+
+| §H # | Gap | Status | How closed / what was tried |
+|---|---|---|---|
+| 1 | TMA history FY10–FY22; FY24 conflict | **Partly closed** | FY19–FY24 chain-verified from M&M deck growth rates + FY23 exact TMA monthly sum; **FY24 = 8.75 lakh** (MoA 875k). FY10–FY18 still [K]; FY18 conflict noted (chain 7.29 vs [K] 7.11). Lok Sabha/agriwelfare search found the MoA series (2004-05 to 2024-25) but only via a preview mirror; IMD/agriwelfare PDFs not fetched |
+| 2 | Export history | **Closed** | FY22 ~1.27–1.28 lakh record; FY23 1,24,542; CY2022 1,31,850; FY26 1.06 lakh not a record (S-2) |
+| 3 | Q2 FY27 industry | **Mostly closed** | Sep-26 1,19,667 [V-sec]; Jul-26 77,482 [V]; Aug-26 absolute still estimated (~67,600) → Q2 ≈ 2.65 lakh [E] |
+| 4 | FY26 wholesale shares TAFE/Sonalika/Deere | **Partly closed** | TAFE ~17.4% (company total and export count); Sonalika FY26 total 1,80,504 still V-snip, domestic split unknown; Deere ~8–9% residual [E]; Sep-26 month shares for all OEMs [V-sec] |
+| 5 | John Deere India / CNH India financials | **Open** | One search: only John Deere Financial India (FY25 revenue ₹706.22 Cr, PAT ₹152.46 Cr [V-snip BS]); operating companies' MCA filings need login — not attempted (no sign-up rule) |
+| 6 | TAFE & ITL FY26 financials | **Open** | Unlisted; FY26 rating rationales not yet published/fetched; TAFE FY26 volume 2,14,951 [V-sec] |
+| 7 | TREM-V final notification | **Closed (secondary + primary corroboration)** | CMV (Eleventh Amendment) Rules 2026 [V-sec Tribune/newswav]; VST CEO "as per the current notification" [V-prim]. G.S.R. number not found; egazette not fetched |
+| 8 | Paddy MSP KMS 2026-27 | **Closed** | ₹2,441 (+₹72) [V-sec]; PIB not fetched |
+| 9 | Monsoon 2014–2025 history | **Mostly open** | 2025 108% [V-snip]; 2026 −12.6% [V-sec]. IMD mausam.imd.gov.in PDFs fail TLS verification from this sandbox (did not bypass). 2014–2024 remain [K] |
+| 10 | Kubota financials | **Closed** | Kubota H1 CY2026 + FY2026 guidance from kubota.com notes PDF [V-prim]. CY2025 actual not extracted (in same PDF comparatives; not needed) |
+| 11 | US tariff stack post-IEEPA | **Mostly closed** | Section 122 10% → Section 301 10% (from late Jul-2026) [V-sec]; Section 232 derivative status of tractors **open** |
+| 12 | Escorts share history pre-FY25 | **Open** | Not in FY26 AR (no 10-year operating table); older Escorts PPTs not fetched (budget). Use FY25 11.8%, FY26 10.9%, quarterly from Q4 FY25 only |
+| 13 | RED sale EV ₹1,600 Cr | **Closed** | AR FY26 "proceeds of ₹1,600 crores" [V-prim] |
+| 14 | Escorts cash (company definition) | **Closed** | ~₹9,840 Cr liquid assets (AR) [V-prim] (S-4) |
+| 15 | Kubota royalty / related-party | **Closed** | Royalty ₹5.27 Cr; purchases ~₹1,286 Cr; sales ~₹392 Cr; dividend to Kubota ₹217.77 Cr; Harparshad royalty ₹45.16 Cr [V-prim] |
+| 16 | Kubota-brand volume inside Escorts | **Partly closed** | Not disclosed; implied Kubota-brand royalty base ≈ ₹1,050 Cr (₹5.27 Cr ÷ 0.5%) → roughly 14–16k units [E] |
+| 17 | Industry tractor-loan delinquency | **Open** | One search; only Ind-Ra 2016 pool data (90+ dpd 6.45% for 2015 vintage) [V-snip]; MMFSL GS3 3.45% (Jun-26) [V-prim] remains the proxy |
+| 18 | Escorts AR m-cap chart | **Closed** | FY14–FY26 series column-mapped (S-19) |
+
+Additional gaps found this pass: (a) **HS 8701 export value and US share** — tradestat is form-driven; ximpex returned 403; still open (Ximpex snippet: HS 8701 exports ~US$1.1 bn FY25, US #1 destination for 8701.92/8701.93 [V-snip]); (b) Aug-26 TMA absolute; (c) G.S.R. number of the TREM rule.
+
+## 4.5 New insights the first pass missed, and primer issues
+
+### 4.5(a) Insights an expert would add
+1. **Kubota extracts almost nothing through royalty — value flows to Kubota as dividends and as a supplier.** Escorts paid Kubota ₹5.27 Cr of royalty (0.5% rate, Kubota's global floor) but **bought ~₹1,286 Cr of goods from Kubota group companies** (engines from Kubota Engine Thailand ₹210 Cr; Kubota Corp ₹883 Cr) and paid it **₹218 Cr of dividends**. Meanwhile the Nanda family's Harparshad & Co collects **₹45 Cr/yr** of "Escorts" brand royalty — ~9× Kubota's. This reframes the governance and margin debate: transfer pricing on ₹1.3k Cr of purchases matters more than royalty.
+2. **Escorts is still a net importer from Kubota.** Sales to Kubota group ≈ ₹392 Cr (Kubota Europe ₹152 Cr, tripled) vs purchases ≈ ₹1,286 Cr. "India as Kubota's export base" is a FY28+ option, not FY26 reality; FY27 exports guided flat.
+3. **Kubota's 2022 equity is mostly unspent.** Only ₹545 Cr (~29%) of the ₹1,855 Cr net preferential proceeds was used by Mar-2026; Escorts holds ~₹9.8k Cr of liquid assets (~33% of m-cap). The greenfield (₹2,000 Cr) and FY27 capex (₹850–900 Cr) absorb less than a third of it — capital return pressure will grow, but a buyback is structurally capped (promoter + IEPF ~70%).
+4. **The share story turned in Escorts' favour in H1 FY27.** On wholesale data Escorts was **12.46% in Sep-26 (12.18% Sep-25)** and ≈ **11.3% for H1 FY27 vs 10.9%**; M&M **lost** share YoY in Q1 (44.9% vs 45.2%) and fell to **41.96% in Sep-26**; the big September gainer was **Sonalika (+3.7 pp to 15.95%)** while **TAFE lost 2.4 pp**. The FY26 narrative ("Escorts lost share in the boom") should be paired with "regained some in the first post-boom half".
+5. **TREM is now law, and the cliff is in 2032 for the bulk of the market.** Final rules put **<25 HP and >75 HP on Stage V from 1-Oct-2026** (VST: "no big cost increase"), an **interim IIIAA step for 25–50 HP in April 2028**, and **Stage V for 25–75 HP only from April 2032**. VST's CEO puts the full Stage V cost at **~25–30% of today's tractor price** at current technology costs (vs ICRA's 15–20%). Expect a **pre-buy in FY28 (IIIAA) and a much bigger one in FY32**.
+6. **Industry volatility is structurally lower because OEMs no longer stuff channels.** M&M (30–40 days) and Escorts (~30 days) both report normal dealer stock; M&M's chart shows core tractor margins stayed **17.4–23.4% through every year from F19 to Q1 F27**, including −10% and −7% industry years — useful for the report's "how bad can the down-cycle get" section.
+7. **Mix is moving up, fast.** M&M says **40–50 HP was ~69–70% of industry volume in Q1 F27** (vs ICRA's ~60% in FY24); post-GST, farmers bought more HP for the same rupees. Escorts' >40 HP share is ~66–68%, i.e. still slightly below the industry mix.
+8. **Exports peaked in FY22–FY23**, not FY26: CY2022 exports were 1.32 lakh (12.6% of volume) vs 1.06 lakh in FY26 (8.3%). The export-hub thesis has gone backwards for four years; the US tariff regime (Section 301 10% + possible 232 metal tariffs, and VST's "100% tariff bill" risk) and Kubota's own shrinking North American tractor market (Kubota FY26: "tractor market will continue to shrink") argue for caution.
+
+### 4.5(b) New primer issues (format as primer-issues.md)
+
+**escorts-kubota.html**
+- **Withdraw** the Part 3 §3.4 bullet calling the primer's "₹3,000–3,500 Cr" greenfield figure wrong: the FY26 AR itself says "approximately ₹3,000–3,500 crore" over 4–5 years (tractors, CE, components). Reword the primer as "₹2,000 Cr greenfield (CFO, Aug-2026) within ~₹3,000–3,500 Cr total capex over 4–5 years (AR FY26); 154 acres allotted by YEIDA on 24-Mar-2026; first commercial production 2029-30".
+- **Cash**: "~₹8,000 Cr+" → **~₹9.8k Cr of cash, deposits and treasury investments (31-Mar-2026, standalone)**; net cash ~₹9.6k Cr.
+- **Royalty/related party** (if the primer mentions Kubota royalties or technology fees): Kubota royalty is only ₹5.27 Cr (0.5%); the material flows are ~₹1,286 Cr of purchases from Kubota group and ₹218 Cr dividends; Harparshad & Co (Nanda family) receives ₹45.16 Cr of brand royalty.
+- **Capacity**: use **1,70,000 tractors/yr** (AR) and CE 10,000/yr at 47% utilisation.
+- **Kubota stake history**: 9.09% (2020) → 44.80% (Apr-2022, ₹1,872.7 Cr preferential + ~₹7,498 Cr open offer at ₹2,000/share) → 54.07% (Sep-2024).
+- **TREM**: the rule is now **notified** (not a draft) — <25 HP and >75 HP Stage V from 1-Oct-2026; 25–50 HP IIIAA Apr-2028; 25–75 HP Stage V Apr-2032.
+- **Share (update to the earlier bullet)**: after FY26's fall to 10.9%, Escorts' share rose to ~11.3% in H1 FY27 and 12.5% in Sep-26 (wholesale).
+
+**mahindra-and-mahindra.html**
+- Farm: add **core tractor PBIT 19.2% (Q1 F27)** vs standalone FES 18.5% and consolidated farm 14.2%; international farm subsidiaries lost ₹341 Cr in Q1 F27 (incl. impairment); Erkunt foundry exit.
+- Share: Q1 F27 44.9% is **−30 bp YoY** (Q1 F26 45.2%); Sep-26 month 41.96%.
+- FY25 FES base: **₹29,237 Cr revenue / ₹5,371 Cr PBIT (18.4%)** — the primer's "+35%" PBIT growth to FY26 is right (7,206/5,371 = +34.2%; M&M's normalised "+35%").
+
+**vst-tillers primer (if one exists; not checked this pass)**
+- VST tractors are **~5,900/yr (FY26)** and **−5.8% in H1 FY27**; the growth is in power tillers (+9% H1, +18% Q1) and weeders (+57% Q1). Targets: ~20,000 tractors by FY30 (5–6k exports); revenue ₹3,000 Cr by 2030.
+
+## 4.6 Additional source URLs fetched in Part 4 (23-Oct-2026)
+
+**Escorts Kubota**: Integrated AR 2025-26 https://www.bseindia.com/xml-data/corpfiling/AttachHis/aa4acd39-762b-4cf1-9948-7ad5537f6059.pdf · Q1 FY27 PPT https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83db41f6-839d-4bdf-8e9f-90a0ba8aee0f.pdf · Q1 FY27 transcript https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b0bc8e7-98f8-4775-b57c-5792702ddb96.pdf · Q4 FY26 PPT https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83e1e3d2-aaa9-4bb1-9e91-82b5cc802d99.pdf · Sep-26 sales https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd65df70-cb3a-4d5a-ae04-77eb615c232a.pdf · screener https://www.screener.in/company/ESCORTS/consolidated/
+
+**Kubota**: Q2 2026 results notes https://www.kubota.com/ir/financial/presentation/data/financial_results_26q2e(note).pdf · stake releases https://www.kubota.com/ir/news/data/nws20211118e.pdf and https://www.kubota.com/ir/news/data/nws20220413e.pdf
+
+**M&M**: Q1 F27 analyst-meet presentation https://nsearchives.nseindia.com/corporate/AmitDodani_30072026134935_PresentationtobemadeatAnalystMeet30072026.pdf · Q1 F27 transcript https://www.mahindra.com/sites/default/files/2026-08/M%26M%20Q1%20F27%20Analyst%20Meet%20-%20Transcript.pdf · Q1 F27 PR https://www.mahindra.com/sites/default/files/2026-07/Press%20Release%20Q1%20F27.pdf · Q4 F26 PR https://www.mahindra.com/sites/default/files/2026-05/1.%20Press%20Release%20on%20Audited%20Standalone%20and%20Consolidated%20Financial%20Results.pdf and https://www.mahindra.com/sites/default/files/documents/Q4FY2026/M%26M_Media_Release_Q4F26.pdf · Q2 F26 PR https://www.mahindra.com/sites/default/files/2025-11/SEIntimationPRonFinancials.pdf · Q4 F24 PR https://www.mahindra.com/sites/default/files/press-release/pdf/Press-Release-Q4-F24-v1_0.pdf · screener https://www.screener.in/company/M&M/consolidated/
+
+**VST Tillers**: Q1 FY27 transcript https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a9e7a60-1b40-4373-bbee-9321063b36f9.pdf · Q1 FY27 PPT https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a28d48bd-d03f-47dc-91ba-62794a100d0f.pdf · AR 2025-26 https://www.bseindia.com/xml-data/corpfiling/AttachHis/ec61097e-ebf7-467e-8dda-74bd6fad3297.pdf · Sep-26 sales https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a4a43ff-d087-4019-8638-6c929d91ccc5.pdf · screener https://www.screener.in/company/VSTTILLERS/ and /consolidated/
+
+**Industry / policy (secondary, fetched)**: cmv360 Sep-2026 OEM table https://www.cmv360.com/news/domestic-tractor-sales-fall-18-14-in-september-2026-sonalika-records-growth · TMA CY2022–23 monthly (tractorgyan) https://tractorgyan.com/tractor-industry-news-blogs/1345/a-closer-look-at-tractor-sales-in-india-2023 · TAFE FY26 https://tractorgyan.com/tractor-industry-news-blogs/2372/tafe-sold-214000-tractors-in-fy26-outpacing-industry-growth · autocarpro TMA exports (28-Dec-2022) https://autocarpro.in/news/tractor-industry-poised-to-see-lifetime-high-exports-in-fy23-hemant-sikka-113689 · MoA tractor series (mirror) https://dataful.in/datasets/3412/ · TREM final rules (Tribune via newswav, 2-Jul-2026) https://newswav.com/article/centre-s-anti-pollution-push-emission-norms-for-tractors-farm-equipment-tig-A2607_jGo25q · TREM notification note (6-Mar-2026) https://teamleaseregtech.com/updates/article/54427/morth-notified-regarding-the-implementation-trem-emission/ · Paddy MSP https://deccanchronicle.com/nation/centre-raises-msp-for-14-kharif-crops-1956491 and https://ianslive.in/cabinet-okays-increase-in-msp-for-14-kharif-crops--20260513155103 · Wheat MSP https://superkalam.com/current-affairs/01-10-2026/govt-approves-msps-for-rabi-crops-wheat-hike-at-17-year-low-pg5-3bc97ebc-06b7-4bec-9c95-44ba0c920690 · Monsoon 2026 https://www.uniindia.com/national/weather-monsoon-deficit/198635 · US Section 301 https://www.theweek.in/news/biz-tech/2026/07/24/us-tariffs-section-301-india.html · Rural Voice tag page (headlines Oct-2026) https://eng.ruralvoice.in/tag/tma-tractor-sales-data
+
+**Search-snippet only in Part 4 [V-snip]**: DownToEarth/DTN (2025 monsoon 108%); BusinessToday/GTRI (Section 122, effective 13.4%); Sonalika Sep-26 and H1 (>1 lakh) (autocarpro/themachinemaker); John Deere Financial India FY25 (Business Standard); Ximpex HS 8701; Kubota H1 growth rates (quartr/rttnews); FADA Aug-26 retail; Ind-Ra 2016 tractor-pool delinquency.
+
+**Not fetchable / not attempted**: nseindia.com (bot-blocked; nsearchives PDF did work); mausam.imd.gov.in (TLS chain fails in sandbox — not bypassed); MCA21 (login); tradestat.commerce.gov.in (form-driven, not attempted).
+
+*End of Part 4.*
