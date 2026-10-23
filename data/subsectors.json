@@ -1192,6 +1192,23 @@
         "Ashapura's Guinea bauxite"
       ],
       "published": "2026-10-22"
+    },
+    {
+      "name": "Telecom Equipment",
+      "slug": "telecom-equipment",
+      "file": "telecom-equipment.html",
+      "sector": "Telecom",
+      "subsector": "Telecom - Equipment & Accessories",
+      "companies": 4,
+      "accent": "#4B1A93",
+      "hook": "Glass booms, gear waits for orders: how AI data centres turned HFCL and STL into US hyperscaler fibre suppliers while Tejas lives through the cliff after BSNL's indigenous 4G campaign, BharatNet III's ₹1.39 lakh crore build tests government payments, and ITI survives on land sales.",
+      "tags": [
+        "AI fibre super-cycle",
+        "BSNL 4G cliff",
+        "BharatNet III",
+        "ITI and its land"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -2015,7 +2032,7 @@
       "sector": "Telecom",
       "sub": "Telecom - Equipment & Accessories",
       "companies": 4,
-      "report": null
+      "report": "telecom-equipment.html"
     },
     {
       "sector": "Telecom",
