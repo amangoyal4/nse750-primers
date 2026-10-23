@@ -1328,6 +1328,23 @@
         "Full yards, empty books"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Education",
+      "slug": "education",
+      "file": "education.html",
+      "sector": "Business Services",
+      "subsector": "Education",
+      "companies": 2,
+      "accent": "#578627",
+      "hook": "The exam gate and the visa gate: how PhysicsWallah turns a ₹4,100 app and a ₹36,000 classroom seat into ₹3,900 crore of revenue, how Crizac turns a British university's commission into a 27% margin, and why NTA exam calendars and UK visa rules set the volume for both.",
+      "tags": [
+        "One Vidyapeeth centre",
+        "The four EBITDAs of PW",
+        "Crizac and the UK visa machine",
+        "Online vs offline"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1437,7 +1454,7 @@
       "sector": "Business Services",
       "sub": "Education",
       "companies": 2,
-      "report": null
+      "report": "education.html"
     },
     {
       "sector": "Capital Goods",
