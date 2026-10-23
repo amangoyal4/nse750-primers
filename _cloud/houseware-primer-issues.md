@@ -30,3 +30,7 @@
 - **cello-world.html — stake-sale rumour specifics:** Livemint 4-Aug-2026 (Bain Capital); stock +18.6% on 5-Aug; company "not privy … speculative" (6-Aug).
 - **cello-world.html — QIP and steel plant:** QIP ₹737.32 Cr (3–5 Jul-2024); steel-bottle plant object ₹105.25 Cr delayed twice (deadline 30-Sep-2026).
 - **cello-world.html — guidance slippage list:** glass 80% by Q4 FY26 (missed), steel full-scale by Jul-2026 (slipped), FY27 +10–12% (withdrawn Aug-2026).
+
+## From primer-audit.mjs (2026-10-23, Phase 3)
+
+- **cello-world.html — layout:** primer-audit flags "no main{min-width:0}" (phone-overflow risk from the grid). Pre-existing; not fixed here. All hard format checks otherwise pass (73 KB, 6,320 words, 19 bars, refreshed field 2026-07-27).
