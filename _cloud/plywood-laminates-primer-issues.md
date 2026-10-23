@@ -105,3 +105,4 @@ Logged by the cloud run on branch claude/ss-plywood-laminates. Primers were NOT 
 - **Nepal:** if the primer or report mentions FIPPI's Nepal licence issue, state that **"Century Ply Industries Pvt Ltd" (Nepal) is not a Century Plyboards subsidiary or related party** per the FY26 AR.
 - **Peer framing (§08):** Greenply's MDF earns 17% vs Century's 7% (Q1 FY27). Greenpanel now prices at par with Century, and Century out-sold it domestically in the last two quarters.
 
+- **century-plyboards.html — format:** primer-audit flags no main{min-width:0} (phone overflow risk) — pre-existing; not fixed here.
