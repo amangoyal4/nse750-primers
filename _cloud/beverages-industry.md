@@ -949,3 +949,438 @@ Notes: Tata Consumer Q1 FY27 YoY = 5,349 ÷ 4,779 − 1 = +11.9%; quarter OPM = 
 10. Global bottler P/Es and CCH/CCEP financials [K].
 11. Historical events pre-2016 (§8, §G items 1–6) [K].
 12. Sugar ex-mill prices (₹5,400/qtl Aug-26; ~₹5,130 Oct-26) and 2025-26 output cut to ~306 lakh t [V-snip].
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (23-Oct-2026)
+
+Second, primary-source pass on Parts 1–3. Compiled 23-Oct-2026 (IST afternoon). **Parts 1–3 are not edited; every correction is in §4.0.** About 63 web calls were made this pass. Scratch notes and extracted text are in `/tmp/beverages-deep/` (not part of the repo).
+
+**What was fetched and read this session (primary unless marked):**
+- **VBL / BSE filings** (downloaded from bseindia.com AnnPdfOpen, text extracted, read): the Q2 CY26 results presentation (b9d45652…, 28-Jul-2026) and the Q2 CY26 call transcript (8835ebb1…, call 28-Jul, filed 4-Aug-2026), both read in full. Also the Q1 CY26 presentation (7fddf237…) and call transcript (5721108e…); the Q4 CY25 (d9b9c742…), Q3 CY25 (af429ead…), Q2 CY25 (7d8412b9…), Q1 CY25 (4d1fa273…), Q4 CY24 (70d6af86…) and Q3 CY24 (a727e407…) presentations; the **Annual Report 2025** (19bcfd65…, 26,681 text lines; MD&A, risk register, BRSR, notes 42–47 read); and four Reg-30 announcements: Jager Renewables (2cc60a64…, 7-Oct-2026), **Crickley Dairy update (86447282…, 30-Sep-2026)**, the trading-window closure (86b68248…, 25-Sep-2026) and the COO resignation (6369471e…, 24-Sep-2026).
+- **Screener** consolidated and standalone pages for VBL (curl, 23-Oct-2026). Screener is an aggregator of company filings, so its figures are near-primary.
+- **Rating agencies** (crisil.com rationale HTML pages): VBL, **21-Apr-2026**; **Jubilant Beverages Ltd, 7-May-2026**, which carries HCCB's financials and the HCCH deal funding.
+- **Government:** **Notification 9/2025-Integrated Tax (Rate), 17-Sep-2025** (gazette text, via the taxo.online mirror of the CBIC PDF); **TradeStat EIDB** (tradestat.commerce.gov.in), HS 2201, 2202, 220210, 220299 and 21069011/19, exports and imports FY23–FY26; **IMD Statement on the Climate of India during 2025** (IMD PDF hosted on wmo.int).
+- **Reliance Industries** (ril.com): Q1 FY27 media release, **Q1 FY27 analyst presentation (17-Jul-2026)**, FY26 analyst presentation (24-Apr-2026) and Q4 FY26 media release. **RIL's Q2 FY27 results are not on ril.com as of 23-Oct-2026**: the financial-reporting page lists Q1 FY27 as its latest.
+- **The Coca-Cola Company** (investors.coca-colacompany.com): the Q2 2026 earnings release, and the 29-Sep-2026 notice that **Q3 2026 results come out on 27-Oct-2026**.
+- **Global bottlers:** Coca-Cola HBC FY2025 results (Athens Exchange filing PDF); CCEP FY2025 preliminary results (LSE RNS 2444T, 17-Feb-2026); Coca-Cola FEMSA 4Q25 earnings-call transcript (company IR PDF).
+- **Secondary / snippet only (tagged [V-snip]):** the HCCB refranchising article (Outlook Business, 12-Jan-2024; read via fetch); ISMA sugar estimates; IMD 2024 heat-wave counts and the 2026 monsoon end-of-season summary (the IMD site failed TLS and returned 503); Tata Consumer Q1 FY27 RTD growth; Parle Agro FY25 (Tofler via PTI); KOF FY25 headline; CCEP segment detail; the FSSAI energy-drink order (fssai.gov.in failed TLS verification from this sandbox, and TLS checks were not bypassed).
+
+Tag convention as in Part 1. **[V-P]** means verified this session from a PRIMARY document: a company filing, presentation or transcript, government data, a regulator or a rating agency. **[V-agg]** means verified this session from an aggregator (screener). **[V-prior]** means verified in the first pass but not re-fetched in this one.
+
+---
+
+## 4.0 Supersedes (corrections and upgrades to Parts 1–3; the writer applies these)
+
+| # | Where in Parts 1–3 | Old value / status | New value / status | Source (this session) |
+|---|---|---|---|---|
+| S1 | Header "Still listed", §12 item 6, §B4, §G-29 | Crickley Dairy (ZAR 238 mn) "referred to AFSA — i.e. in dispute/arbitration; content of PDF not read" | **The agreement is terminated.** The condition precedent was not met by the long-stop date of **30-Sep-2026**, the SPA dated **17-Mar-2026** was terminated, and the matter went to the Arbitration Foundation of Southern Africa. Opposing parties: Crickley Dairy (Pty) Ltd and Clark Holdings (Pty) Ltd. EV **ZAR 238 mn = ₹131.5 Cr at ₹5.52/ZAR**. Company: "exposure is limited up to the … acquisition cost". Treat it as a **failed deal, not an acquisition in progress**. BevCo's South African value-added-dairy entry now depends on the **CALPIS/Cream Bell** route or a new target. | [V-P] BSE 86447282…, 30-Sep-2026 |
+| S2 | §2.9 item 3 | Crickley SPA date "17 March 2025" was a likely typo | **17-Mar-2026 confirmed** | [V-P] same filing |
+| S3 | §5.2-1, §2.3, §H-4, §3.6-4 | Jubilant Bhartia price "~₹12,500 Cr [V-snip]"; announcement "December 2023 vs 2024" conflict | **Outgo ₹11,724 Cr for 40% of HCCH**, i.e. ~₹29,300 Cr for 100% [E]. Funding: ₹2,650 Cr zero-coupon NCDs at JBL + ₹3,000 Cr debt at parent Jubilant Bevco + **₹4,628 Cr CCPS from Goldman Sachs entities** + promoter OCRPS for the rest. **Completed 22-Jul-2025.** Announced **11-Dec-2024**; the PTI wire URL carries that date [V-snip], so **"Dec-2023" is wrong.** | [V-P] CRISIL rationale, Jubilant Beverages, 7-May-2026 |
+| S4 | §5.2-1, §6, §A3, §2.3, §3.1/3.2 | HCCB FY25 EBITDA margin 13.2% (CFO via press) | **CRISIL: ~12.9% FY25 (12.7% FY24)**. FY25 revenue ₹12,751 Cr and FY24 ₹14,022 Cr confirmed. The two margins are on different bases; quote "~13%". CRISIL: FY26 was "impacted by unseasonal weather … heavy rains and extended monsoon". HCCB's own remaining territory is "some states in West and South India". | [V-P] CRISIL 7-May-2026 |
+| S5 | §8-12, §G-21, §2.1 identity | "CRISIL upgrade to AAA" placed in CY25 / dated "21-Dec-2025" in the timeline | The upgrade rationale is dated **18-Feb-2025** (crisil.com rationale index) [V-snip]; reaffirmed **21-Apr-2026** [V-P]. The 21-Dec-2025 date belongs to the **Twizza SPA only**. | [V-P] CRISIL 21-Apr-2026; index [V-snip] |
+| S6 | §3 driver 3, §9 / Part 2 KPIs, §3.4 primer issue, §H-9 | Primer: "2,800+ distributors" (unverified) | **2,353 primary dealers/distributors (FY2025; 2,275 in FY2024)**, standalone/India BRSR. **Top-10 distributors = 17.3% of sales (14.3% in FY24); 100% of sales go through primary distributors.** Outlets, visi-coolers and trucks are **still not disclosed** in AR 2025. | [V-P] AR 2025, BRSR Principle 1 table |
+| S7 | §9.3 PET sensitivity | "₹15/kg on ~4–5 lakh t of resin ≈ ₹600–750 Cr a year [E; FLAG]" | VBL consumed **2,08,080 t of PET bottles in 2025** (1,81,887 t in 2024; recycled 100% under EPR) → **₹15/kg ≈ ₹310 Cr a year**, ~6% of CY25 EBITDA, before stock-up and pass-through [E on V input]. rPET used: ~22,000 t. | [V-P] AR 2025 ESG + BRSR P2 |
+| S8 | §7.1 GST table, §E-11, §H-18, §3.6-3 | Packaged water and flavoured milk 18%/12% → 5% tagged [K] | **Notification 9/2025-IT(Rate), effective 22-Sep-2025**. Schedule I (5%) covers **HS 2201** (waters incl. mineral and aerated, **not sweetened or flavoured**, i.e. all packaged drinking water incl. 20 L), **2202 99 30 "beverages containing milk"**, 2202 99 20 fruit-pulp/juice drinks (non-carbonated), 2202 99 plant-based milk drinks, 2202 99 10 soya milk drinks, 2009 juices and tender coconut water. Schedule III (40%) covers **2202 10** sweetened/flavoured waters incl. aerated, **2202 91 00 / 2202 99 90 "other non-alcoholic beverages"**, **2202 99 90 caffeinated beverages** and carbonated fruit drinks. The new rates are now [V-P]; the pre-reform rates stay [K]. | [V-P] gazette text |
+| S9 | §0, §5.1, §5.2-2, §B1, §2.4, Part 3 | Campa/RCPL figures sourced to indianretailer [V] / [V-snip] | Upgraded to the **company's own documents**. FY26: RCPL gross revenue **₹22,000 Cr (2×)**; Q4 FY26 ₹7,350 Cr (2.2×); **Campa ₹4,700+ Cr gross, "India's 4th largest CSD brand"**; RCPL "India's **3rd largest branded water player**"; beverages **3.2×**; greenfield beverage plants in **12 states**. Q1 FY27: RCPL **₹8,600 Cr+ (2.1×)**; **Campa ~₹2,900 Cr, ">50% of FY26 sales in Q1"**; beverages **2.4×** YoY; **"#3 NARTD player in India"** (new claim); 5,000+ distributors; 3 mn+ outlets; >80% external channels; 40+ markets. **RCPL was demerged from RRVL** (RIL reports RRVL growth "adjusted for RCPL demerger"). The §2.4 "inconsistency" is resolved: ₹2,900 Cr ÷ ₹4,700 Cr = 62%, i.e. ">50%". | [V-P] RIL analyst presentations 24-Apr and 17-Jul-2026; Q1 FY27 media release |
+| S10 | Header table, §12-4, §H-20 | Coca-Cola Q3 2026 "expected ~21-Oct" | **KO reports Q3 2026 on Tue 27-Oct-2026, pre-market** (notice of 29-Sep-2026). Nothing is out yet. Latest primary India commentary is **Q2 2026**: unit case volume +5% "led by India, China, the US and Brazil"; Asia Pacific volume +8% with price/mix −9% ("affordability initiatives"); **"lost value share in total NARTD beverages, as gains in Japan and China were more than offset by a loss in India"**; Bottling Investments volume +5% "largely due to growth in India". | [V-P] KO IR |
+| S11 | Header table, §12-3 | RIL Q2 FY27 "~mid/late Oct [E; not checked]" | **Checked: not published on ril.com as of 23-Oct-2026.** Latest is Q1 FY27 (17-Jul-2026). | [V-P] ril.com financial-reporting page |
+| S12 | §5.1, §5.2-4, §2.1 bottom-up, §H-8 | Parle Agro "~₹3,000–4,000 Cr [K/E]" | **FY25 revenue ₹3,284.1 Cr (+5%; FY24 ₹3,126.1 Cr); PAT ₹115.4 Cr (FY24 ₹17.3 Cr); exports ₹30.1 Cr; A&P ₹256.8 Cr** | [V-snip] Tofler via PTI/Business Standard, Dec-2025 |
+| S13 | §5.1, §2.2 Tata | NourishCo: "lost share to Campa … RTD revenue −11% in a quarter" (2024) | **Q1 FY27: RTD revenue +41%** (premiumisation, new launches); India business +13%. The 2024 setback has reversed. | [V-snip] Tata Consumer Q1 FY27 coverage, 24-Jul-2026 |
+| S14 | Part 2 5-yr table | Company EBITDA CY23 "~3,600 [V chart]"; CY22/CY21 chart-read | **CY23 company EBITDA ₹3,609.5 Cr** (₹36,094.85 mn; Q4 CY24 PPT); CY24 ₹4,711.1 Cr; CY25 ₹5,049.4 Cr. CY21/CY22 remain chart-read (₹17 bn / ₹28 bn). | [V-P] Q4 CY24 and Q4 CY25 PPTs |
+| S15 | §4.3, §H-11 | "Utilisation is not disclosed"; capacity "not disclosed" | Capacity in cases is still not disclosed, but VBL said **"annual production capacity in India increased during the season of CY2024 by ~45% over the capacity of season CY2022"**. CY24 greenfields: Supa ₹1,000 Cr, Gorakhpur ₹1,100 Cr, Khordha ₹500 Cr, DRC ₹600 Cr; four more in CY25 for ₹1,700 Cr. India volume CY22 → CY25 was 653 → 839 (+28%) **against capacity up ~45% by CY24 plus four more plants in CY25** → India utilisation of peak capacity has almost certainly **fallen** since CY22 [E]. | [V-P] Q4 CY24 PPT |
+| S16 | §2.3, §3 driver 1, §A1 | 2025 = "unprecedented rainfall throughout the year" (company words only) | IMD confirms: **2025 pre-monsoon (Mar–May) rainfall was 142% of LPA**; annual 110%; monsoon 108%; post-monsoon 111%; 2025 heat waves claimed only **~35 lives** (8th-warmest year, +0.28 °C; 2024 was the record at +0.65 °C). This is the meteorological cause of **Q2 CY25 India volume −7.1%**. | [V-P] IMD Statement on Climate of India 2025 |
+| S17 | §3 driver 1, §12-1, §A1 | 2026 monsoon "42% below normal by late June"; Skymet "13% below Jun–Jul" | End of season (30-Sep-2026): **87% of LPA (759.4 mm), the 4th-lowest since 2001**; south peninsula 76% and north-east 74% of LPA; 17 of 36 subdivisions deficient. A dry Q3 → supportive for VBL's Q3 CY26 India volume. | [V-snip] reports citing IMD salient features (IMD PDF not retrievable) |
+| S18 | §2.4, §H-16 | HS 2201/2202 trade "not fetched" | Filled. **FY26: 2202 exports ₹760.4 Cr ($86.7 mn, −8.3%); 2202 imports ₹2,352.6 Cr (+11.0%); 2201 exports ₹9.2 Cr, imports ₹47.1 Cr.** India is a **net importer of finished soft drinks (~₹1,600 Cr a year)**. Imports are mostly 2202 99 ("other", ₹2,014 Cr). Imports of 2202 10 (sweetened/flavoured waters) jumped **5.2× to ₹303 Cr** in FY26. Concentrate (2106 90 19) imports are tiny (₹37 Cr), i.e. **concentrate is made domestically**. | [V-P] TradeStat |
+| S19 | Part 2 / §9.1 | Q3 CY25 realisation and margins not given | Q3 CY25: realisation **₹178.8/case vs ₹179.6** (total basis; "higher mix of water in International"); **gross margin 56.7% (+119 bp)**; EBITDA ₹1,147.4 Cr (−0.3%; **23.4%**, −53 bp); PAT ₹745.2 Cr (+18.5%). 9M CY25 low/no-sugar share **~56% consolidated and ~45% in India**. | [V-P] Q3 CY25 PPT |
+| S20 | §9.1 low/no-sugar | 73% H1 CY26 (consolidated) | Keep, but add that **India was only ~45% at 9M CY25** (vs 56% consolidated). The H1 CY26 jump to 73% implies India's mix rose by roughly 25–30 points in about 9 months, which fits "converted the entire portfolio" (reformulated regular SKUs) [E]. | [V-P] Q3 CY25 PPT; Q2 CY26 call |
+| S21 | §2.3 table | Q2 CY24 base volumes not given | **Q2 CY24 = 401.6 mn cases** (Q2 CY25 −3.0%, India −7.1%, international +15.1%); Q1 CY24 240.2 mn (Q1 CY25 India organic +15.5%); Q3 CY24 267.5 mn; Q4 CY24 215.1 mn, incl. **South Africa 43.0 mn + DRC 7.8 mn**; South Africa trailing four quarters to Mar-2025 = **141 mn cases** | [V-P] Q1/Q2 CY25 and Q4 CY24 PPTs |
+| S22 | §10.1, §2.7, Part 3 grid, §H-19 | CCH revenue "~€10.8–11.5 bn [K]"; EBIT "~11–12% [K]"; CCEP "~€20.9 bn [K]", "~13% [K]" | **CCH FY25:** 2,997.4 mn UC (+2.8%), NSR **€11,604.5 mn**, NSR/UC €3.87, **comparable EBIT €1,356.2 mn = 11.7%** (reported 11.3%), comparable EPS €2.724, ND/EBITDA 0.7×, DPS €1.20. **CCEP FY25:** **3,958 mn UC**, revenue **€20,901 mn**, comparable OP **€2,808 mn (13.4%)**, comparable diluted EPS €4.11. | [V-P] Athex filing; LSE RNS |
+| S23 | §5.2-1 refranchising mapping, §H-5, §3.6-5 | Buyer–territory mapping partly [K] | **12-Jan-2024 company statement:** Rajasthan → **Kandhari Global Beverages**; Bihar → **SLMG Beverages**; North-East + parts of West Bengal → **Moon Beverages**. Jharkhand → Moon (Dec-2024) [V-snip]; North Gujarat + Diu → Kandhari (CCI-cleared Apr-2025) [V-prior]. HCCB then had 16 factories and 60 products; **FY23 revenue ₹12,735 Cr, PAT ₹809 Cr**. | [V-snip] Outlook Business (company statement quoted) |
+| S24 | §10.2, §H-21, §3.4 primer issue | "Largest vs second-largest" conflict | **CRISIL (21-Apr-2026): "the second largest franchisee for PepsiCo outside the US and the largest in India"**, and the same in VBL's PPT snapshot. Use "PepsiCo's second-largest franchisee outside the US". The primer's "largest" is wrong. | [V-P] CRISIL; Q2 CY26 PPT |
+| S25 | §5.2-1 / §2.3 | HCCB's remaining footprint unclear | CRISIL: HCCB has "distribution rights in some states in West and South India"; **37 beverage products** (60 in Jan-2024: portfolio pruned); low debt; liquid surplus ₹49 Cr (Mar-25); **no dividend expected from HCCH to JBL**. | [V-P] CRISIL 7-May-2026 |
+| S26 | §6 and §C.5 regional per-case | India ~₹45 / international ~₹35 EBITDA per case [E] | Recomputed on screener standalone vs consolidated: **CY23 India OP ₹41.5/case vs international ₹37.3; CY24 ₹45.8 vs ₹34.7; CY25 ₹44.9 vs ₹34.9; Q2 CY26 India ₹54.2 vs international ₹38.4.** Gap widened from ~₹4 (CY23) to ~₹10/case after BevCo, a ~80% own-brand, low-margin business per Q4 CY24 PPT. Still [E]; inputs [V-agg]. | §4.2 table |
+| S27 | §4.1 sugar | "2025-26 output cut to ~306 lakh t (from 343)" | ISMA's first advance estimate was **343.5 lakh t gross / 309.5 lakh t net of ~34 lakh t ethanol diversion** (vs 261.1 net in 2024-25) [V-snip, Nov-2025]. "306" matches a later **net** cut, not gross → label the basis. No official series fetched. | [V-snip] |
+| S28 | Part 2 "VBL India EBA" history | — | AR 2025 risk table: the earlier EBA had been extended to **30-Apr-2039 "from October 2, 2022"**. So the licence was lengthened twice in four years (2022 → 2039 → 2049). | [V-P] AR 2025 |
+| S29 | §3 driver 5, §B5 | — | CRISIL: 26 states + 6 UTs = all of India **"except Andhra Pradesh, Jammu and Kashmir and Ladakh"**. That is where the other PepsiCo bottler(s) sit, i.e. the ~10% of PepsiCo India volume VBL does not bottle. | [V-P] CRISIL |
+| S30 | Part 2 identity | Employees 16,300+ | Keep (group). Add: **10,654 permanent employees on the standalone rolls (31-Dec-2025)**; BRSR total employees 14,007 (standalone). | [V-P] AR 2025 |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Fetched?" = fetched this session. "Agrees?" = agrees with Parts 1–3. **[V-P] count: 36 of 40 are verified this session from primary sources** (rows marked V-P). Two rows are [V-agg] (screener) and two are [V-prior].
+
+| # | Figure | Value | Primary source (URL / doc) | Fetched? | Tag | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|---|
+| 1 | VBL CY25 net revenue | **₹21,685.4 Cr** (+8.4%) | Q4 CY25 PPT, BSE d9b9c742… ("Rs. 216,853.8 million") | Yes | V-P | Yes. CRISIL shows ₹21,714 Cr on its own basis, ignore. |
+| 2 | VBL CY25 volume | **1,213.1 mn UC** (+7.9%) | Q4 CY25 PPT | Yes | V-P | Yes |
+| 3 | India / International CY25 volume | **839 / 374 mn UC** (India +2.2%, Intl +23.3–23.4%; Intl = 30.8% of volume) | Q2 CY26 PPT chart; CRISIL 21-Apr-2026 | Yes (2 sources) | V-P | Yes |
+| 4 | VBL CY25 EBITDA / margin | **₹5,049.4 Cr / 23.3%** | Q4 CY25 PPT ("50,493.7 million") | Yes | V-P | Yes. CRISIL's 24.5% is its own adjusted basis: never quote it next to 23.3%. |
+| 5 | VBL CY25 PAT | **₹3,062.0 Cr** (+16.2%) | Q4 CY25 PPT; screener | Yes (2) | V-P | Yes |
+| 6 | VBL Q2 CY26 net revenue | **₹8,451.2 Cr** (+20.4%) | Q2 CY26 PPT b9d45652…; transcript 8835ebb1… | Yes (2) | V-P | Yes |
+| 7 | VBL Q2 CY26 EBITDA / margin | **₹2,343.0 Cr / 27.7%** (−76 bp; India +38 bp) | Q2 PPT; transcript | Yes (2) | V-P | Yes |
+| 8 | VBL Q2 CY26 PAT | **₹1,525.4 Cr** (+15.1%) | Q2 PPT | Yes | V-P | Yes |
+| 9 | Q2 CY26 volume | **466.7 mn UC** (+19.8%); India **346.5** (+14.4%); Intl 120.2 (+38.4%, incl. Twizza 11.8) | Q2 PPT | Yes | V-P | Yes |
+| 10 | India realisation per case (beverages), Q2 CY26 | **₹169.6** (−0.6%); consolidated ₹175.3 (+1.2%) | Q2 PPT | Yes | V-P | Yes |
+| 11 | Gross margin Q2 CY26 / CY25 | **55.0% / 55.2%** | Q2 PPT; Q4 PPT | Yes | V-P | Yes |
+| 12 | Low/no-sugar share | **~73% (H1 CY26)**; 59% CY25; 53% CY24; 42% CY23; India ~45% (9M CY25) | Q2 PPT; Q4 CY25/CY24 PPTs; Q3 CY25 PPT | Yes | V-P | Yes; adds CY23 and India |
+| 13 | Net debt (Jun-26) / India surplus cash | **₹373 Cr / ₹1,494 Cr** | Q2 PPT; transcript | Yes | V-P | Yes |
+| 14 | Capex H1 CY26 / Twizza | **~₹950 Cr** net capitalised (brownfield ₹200, Zimbabwe snacks ₹100, market infrastructure ₹400); **Twizza ₹1,131.4 Cr** inorganic; CWIP ₹490 Cr | Q2 PPT | Yes | V-P | Yes |
+| 15 | Plant count | **53 (38 India + 15 international)**; backward integration 3 exclusive + 19 integrated | Q2 PPT | Yes | V-P | Yes |
+| 16 | PepsiCo India EBA | **Term to 30-Apr-2049 (from 30-Apr-2039)**; SPV-only restriction removed; signed **21-May-2026** | Q2 PPT "Key developments"; transcript | Yes | V-P | Yes |
+| 17 | Kenya DFIKL | **US$32 mn (~₹305 Cr at ₹95.30)**; promoter-group company; DFIKL net revenue >₹300 Cr (FY Mar-26) | Q2 PPT | Yes | V-P | Yes |
+| 18 | Crickley Dairy | **Terminated** (CP not met by 30-Sep-2026); AFSA; EV ZAR 238 mn / ₹131.5 Cr | BSE 86447282… | Yes | V-P | **No → S1** |
+| 19 | Next result | **Board 30-Oct-2026** (Q3 CY26 + 3rd interim dividend) | BSE cea3f728… (first pass). Today's trading-window notice (86b68248…) said the date would be "intimated in due course". | Partly | V-prior | Yes |
+| 20 | Primary distributors (India) | **2,353** (FY24: 2,275); top-10 = 17.3% of sales | AR 2025 BRSR | Yes | V-P | **No → S6** |
+| 21 | Contingent liabilities (consolidated) | **₹310.4 Cr (Dec-25)** vs ₹256.6 Cr (Dec-24); capital commitments ₹3,004.8 Cr | AR 2025 notes 43–44 | Yes | V-P | New |
+| 22 | PET bottles consumed | **2,08,080 t (2025)**; 1,81,887 t (2024) | AR 2025 ESG/BRSR | Yes | V-P | **No → S7** |
+| 23 | CRISIL rating | **AAA/Stable reaffirmed 21-Apr-2026**; debt/EBITDA 0.38×; gearing 0.11× (CY25); rated bank lines ₹2,150 Cr | crisil.com rationale | Yes | V-P | Yes (date refined, S5) |
+| 24 | "Second-largest PepsiCo franchisee outside the US; largest in India"; >90% of PepsiCo India beverage sales | as stated | CRISIL; Q2 PPT | Yes (2) | V-P | Resolves §H-21 |
+| 25 | Market cap / P/E | **₹1,32,702 Cr / 39.2× TTM** (price ₹393; 52-wk ₹381–556) | screener.in (curl 23-Oct-26) | Yes | V-agg | Yes |
+| 26 | ROCE CY21–CY25 | **17 / 27 / 29 / 25 / 20%** (standalone 12 / 23 / 26 / 24 / 19%) | screener ratios | Yes | V-agg | Yes |
+| 27 | GST on CSD / caffeinated / other NA beverages | **40% (Schedule III)** from 22-Sep-2025 | Notification 9/2025-IT(Rate) | Yes | V-P | Yes |
+| 28 | GST on packaged water, milk beverages, juice drinks | **5% (Schedule I)** | same | Yes | V-P | **Upgrades [K] → S8** |
+| 29 | Campa FY26 gross sales | **₹4,700+ Cr**; "India's 4th largest CSD brand" | RIL FY26 analyst PPT (24-Apr-2026) | Yes | V-P | Yes (source upgraded) |
+| 30 | Campa Q1 FY27 / RCPL Q1 FY27 | **~₹2,900 Cr / ₹8,600 Cr+** (2.1×); beverages 2.4× | RIL Q1 FY27 analyst PPT | Yes | V-P | Yes (source upgraded) |
+| 31 | RCPL FY26 revenue | **₹22,000 Cr gross (2×)** | RIL FY26 PPT | Yes | V-P | Yes (was V-snip) |
+| 32 | HCCB FY25 revenue / EBITDA margin | **₹12,751 Cr / ~12.9%** (FY24 ₹14,022 Cr / 12.7%) | CRISIL, Jubilant Beverages, 7-May-2026 | Yes | V-P | Revenue yes; margin 12.9 vs 13.2 (S4) |
+| 33 | Jubilant 40% of HCCH | **₹11,724 Cr; completed 22-Jul-2025** | CRISIL 7-May-2026 | Yes | V-P | **No → S3** |
+| 34 | KO Q2 2026 India | Volume growth leader; **lost value share in India NARTD** | KO Q2 2026 release | Yes | V-P | New |
+| 35 | KO Q3 2026 date | **27-Oct-2026** | KO IR notice 29-Sep-2026 | Yes | V-P | **No → S10** |
+| 36 | PepsiCo Q3 2026 | Net revenue **$25.27 bn (+5.6%)**, organic +3.1%; FY core cc EPS guide +1–2% | SEC 8-K Ex-99.1 (first pass) | No | V-prior | — |
+| 37 | CCH FY25 | **2,997 mn UC; €11.60 bn; comparable EBIT 11.7%** | Athex filing | Yes | V-P | **Upgrades [K] → S22** |
+| 38 | CCEP FY25 | **3,958 mn UC; €20.90 bn; comparable OP €2.81 bn (13.4%)** | LSE RNS 2444T | Yes | V-P | Upgrades [K] |
+| 39 | HS 2202 trade FY26 | **Exports ₹760.4 Cr; imports ₹2,352.6 Cr** | TradeStat EIDB | Yes | V-P | **Fills §H-16** |
+| 40 | IMD 2025 pre-monsoon rain / heat-wave deaths | **142% of LPA / ~35 deaths** | IMD Statement on Climate of India 2025 | Yes | V-P | **Fills part of §H-17** |
+
+Count: V-P = rows 1–18, 20–24, 27–35, 37–40 = **36 primary [V] figures** (all fetched this session; rows 3 and 24 are confirmed by two primary sources, the company and CRISIL). Not V-P: rows 19 and 36 (V-prior) and rows 25 and 26 (V-agg). Snippet-level items (2026 monsoon 87% LPA, Parle Agro, Tata RTD +41%, ISMA) were deliberately kept **out** of the 40.
+
+**Where sources conflict, and which to prefer:**
+- **EBITDA margin: VBL 23.3% vs CRISIL 24.5% (CY25).** Prefer the company figure. CRISIL adjusts (likely adds back some items and treats leases differently) and also shows CY24 as 24.1%/24.5% in the same document, so its internal series is inconsistent.
+- **HCCB margin: 13.2% (CFO, press) vs 12.9% (CRISIL).** Both are second-hand views of the RoC filing. Prefer CRISIL (it publishes the basis) but write "~13%".
+- **Campa "₹4,700+ Cr" vs ">50% of FY26 sales in Q1".** Same company, consistent (62%). The word "sales" is **gross**. Never compare it with VBL's net revenue without a ~25–35% haircut for GST at 40% plus trade schemes [E].
+- **Jubilant price: ₹11,724 Cr (CRISIL) vs ₹12,500 Cr (press).** Prefer CRISIL: it lists the funding sources, which add up.
+- **"Largest" vs "second-largest".** Prefer CRISIL plus the company snapshot: "second-largest outside the US".
+
+## 4.2 Company packs (primary-source upgrade)
+
+### 4.2.1 Varun Beverages (MEMBER) — management-commentary digest
+
+**Sources:** Q2 CY26 call (28-Jul-2026; Ravi Jaipuria, Chairman; Varun Jaipuria, Executive Vice Chairman; Raj Gandhi, President and WTD) and Q1 CY26 call (27-Apr-2026). Both are BSE-filed transcripts read in full this session [V-P]. Guidance below is paraphrased, with the call date in brackets. VBL gives **no numeric guidance** for revenue, margin or EPS; what follows is everything directional it said.
+
+**A. Volume and demand**
+1. **India: "20%+" every month since March except April** (≈flat, "heavily rained", El Niño). Post-June: "we are looking at a 20% plus growth at least minimum"; "July seems to be continuing at the same trend" (28-Jul). Q2 CY26 India came in at +14.4%.
+2. **Long-run India: "double digits for the next 5–10 years at least"** (27-Apr; repeated 28-Jul). The 2025 slowdown was "one exceptional year", the weather.
+3. **Industry: "~20% or so" in H1 2026.** The arithmetic: VBL ~15%, Campa "50% or doubling", Coke "also growing", plus B-brand cannibalisation (28-Jul). Management stressed it has no hard data: "we do not go into market share".
+4. **Seasonality is shifting:** May used to be ~15% of the year (2024 and before) but was not in 2025 or 2026 (Varun Jaipuria, 28-Jul).
+5. **International: every market growing fast except Zambia** ("slightly slower and a very small market"). Zimbabwe "started firing now" after its 2025 sugar-tax disruption (28-Jul). In Q1, international was +21.4%, with South Africa close to the average and Morocco the only weak market (27-Apr). Analyst arithmetic (Axis, unchallenged): Q2 international **ex-Twizza ~+25%**.
+6. **Capacity: "even if we get a 50% growth, we can comfortably do it without adding any capacity"** (27-Apr). "Adequate capacities" (28-Jul).
+7. **Outlets and coolers (first company numbers this pass):** outlet base **"about 4 million"**, adding **"close to half a million"** (>10%) in CY26. **Visi-coolers "close to a million plus"** (27-Apr). This supersedes the primer's unverified "~1.1 mn coolers": the primer is roughly right but should read "~1 mn+".
+
+**B. Price, pack and mix**
+8. **₹10 tier: "less than 2% of our total volume"**, used only "to make sure our distributors remain with us" (27-Apr). It is "a non-profitable category for us"; VBL is "not interested to get into it" while growing 20%+ (28-Jul).
+9. **₹20 pack upsized 250 → 400 ml.** "Larger recruitment of consumers"; the full effect of upsizing was in Q1 and was absorbed by volume and efficiency (27-Apr). Volume is reported in 8-oz cases; physical packs "also" grow (28-Jul).
+10. **India realisation:** −4% (Q4 CY25) → −1.5% (Q1 CY26) → −0.6% (Q2 CY26). The improvement came from premiumisation, **dairy (+60–70%, "realisations nearly 3× of the normal level")**, and fewer discounts. It "might even become lower" depending on the season; 1–2% "we can cover easily" (27-Apr).
+11. **Pricing in the West Asia shock:** "our pricing would remain same"; some dairy/water/soda prices went up and then returned to old levels (28-Jul). VBL's lever is **cutting trade discounts**, not list prices (27-Apr). B-brands have also cut discounts rather than raise prices.
+12. **Category growth (28-Jul):** VAD **>40%**, Nimbooz **>30%**, hydration/dairy/juice "3–4×" the company average. Q1 (27-Apr): dairy 60–70%, **Tropicana PET >100%**, **Adrenaline Rush at ₹60 (mid-priced energy)** "phenomenal", **Sting Classic** launched in cans and (from April) PET.
+13. **Water: "we do not over-push water … water is like a commodity"**; no discount-led water volume (27-Apr).
+14. **Low/no-sugar: "we have converted the entire portfolio already"**, so no sugar-cost exposure going forward (Varun Jaipuria, 28-Jul).
+
+**C. Costs and margin**
+15. **Inventory: weighted-average costing** (Raj Gandhi). "A reasonable portion" of the higher West Asia costs entered Q2; "the balance would come in the Q3"; "overall effect would not be large" (28-Jul). VBL carries **~6 months of inventory in international markets** ("we might be the only company which is holding 6 months inventory … other people will blink before we blink") (27-Apr).
+16. **Margin stance:** "We can comfortably maintain our margins even in a year which is the worst year for the geopolitical reasons … when these wars stop … our margins cannot get worse. It will only get better" (28-Jul). The **only unhedgeable cost is transport/fuel** (27-Apr).
+17. **Plant economics:** in the new large plants, "cost of production is considerably half" of the old small plants; "a couple of high-cost plants, which were very old and small" have been shut (27-Apr).
+18. **Sugar:** India sugar "reasonably constant"; international sugar down, a gain (27-Apr).
+19. **Cans:** 1–2% of business; a can shortage hit Adrenaline Rush and Sting cans in Q1/Q2 (both calls).
+
+**D. Capex, M&A and new businesses**
+20. **India capex CY26: "less than ₹500–600 Cr … most probably … only one plant"** (27-Apr). H1 CY26 net capitalised was ~₹950 Cr group-wide, of which ~₹400 Cr was market infrastructure. CWIP ₹490 Cr is for the South Africa expansion and a **Kenya CSD line** (28-Jul).
+21. **Twizza: prior full-year revenue ~₹800 Cr; paid ~₹1,140 Cr** (EV/sales ~1.4× [E]). Margins "a bit too early … we are going to correct the margins". Twizza solves BevCo's production constraint (27-Apr). Q2: 11.8 mn cases, dilutive (−76 bp group margin).
+22. **Crickley Dairy: ~₹160 Cr revenue** (27-Apr). The deal has since **lapsed** (S1).
+23. **Kenya (DFIKL):** ready GTM for "expansion into carbonated soft drinks and energy drinks" (28-Jul). A related-party purchase at net-asset value from an independent valuer.
+24. **CALPIS (Asahi):** "our starting point is Calpis right now"; no decision on other Asahi lines or on RTD tea/coffee (28-Jul).
+25. **Alcobev:** "too early"; "we are not looking at Bira"; the ex-Diageo hire "is for the group … not alcohol only" (28-Jul). The SPV-clause removal ("we have just got the clearance from PepsiCo") is what allows new categories.
+26. **Snacks (Africa):** Q1 CY26 **₹112 Cr vs ₹52 Cr**; ~₹350 Cr in CY25; growing "about 50%" (both calls).
+
+**E. Regulation**
+27. **FSSAI "energy" label:** "temporary effect" in June–July; volume shifted to CSD; with new labels "the volumes are coming back"; "does not change anything for us" (28-Jul).
+28. **GST 2.0 impact "very minimal"** (28-Jul).
+
+**Top analyst Q&A points (who asked, and what management would not say):**
+- **Abneesh Roy (Nuvama):** whether Campa's ">50% of FY26 in Q1" means VBL's territories took more rain. Answer: Campa is expanding its territory; growth from "same territory or expanded territory" is hard to separate.
+- **Percy Panthaki (IIFL):** India's 2-year CAGR for the quarter is only ~3% and the 3-year CAGR is single-digit. Answer: weather, look at the year, not the quarter. **The writer should present this base effect.**
+- **Jay Doshi (Kotak):** how PepsiCo can claim "stable or better" India share for Mar–May. Answer: "ask PepsiCo".
+- **Vivek Maheshwari (Jefferies), Q1:** input-cost cover. Answer: international ~zero to a couple of points of impact; India "minor"; discounts cut.
+- **Harit Kapoor (Investec), Q1:** outlet additions. Answer: >10% in CY26 on a ~4 mn base.
+- **Devanshu Bansal, Q1:** Twizza and Crickley run-rates (₹800 Cr and ₹160 Cr); India capex <₹500–600 Cr.
+
+### 4.2.2 VBL — concall / presentation KPI table [V-P unless E]
+
+| KPI | Q2 CY25 | Q3 CY25 | Q4 CY25 | Q1 CY26 | Q2 CY26 |
+|---|---|---|---|---|---|
+| Volume (mn UC), consolidated | 389.7 (−3.0%) | 273.8 (+2.4%) | 237.1 (+10.2%) | 363.4 (+16.3%) | **466.7 (+19.8%)** |
+| India volume growth | −7.1% | "almost flat" | +10.5% | +14.4% | **+14.4%** |
+| International volume growth | +15.1% (SA +16.1%) | +9.0% | +10.0% | +21.4% | **+38.4% (≈+25% ex-Twizza [E])** |
+| Mix CSD / NCB / water (mn UC) | 291 / 28 / 71 | 202 / 12 / 60 | 170 / 10 / 57 | 268 / 27 / 68 | 351 / 30 / 85 |
+| Realisation per case, consolidated | ₹173.2 (bev) | ₹178.8 (total) | ₹177.3 (total) | ₹174.1 (bev) | **₹175.3 (bev)** |
+| Realisation per case, India (beverages) | ₹170.6 | n/d | −4% YoY (call) | ₹168.1 (−1.5%) | **₹169.6 (−0.6%)** |
+| Gross margin | 54.5% | 56.7% | n/d (CY25 55.2%) | 55.2% | **55.0%** |
+| EBITDA (₹ Cr) / margin | 1,998.8 / 28.5% | 1,147.4 / 23.4% | 639.3 / 15.2% | 1,528.9 / 23.3% | **2,343.0 / 27.7%** |
+| India EBITDA margin change | n/d | n/d | n/d | +112 bp | **+38 bp** |
+| Low/no-sugar share (cumulative period) | ~55% (H1 CY25) | ~56% (9M; India ~45%) | ~59% (CY25) | ~63% | **~73% (H1 CY26)** |
+| Net debt (company) | — | — | ₹25.6 Cr (India cash ₹1,225 Cr) | — | **₹373 Cr (India cash ₹1,494 Cr)** |
+| Plants | — | — | 50 (38 + 12) | — | **53 (38 + 15)** |
+
+n/d = not disclosed in the document read. Bev = beverage-only basis; total = total net revenue ÷ cases (trap 8).
+
+### 4.2.3 VBL — 5-year history (consolidated; ₹ Cr) [V-agg screener + V-P company EBITDA]
+
+| | CY21 | CY22 | CY23 | CY24 | CY25 | TTM Jun-26 |
+|---|---|---|---|---|---|---|
+| Net revenue | 8,823 | 13,173 | 16,043 | 20,008 | **21,685** | 24,126 |
+| YoY | +36.8% | +49.3% | +21.8% | +24.7% | +8.4% | — |
+| Operating profit (screener) | 1,694 | 2,863 | 3,717 | 4,818 | 5,070 | 5,646 |
+| Company EBITDA | ~1,700 (chart) | ~2,800 (chart) | **3,609.5** | **4,711.1** | **5,049.4** | — |
+| EBITDA margin (company) | 18.8% | 21.2% | 22.5% | 23.5% | 23.3% | H1 CY26 25.8% |
+| Depreciation | 531 | 617 | 681 | 947 | 1,216 | 1,404 |
+| Interest | 207 | 204 | 292 | 483 | 196 | 197 |
+| PAT | 746 | 1,550 | 2,102 | 2,634 | **3,062** | 3,409 |
+| EPS (₹, adj.) | 2.14 | 4.61 | 6.33 | 7.67 | 8.98 | 10.01 |
+| ROCE (consolidated) | 17% | 27% | 29% | 25% | 20% | 19.7% |
+| ROCE (standalone ≈ India) | 12% | 23% | 26% | 24% | 19% | 19.1% |
+| CFO | 1,231 | 1,790 | 2,391 | 3,381 | 3,509 | — |
+| Capex (CFI, cash) | −1,008 | −1,769 | −3,288 | −4,311 | −2,725 | — |
+| FCF (screener) | 416 | 40 | −803 | −359 | 797 | — |
+| Volume (mn UC) | 569 | 802 | 913 | 1,124.4 | 1,213.1 | — |
+| Low/no-sugar share | n/d | n/d | ~42% | ~53% | ~59% | 73% (H1 CY26) |
+| Working-capital days (screener) | −34 | −24 | −9 | +16 | +31 | — |
+| Standalone revenue / OP / OPM | 6,596 / 1,202 / 18% | 10,596 / 2,224 / 21% | 12,633 / 3,061 / 24% | 14,349 / 3,764 / 26% | 14,557 / 3,765 / 26% | 15,696 / 4,163 / 27% |
+
+**Read:** in CY21→CY25 revenue grew 2.46× and PAT 4.1×; EBITDA margin rose +4.5 pts. ROCE peaked at 29% in CY23 and fell to 20% as the **₹7,500 Cr QIP (Nov-2024)** [V-P CRISIL] and the CY24–25 plant wave (~₹9,000 Cr capitalised over two years) entered capital employed. India (standalone) revenue grew only **+1.4% in CY25** and OP was flat. The CY25 consolidated growth was entirely Africa.
+
+### 4.2.4 VBL — 8-quarter trend (consolidated; ₹ Cr) [V-agg screener; company EBITDA V-P; India/intl split E]
+
+| | Q3 CY24 | Q4 CY24 | Q1 CY25 | Q2 CY25 | Q3 CY25 | Q4 CY25 | Q1 CY26 | Q2 CY26 |
+|---|---|---|---|---|---|---|---|---|
+| Net revenue | 4,805 | 3,689 | 5,567 | 7,017 | 4,897 | 4,204 | 6,574 | **8,451** |
+| YoY | — | — | — | −2.5% | +1.9% | +14.0% | +18.1% | **+20.4%** |
+| OP (screener) | 1,151 | 579 | 1,263 | 1,998 | 1,146 | 637 | 1,525 | **2,339** |
+| OPM (screener) | 24% | 16% | 23% | 28% | 23% | 15% | 23% | **28%** |
+| Company EBITDA | 1,151.1 | 580.0 | 1,264.0 (H1−Q2) | 1,998.8 | 1,147.4 | 639.3 | 1,528.9 | **2,343.0** |
+| PAT | 629 | 196 | 731 | 1,325 | 745 | 260 | 879 | **1,525** |
+| Volume (mn UC) | 267.5 | 215.1 | 312.4 | 389.7 | 273.8 | 237.1 | 363.4 | **466.7** |
+| India volume (mn UC) | ~197 [E] | ~101 [E] | 227.5 | 302.9 | ~197 [E] | ~112 [E] | 260.3 | **346.5** |
+| International volume (mn UC) | ~70 [E] | ~114 [E] | 84.9 | 86.8 | ~77 [E] | ~126 [E] | 103.1 | **120.2** |
+| Standalone revenue / OP | 3,087 / 801 | 2,014 / 323 | 4,053 / 1,010 | 5,305 / 1,641 | 3,064 / 787 | 2,135 / 325 | 4,501 / 1,172 | **5,996 / 1,878** |
+| Standalone OPM | 26% | 16% | 25% | 31% | 26% | 15% | 26% | **31%** |
+| International revenue / OP (cons − SA) [E] | 1,718 / 350 | 1,675 / 256 | 1,514 / 253 | 1,712 / 357 | 1,833 / 359 | 2,069 / 312 | 2,073 / 353 | **2,455 / 461** |
+| International OPM [E] | 20% | 15% | 17% | 21% | 20% | 15% | 17% | **19%** |
+
+**How the India/international quarterly split was derived [E]:** Q1/Q2 India volumes are disclosed. For Q3/Q4: Q1 CY24 India = 227.5 ÷ 1.155 = 197.0 and Q2 CY24 India = 302.9 ÷ 0.929 = 326.0, so CY24 India H2 = 821 − 523 = 298. CY25 India H2 = 839 − 530.4 = 308.6. Q3 CY25 India "almost flat" and Q4 CY25 India +10.5% then give Q3 ≈ 197 and Q4 ≈ 112. Cross-checks: international comes out at Q3 +9.0% and Q4 +10.0%, both matching the company. The split is sensitive to rounding (±15 mn cases). Standalone revenue per case comes out at ₹155 for Q3 and ₹191–199 for Q4, too wide to be real, so **the writer should not quote quarterly India/international per-case numbers for Q3/Q4**; use the annual ones below.
+
+**EBITDA (OP) per case, India vs international (cons − standalone) [E on V-agg inputs]:**
+
+| | CY23 | CY24 | CY25 | Q1 CY26 | Q2 CY26 |
+|---|---|---|---|---|---|
+| India OP per case (₹) | 41.5 | 45.8 | 44.9 | 45.0 | **54.2** |
+| International OP per case (₹) | 37.3 | 34.7 | 34.9 | 34.2 | **38.4** |
+| India revenue per case (₹, standalone incl. non-beverage) | 171.4 | 174.8 | 173.5 | 172.9 | 173.0 |
+| International revenue per case (₹) | 193.8 | 186.5 | 190.5 | 201.1 | 204.2 |
+| International OPM | 19.2% | 18.6% | 18.3% | 17.0% | 18.8% |
+
+Caveats: standalone includes Indian non-beverage sales (preforms, scrap, Puffcorn: ₹118.8 Cr in Q2 CY26) and some head-office cost for the group, so India OP/case is slightly understated and international slightly overstated [E]. Standalone *other income* (dividends from Nepal/Sri Lanka, interest on subsidiary loans) does not enter OP. **The gap is ~₹10/case and has not narrowed since BevCo**, which the Q4 CY24 PPT describes as a low-margin business with "~80% mix of own brands".
+
+### 4.2.5 VBL — Annual Report 2025 findings [V-P AR 2025, BSE 19bcfd65…]
+
+1. **Segment:** a single operating segment (beverages). The geographic split is India ₹14,449 Cr / outside India ₹7,776 Cr (gross) [V-prior; same AR]. CRISIL: international = **30.8% of CY25 volume**.
+2. **Related parties (note 46A; ₹ Cr, CY25 vs CY24).** Total RPT flows are small. BRSR puts **RP purchases at 3.2% of total purchases (3.0%) and RP sales at 1.1% of sales (1.4%).**
+   - Sales of goods to fellow subsidiaries (Devyani International/Devyani Food Industries etc.): **₹48.6 Cr (₹8.8 Cr), a 5.5× jump.** Sales to director-linked entities: ₹26.6 Cr (₹24.7 Cr).
+   - Purchases of goods from director-linked entities (the list includes **Alisha Torrent Closures (India), SMV Beverages, Jai Beverages**): ₹34.4 Cr (₹45.0 Cr). From fellow subsidiaries: ₹7.7 Cr (₹29.1 Cr).
+   - CSR paid to **RJ Foundation** (director-linked): **₹46.3 Cr (₹30.8 Cr)**, essentially all of VBL's CSR.
+   - Rent to **RJ Corp (parent)**: ₹13.6 Cr (₹11.3 Cr). KMP remuneration ₹55.4 Cr (₹47.1 Cr). Dividends to parent ₹129.6 Cr; to KMPs ₹164.2 Cr.
+   - PPE bought from fellow subsidiaries ₹12.2 Cr; equity into JVs ₹64.3 Cr (Everest Industrial Lanka, White Peak Refrigeration, IDVB Recycling).
+   - **Devyani Food Industries (Kenya) is already on the CY25 related-party list.** The US$32 mn DFIKL purchase (Jul-2026) is a related-party transaction by construction.
+   - **PepsiCo is not a related party**, so concentrate purchases, pricing and any marketing contributions are **not disclosed anywhere in the AR**. §H-12 stays open, and is unfillable from public documents.
+3. **Contingent liabilities (note 43; ₹ Cr, Dec-25 vs Dec-24):** GST 42.4 (30.9); excise & service tax 21.8 (6.8); **customs 48.2 (20.8)**; VAT/entry tax 101.1 (100.5); income tax 77.3 (77.1); mandi tax & others 19.6 (20.5). **Total ₹310.4 Cr (₹256.6 Cr), +21%; ~1% of net worth.** The auditor lists "Claims, appeals and litigations" as a key audit matter.
+4. **Commitments (note 44):** capital contracts outstanding **₹3,004.8 Cr (₹2,690.8 Cr)**, net of ₹276 Cr advances. This sits oddly with management's "low capex" message for CY26: much of it is likely international (South Africa expansion, Kenya) and multi-year [E]. Guarantees by subsidiaries ₹174.3 Cr (₹45.8 Cr).
+5. **Leases (note 47):** lease liabilities ₹484.1 Cr (Dec-25); assets are land, buildings, plant, **visi-coolers** and vehicles; discount rates 5.44–13.56%.
+6. **Distribution (BRSR):** **2,353 primary distributors**; 100% of sales through them; top-10 = 17.3%.
+7. **Packaging:** **2,08,080 t of PET bottles consumed and recycled in 2025** (1,81,887 t in 2024); rPET ~22,000 t; target 50% rPET by 2030 (the risk table says 30%, an inconsistency inside the AR). Cumulative recycling ~8 lakh t since 2019.
+8. **People:** 16,300+ group employees; 10,654 permanent on the standalone rolls.
+9. **Risk register (MD&A):** (i) PepsiCo dependence (mitigant: EBA extended to 2039 "from October 2, 2022", now 2049); (ii) business viability of acquired territories; (iii) **regulatory, incl. products "targeted for discriminatory tax" and packaging-waste recovery**; (iv) consumer health preference; (v) raw-material supply/price; (vi) sustainable-packaging cost (rPET, aluminium).
+10. **Capacity:** no case-capacity table in the AR. The best disclosure is the Q4 CY24 PPT: **India capacity in the CY24 season +45% vs CY22**. Four more greenfields followed in CY25 (Prayagraj, Buxar, Damtal, Mendipathar; ₹1,700 Cr) plus brownfield at Sricity and Gorakhpur (₹300 Cr). With India volume +28% over CY22–25, **spare peak capacity is the norm**, which is consistent with "50% growth without adding capacity" [E].
+11. **QIP:** ₹7,500 Cr in Nov-2024 (CRISIL [V-P]). It was used to prepay debt; "finance cost in India is negligible" (Q4 CY25 PPT).
+
+### 4.2.6 Reference peer packs (upgraded; REFERENCE ONLY, never summed with VBL)
+
+**(a) Hindustan Coca-Cola Beverages (HCCB) / Hindustan Coca-Cola Holdings (HCCH): unlisted** [V-P CRISIL 7-May-2026 unless noted]
+- **Ownership:** TCCC group 60% / **Jubilant Beverages Ltd 40% of HCCH**, completed **22-Jul-2025**; announced **Dec-2024** [V-snip PTI 11-Dec-2024].
+- **Deal economics:** **₹11,724 Cr** outgo. Funding: JBL zero-coupon NCDs ₹2,650 Cr (CRISIL AA/Stable); parent Jubilant Bevco debt ₹3,000 Cr; **Goldman Sachs CCPS ₹4,628 Cr** (nine-year, treated as equity); promoter OCRPS for the balance. Debt cover 6.5× (28-Apr-2026; 8.0× Feb-2025), backed by ~₹26,000 Cr of Jubilant-group listed holdings. **No dividend expected from HCCH to JBL**, so HCCB keeps its cash for capex/price war [E].
+- **Implied valuation:** 100% of HCCH ≈ **₹29,300 Cr ($3.1 bn)** on FY25 revenue ₹12,751 Cr ≈ **2.3× sales; ~18× FY25 EBITDA** (₹1,645 Cr at 12.9%) [E]. Compare VBL at ~6.1× sales / ~26× CY25 EBITDA: **the same industry priced ~2.5–3× apart on sales** (a minority, unlisted stake vs a listed anchor bottler with 2× the margin). It also undercuts press talk of a "$10 bn" HCCB IPO [E].
+- **Financials:** FY25 revenue ₹12,751 Cr (FY24 ₹14,022 Cr; FY23 ₹12,735 Cr [V-snip]); EBITDA margin ~12.9% (FY24 12.7%); low debt; liquid surplus ₹49 Cr (Mar-25). **FY26 (Mar-26) not yet filed/reported**; CRISIL says weather hit FY26. Medium-term double-digit revenue growth expected.
+- **Footprint:** "distribution rights in some states in West and South India"; 37 products (60 in Jan-2024); plants 16 in Jan-2024 [V-snip], 14 after FY25 [V-prior].
+- **Refranchised (company statement 12-Jan-2024):** Rajasthan → Kandhari Global Beverages; Bihar → SLMG Beverages; NE + parts of WB → Moon Beverages. Then Jharkhand → Moon (Dec-2024) [V-snip] and North Gujarat + Diu → Kandhari (~₹2,000 Cr; CCI Apr-2025) [V-prior]. KO booked a **~$293 mn India refranchising gain in Q1 2024** [V-snip].
+
+**(b) Reliance Consumer Products (RCPL) / Campa: unlisted, demerged from RRVL** [V-P RIL presentations]
+- FY26: gross revenue **₹22,000 Cr (2×)**; Q4 FY26 ₹7,350 Cr (2.2×); **Campa ₹4,700+ Cr** ("India's 4th largest CSD brand", double-digit share in key markets); **#3 branded water player**; beverages **3.2×**; Independence (staples) ~₹2,600 Cr; external channels > three-quarters; 40+ countries.
+- Q1 FY27: RCPL **₹8,600 Cr+ (2.1×)**; **Campa/beverages ~₹2,900 Cr, 2.4× YoY** ("leveraging industry leading capacity addition, distribution gains & cooler placements"); "**#3 NARTD player in India, led by Campa**"; 5,000+ distributors; 3 mn+ outlets; >80% external; Independence ~₹3,200 Cr.
+- Implied Q1 FY26 beverages ≈ ₹2,900 ÷ 2.4 ≈ **₹1,200 Cr** [E]. FY26 quarterly beverages therefore averaged ~₹1,175 Cr, and **Q1 FY27 was ~2.5× the FY26 quarterly average** [E].
+- Manufacturing: "one of the largest beverage manufacturing facilities in Asia" commissioned (greenfield); high-speed lines across greenfield plants in **12 states**; Kurnool food park beverage line. Brands: **Campa Cola, Campa Energy** (the ex-"Gold Boost" energy line, renamed after the FSSAI order, needs checking), **Campa Sure** (water), Sun Crush, RasKik, Spinner; **Sosyo** (majority stake acquired; Gujarat regional CSD); Goodness Group (Australia; "first Campa cans produced locally in Australia"). RCPL was the #1 IPL 2026 TV advertiser.
+- **Still not disclosed:** net revenue, margin, volume in cases, plant count. RCPL's **Q2 FY27 (Jul–Sep) numbers will come with RIL's Q2 results; not out on 23-Oct-2026.**
+
+**(c) Bisleri International: unlisted.** FY24 revenue ₹2,689.7 Cr, PAT ₹317.0 Cr [V-snip, unchanged]. **FY25/FY26 not found** (PTI page blocked; no RoC-based story surfaced). Note RCPL now claims to be the #3 branded water player.
+
+**(d) Tata Consumer — NourishCo (listed parent, other sub-sector).** Q1 FY27 (24-Jul-2026): revenue ₹5,348.9 Cr (+11.9%), PAT ₹427 Cr; India business ₹3,540 Cr (+13%); **RTD +41%** [V-snip]. **Q2 FY27 results on 26-Oct-2026** [V-prior]. NourishCo's absolute revenue is still not disclosed.
+
+**(e) Parle Agro (unlisted):** FY25 revenue **₹3,284.1 Cr (+5%)**, PAT ₹115.4 Cr (FY24 ₹17.3 Cr), exports ₹30.1 Cr, A&P ₹256.8 Cr (−8%) [V-snip Tofler/PTI, Dec-2025]. That is about **1.2× Bisleri and ~23% of VBL India**: a mango-JBD franchise that gained margin by cutting advertising.
+
+**(f) Red Bull India:** no FY25 figure found (one search). Still [K/E] ~₹1,000–1,500 Cr. Context: FSSAI order litigation (Red Bull lost interim relief 28-Sep-2026 [V-prior/snip]). **India imports of HS 2202 10 (sweetened/flavoured waters, the code for canned energy drinks) jumped from ₹58.7 Cr to ₹303.5 Cr in FY26** [V-P TradeStat], consistent with imported premium energy/functional drinks scaling up; attribution to Red Bull/Monster is [E].
+
+**(g) The Coca-Cola Company:** Q2 2026 (release, [V-P]): net revenue **+7% to $13.4 bn**, organic +6%; global unit case volume **+5%, "led by India, China, the United States and Brazil"**; Asia Pacific UCV **+8%**, price/mix **−9%** ("unfavorable mix and affordability initiatives"); **value-share loss in total NARTD driven by India**; Bottling Investments UCV +5% "largely due to growth in India" (HCCB is still consolidated as a 60% subsidiary [E]). CEO: **Henrique Braun**. **Q3 2026 on 27-Oct-2026.** Read: Coke's India volume is growing (refranchised FBOs + HCCB) but at falling value share and negative price/mix. That fits a ₹10/₹20 pack war with Campa and corroborates VBL's "all 3 main players are growing".
+
+**(h) PepsiCo:** Q3 2026 [V-prior SEC 8-K]: net revenue $25.27 bn (+5.6%), organic +3.1%; International Beverages Franchise +7% organic; FY core cc EPS guide +1–2%. On the Jul-2026 VBL call, Kotak cited PepsiCo's Q2 release claim that India share was "stable or better" for 1-Mar to 31-May-2026 [V-P transcript, quoting PepsiCo]. **Against KO's Q2 statement that it lost value share in India, the two claims are mutually consistent only if Campa is the share-gainer**, which RCPL's 2.4× growth supports [E].
+
+**(i) Coca-Cola HBC (LSE: CCH)** [V-P Athex filing, FY2025]: **2,997.4 mn UC (+2.8%)**; NSR **€11,604.5 mn** (+7.9%; organic +8.1%); **NSR per UC €3.87 (≈₹400 at ~₹104/€, i.e. $1.10/€ × ₹94.9/$ [E FX])**; EBIT €1,305.6 mn (11.3%); **comparable EBIT €1,356.2 mn (11.7%, +60 bp)**; net profit €940.4 mn; comparable EPS €2.724; FCF €700 mn; net debt/EBITDA 0.7×; DPS €1.20 (44% payout); 2026 guide organic EBIT +7–10%. Segments: Established 631.6 mn UC at 10.5%; Developing 486.4 mn at 9.5%; Emerging (Nigeria, Egypt, Russia, Ukraine etc.) organic revenue +13.2%, "led by Africa". **CCBA: on 21-Oct-2025 CCH agreed to buy 75% of Coca-Cola Beverages Africa from TCCC and the Gutsche family for US$2.6 bn (≈$3.5 bn for 100% [E]), completion targeted by end-2026.** CCBA is the Coke bottler in **South Africa** (and East/Southern Africa), i.e. **BevCo/Twizza's direct competitor in SA is about to get a larger, better-capitalised parent** [E on CCBA territory: K].
+**(j) Coca-Cola Europacific Partners (CCEP)** [V-P LSE RNS, FY2025]: **3,958 mn UC** (+2.4%; comparable +2.7%; adjusted +0.2%); revenue **€20,901 mn** (+2.3%; FXN +4.1%); **comparable OP €2,808 mn (13.4% [E])**; reported OP €2,793 mn; comparable diluted EPS **€4.11** (+6.2%); revenue per UC ~€5.28 [E = 20,901 ÷ 3,958]. Segments [V-snip]: Europe 2,587 mn UC; APS (Australia, Pacific, SE Asia incl. Philippines and Indonesia) 1,371 mn UC (+8.6%).
+**(k) Coca-Cola FEMSA (KOF)** [V-P 4Q25 transcript]: Q4 2025 volume **1.09 bn UC (+1.3%)**; revenue MXN 77.7 bn (+2.9%); gross margin 46.7%; normalised operating margin **16.1%**; normalised adjusted EBITDA margin **21.9%**; South America Q4 504.1 mn UC (+3%). FY25 [V-snip release]: volume −1.8%, revenue +4.3% (cc +6.5%), operating income +7.0%. **Mexico raised its excise tax on sugary drinks for 2026**, the live global example of the "discriminatory tax" risk in VBL's own AR.
+**(l) Arca Continental / Monster:** not re-fetched; keep Part 2 [cmc] values.
+
+**Global bottler benchmark grid (FY2025) [V-P inputs; E ratios]:**
+
+| Bottler | Unit cases (mn) | Revenue | Revenue / UC | Margin (comparable OP/EBIT) | VBL ÷ peer (cases) |
+|---|---|---|---|---|---|
+| CCEP | 3,958 | €20.90 bn | ~€5.28 | 13.4% | 0.31× |
+| Coca-Cola HBC | 2,997 | €11.60 bn | €3.87 | 11.7% | 0.40× |
+| Coca-Cola FEMSA | ~4,000+ (Q4 alone 1,090) | MXN ~290 bn [K] | — | Q4 normalised 16.1% op | ~0.3× |
+| **VBL** | **1,213** | **₹21,685 Cr (~$2.3 bn; ~€2.1 bn [E FX])** | **₹178.8 (~$1.9; ~€1.7)** | **EBIT ~17.6% [E]; EBITDA 23.3%** | — |
+
+**Read:** VBL earns **~€1.7 of revenue per case vs €3.9 at CCH and €5.3 at CCEP**, i.e. 1/2 to 1/3 of the price, at a **higher** operating margin (17.6% vs 11.7–13.4%). This is the cleanest expression of the "low-price, high-efficiency, high-utilisation-in-season" Indian model [E].
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. GST on beverages under GST 2.0 (rates effective 22-Sep-2025)** [V-P Notification 9/2025-Integrated Tax (Rate), 17-Sep-2025; IGST = CGST + SGST]
+
+| HS | Description (notification wording, abridged) | Schedule | Rate |
+|---|---|---|---|
+| 2201 | Waters, incl. natural/artificial mineral and aerated waters, **not** sweetened or flavoured (all packaged drinking water) | I | **5%** |
+| 2202 99 30 | **Beverages containing milk** (flavoured milk, lassi, milkshakes, VAD) | I | **5%** |
+| 2202 99 20 | Fruit-pulp / fruit-juice-based drinks (non-carbonated) | I | **5%** |
+| 2202 99 | Plant-based milk drinks | I | **5%** |
+| 2202 99 10 | Soya milk drinks | I | **5%** |
+| 2009 / 2009 89 90 | Fruit and vegetable juices; tender coconut water (packaged) | I | **5%** |
+| 2202 10 | Waters incl. aerated, **with added sugar/sweetener or flavoured** (all CSD, incl. zero-sugar colas) | III | **40%** |
+| 2202 91 00, 2202 99 90 | Other non-alcoholic beverages (residual) | III | **40%** |
+| 2202 99 90 | **Caffeinated beverages** (energy drinks) | III | **40%** |
+| 2202 | Carbonated beverages of fruit drink / with fruit juice | III | **40%** |
+
+**Implication:** a **zero-sugar** cola is still 2202 10 ("sweetening matter or flavoured") at 40%. India's slab is **not sugar-based**, so de-sugaring brings VBL no tax relief, only cost and regulatory insurance. The tax wedge between a ₹20 CSD (40%) and a ₹20 flavoured milk / Nimbooz-type juice drink / water (5%) is **35 points of the ex-tax price**. Nimbooz is a lemon drink; its classification depends on carbonation and juice content (the "Nimbooz Masala Soda" CSD variant is 40%) [E].
+
+**D2. India soft-drink trade (₹ Cr; financial years)** [V-P TradeStat EIDB, fetched 23-Oct-2026]
+
+| HS | Flow | FY23 | FY24 | FY25 | FY26 | FY26 YoY |
+|---|---|---|---|---|---|---|
+| 2202 (all sweetened/flavoured/other NA beverages) | Export | 391.1 | 1,007.3 | 828.9 | **760.4** ($86.7 mn) | −8.3% |
+| 2202 | Import | 2,072.4 | 1,722.6 | 2,120.0 | **2,352.6** | +11.0% |
+| 2202 10 (sweetened/flavoured waters, CSD/energy) | Export | 195.4 | 423.9 | 215.5 | 270.8 | +25.7% |
+| 2202 10 | Import | 75.5 | 82.2 | 58.7 | **303.5** | **+417%** |
+| 2202 99 (other) | Export | 192.2 | 573.2 | 610.0 | 482.7 | −20.9% |
+| 2202 99 | Import | 1,965.1 | 1,603.3 | 2,024.0 | 2,013.7 | −0.5% |
+| 2201 (waters) | Export | 4.3 | 13.7 | 5.3 | 9.2 | +73% |
+| 2201 | Import | 21.6 | 30.4 | 43.1 | 47.1 | +9.4% |
+| 2106 90 19 (soft-drink preparations other than sharbat ≈ concentrate) | Import | — | — | 18.3 | 37.3 | +103% |
+| 2106 90 19 | Export | — | — | 108.2 | 57.2 | −47% |
+
+**Read:** trade is ~1–2% of a ₹65,000–80,000 Cr domestic market (bottom-up, §2.1 [E]). India is a **net importer of finished beverages (~₹1,600 Cr in FY26)**, mostly "other non-alcoholic beverages" (2202 99: likely protein/functional/energy and ready-to-drink imports [E]). **Concentrate is made in India** (imports of ₹37 Cr are trivial vs a ~₹5,000 Cr Coca-Cola India concentrate business [V-snip]). The FY24 export spike in 2202 (₹1,007 Cr) and its fade are unexplained in the data; possibly Campa/Parle exports to the Gulf/Africa [E].
+
+**D3. Weather (IMD)**
+
+| Year | All-India temp anomaly vs 1991–2020 | Pre-monsoon (Mar–May) rain, % LPA | SW monsoon (Jun–Sep), % LPA | Annual rain, % LPA | Heat-wave days / deaths | VBL India volume |
+|---|---|---|---|---|---|---|
+| 2024 | **+0.65 °C (record)** [V-P] | n/f | 108% [V-snip] | 104% [V-snip] | **536–554 heat-wave days** (highest in 14 years) [V-snip] | +11.4% (organic) |
+| 2025 | +0.28 °C (8th warmest) [V-P] | **142%** [V-P] | 108% [V-P] | 110% [V-P] | **~35 heat-wave deaths** [V-P] | **+2.2%** |
+| 2026 | n/a | n/f ("April heavily rained" per VBL) | **87% (759.4 mm; 4th lowest since 2001)** [V-snip] | n/a | multi-day heat waves Jun-26 [V-prior] | H1 +14.4% |
+
+n/f = not found this session. **Chart idea for the writer:** pre-monsoon rain (% LPA) against VBL India Q2 volume growth. 2025: 142% → −7.1%. 2026: dry monsoon → Q3 setup.
+
+**D4. Global bottler benchmarks (FY2025)**: see the grid in §4.2.6.
+
+**D5. Campa/RCPL trajectory (₹ Cr, gross)** [V-P RIL]: Campa FY26 4,700+; Q1 FY27 ~2,900 (beverages 2.4× YoY → Q1 FY26 ~1,200 [E]). RCPL FY26 22,000 (2×); Q4 FY26 7,350; Q1 FY27 8,600+ (2.1×).
+
+**D6. VBL distribution and capacity facts** [V-P]: outlets ~4 mn (+~0.5 mn in CY26, 27-Apr call); visi-coolers "a million plus" (27-Apr call); primary distributors 2,353 (AR); EVs in trade 2,000+ (PPT); India capacity CY24 season +45% vs CY22 (Q4 CY24 PPT); plants 53; PET bottles 2.08 lakh t (2025).
+
+**D7. Input-cost anchors (still thin)**: PET: no free dated series (IMARC $1,019/t Jun-26 [V-snip]; RIL: India PET demand +4.5% in Q4 FY26, "driven by beverage sector … anticipated summer demand", and **−3.7% in Q1 FY27** on "cautious downstream procurement and **higher r-PET substitution**" [V-P RIL media releases]). Sugar: ISMA 2025-26 first estimate 343.5 lakh t gross / 309.5 net [V-snip]; VBL: India sugar "reasonably constant" (27-Apr call [V-P]).
+
+## 4.4 Gap log (every §H item and §3.6 flag)
+
+| §H # | Gap | Status | How / what was tried |
+|---|---|---|---|
+| H-1 | Market shares | **Still open (partly upgraded)** | No audited series exists. New primary qualitative evidence: **KO says it lost NARTD value share in India (Q2 2026)**; PepsiCo says "stable or better" (Mar–May 2026, quoted on the VBL call); **RCPL claims "#3 NARTD player in India"** and Campa "4th largest CSD brand"; VBL: "we do not go into market share". Present as competing claims. |
+| H-2 | India market size by category | **Still open** | Nothing primary. TradeStat gives trade only; the GST notification gives the tax structure only. Bottom-up stays [E]. |
+| H-3 | HCCB FY26 | **Still open** | CRISIL (7-May-2026) has FY25 only and says FY26 was weather-hit; no RoC-based FY26 story found. Expected Oct–Nov 2026. |
+| H-4 | Jubilant deal date / price | **Filled** | CRISIL: ₹11,724 Cr, completed 22-Jul-2025; announcement Dec-2024 (PTI wire 11-Dec-2024 [V-snip]). The Jubilant press-statement PDF link returned HTML. |
+| H-5 | Refranchising buyer–territory mapping | **Filled (V-snip with company statement)** | Rajasthan–Kandhari; Bihar–SLMG; NE + parts of WB–Moon (12-Jan-2024); Jharkhand–Moon (Dec-2024); N. Gujarat + Diu–Kandhari (Apr-2025). |
+| H-6 | Campa net revenue / margins / plants | **Partly filled** | Gross sales and growth now V-P from RIL; plant count still undisclosed ("12 states" of greenfield lines; "one of the largest beverage plants in Asia"); margins and volume undisclosed. RIL Q2 FY27 not out. |
+| H-7 | Bisleri FY25/FY26 | **Still open** | Search found FY24 only; PTI/theweek page blocked to curl. |
+| H-8 | Parle Agro / Red Bull / NourishCo revenues | **Partly filled** | Parle Agro FY25 ₹3,284 Cr [V-snip]; NourishCo growth +41% (Q1 FY27) but no absolute figure; Red Bull India not found. |
+| H-9 | VBL outlets / coolers / distributors / trucks | **Mostly filled** | Outlets ~4 mn and coolers "a million plus" [V-P Q1 CY26 call]; distributors **2,353** [V-P AR]. Trucks still not disclosed (the AR says only "wide network of owned vehicles"; 2,000+ EVs in trade). |
+| H-10 | Sting share of volume | **Still open** | Not disclosed. Management: "energy is definitely becoming a big part of the portfolio" (27-Apr). Primer's ~15% stays [E]. |
+| H-11 | VBL capacity / utilisation | **Partly filled** | India capacity +45% (CY24 vs CY22) [V-P]; "50% growth without adding capacity" [V-P]; no case capacity. Utilisation [E]. |
+| H-12 | Concentrate pricing | **Unfillable from public documents** | PepsiCo is not a related party; AR silent; TradeStat shows concentrate is not imported (so no customs-value proxy). |
+| H-13 | Twizza annual volume (primer ~71 mn) | **Filled (by inference)** | Q1 call: Twizza's last full-year revenue **~₹800 Cr**. At BevCo-like ₹190–200/case that is **~40–42 mn cases a year** [E], consistent with 11.8 mn in a winter quarter. **The primer's 71 mn is wrong.** |
+| H-14 | Sugar series | **Still open** | Only ISMA estimates [V-snip] and VBL's "constant" comment; no DFPD/ISMA monthly price series fetched. |
+| H-15 | PET series | **Still open** | No free dated price series; RIL demand commentary [V-P] added; VBL tonnage (2.08 lakh t) [V-P] fixes the sensitivity. |
+| H-16 | HS 2201/2202 trade | **Filled** | TradeStat FY23–FY26 (D2). |
+| H-17 | IMD heat-wave days | **Partly filled** | 2025: pre-monsoon 142% LPA, ~35 heat-wave deaths [V-P]; 2024 heat-wave days 536/554 [V-snip]; 2026 monsoon 87% [V-snip]; IMD site failed (TLS/503). |
+| H-18 | Packaged-water and flavoured-milk GST | **Filled** | Notification 9/2025: both 5% (D1). |
+| H-19 | CCEP / CCH / Arca financials | **Filled for CCEP and CCH; KOF partly; Arca open** | LSE RNS; Athex filing; KOF 4Q25 transcript. |
+| H-20 | Coca-Cola Q3 2026 India commentary | **Still open (date fixed)** | Releases **27-Oct-2026**. Q2 2026 India commentary added [V-P]. |
+| H-21 | "Largest vs second-largest PepsiCo bottler" | **Filled** | CRISIL + company: second-largest outside the US; largest in India. |
+| §3.6-7 | EBITDA per case India vs international | **Recomputed** | §4.2.4 table (still [E], method stated). |
+| §3.6-10 | Global bottler P/Es | **Still open** | CCH comparable EPS €2.724 and CCEP €4.11 fetched; share prices not fetched, so no P/E computed. Keep Part 2 [cmc]/[K]. |
+| — | FSSAI energy-drink order (primary) | **Still open** | fssai.gov.in failed TLS verification; secondary coverage only. VBL call [V-P] confirms "90 days" and "remove the word energy". |
+| — | RIL Q2 FY27 / Campa Q2 | **Not yet published** (checked ril.com) | — |
+
+## 4.5 New insights an expert would add (the first pass missed these)
+
+1. **Coca-Cola is losing value share in India while growing volume.** KO's own Q2 2026 release says its NARTD value-share loss in Asia Pacific was driven by India, with region price/mix −9% on "affordability initiatives". With PepsiCo claiming "stable or better" share and RCPL claiming "#3 NARTD", the share-taker is Campa. **The price war is costing Coke, not (yet) VBL.** VBL's India EBITDA margin rose in both Q1 (+112 bp) and Q2 (+38 bp) CY26 [V-P].
+2. **The Indian slab is "sweetened or flavoured", not "sugar".** Zero-sugar CSD stays at 40% (HS 2202 10). VBL's 73% low/no-sugar shift therefore brings **no tax benefit**; its value is cost (sugar) and regulatory insurance. Meanwhile water, dairy and juice drinks are 5%, a 35-point wedge. **That wedge, not health, is the strongest reason VBL is pushing VAD (+40%), CALPIS and Nimbooz** [V-P notification; E reading].
+3. **HCCB was priced at ~2.3× sales / ~18× EBITDA in the Jubilant deal (₹11,724 Cr for 40%)** vs VBL at ~6× sales / ~26× EBITDA. The private-market anchor for an Indian bottler is far below VBL's listed multiple. **That is the valuation bear case in one line.** The counter: HCCB's margin is half VBL's, and a 40% minority stake carries no control premium [E].
+4. **Spare capacity is the hidden story.** India capacity was +45% (CY24 vs CY22) and four more greenfields arrived in CY25, while India volume grew only 28% over CY22–25. Management says it could absorb +50% volume with no new plants. India capex in CY26 is guided at <₹500–600 Cr. **Expect FCF to rise sharply in CY26–27** (CY25 FCF ₹797 Cr; CFO ~₹3,500 Cr vs India capex ~₹550 Cr plus international) and **ROCE to recover only if volume fills the plants** [V-P inputs; E].
+5. **Weather explains 2025 precisely.** IMD's 142%-of-normal pre-monsoon rainfall in 2025 and only ~35 heat-wave deaths (vs 2024's record heat) line up with VBL India Q2 CY25 −7.1% and CY25 +2.2%. The **2026 monsoon at 87% of LPA (4th-lowest since 2001)** is the setup for a strong Q3 CY26 print on 30-Oct, against a base of Q3 CY25 India "almost flat" [V-P / V-snip].
+6. **The Africa margin gap has not closed.** International OP per case is ~₹35 vs India ~₹45 in CY24–CY25, and ₹38 vs ₹54 in Q2 CY26 [E]. Twizza (₹800 Cr revenue, lower margin) and the failed Crickley deal mean South Africa stays a lower-margin, own-brand-heavy business. **CCH's US$2.6 bn purchase of 75% of CCBA** (completion end-2026) will put a well-funded Coke bottler against BevCo/Twizza [V-P CCH; E].
+7. **PET exposure is half what the first pass assumed:** 2.08 lakh t × ₹15/kg ≈ ₹310 Cr a year, ~6% of EBITDA, before VBL's 6-month international stock and India's 1-quarter cover. RIL's note that **rPET substitution is cutting virgin-PET demand** (Q1 FY27) is a medium-term tailwind for VBL's 50%-rPET target [V-P].
+8. **Related-party flows are rising from a small base and concentrated in group entities:** sales to Devyani group +5.5× (₹48.6 Cr); CSR routed entirely via RJ Foundation (₹46.3 Cr); closures bought from director-linked Alisha Torrent; the Kenya DFIKL buy-in (US$32 mn). Individually immaterial (RPT purchases 3.2% of total). The pattern, though, is what the market discounts, alongside alcobev optionality under the freed EBA [V-P AR].
+9. **The ₹10 tier is <2% of VBL volume** (27-Apr call) vs Campa's growth engine. VBL's defence is **₹20 for 400 ml** (≈₹12.5 per 250 ml, vs Campa's ₹10 per 250 ml on its ₹20/500 ml pack; the gap narrowed from ₹20 to ₹12.5) and cooler density (1 mn+ coolers, +0.5 mn outlets in CY26) [V-P].
+
+## 4.6 New primer issues — primers/varun-beverages.html (format as primer-issues.md)
+
+### From Soft Drinks & Beverages deep research (2026-10-23, beverages-industry.md §4.6)
+
+- **varun-beverages.html — Twizza volume wrong (§07):** "~71M cases" → Twizza's prior full-year revenue was **~₹800 Cr** and VBL paid **~₹1,140 Cr** (Q1 CY26 call, 27-Apr-2026). At ~₹190–200/case that implies **~40–42 mn cases a year**; it contributed **11.8 mn cases in Q2 CY26**. Replace 71 mn with "~40 mn cases a year (estimated)".
+- **varun-beverages.html — visi-cooler, outlet and distributor counts (stat strip / §04):** "~1.1M visi-coolers, ~4M outlets, 2,800+ distributors, ~12,000 trucks" → management: coolers **"close to a million plus"**, outlets **"about 4 million"** with **~0.5 mn being added in CY26** (Q1 CY26 call); AR 2025 BRSR: **2,353 primary distributors** (top-10 = 17.3% of sales). **Truck count is not disclosed**: drop or mark "estimated".
+- **varun-beverages.html — "largest PepsiCo bottler outside the US" (hero, §00):** CRISIL (21-Apr-2026) and VBL's own presentation say "**second largest franchisee of PepsiCo outside the US and the largest in India**". Change the wording.
+- **varun-beverages.html — Crickley Dairy (if mentioned in whatsnew/§07):** the BevCo–Crickley deal (ZAR 238 mn, SPA 17-Mar-2026) **lapsed**. The condition precedent was not met by 30-Sep-2026, the deal was referred to AFSA, and exposure is limited to acquisition cost. Do not describe VBL as owning a South African dairy business.
+- **varun-beverages.html — GST nuance (§11 bear case / regulation):** state that **zero-sugar colas are taxed at the same 40%** as regular CSD (HS 2202 10, "sweetened or flavoured"), while water, milk beverages and juice drinks are at **5%** (Notification 9/2025-IT(Rate), effective 22-Sep-2025). The low/no-sugar shift is a cost/regulatory hedge, not a tax saving.
+- **varun-beverages.html — capacity / capex narrative (§06):** add that India capacity rose **~45% between the CY22 and CY24 seasons** and that management guides **CY26 India capex below ₹500–600 Cr (about one plant)**, saying it can absorb +50% volume without new capacity. The "keeps adding plants" story has turned into a "fill the plants / FCF" story.
+- **varun-beverages.html — competition (§11):** add primary-source facts. Coca-Cola's Q2 2026 release says it **lost NARTD value share in India**; Reliance's RCPL calls itself the **"#3 NARTD player in India"** with Campa beverages at **~₹2,900 Cr in Q1 FY27 (2.4× YoY)** and ₹4,700+ Cr in FY26. **HCCB's 40% stake was sold to Jubilant for ₹11,724 Cr (completed 22-Jul-2025)**, implying ~₹29,300 Cr for 100%, a useful valuation contrast with VBL's ₹1.33 L Cr.
+- **varun-beverages.html — PepsiCo agreement history (§02):** the India EBA was extended twice: to 30-Apr-2039 (from 2-Oct-2022), then to **30-Apr-2049** with the SPV-only restriction removed (21-May-2026). The territory excludes **Andhra Pradesh, Jammu & Kashmir and Ladakh** (CRISIL).
+- **varun-beverages.html — ₹10 price point:** if the primer implies VBL fights Campa at ₹10, correct it. The ₹10 tier is **<2% of VBL volume**, and management calls it "a non-profitable category for us"; VBL's response is the **400 ml ₹20 pack**.
+- **varun-beverages.html — related parties (governance box, if any):** add that AR 2025 shows sales to Devyani group entities of **₹48.6 Cr (5.5× YoY)**, CSR of ₹46.3 Cr routed via **RJ Foundation**, closures bought from director-linked **Alisha Torrent Closures**, and that **Devyani Food Industries (Kenya)**, now being acquired for US$32 mn, was already a related party. RPT purchases are 3.2% of total.
+- **varun-beverages.html — QIP and credit rating dates:** QIP **₹7,500 Cr in Nov-2024**; CRISIL AAA upgrade **Feb-2025** (reaffirmed 21-Apr-2026). Check that the timeline does not place the upgrade in Dec-2025.
+- **varun-beverages.html — low/no-sugar India vs group:** if the primer quotes ~59% or 73% as "India", note that at 9M CY25 India was only **~45%** (group ~56%). The 73% (H1 CY26) is consolidated.
+
+## 4.7 Source list for Part 4 (all fetched 23-Oct-2026 unless marked)
+
+- VBL BSE filings: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname= + b9d45652-17b6-4389-bb1b-60561715127c.pdf (Q2 CY26 PPT); 8835ebb1-d366-4836-92c5-dd25be69954f.pdf (Q2 call); 5721108e-feb3-4853-af2f-136c73101b87.pdf (Q1 CY26 call); 7fddf237-b1d0-4aa7-a5d2-e202094f364e.pdf (Q1 CY26 PPT); d9b9c742-962b-42bd-83bd-25ae36a45d86.pdf (Q4 CY25 PPT); af429ead-8c6c-4f56-8317-37c6bf72a1aa.pdf (Q3 CY25 PPT); 7d8412b9-c597-41ce-8bb5-ec9ec1737636.pdf (Q2 CY25 PPT); 4d1fa273-0b78-422c-ac31-9a3d8fc76f44.pdf (Q1 CY25 PPT); 70d6af86-6553-4175-b12d-001e32c7ff05.pdf (Q4 CY24 PPT); a727e407-ab32-4c89-97fa-b3c8be0273fd.pdf (Q3 CY24 PPT); 86447282-57c2-43b2-aaeb-4ec8b93699af.pdf (Crickley update); 2cc60a64-8ea4-410c-bbff-04418f23e62f.pdf (Jager); 86b68248-9e22-43a8-937c-e462ec8ec346.pdf (trading window); 6369471e-d844-42ec-b7f2-6c8ae62cf5ab.pdf (COO resignation).
+- VBL Annual Report 2025: https://www.bseindia.com/xml-data/corpfiling/AttachHis/19bcfd65-6d8a-401d-97c1-77a9636f7946.pdf
+- Screener: https://www.screener.in/company/VBL/consolidated/ and https://www.screener.in/company/VBL/
+- CRISIL VBL (21-Apr-2026): https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/VarunBeveragesLimited_April%2021_%202026_RR_394055.html
+- CRISIL Jubilant Beverages (7-May-2026): https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/JubilantBeveragesLimited_May%2007_%202026_RR_369534.html
+- GST Notification 9/2025-IT(Rate) (gazette text mirror): https://taxo.online/wp-content/uploads/2025/09/09-2025-ITR-Eng.pdf
+- TradeStat EIDB: https://tradestat.commerce.gov.in/eidb/commodity_wise_export and /commodity_wise_import (POST queries by HS code, ₹ Cr and US$ mn)
+- IMD Statement on Climate of India 2025: https://wmo.int/sites/default/files/2026-01/20260101_pr_4602.pdf (and https://wmo.int/media/news-from-members/statement-climate-of-india-during-2025)
+- RIL: https://rilstaticasset.akamaized.net/sites/default/files/2026-07/Presentation_for_RIL_Analyst_Meeting_v17072026.pdf ; …/2026-07/Media_Release_RIL_Q1_FY2026-27_Financial_and_Operational_Performance.pdf ; …/2026-04/FY2025-26_RIL_Analyst_Meeting.pdf ; …/2026-04/24042026_Media_Release_RIL_Q4_FY2025-26_Financial_and_Operational_Performance.pdf ; https://www.ril.com/investors/financial-reporting
+- Coca-Cola: https://investors.coca-colacompany.com/news-events/press-releases/detail/1168/coca-cola-reports-second-quarter-2026-results-and-raises-full-year-guidance ; …/detail/1173/the-coca-cola-company-announces-timing-of-third-quarter-2026-earnings-release
+- Coca-Cola HBC FY2025 (Athex): https://www.athexgroup.gr/sites/default/files/hermes_3/2026-02/el/dba34219-2f9e-456e-a342-192f9e656e80/1251_735_2026_Greek_English_1.pdf
+- CCEP FY2025 (LSE RNS): https://www.rns-pdf.londonstockexchange.com/rns/2444T_1-2026-2-16.pdf
+- KOF 4Q25 transcript: https://investors.coca-colafemsa.com/assets/files/reportes_trimestrales_esp/2025/kof-4q25-earnings-call-transcript-1.pdf
+- [V-snip]: HCCB refranchising (https://www.outlookbusiness.com/news/coca-cola-to-transfer-bottling-operations-to-local-partners-in-rajasthan-two-other-regions, fetched); Parle Agro FY25 (Business Standard/Outlook Business, Tofler); Tata Consumer Q1 FY27 (indianretailer/angelone); ISMA (theweek/tribune); IMD 2024 heat-wave days (businesstoday/theweek); 2026 monsoon end-season (superkalam/pwonlyias citing IMD); CRISIL AAA upgrade date 18-Feb-2025 (crisil.com rationale index); Jubilant announcement 11-Dec-2024 (theweek PTI URL).
