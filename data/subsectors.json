@@ -1345,6 +1345,23 @@
         "Online vs offline"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Glass",
+      "slug": "glass",
+      "file": "glass.html",
+      "sector": "Construction Materials",
+      "subsector": "Glass - Consumer",
+      "companies": 2,
+      "accent": "#236812",
+      "hook": "Two furnaces, one duty wall: how Asahi India Glass (float and ~80% of car glass) and Borosil Renewables (solar glass) earn their margins behind trade remedies, why furnace utilisation drives profit, and what tripling solar-glass capacity and the float MIP mean next.",
+      "tags": [
+        "The duty wall",
+        "Furnace cycle",
+        "Solar glass arithmetic",
+        "Car glass at ~80% share"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1574,7 +1591,7 @@
       "sector": "Construction Materials",
       "sub": "Glass - Consumer",
       "companies": 2,
-      "report": null
+      "report": "glass.html"
     },
     {
       "sector": "Construction Materials",
