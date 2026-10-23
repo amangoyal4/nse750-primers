@@ -1334,3 +1334,565 @@ Notes:
 - **Labour**: https://indianpsu.com/coal-workers-new-wage-agreement-jbcci-12-formation-stalled/
 - **Commercial auctions**: https://indianinfrastructure.com/2026/09/21/ministry-of-coal-launches-16th-round-of-commercial-coal-mine-auctions/
 - **Global peers (stockanalysis statistics, 23-Oct-2026)**: https://stockanalysis.com/stocks/btu/statistics/ · https://stockanalysis.com/quote/hkg/1088/statistics/ · https://stockanalysis.com/quote/asx/WHC/statistics/ · https://stockanalysis.com/quote/lon/GLEN/statistics/ · https://stockanalysis.com/quote/idx/ADRO/statistics/ · https://stockanalysis.com/quote/idx/BUMI/statistics/
+
+---
+
+# PART 4 — Deep-research supplement (23-Oct-2026)
+
+Second, primary-source pass on Parts 1–3. Scope: close the §H gaps, verify the figures that carry an argument, and add per-company management guidance, five-year and eight-quarter tables, and annual-report findings. Scratch notes and raw downloads: `/tmp/coal-deep/` (notes.md, cil/, gmdc/, TradeStat HTML, CREA PDF).
+
+**Tags in Part 4**
+- **[V]** = read this pass in the named primary document. Some were re-read from first-pass downloads of the same primary file: CIL Integrated AR FY26, Q4 FY26 and Q1 FY27 presentations, SWMA filing, GMDC AR FY26, SCCL report, PIB PDFs.
+- **[V-sec]** = fetched secondary source quoting a primary one.
+- **[V-snip]** = search-result summary only.
+- **[E]** = arithmetic by this file.
+- **[K]** = memory.
+
+**Primary documents newly read in this pass**
+
+*Coal India — company announcements page (coalindia.in → cloudfront PDFs):*
+- Chairman's speech and proceedings, 52nd AGM, 31-Aug-2026.
+- Monthly press releases of 1-Aug-2026, 1-Sep-2026 and 9-Sep-2026.
+- Capex release of 28-Jul-2026.
+- Interim dividend letter of 27-Jul-2026.
+- MCL DRHP intimation of 2-Sep-2026, and the DIPAM alternative-mechanism letter of 15-May-2026.
+- Ministry of Coal OFS notice of 26-May-2026 (17 pp; floor price on p. 7) and its greenshoe letter of 27-May-2026.
+- Investor-conference transcript of 14-May-2025 (the latest CIL call transcript published).
+- FY23 analyst-meet deck and H1 FY24 deck (historic FSA/e-auction realisations).
+
+*GMDC — gmdcltd.com investor pages:*
+- Audited FY26 results filing of 14-May-2026.
+- 63rd AGM proceedings of 30-Sep-2026.
+- Press releases: Baitarani-West MDO and clearances (11-Dec-2025); BARC technology transfer (19-Jan-2026); NTPC coal-supply and gasification MoUs (26-Feb-2026); Lakhpat–Punrajpur EC (27-Feb-2026).
+- Director-change letters.
+- The investor-call page: its latest transcript is the Q4 FY25 call of 29-May-2025. No FY26 or FY27 call transcript is posted.
+
+*Industry:*
+- DGCI&S Export-Import Data Bank (tradestat.commerce.gov.in): HS 2701 at 8 digits, FY20–FY26 quantity and value, plus monthly Apr–Aug 2025.
+- PIB/MoC release of 21-Mar-2026 (1 bn t crossed).
+- SCCL FY26 performance report (loss-reason table).
+- CREA *India Energy Snapshot Q2 FY27* (12-Oct-2026; Grid-India/CEA/MoC data).
+- Company releases of Peabody (FY2025), Whitehaven (FY26), BHP (FY26 operational review), Glencore (FY2025 production) and China Shenhua (2025), via search or fetch.
+
+**Call-transcript reality check**
+- Neither member held a published earnings call for Q1 FY27.
+- CIL's last published analyst transcript is the 14-May-2025 investor conference. Its Q1 FY27 "guidance" comes from the AGM speech (31-Aug-2026), the presentation and monthly releases.
+- GMDC's last transcript is Q4 FY25 (29-May-2025). Its FY27 guidance comes from the AR FY26 MD&A (despatch target 97 lakh t), CARE (Sep-2026) and press releases.
+- The management digests in §4.2 are built from these sources and dated.
+
+## 4.0 Supersedes (corrections to Parts 1–3 — the writer should apply these)
+
+| # | Where in Parts 1–3 | Old | New | Source |
+|---|---|---|---|---|
+| S1 | §2.1 table, §2.1 bullet, §9.1, §2.1 JSON | "FY27 target 850.24 mt" shown as CIL **production** target; "needs ~529 mt in H2 to reach 850" | 850.24 mt is CIL's FY27 **coal supply (offtake)** target (AR: "CIL has envisaged coal supply target of 850.24 MT"). The production target is reported as **~815 mt** [V-snip]. Arithmetic [E]: supply needs **466 mt in H2 (+20% on H2 FY26's 387.8 mt)**; production at 815 needs **494 mt in H2 (+12.5% on 439.1 mt)** | CIL AR FY26 MD&A [V]; press coverage 1-Oct-26 [V-snip] |
+| S2 | §2.1 H1 FY27 offtake | 383.9 mt [E] | **384.2 mt (+7.6% vs 357.0)**; H1 production 321.0 vs 329.1 (−2.5%) | CIL release 1-Oct-26 (via AngelOne, citing CIL) [V-sec]; Q-sum check 197.86 + 186.04 = 383.9 |
+| S3 | §2.3 imports table, §0, §5.3, §H2 | FY20 ~248.5, FY21 ~215.3, FY22 ~208.9, FY23 ~237.7, FY24 ~264.5, FY25 ~243–245, FY26 ~230–235 [K/E]; "coking ~60–65"; "import substitution has worked for thermal coal" | DGCI&S HS 2701 (mt): **FY20 248.5 · FY21 230.2 · FY22 208.6 · FY23 237.7 · FY24 264.5 · FY25 243.6 · FY26 246.4 (+1.1%)**. Coking (27011910) FY26 **66.1 mt (+15.8%)**; steam (27011920) **156.1 mt (−5.1%)**; "other coal" 20.1 mt. **Total imports rose in FY26** even as thermal fell. Value FY26 **US$26.7 bn (₹2,35,954 Cr)**, −9.5% in $ on price | tradestat.commerce.gov.in EIDB [V] |
+| S4 | Trap 8, §2.2 GMDC, §H13, §3.3 | GST ITC "₹474.43 Cr (AR) vs ₹522.65 Cr (press) — conflict" | **No conflict.** FY26 exceptional ₹522.65 Cr = **₹492.63 Cr ITC reversal** (booked ₹474.43 Cr in Q2 + ₹18.20 Cr in Q3) **+ ₹30.02 Cr** of litigated ITC restored in Q4. The AR's 474.43 is the Q2 booking | GMDC FY26 results 14-May-26, note 5; AR note 2.35 [V] |
+| S5 | Trap 8, §9.3, §2.2, §H13 | Screener ₹2,523 Cr "seems to exclude some other operating revenue"; AR "₹3,077 Cr" = "most likely total income" | Standalone **and** consolidated revenue from operations are both **₹2,653.38 Cr**. Screener's ₹2,523 Cr = 2,653.38 − **₹130.75 Cr GST compensation-cess expense** (FY25: 2,850.84 − 317.30 = 2,533.5 = screener 2,534). The AR's ₹3,077.26 Cr = **total income** incl. other income ₹423.88 Cr | GMDC FY26 results [V] |
+| S6 | §H13, trap 8 | GMDC AR EBITDA "₹899 Cr (29%)" vs screener ₹443 Cr — unexplained | AR EBITDA = PBT before exceptional 779.23 + finance 7.14 + D&A 114.71 = **₹901 Cr, i.e. including ₹424 Cr of other income**. Ex-other-income EBITDA ≈ **₹477 Cr (18.0% of ₹2,653 Cr)**, close to screener's ₹443 Cr on net-of-cess revenue | GMDC FY26 results [V]; [E] |
+| S7 | §3.4 primer issue, §H16 | OFS "floor ₹412 unverified"; "primer says June" | **Floor ₹412.00 verified.** Base offer 61,627,283 shares (1%) on 27-May (non-retail) and 29-May-2026 (retail), plus 1% greenshoe exercised by letter of 27-May → 123,254,566 shares + up to 25,000 employee shares. Brokers: Axis, ICICI Sec, JM, Kotak, SBICAP. The primer's floor is right; its "June" date is wrong | MoC OFS notice 26-May-26 p. 7; MoC letter 27-May-26 [V] |
+| S8 | §2.1 "No DRHP seen" (MCL/SECL) | In-principle approval only | **MCL DRHP dated 1-Sep-2026 filed with SEBI/BSE/NSE**: OFS of up to **661,836,300 equity shares (FV ₹2) by CIL**. DIPAM/MoC "Alternative Mechanism" approval for MCL listing (OFS + fresh issue, in tranches) on 15-May-2026. SECL: board in-principle only | CIL letters 2-Sep-26 and 15-May-26 [V] |
+| S9 | §3.4 primer issue (e-auction) | "Primer's FY26 ~38% is unsourced/wrong; AR says 46%" | Basis conflict, not an error. AR: **46%** (vs 48% FY25), over notified price. CMD's AGM speech (31-Aug-26): "average premium over floor price moderated to **38% from 48%**". Use 46% (statutory AR) and footnote the 38%. Also new: **Apr–Jul FY27 premium 43%** (AGM speech) | CIL AR FY26 [V]; AGM speech [V] |
+| S10 | §3, §H4 ("1.5 bn t not restated") | No 2026 restatement | National 1.5 bn t still not restated. But (a) the **FY26 all-India target was 1,157 mt** [V-snip PIB year-end review], vs ~1,037 actual; (b) CIL's CMD restated **"~1 bn t by FY2029-30"** for CIL alone (AGM, 31-Aug-26), with UG at 70 mt by FY30 | AGM speech [V] |
+| S11 | §7.3, §B5, §12, §A4 (state mineral taxes) | Tail risk: copycat cesses plus arrears from 2005 over 12 years from Apr-2026, "not quantified" | (a) **CIL's own legal department estimated the MCL/Odisha (ORISED Act 2004, 15% of annual coal value) exposure at ₹31,227.80 Cr.** The C&AG faulted CIL for not quantifying it; CIL replies that no demand has been raised and the Act is sub judice before a 3-judge SC bench (FY26 AR, C&AG comments). (b) **Parliament passed the MMDR Amendment Bill 2026 (LS 12-Aug, RS 13-Aug-2026).** It curbs states' power to tax mineral rights and land; per one explainer it extinguishes pre-commencement unpaid levy dues (~₹2 lakh Cr) and caps ~14 surviving levies. Presidential assent and the Jharkhand ₹450/t cess's fate are **not verified — FLAG** | CIL AR FY26 [V]; ETV/DH/KNN [V-sec]; Vajiram [V-sec] |
+| S12 | §7.3 / §3.6 / §G30 | Gasification ₹37,500 Cr "single source (GMDC AR) — verify" | **Cabinet approved ~13/14-May-2026**: surface coal/lignite gasification; outlay ₹37,500 Cr; ~75 mt; up to 20% of P&M; **cap ₹5,000 Cr per project**; NRS linkage up to 30 years; ₹2.5–3 lakh Cr investment expected | Deccan Herald, Tribune, AngelOne, pmindia.gov.in [V-sec] |
+| S13 | §10.1 Whitehaven | EBITDA A$2.68 bn (49.6%), EV/EBITDA 2.7× — flagged | **FY26 (Jun-26) underlying EBITDA A$1.25 bn** (QLD 677m, NSW 596m); ROM 40.3 mt; sales 32.7 mt at A$202/t; underlying NPAT A$227m (statutory 385m). EV/EBITDA ≈ **6.5×** on A$8.08 bn EV [E] | Whitehaven FY26 results/transcript 19-Aug-26 [V-sec] |
+| S14 | §10.1 production column [K] | Shenhua ~325–330; Glencore ~100–110; Peabody ~120–130; Bumi ~75–80; BMA not fetched | **Shenhua 2025**: ~332 mt produced, 430.9 mt sold (−6.4%), revenue CNY 294.9 bn, NP 52.85 bn. **Glencore 2025** ≈ 98 mt energy + 32.5 mt steelmaking ≈ 130 mt [E from H1 + H2 increments]. **Peabody 2025**: 122.0m short t sold (≈110.7 mt); revenue $3.86 bn; adj. EBITDA $455m. **BHP BMA FY26**: 37.3 mt (100%), 18.6 mt attributable. **Bumi**: 74.7 mt (2024); 2025 sales guidance 73–75 mt | Company releases [V/V-sec] |
+| S15 | §4.3, §D, §E10 (plant stock) | 18.9 mt (29-Sep), 18.2 mt (10-Oct); "~40% of plants critical" | Keep the MoC series (domestic-coal plants). Add CREA (all coal plants, Grid-India/CEA): **21 mt on 30-Sep = 36% of the 58 mt normative**; plants below 25% of norm went **32 (22-Aug) → 61 (8-Sep) → 84 (30-Sep) → 85 (1-Oct)**. Days of cover at ~2.63 mt/day consumption ≈ **8 days (30-Sep), ~7 days (10-Oct)** [E] | CREA Q2 FY27 snapshot [V-sec] |
+| S16 | §4.3 pithead stock | ~67 mt end-Sep [E] | **~76 mt at end-Aug** after liquidating ~55 mt in Apr–Aug [V]; ~63 mt liquidated by end-Sep [V] → ~67 mt [E] stands | CIL releases 1-Sep and 1-Oct [V] |
+| S17 | §9.1 company-style EBITDA (c) | "FY26 ≈ ₹53,276 Cr [E]" | **Confirmed by the company**: EBITDA ₹53,276 Cr (FY25 ₹57,139 Cr), **margin 32% (34%)**, RoAE 30%, RoACE 21%, BVPS ₹193.26 (₹165.06) | AGM speech [V] |
+| S18 | §2.1 Native KPIs (solar) | "100 MW at Bhadramali (COD 31-Mar-2026)" | AGM: "commissioned its first 100 MW solar plant at **Patan, Gujarat on 4-May-2026**" (Bhadramali is the site in Patan district [K]). Also 600 MW Jalaun (UP) solar order; 9.5 GW RE target by FY30; RVUNL and UPRVUNL JVs | AGM speech; CIL announcements list [V] |
+| S19 | §2.5, §12 GMDC Q1 result date | "not verified; likely early/mid-Aug" | **Board approved Q1 FY27 on 31-Jul-2026.** GNFC (coal-to-chemicals) and IREL (REE) MoUs approved | multibagg/AngelOne [V-sec] |
+| S20 | §5.2, §H17 SCCL cause | "cause not read" | SCCL's own FY26 report: production **58.004 vs 72.0 mt target (80.6%)**; OBR 365.26 vs 502 mcum (72.8%), **contractual OBR 70.8% of target vs departmental 89.4%**. March-2026 loss attribution: **"poor performance of some OBR contractors & delay in awarding new contracts" 67%**, delay in new projects 20.7%, geo-mining 11.9%. Second straight annual decline | SCCL report rt=179 [V] |
+| S21 | §2.3, §10.2 HBA | "not found" | **HBA Oct-2026 period II** (Kepmen ESDM 401.K/MB.01/MEM.B/2026): 6,322 GAR **$126.81/t** (P-I $122.52); 5,300 GAR $93.62; **4,100 GAR $66.10** (P-I $63.45); 3,400 GAR $54.53 | ima-api.org 18-Oct-26 [V-sec] |
+| S22 | §3 generation share | "CEA coal share FY26 exact % not found" | Still no full-year CEA figure. **Q4 FY26 coal = 339 BU = 73%** of generation [V-snip CREA/DTE]; **Q2 FY27 coal + lignite 351 BU = ~66%** (Q2 FY26 65%), coal PLF 68% (62%) [V-sec CREA] | CREA |
+| S23 | §7.4, C.2 wages | "~₹5,000–10,000 Cr catch-up plausible [E]" | Anchor it: **NCWA-XI catch-up provision ₹5,870.16 Cr was booked in Q4 FY23** (Q4 FY22 ₹475 Cr) [V CIL FY23 deck]. FY26 salary & wages ₹35,991 Cr [V AR]. **Q1 FY27 employee cost +0.4% → no NCWA-XII provision yet** [V PPT]. Management (May-2025): non-executive revision due Jun-26, **executive revision due Jan-27** [V transcript] | as stated |
+| S24 | §9.1 e-auction premium FY22–FY23 | "n/a (very high; K)" | Company-stated full-year % still unavailable. **E-auction/FSA realisation ratio** (ex-levy): FY22 ₹1,879 vs ₹1,406 (**1.34×**); FY23 ₹4,841 vs ₹1,475 (**3.28×**); H1 FY24 ₹3,294 vs ₹1,539 (2.14×). Spot premium Apr–Jan FY23 **279%** vs 62% Apr–Jan FY22 [V-snip OFBusiness]. Management: "two abnormal years of 250–300%" | CIL FY23 analyst deck; H1 FY24 deck [V]; transcript [V] |
+| S25 | §5.1 (Adani) | MDO ~40+ [K] | Adani Enterprises FY26: **mining-services dispatch 49.4 mt (+14%)**; coal trading (IRM) **44.6 mt (−21%)** | AEL FY26 media release [V-sec] |
+
+## 4.1 Verification table — 40 figures the writer will use
+
+Status key:
+- **V-pri** = verified this pass in a primary document (company filing, AR, ministry PDF, DGCI&S database). **34 of 40.**
+- **V-sec** = secondary source quoting a primary one. 5 of 40.
+- **E** = arithmetic on V inputs. 1 of 40.
+
+"Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Primary source (URL / document) | Status | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | CIL FY26 coal production | **768.19 mt** (UG 25.56 / OC 742.63) | CIL Integrated AR FY26 (bseindia.com …0a545232….pdf), 10-yr table; AGM speech 31-Aug-26 (cloudfront …/Proceeding_AGM_final.pdf) | V-pri (2 sources) | Yes |
+| 2 | CIL FY26 offtake | **744.83 mt** (FY25 762.98) | AR FY26; AGM speech | V-pri (2) | Yes |
+| 3 | CIL FY26 OBR / stripping ratio | 1,979.97 mcum → **2.58 m³/t** | AR FY26 10-yr table; ratio [E] | V-pri | Yes |
+| 4 | CIL FY26 FSA realisation (incl. other charges) | **₹2,082.66/t** (FY25 1,997.77); basic ₹1,443.52 | Q4 FY26 investor presentation (bseindia …eaca51fa….pdf) | V-pri | Yes |
+| 5 | CIL FY26 e-auction realisation (incl.) | **₹2,961.87/t** (FY25 3,122.64); basic ₹2,259.74 | Q4 FY26 presentation | V-pri | Yes |
+| 6 | CIL FY26 e-auction premium | **46%** over notified (FY25 48%; FY24 72%) | AR FY26 MD&A §3.0. **Conflict**: AGM speech says "38% over floor price" | V-pri (conflict noted) | Yes; footnote the 38% |
+| 7 | CIL Sep-2026 e-auction premium | **94%**; 72% of offered allocated (93.64 of 130.19 lakh t) | CIL SWMA filing 1-Oct-26 (bseindia …11677a45….pdf) | V-pri | Yes |
+| 8 | CIL H1 FY27 / Apr–Jul premium | **54%** (H1, 57.1 mt allocated of 142.2 offered); **43%** Apr–Jul | SWMA filing 1-Oct-26; AGM speech | V-pri (2) | Yes; adds Apr–Jul |
+| 9 | CIL FY26 employee cost | **₹46,424.59 Cr** (salary & wages 35,991; PF 9,006; other 1,427) → ₹604/t produced [E] | AR FY26 note 13.3 / ten-year statement | V-pri | Yes |
+| 10 | Executive pay-scale upgrade (one-off) | **₹1,458 Cr** in FY26 | Q4 FY26 presentation; AR note 8.4.5 | V-pri | Yes |
+| 11 | Jharkhand MBL cess / rates & taxes | **₹250 → ₹450/t**; rates & taxes **+₹3,635 Cr** FY26 | Q4 FY26 presentation, slides "Increase in Rates & Taxes" | V-pri | Yes |
+| 12 | CIL capex FY26 / FY27 target / Q1 FY27 | **₹19,607 Cr** (target 16,000) / **₹16,500 Cr** / Q1 **₹3,399 Cr (+16.6%)** | CIL capex press release 28-Jul-26 (cloudfront …Press_Release_pSCa1RO.pdf); AR | V-pri (2) | Yes; adds Q1 |
+| 13 | CIL net cash, Mar-26 | Cash 8,619.66 + other bank 43,954.71 + current investments 4,187.47 − borrowings (LT 9,232.36 + ST 4,589.10) = **₹42,941 Cr** | AR FY26 consolidated balance sheet and 10-yr statement | V-pri inputs; total [E] | Yes |
+| 14 | CIL FY26 DPS | **₹26.50** (interims ₹21.25 + final ₹5.25; 265%); GoI dividend ₹10,272 Cr; ₹1.88 lakh Cr paid since 2010 | AGM speech; AR | V-pri (2) | Yes |
+| 15 | CIL FY27 1st interim dividend | **₹5.50/share**, declared 27-Jul-26, paid by 25-Aug-26 | CIL letter 27-Jul-26 (cloudfront …/Dividend.pdf) | V-pri | New |
+| 16 | BCCL listing | **19-Jan-2026**, 10% OFS, ~147× subscribed | AGM speech; AR FY26 | V-pri (2) | Yes |
+| 17 | CMPDI listing | **30-Mar-2026**, 15% stake sale | AGM speech; AR FY26 | V-pri (2) | Yes |
+| 18 | CIL OFS floor / dates | **₹412.00**; T = 27-May, T+1 = 29-May-2026; 2% incl. greenshoe | MoC OFS notice 26-May-26 p. 7 (cloudfront …E3C9C00A….pdf); MoC letter 27-May-26 | V-pri | Supersedes S7 |
+| 19 | MCL IPO | DRHP dated **1-Sep-2026**; OFS up to **661,836,300 shares** (FV ₹2) by CIL | CIL Reg-30 letter 2-Sep-26 (cloudfront …/DRHP.pdf) | V-pri | Supersedes S8 |
+| 20 | CIL consolidated contingent liabilities | **₹49,147.46 Cr** (Mar-25 ₹48,047.53 Cr); of which central govt 30,821.72, state govt 7,526.48 (MADA ₹366.21 Cr) | AR FY26 note 16.1.a | V-pri | New |
+| 21 | MCL ORISED (Odisha) exposure | **₹31,227.80 Cr**, CIL legal department estimate, not disclosed as a contingent liability | AR FY26, C&AG comments and management reply | V-pri | New (S11) |
+| 22 | CIL FY26 PAT / company EBITDA | **₹31,071 Cr** (−12.4%) / **₹53,276 Cr** (32% margin) | AGM speech; AR | V-pri | Yes (S17) |
+| 23 | CIL Q1 FY27 | RFO **₹46,255 Cr (+8%)**; PAT **₹8,850 Cr**; production 169.63 (−7%); offtake 197.86 (+4%) | Q1 FY27 presentation (bseindia …32b8c85f….pdf); AGM speech | V-pri (2) | Yes |
+| 24 | CIL Q2 FY27 volumes | Offtake **186.04 mt (+12.0%)**; production **151.37 mt (+3.8%)**; Sep production 53.5, offtake 61.2 | CIL press release 1-Oct-26 (bseindia …10da2259….pdf) | V-pri | Yes |
+| 25 | CIL pithead stock | **~76 mt end-Aug-26** (~55 mt liquidated Apr–Aug); 101.35 mt 30-Jun; 129.96 mt 31-Mar | CIL release 1-Sep-26 (cloudfront …PR_60i89Wi.pdf); Q1 PPT | V-pri | New point |
+| 26 | CIL manpower | **2,12,066** (1-Apr-26) vs 2,20,242 | AR FY26; Q4 PPT | V-pri | Yes |
+| 27 | Power-plant coal stock | **18.2 mt (10-Oct-26)** (MoC domestic-coal basis); **21 mt on 30-Sep = 36% of 58 mt normative** (CREA, all plants) | Devdiscourse quoting MoC; CREA Q2 FY27 snapshot (energyandcleanair.org PDF) | V-sec (2) | Yes + basis note (S15) |
+| 28 | Newcastle 6,000 NAR front-month | **$151.15/t (22-Oct-26)**, +40.6% YTD | cnyes NCFCON (first pass; not re-fetched) | V-sec | Yes |
+| 29 | Indonesian HBA Oct-26 (II) | 4,100 GAR **$66.10/t**; 6,322 GAR **$126.81/t** | ima-api.org citing Kepmen ESDM 401.K/MB.01/MEM.B/2026 | V-sec | New (S21) |
+| 30 | India coal imports FY26 (HS 2701) | **246.4 mt (+1.1%)**; US$26.7 bn; ₹2,35,954 Cr | tradestat.commerce.gov.in/eidb/commodity_wise_import (8-digit, FY 2025-26) | V-pri | **No — supersedes ~230–235 (S3)** |
+| 31 | Coking coal imports FY26 | **66.1 mt (+15.8%)**, $178/t avg | same | V-pri | **No** (was ~60–65 E) |
+| 32 | Captive + commercial production FY26 | **210.46 mt (+10.22%)**; dispatch 204.61 | PIB/MoC 2-Apr-26 (coal.nic.in …Press020426.pdf) | V-pri | Yes |
+| 33 | India crossed 1 bn t in FY26 | on **20-Mar-2026** (second year running) | PIB/MoC 21-Mar-26 (coal.nic.in …/2026-04/Press_21mar26.pdf) | V-pri | Yes (§G26) |
+| 34 | SCCL FY26 production | **58.004 mt** (target 72; FY25 69.006) | SCCL monthly performance report Mar-26 (scclmines.com rt=179) | V-pri | Yes + cause (S20) |
+| 35 | GMDC FY26 revenue from operations | **₹2,653.38 Cr** standalone and consolidated; screener ₹2,523 Cr = net of ₹130.75 Cr GST cess expense | GMDC audited results 14-May-26 (gmdcltd.com …resultsmay.pdf) | V-pri | Resolves conflict (S5) |
+| 36 | GMDC FY26 exceptional | **₹522.65 Cr** = 492.63 GST ITC + 30.02 restored ITC | Results note 5; AR note 2.35 | V-pri (2) | Resolves conflict (S4) |
+| 37 | GMDC lignite despatch FY26 / FY27 target | **78.84 lakh t** / **97 lakh t** | GMDC AR FY26 MD&A (bseindia …d9d0f9e4….pdf) | V-pri | Yes |
+| 38 | GMDC Baitarani-West | **15 mtpa**; EC + Stage-I FC obtained; MDO awarded 11-Dec-2025; G-11 coal; NTPC MoU 26-Feb-26 (cost-plus) | GMDC press releases 11-Dec-25 and 26-Feb-26 | V-pri | Yes; adds MDO/FC |
+| 39 | Gasification scheme | **₹37,500 Cr**, ~75 mt, ≤20% of P&M, ≤₹5,000 Cr/project (Cabinet ~13/14-May-26) | Deccan Herald / Tribune / pmindia.gov.in | V-sec | Yes (S12) |
+| 40 | CIL FY27 supply-target gap | H2 offtake needed **466 mt (+20% YoY)** for 850.24 mt | [E] on #2, #24 and AR target | E | **No — supersedes S1** |
+
+**Credibility notes**
+- Where the AR and the AGM speech differ (#6), prefer the AR: it is audited and statutory, the speech is a summary. Where MoC and CREA plant stocks differ (#27), both are right on different bases.
+- The CIL monthly sub-totals (Sep production by subsidiary: WCL 4.1, CCL 5.7, MCL 17.6, SECL 11.4, NCL 8.5 mt) are [V-sec] via AngelOne quoting the 1-Oct release.
+
+## 4.2 Per-company deep dives
+
+### 4.2.1 Coal India Limited (COALINDIA · 533278)
+
+**(a) Management-guidance digest** (paraphrased; source and date on each line)
+
+*CMD B. Sairam, 52nd AGM speech, 31-Aug-2026 [V]*
+1. **FY26 was hit by "unusually heavy rainfall in Q2" and evacuation constraints**, with a Q4 recovery.
+   - Company-basis EBITDA ₹53,276 Cr (32% margin vs 34%).
+   - Causes named: lower average realisation, higher depreciation, higher contractual and statutory expenses.
+2. **FY27 so far: "encouraging on offtake and revenue, production under some pressure."**
+   - Q1 offtake +4%; RFO +8%; July offtake +18%.
+   - SWMA e-auction premium for Apr–Jul **43%** over notified prices.
+3. **Volume roadmap**: "approximately **one billion tonnes by FY 2029-30**" for CIL.
+   - Underpinned by 124 projects (>1,045 mtpa, ₹1.69 lakh Cr sanctioned).
+   - Underground target **70 mt by FY30** (FY26: 25.6 mt).
+4. **Evacuation**: mechanised loading scaled from ~151 mtpa to ~994 mtpa, **~₹25,600 Cr across 72 FMC projects**. Nine FMC projects commissioned in FY26.
+5. **Diversification**
+   - RE target **9.5 GW by FY30**: 100 MW at Patan commissioned 4-May-26; 200/300 MW at Khavda 8-Jul-26; JVs with Rajasthan and UP utilities; BESS in Odisha and Telangana. First energy revenue ₹5.68 Cr in Q1.
+   - BCGCL coal-to-ammonium-nitrate project (6.6 lakh t/yr AN).
+   - Five critical-mineral blocks, incl. the Kawalapur REE composite licence (Maharashtra, Jan-2026).
+   - **Gadadharpur iron-ore block, Odisha, 288 mt** (Aug-2026; CIL's first iron ore).
+   - CIL Global Pte Ltd, Singapore (24-Aug-2026), for overseas critical-mineral M&A.
+   - DVC JV for 1,600 MW at Chandrapura.
+   - HURL maiden dividend ₹404.37 Cr.
+6. **Capital returns**: payout held at ₹26.50 despite the profit fall. GST 5%→18% let CIL use **₹5,985 Cr** of accumulated ITC — "benefits expected to continue".
+7. **Listings**: BCCL (19-Jan-26) and CMPDI (30-Mar-26) done; MCL and SECL approved in principle. The MCL DRHP followed on 1-Sep-26 [V letter].
+
+*Director (Marketing) Mukesh Choudhary and Director (Finance), investor conference 14-May-2025 — the latest published CIL transcript [V]*
+8. **E-auction premium**: the normal through-cycle range is **30–40%**; the 250–300% years (FY22–FY23) were abnormal. FY25 by quarter: Q1 46%, Q2 50%, Q3 55%, Q4 43%.
+9. **E-auction volume policy**: a minimum of 10% of production is offered, and **"beyond 20% we'll not allow as of now"** (≈170 mt at 850 mt). Bookings run at 55–60% of the quantity offered.
+10. **Manpower**: ~12,000 employees retire a year vs 1,000–1,500 recruits. **"Wage revision is due in Jun'26 (non-executives) and the executive one in Jan'27"**, after which manpower cost "will again increase".
+
+*Monthly releases, Aug–Oct 2026 [V]*
+11. July: production +8.4% to 50.36 mt; supplies +18.4% to 64.19 mt (a record July).
+12. August: supplies +5.5% to 60.60 mt. About 55 mt of pithead stock liquidated in Apr–Aug; ~76 mt left — "sufficient inventory".
+13. September: production +9.2%; offtake +12.5%.
+14. NCL (9-Sep): the monsoon recovery lifted CIL's daily production from 1.36 mt/day (first three days of September) to 1.91 mt/day (8-Sep).
+
+**Management-stated KPI table (no Q1 FY27 call held — KPIs from the presentation and releases) [V]**
+
+| KPI | FY25 | FY26 | Q1 FY27 | Jul-26 | Aug-26 | Sep-26 | H1 FY27 |
+|---|---|---|---|---|---|---|---|
+| Production (mt) | 781.06 | 768.19 | 169.63 (−7%) | 50.36 (+8.4%) | ~47.5 [E] | 53.50 (+9.2%) | 321.0 (−2.5%) |
+| Offtake / supplies (mt) | 762.98 | 744.83 | 197.86 (+4%); June 65.95 (record) | 64.19 (+18.4%) | 60.60 (+5.5%) | 61.20 (+12.5%) | 384.2 (+7.6%) |
+| of which power (mt) | — | — | — | 49.77 (+18%) | 48.46 (+4.5%) | 48.90 (+10.6%) | Q2 148.2 |
+| NRS supplies (mt) | — | — | — | 14.42 (+21%) | 12.12 (+9.6%) | +19.4% | — |
+| OBR (mcum) | 2,019.50 | 1,979.97 | 504.68 | 120.35 (+21%) | — | — | Apr–Jul 625.02 (+2.9%) |
+| E-auction premium | 48% | 46% (AR) / 38% (CMD) | — | Apr–Jul 43% | — | 94% | 54% |
+| Pithead stock (mt, end) | 107.16 | 129.96 | 101.35 | — | ~76 | ~67 [E] | — |
+| Capex (₹ Cr) | 21,776 | 19,607 | 3,399 (+16.6%) | — | — | — | FY27 target 16,500 |
+| Dividend (₹/share) | 26.50 | 26.50 | 5.50 (1st interim) | — | — | — | 2nd interim: board 29-Oct |
+
+**Five-year history (consolidated; ₹ Cr) [V screener 23-Oct-26 · AR · FY23/H1 FY24 decks]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue from operations | 1,09,715 | 1,38,252 | 1,44,762 | 1,69,177 | 1,68,400 |
+| EBITDA (screener OP) | 24,721 | 44,232 | 47,971 | 43,102 | 37,172 |
+| OPM | 23% | 32% | 33% | 25% | 22% |
+| EBITDA, company basis (incl. other income) | — | — | — | 57,139 | 53,276 |
+| Other income (screener) | 3,866 | 6,560 | 8,396 | 14,037 | 16,104 |
+| PAT | 17,378 | 31,723 | 37,369 | 35,450 | 31,071 |
+| ROCE (screener) | 54% | 78% | 64% | 48% | 35% (company RoACE 21%) |
+| CFO / FCF | 41,107 / 29,111 | 35,734 / 20,523 | 18,103 / 1,353 | 30,237 / 15,958 | 43,215 / 30,783 |
+| DPS (₹) | 17.00 | 24.25 | 25.50 | 26.50 | 26.50 |
+| Production (mt) | 622.63 | 703.20 | 773.65 | 781.06 | 768.19 |
+| Offtake (mt) | 661.88 | 694.69 | 753.51 | 762.98 | 744.83 |
+| FSA volume (mt) / realisation ex-levy (₹/t) | 540.20 / 1,406 | 620.71 / 1,475 | n/a (H1: 322.17 / 1,539) | 666.46 / 1,432 | 645.99 / 1,444 |
+| E-auction volume (mt) / realisation ex-levy (₹/t) | 110.80 / 1,879 | 62.32 / 4,841 | n/a (H1: 31.91 / 3,294) | 79.09 / 2,424 | 83.83 / 2,260 |
+| E-auction/FSA price ratio [E] | 1.34× | 3.28× | ~2.1× (H1) | 1.69× | 1.57× |
+| E-auction premium over notified (company) | n/a (Apr–Jan 62% [V-snip]) | n/a (Apr–Jan 279% [V-snip]) | 72% | 48% | 46% |
+| Year-end manpower | 2,48,550 | 2,39,210 | 2,28,861 | 2,20,272 | 2,12,066 |
+
+Notes on the five-year table:
+- FY22–FY23 realisations are the deck's "net sales ÷ quantity". That is the same ex-levy concept as the later "basic" series. Treat the comparison as approximate.
+- FY24 full-year channel data was not found. The H1 FY24 figures are shown instead.
+- **E-auction volume swung from 110.8 mt (FY22) to 62.3 mt (FY23)** as CIL prioritised power-sector FSA supply during the shortage. That is why FY23 earnings rose on price, not volume.
+
+**Eight-quarter trend (screener consolidated; ₹ Cr) [V]**
+
+| Quarter | Revenue | OP | OPM | PAT | Offtake (mt) | Note |
+|---|---|---|---|---|---|---|
+| Sep-24 (Q2 FY25) | 31,182 | 8,617 | 28% | 6,275 | — | monsoon quarter |
+| Dec-24 | 36,859 | 12,317 | 33% | 8,491 | — | |
+| Mar-25 | 37,825 | 11,790 | 31% | 9,593 | — | |
+| Jun-25 (Q1 FY26) | 42,919 | 12,588 | 29% | 8,788 | 190.96 | |
+| Sep-25 | 30,187 | 6,716 | 22% | 4,263 | ~166 [E: 357.0 − 190.96] | heavy rain; e-auction weak |
+| Dec-25 | 34,924 | 9,331 | 27% | 7,166 | — | |
+| Mar-26 | 46,490 | 12,673 | 27% | 10,908 | — | Jharkhand cess; exec pay provision |
+| **Jun-26 (Q1 FY27)** | **46,255** | **12,069** | **26%** | **8,850** | **197.86** | diesel +27%, contractual +11% |
+
+Caveats and preview:
+- Screener's quarterly revenue does not sum to its annual figure. FY25 quarters sum to ₹1,42,331 Cr vs ₹1,69,177 Cr annual; FY26 to ₹1,54,520 Cr vs ₹1,68,400 Cr. That is a levy/reclassification artefact. Use the annual figures for growth rates and the quarterly figures only for margin shape.
+- **Q2 FY27 (board 29-Oct-2026) preview [E]**: Q2 offtake 186.04 mt (+12%) against Q2 FY26's ~166 mt; Sep premium 94%; Q1 shows no NCWA provision. A Q2 OP of ~₹9,000–10,000 Cr vs ₹6,716 Cr is plausible, unchanged from Part 1 C.3. The swing factors are any NCWA-XII provision and the diesel price.
+
+**(b) Annual-report findings (Integrated AR FY26, re-read this pass) [V]**
+1. **Contingent liabilities rose to ₹49,147.46 Cr** (from ₹48,047.53 Cr).
+   - Central government ₹30,821.72 Cr; state government and local authorities ₹7,526.48 Cr (royalty 2,189; sales tax 1,642; entry tax 719; **MADA 366.21**; others 2,584); CPSEs ₹11.81 Cr; others ₹10,787.45 Cr (employee-related ₹3,541.68 Cr, up from ₹1,668 Cr).
+   - Environment-clearance claims fell from ₹2,864 Cr to nil.
+2. **C&AG comments on the FY26 accounts.**
+   - (i) CCL's **₹364.44 Cr** Jharkhand MADA fee (1% of sale value, 2005-06 to 2022-23) is a contingent liability rather than a provision, despite the SC's 25-Jul-2024 ruling. C&AG: profit overstated by that amount.
+   - (ii) **CIL's legal department had estimated MCL's exposure under Odisha's ORISED Act 2004 (15% of annual coal value) at ₹31,227.80 Cr**, but the note does not quantify it.
+   - Management's reply: the Orissa HC struck the Act down on 5-Dec-2005; the appeal is pending before a 3-judge SC bench; Odisha has neither re-enacted it nor raised a demand. Disclosure would be "purely speculative".
+   - **This ₹31k Cr (≈ one year of CIL PAT) is the true size of the post-MADA tail risk.** The MMDR Amendment 2026 (S11), if notified, largely defuses it.
+3. **Jharkhand illegal-mining penalty demands of ₹2,178.14 Cr on ECL** (Rajmahal, SP Mines, Mugma areas). Stayed by the MoC Revisional Authority, with no coercive action [V AR].
+4. **Wages**: salary & wages ₹35,991 Cr; PF and other funds ₹9,006 Cr. The AR's labour-code assessment finds "no material impact". No NCWA-XII provision at Mar-26 or Jun-26.
+5. **Commercial facts**:
+   - FSA commitments 793.9 mtpa.
+   - MoC's FY27 power-sector demand on CIL: 669.8 mt.
+   - Declared vs analysed GCV gap only 56.7 kcal/kg; grade conformity 86% — quality disputes are no longer a material realisation leak.
+6. **Mine closure**: 32 mines received final closure approval in FY26 (40 cumulative). The escrow deposits are part of "other bank balances" — the reason the ₹42.9k Cr net cash should be quoted as a range (₹40–43k Cr).
+7. **Related parties**: the RPT disclosure for FY26 was filed separately (cloudfront …/RPT.pdf; not read). Transactions are overwhelmingly intra-group (subsidiaries/JVs) plus GoI dividends. **No royalty to a parent** — CIL is the parent.
+
+**(c) What the writer should now say about CIL [E]**
+- FY27 is a **two-speed year**: supply can rise ~10% on destocking, but production growth is capped. The 850 mt supply target needs H2 +20% and will be missed; **~800–820 mt offtake** is a realistic outcome.
+- **The e-auction lever is capped by policy at ~20% of output.** Even a 94% premium therefore moves group EBITDA by single-digit percent per quarter.
+
+### 4.2.2 Gujarat Mineral Development Corporation (GMDCLTD · 532181)
+
+**(a) Management-guidance digest** (paraphrased, dated)
+
+*Q4 FY25 earnings call, 23-May-2025 — the latest GMDC transcript (MD Roopwant Singh) [V gm transcript]*
+1. **FY25 lignite volume ~8 mt missed the "ambitious" 10 mt target.**
+   - Reasons: Rajpardi (the fifth and smallest mine) was shut after a safety incident; Bhavnagar package-2 was delayed by land acquisition in one or two villages.
+   - **FY26 guidance: +10–15% from the four existing mines.**
+   - **Outcome: FY26 despatch 7.884 mt, −1.7%.** The early, extended monsoon, Tadkeshwar waterlogging and the Morbi gas squeeze all hit (AR MD&A). The guidance was missed.
+2. **New lignite mines**: six new mines with ~12 mtpa of capacity are in development.
+3. **Baitarani West (15 mtpa peak) was to show revenue "this year" (FY26)** if groundbreaking happened.
+   - Peak 15 mtpa by ~FY30, with scope to go beyond.
+   - Burapahar staggered by a year; UCG partner EOI (towards "blue hydrogen").
+   - **Outcome: no FY26 coal revenue. The MDO was awarded and EC + Stage-I FC obtained on 11-Dec-2025. CARE now has COD in Q4 FY27.**
+4. **Coal pricing**: "mindful of international price and what is being sold by Coal India… the notified price of Coal India is fairly low, we will not be selling at that price."
+   - The Feb-2026 NTPC MoU instead points to **cost-plus G-11 coal** for NTPC Section-62 plants serving Gujarat discoms. That is a lower-risk, lower-upside model than the merchant pricing implied in May-2025.
+5. **Capex**: ~**₹13,000 Cr to 2030**, typically ₹1,500–2,000 Cr/yr, peaking for two years.
+   - FY26 actual ₹1,048 Cr [V AR] — under the run-rate.
+   - Funding: ~₹2,000 Cr of reserves plus internal accruals.
+6. **Unit economics**: an analyst estimated Q4 FY25 lignite at ~₹3,400/t realisation and ~₹800–890/t EBITDA. Management did not dispute it.
+   - Prices are reviewed monthly, or fortnightly per CARE.
+   - Management declined to give revenue/PAT guidance ("depends on Odisha majorly and Bhavnagar").
+
+*AR FY26 MD&A, filed 5-Sep-2026 [V]*
+7. **FY27 lignite despatch target 97 lakh t (+23%)**, conditional on mine access, exposed lignite, quality and offtake.
+   - Bhavnagar: record 25.47 lakh t in FY26, record month 3.63 lakh t, "slot booking".
+   - Mata-no-Madh: quality optimisation.
+   - First coastal or interstate shipments: ~39,000 t, of which ~31,000 t in March 2026.
+8. **Limestone**: >2.5 bn t of cement-grade limestone in western Kutch; 800 mt offered to cement makers; a 40-year supply deal with JK Cement.
+   - Lakhpat–Punrajpur received EC on 27-Feb-2026 for **3.0 mtpa lignite + 29.81 mtpa limestone** [V PR].
+
+*Other filings, Dec-2025 to Oct-2026 [V]*
+9. **REE**: BARC transferred the "CH48MinD" process (19-Jan-2026) to produce mixed rare-earth concentrate from Ambadungar ankeritic ore. **Pilot scale first**, at GMDC's iCEM centre.
+   - IREL MoU approved at the Q1 board (31-Jul-2026) [V-sec].
+   - **No commercial REO tonnage or date in any company document** (see primer issue).
+10. **Governance**
+    - MD changed: Roopwant Singh, IAS → **Ajay Bhadoo, IAS**, who chaired the 30-Sep-2026 AGM as MD. Chairman Dr Hasmukh Adhia; CFO A K Iyer.
+    - The AGM drew 54 members and **no shareholder questions**.
+
+**KPI table (company / CARE) [V unless noted]**
+
+| KPI | FY24 | FY25 | FY26 | Q1 FY27 | FY27 guide / outlook |
+|---|---|---|---|---|---|
+| Lignite despatch (mt) | 6.37 | 8.02 | **7.884** (target 8.14) | **2.41** (vs 1.98) [CARE] | **9.7** (AR) |
+| Lignite revenue (₹ Cr) | 2,250 | 2,608 | ~2,339 | n/a | — |
+| Lignite realisation (₹/t) [E] | ~3,532 | ~3,252 | ~2,967 (−9%) | ~3,300 [E] | CARE: +30–40%; prices +50–60% by 17-Sep-26 vs 31-Mar-26 |
+| Mining segment revenue / result (₹ Cr) | — | 2,713.76 / 699.14 | 2,507.62 / 607.49 | n/a | — |
+| Power segment revenue / result (₹ Cr) | — | 160.28 / −21.94 [E] | 215.72 / −79.61 | LTPS PLF ~33% [CARE] | 350 MW expansion under evaluation |
+| Capex (₹ Cr) | — | — | 1,048 | — | ₹13,000 Cr to 2030 (May-25 call) |
+| Coal (Odisha) | — | — | MDO + EC + Stage-I FC (Baitarani W.) | — | COD Q4 FY27 [CARE] |
+
+The FY25 power-segment result is derived: total segment result 677.20 − mining 699.14 = **−21.94** [E from V].
+
+**Five-year history (₹ Cr; screener consolidated unless noted) [V]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue (screener, **annual nets GST compensation cess**) | 2,732 | 3,498 | 2,463 | 2,534 | 2,523 |
+| Revenue from operations (company, gross) | — | — | — | 2,850.84 | 2,653.38 |
+| EBITDA (screener OP) | 721 | 1,337 | 609 | 638 | 443 |
+| OPM | 26% | 38% | 25% | 25% | 18% |
+| Other income | 158 | 396 | 271 | 349 | 947 (incl. 522.65 exceptional) |
+| PAT | 446 | 1,204 | 597 | 680 | 957 (≈566 ex one-off [E]) |
+| ROCE (screener) | 18% | 31% | 13% | 14% | 11% |
+| CFO / FCF | 481 / 443 | 933 / 908 | 110 / −366 | 1,066 / 430 | 744 / −289 |
+| DPS (₹) | 4.30 | 11.45 | 9.55 | 10.10 | 9.50 |
+| Lignite despatch (mt) | 8.55 | 7.58 | 6.37 | 8.02 | 7.884 |
+| Lignite realisation (₹/t) [E] | ~2,894 | ~4,292 | ~3,532 | ~3,252 | ~2,967 |
+
+**Basis warning**: screener's **annual** GMDC revenue nets the GST compensation cess expense (₹130.75 Cr FY26; ₹317.30 Cr FY25). Its **quarterly** revenue does not:
+- FY26 quarters 733 + 528 + 579 + 814 = 2,654 = gross.
+- FY25 quarters 818 + 593 + 653 + 786 = 2,850 = gross.
+- Quarterly YoY growth is therefore like-for-like. Annual screener revenue understates gross sales by the cess.
+- The cess was abolished from 22-Sep-2025, so from FY27 the two bases converge.
+
+**Eight-quarter trend (screener consolidated; ₹ Cr) [V]**
+
+| Quarter | Revenue (gross) | OP | OPM | PAT | Note |
+|---|---|---|---|---|---|
+| Sep-24 | 593 | 140 | 24% | 128 | Q2 FY25 PAT +71% (company release) |
+| Dec-24 | 653 | 92 | 14% | 148 | |
+| Mar-25 | 786 | 194 | 25% | 226 | |
+| Jun-25 | 733 | 169 | 23% | 164 | lignite 1.98 mt |
+| Sep-25 | 528 | 69 | 13% | 466 | exceptional ₹474.43 Cr GST ITC; monsoon |
+| Dec-25 | 579 | 101 | 17% | 133 | exceptional ₹18.20 Cr |
+| Mar-26 | 814 | 104 | 13% | 194 | exceptional ₹30.02 Cr; record Q4 despatch 25.82 lakh t; D&A step-up 49 |
+| **Jun-26** | **907 (+24%)** | **191 (+13%)** | **21%** | **163** | lignite 2.41 mt (+22%); board 31-Jul-26 |
+
+Q2 FY27 (board 30-Oct-26) preview [E]:
+- The September-quarter lignite price was up 50–60% (CARE). Even at flat volume (~1.7–1.9 mt monsoon quarter), revenue should be ~₹700–800 Cr vs ₹528 Cr.
+- OP of ~₹180–250 Cr vs ₹69 Cr.
+- Reported PAT will fall YoY, because Q2 FY26 carried the ₹474 Cr exceptional. **Warn readers about the optical PAT decline.**
+
+**(b) Annual-report findings (63rd AR FY26 and audited results) [V]**
+1. **Contingent liabilities ₹1,063.87 Cr** (₹1,137.33 Cr).
+   - Contractors, land compensation and others ₹915.75 Cr; income tax ₹78.47 Cr; royalty, stamp duty and levies ₹45.48 Cr.
+   - **Unquantified exposure**: Mata-no-Madh and Umarsar have been mined **above their specified annual lignite capacity** (board-approved; GoG "intimated"). "Liability in this regard, if any, cannot be ascertained" (note 2.40.01). This is an environmental-clearance-type compliance risk worth one line.
+2. **GSECL/GUVNL dispute**: the lignite price formula assumes 13% interest on project PPE, but the utilities pay at 8.5% from Jul-2017. ₹10.17 Cr is receivable (auditor emphasis of matter). Immaterial in size, but it shows **the state utilities are price-takers only on GMDC's terms when it suits them**.
+3. **Related parties**: only CSR trust contributions (₹40.50 Cr) are disclosed as RPTs. Sales to GoG utilities are not treated as RPTs (government-related-entity exemption). **No royalty or brand fee to the promoter.** The GoG takes value via dividend (₹223.55 Cr) and state royalties/levies (₹237.86 Cr FY26).
+4. **Cash**: cash and equivalents are only ₹94 Cr; other bank balances ₹446 Cr are mostly **lien-marked FDs (₹430.75 Cr against guarantees)**, tied to the Odisha-block BGs.
+   - The ">₹1,700 Cr unencumbered liquidity" (CARE) sits in deposits with financial institutions (GSFS) classified elsewhere.
+   - **Quote net cash as ~₹1,200–1,400 Cr**, after excluding the lien-marked FDs [E].
+5. **Mine-closure escrow interest is booked as income** (auditor emphasis, note 2.29.01). It is part of the ~₹424 Cr other income.
+6. **Exceptional items**: GST ITC reversal ₹492.63 Cr (₹12.76 Cr of it hit CWIP and ₹5.12 Cr intangibles) plus restored litigated ITC ₹30.02 Cr. Labour-code impact ₹3.02 Cr in Q4.
+7. **Segment assets**: mining ₹4,069 Cr (up from ₹2,871 Cr — Odisha and new-mine capex); power ₹1,237 Cr earning a loss. **The power plant is ~23% of segment assets and destroys value at a 33% PLF.**
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. India coal imports by type, FY20–FY26 (DGCI&S EIDB, HS 2701, 8-digit; fetched 23-Oct-2026) [V]**
+
+| Year | Total HS 2701 (mt) | Coking 27011910 (mt) | Steam 27011920 (mt) | Other coal 27011990 (mt) | Anthracite + bituminous (mt) | Value US$ bn | Coking $/t | Steam $/t |
+|---|---|---|---|---|---|---|---|---|
+| FY20 | 248.5 | 51.8 | 157.3 | 9.3 | 30.1 | 21.6 | 167 | 60 |
+| FY21 | 230.2 | 51.2 | 151.9 | 10.0 | 17.1 | 15.7 | 120 | 48 |
+| FY22 | 208.6 | 57.1 | 125.9 | 11.7 | 13.9 | 30.6 | 241 | 101 |
+| FY23 | 237.7 | 56.1 | 161.7 | 13.1 | 6.8 | 48.0 | 344 | 144 |
+| FY24 | 264.5 | 58.1 | 183.5 | 16.9 | 6.0 | 37.5 | 275 | 95 |
+| FY25 | 243.6 | 57.1 | 164.5 | 17.7 | 4.3 | 29.5 | 213 | 85 |
+| FY26 (prov.) | **246.4** | **66.1** | **156.1** | **20.1** | 4.1 | **26.7** | **178** | **75** |
+
+- FY26 in rupees: **₹2,35,954 Cr** (FY25 ₹2,49,534 Cr). Coking ₹1,04,100 Cr; steam ₹1,02,767 Cr. Coke (HS 2704) a further 4.58 mt.
+- FY21 quantities appear in tonnes in the EIDB; they are converted here.
+- "Bituminous coal" was split into coking and other sub-lines only from FY24.
+- **Read-across**:
+  - Steam-coal imports peaked in FY24 at 183.5 mt and fell 15% in two years. Coking coal rose 16% in FY26 alone.
+  - The import bill fell on price, not volume: steam unit value $144/t (FY23) → $75/t (FY26).
+  - BigMint's "non-coking 160 mt" ≈ steam 156.1 + part of "other coal" [V-sec vs V]. Use the DGCI&S lines in charts.
+- **FY27 YTD**: the EIDB monthly module shows only India's total imports for 2026 (Apr–Aug US$362.9 bn, +18.2%). HS-2701 monthly lines for 2026 were not yet populated.
+  - The FY26 baseline for comparison: Apr–Aug 2025 = 111.05 mt ($11.72 bn); Jul-2025 21.08 mt; Aug-2025 19.08 mt [V].
+
+**D2. All-India production — FY26 and FY27 monthly [V / V-sec / E]**
+
+| Item | Value | Source |
+|---|---|---|
+| FY25 all-India | 1,047.52 mt | MoC AR [V] |
+| FY26 target | 1,157 mt | PIB year-end review [V-snip] |
+| FY26 crossed 1 bn t | 20-Mar-2026 | PIB 21-Mar-26 [V] |
+| FY26 composite | **~1,036.7 mt (−1.0%)** = CIL 768.19 + SCCL 58.00 + captive/commercial 210.46 | [E from V]; MoC year-end total still not found |
+| Apr-2026 | 81.57 mt (+3.63%) | Tribune/MoC [V-snip] |
+| Jul-2026 | **69.75 mt (+7.51%)**; dispatch +17.34% | newsonair/MoC [V-sec] |
+| Apr–Jul FY27 | **302.24 mt**; dispatch **354.70 mt (+5.87%)** | newsonair/MoC [V-sec] |
+| Aug-2026 | **−4.3% YoY**, the weakest month of FY27 | CREA [V-sec] |
+| CIL H1 FY27 | production 321.0 (−2.5%); offtake 384.2 (+7.6%) | CIL [V] |
+| Destocking gap | Apr–Jul all-India dispatch exceeded production by **52.5 mt** | [E] |
+
+**D3. Power-sector coal balance, Q2 FY27 (CREA snapshot, Grid-India/CEA/MoC data) [V-sec]**
+
+| Metric | Q2 FY26 | Q2 FY27 |
+|---|---|---|
+| Total generation (BU) | ~483 | 536 (+11%) |
+| Coal + lignite generation (BU) / share | 312 / 65% | **351 / ~66%** |
+| Coal PLF | 62% | **68%** |
+| Hydro PLF | 61% | 50% |
+| Peak demand | 230 GW | **270 GW (16-Jul-26)** |
+| Plant coal consumption | — | ~79 mt/month (Jun–Sep) |
+| Dispatch to power plants | — | 74 mt (May) → 66 mt (Aug) |
+| Plant stock, 30-Sep | — | **21 mt = 36% of 58 mt normative** |
+| Plants below 25% of norm | — | 32 (22-Aug) → 61 (8-Sep) → 84 (30-Sep) → 85 (1-Oct) |
+| Installed coal capacity (Aug-26) | — | 224 GW; coal + lignite 231 GW (42%); non-fossil ~55%; **44 GW coal under construction, 90% of it <50% complete** |
+
+Also: Q4 FY26 coal generation 339 BU = **73%** of the total [V-snip CREA via DTE].
+
+**D4. Seaborne and reference prices [V-sec]**
+
+| Benchmark | Latest | Earlier comparator |
+|---|---|---|
+| HBA 6,322 GAR (Oct-26 period II) | **$126.81/t** | Oct period I $122.52 |
+| HBA 4,100 GAR | **$66.10/t** | $63.45 |
+| HBA 5,300 GAR | $93.62/t | $90.60 |
+| Newcastle 6,000 NAR front-month (22-Oct-26) | $151.15/t | API6 weekly ~$106/t in early Jan-2026 (Argus sample) [V-snip] → **+~42%** |
+| SGX Indonesia 4,200 GAR | $59.54/t (10-Apr-26) [V-snip cbonds] | Mar-26 range $53–59 |
+| Domestic India 5,000 GCV ex-Bilaspur | ₹5,850/t (Feb-26) [V-snip BigMint] | — |
+| API4 Richards Bay | **not found (paywalled) — open** | $102.75/t (10-Apr-26) [V-snip cbonds] |
+
+**D5. Global coal miners — upgraded (company releases) [V / V-sec; multiples stockanalysis 23-Oct-26]**
+
+| Company | Latest FY volume | Revenue | EBITDA (margin) | P/E | EV/EBITDA | Unit cost / note |
+|---|---|---|---|---|---|---|
+| **Coal India** | FY26 **768.2 mt** produced; 744.8 mt offtake | ₹1,68,400 Cr (US$17.7 bn) | screener OP ₹37,172 Cr (22%); company basis ₹53,276 Cr (32%, incl. OI) | 7.8 | ~5.4× FY26 OP | ex-levy cash cost ~₹1,000–1,100/t ≈ $11/t [E] |
+| China Shenhua | 2025 ~**332 mt** produced; **430.9 mt sold** (−6.4%) | CNY 294.9 bn (−13.2%) | TTM 32.2% | 12.6 | 11.4× | NP CNY 52.85 bn (−5.3%); avg coal price −12.1% |
+| Glencore (coal) | 2025 ≈ **98 mt energy + 32.5 mt steelmaking ≈ 130 mt** [E] | group | group | 15.8 | 7.9× (group) | FOB cash cost energy **$65.3/t**, steelmaking $109.1/t (2025) |
+| Peabody | 2025 **122.0 m short t sold (≈110.7 mt)**: PRB 84.5, other US 13.4, seaborne thermal 15.4, met 8.6 | $3.86 bn | adj. **$455m (11.8%)** | n/m (net loss $53m) | **5.8× FY25** (9.5× TTM) | 2026 guide: met 10.3–11.3 m st (rising) |
+| Whitehaven | FY26 ROM **40.3 mt**; sales 32.7 mt @ A$202/t | ~A$5.4 bn (TTM) | underlying **A$1.25 bn (~23%)** | 16.6 statutory / ~29 underlying | **~6.5×** | unit cost A$132/t |
+| BHP (BMA) | FY26 **37.3 mt (100%)**; 18.6 mt attributable | group | group | — | — | Sep-26 qtr 9.8 mt |
+| Bumi | 2024 74.7 mt; 2025 guide 73–75 mt sold; 2026 target 77–78 | IDR 28.9 tn TTM | 11.5% | 24.7 | 15.1× | KPC rain-hit in 2025 |
+| AlamTri (ex-Adaro) | met coal (post-AADI spin), volume [K] | IDR 36.1 tn | 43.4% | 6.9 | 5.0× | — |
+
+- Read-across: **CIL's ex-levy cash cost (~$11/t) is roughly one-sixth of Glencore's energy-coal FOB cost ($65/t)** [E; GCV not adjusted]. CIL still trades at the lowest P/E of the large miners.
+- On EV/EBITDA, CIL (~5.4×) now sits **with Peabody (5.8× FY25) and AlamTri (5.0×)**, not below everyone.
+
+**D6. Policy facts upgraded [V / V-sec]**
+- **MMDR Amendment Bill 2026** (LS 12-Aug, RS 13-Aug-2026):
+  - Curbs states' power to tax mineral rights and mineral-bearing land (centre to set uniform treatment for major minerals incl. coal).
+  - Reportedly extinguishes pre-commencement unpaid levy dues and caps ~14 surviving levies.
+  - **Removes the 50% sale cap on captive mines.**
+  - Provides for regulating mineral exchanges.
+  - Jharkhand's CM objected: mining is 84.9% of the state's own non-tax revenue. Assent and notification are **not verified**.
+- **Gasification**: Cabinet, ~13/14-May-2026. ₹37,500 Cr; ~75 mt; ≤20% of P&M; ≤₹5,000 Cr per project; 30-year NRS linkage.
+  - CIL–BHEL BCGCL (₹25,000 Cr; 6.6 lakh t/yr AN): foundation stone 20-Jun-2026.
+  - GMDC–GNFC and GMDC–NTPC gasification MoUs (2026).
+- **NCWA-XII**: NCWA-XI expired 30-Jun-2026.
+  - JBCCI-XII was **not constituted as of ~8-Oct-2026**. Unions want an exemption from s.14 of the Industrial Relations Code 2020; a High Court petition by executives over pay anomalies may delay it further [V-sec IndustrialPunch, IndianPSU].
+  - Executive pay revision falls due Jan-2027 [V CIL transcript].
+  - Precedent: NCWA-XI (19% MGB, +25% allowances) was signed ~2 years late [K]; its catch-up provision of **₹5,870 Cr was booked in Q4 FY23** [V].
+
+## 4.4 Gap log (§H items and the brief's 12 gaps)
+
+| # | Gap | Status | What was found / tried |
+|---|---|---|---|
+| 1 | All-India FY26 production; MoC Sep-26 / H1 FY27 release | **Partly filled** | Found: 1 bn t crossed 20-Mar-26 [V]; FY26 target 1,157 mt; captive/commercial 210.46 [V]; Jul-26 69.75 mt, Apr–Jul 302.24 mt [V-sec]; Aug −4.3% [V-sec]. **Still open**: MoC's FY26 total and Sep/H1 totals with a CIL/SCCL/captive split (4 searches; coal.nic.in and newsonair releases checked). Use ~1,037 mt [E] |
+| 2 | Imports FY20–FY26 by volume, value and type; FY27 monthly | **Filled for FY20–FY26** (DGCI&S, D1). **FY27 open**: the EIDB monthly HS-level data for 2026 is not yet populated; mjunction FY27 releases not found in search |
+| 3 | HBA Oct-26; 4,200 GAR; Newcastle; API4 | **Mostly filled**: HBA Oct-26 (both periods) [V-sec]; Newcastle (Part 1). **Open**: current 4,200 GAR market index and API4 (paywalled) |
+| 4 | 1.5 bn t target; MoC demand projections; CEA FY26 coal share | **Partly**: 1.5 bn not restated (open); CIL's 1 bn by FY30 restated [V]; FY26 national target 1,157 mt; MoC FY27 power demand on CIL 669.8 mt [V]; MoC AR puts FY25 demand at 1,267.13 mt [V-snip]. **CEA full-year FY26 coal share still open**; Q4 FY26 73%, Q2 FY27 ~66% |
+| 5 | E-auction premium FY22–FY23; FSA/e-auction realisation FY22–FY24 | **Mostly filled**: FY22–FY23 realisations by channel [V deck]; Apr–Jan premiums 62% / 279% [V-snip]; management "250–300%" [V]. **Open**: company full-year % for FY22–FY23; FY24 full-year channel realisation (H1 only) |
+| 6 | NCWA-XII status and provisioning; NCWA-XI terms | **Filled** (status ~8-Oct-26; NCWA-XI 19% MGB + 25% allowances [V-sec]; Q4 FY23 ₹5,870 Cr provision [V]; no provision in Q1 FY27 [V]). Likely size is still [E] |
+| 7 | State mineral-tax arrears after MADA; CIL exposure; state laws | **Largely filled**: contingent liabilities [V]; C&AG MCL ORISED ₹31,227.80 Cr [V]; CCL MADA ₹364–366 Cr [V]; Jharkhand ₹450/t [V]; MMDR Amendment 2026 [V-sec]. **Open**: Odisha/Chhattisgarh new levies (none found); assent/notification of the MMDR Bill; the fate of Jharkhand's cess |
+| 8 | Gasification ₹8,500 Cr / ₹37,500 Cr; CIL JVs | **₹37,500 Cr filled** [V-sec]; BCGCL foundation 20-Jun-26 [V]. **Open**: the Jan-2024 ₹8,500 Cr first scheme [K, not re-fetched]; GAIL–CIL (CGIL) Sonepur Bazari status |
+| 9 | Global peers: volumes, margins, multiples | **Filled** for Shenhua, Peabody, Whitehaven, BHP BMA, Glencore (derived), Bumi. AlamTri volume [K] **open** |
+| 10 | GMDC conflicts; REE target; Q1 date; Baitarani | **All filled**: revenue bases (S5), EBITDA (S6), ITC (S4); ROE — screener 4.22% is an artefact (957 ÷ ~₹7,000 Cr equity ≈ 14%; company RoNW 14.02%); REE — **no company target exists**, so the primer's "12,000 t/yr by FY28" is unsupported; Q1 board 31-Jul-26; Baitarani: MDO + EC + Stage-I FC Dec-2025, COD Q4 FY27 (CARE) |
+| 11 | NTPC mining FY26; Adani volumes; NTPC Mining IPO; SCCL cause | **SCCL cause filled** (S20); Adani MDO dispatch 49.4 mt [V-sec]. **Open**: NTPC FY26 captive output (FY25 45.72 mt [V-snip]); NTPC Mining IPO status |
+| 12 | CIL OFS floor; plant-stock days | **Filled**: floor ₹412 [V]; days ≈ 7–8 at end-Sep/early-Oct [E from CREA normative and consumption] |
+| §H extra | CIL Q2 FY27 financials; GMDC Q2 | Not yet reported (boards 29-Oct and 30-Oct-2026) |
+| §H extra | CIL non-coking notified price hike in 2026 | Still none found (1 search) — say "no general hike since the last revision" |
+| §H extra | CIL/GMDC Q1 FY27 call transcripts | **Do not exist**: CIL's latest is 14-May-2025; GMDC's latest is 23-May-2025. Guidance is taken from the AGM, AR, releases and CARE |
+
+## 4.5 New insights and new primer issues
+
+**Insights the first pass missed**
+1. **The MADA tail risk had a number and may now have a cure.**
+   - CIL's own lawyers sized Odisha's ORISED exposure for MCL at **₹31,228 Cr** (≈ one year of group PAT). The C&AG flagged the non-disclosure.
+   - Parliament's MMDR Amendment 2026 is designed to stop exactly such state levies and to extinguish legacy dues.
+   - But the same Act **lifts the 50% sale cap on captive mines**, adding merchant supply that competes in CIL's most profitable channel (e-auction). Net: a balance-sheet de-risking, a mild earnings negative over the cycle.
+2. **"Import substitution" is a thermal-only story; total imports rose in FY26.**
+   - DGCI&S: 246.4 mt (+1.1%). Coking coal +16% to 66 mt as blast-furnace steel expands.
+   - India's coal import bill fell to $26.7 bn only because prices fell.
+   - For the writer: *volume self-reliance in power coal, rising dependence in steel coal.*
+3. **CIL's e-auction windfall is capped by its own policy.**
+   - Management offers ≥10% and caps the e-auction channel at ~20% of output. It calls 30–40% the normal premium.
+   - At ~20–25 mt/quarter of e-auction volume, each 10 points of premium ≈ **₹300–400 Cr/quarter** [E]. Sep-2026's 94% helps Q2/Q3, but the group's earnings power still rests on FSA prices and wages.
+4. **Two wage clocks, one labour-code snag.**
+   - Non-executive revision is due from Jul-2026, executive from Jan-2027.
+   - JBCCI-XII is stalled on the Industrial Relations Code (s.14), a new structural cause of delay.
+   - NCWA-XI precedent: a ₹5,870 Cr catch-up in a single quarter (Q4 FY23), ~21 months after the due date. **A lumpy FY28 provision is the base case** [E]; any FY27 accrual is a policy choice.
+5. **CIL's FY27 targets assume continued destocking.**
+   - Supply 850 mt vs production ~815 mt needs ~35 mt of stock draw. H1 already drew ~63 mt.
+   - Hitting supply would push pithead stock toward ~30–40 mt by March-2027 [E], from 130 mt a year earlier. That would make **FY28 a production-catch-up year**: higher OB and contractor spend, and less destocking help to revenue.
+6. **GMDC's guidance record is weak; its coal model is becoming utility-like.**
+   - FY26: lignite was guided +10–15%, delivered −1.7%. Baitarani revenue was promised for FY26 and is now Q4 FY27. Capex ran at ₹1,048 Cr vs the ₹1,500–2,000 Cr guided.
+   - The Feb-2026 NTPC MoU frames Baitarani coal at **cost-plus G-11 pricing**, not the merchant/import-parity pricing implied in May-2025. That lowers the risk and the upside of the 15 mtpa story.
+7. **GMDC's screener numbers mix bases.** Annual revenue is net of GST cess; quarterly revenue is gross. FY26 "−0.4%" on screener is **−6.9% gross**. Quote company figures in prose.
+8. **SCCL shows the failure mode of outsourcing.**
+   - Two-thirds of its March-2026 production loss was blamed on OB contractors and delayed contract awards. Contractual OBR achieved 70.8% of target vs 89.4% departmental.
+   - CIL outsources 89% of OB. Contractor performance (and diesel pass-through) is the operational risk to watch in the FY28 catch-up.
+
+**New primer issues (add to §3.4)**
+
+*coal-india.html*
+- **OFS**: keep "floor ₹412" (verified, MoC notice p. 7). Change "June 2026" to **27 and 29 May 2026**: 1% base plus 1% greenshoe exercised = 123.25 m shares.
+- **E-auction FY26**: if the primer keeps "~38%", cite it as the CMD's AGM figure "over floor price". Show the AR's **46%** (over notified) as the statutory number. Add Apr–Jul FY27 43%, H1 54%, Sep 94%.
+- **FY27 target**: 850.24 mt is the **supply/offtake** target, not production (~815 mt). Say both are stretch targets.
+- **Add the MCL IPO**: DRHP dated 1-Sep-2026, OFS of up to 661.84 m shares (FV ₹2); DIPAM approval 15-May-2026.
+- **Add the AR risk items**:
+  - contingent liabilities ₹49,147 Cr;
+  - the C&AG note on MCL's ORISED exposure (₹31,228 Cr, CIL legal estimate);
+  - ECL's ₹2,178 Cr Jharkhand penalty (stayed);
+  - the **MMDR Amendment 2026** that curbs state mineral taxes.
+- **Wages**: non-executive revision due Jul-2026, executive Jan-2027; JBCCI-XII not constituted (Oct-2026); precedent catch-up ₹5,870 Cr in Q4 FY23. No provision in Q1 FY27.
+- **Dividend/capex since refresh**: FY27 1st interim ₹5.50 (27-Jul-2026); Q1 FY27 capex ₹3,399 Cr (+16.6%) against the ₹16,500 Cr target.
+- **Strategy lines**:
+  - "~1 bn t by FY2029-30" and UG 70 mt by FY30;
+  - 9.5 GW RE by FY30 (100 MW Patan commissioned 4-May-2026; 200 MW Khavda 8-Jul-2026; 600 MW Jalaun order);
+  - Gadadharpur iron-ore block (288 mt); CIL Global Pte (Singapore); HURL maiden dividend ₹404 Cr.
+
+*gmdc.html*
+- **Revenue label — reverse Part 3's issue**: ₹2,653.38 Cr is **both standalone and consolidated** revenue from operations, so the primer's "consol." label is correct. Screener's ₹2,523 Cr is net of GST compensation cess. Add a basis note instead of changing the number.
+- **GST credit**: ₹522.65 Cr = ₹492.63 Cr GST ITC (inverted-duty reversal after 22-Sep-2025) + ₹30.02 Cr restored litigated ITC. ₹474.43 Cr was only the Q2 booking.
+- **EBITDA definition**: if the primer quotes the AR's "₹899 Cr", say it **includes ~₹424 Cr of other income**. Operating EBITDA is ~₹443–477 Cr.
+- **Guidance track record**: FY26 lignite guided +10–15% (May-2025 call) vs actual −1.7%. Baitarani revenue slipped from FY26 to Q4 FY27 (MDO awarded, EC and Stage-I FC obtained 11-Dec-2025). Capex ₹1,048 Cr vs ₹13,000 Cr-to-2030 plan.
+- **Odisha coal economics**: add the NTPC MoU (26-Feb-2026) — G-11 coal at cost-plus for NTPC Section-62 plants serving Gujarat discoms — plus the NTPC gasification MoU and the GNFC coal-to-chemicals MoU.
+- **Lakhpat–Punrajpur**: EC on 27-Feb-2026 for 3.0 mtpa lignite + 29.81 mtpa limestone. JK Cement 40-year limestone deal; >2.5 bn t of limestone in western Kutch.
+- **REE**: BARC CH48MinD process for MREC, **pilot scale first**. There is no tonnage/date target in company documents — drop "12,000 t/yr by FY28" unless sourced.
+- **Risks to add**:
+  - mining above the specified capacity at Mata-no-Madh and Umarsar (unquantified contingent liability, AR note 2.40.01);
+  - the power plant (~23% of segment assets) loss-making at a ~33% PLF;
+  - ₹430.75 Cr of FDs lien-marked against guarantees, so not all cash is free.
+- **Dates and people**:
+  - Q1 FY27 board 31-Jul-2026; Q2 board 30-Oct-2026.
+  - MD **Ajay Bhadoo, IAS** (company filings' spelling; the press release spells it "Bhadu"). Director Sandeep Kumar, IAS (from 22-Jan-2026).
+- **Mine count wording**: company boilerplate says it "operates five lignite mines", while the AR FY26 lists four producing (Rajpardi closed after a safety incident, per the May-2025 call). Use "four producing mines".
+
+*General / both*
+- Neither primer mentions that **India's coal imports rose in FY26** (DGCI&S 246.4 mt; coking +16%), nor the MMDR Amendment 2026.
+- Plant-stock language: say "**~7–8 days of cover / 36% of the normative stock (end-Sep-2026)**" rather than tonnes alone.
+
+---
+
+## ORCHESTRATOR RE-ADD (23-Oct-2026) — binding on the writer; overrides Part 3 §3.1–3.2 where they differ
+
+All Part 3 aggregates were re-added by hand from the company rows. Arithmetic in §3.2(a)(b)(d-dividends) is correct. Three basis fixes, applying Supersedes S5:
+
+1. **Revenue basis = company-reported revenue from operations (gross of levies/cess), for BOTH members.** CIL's screener annual figure (₹1,68,400 Cr FY26; ₹1,69,177 Cr FY25) already equals company RFO. GMDC's screener figure (₹2,523 Cr) nets the GST compensation-cess expense, so it is a different basis; use **GMDC RFO ₹2,653.38 Cr (FY26) / ₹2,850.84 Cr (FY25), −6.9%**.
+   - Members combined FY26 revenue **₹1,71,053 Cr** (1,68,400 + 2,653) vs FY25 **₹1,72,028 Cr** (1,69,177 + 2,851) → **−0.6%**.
+   - OP (screener, unchanged absolute — the cess is an expense either way): 37,172 + 443 = **₹37,615 Cr**; OPM = 37,615 / 1,71,053 = **22.0%**. GMDC OPM on RFO = 443 / 2,653 = **16.7%**.
+   - PAT (reported, attributable as screener prints it): 31,071 + 957 = **₹32,028 Cr**; ex GMDC one-off [E ~565] = ₹31,636 Cr.
+   - M-cap 23-Oct-26: 2,43,952 + 13,310 = **₹2,57,262 Cr**. P/E on FY26 reported PAT: CIL 7.85×, GMDC 13.9×, combined 8.03× (ratio of sums). If screener TTM P/Es are shown (CIL 7.82, GMDC 23.3) label them TTM in a separate column; never mix.
+   - Net cash (company basis): 42,941 + ~1,400 = **₹44,341 Cr** → EV 2,12,921 → EV/EBITDA **5.7×** (CIL 5.4×, GMDC 26.9×).
+   - Q1 FY27: revenue 46,255 + 907 = 47,162 (+8.0% vs 43,652); OP 12,069 + 191 = 12,260 (−3.9%); PAT 8,850 + 163 = 9,013 (+0.7%). GMDC quarterly screener revenue is gross, so this is consistent.
+2. **EBITDA per tonne on ONE volume basis (tonnes sold/offtake):** CIL 37,172 / 744.83 mt = **₹499/t**; GMDC 443 / 7.88 = **₹562/t**; combined 37,615 / 752.71 = **₹500/t** (Part 3's ₹485 mixed CIL production with GMDC despatch — superseded). Revenue per tonne CIL on RFO/offtake = 1,68,400 / 744.83 = ₹2,261/t; the company's "₹2,221/t incl. other charges" is coal sales only — keep both, labelled.
+3. **Ownership:** do not show a simple average of promoter holdings (Part 3 §3.2(d)); show per company (CIL GoI 61.13%; GMDC GoG 74.00%).
+
+Dividends FY26: 16,331 + 302 = ₹16,633 Cr; yield on combined m-cap 6.5%; payout 51.9% of reported PAT — re-checked ✓.
+Reference universe incl. NLC (REFERENCE rows only, never in the members' combined row).
