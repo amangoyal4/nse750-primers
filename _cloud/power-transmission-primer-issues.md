@@ -59,3 +59,8 @@
 - **TBCB returns (§05):** the Vizag tariff is ~10.2% of the estimated project cost [V-snip/E]. If the primer implies mid-teens returns on new wins, soften it.
 - **Locked-in tariff (§05):** "₹10,994 Cr" excludes the ₹2,852 Cr ROA "estimated billing" line; TBCB-only tariff in the table is ₹10,708 Cr [V-deck].
 
+
+## From primer-audit.mjs (2026-10-23, pre-existing — logged, not fixed)
+
+- **power-grid.html — banned phrases:** "Think of India's electricity system as…" and "Think of these as a sensible 'sweat the assets'…" (banned "think of"); one "honest" ("The honest caveat…"). No `main{min-width:0}` grid fix (phone overflow risk). Refreshed 2026-06-30; links to 0 sub-sector reports (could link power-generation / heavy-electrical / electrical-equipment, and power-transmission once published).
+- **adani-energy-solutions.html — banned phrases:** "Think of India's electricity system as…" (banned "think of"); "honest" used twice ("The honest caveats…", "No honest primer on any Adani company…") → fails honest>1. No `main{min-width:0}` grid fix. Refreshed 2026-06-30; links to 0 sub-sector reports.
