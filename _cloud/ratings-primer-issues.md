@@ -39,3 +39,24 @@
 - **crisil.html — "Lists 1993":** unverified this session (IPO c.1992–93 [K]). Low priority.
 - **crisil.html — 1987 founders "ICICI and UTI (with SBI, LIC and others)":** plausible [K] but not verified this session. Keep it, without adding new names.
 
+
+## From Credit Ratings & Research deep-research pass (2026-10-23, ratings-industry.md Part 4)
+
+- **crisil.html — dividend payout:** quote CY25 payout as **~58%** (₹61 × 7.313 Cr shares = ₹446 Cr on ₹766 Cr PAT; CY24 DPS ₹56). Not "~57%" or "55–60%". 9M CY26 interims total ₹36 (vs ₹33).
+- **crisil.html — S&P dependence, quantified and rising:** S&P-group revenue **₹475.5 Cr (13.0%) in CY25 vs ₹389.0 Cr (11.9%) in CY24, +22%** (AR25 note 40; BRSR says 13% / 12%). Of this, ~₹387 Cr is from S&P Global Ratings entities (the GAC). State "no single customer ≥10%" alongside it, since the largest entity (SPFS LLC) is 6.9%.
+- **crisil.html — GAC sizing:** wherever the primer splits the Ratings segment, use **GAC ≈ ₹390–410 Cr** and **Crisil Ratings Ltd ₹670.6 Cr**. Crisil Ratings Ltd = 38.8% of group PAT on 7.5% of net assets; it paid ₹272 Cr of dividends to the parent in CY25.
+- **crisil.html — risk section, new item:** **contingent liabilities ₹801.5 Cr** (disputed direct taxes ₹779.8 Cr, up from ₹650.3 Cr; ≈26% of equity), per AR25 note 38. Management expects to prevail.
+- **crisil.html — regulatory section:**
+  - The RBI SA Directions 2026 tie risk weights to each CRA's one-year ODR (Table 21). CRISIL passes at AAA/AA/A on every window, but its **BBB (0.42% SEBI long-run vs 0.40% ceiling)** and **BB (1.2–2.0% vs 1.0%)** breach on some or all windows. RBI hasn't specified the averaging window.
+  - Don't present the regime as an unambiguous tailwind. Cite Crisil Ratings' default study (FY26: annual default rate 0.7%; no AAA default ever at 1–3 years).
+- **crisil.html — SEBI history:** the ₹25 Cr CRA net-worth floor and the rule separating non-rating businesses come from **SEBI's 28-Dec-2017 board decision** (notified 2018), not 2021. The **13-Jan-2026 amendment removed the segregation proviso** and allowed ratings under other regulators.
+- **crisil.html — bond-market numbers (use SEBI's own series):**
+  - Corporate bonds outstanding **₹59.1 lakh Cr (Mar-26) / ₹61.5 lakh Cr (Sep-26)**.
+  - FY26 private placements **₹9.0 lakh Cr (−8.8%) but 1,924 issues (+16%)**.
+  - CRISIL's slide: 9M CY26 bond issuers ~1,191 (+3.8%) while issuance value fell 6%.
+- **crisil.html — competitor table, CARE:** CARE had **~4% of FY26 fresh listed ratings** (SEBI chart) but claims **24–25% of incremental rating business** and 5,200+ rated entities. It is a BLR/unlisted franchise. Its net treasury is ~₹864 Cr.
+- **crisil.html — no management guidance:** CRISIL gives no numeric guidance and held no Q2/Q3 CY26 calls. The latest transcript is 20-Apr-2026. Any "guidance" line in the primer should be phrased as directional commentary (bank credit ~13% FY27 expected in April; actual 19.1%).
+- **crisil.html — Q2 date and board change:** Q2 CY26 results were approved **21-Jul-2026**. Saugata Saha (S&P nominee) resigned as non-executive director effective 22-Jul-2026; Abhishek Tomar was appointed additional director [V-snip, verify on BSE before printing].
+- **crisil.html — margin narrative:** Q3 CY26 PBT +5.3% despite revenue +20.2%. Drivers: professional/associate fees +37% YoY, D&A +38%, FX gain ₹2.3 Cr vs ₹15.5 Cr. Employee cost stable at 54% of revenue. The 3-year PAT CAGR (CY22–25) is only ~7% against a 38.8× P/E.
+- **crisil.html — global comparison (if the primer has one):** S&P Ratings US$4,724m (64–65% margin); Moody's MIS US$4,119m (63.6% adj.); Morningstar DBRS US$354m (32.4% adj.). The Indian CRA pool is ~₹1,700–2,000 Cr [E].
+

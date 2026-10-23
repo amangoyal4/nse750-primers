@@ -1275,3 +1275,580 @@ All sums are straight sums on ONE basis per table. Ratios are ratios of sums. **
   - Moody's 4Q25 release: https://s203.q4cdn.com/694693571/files/doc_financials/2025/q4/4Q25-Earnings-Release-vFINAL.pdf (snippet only)
   - Morningstar 10-K FY2025: https://www.sec.gov/Archives/edgar/data/1289419/000128941926000013/morn-20251231.htm (snippet only)
 - **Rupee lows (Mar/May 2026):** snippets via angelone.in / wionews.com (search summary only).
+
+---
+
+# PART 4 — Deep-research supplement (23-Oct-2026)
+
+Second-pass, primary-source review of Parts 1–3. Compiled 23-Oct-2026 (late evening IST, after CRISIL's Q3 CY26 filings). It follows `_cloud/ref/brief-deep-research.md`. Everything here is meant to be **applied on top of** Parts 1–3. Where Part 4 conflicts with Parts 1–3, Part 4 wins (see 4.0).
+
+**Documents fetched and read this pass (all free, no logins):**
+- **CRISIL (BSE, 23-Oct-2026):** Q3 CY26 financial results (standalone + consolidated, segment statement), press release, analyst presentation. Also the Q2 CY26 analyst presentation (dated 21-Jul-2026), the 20-Apr-2026 analyst-call transcript (full Q&A), and the **Integrated Annual Report 2025**: related-party note 40, contingent liabilities note 38, segment note 39, AOC-1, directors' report, BRSR.
+- **Crisil Ratings, "Default and rating transitions study — up to fiscal 2026"** (crisil.com PDF; SEBI-methodology annexure).
+- **ICRA:** Q1 FY27 investor presentation (30-Jul-2026); Q4 FY26 presentation; FY26 call transcript (25-May-2026); **"Rating Transition and Default Study FY2026"** (May 2026) and "Rating Performance Trends for FY2026" (Apr 2026) (icra.in).
+- **CARE:** Q4 FY26 release and presentation; Q1 FY27 release; Q4 FY26 call transcript (14-May-2026); **Annual Report 2025-26** (BSE).
+- **SEBI:** Annual Report 2025-26 Ch. 7 (Chart 7.1 pie rendered to PNG and read visually); statistics pages on private placements and outstanding corporate bonds; 28-Dec-2017 board-meeting press release; Brickwork settlement-order page (Dec-2024).
+- **RBI:** Capital Charge for Credit Risk – Standardised Approach Directions, 2026 (full text, paras 12, 24–27, 40, Table 21); press-release listing (MPC 5–7 Oct 2026 minutes).
+- **Global:** S&P Global 4Q-2025 earnings exhibits; Moody's 4Q-2025 earnings release (MIS segment tables); Morningstar FY2025 10-K (segment results).
+- **Screener.in consolidated pages** for CRISIL, ICRA and CARE, re-pulled ~21:23 UTC.
+
+Web calls used: ~47 (searches + fetches + curl downloads). Scratch notes: `/tmp/ratings-deep/notes.md`.
+
+**Tag discipline in Part 4:**
+- **[V]** = read this session in the named primary document.
+- **[V-chart]** = read off a rendered chart image.
+- **[V-snip]** = search-summary or secondary press only.
+- **[E]** = arithmetic or estimate on [V] inputs.
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Where in Parts 1–3 | Old value / statement | New value / statement | Source (fetched) |
+|---|---|---|---|---|
+| S1 | §9.1 KPI table; E12; JSON `payout_pct`; §3.2(d); §F; 2.1 story bullet 2 | CRISIL CY25 dividend payout **57%** (screener) | **58.2%**. DPS ₹61 × 73,130,017 shares = ₹446.1 Cr ÷ PAT ₹766.01 Cr. Screener's 57% is its own rounding/basis. CY24 DPS was ₹56. | CRISIL AR25 directors' report + note 15 share capital [V] |
+| S2 | §5.2, §9.1, E24, §H3 | CARE's share of SEBI FY26 fresh listed ratings "~6%? / illegible" | **CARE ≈ 4%** (≈29 of 725). Slices follow the legend order: CRISIL 47%, ICRA 20%, India Ratings 19%, **Acuité 6%**, **CARE 4%**, Infomerics 3%, Brickwork 1%, Acer 0%. | SEBI AR 2025-26 Ch. 7, Chart 7.1, rendered PNG [V-chart] |
+| S3 | §H12, §2.2 issuer row | Issuer counts 1,147/1,191/601/558 "ambiguous" | **Resolved:** 9M CY25 ~1,147 → **9M CY26 ~1,191 (+3.8%)**; Q3 CY25 ~601 → **Q3 CY26 ~558 (−7.2%)**. The press release's "issuers and issuances declined 7.2% and 10.4%" refers to **Q3 only**. Q2 deck: H1 CY25 ~800 → H1 CY26 ~840; Q2 CY25 ~510 → Q2 CY26 ~430. | CRISIL Q3 CY26 PPT slide 12; Q2 CY26 PPT slide 12 [V] |
+| S4 | Status table; §H17 | Q2 CY26 board date "July 2026, exact date not captured" | **21-Jul-2026** (board approval and analyst presentation date). Board change effective 22-Jul-2026: Saugata Saha resigned as non-executive director; Abhishek Tomar appointed additional director [V-snip]. | Q2 CY26 PPT cover "July 21, 2026" [V]; Quartr event page [V-snip] |
+| S5 | §4.1, §7.1, §H15 | "SEBI min. net worth ₹25 Cr after the **2021** amendment [K]" | The ₹5 Cr → **₹25 Cr** increase was **approved by SEBI's board on 28-Dec-2017** (PR 68/2017) and notified in the CRA amendment of **30-May-2018** [V-snip]. Existing CRAs had 3 years to comply. The same package added: promoter ≥26% for 3 years; cross-holding <10% in another CRA; a FATF-jurisdiction foreign promoter; and **segregation of non-rating activities into a separate entity**. That last rule is the true origin of Crisil Ratings Ltd (incorporated 2019). | SEBI board-meeting press release, 28-Dec-2017 [V] |
+| S6 | §7.1 chronology "2020–2021 … separation of non-rating activities" | Separation dated 2020–21 | Separation was **mandated by the 2017/2018 amendment**. CRISIL complied by moving ratings to Crisil Ratings Ltd (incorporated 3-Jun-2019; business transfer 31-Dec-2020). The **13-Jan-2026 amendment (notification SEBI/LAD-NRO/GN/2026/293, Reg. 9(f)) omitted that segregation proviso**. | SEBI PR 2017 [V]; taxmann on the 2026 notification [V-snip] |
+| S7 | §7.1, §H15 | PD-benchmark circular date "from memory" | **SEBI circular SEBI/HO/MIRSD/DOS3/CIR/P/2019/70, 13-Jun-2019, "Guidelines for enhanced disclosures by CRAs"**. It was later folded into the operational circulars of 6-Jan-2023 and 16-May-2024 and the **Master Circular for CRAs dated 11-Jul-2025**. A further 25-Aug-2022 circular mandated CDRs for listed securities with and without INC issuers. | Crisil Ratings default study FY2026, Annexures 1–2 footnotes [V]; BS/IIIT snippets [V-snip] |
+| S8 | §7.1 "2023 ESG chapter (Jul-2023) [K]" | Date [K] | **SEBI (CRA) (Amendment) Regulations, 2023, notification SEBI/LAD-NRO/GN/2023/136 dated 3-Jul-2023, in force the same day.** It inserted Chapter IVA (ERPs). An ERP applicant may not itself be a CRA, which is why every CRA's ESG business sits in a separate subsidiary. | SCC Online / taxmann [V-snip] |
+| S9 | §2.2, §H11, E16, stat strip cell 1 | Corporate bonds outstanding "~₹61 lakh Cr (SEBI chair) [V-snip]" | **₹61.52 lakh Cr at Sep-2026; ₹59.09 lakh Cr at Mar-2026; ₹53.64 lakh Cr at Mar-2025 (+10.2% in FY26)**. Sep-26 split: financial issuers ₹30.34 lakh Cr, non-financial ₹29.68 lakh Cr, others ₹1.50 lakh Cr. | SEBI statistics, "Outstanding corporate bonds issued by financial and non-financial corporations" [V] |
+| S10 | §2.2, E18, §0, §H10 | SEBI-basis FY26 issuance "~₹9.1 lakh Cr, −8.4% [V-snip]" | **Private placements (BSE+NSE): FY26 ₹8,99,736 Cr across 1,924 issues**, vs FY25 ₹9,87,056 Cr / 1,659 issues: **value −8.8%, issue count +16.0%**. FY24: ₹8,37,756 Cr / 1,347. FY27 Apr–Sep: ₹4,34,011 Cr / 974 issues. | SEBI statistics, "Private placement data of corporate bonds" [V] |
+| S11 | §2.4/§E6–E7 Q4 CY25 and Q1 CY25 segment cells tagged [E] | Q4 CY25 Ratings 290.9 / RAS 791.2 / RAS profit 207.3 [E] | Now **derived from company-reported 9M and full-year segment statements (V-derived)**: Q4 CY25 Ratings revenue 290.91, profit 121.02; RAS revenue 791.19, profit 207.30. Q1 CY26 segment profit: Ratings 162.93, RAS 166.93. Q1 CY25 RAS revenue 545.29. | Q3 CY26 results, segment statement (9M CY25, CY25 columns) [V] |
+| S12 | Status table Q1/Q2 CY26 YoY | Q1 CY26 PAT +45.6%; Q2 CY26 revenue +27.5%, PAT +25.6% (screener rounding) | **Company basis: Q1 CY26 PAT +45.9%, PBT +35.7%; Q2 CY26 revenue +27.6% (₹1,075.39 Cr), PAT +26.2% (₹216.46 Cr).** Q3 PAT: ₹204.64 Cr (results) vs ₹204.5 Cr (press release rounding). | Apr-26 call transcript; Q2 release via search; Q3 results [V/V-snip] |
+| S13 | §2.0 peer table, JSON CARE `net_cash_est` 800, §3.2(d), §2.6 item 8 | CARE net cash "~₹800 Cr [E]" | **Group treasury ₹915.5 Cr at 31-Mar-2026** (FDs/liquid funds ₹812.2 Cr; MFs & bonds ₹20.5 Cr; cash ₹16.5 Cr; NCD/bond investments ₹40.8 Cr; unquoted equity ₹25.6 Cr). **Liquid treasury ≈ ₹890 Cr; net of lease liabilities (₹26 Cr) ≈ ₹864 Cr.** Mar-25: ₹780.4 Cr. | CARE Annual Report 2025-26, MD&A treasury table [V] |
+| S14 | §7.4, E15, §H7 | S&P related-party revenue ₹475.5 Cr "hand-sum, rows may be missing" | **Confirmed ₹475.5 Cr (13.03% of revenue) in CY25 and ₹389.0 Cr (11.93%) in CY24**: a full re-sum of all 22 "professional services rendered" rows in consolidated note 40. BRSR independently says sales to related parties = **13% (CY25) vs 12% (CY24)**. | AR25 note 40; BRSR P1 [V] |
+| S15 | Trap 3, §0, §2.3, JSON `gac_rev_est` | GAC ≈ ₹408 Cr [E: segment − Crisil Ratings Ltd] | **Two bounds:** (a) billings to **S&P Global Ratings legal entities** (US, Europe, UK, HK, Singapore, Australia, Japan, Brazil, Canada) = **₹386.7 Cr in CY25** [V-derived]; (b) segment minus Crisil Ratings Ltd = ₹408.1 Cr. **Use "GAC ≈ ₹390–410 Cr (~11% of revenue)".** The other ~₹89 Cr of S&P billings (Market Intelligence, S&P Global Inc., Kensho, Trucost, Capital IQ India, OPCO) sit in RAS or GAC "new areas". | AR25 note 40 [V] + AOC-1 [V] |
+| S16 | §2.1, §0, §H1 | Whole domestic pool "₹1,900–2,200 Cr [E]" | **Narrow to ~₹1,700–2,000 Cr [E]** (derivation in 4.3.1). India Ratings net sales grew +11.1% in 2025 [V-snip EMIS]; its absolute figure is still paywalled. | 4.3.1 |
+| S17 | §10.1, §2.4, E35/E36, JSON MCO | Moody's MIS 2025 "~US$4.1bn, adj. margin ~63.6% [V-snip, unverified]" | **MIS 2025 revenue US$4,119m (+8.6% from US$3,793m); MIS adjusted operating margin 63.6% (60.1% in 2024); Q4-25 MIS adjusted margin 58.5%.** Moody's group adjusted margin 51.1%. | Moody's 4Q25 earnings release, tables [V] |
+| S18 | §10.1, §2.4, E35, JSON MORN | Morningstar Credit "9M25 US$249.1m; FY25 ~US$335–345m [E]" | **FY25 US$354.4m (+21.7% from US$291.1m); adjusted operating income US$114.8m, margin 32.4% (26.0%).** Morningstar consolidated: revenue US$2,445.5m (+7.5%), operating income US$526.6m, OPM 21.5%. | Morningstar FY2025 10-K (sec.gov, read via fetch) [V] |
+| S19 | §10.1/§2.4 "S&P Ratings 63.8% reported, 65.2% adj." | — | Confirmed: Ratings revenue US$4,724m (+8%), operating profit US$3,013m (63.8%); the exhibits' rounded margin is **64% reported / 65% adjusted**. Q4-25 Ratings revenue +12%. | S&P 4Q25 exhibits [V] |
+| S20 | §0, §1.4, §5.2 read #2, §7.2 implications, B2 | "Rating quality … favours CRISIL, ICRA and CARE" (implied: all three qualify comfortably) | **Not safe to assume.** On the SEBI long-run (FY16–26) one-year basis, **CRISIL's BBB = 0.42% vs RBI ceiling 0.40%** and **CRISIL's BB = 1.97% vs ≤1.0%**. On ICRA's 10-year average, **ICRA AAA = 0.2% (IL&FS/DHFL) vs ≤0.05%** and ICRA BBB = 1.0%. On short-run (24-cohort / 5-year) windows the AAA–BBB grades pass for both, but **BB breaches for everyone we checked**. RBI does not specify the averaging window (para 27(2): "latest available average one-year ODR"). Details in 4.3.3. | RBI Directions 2026 [V]; Crisil default study FY26 [V]; ICRA default study FY26 [V] |
+| S21 | §2.2 bank-credit row, B1 | "FY26 bank credit 15.9–16.1%" | Both are correct on different bases: **non-food bank credit 15.9% vs gross bank credit 16.1% (Mar-2026)**; Mar-25: 10.9% / 11.0%. | CARE AR 2025-26 MD&A [V] |
+| S22 | §0 / §12 / timeline "repo hike 7-Oct-2026 [V-sib]" | Date from sibling dossier | **The MPC met 5–7 Oct 2026** (RBI press release of the minutes, 21-Oct-2026 [V]). The 25 bp hike to **5.50%** was announced 7-Oct; stance moved to "calibrated tightening"; SDF 5.25%, MSF 5.75%. **Next MPC: 2–4 Dec 2026** [V-snip]. CRISIL's press release confirms 5.50% [V]. | RBI press-release listing [V]; press summaries [V-snip] |
+| S23 | E20, §2.2 "Aug-26 19.1% bank credit" | — | Unchanged [V]. Add CRISIL's April view: "credit growth for FY2027 ~13%". The actual (19.1% in Aug-26) runs ~6 pp above CRISIL's own April forecast. | Apr-26 call [V] |
+| S24 | CRISIL 9.1 table "Active rated companies 7,200+" | 7,200+ (Dec-25) | Add **~7,300 companies at Mar-2026, ~73% investment grade** (vs ~24% in Mar-2013). The median rating is BBB (since FY22). | Crisil default study FY26 [V] |
+
+**Not superseded (re-verified, keep):** CRISIL Q3/9M figures; CY25 P&L; Crisil Ratings Ltd ₹670.63 Cr turnover / ₹398.82 Cr PBT; SEBI 725 / 46.8% / 1,942 / 11 defaults; RBI risk-weight tables; ICRA FY26 segment data (₹336.5 Cr / ₹190.9 Cr / ₹265.8 Cr / ₹64.5 Cr); CARE FY26 standalone ₹387.72 Cr and Q1 FY27 figures; screener multiples; S&P promoter 66.64%.
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+Columns: # · figure · value · primary source (fetched this session?) · agrees with Parts 1–3?
+
+| # | Figure | Value | Primary source | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | CRISIL Q3 CY26 revenue from operations | ₹1,095.16 Cr (+20.2%) | CRISIL results, BSE 23-Oct-26 (consolidated statement) | [V] | Yes |
+| 2 | CRISIL Q3 CY26 PBT / PAT | ₹276.06 Cr (+5.3%) / ₹204.64 Cr (+5.9%) | Same; press release rounds PAT to ₹204.5 Cr | [V] | Yes |
+| 3 | CRISIL 9M CY26 revenue / PAT | ₹3,228.21 Cr (+25.7%) / ₹654.26 Cr (+24.7%) | Same | [V] | Yes |
+| 4 | Ratings segment Q3 CY26 | Revenue ₹345.63 Cr (+28.9%); profit ₹155.19 Cr; margin 44.9% | Segment statement | [V] | Yes |
+| 5 | RAS segment Q3 CY26 | Revenue ₹749.89 Cr (+16.5%); profit ₹129.32 Cr (−8.3%); margin 17.2% | Segment statement | [V] | Yes |
+| 6 | Crisil Ratings (the CRA) revenue growth, Q3 CY26 | +25.6% | Press release | [V] | Yes |
+| 7 | CRISIL CY25 revenue / PAT | ₹3,649.01 Cr / ₹766.01 Cr | Results CY25 column; AR25 | [V] | Yes |
+| 8 | Crisil Ratings Ltd CY25 turnover / PBT | ₹670.63 Cr / ₹398.82 Cr | AR25 AOC-1 (₹67,063 lakh / ₹39,882 lakh) | [V] | Yes |
+| 9 | Crisil Ratings Ltd share of group PAT | 38.8% (₹297.38 Cr); 7.5% of group net assets | AR25 Schedule III additional information | [V] | New |
+| 10 | S&P-group revenue at CRISIL, CY25 / CY24 | ₹475.5 Cr (13.0%) / ₹389.0 Cr (11.9%) | AR25 note 40 (22 rows re-summed); BRSR 13% / 12% | [V] | Yes (now firm) |
+| 11 | Billings to S&P Global Ratings entities (GAC proxy) | ₹386.7 Cr (CY25) | AR25 note 40 (subset) | [V]+[E] sum | Refines ₹408 Cr |
+| 12 | CRISIL CY25 DPS / payout | ₹61 / 58.2% | AR25 directors' report; 73,130,017 shares | [V] | **No** (57% → 58.2%) |
+| 13 | CRISIL contingent liabilities (disputed direct tax) | ₹779.8 Cr (Dec-25) vs ₹650.3 Cr (Dec-24); total CL ₹801.5 Cr | AR25 note 38 | [V] | New |
+| 14 | Crisil Ratings active rated companies | 7,200+ (Dec-25); ~7,300 (Mar-26), ~73% IG | AR25; Crisil default study FY26 | [V] | Yes (+update) |
+| 15 | Bond issuers (Prime), CRISIL slide | 9M: ~1,147 → ~1,191; Q3: ~601 → ~558 | Q3 CY26 PPT slide 12 | [V] | Resolves ambiguity |
+| 16 | CRISIL Q2 CY26 board date | 21-Jul-2026 | Q2 CY26 PPT cover | [V] | Fills gap |
+| 17 | Corporate bond issuance 9M CY26 (Prime, by value) | −6.1%; Q3 +35.7% on a −31.7% base | CRISIL press release | [V] | Yes |
+| 18 | Bank credit growth | 19.1% (Aug-26) vs 10.3% | CRISIL press release | [V] | Yes |
+| 19 | SEBI: fresh listed ratings FY26 / CRISIL share | 725 / 46.8% (339) | SEBI AR 2025-26 Ch. 7 | [V] | Yes |
+| 20 | SEBI: CARE / Acuité share of fresh listed ratings | ~4% / ~6% | SEBI AR Chart 7.1 (rendered) | [V-chart] | Fills gap |
+| 21 | SEBI: defaults on listed ratings FY26 | 11 (FY25: 22) | SEBI AR Table 7.1 | [V] | Yes |
+| 22 | RBI ODR reference ranges | AAA ≤0.05%; AA 0.05–0.10%; A 0.10–0.20%; BBB 0.20–0.40%; BB 0.40–1%; B & below >1% | RBI SA Directions 2026, Table 21 | [V] | Yes |
+| 23 | RBI ODR averaging window | **Not specified**: "latest available average one-year ODR … published by the domestic ECRA" (para 27(2)) | RBI SA Directions 2026 | [V] | Fills gap (window open) |
+| 24 | RBI SA effective date | 1-Apr-2027 (para 40) | RBI SA Directions 2026 | [V] | Yes |
+| 25 | CRISIL one-year CDR, SEBI long-run (FY16–26) | AAA 0.01%; AA 0.06%; A 0.09%; BBB 0.42%; BB 1.97% | Crisil default study FY26, Table A1a | [V] | New |
+| 26 | ICRA CDR-1, 10-year / 5-year average | AAA 0.2% / 0.0%; BBB 1.0% / 0.3%; BB 3.7% / 2.5% | ICRA default study FY2026 | [V] | New |
+| 27 | SEBI CRA minimum net worth | ₹25 Cr (board 28-Dec-2017; from ₹5 Cr) | SEBI PR 68/2017 | [V] | **No** (was "2021") |
+| 28 | SEBI CRA amendment 2026 | Notification 13-Jan-2026, Reg. 9(f): other-regulator instruments; segregation proviso omitted | taxmann on the gazette notification | [V-snip] | Yes (detail added) |
+| 29 | Repo rate | 5.50% (+25 bp), MPC 5–7 Oct 2026 | CRISIL press release [V]; RBI minutes listing [V]; date of announcement [V-snip] | [V] | Yes |
+| 30 | Private placements FY26 (SEBI) | ₹8,99,736 Cr, −8.8%; 1,924 issues, +16% | SEBI statistics | [V] | **No** (₹9.1 lakh Cr / −8.4% → ₹9.0 / −8.8%) |
+| 31 | Corporate bonds outstanding | ₹59.09 lakh Cr (Mar-26); ₹61.52 lakh Cr (Sep-26) | SEBI statistics | [V] | Yes (upgraded from snippet) |
+| 32 | ICRA FY26 ratings segment | ₹336.5 Cr revenue; ₹190.9 Cr result (56.7%) | ICRA Q4 FY26 PPT | [V] | Yes |
+| 33 | ICRA Q1 FY27 | Revenue ₹163.4 Cr (+31.2%); PAT ₹56.5 Cr (+32.0%); Ratings ₹83.8 Cr / result ₹29.0 Cr | ICRA Q1 FY27 PPT | [V] | Yes |
+| 34 | ICRA cash | ">₹700 Cr" (analyst framing accepted on the call); screener investments ₹730 Cr | ICRA FY26 call; screener | [V] | Yes |
+| 35 | CARE FY26 standalone revenue / EBITDA margin | ₹387.72 Cr (+15%) / 48% | CARE Q4 FY26 release | [V] | Yes |
+| 36 | CARE group treasury | ₹915.5 Cr (Mar-26) | CARE AR 2025-26 MD&A | [V] | **No** (~₹800 Cr est. → ₹864–890 Cr net) |
+| 37 | CARE rated entities / incremental share | 5,200+ / 24–25% of incremental business by count and by volume | CARE Q4 FY26 call (Revati Kasture) | [V] | New |
+| 38 | S&P Global Ratings 2025 | US$4,724m (+8%); op. profit US$3,013m (64% / 65% adj.) | S&P 4Q25 exhibits | [V] | Yes |
+| 39 | Moody's MIS 2025 | US$4,119m (+8.6%); adj. margin 63.6% | Moody's 4Q25 release | [V] | Yes (upgraded from snippet) |
+| 40 | Morningstar Credit (DBRS) 2025 | US$354.4m (+21.7%); adj. margin 32.4% | Morningstar 10-K FY2025 | [V] | **No** (est. US$335–345m → US$354.4m) |
+
+**Score: 38 of 40 are [V] from primary sources** (company filings, regulator documents, official statistics, SEC filing). #20 is [V-chart], a primary document read visually. #28 is [V-snip] for the regulation text (the SEBI notification itself was not opened). Where the dossier and the primary disagree (#12, #27, #30, #36, #40), the primary wins.
+
+**Conflicts resolved, and why:**
+- **Payout (#12):** the company's own DPS and share count beat screener's rounded field.
+- **Issuance (#30):** the SEBI statistics page (exchange-reported private placements) is the regulator's own series. The old ₹9.1 lakh Cr was a snippet and probably included public issues or a different cut-off.
+- **CARE net cash (#36):** the AR treasury table replaces a balance-sheet inference.
+- **Net worth (#27):** the 2017 SEBI board decision is the primary.
+
+## 4.2 Company packs
+
+### 4.2.1 CRISIL Limited (member) — management-commentary digest
+
+There was **no earnings call for Q2 or Q3 CY26** (none on BSE or Quartr by 23-Oct). CRISIL holds an analyst call once a year with the Q1 print. **The latest transcript is 20-Apr-2026** (Q1 CY26 + CY25). The digest below combines that call with the Q3 CY26 press release and presentation (23-Oct-26) and the Q2 deck (21-Jul-26). All of it is paraphrased.
+
+**House rule on guidance:** CRISIL gives **no numerical guidance**. The CEO said twice: "we don't make any forward-looking statements." Management asks investors to judge each business "at an annual level" because quarters are distorted by timing (renewals, FX). Everything below is directional.
+
+| Theme | What management said (date, source) | So what for the writer |
+|---|---|---|
+| **Ratings demand drivers** | Revenue is driven by "borrowing in bond market and borrowing in bank loan market". Bonds are soft because yields hardened. Banks are "flushed with liquidity", so "some level of substitution of bonds by bank loans" is under way. Subodh Rai sees no structural change: the bank/bond pendulum swings back over time (20-Apr-26 call) | Frames B1 ("bonds down, raters up") as cyclical substitution, not structural decline |
+| **Why ratings grow faster than the market** | (1) "Pretty robust surveillance revenue", which "is driven by the new rating revenues performance in prior year": 2026 surveillance reflects strong 2024–25 new-mandate years. (2) "Investor preference for best-in-class rating". (3) "We acquired a lot of new clients at good prices." Pricing is handled "in a very disciplined manner". No 5-year price CAGR was disclosed (20-Apr-26) | The surveillance lag means **2027 surveillance inherits 2026's weaker bond mandates**. Watch CY27 |
+| **Bank credit outlook** | In April CRISIL expected FY27 credit growth of "around 13%", "more or less the same" as FY26, with possible upside "if March is any indicator" (20-Apr-26). Actual: **19.1% in Aug-26** (Q3 PR) | Upside surprise of ~6 pp → BLR volumes above plan |
+| **Rate hike sensitivity** | A hike "does not favour the bond market because yields further harden". In April "no specific indication from RBI". RBI hiked to 5.50% on 7-Oct-26 (Q3 PR) | Reinforces bank-loan-led mix in Q4 CY26/H1 CY27 |
+| **GAC (S&P captive)** | In its "23rd year". Priced at a "transfer pricing fixed margin on the cost" and benchmarked; margin undisclosed. Growth comes from "delegation of surveillance support" plus "new areas" across S&P divisions (technology support, transformation). Shareholders earlier approved "a much larger" related-party limit. Incremental work carries a "similar" margin profile (20-Apr-26; Q3 PR) | GAC = ~₹390–410 Cr of cost-plus revenue: steady, low-risk, but capped |
+| **RAS composition** | Coalition Greenwich and Integral IQ are "the two material parts", "followed by the intelligence business in India". No sub-split; PriceMetrix numbers not disclosed (20-Apr-26) | Don't fabricate a sub-split |
+| **Coalition Greenwich** | Q1: accelerated renewals (~US$4.5m pulled forward), expected "to normalize over the course of the rest of the year". Q3: "revenue growth moderated … following the accelerated renewal pipeline conversion in H1 2026". Demand in CIB; expanding into wealth (PriceMetrix) and regional banks (20-Apr; 23-Oct) | The Q3 RAS slowdown was **flagged in April**: it is timing, not a demand break |
+| **Integral IQ** | "Traction and wins in Fundamental Research and Credit Lending Solutions … added new logos" (Q3). Diversifying into private markets and regional (second-tier) banks to offset large-bank discretionary caution. No project cancellations, but "more time … while taking decisions" (20-Apr-26) | Diversification is the stated hedge against big-bank budgets |
+| **GenAI** | Four levers: domain-led AI (GenEye Credit, DeepMind loan-data extraction, Crisil i360, ICON credit-workflow), horizontal AI (Myron AI), workforce AI skills, responsible AI. "Majority of our workforce is using AI". "We have to keep running at a much faster pace, to be at the same level." Risks: "emergence of enhanced Gen-AI models and inadequate pace of Gen-AI adoption" (20-Apr-26) | Management concedes **deflation risk exists** but frames AI as net opportunity |
+| **GCC competition** | GCCs "have always been an opportunity": CoE set-ups and regulatory remediations (Integral IQ head, 20-Apr-26) | — |
+| **FX** | "Sharp INR appreciation against the USD will have a negative impact on margins." Robust hedging. Q3 FX gain ₹2.3 Cr vs ₹15.5 Cr; Q1 ₹14.4 Cr vs (₹5.2 Cr) loss (Q3 PR; call) | The swing in FX gains explains ~₹13 Cr of the Q3 PBT shortfall |
+| **Capital allocation / M&A** | Evaluating inorganic moves "across the spaces that we operate and the adjacent spaces"; wealth is a key interest (PriceMetrix); a "small stake in one of the SME platform companies in India". **"There is hardly any area of overlap"** with S&P (20-Apr-26) | No signal of S&P buying out minorities; acquisitions stay inside CRISIL's own domains |
+| **Macro house view** | FY27 GDP: 7.1% (Apr) → 6.6% (Jul) → **7.0% (Oct)**. CPI FY27 ~5.3%; "further monetary tightening likely". Global growth 3.2% (2026, 2027). Hyperscaler capex ~US$760bn in 2026 "crowd[s] out other tech spends" (Q3 PPT) | — |
+| **Risks slide** (Sanjay Chakravarti) | (1) West Asia / macro: delayed decisions, deferred discretionary spend; capex delay hits new rating revenue; weaker IPO pipeline. (2) GenAI. (3) FX (20-Apr-26) | Use as the risk box |
+
+**Top analyst Q&A points (20-Apr-2026 call)** — IIFL, Unifi, Bandhan Life, Kotak, SBI MF, Fyers, Spark:
+1. AI threat by business: IP-led businesses (Ratings, Coalition Greenwich, GAC) see AI as a tool. Services face pressure, but "opportunities outweighing risk".
+2. GAC unit economics: fixed transfer-pricing markup on cost, not disclosed.
+3. Ratings growth vs market (Kotak): surveillance plus investor preference plus new clients at good prices.
+4. Pricing over 5 years (Fyers): "no particular trend that I can share"; covering inflation is the intent.
+5. Who acquires, CRISIL or S&P? (SBI MF): CRISIL acquires within its own business areas; "hardly any area of overlap".
+6. GAC runway, 3–5 years (SBI MF): expanding across S&P divisions; no growth-rate comment.
+7. Headcount rise (Kotak): additions "evenly spread", for growth, technology, GenAI and client development.
+8. PriceMetrix revenue/EBITDA (Spark): not disclosed.
+
+### 4.2.2 CRISIL concall/presentation KPI table
+
+| KPI | Q3 CY25 | Q2 CY26 | Q3 CY26 | 9M CY25 | 9M CY26 | Source |
+|---|---|---|---|---|---|---|
+| Revenue from ops (₹ Cr) | 911.24 | 1,075.39 | 1,095.16 | 2,567.44 | 3,228.21 | Results [V] |
+| Other income (₹ Cr) | 36.98 | 21.14 | 25.75 | 79.44 | 74.68 | [V] |
+| Employee cost (₹ Cr; % of revenue) | 493.40 (54.1%) | 578.45 (53.8%) | 593.62 (54.2%) | 1,384.13 (53.9%) | 1,729.65 (53.6%) | [V] |
+| Professional + associate fees (₹ Cr) | 76.49 | 84.86 | 104.98 | 217.20 | 284.87 | [V] |
+| Other expenses (₹ Cr) | 78.12 | 104.21 | 95.06 | 220.45 | 277.53 | [V] |
+| EBITDA, company items (₹ Cr; margin) | 263.2 (28.9%) | 307.9 (28.6%) | 301.5 (27.5%) | 745.7 (29.0%) | 936.2 (29.0%) | [E from V lines] |
+| D&A (₹ Cr) | 31.96 | 42.47 | 44.18 | 93.42 | 126.07 | [V] |
+| Finance cost (₹ Cr) | 5.98 | 6.70 | 7.02 | 17.17 | 20.50 | [V] |
+| PBT (₹ Cr) | 262.27 | 279.84 | 276.06 | 714.51 | 864.27 | [V] |
+| Tax rate | 26.4% | 22.6% | 25.9% | 26.6% | 24.3% | [V] |
+| PAT (₹ Cr) | 193.10 | 216.46 | 204.64 | 524.51 | 654.26 | [V] |
+| Ratings revenue / margin | 268.16 / 45.0% | 305.12 / 44.3% | 345.63 / 44.9% | 787.83 / 45.3% | 973.39 / 46.6% | [V] |
+| RAS revenue / margin | 643.60 / 21.9% | 770.85 / 20.4% | 749.89 / 17.2% | 1,781.19 / 20.2% | 2,256.37 / 20.1% | [V] |
+| Unallocable D&A (₹ Cr) | 18.90 | 27.27 | 29.40 | 54.88 | 82.13 | [V] |
+| FX gain in PBT (₹ Cr) | 15.5 | (8.2) | 2.3 | — | — | PR / PPT [V] |
+| Bond issuers (Prime) | ~601 | ~430 (Q2) | ~558 | ~1,147 | ~1,191 | PPT slide 12 [V] |
+| Interim DPS (₹) | 16 | 10 | 17 | 33 | 36 | [V] |
+| Segment assets, Ratings / RAS (₹ Cr) | 553.8 / 1,334.4 | 647.3 / 1,783.7 | 651.8 / 1,919.0 | — | — | [V]; RAS assets +44% YoY (PriceMetrix goodwill) |
+
+**Read-across:**
+- Employee cost is stable at ~54% of revenue. The Q3 margin squeeze came from **professional/associate fees (+37% YoY)**, **D&A (+38%)** and the **FX-gain swing**, not from wages.
+- The Q3 tax rate (25.9%) normalised after Q2's 22.6%.
+
+### 4.2.3 CRISIL 5-year history (consolidated, ₹ Cr, calendar years) [V screener re-pulled 23-Oct-26; company basis where marked]
+
+| | CY21 | CY22 | CY23 | CY24 | CY25 | TTM Sep-26 |
+|---|---|---|---|---|---|---|
+| Revenue from operations | 2,301 | 2,769 | 3,140 | 3,260 | **3,649.0** (co.) | 4,310 |
+| YoY | +16.1% | +20.3% | +13.4% | +3.8% | +11.9% | +24% |
+| Operating profit (screener) | 611 | 730 | 882 | 911 | 1,085 | 1,268 |
+| OPM | 27% | 26% | 28% | 28% | 30% | 29% |
+| Other income | 123 | 122 | 94 | 90 | 106.5 (co.) | 110 |
+| Depreciation | 106 | 103 | 104 | 70 | 128.5 (co.) | 161 |
+| Finance cost | 9 | 6 | 4 | 4 | 22.2 (co.) | 26 |
+| PBT | 618 | 742 | 868 | 926 | **1,041.0** (co.) | 1,191 |
+| PAT | 466 | 564 | 658 | 684 | **766.0** (co.) | 896 |
+| EPS (₹) | 63.92 | 77.25 | 90.06 | 93.54 | 104.75 | 122.49 |
+| DPS (₹) | — | — | — | 56 (co.) | 61 (co.) | 36 (9M CY26 interims) |
+| Payout | 72% | 62% | 60% | 60% | **58.2% (co.)** / 57% (screener) | — |
+| ROCE (screener) | 38% | 41% | 41% | 34% | 33% | — |
+| CFO / FCF | 403 / 430 | 456 / 417 | 780 / 721 | 765 / 594 | 756 / 688 | — |
+| Reserves | 1,571 | 1,785 | 2,182 | 2,558 | 3,026 | 3,264 (Jun-26) |
+| Lease liabilities (screener "borrowings") | 132 | 83 | 47 | 250 | 297 | 335 (Jun-26) |
+| Ratings segment revenue / margin | — | — | — | 911.3 / 43.9% | 1,078.7 / 44.3% | 9M 973.4 / 46.6% |
+| RAS segment revenue / margin | — | — | — | 2,350.6 / 21.4% | 2,572.4 / 22.0% | 9M 2,256.4 / 20.1% |
+
+- 10-year sales CAGR 10%, 5-year 13%, 3-year 10%. 10-year PAT CAGR 10%, 5-year 14%, 3-year 7%.
+- ROE: 10-year 29%, 5-year 28%, last year 24%.
+- Stock-price CAGR: 10-year 8%, 5-year 10%; 1-year −4% [V screener].
+- **The 3-year PAT CAGR of 7% is the number to put next to the 38.8× P/E.**
+
+### 4.2.4 CRISIL last 8 quarters (consolidated, ₹ Cr) [V screener; company figures for Q3 CY25, Q2 CY26 and Q3 CY26]
+
+| Quarter | Revenue | YoY | Expenses | Op. profit | OPM | Other inc. | D&A | PBT | PAT | PAT YoY | Ratings rev / margin | RAS rev / margin |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Q4 CY24 (Dec-24) | 913 | −0.5% | 626 | 287 | 31% | 30 | 21 | 294 | 225 | +7.1% | n/f | n/f |
+| Q1 CY25 (Mar-25) | 813 | +10.2% | 581 | 232 | 29% | 31 | 30 | 227 | 160 | +15.9% | 268.4 / 49.7% | 545.3 / 18.3% |
+| Q2 CY25 (Jun-25) | 843 | +5.8% | 604 | 239 | 28% | 24 | 32 | 225 | 172 | +14.7% | 251.3 / 41.0% | 592.3 / 20.0% |
+| Q3 CY25 (Sep-25) | 911.24 | +12.2% | 648 | 263 | 29% | 36.98 | 31.96 | 262.27 | 193.10 | +12.2% | 268.16 / 45.0% | 643.60 / 21.9% |
+| Q4 CY25 (Dec-25) | 1,082 | +18.5% | 742 | 340 | 31% | 27 | 35 | 327 | 242 | +7.6% | 290.91 / 41.6% | 791.19 / 26.2% |
+| Q1 CY26 (Mar-26) | 1,058 | +30.1% | 739 | 319 | 30% | 36 | 39 | 308 | 233 | +45.9% (co.) | 322.6 / 50.5% | 735.6 / 22.7% |
+| Q2 CY26 (Jun-26) | 1,075.39 | +27.6% | 768 | 308 | 29% | 21.14 | 42.47 | 279.84 | 216.46 | +26.2% | 305.12 / 44.3% | 770.85 / 20.4% |
+| **Q3 CY26 (Sep-26)** | **1,095.16** | **+20.2%** | 794 | 302 | 28% | 25.75 | 44.18 | **276.06** | **204.64** | **+5.9%** | **345.63 / 44.9%** | **749.89 / 17.2%** |
+
+**Trend read:**
+1. Revenue has stepped up to a ₹1,050–1,100 Cr/quarter run-rate since Q4 CY25 (PriceMetrix plus the weaker rupee). Quarter-on-quarter, however, Q3 grew only +1.8%.
+2. OPM has drifted down: 31% → 30% → 29% → 28% over four quarters.
+3. D&A doubled YoY (₹32 Cr → ₹44 Cr; acquired intangibles), and other income fell. So **PBT growth has decelerated from +35.7% (Q1) to +24.3% (Q2) to +5.3% (Q3)**.
+4. Ratings is the only line accelerating (+20.2% → +21.4% → +28.9%).
+
+### 4.2.5 CRISIL annual-report findings (Integrated Annual Report 2025) [V unless tagged]
+
+**Related parties (note 40, consolidated, ₹ lakh → ₹ Cr):**
+
+| S&P entity | CY25 | CY24 | Business line it pays for |
+|---|---|---|---|
+| Standard & Poor's Financial Services LLC (US ratings) | 253.5 | 193.7 | GAC (ratings) |
+| S&P Global Ratings Europe Ltd | 49.9 | 45.4 | GAC |
+| S&P Global Ratings UK Ltd | 36.1 | 32.6 | GAC |
+| S&P Global Ratings Hong Kong | 21.5 | 23.5 | GAC |
+| S&P Global Ratings Australia | 10.0 | 9.6 | GAC |
+| S&P Global Ratings Singapore | 7.8 | 7.1 | GAC |
+| S&P Global Canada Corp | 4.8 | 3.9 | GAC / other |
+| S&P Global Ratings Japan | 2.6 | 3.3 | GAC |
+| Standard & Poor's Ratings do Brasil (via Irevna UK) | 0.5 | — | GAC |
+| **Sub-total, ratings entities** | **386.7** | **319.1** | **+21.2%** |
+| S&P Global Market Intelligence LLC | 31.7 | 20.0 | RAS / new areas |
+| S&P Global UK Ltd | 23.4 | 33.6 | — |
+| S&P Global Inc. | 18.6 | 9.9 | — |
+| S&P Global Market Intelligence Inc. | 4.1 | — | — |
+| S&P Trucost | 3.3 | 5.2 | ESG data |
+| S&P OPCO LLC, Kensho, S&P Capital IQ India, Markit NA, S&P Global Ltd, others | 7.9 | 1.2 | new areas |
+| **Total professional services to S&P** | **475.5 (13.0%)** | **389.0 (11.9%)** | **+22.2%** |
+
+Other related-party flows:
+- Dividends paid to S&P: ₹287.5 Cr (S&P India LLC ₹184.1 Cr; S&P Global Asian Holdings ₹68.0 Cr; Standard & Poor's International LLC ₹35.4 Cr) vs ₹282.6 Cr in CY24.
+- Rent paid to S&P Global Inc. ₹2.9 Cr. Subscription fees paid to S&P MI ₹3.6 Cr.
+- Purchases from related parties: 0.9% of purchases (3% in CY24) [BRSR].
+- **No customer is ≥10% of revenue.** Each S&P entity is a separate legal customer; the largest, SPFS LLC, is 6.9%.
+
+**Insight:** S&P-group revenue (+22%) grew almost twice as fast as CRISIL's total revenue (+11.9%) in CY25. The S&P dependence is rising, not stable.
+
+**Crisil Ratings Ltd (AOC-1 / Schedule III):**
+- Turnover ₹670.63 Cr; PBT ₹398.82 Cr (59.5%); PAT ₹297.38 Cr.
+- = **38.8% of group PAT** on **7.5% of group net assets** (₹226.3 Cr): a ~130% ROE business.
+- Paid **₹272 Cr of dividends to Crisil Ltd in CY25** (standalone dividend income ₹272.0 Cr vs ₹158.0 Cr in CY24). This upstreaming explains most of standalone other income.
+- **Ratings segment ≈ Crisil Ratings Ltd (₹670.6 Cr) + S&P-Ratings billings (₹386.7 Cr) = ₹1,057 Cr vs the reported segment ₹1,078.7 Cr.** The ~₹21 Cr residual is grading/other ratings-adjacent revenue or inter-company timing [E].
+
+**Contingent liabilities (note 38):**
+- Disputed direct taxes **₹779.8 Cr** (Dec-24: ₹650.3 Cr; +20%); disputed indirect taxes (GST) ₹13.0 Cr; bank guarantees ₹8.8 Cr. **Total ₹801.5 Cr ≈ 26% of equity.**
+- Capital commitments only ₹9.0 Cr.
+- Management and its tax advisers "expect that its position will likely be upheld". The claims mainly arise from income-tax assessments disallowing certain expenditures.
+- Not in Parts 1–3. Worth one sentence in a risk box. Transfer-pricing disputes are typical for a cost-plus captive [E].
+
+**Leases (note 41):** lease liabilities ₹296.8 Cr (Dec-25) vs ₹250.0 Cr; additions ₹75.0 Cr; interest ₹22.2 Cr; cash payments ₹38.5 Cr. **Finance cost (₹22 Cr) is entirely lease interest.** CRISIL has no financial debt.
+
+**Geography (note 39), ₹ Cr:**
+- CY24: India 986.1, Europe 710.5, North America 1,276.1, Rest of world 287.1 (total 3,259.8).
+- CY25: NA 1,425.3 (+11.7%), India 1,126.7 (+14.3%), Europe 743.2 (+4.6%), RoW 353.8 (+23.2%).
+- Non-current assets by geography (CY24): India ₹793.7 Cr; North America ₹179.7 Cr; Europe ₹39.5 Cr.
+
+**Directors' report:**
+- "Maintained leadership position in the corporate bond markets, driven by **investor and issuer preference** for quality ratings."
+- 1,280+ new BLRs; 7,200+ active ratings.
+- On the CY25 industry: "stable bond issuances and moderate expansion in bank credit". There was a Q2-2025 surge in large bond issuances "primarily from frequent issuers in the financial services sector, following the RBI's rate cuts in April". Growth moderated in H2 "as yields rose".
+- Final dividend ₹28 approved at the AGM of 17-Apr-2026.
+
+**Risks** (call slide 27 + AR): macro/geopolitics (West Asia), GenAI (model capability and adoption pace), FX (sharp INR appreciation), plus the tax contingencies and parent concentration above.
+
+**Headcount:** 5,081 permanent (Dec-25) + 1,076 contract. The call confirms additions are "evenly spread". There is no Sep-26 count.
+
+### 4.2.6 ICRA Ltd (reference) — compact pack [V unless tagged]
+
+**Commentary digest (FY26 call 25-May-2026; Q1 FY27 deck 30-Jul-2026):**
+- **Ratings outlook:** "a leverage play on the economic activity". Bond activity is "subdued given the spike in the yields", but "bank credit … will probably drive bulk of our growth". No slowdown seen in April–May. Q1 FY27 ratings growth was "aided by bank credit growth, with demand led mainly by the Industries and NBFC segments". Securitisation was "driven entirely by NBFCs".
+- **Margins:** no guidance. When revenue grows double-digit, "employee cost growth are sub-10%", so ratings margins expand.
+- **Risk & Analytics:**
+  - KnowTech (Moody's captive) has "muted growth", with "automation-led ramp-downs".
+  - Ex-Fintellix, R&A grew ~7% in FY26.
+  - Fintellix (~US$25m) was consolidated from Oct-2025. D2K and Fintellix are now 100% owned.
+  - Product businesses run at 20–35% EBITDA.
+  - Banks' **expected-credit-loss (ECL) transition effective 1-Apr-2027** is a RegTech tailwind.
+- **Capital:** ">₹700 Cr" of cash. Analysts pressed for a buyback; management prefers acquisitions with IRR discipline.
+- **Macro (ICRA house view):** FY27 GDP 6.2% (May, crude US$95) → 6.7% (Jul deck). CPI 5.0%. Rate hikes are "contingent on monsoon"; the RBI then hiked in October.
+
+**5-year history (₹ Cr, FY; screener consolidated):**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Jun-26 |
+|---|---|---|---|---|---|---|
+| Revenue | 343 | 403 | 446 | 498 | 600 | 638 |
+| Op. profit / OPM | 121 / 35% | 143 / 35% | 149 / 33% | 178 / 36% | 215 / 36% | 230 / 36% |
+| Other income | 41 | 50 | 75 | 77 | 68 | 76 |
+| PAT | 114 | 137 | 152 | 171 | 183 | 196 |
+| Payout | 24% | 93% | 64% | 34% | 56% | — |
+| ROCE | 19% | 20% | 21% | 23% | 23% | — |
+| Ratings / R&A revenue (company) | — | — | — | 294.6 / 204.8 | 336.5 / 265.8 | Q1 FY27 83.8 / 80.6 |
+
+**Last 8 quarters (₹ Cr; screener):**
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 126 | 121 | 136 | 124 | 137 | 164 | 175 | 163 |
+| Op. profit | 41 | 42 | 59 | 40 | 49 | 57 | 70 | 55 |
+| OPM | 33% | 35% | 43% | 32% | 36% | 35% | 40% | 34% |
+| D&A | 4 | 4 | 4 | 4 | 4 | 10 | 10 | 11 |
+| PAT | 37 | 42 | 56 | 43 | 48 | 39 | 53 | 56 |
+
+- Q1 FY27 segment results: Ratings ₹29.0 Cr on ₹83.8 Cr (34.6%) vs ₹23.0 Cr on ₹74.2 Cr (31.0%).
+- Q1 is seasonally the weakest margin quarter (the full-year FY26 ratings margin was 56.7%). **Do not annualise Q1.**
+- D&A tripled from Q3 FY26 (Fintellix intangibles).
+
+**Default study FY2026** (May 2026; own methodology, annual cohorts): CDR-1 5-year average AAA 0.0%, AA 0.0%, A 0.0%, BBB 0.3%, BB 2.5%; 10-year average AAA **0.2%** (IL&FS FY19; DHFL securitisations FY20), AA 0.1%, A 0.1%, BBB **1.0%**, BB 3.7%. The portfolio has shifted to investment grade because ICRA "discontinued rating coverage on many lower rated entities".
+
+**Balance sheet (Mar-26):** reserves ₹1,171 Cr; investments ₹730 Cr; fixed assets ₹313 Cr (Fintellix goodwill and intangibles); borrowings ₹18 Cr; CFO ₹157 Cr; FCF ₹145 Cr; CFO/EBITDA 103%; debtor days 48.
+
+### 4.2.7 CARE Ratings Ltd (reference) — compact pack [V unless tagged]
+
+**Commentary digest (FY26 call 14-May-2026; AR 2025-26; Q1 FY27 release 7-Aug-2026):**
+- **Market position:**
+  - **5,200+ rated entities**.
+  - **"About 24%–25% market share in the incremental business … both by count as well as the volume of debt rated"** (Revati Kasture).
+  - "Sustained its overall market share in debt ratings"; securitisation share expanded (AR).
+  - Yet SEBI's chart gives CARE only **~4% of FY26 fresh listed-security ratings**. **Reconciliation:** CARE's franchise is BLRs, CP, securitisation and unlisted instruments, not listed bonds [E].
+- **Mix:** CARE "do[es] not disclose our share between capital markets and bank loan ratings". An analyst recalled ~65% from BLRs historically [unverified].
+- **Pricing:** bond-market fee yields are better than BLR fees ("bank loan rating … fairly commoditized"). Competitor pricing is not visible; "continuously improving the pricing" is a management KRA.
+- **Default performance:**
+  - "Short-term cumulative default rate for the top three rating categories … AAA, AA and A are the best in the industry."
+  - Observed default rates are "well within the RBI prescribed benchmark".
+  - Q4 FY26 deck: one-year IG stability charts for AAA/AA/A/BBB (99.4 / 99.7 / 96.0 / 97.4 vs 91.7 / 91.9 / 90.2 / 90.0). The series-to-label mapping is unclear in text extraction, so **don't quote** [FLAG].
+- **Subsidiaries:**
+  - CareEdge Global IFSC: 30+ issuers, >US$8bn rated, IFSCA ESG licence; 19.8% being sold to SBI and NSE IFSC.
+  - CARE Africa: >100 clients, US$4bn.
+  - Nepal: #1 by instruments.
+  - CARE Analytics & Advisory reached breakeven. Subsidiaries run ~11–12% EBITDA.
+  - **PaRRVA** (with NSE): pilot Dec-2025, commercial launch Apr-2026.
+  - CARE ESG: share 37% → **~58%**, i.e. **26 of 45 outstanding Cat-I issuer-pays ESG ratings** (AR). The ESG market is tiny in count.
+- **People:** 608 permanent employees in the standalone company (Mar-26; 598 a year earlier); median pay ₹15 lakh (+7.1%). **Revenue per standalone employee ≈ ₹64 lakh** [E: 387.7 / 6.08].
+- **Capital allocation:** an analyst noted "peers in our industry has announced a significant buyback". CARE keeps cash for a "meaningful deal … at the right valuation"; payout held at 39%.
+
+**5-year history (₹ Cr, FY; screener consolidated):**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Jun-26 |
+|---|---|---|---|---|---|---|
+| Revenue | 248 | 279 | 332 | 402 | 473 | 491 |
+| Op. profit / OPM | 80 / 32% | 99 / 36% | 112 / 34% | 155 / 39% | 197 / 42% | 204 / 42% |
+| Other income | 27 | 38 | 47 | 51 | 55 | 56 |
+| PAT | 77 | 85 | 103 | 140 | 174 | 180 |
+| Payout | 67% | 89% | 53% | 39% | 39% | — |
+| ROCE | 16% | 19% | 21% | 25% | 26% | — |
+| Treasury (company) | — | — | — | 780.4 | **915.5** | — |
+
+**Last 8 quarters (₹ Cr; screener):**
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 117 | 96 | 110 | 94 | 136 | 112 | 131 | 112 |
+| Op. profit | 56 | 30 | 47 | 28 | 68 | 40 | 61 | 35 |
+| OPM | 47% | 32% | 43% | 30% | 50% | 36% | 46% | 31% |
+| PAT | 47 | 28 | 43 | 26 | 57 | 37 | 53 | 33 |
+
+- **Seasonality:** the Sep quarter is CARE's peak (surveillance billing). The Sep-25 base (₹136 Cr, OPM 50%) is the bar for the 29-Oct print.
+- Q1 FY27: standalone ₹88.15 Cr (+16.5%); consolidated ₹111.68 Cr (+18.9%); ratings ₹98.71 Cr (+19.1%); PAT ₹32.99 Cr (+24.6%).
+- Q1 FY27 industry context (CARE): CP issuance +18.5% to ₹5.4 trillion; bonds −29.3% to ₹2.5 trillion (incl. public issues); bank credit 18.6% (Jun-26) vs 9.5%; industrial credit 19.2%.
+
+### 4.2.8 Global reference pack — upgraded [V]
+
+| | S&P Global Ratings | Moody's MIS | Morningstar Credit (DBRS) | Fitch Group |
+|---|---|---|---|---|
+| 2025 revenue | **US$4,724m (+8%)** | **US$4,119m (+8.6%)** | **US$354.4m (+21.7%)** | n/d. Hearst 2025 revenue US$13.5bn (+3%); Fitch is Hearst's largest profit source and "far exceeded" 2024 earnings [V-snip Hearst CEO letter] |
+| 2024 revenue | US$4,370m | US$3,793m | US$291.1m | n/d |
+| Margin 2025 | 63.8% reported (64% rounded); 65% adjusted | **63.6% adjusted** (60.1% in 2024); Q4-25 58.5% | **32.4% adjusted** (26.0%) | n/d |
+| Group context | S&P Global revenue US$15,336m; GAAP OPM ~42%, adj. ~50% | Moody's adj. margin 51.1% | Morningstar revenue US$2,445.5m; OPM 21.5% | private |
+| ₹ equivalent at ₹94.9 | ~₹44,800 Cr | ~₹39,100 Cr | ~₹3,360 Cr | — |
+| vs India pool (~₹1,850 Cr midpoint [E]) | ~24× | ~21× | ~1.8× | — |
+
+- **Morningstar DBRS alone is ~1.8× the whole Indian CRA industry by revenue.** Its 32% margin, below the big two's ~64%, shows what sub-scale costs in global ratings.
+- **CRISIL's Ratings segment margin (44–47%) sits between DBRS and the big two.** Crisil Ratings Ltd's ~59% PBT margin is close to the big two.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3.1 Domestic CRA revenue pool — re-based estimate [E on V inputs]
+
+| Component | Value (₹ Cr) | Basis |
+|---|---|---|
+| Crisil Ratings Ltd (CY25) | 670.6 | AOC-1 [V] |
+| CARE Ratings standalone (FY26) | 387.7 | Release [V] |
+| ICRA Ratings & ancillary (FY26) | 336.5 | Q4 PPT [V] |
+| **Listed three** | **1,394.8** | Sum [E] |
+| India Ratings & Research (Fitch) | ~300–380 | [E]: #3 in listed fresh ratings (19%, near ICRA's 20%), a large bank/NBFC/infra franchise; net sales +11.1% in 2025 [V-snip EMIS]; absolute figure paywalled (Tofler/EMIS) |
+| Acuité + Infomerics + Brickwork + Acer | ~120–250 | [E]: 10% of listed fresh ratings combined (6 + 3 + 1 + 0) [V-chart]; SME-BLR heavy at low fees |
+| **Whole domestic pool** | **~1,700–2,000 (midpoint ~₹1,850 Cr ≈ US$195m)** | [E] |
+| Cross-check A | ₹1,550–1,940 Cr | If CARE's ₹388 Cr ≈ 20–25% of the pool (CARE claims 24–25% of incremental business by count and volume) [E] |
+| Cross-check B | ₹1,850–2,050 Cr | Bottom-up: listed three + IndRa + tail [E] |
+
+**Revenue shares at the ~₹1,850 Cr midpoint [E]:** Crisil Ratings ~36% · CARE ~21% · ICRA ~18% · India Ratings ~18% · tail ~7%.
+
+**Three share bases, side by side (use with labels):**
+
+| CRA | SEBI fresh listed ratings FY26 [V/V-chart] | Revenue share, pool midpoint [E] | Rated entities [V] |
+|---|---|---|---|
+| CRISIL | 47% | ~36% | ~7,300 (Mar-26) |
+| ICRA | 20% | ~18% | n/d |
+| India Ratings | 19% | ~18% | n/d |
+| CARE | 4% | ~21% | 5,200+ |
+| Acuité | 6% | ~3–4% | n/d |
+| Infomerics | 3% | ~2–3% | n/d |
+| Brickwork | 1% | <1% | n/d (476 outstanding long-term ratings at Sep-2022, 127 of them "D") [V-snip] |
+| Acer | 0% | ~0 | new (registered 21-Aug-2025) |
+
+Average revenue per rated entity: CRISIL ₹9.2 lakh (₹670.6 Cr / 7,300) vs CARE ₹7.5 lakh (₹387.7 Cr / 5,200) [E]. **That is a ~23% fee premium for the investor-preferred rater**, consistent with CRISIL's listed-bond skew.
+
+### 4.3.2 Bond market — SEBI series [V SEBI statistics]
+
+**E39. Private placements of corporate bonds (BSE+NSE)**
+
+| FY | Issues | Amount (₹ Cr) | YoY value | YoY issues |
+|---|---|---|---|---|
+| FY24 | 1,347 | 8,37,756 | — | — |
+| FY25 | 1,659 | 9,87,056 | +17.8% | +23.2% |
+| FY26 | 1,924 | 8,99,736 | **−8.8%** | **+16.0%** |
+| FY27 H1 (Apr–Sep 26) | 974 | 4,34,011 | n/a | n/a |
+| Sep-26 (month) | 228 | 1,11,586 | — | — |
+
+- Average issue size fell from ₹595 Cr (FY25) to **₹468 Cr (FY26, −21%)** [E].
+- **Raters bill per issue/issuer more than per rupee.** More, smaller issues are good for rating revenue even when issuance value falls. This is a third reason, alongside bank credit and the surveillance lag, why rating revenue grew while bond value fell.
+
+**E40. Corporate bonds outstanding (₹ lakh Cr)**
+- Mar-25 53.64 · Mar-26 **59.09** · Sep-26 **61.52**.
+- Sep-26 split: financial corporations 30.34 · non-financial 29.68 · others 1.50.
+- Older NSDL/CDSL series, Dec-24: ₹51.58 lakh Cr across 35,639 instruments and **6,558 issuers**.
+
+**E41. Bond issuance — basis reconciliation (name the basis every time)**
+
+| Source | Period | Value | Change | Basis |
+|---|---|---|---|---|
+| SEBI statistics | FY26 | ₹9.00 lakh Cr | −8.8% | Private placements listed on BSE/NSE |
+| SEBI AR / CareEdge (old snippet) | FY26 | ~₹9.1 lakh Cr | −8.4% | Probably incl. public issues; superseded by the row above |
+| Prime Database via CARE (release, AR) | FY26 | ₹10.8 lakh Cr | −3.2% | Prime's universe: incl. unlisted private placements |
+| Prime via CRISIL | CY25 | ₹11.2 lakh Cr | flat | Calendar year, Prime |
+| Prime via CRISIL | 9M CY26 | ₹8.41 lakh Cr | −6.1% | Calendar, Prime |
+| CARE (Prime) | Q1 FY27 | ₹2.5 lakh Cr | −29.3% | Incl. public issues and private placements |
+
+**E42. CRISIL slide: bond issuers (Prime, count)**
+9M CY25 ~1,147 · 9M CY26 ~1,191 (+3.8%) · H1 CY25 ~800 · H1 CY26 ~840 · Q2 CY25 ~510 · Q2 CY26 ~430 · Q3 CY25 ~601 · Q3 CY26 ~558. **Issuer count is up YTD even as value is down 6%.**
+
+### 4.3.3 RBI's ODR test vs actual CRA default rates — the key new dataset
+
+**E43. One-year default rates by grade vs RBI Table 21 ceilings (%)**
+
+| Grade | RBI ceiling (Table 21) [V] | CRISIL SEBI long-run FY16–26 [V] | CRISIL SEBI short-run, 24 cohorts Apr-23–Mar-26 [V] | CRISIL own method FY16–26 (excl. INC) [V] | ICRA 10-yr avg CDR-1 [V] | ICRA 5-yr avg CDR-1 [V] | CARE long-run FY12–22 (dated) [V-snip] |
+|---|---|---|---|---|---|---|---|
+| AAA | ≤0.05 | 0.01 ✓ | 0.00 ✓ | 0.00 ✓ | **0.2 ✗** | 0.0 ✓ | **0.6 ✗** |
+| AA | ≤0.10 | 0.06 ✓ | 0.01 ✓ | 0.02 ✓ | 0.1 ≈ limit | 0.0 ✓ | n/f |
+| A | ≤0.20 | 0.09 ✓ | 0.13 ✓ | 0.07 ✓ | 0.1 ✓ | 0.0 ✓ | n/f |
+| BBB | ≤0.40 | **0.42 ✗** (0.41 excl. operational) | 0.12 ✓ | **0.43 ✗** | **1.0 ✗** | 0.3 ✓ | **1.4 ✗** |
+| BB | ≤1.0 | **1.97 ✗** | **1.18 ✗** | **2.80 ✗** | **3.7 ✗** | **2.5 ✗** | **4.4 ✗** |
+
+(✓ within the range → base risk weight; ✗ above → one bucket higher. CARE's FY26 figures were not fetched; its 2022 file is shown only to illustrate that long-run windows contain IL&FS-era defaults.)
+
+**Reading it:**
+1. **The averaging window decides the outcome, and RBI has not fixed it.**
+   - Para 27(2) says only "latest available average one-year ODR … published by the domestic ECRA". The SEBI-mandated disclosures include both long-run (10-year) and short-run (24/36/48-cohort) averages.
+   - On long-run windows that still contain FY19–20 (IL&FS, DHFL), ICRA's AAA and both CRAs' BBB breach. On short-run windows only BB breaches.
+   - Expect RBI FAQs or IBA clarification before 1-Apr-2027 [E].
+2. **The "BB 150% → 100%" relief is largely illusory.** Every BB one-year rate we have (1.2–3.7%) exceeds the 1.0% ceiling, so BB exposures move one bucket up, back to 150% in practice. The **BBB 100% → 75%** relief survives only on short-run windows.
+3. **Crisil Ratings' ₹71,000 Cr capital-relief estimate** (Jan-2026, on the draft) "assumed all CRAs qualify". On the final text it is an **upper bound** [E].
+4. **Commercial implication:** banks will compare CRAs grade by grade. CRISIL looks clean at AAA–A on every window, and CARE claims the best short-term CDRs at AAA/AA/A. The ODR race is fought at **BBB**, where mid-corporate BLR volume lives [E].
+5. **Rated-universe migration:** Crisil's study notes that its median rating moved from BB to BBB (FY22) because sub-IG issuers stopped cooperating (INC) once banks' external-rating exposure thresholds rose. It warns this "may lead to lower risk weights than warranted" in bank books. The new 150% weight on unrated exposures above ₹500 Cr (system-wide) and the INC penalties work the other way and should **pull some sub-IG borrowers back into the rated universe from FY28** [E]. That is volume for the BLR-heavy tail, at higher-risk grades.
+
+**E44. Crisil Ratings one-year transition (stability) rates, FY16–26 (own method):** AAA 99.03% · AA 96.05% · A 92.81% · BBB 91.64% · BB 89.20% · A1+ 99.01%. Annual default rate FY26 0.7% (38 defaults) vs FY25 0.6% (36), the lowest in 17 years [V].
+
+### 4.3.4 Other upgraded datasets
+
+**E45. S&P-group revenue at CRISIL by legal entity (₹ Cr, CY25 / CY24)** [V AR25 note 40]
+SPFS LLC 253.5 / 193.7 · Ratings Europe 49.9 / 45.4 · Ratings UK 36.1 / 32.6 · MI LLC 31.7 / 20.0 · S&P Global UK 23.4 / 33.6 · Ratings HK 21.5 / 23.5 · S&P Global Inc 18.6 / 9.9 · Ratings Australia 10.0 / 9.6 · Ratings Singapore 7.8 / 7.1 · Canada 4.8 / 3.9 · MI Inc 4.1 / — · Trucost 3.3 / 5.2 · Ratings Japan 2.6 / 3.3 · others 8.4 / 1.2. **Total 475.5 / 389.0.**
+
+**E46. Treasury vs market cap, latest (₹ Cr)** [V company; E net]
+- CRISIL: cash + current investments ~1,010 (Dec-25), plus non-current investments 494; leases 297.
+- ICRA: ">700" (screener investments 730).
+- CARE: 915.5 gross; ~864 net of leases.
+- **Cash as % of m-cap:** CRISIL ~3% · ICRA ~17% · CARE ~18% [E]. ICRA's and CARE's P/E ex-cash is ~18–22×, a smaller discount to CRISIL than headline P/Es suggest.
+
+**E47. CRISIL contingent liabilities (₹ Cr)** [V]
+Disputed direct tax: Dec-24 650.3 → Dec-25 779.8 · Indirect tax 8.1 → 13.0 · Bank guarantees 9.0 → 8.8.
+
+**E48. Global ratings revenue 2025 (₹ Cr at ₹94.9/$)** [V; ₹ conversion E]
+S&P Ratings ~44,800 · Moody's MIS ~39,100 · Morningstar Credit ~3,360 · Indian CRA pool ~1,850 [E] · Crisil Ratings Ltd 671 [V].
+
+**E49. CARE ESG ratings market (Cat-I issuer-pays ERPs)** [V AR]
+Outstanding ESG ratings: 45 in total, of which CARE ESG 26 (~58%; up from ~37% at the start of FY26).
+
+## 4.4 Gap log (every §H item and every brief gap)
+
+| # | Gap (§H number / brief item) | Status | Detail / what was tried |
+|---|---|---|---|
+| H1 / B1 | Revenues of India Ratings, Acuité, Infomerics, Brickwork, Acer | **Partly filled** | IndRa net sales +11.1% in 2025 [V-snip EMIS]; absolute figures sit behind the Tofler/EMIS paywalls (not used). Acuité's site publishes only issuer-wise non-rating-income percentages. Searches for rationales or press with revenue found nothing. **The pool was re-based to ~₹1,700–2,000 Cr [E] with two cross-checks (4.3.1).** Still open: absolute revenues (MCA filings need paid access). |
+| H2 / B2 | BLR share / rated entities by CRA | **Partly filled** | CRISIL ~7,300 rated companies (Mar-26) [V]; CARE 5,200+ [V]; CARE 24–25% of incremental business by count and volume [V]. ICRA and IndRa counts were not found. The BSE "Enhanced disclosures by CRAs" page (with outstanding counts) returned 403. No CRA discloses its BLR share (CARE explicitly declined). Brickwork: 476 outstanding long-term ratings at Sep-2022 [V-snip]. |
+| H3 / B3 | CARE's share of SEBI FY26 fresh listed ratings | **Filled** | ~4% (Acuité ~6%, Infomerics ~3%, Brickwork ~1%, Acer 0%) — SEBI AR Chart 7.1 rendered at 220 dpi and read visually [V-chart]. |
+| H4 / B4 | One-year default rates by grade (CRISIL/ICRA/CARE) and RBI's averaging window | **Mostly filled** | CRISIL FY26 study (SEBI long-run, short-run, own) [V]; ICRA FY2026 study (5- and 10-year) [V]; CARE FY26 file not found (2022 file only, [V-snip]); CARE's claims [V]. **RBI's window: the text does not specify one** (para 27(2)) [V]; this is now an open policy question, not a sourcing gap. |
+| H5 | Surveillance vs new-rating revenue split | **Still open** | No CRA discloses it. CRISIL explains the mechanism (surveillance follows prior-year new revenue) [V]. |
+| H6 | CRISIL RAS sub-split | **Still open (by design)** | Management: "we don't disclose individual breakdown". Coalition Greenwich + Integral IQ are the material parts, then Intelligence [V]. |
+| H7 / B11 | GAC revenue; S&P related-party sum | **Filled** | ₹475.5 Cr (13.0%) confirmed by a full re-sum plus BRSR 13% [V]. GAC proxy = billings to S&P Ratings entities ₹386.7 Cr [V-derived] vs segment-derived ₹408 Cr → use ₹390–410 Cr. |
+| H8 | CRISIL Sep-2026 headcount | **Still open** | Not disclosed in the Q3 filings; 5,081 + 1,076 at Dec-25 [V]. |
+| H9 / B8 | Moody's MIS revenue and margin; Fitch revenue; DBRS 2025 | **Filled except Fitch** | MIS US$4,119m, adj. 63.6% [V]; Morningstar Credit US$354.4m, 32.4% [V]; S&P Ratings re-verified [V]. Fitch: no official figure. Hearst 2025 revenue US$13.5bn; Fitch is the biggest profit source [V-snip]. Wikipedia's "US$1.7bn" is undated; the "US$2.6bn" profile figure is unsourced. **Do not print a Fitch revenue figure.** |
+| H10 / B9 | Bond issuance basis conflicts | **Filled** | SEBI private placements FY26 ₹9.00 lakh Cr (−8.8%; issues +16%) [V]; Prime FY26 ₹10.8 lakh Cr (−3.2%) [V CARE AR/release]; Prime CY25 ₹11.2 lakh Cr [V CRISIL]. Bases tabulated in E41. |
+| H11 / B9 | Outstanding bonds ₹59.1 vs ~61 lakh Cr | **Filled** | SEBI: ₹59.09 lakh Cr (Mar-26), ₹61.52 lakh Cr (Sep-26) [V]. Both correct; different dates. |
+| H12 / B6 | CRISIL issuer counts | **Filled** | 9M ~1,147 → ~1,191; Q3 ~601 → ~558; the −7.2% is Q3 [V]. |
+| H13 / B7 | Repo-hike date | **Filled (date partly snippet)** | MPC 5–7 Oct 2026 per RBI's minutes release [V]; announcement 7-Oct, 5.50%, calibrated tightening [V-snip press; V CRISIL PR for the level]. The RBI resolution PDF itself was not opened. |
+| H14 / B10 | Brickwork's final status | **Filled** | SEBI settlement-order page dated 4-Dec-2024 [V]; ₹1.54 Cr settlement of the Dec-2023 SCN, approved Sep–Nov 2024 [V-snip Moneylife]. Still registered (SEBI AR 2025-26) and RBI-eligible (2026 Directions) [V]. A separate SEBI challenge to a Karnataka HC stay on a consent-application rejection appears in snippets; outcome unknown [FLAG]. |
+| H15 / B5 | SEBI net worth; PD-benchmark circular; Jan-2026 rule; ERP regime | **Filled** | Net worth ₹25 Cr (SEBI board 28-Dec-2017) [V]; PD circular 13-Jun-2019 → Master Circular 11-Jul-2025 [V via CRISIL study]; 13-Jan-2026 notification (Reg. 9(f); segregation proviso omitted) [V-snip]; ERP chapter 3-Jul-2023 [V-snip]. ERP net worth not found. |
+| H16 | PriceMetrix annual revenue | **Still open** | Management declined to disclose on the call [V]. RAS segment assets +44% YoY [V] reflect the acquisition. |
+| H17 / B6 | CRISIL Q2 CY26 board date | **Filled** | 21-Jul-2026 [V]. |
+| B10 | CARE net cash | **Filled** | Treasury ₹915.5 Cr; ~₹864 Cr net of leases [V AR]. |
+| B (payout) | CRISIL payout 57% vs 58% | **Filled** | 58.2% [V] (S1). |
+| B (call) | Latest CRISIL concall transcript | **Filled** | 20-Apr-2026 is the latest; no Q2/Q3 calls held [V/V-snip]. |
+| New | CARE FY26 default-rate file; ICRA/IndRa rated-entity counts; RBI ODR window | **Open** | Next steps: careratings.com regulatory disclosures (latest PDF name unknown); IndRa "Rating performance" page; RBI FAQs on the SA Directions. |
+
+## 4.5 New insights the first pass missed
+
+1. **RBI's ODR test is a live risk for the incumbents, not just the tail.** On SEBI's 10-year window, CRISIL's BBB (0.42%) and ICRA's AAA (0.2%) and BBB (1.0%) one-year default rates exceed RBI's Table 21 ceilings. Every CRA's BB grade (1.2–3.7%) exceeds the 1% ceiling on every window. RBI has not specified the window. **The "BB 150 → 100%" relief is effectively void, and the BBB relief depends on a definitional choice still to be made before 1-Apr-2027.** Crisil Ratings' ₹71,000 Cr relief estimate is an upper bound (4.3.3).
+2. **Issue count, not issue value, drives rating revenue, and counts rose.** FY26 private placements fell −8.8% in value but rose **+16% in number** (1,659 → 1,924); average issue size fell 21%. CRISIL's 9M CY26 issuer count is +3.8% while value is −6%. Combined with 19% bank-credit growth and the surveillance lag, this explains "bonds down, raters up" more fully than Parts 1–3 did.
+3. **CARE is a bank-loan and unlisted-instrument franchise, not a bond-market one.** It has ~4% of SEBI fresh listed ratings but claims 24–25% of incremental rating business by count and volume, and 5,200+ rated entities. The CRISIL–CARE contrast (47% vs 4% of listed bonds; ₹9.2 lakh vs ₹7.5 lakh revenue per rated entity) is the cleanest evidence of the two-tier, investor-preference market.
+4. **CRISIL's dependence on S&P is rising.** S&P-group billings grew **+22% in CY25 vs +12% for CRISIL overall** (13.0% of revenue vs 11.9%). Within that, S&P Ratings entities grew +21% to ₹387 Cr. Growth in "new areas" (Market Intelligence, Kensho, Capital IQ India, OPCO) is small but new.
+   - **Disputed direct-tax claims also rose 20% to ₹780 Cr** (≈26% of equity). That is not flagged anywhere in Parts 1–3, and it is plausibly linked to the transfer-pricing-heavy model [E].
+5. **Crisil Ratings Ltd is the profit engine and the cash pump.** It earns **38.8% of group PAT on 7.5% of group net assets** (~130% ROE) and upstreamed **₹272 Cr** of dividends in CY25 (₹158 Cr in CY24). That cash funds most of CRISIL's ₹446 Cr payout. The Ratings segment ≈ Crisil Ratings Ltd + S&P-Ratings billings (₹1,057 Cr of ₹1,079 Cr).
+6. **The Q3 CY26 margin squeeze is not wages.** Employee cost held at ~54% of revenue. The drag came from professional and associate fees (+37% YoY), D&A (+38%, acquisition intangibles) and the FX-gain swing (₹15.5 Cr → ₹2.3 Cr). The Coalition Greenwich slowdown was flagged in April as renewal timing. **Treat Q4 CY26 RAS margin recovery as the test.**
+7. **Scale lens:** Morningstar DBRS (US$354m in 2025, +22%, 32% margin) is ~1.8× the entire Indian CRA industry. Moody's MIS and S&P Ratings are each 21–24× larger. India's ~US$195m pool is ~4% of either big-three ratings division.
+8. **Regulatory archaeology:** the rule that forced CRISIL to put ratings in a separate subsidiary dates to SEBI's Dec-2017 board decision (with the ₹25 Cr net-worth hike). In Jan-2026 SEBI **removed the segregation proviso** and let CRAs rate instruments under other regulators. Structural ring-fencing is loosening just as RBI tightens on outcome metrics (ODR).
+
+## 4.6 New primer issues (for `primers/crisil.html`; add to §3.4 list)
+
+### From Credit Ratings & Research deep-research pass (2026-10-23, ratings-industry.md Part 4)
+
+- **crisil.html — dividend payout:** quote CY25 payout as **~58%** (₹61 × 7.313 Cr shares = ₹446 Cr on ₹766 Cr PAT; CY24 DPS ₹56). Not "~57%" or "55–60%". 9M CY26 interims total ₹36 (vs ₹33).
+- **crisil.html — S&P dependence, quantified and rising:** S&P-group revenue **₹475.5 Cr (13.0%) in CY25 vs ₹389.0 Cr (11.9%) in CY24, +22%** (AR25 note 40; BRSR says 13% / 12%). Of this, ~₹387 Cr is from S&P Global Ratings entities (the GAC). State "no single customer ≥10%" alongside it, since the largest entity (SPFS LLC) is 6.9%.
+- **crisil.html — GAC sizing:** wherever the primer splits the Ratings segment, use **GAC ≈ ₹390–410 Cr** and **Crisil Ratings Ltd ₹670.6 Cr**. Crisil Ratings Ltd = 38.8% of group PAT on 7.5% of net assets; it paid ₹272 Cr of dividends to the parent in CY25.
+- **crisil.html — risk section, new item:** **contingent liabilities ₹801.5 Cr** (disputed direct taxes ₹779.8 Cr, up from ₹650.3 Cr; ≈26% of equity), per AR25 note 38. Management expects to prevail.
+- **crisil.html — regulatory section:**
+  - The RBI SA Directions 2026 tie risk weights to each CRA's one-year ODR (Table 21). CRISIL passes at AAA/AA/A on every window, but its **BBB (0.42% SEBI long-run vs 0.40% ceiling)** and **BB (1.2–2.0% vs 1.0%)** breach on some or all windows. RBI hasn't specified the averaging window.
+  - Don't present the regime as an unambiguous tailwind. Cite Crisil Ratings' default study (FY26: annual default rate 0.7%; no AAA default ever at 1–3 years).
+- **crisil.html — SEBI history:** the ₹25 Cr CRA net-worth floor and the rule separating non-rating businesses come from **SEBI's 28-Dec-2017 board decision** (notified 2018), not 2021. The **13-Jan-2026 amendment removed the segregation proviso** and allowed ratings under other regulators.
+- **crisil.html — bond-market numbers (use SEBI's own series):**
+  - Corporate bonds outstanding **₹59.1 lakh Cr (Mar-26) / ₹61.5 lakh Cr (Sep-26)**.
+  - FY26 private placements **₹9.0 lakh Cr (−8.8%) but 1,924 issues (+16%)**.
+  - CRISIL's slide: 9M CY26 bond issuers ~1,191 (+3.8%) while issuance value fell 6%.
+- **crisil.html — competitor table, CARE:** CARE had **~4% of FY26 fresh listed ratings** (SEBI chart) but claims **24–25% of incremental rating business** and 5,200+ rated entities. It is a BLR/unlisted franchise. Its net treasury is ~₹864 Cr.
+- **crisil.html — no management guidance:** CRISIL gives no numeric guidance and held no Q2/Q3 CY26 calls. The latest transcript is 20-Apr-2026. Any "guidance" line in the primer should be phrased as directional commentary (bank credit ~13% FY27 expected in April; actual 19.1%).
+- **crisil.html — Q2 date and board change:** Q2 CY26 results were approved **21-Jul-2026**. Saugata Saha (S&P nominee) resigned as non-executive director effective 22-Jul-2026; Abhishek Tomar was appointed additional director [V-snip, verify on BSE before printing].
+- **crisil.html — margin narrative:** Q3 CY26 PBT +5.3% despite revenue +20.2%. Drivers: professional/associate fees +37% YoY, D&A +38%, FX gain ₹2.3 Cr vs ₹15.5 Cr. Employee cost stable at 54% of revenue. The 3-year PAT CAGR (CY22–25) is only ~7% against a 38.8× P/E.
+- **crisil.html — global comparison (if the primer has one):** S&P Ratings US$4,724m (64–65% margin); Moody's MIS US$4,119m (63.6% adj.); Morningstar DBRS US$354m (32.4% adj.). The Indian CRA pool is ~₹1,700–2,000 Cr [E].
+
+## 4.7 Key sources added in Part 4
+
+- **CRISIL Q3 CY26** (results, press release, PPT): BSE links in §3.5. Q2 CY26 PPT (21-Jul-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf05d927-5658-44e8-bdf9-babd009b78fe.pdf
+- **CRISIL call 20-Apr-2026:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac2fc8fa-5332-44fc-9686-57946e76b59e.pdf
+- **CRISIL AR25** (notes 38, 39, 40, AOC-1, BRSR): https://www.bseindia.com/xml-data/corpfiling/AttachHis/5ca06d60-aff0-4016-981c-caf1990aecad.pdf
+- **Crisil Ratings default study up to FY2026:** https://www.crisil.com/content/dam/crisil/our-analysis/publications/default-study/crisil-ratings-annual-default-and-ratings-transition-study-fy-2026.pdf
+- **ICRA Rating Transition and Default Study FY2026:** https://www.icra.in/Rating/GetRatingPerformanceFileViewer/63~FY2026%20Rating%20Transition%20and%20Default%20Study.pdf (the 62~ file is "Rating Performance Trends for FY2026", Apr-2026)
+- **ICRA FY26 call; Q1 FY27 and Q4 FY26 PPTs:** see §3.5
+- **CARE Annual Report 2025-26:** https://www.bseindia.com/xml-data/corpfiling/AttachHis/39c32185-731c-46d1-8131-dcba8f85f371.pdf · Q4 FY26 call: see §3.5
+- **SEBI AR 2025-26 Ch. 7** (Chart 7.1 rendered): see §3.5 · **SEBI private placements:** https://www.sebi.gov.in/statistics/corporate-bonds/privateplacementdata.html · **SEBI outstanding bonds:** https://www.sebi.gov.in/statistics/corporate-bonds/outstandingcorpbond-finnonfincorp-apr-2024.html
+- **SEBI board meeting 28-Dec-2017:** https://www.sebi.gov.in/media/press-releases/dec-2017/sebi-board-meeting_37183.html · **Brickwork settlement order (Dec-2024):** https://www.sebi.gov.in/enforcement/orders/dec-2024/settlement-order-in-the-matter-of-brickwork-ratings-india-private-limited_89277.html
+- **RBI SA Directions 2026** (paras 12, 24–27, 40; Table 21): https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=13399 · **RBI press releases (MPC minutes 21-Oct-2026):** https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx
+- **Moody's 4Q25 release:** https://s203.q4cdn.com/694693571/files/doc_financials/2025/q4/4Q25-Earnings-Release-vFINAL.pdf · **S&P 4Q25 exhibits:** see §3.5 · **Morningstar 10-K FY2025:** https://www.sec.gov/Archives/edgar/data/1289419/000128941926000013/morn-20251231.htm
+- **Snippet-only (do not over-weight):** Taxmann on the 13-Jan-2026 notification; SCC Online on the 2023 ERP amendment; Moneylife on the Brickwork ₹1.54 Cr settlement; EMIS on IndRa +11.1%; press on the 7-Oct-2026 repo decision; Quartr on the Jul-2026 board change.
+
+*End of Part 4.*
