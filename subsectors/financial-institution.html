@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Development Financial Institutions — Sub-sector Report</title>
+<meta name="description" content="A complete guide to India's development financial institutions: IFCI in run-off, the SHCIL and NSE look-through, the state's sell-or-merge playbook, NaBFID's new DFI model, the sovereign lenders, the KPIs and what to watch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#833B07;          /* deep burnt umber */
+    --brand-bright:#C4621A;   /* copper accent */
+    --gold:#B8892B;           /* old gold */
+    --wtg:#9C5A2E;            /* sienna */
+    --epc:#C9935A;            /* tan */
+    --om:#3F5A73;            /* slate */
+    --spec:#C4621A;          /* copper */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#833B07,#C4621A);}
+  .fill.gold{background:linear-gradient(90deg,#B8892B,#D4AA55);}
+  .fill.wtg{background:linear-gradient(90deg,#9C5A2E,#B97A4E);}
+  .fill.om{background:linear-gradient(90deg,#3F5A73,#5F7A93);}
+  .fill.spec{background:linear-gradient(90deg,#C4621A,#DB8545);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Finance · Development Financial Institutions</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> How a DFI earns a rupee</a></li>
+    <li><a href="#p2"><span class="n">02</span> Two DFI systems, one owner</a></li>
+    <li><a href="#p3"><span class="n">03</span> The ₹136 lakh crore question</a></li>
+    <li><a href="#p4"><span class="n">04</span> Funding is fate</a></li>
+    <li><a href="#p5"><span class="n">05</span> Who owns what</a></li>
+    <li><a href="#p6"><span class="n">06</span> Six ways to be a state lender</a></li>
+    <li><a href="#p7"><span class="n">07</span> NBFC or AIFI: the rulebook</a></li>
+    <li><a href="#p8"><span class="n">08</span> Seventy-eight years, four lives</a></li>
+    <li><a href="#p9"><span class="n">09</span> A lender with no loans</a></li>
+    <li><a href="#p10"><span class="n">10</span> The exchange inside the lender</a></li>
+    <li><a href="#p11"><span class="n">11</span> Sell, merge, never regrow</a></li>
+    <li><a href="#p12"><span class="n">12</span> The DFI reborn: NaBFID</a></li>
+    <li><a href="#p13"><span class="n">13</span> Fees for the state</a></li>
+    <li><a href="#p14"><span class="n">14</span> Reading a DFI: the KPIs</a></li>
+    <li><a href="#p15"><span class="n">15</span> The peer table</a></li>
+    <li><a href="#p16"><span class="n">16</span> Who is winning</a></li>
+    <li><a href="#p17"><span class="n">17</span> IFCI, profiled</a></li>
+    <li><a href="#p18"><span class="n">18</span> The global lens</a></li>
+    <li><a href="#p19"><span class="n">19</span> Technology &amp; disruption</a></li>
+    <li><a href="#p20"><span class="n">20</span> Bull vs bear</a></li>
+    <li><a href="#p21"><span class="n">21</span> What to watch</a></li>
+    <li><a href="#p22"><span class="n">22</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Finance · Financial Institution</span>
+    <span class="tag gold">1 listed company</span>
+  </div>
+  <h1>Development financial institutions: <em>a lender with no loans</em></h1>
+  <p class="dek">A complete guide to India's development financial institutions, the state-built lenders meant to fund what banks will not. It covers why the first generation failed, why the government built a new one instead of fixing the old, how the sovereign lenders that worked earn their money, and why the only listed member, IFCI, now trades on a stake in the National Stock Exchange rather than on a single performing loan.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹15,945 <small>Cr</small></div><div class="l">IFCI market cap (23 Oct 2026)</div></div>
+    <div class="cell"><div class="v">~₹9,750 <small>Cr</small></div><div class="l">IFCI's NSE look-through, pre-tax (indicative)</div></div>
+    <div class="cell"><div class="v">95.7%</div><div class="l">IFCI gross NPA ratio (Jun-26, RBI basis)</div></div>
+    <div class="cell"><div class="v">₹1,500 <small>Cr</small></div><div class="l">IFCI bonds due May–Oct 2030 (FY31)</div></div>
+    <div class="cell"><div class="v">₹1,16,950 <small>Cr</small></div><div class="l">NaBFID loan book (Mar-26, +95%)</div></div>
+    <div class="cell"><div class="v">₹2,000 <small>Cr</small></div><div class="l">GoI equity into IFCI FY20–FY25; nil since</div></div>
+  </div>
+  <p class="prov">Basis: FY26 (year to 31 Mar 2026) annual reports and results; IFCI latest reported quarter Q1 FY27 (Jun-26, board 11 Aug 2026); market data from screener.in, 23 Oct 2026. Sources: IFCI Annual Report FY26, CARE (17 Aug 2026) and ICRA (14 Sep 2026) rationales, NSE abridged prospectus (SEBI), NaBFID and SIDBI results, PIB, PFC/REC filings. Estimates, look-through values and worked examples are labelled.</p>
+</header>
+
+<!-- =================== P0 =================== -->
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: the state still does development finance, just not through IFCI</h2></div>
+<p class="part-sub">Two systems run side by side: a legacy lender being wound down, sold or merged, and a sovereign-funded set of new and refinance institutions that is growing fast.</p>
+
+<p class="lead">A development financial institution (DFI) is a lender the state sets up to provide long-dated money for things commercial banks fund badly: factories in 1948, power plants in 1990, highways and transmission lines today. Banks borrow short (deposits that can leave tomorrow) and are wary of lending for fifteen years. A DFI is supposed to bridge that gap, with cheap long-term funding from the state and a mandate to take project risk. India has run this experiment twice, and the two runs are now visible side by side in the same set of public filings.</p>
+
+<p>The <strong>first generation</strong> was IFCI (1948), ICICI (1955) and IDBI (1964), plus the state financial corporations. They worked while the state fed them concessional money. After the 1991 reforms withdrew that money, they had to borrow at market rates and lend to riskier borrowers to cover the cost. ICICI and IDBI escaped by becoming banks (2002 and 2004). IFCI stayed a non-deposit lender, resumed lending into the 2008–2012 infrastructure boom, and was crushed by the bad-loan cycle that followed. It has made no new loan since FY22. At March 2026, 95.79% of its gross advances were non-performing on the RBI basis, its capital adequacy ratio was −18.78%, and its rating sat at CARE BB and ICRA B+, both well below investment grade.</p>
+
+<p>The <strong>second generation</strong> is the set of statutory "all-India financial institutions" (AIFIs) regulated by the RBI: NABARD for agriculture and rural credit, EXIM Bank for exports, NHB for housing refinance, SIDBI for small business, and since 2021 the National Bank for Financing Infrastructure and Development (NaBFID). Alongside them sit the listed government lenders that fund one sovereign-linked sector each: PFC and REC (power), IRFC (railways), HUDCO (housing and urban bodies) and IREDA (renewable energy). This second system is large, profitable and growing. NaBFID's loan book roughly doubled in FY26 to ₹1,16,950 crore with no bad loans; SIDBI's grew 16.8% to ₹5.80 lakh crore; PFC and REC are merging into a power-finance group with a loan book of about ₹11.64 lakh crore.</p>
+
+<div class="mini-stats">
+  <div class="ms red"><div class="msv">₹70 Cr</div><div class="msl">IFCI's standard (performing) net loan book, Jun-26, against ₹4,185 Cr of debt including accrued interest (Mar-26)</div></div>
+  <div class="ms gold"><div class="msv">10.38 cr</div><div class="msl">NSE shares still held by StockHolding (SHCIL), 52.86% owned by IFCI, after a small sale in the Sep-2026 IPO</div></div>
+  <div class="ms green"><div class="msv">45.13%</div><div class="msl">NaBFID's capital adequacy ratio (Jun-26), nil NPA: the same owner's new DFI</div></div>
+</div>
+
+<p>The investment question in this sub-sector is unusual because the only listed member, IFCI, is not really a lender any more. It is a holding company with a lending licence attached. What it owns that matters is 52.86% of Stock Holding Corporation of India (SHCIL, "StockHolding"), India's largest custodian and the agency that runs e-stamping in 25 states and union territories. SHCIL in turn held 11 crore shares of the National Stock Exchange going into NSE's listing on 24 September 2026; it sold only 61.9 lakh of them in the IPO and still holds 10.38 crore (4.19% of NSE). At NSE's ₹1,670 share price on 23 October 2026, IFCI's slice of that stake, plus its share of the IPO cash, is worth about ₹9,750 crore before tax (INDICATIVE). That single number explains more of IFCI's ₹15,945 crore market value than every loan it has ever made.</p>
+
+<div class="chart">
+  <div class="c-title">What IFCI is priced at versus what it owns</div>
+  <div class="c-sub">₹ Cr. Market cap from screener.in, 23 Oct 2026. Look-through and sum-of-the-parts ranges are INDICATIVE estimates built from the NSE abridged prospectus share counts, NSE's ₹1,670 price and IFCI's FY26 annual report (see section 10). Not reported figures</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">IFCI market cap<small>23 Oct 2026</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">15,945</div></div>
+    <div class="bar-row"><div class="blab">Gross SOTP, high<small>indicative</small></div><div class="track"><span class="fill gold" style="width:76.5%"></span></div><div class="bval">~12,200</div></div>
+    <div class="bar-row"><div class="blab">NSE look-through<small>pre-tax, indicative</small></div><div class="track"><span class="fill spec" style="width:61.1%"></span></div><div class="bval">~9,750</div></div>
+    <div class="bar-row"><div class="blab">Gross SOTP, low<small>indicative</small></div><div class="track"><span class="fill wtg" style="width:56.4%"></span></div><div class="bval">~9,000</div></div>
+    <div class="bar-row"><div class="blab">Parent equity (book)<small>consolidated, Mar-26</small></div><div class="track"><span class="fill om" style="width:56.1%"></span></div><div class="bval">8,944</div></div>
+  </div>
+  <div class="legend"><span>Even the top of the indicative range sits about a quarter below the market value. The market is paying a premium for the hoped-for merger with SHCIL and for a retail scarcity bid, not a holding-company discount.</span></div>
+</div>
+
+<p>Five forces shape everything in this report, and the sections that follow are built around them. <strong>First, run-off</strong>: IFCI's legacy book recovers about ₹540 crore a year, enough to service debt until 2030, when ₹1,500 crore of bonds fall due inside six months. <strong>Second, the sum of the parts</strong>: the equity trades on SHCIL and NSE, not on lending. <strong>Third, the state's playbook</strong>: old DFIs are sold (IDBI to Fairfax for ₹52,878 crore, at ₹81 a share), merged (REC into PFC at 88 PFC shares per 100 REC shares; IFCI with its own subsidiaries) or left to run off, but never recapitalised to grow again. <strong>Fourth, the model reborn</strong>: NaBFID was designed with what IFCI never had after 1991, namely ₹25,000 crore of free capital, a sovereign guarantee on foreign borrowing and a ten-year tax holiday. <strong>Fifth, funding</strong>: with no deposits, a DFI's rating decides its cost of money, and its cost of money decides whether it can lend safely at all.</p>
+
+<div class="chart">
+  <div class="c-title">Where IFCI's FY26 consolidated profit actually goes</div>
+  <div class="c-sub">FY26 consolidated PAT ₹434.71 Cr split between IFCI shareholders and non-controlling interests (SHCIL's 47.14% minority). Source: IFCI Annual Report FY26</div>
+  <div class="stack-row"><div class="blab">Group PAT ₹435 Cr</div><div class="stack"><span style="width:41.6%;background:var(--brand)">Owners 42%</span><span style="width:58.4%;background:var(--gold)">Minority 58%</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Attributable to IFCI shareholders: ₹180.87 Cr</span><span><i style="background:var(--gold)"></i>Non-controlling interests, almost all SHCIL's state-owned insurer and SU-UTI shareholders: ₹253.84 Cr</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>IFCI is a 78-year-old lender that stopped lending four years ago. What keeps the share price up is that it owns just over half of a company (SHCIL) that owns a slice of the stock exchange. Shareholders are effectively betting on two things: that NSE's value can be pulled up to the parent through a government-approved merger, and that the parent can meet its debts until then. Most of the "profit" you see in the consolidated accounts belongs to SHCIL's other shareholders, not to IFCI's.</p>
+</div>
+
+<p>For readers coming from the listed government lenders, the contrast is the lesson. PFC, REC, IRFC, HUDCO and IREDA fund one sovereign-linked sector each, borrow at AAA rates near 7–7.5%, carry gross NPAs of 0–4%, and earn returns on equity of 13–21% while trading at 0.7–2.0 times book. Their combined FY26 profit with IDBI Bank was ₹56,214 crore on a combined market value of ₹3.93 lakh crore, about seven times earnings (INDICATIVE set aggregate). IFCI is about 4% of that set's market value and around 1% of its assets and revenue, and it trades at 88.9 times owners' earnings. Those numbers only reconcile once you stop treating IFCI as a lender, which is exactly what this report does from section 9 onward.</p>
+
+<p>The timing matters. IFCI's latest reported quarter is Q1 FY27 (June 2026), approved by the board on 11 August 2026; its Q2 FY27 board date had not been announced by 23 October 2026. Q2 is when NSE's annual dividend reaches SHCIL, and it is also the first quarter in which SHCIL's NSE stake is marked to a quoted price. The jump will show up in book value rather than profit, which is why section 10 warns that IFCI's reported price-to-book could fall mechanically from 1.78× to around 1.5× without anything changing in the underlying economics (ILLUSTRATIVE).</p>
+</section>
+
+<!-- =================== P1 =================== -->
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>How a DFI earns a rupee, and how IFCI earns one now</h2></div>
+<p class="part-sub">A healthy DFI makes a spread on long loans funded by cheap, patient money. IFCI's rupees now come from recoveries, dividends, rent and government fees.</p>
+
+<p>The textbook DFI business is simple to describe and hard to run. The institution raises long-term money (equity and grants from the state, long-dated bonds, foreign borrowing, lines from multilateral lenders, and, for some, deposits that banks are forced to place with it), and lends it for ten to twenty years to projects that banks consider too long or too risky. Its profit is the gap between what it earns on loans and what it pays on funds, minus running costs and loan losses. Because the loans are large and few, one bad project can wipe out years of spread. Because the funding is mostly borrowed, the lender's credit rating sets its funding cost, and that cost sets the type of borrower it can afford to lend to.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The DFI value chain: where a development lender's rupee is earned</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Step 1 · Capital</div><div class="nname">State equity &amp; grants</div><div class="nwho">Paid-up capital, grants (NaBFID ₹5,000 Cr), tax holidays. Free money that earns the full yield.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Step 2 · Funding</div><div class="nname">Bonds, lines, PSL deposits</div><div class="nwho">AAA bonds at ~6.5–7.5%, ECBs, 54EC bonds, banks' priority-sector shortfall deposits (SIDBI, NABARD).</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Step 3 · Lending</div><div class="nname">Long project &amp; refinance loans</div><div class="nwho">Roads, renewables, transmission, MSME refinance, export lines. Yield ~8–10%.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Step 4 · Risk</div><div class="nname">Monitor, restructure, recover</div><div class="nwho">Standard-asset provisions, NPAs, IBC cases, security receipts. Where returns are made or lost.</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Step 5 · Fees</div><div class="nname">Advisory &amp; scheme work</div><div class="nwho">Credit enhancement, syndication, government scheme administration (PLI, RIDF, MSME funds).</div></div>
+  </div>
+  <div class="flow-note">The money is made in the spread between Step 2 and Step 3 and lost in Step 4. Step 1 is the hidden subsidy: equity and grants carry no interest, so a well-capitalised DFI earns a large margin even on a thin lending spread.</div>
+</div>
+
+<p>Each step has a different owner of economics. In <strong>Step 1</strong>, the state decides how much free capital to put in. NaBFID received ₹20,000 crore of equity and a ₹5,000 crore grant, which together were about a quarter of its funding at March 2026 and cost it nothing. In <strong>Step 2</strong>, the rating agencies effectively set the price: AAA-rated PFC paid about 7.50% on its borrowings in FY26, HUDCO 6.95% in Q1 FY27, NaBFID 6.56% net. In <strong>Step 3</strong>, competition sets the yield: banks, the power financiers and NaBFID all bid for the same highway and renewable projects, and NaBFID's yield on advances slid from 8.59% to 8.07% in a year. <strong>Step 4</strong> is where management skill and sector choice show up: lenders to state utilities, Indian Railways and urban bodies have collected reliably; lenders to private industrial projects mostly did not. <strong>Step 5</strong> is small in rupees but strategically useful, because it keeps an institution embedded in government programmes.</p>
+
+<p>IFCI has lost Steps 1 to 3 entirely. It receives no new government capital (₹2,000 crore came in over FY20–FY25; nothing in FY26, and none is earmarked for FY27). It has not raised a rupee of fresh borrowing since FY22; its ₹3,591.6 crore of principal at March 2026 is all old rupee bonds, carrying a weighted coupon of 9.91%. It has not sanctioned or disbursed a loan in FY22, FY23, FY24, FY25, FY26 or Q1 FY27. What is left is Step 4 (recovering the legacy book) and Step 5 (administering government schemes), plus an investment portfolio led by SHCIL. That gives IFCI a value chain of a completely different shape.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">IFCI's cash chain today: where the parent's rupees come from and go</div>
+  <div class="flow-row">
+    <div class="node spec"><div class="ntag">Inflow 1</div><div class="nname">Recoveries</div><div class="nwho">₹537 Cr FY26 (₹397 Cr NPAs &amp; security receipts + ₹140 Cr unquoted investments); ₹199–202 Cr Q1 FY27.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Inflow 2</div><div class="nname">Dividends, rent, fees</div><div class="nwho">Dividends ₹186 Cr (SHCIL ₹167 Cr), IFCI Tower rent ₹54 Cr, advisory fees ₹79 Cr (FY26).</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Pool</div><div class="nname">Liquidity</div><div class="nwho">₹1,121 Cr on book + ₹66 Cr mutual funds (Mar-26); ~₹540 Cr cash on 3 Aug 2026.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Outflow</div><div class="nname">Debt service &amp; opex</div><div class="nwho">FY26: ₹548 Cr serviced (₹225 Cr principal + ₹323 Cr interest); FY27 outflows ~₹1,452 Cr.</div></div>
+  </div>
+  <div class="flow-note">There is no lending spread in this chain. The parent survives on recoveries and its subsidiaries' dividends; the value sits further down, inside SHCIL.</div>
+</div>
+
+<p>The income statement reflects this. IFCI's FY26 standalone total income of ₹924 crore looks like a lender's revenue at first glance, but the "interest" line of ₹341 crore is largely income recognised on stage-3 (credit-impaired) assets as recoveries arrive, plus treasury income; the auditors note that ₹93 crore of interest recognised on stage-3 assets was written off as bad debt in the same year. Another ₹238 crore was fair-value gains on investments, ₹186 crore dividends, ₹79 crore fees and ₹54 crore rent. On the cost side, finance costs of ₹416 crore exceeded interest income, so net interest income is negative on a cash basis. The rating agencies say this plainly: ICRA describes IFCI's earning assets as far below its debt, and CARE says IFCI would need "substantial equity infusion" to meet regulatory minimums and restart lending.</p>
+
+<div class="chart">
+  <div class="c-title">IFCI standalone income, FY26: not a lender's revenue mix</div>
+  <div class="c-sub">₹ Cr, total income ₹924.1 Cr. Interest includes income recognised on stage-3 assets and treasury income. Source: IFCI Annual Report FY26</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Interest income<small>mostly stage-3 &amp; treasury</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">341.3</div></div>
+    <div class="bar-row"><div class="blab">Fair-value gains</div><div class="track"><span class="fill spec" style="width:69.6%"></span></div><div class="bval">237.7</div></div>
+    <div class="bar-row"><div class="blab">Dividends<small>SHCIL ₹166.6 Cr</small></div><div class="track"><span class="fill gold" style="width:54.5%"></span></div><div class="bval">186.0</div></div>
+    <div class="bar-row"><div class="blab">Fees &amp; commission<small>scheme advisory</small></div><div class="track"><span class="fill wtg" style="width:23.2%"></span></div><div class="bval">79.1</div></div>
+    <div class="bar-row"><div class="blab">Rent<small>IFCI Tower</small></div><div class="track"><span class="fill om" style="width:15.7%"></span></div><div class="bval">53.6</div></div>
+    <div class="bar-row"><div class="blab">Other income</div><div class="track"><span class="fill ink" style="width:7.7%"></span></div><div class="bval">26.4</div></div>
+  </div>
+  <div class="legend"><span>Finance cost in the same year: ₹416.1 Cr, more than the whole interest line.</span></div>
+</div>
+
+<p>Where is value captured in this sub-sector? For the second-generation institutions, in the funding advantage: free capital, quasi-statutory deposits and a sovereign-linked rating let them lend to low-risk borrowers at a margin that still earns 11–21% on equity. For IFCI, almost entirely in SHCIL, a market-infrastructure business (custody of ₹69.27 lakh crore of assets at March 2025, depository services, e-stamping, document management) that also happens to hold the NSE stake. The lending licence itself currently destroys value: it carries ₹4,185 crore of debt including accrued interest and generates no spread. That is why the government's own plan for IFCI is a consolidation that folds SHCIL into the parent, rather than a capital injection to restart lending.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>A working DFI is a spread business with a state subsidy built into its capital. IFCI no longer has the subsidy, the funding or the loans, so its income is what it collects from old borrowers, what its subsidiaries pay it, and fees for running government schemes. Treat its "revenue" line as a list of cash sources, not as the top line of a lending business.</p>
+</div>
+</section>
+
+<!-- =================== P2 =================== -->
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>Two DFI systems, one owner: size and growth</h2></div>
+<p class="part-sub">The AIFIs and sovereign lenders hold tens of lakh crore of assets and grow at double digits; IFCI's book is under half a per cent of the DFI set and shrinking.</p>
+
+<p>Measured by loans, India's development-finance estate is now enormous, and IFCI is a rounding error inside it. NABARD's balance sheet was about ₹10.96 lakh crore at March 2026 (press figure). SIDBI's loans were ₹5,79,755 crore. EXIM Bank's net loans were ₹2,07,779 crore. NaBFID, which made its first disbursement only in 2023, reached ₹1,16,950 crore. Against these, IFCI's gross loans were ₹4,169 crore at March 2026 (₹3,981 crore at June 2026), and almost all of that is non-performing. Its standard net loan book was about ₹70 crore at June 2026, less than a single mid-sized NaBFID road loan.</p>
+
+<div class="chart">
+  <div class="c-title">Loan books across the state lending system</div>
+  <div class="c-sub">₹ lakh Cr, latest company-stated figure. PFC consolidated includes REC. IRFC is assets under management (lease receivables). NaBFID is loan book incl. NCDs and non-fund-based (Mar-26). Sources: company results, PFC FY26 transcript, CRISIL rationales, HUDCO press release, EXIM release, SIDBI results</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">PFC group<small>consolidated, Mar-26</small></div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">11.64</div></div>
+    <div class="bar-row"><div class="blab">REC<small>Dec-25, inside PFC group</small></div><div class="track"><span class="fill spec" style="width:49.9%"></span></div><div class="bval">5.81</div></div>
+    <div class="bar-row"><div class="blab">SIDBI<small>Mar-26</small></div><div class="track"><span class="fill gold" style="width:49.8%"></span></div><div class="bval">5.80</div></div>
+    <div class="bar-row"><div class="blab">IRFC<small>AUM, Jun-26</small></div><div class="track"><span class="fill om" style="width:41.2%"></span></div><div class="bval">4.79</div></div>
+    <div class="bar-row"><div class="blab">EXIM Bank<small>net loans, Mar-26</small></div><div class="track"><span class="fill wtg" style="width:17.9%"></span></div><div class="bval">2.08</div></div>
+    <div class="bar-row"><div class="blab">HUDCO<small>Jun-26</small></div><div class="track"><span class="fill wtg" style="width:14.9%"></span></div><div class="bval">1.73</div></div>
+    <div class="bar-row"><div class="blab">NaBFID<small>Mar-26</small></div><div class="track"><span class="fill spec" style="width:10.0%"></span></div><div class="bval">1.17</div></div>
+    <div class="bar-row"><div class="blab">IREDA<small>Jun-26, press</small></div><div class="track"><span class="fill om" style="width:8.2%"></span></div><div class="bval">~0.95</div></div>
+    <div class="bar-row"><div class="blab">IFCI<small>gross, Mar-26</small></div><div class="track"><span class="fill bad" style="width:0.6%"></span></div><div class="bval">0.04</div></div>
+  </div>
+  <div class="legend"><span>NABARD (balance sheet ~₹10.96 lakh Cr, press) is excluded because its loan figure was not sourced. IFCI's ₹0.04 lakh Cr is 96% non-performing; its standard net book is ₹70 Cr.</span></div>
+</div>
+
+<p>The growth story belongs to the new institutions. NaBFID's loan book grew 95% in FY26 and its annual sanctions rose 31% to ₹1,33,020 crore; cumulative sanctions reached ₹3,59,357 crore by June 2026. SIDBI's loans grew 16.8%, enough that it needed fresh government equity in the March 2026 quarter (paid-up capital ₹569 crore to ₹621 crore; the government's direct stake rose from 20.85% to 27.57%). EXIM's net loans grew 11.9% and HUDCO's book 28.8% year on year to June 2026. Meanwhile IFCI's gross book shrank 4.5% in FY26, entirely through recoveries and write-offs. The table below collects the AIFI universe on its latest sourced numbers.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>The DFI and AIFI universe, latest sourced figures (₹ Cr)</caption>
+    <thead><tr><th>Institution</th><th>Form / regulator</th><th>Owner</th><th class="num">Loans</th><th class="num">Total assets</th><th class="num">Net worth</th><th class="num">FY26 PAT</th><th>Growth</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">NABARD</td><td>Statutory AIFI (RBI)</td><td>GoI 100%</td><td class="num">n/s</td><td class="num">~10,96,000</td><td class="num">~78,066 (FY25)</td><td class="num">n/s (FY25 7,628)</td><td>—</td></tr>
+      <tr><td class="t-strong">SIDBI</td><td>Statutory AIFI (RBI)</td><td>GoI 27.57% direct + PSBs, LIC</td><td class="num">5,79,755</td><td class="num">6,32,378</td><td class="num">38,973</td><td class="num">5,493</td><td>Loans +16.8%</td></tr>
+      <tr><td class="t-strong">EXIM Bank</td><td>Statutory AIFI (RBI)</td><td>GoI 100%</td><td class="num">2,07,779</td><td class="num">n/s</td><td class="num">n/s</td><td class="num">4,273</td><td>Loans +11.9%</td></tr>
+      <tr><td class="t-strong">NaBFID</td><td>Statutory AIFI (RBI)</td><td>GoI 100%</td><td class="num">1,16,950</td><td class="num">1,44,472</td><td class="num">34,419 (incl. grant)</td><td class="num">3,037</td><td>Book +95%</td></tr>
+      <tr><td class="t-strong">NHB</td><td>Statutory AIFI (RBI)</td><td>GoI 100%</td><td class="num">n/s</td><td class="num">n/s</td><td class="num">n/s</td><td class="num">n/s</td><td>—</td></tr>
+      <tr><td class="t-strong">IFCI (standalone)</td><td>Government NBFC (RBI)</td><td>GoI 72.57%, listed</td><td class="num">4,169 gross / ~70 standard</td><td class="num">10,064</td><td class="num">1,785</td><td class="num">52</td><td>Book −4.5%</td></tr>
+    </tbody>
+  </table>
+</div>
+<p>NABARD figures are press reports (its website could not be reached), and its FY26 profit was not sourced; FY25 standalone PAT was ₹7,628 crore. EXIM figures come from the bank's FY26 release as republished. n/s = not sourced. On the three institutions with full figures (NaBFID, SIDBI and IFCI standalone), the combined loan book is ₹7,00,874 crore, combined FY26 profit ₹8,582 crore and combined net worth ₹75,177 crore, a return of 11.4% on closing net worth (INDICATIVE aggregate). IFCI is 0.59% of those loans, 0.61% of that profit and 2.37% of that net worth.</p>
+
+<p>The listed sovereign lenders are the other comparison set, and they sit in other sub-sectors of this library (PFC, REC, IRFC, IREDA and HUDCO with the <a href="nbfc.html">NBFCs</a>, IDBI with the <a href="psu-banks.html">PSU banks</a>). Together with IFCI they form six listed state lenders. On one basis (total PAT including minorities, total equity including minorities, and market value including the REC minority's stake), their FY26 numbers add up as follows.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>The listed sovereign-lender set, FY26 (₹ Cr; m-cap 23 Oct 2026) — INDICATIVE aggregates</caption>
+    <thead><tr><th>Group</th><th class="num">Revenue</th><th class="num">PAT (total)</th><th class="num">Net worth incl. NCI</th><th class="num">Total assets</th><th class="num">M-cap</th><th class="num">ROE</th><th class="num">P/E</th><th class="num">P/B</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Six listed lenders (PFC group, IRFC, IREDA, HUDCO, IDBI, IFCI)</td><td class="num">1,95,321</td><td class="num">56,214</td><td class="num">3,50,019</td><td class="num">25,15,857</td><td class="num">3,92,553</td><td class="num">16.1%</td><td class="num">6.98×</td><td class="num">1.12×</td></tr>
+      <tr><td class="t-strong">NBFC five (ex-IDBI)</td><td class="num">1,66,301</td><td class="num">46,977</td><td class="num">2,81,455</td><td class="num">20,48,471</td><td class="num">3,10,437</td><td class="num">16.7%</td><td class="num">6.61×</td><td class="num">1.10×</td></tr>
+      <tr><td class="t-strong">Ex-IFCI five</td><td class="num">1,93,244</td><td class="num">55,779</td><td class="num">3,34,515</td><td class="num">24,89,287</td><td class="num">3,76,608</td><td class="num">16.7%</td><td class="num">6.75×</td><td class="num">1.13×</td></tr>
+      <tr><td class="t-strong">IFCI alone (consolidated)</td><td class="num">2,077</td><td class="num">435</td><td class="num">15,504</td><td class="num">26,570</td><td class="num">15,945</td><td class="num">2.8%</td><td class="num">36.7×</td><td class="num">1.03×</td></tr>
+    </tbody>
+  </table>
+</div>
+<p>Ratios are ratios of the sums, never averages. PFC is counted once (its consolidated figures include REC); its market value includes 47.37% of REC's market cap because REC's full profit sits inside PFC's consolidated PAT. IRFC is standalone. On the owners' basis that the market quotes, IFCI's P/E is 88.9× and its P/B 1.78× (on parent book of ₹8,944 crore); the 36.7× and 1.03× figures above put IFCI on the same total-PAT, total-equity basis as the rest of the set.</p>
+
+<div class="chart">
+  <div class="c-title">Share of the listed set's market value</div>
+  <div class="c-sub">% of combined market value ₹3,92,553 Cr, 23 Oct 2026. PFC group = PFC m-cap + 47.37% of REC m-cap. INDICATIVE aggregate from screener.in market caps</div>
+  <div class="stack-row"><div class="blab">Six listed lenders</div><div class="stack"><span style="width:35.8%;background:var(--brand)">PFC group 36%</span><span style="width:24.7%;background:var(--om)">IRFC 25%</span><span style="width:20.9%;background:var(--wtg)">IDBI 21%</span><span style="width:7.4%;background:var(--epc)">HUDCO 7%</span><span style="width:7.2%;background:var(--gold)">IREDA 7%</span><span style="width:4.0%;background:var(--bad)">IFCI</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>PFC group ₹1,40,378 Cr</span><span><i style="background:var(--om)"></i>IRFC ₹96,772 Cr</span><span><i style="background:var(--wtg)"></i>IDBI Bank ₹82,116 Cr</span><span><i style="background:var(--epc)"></i>HUDCO ₹29,208 Cr</span><span><i style="background:var(--gold)"></i>IREDA ₹28,134 Cr</span><span><i style="background:var(--bad)"></i>IFCI ₹15,945 Cr (4.1%)</span></div>
+</div>
+
+<p>IFCI is 4.1% of the set's market value but only 1.1% of its assets, 1.1% of its revenue and 0.8% of its total profit (0.3% on owners' profit). In a normal lender peer group those numbers could not coexist: a company cannot be four times more valuable per rupee of assets than its peers while earning a fifth of their return on equity. The gap is the NSE look-through. IFCI's own history shows how far it has fallen to reach this point. Consolidated revenue was ₹3,864 crore in FY15 with borrowings of ₹26,767 crore; by FY26 revenue was ₹2,077 crore and borrowings ₹3,523 crore, down 87%. The consolidated group lost about ₹4,492 crore across FY19–FY23 (INDICATIVE sum of reported annual losses), and total assets rose after FY23 only because SHCIL's NSE stake was revalued upward.</p>
+
+<div class="chart">
+  <div class="c-title">IFCI consolidated borrowings, FY15–FY26: a balance sheet in retreat</div>
+  <div class="c-sub">₹ Cr, year-end consolidated borrowings. Source: screener.in (23 Oct 2026), IFCI annual reports</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY15</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">26,767</div></div>
+    <div class="bar-row"><div class="blab">FY17</div><div class="track"><span class="fill brand" style="width:89.4%"></span></div><div class="bval">23,919</div></div>
+    <div class="bar-row"><div class="blab">FY19</div><div class="track"><span class="fill spec" style="width:61.2%"></span></div><div class="bval">16,394</div></div>
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill spec" style="width:41.2%"></span></div><div class="bval">11,041</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill gold" style="width:26.5%"></span></div><div class="bval">7,095</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill gold" style="width:22.5%"></span></div><div class="bval">6,020</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill wtg" style="width:20.1%"></span></div><div class="bval">5,367</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill wtg" style="width:13.9%"></span></div><div class="bval">3,714</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill om" style="width:13.2%"></span></div><div class="bval">3,523</div></div>
+  </div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The state's lending machine has not shrunk; it has moved. Money that IFCI and IDBI once lent to industry is now lent by SIDBI, NaBFID, the power financiers and the banks. IFCI is a small, shrinking remnant whose share-price value comes from something other than lending, which is why it looks absurdly expensive next to its peers on every lender multiple.</p>
+</div>
+</section>
+
+<!-- =================== P3 =================== -->
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>The ₹136 lakh crore question: why India still needs development lenders</h2></div>
+<p class="part-sub">Infrastructure needs long money that deposit-funded banks find uncomfortable; refinance demand follows MSME and rural credit; and government schemes need administrators.</p>
+
+<p>The case for development finance in India rests on a mismatch that has not gone away. Infrastructure assets earn cash over twenty to thirty years; bank deposits can leave in weeks. Banks can and do lend to infrastructure, but they prefer operating assets with proven cash flows and shorter tenors, and the 2012–2018 bad-loan cycle left them wary of greenfield project risk. NaBFID's own estimate of India's infrastructure requirement is about ₹136 lakh crore over FY26–FY30 and ₹680–770 lakh crore over FY26–FY47. Even if banks, bond markets, infrastructure investment trusts and the government budget cover most of that, a residual need for long, fixed-rate, construction-stage money remains. That residual is the space the new DFI model was built for.</p>
+
+<div class="chart">
+  <div class="c-title">India's infrastructure requirement, FY26–FY30, by sector</div>
+  <div class="c-sub">₹ lakh Cr, cumulative over five years; total ~₹136 lakh Cr. NaBFID's internal estimate from its investor presentation (May 2026). An estimate, not a plan or a budget</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Urban infrastructure</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~68</div></div>
+    <div class="bar-row"><div class="blab">Power</div><div class="track"><span class="fill spec" style="width:32.4%"></span></div><div class="bval">~22</div></div>
+    <div class="bar-row"><div class="blab">Roads</div><div class="track"><span class="fill gold" style="width:26.5%"></span></div><div class="bval">~18</div></div>
+    <div class="bar-row"><div class="blab">Railways</div><div class="track"><span class="fill wtg" style="width:20.6%"></span></div><div class="bval">~14</div></div>
+    <div class="bar-row"><div class="blab">Telecom &amp; data centres</div><div class="track"><span class="fill om" style="width:8.8%"></span></div><div class="bval">~6</div></div>
+    <div class="bar-row"><div class="blab">Irrigation</div><div class="track"><span class="fill om" style="width:8.8%"></span></div><div class="bval">~6</div></div>
+    <div class="bar-row"><div class="blab">Ports / airports<small>each</small></div><div class="track"><span class="fill ink" style="width:1.5%"></span></div><div class="bval">~1</div></div>
+  </div>
+</div>
+
+<p>Demand for the sub-sector therefore comes from three quite different places. <strong>Infrastructure project finance</strong> drives NaBFID, PFC, REC, IREDA and HUDCO. NaBFID's cumulative sanctions to June 2026 were 32% roads, 23% renewables, 8% power generation, 7% transmission and distribution, 5% data centres and the rest spread across telecom, water, ports, rail, social infrastructure, city gas, storage and shipyards. About 41–44% of what it has sanctioned is greenfield, which is the hardest money to raise anywhere else. Its five-year roadmap targets a loan book equal to 0.9% of GDP by FY30; at a nominal GDP of roughly ₹500 lakh crore by then (an assumption), that is about ₹4.5 lakh crore, close to four times today's book (INDICATIVE).</p>
+
+<div class="chart">
+  <div class="c-title">What NaBFID has sanctioned, by sector</div>
+  <div class="c-sub">% of cumulative sanctions of ₹3,59,357 Cr to June 2026. Read from NaBFID's Q1 FY27 investor presentation chart</div>
+  <div class="stack-row"><div class="blab">Cumulative sanctions</div><div class="stack"><span style="width:32%;background:var(--brand)">Roads 32%</span><span style="width:23%;background:var(--spec)">RE 23%</span><span style="width:8%;background:var(--om)">Gen 8%</span><span style="width:7%;background:var(--wtg)">T&amp;D 7%</span><span style="width:5%;background:var(--gold)">DC 5%</span><span style="width:25%;background:var(--ink-faint)">Others 25%</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Roads</span><span><i style="background:var(--spec)"></i>Renewable energy</span><span><i style="background:var(--om)"></i>Power generation</span><span><i style="background:var(--wtg)"></i>Transmission &amp; distribution</span><span><i style="background:var(--gold)"></i>Data centres</span><span><i style="background:var(--ink-faint)"></i>Telecom 3%, water 3%, ports 2%, rail 2%, social 2%, other 13%</span></div>
+</div>
+
+<p><strong>Refinance</strong> is the second source. SIDBI, NABARD and NHB mostly lend to other lenders: banks, small finance banks, NBFCs and microfinance institutions that on-lend to small businesses, farmers and home buyers. Their volumes follow credit growth in those segments. Bank credit to the commercial sector grew 15.9% in 2025-26 against 10.9% a year earlier, and non-bank credit grew 13.3% (RBI Annual Report 2025-26, quoted in IFCI's FY26 MD&amp;A). SIDBI's 16.8% loan growth fits that pattern. NaBFID itself lends about 11% of its book (₹12,662 crore at March 2026) to NBFCs, a quiet sign that the new DFI is also acting as a wholesale lender to infrastructure-focused finance companies.</p>
+
+<p><strong>Government scheme administration</strong> is the third, and the only one that still feeds IFCI's operating business. The production-linked incentive (PLI) programme, launched from 2020, needs agencies to process applications, verify investment and production claims, and route incentive payments. IFCI is the project management agency for 10 of the 14 PLI schemes, including large-scale electronics, IT hardware, bulk drugs, medical devices, food processing, white goods, auto and auto components, textiles, advanced chemistry cells and specialty steel, plus related programmes: the India Semiconductor Mission (fabs, display fabs, assembly and test), PM E-DRIVE, the electric-car scheme, FAME-II, M-SIPS, SPECS, the bulk drug and medical device parks, the Sugar Development Fund (as nodal agency) and, from FY26, the rare-earth permanent magnet scheme and portal work for the electronics components scheme. Budget 2026-27 named seven frontier sectors (electronics, semiconductors, biopharma, rare earths, chemicals, textiles and capital goods), so more scheme work is plausible.</p>
+
+<div class="chart">
+  <div class="c-title">NaBFID's two-year sprint</div>
+  <div class="c-sub">₹ Cr. Annual sanctions and disbursements for FY25 and FY26; loan book at March. Source: NaBFID business update (7 Apr 2026) and results</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Sanctions FY25</div><div class="track"><span class="fill gold" style="width:76.1%"></span></div><div class="bval">1,01,189</div></div>
+    <div class="bar-row"><div class="blab">Sanctions FY26</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">1,33,020</div></div>
+    <div class="bar-row"><div class="blab">Disbursements FY25</div><div class="track"><span class="fill gold" style="width:28.9%"></span></div><div class="bval">38,459</div></div>
+    <div class="bar-row"><div class="blab">Disbursements FY26</div><div class="track"><span class="fill brand" style="width:56.0%"></span></div><div class="bval">74,519</div></div>
+    <div class="bar-row"><div class="blab">Loan book Mar-25</div><div class="track"><span class="fill gold" style="width:45.0%"></span></div><div class="bval">59,840</div></div>
+    <div class="bar-row"><div class="blab">Loan book Mar-26</div><div class="track"><span class="fill brand" style="width:87.9%"></span></div><div class="bval">1,16,950</div></div>
+  </div>
+  <div class="legend"><span>FY26 disbursements were 56% of sanctions: infrastructure loans are drawn over the construction period, so sanctions lead the book by one to three years.</span></div>
+</div>
+
+<p>For SHCIL, IFCI's main subsidiary, demand comes from yet another place: the depth of India's capital markets and the volume of property and contract registrations. Custody assets track institutional assets under management (mutual funds, insurers, foreign portfolio investors). Depository participant revenue tracks demat accounts and trading. E-stamping, where SHCIL is the central record-keeping agency in 25 states and union territories, tracks the number of stamp-duty transactions and is largely independent of the stock market: SHCIL issued 18.09 crore e-stamp certificates in FY25, up from 15.66 crore in FY24, about 4.96 lakh a day. That annuity is one reason SHCIL's core business has value separate from its NSE stake.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>India's need for long-term lenders is real and growing, but it is being met by institutions with cheap money and clean books: NaBFID for greenfield infrastructure, the power and rail financiers for their captive sectors, SIDBI and NABARD for refinance. IFCI's only share of the demand is administrative: it runs the paperwork and payments for the government's factory incentive schemes, and it owns a stake in a business that benefits from India's growing markets.</p>
+</div>
+
+<p>The drivers for each part of the sub-sector are worth keeping separate, because they move at different speeds. Infrastructure demand responds to the government's capital budget and to state-utility finances; refinance demand responds to bank and NBFC credit cycles and to how strictly banks are pushed to meet priority-sector targets; scheme work responds to policy announcements and their implementation timelines. None of these is a driver of IFCI's share price in the short run. That role belongs to NSE's share price and to news about the government's consolidation decision, which sections 10 and 11 take apart in detail.</p>
+</section>
+
+<!--CONTINUE-->
+
+</main>
+</div>
+</div>
+</body>
+</html>
