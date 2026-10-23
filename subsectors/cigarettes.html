@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cigarettes &amp; Tobacco — Sub-sector Report</title>
+<meta name="description" content="A complete guide to the Indian cigarette and tobacco industry after the February 2026 tax reset: the per-stick excise, pricing versus volume, illicit trade, Philip Morris and Godfrey Phillips, leaf exports, governance, the KPIs and what to watch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#54620E;          /* olive leaf */
+    --brand-bright:#7E9A1E;   /* green leaf accent */
+    --gold:#B8862B;           /* cured-leaf gold */
+    --wtg:#8A6A2E;            /* tobacco brown */
+    --epc:#A3B45A;            /* pale olive */
+    --om:#5E4A2A;            /* dark leaf brown */
+    --spec:#7E9A1E;          /* green leaf accent */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#54620E,#7E9A1E);}
+  .fill.gold{background:linear-gradient(90deg,#B8862B,#D4A54E);}
+  .fill.wtg{background:linear-gradient(90deg,#8A6A2E,#A8864A);}
+  .fill.om{background:linear-gradient(90deg,#5E4A2A,#7C6644);}
+  .fill.spec{background:linear-gradient(90deg,#7E9A1E,#9DB843);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">FMCG · Cigarettes &amp; Tobacco</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> How a cigarette earns</a></li>
+    <li><a href="#p2"><span class="n">02</span> The missing statistic</a></li>
+    <li><a href="#p3"><span class="n">03</span> Who smokes what</a></li>
+    <li><a href="#p4"><span class="n">04</span> Anatomy of the tax reset</a></li>
+    <li><a href="#p5"><span class="n">05</span> Price versus volume</a></li>
+    <li><a href="#p6"><span class="n">06</span> The smuggler's margin</a></li>
+    <li><a href="#p7"><span class="n">07</span> A frozen structure</a></li>
+    <li><a href="#p8"><span class="n">08</span> Four business models</a></li>
+    <li><a href="#p9"><span class="n">09</span> What Godfrey Phillips is</a></li>
+    <li><a href="#p10"><span class="n">10</span> The family and the cash</a></li>
+    <li><a href="#p11"><span class="n">11</span> From farm to Marlboro</a></li>
+    <li><a href="#p12"><span class="n">12</span> Rules beyond tax</a></li>
+    <li><a href="#p13"><span class="n">13</span> A century of tollgates</a></li>
+    <li><a href="#p14"><span class="n">14</span> Reading a cigarette maker: the KPIs</a></li>
+    <li><a href="#p15"><span class="n">15</span> The peer table</a></li>
+    <li><a href="#p16"><span class="n">16</span> Who is winning</a></li>
+    <li><a href="#p17"><span class="n">17</span> The member profile</a></li>
+    <li><a href="#p18"><span class="n">18</span> The global lens</a></li>
+    <li><a href="#p19"><span class="n">19</span> Technology &amp; disruption</a></li>
+    <li><a href="#p20"><span class="n">20</span> Bull vs bear</a></li>
+    <li><a href="#p21"><span class="n">21</span> What to watch</a></li>
+    <li><a href="#p22"><span class="n">22</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">FMCG · Cigarettes &amp; Tobacco Products</span>
+    <span class="tag gold">1 listed company</span>
+  </div>
+  <h1>Cigarettes &amp; tobacco: <em>the toll that doubled overnight</em></h1>
+  <p class="dek">A complete guide to the Indian cigarette and tobacco industry after the tax reset of 1 February 2026: how a stick turns into tax and profit, why the state now takes most of every rupee a smoker pays, how far price can run before volume breaks or smugglers win, what Philip Morris and the Modi family each own of Godfrey Phillips, how the leaf economy behind it works, and which numbers to watch into the Budget of 1 February 2027.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹26,049 <small>Cr</small></div><div class="l">Godfrey Phillips m-cap, 23 Oct 2026</div></div>
+    <div class="cell"><div class="v">₹22,875 <small>Cr</small></div><div class="l">Listed cigarette EBIT pool FY26 (indicative)</div></div>
+    <div class="cell"><div class="v">₹4.67</div><div class="l">GPI excise per stick Q1 FY27 (₹0.57 a year ago)</div></div>
+    <div class="cell"><div class="v">₹90,810 <small>Cr</small></div><div class="l">Basic excise budgeted FY27 BE (₹45,780 Cr FY26 RE)</div></div>
+    <div class="cell"><div class="v">₹198 <small>Cr</small></div><div class="l">GPI PAT Q1 FY27 (Jun-26), down 44%</div></div>
+    <div class="cell"><div class="v">₹17,192 <small>Cr</small></div><div class="l">India tobacco exports, latest year (Lok Sabha)</div></div>
+  </div>
+  <p class="prov">Basis: FY26 (year to 31 Mar 2026) company figures and Q1 FY27 (quarter to 30 Jun 2026, the latest reported by all Indian makers); market data as of 23 Oct 2026 (screener.in, after the close). Tax data from Notification 03/2025-Central Excise and the Union Receipt Budget 2026-27. Volume, value-share, per-stick and illicit figures are estimates and labelled indicative. One member company: Godfrey Phillips India; ITC, VST and global leaders appear as reference peers.</p>
+</header>
+
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: a tollgate whose toll just doubled</h2></div>
+<p class="part-sub">For six years the Indian cigarette was one of the most stable profit streams in the market. On 1 February 2026 the state rewrote its share of every stick, and the industry is now a contest between price, volume and the smuggler.</p>
+
+<p class="lead">An Indian cigarette company runs a tollgate. It buys leaf from licensed farmers, turns it into sticks in a handful of factories, and sells those sticks through a million small shops to smokers who rarely switch brand. Advertising is banned, foreign companies cannot build factories, and new entrants have not appeared in decades. The state has always been the largest participant in that tollgate, because tobacco is taxed to discourage its use and to fund the budget. What changed in 2026 is the size of the state's share and the way it is charged.</p>
+<p>Until 31 January 2026 a cigarette paid 28% GST plus a GST compensation cess (an ad valorem part and a per-stick part), a small basic excise and the National Calamity Contingent Duty (NCCD). From 1 February 2026 the cess ended, GST moved to 40% charged on the retail sale price, and a new central excise of ₹2,050 to ₹8,500 per 1,000 sticks, set by stick length, took the cess's place. The legal instrument is Notification 03/2025-Central Excise (G.S.R. 955(E), dated 31 December 2025). The Union Budget for FY27 shows what the government expects: basic excise duties of <strong>₹90,810 crore in FY27 BE against ₹45,780 crore in FY26 RE</strong>, while the compensation cess, which raised ₹1,50,570 crore in FY25 across tobacco, pan masala, cars and coal, drops to nil. Industry and press estimates put tax at roughly 50–53% of a cigarette's retail price before the reset and roughly 60–70% after it (indicative; it depends on the stick).</p>
+<p>The first full quarter under the new regime, Q1 FY27 (April–June 2026), shows the damage. ITC's standalone excise bill went from ₹1,309 crore to ₹10,036 crore, and its cigarette profit before interest and tax (PBIT) fell 35.1% to ₹3,341 crore. Godfrey Phillips India (GPI), the only cigarette company in our NSE 750 universe, saw excise rise from ₹327 crore to ₹2,614 crore, which is <strong>₹0.57 to ₹4.67 per stick</strong>; its EBITDA fell 46% to ₹182 crore and its profit after tax 44% to ₹198 crore, even though its domestic volume fell only 2%. VST Industries' operating profit fell 35%. The three listed makers' combined quarterly profit pool, on a mixed basis (ITC segment PBIT plus GPI and VST company operating profit), dropped from ₹5,560 crore to ₹3,572 crore, down 35.8% (indicative).</p>
+
+<div class="chart">
+  <div class="c-title">Q1 FY27 (Jun-26): profit fell by a third or more across the listed makers</div>
+  <div class="c-sub">Year-on-year change versus Q1 FY26 (Jun-25). ITC = standalone cigarette segment PBIT; GPI and VST = company figures (screener / company presentation). Pool = ITC cigarette PBIT + GPI operating profit + VST operating profit, a mixed-basis indicative sum. Scale: full bar = −50%</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">GPI EBITDA<small>₹338 → ₹182 Cr</small></div><div class="track"><span class="fill bad" style="width:92.4%"></span></div><div class="bval">−46.2%</div></div>
+    <div class="bar-row"><div class="blab">GPI PAT<small>₹356 → ₹198 Cr</small></div><div class="track"><span class="fill bad" style="width:88.6%"></span></div><div class="bval">−44.3%</div></div>
+    <div class="bar-row"><div class="blab">Listed profit pool<small>₹5,560 → ₹3,572 Cr</small></div><div class="track"><span class="fill ink" style="width:71.6%"></span></div><div class="bval">−35.8%</div></div>
+    <div class="bar-row"><div class="blab">ITC cigarette PBIT<small>₹5,145 → ₹3,341 Cr</small></div><div class="track"><span class="fill wtg" style="width:70.2%"></span></div><div class="bval">−35.1%</div></div>
+    <div class="bar-row"><div class="blab">VST operating profit<small>₹77 → ₹50 Cr</small></div><div class="track"><span class="fill om" style="width:70.2%"></span></div><div class="bval">−35.1%</div></div>
+    <div class="bar-row"><div class="blab">VST PAT<small>₹56 → ₹42 Cr</small></div><div class="track"><span class="fill om" style="width:50%"></span></div><div class="bval">−25.0%</div></div>
+  </div>
+</div>
+
+<p>Volume held up far better than profit. GPI says its domestic volume fell "only 2%"; brokers put ITC's fall at around 4–5% (unverified broker estimate) and Emkay expects legal volumes to fall by "high single digits" in FY27. The reason is the structure of the new tax. Because the excise is a fixed rupee sum per stick, a maker's profit per stick collapses unless it raises the retail price by more than the tax. Every rupee of price that survives GST and the retailer's cut drops almost entirely into the maker's net revenue, because the biggest cost line, the excise, does not move with price. So the industry's way back runs through price, not volume. ITC's Classic Connect 20-stick pack went from ₹300 to ₹428 in three rounds and its Gold Flake Super Star 10s from ₹59 to ₹89 (dealer checks reported by Business Today, September 2026). GPI calls its own approach "balanced" and "phased and not in one go".</p>
+<p>That price contest has a limit, and the limit has a name: illicit trade. The industry's own fact sheet, quoted in both GPI's and ITC's FY26 annual reports, puts smuggled and duty-evaded cigarettes at about 26% of India's cigarette market and the revenue loss at about ₹23,000 crore a year (industry estimate, indicative). Smuggled brands retail at roughly ₹10–15 a stick against ₹19 for a legal king-size slim (Nomura). A specific excise widens the gap at exactly the price points where smokers trade down.</p>
+
+<div class="mini-stats">
+  <div class="ms"><div class="msv">₹35,186 Cr</div><div class="msl">Listed makers' cigarette net revenue (net of excise) FY26: ITC segment + GPI segment + VST (indicative sum)</div></div>
+  <div class="ms gold"><div class="msv">65.0%</div><div class="msl">EBIT margin on that net revenue, FY26 (61.5% in FY25), ratio of sums</div></div>
+  <div class="ms red"><div class="msv">~26%</div><div class="msl">Illicit share of India's cigarette market (industry estimate, indicative)</div></div>
+</div>
+
+<p>Godfrey Phillips is the lens for this report, and it is a more complicated company than "India's number two cigarette maker". It sells its own brands (Four Square, Red &amp; White, Cavanders, Stellar, North Pole); it manufactures Marlboro for Philip Morris International (PMI) and sells it to Philip Morris India Trading Pvt Ltd (PMITPL), a distributor in which GPI holds 24.80%; it exports leaf, mostly to PMI affiliates including a factory in Russia; and it is controlled by two blocks, the K.K. Modi family (~47.5%) and PMI (25.10%). It doubled domestic volume in four years, from 11.2 billion sticks in FY22 to 24.0 billion in FY26, then took the biggest relative hit from the reset. Its shares, which peaked at ₹3,691 (bonus-adjusted) on 5 September 2025, closed at ₹1,670 on 23 October 2026, near the bottom of a 52-week range of ₹1,661–3,224. At ₹26,049 crore of market value it trades at 19.0× trailing earnings with a 2.99% dividend yield.</p>
+
+<div class="chart">
+  <div class="c-title">Godfrey Phillips share price, bonus-adjusted (₹)</div>
+  <div class="c-sub">Month-end closes from screener.in's price series, adjusted for the 2:1 bonus of September 2025; all-time high is the 5-Sep-2025 close; last bar is the 23-Oct-2026 close. Scale: full bar = ₹4,000</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Dec 2023</div><div class="track"><span class="fill brand" style="width:17.6%"></span></div><div class="bval">703</div></div>
+    <div class="bar-row"><div class="blab">Jun 2024</div><div class="track"><span class="fill brand" style="width:34.4%"></span></div><div class="bval">1,375</div></div>
+    <div class="bar-row"><div class="blab">Dec 2024</div><div class="track"><span class="fill brand" style="width:43.9%"></span></div><div class="bval">1,755</div></div>
+    <div class="bar-row"><div class="blab">Jun 2025</div><div class="track"><span class="fill brand" style="width:75.4%"></span></div><div class="bval">3,014</div></div>
+    <div class="bar-row"><div class="blab">5 Sep 2025<small>all-time high</small></div><div class="track"><span class="fill gold" style="width:92.3%"></span></div><div class="bval">3,691</div></div>
+    <div class="bar-row"><div class="blab">Dec 2025<small>excise notified</small></div><div class="track"><span class="fill wtg" style="width:70.6%"></span></div><div class="bval">2,825</div></div>
+    <div class="bar-row"><div class="blab">Jan 2026<small>−29% in a month</small></div><div class="track"><span class="fill bad" style="width:49.9%"></span></div><div class="bval">1,997</div></div>
+    <div class="bar-row"><div class="blab">Jun 2026</div><div class="track"><span class="fill wtg" style="width:56.2%"></span></div><div class="bval">2,247</div></div>
+    <div class="bar-row"><div class="blab">Sep 2026</div><div class="track"><span class="fill wtg" style="width:49.3%"></span></div><div class="bval">1,970</div></div>
+    <div class="bar-row"><div class="blab">23 Oct 2026</div><div class="track"><span class="fill bad" style="width:41.7%"></span></div><div class="bval">1,669</div></div>
+  </div>
+</div>
+
+<p>Five forces define this sub-sector, and the report is built around them:</p>
+<ul class="clean">
+  <li><strong>The February 2026 tax reset</strong> (deep dive, section 04): 40% GST on retail price plus a specific excise by length; profit per stick fell by a third (ITC) to a half (GPI) in a quarter.</li>
+  <li><strong>Pricing power against volume</strong> (section 05): how much price the market can take, what FY14–FY17 taught, and why management teams are moving in phases.</li>
+  <li><strong>Illicit trade</strong> (deep dive, section 06): the ceiling on legal pricing, measured only by the industry itself.</li>
+  <li><strong>Philip Morris and the Modi family</strong> (deep dive, section 09, plus section 10): what GPI really is, who earns the Marlboro profit, and how the family's pay and disputes affect minority shareholders.</li>
+  <li><strong>The leaf economy</strong> (section 11): a glut in Andhra Pradesh, auction prices down from ₹248.86 to ₹209.83 a kilo, a 2026-27 crop cut to 81 million kg, and exports of ₹17,192 crore.</li>
+</ul>
+<p>Two further forces sit in the background: regulation beyond tax (an advertising ban, 85% pack warnings, a ban on e-cigarettes and heated tobacco, and no foreign direct investment in manufacture), and the global contrast. PMI now earns about 42% of its revenue (nine months of 2026) from smoke-free products; Indian makers earn none, because those products are illegal here. Indian cigarette companies therefore carry 100% combustible risk in a market where the state has just doubled its take.</p>
+<p>ITC is the price-setter of this industry, with roughly three-quarters of legal volume and more than four-fifths of domestic value (indicative). Its full story, including its hotels demerger, packaged foods and paperboards, sits in our <a href="diversified-fmcg.html">Diversified FMCG report</a>; this report uses ITC's standalone cigarette segment as a reference and keeps its figures consistent with that report.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Until January 2026, every ₹100 a smoker spent on a legal premium cigarette sent roughly ₹50 to the government and about ₹30 to the maker as profit. Since February, the government takes closer to ₹69 and the maker about ₹14 unless it raises prices further (indicative composite for an ITC king-size stick). The makers are raising prices in steps, hoping smokers keep buying rather than switching to bidis, chewing tobacco or smuggled brands. The next twelve months, and the Budget on 1 February 2027, will show how much of the lost profit comes back.</p>
+</div>
+</section>
+
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>How a cigarette earns: from a licensed farm to a loose stick</h2></div>
+<p class="part-sub">The money in Indian tobacco is made at one point in the chain, the branded stick, and taxed at another, the factory gate. Everyone else, from farmer to retailer, earns a thin slice.</p>
+
+<p>A cigarette's journey begins on a farm licensed by the Tobacco Board, most often a flue-cured Virginia (FCV) farm in Andhra Pradesh or Karnataka. The Board, created by the Tobacco Board Act of 1975, registers growers and their curing barns, fixes an authorised crop size each season and runs electronic auction platforms where leaf merchants and manufacturers bid for bales. India grows about 1,037 million kg of tobacco of all types a year (FCV, burley, bidi, chewing and hookah tobaccos, according to the industry fact sheet quoted by GPI), but only a fraction of that is cigarette-grade FCV.</p>
+<p>The leaf merchant or processor buys at auction, threshes the green leaf (separating lamina from stem), re-dries it, packs it and ages it for one to two years. That ageing is why cigarette companies carry large inventories: GPI held 233 days of inventory in FY26 and VST 359 days. Exporters at this stage include ITC's leaf business, GPI, VST and international leaf dealers such as Alliance One (Pyxus) and Universal, who operate in India.</p>
+<p>Manufacture comes next, in two steps. Primary manufacture cuts and blends the leaf; secondary manufacture makes and packs the sticks. ITC has five cigarette factories (Bengaluru, Kolkata, Munger, Pune and Saharanpur). GPI has three plants: Rabale in Navi Mumbai (cigarettes, plus an R&amp;D unit), Guldhar in Ghaziabad (cigarettes, owned by its subsidiary International Tobacco Company, which charged it ₹73 crore of manufacturing fees in FY26) and Ongole in Andhra Pradesh (reconstituted tobacco). VST runs a single integrated plant at Toopran near Hyderabad. Cigarette making is capital-light: GPI produced ₹6,391 crore of FY26 net revenue from ₹812 crore of fixed assets.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The cigarette value chain: where a smoker's rupee is earned and taxed</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Step 1 · Farm</div><div class="nname">Licensed FCV grower</div><div class="nwho">Tobacco Board sets the crop size and runs auctions. AP 2025-26 average ₹209.83/kg.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Step 2 · Leaf</div><div class="nname">Thresh, re-dry, age</div><div class="nwho">1–2 years of ageing; exports of leaf to Philip Morris, BAT and others.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Step 3 · Factory</div><div class="nname">Brand and stick</div><div class="nwho">ITC 5 factories, GPI 3 plants, VST 1. Where the profit is made.</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Step 4 · Tax gate</div><div class="nname">Excise + NCCD + GST</div><div class="nwho">Excise ₹2,050–8,500 per 1,000 at clearance; 40% GST on retail price.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Step 5 · Trade</div><div class="nname">Distributor to paan shop</div><div class="nwho">GPI: 1,100+ distributors, 9,000+ field force; ~1 mn+ outlets nationally.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Step 6 · Smoker</div><div class="nname">Loose sticks</div><div class="nwho">Most buy one stick at a time, so the per-stick price point matters more than the pack.</div></div>
+  </div>
+  <div class="flow-note">Value is captured at Step 3 (brand) and Step 4 (state). The farmer's and retailer's slices are thin. Source: company annual reports FY26, Tobacco Board practice, Notification 03/2025-CE.</div>
+</div>
+
+<p>The tax gate is where the economics are set. Excise and NCCD are paid when sticks leave the factory, so a company finances the tax before it collects it, and a change in tax rates hits whatever stock sits in the warehouse. GST, now 40%, is charged on the transaction and, from 1 February 2026, valued on the retail sale price under CGST Rule 31D. Because GST is charged on a price that already includes the excise, every rupee of excise costs the smoker about ₹1.40 plus the retailer's margin. That multiplier is the reason a modest-sounding per-stick levy turns into a large retail price increase.</p>
+<p>Distribution is a long, thin chain: company, carrying-and-forwarding agent, distributor, wholesaler, and finally a paan shop or kirana store. Advertising has been banned since COTPA in 2003, so the distribution network and the shelf behind the shopkeeper are the main marketing tools. Most Indian smokers buy single sticks, not packs, and loose sales are legal in most states (Karnataka banned them in 2025 and Himachal Pradesh in 2015). That habit makes the per-stick price (₹10, ₹15, ₹20) the real anchor of the price ladder, and it explains why makers re-engineer stick lengths and pack sizes rather than simply raising prices.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>The products of Indian tobacco, and where listed companies sit</caption>
+    <thead><tr><th>Product</th><th>What it is</th><th>Role in the Indian market</th><th>Listed exposure</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Filter cigarettes</td><td>Machine-made, paper-wrapped cut tobacco, taxed by length: ≤65 mm, 65–70 mm, 70–75 mm (king size), longer</td><td>About 10% of tobacco consumption but more than four-fifths of tobacco tax (ITC annual report)</td><td>ITC (~73% of legal volume, indicative), GPI (24.0 bn sticks FY26), VST (8.36 bn)</td></tr>
+      <tr><td class="t-strong">Non-filter cigarettes</td><td>Plain cigarettes, ≤65 mm or 65–70 mm</td><td>Declining niche; lowest excise slab (₹2,050 per 1,000)</td><td>Small</td></tr>
+      <tr><td class="t-strong">Bidis</td><td>Tobacco hand-rolled in tendu leaf; largely unorganised</td><td>Larger than cigarettes by users (7.7% of adults vs 4.0%, GATS-2)</td><td>None of size</td></tr>
+      <tr><td class="t-strong">Chewing tobacco, khaini, zarda, gutkha</td><td>Smokeless; gutkha banned in most states but sold as twin packs with pan masala</td><td>Largest by users (21.4% of adults, GATS-2); excise 81–91% ad valorem</td><td>Unlisted (DS Group and others)</td></tr>
+      <tr><td class="t-strong">Pan masala</td><td>Areca-based mix without tobacco</td><td>40% GST plus the new Health Security se National Security Cess (₹14,000 Cr FY27 BE)</td><td>Mostly unlisted</td></tr>
+      <tr><td class="t-strong">Unmanufactured leaf</td><td>FCV, burley, sun-cured, rustica and others</td><td>India is the world's second-largest exporter by quantity after Brazil</td><td>ITC, GPI (₹1,945 Cr exports FY26), VST (₹301 Cr)</td></tr>
+      <tr><td class="t-strong">E-cigarettes, heated tobacco, pouches</td><td>Vapes, IQOS-type sticks, nicotine pouches</td><td>E-cigarettes and heat-not-burn devices banned since 2019 (PECA); pouches in a grey zone</td><td>None</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Where does the money end up? The cleanest disclosure comes from GPI, which reports its gross sales value (GSV, what the trade paid it, including all taxes) alongside its taxes. In FY26, a year mostly under the old regime, taxes took ₹65.3 of every ₹100 of GSV: ₹50.4 of GST and cess and ₹14.9 of excise and NCCD. In Q1 FY27, under the new regime, taxes took ₹78.8, with excise alone at ₹46.1. GPI's EBITDA shrank from ₹8.6 to ₹3.2 per ₹100. The cost of goods share fell mechanically, because GSV rose with the tax, not because leaf became cheaper.</p>
+
+<div class="chart">
+  <div class="c-title">Where ₹100 of Godfrey Phillips' gross sales value goes, before and after the reset</div>
+  <div class="c-sub">Shares of GSV (incl. GST, cess, excise and NCCD). FY26 is mostly the old regime (new taxes from 1-Feb-2026); Q1 FY27 (Jun-26) is the first full new-regime quarter. GSV includes exports, which carry no domestic tax. Derived from the company's Q1 FY27 and Q4 FY26 presentations</div>
+  <div class="stack-row"><div class="blab">FY26, ₹100 of GSV</div><div class="stack"><span style="width:50.4%;background:var(--om)">GST+cess 50</span><span style="width:14.9%;background:var(--bad)">Excise 15</span><span style="width:19.3%;background:var(--wtg)">COGS 19</span><span style="width:6.9%;background:var(--ink-faint)"></span><span style="width:8.5%;background:var(--brand)">EBITDA 9</span></div></div>
+  <div class="stack-row"><div class="blab">Q1 FY27, ₹100 of GSV</div><div class="stack"><span style="width:32.7%;background:var(--om)">GST 33</span><span style="width:46.1%;background:var(--bad)">Excise 46</span><span style="width:13.4%;background:var(--wtg)">COGS 13</span><span style="width:4.6%;background:var(--ink-faint)"></span><span style="width:3.2%;background:var(--brand)"></span></div></div>
+  <div class="legend"><span><i style="background:var(--om)"></i>GST (+ compensation cess before Feb-26): 50.4 → 32.7</span><span><i style="background:var(--bad)"></i>Excise + NCCD: 14.9 → 46.1</span><span><i style="background:var(--wtg)"></i>Cost of goods (leaf, materials, purchases): 19.3 → 13.4</span><span><i style="background:var(--ink-faint)"></i>Staff + other costs: 6.9 → 4.6</span><span><i style="background:var(--brand)"></i>EBITDA: 8.6 → 3.2</span></div>
+</div>
+
+<p>Across the whole industry the picture is starker still. The state's annual take from cigarettes is now measured in tens of thousands of crores, while the farmer's crop is worth a few thousand crores. At the 2025-26 Andhra Pradesh auction price of about ₹210 a kilo, even the full estimated FCV crop of ~236 million kg would fetch around ₹5,000 crore (indicative). Leaf merchants earn thin margins too: VST's leaf business made ₹34 crore of PBIT on ₹301 crore of turnover in FY26 (11%), and ITC's Agri segment runs at about 7%.</p>
+
+<div class="chart">
+  <div class="c-title">Who captures the value: the state, the brand owner and the farmer</div>
+  <div class="c-sub">Annual ₹ Cr, indicative orders of magnitude. Tobacco basic excise = midpoint of the ₹55,000–58,000 Cr implied by the FY27 BE of ₹90,810 Cr if petroleum's share holds (estimate). Listed makers = ITC cigarette segment + GPI segment + VST, FY26. AP FCV crop = ~236 mn kg × ~₹210/kg (estimate). Scale: full bar = ₹60,000 Cr</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Tobacco basic excise<small>FY27 BE, implied</small></div><div class="track"><span class="fill bad" style="width:94.2%"></span></div><div class="bval">~56,500</div></div>
+    <div class="bar-row"><div class="blab">Listed makers' net revenue<small>FY26, net of excise</small></div><div class="track"><span class="fill brand" style="width:58.6%"></span></div><div class="bval">35,186</div></div>
+    <div class="bar-row"><div class="blab">Listed makers' EBIT<small>FY26</small></div><div class="track"><span class="fill spec" style="width:38.1%"></span></div><div class="bval">22,875</div></div>
+    <div class="bar-row"><div class="blab">AP FCV crop at auction<small>2025-26, full crop</small></div><div class="track"><span class="fill gold" style="width:8.3%"></span></div><div class="bval">~5,000</div></div>
+  </div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>A cigarette company does not make much money from growing leaf or from distributing packs. It makes money from owning the brand a smoker asks for at the counter and from the state's rules that keep competitors out. The state, in turn, takes the biggest single slice of every stick at the factory gate, before the company has been paid. That is why the tax rate, not the leaf price or the factory cost, is the number that moves this industry's profits.</p>
+</div>
+</section>
+
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>The missing statistic: how big the legal market really is</h2></div>
+<p class="part-sub">India publishes its tax collections to the rupee but not the number of cigarettes its citizens smoke. Every volume figure in this industry is an estimate, and the best new one says the market is bigger than most analysts assumed.</p>
+
+<p>There is no official series for Indian cigarette volumes. ITC, which sells the large majority of legal sticks, does not disclose its volume. GPI discloses a monthly run-rate (2,001 million sticks a month in FY26, which is 24.0 billion a year). VST discloses annual volume in its annual report (8,356 million sticks in FY26). Everything else, including the industry total, comes from brokers, industry bodies and rating agencies, and the estimates do not always agree.</p>
+<p>The figure most analysts carried into 2026 put ITC at about 70 billion sticks and the legal market at roughly 100–105 billion. Our Diversified FMCG report used ITC ~70 billion, labelled indicative. A newer and independent source points higher. In its rating rationales, CRISIL describes GPI as the second-largest maker with about 19% of volume (31 July 2026) and VST as the third with about 7% (14 May 2026). Applied to the companies' own disclosed volumes, those shares imply a legal market of roughly 120–126 billion sticks and ITC at about 85–90 billion, around 73% of volume. A second check supports this: in Q1 FY27 the three listed makers paid ₹13,255 crore of excise, of which ITC paid 75.7%, GPI 19.7% and VST 4.6%. Because excise is charged per stick by length, the excise split should sit between the volume split and the value split, and it does.</p>
+<p>This report therefore uses volume shares of <strong>ITC ~73%, GPI ~20% (CRISIL ~19%) and VST ~7%</strong> on a legal market of about 120 billion sticks in FY26, and labels them indicative. The older ~70 billion ITC figure would put GPI nearer 23% and raise ITC's per-stick numbers by about a quarter. Readers should treat every per-stick figure for ITC in this report as a range.</p>
+
+<div class="chart">
+  <div class="c-title">Legal cigarette volume by maker, FY26 (billion sticks)</div>
+  <div class="c-sub">GPI and VST are company-disclosed (GPI 2,001 mn/month × 12; VST annual report). ITC does not disclose volume: ~88 bn is the midpoint of the 85–90 bn implied by CRISIL's GPI ~19% and VST ~7% volume shares (indicative); the older market assumption was ~70 bn. Others ~1 bn (estimate). Scale: full bar = 100 bn</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">ITC<small>indicative, 85–90</small></div><div class="track"><span class="fill wtg" style="width:88%"></span></div><div class="bval">~88</div></div>
+    <div class="bar-row"><div class="blab">Godfrey Phillips<small>member, disclosed</small></div><div class="track"><span class="fill brand" style="width:24%"></span></div><div class="bval">24.0</div></div>
+    <div class="bar-row"><div class="blab">VST Industries<small>disclosed</small></div><div class="track"><span class="fill om" style="width:8.4%"></span></div><div class="bval">8.36</div></div>
+    <div class="bar-row"><div class="blab">Others (legal)<small>estimate</small></div><div class="track"><span class="fill ink" style="width:1%"></span></div><div class="bval">~1</div></div>
+  </div>
+</div>
+
+<p>Value tells a different story from volume. Stripping out GPI's international business (₹2,014 crore) and VST's leaf business (₹301 crore), the domestic net cigarette revenue of the three listed makers in FY26 was about ₹32,871 crore: ITC ~₹27,443 crore, GPI ~₹4,264 crore and VST ~₹1,164 crore. That is <strong>83.5% / 13.0% / 3.5%</strong> by domestic value. The commonly quoted "GPI has 13–14% of the market" is therefore a value share. By volume GPI is closer to a fifth of the legal market. The gap tells you that GPI earns far less per stick than ITC, for two reasons explored later: a mix weighted to cheaper sticks, and the fact that it sells Marlboro at a transfer price to PMI's distributor rather than to the trade.</p>
+
+<div class="chart">
+  <div class="c-title">Two ways to measure the legal market, FY26</div>
+  <div class="c-sub">Indicative shares. Volume: CRISIL-based (GPI ~19% rounded to ~20% on the orchestrator re-check; VST ~7%; ITC by difference ~73%). Value: domestic net cigarette revenue, ITC standalone segment, GPI segment ex-international, VST ex-leaf (estimates from company filings)</div>
+  <div class="stack-row"><div class="blab">By volume (~120 bn sticks)</div><div class="stack"><span style="width:73%;background:var(--wtg)">ITC ~73%</span><span style="width:20%;background:var(--brand)">GPI ~20%</span><span style="width:7%;background:var(--om)">7%</span></div></div>
+  <div class="stack-row"><div class="blab">By domestic value (~₹32,871 Cr)</div><div class="stack"><span style="width:83.5%;background:var(--wtg)">ITC 83.5%</span><span style="width:13%;background:var(--brand)">GPI 13%</span><span style="width:3.5%;background:var(--om)"></span></div></div>
+  <div class="legend"><span><i style="background:var(--wtg)"></i>ITC (reference)</span><span><i style="background:var(--brand)"></i>Godfrey Phillips (member)</span><span><i style="background:var(--om)"></i>VST Industries (reference): ~7% of volume, 3.5% of value</span></div>
+</div>
+
+<p>History adds a further caution. Industry estimates put legal volume at a peak of about 110 billion sticks in FY12, before five years of steep excise increases and the 2017 GST cess pushed it down to roughly 80–85 billion by FY18. Volumes recovered during the tax holiday of FY19–FY26, with VST's annual report putting industry growth at about 7% in FY26 alone. Those historical figures were built on older bases, so they cannot be laid directly against CRISIL's ~120 billion. The direction is reliable; the level is not.</p>
+<p>The value of the market is easier to bound. VST's FY26 annual report, citing IMARC, puts the Indian cigarette market at about ₹1,20,000 crore in 2025 at consumer prices, with value-priced cigarettes more than 51% of it (indicative third-party estimate). Our Diversified FMCG report's composite gives ₹1.2–1.5 lakh crore at retail. Of that, the listed makers' share after tax and trade margins is the ₹35,186 crore of FY26 net revenue (cigarette business, net of excise; ITC standalone segment plus GPI segment plus VST), on which they earned ₹22,875 crore of EBIT, a 65.0% margin (61.5% in FY25). Those are indicative straight sums of company figures on a stated basis; they are not a reported industry total.</p>
+
+<div class="chart">
+  <div class="c-title">Godfrey Phillips domestic cigarette volume (billion sticks a year)</div>
+  <div class="c-sub">Company-disclosed monthly run-rate × 12 (FY22 930, FY23 1,163, FY24 1,295, FY25 1,671, FY26 2,001 mn sticks a month). Source: GPI Q1 FY27 earnings presentation. Scale: full bar = 25 bn</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill brand" style="width:44.6%"></span></div><div class="bval">11.16</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill brand" style="width:55.8%"></span></div><div class="bval">13.96</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:62.2%"></span></div><div class="bval">15.54</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:80.2%"></span></div><div class="bval">20.05</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill spec" style="width:96%"></span></div><div class="bval">24.01</div></div>
+  </div>
+</div>
+
+<p>GPI's growth is the most striking number in the industry's recent history: a 21.1% compound annual volume growth over FY22–FY26, against an industry that grew by mid-single digits in most of those years. It came from wider direct retail coverage, the Four Square and Stellar brands in fast-growing mid-premium segments, and Marlboro. VST shows the opposite path: four years of decline (8,340 million sticks in FY22 to 7,697 million in FY25) before an 8.6% rebound to 8,356 million in FY26 on the back of its TOTAL and EDITIONS brands. ITC, by implication, grew at roughly mid-single digits in FY26 (indicative), the industry's steady centre of gravity.</p>
+
+<div class="chart">
+  <div class="c-title">VST Industries cigarette volume (million sticks)</div>
+  <div class="c-sub">Company annual reports FY22–FY26. FY26 +8.6%, "higher than industry trend after four consecutive years of volume decline". Scale: full bar = 9,000 mn</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill om" style="width:92.7%"></span></div><div class="bval">8,340</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill om" style="width:91.7%"></span></div><div class="bval">8,253</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill om" style="width:88.8%"></span></div><div class="bval">7,988</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill om" style="width:85.5%"></span></div><div class="bval">7,697</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill wtg" style="width:92.8%"></span></div><div class="bval">8,356</div></div>
+  </div>
+</div>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Sizing the Indian legal cigarette market, FY26 (all indicative unless company-disclosed)</caption>
+    <thead><tr><th>Measure</th><th class="num">Value</th><th>Basis and source</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Legal volume</td><td class="num">~120 bn sticks</td><td>CRISIL-implied (GPI ~19%, VST ~7%); older assumption ~100–105 bn</td></tr>
+      <tr><td class="t-strong">Illicit volume</td><td class="num">~40 bn sticks</td><td>~1/3 of legal volume (industry claim, ITC and GPI annual reports); estimate</td></tr>
+      <tr><td class="t-strong">Industry volume growth</td><td class="num">~+7%</td><td>VST annual report FY26</td></tr>
+      <tr><td class="t-strong">Consumer value</td><td class="num">~₹1.2 lakh Cr</td><td>IMARC via VST annual report (2025); ₹1.2–1.5 lakh Cr composite in our Diversified FMCG report</td></tr>
+      <tr><td class="t-strong">Listed makers' gross cigarette revenue (ex-GST, incl. excise)</td><td class="num">~₹48,150 Cr</td><td>ITC ₹37,100 + GPI ₹9,008 + VST ~₹2,046 Cr, FY26</td></tr>
+      <tr><td class="t-strong">Listed makers' net revenue (net of excise)</td><td class="num">₹35,186 Cr</td><td>ITC ₹27,443 + GPI ₹6,278 + VST ₹1,465 Cr (orchestrator re-check)</td></tr>
+      <tr><td class="t-strong">Listed makers' EBIT</td><td class="num">₹22,875 Cr</td><td>ITC ₹21,051 + GPI ₹1,475 + VST ~₹349 Cr; 65.0% of net</td></tr>
+      <tr><td class="t-strong">Tobacco + products exports</td><td class="num">₹17,192 Cr</td><td>368.85 mn kg; Commerce Ministry reply in Lok Sabha, 28-Jul-2026 (latest year, almost certainly FY26)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Nobody officially counts India's cigarettes. The best recent estimate, from a rating agency, suggests about 120 billion legal sticks a year, of which ITC sells roughly three in four and Godfrey Phillips about one in five. But GPI earns only about one rupee in eight of the industry's domestic revenue, because its cigarettes are cheaper on average and its Marlboro is sold to a distributor at a wholesale transfer price. Always ask whether a "market share" is by sticks or by rupees.</p>
+</div>
+</section>
+
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>Who smokes what: cigarettes are a minority product carrying the tax</h2></div>
+<p class="part-sub">India has one of the world's largest tobacco-using populations and one of its lowest cigarette consumptions per head. That paradox drives every tax and pricing decision in this report.</p>
+
+<p>The Global Adult Tobacco Survey of 2016-17 (GATS-2, run by the Health Ministry with WHO and TISS, 74,037 respondents) found that 28.6% of Indian adults, about 267 million people, used tobacco in some form. But only 10.7% smoked, and only 4.0% smoked cigarettes. Bidis, hand-rolled in tendu leaf, were smoked by 7.7%. Smokeless tobacco (khaini, zarda, gutkha and chewing tobacco) was used by 21.4%, about 199 million adults. The earlier survey, GATS-1 in 2009-10, found 34.6% using tobacco and 14.0% smoking, so total use is falling. No results from a third survey were found for this report; the 2016-17 figures remain the latest official baseline.</p>
+
+<div class="chart">
+  <div class="c-title">Tobacco use among Indian adults, GATS-2 (2016-17)</div>
+  <div class="c-sub">% of adults aged 15+, current users. Categories overlap (some adults both smoke and chew), so they do not add up. Source: GATS-2 fact sheet, Ministry of Health and Family Welfare / TISS (search summary; the PDF did not download). Scale: full bar = 30%</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Any tobacco<small>~267 mn adults</small></div><div class="track"><span class="fill ink" style="width:95.3%"></span></div><div class="bval">28.6%</div></div>
+    <div class="bar-row"><div class="blab">Smokeless<small>~199 mn adults</small></div><div class="track"><span class="fill wtg" style="width:71.3%"></span></div><div class="bval">21.4%</div></div>
+    <div class="bar-row"><div class="blab">Any smoking</div><div class="track"><span class="fill om" style="width:35.7%"></span></div><div class="bval">10.7%</div></div>
+    <div class="bar-row"><div class="blab">Bidis</div><div class="track"><span class="fill gold" style="width:25.7%"></span></div><div class="bval">7.7%</div></div>
+    <div class="bar-row"><div class="blab">Cigarettes</div><div class="track"><span class="fill brand" style="width:13.3%"></span></div><div class="bval">4.0%</div></div>
+  </div>
+</div>
+
+<p>Legal cigarettes, by ITC's estimate in its FY26 annual report, are about 10% of India's tobacco consumption, down from 21% in 1981-82, yet they contribute more than four-fifths of the tax collected on tobacco. That asymmetry is the industry's main argument in every pre-budget submission: the state taxes the organised, traceable 10% heavily and the unorganised 90% lightly, so each increase on cigarettes pushes some consumption toward forms that are cheaper and less taxed per unit of nicotine. Bidis attract 18% GST and minimal excise; chewing tobacco pays high ad valorem rates on paper but is sold through fragmented, hard-to-police channels.</p>
+<p>The other striking number is consumption per head. ITC's annual report, citing the Tobacco Atlas (2022), puts Indian cigarette consumption at about 90 sticks per person per year, against 1,971 in China, 1,133 in Japan, 898 in Bangladesh, 897 in the US, 468 in the UK and 394 in Pakistan. Even adding the illicit market, India smokes only a fraction of the cigarettes its neighbours do. The industry reads that as headroom; public-health advocates read it as success that should not be reversed.</p>
+
+<div class="chart">
+  <div class="c-title">Cigarettes smoked per person per year</div>
+  <div class="c-sub">Sticks per capita, Tobacco Atlas 2022 as quoted in ITC's Report and Accounts 2026. Legal sticks only for India; adding illicit volume would lift India to ~120 (estimate). Scale: full bar = 2,000</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">China</div><div class="track"><span class="fill ink" style="width:98.6%"></span></div><div class="bval">1,971</div></div>
+    <div class="bar-row"><div class="blab">Japan</div><div class="track"><span class="fill ink" style="width:56.7%"></span></div><div class="bval">1,133</div></div>
+    <div class="bar-row"><div class="blab">Bangladesh</div><div class="track"><span class="fill wtg" style="width:44.9%"></span></div><div class="bval">898</div></div>
+    <div class="bar-row"><div class="blab">USA</div><div class="track"><span class="fill ink" style="width:44.9%"></span></div><div class="bval">897</div></div>
+    <div class="bar-row"><div class="blab">UK</div><div class="track"><span class="fill ink" style="width:23.4%"></span></div><div class="bval">468</div></div>
+    <div class="bar-row"><div class="blab">Pakistan</div><div class="track"><span class="fill wtg" style="width:19.7%"></span></div><div class="bval">394</div></div>
+    <div class="bar-row"><div class="blab">India</div><div class="track"><span class="fill brand" style="width:4.5%"></span></div><div class="bval">90</div></div>
+  </div>
+</div>
+
+<p>Why so low? Price is the main answer. The same ITC table, built from WHO's Global Health Observatory (2025), shows that the tax on 2,000 cigarettes, roughly a pack a day for a year, equalled 4.90% of India's per-capita GDP even before the 2026 reset, against 3.40% in Pakistan, 2.63% in the UK, 1.00% in China and 0.36% in the US. Relative to incomes, Indian cigarettes were already among the most heavily taxed in the world. The reset made that ratio higher still.</p>
+
+<div class="chart">
+  <div class="c-title">Tax on 2,000 cigarettes as a share of per-capita GDP (pre-reset)</div>
+  <div class="c-sub">% of per-capita GDP; WHO Global Health Observatory 2025 data (2024 tax rates) as quoted in ITC's Report and Accounts 2026. India's post-reset ratio is higher. Scale: full bar = 5%</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">India</div><div class="track"><span class="fill bad" style="width:98%"></span></div><div class="bval">4.90%</div></div>
+    <div class="bar-row"><div class="blab">Pakistan</div><div class="track"><span class="fill wtg" style="width:68%"></span></div><div class="bval">3.40%</div></div>
+    <div class="bar-row"><div class="blab">UK</div><div class="track"><span class="fill ink" style="width:52.6%"></span></div><div class="bval">2.63%</div></div>
+    <div class="bar-row"><div class="blab">Australia</div><div class="track"><span class="fill ink" style="width:52.4%"></span></div><div class="bval">2.62%</div></div>
+    <div class="bar-row"><div class="blab">Malaysia</div><div class="track"><span class="fill ink" style="width:48.8%"></span></div><div class="bval">2.44%</div></div>
+    <div class="bar-row"><div class="blab">Thailand</div><div class="track"><span class="fill ink" style="width:42%"></span></div><div class="bval">2.10%</div></div>
+    <div class="bar-row"><div class="blab">China</div><div class="track"><span class="fill ink" style="width:20%"></span></div><div class="bval">1.00%</div></div>
+    <div class="bar-row"><div class="blab">Japan</div><div class="track"><span class="fill ink" style="width:14.6%"></span></div><div class="bval">0.73%</div></div>
+    <div class="bar-row"><div class="blab">USA</div><div class="track"><span class="fill ink" style="width:7.2%"></span></div><div class="bval">0.36%</div></div>
+  </div>
+</div>
+
+<p>Six forces move demand for legal cigarettes, in roughly this order of importance:</p>
+<ul class="clean">
+  <li><strong>Price and affordability.</strong> Studies and broker work put the short-run price elasticity of Indian cigarettes at about −0.3 to −0.5: a 10% price rise cuts volume by 3–5%. Q1 FY27 implied far less (about −0.1 for GPI and −0.2 for ITC), flattered by trade pre-loading and phased pricing (estimates).</li>
+  <li><strong>Relative prices.</strong> What matters is not the cigarette's price alone but its gap to a bidi, a chewing-tobacco sachet and a smuggled stick. The reset widened all three gaps.</li>
+  <li><strong>Incomes and premiumisation.</strong> VST's annual report described the mid-premium segment as "vibrant" in FY26 while the low-price segment lagged the industry. GPI's Stellar and Four Square Crush, and VST's EDITIONS, rode that wave.</li>
+  <li><strong>Distribution reach.</strong> GPI's growth came with wider direct retail coverage; the same network now also carries Ferrero confectionery.</li>
+  <li><strong>Regulation of access.</strong> Karnataka's 2024 amendment (gazetted 30 May 2025) raised the smoking age to 21, banned loose sticks and widened school zones; national amendments drafted in 2015, 2019 and 2020 were never enacted.</li>
+  <li><strong>Enforcement against illicit trade.</strong> After the reset, this is the swing factor; HDFC Securities called illicit trade "the key risk to volume assumptions".</li>
+</ul>
+<p>One structural feature amplifies all of these. Because most smokers buy single sticks, they experience price in steps: ₹10 to ₹12 per stick feels larger than ₹100 to ₹120 per pack, even though it is the same percentage. That is why makers launch new lengths and pack formats at old price points (section 04) and why price rises are spread across several small rounds rather than taken at once.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Most Indians who use tobacco chew it or smoke bidis; only about one adult in twenty-five smokes cigarettes. Yet cigarettes pay most of the tobacco tax, because they are made by a few large companies the taxman can see. Each time the tax on cigarettes rises sharply, some smokers move to cheaper forms that pay little tax, or to smuggled sticks that pay none. That substitution, not health campaigns alone, is what limits how far legal cigarette prices can rise.</p>
+</div>
+</section>
+
+<section class="part" id="p4">
+<div class="part-head"><span class="pno">04</span><h2>Anatomy of the tax reset: what changed on 1 February 2026 <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">A cess that the states received was swapped for an excise that the Centre collects, GST moved from 28% of the invoice to 40% of the shelf price, and the per-stick charge was re-set by length. Here is the arithmetic, stick by stick.</p>
+
+<p class="lead">The 2026 reset was not announced as a tax increase. It was presented as the end of a temporary arrangement. When GST arrived in July 2017, tobacco, pan masala, cars, coal and aerated drinks were charged a GST compensation cess on top of GST to fund payments to states for revenue lost in the switch. Those payments ended in 2022, but the cess continued to repay loans the Centre had taken to compensate states during the pandemic. GST 2.0, effective 22 September 2025, created a 40% "demerit" slab; tobacco was kept on 28% plus cess until the loans were repaid. On 1 February 2026 the cess ended and tobacco moved into the new structure. The stated aim of the Central Excise (Amendment) Bill, introduced in the Lok Sabha on 1 December 2025, was "to keep taxes on these products at the existing level". The Budget figures and company results show it did considerably more than that.</p>
+
+<ul class="timeline">
+  <li><div class="yr">22 Sep 2025</div><div class="ev">GST 2.0 takes effect and creates a 40% demerit slab. Cigarettes stay at 28% plus compensation cess until the cess-backed loans are repaid.</div></li>
+  <li><div class="yr">1 Dec 2025</div><div class="ev">Central Excise (Amendment) Bill 2025 introduced. Statutory cigarette duty raised from ₹200–735 to ₹2,700–11,000 per 1,000 sticks; chewing tobacco 25% → 100%; unmanufactured tobacco 64% → 70%.</div></li>
+  <li><div class="yr">11 Dec 2025</div><div class="ev">Presidential assent to the Act.</div></li>
+  <li class="major"><div class="yr">31 Dec 2025</div><div class="ev">Notification 03/2025-Central Excise (G.S.R. 955(E)) under section 5A exempts the excess over the effective rates of ₹2,050–8,500 per 1,000 sticks; it supersedes Notification 3/2019-CE. A companion notification brings the Act into force from 1 February 2026 and the compensation cess on tobacco goes to nil.</div></li>
+  <li class="major"><div class="yr">1 Feb 2026</div><div class="ev">New regime in force: 40% GST valued on retail sale price (CGST Rule 31D) plus the new excise; NCCD continues. The same day (a Sunday) the FY27 Union Budget is presented.</div></li>
+  <li><div class="yr">4 Feb 2026</div><div class="ev">Corrigendum G.S.R. 105(E) corrects one tariff code ("2404 11 10" to "2404 11 00", the heated-tobacco line). No cigarette rate changes.</div></li>
+</ul>
+
+<h3>The slab table</h3>
+<p>The excise is specific: a rupee amount per 1,000 sticks, set by the length of the cigarette and whether it has a filter. Filter length counts as 11 mm or the actual length, whichever is more, so a maker cannot shorten the tobacco column and lengthen the filter to drop a slab. The effective rates, which apply after the section 5A exemption, are below. NCCD and small legacy duties are charged on top; their per-1,000 rates were not available for this report, so composite figures below assume about ₹0.4–0.6 a stick (estimate).</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Effective central excise on cigarettes from 1 Feb 2026 (Notification 03/2025-CE, G.S.R. 955(E))</caption>
+    <thead><tr><th>Tariff item</th><th>Description</th><th class="num">₹ per 1,000 sticks</th><th class="num">₹ per stick</th><th>Typical product</th></tr></thead>
+    <tbody>
+      <tr><td>2402 20 10</td><td>Non-filter, length ≤ 65 mm</td><td class="num">2,050</td><td class="num">2.05</td><td>Plain cigarettes</td></tr>
+      <tr><td>2402 20 20</td><td>Non-filter, &gt; 65 mm and ≤ 70 mm</td><td class="num">3,600</td><td class="num">3.60</td><td>Plain regular</td></tr>
+      <tr><td>2402 20 30</td><td>Filter, ≤ 65 mm (filter counted as ≥ 11 mm)</td><td class="num">2,100</td><td class="num">2.10</td><td>Micro and short filters; the volume base</td></tr>
+      <tr><td>2402 20 40</td><td>Filter, &gt; 65 mm and ≤ 70 mm</td><td class="num">4,000</td><td class="num">4.00</td><td>Regular-size filters (e.g. a 69 mm Gold Flake Regular)</td></tr>
+      <tr><td>2402 20 50</td><td>Filter, &gt; 70 mm and ≤ 75 mm</td><td class="num">5,400</td><td class="num">5.40</td><td>King size</td></tr>
+      <tr><td>2402 20 90</td><td>Other cigarettes (longer than 75 mm, etc.)</td><td class="num">8,500</td><td class="num">8.50</td><td>Long and premium formats</td></tr>
+      <tr><td>2402 90 10</td><td>Cigarettes of tobacco substitutes</td><td class="num">4,006</td><td class="num">4.01</td><td>Niche</td></tr>
+      <tr><td>2404 11 00 / 19</td><td>Products for inhalation without combustion (heated tobacco)</td><td class="num" colspan="2">60.5% ad valorem</td><td>Devices banned under PECA 2019</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="chart">
+  <div class="c-title">The new excise per stick, by length (₹)</div>
+  <div class="c-sub">Effective basic excise from 1-Feb-2026, ₹ per stick (₹ per 1,000 ÷ 1,000), before NCCD and GST. Statutory schedule ₹2.70–11.00 per stick, the excess exempted under section 5A. Source: Notification 03/2025-CE full text (taxguru mirror); PRS Bill summary. Scale: full bar = ₹9</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Non-filter ≤65 mm</div><div class="track"><span class="fill epc" style="width:22.8%"></span></div><div class="bval">₹2.05</div></div>
+    <div class="bar-row"><div class="blab">Filter ≤65 mm<small>micro / short</small></div><div class="track"><span class="fill spec" style="width:23.3%"></span></div><div class="bval">₹2.10</div></div>
+    <div class="bar-row"><div class="blab">Non-filter 65–70 mm</div><div class="track"><span class="fill epc" style="width:40%"></span></div><div class="bval">₹3.60</div></div>
+    <div class="bar-row"><div class="blab">Filter 65–70 mm<small>regular</small></div><div class="track"><span class="fill brand" style="width:44.4%"></span></div><div class="bval">₹4.00</div></div>
+    <div class="bar-row"><div class="blab">Filter 70–75 mm<small>king size</small></div><div class="track"><span class="fill wtg" style="width:60%"></span></div><div class="bval">₹5.40</div></div>
+    <div class="bar-row"><div class="blab">Other / &gt;75 mm<small>long, premium</small></div><div class="track"><span class="fill bad" style="width:94.4%"></span></div><div class="bval">₹8.50</div></div>
+  </div>
+</div>
+
+<p>Two features of the legal design matter for investors. First, the gap between the statutory schedule (₹2,700–11,000) and the effective rates (₹2,050–8,500) sits in an exemption notification. Exemptions under section 5A are granted, narrowed or withdrawn by notification, so on our reading the government can raise effective rates up to the statutory ceiling without going back to Parliament. Second, the old compensation cess was itself part specific (₹2,076–4,170 per 1,000 sticks by length) and part ad valorem (5%), so the new excise replaced it roughly at the bottom of the ladder (₹2,076 against ₹2,100 for a short filter) but doubled it at the top (₹4,170 against ₹8,500). The big change for the cheapest sticks came from GST rising to 40% and being charged on the retail price; for long sticks it came from both.</p>
+
+<h3>The arithmetic of one stick</h3>
+<p>The cleanest way to see the new structure is to walk one stick from the shelf back to the factory. Take an ILLUSTRATIVE king-size stick at ₹14, the composite used in our Diversified FMCG report for an ITC stick after the reset. The retailer and wholesaler keep about 8%, ₹1.12. The remaining ₹12.88 includes GST at 40%, so the ex-GST value is ₹12.88 ÷ 1.40 = ₹9.20 and the GST is ₹3.68. From the ₹9.20 the maker pays about ₹6.00 of excise and NCCD (₹5.40 basic excise for a 70–75 mm stick plus about ₹0.60 of NCCD and other duties, estimate). The maker is left with ₹3.20 of net revenue. If its leaf, paper, filter, conversion and distribution cost is about ₹1.20, its EBIT is about ₹2.00 a stick. The state takes ₹9.68 of the ₹14, or 69%.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">One ILLUSTRATIVE king-size stick after the reset (₹ per stick)</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Shelf</div><div class="nname">Retail price ₹14.00</div><div class="nwho">Loose-stick price paid by the smoker</div></div>
+    <div class="arrow op">−</div>
+    <div class="node epc"><div class="ntag">Trade</div><div class="nname">Margin ₹1.12</div><div class="nwho">~8% to wholesaler and retailer</div></div>
+    <div class="arrow op">−</div>
+    <div class="node wtg"><div class="ntag">GST 40%</div><div class="nname">GST ₹3.68</div><div class="nwho">₹12.88 ÷ 1.40 = ₹9.20 ex-GST</div></div>
+    <div class="arrow op">−</div>
+    <div class="node om"><div class="ntag">Excise</div><div class="nname">Excise + NCCD ₹6.00</div><div class="nwho">₹5.40 basic + ~₹0.60 NCCD (estimate)</div></div>
+    <div class="arrow op">=</div>
+    <div class="node spec"><div class="ntag">Maker</div><div class="nname">Net revenue ₹3.20</div><div class="nwho">Cost ~₹1.20, EBIT ~₹2.00</div></div>
+  </div>
+  <div class="flow-note">ILLUSTRATIVE composite consistent with our Diversified FMCG report; actual NCCD and trade margins vary by brand and state. Tax = ₹3.68 + ₹6.00 = ₹9.68, or 69% of the retail price.</div>
+</div>
+
+<p>The same walk for an ILLUSTRATIVE short filter stick (≤65 mm) at ₹10: trade ₹0.80; ex-GST value ₹9.20 ÷ 1.40 = ₹6.57, so GST ₹2.63; excise ₹2.10 plus NCCD and other duties of about ₹0.40 (estimate), ₹2.50 in all; maker net revenue about ₹4.07. On paper, that short stick leaves the maker more net revenue than the king-size one, because it sits in the lowest slab. In practice most short sticks sell far below ₹10, and the gap to a bidi is wide, so the paper margin rarely survives. GPI's actual EBITDA in Q1 FY27 was ₹0.33 a stick (₹182 crore on 5.60 billion sticks), a reminder that the equation gives direction, not level.</p>
+<p>Two multipliers make small tax changes large at the shelf. Because GST is charged on a price that already includes excise, ₹1 of excise becomes ₹1.40 after GST, and about ₹1.52 at retail once the trade adds its 8%. And because the tax on a king-size stick (₹9.68) is now larger than the maker's whole net revenue (₹3.20), a 10% retail price rise lifts the maker's net revenue by roughly 29%: ₹1.40 more at retail becomes ₹0.92 more net to the maker (₹1.40 × 0.92 ÷ 1.40), and every paisa of it falls to EBIT because the excise does not move with price.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The new excise is a fixed amount per cigarette, from about ₹2 for a short stick to ₹8.50 for a long one, and GST of 40% is then charged on top of the whole retail price. For a typical king-size cigarette the government now takes about ₹9.70 of every ₹14, and the maker about ₹3.20 before its own costs. Because the tax does not rise when the maker raises prices, every extra rupee a smoker pays goes mostly to the maker. That is why the industry's response has been to raise prices in steps.</p>
+</div>
+
+<h3>What the exchequer expects</h3>
+<p>The Union Receipt Budget 2026-27 shows the scale of the change. Basic excise duties, which are levied only on specified petroleum products and on tobacco, rise from ₹45,780 crore in FY26 RE to ₹90,810 crore in FY27 BE. FY25's basic excise of about ₹32,047 crore was almost entirely petroleum, so if petroleum's share stays similar the FY27 estimate implies roughly ₹55,000–58,000 crore of basic excise from tobacco (estimate). A bottom-up cross-check gives a similar order: the three listed makers paid ₹13,255 crore of excise in Q1 FY27, about ₹53,000 crore annualised including their NCCD, against roughly ₹7,000 crore a year before the reset (estimate). NCCD on union excise is budgeted to edge up from ₹9,000 crore to ₹9,750 crore. The GST compensation cess, which yielded ₹1,50,570 crore in FY25 across all its goods, falls to ₹88,000 crore in FY26 RE and nil in FY27 BE.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Union receipts tied to tobacco, ₹ crore (Receipt Budget 2026-27)</caption>
+    <thead><tr><th>Line</th><th class="num">FY25 actual</th><th class="num">FY26 BE</th><th class="num">FY26 RE</th><th class="num">FY27 BE</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Basic excise duties (petroleum + tobacco)</td><td class="num">32,047</td><td class="num">39,180</td><td class="num">45,780</td><td class="num">90,810</td></tr>
+      <tr><td>NCCD, union excise (tobacco + crude)</td><td class="num">8,341</td><td class="num">9,160</td><td class="num">9,000</td><td class="num">9,750</td></tr>
+      <tr><td>NCCD, customs</td><td class="num">1,116</td><td class="num">1,220</td><td class="num">1,140</td><td class="num">1,160</td></tr>
+      <tr><td>Special additional duty of excise on tobacco products</td><td class="num">170</td><td class="num">—</td><td class="num">—</td><td class="num">—</td></tr>
+      <tr><td class="t-strong">GST compensation cess (all goods)</td><td class="num">1,50,570</td><td class="num">1,67,110</td><td class="num">88,000</td><td class="num">nil</td></tr>
+      <tr><td>Health Security se National Security Cess (pan masala, not cigarettes)</td><td class="num">—</td><td class="num">—</td><td class="num">2,330</td><td class="num">14,000</td></tr>
+      <tr><td>Total union excise duties</td><td class="num">3,00,253</td><td class="num">3,17,000</td><td class="num">3,36,550</td><td class="num">3,88,910</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="chart">
+  <div class="c-title">Basic excise duties: the Centre's FY27 bet on tobacco (₹ Cr)</div>
+  <div class="c-sub">Union basic excise duties (specified petroleum products and tobacco). The +₹45,030 Cr step-up from FY26 RE to FY27 BE is, by elimination, mostly the tobacco reset (estimate). Source: Union Receipt Budget 2026-27, Tax Revenue. Scale: full bar = ₹1,00,000 Cr</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY25 actual</div><div class="track"><span class="fill ink" style="width:32%"></span></div><div class="bval">32,047</div></div>
+    <div class="bar-row"><div class="blab">FY26 BE</div><div class="track"><span class="fill ink" style="width:39.2%"></span></div><div class="bval">39,180</div></div>
+    <div class="bar-row"><div class="blab">FY26 RE</div><div class="track"><span class="fill wtg" style="width:45.8%"></span></div><div class="bval">45,780</div></div>
+    <div class="bar-row"><div class="blab">FY27 BE</div><div class="track"><span class="fill bad" style="width:90.8%"></span></div><div class="bval">90,810</div></div>
+  </div>
+</div>
+
+<p>The switch also moved money between governments. The compensation cess was collected by the Centre and paid out to states. The new excise is a central duty that enters the divisible pool, so states receive roughly 41% of it through devolution rather than all of it through compensation. That changes the politics of the tax: the Centre now gains directly from every stick, and the next lever, the FY28 Budget on 1 February 2027, is a central decision. The same Budget also confirmed that the new Health Security se National Security Cess applies to pan masala (₹14,000 crore budgeted for FY27), not to cigarettes, a point some early commentary, including our own GPI primer's first version, got wrong.</p>
+
+<div class="chart">
+  <div class="c-title">Excise paid by the listed makers, by quarter (₹ Cr)</div>
+  <div class="c-sub">Sum of ITC (standalone), GPI and VST excise duty as reported in quarterly results; Q4 FY26 mixes one old-regime month and two new-regime months. Q1 FY27 split: ITC ₹10,036, GPI ₹2,614, VST ₹605 Cr. Q4 FY25 omitted (VST not available). Scale: full bar = ₹14,000 Cr</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q3 FY25 (Dec-24)</div><div class="track"><span class="fill ink" style="width:11.8%"></span></div><div class="bval">1,645</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY26 (Jun-25)</div><div class="track"><span class="fill ink" style="width:12.5%"></span></div><div class="bval">1,752</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY26 (Sep-25)</div><div class="track"><span class="fill ink" style="width:13%"></span></div><div class="bval">1,818</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY26 (Dec-25)</div><div class="track"><span class="fill ink" style="width:13%"></span></div><div class="bval">1,822</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY26 (Mar-26)<small>reset from 1-Feb</small></div><div class="track"><span class="fill wtg" style="width:54.1%"></span></div><div class="bval">7,575</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27 (Jun-26)</div><div class="track"><span class="fill bad" style="width:94.7%"></span></div><div class="bval">13,255</div></div>
+  </div>
+</div>
+
+<h3>Per stick: from paise to rupees</h3>
+<p>GPI is the only Indian maker that discloses enough to measure excise per stick directly. Its excise was ₹327 crore in Q1 FY26 on 5.71 billion domestic sticks (1,903 million a month), or ₹0.57 a stick. It stayed near that level through Q3 FY26 (₹0.58 and ₹0.55), jumped to ₹2.94 in Q4 FY26, which contained two months of the new regime, and reached <strong>₹4.67</strong> in Q1 FY27 (₹2,614 crore on 5.60 billion sticks): an 8.2× step-up. That level sits between the 65–70 mm filter slab (₹4.00) and the king-size slab (₹5.40) once NCCD is added, consistent with a portfolio weighted to regular and king-size filters plus Marlboro. ITC's equivalent is about ₹4.8 a stick if it sells ~88 billion sticks a year, or about ₹6.0 on the older ~70 billion assumption (indicative range). VST's is about ₹2.9, if its volume held near its FY26 run-rate (estimate), which places it mostly in the short and regular slabs.</p>
+
+<div class="chart">
+  <div class="c-title">Godfrey Phillips: excise per domestic stick, by quarter (₹)</div>
+  <div class="c-sub">Excise duty (results) ÷ domestic sticks (monthly run-rate × 3): Q1 FY26 ₹327 Cr / 5.71 bn; Q2 ₹343 Cr / 5.96 bn; Q3 ₹361 Cr / 6.57 bn; Q4 ₹1,698 Cr / 5.78 bn; Q1 FY27 ₹2,614 Cr / 5.60 bn. Estimate from company figures; excise also covers a small volume of non-domestic product. Scale: full bar = ₹5</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q1 FY26 (Jun-25)</div><div class="track"><span class="fill ink" style="width:11.4%"></span></div><div class="bval">₹0.57</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY26 (Sep-25)</div><div class="track"><span class="fill ink" style="width:11.6%"></span></div><div class="bval">₹0.58</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY26 (Dec-25)</div><div class="track"><span class="fill ink" style="width:11%"></span></div><div class="bval">₹0.55</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY26 (Mar-26)<small>2 months new regime</small></div><div class="track"><span class="fill wtg" style="width:58.8%"></span></div><div class="bval">₹2.94</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27 (Jun-26)</div><div class="track"><span class="fill bad" style="width:93.4%"></span></div><div class="bval">₹4.67</div></div>
+  </div>
+</div>
+
+<h3>Who loses most</h3>
+<p>The answer depends on what "lose" means. In rupees per stick, long and premium cigarettes pay the most: ₹8.50 of basic excise against ₹2.10 for a short filter. But premium smokers are the least price-sensitive and premium brands have the most room to raise prices, so their volume is the safest. In affordability terms the value end loses most. A value smoker faces a 40% GST on a higher retail price, a specific levy that is a larger share of a cheaper stick's price, and close substitutes in bidis and chewing tobacco. The maker's balance sheet shows the same thing. In Q1 FY27 excise was 1.9 times ITC's cigarette net revenue, 2.2 times GPI's and 2.4 times VST's. A year earlier the ratios were 0.18, 0.22 and 0.39. The smaller and more value-heavy the portfolio, the more of every rupee the state now takes relative to what the maker keeps.</p>
+
+<div class="chart">
+  <div class="c-title">Excise as a multiple of the maker's net revenue</div>
+  <div class="c-sub">Excise duty ÷ net revenue (net of excise). ITC = standalone cigarette segment (net = segment revenue − company excise); GPI = consolidated net revenue (incl. exports, which carry no excise; segment basis gives 2.24×); VST = company. Q1 FY26 (Jun-25) vs Q1 FY27 (Jun-26). Scale: full bar = 2.5×</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">VST Q1 FY27</div><div class="track"><span class="fill bad" style="width:94.4%"></span></div><div class="bval">2.36×</div></div>
+    <div class="bar-row"><div class="blab">GPI Q1 FY27<small>member</small></div><div class="track"><span class="fill bad" style="width:86.8%"></span></div><div class="bval">2.17×</div></div>
+    <div class="bar-row"><div class="blab">ITC cig. Q1 FY27</div><div class="track"><span class="fill bad" style="width:75.2%"></span></div><div class="bval">1.88×</div></div>
+    <div class="bar-row"><div class="blab">VST Q1 FY26</div><div class="track"><span class="fill ink" style="width:15.6%"></span></div><div class="bval">0.39×</div></div>
+    <div class="bar-row"><div class="blab">GPI Q1 FY26</div><div class="track"><span class="fill ink" style="width:8.8%"></span></div><div class="bval">0.22×</div></div>
+    <div class="bar-row"><div class="blab">ITC cig. Q1 FY26</div><div class="track"><span class="fill ink" style="width:7.2%"></span></div><div class="bval">0.18×</div></div>
+  </div>
+</div>
+
+<figure class="map">
+  <div class="c-title" style="font-family:Sora,sans-serif;font-size:17px;font-weight:600;">Before and after: the state's take per stick now exceeds the maker's</div>
+  <div class="c-sub" style="font-size:12.5px;color:var(--ink-soft);margin-bottom:10px;">x = excise per stick (₹); y = net revenue per stick (₹), Q1 FY26 (Jun-25, gold) and Q1 FY27 (Jun-26, green). INDICATIVE: ITC volume ~88 bn a year (CRISIL-implied, −5% in Q1 FY27); VST volume assumed at its FY26 run-rate; GPI disclosed (net revenue incl. exports). Dashed diagonal: excise = net revenue</div>
+  <svg viewBox="0 0 640 420" role="img" aria-label="Excise per stick versus net revenue per stick for ITC, GPI and VST, before and after the reset">
+    <line class="grid" x1="70" y1="30" x2="610" y2="30"/><line class="grid" x1="70" y1="117.5" x2="610" y2="117.5"/><line class="grid" x1="70" y1="205" x2="610" y2="205"/><line class="grid" x1="70" y1="292.5" x2="610" y2="292.5"/>
+    <line class="axis" x1="70" y1="380" x2="610" y2="380"/><line class="axis" x1="70" y1="30" x2="70" y2="380"/>
+    <line class="mid" x1="70" y1="380" x2="430" y2="30"/>
+    <text class="q" x="80" y="46">Maker keeps more than the state</text>
+    <text class="q" x="600" y="372" text-anchor="end">State takes more than the maker</text>
+    <text class="tick" x="70" y="398" text-anchor="middle">0</text><text class="tick" x="205" y="398" text-anchor="middle">1.5</text><text class="tick" x="340" y="398" text-anchor="middle">3.0</text><text class="tick" x="475" y="398" text-anchor="middle">4.5</text><text class="tick" x="610" y="398" text-anchor="middle">6.0</text>
+    <text class="tick" x="62" y="383" text-anchor="end">0</text><text class="tick" x="62" y="295" text-anchor="end">1</text><text class="tick" x="62" y="208" text-anchor="end">2</text><text class="tick" x="62" y="120" text-anchor="end">3</text><text class="tick" x="62" y="33" text-anchor="end">4</text>
+    <text class="ax-l" x="340" y="414" text-anchor="middle">Excise per stick (₹) →</text>
+    <text class="ax-l" x="18" y="205" transform="rotate(-90 18 205)" text-anchor="middle">Net revenue per stick (₹) →</text>
+    <line x1="124" y1="93" x2="502" y2="156" stroke="#B7AE98" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="121" y1="152" x2="490" y2="192" stroke="#B7AE98" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="120" y1="255" x2="331" y2="273" stroke="#B7AE98" stroke-width="1" stroke-dasharray="3 3"/>
+    <circle class="dot alt" cx="124" cy="93" r="7"/><text class="lbl" x="136" y="84">ITC Q1 FY26</text>
+    <circle class="dot alt" cx="121" cy="152" r="7"/><text class="lbl" x="133" y="143">GPI Q1 FY26 (member)</text>
+    <circle class="dot alt" cx="120" cy="255" r="7"/><text class="lbl" x="132" y="246">VST Q1 FY26</text>
+    <circle class="dot" cx="502" cy="156" r="8"/><text class="lbl" x="514" y="150">ITC Q1 FY27</text>
+    <circle class="dot" cx="490" cy="192" r="9"/><text class="lbl" x="502" y="214">GPI Q1 FY27 (member)</text>
+    <circle class="dot" cx="331" cy="273" r="8"/><text class="lbl" x="343" y="296">VST Q1 FY27</text>
+  </svg>
+  <figcaption>Every maker moved from the upper-left (state's excise far below the maker's net revenue) to the lower-right in one quarter. GPI (the member) moved furthest down in net revenue per stick among the larger makers; VST, the value specialist, has the lowest net revenue per stick but also the lowest excise, because its sticks are mostly short.</figcaption>
+</figure>
+
+<h3>The length-engineering response</h3>
+<p>A tax set by length invites makers to re-engineer length. ITC's most visible move was a 64 mm Gold Flake Deluxe at ₹94 for ten, launched alongside the 69 mm Gold Flake Regular, whose ten-stick pack went from ₹95 to ₹125 (Nomura, February 2026). The arithmetic is simple. The 69 mm stick sits in the 65–70 mm slab at ₹4.00 a stick; the 64 mm stick drops into the ≤65 mm slab at ₹2.10. That saves ₹1.90 of basic excise per stick, ₹19 per pack of ten before GST and about ₹29 at retail once GST and the trade margin are added (₹19 × 1.40 × 1.08, ILLUSTRATIVE). The Deluxe can therefore sit near the old Regular price while still earning a reasonable margin. ITC's Q1 FY27 presentation lists more than 30 "portfolio interventions", including "Sleek" and "Deluxe" formats, Rothmans GT and XT, and Longs variants. GPI's response leaned on price instead: Nomura reported Stellar Shift (a king-size slim) up 90% to ₹19 a stick, close to ITC's Classic Connect, signalling a shift "from volumes to margins" in slims.</p>
+<p>Length engineering has limits. The filter-counting rule (11 mm minimum) already blocks the crudest tricks, and a government that sees volume migrating to the bottom slab can narrow the exemption on that slab by notification. Expect the next Budget to look at where volume has moved since February 2026.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Because the tax depends on how long a cigarette is, cutting a stick from 69 mm to 64 mm nearly halves the excise on it. ITC launched exactly such a shorter Gold Flake at roughly the old price of the regular one. Smokers get a familiar brand at an affordable price, the company keeps a margin, and the government collects less per stick than it planned. The government can respond by changing the slabs, so this is a move in a continuing game, not a permanent fix.</p>
+</div>
+</section>
+
+<section class="part" id="p5">
+<div class="part-head"><span class="pno">05</span><h2>Price versus volume: how much the smoker will pay</h2></div>
+<p class="part-sub">The reset can be undone, for the makers, only at the till. The question for FY27 and FY28 is how many price rounds the legal market absorbs before smokers trade down, switch, or buy smuggled sticks.</p>
+
+<p>Indian cigarette makers have always had pricing power. Addiction, brand loyalty, an advertising ban that protects incumbents and a market with three meaningful sellers mean that most years they raise prices a little ahead of tax and grow profits faster than volume. The reset tests that power at a scale not seen since the excise ratchet of FY13–FY17. Nomura estimated in February 2026 that the reset raised tax by 40–45% and that makers needed to raise prices by 35–40% to protect profit, against about 30% taken in the first round. By the end of Q1 FY27, our Diversified FMCG report estimates ITC had taken a cumulative 22–23% across its portfolio, with another 12–13% planned over two quarters. The September 2026 round was the next instalment.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>The price ladder since the reset (₹ per pack, maximum retail price; dealer checks)</caption>
+    <thead><tr><th>Brand and pack</th><th class="num">Pre-Feb 2026</th><th class="num">Feb 2026</th><th class="num">May 2026</th><th class="num">Sep 2026</th><th class="num">Cumulative</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">ITC Classic Connect (20s)</td><td class="num">300</td><td class="num">360 → 390</td><td class="num">390</td><td class="num">428</td><td class="num">+42.7%</td></tr>
+      <tr><td class="t-strong">ITC Gold Flake Super Star (10s)</td><td class="num">59</td><td class="num">70</td><td class="num">79</td><td class="num">89</td><td class="num">+50.8%</td></tr>
+      <tr><td>ITC Gold Flake Regular, 69 mm (10s)</td><td class="num">95</td><td class="num">125</td><td class="num">—</td><td class="num">—</td><td class="num">+31.6% (Feb)</td></tr>
+      <tr><td>ITC Gold Flake Deluxe, 64 mm (10s, new)</td><td class="num">—</td><td class="num">94</td><td class="num">—</td><td class="num">—</td><td class="num">Slab-engineered</td></tr>
+      <tr><td class="t-strong">GPI Stellar Shift (per stick)</td><td class="num">~10</td><td class="num">19</td><td class="num">—</td><td class="num">—</td><td class="num">+90%</td></tr>
+      <tr><td class="t-strong">GPI Marlboro Pocket</td><td class="num">70</td><td class="num">—</td><td class="num">85</td><td class="num">—</td><td class="num">+21.4%</td></tr>
+      <tr><td>Smuggled / imported brands (per stick)</td><td class="num">—</td><td class="num">10–15</td><td class="num">—</td><td class="num">—</td><td class="num">Nomura</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="chart">
+  <div class="c-title">Cumulative retail price increases since the reset, selected brands</div>
+  <div class="c-sub">% change in maximum retail price from pre-February 2026 to the latest reported point. Sources: Business Today (16-Sep-2026, NDTV Profit dealer checks); Nomura via Business Today (10-Feb-2026); sahi.com (Marlboro, ~May 2026). Brand-level evidence, not a portfolio average. Scale: full bar = 100%</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">GPI Stellar Shift<small>per stick, Feb</small></div><div class="track"><span class="fill brand" style="width:90%"></span></div><div class="bval">+90%</div></div>
+    <div class="bar-row"><div class="blab">GF Super Star 10s<small>ITC, 3 rounds</small></div><div class="track"><span class="fill wtg" style="width:50.8%"></span></div><div class="bval">+50.8%</div></div>
+    <div class="bar-row"><div class="blab">Classic Connect 20s<small>ITC, 3 rounds</small></div><div class="track"><span class="fill wtg" style="width:42.7%"></span></div><div class="bval">+42.7%</div></div>
+    <div class="bar-row"><div class="blab">GF Regular 10s<small>ITC, Feb</small></div><div class="track"><span class="fill wtg" style="width:31.6%"></span></div><div class="bval">+31.6%</div></div>
+    <div class="bar-row"><div class="blab">ITC portfolio<small>by Q1 FY27, estimate</small></div><div class="track"><span class="fill ink" style="width:22.5%"></span></div><div class="bval">~22–23%</div></div>
+    <div class="bar-row"><div class="blab">Marlboro Pocket<small>GPI, ~May</small></div><div class="track"><span class="fill brand" style="width:21.4%"></span></div><div class="bval">+21.4%</div></div>
+  </div>
+</div>
+
+<p>The two leading makers have described their strategies in almost identical words. ITC's Q1 FY27 presentation speaks of "staggered and agile pricing actions" that mitigate "the risk of significant migration of volumes to illicit trade while protecting consumer franchise". GPI's CEO, Sharad Aggarwal, described "a balanced pricing strategy to ensure that consumer impact is phased and not in one go", and its strategy slide talks of "leveraging pricing and mix optimization to protect margins amid demand moderation following recent tax increases". Neither company holds analyst calls; these presentations, annual reports and AGMs are the only guidance available.</p>
+<p>The logic of phasing is that smokers adapt to a series of small increases more easily than to one large one, and that a gradual path gives enforcement agencies time to act against illicit supply. The cost is profit in the meantime. Q1 FY27 shows it plainly: ITC's cigarette PBIT fell 35.1% to ₹3,341 crore, its lowest quarterly figure in years, because prices had not yet caught up with the tax.</p>
+
+<div class="chart">
+  <div class="c-title">ITC cigarette PBIT by quarter (₹ Cr, standalone)</div>
+  <div class="c-sub">Segment results from ITC's quarterly filings; Q4 FY25 derived as full year less nine months. Q4 FY26 was lifted by trade loading ahead of February price increases and stock that had paid the old duty. Scale: full bar = ₹6,000 Cr</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q3 FY25 (Dec-24)</div><div class="track"><span class="fill wtg" style="width:82.1%"></span></div><div class="bval">4,924</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY25 (Mar-25)</div><div class="track"><span class="fill wtg" style="width:85.3%"></span></div><div class="bval">5,118</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY26 (Jun-25)</div><div class="track"><span class="fill wtg" style="width:85.8%"></span></div><div class="bval">5,145</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY26 (Sep-25)</div><div class="track"><span class="fill wtg" style="width:87.3%"></span></div><div class="bval">5,241</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY26 (Dec-25)</div><div class="track"><span class="fill wtg" style="width:86.3%"></span></div><div class="bval">5,177</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY26 (Mar-26)</div><div class="track"><span class="fill gold" style="width:91.5%"></span></div><div class="bval">5,488</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27 (Jun-26)</div><div class="track"><span class="fill bad" style="width:55.7%"></span></div><div class="bval">3,341</div></div>
+  </div>
+</div>
+
+<h3>What volume has done so far</h3>
+<p>Volume has fallen less than many expected. GPI's domestic volume was 1,866 million sticks a month in Q1 FY27 against 1,903 million a year earlier, down 2%, after a peak of 2,190 million in Q3 FY26. Brokers put ITC's Q1 decline at around 4–5% (reported, not verified for this report). VST does not disclose quarterly volume. Two effects flatter these numbers. Trade loading before the February price increases pulled some demand into Q4 FY26, and phased pricing means the full increase had not yet reached the shelf. Emkay (July 2026) expects legal cigarette volumes to fall "by high single digits" in FY27; CRISIL expects VST's cigarette revenue to be flat in FY27 despite higher taxes, supported by price increases.</p>
+
+<div class="chart">
+  <div class="c-title">Godfrey Phillips domestic volume by quarter (million sticks a month)</div>
+  <div class="c-sub">Company-disclosed run-rate. Q3 FY26 was GPI's highest-ever volume quarter; Q1 FY27 was −2% year on year. Source: GPI Q1 FY27 earnings presentation. Scale: full bar = 2,400</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q1 FY26 (Jun-25)</div><div class="track"><span class="fill brand" style="width:79.3%"></span></div><div class="bval">1,903</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY26 (Sep-25)</div><div class="track"><span class="fill brand" style="width:82.7%"></span></div><div class="bval">1,985</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY26 (Dec-25)</div><div class="track"><span class="fill spec" style="width:91.3%"></span></div><div class="bval">2,190</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY26 (Mar-26)</div><div class="track"><span class="fill brand" style="width:80.3%"></span></div><div class="bval">1,928</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27 (Jun-26)</div><div class="track"><span class="fill wtg" style="width:77.8%"></span></div><div class="bval">1,866</div></div>
+  </div>
+</div>
+
+<p>The implied price elasticity in Q1 FY27 was therefore very low: about −0.1 for GPI (say a ~20% average price rise for −2% volume, estimate) and about −0.2 for ITC (22–23% for −4–5%). Long-run studies of Indian cigarettes suggest −0.3 to −0.5. At −0.3, our Diversified FMCG report's ILLUSTRATIVE calculation shows that a cumulative 35% price rise implies a volume loss of about 10%; the Street's −5% to −6% for FY27 assumes smokers trade down within the makers' own ranges (to shorter, cheaper sticks such as the 64 mm Deluxe) and that enforcement checks illicit trade. The gap between those two numbers is the main uncertainty in every cigarette forecast.</p>
+
+<h3>The FY14–FY17 precedent</h3>
+<p>The last time taxes rose this fast, legal volumes fell for years. Between FY13 and FY17 excise on cigarettes was raised sharply almost every Budget, and the July 2017 GST cess added another step. Industry estimates put legal volume at a peak of about 110 billion sticks in FY12 and roughly 80–85 billion by FY18. Nomura has observed that industry revenues were flat over FY13–FY18, meaning price rises only offset lost volume. ITC's stock went nowhere for about five years and earned a "value trap" label. ITC's FY26 annual report says the stable taxes that followed "enabled the legal cigarette industry to recover volumes lost to illicit trade during the years of high incidence of taxation". That sentence is the industry's own summary of the precedent: high taxes moved volume to illicit trade, and it came back only when taxes stopped rising.</p>
+<p>The difference this time is the size of the step. FY13–FY17 was a series of annual increases of 10–20%; the 2026 reset raised excise per stick about eightfold in one quarter. The precedent suggests the industry can absorb the increase over two to three years if rates then stay stable. It also suggests that another large increase in the February 2027 Budget would reset the clock.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Cigarette makers can usually raise prices without losing many smokers. After the 2026 tax rise they need to raise prices by roughly 35–40% to earn what they did before. They have taken about two-thirds of that so far, in steps, and volumes have fallen by a few per cent. History says the full increase will cost more volume, perhaps 6–10%, and that some of it goes to smuggled cigarettes. If taxes then stay flat for a few years, past experience says volume and profit recover.</p>
+</div>
+</section>
+
+<section class="part" id="p6">
+<div class="part-head"><span class="pno">06</span><h2>The smuggler's margin: illicit trade as the ceiling on price <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">The only competitor that can undercut a legal cigarette by ₹5–10 a stick is one that pays no tax. Measuring it is hard and the best data come from the industry itself, but the arithmetic of the reset favours it.</p>
+
+<p class="lead">Every legal cigarette in India now carries more tax than its maker's whole net revenue. A smuggled or duty-evaded stick carries none. That gap is the illicit trader's margin, and the February 2026 reset made it wider than at any point in the past decade. The industry's own estimate, from the "Tobacco Fact Sheet India 2026" quoted in GPI's FY26 annual report, is that illicit cigarettes make up about 26.1% of India's cigarette market, roughly a third of legal volume, and cost the exchequer about ₹23,000 crore a year. ITC's FY26 report, citing Euromonitor, calls India the world's fourth-largest illicit cigarette market. These are industry-funded or industry-cited estimates; there is no independent post-reset measurement, so every number in this section is indicative.</p>
+
+<div class="chart">
+  <div class="c-title">The Indian cigarette market, legal and illicit (indicative)</div>
+  <div class="c-sub">Billions of sticks a year: legal ~120 bn (CRISIL-implied, FY26) and illicit ~40 bn (industry estimate of ~1/3 of legal volume; 26.1% of the total market). Pre-reset estimates; no post-reset measurement exists</div>
+  <div class="stack-row"><div class="blab">~160 bn sticks</div><div class="stack"><span style="width:74%;background:var(--brand)">Legal ~74%</span><span style="width:26%;background:var(--bad)">Illicit ~26%</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Legal, duty-paid: ~120 bn sticks</span><span><i style="background:var(--bad)"></i>Smuggled and duty-evaded: ~40 bn sticks</span></div>
+</div>
+
+<h3>Why a specific excise favours the smuggler</h3>
+<p>Nomura's channel checks after the reset found smuggled and imported brands retailing at about ₹10–15 a stick, against about ₹19 for a legal king-size slim such as Stellar Shift or Classic Connect. Walk the legal ₹19 stick through the tax (ILLUSTRATIVE, king-size slab): trade ₹1.52; GST on the remaining ₹17.48 is ₹4.99; basic excise ₹5.40 plus about ₹0.50 of NCCD (estimate). The state takes about ₹10.90, or 57% of the price; the maker keeps about ₹6.59 before its costs. A smuggler with landed costs of a few rupees can sell at ₹12.50, more than ₹6 below the legal price, and still keep more per stick than the legal maker does. Before the reset the state's take on the same stick was about half of a lower price, so the undercut available to the smuggler was much smaller.</p>
+
+<div class="chart">
+  <div class="c-title">A legal king-size slim versus a smuggled stick (₹ per stick, ILLUSTRATIVE)</div>
+  <div class="c-sub">Legal stick at ₹19: trade 8%, GST 40% on the ex-trade price, basic excise ₹5.40 + ~₹0.50 NCCD (estimate). Smuggled stick at the ₹12.50 midpoint of Nomura's ₹10–15 range, no tax. Bar widths are shares of ₹19</div>
+  <div class="stack-row"><div class="blab">Legal ₹19.00</div><div class="stack"><span style="width:26.3%;background:var(--om)">GST 4.99</span><span style="width:31.1%;background:var(--bad)">Excise 5.90</span><span style="width:8%;background:var(--ink-faint)"></span><span style="width:34.6%;background:var(--brand)">Maker 6.59</span></div></div>
+  <div class="stack-row"><div class="blab">Smuggled ₹12.50</div><div class="stack"><span style="width:65.8%;background:var(--gold)">Smuggler + trade</span><span style="width:34.2%;background:#EDE8DC"></span></div></div>
+  <div class="legend"><span><i style="background:var(--om)"></i>GST ₹4.99</span><span><i style="background:var(--bad)"></i>Excise + NCCD ₹5.90</span><span><i style="background:var(--ink-faint)"></i>Trade ₹1.52</span><span><i style="background:var(--brand)"></i>Maker net revenue ₹6.59</span><span><i style="background:var(--gold)"></i>Smuggled stick, all margin, ₹12.50 (no tax)</span></div>
+</div>
+
+<p>The design of the new GST makes the gap self-reinforcing. Because GST is now 40% of the retail sale price, each legal price increase raises the tax as well; the smuggler's price rises only as much as he chooses. And because the excise is fixed per stick, the percentage gap is largest at the bottom of each slab's price range, where the marginal smoker sits. At the very bottom of the market, the competition is not the smuggler but the bidi and the chewing-tobacco sachet, which are taxed far more lightly per unit of nicotine.</p>
+<p>The industry's message on this is unanimous and long-standing, and investors should read it as advocacy as well as analysis. GPI's chair wrote that the new tax structure "inadvertently led to growth of illicit tobacco trade". GPI's CEO called illicit trade "a significant concern for the legal industry". VST's chairman wrote that the challenge is "negating the impact of illegal cigarettes where the tax arbitrage has grown substantially". ITC argued that legal cigarettes are only 10% of tobacco consumption in India against about 90% globally.</p>
+
+<h3>What the evidence shows</h3>
+<p>The best external evidence comes from other countries. Australia's repeated tobacco tax increases took its illicit share from under 2% to about 14% between 2012 and 2020 (broker-cited figures). India's own FY13–FY17 episode, described in section 05, moved volume from legal to illicit, and ITC's annual report credits the FY19–FY26 tax stability with bringing it back. What is missing is a measurement of what has happened since February 2026. The industry's 26.1% predates the reset. Seizure data from the Directorate of Revenue Intelligence and Customs would be the earliest independent signal, and monthly excise collections against the Budget estimate the most direct one.</p>
+
+<div class="chart">
+  <div class="c-title">Illicit share of the cigarette market: India and the Australian precedent</div>
+  <div class="c-sub">% of total cigarette consumption. India: industry fact sheet quoted in GPI's AR FY26 (pre-reset). Australia: broker-cited figures (asianews / Indian brokerages), before and after a decade of steep tax increases. Indicative. Scale: full bar = 30%</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">India<small>industry estimate</small></div><div class="track"><span class="fill bad" style="width:87%"></span></div><div class="bval">~26.1%</div></div>
+    <div class="bar-row"><div class="blab">Australia 2020<small>after tax hikes</small></div><div class="track"><span class="fill wtg" style="width:46.7%"></span></div><div class="bval">~14%</div></div>
+    <div class="bar-row"><div class="blab">Australia 2012</div><div class="track"><span class="fill ink" style="width:6.7%"></span></div><div class="bval">&lt;2%</div></div>
+  </div>
+</div>
+
+<h3>The state's counter-measures</h3>
+<p>The government did not raise the tax without also tightening enforcement. A written reply in the Lok Sabha on 28 July 2026 listed measures in force from 1 February 2026. The most important for investors is the move to value GST on the retail sale price, which removes the incentive to under-invoice factory sales. GPI's own contingent liabilities include an ₹82.90 crore demand alleging undervaluation of supplies under GST, a dispute that matters more now that the base has changed. India has not, to our knowledge, ratified the WHO FCTC Protocol on illicit tobacco trade, and no national digital tax-stamp system is in place.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>The anti-evasion toolkit introduced from 1 February 2026 (Lok Sabha reply, 28-Jul-2026, via IANS)</caption>
+    <thead><tr><th>Measure</th><th>What it does</th><th>Who it affects most</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">GST valued on retail sale price (CGST Rule 31D)</td><td>Taxes the printed retail price, not the factory invoice</td><td>Under-invoicing manufacturers; all legal makers pay more as prices rise</td></tr>
+      <tr><td class="t-strong">Capacity-based central excise levy</td><td>Charges specified tobacco products on installed machine capacity</td><td>Small and unorganised factories that under-report output</td></tr>
+      <tr><td class="t-strong">Monthly capacity and production declarations</td><td>Requires factories to report machines and output each month</td><td>Duty-evading local manufacturers</td></tr>
+      <tr><td class="t-strong">Withdrawal of the IGST-refund route on tobacco exports</td><td>Closes a route used to claim refunds on goods diverted to the domestic market</td><td>Fake exporters; may slow working capital for legitimate leaf exporters (our reading)</td></tr>
+      <tr><td class="t-strong">Track-and-trace for evasion-prone goods</td><td>Unique identifiers to follow goods through the chain</td><td>Smuggled and counterfeit product, once implemented</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Smuggled supply comes mostly across land borders and through transhipment: international brands such as Esse, Pine, Mond, Djarum Black and Gudang Garam via Myanmar, Bangladesh and Nepal, and through the UAE, alongside locally made duty-evaded brands (industry and FICCI CASCADE reports, not re-checked for this report). Enforcement against that supply is the swing factor in every forecast. If seizures and excise collections suggest illicit share is rising sharply, the government faces pressure to pause; if legal volumes hold, it faces the temptation to raise rates again.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>A legal premium cigarette now carries more than ₹10 of tax; a smuggled one carries none. That lets smugglers sell for ₹10–15 a stick against ₹19 for the legal brand and still earn more per stick than the legal maker. The industry says about a quarter of India's cigarettes were already illicit before the tax rise. Nobody has measured it since. The government has added new checks on factories and pricing, but the smuggler's margin is the main limit on how high legal prices, and legal taxes, can go.</p>
+</div>
+</section>
+
+<!--CONTINUE-->
+
+</main>
+</div>
+</div>
+</body>
+</html>
