@@ -1387,3 +1387,803 @@ All aggregates are **straight sums of the screener rows above on one basis** (FY
   - investywise (Century Q1 FY27 call)
   - woodandpanel (Action Tesa Vizag)
   - scanx (FY31 target; 403 on fetch)
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-23)
+
+Second, primary-source pass. **Everything in Part 4 overrides Parts 1–3 where they conflict.** The writer should apply §4.0 (Supersedes) first.
+
+**What was read this session (all fetched with a generic User-Agent; no logins):**
+- **Q1 FY27 earnings-call transcripts (filed on BSE)** for all six listed companies, read in full or in long slices.
+- **Q1 FY27 investor presentations (filed on BSE)** for all six.
+- **FY26 annual reports (BSE filings):** Century (443 pp; segment note, contingent liabilities, related parties, auditor's report, capacity and project text), Greenpanel (183 pp) and Greenply (190 pp).
+- **ICRA rationale on Century** (30-Jun-2026).
+- **CRISIL Intelligence methanol report** (Jul-2026), **RBI House Price Index release** (24-Aug-2026), **EGGER annual press release 2026** and the **Arauco 4Q25 press release**.
+- **Trade-press and secondary pages:** Ply Reporter (timber outlook), ANDRITZ newsroom (Action Tesa Vizag), Construction World (Anarock Q3 2026), studycafe (decor-paper ADD).
+- **Screener 10-year and quarterly tables** (23-Oct-2026).
+
+**Document URLs.** BSE links have the form `https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=<id>.pdf` (transcripts, decks) or `https://www.bseindia.com/xml-data/corpfiling/AttachHis/<id>.pdf` (annual reports). The `<id>`s:
+
+| Company | Q1 FY27 transcript | Q1 FY27 deck | FY26 annual report |
+|---|---|---|---|
+| Century | `6b890337-b10f-48f1-985b-27e50c681f33` | `b2b950b7-69c3-444e-8428-3fd6a50b9084` | `8badfe5d-b757-434a-9df0-d5d82ebdd192` |
+| Greenpanel | `fd5082de-5ee8-4d01-9b03-85d30e6497f6` | `cde50f15-c9f3-4072-88cc-4a1c31036071` | `b3a79c59-2ffe-4d57-be1b-e963b1f403fe` |
+| Greenply | `dcdf3466-c10f-43b4-9b2d-fc732ce287eb` | `0d5f704b-1c19-496d-8da9-c822533d45dc` | `b06a460b-d2ac-4858-9f01-f89344a9ec3c` |
+| Greenlam | `d166bd70-f9ef-4b84-a8a9-64d4a6758721` | `7b08fd84-e0e6-4f32-8a20-4add9815c347` | not read |
+| Stylam | `815f3463-cf97-433c-ad20-3736cbabb00f` | `f052090f-7308-4df5-9b30-7c1b495abc44` | not read |
+| Rushil | `ede4c3d1-5bc7-47b0-ab59-c115a92b0a59` | `514f636a-7786-4300-a62a-8e8c5e2bf5b6` | not read |
+
+The Greenlam, Stylam and Rushil FY26 annual reports are also on BSE (`5296e231-144c-4b4d-9c77-1656753e3074`, `99c18553-eb2f-420f-a2c0-4bc17c01f61e`, `87eb35b4-3757-4f5f-9612-271f3a610467`) but were not read; their annual-report findings are a gap (§4.4).
+
+**Short source labels used in Part 4:**
+- **[V T-Q1]** = Q1 FY27 transcript.
+- **[V IP-Q1]** = Q1 FY27 deck.
+- **[V AR26]** = FY26 annual report.
+- **[V ICRA-C]** = ICRA's Century rationale, https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/143989.
+
+**Q2 FY27 status re-checked 23-Oct-2026: still nothing reported.** Board dates are unchanged:
+- Stylam 28-Oct (the earliest).
+- Greenply 29-Oct.
+- Rushil 3-Nov.
+- Century 4-Nov.
+- Greenpanel and Greenlam not announced.
+
+Q1 FY27 (Jun-2026) therefore stays the latest quarter for all six companies.
+
+## 4.0 Supersedes (apply these to Parts 1–3)
+
+| # | Where in Parts 1–3 | Old figure / statement | New figure / statement | Source (this session) |
+|---|---|---|---|---|
+| S1 | §H-6, §2.2, §2.9, 2.0 peer table, 3.2(c), JSON | Greenpanel net debt "~₹156–173 Cr [E]"; BOBCAPS ₹262 Cr in conflict | **Net debt ₹156 Cr at 31-Mar-26 and ₹141 Cr at 30-Jun-26.** Earlier: ₹164 Cr (Mar-25) and ₹233 Cr (Jun-25). Mar-26 build-up: LT FCY (euro) ₹303 Cr + LT INR ₹49 Cr − cash ₹197 Cr. Gross debt ₹353 Cr → ₹317 Cr during Q1. **BOBCAPS's ₹262 Cr is wrong.** | [V IP-Q1 Greenpanel slide 9; V T-Q1 CFO] |
+| S2 | 2.0 peer table, 2.4, 3.2(c), JSON | Greenlam net debt "~₹1,108 Cr (screener basis)" | **Net debt ₹941.2 Cr (Mar-26) and ₹933.7 Cr (Jun-26).** Total debt ₹1,056.4 Cr → ₹1,012.2 Cr; cash and liquid investments ₹115.3 Cr → ₹78.5 Cr. Net debt/equity 0.80× (FY26). | [V IP-Q1 Greenlam slide 27] |
+| S3 | 2.0, 2.3, 3.2(c), JSON | Greenply net debt "~₹460 Cr (upper bound; cash n/a)" | **Net debt ₹461 Cr (Mar-26) and ₹533 Cr (Jun-26).** Gross debt ₹489 Cr → ₹554 Cr. By business (Jun-26): plywood ₹180 Cr, MDF ₹374 Cr. Net D/E 0.52× → 0.57×. | [V IP-Q1 Greenply slide 7] |
+| S4 | 2.0, 2.5, 3.1, JSON, §6 | Stylam Q1 FY27 "2.74 mn sheets (domestic 1.22 / export 1.52) vs 2.81 mn; ~55% export" [V-snip] | **3.17 mn sheets in Q1 FY27 (domestic 1.10 mn / export 2.07 mn = 65% export)**, vs 3.27 mn in Q4 FY26 (1.06 / 2.21). Domestic is ~25% of revenue (management). | [V IP-Q1 Stylam; V T-Q1] |
+| S5 | §0, header table | Century Q1 FY27 "concall 31-Jul" | Results and deck 31-Jul-2026; **concall held Tue 4-Aug-2026**; transcript filed 6-Aug-2026. | [V T-Q1 Century cover letter] |
+| S6 | header table | Q1 FY27 dates for peers "~early Aug" [V-snip] | **Greenply:** deck and call 24-Jul-2026. **Stylam:** deck 23-Jul, call 24-Jul. **Greenpanel:** deck 8-Aug, call ~10/11-Aug. **Greenlam:** call 10-Aug. **Rushil:** call 10-Aug. | [V IP/T-Q1 cover letters] |
+| S7 | §H-15, 2.1, 2.9 | FY31 ₹12,000 Cr target "unverified headline" | **Confirmed as management's standing aspiration ("₹12,000 Cr by 2031")**, discussed on the Q1 FY27 call. ED Keshav Bhajanka said the current asset pool supports ₹7,500–8,000 Cr of revenue; the extra ~₹4,000 Cr needs **~₹2,500 Cr more capex** at a 1.5–2.0× asset turn. | [V T-Q1 Century p.11] |
+| S8 | §H-10, §4.3, 2.1 | PB nameplate "not disclosed [gap]" | **PB capacity 240,000 CBM/yr** (up from 72,000 after the Chennai/Tiruvallur line; Chennai PB plant 1,000 CBM/day). Management says efficiency gains could add <20%. | [V AR26 Century chairman's letter & board report; V ICRA-C "one PB unit 2.4 lakh CBM"; V T-Q1] |
+| S9 | §4.3, 2.1 | Century plywood capacity 394,800 CBM | **396,300 CBM own capacity (end FY26)**, up from 339,600; ICRA: "six plywood units, 4.1 lakh CBM". Hoshiarpur greenfield **60,000 CBM, ₹180 Cr** (not ₹150 Cr), due Q3 FY27. Chennai 8,000 → 10,000 CBM/month (Q2) → 12,500 (Q3 FY27). | [V AR26; V ICRA-C; V T-Q1] |
+| S10 | §4.3, 2.1, JSON `mdf_capacity_cbm` 525,000 | Century MDF "~5.25 lakh → ~6 lakh CBM" | **5.7 lakh CBM (ICRA, two units) → ~627,000 CBM/yr after the Q1 FY27 AP line extension (700 → 950 CBM/day).** FY26 utilisation is therefore 430,713 ÷ ~570k ≈ **76%**, not 82%. | [V ICRA-C; V AR26 MDF CEO interview; V T-Q1] |
+| S11 | §4.3, 2.0, 2.3, 4.3 table | Greenply Vadodara "~1,000 CBM/day (~330,000/yr [E]) + 650 CBM/day (H1 CY27)" | **Line 1: 300,000 CBM/yr** (1,000 CBM/day after a ContiRoll extension of +200 CBM/day). **Line 2: 210,000 CBM/yr (WIP).** The AR says "+600–700 CBM/day". MDF Core EBITDA **17.3%** in Q1 FY27. | [V IP-Q1 Greenply slide 24; V AR26 Greenply board report] |
+| S12 | §4.3, §H-4, 2.6, 2.9 | Rushil MDF "~330,000 (incl. laminates) / new AP ~240,000; conflicting" | **MDF 330,000 CBM/yr in total (two plants: Chikmagalur + Visakhapatnam).** Laminates 6,292,000 sheets/yr (incl. 2,800,000 jumbo); PVC 5,400 t. Q1 FY27 MDF utilisation 66%. | [V IP-Q1 Rushil slide 2/6] |
+| S13 | §H-8, §4.2, B3 | Century segment capital employed "premium-gated [gap]" | **Filled from AR note 43.** FY26 segment assets − segment liabilities: plywood ₹1,055 Cr, laminates ₹499 Cr, **MDF ₹1,526 Cr**, PB ₹700 Cr, CFS ₹187 Cr, others ₹151 Cr. Pre-tax segment return: **plywood 40.6%**, laminates 8.5%, **MDF 6.8%**, **PB −4.6%**, CFS 6.6% (table §4.2.1). | [V AR26 Century consolidated note 43] |
+| S14 | §H-14, 2.9, §5.3 | Nepal "Century Ply Industries Pvt. Ltd." relationship "unknown" | **Not a subsidiary and not a disclosed related party** of Century Plyboards in the FY26 AR. Subsidiaries listed: India ×17, Century Gabon SUARL, Century Panels B.V. (Netherlands); no Nepal entity. The only Nepal reference is the Kolkata port's hinterland trade. **Writer: do not link the two; FIPPI's Nepal-licence-misuse allegation does not touch Century on the filed record.** | [V AR26 Century notes 39, 44A] |
+| S15 | 3.3 (founding), 3.4 | Primer "1986 established" vs screener "Jan-1982" | **Incorporated 5-Jan-1982** | [V ICRA-C "About the company"] |
+| S16 | 2.1 "Brands and channel" | Dealer/retailer counts "premium-gated [gap]" | **>4,100 dealers and ~19,000 retailers** | [V ICRA-C] |
+| S17 | 2.1, 2.9 (debt basis) | "Screener ₹1,765 Cr likely includes leases/buyers' credit [E]" | **Confirmed.** ICRA's total debt is **₹1,764.9 Cr (Mar-26) vs ₹1,586.3 Cr (Mar-25)**, i.e. the deck's ₹1,531 Cr plus lease liabilities (₹134.8 Cr, AR note 35) plus raw-material buyers' credit (~₹99 Cr). ICRA's cash and liquid investments are **₹30.2 Cr**, vs ₹59.0 Cr in the deck. **Total debt/OPBDITA 2.6× (FY26)** on ICRA's basis. | [V ICRA-C; V AR26] |
+| S18 | 2.1, §0 | UP plywood plant "Q1 FY28" | **April-2028, i.e. Q1 FY29**, only if land is acquired by end-2026. UP MDF lags the plywood unit. Odisha is still at the land-talks stage. | [V T-Q1 Century p.8 & p.14] |
+| S19 | 2.1 "capex", §0 | UP project details absent | **UP: ~₹1,130 Cr in total.** MDF 330,000 CBM (₹800 Cr) + plywood 60,000 CBM (₹200 Cr) + 30,000 CBM phase II (₹130 Cr), spread over ~2.5 years from land. **Odisha:** plywood 60,000 + 60,000 CBM (₹230 Cr + ₹140 Cr) + PB/MDF 240,000 CBM (~₹500 Cr). **FY27 capex ₹400–420 Cr** per ICRA. Management on the call: "no large capex"; the cash surplus goes to debt repayment. | [V AR26 Century board report; V ICRA-C; V T-Q1] |
+| S20 | §0, 2.1 (plywood share) | "~29% of organised" [screener] | **30–32% of the organised segment** (ICRA); **9.5–10% of the total market** (ED Nikita Bansal, Q1 call), with a 15% goal in 5 years, i.e. 12–15% a year against industry growth of 5–7%. | [V ICRA-C; V T-Q1] |
+| S21 | 2.2, §0, §4.3, B2 | Greenpanel "~21% market share (ICRA)" vs "volume ~16.5% [E]" | **Greenpanel's own AR says 891,000 CBM is "nearly 21% of India's installed MDF capacity" (31-Mar-26)**, i.e. a capacity basis. The same AR gives industry capacity of **4.0–4.5 mn CBM**. Volume share stays ~16.5% [E]. An analyst on the Greenpanel call said **Century out-sold Greenpanel in domestic MDF in each of the last two quarters**; management did not dispute it. | [V AR26 Greenpanel; V T-Q1 Greenpanel] |
+| S22 | 2.2, 2.0 peer table | Greenpanel FY26 "OP ₹80 Cr (5.2%)" only | Add the **company basis: operating EBITDA (ex-forex) ₹132.7 Cr (FY25 ₹148.2 Cr)** on product revenue of ₹1,502.2 Cr (~8.8%). PBT −₹43.8 Cr; PAT −₹29.1 Cr. MDF operating EBITDA 9.3%; plywood 3.8%. Screener's ₹80 Cr OP sits below this because the euro-loan forex loss (~₹49 Cr per ICRA) runs through other expenses. **Use ₹133 Cr for EV/EBITDA: ~13.3× on EV ≈ ₹1,760 Cr (m-cap 1,605 + ND 156)**, not ~22×. | [V AR26 Greenpanel MD&A] |
+| S23 | 2.2 KPIs | Greenpanel utilisation 56% FY26 | 56% FY26 average **(60% reached in Q4 FY26)**, then **51% in Q1 FY27** (113,394 CBM produced; zero exports). | [V AR26; V IP-Q1] |
+| S24 | 2.3 story | "Greenply runs ~9% blended margin vs Century's 15% plywood" | Q1 FY27 split: **Greenply plywood 8.4% Core EBITDA vs Century plywood 16.9%**, but **Greenply MDF 17.3% vs Century MDF 7.0%**. Greenply's 300k-CBM Vadodara line runs at near-full utilisation with 22% pre-lam mix. "Century wins MDF" is wrong on margin; Century wins on volume. | [V IP-Q1 Greenply & Century] |
+| S25 | 2.3 KPIs | Greenply own-mfg "68% of volume / 73% of value (Q1 FY27)" | Confirmed. The trend is **58% → 65% → 68% (volume)** and **66% → 70% → 73% (value)** over Q1 FY26 → Q4 FY26 → Q1 FY27. Own plywood capacity 66.3 mn sqm incl. Odisha (13.5 mn sqm, WIP). | [V IP-Q1 Greenply slides 15, 24] |
+| S26 | 2.4 KPIs | Greenlam "Q1 laminate growth 7%; ₹27 Cr exports postponed; FY27 target 10–12%" [V-snip] | **Confirmed.** Laminate revenue ₹596.1 Cr (+7.4%); sheets 4.62 mn (−6.4%); ₹1,240/sheet (+13.6%); capacity 24.52 mn sheets at 80% utilisation; EBITDA ex-fx 13.9%; **FY27 laminate revenue growth 10–12% reiterated**; two new press lines by Q4 FY27; FY27 capex ₹125–135 Cr. | [V IP-Q1; V T-Q1 Greenlam] |
+| S27 | §10 global lens | Kronospan "~€5–6 bn [K]"; Sonae Arauco "~€1.2–1.5 bn [K]" | **Delete both figures.** Neither was found in a fetchable primary source (Kronospan is private and does not publish group accounts online; Sonae Arauco's JV accounts were not reached). Keep qualitative descriptions only. | searches this session, no primary hit |
+| S28 | §10 | EGGER "~€4 bn (FY24/25) [K]" | **FY2025/26 (to 30-Apr-26): revenue €4.26 bn (+3.4%); EBITDA €541.8 m (12.7% margin vs 13.1%); equity ratio 41.6%; investment €450.1 m; ~12,000 employees.** FY24/25 revenue €4.13 bn [V-snip]. | [V https://www.egger.com/en/news/annual-press-conference-2026] |
+| S29 | §10 | Arauco "panels ~US$2–3 bn of ~US$6 bn [K]" | **2025 revenue US$6,084.1 m (−7.1%); adjusted EBITDA US$1,331.4 m (−33.9%).** Wood-products revenue Q4 2025 US$739.4 m (Q3 US$771.4 m), so ~US$3.0 bn annualised; Q4 wood-products adj. EBITDA US$121.6 m (16.4%). | [V https://arauco.com/mo/wp-content/uploads/2026/02/2025.12-Press-Release-ARAUCO-VF-1.pdf] |
+| S30 | §10 | Dexco "~R$8 bn [K]" | **2025 recurring net revenue R$8,249 m (+0.2%).** Pro-forma adjusted recurring EBITDA R$2.47 bn; Wood division record EBITDA ~R$1.55 bn; Q4 Wood margin 28.8%. Brazilian wood-panel margins of ~29% dwarf India's MDF 7–17%. | [V-snip Dexco 4Q25 release on api.mziq.com via search summary] |
+| S31 | §7.2, §H-13 | "No current ADD on MDF/laminates/decor paper found" | **Decor paper (HS 4805 9100 / 4802 2090) from China does carry ADD.** It was imposed by Notf. 77/2021-Cus (ADD) of 27-Dec-2021 and revised by Notf. 19/2025-Cus (ADD) of 24-Jun-2025 after a mid-term review: **$110/t** (Shandong Boxing Ouhua, Zibo OUMU), **$297/t** (Hangzhou Huawang), **$542/t** all others. A sunset review was initiated on 23-Jun-2026 (case AD(SSR)-09/2026; applicant ITC), and the duty is reported **extended to 26-Mar-2027**. Thin plain MDF (<6 mm, from VN/MY/TH/ID): DGTR recommended ADD in 2021, but **MoF did not impose it**. No ADD on plywood or laminates was found. | [V-snip studycafe.in (notification text); V-snip newkerala; V-snip antidumping.vn] |
+| S32 | §4.1 resins, §H-2 | "+40–45% chemicals [V BOBCAPS]"; melamine "+24% QoQ [weak]" | **Methanol (UF/MUF feedstock):** CRISIL reports CFR India **+130% / +141% YoY in Apr / May-2026**, domestic price **₹73,950/t in May-26 (+~182% YoY)**, and a **Q1 FY27 CFR average of US$569/t (+114% YoY)**, easing in June. CRISIL's FY27 average outlook is **US$380–420/t**. **Formaldehyde is 46% of Indian methanol demand.** Greenpanel (Aug-26): chemicals still **+4–5% above pre-war**. Greenlam: chemicals are ~⅓ of its raw materials. | [V https://intelligence.crisil.com/content/dam/crisil-intelligence/what-we-think/reports/2026/07/methanol-move-away.pdf; V T-Q1 Greenpanel/Greenlam] |
+| S33 | §4.1 timber, §H-1 | Timber ₹/t "unsourced" | **Peelable plantation timber ~₹9–11/kg (₹9,000–11,000/t)**, North and South, expected flat through 2026. **Composite-board eucalyptus ~₹4.5–6/kg (₹4,500–6,000/t).** Greenpanel saved **6–7% on timber + efficiency** in Q1 FY27 by shifting to mixed wood. Greenply assumes stable timber. | [V-trade Ply Reporter 1-Mar-2026, https://plyreporter.com/article/154331/current-issue; V T-Q1 Greenpanel/Greenply] |
+| S34 | §0, B2 (MDF price rollback) | "~15% MDF hike almost all rolled back" (Greenpanel, Century) | Still true for **Greenpanel** (1–2% retained in select markets) and **Century** ("large part rolled back"). **But Rushil says its 15% MDF hike is sustained with no extra discounts**, and Greenply plans to "pull back MDF schemes". The rollback is not uniform; Rushil's realisation +16.4% YoY to ₹27,781/CBM is consistent with its claim. | [V T-Q1 Rushil/Greenpanel/Century/Greenply] |
+| S35 | 2.1 cash flow | CFO FY26 ₹457 Cr [V screener] | Confirmed **₹457.0 Cr consolidated** (AR cash-flow statement), against −₹2.7 Cr in FY25; PP&E purchases ₹411.8 Cr. The MD&A's "₹558.12 Cr" is a different (pre-tax/standalone-type) measure; do not use it. | [V AR26 Century consolidated CF] |
+| S36 | §5.2/§2.6 Stylam story | "Panchkula plant 60,000 TPA [V-snip]"; plant-3 timing conflicts | Plant 3 (Manak Tabra) was delayed by a since-resolved **promoter "family problem"**. Commercial production targeted ~1-Sep; screener dates it **22-Sep-2026**. Management sees **₹250–300 Cr of revenue in FY27** from it and **~30% exit utilisation**. **Aica Kogyo (Japan) is now the strategic controlling partner** after its open offer. A new, domestic-focused, non-laminate capex will be announced after the plant starts. | [V T-Q1 Stylam] |
+
+## 4.1 Verification table (40 headline figures)
+
+Key to "Fetched?":
+- **V** = read this session in the primary document named.
+- **V-sec** = read this session in a secondary or trade source.
+- **V-snip** = search-summary only.
+
+"Agrees?" compares against Parts 1–3.
+
+| # | Figure | Value | Primary source (URL / doc) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Century FY26 consolidated revenue | ₹5,397.2 Cr (+19.2%) | AR26 note 43 total revenue ₹5,40,470 lakh gross / ICRA-C operating income ₹5,397.2 Cr | V | Yes |
+| 2 | Century FY26 PAT | ₹268.3 Cr | AR26 note 43 (₹26,833 lakh); ICRA-C | V | Yes |
+| 3 | Century FY26 operating margin | 12.8% (ICRA OPBDIT/OI); 13.0% company ex-forex | ICRA-C key financials; IP-Q1 | V | Yes (basis note) |
+| 4 | Century total debt, Mar-26 | ₹1,764.9 Cr (ICRA) vs ₹1,531 Cr (deck, excl. leases/RM buyers' credit) | ICRA-C; IP-Q1 | V | Explains Part 2 conflict (S17) |
+| 5 | Century cash & liquid investments, Mar-26 | ₹30.2 Cr (ICRA) vs ₹59.0 Cr (deck) | ICRA-C; IP-Q1 | V | New conflict; ICRA basis is narrower |
+| 6 | Century consolidated CFO FY26 | ₹457.0 Cr (FY25 −₹2.7 Cr) | AR26 consolidated cash-flow statement | V | Yes |
+| 7 | Century PP&E purchases FY26 | ₹411.8 Cr; segment capex ₹406.3 Cr (plywood ₹286.7 Cr, PB ₹69.5 Cr) | AR26 CF & note 43 | V | Refines "FY26 capex ₹340.7 Cr" (deck project table = project spend only) |
+| 8 | Century plywood segment capital employed / pre-tax return | ₹1,055 Cr / 40.6% | AR26 note 43 (assets ₹1,36,699 lakh − liabilities ₹31,194 lakh; result ₹42,824 lakh) | V (derived) | New (fills §H-8) |
+| 9 | Century MDF segment capital employed / return | ₹1,526 Cr / 6.8% | AR26 note 43 | V (derived) | New |
+| 10 | Century PB segment result FY26 | −₹32.2 Cr on ₹700 Cr capital employed | AR26 note 43 | V | Consistent with PB EBIT −8.2% (deck) |
+| 11 | Century plywood volume FY26 | 485,403 CBM (+16.5%); ₹55,878/CBM | IP-Q1 plywood volume slide | V | Yes |
+| 12 | Century plywood Q1 FY27 | 136,995 CBM (+28.8%); ₹59,179/CBM; EBITDA 16.9% | IP-Q1; T-Q1 | V | Yes |
+| 13 | Century own plywood capacity | 396,300 CBM (end FY26); "6 units, 4.1 lakh CBM" | AR26 chairman's letter; ICRA-C | V | Supersedes 394,800 (S9) |
+| 14 | Century PB capacity | 240,000 CBM/yr | AR26; ICRA-C | V | Fills gap (S8) |
+| 15 | Century MDF capacity | 5.7 lakh CBM → ~627,000 CBM after Q1 FY27 | ICRA-C; AR26 MDF CEO interview | V | Supersedes 525k (S10) |
+| 16 | Century plywood market share | 9.5–10% of total (FY26); 30–32% of organised | T-Q1 (N. Bansal); ICRA-C | V | Refines "29% organised" (S20) |
+| 17 | Century FY31 aspiration | ₹12,000 Cr revenue; current assets support ₹7,500–8,000 Cr; ~₹2,500 Cr more capex | T-Q1 p.11 | V | Verifies §H-15 (S7) |
+| 18 | Century UP greenfield | ~₹1,130 Cr (MDF 330k CBM ₹800 Cr; plywood 60k + 30k CBM ₹330 Cr) | AR26 board report / MD&A | V | New (S19) |
+| 19 | Century exports FY26 | ₹217.6 Cr (+24.3%), 34 countries, ~4% of revenue; consolidated overseas sales ₹153.6 Cr | AR26 exports section & note 43C | V | New (partly fills §H-11) |
+| 20 | Century contingent liabilities (consolidated) | ₹91.9 Cr (FY25 ₹49.3 Cr): income tax ₹32.2 Cr, mandi tax ₹39.6 Cr, GST ₹9.2 Cr, excise/ST ₹10.5 Cr | AR26 note 34 | V | New |
+| 21 | Century distribution | >4,100 dealers, ~19,000 retailers | ICRA-C | V | Fills gap (S16) |
+| 22 | Century incorporation | 5-Jan-1982 | ICRA-C | V | Resolves primer conflict (S15) |
+| 23 | Greenpanel net debt | ₹156 Cr (Mar-26); ₹141 Cr (Jun-26) | Greenpanel IP-Q1 slide 9 | V | Supersedes (S1) |
+| 24 | Greenpanel MDF capacity and share | 891,000 CBM = "nearly 21%" of installed Indian MDF capacity | Greenpanel AR26 corporate overview | V | Yes; basis = capacity (S21) |
+| 25 | Indian MDF industry capacity | 4.0–4.5 mn CBM/yr | Greenpanel AR26 MD&A | V | Yes (now primary) |
+| 26 | Greenpanel Q1 FY27 MDF | Utilisation 51%; EBITDA 10.3%; ₹31,758/CBM; exports nil | Greenpanel IP-Q1 slide 7 | V | Yes; adds utilisation |
+| 27 | Greenpanel FY26 operating EBITDA (ex-forex) | ₹132.7 Cr (FY25 ₹148.2 Cr) | Greenpanel AR26 MD&A | V | New basis (S22) |
+| 28 | Greenply net debt | ₹461 Cr (Mar-26); ₹533 Cr (Jun-26) | Greenply IP-Q1 slide 7 | V | Supersedes (S3) |
+| 29 | Greenply MDF | 300,000 CBM + 210,000 WIP; Q1 FY27 57,805 CBM, ₹33,525/CBM, Core EBITDA 17.3% | Greenply IP-Q1 slides 9, 24 | V | Supersedes (S11) |
+| 30 | Greenply plywood own-manufacturing share | 68% of volume / 73% of value (Q1 FY27) | Greenply IP-Q1 slide 15 | V | Yes |
+| 31 | Greenlam net debt | ₹941.2 Cr (Mar-26); ₹933.7 Cr (Jun-26) | Greenlam IP-Q1 slide 27 | V | Supersedes (S2) |
+| 32 | Greenlam laminates Q1 FY27 | Capacity 24.52 mn sheets; sales 4.62 mn; ₹1,240/sheet; EBITDA 13.9% | Greenlam IP-Q1 slides 20–21 | V | New detail |
+| 33 | Stylam Q1 FY27 sheets | 3.17 mn (domestic 1.10 / export 2.07) | Stylam IP-Q1 | V | Supersedes 2.74 mn (S4) |
+| 34 | Stylam FY27 growth guidance | 25–30% revenue growth (conservative); margin 19–20%+; plant-3 revenue ₹250–300 Cr | Stylam T-Q1 | V | New |
+| 35 | Rushil MDF capacity / Q1 FY27 utilisation | 330,000 CBM / 66% | Rushil IP-Q1 | V | Resolves conflict (S12) |
+| 36 | MDF price-hike rollback | Greenpanel: "almost all rolled back" (15% list, 7–8% effective); Century: "large part rolled back"; Rushil: 15% "sustained" | T-Q1 Greenpanel, Century, Rushil | V | Partly conflicts (S34) |
+| 37 | Methanol price shock | Domestic ₹73,950/t May-26 (+~182% YoY); CFR Q1 FY27 avg US$569/t (+114%); FY27E US$380–420/t | CRISIL Intelligence Jul-2026 (URL in S32) | V | Replaces aggregator figure (S32) |
+| 38 | Plantation timber price | Peelable ₹9–11/kg; composite eucalyptus ₹4.5–6/kg (2026, flat) | Ply Reporter 1-Mar-2026 (URL in S33) | V-sec (trade press) | Fills §H-1 partly |
+| 39 | RBI all-India HPI | +3.6% YoY in Q1 FY27 (index 117.5; +1.1% QoQ; base 2022-23; 18 cities) | https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63436 (24-Aug-2026) | V | New |
+| 40 | Anarock top-7 housing, Q3 CY2026 | Sales 100,220 units (+3%), ₹1.55 lakh Cr; launches ~114,320 (+18%); unsold ~630,590 (+12%); avg price ₹9,714/sq ft (+7%). PropEquity: −6% to ~103,000 | Construction World 30-Sep-2026 (https://www.constructionworld.in/latest-construction-news/real-estate-news/housing-sales-in-top-seven-cities-rise-3-to-100000-units/97936); launches/unsold V-snip | V-sec | Yes (Part 1 had snippets only) |
+
+**Count:**
+- **35 of 40 are [V] from primary documents** (company decks, transcripts and annual reports, ICRA, CRISIL, RBI).
+- Rows 38 and 40 are V-sec.
+- Rows 4–5 are V but reveal basis conflicts.
+- Three supporting global/policy numbers sit outside the 40 (EGGER, Arauco V; decor-paper ADD V-snip).
+
+**Credibility rules where sources conflict:**
+- **Debt:** ICRA's total debt includes leases and buyers' credit. The company deck excludes them. Use the deck for "bank debt" and ICRA/screener for "total debt"; never call either "net".
+- **Market share:** ICRA's 30–32% (organised) and management's 9.5–10% (total) are both right on their own basis. The total-market figure is the one that carries the growth argument.
+- **MDF capacity:** ICRA's 5.7 lakh CBM is the pre-extension rated base; the AR's ~627k is post-Q1 FY27. Use 627k for FY27 utilisation maths.
+
+## 4.2 Company deep-dives
+
+### 4.2.1 Century Plyboards (member) — CENTURYPLY · 532548
+
+**Management-guidance digest, Q1 FY27 call (4-Aug-2026)** [V T-Q1]
+
+Speakers: MD/CEO Sanjay Agarwal, EDs Keshav Bhajanka and Nikita Bansal, CFO Arun Julasaria, CEO MDF/PB Sumant Wattas, CEO laminates Vishu Goel. Paraphrased below.
+
+- **No formal FY27 guidance, by choice.** The situation is too volatile ("one week war, one week peace"). Management says any Q1 guidance "would have been over-achieved", and it will resume guidance when things stabilise. Directional aims:
+  - Keep the recent growth trajectory.
+  - Better margins quarter on quarter.
+  - MDF "towards 15%+" margin.
+  - **PB ~15% margin "towards next year"**.
+  - MDF and PB both towards a **20% ROCE** hurdle over time.
+- **Plywood:**
+  - Volume +28.8%. Management credits two things: dealers stocking ahead of the April price increase of ~7%, and a strong June.
+  - Industry growth is put at **5–7%**.
+  - Share was **9.5–10% of the total market** at end-FY26; the goal is **15% in 5 years**, which needs **12–15% growth a year**.
+  - Channel inventory at June-end was "okay"; July was a high-sales month.
+- **Capacity:**
+  - Hoshiarpur plywood greenfield of **60,000 CBM/yr** due Q3 FY27.
+  - Chennai 8,000 → 10,000 CBM/month (Q2) → **12,500 (Q3 FY27)**.
+  - AP MDF extended **700 → 950 CBM/day** during a planned Q1 shutdown, which cut Q1 MDF output.
+  - New (third) laminate press commissioned end-July for export-grade output, at ~₹25 Cr. The first two presses cost ~₹200 Cr.
+- **Capex and balance sheet:**
+  - "No large capex planned." The next plywood unit (UP) is ~₹200 Cr; land is to be in hand by end-2026, with go-live April-2028 (Q1 FY29). UP MDF follows with a lag; Odisha land is not yet chosen.
+  - Surplus cash goes to debt repayment.
+  - **Target: long-term debt ≤ 1× EBITDA.** Working-capital debt rises with 30% growth.
+- **FY31 aspiration of ₹12,000 Cr revenue:**
+  - The current asset pool supports **₹7,500–8,000 Cr**.
+  - The extra ₹4,000 Cr needs **~₹2,500 Cr more capex** at a 1.5–2.0× asset turn, to be planned as utilisation nears full.
+- **Pricing:**
+  - April hikes: plywood ~7%, laminates ~10% domestic (lower for export), **MDF ~15%, of which a large part was rolled back**.
+  - Versus pre-war levels, prices are still higher "across most segments".
+- **Brand spend:** **4–4.5% of revenue** (advertising, schemes, everything).
+  - "Total Cover" (10-year furniture-cost guarantee on Club Prime and Architect plywood) was run informally for ~2 years before launch.
+  - Claim ratio **0.06%**.
+  - New campaigns with Rahul Dravid (HDF) and Aamir Khan (Club Prime).
+- **Laminates:**
+  - Q1 volume fell because of size and thickness mix (large formats).
+  - Domestic growth will come from thin laminates; export growth from compacts.
+- **MDF mix:** pre-lam ~20,000 of ~1 lakh CBM in Q1. Value-added share is not disclosed; an analyst guess of 40–45% was neither confirmed nor denied.
+- **Logistics:**
+  - Only **half of phase 1** of the Khidderpore port terminal is operating; **9,000+ containers were handled in July**.
+  - CFS growth expected in double digits.
+  - A strategic partner is possible "at a valuation beneficial to Century" (non-core).
+- **ROE/ROCE:** ROE 13.1% → 13.5%; **ROCE 13.4% → 14.4%** (annualised Q1).
+
+**Concall/deck KPI table (Century, consolidated)** [V IP-Q1; V T-Q1]
+
+| KPI | FY25 | FY26 | Q1 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|
+| Plywood volume (CBM) | 416,476 | 485,403 | 106,398 | 133,619 | **136,995** |
+| Plywood realisation (₹/CBM) | 55,212 | 55,878 | 56,491 | 55,662 | **59,179** |
+| Plywood EBITDA ex-fx | 13.1% | 15.2% | 14.5% | 16.1% | **16.9%** |
+| MDF volume (CBM) | 350,474 | 430,713 | 84,099 | 121,714 | 102,951 |
+| of which pre-lam (CBM) | 67,975 | 77,657 | 16,569 | 19,743 | 19,873 |
+| MDF EBITDA ex-fx | 10.1% | 12.7% | 14.3% | 11.3% | **7.0%** |
+| PB volume (CBM) | 70,074 | 107,500 | 16,302 | 36,182 | **41,680** |
+| PB EBITDA ex-fx | 8.0% | 1.2% | −2.8% | 7.2% | 3.7% |
+| Laminate sheets (lakh) | 74.4 | 72.5 | 18.37 | 18.65 | 16.83 |
+| Laminate EBITDA ex-fx | 5.2% | 8.5% | 5.9% | 10.3% | 10.2% |
+| Own plywood capacity (CBM) | 339,600 | 396,300 | 382,800 | 396,300 | ~396,300 + Chennai ramp |
+| MDF capacity (CBM/yr) | ~5.7 lakh | ~5.7 lakh | — | — | **~627,000** |
+| PB capacity (CBM/yr) | 72,000 → 240,000 | 240,000 | — | — | 240,000 (Q1 utilisation ~69% annualised [E]) |
+| Implied plywood outsourcing (sales − own capacity, ÷ sales) | ≥18% | **≥18–20% (at 100% own utilisation); ~25–28% at 90%** [E] | — | — | ≥~28% (136,995 vs ~99k quarterly own capacity) [E] |
+
+- FY25 laminate sheets: derived from the FY26 −2.5% YoY.
+- Outsourcing remains an estimate. The FY26 AR does not disclose plywood production quantities. The figures are a floor, not a measured share.
+
+**5-year history (screener consolidated, ₹ Cr)** [V screener 23-Oct-26]
+
+| FY | Sales | OP | OPM | PAT | ROCE (screener) | Company ROACE (deck) |
+|---|---|---|---|---|---|---|
+| FY22 | 3,027 | 532 | 18% | 313 | 30% | — |
+| FY23 | 3,647 | 583 | 16% | 384 | 27% | 30.9% |
+| FY24 | 3,886 | 521 | 13% | 325 | 18% | 20.8% |
+| FY25 | 4,528 | 487 | 11% | 186 | 10% | 12.3% |
+| FY26 | 5,397 | 651 | 12% | 268 | 11% | 13.4% |
+
+**8-quarter trend (screener consolidated, ₹ Cr)** [V]
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 1,184 | 111 | 9% | 40 |
+| Q3 FY25 (Dec-24) | 1,140 | 130 | 11% | 59 |
+| Q4 FY25 (Mar-25) | 1,198 | 135 | 11% | 53 |
+| Q1 FY26 (Jun-25) | 1,169 | 128 | 11% | 53 |
+| Q2 FY26 (Sep-25) | 1,386 | 175 | 13% | 71 |
+| Q3 FY26 (Dec-25) | 1,350 | 170 | 13% | 65 |
+| Q4 FY26 (Mar-26) | 1,492 | 177 | 12% | 79 |
+| **Q1 FY27 (Jun-26)** | **1,561** | **198** | **13%** | **83** |
+
+**FY26 annual-report findings** [V AR26 Century, BSE AttachHis/8badfe5d-…]
+
+*Segment note 43 (consolidated):*
+- Six reportable segments: Plywood, Laminate, MDF, Particle Board, Container Freight Station Services, and Others ("mainly trading of chemicals and new-age panel products").
+- **Revenue is recognised at a point in time.**
+
+| FY26, ₹ Cr | Plywood | Laminate | MDF | PB | CFS | Others | Total |
+|---|---|---|---|---|---|---|---|
+| External revenue | 2,915.2 | 743.4 | 1,284.5 | 200.4 | 164.6 | 89.1 | 5,397.2 |
+| Segment result (EBIT) | **428.2** | 42.5 | 103.9 | **−32.2** | 12.4 | 12.0 | 567.0 |
+| Segment assets | 1,367.0 | 657.4 | 1,602.6 | 726.7 | 360.5 | 182.2 | 4,896.4 |
+| Segment liabilities | 311.9 | 158.5 | 76.5 | 26.5 | 173.1 | 31.0 | 777.6 |
+| **Capital employed (A − L)** | **1,055.1** | **498.9** | **1,526.1** | **700.2** | **187.4** | **151.2** | **4,118.8** |
+| **Pre-tax segment return on CE** | **40.6%** | 8.5% | **6.8%** | **−4.6%** | 6.6% | 8.0% | 13.8% |
+| CE per ₹100 of revenue | 36 | 67 | **119** | **349** | 114 | 170 | 76 |
+| Capex FY26 | 286.7 | 19.0 | 9.3 | 69.5 | 21.7 | 0.1 | 406.3 |
+| D&A FY26 | 42.0 | 16.1 | 75.3 | 33.8 | 9.5 | 0.7 | 177.4 (+4.7 unallocated) |
+| FY25 result / CE / return | 338.3 / 1,011 / 33.4% | 9.0 / 447 / 2.0% | 45.1 / 1,544 / 2.9% | 7.7 / 590 / 1.3% | 16.7 / 103 / 16.3% | −0.8 | 416.0 |
+
+- Unallocable expenses net of income were ₹96.1 Cr (FY25 ₹69.6 Cr).
+- Reading:
+  - **Plywood is 26% of segment capital but 76% of segment EBIT.**
+  - **MDF + PB are 54% of capital and earn 13% of segment EBIT.**
+  - The §4.2 archetype (plywood ~35–45 of CE per ₹100 of sales, MDF ~120–160) is now confirmed from the filing.
+- Geography: overseas sales ₹153.6 Cr (2.8% of external revenue; FY25 ₹175.0 Cr); overseas segment assets ₹51.6 Cr.
+
+*Other annual-report findings:*
+- **Auditor: S.R. Batliboi & Co. LLP (EY network).** Unmodified opinion. The only key audit matter is revenue recognition cut-off (standalone and consolidated). No emphasis of matter was seen in the sections read.
+- **Contingent liabilities (consolidated) roughly doubled** to **₹91.9 Cr** (FY25 ₹49.3 Cr):
+  - **Income tax ₹32.2 Cr (from ₹0.2 Cr)**
+  - Mandi tax ₹39.6 Cr
+  - Excise/service tax ₹10.5 Cr
+  - GST ₹9.2 Cr (from ₹0.2 Cr)
+  - Plus bank guarantees ₹38.8 Cr, letters of credit ₹78.7 Cr and capital commitments ₹129.7 Cr (FY25 ₹88.3 Cr).
+- **Related parties: immaterial.**
+  - Services provided to Star Cement (a promoter-group company) of ₹1.3 Cr (FY25 ₹6.0 Cr).
+  - Services availed from a director's relative ₹0.14 Cr.
+  - CSR donation to Century Charitable Trust ₹0.13 Cr.
+  - Standalone royalty income from subsidiaries ₹1.46 Cr.
+  - **No royalty is paid to promoters.**
+- **Subsidiaries:** 17 Indian (incl. Century Panels — AP MDF/laminate/PVC; Century Infra and Century Ports — logistics; Auro Sundram 51%; four 80% property SPVs), **Century Gabon SUARL** (veneer, peels 200 CBM of timber/day) and **Century Panels B.V. (Netherlands)** (a new European stock-and-sale subsidiary). **No Nepal or Myanmar entity.**
+- **Leases:** lease liabilities ₹134.8 Cr (FY25 ₹112.6 Cr). These are part of the gap between ICRA's/screener's debt and the deck's.
+- **Exports:** ₹217.6 Cr (+24.3%), 34 countries, ~4% of revenue (BRR standalone: 2.86% of turnover; standalone FOB exports ₹129.2 Cr vs ₹146.7 Cr).
+  - Export incentives (standalone) ₹7.0 Cr (FY25 ₹8.7 Cr).
+  - The laminate share of exports is not disclosed; management ties export growth to compacts and large-format laminates.
+- **Laminates MD&A:** FY26 revenue ₹743.45 Cr (+13.9%), the "first time in three years" Century out-grew listed peers. **Sainik laminates grew ~70%.** Management **targets >15% laminate growth in FY27**, with domestic demand strengthening "from the latter part of the year".
+- **Management's own ratio table:** ROCE FY24 16.4% / FY25 10% / FY26 11%; EBITDA margin 14.5% / 11.0% / 12.2%.
+
+**ICRA view (30-Jun-2026)** [V ICRA-C]
+- **Rating:** AA (Stable)/A1+ reaffirmed; rated limits raised from ₹1,210 Cr to ₹2,114 Cr.
+- **FY27 projections:**
+  - Operating income **₹6,100–6,200 Cr (+13–15%)**.
+  - OPM **12.5–13.5%**.
+  - Total debt/OPBDITA **2.6× → 2.2–2.3× (Mar-27) → 1.6–1.7× (Mar-28)**.
+  - DSCR 2.8–2.9×.
+  - Capex ₹400–420 Cr; term-loan repayment ₹95.3 Cr.
+- **Other metrics:** working-capital intensity 23%; renewable power 19% of electricity (FY25).
+- **Downgrade trigger:** DSCR < 2.25× sustained.
+
+### 4.2.2 Greenpanel Industries (reference) — GREENPANEL · 542857
+
+**Guidance digest, Q1 FY27 call (~10/11-Aug-2026; MD Shobhan Mittal, CFO Himanshu Jindal)** [V T-Q1]
+- **No figurative guidance.** Chemical costs and competitors' discounts "change daily with Middle East news". The aim is to ramp domestic volumes over the remaining nine months and gain relative share.
+- **Domestic MDF +12% YoY (fourth straight quarter); OEM −14%; exports zero.** Before the war, 80–85% of exports went to the Middle East. Gulf freight went from $400–500 to **$5,500–6,000 per container**. July–August exports were "negligible".
+- **Price:**
+  - The ~15% list increase netted only ~7–8% after discounts, and **"almost all of it has been rolled back"**; 1–2% survives in some markets.
+  - Rollbacks came in phases: end-May, June and July.
+  - The primary cause is **industry overcapacity**.
+  - Plywood +5% (little passed back).
+- **Strategy shift:** Greenpanel was priced at a premium to Century; it now prices **at par with all peers** to defend volume and utilisation. An analyst noted, and management accepted, that **Century out-sold Greenpanel domestically in the last two quarters** and that Greenpanel had the lowest domestic growth in Q1.
+- **Industry:**
+  - Q1 industry growth "mid-teens".
+  - Pricing pressure lasts through FY27, with improvement hoped for in FY28.
+  - New supply: Action Tesa's new South line and a continuous press in MP; Tier-2 players add pressure.
+- **Costs:**
+  - Chemicals have corrected from the peak but are still **+4–5% vs pre-war**.
+  - **Timber + efficiency savings 6–7%** (more mixed wood, less eucalyptus).
+  - Gross margin 52.7%, helped by low-cost inventory carried from Q4.
+- **Utilisation:** 51% in Q1. Q1 included a 5–7-day line shutdown for lack of orders. Double-digit MDF margins are "not a tough ask" if utilisation rises.
+- **Capex:** **no MDF capex for 18–24 months** beyond maintenance. Plywood +30–40% output via small machinery additions.
+- **Balance sheet:** gross debt ₹353 Cr → ₹317 Cr; ICRA A+ reaffirmed. Q1 forex loss ₹2.5 Cr (₹1.8 Cr on the euro ECB).
+
+**Deck KPI table** [V IP-Q1, slides 4–9]
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|
+| Revenue (₹ Cr) | 322.6 | 391.4 | 349.9 |
+| Gross margin | 47.0% | 47.8% | **52.7%** |
+| Operating EBITDA (ex-FX), ₹ Cr / % | 13.0 / 4.0% | 35.4 / 9.1% | **33.5 / 9.6%** |
+| MDF sales (₹ Cr) / EBITDA | 291.2 / 4.4% | — | 316.8 / **10.3%** |
+| MDF capacity / production (CBM) | 891,000 / 104,951 | — | 891,000 / 113,394 |
+| MDF domestic / export volume (CBM) | 89,036 / 13,060 | — | **99,747 / 0** |
+| MDF utilisation | 47% | (60% in Q4 per AR) | **51%** |
+| Realisation, blended / domestic (₹/CBM) | 28,519 / 29,559 | 27,120 (BOBCAPS) | **31,758 / 31,758** |
+| Plywood sales (₹ Cr) / EBITDA / utilisation | 31.5 / 0.6% / 42% | (7.5%) | 33.2 / 2.7% / 56% (capacity 9 mn sqm; ₹255/sqm) |
+| Net debt (₹ Cr) | 233 | 156 (Mar-26) | **141** |
+| CCC (days) | n/a (slide illegible) | 38 | 42 |
+
+**5-year history (screener standalone; consolidated page stale)** [V]
+
+| FY | Sales | OP | OPM | PAT | ROCE |
+|---|---|---|---|---|---|
+| FY22 | 1,624 | 421 | 26% | 233 | 29% |
+| FY23 | 1,783 | 413 | 23% | 230 | 27% |
+| FY24 | 1,567 | 246 | 16% | 135 | 13% |
+| FY25 | 1,436 | 131 | 9% | 72 | 4% |
+| FY26 | 1,539 | 80 (company op. EBITDA ex-fx ₹132.7 Cr) | 5% | −29 | ~0% |
+
+**8 quarters (screener standalone, ₹ Cr)** [V]
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Sep-24 | 336.9 | 29.9 | 8.9% | 18.5 |
+| Dec-24 | 359.4 | 17.4 | 4.8% | 8.5 |
+| Mar-25 | 374.5 | 48.0 | 12.8% | 29.4 |
+| Jun-25 | 328.2 | −15.8 | −4.8% | −34.6 |
+| Sep-25 | 396.0 | 24.8 | 6.3% | −6.1 |
+| Dec-25 | 416.3 | 40.8 | 9.8% | 10.2 |
+| Mar-26 | 398.9 | 30.0 | 7.5% | 1.4 |
+| **Jun-26** | **349.8** | **29.9** | **8.5%** | **1.2** |
+
+**FY26 annual-report findings** [V AR26 Greenpanel, BSE AttachHis/b3a79c59-…]
+- **Auditor: S.S. Kothari Mehta & Co. LLP** (second five-year term). KAM: estimation of revenue and variable consideration (rebates/discounts).
+- **Segments (₹ Cr):**
+  - **MDF:** revenue ₹1,406.7 Cr (incl. ₹37.1 Cr other operating income such as EPCG/incentives); profit before tax ₹93.5 Cr (FY25 ₹173.0 Cr); assets ₹1,681.4 Cr; liabilities ₹545.2 Cr → **CE ~₹1,136 Cr, pre-tax return ~8.2%**; capex ₹29.6 Cr (FY25 ₹353.5 Cr); D&A ₹97.4 Cr.
+  - **Plywood:** revenue ₹132.7 Cr; PBT ₹11.0 Cr.
+- **MD&A:**
+  - MDF revenue +9.3% (91.2% of total). **Domestic MDF volume +16.9%; exports −7.6%.** MDF operating EBITDA 9.3%; plywood 3.8% on flat volume.
+  - **Utilisation reached 60% by Q4 FY26.**
+  - Industry MDF capacity is 4.0–4.5 mn CBM, with domestic demand growing "early double-digit to mid-teens". Greenpanel's 891k = ~21% of installed capacity.
+- **Contingent liabilities: small, ₹10.4 Cr:**
+  - Service-tax refund on timber transport ₹6.3 Cr
+  - Customs SHIS benefit ₹3.9 Cr
+  - GST ₹0.2 Cr
+  - **EPCG export obligation outstanding ₹154.0 Cr** (FY25 ₹306.2 Cr). This is the real contingent exposure if exports stay at zero: an unmet obligation means repaying duty saved plus interest [K mechanism].
+- **Related parties:**
+  - **Sales to Greenlam Industries ₹5.6 Cr** (FY25 ₹6.0 Cr) and to Greenlam Ltd ₹0.16 Cr; purchases from Greenlam Ltd ₹0.25 Cr. The "Green" family companies still trade with each other at small scale.
+  - Rent to Niranjan Infrastructure (promoter-linked) ₹0.21 Cr.
+  - CSR to Greenpanel Foundation ₹2.6 Cr.
+  - Remuneration of Mrs. Chitwan Mittal ₹0.30 Cr.
+  - No royalty.
+- **Ratios (AR):** D/E 0.26×; current ratio 1.90×; CCC 38 days.
+- **Text error to avoid:** the AR's industry section says the QCO on plywood and MDF was "implemented from October 2025". That conflicts with the in-force dates of 11-Feb-2025 (boards) and 28-Feb-2025 (plywood) [V FIPPI, Part 1]. Treat it as an AR drafting error, not a new date.
+
+### 4.2.3 Greenply Industries (reference) — GREENPLY · 526797
+
+**Guidance digest, Q1 FY27 call (24-Jul-2026; speakers incl. Sanidhya Mittal and CFO Sanjiv Keshri)** [V T-Q1]
+- **Volume:** delivered **double-digit volume growth in both segments**, "in line with guidance".
+- **Plywood:**
+  - **~10% EBITDA margin guidance reiterated.**
+  - Q1 lost sales: own-plant utilisation was 92–93% vs 98–99% in Q4, and outsourced supply also fell.
+  - Odisha plant (near the Vizag timber catchment) is being built "very seriously".
+- **MDF:**
+  - **16–17% EBITDA "sustainable" on current capacity**, +~1 pt once line 2 (+~70% capacity) runs.
+  - Line-2 capex per CBM is "much lower" than line 1.
+  - Pre-lam revenue +61% YoY.
+- **Capex FY27 ~₹500 Cr:**
+  - ~₹47 Cr in the parent (incl. Samet JV loss funding)
+  - ~₹100 Cr in one subsidiary (GSPL)
+  - ~₹300 Cr in the MDF subsidiary (GSPPL, line 2)
+- **Leverage ceiling:** D/E guidance 0.7–0.75×; actual 0.57×.
+- **Costs:**
+  - Timber assumed stable; any fall is a "windfall".
+  - Monsoon raises MDF timber costs seasonally.
+  - Chemicals rising with crude.
+  - Possible small plywood price increase and a pull-back of MDF discount schemes.
+- **Furniture hardware JV (Greenply Samet, 50%):**
+  - Q1 revenue ₹13.6 Cr; JV loss ₹11.5 Cr (Greenply share ₹5.7 Cr).
+  - ₹105 Cr invested to date; 686 active dealers.
+- **Q4 FY26 exceptional ₹15.2 Cr**, incl. a ₹9.5 Cr financial-liability provision and a ₹2.7 Cr investment write-down on the 19% stake in Greenply Middle East (GMEL, Dubai).
+
+**Deck KPI table** [V IP-Q1 Greenply]
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|
+| Consolidated revenue (₹ Cr) | 600.8 | 776.2 | **724.9 (+20.7%)** |
+| Core EBITDA (₹ Cr / %) | 61.6 / 10.3% | 93.2 / 12.0% | **78.3 / 10.8%** |
+| PAT (₹ Cr) | 28.5 | 31.0 | **37.6** |
+| Plywood volume (mn sqm) / ₹/sqm | 17.1 / 255 | 22.8 / 254 | **19.4 / 265** |
+| Plywood revenue / Core EBITDA % | 453.8 / 7.9% | 588.5 / 10.4% | 526.6 / **8.4%** |
+| Own-manufactured share (volume / value) | 58% / 66% | 65% / 70% | **68% / 73%** |
+| MDF volume (CBM) / ₹/CBM | 46,350 / 31,763 | 62,021 / 30,508 | **57,805 / 33,525** |
+| MDF revenue / Core EBITDA % | 147.3 / 17.4% | 189.4 / 17.0% | 195.7 / **17.3%** |
+| Gross / net debt (₹ Cr) | 543 / 538 | 489 / 461 | **554 / 533** |
+| Net D/E / WC days | 0.64 / 58 | 0.52 / 43 | 0.57 / 42 |
+
+**Capacities (deck):**
+- Plywood (own, mn sqm/yr): Bamanbore 20.2, Sandila (UP) 13.5, Kriparampur (WB) 11.0, Tizit (Nagaland) 8.1, Odisha 13.5 (WIP) → 66.3.
+- MDF Vadodara: 300,000 CBM + 210,000 (line 2 WIP).
+- Ratings: CARE and India Ratings AA− (long-term) / A1+.
+
+**5-year history (screener consolidated, ₹ Cr)** [V]
+
+| FY | Sales | OP | OPM | PAT | ROCE |
+|---|---|---|---|---|---|
+| FY22 | 1,563 | 150 | 10% | 95 | 18% |
+| FY23 | 1,663 | 133 | 8% | 91 | 11% |
+| FY24 | 2,180 | 185 | 9% | 70 | 11% |
+| FY25 | 2,488 | 204 | 8% | 92 | 12% |
+| FY26 | 2,739 | 242 | 9% | 90 | 14% |
+
+**8 quarters (screener consolidated, ₹ Cr)** [V]
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Sep-24 | 640 | 53 | 8% | 18 |
+| Dec-24 | 614 | 51 | 8% | 24 |
+| Mar-25 | 649 | 46 | 7% | 17 |
+| Jun-25 | 601 | 52 | 9% | 28 |
+| Sep-25 | 689 | 51 | 7% | 16 |
+| Dec-25 | 673 | 51 | 8% | 14 |
+| Mar-26 | 776 | 87 | 11% | 31 |
+| **Jun-26** | **725** | **73** | **10%** | **38** |
+
+**FY26 annual-report findings** [V AR26 Greenply, BSE AttachHis/b06a460b-…]
+- **Auditor:** firm registration 101248W/W-100022, i.e. **B S R & Co. LLP (KPMG network)**. KAM: revenue recognition and dealer-incentive scheme computation. Secretarial audit report has no qualification.
+- **Segments:** the standalone company has a single segment (plywood & allied). The group adds MDF/PVC/WPC (Greenply Speciality Panels Pvt Ltd, a wholly owned subsidiary) and furniture hardware (the Samet JV, equity-accounted).
+- **Capacity:** the ContiRoll press extension added 200 CBM/day, taking Vadodara to **1,000 CBM/day**, with "a further ~600–700 CBM/day" under way.
+- **Contingent liabilities (standalone):** indirect taxes in dispute ₹26.9 Cr (FY25 ₹29.6 Cr); consumer cases ₹2.8 Cr. On top sits the ₹1.08 Cr GST demand plus equal penalty of 15-Oct-2026 [Part 1, V screener].
+- **Related parties:** not extracted in detail this session [gap].
+
+### 4.2.4 Greenlam Industries (reference) — GREENLAM · 538979
+
+**Guidance digest, Q1 FY27 call (10-Aug-2026; CFO Ashok Sharma, VP Finance Samarth Agarwal)** [V T-Q1]
+- **Laminate revenue growth guidance of 10–12% for FY27 maintained**, though Q1 grew only ~7%. **No margin outlook** because raw-material prices are uncertain.
+- **Exports:** ~₹27 Cr of shipments slipped out of Q1 because of container and vessel shortages and longer sea transit. Management calls it timing, not lost sales, but Q2 exports could also be hit if shortages persist (₹25–30 Cr moved).
+- **Pricing:**
+  - Two hikes (April and May), then cuts in early June and early Q2. Net **7–8% passed through**.
+  - Chemicals are ~⅓ of raw materials, and **up to ~35% of laminate input content**.
+  - Hikes and cuts were concentrated in laminates and chipboard; plywood had only a modest April increase.
+- **Capacity:**
+  - **Two new laminate press lines in commercial production by Q4 FY27**, for categories near full utilisation.
+  - Otherwise FY27 is "sweating assets".
+  - **Capex ₹125–135 Cr, of which ~₹70 Cr is the laminate expansion.**
+  - Debt to fall by ~₹100 Cr.
+- **Plywood segment expected to break even in FY27.**
+- **Chipboard (Naidupeta):** turned EBITDA-positive (₹3.4 Cr pre-forex); target ~70% utilisation; growing the melamine-faced share.
+
+**Deck KPI table** [V IP-Q1 Greenlam]
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|
+| Revenue (₹ Cr) | 673.8 | 857.7 | **796.7 (+18.2%)** |
+| Gross margin | 53.1% | 51.5% | 52.9% |
+| EBITDA ex-forex (₹ Cr / %) | 54.7 / 8.1% | 107.4 / 12.5% | **81.1 / 10.2%** |
+| PAT (₹ Cr) | −15.7 | 40.5 | **21.2** |
+| Laminates & allied revenue / EBITDA ex-fx % / CE | 554.8 / 13.2% / 787 | 658.5 / 17.2% / 827 | **596.1 / 13.9% / 860** |
+| Laminate capacity / production / sales (mn sheets) | 24.52 / 5.15 / 4.94 | 24.52 / 4.87 / 5.33 | 24.52 / 4.90 / **4.62** |
+| Laminate utilisation / ₹ per sheet | 84% / 1,091 | 79% / 1,202 | **80% / 1,240** |
+| Plywood & allied revenue / EBITDA % / CE | 88.0 / −9.8% / 358 | 119.3 / −3.2% / 338 | 106.0 / **−4.9%** / 320 |
+| Plywood capacity / utilisation / ₹ per sqm | 18.9 mn sqm / 28% / 266 | 43% / 243 | 39% / 276 |
+| Chipboard revenue / EBITDA % / CE | 31.0 / −31.5% / 808 | 79.8 / −2.7% / 762 | **94.6 / 3.6%** / 764 |
+| Chipboard capacity / sales (CBM) / utilisation | 292,380 / 15,490 / 30% | 39,655 / 49% | 41,418 / **61%** (₹22,764/CBM) |
+| Net debt (₹ Cr) | — | 941.2 | **933.7** |
+| Working capital (days) | 59 | 51 | 56 |
+
+**Other deck facts:**
+- 5-year company figures:
+  - Revenue FY22 1,703 / FY23 2,026 / FY24 2,306 / FY25 2,569 / FY26 3,046.
+  - EBITDA before exceptional items and forex 187 / 233 / 295 / 276 / 334.
+  - PAT 91 / 128 / 138 / 68 / 56.
+  - FY26 ROCE 8.6%, ROE 4.7%, net D/E 0.80×.
+- Other capacities: decorative veneer 4.2 mn sqm; engineered floor 1.0 mn sqm; doors 120,000.
+- Presence in 120+ countries; 15 overseas subsidiaries.
+
+**5-year history (screener consolidated, ₹ Cr)** [V]
+
+| FY | Sales | OP | OPM | PAT | ROCE |
+|---|---|---|---|---|---|
+| FY22 | 1,703 | 188 | 11% | 91 | 14% |
+| FY23 | 2,026 | 233 | 12% | 129 | 14% |
+| FY24 | 2,306 | 296 | 13% | 138 | 12% |
+| FY25 | 2,569 | 275 | 11% | 68 | 7% |
+| FY26 | 3,046 | 325 | 11% | 56 | 8% |
+
+**8 quarters (screener consolidated, ₹ Cr)** [V]
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Sep-24 | 681 | 81 | 12% | 34 |
+| Dec-24 | 602 | 64 | 11% | 13 |
+| Mar-25 | 682 | 64 | 9% | 1 |
+| Jun-25 | 674 | 44 | 7% | −16 |
+| Sep-25 | 808 | 104 | 13% | 32 |
+| Dec-25 | 706 | 68 | 10% | −1 |
+| Mar-26 | 858 | 108 | 13% | 41 |
+| **Jun-26** | **797** | **80** | **10%** | **21** |
+
+**Annual report:** the FY26 AR was not read this session [gap]. Segment capital employed comes from the deck: laminates ₹860 Cr, plywood ₹320 Cr, chipboard ₹764 Cr at Jun-26. **Chipboard ties up nearly as much capital as laminates while earning ~4% EBITDA.**
+
+### 4.2.5 Stylam Industries (reference) — STYLAMIND · 526951
+
+**Guidance digest, Q1 FY27 call (24-Jul-2026; MD Jagdish Gupta, WTD Manit Gupta, CFO Kishan Nagpal)** [V T-Q1]
+- **Margins "19–20%+" sustainable**, even as the new plant ramps. Q1 was ~21%; management says no inventory gain, only utilisation and efficiency.
+- **Growth guidance: 25–30% for FY27 "on a conservative basis".** The third plant (Manak Tabra) should add **₹250–300 Cr of revenue in FY27**, with **~30% capacity utilisation by FY27 exit**.
+  - Commercial production was targeted for 1-Sep (dry runs in July); screener dates it **22-Sep-2026**.
+  - Orders are month-to-month; there are no annual POs in the industry.
+- **The delay was due to an "old family problem"** that was resolved "a couple of months back".
+  - **Aica Kogyo (Japan)**, the strategic partner since 2024, has completed its open offer; promoters/Aica hold 56.86%.
+  - A **new capex announcement is deferred to next quarter**. It will be an adjacent product "going along laminates", aimed at the domestic market, since "in laminates there will be saturation".
+- **Domestic business (~25% of revenue) is being rebuilt:** new team, distributors and warehouses; results expected from Q3 FY27. Exports: Europe "doing good", then APAC and the Middle East.
+
+**Deck KPI table** [V IP-Q1 Stylam]
+
+| KPI | Q4 FY26 | Q1 FY27 |
+|---|---|---|
+| Sheets sold (mn) | 3.27 (domestic 1.06 / export 2.21) | **3.17 (1.10 / 2.07)** |
+| Export share of sheets | 68% | **65%** |
+| Laminate capacity | ~20 mn sheets/yr, ~74% utilisation (FY26) | + plant 3 from Sep-2026 (₹300 Cr; 5.25 crore sq m) |
+| Other capacity | Hot-coating line 1 mn laminates/yr; acrylic solid surface 300,000 panels/yr | — |
+| Debt | Zero (net debt-free since 2025) | Zero |
+| Revenue growth | — | +15% YoY (deck) |
+
+**5-year history (screener consolidated, ₹ Cr)** [V]
+
+| FY | Sales | OP | OPM | PAT | ROCE |
+|---|---|---|---|---|---|
+| FY22 | 659 | 104 | 16% | 61 | 25% |
+| FY23 | 952 | 155 | 16% | 96 | 32% |
+| FY24 | 914 | 184 | 20% | 128 | 34% |
+| FY25 | 1,025 | 185 | 18% | 122 | 27% |
+| FY26 | 1,129 | 221 | 20% | 150 | 27% |
+
+**8 quarters (screener consolidated, ₹ Cr)** [V]
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Sep-24 | 263 | 54 | 21% | 34 |
+| Dec-24 | 255 | 46 | 18% | 30 |
+| Mar-25 | 265 | 43 | 16% | 30 |
+| Jun-25 | 283 | 53 | 19% | 28 |
+| Sep-25 | 292 | 57 | 19% | 37 |
+| Dec-25 | 271 | 56 | 21% | 46 |
+| Mar-26 | 283 | 56 | 20% | 38 |
+| **Jun-26** | **326** | **69** | **21%** | **48** |
+
+**Annual report:** FY26 AR not read [gap]. Implied revenue per sheet in Q1 FY27 is ~₹1,030 (₹326 Cr ÷ 3.17 mn sheets, incl. non-laminate products) [E].
+
+### 4.2.6 Rushil Decor (reference) — RUSHIL · 533470
+
+**Guidance digest, Q1 FY27 call (10-Aug-2026; MD Rushil Thakkar, CFO Hiren Padhya)** [V T-Q1]
+- **Pricing:**
+  - **The 15% MDF price increase is "sustained", with no discounts passed back.** No further hikes are planned because "the market is not going to accept" them.
+  - Laminates' ~10% increase (Q4 FY26) covers inflation.
+  - The hikes were driven purely by raw-material costs versus pre-war levels, not by demand.
+- **No major capex beyond maintenance.** Focus on working capital and debt reduction; the CFO agreed with an aspiration of becoming **net-debt-free in 1–2 years**.
+- **Mix:** value-added MDF to reach **60% of MDF revenue / 50% of volume in FY27**. Jumbo laminates are ramping (Q1 EBITDA 20.6%).
+- **Q1 operations:**
+  - April planned maintenance.
+  - Elevated chemical costs and freight.
+  - New export markets (Honduras, Greece).
+  - +15 distributors and +46 retailers/dealers.
+
+**Deck KPI table** [V IP-Q1 Rushil]
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|
+| Revenue / EBITDA / PAT (₹ Cr) | 179.2 / −2.2 / −14.1 | 230.9 / 26.3 / 10.1 | **229.0 / 18.2 (7.9%) / 2.0** |
+| Gross margin | 41.5% | 48.0% | 39.0% |
+| MDF revenue / volume (CBM) / ₹ per CBM | 124.2 / 52,051 / 23,865 [E from YoY] | — | **145.6 / 52,417 / 27,781** |
+| MDF EBITDA % / utilisation | n.m. | — | **8.4% / 66%** |
+| Laminates revenue (₹ Cr), India / export | 15.6 / 28.9 | 20.7 / 32.7 | **25.1 / 48.5** |
+| Laminate sheets (1 mm eq.), India / export | 286,904 / 401,553 | 329,732 / 464,352 | **304,517 / 575,802** |
+| Laminate EBITDA % / utilisation | 10.2% / 83% | 8.6% / 56% | 7.0% / 51% (jumbo included) |
+| Jumbo laminates revenue / EBITDA % | — | 8.8 / — | 11.0 / 20.6% |
+| Capacity | MDF 330,000 CBM; laminates 6.29 mn sheets (incl. 2.8 mn jumbo); PVC 5,400 t | | |
+
+- FY26: revenue ₹862.2 Cr; EBITDA ₹69.7 Cr; CFO ₹88.7 Cr; net debt/equity 0.39× (≈₹255 Cr [E on book ~₹655 Cr]).
+- FY26 segment revenue: MDF ₹609.1 Cr, laminates ₹211.1 Cr, PVC ₹35.9 Cr.
+
+**5-year history (₹ Cr; FY22–FY24 screener standalone, FY25–FY26 consolidated)** [V]
+
+| FY | Sales | OP | OPM | PAT | ROCE (standalone) |
+|---|---|---|---|---|---|
+| FY22 | 624 | 74 | 12% | 23 | 8% |
+| FY23 | 838 | 149 | 18% | 78 | 17% |
+| FY24 | 844 | 120 | 14% | 43 | 12% |
+| FY25 | 898 (standalone 891) | 106 | 12% | 48 | 10% |
+| FY26 | 862 (standalone 856) | 70 | 8% | 6 (standalone 8) | 5% |
+
+**8 quarters (screener consolidated, ₹ Cr)** [V]
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Sep-24 | 230.4 | 29.6 | 12.9% | 11.4 |
+| Dec-24 | 211.7 | 27.3 | 12.9% | 11.5 |
+| Mar-25 | 230.7 | 23.1 | 10.0% | 12.6 |
+| Jun-25 | 179.2 | −2.2 | −1.2% | −14.1 |
+| Sep-25 | 235.7 | 22.5 | 9.5% | 5.1 |
+| Dec-25 | 216.5 | 23.1 | 10.7% | 5.2 |
+| Mar-26 | 230.9 | 26.3 | 11.4% | 10.1 |
+| **Jun-26** | **229.0** | **18.2** | **7.9%** | **2.0** |
+
+**Annual report:** FY26 AR not read [gap].
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**E-P4-1. Indian MDF capacity register, reconciled (CBM/yr, Oct-2026)**
+
+| Player | Operating capacity | Under construction / commissioning | Basis and source |
+|---|---|---|---|
+| Greenpanel (Pantnagar + Chittoor) | 891,000 | none (no MDF capex for 18–24 months) | [V AR26; IP-Q1] |
+| Century (Hoshiarpur + Badvel) | ~627,000 (after AP 700 → 950 CBM/day, Q1 FY27); ICRA 5.7 lakh pre-extension | UP 330,000 (₹800 Cr; timing "lag" to UP plywood, i.e. after FY29); Odisha PB/MDF 240,000 (₹500 Cr; land not chosen) | [V AR26; ICRA-C; T-Q1] |
+| Action Tesa (Sitarganj, multi-line) | ~511,000 (group, multi-line; newest ContiRoll 650 m³/day ≈ 215k) [V-sec plyreporter] | **Vizag (AP) new line**: ANDRITZ 33 t/h refiner ordered Nov-2025, start-up "Q2 2026" → ~1,000 CBM/day ≈ **~300–330k** [E from t/h] | [V andritz.com newsroom 5-Nov-2025; E] |
+| Rushil (Chikmagalur + Visakhapatnam) | 330,000 | none | [V IP-Q1] |
+| Greenply (Vadodara line 1) | 300,000 | **Line 2: 210,000** (WIP; +600–700 CBM/day; "H1 CY2027" per Part 1) | [V IP-Q1; AR26] |
+| Elixrr / Elixir Industries (Malanpur/Gwalior, MP) | — | **~330–360k** (1,000–1,100 m³/day, Siempelkamp line; ₹1,000 Cr; start was planned Q1–Q2 2026; commissioning unconfirmed) | [V-sec plyreporter 154011; woodandpanel] |
+| **Named total** | **~2.66 mn** | **~0.85–0.9 mn** pipeline | [E sum] |
+| **Industry total (Greenpanel AR)** | **4.0–4.5 mn** (891k ≈ 21% → ~4.24 mn) | | [V AR26 Greenpanel] |
+| Implied Tier-2 / small lines (multi-daylight, thin-MDF/HDF, regional) | **~1.4–1.8 mn** | | [E residual] |
+
+How to read it:
+- Five named players hold ~60–65% of capacity.
+- ~0.85–0.9 mn CBM more (Action Tesa Vizag, Elixrr MP, Greenply line 2) lands between H2 FY27 and H1 CY2027. That is ~20% supply growth, against demand growing "early double-digit to mid-teens" (Greenpanel AR; Q1 "mid-teens").
+- This is the arithmetic behind Greenpanel's "pressure through FY27, improvement FY28".
+- Part 1's "~400k CBM (MP + AP) in H2 FY27" understates the pipeline once Greenply line 2 is added.
+
+**E-P4-2. Century FY26 segment economics (from AR note 43; ₹ Cr)**: see the table in §4.2.1. Chart: capital employed vs segment EBIT by segment (plywood 1,055 / 428; laminates 499 / 43; MDF 1,526 / 104; PB 700 / −32; CFS 187 / 12; others 151 / 12).
+
+**E-P4-3. Q1 FY27 MDF scorecard across listed peers (company decks)**
+
+| Company | MDF volume (CBM) | YoY | ₹/CBM | EBITDA % | Utilisation | Exports |
+|---|---|---|---|---|---|---|
+| Century | 102,951 | +22.4% | 32,222 | 7.0% | ~66% on 627k annualised [E] (planned shutdown) | n/d |
+| Greenpanel | 99,747 | −2.3% (domestic +12%) | 31,758 | 10.3% | 51% | 0 |
+| Greenply | 57,805 | +24.7% | 33,525 | **17.3%** | ~77% on 300k annualised [E] | n/d |
+| Rushil | 52,417 | +0.7% | 27,781 | 8.4% | 66% | ~0.3k CBM |
+| **Sum (4 listed)** | **312,920** | **+10.0%** [E] | — | — | — | — |
+
+- The sum is ~1.25 mn CBM annualised, i.e. ~40% of an implied ~3.1–3.4 mn CBM FY27 market [E].
+- Q1 FY26 bases for the sum: 84,099 + 102,096 + 46,350 + 52,051 = 284,596.
+
+**E-P4-4. Resin feedstock: methanol (CRISIL Intelligence, Jul-2026)**
+
+| Metric | Value |
+|---|---|
+| India methanol import dependence | ~98%; FY26 imports ~3,570 KT |
+| Middle East share of imports | ~88% (Apr-25 – Feb-26) → ~51% (Mar–May 2026) |
+| CFR India YoY, Apr / May 2026 | +~130% / +~141% |
+| Domestic price, May-2026 | ₹73,950/t (+~182% YoY) |
+| CFR India, Q1 FY27 average | US$569/t (+114% YoY) |
+| FY27 average outlook | US$380–420/t |
+| Formaldehyde share of Indian methanol demand (FY26E) | 46% |
+| Policy | Full tariff waiver on methanol and 40 petrochemicals from early April, extended to 15-Jul-2026; 7.5% duty reinstated after that [V-snip for the reinstatement] |
+
+- Company read-across: chemicals are still +4–5% above pre-war (Greenpanel, Aug-26). Chemicals are ~⅓ of Greenlam's raw materials and up to ~35% of laminate input.
+- Urea, melamine and phenol ₹/t series are still not sourced (§4.4).
+
+**E-P4-5. Plantation timber (Ply Reporter 1-Mar-2026)**: peelable ₹9–11/kg (North and South, flat 2026); composite-board eucalyptus ₹4.5–6/kg. Historical anchor [V-sec Down To Earth, undated]: poplar ~₹15,000/t (2012) → <₹5,000/t after the 2014 crash. No official monthly series exists in the public domain.
+
+**E-P4-6. Housing demand indicators**
+
+| Series | Latest | Source |
+|---|---|---|
+| RBI all-India HPI (18 cities, base 2022-23) | Q1 FY27: index 117.5; +3.6% YoY (same as Q1 FY26); +1.1% QoQ | [V RBI press release 24-Aug-2026] |
+| Anarock top-7 sales, Q3 CY2026 | 100,220 units (+3%); ₹1.55 lakh Cr (+2%); MMR 31,750, Bengaluru 16,670, Hyderabad 12,970 | [V-sec Construction World 30-Sep-2026] |
+| Anarock launches / unsold, Q3 CY2026 | ~114,320 (+18%) / ~630,590 (+12%); price ₹9,714/sq ft (+7%) | [V-snip] |
+| PropEquity Q3 CY2026 | ~103,000 units (−6%) | [V-sec Construction World] |
+
+- **Completions (units delivered) are still unsourced.**
+- For panels, launches 3–4 years ago are the relevant driver of today's interiors demand.
+
+**E-P4-7. Trade-remedy register (wood-panel inputs and outputs)**
+
+| Product | Measure | Status (Oct-2026) | Source |
+|---|---|---|---|
+| Decor paper, China (HS 4805 9100, 4802 2090) | ADD $110 / $297 / $542 per t (Notf. 19/2025-Cus (ADD), 24-Jun-2025, amending 77/2021) | Sunset review initiated 23-Jun-2026 (applicant ITC); duty reported extended to 26-Mar-2027 | [V-snip studycafe; newkerala] |
+| Plain MDF <6 mm (VN, MY, TH, ID) | DGTR recommended ADD (2021) | **Not imposed** by MoF | [V-snip antidumping.vn] |
+| Plywood, laminates, PB | none found | — | search |
+| BCD on 4410/4411/4412 | 10% + 10% SWS (+18% IGST) | aggregator tariff pages, not CBIC | [V-snip eximpe.com] |
+
+- Decor paper ADD **raises laminate makers' input cost**: it protects ITC (paperboards) at laminators' expense.
+
+## 4.4 Gap log (Part 1 §H and the prompt's list)
+
+| §H / item | Status | Detail |
+|---|---|---|
+| H-1 Timber ₹/t series | **Partly filled** | Trade-press levels (₹9–11/kg peelable; ₹4.5–6/kg eucalyptus); company commentary (Greenpanel −6–7% timber + efficiency; Greenply "stable"). No official monthly series: no state forest department or APMC page was reachable, and none is published centrally. |
+| H-2 Urea/methanol/melamine/phenol ₹/t | **Partly filled** | Methanol fully sourced (CRISIL). Urea, melamine, phenol and formaldehyde ₹/t not sourced. ChemAnalyst/ICIS are paywalled; secondary aggregator figures were rejected. |
+| H-3 Industry size by segment | Still open (E) | No CRISIL/ICRA industry report was free to fetch. MDF capacity is now primary (4.0–4.5 mn). |
+| H-4 MDF capacity register | **Filled (reconciled, §4.3 E-P4-1)** | Action Tesa: 511k = multi-line group total; ~750k plausible only including Vizag [E]. Rushil 330k confirmed; Greenply 300k + 210k; Century ~627k; Elixrr ~330–360k (unconfirmed start). |
+| H-5 Greenpanel "21% share" basis | **Filled** | Capacity basis (Greenpanel AR). |
+| H-6 Greenpanel net debt | **Filled** | ₹156 Cr (Mar-26), ₹141 Cr (Jun-26) (S1). |
+| H-7 Century plywood outsourcing | **Bounded, still E** | Sales 485,403 CBM vs own capacity 396,300 → outsourced ≥18–20% (FY26) and ≥~28% in Q1 FY27. Production is not disclosed in the AR. |
+| H-8 Century segment capital employed | **Filled** | AR note 43 (S13). |
+| H-9 Century Q2/Q3 FY26 segment detail | Still open | The Feb-2026 and Nov-2025 decks are on BSE (ids in the screener concall list: PPT `33da8f33-…`, `66b4001e-…`) but were not re-read this session. |
+| H-10 PB nameplate | **Filled** | 240,000 CBM (S8). Industry PB size is still open. |
+| H-11 Century laminate export share; US share of Indian laminate exports | **Partly filled** | Century total exports ₹217.6 Cr (~4% of revenue); the laminate split is not disclosed. HS 4823/3921 laminate export data by destination was not pulled. |
+| H-12 GST on timber (4403) after 22-Sep-2025 | **Still unverified** | Secondary sites say 18% (Schedule II, Notf. 9/2025-CT(R)). The CBIC notification text could not be fetched (WB comtax PDF connection reset). Do not assert a "5% → 18%" change; say "18% per trade guides". |
+| H-13 Anti-dumping status | **Filled (V-snip)** | Decor-paper ADD live; MDF <6 mm not imposed; none on plywood or laminates (§4.3 E-P4-7). |
+| H-14 Nepal "Century Ply Industries" | **Filled (negative)** | Not a subsidiary or related party of Century per AR26 (S14). FIPPI's allegation concerns licence misuse by Nepal exporters, not Century. |
+| H-15 FY31 ₹12,000 Cr | **Filled** | Q1 FY27 call (S7). |
+| H-16 Merino / Action Tesa financials | Still open | Not fetched; Merino stays V-snip. |
+| H-17 Global peers | **Filled for EGGER and Arauco (V); Dexco (V-snip); Kronospan and Sonae Arauco figures deleted** (S27–S30). |
+| H-18 Century listing year (2005 IPO) | Still open | Incorporation is now V (5-Jan-1982); the listing date was not verified. |
+| H-19 Housing completions | Still open | Sales, launches, unsold stock and RBI HPI are now sourced; completions are not. |
+| Prompt: BIS QCO details and leakage | Partly | QCO dates/scope confirmed by consultancy pages (V-snip). No 2026 amendment or exemption found. FIPPI's May-2026 post confirms the QCOs still bind imports (birch plywood supply issues). |
+| Prompt: Greenlam/Stylam/Rushil FY26 AR findings | Open | ARs located on BSE (ids in the header) but not read; the deck segment CE was used for Greenlam. |
+| Prompt: Greenply related parties | Open | AR read for auditor, contingent liabilities and capacity only. |
+| Prompt: DGCI&S/tradestat by HS | Not re-pulled | Part 1 UN Comtrade CY data stands [V]. |
+
+## 4.5 New insights the first pass missed
+
+1. **Century is a plywood company with a capital-heavy board business attached.**
+   - Per AR note 43, plywood earned **₹428 Cr of EBIT on ₹1,055 Cr of capital employed (~41% pre-tax)**.
+   - MDF + PB earned **₹72 Cr on ₹2,226 Cr (~3%)**.
+   - Every rupee of board capacity is a ~3× heavier capital commitment per rupee of sales than plywood.
+   - The FY31 ₹12,000 Cr plan needs ~₹2,500 Cr more capex, and the UP/Odisha board projects (₹1,300 Cr of MDF/PB alone) are where ROCE is won or lost.
+2. **The MDF glut is a supply-calendar story, not a demand story.**
+   - Listed-peer domestic MDF volumes grew ~10–25% in Q1 FY27 ("mid-teens" for the industry).
+   - But ~0.85–0.9 mn CBM of new lines (Action Tesa Vizag, Elixrr MP, Greenply line 2) on a ~4.2 mn base arrives by mid-2027, and ~1.5 mn CBM sits with Tier-2 lines that discount.
+   - Price discipline failed in Q1: the 15% hike was rolled back by all but Rushil.
+3. **Greenply, not Century, runs the most profitable MDF line.** Greenply's Vadodara MDF made **17.3% Core EBITDA** at ~₹33,500/CBM on 300k CBM, while Century made 7.0% and Greenpanel 10.3%. A single, full, West-India line with a 22% pre-lam mix beats bigger, emptier networks. The "scale wins" narrative needs this caveat.
+4. **Greenpanel has blinked.** It has dropped its price premium to Century and now prices at par. Century out-sold it in domestic MDF in each of the last two quarters (analyst, unchallenged). The market leader by capacity is now a price-follower. Combined with **₹154 Cr of outstanding EPCG export obligations** and zero exports, that is a hidden balance-sheet risk.
+5. **The chemical shock was bigger and shorter than "+40–45%" suggests.**
+   - Methanol, the formaldehyde feedstock, was +~180% YoY in rupee terms by May-2026, then eased after the June US–Iran MoU. CRISIL sees FY27 CFR at US$380–420/t, vs ~US$300 pre-war.
+   - Laminates carry ~35% chemical content and pass through ~7–8% net (Greenlam).
+   - MDF could not pass it through; plywood (Century +7%) could.
+6. **Laminate volumes are shrinking while value grows, and the reason is size mix, not weakness.**
+   - Century: sheets −8.4% in Q1 (large formats); Greenlam: −6.4% (export timing); Stylam: −3% QoQ (export).
+   - Realisations are up 13–29% YoY (Greenlam ₹1,240/sheet; Rushil ₹836 at 1 mm-equivalent).
+   - Decor-paper ADD on China ($110–542/t, under sunset review to Mar-2027) is a cost headwind laminators rarely mention.
+7. **Century's balance sheet is stronger on its own definitions than on ICRA's.**
+   - Deck "total debt" ₹1,531 Cr vs ICRA ₹1,765 Cr. ICRA's leverage path is 2.6× → 2.2–2.3× (FY27) → 1.6–1.7× (FY28).
+   - Contingent liabilities nearly doubled to ₹92 Cr, mostly new income-tax and GST demands. Small, but worth a line.
+8. **Plywood formalisation now has a measured pace.** Century targets 15% of the total market in five years (from 9.5–10%), i.e. 12–15% a year against 5–7% industry growth. Greenply's own-manufactured share rose from 58% to 68% in a year. **The organised players are in-sourcing**, which lifts capital intensity but secures margins against the trade-and-outsourcing model.
+
+### New primer issues — `primers/century-plyboards.html` (add to §3.4 list)
+
+- **Segment capital and returns (§07):** add the AR note 43 table.
+  - Plywood capital employed ₹1,055 Cr earning ~41% pre-tax.
+  - MDF ₹1,526 Cr at ~7%; PB ₹700 Cr at −4.6%; laminates ₹499 Cr at ~8.5%.
+  - "Four panels" should be presented with this capital lens. Source: FY26 AR, consolidated note 43.
+- **Capacities (§02/§04):**
+  - Plywood own capacity 396,300 CBM (6 units, ICRA 4.1 lakh).
+  - **MDF ~627,000 CBM after Q1 FY27** (ICRA 5.7 lakh before).
+  - **PB 240,000 CBM** (from 72,000).
+  - Laminates 96.5 lakh sheets (ICRA).
+  - Hoshiarpur plywood greenfield 60,000 CBM / ₹180 Cr in Q3 FY27.
+- **Pipeline (§08/§10):**
+  - **UP ~₹1,130 Cr** (MDF 330k CBM ₹800 Cr; plywood 60k + 30k CBM ₹330 Cr). UP plywood **April-2028 (Q1 FY29)**, not Q1 FY28.
+  - **Odisha** plywood 120k CBM (₹370 Cr) + PB/MDF 240k CBM (₹500 Cr).
+  - FY27 capex ₹400–420 Cr (ICRA).
+  - Source: FY26 AR board report; ICRA 30-Jun-2026; Q1 FY27 call.
+- **FY31 target (§00/§10):** add "₹12,000 Cr revenue aspiration by 2031". The existing assets support ₹7,500–8,000 Cr; ~₹2,500 Cr more capex is needed. Source: Q1 FY27 call.
+- **Debt definitions (§03):**
+  - Gross debt per deck ₹1,531 Cr; **ICRA/screener total debt ₹1,764.9 Cr** (incl. ₹134.8 Cr leases and buyers' credit).
+  - Net ₹1,472 Cr (deck) at Mar-26.
+  - ICRA leverage 2.6× → 2.2–2.3× FY27.
+  - Management's target: long-term debt ≤ 1× EBITDA.
+- **Market share (§00/§04/§09):** use **30–32% of organised (ICRA)** alongside **9.5–10% of total**, with the 15%-in-5-years goal.
+- **Founding (timeline):** **incorporated 5-Jan-1982** (ICRA "About the company"); drop or re-label "1986".
+- **Channel (§04):** >4,100 dealers, ~19,000 retailers (ICRA). Brand/marketing spend 4–4.5% of revenue (Q1 call).
+- **Exports (§02/§09):** exports ₹217.6 Cr in FY26 (+24.3%, 34 countries, ~4% of revenue). New Netherlands subsidiary (Century Panels B.V.) for European stock-and-sale.
+- **Contingent liabilities (§11 risks):** ₹91.9 Cr (from ₹49.3 Cr), mostly new income-tax (₹32 Cr) and mandi-tax (₹40 Cr) items.
+- **Auditor:** S.R. Batliboi & Co. LLP. The only KAM is revenue recognition; no qualification.
+- **Nepal:** if the primer or report mentions FIPPI's Nepal licence issue, state that **"Century Ply Industries Pvt Ltd" (Nepal) is not a Century Plyboards subsidiary or related party** per the FY26 AR.
+- **Peer framing (§08):** Greenply's MDF earns 17% vs Century's 7% (Q1 FY27). Greenpanel now prices at par with Century, and Century out-sold it domestically in the last two quarters.
+
