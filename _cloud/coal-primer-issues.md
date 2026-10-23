@@ -95,3 +95,8 @@ Logged by the cloud runner; owner fixes primers locally. Do not edit primers on 
 - Plant-stock language: say "**~7–8 days of cover / 36% of the normative stock (end-Sep-2026)**" rather than tonnes alone.
 
 
+
+### primer-audit.mjs "Mining || Coal" (2026-10-23) — pre-existing, not fixed on this branch
+- **coal-india.html**: ❌ banned phrase and "honest" used more than once; no `main{min-width:0}` (phone overflow risk). 74 KB, 6,265 words, 19 bars, 0 report links.
+- **gmdc.html**: ❌ bars < 10 (9); no `main{min-width:0}` (phone overflow risk). 66 KB, 5,583 words, 0 report links.
+- Both could link the new report `../subsectors/coal.html` once it is published.
