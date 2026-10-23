@@ -1209,6 +1209,23 @@
         "ITI and its land"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Depositories & Registrars",
+      "slug": "market-infra",
+      "file": "market-infra.html",
+      "sector": "Business Services",
+      "subsector": "Depositories, Clearing Houses and Other Intermediaries",
+      "companies": 3,
+      "accent": "#217362",
+      "hook": "Volume compounds, the toll gets cut: how CDSL, CAMS and KFin turn a ₹3.50 debit and about two basis points of fund assets into a ₹57,000 crore market cap — and why demat accounts, SIPs and AUM keep compounding while SEBI, fund houses and the KYC tariff reset keep trimming the price of every toll.",
+      "tags": [
+        "The paise economy",
+        "CDSL's FY26 paradox",
+        "The telescoping fee",
+        "Build versus buy: CAMS vs KFin"
+      ],
+      "published": "2026-10-23"
     }
   ],
   "universe": [
@@ -1312,7 +1329,7 @@
       "sector": "Business Services",
       "sub": "Depositories, Clearing Houses and Other Intermediaries",
       "companies": 3,
-      "report": null
+      "report": "market-infra.html"
     },
     {
       "sector": "Business Services",
