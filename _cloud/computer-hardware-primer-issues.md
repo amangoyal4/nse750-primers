@@ -61,3 +61,4 @@
 - AI Diffusion rule: say "**rescission announced May-2025; not yet formally removed from the CFR; replacement pending**", not "rescinded".
 - IndiaAI: add the **round-2 L1 rates (B200 ₹323/hr, H100 ₹153/hr; PIB 30-May-2025)** and the **₹65/hr subsidised user price**.
 
+- primer-audit hard-check FAIL (pre-existing): netweb-technologies.html — banned phrase, 'honest' >1, no main{min-width:0} (phone overflow). Logged, not fixed.
