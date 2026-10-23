@@ -20,3 +20,19 @@
 - **jk-paper.html — incorporation year:** primer timeline "1938 · 1962"; CRISIL says incorporated **1960**, screener "established 1962". Reconcile (likely incorporated 1960 as Central Pulp Mills / Straw Products, renamed later) [K — verify].
 - **diversified-fmcg.html (sibling) — MIP end date:** says the VMLP MIP "ran until 30 September 2026"; it was **extended on 30-Sep-2026 to 31-Mar-2027**. Also the ADD "awaiting Finance Ministry approval at the end of July" — still unverified after Aug-2026.
 
+## From Paper deep-research (2026-10-23, paper-industry.md Part 4)
+
+- **jk-paper.html — revenue basis (refines §3.4 item 1):** "~₹7,569 Cr" is JK's *gross* turnover (sales before ₹493 Cr of trade discounts, plus other operating revenue); audited **revenue from operations is ₹7,076 Cr**; company EBITDA ₹984 Cr includes ₹60 Cr other income (operating ₹924 Cr); PAT ₹266 Cr is the **owners'** share (total ₹273.5 Cr). Label each basis.
+- **jk-paper.html — chairman:** primer lists Bharat Hari Singhania as Chairman; the FY26 accounts and 2026 press releases name **Harsh Pati Singhania as Chairman & Managing Director**; Bharat Hari Singhania receives an advisory fee (₹2.75 Cr).
+- **jk-paper.html — capacity mix:** add **7.61 lakh tpa = uncoated 4.15 + coated 0.55 + packaging board 2.91 lakh tpa**; pulp 4.75 lakh tpa; mill split JKPM 3.15 / CPM 3.10 (2.60 board) / Sirpur 1.36. Replace "board ~35–40% (indicative)" with **38% of capacity; 3.2 lakh t board sold in FY25**.
+- **jk-paper.html — market shares:** add company estimates (FY24) **copier 28%, coated 8%, packaging board 17%**; "largest in office & communication paper, 2nd in paperboard, largest in corrugated boxes".
+- **jk-paper.html — wood cost quantified:** add delivered wood cost **₹7,542/t (FY23) → ₹14,460/t (FY26)**, wood 51% of raw-material cost; local-catchment share 100% → 70% (FY21–FY24); plantation 90,238 acres in FY26.
+- **jk-paper.html — Borkar/RWPL dates:** Borkar 71.96% from **28-Oct-2025**, 87.36% from 11-Jun-2026 (not "Oct-2026"); Radhesham Wellpack 80% → **100% on 9-Sep-2026** (₹44 Cr); Quadragen 65% with the remaining 35% due within four years.
+- **jk-paper.html — no investor calls:** the primer implies regular management commentary; JK has held **no analyst call since 21-May-2024** and published no presentation since Jan-2025 — say that guidance comes from press releases, the annual report and rating rationales.
+- **jk-paper.html — revenue mix:** "converting & other ~5–8%" understates it; JK says paper is **~50% of revenue (FY26) vs ~75% (FY22)**; segments: Paper & Packaging ₹6,890 Cr (PBIT ₹519 Cr), Others ₹192 Cr (Delopt defence electronics + animal nutrition + housing).
+- **jk-paper.html — trade remedy detail:** add the DGTR duty table (US$261/t RAPI, **nil for Indah Kiat/APP**, US$376/t others; five years) and that the Finance Ministry had not notified it by Oct-2026; board imports halved in H2 FY26 after the MIP (JK AR).
+- **jk-paper.html — net debt:** use company net debt **₹1,856 Cr (Mar-26; ₹1,317 Cr Mar-25), gearing 25%, interest cover 4.4×, company ROCE 5.9%**; CRISIL's 2.3× ND/EBITDA as the agency view.
+- **jk-paper.html — timeline:** add 1938 (straw boards), 1962 (Rayagada fine-paper mill), 1992 (acquired Central Pulp Mills, Songadh), 2005 coated, 2007 board, 2013 JKPM fibre line, 2022 CPM board line (1.7 lakh tpa), CIN shows incorporation in **1960** (Gujarat).
+- **jk-paper.html — governance/cost items:** KMP short-term pay ₹45 Cr (≈17% of owners' PAT FY26); FY26 exceptional ₹17.4 Cr (new Labour Codes); euro-restatement losses; CGST demand ₹2.5 Cr (Sep-2026, under appeal); Myanmar JV provision ₹15.4 Cr.
+- **diversified-fmcg.html (sibling) — ITC PSPD:** add segment depreciation ₹390 Cr (EBITDA ~₹1,187 Cr, 13.5%), **21% inter-segment revenue**, Lalkuan BTA 31-Mar-2025/CCI 16-Dec-2025/MoEFCC 18-Mar-2026/commissioned 1984; MIP end date now 31-Mar-2027 (ITC's own Q1 deck still said 30-Sep-2026).
+

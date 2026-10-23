@@ -997,3 +997,558 @@ Notes:
 - **[V-snip] AITIGA 13th JC:** https://www.ibef.org/news/india-hosts-13th-asean-india-trade-in-goods-agreement-joint-committee-meeting-to-advance-asean-india-trade-pact-review
 - **[V-snip] ITC Q1 FY27 segment:** https://www.kotakneo.com/news/stocks/itc-q1-fy27-results-fmcg-pat-down-3579-crore/
 - **Sibling:** `subsectors/diversified-fmcg.html` (ITC paperboards, Lalkuan deal, GST 2.0, MIP).
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-23)
+
+Second, primary-source pass (brief-deep-research.md). Everything tagged **[V]** in Part 4 was fetched and read this session (23-Oct-2026) from the named document; **[V-1p]** = a primary document fetched by the first pass today and re-read from its saved text in this pass (CRISIL/CARE rationales); **[K]/[E]** keep their Part 1 meanings. Where Part 4 conflicts with Parts 1–3, **Part 4 wins** (see 4.0).
+
+**Primary documents read this pass (JK Paper)**
+- **JK Paper Annual Report 2025-26** (BSE attachment, linked from screener "Documents"): https://www.bseindia.com/xml-data/corpfiling/AttachHis/c423f126-b843-4661-ba6f-ca9d2d1f5126.pdf — Chairman's letter, Performance Highlights, MD&A, Directors' Report, Report on Corporate Governance (commodity-risk disclosure), standalone + consolidated statements, Note 39 (segment), Note 40 (contingent liabilities), Note 46 (related parties), Form AOC-1. Also on www.jkpaper.com/pdf/annual-reports/Revised2-Annual-Report-2025-26.pdf.
+- **JK Paper Annual Reports 2024-25, 2023-24, 2022-23** (BSE AttachHis 780966ca…, 68d88172…, 03f8546c…) — for the wood-cost disclosure series, grade volumes and capacity history.
+- **Q1 FY27 results + press release, 27-Jul-2026**: https://www.jkpaper.com/pdf/intimation-to-stock-exchanges/Outcome-of-Board-Meeting-27-07-2026.pdf and …/Press-Release-Financial-Results-for-the-quarter-ended-30th-June-2026.pdf
+- **FY26 press release, 18-May-2026**: …/Press-Release-Financial-Results-for-the-year-ended-31st-March-2026.pdf
+- **Reg-30 disclosures**: Borkar Packaging stake update 11-Jun-2026 (…/Disclosur-under-Regulation-30-SEBI-LODR-Acquisition-update-BPPL12062026.pdf); Radhesham Wellpack 9-Sep-2026 (…/Disclosure-under-Regulation-30-SEBI-LODR-Acquisition-update-RWPL-992026.pdf); GST order 22-Sep-2026 (…/Intimation-under-Regulation-30-of-SEBI-LODR-GST-Order22092026.pdf); senior-management change 18-May-2026.
+- **Corporate Update (investor presentation), January 2025** — the latest presentation JK has published: https://www.jkpaper.com/pdf/corporate-update/Corporate_Update_Jan_2025.pdf (capacity by mill and grade, market shares, quarterly volumes by grade, wood-catchment series).
+- **Latest earnings-call transcript: Q4 FY24 call of 21-May-2024** (hosted by IDBI Capital): https://www.jkpaper.com/pdf/transcript-of-conference-call/STX_Transcript.pdf. **JK Paper has held no analyst call since May-2024 and has published no presentation since Jan-2025** (the company's "Transcript of conference call" page and screener's documents list both end there; the BSE announcements API refused bot access). **There is no Q1 FY27 call or Q1 FY27 presentation to read** — the guidance digest in 4.2 is therefore built from the Q1 FY27 press release, the FY26 annual report (MD&A/Directors' Report, May-2026), CRISIL (15-Sep-2026) and the May-2024 call.
+- Note: jkpaper.com works — the first pass hit dead paths. The live investor pages are `/financial-results`, `/intimation-to-stock-exchanges`, `/transcript-of-conference-call`; PDFs sit under `https://www.jkpaper.com/pdf/...` (the bare `jkpaper.com` host 301-redirects).
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3 — the writer should apply these)
+
+| # | Where in Parts 1–3 | Old value | New value | Source [tag] |
+|---|---|---|---|---|
+| S1 | Trap 4, §2.1, §3.3, §H5 — "four different FY26 numbers" | Revenue 7,076 / 7,492 / 7,569 unexplained; PAT 274 / 266 / 297 / 364 unexplained; EBITDA 924 / 984 / 854 | **All reconciled from the audited consolidated P&L.** Sales ₹7,462.22 Cr − discounts ₹492.90 = net sales ₹6,969.32 + other operating revenue ₹106.71 = **revenue from operations ₹7,076.03 Cr**. The company's headline **"turnover/Revenue from Operations (Gross)" ₹7,568.93 Cr = sales before discounts + other operating revenue** (7,462.22 + 106.71). **Company EBITDA ₹984.11 Cr includes other income ₹60.06 Cr** → operating EBITDA ₹924.05 Cr (= screener OP). PBT ₹364.48 Cr (**CRISIL's "PAT ₹364 Cr" is actually PBT**). PAT ₹271.87 Cr + associates ₹1.63 = **₹273.50 Cr total (screener's 274)**, of which **owners ₹265.84 Cr (the press release / primer's 266)** and NCI ₹7.66 Cr. Exceptional item ₹17.36 Cr (new Labour Codes) → adjusted PAT ≈ ₹287–297 Cr (IDBI's ₹297 Cr adds back tax-effected items). CRISIL's ₹7,492 Cr is an analytically adjusted figure. | JK AR FY26, consolidated P&L & Directors' Report [V]; FY26 press release [V] |
+| S2 | Writer basis rule (Trap 4) | "Use screener" | **Use revenue from operations ₹7,076 Cr, operating EBITDA ₹924 Cr (13.1%) and PAT attributable to owners ₹265.8 Cr (EPS ₹14.66) in tables; footnote that JK's own headline is "turnover ₹7,569 Cr / EBITDA ₹984 Cr" (gross of ₹493 Cr trade discounts; EBITDA incl. other income).** The primer's ₹7,569 Cr is not "wrong", it is a different line — the stat strip should say "revenue from operations". | AR FY26 [V] |
+| S3 | §2.1 Q1 FY27, §2.9 "PAT ₹136 vs ₹130 Cr" | Conflict | **Total PAT ₹136.27 Cr; attributable to owners ~₹130.1 Cr; NCI ₹6.15 Cr** (Quadragen 35% minority, Borkar 12.64%). Company headline: turnover (gross) ₹1,998.67 Cr (+13%), EBITDA incl. OI ₹320.90 Cr (+18%), PAT ₹136.27 Cr (+63%). Net revenue ₹1,887.17 Cr; other income ₹31.14 Cr → operating EBITDA ~₹289.8 Cr (15.4%). | Q1 FY27 results & press release, 27-Jul-2026 [V] |
+| S4 | §0, §2.1, §B4, §G, §H7, JSON — Borkar Packaging "87.36%, October 2026" | 72% vs 87.36%; date Oct-2026 | **Two steps:** SPSSA signed 28-Jul-2025; **71.96% acquired with effect from 28-Oct-2025** (FY26; consolidated for ~5 months: turnover ₹153.20 Cr, loss ₹6.26 Cr); **further 15.40% (40,08,899 shares) bought on 11-Jun-2026 → 87.36%**. CRISIL's "October 2026" is a typo for Oct-2025. | AOC-1 FY26 [V]; Reg-30 disclosure 11-Jun-2026 [V]; MD&A "acquisition of Borkar Packaging Pvt. Ltd. in October 2025" [V] |
+| S5 | §0, §2.1 group structure — Radheshyam Wellpack "100%, Jan-2025" | 100% from Jan-2025 | SPSHA 13-Dec-2024 (60% upfront + 40% within two years); **80% at 31-Mar-2026** (AOC-1); **remaining 20% bought 9-Sep-2026 for ₹44.02 Cr → wholly owned**. Correct spelling: **Radhesham** Wellpack Pvt Ltd. FY26 turnover ₹107.34 Cr, PAT ₹13.62 Cr. | AOC-1 [V]; Reg-30 9-Sep-2026 [V]; Corporate Update Jan-2025 [V] |
+| S6 | §2.1, §3.3 — "Bharat Hari Singhania (Chairman), Harsh Pati Singhania (VC & MD)" | — | **Harsh Pati Singhania is Chairman & Managing Director** (signs FY26 accounts; quoted in both 2026 press releases). Bharat Hari Singhania is listed as a *relative of KMP* receiving **advisory fees of ₹2.75 Cr** a year. A.S. Mehta = President & Director; CFO K.R. Veerappan; Company Secretary changed from Pradeep Joshi to **Arvind Kumar** (by Sep-2026). | AR FY26 Note 46 [V]; press releases [V]; Reg-30 filings [V] |
+| S7 | §4.1, §B2, §C.2, §F, §9.3, §H2 — wood price "₹4,000–4,500/t pre-FY21 → peak ₹7,500–8,500/t → ~₹6,500–7,000/t" [K/E] | [K/E] | **JK Paper's own disclosure (standalone, hardwood + bamboo consumed): FY23 10.53 lakh t for ₹794 Cr = ₹7,542/t; FY24 10.85 lakh t / ₹1,175 Cr = ₹10,829/t; FY25 10.68 lakh t / ₹1,501 Cr = ₹14,054/t; FY26 10.18 lakh t / ₹1,472 Cr = ₹14,460/t.** Delivered wood cost per tonne **nearly doubled (+92%) FY23→FY26**; wood's share of raw-material cost rose from **34% (FY23) to 47% (FY24) and 51% (FY25, FY26)**. The [K] levels in Part 1 were roughly half the true delivered cost; replace them. (Delivered cost incl. freight, harvesting and bamboo; mill-gate farm prices are lower.) | AR FY23–FY26, Report on Corporate Governance, "commodity price risk" disclosure [V] |
+| S8 | §C.2 worked example wood line (2.5 t × ₹5,500–7,800/t) | ₹13,750 / ₹19,500 / ₹17,500 per t of product | Rebuild on **~1.5 t of (as-received) hardwood + bamboo per tonne of standalone paper/board sold** (FY26: 10.18 lakh t wood ÷ ~6.9 lakh t standalone sales, i.e. 8.19 lakh t less ~1.3 lakh t Sirpur [E]; FY23: 10.53 ÷ ~6.5 ≈ 1.6) × ₹/t → **wood bill ≈ ₹12,000/t of product in FY23 → ≈ ₹21,500/t in FY26** (+~₹9,500/t) [E from V inputs]. Part 1's direction (wood took ~₹6,000/t out of EBITDA) was right but **understated the hit by ~₹3,500/t**; the 2.5 t/t ratio and ₹5,500–7,800/t unit prices are both wrong. | AR series [V]; [E] arithmetic |
+| S9 | §4.3, §9.1, E11, Trap 1 — JK capacity "grade split not disclosed"; board "~35–40%" | not disclosed | **Saleable capacity 761,000 tpa = uncoated 415,000 + coated 55,000 + packaging board 291,000**; by mill: **JKPM Rayagada 315,000 paper (pulp 215,000); CPM Songadh 50,000 paper + 260,000 board (pulp 150,000); Sirpur 105,000 paper + 31,000 board (pulp 110,000)**; total pulp 475,000 tpa (BD). Board = **38% of capacity**. | Corporate Update Jan-2025, slide 7 [V] |
+| S10 | §5.1 market shares [E] ("JK ~15–18% of virgin W&P") | estimates | **Company estimates (FY24): copier 28% (market leader), coated paper 8%, packaging board 17%.** FY26 AR: "largest producer of Office & Communication paper in India, the **second-largest player in Paperboard** and the **largest player in Corrugated Boxes**"; top-three in mono-cartons after Borkar. | Corporate Update Jan-2025 [V]; AR FY26 MD&A [V] |
+| S11 | Trap 3, §C.1 "paper & board ~₹6,094 Cr + non-paper ~₹980 Cr [E]" | [E] | AR: **"paper business coming down to about half from three-fourth in last 4 years"** (revenue-mix chart: paper 75% FY22 → **50% FY26**; "Packaging & Other businesses" 50%). The "packaging" bucket includes **virgin packaging board** as well as corrugated/cartons, so it is *not* a converting-only share. Converting/other subsidiaries' FY26 turnover (AOC-1): Borkar ₹153 Cr (5 months), Quadragen ₹123 Cr, RWPL ₹107 Cr, JKPL Packaging Products ₹106 Cr, plus the amalgamated Horizon/Securipax (inside standalone; not separately disclosed). Reported segments: **Paper & Packaging ₹6,890 Cr (PBIT ₹519 Cr, 7.5%)**; **Others ₹192 Cr (PBIT ₹28 Cr)** — Others = employee housing, **Delopt (defence electronics/electro-optics, Bengaluru)** and animal nutrition. | AR FY26 pp. 7–8, Note 39, AOC-1 [V] |
+| S12 | §0, §9.1, E1 — "FY23 ~7.3 lakh t (assumed)"; FY26 volume 8.18 | assumed | **Sales volume: FY24 7.94 lakh t (+2.3% → FY23 ≈ 7.76 lakh t), FY25 8.06, FY26 8.19 lakh t** (company). Grade sales: FY24 uncoated W&P + specialty 4.30, coated 0.58, packaging board 3.05; FY25 4.19 / 0.58 / 3.2 lakh t. CRISIL's 8.18 is a rounding. | AR FY24/FY25/FY26 [V] |
+| S13 | §9.1, §F, §C.2 EBITDA/t (FY23 "~₹27,500 on assumed 7.3 lakh t") | ~27,500 | **FY23 operating EBITDA/t ≈ ₹25,900** (₹2,012 Cr ÷ 7.76 lakh t) or ₹28,100 on company EBITDA incl. OI (₹2,184 Cr); **FY26 ₹11,280/t** (₹924 Cr ÷ 8.19 lakh t); Q1 FY27 annualised ≈ ₹14,000/t still stands [E on V inputs]. | AR [V] + [E] |
+| S14 | §2.1, §9.1, §F net debt "2,041 screener / ~1,998 company" | — | **Company definition (Note 48.3, consolidated): borrowings ₹2,436.25 Cr − cash ₹179.31 Cr − current investments ₹400.52 Cr = net debt ₹1,856.42 Cr (Mar-25 ₹1,317.42 Cr); gearing 25%.** Screener's ₹2,578 Cr "borrowings" includes lease liabilities/other items. Company ROCE 5.9% (FY25 7.8%); interest cover 4.37× (5.77×). ND/EBITDA = 1,856 ÷ 924 = **2.0×** (CRISIL's 2.3× uses its own adjusted EBITDA). | AR FY26 [V] |
+| S15 | §G 1960/1962 incorporation; primer "1938 · 1962" | flag | CIN **L21010GJ1960PLC018099** (incorporated 1960, Gujarat — the Central Pulp Mills entity); JK history: **1938 straw boards; 1962 fine-paper mill at Rayagada (JKPM); 1992 acquired Central Pulp Mills (CPM, Songadh)**; 2005 coating plant; 2007 packaging board; 2013 fibre line + PM at JKPM; 2018 Sirpur (1,36,000 tpa); 2022 new board line at CPM (1,70,000 tpa, lifting standalone capacity 4.55 → 6.25 lakh tpa). | Press-release letterhead CIN [V]; Corporate Update slide 3 [V]; AR FY23/FY24 [V] |
+| S16 | §B1, §5.3 MIP impact (no volume evidence) | — | **JK AR: paperboard imports averaged close to 30,000 t a month in H1 FY26 and fell by nearly 50% in H2 FY26 after the MIP.** | AR FY26 MD&A [V] |
+| S17 | §2.1 "market size ~24–25 mt; W&P 30%" | Infomerics | JK AR FY26: Indian paper & paperboard market **~25 mt in FY26, growing ~6%**; **W&P ~7 mt (~30%), growing 2–3%**; **paperboard/packaging ~65% of volumes, growing ~8%**; corrugation 7–8 mt (FY25) → 11–12 mt by FY30 (>10,000 makers, 65–70% utilisation). Global paper & board ~435 mt (2025, +0.4%), W&P ~73 mt (−2% CAGR), paperboard ~275 mt (+2%). | AR FY26 MD&A [V] |
+| S18 | §2.1 "Myanmar JV (Habras MZZ)" | live JV | JK has **provided ₹15.38 Cr** against its ₹22.59 Cr investment in the Singapore subsidiary that holds the 50% Myanmar plantation JV (banking restrictions in Myanmar). | AR Note 41B [V] |
+| S19 | Trap 9 / §H8 — Seshasayee "IPPL" | unidentified | See 4.2.4: Seshasayee's consolidated accounts include its associate **Ponni Sugars (Erode)**; no entity "IPPL" appears in its rationale or screener consolidation; treat "IPPL" as a prompt error. | CRISIL Seshasayee Feb-2026 [V-1p]; screener [V] |
+| S20 | §2.1 "JK QVPL 65% Mar-2025" | — | 62.14% at first close; **+2.86% to 65% w.e.f. 22-Aug-2025**; balance 35% to be bought within four years of the Jan-2025 SPSHA (a future cash call). | AR FY26 Directors' Report [V]; Corporate Update [V] |
+| S21 | Trap 4 / §2.1 exceptional item, PAT drivers | none noted | FY26 PAT also hit by **rupee depreciation vs the euro → restatement losses** (FY26 press release) and by the **₹17.36 Cr Labour-Code exceptional** (Q4 ₹3.0 Cr). | FY26 press release [V]; Q1 results segment table [V] |
+
+| S22 | §4.3, E11, §9.1, §2.4 — Seshasayee "255,000 tpa + 75,000 Servalakshmi (≈3.3 LTPA)" | 2.55 + 0.75 | **Installed capacity 2,55,000 tpa = Unit Erode 1,65,000 + Unit Tirunelveli 90,000; Unit Tirunelveli *is* the ex-Servalakshmi mill** (Kodaganallur, Tirunelveli; sale certificate 24-May-2023; NCLAT appeals pending). Do not add 75,000 on top. FY26 production 2,48,385 t (Erode 1,75,205 t at 106%; Tirunelveli 73,180 t); sales 2,49,714 t. | Seshasayee AR FY26, Directors' Report [V] |
+| S23 | §4.3 Andhra capacity 2,55,550 tpa (CARE) | 2.56 LTPA | AR FY26 states **paper capacity 2,97,500 tpa**; FY26 production 2,59,266 t (record), sales 2,60,438 t. Use 2.98 LTPA (company) and note CARE's older 2.56. | Andhra AR FY26 [V] |
+| S24 | Trap 6, §2.6, §6 — ITC segment depreciation "~₹450–550 Cr [E]"; EBITDA margin 14–15% | [E] | **FY26 segment depreciation ₹390.39 Cr** → segment EBITDA ≈ ₹1,187 Cr = **13.5% of total segment revenue ₹8,765.61 Cr**. **₹1,839.04 Cr (21%) of segment revenue is inter-segment** (sales to ITC's cigarettes/FMCG); external revenue ₹6,926.57 Cr. Segment capex ₹405.91 Cr; segment assets ₹9,781.88 Cr; FY25 PBIT ₹911.49 Cr. | ITC Report & Accounts 2026, Note 30 [V] |
+| S25 | §2.6, §G — Lalkuan deal facts | ₹3,498 Cr | BTA signed **31-Mar-2025** for "up to ₹3,500 Cr" (cash-free, debt-free slump sale); **CCI approval 16-Dec-2025; MoEFCC approval for transfer of leased forest land 18-Mar-2026**; mill commissioned **1984**; 4.8 lakh tpa. ITC says its own mills are "near saturation". (Completion ₹3,498 Cr on 1-Aug-2026 remains [V-sib].) | ITC R&A 2026, Directors' Report [V] |
+| S26 | §B1, §7.1, §G, §12 — VMLP anti-dumping duty "amount not stated"; Indonesian imports 62,935 t | — | **DGTR final findings (25-Jun-2026; case 6/20/2025-DGTR) recommend ADD for five years: PT Riau Andalan Paperboard International (APRIL group) US$261/t; PT Indah Kiat Pulp & Paper (APP group) *nil* (negative dumping margin); all other Indonesian producers and exports via third countries US$376/t.** Dumping margins 65–75% (RAPI) and 105–115% (others). DGTR's subject-import volume for the POI is **61,567 t** (IPMA's 62,935 t is a different cut). Total VMLP imports 57,178 t (FY22) → 1,34,652 → 1,55,181 → **2,93,632 t (FY25)**. As of ITC's Q1 FY27 presentation (31-Jul-2026) the ADD was "pending approval from Ministry of Finance"; no customs notification found to 23-Oct-2026. | DGTR final findings, non-confidential version [V]; ITC Q1 FY27 presentation [V] |
+| S27 | §C.3 import-parity worked example "Indonesian offer ~$620/t; landed ~₹63,000 without MIP" | [K/E] | **DGTR: Indonesian landed price ₹87,961/t (FY22) → ₹87,048 → ₹63,311 → ₹54,675/t (FY25, −38%)**; domestic industry's **average selling price ₹68,473 → ₹81,664 → ₹68,748 → ₹67,244/t**; cost of sales +21% over the period. The MIP (₹67,220 CIF) sat ~₹12,500/t above the FY25 Indonesian landed price, and **DGTR found the MIP below the domestic industry's cost of sales**. | DGTR FF [V] |
+| S28 | §5.3, §B1 — "ITC + JK + TNPL ≈ most of domestic virgin board" | [E] | DGTR: the applicants (**ITC, JK Paper, TNPL, Emami Paper, ABREL/Century**) = **97% of Indian VMLP production**; **West Coast is the only other producer**. Domestic VMLP industry **installed capacity 16,90,000 t**, production of the product 13.04 lakh t, domestic sales 11.69 lakh t, exports 94,701 t (FY25 POI); utilisation ~100%. | DGTR FF [V] |
+| S29 | §7.1 MIP — "Policy Circular 04/2025-26 dated 03-09-2025 or 2026" | flag | Notification 38/2026-27 text cites "Policy Circular No. 04/2025-26 dated 03.09.2026" — as a 2025-26 circular it must be **3-Sep-2025** (the "2026" is a typo in the notification). MIP terms otherwise unchanged; the restriction applies to imports **below** ₹67,220/t CIF (imports above it remain "free", subject to PIMS registration). | DGFT Notif. 38/2026-27 [V]; PIMS context [V-snip] |
+| S30 | §2.1 imports series | FY24 1.93 [V-snip] | IPMA/DGCI&S series (thousand t; total / China / ASEAN): **FY21 1,084.7 / 145.9 / 145.2 · FY22 1,145.8 / 145.8 / 148.3 · FY23 1,436.5 / 341.0 / 266.5 · FY24 1,929.1 / 411.4 / 514.1 · FY25 2,054.7 / 547.3 / 415.3; H1 FY26 1,014.5 / 278.6 / 207.3 (+2.2% YoY)**. Note **ASEAN exceeded China in FY24**; China's share FY25 = 26.6%. FY26 full year still not published in a fetchable form. | IPMA table reproduced by Paper Market (25-Nov-2025) [V-ind] |
+
+**Supersedes — short list for the writer (apply in this order):** S1–S3 (JK basis), S4–S5 (Borkar/RWPL), S7–S8 (wood), S9–S10 (capacity by grade, market shares), S11 (paper only ~50% of JK revenue), S12–S13 (volumes, EBITDA/t), S14 (net debt 1,856), S22 (Seshasayee 2.55 LTPA incl. Servalakshmi), S24 (ITC segment EBITDA), S26–S28 (ADD quantum, Indonesian landed price, domestic VMLP industry), S6 (Chairman = Harsh Pati Singhania).
+
+---
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+Tags: **[V-P]** = verified this session from a primary document (company filing/annual report/results, regulator or ministry text, rating rationale); **[V-1p]** = primary rating rationale fetched by the first pass today, re-read here; **[V-ind]** = industry-body data (IPMA/DGCI&S) via a trade publication; **[V-agg]** = data aggregator (stockanalysis.com, 23-Oct-2026); **[V-snip]** = secondary article/summary only. "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Primary source (URL) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | JK FY26 revenue from operations (cons.) | **₹7,076.03 Cr** (FY25 restated ₹6,662.49 Cr; +6.2%) | JK AR FY26 consolidated P&L — bseindia.com/xml-data/corpfiling/AttachHis/c423f126-…pdf | Yes [V-P] | Yes (screener) |
+| 2 | JK FY26 "turnover" (company headline) | **₹7,568.93 Cr** = gross sales ₹7,462.22 + other op. rev ₹106.71 (before ₹492.90 Cr discounts) | AR FY26; FY26 press release 18-May-2026 (jkpaper.com) | Yes [V-P] | Explains primer's 7,569 (S1) |
+| 3 | JK FY26 EBITDA | Company **₹984.11 Cr** (incl. other income ₹60.06 Cr); operating **₹924.05 Cr (13.1%)** | AR FY26 | Yes [V-P] | Yes, basis now explained |
+| 4 | JK FY26 PAT | Total **₹273.50 Cr**; owners **₹265.84 Cr**; EPS ₹14.66; PBT ₹364.48 Cr; exceptional ₹17.36 Cr | AR FY26 | Yes [V-P] | Reconciles 274/266/364 (S1) |
+| 5 | JK sales volume | **FY24 7.94 · FY25 8.06 · FY26 8.19 lakh t** (FY23 ≈ 7.76 derived from "+2.3%") | AR FY24/FY25/FY26 Directors' Reports | Yes [V-P] | Yes (8.18 CRISIL = rounding); FY23 corrected (S12) |
+| 6 | JK capacity and grade split | **7,61,000 tpa = uncoated 4,15,000 + coated 55,000 + board 2,91,000**; pulp 4,75,000 tpa BD; JKPM 3.15 / CPM 0.50 + 2.60 board / Sirpur 1.05 + 0.31 board (lakh tpa) | Corporate Update Jan-2025 slide 7 — jkpaper.com/pdf/corporate-update/Corporate_Update_Jan_2025.pdf | Yes [V-P] | Total yes; split new (S9) |
+| 7 | JK market shares (company est., FY24) | **Copier 28% · coated 8% · packaging board 17%**; "largest in office & communication paper, 2nd in paperboard, largest in corrugated boxes" (FY26) | Corporate Update Jan-2025 slide 6; AR FY26 MD&A | Yes [V-P] | Replaces [E] shares (S10) |
+| 8 | JK delivered wood cost | **₹7,542/t (FY23) → ₹10,829 (FY24) → ₹14,054 (FY25) → ₹14,460/t (FY26)**; wood = 34% → 47% → 51% → 51% of RM cost | AR FY23–FY26, Corporate Governance Report "commodity price risk" | Yes [V-P] | **No** — Part 1 [K] ₹6,500–8,500 was ~half (S7) |
+| 9 | JK net debt (company definition) | **₹1,856.42 Cr** (Mar-26) vs ₹1,317.42 Cr; gearing 25%; interest cover 4.37×; ROCE 5.9% | AR FY26 Note 48.3 + MD&A | Yes [V-P] | Partly — screener 2,041 / CRISIL 2.3× are other bases (S14) |
+| 10 | JK Q1 FY27 | Net revenue **₹1,887.17 Cr**; gross ₹1,998.67 Cr (+13%); EBITDA incl. OI ₹320.90 Cr (+18%) / operating ~₹289.8 Cr (15.4%); PAT **₹136.27 Cr (+63%)**, owners ~₹130.1 Cr | Outcome of Board Meeting & press release 27-Jul-2026 (jkpaper.com) | Yes [V-P] | Yes; resolves 136 vs 130 (S3) |
+| 11 | JK BCTMP start | **Commercial production 30-Jun-2026** at Unit CPM; makes JK "fully self-sufficient in hardwood BCTMP" | AR FY26 (Directors' Report); Q1 press release | Yes [V-P] | Yes |
+| 12 | Borkar Packaging stake | **71.96% from 28-Oct-2025 → 87.36% on 11-Jun-2026** | AOC-1; Reg-30 11-Jun-2026 | Yes [V-P] | **No** — corrects "Oct-2026" (S4) |
+| 13 | Radhesham Wellpack | 80% at Mar-26 → **100% on 9-Sep-2026 (₹44.02 Cr for 20%)** | Reg-30 9-Sep-2026 | Yes [V-P] | **No** — was "100% Jan-2025" (S5) |
+| 14 | JK composite scheme | NCLT order 3-Feb-2026; effective 15-Mar-2026; **1,19,16,427 shares** to ETVL holders (record date 13-Mar-2026); Sirpur direct WOS | AR FY26 Directors' Report | Yes [V-P] | Yes (exact count added) |
+| 15 | JK segments FY26 | **Paper & Packaging ₹6,890.28 Cr, PBIT ₹519.17 Cr; Others ₹192.17 Cr, PBIT ₹27.95 Cr**; capital employed ₹5,151.6 / ₹634.8 Cr | AR FY26 Note 39 | Yes [V-P] | New |
+| 16 | JK revenue mix | Paper business **~75% (FY22) → ~50% (FY26)** of revenue | AR FY26 pp. 7–8 | Yes [V-P] | New (S11) |
+| 17 | Board imports after MIP | **~30,000 t/month in H1 FY26; down ~50% in H2** | AR FY26 MD&A | Yes [V-P] | New (S16) |
+| 18 | MIP | **₹67,220/t CIF**, HS 48059100/200/300, 48109200/900; Notif. 26/2025-26 (22-Aug-2025) → 69/2025-26 → 14/2026-27 → **38/2026-27 (30-Sep-2026) to 31-Mar-2027** | DGFT Notif. 38/2026-27 text (worldtradescanner.com/38-Ntfn-DGFT-30.09.2026.htm) | Yes [V-P] | Yes (now from text, not taxguru) |
+| 19 | ADD recommendation (VMLP, Indonesia) | **US$261/t RAPI; nil Indah Kiat; US$376/t others; 5 years**; final findings 25-Jun-2026 | DGTR FF non-confidential (worldtradescanner.com/NCV FF-Virgin Paperboard_ English 25.06.26.pdf) | Yes [V-P] | New quantum (S26) |
+| 20 | Domestic VMLP economics | Selling price **₹67,244/t** (FY25) vs ₹81,664 (FY23); Indonesian landed **₹54,675/t**; capacity **16.9 lakh t** | DGTR FF | Yes [V-P] | New (S27–S28) |
+| 21 | Indonesian VMLP imports | **108 t (FY22) · 1,737 · 463 · 61,567 t (POI FY25)**; total VMLP imports 57,178 → 2,93,632 t | DGTR FF | Yes [V-P] | Conflict: IPMA 296 → 62,935 t; **use DGTR** (the authority's verified DG Systems data) |
+| 22 | ADD status | "Pending approval from Ministry of Finance" (31-Jul-2026); no customs notification found by 23-Oct-2026 | ITC Q1 FY27 presentation (BSE AnnPdfOpen 20b685f4…) | Yes [V-P] (status) | Yes (still pending) |
+| 23 | ITC PSPD Q1 FY27 | Revenue **₹2,307 Cr (+9%)**, PBIT **₹224 Cr (+38%)**, margin +200 bp; "wood cost moderates YoY" | ITC Q1 FY27 presentation | Yes [V-P] | Yes (was [V-snip]) |
+| 24 | ITC PSPD FY26 | Revenue **₹8,765.61 Cr** (inter-segment ₹1,839.04 Cr); PBIT **₹796.71 Cr**; depreciation ₹390.39 Cr → EBITDA ≈ ₹1,187 Cr | ITC Report & Accounts 2026, Note 30 | Yes [V-P] | Yes; adds D&A (S24) |
+| 25 | Lalkuan (Century Pulp & Paper) | **4.8 lakh tpa; commissioned 1984; BTA 31-Mar-2025 up to ₹3,500 Cr; CCI 16-Dec-2025; MoEFCC 18-Mar-2026** | ITC R&A 2026 | Yes [V-P] | Yes (S25) |
+| 26 | India market size | **~25 mt (FY26), ~6% growth; W&P ~7 mt (~30%), +2–3%; paperboard ~65%, +8%** | JK AR FY26 MD&A (company estimates) | Yes [V-P] | Yes (Infomerics ~25 mt) |
+| 27 | India paper imports FY25 | **2,054.7 kt** (China 547.3; ASEAN 415.3) | IPMA/DGCI&S table via Paper Market 25-Nov-2025 | Yes [V-ind] | Yes |
+| 28 | Imports H1 FY26 | **1,014.5 kt (+2.2%)**; China 278.6 (+4.1%); ASEAN 207.3 (+13.7%) | same | Yes [V-ind] | New; FY26 full-year still open |
+| 29 | West Coast (Dandeli) volume | Production **3,19,933 t (99.98%)**; sales **3,20,567 t**; SA paper segment revenue ₹2,235.85 Cr, PBIT ₹192.45 Cr | WCPM AR FY26 | Yes [V-P] | New |
+| 30 | Andhra Paper volume/margin | Sales **2,60,438 t** (FY23 2,50,238); EBITDA ₹150.9 Cr, **8%** (FY23 37%) | Andhra AR FY26 six-year highlights | Yes [V-P] | New |
+| 31 | Seshasayee capacity/volume | **2,55,000 tpa incl. Tirunelveli (ex-Servalakshmi)**; sales 2,49,714 t; company EBITDA ₹145.36 Cr (8.5%) | Seshasayee AR FY26 | Yes [V-P] | **No** on capacity (S22) |
+| 32 | TNPL volume | Sales **6,46,693 t** (paper 4.48 + board 1.99 lakh t); PBIDT ₹556.66 Cr; PBT ₹50.60 Cr | TNPL AR FY26 | Yes [V-P] | Yes (capacity basis) |
+| 33 | TNPL FY26 PAT | ₹247.75 Cr incl. ~₹219 Cr deferred-tax credit | CARE 21-Sep-2026 (careratings.com/…/202609120904_…pdf) | [V-1p] | Yes |
+| 34 | JK leverage (agency) | ND/EBITDA **2.3×**; downgrade trigger ">2× sustained"; Crisil AA/Stable | CRISIL 15-Sep-2026 | [V-1p] | Yes (company basis 2.0×, S14) |
+| 35 | Wood from local catchment (JK) | **100% (FY20–21) → 94% (FY22) → 77% (FY23) → 70% (FY24)** | Corporate Update Jan-2025 slide 16 | Yes [V-P] | New |
+| 36 | GST 2.0 on paper | 4802/4804/4810 12→18%; notebook paper 12→0; 4819 boxes 12→5; eff. 22-Sep-2025 | Notif. 9/2025-CT(Rate) via taxguru; JK & Seshasayee ARs confirm the "inverted duty / nil-GST confusion" effect | Partly [V-snip + V-P effect] | Yes |
+| 37 | PIMS | DGFT Notif. 11/2015-20 of **25-May-2022**, 201 chapter-48 lines, registration mandatory for BoEs from **1-Oct-2022**; still the base regime under the 2025 MIP notification | afleo/printweek/papermarket summaries | [V-snip] | Yes (date confirmed; text not fetched) |
+| 38 | Customs duty | MFN BCD **10%**, WTO bound **40%**; **nil under AITIGA**; APTA **30% margin of preference** to China; IPMA asks 25% | IPMA via Business Standard (Jan-2024) + Paper Market (Nov-2025) | [V-snip/V-ind] | Yes |
+| 39 | CCTS coverage | GEI Target Rules 2025 (effective 8-Oct-2025): **282 entities incl. 53 pulp & paper units**, two-year targets from FY26; TNPL AR refers to "GHG Emission Intensity for Compliance"; JK Scope-1 703,932 tCO₂e, 1.02 tCO₂e/t (FY26 BRSR) | corporateprofessionals/visionias summaries; TNPL & JK ARs | [V-snip] (+[V-P] company data) | Upgrades [K] |
+| 40 | Global peers (TTM, 23-Oct-2026) | **International Paper** rev $24.2 bn, EBITDA margin 16.3%, EV/EBITDA 6.8×, TTM net loss $3.4 bn · **Suzano** $9.2 bn, **41.5%**, 6.5× · **UPM** €9.5 bn, 13.2%, 12.4× · **Stora Enso** €9.3 bn, 6.7%, 13.5× · **Nine Dragons** HK$86.6 bn, 13.6%, 8.9×, P/B 0.38 | stockanalysis.com statistics pages | Yes [V-agg] | Replaces [K] ranges |
+
+**Count: 32 of 40 are now [V] from primary documents** (30 [V-P] + 2 [V-1p] rating rationales: rows 1–26, 29–35); 3 are [V-ind]/[V-agg] (27, 28, 40); 4 remain [V-snip] (36–39, of which 36 and 39 carry [V-P] company corroboration).
+
+**Conflicts resolved by credibility**
+- Indonesian VMLP imports: DGTR (61,567 t POI, DG Systems data, verified) beats IPMA's press figure (62,935 t; likely DGCI&S cut by HS line rather than by product scope). Use DGTR in charts; cite IPMA only as "≈63,000 t".
+- JK revenue: audited "revenue from operations" (₹7,076 Cr) beats the press-release "turnover" (₹7,569 Cr) for ratio work; the gap is ₹493 Cr of trade discounts — itself a datapoint (discounts rose from ₹402 Cr to ₹493 Cr, +23%, i.e. **6.6% of gross sales vs 5.8%** — the price war shows up as discounting).
+- JK net debt: company Note 48.3 (₹1,856 Cr, borrowings net of cash and current investments) for the leverage line; CRISIL's 2.3× for covenant/rating context.
+- Seshasayee capacity: the company's own Directors' Report (2.55 LTPA including Tirunelveli) beats CRISIL's "+75,000 should add".
+- Andhra capacity: AR 2,97,500 tpa (company, FY26) vs CARE 2,55,550 (Dec-2025) — likely CARE counts finished-paper machine ratings, the AR includes Kadiam upgrades; use the company figure with a footnote.
+
+---
+
+## 4.2 Company sections
+
+### 4.2.1 JK Paper Ltd (member) — full depth
+
+**(a) What management is saying — guidance digest (paraphrased; there is no Q1 FY27 call)**
+
+JK Paper has not held an analyst call since 21-May-2024 and has not published a presentation since Jan-2025. The digest below is assembled from what the company *has* said in 2026, with the source and date of each item; items from the May-2024 call are flagged as older, structural guidance.
+
+| Theme | What management said (paraphrased) | Source, date |
+|---|---|---|
+| Demand / pricing, near term | Paper and board market "remained challenging" in Q1 FY27; the y/y improvement came from **higher volume and better product mix**, not price. Packaging conversion businesses did well in both revenue and profit. | Q1 FY27 press release (CMD Harsh Pati Singhania), 27-Jul-2026 |
+| FY26 diagnosis | FY26 was "one of the most challenging in recent times": low-priced imports from China/Indonesia + persistently high wood cost "severely eroded industry margins"; still a record 8.19 lakh t sold. Rupee depreciation vs the **euro** caused restatement losses (euro-denominated borrowing/capex payables). | FY26 press release, 18-May-2026; AR FY26 Directors' Report |
+| Imports and trade policy | Paperboard imports ~30,000 t/month in H1 FY26 fell ~50% in H2 after the MIP; the industry still has "limited protection" and an **inverted GST duty** (paper 18% vs boxes 5%) caused "ambiguity in the market and lesser buying for two months" after 22-Sep-2025. | AR FY26 MD&A & Directors' Report (May-2026) |
+| W&P | Prices hit by imports, high raw-material cost and **"aggressive pricing strategies adopted by agro-based paper mills"**; publishers shifted to imported and agro-based paper, forcing "sharp price corrections" by wood-based mills; JK held volumes via maplitho tenders. **Copier: JK kept a price premium** on brand. | AR FY26 MD&A |
+| Coated paper | "New domestic entrants" intensified competition; imports moderated as domestic capacity came in; prices under pressure all year. (FY25: >60% of Indian coated demand was imported.) | AR FY26 & FY25 MD&A |
+| Wood | COVID-era under-planting caused the wood shortage and a "sharp rise in wood prices"; MDF/plywood compete for logs. JK raised plantation acreage **>50% over the last three years vs the prior three** and expects this to "improve wood availability and stabilize prices in the coming years". FY26: 11.93 crore saplings on 90,238 acres; Q1 FY27: 2.61 crore on 20,177 acres. Increasing bamboo and veneer-waste use; trialling alternative species. | AR FY26; press releases |
+| Backward integration | BCTMP (hardwood) in production from 30-Jun-2026 → "fully self-sufficient in hardwood BCTMP", eliminating imported hardwood BCTMP. **[May-2024 call]** BCTMP should save **US$100–150 per tonne of pulp** vs buying it; ~70% of mechanical-pulp needs to be integrated, the rest (softwood) still imported. Starch plant also under way. | AR FY26; Q1 PR; Q4 FY24 call 21-May-2024 |
+| Power / capex | **83 MW hybrid renewable (solar + wind) captive plant for Unit CPM**, commissioning **Q3 FY28**. CRISIL: capex ₹450–500 Cr in FY27, ₹850–900 Cr over two years; debt repayments ₹350–400 Cr/yr FY28–29. | AR FY26 Directors' Report; CRISIL 15-Sep-2026 [V-1p] |
+| Margins | CRISIL (from management discussions): FY27 operating margin expected **15–16%**, utilisation >105%, net debt/EBITDA back under 2×. **[May-2024 call]** management regards **~26–27% EBITDA as above the industry's long-term average**; Sirpur EBITDA ~22–23% ex-incentives (FY24); corrugation "normal" EBITDA 12–14% (~10% in the bad FY24). | CRISIL [V-1p]; Q4 FY24 call |
+| Pulp/price anchor | **[May-2024 call]** long-run hardwood pulp band **US$550 ± 25/t**; "if pulp is $750, paper should not be lower than $950–1,000" — dumping is when paper is sold near pulp prices. | Q4 FY24 call |
+| Diversification | Paper business down from ~¾ to ~½ of revenue in four years; Borkar (folding cartons, design-led) makes JK a top-three mono-carton player; Quadragen = entry into non-antibiotic animal nutraceuticals (global leader in **Halquinol**), aim: "scalable speciality chemicals platform"; Delopt (defence electronics/electro-optics) is being built up. Medium-term financial priorities: liquidity, free cash flow, working capital, "prudent leverage". | AR FY26 pp. 7–9, 22–23 |
+| Packaging conversion | Corrugation volume **+7.4%**, value **+12%** (FY26); mono-carton volume **+6.4%**; West Asia disruption lifted packaging raw-material costs **10–15%** with pass-through lags. | AR FY26 MD&A |
+| M&A cash calls ahead | Remaining 35% of Quadragen within four years of the Jan-2025 SPSHA; Borkar balance (12.64%); RWPL completed (₹44 Cr, Sep-2026). | Corporate Update; Reg-30 filings |
+
+**What an analyst would have asked (and what the documents answer)** — the 5–8 Q&A points a Q1 FY27 call would have covered:
+1. *How much of Q1's margin gain is price?* Little: CMD attributes it to volume and mix; segment PBIT Paper & Packaging rose to ₹179.9 Cr (9.8% of segment revenue) from ₹158.0 Cr (9.7%) — margin flat, profit up on volume; the PAT jump (+63%) is mostly **lower interest (₹39.8 Cr vs ₹67.1 Cr)** and higher other income (₹31.1 Cr vs ₹22.9 Cr).
+2. *Wood: when does it turn?* Company says plantations planted since FY23 (+50% acreage) should stabilise prices "in coming years"; ITC says wood "moderated YoY" in Q1 FY27; Andhra says FY26 wood prices "largely stabilised (±2–5%)" and expects maturing plantations to ease costs in FY27. JK's FY26 ₹/t was still +3% y/y.
+3. *BCTMP economics?* US$100–150/t of pulp saved on the captive share [May-2024 guidance]; CPM pulp capacity listed at 1,50,000 tpa (Jan-2025 slide) — the incremental BCTMP line size is not disclosed in fetched documents [gap].
+4. *Leverage?* Company net debt ₹1,856 Cr (2.0× operating EBITDA), CRISIL 2.3×; peak capex is over (BCTMP done; hybrid RE ₹450–500 Cr FY27).
+5. *Discounting?* Trade discounts rose to ₹492.9 Cr (6.6% of gross sales) from ₹402.1 Cr (5.8%) — the price war ran through discounts/schemes as much as list prices.
+6. *ADD on Indonesian board?* DGTR's duty table gives **Indah Kiat (APP) a nil duty** — the largest Indonesian exporter would be untouched; the US$376/t residual rate hits others. The MIP (₹67,220 CIF) remains the binding floor until Mar-2027.
+7. *Sirpur after the scheme?* Now a direct 100% subsidiary: FY26 turnover ₹832 Cr, PAT ₹17.5 Cr; Telangana paid ₹100 Cr of ₹234.8 Cr incentive receivables in FY26.
+8. *Governance/pay?* KMP short-term benefits ₹45.1 Cr in FY26 (₹50.1 Cr FY25) ≈ 17% of owners' PAT; Bharat Hari Singhania advisory fee ₹2.75 Cr; no royalty/brand fee paid to group entities.
+
+**(b) KPI table (company-disclosed unless marked)**
+
+| KPI | FY23 | FY24 | FY25 | FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|---|---|
+| Saleable capacity (tpa) | 7,61,000 | 7,61,000 | 7,61,000 | 7,61,000 | 7,61,000 + BCTMP | Corp. Update; AR |
+| Sales volume (lakh t) | ~7.76 [E derived] | 7.94 | 8.06 | **8.19** | n.d. | ARs |
+| — uncoated W&P + specialty | n.d. | 4.30 | 4.19 | n.d. | n.d. | ARs |
+| — coated | n.d. | 0.58 | 0.58 | n.d. | n.d. | ARs |
+| — packaging board | n.d. | 3.05 | 3.20 | n.d. | n.d. | ARs |
+| Utilisation | ~102% [E] | 105% (Corp. Update "8.0 lakh t") | ~109% (9M) | ~107% (sales) / 110% (CRISIL prodn) | n.d. | Corp. Update; CRISIL |
+| Wood consumed (lakh t, standalone) | 10.53 | 10.85 | 10.68 | 10.18 | — | ARs |
+| Delivered wood ₹/t | 7,542 | 10,829 | 14,054 | **14,460** | "moderating" (industry) | ARs; ITC |
+| Wood % of RM cost | 34% | 47% | 51% | 51% | — | ARs |
+| Wood from local catchment | 77% | 70% | n.d. | n.d. | — | Corp. Update |
+| Plantation (acres in year) | n.d. | 81,173 | ~76,615 (9M) | 90,238 | 20,177 | Corp. Update; PRs |
+| Operating EBITDA/t (₹) | ~25,900 | ~20,350 | ~11,530 | **~11,280** | ~14,000 (ann.) | [E] on V |
+| Revenue/t, all businesses (₹) | ~82,950 | ~83,870 | ~82,660 | ~86,400 | — | [E] on V |
+| Trade discounts (₹ Cr; % gross) | n.d. | n.d. | 402 (5.8%) | 493 (6.6%) | n.d. | AR FY26 |
+| Net debt (company) ₹ Cr | n.d. | n.d. | 1,317 | 1,856 | n.d. | AR FY26 |
+| Renewable share of energy | n.d. | ~45% | n.d. | ~60% (cons.) | — | Corp. Update; AR |
+| Scope 1 emissions (t CO₂e) | — | — | 678,684 | 703,932 | — | AR BRSR |
+
+Market shares (company estimate, FY24): copier 28%, coated 8%, packaging board 17%.
+
+**(c) Five-year table (consolidated, ₹ Cr; screener = audited revenue from operations / operating EBITDA / reported PAT) [V screener 23-Oct-26; volumes V-P]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue from operations | 3,969 | 6,437 | 6,659 | 6,662 | **7,076** |
+| Company "gross turnover" | 4,424 | 6,722 | 7,000 | 7,065 | 7,569 |
+| Operating EBITDA | 997 | 2,012 | 1,616 | 929 | **924** |
+| OPM % | 25 | 31 | 24 | 14 | 13 |
+| Company EBITDA (incl. OI) | 1,122 | 2,184 | 1,843 | 1,026 | 984 |
+| Other income | 124 | 139 | 227 | 97 | 43 (AR: 60) |
+| Interest | 132 | 222 | 208 | 178 | 225 |
+| Depreciation | 193 | 282 | 310 | 332 | 377 |
+| PAT (reported, total) | 544 | 1,208 | 1,133 | 410 | 274 |
+| EPS ₹ | 32.0 | 70.6 | 66.2 | 24.1 | 14.7 |
+| Borrowings (Mar) | 3,137 | 2,803 | 2,204 | 1,885 | 2,578 |
+| ROCE % | 16 | 28 | 20 | 9 | 7 |
+| Sales volume (lakh t) | n.d. | ~7.76 | 7.94 | 8.06 | 8.19 |
+| Operating EBITDA/t (₹) | — | ~25,900 | ~20,350 | ~11,530 | ~11,280 |
+
+(FY25 restated for the scheme in the FY26 AR: revenue ₹6,662.49 Cr, company EBITDA ₹1,026.31 Cr, PAT ₹406.68 Cr; screener shows FY25 PAT ₹410 Cr pre-restatement. FY24 includes a ₹174.2 Cr deferred-tax reversal on moving to the new tax regime — AR FY24 — so FY24 PAT is flattered.)
+
+**(d) Eight-quarter table (consolidated, ₹ Cr) [V screener; IDBI; Q4 FY26/Q1 FY27 also V-P results]**
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,683 | 1,632 | 1,677 | 1,661 | 1,749 | 1,717 | 1,966 | **1,887** |
+| Operating EBITDA | 264 | 168 | 218 | 250 | 224 | 176 | 277 | **290** |
+| OPM % (IDBI basis) | 15.7 | 10.3 | 13.0 | 15.0 | 12.8 | 10.3 | 14.1 | **15.4** |
+| Other income | 32 | 22 | 12 | 23 | 20 | 3 | −0 | 31 |
+| Interest | 68 | 24 | 50 | 67 | 51 | 47 | 60 | 40 |
+| Depreciation | 82 | 83 | 86 | 89 | 91 | 97 | 100 | 99 |
+| PAT (total) | 129 | 65 | 67 | 84 | 78 | 24 | 90 | **136** |
+| Volume (t) | n.d. | 1,97,293 | ~2,06,000 [E] | n.d. | n.d. | n.d. | n.d. | n.d. |
+| P&P segment PBIT | — | — | — | 158.0 | — | — | 156.8 | 179.9 |
+| Others segment PBIT | — | — | — | 2.6 | — | — | 20.0 | 11.0 |
+
+Read: the Q3 trough repeats (Q3 FY25 10.3%, Q3 FY26 10.3%) — Q3 is JK's seasonal low (post-textbook season, festive slowdown in W&P, import arrivals); Q3 FY26 PAT ₹24 Cr also carried most of the new-Labour-Code exceptional (FY26 total ₹17.36 Cr, of which ₹3.0 Cr in Q4 [V-P] → ~₹14.4 Cr in Q3 [E]; codes effective 21-Nov-2025). Q1 FY27's 15.4% equals Q1 FY26's 15.0% plus a little — the recovery is real in rupees (+16% EBITDA) but **not yet visible as margin expansion**.
+
+**(e) Annual-report findings (FY26)**
+- **Segment note:** one reportable segment "Paper & Packaging" (₹6,890 Cr, PBIT ₹519 Cr, capital employed ₹5,152 Cr → segment ROCE ~10% pre-tax) + "Others" (₹192 Cr; PBIT ₹28 Cr; capital employed ₹635 Cr) = housing, **Delopt** (embedded systems/electro-optics, Bengaluru) and **animal nutrition (Quadragen)**. FY26 segment capex ₹537 Cr (FY25 ₹211 Cr) — BCTMP.
+- **Subsidiaries (AOC-1, FY26 turnover / PAT, ₹ Cr):** Sirpur 832.09 / 17.54 (100%); JKPL Packaging Products (Ludhiana corrugation) 106.21 / −12.02 (100%); Radhesham Wellpack 107.34 / 13.62 (80%→100%); Quadragen Vethealth 123.17 / 31.77 (65%); Borkar Packaging (from 28-Oct-2025) 153.20 / −6.26 (71.96%→87.36%); JK Paper International (Singapore; Myanmar JV holdco) — provision ₹15.38 Cr. Associates: Habras MZZ Plantation Myanmar (50% JV), Enviro Tech Ventures (31.12%, ex-PSV Agro).
+- **Related parties:** no royalty or brand fee; Bengal & Assam Co. (BACL) holds >20%; rent ₹0.10 Cr to BACL; **KMP short-term benefits ₹45.10 Cr** (FY25 ₹50.11 Cr); advisory fee ₹2.75 Cr to Bharat Hari Singhania; remuneration ₹1.12 Cr to Chaitanya Hari Singhania.
+- **Contingent liabilities (consolidated, small):** indirect taxes ₹14.50 Cr; sales tax ₹1.28 Cr; other ₹7.66 Cr; capital commitments ₹99.75 Cr (₹234.53 Cr FY25 — BCTMP spend largely done). Post-year: CGST Tapi demand ₹2.54 Cr (excess ITC FY21–FY23), under appeal (Reg-30, 22-Sep-2026). Octroi dispute at CPM (₹1.25 Cr, since 1997).
+- **Government incentives:** Sirpur's Telangana MoA — ₹100 Cr received in FY26 against ₹234.78 Cr receivable; JK standalone capital subsidy ₹40.09 Cr (₹7.10 Cr amortised).
+- **Top risks named:** low-priced imports (monitored "segment-wise"), wood availability, digitisation of W&P, input-cost inflation from West Asia, FX (euro).
+- **Commodity risk disclosure:** hardwood & bamboo = ~51% of raw-material cost; no commodity hedging.
+- **Balance-sheet notes:** company ROCE 5.9% (FY25 7.8%); current ratio 1.39 (1.83); finished-goods inventory 18 days (13) — the working-capital build is inventory; total debt (standalone) ₹2,436 Cr "mainly due to fresh borrowings for BCTMP".
+
+### 4.2.2 West Coast Paper Mills (reference peer; consolidates 72.45% of Andhra Paper)
+
+**Commentary digest.** No FY27 call or presentation found: the latest WCPM presentation on screener is **Q3 FY25**; India Ratings (21-May-2026) and ICRA (Nov-2025) rationales did not render for a bot/required login. From the **FY26 annual report** (BSE AttachHis 77eee972…): Dandeli ran at **99.98% utilisation** (production 3,19,933 t; sales 3,20,567 t, +2.1%); the chairman blames "lower realisations in paper, a rise in wood cost" and a "surge in low-priced imports"; diversification into **optical-fibre cable and optical fibre** (OF production 26.5 lakh fkm from a newly commissioned plant; cable sales 8.14 lakh fkm) is presented as "a strategically important and future-oriented dimension". MD&A expected industry operating margins to recover ~200 bp in FY26. The DGTR file lists WCPM as the **only Indian VMLP producer outside the applicant group** (supporter of the ADD) — its cup-stock/board line is small. Q1 FY27 (screener) shows the sharpest recovery in the peer set: OPM **19.3%** vs 11.5%, PAT ₹142 Cr vs ₹60 Cr.
+
+| KPI (company) | FY25 | FY26 |
+|---|---|---|
+| Dandeli production / sales (t) | 3,18,590 / 3,13,823 | **3,19,933 / 3,20,567** |
+| SA paper segment revenue / PBIT (₹ Cr) | 2,258.4 / 307.0 | **2,235.9 / 192.5** |
+| SA paper revenue per tonne sold [E] | ~₹71,960 | **~₹69,750 (−3.1%)** |
+| SA paper PBIT per tonne [E] | ~₹9,780 | **~₹6,000** |
+| Cons. paper segment revenue / PBIT (incl. Andhra) | 3,799.7 / 402.7 | 3,937.1 / 214.0 |
+| Cons. cables revenue / PBIT | — | 341.6 / 24.5 |
+| Cons. operating EBITDA per tonne (WCPM + Andhra tonnes) [E] | ~₹9,150 | **~₹7,130** |
+
+**Five-year (consolidated, ₹ Cr) [V screener]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 3,378 | 4,921 | 4,448 | 4,062 | 4,279 |
+| Operating EBITDA | 638 | 1,647 | 1,095 | 494 | 414 |
+| OPM % | 19 | 33 | 25 | 12 | 10 |
+| Other income | 54 | 58 | 167 | 198 | 114 |
+| PAT | 346 | 1,087 | 786 | 336 | 156 |
+| Borrowings / investments | 478 / 472 | 231 / 1,310 | 276 / 1,730 | 456 / 1,604 | 345 / 1,492 |
+| ROCE % | 20 | 53 | 29 | 11 | 6 |
+
+**Eight quarters (consolidated, ₹ Cr) [V screener]**
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,045 | 1,016 | 1,041 | 955 | 1,043 | 1,036 | 1,245 | 1,051 |
+| Op. EBITDA | 142 | 83 | 81 | 110 | 68 | 77 | 157 | 203 |
+| OPM % | 14 | 8 | 8 | 12 | 7 | 7 | 13 | 19 |
+| PAT | 101 | 67 | 46 | 60 | 12 | 30 | 54 | 142 |
+
+AR findings: 37.33% associate "Speciality Coatings and …" (name truncated in the BRSR table); investment in subsidiaries and associates ₹931 Cr at cost (mostly Andhra); treasury ~₹1,500 Cr (screener investments ₹1,492 Cr). Q2 FY27 board 6-Nov-2026.
+
+### 4.2.3 Andhra Paper (reference peer; 72.45% WCPM subsidiary)
+
+**Commentary digest (AR FY26, BSE AttachHis dc273b88…; latest presentation Q3 FY25).** Record production **2,59,266 t** and sales 2,60,438 t; Rajahmundry finished paper 1,86,867 t (+~12%) on modernisation (better runnability, lower downtime); Kadiam shifting to pharma grades, oil-and-grease-resistant paper and "Green Copier" with recycled fibre; **43,000 tpa PCC plant commissioned** (captures lime-kiln CO₂; −19,000 t CO₂/yr); **tissue entry** under way. Margin hit by "lower net sales realisations and higher wood costs". Risk section: wood prices "largely stabilised" in FY26 (±2–5% by region/species) after the COVID-era harvesting disruption; **farm forestry covers ~3,15,107 hectares**; wood inventory to be raised from 30 to 50 days when availability allows; "maturing plantation cycles will ease wood costs in FY2026-27"; imports from ASEAN/China "at zero or reduced duty" named as the key market risk. Company states paper capacity **2,97,500 tpa**.
+
+**Six-year operating series (company, AR FY26 "six-year highlights") [V-P]**
+
+| | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|
+| Production (t) | 1,64,408 | 2,35,155 | 2,50,292 | 2,35,749 | 2,32,861 | **2,59,266** |
+| Sales (t) | 1,75,659 | 2,40,479 | 2,50,238 | 2,33,480 | 2,26,288 | **2,60,438** |
+| Turnover (₹ Cr) | 879 | 1,367 | 2,083 | 1,783 | 1,522 | 1,693 |
+| EBITDA (₹ Cr, company) | 76 | 266 | 787 | 526 | 223 | 151 |
+| EBITDA margin | 8% | 19% | 37% | 28% | 14% | 8% |
+| Turnover per tonne sold (₹) [E] | 50,070 | 56,840 | **83,240** | 76,380 | 67,270 | **65,000** |
+| EBITDA per tonne (₹) [E] | 4,330 | 11,050 | **31,440** | 22,530 | 9,870 | **5,790** |
+
+This is the cleanest public **W&P realisation series** in the peer set (Andhra is almost pure uncoated W&P/copier): **₹83,200/t at the FY23 peak → ₹65,000/t in FY26 (−22%)**, while EBITDA/t fell from ₹31,400 to ₹5,800.
+
+**Five-year / eight-quarter (standalone, ₹ Cr) [V screener]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 1,380 | 2,098 | 1,801 | 1,541 | 1,701 |
+| Op. EBITDA (OPM) | 224 (16%) | 738 (35%) | 432 (24%) | 139 (9%) | 68 (4%) |
+| PAT | 140 | 522 | 340 | 89 | 19 |
+| ROCE % | 18 | 52 | 25 | 4 | 0 |
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 432 | 386 | 407 | 393 | 362 | 419 | 527 | 394 |
+| Op. EBITDA | 52 | 28 | 20 | 34 | −7 | 15 | 25 | 49 |
+| OPM % | 12 | 7 | 5 | 9 | −2 | 4 | 5 | 12 |
+| PAT | 42 | 12 | 8 | 21 | −20 | 10 | 8 | 30 |
+
+Q2 FY27 board 30-Oct-2026.
+
+### 4.2.4 Seshasayee Paper & Boards (reference peer)
+
+**Commentary digest (AR FY26, BSE AttachHis 5d2b7918…; no recent call/presentation on screener; Q2 FY27 board 24-Oct-2026).** Record production 2,48,385 t and sales 2,49,714 t (+4.5%), domestic sales 2,28,955 t; Erode at **106%** utilisation. **Exports fell 27.8% to 20,759 t** (₹157.9 Cr vs ₹243.5 Cr; US$17.3 m) because **exports to the US — its main export market — were suspended May–Sep 2025 on US tariffs**; the diverted tonnes hit an already import-pressed domestic market and "the impact of drop in realisations was much steeper than expected". Revenue −2.5% despite +4.5% volume → realisation **~−6.7%** (₹73,370 → ₹68,490/t, all-in). GST 2.0's nil rate on notebooks/notebook paper created "confusion". Outlook: FY27 "a year of recovery and reset"; specialty grades (décor, filter, food-service) expected to grow double-digit. Bagasse from associate **Ponni Sugars (Erode)** — ₹37.42 Cr in FY26 (₹25.45 Cr) under an open-ended MoU priced at the sugar mill's alternative-fuel cost plus an incentive. **Consolidation = SPB + its associate Ponni Sugars (equity method)**; no "IPPL" entity appears.
+
+| KPI (company) | FY25 | FY26 |
+|---|---|---|
+| Capacity (tpa) | 2,55,000 | 2,55,000 (Erode 1,65,000 + Tirunelveli/ex-Servalakshmi 90,000) |
+| Production / sales (t) | 2,46,431 / 2,39,073 | **2,48,385 / 2,49,714** |
+| Exports (t; % of production) | 28,743 (11.6%) | 20,759 (8.4%) |
+| Company EBITDA (₹ Cr; margin) | 181.49 (10.35%) | 145.36 (8.50%) |
+| Revenue/t [E] | ~₹73,370 | **~₹68,490** |
+| Operating EBITDA/t (screener OP) [E] | ~₹4,640 | **~₹3,840** |
+| Wet-lap pulp made (t) | 26,275 | 25,294 |
+
+**Five-year / eight-quarter (consolidated, ₹ Cr) [V screener]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 1,355 | 2,083 | 1,802 | 1,754 | 1,710 |
+| Op. EBITDA (OPM) | 166 (12%) | 534 (26%) | 340 (19%) | 111 (6%) | 96 (6%) |
+| PAT | 110 | 396 | 271 | 109 | 83 |
+| ROCE % | 12 | 37 | 20 | 7 | 6 |
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 398 | 431 | 502 | 385 | 346 | 387 | 592 | 492 |
+| Op. EBITDA | 31 | 8 | 25 | 20 | 26 | 25 | 24 | 44 |
+| OPM % | 8 | 2 | 5 | 5 | 8 | 6 | 4 | 9 |
+| PAT | 28 | 17 | 27 | 15 | 22 | 19 | 26 | 32 |
+
+### 4.2.5 TNPL (reference peer)
+
+**Commentary digest (AR FY26, BSE AttachHis f155926e…; latest transcript on screener is Q1 FY24 — TNPL has stopped regular calls; CARE 21-Sep-2026 [V-1p]).** Record paper production **4.34 lakh t** and sales **4.48 lakh t**; record board production **2.00 lakh t**, sales 1.99 lakh t; total sales **6,46,693 t** (+5.1%). **100 tpd tissue machine (₹350 Cr) at Unit II in "advanced stage of trial run and stabilisation"** (13–40 GSM, in-house hardwood pulp) — i.e. ~34,000 tpa from H2 FY27. Unit I boiler modernisation: two 125 TPH HP boilers + 42 MW TG replacing four 1985-vintage LP boilers (the "RSPS" project). Clonal plantations over **3,09,382 acres**; specific energy 0.3761 TOE/t; TNPL refers to its **GHG-intensity compliance** under the CCTS. CARE: PBILDT margin 10.8%, TD/PBILDT 4.9×, ~25% of sales to GoTN textbooks; FY26 PAT includes ~₹219 Cr deferred-tax credit.
+
+| KPI (company) | FY25 | FY26 |
+|---|---|---|
+| Production / sales, paper + board (t) | 6,14,572 / 6,15,570 | **6,34,369 / 6,46,693** |
+| PBIDT incl. OI (₹ Cr) | 525.17 | 556.66 |
+| Finance cost / depreciation (₹ Cr) | 216.13 / 303.73 | 193.16 / 312.90 |
+| PBT (₹ Cr) | 5.30 | 50.60 |
+| Revenue/t, all-in incl. cement & power [E] | ~₹72,960 | **~₹71,830** |
+| Operating EBITDA/t [E] | ~₹7,000 | **~₹7,440** |
+
+**Five-year / eight-quarter (standalone, ₹ Cr) [V screener]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 4,020 | 5,180 | 4,690 | 4,491 | 4,645 |
+| Op. EBITDA (OPM) | 358 (9%) | 1,006 (19%) | 770 (16%) | 431 (10%) | 481 (10%) |
+| Interest | 156 | 182 | 223 | 216 | 193 |
+| PAT | 14 | 388 | 208 | 4 | 248 (≈29 ex-DTA) |
+| Borrowings | 2,239 | 1,871 | 1,801 | 1,604 | 1,613 |
+| ROCE % | 4 | 21 | 14 | 6 | 6 |
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 914 | 1,124 | 1,337 | 1,142 | 1,110 | 1,121 | 1,272 | 1,147 |
+| Op. EBITDA | 124 | 53 | 103 | 101 | 123 | 116 | 141 | 115 |
+| OPM % | 13.6 | 4.7 | 7.7 | 8.9 | 11.1 | 10.3 | 11.1 | 10.0 |
+| PAT | 2.6 | −42.9 | 22.1 | −7.4 | 8.1 | 6.8 | 240.3 (DTA) | 5.7 |
+
+### 4.2.6 ITC — Paperboards, Paper & Packaging segment (reference)
+
+**Commentary digest (Q1 FY27 presentation 31-Jul-2026; Report & Accounts 2026) [V-P].** Q1 FY27 segment revenue **₹2,307 Cr (+9%)**, PBIT **₹224 Cr (+38%)**, PBIT margin +200 bp; growth from **both volume and net realisations**, "anchor grades" of value-added paperboards, sustainable boards and exports; **wood cost moderated y/y**; plantation acceleration incl. **satellite-based plantation monitoring** and collaboration with other wood-based industries; West-Asia-led cost escalation offset by pricing. FY26 R&A: MIP "provided interim relief… import volumes progressively declining thereafter"; "wood procurement prices began to moderate"; H2 FY26 saw "gradual recovery"; ITC lobbies for **plantations on degraded forest land** (recent Forest (Conservation) Act guideline amendments allow private participation with states; IPMA estimates 2.5 m ha could add ~1 m jobs). Lalkuan: BTA 31-Mar-2025, ≤₹3,500 Cr, 4.8 lakh tpa, commissioned 1984, CCI 16-Dec-2025, MoEFCC forest-land lease transfer 18-Mar-2026; rationale: ITC's own mills "near saturation", new location near raw material and customers. Specialty papers grew on the décor-paper capacity added in FY25.
+
+| ITC PSPD (₹ Cr) | FY25 | FY26 | Q1 FY26 | Q1 FY27 |
+|---|---|---|---|---|
+| Segment revenue (total) | 8,422.81 | **8,765.61** | ~2,117 [E: 2,307/1.09] | **2,307** |
+| — of which inter-segment | 1,796.58 | 1,839.04 | n.d. | n.d. |
+| Segment PBIT | 911.49 | **796.71** | ~162 [E] | **224** |
+| PBIT margin | 10.8% | 9.1% | ~7.7% [E] | 9.7% |
+| Depreciation | 390.18 | 390.39 | — | — |
+| Segment EBITDA [E] | ~1,302 | **~1,187 (13.5%)** | — | — |
+| Segment capex | 381.84 | 405.91 | — | — |
+
+(Quarterly PSPD series beyond these points: Q2 FY26 revenue ₹2,220 Cr, PBIT ₹191 Cr [V-snip printweek]. ITC does not disclose tonnes; at ~1.0 mt pre-Lalkuan, FY26 segment EBITDA ≈ **₹11,000–12,000/t** [E] — similar to JK.) Q2 FY27 board 2-Nov-2026 (first Lalkuan months).
+
+### 4.2.7 Cross-peer per-tonne table (FY26, from company volumes) [E on V inputs]
+
+| Company | Tonnes sold | Revenue/t (₹) | Operating EBITDA/t (₹) | Company EBITDA/t incl. OI (₹) | FY23 EBITDA/t (₹) |
+|---|---|---|---|---|---|
+| JK Paper (cons.) | 8,19,000 | 86,400 (all businesses); ~71,000 paper & board [E] | **11,280** | 12,020 | ~25,900 |
+| West Coast SA (paper seg.) | 3,20,567 | 69,750 | PBIT 6,000 | — | n.d. |
+| WCPM cons. (incl. Andhra t) | 5,81,005 | — | 7,130 | — | n.d. |
+| Andhra Paper | 2,60,438 | 65,000 | 2,610 | 5,790 | 31,440 |
+| Seshasayee | 2,49,714 | 68,490 | 3,840 | 5,820 | n.d. |
+| TNPL | 6,46,693 | 71,830 | 7,440 | 8,610 | n.d. |
+| ITC PSPD | ~10 lakh [E] | ~87,700 [E] | ~11,900 [E] | — | — |
+
+Read: **JK's operating EBITDA/t is ~1.6× TNPL's and ~4× Andhra's/Seshasayee's** in the FY26 trough — board (38% of capacity), copier brand premium, integration and converting all show up. The "JK paper & board ~₹71,000/t" estimate: paper ≈ 50% of ₹7,076 Cr (company mix statement) on ~4.8 lakh t uncoated + coated (≈₹73,700/t) and board ~3.4 lakh t at the DGTR-reported industry board price (~₹67,000/t) ≈ ₹5,820 Cr ÷ 8.19 lakh t; converting/other ≈ ₹1,250 Cr, consistent with AOC-1 subsidiary turnovers plus the amalgamated Horizon/Securipax. **Supersedes Part 1's ₹74,500/t.**
+
+---
+
+## 4.3 Industry datasets upgraded from primary sources (chart-ready)
+
+**D1. JK Paper delivered wood cost and wood intensity (standalone; company commodity-risk disclosure) [V-P]**
+
+| FY | Wood consumed (lakh t) | Value (₹ Cr) | ₹ per tonne | Wood % of RM cost | Wood from local catchment |
+|---|---|---|---|---|---|
+| FY18 | — | — | — | — | 71% |
+| FY19 | — | — | — | — | 96% |
+| FY20 | — | — | — | — | 100% |
+| FY21 | — | — | — | — | 100% |
+| FY22 | — | — | — | — | 94% |
+| FY23 | 10.53 | 794.17 | **7,542** | 34.3% | 77% |
+| FY24 | 10.85 | 1,175 | **10,829** | 47% | 70% |
+| FY25 | 10.68 | 1,501 | **14,054** | 51% | n.d. |
+| FY26 | 10.18 | 1,472 | **14,460** | 51% | n.d. |
+
+Chart: bars ₹/t, line % local catchment. Message: as local wood ran out (catchment share 100% → 70%), JK bought from farther away at almost double the price. Sources: AR FY23 p. (CG report), AR FY24, AR FY25, AR FY26; Corporate Update Jan-2025 slide 16. Unit note: "consumed" tonnes as received (green/air-dry, incl. bamboo), delivered cost incl. freight.
+
+**D2. Virgin multi-layer paperboard (VMLP) — the DGTR dataset (India, FY22–FY25) [V-P DGTR final findings 25-Jun-2026]**
+
+| | FY22 | FY23 | FY24 | FY25 (POI) |
+|---|---|---|---|---|
+| Domestic industry capacity (t) | 15,15,863 | 16,90,000 | 16,90,000 | 16,90,000 |
+| Production of VMLP by DI (t) | 10,98,950 | 12,32,827 | 12,82,695 | 13,03,686 |
+| DI domestic sales (t) | 9,01,500 | 10,38,690 | 11,66,108 | 11,68,670 |
+| DI export sales (t) | 1,48,697 | 1,13,035 | 77,894 | 94,701 |
+| Imports from Indonesia (t) | 108 | 1,737 | 463 | 61,567 |
+| Total VMLP imports (t) | 57,178 | 1,34,652 | 1,55,181 | 2,93,632 |
+| Import share of demand [E: imports ÷ (DI sales + imports), other producer excluded] | ~6% | ~11% | ~12% | **~20%** |
+| DI selling price (₹/t) | 68,473 | **81,664** | 68,748 | **67,244** |
+| Indonesian landed price (₹/t) | 87,961 | 87,048 | 63,311 | **54,675** |
+| DI cost of sales (index) | 100 | 125 | 121 | 121 |
+| Demand (index) | 100 | 121 | 134 | 148 |
+
+Plus: MIP from 22-Aug-2025 = ₹67,220/t CIF (≈₹68,500–69,000 landed with port charges at 0% BCD [E]); ADD recommended US$261/t (RAPI), nil (Indah Kiat), US$376/t others. JK AR: board imports ~30,000 t/month in H1 FY26, −~50% in H2.
+
+**D3. W&P realisation proxy — Andhra Paper turnover per tonne sold (₹/t) [E on V-P six-year highlights]**: FY21 50,070 · FY22 56,840 · FY23 **83,240** · FY24 76,380 · FY25 67,270 · FY26 **65,000**. EBITDA/t: 4,330 · 11,050 · **31,440** · 22,530 · 9,870 · **5,790**. Cross-checks FY26: West Coast SA paper ₹69,750/t (−3.1% y/y); Seshasayee ₹68,490/t (−6.7%); TNPL ₹71,830/t (all-in). Replaces the Part 1 gap "mill realisations by grade" for W&P; for board use D2.
+
+**D4. India paper & paperboard imports (thousand t; IPMA from DGCI&S) [V-ind]**
+
+| | FY21 | FY22 | FY23 | FY24 | FY25 | H1 FY25 | H1 FY26 |
+|---|---|---|---|---|---|---|---|
+| Total | 1,084.7 | 1,145.8 | 1,436.5 | 1,929.1 | **2,054.7** | 992.3 | 1,014.5 |
+| China | 145.9 | 145.8 | 341.0 | 411.4 | 547.3 | 267.7 | 278.6 |
+| ASEAN | 145.2 | 148.3 | 266.5 | **514.1** | 415.3 | 182.3 | 207.3 |
+| China share | 13% | 13% | 24% | 21% | 27% | 27% | 27% |
+| ASEAN share | 13% | 13% | 19% | 27% | 20% | 18% | 20% |
+
+4-yr CAGR FY21–25: total 17.3%, China 39.2%, ASEAN 30.1%. Import penetration ≈ 2.05 mt ÷ ~24–25 mt ≈ **8–8.5%** [E]. FY26 full year: not yet fetchable (H1 run-rate implies ~2.0–2.1 mt; the H2 board decline after the MIP argues for the low end) [E].
+
+**D5. JK Paper capacity by mill and grade (tpa; Corporate Update Jan-2025) [V-P]**
+
+| Mill | Pulp | Paper | Packaging board | Total saleable |
+|---|---|---|---|---|
+| JKPM Rayagada (Odisha) | 2,15,000 | 3,15,000 | — | 3,15,000 |
+| CPM Songadh (Gujarat) | 1,50,000 | 50,000 | 2,60,000 | 3,10,000 |
+| Sirpur (Telangana) | 1,10,000 | 1,05,000 | 31,000 | 1,36,000 |
+| **Total** | **4,75,000** | **4,70,000** (uncoated 4,15,000 + coated 55,000) | **2,91,000** | **7,61,000** |
+
+Capacity history ('000 tpa): 2005 150 · 2006 180 · 2010 240 · 2020 591 · 2024 761. Converting: 9 corrugation units, 2 mono-carton units, 1 label unit (Jan-2025; + Borkar's plants from Oct-2025, incl. Ahmedabad printing line and Chennai rigid-box machine).
+
+**D6. Per-tonne economics across peers, FY26** — see table 4.2.7 (chart: horizontal bars, operating EBITDA/t; JK 11,280 · ITC ~11,900 [E] · TNPL 7,440 · WCPM cons. 7,130 · Seshasayee 3,840 · Andhra 2,610).
+
+**D7. Peer volumes FY26 (t sold) [V-P]**: JK 8,19,000 · TNPL 6,46,693 · West Coast (Dandeli) 3,20,567 · Andhra 2,60,438 · Seshasayee 2,49,714 → **five-company total ≈ 22.97 lakh t ≈ 9–10% of India's ~25 mt** [E]; with ITC (~10 lakh t [E]) + Lalkuan (~4.8 lakh) ≈ **37–38 lakh t ≈ 15%** — confirms the Part 1 "~15% of tonnage" estimate.
+
+**D8. ITC PSPD segment (₹ Cr) [V-P]**: FY25 revenue 8,422.81 / PBIT 911.49; FY26 8,765.61 / 796.71 (D&A 390.39 → EBITDA ~1,187); Q1 FY27 2,307 / 224.
+
+**D9. India market structure (JK AR FY26, company estimates) [V-P]**: total ~25 mt (FY26), ~6% growth; W&P ~7 mt (~30%), 2–3% growth; paperboard & packaging ~65%, ~8% growth; corrugated boxes 7–8 mt (FY25) → 11–12 mt (FY30), >10,000 makers, 65–70% utilisation; mono-cartons growing 7–8%. Global: paper & board ~435 mt (2025, +0.4%), W&P ~73 mt (−2% CAGR), paperboard ~275 mt (+2% CAGR). Andhra's MD&A (citing a market study): Indian W&P ~5.23 mt (2025) → 6.41 mt (2031), 3.45% CAGR — note the two companies' W&P sizes differ (7 vs 5.2 mt; JK likely includes imports and RCF W&P).
+
+**D10. Global peers, TTM to 23-Oct-2026 (stockanalysis.com) [V-agg]**
+
+| Company | Revenue (TTM) | EBITDA margin | EV/EBITDA | Other |
+|---|---|---|---|---|
+| International Paper (US) | US$24.2 bn | 16.3% | 6.8× | TTM net loss −$3.4 bn (impairments/restructuring post-DS Smith); m-cap $17.6 bn |
+| Suzano (Brazil) | US$9.2 bn | **41.5%** | 6.5× | m-cap $10.6 bn; EV $25.2 bn (net debt heavy) |
+| UPM (Finland) | €9.5 bn | 13.2% | 12.4× | m-cap €12.9 bn |
+| Stora Enso (Finland) | €9.3 bn | 6.7% | 13.5× | m-cap €7.6 bn |
+| Nine Dragons (China/HK) | HK$86.6 bn | 13.6% | 8.9× | P/B 0.38 |
+| *JK Paper (India)* | *₹7,319 Cr TTM (~US$0.77 bn)* | *13.2%* | *~8.8×* | *P/B 1.17* |
+
+Read: JK's trough margin (13%) equals IP/UPM/Nine Dragons' TTM margins; only the Brazilian fibre owner (Suzano, 41.5%) is structurally different. Global paper multiples (6.5–13.5×) bracket JK's ~9×.
+
+**D11. Pulp price anchors [mixed]**: China net BHKP **$564/t, NBSK $626/t (late Aug-2026)** [V-1p euqueroinvestir]; Suzano +$20/t Asia for Sep-2026; JK (May-2024 call) chemical pulp "$700–750/t" then, mechanical (BCTMP) pulp "~$570, less than $600", long-run hardwood band **$550 ± 25** [V-P transcript]. China domestic BHK (Shandong, RMB): 2023 high 6,446 (Jan), low 4,000 (May), end-2023 5,040 RMB/t [V-snip SunSirs]. A full 2019–25 US$ series remains [K] (see 4.4).
+
+---
+
+## 4.4 Gap log (Part 1 §H items and brief gaps)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| 1 | FY26 full-year imports by country and HS | **Partly filled**: FY21–FY25 annual + H1 FY26 by China/ASEAN (D4); VMLP by DGTR (D2). **Still open**: FY26 full year and HS-line split. | IPMA/DGCI&S via Paper Market [V-ind]; DGTR [V-P]. TradeStat (tradestat.commerce.gov.in) needs an interactive form; not attempted further. |
+| 2 | Wood price series ₹/t | **Filled** (JK delivered cost FY23–FY26, D1); qualitative FY26–27 from Andhra (±2–5%, easing FY27) and ITC (moderating). | JK ARs [V-P]; Andhra AR; ITC Q1 PPT |
+| 3 | Mill realisations by grade over time | **Filled for board** (DGTR DI selling price FY22–FY25) and **W&P proxy** (Andhra ₹/t FY21–FY26; WCPM/Seshasayee/TNPL FY25–26). Copier vs maplitho split still open. | DGTR [V-P]; peer ARs [V-P] |
+| 4 | JK capacity and volume by grade; packaging revenue/EBITDA | **Filled**: capacity by mill/grade (D5); grade volumes FY24–FY25; paper ~50% of revenue; segment data; subsidiaries' turnover/PAT. **Open**: FY26 grade volumes; packaging EBITDA (only "Others" PBIT and subsidiary PATs). | Corp. Update Jan-2025; ARs [V-P] |
+| 5 | ADD on Indonesian VMLP after Aug-2026 | **Filled (quantum) / open (status)**: DGTR duty table US$261 / nil / US$376 per t; "pending MoF" at 31-Jul-2026; no customs notification found by 23-Oct-2026. Under the Customs Tariff rules the government normally acts within three months of final findings (~25-Sep-2026) — a lapse looks likely; MIP extended to Mar-2027 instead. | DGTR FF [V-P]; ITC PPT [V-P]; web search |
+| 6 | Borkar stake | **Filled**: 71.96% (28-Oct-2025) → 87.36% (11-Jun-2026). | AOC-1; Reg-30 [V-P] |
+| 7 | Seshasayee "IPPL" | **Filled**: no such entity; associate = Ponni Sugars (Erode). | Seshasayee AR FY26 [V-P] |
+| 8 | PIMS | **Filled (secondary)**: DGFT Notif. 11/2015-20, 25-May-2022, 201 lines, from 1-Oct-2022; still referenced by the 2025 MIP regime. | [V-snip] |
+| 9 | Historic copier ADD (Indonesia/Singapore) | **Still open** — not found in DGTR searches this pass; treat the primer's claim as unverified (drop unless sourced). | — |
+| 10 | BCD on paper in 2026 | **Partly**: MFN 10%, bound 40%, AITIGA nil, APTA 30% MoP; no Budget-2026 change found. | [V-snip] |
+| 11 | Global leaders' financials | **Filled** (aggregator, D10). Annual-report figures not fetched. | stockanalysis [V-agg] |
+| 12 | Pulp price history 2019–25 | **Still open** (only anchors, D11). | Fastmarkets/SunSirs fragments |
+| 13 | "15th largest producer" | **Still open**; JK AR gives India ~25 mt vs world ~435 mt ≈ **5.7% of world volume** — consistent with a top-5/top-6 rank by tonnage, so "15th" (Infomerics) should be dropped. | JK AR [V-P] + [E] |
+| 14 | CMIE export series | **Still open**; Seshasayee's exports (20,759 t, 8.4% of output) and the DGTR VMLP exports (~95,000 t) suggest Indian virgin-grade exports are a few hundred kt, supporting the "do not chart CMIE 1.7–3.0 mt" flag. | — |
+| 15 | Small-player capacities | **Still open** (Emami, Kuantum, Satia, Orient, Pudumjee, Genus, Shreyans not fetched). Emami is a DGTR VMLP applicant (board producer) [V-P]. | — |
+| 16 | ITC board vs W&P split; Lalkuan grade mix | **Partly**: ITC reports value-added paperboards, specialty (décor) and paper inside one segment; 21% of revenue inter-segment; Lalkuan 4.8 lakh tpa, 1984. Grade split not disclosed. | ITC R&A 2026 [V-P] |
+| 17 | Peers' EBITDA/tonne | **Filled** (4.2.7, D6). | Peer ARs [V-P] + screener |
+| — | JK Q1 FY27 presentation/transcript | **Does not exist** (no call since May-2024; no PPT since Jan-2025). | jkpaper.com investor pages |
+| — | Industry EBITDA 6.9% trough (BOB Caps), net debt/EBITDA 4.6× → 0.3× | **Still [V-snip]**; broker PDF not found. DGTR corroborates the board-industry squeeze (price −2% vs cost +21%, FY22→FY25). | — |
+| — | CCTS pulp & paper targets | **Partly**: 53 units covered, two-year targets from FY26 [V-snip]; unit-level targets not fetched. | — |
+| — | WCPM/Andhra/ICRA/India Ratings rationales | **Still unreadable** (JS-rendered/login). | — |
+
+---
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+**Insights an expert would add**
+1. **Wood, not imports, did most of the damage to JK's cost line — and the size is now measurable.** JK's delivered wood cost rose **₹7,542 → ₹14,460/t (+92%) between FY23 and FY26**, adding roughly **₹9,500 per tonne of product** (~1.5 t of wood per t) [E on V]. JK's operating EBITDA/t fell ~₹14,600 (₹25,900 → ₹11,280) over the same period, so **wood explains roughly two-thirds of JK's per-tonne margin loss and price/mix the remaining third** [E] — a sharper split than the "imports broke the spread" framing in §A implies (board prices did fall ₹14,400/t FY23→FY25 per DGTR, but JK's copier premium, converting and volume growth absorbed part of it). Imports explain the *industry* (Andhra: realisation −22%), wood explains *JK*.
+2. **The local-catchment metric is the leading indicator.** JK's share of wood from its local catchment fell from 100% (FY20–21) to 70% (FY24); the company has since raised plantation acreage >50% and plants ~90,000 acres/yr. With 4–5-year rotations, the FY23–FY25 plantings mature in **FY27–FY29** — consistent with ITC ("moderating"), Andhra ("±2–5%, easing in FY27") and JK ("stabilise in coming years"). This is the single biggest swing factor for FY28 EBITDA.
+3. **The ADD would not touch APP.** DGTR assigned **nil duty to PT Indah Kiat (APP/Sinar Mas)** — the largest Indonesian board exporter — and US$261/t to APRIL's new Riau Andalan board mill (which started commercial production during the POI). Even if the Finance Ministry notifies the duty, APP-origin board stays duty-free under AITIGA; the **MIP (all origins, ₹67,220 CIF) is the more powerful instrument**, which explains why the industry asked for MIP extensions rather than relying on the ADD.
+4. **India's virgin-board industry is a six-company oligopoly at full utilisation.** DGTR: ITC, JK, TNPL, Emami, Century (now ITC) = 97% of VMLP output, West Coast the rest; capacity 16.9 lakh t at ~100% utilisation; demand +48% in three years. Post-Lalkuan, **ITC + JK ≈ the core of domestic VMLP** — pricing discipline in board is now a two-player question (ITC is the price leader; JK has ~17% of the market).
+5. **"Paper company" is now half the story at JK.** Paper is ~50% of revenue (75% in FY22); corrugation volume +7.4%, mono-cartons +6.4%, animal nutrition (Halquinol global leader) and defence electronics (Delopt) in "Others". Converting earns low margins (corrugation ~10–14% EBITDA; JKPL Packaging Products lost ₹12 Cr, Borkar lost ₹6 Cr in FY26) — so the diversification lowers volatility more than it raises returns. JK's discounting (6.6% of gross sales) is the hidden price lever.
+6. **Seshasayee's FY26 was a US-tariff story.** Its main export market (US) was shut May–Sep 2025; 8,000 t of export tonnage was dumped into the domestic market and realisation fell ~6.7%. A trade-policy shock *outbound* is a new risk the report should mention for W&P exporters.
+7. **Andhra is the purest W&P cycle gauge.** Its six-year table gives the cleanest public W&P realisation series (₹50k → ₹83k → ₹65k/t). Use it as the industry price line in the cycle chart, with JK's mix-adjusted figures alongside.
+8. **ITC's segment margin is understated by inter-segment pricing.** 21% of PSPD revenue is sold to ITC's own cigarettes/FMCG businesses; segment EBITDA ≈ 13.5% of total revenue but ~17% of external revenue — closer to JK's trough margin than the 9.1% PBIT headline suggests.
+
+**New primer issues (format as primer-issues.md)**
+
+### From Paper deep-research (2026-10-23, paper-industry.md Part 4)
+
+- **jk-paper.html — revenue basis (refines §3.4 item 1):** "~₹7,569 Cr" is JK's *gross* turnover (sales before ₹493 Cr of trade discounts, plus other operating revenue); audited **revenue from operations is ₹7,076 Cr**; company EBITDA ₹984 Cr includes ₹60 Cr other income (operating ₹924 Cr); PAT ₹266 Cr is the **owners'** share (total ₹273.5 Cr). Label each basis.
+- **jk-paper.html — chairman:** primer lists Bharat Hari Singhania as Chairman; the FY26 accounts and 2026 press releases name **Harsh Pati Singhania as Chairman & Managing Director**; Bharat Hari Singhania receives an advisory fee (₹2.75 Cr).
+- **jk-paper.html — capacity mix:** add **7.61 lakh tpa = uncoated 4.15 + coated 0.55 + packaging board 2.91 lakh tpa**; pulp 4.75 lakh tpa; mill split JKPM 3.15 / CPM 3.10 (2.60 board) / Sirpur 1.36. Replace "board ~35–40% (indicative)" with **38% of capacity; 3.2 lakh t board sold in FY25**.
+- **jk-paper.html — market shares:** add company estimates (FY24) **copier 28%, coated 8%, packaging board 17%**; "largest in office & communication paper, 2nd in paperboard, largest in corrugated boxes".
+- **jk-paper.html — wood cost quantified:** add delivered wood cost **₹7,542/t (FY23) → ₹14,460/t (FY26)**, wood 51% of raw-material cost; local-catchment share 100% → 70% (FY21–FY24); plantation 90,238 acres in FY26.
+- **jk-paper.html — Borkar/RWPL dates:** Borkar 71.96% from **28-Oct-2025**, 87.36% from 11-Jun-2026 (not "Oct-2026"); Radhesham Wellpack 80% → **100% on 9-Sep-2026** (₹44 Cr); Quadragen 65% with the remaining 35% due within four years.
+- **jk-paper.html — no investor calls:** the primer implies regular management commentary; JK has held **no analyst call since 21-May-2024** and published no presentation since Jan-2025 — say that guidance comes from press releases, the annual report and rating rationales.
+- **jk-paper.html — revenue mix:** "converting & other ~5–8%" understates it; JK says paper is **~50% of revenue (FY26) vs ~75% (FY22)**; segments: Paper & Packaging ₹6,890 Cr (PBIT ₹519 Cr), Others ₹192 Cr (Delopt defence electronics + animal nutrition + housing).
+- **jk-paper.html — trade remedy detail:** add the DGTR duty table (US$261/t RAPI, **nil for Indah Kiat/APP**, US$376/t others; five years) and that the Finance Ministry had not notified it by Oct-2026; board imports halved in H2 FY26 after the MIP (JK AR).
+- **jk-paper.html — net debt:** use company net debt **₹1,856 Cr (Mar-26; ₹1,317 Cr Mar-25), gearing 25%, interest cover 4.4×, company ROCE 5.9%**; CRISIL's 2.3× ND/EBITDA as the agency view.
+- **jk-paper.html — timeline:** add 1938 (straw boards), 1962 (Rayagada fine-paper mill), 1992 (acquired Central Pulp Mills, Songadh), 2005 coated, 2007 board, 2013 JKPM fibre line, 2022 CPM board line (1.7 lakh tpa), CIN shows incorporation in **1960** (Gujarat).
+- **jk-paper.html — governance/cost items:** KMP short-term pay ₹45 Cr (≈17% of owners' PAT FY26); FY26 exceptional ₹17.4 Cr (new Labour Codes); euro-restatement losses; CGST demand ₹2.5 Cr (Sep-2026, under appeal); Myanmar JV provision ₹15.4 Cr.
+- **diversified-fmcg.html (sibling) — ITC PSPD:** add segment depreciation ₹390 Cr (EBITDA ~₹1,187 Cr, 13.5%), **21% inter-segment revenue**, Lalkuan BTA 31-Mar-2025/CCI 16-Dec-2025/MoEFCC 18-Mar-2026/commissioned 1984; MIP end date now 31-Mar-2027 (ITC's own Q1 deck still said 30-Sep-2026).
+
+**Key URLs added in Part 4 (fetched 23-Oct-2026)**
+- JK AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/c423f126-b843-4661-ba6f-ca9d2d1f5126.pdf · AR FY25 …/780966ca-fc31-4245-a078-4036e0bab228.pdf · AR FY24 …/68d88172-95f9-4a73-9e83-58099d4713f0.pdf · AR FY23 …/03f8546c-43b5-4d8b-a391-57031acb5c80.pdf
+- JK filings: https://www.jkpaper.com/pdf/intimation-to-stock-exchanges/ (Outcome-of-Board-Meeting-27-07-2026.pdf; Press-Release-…-30th-June-2026.pdf; Press-Release-…-31st-March-2026.pdf; …BPPL12062026.pdf; …RWPL-992026.pdf; …GST-Order22092026.pdf) · Corporate Update Jan-2025: https://www.jkpaper.com/pdf/corporate-update/Corporate_Update_Jan_2025.pdf · Q4 FY24 transcript: https://www.jkpaper.com/pdf/transcript-of-conference-call/STX_Transcript.pdf
+- DGTR VMLP final findings (25-Jun-2026): https://worldtradescanner.com/NCV%20FF-Virgin%20Paperboard_%20English%2025.06.26.pdf · DGFT Notif. 38/2026-27: https://worldtradescanner.com/38-Ntfn-DGFT-30.09.2026.htm
+- ITC Q1 FY27 presentation: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20b685f4-2aec-4887-bb2a-eaf9fd999da2.pdf · ITC R&A 2026: https://www.bseindia.com/xml-data/corpfiling/AttachHis/590b42ae-15c9-44cf-be69-e58053128a6b.pdf
+- Peer ARs FY26: Seshasayee …/5d2b7918-7cb1-4e32-8288-1fb4aa72842c.pdf · West Coast …/77eee972-6a45-4d50-ad73-e638c3a3113b.pdf · Andhra …/dc273b88-498e-466e-a9e2-7f4eb848f118.pdf · TNPL …/f155926e-2a92-435f-913a-180ae72024af.pdf (all under https://www.bseindia.com/xml-data/corpfiling/AttachHis/)
+- Imports (IPMA/DGCI&S table): https://www.papermarket.co.in/imports-of-paper-and-paperboard-from-asean-surge-14-in-h1fy26/
+- Global peers: https://stockanalysis.com/stocks/ip/statistics/ · /stocks/suz/statistics/ · /quote/hel/UPM/statistics/ · /quote/hel/STERV/statistics/ · /quote/hkg/2689/statistics/
+
+*End of Part 4.*
+
+---
+
+# PART 5 — Orchestrator re-add of aggregates (2026-10-23, after Part 4 Supersedes)
+
+I re-added every Part 3 aggregate from the company rows and found no arithmetic errors. Checked: FY26 revenue 7,076+4,279+1,710+4,645 = 17,710; operating profit 924+414+96+481 = 1,915 (10.8%); reported PAT 274+156+83+248 = 761 (542 excluding TNPL's deferred-tax credit); Q1 FY27 revenue 4,577, operating profit about 652 (14.2%), PAT 315.7; borrowings 4,536; investments 2,335; screener net debt 2,201; market cap 13,907; P/E 18.3× (25.7× excluding the credit); EV/EBITDA 8.4×; FY23 revenue, operating profit and PAT totals 18,621 / 5,199 / 3,079; JK's shares 40.0% / 48.3% / 36.0% / 46.5%.
+
+Changes forced by the Part 4 Supersedes:
+- **PAT basis for every reference-peer row and total: total reported PAT (before non-controlling interest), as on screener.** JK Paper's figure is ₹274 Cr (₹273.5 Cr audited). The owners' share, ₹265.8 Cr, goes in prose or notes only (S1–S2). The aggregate PAT of ₹761 Cr is unchanged.
+- **Capacity (S22, S23):** Andhra is 297,500 tpa (company AR), not 255,550, so West Coast consolidated is 320,000 + 297,500 = **617,500 tpa**. Seshasayee stays at 255,000 tpa (this already includes Tirunelveli/Servalakshmi). **Four-company total: 761,000 + 617,500 + 255,000 + 600,000 = 2,233,500 tpa.**
+- **JK net debt:** company definition ₹1,856 Cr (S14) gives ND/EBITDA 2.0× and EV/EBITDA (6,467 + 1,856) ÷ 924 = **9.0×**. On screener's ₹2,041 Cr it is 9.2×. In any summed column the peer table uses ONE basis, screener net debt, so the aggregate stays ₹2,201 Cr. The company figure goes in a note.
+- **JK EBITDA/t:** FY26 ₹11,280/t (924 ÷ 8.19 lakh t) and FY23 ≈ ₹25,900/t (S13).
