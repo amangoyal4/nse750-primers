@@ -1247,3 +1247,580 @@ All aggregates are **straight sums of the company rows above on one basis: scree
 - **CCI cartel:** https://www.outlookbusiness.com/news/sc-dismisses-tyre-companies-appeals-against-cci-orders-in-2018-anti-competitive-practices-case-news-56913 · https://barandbench.com/topic/tyre-manufacturers
 - **ICRA:** https://www.icra.in/Research/ViewResearchReport/7142 (search summary only)
 - **Chinese TBR ADD (2017):** https://autocarpro.in/news-national/india-imposes-anti-dumping-duty-import-chinese-truck-bus-radials-26255
+
+
+---
+
+# PART 4 — Deep-research supplement (24-Oct-2026)
+
+Compiled 24-Oct-2026 (UTC 06:07–07:30) by the deep-research pass. Everything below rests on documents opened and read this session unless tagged otherwise. Scratch notes and extracted texts are in `/tmp/tyres-deep/` (`txt/*.sq` = whitespace-squeezed text of every PDF).
+
+**What was read (primary documents, all fetched this session):**
+- **Company filings (BSE / company IR):** FY26 integrated annual reports of all five (MRF 217 pp, BKT 359 pp, Apollo 353 pp, CEAT 203 pp, JK 176 pp); latest investor presentations (MRF has none; BKT Q1 FY27 30-Jul-26; Apollo Q1 FY27 7-Aug-26; CEAT Q2 FY27 14-Oct-26; JK Q1 FY27 Aug-26 and Q2 FY27 23-Oct-26); latest earnings-call transcripts (BKT Q1 FY27, call 30-Jul-26; Apollo Q1 FY27, 7-Aug-26; CEAT Q2 FY27, 15-Oct-26 from ceat.com; JK Q1 FY27, 10-Aug-26; CEAT CAMSO acquisition-update call, 5-Sep-25). MRF holds no earnings calls.
+- **Rating rationales:** CareEdge MRF (19-Oct-26), CareEdge JK (27-Aug-26), CareEdge CEAT (8-Jan-26), CareEdge BKT (5-Mar-26), Crisil BKT credit bulletin (13-Aug-26), Crisil Apollo (14-Aug-26).
+- **Industry/regulators:** SIAM press releases (FY26, 14-Apr-26; Q2 FY27, 15-Oct-26); US EIA Brent spot series (monthly and daily, release 21-Oct-26); European Commission Access2Markets EUDR notice; Apollo's GST price-cut press release; screener.in quarterly expense schedules (material cost %) for all five.
+- **Blocked or unreachable (logged in 4.4):** rubberboard.gov.in (TLS chain failure, then HTTP 503), commerce.gov.in and eparlib.sansad.in (connection reset/403), cpcb.nic.in (self-signed chain, 503), tradestat.commerce.gov.in and dgtr.gov.in (404). **atmaindia.org is a parked "domain may be for sale" page** — ATMA statistics could not be reached at source.
+
+**Tags in Part 4:** [V] = read this session in the named primary document; [V-sec] = read in full this session but in a secondary source (press/aggregator) reporting a primary statement; [V-snip] = search summary only; [E] = arithmetic/estimate; [K] = memory.
+
+## 4.0 Supersedes (corrections the writer must apply to Parts 1–3)
+
+| # | Where in Parts 1–3 | Old value / claim | New value | Source (fetched 24-Oct-26) |
+|---|---|---|---|---|
+| S1 | Trap 3; §2.3; §3.1 notes; JSON | Apollo FY26 exceptional "~₹900–1,000 Cr pre-tax, inferred from screener other income" | **₹1,033.5 Cr** consolidated (impairment/restructuring provision ₹1,000.1 Cr — Enschede/ATNL; labour-code impact ₹25.9 Cr; VRS ₹7.5 Cr). FY25: ₹168.7 Cr. Crisil rounds to "~₹1,028 Cr" | Apollo AR FY26 note B31 [V]; Crisil 14-Aug-26 [V] |
+| S2 | Trap 3; §2.3; Part 3 primer issue | Q4 FY26 tax −290% "a large deferred-tax credit, likely Netherlands/Europe" | **India deferred-tax remeasurement**: Apollo opted for the concessional regime (s.200, Income-tax Act 2025) from Tax Year 2026-27; rate 34.94% → 25.17%; DTL remeasured → **credit ₹573.7 Cr** in FY26 P&L (standalone Q4 tax −₹416 Cr) | Apollo AR FY26 note 11(iv) [V]; Q1 FY27 PPT standalone P&L [V] |
+| S3 | Trap 3; §2.0; §3.1; §3.2 aggregates | Apollo pre-exceptional, normal-tax FY26 PAT "~₹1,650–1,700 Cr" (₹1,675 Cr in JSON) | **~₹1,750–1,830 Cr** [E]: (PBT ₹1,309 + exc. ₹1,033) × 0.75 = ₹1,757 Cr; or reported ₹1,372 + ₹1,033 − ₹574 tax credit = ₹1,831 Cr (if the NL impairment carries no tax shield). All-five pre-exc. PAT moves from ~₹6,939 Cr to **~₹7,140 Cr** [E] | Arithmetic on S1/S2 |
+| S4 | §2.5; §3.1 note; Part 3 grid | JK pre-exceptional FY26 PAT "~₹845 Cr", Q3 −₹92 Cr "nature unverified" | **~₹880 Cr** [E]: consolidated exceptional FY26 = **₹146 Cr** (FX loss ₹25.95 Cr, VRS ₹30.16 Cr, stamp duty on Cavendish merger ₹32.50 Cr, new labour codes ₹56.98 Cr); PBT pre-exc. ₹1,189 Cr → PBT ₹1,043 Cr → PAT ₹774 Cr (+₹2 Cr associates) | JK AR FY26 note 43 and Board's report table [V] |
+| S5 | §2.3 Q1 FY27; §H-13; §2.7 | Apollo Q1 FY27 India margin "12.0% (FilingReader) vs up 80 bp (MOSL) — CONFLICT" | **12.0% vs 13.6% — down 160 bp.** India standalone revenue ₹5,462 Cr (+15.6%), EBITDA ₹655 Cr | Apollo Q1 FY27 PPT and transcript [V] |
+| S6 | §2.3; §H-13 | Apollo Q1 FY27 Europe "€147 m vs ₹2,040 Cr (MOSL) — inconsistent" | **€147 m (+0.5%; excl. Reifencom distribution)**, EBITDA €13 m, 8.9% (10.8%). Europe *incl.* Reifencom = 26% of consolidated revenue (≈₹1,920 Cr) — MOSL's ₹2,040 Cr is a different basis; do not use | Apollo Q1 FY27 PPT slides 4, 6; transcript [V] |
+| S7 | §2.0; §3.2(d); §H; JSON | Apollo company net debt "~₹1,300 Cr (primer) / ~₹1,700 Cr (Jun-26)" | **₹16 bn (₹1,600 Cr) at Mar-26 → ₹17 bn (₹1,700+ Cr) at Jun-26**; ND/EBITDA 0.4×. Crisil basis (incl. dealer deposits ₹1,315 Cr and leases): ND/EBITDA 0.93× FY26 → 1.8–2.0× FY27e | Apollo Q1 PPT slide 7; transcript; Crisil [V] |
+| S8 | Header trap 1; §1.2; §2.2; §9.1 KPI table; MRF primer note | BKT "~70% of revenue outside India (Europe ~43%, Americas ~16%)"; US ~15% of revenue (ICICI) | **Volume basis (standalone): Europe 40.0%, Americas 13.2%, India 36.3%, RoW 10.5% in FY26; Q1 FY27 Europe 38.4%, Americas 12.3%, India 39.7%, RoW 9.6%** → exports ≈ 64% of FY26 volume, ≈ 60% in Q1 FY27. Management: US now ~11–12% of revenue (historically 15–16%) | BKT Q1 FY27 PPT slide 7 (rendered) [V]; Q1 transcript [V] |
+| S9 | §4.3; §2.2; §H-16; BKT primer note | BKT "5 plants (Bhuj, Waluj, Bhiwadi, Chopanki, Dombivli)"; tyre capacity "~3.6 lt vs implied ~3.9 lt" | **4 tyre plants** + 1 carbon-black + 1 mould + 1 drum unit + 1 wind farm. **Tyre achievable output 3,60,000 MTPA; carbon black achievable 3,60,000 MTPA (incl. 30,000 MTPA advanced carbon)** — the two numbers are genuinely equal. +35,000 MTPA capex **plus debottlenecking** → 4,25,000 MTPA (so no "implied 3.9 lt") | BKT Q1 FY27 PPT slides 13, 22; Q1 transcript (Phase II CB at Bhuj, ₹800 Cr) [V] |
+| S10 | §5.1; trap 6; §2.1; MRF primer note | MRF domestic share "~28–30% of industry revenue [E]" | **CareEdge: MRF ≈ 31.9% of total estimated tyre *units* sold by the domestic industry** (FY26). Keep the primer's "~35%" flagged as overstated; write "about a third of units (CareEdge)" | CareEdge MRF rationale 19-Oct-26 [V] |
+| S11 | §4.3; §2.1; §3.3; MRF primer note | MRF plants: "8 (7 named)"; "Perambalur, Ankanpally [K]" | **10 plants at 9 locations**: Tiruvottiyur, Kottayam, Goa (Ponda), Arkonam, Medak (Sadasivapet), Puducherry, Ankenpally (Sadasivapet), **Perambalur (2 plants)**, **Dahej (Gujarat)**. No tonnage capacity disclosed — "1.1 mn t" remains unsourced | MRF AR FY26, Corporate Governance report (l) Plant Locations [V] |
+| S12 | Trap 7; §9.1; §F | Replacement shares: Apollo ~65% (primer) vs ~75% (MRF primer); JK ~61% (3rd party); MRF n/d | **MRF 69.1% replacement / 23.3% OEM+defence / ~8% exports (FY26)** [CareEdge]; **Apollo 79% replacement (consolidated FY26, Crisil; Q1 FY27 PPT 79%) and 66% standalone (Q1 FY27)**; **JK 64/23/13 (FY26) and 63/27/10 (Q1 FY27)** [CareEdge]; **CEAT 50/30/20 (H1 FY27 standalone; H1 FY26 52/29/19)** | Rating rationales; Apollo and CEAT PPTs [V] |
+| S13 | §0; §1.2; §3.4; §7.2; trap 4 in §A; BKT primer note | US tariff "fallen from 50% (Aug-25) to ~10% plus MFN (since Jul-26)"; "18% from Feb-2026" unresolved | **Split by product.** On-road tyres (PCR/LT and, per CEAT, TBR) sit under the **Section 232 auto-parts tariff: 25% + ~4% MFN** (tyre HTS 4011.10/4011.20.10 in the Sec 232 parts annex effective 3-May-2025; Sec 232 was not touched by the IEEPA ruling). **OHT/agri tyres: ~10%** ("global"/Sec 301 era) + MFN; tracks 10% (steel content 25%). **"18%"** was the 2-Feb-2026 India–US interim-framework reciprocal (IEEPA) rate — void after SCOTUS (20-Feb-26). BKT has filed for IEEPA tariff refunds | CEAT Q2 call 15-Oct-26 [V]; BKT Q1 call [V]; Sec 232 annex [V-snip Thompson Hine/Green Worldwide]; jmfinancial/IANS [V-snip] |
+| S14 | Units/FX header; §12; §H-5 | Brent "peak ~$118/bbl in March"; Oct "~$95" (sibling) vs "~$105" (CEAT) | **EIA dated-Brent spot monthly: Mar-26 $103.13, Apr $117.29 (highest month), May $107.14, Jun $85.40, Jul $83.76, Aug $91.08, Sep $114.16.** Daily: **$135.51 on 2-Oct-26**; 1–20 Oct average **≈ $125.7**; $126.35 on 15-Oct (CEAT said "~$105" that day — likely a futures/crude-basket basis). Both $95 and $105 understate the spot print | EIA RBRTE monthly and daily, release 21-Oct-26 [V] |
+| S15 | Q2 status table; §2.4; §3.1; JSON | CEAT Q2 FY27 EBITDA "₹457 Cr (9.6%)"; debt "₹3,850 Cr" | Company consolidated **EBITDA ₹452 Cr, 9.5%** (+94 bp QoQ, −403 bp YoY; includes Sri Lanka JV share); **standalone ₹461 Cr, 10.1%**; consolidated **debt ₹3,846 Cr**, D/E 0.77×, debt/EBITDA 1.93× (Q1 1.58×). Screener OP ₹457 Cr remains the table basis | CEAT Q2 PPT; transcript [V] |
+| S16 | §2.4 Q1 | CEAT Q1 FY27 EBITDA ₹365 Cr (8.5%) | Company **₹370 Cr, 8.6%** (screener ₹365 Cr) | CEAT Q2 PPT comparatives [V] |
+| S17 | §2.7 item 4 | "Kotak's ₹112 Cr vs ₹297 Cr for H1 is an error" | H1 FY26 PAT was **₹298 Cr** (company) — a "vs ₹297–298 Cr" H1 comparison is valid; H1 FY27 PAT ₹116 Cr (**−61%**) | CEAT Q2 PPT 6M columns [V] |
+| S18 | Trap 2; §4.1; E13 | CEAT RM basket "+15% (Q1) +8–9% (Q2), +3–3.5% Q3e" | Same, and management's cumulative: **+27% by December 2026 over March-2026 exit prices**; standalone gross margin **33.6%** vs "comfort zone" **40–42%** | CEAT Q2 transcript [V] |
+| S19 | §2.3; E13 | Apollo price hikes "~11% done of 15–16% needed" | India: Q1 implemented 7–9%; by 7-Aug **9% in TBR, 11% in other categories**; need 15–16%; **Europe needs ~10%, only 3–4% done**; Q1 RM +~17%, Q2 RM +~8% expected; Q1 input prices **NR ₹225/kg, SR ₹250/kg, carbon black ₹125/kg, steel cord ₹165/kg** | Apollo Q1 transcript [V] |
+| S20 | §2.5; §4.3; §H-15; JK primer note | JK Mexico "2 (PPT) vs 3 (primer)" | **2 plants in Mexico confirmed** (AR: "11 plants (9 in India and 2 in Mexico)"; CareEdge same). Total capacity **380 lakh tyres p.a.** (270 + 110 via Cavendish) | JK AR FY26 [V]; CareEdge JK [V] |
+| S21 | Trap list item 2; §2.5 | Cavendish amalgamation "effective Dec-2025" | **Effective 22-Dec-2025**, appointed date 1-Apr-2025 | JK AR FY26 notes [V] |
+| S22 | §0; §2.4; §G timeline | CAMSO "announced Dec-2024 … completed 1-Sep-2025 [V-snip]" | **APA signed 6-Dec-2024; closed w.e.f. 1-Sep-2025** [V]; consideration **₹1,185.6 Cr** (ex brand and finished goods) + brand/full-usage transfer after 3 years **₹387.6 Cr (US$44 m) due by 31-Aug-2028** + commitment to buy FG inventory ~US$44 m over 12 months; goodwill only ₹7.2 Cr | CEAT AR FY26 note 52; CAMSO call 5-Sep-25; Q2 call [V] |
+| S23 | §2.5; §0; §4.3 | JK "₹4,980 Cr Chennai brownfield" as the FY27 cash need | Board-approved programme ₹4,980 Cr (TBR + PCR, adds ~24% capacity over ~4 years; ~7% by FY28) — but **annual capex is ₹1,600–1,800 Cr in FY27 and ₹2,000–2,500 Cr p.a. FY28–30** (CareEdge). AR also cites a broader "₹6,000 Cr" capacity programme | JK Q1 transcript; CareEdge JK; JK AR [V] |
+| S24 | §2.5; JSON | JK net debt basis conflict ₹4,445 Cr (company) vs ₹4,761 Cr (screener) | Company **₹4,445 Cr (Mar-26) → ₹4,945 Cr (Jun-26)**; ND/E 0.73× → 0.81×; ND/EBITDA 2.13× → 2.56×. Difference to screener (≈₹316 Cr) = cash and bank balances that screener does not net [E]. CareEdge (incl. acceptances, dealer deposits): ND/PBILDT 2.86× FY26, 3.0–3.5× expected | JK Q1 transcript; JK AR; CareEdge [V] |
+| S25 | §2.4; §3.2(d) | CEAT debt basis ₹4,065 Cr (screener) vs ₹3,850 Cr (company) | Company **₹3,846 Cr (Sep-26)**; group borrowings **₹3,010.8 Cr at Mar-26** vs screener ₹3,272 Cr → screener's extra ~₹260 Cr ≈ lease liabilities [E]. Use company figure in prose | CEAT AR FY26 capital-management note; Q2 PPT [V] |
+| S26 | §2.2; §3.2(d) | BKT net debt ₹987 Cr (screener) / ~₹895 Cr (primer) | **Jun-26: gross debt ~₹4,690 Cr, cash ~₹2,965 Cr → net debt ~₹1,725 Cr** (capex ~₹1,000 Cr in Q1) | BKT Q1 transcript [V] |
+| S27 | §5.1 table; §2.2; §10 | BKT global OHT share "~6–7% (primer), target 8% (Kotak)/~10%" | Management (Q1 call): **India OHT ~18–19%, Europe ~7–8%, US ~3–4%**; CareEdge: **~5–6% of global specialty market**; target **8% by FY30**, 10% "strategic goal" | BKT Q1 transcript; PPT; CareEdge BKT [V] |
+| S28 | §2.2; Pirelli/on-highway bullets | On-highway "20% of revenue by FY30"; ₹3,500 Cr capex [V-snip] | FY30 plan ~₹23,000 Cr = OHT ~70% + carbon-black third-party ~10% + on-highway ~20% (**~₹5,000 Cr, ~5% domestic share**); CV radial pilot Q4 FY26, **PCR pilot Q3 FY27**; blended EBITDA target 23–25%; capex plan **₹6,800 Cr of which ~₹3,800 Cr spent, ~₹3,000 Cr left** | BKT Q1 PPT slides 11–18, 22; transcript [V] |
+| S29 | Q2 status table (MRF row) | MRF "typically reports Q2 in first half of November [K]" | **Q2 FY26 board met 14-Nov-2025** (interim dividend), Q1 FY26 12-Aug-2025 → expect ~mid-Nov-2026 [E]. Still no Q2 FY27 intimation on 24-Oct (re-checked ~07:00 UTC) | MRF AR FY26 (Board's report, Annexure IV) [V]; screener [V] |
+| S30 | Q2 status table; §2.5 | JK Q1 FY27 results "~6-Aug-2026" | **Earnings call 10-Aug-2026**; transcript filed 14-Aug | JK Q1 transcript [V] |
+| S31 | §7.5; §12; §B5 | CCI case "2025–26 status not found"; split [K] | **Penalties confirmed in each AR: MRF ₹622.09 Cr, Apollo ₹425.53 Cr, JK ₹309.95 Cr, CEAT ₹252.16 Cr**; CCI appealed NCLAT's remand to the SC (Feb-2023); MRF's own appeal tagged; CEAT replied 28-Dec-2023; **no interim order; last heard September 2025; decision awaited**; no provisions | MRF/Apollo/CEAT/JK ARs FY26 [V]; Crisil Apollo [V] |
+| S32 | §0; E8; §B1 | RSS-4 points: ₹184 (2024), ₹284 (1-Aug-26), ₹284.50 (13-Oct-26) | Add **₹262/kg peak on 14-May-2026** (Rubber Board Statistics Consultative Panel) [V-sec]; Apollo's average NR purchase price **₹225/kg in Q1 FY27**, ">₹260 in Q2" [V]; Crisil: NR "₹240–260/kg in Q1 FY27" [V]; CEAT: domestic ~₹285/kg at 15-Oct, SGX $2,200 → $2,600/t in Q2 [V] | tyre-trends 29-May-26; Apollo transcript; Crisil; CEAT transcript |
+| S33 | §2.3 story; §9.1 | Apollo "India ~72%/Europe ~28% [E]" | Crisil FY26: **APMEA ~63%, Europe ~30%, rest (US etc.)**; Q1 FY27 PPT: **India 69%, Europe 26% (incl. Reifencom), others 5%** | Crisil; Apollo PPT [V] |
+| S34 | §4.3 Apollo row | Apollo capex "FY27 ~₹3,000 Cr; ₹5,810 Cr FY27–29 (primer)" | Crisil: capex **~₹2,400 Cr in FY26**, ~₹3,000 Cr FY27, ~₹2,200 Cr FY28; AP plant +3.7 mn PCR and +1.3 mn TBR tyres p.a.; Hungary 17,000 → 21,000 car tyres/day (H2 FY27); **Hungary TBR discontinued and moved to India**; capital commitments ₹1,539 Cr (Mar-26) vs ₹293 Cr | Crisil; Apollo transcript; AR [V] |
+| S35 | §G timeline; §2.3 | Enschede "announced Apr-2025 … stopped by 2026 [V-snip]" | Request for Advice to Dutch Works Council **25-Apr-2025**; Works Council settlement **Sep-2025**; **production stopped June 2026** as planned; ~750,000 tyres/yr moved mostly to Hungary (14–15" sizes Hungary → India; Spacemaster spare → Vadodara); Enschede agri line (20 t/day) to an off-take partner; cash cost **~€50 m** in FY27 | Apollo AR; Q1 transcript; Crisil [V] |
+| S36 | §2.2 Q1 | BKT Q1 standalone "net sales ₹3,445 Cr" | Revenue from operations ₹3,445 Cr, **total income ₹3,409 Cr after ₹36 Cr realised FX loss** (the company's headline "revenue") | BKT Q1 PPT P&L [V] |
+| S37 | §0 FY26 framing; §3.2 | "FY26 full-year SIAM … not fetched" | FY26 domestic: **PV 46.43 lakh (+7.9%), CV 10.80 lakh (+12.6%), 3W 8.36 lakh (+12.8%), 2W 2.17 crore (+10.7%)**; production 3.47 crore units; PV H1 −1.4%/H2 +16.7% | SIAM 14-Apr-26 [V] |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Primary?" = Y when the figure was read this session in a company filing/presentation/transcript/AR, a regulator or industry body document, or a rating rationale. "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Primary source (URL) | Fetched / Primary? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | MRF FY26 consolidated revenue / PBILDT margin | ₹31,155 Cr TOI; PBILDT ₹4,918 Cr, 15.78% (screener ₹31,149 Cr / 15.8%) | careratings.com/upload/CompanyFiles/PR/202610131002_MRF_Limited.pdf | Yes / **Y [V]** | Yes (basis rounding) |
+| 2 | MRF domestic share | **~31.9% of tyre units** sold by the domestic industry | same CareEdge MRF rationale | Yes / **Y [V]** | **No** — Parts 1–3 had 28–30% revenue [E] → S10 |
+| 3 | MRF channel mix FY26 | Replacement 69.1%, OEM/defence 23.3%, exports ~8% | same | Yes / **Y [V]** | New (Parts 1–3 "n/d") |
+| 4 | MRF plants | 10 plants / 9 locations incl. Dahej, Perambalur ×2 | MRF AR FY26 (bseindia.com/xml-data/corpfiling/AttachHis/38efc5e4-…pdf) | Yes / **Y [V]** | **No** → S11 |
+| 5 | MRF net cash / liquidity FY26 | Net cash ₹1,462 Cr (CareEdge basis incl. dealer deposits); cash & liquid investments ₹7,572 Cr; rating CARE AAA/Stable | CareEdge MRF | Yes / **Y [V]** | Partly (screener showed net cash ₹191 Cr; true cash larger — as Parts 1–3 suspected) |
+| 6 | MRF standalone FY26 | Revenue ₹30,652 Cr; EBITDA ₹5,178 Cr (incl. OI); PAT ₹2,355 Cr; exports ₹2,324 Cr | MRF AR FY26 MD&A | Yes / **Y [V]** | New |
+| 7 | BKT FY26 standalone volume / revenue / EBITDA | 3,17,356 t; total income ₹10,656 Cr; EBITDA ₹2,423 Cr (22.7%); PAT ₹1,222 Cr | BKT Q1 FY27 PPT (bseindia AnnPdfOpen …aae229b9-…pdf) | Yes / **Y [V]** | Yes |
+| 8 | BKT Q1 FY27 volume / EBITDA | 93,770 t (+16%); EBITDA ₹703 Cr, 20.61% (−315 bp) | same; transcript (…19decb0a-…pdf) | Yes / **Y [V]** | Yes |
+| 9 | BKT geography (volume) FY26 | Europe 40.0 / Americas 13.2 / India 36.3 / RoW 10.5% | BKT Q1 PPT slide 7 (rendered) | Yes / **Y [V]** | **No** (primer 43/16) → S8 |
+| 10 | BKT tyre and carbon-black capacity | 3,60,000 MTPA each; tyres → 4,25,000 MTPA | BKT Q1 PPT slides 13, 22; transcript | Yes / **Y [V]** | Resolves §H-16 → S9 |
+| 11 | BKT net debt Jun-26 | ~₹1,725 Cr (gross ₹4,690 Cr; cash ₹2,965 Cr) | BKT Q1 transcript | Yes / **Y [V]** | **No** (₹987/895 Cr were Mar-26) → S26 |
+| 12 | BKT rating | CARE AA+/Stable (NCD ₹750 Cr, 5-Mar-26); Crisil AA+/Stable (13-Aug-26) | careratings …202603130338_Balkrishna…pdf; crisil.com RR_402637 | Yes / **Y [V]** | Fills §H-18 |
+| 13 | BKT–Pirelli | Up to 800,000 Pirelli car tyres by 2030; possible 50-50 JV | BSE PR 22-Oct-26 (Phase-1 file re-read: /tmp/tyres-dossier/pdf/bkt-pirelli.txt) | Re-opened / **Y [V]** | Yes |
+| 14 | Apollo FY26 revenue / EBITDA | ₹28,471 Cr (₹284,706 Mn), EBITDA ₹4,143 Cr 14.6% (+88 bp) | Apollo Q1 FY27 PPT (…be9bd8bd-…pdf) | Yes / **Y [V]** | Yes |
+| 15 | Apollo FY26 exceptional | ₹1,033.5 Cr | Apollo AR FY26 (…f781879d-…pdf) note B31 | Yes / **Y [V]** | **No** (~₹900–1,000 Cr [E]) → S1 |
+| 16 | Apollo FY26 tax credit | ₹573.7 Cr DTL remeasurement, new regime 25.17% | Apollo AR note 11(iv) | Yes / **Y [V]** | **No** (cause misidentified) → S2 |
+| 17 | Apollo Q1 FY27 India margin | 12.0% vs 13.6% | Apollo Q1 PPT slide 5; transcript | Yes / **Y [V]** | Resolves conflict → S5 |
+| 18 | Apollo Q1 FY27 Europe | €147 m (+0.5%), EBITDA 8.9% | Apollo Q1 PPT slide 6 | Yes / **Y [V]** | Resolves → S6 |
+| 19 | Apollo utilisation | India 91%, Europe 94% (Q1 FY27); ~90% FY26 (Crisil) | Apollo Q1 PPT slide 4; Crisil RR_399633 | Yes / **Y [V]** | Yes |
+| 20 | Apollo rating / leverage | Crisil AA+/Stable/A1+; gearing 0.32×; ND/EBITDA 0.93× FY26 → 1.8–2.0× FY27e | crisil.com …ApolloTyresLimited_August 14_ 2026_RR_399633.html | Yes / **Y [V]** | Fills §H-18 |
+| 21 | Apollo TBR replacement share | ">30%" (and PCR ~21%) | DSIJ/MOSL summary of Q1 call (not found in transcript text) | Phase 1 / N [V-sec] | Unchanged — keep as "management, per broker note" |
+| 22 | CEAT Q2 FY27 consolidated | Revenue ₹4,762 Cr (+26.2%); EBITDA ₹452 Cr 9.5%; GM 34.6%; PAT ₹112 Cr | CEAT Q2 PPT (…5030bfa8-…pdf) | Yes / **Y [V]** | Mostly (EBITDA 457 → 452) → S15 |
+| 23 | CEAT debt Sep-26 | ₹3,846 Cr; D/E 0.77×; debt/EBITDA 1.93× | CEAT Q2 PPT; transcript (ceat.com …2026-10-15-ceat-q2fy27-earnings-call-transcript-vF.pdf) | Yes / **Y [V]** | Resolves basis → S25 |
+| 24 | CEAT price hikes FY27 YTD | Replacement 12–13%, OEM 14–15%, consolidated ~13% (1-Apr → 30-Sep) | CEAT Q2 transcript | Yes / **Y [V]** | Yes |
+| 25 | CEAT RM inflation | +15% Q1, +8–9% Q2, ~+3% Q3 → **+27% by Dec over Mar exit** | CEAT Q2 transcript | Yes / **Y [V]** | Yes, extended → S18 |
+| 26 | CAMSO terms | APA 6-Dec-24; closed 1-Sep-25; ₹1,185.6 Cr + US$44 m brand (by 31-Aug-28) | CEAT AR FY26 note 52; CAMSO call 5-Sep-25 | Yes / **Y [V]** | Yes, more detail → S22 |
+| 27 | CEAT rating | CARE AA (Positive)/A1+; Ind-Ra AA (Positive) | CareEdge CEAT 8-Jan-26; CEAT AR | Yes / **Y [V]** | Fills §H-18 |
+| 28 | JK Q2 FY27 | Total income ₹4,850 Cr (+20%); EBITDA ₹343 Cr 7.1%; PAT ₹60 Cr | JK Q2 PPT (Phase-1 file re-opened) | Re-opened / **Y [V]** | Yes |
+| 29 | JK FY26 exceptional and pre-exc. PAT | Exc. ₹146 Cr; pre-exc. PAT ~₹880 Cr [E] | JK AR FY26 (…47bfb162-…pdf) | Yes / **Y [V]** (exc.) | **No** (~₹845 Cr) → S4 |
+| 30 | JK net debt | ₹4,445 Cr (Mar-26) → ₹4,945 Cr (Jun-26) | JK AR; Q1 transcript (…082585f9-…pdf) | Yes / **Y [V]** | Basis resolved → S24 |
+| 31 | JK Mexico plants / capacity | 2 plants; 380 lakh tyres p.a.; 11 plants | JK AR; CareEdge JK (…202608120827_JK…pdf) | Yes / **Y [V]** | Resolves §H-15 → S20 |
+| 32 | JK rating and FY27 margin view | CARE AA−/Stable; PBILDT 10–11% expected FY27; ND/PBILDT 3.0–3.5× | CareEdge JK 27-Aug-26 | Yes / **Y [V]** | New |
+| 33 | CCI penalties and SC status | ₹622.09 / 425.53 / 309.95 / 252.16 Cr; SC last heard Sep-2025, pending | Four ARs; Crisil Apollo | Yes / **Y [V]** | Fills §H-8 → S31 |
+| 34 | US tariff on Indian tyres | On-road 25% (Sec 232) + ~4% MFN; OHT ~10% | CEAT Q2 transcript; BKT Q1 transcript | Yes / **Y [V]** (company statement) | **No** → S13 |
+| 35 | GST cut on tyres | 28% → 18% (tractor tyres → 5%), effective 22-Sep-2025 | corporate.apollotyres.com/press-and-media/news/corporate/gst-benefit | Yes / **Y [V]** | Yes |
+| 36 | EUDR application | 30-Dec-2026 large/medium; 30-Jun-2027 micro (non-EUTR products) | trade.ec.europa.eu/access-to-markets/en/news/delay-until-december-2026-… | Yes / **Y [V]** | Yes |
+| 37 | SIAM FY26 and H1 FY27 | FY26 PV 46.43 lakh (+7.9%), 2W 2.17 Cr (+10.7%), CV 10.80 lakh (+12.6%); H1 FY27 PV 26,37,067; Q2 PV +30.7%, CV +28.7% | siam.in press releases 605 (14-Apr-26) and 622 (15-Oct-26) | Yes / **Y [V]** | Yes (H1 numbers were [V-snip], now [V]) |
+| 38 | Brent | Sep-26 avg $114.16; 2-Oct $135.51; 1–20 Oct avg ≈ $125.7 | eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=RBRTE&f=M / f=D | Yes / **Y [V]** | **No** → S14 |
+| 39 | NR balance 2025-26 | Production 9.05 lt; consumption 14.27 lt; NR imports 4.59 lt; compound 3.49 lt; tyre-sector NR use −4.0% | Rubber Board Statistics Consultative Panel via tyre-trends (29-May-26); UNI/PIB IMPCC (7-Oct-26) | Yes / N [V-sec] (rubberboard.gov.in unreachable) | Yes |
+| 40 | RSS-4 record and exports | ₹284.50/kg (13-Oct-26); ATMA exports ₹27,312 Cr FY26 (+9%) | Onmanorama (Phase 1) / autocarpro-knn (Phase 1); MRF AR corroborates "+9% exports" and "industry +~10%" | Partly / N [V-sec]; MRF AR **[V]** for the growth rates | Yes |
+
+**Score: 37 of 40 figures rest on a primary document read this session [V]** (rows 21, 39 and the price/ATMA-value half of row 40 remain secondary). Where sources conflict, the company's own filing outranks broker notes and screener (e.g., Apollo India margin, CEAT EBITDA), and rating rationales are used for channel mix and market share because they are the only primary documents that publish them; note that CareEdge's PBILDT bases differ from screener OPM (MRF Q1 FY27 PBILDT 13.77% vs screener OPM 11.8% — CareEdge includes items screener leaves in other income/expenses; do not mix the two in one chart).
+
+## 4.2 Per-company deep packs
+
+Conventions: 5-year and 8-quarter tables are screener.in consolidated (pulled 24-Oct-26; quarterly material-cost % from screener's expense schedule API, same basis) [V screener]. Gross margin proxy = 100 − material cost %. Company figures are labelled. ₹ Cr unless stated.
+
+### 4.2.1 MRF (MRF · 500290)
+
+**Management commentary digest (MRF does not hold earnings calls; latest management statements are the FY26 MD&A, Apr–May 2026, and the CareEdge rationale of 19-Oct-2026)** [V MRF AR; V CareEdge]
+- **FY26 recap (MD&A):** "Tyre industry grew by an estimated 10% in 2025-26 while tyre exports from India grew by 9%"; marginal improvement in operating margins on easier commodities; all product segments (CV, PV, 2W, farm) grew; record tractor-tyre sales as the tractor industry crossed 1 million domestic units for the first time (GST on tractors cut to 5%).
+- **FY27 outlook (MD&A):** automobile demand traction to continue; **margins "likely to be impacted" by higher commodity prices and transport costs**; risks named: below-normal monsoon/El Niño (tractors, rural), West Asia conflict (commodities, shipping, rupee), possible RBI rate increases — all three have since materialised (repo hike 7-Oct-26).
+- **Exports:** ₹2,324 Cr (₹2,307 Cr) — "a period of consolidation": H1 strong double-digit, H2 hit by Philippines, Bangladesh, African elections and the Iran conflict (Middle East a traditionally strong market); new truck-radial and farm-radial ranges aimed at Europe and the Americas; superbike radials as a technology signal.
+- **CareEdge (Oct-26):** Q1 FY27 PBILDT margin 13.77% (15.35%) on NR and crude-linked inputs with a pass-through lag; expects "gradual recovery in margins"; downgrade triggers: gearing >0.5×, net debt/PBILDT >1×, PBILDT margin 9–10% sustained; notes competition from Chinese imports is contained by trade remedies and the **June-2020 DGFT import-licence regime**.
+- **Q1 FY27 board statement (11-Aug-26):** RM to stay firm on geopolitics; price increases and cost control to partly offset [V-snip, Phase 1].
+
+**KPI table (MRF has no concall; KPIs from AR and CareEdge)**
+| KPI | Value | Source |
+|---|---|---|
+| Domestic share (units) | ~31.9% | CareEdge [V] |
+| Channel mix FY26 (FY25) | Replacement 69.1% (69.5%); OEM/defence 23.3% (22.1%); exports ~8% (8%) | CareEdge [V] |
+| Dealers | >5,000 active | CareEdge [V] |
+| Imported RM share | 33.71% of RM consumed (FY26) | CareEdge [V] |
+| RM purchases via MRF SG Pte (Singapore WOS) | ₹3,472.4 Cr (TNMM pricing) | AR Annexure IV [V] |
+| Plants | 10 at 9 locations | AR [V] |
+| Net cash / liquid funds (FY26) | ₹1,462 Cr / ₹7,572 Cr; WC limit use ~8% | CareEdge [V] |
+| Interest cover | 13.14× (11.17×) | CareEdge [V] |
+| Standalone FY26 | Revenue ₹30,652 Cr; EBITDA ₹5,178 Cr; PAT ₹2,355 Cr; RoNW 12.2% | AR [V] |
+| Dividend FY26 | ₹3 + ₹3 interim + ₹229 final = ₹235/share | AR [V] |
+| R&D capex | ₹254.8 Cr (₹20.8 Cr) | AR [V] |
+
+**5-year history (screener consolidated)**
+| FY | Revenue | OP | OPM % | Other inc. | Interest | Dep. | PAT | ROCE % |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 19,317 | 2,061 | 10.7 | 315 | 263 | 1,205 | 669 | 7 |
+| FY23 | 23,008 | 2,404 | 10.4 | 245 | 326 | 1,253 | 769 | 7 |
+| FY24 | 25,169 | 4,272 | 17.0 | 306 | 361 | 1,430 | 2,081 | 17 |
+| FY25 | 28,152 | 4,090 | 14.5 | 414 | 368 | 1,654 | 1,873 | 14 |
+| FY26 | 31,149 | 4,910 | 15.8 | 440 | 374 | 1,754 | 2,426 | 16 |
+
+**8-quarter trend (screener consolidated; Q2 FY27 not reported)**
+| Qtr | Revenue | OP | OPM % | Material cost % | Gross margin proxy % | PAT |
+|---|---|---|---|---|---|---|
+| Sep-24 | 6,881 | 1,011 | 15 | 63 | 37 | 471 |
+| Dec-24 | 7,001 | 835 | 12 | 66 | 34 | 315 |
+| Mar-25 | 7,075 | 1,074 | 15 | 63 | 37 | 510 |
+| Jun-25 | 7,676 | 1,070 | 14 | 65 | 35 | 502 |
+| Sep-25 | 7,379 | 1,126 | 15 | 63 | 37 | 526 |
+| Dec-25 | 8,050 | 1,400 | 17 | 62 | 38 | 695 |
+| Mar-26 | 8,044 | 1,305 | 16 | 61 | 39 | 702 |
+| Jun-26 | 8,416 | 991 | 12 | **67** | **33** | 495 |
+Read: MRF's material cost jumped 6 pp QoQ in Q1 FY27 (61% → 67%) — the same order as CEAT (60 → 66) and JK (62 → 70); Q1 other income ₹195 Cr (vs ₹129 Cr) cushioned PAT.
+
+**Annual-report findings (FY26)** [V MRF AR]
+- **Related parties/royalty:** no royalty or brand fee; no transactions with promoter-group entities holding ≥10%; the only material RPT is RM sourcing through MRF SG Pte (₹3,472 Cr). Four subsidiaries (MRF Corp, MRF International, MRF Lanka, MRF SG) had turnover ₹3,974 Cr (mostly the Singapore sourcing pass-through) and PAT ₹66 Cr; a step-down MRF DB-FZCO (UAE) was set up 7-May-2025.
+- **Capacity:** plant list as above; no tonnes/units capacity is disclosed anywhere in the AR → the primer's "1.1 million tonnes" must be removed or sourced elsewhere.
+- **Contingent liabilities:** CCI penalty ₹622.09 Cr (CCI's SC appeal filed Feb-2023; MRF's own appeal tagged; no provision); sales tax ₹243.65 Cr; excise/customs ₹64.08 Cr (down from ₹594.43 Cr after favourable orders); income tax ₹112.57 Cr (₹111.54 Cr deposited); GST ₹40.71 Cr. Kerala FY2014-15 tax demand cut ₹91.53 → ₹36.19 Cr (7-Oct-26, Phase 1).
+- **Risks named:** commodity prices and freight from the Middle East conflict, rupee depreciation, monsoon/El Niño, possible fuel-price hikes cutting disposable income, rate hikes; industrial relations — work disruptions at **Arkonam, Tiruvottiyur and Trichy**, long-term settlement pending at Trichy.
+- **Governance note:** two interim dividends of ₹3 and a ₹229 final — payout ~4% (screener) — the lowest among peers; family holding 27.6%.
+
+### 4.2.2 Balkrishna Industries — BKT (BALKRISIND · 502355)
+
+**Guidance digest — Q1 FY27 earnings call, 30-Jul-2026** (Rajiv Poddar, JMD; new CFO Saroj Khuntia, ex-CG Power/Mahindra) [V BKT transcript]
+- **Volume:** record 93,770 t (+16%); Europe "stable" (weak base, good season); **India "exceptional" — ~40% of Q1 volume**, India revenue exceeded Europe for the first time in a quarter (growth ~35%+, agri, mining and construction alike; replacement-led). India margins "marginally lower" than export, "not as low as it used to be".
+- **Americas:** "tariff rate settling at 10% levels" → better US performance; US now ~11–12% of revenue vs 15–16% historically, expected to return there; **BKT has applied for US (IEEPA) tariff refunds** — timing unknown.
+- **Pricing/costs:** ~5% price increase across Q1 (full flow in Q2); RM +5% more feeding into Q2/Q3 ≈ 3% of sales ≈ **2 pp margin hit "in the coming quarter"** (M.S. Bajaj); freight ~5% of revenue and may rise; employee cost +18% (Gujarat minimum wage, increments, new-business hiring). Euro ~₹102 realised in Q1 vs ~₹110 spot — "expecting a better rate" (hedges).
+- **Capex:** FY27 ₹2,500–3,000 Cr (₹1,000 Cr spent in Q1); plan ₹6,800 Cr, ~₹3,800 Cr spent, ~₹3,000 Cr left → capex falls after FY27. Carbon-black Phase II commissioned at Bhuj (→ 360,000 MTPA; ₹800 Cr); captive power 40 → 64 MW (₹125 Cr). Third-party carbon black ~10% of business.
+- **On-highway:** TBR and select 2W live from Apr-2026 (brands Loadxpert, Milexpert, Zenova, Thyros; "YOU FORWARD" 24×7 rider assistance); distributors appointed pan-India for all categories **including cars**; FY27 = portfolio-building, **FY28 "serious business"**; vision **₹5,000 Cr on-highway revenue by 2030** (~20% of revenue, ~5% share); no volume disclosure yet. Management refused margin guidance repeatedly.
+- **Market shares (mgmt):** India OHT ~18–19%; Europe ~7–8%; US ~3–4%.
+- **Net debt** ~₹1,725 Cr (30-Jun-26). Interim dividend ₹4.
+- **Business-update call 22-Oct-26 (Pirelli):** audio only on the company site (screener); no transcript yet — content not verified beyond the BSE press release (Part 1).
+
+**Concall/presentation KPI table (standalone)** [V BKT Q1 PPT]
+| KPI | Q1 FY27 | Q1 FY26 | FY26 | FY25 |
+|---|---|---|---|---|
+| Sales volume (t) | 93,770 | 80,664 | 3,17,356 | 3,15,273 |
+| Revenue from operations | 3,445 | 2,760 | 10,820 | 10,413 |
+| Realised FX gain/(loss) | (36) | (1) | (164) | 202 |
+| Total income | 3,409 | 2,759 | 10,656 | 10,615 |
+| RM incl. stock change | 1,735 | 1,338 | 5,250 | 5,063 |
+| RM % of total income | 50.9% | 48.5% | 49.3% | 47.7% |
+| EBITDA (margin) | 703 (20.6%) | 656 (23.8%) | 2,423 (22.7%) | 2,682 (25.3%) |
+| Unrealised FX | 57 | (154) | (144) | 7 |
+| PAT | 432 | 287 | 1,222 | 1,628 |
+| Realisation ₹/kg [E] | 364 (on total income) | 342 | 336 | 337 |
+| EBITDA ₹/t [E] | 74,970 | 81,325 | 76,350 | 85,070 |
+| Mix (vol.): Agri / OTR / Others | 59.5 / 35.3 / 5.2 | — | 58.8 / 37.5 / 3.7 | 59.9 / 36.6 / 3.5 |
+| Channel: Replacement / OEM / Others | 71.6 / 27.1 / 1.3 | — | 70.1 / 28.7 / 1.2 | 72.8 / 25.7 / 1.5 |
+| Geography: Europe / Americas / India / RoW | 38.4 / 12.3 / 39.7 / 9.6 | — | 40.0 / 13.2 / 36.3 / 10.5 | 45.1 / 15.2 / 28.6 / 11.1 |
+(FY24: volume 2,92,628 t; Europe 47.1, Americas 16.9, India 26.8, RoW 9.3; agri 60.5, OTR 36.2.)
+
+**5-year history (screener consolidated)**
+| FY | Revenue | OP | OPM % | Other inc. | Interest | Dep. | PAT | ROCE % |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 8,295 | 2,009 | 24.2 | 438 | 9 | 455 | 1,435 | 24 |
+| FY23 | 9,760 | 1,712 | 17.5 | 342 | 48 | 571 | 1,057 | 14 |
+| FY24 | 9,369 | 2,256 | 24.1 | 449 | 113 | 651 | 1,471 | 16 |
+| FY25 | 10,447 | 2,459 | 23.5 | 537 | 129 | 681 | 1,655 | 17 |
+| FY26 | 10,823 | 2,301 | 21.3 | 252 | 134 | 775 | 1,243 | 11 |
+
+**8-quarter trend (screener consolidated)**
+| Qtr | Revenue | OP | OPM % | Material cost % | Gross margin proxy % | PAT |
+|---|---|---|---|---|---|---|
+| Sep-24 | 2,420 | 580 | 24 | 47.7 | 52.3 | 347 |
+| Dec-24 | 2,560 | 601 | 23 | 48.2 | 51.8 | 449 |
+| Mar-25 | 2,752 | 614 | 22 | 50.1 | 49.9 | 369 |
+| Jun-25 | 2,760 | 506 | 18 | 48.4 | 51.6 | 288 |
+| Sep-25 | 2,393 | 511 | 21 | 48.1 | 51.9 | 273 |
+| Dec-25 | 2,737 | 643 | 24 | 48.6 | 51.4 | 382 |
+| Mar-26 | 2,933 | 640 | 22 | 48.0 | 52.0 | 299 |
+| Jun-26 | 3,455 | 744 | 22 | 50.0 | 50.0 | 451 |
+Read: BKT's material cost rose only ~2 pp in Q1 FY27 (vs 6–8 pp at the domestic four) — captive carbon black, higher realisation per kg and euro pricing insulate it; the margin dip in the standalone P&L (23.8% → 20.6%) is mostly the realised-FX line and India mix, not RM.
+
+**Annual-report and rating findings** [V BKT AR FY26; V CareEdge 5-Mar-26; V Crisil 13-Aug-26]
+- **Ratings:** CARE AA+/Stable (₹750 Cr NCD assigned Mar-26 — BKT's first rated bond, funding the capex); Crisil AA+/Stable. CareEdge upgrade trigger: margins 26–28% sustained; downgrade: margins <18% or debt-funded capex/acquisition weakening liquidity.
+- **CareEdge segment data (FY25):** agri ~59.9%, OTR ~36.6% of revenue; replacement ~72.8%, OEM 25.7%; global specialty-tyre share ~5–6%; capex ~₹5,300 Cr FY25–FY28 (carbon black, power, **CV radial, rubber tracks, premium PCR**), majority in FY26–27.
+- **Contingent liabilities (standalone):** indirect-tax disputes ₹152.8 Cr; income tax ₹61.7 Cr; customs bonds ₹494 Cr; **capital commitments ₹2,712 Cr (Mar-26) vs ₹924 Cr** — the on-highway/PCR build is contracted.
+- **MD&A industry read:** domestic replacement price hikes in FY26 averaged 6–8% and 2–4% internationally; makers are carrying 60–90 days of RM; up to 85% of expansion capex is being placed in domestic footprints.
+- **Related parties:** promoter (Poddar family) remuneration only; no royalty/brand fee found.
+- **Governance/people:** CFO change (Saroj Khuntia joined mid-2026); new carbon-black business head (Ashish Kumar Datta, ex-Lubrizol, from 3-Jul-26).
+
+### 4.2.3 Apollo Tyres (APOLLOTYRE · 500877)
+
+**Guidance digest — Q1 FY27 earnings call, 7-Aug-2026** (CFO Gaurav Kumar; Vice-Chairman & MD Neeraj Kanwar absent) [V Apollo transcript; V Q1 PPT]
+- **Leadership change:** the CFO announced on the call that he is **leaving Apollo after 22+ years**, having completed the Enschede project — the writer should flag a CFO transition into the FY27 margin squeeze (successor not identified in the documents read).
+- **India:** highest-ever quarterly revenue ₹5,462 Cr, +15.6% YoY (best in 14 quarters), volume-led, double-digit across replacement, OEM and exports; BCCI jersey sponsorship credited for volumes; **EBITDA 12.0% vs 13.6%**; July "a strong start".
+- **RM:** basket +~17% in Q1; **+~8% more expected in Q2** (NR-led: from ₹225/kg Q1 average to ">₹260"); management view that NR is "not impacted by the West Asia crisis" and should cool from Q3; crude-linked inputs lag a quarter.
+- **Pricing:** India needs 15–16% cumulative; 7–9% implemented through Q1; by the call ~9% in TBR, ~11% in other categories; "one to two more" hikes needed (July round announced); OEM pass-through with a quarter's lag, negotiations "never easy". Europe needs ~10% (RM +8% in Q1), only 3–4% implemented.
+- **Europe:** revenue €147 m (+0.5%), EBITDA €13 m (8.9% vs 10.8%) with Enschede/Hungary cost overlap; ex-overlap ~11%; **target "high-teens" EBITDA on a full-year basis** once the footprint settles; Enschede **stopped production in June 2026 as planned**; ~750,000 tyres/yr shift mostly to Hungary, 14–15" sizes Hungary → India, Spacemaster spare tyres → Vadodara; Enschede's 20 t/day high-end agri line → an off-take partner (Kalamassery OHT capacity cannot expand). Restructuring benefits from H2 FY27.
+- **Capacity/capex:** Hungary PCR 17,000 → 21,000 tyres/day ramping in H2 FY27; India (AP) expansion on stream ~end-CY2026, ramp through FY28; Q1 capex ₹650 Cr (India ~₹500 Cr vs ₹1,200–1,300 Cr p.a. historically); FY27 >₹3,000 Cr; net debt ₹1,700+ Cr, ND/EBITDA 0.4× "to go up slightly".
+- **Demand:** replacement and OEM strong; Q2 sequentially muted (seasonality) but YoY healthy; demand "mid- to high-teens" growth context for price acceptance.
+
+**KPI table (Q1 FY27 PPT; ₹ Mn converted to ₹ Cr)** [V]
+| KPI | Q1 FY27 | Q1 FY26 | Q4 FY26 |
+|---|---|---|---|
+| Consolidated revenue | 7,398 | 6,561 | 7,336 |
+| RM % of revenue | 57.1% | 55.9% | 53.0% |
+| EBITDA (margin) | 868 (11.7%) | 868 (13.2%) | 1,069 (14.6%) |
+| Exceptional items | +23.5 (gain) | −370.2 | −456.1 |
+| Tax | 118.8 | 25.5 | −469.3 |
+| PAT | 348.8 | 12.8 | 630.7 |
+| India (standalone) revenue / EBITDA % | 5,462 / 12.0% | 4,725 / 13.6% | 5,237 / 14.6% |
+| India RM % | 65.9% | 63.3% | 60.4% |
+| Europe (ex-Reifencom) revenue / EBITDA % | €147 m / 8.9% | €146 m / 10.8% | — |
+| Utilisation India / Europe | 91% / 94% | — | — |
+| Consolidated mix: India / Europe / others | 69 / 26 / 5% | — | — |
+| Consolidated channel: replacement / OEM | 79 / 21% | — | — |
+| Consolidated product: T&B / PV / farm-OHT / LT / others | 41 / 36 / 11 / 6 / 7% | — | — |
+| Standalone product: T&B / PV / LT / farm / others | 53 / 22 / 9 / 7 / 9% | — | — |
+| Standalone channel: replacement / OEM / exports | 66 / 23 / 11% | — | — |
+| ROCE (TTM) / ND/EBITDA | 13.3% / 0.4× | — | FY26 13.4% / 0.4× |
+| Net debt | ₹1,700 Cr (Jun-26) | — | ₹1,600 Cr (Mar-26) |
+| Capex | ₹650 Cr (Q1) | — | ₹1,400 Cr (FY26; FY25 ₹800 Cr) |
+| FCF | — | — | ₹1,300 Cr (FY26; FY25 ₹2,000 Cr) |
+
+**5-year history (screener consolidated)**
+| FY | Revenue | OP | OPM % | Other inc. (incl. exceptionals) | Interest | Dep. | PAT | ROCE % |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 20,948 | 2,595 | 12.4 | 118 | 465 | 1,400 | 639 | 7 |
+| FY23 | 24,568 | 3,333 | 13.6 | 64 | 551 | 1,419 | 1,046 | 10 |
+| FY24 | 25,378 | 4,468 | 17.6 | 77 | 527 | 1,478 | 1,722 | 16 |
+| FY25 | 26,123 | 3,595 | 13.8 | −80 | 470 | 1,498 | 1,121 | 11 |
+| FY26 | 28,471 | 4,170 | 14.6 | −900 | 419 | 1,543 | 1,372 | 14 |
+
+**8-quarter trend (screener consolidated)**
+| Qtr | Revenue | OP | OPM % | Material cost % | GM proxy % | Other inc. | Tax % | PAT |
+|---|---|---|---|---|---|---|---|---|
+| Sep-24 | 6,437 | 878 | 14 | 55 | 45 | 17 | 25 | 297 |
+| Dec-24 | 6,928 | 947 | 14 | 58 | 42 | 4 | 27 | 337 |
+| Mar-25 | 6,424 | 837 | 13 | 57 | 43 | −91 | 29 | 185 |
+| Jun-25 | 6,561 | 868 | 13 | 56 | 44 | −351 | 66 | 13 |
+| Sep-25 | 6,831 | 1,021 | 15 | 55 | 45 | −150 | 33 | 258 |
+| Dec-25 | 7,743 | 1,186 | 15 | 55 | 45 | 23 | 35 | 471 |
+| Mar-26 | 7,336 | 1,069 | 15 | 53 | 47 | −421 | −290 | 631 |
+| Jun-26 | 7,398 | 868 | 12 | 57 | 43 | 82 | 25 | 349 |
+Read: consolidated material cost % (53–58%) is structurally lower than the other domestic three because Europe (Vredestein) has lower RM intensity and higher conversion/staff cost (staff 12–13% of revenue vs 6–8% at MRF/CEAT) — compare Apollo's **India** RM% (65.9% in Q1 FY27) with peers, not the consolidated figure.
+
+**Annual-report and rating findings (FY26)** [V Apollo AR; V Crisil 14-Aug-26]
+- **Exceptional items ₹1,033.5 Cr** (S1) and **₹573.7 Cr deferred-tax credit** from adopting the 25.17% regime (S2). ATNL (Netherlands) assets carried at ₹494 Cr after ₹433 Cr impairment (key audit matter). Separately, ₹43.2 Cr PPE impairment sits in other expenses.
+- **Related parties:** royalty expense ₹14.0 Cr to Apollo Tyres AG (group IP holder); **purchases of traded goods from promoter-linked Classic Industries & Exports ₹510 Cr and Vilas Polymer ₹175 Cr**; **lease rent to PTL Enterprises (promoter group; Kalamassery plant) ₹61.1 Cr**; RM bought via Apollo Tyres Holdings (Singapore) ₹1,605 Cr. A ₹50 Cr contribution to an electoral trust appears in FY25 (nil in FY26).
+- **Cost lines FY26 (consolidated):** freight ₹1,510 Cr (5.3% of revenue); advertising ₹785 Cr; power & fuel ₹731 Cr; **EPR ₹116 Cr (0.41% of revenue)**; finance cost ₹391 Cr.
+- **Capacity/capex:** Hungary 5.5 mn PCLT + 675,000 HCV tyres capacity (Crisil) but **HCV/TBR production in Hungary has been discontinued and moved to India** (AR); AP plant +3.7 mn PCR and +1.3 mn TBR tyres p.a.; capex ~₹2,400 Cr FY26 → ~₹3,000 Cr FY27 → ~₹2,200 Cr FY28; capital commitments ₹1,539 Cr (Mar-26).
+- **Contingent:** CCI ₹425.53 Cr (SC last heard Sep-2025; no provision).
+- **Crisil view:** FY27 operating margin ~11% (10–11%), revenue +~13%, RoCE <10% in FY27 (13.0% FY26), gross debt incl. dealer deposits and leases ~₹7,000 Cr; downgrade trigger ND/EBITDA >2.2–2.4×; dealer deposits ₹1,315 Cr; ~6,500 dealerships; domestic mix T&B 55%, PV 22%, LCV 9%, tractor 6%; Europe ~30% of FY26 revenue; ~€50 m Enschede settlement cash.
+
+### 4.2.4 CEAT (CEATLTD · 500878)
+
+**Guidance digest — Q2 FY27 earnings call, 15-Oct-2026** (MD & CEO Arnab Banerjee; CFO Kumar Subbiah; CEAT Specialty head Amit Tolani) [V CEAT transcript]
+- **Costs:** RM +8–9% QoQ in Q2 after +15% in Q1; **Q3 ~+3% (3–3.5%) → cumulative +27% by December vs March-2026 exit**. Crude: July $84–85, ~$100 after the mid-August ceasefire deadline lapsed and fighting re-escalated, "~$105" at the call; crude derivatives rose faster than crude. NR: SGX benchmark $2,200 → ~$2,600/t; domestic ~₹285/kg (20-year-plus high), international now at parity with domestic (was a discount). CEAT imports ~2/3 of its NR.
+- **Margins:** standalone gross margin ~33.6% for H1 vs a "comfort zone" of 40–42% → a **6–8 pp gap** to close; consolidated EBITDA 9.5% (+94 bp QoQ); standalone 10.1% (+101 bp). Q3 gross margin expected "closer to current levels", depending on price hikes.
+- **Pricing:** replacement +12–13%, OEM +14–15% (1-Apr → 30-Sep); Q2 realised price effect ~8% (5.5% in July); further "frequent, low-dose" hikes through Q3; peers' hikes similar within 0.25–0.5 pp and 1–2 weeks; OEM lag ~3 months; exports slower (CEAT prices 15–25% below top European brands).
+- **Demand (H2):** CV replacement mid-single digit; PV replacement low-single; 2W replacement double-digit (rural); farm low (post-monsoon deficit); OEM strong but high base; Q3 moderation from base, El Niño and the repo hike. Q2 volume ~+10% (replacement low-single digit due to a July–August production bottleneck; OEM and exports low-double digit). International: Africa and LatAm strong; Middle East still impaired; freight and container shortages.
+- **US tariffs (company statement):** on-road tyres (TBR, PCR) pay the **25% auto-components duty + ~4%**; OHT and CAMSO tracks 10% (steel content of tracks 25%).
+- **CAMSO:** 85% of customers transitioned, rest by end-November; local entities in US, Canada, UK, France, Germany, Poland; customer billing ~US$10 m/month; H2 volumes +20–25% over H1; Sri Lanka plant <50% utilised (capacity ~US$150–200 m revenue p.a.); upstream equipment may slip to Q1 FY28; EBITDA neutral-to-positive in H2 FY27, better in FY28; EPS-accretive by FY29; GM visibility 50–55%; **US$44 m brand payment by 31-Aug-2028**; US$24 m intercompany loan converted to equity (to kill MTM swings).
+- **Strategy KPIs:** international 20% of standalone, 24% of consolidated revenue → target **33% in five years**; OHT best-ever quarter (+30%+); EV OEM share 25% (PC/UV) and >30% (2W); premium (17"+) ~24–25% revenue share and +mid-30s volume YTD.
+- **Balance sheet:** capex ₹493 Cr in Q2 (Nagpur ₹120 Cr for 80k → 100k 2W tyres/day; Chennai ₹280 Cr TBR + PCR), FY27 ₹1,400 Cr + ₹100–150 Cr CAMSO; debt ₹3,846 Cr (+₹604 Cr QoQ), 1.93× debt/EBITDA, 0.77× D/E; **guiding 2.0–2.1× debt/EBITDA** (old ceiling 3.0×); debt may rise 5–8% more; standalone NWC ~₹270 Cr, target ₹0–100 Cr; dividend ₹140 Cr paid. Next call indicated for late January 2027.
+
+**KPI table (Q2 FY27 investor presentation)** [V]
+| ₹ Cr | Q2 FY27 | Q1 FY27 | Q2 FY26 | H1 FY27 | H1 FY26 |
+|---|---|---|---|---|---|
+| **Consolidated** revenue | 4,762 | 4,318 | 3,773 | 9,080 | 7,302 |
+| COGS | 3,115 | 2,854 | 2,229 | 5,969 | 4,460 |
+| Gross margin % | 34.6 | 33.9 | 40.9 | 34.3 | 38.9 |
+| Employee cost | 321 | 296 | 262 | 617 | 489 |
+| Other expenses | 868 | 804 | 779 | 1,673 | 1,463 |
+| EBITDA (margin) | 452 (9.5%) | 370 (8.6%) | 511 (13.5%) | 822 (9.1%) | 897 (12.3%) |
+| Finance cost | 87 | 146 | 87 | 233 | 169 |
+| Depreciation | 193 | 186 | 174 | 379 | 325 |
+| Exceptional | 13 | 7 | 0 | 20 | 3 |
+| PAT | 112 | 4 | 186 | 116 | 298 |
+| **Standalone** revenue | 4,548 | 4,163 | 3,701 | 8,711 | 7,222 |
+| Standalone GM % / EBITDA (margin) | 33.6 / 461 (10.1%) | 33.5 / 380 (9.1%) | 41.0 / 507 (13.7%) | 33.5 / 841 (9.7%) | 39.0 / 898 (12.4%) |
+| Standalone PAT | 164 | 99 | 202 | 263 | 338 |
+| **Implied subsidiaries (CAMSO etc.) revenue / EBITDA [E]** | ~214 / ~−9 | ~155 / ~−10 | ~72 / ~+4 | — | — |
+| Debt (consolidated) | 3,846 | 3,243 | 2,944 | — | — |
+| Mix H1 (standalone): T&B / PC-UV / 2-3W / OHT / LCV-others | 27 / 23 / 28 / 16 / 6% (H1 FY26 29 / 21 / 28 / 15 / 7) | | | | |
+| Channel H1: replacement / OEM / exports | 50 / 30 / 20% (52 / 29 / 19) | | | | |
+
+**5-year history (screener consolidated)**
+| FY | Revenue | OP | OPM % | Other inc. | Interest | Dep. | PAT | ROCE % |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 9,363 | 721 | 7.7 | 17 | 207 | 435 | 71 | 6 |
+| FY23 | 11,315 | 974 | 8.6 | −8 | 242 | 469 | 182 | 9 |
+| FY24 | 11,943 | 1,653 | 13.8 | −18 | 269 | 509 | 635 | 20 |
+| FY25 | 13,218 | 1,475 | 11.2 | 8 | 278 | 563 | 471 | 15 |
+| FY26 | 15,678 | 2,064 | 13.2 | −31 | 359 | 697 | 697 | 19 |
+
+**8-quarter trend (screener consolidated)**
+| Qtr | Revenue | OP | OPM % | Material cost % | GM proxy % | Interest | PAT |
+|---|---|---|---|---|---|---|---|
+| Dec-24 | 3,300 | 341 | 10 | 63 | 37 | 75 | 97 |
+| Mar-25 | 3,421 | 388 | 11 | 63 | 37 | 74 | 99 |
+| Jun-25 | 3,529 | 387 | 11 | 63 | 37 | 82 | 112 |
+| Sep-25 | 3,773 | 503 | 13 | 59 | 41 | 87 | 186 |
+| Dec-25 | 4,157 | 563 | 14 | 60 | 40 | 105 | 155 |
+| Mar-26 | 4,219 | 593 | 14 | 60 | 40 | 85 | 244 |
+| Jun-26 | 4,318 | 365 | 8 | 66 | 34 | 146 | 4 |
+| Sep-26 | 4,762 | 457 | 10 | 65 | 35 | 87 | 112 |
+
+**Annual-report and rating findings (FY26)** [V CEAT AR; V CareEdge 8-Jan-26]
+- **Ratings:** CARE AA (Positive)/A1+ and India Ratings AA (Positive)/A1+; CareEdge upgrade needs PBILDT >15% and net debt (incl. LC acceptances, dealer deposits)/PBILDT ~1.5×; **downgrade trigger >2.5×** — CareEdge's own basis was already 2.34× at Sep-25 (company basis 1.93× at Sep-26), so the H1 FY27 squeeze narrows the headroom.
+- **Production:** >4.50 crore tyres in FY26 (3.96 crore FY25); utilisation >80% across 6 plants (98%+ in some); Chennai PCUV capacity 95 lakh → 130 lakh tyres p.a. by FY28.
+- **CAMSO accounting:** consideration ₹1,185.6 Cr (PPE ₹763 Cr, technical know-how ₹236 Cr, brands ₹74 Cr, customer relationships ₹43 Cr, inventory ₹91 Cr; goodwill ₹7.2 Cr); acquisition costs ₹23.4 Cr.
+- **Leverage (AR):** group borrowings ₹3,010.8 Cr (Mar-26) vs ₹1,928.4 Cr; net debt ₹2,971 Cr; gearing 37% (30%).
+- **Related parties:** no material brand fee to RPG found — RPG Enterprises reimbursements ₹3.3 Cr; CEAT *receives* royalty ₹8.8 Cr from Sri Lankan entities (ACPL, CEAT-Kelani, OHT Lanka).
+- **Contingent/legal:** CCI 2018 penalty ₹252.16 Cr (SC pending; CEAT's reply 28-Dec-2023; no interim order). **New:** CCI Case 01 of 2019 — DG report (21-Feb-2025) found CEAT and its agent S.S. Marketing cartelised in a **Himachal Pradesh state-transport tyre tender of 2013** (no contravention on Haryana tenders); objections filed; CCI hearing pending. Indirect-tax contingent ₹164 Cr; legal-metrology show-cause notices quashed 24-Apr-2026.
+
+### 4.2.5 JK Tyre & Industries (JKTYRE · 530007)
+
+**Guidance digest — latest transcript: Q1 FY27 call, 10-Aug-2026** (MD Anshuman Singhania; Arun K. Bajoria, President International; CFO Sanjeev Aggarwal) [V JK transcript] — the Q2 FY27 call (23-Oct-26) transcript is not yet filed; its content is summarised from tyre-trends [V-sec, Phase 1] at the end.
+- **Q1:** consolidated revenue ₹3,956 Cr (+2%); EBITDA ₹268 Cr (6.8% vs 10.9%); cash profit ₹169 Cr; PAT ₹43 Cr; **RM +~20% vs Q4 FY26**.
+- **Volumes:** domestic +25% YoY (OEM +42%); TBR OE +18%, TBR replacement +15%; PCR +10%; farm +31%; 2/3W OE +17%, replacement +48%; exports +2% QoQ. India utilisation ~95% (TBR and 2/3W full; PCR 95%); consolidated ~80%.
+- **Pricing:** ~5% in Q1; ~11% cumulative in replacement by early August; a further 8–9% expected; standalone NSR +~5% QoQ.
+- **Guidance:** FY27 revenue "good double-digit" (10–11%); **FY27 EBITDA margin "about 10–11%" (a guess)**; **H2 back to 11–13%**; RM +8–10% in Q2 then stabilising; net debt **+₹500–700 Cr in FY27**; price hikes taken plus planned to cover all but 1–2% of RM.
+- **Capacity:** ₹4,980 Cr Chennai (TBR + PCR) adds ~24% capacity over ~4 years; ~7% by FY28 (TBR + PCR balancing at Banmore); PCR ramp complete by Q3 FY27.
+- **Mexico (JK Tornel):** Q1 hit by input shortages (bead wire from China; shipping/containers), Mexican NR +18%, and IR during productivity negotiations — resolved; upgradation & modernisation project; "remaining 3 quarters better than Q1".
+- **Leverage:** net debt ₹4,945 Cr at 30-Jun-26 (+₹500 Cr QoQ); ND/E 0.81× (0.73×); ND/EBITDA 2.56× (2.13×).
+- **EV:** EV tyres wear ~5–10% faster (torque).
+- **Q2 FY27 call (23-Oct-26) [V-sec tyre-trends]:** domestic +32%; OEM +65% (TBR OEM +76%, PCR OEM +35%); replacement +20%; RM +9% QoQ (~30% over six months), +4–5% in Q3; price hikes 4–5% (Q1) + 7% (Q2), +4–5% planned in Q3; ₹1,130 Cr expansion tranche not deferred. Q2 margin 7.1% is **well below the 10–11% full-year guess** — H2 must average ~13% to get there [E: (611 + H2 EBITDA) ÷ FY revenue ≈ 10% needs H2 EBITDA ≈ ₹1,200 Cr on ~₹9,500 Cr revenue].
+
+**KPI table (company presentations and rationale)** [V]
+| KPI | Q2 FY27 | Q1 FY27 | Q2 FY26 | FY26 | Source |
+|---|---|---|---|---|---|
+| Consolidated total income | 4,850 | 3,956 | 4,026 | 16,384 | PPT / AR |
+| EBITDA incl. OI (margin) | 343 (7.1%) | 268 (6.8%) | 536 (13.3%) | 2,089 (12.8%) | PPT / AR |
+| PAT | 60 | 43 | 223 | 774 | PPT / AR |
+| Standalone total income / EBITDA | 4,461 / 314 | 3,933 / 293 | 3,530 / 492 | — | Q2 PPT |
+| Net debt | — | 4,945 | — | 4,445 | Q1 call; AR |
+| Channel: replacement / OEM / exports | — | 63 / 27 / 10% | — | 64 / 23 / 13% | CareEdge |
+| Product: TBR / PCR / 2-3W / others | — | 56 / 27 / 5 / 12% | — | 53 / 30 / 4 / 13% (FY25 52/31/4/13) | CareEdge |
+| Premium share of sales | — | — | — | 30%+ (FY25 ~25%; target ~50% in 3 years) | CareEdge |
+| 16"+ PCR share | — | — | — | ~30% (10% in 2020) | AR |
+| Capacity | 38 mn+ tyres; 11 plants (9 + 2 Mexico) | | | 380 lakh p.a.; TBR+PCR 210 lakh | AR / PPT |
+| Utilisation | — | India ~95%, cons. ~80% | — | >90% | Q1 call; AR |
+
+**5-year history (screener consolidated)**
+| FY | Revenue | OP | OPM % | Other inc. | Interest | Dep. | PAT | ROCE % |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 11,983 | 1,073 | 9.0 | 40 | 419 | 385 | 201 | 9 |
+| FY23 | 14,645 | 1,298 | 8.9 | −25 | 454 | 407 | 263 | 11 |
+| FY24 | 15,002 | 2,091 | 13.9 | 4 | 447 | 437 | 806 | 19 |
+| FY25 | 14,693 | 1,599 | 10.9 | 48 | 476 | 456 | 509 | 13 |
+| FY26 | 16,327 | 2,031 | 12.4 | −88 | 428 | 472 | 776 | 16 |
+
+**8-quarter trend (screener consolidated)**
+| Qtr | Revenue | OP | OPM % | Material cost % | GM proxy % | Interest | PAT |
+|---|---|---|---|---|---|---|---|
+| Dec-24 | 3,674 | 314 | 9 | 65 | 35 | 123 | 53 |
+| Mar-25 | 3,759 | 363 | 10 | 64 | 36 | 121 | 99 |
+| Jun-25 | 3,869 | 402 | 10 | 63 | 37 | 115 | 163 |
+| Sep-25 | 4,011 | 521 | 13 | 61 | 39 | 108 | 227 |
+| Dec-25 | 4,223 | 571 | 14 | 61 | 39 | 106 | 208 |
+| Mar-26 | 4,223 | 537 | 13 | 62 | 38 | 101 | 178 |
+| Jun-26 | 3,946 | 258 | 7 | **70** | **30** | 99 | 44 |
+| Sep-26 | 4,841 | 334 | 7 | **70** | **30** | 109 | 65 |
+
+**Annual-report and rating findings (FY26)** [V JK AR; V CareEdge 27-Aug-26]
+- **Rating:** CARE AA−/Stable, A1+ (reaffirmed 27-Aug-26) — the lowest of the five. CareEdge expects FY27 PBILDT 10–11%, net debt (incl. acceptances, dealer deposits)/PBILDT **3.0–3.5×** over 2–3 years (2.86× FY26; 3.53× FY25); downgrade triggers: PBILDT <10% sustained or ND/PBILDT >3.5× — **H1 FY27 PBILDT of ~6.9% is below the trigger level**, so the H2 recovery matters for the rating.
+- **Capex cadence:** ₹1,600–1,800 Cr in FY27, ₹2,000–2,500 Cr p.a. FY28–FY30 (TBR, all-steel light-truck radial, PCR) — long-tenor debt with moratorium.
+- **Exceptional FY26 ₹146 Cr** (S4); Cavendish merger effective 22-Dec-2025 (appointed 1-Apr-2025) — standalone FY26 not comparable with FY25.
+- **CCI:** ₹309.95 Cr (SC pending; no provision).
+- **Royalty/brand fee:** none found in the AR (no "royalty" text).
+- **Mexico:** JK Tornel expansion programme US$75 m (Phase I US$27.5 m), 140+ distributors, 32 new sizes for the US market; Mexican tariff volatility flagged.
+- **Distribution:** >6,000 dealers, 750+ Steel Wheels and 120+ Truck Wheels brand shops (CareEdge); 6,250+ dealers & distributors, 900+ brand shops (PPT).
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. Gross-margin proxy (100 − material cost %), consolidated, by quarter — fills §H-11** [V screener expense schedules, 24-Oct-26]
+| Qtr | MRF | BKT | Apollo | CEAT | JK |
+|---|---|---|---|---|---|
+| Sep-24 | 37 | 52.3 | 45 | 37 | 38 |
+| Dec-24 | 34 | 51.9 | 42 | 37 | 35 |
+| Mar-25 | 37 | 49.9 | 43 | 37 | 36 |
+| Jun-25 | 35 | 51.6 | 44 | 37 | 37 |
+| Sep-25 | 37 | 51.9 | 45 | 41 | 39 |
+| Dec-25 | 38 | 51.4 | 45 | 40 | 39 |
+| Mar-26 | 39 | 52.0 | 47 | 40 | 38 |
+| Jun-26 | **33** | 50.0 | 43 | **34** | **30** |
+| Sep-26 | n/r | n/r | n/r | 35 | 30 |
+Notes: screener "material cost %" includes inventory change; CEAT company gross margin (which also includes non-material inventory movements) is 34.6% Q2 FY27 / 33.9% Q1 — within 1 pp of the proxy. Apollo consolidated is diluted by Europe; Apollo India RM% was 65.9% in Q1 FY27 (GM ~34%) [V PPT]. Unit: % of revenue. **Chart: the Mar-26 → Jun-26 drop (MRF −6 pp, CEAT −6 pp, JK −8 pp, Apollo −4 pp, BKT −2 pp) is the single cleanest picture of the FY27 squeeze.**
+
+**D2. Brent crude, monthly average, US$/bbl (EIA, Europe Brent spot FOB)** [V eia.gov]
+| Month | 2024 | 2025 | 2026 |
+|---|---|---|---|
+| Jan | 80.12 | 79.27 | 66.60 |
+| Feb | 83.48 | 75.44 | 70.89 |
+| Mar | 85.41 | 72.73 | 103.13 |
+| Apr | 89.94 | 68.13 | **117.29** |
+| May | 81.75 | 64.45 | 107.14 |
+| Jun | 82.25 | 71.44 | 85.40 |
+| Jul | 85.15 | 71.04 | 83.76 |
+| Aug | 80.36 | 67.87 | 91.08 |
+| Sep | 74.02 | 67.99 | **114.16** |
+| Oct | 75.63 | 64.54 | ≈125.7 (1–20 Oct daily avg; high $135.51 on 2-Oct) |
+| Nov | 74.35 | 63.80 | — |
+| Dec | 73.86 | 62.54 | — |
+Read: the oil shock has two legs — Mar–May 2026 (war, Hormuz) and Sep–Oct 2026 (ceasefire deadline lapsed mid-August; re-escalation). Tyre makers' crude-linked inputs (SBR/PBR, carbon black feedstock, nylon, process oil) lag crude by 1–2 months, so **Q3 FY27 (Oct–Dec) input costs will reflect the second leg**, which is worse than the "+3–5% in Q3" the companies guided in mid-October. Flag to the writer as a risk to the "Q3 is the trough" thesis (Part 1 §9.3).
+
+**D3. SIAM domestic sales (units)** [V siam.in]
+| Segment | FY25 (implied) | FY26 | YoY | Q2 FY27 | YoY | H1 FY27 |
+|---|---|---|---|---|---|---|
+| PV | ~43.0 lakh | 46,43,439 | +7.9% | 13,60,687 | +30.7% | 26,37,067 |
+| CV | ~9.6 lakh | 10,79,871 | +12.6% | 3,09,063 | +28.7% | 5,74,255 |
+| 3W | ~7.4 lakh | 8,36,231 | +12.8% | 2,85,342 | +23.6% | 5,01,879 |
+| 2W | ~1.96 crore | 2,17,05,974 | +10.7% | 64,32,842 | +15.2% | 1,20,86,812 |
+| Production (all) | — | 3,47,08,984 | — | 1,05,57,400 | — | 1,99,46,193 |
+Exports FY26: PV 9.05 lakh (+17.5%), 2W 51.8 lakh (+23.4%), 3W 4.61 lakh (+50.1%), CV 0.95 lakh (+17.4%). Q2 FY27: PV exports 2.29 lakh (−5.2%, West Asia logistics), 2W exports 1.65 mn (+27.7%), CV exports +72.5%. H1-vs-H2 FY26 split: PV −1.4% / +16.7%; 2W <1% / ~+21.5% — **so FY27 H2 faces the toughest base of the cycle** (SIAM's own outlook: "growth rates may moderate"). FY25 values implied from FY26 growth [E].
+
+**D4. Natural rubber, India balance (lakh tonnes)** [V-sec Rubber Board panel via tyre-trends 29-May-26; UNI/PIB 7-Oct-26]
+| Item | 2024-25 | 2025-26 | Change |
+|---|---|---|---|
+| Production | 8.75 | 9.05 | +3.4% |
+| Consumption | 14.10 | 14.27 | +1.2% |
+| – of which auto tyres (~64%) | ~9.5 [E] | ~9.1 [E] | −4.0% (reported) |
+| NR imports | 5.51 | 4.59 | −16.7% |
+| Compounded rubber imports (HS 4005) | 2.45 | 3.49 | +42% |
+| NR imports + compound | 7.96 | 8.08 | +1.5% [E] |
+Read (closes §H-17 as [E]): the "tyre NR consumption −4%" is an accounting artefact — compound imports rose by ~1.04 lt while NR imports fell ~0.92 lt; NR that arrives pre-mixed as compound is not counted as NR consumption. Tyre makers' total elastomer intake did not fall.
+
+**D5. Natural rubber price points (₹/kg unless stated)**
+| Date / period | Value | Grade / basis | Source |
+|---|---|---|---|
+| Apr–Dec FY25 avg | 202.04 (vs 151.88 Apr–Dec FY24, +33%) | RSS-4 Kottayam | Lok Sabha USQ 1337, 11-Feb-25 [V-snip; PDF blocked] |
+| 15-May-2025 | 196.50 (Kottayam RSS-4) vs 203.86 (Bangkok RSS-3) | daily | UNI market rates [V-snip] |
+| Q1 FY27 avg | 225 (NR), SR 250, carbon black 125, steel cord 165 | Apollo purchase prices | Apollo Q1 call [V] |
+| Q1 FY27 | 240–260 | NR | Crisil Apollo [V] |
+| 14-May-2026 | 262 (then peak) | RSS-4 | Rubber Board panel [V-sec] |
+| 1-Aug-2026 | 284 (record) | RSS-4 Kottayam | Onmanorama [V-sec] |
+| Q2 FY27 | >260 avg (Apollo); SGX $2,200 → ~$2,600/t | NR | Apollo [V]; CEAT [V] |
+| 13-Oct-2026 | 284.50 (record); intl 282.16 | RSS-4 | Onmanorama [V-sec] |
+| 15-Oct-2026 | ~285; intl at parity | domestic NR | CEAT call [V] |
+(Monthly Rubber Board series still unobtainable — 4.4.)
+
+**D6. Channel and product mix by member (latest disclosed)** [V company/rating documents]
+| Member | Replacement | OEM | Exports | T&B / TBR | PCR/PV | 2-3W | Farm/OHT | Basis |
+|---|---|---|---|---|---|---|---|---|
+| MRF | 69.1% | 23.3% (incl. defence) | ~8% | n/d | n/d | n/d | n/d | FY26 channel sales (CareEdge) |
+| Apollo (India) | 66% | 23% | 11% | 53% | 22% | — | 7% | Q1 FY27 standalone (PPT); FY26 domestic T&B 55/PV 22/LCV 9/tractor 6 (Crisil) |
+| Apollo (cons.) | 79% | 21% | — | 41% | 36% | — | 11% | Q1 FY27 (PPT) |
+| CEAT | 50% | 30% | 20% | 27% | 23% | 28% | 16% (OHT) | H1 FY27 standalone (PPT) |
+| JK | 64% | 23% | 13% | 53% | 30% | 4% | 13% (others) | FY26 (CareEdge); Q1 FY27 63/27/10, TBR 56 |
+| BKT (volume) | 70.1% | 28.7% | ~64% non-India | — | — | — | Agri 58.8 / OTR 37.5 | FY26 standalone (PPT) |
+Read: TBR is ~53–55% of India revenue at Apollo and JK, vs 27% at CEAT — the NR-intensity ranking in Part 1 §B1 is now sourced.
+
+**D7. Leverage on company/rating bases (latest)** [V]
+| Member | Net debt | Leverage ratio | Rating (agency, outlook) |
+|---|---|---|---|
+| MRF | Net cash ₹1,462 Cr (FY26; liquid funds ₹7,572 Cr) | Gearing 0.29× incl. acceptances & dealer deposits | CARE AAA (Stable) |
+| BKT | ₹1,725 Cr (Jun-26) | — | CARE AA+ (Stable); Crisil AA+ (Stable) |
+| Apollo | ₹1,700 Cr (Jun-26); ₹1,600 Cr (Mar-26) | 0.4× ND/EBITDA (company); 0.93× incl. DD & leases (Crisil FY26) → 1.8–2.0× FY27e | Crisil AA+ (Stable) |
+| CEAT | Debt ₹3,846 Cr (Sep-26) | 1.93× debt/EBITDA; D/E 0.77× | CARE AA (Positive); Ind-Ra AA (Positive) |
+| JK | ₹4,945 Cr (Jun-26); ₹4,445 Cr (Mar-26) | 2.56× ND/EBITDA (Jun-26); CareEdge basis 2.86× FY26 → 3.0–3.5× | CARE AA− (Stable) |
+
+**D8. CCI 2018 tyre-cartel penalties (₹ Cr)** [V ARs; V-snip for Birla/ATMA]: MRF 622.09 · Apollo 425.53 · JK 309.95 · CEAT 252.16 · Birla 178.33 · ATMA 0.084 → **₹1,788.1 Cr**. Status: SC (CCI's appeal against NCLAT's Dec-2022 remand; MRF's cross-appeal tagged), last heard Sep-2025, decision awaited; no member has provided.
+
+**D9. US tariff stack on Indian tyres, Oct-2026** [V CEAT/BKT calls; V-snip legal notes]
+| Product | Duty | Legal basis | Note |
+|---|---|---|---|
+| PCR / light-truck radials (HTS 4011.10, 4011.20.10) | 25% + ~4% MFN | Sec 232 auto parts (from 3-May-2025) | Unaffected by SCOTUS IEEPA ruling |
+| TBR | 25% + ~4% per CEAT | Sec 232 (company statement) | Verify HTS-level coverage before publishing |
+| OHT / agri / OTR | ~10% + MFN; plus AD/CVD (BKT AD-exempt, CVD 0.57%) | "global"/Sec 301-era 10% (CEAT, BKT) | BKT seeking refunds of IEEPA duties paid |
+| Rubber tracks | 10%; steel content 25% | — | CEAT CAMSO |
+
+## 4.4 Gap log (§H items and conflicts)
+
+| §H # | Item | Status | Source / what was tried |
+|---|---|---|---|
+| 1 | ATMA production tonnage and turnover FY20–FY26 | **Still open** | atmaindia.org is a parked domain ("may be for sale"); search found only FY25 exports ₹25,051 Cr (+9% vs ₹23,073 Cr) and "turnover ~₹1 lakh Cr" [V-snip]; ATMA 2022-23 said ₹75,000 Cr then. MRF AR gives FY26 industry growth "~10%" and exports "+9%" [V]. Use members' revenue series as proxy |
+| 2 | Segment split and TBR radialisation | **Partly filled** | Company-level TBR/PCR shares now sourced (D6); industry split and radialisation % still [E/K] — ICRA/CRISIL sector PDFs not retrieved (search returned only snippets) |
+| 3 | Market shares | **Partly filled** | MRF ~31.9% of units (CareEdge) [V]; BKT India OHT 18–19%, Europe 7–8%, US 3–4% (mgmt) [V]; BKT global specialty 5–6% (CareEdge) [V]; Apollo TBR replacement >30% remains [V-sec]; CEAT EV-OEM 25%/30%+ [V]. Others remain labelled estimates |
+| 4 | Monthly RSS-4 / Bangkok 2024–26 | **Still open** | rubberboard.gov.in TLS failure then HTTP 503; Lok Sabha answer PDF (commerce.gov.in) 403/reset; added point quotes (D5) |
+| 5 | Brent path 2026 | **Filled** | EIA monthly + daily (D2) [V]; conflict resolved: EIA spot ~$126 on 15-Oct, above both $95 and $105 |
+| 6 | SIAM FY26 by segment | **Filled** (sales; production total only) | SIAM release 14-Apr-26 [V] (D3); segment-wise production not in the release |
+| 7 | Tyre imports HS 4011 FY24–26; DGTR 2024–26 | **Still open** | tradestat.commerce.gov.in/eidb returned 404; dgtr.gov.in 404; search found no 2024–26 Indian tyre trade-remedy case (2017 ADD Chinese TBR; 2019 Thai TBR probe; 2022 sunset review) [V-snip]; CareEdge (Oct-26) confirms the June-2020 import-licence regime still cited as a live barrier [V] |
+| 8 | CCI case status | **Filled** | Four ARs + Crisil: SC pending, last heard Sep-2025 [V] (D8) |
+| 9 | US tariff on Indian tyres | **Filled (company statements)** | CEAT Q2 call: on-road 25% + 4% (Sec 232), OHT 10%; BKT: ~10%; "18%" = void Feb-2026 IEEPA framework rate (D9, S13) |
+| 10 | AIS-142, BEE, EPR | **Partly filled** | AIS-142: GSR 479(E) 28-Jun-2022; new types 1-Oct-2022, existing 1-Apr-2023 (RR, wet grip) and 1-Jun-2023 (noise) [V-snip; morth.gov.in PDF not opened]. EPR: GSR 593(E) Jul-2022, Schedule IX 35%/70%/100% (2022-23/23-24/24-25 on Y−2 base) [V-snip; cpcb.nic.in blocked]; Apollo EPR cost ₹116 Cr = 0.41% of revenue [V]. BEE star label: no evidence of a mandatory phase |
+| 11 | Gross margin by company by quarter | **Filled** | screener expense schedule (D1) [V]; company GM for CEAT and Apollo India [V] |
+| 12 | MRF capacity and plant count | **Plant count filled; capacity still open** | 10 plants/9 locations [V AR]; AR discloses no tonnage |
+| 13 | Apollo Q1 Europe revenue / India margin conflict | **Filled** | Apollo Q1 PPT and transcript (S5, S6) |
+| 14 | Apollo FY26 exceptional | **Filled** | ₹1,033.5 Cr (AR note B31); tax credit ₹573.7 Cr (S1–S3) |
+| 15 | JK Mexico plants | **Filled** | 2 plants (AR, CareEdge, PPT) |
+| 16 | BKT tyre vs carbon-black capacity | **Filled** | 3.6 lt each; tyres → 4.25 lt (S9) |
+| 17 | Rubber Board tyre NR −4% vs revenue growth | **Filled as [E]** | Compound-import substitution (D4) |
+| 18 | Credit ratings | **Filled** | D7 [V] |
+| — | Debt bases (CEAT, JK) | **Filled** | S24, S25 |
+| — | BKT–Pirelli | **Confirmed**; terms still undisclosed | Phase-1 BSE PR re-read; 22-Oct call audio only |
+| — | CEAT–CAMSO completion; JK–Cavendish date; Enschede; GST; EUDR; RSS-4 record | **Confirmed** | S21, S22, S35; Apollo GST release; EC Access2Markets; Onmanorama [V-sec] |
+| — | Q2 FY27 board dates (MRF, BKT, Apollo) | **Still not announced** (re-checked 24-Oct ~07:00 UTC) | screener announcements; MRF's Q2 FY26 board was 14-Nov-2025 |
+| New | Apollo FY26 capex | **Conflict** | Q1 PPT chart: capex ₹14 bn FY26 (₹8 bn FY25) vs Crisil "~₹2,400 Cr in FY26"; screener CFO−FCF proxy ₹1,355 Cr. Use the company's ₹1,400 Cr; Crisil may include capital advances/commitments |
+| New | MRF Q1 FY27 margin basis | **Conflict (basis)** | CareEdge PBILDT 13.77% vs screener OPM 11.8% — different definitions; do not mix |
+| New | Apollo TBR replacement share ">30%" | **Unverified at source** | Not found in the Q1 transcript text; keep as broker-reported |
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+**Insights an expert would add**
+1. **The squeeze is deeper and broader than "CEAT and JK".** Screener's material-cost schedule shows MRF's gross-margin proxy falling 6 pp in Q1 FY27 (39% → 33%) — as much as CEAT — and JK's 8 pp (38% → 30%). MRF's 11.8% OPM held up only because its overheads are lower; the brand did not buy it any extra pricing power in the first quarter of the shock. BKT (−2 pp) is the only member insulated at the gross-margin line.
+2. **The second oil leg arrives in Q3, not before.** EIA Brent averaged $114 in September and ~$126 in the first three weeks of October (peak $135.51), while the companies guided Q3 RM at only +3–5% in mid-October. With crude derivatives lagging 1–2 months, Q3 FY27 may *not* be the trough — the writer should frame "Q3 trough" as the companies' view, with the EIA series as the counter-evidence.
+3. **US tariff exposure splits by product, not by company.** On-road tyres (PCR/LT, and TBR per CEAT) carry the Sec 232 auto-parts 25% — untouched by the IEEPA ruling — while OHT pays ~10%. That favours BKT and CEAT-CAMSO and penalises PCR/TBR exporters (MRF, JK, Apollo's US PCR line); BKT may also get IEEPA refunds (a one-off upside, timing unknown).
+4. **Apollo's FY26 "tax-flattered" PAT is an India policy effect, and it recurs.** The ₹574 Cr credit came from adopting the 25.17% regime under the new Income-tax Act 2025; Apollo's FY27+ tax rate falls by ~10 pp vs its old 34.94% standalone rate — an earnings tailwind other members may already enjoy (MRF/CEAT/JK/BKT pay ~24–31% on screener).
+5. **Rating headroom is the hidden constraint for CEAT and JK.** CareEdge downgrade triggers: CEAT net debt/PBILDT >2.5× (2.34× already at Sep-25 on its basis), JK PBILDT <10% sustained or >3.5× (H1 FY27 PBILDT ~6.9%). Both are front-loading capex into the squeeze; a weak Q3 would put ratings, not just EPS, in play. MRF (AAA, ₹7,572 Cr liquid funds) and Apollo (AA+, 0.4×) have room.
+6. **BKT is already an India story by volume.** India was 36% of BKT's FY26 volume and ~40% in Q1 FY27 (Europe 38%); the "~70% exports, Europe-led" description is out of date even before on-highway tyres or Pirelli add domestic revenue. The FY30 plan (₹23,000 Cr: OHT 70%, carbon black 10%, on-highway 20% ≈ ₹5,000 Cr) implies on-highway reaching roughly CEAT-CAMSO scale in four years.
+7. **Management turnover in the squeeze.** Apollo's CFO (22 years, ran the Enschede exit) announced his departure on the Q1 call; BKT changed CFO (mid-2026) and hired an outside carbon-black head; JK's net debt guidance (+₹500–700 Cr) was already exceeded by June (+₹500 Cr in one quarter).
+8. **Legal tail risk is wider than the 2018 cartel case.** CEAT faces a second CCI matter (2013 Himachal Pradesh STU tender; DG found cartelisation, Feb-2025); the 2018 case (₹1,788 Cr) was last heard in the SC in Sep-2025. Nobody has provided for either.
+
+**New primer issues (append to Part 3 §3.4 list)**
+- **mrf.html:** replace "~35% share" with "about a third of domestic tyre units (CareEdge, ~31.9%)"; plants: **10 plants at 9 locations incl. Dahej (Gujarat) and two at Perambalur**; remove "1.1 million tonnes" (not in the FY26 AR); add channel mix 69.1/23.3/~8 (replacement/OEM+defence/exports); add AAA rating and ₹7,572 Cr liquid funds; Q1 FY27 gross-margin proxy fell 6 pp (61% → 67% material cost).
+- **balkrishna-industries.html:** geography — **India 36% of FY26 volume (~40% in Q1 FY27), Europe 40%, Americas 13%**; US ~11–12% of revenue; tyre plants = 4 (plus carbon black, mould, drum units), tyre and carbon-black achievable capacity both 3,60,000 MTPA; on-highway target ₹5,000 Cr by 2030; net debt ~₹1,725 Cr (Jun-26); ratings CARE/Crisil AA+; US tariff on OHT ~10% and IEEPA refund claim; new CFO.
+- **apollo-tyres.html:** FY26 exceptional **₹1,033.5 Cr** and tax credit **₹573.7 Cr (new 25.17% regime, India)** — not a Netherlands credit; pre-exceptional normal-tax PAT ~₹1,750–1,830 Cr; Enschede stopped production June 2026, ~€50 m cash cost; Hungary TBR moved to India; replacement 79% consolidated / 66% India (not ~65%); Europe ~26–30% of revenue; CFO departure; Crisil FY27 margin view ~11%; promoter-linked RPTs (Classic Industries ₹510 Cr purchases; PTL lease ₹61 Cr).
+- **ceat.html:** CAMSO consideration ₹1,186 Cr + US$44 m brand payment due by 31-Aug-2028; H1 FY27 gross margin ~33.6% vs 40–42% comfort zone; debt/EBITDA guide 2.0–2.1×; rating CARE/Ind-Ra AA (Positive); second CCI matter (HP STU 2013 tender); US tariff 25% on on-road tyres; international 24% of consolidated revenue, target 33%.
+- **jk-tyre.html:** Mexico = **2 plants** (AR, CareEdge); capacity 380 lakh tyres p.a.; Cavendish effective **22-Dec-2025**; FY26 exceptional ₹146 Cr (pre-exc. PAT ~₹880 Cr); product mix TBR 53% / PCR 30%; channel 64/23/13; CARE AA− with downgrade trigger PBILDT <10% (H1 FY27 ~6.9%); FY27 capex ₹1,600–1,800 Cr; net debt ₹4,945 Cr (Jun-26).
+- **All five:** the US tariff paragraph must distinguish Sec 232 (on-road, 25%) from the ~10% regime (OHT); the Brent narrative should use the EIA monthly series (Apr-26 $117, Sep-26 $114, Oct-26 ~$126) rather than "$95–105".
+
+*End of Part 4.*
+
+---
+
+## Orchestrator re-add of aggregates (24-Oct-2026, after applying Part 4 Supersedes)
+
+Re-added every Part 3 aggregate from the company rows. **FY26 revenue, OP, reported PAT, m-cap and screener-basis net debt sums in §3.2(a) are arithmetically correct** (all five ₹1,02,448 / 15,476 / 6,514 / 1,36,483 / 12,220 Cr; domestic four 91,625 / 13,175 / 5,271 / 95,697 / 11,233; ex-MRF 71,299 / 10,566 / 4,088 / 86,474 / 12,411; Apollo-CEAT-JK 60,476 / 8,265 / 2,845 / 45,688 / 11,424). Q1 FY27 sums in §3.2(b) also re-add correctly (all five rev 27,533, OP 3,226, PAT 1,343; domestic four 24,078 / 2,482 / 892).
+
+**Pre-exceptional PAT — ONE basis, superseding §3.1/§3.2 and S3's "~₹7,140 Cr":** pre-exceptional PAT = reported PAT + exceptional items, taxed at the normal rate, excluding one-off tax credits. Rows: MRF 2,426 (no exceptional); BKT 1,243 (none); **Apollo 1,757** [E: (PBT ₹1,309 + exc. ₹1,033) × 0.75]; **CEAT 750** (company adjusted); **JK 880** [E: S4]. S3's ₹1,831 Cr alternative is NOT used (it mixes the 25% normal-tax basis with a no-shield assumption).
+
+| Group | Pre-exc. PAT FY26 (₹ Cr) [E] | M-cap 24-Oct-26 | M-cap ÷ pre-exc. PAT |
+|---|---|---|---|
+| All five | **7,056** | 1,36,483 | 19.3× |
+| Domestic four (MRF, Apollo, CEAT, JK) | **5,813** | 95,697 | 16.5× |
+| Ex-MRF (BKT, Apollo, CEAT, JK) | **4,630** | 86,474 | 18.7× |
+| Apollo + CEAT + JK | **3,387** | 45,688 | 13.5× |
+
+Net debt in the peer table stays on the **screener basis** (borrowings − investments, Mar-26) in every row and total; company-basis figures (Apollo ₹1,600 Cr Mar-26 / ₹1,700 Cr Jun-26; JK ₹4,445 → ₹4,945 Cr; CEAT ₹3,846 Cr debt Sep-26; BKT ~₹1,725 Cr Jun-26) go in prose/notes only, labelled.
+
+Brent spot-check by orchestrator: EIA daily Brent page fetched — $135.51 on 2-Oct-2026, $125–130 on 5–16 Oct (confirms S14).
