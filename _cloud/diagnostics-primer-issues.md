@@ -72,3 +72,49 @@ Industry-dossier additions (diagnostics-industry.md, Primer issues noticed):
 - **thyrocare.html**: (a) misses the **13-Aug-2026 9.9% Docon sale (~₹986 Cr) — promoter now 51.02%, not ~61%**, and the 11-Aug pledge release; (b) Nueclear is a **divestment outside the group (slump sale/business transfer)**, not a "demerger"; (c) "promoter seat ~66% after open offer" — screener shows 66.1% (Mar-21) rising to **71.2% (Mar-22)** post open offer; (d) m-cap "~₹9,550 Cr (mid-2026)" now ₹7,372 Cr; (e) state the 2:1 bonus and that API's ₹1,300 entry = ~₹433 post-bonus.
 - **vijaya-diagnostic.html**: add Arya Wellness (Guwahati) acquisition (11-Sep-2026) and Medinova completion; centre count 162 vs 166; P/E "~78×" now 76×; radiology mix drifted 38.5% → ~37%.
 - **jeena-sikho-lifecare.html**: m-cap "~₹6,275 Cr" and "~28× P/E" now ₹4,245 Cr and 18× after a 33% October fall (52-wk high ₹840); add the government-panel collapse (₹15.5 → ₹5.2 Cr), the channel table, ~2,400 beds/62 hospitals/57 clinics/51 NABH (Q1 FY27 presentation vs primer's 61 + 58 and ~2,300), Mohali sale-and-leaseback (₹9.05 Cr), new internal auditor; "Shuddhi Lifecare group merger" unverified — soften or source. Founder's name appears throughout (fine as a public figure, but keep it consistent with the company's own usage).
+
+## From Diagnostics & Wellness Services deep-research pass (2026-10-24, diagnostics-industry.md Part 4 §4.5)
+
+
+- **dr-lal-pathlabs.html**
+  - Suburban price: replace "~₹1,150 Cr" with "EV ₹925 Cr floor, up to ₹1,150 Cr with performance payments (18.5× FY22 EBITDA)" [CRISIL 2021].
+  - Name the FY26 one-off: ₹30.1 Cr Labour Codes (gratuity + leave).
+  - Add B2C ~75%.
+  - Add FY27 guidance 13–15% revenue (Q1: "towards mid-teens"), 27–28% EBITDA, 12–15 new labs, capex ₹140–150 Cr.
+  - Add the CGHS +2–3% (temporary) and no list-price hike in 3 years.
+  - Add international steps (Dubai WOS; 80% of Sunshine Healthcare, Ghana; 30% of Neuome).
+  - Centrapath last 30% for ≤₹30.3 Cr; Suburban dissolved (NCLT 27-Feb-2026).
+- **vijaya-diagnostic.html**
+  - Centres "162" is right for Mar-26; add 166 at Jun-26 (51 hubs/115 spokes).
+  - Arya Wellness: ~₹46 Cr, ~8–9× EBITDA, 21% margin target business, closing Nov/Dec-26.
+  - FY27 capex ₹190–195 Cr incl. an AP land purchase (first owned-land exception).
+  - Last price hike Jun-2025.
+  - Add ~₹16.5 Cr/yr rent to the promoter family (related-party note).
+  - Kedaara: say "largely or fully exited", no number.
+- **metropolis-healthcare.html**
+  - Acquisition prices: Core ₹218.9 Cr (not ₹246 Cr); Scientific ₹64.5 Cr; DAPIC ₹34.6 Cr; **Ambika is Kolhapur** (₹17 Cr).
+  - Confirm the 3:1 bonus (record 20-Mar-2026).
+  - Borrowings ex-lease only ₹18.7 Cr.
+  - No price hike since Jan-2025 (FY27 hike skipped); CGHS ~1% of revenue.
+  - ~750–800 own centres of ~5,000; 100 mini-hubs plan; lab expansion paused.
+- **thyrocare.html**
+  - Docon pledge **fully released 17-Aug-2026** and API's NCDs redeemed. Remove any "pledged promoter" or "debt-heavy owner" language; it was 100% pledged at Mar-26.
+  - Add related-party revenue from Docon/PharmEasy ₹83 Cr (10.7% of standalone, exclusive).
+  - Nueclear sale to Trovera ₹141.4 Cr is **not an RPT**; it includes ₹59.5 Cr of Trovera CCPS and Thyrocare buys back the Gurugram/Hyderabad properties for ₹20.6 Cr.
+  - FY26 exceptional = labour code + bonus costs.
+  - Specialty launch and its 15–20% ambition; franchise economics example (₹300 list / ₹150–200 street / ₹60 to Thyrocare).
+  - 71.22% acquired by Docon in 2021 (not 66%).
+- **jeena-sikho-lifecare.html**
+  - **Auditor change** (KRA & Co → Walker Chandiok, Aug-2025).
+  - **Chandan Healthcare warrants** (₹42.12 Cr; ₹31.59 Cr unpaid).
+  - Shuddhi Lifecare is a related party (₹4.92 Cr purchases + royalty), **not a merger**; the ₹2.12 Cr Shuddhi Green Charcoal loan was recovered.
+  - UAE subsidiary loan ₹10.4 Cr.
+  - Government business ₹117 → ₹35 → ₹5 Cr; occupancy 59% on 2,400 beds.
+  - Targets (₹3,000 Cr revenue, 7,000–10,000 beds) should be presented as management aspiration.
+  - Discounted ₹4–6k admissions lower ticket size; receivables ECL 18%; no promoter pledge disclosed.
+  - Earlier drawdowns: 1-Jun-2026 (−20% lower circuit) and 10-Aug-2026 (−13%).
+- **All five:**
+  - A new [K] in each primer: a "GST 2.0 pass-through" framing (labs absorbed the input-GST cut instead of raising prices).
+  - CGHS's NABL-linked differential.
+  - Use CRISIL's ₹86–87k Cr (FY24) market base in industry boxes.
+
