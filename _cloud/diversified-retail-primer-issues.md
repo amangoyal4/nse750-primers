@@ -10,7 +10,7 @@
 - **avenue-supermarts.html — FY22 revenue:** ~₹30,353 Cr → **₹30,976 Cr** (screener consolidated); or label the primer figure's basis.
 - **vishal-mega-mart.html — store additions:** "105 net new stores to 795" → **105 gross, 6 closures, 99 net** (696 at FY25 exit → 795) (Q2 FY27 earnings presentation, BSE 21-Oct-26).
 - **vishal-mega-mart.html — stale valuation (refreshed 4-Jul):** "~₹56,000 Cr, share price ~₹121, 65–67×" → **₹40,922 Cr at ₹87.4, P/E 45.6×** (screener 24-Oct-26); 52-week low ₹84.9.
-- **vishal-mega-mart.html — block-deal history incomplete:** add the **Jun-2025 block (~19.8%, ~91 crore shares at ~₹115, ~₹10,488 Cr)** that took the promoter from 74.55% to 54.22%. The Feb-2026 value "₹7,635 Cr" conflicts with press reports of ₹7,400–7,915 Cr (floor ₹115). Shareholding path verified on screener: 76.02 → 74.55 → 54.22 → 54.09 → 40.12 → 40.02%.
+- **vishal-mega-mart.html — block-deal history incomplete:** add the **Jun-2025 block (~19.8%, ~91 crore shares at ~₹115, ~₹10,488 Cr)** that took the promoter from 74.55% to 54.22%. The Feb-2026 value "₹7,635 Cr" is CORRECT (65.25 Cr shares at ~₹117, Part 4 S13); Jun-2025 block per Part 4 S14 is ~19.36% for ~₹10,220 Cr. Shareholding path verified on screener: 76.02 → 74.55 → 54.22 → 54.09 → 40.12 → 40.02%.
 - **vishal-mega-mart.html — Q2 FY27 to add:** revenue ₹3,398.5 Cr (+14.0%); SSSG 5.4% (festival shift; adj. ~9%); GP 28.0%; operating EBITDA 7.7% (8.5%); PAT ₹157.9 Cr (+3.7%); 844 stores, 582 cities, 14.1 mn sq ft; own brands 73.9% (H1); "Belong & Co." pilot (press release, BSE 21-Oct-26).
 - **v2-retail.html — exceptional item:** FY26 PAT ₹162.1 Cr **includes a ₹27.7 Cr exceptional gain**; PBT before exceptional ₹186.9 Cr (Q1 FY27 investor presentation, BSE 13-Aug-26). The "+125% PAT" overstates underlying growth (ex-exceptional ~+96% [E]).
 - **v2-retail.html — QIP missing:** add the **₹399.99 Cr QIP (30-Oct to 3-Nov-2025) at ₹2,134/share**, which diluted the promoter from 54.22% to 51.43% and funded working capital/debt repayment (company QIP closing intimation; scanx). Also note the face value is now ₹1 (split).
@@ -21,3 +21,36 @@
 - **v-mart-retail.html — stale valuation (refreshed 28-Aug):** "~₹4,800 Cr", "~38×" → **₹6,185 Cr at ₹777, P/E 44.6×** (screener 24-Oct-26).
 - **v-mart-retail.html — bonus issue not mentioned:** equity capital ₹20 Cr → ₹79 Cr in FY26 (screener); per-share history must be bonus-adjusted (ratio ~3:1 [K], verify).
 - **v-mart-retail.html — add:** debt-free ex-leases (borrowings ₹1.2 Cr, Jun-26); Unlimited Q1 FY27 revenue ₹184 Cr (+33%), segment EBITDA 18.6%; private labels 66%+ of apparel; President-Merchandising resignation effective 9-Oct-2026 (screener announcements).
+
+## From Value & Grocery Retail deep-research pass (2026-10-24, diversified-retail-industry.md §4.6 — supersedes conflicting bullets above)
+
+- **avenue-supermarts.html:**
+  - Add "**68 leased stores (15 of 85 FY26 openings)**; standalone lease liabilities ₹1,302 Cr (Mar-26)" (analyst meet 28-Jul-26; AR FY26).
+  - Replace any "near-zero rent" claim with **lease cash ₹252 Cr (0.4% of revenue)**.
+  - **DMart Ready: FY26 revenue ₹4,093.61 Cr, loss ₹306.53 Cr (FY25 loss ₹247.37 Cr)** (AR FY26 Form AOC-1). This confirms the primer's "~₹4,000 Cr+" and the "₹247 Cr FY25 loss".
+  - Store-addition guidance is **~15% of base a year**, not "record pace"; H1 FY27 added only 18.
+  - FY22 revenue ₹30,353 Cr is **standalone** — label it.
+  - FY26 revenue per sq ft **₹33,422** (−1%); FY26 LFL **8.1%**.
+  - Borrowings ₹965 Cr (Mar-26) → ₹2,629 Cr (Sep-26); NCD programme ₹1,000 Cr.
+- **vishal-mega-mart.html:**
+  - **Feb-2026 block: 65.25 Cr shares at ~₹117 = ₹7,636 Cr. The primer's ₹7,635 Cr is CORRECT** (retract the Part 3 conflict flag).
+  - Retail area 13.45 mn sq ft (Mar-26).
+  - Tier mix 204/197/443 and regions N315/S237/E208/W84 (Sep-26).
+  - Foreign-ownership cap 49.99%.
+  - Goodwill ₹4,284 Cr (37% of assets) is a key audit matter.
+  - MD pay ₹30.26 Cr.
+  - Q1 FY27 SSSG 10%.
+  - Hyperlocal is 2–9% of store revenue.
+- **v2-retail.html:**
+  - Split record date **26-Mar-2026**; QIP allotment 3-Nov-2025 at ₹2,134 (18,74,414 shares).
+  - **FY26 exceptional gain = lease-term reassessment** (not a one-off asset sale); PAT ex-exceptional ₹141.4 Cr.
+  - FY27 guidance: revenue ≥50%, SSSG 8–10%, GM 29–30%, 170–200 stores, capex ₹1.2 Cr/store, payback 2.5–3 years.
+  - Auditor's emphasis of matter on the BCCL advance.
+  - FY26 store movement: AR says 136 opened, 3 closed.
+- **v-mart-retail.html:**
+  - Bonus **3:1, record date 23-Jun-2025**.
+  - FY26 lease payments ₹277.6 Cr; pre-Ind AS EBITDA ~6.2%.
+  - FY27 guidance: 90+ gross openings, 8–10 closures; RM inflation ~10%; ASP increases capped at 3–5%.
+  - COO exit and CFO now CFO & COO.
+  - MD pay 267× median (+64%).
+

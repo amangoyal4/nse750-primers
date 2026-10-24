@@ -1105,3 +1105,794 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
 - DMart price/analysts: univest.in; plindia.com DMART-11-10-26-PL.pdf; equentis.com
 
 **Our primers [primer]:** primers/avenue-supermarts.html (30-Jun-26), primers/vishal-mega-mart.html (4-Jul-26), primers/v2-retail.html (12-Aug-26), primers/v-mart-retail.html (28-Aug-26).
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (2026-10-24)
+
+Second, primary-source pass on Parts 1–3, done 24-Oct-2026 (Saturday). Parts 1–3 are not edited. **Where Part 4 conflicts with Parts 1–3, Part 4 wins.** The rows of §4.0 list the corrections the writer must apply.
+
+**What was read this session (all fetched and text-extracted or rendered to images; nothing taken from memory unless tagged [K]):**
+- **FY26 annual reports (BSE AttachHis PDFs)** for all four members: DMart (275 pp), VMM (172 pp), V2 (142 pp), V-Mart (158 pp). Read: AOC-1, related-party notes, Ind AS 116 lease notes, contingent liabilities, key audit matters, managerial-remuneration annexure, share-capital notes (bonus, split, QIP), MD&A industry chapter.
+- **Latest earnings-call transcripts on BSE:** DMart Annual Analyst Meet (28-Jul-2026; transcript filed 4-Aug); VMM Q1 FY27 call (23-Jul-2026); V2 Q1 FY27 call (14-Aug-2026; filed 17-Aug); V-Mart Q1 FY27 call (27-Jul-2026; filed 30-Jul).
+  - **VMM's Q2 FY27 call (21-Oct-2026) has only an audio recording on BSE so far; no transcript yet.** Q2 commentary therefore comes from the Q2 press release and presentation.
+  - **DMart holds no quarterly call.** Its once-a-year analyst meet (Jul-2026) is the latest management Q&A.
+- **Q2 FY27 results filings:** DMart (10-Oct) and VMM (21-Oct) results PDFs, including Sep-26 balance sheets. Rendered slides: VMM Q2 deck slide 3 (tier/region) and DMart H1 FY27 deck slide 4 (category mix).
+- **Rivals' primary filings:** Eternal Q2 FY27 shareholder letter (21-Oct-2026; annexure table rendered); Swiggy Q2 FY27 shareholder letter (22-Oct-2026); Trent Q1 FY27 investor presentation (6-Aug-2026); Reliance Industries Q1 FY27 presentation (17-Jul-2026).
+- **Policy and industry:** GST Council 56th-meeting press release (PIB/GST Council PDF); CRISIL Ratings press release of 20-Oct-2025 on organised apparel retail.
+- **Screener.in** pages for all four members, re-pulled 24-Oct-2026: quarterly, P&L, balance sheet, cash flow, ratios, shareholding, top ratios.
+- **Not reachable** (TLS failure or HTTP 503 from this sandbox):
+  - the MoSPI CPI PDF and the IMD monsoon PDF (macro figures stay [V-snip]);
+  - the BSE announcements API and BSE bulk/block-deal pages (Akamai "Access Denied"), so the VMM block deals stay [V-snip, exchange data as reported by Reuters/DealStreetAsia].
+- **Web calls used:** ~48 (curl + WebFetch + WebSearch).
+
+**Tags in Part 4:**
+- [V] = fetched this session from the named primary document.
+- [V-derived] = arithmetic on [V] inputs.
+- [V-snip], [K] and [E] mean the same as in Part 1.
+
+## 4.0 Supersedes (apply these corrections to Parts 1–3)
+
+| # | Where in Parts 1–3 | Old figure / claim | New figure / claim | Reason / source |
+|---|---|---|---|---|
+| S1 | §2.1, §H1 (market size) | "India retail ~₹80–90 lakh Cr (FY26)"; "Redseer put the market at ~₹68–72 lakh Cr in FY24"; "₹104–112 lakh Cr by FY28 … labelled organised (FLAG)" | **Redseer (Mar-2025), as quoted in VMM's FY26 annual report:** total Indian retail reaches **₹116–124 trn (lakh Cr) by CY2028** at ~9% CAGR (CY23–28). **₹68–72 trn (CY2023) → ₹104–112 trn (CY2028) is the "aspirational retail" TAM, not total and not organised.** **Organised retail ₹14.9 trn (CY2023) → ₹36–38 trn (CY2028), ~20% CAGR.** Implied total CY2023 ≈ ₹75–81 trn [V-derived: 116–124 ÷ 1.09⁵] → **organised share ~19% (CY2023) → ~30% (CY2028)** [V-derived]. | VMM AR FY26 pp. 56–57 (page rendered) [V]. Kotak's "organised" label was a mis-read; the ₹68–72 trn figure is CY2023 aspirational TAM, not FY24 total. |
+| S2 | §2.1 categories | Food & grocery ~60–65% of retail; apparel ~8–10% [K] | **Redseer CY2023 → CY2028: staples & FMCG ₹28 trn → ₹42 trn (9% CAGR); apparel ₹6 trn → ₹10 trn (10%); general merchandise ₹3 trn → ₹6 trn (14%).** On the ~₹78 trn total, staples & FMCG ≈ 36% and apparel ≈ 8% [V-derived]. Food & grocery is lower than 60–65% on this taxonomy, but Redseer's "staples & FMCG" excludes fresh produce, so the two are not comparable. | VMM AR FY26 p. 58 [V] |
+| S3 | §H2, §B1, trap 5, 2.1 (DMart Ready) | DMart Ready revenue "~₹4,000 Cr+ (primer, unverified)"; subsidiary loss "~₹254 Cr FY26 [E]"; FY25 loss "~₹247 Cr (primer)" | **Avenue E-Commerce Ltd (DMart Ready) FY26 turnover ₹4,093.61 Cr (~+17%), loss before and after tax ₹306.53 Cr** (FY25 loss ₹247.37 Cr). Net worth ~₹124 Cr (share capital ₹651.85 Cr, reserves −₹527.40 Cr). DMart bought ₹350 Cr of new AEL shares in FY26 (₹250 Cr in FY25); carrying value ₹1,488.11 Cr. **AEL bought ₹2,574.39 Cr of goods from DMart (63% of AEL turnover).** | DMart AR FY26: Form AOC-1 (p. 51), related-party note, consolidated share table; analyst meet: "sales grew about 17% … net loss of INR 307 crore" [V] |
+| S4 | §2.2, §3.3, §H15 (DMart FY22 revenue) | Conflict: primer ₹30,353 Cr vs screener ₹30,976 Cr | **Both are right on different bases: ₹30,353 Cr standalone (company 5-year KPI page) vs ₹30,976 Cr consolidated (screener).** Our tables use consolidated, so no change to them. The primer just needs a basis label. | DMart AR FY26 p. 11 [V] |
+| S5 | Trap 3, §4.2, §C.1, §C.5, §2.0 (DMart rent) | DMart rent ~0.3% of revenue; rent add-back ~₹60 Cr; "pre-Ind AS EBITDA ~7.8%" | **DMart has 68 stores on long leases (15 of the 85 FY26 openings were leased).** Standalone lease cash outflow **₹252.15 Cr** plus short-term lease expense ₹13.42 Cr = **₹265.6 Cr = 0.40% of revenue**. Lease liabilities ₹693 Cr → ₹1,302 Cr (Mar-26) → ₹1,451 Cr (Sep-26). **Pre-Ind AS (rent-paid) standalone EBITDA ≈ ₹5,003 Cr = 7.5% (not 7.8%).** | DMart AR FY26 lease note; analyst meet 28-Jul-2026; Q2 results balance sheet [V] |
+| S6 | §3.2(e), §2.0 (DMart ex-lease debt; group net debt) | DMart ex-lease bank debt "~₹2,100 Cr (Mar-26)"; **group ex-lease net debt ≈ ₹1,300 Cr (Mar-26), ~₹2,300 Cr (Sep-26)** | **DMart standalone borrowings ₹965.27 Cr (Mar-26) → ₹2,628.66 Cr (Sep-26).** The rest of the ₹2,267 Cr / ₹4,079 Cr "total debt" is lease liabilities. Cash + bank ₹266 Cr (Mar-26) / ₹166 Cr (Sep-26). VMM treasury (investments + cash + other bank) ₹1,714 Cr (Mar-26) / ₹2,328 Cr (Sep-26). **Group ex-lease position: net CASH ≈ ₹700 Cr at Mar-26** [V-derived: (965 − 266) − 1,714 + (254 − 6) + (100 − 38)]. **Net debt ≈ ₹350–400 Cr at Sep-26** [V-derived; V2 Sep-26 debt not yet published, ₹254 Cr assumed]. | Analyst meet ("actual debt … close to INR 965 crores"); DMart and VMM Q2 results balance sheets [V]. **Arithmetic/basis error in Part 3(e).** |
+| S7 | §2.0, §5.1 (VMM area Mar-26) | ~13.5 mn sq ft [primer] | **13.45 mn sq ft (Mar-26)**; 13.8 mn sq ft (Jun-26); 14.1 mn sq ft (Sep-26) | VMM AR FY26 KPI page; Q1 call; Q2 deck [V] |
+| S8 | §2.3, §B4 (V2 area Mar-26; FY26 store movement) | V2 area Mar-26 "~3.4 mn sq ft [E]"; "189 → 325 = 136 net" | **35 lakh sq ft (3.5 mn sq ft) at Mar-26.** AR: "added 136 and closed 03" in FY26 to 325, i.e. **136 gross, 133 net**, which implies 192 at Mar-25 (vs 189 in the primer). Carry as a conflict: use "~136 openings". | V2 AR FY26 Directors' Report [V] |
+| S9 | §3 item 1, §2.2 (VMM tier/region mapping) | "443 in Tier III [E mapping]"; regions 315/237/208/84 with "South likely 84"; "VMM east = largest region by revenue share" | **Sep-26: Tier I (>1 mn population) 204, Tier II (0.2–1 mn) 197, Tier III (<0.2 mn, 2011 census) 443. Regions: North 315, South 237, East incl. North-East 208, West incl. Central 84.** **North, not East, is the largest region by store count.** No revenue split by region is disclosed. | VMM Q2 FY27 deck slide 3, rendered [V] |
+| S10 | §H10, 2.1 (DMart mix direction) | Direction of GM&A "likely but not certain" | **Confirmed: H1 FY26 → H1 FY27 Foods 57.01% → 56.90%, Non-Foods 19.65% → 19.48%, GM&A 23.34% → 23.62%.** Management guides GM&A at 22–23% "range" and does not plan to push it back to historical levels. | DMart H1 FY27 deck slide 4, rendered; analyst meet [V] |
+| S11 | §2.0 notes, §C.5 (V-Mart pre-Ind AS FY26) | ~6.2% [E: rent ~₹280 Cr] | **Lease payments FY26 ₹277.63 Cr (FY25 ₹234.73 Cr) → pre-Ind AS EBITDA ≈ ₹235.8 Cr = 6.2%**: the estimate holds and is now [V-derived] | V-Mart AR FY26 lease note [V] |
+| S12 | §C.5 group pre-Ind AS EBITDA | Rent add-backs VMM ~620, V2 ~178, V-Mart ~280, DMart ~60 → ~₹6,950 Cr (~7.8%) | **Add-backs (FY26 lease cash, ex short-term rent already in opex): VMM ₹622 Cr, V2 ~₹174 Cr, V-Mart ₹278 Cr, DMart ₹252 Cr (standalone) → group pre-Ind AS EBITDA ≈ ₹6,767 Cr = 7.6%** [V-derived]. | ARs [V] |
+| S13 | §B3, §2.2, §3.3, §H4 (VMM Feb-2026 block) | "~14%, floor ₹115, reported ₹7,400–7,915 Cr"; primer ₹7,635 Cr flagged as conflict | **27-Feb-2026: 65.25 Cr shares at an average ₹117 (₹117–117.03), ≈₹7,636 Cr (₹76.36 bn; US$838 mn), an 8.3% discount.** Buyers included HDFC MF, GIC and MAS; Samayat left with 40.13%. **The primer's ₹7,635 Cr was right.** | Reuters exchange-data calculation via stockopedia; DealStreetAsia [V-snip] |
+| S14 | §B3, Part 0 (VMM Jun-2025 block) | "~19.8% at ~₹115, ~₹10,488 Cr" | **~19.36% for ~₹10,220 Cr** (seller's counsel; storyboard18). Implied ~₹115/share [V-derived on ~459.7 Cr shares]. Some press quotes ₹10,488 Cr / ₹11,100 Cr "changed hands" (the latter includes non-promoter trades). **Screener promoter change 74.55% → 54.22% = −20.33 pp**; part of the gap may be ESOP dilution. | Bar & Bench / storyboard18 [V-snip]; screener [V] |
+| S15 | §5.1, §B4, §E13, §G (Trent/Zudio) | "Trent 1,342 stores (Sep-26)"; Zudio 982 (Jun-26) | **Trent publishes Sep-26 counts with its Q2 results on 29-Oct-2026, so "1,342 (Sep-26)" cannot be sourced and should be dropped.** Jun-26 [V]: Westside 301, **Zudio 982 (incl. 7 UAE)**, other 29 = **1,312**; >18 mn sq ft; Star 86 stores. | Trent Q1 FY27 deck; board-meeting intimation (29-Oct) [V] |
+| S16 | §5.1, §2 (Reliance Retail) | "₹79,745 Cr in Q1 FY27 [V-snip]" | **RIL deck: Retail revenue ₹90,408 Cr (+12%, gross), EBITDA ₹6,309 Cr (−1.1%; margin 7.9%, −80 bp); 20,169 stores; 78.4 mn sq ft; 396 mn registered customers.** The ₹79,745 Cr figure is probably net of GST, so label the basis. **Q2 FY27 RIL results not on BSE as of 24-Oct.** | RIL Q1 FY27 presentation, 17-Jul-2026 [V] |
+| S17 | §1.3, §9.1, §D, §F (DMart revenue/sq ft) | "~₹35,000/yr (annualised Q2 ₹8,741 × 4)" | **Company FY26 annual: ₹33,422/sq ft (−1% YoY; FY25 ₹33,896; FY22 ₹27,454).** ~₹35k is an annualised peak quarter. **Use ₹33.4k as the FY26 figure.** | DMart AR FY26 p. 11; analyst meet [V] |
+| S18 | §2.0 / C.2 (VMM revenue/sq ft) | ~₹9,500–10,000 [E] | **~₹10,000–10,300 (FY26)** [E on V endpoints: ₹12,906 Cr ÷ average of ~12.3–12.6 (Mar-25, E) and 13.45 (Mar-26) mn sq ft]. **H1 FY27 annualised ≈ ₹10,300–10,350** (₹7,125.5 Cr × 2 ÷ avg 13.45–14.1). | VMM AR, decks [V/E] |
+| S19 | §H5, Part 0 item 2 (V2 split / QIP) | Split date "not verified"; QIP [V-snip] | **QIP allotted 3-Nov-2025: 18,74,414 shares of ₹10 at ₹2,134 (premium ₹2,124) = ₹399.9999 Cr**; ~₹135 Cr repaid debt, ~₹165 Cr for roll-out, supply chain and digital. **Split ₹10 → ₹1: board 3-Feb-2026, postal ballot 8-Mar-2026, record date 26-Mar-2026.** | V2 AR FY26 notes 14(c)/(d) [V] |
+| S20 | §H6, Part 0 item 3 (V-Mart bonus) | "~3:1 [K]" | **Bonus 3:1: board 2-May-2025, postal ballot 12-Jun-2025, record date 23-Jun-2025, allotted 24-Jun-2025; 5,95,30,353 shares; paid-up capital ₹79.37 Cr.** | V-Mart AR FY26 Directors' Report [V] |
+| S21 | V2 FY26 PAT ex-exceptional | ~₹141 Cr [E] | **₹141.4 Cr.** The exceptional gain (consolidated) of ₹27.69 Cr pre-tax (tax ₹6.97 Cr) is a **gain on re-assessing store lease terms as of 1-Oct-2025**: ROU assets cut by ₹483.9 Cr and lease liabilities by ₹499.2 Cr. Standalone also booked a ₹9.55 Cr impairment of a subsidiary investment. | V2 AR FY26 note 33/34 [V] |
+| S22 | §B1, §2.1, §11 (quick-commerce run-rate) | ~₹1.3 lakh Cr/yr (Blinkit Q1 ×4 + Instamart Q1 ×4 + Zepto Q4 ×4) | **~₹1.5–1.6 lakh Cr/yr on Q2 FY27 data:** Blinkit NOV ₹20,940 Cr ×4 = ₹83.8k Cr; Instamart GOV ₹9,230 Cr ×4 = ₹36.9k Cr; Zepto ~₹32.5k Cr (Q4 FY26 NRV ×4, V-snip). This excludes Flipkart Minutes, Amazon Now, BB Now and JioMart. **This is now ~2.0× DMart's TTM revenue (₹74,223 Cr).** | Eternal and Swiggy Q2 letters [V]; Zepto [V-snip] |
+| S23 | §11 item 1 (Instamart) | "Instamart reached contribution break-even (May-2026)" | **Quarterly contribution margin was −1.0% of GOV in Q2 FY27 (about −0.2% in Q1 FY27); adjusted EBITDA −₹895 Cr (−9.7%).** Any break-even was a single month at most. Do not print "break-even". | Swiggy Q2 FY27 letter [V] |
+| S24 | §B1 (Blinkit FY26 revenue) | Primer "~₹37,800 Cr" unverified | **≈₹37,780 Cr** [V-derived: Q2–Q4 FY26 revenue ₹9,891 + ₹12,256 + ₹13,232 Cr, plus Q1 FY26 ≈ ₹2,400 Cr backed out of Q1 FY27's +552.7% YoY]. **The primer figure stands.** FY26 NOV ≈ ₹48,570 Cr [V-derived]. | Eternal Q2 FY27 letter annexure [V] |
+| S25 | §9.1 VMM SSSG prior quarter | "Q1 ≈ 10% [E]" | **Q1 FY27 SSSG 10% [V]**: ~8% more customers plus ~3% higher spend per existing customer. Highest-priced fashion grew 13.9% on a same-store basis. | VMM Q1 FY27 call [V] |
+| S26 | §5.3, 2.1 (R.K. Damani stake) | "~23% [primer, not re-verified]" | **14,98,48,238 shares = 23.0%** of 65.07 Cr shares. Bright Star Investments holds 8.875 Cr shares (13.6%). | DMart AR FY26 [V] |
+
+## 4.1 Verification table (42 figures the writer will lean on)
+
+Source keys (full URLs):
+- **[A1] DMart AR FY26:** https://www.bseindia.com/xml-data/corpfiling/AttachHis/b496eda6-102e-4914-9a09-ce1e7f66c8b9.pdf
+- **[A2] VMM AR FY26:** https://www.bseindia.com/xml-data/corpfiling/AttachHis/db915033-63ec-405b-aab3-5b72ad2edd4a.pdf
+- **[A3] V2 AR FY26:** https://www.bseindia.com/xml-data/corpfiling/AttachHis/fc66a3ce-a5f5-47a0-8845-c57c2954bdee.pdf
+- **[A4] V-Mart AR FY26:** https://www.bseindia.com/xml-data/corpfiling/AttachHis/c732fe6f-d778-48d8-8045-d7ff12df8c1e.pdf
+- **[T1] DMart analyst-meet transcript (28-Jul-26):** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf
+- **[T2] VMM Q1 FY27 transcript:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b456efc-aa0c-4ffb-980b-2fce2244a12d.pdf
+- **[T3] V2 Q1 FY27 transcript:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e7005c9-a08e-4ca3-85d9-ddf0eb10e65c.pdf
+- **[T4] V-Mart Q1 FY27 transcript:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c9d40df-0881-4020-af5a-0d37e19eab17.pdf
+- **[R1] DMart Q2 FY27 results:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5265885f-b4a6-4f12-8503-26911647c4f0.pdf
+- **[R2] VMM Q2 FY27 results:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3de66a7-2e2f-4af1-860c-da088a681a0c.pdf
+- **[P1] DMart H1 FY27 deck:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28519d83-e15b-41c1-842c-b589621d6439.pdf
+- **[P2] VMM Q2 FY27 deck:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f14a1926-a439-48f8-9acd-076ad29c863d.pdf
+- **[E1] Eternal Q2 FY27 shareholder letter:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbfbd146-6a68-43d6-9cbc-dfb7d0f50fd0.pdf
+- **[E2] Swiggy Q2 FY27 shareholder letter:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32a9db53-5a56-46fd-84b6-2b5ddf39f995.pdf
+- **[E3] Trent Q1 FY27 deck:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffb34801-a67e-4184-897a-06bf9e8bec64.pdf
+- **[E4] RIL Q1 FY27 deck:** https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01d1656c-cf53-4d52-94c3-7ed0edd50271.pdf
+- **[G1] GST Council 56th meeting PIB release:** https://gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau_0.pdf
+- **[G2] CRISIL Ratings PR 20-Oct-2025:** https://www.crisilratings.com/en/home/newsroom/press-releases/2025/10/for-organised-apparel-retailers-a-200-bps-revenue-leg-up-from-gst.html
+- **[SC] screener.in** (DMART/VMM/V2RETAIL consolidated; VMART standalone), pulled 24-Oct-2026.
+
+| # | Figure | Old value / tag (Parts 1–3) | New / confirmed value | Source | Tag now |
+|---|---|---|---|---|---|
+| 1 | Organised retail market | "~18–22% share" [K]; no ₹ size | **₹14.9 trn (CY2023) → ₹36–38 trn (CY2028), ~20% CAGR** (Redseer, Mar-2025) | [A2] pp. 56–57 | [V] |
+| 2 | Total retail market | ~₹80–90 lakh Cr FY26 [E/K] | **₹116–124 trn by CY2028 at 9% CAGR**; CY2023 ≈ ₹75–81 trn [derived] | [A2] p. 57 | [V] / [V-derived] |
+| 3 | "₹104–112 lakh Cr" | "organised retail by FY28" [V-snip, FLAG] | **"Aspirational retail" TAM CY2028; ₹68–72 trn in CY2023** | [A2] p. 57 | [V] |
+| 4 | Category markets CY23 → CY28 | [K] shares | **Staples & FMCG ₹28 → ₹42 trn (9%); apparel ₹6 → ₹10 trn (10%); GM ₹3 → ₹6 trn (14%)** | [A2] p. 58 | [V] |
+| 5 | DMart Ready (AEL) FY26 revenue | "~₹4,000 Cr+" [primer] | **₹4,093.61 Cr** | [A1] AOC-1 p. 51 | [V] |
+| 6 | DMart Ready loss | ~₹254 Cr FY26 [E]; ₹247 Cr FY25 [primer] | **₹306.53 Cr FY26; ₹247.37 Cr FY25** | [A1] AOC-1; consolidated share table; [T1] | [V] |
+| 7 | DMart Ready footprint | 11 cities [V] | **11 cities; 165 pick-up points; target delivery ≤6 hours (slotted)** | [T1] | [V] |
+| 8 | Blinkit Q1 FY27 NOV | ₹17,132 Cr [V-snip] | **₹17,132 Cr** (+86.2% YoY) | [E1] annexure | [V] |
+| 9 | Blinkit stores Jun-26 / Sep-26 | 2,443 [V-snip] | **2,443 / 2,751**; guidance >3,500 by Mar-27, ~5,000 by Mar-28 | [E1] | [V] |
+| 10 | Blinkit Q2 FY27 | — | **NOV ₹20,940 Cr (+79.3%); revenue ₹19,152 Cr; adj. EBITDA ₹184 Cr (0.9% of NOV); 37.0 mn MTCs** | [E1] | [V] |
+| 11 | Blinkit FY26 revenue | ~₹37,800 Cr [primer] | **≈₹37,780 Cr** | [E1] (Q2–Q4 + back-solved Q1) | [V-derived] |
+| 12 | Instamart Q1 FY27 GOV / stores | ₹7,907 Cr / 1,171 [V-snip] | **≈₹7,909 Cr (Q2 ₹9,230 Cr ÷ 1.167) / 1,171** | [E2] | [V] |
+| 13 | Instamart Q2 FY27 | — | **GOV ₹9,230 Cr; NOV ₹6,594 Cr; 1,240 dark stores (133 cities; 5.21 mn sq ft); CM −1.0%; adj. EBITDA −₹895 Cr** | [E2] | [V] |
+| 14 | Zepto | 1,139 dark stores; FY26 revenue ₹22,624 Cr; loss ₹5,905 Cr [V-snip] | Same (₹22,623.58 Cr; loss ₹5,905.19 Cr vs ₹4,699.71 Cr; 1,029 stores at FY25) | UDRHP via outlookbusiness / inc42 | [V-snip] |
+| 15 | VMM Feb-2026 block | floor ₹115; ₹7,400–7,915 Cr [V-snip] | **65.25 Cr shares at ~₹117; ₹7,636 Cr** | Reuters via stockopedia; DealStreetAsia | [V-snip] |
+| 16 | VMM Jun-2025 block | ~19.8% at ~₹115; ₹10,488 Cr [V-snip] | **~19.36%; ~₹10,220 Cr (~₹115/share)** | storyboard18 / Bar & Bench | [V-snip] |
+| 17 | VMM promoter path | 76.02 → … → 40.02% [V] | Confirmed: Mar-25 74.55, Jun-25 54.22, Mar-26 40.12, Sep-26 40.02; DII 36.45% | [SC] | [V] |
+| 18 | V2 QIP | ₹399.99 Cr at ₹2,134 [V-snip] | **18,74,414 sh at ₹2,134 = ₹399.9999 Cr, allotted 3-Nov-2025** | [A3] note 14(c) | [V] |
+| 19 | V2 split | 10:1, date unknown | **Record date 26-Mar-2026** (board 3-Feb; ballot 8-Mar) | [A3] note 14(d) | [V] |
+| 20 | V-Mart bonus | ~3:1 [K] | **3:1, record date 23-Jun-2025; 5,95,30,353 shares** | [A4] | [V] |
+| 21 | VMM retail area Mar-26 | ~13.5 [primer] | **13.45 mn sq ft** (Jun-26 13.8; Sep-26 14.1) | [A2]; [T2]; [P2] | [V] |
+| 22 | V2 retail area Mar-26 | ~3.4 [E] | **35 lakh sq ft** | [A3] | [V] |
+| 23 | VMM tiers / regions Sep-26 | E mapping | **T-I 204 / T-II 197 / T-III 443; N 315 / S 237 / E 208 / W 84** | [P2] slide 3 (rendered) | [V] |
+| 24 | DMart category mix | direction FLAG | **Foods 56.90%, FMCG 19.48%, GM&A 23.62% (H1 FY27)** vs 57.01 / 19.65 / 23.34 | [P1] slide 4 (rendered) | [V] |
+| 25 | DMart rent (cash) % revenue | ~0.3% [E] | **0.40%** (₹252.15 Cr leases + ₹13.42 Cr short-term on ₹66,968 Cr) | [A1] lease note | [V-derived] |
+| 26 | VMM rent % revenue | ~5.0% (Q2) [V/E] | **FY26 lease cash ₹689.4 Cr (incl. ₹66.9 Cr short-term) = 5.3%** | [A2] lease note | [V-derived] |
+| 27 | V2 rent % revenue | 5.8% [E] | **~5.8%** (principal ₹96.76 Cr + lease interest ₹76.75 Cr + short-term ₹4.93 Cr = ₹178.4 Cr) | [A3] lease note, cash flow | [V-derived] |
+| 28 | V-Mart rent % revenue | 7.1% (Q1) | **FY26 lease payments ₹277.63 Cr = 7.3%** | [A4] lease note | [V-derived] |
+| 29 | GST on apparel ≤₹2,500 | 5% [V-snip] | **5% ("change in value, no change in rate"); 5% threshold raised from ₹1,000 to ₹2,500; effective 22-Sep-2025** | [G1] | [V] |
+| 30 | GST on apparel >₹2,500 | 18% [V-snip] | **18% (up from 12%)** | [G2] (CRISIL); [G1] lists the rows | [V] |
+| 31 | FMCG GST cuts | [K] | **Soap bars, shampoo, hair oil, toothpaste, toothbrush 18/12% → 5%; namkeen, sauces, pasta, noodles, chocolates, coffee, butter, ghee → 5%; UHT milk, paneer, Indian breads → nil** | [G1] | [V] |
+| 32 | CRISIL GST uplift | +200 bp [V-snip] | **~200 bp; sector growth 13–14% in FY26; premium (>₹2,500) ~35% of organised apparel; operating margin 14.0–14.5%** | [G2] | [V] |
+| 33 | Monsoon 2026 | 87% of LPA [V-snip] | Unchanged: 87% (759.4 mm); South Peninsula 76%; North-East 74%; NW 94.1%; Central 97%. IMD PDF located but blocked (TLS) | mausam.imd.gov.in Salient Features 30-Sep | [V-snip] |
+| 34 | CPI Sep-2026 | 5.54% / food 7.74% [V-snip] | Unchanged; **month = September 2026** (released 12-Oct-2026; 2024 base); Aug 4.83% / 5.97%; rural food 8.06%, urban 7.18% | MoSPI PDF (HTTP 503 to this sandbox) | [V-snip] |
+| 35 | RBI repo | 5.50% after hike 7-Oct-2026 [V-sib] | Unchanged: +25 bp to 5.50%; SDF 5.25%, MSF 5.75%; stance "calibrated tightening"; next MPC 2–4 Dec-2026 | press (5paisa, corplawupdates) | [V-snip] |
+| 36 | DMart price / m-cap | ₹3,158 / ₹2,05,980 Cr [V] | Confirmed; 52-week ₹4,644 / ₹3,102; P/E 66.1 | [SC] | [V] |
+| 37 | DMart ₹3,813 on 1-Oct; PL target ₹3,214 | [V-snip] | Not re-verified | univest / PL note | [V-snip] |
+| 38 | Zudio / Trent count | Trent 1,342 (Sep-26), Zudio 982 [V-snip] | **Zudio 982, Trent fashion 1,312 at Jun-26; Sep-26 not yet published** | [E3] | [V] |
+| 39 | Reliance Retail Q1 FY27 | ₹79,745 Cr; 20,169 stores; 78.4 mn sq ft [V-snip] | **Revenue ₹90,408 Cr (gross); EBITDA ₹6,309 Cr; 20,169 stores; 78.4 mn sq ft** | [E4] | [V] |
+| 40 | DMart FY26 LFL / revenue per sq ft | quarterly only; ~₹35k [E] | **FY26 LFL 8.1%; ₹33,422/sq ft** | [T1]; [A1] p. 11 | [V] |
+| 41 | DMart ex-lease borrowings | ~₹2,100 Cr Mar-26 [E] | **₹965.27 Cr (Mar-26); ₹2,628.66 Cr (Sep-26)** | [T1]; [R1] | [V] |
+| 42 | Group ex-lease net debt | ~₹1,300 Cr Mar-26 [E] | **Net cash ~₹700 Cr (Mar-26); net debt ~₹350–400 Cr (Sep-26)** | [R1], [R2], [A3], [A4] | [V-derived] |
+
+**Count:** **35 of the 42 rows are [V] or [V-derived] from documents fetched this session**: rows 1–13, 17–32, 36 and 38–42. Rows 2, 11, 25–28 and 42 are derived from [V] inputs.
+- **Seven rows remain [V-snip]:** 14, 15, 16, 33, 34, 35 and 37.
+- Rows 15 and 16 (block deals) are consistent across two independent press sources each.
+- **Rows 33–35 (macro):** for each, an official PDF exists and was located, but the government host refused the connection. The secondaries agree to the decimal.
+
+
+## 4.2 Company deep dives (primary documents)
+
+### 4.2.1 Avenue Supermarts (DMart · DMART · 540376)
+
+**Sources:** [T1] annual analyst meet transcript (call 28-Jul-2026), the only management Q&A since FY26 because DMart holds no quarterly calls; Q2 FY27 press release and H1 FY27 deck (10-Oct-2026, already [V] in Part 2); [R1] Q2 results with the Sep-26 balance sheet; [A1] FY26 annual report; [SC].
+
+**A. Management-guidance digest (paraphrased; [T1] unless noted)**
+1. **Store additions.**
+   - The internal benchmark is to add **~15% of the store base a year**: a few points higher or lower in a given year, depending on real-estate timing. On a 500-store base that implies ~75 a year, against 85 (17%) in FY26.
+   - Management would not commit to repeating FY26's ~20% net growth. 100–150 stores a year will come "at some point", not at the current base.
+   - The pipeline holds 2–3 years of projects. Land-to-store takes 2–3 years: longer for double-basement, multi-storey stores.
+   - Only **18 stores were added in H1 FY27** [V deck], so H2 must deliver ~57 to hit ~15%. **Read: FY27 openings are at risk of landing below 15%.**
+2. **Ownership model.**
+   - The company is now "more open" to **long-term leases** where clean land is not available. **68 of ~500 stores are leased; 15 of the 85 FY26 openings were leased** (53 before FY26).
+   - The CFO says lease costs sit below EBITDA under Ind AS 116, so **PBT is the fair comparison**.
+3. **Capex and funding.**
+   - FY26 capex was "upwards of ₹4,000 Cr".
+   - "Actual debt" was ~₹965 Cr at Mar-26: commercial paper ~₹800 Cr, plus a **₹1,000 Cr NCD programme** approved to lock in longer tenor and fixed cost.
+   - **Borrowing could reach ~₹2,000 Cr by FY27-end, all for capex.** By Sep-26 standalone borrowings were already **₹2,628.66 Cr** [R1], above that guide.
+   - FY26 capital commitments: **₹5,238.65 Cr** (₹4,274.09 Cr in FY25) [A1].
+4. **Margins.**
+   - Gross margin "has been broadly 14–15%" for 7–8 years and will stay there. **Long-run net margin ~5%** (FY26 standalone 4.8%).
+   - FY26 standalone: gross margin +16 bp; **employee cost +27 bp**; other expenses −9 bp; EBITDA flat at ~7.85%.
+   - Employee cost rose **~33% in FY26** (standalone), partly the **wage code implemented from Dec-2025** and partly capability-building "ahead of the curve". Management would not say the build is over.
+   - **Q2 FY27 press release:** "wage inflation at entry level has led to a marginal increase in operating expenses" [V Part 2]. Standalone EBITDA margin 7.3% vs 7.6%.
+5. **LFL / same-store.**
+   - FY26 LFL (stores >2 years old) **8.1%**.
+   - Older metro stores in Mumbai and Bengaluru are near **capacity saturation**, and new stores nearby cannibalise them. Management also cites **competition**, including quick commerce for "lower basket sizes".
+   - **SSSG "would possibly be hovering more in the range that we are seeing today"**; no return to double digits expected, all else equal.
+   - Tier-1 and Tier-2 stores opened in the last two years have **SSG "much better than the company average"**.
+   - Quarterly revenue growth swings explained:
+     - Q3 FY26 +13%: staples deflation.
+     - Q4 FY26 +19%: March panic buying.
+     - Q1 FY27 +15%: spill-over of the March buying.
+6. **Quick-commerce commentary.**
+   - Management "suspect[s]" the quick-commerce impact "is not going to change over the next few years".
+   - It will not change its store-location strategy to avoid quick commerce.
+   - FMCG vendors are "doubling down" on DMart, which is the **No. 1 retailer** for several of them.
+   - Brands that scale online (including D2C brands) are pulled into stores.
+   - The bulk monthly basket remains the value proposition. On a ~₹1,600 average bill the saving is "significantly more than 10%".
+7. **DMart Ready.**
+   - The business has been "double down" focused on **11 cities**, which give "the vast majority" of online sales. Three priorities: online-specific assortment, **delivery within ~6 hours (slotted)**, and app user experience.
+   - Management has seen "a lot of erosion in profitability" and says the model must be proven profitable in the 11 cities before any expansion.
+   - **165 pick-up points.** FY26 contract-labour cost +24% and transport +34% (analyst's reading of the annual report, not contested).
+8. **Private label.** FMCG private label follows the "20-20-20" rule: a 20% price advantage, 20% better margin than the benchmark, and a shot at a 20% volume share. There is no push for more shelf space. Garments, general merchandise and DMart-packed staples are not counted as "private label".
+9. **Capability.** CEO priorities: management bandwidth, a modernised technology and data stack, and execution rigour. Five new states were entered in FY26; FY27 focus is density in those states.
+
+**B. KPI table (company basis)**
+
+| KPI | FY23 | FY24 | FY25 | FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 | Source |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Stores (period end) | 324 | 365 | 415 | 500 | 432 | 442 [V-derived: 500 − 58] | 500 | 503 | 518 | deck [V] |
+| Retail area, mn sq ft | 13.39 | 15.15 | 17.20 | 20.58 | 17.9 | 18.3 | 20.6 | 20.7 | 21.4 | [A1] p. 11; deck [V] |
+| Revenue / sq ft (₹, annual or quarterly) | 31,096–32,941 | (FY23/24 order uncertain) | 33,896 | **33,422** | 8,692 (qtr) | 9,290 | 8,395 | 8,571 | 8,741 | [A1]; deck [V] |
+| LFL growth (≥24 months), % | n/a | n/a | n/a | **8.1** | 6.8 | 5.6 | 10.8 | 5.5 | 9.5 | [T1]; deck [V] |
+| Bills, crore | — | — | — | ~40 | 9.7 | 10.3 | 10.1 | 11.0 | 11.1 | [T1]; deck [V] |
+| Days of inventory | 28.8 | 29.2 | 31.4 | 33.2 | — | — | — | — | 36.1 (H1) | deck [V] |
+| Days payable | — | — | — | 7.2 | — | — | — | — | — | [T1] |
+| Standalone borrowings, ₹ Cr (ex-lease) | — | — | — | 965 | — | — | — | — | 2,629 | [T1]; [R1] |
+| Standalone lease liabilities, ₹ Cr | — | 464 | 693 | 1,302 | — | — | — | — | 1,451 | [A1]; [R1] |
+| Standalone inventory, ₹ Cr | — | — | — | 5,630 | — | — | — | — | 7,018 | [A1]; [R1] |
+| DMart Ready cities | — | — | ~24 → 19 | 19 → 11 | 19 | — | — | — | 11 | deck; primer |
+
+**C. Five-year table (₹ Cr)**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | 4-yr CAGR |
+|---|---|---|---|---|---|---|
+| Revenue, consolidated [SC] | 30,976 | 42,840 | 50,789 | 59,358 | 68,821 | 22.1% |
+| Revenue, standalone [A1] | 30,353 | 41,833 | 49,533 | 57,790 | 66,968 | 21.9% |
+| EBITDA/OP, consolidated [SC] | 2,502 | 3,639 | 4,106 | 4,495 | 5,189 | 20.0% |
+| EBITDA, standalone [A1] | 2,502 | 3,659 | 4,099 | 4,543 | 5,255 | 20.4% |
+| EBITDA margin, standalone | 8.2% | 8.7% | 8.3% | 7.9% | 7.8% | |
+| PAT, consolidated [SC] | 1,492 | 2,378* | 2,536 | 2,707 | 2,970 | 18.8% |
+| PAT, standalone [A1] | 1,616 | 2,556* | 2,695 | 2,927 | 3,224 | 18.8% |
+| Consolidated minus standalone PAT (≈ subsidiaries' drag) | −124 | −178 | −159 | −220 | −254 | |
+| of which AEL (DMart Ready) loss [A1] | n/a | n/a | n/a | −247 | −307 | |
+| CFO, consolidated [SC] | 1,372 | 2,630 | 2,746 | 2,463 | 3,467 | |
+| FCF, consolidated [SC] | −1,017 | 424 | 24 | −954 | −646 | |
+| ROCE, consolidated [SC] | 16% | 20% | 19% | 18% | 17% | |
+| Borrowings incl. leases, consolidated [SC] | 647 | 643 | 592 | 820 | 2,425 | |
+
+\*FY23 includes a ₹138.8 Cr one-off tax benefit (trap 10). Margins and CAGRs [V-derived]. **Subsidiary drag rose from ~₹124 Cr (FY22) to ~₹254 Cr (FY26); DMart Ready alone lost ₹307 Cr in FY26** (the profitable Align Retail and Avenue Food Plaza offset part of it).
+
+**D. Eight-quarter table (consolidated, screener [SC]; ₹ Cr)**
+
+| Quarter | Revenue | YoY % | OP | OPM % | PAT | LFL % (co.) | Stores (end) |
+|---|---|---|---|---|---|---|---|
+| Q3 FY25 (Dec-24) | 15,973 | +17.7 | 1,217 | 7.6 | 724 | n/a | n/a |
+| Q4 FY25 (Mar-25) | 14,872 | +16.9 | 955 | 6.4 | 551 | n/a | 415 |
+| Q1 FY26 (Jun-25) | 16,360 | +16.3 | 1,299 | 7.9 | 773 | n/a | n/a |
+| Q2 FY26 (Sep-25) | 16,676 | +15.5 | 1,214 | 7.3 | 685 | 6.8 | 432 |
+| Q3 FY26 (Dec-25) | 18,101 | +13.3 | 1,463 | 8.1 | 856 | 5.6 | 442 |
+| Q4 FY26 (Mar-26) | 17,684 | +18.9 | 1,211 | 6.8 | 656 | 10.8 | 500 |
+| Q1 FY27 (Jun-26) | 18,795 | +14.9 | 1,499 | 8.0 | 860 | 5.5 | 503 |
+| Q2 FY27 (Sep-26) | 19,644 | +17.8 | 1,393 | 7.1 | 743 | 9.5 | 518 |
+
+Read:
+- Interest rose from ₹16 Cr to ₹64 Cr a quarter (Q3 FY25 → Q2 FY27) and depreciation from ₹228 Cr to ₹318 Cr. That is why **Q2 FY27 PBT grew only +8.5%** (₹1,025 Cr vs ₹945 Cr) on +17.8% revenue [SC].
+- The Q4 OPM dip recurs every year (6.4%, 6.8%): new-store pre-opening costs plus a seasonally lower GM&A mix [E].
+
+**E. Annual-report findings (FY26) [A1]**
+- **Subsidiaries (Form AOC-1), FY26 turnover / PAT (₹ Cr):**
+
+| Subsidiary | Turnover | PAT | Note |
+|---|---|---|---|
+| Avenue E-Commerce (DMart Ready; 99.77% held) | **4,093.61** | **−306.53** | — |
+| Align Retail Trades (grocery packing) | 3,871.26 | 46.48 | turnover mostly intra-group |
+| Avenue Food Plaza | 306.90 | 9.39 | FY25 loss −9.66 |
+| Reflect Healthcare & Retail | 25.57 | −4.90 | — |
+| Nahar Seth & Jogani Developers (90%) | 0.83 | 0.74 | — |
+
+  FP Ampere Energy (26%) is not treated as an associate.
+- **Related parties:**
+  - Sales of goods to AEL ₹2,574.39 Cr (₹2,180.89 Cr); investment in AEL ₹350 Cr (₹250 Cr); rent income from AEL ₹40.80 Cr.
+  - Contributions to promoter-linked trusts ~₹57 Cr (CSR).
+  - **No royalty, no brand fee, no material purchases from promoter entities.**
+  - Rent income from promoter-group hotels is ₹1.67 Cr.
+- **Leases (standalone):** lease liabilities ₹692.70 Cr → ₹1,301.95 Cr (additions ₹754.08 Cr). ROU depreciation ₹214.97 Cr; lease interest ₹108.69 Cr; short-term lease expense ₹13.42 Cr; **cash outflow for leases ₹252.15 Cr** (₹202.13 Cr).
+- **Contingent liabilities:** indirect tax ₹261.73 Cr; income tax ₹3.82 Cr; corporate guarantee ₹5.32 Cr; other ₹1.22 Cr; **total ₹272 Cr, ~1% of net worth.** Capital commitments ₹5,238.65 Cr.
+- **Auditor (S R B C & Co LLP): unmodified opinion; two key audit matters.**
+  - (1) **Impairment of the ₹1,488.11 Cr investment in AEL**: "continued losses" over ten years; recoverable value set by an external specialist using comparable-transaction multiples.
+  - (2) **Inventory existence and allowance**: inventory ₹5,630.44 Cr net of a **₹70.08 Cr shrinkage/slow-moving allowance**. **Shrinkage and damage recorded in FY26: ₹275.24 Cr (0.41% of standalone revenue)** [V-derived].
+- **Inventory policy:** physical counts at periodic intervals; the shrinkage allowance is estimated from actual shrinkage rates since the last count [A1 KAM text].
+- **KMP pay:**
+  - The outgoing MD & CEO (Navil Noronha, term ended 31-Jan-2026) earned **147.87× the median employee** (+11.55%). Whole-time director Bhaskaran N earned 136.32×; Group CFO Ramakant Baheti 61.99×.
+  - Median employee pay +14.69% (15,268 full-year employees).
+  - Anshul Asawa: CEO from 1-Feb-2026; MD & CEO from 1-Apr-2026 to 31-Mar-2029.
+  - Chair passes from C. Bhave (completing his second term) to Kalpana Unadkat.
+- **Shareholding:** R.K. Damani 23.0% directly; Bright Star Investments 13.6%; G.S. Damani 5.6% [V-derived from share counts].
+
+### 4.2.2 Vishal Mega Mart (VMM · 544307)
+
+**Sources:**
+- [T2] Q1 FY27 call (23-Jul-2026). The Q2 FY27 call was held 21-Oct-2026; only the audio is on BSE, no transcript yet.
+- Q2 FY27 press release and deck ([P2]; Part 2 [V]).
+- [R2] Q2 results with the Sep-26 balance sheet; [A2] FY26 annual report; [SC].
+
+**A. Management-guidance digest**
+1. **Store additions.**
+   - Guidance is **80–100 large-format stores a year** [T2]. Actuals: FY26 105 gross; H1 FY27 53 gross / 49 net [P2].
+   - **Small-format pilot:** 16 small stores in UP and Haryana (2–3 a quarter). Management sees "almost 3,000" small-format opportunities in towns of 50,000–1 lakh people. Small stores can reach productivity of ₹50–70/sq ft within 1–1.5 years (as transcribed).
+   - First pilot of **"Belong & Co."** (young, urban apparel) opened in Q2 FY27 [Part 2 V].
+2. **SSSG.**
+   - Q1 FY27 **10%**: ~8% more customers and ~3% higher spend by existing customers. Highest-priced fashion grew 13.9% [T2].
+   - Q2 FY27 **5.4%** reported; management says ~9% adjusting for the 18-day festival shift [Part 2 V].
+   - The CEO noted a "strong start to the festivals" (Q2 PR).
+3. **Margins.**
+   - Q1 gross margin 28.7% vs 28.4%, from **lower promotional spend**, with no meaningful price hike. Q2 28.0% vs 28.3% [V].
+   - The gross-margin guide is "quite confident" **if current cost conditions hold**, with an explicit caveat on the **West Asia crisis** [T2].
+   - **Employee cost per sq ft +13% YoY** in Q1 from minimum-wage increases in Haryana, UP, Telangana and Karnataka. The CFO calls it "a structural change" [T2].
+   - Q2 operating EBITDA margin 7.7% vs 8.5%. The Q2 PR cites "renewed inflationary pressures across key raw material categories and an uneven monsoon".
+4. **Inventory.** Closing inventory **~₹1,900 Cr at Jun-26** [T2]; ₹2,316 Cr at Sep-26 (festive build) [R2]; ₹2,017 Cr at Mar-26 [A2].
+   - That is **~79 days of FY26 COGS at Mar-26** and **~87 days on Q2 COGS at Sep-26** [V-derived].
+   - **This closes gap §H8 (company-basis inventory days).**
+5. **Quick commerce / hyperlocal.**
+   - Q1: 767 stores, 520 cities, 1.4 Cr registered users. Q2: 781 stores, 532 cities, 1.52 Cr users.
+   - Hyperlocal is **2–9% of store revenue (target 5%; most stores at ≥5%)**. AOV ~₹800.
+   - **20% of quick-commerce customers had never shopped at a Vishal store.** The own-brand share is higher online than offline [T2].
+6. **Private label (Q1: 75.2% of revenue).**
+   - **Clothing is 100% own brands. General merchandise is ~75% own brands**; only kitchen appliances (own brand Tandem ~50%) and one other category have meaningful third-party share.
+   - **FMCG is ~60% own brands by volume** [T2].
+7. **Ownership and other.**
+   - Foreign holding is ~20%. The company is proactively **capping foreign ownership at 49.99%** to remain "Indian-owned and controlled" [T2]. This matters for future FII buying of PE paper.
+   - **RFID roll-out** across stores will take slightly over a year; a full clothing stock count then takes 4–5 hours, enabling weekly counts [T2].
+   - Merchandising leadership change: "Manoj" (10+ years) left, replaced by "Sashi"; no change to the org structure [T2].
+8. **Loyalty.** 17.5 Cr registered members (Jun-26) contributing ~95% of revenue [T2]; 18.1 Cr in the Q2 PR.
+
+**B. KPI table**
+
+| KPI | FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 / FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|---|
+| Stores (end) | 696 | 717 | 742 | 771 | 795 | 819 | 844 |
+| Gross / net adds | — | 23 / 21 | 28 / 25 | 29 / 29 | 25 / 24 (FY 105 / 99) | 27 / 24 | 26 / 25 |
+| Cities | — | — | — | — | 535 | 559 | 582 |
+| Retail area, mn sq ft | — | — | — | — | **13.45** | 13.8 | 14.1 |
+| SSSG % (≥15 months) | — | — | — | — | Q4 13.2 [primer] | **10** | 5.4 (adj. ~9) |
+| Gross margin % | — | 28.4 | 28.3 | — | — | 28.7 | 28.0 |
+| Operating EBITDA margin % (pre-Ind AS, pre-ESOP) | — | 10.3 | 8.5 | — | FY 10.2 | 10.4 | 7.7 |
+| Own brands % of revenue | 73.1 | — | — | — | 74.1 | 75.2 | 72.5 |
+| Inventory, ₹ Cr | 1,850 | — | — | — | 2,017 | ~1,900 | 2,316 |
+
+[V] from [P2], [T2], [A2], [R2], Part 2. Q1 FY26 gross/net adds from Part 2.
+
+**C. Five-year table (consolidated, ₹ Cr) [SC], plus company operating EBITDA [A2]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | 4-yr CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 5,589 | 7,586 | 8,912 | 10,716 | 12,906 | 23.3% |
+| OP (reported EBITDA, post-Ind AS) | 826 | 1,044 | 1,276 | 1,564 | 1,918 | 23.4% |
+| OPM % | 14.8 | 13.8 | 14.3 | 14.6 | 14.9 | |
+| Operating EBITDA (pre-Ind AS, pre-ESOP) [A2] | — | — | — | ~1,034 [V-derived: ₹1,321 Cr ÷ 1.278] | **1,321 (10.2%)** | |
+| PAT | 203 | 321 | 462 | 632 | 839 | 42.6% |
+| CFO | 657 | 636 | 830 | 1,399 | 1,621 | |
+| FCF | 500 | 417 | 583 | 1,138 | 1,299 | |
+| Inventory days (screener) | 111 | 98 | 83 | 88 | 80 | |
+| ROCE % | 8 | 9 | 11 | 14 | 15 | |
+| Lease liabilities (≈ screener borrowings) | 1,790 | 1,462 | 1,483 | 1,729 | 1,988 | |
+
+**D. Eight-quarter table (consolidated [SC]; ₹ Cr)**
+
+| Quarter | Revenue | YoY % | OP | OPM % | PAT | Stores |
+|---|---|---|---|---|---|---|
+| Q3 FY25 | 3,136 | +19.5 | 505 | 16.1 | 263 | n/a |
+| Q4 FY25 | 2,548 | +23.2 | 357 | 14.0 | 115 | 696 |
+| Q1 FY26 | 3,140 | +21.0 | 459 | 14.6 | 206 | 717 |
+| Q2 FY26 | 2,981 | +22.4 | 395 | 13.3 | 152 | 742 |
+| Q3 FY26 | 3,670 | +17.0 | 605 | 16.5 | 313 | 771 |
+| Q4 FY26 | 3,114 | +22.2 | 425 | 13.6 | 168 | 795 |
+| Q1 FY27 | 3,727 | +18.7 | 545 | 14.6 | 259 | 819 |
+| Q2 FY27 | 3,399 | +14.0 | 412 | 12.1 | 158 | 844 |
+
+Read: **Q2 FY26 (+22.4%) was inflated, and Q3 FY26 (+17.0%) deflated, by the 2025 festival calendar** (Navratri began 22-Sep-2025), the mirror image of 2026. **Q3 FY27 therefore laps a soft base** [E].
+
+**E. Annual-report findings (FY26) [A2]**
+- **MD&A industry data:** Redseer (Mar-2025); see S1/S2 and §4.3.
+- **Single segment** ("trading of wholesale and retail sales"); the group also does contract manufacturing. All revenue is from India.
+- **Leases:**
+  - Lease liabilities ₹1,729.38 Cr → ₹1,987.98 Cr (new leases ₹711.45 Cr; principal paid ₹452.86 Cr; interest ₹169.73 Cr).
+  - **Total lease cash outflow ₹689.44 Cr** (₹608.26 Cr), including ₹66.85 Cr short-term.
+  - 911 leased ROU assets (stores, warehouses, offices); average remaining lease term 3.4–6.2 years.
+  - **No bank borrowings outstanding** (cash-credit limits at 7.25–8.50%).
+- **Contingent liabilities ₹127.0 Cr** (₹86.7 Cr): income tax ₹13.08 Cr, indirect tax ₹18.12 Cr, "other matters" ₹95.82 Cr. Capital commitments ₹33.3 Cr: a light-capex, leased model.
+- **Related parties:**
+  - Transportation charges **₹72.10 Cr** (₹60.92 Cr) and warehousing charges **₹31.17 Cr** (₹26.01 Cr) are paid to the party in the "entity exercising significant influence" column. **The text layer places "Samayat Services LLP" (the PE promoter) on these rows, which is unusual for a holding LLP. Writer: verify on the PDF page before printing; it may be a layout artefact.**
+  - Legal/professional fees to Rishay Services LLP ₹2.99 Cr and Rishanth Services LLP ₹4.34 Cr (entities exercising control over the group).
+- **KMP pay:** Gunender Kapur (MD & CEO) **₹30.26 Cr** (₹35.08 Cr in FY25); CFO Amit Gupta ₹5.68 Cr (₹7.06 Cr).
+- **Auditor (Walker Chandiok & Co LLP): unmodified opinion; key audit matters:**
+  - (1) existence and valuation of inventories (multi-location, weighted-average cost, lower of cost and NRV);
+  - (2) **goodwill ₹4,283.6 Cr = 37.4% of total assets**, from the 2018 PE acquisition, tested on comparable-company multiples. A sustained de-rating of value-retail multiples feeds directly into this test [E].
+  - Audit fee ₹1.29 Cr.
+- **Other expenses FY26:** ₹1,056.1 Cr in total, including transportation ₹256.3 Cr (2.0% of revenue), security ₹87.7 Cr, advertising ₹68.4 Cr (0.5%), manpower ₹57.5 Cr, housekeeping ₹50.4 Cr.
+- **Inventory:** traded goods ₹2,009.7 Cr (incl. ₹160.9 Cr in transit) vs ₹1,843.5 Cr.
+
+### 4.2.3 V2 Retail (V2RETAIL · 532867)
+
+**Sources:** [T3] Q1 FY27 call (14-Aug-2026); Q1 FY27 deck and Q2 FY27 business update (Part 2 [V]); [A3] FY26 annual report; [SC]. Q2 FY27 results are due on 3-Nov-2026.
+
+**A. Management-guidance digest ([T3]; CEO Akash Agarwal)**
+1. **Store additions.**
+   - **170–200 openings in FY27, "on track"**: 106 opened in H1 (Q1 57, Q2 49); 427 stores at Sep-26.
+   - MOUs are signed for the next 100 stores; 15–20 sites are finalised a month; the company is in 26 states.
+   - Stores are mostly **stand-alone buildings of 10,000–12,000 sq ft**, not malls. Some Tier-1 presence (11 stores in Delhi NCR; Bengaluru).
+   - Ambition: **~50% CAGR for 2–3 years**, long-term ≥2,500 stores (AR letter).
+2. **Revenue and SSSG.**
+   - FY27 revenue growth guidance **"at least 50%"**; **SSSG guide 8–10%**.
+   - Q1 SSSG ~7.5% and volume growth 56%. Full-price sell-through slipped to 90% from 92%, attributed to a **30-day Adhik Maas** and fewer wedding dates.
+   - New stores' SSSG was ~2.3 pp higher than old stores' in Q1.
+   - **Q2 and Q3 must be read together** (festival shift). Q2 update: calendar SSSG −14.9%, festival-normalised +0.5% [Part 2 V].
+3. **Gross margin and pricing.**
+   - **GM guide 29–30%** (range 28–30%, sell-through dependent).
+   - Garment input costs are **up 4–5%; MRPs to rise 4–5% in Q3** to hold gross margin.
+4. **Unit economics.**
+   - **Capex per store ₹1.2–1.22 Cr** (from ₹1.1 Cr, ~10% inflation).
+   - **Payback 2.5–3 years.**
+   - **Productivity by cohort:**
+     - **Mature stores (>2 years):** ~₹1,070–1,100/sq ft/month, up from ~₹650 three years ago.
+     - **New-store cohort:** ~₹730–740, ~34% below mature.
+     - **Best stores:** ₹1,600–1,700, with 18–20% SSSG, mostly in Tier-2/3 towns.
+     - **Laggards:** ~10–12 stores below ₹600.
+   - About 260–270 stores were opened in the last two years (117 at Mar-24).
+5. **Working capital.**
+   - Targets: **inventory 90–100 days, creditors 45–50 days, net working capital 50–55 days**. Normalisation should **release ₹150–200 Cr** of cash.
+   - Each store needs inventory ~2 months before opening. With ~50–55 openings a quarter, ~₹100–150 Cr of pre-opening stock sits on the balance sheet.
+   - Replenishment is faster now: 2–3 days of cover sent to stores vs 10–12 earlier.
+6. **Leases.** Typical **9–11-year leases with 12–15% escalation every 3 years**.
+7. **Customer.** Customers returning within the first year rose from ~40% to ~55% over three years. An analyst flagged weak Google ratings (~3.6 vs 4.1–4.2 at peers, mostly staff-behaviour complaints). Management is piloting an NPS programme.
+8. **Festive.** Management declined to give early festive signals; it framed the Q2–Q3 combination as the true read.
+
+**B. KPI table**
+
+| KPI | FY24 | FY25 | FY26 | Q1 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|
+| Stores (end) | 117 [T3] / ~120 [primer] | 189 (AR implies 192) | 325 | — | 381 | 427 |
+| Openings / closures | — | — | 136 / 3 [A3] | — | 57 / 1 | 49 / 3 |
+| Retail area, lakh sq ft | — | — | **35** [A3] | — | 40.7 | 46.28 |
+| SSSG % | — | — | ~8.6 [primer] | — | ~7.5 | −14.9 cal. / +0.5 norm. |
+| Sales/sq ft/month, ₹ | — | — | 925 | 960 | 886 | 700 |
+| Gross margin % | 30 | 29 | 30.2 | 29.4–29.5 | 28.6 | — |
+| Pre-Ind AS EBITDA, ₹ Cr (%) | — | 151.2 (8.0) | 277.4 (9.0) | — (8.3) | 79.4 (8.0) | — |
+| Full-price sales % | — | — | — | 92 | 90 | — |
+| NWC days (co.) | — | — | 81 | — | 74 | — |
+
+[V] from [T3], [A3] and the Part 2 decks.
+
+**C. Five-year table (consolidated [SC]; company EBITDA from the Q1 FY27 deck [V Part 2])**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | 4-yr CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 629 | 839 | 1,165 | 1,884 | 3,067 | 48.6% |
+| OP (screener) | 67 | 85 | 149 | 260 | 472 | 62.9% |
+| EBITDA (company, post-Ind AS) | 65 | 84 | 148 | 258 | 455.5 | 62.7% |
+| PAT (reported) | −12 | −13 | 28 | 72 | 162 | n.m. |
+| PAT ex-exceptional | −12 | −13 | 28 | 72 | **141.4** [A3-derived] | n.m. |
+| CFO | 59 | 86 | 93 | 201 | −103 | |
+| Inventory days (screener) | 264 | 184 | 199 | 159 | 195 | |
+| ROCE % | 4 | 4 | 11 | 17 | 19 | |
+| Borrowings incl. leases | 398 | 424 | 525 | 871 | 995 | |
+
+**D. Eight-quarter table (consolidated [SC], except Q2 FY27 = standalone company update; ₹ Cr)**
+
+| Quarter | Revenue | YoY % | OP | OPM % | PAT | Stores (end) |
+|---|---|---|---|---|---|---|
+| Q3 FY25 | 591 | +58.0 | 111 | 18.8 | 51 | n/a |
+| Q4 FY25 | 499 | +68.6 | 58 | 11.6 | 6 | 189 |
+| Q1 FY26 | 632 | +52.3 | 87 | 13.8 | 25 | n/a |
+| Q2 FY26 | 709 (SA 705) | +86.6 | 85 | 12.0 | 17 | n/a |
+| Q3 FY26 | 929 | +57.2 | 174 | 18.7 | 103* | n/a |
+| Q4 FY26 | 797 | +59.7 | 109 | 13.7 | 18 | 325 |
+| Q1 FY27 | 997 | +57.8 | 139 | 13.9 | 42 | 381 |
+| Q2 FY27 | **905 (SA)** | **+28.4** (vs SA 705) | results 3-Nov | — | — | 427 |
+
+\*Q3 FY26 other income of ₹32 Cr includes the ₹27.7 Cr exceptional lease-reassessment gain booked from 1-Oct-2025 [A3; SC].
+
+Read:
+- **Q2 FY26 was +86.6%**, swollen by the 2025 festival calendar. That base is why Q2 FY27 shows only +28.4% on a store base up ~1.8–1.9×.
+- Quarterly depreciation **fell from ₹67 Cr (Q4 FY26) to ₹64 Cr (Q1 FY27) despite ~56 net new stores**: the 1-Oct-2025 lease-term reassessment cut ROU assets by ₹484 Cr. **Post-Ind AS profit is flattered** relative to the pre-Ind AS view. Watch pre-Ind AS margins.
+- **Resolves §H16:** the ₹705 Cr (standalone) and ₹709 Cr (consolidated) Q2 FY26 bases are both correct on their own basis. The +28.4% is standalone vs standalone.
+
+**E. Annual-report findings (FY26) [A3]**
+- **Capital actions:**
+  - QIP allotted 3-Nov-2025: 18,74,414 shares at ₹2,134 = ₹399.9999 Cr; ~₹135 Cr repaid debt, ~₹165 Cr for expansion and capability.
+  - **Split ₹10 → ₹1, record date 26-Mar-2026**; EPS restated.
+  - Major holders: Ricon Commodities 35.28%; R.C. Agarwal 5.17%.
+- **Exceptional item:**
+  - Consolidated ₹27.69 Cr gain from re-estimating store lease terms "to better align with the period over which management reasonably expects to continue the stores". ROU −₹483.94 Cr, lease liabilities −₹499.21 Cr (1-Oct-2025); tax ₹6.97 Cr.
+  - Standalone also books a ₹9.55 Cr impairment of investment in a subsidiary (cost above net worth).
+  - **This is a judgement-driven gain. Exclude it from underlying profit.**
+- **Leases:** 347 store leases (remaining 0.2–12.6 years; average 6.41 years) plus 2 warehouses. ROU amortisation ₹133.67 Cr; lease interest ₹76.75 Cr; short-term rent ₹4.93 Cr; principal repaid ₹96.76 Cr.
+- **Contingent liabilities ~₹30.2 Cr:** claims not acknowledged ₹15.89 Cr; sales tax ₹10.96 Cr; service tax ₹3.02 Cr; income tax ₹0.37 Cr.
+- **Inventory:**
+  - Old-stock provision **₹48.18 Cr** (₹19.70 Cr), i.e. 2.4× higher on a 2× larger inventory.
+  - A **prior-year barcode-damage mismatch** (items re-barcoded or bulk-scrapped) was "appropriately adjusted" against a ₹22.15 Cr provision built in earlier years.
+  - Key audit matter on inventory existence (cyclical counts; auditor used alternative procedures and its own test counts).
+- **Emphasis of matter (auditor):** a **₹12.88 Cr advertising advance to Bennett, Coleman & Co, outstanding since Apr-2019**, is treated as good because the contract has been extended six times, to 7-Jul-2026. **A small but persistent governance flag.**
+- **KMP pay:**
+  - **Chairman & MD R.C. Agarwal and WTD Uma Agarwal draw no remuneration.**
+  - Akash Agarwal (WTD & CEO from 27-May-2025) earns 34× the median.
+  - Secretarial auditor: Don Banthia & Associates.
+- **Leverage:** adjusted net debt to equity 27.41% (35.12%); equity ₹902.3 Cr.
+
+### 4.2.4 V-Mart Retail (VMART · 534976; incl. Unlimited and LimeRoad)
+
+**Sources:** [T4] Q1 FY27 call (27-Jul-2026); Q1 FY27 deck and Q2 FY27 update (Part 2 [V]); [A4] FY26 annual report; [SC]. Q2 FY27 results are due on 3-Nov-2026.
+
+**A. Management-guidance digest ([T4]; MD Lalit Agarwal; CFO & COO Anand Agarwal)**
+1. **Store additions.**
+   - **90+ gross openings in FY27; 8–10 closures likely.** H1: 38 opened, 2 closed (Q1 15/1; Q2 23/1).
+   - Management wants to **accelerate Unlimited (South)**, which "looks a little more attractive". Its Q1 revenue was +33%, EBITDA +40%, sales/sq ft ₹710/month (+18%).
+   - Q1 capex ₹38 Cr; pre-Ind AS FCF +₹76 Cr.
+2. **SSSG and demand.**
+   - Q1 SSSG 9% (V-Mart 8%, Unlimited 13%); footfall +39%, memos +18%, apparel ASP +2%.
+   - **Conversion fell from the mid-40s% to ~38–39%.** Management blames more competition and comparison-shopping (customers visit, compare nearby options and come back), plus some past counting errors.
+   - **Q2 guided negative** because Durga Puja shifted 19 days into Q3; "good festive-to-festive growth" expected in Q3. Q2 update: SSSG 3%, festival-adjusted 11% [Part 2 V].
+3. **Costs and pricing.**
+   - **Raw-material inflation ~10%; ~80% of purchases are crude-linked** (polyester, synthetics), tied to the Middle East situation.
+   - Mitigation: vendor efficiency, yarn-mix changes and partial pass-through, with a **0.5–0.75 pp gross-margin sacrifice**.
+   - **ASP increase capped at 3–5%**, of which 2–2.5% is inflation and the rest mix. Management recalled FY23, when price rises drove customers away.
+   - Rupee gross margin matters more than percentage gross margin.
+4. **Gross margin.** Q1 34.5%, −80 bp, from mix plus a higher aged-inventory provision (a "10–15-year-old consistent policy"); the provision benefit should come through as old stock clears.
+5. **Inventory.** 86 days of sales (−8%); inventory per store ~₹1.5 Cr (−5%).
+6. **Wages.** Minimum-wage increases: two of three months already in the Q1 wage bill; **the Karnataka hike is under a court stay**; vendor exposure to Karnataka <5%. **95–98% of costs are fixed**, so **3–4% SSSG is enough to absorb normal inflation.**
+7. **People.**
+   - The COO (Vineet) left; Anand Agarwal (CFO) was elevated to **CFO & COO** (Q1 call).
+   - **President-Merchandising resigned effective 9-Oct-2026** (Part 2 [V]). **Two senior exits within ~3 months, both before the festive quarter.**
+
+**B. KPI table**
+
+| KPI | FY25 | FY26 | Q1 FY26 | Q2 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|
+| Stores (end) | 497 | 577 | — | — | 591 (V-Mart 490, Unlimited 101) | 613 |
+| Area, mn sq ft | 4.3 | 5.0 | — | — | 5.1 | n/d |
+| SSSG % | — | mid-to-high single digit | — | — | 9 (8 / 13) | 3 (2 / 11); adj. 11 |
+| Gross margin % | — | — | 35.3 | — | 34.5 | — |
+| Pre-Ind AS EBITDA % | 4.4 [V-derived] | **6.2** [V-derived] | 6.9 | — | 7.6 | — |
+| Lease payments, ₹ Cr | 234.7 | 277.6 | 64.9 | — | 77.4 | — |
+| Inventory days of sales | — | — | 93 | — | 86 | — |
+| Aged-stock + shrinkage provision, % of sales | — | — | 1.3 | — | 0.7 | — |
+| LimeRoad EBITDA, ₹ Cr | — | — | −4.6 | — | −2.8 | — |
+
+**C. Five-year table (standalone = whole company [SC]; company EBITDA and lease payments [A4]/deck)**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | 4-yr CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 1,666 | 2,465 | 2,786 | 3,254 | 3,789 | 22.8% |
+| OP (post-Ind AS) | 204 | 269 | 215 | 380 | 514 | 26.0% |
+| OPM % | 12.2 | 10.9 | 7.7 | 11.7 | 13.6 | |
+| Pre-Ind AS EBITDA (OP − lease payments) | — | — | — | ~142 (4.4%) | ~236 (6.2%) | |
+| PAT | 12 | −8 | −97 | 46 | 124 | n.m. |
+| EPS ₹ (bonus-adjusted) | 1.47 | −0.99 | −12.23 | 5.78 | 15.61 | |
+| CFO | −11 | 177 | 386 | 349 | 501 | |
+| FCF | −161 | −101 | 263 | 225 | 337 | |
+| Inventory days (screener) | 224 | 199 | 163 | 169 | 145 | |
+| ROCE % | 5 | 5 | 1 | 8 | 13 | |
+| Borrowings incl. leases | 902 | 1,332 | 1,391 | 783 | 958 | |
+
+Note: lease-inclusive borrowings fell from ₹1,391 Cr to ₹783 Cr in FY25, and quarterly interest from ~₹42 Cr to ₹17 Cr from Q4 FY25 [SC]. Both are consistent with bank-debt repayment plus a lease re-measurement in Q4 FY25 [E; not traced to a note this session].
+
+**D. Eight-quarter table ([SC]; Q2 FY27 = company update; ₹ Cr)**
+
+| Quarter | Revenue | YoY % | OP | OPM % | PAT | Stores (end) |
+|---|---|---|---|---|---|---|
+| Q3 FY25 | 1,027 | +15.5 | 171 | 16.7 | 72 | n/a |
+| Q4 FY25 | 780 | +16.6 | 68 | 8.7 | 19 | 497 |
+| Q1 FY26 | 885 | +12.6 | 126 | 14.2 | 34 | n/a |
+| Q2 FY26 | 807 | +22.1 | 72 | 8.9 | −9 | n/a |
+| Q3 FY26 | 1,126 | **+9.6** | 210 | 18.7 | 88 | n/a |
+| Q4 FY26 | 971 | +24.5 | 106 | 10.9 | 11 | 577 |
+| Q1 FY27 | 1,089 | +23.1 | 161 | 14.8 | 47 | 591 |
+| Q2 FY27 | 953 | +18.1 | results 3-Nov | — | — | 613 |
+
+Read: **Q3 FY26 grew only +9.6%** because the 2025 festivals fell partly in Q2 FY26 (+22.1%). Q3 FY27 therefore laps the weakest base of the last eight quarters. Expect a headline jump that overstates the underlying trend.
+
+**E. Annual-report findings (FY26) [A4]**
+- **Bonus 3:1:** record date 23-Jun-2025; 5,95,30,353 shares allotted 24-Jun-2025; ₹59.53 Cr capitalised from securities premium; paid-up capital ₹79.37 Cr; authorised capital raised to ₹95 Cr.
+- **Leases:**
+  - Lease liabilities ₹633.55 Cr → ₹857.58 Cr; **lease payments ₹277.63 Cr** (₹234.73 Cr).
+  - Undiscounted maturities ₹1,001 Cr (₹293 Cr within one year).
+  - Short-term treatment applies to expired leases under renewal discussion.
+- **Contingent liabilities: only ~₹6.70 Cr**, mostly income-tax penalties (e.g. ₹3.04 Cr under section 271).
+- **Auditor key audit matter:** inventory valuation with markdown/shrinkage. Carrying value **₹987.53 Cr after a ₹72.64 Cr provision for slow-moving, obsolete stock and shrinkage**. The shrinkage provision applies an estimated rate to stock since the last physical count.
+- **KMP pay ratios to median:**
+  - **MD Lalit Agarwal 267× (+64%)**; WTD Madan Gopal Agarwal 69× (+72%); CFO 202× (+17%); non-executive chairman 27× (+164%).
+  - Independent directors' pay rose 130–180%.
+  - Median employee pay ~₹1.46 lakh (+14%); 11,691 employees.
+  - **Pay growth for executives (64–72%) far outran PAT growth** in a turnaround year (PAT ₹46 Cr → ₹124 Cr). Defensible on recovery, but a governance talking point.
+- **Related parties:** the RPT note was not read in detail this session. No royalty or brand-fee arrangement is known [K]; promoter-family remuneration is as above [A4].
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**4.3.1 Indian retail market (Redseer, Mar-2025, quoted in VMM AR FY26 pp. 56–58) [V]**
+
+| Segment | CY2023 | CY2028 (projected) | CAGR CY23–28 |
+|---|---|---|---|
+| Total Indian retail | ~₹75–81 trn [V-derived] | **₹116–124 trn** | ~9% |
+| "Aspirational retail" TAM | **₹68–72 trn** | **₹104–112 trn** | ~9% |
+| Organised retail | **₹14.9 trn** (~19% of total [V-derived]) | **₹36–38 trn** (~30% [V-derived]) | ~20% |
+| Staples & FMCG | ₹28 trn | ₹42 trn | 9% |
+| Apparel | ₹6 trn | ₹10 trn | 10% |
+| General merchandise | ₹3 trn | ₹6 trn | 14% |
+
+- Organised retail in **Tier-II/III cities is expected to grow ~32% a year** (CY23–28). **Tier-I is still ~50–55% unorganised.**
+- India's middle-income segment reaches 246 mn households by 2028 (+21 mn).
+- Unit: ₹ trn = ₹ lakh Cr.
+- **Attribute as "Redseer, cited in Vishal Mega Mart's FY26 annual report".**
+
+**4.3.2 Quick commerce, quarterly (₹ Cr) [V: E1, E2]**
+
+| | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|
+| Blinkit NOV | 11,679 | 13,300 | 14,386 | 17,132 | **20,940** |
+| Blinkit NOV YoY % | 137.0 | 120.9 | 95.4 | 86.2 | 79.3 |
+| Blinkit revenue (1P-inflated) | 9,891 | 12,256 | 13,232 | 15,664 | 19,152 |
+| Blinkit gross profit (% of NOV) | 3,132 (26.8) | 3,539 (26.6) | 3,867 (26.9) | 4,710 (27.5) | 5,760 (27.5) |
+| Blinkit adjusted EBITDA (% of NOV) | −156 (−1.3) | 4 (0.0) | 37 (0.3) | 102 (0.6) | **184 (0.9)** |
+| Blinkit stores (end) | 1,816 | 2,027 | 2,243 | 2,443 | **2,751** |
+| Blinkit orders (mn) / NAOV (₹) | 222.7 / 524 | 243.3 / 547 | 273.9 / 525 | 331.0 / 518 | 398.9 / 525 |
+| Blinkit avg NOV per store per day (₹ '000) | 771 | 750 | 768 | 827 | 902 |
+| Blinkit monthly transacting customers (mn) | 20.8 | 23.6 | 27.2 | 31.8 | 37.0 |
+| Instamart GOV | ~7,024 [V-derived from +31.4% YoY] | — | — | ~7,909 | **9,230** |
+| Instamart adjusted EBITDA | −849 | −908 | −858 | −778 | −895 |
+| Instamart dark stores (end) | 1,102 | 1,136 | 1,143 | 1,171 | **1,240** |
+| Instamart orders per store per day | 1,025 | 1,034 | 1,093 | 1,089 | 1,192 |
+| Instamart dark-store area (mn sq ft) | 4.59 | 4.79 | 4.81 | 4.92 | 5.21 |
+| Instamart GOV per sq ft (quarter, ₹) | 15,287 | 16,571 | 16,391 | 16,056 | 17,730 |
+| **DMart revenue per sq ft (quarter, ₹)** | 8,692 | 9,290 | 8,395 | 8,571 | 8,741 |
+
+**Key comparisons [V-derived]:**
+- **An Instamart dark store turns over ~2.0× DMart's revenue per sq ft:** ₹17,730 vs ₹8,741 a quarter, i.e. ~₹70.9k vs ~₹35k a year (GOV incl. discounts vs net revenue, so read directionally).
+- **A Blinkit store averages ~₹33 Cr NOV a year** (₹9.02 lakh/day × 365) vs ~₹139 Cr revenue for a DMart store, so roughly 4 Blinkit stores per DMart store in throughput.
+- **Blinkit plans ~750 net stores in H2 FY27** (2,751 → >3,500).
+
+**4.3.3 Rent (lease cash) as % of revenue, FY26 [V-derived from ARs]**
+
+| Company | Lease cash outflow (incl. short-term), ₹ Cr | Revenue, ₹ Cr | % | Leased store base |
+|---|---|---|---|---|
+| DMart (standalone) | 265.6 (252.15 + 13.42) | 66,968 | **0.40%** | 68 of 500 stores leased |
+| VMM (consolidated) | 689.4 | 12,906 | **5.34%** | 911 leased ROU assets (stores + DCs + offices) |
+| V2 (consolidated) | ~178.4 (96.76 + 76.75 + 4.93) | 3,067 | **5.8%** | 347 store leases |
+| V-Mart | 277.6 (+ short-term in opex) | 3,789 | **7.3%** | all leased (DC Palwal owned) |
+
+**4.3.4 Group pre-Ind AS (rent-paid) EBITDA, FY26 [V-derived]:** screener OP ₹8,093 Cr − lease cash (VMM ₹622 Cr ex short-term, V2 ₹173.5 Cr, V-Mart ₹277.6 Cr, DMart ₹252.2 Cr) = **₹6,768 Cr = 7.6% of ₹88,583 Cr** (Part 1 §C.5 said ~7.8%).
+
+**4.3.5 Shrinkage / inventory provisions, FY26 [V]**
+
+| Company | Inventory (net) | Provision for slow-moving / shrinkage | Other |
+|---|---|---|---|
+| DMart (SA) | ₹5,630.44 Cr | ₹70.08 Cr | shrinkage & damage recorded in FY26 ₹275.24 Cr (0.41% of revenue) |
+| VMM | ₹2,009.7 Cr (traded goods) | not separately disclosed in text read | KAM on existence/valuation |
+| V2 | ₹1,142 Cr | ₹48.18 Cr (₹19.70 Cr) | barcode mismatch adjusted against ₹22.15 Cr provision |
+| V-Mart | ₹987.53 Cr | ₹72.64 Cr | Q1 FY27 aged-stock + shrinkage provision 0.7% of sales |
+
+**4.3.6 Contingent liabilities and governance markers, FY26 [V]**
+
+| | Contingent liabilities | Auditor | Key audit matters | Top executive pay | Notable |
+|---|---|---|---|---|---|
+| DMart | ₹272 Cr (mostly indirect tax) | S R B C & Co | AEL investment impairment; inventory | Ex-MD 147.87× median | Capital commitments ₹5,239 Cr |
+| VMM | ₹127 Cr | Walker Chandiok | inventory; goodwill ₹4,284 Cr (37% of assets) | MD ₹30.26 Cr | RPT transport/warehousing ₹103 Cr (counterparty to verify) |
+| V2 | ~₹30 Cr | (statutory auditor not captured) | inventory | promoters draw nil; CEO 34× | Emphasis of matter: BCCL advance ₹12.88 Cr since 2019 |
+| V-Mart | ~₹6.7 Cr | (not captured) | inventory markdown/shrinkage | MD 267× (+64%) | two senior exits Jul–Oct 2026 |
+
+**4.3.7 Policy datasets [V: G1, G2]**
+- **GST 2.0, goods, effective 22-Sep-2025:**
+  - Apparel and made-ups **≤₹2,500/piece: 5%** (threshold was ₹1,000; ₹1,000–2,500 was 12%).
+  - **>₹2,500: 18%** (was 12%).
+  - Footwear ≤₹2,500/pair: 5%.
+  - Synthetic fibre and yarn: 5%.
+  - Soap bars, shampoo, hair oil, toothpaste, toothbrush: 18/12% → 5%.
+  - Most packaged foods (namkeen, sauces, pasta, noodles, chocolate, coffee, butter, ghee): 12/18% → 5%.
+  - UHT milk, paneer, Indian breads: 5% → nil.
+  - TVs and ACs: 28% → 18%.
+- **CRISIL (20-Oct-2025):** organised apparel retail +13–14% in FY26 (second year running) with ~200 bp from GST. Value/fast-fashion plus mid-premium (<₹2,500) ≈ 65% of sector revenue; premium ≈ 35%. Sector operating margin 14.0–14.5%. Sample: 40 retailers, ~⅓ of sector revenue.
+
+**4.3.8 Rival footprints (latest primary) [V]**
+
+| Rival | Date | Stores | Area | Revenue / order value | Profit |
+|---|---|---|---|---|---|
+| Reliance Retail | Q1 FY27 | 20,169 | 78.4 mn sq ft | ₹90,408 Cr (gross, +12%) | EBITDA ₹6,309 Cr (7.9%) |
+| Trent (fashion) | Jun-26 | 1,312 (Westside 301, Zudio 982, other 29); Star 86 | >18 mn sq ft | — | — |
+| Blinkit | Sep-26 | 2,751 | — | NOV ₹20,940 Cr/qtr | adj. EBITDA ₹184 Cr |
+| Instamart | Sep-26 | 1,240 | 5.21 mn sq ft | GOV ₹9,230 Cr/qtr | adj. EBITDA −₹895 Cr |
+| Zepto | Mar-26 | 1,139 [V-snip] | — | FY26 revenue ₹22,624 Cr [V-snip] | loss ₹5,905 Cr [V-snip] |
+
+## 4.4 Gap log (every §H item, plus the "verify" list)
+
+| §H # | Item | Status | Source / what was tried |
+|---|---|---|---|
+| 1 | India retail size and organised share | **FILLED** | Redseer via VMM AR FY26 (rendered p. 57); see S1, §4.3.1. Organised % is derived (no explicit % in source). |
+| 2 | DMart Ready revenue and loss | **FILLED** | AOC-1: revenue ₹4,093.61 Cr; loss ₹306.53 Cr (FY25 ₹247.37 Cr). H1 FY27 AEL figure not separately disclosed; consolidated-minus-standalone PAT −₹136 Cr is the proxy. |
+| 3 | Blinkit FY26 revenue / GOV | **FILLED** | Eternal Q2 FY27 letter annexure: FY26 revenue ≈ ₹37,780 Cr; NOV ≈ ₹48,570 Cr [V-derived]. |
+| 4 | VMM block-deal values and prices | **PARTLY FILLED** | Feb-26: ₹117 avg, ₹7,636 Cr; Jun-25: ~19.36%, ~₹10,220 Cr (press quoting exchange data). BSE block-deal pages blocked (Akamai), so exchange record not fetched directly. |
+| 5 | V2 split date / QIP | **FILLED** | V2 AR notes 14(c)/(d): QIP 3-Nov-2025 at ₹2,134; split record date 26-Mar-2026. |
+| 6 | V-Mart bonus | **FILLED** | V-Mart AR: 3:1, record date 23-Jun-2025. |
+| 7 | VMM and V2 area at Mar-26; V-Mart Sep-26 area | **FILLED / OPEN** | VMM 13.45 mn sq ft; V2 35 lakh sq ft [V]. **V-Mart Sep-26 area still not disclosed** (Q2 update gave stores only); use ~5.3 mn sq ft [E]. |
+| 8 | VMM revenue/sq ft and inventory basis | **FILLED (E on V)** | Inventory ₹2,017 Cr Mar-26 ≈ 79 days of COGS; ₹1,900 Cr Jun-26 (call); ₹2,316 Cr Sep-26. Revenue/sq ft FY26 ≈ ₹10.0–10.3k (Mar-25 area still estimated). |
+| 9 | VMM tier/region mapping | **FILLED** | Q2 deck slide 3 rendered: T-I 204 / T-II 197 / T-III 443; N 315 / S 237 / E 208 / W 84. |
+| 10 | DMart category-mix direction | **FILLED** | H1 deck slide 4 rendered: GM&A 23.34% → 23.62%. |
+| 11 | Rent % of revenue; group pre-Ind AS EBITDA | **FILLED** | ARs: DMart 0.40%, VMM 5.3%, V2 5.8%, V-Mart 7.3%; group 7.6%. |
+| 12 | Quick-commerce market size | **IMPROVED, still a sum** | Blinkit/Instamart Q2 primary; Zepto snippet; run-rate ~₹1.5–1.6 lakh Cr/yr of mixed metrics. No third-party market sizing fetched. |
+| 13 | Zudio Sep-26 count | **OPEN (not yet published)** | Trent Q2 board meeting 29-Oct-2026. Jun-26 Zudio 982 [V]. |
+| 14 | Reliance Retail Q2 FY27 | **OPEN (not yet published on BSE as of 24-Oct)** | Q1 FY27 primary figures added (S16). |
+| 15 | DMart FY22 revenue conflict | **RESOLVED** | Standalone ₹30,353 Cr vs consolidated ₹30,976 Cr. |
+| 16 | V2 Q2 FY26 base | **RESOLVED** | ₹705 Cr standalone vs ₹709 Cr consolidated; +28.4% is standalone on standalone. |
+| — | Blinkit Q1 NOV ₹17,132 Cr / 2,443 stores | **VERIFIED** | E1 |
+| — | Instamart ₹7,907 Cr / 1,171 | **VERIFIED** (~₹7,909 Cr) | E2 |
+| — | Zepto 1,139 dark stores | snippet-consistent (3 outlets) | UDRHP not fetched |
+| — | V2 QIP ₹399.99 Cr at ₹2,134 | **VERIFIED** | A3 |
+| — | GST 2.0 slabs and FMCG cuts | **VERIFIED** | G1, G2 |
+| — | CRISIL +200 bp | **VERIFIED** | G2 |
+| — | Monsoon 87% (IMD) | snippet only | IMD PDF blocked (TLS) |
+| — | CPI 5.54% / food 7.74% | snippet only; **month = Sep-2026**, released 12-Oct-2026 | MoSPI PDF HTTP 503 |
+| — | DMart ₹3,813 on 1-Oct; broker targets | snippet only | not re-tried |
+| — | Trent 1,342 / Zudio 982 | 1,342 **dropped** (unpublished); 982 verified (Jun-26) | E3 |
+| — | RBI repo 5.50% on 7-Oct-2026 | snippet only (consistent) | RBI site not fetched |
+| — | Per-store payback | V2 **2.5–3 yrs, capex ₹1.2 Cr** [V mgmt]; others remain [E] | T3 |
+| — | Revenue/sq ft (DMart ~₹35k; VMM ~₹9.5–10k) | **Revised:** DMart FY26 ₹33,422 [V]; VMM ~₹10.0–10.3k [E on V] | A1, A2 |
+| — | V-Mart EBITDA post-rent ~6.2% | **VERIFIED** (₹235.8 Cr) | A4 |
+| — | Combined net debt ex-leases ~₹1,300 Cr | **WRONG; replaced** (net cash ~₹700 Cr Mar-26) | R1, A-series |
+| — | V2 PAT ex-exceptional | **VERIFIED** ₹141.4 Cr | A3 |
+
+**Still unverified after this pass:** V-Mart Sep-26 area; Zudio and Trent Sep-26 counts (29-Oct); RIL Q2 FY27; exchange-level block-deal records; IMD/MoSPI/RBI primary PDFs; Zepto UDRHP text; VMM Mar-25 retail area (for an exact FY26 revenue/sq ft); VMM Q2 FY27 call Q&A (transcript not yet filed); DMart ₹3,813 price on 1-Oct and broker targets; the counterparty name on VMM's ₹103 Cr transport/warehousing RPT rows.
+
+## 4.5 New insights the first pass missed
+
+1. **"Owner vs tenant" is less clean than the dossier says.**
+   - DMart now has **68 leased stores (~14% of the base; 18% of FY26 openings)**, lease liabilities up ~2× in a year (₹693 Cr → ₹1,451 Cr by Sep-26), and an explicit policy shift toward long leases.
+   - Its rent-paid EBITDA margin is **~7.5%, not ~7.8%**, which narrows the gap with VMM's ~10.2% operating EBITDA.
+   - Combine this with borrowings of ₹2,629 Cr (above the "~₹2,000 Cr by year-end" guide) and capital commitments of ₹5,239 Cr: the "fortress, rent-free" narrative needs a 2026 update.
+2. **DMart Ready is a ₹4,094 Cr business losing ₹307 Cr (−7.5% net margin).** The loss widened 24% even as cities were cut.
+   - 63% of its turnover is goods bought from DMart.
+   - Its auditor-flagged ₹1,488 Cr carrying value is now a **key audit matter**.
+   - The new six-hour slotted model is a deliberate refusal to fight 10-minute delivery.
+   - **Subsidiary drag on DMart's consolidated PAT has doubled since FY22 (₹124 Cr → ₹254 Cr).**
+3. **Quick commerce's per-sq-ft productivity is ~2× DMart's.**
+   - Instamart GOV per dark-store sq ft is ~₹17.7k a quarter vs DMart's ₹8.7k.
+   - Blinkit is guiding to >3,500 stores by Mar-27 and ~5,000 by Mar-28 (from 2,751), with small-city baskets at 85–90% of metro.
+   - **DMart management itself now expects the quick-commerce impact on small baskets to persist "over the next few years" and SSSG to stay near current levels.**
+   - **That is the most important sentence for the DMart bear case, and it comes from the company.**
+4. **The festival calendar cuts both ways, and Q3 FY27 laps soft bases.**
+   - 2025's early Navratri (22-Sep) pulled demand into Q2 FY26: V2 +86.6%, V-Mart +22.1%, VMM +22.4%.
+   - That depressed Q3 FY26 (V-Mart +9.6%, VMM +17.0%).
+   - **Q3 FY27 compares against the weakest Q3 base in three years.** Headline Q3 growth will overstate the trend. Use Sep–Dec or H2 comparisons.
+5. **V2's FY26 profit includes a judgement-driven lease re-estimate.**
+   - The ₹27.7 Cr exceptional gain came from shortening store lease terms on 1-Oct-2025 (ROU −₹484 Cr).
+   - It also **lowers future depreciation and lease interest**: depreciation fell quarter-on-quarter in Q1 FY27 despite ~56 new stores.
+   - The auditor's emphasis of matter (a 2019-era ₹12.9 Cr BCCL advance) and a prior-year barcode/inventory mismatch are small, but they **point to controls that are still catching up with 2× annual growth.**
+6. **Labour is the new cost line for everyone in 2026.**
+   - DMart: wage code from Dec-2025; standalone employee cost +33%.
+   - VMM: employee cost per sq ft +13% (minimum-wage increases in four states).
+   - V-Mart: minimum-wage increases; Karnataka under stay.
+   - Plus ~10% apparel raw-material inflation (crude-linked polyester).
+   - The value chains can pass on only 3–5% ASP. **Gross margin holds, but operating leverage now depends on SSSG ≥3–4%** (V-Mart's own rule of thumb).
+7. **VMM's PE overhang has a regulatory twist.**
+   - The company has proactively capped foreign ownership at 49.99% to stay "Indian-owned and controlled" (foreign ~20% now).
+   - Domestic funds absorbed both blocks (Feb-26 buyers included HDFC MF, alongside GIC and MAS), and DIIs now hold 36.45%.
+   - The remaining ~40% (Partners Group ~27%) must again find mostly domestic buyers, now **at ~₹87 vs ₹117 in Feb-2026.**
+8. **V-Mart's "turnaround" has people risk.** The COO left (Jul-26) and the President-Merchandising resigned (eff. 9-Oct-26) just before the festive quarter. Conversion has fallen from the mid-40s% to 38–39% as competition rises, even with footfall +39%.
+
+## 4.6 New primer issues (additions to §3.4)
+
+- **avenue-supermarts.html:**
+  - Add "**68 leased stores (15 of 85 FY26 openings)**; standalone lease liabilities ₹1,302 Cr (Mar-26)" (analyst meet 28-Jul-26; AR FY26).
+  - Replace any "near-zero rent" claim with **lease cash ₹252 Cr (0.4% of revenue)**.
+  - **DMart Ready: FY26 revenue ₹4,093.61 Cr, loss ₹306.53 Cr (FY25 loss ₹247.37 Cr)** (AR FY26 Form AOC-1). This confirms the primer's "~₹4,000 Cr+" and the "₹247 Cr FY25 loss".
+  - Store-addition guidance is **~15% of base a year**, not "record pace"; H1 FY27 added only 18.
+  - FY22 revenue ₹30,353 Cr is **standalone** — label it.
+  - FY26 revenue per sq ft **₹33,422** (−1%); FY26 LFL **8.1%**.
+  - Borrowings ₹965 Cr (Mar-26) → ₹2,629 Cr (Sep-26); NCD programme ₹1,000 Cr.
+- **vishal-mega-mart.html:**
+  - **Feb-2026 block: 65.25 Cr shares at ~₹117 = ₹7,636 Cr. The primer's ₹7,635 Cr is CORRECT** (retract the Part 3 conflict flag).
+  - Retail area 13.45 mn sq ft (Mar-26).
+  - Tier mix 204/197/443 and regions N315/S237/E208/W84 (Sep-26).
+  - Foreign-ownership cap 49.99%.
+  - Goodwill ₹4,284 Cr (37% of assets) is a key audit matter.
+  - MD pay ₹30.26 Cr.
+  - Q1 FY27 SSSG 10%.
+  - Hyperlocal is 2–9% of store revenue.
+- **v2-retail.html:**
+  - Split record date **26-Mar-2026**; QIP allotment 3-Nov-2025 at ₹2,134 (18,74,414 shares).
+  - **FY26 exceptional gain = lease-term reassessment** (not a one-off asset sale); PAT ex-exceptional ₹141.4 Cr.
+  - FY27 guidance: revenue ≥50%, SSSG 8–10%, GM 29–30%, 170–200 stores, capex ₹1.2 Cr/store, payback 2.5–3 years.
+  - Auditor's emphasis of matter on the BCCL advance.
+  - FY26 store movement: AR says 136 opened, 3 closed.
+- **v-mart-retail.html:**
+  - Bonus **3:1, record date 23-Jun-2025**.
+  - FY26 lease payments ₹277.6 Cr; pre-Ind AS EBITDA ~6.2%.
+  - FY27 guidance: 90+ gross openings, 8–10 closures; RM inflation ~10%; ASP increases capped at 3–5%.
+  - COO exit and CFO now CFO & COO.
+  - MD pay 267× median (+64%).
+
+## 4.7 Arithmetic audit of Parts 1–3 aggregates
+
+Re-added from the screener figures in Parts 2–3:
+- **Correct:**
+  - FY26 / FY25 / FY22 revenue (88,583 / 75,212 / 38,860), OP (8,093 / 6,699), PAT (4,095 / 3,457), m-cap (2,59,024) and all four CAGRs.
+  - Every subgroup row in §3.2(a)–(d), including EVs (2,64,222 / 55,821 / 14,030 / 2,50,192 / 2,08,401), Q1 and Q2 sums, store totals (1,797 / 2,197 / 2,402), ownership averages, per-store revenue, EV/EBITDA per company and seasonality shares.
+- **Errors or basis problems found:**
+  1. **§3.2(e) / §2.0: DMart "ex-lease bank debt ~₹2,100 Cr (Mar-26)" is wrong.** It treated almost all of the ₹2,267 Cr total debt as bank debt; leases were ₹1,302 Cr. Actual borrowings were ₹965 Cr. As a result, **"group ex-lease net debt ≈ ₹1,300 Cr (Mar-26)" should be net cash ≈ ₹700 Cr, and "~₹2,300 Cr (Sep-26)" should be ~₹350–400 Cr** (S6).
+  2. **§C.5 / §4.2: DMart rent add-back ~₹60 Cr (0.3%) should be ₹252 Cr (0.4%)**, so group pre-Ind AS EBITDA is **7.6%, not 7.8%** (S5, S12).
+  3. **§2.3 total area Mar-26 ~42.5 mn sq ft:** with verified VMM 13.45 and V2 3.5 it is **42.5–42.6**, unchanged. Not an error.
+  4. **§0 / §B1 quick-commerce run-rate ~₹1.3 lakh Cr** was arithmetically right on Q1 data. On Q2 data it is **~₹1.5–1.6 lakh Cr** (S22).
+  5. **§3 item 5 / §E10: V2 "Q3 FY26 PAT ₹103 Cr = 64% of FY26 PAT"** is right on reported figures. **Ex-exceptional it is ~58%** (₹82 Cr of ₹141 Cr) [V-derived].
+  6. **Trap 6 / §B4: V2 FY26 "136 net"** conflicts with the AR's "added 136, closed 3" (133 net). The Mar-25 base is either 189 (screener-era decks) or 192 (implied). Unresolved; immaterial.
+
+## 4.8 Files fetched this session (in addition to the §3.5 list)
+
+- **Annual reports FY26:** A1–A4 URLs in §4.1.
+- **Transcripts:** T1–T4 in §4.1.
+- **Q2 results:** R1–R2.
+- **Rendered decks:** P1, P2.
+- **Rival filings:** E1 Eternal Q2 letter; E2 Swiggy Q2 letter; E3 Trent Q1 deck; E4 RIL Q1 deck.
+- **Policy:** G1 GST Council press release; G2 CRISIL Ratings press release.
+- **Screener:** https://www.screener.in/company/ETERNAL/consolidated/, …/SWIGGY/consolidated/, …/RELIANCE/consolidated/, …/TRENT/consolidated/ (document lists only).
+- **Snippets used (not primary):**
+  - VMM blocks: stockopedia (Reuters), dealstreetasia.com, storyboard18.com, barandbench.com.
+  - Zepto UDRHP: outlookbusiness.com, inc42.com.
+  - CPI: businesstoday.in, finnovate.in.
+  - RBI: 5paisa.com, corplawupdates.in.
+  - IMD: superkalam.com, morungexpress.com.
+
+*End of Part 4.*
