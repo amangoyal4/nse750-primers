@@ -1,0 +1,110 @@
+# Primer issues — agri-products (Rice, Agri Commodities & Seeds)
+
+## From Rice, Agri Commodities & Seeds research (2026-10-24, agri-products-industry.md §3.4)
+
+- **lt-foods.html — prior-year revenue bases wrong:** the revenue bar chart shows FY24 "~7,290" and FY25 "~8,748" (labelled approx., "implied from reported growth"). Screener consolidated is **₹7,772 Cr (FY24) and ₹8,681 Cr (FY25)**; the company's own 10-year chart shows ₹7,822 Cr / ₹8,770 Cr (incl. other income). Replace with reported figures and state the basis.
+- **lt-foods.html — revenue basis:** ₹11,023 Cr is the company's "revenue incl. other income". Screener revenue from operations is ₹10,946 Cr. Say so in the stat strip.
+- **lt-foods.html — net debt:** "~₹1,180 Cr" conflicts with the company's Q1 FY27 net debt/EBITDA of 0.48× and net debt/equity of 0.15× (≈₹650–700 Cr). Verify the Mar-26 figure in the FY26 presentation; consider showing supplier-funding liabilities separately (interest rose because of "supplier funding arrangements").
+- **lt-foods.html — Q1 FY27 and new facts missing (refreshed 19-Jul):**
+  - Q1 FY27: revenue ₹3,152 Cr (+28%, normalised +19%), PAT ₹183 Cr (+9%).
+  - Basmati +34% with volume +11%; organic −13%, EBITDA margin 4% (remodelling).
+  - **US CVD on Ecopure organic soybean meal cut from 340% to 75% (appeal filed)** — the real reason for the organic dip.
+  - **Golden Star acquisition** (#1 US jasmine brand), which inflates N. America growth (+49% reported vs +27% normalised).
+  - Daawat share 23.1%; household penetration 64.4 lakh; Royal 60%+ N. America basmati import share; Daawat UK £100 m target; 30% stake in Leev.
+- **lt-foods.html — US tariff regime:** the primer refers to "U.S. tariffs" generically. Update: IEEPA tariffs struck down (20-Feb-2026); Sec 122 10% to 24-Jul-2026; **Sec 301 10% from 24-Jul-2026** (under legal challenge). North America = 50% of revenue.
+- **lt-foods.html — valuation stale:** m-cap ~₹13,500 Cr → **₹13,190 Cr**; P/E ~22× → **20.6×**. SALIC's stake percentage is not given; the free float (40%) implies ~9% — add it after checking the shareholding pattern.
+- **lt-foods.html — subsidiary rename:** a wholly owned subsidiary was renamed **KLT Foods (India) Pvt Ltd** (14-Oct-2026). Check what it is.
+- **krbl.html — EBITDA mislabel:** "EBITDA ~₹873 Cr (~14%)" is actually **PBT**. Company EBITDA is **₹973 Cr (15.8%)**; screener OP is ₹902 Cr (14.8%). Fix the bar chart and the stat strip ("~14% EBITDA").
+- **krbl.html — "government/LIC-linked holders own roughly 6%" is wrong.** The 6.26% "Government" holding on the shareholding pattern is the **Directorate of Enforcement** (≈1.43 Cr shares, linked to the PMLA case). This belongs in the ED-overhang section, not as a sign of institutional support.
+- **krbl.html — market share basis:** "~42% India Gate vs ~30% Daawat" is industry commentary. KRBL's Q1 FY27 deck (Nielsen/RMS MAT Jun-26) gives **37% GT / 38% MT / 41% e-com**, and LT's deck gives Daawat **23.1%**. Replace, or show both with sources.
+- **krbl.html — Q4 FY26 export dip cause:** attributed to "Red Sea shipping disruption". Jan–Mar 2026 was the **Iran unrest (Jan-2026, ~₹2,000 Cr of trade payments stuck) and the West Asia war from 28-Feb-2026 (Hormuz)**. Rewrite.
+- **krbl.html — Q1 FY27 missing (refreshed 13-Aug):** revenue ₹1,496 Cr (−6%); domestic ₹1,221 Cr (+14%, realisation +11%); **exports ₹244 Cr (−50%)**; **GM 36.3% (25.7%)**; EBITDA ₹372 Cr (23.8%); **PAT ₹261 Cr (+73%)**; net cash ₹1,841 Cr; inventory ₹2,994 Cr.
+- **krbl.html — valuation stale:** m-cap ~₹8,500 Cr → **₹7,996 Cr**; P/E ~11× → 10.6×.
+- **krbl.html — inventory figures:** "~324 days (FY25)" is the ICRA basis. Screener shows 358 (FY25) and 329 (FY26); the company deck shows ~188 days on a sales basis. State the basis.
+- **manorama-industries.html — standalone vs consolidated:** the stat strip (₹1,358 / ₹368 / ₹233 Cr) is **standalone**. Consolidated is ₹1,367 / ₹361 / ₹225 Cr (the company's own deck reports consolidated ₹1,366.7 Cr, EBITDA ₹361.3 Cr). Label it.
+- **manorama-industries.html — capacity outdated:** "fractionation ~40,000 → ~52,000 TPA by FY27". The Q1 FY27 deck: **47,500 TPA now** (debottlenecking, Mar-2026) → 52,000; plus a **new 75,000 TPA Fractionation Plant-3**, a 90,000 TPA refinery (+300 TPD refining) and 30,000 TPA packing (acquired).
+- **manorama-industries.html — QIP and ownership:** omits the **₹500 Cr QIP (34.01 lakh shares at ₹1,470, 2-Jul-2026)**. Promoter "~54%" is now **51.38%** (dilution); DII 6.40%, FII 4.16%. Investors include ADIA, Goldman Sachs, Morgan Stanley and VQ/ValueQuest.
+- **manorama-industries.html — competitors are also customers:** the rivals table lists Bunge Loders Croklaan, Cargill and Olam. All three appear on Manorama's **customer** slide (alongside Ferrero, Mondelez, Mars, Hershey, Nestlé, Barry Callebaut). Explain the "frenemy" relationship.
+- **manorama-industries.html — cocoa chart stale:** "Early 2026 ~$5,500". Cocoa fell to a reported **~$2,846/t low in March 2026**, rebounded to ~$6,478 (Jul) and was ~$5,100–5,600 in October 2026 [V-snip/V]. Add the Q1 FY27 gross-margin dip (47.4% → 43.6%) as the first sign of the cycle.
+- **manorama-industries.html — listing history:** "~2018 converted to public and listed on NSE & BSE" — the 2018 IPO was on the **BSE SME** platform; main-board/NSE listing came later [K, verify date].
+- **manorama-industries.html — Q1 FY27 missing:** revenue ₹404 Cr (+39.5%), EBITDA ₹106 Cr (26.3%), PAT ₹79 Cr (+68%); export:domestic 60:40; Brazil first commercial production (Dekel); Burkina Faso land (~10 ha) acquired.
+- **manorama-industries.html — valuation:** m-cap ₹10,070 Cr → **₹11,145 Cr**. P/B 15.5× is on pre-QIP book (~9× post-QIP [E]).
+- **gujarat-ambuja-exports.html — promoter family name wrong:** "Gattani / Gupta family" — the company's deck credits **the late Vijaykumar Gupta and Sulochana Vijaykumar Gupta**; CMD **Manish Vijaykumar Gupta**; WTD Shreyaan Gupta. Remove "Gattani". Also consider softening "no connection whatsoever" to Ambuja Cements: the name has historical roots in the early-1990s "Ambuja" group association [K — verify before printing either way].
+- **gujarat-ambuja-exports.html — capacity figures outdated:** "~5,200 TPD → ~6,000 TPD". Deck: **5,600 TPD installed → 6,500 TPD** after the 900 TPD Himmatnagar greenfield (FY27); Sitarganj 1,950 TPD ("largest plant in India"); solvent extraction 4,500 TPD; refining 1,200 TPD; **sodium gluconate 30,000 TPA (India's first maize-based) → 1,20,000 TPA by 2028**; maltodextrin 7,000 → 23,000 TPA. The fermentation story is absent from the primer.
+- **gujarat-ambuja-exports.html — Malda ethanol project (~₹125 Cr):** not mentioned in the company's Q1 FY27 deck. Verify, or remove.
+- **gujarat-ambuja-exports.html — EBITDA and segment basis:** "EBITDA ~₹458 Cr (~8%), derived" vs company **₹574 Cr (10.02%)** incl. other income. Maize segment "~₹275.5 Cr (7.7%)" vs the deck's 7.0%. State the bases.
+- **gujarat-ambuja-exports.html — thesis contradicted by Q1 FY27:** the primer says maize margin is "a far more durable ~7–8% that barely moves". **Q1 FY27 maize segment margin was 17.6%** (maize = 85.9% of segment result) on lower maize prices; PAT ₹177 Cr (+171%). Rewrite the "one number" section.
+- **gujarat-ambuja-exports.html — valuation stale:** m-cap ~₹7,900 Cr → **₹7,056 Cr**; P/E ~19× → **16.8× TTM**. CARE outlook revised to Positive (8-Oct-2026). Q2 FY27 board 24-Oct-2026.
+- **kaveri-seed.html — standalone vs consolidated:** the stat strip (₹1,304 Cr / ₹283 Cr) and Q1 FY27 (₹815 Cr) are **standalone**. Consolidated FY26 is ₹1,392 Cr / PAT ₹296 Cr; Q1 FY27 consolidated is ₹742 Cr. Label it.
+- **kaveri-seed.html — quarterly-shape chart wrong:** the illustrative "Q2 ~₹40 Cr profit" contradicts reality: Q2 FY26 consolidated PAT **−₹16 Cr**, Q2 FY25 −₹1 Cr. Q3 is small positive, Q4 negative.
+- **kaveri-seed.html — founder/family:** "Ghanshyam Reddy family" is not supported by any source seen. The CMD is **G.V. Bhaskar Rao** [K]. The company CIN shows incorporation in **1986**, not 1976. Verify and fix.
+- **kaveri-seed.html — treasury overstated:** "₹700–900 Cr+ cash & investments". Mar-26 investments are **₹401 Cr (consolidated) / ₹454 Cr (standalone)**; **FY26 CFO was −₹6 Cr**; working-capital days rose 99 → 171. Update the "cash machine" section.
+- **kaveri-seed.html — Q1 FY27 detail to add:** non-cotton ₹601.6 Cr (−17.2%), cotton ₹213.4 Cr (−2.5%); maize −42.9%; hybrid rice ₹247 Cr; vegetables up; new cotton products 22% → 37%; illegal cotton cited; exports ₹5.79 Cr.
+- **kaveri-seed.html — valuation stale:** m-cap ₹3,800 Cr → ₹3,755 Cr; P/E ~13× → **15.0×**; stock near its 52-week low (₹669). Q2 board 28-Oct-2026 + interim dividend.
+- **General (all five):**
+  - None mentions the **West Asia war (28-Feb-2026)** and Hormuz effects on basmati exports, freight and payments.
+  - None mentions the **deficient 2026 monsoon (−12.6%)**, the **RBI hike to 5.50%**, or the **rupee at ~₹95/$**.
+  - The basmati primers do not give the **MEP history** (Aug-2023 $1,200 → Oct-2023 $950 → removed Sep-2024) or the 2022–25 non-basmati ban cycle in dated form.
+  - Market caps are 2–3 months stale (LT −2%, KRBL −6%, Manorama +11%, GAEL −11%, Kaveri −1%).
+
+
+## From Rice, Agri Commodities & Seeds deep-research pass (2026-10-24, agri-products-industry.md §4.6)
+
+- **lt-foods.html**
+  - Net debt "~₹1,180 Cr": replace it with both bases at Mar-26, i.e. ₹1,377 Cr (auditor note, incl. leases) and 0.6× ND/EBITDA / 0.16× ND/equity (company). Jun-26: 0.48× / 0.15×.
+  - Add **SALIC 9.22%** (3.20 Cr shares; board nominee).
+  - Add **Golden Star buy-out terms**: 51% Jun-2022 for US$8.16 m; 49% on 22-May-2025 for US$15 m; FY26 contribution ₹494.7 Cr revenue / ₹62.3 Cr profit.
+  - Add **tonnage**: Q1 FY27 India 1.09 lakh t + international 1.17 lakh t; inventory 3.46 lakh t rice at ₹56/kg + 1.64 lakh t paddy at ₹38/kg.
+  - CVD: LT **no longer exports soymeal to the US**. Organic's margin dip is the wholesale → CPG remodel (guide: 7–8% EBITDA by FY27 exit, double-digit by FY28).
+  - Guidance (basmati +10–12%, RTH +15–20%, organic +10–12%; RTH breakeven at ₹400 Cr).
+  - Unbooked IEEPA refund.
+  - Contingent liabilities rose to ₹140.9 Cr (GST ₹67.9 Cr).
+  - **Family remuneration ~₹29 Cr** (governance note).
+  - Daawat share 23.7% (FY26) → 23.1% (Q1).
+- **krbl.html**
+  - Rewrite the ED section: the 6.26% is **1,43,33,221 shares of the Balsharaf Group (a customer) attached by ED** under the AgustaWestland-linked PMLA complaint (ECIR 2014; complaint 2021 naming KRBL, KRBL DMCC and a JMD). Separate the **Dhuri land attachment (₹15.32 Cr; deposit ₹11.13 Cr refunded 6-Mar-2026)**. Hearings were Sep-2026.
+  - Add FY27 guidance: **GM ~30%, EBITDA 17–18%, domestic volume +10% a year for 2–3 years**.
+  - Inventory ₹2,944 Cr = 71 kt paddy + 389 kt rice (not ₹2,994 Cr).
+  - Milling 207 MT/h; power 150.7 MW (biomass 21.49 MW, not ~18).
+  - Net bank debt ₹(789) Cr at Mar-26.
+  - Kantar: 43.4% of urban households consume basmati, 20.4% packaged.
+  - GT share −2 points YoY.
+  - New categories: regional rice ~₹270 Cr +25%; masala ARR ₹9 Cr → ₹25 Cr target; poha; Gangavathi plant (end-Q3 FY27).
+  - Saudi distributor search (own entity deferred).
+- **manorama-industries.html**
+  - Capacity history: 15,000 (FY22–24) → 40,000 (FY25, new 25k SF2) → 47,500 (FY26, SF2 debottlenecked to 32,500) → 52,000 (Q3 FY27) → +75,000 SF3 (~Q3 FY28).
+  - **Top-2 customers = 40.5% of FY26 revenue.**
+  - Capex split: Burkina ~₹120–130 Cr (WOS Taang Kaam Industries SA), India ~₹330–340 Cr; FY27 capex ₹225–250 Cr.
+  - FY27 utilisation guide ~80% of 52,000 TPA. GM guide 45–50% (Q1 43.6% was below it).
+  - **₹20.64 Cr customs payment** (palm mid-fraction, India–UAE CEPA; debit note to the supplier).
+  - Enzymatic CBE (ECBE) plant.
+  - Chad subsidiary.
+  - CARE A+ (Stable).
+  - Revenue growth ~85% volume-led.
+- **gujarat-ambuja-exports.html**
+  - **Delete the "Malda ethanol project (~₹125 Cr)"**: the FY26 AR describes Malda only as a 1,200 TPD maize unit.
+  - Add the CMD's own explanation: grain-ethanol diversion kept maize firm for most of FY26, then moderated. That is the margin turn visible from Q4 FY26 (OPM 13%).
+  - 83% capacity availability.
+  - Borrowings ₹433.6 Cr vs financial investments ₹1,255.5 Cr.
+  - Contingent liabilities ₹64.9 Cr.
+  - Add the H2 FY27 maize-price risk (₹16–17 → ₹27–28/kg during 2026 per Kaveri; FAO maize +5.6% in Sep).
+- **kaveri-seed.html**
+  - Crop mix is **non-cotton 81% / cotton 19% (FY26 standalone)**, not ~65/35.
+  - FY26 crop revenues: maize ₹403 Cr (+40%), hybrid rice ₹294 Cr, selection rice ₹195 Cr, vegetables ₹70 Cr, others ₹98 Cr, cotton ₹244 Cr (−6.6%).
+  - New cotton hybrids 30% of FY26 cotton (37% in Q1 FY27).
+  - **R&D 7.18% of turnover.**
+  - Cash ₹267 Cr (Jun-26); inventory ~₹1,200 Cr (+₹200 Cr).
+  - Q1 FY27 vegetables ₹15.1 Cr (not ₹42.7 Cr).
+  - Contingent legal claims ₹96.6 Cr (from ₹19.7 Cr).
+  - ITAT agri-income wins (~₹197 Cr of demands set aside).
+  - Medium-term growth guide cut to 15–18%; exports ₹100 Cr in 3 years.
+  - Founder/CMD G.V. Bhaskar Rao (confirmed).
+  - Subsidiaries sold 10–12 lakh cotton packets.
+- **General (rice primers):**
+  - FY26 India basmati 6.52 mt / ₹50,138 Cr; non-basmati 15.01 mt / ₹51,892 Cr.
+  - Q1 FY27 basmati exports ~1.5 mt (−12%) at +20% realisation.
+  - Freight peak US$5,000 per container.
+  - FCI rice ~3× the buffer norm.
+  - 2025 Punjab floods (−20–25% Punjab basmati output).
+  - Pakistan basmati ~US$100/t above India's.
+
