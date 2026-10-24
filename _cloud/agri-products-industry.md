@@ -1281,3 +1281,929 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
   - Cocoa: https://tradingeconomics.com/commodity/cocoa/news/588793 (Oct-2026)
   - Monsoon 2026: https://insights.dsij.in/dsijarticledetail/indias-2026-monsoon-ends-126-deficient-weakest-since-2015-59820 (3-Oct-2026)
 - **Industry (search snippets only, [V-snip]):** Manorama QIP (scanx.trade, sahi.com, filingreader.com); Iran payments (dtnext.in, bigmint.co, deccanherald.com, thestatesman.com); US Sec 301 (ustariffrates.com/tariff-rates/india; newkerala.com 8-Jul-2026; crawford.house.gov); rice exports (theprint.in; indiaseatradenews.com); maize/ethanol (chemanalyst.com; commodity-board.com; indiaseatradenews.com); Bt MRP (cropgpt.ai; downtoearth.org.in); soy (global-agriculture.com; investmentguruindia.com/Motilal); FCI OMSS (eng.ruralvoice.in; outlookindia.com; moneylife.in); KRBL ED holding (marketsmojo; dcf-model.com); cocoa March low (barchart.com).
+
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-24)
+
+Second, primary-source pass on the same day as Parts 1–3. Its job is to make the dossier authoritative. **Where Part 4 conflicts with Parts 1–3, Part 4 wins** (see §4.0).
+
+**What was read this session (all fetched 24-Oct-2026 UTC):**
+- **Earnings-call transcripts (Q1 FY27), BSE filings:**
+  - LT Foods (call 31-Jul-2026, filed 5-Aug)
+  - KRBL (call 17-Aug-2026, filed 21-Aug)
+  - Manorama (call 14-Aug-2026, filed 18-Aug)
+  - Kaveri (call 14-Aug-2026, filed 19-Aug)
+  - GAEL holds no earnings call. Screener lists only a PPT for Aug-2026.
+- **FY26 annual reports (BSE "AttachHis" PDFs), all five:**
+  - LT Foods Integrated AR 2025-26 (406 pp)
+  - KRBL AR 2025-26 (174 pp)
+  - Manorama AR 2025-26 (326 pp)
+  - Kaveri AR 2025-26 (292 pp)
+  - GAEL Integrated AR 2025-26 (164 pp)
+- **Industry sources:**
+  - DA&FW Third Advance Estimates 2025-26 (desagri.gov.in, as on 27-May-2026)
+  - ICCO February-2026 Quarterly Bulletin page
+  - AIDA ethanol data (via AgroSpectrum, 19-Oct-2026)
+  - FCI stock data (via Business Today, 8-Oct-2026)
+  - SOPA 2025-26 supply/demand (via Global Agriculture, 17-Dec-2025)
+  - FAO Food Price Index release (via MercoPress, 8-Oct-2026)
+  - Kharif sowing (via Rural Voice citing MoA&FW, 21-Aug-2026)
+  - Bt MRP 2025-26 notification (via Global Agriculture, 28-Mar-2025)
+  - Rice export-policy unwinding (via DTNext, 23-Oct-2024)
+  - Manorama customs matter (via Investywise citing a BSE filing, 10-Aug-2026)
+- **Screener** (re-fetched for KRBL, Manorama and GAEL) for 8-quarter tables and corporate actions.
+
+**Blocked or unavailable this session (tried and failed):**
+- BSE corporate-announcement API: Akamai "Access Denied".
+- USDA FAS / GAIN pages: HTTP 403.
+- APEDA agriexchange: TLS legacy-renegotiation failure, then an incomplete certificate chain.
+- FCI and egazette PDFs: certificate chain not verifiable through the proxy.
+- Barchart article body: empty render.
+- FAO FARPI level: dynamic page.
+
+Verification was never disabled. For desagri.gov.in, the missing Let's Encrypt intermediate (YR2) was fetched from its official AIA URL and added to the CA bundle.
+
+**Tag convention in Part 4:**
+- **[V-pri]** = fetched this session from the company's own filing or annual report, a ministry or regulator document, or an industry body's own page.
+- **[V-sec]** = fetched this session from a named secondary article that cites the primary source.
+- **[V-snip]** = search-result text only.
+- [K] and [E] as in Part 1.
+
+**Results status, re-checked 24-Oct-2026 at 06:31 UTC (12:01 IST):**
+- **GAEL Q2 FY27:** the board meets today; results are **not yet on screener/BSE**. Writer: re-check BSE in the evening of 24-Oct.
+- **LT Foods:** board 27-Oct.
+- **Kaveri:** board 28-Oct; call 29-Oct.
+- **KRBL and Manorama:** board dates still **not announced**. Latest intimations:
+  - KRBL: ICRA reaffirmation 21-Oct; trading window closed since 1-Oct.
+  - Manorama: postal-ballot outcome 19-Oct; trading window closed 26-Sep.
+
+---
+
+## 4.0 Supersedes (corrections the writer must apply to Parts 1–3)
+
+| # | Item (Part/section) | Old value in Parts 1–3 | New value | Source (fetched this session) |
+|---|---|---|---|---|
+| S1 | India basmati exports FY26, value (§2.1, §D) | "~6.4–6.5 mt; value ~₹52,000–56,000 Cr [E]" | **6.52 mt worth ₹50,138 Cr** (a record by volume). The value is almost flat on FY25's ~₹50,000 Cr, so **₹ realisation per tonne fell ~7–8% in FY26** before jumping +20% YoY in Q1 FY27 | KRBL CMD, Q1 FY27 call (17-Aug-2026) [V-pri]; KRBL AR 2025-26 MD&A: "6.5 million tonnes … 8% higher" [V-pri] |
+| S2 | India non-basmati exports FY26 (§2.1) | "~15 mt (June-2026 trade report) [V-snip]" | **15.01 mt worth ₹51,892 Cr** | KRBL Q1 FY27 call [V-pri] |
+| S3 | KRBL "Government 6.26%" (cover note 3, §2.2, §G 2021, §3.4) | "relates to the PMLA case against joint MD Anoop Kumar Gupta" | **1,43,33,221 KRBL shares owned by the Balsharaf Group (a KRBL Gulf customer), attached by the ED.** They are registered in the name "Joint Director of Enforcement, Central Region". Case history: ECIR 2014; criminal complaint 2021 under s.3 PMLA against KRBL, KRBL DMCC and a JMD. The allegation is that US$24.62 m of AgustaWestland proceeds (2008–10) reached KRBL via Rawasi Al Khaleej General Trading and KRBL DMCC; Balsharaf says by affidavit that the money was its own. Also attached: Dhuri land/building worth ₹15.32 Cr (₹11.13 Cr deposit refunded 6-Mar-2026; attachment continues). Hearings: Appellate Tribunal (PMLA) 9-Sep-2026; PMLA court 15-Sep-2026 (arguments on charge). Management "will not respond to queries" on the ED matter | KRBL AR 2025-26, Secretarial Audit Report item 7 and shareholding table; contingent-liability note 47 [V-pri]; Q1 call [V-pri] |
+| S4 | Manorama fractionation history (READ-THIS-FIRST trap 10, §4.3, §G) | "47,500 TPA (incl. 25,000 TPA added by debottlenecking in Mar-2026)" | **SF1 15,000 + SF2 32,500 = 47,500 TPA.** The 25,000 TPA SF2 plant was *commissioned in 2024* (capacity 15,000 → 40,000 in FY25). FY26 debottlenecking added only **+7,500 TPA** (SF2 25,000 → 32,500). A further **+4,500 TPA** in Q3 FY27 → **52,000 TPA** (cost ₹5–6 Cr) | Manorama AR 2025-26 capacity table and timeline [V-pri]; Q1 call [V-pri] |
+| S5 | Manorama capex timing and split (§4.3, §12) | "₹460 Cr over 2–3 years; Burkina/Brazil split not found" | **₹460 Cr plan:** Burkina Faso ~₹120–130 Cr (seed extraction/expelling; ~3-year payback); India ~₹330–340 Cr (SF3 75,000 TPA + 90,000 TPA refinery). **Commissioning ~Q3 FY28; full effect FY29.** FY27 capex guidance ₹225–250 Cr (₹20 Cr spent in Q1; ~₹70 Cr cumulative). Board (11-May-2026) approved up to ₹150 Cr equity + ₹100 Cr loans + ₹100 Cr guarantees for the Burkina WOS, Taang Kaam Industries SA | Q1 call [V-pri]; AR Directors' Report [V-pri] |
+| S6 | Manorama FY27 utilisation guide (§4.3, §F) | "Target 85–90% utilisation of 52,000 TPA [deck]" | Management told analysts to **use ~80% of 52,000 TPA** for FY27 (80–85% is the internal target). Q1 FY27 utilisation was ~80%; pre-debottleneck FY26 utilisation ~85% | Q1 call [V-pri]; AR [V-pri] |
+| S7 | LT Foods net debt (§2.0, §2.7, §3.3, §3.4) | "~₹650–700 Cr at Jun-26 [E]" vs primer "~₹1,180 Cr" — conflict | **Two valid bases at Mar-26:** (a) auditor capital-management note: borrowings incl. leases ₹1,610.0 Cr − cash ₹232.9 Cr = **₹1,377.1 Cr** (adjusted ND/equity 0.30×); (b) company KPI: **ND/EBITDA 0.6×, ND/equity 0.16×** → ~₹720–740 Cr (excludes lease liabilities and nets other liquid assets). At Jun-26 the company KPI was 0.48× / 0.15×. Always state the basis | LT AR 2025-26 note 50 and Chairman's letter [V-pri]; Q1 call [V-pri] |
+| S8 | LT Foods inventory (§1.2, §3.2c) | "LT Foods ~₹4,000 Cr+ [primer]"; "₹4,500–5,000 Cr implied" | **Rice inventory 3,46,000 t at an average ₹56/kg (≈₹1,938 Cr) plus paddy 1,64,000 t at ₹38/kg (≈₹623 Cr) = ~₹2,560 Cr of rice and paddy at 30-Jun-2026** [E arithmetic on V-pri]. Total consolidated inventory, incl. organic, US/EU finished goods and packing, is higher but not disclosed in the call | LT Q1 call (CFO) [V-pri] |
+| S9 | KRBL inventory, Jun-26 (§1.2, §2.2, §3.1, JSON) | "₹2,994 Cr (vs ₹2,953 Cr)" | **₹2,944 Cr** (CFO on the call): paddy ₹286 Cr (₹354 Cr) + rice ₹2,481 Cr (₹2,438 Cr); **volumes 71,000 t paddy and 3,89,000 t rice** (91,000 / 3,92,000 a year earlier). The deck shows ₹2,944 Cr in its KPI box and "₹2,994 Cr" in its text: an internal typo. Use ₹2,944 Cr | KRBL Q1 call [V-pri]; deck text re-read [V-pri] |
+| S10 | KRBL inventory volume (§H item 10) | "paddy ~71–91 kt and rice ~389–392 kt plausible reading [layout-ambiguous]" | **Confirmed:** 71 kt / 389 kt (Jun-26) vs 91 kt / 392 kt (Jun-25) | KRBL Q1 call [V-pri] |
+| S11 | Kaveri Q1 FY27 vegetables vs "others" (§C.5, §E10) | "vegetables ₹42.7 Cr (vs ₹29.3), others ₹15.1 Cr [mapping E]" | **Vegetables ₹15.08 Cr** (ED on the call). The ₹42.7 Cr line is therefore "others" (bajra, sunflower etc.). Vegetables *fell* in Q1 FY27 (base ~₹18.5 Cr by elimination) | Kaveri Q1 call [V-pri] |
+| S12 | Kaveri R&D intensity (§10 KWS row, §4.2d) | "~4–5% of sales [E]" | **₹93.6 Cr = 7.18% of turnover in FY26** (capital ₹28.1 Cr + recurring ₹65.5 Cr); 6.52% in FY25 | Kaveri AR 2025-26, Annexure (R&D) [V-pri] |
+| S13 | Kaveri treasury (§2.5 story, §3.4) | "investments ₹401–454 Cr; cash not separately shown" | **"Cash on books" ₹267 Cr at 30-Jun-2026;** guided to ~₹300 Cr by Sep-26. Inventory **~₹1,200 Cr, ~₹200 Cr higher YoY** (produced for a good season); production to be cut next year | Kaveri Q1 call [V-pri] |
+| S14 | India maize production (§2.3) | "~42–43 mt 2024-25; 2025-26 ~43–45 mt [E]" | **2024-25: 43.41 mt; 2025-26 (3rd AE): 55.09 mt** (kharif 30.51, rabi 20.03, summer 4.56). A **+27% jump in one year**, driven by ethanol demand | DA&FW 3rd AE time series, 27-May-2026 [V-pri] |
+| S15 | Maize share of ethanol (§0, §3.7, §7.4) | "~36% of ethanol production (258 crore litres) ESY 2025-26 to June [V-snip]" | **ESY 2025-26 to end-September: maize 413 crore litres = 41.8% of 987 crore litres received** (allocation 614 of 1,197). Surplus FCI rice 222 crore litres (22.5%; allocation 233). Grain total 71.4%, sugar-based 28.6% | AIDA via AgroSpectrum, 19-Oct-2026 [V-sec] |
+| S16 | SOPA soymeal exports (§2.3, §B3) | "fell ~27% to ~15.5 lakh t in Apr–Mar 2026" | Oil year Oct-2025 → Sep-2026: **~9.0 lakh t in the first nine months vs 15.60 lakh t a year earlier (−42%)**; full-year forecast cut to ~10 lakh t. The "15.5 lakh t" in Part 1 is most likely the prior-year comparison number. SOPA crop 105.36 lakh t vs the ministry's 125.96 lakh t (3rd AE) | SOPA S&D via Global Agriculture [V-sec, Dec-2025 release]; nine-month figure [V-snip]; DA&FW [V-pri] |
+| S17 | Cotton kharif 2026 acreage (§0, §H8) | "106.01 lakh ha (Kaveri) vs 98.7 lakh ha (APEDA) — conflict" | **Latest in-season figure: 108.45 lakh ha at 21-Aug-2026 (vs 108.73, −0.3%).** The 106.01 (early Aug) and 98.7 (earlier, undated) figures are earlier progress readings, not finals. Final-season area not found | MoA&FW data via Rural Voice, 21-Aug-2026 [V-sec] |
+| S18 | Specialty-fat / CBE market size (§2.2) | "global CBE ~US$1.5–2.0 bn [E]" | Keep the CBE estimate as [E], but add the figure Manorama cites in its AR: **global specialty fats & oils market US$18.17 bn (2026) → US$32.5 bn by 2034 (7.6% CAGR)**. That is the broad category, not CBE alone | Manorama AR 2025-26 MD&A [V-pri, company-cited third-party estimate] |
+| S19 | India seed market size (§2.4) | "₹30,000–35,000 Cr [E]" | Kaveri's AR cites **IMARC: India seed industry US$8.60 bn (2025) → US$13.61 bn (2030) → US$20.20 bn (2034)**. That is ≈₹76,000–82,000 Cr at ₹88–95/$, a much wider definition than the commercial hybrid market. Show both and label them | Kaveri AR 2025-26 [V-pri, company-cited third-party estimate] |
+| S20 | GAEL "Malda ethanol project (~₹125 Cr)" (primer; §2.4, §3.3, §3.4) | "unverified" | **Not supported.** The FY26 Integrated AR describes Malda only as a **1,200 TPD maize-processing unit** drawing on Bihar corn; there is no ethanol or distillery project anywhere in the AR or the Q1 deck. Remove from the primer | GAEL AR 2025-26 [V-pri] |
+| S21 | KRBL milling and power capacity (§1.1, §4.3) | "Milling ~195 t/h [K]; power ~149 MW (wind ~112, biomass ~18, solar ~17) [primer]" | **Milling 207 MT/hour; processing 233 MT/hour; wind 112.25 MW + biomass 21.49 MW + solar 17 MW = 150.7 MW**; 5 manufacturing/procurement units; 3,085 employees | KRBL AR 2025-26 "capitals" page [V-pri] |
+| S22 | KRBL net cash at Mar-26 (§2.2) | only the Jun-26 figure (₹1,841 Cr) | **Net bank debt ₹(789) Cr at 31-Mar-2026** (company basis). Cash + investments ₹1,841 Cr at 30-Jun-26 (₹1,281 Cr a year earlier). Note the bases differ: "net bank debt" vs "cash + investments" | KRBL AR [V-pri]; Q1 call [V-pri] |
+| S23 | LT Foods Daawat share trend (§5.1, §E6) | "23.1% (MAT Jun-26)" with no trend | **FY26 23.7% → Q1 FY27 23.1%** (analyst-cited, not disputed). Management blames a Nielsen methodology reset and claims ~40%+ e-commerce share and #1 in Maharashtra, Gujarat and MP | LT Q1 call [V-pri] |
+| S24 | KRBL share trend (§5.1) | "GT 37% / MT 38% / e-com 41%" (level only) | Add the trend: **GT share down ~2 points YoY**; modern-trade share "needs improvement"; e-com lead ~10 points over #2 | KRBL Q1 call [V-pri] |
+| S25 | LT Foods organic CVD (§0, §7.2, §2.1) | "CVD revised 340% → 75%, appeal filed — the reason for organic remodelling" | Management: LT **no longer exports soybean meal to the US**; the remaining duty is being contested in court. Organic EBITDA fell because of the **route-to-market change (wholesale → CPG/retail, new European plant and sales organisation)**, not the CVD itself. Guide: organic EBITDA 7–8% by FY27 exit (₹70–80 Cr), double-digit by FY28 | LT Q1 call [V-pri]; AR (Rotterdam facility) [V-pri] |
+| S26 | Golden Star terms (§H12, §2.1) | "deal value/date not found" | LT Foods Americas bought **51% in June 2022 for US$8.16 m (₹67.1 Cr)**, accounted for as a JV, then the **remaining 49% on 22-May-2025 for US$15 m (₹128.5 Cr) cash**, making it a wholly owned subsidiary. Fair value of identifiable net assets ₹329.4 Cr (brand ₹31.7 Cr, customer relationships ₹36.2 Cr, non-compete ₹20.3 Cr, inventories ₹132.2 Cr); goodwill ₹26.1 Cr incl. DTL; remeasurement gain ₹9.34 Cr in other income. **Contribution since acquisition (FY26): revenue ₹494.7 Cr, profit ₹62.3 Cr** | LT AR 2025-26 note 58 [V-pri] |
+| S27 | SALIC's stake in LT Foods (§5.2, §3.2d) | "~9% [E]" | **SALIC International Investment Company: 3,20,25,784 shares = 9.22%**. Classed as an "enterprise having significant influence"; SALIC nominee on the board | LT AR 2025-26 shareholding table and RPT note [V-pri] |
+| S28 | Global rice production (§2.1) | "552.5 mt [cmv360 citing FAO]" | Agencies differ. **USDA (12-Aug-2026): 2026/27 world production ~537 mt vs ~546 mt; India 150 mt vs 154 mt; India exports ~25 mt (+1 mt).** India's own 3rd AE for 2025-26 is 154.02 mt. Quote the agency and year | KRBL CMD citing USDA [V-pri]; KRBL AR citing USDA May-2026 [V-pri]; DA&FW [V-pri] |
+| S29 | Basmati paddy price history (§4.1, §8, §H2) | "1121 ~₹3,600–3,850 some years; 2024 slump ~₹2,800–3,200 [K/V-snip]" | **Season 2025-26: 1509 (Punjab) opened at ₹2,500–3,200/qtl in Oct-2025** after the Punjab floods (~2 lakh ha destroyed, incl. ~60,000 acres of basmati; Punjab basmati output −20–25%). **1121 (Haryana) reached ₹4,300–4,700/qtl by Feb-2026**; old-crop paddy ran out by May. **Season 2026-27: 1509 >₹4,800/qtl and 1121 at a record (19-Oct-2026)** [first-pass V cmv360] | KRBL CMD, Q1 call [V-pri] |
+| S30 | Manorama supplier "event" / Q2 risk (new) | not in Parts 1–3 | **Voluntary customs payment of ₹20.64 Cr on 29-Jul-2026** (differential duty + IGST + interest + penalty) after an SIIB (Customs, Indore) inquiry into **palm mid-fraction imported under India–UAE CEPA** on supplier certificates of origin. Debit note and legal notice to the UAE supplier 10-Aug-2026; arbitration reserved. Falls in **Q2 FY27** | Investywise citing the BSE filing [V-sec]; Q1 call Q&A [V-pri] |
+| S31 | KRBL contingent liabilities (new) | not in Parts 1–3 | Standalone: indirect tax ₹50.7 Cr, ED matter ₹15.3 Cr, other ₹40.4 Cr (₹252.5 Cr a year ago), direct tax ₹1.1 Cr → **~₹107.5 Cr vs ~₹303.6 Cr** | KRBL AR note 47 [V-pri] |
+| S32 | Monsoon / rice stocks: "Government rice stocks" (§H3) | "FCI rice stock not found" | **Rice in the Central Pool: 403.11 LMT at 1-Jul-2026 vs a norm of 135.40 LMT (≈3.0×); 390.53 LMT at 1-Sep-2026, plus 307.51 LMT unmilled paddy (≈206 LMT rice)**. Kharif 2026-27 paddy procurement estimate 708.64 LMT | FCI data via Business Today, 8-Oct-2026 [V-sec]; KRBL CMD: "close to 3× buffer norms at 1-Apr-2026" [V-pri] |
+| S33 | Kaveri FY26 crop mix (§2.5 "Primer KPIs") | "FY26 non-cotton ~65% / cotton ~35%" | **FY26 standalone: non-cotton ₹1,060.18 Cr = 81.3%; cotton ₹243.59 Cr = 18.7%.** The CMD says cotton is now "close to 20%" vs ~90% in 2014-15. **New cotton hybrids were 30.05% of FY26 cotton sales** (10.3% in FY25), rising to 37% in Q1 FY27 | Kaveri AR 2025-26 [V-pri]; Q1 call [V-pri] |
+| S34 | GAEL founding-family wording / Kaveri incorporation | — | No change. Kaveri incorporation 1986 (CIN) stands. GAEL "set up in 1991" [V-pri GAEL AR] | ARs |
+
+**Minor wording fixes**
+- (a) Kaveri: founder/CMD **G.V. Bhaskar Rao** is confirmed by the FY26 AR [V-pri]. The primer's "Ghanshyam Reddy" is unsupported.
+- (b) LT Foods' "normalised" FY26 growth of ~19% strips out **US tariff pass-through**, per the AR and Chairman's letter, not Golden Star. The Q1 FY27 "normalised 19%/27%" adjusts for both [V-pri].
+- (c) The KRBL deck's FY26 basmati export destination split (Middle East 71%) agrees with the CMD's "close to three quarters" [V-pri]. The other five slices remain a layout reading.
+
+---
+
+## 4.1 Verification table — 40 figures the writer will use
+
+"Agrees?" compares the figure with Parts 1–3. **Count: 30 of 40 are [V-pri]; 7 are [V-sec]; 3 remain [V-snip].**
+
+| # | Figure | Value | Source (fetched 24-Oct-2026) | Tag | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | India basmati exports FY26 | 6.52 mt; ₹50,138 Cr | KRBL Q1 FY27 transcript (BSE, 21-Aug-2026) | V-pri | Volume yes (+8%); **value no** (Part 1 [E] ₹52–56k Cr) → S1 |
+| 2 | India non-basmati exports FY26 | 15.01 mt; ₹51,892 Cr | KRBL transcript | V-pri | Yes (~15 mt); value new |
+| 3 | India basmati production 2025-26; exports +8% | ~13.5 mt produced; 6.5 mt exported | KRBL AR 2025-26 MD&A | V-pri | New / yes |
+| 4 | West Asia share of basmati exports | ~71% (FY26 volume); "close to three quarters" | KRBL Q1 deck + CMD on call | V-pri | Yes |
+| 5 | India basmati exports Q1 FY27 | ~1.5 mt vs 1.7 mt; Middle East −11%; realisation +20% YoY, +13% QoQ | KRBL transcript | V-pri | New |
+| 6 | Gulf container freight at peak | US$500 → up to US$5,000 per container (west coast India → Middle East); LT: US$200 → US$4,000 | KRBL and LT transcripts | V-pri | New |
+| 7 | India rice production 2025-26 | 154.02 mt (2024-25 150.18 mt) | DA&FW 3rd AE PDF (27-May-2026) | V-pri | New |
+| 8 | India maize production | 55.09 mt (2025-26 3rd AE); 43.41 mt (2024-25) | DA&FW 3rd AE PDF | V-pri | **No** → S14 |
+| 9 | Soybean crop 2025-26 | Ministry 125.96 lakh t (kharif, 3rd AE) vs SOPA 105.36 lakh t | DA&FW [V-pri]; SOPA via Global Agriculture [V-sec] | V-pri | Partly (Part 1 had SOPA only) |
+| 10 | Maize share of ethanol, ESY 2025-26 to Sep | 413 of 987 crore litres = 41.8%; FCI rice 222 crore litres | AIDA via AgroSpectrum (19-Oct-2026) | V-sec | **No** (36% to June) → S15 |
+| 11 | Central Pool rice stock | 403.11 LMT (1-Jul-26) vs norm 135.40; 390.53 LMT (1-Sep-26) + 307.51 LMT paddy | Business Today citing FCI (8-Oct-2026) | V-sec | New (gap 3) |
+| 12 | ICCO cocoa balance | 2023/24 deficit −492 kt; 2024/25 surplus +75 kt (Feb) → +37 kt (Aug bulletin); 2025/26 withheld | icco.org Feb-2026 QBCS page [V-pri]; Aug revision via FoodBusinessMEA [V-sec] | V-pri | New (gap 4) |
+| 13 | ICE cocoa March-2026 low | US$2,846/t; July high US$6,478 | Barchart (search text only; article body would not render) | V-snip | Unchanged; still snippet |
+| 14 | Bt cotton BG-II MRP | ₹901 per 475 g (2025-26, notified 28-Mar-2025); BG-I ₹635. 2026-27 notified by S.O. 2071(E), 23-Apr-2026 (price line not read) | Global Agriculture [V-sec]; egazette [V-snip] | V-sec | Yes for 2025-26; 2026-27 figure still open |
+| 15 | Cotton kharif area 2026 | 108.45 lakh ha at 21-Aug-2026 (108.73) | Rural Voice citing MoA&FW | V-sec | **No** → S17 |
+| 16 | FAO indices Sep-2026 | FFPI 136.0 (+1.5% m/m, +5.8% y/y); cereals +5.1% m/m (+17.2% y/y); All-Rice +1.4% | MercoPress reporting the FAO release (8-Oct-2026) | V-sec | Yes (+1.4%); adds levels |
+| 17 | Non-basmati white-rice policy | ban 20-Jul-2023 → lifted 28-Sep-2024 with US$490 MEP → MEP removed 23-Oct-2024; parboiled/brown/paddy duty 10% → nil from 22-Oct-2024 | DTNext/PTI (23-Oct-2024) | V-sec | Yes |
+| 18 | Broken-rice ban | DGFT notification 8-Sep-2022, effective 9-Sep-2022 | search text only | V-snip | Yes |
+| 19 | Basmati MEP | US$1,200/t from late Aug-2023 (initially to 15-Oct); later US$950; scrapped before Oct-2024 | Al Arabiya / agronfood snippets; DTNext confirms "earlier scrapped" | V-snip | Yes (dates still [K] for 25-Oct-2023 and 13/14-Sep-2024) |
+| 20 | Paddy prices | 1509 ₹2,500–3,200/qtl (Oct-2025); 1121 ₹4,300–4,700/qtl (Feb-2026) | KRBL CMD on call | V-pri | New (gap 2) |
+| 21 | SALIC in LT Foods | 9.22% (3,20,25,784 shares) | LT AR 2025-26 | V-pri | Yes (≈9% [E]) |
+| 22 | Golden Star 49% buy-out | US$15 m cash, 22-May-2025; FY26 contribution ₹494.7 Cr revenue / ₹62.3 Cr profit | LT AR note 58 | V-pri | New |
+| 23 | LT Foods net debt (Mar-26) | ₹1,377 Cr (auditor, incl. leases) / ND/EBITDA 0.6× (company) | LT AR note 50 and Chairman's letter | V-pri | Resolves the conflict → S7 |
+| 24 | LT Foods rice/paddy inventory (Jun-26) | 3.46 lakh t rice at ₹56/kg; 1.64 lakh t paddy at ₹38/kg | LT transcript | V-pri | **No** → S8 |
+| 25 | LT Foods Q1 FY27 tonnage | India 1,09,000 t; international 1,17,000 t | LT transcript | V-pri | New (gap 10) |
+| 26 | Daawat India share | 23.1% (Q1 FY27) vs 23.7% (FY26) | LT transcript | V-pri | Level yes; trend new |
+| 27 | KRBL inventory (Jun-26) | ₹2,944 Cr; 71 kt paddy + 389 kt rice | KRBL transcript (CFO) | V-pri | Value corrected → S9 |
+| 28 | KRBL cash + investments (Jun-26) | ₹1,841 Cr (₹1,281 Cr) | KRBL transcript and deck | V-pri | Yes |
+| 29 | KRBL ED holding | 6.26% = 1,43,33,221 attached shares of the Balsharaf Group | KRBL AR 2025-26 | V-pri | **Basis wrong in Part 1** → S3 |
+| 30 | KRBL FY27 guidance | GM ~30%; EBITDA 17–18%; domestic volume +10% (and for the next 2–3 years) | KRBL transcript | V-pri | New |
+| 31 | KRBL capacity | milling 207 MT/h; RE 150.7 MW | KRBL AR | V-pri | Refines [K] → S21 |
+| 32 | Manorama fractionation | 47,500 TPA = SF1 15,000 + SF2 32,500; → 52,000 TPA in Q3 FY27 | Manorama AR + transcript | V-pri | Total yes; **build-up no** → S4 |
+| 33 | Manorama customer concentration | Customer A 21.05% (₹285.7 Cr) + Customer B 19.49% (₹264.7 Cr) = 40.5% of FY26 standalone revenue | Manorama AR, revenue note (Ind AS 108) | V-pri | New (gap 15) |
+| 34 | Manorama QIP | 34,01,360 shares allotted 2-Jul-2026; shares 5,97,08,530 at Mar-26 | Manorama AR Directors' Report | V-pri | Yes |
+| 35 | Manorama capex | ₹460 Cr: Burkina ~₹120–130 Cr; SF3 + refinery commissioning ~Q3 FY28; FY27 capex ₹225–250 Cr | Manorama transcript | V-pri | Adds the split → S5 |
+| 36 | GAEL Malda | 1,200 TPD maize unit; **no ethanol project** | GAEL AR 2025-26 | V-pri | Resolves → S20 |
+| 37 | GAEL Q1 FY27 maize segment margin | 17.6% (₹190.41 Cr on ₹1,084.75 Cr) | GAEL Q1 deck (first pass; still the latest) | V-pri | Yes |
+| 38 | Kaveri FY26 crop revenue (standalone) | maize ₹403.2 Cr (+40.2%); hybrid rice ₹293.8 Cr (+18.4%); cotton ₹243.6 Cr (−6.6%); non-cotton ₹1,060.2 Cr = 81% | Kaveri AR 2025-26 | V-pri | Primer said non-cotton ~65% → **No** (see §4.2.5) |
+| 39 | Kaveri R&D | 7.18% of turnover (₹93.6 Cr) | Kaveri AR | V-pri | **No** → S12 |
+| 40 | Kaveri inventory / cash / vegetables | ~₹1,200 Cr (+₹200 Cr YoY) / ₹267 Cr / vegetables Q1 ₹15.08 Cr | Kaveri transcript | V-pri | New / corrects §E10 → S11, S13 |
+
+**Where two sources conflict, which is more credible**
+- **Soybean crop:** the ministry (125.96 lakh t) and SOPA (105.36 lakh t) differ by ~20 lakh t. SOPA is the trade body whose estimates drive crush economics and meal-export forecasts. The ministry's 3rd AE has historically run above SOPA. For crusher margins (GAEL), use SOPA; for "official output", use the ministry.
+- **US tariff on Indian rice:** LT's CFO says the 10% rate continued after 24-Jul-2026. A KRBL call participant referred to an "18% U.S. import duty now settled" (the 18% figure matches the Feb-2026 interim deal rate under the now-voided IEEPA regime). Credit LT, which pays the duty on 50% of its revenue; the tariff-rate site snippet (10% Sec 301 from 24-Jul-2026) agrees.
+- **Cocoa low:** US$2,846 is consistent with Barchart's narrative of a "2.5-year low" and the 2017–23 range (US$1,756–2,943), but it is still snippet-only.
+
+
+---
+
+## 4.2 Company deep-dives (primary documents)
+
+Format per company:
+- (a) management-commentary digest (paraphrased; source and date)
+- (b) concall KPI table
+- (c) 5-year history (screener consolidated, fetched 24-Oct-2026)
+- (d) 8-quarter trend (screener consolidated)
+- (e) annual-report findings (related parties/royalty, capacity, contingent liabilities, risks)
+- (f) Q2 FY27 set-up
+
+### 4.2.1 LT Foods (LTFOODS · 532783)
+
+**(a) Management digest — Q1 FY27 call, 31-Jul-2026** (MD & CEO, CFO, CEO India & Far East, Chief Corporate Development Officer; moderated by Motilal Oswal) [V-pri]
+
+1. **Headline:** revenue ₹3,161 Cr incl. other income (+26%; +19% normalised); GP ₹1,029 Cr (+19%); EBITDA ₹363 Cr (+20%); PAT ₹183 Cr (+9%); EPS ₹5.3. QoQ: revenue +8%, EBITDA +21%, PAT +35%. The CFO says Q1 is "in line with our annual estimates"; on track "across all financial parameters".
+2. **Segment growth guidance (medium term):** basmati & specialty rice **10–12%**; RTH/RTC **15–20%** (double the RTH business in ~3 years); organic **10–12%**; Middle East **~15%** a year from a small base.
+3. **Margins:** basmati EBITDA historically "around 13–14%", with ±1 pt if paddy inflation bites; inflation is passed on to consumers.
+   - Organic: EBITDA 4% in Q1 → **7–8% by the FY27 exit (~₹70–80 Cr EBITDA for the year)** → double-digit growth and margin by FY28 ("1.5 years").
+   - RTH breakeven at ~₹400 Cr revenue, 2–3 years out. The **US RTH facility starts in Q2 FY27** (the AR says capacity goes to ~30 m pouches over two years).
+4. **Paddy and crop:** 80–85% of the basmati area is canal- or tube-well-irrigated; ~20% of the area has groundwater stress. Management does not expect the 2026 crop to exceed last year's; "prices will remain firm".
+   - **Inventory at 30-Jun-2026: 3,46,000 t of rice at ₹56/kg and 1,64,000 t of paddy at ₹38/kg** — "sufficient … to service" branded demand until the new crop.
+5. **Tonnage (first disclosure of volume in this dossier):** Q1 FY27 sales **1,09,000 t in India and 1,17,000 t internationally** (2.26 lakh t in total). Basmati volume +11%; the gap to revenue growth (+32–34%) is "inflation in the commodity" plus US duty pass-through.
+6. **US tariffs:** the 10% rate "continued" after the 24-Jul-2026 expiry and is passed through fully.
+   - In Q4 FY26 the US tariff was **50%**; the drop back to 10% is why Q1 gross margin improved QoQ.
+   - LT is **eligible for refunds** of the struck-down duties; part was received in Q1, but **no income has been booked** (it is in discussion with customers). This is a possible one-off in later quarters.
+7. **CVD (organic soymeal):** LT **no longer ships soymeal to the US**; the residual case is in court. Rice and oilseeds to the US pay 10%.
+8. **Freight and geography:** Middle East freight went from US$200 to US$4,000 per container and could not be passed through ("competitive landscape"). The **Europe/UK/Middle East geography result was negative** in Q1. Logistics cost was 4.7% of revenue.
+9. **Shipment terms:** the CIF → C&I change is with a **related party (the US subsidiary)**. It moves cost between other expenditure and gross margin and does not change economics.
+   - Other expenditure rose from ₹419 Cr to ₹486 Cr because Golden Star is now consolidated.
+   - The low Q1 other income is "normalised"; Q4 had a one-off investment revaluation gain.
+10. **Market share:** an analyst cited FY26 share at 23.7% vs 23.1% now. Management blamed a Nielsen methodology reset, claimed a Q1 share gain, ~40%+ share on e-commerce platforms, and #1 in Maharashtra, Gujarat and MP. India revenue CAGR ~18% over three years.
+11. **US category:** jasmine is ~3× the size of the US basmati category; both grow 5–10% (jasmine a little faster).
+    - Jasmine has ~120-day working capital: lower margin, higher ROIC than basmati.
+    - Golden Star is now 100% owned.
+12. **Other:** a small new Australian company has been set up (no capex plan); supplier funding is "at the optimum", with only 4–5 days of further legroom.
+
+**(b) Concall KPI table — LT Foods**
+
+| KPI | Q1 FY27 | Q1 FY26 | Note / source |
+|---|---|---|---|
+| Revenue incl. OI (₹ Cr) | 3,161 | ~2,507 | +26%; normalised +19% [V-pri call] |
+| Gross profit (₹ Cr) / GM % | 1,029 / 32.6% | ~865 / 34.7% | GM dip = CIF→C&I with US subsidiary + organic GM 35% → 33% |
+| EBITDA (₹ Cr) / margin | 363 / 11.5% | ~302 / 12.1% | — |
+| PAT (₹ Cr) | 183 | 168 | +9% |
+| Basmati & specialty rice revenue / volume / EBITDA % | ₹2,845 Cr / +11% / 13% | ₹2,123 Cr | — |
+| Organic revenue / EBITDA % | ₹254 Cr / 4% | ~₹292 Cr / 10% | Remodelling to CPG |
+| RTH/RTC revenue | ₹53 Cr (+13%; biryani kits +42%) | ₹47 Cr | — |
+| Tonnes sold — India / international | 1,09,000 / 1,17,000 | n/d | First tonnage disclosure |
+| Implied blended ₹/kg (basmati segment ÷ total tonnes) | ~₹126/kg [E] | — | Assumes the tonnage refers to the rice segment |
+| Rice inventory (t, ₹/kg) | 3,46,000 at ₹56 | n/d | ≈₹1,938 Cr [E] |
+| Paddy inventory (t, ₹/kg) | 1,64,000 at ₹38 | n/d | ≈₹623 Cr [E] |
+| Inventory / receivable / WC days (company) | 187 / 26 / 170 | 221 / 30 / 195 | — |
+| ROCE (company) | 21.1% | — | — |
+| ND/EBITDA; ND/equity | 0.48×; 0.15× | 0.59×; 0.18× | FY26: 0.6× / 0.16× |
+| Logistics cost % of revenue | 4.7% | — | — |
+| Daawat India share | 23.1% | FY26 23.7% | Nielsen MAT |
+
+**(c) 5-year history — LT Foods (₹ Cr; screener consolidated)** [V screener 24-Oct-2026]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 5,427 | 6,936 | 7,772 | 8,681 | 10,946 |
+| Company revenue incl. OI [V-pri deck/AR] | 5,451 | 6,979 | 7,822 | 8,770 | 11,023 |
+| Operating profit | 592 | 701 | 938 | 979 | 1,159 |
+| OPM % | 11 | 10 | 12 | 11 | 11 |
+| PAT | 309 | 423 | 598 | 612 | 625 |
+| ROCE % | 14 | 17 | 21 | 19 | 18 |
+| CFO | 517 | 258 | 757 | 462 | 910 |
+| Inventory days (screener) | 247 | 254 | 249 | 286 | 256 |
+| Cash conversion cycle (days) | 215 | 199 | 193 | 202 | 180 |
+
+**(d) 8-quarter trend — LT Foods (₹ Cr; screener consolidated)** [V]
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 2,108 | 2,275 | 2,228 | 2,464 | 2,766 | 2,809 | 2,907 | 3,152 |
+| Operating profit | 229 | 250 | 258 | 265 | 309 | 314 | 267 | 354 |
+| OPM % | 11 | 11 | 12 | 11 | 11 | 11 | 9 | 11 |
+| Other income | 35 | 17 | 36 | 43 | 8 | 4 | 31 | 10 |
+| PBT | 200 | 198 | 216 | 228 | 229 | 220 | 189 | 250 |
+| PAT | 151 | 145 | 161 | 168 | 164 | 157 | 136 | 183 |
+
+Read:
+- Revenue stepped up from Q1 FY26 as Golden Star was consolidated (22-May-2025) and US tariff pass-through inflated the top line.
+- OP was flat at ~₹265–314 Cr until Q1 FY27's ₹354 Cr.
+- Q4 FY26 (OPM 9%) carried the 50% US tariff peak and "damage retention" one-offs (CFO).
+- Interest rose from ₹19 Cr (Q1 FY25) to ₹40 Cr (Q1 FY27) on supplier funding and leases; D&A rose from ₹42 Cr to ₹74 Cr (Golden Star intangibles, UK/EU plants).
+
+**(e) FY26 annual-report findings — LT Foods** (Integrated AR 2025-26) [V-pri]
+- **Ownership and strategic holder:**
+  - SALIC International Investment Co. holds **9.22%** (3,20,25,784 shares) and is shown as an "enterprise having significant influence", together with its subsidiary United Farmers Investment Co.
+  - A SALIC nominee sits on the board (sitting fees ₹4.6 lakh).
+  - Promoter holding is 51.00%, unpledged.
+- **Golden Star:** see S26. In FY26 it contributed **₹494.7 Cr of revenue and ₹62.3 Cr of profit** (~10% of group PAT). The 49% cost US$15 m: a cheap bolt-on at ~3.6× the annualised profit attributable to the 49% acquired [E: ₹128.5 Cr ÷ (0.49 × ₹62.3 Cr × 12/10.3 ≈ ₹35.6 Cr)].
+- **Net debt:** two bases (S7). Working-capital days 196 → 176 (FY26). CRISIL upgraded LT to **AA-/A1+ with a positive outlook (Jul-2025)**.
+- **Contingent liabilities:** ₹140.9 Cr (₹75.0 Cr). Income tax ₹53.0 Cr; **GST demands ₹67.9 Cr (from ₹3.7 Cr)**; EPCG duty saved ₹5.6 Cr; other guarantees ₹13.5 Cr; FCI differential-price demand ₹0.76 Cr. Golden Star brought no contingent liabilities.
+- **Related-party transactions (no royalty):**
+  - Purchases from promoter-linked entities: Super Texfab ₹38.5 Cr (₹79.4 Cr); Sara Flexi Pack ₹20.4 Cr; UIPL Innovations ₹21.0 Cr; Kameda LT (JV) ₹10.3 Cr. These are likely packaging/inputs.
+  - Sales to Oswal Woollen Mills ₹5.7 Cr; rent to promoter relatives ~₹1.2 Cr.
+  - **Family remuneration:** four Arora KMP directors ~₹11.3 Cr + five relatives employed ~₹18.0 Cr = **~₹29 Cr (~4.7% of FY26 PAT)**. Worth a line in the governance section.
+- **Capacity and operations:**
+  - UK Harlow facility fully operational (~GBP 45 m of revenue); Rotterdam organic facility inaugurated (Nature Bio-Foods, shifting from B2B to supplying European supermarkets).
+  - Target: all European entities profitable by FY2028.
+  - RTH capacity +15 m pouches in FY26; a second US facility from Q2 FY27 → ~30 m pouches within two years.
+  - Royal holds >60% of US basmati imports; jasmine is ~3× basmati in the US.
+- **Risks (AR register):** US tariff pass-through and volatility; freight (Middle East lanes up 10–15×); input-price volatility; cyber risk; organic restructuring; inorganic integration.
+- **Dividend:** ₹3.00 per share (₹104.2 Cr).
+
+**(f) Q2 FY27 set-up (board 27-Oct-2026)** [E]
+- Positives: a full Golden Star quarter in both periods (the base now includes it from ~22-May); RTH plant start-up costs; Middle East freight still elevated.
+- Watch: any IEEPA-refund income booked; organic margin step-up (target 7–8% by year-end); paddy procurement for the new crop at >₹4,800/qtl for 1509 (the ₹56/kg rice and ₹38/kg paddy book is well below replacement cost: a near-term gross-margin tailwind, a FY28 headwind).
+
+---
+
+### 4.2.2 KRBL (KRBL · 530813)
+
+**(a) Management digest — Q1 FY27 call, 17-Aug-2026** (CMD, JMD, Head-India Business, CFO) [V-pri]
+
+1. **Industry view (CMD):**
+   - USDA 12-Aug-2026: world rice 2026/27 ~537 mt (546 mt); consumption 543 mt (539 mt); India production 150 mt (154 mt); India exports ~25 mt (+1 mt); India consumption 124.5 → ~128 mt.
+   - Government rice stocks are "close to 3× buffer norms" (1-Apr-2026).
+   - Monsoon −11% to 5-Aug; IMD cut its forecast to ~90% of LPA; reservoirs −27% YoY in early August; paddy area −4% at 7-Aug.
+   - Conclusion: "firm, not soft" paddy prices.
+2. **The 2025 crop:** the Punjab floods (late Aug–early Sep 2025) destroyed ~2 lakh ha, including ~60,000 acres of basmati; Punjab basmati output fell 20–25%, and quality was segmented.
+   - **1509 opened at ₹2,500–3,200/qtl (Oct-2025); 1121 reached ₹4,300–4,700/qtl in Haryana mandis (Feb-2026)**; old-crop paddy was exhausted by May.
+   - Pakistan: basmati damage only 5–6%, but its basmati traded **~US$100/t above India's**; Pakistan's rice exports (FY to Jun-2026) fell 26% in volume and 32% in value.
+   - **India ≈85% of world basmati trade.**
+3. **India FY26 exports:** basmati **6.52 mt / ₹50,138 Cr**; non-basmati **15.01 mt / ₹51,892 Cr** — a record year by volume.
+4. **West Asia war (from 28-Feb-2026):**
+   - 4–5 lakh t of Indian basmati was stranded at the peak.
+   - West-coast → Middle East container rates rose from ~US$500 to as much as US$5,000.
+   - Cargo was rerouted via Khor Fakkan, Jeddah and Salalah (+7–14 days).
+   - **India Q1 FY27 basmati exports ~1.5 mt vs 1.7 mt; Middle East −11%; realisations +20% YoY, +13% QoQ**: "a volume shock caused by logistics, not a demand shock". By mid-August transit through Hormuz had "begun to resume".
+5. **KRBL exports:** ₹244 Cr vs ₹485 Cr (−50%), "entirely a Middle East story"; all other regions combined +37%.
+   - Export volumes are expected to recover from Q2, with "meaningful export growth" in FY27.
+   - Saudi: its own entity has been deferred; KRBL is choosing among 3–4 distributors after "the past problems … selection of a wrong partner" set it back ~1.5 years; wholesale supply continues meanwhile.
+   - Middle East shelf benchmark prices have been reset upward, so freight and paddy cost can now be passed on.
+6. **Domestic (Head-India):**
+   - Revenue ₹1,221 Cr (+14%) on ~11% realisation (branded realisation +9% QoQ, from a ~9% price increase).
+   - **Branded volume declined modestly** because intermediaries deferred bulk-pack buying; the analyst-cited volume was ~+3% while net sales realisation rose 11%.
+   - **FY27 domestic volume guidance ~+10%, and "the number we commit to for the upcoming 2 to 3 years".**
+   - No more price rises in Q2; recalibration after the new crop.
+7. **Channels:**
+   - Distributor-management system across the top 190 distributors (65% of the GT consumer-pack business).
+   - Organised-trade fill rate ~90% (target 95% within 72 hours).
+   - MT rice volume +6.5%, value +13%, but MT share "needs improvement".
+   - **E-commerce primary sales +~50%; India Gate exit-June e-com share ~41%, ~10 points ahead of #2.**
+   - **GT share down ~2 points YoY.**
+   - India Gate is #1 in ~75% of states.
+8. **New categories:**
+   - Branded regional rice FY26 ~₹270 Cr, +25% targeted (on track in Q1); Gangavathi (Karnataka) facility by end-Q3.
+   - Masala annual run-rate ₹9 Cr → **₹25 Cr target by FY27 exit** (+74% value growth in Q1).
+   - Poha launched in 22 North-Indian cities.
+   - Quick-commerce platforms are asking KRBL to list regional varieties.
+9. **Financial (CFO):**
+   - Other income ₹64 Cr (₹32 Cr): +₹18 Cr investment gains, ₹9.5 Cr forex, +₹4.4 Cr interest.
+   - GM ex-OI **33.51% vs 24.15%**.
+   - **FY27 guidance: GM ~30%, EBITDA margin 17–18%**; Q1 margins "clearly not sustainable" (high prices + mark-to-market gains).
+10. **Inventory and procurement:** ₹2,944 Cr = paddy ₹286 Cr + rice ₹2,481 Cr (+ ~₹177 Cr other) [E residual]; **71,000 t paddy and 3,89,000 t rice** (91,000 / 3,92,000).
+    - The JMD will buy **more paddy this season**, while rebuffing calls to deploy cash just because it is there ("you have to see the market").
+11. **ED matter:** "sub judice"; no comment.
+
+**(b) Concall KPI table — KRBL**
+
+| KPI | Q1 FY27 | Q1 FY26 | Note |
+|---|---|---|---|
+| Revenue from operations (₹ Cr) | 1,496 | 1,584 | −6% |
+| Domestic (ex-power) / exports / power | 1,221 / 244 / 31 | ~1,067 / 485 / 32 | Exports −50%; non-Middle East +37% |
+| Total income (₹ Cr) | 1,560 | ~1,616 | −3% |
+| GM incl. OI / ex-OI | 36.3% / 33.51% | 25.7% / 24.15% | — |
+| EBITDA margin | 23.8% | 13.9% | FY27 guide 17–18% |
+| PAT (₹ Cr) / margin | 261 / 16.7% | 151 / 9.3% | Record quarter |
+| Rice realisation (domestic) | +11% YoY; +9% QoQ (branded) | — | — |
+| Inventory (₹ Cr) | 2,944 | ~2,953 per deck text | S9 |
+| Paddy / rice inventory (t) | 71,000 / 3,89,000 | 91,000 / 3,92,000 | — |
+| Implied carrying value — rice / paddy | ~₹63.8/kg / ~₹40.3/kg [E] | ~₹62.2/kg / ~₹38.9/kg [E] | vs LT ₹56 / ₹38 |
+| Cash + investments (₹ Cr) | 1,841 | 1,281 | — |
+| E-com share (exit-June) | ~41% | — | ~10 points lead |
+| Modern-trade rice volume / value | +6.5% / +13% | — | — |
+| Branded regional rice | +25% (FY26 base ~₹270 Cr) | — | — |
+
+**(c) 5-year history — KRBL (₹ Cr; screener consolidated)** [V]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 4,211 | 5,365 | 5,385 | 5,594 | 6,098 |
+| Operating profit | 662 | 939 | 802 | 674 | 902 |
+| OPM % | 16 | 18 | 15 | 12 | 15 |
+| PAT | 459 | 701 | 596 | 476 | 648 |
+| ROCE % | 15 | 21 | 16 | 12 | 15 |
+| CFO | 561 | −360 | 224 | 961 | 933 |
+| Inventory days (screener) | 336 | 404 | 425 | 358 | 329 |
+| Working-capital days | 234 | 260 | 264 | 234 | 215 |
+| Company EBITDA incl. OI [V-pri deck] | — | — | — | — | 973 (15.8%) |
+| Net bank debt (company) [V-pri AR] | — | — | — | — | (789) |
+
+**(d) 8-quarter trend — KRBL (₹ Cr; screener consolidated)** [V]
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,270 | 1,682 | 1,442 | 1,584 | 1,511 | 1,477 | 1,526 | 1,496 |
+| Operating profit | 123 | 195 | 224 | 193 | 226 | 229 | 229 | 308 |
+| OPM % | 10 | 12 | 16 | 12 | 15 | 15 | 15 | 21 |
+| Other income | 36 | 8 | 11 | 32 | 30 | 25 | 8 | 64 |
+| PBT | 138 | 182 | 207 | 202 | 233 | 229 | 210 | 348 |
+| PAT | 103 | 133 | 154 | 151 | 172 | 170 | 155 | 261 |
+
+Read:
+- Revenue has been flat at ~₹1,480–1,580 Cr for six quarters while OPM rose from 10% to 21%. KRBL is a margin story, not a volume story.
+- Guidance of 17–18% EBITDA for FY27 implies Q2–Q4 margins of ~15–16% incl. OI [E], i.e. back near the FY26 run-rate.
+
+**(e) FY26 annual-report findings — KRBL** (AR 2025-26) [V-pri]
+- **ED / PMLA:** see S3. Two separate threads:
+  - (i) the AgustaWestland-linked complaint (2021), under which ED attached **Balsharaf Group's 1.43 Cr KRBL shares (6.26%)**;
+  - (ii) the Dhuri land/building attachment (₹15.32 Cr) linked to a matter before the Special Judge, CBI Court. The ₹11.13 Cr deposit was refunded 6-Mar-2026; trial separation was allowed 1-Nov-2025; dates were set for 9-Sep and 15-Sep-2026.
+  - **Implication:** the 6.26% block is neither government support nor promoter stock. It is a customer's stake frozen by ED; its eventual release or confiscation is an overhang on free float, not on KRBL's assets.
+- **Contingent liabilities:** ~₹107.5 Cr (from ~₹303.6 Cr): indirect tax ₹50.7 Cr, ED ₹15.3 Cr, other ₹40.4 Cr, direct tax ₹1.1 Cr.
+- **Related parties (no royalty; India Gate is owned by KRBL):**
+  - Lease rent to promoter companies ~₹15–16 Cr (KRBL Foods ₹7.5 Cr, KRBL Infrastructure ₹3.2 Cr, Adwet Warehousing ₹2.2 Cr, Holistic Farms ₹0.6 Cr) plus small rents to family members.
+  - Sales to Khushi Ram Behari Lal (the promoter-family firm) ₹8.9 Cr.
+  - **Short-term loans from promoters** (e.g. the JMD lent ₹28.9 Cr and was repaid ₹55.3 Cr in FY26).
+  - Three executive promoters at ~₹4.3 Cr each.
+- **Capacity:** milling 207 MT/h; processing 233 MT/h; wind 112.25 MW, biomass 21.49 MW, solar 17 MW; 5 units; capex ₹758 Cr over five years; marketing ₹149.6 Cr in FY26 (~2.5% of revenue); R&D ₹8.7 Cr; 0% promoter pledge.
+- **Industry data in the MD&A:**
+  - India produced ~13.5 mt of basmati in 2025-26 and exported 6.5 mt (+8%).
+  - **Kantar (Mar-2026): 43.4% of urban households consume basmati, but only 20.4% buy packaged basmati.** This is the headroom statistic for the "loose → branded" thesis.
+  - USDA: India basmati ~14 mt in 2025-26 on 2.4 → 2.5 m ha.
+  - GoI 2026-27 targets: rice 151 mt; foodgrain 373.93 mt; maize 52.5 mt.
+- **Risks (MD&A):** prolonged Middle East conflict hits exports temporarily; below-normal monsoon could cut basmati output below USDA's 14 mt.
+
+**(f) Q2 FY27 set-up (date not announced)** [E]
+- Exports should recover sequentially (bulk resumes; Hormuz partially open) but not to Q2 FY26's level.
+- Domestic realisation is held (no Q2 price rise); gross margin trends toward the ~30% guide.
+- Other income is unlikely to repeat Q1's ₹64 Cr.
+- The ED holding, cash deployment and new-crop buying (stated intent to buy more) are the call topics.
+
+
+---
+
+### 4.2.3 Manorama Industries (MANORAMA · 541974)
+
+**(a) Management digest — Q1 FY27 call, 14-Aug-2026** (CMD, Director & CFO, AVP-IR; moderated by EY) [V-pri]
+
+1. **Headline:** revenue ₹404 Cr (+39.5%), the first ₹400 Cr quarter; EBITDA ₹106 Cr (+42.2%; 26.3%, +49 bps); PAT ₹79 Cr (+67.6%; 19.5%). Export:domestic 60:40 (Q1 FY26 "55–60%" export).
+2. **Growth is volume-led:** ~85% of the YoY growth came from volume. Pricing is "largely stable" because products are formulated to customer recipes, and contracts run **9–12 months, renewed on a rolling basis** (no lumpy renewal quarter). No per-tonne realisation is disclosed.
+3. **Capacity and utilisation:**
+   - Q1 utilisation ~80%.
+   - Debottlenecking: the 7,500 TPA tranche is done; the remaining **+4,500 TPA comes in Q3 FY27 → 52,000 TPA**.
+   - **FY27 guide: use ~80% of 52,000 TPA** (internal target 80–85%); improvements will be "shared".
+   - Management **declined to endorse a ₹1,600–1,800 Cr FY27 revenue figure** an analyst attributed to a November conference: "we have given our guidance on the utilisation".
+4. **Product mix:** of the "Stearin & CBE 71.4%" bucket, the IR head said "CBE was 30%", with the rest stearin. The basis (share of revenue vs share of the bucket) was not clarified.
+   - Raw material ~50:50 imported (shea seeds and butters from Africa; also Malaysia/Indonesia) vs domestic (sal, mango).
+   - Gross margin guided at **45–50%** and best read together with EBITDA. Raw-material cost "~50%" of sales; by-product (de-oiled cake) realisation and freight timing move GM.
+5. **New products:** an **enzymatic CBE ("ECBE") / cocoa-butter-alternative plant** using an interesterification (ESOS) process to turn olein (liquid fraction) into hard fat. This is a forward-integration use of by-products.
+6. **Capex:**
+   - The ₹460 Cr plan = **Burkina Faso ~₹120–130 Cr** (extraction/expelling; ~3-year payback once running; regulatory approvals awaited on ~10 ha / 24 acres) + India (SF3 75,000 TPA + 90,000 TPA refinery).
+   - **Commissioning ~Q3 FY28; full effect FY29.**
+   - **FY27 capex ₹225–250 Cr** (Q1 spend ~₹20 Cr; ~₹70 Cr cumulative); debottlenecking costs only ₹5–6 Cr.
+7. **Funding:** the ₹500 Cr QIP plus **~₹150 Cr of FDs ex-QIP**; SBI is lead banker; **"no equity dilution" planned**. Working capital for the new capacity will be bank-funded (an analyst estimated ₹900–1,000 Cr of extra WC at a 7× asset turn; management did not dispute the scale).
+8. **Africa and Brazil:**
+   - New Chad subsidiary (Manorama Savannah Agro Chad Sarl); "10 wholly owned subsidiaries in Africa"; Nigeria's temporary shea-nut export ban is immaterial (Nigeria is "1 of 22" shea countries).
+   - **Brazil (Dekel) is a processing facility** fed by Indian production; trial batches are under way, with a ramp over 2–4 quarters. Revenue will show up in the Indian entity.
+9. **Costs and other income:** employee cost run-rate ₹14–15 Cr per quarter (Q4 had incentive provisions); other expenses +16% on freight/containers. **Q1 other income ₹16 Cr = ₹13 Cr forex + ₹3 Cr FD interest**, to normalise. Hedging covers 50–60% of net exposure. Subsidiary losses fell from ~₹8 Cr (Q4 FY26) to ~₹3 Cr; these are procurement vehicles with no revenue.
+10. **Customs matter (asked on the call):** the debit note to a supplier "from that region" is being pursued in full, and suppliers are diversified. The underlying filing is a **₹20.64 Cr voluntary customs payment (29-Jul-2026) on palm mid-fraction imported under India–UAE CEPA** (S30). It falls in Q2 FY27.
+
+**(b) Concall KPI table — Manorama**
+
+| KPI | Q1 FY27 | Q1 FY26 | FY26 | Note |
+|---|---|---|---|---|
+| Revenue (₹ Cr) | 404.0 | 289.6 | 1,366.7 | +39.5% |
+| GP % | 43.6% | 47.4% | 46.3% | Guide 45–50% |
+| EBITDA (₹ Cr) / % | 106.2 / 26.3% | 74.7 / 25.8% | 361.3 / 26.4% | — |
+| PAT (₹ Cr) / % | 78.8 / 19.5% | 47.0 / 16.2% | ~225 / 16.5% | Q1 incl. ₹13 Cr forex gain |
+| Fractionation capacity (TPA) | 47,500 | 40,000 | 47,500 | → 52,000 in Q3 FY27 |
+| Utilisation | ~80% | — | ~85% (pre-debottleneck) | FY27 guide ~80% of 52,000 |
+| Implied fractionation output, FY27 [E] | — | — | — | ~41,600 t (52,000 × 80%) vs ~34–38 kt in FY26 [E] → ~+10–20% volume |
+| Export : domestic | 60 : 40 | 55–60 : 40–45 | ~57 : 43 | — |
+| Capex FY27 (₹ Cr) | ~20 spent | — | — | Guide 225–250 |
+| Cash (ex-QIP FDs) | ~₹150 Cr + ₹500 Cr QIP | — | — | — |
+| Top-2 customers (FY26, standalone) | — | — | 40.5% | AR (Ind AS 108) |
+
+**(c) 5-year history — Manorama (₹ Cr; standalone FY22–FY24, consolidated FY25–FY26)** [V screener]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 279 | 351 | 457 | 771 | 1,367 |
+| Operating profit | 39 | 56 | 74 | 186 | 361 |
+| OPM % | 14 | 16 | 16 | 24 | 26 |
+| PAT | 24 | 30 | 40 | 110 | 225 |
+| ROCE % (standalone) | 13 | 13 | 13 | 23 | 35 |
+| Inventory days (standalone) | 535 | 272 | 586 | 516 | 356 |
+| Fractionation capacity, year-end (TPA) [V-pri AR] | 15,000 | 15,000 | 15,000 | 40,000 | 47,500 |
+| Average fixed assets (₹ Cr) [V-pri AR] | 56 | 76 | 113 | 152 | 184 |
+| Revenue ÷ fractionation TPA (₹ lakh per tonne of capacity) [E] | 1.86 | 2.34 | 3.05 | 1.93 | 2.88 |
+
+The last row shows **revenue per tonne of fractionation capacity rising 64% from FY22 to FY24**, before capacity was added. That is the cocoa-price effect on realisations; it fell back as the new SF2 capacity ramped in FY25 and rose again in FY26 [E].
+
+**(d) 8-quarter trend — Manorama (₹ Cr; consolidated)** [V]
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 195 | 209 | 233 | 290 | 323 | 363 | 391 | 404 |
+| Operating profit | 44 | 54 | 61 | 75 | 88 | 102 | 97 | 106 |
+| OPM % | 23 | 26 | 26 | 26 | 27 | 28 | 25 | 26 |
+| Other income | 3 | 4 | 10 | 6 | 1 | 12 | −7 | 16 |
+| PBT | 34 | 41 | 52 | 65 | 74 | 96 | 74 | 106 |
+| PAT | 26 | 30 | 40 | 47 | 55 | 72 | 52 | 79 |
+
+Read:
+- Seven consecutive quarters of sequential revenue growth.
+- QoQ growth slowed to +3% in Q1 FY27 (391 → 404) as utilisation hit ~80% of 47,500 TPA. The step-up now waits for the Q3 debottleneck (+4,500 TPA) and FY28's SF3.
+- Q2 FY27 carries the ₹20.6 Cr customs payment unless it is booked as recoverable [E].
+
+**(e) FY26 annual-report findings — Manorama** (AR 2025-26) [V-pri]
+- **Customer concentration (new):** two customers = **40.5%** of FY26 standalone revenue (A: ₹285.7 Cr, 21.05%; B: ₹264.7 Cr, 19.49%). Names are withheld under Ind AS 108. This is the single biggest risk disclosure the first pass missed.
+- **Capacity table:** seed milling 90,000 TPA; solvent extraction 90,000; refining 45,000 (R1 15,000 + R2/interesterification 30,000; IE 15,000 added in 2023); fractionation 47,500; packing 30,000 (doubled in FY26).
+  - Planned: SF3 75,000; refinery 90,000; Burkina Faso seed processing (~90,000 TPA per the capacity graphic).
+  - CARE upgraded the rating to **A+ (Stable)**.
+- **Market:** global specialty fats & oils **US$18.17 bn (2026) → US$32.5 bn (2034), 7.6% CAGR** (company-cited).
+- **Corporate actions:**
+  - Postal ballot (19-Apr-2026) approved a raise of up to ₹500 Cr.
+  - QIP of 34,01,360 shares allotted 2-Jul-2026; ESOP 12,500 shares 3-Jul-2026; pre-QIP share count 5,97,08,530.
+  - Board (11-May-2026) approved support for **Taang Kaam Industries SA (Burkina Faso)**: equity up to ₹150 Cr + loans up to ₹100 Cr + guarantees up to ₹100 Cr.
+  - FY26 dividend outgo ₹5.05 Cr.
+- **Contingent liabilities:** negligible (~₹1.35 Cr). Capital commitments ₹0.32 Cr (₹15.5 Cr).
+- **Related parties:** the first pass found nothing material and this pass read nothing to the contrary (no royalty). The CMD family (Saraf) holds 51.38% after the QIP.
+- **QIP allottees** (VQ Fastercap ~20%, ADIA, Goldman Sachs, Morgan Stanley, WhiteOak) remain [V-snip]. The AR gives only the share count.
+
+**(f) Q2 FY27 set-up (date not announced; trading window closed 26-Sep)** [E]
+- Volume is capped near ~9,500–10,000 t a quarter until Q3's debottleneck.
+- The ₹20.6 Cr customs payment and freight costs could dent reported PAT.
+- Cocoa at ~US$5,500 (Oct) vs ~US$8,000–9,000 a year earlier eases customers' reformulation urgency; watch GM vs the 45–50% guide (Q1 43.6% was already below the band).
+
+---
+
+### 4.2.4 Gujarat Ambuja Exports (GAEL · 524226)
+
+**(a) Management digest** — GAEL holds **no earnings call** (screener lists only the Aug-2026 PPT). This digest uses the **CMD's Perspective in the FY26 Integrated AR** and the Q1 FY27 deck (first pass) [V-pri]:
+1. **FY26 operating context:** the grain-ethanol blending programme "redirected substantial volumes of maize towards ethanol production", tightening supply and keeping maize prices firm "for much of the year". Input-cost pressure "began showing signs of moderation towards the latter part of the year". Q1 FY27's maize segment margin of 17.6% vs 7.0% for FY26 is that moderation arriving.
+2. **Strategy:** "insulate margins by moving downstream into value-added chemistry" — dextrose monohydrate/anhydrous, sorbitol, maltodextrin and **fermentation (sodium gluconate)**, which the AR calls "the future moat" (high-barrier B2B formulations).
+3. **Supply reliability:** **83% capacity availability** maintained through FY26. Bio-energy from effluents and residues insulates against grid tariffs.
+4. **Capacity roadmap:** the **900 TPD Himmatnagar greenfield** wet-milling plant "by FY 2026-27". Malda (West Bengal) is the "Eastern Anchor" at **1,200 TPD**, sourcing Bihar corn. No ethanol project is mentioned (S20).
+5. **Macro:** export uncertainty and freight disruption (Hormuz) on export markets; domestic demand strong.
+6. **Q1 FY27 deck (1-Aug-2026, first pass):** revenue ₹1,594 Cr (+23.5%); EBITDA ₹271 Cr (17.0%); PAT ₹177 Cr (+171%); maize segment margin 17.6% on "the moderation in maize prices we anticipated" plus value-added capacity.
+
+**(b) KPI table — GAEL** (company standalone basis; deck and AR) [V-pri]
+
+| KPI | Q1 FY27 | FY26 | FY25 | Note |
+|---|---|---|---|---|
+| Revenue (₹ Cr) | 1,594.3 | 5,728.6 | 4,613 | — |
+| EBITDA incl. OI (₹ Cr) / % | 271.1 / 17.0% | 574.0 / 10.0% | 485 / 10.5% | — |
+| PAT (₹ Cr) | 176.9 | 305.0 | 251 | — |
+| Maize segment revenue / margin | 1,084.8 / 17.6% | 3,566 / 7.0% | — | Maize = 85.9% of Q1 segment result |
+| Other agro (crush/oil) revenue / margin | 483.5 / 5.9% | 2,089 / 6.2% | — | — |
+| Maize grind capacity (TPD) | 5,600 | 5,600 | — | → 6,500 with Himmatnagar (FY27) |
+| Capacity availability | — | 83% | — | AR |
+| Sodium gluconate (TPA) | 30,000 | 30,000 | — | → 1,20,000 by FY28 |
+| Borrowings (₹ Cr) | — | 433.6 | 217.6 | AR financial-instruments note |
+| Financial investments, carrying (₹ Cr) | — | 1,255.5 | 958.5 | AR (FVTPL + FVOCI + amortised) |
+| Capex (₹ Cr) | — | 259.5 | 281 | FY22–26 total ₹1,243 Cr |
+
+**(c) 5-year history — GAEL (₹ Cr; screener consolidated)** [V]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 4,670 | 4,909 | 4,927 | 4,613 | 5,729 |
+| Operating profit | 687 | 476 | 443 | 401 | 468 |
+| OPM % | 15 | 10 | 9 | 9 | 8 |
+| PAT | 475 | 330 | 346 | 249 | 304 |
+| ROCE % | 30 | 18 | 16 | 11 | 12 |
+| Company EBITDA incl. OI [V-pri deck] | 741 | 549 | 587 | 485 | 574 |
+| Inventory days | 76 | 69 | 81 | 79 | 70 |
+| CFO | 596 | 241 | 213 | 341 | 228 |
+
+**(d) 8-quarter trend — GAEL (₹ Cr; screener consolidated)** [V]
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,125 | 1,131 | 1,267 | 1,291 | 1,487 | 1,484 | 1,467 | 1,594 |
+| Operating profit | 110 | 123 | 62 | 96 | 76 | 99 | 195 | 232 |
+| OPM % | 10 | 11 | 4.9 | 7 | 5 | 7 | 13 | 15 |
+| Other income | 20 | 9 | 25 | 30 | 19 | 28 | 26 | 39 |
+| PBT | 94 | 97 | 49 | 86 | 51 | 88 | 180 | 235 |
+| PAT | 69 | 71 | 32 | 65 | 38 | 66 | 135 | 177 |
+
+Read:
+- The margin turn began in **Q4 FY26 (OPM 13%)**, not Q1 FY27, i.e. as soon as the FY26 rabi/kharif maize price softened.
+- The Q2 FY26 base (OPM 5%, PAT ₹38 Cr) is very easy, so **Q2 FY27 (board today) should show triple-digit PAT growth** unless maize costs spiked.
+- Kaveri's ED says maize went from **~₹16–17/kg at the start of the 2026 season to ~₹27–28/kg by mid-August** [V-pri Kaveri call]. FAO's maize index rose 5.6% m/m in September [V-sec]. That is the key Q3/Q4 risk to GAEL's spread.
+
+**(e) FY26 annual-report findings — GAEL** (Integrated AR 2025-26) [V-pri]
+- **No Malda ethanol project** (S20). Ten plants; Malda = 1,200 TPD maize processing; Himmatnagar 900 TPD by FY27.
+- **Contingent liabilities ₹64.9 Cr** (₹88.7 Cr): mainly ₹57.3 Cr of income-tax appeals filed *by the department*; GST ₹3.5 Cr; claims ₹3.1 Cr. Corporate guarantee ₹3.26 Cr for a subsidiary's LC.
+- **Balance sheet:** borrowings doubled to ₹433.6 Cr (working capital plus capex), against ₹1,255.5 Cr of financial investments → **net financial surplus ~₹820 Cr** [E] (screener basis ₹620 Cr).
+- **Credit:** CARE AA-/Stable for long-term facilities (outlook revised to Positive 8-Oct-2026 per the screener announcement).
+- **Related parties / royalty:** no royalty or brand-fee arrangement was found in the AR text searched. The company was "set up in 1991".
+
+**(f) Q2 FY27 (board 24-Oct-2026)** — results not out at 06:31 UTC. The writer must pull the BSE outcome before printing. The base effect makes a large YoY jump likely [E].
+
+---
+
+### 4.2.5 Kaveri Seed Company (KSCL · 532899)
+
+**(a) Management digest — Q1 FY27 call, 14-Aug-2026** (Executive Director Mithun Chand) [V-pri]
+
+1. **Headline (standalone):** revenue ₹815 Cr (₹945 Cr); EBITDA ₹285 Cr (₹332 Cr); ~35% margin ("slightly above" last year); PAT ₹271.3 Cr (₹316 Cr). **Cash on books ₹267 Cr.**
+2. **Season:** El Niño and one of the shortest sowing windows in years. **Only ~1/5 of Karnataka's maize land was sown by mid-June.**
+   - Karnataka kharif maize seed: **~1,500 t this year vs ~2,600 t last year** (−1,100–1,200 t ≈ ₹40–60 Cr of sales), recoverable in Q2/Q3 as Tungabhadra dams fill.
+   - Karnataka was **25–30% of last year's kharif sales**.
+   - Kaveri lost share in **Madhya Pradesh** (big acreage gain, but "we don't have a product") and Maharashtra/Bihar; it gained in Rajasthan.
+   - Peers Bayer/Advanta grew maize seed ~20% while Kaveri fell ~40% (analyst). Management attributes this to geography.
+3. **Margins:** gross margin **+2–3 points**. **Cost of production fell 4–5% while realisations fell 2–3%.** Extra field staff hired for an expected good season hurt EBITDA %.
+4. **Inventory:** **~₹1,200 Cr, ~₹200 Cr more than last year** (produced for a good season). Production will be cut next year, so FY28 cost of goods ≈ FY27's.
+5. **Cotton:**
+   - Share lost over 7–8 years (AP/Telangana; Rasi is the leader). Share in the north has roughly **doubled** from a small base.
+   - **Illegal HTBt rose again in 2026** because a delayed monsoon makes farmers "compromise on the seed". Gujarat was hit hardest.
+   - Cotton EBITDA is ~15% now vs ~35% historically.
+   - Kaveri claims top-3 realisation under the MRP cap.
+   - **Subsidiaries sold ~10–12 lakh cotton packets** of "me-too" hybrids that operate as independent competitors (shared research cost).
+6. **New products** = launched in the last 3 years. New cotton hybrids 37% of cotton (22%); single-cross maize >20% of maize; new hybrid-rice launches (KRH7344/7227) = 62% of *new-product* sales, but new products are only "below 20–25%" of hybrid rice.
+7. **Outlook:**
+   - Q2–Q4 sales should exceed last year's (Karnataka recovery; rabi maize demand on maize at ₹27–28/kg); the full-year decline will narrow, but the **FY27 margin will be below Q1's**.
+   - Medium-term growth **"15–18%"** (earlier "18–20%").
+   - **Exports ₹100 Cr within 3 years** at 25–30% EBITDA; FY27 exports ≥+25% (trials done in the Philippines, Vietnam and Indonesia).
+8. **Capital return:** a buyback is a board decision. Cash should reach ~₹300 Cr by Sep-26. The interim dividend comes on 28-Oct.
+9. **History:** PAT was ~₹300 Cr in 2014-15 with cotton ~90% of sales. Now **cotton is ~20%** and PAT is again ~₹300 Cr, so the mix shift has replaced, not added, profit.
+
+**(b) KPI table — Kaveri (standalone)**
+
+| KPI | Q1 FY27 | Q1 FY26 | FY26 | FY25 | Source |
+|---|---|---|---|---|---|
+| Revenue (₹ Cr) | 815.0 | 945.3 | 1,303.8 | 1,121.6 | Call / AR [V-pri] |
+| Cotton (₹ Cr) | 213.4 | 218.8 | 243.6 (−6.6%) | 260.8 | AR / deck |
+| Non-cotton (₹ Cr) / share | 601.6 / 74% | 726.5 / 77% | 1,060.2 / 81.3% | 860.8 / 76.7% | AR |
+| Hybrid rice | 247.1 | 280.2 | 293.8 (+18.4%) | 248.2 | AR; volume +0.3% (label reading) |
+| Selection rice | 159.1 | 157.6 | 195.2 (+9.8%) | 177.8 | AR; volume +2.6% |
+| Maize | 137.7 | 241.0 | 403.2 (+40.2%; volume +18.8%) | 287.6 | AR |
+| Vegetables | 15.1 | ~18.5 | 70.0 (+8.4%) | 64.5 | Call (Q1); AR (FY) |
+| Others (bajra, sunflower etc.) | 42.7 | ~29.3 | 98.1 (+18.8%) | 82.6 | By elimination (Q1); AR |
+| New cotton hybrids, share of cotton | 37% | 22% | 30.05% | 10.3% | Call / AR |
+| EBITDA (₹ Cr) / margin | 285 / ~35% | 332 / ~35% | — | — | Call |
+| Cash on books (₹ Cr) | 267 | — | — | — | Call |
+| Inventory (₹ Cr) | ~1,200 | ~1,000 | — | — | Call |
+| R&D (₹ Cr; % of turnover) | — | — | 93.6; 7.18% | 73.2; 6.52% | AR |
+| Exports (₹ Cr) | 5.79 | 1.15 | — (FX earnings ₹44.7 Cr) | ₹33.0 Cr FX earnings | Call / AR |
+
+**(c) 5-year history — Kaveri (₹ Cr; screener consolidated)** [V]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 968 | 1,068 | 1,146 | 1,202 | 1,392 |
+| Operating profit | 203 | 252 | 286 | 291 | 337 |
+| OPM % | 21 | 24 | 25 | 24 | 24 |
+| PAT | 213 | 273 | 300 | 282 | 296 |
+| ROCE % | 16 | 17 | 22 | 20 | 16 |
+| CFO | 110 | 297 | 389 | 197 | −6 |
+| Inventory days | 517 | 464 | 467 | 613 | 608 |
+| Working-capital days | 175 | 123 | 80 | 99 | 171 |
+
+**(d) 8-quarter trend — Kaveri (₹ Cr; screener consolidated)** [V]
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 137 | 174 | 90 | 859 | 219 | 210 | 107 | 742 |
+| Operating profit | −2 | 14 | −17 | 338 | −6 | 21 | −16 | 294 |
+| OPM % | −1.4 | 8 | −18 | 39 | −2.9 | 10 | −15 | 40 |
+| Other income | 13 | 11 | 13 | 10 | 6 | 8 | 6 | 4 |
+| PBT | 3 | 17 | −20 | 334 | −15 | 14 | −27 | 284 |
+| PAT | −1 | 15 | −23 | 327 | −16 | 13 | −28 | 280 |
+
+Read:
+- Q2 is the second-smallest quarter. Q2 FY26 revenue of ₹219 Cr was +60% on Q2 FY25 (₹137 Cr), so FY26's non-Q1 quarters were already growing.
+- Management's "Q2–Q4 above last year" guidance implies Q2 FY27 revenue >₹219 Cr, with Karnataka maize spill-over of up to ₹40–60 Cr [E].
+- Other income has shrunk from ₹13 Cr to ₹4 Cr a quarter as treasury was run down (investments ₹613 Cr → ₹401 Cr in FY26; cash ₹267 Cr at Jun-26).
+
+**(e) FY26 annual-report findings — Kaveri** (AR 2025-26) [V-pri]
+- **Founder and CMD:** G.V. Bhaskar Rao (confirmed). The board includes family members (WTDs G. Vanaja Devi, G. Pawan, C. Vamsheedhar, C. Mithun Chand).
+- **Crop mix:** see the table. **Non-cotton 81% of FY26.** The primer's "~65%" is wrong (S33).
+- **R&D 7.18% of turnover** (₹93.6 Cr incl. ₹28.1 Cr capital). That is high for an Indian seed company, though still well below KWS's ~19%.
+- **Contingent liabilities ₹225.7 Cr** (₹220.2 Cr): tax ₹129.0 Cr (₹200.4 Cr) and **legal claims ₹96.6 Cr (₹19.7 Cr), a fivefold jump** whose nature is not explained in the note. Writer: flag it and ask.
+  - Tax: favourable ITAT orders on the **agricultural-income exemption**: AY2020-21 demand of ₹71.4 Cr set aside in FY26; **AY2022-23 (₹56.2 Cr) and AY2023-24 (₹69.6 Cr) set aside in April 2026**, but still shown at 31-Mar.
+  - Block assessments from the 2017-18 IT search remain pending.
+  - Read: the tax-exemption model has been repeatedly challenged and so far upheld.
+- **Industry data (AR):** IMARC India seed market US$8.60 bn (2025) → US$20.20 bn (2034). CAI (2025-26): Gujarat 67.93 lakh bales, Telangana 55.54 lakh bales; cotton sowing area expected **+~7%** next cycle on better farmer realisations.
+- **Related parties:** subsidiaries trade seed and are independent competitors (10–12 lakh cotton packets). Their intra-group sales explain why consolidated Q1 revenue (₹742 Cr) sits below standalone (₹815 Cr). No royalty to promoters was found.
+
+**(f) Q2 FY27 set-up (board 28-Oct-2026 + interim dividend; call 29-Oct 4 pm)** [E]
+- Expect a small quarter: revenue ~₹220–280 Cr, OP roughly breakeven to small positive.
+- Inventory, illegal HTBt and maize-share loss in MP are the call topics; any buyback announcement is the catalyst.
+
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**I1. India rice and maize production (lakh tonnes; DA&FW, 3rd AE 2025-26, as on 27-May-2026)** [V-pri desagri.gov.in]
+
+| Crop | 2019-20 | 2020-21 | 2021-22 | 2022-23 | 2023-24 | 2024-25 | 2025-26 (3rd AE) |
+|---|---|---|---|---|---|---|---|
+| Rice | 1,188.70 | 1,243.68 | 1,294.71 | 1,357.55 | 1,378.25 | 1,501.84 | **1,540.24** |
+| Maize | 287.66 | 316.47 | 337.30 | 380.85 | 376.65 | 434.09 | **550.93** |
+| — of which kharif / rabi / summer (2025-26) | | | | | | | 305.09 / 200.25 / 45.59 |
+| Soybean (kharif) | 112.26 | 126.10 | 129.87 | 149.85 | 130.62 | 152.68 | 125.96 |
+| Cotton (lakh bales of 170 kg) | 360.65 | 352.48 | 311.18 | 336.60 | 325.22 | 297.24 | 290.24 |
+
+- Read 1: maize output grew 91% in six years (FY20 → FY26) and **27% in 2025-26 alone**. That is the supply response to ethanol demand, and it explains why GAEL's maize cost "moderated" late in FY26.
+- Read 2: cotton output has fallen for three years running (−20% since 2019-20). This is Kaveri's shrinking cotton seed market.
+
+**I2. Ethanol feedstock mix, ESY 2025-26 (Nov-2025 → Sep-2026; crore litres)** [V-sec AIDA via AgroSpectrum, 19-Oct-2026]
+
+| Feedstock | Allocated | Received to Sep-26 | Share of receipts |
+|---|---|---|---|
+| Maize | 614 | 413 | 41.8% |
+| Surplus FCI rice | 233 | 222 | 22.5% |
+| Damaged food grains | 60 | 70 | 7.1% |
+| **Grain total** | **908** | **705** | **71.4%** |
+| Sugarcane juice | 166 | 151 | 15.3% |
+| B-heavy molasses | 111 | 115 | 11.7% |
+| C-heavy molasses | 12 | 16 | 1.6% |
+| **Sugar total** | **289** | **282** | **28.6%** |
+| **All** | **1,197** | **987** | 100% |
+
+- Maize in tonnes: 413 crore litres ÷ ~380–400 litres per tonne ≈ **10.3–10.9 mt of maize, ~19–20% of the 55 mt crop** [E].
+- The Cycle-1 allocation was 1,048 crore litres with maize at 45.68% [V-snip bioenergytimes].
+
+**I3. Central Pool rice stocks vs norms (LMT)** [V-sec Business Today citing FCI, 8-Oct-2026; V-pri KRBL CMD]
+
+| Date | Rice | Norm | Multiple |
+|---|---|---|---|
+| 1-Apr-2026 | 386.10 [V-snip] | 135.80 | 2.8× ("close to 3×" per KRBL CMD) |
+| 1-Jul-2026 | 403.11 | 135.40 | 3.0× |
+| 1-Sep-2026 | 390.53 (+307.51 LMT unmilled paddy ≈ 206 LMT rice) | (Oct norm, all grain 307.70) | — |
+
+Read: with ~60 mt of rice and paddy-equivalent in government hands, **non-basmati export policy will stay open** and FCI rice will keep flowing to distillers. Both cap the upside in common-rice prices and support maize competition at the margin.
+
+**I4. India rice exports by type (APEDA via KRBL CMD)** [V-pri transcript]
+
+| | FY25 | FY26 | Q1 FY26 | Q1 FY27 |
+|---|---|---|---|---|
+| Basmati volume (mt) | ~6.0 [V BigMint, Part 1] | **6.52** | ~1.7 | **~1.5** |
+| Basmati value (₹ Cr) | ~50,000 | **50,138** | — | realisation +20% YoY |
+| Basmati value per tonne (₹) [E] | ~83,000 | ~76,900 | — | — |
+| Non-basmati volume (mt) | — | **15.01** | — | — |
+| Non-basmati value (₹ Cr) | — | **51,892** | — | — |
+| Non-basmati value per tonne (₹) [E] | — | ~34,600 | — | — |
+
+- Read: basmati earns **~2.2× non-basmati per tonne** and is ~49% of rice export value on ~30% of volume [E].
+- The FY26 per-tonne fall (−7%) reflects the weak Oct-2025 paddy opening (₹2,500–3,200/qtl) and Iran payment stress. Q1 FY27's +20% reflects the post-flood shortage plus war freight.
+
+**I5. Basmati paddy price path, 2025-26 → 2026-27 season (₹/qtl)**
+
+| Date | Variety / market | Price | Source |
+|---|---|---|---|
+| Oct-2025 | 1509, Punjab (new crop) | 2,500–3,200 | KRBL CMD [V-pri] |
+| Feb-2026 | 1121, Haryana mandis | 4,300–4,700 | KRBL CMD [V-pri] |
+| May-2026 | Old-crop paddy exhausted | — | KRBL CMD [V-pri] |
+| ~Sep-2026 | 1509, new crop | ~US$40–43/qtl (≈3,800–4,100) | commodity-board [V-snip] |
+| 19-Oct-2026 | 1509 >4,800; 1121 record | — | cmv360 [V, Part 1] |
+| Book cost (30-Jun-2026) | LT paddy ₹38/kg (≈3,800/qtl); KRBL paddy ~₹40/kg | — | LT/KRBL calls [V-pri / E] |
+
+**I6. Cocoa supply-demand (ICCO; thousand tonnes)** [V-pri icco.org; V-sec FoodBusinessMEA]
+
+| Season | Production | Grindings | Surplus/(deficit) | End stocks | Stocks/grindings |
+|---|---|---|---|---|---|
+| 2023/24 | 4,362 | 4,810 | **(492)** | 1,272 | 26.4% |
+| 2024/25 (Feb-26 est.) | 4,728 | 4,606 | +75 | 1,347 | 29.2% |
+| 2024/25 (Aug-26 est.) | 4,733 | 4,649 | **+37** | 1,309 | 28.2% |
+| 2025/26 | withheld by ICCO | — | private: +250 (Rabobank) to +287 (StoneX) [V-snip] | — | — |
+
+Read: the 2024 price spike was a **492 kt deficit**. The swing back to surplus is modest at ICCO (+37 kt) and larger at private houses; ICCO flagged El Niño risk. Pair this with ICE price points from Part 1 (US$12.9k Dec-2024 → US$2,846 Mar-2026 [V-snip] → ~US$5,500 Oct-2026).
+
+**I7. Soybean and soymeal, oil year 2025-26 (lakh t; SOPA)** [V-sec Global Agriculture, Dec-2025; V-snip for the nine-month figure]
+- Crop 105.36 (125.82); carry-in 4.66 (8.94); imports 6.00 (0.02); seed 12.00 (11.50); **available for crush 104.02 (123.28)**.
+- Oct–Nov-2025: crush 20.50 (19.50); meal output 16.18 (15.39); meal exports 3.34 (2.41).
+- Oct-2025 → Jun-2026 meal exports ~9.0 vs 15.60 (−42%); full-year forecast ~10; **Iran-bound meal halted** (war).
+
+**I8. Kharif 2026 sowing at 21-Aug-2026 (lakh ha; vs same date 2025)** [V-sec Rural Voice citing MoA&FW]
+- Total 1,056.70 (1,072.77)
+- Rice 405.10 (418.29)
+- Maize 89.51 (93.30)
+- Cotton 108.45 (108.73)
+- Coarse cereals 176.36 (179.81)
+- Sugarcane 58.44 (58.87)
+- Rain −13% at that date.
+
+**I9. FAO indices, Sep-2026** [V-sec MercoPress/FAO]
+- FFPI 136.0 points (+1.5% m/m, +5.8% y/y).
+- Cereals +5.1% m/m (+17.2% y/y); wheat +6.3%; maize +5.6% (Hormuz support for biofuel feedstocks); All-Rice +1.4% (Indica, weather); vegetable oils +0.9%.
+
+**I10. India packaged-basmati headroom** [V-pri KRBL AR citing Kantar, MAT Mar-2026]
+- 43.4% of urban households consume basmati; **20.4% consume packaged basmati**, i.e. ~47% of basmati-consuming urban homes buy packaged [E].
+- LT reports Daawat household penetration of 64.4 lakh; KRBL reports 1.2 crore urban households for India Gate.
+
+**I11. Seed and specialty-fat market sizes (company-cited third-party estimates)** [V-pri ARs]
+- India seed industry (IMARC via Kaveri AR): US$8.60 bn (2025) → 13.61 bn (2030) → 20.20 bn (2034).
+- Global specialty fats & oils (via Manorama AR): US$18.17 bn (2026) → 32.5 bn (2034), 7.6% CAGR.
+
+**I12. Policy timeline: rice export rules (verification status)**
+
+| Date | Measure | Status |
+|---|---|---|
+| 8/9-Sep-2022 | Broken rice "Free → Prohibited"; 20% duty on non-basmati white/brown | V-snip (DGFT notification 8-Sep-2022) |
+| 20-Jul-2023 | Non-basmati white rice export ban | V-sec (DTNext/PTI) |
+| 25-Aug-2023 | 20% duty on parboiled | K |
+| late Aug-2023 | Basmati MEP US$1,200/t (initially to 15-Oct) | V-snip |
+| 25-Oct-2023 | Basmati MEP cut to US$950/t | K |
+| 13/14-Sep-2024 | Basmati MEP scrapped | V-sec ("earlier scrapped", no date) + K |
+| 27/28-Sep-2024 | White-rice ban lifted with US$490 MEP; white rice exempted from duty; parboiled duty 20% → 10% | V-sec |
+| 22-Oct-2024 | Parboiled/brown/paddy duty 10% → nil | V-sec |
+| 23-Oct-2024 | US$490 MEP on white rice removed | V-sec |
+| 7-Mar-2025 | Broken rice re-allowed | K (not verified this session) |
+| 24-Sep-2025 | APEDA registration for non-basmati exports | V-snip (Part 1) |
+
+---
+
+## 4.4 Gap log (each §H item)
+
+| §H # | Gap | Status after Part 4 | How / what was tried |
+|---|---|---|---|
+| 1 | APEDA FY26 final export data, FY27 YTD, destination split by HS code | **Partly filled.** FY26 basmati 6.52 mt / ₹50,138 Cr and non-basmati 15.01 mt / ₹51,892 Cr; Q1 FY27 basmati ~1.5 mt (Middle East −11%) [V-pri KRBL CMD citing industry data]. **Still open:** country split and HS 100630/100640 | APEDA agriexchange failed on TLS; commerce.gov.in TradeStat not reachable via the proxy; BSE API blocked |
+| 2 | Paddy price history 1121/1509/1718 | **Partly filled** for 2025-26 (I5). **Still open:** 1718 series and pre-2025 seasons | KRBL call; search (1718 undated Tribune ₹3,200–3,400 only) |
+| 3 | FCI rice stocks; Thai 5% broken; FAO rice index | **FCI filled** [V-sec]; FAO All-Rice +1.4% Sep-26 and FFPI 136.0 [V-sec]. **Still open:** FARPI level and the Thai 5% quote | FAO page dynamic; no free Thai quote fetched |
+| 4 | ICCO prices and surplus; Mar-2026 low US$2,846 | **ICCO balance filled** (I6). **Still open:** ICCO daily-price series and a fetched source for US$2,846 (snippet only) | icco.org bulletin page fetched; Barchart body empty |
+| 5 | CBE / specialty-fats market size | **Partly filled:** specialty fats & oils US$18.17 bn (company-cited). CBE-only size still [E] | Manorama AR |
+| 6 | Maize production; ethanol maize volumes; maize share; FCI rice price for ethanol | **Filled:** 55.09 mt (3rd AE); 413 crore litres = 41.8% (to Sep-26); ~10–11 mt maize [E]. FCI ethanol rice price (₹2,320 → ₹2,390/qtl) **not re-verified** (Part 1 V-snip stands) | DA&FW PDF; AIDA |
+| 7 | SOPA soymeal exports and crush; edible-oil duty in force | **Partly filled** (I7). **Still open:** final Oct–Sep totals and the crude edible-oil duty in force in Oct-2026 (Part 1: 10% basic, V-snip) | SOPA site not tried directly (budget) |
+| 8 | Kharif cotton acreage conflict; Bt MRP 2026-27 | **Acreage resolved** to the latest in-season figure (108.45 lakh ha, 21-Aug). **MRP partly filled:** S.O. 2071(E) dated 23-Apr-2026 exists; the price line was not read (egazette not fetchable). 2025-26 ₹901/475 g verified [V-sec] | egazette TLS/503 |
+| 9 | Seed market size | **Filled (with caveat):** IMARC US$8.6 bn (company-cited) vs Part 1's ₹30–35k Cr [E]. Definitions differ | Kaveri AR |
+| 10 | Company tonnages and realisations | **Largely filled:** LT 2.26 lakh t in Q1 (India 1.09 / international 1.17); LT inventory 3.46 lakh t rice + 1.64 lakh t paddy; KRBL 389 kt rice + 71 kt paddy; Manorama utilisation 80% of 47,500 TPA (≈9,500 t a quarter [E]); Kaveri Karnataka maize 1,500 t vs 2,600 t. **Still open:** KRBL sales tonnes, GAEL grind utilisation (only "83% capacity availability") | Transcripts, ARs |
+| 11 | LT Foods net debt Mar-26 and Jun-26 | **Filled:** Mar-26 ₹1,377 Cr (auditor, incl. leases) / 0.6× ND/EBITDA (company); Jun-26 0.48× / 0.15× | LT AR + call |
+| 12 | SALIC stake; Golden Star terms | **Filled:** 9.22%; 51% for US$8.16 m (Jun-2022) + 49% for US$15 m (22-May-2025) | LT AR |
+| 13 | KRBL ED 6.26% legal basis and status | **Filled:** attached Balsharaf Group shares; ECIR 2014 / complaint 2021; hearings Sep-2026 (outcome not found) | KRBL AR |
+| 14 | GAEL Q2 FY27; Malda ethanol | **Malda filled (no such project).** **Q2 still open:** board today; not out at 06:31 UTC | GAEL AR; screener re-check |
+| 15 | Manorama customer concentration; capex split; QIP allottees | **Concentration filled** (top-2 40.5%); **capex split filled** (Burkina ₹120–130 Cr; India balance). **QIP allottees still V-snip** | AR; call |
+| 16 | US basmati import series; US Sec 301 treatment; LT CVD | **Sec 301 partly filled:** 10% continuing (LT CFO) [V-pri]; CIT challenge pending [V-snip]. **CVD:** LT no longer exports soymeal to the US; the residual is in court [V-pri]. **US import series still open** | USDA/FAS blocked |
+| 17 | Iran backlog and rice-for-crude barter | **Partly filled:** Jan-2026 ~₹2,000 Cr [V-snip]; the barter request came from the Punjab Rice Millers Exporters Association to the Commerce Minister, ~early Apr-2026 [V-snip]; no government acceptance found. **Oct-2026 status still open** | Two searches |
+| — | Q2 FY27 result dates for KRBL and Manorama | Still not announced (screener re-fetched) | — |
+
+---
+
+## 4.5 New insights the first pass missed
+
+1. **Basmati's FY26 was a volume record at a lower price; FY27 is the reverse.**
+   - India exported 6.52 mt (+8%), but value was flat at ₹50,138 Cr: per-tonne realisation fell ~7% after the flood-damaged, weak-priced Oct-2025 opening.
+   - Q1 FY27 flipped: volume −12% (1.5 vs 1.7 mt), realisation +20%.
+   - KRBL's record margin is that flip plus cheap inventory (rice book ~₹64/kg, paddy ~₹40/kg) sold into ₹4,300–4,800/qtl paddy replacement costs.
+   - Both basmati houses guide margins **down** for the rest of FY27 (KRBL GM ~30% vs 36%; LT basmati 13–14% ±1). The writer should not extrapolate Q1.
+2. **The two basmati houses now disclose comparable tonnes.**
+   - LT sells ~2.26 lakh t a quarter (≈9 lakh t a year) and holds ~5.1 lakh t of rice and paddy.
+   - KRBL holds ~4.6 lakh t. Its sales tonnes are undisclosed, but at a FY26 revenue of ₹6,098 Cr and ~₹90–100/kg it is ~6–7 lakh t a year [E].
+   - On these numbers **LT is the larger rice seller by volume**, and its book cost is lower (₹56/kg vs ~₹64/kg rice).
+3. **KRBL's "ED stake" is a customer's frozen block, not a governance verdict on KRBL's promoters.** The 6.26% belongs to the Balsharaf Group. The PMLA complaint does name KRBL, KRBL DMCC and a JMD, so the overhang is real, but the shares are not promoter stock. The equity story should separate (a) the free-float overhang from (b) the legal risk to the company (Dhuri attachment ₹15.3 Cr; the trial).
+4. **Manorama's two-customer concentration (40.5%) is the risk the valuation ignores.**
+   - At 43× earnings, two chocolate/confectionery buyers (unnamed; the customer slide lists Ferrero, Mondelez, Mars, Hershey, Nestlé, Barry Callebaut) account for ~₹550 Cr of revenue on 9–12-month contracts.
+   - Add the customs/CEPA episode (**palm mid-fraction imports**: Manorama blends imported palm fractions, not just forest seeds) and utilisation capped at ~80% of 52,000 TPA until FY28. FY27 growth is volume-capped at roughly +10–20% [E].
+5. **Maize is no longer scarce in India, but it is getting dear again.** Output jumped 27% to 55 mt, and ethanol now absorbs ~10–11 mt (41.8% of ethanol). Yet maize rose from ~₹16–17/kg (start of 2026 kharif) to ~₹27–28/kg (August, per Kaveri), and FAO maize rose 5.6% in September. GAEL's 17.6% maize margin was struck on low-cost grain; **the spread is at risk in H2 FY27**, while Kaveri's rabi maize seed demand benefits from the same price.
+6. **Kaveri has quietly become a non-cotton company, but not a growth company.**
+   - Non-cotton was 81% of FY26 standalone revenue (maize ₹403 Cr, +40%). R&D is 7.2% of turnover.
+   - Yet PAT (~₹300 Cr) equals 2014-15's, and FY26 CFO was −₹6 Cr with inventory up ₹200 Cr.
+   - Contingent "legal claims" jumped fivefold to ₹96.6 Cr, while ITAT keeps upholding the agricultural-income exemption (₹197 Cr of demands set aside across AY2020-21/22-23/23-24).
+7. **India's grain glut is the macro backdrop for every member.** Rice stocks are ~3× the norm, with ~60 mt of rice equivalent in FCI hands. Non-basmati export policy stays liberal; FCI rice keeps feeding distillers (222 crore litres); domestic common-rice prices stay capped. That is why basmati's premium (₹76,900/t vs ₹34,600/t per export tonne) is the sector's margin pool.
+8. **The US tariff saga produced a hidden asset for LT.** LT is "eligible" for refunds of the struck-down IEEPA duties (it paid up to 50% in Q4 FY26), has received part, and has booked **no income** yet. Any recognition would be a one-off in Q2–Q4 FY27; the writer should flag it as a possible "other income" spike.
+
+## 4.6 New primer issues (append to primer-issues; per file)
+
+### From Rice, Agri Commodities & Seeds deep-research pass (2026-10-24, agri-products-industry.md §4.6)
+
+- **lt-foods.html**
+  - Net debt "~₹1,180 Cr": replace it with both bases at Mar-26, i.e. ₹1,377 Cr (auditor note, incl. leases) and 0.6× ND/EBITDA / 0.16× ND/equity (company). Jun-26: 0.48× / 0.15×.
+  - Add **SALIC 9.22%** (3.20 Cr shares; board nominee).
+  - Add **Golden Star buy-out terms**: 51% Jun-2022 for US$8.16 m; 49% on 22-May-2025 for US$15 m; FY26 contribution ₹494.7 Cr revenue / ₹62.3 Cr profit.
+  - Add **tonnage**: Q1 FY27 India 1.09 lakh t + international 1.17 lakh t; inventory 3.46 lakh t rice at ₹56/kg + 1.64 lakh t paddy at ₹38/kg.
+  - CVD: LT **no longer exports soymeal to the US**. Organic's margin dip is the wholesale → CPG remodel (guide: 7–8% EBITDA by FY27 exit, double-digit by FY28).
+  - Guidance (basmati +10–12%, RTH +15–20%, organic +10–12%; RTH breakeven at ₹400 Cr).
+  - Unbooked IEEPA refund.
+  - Contingent liabilities rose to ₹140.9 Cr (GST ₹67.9 Cr).
+  - **Family remuneration ~₹29 Cr** (governance note).
+  - Daawat share 23.7% (FY26) → 23.1% (Q1).
+- **krbl.html**
+  - Rewrite the ED section: the 6.26% is **1,43,33,221 shares of the Balsharaf Group (a customer) attached by ED** under the AgustaWestland-linked PMLA complaint (ECIR 2014; complaint 2021 naming KRBL, KRBL DMCC and a JMD). Separate the **Dhuri land attachment (₹15.32 Cr; deposit ₹11.13 Cr refunded 6-Mar-2026)**. Hearings were Sep-2026.
+  - Add FY27 guidance: **GM ~30%, EBITDA 17–18%, domestic volume +10% a year for 2–3 years**.
+  - Inventory ₹2,944 Cr = 71 kt paddy + 389 kt rice (not ₹2,994 Cr).
+  - Milling 207 MT/h; power 150.7 MW (biomass 21.49 MW, not ~18).
+  - Net bank debt ₹(789) Cr at Mar-26.
+  - Kantar: 43.4% of urban households consume basmati, 20.4% packaged.
+  - GT share −2 points YoY.
+  - New categories: regional rice ~₹270 Cr +25%; masala ARR ₹9 Cr → ₹25 Cr target; poha; Gangavathi plant (end-Q3 FY27).
+  - Saudi distributor search (own entity deferred).
+- **manorama-industries.html**
+  - Capacity history: 15,000 (FY22–24) → 40,000 (FY25, new 25k SF2) → 47,500 (FY26, SF2 debottlenecked to 32,500) → 52,000 (Q3 FY27) → +75,000 SF3 (~Q3 FY28).
+  - **Top-2 customers = 40.5% of FY26 revenue.**
+  - Capex split: Burkina ~₹120–130 Cr (WOS Taang Kaam Industries SA), India ~₹330–340 Cr; FY27 capex ₹225–250 Cr.
+  - FY27 utilisation guide ~80% of 52,000 TPA. GM guide 45–50% (Q1 43.6% was below it).
+  - **₹20.64 Cr customs payment** (palm mid-fraction, India–UAE CEPA; debit note to the supplier).
+  - Enzymatic CBE (ECBE) plant.
+  - Chad subsidiary.
+  - CARE A+ (Stable).
+  - Revenue growth ~85% volume-led.
+- **gujarat-ambuja-exports.html**
+  - **Delete the "Malda ethanol project (~₹125 Cr)"**: the FY26 AR describes Malda only as a 1,200 TPD maize unit.
+  - Add the CMD's own explanation: grain-ethanol diversion kept maize firm for most of FY26, then moderated. That is the margin turn visible from Q4 FY26 (OPM 13%).
+  - 83% capacity availability.
+  - Borrowings ₹433.6 Cr vs financial investments ₹1,255.5 Cr.
+  - Contingent liabilities ₹64.9 Cr.
+  - Add the H2 FY27 maize-price risk (₹16–17 → ₹27–28/kg during 2026 per Kaveri; FAO maize +5.6% in Sep).
+- **kaveri-seed.html**
+  - Crop mix is **non-cotton 81% / cotton 19% (FY26 standalone)**, not ~65/35.
+  - FY26 crop revenues: maize ₹403 Cr (+40%), hybrid rice ₹294 Cr, selection rice ₹195 Cr, vegetables ₹70 Cr, others ₹98 Cr, cotton ₹244 Cr (−6.6%).
+  - New cotton hybrids 30% of FY26 cotton (37% in Q1 FY27).
+  - **R&D 7.18% of turnover.**
+  - Cash ₹267 Cr (Jun-26); inventory ~₹1,200 Cr (+₹200 Cr).
+  - Q1 FY27 vegetables ₹15.1 Cr (not ₹42.7 Cr).
+  - Contingent legal claims ₹96.6 Cr (from ₹19.7 Cr).
+  - ITAT agri-income wins (~₹197 Cr of demands set aside).
+  - Medium-term growth guide cut to 15–18%; exports ₹100 Cr in 3 years.
+  - Founder/CMD G.V. Bhaskar Rao (confirmed).
+  - Subsidiaries sold 10–12 lakh cotton packets.
+- **General (rice primers):**
+  - FY26 India basmati 6.52 mt / ₹50,138 Cr; non-basmati 15.01 mt / ₹51,892 Cr.
+  - Q1 FY27 basmati exports ~1.5 mt (−12%) at +20% realisation.
+  - Freight peak US$5,000 per container.
+  - FCI rice ~3× the buffer norm.
+  - 2025 Punjab floods (−20–25% Punjab basmati output).
+  - Pakistan basmati ~US$100/t above India's.
+
+## 4.7 Source list for Part 4 (all fetched 24-Oct-2026 unless marked)
+
+- **Transcripts (BSE AnnPdfOpen):**
+  - LT Foods 89dd9f73-8569-4e21-aa29-4863e10df1c7
+  - KRBL d4ebd74c-89ff-4711-af24-0fa7f2e772e6
+  - Manorama d1e55fa1-6e8d-4d99-bf0a-f2da9ef83771
+  - Kaveri 995362d8-81c6-4d3b-b0f2-449700930751
+  - (URL pattern: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=<id>.pdf)
+- **Annual reports FY26 (BSE xml-data/corpfiling/AttachHis):**
+  - LT Foods a28b8e2e-ea4b-4e50-8cce-7444424222fd
+  - KRBL 3515a3b4-a7dd-4513-be26-9c5c0a37d0c1
+  - Manorama 39d28b3d-3709-4b98-885c-77fae69023b4
+  - Kaveri def40f42-cb1c-4a5a-9355-2f29fb00e3ed
+  - GAEL 5674dbfb-9bd3-4158-a417-804e7fa60c2e
+  - (URL pattern: https://www.bseindia.com/xml-data/corpfiling/AttachHis/<id>.pdf)
+- **Government / industry bodies:**
+  - DA&FW 3rd AE time series: https://desagri.gov.in/wp-content/uploads/2026/06/Time-Series-3rd-AE-2025-26-English.pdf
+  - ICCO: https://www.icco.org/february-2026-quarterly-bulletin-of-cocoa-statistics/
+- **Fetched secondary articles:**
+  - FoodBusinessMEA (ICCO Aug revision): https://www.foodbusinessmea.com/icco-cuts-global-cocoa-surplus-forecast-to-37000-t/
+  - AIDA via AgroSpectrum: https://agrospectrumindia.com/news/13/35001/indias-ethanol-supplies-cross-980-cr-litres-by-september-grain-based-feedstocks-drive-over-71-aida.html
+  - FCI via Business Today: https://www.businesstoday.in/latest/economy/story/global-food-security-faces-fresh-risks-but-indias-grain-buffer-offers-a-cushion-560357-2026-10-08
+  - SOPA via Global Agriculture: https://www.global-agriculture.com/india-region/india-is-crushing-more-soybean-even-as-production-falls-in-2025-26/
+  - Bt MRP 2025-26: https://www.global-agriculture.com/india-region/government-notifies-maximum-sale-price-of-bt-cotton-seeds-for-2025-26/
+  - Bt MRP 2026-27 outlook: https://cropgpt.ai/india-set-to-keep-2026-27-bt-cotton-seed-mrp-unchanged
+  - Kharif sowing: https://eng.ruralvoice.in/national/india-kharif-sowing-trails-last-year-by-1.50-percent-as-rainfall-deficit-persists.html
+  - FAO FFPI: https://en.mercopress.com/2026/10/08/fao-food-price-index-rises-in-september-amid-weather-concerns-and-transport-disruptions
+  - Rice policy: https://www.dtnext.in/news/business/govt-lifts-curbs-on-rice-exports-removes-floor-price-for-non-basmati-grain-808634
+  - Manorama customs: https://www.investywise.com/manorama-industries-limited-customs-inquiry-and-duty-payment/
+- **Snippet-only [V-snip]:**
+  - Barchart (cocoa US$2,846 / US$6,478)
+  - egazette S.O. 2071(E) (Bt MRP 2026-27)
+  - Broken-rice DGFT notification 8-Sep-2022 and basmati MEP US$1,200 (thenewsminute / alarabiya)
+  - SOPA nine-month meal exports (indiaseatradenews / investmentguruindia)
+  - Iran ₹2,000 Cr and the barter request (agronfoodprocessing / deccanherald / superkalam)
+  - US Sec 301 10% from 24-Jul-2026 and the CIT suit (ustariffrates / newkerala)
+  - Paddy ~US$40–43/qtl (commodity-board)
+- **Screener re-fetch:** /company/KRBL/consolidated/, /company/MANORAMA/consolidated/, /company/GAEL/consolidated/ (twice). First-pass screener text reused for LT Foods and Kaveri.
+
+*End of Part 4.*
