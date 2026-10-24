@@ -1719,6 +1719,23 @@
         "Staffing under the labour codes"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Tyres",
+      "slug": "tyres",
+      "file": "tyres.html",
+      "sector": "Automobile & Ancillaries",
+      "subsector": "Tyres & Rubber Products",
+      "companies": 5,
+      "accent": "#C2410C",
+      "hook": "Record demand meets record rubber: why India's five listed tyre makers sold more tyres than ever after GST 2.0 yet saw margins halve as rubber hit ₹284.50/kg, how BKT's off-highway export model differs from the domestic four, and who is building capacity into the squeeze.",
+      "tags": [
+        "Rubber & crude squeeze",
+        "KPI masterclass",
+        "BKT off-highway & Pirelli",
+        "Capex & leverage cycle"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -1756,7 +1773,7 @@
       "sector": "Automobile & Ancillaries",
       "sub": "Tyres & Rubber Products",
       "companies": 5,
-      "report": null
+      "report": "tyres.html"
     },
     {
       "sector": "Automobile & Ancillaries",
