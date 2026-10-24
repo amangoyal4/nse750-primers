@@ -1600,6 +1600,23 @@
         "Read the four PATs"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Copper",
+      "slug": "copper",
+      "file": "copper.html",
+      "sector": "Non - Ferrous Metals",
+      "subsector": "Copper",
+      "companies": 1,
+      "accent": "#0926B3",
+      "hook": "A miner in a country of smelters: why India refines ~30 tonnes of copper for every tonne it digs, why smelters now pay miners as TC/RCs turn negative, whether Hindustan Copper can triple its ore by FY30, and what a $16.6 bn import bill, record LME prices and a state OFS mean for the stock.",
+      "tags": [
+        "TC/RC inversion",
+        "Vision 2030 execution",
+        "Import bill & critical minerals",
+        "LME and the mine"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -2321,7 +2338,7 @@
       "sector": "Non - Ferrous Metals",
       "sub": "Copper",
       "companies": 1,
-      "report": null
+      "report": "copper.html"
     },
     {
       "sector": "Non - Ferrous Metals",
