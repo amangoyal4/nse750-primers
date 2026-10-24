@@ -85,3 +85,14 @@
 **Library-level**
 - passenger-vehicles.html §7: use the **GST Council/MoF wording** (cess 17–22%, 45–50%) and the **final CAFE III** facts. Commercial-vehicles.html should pick up TMCV's appointed date (1-Jul-2025) and rename date (29-Oct-2025, now verified).
 
+
+## primer-audit.mjs results (2026-10-24, pre-existing; not fixed here)
+
+| Primer | KB | Words | Bars | Plain | Sections | Refreshed | Hard checks | Notes |
+|---|---|---|---|---|---|---|---|---|
+| maruti-suzuki.html | 64 | 4928 | 21 | 11 | 12 | 2026-06-30 | ❌ banned ("Think of" ×1) | no main{min-width:0} (phone overflow) |
+| tata-motors-cv.html | 80 | 7055 | 13 | 11 | 12 | 2026-06-30 | ❌ banned ("Think of" ×1) | no main{min-width:0} (phone overflow) |
+| hyundai-motor-india.html | 68 | 5382 | 24 | 10 | 12 | 2026-06-30 | ❌ bars>22; banned ("Think of" ×1) | no main{min-width:0} (phone overflow) |
+| tata-motors-pv.html | 83 | 7893 | 12 | 12 | 12 | 2026-06-30 | ✅ | no main{min-width:0} (phone overflow) |
+
+- **tata-motors-pv.html — FY26 PAT bridge (from the FY26 AR P&L, checked by the orchestrator):** reported PAT ₹82,645 Cr = continuing operations −₹1,377 Cr + discontinued operations ₹84,022 Cr (CV profit before tax to the demerger ₹1,658 Cr + exceptional gain ₹82,616 Cr − tax ₹252 Cr). The ₹4,975 Cr figure in the AR is the net assets transferred at the appointed date, a statement-of-changes-in-equity item, NOT part of FY26 profit; do not cite it as a "gain on discontinued operations".

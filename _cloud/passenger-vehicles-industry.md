@@ -1482,3 +1482,5 @@ Re-added by hand from the §3.1 company rows. Basis: screener consolidated FY26 
 | Ex-TMPV (MARUTI+HYUNDAI+TMCV) | 3,37,934 | 37,708 | 11.2% | 23,142 | 6,49,232 | 28.1× |
 
 Checks: revenue, OP, m-cap and the ex-gain columns in §3.2(a) were arithmetically correct; only the TMPV PAT basis changes (₹29 Cr → −₹1,377 Cr), which moves All four 32.2× → 34.3× and PV makers 29.8× → 32.1×. Q1 FY27 rows in §3.2(b) re-add correctly from the company rows (Maruti 52,470 + Hyundai 16,335 + TMPV 95,799 + TMCV 20,667 = 1,85,271; OP 14,138; PAT 7,751).
+
+**Orchestrator correction to Supersedes #1 (24-Oct-2026):** the TMPV FY26 AR P&L (lines XII–XVII) gives discontinued operations = PBT ₹1,658 Cr + exceptional gain ₹82,616 Cr − tax ₹252 Cr = ₹84,022 Cr; −₹1,377 Cr + ₹84,022 Cr = ₹82,645 Cr reported. The "₹4,975 Cr gain on discontinued operations" in Supersedes #1 is wrong: ₹4,975 Cr is the net assets transferred at the appointed date (an equity-statement item), not FY26 profit. The report uses the corrected bridge.
