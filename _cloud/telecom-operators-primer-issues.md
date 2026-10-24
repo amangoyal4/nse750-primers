@@ -50,3 +50,48 @@
 - **All three mobile primers — tariff hike expectation.** The primers anticipate a 2026 hike ("~15–20% hike in 2026"). **None has happened as of 24-Oct-2026.** Add the reason cited in the press (West Asia/Iran conflict, inflation) and keep the hike as a scenario.
 - **All mobile primers — Jio IPO.** Add the Jio Platforms IPO (₹30,213 Cr fresh issue; ₹1,065–1,119 band; ~₹10.3 L Cr valuation; 22.19× subscribed; listing ~28-Oct-2026; FY26 revenue ₹1,46,885 Cr, EBITDA ₹76,255 Cr, PAT ₹30,049 Cr; ARPU ₹215.6). It is now the listed benchmark peer.
 
+
+## From Telecom Operators deep-research pass (2026-10-24, telecom-operators-industry.md §4.5)
+
+- **bharti-airtel.html:**
+  - Add company net debt ₹1,57,240 Cr incl. leases / ₹81,852 Cr ex-leases (Jun-26), and churn 2.6%.
+  - Add the Africa swap mechanics (146.76 mn shares at ₹1,923 to ICIL for 16.31% of Airtel Africa; stake 79.11%).
+  - Fix the FY25 profit explanation: the Indus business-combination gain was ₹14,322.5 Cr, offset by a ₹6,358.6 Cr regulatory-levy charge.
+  - Use the company EV/EBITDA (9.77×) rather than screener-derived ~11.7×.
+  - Add the Nxtra 1 GW / US$1 bn raise and the Airtel Money London listing (H2-2026).
+  - Note that FY24–FY25 company figures are recast for Indus.
+- **bharti-hexacom.html:**
+  - Net debt ex-lease is ₹960 Cr (Jun-26), not ₹2,694 Cr. ₹2,694 Cr is the spectrum DPL; there is no bank debt.
+  - FY26 EBITDA ₹5,069 Cr (54.2%), not ~₹5,114 Cr.
+  - Churn 2.3%.
+  - TCIL 15.00% confirmed (overhang).
+  - RMS ~46% across the two circles (Rajasthan ~43%, NE ~58%).
+- **vodafone-idea.html:**
+  - FY26 underlying loss −₹24,059 Cr.
+  - AGR schedule ₹100 Cr/yr FY32–35 then ₹10,608 Cr/yr FY36–41.
+  - The going-concern MU was removed in the FY26 audit.
+  - External debt ₹3,489 Cr (incl. ₹3,278 Cr NCDs).
+  - Promoter split Vodafone ~16.1% / ABG ~9.6%.
+  - ₹36,950 Cr spectrum-dues conversion (Apr-2025) explains the 49% GoI stake and removes most of the FY26–28 spectrum cliff.
+  - CLAM settled (₹6,394 Cr).
+  - Capex plan is ₹45,000 Cr, not more.
+  - Drop "₹9,450 Cr extra AGR demand" or reframe it as subsumed in the ₹64,046 Cr reassessment [E].
+- **tata-communications.html:**
+  - Net debt ₹11,197 Cr (2.17×), ROCE 15.9%.
+  - FY26 attributable PAT ₹1,001.6 Cr.
+  - India 35% of revenue.
+  - DoT demand notices ₹7,845 Cr (contingent).
+  - Canada tax settlement (₹1,658 Cr CL).
+  - Constant-currency data growth ~6%.
+  - Old 23–25% margin target replaced by an Investor Day (Feb-2027).
+  - Campaign Registry ₹844 Cr.
+- **tata-teleservices-maharashtra.html:**
+  - RPS 24-month term expired Sep-2026 and was remeasured (₹1,980.50 → ₹837.75 Cr).
+  - Cash only ₹8.70 Cr.
+  - CP ₹1,505 Cr outstanding.
+  - ICD limit from TTSL ₹20,000 Cr.
+  - Contingent liabilities ₹802 Cr.
+  - AA- (Stable) ratings rest on Tata support.
+  - About half of finance cost is non-cash.
+
+*End of Part 4.*
