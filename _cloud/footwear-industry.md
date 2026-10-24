@@ -1478,3 +1478,880 @@ All aggregates are **straight sums of the company rows above on one basis**:
   - FY25 exports: https://www.dtnext.in/news/business/indias-leather-footwear-exports-jump-25-pc-to-57-billion-in-fy25-830774
   - ICICI Direct Bata price data: https://www.icicidirect.com/stocks/bata-india-ltd-share-price
 - **Raw notes:** /tmp/footwear-dossier/ (notes-screener.md, notes-web.md, notes-primers.md, notes-calc.md; raw screener HTML and PDFs in raw/ and dl/).
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (2026-10-24)
+
+Compiled 24-Oct-2026 (Saturday) by the second-pass, primary-source research agent. **Part 4 overrides Parts 1–3 wherever they conflict.** The writer should apply §4.0 (Supersedes) before drafting.
+
+**How to read Part 4**
+- Tag **[V-P]** = verified this session from a **primary** document fetched and read: company filings on bseindia.com (annual reports, investor presentations, earnings-call transcripts), PIB, CBIC, the Gazette, BIS, CLE, or rating-agency rationales. The BSE link is given at the first use; the full list is in §4.6.
+- Tag **[V-scr]** = re-pulled this session from screener.in (24-Oct-2026). Matches Parts 2–3 unless flagged.
+- Tag **[V-sec]** = fetched this session from a serious secondary source (news agency, broker, trade press).
+- [K], [E] and [V-snip] keep their Part 1 meanings.
+- Section order in the file: §4.2 company deep-dives (written first), then §4.3 industry, then §4.0 Supersedes, §4.1 Verification table, §4.4 gap log, §4.5 insights and primer issues, §4.6 sources. **Numbering, not file position, is the reading order.**
+- Raw notes and extracted PDF text: /tmp/footwear-deep/ (notes.md; dl/*.txt).
+
+**Five headline corrections (detail in §4.0)**
+1. **Bata franchise count at Mar-26 was 722, not 772.** Bata's own Q1 FY27 deck charts franchise doors at 644 / 661 / 670 / **722** / 750 (Jun-25 → Jun-26). The "772" in HSIE was a typo; HSIE's own "+52 net in Q4" matches 670 → 722. The MD gave the store split on the Q1 call: **~750 franchise + ~1,250 DOS (~125 Hush Puppies + ~1,100 Bata COCO) ≈ 2,000 EBOs.**
+2. **Bata's "financial liability towards royalty" is the Hush Puppies licence owed to Wolverine World Wide, not the Bata parent.** Bata recognised the minimum royalty under the renewed licence as an intangible asset plus a USD liability of ₹257.8 Cr at inception. That liability is the source of the FX losses in Q4 FY26 and Q1 FY27. Payments to the **Bata parent group** in FY26 were royalty to Bata Brands S.A. **₹11.6 Cr (0.33% of sales)** plus technical-collaboration fees to Global Footwear Services Pte **₹73.6 Cr** (FY25 ₹56.1 Cr, +31%), plus ~₹6.5 Cr of service fees: **~₹92 Cr ≈ 2.6% of sales** [V-P FY26 AR].
+3. **Bata's FY25 one-off is confirmed as a land sale.** It was a gain of ₹133.95 Cr (consideration ₹156.0 Cr; freehold industrial land of a closed unit, sold to an unrelated party), net of a VRS cost of ₹10.8 Cr. Bata's **pre-Ind AS 116 EBITDA for FY26 = ₹342 Cr (9.7%)**, computed from the AR cash-flow lease payments of ₹364.2 Cr. That is close to HSIE's ₹348 Cr, now verified on a primary basis. Deducting the Hush Puppies licence cash (₹51.3 Cr) as well gives **₹291 Cr (8.3%)**.
+4. **Relaxo FY26 volume is 17.5 Cr pairs (not ~17.8 Cr [E]) and FY26 realisation is ₹153.** The ~17.8 Cr figure was FY25 actual. The company deck gives the quarterly pairs and realisation series. **Relaxo cut its stated capacity from 10.5 to 9.1 lakh pairs/day** (board, 13-Aug-2026), so utilisation is ~64%, not "50–55%".
+5. **About 80% of Redtape's "other income" is trade rebates, chiefly e-commerce platform rebates.** Online-portal rebates were ₹86.9 Cr of the ₹133 Cr standalone FY26 other income, and supplier rebates another ₹18.0 Cr. It is operating in nature, reclassified out of selling expenses and purchases. **The "PAT ex-other income ~₹143 Cr" / "P/E ex-OI ~40×" framing in Parts 1–3 should be dropped.** Redtape is **~96% traded goods** (purchases of stock-in-trade ₹1,261 Cr vs materials consumed ₹52 Cr), which settles "asset-light vs own manufacturing". Q1 FY27 volume was **6.1 mn pairs (+~4%)**, the first volume disclosure found.
+
+---
+
+## 4.2 Company deep-dives (primary documents)
+
+### 4.2.1 Bata India (BATAINDIA · 500043)
+
+**Documents read this session [V-P]**
+- Q1 FY27 investors presentation (pre-read filed 12-Aug-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef4fccd1-ba4b-4ba0-a4fb-71b9701f6382.pdf
+- Q1 FY27 earnings call transcript (call held 13-Aug-2026, hosted by Ambit; filed 17-Aug): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c13562b4-3aae-449e-9348-228fc496d985.pdf
+- Annual Report 2025-26 (standalone and consolidated financial statements): https://www.bseindia.com/xml-data/corpfiling/AttachHis/e95671a6-9522-4f64-b7ff-75b5b22eb974.pdf
+
+**(a) Management-guidance digest, Q1 FY27 call (13-Aug-2026; MD & CEO Gunjan Shah, CFO Amit Aggarwal) [V-P]**
+- **No formal guidance.** The company "does not give forward-looking guidance". Management is "reasonably optimistic"; a delayed monsoon pushed some Q1 revenue into July and early August.
+- **Growth mix:** Q1 revenue ₹979 Cr (+3.9%), split roughly equally between **volume (+2.3% per the deck) and price/mix.** "Underlying PBT" +22%.
+- **Cost inflation and pricing:**
+  - Input-cost push is **5–6%**, mainly imported synthetics (crude derivatives). Bata has taken a "commensurate" price increase on new and existing products.
+  - Bata carries **140–150 days of inventory**, so the cost push shows from Q2 FY27. New-price stock reaches the market "sometime towards September".
+  - The CFO expects **no margin dilution** in the following quarter.
+- **Demand by price point:** after the GST rationalisation, lower price points are "showing some resurgency", but premium still grows faster and ASP is up. Competitive intensity at low price points is "too early to comment" because peers have not yet felt the full raw-material increase.
+- **Brands:** Hush Puppies and Floatz led. Bata-brand ladies did well (Taapsee Pannu campaign; Everyday Essentials). Power did well; **North Star was a drag**, partly through deliberate line rationalisation, with a relaunch planned for the next couple of quarters. The **product-funnel reset lands in stores Jan–Mar 2027** (premium, "design and comfort authority").
+- **Gross margin:**
+  - GM +130 bp, after **~100 bp of channel-mix dilution** from franchise and e-commerce. Like-for-like channel mix would have given +230–240 bp.
+  - Full-price sales are ~89–90% (86–87% the previous quarter; 73% in Q1 FY25).
+  - Management benchmarks on **EBIT per pair**.
+- **Store network (from the MD, answering two analysts):** **~2,000 EBOs = ~750 franchise + ~1,250 DOS.** Of the DOS, ~125 are Hush Puppies stores and ~1,100 are Bata COCO. ZBM covers 775 COCO stores = ~80% of COCO revenue; "Project Elevate" (ZBM 2.0) results come next quarter. Ambition: **3,000 EBOs**. Franchise has **>600 potential trade areas** still open.
+- **Franchise economics:** like-for-like growth is "close to high single digits" for ~4 quarters. A franchisee earns an **18–24% ROI** ("almost an underlying floor"). Revenue per sq ft was not disclosed.
+- **Sourcing consolidation:**
+  - Partners: ~120 two-and-a-half to three years ago → ~60 now. Target **15 core + 15 satellite** over 3–5 years.
+  - Consolidation alone saves ~0.2–0.3% a year. Combined with kit, mould and material rationalisation, the total benefit is ~**200 bp** over the journey.
+  - Lines per store are now 68% of the level two years ago, settling near 60%.
+- **A&P:** model **3–3.5% of sales** (vs ~2.5% a year ago). Q1 ad spend was +25%, and "elevated marketing spends" will continue for "the next couple of years".
+- **Employee cost** has been flat for five quarters (VRS plus restructuring on the Blue Yonder merchandising platform).
+- **Watch-item:** the IIFL analyst closed by wishing Gunjan Shah "all the best for the future endeavours". That reads like a leadership-change signal. **No resignation filing was checked this session [FLAG — verify on BSE before printing].**
+
+**(b) KPI table, Q1 FY27 deck [V-P]**
+
+| KPI | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|
+| Franchise doors | 644 | 661 | 670 | **722** | **750** |
+| ZBM doors | 199 | 300 | 400 | 550 | 775 |
+| Towns (I&D) | 1,590 | 1,635 | 1,643 | 1,660 | 1,678 |
+| KRO count | 1,480 (Jun-25) | — | 2,210 (Dec-25) | 2,674 | 3,472 (target 4,000+ by Q2 FY27) |
+
+- **Q1 FY27 vs Q1 FY26:**
+  - Revenue ₹978.9 Cr (+3.9%); **volume +2.3%**.
+  - Gross margin ₹536.0 Cr = **54.8%** (+130 bp).
+  - "Cash operating margin" **9.3% (+135 bp)** — the company's own pre-rent profitability line. Treat it as Bata's management view of pre-116 margin [V-P; definition not given on the slide].
+- **Reported vs underlying PBT — conflict resolved:** reported PBT **₹85.6 Cr vs ₹69.7 Cr**. Adjusted PBT **₹90.7 Cr vs ₹74.5 Cr (+22%)**. Adjustments: Q1 FY27 = FX loss on licence fees ₹2.8 Cr + ERP one-time ₹2.3 Cr; Q1 FY26 = VRS ₹4.8 Cr. Screener's ₹86 Cr is the reported figure. **Both sources in §H-17 were right; they measure different things.**
+- **Digital:** e-commerce **14% of Bata India turnover**. Digital split: B2C marketplaces 49%, B2B 41%, Bata.com 10%. E-commerce +13%, Bata.com +25%, B2C +42%. 1,050+ stores fulfil online orders. App: 300k+ downloads, ~14% of Bata.com. **The FY26 AR adds that digital sold >5.4 mn pairs a year (~11% of ~50 mn).**
+- **Other KPIs:**
+  - Stock turns 2.54× (1.88 / 1.89 / 2.11 in Q1 FY24–26); inventory −37% vs Q1 FY24.
+  - Full-price sales 88.0% (84.3%; 73.0% two years ago); availability +12%.
+  - COCO penetration: ~630 stores in the top 20 cities. Franchise covers ~675 unique towns. **SIS ~370 doors.** MBOs 17,000+. FSR ~180. GMB 4.85; NPS 88.
+
+**(c) 5-year annual table (consolidated, ₹ Cr) [V-scr, re-pulled 24-Oct-26; matches Part 2]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | TTM |
+|---|---|---|---|---|---|---|
+| Revenue | 2,388 | 3,452 | 3,479 | 3,489 | 3,516 | 3,553 |
+| OP (post-116) | 427 | 804 | 797 | 751 | 726 | 712 |
+| OPM | 17.9% | 23.3% | 22.9% | 21.5% | 20.6% | 20.0% |
+| Other income | 54 | 39 | 19 | 188 | 24 | 36 |
+| Interest | 99 | 118 | 126 | 141 | 147 | 132 |
+| Depreciation | 242 | 295 | 339 | 371 | 420 | 417 |
+| PBT | 140 | 430 | 351 | 426 | 182 | 198 |
+| PAT | 103 | 323 | 263 | 331 | 134 | 146 |
+| ROCE | 8% | 20% | 19% | 15% | 13% | — |
+| Inventory days | 292 | 218 | 227 | 197 | 164 | — |
+| **Pre-116 EBITDA (standalone, AR) [V-P derived]** | — | — | — | 733.2 − 353.2 = **₹380 Cr (10.9%)** | 706.3 − 364.2 = **₹342 Cr (9.7%)** | — |
+
+- **FY26 standalone EBITDA build [V-P AR, INR mn]:**
+  - Revenue 35,154.8.
+  - Minus materials 2,332.9, purchases of stock-in-trade 12,385.9, inventory change 1,001.8, employees 4,522.2 and other expenses 7,848.9.
+  - **= EBITDA 7,063.1 (20.1%).** Minus lease payments 3,642.2 (principal 2,467.9 + interest 1,174.3) = **3,420.9 (9.7%)**. Minus Hush Puppies licence payments 513.0 = **2,907.9 (8.3%)**.
+  - FY25 on the same basis: EBITDA 7,331.9 (21.0%) − lease cash 3,532.4 = **3,799.6 (10.9%)**, vs HSIE's ₹384 Cr. Pre-116 EBITDA fell ~10% in FY26 [V-P derived].
+
+**(d) 8-quarter table (consolidated, ₹ Cr) [V-scr]**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 837 | 919 | 788 | 942 | 801 | 945 | 828 | 979 |
+| OP | 174 | 200 | 178 | 199 | 145 | 212 | 151 | 204 |
+| OPM | 20.8% | 21.8% | 22.6% | 21.1% | 18.1% | 22.4% | 18.2% | 20.8% |
+| Other income | 18 | −1 | 23 | 12 | 13 | 13 | −8 | 18 |
+| PBT | 70 | 77 | 62 | 70 | 19 | 89 | 4 | 86 |
+| PAT | 52 | 59 | 46 | 52 | 14 | 66 | 2 | 64 |
+
+- Jun-24 (Q1 FY25) had other income of ₹151 Cr and PAT of ₹174 Cr. This is the **land-sale quarter**: the AR books it as an exceptional item of ₹133.95 Cr, and screener folds it into other income.
+
+**(e) FY26 annual-report findings [V-P]**
+- **P&L (standalone, ₹ Cr):**
+  - Revenue 3,515.5 (+0.8%); other income 78.6.
+  - PBT before exceptionals **230.2** (FY25 300.6). Exceptionals **−49.0**: VRS 42.4 at the Batashatak (Tamil Nadu) and Batanagar (West Bengal) units, plus a **labour-codes past-service cost of 6.7** (codes notified 21-Nov-2025).
+  - PAT **133.6** (FY25 328.4); EPS ₹10.39.
+- **FY25 exceptional:**
+  - **Gain on sale of land (net) ₹133.95 Cr.** Consideration ₹156.0 Cr; freehold industrial land; unrelated buyer; received on the same day.
+  - Less VRS ₹10.78 Cr = net exceptional +₹123.2 Cr.
+  - Underlying FY25 PBT ≈ ₹300.6 Cr vs FY26 ₹230.2 Cr = **−23%**, not −57% as reported.
+- **Cost structure (FY26):**
+  - Purchases of traded goods ₹1,238.6 Cr vs materials consumed ₹233.3 Cr. **~84% of COGS inputs are bought-in finished goods** [E: share of materials + purchases]. Bata is a retailer-sourcer first, a manufacturer second.
+  - Gross margin 55.3%.
+  - Other expenses include:
+    - rent (short-term/variable leases) ₹131.8 Cr; freight ₹105.3 Cr;
+    - A&SP **₹100.3 Cr (2.9%; FY25 ₹82.4 Cr)**; legal and professional ₹75.2 Cr;
+    - sales commission ₹37.2 Cr (FY25 ₹51.7 Cr); royalty expense ₹24.8 Cr (FY25 ₹70.2 Cr — it fell because Hush Puppies is now an amortised intangible); CSR ₹7.3 Cr.
+- **Related parties (Bata group):**
+  - Royalty to Bata Brands S.A. ₹11.61 Cr (₹11.35 Cr).
+  - **Technical collaboration fees to Global Footwear Services Pte ₹73.64 Cr (₹56.10 Cr).**
+  - Service fees: Bata Brands ₹1.54 Cr, Bata Ltd Canada ₹3.59 Cr, Bata Nederland ₹1.32 Cr.
+  - Purchases from group companies are small (~₹22 Cr incl. GFS ₹3.5 Cr and Bata Brands ₹18.9 Cr — line labelled "purchase of goods/services from").
+  - **Total parent-group charges ≈ ₹92 Cr ≈ 2.6% of sales** [E sum].
+  - The royalty **rate** is not stated. Implied Bata Brands royalty ≈ 0.3% of sales; implied all-in group fee ≈ 2.5–2.6%.
+- **Hush Puppies licence (Note 40):**
+  - Licence renewed with Wolverine World Wide in FY25: exclusive manufacture, sale and distribution in India.
+  - Minimum contractual royalty recognised as a "Licence Right" intangible and a financial liability: **PV ₹257.8 Cr at inception**.
+  - FY26 cash payments: principal ₹33.4 Cr + interest ₹17.9 Cr.
+  - Unrealised FX loss in FY26 ₹23.1 Cr (cash-flow add-back). **This is the "royalty liability" behind the FX hits.**
+- **Leases (Note 4e):**
+  - Lease liability ₹1,386.6 Cr (Mar-26); new leases ₹295.6 Cr; ROU depreciation ₹291.1 Cr.
+  - **Lease cash out ₹364.2 Cr (FY25 ₹353.2 Cr)** + short-term lease expense ₹86.9 Cr + variable lease ₹9.1 Cr.
+  - **Total rent-type cash ≈ ₹460 Cr ≈ 13.1% of sales** [E sum]. Rental contracts typically run 5–9 years.
+- **Contingent liabilities ₹19.0 Cr** (FY25 ₹23.8 Cr): excise/customs/service tax ₹6.6 Cr; sales tax ₹0.5 Cr; ESI ₹1.9 Cr; others (rent, labour, wages) ₹10.0 Cr. Immaterial.
+- **Segment:** single segment, "Footwear & Accessories"; no customer is >10% of revenue.
+- **Auditor:** unmodified opinion. Key audit matter: revenue recognition (high-volume retail, plus franchise/non-retail returns estimates).
+- **Cash flow (standalone):** CFO ₹595.3 Cr (₹737.9 Cr); capex ₹65.9 Cr; dividends ₹115.7 Cr (₹281.9 Cr).
+- **MD&A market claims (unsourced in the AR):**
+  - Indian footwear market "projected to cross **USD 90 bn by 2030**".
+  - Per-capita consumption "still well below 2 pairs" vs a global "~3".
+  - Digital >5.4 mn pairs a year.
+  - A long-term agreement (LTA) was signed with the union at Bataganj (Bihar).
+- **Capacity:** the AR gives no capacity table. The factories named are Batanagar (West Bengal), Batashatak (Tamil Nadu) and Bataganj (Bihar), plus others not itemised in what was read. Two units went through VRS in FY25–26, consistent with shrinking own manufacturing.
+
+**(f) What changes in the Bata story**
+- **Pre-116 margin is ~9.7%** (8.3% after the Hush Puppies licence) [V-P derived]. Use these, not the [E] ~9.9%.
+- **Rent-type cash is ~13% of sales.**
+- **Parent-group fees (~2.6% of sales) are bigger than "royalty" alone suggests.** Technical-collaboration fees rose 31% in FY26 while sales rose 0.8% — a minority-shareholder watch-item.
+- **The franchise roll-out is slower than "772 → 1,000 in 12 months" implied:** 644 → 750 in a year (+106).
+
+---
+
+### 4.2.2 Relaxo Footwears (RELAXO · 530517)
+
+**Documents read [V-P]**
+- Q1 FY27 investor presentation (13-Aug-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4f666bd-9389-4ad3-a9e9-d8b77a75826d.pdf
+- Q4 FY26 earnings-call transcript (call 29-May-2026; filed 3-Jun-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85a57f94-5239-428a-8045-f7837c97cb0e.pdf
+- Annual Report 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/15ff658f-2958-4827-a157-d3aca6a81101.pdf
+- **No Q1 FY27 call transcript was found.** Screener lists only the Aug-2026 deck. Quartr's Q1 FY27 page carries only the financials. Relaxo's site is JavaScript-rendered and could not be scraped. **The Q1 FY27 commentary below is therefore the deck plus the Q4 FY26 call (29-May-2026), which already covered Q1 pricing actions.** [GAP: a Q1 FY27 transcript, if one exists]
+
+**(a) Management-guidance digest (Q4 FY26 call 29-May-2026; CMD Ramesh Kumar Dua, Co-CEO Gaurav Kumaar Dua, ED Sushil Batra) [V-P]**
+- **Price increases:**
+  - "2 to 3" gradual increases; **blended consumer-price increase 15–18%** (Gaurav Dua confirmed when asked).
+  - The cost side is up ~15–20%. Sushil Batra put the COGM increase at 12–15% "including all states and all material".
+  - Drivers:
+    - (i) Raw material "shot up like anything" in April 2026, e.g. one input from "120 to 240–250". By comparison the FY22 spike was "100 to 300".
+    - (ii) **Labour: +25–30% in one state (Haryana; "more than 30%" per Gaurav Dua); +10–15% in other states.**
+- **No roll-back.** The CMD: "I don't think there is any possibility that raw material will settle down soon." Raw material is "softening" but wages will not come down. Management says "all the players have taken the increase of prices. It's not only Relaxo." Relaxo is buying raw material cautiously this time, not stockpiling six months as in FY22.
+- **GST:** the cut from 12% to 5% helped organised branded players; distributors restocked. **Q4 FY26 was the first volume growth after 8 quarters** (seasonality + GST + recovery).
+- **FY27 guidance:**
+  - EBITDA margin "better than 13.8%" (~+100 bp).
+  - **Volume growth "at least 4–5%"** (over two years).
+  - Ad spend **4–5% of sales**, shifting to digital and marketplace performance marketing.
+- **Capex:** FY26 ~₹130 Cr; **FY27 ₹180–200 Cr** for moulds, machine refurbishment and a new administrative office. "No big capacity expansion."
+  - **100 new EBOs at ₹30–35 lakh each** (₹30–35 Cr, inside the capex budget). EBOs are ~10% of the business.
+- **Mix push:** Sparx shoes were historically ₹999–1,700; the range now extends towards ₹2,500 (the GST threshold). More women's and kids'; sneakers and sports shoes in demand.
+
+**(b) Q1 FY27 KPI table (deck, 13-Aug-2026) [V-P] — all previously [V-snip] items now primary**
+
+| ₹ Cr / unit | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | **Q1 FY27** | FY25 | FY26 |
+|---|---|---|---|---|---|---|---|
+| Revenue | 654 | 629 | 668 | 751 | **705** | 2,790 | 2,702 |
+| Pairs sold (Cr) | 4.3 | 4.1 | 4.0 | 5.0 | **4.2** | **17.8** | **17.5** |
+| Realisation (₹/pair) | 151 | 151 | 164 | 150 | **166** | 156 | **153** |
+| EBITDA | 99 | 81 | 69 | 124 | **108** | 382 | 374 |
+| EBITDA margin | 15.2% | 12.9% | 10.4% | 16.5% | **15.4%** | 13.7% | 13.8% |
+
+- **Q1 FY27 P&L (₹ Cr):**
+  - Revenue 705.05 (+7.73%); other income 12.96.
+  - Materials 311.48; purchases 22.78; inventory change −99.25 (a big build).
+  - **Employee cost 123.56 (+17.1% YoY, the Haryana wage effect)**; other expenses 238.25 (+19.3%).
+  - EBITDA 108.23 (15.35%); depreciation 40.21; finance 5.90; PBT 75.08 (+13.9%); **PAT 54.94 (+12.35%)**.
+- **Gross margin** [E from deck lines] = **66.7% vs 61.8% (+483 bp)**. That confirms the [V-snip], but note the **₹99 Cr inventory build**: much of the GM gain is absorption of production into stock, not just price.
+- **Volume −2.3% (4.3 → 4.2 Cr); realisation +9.9% (151 → 166).** Q3 FY26's ₹164 was the post-GST-cut mix spike. Q4's ₹150 reflects heavy restocking volume.
+- **Cash PAT:** FY24 ₹350 / FY25 ₹328 / FY26 ₹333 Cr. Company net cash: FY24 ₹151 / FY25 ₹206 / **FY26 ₹292 Cr** (company basis, which nets leases). **Screener-basis net cash ₹460 Cr ex-lease** is consistent: 460 − 233 lease ≈ 227, and the company figure also counts some bank balances.
+- **FY26 revenue mix (deck slide 19, rendered and read):**
+
+| Brand | Revenue share | Volume share | Implied ASP vs company avg [E] |
+|---|---|---|---|
+| Sparx | **41%** | **16%** | ~2.6× (≈ ₹390/pair) |
+| Flite | **36%** | **39%** | ~0.9× (≈ ₹140) |
+| Hawaii (incl. others) | **23%** | **45%** | ~0.5× (≈ ₹78) |
+
+- **Channels FY26:** General trade **74%**, Retail (EBO) **12%**, New channels (e-commerce/modern trade) **9%**, Export **5%**. GT by region: **North 52% / East 24% / West 14% / South 10%** (a North-heavy franchise; West and South are the expansion targets).
+- **Network (Jun-26):** **429 EBOs**; ~630 distributors (Part 2 said ~550); 70,000+ retailers; ~37 export countries; a Dubai office.
+- **Capacity:**
+  - 9 plants. **Stated capacity recalibrated from 10.5 to 9.1 lakh pairs/day** at the 13-Aug-2026 board meeting, as RFL-I and RFL-II are upgraded for the "fashion-forward" segment.
+  - Utilisation [E]: FY26 17.5 Cr pairs ÷ (9.1 lakh × ~300 days = 27.3 Cr) ≈ **64%**. On the old 10.5 lakh basis (31.5 Cr) ≈ 56%.
+- **Industry slide** (source "Industry Reports", unnamed): **India footwear market ₹1,927 bn (₹1.93 lakh Cr) in 2025 → ₹4,433 bn by 2034 (9.7% CAGR); organised 35% (₹674 bn) in 2025 → 45% by 2034 (13% CAGR).** India moved from 6th to 5th largest exporter by quantity. See §4.3 for how this squares with CRISIL.
+
+**(c) 5-year annual (standalone, ₹ Cr) [V-scr + V-P deck]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | TTM |
+|---|---|---|---|---|---|---|
+| Revenue | 2,653 | 2,783 | 2,914 | 2,790 | 2,702 | 2,753 |
+| OP | 418 | 341 | 409 | 385 | 377 | 383 |
+| OPM | 15.8% | 12.3% | 14.0% | 13.8% | 14.0% | 13.9% |
+| Company EBITDA | — | — | 407 | 382 | 374 | — |
+| PBT | 311 | 210 | 269 | 230 | 241 | 251 |
+| PAT | 233 | 154 | 200 | 170 | 179 | 185 |
+| Pairs (Cr) | n/f | n/f | n/f (deck chart shows FY24 but the value was not legible) | 17.8 | 17.5 | — |
+| Realisation ₹ | — | — | — | 156 | 153 | — |
+| ROCE | 18% | 12% | 14% | 11% | 11% | — |
+| Inventory days | 202 | 154 | 179 | 177 | 184 | — |
+
+**(d) 8-quarter (standalone, ₹ Cr) [V-scr]**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 679 | 667 | 695 | 654 | 629 | 668 | 751 | 705 |
+| OP | 88 | 83 | 112 | 99 | 81 | 69 | 124 | 108 |
+| OPM | 13.0% | 12.4% | 16.1% | 15.1% | 12.9% | 10.3% | 16.5% | 15.3% |
+| PAT | 37 | 33 | 56 | 49 | 36 | 27 | 68 | 55 |
+| Pairs (Cr) [V-P] | n/f | n/f | n/f | 4.3 | 4.1 | 4.0 | 5.0 | 4.2 |
+
+**(e) FY26 annual-report findings [V-P]**
+- **No royalty.** Relaxo is promoter-owned and owns its brands.
+- **Related parties are small:** lease rent to KMP and relatives **₹7.6 Cr**; a property purchase of **₹17.5 Cr** from promoter relatives; remuneration. Shareholders are being asked for a special resolution because executive-director pay may exceed 11% of net profit.
+- **Contingent liabilities:**
+  - Tax claims ₹58.2 Cr (FY25 ₹48.2 Cr), of which GST/sales/entry tax ₹55.9 Cr.
+  - **Interest on Haryana entry tax ₹104.6 Cr** (pending at the Punjab & Haryana High Court, after the Supreme Court's 2016 ruling upholding entry tax). The principal of ₹46.8 Cr is already provided.
+  - HSIIDC enhanced-cost demands for Bahadurgarh plots ₹20.2 Cr.
+  - **Total contingent ≈ ₹183 Cr ≈ 8% of net worth** — the largest of the four relative to size.
+  - Plus an EPCG export obligation of ₹63.8 Cr (FY25 ₹148.9 Cr) and capital commitments of ₹34.5 Cr.
+- **Auditor key audit matters:** trade schemes/discounts and provisions/litigation. Opinion unmodified.
+- **Balance sheet (Mar-26):** investments ₹435.8 Cr (non-current ₹247.4 + current ₹188.4); cash and bank ₹24.2 Cr; lease liabilities ₹232.7 Cr; inventories ₹556.7 Cr; receivables ₹298.9 Cr; **zero borrowings**.
+
+**(f) What changes in the Relaxo story**
+- **Pairs fell 1.7% in FY26 (17.8 → 17.5 Cr) and realisation fell 2% (156 → 153).** The FY26 revenue decline (−3.1%) was both volume and price. The GST cut passed through as lower realisation in Q4 (₹150) and restocking volume.
+- **Q1 FY27 is the first quarter of price-led recovery:** realisation +10%, pairs −2%.
+- **"Half-empty factories" is overstated.** After the capacity recalibration, utilisation is ~64%.
+- **The Sparx/Hawaii ASP gap (~5×)** explains why mix matters more than pairs.
+
+
+---
+
+### 4.2.3 Redtape (REDTAPE · 543957)
+
+**Documents read [V-P]**
+- Q1 FY27 investor presentation (filed 10-Aug-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e64645b-ad11-4919-aef1-3e6f21048502.pdf
+- Q1 FY27 investors' meet transcript (call 11-Aug-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8153702-0c76-4647-baa7-5124f683625f.pdf
+- Annual Report 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/16db1e64-9994-48d0-ab9b-197f842bc45d.pdf
+- CRISIL rating rationale, 4-Nov-2025: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/REDTAPELIMITED_November%2004_%202025_RR_377951.html
+
+**(a) Management-guidance digest (Q1 FY27 call 11-Aug-2026; WTD Arvind Verma, CFO Vivek Agnihotri; MD Shuja Mirza quoted in the deck) [V-P]**
+- **No MRP increases** despite pressure on inputs, labour ("wage-related pressures in key manufacturing states") and sourcing. Margin was protected through sourcing, supply-chain and retail execution. ASP rose sequentially through product and category mix only.
+- **E-commerce reset:**
+  - Redtape "consciously avoided excessive marketplace-led discounting". E-commerce revenue fell ~26% YoY, to **~22% of Q1 revenue (vs ~30% in FY26)**. Management calls this "one-off" brand protection.
+  - **Other income fell because e-commerce platform rebate income dropped to ~₹8–9 Cr in Q1 FY27 from ~₹28 Cr in Q1 FY26** (CFO). This links Redtape's "other income" directly to marketplace volume.
+- **Growth guidance:** "continue the same growth story… of the last 3–4 years" (no number). EBITDA margin (incl. other income) "stable", ~20%. No total-revenue number was given.
+- **Stores:** 33 opened in Q1. Aspiration **150+ in FY27**; an analyst cited an earlier 200–250. New stores are smaller (800–1,500 sq ft) as Redtape enters the South, East and West. Stores ramp in 45–50 days.
+- **Inventory:** **173 days now (company basis), target 150**. Stock builds in Q2 for Q3/Q4.
+- **Income-tax search (Sep-2025):** "an ongoing process… the department says it will take 2–3 years to close". "As of now there's been no claim of any material and there's no risk of any material" (management's view).
+- **BIS:** Redtape still holds "some non-BIS inventory" and hopes for another extension. **This is direct evidence that the legacy-stock deadline matters to a listed member.**
+- **Other points:**
+  - Exports ~₹2.5 Cr in Q1; a UK master distributor (Style Label, Manchester) has been appointed.
+  - SSSG was not given ("Q1 is not very good for everybody").
+  - Sprandi: sportswear, shoes first, apparel later; launch ~end-Sep 2026.
+  - No acquisitions in the pipeline. No comment on market talk of a promoter stake sale to PE.
+
+**(b) Q1 FY27 KPI table (standalone, ₹ Cr) [V-P deck]**
+
+| | Q1 FY27 | Q1 FY26 | YoY | Q4 FY26 |
+|---|---|---|---|---|
+| Revenue | 480 | 463 | +3.7% | 674 |
+| Gross profit | 228 | 210 | +8.6% | 292 |
+| Gross margin | **47.5%** | 45.4% | +213 bp | 43.4% |
+| Employee cost | 32 | 29 | | 31 |
+| Other expenses | 111 | 137 | −19% | 150 |
+| **Other income** | **15** | **43** | −65% | 23 |
+| EBITDA (incl. OI) | 101 | 87 | +16.4% | 135 |
+| **EBITDA ex-OI [E]** | **86 (17.9%)** | **44 (9.5%)** | **+95%** | 112 (16.6%) |
+| PBT | 63 | 49 | | 98 |
+| PAT | 47 | 39 | +19.4% | 71 |
+| **Pairs sold** | **6.1 mn** | **5.9 mn** | **~+4%** | n/d |
+
+- **Implied footwear ASP [E]:** footwear 56% of ₹480 Cr ≈ ₹269 Cr ÷ 6.1 mn ≈ **~₹440/pair**, net of GST and channel margins. That is a wholesale-equivalent blend across franchise and marketplace channels, well below MRP bands of ₹1,500–3,000. Treat it as indicative only, because the pairs basis (footwear only?) is not defined in the deck.
+- **Q1 FY27 mix:** footwear **56%**, apparel **39%**, accessories **5%** (apparel is seasonal and peaks in Q3/Q4). E-commerce ~22%; "others" 4%.
+- **Network (30-Jun-2026):**
+  - 702 stores / 330 cities / 20 states + 4 UTs / **16.6 lakh sq ft**; gross addition 58k sq ft in Q1.
+  - Exclusive Mega Showroom (Online) 297 stores, ~4,400 sq ft average, 12.8 lakh sq ft.
+  - Exclusive Showroom (Offline) 256, 1,500–2,000 sq ft, "majority franchise-managed (FOFO)".
+  - SIS 132; factory shops 11; sports outlets 6. 10+ export markets.
+  - Redtape is the **#2 footwear brand on Flipkart and Myntra**.
+- **Price architecture:** footwear entry ₹500–1,500; core **₹1,500–3,000** (so a material part of the core sits above the ₹2,500 GST threshold [E]); apparel ₹500–2,500.
+- **Demerger facts:** appointed date 1-Jan-2022; NCLT (Allahabad) 21-Feb-2023; **listed 11-Aug-2023**; 1:1 swap; 13.82 Cr shares at ₹2 FV; **3:1 bonus in FY25** (confirms the Part 1 [E]); cost of acquisition split 41.47% Redtape / 58.53% Mirza.
+
+**(c) 5-year annual (consolidated, ₹ Cr) [V-scr]**
+
+| | FY22 (3-month stub) | FY23 | FY24 | FY25 | FY26 | TTM |
+|---|---|---|---|---|---|---|
+| Revenue | 303 | 1,468 | 1,843 | 2,021 | 2,419 | 2,436 |
+| OP (ex-OI) | 47 | 244 | 319 | 220 | 353 | 414 |
+| OPM | 15.5% | 16.6% | 17.3% | 10.9% | 14.6% | 17.0% |
+| Other income | 0 | 7 | 13 | 151 | 132 | 78 |
+| Interest | 4 | 17 | 37 | 54 | 73 | 66 |
+| PBT | 41 | 189 | 236 | 233 | 324 | 336 |
+| PAT | 29 | 142 | 176 | 170 | 241 | 246 |
+| ROCE | — | 37% | 29% | 22% | 24% | — |
+| Inventory days (screener) | — | 308 | 298 | 406 | 306 | — |
+
+- **Why FY25 OPM fell to 10.9% and FY25 OI jumped to ₹151 Cr — resolved [V-P AR]:** in FY26 Redtape **reclassified e-commerce platform rebates (FY25 ₹101.6 Cr) out of "selling expenses" and supplier rebates (FY25 ₹17.4 Cr standalone) out of "purchases" into other income**, and restated FY25. Screener's FY25 OP is therefore understated by ~₹119 Cr relative to FY24 and earlier, which used the old netting basis. **FY23–FY24 OPMs are not comparable with FY25–FY26.** On a like-for-like basis (adding rebates back), FY25 OPM ≈ (220 + ~119) ÷ 2,021 ≈ **~16.8%** [E], consistent with CRISIL's 17.1% for FY25.
+- **TTM other income has fallen to ₹78 Cr** as platform rebates shrink with the e-commerce pull-back.
+
+**(d) 8-quarter (consolidated, ₹ Cr) [V-scr]**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 416 | 661 | 506 | 464 | 492 | 787 | 676 | 481 |
+| OP | 64 | 125 | 45 | 77 | 73 | 147 | 111 | 84 |
+| OPM | 15.4% | 18.9% | 8.9% | 16.6% | 14.8% | 18.7% | 16.4% | 17.5% |
+| Other income | 3 | 9 | 50 | 9 | 10 | 31 | 22 | 15 |
+| PAT | 25 | 73 | 41 | 39 | 28 | 105 | 70 | 44 |
+
+- Mar-25's ₹50 Cr of other income and 9% OPM reflect the year-end reclassification of FY25 rebates. The quarters are not restated, so read the OP + OI line rather than OPM alone. **Note the inconsistency:** the Q1 FY27 deck restates Q1 FY26 other income at ₹43 Cr (standalone) while screener shows ₹9 Cr (consolidated, as originally reported). The deck's Q1 FY26 "other expenses" of ₹137 Cr includes the rebate gross-up. Use the deck for YoY comparisons.
+
+**(e) FY26 annual-report and rating findings [V-P]**
+- **Other income (standalone, ₹ Cr) — FY26 133.0 (FY25 164.3):**
+
+| Component | FY26 | FY25 |
+|---|---|---|
+| Rebate & discount — online portals | **86.87** | 101.57 |
+| Rebate & discount — others (suppliers) | 18.01 | 19.57 |
+| Claim income | 6.46 | 13.56 |
+| Foreign exchange gain | 9.43 | 5.23 |
+| Cessation of lease liability | 6.63 | 5.58 |
+| Dividend from subsidiary | 0 | 13.47 |
+| Interest, royalty, others | 5.62 | 5.27 |
+
+- So **~79% of FY26 other income (₹104.9 Cr) is trade rebates** — operating and recurring while marketplace volumes hold [V-P]. The "PAT ex-OI ~₹143 Cr" framing in Parts 1–3 treats an operating item as non-operating and should be dropped. A fair "quality" adjustment strips only the ~₹28 Cr of genuinely non-operating items (forex, lease cessation, claims, interest).
+- **Cost structure:** purchases of stock-in-trade **₹1,260.6 Cr** vs materials consumed **₹51.7 Cr**. **~96% of goods are bought in finished** [E share].
+  - CRISIL (Nov-2025) adds that the **integrated facility in Unnao (UP) accounts for ~25% of products manufactured, including domestic contract manufacturing; ~75% is imported from Bangladesh, Myanmar and Nepal.**
+  - So the primer's "own-factory moat" is wrong; the company's own "asset-light… vendor partnerships" is right. **The QCO relevance is high, because Redtape's foreign vendors must hold BIS licences** (CRISIL: "most suppliers already BIS-certified").
+- **Revenue by category FY26 (AR MD&A):** footwear **₹1,527.7 Cr (63%; 3-year CAGR 27%)**, apparel ₹802.3 Cr (34%; 8%), accessories ₹82.2 Cr (3%; 21%); total ₹2,412.2 Cr (+19.6%).
+- **Related parties:** purchases from **Mirza International ₹53.1 Cr (FY25 ₹15.0 Cr)**; sales to Mirza ₹0.45 Cr. Rent paid to MD Shuja Mirza ~₹10.5 Cr (line in the RPT table; verify classification). No royalty to Mirza.
+- **Income-tax search:** search and seizure **11–16 Sep-2025** at the registered office, some directors' residences and some employees' residences. The **statutory auditor added an Emphasis of Matter**: impact "not ascertainable" pending completion; opinion not modified [V-P AR]. Upgrade from [V-snip].
+- **Other key audit matters:** revenue recognition (returns and discounts), inventory NRV (slow-moving stock), leases.
+- **Contingent liabilities:** no claims against the company; bank guarantees/LCs ₹6.2 Cr; others ₹31.3 Cr; total ₹37.5 Cr (FY25 ₹52.6 Cr).
+- **CRISIL rating (4-Nov-2025): Crisil A/Stable** (outlook cut from Positive); bank lines raised to **₹615 Cr** (from ₹415 Cr).
+  - **Inventory: ₹764 Cr (Mar-24) → ₹1,221 Cr (Mar-25), with 18–20% aged more than a year.**
+  - FY25 debt incl. lease ₹724 Cr (term ₹48 Cr, working capital ₹318 Cr, lease ₹358 Cr); gearing 0.9×; TOL/TNW 1.8×; interest cover 6.4×; working-capital limit utilisation ~73%.
+  - Downgrade trigger: operating margin <12%. CRISIL's operating margin (17.1% FY25) includes the rebates.
+- **Debt now (Mar-26, screener):** bank ₹385 Cr + lease ₹334 Cr; cash ₹10 Cr → **net bank debt ₹375 Cr** [V-scr; unchanged].
+
+**(f) What changes in the Redtape story**
+- Other income is mostly marketplace economics. Pulling back from discounting cuts revenue and rebate income but lifts gross margin, so the **true Q1 FY27 operating improvement is large** (EBITDA ex-OI ₹44 → ₹86 Cr on the deck's restated basis).
+- Redtape is an **importer-brand**: ~75% of supply is from Bangladesh, Myanmar and Nepal. The 2024–25 inventory spike was partly a Bangladesh-unrest hedge, and 18–20% of stock was more than a year old in Mar-25.
+- **Q1 FY27 volume +~4%** is the first volume datapoint for Redtape.
+
+---
+
+### 4.2.4 Campus Activewear (CAMPUS · 543523)
+
+**Documents read [V-P]**
+- Q1 FY27 investor presentation (6-Aug-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b51eba51-a6d2-4fd2-b2f3-62a2fed8167f.pdf
+- Q1 FY27 earnings call transcript (call ~6-Aug-2026; transcript filed 11-Aug): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d50e39ff-78e9-4dce-8d8d-87063b040bae.pdf
+- Annual Report 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/97a9ecac-55d2-4ee5-91ff-b780aae099b6.pdf
+- CRISIL rationale, 3-Oct-2025: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/CampusActivewearLimited_October%2003_%202025_RR_379716.html
+
+**(a) Management-guidance digest (Q1 FY27 call; CEO Nikhil Aggarwal, COO Uplaksh Tewary) [V-P]**
+- **Price increase: MRPs up ~8% across key categories, effective 1-Apr-2026.** It is "the first across-the-board price hike in ~3 years", and it absorbed raw-material inflation (from March 2026, after the geopolitical shock) and statutory minimum-wage revisions. "Not much resistance… volume has grown in spite of the price hike." **Campus will not cut MRPs when raw-material prices ease**, so margin upside follows.
+- **Why reported ASP was flat (₹674 vs ₹671) despite the +8% MRP:**
+  - Underlying ASP in the core Stuck-On range was +~5%.
+  - (i) Flipkart/Myntra now net "GT charges" from sales (effective Jul-2025): ~−2.5% to ASP and revenue in Q1 only.
+  - (ii) **School shoes +~50% YoY**: a lower-ASP category, now moved from DIP to Stuck-On; ~−2% to ASP. School shoes were **~40% of Q1 volume growth**.
+  - (iii) **158 franchise stores moved from outright sale to sale-or-return (SOR)**: Campus now controls inventory and discounting. Franchise revenue fell ~25% in Q1 as a result (~−2.5% to revenue growth).
+  - **Normalised Q1 revenue growth ≈ 16%.**
+- **FY27 guidance:**
+  - "**Mid-double-digit**" revenue growth, split between ASP (**+6–7% from Q2 onward**) and volume ("**high single digits for sure**", not promised double-digit).
+  - **EBITDA margin 17–19% (company basis, i.e. on total income incl. other income): "100% confident".**
+  - **80–120 stores targeted, ~90–100 achievable.** 18 FOFO EBOs opened in Q1, the most in 6–8 quarters.
+  - Sneaker volume +~30% in FY27 (off a much bigger base after ~100% growth earlier).
+- **Costs:**
+  - Employee cost +15% (10 points annualisation and increments, 5 points new hiring); no further increases expected.
+  - ~₹2.5 Cr extra depreciation from the new **Paonta Sahib and Pantnagar** upper plants.
+  - The LPG shortage constrained some "hot-cold" machine lines during the West Asia shock.
+- **Inventory:** record Q1 production and July "highest ever production month" — a deliberate build ahead of festive. Diwali falls in **November 2026**; marketplace events shift from late September to early October, moving some revenue from Q2 to Q3.
+- **Capacity:** **31.1 mn pairs** of assembly capacity (Jun-26), down from ~36 mn two years ago because 4–5 mn pairs of obsolete **DIP** capacity were shut (DIP = direct-injection PVC, low ASP). The deck still shows 30.7 mn on one slide. Use 31.1 mn.
+- **Elan by Campus** (neo-casual, ₹1,500–2,500; Jim Sarbh as face): in ~100–110 own stores plus Amazon/Myntra. "Doing extremely well"; too early to size.
+
+**(b) Q1 FY27 KPI table [V-P deck] — previously [V-snip] items now primary**
+
+| | Q1 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | **Q1 FY27** |
+|---|---|---|---|---|---|---|
+| Revenue (₹ Cr) | 339 | 343 | 387 | 589 | 456 | **385** |
+| Volume (mn pairs) | 5.8 | 5.1 | 5.8 | 8.3 | 6.8 | **5.7** (57.1 lakh, +11.7%) |
+| ASP (₹/pair) | 585 | 671 | 672 | 711 | 668 | **674** (+0.4%) |
+
+| Annual | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Jun-26 |
+|---|---|---|---|---|---|---|---|
+| Revenue (₹ Cr) | 711 | 1,194 | 1,484 | 1,448 | 1,593 | 1,774 | 1,816 |
+| Volume (mn pairs) | 13.0 | 19.3 | 23.5 | 22.2 | 24.9 | **26.0** | 26.6 |
+| ASP (₹/pair) | 547 | 620 | 631 | 652 | 639 | **683** | 684 |
+
+- **Q1 FY27 P&L (₹ Cr):**
+  - Revenue 385.2; total income 393.2; gross profit 219.8 (**GM 55.9%** vs 55.4%; Q4 FY26 52.1%).
+  - Employees 37.1; **A&SP 30.5 (7.9% of revenue)**; other expenses (incl. online commission) 89.5.
+  - **EBITDA 62.7 = 15.9% of total income** (14.3% ex-OI on screener). PBT 35.3; PAT 26.1 (+17.7%).
+- **Channel mix (% of revenue):**
+
+| | Q1 FY26 | Q4 FY26 | FY26 | Q1 FY27 |
+|---|---|---|---|---|
+| Trade distribution | 55.6 | 51.7 | 52.1 | **53.9** |
+| D2C online | 31.9 | 37.8 | 36.8 | **32.9** |
+| D2C offline (EBO + LFS) | 12.5 | 10.5 | 11.0 | **13.2** |
+| **D2C total** | 44.4 | 48.3 | **47.9** | **46.1** |
+
+- **Network (Jun-26):** **305+ EBOs**; **2,350+ LFS counters**; 31,000+ retail touchpoints; 260+ distributors; 850+ districts; 28 states; 650+ active styles; 35+ designers; manufacturing lead time 60–90 days (vs an industry 90–120).
+- **Price-band revenue mix (excl. accessories):**
+
+| Band | Q1 FY26 | Q1 FY27 |
+|---|---|---|
+| >₹1,500 | 52.7% | **53.8%** |
+| ₹1,050–1,499 | 28.0% | 24.6% |
+| <₹1,050 | 19.3% | 21.6% |
+
+  The rise in the <₹1,050 band is school shoes. NB the 8% MRP hike mechanically moves ₹1,499 SKUs to ~₹1,649, as management noted.
+- **The "58.4% vs 56.2%" conflict (Part 1 §H-18) is definitional.** The Q1 decks use ">₹1,500 revenue share". FY26 full-year 56.2% (ICICI, from company data) is the same metric. The primer's "58.4%" is most likely a Q4 FY26 or H2 figure, or a sneaker-specific variant. **Use 56.2% (FY26) and 53.8% (Q1 FY27), and label it "share of revenue from products priced above ₹1,500".**
+- **Technopak S&A market (FY21 ₹90 bn)** by band, from the deck: entry <₹1,001 48%; ₹1,001–1,500 16%; ₹1,501–3,000 24%; >₹3,000 13%. Campus claims 85%+ market coverage.
+- **Manufacturing:** uppers 37.2% in-house (Haridwar I, Haridwar II, Paonta, Pantnagar); soles 49.6% in-house (Ganaur); assembly 100% in-house (Baddi I, Baddi II, Dehradun); ~90% of raw material sourced domestically.
+
+**(c) 5-year annual (standalone, ₹ Cr) [V-scr]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | TTM |
+|---|---|---|---|---|---|---|
+| Revenue | 1,194 | 1,484 | 1,448 | 1,593 | 1,774 | 1,816 |
+| OP (ex-OI) | 243 | 254 | 211 | 244 | 292 | 297 |
+| OPM | 20.4% | 17.1% | 14.6% | 15.3% | 16.5% | 16.4% |
+| Other income | 1 | 3 | 4 | 15 | 23 | 25 |
+| PBT | 172 | 157 | 120 | 164 | 202 | 207 |
+| PAT | 109 | 117 | 89 | 121 | 150 | 154 |
+| ROCE | 32% | 23% | 17% | 20% | 21% | — |
+| Inventory days | 216 | 222 | 218 | 192 | 207 | — |
+| Volume (mn) [V-P] | 19.3 | 23.5 | 22.2 | 24.9 | 26.0 | 26.6 |
+
+**(d) 8-quarter (standalone, ₹ Cr) [V-scr + V-P volumes]**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 333 | 515 | 406 | 343 | 387 | 589 | 456 | 385 |
+| OP | 38 | 82 | 71 | 49 | 50 | 110 | 82 | 55 |
+| OPM | 11.4% | 15.9% | 17.5% | 14.3% | 12.9% | 18.7% | 18.0% | 14.3% |
+| PAT | 14 | 46 | 35 | 22 | 20 | 64 | 44 | 26 |
+| Volume (mn) | n/f | n/f | n/f | 5.1 | 5.8 | 8.3 | 6.8 | 5.7 |
+
+**(e) FY26 annual-report and rating findings [V-P]**
+- **No royalty.** Campus owns its brand.
+- **Contingent liabilities are tiny:** GST ₹3.1 Cr. An **income-tax claim of ₹52.6 Cr at Mar-25 dropped to nil at Mar-26** (resolved). Capital commitments ₹5.8 Cr. The labour codes (effective 21-Nov-2025) have "no material incremental liability".
+- **Leases:** liability ₹199.9 Cr (₹232.3 Cr); **FY26 lease cash ₹117.0 Cr (principal ₹99.1 Cr + interest ₹18.0 Cr) vs ₹39.0 Cr in FY25**. The jump looks like prepayment, termination or modification (disposals ₹10.6 Cr; "finance sublease" derecognition), not a run-rate. **Do not compute pre-116 EBITDA from FY26 lease cash** [FLAG]. On FY25 lease cash, pre-116 EBITDA ≈ 244 − 39 = ₹205 Cr (12.9%) [E].
+- **Auditor:** unmodified; key audit matter on revenue recognition (presumed fraud risk; revenue from sale of goods ₹1,758.8 Cr).
+- **CRISIL (3-Oct-2025): Crisil A+/Positive** (from Stable) and A1.
+  - **Capex of ~₹230 Cr over FY26–27** for upper and assembly capacity, internally funded.
+  - Interest cover 12.96× (FY25); nil working-capital utilisation.
+  - Expected EBITDA 15–17% (CRISIL basis).
+  - 250 EBOs and 23,000+ touchpoints at the time; more than half of revenue from North + East.
+  - FY25 volume 2.49 Cr pairs at ASP ₹640 (ASP fell from ₹652 in FY24 on higher open-footwear sales).
+- **Net debt and leases (Mar-26, screener):** short-term bank ₹36 Cr, cash ₹4 Cr → net bank debt ₹32 Cr; leases ₹200 Cr. Unchanged from Part 2. The cash-flow statement shows a new short-term borrowing inflow of ₹36.3 Cr in FY26 (FY25: term-loan repayment ₹24.3 Cr).
+- **Analyst Day (9-Oct-2026):** the intimation was found (New Delhi, 11:30–15:00), but **no presentation or transcript was linked on screener or found** [GAP].
+
+**(f) What changes in the Campus story**
+- Volume +11.7% is real but **~40% of it is school shoes**. ASP is flat only because of accounting and mix, with an 8% MRP increase underneath.
+- FY27 is guided as **~half price, half volume**.
+- The **capacity cut to 31.1 mn** (DIP exit) puts FY26 utilisation at **~84%** (26.0 ÷ 31.1). The ₹230 Cr upper and assembly capex is the response.
+
+
+---
+
+### 4.2.5 Leadership note — Bata [V-sec]
+- **Gunjan Shah's five-year term as MD & CEO ended on 30-Sep-2026.** **Sanjay Rao** joined as Whole-time Director & CEO on 24-Aug-2026 and became **MD & CEO from 1-Oct-2026**, subject to approvals. Shah has since joined JK Paper as President – Paper (reported 13-Oct-2026). [Sources: multibagg, Angel One, medianews4u, sahi.com — secondary; the BSE filing was not located.] This explains the "future endeavours" remark on the Q1 call.
+- **Part 1–3 and the primer name Gunjan Shah as MD & CEO. Update to Sanjay Rao.** The Q2 FY27 call on 4-Nov-2026 will be his first.
+
+### 4.2.6 Metro Brands (reference peer) — Q2 FY27 [V-P]
+- **Documents:**
+  - Q2 FY27 investor presentation, 15-Oct-2026: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d146a5e4-e1af-409d-92ab-ca993d4a2038.pdf
+  - Call transcript (call 16-Oct; filed 23-Oct): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55c282e5-b14b-4795-b33c-2236b89d936b.pdf
+
+| ₹ Cr | Q2 FY27 | Q2 FY26 | YoY | H1 FY27 | H1 FY26 | YoY |
+|---|---|---|---|---|---|---|
+| Revenue (consolidated) | 730 | 651 | +12.2% | 1,451 | ~1,280 | +13.4% |
+| EBITDA (consolidated, post-116) | 198 | 171 | +15.8% | 413 | 366 | +12.9% |
+| EBITDA margin | **27.1%** | 26.2% | | 28.5% | 28.6% | |
+| PAT | 77 | 69 | +12.0% | 173 | 168 | +2.8% |
+| Pre-Ind AS 116 PAT margin | 11.9% | 12.7% | | 13.1% | 14.7% | |
+| Revenue (standalone) | 712 | 636 | +11.9% | | | |
+
+- **Corrections to the Part 1/2 Metro lines:**
+  - The Q2 EBITDA margin is **27.1%**, not the 30.5% FY26 screener OPM shown in the §9.1 grid. 30.5% is FY26 annual screener OP; keep the bases separate.
+  - **Revenue per sq ft is a disclosed KPI: ₹8,550 for H1 FY27 (₹8,500 in H1 FY26), i.e. ~₹17,000 a year on store net revenue.** This replaces the "~₹30,000+ [K]" in §9.3, which was wrong by ~2×.
+- **Stores:** 1,053 / 223 cities / 31 states and UTs. Q2: 21 opened, 9 closed. H1: 34 opened, 13 closed. Crocs EBOs 239, Foot Locker 7, Fila 4. "Primarily COCO."
+- **E-commerce incl. omni:** 14.2% of Q2 revenue (+12%); 13.6% in H1.
+- **H1 FY27 store product-sales mix by price:** **>₹3,000 31%; ₹1,501–3,000 56%**; ₹501–1,500 9%; <₹500 4%. Own brands 70% / third-party 30%. Women 42%, men 33%, kids 11%, unisex 11%, accessories 3%.
+  - **So ~87% of Metro's sales are above ₹1,500 and ~31% are above ₹3,000.** Less than a third of its business sits in the 18% GST slab. The ₹1,501–2,500 sub-band got the 13-point cut [E].
+- **Call commentary (CFO Kaushal Parekh, CEO Nissan Joseph):**
+  - Raw-material inflation ~**10–15%**; average price increases only **~2–5%** (article by article).
+  - Inventory was front-loaded when "the US–Iran war broke out".
+  - Rentals are high ("supply not keeping up"); store-opening criteria tightened. Retail demand is "tepid / below budget"; there is a festive shift into Q3.
+  - **BIS:** "BIS implementation challenges affecting selected external brands have constrained supply readiness" for Foot Locker/MetroActiv. **FILA footwear is now locally manufactured in India "in response to BIS-related concerns"**; store expansion from FY28.
+  - **This is the clearest primary evidence in the set that the QCOs bite on imported global brands.**
+
+---
+
+## 4.3 Industry data upgraded from primary sources
+
+### 4.3.1 Exports — CLE/DGCI&S, FY25 vs FY26 (US$ mn) [V-P]
+Source: Council for Leather Exports, "Overview of Indian Leather Industry 2026" (June 2026; data source DGCI&S): https://leatherindia.org/wp-content/uploads/2026/06/Overview-of-INDIAN-LEATHER-INDUSTRY-2026.pdf
+
+| Product | FY25 | FY26 | YoY | Share FY26 |
+|---|---|---|---|---|
+| Leather footwear (≈HS 6403) | 2,007.76 | 1,946.86 | −3.0% | 41.0% |
+| Non-leather footwear (≈HS 6402/6404) | 252.91 | 261.97 | +3.6% | 5.5% |
+| Footwear components (≈HS 6406) | 244.17 | 253.38 | +3.8% | 5.3% |
+| **Footwear subtotal [E sum]** | **2,504.84** | **2,462.21** | **−1.7%** | **51.8%** |
+| Finished leather | 445.32 | 397.63 | −10.7% | 8.4% |
+| Leather garments | 353.82 | 416.29 | +17.7% | 8.8% |
+| Leather goods | 1,319.60 | 1,253.60 | −5.0% | 26.4% |
+| Saddlery & harness | 205.39 | 220.38 | +7.3% | 4.6% |
+| **Total** | **4,828.97** | **4,750.11** | **−1.6%** | 100% |
+
+- **Destinations FY26 (whole sector):**
+  - **USA $975.9 mn (−6.6%; 20.5% share)**; Germany $521.2 mn (11.0%); UK $419.7 mn (8.8%); Italy $295.6 mn; Netherlands $290.2 mn (+17%); Spain $260.0 mn; France $221.1 mn; UAE $141.8 mn (+13%).
+  - US + EU-27 + UK ≈ **~70%** [E sum of the listed EU members + US + UK].
+- **Resolves the Part 1 §2.3 conflict:**
+  - **FY25 was $4.83 bn (not "$5.7 bn, +25%")** — the dtnext figure is wrong or out of scope.
+  - **FY26 fell 1.6% to $4.75 bn.** PTI's "$4.89 bn" (CLE chairman, Sep-2026) is a slightly different cut, perhaps provisional or including some items. **Use CLE/DGCI&S $4.75 bn** as primary.
+  - The US decline in FY26 (−6.6%) was modest despite the Aug-2025 to Feb-2026 50% IEEPA tariffs.
+- **Footwear's export share is ~52% of the sector** (CLE). Part 1's "historically ~45–50%; leather footwear $1.4–1.6 bn; non-leather $0.5–0.7 bn" [K] should be replaced: leather footwear is **~$1.95 bn** and non-leather only **~$0.26 bn**.
+- CLE also states **4.42 mn people employed** (≈40% women in leather products), and India is #2 in footwear production and consumption. CLE's own pair figures are stale (2.58 bn produced and 2.60 bn consumed, a **2018** vintage); use the WFY 2025 figures below.
+
+### 4.3.2 Imports — FY26 [V-sec: GTRI via PTI/Deccan Herald, 16-Jun-2026]
+- **India imported $628.8 mn of footwear and related products in FY26** (GTRI analysis of official trade data):
+  - Vietnam $211.7 mn; China $114.9 mn; Bangladesh $99.5 mn; Indonesia $77.3 mn; Thailand $22.6 mn.
+  - These five are >80% of the total. "Most imports were non-leather footwear and footwear components (soles, uppers, inputs)."
+- **This replaces the Part 1 "~$0.6–0.8 bn pre-QCO [K]".**
+- India is a net exporter of footwear (≈ $2.46 bn exports vs ≈ $0.63 bn imports incl. components) [E].
+- **China ranks only #2 among import sources, behind Vietnam.** This is consistent with global brands sourcing from Vietnam and Indonesia, the very flows the QCO forces to hold BIS licences.
+- No pre-QCO import series was fetched, so the "import wall" volume effect is still unquantified [GAP].
+
+### 4.3.3 World Footwear Yearbook 2026 (APICCAPS, data for 2025) [V-sec — publisher's own release, 31-Jul-2026]
+Source: https://www.worldfootwear.com/news/global-footwear-production-holds-steady-in-2025/11670.html
+- **World production 24.6 bn pairs (+0.1%)**; Asia 88.7% of output.
+  - **China 13.7 bn (55.6%); India 3.0 bn (12.2%, #2)**; Vietnam 1.7 bn (6.7%); Brazil 3.4%; Mexico 0.9%.
+- **Consumption:** Asia 56.0% of the world. **China 4.8 bn pairs; India 2.8 bn; US 1.95 bn.** Per capita: North America 4.6; Europe 4.1; Africa 1.6.
+- **Trade:** world export value **$172 bn (+1.6%)**; trade volume −0.1%. China exports 9 bn pairs (61.2% share, down from 69.1% ten years earlier); Vietnam 11.2%. **World average export price $11.65/pair** (2023 record $11.96).
+- **All Part 1 WFY figures are now fetched [upgrade V-snip → V-sec].**
+- Relaxo's deck adds that India rose from 6th to 5th largest exporter by quantity (industry reports).
+
+### 4.3.4 Market size and organised share — three sources, one table
+
+| Source | Year | Market | Organised share | Basis/notes |
+|---|---|---|---|---|
+| CRISIL (via ICICI Direct/5paisa) | FY25 | ₹1.38–1.45 lakh Cr | ~36–40% (projection from FY20 ~30%) | [V-snip]; CRISIL original not fetched |
+| **"Industry reports" in Relaxo's Q1 FY27 deck** | **2025** | **₹1.93 lakh Cr (₹1,927 bn) → ₹4.43 lakh Cr by 2034 (9.7% CAGR)** | **35% (₹674 bn) → 45% by 2034 (13% CAGR)** | [V-P company deck; source unnamed] |
+| Bata FY26 AR (MD&A) | 2030 projection | ">US$90 bn by 2030" (≈ ₹8.5 lakh Cr at ₹94.9) | — | [V-P; unsourced, looks like a global-research projection; LOW credibility] |
+| Technopak (in Campus deck) | FY21 | S&A footwear ₹90 bn | — | [V-P company deck; Technopak Apr-2022] |
+
+- **Recommendation for the writer:**
+  - Quote the market as **"₹1.4–1.9 lakh Cr (FY25–2025), depending on source"**. The Relaxo-cited 2025 figure (₹1.93 lakh Cr) is the only one from a primary document fetched this session.
+  - The organised share is **"about 35%"** (Relaxo deck, 2025). This sits at the bottom of the CRISIL 36–40% projection, so **"roughly one-third organised"** is the safe phrase.
+- **Members' share recomputed:** ₹10,411 Cr ÷ ₹1.93 lakh Cr ≈ **5.4%**; on the CRISIL basis (₹1.45 lakh Cr) ≈ 7.2%. Part 1's "~7%" becomes **"~5–7% depending on market estimate"** [E]. Against the organised segment only (₹67,400 Cr in 2025), the four members are ≈ **15%** [E].
+- **Volume share [E, now from primary pairs]:** Relaxo 175 mn + Bata ~50 mn + Campus 26.0 mn + Redtape ~25 mn (Q1 run-rate 6.1 mn × 4, seasonality ignored) ≈ **~276 mn pairs ≈ ~10% of India's 2.8 bn pairs** (2025, WFY). Relaxo alone ≈ 6.3%.
+
+### 4.3.5 QCO timeline — upgraded
+
+| Date | Event | Tag |
+|---|---|---|
+| 12-Jun-2026 | DPIIT amends both 2024 footwear QCOs: **S.O. 3038(E)** (Footwear made from Leather and other Materials (QC) Order, 2024) and **S.O. 3037(E)** (Footwear made from All Rubber and all Polymeric Material and its Components (QC) Order, 2024) | [V-P PIB PRID 2283010, 9-Jul-2026] |
+| — | Per PIB: **legacy-stock clearance deadline extended 31-Jul-2026 → 31-Jul-2027**; R&D import of up to **4,500 pairs/yr**, marked "NOT FOR SALE", scrapped after use, year-wise records kept | [V-P PIB] |
+| — | Per PTI/Deccan Herald (16-Jun-2026): the rubber/polymeric amendment substitutes "31st July, 2026" with "31st July, 2027", described as **"one more year to micro and small enterprises in the non-leather footwear sector to comply"**. The leather QCO covers **12 categories** of footwear | [V-sec] |
+| Oct-2026 | Redtape still holds non-BIS inventory and expects "one more extension". Metro: BIS issues constrain Foot Locker/MetroActiv supply; **FILA moved to local manufacture** | [V-P transcripts] |
+
+- **Reading the conflict:**
+  - PIB (the official release) says the 2027 date is for **legacy stock** under both orders.
+  - PTI reports the rubber/polymeric order's substituted date as an **MSE compliance** date.
+  - Both can be true if the 2024 rubber/polymeric order tied legacy-stock clearance and MSE coverage to the same 31-Jul-2026 date. The Gazette text (S.O. 3037(E)) was not fetched.
+  - **Writer: say "the 31-Jul-2026 deadline was pushed to 31-Jul-2027 (legacy stock; for non-leather micro and small units, effectively compliance too)" and cite PIB.**
+  - Trap 9 in Part 1 stands, with this nuance.
+- **Still [K]:** the original Oct-2020 notification and the 2021–23 deferral chain were not re-fetched.
+
+### 4.3.6 GST — upgraded
+- **PIB GST 2.0 explainer (Sep-2025) [V-P]:** the 56th GST Council (3-Sep-2025) cut GST so that "**Footwear priced up to ₹2500 per pair now attracts just 5% GST**". Leather (chamois, composition, tanned/crust) and leather job work fell from 12% to 5%.
+  - https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc202595629301.pdf
+  - **This upgrades the GST 2.0 row from [V-snip] to [V-P].**
+  - The PIB document does not mention HS 6406 parts. Parts at 18% and the inverted-duty position remain [V-snip/K].
+- **The implementing notification is No. 9/2025-Central Tax (Rate), 17-Sep-2025 (G.S.R. 641(E)), effective 22-Sep-2025.** It was later amended by 19/2025 (31-Dec-2025) and 01/2026 (30-Apr-2026). The CBIC PDF could not be downloaded (blocked), and **whether the 2026 amendments touch footwear entries was not verified** [GAP].
+- The pre-2022 history (5% ≤₹1,000 → 12% from 1-Jan-2022) remains [K].
+
+### 4.3.7 Customs duty — corrected [V-P CLE Budget 2025-26 highlights]
+- Budget 2025-26 cut the **tariff (BCD) rate on footwear HS 6401–6405 from 35% to 20%** (Finance Bill 2025, clause 98(b), effective 1-May-2025). From 2-Feb-2025 these goods attract **20% BCD + 18.5% AIDC + nil SWS**.
+- **The effective protection is unchanged at ~38.5%**: the old 35% BCD + 10% SWS on BCD = 38.5%. AIDC replaced part of BCD.
+- **Replace Part 1's "~35% [K]" with "20% BCD + 18.5% AIDC ≈ 38.5% effective (since Feb-2025)".**
+- Same Budget: **wet-blue leather BCD 10% → nil**; IGCR end-use period for exporters' duty-free inputs extended from 6 months to 1 year.
+- Source: https://leatherindia.org/highlights-of-union-budget-2025-26/
+
+### 4.3.8 Focus Product Scheme for footwear and leather [V-P CLE Budget page]
+- Announced in Budget 2025-26 (1-Feb-2025). It will "support design capacity, component manufacturing and machinery" for non-leather quality footwear plus leather footwear and products. Expected outcomes: **22 lakh jobs, ₹4 lakh Cr turnover, >₹1.1 lakh Cr exports**.
+- **No outlay was stated; "details will be circulated as and when notified."** No notification was found this session. **Status: announced, not operational** (unchanged from Part 1).
+
+### 4.3.9 US tariffs on Indian footwear (status Oct-2026)
+- **What serious sources say [V-sec/V-snip; primary USTR text not fetched]:**
+  - A **10% Section 301 additional duty on applicable Indian goods from 24-Jul-2026**, covering ~55% of India's US exports, after the Sec 122 10% expired.
+  - FIEO: India is in the "lower 10% category", while China, Vietnam and Thailand face **12.5%**; footwear rivals **Bangladesh, Cambodia and Indonesia also face 10%** (fibre2fashion, FIEO statement; page blocked, so search summary only).
+  - Total landed duty on a typical Indian footwear line ≈ MFN (~10–12.5% on many lines; up to 37.5–48% on some rubber/plastic lines) + 10% [E].
+- **The "India–US deal at 18%" headline is not supported.** 18% appears to be a reported pre-SCOTUS IEEPA "deal" rate that lapsed when IEEPA tariffs were struck down (20-Feb-2026). As of Aug–Oct 2026 the bilateral trade agreement is described as "negotiations ongoing"; GTRI reports the US has not agreed to the cuts India seeks. **Writer: do not use 18%. Use "10% Section 301 on top of MFN since 24-Jul-2026 (under legal challenge); India's footwear rivals Vietnam/China face 12.5%, Bangladesh/Cambodia/Indonesia 10%."**
+- **Primary evidence of the impact:** CLE/DGCI&S shows sector exports to the US fell only 6.6% in FY26 ($1,045 mn → $976 mn).
+
+### 4.3.10 Raw materials and wages — 2026 direction from primary transcripts [V-P]
+
+| Item | Direction / magnitude | Source (date) |
+|---|---|---|
+| Synthetic inputs (crude derivatives: EVA, PU, PVC, rubber chemicals), imported | Cost push **5–6%** at Bata; impact from Q2 FY27 because of 140–150 days of inventory | Bata Q1 call (13-Aug-2026) |
+| Key raw material at Relaxo | "**120 went up to 240–250**" in April 2026, now "settling"; FY22 analogue "100 to 300" | Relaxo Q4 call (29-May-2026) |
+| Relaxo cost of goods manufactured | **+12–15%** (materials + labour); total cost side +15–20% | Relaxo Q4 call |
+| Metro (sourced product) | Raw-material increase **~10–15%**; price hikes ~2–5% | Metro Q2 call (16-Oct-2026) |
+| Campus | Input pressure from March 2026; **fully absorbed** by an 8% MRP hike (1-Apr); expects RM to taper | Campus Q1 call (Aug-2026) |
+| LPG | Supply constraint hit some hot-cold machine lines (Campus) | Campus Q1 call |
+| **Labour — Haryana** | **+25–30%** ("more than 30%") minimum-wage revision; other states +10–15% | Relaxo Q4 call |
+| Labour — national | Labour codes notified **21-Nov-2025**. Bata booked ₹6.7 Cr past-service cost (exceptional); Campus "no material" impact | Bata FY26 AR; Campus FY26 AR |
+| Labour — UP (Redtape), multi-state (Campus, Metro) | "Wage-related pressures in key manufacturing states"; "statutory minimum-wage revisions"; "higher front-end staff costs following minimum-wage revisions" | Redtape, Campus, Metro calls |
+
+- **No ₹/kg price series was fetched for EVA, PVC, PU or natural rubber** [GAP]. The direction is clear: a sharp spike in Mar–Apr 2026 (West Asia war; naphtha/LPG), easing from May–Jun but not back to pre-war levels. Wages are a permanent step-up.
+- **Pricing responses, ranked by size:** Relaxo +15–18% > Campus +8% > Bata ~5–6% ("commensurate") > Metro ~2–5% > **Redtape 0% (MRPs held)**.
+
+
+---
+
+## 4.0 Supersedes — corrections to Parts 1–3 (apply before drafting)
+
+| # | Part 1–3 location | Old figure / claim | New figure / claim | Source |
+|---|---|---|---|---|
+| S1 | Trap 7; §9.1; §9.3; §2.1 Bata; §3.1 grid; §3.3 | Bata franchise **772** at Mar-26; company-owned ~1,230 [E]; franchise share ~39% | Franchise **722 (Mar-26) → 750 (Jun-26)**; DOS **~1,250** (~1,100 Bata COCO + ~125 Hush Puppies); total ~2,000; franchise share **~37.5%**; SIS ~370 extra | Bata Q1 FY27 deck + call [V-P] |
+| S2 | Trap 1; §2.1; §C.2; §9.1 | Bata pre-116 EBITDA ₹348 Cr / 9.9% [E reading of HSIE]; rent ≈ ₹378 Cr [E] | **₹342 Cr / 9.7%** (FY26) and ₹380 Cr / 10.9% (FY25) = standalone EBITDA − lease cash (₹364.2 Cr FY26; ₹353.2 Cr FY25). Rent-type cash incl. short-term/variable leases ≈ **₹460 Cr (13.1%)**. After Hush Puppies licence cash (₹51.3 Cr): **₹291 Cr / 8.3%** | Bata FY26 AR [V-P derived] |
+| S3 | §2.1 Q4 FY26; §3.3; §H-7 | "Financial liability towards royalty" read as a liability to the Bata parent; royalty rate unknown | The liability is the **Hush Puppies licence (Wolverine World Wide)** minimum royalty, PV **₹257.8 Cr** at inception (FY25). **Parent-group charges FY26 ≈ ₹92 Cr (2.6% of sales)**: royalty to Bata Brands S.A. ₹11.6 Cr (~0.33%) + technical collaboration fees to Global Footwear Services ₹73.6 Cr (+31% YoY) + service fees ~₹6.5 Cr | Bata FY26 AR Notes 40 and RPT [V-P] |
+| S4 | §2.1; §3.2(a); §3.3 | FY25 one-off ~₹151 Cr "widely reported land-sale gain [K]" | **Gain on sale of freehold industrial land ₹133.95 Cr** (consideration ₹156.0 Cr; unrelated buyer), net of VRS ₹10.8 Cr. Underlying standalone PBT FY25 ₹300.6 Cr → FY26 ₹230.2 Cr (**−23%**). FY26 exceptionals: VRS ₹42.4 Cr + labour codes ₹6.7 Cr | Bata FY26 AR Note 39 [V-P] |
+| S5 | §H-17; §2.1 Q1 FY27 | Bata Q1 FY27 PBT conflict (₹85.9 vs ₹90.6 Cr) | Reported **₹85.6 Cr** (vs ₹69.7 Cr); adjusted **₹90.7 Cr** (vs ₹74.5 Cr, +22%). Adjustments: FX on licence fees ₹2.8 Cr, ERP ₹2.3 Cr; base VRS ₹4.8 Cr. Volume **+2.3%** | Bata Q1 deck [V-P] |
+| S6 | §2.1 masthead; story bullets; primer | MD & CEO Gunjan Shah | **Sanjay Rao, MD & CEO from 1-Oct-2026** (Shah's term ended 30-Sep-2026) | Secondary [V-sec]; BSE filing not located |
+| S7 | Trap 2; §0; §9.1; §9.4; §2.2; §3.3 | Relaxo FY26 ~17.8 Cr pairs at ~₹152 [E] | **17.5 Cr pairs at ₹153** (FY25: 17.8 Cr at ₹156). Quarterly pairs 4.3 / 4.1 / 4.0 / 5.0 / 4.2 Cr; realisation 151 / 151 / 164 / 150 / 166 | Relaxo Q1 deck [V-P] |
+| S8 | §4.3; §2.2 Native KPIs; §9.4 | Relaxo capacity ~10.5 lakh pairs/day, ~50–55% utilisation [E] | Capacity **recalibrated to 9.1 lakh/day** (board 13-Aug-2026; RFL-I/II modernisation) → utilisation **~64%** [E] | Relaxo Q1 deck [V-P] |
+| S9 | §2.2; §3.3 | Relaxo >420 EBOs; ~550 distributors; brand mix FY25 (primer) | **429 EBOs; ~630 distributors**; FY26 revenue mix Sparx 41% / Flite 36% / Hawaii 23%; volume 16 / 39 / 45; channels GT 74 / Retail 12 / New 9 / Export 5 | Relaxo Q1 deck [V-P] |
+| S10 | Trap 3; §C.4; §2.3; §3.1 note; §3.3 | Redtape other income ₹132 Cr "unexplained"; "PAT ex-OI ~₹143 Cr"; "P/E ex-OI ~40×" | **~79% of other income is trade rebates** (online-portal rebates ₹86.9 Cr + supplier rebates ₹18.0 Cr, FY26 standalone), reclassified from selling expenses/purchases. **Drop the ex-OI framing.** FY25 OPM 10.9% is a reclassification artefact; like-for-like ~16.8% [E] | Redtape FY26 AR Note 22 + reclassification note [V-P] |
+| S11 | §2.3; §3.3; primer | Redtape "asset-light" vs "own-factory moat"; manufacturing unclear | **~96% of COGS inputs are traded goods**. CRISIL: Unnao plant ~25% of products (incl. contract manufacturing); **~75% imported from Bangladesh, Myanmar and Nepal** | Redtape AR [V-P]; CRISIL Nov-2025 [V-P] |
+| S12 | §9.1; §H-10 | Redtape pairs n/d | **Q1 FY27 6.1 mn pairs vs 5.9 mn (+~4%)**; mix footwear 56 / apparel 39 / accessories 5 | Redtape Q1 deck [V-P] |
+| S13 | §9.1; §2.3 | Redtape inventory days 306 | Screener 306 (COGS basis) stands; **company basis 173 days (Jun-26), target 150**. CRISIL: 18–20% of Mar-25 inventory was more than a year old | Redtape call; CRISIL [V-P] |
+| S14 | Header note 3; §2.3 | Redtape IT search "impact not determinable" [V-snip] | Search and seizure **11–16 Sep-2025**; **auditor Emphasis of Matter** in FY26 AR; management: 2–3 years to close, no material claim so far | Redtape FY26 AR; call [V-P] |
+| S15 | §2.4; §9.5 | Campus Q1 FY27 5.71 mn (+11.7%), ASP ₹674 [V-snip]; "price-led → volume-led flip" | Confirmed [V-P]. **But an 8% MRP hike was taken on 1-Apr-2026.** ASP was held flat by Flipkart/Myntra GT netting (−2.5%) and school-shoe mix (−2%). Franchise moved to SOR (−2.5% revenue). Normalised growth ~16% | Campus Q1 deck + call [V-P] |
+| S16 | §4.3; §2.4 | Campus capacity 31.1 mn (ICICI) vs 30.7 mn (primer) | **31.1 mn pairs (Jun-26)**, down from ~36 mn after a 4–5 mn DIP shutdown; FY26 utilisation ~84% [E] | Campus Q1 deck + call [V-P] |
+| S17 | §H-18; §2.4 | ">₹1,500 58.4% vs 56.2%" conflict | Same metric family: **share of revenue from products >₹1,500** = 56.2% FY26; 52.7% Q1 FY26 → **53.8% Q1 FY27**. Treat 58.4% as a quarter/sub-category variant; do not use | Campus Q1 deck [V-P] |
+| S18 | §2.4; §9.1 | Campus ~300–305 EBOs; D2C 47.9% FY26 | **305+ EBOs; 2,350+ LFS counters**; D2C **46.1% in Q1 FY27** (online 32.9 / offline 13.2); trade 53.9% | Campus Q1 deck [V-P] |
+| S19 | §2.3 exports; §H-4 | FY26 CLE exports $4.89 bn (PTI); FY25 "$5.7 bn, +25%" | **FY25 $4,829 mn → FY26 $4,750 mn (−1.6%)**; footwear (leather + non-leather + components) **$2,462 mn (51.8%)**; leather footwear $1,947 mn; non-leather $262 mn; components $253 mn; USA $976 mn (−6.6%) | CLE Overview 2026 (DGCI&S) [V-P] |
+| S20 | §2.3 footwear split [K] | Leather footwear ~$1.4–1.6 bn; non-leather ~$0.5–0.7 bn | **Leather ~$1.95 bn; non-leather ~$0.26 bn; components ~$0.25 bn** (FY26) | CLE [V-P] |
+| S21 | §2.3 imports; §H-3 | Imports ~$0.6–0.8 bn [K]; "no fetched value" | **FY26 $628.8 mn** (Vietnam $211.7 mn, China $114.9 mn, Bangladesh $99.5 mn, Indonesia $77.3 mn, Thailand $22.6 mn) | GTRI via PTI/DH [V-sec] |
+| S22 | §7.3 | Customs duty ~35% [K] | **20% BCD + 18.5% AIDC (≈38.5% effective) since 2-Feb-2025**; tariff rate cut 35% → 20% from 1-May-2025; effective incidence unchanged | CLE Budget 2025-26 note [V-P] |
+| S23 | §7.3 US; §H-15 | India–US "18%" deal [V-snip] | **Do not use 18%.** Status: 10% Sec 301 on top of MFN since 24-Jul-2026 (legal challenge); China/Vietnam/Thailand 12.5%; Bangladesh/Cambodia/Indonesia 10%; bilateral deal "negotiations ongoing" | Search summaries of FIEO/GTRI [V-snip]; house facts |
+| S24 | §2.2 value; §0; §H-1/2 | Market ₹1.38–1.45 lakh Cr FY25 (CRISIL [V-snip]); FY26 ~₹1.5–1.6 lakh Cr [E]; organised 36–40%; members ~7% | Add **₹1.93 lakh Cr (2025), organised 35% (₹67,400 Cr)**, per "industry reports" in Relaxo's Q1 FY27 deck [V-P doc]. Members ≈ **5–7%** of the market depending on estimate; **~15% of the organised segment** [E] | Relaxo deck [V-P] |
+| S25 | §2.5 Metro; §9.1 Metro column; §9.3 | Metro ~₹30,000+/sq ft [K]; OPM 30.5% used for Q2 | Revenue/sq ft **₹8,550 in H1 FY27 (~₹17,000/yr)**; Q2 FY27 EBITDA margin **27.1%** (FY26 screener OPM 30.5% is a different period). Price mix: >₹3,000 31%, ₹1,501–3,000 56% | Metro Q2 deck [V-P] |
+| S26 | §7.1 QCO | 2027 date = legacy stock only (trap 9) | PIB: legacy stock to 31-Jul-2027 (both orders). PTI: the same substitution gives **micro/small non-leather units** one more year to comply. Present both; cite PIB | PIB [V-P]; DH/PTI [V-sec] |
+| S27 | §0; §2.1 | Bata ASP ~₹700 [E] | Keep as [E] (₹3,516 Cr ÷ ~50 mn), but note that the AR shows **~84% of Bata's merchandise inputs are bought-in finished goods**. Digital sold >5.4 mn pairs | Bata AR [V-P] |
+| S28 | §2.4; §5 | Campus capex not in Part 2 | **~₹230 Cr over FY26–27** (uppers + assembly; internal accruals); Crisil A+/Positive | CRISIL Oct-2025 [V-P] |
+
+**Effect on Part 3 aggregates:** the screener rows were re-pulled on 24-Oct-2026 and **no company row changes**. Revenue, OP, PAT, m-cap and balance-sheet figures in §3.1–3.2 stand. Changes to the interpretive lines only:
+- **§3.2(a) "Bata alone turned aggregate PAT negative":** stands. The precise FY25 one-off is ₹133.95 Cr pre-tax (land) less ₹10.8 Cr VRS. On an ex-exceptionals basis, Bata's standalone PBT fell from ₹300.6 Cr to ₹230.2 Cr. All-four PAT ex-Bata-exceptionals [E]: Bata FY25 PAT ex-land ≈ 331 − ~103 (post-tax land gain at ~23% effective) ≈ ₹228 Cr; FY26 ex-VRS/labour-codes ≈ 134 + ~37 ≈ ₹171 Cr. **All-four PAT ≈ ₹689 → ₹741 Cr (+7.5%)**, not −11.1%. Replace Part 3's "roughly +4% on HSIE APAT" with **"≈ +7–8% ex-exceptionals" [E]**.
+- **§3.1 notes:** "Redtape … helped by ₹132 Cr of other income" → "helped by ₹105 Cr of marketplace and supplier rebates booked in other income (operating in nature)".
+- **New aggregate — pairs (latest FY, primary):** Bata ~50 mn + Relaxo 175 mn + Campus 26.0 mn + Redtape ~25 mn [E annualised] ≈ **~276 mn pairs**, ~10% of India's 2.8 bn pairs (WFY 2025).
+- **New aggregate — pre-116 margins:** Bata 9.7% (8.3% after the Hush Puppies licence); Metro pre-116 PAT 11.9% (Q2). The other three are not computed from primary data (Campus FY26 lease cash is distorted; see §4.2.4).
+
+---
+
+## 4.1 Verification table — 40 headline figures
+
+"Agrees?" compares with Parts 1–3. "Fetched" = read this session from the named document. **38/40 are [V-P] (primary, fetched this session).**
+
+| # | Figure | Value | Primary source | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Bata FY26 revenue (standalone) | ₹3,515.5 Cr (+0.8%) | Bata FY26 AR | Yes [V-P] | Yes (consolidated ₹3,516 Cr) |
+| 2 | Bata FY26 pre-116 EBITDA | ₹342 Cr (9.7%) | Bata FY26 AR (P&L + Note 4e) | Yes [V-P derived] | Close to ₹348 Cr [E]; supersedes |
+| 3 | Bata FY26 lease cash out | ₹364.2 Cr | Bata FY26 AR cash-flow | Yes [V-P] | No (Part 1 ₹378 Cr [E]) |
+| 4 | Bata FY25 land-sale gain | ₹133.95 Cr (consideration ₹156 Cr) | Bata FY26 AR Note 39 | Yes [V-P] | Nature confirmed; amount refined |
+| 5 | Bata group fees FY26 | Royalty ₹11.6 Cr + tech fees ₹73.6 Cr | Bata FY26 AR RPT | Yes [V-P] | New |
+| 6 | Hush Puppies licence liability | PV ₹257.8 Cr | Bata FY26 AR Note 40 | Yes [V-P] | New (re-attributes "royalty liability") |
+| 7 | Bata franchise doors | 722 (Mar-26); 750 (Jun-26) | Bata Q1 FY27 deck | Yes [V-P] | No (772) — supersedes |
+| 8 | Bata store split | ~750 franchise + ~1,250 DOS | Bata Q1 FY27 call | Yes [V-P] | Refines ~1,230 [E] |
+| 9 | Bata Q1 FY27 adjusted PBT | ₹90.7 Cr vs ₹74.5 Cr (+22%); reported ₹85.6 Cr | Bata Q1 FY27 deck | Yes [V-P] | Resolves conflict |
+| 10 | Bata Q1 FY27 volume | +2.3% | Bata Q1 FY27 deck | Yes [V-P] | New |
+| 11 | Relaxo FY26 pairs | 17.5 Cr (FY25 17.8 Cr) | Relaxo Q1 FY27 deck | Yes [V-P] | No (~17.8 Cr [E]) |
+| 12 | Relaxo FY26 realisation | ₹153 (FY25 ₹156) | Relaxo Q1 FY27 deck | Yes [V-P] | ~₹152 [E] ≈ yes |
+| 13 | Relaxo Q1 FY27 pairs / realisation | 4.2 Cr (−2%) / ₹166 (+10%) | Relaxo Q1 FY27 deck | Yes [V-P] | Yes (was V-snip) |
+| 14 | Relaxo Q1 FY27 gross margin | 66.7% (+483 bp) | Relaxo Q1 deck P&L | Yes [V-P derived] | Yes |
+| 15 | Relaxo consumer price increase | 15–18% blended | Relaxo Q4 FY26 call | Yes [V-P] | Yes (was IDBI) |
+| 16 | Haryana wage increase | +25–30% (">30%") | Relaxo Q4 FY26 call | Yes [V-P] | Yes |
+| 17 | Relaxo capacity | 9.1 lakh pairs/day (from 10.5) | Relaxo Q1 deck | Yes [V-P] | No — supersedes |
+| 18 | Relaxo EBOs | 429 | Relaxo Q1 deck | Yes [V-P] | ≈ (>420) |
+| 19 | Relaxo FY26 brand mix (revenue) | Sparx 41 / Flite 36 / Hawaii 23 | Relaxo Q1 deck | Yes [V-P] | ≈ primer FY25 (40/37/23) |
+| 20 | Relaxo FY27 capex | ₹180–200 Cr | Relaxo Q4 call | Yes [V-P] | Yes |
+| 21 | Redtape Q1 FY27 pairs | 6.1 mn (+~4%) | Redtape Q1 deck | Yes [V-P] | New |
+| 22 | Redtape other income: platform rebates | ₹86.9 Cr of ₹133 Cr (FY26 standalone) | Redtape FY26 AR Note 22 | Yes [V-P] | New — overturns ex-OI framing |
+| 23 | Redtape traded-goods share | ~96% (purchases ₹1,260.6 Cr vs materials ₹51.7 Cr) | Redtape FY26 AR | Yes [V-P] | Confirms "asset-light" |
+| 24 | Redtape import share | ~75% (Bangladesh, Myanmar, Nepal) | CRISIL rationale 4-Nov-2025 | Yes [V-P] | New |
+| 25 | Redtape stores | 702 (330 cities; 16.6 lakh sq ft) | Redtape Q1 deck | Yes [V-P] | Yes |
+| 26 | Redtape IT search | 11–16 Sep-2025; auditor EoM | Redtape FY26 AR | Yes [V-P] | Yes (upgrade) |
+| 27 | Campus Q1 FY27 volume / ASP | 5.71 mn (+11.7%) / ₹674 | Campus Q1 deck | Yes [V-P] | Yes (was V-snip) |
+| 28 | Campus FY26 volume / ASP | 26.0 mn / ₹683 | Campus Q1 deck | Yes [V-P] | Yes |
+| 29 | Campus capacity | 31.1 mn pairs | Campus Q1 deck + call | Yes [V-P] | Yes (ICICI) |
+| 30 | Campus D2C share | 47.9% FY26; 46.1% Q1 FY27 | Campus Q1 deck | Yes [V-P] | Yes / new |
+| 31 | Campus FY27 margin guidance | 17–19% EBITDA (company basis) | Campus Q1 call | Yes [V-P] | Yes |
+| 32 | Campus MRP increase | ~8% from 1-Apr-2026 | Campus Q1 call | Yes [V-P] | New |
+| 33 | CLE sector exports | FY26 $4,750 mn (FY25 $4,829 mn; −1.6%) | CLE Overview 2026 (DGCI&S) | Yes [V-P] | No ($4.89 bn / $5.7 bn) — supersedes |
+| 34 | Footwear exports (all) | FY26 $2,462 mn (51.8%) | CLE | Yes [V-P] | New |
+| 35 | US share of sector exports | 20.5% ($976 mn; −6.6%) | CLE | Yes [V-P] | New |
+| 36 | QCO amendments | S.O. 3037(E)/3038(E), 12-Jun-2026; 31-Jul-2027; 4,500 pairs | PIB PRID 2283010 | Yes [V-P] | Yes |
+| 37 | GST footwear | 5% up to ₹2,500/pair from 22-Sep-2025 | PIB GST 2.0 explainer | Yes [V-P] | Yes (was V-snip) |
+| 38 | Customs duty on footwear | 20% BCD + 18.5% AIDC (≈38.5%) | CLE Budget 2025-26 highlights | Yes [V-P] | No (~35% [K]) — supersedes |
+| 39 | India production / consumption 2025 | 3.0 bn pairs (12.2%) / 2.8 bn | World Footwear Yearbook 2026 release (APICCAPS site) | Yes [V-sec] | Yes (was V-snip) |
+| 40 | India market size / organised share | ₹1.93 lakh Cr (2025) / 35% | Relaxo Q1 FY27 deck ("industry reports") | Yes [V-P document; underlying source unnamed] | Partly (CRISIL ₹1.38–1.45 lakh Cr FY25) |
+
+- **Count: 38 [V-P] + 1 [V-sec] + 1 [V-P doc citing an unnamed source] → 39/40 [V-P] if #40 is counted as a primary document; 38/40 on a strict reading.**
+- **Two independent sources agree on:**
+  - Campus FY25 volume and ASP (deck 24.9 mn / ₹639; CRISIL 2.49 Cr / ₹640).
+  - Redtape inventory history (screener ₹764 Cr → ₹1,221 Cr; CRISIL the same).
+  - The Relaxo price hike (call; IDBI).
+  - The QCO amendment (PIB; PTI).
+  - US tariff of 10% (house facts; FIEO/GTRI summaries).
+- **Where sources conflict, the more credible is:**
+  - CLE/DGCI&S $4.75 bn over the PTI quote $4.89 bn (a document vs a spoken figure).
+  - The Bata deck (722) over HSIE (772): the company's own chart, and HSIE's own +52 net add matches 722.
+
+---
+
+## 4.4 Gap log (Part 1 §H and the task brief)
+
+| §H item | Status | Detail |
+|---|---|---|
+| H-1 Market size FY26 | **Partly filled** | 2025 ₹1.93 lakh Cr (Relaxo deck, unnamed reports). No fetched CRISIL/Technopak FY26 report; no 2025–26 footwear RHP was checked |
+| H-2 Organised share | **Partly filled** | 35% (2025) → 45% (2034) per the Relaxo deck; CRISIL FY25 36–40% still [V-snip] |
+| H-3 Imports pre/post QCO | **Partly filled** | FY26 $628.8 mn by country [V-sec GTRI]; no pre-QCO series |
+| H-4 Exports by HS / CLE conflict | **Filled** | CLE/DGCI&S product table FY25/FY26 [V-P]; $5.7 bn refuted |
+| H-5 QCO small/micro dates | **Partly filled** | 12-Jun-2026 amendments [V-P]; PTI says the MSE (non-leather) compliance date moved to 31-Jul-2027. Original 2024-order MSE dates and Gazette text not fetched |
+| H-6 GST on parts (6406) / inverted duty | **Open** | PIB silent; CBIC notification PDF blocked |
+| H-7 Bata royalty rate | **Filled (amounts, not rate)** | Royalty ₹11.6 Cr (~0.33% of sales) + tech fees ₹73.6 Cr + service fees; Hush Puppies licence explained |
+| H-8 Bata COCO count / channel split | **Mostly filled** | ~1,250 DOS (~1,100 COCO + ~125 Hush Puppies) + ~750 franchise; digital 14% of turnover; ZBM 80% of COCO revenue. **No full channel revenue split (retail/franchise/MBO) disclosed** |
+| H-9 Relaxo FY26 pairs / brand mix | **Filled** | 17.5 Cr pairs; FY26 brand and channel mix [V-P] |
+| H-10 Redtape pairs, ASP, SSSG, OI nature | **Mostly filled** | Q1 pairs 6.1 mn; OI = rebates [V-P]. **FY26 pairs and SSSG not disclosed** ("will get back") |
+| H-11 Sprandi consideration | **Open** | Not disclosed in the deck, call or AR text searched; "rights acquired April 2026" |
+| H-12 Campus EBOs / channel / Analyst Day | **Mostly filled** | 305+ EBOs; channel split [V-P]. **Analyst Day (9-Oct-2026) materials not found** |
+| H-13 Raw-material ₹/kg series | **Open (direction filled)** | Direction and magnitudes from four transcripts [V-P]; no EVA/PVC/PU/NR price series fetched |
+| H-14 Global brands' India revenues | **Open** | Not attempted (budget) |
+| H-15 US tariff path | **Partly filled** | 18% refuted as current; 10% Sec 301 [V-snip summaries]; USTR primary text not fetched |
+| H-16 Metro revenue/sq ft and ASP | **Filled (rev/sq ft)** | ₹8,550 H1 FY27 [V-P]; ASP not disclosed; price-band mix [V-P] |
+| H-17 Bata Q1 PBT conflict | **Filled** | Reported ₹85.6 Cr vs adjusted ₹90.7 Cr [V-P] |
+| H-18 Campus 58.4% vs 56.2% | **Resolved (definitional)** | Use 56.2% FY26 / 53.8% Q1 FY27 (>₹1,500 revenue share) |
+| Brief: Relaxo Q1 FY27 transcript | **Open** | Not on screener/BSE links found; site JS-only. Q4 FY26 call used instead |
+| Brief: rating rationales | **Partly filled** | CRISIL Redtape (A/Stable) and Campus (A+/Positive) [V-P]. ICRA Relaxo (30-Sep-2026) blocked (login/JS). ICRA Bata not fetched |
+| Brief: pre-2022 GST history; QCO Oct-2020 first notification | **Open ([K])** | Not re-fetched |
+| Brief: Bata MD change filing | **Open (secondary only)** | Sanjay Rao from 1-Oct-2026 [V-sec] |
+
+---
+
+## 4.5 New insights the first pass missed
+
+1. **Three of four members are mostly traders of finished goods, not manufacturers.**
+   - Bata: purchases of finished goods are ~84% of merchandise inputs.
+   - Redtape: ~96% traded; ~75% imported from Bangladesh, Myanmar and Nepal.
+   - Only Relaxo (in-house) and Campus (100% in-house assembly; 37–50% of components) are true makers.
+   - So "QCO = protection for members" is mixed. It protects Relaxo and Campus, but **raises compliance and supply risk for Redtape (foreign vendors need BIS licences; it still holds non-BIS stock) and for Metro's global brands** (Foot Locker/MetroActiv supply constrained; FILA re-shored).
+2. **The 2026 cost shock produced a pricing ladder.** Relaxo +15–18% > Campus +8% > Bata ~5–6% > Metro ~2–5% > Redtape 0%. Volume outcomes run the other way: Relaxo −2%; Campus +11.7% (40% from school shoes); Bata +2.3%; Redtape +~4%. **The mass player took the biggest price increase**, because of a 25–30% Haryana wage step. The GST cut gave it room: 12% → 5% ≈ a 6% consumer-price cushion.
+3. **Marketplace economics drive reported numbers in hidden ways.**
+   - Redtape books platform rebates as other income (~₹87 Cr).
+   - Campus lost ~2.5% of reported revenue and ASP when Flipkart/Myntra began netting GT charges.
+   - Metro's e-commerce is 14%; Bata's digital is 14% of turnover.
+   - Cross-company revenue and margin comparisons need a marketplace-accounting footnote.
+4. **Bata's minority leakage is bigger than "royalty".** Technical-collaboration fees to the group's Singapore services company rose 31% to ₹73.6 Cr while sales were flat. The Hush Puppies licence adds a USD liability (₹257.8 Cr PV) whose FX losses run through the P&L. All-in parent-group charges are ~2.6% of sales — about a quarter of pre-116 EBITDA.
+5. **Franchising is the common strategy, with different contracts.**
+   - Bata (750 doors; franchisee ROI 18–24%; dilutes GM ~100 bp, accretive at EBITDA).
+   - Campus moved 158 franchise stores to **sale-or-return** (it now carries the inventory).
+   - Redtape (70.5% franchise-run; offline showrooms "majority FOFO").
+   - Read the inventory and receivable trends with this in mind.
+6. **Capacity is being cut, not added, at the two makers.** Relaxo 10.5 → 9.1 lakh pairs/day; Campus 36 → 31.1 mn (DIP exit). Both are swapping low-ASP capacity for higher-ASP capability (Relaxo RFL-I/II "fashion-forward" upgrade; Campus ₹230 Cr upper/assembly capex). The industry's "volume recession" shows up as capacity rationalisation.
+7. **Exports did not collapse under 50% US tariffs.** Sector exports fell only 1.6% in FY26; the US was −6.6%; Netherlands, Spain and UAE grew. For the members, exports are negligible (Relaxo 5% of revenue; Redtape ~₹2.5 Cr a quarter).
+8. **Metro's "premium" is mostly the ₹1,501–3,000 band (56%).** It is a bigger beneficiary of the 18% → 5% cut on ₹1,001–2,500 than Part 1 implied. Its revenue/sq ft (~₹17,000/yr) is about half the [K] figure used in Part 1. Bata's [E] ₹10–13k/sq ft is therefore not as far behind as Part 1 implied.
+
+### Primer issues (append to primer-issues.md)
+
+**bata-india.html**
+- MD & CEO is **Sanjay Rao from 1-Oct-2026** (Gunjan Shah's term ended 30-Sep-2026).
+- Store count: "~1,975 = ~1,305 company + ~670 franchise" → **~2,000 = ~1,250 DOS (incl. ~125 Hush Puppies) + ~750 franchise (Jun-26)**; SIS ~370.
+- "Watch brand royalties" → specify: royalty to Bata Brands ~0.33% of sales; **technical-collaboration fees ₹73.6 Cr (2.1%)**; Hush Puppies licence liability (Wolverine) ₹257.8 Cr PV with FX exposure.
+- EBITDA ~18% "Ind AS 116" → 20.6% post-116 (screener) / **9.7% pre-116** (AR-derived).
+- FY26 PAT fall: name the FY25 land-sale gain ₹134 Cr and the FY26 VRS ₹42 Cr + labour codes ₹7 Cr.
+
+**relaxo-footwears.html**
+- Pairs "~18 crore" → **17.5 Cr in FY26 (17.8 Cr in FY25)**; realisation "~₹150" → **₹153 FY26; ₹166 Q1 FY27**.
+- Capacity 10.5 lakh/day → **9.1 lakh/day** (recalibrated 13-Aug-2026).
+- EBOs → 429; distributors → ~630.
+- FY26 brand mix: Sparx 41 / Flite 36 / Hawaii 23 (revenue); 16 / 39 / 45 (volume).
+- Add the 15–18% price hike and Haryana wages +25–30%.
+- Add contingent Haryana entry-tax interest ₹104.6 Cr.
+
+**redtape.html**
+- "Makes a large share of its own footwear in-house" → **~96% traded goods; ~75% imported (Bangladesh, Myanmar, Nepal); Unnao ~25% incl. contract manufacturing** (CRISIL).
+- Other income: explain it is ~79% marketplace/supplier rebates.
+- Add the IT search (Sep-2025) and the auditor's **Emphasis of Matter**.
+- Add Q1 FY27 volume (6.1 mn pairs) and CRISIL A/Stable.
+- Promoter ~75% → 71.83% (already in Part 3).
+
+**campus-activewear.html**
+- Capacity 30.7 mn → **31.1 mn** (after DIP exit; was ~36 mn).
+- The ">₹1,500 sneakers 58.4%" metric → use ">₹1,500 revenue share 56.2% (FY26)".
+- Add the **8% MRP hike (1-Apr-2026)**, the franchise SOR conversion (158 stores), FY27 guidance ("mid-double-digit" growth; 17–19% EBITDA) and the ₹230 Cr capex.
+- Balance sheet: net bank debt ₹32 Cr, not net cash (already in Part 3).
+
+---
+
+## 4.6 Source list (Part 4, fetched this session)
+
+- **Bata:**
+  - Q1 FY27 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef4fccd1-ba4b-4ba0-a4fb-71b9701f6382.pdf
+  - Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c13562b4-3aae-449e-9348-228fc496d985.pdf
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/e95671a6-9522-4f64-b7ff-75b5b22eb974.pdf
+- **Relaxo:**
+  - Q1 FY27 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4f666bd-9389-4ad3-a9e9-d8b77a75826d.pdf
+  - Q4 FY26 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85a57f94-5239-428a-8045-f7837c97cb0e.pdf
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/15ff658f-2958-4827-a157-d3aca6a81101.pdf
+- **Redtape:**
+  - Q1 FY27 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e64645b-ad11-4919-aef1-3e6f21048502.pdf
+  - Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8153702-0c76-4647-baa7-5124f683625f.pdf
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/16db1e64-9994-48d0-ab9b-197f842bc45d.pdf
+  - CRISIL 4-Nov-2025: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/REDTAPELIMITED_November%2004_%202025_RR_377951.html
+- **Campus:**
+  - Q1 FY27 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b51eba51-a6d2-4fd2-b2f3-62a2fed8167f.pdf
+  - Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d50e39ff-78e9-4dce-8d8d-87063b040bae.pdf
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/97a9ecac-55d2-4ee5-91ff-b780aae099b6.pdf
+  - CRISIL 3-Oct-2025: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/CampusActivewearLimited_October%2003_%202025_RR_379716.html
+- **Metro (ref.):**
+  - Q2 FY27 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d146a5e4-e1af-409d-92ab-ca993d4a2038.pdf
+  - Q2 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55c282e5-b14b-4795-b33c-2236b89d936b.pdf
+- **Screener (re-pulled 24-Oct-2026):** /company/BATAINDIA/consolidated/, /RELAXO/, /REDTAPE/consolidated/, /CAMPUS/, /METROBRAND/consolidated/
+- **Government and industry:**
+  - PIB QCO amendments: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283010
+  - PIB GST 2.0 explainer: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc202595629301.pdf
+  - CLE Overview 2026: https://leatherindia.org/wp-content/uploads/2026/06/Overview-of-INDIAN-LEATHER-INDUSTRY-2026.pdf
+  - CLE Budget 2025-26 highlights: https://leatherindia.org/highlights-of-union-budget-2025-26/
+- **Secondary:**
+  - World Footwear (APICCAPS) WFY 2026 release: https://www.worldfootwear.com/news/global-footwear-production-holds-steady-in-2025/11670.html
+  - Deccan Herald/PTI on the QCO and imports (16-Jun-2026): https://www.deccanherald.com/business/one-more-year-to-non-leather-footwear-sector-to-comply-with-mandatory-quality-control-order-4040933
+  - Bata CEO change: https://www.multibagg.ai/market-pulse/articles/bata-india-sanjay-rao-ceo-cmuo6w9x1000k34mkivluy1bh ; https://www.sahi.com/news/jk-paper-appoints-former-bata-india-ceo-gunjan-shah-as-president
+  - US tariffs (search summaries only): fibre2fashion FIEO note (10% Section 301); tariffstool / calcmytariff footwear pages.
+- **Scratch:** /tmp/footwear-deep/notes.md (all extracted figures); /tmp/footwear-deep/dl/*.txt (PDF text); /tmp/footwear-deep/screener_tables.txt.
+
+*End of Part 4.*
