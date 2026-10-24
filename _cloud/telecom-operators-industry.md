@@ -1475,3 +1475,128 @@ Inputs (screener): Airtel 58,539/33,303/10,012 vs 49,463/27,839/7,422; Vi 11,689
 - Board-date context: https://www.airtel.in/about-bharti/equity/results/quarterly-calendar ; https://filingreader.com/news-wire/mumbai/2025-10-23/bharti-hexacom-board-to-meet-on-q2-and-half-year-results [V-snip]
 - Global multiples (low confidence): https://www.opencapital.sh/stocks/vz/metrics/ev_to_ebitda ; https://www.opencapital.sh/stocks/tmus/metrics/ev_to_ebitda [V-snip]
 - Sibling: subsectors/other-telecom.html (FX ₹94.9/$, WPI, wired broadband shares) [V-sib]
+
+---
+
+# PART 4 — Deep-research supplement (24-Oct-2026)
+
+Second pass, built from the companies' own documents and TRAI's full reports instead of search snippets. Compiled Saturday 24-Oct-2026 (`date -u` confirmed). Prices are still the Friday 23-Oct close.
+
+**Primary documents read this pass** (all fetched 24-Oct-2026; the text was extracted and read in slices; TTML's scanned results pages were rendered to images and read):
+
+| # | Document | URL | Used for |
+|---|---|---|---|
+| P1 | Airtel **Quarterly Report / IR pack, Q1 FY27** (56 pp) | https://assets.airtel.in/static-assets/cms/investor/docs/quarterly_results/2026-27/Q1/Quarterly-IR-Pack-Bharti-Airtel-Consolidated.pdf | Net debt schedule, KPIs, churn, 8-quarter trend, EV |
+| P2 | Airtel **audited consolidated results, Q1 FY27** (notes 3–5) | https://assets.airtel.in/static-assets/cms/investor/docs/quarterly_results/2026-27/Q1/Published-Results.pdf | Africa share-swap mechanics, exceptional item |
+| P3 | Airtel + Hexacom **Q1 FY27 earnings-webinar transcript** (5-Aug-2026) | https://assets.airtel.in/static-assets/cms/investor/docs/quarterly_results/2026-27/Q2/Earnings-Call-Transcript.pdf (the file sits in the "Q2" folder but is the Q1 call; also BSE AnnPdfOpen ca87613b-…) | Guidance digest |
+| P4 | Airtel **Integrated Annual Report FY26** | https://www.bseindia.com/xml-data/corpfiling/AttachHis/f8f6a174-8601-4747-9d0d-bd6b85fe53fc.pdf | Indus business-combination gain, DoT payments |
+| P5 | Hexacom **Quarterly Report / IR pack, Q1 FY27** | https://www.bhartihexacom.in/docs/results/2026_27/Q1/Quarterly-IR-Pack.pdf | Net debt schedule, churn, 8-quarter trend |
+| P6 | Vi **Q1 FY27 earnings-call transcript** (call 11-Aug-2026, filed 18-Aug) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70ef6137-942c-4bf2-b275-5ecff44fe8c3.pdf | Guidance, data/user, debt |
+| P7 | Vi **investor presentation** (filed 15-Sep-2026; Q1 FY27 update, 9-quarter KPI table) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2222d55-f3c4-430f-b4e0-dfd44fc940e8.pdf | 9-quarter KPIs, cash EBITDA, bank debt, NCDs |
+| P8 | Vi **Annual Report FY26** (372 pp) | https://www.bseindia.com/xml-data/corpfiling/AttachHis/516471f1-18a0-44e7-9726-f8366bebceb4.pdf | AGR schedule, exceptional items, promoter split, audit report, contingent liabilities |
+| P9 | TCOM **Q2 FY27 management commentary** + **Q2 FY27 earnings-call transcript** | https://www.tatacommunications.com/hubfs/Quarterly%20report/management-commentaries-q2-fy2027.pdf · …/q2-fy2027-earning-call-transcript.pdf | Net debt, ROCE, FCF, guidance |
+| P10 | TCOM **statutory financials Q2 FY27** | https://www.tatacommunications.com/hubfs/Quarterly%20report/statutory-financials-q2-fy2027.pdf | Attributable PAT, borrowings, cash, exceptional items, Kaleyra note |
+| P11 | TCOM **Q1 FY27 call transcript**; MD & CEO presentation Q2 FY27 | https://www.tatacommunications.com/hubfs/library/documents/q1-fy2027-earning-call-transcript.pdf · BSE AnnPdfOpen 5dd86f09-… | Background |
+| P12 | TTML **Q2 FY27 board outcome + audited results** (scanned; pages 2–5 read as images) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bef9b22-2790-4918-bb91-e2a6304dd6b0.pdf | Balance sheet, cash flow, notes 1–5 |
+| P13 | TTML **Annual Report FY26** | https://www.bseindia.com/xml-data/corpfiling/AttachHis/c649a5ec-91e9-40b0-83dd-51ab6e1ab3b0.pdf | RPS terms, contingent liabilities, ratings, debt composition |
+| P14 | TRAI **Quarterly Performance Indicator Report, Apr–Jun 2026** (QPIR, 12-Oct-2026) | https://www.trai.gov.in/sites/default/files/2026-10/QPIR_12102026.pdf | Operator-wise access AGR (Table 3.3), ARPU restatement |
+| P15 | TRAI **QPIR Jan–Mar 2026** (22-Jun-2026) | https://www.trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf | Original ₹196.04 ARPU print |
+| P16 | TRAI **Yearly Performance Indicators FY2025-26** (5-Oct-2026) | https://www.trai.gov.in/sites/default/files/2026-10/YIR_05102026.pdf | FY26 GR/AGR, annual ARPU |
+| P17 | screener.in pages (re-pulled 24-Oct, all five) | as in §3.5 | 13-quarter and 12-year series, shareholding |
+| S1 | stockanalysis.com statistics pages (VZ, T, TMUS, VOD, TLK, 0941.HK, Z74.SI), 23-Oct close | https://stockanalysis.com/stocks/vz/statistics/ etc. | Global EV/EBITDA (aggregator, not company filings) |
+| S2 | psuwatch.com, 8-Sep-2026 (DCC satcom decision) | https://psuwatch.com/newsupdates/satcom-spectrum-framework-moves-closer-to-cabinet-approval | Satcom status (secondary) |
+
+Tag convention in Part 4: **[V-P#]** = verified this session from primary document P#. **[V-agg]** = data aggregator. **[V-snip]**, **[E]** and **[K]** as in Part 1.
+
+## 4.0 Supersedes — corrections and upgrades to Parts 1–3 (the writer must apply these)
+
+| # | Where in Parts 1–3 | Old value | New value | Source |
+|---|---|---|---|---|
+| S-1 | §H item 8; §2.1 EV bullet; JSON | Airtel absolute net debt "≈ ₹1.57 L Cr incl. leases [E]" | **₹1,57,240 Cr incl. leases** (₹15,72,396 Mn) and **₹81,852 Cr excl. leases** at 30-Jun-2026. Components: long-term debt ₹17,676 Cr, short-term/current ₹19,798 Cr, deferred payment (spectrum/AGR) liability ₹88,713 Cr, lease obligations ₹75,388 Cr, less cash ₹9,113 Cr and investments/receivables ₹35,222 Cr. Mar-26: ₹1,64,789 / ₹91,049 Cr | P1 §7.2.1 |
+| S-2 | §0 valuations; §10 table; §2.0 peer table; §2.1 EV/EBITDA | Airtel EV/EBITDA "~11.7× FY26 (screener net debt incl. leases, screener OP)" | **Company-published EV/EBITDA 9.77× at 30-Jun-2026** (EV ₹13,131 bn; m-cap ₹11,559 bn). At the 23-Oct close: ₹11,80,976 Cr + ₹1,57,240 Cr = ₹13.38 L Cr ÷ annualised Q1 FY27 EBITDA ₹1,34,396 Cr ≈ **10.0×** [E on V]. The 11.7× used FY26 screener OP and year-end screener borrowings, so it overstated the multiple | P1 p.2 |
+| S-3 | §9.1 churn row; §F | Airtel churn "~2.5–3% [K]"; Vi "~3.5–4% [K]"; Jio "~2% [K]" | **Airtel India mobile monthly churn 2.6% (Q1 FY27), 2.4% (Q4 FY26), 2.7% (Q1 FY26)**. **Hexacom 2.3% / 2.0% / 2.4%**. Airtel Africa 4.5%. **Vi does not publish a churn %**; it said churn fell 24 bps YoY in Q1 FY27. Jio: not verified, so delete the ~2% | P1 §4.2; P5; P6 |
+| S-4 | §5.1 RMS row; §0 "~80%+ of access revenue"; §H item 1 | RMS [E]: Jio ~41%, Airtel ~40%, Vi ~14%, BSNL ~5% | **TRAI access AGR, Q1 FY27 (₹74,457 Cr): Jio ₹33,226 Cr = 44.6%; Bharti group (Airtel + Hexacom) ₹29,803 Cr = 40.0%; Vi ₹8,448 Cr = 11.3%; BSNL ₹2,117 Cr = 2.8%; Tata Tele + TTML ₹760 Cr = 1.0%; MTNL 0.1%.** Jio + Airtel = **84.6%** of access AGR. Revenue HHI ≈ **3,730** | P14 Table 3.3 |
+| S-5 | §H item 4; §3.3 "Industry ARPU"; trap 2 | "Secondary source ₹196.04 vs TRAI ₹184.91, unresolved" | **Both figures are TRAI's.** ₹196.04 was TRAI's own original Q4 FY26 print (QPIR of 22-Jun-2026). In the 12-Oct-2026 QPIR, TRAI **restated every quarter from Jun-2025** after Airtel began reporting its M2M connections in its wireless base. Restated series: ₹181.47 / 183.13 / 184.98 / 184.91 / **187.12** (Jun-25 → Jun-26). Never mix the two series | P14 Table 2.7 + footnote on BAL M2M restatement; P15 Table 2.x |
+| S-6 | §E2 TRAI base | "181.5 [E from +3.11%]" | **₹181.47** (Q1 FY26, restated) | P14 Table 2.7 |
+| S-7 | §2.1 "FY22–FY26 AGR CAGR ~12–14% [E]" | — | **FY26 industry AGR ₹3,34,659 Cr (+10.44%) vs FY25 ₹3,03,025 Cr; FY26 GR ₹4,04,067 Cr (+8.59%)**; FY26 wireless ARPU ₹180.73 (FY25 ₹174.46). The FY22–24 points are still unfetched | P16 |
+| S-8 | trap 6; §2.0; E6; JSON `pat_underlying_est` | Vi FY26 underlying loss "≈ −₹23,000 to −₹25,000 Cr [E]" | **Consolidated loss before exceptional items and tax: −₹24,059 Cr**; exceptional items **+₹58,607 Cr**; PAT +₹34,552 Cr (standalone: −₹24,202 / +₹58,684 / +₹34,482 Cr) | P8 Directors' Report summary financials |
+| S-9 | §7.2 item 9; §2.2 | Vi AGR schedule "≥₹100 Cr/yr FY32–FY35; six equal instalments FY36–FY41 [V-snip]" | **Minimum ₹100 Cr a year, Mar-2032 to Mar-2035; ₹10,608 Cr a year, Mar-2036 to Mar-2041.** DoT letter of **27-Jan-2026** confirmed the frozen ₹87,695 Cr; DoT letter of **30-Apr-2026** gave the ₹64,046 Cr reassessment (FY2006-07 to FY2018-19, as of 31-Dec-2025). ₹5,976 Cr of post-2020 AGR demands dropped out of contingent liabilities | P8 Note 3 / contingent-liability note |
+| S-10 | §5.2; §2.2 ownership; §H item 15 | Vi promoter split "not fetched"; "Vodafone ~16% [K]" | **Mar-26, total promoter 25.64%: Vodafone Group entities ≈16.07%** (Euro Pacific 5.16, Prime Metals 2.54, Mobilvest 1.55, Vodafone Telecommunications (India) 1.50, Trans Crystal 1.35, Omega Telecom 1.26, Asian Telecom Inv. 0.90, Al-Amin 0.75, Usha Martin Telematics 0.65, CC II Mauritius 0.41); **Aditya Birla Group ≈9.56%** (Oriana 4.05, Grasim 3.06, Elaine 0.79, Hindalco 0.69, IGH 0.38, Birla Group Holdings 0.33, Pilani 0.17, K M Birla 0.09). GoI (DIPAM) 49.00% (5,308.3 Cr shares) | P8 Note on equity (d); entity-to-group mapping [E] |
+| S-11 | §9.1 Vi data/user; §H item 11 | "~22–25 GB [K/E]" | **21.7 GB per 4G/5G subscriber per month (+25.2% YoY)**. Vi does not publish usage per total subscriber. Network data 88.4 PB/day | P6; P7 |
+| S-12 | §9.1 Vi postpaid | "~25 mn [K, not verified]" | **Not disclosed**; management declined to split postpaid/M2M. Delete the figure | P6 |
+| S-13 | §2.2; trap 8 | Vi "bank debt ₹211 Cr" (as total external debt) | Bank debt ₹211 Cr **plus NCDs ₹3,278 Cr = ₹3,489 Cr** of external debt at Jun-26; cash ₹6,558 Cr. **Net cash ex-government dues ≈ ₹3,070 Cr** [E] | P6; P7 |
+| S-14 | Prompt/§0 "₹45,000 Cr" and any "₹50–55k Cr" | Vi capex plan | **₹45,000 Cr over FY27–FY29** (confirmed in transcript and AR). The ₹50–55k Cr figure is not supported. Also guided: **cash EBITDA 3× in three years** (from FY26 ₹9,217 Cr) and a **~16.8% revenue CAGR** | P6; P8 |
+| S-15 | §2.2 / §B2 (implicit) | Vi going-concern status | **FY26 audit (S.R. Batliboi & Associates) carries no "material uncertainty related to going concern" paragraph.** CARO clause (xix) states nothing indicates a material uncertainty about meeting liabilities. Earlier years had the MU paragraph | P8 auditor's report |
+| S-16 | §2.3; §2.7; §3.3; JSON | Hexacom "net debt ex-lease ₹2,694 Cr / 0.44× (Mar-26, primer)" → "~₹970 Cr (Jun-26) [E]" | **Ex-lease net debt ₹2,030 Cr (Mar-26) → ₹960 Cr (Jun-26)**; incl. leases ₹5,473 → ₹4,393 Cr. **₹2,694 Cr is the Jun-26 deferred payment (spectrum) liability**, the only debt Hexacom has (no bank debt). The drop came from ₹1,724 Cr of investments/receivables (₹74 Cr a year earlier) | P5 §7.2.1 |
+| S-17 | §2.3; §2.7; §3.3 | Hexacom FY26 EBITDA "~₹5,114 Cr (~53%)" | **₹5,069 Cr (54.2%)** company basis; EBITDAaL ₹4,456 Cr (47.6%); net income pre-exceptional ₹1,710 Cr | P5 p.2 |
+| S-18 | §B4; §2.4; §H item 13; §12 | TCOM net debt "~₹10–11k Cr [E]"; "~₹9,600 Cr (1.99×) FY26" | **₹11,197 Cr at Sep-26; net debt/EBITDA 2.17×** (company). Gross borrowings ex-leases ₹11,855 Cr; cash ₹438 Cr + bank ₹3 Cr + current investments ₹217 Cr. ROCE 15.9% | P9; P10 |
+| S-19 | §2.4; §2.7; §3.3; §H item 16 | TCOM FY26 PAT "₹997 Cr (screener) vs ₹1,044 Cr (primer)" | **Profit for the year ₹996.85 Cr; attributable to equity holders ₹1,001.57 Cr; profit from continuing operations ₹1,039.04 Cr** (the primer's ₹1,044 Cr is close to the continuing-ops line). Use ₹1,002 Cr attributable | P10 |
+| S-20 | §2.4 FY26 primer; §B4 | TCOM targets "₹28,000 Cr revenue / 23–25% margin" | **No numeric targets from current management** (CEO since Apr-2026). The focus is "absolute EBITDA growth" and digital break-even; long-term targets come at an **Investor Day in Feb-2027**. Treat the 23–25% target as historical | P9 transcript |
+| S-21 | §2.4; §F | TCOM data growth +12.2% | Add that **constant-currency data growth was ~6%** (CFO), so the reported +12.2% is FX-flattered by a strong dollar | P9 |
+| S-22 | §2.4 valuation; §2.0 | TCOM EV/EBITDA 11.8× (screener) | **≈10.3× annualised Q2 FY27 EBITDA** (₹47,165 + ₹11,197 Cr ÷ ₹5,688 Cr); ≈11.3× TTM [E on V] | P9; screener |
+| S-23 | Live item 3; §H item 6; §B4 | TTML RPS change "unexplained; [E] parent contribution" | Still not explained in the filing, but the **AR shows the 201.8 mn 0.1% RPS (held by TTSL) were last extended on 18-Sep-2024 for 24 months**. That term expired in **Sep-2026, exactly when the carrying value fell** (₹1,980.50 → ₹837.75 Cr). There was no cash flow (P12 cash-flow statement) and no P&L gain. Net worth rose ₹1,050.7 Cr despite a ₹131.4 Cr H1 loss. **Best reading [E, now anchored]:** the RPS were renewed on longer, modified terms and remeasured at fair value, with the difference credited to other equity as a holder contribution | P13 Note on RPS (f); P12 |
+| S-24 | §2.5 TTML | Cash not stated | **Cash ₹8.70 Cr; current investments ₹77.81 Cr; trade receivables ₹110.45 Cr** (Sep-26). Total borrowing ex-RPS liability ₹18,725 Cr (Mar-26, MD&A). **CRISIL and CARE AA- (Stable)/A1+**, which reflects Tata Sons support | P12; P13 |
+| S-25 | Live item 2; §H item 7 | Airtel Africa ">79% via share swap; mechanics not verified" | **Q1 FY27: Airtel issued 146,761,335 shares at ~₹1,923 (₹28,222 Cr) to Indian Continental Investment Ltd (ICIL), against 595,204,251 Airtel Africa shares (16.31%).** Effective stake 62.62% → 78.93%; the Airtel Africa buyback ($43 mn by 30-Jun) took it to **79.11%**. ₹23,260 Cr excess over NCI change taken to other equity | P2 notes 3–4 |
+| S-26 | Live item 2; §2.1 ownership | Promoter 48.87% → 50.07%, "reason not verified" | **ICIL is a promoter-group entity**, so the swap shares lifted promoter holding. Arithmetic check: (0.4887 × ~595 Cr + 14.68 Cr) ÷ ~609.7 Cr ≈ 50.1% [E on V]. The equity-capital rise in FY26 (₹2,900 → ₹3,047 Cr) is separate: partly-paid rights shares being paid up | P2; screener |
+| S-27 | trap 4; §H item 12; §3.4 | Indus FY25 gain "~₹14k Cr+ [K, verify]" | **FY25 gain arising from the Indus business combination ₹14,322.5 Cr**, including a ₹10,702.5 Cr fair-valuation gain on the existing stake. The rest came from reversing right-of-use assets and lease liabilities on Indus. FY25 also booked **₹6,358.6 Cr of regulatory-levy charges** and ₹1,740.4 Cr of intangible impairment. Indus net assets were fair-valued at ₹43,538 Cr; goodwill ₹20,859 Cr | P4 Note 4(g) and exceptional-items note |
+| S-28 | §2.1 "FY26 EBITDA margin" | Screener OPM 55% | **Company FY26 EBITDA ₹1,21,268 Cr (57.5%); EBITDAaL ₹1,07,946 Cr (51.2%); capex ₹47,522 Cr (22.5% of revenue); net income pre-exceptional ₹26,904 Cr** | P1 p.2 |
+| S-29 | §9.1 Airtel subscribers | "mobile ~370–380 mn excl. M2M [primer 373]" | **376.5 mn India mobile customers** (Jun-26); postpaid 30.0 mn; postpaid incl. IoT/M2M (in Airtel Business) **112.8 mn**; 4G/5G data customers 301.8 mn (80.5%); prepaid 92.0% of base | P1 §4.2 |
+| S-30 | §10 global table | Peer EV/EBITDA ranges "low confidence" | **Verizon 7.4×, AT&T 6.8×, T-Mobile US 8.0×, Vodafone Group 8.5×, China Mobile 4.5× (net cash), Telkom Indonesia 4.1×, Singtel 12.7×** (TTM, 23-Oct-2026 close) | S1 [V-agg] |
+| S-31 | §7.4; §H item 5 | Satcom SUC "TRAI 4% vs DCC 5%, unresolved" | **DCC (3-Sep-2026) approved most of TRAI's May-2025 recommendations.** DoT reportedly prefers 5% of AGR (TRAI: 4%); some reports say 5% urban / 4% rural. Minimum ₹3,500/MHz/yr; 5 + 2-year assignment. **Cabinet approval and second-stage security clearance are still pending; no launch.** No gazette or PIB text exists yet, so keep "4–5%" | S2 [V-snip] |
+| S-32 | §2.3 Hexacom EV/EBITDA "~17.9×" | — | **Company-published EV/EBITDA 14.3× (30-Jun-26)**. At 23-Oct: (₹81,895 + ₹4,393 Cr) ÷ annualised Q1 EBITDA ₹5,500 Cr ≈ **15.7×** [E on V] | P5 p.2 |
+| S-33 | §7.3 "Airtel prepays…exact FY26 not verified" | — | **FY26 payments to DoT (spectrum + AGR) were ₹9,718 Cr**; reported net debt fell ₹30,031 Cr in FY26 | P4 MD&A |
+
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Agrees?" compares the figure with Parts 1–3. "Y" = same; "Upd" = a newer or more precise value; "No" = Parts 1–3 were wrong (see 4.0). All 40 were checked this session; **35 of 40 are [V] from a primary document** (company filing, annual report, regulator report). Five rest on aggregators or secondary press (#36–#40).
+
+| # | Figure | Value | Primary source (fetched 24-Oct-26) | [V]? | Agrees? |
+|---|---|---|---|---|---|
+| 1 | Industry AGR, Q1 FY27 | ₹88,796 Cr (+9.19% YoY); GR ₹1,06,797 Cr | TRAI QPIR Apr–Jun 2026 (P14), exec. summary | V-P14 | Y |
+| 2 | Access AGR, Q1 FY27 | ₹74,457 Cr (83.85% of AGR); trend ₹68,001 → 69,230 → 71,243 → 72,488 → 74,457 Cr (Q1 FY26 → Q1 FY27) | P14 key-parameter table | V-P14 | Upd |
+| 3 | Revenue market share (access AGR), Q1 FY27 | Jio 44.6%, Bharti 40.0%, Vi 11.3%, BSNL 2.8%, Tata 1.0% | P14 Table 3.3 (operator AGR ₹33,226 / 29,803 / 8,448 / 2,117 / 760 Cr) | V-P14 | **No** (S-4) |
+| 4 | Industry AGR FY26 | ₹3,34,659 Cr (+10.44%); GR ₹4,04,067 Cr | TRAI Yearly PIR FY26 (P16) | V-P16 | Upd |
+| 5 | TRAI wireless ARPU | ₹187.12 (Q1 FY27); restated Q4 FY26 ₹184.91; prepaid ₹200.72; FY26 ₹180.73 | P14 Table 2.7; P16 | V-P14/P16 | Y (conflict resolved, S-5) |
+| 6 | Mobile subscribers incl. M2M, Jun-26 | Jio 533.26 mn (39.56% of access); Airtel wireless 490.62 mn | P14 §1.11, §1.19 | V-P14 | Y (Aug-26 TRAI monthly in Part 1 stays the latest) |
+| 7 | M2M connections, Jun-26 | 134.73 mn (Airtel 82.77 mn) | P14 §1.32 | V-P14 | Upd (Aug: 140.5 mn in Part 1) |
+| 8 | Airtel consolidated revenue / EBITDA, Q1 FY27 | ₹58,539 Cr / ₹33,599 Cr (57.4%) | Airtel IR pack (P1) p.2 | V-P1 | Y |
+| 9 | Airtel India revenue / EBITDA margin, Q1 FY27 | ₹41,214 Cr / 60.1% | P1 §3.3.1 | V-P1 | Y |
+| 10 | Airtel net debt incl. / excl. leases, Jun-26 | ₹1,57,240 Cr / ₹81,852 Cr | P1 §7.2.1 | V-P1 | **Upd** (S-1) |
+| 11 | Airtel ND/EBITDA; ND ex-lease/EBITDAaL | 1.17× / 0.69× | P1 key ratios | V-P1 | Y |
+| 12 | Airtel mobile ARPU | ₹264 (₹257 Q4 FY26; ₹250 Q1 FY26) | P1 §4.2 | V-P1 | Y |
+| 13 | Airtel India mobile customers; 4G/5G share | 376.5 mn; 301.8 mn 4G/5G (80.5%) | P1 §4.2 | V-P1 | Upd (S-29) |
+| 14 | Airtel monthly churn | 2.6% (Q1 FY27) | P1 §4.2 | V-P1 | **No** (S-3) |
+| 15 | Airtel postpaid | 30.0 mn (+12.9% YoY); 112.8 mn incl. IoT | P1 §4.2 | V-P1 | Y/Upd |
+| 16 | Airtel Africa effective stake | 79.11% (Jun-26), via 146.76 mn-share swap with ICIL + buyback | Airtel published results Q1 FY27 (P2) notes 3–4 | V-P2 | Upd (S-25) |
+| 17 | Airtel promoter holding | 50.07% (Jun-26, Sep-26) | screener shareholding (P17) | V-P17 | Y |
+| 18 | Airtel FY26 EBITDA / capex | ₹1,21,268 Cr (57.5%) / ₹47,522 Cr | P1 p.2 | V-P1 | Upd (S-28) |
+| 19 | Airtel FY25 Indus business-combination gain | ₹14,322.5 Cr | Airtel AR FY26 (P4) exceptional items note | V-P4 | Upd (S-27) |
+| 20 | Airtel company EV/EBITDA | 9.77× (Jun-26) | P1 valuation indicators | V-P1 | **No** (S-2) |
+| 21 | Vi FY26 PAT and underlying | +₹34,552 Cr; loss before exceptional and tax −₹24,059 Cr; exceptional +₹58,607 Cr | Vi AR FY26 (P8) | V-P8 | Upd (S-8) |
+| 22 | Vi AGR reassessment and schedule | ₹64,046 Cr; min ₹100 Cr/yr FY32–35; ₹10,608 Cr/yr FY36–41 | P8 note 3 | V-P8 | Upd (S-9) |
+| 23 | Vi ownership | GoI 49.00% (Mar-26 AR; 49.02% screener Sep-26); promoters 25.64% (Vodafone ≈16.07%, ABG ≈9.56%) | P8 equity note; P17 | V-P8 | Upd (S-10) |
+| 24 | Vi Q1 FY27 ARPU / subs / 4G-5G | ₹195 / 193.1 mn / 130.1 mn (67.4%) | Vi investor presentation (P7) KPI table | V-P7 | Y (was V-snip) |
+| 25 | Vi cash EBITDA | Q1 FY27 ₹2,475 Cr; FY26 ₹9,217 Cr (sum of quarters) | P7 | V-P7 | Y (was primer) |
+| 26 | Vi external debt / cash, Jun-26 | Bank ₹211 Cr + NCD ₹3,278 Cr; cash ₹6,558 Cr | P7; P6 | V-P7 | Upd (S-13) |
+| 27 | Vi capex plan | ₹45,000 Cr over FY27–29; Q1 FY27 capex ₹1,930 Cr; ₹9,000 Cr ordered | P6; P8 | V-P6 | Y (S-14) |
+| 28 | Vi going-concern status | No material-uncertainty paragraph in the FY26 audit report | P8 auditor's report / CARO (xix) | V-P8 | New (S-15) |
+| 29 | Hexacom Q1 FY27 revenue / EBITDA / ARPU | ₹2,510 Cr / ₹1,375 Cr (54.8%) / ₹259 | Hexacom IR pack (P5) | V-P5 | Y |
+| 30 | Hexacom net debt ex-lease | ₹2,030 Cr (Mar-26) → ₹960 Cr (Jun-26); DPL ₹2,694 Cr | P5 §7.2.1 | V-P5 | **No** (S-16) |
+| 31 | Hexacom FY26 EBITDA | ₹5,069 Cr (54.2%) | P5 p.2 | V-P5 | **No** (S-17) |
+| 32 | TCOM Q2 FY27 revenue / EBITDA / digital margin | ₹6,688 Cr / ₹1,422 Cr (21.3%) / −3.6% (Q1 −6.9%) | TCOM management commentary (P9); statutory financials (P10) | V-P9 | Y (was V Business Today) |
+| 33 | TCOM net debt Sep-26 | ₹11,197 Cr; 2.17× | P9 | V-P9 | **Upd** (S-18) |
+| 34 | TCOM FY26 attributable PAT | ₹1,001.57 Cr | P10 | V-P10 | Upd (S-19) |
+| 35 | TTML net worth / RPS / borrowings, Sep-26 | −₹18,932.69 Cr / ₹837.75 Cr / ₹19,645.98 Cr; first AGR instalment ₹652.99 Cr (30-Mar-26) | TTML Q2 results (P12) pages 2 and 4; RPS term in AR (P13) | V-P12/P13 | Y + context (S-23) |
+| 36 | Global peer EV/EBITDA (TTM) | VZ 7.4, T 6.8, TMUS 8.0, VOD 8.5, China Mobile 4.5, TLK 4.1, Singtel 12.7 | stockanalysis.com (S1) | V-agg | Upd (S-30) |
+| 37 | Satcom spectrum charge | TRAI 4% of AGR; DoT reportedly 5%; DCC approved 3-Sep-2026; Cabinet pending | psuwatch 8-Sep-26 (S2); TRAI May-2025 recommendation [K] | V-snip | Narrowed, not closed |
+| 38 | Jio IPO final subscription | 22.19× (QIB 70.55×) | HDFC Sky / Upstox (Part 1) | V-snip | Y; allotment ~26-Oct and listing ~28-Oct are after this file |
+| 39 | Last industry tariff hike | 3–4 Jul 2024; no hike found through 24-Oct-2026; entry 1 GB/day plans withdrawn in 2025 | press search 24-Oct (smartprix/digit/Business Standard) | V-snip (negative search) | Y |
+| 40 | Airtel Q2 FY27 board date | ~5-Nov-2026 (IR calendar, tentative) | airtel.in calendar (Part 1) | V-snip | Y |
+
+**Where sources disagree, and which to trust:**
+- **TRAI ARPU** (#5): the Oct-2026 QPIR is the current, restated basis, so use it. The Jun-2026 print (₹196.04) is superseded by TRAI itself.
+- **Vi EBITDA FY26:** the presentation's quarters sum to ₹19,004 Cr (same as the primer's ₹19,003 Cr). The AR's summary table shows ₹19,544 Cr consolidated "EBITDA", which appears to include non-exceptional other income. Screener OP is ₹18,859 Cr. **Use ₹19,003 Cr (company operating EBITDA)** and say so.
+- **Airtel EBITDA basis:** company ₹33,599 Cr vs screener OP ₹33,303 Cr. Use company figures in prose.
+- **Satcom SUC** (#37): two secondary reports describe the DCC outcome differently (5% flat vs 5% urban / 4% rural; ₹500 urban fee retained vs dropped). No primary text has been published, so present it as "4–5% of AGR, Cabinet approval pending".
+
