@@ -368,5 +368,105 @@
   "accent": "#2F18A5",
   "angle": "Cello World (single member; consumerware — plasticware, steel/thermoware, glassware (opalware), writing instruments, moulded furniture; distribution-led; promoter OFS/QIP history) — cover India's houseware market: Milton (Hamilton Housewares), Borosil (consumer), La Opala (listed — opalware), Tupperware (exit), unorganised and Chinese imports, quick commerce and modern trade. Forces: polymer/steel/glass costs, BIS QCOs on kitchenware and import curbs, distribution reach, new glassware plant ramp, GST 2.0 rate cuts on houseware, gifting/institutional demand. KPIs: revenue by category, gross margin, EBITDA margin, capacity utilisation (glassware), working capital, ROCE.",
   "companies": 1
+ },
+ {
+  "order": 38,
+  "queue_no": 5,
+  "slug": "tyres",
+  "key": "Automobile & Ancillaries || Tyres & Rubber Products",
+  "name": "Tyres",
+  "accent": "#C2410C",
+  "angle": "MRF, Balkrishna Industries (BKT), Apollo Tyres, CEAT, JK Tyre. Forces: natural rubber prices (domestic RSS-4 vs Bangkok, import duty and Rubber Board), crude-linked synthetic rubber/carbon black and the 2026 West Asia oil shock; replacement vs OEM vs export mix (truck/bus radial, PCR, 2W, farm/OTR); radialisation of TBR; Chinese/Thai TBR import competition and anti-dumping duties; BKT's off-highway export model (Europe/US farm cycle, US Section 301 10% from 24-Jul-2026, EU demand, freight); Apollo's Europe (Vredestein) restructuring and plant closures; CEAT's Camso/off-highway acquisition; JK's Cavendish integration and leverage; capacity capex cycle; CCI cartel case history; EV tyres and BIS star-labelling/tyre rolling-resistance norms; price hikes vs raw material lag. KPIs: tonnage/volume growth by segment, replacement share, gross margin vs RM basket, EBITDA/kg, capex/sales, net debt/EBITDA, ROCE, working capital.",
+  "companies": 5
+ },
+ {
+  "order": 39,
+  "queue_no": 7,
+  "slug": "agri-products",
+  "key": "FMCG || Other Agricultural Products",
+  "name": "Rice, Agri Commodities & Seeds",
+  "accent": "#9A6A00",
+  "angle": "LT Foods (Daawat, Royal — basmati, US/Europe/Middle East), KRBL (India Gate), Manorama Industries (exotic seed fats — sal/kokum/mango butters, CBE for chocolate makers), Gujarat Ambuja Exports (maize/soy processing — starch, solvent extraction), Kaveri Seed (hybrid seeds — cotton, maize, rice). Mixed bucket: treat archetypes explicitly. Forces: basmati paddy prices and export demand (Iran payment issues, Middle East/West Asia 2026 crisis, EU pesticide MRLs, minimum export price history), non-basmati export bans and their 2024–25 removal, US tariffs on Indian rice (10% Section 301), branded rice in India and quick commerce; Manorama's cocoa-butter-equivalent boom with 2024–26 cocoa price spike and its unwinding; maize demand diverted to ethanol (GAEL starch margins), soybean crush margins; Kaveri: cotton acreage fall, HTBt seed illegality, seed price controls, rice/maize hybrids. KPIs: volume, realisation/kg, gross margin, inventory days (basmati ageing — working capital), export share, branded share, ROCE.",
+  "companies": 5
+ },
+ {
+  "order": 40,
+  "queue_no": 9,
+  "slug": "diagnostics",
+  "key": "Healthcare || Healthcare Service Provider",
+  "name": "Diagnostics & Wellness Services",
+  "accent": "#D6336C",
+  "angle": "Dr Lal PathLabs, Metropolis Healthcare, Vijaya Diagnostic Centre, Thyrocare (API Holdings/PharmEasy-owned — check stake/OFS status), Jeena Sikho Lifecare (Ayurveda clinics/hospitals — different archetype). Forces: pathology vs radiology (Vijaya's radiology mix), B2C vs B2B, hub-and-spoke network economics, patient/test volumes and revenue per patient, price competition from aggregators (Tata 1mg, PharmEasy, Healthians, Orange Health), hospital-chain labs, Metropolis acquisitions (Core Diagnostics etc.), Lal Path's Suburban integration, wellness/preventive packages, insurance/GST-exemption effect on health spend, NABL accreditation, regulation of lab standards (Clinical Establishments Act), AI in radiology. Jeena Sikho: Ayurveda hospital model, CGHS/insurance empanelment, related-party/governance questions — verify. KPIs: patients, tests/patient, revenue/patient, network (labs, collection centres), EBITDA margin, ROCE, cash. Link hospitals.html.",
+  "companies": 5
+ },
+ {
+  "order": 41,
+  "queue_no": 11,
+  "slug": "fintech",
+  "key": "IT || Financial Technology (Fintech)",
+  "name": "Fintech",
+  "accent": "#4338CA",
+  "angle": "PB Fintech (Policybazaar, Paisabazaar), One97 Communications (Paytm), Pine Labs (listed 2025 — verify), AvenuesAI (formerly Infibeam Avenues — CCAvenue; verify rename), Zaggle Prepaid Ocean Services (spend management/prepaid cards). Forces: UPI zero-MDR and the payments monetisation problem; payment-aggregator licences (RBI PA/PA-CB guidelines), Paytm Payments Bank shutdown (2024) and recovery, Paytm's lending distribution (DLG/FLDG rules), merchant devices/soundboxes; Pine Labs' merchant POS/issuing (Plural, Setu), Middle East/SE Asia; Policybazaar's insurance distribution economics vs IRDAI's 23-Sep-2026 commission/EoM consultation (link general-insurance.html and life-insurance.html), PB Health hospital venture; Zaggle's customer concentration and receivables; profitability turn vs ESOP costs; Chinese/foreign shareholder exits (Ant), SEBI/ED issues. KPIs: GMV/TPV, take rate, contribution margin, adjusted EBITDA vs reported PAT, ESOP cost, devices, loans distributed, renewal revenue, cash. Link stockbroking.html, other-finserv.html.",
+  "companies": 5
+ },
+ {
+  "order": 42,
+  "queue_no": 13,
+  "slug": "telecom-operators",
+  "key": "Telecom || Telecom - Cellular & Fixed line services",
+  "name": "Telecom Operators",
+  "accent": "#E03131",
+  "angle": "Bharti Airtel, Vodafone Idea, Bharti Hexacom (Rajasthan + NE circles), Tata Communications (enterprise data/voice — different archetype), Tata Teleservices (Maharashtra) (TTML, B2B, large negative net worth). Unlisted benchmark: Reliance Jio — Jio Platforms IPO priced ₹1,065–1,119, subscription 21–23 Oct 2026, listing ~28-Oct (verify outcome). Forces: three-player market and tariff hikes (Jul-2024 and later — verify 2025–26 hikes), ARPU path, 5G capex and FWA, Vodafone Idea's AGR dues (Supreme Court relief/government equity conversion — verify 2025–26 status), spectrum auctions and payments, satellite broadband (Starlink/OneWeb/Jio-SES licences, admin vs auction allotment), Airtel Africa, Indus Towers stake, enterprise/data centres (Nxtra), Tata Comm's digital platforms. KPIs: subscribers, ARPU, minutes/data per user, EBITDA margin, capex/sales, net debt/EBITDA (incl. leases), FCF, ROCE. Link other-telecom.html and telecom-equipment.html.",
+  "companies": 5
+ },
+ {
+  "order": 43,
+  "queue_no": 15,
+  "slug": "sugar",
+  "key": "Agri || Sugar",
+  "name": "Sugar & Ethanol",
+  "accent": "#008C7A",
+  "angle": "EID-Parry (also holds Coromandel International — holdco angle), Balrampur Chini (PLA bioplastics plant), Triveni Engineering (sugar + alco-bev distillery + gears/water engineering), Shree Renuka Sugars (Wilmar-owned, refinery, high leverage). Forces: FRP cane price vs minimum sugar selling price (MSP unchanged since 2019 — verify any 2026 revision), sugar export quotas (2025-26 season — verify), ethanol blending E20 achieved and the debate beyond E20/E27, ethanol procurement prices by feedstock (cane juice/B-heavy/C-heavy/grain) and OMC allocations to grain vs cane, diversion of sugar to ethanol, monsoon and cane acreage (2026 monsoon 87% of LPA), UP vs Maharashtra/Karnataka economics, cogeneration, PLA/bio-plastics, Brazil/global sugar prices. KPIs: cane crushed, recovery %, sugar/ethanol volumes and realisations, distillery capacity (KLPD), inventory and working capital, EBITDA/tonne of cane, net debt. Link alcohol.html (Triveni alco-bev), fertilizers.html (Coromandel).",
+  "companies": 4
+ },
+ {
+  "order": 44,
+  "queue_no": 17,
+  "slug": "passenger-vehicles",
+  "key": "Automobile & Ancillaries || Passenger Cars & Utility Vehicles",
+  "name": "Passenger Vehicles",
+  "accent": "#1C64D8",
+  "angle": "Maruti Suzuki, Hyundai Motor India (listed Oct-2024), Tata Motors Passenger Vehicles (TMPV — includes JLR after the 2025 demerger; verify structure), Tata Motors (Commercial Vehicles) (TMCV — check why it is classified here; if CV, note and link commercial-vehicles.html). Forces: PV volume slowdown 2024–25 then GST 2.0 rate cut on small cars (Sep-2025 — verify) and its 2026 effect, SUV shift and share war (Mahindra unlisted here — reference only), EVs (PM E-DRIVE, Tata EV share, Maruti eVitara exports), CAFE III norms, exports (Maruti to 100+ countries), JLR: Sep-2025 cyberattack, US tariffs on UK cars (10% UK-US deal quota), China, margins; Hyundai's Talegaon plant; rare-earth magnet shortage 2025; discounts and inventory; West Asia 2026 fuel shock. KPIs: volumes (domestic/export), market share, ASP, EBITDA/vehicle, discounts, capacity utilisation, R&D/capex, net cash, JLR EBIT and FCF. Link two-wheelers.html, auto-components.html, erd-services.html (JLR cyberattack consistency).",
+  "companies": 4
+ },
+ {
+  "order": 45,
+  "queue_no": 19,
+  "slug": "footwear",
+  "key": "FMCG || Footwear",
+  "name": "Footwear",
+  "accent": "#087F5B",
+  "angle": "Bata India, Relaxo Footwears (Sparx, Flite — mass/value), Redtape (spun off from Mirza International 2023), Campus Activewear (sports/athleisure). Forces: BIS Quality Control Orders on footwear (from Aug-2024 for large/medium firms; small-firm deadlines and import curbs — verify 2025–26 status), GST on footwear below ₹1,000 (12%→5% under GST 2.0 Sep-2025 — verify) and its effect on value brands, unorganised competition, demand slowdown in mass footwear 2023–25, premiumisation and athleisure, D2C/e-commerce and quick commerce, store network/franchise (Bata's franchise push), raw materials (EVA/PU/PVC, rubber — crude link), China-plus-one manufacturing for exports (US tariffs), Nike/Adidas/Skechers (Metro Brands — listed elsewhere?) competition. KPIs: volume (pairs), ASP, gross margin, EBITDA margin (pre/post Ind AS 116), store count, revenue/sq ft, inventory days, ROCE. Link speciality-retail.html, garments.html.",
+  "companies": 4
+ },
+ {
+  "order": 46,
+  "queue_no": 21,
+  "slug": "internet-platforms",
+  "key": "IT || Web based media and service",
+  "name": "Internet Platforms & Classifieds",
+  "accent": "#7C3AED",
+  "angle": "Info Edge (Naukri, 99acres, Jeevansathi, Shiksha + Zomato/Eternal and PolicyBazaar stakes — holdco look-through), IndiaMART InterMESH (B2B marketplace, paying suppliers), CarTrade Tech (CarWale, BikeWale, OLX India, Shriram Automall auctions), Justdial (Reliance Retail-owned, local search). Forces: hiring cycle (IT hiring slump and GCC hiring — link it-services.html), real-estate cycle for 99acres (link realty.html), SME demand and paying-supplier churn at IndiaMART, used-car market and OLX integration, AI/LLM search disruption (Google AI overviews, ChatGPT) to classifieds and local search, very high cash balances and treasury income, Info Edge's investee portfolio marks (Eternal, PB Fintech — link fintech if live), ESOP costs. KPIs: billings/collections vs revenue (deferred revenue), paying customers/suppliers, ARPU, operating margin, cash, treasury income share of PAT, investee portfolio value vs m-cap.",
+  "companies": 4
+ },
+ {
+  "order": 47,
+  "queue_no": 23,
+  "slug": "diversified-retail",
+  "key": "Retailing || Diversified Retail",
+  "name": "Value & Grocery Retail",
+  "accent": "#E8590C",
+  "angle": "Avenue Supermarts (DMart, DMart Ready), Vishal Mega Mart (IPO Dec-2024; Kedaara promoter selling down — verify 2025–26 blocks), V-Mart Retail (incl. Unlimited), V2 Retail. Forces: value retail in Tier 2–4 India, store economics (revenue/sq ft, LFL growth, store additions), quick commerce threat to DMart (Blinkit, Zepto, Instamart, Flipkart Minutes) and DMart Ready's response, GST 2.0 rate cuts (Sep-2025) on FMCG and apparel and consumption stimulus, private-label share, apparel vs grocery mix, rural vs urban demand, inventory and shrinkage, lease liabilities (Ind AS 116), founder/promoter structures. KPIs: stores, retail area, revenue/sq ft, LFL/same-store growth, gross margin, EBITDA margin (pre/post Ind AS 116), inventory days, capex/store, ROCE. Link speciality-retail.html, eretail.html, packaged-foods.html.",
+  "companies": 4
  }
 ]
