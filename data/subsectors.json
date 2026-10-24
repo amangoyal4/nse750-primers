@@ -1634,6 +1634,23 @@
         "From mill to box"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Credit Ratings & Research",
+      "slug": "ratings",
+      "file": "ratings.html",
+      "sector": "Ratings",
+      "subsector": "Ratings",
+      "companies": 1,
+      "accent": "#0909B3",
+      "hook": "Bonds down, raters up: how India's eight licensed rating agencies earn 50–60% margins on issuer-pays opinions, why ratings revenue grew in 2026 as bond issuance shrank, how RBI's 2027 risk-weight rules put default records on trial, and CRISIL's S&P-linked research engine.",
+      "tags": [
+        "Bonds down, raters up",
+        "RBI 2027 risk weights",
+        "The IL&FS scar",
+        "CRISIL's global research engine"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -2403,7 +2420,7 @@
       "sector": "Ratings",
       "sub": "Ratings",
       "companies": 1,
-      "report": null
+      "report": "ratings.html"
     },
     {
       "sector": "Realty",
