@@ -42,3 +42,12 @@
 - **jk-tyre.html:** Mexico = **2 plants** (AR, CareEdge); capacity 380 lakh tyres p.a.; Cavendish effective **22-Dec-2025**; FY26 exceptional ₹146 Cr (pre-exc. PAT ~₹880 Cr); product mix TBR 53% / PCR 30%; channel 64/23/13; CARE AA− with downgrade trigger PBILDT <10% (H1 FY27 ~6.9%); FY27 capex ₹1,600–1,800 Cr; net debt ₹4,945 Cr (Jun-26).
 - **All five:** the US tariff paragraph must distinguish Sec 232 (on-road, 25%) from the ~10% regime (OHT); the Brent narrative should use the EIA monthly series (Apr-26 $117, Sep-26 $114, Oct-26 ~$126) rather than "$95–105".
 
+
+## primer-audit.mjs (2026-10-24, run by the tyres orchestrator — pre-existing, not fixed)
+
+- **mrf.html:** ❌ banned phrase present; no `main{min-width:0}` (phone overflow); 0 report links.
+- **balkrishna-industries.html:** ❌ banned phrase present; no `main{min-width:0}`; 0 report links.
+- **apollo-tyres.html:** ❌ banned phrase present and "honest" used more than once; no `main{min-width:0}`; 0 report links.
+- **ceat.html:** hard checks ✅; no `main{min-width:0}`; 0 report links.
+- **jk-tyre.html:** hard checks ✅; no `main{min-width:0}`; 0 report links.
+- All five primers were last refreshed 2026-06-30 and could link to the new `subsectors/tyres.html` once it is published.
