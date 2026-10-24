@@ -1804,6 +1804,23 @@
         "ARPU and the Jio IPO"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Sugar & Ethanol",
+      "slug": "sugar",
+      "file": "sugar.html",
+      "sector": "Agri",
+      "subsector": "Sugar",
+      "companies": 4,
+      "accent": "#008C7A",
+      "hook": "A price sandwich and a fuel U-turn: how India's listed mills turn a tonne of cane into sugar, ethanol and power under a rising cane price and frozen floors, why the 2026-27 ethanol tender shut out cane-route ethanol, what a failed monsoon and a decade-low stock mean, and how a holdco, two UP millers and a refiner compare.",
+      "tags": [
+        "KPI masterclass",
+        "Ethanol diversion economics",
+        "EID Parry holdco discount",
+        "Balrampur PLA and Renuka leverage"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -1811,7 +1828,7 @@
       "sector": "Agri",
       "sub": "Sugar",
       "companies": 4,
-      "report": null
+      "report": "sugar.html"
     },
     {
       "sector": "Alcohol",
