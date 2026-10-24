@@ -1651,6 +1651,23 @@
         "CRISIL's global research engine"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Telecom Services (RailTel)",
+      "slug": "other-telecom",
+      "file": "other-telecom.html",
+      "sector": "Telecom",
+      "subsector": "Other Telecom Services",
+      "companies": 1,
+      "accent": "#14089B",
+      "hook": "A fibre landlord inside a contractor: how RailTel's 63,000-km railway-corridor fibre earns near-40% EBITDA while the government ICT projects bolted onto it earn about 4%, why an ₹11,747 crore order book is not turning into cash, and who really gets paid for Kavach.",
+      "tags": [
+        "Landlord vs contractor",
+        "Kavach: who gets paid",
+        "The receivables bill",
+        "RailWire and bandwidth"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -2480,7 +2497,7 @@
       "sector": "Telecom",
       "sub": "Other Telecom Services",
       "companies": 1,
-      "report": null
+      "report": "other-telecom.html"
     },
     {
       "sector": "Telecom",
