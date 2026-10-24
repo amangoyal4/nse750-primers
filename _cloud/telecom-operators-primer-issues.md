@@ -1,0 +1,52 @@
+# Telecom Operators — primer issues
+
+## From Telecom Operators research (2026-10-24, telecom-operators-industry.md §3.4)
+
+- **bharti-hexacom.html — Assam is wrongly included in the North-East circle.**
+  - The snapshot (§00), the "In plain terms" box ("seven states") and the circles table ("Seven-plus states (... Tripura, Assam)") all include Assam.
+  - The company's own release defines the NE circle as **Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland and Tripura** — six states. **Assam is a separate LSA operated by Bharti Airtel itself.**
+  - Fix all three places and the "~80m people" style population claims if they rely on it.
+- **bharti-hexacom.html — stale valuation and KPIs.**
+  - M-cap ~₹72,600 Cr → **₹81,895 Cr**; P/E ~41× → **44.3×**.
+  - Add Q1 FY27: revenue ₹2,510 Cr (+10.9%); EBITDA ₹1,375 Cr (54.8%); NI ₹482 Cr; ARPU ₹259; 36.2 GB; Homes 0.918 mn (+82.9%); ND ex-lease/EBITDAaL 0.20×.
+  - The "~37.6% subscriber share (May 2024)" is two years old.
+  - State the EBITDA basis: company ~₹5,114 Cr vs screener OP ₹4,890 Cr.
+- **bharti-airtel.html — PAT mislabelled.**
+  - "PAT before exceptionals FY26 ~33,800" is actually **reported net profit including minority interest** (screener ₹33,823 Cr). "Reported PAT ~26,700" is **attributable to owners** (EPS ₹43.81).
+  - The "+~35% underlying growth" claim needs re-deriving on a consistent attributable, pre-exceptional basis.
+  - The FY25 explanation ("one-time deferred-tax / restructuring gain") should name the **Indus Towers consolidation re-measurement gain** (FY25 other income ₹20,662 Cr) [K, verify].
+- **bharti-airtel.html — stale, add Q1 FY27.**
+  - M-cap ₹11.3 L Cr → **₹11.81 L Cr**; P/E 39× → 37.8×; promoter ~48.9% → **50.07%**.
+  - Customers 666 mn → **681 mn**; ARPU ₹257 → **₹264**; data 31.4 → 34.4 GB; Homes 14.2 → 14.7 mn; postpaid 30.0 mn; ND/EBITDA 1.29× → 1.17× (ex-lease 0.69×).
+  - **Airtel Africa stake raised to >79% via share swap.**
+  - "~57.5% EBITDA margin (FY26)": screener FY26 OPM is 55%. Say "~57% on the latest quarters" or state the company basis.
+  - "Industry blended ~₹196": TRAI's Q4 FY26 wireless ARPU is ₹184.91, and Q1 FY27 ₹187.12.
+- **bharti-airtel.html — omissions.**
+  - Indus Towers is a consolidated subsidiary (it changes revenue, EBITDA, debt and receivable risk from Vi). It is not mentioned.
+  - Nxtra is barely mentioned.
+  - The 2024 spectrum auction (Airtel the top buyer, ~₹6,857 Cr) is missing.
+  - Satcom/Starlink distribution and the Eutelsat-OneWeb link are missing.
+- **vodafone-idea.html — stale valuation; add Q1 FY27.**
+  - M-cap ~₹1.59 L Cr at ~₹14.7 → **₹1.23 L Cr at ₹11.4**.
+  - Q1 FY27: loss −₹3,754 Cr including a ~₹1,611 Cr exceptional gain; EBITDA ₹5,034 Cr (43.1%); ARPU ₹195; subscribers 193.1 mn (first positive net add since the merger); 4G/5G 130.1 mn; capex ₹1,930 Cr + ₹9,000 Cr of orders; bank debt ₹211 Cr; cash ₹6,558 Cr; CRISIL/ICRA A-/Stable; ₹6,400 Cr funding incl. ABG ₹4,730 Cr warrants.
+  - Also add: the Vodafone Group non-disposal undertaking (3.28 bn shares, Oct-2026); new COO (Manoj Murali, 19-Oct-2026); the ₹9,450 Cr additional AGR demand under dispute.
+- **vodafone-idea.html — subscriber basis.** Say that TRAI shows **199.6 mn (Aug-26)** vs the company's 193.1 mn, and that Vi's active (VLR) ratio is only ~84%.
+- **vodafone-idea.html — EBITDA basis.** Company ₹19,003 Cr vs screener OP ₹18,859 Cr. Fine, but say which.
+- **tata-communications.html — PAT and valuation.**
+  - FY26 PAT ₹1,044 Cr vs screener **₹997 Cr**. State the basis (attributable vs total).
+  - M-cap ~₹54,000 Cr → **₹47,165 Cr**; P/E ~51× → **39.0×**.
+  - **Add Q2 FY27 (~14-Oct-2026):** revenue ₹6,688 Cr (+9.6%); EBITDA ₹1,422 Cr at 21.3% (a record); PAT ₹341 Cr (+86%); data +12.2%; digital +18.6% with margin −3.6%; Kaleyra restructuring approved.
+  - Also Q1 FY27 (PAT ₹130 Cr) and borrowings rising to ₹13,369 Cr (Sep-26).
+- **tata-teleservices-maharashtra.html — interest figure wrong.** "Interest ~₹2,050 Cr implied" (and "interest ≈ 3× EBITDA") is wrong.
+  - Reported **finance cost was ₹1,360.98 Cr in FY26** (≈2.2× EBITDA), and has since fallen to **₹191.49 Cr in Q2 FY27** (₹766 Cr annualised, ~1.2× EBITDA).
+  - The "ISCR around 0.2" claim conflicts with the company's reported **ISCR of 0.90× (FY26), 1.05× (Q1) and 1.14× (Q2 FY27)**. The company excludes notional interest.
+- **tata-teleservices-maharashtra.html — revenue trend wrong.** The scorecard calls revenue "broadly stable". FY26 revenue **fell 11.3%** (₹1,308 → ₹1,160 Cr). It recovered in H1 FY27 (+7.2% YoY to ₹611 Cr).
+- **tata-teleservices-maharashtra.html — balance-sheet numbers.**
+  - Net worth "~₹(19,570) Cr" → company **₹(19,983) Cr (Mar-26)** and **₹(18,932.69) Cr (Sep-26)**.
+  - Borrowings "~₹20,340 Cr" → ₹20,663 Cr (Mar-26 company) / ₹19,646 Cr (Sep-26).
+  - Add the **RPS carrying value cut from ₹1,980.50 Cr to ₹837.75 Cr in Q2 FY27** (net worth +₹1.1k Cr): the first visible parent-side restructuring.
+  - M-cap ₹7,850 Cr → ₹7,366 Cr.
+  - Add: first AGR instalment ₹652.99 Cr paid 30-Mar-2026; write-back ₹666.70 Cr explained (DoT final AGR to FY2018-19); Q2 FY27 loss only −₹59 Cr.
+- **All three mobile primers — tariff hike expectation.** The primers anticipate a 2026 hike ("~15–20% hike in 2026"). **None has happened as of 24-Oct-2026.** Add the reason cited in the press (West Asia/Iran conflict, inflation) and keep the hike as a scenario.
+- **All mobile primers — Jio IPO.** Add the Jio Platforms IPO (₹30,213 Cr fresh issue; ₹1,065–1,119 band; ~₹10.3 L Cr valuation; 22.19× subscribed; listing ~28-Oct-2026; FY26 revenue ₹1,46,885 Cr, EBITDA ₹76,255 Cr, PAT ₹30,049 Cr; ARPU ₹215.6). It is now the listed benchmark peer.
+
