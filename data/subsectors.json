@@ -1770,6 +1770,23 @@
         "M&A and owners"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Fintech",
+      "slug": "fintech",
+      "file": "fintech.html",
+      "sector": "IT",
+      "subsector": "Financial Technology (Fintech)",
+      "companies": 5,
+      "accent": "#4338CA",
+      "hook": "Thin slices of a free rail: how PB Fintech, Paytm, Pine Labs, AvenuesAI and Zaggle earn a few basis points on payment, insurance and credit flows worth hundreds of lakh crore, why zero-MDR UPI and IRDAI's commission caps set their prices, and why FY26's first profits leaned on treasury income.",
+      "tags": [
+        "Free UPI and the MDR that almost came back",
+        "The commission cliff: IRDAI's paper",
+        "Paytm's two-year round trip",
+        "Thin slices of huge flows: the KPIs"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -2389,7 +2406,7 @@
       "sector": "IT",
       "sub": "Financial Technology (Fintech)",
       "companies": 5,
-      "report": null
+      "report": "fintech.html"
     },
     {
       "sector": "IT",
