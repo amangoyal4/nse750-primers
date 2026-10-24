@@ -954,3 +954,531 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
 - Fuel hikes (May-2026): https://newsonair.gov.in/petrol-diesel-prices-hiked-by-rs-3-per-litre-amid-spike-in-global-energy-prices/ ; https://scroll.in/latest/1093098/scroll_in [V-snip]
 - TMCV listing (Outlook Business): https://www.outlookbusiness.com/corporate/tata-motors-cv-arm-lists-with-19-gain-after-landmark-demerger [V-snip]
 - Library cross-references: subsectors/commercial-vehicles.html, two-wheelers.html, auto-components.html, erd-services.html, tyres.html, tractors.html; data/constituents.csv; subsectors/_template/members.json.
+
+---
+
+# PART 4 — Deep-research supplement (24-Oct-2026)
+
+**What this pass did.** Second, primary-source pass on the Part 1–3 dossier. Fetched and read this session: all four companies' **FY26 annual reports** (Maruti 270 pp, Hyundai 205 pp, TMPV 585 pp, TMCV 489 pp; BSE AttachHis PDFs), the **latest earnings-call transcripts** (Hyundai Q1 FY27, 30-Jul-2026; TMPV Q1 FY27, 13-Aug-2026; TMCV Q1 FY27, 12-Aug-2026; Maruti Q4 FY26, 28-Apr-2026 — Maruti's Q1 FY27 transcript is not posted, so its Q1 call is taken from a broker's call notes), **investor presentations** (Maruti Q1 FY27, Hyundai Q1 FY27, TMPV Q1 FY27, TMCV Q2 FY27), **screener 10-year and 9-quarter tables** for all four plus M&M, **seven SIAM press releases** plus SIAM's industry-trends table, the **GST Council / Ministry of Finance** GST 2.0 release and FAQ, the **PM E-DRIVE** scheme site, Maruti's September-2026 sales release, and global-peer multiples. About 70 web fetches. Notes: scratch folder `pv-deep/notes.md`.
+
+**Tags in Part 4.** **[V]** = fetched and read this session from the named source. Where the source is a company filing, regulator, ministry or industry body it is marked **[V-primary]** in §4.1. **[V-trade]** = full trade-press article fetched (e.g. Autocar Pro), not the underlying gazette or release. **[V-snip]** = search summary only. **[E]** = my arithmetic on [V] inputs. **[K]** = memory.
+
+**Biggest changes for the writer (detail in §4.0):**
+1. **TMPV's clean FY26 earnings figure is a loss of ₹1,377 Cr from continuing operations**, not "~₹29 Cr ex-gain". FY26 exceptional items were a separate **₹4,142 Cr charge** (₹2,786 Cr of it supplier claims and costs from the cyber incident). JLR's FY26 FCF was **−£2,229 m** and TMPV's was **−₹26,823 Cr**.
+2. **JLR FY25 EBITDA was 14.3%, not 15.3%.** The FY26 regional declines in Part 1 were wrong: **North America wholesale fell 32.7%**, not 19%.
+3. **Both parents' royalties are now sourced.** Maruti paid Suzuki **₹5,392 Cr in FY26 (3.09% of net sales; 37.3% of standalone PAT)**. Hyundai paid HMC **₹1,975 Cr (2.79% of revenue; 36.4% of PAT)**. In both cases the parent takes about a third of the listed company's profit before minorities get anything.
+4. **Hyundai's cash is sourced.** Cash and bank balances were **₹10,552 Cr** at Mar-26, so net cash is about ₹9,450 Cr.
+5. **Maruti's capacity target is lower than Part 1 says.** It is **2.9 m by end-FY27 and 3.65 m by end-FY31**, not "~40 lakh by FY31". A Sanand (Khoraj) site of 1 m units is planned at **₹35,000 Cr**. Maruti expects the industry to reach **6.1–6.3 m units by FY31**.
+6. **SIAM monthly series closed** (Apr–Sep 2026 all [V-primary]). FY21–FY26 domestic, export and production series are now primary. **FY26 PV exports were exactly 9,05,200.** Q1 FY27 domestic PV was **12,73,811 (+25.9%)** with exports +8.8%.
+7. **CAFE III was notified on 30-Sep-2026 and the ≤909 kg small-car relief was dropped.** The reference weight was raised to 1,229 kg instead [V-trade].
+8. **M&M (₹3.56 lakh Cr) is now worth more than Maruti (₹3.53 lakh Cr)** on screener's 23-Oct close.
+
+## 4.0 Supersedes (corrections to Parts 1–3)
+
+| # | Item (where in Parts 1–3) | Old value | New value | Source |
+|---|---|---|---|---|
+| 1 | TMPV FY26 "PAT ex demerger gain" (trap 2, §2.3, §3.1–3.2) | ≈ ₹29 Cr [E: 82,645 − 82,616] | **PAT from continuing operations −₹1,377 Cr** (FY25 restated ₹19,394 Cr). PBT bei ₹2,519 Cr, minus exceptional items ₹4,142 Cr, gives PBT from continuing operations −₹1,623 Cr. Reported ₹82,645 Cr also includes the CV business's profit to the demerger date and a ₹4,975 Cr gain on discontinued operations. Use −₹1,377 Cr as "underlying PAT" and recompute the aggregates in §3.1–3.2 (four-member ex-gain PAT ≈ ₹21,765 Cr, not ₹23,171 Cr; m-cap ÷ that ≈ 34×) [E] | TMPV FY26 AR, financial highlights p.18 and MD&A [V-primary] |
+| 2 | TMPV "exceptional items ~₹4.1K Cr" vs ₹82,616 Cr (§2.7, §3.4 primer issue) | Unreconciled | **Two separate items.** (a) Exceptional *charges* of ₹4,142 Cr: supplier claims and cyber-incident expenses ₹2,786 Cr, employee separation ₹1,044 Cr, acquisition/demerger costs ₹422 Cr, labour-code past-service cost ₹239 Cr, onerous contracts ₹30 Cr, less gain on loss of control (₹240 Cr) and a restructuring reversal (₹109 Cr). (b) A ₹82,616 Cr fair-value gain on the CV undertaking under Ind AS 10, with "no impact on net worth" | TMPV FY26 AR, MD&A exceptional-items table [V-primary] |
+| 3 | JLR FY25 EBITDA (§4.2b, §6, E12) | 15.3% | **14.3%** (FY26 6.7%) | TMPV FY26 AR, JLR KPI page [V-primary] |
+| 4 | JLR FY26 regional declines (§2.3 FY26 segments) | "UK −23.1%, NA −19.0%, China −29.8%" | **Wholesale (ex-CJLR) 307,915 (−23.2%):** UK 68,550 (−16.8%), NA 86,855 (**−32.7%**), Europe 57,927 (−19.3%), China 34,533 (−26.8%), MENA 20,068 (−17.9%), Overseas 39,982 (−13.3%). **Retail 352,389 (−17.8%):** UK −15.8%, NA −16.9%, Europe −17.2%, China −25.4%, MENA −22.2%, Overseas −8.3% | TMPV FY26 AR, MD&A [V-primary] |
+| 5 | JLR FY26 FCF (§H-14, B3, F) | −£2.2 bn [V-snip] | **−£2,229 m** (FY25 +£1,478 m). PBT bei £14 m (FY25 £2,489 m) | TMPV FY26 AR [V-primary] |
+| 6 | TMPV FY26 FCF and net debt (§2.3) | Screener FCF −₹23,195 Cr; net debt ₹30,700 Cr | **Company FCF −₹26,823 Cr** (FY25 +₹22,236 Cr). **Net debt ₹30,710 Cr** (FY25 net *cash* ₹1,018 Cr) | TMPV FY26 AR [V-primary] |
+| 7 | Tata EV FY26 (§2.3 segments) | "EV 92K+ (+43%)" | **89,393 EVs**. Tata's EV share on Vahan **40.2% (55.4% FY25)**. FADA retail shows 78,811 Tata e-PVs out of 1,99,923 | TMPV FY26 AR [V-primary]; FADA via evfy.in [V-trade] |
+| 8 | Tata PV FY26 exports (§2.2) | "small (~5k/qtr)" | **10,201 (≈4×)** to five markets (South Africa, Nepal, Sri Lanka, Mauritius, Bhutan). Total sales 6,41,586; domestic 6,31,385 (+14.0%). FY27 target ~2× exports | TMPV FY26 AR; Q1 FY27 call [V-primary] |
+| 9 | TMCV listing price (header, §H-16, §2.7, §3.3) | Conflict: ~₹310 NSE open (Outlook Business) vs ₹335 (primer) | **NSE opened ₹335 (+28.5% vs ₹260.75 reference); BSE ₹330.25 (vs ₹261.90).** The primer is right; Outlook's ₹310 is wrong. TMCV's AR confirms listing w.e.f. 12-Nov-2025 | Business Standard 12-Nov-2025 [V-snip]; TMCV AR [V-primary] |
+| 10 | Demerger dates (header item 1, B1) | "appointed/effective date 1-Oct-2025" | **Effective 1-Oct-2025; appointed date 1-Jul-2025.** CV company renamed "Tata Motors Ltd" **w.e.f. 29-Oct-2025** (now verified) | TMCV FY26 AR, Directors' report [V-primary] |
+| 11 | TMCV FY25 comparator (trap 4, §2.4) | "10-month FY25" | **23-Jun-2024 (incorporation) to 31-Mar-2025, ~9.3 months:** standalone ₹52,557 Cr, consolidated ₹58,217 Cr | TMCV FY26 AR financial highlights [V-primary] |
+| 12 | TMCV FY26 EBITDA basis (§2.4) | Screener OP ₹7,617 Cr (9.1%) | **Company consolidated underlying EBITDA ₹10,314 Cr (12.3%; prior period 11.3%)**; EBIT 10.2%; PBT bei ₹6,091 Cr; FCF ₹12,438 Cr; net cash ₹13,713 Cr; auto ROCE 72%. Consolidated wholesales **4,35,227** (standalone ~4.28 lakh). Screener's OP is lower because a **₹2,418 Cr FVTPL loss on the Tata Capital stake** and product-development expense sit above its OP line | TMCV FY26 AR [V-primary] |
+| 13 | GST pre-reform cess on mid-size cars (§7.1 table) | 28% + 15% (or 17%) = 43–45% | **"Mid-size and big cars attract 28% GST and compensation cess ranging from 17–22% with overall incidence 45–50%."** New rate 40%, no cess | MoF FAQ on 56th GST Council (PIB PRID 2163560) [V-primary] |
+| 14 | Maruti capacity path (§4.3, §2.1) | "~24–26 lakh now → ~40 lakh by FY31" | **2.9 m by end-FY27** (Kharkhoda line-2 from May-26 and Hansalpur line-4 from Jul-26, +2.5 lakh each, so Hansalpur is 1.0 m and Kharkhoda 0.5 m); **3.65 m by end-FY31**. Sanand/Khoraj 1 m-unit site, **₹35,000 Cr** | Maruti FY26 AR, Chairman's message [V-primary] |
+| 15 | Maruti royalty (§1.2, §9.1, F, B5) | "~3.5% of net sales; ₹5,038 Cr FY25 [V-sib]" | **FY26 ₹5,391.8 Cr = 3.09% of net sales (₹1,74,370 Cr)**; FY25 ₹5,038.0 Cr = 3.47%. FY26 = **37.3% of standalone PAT (₹14,445 Cr)** | Maruti FY26 AR, note 33.2 [V-primary] |
+| 16 | Hyundai royalty (§1.2, §9.1, F) | "~2–3.5% (cap 5%)" | **FY26 ₹1,975.4 Cr = 2.79% of revenue = 36.4% of PAT**; FY25 ₹1,877.6 Cr (2.71%; 33.3% of PAT). The MD&A attributes the +₹97.8 Cr "due to increase in sales". The 5% cap was not found in the AR | Hyundai FY26 AR, MD&A and related-party note [V-primary] |
+| 17 | Hyundai cash / net cash (§2.2, §2.0, §3.2e, §H-17) | "not quantified (~₹10–12K Cr [E])" | **Cash, cash equivalents and bank balances ₹10,552 Cr (Mar-26; ₹8,579 Cr Mar-25)**. Net cash ≈ ₹9,450 Cr after ₹1,098 Cr borrowings [E]. EV/FY26 OP ≈ **16.5×** | Hyundai FY26 AR, MD&A balance-sheet table [V-primary] |
+| 18 | Maruti FY26 domestic split (§2.2, §5.1, §H-3) | "~19.7 lakh incl. LCV & OEM; ~18.2 lakh PV [V-snip]" | **Domestic 19,74,939 (incl. LCV and sales to other OEMs; FY25 19,01,681, +3.9%); exports 4,47,774 (FY25 3,32,585, +34.6%); total 24,22,713; production 23,47,792.** PV-only FY26 domestic (18.23 lakh) is still V-snip | Maruti FY26 AR, Board's report [V-primary] |
+| 19 | PV exports FY26 (§2.1, D, §H-2) | ~9.1 lakh (+17.5%) [V-snip] | **9,05,200 (+17.5%)** | SIAM industry-trends table and FY26 release [V-primary] |
+| 20 | Industry PV production and utilisation (§4.3) | "~51 lakh production FY26 ÷ ~60 = ~85% [E]" | **FY26 PV production 55,39,115** (FY25 50,61,164) [V-primary]. On the ~60 lakh capacity estimate [K], that is about 92%. Maruti says it ran "at nearly full capacity utilisation" in H2 FY26 | SIAM; Maruti AR |
+| 21 | Q1 FY27 domestic PV (§2.1 table) | 12.76 lakh, ~+26% [E] | **12,73,811 (+25.9%)**; UVs ~68% (+28.6%), cars +21.3%; **PV exports 2.22 lakh (+8.8%, record Q1)** | SIAM release 610 [V-primary] |
+| 22 | e-PV penetration FY25/FY26 (E7, §11) | FY25 ~2.6%, FY26 ~4.5% [K/E] | **FY26 4.25%** (1,99,923 e-PV retail, +83.6%; CNG 21.98%). FY25 ≈ 2.6% [E: 1,08,873 ÷ ~41.5 lakh] | FADA via Storyboard18 [V-snip] and evfy.in [V-trade] |
+| 23 | CAFE III status (§7.2, §H-8, §12) | "notified ~30-Sep/1-Oct; ≤909 kg clause unverified" | **Notified by MoP on 30-Sep-2026.** The **≤909 kg (3 g/km) small-car concession was dropped.** Reference weight raised to **1,229 kg** (from 1,170 kg in the Sep-2025 draft) with a lower weight slope. FY28 ~94.8 g/km; FY32 ~78.9 g/km. Multipliers BEV/REEV 3.0, PHEV and FFV-SHEV 2.5, SHEV 1.6, FFV 1.1. Credits can be bought from BEE at ₹2,500 rising to ₹4,500 per g/km. Blocks FY28–30 and FY31–32 | Autocar Pro 30-Sep-2026, full article [V-trade]; gazette not fetched |
+| 24 | RBI path (§7.4, §H-10) | "cut to 5.50% by Jun-2025 (and further later in 2025 [K])" | **6.50% → 5.25% by Dec-2025 (125 bp of cuts) → hiked 25 bp to 5.50% on 7-Oct-2026**; stance "calibrated tightening"; first hike since Feb-2023 | SCC Online, Brickwork MPC note [V-snip] |
+| 25 | Global peers' P/E and margins (§10, §H-18) | All [K]: Toyota 8–10×, Suzuki 10–12×, HMC 5–6×, VW 4–6×, BYD 18–22×, Tesla 150×+ | **TTM, Oct-2026: Toyota P/E 9.75, OPM 10.2%; Suzuki 8.4×, 11.6%; Hyundai Motor Co 8.3×, 6.8%; VW 5.2×, 3.5%; BYD 34.9×, 4.7%; Tesla 315×, 5.4%** | companiesmarketcap.com [V, aggregator] |
+| 26 | "Suzuki's stake in Maruti worth more than Suzuki's own m-cap at times" (§10) | [K] | Now **~86%**: 58.72% × ₹3,53,074 Cr ≈ US$21.8 bn vs Suzuki m-cap US$25.3 bn. HMC's 82.5% of HMIL ≈ US$13.1 bn ≈ **22%** of HMC's US$58.4 bn [E] | screener; companiesmarketcap [V] |
+| 27 | Toyota Kirloskar FY26 (§5.1, §H-5) | ~3.3–3.6 lakh, ~7.5% [K/E] | **FY26 total 4,06,081 (+20%): domestic 3,67,107 (≈7.9% of SIAM), exports 38,974** | TKM release via carlelo [V-snip] |
+| 28 | JLR cost programme unit (§2.3 FY27 guidance) | "£1.7 bn savings over 2 years" | The Q1 FY27 call transcript says **"$1.7 billion"**; the company promised detail with Q2 (13-Nov). FLAG: use "~1.7 bn" and confirm the currency on 13-Nov | TMPV Q1 FY27 transcript [V-primary] |
+| 29 | Hyundai Pune "170,000 installed now" (header item 4) | 170k installed | **170k is Phase-1 capacity at three shifts.** Pune ran two shifts until the **third shift from Oct-2026** ("advances ramp-up by nearly two years"). Chennai plant-1 utilisation was 72% in CY26, guided to 90–92% in CY27 | Hyundai Q1 FY27 transcript [V-primary] |
+| 30 | Hyundai FY26 group capacity (§4.3) | ~9.94 lakh → ~11.4 lakh | **9.94 lakh consolidated (Chennai 8.24 + Talegaon 1.70) → 11.44 lakh by 2030**; 26 new products/variants by FY30 | Hyundai FY26 AR [V-primary] |
+
+## 4.1 Verification table — 40 headline figures
+
+"Primary" = company filing or document, regulator, ministry, or industry body (SIAM, GST Council, MHI). "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Source (fetched this session) | Primary? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Domestic PV wholesales FY26 | 46,43,439 (+7.9%) | SIAM release 605 and industry-trends table | **Yes** | Yes |
+| 2 | Domestic PV FY21 / FY22 / FY23 / FY24 / FY25 | 27,11,457 / 30,69,523 / 38,90,114 / 42,18,750 / 43,01,848 | SIAM industry-trends table | **Yes** | Yes (FY21–24 were [K]; now primary) |
+| 3 | PV exports FY26 | 9,05,200 (+17.5%) | SIAM | **Yes** | Yes (was ~9.1 lakh) |
+| 4 | PV production FY26 | 55,39,115 | SIAM | **Yes** | New (Part 1 estimated ~51 lakh) |
+| 5 | H1 FY26 / H2 FY26 PV growth | −1.4% / +16.7% | SIAM 605 | **Yes** | New |
+| 6 | Q1 FY27 domestic PV | 12,73,811 (+25.9%) | SIAM 610 | **Yes** | Yes (was E) |
+| 7 | Q2 FY27 domestic PV; UV share | 13,60,687 (+30.7%); UV 68% (+34.2%), cars +24.9% | SIAM 622 | **Yes** | Yes |
+| 8 | Q2 FY27 PV exports | 2.29 lakh (−5.2%) | SIAM 622 | **Yes** | Yes |
+| 9 | Monthly PV Apr–Sep 2026 | 4,37,312 / 4,38,854 / 3,88,144 / 4,57,810 / 4,39,309 / 4,54,574 | SIAM 607/609/610/612/620/622 | **Yes** | Yes (Apr–Jul new) |
+| 10 | GST small-car definition and rate | 28% → 18%: petrol/CNG/LPG ≤1,200 cc and ≤4,000 mm; diesel ≤1,500 cc and ≤4,000 mm | GST Council release and MoF FAQ (PIB) | **Yes** | Yes (was V-snip) |
+| 11 | GST larger cars / UVs | 40%, no cess (UVs >1,500 cc, >4,000 mm, GC ≥170 mm) | MoF FAQ | **Yes** | Yes |
+| 12 | Pre-reform cess, mid-size and big cars | 17–22%; total 45–50% | MoF FAQ Q35 | **Yes** | **No**: Part 1 said 15/17% (Supersedes #13) |
+| 13 | PM E-DRIVE coverage | ₹10,900 Cr; extended to 31-Mar-2028 (e-3W L5 closed 26-Dec-2025); demand incentives for e-2W/e-3W/e-ambulance/e-truck only, **no private e-cars** | pmedrive.heavyindustries.gov.in; PIB 2053959 | **Yes** | Yes |
+| 14 | CAFE III notified; small-car relief dropped | 30-Sep-2026; ≤909 kg clause dropped; ref weight 1,229 kg | Autocar Pro full article | No (trade) | Resolves Part 1 FLAG |
+| 15 | Maruti FY26 volume / exports | 24,22,713 / 4,47,774 (+34.6%) | Maruti FY26 AR | **Yes** | Yes |
+| 16 | Maruti FY26 domestic (incl. LCV + OEM) | 19,74,939 (+3.9%) | Maruti FY26 AR | **Yes** | Yes (was V-snip) |
+| 17 | Maruti FY26 royalty | ₹5,391.8 Cr = 3.09% of net sales; 37.3% of standalone PAT | Maruti FY26 AR note 33.2 | **Yes** | **No**: Part 1 said ~3.5% (Supersedes #15) |
+| 18 | Maruti capacity path | 2.9 m end-FY27; 3.65 m end-FY31; Sanand ₹35,000 Cr | Maruti FY26 AR | **Yes** | **No**: Part 1 said ~40 lakh by FY31 (Supersedes #14) |
+| 19 | Maruti Q1 FY27 Op. EBITDA margin | 8.6% of net sales (12.6%) | Maruti Q1 FY27 presentation | **Yes** | Yes |
+| 20 | Maruti H1 FY27 sales | Total 13,79,378 (+27.9%); domestic PV 10,80,240 (+35.8%); exports 2,32,855 (+12.2%) | Maruti September-2026 sales release (PDF) | **Yes** | New (Q2 derived: 6,96,654) |
+| 21 | Maruti FY27 capex / volume guidance | ~₹14,000 Cr; ">10%" growth (Apr call), ~10% domestic reiterated (Jul call) | Maruti Q4 FY26 transcript [primary]; PL note for Q1 [secondary] | **Yes** (Q4) | Yes |
+| 22 | Hyundai Q1 FY27 volumes | 1,78,082 (−1.3%): domestic 1,39,374 (+5.4%), exports 38,708 (48,140) | Hyundai Q1 FY27 transcript and presentation | **Yes** | Yes (was V-snip) |
+| 23 | Hyundai FY27 guidance | Volume +8–10%; EBITDA 11–14% (Q1 9.3%) | Hyundai Q1 FY27 transcript | **Yes** | Yes |
+| 24 | Hyundai FY26 royalty | ₹1,975.4 Cr = 2.79% of revenue | Hyundai FY26 AR | **Yes** | **No**: was a ~2–3.5% range (Supersedes #16) |
+| 25 | Hyundai cash and bank (Mar-26) | ₹10,552 Cr | Hyundai FY26 AR | **Yes** | New (filled gap) |
+| 26 | Hyundai FY26 volume split | 7,75,031: domestic 5,84,906, exports 1,90,125 | Hyundai Q1 FY27 presentation | **Yes** | Yes |
+| 27 | Hyundai discount level | 2.8% in Q1 FY27 vs 3.4% in Q1 FY26 ("below industry average") | Hyundai Q1 FY27 transcript | **Yes** | New (first verified OEM discount metric outside JLR) |
+| 28 | TMPV FY26 continuing-ops PAT | −₹1,377 Cr; PBT bei ₹2,519 Cr; exceptional items ₹4,142 Cr | TMPV FY26 AR | **Yes** | **No**: Part 1 used ~₹29 Cr (Supersedes #1) |
+| 29 | TMPV demerger gain | ₹82,616 Cr (Ind AS 10; no net-worth impact) | TMPV FY26 AR | **Yes** | Yes (was primer) |
+| 30 | JLR FY26 revenue / EBIT / PBT bei | £22,911 m (−20.9%) / 0.7% / £14 m | TMPV FY26 AR | **Yes** | Yes (was primer) |
+| 31 | JLR FY26 FCF | −£2,229 m | TMPV FY26 AR | **Yes** | Yes, now exact (was V-snip) |
+| 32 | JLR FY26 wholesale / retail | 307,915 (−23.2%) / 352,389 (−17.8%) | TMPV FY26 AR | **Yes** | Yes; regional detail corrected (Supersedes #4) |
+| 33 | JLR Q1 FY27 | Revenue £5,973 m; EBITDA 8.1%; EBIT 2.8%; FCF −£998 m; VME 7.1%; net debt £3.6 bn | TMPV Q1 FY27 presentation and transcript | **Yes** | Yes (EBITDA 8.1% was V-snip) |
+| 34 | TMPV net debt Jun-26 and its components | ₹42.2K Cr = JLR ₹45.2K Cr + TML Holdings ₹5.8K Cr − PV net cash ₹8.0K Cr − others ₹0.8K Cr | TMPV Q1 FY27 presentation | **Yes** | Yes; components new |
+| 35 | Tata PV FY26 | Revenue ₹58,465 Cr; EBIT 1.4%; domestic 6,31,385; Vahan 13.6%; EV 89,393 | TMPV FY26 AR | **Yes** | Partly: EV count corrected (Supersedes #7) |
+| 36 | Tata PV Q1 FY27 | Wholesales 182.3K (+46.1%); revenue ₹17.9K Cr; EBITDA 4.3%; EBIT −0.5%; PLI ₹313 Cr; commodities −4.5 pts (Q1), ~−3 pts (Q2) | TMPV Q1 FY27 presentation and transcript | **Yes** | Yes (was V-trade) |
+| 37 | TMCV Q2 FY27 standalone | Wholesales 135.1K (+42%); EBITDA 11.7%; FCF ₹4,606 Cr; Iveco settlement 30-Oct | TMCV Q2 FY27 presentation | **Yes** | Yes |
+| 38 | TMCV rename / listing | Renamed 29-Oct-2025; listed 12-Nov-2025; NSE open ₹335 | TMCV FY26 AR [primary]; Business Standard [snip] for the price | **Yes** (dates) | Yes; price conflict resolved |
+| 39 | RBI repo 7-Oct-2026 | +25 bp to 5.50% (from 5.25%) | SCC Online / Brickwork | No (snip) | Yes; path corrected |
+| 40 | Global peers: Toyota / Suzuki / HMC / VW / BYD / Tesla P/E | 9.75 / 8.4 / 8.3 / 5.2 / 34.9 / 315 | companiesmarketcap.com | No (aggregator) | Partly (Supersedes #25) |
+
+**Count: 37 of the 40 are [V] from primary sources** (#1–13 and #15–37, plus the dates in #38). #14, #39 and #40 are trade or aggregator sources, as are the listing *price* in #38 and the Q1-call half of #21. Where two independent sources exist, they agree: Q2 FY27 PV 13,60,687 (SIAM 622 = Autocar Pro); FY26 PV 46,43,439 (SIAM = Outlook Business); Hyundai Q1 volumes (transcript = presentation = Quartr snippet); JLR Q1 FCF −£998 m (presentation = JLR media); TMCV listing date (TMCV AR = TMPV AR = Business Standard).
+
+## 4.2 Per-company deep dives
+
+### 4.2.1 Maruti Suzuki India (MARUTI · 532500)
+
+**Documents read:** FY26 Annual Integrated Report (BSE AttachHis 09d38ee6…, 270 pp); Q4 FY26 earnings-call transcript (28-Apr-2026, company site); Q1 FY27 investor presentation (31-Jul-2026); September-2026 sales release (1-Oct-2026, PDF). The Q1 FY27 call (31-Jul-2026) has **no posted transcript** (only audio). Its content below is from PL Capital's call notes (1-Aug-2026) and labelled secondary. Q2 FY27 results and call are on **27-Oct-2026** (call 5:45 pm). The BSE board-meeting intimation was not found in the recent filings list, so the board date is still inferred.
+
+**Management guidance digest (paraphrased)**
+- *Volume (28-Apr-2026, Rahul Bharti, primary):* FY27 growth "over 10%" vs FY26. The two new lines (5 lakh steady-state) should make about **2.5 lakh extra cars** available in FY27. At the Jan-2026 SIAM conclave the industry expected PV growth of only 5–7% for FY27. *(31-Jul, via PL):* ~10% domestic growth guidance maintained, "supply-constrained, not demand-constrained".
+- *Margins (Q4 call, primary):* Q4 FY26 operating EBIT was 8.8% of net sales (8.1% in Q3). The QoQ gains were employee cost +100 bp (Q3 carried a one-off labour-code provision), discounts +50 bp, FX +30 bp and fixed-cost absorption +50 bp. Against them were commodities −80 bp and new-model costs −60 bp. A ~₹750 Cr bond mark-to-market loss hit Q4 PAT (−6.9%). *(Q1 call, via PL):* commodities cut EBIT margin by ~300 bp. **~110 bp of that came from temporarily moving aluminium, plastic and rubber suppliers to monthly settlement**, which management said should reverse. Other hits: gas 20 bp, fixed-cost incidence from inventory depletion 30 bp, FX 30 bp, Q1 employee seasonality 40 bp, Kharkhoda depreciation 20 bp. Price increases: +50 bp in June, another in August, with most of the benefit in Q2.
+- *Capex:* **~₹14,000 Cr in FY27** (Arnab Roy, Q4 call). Hansalpur line-4 capex ~₹3,900 Cr, "largely dedicated to EV production" (Q1, via PL).
+- *Demand indicators (Q1, via PL):* order backlog **1.30 lakh at end-Q1 (1.90 lakh end-Q4)**; dealer stock ~13 days (optimal ~30); first-time buyers 54% (51% in Q4). In the 18%-GST bucket Maruti sold 3.59 lakh units vs the industry's 7.34 lakh (**~49%**). In the 40% bucket it sold 1.61 lakh vs 4.70 lakh (**~34%**). CNG ~40% of sales; discounts flat QoQ; new Brezza ~2,000 bookings a day at launch; **7 new SUVs by 2030**.
+- *Exports:* +28.6% in Q1 while the rest of the industry's PV exports fell. Top destinations South Africa, Japan and Europe; some Middle East markets hit. Export revenue ~₹11,500 Cr in Q1 (~US$1.24 bn in Q4 FY26). The Chairman's letter says Japan is now the third-largest export market and Maruti has "almost a 50% share" of India's car exports.
+
+**KPI table (company basis)**
+
+| KPI | FY25 | FY26 | Q1 FY27 | H1 FY27 / Q2 FY27 | Source |
+|---|---|---|---|---|---|
+| Total sales (units) | 22,34,266 | **24,22,713** | 6,82,724 (+29.3%) | H1 13,79,378 (+27.9%); Q2 **6,96,654 (+26.5%)** [E] | AR; presentation; Sep release |
+| Domestic (incl. LCV + OEM) | 19,01,681 | 19,74,939 | 5,57,988 | H1 11,46,523 | AR; Sep release |
+| Domestic PV only | n/s | ~18.23 lakh [V-snip] | 5,25,228 | H1 **10,80,240 (+35.8%)**; Q2 5,55,012 [E] | Sep release |
+| Share of SIAM domestic PV | ~40.9% [E] | ~39.3% [E] | 41.2% [E] | H1 **41.0%**, Q2 40.8% [E] | SIAM; company |
+| Exports | 3,32,585 | **4,47,774** (49.5% of India) | 1,24,736 (+28.6%) | H1 2,32,855 (+12.2%); **Q2 1,08,119 (~−2% YoY)** [E] | AR; SIAM |
+| Production | n/s | **23,47,792** (record) | n/s | — | AR |
+| Net sales (₹ Cr) | 1,45,098 | 1,74,370 | 49,959 | — | AR; presentation |
+| Op. EBIT margin (net sales) | 10.0% | **8.4%** ("moderated") | 5.1% | — | AR MD&A; presentation |
+| Royalty to SMC (₹ Cr; % net sales) | 5,038 (3.47%) | **5,392 (3.09%)** | n/d | — | AR |
+| Sales to Suzuki (₹ Cr; export channel) | 14,631 | **25,467** | n/d | — | AR related-party note |
+| CNG sales | ~6.1 lakh [E] | **7.46 lakh (+22%)** | 2.2 lakh (+58%) | FY27 target 9 lakh | Chairman's message |
+| CNG + SHEV + BEV share of own PV | 24.4% | **28.9%** | ~40% CNG alone | — | AR MD&A |
+| Rail share of dispatches | — | 26.5% (>6 lakh cars) | — | FY27 target 28% | AR; Q4 call |
+| Pending bookings | — | 1.9 lakh (Mar-26) | 1.3 lakh (Jun-26) | — | AR; PL |
+| e-Vitara | — | 40,873 exported (cumulative) | 5,648 domestic | 9,274 Vahan registrations H1 | AR; Part 1 |
+
+**Five-year history (screener consolidated; ₹ Cr)** [V screener 24-Oct-26]
+
+| FY | Revenue | YoY | OP | OPM | PAT | ROCE | FCF |
+|---|---|---|---|---|---|---|---|
+| FY22 | 88,330 | +25.5% | 5,752 | 6.5% | 3,880 | 6% | −1,483 |
+| FY23 | 1,18,410 | +34.1% | 13,122 | 11.1% | 8,264 | 16% | 2,858 |
+| FY24 | 1,41,858 | +19.8% | 18,626 | 13.1% | 13,488 | 22% | 7,646 |
+| FY25 | 1,52,913 | +7.8% | 20,224 | 13.2% | 14,500 | 22% | 5,601 |
+| FY26 | 1,83,316 | +19.9% | 21,530 | 11.7% | 14,680 | 19% | 8,754 |
+
+**Eight quarters (screener consolidated; ₹ Cr)** [V]
+
+| Qtr | Revenue | OP | OPM | PAT |
+|---|---|---|---|---|
+| Q2 FY25 | 37,449 | 4,999 | 13.3% | 3,102 |
+| Q3 FY25 | 38,764 | 5,076 | 13.1% | 3,727 |
+| Q4 FY25 | 40,920 | 4,844 | 11.8% | 3,911 |
+| Q1 FY26 | 38,605 | 4,623 | 12.0% | 3,792 |
+| Q2 FY26 | 42,344 | 5,086 | 12.0% | 3,349 |
+| Q3 FY26 | 49,904 | 5,573 | 11.2% | 3,879 |
+| Q4 FY26 | 52,462 | 6,158 | 11.7% | 3,659 |
+| Q1 FY27 | 52,470 | 4,313 | 8.2% | 3,447 |
+- Other income swings PAT: Q4 FY26 ₹581 Cr (bond MTM) vs Q1 FY27 ₹1,972 Cr. Q2 FY26 tax was 23% and Q2 FY25 40% (a one-off).
+
+**Annual-report findings (FY26)**
+- **Related parties and Suzuki's take.** Royalty ₹5,392 Cr. Other expenses paid to SMC ₹730 Cr and services from SMC ₹305 Cr. Dividend paid to SMC **₹2,474 Cr**. Capitalised "lump-sum royalty and engineering support fee" ₹294 Cr (intangibles, amortised over 3–5 years). Suzuki received about **₹8,900 Cr** in FY26 in royalty, dividend and fees combined [E]. **Sales *to* Suzuki of ₹25,467 Cr (+74%)** are the export route through Suzuki's network in ~120 markets. The parent is now Maruti's biggest single customer as well as its licensor.
+- **SMG merger:** effective 1-Dec-2025, appointed date 1-Apr-2025; FY25 restated (also stated in the Q4 call).
+- **Capacity:** Kharkhoda 0.5 m (two lines; third line under way) + Hansalpur 1.0 m ("Suzuki's largest plant anywhere in the world") + Gurugram/Manesar → **2.9 m by end-FY27 → 3.65 m by end-FY31**. Sanand/Khoraj site of 1 m units, ₹35,000 Cr. Maruti ran at "nearly full capacity utilisation" in H2 FY26; "capacity constraints … limited the Company's ability to serve customer demand on time".
+- **Market view (Chairman):** industry **6.1–6.3 m units by FY2030-31**, with small cars growing "significantly faster" than in the last five years. That is a GST-driven upgrade; longer-term targets may change. Retail share FY26 "about 40%"; Maruti is "within close reach of the leadership position in the SUV category".
+- **Powertrain and safety:** petrol 52.3% of own PV sales FY26 (57.2% FY25). Six airbags and ESC standard on "nearly 100%" of the portfolio. Fully compliant with CAFE II.
+- **Contingent liabilities and legal:** CCI 2014 spare-parts order (₹471 Cr penalty) stayed by the Supreme Court since Jul-2019. CCI 2019 suo-moto resale-price-maintenance case pending (NCLAT). Tax: ITAT order of 15-Oct-2026 (Part 1) cuts contingent liabilities by ~₹6,300 Cr. Claims against the company ₹173 Cr; other contingent items ₹640 Cr (₹ million in AR) [V AR].
+- **Dividend:** ₹140/share (record); payout ~30%.
+
+### 4.2.2 Hyundai Motor India (HYUNDAI · 544274)
+
+**Documents read:** FY26 Annual Report (BSE 92a51726…, 205 pp); Q1 FY27 earnings-call transcript (30-Jul-2026, hyundai.com); Q1 FY27 investor presentation (BSE 55ce762f…). Q2 FY27 board and call: **28-Oct-2026** [V Part 1].
+
+**Management guidance digest (Q1 FY27 call, 30-Jul-2026; Tarun Garg MD and K S Hariharan IR; primary)**
+- **FY27 guidance retained: volume +8–10% (domestic and exports), EBITDA margin 11–14%.** Garg: "comfortable is not the word … we will take actions … to ensure that we are within the 11% to 14% EBITDA range." That needs H2 margins of roughly 12–15% after Q1's 9.3% [E].
+- **Industry view:** H2 FY27 industry growth "lower single digits" on the post-GST base; full-year FY27 industry **6–9%**. H1 ran ~17% to July.
+- **Fire and recovery:** the June supplier fire (Mobis India) cost **13,900 units, mostly Creta**, which was "most of it" recovered in July and the rest in Aug–Sep. April–May domestic sales had been +13%.
+- **Margin bridge:** commodities ~−100 bp QoQ and ~−200 bp YoY (precious metals, copper). Three price hikes in CY2026 total ~100 bp. **Discounts 2.8% in Q1 FY27 vs 3.4% in Q1 FY26**, "below the industry average". Q1 also carried Pune stabilisation costs. Higher employee cost is from Pune; higher freight is recovered from export distributors.
+- **Capacity:** **Pune third shift from Oct-2026** brings the ramp forward by ~2 years (Phase-1 is 170k at three shifts; the whole plant makes the new Venue for domestic and export markets). Chennai plant-1 utilisation was 72% in CY2026 after the Venue moved to Pune; target **90–92% in CY2027** with the new models.
+- **Products:** a new ICE mid-SUV at the 2026 festive season (positioned against Creta on "technology-first"), plus the **first dedicated mass-market EV** in H2 FY27, targeting **PLI eligibility from day 1 (50% DVA)**. Creta's full model change is not dated.
+- **Exports:** Middle East hit by the conflict and shipping (Hormuz); CSA +23% in Q1; new Venue in 29 markets heading to 35; Exter LHD to 13 markets and Verna PE to 25+ by Q3. Export ASP +7% YoY, though the mix shifted to hatchbacks for CSA. SUVs are only 13–14% of exports vs 70% domestic. Management expects quarters above the 48,000 exported in Q1 FY26.
+- **Other:** rural 25.9% of sales (22.6%), rural growth +23.2% vs urban +2.8%. Localisation 83% (77–78% two years ago), target 90% by 2030. By 2030: 6 CNG, 4 EV and 5–6 hybrid models, >50% "green" mix. CAFE II compliant FY23–FY27 with no penalty. FY26 exit share ~12.3%; management expects to beat industry growth in H2.
+
+**KPI table**
+
+| KPI | FY24 | FY25 | FY26 | Q1 FY26 | Q4 FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|---|---|---|
+| Total volume | 7,77,876 | 7,62,052 | **7,75,031** | 1,80,399 | 2,08,275 | **1,78,082** | Presentation |
+| Domestic | 6,14,721 | 5,98,666 | 5,84,906 | 1,32,259 | 1,66,578 | 1,39,374 (+5.4%) | Presentation |
+| Exports | 1,63,155 | 1,63,386 | **1,90,125** (21.0% of India's PV exports [E]) | 48,140 | 41,697 | 38,708 (−19.6%) | Presentation; SIAM |
+| Revenue (₹ Cr, co.) | 69,829 | 69,193 | 70,763 | 16,413 | 18,916 | 16,335 | Presentation |
+| Export share of revenue | 22.3% | 22.0% | **25.6%** | 27.6% | 21.0% | 23.8% | Presentation |
+| EBITDA margin (co.) | 13.0% [E] | 12.9% [E] | 12.2% | 13.3% | ~10.4% | **9.3%** | Press release; transcript |
+| Discounts (% basis n/s) | — | — | — | 3.4% | — | **2.8%** | Transcript |
+| SUV share of domestic | — | — | ~2/3 | — | — | **70%** | Transcript |
+| CNG share | — | — | — | — | — | **18.2%** (record) | Transcript |
+| Royalty (₹ Cr) | n/f | 1,877.6 | **1,975.4** | — | — | — | AR |
+| Sales / service outlets | — | — | — | — | — | 1,519 / 1,679 | Presentation |
+
+**Five-year history (screener consolidated; ₹ Cr)** [V]
+
+| FY | Revenue | YoY | OP | OPM | PAT | ROCE | FCF |
+|---|---|---|---|---|---|---|---|
+| FY22 | 47,378 | +15.6% | 5,491 | 11.6% | 2,902 | 23% | 3,885 |
+| FY23 | 60,308 | +27.3% | 7,554 | 12.5% | 4,709 | 33% | 4,315 |
+| FY24 | 69,829 | +15.8% | 9,079 | 13.0% | 6,060 | 51% | 6,020 |
+| FY25 | 69,193 | −0.9% | 8,915 | 12.9% | 5,640 | 54% | −948 |
+| FY26 | 70,763 | +2.3% | 8,561 | 12.1% | 5,432 | 38% | 3,070 |
+- FY24–25 ROCE is inflated by the pre-IPO special dividend, which cut equity: FY24 financing outflow was ₹15,930 Cr [V screener].
+
+**Eight quarters (screener; ₹ Cr)** [V]
+
+| Qtr | Revenue | OP | OPM | PAT |
+|---|---|---|---|---|
+| Q2 FY25 | 17,260 | 2,205 | 12.8% | 1,375 |
+| Q3 FY25 | 16,648 | 1,876 | 11.3% | 1,161 |
+| Q4 FY25 | 17,940 | 2,533 | 14.1% | 1,614 |
+| Q1 FY26 | 16,413 | 2,185 | 13.3% | 1,369 |
+| Q2 FY26 | 17,461 | 2,429 | 13.9% | 1,572 |
+| Q3 FY26 | 17,973 | 2,018 | 11.2% | 1,234 |
+| Q4 FY26 | 18,916 | 1,966 | 10.4% | 1,256 |
+| Q1 FY27 | 16,335 | 1,512 | 9.3% | 889 |
+- OPM has fallen for five straight quarters (13.9% → 9.3%). Revenue has been flat at ₹16–19K Cr a quarter for two years. This is the weakest operating trend of the four members.
+
+**Annual-report findings (FY26)**
+- **Royalty:** ₹1,975 Cr to HMC (2.79% of revenue; 36.4% of PAT). ₹484 Cr was payable at year-end. No rate is disclosed in the AR. The "up to 5% without minority approval" clause in our primer **was not found** in the AR and should be cited to the RHP or dropped.
+- **Group purchases (FY26, ₹ Cr):** **Mobis India 8,733** (FY25 9,243) — the supplier whose plant fire hit Q1. Also Hyundai Transys Lear 1,943; **Kia India 1,736** (Kia supplies Hyundai); HMC 1,479 (2,499); PT Hyundai Motor Manufacturing Indonesia 1,085; Hyundai Transys 312; Hyundai KEFICO 245. Material-RPT resolutions passed with ~97.9% of votes, essentially the parent's 82.5% plus institutions.
+- **Balance sheet:** cash and bank ₹10,552 Cr; PPE ₹12,291 Cr (from ₹6,291 Cr) as Talegaon was capitalised; CWIP ₹725 Cr (₹4,718 Cr); inventories ₹3,594 Cr. Other expenses rose to 12.46% of total income (11.42%), driven by fixed costs of the new plant plus freight (+₹155 Cr), warranty (+₹111 Cr), distribution fee (+₹110 Cr) and royalty (+₹98 Cr). Effective tax rate 25.9%.
+- **Capacity:** 9.94 lakh consolidated (Chennai 8.24 lakh + Talegaon 1.70 lakh) → **11.44 lakh by 2030**. 26 new products/variants by FY30. HMG's US$15.5 bn India plan and the 3.2 lakh Pune target (Oct-2026 filings) sit above this.
+- **Contingent liabilities (claims not acknowledged as debt, ₹ Cr):** customs 748 (DRI case since FY12), excise/service tax 734, **GST 892**, **CCI penalty 420** (car-parts case), income tax 98; total about **₹2,915 Cr**. Decided-in-favour items under appeal: income tax 541, customs 160, CCI 87.
+
+### 4.2.3 Tata Motors Passenger Vehicles (TMPV · 500570) — JLR + Tata India PV + Tata.ev
+
+**Documents read:** 81st Integrated Annual Report FY26 (BSE b37e4ca4…, 585 pp); Q1 FY27 earnings-call transcript (13-Aug-2026, filed 19-Aug); Q1 FY27 investor presentation (BSE 0a68c514…). Q2 FY27 board: **13-Nov-2026** [V Part 1].
+
+**Management guidance digest (Q1 FY27 call; Dhiman Gupta CFO TMPV, Richard Molyneux CFO JLR, PB Balaji CEO JLR, Shailesh Chandra MD TMPV; primary)**
+- **JLR FY27:** Q1 was "not inconsistent with our full year guidance" but "will require strong performance for the remainder of the year". The ~£26 bn revenue / ~4% EBIT / operating-cash-breakeven guidance from Investor Day was **not restated with numbers** in the Q1 deck. Q1 FCF before working capital was −£352 m; the working-capital outflow should "largely reverse" (Q4 FY26 WC was +£814 m). 74% of engineering spend capitalised. Investment stays high, shifting from engineering to capital.
+- **JLR strategy:** **10% revenue growth a year**, with a US focus ("40% of the world's millionaires"). Breakeven volume back toward **300k within two years** (also in the AR). Cost programme on ex-works cost, warranty and fixed cost of "**$1.7 billion**" (transcript wording), details with Q2. ASP to rise "well north of £80,000 (>$100,000)" within ~18 months.
+- **JLR launches and EVs:** Range Rover Electric production from **Sep-2026**, RR Sport Electric later in 2026; Range Rover GT and Jaguar Type 01 production **early 2027**, so no material FY27 volume, with the impact in FY28. **~12,000 BEVs pencilled for FY27.** BEVs are priced "at least margin-neutral". Jaguar legacy run-out over 3–6 months.
+- **JLR risks:** China is 13% of revenue and "likely to get a little bit worse before it stabilises" (luxury tax, retrospective taxes). The Middle East is being reached by routes avoiding Hormuz. Ratings are "on the borders of investment grade" on negative watch (AR: Moody's Ba1/Negative, S&P BBB-/Negative). Hedge book ~1.28 $/£; "we prefer cable in the 1.20s". Stellantis US-manufacturing MoU, with a definitive agreement targeted by end-2026.
+- **India PV:** run-rate >60k/month (was 45–50k), "firm #2 on registrations" at **14.3% Vahan (+200 bp)**. EV share of own sales 19% in Q1, 23–24% in June/July; >15,000 EVs in July (EV share 43%). Punch.ev builds 4,000–4,500 a month against an **8–10-month wait**. Sierra is supply-constrained (engine castings, sheet metal), with capacity additions from October. **Commodities ~6% YoY; Q1 impact 4.5%; another ~3% in Q2.** Offsets: price +1% (Apr + Jul, of which 0.5% in July), cost reduction ~2% YoY, ~1% IPL seasonality not repeating. **Q2 margins "flattish" QoQ, step-up in H2.** PLI: only Nexon.ev and Harrier.ev qualify (₹313 Cr in Q1). Tiago.ev, Punch.ev, Sierra.ev and Curvv accrue from Q3; the whole portfolio is expected PLI-certified by Q4. No PLI-extension talks yet. Exports ~2× in FY27. **Avinya moved to the CJLR Freelander platform; launch 2027.** Dealer stock ~30 days.
+
+**KPI table**
+
+| KPI | FY25 | FY26 | Q1 FY26 | Q4 FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|---|---|
+| TMPV wholesales (continuing; JLR ex-CJLR + Tata PV) | 9,57,265 | 9,49,501 | — | — | — | AR |
+| TMPV revenue (₹ Cr) | 3,66,094 | 3,35,582 | 87,677 | 1,05,447 | 95,799 | AR; screener |
+| TMPV EBITDA / EBIT (co.) | 13.4% / 7.7% | **6.8% / 1.1%** | — / 3.3% | — | 7.4% / **2.4%** | AR; presentation |
+| TMPV PBT bei (₹ Cr) | 28,650 | 2,519 | — | — | ~1,600 | AR; transcript |
+| TMPV FCF (₹ Cr) | +22,236 | **−26,823** | — | — | −11,800 [V Part 1] | AR |
+| Net debt (₹ Cr) | (1,018) net cash | **30,710** | — | — | **42,200** | AR; presentation |
+| JLR revenue (£ m) | ~29,000 [primer] | **22,911** | 6,604 | 6,870 | **5,973** | AR; presentation |
+| JLR EBITDA / EBIT | **14.3% / 8.5%** | 6.7% / 0.7% | 9.3% / 4.0% | 14.0% / 9.2% | **8.1% / 2.8%** | AR; presentation |
+| JLR PBT bei (£ m) | 2,489 | **14** | 351 | 458 | **109** | AR; presentation |
+| JLR FCF (£ m) | +1,478 | **−2,229** | −758 | +829 | **−998** | AR; presentation |
+| JLR wholesale ex-CJLR (k) | 400.9 | **307.9** | 87.3 | 95.3 | **79.3** | AR; presentation |
+| JLR retail incl. CJLR (k) | 428.9 | **352.4** | 94.4 | 92.8 | **79.9** (−15.4%) | AR; presentation |
+| RR / Defender / Discovery / Jaguar wholesale (k) | — | Jaguar 6.5 (26.9) | 50.9 / 28.3 / 5.8 / 2.3 | 54.3 / 33.2 / 6.5 / 1.4 | **44.7 / 29.2 / 4.6 / 0.8** | AR; presentation |
+| JLR powertrain retail mix (PHEV-BEV / MHEV / ICE) | — | 15 / 68 / 17 (BEV 431 units) | 16 / 68 / 16 | 16 / 70 / 14 | **12 / 74 / 14** | AR; presentation |
+| JLR VME (retail) | — | — | 4.1% | — | **7.1%** | Presentation |
+| JLR ROCE | — | — | 16.2% | 1.2% | 0.5% | Presentation |
+| Tata PV wholesale (k) | 5.54 lakh dom. | 6,41,586 (dom 6,31,385; exp 10,201) | 124.7 | 201.8 | **182.3 (+46.1%)** | AR; presentation |
+| Tata PV revenue (₹ K Cr) / EBITDA / EBIT | 48.5 / — / 1.0% | **58.5 / 6.9% / 1.4%** | 10.9 / 4.0% / −2.8% | 18.7 / 9.4% / 4.7% | **17.9 / 4.3% / −0.5%** | AR; presentation |
+| Tata Vahan share (PV / EV) | 13.2% / 55.4% | **13.6% / 40.2%** (H2 14.1–14.2%) | — | — | 14.3% / ~39–43% | AR; transcript |
+
+**Five-year history (screener consolidated; ₹ Cr)** [V]
+
+| FY | Revenue | YoY | OP | OPM | PAT (reported) | ROCE | FCF |
+|---|---|---|---|---|---|---|---|
+| FY22 | 2,78,454 | +11.5% | 24,720 | 8.9% | −11,309 | 1% | −655 |
+| FY23 | 3,45,967 | +24.2% | 31,816 | 9.2% | 2,690 | 6% | 16,443 |
+| FY24 | 4,34,016 | +25.5% | 57,809 | 13.3% | 31,807 | 19% | 36,732 |
+| FY25 (PV restated; PAT old basis) | 3,66,094 | n.m. | 47,993 | 13.1% | 28,149 | 16% | 26,034 |
+| FY26 | 3,35,582 | −8.3% | 18,719 | 5.6% | 82,645 (**continuing −1,377**) | 3% | −23,195 (co. −26,823) |
+- FY22–FY24 include the CV business (old Tata Motors). FY25 revenue is restated for PV only. Use the AR's continuing-operations series (FY25 → FY26) for any YoY comparison.
+
+**Eight quarters (screener; ₹ Cr)** [V]
+
+| Qtr | Revenue | OP | OPM | PAT (reported) |
+|---|---|---|---|---|
+| Q2 FY25* | 83,656 | 9,914 | 11.9% | 3,521 |
+| Q3 FY25* | 94,472 | 10,402 | 11.0% | 5,484 |
+| Q4 FY25* | 98,377 | 14,387 | 14.6% | 8,556 |
+| Q1 FY26* | 87,677 | 8,162 | 9.3% | 4,003 |
+| Q2 FY26 | 72,349 | −1,404 | −1.9% | 76,248 (demerger gain) |
+| Q3 FY26 | 70,108 | 879 | 1.3% | −3,483 |
+| Q4 FY26 | 1,05,447 | 11,259 | 10.7% | 5,878 |
+| Q1 FY27 | 95,799 | 6,176 | 6.4% | 859 (attributable 775) |
+*Revenue restated to PV; PAT is the old whole-company figure. Don't compute PAT growth across the line.
+
+**Annual-report findings (FY26)**
+- **Cyber incident:** production paused **five weeks**, restarting **8-Oct-2025**. Supplier claims and cyber-related expenses of **₹2,786 Cr** were booked as exceptional (about £220 m at ~₹126/£ [E]; the AR does not give £ direct cost). Moody's and S&P moved JLR's outlook to Negative after the attack.
+- **Cost structure (consolidated, % of revenue, FY26 vs FY25):** material 63.8 (60.5), employee 13.5 (11.5), other expenses 22.7 (20.5), capitalised (9.4) ((8.1)). Product development spend **₹36,504 Cr (68% capitalised)**. Government incentives ₹3,602 Cr, incl. **PLI ₹1,044 Cr (FY25 ₹352 Cr)**.
+- **Segments:** JLR revenue ₹2,73,303 Cr = **81.4% of TMPV** (Part 1's "~83%" is close; use 81%). JLR EBIT (segment basis) ₹2,680 Cr, 1.0%. Tata PV ₹58,465 Cr, EBIT ₹825 Cr (1.4%).
+- **JLR FY26 retail by region:** NA 28.4%, UK 19.4%, China 17.7% (incl. CJLR), Europe 16.8%, Overseas 11.7%, MENA 6.0% [E from V].
+- **Liquidity (Mar-26):** JLR £6.9 bn including £4.2 bn undrawn. India ₹9,601 Cr. Q1 FY27 JLR liquidity £5.9 bn: cash £1.7 bn, RCF £1.7 bn, £1.0 bn syndicated loan (19-May-26), £1.5 bn UKEF-backed (2-Oct-25).
+- **Net-debt composition (Jun-26, ₹K Cr):** JLR 45.2; TML Holdings 5.8; PV net cash (8.0); others (0.8); total **42.2**. The group debt is **all JLR**, so India PV subsidises nothing.
+- **Panapakkam (Tamil Nadu)** shared JLR–Tata facility has started operations.
+- **Contingent liabilities and royalty:** not extracted this pass (TMPV owns its IP and pays no parent royalty; Tata Sons brand fee [K]).
+
+### 4.2.4 Tata Motors Ltd — Commercial Vehicles (TMCV · 544569)
+
+**Documents read:** 2nd Integrated Annual Report FY26 (BSE c733587d…, 489 pp); Q1 FY27 call transcript (12-Aug-2026); Q2 FY27 investor presentation (23-Oct-2026). The Q2 FY27 call (23-Oct) transcript is **not yet filed**, so Q2 commentary relies on the presentation (Part 1).
+
+**Management guidance digest**
+- *Q1 call (12-Aug-2026, Girish Wagh MD; primary):* Q2 would show "healthy double-digit" growth; H2 is hard to call against the post-GST base from Sep-2025. The **Indonesia order of 70,000 units (Yodha pickups, Ultra T.7)** is to be delivered over FY27–FY28 (~2,000 shipped in Q1). Price +2.5% from 1-Jul. More commodity pressure ahead (steel, rubber). Supply constraints in sheet metal, castings and forgings. China cell lead times limit Intra EV. 4,500 government bus orders and 850 e-bus orders on hand. SCV EV penetration reached double digits in May–Jun. Investment spend held at 2–4% of revenue (Q1 2.7%). Cash tax is now a recurring item (₹500 Cr in Q1).
+- *Iveco timeline:* in August management expected tender closure in "early November". The Q2 deck now says **settlement 30-Oct-2026** at €14.40 [V Part 1]. The AR still describes the deal as **€3.8 bn**; S&P (initiating coverage) called it possibly "neutral" for credit.
+- *Q2 (23-Oct presentation):* covered in Part 1 §2.4, all [V].
+
+**KPI table**
+
+| KPI | FY25 (23-Jun-24 to Mar-25) | FY26 | Q1 FY27 | Q2 FY27 | Source |
+|---|---|---|---|---|---|
+| Wholesales | n/a | 4,35,227 (consol.); ~4.28 lakh standalone | 108.7K (+26%) | **135.1K (+42%)** | AR; transcript; presentation |
+| Standalone revenue (₹ Cr) | 52,557 | **77,399** | ~19,300 (+23%) | 23,930 (+42%) | AR; transcript; presentation |
+| Standalone EBITDA margin | — | 13.2% [primer] (op profit ₹10,698 Cr) | **11.7%** (−60 bp) | **11.7%** (−90 bp) | AR; transcript; presentation |
+| Consol. revenue / underlying EBITDA | 58,217 / 11.3% | **83,855 / 12.3%** | 20,700 / 10.9% | 25,338 / 10.9% | AR; transcript; presentation |
+| PBT bei (₹ Cr) | — | 6,091 (consol.) | 2,057 standalone / ~3,000 consol. | 2,660 standalone / 1,780 consol. | AR; transcript; presentation |
+| FCF (₹ Cr) | — | **12,438** | 1,114 standalone / ~400 consol. | 4,606 standalone / ~3,000 consol. | AR; transcript; presentation |
+| Net cash (₹ Cr) | — | **13,713** (consol.); 7,500 standalone | 7,100 / 13,500 | 11,300 / 15,900 | AR; transcript; presentation |
+| Auto ROCE | — | **72%** | 68% | 65% | AR; presentation |
+| CV Vahan share | — | 35.7% | +170 bp vs FY26 (HCV 56.3%) | H1 36.2% | Transcript; presentation |
+
+**History tables.** TMCV has **no five-year history**. The listed entity was incorporated 23-Jun-2024, the CV business vested with appointed date 1-Jul-2025, and screener shows only FY25 (part-year) and FY26. The nearest proxy is the old Tata Motors standalone (largely CV) series, which is not in TMCV's AR [K: ~₹47K Cr FY22 → ~₹73K Cr FY24]. **Nine quarters (screener consolidated; ₹ Cr)** [V]:
+
+| Qtr | Revenue | OP | OPM | PAT |
+|---|---|---|---|---|
+| Q2 FY25 | 17,535 | 1,707 | 9.7% | 498 |
+| Q3 FY25 | 18,819 | 2,033 | 10.8% | 1,355 |
+| Q4 FY25 | 21,863 | 2,431 | 11.1% | 1,340 |
+| Q1 FY26 | 17,324 | 2,076 | 12.0% | 1,397 |
+| Q2 FY26 | 18,585 | 2,032 | 10.9% | −867 |
+| Q3 FY26 | 21,847 | 2,587 | 11.8% | 705 |
+| Q4 FY26 | 26,098 | 3,327 | 12.7% | 1,793 |
+| Q1 FY27 | 20,667 | 2,137 | 10.3% | 2,556 |
+| Q2 FY27 | 25,338 | 2,648 | 10.5% | 1,254 |
+- PAT swings with the Tata Capital mark-to-market (other income Q2 FY26 −₹1,865 Cr, Q1 FY27 +₹1,476 Cr, Q2 FY27 −₹11 Cr) [V screener].
+
+**Annual-report findings (FY26)**
+- **Dates:** scheme effective 1-Oct-2025, **appointed date 1-Jul-2025**; renamed Tata Motors Ltd **29-Oct-2025**; listed 12-Nov-2025; 368.23 crore shares.
+- **Cost structure (consolidated, % of revenue):** material 67.7% (67.3%), employee 6.9%, other expenses 13.9%, product development 0.9%. **FVTPL loss on equity investments ₹2,418 Cr (2.9% of revenue)**, the Tata Capital stake, sits inside total expenditure. That explains why screener's OP (9.1%) is so far below the company's underlying EBITDA (12.3%).
+- **Ratings:** AA+/Stable from CRISIL, ICRA and CARE; S&P coverage initiated (TML, TML CV Holdings Pte, TML CV Holdings BV).
+- **Capital:** D/E 0.38; ROE 26%; EPS ₹8.23; dividend ₹1,473 Cr paid in Q1 FY27.
+- **Contingent liabilities:** not extracted this pass.
+
+### 4.2.5 Reference peers (not members)
+
+| Peer | Datapoint | Source |
+|---|---|---|
+| **Mahindra & Mahindra (standalone)** | FY26 revenue **₹1,47,765 Cr (+24.6%)**; OP ₹22,495 Cr (**15.2%**); PAT ₹15,639 Cr (+31.9%). Q1 FY27 revenue ₹41,959 Cr (+22.9%), OPM 12% (14%), PAT ₹3,685 Cr (+6.8%). Five-year OPM: 12.2 / 13.9 / 14.9 / 15.5 / 15.2% (FY22–26). **M-cap ₹3,55,798 Cr (23-Oct) > Maruti ₹3,53,074 Cr**; P/E 21.8; ROCE 30.1%. PV FY26 6,60,276 (#2); e-PV FY26 retail 42,721 (21.4%) | screener [V]; Part 1; FADA via evfy [V-trade] |
+| **Toyota Kirloskar Motor** | FY26 total 4,06,081 (+20%); domestic 3,67,107 (≈7.9% of SIAM); exports 38,974 | TKM release via carlelo [V-snip] |
+| **Kia India** | FY26 total not found. CY2026 Jan–Jul 1,91,949 dispatches (~27.4k a month); Apr-26 27,286. Kia also *sells* ₹1,736 Cr of goods to HMIL | Rushlane/Carlelo [V-snip]; HMIL AR [V-primary] |
+| **JSW MG** | e-PV FY26 retail 53,089 (26.6% share; #2 in EVs) | FADA via evfy [V-trade] |
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**E1-v2. Domestic PV wholesales, exports and production (units; SIAM industry-trends table, fetched 24-Oct-2026) [V-primary]**
+
+| FY | Domestic PV | YoY | PV exports | YoY | PV production |
+|---|---|---|---|---|---|
+| FY19 | 33.77 lakh [K] | — | 6.77 lakh [K] | — | — |
+| FY20 | 27.74 lakh [K] | −17.9% [K] | 6.77 lakh [K] | — | — |
+| FY21 | 27,11,457 | −2.2% [E vs K] | 4,04,397 | — | 30,62,280 |
+| FY22 | 30,69,523 | +13.2% | 5,77,875 | +42.9% | 36,50,698 |
+| FY23 | 38,90,114 | +26.7% | 6,62,891 | +14.7% | 45,87,116 |
+| FY24 | 42,18,750 | +8.4% | 6,72,105 | +1.4% | 49,01,840 |
+| FY25 | 43,01,848 | +2.0% | 7,70,364 | +14.6% | 50,61,164 |
+| FY26 | **46,43,439** | **+7.9%** | **9,05,200** | **+17.5%** | **55,39,115** |
+- CAGR FY21–FY26: domestic +11.3%, exports +17.5%, production +12.6% [E]. FY19–FY20 remain [K]; SIAM's web table starts at FY21.
+
+**E3-v2. Monthly domestic PV, FY27 (units; SIAM monthly releases) [V-primary]**
+
+| Month | Incl. Tata | YoY | Excl. Tata | SIAM comment |
+|---|---|---|---|---|
+| Apr-26 | 4,37,312 | +25.4% | 3,78,312 | Highest-ever April; "concerns of high commodity prices … West Asia" |
+| May-26 | 4,38,854 | +27.3% | 3,79,764 | Highest-ever May; low base, GST, easier financing |
+| Jun-26 | 3,88,144 | n/s | 3,26,068 | Q1 total 12,73,811 (+25.9%) |
+| Jul-26 | 4,57,810 | +34.3% | 3,95,199 | "Strongest-ever July" |
+| Aug-26 | 4,39,309 | +36.5% | 3,74,056 | Highest-ever August |
+| Sep-26 | 4,54,574 | +21.8% | 3,85,764 | Q2 total 13,60,687 (+30.7%) |
+- Monthly figures don't sum to the quarterly totals (Q1: 12,64,310 vs 12,73,811; Q2: 13,51,693 vs 13,60,687) because SIAM revises. **Use quarterly totals for growth and monthly figures for shape.** Tata Motors' numbers appear only in SIAM's document (not its database). JLR, BMW, Mercedes and Volvo are excluded throughout.
+- Quarterly cadence: Q4 FY26 13,16,282 (+13.2%) → Q1 FY27 12,73,811 (+25.9%) → Q2 FY27 13,60,687 (+30.7%). H1 FY26 −1.4% and H2 FY26 +16.7%, which is why H2 FY27 growth will "moderate" (SIAM).
+- PV exports by quarter: Q1 FY27 2.22 lakh (+8.8%, record Q1; Latin America, Europe, Japan) → Q2 FY27 2.29 lakh (−5.2%; "higher base and logistics constraints due to West Asia crisis") [V-primary].
+
+**E4-v2. FY26 domestic wholesale shares (% of 46,43,439) [E from V]**
+- Maruti ~39.3% (PV ~18.23 lakh, V-snip) · M&M 14.2% (6,60,276) · Tata **13.6%** (6,31,385, AR) · Hyundai **12.6%** (5,84,906, presentation) · Toyota **7.9%** (3,67,107, V-snip) · Kia ~6% [E] · others ~6.4% [E residual].
+- H1 FY27: Maruti **41.0%** (10,80,240 ÷ 26,37,067) [V-primary inputs]; Tata Q2 14.5% [E].
+
+**E17 (new). India's PV exports by member, FY26** — Maruti 4,47,774 (**49.5%**); Hyundai 1,90,125 (**21.0%**); Tata PV 10,201 (1.1%); Toyota 38,974 (4.3%); others ~2.18 lakh (24%: VW-Skoda, Nissan-Renault, Honda, Kia, M&M) [E from V].
+
+**E18 (new). Royalty to parent vs profit, FY26 [V-primary AR]**
+
+| | Royalty (₹ Cr) | % of revenue | % of PAT | Dividend to parent (₹ Cr) |
+|---|---|---|---|---|
+| Maruti → Suzuki | 5,392 (FY25 5,038) | 3.09% of net sales | 37.3% (standalone) | 2,474 |
+| Hyundai → HMC | 1,975 (FY25 1,878) | 2.79% | 36.4% | n/e |
+
+**E19 (new). JLR FY26 by region (units; ex-CJLR wholesale; retail as reported) [V-primary]** — UK 68,550 / 68,519; North America 86,855 / 99,920; Europe 57,927 / 59,273; China 34,533 / 62,400; MENA 20,068 / 21,017; Overseas 39,982 / 41,260; total 307,915 / 352,389; CJLR wholesale 24,987 (−26.8%).
+
+**E20 (new). JLR quarterly (£ m; %) [V-primary]** — Q1 FY26: revenue 6,604, EBITDA 9.3%, EBIT 4.0%, PBT bei 351, FCF −758. Q4 FY26: 6,870, 14.0%, 9.2%, 458, +829. Q1 FY27: 5,973, 8.1%, 2.8%, 109, −998.
+
+**E21 (new). e-PV retail FY26 by OEM (FADA, 1,463/1,466 RTOs; ex-Telangana) [V-trade]** — Tata 78,811 (39.4%); JSW MG 53,089 (26.6%); M&M 42,721 (21.4%); Hyundai 5,885 (2.9%); BYD 5,361; Kia 3,738; BMW 3,537; VinFast 2,390; **Maruti 1,416 (0.7%)**; Mercedes 1,047; Tesla 342; total **1,99,923 (+83.6%)** = **4.25%** of PV retail. CNG 21.98% of PV retail.
+
+**E22 (new). GST 2.0 car rates (primary text)** — see §4.1 #10–12. Small car 18% (from 28% + 1–3% cess = 29–31%); mid-size/big cars and UVs 40% (from 28% + 17–22% cess = 45–50%); compensation cess abolished; hybrids follow the same size/engine line; buses, trucks and auto parts 18%. The **57th GST Council (8-Oct-2026)** made procedural registration changes only, with **no vehicle-rate change** [V-primary FAQ].
+
+**E23 (new). CAFE III (final, 30-Sep-2026) vs drafts [V-trade]**
+
+| Parameter | Sep-2025 draft | Jul-2026 draft | Final (30-Sep-2026) |
+|---|---|---|---|
+| ≤909 kg small-car relief (3 g/km) | Proposed | Not in text (TERI: flatter slope instead) | **Dropped** |
+| Reference weight | 1,170 kg | 1,229 kg | **1,229 kg** |
+| FY28 / FY32 target | — | 94.76 / ~78.9 g/km | ~94.8 / ~78.9 g/km |
+| BEV-REEV / PHEV-FFV-SHEV / SHEV / FFV multipliers | — | 3.0 / 2.5 / 1.6 / 1.1 | Same |
+| Credit buy-out (₹ per g/km per vehicle) | — | 2,500 → 4,500 | Same; inter-OEM trading allowed |
+| Compliance blocks | — | 3 + 2 years | FY28–30, FY31–32 |
+
+**E24 (new). Capacity (units/yr)** — Maruti 2.9 m by end-FY27 → 3.65 m FY31 [V-primary]; Hyundai 9.94 lakh → 11.44 lakh (2030), Pune third shift Oct-2026 [V-primary]; Tata PV run-rate >60k/month (7.2 lakh+) [V-primary]; industry FY26 production 55.4 lakh [V-primary] vs ~60 lakh capacity [K] → ~92% [E].
+
+## 4.4 Gap log (Part 1 §H items and brief gaps)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| H-1a | SIAM monthly PV Apr–Jul 2026 | **Filled** | SIAM releases 607, 609, 610, 612 [V-primary] |
+| H-1b | FY26 car / UV / van split | **Partly filled** | SIAM's FY26 release gives no split. Maruti AR "internal estimate" of India PV mix FY26: hatchback 21.0%, sedan 8.5%, SUV 56.8%, MPV 10.3%, van 3.4% [V-primary, company estimate]. SIAM sub-segment data is subscription-only |
+| H-1c | SIAM annual FY19–FY24 | **Filled FY21–FY24** (match the [K] values); FY19–FY20 still [K] | SIAM industry-trends table starts at FY21 |
+| H-2 | Exact FY26 PV exports | **Filled**: 9,05,200 | SIAM [V-primary] |
+| H-3a | Maruti FY26 domestic/export split | **Filled**: 19,74,939 / 4,47,774; production 23,47,792 | Maruti AR [V-primary]. PV-only domestic still V-snip |
+| H-3b | Maruti Q2 FY27 monthly volumes | **Filled for Sep and H1** (Q2 derived); Jul/Aug PDFs not at the guessed URLs | Maruti Sep-2026 release [V-primary] |
+| H-4 | Hyundai Q1 FY27 domestic/export | **Filled**: 1,39,374 / 38,708 | Transcript and presentation [V-primary] |
+| H-5 | Toyota / Kia FY26 volumes | **Toyota filled** (V-snip); **Kia still open** | Kia FY26 release not found; CY26 YTD only |
+| H-6 | Discounts per vehicle | **Partly filled**: Hyundai 2.8% (Q1 FY27) vs 3.4%, "below industry average"; Maruti Q4 FY26 discounts −50 bp QoQ, Q1 flat; JLR VME 7.1% | Transcripts [V-primary]. Industry-wide ₹/vehicle still unsourced (broker trackers paywalled) |
+| H-7 | Industry capacity and utilisation | **Partly filled**: production 55.4 lakh (SIAM) plus company capacities; industry capacity (~60 lakh) still [K] | — |
+| H-8 | CAFE III final text and small-car clause | **Filled (trade-press level)**: notified 30-Sep-2026, ≤909 kg relief dropped | Autocar Pro full article [V-trade]; BEE pages are JS-rendered and the gazette was not retrieved — **gazette PDF still open** |
+| H-9 | GST pre-reform cess; dealers' stranded cess credit | **Cess filled** (17–22%; 45–50% total). **Dealer cess-credit stranding still open** (the 56th Council FAQs don't quantify it; the ~₹2,500 Cr figure stays [K]) | GST Council / PIB [V-primary] |
+| H-10 | RBI path 2025–26 | **Filled (snip)**: 6.50 → 5.25% (Dec-25, −125 bp) → 5.50% (7-Oct-26) | SCC Online / Brickwork [V-snip]; RBI site not fetched |
+| H-11 | UK–US 100k quota; Slovakia/EU tariff | **Quota filled (snip of gov.uk / Federal Register)**: 10% within 100,000 cars/yr, administered quarterly. **EU 15% for Nitra-built cars still [K]** | — |
+| H-12 | PM E-DRIVE terms; e-PV penetration FY25/FY26 | **Filled**: scheme to 31-Mar-2028, no private e-car subsidy [V-primary]; e-PV FY26 4.25% [V-trade]; FY25 ~2.6% [E] | pmedrive.heavyindustries.gov.in; FADA via evfy/Storyboard18. FADA's site refused automated requests (not pursued) |
+| H-13 | Rare-earth magnet shortage 2025 | **Filled (snip)**: China licensing from Apr-2025; Maruti cut Apr–Sep 2025 e-Vitara production plan 26,500 → 8,200; first conditional licences ~31-Oct-2025; OEMs had 4–6 weeks of inventory (CRISIL) | Outlook Business / Reuters, Drishti [V-snip] |
+| H-14 | JLR cyber cost; FY26 FCF; net debt | **Filled**: FCF −£2,229 m; exceptional supplier/cyber ₹2,786 Cr; net debt £3.6 bn (Jun-26). **£ direct cyber cost not disclosed** in the AR. **Sep-26 net debt: open until 13-Nov** | TMPV AR, Q1 transcript [V-primary] |
+| H-15 | JLR FY26 regional mix | **Filled** (E19) | TMPV AR [V-primary] |
+| H-16 | TMCV listing price; rename date | **Filled**: NSE ₹335 / BSE ₹330.25; rename 29-Oct-2025 | Business Standard [V-snip]; TMCV AR [V-primary] |
+| H-17 | Hyundai royalty and cash | **Filled**: ₹1,975 Cr (2.79%); cash ₹10,552 Cr | HMIL AR [V-primary] |
+| H-18 | Global peers' margins and P/E | **Filled (aggregator)** | companiesmarketcap [V] |
+| H-19 | M&M FY26 financials / PV | **Partly filled**: standalone financials [V screener]; auto-segment split not fetched | — |
+| H-20 | Maruti Q2 board date | **Still open**: call 27-Oct (5:45 pm) verified; board intimation not in screener's recent-filings feed | — |
+| Brief | Maruti royalty FY26 | **Filled**: ₹5,392 Cr, 3.09% | Maruti AR [V-primary] |
+| Brief | JLR Q2 FY27 wholesale/retail release | **Filled (trade)**: 82,400 / 79,000 (Part 1) | Autocar Pro; media.jlr.com not re-fetched |
+| Brief | TMCV Q2 FY27 results release | **Presentation verified (Part 1)**; transcript not yet filed | — |
+| Brief | Maruti Q1 FY27 transcript | **Open**: not posted on the company site (audio only); used PL Capital call notes | — |
+
+## 4.5 New insights the first pass missed
+
+1. **The parent takes about a third of earnings at both MNC subsidiaries, and Suzuki takes more as the business grows.** Royalty alone is **37% of Maruti's PAT and 36% of Hyundai's**. Add dividends (₹2,474 Cr to Suzuki) and fees, and Suzuki received about **₹8,900 Cr from Maruti in FY26**. Maruti's royalty *rate* fell (3.47% → 3.09% of net sales) as exports via Suzuki and lower-royalty models grew. But **sales to Suzuki rose 74% to ₹25,467 Cr**, so Suzuki is now Maruti's licensor, export distributor *and* largest customer. Any minority analysis should treat export margins as transfer-priced.
+2. **"Underlying" TMPV is loss-making, not break-even.** Continuing-ops PAT was **−₹1,377 Cr** after ₹4,142 Cr of exceptional costs, ₹2,786 Cr of them cyber/supplier. The ₹82,616 Cr gain has no net-worth effect. On this basis the four-member m-cap ÷ ex-gain PAT is ~34×, not 32×. The whole ₹42.2K Cr of net debt is JLR's; India PV is net cash ₹8K Cr.
+3. **JLR's real FY26 hole was North America**, where wholesale fell 32.7% (tariff pause plus cyber) against retail −16.9%: JLR destocked the US channel. North America is the profit pool that management now wants to grow 10% a year. Q1 FY27 NA wholesale was flat at 27.2k. The UK–US 10% quota is administered **quarterly**, so a strong US quarter can hit the cap.
+4. **Maruti has quietly cut its long-range capacity ambition but sped up the near term.** The plan is 2.9 m by FY27 (two 250k lines started May–July 2026) and 3.65 m by FY31, versus the older "4 m by FY31" talk. Meanwhile it lifted its industry forecast to **6.1–6.3 m by FY31** because of GST 2.0. That implies Maruti expects to hold ~45–50% of domestic + export volume with less capacity than once planned — i.e. utilisation, not share, drives the next leg [E].
+5. **GST 2.0's real winner by tax bucket is Maruti.** It sold ~49% of the industry's 18%-slab cars in Q1 FY27 but only ~34% of 40%-slab cars (PL call notes). The policy reset sits where Maruti dominates and leaves the SUV fight, where M&M, Tata and Hyundai compete, on a flat 40%. **M&M's m-cap has overtaken Maruti's** (₹3.56 vs ₹3.53 lakh Cr), suggesting the market values the SUV/EV franchise above the small-car revival.
+6. **Hyundai's operating trend is the weakest of the four, and its guidance is now a test.** OPM has fallen for five quarters (13.9% → 9.3%) on flat revenue. The fire, the Middle East and Pune start-up costs explain part of it, but the 11–14% FY27 EBITDA guide needs H2 margins of ~12–15% against an industry Hyundai itself expects to grow only "low single digits" in H2. Mitigants: discounts below industry (2.8%), two launches, the Pune third shift, and ₹10.6K Cr of cash.
+7. **The EV race is a three-way fight that excludes the two MNC subsidiaries.** FY26 e-PV retail: Tata 39%, JSW MG 27%, M&M 21%; Hyundai 2.9%, Maruti 0.7%. CAFE III dropped the small-car concession Maruti had lobbied for but kept CNG/ethanol neutrality factors and hybrid multipliers. Hyundai already says it is CAFE-II compliant, and both MNCs plan a CNG + hybrid route (Maruti CNG 7.46 lakh FY26 → 9 lakh target). **PM E-DRIVE gives private e-cars nothing**, so EV economics rest on 5% GST, PLI (Tata ₹1,044 Cr FY26) and fuel prices.
+8. **India's listed subsidiaries are now worth a large share of their parents.** Suzuki's 58.7% of Maruti is ~86% of Suzuki's own m-cap; HMC's 82.5% of HMIL is ~22% of HMC's. Toyota trades at 9.75× TTM, Suzuki 8.4× and HMC 8.3×, against Maruti 24.6× and HMIL 30.4×. The India premium is a 3–4× multiple gap, a recurring argument for further parent stake creep or secondary sales.
+
+## 4.6 New primer issues (from this pass; add to §3.4)
+
+**maruti-suzuki.html**
+- **Royalty:** replace "order of ₹6,000+ crore" / "~3.5%" with **FY26 ₹5,392 Cr = 3.09% of net sales (FY25 ₹5,038 Cr, 3.47%); 37% of standalone PAT** (AR note 33.2). Add Suzuki dividend ₹2,474 Cr and **sales to Suzuki ₹25,467 Cr** (export channel).
+- **Capacity:** "~40 lakh by FY31" → **2.9 m by end-FY27 (Kharkhoda line-2 May-26; Hansalpur line-4 Jul-26 → Hansalpur 1.0 m) and 3.65 m by end-FY31; Sanand/Khoraj 1 m units, ₹35,000 Cr** (FY26 AR Chairman's message).
+- **FY26 facts to add:** production 23,47,792 (record); domestic 19,74,939; CNG 7.46 lakh (+22%; FY27 target 9 lakh); rail 26.5%; dividend ₹140; 1.9 lakh pending bookings at Mar-26; industry outlook 6.1–6.3 m by FY31.
+- **H1 FY27 volumes:** 13,79,378 (+27.9%); domestic PV 10,80,240 (+35.8%, ~41% share); exports 2,32,855 (+12.2%), with Q2 exports roughly flat-to-down.
+
+**hyundai-motor-india.html**
+- **Royalty:** state **FY26 ₹1,975 Cr = 2.79% of revenue (36% of PAT)**. Remove or source the "up to 5% without minority approval" claim; it is not in the FY26 AR.
+- **Net cash:** add **cash and bank ₹10,552 Cr (Mar-26)**; net cash ~₹9.5K Cr.
+- **Related-party purchases:** Mobis India ₹8,733 Cr (supplier hit by the June-2026 fire), Kia India ₹1,736 Cr, HMC ₹1,479 Cr.
+- **Capacity wording:** Pune Phase-1 170k is a three-shift figure; the third shift started Oct-2026. Chennai plant-1 utilisation 72% (CY26) → 90–92% (CY27 target). Group 9.94 → 11.44 lakh by 2030.
+- **Q1 FY27 call facts:** discounts 2.8% (3.4%); 13,900 units lost to the fire; CAFE II compliant; new ICE mid-SUV (festive 2026) and first mass EV (H2 FY27, PLI from day 1).
+- **Contingent liabilities:** ~₹2,915 Cr, including a CCI penalty of ₹420 Cr and GST ₹892 Cr.
+
+**tata-motors-pv.html**
+- **FY26 earnings basis:** add **PAT from continuing operations −₹1,377 Cr** and **exceptional items ₹4,142 Cr (cyber/supplier ₹2,786 Cr)**. This resolves the "₹4.1K Cr vs ₹82,616 Cr" inconsistency already flagged.
+- **JLR FY25 EBITDA 14.3%** (if the primer says 15.3%); **JLR FY26 FCF −£2,229 m**; TMPV FCF −₹26,823 Cr; FY26 net debt ₹30,710 Cr (vs net cash ₹1,018 Cr FY25).
+- **JLR regional FY26:** North America wholesale −32.7% (largest fall), China −26.8%, UK −16.8%. Fix any "NA −19%" wording.
+- **Tata PV FY26:** EV 89,393 (not "92K+"); EV Vahan share 40.2% (55.4% FY25); exports 10,201 (~4×); total 6,41,586.
+- **Cyber restart date** 8-Oct-2025; ratings Moody's Ba1/Negative, S&P BBB-/Negative.
+- **Net-debt composition** (Jun-26): JLR ₹45.2K Cr; India PV net cash ₹8.0K Cr.
+- **Cost programme** currency: transcript says "$1.7 billion" — check on 13-Nov.
+
+**tata-motors-cv.html**
+- **Appointed date 1-Jul-2025** (effective 1-Oct-2025); rename 29-Oct-2025 (now verified); listing ₹335 NSE / ₹330.25 BSE (the primer is right; drop the conflict flag).
+- **FY25 comparator** is 23-Jun-2024 to 31-Mar-2025 (~9.3 months): standalone ₹52,557 Cr.
+- **FY26 consolidated KPIs:** underlying EBITDA ₹10,314 Cr (12.3%), FCF ₹12,438 Cr, net cash ₹13,713 Cr, auto ROCE 72%, D/E 0.38, wholesales 4,35,227. Explain the ₹2,418 Cr FVTPL loss (Tata Capital) that depresses screener OP.
+- **Indonesia 70k order** over FY27–FY28; AA+/Stable ratings; S&P initiation.
+
+**mahindra-and-mahindra.html (reference)**
+- Check whether the primer reflects **M&M m-cap above Maruti's** (₹3.56 vs ₹3.53 lakh Cr, 23-Oct-2026), standalone FY26 revenue ₹1,47,765 Cr (+24.6%) and OPM 15.2%. Not read this pass.
+
+**Library-level**
+- passenger-vehicles.html §7: use the **GST Council/MoF wording** (cess 17–22%, 45–50%) and the **final CAFE III** facts. Commercial-vehicles.html should pick up TMCV's appointed date (1-Jul-2025) and rename date (29-Oct-2025, now verified).
+
+## 4.7 Key sources fetched this pass
+
+- Maruti FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/09d38ee6-9c30-4892-b483-8d7c34697a7a.pdf · Q4 FY26 transcript: https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf · Sep-2026 sales: https://www.marutisuzuki.com/content/dam/arena-eds/corporate/press-release/assets/documents/2026/october/Maruti-Suzuki-sales-in-September-2026.pdf · PL Q1 FY27 note: https://plindia.com/ResReport/MSIL-1-8-26-PL.pdf
+- Hyundai FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/92a51726-0e33-4b20-89cb-a218491d22fd.pdf · Q1 FY27 transcript: https://www.hyundai.com/content/dam/hyundai/in/en/data/investor-relations/quaterly-financials/q1fy27-concall-transcript.pdf · Q1 FY27 PPT: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55ce762f-fc5c-4c22-82fa-e421efd18091.pdf
+- TMPV FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/b37e4ca4-826d-4b6c-b250-fcdf423e6bc4.pdf · Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f83a2dd-6bd9-4455-9fc6-4659b5ded6f8.pdf · Q1 FY27 PPT: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a68c514-96c1-4dc5-a628-3eda55a7b541.pdf
+- TMCV FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/c733587d-fcc8-432d-89fe-1e37630d8896.pdf · Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1cafeb07-b4c3-405c-bf40-f071ef9fdc2a.pdf · Q2 FY27 PPT (Part 1 link)
+- SIAM: https://www.siam.in/knowledge/industry-data/industry-trends · releases https://www.siam.in/news-&-updates/press-releases/<slug>/{605,607,609,610,612,620,622}
+- GST: https://gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau_0.pdf · FAQ https://www.pib.gov.in/PressReleasePage.aspx?PRID=2163560 · 57th Council FAQ https://www.gstcouncil.gov.in/sites/default/files/2026-10/faqs_on_recommendations_made_in_57th_gst_council_meeting.pdf
+- PM E-DRIVE: https://pmedrive.heavyindustries.gov.in/about-us · PIB https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2053959
+- CAFE III final: https://www.autocarpro.in/news/government-notifies-cafe-iii-norms-evs-get-3x-credit-credit-trading-allowed-134984
+- e-PV FY26: https://www.evfy.in/news/indian-ev-car-market-nearly-doubles-in-fy2026--heres-why
+- Peers: https://companiesmarketcap.com/{toyota,suzuki-motor,hyundai,volkswagen,byd,tesla}/pe-ratio/ and /operating-margin/ and /marketcap/ · M&M: https://www.screener.in/company/M&M/
+- TMCV listing: https://www.business-standard.com/amp/markets/news/tamo-cv-listing-tata-motors-cv-arm-lists-at-335-on-nse-330-on-bse-125111200440_1.html
+
+---
+
+## 4.8 Orchestrator re-add of the aggregates (24-Oct-2026, after applying Part 4 Supersedes)
+
+Re-added by hand from the §3.1 company rows. Basis: screener consolidated FY26 for revenue and operating profit (OP); PAT = **profit from continuing operations** (Maruti, Hyundai and TMCV reported PAT equals continuing PAT; TMPV −₹1,377 Cr per its FY26 AR, which excludes both the ₹82,616 Cr demerger gain and the CV business's pre-demerger profit, Supersedes #1); m-cap at 23-Oct-26 close. Ratios are ratios of sums. TMCV's company-reported EBITDA (12.3%, Supersedes #12) is NOT used in the sums; screener OP is used for every row.
+
+| Group | Rev FY26 | OP FY26 | OPM | PAT (continuing) | M-cap | M-cap ÷ PAT |
+|---|---|---|---|---|---|---|
+| All four | 6,73,516 | 56,427 | 8.4% | 21,765 | 7,46,684 | 34.3× |
+| PV makers (MARUTI+HYUNDAI+TMPV) | 5,89,661 | 48,810 | 8.3% | 18,735 | 6,00,846 | 32.1× |
+| India pure-plays (MARUTI+HYUNDAI) | 2,54,079 | 30,091 | 11.8% | 20,112 | 5,03,394 | 25.0× |
+| Tata companies (TMPV+TMCV) | 4,19,437 | 26,336 | 6.3% | 1,653 | 2,43,290 | 147× (n.m.; trough) |
+| Ex-TMPV (MARUTI+HYUNDAI+TMCV) | 3,37,934 | 37,708 | 11.2% | 23,142 | 6,49,232 | 28.1× |
+
+Checks: revenue, OP, m-cap and the ex-gain columns in §3.2(a) were arithmetically correct; only the TMPV PAT basis changes (₹29 Cr → −₹1,377 Cr), which moves All four 32.2× → 34.3× and PV makers 29.8× → 32.1×. Q1 FY27 rows in §3.2(b) re-add correctly from the company rows (Maruti 52,470 + Hyundai 16,335 + TMPV 95,799 + TMCV 20,667 = 1,85,271; OP 14,138; PAT 7,751).
