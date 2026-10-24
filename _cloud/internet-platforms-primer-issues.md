@@ -58,3 +58,9 @@
   - Sales headcount +7.8% (10,965), with the margin down ~3 pp in two quarters.
 - **All four primers:** none of the four companies has a credit rating (no debt).
 
+
+## From primer-audit.mjs (2026-10-24, internet-platforms run): pre-existing issues, not fixed
+
+- **info-edge.html** fails a hard check: it uses "honest" more than once.
+- **All four primers** (info-edge, cartrade-tech, indiamart-intermesh, justdial) lack `main{min-width:0}`, so they risk overflowing on phones.
+- **All four primers** carry 0 report links. Once this report is published, they could link to `internet-platforms.html`.
