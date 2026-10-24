@@ -1583,6 +1583,23 @@
         "IndiaAI and the GPU boom"
       ],
       "published": "2026-10-23"
+    },
+    {
+      "name": "Gaming & Interactive Entertainment",
+      "slug": "gaming",
+      "file": "gaming.html",
+      "sector": "Media & Entertainment",
+      "subsector": "Gaming & Interactive Entertainment",
+      "companies": 1,
+      "accent": "#073083",
+      "hook": "A ban at home, a market abroad: how the 2025 real-money gaming ban and retrospective 28% GST wiped out 86% of Indian gaming revenue, why the surviving market is small and foreign-IP-led, and how Nazara is turning into a global casual-games operator through Bluetile.",
+      "tags": [
+        "The money-game ban",
+        "The monetisation gap",
+        "Nazara's reinvention",
+        "Read the four PATs"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -2268,7 +2285,7 @@
       "sector": "Media & Entertainment",
       "sub": "Gaming & Interactive Entertainment",
       "companies": 1,
-      "report": null
+      "report": "gaming.html"
     },
     {
       "sector": "Mining",
