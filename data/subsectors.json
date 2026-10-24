@@ -1668,6 +1668,23 @@
         "RailWire and bandwidth"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Houseware",
+      "slug": "houseware",
+      "file": "houseware.html",
+      "sector": "Trading",
+      "subsector": "Houseware",
+      "companies": 1,
+      "accent": "#2F18A5",
+      "hook": "Brands, furnaces and a policy wall: how India's ₹35,000-crore-plus houseware market makes money across plastic, steel, glass, opal and pens — why quality orders and duties now decide category economics, why Cello's Falna furnace idles at 60% against Chinese glass, and who owns the brands.",
+      "tags": [
+        "Falna glass vs Chinese imports",
+        "Insulated-flask QCO",
+        "Cello pens and the promoters' firm",
+        "Distribution and channel shift"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -2527,7 +2544,7 @@
       "sector": "Trading",
       "sub": "Houseware",
       "companies": 1,
-      "report": null
+      "report": "houseware.html"
     }
   ]
 }
