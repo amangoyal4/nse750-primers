@@ -1617,6 +1617,23 @@
         "LME and the mine"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Paper",
+      "slug": "paper",
+      "file": "paper.html",
+      "sector": "Paper",
+      "subsector": "Paper & Paper Products",
+      "companies": 1,
+      "accent": "#071183",
+      "hook": "Priced at the port, costed on the farm: how India's paper mills earn a tonne's spread between imported board and farm-grown wood. The report explains the ₹67,220 import floor, the doubling of wood costs, the virgin-board oligopoly after ITC's Lalkuan buy, and JK Paper's FY23-to-FY26 round trip.",
+      "tags": [
+        "The ₹67,220 import floor",
+        "The forest on the farm",
+        "Same mills, half the profit",
+        "From mill to box"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -2350,7 +2367,7 @@
       "sector": "Paper",
       "sub": "Paper & Paper Products",
       "companies": 1,
-      "report": null
+      "report": "paper.html"
     },
     {
       "sector": "Plastic Products",
