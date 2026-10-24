@@ -1206,3 +1206,599 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
 - Nasscom FY26: https://www.businesstoday.in/amp/latest/corporate/story/it-industry-likely-to-hire-135000-employees-in-fy26-projects-nasscom-517760-2026-02-24
 - Reliance–Justdial 2021: https://inc42.com/buzz/reliance-acquires-sole-control-of-justdial-with-41-stake ; https://www.thenewsminute.com/money/reliance-retail-acquire-4095-stake-just-dial-rs-3497-crore-152496
 - CarTrade–Spinny: https://www.angelone.in/news/stocks/cartrade-tech-partners-with-spinny-to-transform-used-car-buying-and-selling ; https://nsearchives.nseindia.com/corporate/CARTRADE_29072026080944_CarTrade_-_Spinny_Revised_PR.pdf ; https://www.sahi.com/news/cartrade-tech-q1-consolidated-net-profit-touches-51-2-crore-partners-with-spinny-4308-PE1_COR
+
+---
+
+# PART 4 — Deep-research supplement (24-Oct-2026)
+
+Second pass, primary-source focus. About 45 web calls. **What was read in full or in the relevant sections this pass:**
+- Four FY26 annual reports from BSE: Info Edge (235 pp), CarTrade (171 pp), IndiaMART (179 pp) and Justdial (156 pp). Sections read: MD&A, segment notes, shareholding notes, related-party notes, contingent liabilities, AGM notice and RPT explanatory statements.
+- Three Q1 FY27 earnings-call transcripts from BSE: Info Edge (10-Aug-26), CarTrade (29-Jul-26) and IndiaMART (webinar, 21-Jul-26).
+- Justdial's Q1 FY27 investor deck from BSE (11-Jul-26). Justdial has filed **no** earnings-call transcript since Apr-2025.
+- The CarTrade–Spinny press release from NSE archives, 29-Jul-26.
+- Primary industry documents: the PIB DPDP Rules explainer (17-Nov-25), the EY/FICCI-EY newsroom release (24-Mar-26) and the Auto Trader FY25 RNS (FCA NSM).
+- News articles that cite the primary releases: Business Today (Anarock Q3 CY26, 29-Sep-26), ETV Bharat/PTI (Nasscom Strategic Review, 24-Feb-26), Autocar Professional (CRISIL used cars, 4-Aug-26) and Storyboard18 (FICCI-EY Google/Meta share).
+- Sep-26 shareholding patterns of Eternal and PB Fintech, via the MarketsMojo aggregator of the BSE filings.
+- Screener: the 8-quarter tables were re-parsed from the 24-Oct-26 pages. Matrimony.com was fetched for the matrimony benchmark.
+
+**Raw files** are in /tmp/internet-platforms-deep/dl (PDFs plus pdftotext output); notes are in /tmp/internet-platforms-deep/notes.md.
+
+**Tag discipline in Part 4:**
+- **[V-P]** = fetched this session from the company's own filing or a government/regulator/company primary document.
+- **[V-S]** = fetched this session from a secondary article or aggregator that reproduces a primary release.
+- **[V-snip]** = search summary only.
+- **[E]** = arithmetic.
+- **[K]** = memory.
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Where in Parts 1–3 | Old value | New value | Source |
+|---|---|---|---|---|
+| S1 | §9.4, B1, E12, D cell 5, 2.1, JSON | PB Fintech stake **12.12%** → ₹5,693 Cr; Eternal 12.43% → ₹38,073 Cr; listed stakes **₹43,766 Cr** | **12.12% and 12.43% are *diluted* Mar-26 figures (FY26 AR Table 2).** **Sep-26 basic holdings:** <br>• **Eternal:** Info Edge direct **12.38% = 119.47 Cr shares**, plus NISL 0.05% (≈0.48 Cr shares, below the 1% disclosure line). <br>• **PB Fintech:** Info Edge 6.47% (2.99 Cr shares) + Diphda 4.08% (1.89 Cr) + Startup Investments (SIHL) 1.87% (0.87 Cr) = **12.42% = 5.75 Cr shares** of 46.27 Cr. <br>**At the 23-Oct close:** Eternal ≈ 119.95 Cr × ₹317 = **₹38,025 Cr**; PB ≈ 5.75 Cr × ₹1,015 = **₹5,836 Cr**; **listed stakes ≈ ₹43,861 Cr (57.0% of m-cap)**. | IE FY26 AR p.102 (Table 2) and Directors' report [V-P]; Eternal and PB Sep-26 SHP via MarketsMojo [V-S]; screener prices [V] |
+| S2 | §9.4, 1.3, 3.3 | Portfolio "~₹41,300 Cr (Jun '26)", marking date "unclear, probably Mar-26" | **FY26 AR shareholder letter:** "135 companies … total deployed capital of approximately **₹49 billion**, currently valued at approximately **₹413 billion**" (≈8.4× [E]). The letter sits in the AR for the year to 31-Mar-26 (published Jul/Aug-26). The listed part at 31-Mar-26 was ₹35,676 Cr (Eternal ₹27,467.6 Cr + PB ₹8,208.5 Cr), so **unlisted/AIF ≈ ₹5,624 Cr** [E]. The ₹4,900 Cr deployed includes AIF money, part of which belongs to external LPs (MacRitchie/Temasek, DFOSG), so Info Edge's own economic share is lower. In the Q1 call (10-Aug-26) Oberoi said "135 companies … invested value of approximately Rs.5,000 crores". **The "Jun '26" label is wrong. Use "FY26 annual report (marks as of FY26)".** | IE FY26 AR shareholder letter [V-P]; Q1 call [V-P] |
+| S3 | §9.4, C.5, 0 | FY26 core operating profit "~₹1,090 Cr [E]", post-tax ~₹820 Cr | **Standalone operating PBT FY26 = ₹1,137.7 Cr (37.3% of ₹3,052.0 Cr revenue; +16.9%)** → post-tax at 25.17% ≈ **₹851 Cr** [E]. Q1 FY27 annualised: ₹333.9 × 4 = ₹1,336 Cr → ~₹999 Cr post-tax [E]. | IE FY26 AR MD&A Table 4/5 [V-P] |
+| S4 | §9.4 implied core multiple | ~₹22,535–28,975 Cr; 22–35× | Recomputed with S1–S3: m-cap ₹76,935 − listed ₹43,861 − treasury ₹5,034 − unlisted ₹5,624 = **₹22,416 Cr core (no tax on stakes) → 26.3× FY26 / 22.4× run-rate post-tax core**. With ~14.95% tax on the stake gains (₹6,451 Cr), core = **₹28,867 Cr → 33.9× / 28.9×**. Range for the writer: **22–34×**. | [E] from V-P inputs |
+| S5 | JSON `deferred_revenue: null`; §9.1 "not captured" | — | **Info Edge deferred sales revenue + customer advances: ₹1,500.0 Cr standalone at 31-Mar-26 (+10.4% vs ₹1,359.0 Cr)**; consolidated contract liabilities ₹1,534.1 Cr (₹1,388.6 Cr). ≈0.49× standalone revenue / 0.47× billings. **Jun-26: not disclosed** (no quarterly balance sheet). | IE FY26 AR Table 7 and note on contract liabilities [V-P] |
+| S6 | 2.1 segment table "Others (JS, Shiksha) small +" | — | **FY26 standalone operating PBT by segment:** <br>• Recruitment ₹1,277.2 Cr (56.6%) <br>• Real estate −₹59.2 Cr <br>• Matchmaking −₹4.4 Cr <br>• Education +₹13.1 Cr <br>**Billings:** Recruitment ₹2,374.3 Cr (+10.0%), 99acres ₹497.1 Cr (+10.3%), Matchmaking ₹142.4 Cr (+28.5%), Education ₹163.7 Cr (+0.8%); **total ₹3,177.5 Cr (+10.3%)**. <br>**Revenue:** ₹2,255.9 / 488.1 / 138.3 / 169.8 Cr. | IE FY26 AR Table 5 [V-P] |
+| S7 | 3.3/3.4 "99acres positive only in Q4 FY26 (+₹3.4 Cr)" | first positive quarter | **Q4 FY26's ~₹3 Cr profit included a ~₹20 Cr one-off accounting adjustment; the underlying loss was ~₹17 Cr.** Q1 FY27 loss ₹2 Cr. 99acres has **not yet had an underlying profitable quarter**. Management targets "cash-generative during FY27". | IE Q1 call, IR head [V-P] |
+| S8 | 0, A1, E5 | "GCCs +31% in Q1 FY27" read as trend | **+31% includes renewals deferred from Q4 (Q4 GCC growth was −1%). Normalised GCC growth is ~15–17%, and the normalised GCC share of billings is ~17–18%** (the deck's 23% Q1 share is distorted by ~2.5 pp of timing). Normalised recruitment growth was ~15% in Q1 FY27 (reported +17.5%). | IE Q1 call [V-P] |
+| S9 | 11.1, 2.1 "AI-Rex 400+ paid customers" | — | AI-Rex: **free trial to 4,000 customers → 400+ paid in Q1; ~300 more in July; Q2 trial widened to 10,000 (largest) customers. Price ₹3,500/mandate (companies), ₹2,500 (consultants).** Talent/Salary Pulse ~600–700 customers. Management attributes **~⅓ of recruitment growth to new offerings, ⅓ to price and ⅓ to volume**. | IE Q1 call [V-P] |
+| S10 | 0 "Naukri 360 paid conversion 1.2% → 2.6% over 18 months" | — | Call: paid/MAU **1.3% → 2.6% over six quarters** (Oberoi also said "1.5% → ~2.5%"); jobseeker EBITDA margin **35–40% a year ago → 63%**. | IE Q1 call [V-P] |
+| S11 | Trap 2/3, 2.1 | Info Edge Q4 FY26 OCI conflict (₹18,161 vs ₹8,161 Cr) | **Settled: ₹18,161 Cr** (Eternal −₹15,874.3 Cr; PB −₹2,287.0 Cr; consolidated FVOCI note). The ₹8,161 Cr press figure is a typo. | IE Q1 FY27 results note (BSE 59ae0656) [V-P] |
+| S12 | Trap 4 / 2.1 | FY26 exceptional "+₹25.1 Cr Makesense MTM gain" | That is the **consolidated** figure (FY26 consolidated exceptional gain ₹38.8 Cr). The **standalone** P&L booked a **₹5,167.5 Cr exceptional gain** (₹5,200.1 Cr FV remeasurement of the Makesense JV on its amalgamation into PB Fintech) plus ₹743.6 Cr deferred tax, so **standalone FY26 PAT was ₹5,535.7 Cr** (AR "Net profit margin 181%"). **Never quote standalone FY26 PAT as an earnings figure.** | IE FY26 AR Table 4 and Table 8 [V-P] |
+| S13 | 0, 1, Story bullets | Info Edge CFO not mentioned | **CFO is interim: Ambarish Raghuvanshi (Interim CFO, Q1 call)**. Chintan Thakkar (ex-CFO) received an ex-gratia payment in FY26 (AR remuneration note). | IE Q1 call; FY26 AR [V-P] |
+| S14 | Corporate action 1, 2.4, 3.3, H4 | RRVL ~64%, Mani ~10% [K] | **RRVL 54,289,574 shares = 63.84%; V.S.S. Mani 6,468,187 = 7.61%** (31-Mar-26, unchanged from Mar-25). Remaining promoter-group ≈ 2.69% (Mani family) [E: 74.14 − 63.84 − 7.61]. | Justdial FY26 AR note on shareholders >5% [V-P] |
+| S15 | Corporate action 1, 2.4, G | CEO-change date "not captured" | **Dinkar Ayilavarapu: CEO-designate and KMP w.e.f. 10-Jul-2026; CEO from 1-Aug-2026. V.S.S. Mani's MD & CEO term ended 31-Jul-2026** (now a non-executive director). **New CFO Dinesh Taluja w.e.f. 11-Jul-2026** (resigned as NED on 10-Jul; ex-Reliance Retail finance). The stock rose ~13% on 13-Jul. | Justdial Q1 FY27 deck p. "Board/KMP" note [V-P]; press [V-snip] |
+| S16 | Status table | Justdial Q1 FY27 "Jul-2026, day not captured; Q1 transcript dated Jul-2026" | **Q1 FY27 results 10-Jul-2026** (deck dated 11-Jul). **Justdial has filed no earnings-call transcript since the Apr-2025 call** (screener concall list shows only PPTs for Jul-25 → Oct-26). **There is no management Q&A to digest for Justdial.** | Q1 deck [V-P]; screener concall list [V] |
+| S17 | Trap 7, B4, 2.2 | SAMIL stake ~55% [K]; attributable PAT ~₹225 Cr | **CarTrade holds 55.43% of Shriram Automall India Ltd; Shriram Finance holds 44.57%** (SFL is therefore a related party: AGM-approved RPT caps of ₹362.6 Cr for SAMIL–SFL and ₹81 Cr for CarTrade Exchange–SFL). The NCI share of the SAMIL group's FY26 PAT (~₹45.9 Cr × 44.57%) ≈ ₹20.5 Cr → **attributable PAT ≈ ₹223 Cr** [E]. | CarTrade FY26 AR (AOC-1, notes, AGM notice) [V-P] |
+| S18 | C.4, 9.1, H6 | "2.25 lakh auction volume — period ambiguous"; "6–8 lakh vehicles/yr, ₹3,500–4,500 per vehicle" | **FY26: 1.7 Mn auction listings, ~200,000 registered buyers, ">2.5 lakh vehicles transacted annually"** (AR). The deck's "FY27 listings 1.48 Mn / volume 2.25 lakh" is an **annual run-rate**, not one quarter: a single quarter at 1.48 Mn would be ~3.5× the FY26 annual figure. **Revenue per vehicle sold ≈ ₹259 Cr ÷ 2.25–2.5 lakh ≈ ₹10,400–11,500** [E]. The remarketing mix is ~45% retail, ~41% repossession. | CarTrade FY26 AR MD&A [V-P]; Q1 call [V-P] |
+| S19 | Trap 6, 2.2 | "Adjusted EBITDA adds back other income and ESOP [E]" | **Confirmed definition:** "profit before exceptional item and tax, plus D&A, finance cost and share-based payments". **FY26 SBP = ₹15.5 Cr (FY25 ₹20.6 Cr)**. Adj. EBITDA FY26 ₹363.0 Cr (42%) vs FY25 ₹241.4 Cr (34%). | CarTrade FY26 AR [V-P] |
+| S20 | Status table, 12 | IndiaMART Q1 "late Jul, day not captured"; Q2 call date not read | **Q1 FY27 results and webinar 21-Jul-2026 (17:00)**; **Q2 FY27 webinar 27-Oct-2026 17:00** (NSE intimation, 20-Oct). | IM transcript cover letter [V-P]; NSE intimation [V-snip] |
+| S21 | 0, 11.1, H13(e)(f), E7 | Q1 FY27 sign of unique business enquiries / active buyers "ambiguous" | **Negative: UBE −11% (27 → 26 Mn) and active buyers (LTM) −5%.** An analyst stated this on the call and management did not dispute it. **~4–5 pts of the UBE decline is from buyer OTP verification**; the rest could not be attributed (own changes, LLM traffic migration, or the war/US tension). | IM Q1 webinar [V-P] |
+| S22 | Trap 4, H7 | IndiaMART labour-code exceptional "not captured"; ESOP cost not captured | **No exceptional item.** The labour-code impact of **₹8.58 Cr** (gratuity ₹5.04 Cr + leave ₹3.54 Cr, standalone) was charged **inside employee benefit expense**. **Standalone share-based payment expense FY26 ₹34.7 Cr vs ₹16.9 Cr in FY25.** Together ≈ ₹26 Cr of the FY26 cost increase, or ~1.7 pp of margin [E]. | IM FY26 AR notes 38/40 and SOCE [V-P] |
+| S23 | 9.2 | Silver churn "~1.5% monthly [K]" | **Silver monthly churn ~7%, unchanged in Q1 FY27.** The problem is concentrated in first-year cohorts (renewal "doubles" from year 2). Gold + Platinum ≈ 50% of customers and >75% of revenue. | IM Q1 webinar [V-P] |
+| S24 | 2.1, 5.1, A9 | Google + Meta "~60–70% [E/K, no 2026 source]" | **Search + social platforms (led by Google and Meta) took 64% of India's ₹94,700 Cr digital ad revenue in CY2025** (FICCI-EY). Alternative estimate: dentsu-e4m DAR 2026 puts 2025 digital ad spend at **₹71,621 Cr (59% of total)** [V-snip]. FY25 gross ad revenue booked in India: Google India ₹34,742 Cr; Meta India ~₹29,392 Cr [V-snip]. | Storyboard18 citing FICCI-EY [V-S]; others [V-snip] |
+| S25 | 2.4, A5 | Used cars "CRISIL: FY26 >6 mn (forecast); FY27 >7 mn" | CRISIL Ratings (4-Aug-26): **FY27 +7–9% to >7 Mn units**; organised share **~26%** (20–21% in FY22); first-time buyers ~⅔. **Implied FY26 ≈ 6.4–6.5 Mn** [E]. The article body says "organised market … 7 million", which is inconsistent with a 26% organised share; **read 7 Mn as the total market**. | Autocar Pro citing CRISIL [V-S] |
+| S26 | 2.4 | New PV sales FY26 "~4.3–4.5 mn [K]" | **4.64 Mn (+~8%)** → used:new ≈ **1.4×** [E] | IANS/ICRA [V-snip] |
+| S27 | 7.1, 12, G | DPDP Rules "13/14-Nov-2025"; penalty ₹250 Cr [K] | PIB: **notified 14-Nov-2025** (gazette G.S.R. 846(E) is dated 13-Nov per law-firm notes). **18-month phased compliance** → consent managers at 12 months (Nov-2026), substantive duties at 18 months (**13/14-May-2027**). **Penalties up to ₹250 Cr** (security safeguards), **₹200 Cr** (breach notification; children's data), **₹50 Cr** (other). The Board has four members; appeals go to TDSAT. | PIB explainer 17-Nov-25 [V-P] |
+| S28 | 7.3, H12 | Digital Competition Bill "on hold [K]" | **"On the backburner" (Business Today, 6-Jul-26)**; CCI is considering a fresh digital-economy market study. The Standing Committee on Finance (11-Aug-25) had urged an ex-ante regime. Draft SSDE user test: ≥1 Cr end-users or 10,000 business users. | [V-snip] (no MCA primary found) |
+| S29 | 2.4 | Nasscom FY26 | $315 bn (+6.1%) is on a **restated FY25 base of $297 bn** (not $282.6 bn). Headcount 59.5 lakh (+2.3%); **net adds 1.35 lakh vs 1.33 lakh**; exports $246 bn (+5.6%); domestic +7.9%; AI revenue $10–12 bn. | ETV Bharat/PTI [V-S] |
+| S30 | 2.2 | Matrimony.com FY26 revenue "~₹480–500 Cr [K]" | **₹460 Cr; OP ₹51 Cr (11%); PAT ₹34 Cr; m-cap ₹988 Cr** | screener [V] |
+| S31 | 1.1, 3, A2 | 99acres billings mix "brokers ~64%, builders ~28%" | Management's **revenue** cut: **primary (new projects) 45–47%, secondary (resale/rental) ~equal, owners 7–10%**. The two cuts differ because channel-partner brokers selling new projects fall in "primary". Management says builder budgets go "mostly to Facebook and Google". | IE Q1 call [V-P] |
+| S32 | 5.1, 11.2 | Housing.com (REA Group) treated as a funded rival | **Housing.com "got sold recently" to Aurum PropTech; it was burning ~₹250 Cr a year** (management). Expect lower competitive marketing intensity. | IE Q1 call [V-P] |
+| S33 | Remarks on 99acres traffic | web time share 49% (Q1 FY27) | Also: **32% (Jun-24) → 51% (Mar-26)**; app 56%, iOS 70% (Mar-26). The near-term goal is **60% web time share**. | IE FY26 AR [V-P] |
+
+---
+
+## 4.1 Verification table — the 40 figures that carry the report
+
+The "Agrees with Parts 1–3?" column states whether the first-pass value survives.
+
+| # | Figure | Value | Primary source (fetched this pass unless noted) | Tag | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Info Edge standalone billings FY26 | ₹3,177.5 Cr (+10.3%) | IE FY26 AR MD&A Table 5 (BSE AttachHis a1e5af8e) | V-P | Yes (primer ₹3,177; snippet ₹31,775 Mn) |
+| 2 | Info Edge standalone revenue FY26 | ₹3,052.0 Cr (+15.0%) | IE FY26 AR Table 4 | V-P | Yes |
+| 3 | Info Edge standalone operating PBT FY26 | ₹1,137.7 Cr, 37.3% (+16.9%) | IE FY26 AR Table 4 | V-P | **New** (was an estimate of ~₹1,090 Cr) |
+| 4 | Naukri recruitment segment op PBT FY26 / Q1 FY27 | ₹1,277.2 Cr (56.6%) / ₹356.4 Cr (58.3%) | IE FY26 AR Table 5; Q1 FY27 results note | V-P | Yes |
+| 5 | Info Edge deferred revenue + advances, 31-Mar-26 | ₹1,500.0 Cr standalone (+10.4%); ₹1,534.1 Cr consolidated | IE FY26 AR Table 7 and contract-liabilities note | V-P | **New** |
+| 6 | Info Edge cash incl. WOS | ₹4,963.2 Cr (Mar-26); ₹5,034 Cr (Jun-26) | FY26 AR MD&A; Q1 call | V-P | Yes |
+| 7 | Eternal stake | 12.43% diluted (12.38% direct + 0.05% NISL), Mar-26; 12.38% = 119.47 Cr shares (Sep-26 SHP) | FY26 AR Table 2 and Directors' report; MarketsMojo SHP | V-P (AR) / V-S (SHP) | Yes; basis clarified |
+| 8 | PB Fintech stake | 12.12% diluted (Mar-26); **12.42% basic = 5.75 Cr shares (Sep-26)** | FY26 AR; MarketsMojo SHP (IE 6.47 + Diphda 4.08 + SIHL 1.87) | V-P / V-S | **Superseded (S1)** |
+| 9 | Listed stakes at 31-Mar-26: market value / cost | ₹35,676.1 Cr / ₹714.4 Cr | FY26 AR Table 2 | V-P | Yes (was V-snip) |
+| 10 | Listed stakes at 23-Oct-26 close | ≈₹43,861 Cr (57.0% of IE m-cap) | Holdings × screener prices | E from V | ≈ (was ₹43,766 Cr) |
+| 11 | Info Edge portfolio | 135 cos; ~₹4,900 Cr deployed; ~₹41,300 Cr value (≈8.4×) | FY26 AR shareholder letter | V-P | Yes; date fixed (S2) |
+| 12 | Q4 FY26 OCI fair-value loss | ₹18,161 Cr (Eternal −15,874.3; PB −2,287.0) | IE Q1 FY27 consolidated results note | V-P | Yes; conflict closed |
+| 13 | Naukri recruitment billings Q1 FY27 | +17.5% reported; ~15% underlying | IE Q1 call | V-P | Yes, plus nuance |
+| 14 | GCC billings Q1 FY27 | +31% reported; ~15–17% normalised; ~17–18% of mix | IE Q1 call | V-P | **Nuance (S8)** |
+| 15 | AI-Rex | 400+ paid of 4,000 trialists (Q1); ₹3,500/mandate; trial to 10,000 in Q2 | IE Q1 call | V-P | Expanded |
+| 16 | Info Edge Q2 FY27 standalone billings | ₹822.3 Cr (+12.8%); Recruitment ₹613.8 Cr (+12.6%); 99acres ₹148.3 Cr (+21.2%); JS ₹39.7 Cr (+18.4%); Shiksha ₹20.5 Cr (−27.2%); H1 ₹1,559.3 Cr (+13.5%) | HDFC Sky/PTI, Lapaas (fetched pass 1); 5 further outlets consistent; segments sum exactly to the total ✓ | V-S | Yes (BSE PDF itself not fetched) |
+| 17 | 99acres web traffic time share | 51% (Mar-26), 49% (Q1 FY27); 32% Jun-24; goal 60% | FY26 AR; Q1 call | V-P | Yes |
+| 18 | Shiksha billings | FY26 +0.8%; Q1 FY27 −23%; Q2 FY27 −27.2% | FY26 AR; Q1 call; #16 | V-P / V-S | Yes |
+| 19 | CarTrade stake in SAMIL | 55.43% (Shriram Finance 44.57%) | CarTrade FY26 AR (AOC-1; RPT notice) | V-P | **Superseded (was K ~55%)** |
+| 20 | CarTrade remarketing scale | FY26 1.7 Mn listings; >2.5 lakh vehicles/yr; ~2 lakh buyers | CarTrade FY26 AR MD&A | V-P | **New; resolves ambiguity** |
+| 21 | CarTrade FY26 EBITDA / adj. EBITDA / SBP | ₹257.0 Cr (33%) / ₹363.0 Cr (42%) / ₹15.5 Cr | CarTrade FY26 AR | V-P | Yes; definition confirmed |
+| 22 | CarTrade long-term guidance | "₹1,000 Cr profit in 4–5 years"; "40-40" goal; consolidated ETR 23–24% | CarTrade Q1 call (29-Jul-26) | V-P | **New** |
+| 23 | OLX reach | "~63% of people selling a car in India come to OLX"; 23 Mn used-car consumers/yr on OLX + CarWale; 30 Mn customers/month on OLX | Q1 call; Spinny PR | V-P | **New** (company claims) |
+| 24 | Spinny partnership | Announced 29-Jul-26; commission/margin-share; no inventory; no financial terms disclosed | NSE archive PR; Q1 call | V-P | Yes (was V-snip) |
+| 25 | IndiaMART unique business enquiries / active buyers, Q1 FY27 | 26 Mn (−11%) / 41 Mn LTM (−5%) | IM Q1 webinar; deck KPI table | V-P | **Sign settled (S21)** |
+| 26 | IndiaMART paying suppliers Q1 FY27 | 218K; net −1,850 | IM Q1 webinar | V-P | Yes |
+| 27 | IndiaMART Silver monthly churn | ~7% | IM Q1 webinar | V-P | **Superseded (was K 1.5%)** |
+| 28 | IndiaMART labour code / SBP FY26 | ₹8.58 Cr in employee cost / ₹34.7 Cr (vs ₹16.9 Cr) | IM FY26 AR | V-P | **New** |
+| 29 | Justdial promoter split | RRVL 63.84%; Mani 7.61%; total promoter group 74.14% | JD FY26 AR; screener | V-P | **Superseded (was K)** |
+| 30 | Justdial CEO/CFO change | CEO-designate 10-Jul-26, CEO 1-Aug-26; CFO Taluja 11-Jul-26 | JD Q1 FY27 deck | V-P | **New** |
+| 31 | Justdial Q2 FY27 | Revenue ₹342.8 Cr (+13.1%); op. EBITDA ₹90.7 Cr (26.4%); PAT ₹107.8 Cr (−9.7%) | BSE PR 906347ef (pass 1); screener Q2 343/91/108 ✓ | V-P | Yes |
+| 32 | India digital ad revenue CY2025 | ₹94,700 Cr (+26%), ~63% of ~₹1.5 lakh Cr total ads; SMEs/long-tail ₹36,300 Cr; e-commerce ads ₹22,000 Cr (+50%) | EY newsroom release, 24-Mar-26 | V-P | Yes (was V-snip) |
+| 33 | Google + Meta share | Search + social 64% of digital ads (2025) | Storyboard18 citing FICCI-EY | V-S | **Superseded (was E 60–70%)** |
+| 34 | Anarock top-7 Q3 CY26 | Sales 1,00,220 (+3% YoY, +10% QoQ); value ₹1.55 lakh Cr; launches 1,14,320 (+18%); unsold 6,30,590 (+12%); ₹9,714/sq ft (+7%) | Business Today, 29-Sep-26 (Anarock release) | V-S | Yes (was V-snip) |
+| 35 | PropEquity top-9 Q3 CY26 | 1,03,170 (−5.7% vs 1,09,420) | realtyhunting (single source) | V-snip | Same; still weak |
+| 36 | Nasscom FY26 | $315 bn (+6.1%, restated base $297 bn); 59.5 lakh headcount; +1.35 lakh net | ETV Bharat/PTI, 24-Feb-26 | V-S | Yes, plus restatement |
+| 37 | Naukri JobSpeak Sep-26 | 3,053 vs 3,002 (+2%); AI/ML +20%; IT −4% | Lapaas (pass 1); several outlets | V-S | Yes |
+| 38 | DPDP Rules | Notified 14-Nov-25 (PIB); 18-month phase-in; penalties ₹250/200/50 Cr | PIB explainer PDF, 17-Nov-25 | V-P | Yes, refined |
+| 39 | Used cars | FY27E >7 Mn (+7–9%); organised ~26%; FY26 implied ~6.4–6.5 Mn | Autocar Pro citing CRISIL Ratings, 4-Aug-26 | V-S / E | Refined |
+| 40 | Global benchmarks | Auto Trader FY25: group margin 63%, core 70%, ARPR £2,854/month; Rightmove FY25: 70% underlying, 2026 guide op profit +3–5% on revenue +8–10% | Auto Trader RNS (FCA NSM 5672441); Rightmove [V-snip] | V-P / V-snip | Yes (was K) |
+
+**Count: 31 of 40 are [V-P]**, i.e. fetched this session from a company filing or government document: rows 1–9, 11–15, 17, 19–32, 38 and Auto Trader in row 40. A further 7 are [V-S] (rows 16, 18-part, 33, 34, 36, 37, 39), 1 is [V-snip] (row 35) and 1 is [E] (row 10).
+
+**When sources conflict:**
+- **PropEquity vs Anarock** cover different city sets (9 vs 7, and PropEquity counts Navi Mumbai and Thane separately). PropEquity also restates its prior-year base: its Q3 CY25 preliminary was 1,00,370 units, now 1,09,420. **Anarock is more credible for trend use** because its series is stable and its press release is fetched. Present PropEquity only as "another tracker shows a decline".
+- **FICCI-EY vs dentsu-e4m** differ in digital-ad definitions (₹94,700 Cr vs ₹71,621 Cr). Use FICCI-EY for consistency with Part 1.
+
+---
+
+## 4.2 Company deep dives
+
+### 4.2.1 Info Edge (India) — NAUKRI
+
+**A. Management-commentary digest.** Source: Q1 FY27 call, 10-Aug-26, transcript filed 14-Aug-26 (BSE 9d1f5c76) [V-P]. Paraphrased.
+
+*Guidance and outlook:*
+- **Recruitment.** Q1 billings +17.5%, ~15% underlying after renewal timing.
+  - Growth splits roughly ⅓ volume (better enterprise renewals; billed customers +4–5%, mostly lower-ARPU tier-2/3 SMBs), ⅓ price and ⅓ new offerings (AI-Rex, Talent/Salary Pulse, employer branding/AmbitionBox).
+  - Management will not commit to a growth rate ("whether we'll grow at 10% or 15% or 8%, I don't know"). The "joker in the pack" is **mid-tier hiring volume**.
+  - Margin rule of thumb: **teens topline growth lets margins improve; 8–10% makes it "hard"**. AI investment will not slow.
+- **Recruitment consultants** (slightly over a quarter of recruitment revenue) grew +1%: in a slow market clients insource. GCC hiring is more premium and carries higher ARPU.
+- **Naukri 360 (jobseeker B2C).** Billings +35%; paid/MAU 1.3% → 2.6% over six quarters; EBITDA margin up from 35–40% to ~63% (AI offerings, self-serve). The Coding Ninjas acquisition is complete; short upskilling courses of ₹5–7K are to be sold on Naukri.
+- **Job Hai (blue-collar).** FY26 revenue ~₹15 Cr. Target: more than double in FY27 and reach ₹100 Cr in 2–3 years. Burn ~₹50 Cr a year, to stay flat or moderate. Expanding to 18 cities.
+- **NaukriGulf.** +12%, against ~20% before the Middle-East disruption; margin above 35%.
+- **99acres.**
+  - Q1 billings ~+17%; loss cut 89% to ~₹2 Cr. Target: "cash-generative during FY27" and a 30% margin over time.
+  - The new-project (builder) market is estimated at **>₹5,000 Cr**, but 99acres is weak with builders (their money goes to Facebook/Google) and strong with channel partners and resale.
+  - Housing.com was sold to Aurum (it burned ~₹250 Cr a year), which should ease competitive marketing.
+  - NCR sales restructuring has another 1–2 months to run.
+- **Matchmaking.** Billings +20% (Jeevansathi +14%, Aisle +44%), near breakeven. Jeevansathi holds >45% profile share in Hindi markets.
+- **Shiksha.** Billings −23%, revenue −12%, still profitable. **"Reduced referred search traffic from Google"** is hurting client delivery, and management "expect[s] these headwinds to persist". The pivot is to counselling plus AI voicebots. Study-abroad is soft in the US/Canada.
+- **Costs.** Headcount is down YoY. AI gives "15–20% efficiencies" in some functions. Hiring may pause "for a quarter or two" and resume if growth stays at 15–17%.
+- **AI disintermediation view.** Owning both sides of a marketplace means AI strengthens the business (Naukri, 99acres, Jeevansathi). Where traffic came through a channel Info Edge does not own (Shiksha via Google), AI hurts. This is the cleanest management statement in the sector of the "proprietary-supply moat" thesis.
+
+*The 6 most important Q&A points:*
+1. JobSpeak (volume) is sluggish while billings are strong. Management: JobSpeak does not capture premiumisation or new products; Bikhchandani credits "the sales team trying harder". **No change in contract duration**, so there is no pull-forward.
+2. The GCC +31% vs deck-mix discrepancy is explained by timing (S8).
+3. Possible AI-Rex cannibalisation of Resdex is acknowledged ("there could be some cannibalization"). Consultants downgraded, but AI-Rex kept their spend flat to up.
+4. Premium hiring volume is small but growing 25–30%. Much premium tooling (iimjobs, Hirist, PremiumX) is still **free**: latent monetisation.
+5. No international expansion is planned.
+6. 99acres can push billings growth above 20% "if there's not a lot of pressure from competition".
+
+**B. Concall KPI table (Q1 FY27 vs Q1 FY26, standalone)** [V-P deck and call]
+
+| KPI | Q1 FY27 | YoY | Note |
+|---|---|---|---|
+| Standalone billings | ₹737.0 Cr | +14.4% | Q2: ₹822.3 Cr (+12.8%) |
+| Standalone revenue | ₹824.5 Cr | +12.0% | |
+| Operating PBT (margin) | ₹333.9 Cr (40.5%) | +33.4% | FY26 37.3% |
+| Recruitment billings / op PBT margin | ₹553 Cr / 58.3% | +17.5% / — | ~15% underlying |
+| 99acres billings / op PBT | ₹110 Cr / −₹2.1 Cr | +16.5% / loss −89% | Q4 FY26 underlying loss ~₹17 Cr (S7) |
+| Jeevansathi / Aisle billings | ₹40 Cr / ₹13 Cr | +14% / +44% | |
+| Shiksha billings | ₹35 Cr | −23% | |
+| Resumes / daily adds / daily modifications | 118 Mn / 25K+ / 850K | — | |
+| AI-Rex paid / Talent Pulse | 400+ (+~300 in July) / ~600–700 | — | |
+| GenAI/ML staff | 150+ (AR: 130 at FY26) | — | ~₹70 Cr invested in AI to date (AR) |
+| Cash (standalone + WOS) | ₹5,034 Cr | — | |
+
+**C. Five-year history (screener consolidated, ₹ Cr) [V screener 24-Oct-26]**
+
+| FY | Revenue | OP | OPM | Other inc. | PAT (incl. NCI) | ROCE | Standalone billings [AR] | Standalone op PBT [AR] |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 1,589 | 446 | 28% | 13,810 | 12,882 | 23% | — | — |
+| FY23 | 2,346 | 348 | 15% | −116 | −70 | 3% | — | — |
+| FY24 | 2,536 | 711 | 28% | 303 | 595 | 4% | — | — |
+| FY25 | 2,850 | 874 | 31% | 1,220 | 1,310 | 3% | 2,881.7 | 973.3 (36.7%) |
+| FY26 | 3,285 | 1,186 | 36% | 1,099 | 1,763 | 3% | 3,177.5 | 1,137.7 (37.3%) |
+
+**D. Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 701 | 722 | 750 | 791 | 805 | 819 | 869 | 881 |
+| OP | 154 | 266 | 232 | 260 | 280 | 294 | 334 | 341 |
+| OPM | 22% | 37% | 31% | 33% | 35% | 36% | 38% | 39% |
+| Other income | 379 | 141 | 546 | 209 | 187 | 136 | 572 | 331 |
+| PAT (incl. NCI) | 85 | 288 | 678 | 343 | 348 | 317 | 756 | 490 |
+
+- Read: OPM has risen for six straight quarters (31% → 39%). Q4 other income is large every year (FY26 Q4 ₹572 Cr) because of year-end AIF fair-value marks.
+
+**E. Annual-report findings (FY26 AR) [V-P]**
+- **P&L structure (standalone, ₹ Cr).**
+  - Employee cost ₹1,185.6 Cr = 38.85% of revenue (40.75% in FY25), with 6,000 employees.
+  - Advertising and promotion ₹380.8 Cr = 12.5% of revenue. This replaces the "15–20%" [K] in §4.1, which was too high.
+  - Network/direct costs ₹65.2 Cr; other expenses ₹172.9 Cr; D&A ₹89.1 Cr; finance cost ₹20.7 Cr (leases).
+  - CFO ₹1,469.3 Cr (+11.5%). Dividend ₹8.4/share (+40%).
+- **Exceptional and OCI:** see S12. Consolidated FY26: PBT ₹2,121.4 Cr, tax ₹358.6 Cr, PAT ₹1,762.8 Cr, OCI ₹2,053.5 Cr, **TCI ₹3,816.3 Cr**. **NCI in the balance sheet: ₹2,456.3 Cr** (external LPs in the AIFs).
+- **AIF book.**
+  - IEVI Fund II corpus ₹1,271.6 Cr: Info Edge group ₹567.5 Cr; MacRitchie (Temasek) ₹562.5 Cr; DFOSG ₹140.6 Cr.
+  - Capital 2B Fund I corpus ₹637.8 Cr.
+  - **IEVI Fund III** commitments ₹790.3 Cr so far, target ₹1,129 Cr.
+  - The AIFs are consolidated as controlled trusts, which is why consolidated PAT carries NCI.
+- **Ownership** (31-Mar-26): Bikhchandani 24.06%; Endeavour Holding Trust (Bikhchandani & Oberoi) 6.22%; family members ~1.1% each. Promoter group 37.19% at Sep-26 [V screener].
+- **Related parties:** routine items only (KMP remuneration, AIF/JV investments; e.g. ₹35 Cr CCPS in Akshamaala). No royalty or brand fee. **No credit rating** obtained (no debt).
+- **Contingent liabilities:** immaterial. The PF Supreme Court judgment is provided for prospectively; Allcheckdeals claims ₹0.13 Cr; routine IPR/consumer suits.
+- **Group simplification:** the merger of WOS Axilly, Diphda, Zwayam and Allcheckdeals is pending at NCLT (Part 1 noted this). After it, the PB Fintech shares held by Diphda (4.08%) will sit directly with Info Edge [E].
+- **Top risks** (AR and call): mid-tier hiring volume; AI search hitting third-party-traffic businesses (Shiksha); 99acres builder monetisation; Eternal/PB mark-to-market (OCI) and the holdco discount; an interim CFO.
+
+### 4.2.2 CarTrade Tech — CARTRADE
+
+**A. Management-commentary digest.** Source: Q1 FY27 call, 29-Jul-26 (BSE 68c07833) [V-P]. Speakers: Vinay Sanghi (CMD), Aneesha Bhandary (ED & CFO) and Varun Sanghi (CSO, now also Chairman of OLX India).
+
+*Guidance:*
+- **Long-term profit.** Reiterated **"₹1,000 Cr profit over the next 4–5 years"**: about 4× FY26 PAT, implying ~32–40% CAGR [E]. Internal **"40-40"** goal: 40% profit growth with a >40% margin. Claims **16 consecutive quarters of ≥45% EBITDA growth**.
+- **Margin seasonality.** April increments are absorbed in Q1, so "all incremental revenue in Q2, Q3, Q4 goes straight to EBITDA"; margins peak in Q4. Q1 cost escalation was 7%.
+- **Tax.** OLX is now fully taxable, while Consumer still has tax shelters for "a couple of years". **Consolidated ETR guide 23–24%.** Q1 carried a ₹7–8 Cr higher tax plus a ₹3 Cr labour-code charge.
+- **OLX.**
+  - Revenue +29%, EBITDA +76%, a "hero in the pack". Elite Buyer passed **100,000 paying buyers in a month**.
+  - **Mandatory paid plans for heavy "business buyers"** were to go live "in a few weeks": hundreds of thousands of buyers send 10–100+ buy requests each. Fees will be usage-based and standardised.
+  - **Elite Seller ≈ 25–30% of seller revenue.**
+  - Roadmap: escrow, logistics, payments and "buy now", with used-product loans to follow.
+- **Spinny and dealer partnerships.**
+  - Monetisation shifts from listing fees to **margin-share/commission** per transaction. More large-dealer-group partnerships are in negotiation, alongside 550 abSure/Signature outlets.
+  - CarTrade "is not in the business of … owning inventory". Spinny-specific terms and volumes were not disclosed.
+- **Used-car finance.** <20–25% of used-car buyers take organised loans; take rates are 2–3%. IDFC FIRST is live and more banks/NBFCs are coming, with no balance-sheet lending.
+- **Market.** Management sizes the used-car market at "5–6 Mn cars, likely 8–10 Mn in 4–5 years".
+- **Consumer (CarWale/BikeWale).** +18%. Traffic +7% YoY and up QoQ. OEM/dealer mix unchanged.
+- **Remarketing.** +13%; retail ~45%, repossession ~41%. Both are growing and Q1 is seasonally the weakest quarter.
+
+*Key Q&A:*
+1. OLX's 29% growth came on a soft base. Management stressed the record absolute revenue.
+2. Partner economics for Spinny: CarTrade supplies demand and digital journeys; Spinny supplies physical operations.
+3. Business-buyer attrition risk is managed by converting the heaviest users first ("there is no other platform in the country").
+4. Other-expense jump: an office move (temporary double rent) plus AI tooling. It is a new base but will not keep rising.
+5. VAYA AI runs small language models on CarTrade's own data, with "insignificant" incremental inference cost.
+6. The MAU confusion: an analyst quoted 55 Mn for Q4 vs 47 Mn now. Management said both YoY and QoQ are up and called the 55 Mn "the wrong number". **Writer: do not chart quarterly MAU without the deck footnote.**
+
+**B. KPI table (Q1 FY27)** [V-P deck and call]
+
+| KPI | Q1 FY27 | YoY | Note |
+|---|---|---|---|
+| Revenue / total income | ₹201.2 Cr / ~₹230 Cr (record) | +16% | Q4 FY26 ₹203.1 Cr |
+| EBITDA (margin) | ₹63.0 Cr (31%) | +45% | 25% in Q1 FY26 |
+| Adj. EBITDA | ₹97.5 Cr (42%) | — | includes OI; adds back SBP |
+| PAT (consolidated) / attributable | ₹56.8 Cr / ~₹51.2 Cr | +21% | |
+| Consumer revenue / EBITDA | ₹78.1 Cr / ₹25.9 Cr (33%) | +18% / +33% | traffic +7% |
+| Remarketing revenue / EBITDA | ₹67.2 Cr / ₹19.0 Cr (28%) | +13% / +38% | retail 45%, repo 41% |
+| OLX revenue / EBITDA | ₹62.2 Cr / ₹18.1 Cr (29%) | +29% / +76% | Elite Buyer >100K/month |
+| Users | ~80 Mn MAU; 95% organic | — | 3 properties with >150 Mn uniques/yr |
+| Cash | ₹1,321 Cr | — | zero debt |
+
+**C. Five-year history (screener consolidated, ₹ Cr) [V]**
+
+| FY | Revenue | OP | OPM | Other inc. | PAT | ROCE | Co. EBITDA | Co. adj. EBITDA [AR] |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 313 | −133 | −43% | 46 | −121 | −6% | — | — |
+| FY23 | 364 | 34 | 9% | 64 | 40 | 3% | — | — |
+| FY24 | 490 | 80 | 16% | 3 | 20 | 4% | — | — |
+| FY25 | 641 | 152 | 24% | 70 | 145 | 8% | ~151 | 241.4 (34%) |
+| FY26 | 779 | 258 | 33% | 84 | 244 | 12% | 257.0 | 363.0 (42%) |
+
+**D. Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 154 | 176 | 170 | 173 | 193 | 210 | 203 | 201 |
+| OP | 33 | 50 | 46 | 44 | 64 | 78 | 72 | 63 |
+| OPM | 21% | 28% | 27% | 25% | 33% | 37% | 35% | 31% |
+| Other income | 18 | 17 | 20 | 25 | 29 | 12 | 18 | 26 |
+| PAT | 31 | 46 | 46 | 47 | 64 | 62 | 71 | 57 |
+
+- Read: revenue has been flat for three quarters (₹210 → 203 → 201 Cr) despite strong YoY prints. Q3 is the seasonal peak. Q2 FY27 (results 28-Oct) is the test of the "Q2–Q4 > Q1" claim.
+
+**E. Annual-report findings (FY26 AR) [V-P]**
+- **Subsidiaries (AOC-1, ₹ Cr):**
+  - **SAMIL** (55.43%): turnover 197.8, PAT 31.6.
+  - **OLX India / Sobek** (100%): turnover 217.6, PAT 82.0.
+  - **CarTrade Exchange and Adroit** (55.43%, held via SAMIL): PAT 11.9 and 1.3.
+  - Other small entities.
+- **Related party:** Shriram Finance Ltd (44.57% owner of SAMIL; CRISIL AAA) is SAMIL's largest institutional seller. The AGM (Sep-26) approved material RPT caps of **₹362.6 Cr (SAMIL–SFL)** and **₹81 Cr (CTE–SFL)**, covering business-sourcing fees, interest on SFL FDs/NCDs and reimbursements. **Lender concentration risk** in Remarketing is therefore partly a related-party dependence on one NBFC [E].
+- **Capacity:** 500+ physical locations (Automall yards, abSure, OLX outlets); 1.7 Mn listings; >2.5 lakh vehicles transacted; ~2 lakh registered buyers.
+- **Contingent liabilities:** small (income tax, service tax ₹0.48 Cr, GST ₹1.27 Cr) plus a **DGGI show-cause notice for ₹14.8 Cr** alleging ineligible ITC on the IPO offer-for-sale expenses. Management says it is remote.
+- **No credit rating** (no debt). **No promoter.**
+- **Risks named:** auto-cycle and OEM ad budgets; repossession cycle; AI answering research queries; fraud/trust on OLX; execution of buyer monetisation (attrition).
+
+### 4.2.3 IndiaMART InterMESH — INDIAMART
+
+**A. Management-commentary digest.** Source: Q1 FY27 webinar, 21-Jul-26 (BSE 0c7c99e2) [V-P]. Speakers: Dinesh Agarwal (CEO), Brijesh Agrawal (WTD, Busy), Jitin Diwan (CFO), Prateek Chandra (CSO).
+
+- **Supplier base.**
+  - Net −1,850 paying suppliers, from moderated gross adds plus elevated **Silver churn (~7%/month, unchanged)**.
+  - Gold + Platinum (≈50% of customers, >75% of revenue) keep upgrading and retaining well.
+  - Management **will not push gross adds until product-market fit improves for entry tiers**: "acquiring same customer with double the intensity will make the CAC go higher and the LTV go lower". **Expect net supplier counts to stay flat to negative for several quarters** [E from tone]. Verification and segmentation fixes "will probably be visible after a year or so".
+- **Margins.** EBITDA 35% is "elevated on account of savings arising from lower customer acquisition and operating leverage". Lower acquisition spending is the **flip side of the supplier stall**.
+- **Buyer side (the AI question).**
+  - "Now there is a shortage of enquiry … started to face recently." UBE −11%, active buyers −5%; ~4–5 pts come from OTP-gating the buyers.
+  - Google's mobile SERP "non-links" (popular products, Q&A, sponsored) push IndiaMART below the first fold even when it ranks #1–2. "Google also is a little bit under pressure from ChatGPT".
+  - IndiaMART stopped reporting traffic ~a year ago because bot, agent and LLM traffic cannot be classified.
+  - Ad spend is ₹7–8 Cr/quarter, targeted at top-10% monetisable categories. Expansion to Meta/Instagram/YouTube is planned.
+  - On LLMs: it is a "two-way sword": blocking risks omission, exposing data gives "very little in return". Agarwal hopes for a "hybrid" Google/Gemini outcome and would not comment on regulation.
+- **Quality metrics.**
+  - 90-day buyer repeat 58–59% (up from 50–51%).
+  - Survey: 40–45% of responding buyers procured via IndiaMART (2% response rate).
+  - Of ~40 Mn active buyers, only ~10 Mn are GST-verified business buyers.
+  - Paid sellers are 99% email/phone/GST-verified. Bank-account verification is starting (>50% within a year). Buyer payment protection is up to ₹5 lakh for TrustSEAL sellers.
+- **AI.** An agentic voice call centre handles >1 lakh calls/day (the manual centre did ~80K), used for buyer verification and intent capture rather than cost savings. Other uses: content aggregation/audit and trust.
+- **New businesses.**
+  - **IndiaMART Finance Ltd (WOS)** is an LSP for short-term transaction credit with partner lenders; there are no plans for large own-book lending.
+  - A paid buyer programme is in voluntary experiment.
+- **Busy.**
+  - Q1 billing ₹59 Cr (+10%; normalised ~30% after a ₹10 Cr one-time win-back in Q1 FY26); revenue ₹36 Cr (+47%); deferred ₹146 Cr (+44%).
+  - 12K new licences in the quarter; 4.54 lakh cumulative. Licence growth target 15–20%.
+  - Guidance: **27–30% revenue CAGR for two years; aspiration 35–40%**. Tally holds 60–70% share. "Busy Magic" UI launched; a cloud version is coming.
+- **Strategic investments:** Fleetx (16–17% → 22%), Bizom (10% → 32%), SuperProcure, Aerchain (follow-ons), M1xchange (capped at 10%), IDfy, Vyapar, Realbooks, Livekeeping, EasyEcom. No large new programme is planned.
+
+**B. KPI table (Q1 FY27)** [V-P deck and webinar]
+
+| KPI | Q1 FY27 | YoY | Note |
+|---|---|---|---|
+| Consolidated revenue / collections | ₹414 Cr / ₹463 Cr | +11% / +8% | standalone collections ₹402 Cr (+8%) |
+| Deferred revenue (consolidated) | ₹2,014 Cr | +16% | |
+| EBITDA (margin) | ₹146 Cr (35%) | +10% | "elevated" (lower CAC) |
+| Other income / PAT | ₹107 Cr / ₹172 Cr | — / +12% | MTM gain |
+| Paying suppliers (net change) | 218K (−1,850) | ~0% | Silver churn ~7%/month |
+| ARPU | ₹69K | +9% | |
+| Unique business enquiries | 26 Mn | **−11%** | ~4–5 pts from OTP |
+| Active buyers (LTM) | 41 Mn | **−5%** | ~10 Mn GST-verified |
+| Business enquiries delivered | 85 Mn | −13% | |
+| 90-day repeat buyers | 58–59% | up | |
+| Cash and treasury | ₹3,553 Cr | — | |
+
+**C. Five-year history (screener consolidated, ₹ Cr) [V]**
+
+| FY | Revenue | OP | OPM | Other inc. | PAT | ROCE | Co. EBITDA | Collections | Deferred rev. |
+|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 753 | 296 | 39% | 112 | 298 | 22% | 308 | 934 | 907 |
+| FY23 | 985 | 230 | 23% | 181 | 284 | 19% | 268 | 1,219 | 1,162 |
+| FY24 | 1,197 | 291 | 24% | 209 | 334 | 24% | 331 | 1,474 | 1,440 |
+| FY25 | 1,388 | 474 | 34% | 272 | 551 | 34% | 523 | 1,626 | 1,678 |
+| FY26 | 1,569 | 475 | 30% | 204 | 475 | 28% | 530 | 1,857 | 1,965 |
+
+**D. Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 348 | 354 | 355 | 372 | 391 | 402 | 404 | 414 |
+| OP | 122 | 124 | 119 | 119 | 116 | 120 | 120 | 132 |
+| OPM | 35% | 35% | 34% | 32% | 30% | 30% | 30% | 32% |
+| Other income | 66 | 45 | 109 | 92 | 10 | 135 | −34 | 107 |
+| PAT | 135 | 121 | 181 | 154 | 83 | 188 | 50 | 172 |
+
+- Read: OP has been flat at ₹116–132 Cr for eight quarters while revenue rose 19%. All of the margin compression happened in FY26: labour code ₹8.6 Cr, a doubled ESOP charge and Busy consolidation at a 17% margin. Q1 FY27 rebounded on lower acquisition spend. **PAT volatility is almost entirely treasury MTM.**
+
+**E. Annual-report findings (FY26 AR) [V-P]**
+- **Labour codes:** ₹8.58 Cr (gratuity ₹5.04 Cr + leave ₹3.54 Cr) charged in employee benefit expense; **no exceptional line**. Further impact is possible once the rules are notified.
+- **ESOP:** standalone SBP ₹34.7 Cr (FY25 ₹16.9 Cr); subsidiaries ₹1.9 Cr. **ESOP ≈ 2.2% of consolidated revenue** [E].
+- **Group structure:** under a composite scheme (board approval 28-Mar-24, NCLT-sanctioned), wholly-owned subsidiaries Busy Infotech and Hello Trade were amalgamated into **Tolexo Online Pvt Ltd** (also a WOS), which now carries the Busy business. The "Busy" KPIs in the deck therefore describe a subsidiary that also includes the former Tolexo and Hello Trade entities. Strategic minority stakes are held at FVTPL or as associates.
+- **Contingent liabilities:** service tax/GST demands of ~₹5.9 Cr (Mar-25 basis). Immaterial.
+- **No debt and no credit rating** obtained. Treasury is in debt funds, SDL/gilt index funds and bonds, hence the MTM volatility.
+- **Risks** (AR R-framework): competition and market leadership, technology/AI disruption, data security, regulatory, and talent.
+
+### 4.2.4 Just Dial — JUSTDIAL
+
+**A. Management-commentary digest.** **No earnings call has been transcribed since Apr-2025**, so this digest uses the Q1 FY27 deck (11-Jul-26) [V-P] and the Q2 FY27 press release and deck (19-Oct-26) [V-P, pass 1]. Paraphrased.
+- **Leadership reset under Reliance:**
+  - CEO Dinkar Ayilavarapu: designate from 10-Jul-26, CEO from 1-Aug-26. Ex-Flipkart Wholesale head and Group Head of Strategy; 15 years at Bain [V-snip].
+  - CFO Dinesh Taluja from 11-Jul-26, previously an RRVL-nominated NED.
+  - Founder V.S.S. Mani's MD & CEO term ended 31-Jul-26; he stays on the board as a non-executive director.
+  - **Both new CXOs are Reliance-network hires**, which signals tighter RRVL operating control [E].
+- **Strategy in the Q2 release:** "merchant success" through AI CRM and lead tools, WhatsApp onboarding and quotes, AI review responses, and JD Mart conversational RFQ. AI, automation and B2B were ~⅓ of incremental spend in Q2.
+- **No numeric guidance is given.**
+
+**B. KPI table (Q1 → Q2 FY27)** [V-P]
+
+| KPI | Q1 FY27 (YoY) | Q2 FY27 (YoY) |
+|---|---|---|
+| Operating revenue | ₹327.5 Cr (+9.7%) | ₹342.8 Cr (+13.1%) |
+| Operating EBITDA (margin) | ₹87.4 Cr (26.7%, −232 bp) | ₹90.7 Cr (26.4%, −228 bp) |
+| Operating PBT | ₹75.2 Cr (+5.0%) | ₹80.0 Cr (+8.6%) |
+| Other income | ₹131.5 Cr | ₹54.6 Cr |
+| PAT | ₹166.3 Cr (+4.1%) | ₹107.8 Cr (−9.7%) |
+| Unearned (deferred) revenue | ₹540.1 Cr (+1.0%) | ₹526.1 Cr (flat) |
+| Cash and investments | ₹6,022 Cr | ₹6,114 Cr |
+| Paid campaigns | 639,200 (+3.5%) | 656,520 (+5.2%) |
+| Unique visitors | 192.9 Mn (−0.2%) | 198.4 Mn (+0.4%) |
+| App downloads/day | 6,994 (−8.1%) | 6,363 (−21.9%) |
+| Employees / of which sales | 13,337 / 10,965 (+7.8%) | n/a in pass 1 |
+
+**C. Five-year history (screener standalone, ₹ Cr) [V]**
+
+| FY | Revenue | OP | OPM | Other inc. | PAT | ROCE |
+|---|---|---|---|---|---|---|
+| FY22 | 647 | −2 | −0.3% | 122 | 71 | 0% |
+| FY23 | 845 | 86 | 10% | 142 | 163 | 2% |
+| FY24 | 1,043 | 217 | 21% | 305 | 363 | 5% |
+| FY25 | 1,142 | 335 | 29% | 387 | 584 | 7% |
+| FY26 | 1,214 | 358 | 29% | 313 | 497 | 7% |
+
+**D. Eight-quarter trend (screener standalone, ₹ Cr) [V]**
+
+| Qtr | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 | Sep-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 287 | 289 | 298 | 303 | 306 | 307 | 327 | 343 |
+| OP | 87 | 86 | 86 | 87 | 95 | 89 | 87 | 91 |
+| OPM | 30% | 30% | 29% | 29% | 31% | 29% | 27% | 26% |
+| Other income | 77 | 109 | 127 | 73 | 64 | 49 | 131 | 55 |
+| PAT | 131 | 158 | 160 | 119 | 118 | 100 | 166 | 108 |
+
+- Read: revenue growth accelerated from +3.7% (Q1 FY26) to +13.1% (Q2 FY27), but OP is flat at ~₹87–95 Cr. **The extra revenue is being spent on sales headcount (+7.8%) and AI**, and the margin has fallen ~3 pp in two quarters. This is the new CEO's investment phase.
+
+**E. Annual-report findings (FY26 AR) [V-P]**
+- **Ownership:** RRVL 63.84%, Mani 7.61% (see S14). Directors' report signed 13-Apr-26 with Mani still MD & CEO.
+- **Related parties:** dealings with Reliance group companies are **negligible**: purchase of services from Jio Platforms ₹0.62 Cr and Jio Things ₹0.79 Cr. **No revenue from Reliance; no royalty; no shared-services charge.** Five years after the takeover there is **no visible commercial integration** with JioMart, Jio or Reliance Retail [E].
+- **KMP remuneration:** Mani ₹3.0 Cr; then-CFO Abhishek Bansal ₹5.2 Cr.
+- **Structure:** "The Company does not have any subsidiary", which confirms that standalone accounts are the only basis.
+- **Contingent liabilities:** claims not acknowledged as debts ₹2.43 Cr. Immaterial.
+- **Treasury:** almost entirely target-maturity SDL/gilt index funds and debt funds (e.g. Aditya Birla Nifty SDL Apr-2027 ₹335 Cr; Axis CRISIL IBX SDL May-2027 ₹178 Cr), which explains the MTM swings with yields.
+- **No dividend, no buyback, no credit rating.**
+- **Traffic mix (AR):** mobile 86.5%, desktop 10.6%, voice 2.9% (Q1 FY27 basis).
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**I1. India advertising, CY2025 (FICCI-EY, released 24-Mar-26)** [V-P EY newsroom; V-S Storyboard18 for the 64% share]
+- Total advertising ≈ ₹1.5 lakh Cr (+13%; 0.41% of GDP).
+- Digital advertising ₹94,700 Cr (+26%), ≈63% of the total.
+  - Of which search + social (Google- and Meta-led) **64%** ≈ ₹60,600 Cr [E].
+  - E-commerce and point-of-sale ads ₹22,000 Cr (+50%) = 23% of digital (20% in 2024).
+  - SME and long-tail advertisers (~1 Mn) ₹36,300 Cr.
+- Linear TV ads −10%; print ads +2%. M&E sector ₹2.78 lakh Cr (+9%) → ₹3.3 lakh Cr by 2028 (>7% CAGR).
+- **Implication:** the residual "everyone else" pool, after Google/Meta and retail media, is ≈ ₹12,000 Cr [E], of which the four members' advertising-type revenue is a minority. **Classifieds compete for the SME long-tail budget (₹36,300 Cr) that Meta says is 92% of its India advertiser base.**
+- Cross-check of booked revenue (FY25, gross, RoC filings) [V-snip]: Google India ₹34,742 Cr; Meta India ~₹29,392 Cr; Amazon ads ~₹8,342 Cr; LinkedIn India ~₹1,010 Cr.
+
+**I2. Residential (Anarock top-7, Q3 CY26 vs Q3 CY25)** [V-S Business Today 29-Sep-26]
+
+| Metric | Q3 CY25 | Q3 CY26 | YoY |
+|---|---|---|---|
+| Sales (units) | 97,080 | 1,00,220 | +3% (QoQ +10%) |
+| Sales value (₹ lakh Cr) | 1.52 | 1.55 | +2% |
+| Launches (units) | 96,690 | 1,14,320 | +18% |
+| Unsold inventory (units) | 5,61,760 | 6,30,590 | +12% |
+| Average price (₹/sq ft) | 9,105 | 9,714 | +7% |
+
+- City detail: MMR sales 31,750 (+5%) and launches ~37,500 (+27%); Bengaluru 16,670 (+12%); Hyderabad sales +15% and launches 18,950 (+120%). Pune, NCR, Chennai and Kolkata sales fell; NCR prices +12%.
+- Price mix of new supply: ₹80 lakh–₹1.5 Cr 34%; ₹1.5–2.5 Cr 24%; ₹40–80 lakh 17%; <₹40 lakh 14%.
+- PropEquity top-9 Q3 CY26: 1,03,170 (−5.7%) [V-snip].
+- Read for 99acres: launches and inventory are up while sales are flat, which is good for builder and broker advertising. But NCR, 99acres' largest market, saw sales fall.
+
+**I3. Hiring (Nasscom FY26; JobSpeak)** [V-S]
+- Tech industry $315 bn (+6.1% on a restated $297 bn). IT services $149 bn, BPM $59 bn, ER&D $63 bn, products $23 bn, hardware $21 bn. Exports $246 bn (+5.6%); domestic +7.9%.
+- Headcount 59.5 lakh (+2.3%); **net adds 1.35 lakh (FY25 1.33 lakh)**. AI revenue $10–12 bn.
+- JobSpeak YoY: Jan-26 +3%, Feb-26 +12% [V-snip titles], Sep-26 +2% (3,053) with AI/ML +20%, IT/software −4%, education −18%, auto +11%, BPO and GCC +4%.
+
+**I4. Autos** [V-S CRISIL via Autocar Pro; V-snip IANS]
+- Used cars: FY27E >7 Mn (+7–9%) → FY26 ≈ 6.4–6.5 Mn [E]. Organised share ~26% (FY22 20–21%). First-time buyers ~⅔.
+- New PVs FY26: 4.64 Mn (+~8%). Used:new ≈ 1.4× (mature markets 2.5–3.5×).
+- Two-wheelers FY26: 2.17 Cr (+10.7%) and CVs >10 lakh (+12.6%) (CarTrade AR, citing SIAM) [V-P].
+- Organised used-car finance penetration <20–25%; take rates 2–3% (CarTrade management).
+
+**I5. Global classifieds benchmarks (latest FY)**
+
+| Company | Revenue | Op. margin | Pricing KPI | Source |
+|---|---|---|---|---|
+| Auto Trader (UK), FY to Mar-25 | £601.1m (+5%); core £564.8m (+7%) | Group 63%; core 70% (72% ex-DST) | ARPR £2,854/month (+5%); 14,013 forecourts | FCA RNS [V-P] |
+| Rightmove (UK), CY2025 | £425.1m (+9%) | Underlying 70%; 2026 guide: revenue +8–10%, op profit +3–5% (~£12m extra AI/product spend) | ARPA £1,621/month (+6%) | [V-snip] |
+| Naukri recruitment (India), FY26 | ₹2,255.9 Cr (~$238m at ₹94.9) | 56.6% (Q1 FY27 58.3%) | Realisation ~₹1.46 lakh/customer/yr | IE AR [V-P] |
+| Matrimony.com (India), FY26 | ₹460 Cr | OP 11% | — | screener [V] |
+
+- Read: even the 70%-margin UK leaders are **guiding margins down to fund AI** (Rightmove 2026). Naukri's management says the same ("we don't want to slow down our investments in AI"). The "AI capex tax" on classifieds margins is global.
+
+**I6. Policy timeline (primary)**
+- DPDP Rules notified 14-Nov-25 (PIB; gazette dated 13-Nov) → consent managers from ~13/14-Nov-26 → substantive obligations from ~13/14-May-27. Penalties up to ₹250 Cr / ₹200 Cr / ₹50 Cr [V-P].
+- Labour codes effective 21-Nov-25; rules still not notified as of the FY26 ARs, so further gratuity true-ups are possible (IndiaMART AR) [V-P].
+- Digital Competition Bill: on the backburner (Jul-26); a CCI digital market study is under consideration [V-snip].
+
+---
+
+## 4.4 Gap log (each §H item)
+
+| §H # | Item | Status | Source / what was tried |
+|---|---|---|---|
+| 1 | Info Edge deferred revenue; FY26 standalone op PBT by segment; core ex-treasury | **Filled for Mar-26** (deferred ₹1,500.0 Cr standalone; op PBT ₹1,137.7 Cr; segments S6; core post-tax ~₹851 Cr). **Jun-26 deferred: still open**: the quarterly deck has no balance sheet; it will appear in the H1 balance sheet with the Q2 results (~mid-Nov). | IE FY26 AR [V-P] |
+| 2 | Current Eternal and PB stakes and market value | **Filled.** Eternal 12.38% direct = 119.47 Cr shares (Sep-26) + 0.05% NISL; PB 12.42% = 5.75 Cr shares (Sep-26). Value ≈ ₹38,025 + ₹5,836 = ₹43,861 Cr at 23-Oct prices. | Sep-26 SHPs via MarketsMojo [V-S]. The BSE shareholding pages are JavaScript-rendered and the BSE API returned "Access Denied" to curl, so the BSE primary itself was not readable. |
+| 3 | Portfolio ₹41,300 Cr / 8.4× / ₹4,900 Cr: date and source | **Filled.** FY26 AR shareholder letter (₹49 bn deployed; ₹413 bn value; 135 companies), FY26 basis. | IE FY26 AR [V-P] |
+| 4 | Justdial promoter split; CEO-change date | **Filled.** RRVL 63.84%, Mani 7.61% (Mar-26 AR). CEO-designate 10-Jul-26, CEO 1-Aug-26; CFO 11-Jul-26. The Sep-26 split was not separately confirmed (total 74.14% unchanged). | JD FY26 AR; Q1 FY27 deck [V-P] |
+| 5 | CarTrade SAMIL stake; auction-volume period | **Filled.** 55.43%, with Shriram Finance holding 44.57%. Deck volume is an annual run-rate (FY26 AR: 1.7 Mn listings, >2.5 lakh transacted). | CarTrade FY26 AR [V-P] |
+| 6 | IndiaMART labour code, ESOP, Q1 UBE/active-buyer sign | **Filled.** ₹8.58 Cr in employee cost (no exceptional); SBP ₹34.7 Cr; UBE −11%, active buyers −5%. | IM FY26 AR; Q1 webinar [V-P] |
+| 7 | Market shares (Naukri, IndiaMART; Google + Meta) | **Partly filled.** Google/Meta-led search + social = 64% of digital ads [V-S]. 99acres web time share 51% [V-P]. **Still open:** a current Naukri share of online recruitment (only company claims: "#1"; the last numeric claim was ~72% traffic share in FY18 [V-snip]) and a current IndiaMART share (only the KPMG FY17 ~60% from the 2019 DRHP [V-snip]). The FY26 ARs give no numeric share for Naukri or IndiaMART (searched). | ARs; web search |
+| 8 | Classifieds market sizes by vertical | **Mostly still open.** Data points found: the 99acres new-project marketing pool is ">₹5,000 Cr" (IE management) [V-P]; KPMG-Google 2016 put digital classifieds at ~₹2,900 Cr (FY15) → ₹7,700–7,900 Cr (FY20E) [V-snip]; Ken Research gives US$2.8 bn (2025/26) [V-snip, low quality]. No RedSeer vertical split is free to read. **Keep §2.2 as [E].** | web search |
+| 9 | India-specific AI Overview / zero-click data | **Still open as a statistic.** Google's own India post (24-Jun-25): AI Overviews drive ">10% increase in usage" for the query types where they appear, in the US and India; AI Mode launched in India in English (Labs) [V-P]. **Company evidence is now primary:** Info Edge says Shiksha lost "referred search traffic from Google"; IndiaMART says Google mobile SERP features push it below the fold and it stopped reporting traffic because of bot/LLM noise [V-P calls]. | blog.google; calls |
+| 10 | FY26 used-car actual | **Partly filled.** CRISIL (Aug-26): FY27 >7 Mn at +7–9% → FY26 ≈ 6.4–6.5 Mn [E]. No published FY26 actual found. | Autocar Pro [V-S] |
+| 11 | Digital Competition Bill; DPDP timeline | **Filled.** DPDP from PIB [V-P]; DCB "backburner" (BT 6-Jul-26) [V-snip; no MCA primary found]. | PIB; web |
+| 12 | Conflicts: IE Q4 OCI; PropEquity vs Anarock | **Filled.** ₹18,161 Cr confirmed [V-P]. Housing: different city sets and a PropEquity base restatement; prefer Anarock. | Q1 results note; BT |
+| — | Extra re-verifications | FICCI-EY [V-P]; Anarock [V-S]; Nasscom [V-S]; JobSpeak [V-S, pass 1]; Spinny [V-P]; IE Q2 billings [V-S, multi-source, arithmetic ✓]; JD Q2 [V-P, pass 1] | — |
+
+**Still open, with a reason:**
+- (a) Info Edge Jun-26 deferred revenue: not disclosed.
+- (b) Current numeric shares for Naukri and IndiaMART: none published.
+- (c) Vertical market sizes: paywalled.
+- (d) India zero-click statistic: none public.
+- (e) FY26 used-car actual: not yet published.
+- (f) The BSE PDF of the Info Edge Q2 billings update itself: not fetched (BSE API blocked); figures cross-verified across six outlets.
+
+---
+
+## 4.5 New insights the first pass missed
+
+1. **Info Edge's management states the AI-risk test in one sentence.** Where Info Edge owns both sides of the marketplace, AI helps; where traffic came through a channel it did not own (Shiksha via Google), AI hurts. Combine this with IndiaMART's admission that Google's SERP "non-links" push it below the mobile fold even when it ranks #1–2, and that it stopped reporting traffic because of bot/LLM noise. Together they make the B2 framework **management-sourced rather than analyst inference**.
+2. **IndiaMART's margin is being bought with the supplier stall.** Q1 EBITDA (35%) was "elevated" *because* customer-acquisition spend fell. Management will not push gross adds while Silver churn is ~7% a month. Margin and supplier growth are therefore a trade-off, not two independent levers. FY26's margin dip was partly accounting (ESOP doubled to ₹34.7 Cr; labour code ₹8.6 Cr).
+3. **CarTrade's Remarketing arm is half-owned by its biggest customer.** Shriram Finance owns 44.57% of SAMIL and is its anchor institutional seller (AGM-approved RPT cap ₹362.6 Cr). This is good for volume, but a concentration and governance point the dossier missed. It also means ~45% of Remarketing profits leak to NCI.
+4. **CarTrade's own target implies ~32–40% profit CAGR** (₹1,000 Cr in 4–5 years from ₹244 Cr). The 57.6× P/E therefore prices roughly management's own plan, and the "Q2–Q4 > Q1" seasonality claim gets tested on 28-Oct.
+5. **Justdial after the founder.** Both new CXOs (CEO 1-Aug-26; CFO 11-Jul-26) come from the Reliance/Flipkart network, the founder is now non-executive, and RRVL related-party business is near zero (₹1.4 Cr). The capital-allocation question (₹6,114 Cr cash, zero payout, promoter at 74.14% against the 75% MPS cap) now sits with a Reliance-appointed team. That raises the odds of either a payout or a corporate action, but nothing has been announced. Note also that **Justdial no longer hosts earnings calls** (none transcribed since Apr-2025).
+6. **99acres: the competitive field changed in 2026.** Housing.com (REA-backed, burning ~₹250 Cr a year) was sold to Aurum PropTech, and 99acres' web time share rose from 32% (Jun-24) to 51% (Mar-26). Yet 99acres still has **no underlying profitable quarter** (Q4 FY26's "profit" was a ₹20 Cr accounting one-off), and builder budgets go to Facebook/Google. The breakeven story depends on FY27 execution.
+7. **Naukri's growth is a third each from price, volume and new products, and the AI products are being priced per outcome** (₹3,500 per AI-Rex mandate). This is the first Indian classifieds AI SKU with a disclosed price. Cannibalisation of Resdex upgrades is acknowledged but unquantified.
+8. **Global read-across:** Rightmove guides 2026 operating-profit growth (3–5%) below revenue growth (8–10%) to fund AI. Margin dilution to fund AI is now a global classifieds pattern, which is relevant to how far Naukri's 58% margin can expand.
+
+### New primer issues (format as primer-issues.md)
+
+### From Internet Platforms deep-research pass (2026-10-24, internet-platforms-industry.md Part 4)
+
+- **info-edge.html — portfolio date and composition:**
+  - "~₹41,300 Cr (Jun '26)" should read "~₹41,300 Cr per FY26 annual report (135 companies; ~₹4,900 Cr deployed incl. AIFs)".
+  - Listed stakes at 31-Mar-26 were ₹35,676 Cr (cost ₹714 Cr); unlisted/AIF ≈ ₹5,624 Cr.
+  - Use Sep-26 basic stakes (Eternal 12.38% direct + 0.05%; PB 12.42%), not the diluted 12.43% / 12.12%.
+- **info-edge.html — 99acres "turned EBIT-positive" is wrong even for Q4 FY26.** Management said Q4's ~₹3 Cr profit included a ~₹20 Cr one-off accounting adjustment (underlying loss ~₹17 Cr). FY26 segment loss −₹59.2 Cr; Q1 FY27 −₹2 Cr. Add Housing.com's sale to Aurum and the 51% web time share.
+- **info-edge.html — add the FY26 standalone segment table** (op PBT: Recruitment ₹1,277 Cr; RE −₹59 Cr; Matchmaking −₹4 Cr; Education +₹13 Cr) and **deferred revenue ₹1,500 Cr**. Add a warning that **standalone FY26 PAT (₹5,536 Cr) includes a ₹5,168 Cr exceptional gain** on the Makesense–PB amalgamation.
+- **info-edge.html — management:** CFO is interim (Ambarish Raghuvanshi). Add the AI-Rex pricing (₹3,500/mandate), Job Hai economics (~₹15 Cr revenue, ~₹50 Cr burn) and the ⅓-⅓-⅓ growth decomposition.
+- **cartrade-tech.html:**
+  - SAMIL ownership is **55.43%; Shriram Finance holds 44.57%** and is a material related party (RPT cap ₹362.6 Cr).
+  - Add management's **₹1,000 Cr profit in 4–5 years** target and consolidated ETR guidance of 23–24%.
+  - Remarketing scale: 1.7 Mn listings, >2.5 lakh vehicles a year.
+  - Adjusted EBITDA definition (includes other income; adds back SBP ₹15.5 Cr).
+- **indiamart-intermesh.html:**
+  - Q1 FY27 unique business enquiries **−11%** and active buyers **−5%**; Silver churn ~7%/month; management will not push gross adds.
+  - Labour code ₹8.6 Cr sits inside employee cost (not exceptional); ESOP doubled to ₹34.7 Cr.
+  - New WOS IndiaMART Finance Ltd (LSP).
+  - Busy guidance 27–30% CAGR.
+  - Busy now sits inside Tolexo Online after the amalgamation.
+- **justdial.html:**
+  - Promoter split **RRVL 63.84%, Mani 7.61%**.
+  - **CEO Dinkar Ayilavarapu from 1-Aug-26 (designate 10-Jul); CFO Dinesh Taluja from 11-Jul-26**; Mani's MD & CEO term ended 31-Jul-26.
+  - Justdial holds **no earnings calls** (no transcripts since Apr-2025).
+  - Reliance RPTs negligible (₹1.4 Cr).
+  - Sales headcount +7.8% (10,965), with the margin down ~3 pp in two quarters.
+- **All four primers:** none of the four companies has a credit rating (no debt).
+
+### Part 4 source URLs (fetched this pass)
+- Info Edge FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/a1e5af8e-9b28-475f-aca2-fbf49bd74bab.pdf
+- Info Edge Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d1f5c76-a45b-47ae-9339-94dcd6f7468a.pdf
+- CarTrade FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/f273031a-2875-4363-ad35-b8665816e187.pdf
+- CarTrade Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68c07833-c537-4796-acb6-47925e91e6c0.pdf
+- CarTrade–Spinny PR: https://nsearchives.nseindia.com/corporate/CARTRADE_29072026080944_CarTrade_-_Spinny_Revised_PR.pdf
+- IndiaMART FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/63748427-df36-415f-b060-bf630894730f.pdf
+- IndiaMART Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c7c99e2-b516-4077-b9ff-61349aab22ef.pdf
+- Justdial FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/073abfcd-677d-48a9-ba9e-20f3a2e3a8f5.pdf
+- Justdial Q1 FY27 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18db7b36-d0cb-435b-8cac-2813360caa19.pdf
+- Eternal SHP Sep-26: https://marketsmojo.motilaloswal.com//stocks-analysis/financial-shareholding/eternal-1003511-0 ; PB Fintech SHP Sep-26: https://marketsmojo.motilaloswal.com//stocks-analysis/financial-shareholding/pb-fintech-1003562-0
+- FICCI-EY release: https://www.ey.com/en_in/newsroom/2026/03/india-s-media-and-entertainment-sector-grew-9-percent-to-inr-2-point-78-trillion-in-2025-driven-by-digital-and-live-experiences-ficci-ey-report ; Google/Meta 64%: https://storyboard18.com/advertising/google-meta-claim-64-of-india-digital-ads-as-e-commerce-surges-93065.htm
+- Anarock Q3 CY26: https://www.businesstoday.in/real-estate/story/housing-sales-in-top-seven-cities-rise-3-percent-on-year-in-q3-mumbai-records-highest-sales-558274-2026-09-29
+- Nasscom FY26: https://www.etvbharat.com/en/business/india-fy26-tech-revenues-hit-usd-315-billion-enn26022404879
+- DPDP (PIB): https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf
+- CRISIL used cars: https://www.autocarpro.in/news/indias-organised-used-car-market-seen-growing-7-9-percent-in-fy27-crisil-ratings-133909
+- Google AI Mode India: https://blog.google/intl/en-in/products/google-search-introducing-ai-mode-in-india/
+- Auto Trader FY25 RNS: https://data.fca.org.uk/artefacts/NSM/RNS/5672441.html
+- Matrimony.com: https://www.screener.in/company/MATRIMONY/consolidated/
+- [V-snip only]: Justdial CEO press (peoplematters/angelone); PropEquity (realtyhunting); Digital Competition Bill (businesstoday 6-Jul-26); Rightmove FY25 (propertyindustryeye/onlinemarketplaces); IndiaMART Q2 webinar intimation (nsearchives INDIAMART_20102026172324); Google/Meta India gross ad revenue (storyboard18/exchange4media); new PV FY26 (IANS).
+
+*End of Part 4.*
+
+---
+
+# PART 5 — Orchestrator re-add of aggregates (2026-10-24, after applying Part 4 Supersedes)
+
+I re-added every Part 3 aggregate from the company rows. All sums in §3.1, §3.2(a) and §3.2(b) are arithmetically correct; no errors were found. Every row is screener FY26 consolidated, except Justdial standalone; m-cap is the 23-Oct-26 close.
+
+**Supersedes that affect the aggregates:**
+- **CarTrade attributable PAT** is ~₹223 Cr (S17), not ~₹225 Cr. Group attributable PAT = 1,450 + 223 + 475 + 497 = **₹2,645 Cr**. Group m-cap ÷ attributable PAT = 1,06,109 ÷ 2,645 = **40.1×** (unchanged at one decimal).
+- **Info Edge listed stakes** = ₹43,861 Cr (S1, Sep-26 basic holdings at 23-Oct prices), not ₹43,766 Cr. That is 57.0% of Info Edge's m-cap. Implied core value range (S4): ₹22,416–28,867 Cr.
+- **The writer must use reported (consolidated) PAT in every row and total:** ₹2,979 Cr (all four); ₹1,216 Cr ex-Info Edge; ₹972 Cr for IndiaMART + Justdial; ₹2,482 Cr ex-Justdial. Attributable PAT goes in a separate column only.
+- **Subgroup labels must not use the words "pair", "two", "three" or "trio".** Use "SME lead-gen (IndiaMART + Justdial)", "Prepaid subscription (Info Edge + IndiaMART + Justdial)", "Ex-Info Edge" and "Ex-Justdial".
+
+**Check sums:**
+
+| Item | Sum |
+|---|---|
+| Revenue | 3,285 + 779 + 1,569 + 1,214 = 6,847 |
+| Operating profit | 1,186 + 258 + 475 + 358 = 2,277 |
+| Other income | 1,099 + 84 + 204 + 313 = 1,700 |
+| PAT | 1,763 + 244 + 475 + 497 = 2,979 |
+| M-cap | 76,935 + 13,711 + 9,459 + 6,004 = 1,06,109 |
+| Treasury | 5,034 + 1,321 + 3,553 + 6,114 = 16,022 |
+| Q1 FY27 revenue | 881 + 201 + 414 + 327 = 1,823 |
+| Q1 FY27 PAT | 490 + 57 + 172 + 166 = 885 |

@@ -28,3 +28,33 @@
 - **justdial.html — FY26 PAT exceptional:** FY26 PAT ₹497 Cr includes a **₹21.1 Cr labour-code exceptional** (Q3 FY26). Pre-exceptional PAT ≈ ₹513 Cr (decline ~12%, not 15%).
 - **justdial.html — cash/m-cap refresh:** ₹5,852 Cr / ₹5,772 Cr → **₹6,114 Cr (Sep-26) / ₹6,004 Cr**; EV ≈ −₹110 Cr. Q2 FY27 deferred revenue ₹526.1 Cr (flat YoY) is a caution not in the primer. Note that Justdial reports **standalone only**: screener's consolidated page (P/E 43) is stale.
 - **justdial.html — RRVL stake:** the primer cites "~74% promoter" (correct: 74.14%) but should give the RRVL vs Mani split from the BSE shareholding pattern, and note the 75% MPS ceiling.
+
+## From Internet Platforms & Classifieds deep-research pass (2026-10-24, internet-platforms-industry.md Part 4 §4.5)
+
+
+- **info-edge.html — portfolio date and composition:**
+  - "~₹41,300 Cr (Jun '26)" should read "~₹41,300 Cr per FY26 annual report (135 companies; ~₹4,900 Cr deployed incl. AIFs)".
+  - Listed stakes at 31-Mar-26 were ₹35,676 Cr (cost ₹714 Cr); unlisted/AIF ≈ ₹5,624 Cr.
+  - Use Sep-26 basic stakes (Eternal 12.38% direct + 0.05%; PB 12.42%), not the diluted 12.43% / 12.12%.
+- **info-edge.html — 99acres "turned EBIT-positive" is wrong even for Q4 FY26.** Management said Q4's ~₹3 Cr profit included a ~₹20 Cr one-off accounting adjustment (underlying loss ~₹17 Cr). FY26 segment loss −₹59.2 Cr; Q1 FY27 −₹2 Cr. Add Housing.com's sale to Aurum and the 51% web time share.
+- **info-edge.html — add the FY26 standalone segment table** (op PBT: Recruitment ₹1,277 Cr; RE −₹59 Cr; Matchmaking −₹4 Cr; Education +₹13 Cr) and **deferred revenue ₹1,500 Cr**. Add a warning that **standalone FY26 PAT (₹5,536 Cr) includes a ₹5,168 Cr exceptional gain** on the Makesense–PB amalgamation.
+- **info-edge.html — management:** CFO is interim (Ambarish Raghuvanshi). Add the AI-Rex pricing (₹3,500/mandate), Job Hai economics (~₹15 Cr revenue, ~₹50 Cr burn) and the ⅓-⅓-⅓ growth decomposition.
+- **cartrade-tech.html:**
+  - SAMIL ownership is **55.43%; Shriram Finance holds 44.57%** and is a material related party (RPT cap ₹362.6 Cr).
+  - Add management's **₹1,000 Cr profit in 4–5 years** target and consolidated ETR guidance of 23–24%.
+  - Remarketing scale: 1.7 Mn listings, >2.5 lakh vehicles a year.
+  - Adjusted EBITDA definition (includes other income; adds back SBP ₹15.5 Cr).
+- **indiamart-intermesh.html:**
+  - Q1 FY27 unique business enquiries **−11%** and active buyers **−5%**; Silver churn ~7%/month; management will not push gross adds.
+  - Labour code ₹8.6 Cr sits inside employee cost (not exceptional); ESOP doubled to ₹34.7 Cr.
+  - New WOS IndiaMART Finance Ltd (LSP).
+  - Busy guidance 27–30% CAGR.
+  - Busy now sits inside Tolexo Online after the amalgamation.
+- **justdial.html:**
+  - Promoter split **RRVL 63.84%, Mani 7.61%**.
+  - **CEO Dinkar Ayilavarapu from 1-Aug-26 (designate 10-Jul); CFO Dinesh Taluja from 11-Jul-26**; Mani's MD & CEO term ended 31-Jul-26.
+  - Justdial holds **no earnings calls** (no transcripts since Apr-2025).
+  - Reliance RPTs negligible (₹1.4 Cr).
+  - Sales headcount +7.8% (10,965), with the margin down ~3 pp in two quarters.
+- **All four primers:** none of the four companies has a credit rating (no debt).
+
