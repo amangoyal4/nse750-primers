@@ -1685,6 +1685,23 @@
         "Distribution and channel shift"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Quick-Service Restaurants",
+      "slug": "restaurants",
+      "file": "restaurants.html",
+      "sector": "FMCG",
+      "subsector": "Restaurants",
+      "companies": 6,
+      "accent": "#8E0B5E",
+      "hook": "Traffic returns, profit stays hidden: how six listed QSR operators rent global brands and sell meals, why same-store sales recovered in 2026 except in pizza, the Ind AS 116 gap between 16.5% and ~9% margins, aggregators and 10-minute food, Devyani–Sapphire, and the airport outlier.",
+      "tags": [
+        "The Ind AS 116 trap",
+        "Own app vs aggregators",
+        "Renting the brand",
+        "The airport outlier"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -2064,7 +2081,7 @@
       "sector": "FMCG",
       "sub": "Restaurants",
       "companies": 6,
-      "report": null
+      "report": "restaurants.html"
     },
     {
       "sector": "FMCG",
