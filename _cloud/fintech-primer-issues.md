@@ -1,5 +1,7 @@
 # Fintech — primer issues
 
+
+_Note: where Part 4 bullets conflict with §3.4 (e.g. PB Healthcare stake 28.46% not ~25.5%; IRDAI distributor life-renewal cap 2–3%, the 7% max applies to agents; PB fall −36.0% close-to-close to ₹1,207.20), Part 4 supersedes._
 ## From Fintech research (2026-10-24, fintech-industry.md §3.4)
 
 - **pb-fintech.html — valuation stale (refreshed 3-Jul):** m-cap ~₹73,700 Cr → **₹46,969 Cr**; P/E ~110× → **62.8× TTM**; price now ₹1,015 (52-week low ₹945). (Source: screener.in/company/POLICYBZR/consolidated, 24-Oct-2026.)
