@@ -1702,6 +1702,23 @@
         "The airport outlier"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Diversified Commercial Services",
+      "slug": "commercial-services",
+      "file": "commercial-services.html",
+      "sector": "Business Services",
+      "subsector": "Diversified Commercial Services",
+      "companies": 6,
+      "accent": "#450A76",
+      "hook": "Six tolls on flows they don't own: how IGI grades lab-grown diamonds, BLS processes visas, CMS moves cash, Seshaasai prints cards, Quess staffs and MSTC runs auctions, why margins run from 60% to 2%, and what labour codes, a visa debarment and a tax dispute mean for each.",
+      "tags": [
+        "The lab-grown grading boom",
+        "The government as customer",
+        "Cash is not dying, ATMs are",
+        "Staffing under the labour codes"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -1799,7 +1816,7 @@
       "sector": "Business Services",
       "sub": "Diversified Commercial Services",
       "companies": 6,
-      "report": null
+      "report": "commercial-services.html"
     },
     {
       "sector": "Business Services",
