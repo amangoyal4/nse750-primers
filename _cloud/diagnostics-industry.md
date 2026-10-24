@@ -506,3 +506,204 @@ Economics that differ: (i) **fixed-cost leverage** is strongest in C (one lab) a
 - CareEdge deal table (Thyrocare ₹4,546 Cr; Agilus ₹1,780 Cr; Suburban ~₹967 Cr; Hitech ₹636 Cr; DDRC ₹350 Cr; Core ₹246 Cr; PH ₹148 Cr; Scientific ₹83 Cr; Celara ₹60 Cr) [V] + 2026 deals (SN Genelab ₹168 Cr + ₹31.5 Cr earn-out for 70%; Centrapath; Arya; Megavision ~₹40 Cr) [V-snip].
 - Organic vs inorganic growth; goodwill and ROCE; Neuberg IPO as the next mark.
 
+---
+
+## C. The REVENUE / PROFIT EQUATION
+
+**Pathology/radiology chain:**
+`Revenue = Patients × Tests per patient × Revenue per test  (= Patients × Revenue per patient)`
+`EBITDA = Revenue × (1 − variable cost %) − Fixed network cost (hubs + spokes + people + brand)`
+`PAT = EBITDA − D&A (incl. ROU leases) − interest (mostly lease) + other income − tax`
+with `Patients = Network reach (centres × catchment) × B2C brand pull + B2B/hospital contracts`, and `Revenue per patient = f(test mix: routine vs specialty vs genomics vs radiology; wellness bundles; B2B discount; price list changes)`.
+
+**AYUSH hospital + medicine (Jeena Sikho):**
+`Revenue = (Beds × Occupancy × 365 ÷ ALOS) × Revenue per admission + Day-care sessions × ticket + OPD medicine footfall × basket + E-commerce orders × AOV + consults`
+ALOS and ARPOB are not yet disclosed (management says they are "being evaluated as key operating metrics for future disclosure") [V NSE PR].
+
+### C.1 Worked example 1 — Dr Lal PathLabs FY26 and Q1 FY27 [V screener/primer/V-snip; E arithmetic]
+- FY26: **30.3 mn patients × ₹912 revenue/patient = ₹2,763 Cr** revenue (✓ screener). Samples 94.5 mn → 3.12 samples/patient → ₹292/sample.
+- Q1 FY27: 8.2 mn × ₹968 = **₹794 Cr** (reported ₹798 Cr ✓).
+- Operating leverage: Q1 FY27 revenue +₹128 Cr YoY (₹670 → ₹798 Cr); OP +₹56 Cr (₹192 → ₹248 Cr) → **incremental margin 44%** vs average 31% [V screener; E].
+- Sensitivity: +1% revenue/patient ≈ +₹29 Cr revenue at ~90% flow-through ≈ +₹26 Cr EBITDA ≈ **+3.3% of FY26 OP** [E]. +1% patients ≈ +₹29 Cr revenue at ~45% incremental margin ≈ +₹13 Cr.
+
+### C.2 Worked example 2 — Metropolis Q1 FY27 [V-snip; E]
+- 3.69 mn patients × ₹1,219 = **₹450 Cr** (✓). Tests 7.83 mn × ₹575 = ₹450 Cr (✓).
+- Split: B2C ₹257 Cr (57%) / B2B ₹193 Cr (43%); Specialty ₹178 Cr (40%); TruHealth ₹81 Cr (18%).
+- EBITDA ₹113 Cr (25.2%); incremental margin on +₹64 Cr revenue YoY ≈ **37%** [E: ₹113 − ₹89 ≈ ₹24 Cr ÷ ₹64 Cr].
+- If B2C vs B2B realisations differ by ~1.6× [E], mix-shift of 1 pp toward B2C ≈ +0.5% revenue per test.
+
+### C.3 Worked example 3 — Vijaya Q1 FY27 (integrated) [V-snip; E]
+- 1.24 mn footfalls × 3.7 tests × ₹503/test = **₹231 Cr** (✓ reported ₹231 Cr).
+- Radiology ~37% ≈ ₹85 Cr; pathology ~63% ≈ ₹146 Cr. If radiology is ~12% of tests [E], radiology realisation ≈ ₹1,550/test vs pathology ≈ ₹360/test [E] — the 4–5× ticket gap explains Vijaya's per-footfall lead.
+- EBITDA ₹98.5 Cr (company; 42.6%); D&A ₹25 Cr + interest ₹11 Cr = 15.6% of revenue (capex + lease load) [V screener].
+
+### C.4 Worked example 4 — Thyrocare Q1 FY27 (wholesale) [V-snip; E]
+- 55.2 mn tests × ₹39.8 = **₹220 Cr** pathology-equivalent; plus radiology (Nueclear ~₹11 Cr/qtr) and other ≈ ₹240 Cr reported.
+- Revenue per patient ₹404 → ~5.4 mn patients and ~10 tests per patient [E].
+- Franchise revenue ₹142.8 Cr (~60%) [V-snip]. OP ₹77 Cr (32%) [V screener] → **EBITDA ≈ ₹14 per test** [E].
+- Ownership maths: 2021 entry ₹1,300/share pre-bonus = ₹433 post 2:1 bonus [K/E]; 23-Oct price ₹463 → API's remaining 51.02% (~8.13 Cr shares [E]) is worth ~₹3,760 Cr [E].
+
+### C.5 Worked example 5 — Jeena Sikho Q1 FY27 [V NSE PR; E]
+- Private IPD: 11,500 admissions × ~₹73,700 = ₹84.8 Cr. Government-panel IPD: 975 × ~₹53,300 = ₹5.2 Cr. Day-care: 19,419 × ~₹5,150 = ₹10.0 Cr.
+- OPD medicine: 1.51 lakh footfalls × ~₹5,230 = ₹78.9 Cr. E-commerce: 2.82 lakh orders × ~₹1,440 = ₹40.5 Cr. Consults: 69,119 × ~₹650 = ₹4.5 Cr. Diagnostics ₹1.3 Cr.
+- **Total ₹224.4 Cr; medicines ≈ 53%, services ≈ 47%** [E].
+- Implied bed productivity: ~₹100 Cr IPD+day-care revenue ÷ ~2,400 beds ≈ **₹4.2 lakh per bed per quarter (~₹17 lakh/bed/yr)** vs ₹3–4 lakh capex/bed [E; V presentation] → payback on bed capex in <1 year (before medicine cross-sell). This is the economic core of the 64% ROCE.
+- OP ₹92 Cr (41%) [V screener].
+
+### C.6 Industry-level reconciliation [E]
+- ~₹80,000 Cr market ≈ ~1.0–1.1 bn patient visits × ~₹750/visit [E: CareEdge sample average applied to the whole market; unorganised realisations are lower but tests/visit similar] → on the order of **3–4 bn tests a year** [E — FLAG, no primary source].
+
+---
+
+## D. Proposed 6-cell stat strip (₹ only)
+
+| # | Figure | Label | Source |
+|---|---|---|---|
+| 1 | **~₹80,000 Cr** | India diagnostic services market, FY26 (growing ~12%/yr) | [E from CareEdge Nov-2025: $15–16 bn by FY30 at ~12% CAGR; ₹ conversion] |
+| 2 | **20–25%** | Share held by organised chains; >1.3 lakh labs in India | [V CareEdge] |
+| 3 | **401 mn tests** | Processed by seven large chains in FY25 (17% CAGR since FY21) | [V CareEdge] |
+| 4 | **₹759** | Average revenue per patient at the large chains, FY25 (₹786 in FY21) | [V CareEdge] |
+| 5 | **₹6,052 Cr** | FY26 revenue of the four listed diagnostics members, at a 29.6% operating margin | [E screener sums] |
+| 6 | **~57×** | Price/earnings of the four diagnostics members (₹63,385 Cr m-cap, 23-Oct-2026) | [E screener] |
+
+Alternates: "₹4,546 Cr — what PharmEasy paid for 66% of Thyrocare (2021)" [V CareEdge]; "~37% — Vijaya's revenue from radiology" [V-snip]; "₹3–4 lakh — capex per Ayurveda bed at Jeena Sikho vs ₹30–50 lakh allopathic" [V presentation].
+
+---
+
+## E. Chart-ready datasets
+
+**E1. Large-chain volumes (CareEdge seven-company sample) [V]** — Tests (mn): FY21 214 · FY22 278 · FY23 317 · FY24 351 · FY25 401. Patients (mn): FY21 64 · FY22 91 · FY23 86 · FY24 91 · FY25 99.
+
+**E2. Realisation trend (same sample) [V]** — Revenue/patient (₹): FY21 786 · FY22 724 · FY23 719 · FY24 738 · FY25 759. Revenue/test (₹): FY21 233 · FY23 194 · FY24 192 · FY25 187 (FY22 ~238, uncertain chart read).
+
+**E3. Sector margin cycle (same sample, PBILDT %) [V]** — FY21 32.3 · FY22 29.4 · FY23 24.7 · FY24 25.1 · FY25 26.7 · FY30E 27.0. Sales growth: FY21 32 · FY22 19 · FY23 −8 · FY24 10 · FY25 11.
+
+**E4. Member revenue FY21–FY26 (₹ Cr) [V screener]** — Dr Lal 1,581 · 2,087 · 2,017 · 2,227 · 2,461 · 2,763 | Metropolis 998 · 1,228 · 1,148 · 1,208 · 1,331 · 1,646 | Thyrocare 495 · 589 · 527 · 572 · 687 · 829 | Vijaya 377 · 462 · 459 · 548 · 681 · 814 | Jeena Sikho — · 147 · 205 · n/a · 469 · 801.
+
+**E5. Member operating margin FY21–FY26 (%) [V screener]** — Dr Lal 28 · 27 · 24 · 27 · 28 · 28 | Metropolis 29 · 28 · 26 · 24 · 23 · 25 | Thyrocare 35 · 40 · 23 · 24 · 28 · 32 | Vijaya 44 · 44 · 40 · 40 · 40 · 41 | Jeena Sikho — · 12 · 22 · n/a · 30 · 44.
+
+**E6. Revenue per patient/footfall, Q1 FY27 (₹) [V-snip]** — Vijaya ~1,860 · Metropolis 1,219 · Dr Lal 968 · Thyrocare 404 · CareEdge sample FY25 759.
+
+**E7. Q1 FY27 growth decomposition (%, YoY) [V-snip]** — Dr Lal: patients +8, rev/patient +10, revenue +19 | Metropolis: patients +10, rev/patient +6, revenue +17 | Vijaya: tests +16.5, rev/test +5.5, revenue +23 | Thyrocare: tests +28, rev/test −2, revenue +24.
+
+**E8. Revenue mix, Q1 FY27 (% of revenue) [V-snip]** — Metropolis: B2C 57 / B2B 43; Specialty 40; TruHealth 18 | Vijaya: B2C 92; radiology ~37; wellness 14.8 | Dr Lal: Swasthfit ~27 | Thyrocare: franchise ~60.
+
+**E9. Valuation, 23-Oct-2026 [V screener]** — P/E: Vijaya 76.3 · Dr Lal 54.9 · Metropolis 52.1 · Thyrocare 40.8 · Jeena Sikho 18.0. M-cap (₹ Cr): Dr Lal 30,854 · Vijaya 14,310 · Metropolis 10,849 · Thyrocare 7,372 · Jeena Sikho 4,245. ROCE (%): JSLL 64.4 · Thyrocare 35.4 · Dr Lal 28.0 · Vijaya 20.5 · Metropolis 17.8.
+
+**E10. Private/VC challengers, FY26 revenue (₹ Cr) and EBITDA/loss [V-snip]** — Agilus 1,355 (net; profitable) · Neuberg ~1,400–1,600 (FY26E) · Redcliffe 470 (EBITDA −13%) · Healthians ~263 (FY25, −₹5 Cr) · Orange Health 138.6 (PBT −₹97 Cr).
+
+**E11. Diagnostics M&A (₹ Cr consideration) [V CareEdge; V-snip]** — PharmEasy–Thyrocare 66% 4,546 · Fortis–Agilus +31% 1,780 · Dr Lal–Suburban ~967 · Metropolis–Hitech 636 · Agilus–DDRC +50% 350 · Metropolis–Core 246 · Dr Lal–SN Genelab 70% 168 (+31.5 earn-out) · Vijaya–PH 148 · Metropolis–Scientific 83 · Redcliffe–Celara 60 · Redcliffe–Megavision ~40.
+
+**E12. Promoter holding, Thyrocare (%) [V screener]** — Mar-20 66.0 · Mar-21 66.1 · Mar-22 71.2 · Mar-25 71.1 · Dec-25 60.9 · Sep-26 51.0.
+
+**E13. Jeena Sikho Q1 FY27 revenue by channel (₹ Cr) [V NSE PR]** — IPD private 84.8 · OPD medicine 78.9 · E-commerce medicine 40.5 · Day-care 10.0 · IPD govt panel 5.2 · Consultation 4.5 · Diagnostics 1.3.
+
+**E14. Share price, 1-Oct → 23-Oct-2026 (₹) [V screener price API]** — Dr Lal 2,005 → 1,838 (−8%) · Vijaya 1,428 → 1,389 (−3%) · Metropolis 538 → 523 (−3%) · Thyrocare 534 → 463 (−13%) · Jeena Sikho 481 → 342 (−29%).
+
+---
+
+## F. KPI glossary with benchmarks (good / average / weak) [E unless sourced]
+
+| KPI | Definition | Good | Average | Weak | Notes |
+|---|---|---|---|---|---|
+| Patient/footfall growth | YoY unique visits | >10% | 6–10% | <5% | Q1 FY27: Vijaya 12.7%, Metropolis 10%, Dr Lal 8% [V-snip] |
+| Test/sample growth | YoY tests | >12% | 8–12% | <6% | Faster than patients = more tests per visit |
+| Tests per patient | Tests ÷ patients | rising | flat | falling | Not comparable across firms (trap 1) |
+| Revenue per patient (pathology) | Revenue ÷ patients | >₹1,100 / growing >4% | ₹750–1,100 | <₹750 or falling | CareEdge sample ₹759 FY25 [V] |
+| Revenue per footfall (integrated) | | >₹1,700 | ₹1,200–1,700 | <₹1,200 | Vijaya ~₹1,860 [V-snip] |
+| Revenue per test (wholesale) | | >₹45 | ₹35–45 | <₹35 | Thyrocare ₹39.8 [V-snip] |
+| B2C share | Patient-paid % | >75% | 55–75% | <55% | Vijaya 92, Metropolis 57 [V-snip] |
+| Wellness share | Bundles % | 15–25% (growing) | 10–15% | <10% or >35% (price-war exposure) | CareEdge 12–25% FY25 [V] |
+| Specialty/esoteric share | % of revenue | >40% | 30–40% | <30% | Metropolis 40% [V-snip] |
+| Radiology share | % of revenue | — (archetype) | | | Vijaya ~37% |
+| EBITDA margin (post-Ind AS 116) | OP ÷ revenue | >28% pathology; >40% integrated | 23–28% | <20% | Sample FY25 26.7% [V] |
+| Incremental EBITDA margin | ΔEBITDA ÷ Δrevenue | >40% | 30–40% | <25% | Dr Lal Q1 FY27 ~44% [E] |
+| ROCE (pre-tax) | | >30% | 18–30% | <15% | Goodwill-heavy acquirers sit lower |
+| Cash conversion (CFO/EBITDA) | | >85% | 70–85% | <70% | B2C chains near 90% [K] |
+| Receivable days | | <20 | 20–45 | >60 | B2B/PPP/government panels push up |
+| Network additions | New centres/yr | 10–15% of base | 5–10% | <5% | |
+| Revenue per centre (integrated) | | >₹6 Cr/yr | ₹3–6 Cr | <₹3 Cr | Vijaya ~₹5 Cr [E: ₹814 Cr ÷ ~164] |
+| Organic growth | Ex-acquisitions | >14% | 10–14% | <10% | Ask every time |
+| **AYUSH-specific** | | | | | |
+| Revenue per bed per year (IPD+day-care) | | >₹15 lakh | ₹8–15 lakh | <₹8 lakh | JSLL ~₹17 lakh [E] |
+| Medicine share of revenue | | 40–55% | | >65% (less of a "hospital") | JSLL ~53% [E] |
+| Government-panel share | | <5% | 5–10% | >10% (collection risk) | JSLL 2.3% Q1 FY27 [V] |
+
+---
+
+## G. Timeline (year: event)
+
+- **1949**: Dr Lal's first pathology lab opens in Delhi (Dr Lal PathLabs' origin) [K].
+- **1980**: Metropolis' founding pathology lab in Mumbai [K/primer].
+- **1981**: Vijaya Diagnostic Centre founded in Hyderabad [K/primer].
+- **1994**: PCPNDT Act (pre-natal sex determination ban; ultrasound registration) [K].
+- **1995**: SRL Ranbaxy (now Agilus) founded — first national chain [K].
+- **1996**: Thyrocare founded in Mumbai (central thyroid-testing lab) [K].
+- **2010**: Clinical Establishments (Registration and Regulation) Act passed [K].
+- **2011**: Fortis acquires control of SRL [K].
+- **2014**: Ministry of AYUSH created (Nov) [K].
+- **2015**: Free Diagnostics Service Initiative under NHM [K]; **Dr Lal PathLabs IPO (Dec)** — first listed pure-play chain [K; V CareEdge].
+- **2016**: Thyrocare IPO (May) [K].
+- **2017**: Medical Devices Rules 2017 (IVDs brought under licensing in stages) [V-snip]; GST — healthcare services exempt (Jul) [K]; Supreme Court on pathologist-signed reports (Dec) [K].
+- **2018**: AB-PMJAY launched (Sep) [K]; Jeena Sikho's Shuddhi brand launched [primer].
+- **2019**: Metropolis IPO (Apr) [K].
+- **2020–21**: COVID testing boom — sample sales +32% (FY21), margin 32% [V CareEdge]; Jeena Sikho's first Panchakarma hospital (2020) [primer].
+- **2021**: PharmEasy/API Holdings buys 66% of Thyrocare (~₹4,546 Cr; ₹1,300/share) [V CareEdge; K]; Tata Digital buys 1mg [K]; Krsnaa IPO (Aug), Vijaya IPO (Sep) [K]; Dr Lal acquires Suburban (~₹967 Cr per CareEdge) [V]; PM-ABHIM approved (₹64,180 Cr) [K/V-snip].
+- **2022**: Metropolis acquires Hitech Diagnostic (Chennai, ~₹636 Cr) [V CareEdge]; Jeena Sikho SME IPO on NSE Emerge [primer]; CDSCO licensing mandatory for Class A/B IVDs (1-Oct) [V-snip].
+- **2023**: SRL renamed Agilus Diagnostics (Aug) [K]; FY23 sector sales −8% post-COVID [V CareEdge]; Class C/D IVD licensing (1-Oct) [V-snip].
+- **2024**: Fortis buys ~31% more of Agilus (~₹1,780 Cr) [V CareEdge]; Redcliffe Series C $42 mn (Sep) [V-snip]; AB-PMJAY extended to all 70+ citizens (Oct) [K]; Metropolis buys Core Diagnostics (~₹246 Cr, Dec) [V CareEdge; primer]; Suraksha Diagnostic IPO (Dec) [K].
+- **2025**: Jeena Sikho 5:1 split (Jun) and mainboard migration (Aug; BSE 544476) [V-snip; primer]; **GST 2.0 — individual health insurance exempt (22-Sep)** [V-snip]; Docon sells 10% of Thyrocare (~₹667 Cr, Oct) [V-snip]; Vijaya completes Medinova amalgamation (Nov) [V-snip]; CareEdge forecasts ~12% CAGR to $15–16 bn by FY30 (18-Nov) [V]; Thyrocare 2:1 bonus (record 28-Nov) [V-snip]; Dr Lal 1:1 bonus (ex 19-Dec) [V-snip].
+- **2026**: West Asia crisis from 28-Feb (freight/reagent cost shock) [macro]; Metropolis 3:1 bonus (record 20-Mar) [V-snip]; Thyrocare board approves exploring sale of Nueclear radiology (Jul) [V-snip]; Dr Lal Q1 FY27 +19% (24-Jul) [V-snip]; Docon sells 9.9% of Thyrocare (~₹986 Cr) after pledge release (11–13-Aug) [V-snip]; Jeena Sikho discloses government-panel pull-back (20-Aug) [V]; Vijaya buys Arya Wellness, Guwahati (11-Sep) [V screener]; Dr Lal acquires 70% of SN Genelab (board 24-Sep; completed 1-Oct) and full Centrapath (13-Oct) [V-snip; V screener]; Metropolis Q2 update +15% (5-Oct) [V]; RBI hikes repo to 5.50% (7-Oct) [macro]; Jeena Sikho falls 33% in October [V screener]; Thyrocare Q2 board 29-Oct [V screener].
+
+---
+
+## H. Figures I could not source well (and conflicts)
+
+1. **Current India diagnostics market size in ₹** — only CareEdge's forward figure ($15–16 bn by FY30, ~12% CAGR) was verified; the FY26 ₹75,000–85,000 Cr is derived [E]. No CRISIL/F&S 2025–26 report was fetched. Ken Research ($11.8 bn, 2025) and IMARC ($40.1 bn, includes IVD products) conflict and were not used.
+2. **Pathology vs radiology split of the market** (~55–60 / 40–45) — memory of IPO-RHP consultant reports [K]; not verified this session.
+3. **Standalone vs hospital vs chain split** (beyond CareEdge's "organised 20–25%") — the 40–50% standalone / 30–35% hospital split is [K/E].
+4. **NABL-accredited medical-lab count (2026)** — not found; latest verified data is 2019–21 (1,170 active medical labs in 2019; 2,065 accredited Oct-2019 to May-2021) [V-snip The Wire]. NABL's directory was not queried.
+5. **Market shares of top chains** — computed against the derived market [E]; no third-party share table.
+6. **Apollo Diagnostics, Tata 1mg Labs, Max Lab revenues** — not found. Healthians FY25 revenue (₹263 Cr) is single-source.
+7. **Neuberg FY26 revenue** — conflict: ~₹1,600 Cr expected (Reuters) vs ₹1,400 Cr gross (Venture Intelligence) vs FY25 ~₹464 Cr operating income (ET via VI). The jump is implausible organically; perhaps different perimeters (group incl. acquired labs vs standalone) — FLAG.
+8. **Suburban acquisition price** — CareEdge ~₹967 Cr vs our primer ~₹1,150 Cr; my memory is ~₹925 Cr enterprise value at signing (2021) [K]. Use "~₹925–970 Cr" and correct the primer unless Part 2 finds otherwise.
+9. **PM-ABHIM outlay** — ₹64,180 Cr (parliament answers; Budget 2021) vs ₹32,928.82 Cr (2026 PIB document). Likely approved outlay vs central-share/sanctioned amount; use ₹64,180 Cr "approved".
+10. **Individual health premium growth post-GST (+29.7%, Oct–Mar FY26)** — from a partly AI-written secondary blog; not checked against IRDAI/GI Council data.
+11. **GST rate on IVD kits/reagents after GST 2.0 (5%)** and **CGHS rate revision (Oct-2025)** — from memory [K]; verify.
+12. **Clinical Establishments Act adoption count (~19–20 states/UTs)** — from memory [K].
+13. **Global peers' CY2025 revenue/margin for Quest, Labcorp (full-year), Eurofins; all EV/EBITDA multiples** — [K/E]; only Sonic FY25 and Labcorp Q4/2026 guide were verified [V-snip].
+14. **Jeena Sikho's October 2026 share-price fall** — no cause found in filings or press; **AYUSH hospital count in India** not found; the "Shuddhi Lifecare group merger" mentioned in our primer was not verified (search found Shuddhi only as a brand/project).
+15. **Thyrocare related-party revenue from PharmEasy** and **the 28-Sep-2026 postal ballot resolution** — not read (Part 2).
+16. **Vijaya centre count** — 162 (FY26, primer) vs 166 (Q1 FY27, one source) — minor.
+17. **Online share of diagnostics volume (~10–15% of organised B2C)** — [E] with no source.
+18. **Thyrocare API Holdings 2021 price ₹1,300/share** — [K] (SPA/open offer); CareEdge confirms only ₹4,546 Cr for 66% (₹4,546 Cr ÷ ~3.5 Cr shares ≈ ₹1,300 ✓ arithmetic) [E].
+19. **Labcorp Q4-2025 "adjusted EBITDA $470 mn (13.4%)"** looks like a segment or non-standard figure (company adjusted operating margin is ~15%); not used for comparisons.
+
+---
+
+## Primer issues noticed (for primer-issues.md; Part 3 may consolidate)
+
+- **dr-lal-pathlabs.html**: Suburban price "~₹1,150 Cr" conflicts with CareEdge ~₹967 Cr [V]; market cap "~₹28,000 Cr (Jul '26)" now ₹30,854 Cr; add SN Genelab (70%, ₹168 Cr + ₹31.5 Cr earn-out, completed 1-Oct-2026), Centrapath (wholly owned 13-Oct-2026) and the ₹32.66 Cr ESOP tax appeal; Q1 FY27 (rev ₹798 Cr +19%, 8.2 mn patients, ₹968/patient) post-dates the 13-Jul refresh.
+- **metropolis-healthcare.html**: any per-share price/EPS quoted before the **3:1 bonus (record 20-Mar-2026)** must be ÷4; P/E "~60×" now ~52×; m-cap "~₹12,000 Cr" now ₹10,849 Cr; add Q1 FY27 KPIs and the 5-Oct Q2 business update (+15%).
+- **thyrocare.html**: (a) misses the **13-Aug-2026 9.9% Docon sale (~₹986 Cr) — promoter now 51.02%, not ~61%**, and the 11-Aug pledge release; (b) Nueclear is a **divestment outside the group (slump sale/business transfer)**, not a "demerger"; (c) "promoter seat ~66% after open offer" — screener shows 66.1% (Mar-21) rising to **71.2% (Mar-22)** post open offer; (d) m-cap "~₹9,550 Cr (mid-2026)" now ₹7,372 Cr; (e) state the 2:1 bonus and that API's ₹1,300 entry = ~₹433 post-bonus.
+- **vijaya-diagnostic.html**: add Arya Wellness (Guwahati) acquisition (11-Sep-2026) and Medinova completion; centre count 162 vs 166; P/E "~78×" now 76×; radiology mix drifted 38.5% → ~37%.
+- **jeena-sikho-lifecare.html**: m-cap "~₹6,275 Cr" and "~28× P/E" now ₹4,245 Cr and 18× after a 33% October fall (52-wk high ₹840); add the government-panel collapse (₹15.5 → ₹5.2 Cr), the channel table, ~2,400 beds/62 hospitals/57 clinics/51 NABH (Q1 FY27 presentation vs primer's 61 + 58 and ~2,300), Mohali sale-and-leaseback (₹9.05 Cr), new internal auditor; "Shuddhi Lifecare group merger" unverified — soften or source. Founder's name appears throughout (fine as a public figure, but keep it consistent with the company's own usage).
+
+---
+
+## Key source URLs (fetched or cited this session)
+- CareEdge Ratings, "Indian Diagnostic Market to Grow by ~12% p.a., Margin to Remain Steady", 18-Nov-2025 — https://www.careratings.com/uploads/newsfiles/1763463740_Indian%20Diagnostics%20Industry_%20Opinion%20Piece.pdf [V]
+- Metropolis Q2 FY27 business update, 5-Oct-2026 — https://nsearchives.nseindia.com/corporate/METROPOLIS_05102026180947_SE_Intimation_Business_Update_Q2FY27.pdf [V]
+- Jeena Sikho press release "JSLL Shares Update on IPD Growth and Business Mix", 20-Aug-2026 — https://nsearchives.nseindia.com/corporate/JEENASIKHO_20082026172604_Press_Release_Intimation-Sign.pdf [V]
+- Jeena Sikho Q1 FY27 investor presentation, 9-Aug-2026 — https://nsearchives.nseindia.com/corporate/JEENASIKHO_09082026194906_Intimation_investor_presentation-_Sign.pdf [V]
+- screener.in consolidated: /company/LALPATHLAB, /VIJAYA, /METROPOLIS, /THYROCARE, /JSLL (24-Oct-2026) and price-chart API [V]
+- Thyrocare stake sale: outlookbusiness.com "Thyrocare Promoter Docon Offloads 9.9% Stake For ₹986 Crore"; choiceindia.com; entrackr.com (Oct-2025 sale) [V-snip]
+- Thyrocare Q1 FY27: indianpharmapost.com; inc42.com [V-snip]; Dr Lal Q1 FY27: multibagg.ai, askfuzz.ai, sahi.com [V-snip]; Vijaya Q1 FY27: investywise.com [V-snip]; Metropolis Q1 FY27: indianpharmapost.com, sahi.com [V-snip]
+- Dr Lal–SN Genelab: angelone.in, insights.dsij.in; Centrapath: NSE LALPATHLAB_13102026184603_PUPL_Investment_13102026.pdf (title only) [V-snip]
+- Bonus issues: NSE THYROCARE_16112025233917_SE_Letter_Record_Date.pdf; METROPOLIS_10032026194319 / _23032026075502 intimations [V-snip]
+- Agilus FY26: Fortis directors' report via indiainfoline.com [V-snip]; Redcliffe/Orange Health: inc42.com, indianretailer.com, ascendants.in [V-snip]; Neuberg: dealstreetasia.com, angelone.in, ventureintelligence.com [V-snip]
+- Sonic Healthcare FY25: ASX announcements 21-Aug-2025 / 19-Feb-2026 [V-snip]; Labcorp Q4-2025: barchart.com [V-snip]
+- AYUSH: psuconnect.in (RIS study via Ministry), mordorintelligence.com, ibef.org AYUSH infographic May-2026 [V-snip]
+- PM-ABHIM / FDSI: eparlib.sansad.in Lok Sabha answers; static.pib.gov.in 2026 document; nhsrcindia.org FDSI operational guidelines (Dec-2025) [V-snip]
+- CDSCO IVD: cdsco.gov.in IVD FAQs; PMDA reproduction of GSR 102(E) [V-snip]
+- GST/insurance: vatupdate.com (4-Aug-2026), knnindia.co.in [V-snip]
