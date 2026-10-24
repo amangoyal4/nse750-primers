@@ -101,3 +101,9 @@ _Note: where Part 4 bullets conflict with §3.4 (e.g. PB Healthcare stake 28.46%
 - **UPI annual series:** cite RBI PSI (FY21–FY26) instead of memory.
 - **Recency of numbers:** none of the primers mentions the Aug-2026 s.10A amendment. All should date-stamp Q1 FY27 as the latest quarter and note that Q2 FY27 prints run from 26-Oct (Paytm) and 29-Oct (Pine Labs) to 14-Nov-2026 (others' deadline).
 
+
+## primer-audit.mjs (2026-10-24, pre-existing; not fixed)
+- **pb-fintech.html — banned phrases:** "no margin for error" (×2, lines ~547, ~628), "a long way to fall" (~638); "honest" once (~485). Also no `main{min-width:0}` (phone overflow risk).
+- **paytm.html — banned phrases:** "no margin for error" (~625), "a long way to fall" (~635); "honest" once (~540). Also no `main{min-width:0}`.
+- **pine-labs.html, avenuesai.html, zaggle.html:** hard checks pass; no `main{min-width:0}` (phone overflow risk). None of the five primers links any sub-sector report (add a link to subsectors/fintech.html once published).
+- **Writer-found dossier corrections relevant to primers:** Paytm merchant GMV figures (₹5.4 / 6.5 / 7.1 lakh Cr) are QUARTERLY (Q3 FY26 / Q4 FY26 / Q1 FY27), not annual — FY26 GMV is ~₹24 lakh Cr (indicative); PB Fintech's ₹1,003 Cr renewal & trail revenue is a trailing-twelve-month figure, not a quarter.
