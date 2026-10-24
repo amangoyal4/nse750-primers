@@ -1065,3 +1065,766 @@ Read:
 - **SoftBank/PB block deals:** https://www.businesstoday.in/amp/markets/company-stock/story/pb-fintech-shares-in-news-as-softbank-may-sell-254-stake-today-via-block-deals-400958-2023-10-06
 - **Primers:** primers/pb-fintech.html, paytm.html, pine-labs.html, avenuesai.html, zaggle.html
 - **Scratch notes (this session):** /tmp/fintech-dossier/ (notes-primers.md, notes-screener.md, notes-web.md, pine_q1_datapack.md, raw/)
+
+---
+
+# PART 4 — Deep-research supplement (24-Oct-2026)
+
+Second, primary-source pass for the writer. Everything tagged **[V]** below was fetched and read in this session (24-Oct-2026, ~08:25–10:30 UTC) from the named document; PDFs were downloaded to `/tmp/fintech-deep/dl/` and read as extracted text. Notes: `/tmp/fintech-deep/notes.md`; parsed screener tables: `/tmp/fintech-deep/screener_tables.txt`.
+
+**Primary documents read this pass (all fetched today):**
+- **Annual reports FY26** (filed on BSE): Paytm/One97 (405 pp), PB Fintech (228 pp), Pine Labs (401 pp), AvenuesAI (359 pp), Zaggle (170 pp).
+- **Q1 FY27 earnings-call transcripts** (BSE filings / company CDN): PB Fintech (call 5-Aug-2026), Paytm (21-Jul-2026), Pine Labs (29-Jul-2026), AvenuesAI (11-Aug-2026), Zaggle (14-Aug-2026, filed 21-Aug).
+- **PB Fintech's special analyst call on the IRDAI paper**, 24-Sep-2026 (transcript filed 25-Sep).
+- **Investor decks and releases:** PB Fintech Q1 FY27 deck (109 pp); Paytm Q1 FY27 earnings release (dated 20-Jul-2026); Pine Labs Q1 FY27 deck; AvenuesAI Q1 FY27 deck (11-Aug-2026); Zaggle Q1 FY27 deck.
+- **IRDAI:** press release (23-Sep-2026) plus Consultation Paper Part 1 (80 pp) and Part 2 (41 pp), "Recalibrating Economics of Insurance Distribution", from irdai.gov.in.
+- **Union Budget 2026-27:** Notes on Demands for Grants, Demand No. 32 (Department of Financial Services) and Demand No. 27 (MeitY), from indiabudget.gov.in.
+- **RBI Payment System Indicators:** August releases of 2021, 2022, 2023, 2024, 2025 and 2026 (rbi.org.in PSIUserView Id = 3, 15, 27, 39, 51, 63), which give a primary FY21–FY26 UPI, PoS and card series.
+- **BSE Reg-30/SAST filings:**
+  - Paytm, 13-Oct-2026: NPCI MDR deferral.
+  - Paytm, 13-Oct-2026: First Games GST order.
+  - PB Fintech, 21-Oct-2026: SAST Reg 29(1) disclosure (a scanned PDF, read as an image).
+- **Screener price API:** daily closes for all five members around 15-Sep, 23/24-Sep and 13-Oct-2026.
+
+**Blocked or not obtained:**
+- npci.org.in returned **403 Access Denied** on a single curl with a generic UA (tried once, as instructed).
+- The BSE `api.bseindia.com` annual-report API was denied, but the BSE `AttachHis`/`AnnPdfOpen` PDF links opened normally.
+- stockanalysis.com returned 403.
+- The pmindia.gov.in Cabinet release returned 503.
+- No Q2 FY27 result has been published by any member as of 24-Oct-2026 (Paytm board 26-Oct, Pine Labs 29-Oct; PB/AvenuesAI/Zaggle not yet announced; all must report by 14-Nov-2026).
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Item (where in Parts 1–3) | Old value | New value | Source (primary unless noted) |
+|---|---|---|---|---|
+| 1 | UPI/RuPay incentive scheme (§7.2 table, E12, §B1 "collapse to ~₹437 Cr") | FY25 ₹1,500 Cr; FY26 "~₹437 Cr"; FY27 "none found / replaced by MDR?" | **FY25 actual ₹1,922.77 Cr; FY26 BE ₹437.00 Cr but RE ₹2,196.21 Cr; FY27 BE ₹2,000.00 Cr.** The scheme did not collapse — FY26 spending was ~5× the budget line, and FY27 is funded at ₹2,000 Cr. Delete the "incentive collapse as hidden motive" framing; replace with "government still pays ~₹2,000 Cr/yr while it builds the legal route to MDR". | Union Budget 2026-27, Notes on Demands for Grants, Demand No. 32 (DFS), line 17 [V] — indiabudget.gov.in/doc/eb/sbe32.pdf |
+| 2 | UPI annual series FY21–FY25 (§2.1, E1) | [K] NPCI from memory | FY21 **22.33 bn / ₹41.04 lakh Cr**; FY22 **45.96 / 84.16**; FY23 **83.71 / 139.15**; FY24 **131.13 / 199.95**; FY25 **185.87 / 260.57**; FY26 **241.62 / 314.23** (Part 1's FY25 value 261.0 → **260.57**; other years within rounding) | RBI PSI, Aug releases 2021–2026 [V] |
+| 3 | Legal basis for UPI MDR (§7.2, §7.3, trap 12) | "zero-MDR law (s.269SU IT Act + s.10A PSS Act)" presented as still binding | **Parliament amended s.10A of the PSS Act in Aug-2026** (Chapter II, Taxation and Other Laws (Amendment) Bill, 2026: Lok Sabha 6-Aug-2026, Rajya Sabha ~10/11-Aug-2026, voice votes). The fixed s.269SU reference is replaced by a **government notification power** over which payment modes stay charge-free. FM: "enabling only"; NPCI's UPI Steering Committee decides. The NPCI circular followed five weeks later. Presidential assent/notification not confirmed this session. | newsonair.gov.in / inc42 / LiveLaw [V-snip]; AvenuesAI management on its 11-Aug call [V transcript] |
+| 4 | NPCI circular reference (§7.3) | "NPCI's 15-Sep-2026 circular" (ThePrint/PTI) | **Circular no. NPCI/UPI/OC-No.237/2026-27 dated 15-Sep-2026**; **NPCI press release 13-Oct-2026**: MDR on select P2M UPI "will be implemented after Diwali, on a date to be notified separately" | Paytm Reg-30 filing to BSE, 13-Oct-2026 [V] |
+| 5 | Paisabazaar disbursals (trap/§2.5, §9.4, §2.8, §3.3, primer issue) | FY26 "~₹15–18k Cr [E]"; Q1 FY27 ₹4,366 Cr described as "+33%" | **FY26 total disbursals ₹30,740 Cr** (primer's ~₹31,000 Cr was right). Quarterly: Q1 FY26 ₹7,003 Cr → Q2 ₹8,570 → Q3 ₹9,986 → Q4 ₹5,182 → **Q1 FY27 ₹4,366 Cr (−38% YoY)**. The **+33% is "core" (Paisabazaar online) only**; New-Initiatives lending (PB Connect, being "re-strategised" and pivoted to retail) collapsed. | PB FY26 AR [V]; PB Q1 FY27 deck pp. 8, 80 [V]; PB Q1 call [V] |
+| 6 | PB Fintech ESOP FY26 (trap 1, §A3, JSON, primer issue) | ~₹217 Cr [E] | **₹194.2 Cr employee share-based payment + ₹21.2 Cr employee performance units = ₹215.4 Cr** (FY25 ₹213.7 Cr + ₹1.2 Cr). **Q1 FY27 ESOP ₹47 Cr** (Q1 FY26 ₹55 Cr). | PB FY26 AR, MD&A expense table [V]; Q1 FY27 deck p. 5 [V] |
+| 7 | PB Healthcare stake (§Corporate actions 4, §2.1, primer issue) | ~25.5% (Entrackr) | **28.46% at 31-Mar-2026**; ceased to be a subsidiary **w.e.f. 24-Apr-2025**; PB invested **₹539.4 Cr** of equity in FY26; equity-accounted (FY26 share of associate loss ₹1.2 Cr) | PB FY26 AR (AOC-1, MD&A, investments note) [V] |
+| 8 | PB share-price fall on the IRDAI paper (§0, §7.7, §H4) | "35.98% vs 26% (conflict)" | **−36.0% close-to-close: ₹1,886.30 (23-Sep) → ₹1,207.20 (24-Sep)**, on 2.79 Cr shares traded; then ₹1,166 (25-Sep, 4.39 Cr shares); **₹1,063.90 on 30-Sep (−43.6% from 23-Sep)**; lowest close ₹996 (8-Oct). The "26%" headline is wrong (likely an intraday print). | screener.in price API (NSE closes) [V] |
+| 9 | PB SAST filing 21-Oct-2026 (§Q2 status, §5.3, §H10) | "someone crossed/changed a 5% threshold — content not read" | **ICICI Prudential Mutual Fund bought 1,50,487 shares (0.033%), taking its holding from 4.999% to ~5.03%** — a domestic **buyer** crossing 5%, consistent with DIIs rising 40.4% → 44.9%. Sellers of the FII 10-pp drop are still unidentified. | BSE SAST Reg 29(1) PDF (scanned; read as image) [V] |
+| 10 | Pine Labs ESOP FY26 (trap 1, §A3, F glossary) | "~₹200 Cr of adjustments [E]; ESOP ~7% of revenue" | **ESOP ₹152.4 Cr FY26** (FY25 ₹114.8 Cr) = **5.6% of revenue**; quarterly 66 / 29 / 31 / 27 / 26 (Q1 FY26 → Q1 FY27). Adjusted EBITDA ₹559 Cr = statutory EBITDA ₹492 + ESOP 152 + impairment 5 + exceptional 8 + FX 5 + deal costs 5 − other income 84 (− a ₹19 Cr write-back) | Pine Labs FY26 AR (consolidated note) [V]; Q1 FY27 deck reconciliation [V] |
+| 11 | Pine Labs other income as % of PBT (trap 5, E7, §A3) | 97% | 97% is on **screener** other income (₹133 Cr). Pine's own reconciliation uses other income **₹84 Cr** (excluding liabilities written back) → **61% of PBT ₹138 Cr**. Show both; label the basis. | Pine Q1 FY27 deck p. 23 [V]; screener [V] |
+| 12 | Pine Labs PA licences (§7.4, §H12) | "reported to hold PA-O, PA-P and PA-CB — date not established" | **RBI final PA-O authorisation 9-May-2025; revised Certificate of Authorisation dated 10-Nov-2025 covering PA-O, PA-P and PA-CB under a single authorisation** (plus PPI CoA) | Pine Labs FY26 AR, Board's report [V] |
+| 13 | Pine Labs redomicile (Units/§2.3) | "redomiciled from Singapore before IPO [K]" | **Pine Labs Pte (Singapore), the former holding company, amalgamated into Pine Labs Ltd effective 6-Jun-2025**; no holding company at 31-Mar-2026 | Pine Labs FY26 AR [V] |
+| 14 | Pine Labs lock-in overhang (§Corporate actions 2, §12, §H19) | "anchor/pre-IPO lock-ins expire ~mid-Nov-2026" | The **six-month lock-in on pre-IPO shares expired ~mid-May-2026** (~92.4 Cr shares, ~₹17,372 Cr at the time); stock fell >10% intraday. Anchor lock-ins (30/90 days) lapsed in Dec-25/Feb-26. Pine has no promoter, so there is no 18-month promoter lock-in. **No major Nov-2026 unlock is evident** — the overhang is ongoing PE selling, not a dated cliff. | PL Capital / Kotak Neo / Angel One [V-snip] |
+| 15 | Pine Labs Q1 FY27 GTV +4% (§9.2 flag) | "sharp slowdown — FLAG" | Management: the 4% is due to the **bill-payments (Setu) business, where one client moved transactions in-house** (per-transaction pricing, so revenue impact is small); **India DITP GTV grew ~20–25%** | Pine Q1 FY27 transcript [V] |
+| 16 | AvenuesAI FY26 PAT (trap 11, §2.4, §2.8, §H14) | "₹332 Cr primer vs ₹295 Cr screener — basis unresolved" | **₹332.0 Cr is management "adjusted PAT" (excludes MTM/fair-value gains/losses)**; reported consolidated PAT **₹294.9 Cr**, of which **₹279.0 Cr is attributable to owners** (NCI ₹15.9 Cr). FY25 adjusted PAT ₹209.5 Cr (= the primer's "~₹210 Cr"); reported ₹236.0 Cr. | AvenuesAI FY26 AR, KPI pages + consolidated P&L [V] |
+| 17 | AvenuesAI rights issue (§Corporate actions 1, §H14) | "size/price not verified" | **₹700 Cr rights issue (LoF 19-Jun-2025) of 69,99,85,723 partly-paid shares at ₹10 (FV ₹1 + ₹9 premium; ₹5 on application, ₹5 first-and-final call), oversubscribed 1.40×**; 69,17,94,503 converted to fully paid; monitoring agency CARE. The 69,43,139 forfeited in Oct-2026 are the unpaid residue. | AvenuesAI FY26 AR [V] |
+| 18 | AvenuesAI take rate and net revenue (trap 3, §9.3) | Only the Q1 FY27 5.3 bps; FY26 net revenue "~₹600 Cr [E: Q1×4]" | **FY26 net revenue ₹603.1 Cr (+15%)**; **FY26 payments net take rate 7 bps vs 11.7 bps in FY25** ("mix and zero-MDR volumes"); TPV ₹5,038 bn (+55%; FY25 ₹3,240 bn). Quarterly NTR: Q1 FY26 10.4 → Q4 FY26 6.0 → Q1 FY27 5.3 bps. | AvenuesAI FY26 AR [V]; Q1 FY27 deck p. 15 [V] |
+| 19 | AvenuesAI EPS basis (§2.4, §3.3) | FY26 EPS ₹8.00 (screener, post-consolidation) | Company FY26 EPS on the ₹10 face-value basis is **₹9.42** (basic ₹0.94 on ₹1 FV, weighted shares); screener's ₹8.00 uses year-end shares. **FY27 guidance ₹8.75–9.50 is therefore flat to down on FY26**, not growth. | AvenuesAI Q1 FY27 deck p. 11 [V]; FY26 AR [V] |
+| 20 | AvenuesAI UAE licence (§3 driver 6, §7.4) | "CBUAE payment licence" | **In-principle approval only** (Retail Payment Services Category III, Avenues World FZ LLC); RBI PPI authorisation received (Q1 FY27) | AvenuesAI Q1 FY27 deck [V] |
+| 21 | Paytm cash composition (trap 10, §H6) | "₹13,315 / ₹13,529 Cr vs screener investments — composition not verified" | **Gross balances ₹18,336 Cr (Jun-26)** = cash & bank ₹7,581 + bank deposits ₹5,688 + MF/T-bills/CP/G-sec/NCD/NBFC FDs ₹5,067; **less** Paytm Money customer funds ₹389 and escrow/nodal balances ₹5,119; **plus** ₹700 Cr pre-funded escrow at PPSL = **₹13,529 Cr**. Mar-26: 17,457 − 383 − 4,459 + 700 = ₹13,315 Cr. MTF loans are excluded. | Paytm Q1 FY27 earnings release p. 14 [V] |
+| 22 | Paytm Q1 FY27 result date (§Q2 status table) | "~22/23-Jul-2026" | **Earnings release dated 20-Jul-2026; call 21-Jul-2026** | Paytm release and transcript [V] |
+| 23 | Paytm First Games charge Q2 FY26 (trap 6, §H7) | "~₹190 Cr provision [K]" | **₹190 Cr one-time charge for full impairment of a loan to JV FGTPL in Q2 FY26** (MD&A); the consolidated note records an impairment of **₹169 Cr** (note 20). The loan was **converted to equity on 16-Apr-2026**, taking the stake from 55% to **82.6%** (fully diluted); FGTPL is still treated as a JV, its FY26 accounts are on a liquidation basis, and the carrying value is nil. | Paytm FY26 AR [V]; Paytm Reg-30, 13-Oct-2026 [V] |
+| 24 | First Games GST (§7.8, §Corporate actions 3) | "GST demand of ₹703.66 Cr" | The DGGI **SCN of 28-Apr-2025 proposed ₹5,712 Cr**; the **demand order (Addl. Commissioner CGST Noida, received 12-Oct-2026) cut it to ₹703.66 Cr of tax plus an equal penalty plus interest** (Apr-2018–Mar-2023). FGTPL has a writ pending in the Supreme Court (retrospective Oct-2023 amendment). Paytm states **no incremental financial impact** (JV, nil carrying value). | Paytm FY26 AR note 47 [V]; Reg-30 13-Oct-2026 [V] |
+| 25 | ED FEMA ₹611 Cr (§7.8, §B2) | "RBI compounding application pending; no decision" | SCN dated **27-Feb-2025**, ~₹611 Cr aggregate. By FY26 RBI had **compounded ~₹21 Cr (Nearbuy) and ~₹33 Cr (OCL)**, and **observed ~₹485 Cr to be in compliance** → **residual ~₹72 Cr [E]**; compounding fee ₹18.76 lakh (LIPL investments) paid. | Paytm FY26 AR note 49 + secretarial audit report [V] |
+| 26 | Paytm founder-ESOP charge (trap 1, trap 6, E6) | ₹492 Cr one-time | Consolidated note: **₹492 Cr accelerated charge booked as an exceptional item in FY25** (founder's options cancelled 16-Apr-2025; ₹4,092 Cr cumulative moved from ESOP reserve to retained earnings). The **MD&A says "₹522 Cr from ESOP acceleration"** — likely a broader basis; use ₹492 Cr with a footnote. | Paytm FY26 AR [V] |
+| 27 | Paytm P/E 128× vs 160× (§0, §2.2, §H8) | "basis unclear" | Screener's 128× ≈ m-cap ÷ **TTM PAT excluding exceptional items** (₹649 Cr + ₹190 Cr Q2 FY26 impairment − ₹21 Cr Q4 FY26 exceptional gain ≈ ₹818 Cr → ~127×). On reported TTM PAT it is ~160×. | Reconciliation [E from V screener + V AR] |
+| 28 | IRDAI caps detail (§7.7 table, E11) | "Life renewals (max) 7%"; hospitals "1% (group)"; "Other individual life 5–20% by PPT" | IDE **individual life renewal 2–3%** (the escalating "max 7%" applies to **agents**); individual health via **hospitals 5%** first-time (group 1%, ₹25 lakh cap); savings single premium IDE 1%; IDE life first-year 5/10/14/18/20% for PPT <5/5/6–8/9/10+. **New:** +10% (towns <10 lakh) and +20% (towns <50,000 and rural) uplift on first-year commission limits; commission defined to include **all remuneration, direct or indirect, monetary or non-monetary**. | IRDAI Consultation Paper Part 1, Boxes 4A/4B [V] |
+| 29 | IRDAI EoM detail (§7.7) | GI "from 30%" to 25%/20% | GI EoM basis moves **from 30% of GWP to domestic GDPI**: 25% in 2 years, 20% in 5 years; **FY2027-28 is Year 1** for both life and GI glide paths; insurers already below → life 10% / GI 20% in 5 years; IRDAI fee 0.05% → 0.04% | IRDAI CP Part 1, Box 2 [V] |
+| 30 | Insurance Act amendment (§7.1, primer issue) | "Insurance Laws Amendment Act, Dec-2025 [K, FLAG]" | Named in IRDAI's release as the **"Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025"** | IRDAI press release 23-Sep-2026 [V] |
+| 31 | Zaggle QIP (§G, §H16, primer issue) | Dec-2024 ~₹595 Cr [K] | **1,13,69,282 shares at ₹523.20 = ₹594.84 Cr gross (net ₹574.14 Cr)**; **₹191.3 Cr used by 31-Mar-2026; ₹382.8 Cr unutilised**, held in bank deposits | Zaggle FY26 AR note 33 [V] |
+| 32 | Zaggle cashback ratio (trap 3, §9.5) | Q1 FY27 66.3% only | **FY26 incentives & cashback ₹505.3 Cr = 67.2% of program fee ₹752.3 Cr** (FY25 ₹359.9 Cr / ₹545.6 Cr = 66.0%); quarterly ~66% → 69% (Q4 FY26) → 66.3% | Zaggle FY26 AR [V]; Q1 FY27 deck [V] |
+| 33 | Zaggle customer concentration (§2.5, §H16) | "not disclosed" | AR: "over 3,900 corporates… **no single customer relationship is material**"; churn <1.5%. Standalone customers 4,065 (Q1 FY27); revenue per customer ₹0.96 mn per quarter | Zaggle FY26 AR (risk table) [V]; Q1 FY27 deck [V] |
+| 34 | Global peer multiples (§10) | PayPal ~19.8× / Block 48.9× (undated); Fiserv ~6× (Jul-26); Adyen ~40× [K] | **One date — TTM P/E as of Oct-2026:** PayPal **10.7×**, Fiserv **9.45×**, Block **60.7×**, Kakao Pay **53.4×**, eHealth **negative**. Adyen **40.9×** and Edenred **7.3×** are end-2025 (no Oct-26 print found). | companiesmarketcap.com (aggregator) [V-snip] |
+| 35 | Paytm net payment margin (trap 9, §9.1) | ">4 bps" | Split: **payment-processing margin "comfortably above 4 bps (vs 3 bps earlier)"**; total **net payment revenue (incl. device subscriptions) ex-PIDF fell from 8.8 to 8.4 bps of GMV** YoY, as subscription revenue per device declined modestly | Paytm Q1 FY27 release FAQ [V] |
+
+## 4.1 Verification table — 40 figures the writer will lean on
+
+"Primary?" = fetched this session from a regulator, government, exchange filing or company document (AR, deck, release, transcript). Screener counts as [V] but **not** primary. "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Source (fetched 24-Oct-2026) | Primary? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | UPI FY26 volume / value | 2,41,61,688.6 lakh = **241.62 bn txns; ₹3,14,23,250 Cr (₹314.23 lakh Cr)** | RBI PSI Aug-2026 (Id=63) | Yes | Yes |
+| 2 | UPI FY25 volume / value | **185.87 bn; ₹260.57 lakh Cr** | RBI PSI Aug-2025 (Id=51) | Yes | ≈ (Part 1 261.0 [K]) |
+| 3 | UPI FY21–FY24 | 22.33 / 45.96 / 83.71 / 131.13 bn; ₹41.04 / 84.16 / 139.15 / 199.95 lakh Cr | RBI PSI Id=3/15/27/39 | Yes | Yes (Part 1 [K] within rounding) |
+| 4 | UPI Aug-2026 month | **24.51 bn; ₹29.82 lakh Cr** (Jul-26: 23.66 bn; ₹29.88 lakh Cr) | RBI PSI Id=63 | Yes | Yes |
+| 5 | PoS terminals | **Mar-25 110.98 → Mar-26 117.69 → Jul-26 100.28 → Aug-26 102.08 lakh**; Aug-25 119.73 (as first published; 119.65 restated) | RBI PSI Id=51/63 | Yes | Yes (adds the series; no RBI explanation found) |
+| 6 | Credit-card spend FY26 | **₹23,62,471 Cr** (FY25 ₹21,09,197 Cr; +12.0%) | RBI PSI Id=63/51 | Yes | Yes |
+| 7 | UPI/RuPay incentive | FY25 actual **₹1,922.77 Cr**; FY26 BE ₹437 / **RE ₹2,196.21 Cr**; FY27 BE **₹2,000 Cr** | Union Budget 2026-27, DFS Demand 32 | Yes | **No** — supersedes (#1 in 4.0) |
+| 8 | NPCI MDR circular and deferral | **NPCI/UPI/OC-No.237/2026-27, 15-Sep-2026**; NPCI press release 13-Oct-2026: "after Diwali, date to be notified" | Paytm Reg-30 to BSE, 13-Oct-2026 | Yes (exchange filing) | Yes; adds circular number |
+| 9 | MDR terms | 0.4% on P2M > ₹2,000; ₹300 cap; ₹5 flat (rail/telecom/fuel/insurance); 0.02% capital markets; split 40/30/20/10 | ThePrint/PTI, sahi (pass 1) | No (circular itself not fetchable) | — still [V-snip] |
+| 10 | s.10A PSS Act amendment | Taxation and Other Laws (Amendment) Bill 2026, LS 6-Aug-2026, RS ~10/11-Aug-2026 | newsonair / inc42 / LiveLaw search summaries; AvenuesAI call 11-Aug | No | New (not in Parts 1–3) |
+| 11 | IRDAI IDE cap — new individual health | **15%** (agent 20%; hospitals 5%) | IRDAI CP Part 1, Box 4A | Yes | Yes |
+| 12 | IRDAI IDE cap — health renewal / porting | **5% / 5%** (agent 10% / 10%) | IRDAI CP Part 1, Box 4A | Yes | Yes |
+| 13 | IRDAI IDE cap — pure term multi-year | **25% first year / 7.5% renewal** (agent 30% / 10%) | IRDAI CP Part 1, Box 4B | Yes | Yes |
+| 14 | IRDAI EoM glide | Life 15% (2 yrs) → 12.5% (5 yrs); GI 25% → 20% of GDPI; **FY2027-28 = Year 1** | IRDAI CP Part 1, Box 2; press release | Yes | Yes (adds basis/timing) |
+| 15 | IRDAI comment deadline | **25-Oct-2026** | IRDAI CP Part 1, para 163 | Yes | Yes |
+| 16 | GI broker commissions vs premium FY23→FY25 | Premium **+37%**, commissions **+173%**, avg rate 8.5% → 17%; retail health ~10% → ~30%; motor premium +34% vs commission +259% | IRDAI CP Part 1, para 51 and Section on motor | Yes | Yes (was inc42 [V-snip]) |
+| 17 | PB fall on the paper | **−36.0%** (₹1,886.30 → ₹1,207.20, 23→24-Sep) | screener price API (NSE closes) | No (market data) | Resolves conflict |
+| 18 | PB FY26 P&L | Revenue **₹6,794.0 Cr**; other income ₹372.4; PBT ₹707.4; PAT **₹670.1 Cr** (FY25 ₹352.2; +90.3%) | PB FY26 AR, MD&A | Yes | Yes |
+| 19 | PB FY26 ESOP | **₹194.2 Cr + EPU ₹21.2 Cr = ₹215.4 Cr** | PB FY26 AR | Yes | ≈ (Part 1 ₹217 Cr [E]) |
+| 20 | PB Q1 FY27 | Premium **₹8,372 Cr**; revenue ₹1,888 Cr; adj. EBITDA ₹186 Cr; ESOP ₹47 Cr; PAT ₹163 Cr | PB Q1 FY27 deck pp. 4–5 | Yes | Yes |
+| 21 | Paisabazaar disbursals | FY26 **₹30,740 Cr**; Q1 FY27 **₹4,366 Cr** (Q1 FY26 ₹7,003 Cr) | PB FY26 AR; Q1 deck | Yes | **No** — supersedes |
+| 22 | PB core online adj. EBITDA margin | **21%** (rolling 12m to Mar-26: ₹841 Cr on ₹4,079 Cr revenue; Jun-26: ₹943 Cr on ₹4,440 Cr) | PB Q1 FY27 deck p. 9 | Yes | Yes (adds the revenue base) |
+| 23 | PB renewal/trail revenue | **₹1,003 Cr rolling 12m, +38%** (deck); the CEO said "+55%" on the call | PB deck p. 12; transcript | Yes | Conflict inside the company — use the deck's 38% |
+| 24 | PB Healthcare stake | **28.46%** (31-Mar-2026) | PB FY26 AR | Yes | **No** (Part 1: ~25.5%) |
+| 25 | Paytm FY26 revenue mix | ₹8,437 Cr = payments 4,646 + FS 2,594 + marketing 952 + other 245 | Paytm FY26 AR, MD&A | Yes | Yes |
+| 26 | Paytm Q1 FY27 | Revenue **₹2,448 Cr**; contribution ₹1,350 Cr (55%); EBITDA **₹203 Cr**; OI ₹182 Cr; PAT **₹220 Cr** | Paytm Q1 FY27 release | Yes | Yes |
+| 27 | Paytm cash | **₹13,529 Cr** (net of ₹5,119 Cr escrow and ₹389 Cr PML client funds; gross ₹18,336 Cr) | Paytm Q1 FY27 release p. 14 | Yes | Yes (adds composition) |
+| 28 | Paytm FY26 ESOP | **₹174 Cr** (FY25 ₹1,308 Cr incl. acceleration) | Paytm FY26 AR, consolidated cash-flow/equity notes | Yes | Yes |
+| 29 | Paytm devices / GMV | **1.57 Cr** subscription merchants; GMV **₹7.1 lakh Cr** (+31%) | Paytm Q1 FY27 release | Yes | Yes |
+| 30 | Paytm UPI app share | 8.03% (Aug-26, volume) | startuptalky (NPCI blocked) | No | Yes (still secondary) |
+| 31 | Pine Labs FY26 | Revenue **₹2,710.59 Cr**; PAT **₹112.51 Cr** (FY25 −₹145.49 Cr) | Pine FY26 AR, Board's report | Yes | Yes |
+| 32 | Pine Labs ESOP | **₹152.43 Cr** FY26 (₹114.79 Cr FY25) | Pine FY26 AR, note on employee benefits | Yes | **No** (Part 1 ~₹200 Cr [E]) |
+| 33 | Pine adj. EBITDA | FY26 **₹559 Cr (21%)**; Q1 FY27 **₹126 Cr (17.1%)** | Pine Q1 FY27 deck pp. 20–23 | Yes | Yes |
+| 34 | Pine GTV | FY26 **₹17.15 lakh Cr**; Q1 FY27 ₹4.22 lakh Cr (+4%; India DITP +20–25%) | Pine deck p. 22; transcript | Yes | Yes (adds reason) |
+| 35 | Pine PA authorisation | PA-O final **9-May-2025**; consolidated PA-O/P/CB CoA **10-Nov-2025** | Pine FY26 AR | Yes | **No** — supersedes (date) |
+| 36 | AvenuesAI FY26 PAT | Reported **₹294.9 Cr** (owners ₹279.0 Cr); adjusted **₹332.0 Cr** | AvenuesAI FY26 AR | Yes | Resolves conflict |
+| 37 | AvenuesAI take rate | FY26 **7 bps** (FY25 11.7); Q1 FY27 **5.3 bps** (Q1 FY26 10.4) | AvenuesAI FY26 AR; Q1 deck | Yes | Yes (adds FY figure) |
+| 38 | AvenuesAI FY27 guidance | Gross revenue **₹11,000–13,000 Cr**; EPS **₹8.75–9.50** vs FY26 **₹9.42** | AvenuesAI Q1 FY27 deck p. 11 | Yes | Partly — Part 2 omitted that it is flat |
+| 39 | Zaggle FY26 revenue build | Program fee **₹752.3 Cr**, Propel ₹1,107.4 Cr, SaaS ~₹47.9 Cr; cashback **₹505.3 Cr (67.2%)** | Zaggle FY26 AR | Yes | Yes (cashback ratio new) |
+| 40 | Group FY26 revenue / PAT (5 members) | **₹27,966 Cr / ₹1,769 Cr** — every component now matches the companies' own ARs (PB 6,794/670; Paytm 8,437/552; Pine 2,711/113; AvAI 8,116/295; Zaggle 1,908/139) | Screener sums cross-checked to 5 ARs | Yes (components) | Yes |
+
+**Score: 36 of the 40 figures are [V] from primary sources** (rows 1–8, 11–16, 18–29 and 31–40). Row 17 (screener market data) is [V] but not primary; rows 9, 10 and 30 remain [V-snip]. Two independent primary sources exist for rows 1/4 (RBI vs Paytm's industry growth claim), rows 8/9 (Paytm filing vs press), and rows 20/26/33 (deck vs transcript). Where they conflict (row 23), **the deck is preferred over the spoken call** because it is the audited-numbers-adjacent written disclosure.
+
+## 4.2 Per-company primary-source packs
+
+Conventions: ₹ Cr. "Screener" = screener.in consolidated (pulled 24-Oct-2026; parsed tables saved in /tmp/fintech-deep/screener_tables.txt). Screener's "other income" includes exceptional items, so it can differ from company other income. OPM = screener operating profit ÷ revenue (includes ESOP, excludes other income).
+
+### 4.2.1 PB Fintech (POLICYBZR · 543390)
+
+**Documents read:**
+- Q1 FY27 earnings-call transcript (call 5-Aug-2026; filed 11-Aug).
+- Q1 FY27 investor deck (pbfintech.in, 109 pp).
+- **Special analyst and investor call on the IRDAI paper, 24-Sep-2026** (filed 25-Sep).
+- FY26 Annual Report (BSE).
+- SAST filing dated 21-Oct-2026.
+
+**Management-commentary digest (paraphrased; dates as stated)**
+
+*Q1 FY27 call (5-Aug-2026):*
+- Protection-led growth: new health + term premium +53% (new health +59%). New core premium +48% excluding savings (+39% including), above 35% for 13 straight quarters.
+- **TTM PAT "about ₹750 Cr"**, approaching the FY27 target. PAT margin 6% → 9% YoY. Quarterly revenue has compounded 51% a year since Q1 FY22 (₹238 Cr → ₹1,888 Cr).
+- Renewals: management expects renewal growth to outpace fresh growth "here onwards", because three years of fresh-business growth are now renewing. First-year and later-year renewal rates are at all-time highs.
+- **Credit "back into growth"**: core disbursals +33%, core credit revenue +25% (₹127 Cr). Paisabazaar "just broken even on an operating basis", with contribution margin 41%.
+- **PB Partners** (Q1):
+  - Premium ₹1,637 Cr (+46%), revenue ₹561 Cr (+47%).
+  - 1.13 lakh active partners (+55%) out of more than 5 lakh registered.
+  - 78% of GWP from Tier-2/3 cities.
+  - Top-100 partners = 16% of premium; employee cost ≈ 15% of the channel's revenue.
+- UAE premium +31%. About 70,000 health claims supported in the quarter. PB Money has a bonds licence (launch from end-August).
+
+*IRDAI special call (24-Sep-2026, the morning after the paper):*
+- **Management's own impact view:** at net-present-value level, life insurance revenue is "similar" (but "not the same"). **General-insurance revenue falls to "one-third to 40%" of today** — "a very serious impact".
+- Illustration given: core revenue is roughly half GI and half life, so a 60% GI cut means about −30% of core revenue. Assuming price elasticity of about 1, 15–20% might come back as volume. Cost synergies of "maybe 10–15%" (explicitly not committed).
+- **Timing:** Alok Bansal said the paper points to implementation from **1 April** (i.e. FY28), so there is **"no impact on FY27"**. FY28 will be "a year of challenges and discovery", and the aim is to be back to the earlier trajectory by FY29.
+- **Cost levers:** the contact centre is about **20% of revenue**. PB hired about **6,000 people in H1 FY27** ("we may have hired 2,000" had the paper been known). Hiring will slow and marketing will be rationalised. Management said there would be **no mass layoffs**.
+- **Strategic options:**
+  - Service revenues from non-distributor group companies (PB Garage, PB Wheels, PB Care+, PB Health are separate legal entities).
+  - Reinsurance broking.
+  - A **higher probability of "manufacturing"** (insurer or reinsurer).
+  - Lobbying for an **MGA** licence.
+- **POSP:** PB Partners' model is "challenged" if the paper is implemented as drafted, because PoSPs fall under lower IDE caps while agents get higher ones.
+- **Other remarks:**
+  - "There has been **no consultation with distributors**."
+  - PB is paid ~16% on average, but its profits are <2% of premium.
+  - Health combined operating ratio is ~93%.
+  - PB brings ~50% of the industry's young fresh health lives.
+  - The international (UAE) capital allocation was "a mistake" in hindsight.
+
+**Concall/deck KPI table (Q1 FY27 vs Q1 FY26)** [V deck p. 4–5, 9, 11, 12]
+
+| KPI | Q1 FY27 | Q1 FY26 | YoY |
+|---|---|---|---|
+| Total insurance premium (₹ Cr) | 8,372 (core online 5,755; New Initiatives 2,617) | 5,928 (4,087; 1,841) | +41% |
+| Revenue (₹ Cr) | 1,888 (core 1,194 = insurance 1,067 + credit 127; NI 694) | 1,348 (834; 514) | +40% |
+| Contribution (₹ Cr; %) | 549 (29%); core 504 (42%); NI 45 (7%) | 371 (28%); 344 (41%); 27 (5%) | +48% |
+| Adjusted EBITDA (₹ Cr; %) | 186 (10%); core 222 (19%); NI −36 (−5%) | 89 (7%); 120 (14%); −31 (−6%) | +109% |
+| ESOP charge (₹ Cr) | 47 | 55 | −15% |
+| EBITDA after ESOP / D&A / finance / other income / tax | 139 / 40 / 11 / 93 / 16 | 34 / 33 / 9 / 99 / 8 | |
+| PAT (₹ Cr) | 163 (1.9% of premium) | 85 | +92% |
+| Total loan disbursals (₹ Cr) | 4,366 | 7,003 | **−38%** (core +33%) |
+| Renewal/trail revenue, rolling 12m (₹ Cr) | 1,003 | 725 | +38% |
+| Core online, rolling-12m revenue / adj. EBITDA | ₹4,440 Cr / ₹943 Cr (21%) | ₹3,242 Cr / ₹528 Cr (16%) | |
+| New Initiatives, rolling-12m revenue / adj. EBITDA | ₹2,894 Cr / −₹122 Cr (−4%) | ₹2,073 Cr / −₹156 Cr (−8%) | |
+
+**Five-year history (screener consolidated; ROCE from screener)** [V screener; FY26 cross-checked to AR]
+
+| FY | Revenue | OP | OPM | Other income | PAT | ROCE |
+|---|---|---|---|---|---|---|
+| FY22 | 1,425 | −901 | −63% | 124 | −833 | −21% |
+| FY23 | 2,558 | −662 | −26% | 259 | −488 | −8% |
+| FY24 | 3,438 | −188 | −5% | 381 | 64 | 2% |
+| FY25 | 4,977 | 93 | 1.9% | 449 (AR: 407.8 + ₹41.1 Cr exceptional gain) | 352 | 6% |
+| FY26 | 6,794 | 508 | 7.5% | 372 | 670 | 10% |
+
+**Eight-quarter trend (screener)** [V]
+
+| Quarter | Revenue | OP | OPM | Other inc. | PAT |
+|---|---|---|---|---|---|
+| Sep-24 | 1,167 | −8 | −0.7% | 106 | 51 |
+| Dec-24 | 1,292 | 28 | 2.1% | 100 | 72 |
+| Mar-25 | 1,508 | 112 | 7.4% | 101 | 170 |
+| Jun-25 | 1,348 | 34 | 2.5% | 100 | 85 |
+| Sep-25 | 1,614 | 98 | 6.1% | 87 | 135 |
+| Dec-25 | 1,771 | 159 | 9.0% | 85 | 189 |
+| Mar-26 | 2,061 | 212 | 10.3% | 104 | 261 |
+| Jun-26 | 1,888 | 137 | 7.3% | 93 | 163 |
+
+**Annual-report findings (FY26 AR)** [V]
+
+*P&L detail:*
+- Employee benefits ₹2,465.9 Cr (+25.9%), of which **share-based ₹194.2 Cr** and EPU ₹21.2 Cr. Ex-ESOP employee cost ₹2,271.7 Cr (+30%).
+- Advertising & promotion ₹1,212.6 Cr (+11.2%) — only 17.8% of revenue now.
+- **Commission expense ₹1,934.3 Cr (+49.6%)**: payouts to POSPs in PB Partners and PB Connect. This is the line the IRDAI caps would squeeze from both sides.
+- Network & internet ₹196.5 Cr. Finance cost ₹37.1 Cr is almost entirely lease interest (the group is debt-free).
+- **Receivable days rose 82 → 106** because insurers moved to paying commissions in instalments across the policy term ("1/n") from end-Q3 FY25. This explains Part 2's weak OCF (₹41 Cr) — it is a timing change, not credit risk.
+
+*Associate:*
+- **PB Healthcare Services** ceased to be a subsidiary on 24-Apr-2025 and became an associate at **28.46%**, after PB put in **₹539.4 Cr** in FY26 alongside external investors.
+- PB's share of associate loss was only ₹1.2 Cr in FY26, so hospital losses sit mostly outside PB's P&L.
+- Several related-party transactions with PB Healthcare were put to shareholders (AGM notice).
+
+*Ratios:* ROE 9.7%; ROCE 10.2%; net margin 9.9%.
+
+*Risks the AR itself flags:* regulatory change in commissions/EoM; insurer concentration; data security; the shift to 1/n commission settlement.
+
+**Ownership read:** the 21-Oct-2026 SAST shows **ICICI Prudential MF crossing 5%** (to ~5.03%). Domestic funds bought the post-paper sell-off; FIIs sold (37.3% → 27.1% in Jun→Sep-26). The names of the foreign sellers are not in any document fetched.
+
+### 4.2.2 Paytm — One97 Communications (PAYTM · 543396)
+
+**Documents read:**
+- Q1 FY27 earnings release (dated 20-Jul-2026).
+- Q1 FY27 transcript (call 21-Jul-2026).
+- FY26 Annual Report (BSE, 405 pp).
+- Reg-30 filings of 13-Oct-2026 (MDR deferral; FGTPL GST order).
+
+**Management-commentary digest**
+
+*Margins and growth:*
+- **Long-term EBITDA margin 15–20%:** "even better visibility", with a "higher long-term target" possible. EBITDA margin was 8% in Q1. Indirect costs grew 6% vs revenue +28%; AI is credited for the "cost of building platform" falling 3%.
+- **Contribution margin:** guided to the "mid-50s". The 60% in Q1 FY26 was flattered by the PIDF incentive and lower DLG-linked lending. A rising share of card processing lowers CM but adds EBITDA.
+- **GMV growth is accelerating:** 24% (Q3 FY26) → 27% (Q4) → **31%** (Q1 FY27). This is helped by online merchants after the PA licence. Payment-processing margin is now "comfortably above 4 bps (vs 3 bps)", helped by MDR-bearing instruments: credit cards on UPI, and Postpaid (credit line on UPI).
+
+*Lending distribution:*
+- Roughly **80:20 merchant vs consumer**, done "mostly without any FLDG". Partners have "four to six times more capital than we are disbursing" — a double-digit number of lenders, including large banks.
+- **No loan-disbursal value is disclosed any more** (the gap stays open). The release gives indicative merchant-loan quality: Bucket-1 resolution 83–90%, recovery post-90+ 30–35%, **ECL 4.5–5.0%** (loans sit on partners' books).
+- Postpaid: "not even ₹1,000 Cr a month" in usage. Meaningful revenue/EBITDA is expected **from FY28**. PPSL has **applied for a wallet licence**.
+
+*UPI MDR (21-Jul, before the circular):*
+- "Our life won't change materially… whatever will come will come in the bottom line". The company has "no obligation" in its model to PIDF, UPI incentives or MDR. It "discontinued use of any adjusted metrics".
+
+*Guidance and capital:*
+- **D&A FY27 ₹550–600 Cr**. **Other income to stay "broadly steady" in FY27** (₹182 Cr in Q1, down from ₹241 Cr after last year's 125 bp of repo cuts).
+- Cash is held as "optionality" — no deployment "simply because we have it"; MTF is an early use.
+- International: **Luxembourg CSSF Payment Institution licence (2-Jul-2026)** for Paytm Europe Payments S.A.; a partner-operated device/tech deal with Flip/DTK in Indonesia.
+
+**Concall/release KPI table** [V release pp. 11–14]
+
+| KPI | Q1 FY27 | Q1 FY26 | Q4 FY26 |
+|---|---|---|---|
+| Revenue (₹ Cr) | 2,448 (payments 1,384; FS 814; marketing 239; other 11) | 1,918 (1,044; 561; 247; 67) | 2,264 |
+| PIDF incentive in revenue (₹ Cr) | 8 | 54 | — |
+| Payment processing charges (% of GMV) | 794 (0.11%) | 581 (0.11%) | 692 |
+| Contribution profit (margin) | 1,350 (55%) | 1,151 (60%) | 1,254 (55%) |
+| Indirect costs: marketing / employee incl. ESOP / cloud / other | 79 / 742 / 159 / 167 | 62 / 643 / 168 / 207 | 65 / 739 / 175 / 143 |
+| EBITDA (margin) | 203 (8%) | 72 (4%) | 132 (6%) |
+| D&A / other income / tax / exceptional | 131 / 182 / 27 / 0 | 166 / 241 / 4 / −17 | 132 / 178 / 11 / +21 |
+| PAT | 220 | 123 | 183 |
+| GMV (₹ lakh Cr) | 7.1 | 5.4 | 6.5 |
+| Subscription merchants (Cr) / registered merchants (Cr) | 1.57 / 5.0 | 1.30 / 4.5 | 1.51 / 4.9 |
+| Merchant / total transactions (Cr) | 1,669 / 1,989 | 1,303 / 1,464 | 1,530 / 1,822 |
+| Avg sales employees | 43,715 | 38,945 | 40,512 |
+| MTU (Cr) / key FS customers (lakh) | 8.0 / 7.6 | 7.4 / 5.6 | 7.7 / 7.5 |
+| Cash balance (₹ Cr) | 13,529 | 12,872 | 13,315 |
+| Shares: basic / fully diluted (Cr; 20-Jul-26) | 64.0 / 67.9 (0.3 vested-unexercised; 1.0 unvested; 2.7 pool available) | | |
+
+**Five-year history (screener)** [V; FY26 matches AR]
+
+| FY | Revenue | OP | OPM | Other income | PAT | ROCE |
+|---|---|---|---|---|---|---|
+| FY22 | 4,974 | −2,384 | −48% | 288 | −2,396 | −22% |
+| FY23 | 7,990 | −1,644 | −21% | 410 | −1,776 | −12% |
+| FY24 | 9,978 | −943 | −9% | 314 | −1,422 | −8% |
+| FY25 | 6,900 | −1,506 | −22% | 1,551 (incl. ₹1,345 Cr ticketing gain, net of ESOP exceptional) | −663 | −10% |
+| FY26 | 8,437 | 501 | 5.9% | 668 | 552 | 5% |
+
+**Eight-quarter trend (screener)** [V]
+
+| Quarter | Revenue | OP | OPM | Other inc. (incl. exceptional) | PAT |
+|---|---|---|---|---|---|
+| Sep-24 | 1,659 | −404 | −24% | 1,524 (ticketing gain) | 930 |
+| Dec-24 | 1,828 | −223 | −12% | 189 | −208 |
+| Mar-25 | 1,912 | −88 | −4.6% | −299 (₹492 Cr ESOP exceptional) | −545 |
+| Jun-25 | 1,918 | 72 | 3.8% | 224 | 123 |
+| Sep-25 | 2,061 | 140 | 6.8% | 32 (₹190 Cr FGTPL impairment) | 21 |
+| Dec-25 | 2,194 | 155 | 7.1% | 212 | 225 |
+| Mar-26 | 2,264 | 132 | 5.8% | 199 | 183 |
+| Jun-26 | 2,448 | 203 | 8.3% | 182 | 220 |
+
+**Annual-report findings (FY26 AR)** [V]
+
+*Revenue mix (FY24 → FY25 → FY26):* payments 6,128 → 3,879 → **4,646**; financial services 2,004 → 1,703 → **2,594**; marketing 1,738 → 1,158 → **952**; other operating 108 → 160 → **245**.
+
+*One-offs:*
+- FY25: ₹1,345 Cr gain on the entertainment sale, and the ESOP acceleration charge (₹492 Cr exceptional in the notes; "₹522 Cr" in the MD&A).
+- FY26: ₹190 Cr FGTPL loan impairment in Q2 (₹169 Cr in note 47's consolidated basis).
+
+*ESOP:* consolidated share-based payment **₹174 Cr FY26** (₹1,308 Cr FY25). The founder's options were cancelled on 16-Apr-2025 after a SEBI SCN (FY24) and a settlement application.
+
+*Contingent liabilities are tiny:* **₹42 Cr** (claims 4, income tax 30, GST 8). The big exposures sit in the JV and in notes:
+- **FGTPL:** DGGI SCN of ₹5,712 Cr (28-Apr-2025), now an **order for ₹703.66 Cr tax + equal penalty + interest** (Oct-2026). FGTPL's writ is pending in the Supreme Court; it is a JV for consolidation with nil carrying value; its loan was converted to equity (stake 82.6%) on 16-Apr-2026.
+- **ED/FEMA SCN (27-Feb-2025, ~₹611 Cr):** ~₹485 Cr found compliant by RBI; ₹54 Cr compounded; **~₹72 Cr residual [E]**; a provision is made for compounding fees.
+
+*Restructuring:* the **offline merchant business was slump-sold to PPSL for ₹975 Cr effective 30-Nov-2025**, to comply with RBI's PA Directions (which is why PPSL holds the ₹700 Cr pre-funded escrow).
+
+*Equity:* paid-up 64,00,45,681 shares after 22,00,198 ESOP allotments.
+
+**Valuation reconciliation:** screener P/E 128× ≈ m-cap ₹1,03,771 Cr ÷ TTM PAT excluding exceptionals (~₹818 Cr). On reported TTM PAT (₹649 Cr) it is ~160× [E]. Q1 FY27 PBT ₹247 Cr less other income ₹182 Cr = **₹65 Cr core PBT** — the first positive quarter ex-treasury, so treasury was 74% of Q1 PBT [E from V].
+
+### 4.2.3 Pine Labs (PINELABS · 544606)
+
+**Documents read:** Q1 FY27 transcript (call 29-Jul-2026; cdn.pinelabs.com and BSE); Q1 FY27 investor deck (BSE); FY26 Annual Report (BSE, 401 pp).
+
+**Management-commentary digest (29-Jul-2026)**
+
+*Guidance and margins:*
+- **FY27 revenue growth guide 21–23.5% reiterated.** Q1 grew 20%, "on the lower end".
+- **Contribution margin back to "73–74%" for the full year**, rising in H2 as festive issuing processing and flow-based revenue grow.
+- Amrish Rau refused to give an EBITDA-margin range but said "I do not see ourselves going below where we were last year… without a doubt" (FY26 adjusted EBITDA margin 21%).
+- Q1 adjusted EBITDA of ₹126 Cr "should have been ~₹135–140 Cr". The shortfall was front-loaded spending:
+  - Cloud +₹10–12 Cr a quarter (25–30% of it recurring; a new multi-year cloud contract signed).
+  - Network +~₹10 Cr (about 50% recurring), driven by about **1 lakh OMC terminals** and SIM upgrades.
+  - **500 new salespeople in six months**, who reach full productivity in 6–12 months.
+
+*Growth mix:*
+- **GTV +4% explained:** a bill-payments (Setu) client moved transactions in-house. That business uses per-transaction pricing, so revenue barely moves. **India DITP grew ~20–25%**, and "all businesses at about 20–25% at the minimum".
+- Historical run-rates by line: terminals +12–15% a year; online and bill payments +50%+; flow-based (affordability/EMI, offers, DCC) and issuing about +25%.
+- Pine does earn MDR ("flow-based income… pure MSF"), growing **60–70%** off a small base; its share of revenue is not disclosed.
+- **DITP contribution margin fell from 84.4% to 81.7%**: 25–30% of new deployments now have the merchant buying the terminal upfront (low-margin hardware revenue, but lower depreciation and attrition).
+- **IAP:** processing earns about 100% CM and distribution 30–40% CM. International growth is entering markets via distribution first (Amazon Singapore, a large US restaurant chain, a signed British Airways gift-card programme), which dilutes CM.
+
+*Market colour:*
+- About **70% of offline POS transactions are UPI**, with an average UPI ticket above **₹1,400**.
+- Rau expects **Apple Pay to enter India before end-2026**, and says credit-card transactions are growing 10–15%.
+- **Tax:** Q1 effective rate 46% on PBT of ₹38 Cr, because loss-making entities' losses cannot be absorbed. FY guide 29–30%; India rate 25.1%.
+- **Working capital:** 13–15% of revenue for the full year (Q1 16%).
+- Other items: Malaysia's largest instalment-payments provider; GCash about 30,000 software-only terminals in 9 months; Credit-on-UPI live with J&K Bank; SignalIQ (underwriting data) signed with 6 banks/NBFCs; **Shopflo acquired for ₹88 Cr cash**.
+
+**Deck KPI table (Q1 FY26 → Q1 FY27)** [V deck pp. 20–24]
+
+| KPI | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | FY25 | FY26 |
+|---|---|---|---|---|---|---|---|
+| Revenue (₹ Cr) | 616 | 650 | 744 | 701 | 737 | 2,274 | 2,711 |
+| DITP / IAP revenue | 434 / 182 | 440 / 210 | 496 / 248 | 466 / 234 | 499 / 238 | 1,603 / 671 | 1,837 / 874 |
+| Contribution margin % | 78% | 77% | 74% | 73% | 72% | 76% | 75% |
+| Adjusted EBITDA (₹ Cr; %) | 121 (20%) | 122 (19%) | 171 (23%) | 146 (21%) | 126 (17%) | 357 (16%) | 559 (21%) |
+| ESOP (₹ Cr) | 66 | 29 | 31 | 27 | 26 | 115 | 152 |
+| Statutory EBITDA (PAT + tax + finance + D&A) | 82 | 98 | 155 | 156 | 124 | 235 | 492 |
+| PBT / PAT | −5 / 5 | 11 / 6 | 63 / 42 | 69 / 59 | 38 / 20 | −136 / −145 | 138 / 113 |
+| Platform GTV (₹ '000 Cr) | 406 | 424 | 451 | 435 | 422 | 1,143 | 1,715 |
+| Transactions (Cr) | 175 | 188 | 193 | 185 | 201 | 569 | 740 |
+| DCPs (lakh) / merchants (lakh) | 18.4 / 9.9 | 19.0 / 10.3 | 19.3 / 10.5 | 20.3 / 11.0 | 21.7 / 11.5 | 17.8 / 10.0 | 20.3 / 11.0 |
+| Prepaid cards issued (Cr) | 23 | 26 | 20 | 18 | 20 | 71 | 87 |
+| OCF ex early settlement / early settlement (₹ Cr) | −36 / −245 | 241 / −89 | −124 / −28 | 474 / 202 | 78 / −237 | 250 / −200 | 554 / −159 |
+
+**Five-year history (screener)** [V; FY26 matches AR ₹2,710.59 Cr / ₹112.51 Cr]
+
+| FY | Revenue | OP | OPM | Other income | PAT | ROCE |
+|---|---|---|---|---|---|---|
+| FY22 | 932 | 112 | 12% | 25 | −23 | −3% |
+| FY23 | 1,598 | 5 | 0.3% | 56 | −265 | −7% |
+| FY24 | 1,770 | −25 | −1.4% | 55 | −342 | −8% |
+| FY25 | 2,274 | 218 | 9.6% | 16 | −145 | 0% |
+| FY26 | 2,711 | 358 | 13.2% | 133 (company basis ₹84 Cr) | 113 | 4% |
+
+**Eight-quarter trend (screener)** [V]
+
+| Quarter | Revenue | OP | OPM | Other inc. | PAT |
+|---|---|---|---|---|---|
+| Sep-24 | 552 | 32 | 5.8% | 22 | −32 |
+| Dec-24 | 602 | 77 | 12.8% | −30 | −57 |
+| Mar-25 | 599 | 57 | 9.5% | 12 | −29 |
+| Jun-25 | 616 | 45 | 7.3% | 37 | 5 |
+| Sep-25 | 650 | 75 | 11.5% | 23 | 6 |
+| Dec-25 | 744 | 132 | 17.7% | 23 | 42 |
+| Mar-26 | 701 | 106 | 15.1% | 50 | 59 |
+| Jun-26 | 737 | 95 | 12.9% | 29 | 20 |
+
+**Annual-report findings (FY26 AR)** [V]
+- **Corporate structure:** Pine Labs Pte (Singapore) amalgamated into Pine Labs Ltd effective **6-Jun-2025**, so there is no holding company. Paid-up equity rose from 83,99,50,356 shares (1-Apr-2025) to **1,15,38,58,090 shares of ₹1** after the IPO and ESOP allotments (latest ESOP shares listed 7-Jul-2026). This matches screener's ₹115 Cr equity capital.
+- **Licences:** RBI **PA-O final authorisation 9-May-2025**, and a **revised CoA dated 10-Nov-2025** consolidating PA-O, PA-P and PA-CB. Also a PPI CoA.
+- **ESOP:** consolidated employee benefits ₹1,068.97 Cr, including **share-based payment ₹152.43 Cr** (FY25 ₹114.79 Cr).
+- **Contingent liabilities ₹353.03 Cr** (FY25 ₹322.39 Cr):
+  - Mostly a **DGGI/Joint Commissioner GST demand of ₹214.11 Cr** (order Feb-2025) denying input credit on co-branding, marketplace listing and advertising costs linked to gift-card sales (Jul-2017–Mar-2024). The Karnataka HC has stayed proceedings.
+  - Plus ₹137.92 Cr estimated interest.
+  - The old service-tax demand on **breakage** (₹13.37 Cr) is now excluded, after the GST Council clarified in Dec-2024 that unredeemed vouchers are not a "supply". This is relevant to the PPI-breakage debate in §7.5.
+- **Other income:** company-basis other income (ex write-backs) was ₹84 Cr in FY26, vs screener ₹133 Cr — hence OI/PBT 61% (company) vs 97% (screener).
+
+### 4.2.4 AvenuesAI (CCAVENUE · 539807)
+
+**Documents read:** Q1 FY27 investor presentation (11-Aug-2026); Q1 FY27 transcript (call 11-Aug-2026); FY26 Annual Report (dated 29-May-2026, 359 pp).
+
+**Management-commentary digest (11-Aug-2026)**
+- **FY27 guidance:**
+  - Gross revenue ₹11,000–13,000 Cr (+36–60%).
+  - **EPS ₹8.75–9.50 on the ₹10 FV, vs FY26 actual ₹9.42.** An analyst asked why EPS is flat. Vishal Mehta: a "conscious decision" to protect core earnings and **reinvest incremental accruals into AI** (PhroneticAI, PrivateGPT, RediffOne) over FY27–FY29.
+- **Net revenue, not gross:** Mehta told investors to "focus on net revenue". Net revenue fell 3% YoY, which he attributed to Q1 seasonality and to **take-rate compression from pulling in volume** in "a competitive business". The CFO pointed instead to EBITDA +41% and a 68% margin on net revenue.
+- **UPI MDR:** about **22% of AvenuesAI transactions are UPI**. Management said "the act has been passed by the Lok Sabha" and awaits the Rajya Sabha and Presidential assent (see Supersedes #3), and that any MDR will fall on "big merchants and higher value transactions". It claims an **8–10% share of online acquiring**; the deck claims "~8% India digital payments market share" and an annualised TPV run-rate of ₹10 trillion.
+- **Client base:** CCAvenue is not on Amazon or quick-commerce. The strategy is "horizontal" (long-tail merchants) in India and large clients abroad. International is targeted at 12–15% of payments net revenue by FY28, all run from the UAE.
+- **Licences and stakes:**
+  - **CBUAE in-principle** (not final) Retail Payment Services Cat III licence.
+  - **RBI PPI authorisation** received.
+  - Board approvals for up to **2.5% of Ratnaafin Capital** (NBFC, book >₹2,000 Cr) and **7% of Online PSB Loans** — "liability-light" lending; the NBFC partners keep the balance-sheet risk.
+
+**Deck KPI table** [V deck p. 15]
+
+| KPI | Q1 FY27 | Q1 FY26 | YoY | Q4 FY26 | QoQ |
+|---|---|---|---|---|---|
+| TPV (₹ bn) | 1,479 | 850 | +74% | 1,655 | −11% |
+| Payments net take rate (bps) | 5.3 | 10.4 | −49% | 6.0 | −13% |
+| Gross revenue (₹ Cr) | 2,680.4 | 1,280.2 | +109% | 2,489.5 | +8% |
+| Net revenue (₹ Cr) | 147.5 | 152.0 | −3% | 149.5 | −1% |
+| EBITDA ex other income (₹ Cr; % of NR) | 100.0 (68%) | 71.0 (47%) | +41% | 92.3 (62%) | +8% |
+| PAT (₹ Cr; % of NR) | 84.8 (57%) | 58.4 (38%) | +45% | 89.0 (60%) | −5% |
+
+**Five-year history** [V screener for gross/OP/PAT/ROCE; V AR for net revenue, adjusted EBITDA and adjusted PAT]
+
+| FY | Gross revenue | OP | OPM (gross) | Other inc. | PAT (reported) | ROCE | Net revenue | Adj. EBITDA (% NR) | Adj. PAT |
+|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 1,294 | 145 | 11% | 18 | 84 | 3% | n/a | n/a | n/a |
+| FY23 | 1,962 | 175 | 9% | 71 | 136 | 6% | 328.4 | 179.6 (55%) | 136.3 |
+| FY24 | 3,150 | 252 | 8% | 25 | 156 | 6% | 419.2 | 253.7 (61%) | 147.8 |
+| FY25 | 3,993 | 316 | 7.9% | 71 | 236 | 9% | 525.8 | 312.1 (59%) | 209.5 |
+| FY26 | 8,116 | 351 | 4.3% | 86 | 295 | 8% | 603.1 | 387.3 (64%) | 332.0 |
+
+**Eight-quarter trend (screener)** [V]
+
+| Quarter | Gross revenue | OP | OPM | Other inc. | PAT |
+|---|---|---|---|---|---|
+| Sep-24 | 1,017 | 78 | 7.7% | 4 | 47 |
+| Dec-24 | 1,070 | 78 | 7.3% | 27 | 64 |
+| Mar-25 | 1,161 | 75 | 6.5% | 24 | 55 |
+| Jun-25 | 1,280 | 71 | 5.5% | 28 | 58 |
+| Sep-25 | 1,965 | 90 | 4.6% | 21 | 68 |
+| Dec-25 | 2,381 | 96 | 4.0% | 15 | 80 |
+| Mar-26 | 2,490 | 91 | 3.7% | 25 | 89 |
+| Jun-26 | 2,680 | 100 | 3.7% | 30 | 85 |
+
+**Annual-report findings (FY26 AR)** [V]
+- **Consolidated P&L (₹ Cr):**
+  - Revenue 8,115.85; operating expenses 7,512.71 (92.6% of revenue — the pass-through).
+  - Employee costs 129.46 (**down** from 148.19); finance cost 18.63; D&A 76.71.
+  - Exceptional −3.35; share of associates −4.27; PBT 341.20.
+  - **Tax 46.31** (current 20.67 + deferred 25.63 — the low rate flagged in Part 2 is real).
+  - **PAT 294.90; attributable to owners 279.05**. OCI adds 14.97 (FV gains on equity investments).
+- **Rights issue:** ₹700 Cr at ₹10 (pre-consolidation) — see Supersedes #17.
+- **Rediff transaction:** the e-commerce platform-infrastructure business was transferred to **Rediff.com India** (valued ₹800.39 Cr), raising AvenuesAI's stake in Rediff from 54.1% to ~82.7%. Rediff is now positioned as the consumer/enterprise software layer (RediffOne).
+- **Cash & FDs ₹1,543.6 Cr** at 31-Mar-2026 (₹778.8 Cr a year earlier), against screener borrowings of ₹430 Cr.
+- **Contingent liabilities:** tax matters ₹39.5 Cr; bank guarantees ₹30.6 Cr (down from ₹170.6 Cr); and a **₹400 Cr corporate guarantee given by a step-down subsidiary to a bank on behalf of the holding company** — an unusual upstream guarantee worth noting.
+- **Merchant count:** "10+ million merchant base across online and offline" is the company's own definition (includes BillAvenue/offline). Keep the primer's 1.2 mn only if defined as active CCAvenue merchants.
+
+### 4.2.5 Zaggle Prepaid Ocean Services (ZAGGLE · 543985)
+
+**Documents read:** Q1 FY27 transcript (call 14-Aug-2026; filed 21-Aug); Q1 FY27 investor deck (BSE); FY26 Annual Report (BSE, 170 pp).
+
+**Management-commentary digest (14-Aug-2026)**
+- **Guidance:** Raj Narayanam said "our guidance was 40% on a consolidated basis, and we are not moving away from that". Q1 grew 27.5%; DICE revenue starts from Q2. Long-term EBITDA margin target 14–15% (5–7 years) (pass 1).
+- **Cash-flow pivot.** The three stated focus areas are revenue, EBITDA and **operating cash flow**. Actions:
+  - Moving card volumes to banks with shorter working-capital cycles.
+  - "Moderating" cashback on corporate credit and prepaid cards.
+  - "Actively moderating engagement with cash-flow-intensive customers" in Propel.
+  - **Moderating capitalisation:** expenses earlier capitalised are now expensed; the policy is under review with advisers.
+- **Why Q1 margin fell** (adjusted EBITDA margin 8.2% vs 10.1%): DICE relocation/transaction costs (~100 staff moved Pune → Hyderabad); DICE revenue not yet booked; less capitalisation; increments; and Zagg.Money costs.
+- **Program fee:** growth was ~10% "by design". Cashback was 66.3% of program fee (65.7% in Q1 FY26; ~69% in Q4 FY26); the marginal rise YoY is due to cost of funds.
+- **Propel margin:** 7.1% consolidated (Greenedge), ~5% standalone.
+- **Other:** QIP proceeds to go into "adjacent sectors". Under new AD Cat-II rules, cross-border processing via Unobanc (20%). The deck reports **73% of new customers taking the tax-benefit (new regime) product** — an FY27 tailwind cited by management.
+
+**Deck KPI table (consolidated, ₹ Cr)** [V deck pp. 7–10]
+
+| KPI | Q1 FY27 | Q1 FY26 | YoY |
+|---|---|---|---|
+| Revenue | 423.3 (SaaS 12.5; program fee 160.0; Propel 250.7) | 332.0 (10.6; 145.5; 175.9) | +27.5% |
+| Cost of point redemption / gift cards | 233.0 | 167.6 | |
+| **Net revenue** (company's preferred lens) | 190.3 | 164.4 | +15.8% |
+| Gross profit (margin) | 189.5 (44.8%) | 164.2 (49.5%) | +15.4% |
+| Incentive & cashback | 106.2 (66.3% of program fee) | 95.6 | |
+| Adjusted EBITDA (incl. Mobileware associate EBITDA ₹3.4 Cr; ex-ESOP) | 34.7 (8.2% gross; 18.3% net) | 33.4 (10.1%; 20.4%) | +4% |
+| ESOP / other income / D&A / finance | 0.4 / 6.6 / 12.7 / 1.7 | 1.8 / 11.7 / 7.0 / 1.1 | |
+| PAT | 17.5 (4.1%) | 26.1 (7.9%) | −32.9% |
+| Cash PAT (PAT + D&A + ESOP) | 30.6 | 35.0 | −12.4% |
+| Standalone customers / users (mn) | 4,065 / 4.02 | 3,559 / 3.39 | +14% / +19% |
+| FY26 / FY25 net revenue | ₹857.1 Cr / ₹625.6 Cr (adj. EBITDA 22.7% / 19.8% of net) | | |
+
+**Five-year history (screener; consolidated history starts FY23)** [V]
+
+| FY | Revenue | OP | OPM | Other inc. | PAT | ROCE |
+|---|---|---|---|---|---|---|
+| FY22 | n/a on screener consolidated (pre-IPO) | | | | | |
+| FY23 | 553 | 48 | 8.7% | 1 | 23 | n/a |
+| FY24 | 776 | 71 | 9.1% | 11 | 44 | 17% |
+| FY25 | 1,304 | 114 | 8.7% | 27 | 88 | 13% |
+| FY26 | 1,908 | 185 | 9.7% | 42 | 139 | 14% |
+
+**Eight-quarter trend (screener)** [V]
+
+| Quarter | Revenue | OP | OPM | Other inc. | PAT |
+|---|---|---|---|---|---|
+| Sep-24 | 303 | 27 | 8.9% | 6 | 20 |
+| Dec-24 | 337 | 29 | 8.6% | 4 | 20 |
+| Mar-25 | 412 | 36 | 8.7% | 13 | 31 |
+| Jun-25 | 332 | 30 | 9.0% | 12 | 26 |
+| Sep-25 | 432 | 44 | 10.2% | 11 | 35 |
+| Dec-25 | 526 | 52 | 9.9% | 9 | 37 |
+| Mar-26 | 618 | 58 | 9.4% | 10 | 41 |
+| Jun-26 | 423 | 31 | 7.3% | 9 | 18 |
+
+Note: quarterly D&A rose from ₹2 Cr (Sep-24) to ₹13 Cr (Mar/Jun-26) as capitalised development amortises — the other side of the capitalisation debate.
+
+**Annual-report findings (FY26 AR)** [V]
+- **Revenue build (₹ Cr):** program fee 752.3 (FY25 545.6); Propel/gift cards 1,107.4 (721.8); SaaS ~47.9. **Incentives & cashback 505.3 (359.9) = 67.2% of program fee.**
+- **QIP:** 1,13,69,282 shares at ₹523.20 = ₹594.84 Cr (net ₹574.14 Cr). ₹191.30 Cr used by 31-Mar-2026 (borrowing repayment, strategic investments, GCP); **₹382.84 Cr unutilised**, in bank deposits/monitoring account. So Zaggle has ~₹380 Cr of earmarked cash despite negative OCF.
+- **Customer concentration:** "over 3,900 corporates… no single customer relationship is material"; churn <1.5%.
+- **Capitalisation:** intangible assets under development ₹66.6 Cr (consolidated; ₹48.1 Cr prior year). Internally developed intangibles are capitalised per policy; the Q1 FY27 moderation follows this build-up.
+- **Other:** DICE asset purchase about ₹67.9 Cr plus taxes (agreement 13-May-2026). Raj P Narayanam holds 34.33% directly (promoter group 44.30%).
+
+### 4.2.6 Paytm ownership and governance facts confirmed from the FY26 AR [V]
+- **Antfin (Netherlands) held 9.85% at 31-Mar-2025 and nil at 31-Mar-2026** — Ant's full exit happened inside FY26. This confirms the "Aug-2025 exit" [K] in direction; the exact block dates are still [K].
+- Other >5% holders at 31-Mar-2026:
+  - Vijay Shekhar Sharma 9.04% directly.
+  - **Resilient Asset Management B.V. (indirectly owned by VSS) 10.21%**.
+  - **SAIF III Mauritius 9.43%** (10.78% a year earlier — still selling).
+- **SEBI settlement order 8-May-2025:** OCL + VSS paid **₹1,11,15,000 (₹1.11 Cr)**; Ajay Shekhar Sharma ₹57.11 lakh. Settled without admitting or denying.
+- PPSL received **in-principle online PA authorisation in August 2025**, after government approval of OCL's downstream investment (Press Note 3). The final CoA (Nov-2025) remains [V-snip].
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**4.3-A UPI annual (RBI Payment System Indicators; FY = Apr–Mar)** [V primary — replaces E1 for FY21–FY26]
+
+| FY | Volume (bn) | Value (₹ lakh Cr) | Avg ticket (₹) | YoY vol | YoY value |
+|---|---|---|---|---|---|
+| FY21 | 22.33 | 41.04 | 1,838 | — | — |
+| FY22 | 45.96 | 84.16 | 1,831 | +106% | +105% |
+| FY23 | 83.71 | 139.15 | 1,662 | +82% | +65% |
+| FY24 | 131.13 | 199.95 | 1,525 | +57% | +44% |
+| FY25 | 185.87 | 260.57 | 1,402 | +42% | +30% |
+| FY26 | 241.62 | 314.23 | 1,301 | +30% | +21% |
+
+FY21→FY26 CAGR: volume **61%**, value **50%** [E from V]. FY20 (12.5 bn / ₹21.3 lakh Cr) stays [K] — NPCI was blocked.
+
+**4.3-B UPI, August each year (RBI PSI)** [V]: Aug-21 3.56 bn / ₹6.39 lakh Cr · Aug-22 6.58 / 10.73 · Aug-23 10.59 / 15.77 · Aug-24 14.96 / 20.61 · Aug-25 20.01 / 24.85 · Aug-26 **24.51 / 29.82** (Jul-26 23.66 / 29.88). Sep-26 (24.07 bn / ₹29.37 lakh Cr) remains NPCI-via-startuptalky [V-snip]; RBI's Sep-26 PSI was not yet published on 24-Oct.
+
+**4.3-C Card acceptance infrastructure (RBI PSI, lakh)** [V]
+
+| Point | PoS terminals | Bharat QR | Static UPI QR |
+|---|---|---|---|
+| Mar-21 | 47.20 | 35.70 | — |
+| Mar-22 | 60.70 | 49.72 | — |
+| Mar-23 | 77.90 | 53.82 | — |
+| Mar-24 | 89.03 | 62.50 | — |
+| Mar-25 | 110.98 | 67.18 | — |
+| Aug-25 | 119.73 (restated 119.65) | 65.97 | 6,977 |
+| Mar-26 | 117.69 | 56.33 | 7,612 |
+| Jul-26 | 100.28 | 52.69 | 8,030 |
+| Aug-26 | 102.08 | 53.30 | 8,131 |
+
+- Reading: PoS terminals **more than doubled FY21→FY25**, peaked ~120 lakh in mid-2025, then **dropped ~17 lakh between Mar-26 and Jul-26**.
+- RBI gives no reason. The timing fits the PA-P wind-down deadline (28-Feb-2026) and bank clean-ups [E]. Pine Labs' own DCPs rose (20.3 → 21.7 lakh), and Pine says 25–30% of new deployments are merchant-owned terminals.
+
+**4.3-D Credit-card spend (RBI PSI, ₹ lakh Cr)** [V]: FY21 6.30 · FY22 9.72 · FY23 14.32 · FY24 18.31 · FY25 21.09 · FY26 23.62 (+12.0%) — card growth halved from FY24's +28%.
+
+**4.3-E Government digital-payment incentive (Union Budget, ₹ Cr)** [V primary for FY25–FY27; V-snip earlier]
+FY22 1,389 · FY23 2,210 · FY24 3,631 · **FY25 actual 1,922.77** · **FY26 BE 437.00 / RE 2,196.21** · **FY27 BE 2,000.00**
+
+**4.3-F IRDAI paper — evidence base and caps (IRDAI CP Part 1)** [V primary]
+- GI broker channel FY23→FY25: premium +37%; commissions +173%; average commission 8.5% → 17%; retail health ~10% → ~30%; motor ~9% → ~25%; retail lines 54% of broker premium but ~78% of commissions.
+- Life: ULIP payouts ~5% to ~40%; other savings 29–60% of first-year premium (>65% in cases); NBFC corporate-agency payouts ~42%; group credit life ~45%.
+- GI channel mix: brokers 33%, agents 30%, direct online ~2%, web aggregators "negligible".
+- Caps for IDEs (chart): new individual health 15 · health renewal 5 · porting 5 · group health 2.5 · term multi-year Y1 25 · term renewal 7.5 · term single 7.5 · life PPT 10+ Y1 20 · life renewal 2–3 · savings single 1 · motor new OD 5 · motor old OD 10 · motor new TP 0 · misc retail 15 · property retail first-time 15. Uplift: +10% (towns <10 lakh) / +20% (<50,000 & rural) of the first-year limit.
+- EoM: life 15% (2 yrs) → 12.5% (5 yrs); GI 25% → 20% of GDPI; FY2027-28 = Year 1.
+
+**4.3-G Price reaction to the two Sep-2026 shocks (NSE closes, ₹)** [V screener API]
+
+| Stock | 11-Sep | 15-Sep (MDR circular day) | 23-Sep | 24-Sep (IRDAI paper) | 12-Oct | 13-Oct (MDR deferral) | 23-Oct |
+|---|---|---|---|---|---|---|---|
+| PB Fintech | 1,797.3 | 1,736.0 | 1,886.3 | **1,207.2 (−36.0%)** | 1,047.0 | 1,067.0 | 1,015.0 |
+| Paytm | 1,807.5 | **1,730.0 (−4.3%)** | 1,775.0 | 1,735.5 | 1,690.0 | 1,715.0 (+1.5%) | 1,616.1 |
+| Pine Labs | 202.17 (+16.7% that day) | 193.80 | 188.30 | 179.31 (−4.8%) | 163.02 | 165.34 | 154.57 |
+| AvenuesAI (adj.) | 162.9 | 156.9 | 160.9 | 159.9 | 138.3 | (no trade 13–14 Oct; consolidation) | 116.3 |
+| Zaggle | 187.0 | 179.4 | 179.9 | 178.2 | 166.2 | 167.7 | 150.4 |
+
+- The market did **not** treat the MDR circular as a windfall on the day: Paytm fell 4.3% and recovered within three sessions.
+- 14-Sep-2026 was a market holiday.
+
+**4.3-H Global peers, one date (TTM P/E, Oct-2026)** [V-snip, companiesmarketcap.com]: PayPal 10.7× · Fiserv 9.5× · Block 60.7× · Kakao Pay 53.4× · eHealth n/m (loss) · Adyen 40.9× and Edenred 7.3× (end-2025, latest available). Indian members (23-Oct-2026): Paytm 128× (ex-exceptional) / ~160× reported · Pine Labs ~140× · PB 62.8× · Zaggle 15.6× · AvenuesAI 12.6×.
+
+## 4.4 Gap log (§H and §2.8 items, plus the brief's list)
+
+| # | Gap | Status | How / source |
+|---|---|---|---|
+| H1 | NPCI UPI FY20–FY26 series; P2M share; app shares | **Partly filled** | FY21–FY26 annual and monthly from **RBI PSI** (primary). FY20 still [K]. **P2M share of volume/value still unsourced** (NPCI 403; RBI PSI does not split P2M). App shares remain secondary (startuptalky, Aug-26). |
+| H2 | UPI incentive FY26/FY27 | **Filled** | Budget Demand 32: FY25 actual 1,922.77; FY26 BE 437 / RE 2,196.21; FY27 BE 2,000. |
+| H3 | UPI MDR new date; pool sizing | **Still open** (no date exists) | Paytm Reg-30 (13-Oct) gives circular no. 237 and the deferral. Pool sizing still assumption-driven (no P2M > ₹2,000 value split published). New: the s.10A amendment (Aug-2026). |
+| H4 | IRDAI paper itself; rewards coverage; effective date; 36% vs 26% | **Filled** | IRDAI PR + CP Parts 1–2: all remuneration (direct or indirect) counts as commission; EoM Year 1 = FY2027-28; PB management cites 1 April as start (no FY27 impact). Price data: −36.0%. |
+| H5 | Paytm loans distributed (₹) | **Still open** | No longer disclosed in release/transcript/AR; only ECL/resolution metrics and "80:20 merchant:consumer". |
+| H6 | Paytm cash composition | **Filled** | Release p. 14. |
+| H7 | Paytm ₹190 Cr First Games | **Filled** | FY26 AR MD&A (₹190 Cr; note shows ₹169 Cr). |
+| H8 | Paytm P/E 128 vs 160 | **Reconciled [E]** | Ex-exceptional TTM PAT. |
+| H9 | PB ESOP | **Filled** | ₹194.2 Cr + ₹21.2 Cr EPU. |
+| H10 | PB FII sellers; 21-Oct SAST | **Partly filled** | The SAST was ICICI Pru MF (buyer) crossing 5%. FII seller identities still unknown (NSE bulk/block data not accessible). |
+| H11 | Paisabazaar FY26 disbursals | **Filled** | ₹30,740 Cr (AR); quarterly series (deck). |
+| H12 | Pine Labs licences | **Filled** | AR: PA-O 9-May-2025; PA-O/P/CB CoA 10-Nov-2025. |
+| H13 | Pine Labs ESOP | **Filled** | ₹152.4 Cr. |
+| H14 | AvenuesAI PAT basis; rights terms; merchants | **Filled / partly** | Adjusted PAT ₹332 Cr vs reported ₹294.9 Cr; rights ₹700 Cr at ₹10. Merchants "10+ mn" is the company definition — still definitional. |
+| H15 | AvenuesAI FY23–FY24 TPV | **Partly** | AR gives FY25 ₹3,240 bn and FY26 ₹5,038 bn only. FY23–FY24 not found. |
+| H16 | Zaggle concentration, QIP, receivable ageing, banks | **Mostly filled** | QIP ₹594.84 Cr (₹382.8 Cr unused); "no single customer material"; cashback 67.2% FY26. Receivable ageing not extracted (AR schedule exists; not read in detail). |
+| H17 | Global peer multiples (mixed dates) | **Filled (secondary)** | Single date Oct-2026 via companiesmarketcap [V-snip]. |
+| H18 | Insurance premium FY26, online share | **Still open** | IRDAI FY26 annual report not out. IRDAI CP gives GI channel shares (direct online ~2%, web aggregators negligible). |
+| H19 | Pine Labs lock-in dates | **Filled (secondary)** | Six-month lock-in expired mid-May-2026 [V-snip]. |
+| H20 | PoS decline reason | **Still open** | RBI series verified (4.3-C). No RBI explanation found. |
+| — | Paytm ED FEMA ₹611 Cr | **Filled** | AR note 49: ~₹485 Cr found compliant, ₹54 Cr compounded, residual ~₹72 Cr [E]. |
+| — | FGTPL ₹704 Cr GST | **Filled** | Reg-30 13-Oct-2026: tax + equal penalty + interest; SCN was ₹5,712 Cr; nil carrying value. |
+| — | Ant exit | **Filled (direction)** | AR shareholding: 9.85% → nil in FY26. |
+| — | Paytm online PA licence | **Partly** | AR: in-principle Aug-2025 [V]; final CoA Nov-2025 [V-snip]. |
+| — | Founder SEBI settlement | **Filled** | 8-May-2025; ₹1.11 Cr (VSS + OCL). |
+| — | PB core vs new-initiatives profit; new vs renewal | **Filled / partly** | Deck: core adj. EBITDA ₹222 Cr vs NI −₹36 Cr (Q1); renewal/trail ₹1,003 Cr TTM. **New-vs-renewal premium split still not disclosed.** |
+| — | AvenuesAI gross vs net revenue | **Filled** | FY23–FY26 net revenue series from AR. |
+| — | Zaggle negative CFO, capitalisation, DICE | **Filled** | Transcript/deck/AR (capitalisation moderated; IAUD ₹66.6 Cr; DICE ₹67.9 Cr). |
+| — | Digital Lending Directions / DLG 5% | **Unchanged** | Not re-fetched this pass (Part 1 [V-snip]). Paytm says its consumer lending is "mostly without FLDG". |
+| — | PA net-worth thresholds | **Unchanged** | Part 1 [V rbi.org.in]: ₹15 Cr at application, ₹25 Cr by end of year 3. |
+| — | PhonePe IPO | **Updated (secondary)** | SEBI approval 20-Jan-2026 (valid 18 months, to ~Jul-2027); UDRHP 21-Jan; pure OFS (~5.07 Cr shares, ~₹12,000 Cr); paused Mar-2026; no dates. |
+| — | MobiKwik reference figures | **Unchanged** | Part 2 §2.6 [V screener]. |
+| — | Q2 FY27 results / board dates | **Unchanged** | None reported. Paytm board 26-Oct (call 27-Oct); Pine Labs 29-Oct. PB/AvenuesAI/Zaggle not announced (BSE API blocked; screener shows none). |
+
+## 4.5 New insights and new primer issues
+
+### 4.5.1 Insights the first pass missed (expert-level; for the report's argument)
+
+1. **The state is playing both hands on UPI economics — and the law has already moved.**
+   - In Aug-2026 Parliament amended **s.10A of the PSS Act**, swapping the hard-coded zero-charge guarantee for a **government notification power**. NPCI's circular No. 237 followed on 15-Sep.
+   - At the same time the Budget still funds **₹2,000 Cr** of UPI/RuPay incentive for FY27, after spending **₹2,196 Cr** in FY26 against a ₹437 Cr budget line.
+   - So the Diwali deferral is a timing decision on a power that now exists — not a reversal. The "incentive collapse" story in Part 1 is wrong.
+   - For modelling: an incentive-funded floor (~₹2,000 Cr/yr across banks/PSPs) plus an MDR option on high-value P2M. Not either/or.
+2. **For PB Fintech the IRDAI paper is a general-insurance (health) problem, not a life problem, and it is an FY28 problem, not FY27.**
+   - PB's own NPV read: life roughly unchanged; **GI revenue to one-third–40% of today**.
+   - The regulator's evidence (broker retail-health commission ~10% → ~30%, FY23–25) shows exactly which pool it is targeting. PB's renewal annuity is mostly health (IDE renewal cap 5%), so the "compounding renewal book" thesis is the most exposed part of the story.
+   - Mitigants are real but partial:
+     - Volume elasticity of ~1 (PB's estimate: 15–20% back).
+     - A contact centre costing ~20% of revenue, after hiring ~6,000 people in H1.
+     - The +10%/+20% under-served uplift, which favours PB Partners (78% of its GWP is Tier-2/3).
+     - Service revenue via separate group companies — but the paper counts "all remuneration, direct or indirect" as commission, so routing insurer payments through affiliates will be scrutinised (cost audits).
+3. **PB's credit engine was smaller and riskier than headlines implied.**
+   - FY26 disbursals of ₹30,740 Cr were inflated by PB Connect (New Initiatives, B2B2C). That book has now collapsed: **Q1 FY27 total ₹4,366 Cr, −38% YoY**, while core Paisabazaar grew 33% from a much smaller base and is only at operating break-even.
+   - Commission expense (₹1,934 Cr, +50%) is the POSP/Connect payout line — the same channel the IRDAI paper "challenges".
+4. **Paytm's profit is still mostly treasury, and management expects it to stay that way through FY27.**
+   - Other income is guided "broadly steady" (₹182 Cr in Q1 = 74% of PBT).
+   - The cash pile is reported conservatively — net of ₹5,119 Cr escrow and client money. The **growth of escrow/nodal balances (₹2,832 Cr → ₹5,119 Cr in a year)** is itself evidence of rising merchant float after the PA restructuring.
+   - The legal tail is smaller than headlines:
+     - ED/FEMA: most of the ₹611 Cr is resolved (~₹72 Cr residual [E]).
+     - First Games: the ₹704 Cr GST (+ equal penalty) sits in a liquidating JV with nil carrying value. But Paytm *raised* its stake to 82.6% by converting the loan in Apr-2026; whether it would support FGTPL is a governance question for the writer to pose, not answer.
+5. **AvenuesAI is telling investors that volume will not become earnings in FY27.**
+   - Payments net take rate fell from 11.7 bps (FY25) to 7 bps (FY26) to 5.3 bps (Q1 FY27). Net revenue was flat-to-down while gross revenue doubled.
+   - The company guided **FY27 EPS of ₹8.75–9.50 against an FY26 actual of ₹9.42**, explicitly reinvesting accruals in AI.
+   - Its headline "adjusted PAT ₹332 Cr" excludes fair-value movements.
+   - Its contingent liabilities include an **upstream ₹400 Cr corporate guarantee** from a step-down subsidiary for the parent's bank facility.
+   - The 0.85× P/B is the market's answer to all of this.
+6. **Pine Labs' reported-profit swing is mostly ESOP roll-off, and its "GTV slowdown" is a definitional artefact.**
+   - Quarterly ESOP fell from ₹66 Cr to ₹26 Cr (Q1 FY26 → Q1 FY27) — larger than the whole Q1 FY27 PAT of ₹20 Cr.
+   - The +4% GTV reflects one bill-pay client in-sourcing per-transaction-priced volume; India DITP grew 20–25%.
+   - Watch: CM dilution from distribution-led international entry and merchant-bought terminals, and a **₹214 Cr GST contingent** (gift-card input credit) under a Karnataka HC stay.
+   - The "Nov-2026 lock-in cliff" in Part 1 does not exist; the six-month unlock passed in May-2026.
+7. **Zaggle has chosen cash over growth, and it has unused money to do it.**
+   - Management is deliberately slowing program fees (~+10%), trimming cashback, shedding cash-hungry Propel clients and capitalising less. Reported margins will look worse before OCF looks better.
+   - **₹383 Cr of unused QIP cash ≈ 19% of its ₹2,022 Cr market cap**, against negative OCF and a 67% cashback ratio. The bull and bear cases both hinge on whether that cash funds acquisitions (DICE-style) or covers working capital.
+8. **Domestic institutions are the marginal buyer of every member's regulatory sell-off.**
+   - PB: ICICI Pru MF crossed 5% after the IRDAI shock.
+   - DIIs rose at PB, Paytm and Pine Labs in Jun→Sep-26 while FIIs sold PB and Paytm.
+   - The MDR circular itself moved Paytm only −4.3% then +3.5%: the market is pricing Paytm on lending and operating leverage, not on UPI MDR.
+
+### 4.5.2 New primer issues (in addition to Part 3 §3.4; format as primer-issues.md)
+
+#### From Fintech deep-research pass (2026-10-24, fintech-industry.md Part 4)
+
+**pb-fintech.html**
+- **IRDAI impact, management's own numbers:** add from the 24-Sep-2026 analyst call:
+  - Life NPV broadly unchanged; GI revenue to one-third–40% of today.
+  - No FY27 impact (implementation from 1 April); FY28 "year of challenges".
+  - About 6,000 hires in H1 FY27; contact centre ~20% of revenue.
+  - Manufacturing/MGA options. (Source: PB transcript filed 25-Sep-2026.)
+- **Paisabazaar:** FY26 disbursals ₹30,740 Cr is right, but add that Q1 FY27 total disbursals were ₹4,366 Cr (−38% YoY), with only core +33%. PB Connect is being re-strategised. Paisabazaar is at operating break-even (CM 41%).
+- **ESOP:** state FY26 share-based cost ₹194.2 Cr + EPU ₹21.2 Cr (AR); Q1 FY27 ₹47 Cr.
+- **PB Healthcare:** the stake is 28.46% (not ~25.5%); ₹539.4 Cr invested in FY26; ceased to be a subsidiary 24-Apr-2025.
+- **Receivables:** debtor days 82 → 106 because insurers moved to 1/n instalment commission settlement — explain before calling it a quality-of-earnings issue.
+- **IRDAI caps detail:** life renewal cap for distributors is 2–3% (not 7%); +10%/+20% under-served uplift; commission includes indirect remuneration; EoM glide starts FY2027-28. The Act is named "Sabka Bima Sabki Raksha (Amendment of Insurance Laws) Act, 2025".
+
+**paytm.html**
+- **Cash composition:** ₹13,529 Cr = gross ₹18,336 Cr less escrow ₹5,119 Cr and PML client funds ₹389 Cr, plus ₹700 Cr pre-funded escrow.
+- **Guidance:** other income "broadly steady" in FY27; D&A ₹550–600 Cr; long-term EBITDA margin 15–20% with "better visibility"; CM "mid-50s".
+- **Legal items:**
+  - ED/FEMA: SCN 27-Feb-2025; ~₹485 Cr found compliant by RBI; ~₹54 Cr compounded; residual ~₹72 Cr.
+  - FGTPL: SCN ₹5,712 Cr → order ₹703.66 Cr + equal penalty + interest; stake raised to 82.6% via loan conversion (16-Apr-2026); nil carrying value.
+  - The ₹190 Cr Q2 FY26 impairment, from the AR.
+- **ESOP one-off:** ₹492 Cr exceptional in FY25 per notes ("₹522 Cr" in MD&A — footnote it). SEBI settlement order 8-May-2025, ₹1.11 Cr.
+- **Ownership:** Antfin 9.85% (Mar-25) → nil (Mar-26); SAIF III 9.43%; VSS 9.04% direct + Resilient 10.21%.
+- **Offline business transfer:** slump sale to PPSL for ₹975 Cr effective 30-Nov-2025 (PA Directions compliance). Also: Luxembourg PI licence (2-Jul-2026); PPSL wallet-licence application.
+- **UPI MDR legal basis:** s.10A PSS Act amended (Aug-2026); NPCI circular No. 237 (15-Sep-2026); deferral (13-Oct-2026).
+
+**pine-labs.html**
+- **ESOP:** ₹152.4 Cr FY26 (not ~₹200 Cr); quarterly run-rate down to ₹26 Cr.
+- **Licences:** PA-O final 9-May-2025; consolidated PA-O/P/CB CoA 10-Nov-2025.
+- **Redomicile:** Singapore parent amalgamated effective 6-Jun-2025.
+- **Lock-in:** expired mid-May-2026 (~92.4 Cr shares); remove any "Nov-2026 overhang".
+- **GTV +4% explanation:** a Setu bill-pay client in-sourced volume; India DITP +20–25%.
+- **Contingent liabilities ₹353 Cr:** incl. ₹214 Cr GST ITC demand on gift-card co-branding/listing/ads (HC stay). Breakage service-tax demand dropped after the GST Council's Dec-2024 clarification.
+- **Other income basis:** company-basis other income ₹84 Cr → OI/PBT 61% (screener 97%).
+- **Guidance nuance:** "not below last year's" EBITDA margin; CM back to 73–74% for FY27; tax 29–30%; WC 13–15%.
+
+**avenuesai.html**
+- **PAT:** "~₹332 Cr net profit" is **adjusted PAT (excludes MTM/FV)**. Reported ₹294.9 Cr; owners' share ₹279.0 Cr.
+- **FY26 KPIs:** net revenue ₹603.1 Cr (+15%); payments net take rate 7 bps vs 11.7 bps.
+- **Guidance:** FY27 EPS ₹8.75–9.50 vs FY26 ₹9.42 (₹10 FV) — say "flat", not growth.
+- **Rights issue:** ₹700 Cr at ₹10, 1.40× subscribed, LoF 19-Jun-2025.
+- **Other:**
+  - CBUAE is an in-principle approval.
+  - ₹400 Cr upstream corporate guarantee (AR contingent liabilities).
+  - Rediff transfer (₹800.39 Cr; stake 54.1% → 82.7%).
+  - Cash & FDs ₹1,543.6 Cr.
+
+**zaggle.html**
+- **QIP:** ₹594.84 Cr at ₹523.20 (Dec-2024); ₹382.8 Cr unutilised at Mar-26.
+- **Cashback:** FY26 cashback ₹505.3 Cr = 67.2% of program fee (₹752.3 Cr).
+- **Concentration:** "no single customer material" (AR).
+- **Cash-flow pivot:** moving volumes to faster-paying banks, moderating cashback and cash-hungry Propel clients, capitalisation moderated (IAUD ₹66.6 Cr).
+- **Adjusted EBITDA definition:** includes the Mobileware associate's EBITDA (₹3.4 Cr in Q1 FY27).
+- **Guidance:** 40% consolidated growth retained despite Q1 +27.5%.
+- **Net-revenue lens:** company-preferred FY26 net revenue ₹857 Cr.
+
+**General (all five)**
+- **UPI incentive:** replace "~₹437 Cr FY26" with BE ₹437 / RE ₹2,196 Cr and FY27 BE ₹2,000 Cr (Budget 2026-27, Demand 32).
+- **UPI annual series:** cite RBI PSI (FY21–FY26) instead of memory.
+- **Recency of numbers:** none of the primers mentions the Aug-2026 s.10A amendment. All should date-stamp Q1 FY27 as the latest quarter and note that Q2 FY27 prints run from 26-Oct (Paytm) and 29-Oct (Pine Labs) to 14-Nov-2026 (others' deadline).
+
+### 4.5.3 Source URLs used in Part 4 (fetched 24-Oct-2026)
+- **IRDAI:**
+  - Press release https://irdai.gov.in/web/guest/document-detail?documentId=9852267
+  - Consultation Paper Parts 1–2 https://irdai.gov.in/web/guest/document-detail?documentId=9852848
+- **Union Budget 2026-27, DFS Demand 32:** https://www.indiabudget.gov.in/doc/eb/sbe32.pdf (MeitY Demand 27: …/sbe27.pdf)
+- **RBI PSI:** https://rbi.org.in/Scripts/PSIUserView.aspx?Id=3 · Id=15 · Id=27 · Id=39 · Id=51 · Id=63
+- **Annual reports FY26 (BSE):**
+  - Paytm …/AttachHis/38e0ec1b-bb22-4190-a4ce-90e20fcf8983.pdf
+  - PB …/AttachHis/97f7d70a-5c4b-45b9-8a39-cc5444e047cc.pdf
+  - Pine Labs …/AttachHis/24faa495-7fc8-4a82-a88f-beb9514fd016.pdf
+  - AvenuesAI …/AttachHis/72205995-2d4c-44ca-ae95-1bf2f78a45de.pdf
+  - Zaggle …/AttachHis/51ae4e21-5fe7-47cd-8f40-b006cbb291ba.pdf
+  - (prefix https://www.bseindia.com/xml-data/corpfiling)
+- **Q1 FY27 transcripts / decks (BSE AnnPdfOpen Pname=):**
+  - Paytm transcript 98c94d54-c284-4e83-83b3-fc6e41943d16; Paytm release https://paytm.com/document/ir/financial-results/Paytm_Earning-Release_Q1-FY-2027.pdf
+  - PB transcript 63fbf6a2-bffb-47fb-9bb6-2555dc8b8873; PB deck https://www.pbfintech.in/pdf/earnings-call-deck-q1fy27.pdf; PB IRDAI call 814f9a04-deee-4d2e-9eb9-d229abf7a8ea
+  - Pine transcript https://cdn.pinelabs.com/india/investors/pdf/legal-documents/PineLabsLimitedQ1FY27Transcript.pdf; Pine deck 8b30878d-d97e-4f6b-80ac-cd1c4e987d2a
+  - AvenuesAI transcript 9c6ec63e-11f0-4cb8-9e75-da789b6a4a3c; AvenuesAI deck ffb89b86-9735-4107-a7fd-58b94dc673df
+  - Zaggle transcript a823e5a7-d9be-49fd-8692-f09aed5572e5; Zaggle deck 88cad7f3-3f5c-4b6d-a142-f2415a7b3c7d
+- **Reg-30 / SAST filings:** Paytm MDR deferral f3483bc1-c64f-4343-8254-65ac8df567cb; Paytm FGTPL GST 2f341fce-47b4-48f2-b6e5-d834540b62f4; PB SAST AF6C89C4_8C2F_4C23_9C23_318148C14B5B_101534
+- **Secondary (V-snip):**
+  - Parliament s.10A amendment: newsonair.gov.in, inc42, livelaw.in, moneylife.in (Aug-2026)
+  - Pine lock-in: plindia.com, kotakneo.com
+  - PhonePe: chittorgarh, inc42
+  - Peer P/E: companiesmarketcap.com
+  - Budget 2026 incentive: inc42 (confirmed by sbe32)
+- **Market data:** screener.in chart API (company ids from the saved pages), NSE closes 8-Sep to 23-Oct-2026.
+
+*End of Part 4.*
