@@ -1071,3 +1071,685 @@ All aggregates are **straight sums of the company rows on one basis** (screener 
 - **Company Q1 FY27 coverage:** Balrampur https://cofacto.ai/market-news/balramchin-q1-fy27-results-analysis · EID https://scanx.trade/stock-market-news/companies/eid-parry-q1-results-sugar-revenue-up-18-410-crore/48683203 · https://www.kotakneo.com/news/stocks/eid-parry-q1-fy-2026-27-results-net-profit-falls-revenue-rises/ · Triveni https://agrospectrumindia.com/news/9/34514/triveni-engineering-industries-posts-rs-1581-cr-revenue-from-operations-net-of-excise-duty-in-q1-fy27.html · Renuka https://www.sahi.com/news/shree-renuka-sugars-reports-q1-consolidated-net-loss-of-252-crore-vs-260-crore-yoy-3380-PE1_COR · ICICI stake: https://scanx.trade/stock-market-news/companies/icici-bank-sells-2-17-stake-shree-renuka-sugars/48876312
 - **Triveni demerger terms:** https://www.angelone.in/news/stocks/triveni-engineering-shareholders-to-receive-tptl-shares-record · https://www.sahi.com/news/triveni-engineering-sets-july-22-record-date-for-1-3-power-transmission-demerger-3194-PE1_COR
 - **Balrampur PLA:** https://chemindigest.com/balrampur-expects-₹2000-crore-annual-revenue-from-pla-facility-at-full-capacity/ · https://swarajyamag.com/business/indias-first-large-scale-sugarcane-based-biopolymer-plant-in-uttar-pradesh-nears-launch
+
+---
+
+# PART 4 — Deep-research supplement (24-Oct-2026)
+
+Second, primary-source pass, compiled 24-Oct-2026 (Saturday). About 55 web calls. Where Part 4 conflicts with Parts 1–3, **Part 4 wins** unless a line says otherwise. Tags work as in Part 1. In Part 4, **[V] means the figure was fetched this session from the named primary document**: a company filing, presentation, transcript or annual report on BSE, a company site, or a government or rating-agency page. **[V-snip]** means search snippets or press only.
+
+**Primary documents read this session (all fetched and text-extracted):**
+- **Balrampur Chini:**
+  - Q1 FY27 results presentation, 11-Aug-2026 (BSE AnnPdfOpen `ac363973…`). **[BCML PPT]**
+  - Q1 FY27 earnings-call transcript (call 12-Aug-2026, filed 18-Aug; BSE `a34c8fce…`). **[BCML CC]**
+  - Integrated Annual Report 2025-26 (BSE AttachHis `56ae17ac…`). **[BCML AR]**
+- **EID Parry:**
+  - FY27 Q1 investor presentation, 12-Aug-2026 (eidparry.com). **[EID PPT]**
+  - Q1 FY27 call transcript (13-Aug-2026; BSE `27e756a7…`). **[EID CC]**
+  - Annual Report 2025-26 (BSE `91be141a…`). **[EID AR]**
+- **Triveni Engineering:**
+  - Q1 FY27 call transcript (late Jul-2026; BSE `98c3a065…`). **[TEIL CC]**
+  - Annual Report 2025-26 (BSE `407be97b…`). **[TEIL AR]**
+  - The Q1 FY27 investors' brief was already [V] in Part 1 **[TEIL IB Q1]**.
+- **Shree Renuka Sugars:**
+  - Annual Report 2025-26 (BSE `d6724702…`). **[SRSL AR]**
+  - Q1 FY27 unaudited results filing, standalone and consolidated (BSE AttachHis `f163ad97…`, via screener's quarterly source link). **[SRSL Q1]** — this is a scanned PDF, so the OCR is noisy and figures are rounded to ₹ Cr.
+  - Renuka held **no Q1 FY27 earnings call**. Screener's concall list for RENUKA ends in Jun-2022, so there is no transcript to digest.
+- **Government and agencies:**
+  - PIB CCEA release, 29-Oct-2020 (PRID 1668399) on ethanol prices. **[PIB 2020]**
+  - ICRA sugar monthly update, 28-Jul-2026. **[ICRA Jul-26]**
+- **Market:** Czapp (Czarnikow) daily price update, 23-Oct-2026. **[Czapp]**
+- **Screener:** all four members re-parsed from the 24-Oct-2026 pull; 13 quarters and 12 years each, including EID standalone.
+
+**Access failures (logged honestly):**
+- **BSE announcement API:** HTTP 403.
+- **renukasugars.com:** redirect loop.
+- **IMD PDFs:** mausam/internal.imd.gov.in failed with a self-signed TLS chain; WebFetch returned 503. I did not bypass TLS.
+- **Other blocked sources:** USDA FAS (403), Lok Sabha e-parliament library (connection reset/502), UNICA 2026/27 bulletins (not found).
+
+## 4.0 Supersedes (corrections to Parts 1–3 — the writer must apply these)
+
+| # | Where in Parts 1–3 | Old | New | Source |
+|---|---|---|---|---|
+| 1 | §H-14, §2.2 pack, primer | Balrampur ethanol "~1,048 lakh BL contracted ESY 2025-26" | **Wrong — 1,048.4 is the *national* allocation in crore BL.** Balrampur FY26 **industrial-alcohol sales 26.56 crore BL (2,656 lakh BL)**; production **2,700.10 lakh BL** (+24%). Ethanol sales by route: syrup 748.52 · B-heavy 1,039.39 · C-heavy 123.27 · maize 474.11 lakh BL (= 2,385 lakh BL ethanol). | BCML PPT p.15; BCML AR (Directors' report) [V] |
+| 2 | §9, §C, 2.2 pack | "Balrampur crushed ~1,043 lakh qtl in FY26, recovery 11.24%" | **1,043.04 lakh qtl is SS 2025-26** (+5.2% vs 991.57); **FY26 (Apr–Mar) crush = 1,031.55 lakh qtl** (−0.24%). **11.24% is SS gross (pre-diversion) recovery**; **net recovery 9.28%** (SS and FY). FY pre-diversion recovery 11.23% (11.32%). Use SS figures for agronomy and FY figures for P&L per-tonne maths. Per-tonne FY26 EBITDA on the FY crush = ₹741 Cr ÷ 10.32 MT ≈ **₹719/t** (unchanged in substance). | BCML AR operations table [V] |
+| 3 | §H-9, §9, 2.3 pack | Triveni SS 2025-26 crush "825–905 lakh qtl conflict" | **825.60 lakh qtl (−8.8%)**; **904.78 was SS 2024-25**. Gross = net recovery **11.06%** (+26 bp). FY26 (FY basis) crush 88.47 lakh t. | TEIL AR 10-season table; TEIL CC [V] |
+| 4 | §4.4, §9, 2.1 pack, §H-10 | EID "~9 sugar factories", "~40,000–45,000 TCD", "~582 KLPD [K/E]", "cogen ~140–160 MW" | **6 sugar plants (one leased: Ramdurg) + 1 standalone distillery (Sivagangai)**, 3 states; **40,800 TCD; 140 MW; 582 KLPD** (5 distilleries) | EID PPT p.4–5; EID AR [V] |
+| 5 | §B-2, §3.2(e), 2.1 pack | EID owns "~56% / 56.09%" of Coromandel; stake value ~₹28,430 Cr | **55.58% (31-Mar-2026)** → stake value at ₹50,684 Cr m-cap = **~₹28,170 Cr**; EID m-cap ₹11,167 Cr = 39.6% of it → **discount ~60%** | EID AR (AOC-1 / subsidiaries list) [V]; E |
+| 6 | Read-this-first #7, §B-4, 2.4 pack | Renuka Q1 FY27 loss "driven by ₹182 Cr interest and **forex losses**" | Q1 FY27 **forex loss only ~₹26 Cr** (standalone ₹25.8 Cr, vs ₹94 Cr in Q4 FY26). The loss came from the **refinery segment (−₹98.5 Cr vs −₹14.5 Cr)** and **finance cost ₹182 Cr**. Distillery was the bright spot (**+₹82.7 Cr** vs −₹19 Cr) on revenue of ₹474 Cr. | SRSL Q1 consolidated segment table [V, OCR] |
+| 7 | §B-4, 2.4 pack, §6 | Renuka "OP ₹22 Cr against ₹736 Cr interest" | Screener OP is **after a ₹211 Cr forex loss** (cons; standalone ₹209 Cr). Company **standalone EBITDA excluding forex = ₹358.2 Cr** (FY25 ₹720.6 Cr); finance ₹655 Cr; still < interest. State the basis. | SRSL AR Directors' report [V] |
+| 8 | §4.4, §9, 2.4 pack | Renuka "~46,000 TCD", "~1.7 mtpa refining" | **37,500 TCD crushing** (incl. Anamika, UP, raised to 6,000 TCD in 2026); **raw-sugar melting 5,500 TPD** (Kandla 3,000 TPD + Haldia); FY26 melt **13.54 lakh t**; 1,250 KLPD confirmed | SRSL AR p.4–7, value-creation chart [V] |
+| 9 | §H-12, 2.4 pack | Anamika "acquired ~2022-23 [K]" | **Acquired 2023** (Bulandshahr, UP); wholly owned subsidiary; crushing raised to **6,000 TCD (2026)** | SRSL AR "Our journey"; subsidiaries list [V] |
+| 10 | §7.3 | ESY 2018-19 juice ₹59.48/L | **₹59.13/L (2018-19); ₹59.48 is ESY 2019-20.** ESY 2020-21 (1-Dec-2020 to 30-Nov-2021) **C 45.69 / B 57.61 / juice 62.65**, up from 43.75 / 54.27 / 59.48 | PIB 2020 [V]; 2018-19 [V-snip] |
+| 11 | §7.3, §E-5 | Blending 2022-23 ~12.1%, 2024-25 ~19.9–20% | **12.06% (2022-23), 14.60% (2023-24) [V-snip LS reply]; 2024-25 19.24% (~1,003 cr L supplied of 1,131.7 cr L contracted) / 19.2% and 1,022.8 cr L blended** | BCML PPT p.19; BCML AR [V] |
+| 12 | §7.4 | ESY 2025-26 allocation 27.5/72.5 "via Triveni" | Confirmed; exact split of **1,048.4 cr L**: **grain 759.8 · syrup 165.9 · B-heavy 110.5 · C-heavy 12.2** | BCML PPT p.19 [V] |
+| 13 | §2A, §D-3, §H-3 | Closing stock 30-Sep-2026 "4.1 MT (Triveni) / 4.3 / ~3.5" | Primary-source cluster: **4.2 MT (EID management, 13-Aug), 4.3 MT (ISMA via EID PPT; ICRA 28-Jul)**; Balrampur CMD: "if market thinks 30 LMT it will be 35 LMT"; ISMA public (Aug) ~3.5 MT. **Stat-strip: "~4 million tonnes (3.5–4.3), lowest in nearly a decade".** | EID PPT p.9; EID CC; ICRA Jul-26; BCML CC [V] |
+| 14 | §2.3, §7.2 | Export quota "1.5 + 0.5 = 2.0 MT" | Conflict: Balrampur AR says the government "permitted the export of **1.58 MMT** (1.587)" for SS 2025-26 (likely the 1.5 MT tranche + residual re-allocations), while press/ISMA cite 2.0 MT. Shipments ~**0.7 MT** (ICRA "already completed"; BCML AR) to 0.8 MT (EID). **Ban: DGFT Notification No. 16/2026-27, 13-May-2026**, "Restricted" → "Prohibited" to 30-Sep-2026. | BCML AR; ICRA Jul-26 [V]; DGFT via taxguru [V-snip] |
+| 15 | §7.1, §7.2 | Stock limits "imposed in shortage years (2023)" | **New 2026 DFPD order:** dealers may not hold stock for more than 30 days, with a **stock limit of 4,000 qtl, 1-Aug to 30-Nov-2026**. | TEIL CC [V] |
+| 16 | §4.2, §3, §0 | Ex-mill sugar "~₹40–42/kg" | FY26 UP range ₹39.00–41.50/kg (BCML AR). **Then a spike:** ~₹43 (Jul, SRSL AR); refined ₹46.00 / sulphitation ₹45.25 (late Jul, TEIL CC); "north of ₹45–46" (EID CC 13-Aug); "₹48–49" (analyst on BCML CC, 12-Aug). Retail national average ₹52.30/kg on 18-Aug (+13% YoY) [V-snip ministry data via press]. | as cited |
+| 17 | §1.1, §4.4, §16 | Cogen tariffs "₹3–5/kWh [K/E]" | **UPPCL FY26 ₹4.37/unit (₹3.56); open access ₹4.79 (₹5.48); Balrampur blended ₹4.54.** UPERC revised the bagasse-cogen tariff **retrospectively from 1-Apr-2024 by ₹0.45–0.91/unit** (Balrampur), "~₹1/unit" (Triveni). EID realised ₹4.89/unit in Q1 FY27 (₹3.67). | BCML PPT p.20; BCML AR; TEIL AR; EID CC [V] |
+| 18 | §B-5, §12, 2.2 pack | PLA: ₹1,718 Cr spent (Apr-26), civil 87% / equipment 27%, COD Q3 FY27 | **₹2,180 Cr spent by 31-Jul-2026**; **civil ~92%, equipment erection ~68%**, 94% model review. **Lactic acid commissioning Oct-2026, PLA Dec-2026**; **~40% average utilisation targeted Jan–Mar 2027**. PLA term loan drawn ₹1,086 Cr (30-Jun). | BCML PPT p.22–24, 30; BCML CC [V] |
+| 19 | §B-2, §2.1 pack | EID Q1 FY27 "₹19 Cr impairment", "sugar-segment loss ₹58 vs ₹44.8 Cr" | Q1 exceptional (standalone) = **₹610 Cr impairment of PSRIPL investment − ₹591 Cr reversal of the financial-guarantee obligation = ₹19 Cr net**. **Cash: ₹610 Cr equity + ₹55 Cr loan infused in Q1 to repay PSRIPL bank debt.** Ex-CIL sugar-segment PBIT **−₹49 Cr in both Q1 FY27 and Q1 FY26**. | EID PPT p.7; EID CC [V] |
+| 20 | 2.1 pack | EID "standalone net debt ~₹745–1,300 Cr" | Company: **30-Jun-2026 standalone short-term debt ~₹980 Cr (₹1,250 Cr at Mar-26) + long-term ~₹150 Cr ≈ ₹1,130 Cr gross.** | EID CC [V] |
+| 21 | §4.1 table | FRP history [K] | **Confirmed 2021-22 → 2026-27** (₹/t): 2,900 · 3,050 · 3,150 · 3,400 · 3,550 · **3,650**; base recovery 10.00% (SY21-22) → 10.25% (SY22-23 onward). | EID PPT p.9 [V] |
+| 22 | §10, §H-7 | ICE #11 "no October quote" | **ICE #11 Mar-27 settled 20.24 ¢/lb (23-Oct-2026)**; **London #5 Dec-26 $534.80/t**; white premium ~$104/t. Oct-26 #11 expired at 17.63 ¢/lb, with ~1.45 Mt delivered [V-snip]. London #5 was ~$404/t in early 2026 and ~$471/t in Jul-2026 (EID CC). | Czapp [V]; EID CC [V] |
+| 23 | §1.2, §4.1 | Triveni/Balrampur both "integrated with B-heavy diversion" | **Triveni moved *all* sugar units from B-heavy to C-heavy in SS 2025-26**, which is why its net = gross recovery (11.06%). Balrampur did the opposite: **55.8% of cane to B-heavy + 10.4% to syrup** in FY26, sacrificing **20.11 lakh qtl sugar**. The zero-diversion tender therefore hits Balrampur's distillery mix far more. | TEIL AR; BCML AR [V] |
+| 24 | §1.1, §6, 2.4 pack | Renuka "Madhur" branded sugar (implicitly in-house distribution) | **Definitive agreement with AWL Agri Business (28-May-2026):** for 5 years from 1-Jul-2026, AWL markets and distributes Madhur refined sugar pan-India; Renuka keeps the trademark. | SRSL AR Directors' report [V] |
+| 25 | §2.6 conflicts | EID screener P/E 13.8 | Still irreconcilable: 13.8× implies a denominator of ~₹809 Cr. That is neither TTM attributable PAT (EPS ₹26.13 × 17.78 cr ≈ ₹464 Cr) nor TTM PAT incl. MI (₹1,227 Cr). **Use 24.0× TTM / 19.6× FY26 attributable.** | E from V screener |
+| 26 | §4.4 | Balrampur cogen "~175 MW" | **175.7 MW saleable**; 10 cogeneration plants; FY26 generation 8,279 lakh units, export to UPPCL 2,132 lakh units + open access 1,541 lakh units | BCML PPT p.34; BCML AR [V] |
+| 27 | §9 (Triveni) | Alcohol FY26 "236,510 KL production; 213,453 KL sales" | Consistent: **23.65 crore L produced, 21.35 crore L sold** (20.01 / 20.16 prior); IMIL **59 lakh cases (+6%)**; IMFL launched in Delhi | TEIL AR [V] |
+| 28 | §2.1 | ESY 2025-26 national supply mix (Jun) 66.9% grain | ISMA (May-26): **615 cr L supplied of 862 cr L contracted (71%)**. Grain **405 (66%)**: maize 225, surplus FCI/food grains 146. Sugar **210 (34%)**: juice 138, B-heavy 63, C-heavy 9. | SRSL AR (ISMA source) [V] |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Agrees?" compares the figure with Parts 1–3. **[V]** means fetched this session from the named primary source; when two sources exist, both are listed.
+
+| # | Figure | Value | Primary source (fetched?) | Second source | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | FRP SS 2026-27 | ₹365/qtl @10.25%; +₹3.56 per 0.1 pp; ₹338.3 floor below 9.5%; A2+FL cost ₹182/qtl | EID PPT p.9 ("FRP for SY26-27 is INR 3,650/MT") [V] | Cabinet release text reproduced on narendramodi.in (May-2026) [V-snip]; TEIL IB Q1 [V] | Yes (upgrade V-snip → V) |
+| 2 | FRP 2021-22 → 2025-26 | 290 / 305 / 315 / 340 / 355 ₹/qtl | EID PPT p.9 [V] | BCML AR (355 vs 340) [V] | Yes |
+| 3 | Sugar MSP | ₹31/kg in every season SY21-22 → SY25-26; no revision found by 24-Oct-2026 | EID PPT p.9 [V] | Search, no revision [V-snip] | Yes |
+| 4 | UP SAP 2025-26 | ₹400 early / ₹390 common (+₹30, the largest-ever hike, per Triveni) | BCML AR ("increased to ₹400 … from ₹370") [V] | TEIL CC [V] | Yes |
+| 5 | UP SAP 2026-27 | **Not announced** as of 24-Oct-2026 | Search (no release) | TEIL CC: chairman hopes any hike is "seriously moderated"; BCML CMD: "in all probability … some hike" [V] | Yes (still open) |
+| 6 | SS 2025-26 gross production | 31.0–31.1 MT | ICRA Jul-26: 31.10 (+5.03%) [V] | EID CC: 31; BCML AR: ~31 [V] | Yes |
+| 7 | SS 2025-26 diversion | ~2.9–3.1 MT | ICRA Jul-26: 3.1 [V] | EID PPT (ISMA): 3.0; EID CC: "little over 3", later "about 2.9" [V] | Yes (narrows to ~3) |
+| 8 | SS 2025-26 net production | ~28.0 MT | ICRA Jul-26 [V] | BCML AR, EID CC [V] | Yes |
+| 9 | SS 2025-26 consumption | 28.0–28.3 MT | ICRA 28.3 [V] | EID PPT 28.0 [V] | Yes |
+| 10 | SS 2025-26 exports | 0.7–0.8 MT | ICRA 0.7 "completed" [V] | EID CC 0.8; BCML AR ~0.70 [V] | Yes |
+| 11 | Closing stock 30-Sep-2026 | 4.2–4.3 MT (ISMA public ~3.5; trade 3.0–3.3) | ICRA 4.3 [V]; EID PPT 4.3 [V] | EID CC 4.2 [V]; BCML CC "35 LMT" [V] | Narrows the 3.5–4.6 range |
+| 12 | Closing stock 30-Sep-2025 | 5.0 MT (ISMA) / 5.3 MT (ICRA) | EID PPT [V] | ICRA Jul-26 (PY 5.3) [V] | Yes (flag the basis) |
+| 13 | Export ban instrument | DGFT Notification 16/2026-27, 13-May-2026, to 30-Sep-2026; reverts to "Restricted" if not extended | taxguru reproduction [V-snip] | ETV Bharat / taxtmi [V-snip] | Adds the date |
+| 14 | Export quota 2025-26 | 1.58 MMT (BCML AR) vs 2.0 MT (1.5 + 0.5, press/ISMA) | BCML AR [V] | GTA / RuralVoice (Part 1) [V-snip] | **Conflict — flag** |
+| 15 | ESY 2025-26 OMC allocation | 1,048.4 cr L: grain 759.8 / syrup 165.9 / B-heavy 110.5 / C-heavy 12.2 | BCML PPT p.19 [V] | EID PPT (ISMA): 28/72 [V] | Yes |
+| 16 | ESY 2025-26 supply and blending to Jun-26 | 717.29 cr L; 19.99% | BCML PPT p.19 [V] | TEIL IB Q1 (717, 20%) [V] | Yes |
+| 17 | ESY 2024-25 blending | 19.24% (1,003 of 1,131.7 cr L contracted) | BCML PPT p.19 [V] | BCML AR: 19.2%, 1,022.8 cr L blended [V] | **Supersedes ~19.9–20%** |
+| 18 | Ethanol prices ESY 2023-24 → 2025-26 | C 56.28/57.97/57.97; B 60.73; syrup 65.61; DFG 64.00; FCI rice 58.50/58.50/60.32; maize 71.86 | BCML PPT p.19 [V] | BCML AR text (2025-26) [V] | Yes |
+| 19 | Ethanol prices ESY 2020-21 | C 45.69 / B 57.61 / J 62.65 (from 43.75 / 54.27 / 59.48) | PIB 2020 [V] | CARE note [V-snip] | Yes (fixes the 2018-19 juice figure) |
+| 20 | Ethanol prices ESY 2022-23 | C 49.41 / B 60.73 / J 65.61 (from 46.66 / 59.08 / 63.45) | CCEA 2-Nov-2022 via renewablewatch/GTA [V-snip] | USDA GAIN for 2021-22 [V-snip] | Yes |
+| 21 | ESY 2026-27 tender | ~1,100 cr L; juice/sugar/syrup/B-heavy excluded; maize ₹66.07 + ₹2.79 = ₹68.86 (incentive cut from ₹5.79) | Press (deccanchronicle, autocar, madhyamam) [V-snip]; tender text not public | thefederal (Part 1) [V-snip] | Yes — still not primary |
+| 22 | Monsoon 2026 | 87% of LPA; 759.4 mm vs 868.6 mm (−12.6%); withdrew from the whole country 15-Oct | IMD 1-Oct release (snippet of the IMD PDF; fetch failed on TLS) [V-snip] | Press [V-snip] | Yes |
+| 23 | ICE #11 | 20.24 ¢/lb (Mar-27, 23-Oct-2026) | Czapp [V] | Reuters (Oct-26 expiry 17.63) [V-snip] | New |
+| 24 | London #5 | $534.80/t (Dec-26, 23-Oct-2026) | Czapp [V] | commodity-board 533.90 (22-Oct) [V-snip] | New |
+| 25 | USDA India 2026-27 | Sugar 29.5 MT (from 33.6); cane 434 MMT; recovery 8.6%; consumption 30.83 MT | Press on the FAS semi-annual [V-snip] (FAS 403) | — | Yes |
+| 26 | Balrampur SS 2025-26 crush / gross recovery | 1,043.04 lakh qtl / 11.24% (net 9.28%) | BCML AR [V] | BCML PPT (FY basis) [V] | Yes, with basis clarified |
+| 27 | Balrampur FY26 alcohol sales | 26.56 cr BL at ₹60.15/BL blended | BCML PPT p.15 [V] | BCML AR [V] | **Supersedes 1,048 lakh BL** |
+| 28 | Balrampur PLA | ₹3,080 Cr capex; ₹2,180 Cr spent by 31-Jul-26; PLA COD Dec-2026 | BCML PPT [V] | BCML CC [V] | Updates |
+| 29 | Balrampur sugar inventory | 45.67 lakh qtl @ ₹37.19/kg (30-Jun-26) | BCML PPT p.11 [V] | BCML CC [V] | New |
+| 30 | Balrampur Q1 FY27 EBITDA | ₹113.92 Cr, 6.96% (₹134.25 Cr, 8.70%) | BCML PPT p.7 [V] | Screener OP ₹114 Cr [V] | Yes |
+| 31 | Triveni SS 2025-26 crush / recovery | 825.60 lakh qtl / 11.06% | TEIL AR [V] | TEIL CC (8.25 MMT, −9%) [V] | **Resolves §H-9** |
+| 32 | Triveni sugar inventory | 3.59 lakh t @ ₹38.41/kg | TEIL CC [V] | TEIL IB Q1 [V] | Yes |
+| 33 | Triveni grain share Q1 FY27 | 61% of alcohol sales | TEIL CC [V] | TEIL IB Q1 [V] | Yes |
+| 34 | EID capacity | 40,800 TCD / 140 MW / 582 KLPD | EID PPT p.4–5 [V] | EID AR [V] | **Supersedes [K/E]** |
+| 35 | EID FY26 crush / recovery | 38.40 LMT; gross 10.91%, net 9.21% | EID AR [V] | — | New |
+| 36 | EID stake in Coromandel | 55.58% (31-Mar-26) | EID AR [V] | — | **Supersedes 56.09%** |
+| 37 | EID PSRIPL cash support | ₹610 Cr equity + ₹55 Cr loan in Q1 FY27; bank debt fully repaid | EID CC [V] | EID PPT p.22 [V] | New |
+| 38 | Renuka capacity | 37,500 TCD / 5,500 TPD melt / 1,250 KLPD | SRSL AR [V] | — | **Supersedes 46,000 TCD** |
+| 39 | Renuka FY26 forex loss / EBITDA ex-forex | ₹209 Cr / ₹358 Cr (standalone) | SRSL AR [V] | Screener OP ₹22 Cr (after forex) [V] | Basis clarified |
+| 40 | Renuka parent support | WSE letter of support to 31-May-2027; Wilmar International corporate guarantees ₹4,600.7 Cr; ECB ₹2,819.5 Cr (MUFG, bullet Aug-2030, SOFR + 2%) | SRSL AR going-concern and borrowings notes [V] | SRSL Q1 note [V] | New |
+
+**Count: 34 of 40 are [V] from primary sources** (company filings and annual reports, government/PIB, ICRA, exchange-quoted prices via Czarnikow). Row 5 is a verified *absence*. The other five (#13, #20, #21, #22, #25) remain [V-snip] because the primary page was blocked or is not public.
+
+## 4.2 Company deep-dives (primary documents)
+
+### 4.2.1 Balrampur Chini Mills (BALRAMCHIN)
+
+**Guidance digest — Q1 FY27 call, 12-Aug-2026 (CMD, ED and CFO; paraphrased) [BCML CC]**
+1. **SS 2025-26 was tighter than expected**, with lower output, steady demand and diversion drawing down stocks. Firm sugar prices "provide relief" against higher cane cost and squeezed distillery margins. First real clarity on SS 2026-27 was expected around end-September.
+2. **Diversion next season:** management's own working assumption is that **B-heavy and juice will not be allowed** (two months before the 16-Oct tender confirmed it).
+   - The company is equipped to run all units on C-heavy.
+   - It accepted an analyst's frame of **~10 cr L from C-heavy plus ~9–10 cr L from grain (Maizapur)** as "not off the mark".
+   - Maizapur can now also make sugar.
+3. **Net effect is positive:** making sugar instead of B-heavy ethanol gives more sugar volume at higher prices. The CMD said, "I am not thinking that we will end up very negative", even after assuming a SAP hike and a diversion ban. He called the sugar-price base "moved up … sustainably" and looked "north of" ₹43–46/kg in coming years.
+4. **UP SAP:** "in all probability now definitely there will be some hike" (election year).
+5. **Industry stock:** "if the market thinks 30 LMT it will be 35 LMT"; a 2 MT spread between estimates is "not possible". If diversion is barred in SS 2026-27 (gross ~31 MT, consumption ~29 MT), closing stock could rebuild to **45–50 LMT by 1-Oct-2027**.
+6. **Own crop:** east-UP rainfall "absolutely ideal"; El Niño "a bigger paper scare … than reality". Cane area flat, yield better.
+7. **PLA:**
+   - **Lactic acid commissioning in October and PLA in December 2026.**
+   - Saleable output Jan–Mar 2027 at **~40% average utilisation** ("target is higher").
+   - **Pan-masala/gutka packaging** (FSSAI direction) could "largely" absorb the full 80 ktpa.
+   - The ED agreed a "parallel Balrampur" is possible from the ₹3,000–3,200 Cr capex.
+   - Management asked analysts not to model quarterly PLA numbers.
+8. **Global (CFO):** Brazil ~40 MT with ethanol more profitable (lower sugar mix); EU contracting; a possible **global deficit of 1–2 MT**.
+9. **Distillery margin caveat:** Q1 FY27 distillery margin was flattered because Maizapur's off-season costs were kept in the sugar segment.
+
+**Concall / presentation KPI table [BCML PPT; BCML AR]**
+
+| KPI | Q1 FY26 | Q1 FY27 | FY26 | Note |
+|---|---|---|---|---|
+| Revenue (₹ Cr) | 1,542.27 | 1,636.79 | 6,271.15 | +6.1% |
+| EBITDA (₹ Cr) / margin | 134.25 / 8.70% | 113.92 / 6.96% | 741.28 / 11.82% | standalone |
+| Sugar segment revenue / PBIT (₹ Cr) | 1,167.63 / 48.07 | 1,225.27 / 38.76 | 5,507.23 / 514.66 | PBIT margin 4.12% → 3.16%; FY 9.35% |
+| Distillery revenue / PBIT (₹ Cr) | 461.47 / 77.66 | 539.62 / 80.38 | 1,720.97 / 203.27 | margin 16.83% → 14.90%; FY 11.81% |
+| Alcohol sales (cr BL) | 7.14 | 8.38 | 26.56 | blended realisation FY ₹60.15/BL (₹57.86) |
+| PLA segment PBIT (₹ Cr) | (4.01) | (9.84) | (16.72) | incl. ₹4.57 Cr IRS mark-to-market |
+| Sugar sold (lakh qtl) / realisation (₹/kg) | ~24.5 / 40.83 | ~21.4 / 41.55 | 100.56 / 40.73 | chart order inferred [E] |
+| Sugar inventory | 48.45 lakh qtl @ ₹35.50 | **45.67 lakh qtl @ ₹37.19** | 66.56 @ ₹36.70 (31-Mar) | ≈ ₹1,700 Cr at cost [E] |
+| B-heavy / C-heavy molasses transfer price (₹/qtl) | 1,150 / 600 | **1,360 / 800** | — | internal; inflates sugar-segment revenue |
+| Power realisation (₹/unit) | — | 5.1–5.2 | 4.54 blended | UPERC retro tariff |
+| PLA spend to date | — | ₹2,180 Cr (31-Jul) | — | civil 92%, equipment 68% |
+| LT debt (30-Jun-26) | — | existing ₹75.25 Cr; PLA ₹1,086 Cr | — | PLA TL repayment from Q3 FY29, 20 quarterly instalments; 5% interest subvention for 7 years |
+
+**5-year history (₹ Cr, consolidated) [V screener 24-Oct-26]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 4,846 | 4,666 | 5,594 | 5,415 | 6,271 |
+| OP (EBITDA) | 707 | 522 | 786 | 711 | 747 |
+| OPM % | 15 | 11 | 14 | 13 | 12 |
+| PAT | 465 | 284 | 534 | 437 | 378 |
+| ROCE % | 16 | 10 | 13 | 10 | 9 |
+| Borrowings (Mar) | 1,211 | 1,880 | 2,009 | 2,627 | 3,170 |
+| Standalone CFO / CFI (₹ Cr) [BCML PPT p.31] | 694.65 / −309.38 | 452.91 / −858.75 | 177.83 / −224.78 | 425.16 / −880.43 | 599.47 / −946.66 |
+
+**8-quarter trend (₹ Cr, consolidated) [V screener]**
+
+| | Q2 FY25 (Sep-24) | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 (Jun-26) |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,298 | 1,192 | 1,504 | 1,542 | 1,671 | 1,454 | 1,604 | 1,637 |
+| OP | 49 | 124 | 365 | 134 | 120 | 202 | 285 | 114 |
+| OPM % | 3.8 | 10 | 24 | 9 | 7 | 14 | 18 | 7 |
+| PAT | 67 | 70 | 229 | 52 | 54 | 113 | 160 | 44 |
+
+TTM to Jun-26: revenue ₹6,366 Cr, OP ₹721 Cr, PAT ₹371 Cr.
+
+**Annual-report findings (FY26) [BCML AR]**
+- **Operations (SS / FY):**
+  - Crush 1,043.04 / 1,031.55 lakh qtl.
+  - Sugar produced (net) 96.84 / 95.72 lakh qtl; net recovery 9.28%.
+  - FY26 diversion: **575.84 lakh qtl of cane (55.8%) to B-heavy and 107.12 lakh qtl (10.4%) to syrup**, sacrificing **20.11 lakh qtl of sugar**.
+  - Export quota 52,057 t: **43,027 t swapped for domestic quota, 9,030 t physically exported**.
+- **Distillery by route:**
+  - Production FY26: syrup 844.22, B-heavy 965.65, maize 474.56 lakh BL.
+  - Sales: syrup 748.52 @ ₹65.61; B-heavy 1,039.39 @ ₹60.73; C-heavy 123.27 @ ₹59.12; maize 474.11 @ ₹71.86 (lakh BL).
+  - **Cane-route (syrup + B-heavy) = ~75% of ethanol sales** → the most exposed member to the ESY 2026-27 exclusion.
+- **Related parties:** no subsidiaries or JVs. One associate, **Auxilo Finserve (30.47%)**: investment cost ₹175 Cr, **valued at ₹959.4 Cr at the last funding round**; Auxilo FY26 PAT ₹116.9 Cr, net worth ₹1,528 Cr [BCML PPT p.33]. This is a hidden asset worth ~7% of Balrampur's m-cap.
+- **Contingent liabilities:** tiny, **₹2.58 Cr**, plus an unquantified 1.99-acre land dispute. **Capital commitments ₹983.8 Cr** (₹1,470.9 Cr in FY25), almost all PLA. Foreign-currency contracts (mostly EUR) are hedged with forwards, and the MTM sits in P&L (Q1: −₹6.99 Cr forwards, −₹4.57 Cr IRS).
+- **Policy risk text (MD&A):**
+  - Calls for a formula linking cane-route ethanol prices to FRP.
+  - Notes FRP rose ~16.4% (₹305 → ₹355) while juice/B-heavy prices were frozen ESY 2023-24 → 2025-26.
+  - Notes the industry invested ~₹40,000 Cr in ethanol capacity.
+  - National installed capacity is **>1,990 cr L vs ~1,048 cr L allocations**.
+- **PLA incentives (UP Bio-Plastic Industrial Policy 2024; Letter of Comfort from Invest UP):**
+  - **50% capital subsidy** on eligible investment, disbursed over 7 years after a 10-year lag, and linked to utilisation (≥40% in year 1, ≥75% thereafter).
+  - 100% net SGST reimbursement for 10 years; 5% interest subvention for 7 years; stamp-duty and electricity-duty exemptions.
+  - Capped at 200% of eligible investment.
+- **Dividend:** ₹3.50/share proposed (50th AGM).
+- **Ratings:** CRISIL AA+/Stable, A1+; India Ratings IND AA+/Stable.
+
+### 4.2.2 E.I.D.-Parry (EIDPARRY)
+
+**Guidance digest — Q1 FY27 call, 13-Aug-2026 (CEO, CFO, COO Sugar; paraphrased) [EID CC]**
+1. **Global:** ISO sees a 2025-26 surplus of 2.24 MMT (after a 3.2 MMT deficit), with world output 182 MMT. London whites rose from ~$404/t (early 2026) to ~$471/t (Jul); raws stayed at 14–15 ¢/lb at the time.
+2. **India SY 2025-26:** gross 31 MMT, diversion ~3 (later "about 2.9"), consumption 28, exports 0.8, **closing ~4.2 MMT**. The CEO expects **E20 to stay at 20% "for the foreseeable future"**. Prices were "well north of ₹45–46/kg" in August, though "some correction" is likely once crushing starts.
+3. **Own crush SS 2026-27:**
+   - TN/AP cane availability is a "macro concern" as farmers shift to paddy; crush in those states will be **flat to −5%**.
+   - **Karnataka is the only make-up**, and depends on late-August/September rain.
+   - The season is expected to start early.
+4. **Restructuring:** voluntary separation schemes at legacy TN plants (employee cost ₹51 → ₹59 Cr in Q1, "one-off in one plant, more … we intend to do"). Q1 cash fixed cost was cut 11% (₹70.1 Cr vs ₹78.6 Cr).
+5. **Balance sheet:** stated priority is to strengthen it by Mar-27/Mar-28. Standalone debt is ST ~₹980 Cr (₹1,250 Cr at Mar) + LT ~₹150 Cr; non-performing assets are to be monetised; no imminent capex.
+6. **PSRIPL (Kakinada refinery):**
+   - Operations ceased 31-Mar-2026; only leftover inventory was liquidated in Q1, and from Q2 there are only period costs.
+   - **₹610 Cr equity + ₹55 Cr loan** cleared all bank debt; up to ₹65 Cr more may follow as needed.
+   - SEZ exit in-principle letter received ~20-Apr-2026, with debonding targeted by 30-Sep-2026. Asset sale is being prospected ("we will get value").
+7. **Consumer Products:** revenue deliberately halved (₹188 → ₹94 Cr) to exit low-margin bulk; contribution margin +57%. **Quarterly breakeven in 4–5 quarters.** FY26 CPG revenue ~₹600–650 Cr (FY25 ~₹800 Cr).
+   - New **Karnataka jaggery plant in ~6 months** (more than doubles capacity; ~₹100 Cr turnover from both plants).
+8. **Nutraceuticals:** growth comes from **Valensa (US)** (hair/derm, pet health); India is ~20% of nutra. **FY27 should be the highest-ever nutra revenue**; steady-state **EBITDA margin 12–15%**.
+
+**Concall / presentation KPI table [EID PPT; EID CC]**
+
+| KPI (ex-Coromandel unless noted) | Q1 FY26 | Q1 FY27 | FY26 (standalone, AR) |
+|---|---|---|---|
+| Revenue, ex-CIL "consolidated" (₹ Cr) | 777 | 788 | — |
+| Operational EBITDA ex-CIL (₹ Cr) | n/a | **(28)** | — |
+| Sugar revenue / PBIT (₹ Cr) | 347 / (49) | 410 / (49) | 1,252.41 / EBITDA 74.74 |
+| Distillery revenue / PBIT (₹ Cr) | 296 / 20 | 255 / 9 | 1,151.37 / EBITDA 41.59 |
+| Cogen revenue / PBIT (₹ Cr) | 8 / (19) | 7 / (22) | 76.74 / EBITDA (18.93) |
+| Nutra (consolidated) revenue / PBIT (₹ Cr) | 27 / (10) | 61 / ~0 | standalone 32.59 / 5.64 |
+| Consumer Products revenue / PBIT (₹ Cr) | 187 / (17) | 94 / (12) | 607.15 / EBITDA (105.43) |
+| PBT ex-CIL (₹ Cr) | (63) | (92) | standalone total EBITDA (2.39) |
+| TN days operated / cane crushed | 37 days / 2.12 LMT | 54 days / 1.47 LMT | 38.40 LMT (all units) |
+| Gross recovery | 8.02% | 7.95% | 10.91% (net 9.21%) |
+| Cane landed cost (₹/t) | 3,844 | 4,031 | 4,025 (3,718) |
+| Sugar sold (LMT) / price (₹/kg) | 0.56 / 40.97 | **0.89 / 40.02** | 3.8 sold; 3.54 produced |
+| Sugar stock | 1.2 LMT | **1.16 LMT @ ~₹41.50/kg** | — |
+| Alcohol produced / sold (lakh L) | 412 / 413 | 351 / 380 (ENA 138, ethanol 242) | 1,637 produced / 1,635 sold |
+| Alcohol realisation (₹/L) | 67.59 | 63.49 | 66.80 (65.41) |
+| Power generated / exported (lakh units); tariff | 221 / 122; ₹3.67 | 180 / 89; **₹4.89** | 3,135 / 1,699 |
+| M-cap used by company | — | ₹14,098 Cr (10-Aug) | — |
+| Credit rating | — | AA− | — |
+
+**5-year history (₹ Cr) [V screener]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Consolidated revenue | 23,521 | 35,244 | 29,413 | 31,609 | 38,534 |
+| Consolidated OP / OPM % | 2,375 / 10 | 3,156 / 9 | 2,588 / 9 | 2,633 / 8 | 3,450 / 9 |
+| Consolidated PAT incl. MI | 1,574 | 1,828 | 1,618 | 1,773 | 1,380 |
+| Consolidated ROCE % | 26 | 27 | 20 | 17 | 17 |
+| **Standalone** revenue | 2,489 | 2,895 | 2,809 | 3,168 | 3,120 |
+| Standalone OP | 209 | 268 | 128 | −37 | −49 |
+| Standalone other income (incl. Coromandel dividends, impairments) | 269 | 147 | 179 | −138 | −382 |
+| Standalone PAT | 284 | 197 | 107 | −428 | −708 |
+| Standalone ROCE % | 12 | 12 | 4 | 2 | 4 |
+
+**8-quarter trend (₹ Cr) [V screener]**
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Cons. revenue | 9,330 | 8,720 | 6,811 | 8,720 | 11,624 | 10,312 | 7,882 | 9,018 |
+| Cons. OP (OPM %) | 959 (10) | 694 (8) | 513 (8) | 805 (9) | 1,198 (10) | 835 (8) | 611 (8) | 751 (8) |
+| Cons. PAT incl. MI | 592 | 416 | 539 | 464 | 766 | 437 | −287 | 312 |
+| Standalone revenue | 755 | 848 | 814 | 760 | 754 | 770 | 846 | 733 |
+| Standalone OP | −41 | −34 | 88 | −31 | −50 | −41 | 72 | −48 |
+| Standalone PAT | 28 | −146 | −232 | −28 | −286 | −54 | −340 | −89 |
+
+Standalone EID has lost money in **7 of the last 8 quarters**; it is profitable only in Q4 (crush-season absorption).
+
+**Annual-report findings (FY26) [EID AR]**
+- **Regional crush:**
+  - **Karnataka 25.64 LMT (67% of crush) at 12.07% gross recovery** (Haliyal 12.19%, Ramdurg 12.13%).
+  - **Tamil Nadu 10.51 LMT at 8.48%** (12.35 LMT a year earlier).
+  - **AP (Sankili) 2.25 LMT at 8.99%** (3.51 LMT).
+  - EID's sugar economics are Karnataka's; TN/AP are the drag. The CEO's "industry-leading metrics in Karnataka … other states lag" is the restructuring signal.
+- **Distillery feedstock FY26 (lakh L produced):** B-heavy 666 · syrup 202 · C-heavy and others 437 · grain 332. Ethanol was 58% of sales (63% in FY25); grain was 21% of ethanol sales (16%). Ethanol sales: B-heavy 339.74 LL @ ₹60.80, C-heavy 144.90 LL @ ₹60.97, syrup 117.14 LL @ ₹65.61.
+  - **Exposure to the ESY 2026-27 exclusion: B-heavy + syrup ≈ 52% of FY26 alcohol production [E]** — material, though ENA (42% of sales) is unaffected.
+- **PSRIPL accounting FY26 (standalone):** impairment **₹400.6 Cr** + provision for financial-guarantee obligations **₹591.3 Cr**; ₹350 Cr equity infused during FY26. The board says closure "eliminates significant contingent liabilities".
+- **Coromandel:** EID holds **55.58%** at 31-Mar-2026, with all Coromandel subsidiaries consolidated at 55.58%. Coromandel dividends flow to standalone "other income", masked in FY25–26 by impairments.
+- **Related parties and risks:** the main flows are with Coromandel and PSRIPL (guarantees, now unwound). Sugar MSP frozen while cane cost rises is named as "a key constraint on segment profitability".
+
+### 4.2.3 Triveni Engineering & Industries (TRIVENI)
+
+**Guidance digest — Q1 FY27 call, late Jul-2026, after the 29-Jul results (Vice-Chairman & MD, CFO; paraphrased) [TEIL CC]**
+1. **SS 2025-26 crush 8.25 MMT (−~9%).** Poorer yields across the eight factories, plus cane diverted to gur/khandsari in western UP. Gross recovery **+26 bp to 11.1%** (varietal replacement, pest management) kept production cost "almost similar" despite the lower crush.
+2. **Prices:** on the call date, ~**₹4,600/qtl refined and ₹4,525/qtl sulphitation**, "a reasonable increase" over the Q1 average. The CMD did not expect further intervention at ~₹45–46/kg, because the **DFPD stock-limit order (30 days / 4,000 qtl, 1-Aug to 30-Nov-2026)** was already in place.
+3. **Diversion SS 2026-27:** "a number between zero and 3 million [tonnes] … but not three". C-heavy will always go to ethanol; juice "mixed"; some B-heavy possible. (The tender later made it zero for juice/B-heavy.)
+4. **Ethanol:**
+   - Next year's mix expected at **3:1 grain:sugary feedstock**, and Triveni can match that through its multi-feed plants.
+   - Total procurement (OMC + private) was >1,100 cr L this year and **~1,300 cr L expected next ESY**, plus ENA demand.
+   - **The interest moratorium on many standalone grain distilleries expires next year** — a stress point for the grain sector.
+   - **Supreme Court status quo** on the allocation framework (BPCL's appeal against a Karnataka HC ruling). The Attorney General sought leave to allocate **~100 cr L** more among ~200 bidders; Triveni would be "a significant beneficiary".
+   - FFVs/E85 are real: Triveni bought the first WagonR FFV.
+5. **Shamli (ex-SSEL):** FY26 crush **82 lakh qtl at 10.4% recovery**, no ethanol (its molasses went to group distilleries). Operational issues are fixed; management expects "a massive rebound" in cane, days and recovery in SS 2026-27.
+6. **UP SAP:** last year's ₹30 hike was "the highest in the history" of UP SAP/SMP. With UP cane arrears (none at Triveni) and an election in Mar–Apr 2027, the chairman "hopes" any hike is "seriously moderated".
+7. **Debt and capital allocation:** FY27 working-capital debt will be lower because the season starts with low inventory. Low-cost (subvented) term debt will be kept. The board is reviewing capital allocation for the sugar + distillery + water company after the demerger (IMFL among strategic areas).
+
+**KPI table [TEIL IB Q1; TEIL CC; TEIL AR]**
+
+| KPI | Q1 FY26 | Q1 FY27 | FY26 / SS 2025-26 |
+|---|---|---|---|
+| Revenue net of excise (₹ Cr) | 1,548 | 1,581 | 6,290 (incl. PTB; screener) |
+| EBITDA (company, ₹ Cr) | 60 | 63 | — |
+| Sugar dispatches / realisation | 2.58 lakh t / ₹40,430/t [E: −7.4%, −2.7%] | 2.77 lakh t / ₹41,525/t | despatch +10%, realisation +4% (FY) |
+| Sugar inventory | 4.45 lakh t @ ₹37.41 | **3.59 lakh t @ ₹38.41** | — |
+| Crush | — | — | **825.60 lakh qtl (SS); 88.47 lakh t (FY)** |
+| Recovery | — | — | **11.06% gross = net (SS)**; FY gross 11.04% / net 11.01% |
+| Landed cane cost (₹/t) | — | — | 4,101.3 (3,843.5), +7% |
+| Alcohol production / sales | 64,960 / 62,325 KL [E] | 57,488 / 50,483 KL | 23.65 / 21.35 crore L |
+| Alcohol realisation (₹/L) | 59.38 [E] | 59.20 | — |
+| Grain share of ethanol | 58% | 61% | — |
+| Alcohol PBIT (₹ Cr) | 23 | 31 | 119 (gross revenue basis) |
+| IMIL (lakh cases) | ~15.7 [E] | 15.57 | 59 (+6%) |
+| Consolidated gross debt (₹ Cr) | 1,678 | 1,301 | — |
+
+**5-year history (₹ Cr, consolidated; FY26 includes the demerged PTB) [V screener]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 4,291 | 5,617 | 5,220 | 5,689 | 6,290 |
+| OP | 636 | 618 | 627 | 479 | 549 |
+| OPM % | 15 | 11 | 12 | 8 | 9 |
+| PAT | 424 | 1,792 (TTL stake sale) | 395 | 238 | 269 |
+| ROCE % | 21 | 18 | 15 | 9 | 9 |
+
+**8-quarter trend (₹ Cr, consolidated; screener restates the latest quarters to continuing operations, so earlier quarters may include PTB) [V screener]**
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,490.95 | 1,268.32 | 1,629.29 | 1,547.93 | 1,706.15 | 1,478.14 | 1,408.18 | 1,580.52 |
+| OP | 4.58 | 77.11 | 308.12 | 36.88 | 66.10 | 149.92 | 236.12 | 53.05 |
+| OPM % | 0.31 | 6.08 | 18.91 | 2.38 | 3.87 | 10.14 | 16.77 | 3.36 |
+| PAT | −22.42 | 42.57 | 187.12 | 2.10 | 21.38 | 77.78 | 167.45 | 3.65 |
+
+**Annual-report findings (FY26) [TEIL AR]**
+- **10-season operating history (SS 2016-17 → 2025-26)** — the best long series among members; chart-ready in §4.3-F.
+  - Cane area grew from 1.67 to 2.11 lakh ha.
+  - Crush peaked at 932.54 lakh qtl (SS 2022-23).
+  - Gross recovery peaked at 11.97% (SS 2019-20) and troughed at 10.80% (SS 2024-25; red rot plus Shamli inclusion).
+- **SS 2025-26 switch to pure C-heavy at all units:**
+  - The AR notes this "typically results in higher steam consumption and lower crush rates".
+  - Triveni was **#1 in nominal recovery in UP** among groups.
+  - Sugar production rose 8% from the mode change despite the lower crush.
+- **Sugar PBIT ₹272 Cr (+2%)** helped by the **UPERC cogeneration tariff revision (~₹1/unit, retrospective from 1-Apr-2024)** and +10% despatches. Hurt by higher-cost SS 2024-25 inventory and a +₹300/t cane price in SS 2025-26.
+- **Exceptional items:** ₹14.06 Cr for new Labour Codes (employee benefits). FY26 PAT ₹268.71 Cr (₹238.26 Cr).
+- **Demerger and amalgamation:** TPTL becomes an associate, with TEIL holding **29.88%** (confirmed). SSEL amalgamated w.e.f. 1-Apr-2025.
+- **Water:** FY26 orders ₹165 Cr (EPC ₹126 Cr, equipment ₹39 Cr); Maldives project (6 islands) handed over; Bangladesh project substantially complete.
+- **Policy view (AR):** at E20, OMC requirements are "much lower than the total capacity"; representations made for higher blending. The government is "contemplating E-85 and E-100".
+
+### 4.2.4 Shree Renuka Sugars (RENUKA)
+
+**Guidance digest (no earnings call since 2022; drawn from the FY26 annual report and the Q1 FY27 results notes)** [SRSL AR; SRSL Q1]
+1. **Management's stated priorities (MD&A):** restore profitability, strengthen liquidity, improve capacity utilisation, optimise financing, and "exploring potential deleveraging initiatives". There is **no numeric guidance**.
+2. **Industry view (AR, Jul-2026):** ISMA cut SS 2025-26 production to ~320 lakh t (gross, from >340); consumption ~290 lakh t; ex-mill ~₹43/kg in July. The AR also says "industry estimates indicate a recovery in SS 2026-27 on … favourable monsoon" — **written before the monsoon failed; treat as stale**.
+3. **Going concern (Q1 note, 5-Aug-2026):**
+   - Standalone **net worth −₹1,493.9 Cr** at 30-Jun-2026 (−₹1,245.4 Cr at Mar-26); Q1 standalone loss before tax ₹281 Cr.
+   - The going-concern basis rests on the **Wilmar Sugar & Energy letter of support (working-capital shortfall to 31-May-2027)** and **Wilmar International corporate guarantees/letters of comfort**.
+4. **Madhur brand:** distribution handed to **AWL Agri Business** (5 years from 1-Jul-2026). This lowers selling cost and working capital, but adds another related-group dependency (AWL is Adani-Wilmar's successor entity; Wilmar's stake has been reduced — treat the affiliation as [K]).
+5. **Ethanol:** management positions the 1,250 KLPD as "ready for higher blends & flex fuel". FY26 **B-heavy ethanol sales +65%**, which is exactly the route now barred for ESY 2026-27.
+
+**KPI table [SRSL AR; SRSL Q1 (₹ Cr, consolidated unless noted)]**
+
+| KPI | Q1 FY26 | Q1 FY27 | FY26 |
+|---|---|---|---|
+| Revenue from operations | 2,007.5 | 2,118.0 | 9,160.5 |
+| Refinery segment revenue / result | 1,367 / (14.5) | **1,209.7 / (98.5)** | 6,102 / +113.7 |
+| Distillery revenue / result | ~104 / (19.0) | **473.7 / +82.7** | 923.3 / +50.8 |
+| Milling revenue / result | ~459 [OCR] / (70.6) | ~474 [OCR, ambiguous] / (44.9) | ~1,060 / (85.1) |
+| Co-generation result | (20.7) | (16.5) | (6.6) |
+| Finance cost | 192.9 | 182.0 | 735.9 (screener) |
+| Forex loss (net) | ~5 (standalone) | **~26** | **210.8** (standalone 209.0) |
+| Net loss | (263.6) | (251.5) | (792.4) |
+| Standalone EBITDA ex-forex | — | — | **358.2** (FY25 720.6) |
+| Cane crushed / recovery | — | — | **40.11 lakh t (+~9%) / 11.70%** |
+| Sugar produced (incl. sacrifice) | — | — | 4.69 lakh t |
+| Raw sugar melted | — | — | **13.54 lakh t** (~67% of 5,500 TPD × 365 d [E]) |
+| Ethanol produced (incl. ENA) | — | — | 169,192 KL (~37% of 1,250 KLPD × 365 d [E]) |
+| Power generated | — | — | 474 mn kWh |
+| Export revenue | — | — | ₹6,228 Cr (standalone; refined-sugar exports/re-exports) |
+
+**5-year history (₹ Cr, consolidated) [V screener]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 6,431 | 9,017 | 11,320 | 10,907 | 9,160 |
+| OP (after forex) | 401 | 590 | 685 | 604 | 22 |
+| OPM % | 6 | 7 | 6 | 6 | 0.2 |
+| Interest | 393 | 591 | 918 | 811 | 736 |
+| PAT | −137 | −197 | −627 | −300 | −792 |
+| ROCE % | 6 | 9 | 10 | 11 | −3 |
+| Borrowings (Mar) | 5,234 | 5,569 | 5,794 | 5,889 | 7,174 |
+
+**8-quarter trend (₹ Cr, consolidated) [V screener]**
+
+| | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 2,566 | 2,603 | 2,691 | 2,010 | 2,423 | 2,273 | 2,548 | 2,120 |
+| OP | 227 | −2 | 292 | −86 | −182 | 249 | 39 | −76 |
+| OPM % | 9 | −0.1 | 11 | −4.3 | −8 | 11 | 1.5 | −3.6 |
+| Interest | 211 | 194 | 192 | 193 | 184 | 178 | 181 | 182 |
+| PAT | −23 | −204 | 93 | −264 | −369 | −38 | −121 | −252 |
+
+Eight-quarter cumulative PAT: **−₹1,178 Cr**. Interest has been a steady ₹180–195 Cr per quarter.
+
+**Annual-report findings (FY26) [SRSL AR]**
+- **Footprint:**
+  - Mills: Munoli, Athani, Havalga, Raibag (Karnataka); Pathri and Panchaganga (Maharashtra); Kolavi via Gokak Sugars (Karnataka subsidiary); **Bulandshahr via Anamika Sugar Mills (UP, acquired 2023, 6,000 TCD from 2026)**.
+  - Refineries at **Kandla (3,000 TPD)** and **Haldia** (1,500 TPD at commissioning in the 2000s; combined melt now **5,500 TPD**).
+  - Distilleries at Munoli, Havalga, Athani (**720 → 1,250 KLPD in 2023**).
+  - Co-gen includes Ajinkyatara (BOOT).
+- **Debt structure (standalone, 31-Mar-2026):**
+  - **ECB ₹2,819.5 Cr** (₹2,563.5 Cr a year earlier). It is USD-denominated: MUFG refinanced Wilmar's ₹2,518.6 Cr ECB in FY25, at SOFR + 2% (EIR 6.06%), bullet due **Aug-2030**.
+  - NCDs: ₹285 Cr at 9.45% (bank, Jan-2029) and ₹168 Cr to FIs at 11–11.7% (2028/2032).
+  - Rupee term loans ₹89.6 Cr.
+  - Working-capital loans: **₹1,811 Cr under Wilmar corporate guarantee + ₹1,200 Cr secured on current assets with a Wilmar letter of comfort**.
+  - Wilmar International corporate guarantees total **₹4,600.7 Cr** (₹5,124.7 Cr); **guarantee fees paid to Wilmar ₹81.0 Cr in FY26** (₹71.0 Cr).
+- **Forex sensitivity [E]:** the ECB is ~US$297 m at ₹94.9, so **each ₹1 move in USD/INR ≈ ₹30 Cr** of translation loss or gain. That explains most of FY26's ₹209 Cr forex loss as the rupee fell ~10% (ECB rose ₹256 Cr in rupee terms), alongside realised losses on raw-sugar payables (realised ₹143.6 Cr).
+- **Related-party trade:** raw sugar is bought from Wilmar Sugar Pte at ICE-linked prices. FY26 purchases from Wilmar Sugar Pte were ~₹4,528 Cr and sales to it ~₹1,558 Cr. A contract-cancellation charge was paid on raw-sugar sales to Wilmar Sugar Pte (amount in note; OCR-sensitive) [V, figures from related-party table; treat as approximate].
+- **Liquidity:** current ratio **0.58** (0.69); current liabilities exceed current assets by **₹2,114.5 Cr**. Standalone net worth −₹1,245.4 Cr (−₹390.5 Cr a year earlier).
+- **Risks named:** refining margins, cane availability (Maharashtra/Karnataka erratic rain), export/ethanol policy, forex and interest. MD&A: "lower sugar production attributable to reduced cane availability and pressure on refining margins" drove the FY26 loss.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**A. FRP (₹/qtl, sugar season; base recovery)**: 2015-16 230 · 2016-17 230 · 2017-18 255 (9.5%) · 2018-19 275 · 2019-20 275 · 2020-21 285 (10.0%) · **2021-22 290 (10.00%) · 2022-23 305 (10.25%) · 2023-24 315 · 2024-25 340 · 2025-26 355 · 2026-27 365 (10.25%)**.
+- Source: 2021-22 → 2026-27 [V EID PPT p.9, which shows ₹/t 2,900 → 3,650]; 2015-16 → 2020-21 [K].
+- 2026-27 terms: +₹3.56/qtl per 0.1 pp of recovery; ₹338.3/qtl below 9.5% recovery; A2+FL cost ₹182/qtl [V-snip Cabinet release text].
+- Use: line chart; annotate "+25.9% since 2021-22 vs sugar MSP 0%".
+
+**B. Sugar MSP (₹/kg)**: 29 (7-Jun-2018) → 31 (14-Feb-2019) → **31 in every season SY21-22 to SY25-26** [V EID PPT]; no revision through 24-Oct-2026 [search]. ISMA has asked for ₹40.2 [V-snip, Part 1].
+
+**C. UP SAP (₹/qtl common/early)**: 2016-17 305/315 · 2017-18 → 2020-21 315/325 · 2021-22 340/350 · 2022-23 340/350 · 2023-24 360/370 (+₹20 [V-snip Tribune]) · 2024-25 360/370 · **2025-26 390/400 (+₹30, "highest ever" per TEIL CC) [V BCML AR]** · 2026-27 **not announced** (24-Oct-2026).
+
+**D. Ethanol administered prices (₹/L ex-mill, excl. GST and transport) — corrected**
+
+| ESY | Period | C-heavy | B-heavy | Juice/syrup/sugar | DFG | FCI/surplus rice | Maize | Source |
+|---|---|---|---|---|---|---|---|---|
+| 2018-19 | Dec–Nov | 43.46 | 52.43 | **59.13** | 47.13 [K] | — | — | PIB 2018 [V-snip]; C-heavy per PIB 2020 baseline |
+| 2019-20 | Dec–Nov | 43.75 | 54.27 | 59.48 | [K] | — | — | **PIB 2020 [V]** (as the "from" prices) |
+| 2020-21 | 1-Dec-2020 → 30-Nov-2021 | **45.69** | **57.61** | **62.65** | [K] | [K] | [K] | **PIB 2020 [V]** |
+| 2021-22 | Dec–Nov | 46.66 | 59.08 | 63.45 | [K] | [K] | [K] | CCEA via USDA GAIN [V-snip] |
+| 2022-23 | 1-Dec-2022 → 31-Oct-2023 | 49.41 | 60.73 | 65.61 | 64.00 [K] | 58.50 [K] | 66.07 [K] | CCEA 2-Nov-2022 [V-snip] |
+| 2023-24 | Nov–Oct | 56.28 | 60.73 | 65.61 | 64.00 | 58.50 | 71.86 | **BCML PPT [V]** |
+| 2024-25 | Nov–Oct | 57.97 | 60.73 | 65.61 | 64.00 | 58.50 | 71.86 | **BCML PPT [V]** |
+| 2025-26 | Nov–Oct | 57.97 | 60.73 | 65.61 | 64.00 | 60.32 (rice @ ₹23.20/kg; 72 LMT allotted) | 71.86 | **BCML PPT; BCML AR [V]** |
+| 2026-27 | 1-Nov-2026 → 31-Oct-2027 | eligible (price n/s) | **excluded** | **excluded** | eligible | eligible | **66.07 + 2.79 = 68.86** | tender press [V-snip] |
+
+Read: cane-route prices were last raised for ESY 2022-23 (C-heavy for 2023-24/24-25). FRP rose 16.4% over the freeze (₹305 → ₹355; BCML AR), and 19.7% to ₹365. Realised blended prices: Balrampur ₹60.15/BL (FY26), EID ₹66.80/L (FY26, ENA-rich), Triveni ₹59.20/L (Q1 FY27).
+
+**E. Blending and volumes by ESY**
+
+| ESY | Blending % | Volume | Source |
+|---|---|---|---|
+| 2013-14 | ~1.5% [K] | 38 cr L procured | PIB 2020 [V] |
+| 2019-20 | ~5% [K] | >195 cr L contracted | PIB 2020 [V] |
+| 2022-23 | 12.06% | >500 cr L (511.5 finalised) | LS reply [V-snip] |
+| 2023-24 | 14.60% | OMC spend ₹48,757 Cr | LS/RS replies [V-snip] |
+| 2024-25 | **19.24%** | ~1,003 cr L supplied of 1,131.7 contracted; 1,022.8 cr L blended (BCML AR); OMC spend ₹73,996 Cr [V-snip] | BCML PPT/AR [V] |
+| 2025-26 | **19.99% (to 30-Jun-26)** | allocation 1,048.4 cr L; supplied 717.29 cr L to 30-Jun | BCML PPT [V] |
+| 2026-27 | target 20% | tender ~1,100 cr L; Triveni expects ~1,300 cr L total procurement | press [V-snip]; TEIL CC [V] |
+
+**F. ESY 2025-26 feedstock mix (cr L)**
+- **Allocation, 1,048.4** [BCML PPT, V]: grain 759.8 (72.5%) · syrup/juice 165.9 (15.8%) · B-heavy 110.5 (10.5%) · C-heavy 12.2 (1.2%).
+- **Supply to May-2026, 615 of 862 contracted** [ISMA via SRSL AR, V]: maize 225 · surplus food grains 146 · other grain ~34 → grain 405 (66%); juice 138 · B-heavy 63 · C-heavy 9 → sugar 210 (34%).
+- **Offers** [V-snip, Part 1]: 1,776 cr L (sugar 471.63, grain 1,304.86).
+- **Installed capacity** >1,990 cr L [BCML AR, V].
+- **Chart:** stacked bar, allocation vs supply.
+- **Implication for ESY 2026-27 [E]:** removing juice and B-heavy takes out ~26% of last year's allocation (276 of 1,048 cr L) and ~33% of all ethanol actually supplied to May (201 of 615 cr L, i.e. 96% of the sugar-route supply). Grain plus C-heavy must cover ~1,100 cr L, against grain offers of ~1,305 cr L last year. That is feasible, but it raises maize and FCI-rice demand.
+
+**G. India sugar balance sheet (MT, Oct–Sep) — primary-source version**
+
+| Season | Opening | Gross prod. | Diversion | Net prod. | Consumption | Exports | Closing | Source |
+|---|---|---|---|---|---|---|---|---|
+| SY 2023-24 | 5.6 | 34.1 | 2.2 | 31.9 | 29.0 | 0.1 | 8.4–8.5 | ISMA via EID PPT [V] |
+| SY 2024-25 | 7.9 | 29.6 | 3.5 | 26.1 | 28.1 | 0.9 | 5.0 (ICRA 5.3) | ISMA via EID PPT; ICRA [V] |
+| SY 2025-26e | 5.0 | 31.0–31.1 | 3.0–3.1 | 28.0 | 28.0–28.3 | 0.7–0.8 | **4.2–4.3** (ISMA public ~3.5; trade 3.0–3.3) | EID PPT/CC; ICRA Jul-26 [V]; ISMA Aug [V-snip] |
+| SY 2026-27e | ~4.0 | ~31 (BCML CMD, Aug) / USDA 29.5 (net-like, Oct) | **~0–1 MT (C-heavy only)** | ~29.5–30.5 [E] | 29.0 (BCML) / 30.83 (USDA) | ~0 | **3.0–5.0** (BCML CMD 4.5–5.0 if no diversion; USDA implies ~2.7 [E]) | BCML CC [V]; USDA [V-snip]; E |
+
+Notes:
+- The SY 2023-24 closing (8.4–8.5) and the SY 2024-25 opening (7.9) differ in ISMA's own data; ICRA's SY 2024-25 closing (5.3) differs from ISMA's (5.0).
+- ISMA's SS 2025-26 forecasts drifted from **74.5 LMT closing (1st advance estimate, net 309.5 LMT)** to **53 LMT (3rd advance estimate, Feb-26)** to **~35 LMT (Aug)** — a 4 MT forecast miss [V-snip ChiniMandi/agrospectrum/mediaindia].
+- The government's Dec-2025 gross estimate was 34.3 MT [V-snip].
+
+**H. Triveni 10-season operating series [TEIL AR, V]** (SS 2016-17 → 2025-26; Shamli included from SS 2024-25)
+- Crush (lakh qtl): 640.03 · 836.70 · 797.58 · 874.25 · 853.97 · 840.91 · 932.54 · 825.72 · 904.78 · 825.60
+- Sugar produced (lakh qtl): 70.8 · 95.2 · 94.0 · 100.9 · 93.8 · 88.8 · 95.4 · 89.0 · 91.6 · 91.3
+- Gross recovery (%): 11.06 · 11.38 · 11.79 · 11.97 · 11.86 · 11.70 · 11.47 · 11.49 · 10.80 · 11.06
+- Net recovery (%): 11.06 · 11.38 · 11.79 · 11.54 · 10.98 · 10.55 · 10.23 · 10.78 · 10.13 · 11.06 (the gap = B-heavy sacrifice; it closes to zero in SS 2025-26 after the C-heavy switch)
+- Cane area (ha): 166,675 · 183,423 · 194,159 · 191,840 · 195,537 · 198,376 · 204,092 · 206,170 · 214,300 · 210,892
+
+**I. Balrampur cane-to-ethanol routing, FY26 [BCML AR/PPT, V]**
+- Cane to B-heavy 575.84 lakh qtl (55.8%); to syrup 107.12 lakh qtl (10.4%); sugar sacrificed 20.11 lakh qtl (≈ 21% of net sugar produced).
+- Ethanol sales (lakh BL): B-heavy 1,039.39 · syrup 748.52 · maize 474.11 · C-heavy 123.27.
+- **ESY 2026-27 what-if [E, illustrative]:**
+  - Moving to C-heavy releases ~20 lakh qtl of sugar (≈ ₹900 Cr at ₹45/kg).
+  - It forgoes ~17.9 cr BL of cane-route ethanol (≈ ₹1,120 Cr at ~₹62.7/L). C-heavy molasses then rises, partly refilling the distillery.
+  - Maizapur grain (~9–10 cr L per management) fills more.
+  - Net revenue roughly flat to slightly down. Contribution is likely up at ≥₹44/kg sugar (no conversion cost on sugar sacrificed; cane cost already sunk), consistent with the CMD's "net positive" view.
+
+**J. EID Parry regional economics, FY26 [EID AR, V]**
+
+| Region | Crush (LMT) | Prior year | Gross recovery | Prior year | Power gen/export (lakh units) |
+|---|---|---|---|---|---|
+| Karnataka (Haliyal, Bagalkot, Ramdurg) | 25.64 | 21.57 | 12.07% | 11.74% | 1,939 / 1,155 |
+| Tamil Nadu (Nellikuppam, Pugalur; Sivagangai distillery) | 10.51 | 12.35 | 8.48% | 8.14% | 1,044 / 499 |
+| Andhra Pradesh (Sankili) | 2.25 | 3.51 | 8.99% | 9.69% | 153 / 45 |
+| **Total** | **38.40** | 37.42 | **10.91%** | 10.36% | 3,135 / 1,699 |
+
+**K. Members' capacity grid (verified)**
+
+| | Crushing (TCD) | Distillery (KLPD) | Cogen (MW) | Refining | Other |
+|---|---|---|---|---|---|
+| Balrampur | 80,000 (10 mills, UP) [V] | 1,050 (Maizapur 320 incl. grain; Balrampur +170; Gularia 160 …) [V] | 175.7 saleable [V] | some refined sugar | PLA 80 ktpa (COD Dec-26) [V] |
+| Triveni | 70,500 (8 mills, UP) [V Part 1] | 960 (860 operated) [V Part 1] | 104.5 grid [V Part 1] | refined/pharma at Khatauli, Deoband, Sabitgarh | IMIL 59 lakh cases/yr; water EPC [V] |
+| EID Parry | 40,800 (6 plants; TN 12,300, KA 23,500, AP 5,000) [V] | 582 (5 distilleries) [V] | 140 [V] | Kakinada closed 31-Mar-26 [V] | Nutra (Valensa US), CPG |
+| Renuka | 37,500 (KA, MH, UP) [V] | 1,250 [V] | n/s (474 mn kWh generated FY26) [V] | **5,500 TPD melt** (Kandla + Haldia) [V] | KBK Chem (distillery EPC) |
+| **Total** | **228,800 TCD** [E] | **3,842 KLPD** (~1,270 ML/yr at 330 days ≈ 12% of the ESY 2025-26 allocation) [E] | ~420 MW+ | | |
+
+**L. Prices (2026)**
+- **Domestic ex-mill sugar (₹/kg):** FY26 UP range 39.00–41.50 [BCML AR] → ~43 (Jul) [SRSL AR] → refined 46.00 / sulphitation 45.25 (late Jul) [TEIL CC] → "north of 45–46" (13-Aug) [EID CC] → 48–49 (analyst, 12-Aug) [BCML CC].
+- **Retail national average:** ₹52.30/kg on 18-Aug-2026 (₹46.34 a year earlier) [V-snip ministry data].
+- **Realisations:** Balrampur Q1 ₹41.55/kg; Triveni Q1 ₹41.53/kg; EID Q1 ₹40.02/kg [V] — Q1 had not yet captured the spike.
+- **World:**
+  - ICE #11 raws: ~14–15 ¢/lb (Jul) → Oct-26 expiry 17.63 → **Mar-27 20.24 ¢/lb (23-Oct)** [Czapp V] ≈ $446/t ≈ ₹42.4/kg raw equivalent at ₹94.9 [E].
+  - London #5 whites: ~$404 (early 2026) → ~$471 (Jul) → **$534.80/t Dec-26 (23-Oct)** ≈ ₹50.8/kg [E].
+  - **World whites now sit above Indian ex-mill (~₹45–46) for the first time in this cycle.** Export parity is positive, but exports are policy-barred.
+- **Brazil:** CS 2025-26 sugar mix 50.7–51% (BCML AR), 50.91% (TEIL IB); Brazil ~40.4 MT [BCML AR]. 2026-27: ethanol more profitable → lower mix (BCML CFO); Czarnikow had forecast 48.3% (Jan-26) [V-snip]. **UNICA 2026-27 cumulative crush/mix not obtained.**
+
+**M. Cogeneration tariffs**
+- Balrampur: UPPCL ₹4.37/unit FY26 (₹3.56), open access ₹4.79 (₹5.48), blended ₹4.54 [BCML AR, V]; ~₹5.1–5.2/unit in Q1 FY27 [BCML PPT].
+- UPERC: retrospective revision from 1-Apr-2024, +₹0.45–0.91/unit (BCML) / ~₹1/unit (TEIL) [V].
+- EID (TN/KA/AP mix): ₹4.89/unit Q1 FY27 (₹3.67) [EID CC, V].
+
+**N. Weather and crop**
+- **Monsoon 2026:** 87% of LPA (IMD 1-Oct release; 759.4 mm vs 868.6 mm, −12.6%); weakest since 2015; east and north-east India driest since 1901; 17 of 36 subdivisions deficient (42% of area); withdrawal complete 15-Oct-2026 [V-snip IMD documents via search].
+- El Niño: >80% probability of persisting to May-2027, peak Oct-26 to Jan-27 [V-snip Safras/NOAA].
+- **Cane area (MoA&FW progressive kharif report):** 58.44 lakh ha on 21-Aug-2026, −0.43 lakh ha YoY (57.58 on 17-Jul, +0.86 YoY) [V-snip] — area is roughly flat; the risk is yield and recovery.
+- **USDA (Oct-2026):** 2026-27 cane 434 MMT (455), sugar 29.5 MT (33.6), recovery 8.6%, consumption 30.83 MT [V-snip].
+- **Company views:** BCML east UP "ideal"; TEIL "crop looks fantastic" at Shamli; EID TN/AP −0–5%, Karnataka needs Aug–Sep rain [V].
+
+**O. PLA global context**
+- TotalEnergies Corbion, Rayong (Thailand): 75 ktpa PLA started Dec-2018, with lactide expanded to 100 ktpa [V-snip company release].
+- NatureWorks (Cargill/PTT GC): Blair, Nebraska ~150 ktpa [K]; a second 75 ktpa integrated plant in Thailand announced, status not verified [V-snip Argus].
+- Chinese capacity (BBCA/Fengyuan etc.) [K].
+- **Balrampur's 80 ktpa would be comparable in size to the Rayong plant.** At its guided ~₹2,000 Cr revenue, it implies ~₹2.5 lakh/t (~$2,630/t). **No public 2026 PLA price was found**, so keep the [FLAG].
+
+## 4.4 Gap log (§H items and the brief's list — filled / still open)
+
+| # | Gap | Status | Result / what was tried |
+|---|---|---|---|
+| H-1 | UP SAP 2026-27 | **Still open** | No announcement found (search 24-Oct). Management views [V]: BCML "some hike in all probability"; TEIL hopes any hike is "seriously moderated" because last year's +₹30 was the highest ever and UP has arrears. Do not print a number. |
+| H-2 | Sugar MSP 2026 | **Filled (negative)** | ₹31/kg in every season SY21-22 → SY25-26 [V EID PPT]; no 2026 revision found. |
+| H-3 | SS 2025-26 closing stock | **Filled (narrowed)** | 4.2 (EID CC) / 4.3 (ICRA; ISMA via EID PPT) [V]; ISMA public ~3.5, trade 3.0–3.3 [V-snip]. Use "~4 MT (3.5–4.3)". The 4.6 MT figure in Triveni's slide is an outlier. |
+| H-4 | SS 2025-26 diversion | **Filled** | ~3.0–3.1 MT (ICRA 3.1; ISMA via EID 3.0) [V]; ISMA DG ~2.9 [V-snip]. |
+| H-5 | SS 2026-27 first estimate | **Partly** | No ISMA first advance estimate yet (due ~Nov). Indicators: USDA 29.5 MT [V-snip]; BCML CMD scenario gross ~31 MT, consumption 29, closing 45–50 LMT by Oct-2027 if no diversion [V]; ISMA expected ~1 MT output in Oct-26 from early TN/KA crush [V-snip]. |
+| H-6 | Exports 2025-26; ban date; 2026-27 stance | **Mostly filled** | Shipped ~0.7–0.8 MT [V ICRA/EID]. Quota conflict 1.58 MMT (BCML AR) vs 2.0 MT (press). **DGFT Notif. 16/2026-27, 13-May-2026** [V-snip]. 2026-27: no quota announced; legal status reverts to "Restricted" after 30-Sep-2026 (exports need a quota); DFPD priority is domestic > ethanol > exports [V-snip]. |
+| H-7 | ICE #11 / London #5 Oct-2026; UNICA | **Prices filled; UNICA open** | ICE #11 Mar-27 20.24 ¢/lb; London #5 Dec-26 $534.80/t (23-Oct) [V Czapp]. UNICA 2026-27 bulletins not reachable; only qualitative (ethanol favoured, mix lower) [V BCML CC]. |
+| H-8 | Ethanol price history and allocation shares | **Mostly filled** | Prices: 2019-20/2020-21 [V PIB]; 2023-24 → 2025-26 [V BCML PPT]; 2021-22, 2022-23 [V-snip CCEA coverage]; 2018-19 juice corrected to 59.13 [V-snip]. Allocation shares: 2025-26 exact [V]. **2022-23 → 2024-25 feedstock shares still [K]** (LS e-library blocked). |
+| H-8b | 16-Oct-2026 tender primary | **Still open (press only)** | The OMC EoI is not public; three to four independent outlets agree on zero juice/B-heavy, ~1,100 cr L and maize ₹68.86 [V-snip]. |
+| H-8c | Blending % ESY 2025-26 | **Filled** | 19.99% to 30-Jun-26; 717.29 cr L [V BCML PPT]. |
+| H-8d | FRP history and 2026-27 | **Filled** | 2021-22 → 2026-27 [V EID PPT]; 2026-27 terms [V-snip Cabinet text]; earlier years [K]. |
+| H-8e | 2026 monsoon; cane acreage | **Filled (snippet level)** | 87% of LPA per IMD 1-Oct release (PDF fetch blocked by TLS) [V-snip]; cane area 58.44 lakh ha at 21-Aug (−0.43) [V-snip]. State-wise deficits (Karnataka −35%) not re-verified. |
+| H-9 | Triveni crush SS 2025-26 | **Filled** | 825.60 lakh qtl [V TEIL AR, CC]. |
+| H-10 | EID operating KPIs | **Filled** | 40,800 TCD / 140 MW / 582 KLPD; FY26 crush 38.40 LMT, gross 10.91%; regional split [V]. |
+| H-11 | EID consolidated sugar Q1 loss | **Filled** | Ex-CIL sugar PBIT −₹49 Cr (−₹49 Cr) [V EID PPT]; the ₹58 / ₹44.8 Cr summaries were differently based. |
+| H-12 | Renuka KPIs / Anamika / forex / interest / debt / Wilmar support | **Filled** | 37,500 TCD; 5,500 TPD; 1,250 KLPD; Anamika acquired 2023 (UP, 6,000 TCD); FY26 refinery melt 13.54 lakh t; forex FY26 ₹209 Cr, Q1 FY27 ~₹26 Cr; finance ₹182 Cr (Q1); ECB ₹2,819.5 Cr; Wilmar CGs ₹4,600.7 Cr; support letter to 31-May-2027 [V]. Refinery *utilisation %* is not disclosed — only the melt volume (≈67% of nameplate [E]). |
+| H-13 | Balrampur PLA after Aug-2026 | **Filled to Aug** | ₹2,180 Cr spent (31-Jul); lactic acid Oct, PLA Dec-2026; Q4 FY27 ~40% utilisation [V]. No post-August confirmation of trial production (Q2 results not out). |
+| H-14 | Balrampur ethanol volume | **Filled — primer wrong** | FY26 alcohol sales 26.56 cr BL [V]. |
+| H-15 | Q2 FY27 board dates | **Still open** | Only Renuka (30-Oct) known; BSE API 403. |
+| H-16 | Cogen tariffs | **Filled** | UPPCL ₹4.37/unit FY26; UPERC retro +₹0.45–1/unit [V]. TNERC/KERC rates not separately fetched (EID realised ₹4.89/unit Q1). |
+| H-17 | PLA global capacity / prices | **Partly** | Total Corbion 75 ktpa (2018) [V-snip]; NatureWorks Thailand status unverified; **no 2026 price found**. |
+| H-18 | EID P/E inconsistency | **Explained, not reconciled** | Screener 13.8× implies a ~₹809 Cr denominator that matches no screener line; use 24.0× TTM / 19.6× FY26 attributable [E]. |
+| Brief | Q1 FY27 figures from company filings | **Filled** | BCML PPT, EID PPT/CC, SRSL Q1 filing, TEIL IB/CC [V] replace the scanx/kotakneo/cofacto/sahi summaries. |
+| Brief | Concall guidance for every member | **3 of 4** | Renuka holds no calls; its digest uses AR/MD&A and results notes. |
+
+## 4.5 New insights the first pass missed
+
+1. **The zero-diversion tender is a Balrampur story, not a Triveni story.**
+   - Triveni had already switched every mill to C-heavy in SS 2025-26 (net recovery = gross, 11.06%, #1 in UP).
+   - Balrampur still sent **55.8% of its cane to B-heavy and 10.4% to syrup**, so **~75% of its FY26 ethanol sales came via routes now barred**.
+   - Balrampur gets ~20 lakh qtl of sugar back (≈ ₹900 Cr at ₹45/kg) against ~17.9 cr BL of ethanol lost (≈ ₹1,120 Cr). Management calls the net "positive". Model a **lower distillery segment and a higher sugar segment** for Balrampur in FY27 H2/FY28. Expect little change at Triveni, whose alcohol PBIT already rides on grain (61%).
+2. **Indian sugar has re-rated faster than anything in the P&Ls so far.**
+   - Q1 FY27 realisations were ₹40.0–41.6/kg, against ₹45–49/kg ex-mill by August and retail ₹52/kg (+13% YoY).
+   - Inventories carried at ₹37.19 (Balrampur, 45.67 lakh qtl), ₹38.41 (Triveni, 3.59 lakh t) and ~₹41.50 (EID, 1.16 LMT) imply **inventory gains of roughly ₹600–700 Cr across the three at ₹45/kg [E]** (Balrampur ~₹355 Cr, Triveni ~₹235 Cr, EID ~₹40 Cr), realised in Q2–Q3 FY27, before the new-season SAP.
+   - The government has already acted, with **dealer stock limits (1-Aug to 30-Nov-2026)**. Further moves (export prohibition extension, possible duty-free raw imports for refiners) are the next risk.
+3. **World whites now price above Indian ex-mill.** London #5 at ~$535/t ≈ ₹50.8/kg vs ₹45–46 domestic. For the first time since 2023, Indian sugar is *cheaper* than world whites, so the export ban now binds. The rest of the world is also tighter (ISO's surplus is shrinking; Brazil is favouring ethanol). This is the opposite of the SS 2025-26 problem, when quotas went unused because India was too expensive.
+4. **EID's sugar business is really a Karnataka business.**
+   - Karnataka gives 67% of crush at 12.07% recovery, while TN/AP run at 8.5–9.0% with shrinking cane (farmers shifting to paddy).
+   - Management is running VSS programmes and cutting cash fixed cost (−11%). It talks of "restructure" and has already moved one TN plant to Karnataka in the past.
+   - After the PSRIPL clean-up (₹665 Cr cash in Q1 FY27; bank debt nil; asset sale pending), the standalone balance sheet should improve from FY28. The holdco discount (~60%) is the real lever.
+5. **Renuka's problem is now the refinery, under a dollar-debt overhang.**
+   - In Q1 FY27 the refinery lost ~₹98.5 Cr while the distillery earned ~₹82.7 Cr. Forex was minor (~₹26 Cr).
+   - The structural issue is a **US$-denominated ECB (₹2,819.5 Cr, bullet 2030)**: each ₹1/US$ ≈ ₹30 Cr. Wilmar guarantees ₹4,600.7 Cr of borrowings, charges ₹81 Cr a year in guarantee fees, and supplies the raw sugar.
+   - With Indian prices above world whites and exports prohibited, the port refineries lose both the export and the import-refining windows. Expect a weak H1 FY27 refinery and a Q2 FY27 loss (board 30-Oct).
+   - Madhur's move to AWL (from 1-Jul-2026) is a cost and working-capital positive.
+6. **The grain-ethanol sector is heading for stress just as it "wins" the allocation.**
+   - Installed capacity is >1,990 cr L against ~1,100 cr L of demand.
+   - Triveni flags that **interest moratoria on standalone grain distilleries expire in 2027**, and the maize incentive was cut (₹71.86 → ₹68.86).
+   - Allocation is subject to a **Supreme Court status quo** (BPCL appeal).
+   - Integrated mills with multi-feed plants (Triveni, Balrampur's Maizapur) are better placed than single-feed grain plants. The interim policy decision on that ~100 cr L top-up for ESY 2025-26 matters for Q2 volumes.
+7. **Hidden assets and option value at Balrampur.**
+   - The **Auxilo Finserve stake (30.47%, cost ₹175 Cr) is valued at ₹959 Cr** at its last round — about 7% of m-cap.
+   - The UP Bio-Plastic Policy offers a **50% capital subsidy (utilisation-linked: 40% in year 1, 75% thereafter), 100% SGST reimbursement for 10 years and 5% interest subvention**. These can materially change PLA's return on capital if utilisation targets are met — ~40% in Q4 FY27 is guided.
+8. **ISMA's own forecasts have been badly wrong, which matters for the stat strip.** The 2025-26 closing-stock estimate fell from 74.5 LMT (first advance estimate) to ~35 LMT, a 4 MT miss. Lead with the triangulated figure (4.2–4.3 MT, ICRA/EID) and show the range, rather than citing a single ISMA number.
+
+## 4.6 New primer issues (append to primer-issues.md)
+
+### From Sugar & Ethanol deep-research pass (2026-10-24, sugar-industry.md Part 4)
+
+**balrampur-chini.html**
+- Ethanol volume: replace "contracted ~1,048 lakh BL for ESY 2025-26" with **FY26 industrial-alcohol sales 26.56 crore BL (production 27.0 crore BL)**. The 1,048.4 figure is the national allocation in crore BL. [BCML PPT/AR]
+- Crush/recovery basis: label 1,043 lakh qtl and 11.24% as **SS 2025-26 (gross recovery)**; FY26 crush is 1,031.55 lakh qtl; net recovery 9.28%.
+- Add the **routing exposure**: 55.8% of cane to B-heavy and 10.4% to syrup in FY26; ~75% of ethanol sales via routes **excluded from ESY 2026-27** (16-Oct-2026 tender).
+- PLA update: ₹2,180 Cr spent by 31-Jul-2026; civil 92%, equipment 68%; lactic acid Oct-2026, PLA Dec-2026; ~40% utilisation targeted Jan–Mar 2027; UP Bio-Plastic Policy incentives (50% capital subsidy, utilisation-linked).
+- Add **Auxilo Finserve associate (30.47%; cost ₹175 Cr; last-round value ₹959 Cr)** to the SOTP and hidden assets.
+- Cogen: 175.7 MW saleable; UPPCL tariff ₹4.37/unit FY26 after UPERC's retrospective revision.
+- Inventory 30-Jun-2026: 45.67 lakh qtl at ₹37.19/kg (sets up Q2–Q3 FY27 inventory gains at ₹45+ ex-mill).
+
+**eid-parry.html**
+- Add the capacity table: **6 sugar plants (40,800 TCD; TN 12,300 / KA 23,500 / AP 5,000), 5 distilleries 582 KLPD, 140 MW cogen**. Replace any "~9 factories".
+- Add FY26 operations: crush 38.40 LMT; gross recovery 10.91% (net 9.21%); **Karnataka 67% of crush at 12.07% vs TN 8.48% / AP 8.99%**; alcohol 1,637 lakh L at ₹66.80/L.
+- Coromandel stake **55.58%** (not 56.09%); stake value ~₹28,170 Cr at ₹1,718.
+- PSRIPL: FY26 standalone impairment ₹400.6 Cr + guarantee provision ₹591.3 Cr. Q1 FY27: ₹610 Cr equity + ₹55 Cr loan infused, bank debt fully repaid, SEZ exit in progress, asset sale pending.
+- Standalone debt (company, 30-Jun-26): ~₹980 Cr ST + ~₹150 Cr LT. CPG breakeven guided in 4–5 quarters; nutra EBITDA 12–15% at scale; Karnataka jaggery plant in ~6 months.
+- Exposure to the ESY 2026-27 exclusion: B-heavy + syrup ≈ half of FY26 alcohol production.
+
+**triveni-engineering.html**
+- Crush: **SS 2025-26 825.60 lakh qtl (−8.8%)**; SS 2024-25 was 904.78; recovery 11.06% gross = net.
+- Strategy note: **all mills switched from B-heavy to C-heavy in SS 2025-26**, so the ESY 2026-27 exclusion has little direct impact. The grain share (61%) and multi-feed plants are the hedge; management guides a 3:1 grain:sugar mix.
+- Add the 10-season operating table (crush, recovery, cane area) from the FY26 AR.
+- Shamli (ex-SSEL) FY26: 82 lakh qtl at 10.4% recovery, no ethanol; rebound expected in SS 2026-27.
+- UPERC retrospective cogen tariff (~₹1/unit from 1-Apr-2024) supported FY26 sugar PBIT (₹272 Cr).
+- Alcobev: IMIL 59 lakh cases FY26 (+6%); IMFL launched in Delhi.
+
+**shree-renuka-sugars.html**
+- Capacity: **37,500 TCD** (not ~46,000); **5,500 TPD raw melting** (Kandla + Haldia); 1,250 KLPD; FY26 crush 40.1 lakh t at 11.70%; refinery melt 13.54 lakh t; ethanol 169,192 KL.
+- Anamika Sugar Mills (Bulandshahr, UP): acquired **2023**; capacity raised to **6,000 TCD in 2026**.
+- Profitability basis: screener OP ₹22 Cr is after a ₹211 Cr forex loss. **Standalone EBITDA ex-forex ₹358 Cr** (FY25 ₹721 Cr) — still below finance cost (₹655 Cr standalone).
+- Q1 FY27 driver: **refinery loss (~₹98.5 Cr)** and interest (₹182 Cr). Forex only ~₹26 Cr; distillery profit ~₹82.7 Cr.
+- Balance sheet: **ECB ₹2,819.5 Cr (US$, MUFG, bullet Aug-2030)**; Wilmar International guarantees ₹4,600.7 Cr; guarantee fee ₹81 Cr/yr; standalone net worth −₹1,494 Cr (Jun-26); current ratio 0.58; WSE support letter to 31-May-2027.
+- Madhur distribution outsourced to **AWL Agri Business (28-May-2026 agreement; 5 years from 1-Jul-2026)**.
+- Remove/qualify "no concall coverage": the company has held no earnings calls since 2022.
+
+**General (all four primers)**
+- Sugar price: ex-mill rose from ₹39–41.5/kg (FY26) to ₹45–49/kg (Aug-2026). **DFPD dealer stock limits** were imposed 1-Aug to 30-Nov-2026.
+- Ethanol price table: fix ESY 2018-19 juice (₹59.13, not ₹59.48) wherever a history is shown. Blending ESY 2024-25 = **19.24%**.
+- World prices: ICE #11 ~20.2 ¢/lb and London #5 ~$535/t (23-Oct-2026). Whites are now above Indian parity, so the export ban binds.
+
+## 4.7 Part 4 source list (fetched this session unless marked)
+- **Balrampur:**
+  - Q1 FY27 PPT: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac363973-af0e-49ce-adac-6d074ebc920d.pdf
+  - Transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a34c8fce-b45e-4421-b1b9-5ed263ead64b.pdf
+  - AR 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/56ae17ac-1b03-4b9d-a5fa-b70c509c2703.pdf
+- **EID Parry:**
+  - Q1 FY27 PPT: https://eidparry.com/wp-content/assets/2026/08/EID-Parry-FY27-Q1-Investor-Presentation.pdf
+  - Transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27e756a7-d24c-4149-8d72-28ade49e8adc.pdf
+  - AR 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/91be141a-46b1-4271-aeb9-64b3217aa541.pdf
+- **Triveni:**
+  - Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c3a065-7394-474a-b449-e1d3fbea9088.pdf
+  - AR 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/407be97b-dc62-4396-b07c-783e877e1296.pdf
+- **Renuka:**
+  - AR 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/d6724702-4cf4-40aa-af79-1b91911ea6e6.pdf
+  - Q1 FY27 results: https://www.bseindia.com/xml-data/corpfiling/AttachHis/f163ad97-57aa-4b68-a086-14a081fbd964.pdf
+- **PIB CCEA ethanol prices ESY 2020-21 (29-Oct-2020):** https://pib.gov.in/PressReleasePage.aspx?PRID=1668399
+- **ICRA sugar monthly (28-Jul-2026):** https://www.icra.in/Research/ViewResearchReport/sugar-prices-increase-in-july-2026-amid-tightening-supply-outlook/7039
+- **Czapp daily prices (23-Oct-2026):** https://www.czapp.com/analyst-insights/daily-market-price-updates-and-commentary-23rd-october-2026/
+- **ISMA forecast history / closing-stock debate:** https://mediaindia.eu/business/isma-puts-profits-before-precision-as-sugar-forecasts-fail-for-4th-consecutive-year/ (fetched; secondary)
+- **Snippet-level only [V-snip]:**
+  - DGFT ban: https://taxguru.in/?p=1043443
+  - ESY 2026-27 tender: https://www.deccanchronicle.com/business/omcs-bar-ethanol-made-from-sugarcane-juice-sugar-syrup-b-heavy-molasses-from-procurement-tenders-1996934
+  - IMD 87%: https://mausam.imd.gov.in/Forecast/marquee_data/extended_1790851278.pdf (fetch failed)
+  - USDA: https://wmbdradio.com/2026/10/08/india-sugar-production-view-slashed-as-el-nino-hits-usda-says/
+  - ESY 2022-23 prices: https://renewablewatch.in/2022/11/03/ccea-announces-revised-ethanol-prices-for-supply-to-qmcs-for-esy-2022-23/
+  - FRP 2026-27 release text: https://www.narendramodi.in/amp/category/news/sugarcane
+  - Total Corbion PLA: https://totalenergies.com/node/10408
+- **Screener (re-parsed 24-Oct-2026):** EIDPARRY (cons + standalone), BALRAMCHIN, TRIVENI, RENUKA.
+
+*End of Part 4.*
