@@ -1787,6 +1787,23 @@
         "Thin slices of huge flows: the KPIs"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Telecom Operators",
+      "slug": "telecom-operators",
+      "file": "telecom-operators.html",
+      "sector": "Telecom",
+      "subsector": "Telecom - Cellular & Fixed line services",
+      "companies": 5,
+      "accent": "#E03131",
+      "hook": "Three players, one state, no hike: how Jio and Airtel came to hold 84.6% of access revenue, why ARPU keeps rising 27 months after the last tariff hike, how the government became Vodafone Idea's 49% owner and AGR creditor, and what Airtel's cash turn and the Jio IPO mean for valuations.",
+      "tags": [
+        "KPI masterclass",
+        "Vodafone Idea and the state",
+        "Airtel's machine",
+        "ARPU and the Jio IPO"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -2604,7 +2621,7 @@
       "sector": "Telecom",
       "sub": "Telecom - Cellular & Fixed line services",
       "companies": 5,
-      "report": null
+      "report": "telecom-operators.html"
     },
     {
       "sector": "Telecom",
