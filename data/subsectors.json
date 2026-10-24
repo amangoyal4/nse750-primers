@@ -1753,6 +1753,23 @@
         "KPI masterclass"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Diagnostics & Wellness Services",
+      "slug": "diagnostics",
+      "file": "diagnostics.html",
+      "sector": "Healthcare",
+      "subsector": "Healthcare Service Provider",
+      "companies": 5,
+      "accent": "#D6336C",
+      "hook": "A ₹1 lakh crore market, 6% listed: how India's lab chains turn a fragmented market of 1.3 lakh labs into 30–40% margins — revenue per patient vs per test, hub-and-spoke leverage, radiology economics, the full-body-checkup price war, PharmEasy's Thyrocare sell-down and Jeena Sikho's Ayurveda outlier.",
+      "tags": [
+        "₹40 vs ₹575 a test",
+        "Radiology economics",
+        "Wellness price war",
+        "M&A and owners"
+      ],
+      "published": "2026-10-24"
     }
   ],
   "universe": [
@@ -2252,7 +2269,7 @@
       "sector": "Healthcare",
       "sub": "Healthcare Service Provider",
       "companies": 5,
-      "report": null
+      "report": "diagnostics.html"
     },
     {
       "sector": "Healthcare",
