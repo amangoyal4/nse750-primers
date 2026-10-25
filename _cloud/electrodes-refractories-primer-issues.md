@@ -90,3 +90,6 @@
 - India had an ADD on Chinese electrodes (2015–2018). There is none now.
 - Safeguard on flat steel: 12% → 11.5% → 11% to Apr-2028 (Notification 02/2025-Cus (SG)).
 
+
+## From primer-audit.mjs (2026-10-25, pre-existing; not fixed)
+- graphite-india.html, heg.html, rhi-magnesita-india.html: no `main{min-width:0}` kit grid fix (possible phone overflow). All three pass the hard format checks; last refreshed 2026-06-30.
