@@ -90,3 +90,7 @@
   - Cite RWF's 94k-wheelset ceiling.
   - Sec 232 covers HTS 8607 parts (not complete wagons).
 
+
+## From primer-audit.mjs (2026-10-25, railway-wagons run)
+
+- **titagarh-rail-systems.html, jupiter-wagons.html, texmaco-rail.html:** all pass the hard format checks, but none has `main{min-width:0}` (a phone-overflow risk), and none links to any sub-sector report (0 report links). Not fixed here.
