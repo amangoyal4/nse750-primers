@@ -1872,6 +1872,23 @@
         "Billings, float and treasury"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Value & Grocery Retail",
+      "slug": "diversified-retail",
+      "file": "diversified-retail.html",
+      "sector": "Retailing",
+      "subsector": "Diversified Retail",
+      "companies": 4,
+      "accent": "#E8590C",
+      "hook": "Owners, tenants and the ten-minute threat: how DMart's owned-store grocery engine and the leased, own-brand fashion chains (Vishal Mega Mart, V2, V-Mart) win small-town India, why quick commerce now out-sells DMart each quarter, and what Ind AS 116, the festival shift and a PE exit hide.",
+      "tags": [
+        "Quick commerce vs DMart",
+        "Owner vs tenant",
+        "The PE exit",
+        "Small-town fashion arms race"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -2671,7 +2688,7 @@
       "sector": "Retailing",
       "sub": "Diversified Retail",
       "companies": 4,
-      "report": null
+      "report": "diversified-retail.html"
     },
     {
       "sector": "Retailing",
