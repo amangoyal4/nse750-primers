@@ -1906,6 +1906,23 @@
         "The ₹700 crore question"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Graphite Electrodes & Refractories",
+      "slug": "electrodes-refractories",
+      "file": "electrodes-refractories.html",
+      "sector": "Capital Goods",
+      "subsector": "Electrodes & Refractories",
+      "companies": 3,
+      "accent": "#E67700",
+      "hook": "A spread, a toll and a cash pile: how Graphite India and HEG earn the gap between electrode prices and needle coke as Western rivals shut plants, why treasury income still outearns the furnace, what HEG's split changed, and how RHI Magnesita taxes every Indian steel tonne.",
+      "tags": [
+        "2018 super-cycle anatomy",
+        "US AD/CVD case",
+        "The HEG split",
+        "The anode bet"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -2057,7 +2074,7 @@
       "sector": "Capital Goods",
       "sub": "Electrodes & Refractories",
       "companies": 3,
-      "report": null
+      "report": "electrodes-refractories.html"
     },
     {
       "sector": "Capital Goods",
