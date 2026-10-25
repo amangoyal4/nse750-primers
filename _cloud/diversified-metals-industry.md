@@ -1036,3 +1036,591 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
 - Gravita: https://www.investywise.com/gravita-q1-fy27-earnings-conference-call-transcript/ · https://quartr.com/events/gravita-india-limited-gravita-q1-26-27_FVSynfXe · https://nsearchives.nseindia.com/corporate/GRAVITA_27072026173513_InvestorPPT27072026.pdf (not fetched; NSE blocks bots) · https://news.ventureintelligence.com/ma/gravita-india-to-acquire-rashtriya-metal-for-rs.565-cr · https://barandbench.com/dealstreet/rajani-associates-acts-on-gravita-indias-559-crore-acquisition-of-rashtriya-metal-industries
 - Jain: https://cofacto.ai/market-news/jainrec-q1-fy27-results-analysis · https://www.marketsmojo.com/news/result-analysis/jain-resource-recycling-q1-fy27-growth-momentum-stalls-as-margins-contract-sharply-4134626 · https://www.motilaloswal.com/news/stocks/105891 · https://www.business-standard.com/markets/news/jain-resource-recycling-posts-strong-debut-shares-list-at-14-premium-125100100271_1.html
 - Policy: https://www.impriindia.com/insights/battery-waste-management-rules-2022-2025-indias-epr-framework-for-a-circular-battery-economy/ · https://indiaenvironmentportal.org.in/reports-and-documents/battery-waste-management-amendment-rules-2024 · https://www.alcircle.com/news/can-india-sustain-8-25-aluminium-duties-when-55-of-demand-is-imported-118251 · https://knnindia.co.in/news/newsdetails/sectors/mrai-urges-pmo-to-scrap-25-import-duty-on-aluminium-scrap
+
+---
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (2026-10-25)
+
+Compiled Sunday 25-Oct-2026 (UTC) from a second, primary-source pass. **This Part overrides Parts 1–3 wherever they conflict** (see 4.0).
+
+**What was read this session (all fetched 25-Oct-2026, no logins):**
+- **Vedanta Ltd:** Q1 FY27 press release + 32-slide earnings presentation (BSE filing VEDL/Sec./SE/26-27/78, 30-Jul-2026); the real-estate demerger intimation, scheme annexure and "Reorganization Announcement" deck (VEDL/Sec./SE/26-27/80, 30-Jul-2026); the FY2025-26 Annual Report (BSE AttachHis 3725606c…); the Gamsberg press release (18-Oct-2026); the Reg 30(9) HZL intimation (20-Oct-2026); CRISIL rationale 16-Oct-2026.
+- **Hindustan Zinc (context, 60.71% subsidiary):** Q2 FY27 press release (HZL/2026-27/SECY/97, 19-Oct-2026), Q2 earnings presentation (largely image-based; text slides only), FY2025-26 Annual Report.
+- **Gravita India:** Q1 FY27 investor presentation (GIL/2026-27/60, 27-Jul-2026); Q1 FY27 call transcript (call 28-Jul, filed 30-Jul-2026); FY2025-26 Annual Report; Reg 30 filings of 8-Oct and 17-Oct-2026.
+- **Jain Resource Recycling:** Q1 FY27 investor presentation (JRRL/2026-27/0039, 3-Aug-2026); Q1 FY27 call transcript (call 4-Aug, filed 8-Aug-2026); FY2025-26 Annual Report; corporate-guarantee filing (16-Oct-2026); CRISIL rationale 27-Aug-2026.
+- **Standardised data:** screener.in consolidated pages for VEDL, GRAVITA, JAINREC, HINDZINC (23-Oct-2026 close).
+- **Industry:** DGCI&S TradeStat import data by HS code (FY25 vs FY26, 11 codes); World Bank Pink Sheet (CMO annual + monthly); Westmetall LME official settlement prices and 2026 monthly averages; HWM (non-ferrous EPR) amendment summaries; Cabinet/PMIndia release on the ₹1,500 Cr recycling scheme; Aurubis and Glencore FY results (search summaries).
+- **Q2 FY27 status re-checked:** still **no member has reported Q2 FY27** as of 25-Oct-2026. Gravita board 27-Oct; VEDL 28-Oct; Jain has not announced a date (no board intimation in its BSE feed). Nothing in this Part uses Q2 FY27 member results.
+
+**Tags in Part 4:** [V] = read this session in the named primary document (company filing, exchange, regulator, rating agency, DGCI&S, World Bank, LME settlement via Westmetall). [V-scr] = screener.in standardised data fetched this session. [V-snip] = search summary or secondary article only. [E] = my arithmetic. [chart] = read off a chart in a company deck whose text layer is garbled; the value is right but the series alignment is my reading.
+
+## 4.0 Supersedes (corrections the writer must apply to Parts 1–3)
+
+| # | Item (Part 1–3 location) | Old value | New value | Source |
+|---|---|---|---|---|
+| 1 | NCLT sanction date (§0, B1, §G) | "December 2025; exact order date not confirmed" | **NCLT Mumbai orders of 16-Dec-2025** (aluminium, oil & gas, iron-ore undertakings) **and 9-Jan-2026** (merchant power / TSPL second-motion petition). First motion filed 6-Aug-2024; meetings ordered 21-Nov-2024. **Board fixed effective + record date on 20-Apr-2026** | VEDL FY26 AR, auditor KAM + Directors' Report [V] |
+| 2 | VEDL residual net debt (trap 4, §2.1, B1) | "only 0.30×"; screener proxy ₹17,529 Cr | **Gross debt ₹28,291 Cr; cash ₹19,992 Cr; net debt ₹8,299 Cr (30-Jun-2026)**; continuing-ops net debt at 31-Mar-26 was ₹10,522 Cr | VEDL Q1 FY27 release + deck slides 17, 22 [V] |
+| 3 | Debt allocation at demerger (§H.2) | primer ~$3.5 bn Al / $1.0 bn residual / $0.8 bn power / $0.2 bn I&S (unverified) | Company net-debt walk: **consolidated net debt ₹53,254 Cr at 31-Mar-26, of which ₹42,732 Cr went with the discontinued (demerged) operations and ₹10,522 Cr stayed with continuing VEDL**. Per-entity split of the ₹42,732 Cr is not disclosed in the VEDL deck (VAML Jun-26 net debt ₹29,532 Cr per Part 1) | VEDL Q1 deck slide 16 [V] |
+| 4 | "Residual parent-level debt ~US$1.0 bn" (§0, C.4) | ~$1.0 bn | **Consolidated gross $2.99 bn, net $0.88 bn** (₹94.63/$). Long-term debt **$2.79 bn = $1.12 bn standalone + $1.67 bn subsidiaries**; 62% INR / 38% FX; finance cost ~8.40% | VEDL Q1 deck slides 17, 23 [V] |
+| 5 | VRL refinancing (§4.1, B2) | "$1.7 bn bonds at 7.4%" | **$1.75 bn** international bonds, avg coupon 7.4%, avg maturity 8.5 yrs; **$2.25 bn** syndicated term loan ~6.4%, avg maturity 3 yrs; **VRL deleveraged $1.1 bn in Q1 FY27**; ratings **S&P BB, Fitch BB (stable), Moody's Ba3 (positive)** — highest since 2014 | VEDL Q1 release [V] |
+| 6 | VRL net debt path (trap 4, B2) | "$4.9 bn (Mar-26)" only | VRL net debt excl. Indian entities, $ bn: **Mar-22 8.9 → Mar-23 7.2 → Mar-24 5.6 → Mar-25 4.9 → Mar-26 4.9 → Jun-26 4.7**; group ND/EBITDA (VRL incl. VEDL) **FY20 3.3× → FY25 2.0× → FY26 1.6× → current 1.2×**; intercompany loan (ICL) fully repaid; VRL average maturity >4.5 yrs, interest cost to fall <7.5% | VEDL Q1 deck slide 19 [V][chart] |
+| 7 | VEDL Q1 FY27 segment EBITDA (§H.3) | not found | **Zinc India ₹8,096 Cr** (rev 12,985); **Zinc International ₹250 Cr** (rev 1,392); **FACOR ₹101 Cr** (rev 389; $11 m, a record); **Copper ₹11 Cr** (rev 8,538; incl. ~₹86 Cr common-cost allocation). Zinc India = **96% of VEDL EBITDA** | VEDL Q1 deck slides 24–26 [V] |
+| 8 | Silver price assumption in worked example C.1 | "~$50/oz realised [E]" | **LBMA silver averaged $73.2/oz in Q1 FY27 ($84.3 in Q4 FY26; $33.7 in Q1 FY26)**. HZL Q2 FY27 **silver revenue ₹4,111 Cr = 27% of HZL revenue**; silver "c.45%" of H1 profitability. Re-run C.1 with ≥$70/oz | VEDL Q1 deck slide 24; HZL Q2 release [V] |
+| 9 | Zinc royalty estimate (trap 9, C.1) | "~$350–400/t at today's prices [E]" | Company: **Zinc India CoP with royalty $1,330/t vs $851/t ex-royalty in Q1 FY27 → royalty ≈ $479/t** (≈14% of the $3,466 LME average). Q1 FY26: $1,362 vs $1,010 (royalty ≈ $352/t) | VEDL Q1 deck slide 24 [V] |
+| 10 | Gravita founder (§G item 4; primer) | "Saraf family" | **Founded 1992 in Jaipur by first-generation entrepreneur Rajat Agrawal**; Rajat Agrawal is **Managing Director & Chairman** (AR pay ratio 277:1). Yogesh Malhotra = WTD & CEO; Sunil Kansal = WTD & CFO | Gravita Q1 deck slide 4; FY26 AR [V] |
+| 11 | RMIL closing date and stake (§0 item 2, §G 24) | "closing ~Apr-2026"; 98.95%/98.5%/99.44%/99.5881% | **Subsidiary w.e.f. 12-Mar-2026: 98.95% for ₹559.08 Cr** (AR). **99.44% for ₹561.84 Cr as on 7-May-2026** (Q1 deck). Rights-issue top-up approved 17-Oct-2026 (≈₹94.42 Cr) → 99.5881% (screener). "98.5%" is a press rounding — drop it | Gravita FY26 AR; Q1 deck slide 11; Reg 30 17-Oct [V] |
+| 12 | RMIL financials | FY25 revenue ₹910 Cr, EBITDA ₹60 Cr (6.6%); EV/EBITDA ≈9.3× | **FY26 revenue ₹1,040 Cr, EBITDA ₹82 Cr (7.9%)** → price paid ≈ **6.8× FY26 EBITDA** [E] | Gravita AR + Q1 deck [V] |
+| 13 | Gravita Q1 FY27 EBITDA/t (§9.1, D) | "~₹26,100/t blended [E]" | Company segment figures: **lead ₹24,181/t; aluminium ₹25,175/t; plastic ₹10,197/t; copper ₹55,151/t** (adjusted EBITDA basis) | Gravita Q1 call [V] |
+| 14 | Gravita net debt (§2.0, F) | ₹323 Cr screener basis (Mar-26) | **~₹150 Cr at Jun-26** (CFO on call); working-capital cycle **~95 days**; inventory **~₹1,040 Cr** | Gravita Q1 call [V] |
+| 15 | Gravita "other income" vs adjusted EBITDA gap (trap 6) | "likely hedging/forex + treasury [E]" | Confirmed: Q1 other income ₹47 Cr = **₹35 Cr operational (hedging gains that offset metal losses in "other expenses") + ₹13 Cr non-operational** | Gravita Q1 call [V] |
+| 16 | Green Maputo Recyclers LDA date | "incorporated 8-Oct-2026" | **Incorporated 2-Oct-2026** (filed 8-Oct), owned via Gravita Netherlands B.V. + Gravita Global Pte (Singapore) | Gravita Reg 30, 8-Oct-2026 [V] |
+| 17 | Jain FY25 revenue conflict (trap 8, 3.3) | screener ₹6,429 Cr vs primer ₹7,126 Cr — "unexplained" | **Both are right on different bases.** ₹6,429.4 Cr = company's restated continuing operations; **₹7,125.77 Cr = CRISIL/pre-restatement figure that still includes the Sharjah gold-refining subsidiary (Jain Ikon Global Ventures FZC, 70%), discontinued w.e.f. 17-Apr-2025** (board decision 24-Aug-2025). Growth: +48% continuing; +34% on CRISIL's basis | Jain Q1 deck slide 9; CRISIL 27-Aug-2026 [V] |
+| 18 | Jain "JGT" (§5.2, §H.10) | "likely trading/overseas sourcing entity [E]" | **JGT = Jain Green Technologies Pvt Ltd, the wholly owned copper value-added subsidiary** (anode/cathode/rod/busbar, Facility 4, 6.58 acres SIPCOT). Guarantees 16-Oct-2026: **Yes Bank ₹50 Cr + RBL Bank ₹100 Cr** | Jain filing 16-Oct-2026; Q1 call; AR [V] |
+| 19 | Jain object-clause change (§0 item 3) | "purpose not read" | **Telecom infrastructure** — laying optical-fibre cable, linked to contracts for pulling out redundant underground copper telecom cable | Jain Q1 call (JMD) [V] |
+| 20 | Jain "export-heavy" (§3.6) | "no export share found" | **Exports = 62% of FY26 revenue** (domestic 38%); China is the largest foreign market | Jain FY26 AR [V] |
+| 21 | Jain Unit-II fire (§H.10) | date/loss unknown | **Furnace explosion 14-Jul-2026, Gummidipoondi Unit-II; one contract worker killed**; restart approval 27-Jul-2026; **loss ~₹3.9 Cr, largely insured** | Jain Q1 call; CRISIL 27-Aug [V] |
+| 22 | Jain capacity (§4.3) | "~3.26 lakh tpa (primer)" | **Authorised 3.29 lakh tpa**: copper 83,042; lead 1,84,000; aluminium 35,994; plastics 13,200; tin 500; copper VAP 12,000. **Actual production capacity "2.4 lakh+ tpa"** (AR) | Jain Q1 deck slide 16; AR [V] |
+| 23 | Jain copper lines (§1.2, §4.3) | "2nd anode furnace 800 t/month (Jul-26)" | **Anode line 1,600 t/month (Phase 1 Mar-2026, Phase 2 Jul-2026; ~600 t sold in Q1)**; **cathode 1,500 t/month — Phase 1 (750 t/m) in Q2 FY27**; rod 600 t/m and busbar/profiles 1,500 t/m in Q3 FY27 | Jain Q1 deck slide 5; call [V] |
+| 24 | Jain Ahmedabad JV | "delayed Jun→Sep-2026" | **Trial production started (by 3-Aug-2026); stabilise in Q2 FY27.** Partner **C&Y Group Investments Inc (US)**; entity Jain CY Circular Solutions Pvt Ltd; feed 72,000 tpa (36,000 motor/alternator scrap + 24,000 cable scrap + 12,000 copper scrap) → ~25,000 tpa copper products | Jain Q1 deck slide 6 [V] |
+| 25 | Jain credit rating | "Crisil A+" (primer/AR) | **CRISIL AA-/Stable, upgraded 27-Aug-2026** (watch-developing placed after the 14-Jul accident was resolved). Gearing 0.82×; interest cover 6.1× (FY26) | CRISIL rationale [V] |
+| 26 | Gravita credit rating | "AA- (ICRA & India Ratings)" | **ICRA upgraded to AA (Q1 FY27)**; India Ratings AA- | Gravita Q1 call/deck [V] |
+| 27 | HZL FY26 dividend (§H.4) | screener payout 0% — "artefact" | **FY26: one interim ₹10/sh = ₹4,225 Cr (~31% of ₹13,832 Cr PAT)**; FY25 ₹29/sh = ₹12,253 Cr. **FY27 first interim ₹11/sh = ₹4,648 Cr, record date 30-Apr-2026** (one day before the demerger record date) | HZL FY26 AR [V]; FY27 interim [V-snip] |
+| 28 | HZL brand fee (§7.7, B2) | "₹1,060 Cr RPT" | **HZL pays VEDL (not VRL) a brand/strategic-services fee of 3% of consolidated turnover from 1-Apr-2025 (2% from 1-Oct-2022). FY26 expense ₹1,171 Cr (FY25 ₹658 Cr).** | HZL FY26 AR note [V] |
+| 29 | VEDL brand fee to VRL (§H.4) | not found | Agreement with VRL (assigned to VRIL from 1-Apr-2024): **0.75–3% of turnover** (VEDL standalone 3%). **Group expense FY26 ₹2,727 Cr (FY25 ₹2,397 Cr); standalone ₹2,408 Cr (₹2,056 Cr)**; RPT table "management and brand fees" ₹3,789 Cr (₹3,039 Cr). Paid in advance at the start of each year | VEDL FY26 AR notes [V] |
+| 30 | VEDL FY26 DPS | ₹34 [primer only] | **Confirmed: ₹7 + ₹16 + ₹11 = ₹34** (FY25 ₹43.50). Group FY26 dividend outflow ₹13,295 Cr (~$1.4 bn) | VEDL AR; reorganisation deck slide 5 [V] |
+| 31 | Promoter block sale (§0, B2) | "~1.7%, ~$200 m"; primer "~₹2,149 Cr" | **Twin Star Holdings sold ~6.5 Cr shares (1.66%) on 23-Jun-2026 at avg ₹291.36 ≈ ₹1,894 Cr** (~$200 m). Primer's ₹2,149 Cr is not supported | [V-snip BT/Angel One]; holding 56.38→54.72% [V-scr] |
+| 32 | Promoter encumbrance (§F, §H.6) | "not fetched" | **15-Jul-2026: VRL $1 bn facility; negative lien/covenants over 2,139,794,759 VEDL shares = 99.99% of promoter holding** (≈54.7% of VEDL). VEDL itself has pledged **4.28 Cr HZL shares (~1.6% of HZL)** as security for a facility | [V-snip filingreader]; VEDL AR borrowing note [V] |
+| 33 | LME prices snapshot (§0, E.10) | Al ~$3,222 (28-Aug); Pb $1,879 (28-Aug); Zn $3,724 (15-Oct); Cu $14,215 (22-Oct) | **LME official cash settlement 23-Oct-2026: Cu $14,415; Zn $3,790; Al $3,043; Pb $1,886** (all same date). Al is ~$180 lower than the Part-1 number | Westmetall (LME official prices) [V] |
+| 34 | LME copper 2023–24 [K] (E.9) | 8,480 / 9,150 | **8,490 / 9,142** (World Bank annual averages) | WB Pink Sheet [V] |
+| 35 | Aluminium-scrap tonnage (§2.4, §H.7) | "FY26 tonnage not found" | **HS 76020010 aluminium scrap: 2,028 kt in FY26 (+12% from 1,812 kt); HS 7602 value $4.55 bn (+16%)** | DGCI&S TradeStat [V] |
+| 36 | Non-ferrous scrap policy (§7.3) | "No statutory successor found" to the 2020 framework | **HWM (Management & Transboundary Movement) Amendment Rules 2025, G.S.R. 438(E) of 1-Jul-2025, in force 1-Apr-2026: EPR for aluminium, copper, zinc scrap** — producer recycling target 10% (FY27) → 75% (FY33); minimum recycled content in new products from FY28/FY29 (5% → 10%) | [V-snip corporateprofessionals/IEA]; Jain Q1 call & deck [V] |
+| 37 | ₹1,500 Cr recycling scheme details (§7.4) | "[K details; FLAG]" | **Cabinet approval 3-Sep-2025**; FY26–FY31; **20% capex subsidy + opex subsidy on incremental sales; caps ₹50 Cr (large) / ₹25 Cr (small) per entity; one-third reserved for small/new recyclers; target ≥270 kt recycling capacity, ~40 kt critical minerals, ~₹8,000 Cr investment**. Feedstock: e-waste, Li-ion scrap, catalytic converters — **not lead-acid or copper/aluminium scrap** | PMIndia/PIB release [V-snip] |
+| 38 | Combined value per original share on listing day | ~₹933 | **₹932.05** (company figure) | VEDL reorganisation deck slide 4 [V] |
+| 39 | Gravita capacity utilisation | "~45% [E]" | Company: **group utilisation ~52% in Q1 FY27** (Jaipur lead 45%; Mundra ~50%); **70% in FY26** (AR "at a glance") | Gravita Q1 call; FY26 AR [V] |
+| 40 | Gravita "Vision" naming | Vision 2028/2029/2030 | **"Vision 2030"** in both the Q1 FY27 deck and call; targets: 20–25% volume CAGR, ROIC ~25%, 30–35% profit growth, VAP 45–50%, non-lead 35–40%, >8 lakh tpa by FY29 | Gravita Q1 deck slide 7 [V] |
+
+**New facts the first pass missed entirely** (no Part 1–3 value to supersede; see 4.2 and 4.5):
+- **VEDL is demerging again: real estate → Vedanta Property Platforms Ltd (VPPL), 1 VPPL share per 20 VEDL shares**, board approval 30-Jul-2026; ~2,200 acres of industrial land + ~55,000 sq ft; FY26 turnover ₹1.26 Cr; exchange filings for NOC "expected August 2026" [V].
+- **Enforcement Directorate (FEMA) searches at Vedanta group premises, 1–3-Jun-2026** (Delhi, Mumbai, Udaipur), reportedly about brand-fee/royalty payments to the parent; VEDL said no penalty or restriction was imposed; CRISIL (16-Oct) says "no material implications have emerged yet" [V CRISIL; V-snip BT/Moneylife].
+- **Vedanta's "3 million tonnes" zinc vision** (2 mt HZL + South Africa) in the 18-Oct-2026 Gamsberg release [V].
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Agrees?" compares with Parts 1–3. **35 of 40 are [V] from primary documents** (company filings, exchange-filed decks/transcripts, annual reports, rating agency, DGCI&S, World Bank, LME settlement). 4 are [V-scr] (screener, standardised numbers; row 40 is mixed). 1 rests on [V-snip] (row 21, promoter encumbrance).
+
+| # | Figure | Value | Primary source (fetched 25-Oct-2026) | Tag | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | VEDL Q1 FY27 revenue / EBITDA / PAT (continuing, company basis) | ₹23,456 / ₹8,469 / ₹5,294 Cr | VEDL Q1 press release (BSE, 30-Jul-2026) | [V] | Yes (was V-snip) |
+| 2 | VEDL net debt, 30-Jun-2026 | ₹8,299 Cr (gross ₹28,291; cash ₹19,992) | VEDL Q1 deck slide 17 | [V] | New (Part 1 had ratio only) |
+| 3 | VEDL ND/EBITDA; ROCE | 0.30×; ~29% | VEDL Q1 release | [V] | Yes |
+| 4 | Net debt that left with demerged businesses | ₹42,732 Cr (of ₹53,254 Cr at 31-Mar-26) | VEDL Q1 deck slide 16 | [V] | New |
+| 5 | Zinc India Q1 FY27 EBITDA | ₹8,096 Cr on ₹12,985 Cr revenue | VEDL Q1 deck slide 24 | [V] | New |
+| 6 | Copper FY26 EBITDA | −₹48 Cr on ₹31,069 Cr | VEDL Q1 deck slide 26 | [V] | Yes (was V-sib) |
+| 7 | Zinc International FY26 / Q1 FY27 EBITDA | ₹1,321 Cr / ₹250 Cr; CoP $1,561 / $1,898/t | VEDL Q1 deck slide 25 | [V] | New |
+| 8 | NCLT sanction dates | 16-Dec-2025; 9-Jan-2026 | VEDL FY26 AR | [V] | Corrects "Dec-2025" |
+| 9 | Demerger effective/record date | 1-May-2026 (fixed by board 20-Apr-2026) | VEDL FY26 AR | [V] | Yes |
+| 10 | Combined value on listing day | ₹932.05 per original share | VEDL reorganisation deck | [V] | Yes (~933) |
+| 11 | VEDL FY26 DPS / total dividend | ₹34 / ₹13,295 Cr | VEDL AR; reorganisation deck | [V] | Yes (was primer) |
+| 12 | VEDL brand fee to VRL, FY26 | ₹2,727 Cr group expense (0.75–3% of turnover) | VEDL FY26 AR note | [V] | New |
+| 13 | HZL brand fee to VEDL, FY26 | ₹1,171 Cr (3% of turnover from Apr-2025) | HZL FY26 AR note | [V] | Corrects ₹1,060 Cr |
+| 14 | HZL Q2 FY27 EBITDA / PAT / margin | ₹9,285 / ₹6,412 Cr / 62% | HZL Q2 release (BSE 19-Oct) | [V] | Yes (was V-snip) |
+| 15 | HZL zinc CoP ex-royalty Q2 / Q1 / H1 FY27 | $703 / $851 / $776 per t | HZL Q2 release | [V] | Yes |
+| 16 | HZL mined / refined / silver, Q2 FY27 | 271 kt / 264 kt / 173 t | HZL Q2 release | [V] | Yes |
+| 17 | HZL silver revenue Q2 FY27 | ₹4,111 Cr (27% of revenue; +141%) | HZL Q2 release | [V] | New |
+| 18 | HZL FY26 dividend | ₹10/sh, ₹4,225 Cr | HZL FY26 AR | [V] | Corrects screener 0% |
+| 19 | LBMA silver Q1 FY27 average | $73.2/oz | VEDL Q1 deck slide 24 | [V] | Corrects C.1 assumption |
+| 20 | VEDL promoter holding | 54.72% (Sep-26) | screener shareholding | [V-scr] | Yes |
+| 21 | VEDL promoter encumbrance | 99.99% of promoter shares under negative lien (15-Jul-2026) | filing summary (filingreader) | [V-snip] | New |
+| 22 | Gravita Q1 FY27 revenue / adj. EBITDA / PAT | ₹1,475 / ₹144.54 / ₹106.39 Cr | Gravita Q1 deck slide 9 | [V] | Yes |
+| 23 | Gravita Q1 FY27 volume | 55,455 t (+4%) | Gravita Q1 call | [V] | Yes (was V-snip) |
+| 24 | Gravita Q1 EBITDA/t by segment | Pb ₹24,181; Al ₹25,175; plastic ₹10,197; Cu ₹55,151 | Gravita Q1 call | [V] | New |
+| 25 | Gravita installed capacity / FY29 target | 4.97 lakh tpa / >8 lakh tpa | Gravita Q1 call + deck | [V] | Yes |
+| 26 | Gravita FY26 lead share of revenue | 88% (₹3,771 Cr of ₹4,265 Cr) | Gravita FY26 AR segment note | [V] | Yes ("89%" Q1 FY26) |
+| 27 | RMIL acquisition | 98.95% for ₹559.08 Cr, w.e.f. 12-Mar-2026; FY26 rev ₹1,040 Cr, EBITDA ₹82 Cr | Gravita FY26 AR | [V] | Corrects date/financials |
+| 28 | Gravita founder | Rajat Agrawal (1992, Jaipur) | Gravita Q1 deck; AR | [V] | Corrects primer "Saraf" |
+| 29 | Jain Q1 FY27 revenue / EBITDA / PAT | ₹2,724.5 / ₹109.5 / ₹69.4 Cr | Jain Q1 deck slide 9 | [V] | Yes |
+| 30 | Jain Q1 FY27 copper volume / EBITDA/t | 14,679 t / ₹31,027 per t (segment margin 2.48%) | Jain Q1 deck slide 8 | [V] | New / Yes |
+| 31 | Jain FY26 export share | 62% of revenue | Jain FY26 AR | [V] | New |
+| 32 | Jain FY25 revenue, both bases | ₹6,429.4 Cr (continuing) / ₹7,125.77 Cr (CRISIL, incl. gold refining) | Jain deck; CRISIL | [V] | Resolves conflict |
+| 33 | Jain FY26 CFO | −₹591 Cr | screener cash flow | [V-scr] | Yes |
+| 34 | Jain rating | CRISIL AA-/Stable (27-Aug-2026) | CRISIL rationale | [V] | New |
+| 35 | Copper-scrap imports FY26 (HS 7404) | $3,429 m (+44%); 467 kt (sibling) | DGCI&S TradeStat | [V] (value) | Yes |
+| 36 | Aluminium-scrap imports FY26 (HS 76020010) | 2,028 kt (+12%); HS 7602 $4,551 m | DGCI&S TradeStat | [V] | New |
+| 37 | Spent lead-acid battery imports FY26 (HS 85491100) | 498 kt (+32%); $549 m | DGCI&S TradeStat | [V] | New |
+| 38 | LME settlement 23-Oct-2026 | Cu 14,415; Zn 3,790; Al 3,043; Pb 1,886 $/t | Westmetall (LME official) | [V] | Corrects Al/Pb dates |
+| 39 | Sub-sector FY26 revenue (screener sum) | ₹92,245 Cr | screener (3 pages) | [V-scr] | Yes |
+| 40 | Recyclers' Q1 FY27 OP margin vs Q1 FY26 | 5.2% vs 7.4% (screener); company basis Gravita 9.8%, Jain 4.0% | screener; company decks | [V-scr]/[V] | Yes |
+
+**Where sources conflict, which is more credible:**
+- VEDL Q1 EBITDA: company ₹8,469 Cr (continuing ops, Ind AS 105 like-for-like) vs screener OP ₹8,501 Cr (screener re-classifies "other operating income"). **Use the company figure** for segment work, screener for cross-company tables.
+- VEDL Q1 PAT: company ₹5,294 Cr is **continuing operations, before minority interest** (the release reports PAT before minorities; Q1 FY26 comparable is ₹2,102 Cr). Screener's ₹7,918 Cr also includes April-2026 discontinued operations. Part 1's statement that the ₹7,918 − ₹5,294 gap is "HZL's minority interest" is **wrong**: the gap is the one month of discontinued operations (April 2026) plus classification; minorities are not deducted in either number. Attributable-to-owners PAT should be read from the results statement (EPS ₹14.00 × 391 Cr ≈ ₹5,474 Cr is screener's EPS, which includes discontinued ops) — **FLAG: get the attributable continuing figure from the 28-Oct Q2 statement**.
+- Jain export share: the FY26 AR states "62% Export Revenue" as a headline figure; the Q1 deck pie labels are ambiguous. **Use 62% (AR).**
+- Recycled-content mandate start: Jain says FY2027-28; a legal summary says aluminium products from FY2028-29. **Write "from FY28–FY29 (metal-specific schedule)".**
+
+## 4.2 Company deep-dives
+
+### 4.2.1 Vedanta Ltd (VEDL · 500295) — residual company
+
+**(a) Management-commentary digest (Q1 FY27; release, deck and Reg-30 filings of 30-Jul-2026; Gamsberg release 18-Oct-2026).** The Q1 FY27 call transcript is **not** on BSE's screener-linked list (only the call recording, vedantalimited.com 10044688.mp3, was posted) and vedantalimited.com refused scripted access, so call-level Q&A still rests on the cofacto summary cited in Part 1 [V-snip]. Guidance points paraphrased from the company's own documents:
+- **Operations:** Zinc India "highest-ever first-quarter mined metal for the fifth consecutive year" (268 kt); lowest zinc CoP since the underground transition ($851/t). Silver "c.46%" of Zinc India profitability. Renewable share of Zinc India power 22% (Q2: 27% at HZL). Secured the **Gundlupet rare-earth & yttrium block (Karnataka)** mining lease [V deck slide 8].
+- **Zinc International:** BMM's Deeps mine is near end of life (BMM mined metal 3 kt vs 11 kt a year ago); Swartberg contract to substitute it. **Gamsberg Phase 2 97.5% complete in July, first ore charge Aug-2026; capacity doubling to 500 ktpa inaugurated 18-Oct-2026 (~US$600 m).** Gamsberg reserves & resources 269 Mt ore with 20 Mt metal, **33-year life** [V slides 9, 12; V release 18-Oct].
+- **Copper:** Silvassa's best Q1 rod sales in 8 years (53 kt); Fujairah rod hit by the Hormuz closure (operations revived; target 20+ kt/quarter by Q3 FY27); **VCI rod mill 58% complete, completion Sep-2026; KSA rod mill 2H FY27**; exploration vendor fixed for the Jabal-Sayid Site-1 block (Saudi Arabia) [V slide 11–12].
+- **FACOR:** record ore 153 kt (+41%; Kalarangiatta restart Nov-2025); ferro-chrome cost $810/t (−9% YoY); Ostapal underground first ore Q2 FY27; **330 ktpa smelter expansion in H2 FY28; 600 ktpa chrome-ore beneficiation 1H FY28** [V slides 10, 12].
+- **Zinc India projects:** hot-acid leaching (Q2 FY27), **510 ktpa fertiliser plant (Q2 FY27)**, **10 Mtpa zinc tailings reprocessing (Q4 FY28)**; HZL long-term vision **2.0 mtpa refined metal, 1,500 tpa silver**; 250 ktpa integrated refined-zinc expansion at Debari [V slides 12; HZL deck].
+- **Balance sheet/capital allocation:** borrowing cost "<8.5%"; "net debt reduced by ₹2,223 Cr" in Q1; growth capex ₹1,148 Cr in Q1; FCF pre-capex ₹4,412 Cr. CRISIL (16-Oct-2026) expects FY27 scheduled repayment of **₹7,200–7,250 Cr** to be met from HZL dividends and cash, and ND/EBITDA to stay <1× [V].
+- **Corporate actions:** **real-estate demerger** (below); group "vision" of **3 mtpa zinc** across India and South Africa (2 mt from HZL) [V 18-Oct release].
+- **Not guided in documents read:** FY27 group EBITDA (the "US$9.5–10 bn" in Part 1 is a call remark, [V-snip]); dividend policy beyond the historical record.
+
+**(b) KPI table (company basis, continuing operations) [V VEDL Q1 deck]**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | FY26 |
+|---|---|---|---|---|
+| Revenue from operations, ₹ Cr | 15,537 | 23,731 | **23,456** | — |
+| EBITDA, ₹ Cr | 4,267 | 7,785 | **8,469** | 23,419 (CRISIL, demerged structure, excl. brand fees) |
+| EBITDA margin ex-copper | 47% | 54% | **57%** | — |
+| PAT (continuing, before minorities), ₹ Cr | 2,102 | 4,267 | **5,294** | — |
+| Zinc India mined / refined metal, kt | 265 / 250 | 315 / 282 | **268 / 260** | sales 1,048 kt (Zn 851 + Pb 197) |
+| Zinc India silver, t | 149 | 176 | **149** | 627 |
+| Zinc India CoP ex-royalty / with royalty, $/t | 1,010 / 1,362 | 903 / 1,354 | **851 / 1,330** | — |
+| Zinc India revenue / EBITDA, ₹ Cr | 7,542 / 3,815 | 12,672 / 7,743 | **12,985 / 8,096** | — |
+| LME Zn / Pb ($/t); LBMA Ag ($/oz) | 2,641 / 1,947; 33.7 | 3,241 / 1,931; 84.3 | **3,466 / 1,954; 73.2** | Zn 2,970 (ZI basis) |
+| Zinc International MIC, kt (BMM + Gamsberg) | 57 (11+46) | 49 (7+42) | **48 (3+45)** | 225 (40+185) |
+| ZI revenue / EBITDA, ₹ Cr; CoP $/t | 1,150 / 422; 1,269 | 1,173 / 110; 1,912 | **1,392 / 250; 1,898** | 4,860 / 1,321; 1,561 |
+| Copper cathode / rod production, kt | 44 / 72 | 42 / 67 | **41 / 62** | 170 / 283 |
+| Copper revenue / EBITDA, ₹ Cr | 6,374 / (26) | 9,448 / 8 | **8,538 / 11** | 31,069 / (48) |
+| FACOR ore / FeCr, kt; revenue / EBITDA ₹ Cr | 108 / 28; 313 / 46 | 113 / 30; 335 / 88 | **153 / 29; 389 / 101** | 371 / 101; 1,094 / 191 |
+| VGCB discharge / dispatch, mt | 1.68 / 1.49 | 2.00 / 1.59 | **2.36 / 1.65** | 7.11 / 6.21 |
+| Exchange rate ₹/$ (avg) | 85.57 | — | **94.58** | — |
+
+- **EBITDA bridge Q1 FY26 → Q1 FY27 (₹ Cr):** 4,267 + LME/prices 3,145 + forex 1,012 = "rebased" 8,424; + volume 293 − cost 320 + marketing & others 71 = **8,469**. **₹4,157 Cr of the ₹4,202 Cr increase (99%) came from "market & regulatory" (prices + rupee)**; operations net to ~₹45 Cr [V slide 15].
+- **Sensitivities (annual EBITDA):** ₹1/$ depreciation = ₹350–375 Cr; zinc +$100/t = ₹1,000–1,050 Cr; lead +$100/t = ₹175–200 Cr; **silver +$1/oz = ₹200–225 Cr**; **copper +$1,000/t = only ₹55–70 Cr** (custom refining); Zinc India CoP −$25/t = +₹225–250 Cr; ZI CoP −$25/t = +₹65–90 Cr [V slide 29]. These replace the [E] sensitivities in §9.3 (which agree in order of magnitude).
+
+**(c) Debt and cash by entity, ₹ Cr [V VEDL Q1 deck slide 22]**
+
+| Entity | Debt 30-Jun-26 | Cash 30-Jun-26 | Net debt 30-Jun-26 | Net debt 31-Mar-26 | Net debt 30-Jun-25 |
+|---|---|---|---|---|---|
+| Vedanta Ltd standalone | 12,178 | 5,823 | 6,355 | 6,293 | 2,075 |
+| Zinc India (HZL) | 7,320 | 12,892 | **(5,572)** | (5,594) | 4,184 |
+| Zinc International | 2,303 | 743 | 1,560 | 2,132 | 2,256 |
+| THL Zinc Venture (ZI holdco) | 4,719 | 144 | 4,576 | 4,436 | 2,879 |
+| Fujairah Gold | 1,119 | 134 | 985 | 877 | 942 |
+| Avanstrate (display glass) | 121 | 61 | 60 | 267 | 144 |
+| VGCB (port) | — | 23 | (23) | (27) | (13) |
+| Vedanta Copper International | 77 | 33 | 44 | (26) | (16) |
+| FACOR | 9 | 44 | (35) | (86) | (109) |
+| Others (ESOS trust, semis, display, eliminations) | 445 | 95 | 349 | 2,250 | 1,983 |
+| **VEDL consolidated (continuing)** | **28,291** | **19,992** | **8,299** | **10,522** | **14,325** |
+
+- **Read:** HZL is net cash ₹5,572 Cr; **VEDL-ex-HZL carries net debt of ~₹13,870 Cr** (8,299 + 5,572) [E], concentrated in the standalone company (₹6,355 Cr) and the Zinc International chain (THLZV + ZI ₹6,136 Cr — the Gamsberg Phase 2 funding).
+- **Q1 net-debt walk (₹ Cr):** 10,522 − CFO 7,142 + working capital 1,307 + capex 2,572 (project 1,181; sustaining 1,390) + dividends 1,826 − others 786 = 8,299 [V slide 16]. The ₹1,826 Cr "dividend" equals **39.29% × HZL's ₹4,648 Cr FY27 first interim — i.e., the cash that leaked to HZL's minorities (GoI + public)** [E — exact match].
+- **Long-term debt maturities ($2.79 bn = ₹26.37k Cr):** per slide 23, standalone vs subsidiaries across FY27, FY28, FY29 and FY30+ (garbled text layer; values ₹0.2–8.1k Cr per bucket) [chart — FLAG: re-read the image]. CRISIL's FY27 repayment figure **₹7,200–7,250 Cr** is the cleaner number [V].
+- **Debt mix:** term loans INR 41%, bonds INR 35%, term loans FX 24%, bonds FX 0.1% [V slide 23, chart].
+
+**(d) Look-through valuation refresh [E on V inputs]**
+- HZL m-cap ₹2,09,576 Cr (23-Oct; HZL deck uses ₹2.39 L Cr at 30-Sep) × 60.71% = **₹1,27,234 Cr** vs VEDL m-cap **₹88,570 Cr**.
+- VEDL EV (company net debt) = 88,570 + 8,299 = ₹96,869 Cr. Adding HZL minorities (39.29% × 2,09,576 = ₹82,342 Cr) gives a claim-adjusted EV of **₹1,79,211 Cr ≈ 5.3× annualised Q1 FY27 company EBITDA (₹33,876 Cr)** — vs Part 1's 6.9× on screener TTM.
+- Implied value of everything that is not HZL: 88,570 − 1,27,234 = **−₹38,664 Cr**, against which sit ZI (FY26 EBITDA ₹1,321 Cr, about to double in capacity), FACOR (₹191 Cr), ports, copper (~0) — and VEDL-ex-HZL net debt ~₹13,870 Cr plus a capitalised brand fee: **₹2,408 Cr/yr standalone brand fee to VRL capitalised at 8× ≈ ₹19,000 Cr** [E] — this alone explains half the holdco discount.
+
+**(e) Real-estate demerger (new) [V filing VEDL/Sec./SE/26-27/80, 30-Jul-2026]**
+- Demerged undertaking: real estate business → **Vedanta Property Platforms Ltd (VPPL)**, already a 100% VEDL subsidiary (entity chart slide 30). **Ratio 1 VPPL share for every 20 VEDL shares**; post-scheme VPPL capital ~19.55 Cr shares, promoter 54.72%; to be listed on BSE/NSE. Listed debt of VEDL unaffected.
+- Assets: **~2,200 acres of industrial land + ~55,000 sq ft** residential/commercial; FY26 turnover ₹1.26 Cr (0.001% of standalone). VPPL may also take real estate of other group companies via concurrent schemes and **"identified assets" of Meenakshi Energy and Incab Industries** (group companies) for VPPL shares — **an RPT/governance watch item** (shares of the listed resulting company issued to group entities "at fair value" outside the 1:20 ratio).
+- Timeline: NOC filings "expected in August 2026"; NCLT process follows (the five-way demerger took ~32 months from board approval to listing).
+
+**(f) Five-year history (screener consolidated; FY22–FY24 = whole pre-demerger group, FY25–FY26 = restated continuing ops) [V-scr]**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25* | FY26* | TTM Jun-26 |
+|---|---|---|---|---|---|---|
+| Sales | 1,32,732 | 1,47,308 | 1,43,727 | 62,717 | 78,437 | 88,898 |
+| Operating profit | 44,824 | 34,431 | 35,312 | 18,578 | 23,183 | 27,496 |
+| OPM | 34% | 23% | 25% | 30% | 30% | 31% |
+| Net profit (incl. discontinued & minorities) | 23,710 | 14,503 | 7,539 | 20,535 | 25,096 | 28,556 |
+| EPS ₹ | 50.58 | 28.45 | 11.40 | 38.33 | 44.47 | 50.33 |
+| Dividend payout | 89% | 357% | 259% | 113% | 76% | — |
+| Company dividend outflow (₹ Cr; deck) | 16,727 | 37,730 | 10,966 | 17,010 | 13,295 | — |
+| CFO | 34,963 | 33,065 | 35,654 | 39,562 | 39,499 | — |
+| Borrowings (year-end) | 53,583 | 80,329 | 87,706 | 91,479 | 32,947 | — |
+| ROCE | 28% | 20% | 21% | 12% | 16% | — |
+| Promoter holding (Mar) | 69.69% | 68.11% | 61.95% | 56.38% | 56.38% | 54.72% (Sep-26) |
+
+*FY25 and FY26 restated by screener; FY25 dividend-payout and CFO still reflect the whole group. Ten-year dividend outflow FY17–FY26 per company deck: 7,099; 7,880; 7,005; 1,450; 3,531; 16,727; 37,730; 10,966; 17,010; 13,295 = **₹1,22,693 Cr (~$15.6 bn at the deck's yearly $ figures; deck headline "~$19 bn over 10 years")** [V deck slide 5; E sum].
+
+**(g) Eight-quarter trend [V-scr; company basis in last column where available]**
+
+| Quarter | Sales | OP | OPM | Net profit (screener) | Company EBITDA / PAT (continuing) |
+|---|---|---|---|---|---|
+| Sep-24 (pre-restatement) | 37,634 | 9,828 | 26% | 5,603 | — |
+| Dec-24 | 17,063 | 5,013 | 29% | 4,876 | — |
+| Mar-25 | 16,686 | 5,246 | 31% | 4,961 | — |
+| Jun-25 | 15,754 | 4,276 | 27% | 4,457 | 4,267 / 2,102 |
+| Sep-25 | 18,747 | 4,915 | 26% | 3,479 | — |
+| Dec-25 | 21,337 | 6,521 | 31% | 7,807 | — |
+| Mar-26 | 24,609 | 7,559 | 31% | 9,352 | 7,785 / 4,267 |
+| Jun-26 | 24,205 | 8,501 | 35% | 7,918 | **8,469 / 5,294** |
+
+**(h) Annual-report findings (FY2025-26 AR) [V]**
+- **Related parties/brand fee:** brand licence & strategic service fee to VRL (through VRIL since 1-Apr-2024) at 0.75–3% of turnover; group expense ₹2,727 Cr (FY25 ₹2,397 Cr), standalone ₹2,408 Cr; "management and brand fees" in the RPT table ₹3,789 Cr (₹3,039 Cr). Fees are **paid in advance at the start of the year** on estimated turnover — a cash-timing benefit to VRL. Statutory auditors flagged "assessment of brand and strategic management fees" as part of a key audit matter. HZL in turn pays VEDL 3% of turnover (₹1,171 Cr FY26).
+- **Demerger accounting:** discontinued operations under Ind AS 105 (aluminium, oil & gas, iron ore, merchant power) — auditor KAM; the screener FY26 P&L carries their profits in "other income".
+- **Security/pledge:** pledge over **4,27,90,960 HZL shares (~1.6% of HZL)** for a VEDL facility; certain copper assets (2,45,000 t blister/secondary processing plant etc.) charged to lenders.
+- **Corporate:** FY26 interim dividends ₹7 + ₹16 + ₹11 (third interim declared 18-Mar-2026, ₹4,300 Cr); VEDL incorporated an IFSC (GIFT City) entity on 18-Nov-2025; ₹2,575 Cr NCD private placement in FY26.
+- **Legal (selected):** Tuticorin smelter litigation continues (closure upheld; Supreme Court SLP rejected earlier); ED FEMA searches 1–3-Jun-2026 (post-year-end; disclosed to exchanges) [V-snip].
+
+### 4.2.2 Hindustan Zinc (context; 60.71% of VEDL's value)
+
+**HZL Q2 FY27 (19-Oct-2026) [V HZL release]**
+
+| ₹ Cr unless stated | Q2 FY26 | Q1 FY27 | **Q2 FY27** | H1 FY26 | **H1 FY27** |
+|---|---|---|---|---|---|
+| Zinc sales | 5,354 | 7,304 | **8,224** | 10,289 | 15,528 |
+| Lead sales | 840 | 1,086 | **1,130** | 1,712 | 2,216 |
+| Silver sales | 1,706 | 3,839 | **4,111** | 3,133 | 7,950 |
+| Others | 649 | 1,518 | **1,628** | 1,186 | 3,146 |
+| **Revenue** | 8,549 | 13,747 | **15,093** | 16,320 | **28,840** |
+| **EBITDA** (margin) | 4,467 (52%) | 8,074 (59%) | **9,285 (62%)** | 8,328 (51%) | **17,359 (60%)** |
+| **Net profit** | 2,649 | 5,469 | **6,412** | 4,883 | **11,881** |
+| Zinc CoP ex-royalty, $/t | 994 | 851 | **703** | 1,002 | 776 |
+| Mined metal / refined metal, kt | 258* / 247* | 268 / 260 | **271 / 264** | — | 539 / 524 |
+| Silver, t | 144* | 149 | **173** | — | 321 |
+
+*Q2 FY26 production back-calculated from the stated growth rates (+5%, +7%, +20%) [E].
+- Other Q2 data: FCF pre-growth capex ₹6,389 Cr (H1 ₹11,642 Cr); ETR 25.2%; gross investments & cash ₹17,439 Cr; borrowings ₹6,171 Cr (30-Sep-26); CRISIL AAA; new CEO **Amarendu Prakash**; H1 contribution to exchequer ₹13,027 Cr (Rajasthan ₹3,724 Cr). "Others" revenue (₹1,628 Cr, +151%) = by-products (sulphuric acid, power, etc.).
+- **Silver = 27% of Q2 revenue but "c.45%" of H1 profitability** — because silver carries almost no incremental cost.
+
+**HZL five-year history [V-scr]**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Sep-26 |
+|---|---|---|---|---|---|---|
+| Sales | 29,440 | 34,098 | 28,932 | 34,083 | 40,844 | 53,364 |
+| Operating profit (OPM) | 16,225 (55%) | 17,515 (51%) | 13,676 (47%) | 17,431 (51%) | 22,080 (54%) | 31,058 (58%) |
+| Net profit | 9,629 | 10,511 | 7,759 | 10,353 | 13,832 | 20,830 |
+| DPS ₹ / dividend ₹ Cr | — | — | — | 29 / 12,253 [V AR] | **10 / 4,225** [V AR] | FY27 1st interim 11 / 4,648 |
+| CFO | 12,691 | 15,162 | 13,346 | 14,160 | 17,008 | — |
+| ROCE | 37% | 50% | 46% | 61% | 70% | — |
+
+**HZL eight quarters [V-scr]:** Dec-24 8,614 / OP 4,499 (52%) / PAT 2,678 · Mar-25 9,087 / 4,820 (53%) / 3,003 · Jun-25 7,771 / 3,859 (50%) / 2,234 · Sep-25 8,549 / 4,445 (52%) / 2,649 · Dec-25 10,980 / 6,054 (55%) / 3,916 · Mar-26 13,544 / 7,706 (57%) / 5,033 · Jun-26 13,747 / 8,050 (59%) / 5,469 · **Sep-26 15,093 / 9,248 (61%) / 6,412**. Company EBITDA in the last two quarters: ₹8,074 Cr and ₹9,285 Cr.
+- **Shareholding history correction:** HZL promoter (Vedanta) 64.92% → **63.42% in Sep-2024** (Aug-2024 OFS) → 61.84% (Jun-2025) → 60.71% (Mar-2026); Government 29.54% → **27.92% from Dec-2024** [V-scr]. Part 1 §8 dates the 63.42% step to Jun-2025 — the Jun-2025 step was 63.42 → 61.84.
+- **Brand fee flow:** HZL → VEDL 3% of turnover (₹1,171 Cr FY26; at H1 FY27 run-rate ~₹1,700 Cr/yr [E]); VEDL → VRL up to 3%. Every ₹100 of HZL revenue therefore sends ₹3 to VEDL (of which 39.29% is effectively borne by HZL's minorities).
+
+### 4.2.3 Gravita India (GRAVITA · 533282)
+
+**(a) Management-commentary digest — Q1 FY27 call, 28-Jul-2026 (CEO Yogesh Malhotra, CFO Sunil Kansal, IR Anant Jain; host Antique) [V transcript filed 30-Jul-2026]**
+1. **Lead volumes fell YoY for the first time** because the West Asia war cut off scrap: **15–20% of Gravita's imported scrap comes from the Gulf**, and some non-Gulf cargo transits Gulf ports. Q2 FY27 will also be affected. Management "used the scrap shortage" to lift realisations — **guides similar lead EBITDA/t in Q2** and says growth this year comes from copper, not lead.
+2. **No divisional volume guidance for FY27.** Long-run guidance unchanged: PAT CAGR **25–30%** ("for the next 4–5 years"); 5-year PAT CAGR achieved 48%, 3-year 24%.
+3. **Copper (RMIL):** Q1 revenue ₹376 Cr at **~50% utilisation**; EBITDA ~₹55,000/t, "slight increase" to **~₹60,000/t by FY27-end**, **₹70,000–75,000/t in 2–3 years** after debottlenecking and backward integration. Utilisation to **60%+ by year-end**. **Copper capacity to double to ~60,000 tpa in 3 years.** Gravita is 100% hedged — the higher LME (~$13,500 vs ~$9,000 a year ago) dilutes margin % but not EBITDA/t.
+4. **Sourcing response:** building **own scrap yards in the US and other developed markets by FY27-end** (viable now that copper adds scale); domestic sourcing ~35% of Indian plants' feed.
+5. **Sustainable EBITDA/kg:** aluminium **₹15–17/kg when only overseas plants run, ₹13–14/kg with India plants**; plastic **₹10–12/kg** (Q1 had price gains from the disruption).
+6. **Capacity:** group utilisation ~52% in Q1 (Jaipur lead 45%; Mundra ~50% incl. the Feb-2026 +80,300 tpa expansion); sustainable ~70% when scrap normalises. Phagi +40,500 tpa (₹30 Cr, internal accruals) → 75,819 tpa; the new 40,000 t should add ~₹50 Cr revenue per month at 70% utilisation. **Kathua (J&K) unit consolidated into Jaipur.** **Rubber capacity put on hold; its plant & machinery diverted to copper expansion.**
+7. **Balance sheet:** net debt **~₹150 Cr**; working-capital cycle **~95 days** (copper inventory + goods in transit); inventory **~₹1,040 Cr**; Q1 other income ₹47 Cr = ₹35 Cr operational hedging gains + ₹13 Cr treasury; **ROCE ~20%** now including copper, back to **25%+ in ~3 years**.
+8. **Other:** LME brand "GRAVITA M" (Mundra) is for OEM approvals and liquidity, not LME delivery sales; ADC12 aluminium-alloy MCX listing pending at MCX; Li-ion — pilot plant commissioned; R&D on black-mass refining rather than selling black mass; capex ₹1,680 Cr through FY29 (₹850 Cr existing businesses; rest Li-ion, copper, steel); Mandvi 29,400 tpa copper recycling (~₹160 Cr) within 12 months; VAP share 63% (50% ex-copper).
+
+**(b) KPI table — Q1 FY27 deck + call [V; segment volumes reconciled to the stated total, see note]**
+
+| KPI | Q1 FY26 | Q4 FY26 | **Q1 FY27** |
+|---|---|---|---|
+| Revenue, ₹ Cr | 1,040 | 1,173 | **1,475** (+42%) |
+| Adjusted EBITDA*, ₹ Cr (margin) | 111.70 (10.74%) | 112.91 (9.63%) | **144.54 (9.80%)** (+29%) |
+| PAT, ₹ Cr (margin) | 93.26 (8.97%) | 91.88 (7.83%) | **106.39 (7.21%)** (+14%) |
+| Total volume, t | ~53,440 | ~56,210 | **55,455** (+4%) |
+| Lead volume, t [chart] | 46,215 | 48,889 | **43,897** (−5%) |
+| Aluminium volume, t [chart] | 4,812 | 3,696 | **4,055** |
+| Plastic volume, t [chart] | 2,414 | 2,879 | **3,703** |
+| Copper volume, t [chart] | — | 744 (19 days) | **3,799** |
+| EBITDA/t lead, ₹ | ~21,790 | ~20,300 | **24,181** |
+| EBITDA/t aluminium, ₹ | ~17,885 | ~17,100–17,700 | **25,175** |
+| EBITDA/t plastic, ₹ | ~10,213 | ~17,100–17,700 | **10,197** |
+| EBITDA/t copper, ₹ | — | ~39,955 | **55,151** |
+| Value-added products share | ~45% | — | **63%** |
+| Installed capacity | — | 4.97 lakh tpa (Jun-26) | 4.97 lakh tpa; >8 lakh by FY29 |
+
+*Adjusted EBITDA = after hedging gains/losses and ECL. **Note:** the deck's per-segment numbers are in a garbled chart layer; I assigned them so that Σ(volume) = stated totals (55,454 ≈ 55,455; Q1 FY26 total ≈ 53,440 = −4% base) and Σ(volume × EBITDA/t) ≈ adjusted EBITDA (Q1 FY27 ₹141 Cr vs ₹144.5 Cr; Q1 FY26 ₹111.8 Cr vs ₹111.7 Cr). Q1 FY27 EBITDA/t values are exact (stated on the call). [chart/E]
+- **Capacity roadmap (deck slide 10):** existing verticals 3,33,659 tpa (FY25) → ~4,19,959 (FY26) → 4,98,959 (FY27E) → 6,28,959 (FY28E) → 6,54,959 (FY29E), plus new verticals (copper, Li-ion, steel, rubber) 37,200 → 1,46,600 tpa, **total >8,00,000 tpa by FY29**. Capex FY25 ₹107 Cr; FY26 ₹372 Cr (AR); FY27E–FY29E ~₹335–380 Cr a year [chart].
+- **Vision 2030 (slide 7):** ~20–25% volume CAGR; ROIC ~25% (pre-tax, on average invested capital); 30–35% profitability growth; VAP 45–50%; non-lead 35–40%; renewable power 25–30%. Project hurdle: **pre-tax ROIC ≥25%, payback ≤3 years, asset turns 8×+**.
+- **ROIC history (slide 12; pre-tax, hedging-adjusted EBIT):** FY21 19% · FY22 24% · FY23 30% · FY24 31% · FY25 26% · FY26 27% (pre-RMIL) [chart].
+- **At a glance (deck, 27-Jul-2026):** 14 plants globally; 24% of capacity overseas; 3.30 lakh t/yr scrap-collection capacity; ~2,200 collection touch-points; customers in 22 Indian states and 25 countries; order book ~60,000 t. MCX-empanelled plants: Chittoor, Mundra, Phagi.
+
+**(c) Five-year history [V-scr; company EBITDA where available]**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Jun-26 |
+|---|---|---|---|---|---|---|
+| Sales | 2,216 | 2,801 | 3,161 | 3,869 | 4,265 | 4,700 |
+| Operating profit (screener) | 217 | 207 | 287 | 328 | 439 | 444 |
+| OPM | 10% | 7% | 9% | 8% | 10% | 9% |
+| Other income | 6 | 88 | 76 | 111 | 75 | 94 |
+| Net profit | 148 | 204 | 242 | 313 | 378 | 392 |
+| EPS ₹ | 20.19 | 29.13 | 34.65 | 42.32 | 51.32 | 53.10 |
+| CFO / FCF | 10 / −61 | 200 / 93 | 42 / −56 | 282 / 175 | 169 / −46 | — |
+| Borrowings / investments | 392 / 0 | 348 / 1 | 548 / 16 | 286 / 528 | 736 / 413 | — |
+| Working-capital days | 40 | 43 | 66 | 78 | 82 | ~95 (Jun-26, CFO) |
+| ROCE (screener) | 31% | 32% | 28% | 22% | 16% | ~20% (company, Q1) |
+| Dividend payout | 15% | 15% | 15% | 15% | 12% | — |
+
+**Segment split FY26 vs FY25 (AR note 46, ₹ Cr) [V]:** revenue — lead 3,771.10 (3,419.42) · aluminium 364.65 (341.20) · plastics 70.43 (84.45) · copper 51.78 (–) · turnkey 4.76 (19.96) · others 2.55 (3.74). Segment result — lead **454.15** (376.44) · aluminium 17.09 (26.67) · plastics 8.98 (11.46) · copper 2.42 · turnkey 1.23 (4.71) · others (3.71). **Lead = 88% of revenue and 95% of segment profit in FY26.** Segment assets: lead ₹1,381 Cr; copper ₹833 Cr (RMIL); additions to non-current assets ₹511.6 Cr (copper ₹357.6 Cr).
+
+**(d) Eight-quarter trend [V-scr]**
+
+| Quarter | Sales | OP | OPM | Other inc. | PAT |
+|---|---|---|---|---|---|
+| Sep-24 | 927 | 63 | 7% | 40 | 72 |
+| Dec-24 | 996 | 81 | 8% | 29 | 78 |
+| Mar-25 | 1,037 | 92 | 9% | 36 | 95 |
+| Jun-25 | 1,040 | 101 | 10% | 30 | 93 |
+| Sep-25 | 1,036 | 102 | 10% | 26 | 96 |
+| Dec-25 | 1,017 | 120 | 12% | 12 | 97 |
+| Mar-26 | 1,173 | 113 | 10% | 9 | 92 |
+| **Jun-26** | **1,475** | **110** | **7%** | **48** | **106** |
+
+**(e) Annual-report findings (FY2025-26 AR) [V]**
+- **Promoter/management:** Rajat Agrawal, founder (1992) and **Managing Director & Chairman**; Yogesh Malhotra WTD & CEO; Sunil Kansal WTD & CFO. 50% independent directors.
+- **Customer concentration:** **two largest customers = ₹1,657 Cr (38.9% of FY26 revenue)** (FY25 ₹1,478 Cr, 38.2%) — almost certainly Indian battery OEMs. Not in Part 1–3.
+- **RMIL:** subsidiary w.e.f. 12-Mar-2026 (98.95%, ₹559.08 Cr); founded 1946; Sarigam 31,200 tpa; FY26 revenue ₹1,040 Cr / EBITDA ₹82 Cr. Rights issue top-up ₹94.42 Cr (Oct-2026).
+- **Capex FY26 ₹372 Cr:** Mundra lead **+80,300 tpa → 1,45,100 tpa**; **6,000 tpa Li-ion battery recycling plant at Mundra** commissioned (described as India's first commercial-scale dedicated Li-ion recycling facility).
+- **FY26 throughput:** recycled 1.61 lakh t of spent lead-acid batteries, 20,000 t of aluminium scrap and 15,520 t of waste tyres (Africa, Romania); "4.36 lakh MTPA" production capacity and "70%" utilisation at year-end (AR at-a-glance; capacity excludes RMIL).
+- **Industry facts quoted in MD&A** (useful, company-sourced): LME lead averaged **$1,953/t in FY26 (−4.4% from $2,044)**; secondary lead = 67.4% of global refined supply; **India secondary lead output ~0.85 mt (+6–8%)**; LME aluminium averaged $2,742/t in FY26 (+16.7%); **India's aluminium-scrap imports crossed 2 mt for the first time**; aluminium "~85% import-dependent at sector level"; India secondary-copper market ₹5,224 Cr; India battery-recycling market ₹5,070 Cr (FY26).
+- **Subsidiaries:** Gravita Infotech Ltd (100%), Noble Buildestate Pvt Ltd (100%), RMIL (98.95% at year-end), overseas holdcos (Gravita Netherlands B.V., Gravita Global Pte Singapore) and country operating companies; Green Maputo Recyclers LDA (Mozambique) incorporated 2-Oct-2026.
+- Related-party transactions with promoters were not material in the sections read (remuneration only); contingent liabilities not extracted (FLAG).
+
+### 4.2.4 Jain Resource Recycling (JAINREC · 544537)
+
+**(a) Management-commentary digest — Q1 FY27 call, 4-Aug-2026 (CMD Kamlesh Jain, JMD Mayank Pareek, ED & CFO Hemant Jain, ED Sanchit Jain; host DAM Capital) [V transcript filed 8-Aug-2026]**
+1. **Results:** revenue ~₹2,725 Cr (+76%), EBITDA ~₹110 Cr (+22%), PAT ~₹69 Cr (+23%); **copper & copper products 67% of revenue (FY26: 55%)**, lead & alloys 29%, aluminium 3%.
+2. **Margins are "a two-quarter business":** CMD argues that the 4–6-month cycle from import contract to sale, with hedges marked at quarter-end, makes single-quarter margins misleading — average Q4 FY26 (copper ~₹13–15k/t) with Q1 FY27 (~₹31k/t). **FY26 copper average ~₹36,000/t**; ~₹32k/t is "the average margin up to copper ingots"; value-added products should add **~2 percentage points of margin on VAP volumes** (CMD: "around ₹25" — unit unclear, FLAG). **No numerical revenue/EBITDA guidance**; "EBITDA/t will increase this year".
+3. **Lead:** margins fell from a ~10% peak to ~7–7.5% because Gulf disruption forced expensive local/imported scrap buying; **FY26 lead volume ~1,84,000–1,85,000 t**; a **15–20% lead-capacity addition awaits approval**. Forward integration in lead is impossible (next step is battery-making), so lead growth = capacity.
+4. **Copper VAP (JGT):** both anode furnaces running (1,600 t/month; ~600 t of anode sold in Q1); **cathode Phase 1 (750 t/month of the 1,500) about a month away**; rod (600 t/m) and busbar/profiles (1,500 t/m) in Q3 FY27; new customers, "mostly different from our existing segments".
+5. **Projects:** antimony (1,000 t lead-antimony bullion → ~100 t/month) Q3 FY27; Ahmedabad JV with C&Y Group in trial production; dedicated plastic-recycling unit (~6 acres, ~₹15 Cr) Q3 FY27; **Kuwait strategic investment** (ROFR on raw material) delayed — machinery stuck by the war — benefits from Q3 FY27. **FY27 capex ~₹87 Cr.**
+6. **Regulation:** management sees the **HWM-rules EPR for copper/aluminium/zinc** (producer take-back via registered recyclers; minimum 5% recycled content rising to 10%) as positive for both domestic scrap availability and recycled-metal pricing; quantification "premature".
+7. **Risk items:** Unit-II furnace accident 14-Jul-2026 (one contract worker killed; resumed 27-Jul; insured); **₹20–30 Cr of raw material stuck on vessels near Dubai** (war-risk insured); 100% price hedging with >$30 m of LME broker credit lines; **object-clause change = telecom infrastructure** (optical-fibre laying alongside redundant-copper-cable removal contracts).
+8. **Returns and working capital (Jun-26):** ROE ~22.8%, ROCE ~21.4%; inventory 55 days, debtors 19 days, creditors −14 days → **~60-day cycle** (FY26 AR: 66 days).
+
+**(b) KPI table — Q1 FY27 deck [V; aluminium per-tonne alignment E]**
+
+| KPI | Q1 FY26 | Q4 FY26 | **Q1 FY27** | FY26 | FY25 |
+|---|---|---|---|---|---|
+| Revenue, ₹ Cr | 1,549.3 | 3,105.0 | **2,724.5** | 9,543.1 | 6,429.4 |
+| EBITDA, ₹ Cr (margin) | 90.1 (5.8%) | 110.0 (3.5%) | **109.5 (4.0%)** | 558.9 (5.9%) | 365.0 (5.7%) |
+| Other expenses, ₹ Cr | 57.5 | 23.9 | **49.6** | 217.4 | 192.0 |
+| Finance cost, ₹ Cr | 16.2 | 26.2 | **18.9** | 95.7 | 83.5 |
+| PAT (continuing), ₹ Cr | 57.5 | 66.0 | **69.6** | 352.2 | 221.8 |
+| PAT (reported), ₹ Cr | 56.5 | 66.0 | **69.4** | 347.4 | 223.3 |
+| Copper volume, t | 8,509 | 16,878 | **14,679** | — | — |
+| Copper revenue / EBITDA, ₹ Cr | 696.8 / 32.7 | 1,944.5 / 23.9 | **1,837.3 / 45.5** | — | — |
+| Copper EBITDA/t, ₹ | 38,487 | ~13,300–14,200 | **31,027** | ~36,000 (call) | — |
+| Lead volume, t | 36,572 | 45,022 | **32,150** | ~1,84,000 (call) | — |
+| Lead revenue / EBITDA, ₹ Cr | 785.5 / 54.9 | 1,045.8 / 79.3 | **715.2 / 60.0** | — | — |
+| Lead EBITDA/t, ₹ | 14,998 | 17,390 | **18,660** | — | — |
+| Aluminium volume, t | 3,380 | 3,783 | **2,201** | — | — |
+| Aluminium revenue / EBITDA, ₹ Cr | 88.7 / 11.3 | 108.4 / 3.0 | **71.4 / 4.7** | — | — |
+| Aluminium EBITDA/t, ₹ | ~33,264 | ~7,814 | **~21,197** | — | — |
+| **Total metal volume, t** [E sum] | 48,461 | 65,683 | **49,030** | — | — |
+
+- **Read:** Q1 FY27 copper tonnes were **+73% YoY but −13% QoQ**; lead tonnes **−12% YoY and −29% QoQ** (scrap shortage + Unit-II). Copper EBITDA/t at ₹31k is back near the ₹30–32k "normalised" level after Q4's ~₹13–14k. Copper segment margin = 45.5 ÷ 1,837.3 = **2.48%** — confirms Part 1.
+- **Q1 FY27 copper revenue per tonne** = ₹12.5 lakh ≈ $13,200/t at ₹94.6 — i.e., Jain sells copper at roughly LME (Q1 avg $13,324): the product is near-commodity ingot/anode, not VAP [E].
+
+**(c) Five-year history (four listed-era years) [V-scr; FY25 alternative basis from CRISIL]**
+
+| ₹ Cr | FY23 | FY24 | FY25 (continuing) | FY25 (CRISIL, incl. gold refining) | FY26 | TTM Jun-26 |
+|---|---|---|---|---|---|---|
+| Sales | 3,064 | 4,428 | 6,429 | 7,126 | 9,543 | 10,718 |
+| Operating profit (OPM) | 127 (4.2%) | 231 (5.2%) | 371 (5.8%) | — | 563 (5.9%) | 576 (5.4%) |
+| Company EBITDA | — | — | 365.0 | — | 558.9 | — |
+| Net profit | 92 | 164 | 223 | 223.3 | 347 | 360 |
+| CFO / FCF | 11 / −11 | 33 / 8 | 4 / −30 | — | **−591 / −693** | — |
+| Borrowings | 739 | 914 | 928 | — | 1,276 | — |
+| Gearing (CRISIL adj.) | — | — | 1.27× | — | 0.82× | — |
+| Interest cover (CRISIL) | — | — | 4.66× | — | 6.08× | — |
+| Working-capital days (screener) | 17 | 8 | 17 | — | 38 | — |
+| ROCE / ROE | — / — | 23% / — | 27% / — | — | 26% / 31% (deck: 25% / 31%) | 21.4% / 22.8% (Jun-26, company) |
+
+FY22 is not available (company converted from partnership/LLP structure in 2022; RHP history not re-read). Company-stated 3-yr CAGRs (FY23–26): revenue +46%, EBITDA +65%, PAT +56% [V deck slide 11].
+
+**(d) Eight-quarter trend [V-scr]**
+
+| Quarter | Sales | OP | OPM | PAT |
+|---|---|---|---|---|
+| Sep-24 | 1,392 | 88 | 6% | 53 |
+| Dec-24 | 1,781 | 89 | 5% | 59 |
+| Mar-25 | 1,760 | 93 | 5% | 53 |
+| Jun-25 | 1,549 | 90 | 6% | 57 |
+| Sep-25 | 2,114 | 160 | 8% | 99 |
+| Dec-25 | 2,775 | 199 | 7% | 126 |
+| Mar-26 | 3,105 | 110 | 3.5% | 66 |
+| **Jun-26** | **2,724** | **108** | **4.0%** | **69** |
+
+**(e) Annual-report findings (FY2025-26 AR, standalone figures converted from ₹ million) [V]**
+- **Why CFO was −₹591 Cr in FY26:** standalone **inventories ₹1,403 Cr (Mar-25 ₹627 Cr; +₹777 Cr)** and **trade receivables ₹461 Cr (₹123 Cr; +₹338 Cr, of which ₹114 Cr "not due")**; current loans & advances ₹225 Cr (₹54 Cr). Funded by the IPO (equity ₹709 → ₹1,543 Cr) and short-term borrowings **₹1,248 Cr (₹811 Cr)**; trade payables ₹336 Cr. Liquid assets: cash ₹69 Cr + other bank balances ₹147 Cr + current investments ₹145 Cr ≈ ₹361 Cr → **standalone net debt ≈ ₹890 Cr** [E] (vs screener-basis ₹1,127 Cr consolidated and primer ₹615 Cr).
+- **Exports 62% of FY26 revenue**; country split (pie, alignment E): India 38%, China ~27%, Singapore ~25%, South Korea ~7%, others ~3%. **Top-5 customers 40.6%, top-10 51.6% of revenue**; 350+ customers; ~70% repeat revenue.
+- **Sourcing:** raw material from **120+ countries, 400+ suppliers; imports ~61% of FY26 raw material** (US and Brazil the largest origins); top-5 suppliers 42.6%, top-10 49.5% of import purchases; ~50% of raw material from scrap yards. BRSR: **61% of trading-house purchases from the top 10 (155 trading houses)**; 53% of sales through dealers/distributors (39), top-10 dealers = 100% of dealer sales.
+- **Related parties (BRSR):** purchases from related parties 0.00% (FY25 0.13%); sales 0%; loans to related parties 9% of loans (FY25 91%); investments 0.84% (9.29%). Tax demands are recorded in the names of predecessor/group entities Jain Metal Rolling Mills and Jain Recycling Pvt Ltd.
+- **Subsidiaries:** **Jain Green Technologies Pvt Ltd** (WOS; copper VAP; Unit 3 commissioned Mar-2026); **Jain CY Circular Solutions Pvt Ltd** (JV with C&Y Group Investments Inc, US; Ahmedabad); **Jain Ikon Global Ventures FZC** (70%, Sharjah gold refining from Aug-2024; discontinued w.e.f. 17-Apr-2025; held for disposal).
+- **Capacity:** 5 facilities (4 in Gummidipoondi/SIPCOT, Chennai, near Ennore and Kattupalli ports; Hosur = segregation), 45+ acres; authorised 3.29 lakh tpa; actual 2.4 lakh+ tpa. LME-registered lead brand "Jain 9997"; MCX-registered.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**4.3.1 LME prices — annual averages, US$/t (silver US$/oz) [V World Bank Pink Sheet CMO annual, nominal; 2026 = Westmetall monthly LME cash-settlement averages]**
+
+| Year | Copper | Aluminium | Zinc | Lead | Silver |
+|---|---|---|---|---|---|
+| 2020 | 6,174 | 1,704 | 2,266 | 1,825 | 20.5 |
+| 2021 | 9,317 | 2,473 | 3,003 | 2,200 | 25.2 |
+| 2022 | 8,822 | 2,705 | 3,481 | 2,151 | 21.8 |
+| 2023 | 8,490 | 2,256 | 2,653 | 2,136 | 23.4 |
+| 2024 | 9,142 | 2,419 | 2,776 | 2,069 | 28.3 |
+| 2025 | 9,947 | 2,632 | 2,868 | 1,962 | 39.8 |
+| **2026 Jan–Oct (Oct MTD)** | **13,541** | **3,305** | **3,539** | **1,908** | 73.2 (Q1 FY27 LBMA avg, VEDL deck) |
+| Dec-2025 (month) | 11,785 | 2,876 | 3,168 | 1,940 | 62.3 |
+| **23-Oct-2026 (cash settlement)** | **14,415** | **3,043** | **3,790** | **1,886** | — |
+
+**Quarterly LME cash averages, US$/t [V Westmetall; E averaging]** — useful for result previews:
+
+| Quarter | Copper | Aluminium | Zinc | Lead |
+|---|---|---|---|---|
+| Q4 FY26 (Jan–Mar 2026) | 12,852 | 3,195 | 3,243 | 1,931 |
+| Q1 FY27 (Apr–Jun 2026) | 13,324 | 3,576 | 3,463 | 1,955 |
+| **Q2 FY27 (Jul–Sep 2026)** | **14,121** (+6% QoQ) | **3,227** (−10%) | **3,830** (+11%) | **1,857** (−5%) |
+| Oct-2026 MTD | 14,524 | 3,055 | 3,784 | 1,852 |
+
+- Cross-check: VEDL's deck shows Q1 FY27 averages Zn $3,466, Pb $1,954, Cu $13,329 — matches the Westmetall-derived 3,463 / 1,955 / 13,324 within 0.1%.
+- Monthly 2026 cash averages (Jan→Oct): **Cu** 13,089 · 12,968 · 12,499 · 12,891 · 13,507 · 13,574 · 13,525 · 14,353 · 14,483 · 14,524. **Zn** 3,220 · 3,321 · 3,188 · 3,362 · 3,488 · 3,541 · 3,596 · 3,875 · **4,020 (Sep)** · 3,784. **Al** 3,148 · 3,065 · 3,370 · 3,601 · **3,670 (May)** · 3,459 · 3,156 · 3,250 · 3,277 · 3,055. **Pb** 1,998 · 1,916 · 1,880 · 1,923 · 1,991 · 1,951 · 1,844 · 1,855 · 1,871 · 1,852.
+- LME stocks 23-Oct-2026: copper 273,750 t; lead 322,175 t; zinc 167,025 t [V].
+- **Read for Q2 FY27 previews:** zinc +11% QoQ and silver near its highs → HZL/VEDL up (HZL already printed EBITDA +15% QoQ); aluminium −10% QoQ → VAML down (context only); lead −5% QoQ with a scrap shortage → recyclers' lead EBITDA/t depends on scrap discounts, not LME.
+
+**4.3.2 India imports of non-ferrous scrap and refined metal, FY25 → FY26 [V DGCI&S TradeStat, "commodity-wise all countries import", fetched 25-Oct-2026; quantities summed from country rows at 8-digit level]**
+
+| HS | Description | FY25 value $ m | FY26 value $ m | Δ | FY25 qty kt | FY26 qty kt | Δ | Top FY26 origins (kt) |
+|---|---|---|---|---|---|---|---|---|
+| 7602 / 76020010 | Aluminium waste & scrap / ISRI aluminium scrap | 3,930 | **4,551** | +16% | 1,812 | **2,028** | +12% | USA 439, UAE 203, UK 170, Saudi 159, Australia 92 |
+| 7404 | Copper waste & scrap (all) | 2,376 | **3,429** | +44% | 347 (sibling) | **467** (sibling) | +35% | — |
+| 74040012 | of which ISRI copper scrap (birch/cliff/berry etc.) | 1,447 | 2,447 | +69% | 211 | 315 | +49% | USA 101, Saudi 49, UAE 27 |
+| 7802 | Lead waste & scrap (78020010 + 78020090) | 328 | **419** | +28% | 175 | **205** | +17% | USA 56, UK 28, Australia 19 |
+| 85491100 | Spent lead-acid batteries & their scrap | 430 | **549** | +28% | 379 | **498** | +32% | USA 142, Yemen 49, UAE 44, Dominican Rep 35, Singapore 32 |
+| 7902 | Zinc waste & scrap | 172 | 252 | +46% | — | — | — | — |
+| 8549 | E-waste (all) | 430 | 553 | +29% | — | — | — | — |
+| 7801 / 78011000 | Unwrought lead / refined lead | 946 | **747** | −21% | 122 | **76** | **−38%** | UAE 25, Malaysia 24, Korea 13 |
+| 7901 / 79011100 | Unwrought zinc / SHG zinc ≥99.99% | 618 | **802** | +30% | 151 | **195** | +29% | Korea 137, Singapore 29, Japan 15 |
+| 7601 / 76011010 | Unwrought aluminium / non-alloy ingots | 1,057 | 1,335 | +26% | 63 | 135 | +114% | China 106 |
+| 7403 | Refined copper & alloys, unwrought | 2,387 | 2,768 | +16% | 279 (sibling FY26) | — | — | — |
+
+- **Lead feed arithmetic [E]:** FY26 imports of lead scrap (205 kt) + spent batteries (498 kt; ~60% recoverable lead ≈ 300 kt) ≈ **~500 kt of lead units**, vs Gravita's AR estimate of **~0.85 mt of Indian secondary lead output** → imports supply roughly 55–60% of the organised+informal secondary lead pool's feed, domestic batteries the rest. Meanwhile **refined-lead imports fell 38% to 76 kt**: domestic secondary lead is displacing imported refined lead.
+- **Zinc:** SHG zinc imports 195 kt (+29%, 70% from Korea) vs HZL's FY26 zinc sales of 851 kt → imports ≈ 19% of the HZL+import pool; consistent with HZL's "~74%" share of primary zinc [E].
+- **Gulf exposure:** UAE + Saudi = **18% of aluminium-scrap tonnage and 24% of ISRI copper-scrap tonnage** in FY26 [E] — the channel that the 2026 Hormuz closure disrupted (Gravita: Gulf = 15–20% of its imports).
+- Total Indian imports FY26 $775.7 bn (+7.6%); the five scrap lines above (7602, 7404, 7802, 85491100, 7902) = **$9.2 bn** [E].
+
+**4.3.3 Policy timeline (upgraded)**
+
+| Date | Instrument | Content | Source |
+|---|---|---|---|
+| Aug-2022 | Battery Waste Management Rules 2022 | EPR for battery producers; recovery targets; certificate trading on CPCB portal | [K date; V-snip content, Part 1] |
+| 2024 | BWMR amendments | EPR certificate price band 30–100% of EC; recycled-content mandate in new batteries from FY2027-28 | [V-snip, Part 1] |
+| 1-Feb-2025 | Union Budget 2025-26 | BCD on copper scrap → nil | [V-sib]; Gravita AR [V] |
+| **1-Jul-2025** | **HWM (Mgmt & Transboundary Movement) Amendment Rules 2025, G.S.R. 438(E)** | **New chapter: EPR for scrap of aluminium, copper, zinc**; producers' recycling targets **10% (2026-27) → 75% (2032-33)**; manufacturers' minimum domestic recycled content (Al products 5% from 2028-29 → 10% by 2031-32 per legal summary; Jain cites 5% from FY28 → 10%); registration of producers, recyclers, collection agents and bulk consumers (≥1,000 t/yr) on a CPCB portal; certificates valid 2 years; EC refunds 85/60/30% if compliance within 1/2/3 years | [V-snip corporateprofessionals, IEA]; Jain Q1 call & deck [V] |
+| **3-Sep-2025** | Cabinet approves **₹1,500 Cr critical-mineral recycling incentive scheme** (NCMM) | FY26–FY31; 20% capex subsidy + opex subsidy on incremental sales; per-entity caps ₹50 Cr (large) / ₹25 Cr (small); one-third for small/new recyclers; ≥270 kt capacity, ~40 kt critical minerals, ~₹8,000 Cr investment; feedstock e-waste, Li-ion scrap, catalytic converters | PMIndia/PIB [V-snip] |
+| 2-Oct-2025 | Scheme guidelines | — | [V-sib] |
+| **1-Apr-2026** | **Non-ferrous scrap EPR in force** | — | as above |
+| Jul-2026 | MRAI asks PMO to remove 2.5% BCD on aluminium scrap | — | [V-snip, Part 1] |
+
+**4.3.4 Credit ratings (Oct-2026) [V unless stated]**
+
+| Entity | Rating | Date / action |
+|---|---|---|
+| Vedanta Ltd | CRISIL AA+/Stable/A1+; ICRA AA+/Stable | CRISIL reaffirmed 16-Oct-2026 (upgraded Jul-2026); ICRA upgraded May-2026 |
+| Hindustan Zinc | CRISIL AAA/Stable/A1+ | — |
+| VAML / VOGL / VISL / Vedanta Power | CRISIL AA+ / AA+ / AA / AA+(CE)–AA- | per CRISIL VEDL rationale |
+| Vedanta Resources | S&P BB/Stable; Fitch BB/Stable; Moody's Ba3/Positive | VEDL Q1 release |
+| Gravita India | ICRA AA (upgraded from AA- in Q1 FY27); India Ratings AA- | Gravita Q1 call/deck |
+| Jain Resource Recycling | CRISIL AA-/Stable (from A+, 27-Aug-2026) | CRISIL rationale |
+
+**4.3.5 Global lens — replace two [K] rows**
+- **Aurubis (FY2024/25, Oct–Sep):** revenue **€18,171 m**; operating EBITDA **€589 m (3.2% of revenue)**; operating EBT €355 m; **operating ROCE 8.8%** (11.5% prior); FY25/26 guidance operating EBT €300–400 m, ROCE 7–9% [V-snip company release via search]. → Jain's 5.9% EBITDA margin / 26% ROCE vs Aurubis 3.2% / 8.8%: the Indian recycler earns ~3× the return on capital because it is asset-light (fixed assets ₹114 Cr vs ₹9,543 Cr revenue).
+- **Glencore (CY2025):** revenue **$247.5 bn**; adjusted EBITDA **$13.5 bn (5.5%)**; adjusted EBIT $5.98 bn; H2 EBITDA $8.1 bn (+49% vs H1) [V-snip Nasdaq/RTT]. Boliden, Teck, Umicore, Ecobat: still [K] — not re-fetched.
+
+## 4.4 Gap log (§H and §2.5 items)
+
+| §H / §2.5 item | Status | Detail / what was tried |
+|---|---|---|
+| H1 Current LME Al & Pb on a common date; LME annual series 2020–26 | **Filled** | 23-Oct-2026 settlement for all four metals; annual 2020–2025 (World Bank) + 2026 monthly (Westmetall) — 4.3.1 |
+| H2 NCLT order date | **Filled** | 16-Dec-2025 and 9-Jan-2026 (VEDL AR) |
+| H2 Cost-of-acquisition apportionment across the five entities | **Still open** | Not in the documents read; normally a separate Reg-30/tax-FAQ filing after the record date (not on screener's list; BSE API blocked scripted access) |
+| H2 Debt allocation per entity | **Partly filled** | ₹42,732 Cr net debt left with the demerged businesses; VEDL keeps ₹10,522 Cr (Mar-26). Per-entity split (VAML/VOGL/VISL/VEDPOWER) not in VEDL documents |
+| H3 VEDL Q1 FY27 segment EBITDA | **Filled** | Zinc India 8,096; ZI 250; FACOR 101; copper 11 |
+| H3 VEDL absolute net debt Jun-26 | **Filled** | ₹8,299 Cr (gross 28,291; cash 19,992) + entity table |
+| H4 Brand-fee amounts | **Filled (VEDL & HZL)** | VEDL→VRL group ₹2,727 Cr (standalone ₹2,408 Cr); HZL→VEDL ₹1,171 Cr. VAML/VOGL/VISL/Power brand fees FY26 not read (they were inside VEDL in FY26, so already inside ₹2,727 Cr) |
+| H4 HZL FY26 DPS / FY27-to-date | **Filled** | FY26 ₹10 (₹4,225 Cr); FY25 ₹29; FY27 1st interim ₹11 (₹4,648 Cr; record 30-Apr-2026) |
+| H4 VEDL FY26 DPS | **Filled** | ₹7 + ₹16 + ₹11 = ₹34 |
+| H5 VRL maturity ladder FY27–FY30; Sep-26 net debt | **Partly filled** | VRL net debt path to Jun-26 ($4.7 bn) and refinancing terms; VEDL's own LT maturities by year only as a garbled chart; CRISIL: VEDL FY27 repayments ₹7,200–7,250 Cr. VRL ladder and Sep-26 figure still open (VRL reports semi-annually; not fetched) |
+| H6 VEDL promoter pledge % | **Partly filled** | Negative lien over 99.99% of promoter shares for VRL's $1 bn facility (15-Jul-2026) [V-snip]; formal "pledged %" from the Sep-26 SHP not fetched (BSE SHP page blocked) |
+| H7 India consumption/production/imports for Zn, Pb, Al | **Partly filled** | Imports by HS code filled (4.3.2). Production: HZL figures; India secondary lead ~0.85 mt (Gravita AR). Ministry of Mines monthly summary not fetched (budget) |
+| H8 Lead-acid battery market size; informal share | **Partly filled** | India battery-recycling market ₹5,070 Cr FY26 (Gravita AR, company-cited); informal share still unsourced |
+| H9 Gravita FY26 volume; segment EBITDA/t; India vs overseas; EPR income; Vision 2030; QIP | **Mostly filled** | Q1 FY27 segment EBITDA/t and volumes; FY26 recycled 1.61 lakh t batteries + 20 kt Al + 15.5 kt tyres; Vision 2030 targets. **Open:** FY26 sales volume by segment (AR gives "2.13 lakh MTPA+" without a clear label), India/overseas split (deck chart garbled), EPR-certificate income (not disclosed), QIP size/date (not re-checked) |
+| H10 Jain tonnes by metal; export share; EBITDA/t; JGT; object clause; fire | **Filled** | All six (4.2.4) |
+| H11 Global peer multiples | **Partly filled** | Aurubis and Glencore fundamentals [V-snip]; multiples not fetched |
+| H12 Conflicts | **Resolved:** NCLT date; Jain FY25 revenue (basis); RMIL stake (date-stamped); VEDL Q1 EBITDA (use company); Gravita adjusted vs OP (hedging other income). **Open:** VAML Q2 board date 28 vs 30-Oct; VAML Q1 revenue basis; VAML EBITDA/t (context only) |
+| 2.5 VEDL PAT basis (company ₹5,294 vs screener ₹7,918) | **Re-diagnosed** | Gap is April-2026 discontinued operations, not minorities (both are pre-minority) — attributable figure to be taken from the Q2 results statement |
+| 2.5 Gravita founding family | **Filled** | Rajat Agrawal |
+| 2.5 Jain net debt | **Filled (three bases)** | consolidated screener ₹1,127 Cr; standalone ≈ ₹890 Cr [E]; CRISIL gearing 0.82× |
+| VEDL Q1 FY27 call transcript | **Still open** | Not filed in the screener-linked list; only an MP3 on the company site (blocked to scripts). Guidance digest built from release/deck |
+
+## 4.5 New insights and primer issues
+
+### 4.5.1 What an expert would add (not in Parts 1–3)
+1. **VEDL's record quarter was 99% price and rupee.** The company's own bridge attributes ₹4,157 Cr of the ₹4,202 Cr YoY EBITDA increase to "market & regulatory" (LME/prices +₹3,145 Cr; forex +₹1,012 Cr); volume (+₹293 Cr) and cost (−₹320 Cr) roughly cancelled. With silver at ~$73/oz and the rupee at ~₹94.6, the residual company is a **leveraged price-taker**: +$1/oz silver = ₹200–225 Cr, ₹1/$ = ₹350–375 Cr of annual EBITDA. Zinc India is **96%** of VEDL's EBITDA; copper (36% of revenue) contributes **0.1%**.
+2. **The fee-and-dividend plumbing is now quantifiable — and under ED scrutiny.** HZL pays VEDL 3% of turnover (₹1,171 Cr FY26, up from ₹658 Cr after the Apr-2025 renegotiation from 2%); VEDL group pays VRL up to 3% (₹2,727 Cr FY26), **in advance at the start of each year**. HZL's minorities (GoI 27.92% + public) bear 39% of the first leg. The **ED's FEMA searches (1–3-Jun-2026) reportedly concern these payments**; CRISIL flags it as a monitorable. Capitalising VEDL's own ₹2.4k Cr/yr fee at ~8× ≈ ₹19,000 Cr — about **half of the −₹38,664 Cr "non-HZL" value** the market implies.
+3. **Leakage to HZL minorities is visible in the cash-flow walk.** Q1 FY27 "dividends" of ₹1,826 Cr in VEDL's consolidated net-debt walk are exactly 39.29% of HZL's ₹4,648 Cr interim: consolidated cash fell, but the parent got 60.71%. HZL's interim record date (30-Apr-2026) fell one day before the demerger record date; because HZL stays with the residual company, VEDL's ~₹2,822 Cr share [E] accrues to residual VEDL either way; at consolidated level only the minorities' ₹1,826 Cr leaves the group, which is why it shows up as a separate outflow in the net-debt walk.
+4. **Promoter collateral is fully committed.** VRL's $1 bn facility (15-Jul-2026) carries negative liens over **99.99% of the promoter's VEDL shares**, and VEDL has pledged ~1.6% of HZL. A "pledge %" of zero on the SHP would understate encumbrance. Combined with the June block sale (1.66% at ₹291) and VRL's need for ~$1 bn+/yr of upstream cash, **promoter selling and higher payouts are structural, not opportunistic**.
+5. **VEDL keeps restructuring.** Real estate → VPPL (1:20) announced 30-Jul-2026, with an option to absorb Meenakshi Energy and Incab assets for VPPL shares — a classic related-party value-transfer risk for minority holders. Meanwhile capital goes to Zinc International ($600 m Gamsberg Ph2, now 500 ktpa; ZI CoP $1,898/t, i.e. ~2.2× Zinc India's ex-royalty cost), FACOR (330 ktpa smelter), copper rod mills (VCI, KSA) and a 3 mtpa zinc "vision".
+6. **The recyclers' 2026 problem is scrap logistics, not demand.** India's scrap imports *rose* in FY26 (aluminium 2.03 mt, copper 467 kt, spent batteries 498 kt, all double-digit), but the Gulf supplies a fifth to a quarter of key streams and the Hormuz closure hit H1 FY27: Gravita's lead tonnes −5% YoY, Jain's −12% YoY (−29% QoQ). Both report **higher lead EBITDA/t** (Gravita ₹24.2k vs ₹21.8k; Jain ₹18.7k vs ₹15.0k) — scarcity lets organised recyclers price up. Watch whether EBITDA/t holds when scrap normalises.
+7. **Jain is an export-oriented copper ingot converter, not an Indian VAP story yet.** 62% of FY26 revenue is exported (China/Singapore/Korea); copper sells at ~LME ($13.2k/t realised vs $13.3k LME in Q1); per-tonne margin depends on hedge timing (copper ₹38.5k → ₹13–14k → ₹31k/t over three quarters). The VAP lines (cathode, rod, busbar) only start in Q2–Q3 FY27, and new customers are "mostly different from existing segments". The FY26 CFO of −₹591 Cr was inventory (+₹777 Cr) and receivables (+₹338 Cr) — IPO money became metal stock.
+8. **Two policy regimes, two winners.** The **non-ferrous scrap EPR (in force 1-Apr-2026)** covers copper, aluminium and zinc — the metals Jain and RMIL sell — and adds certificate income plus mandated recycled content (5% → 10%). The **₹1,500 Cr recycling scheme excludes lead-acid and Cu/Al scrap** (it targets e-waste, Li-ion, catalytic converters): only Gravita's 6,000 tpa Li-ion plant is plausibly eligible, with a ₹50 Cr per-entity cap — immaterial to valuations. Gravita's two largest customers are **39% of revenue**, and lead is still **95% of its segment profit**; the copper pivot (RMIL ₹55k/t) is real but small (₹376 Cr revenue in Q1).
+
+### 4.5.2 New primer issues (append to the Part 3.4 list)
+
+**vedanta.html**
+- Add the **real-estate demerger** (VPPL, 1:20, board 30-Jul-2026; ~2,200 acres + 55,000 sq ft; possible Meenakshi Energy/Incab asset injection).
+- Replace "net debt/EBITDA 0.95×" with **net debt ₹8,299 Cr (gross ₹28,291 Cr; cash ₹19,992 Cr), 0.30×, Jun-26**; add the entity table (HZL net cash ₹5,572 Cr; VEDL-ex-HZL net debt ~₹13,870 Cr).
+- Replace the "~US$1.0 bn residual debt" with **$2.99 bn gross / $0.88 bn net; LT debt $1.12 bn standalone + $1.67 bn subsidiaries**; ₹42,732 Cr of net debt left with the demerged entities.
+- NCLT dates: **16-Dec-2025 and 9-Jan-2026**; board fixed 1-May-2026 on 20-Apr-2026.
+- Add Q1 FY27 segment EBITDA (Zinc India ₹8,096 Cr; ZI ₹250 Cr; FACOR ₹101 Cr; copper ₹11 Cr) and sensitivities (silver $1/oz = ₹200–225 Cr; ₹1/$ = ₹350–375 Cr).
+- VRL: **$1.75 bn** bonds (not $1.7 bn); S&P BB / Fitch BB / Moody's Ba3 positive; VRL net debt **$4.7 bn (Jun-26)**; $1 bn facility with negative lien on 99.99% of promoter shares.
+- Brand fee: **₹2,727 Cr group (₹2,408 Cr standalone) paid to VRL in FY26**, up to 3% of turnover, paid in advance; HZL pays VEDL 3% (₹1,171 Cr). Add the **ED FEMA searches (1–3-Jun-2026)**.
+- Promoter block: **23-Jun-2026, 1.66% at ₹291.36 (≈₹1,894 Cr)** — replace "~₹2,149 Cr".
+- Zinc International: ZI CoP $1,898/t (Q1 FY27) vs Zinc India $851; Gamsberg 33-year life; BMM Deeps end-of-life. Add the 3 mtpa zinc vision.
+
+**gravita-india.html**
+- Founder/Chairman: **Rajat Agrawal (MD & Chairman)**; CEO Yogesh Malhotra; CFO Sunil Kansal.
+- RMIL: **subsidiary from 12-Mar-2026 (98.95%, ₹559.08 Cr)**, 99.44% (₹561.84 Cr) by 7-May-2026, ~99.59% after the Oct-2026 rights issue; **RMIL FY26 revenue ₹1,040 Cr, EBITDA ₹82 Cr**.
+- Add Q1 FY27 segment EBITDA/t (lead ₹24,181; Al ₹25,175; plastic ₹10,197; copper ₹55,151) and the copper path (₹60k by FY27-end; ₹70–75k in 2–3 years; capacity ~60,000 tpa in 3 years).
+- Add **two largest customers = 38.9% of FY26 revenue** and **lead = 88% of revenue / 95% of segment profit (FY26)**.
+- Capacity facts: Mundra lead **1,45,100 tpa** (+80,300 in Feb-2026); Phagi 75,819 tpa; **6,000 tpa Li-ion plant at Mundra**; Kathua consolidated into Jaipur; **rubber expansion on hold**; utilisation ~52% (Q1 FY27), 70% (FY26).
+- Ratings: **ICRA AA** (upgraded Q1 FY27). Net debt ~₹150 Cr (Jun-26); WC ~95 days.
+- Gulf supplies **15–20% of imported scrap**; Q1 lead volume fell YoY; US scrap yards planned by FY27-end.
+
+**jain-resource-recycling.html**
+- FY25 revenue: keep both — **₹6,429 Cr continuing** vs **₹7,126 Cr incl. the discontinued Sharjah gold-refining subsidiary (Jain Ikon Global Ventures FZC, discontinued 17-Apr-2025)**; growth +48% vs +34%.
+- **JGT = Jain Green Technologies Pvt Ltd** (WOS, copper VAP); ₹150 Cr guarantees (Yes Bank ₹50 Cr, RBL ₹100 Cr).
+- **Exports 62% of FY26 revenue**; top-5 customers 40.6%; imports ~61% of raw material from 120+ countries.
+- Capacity: **authorised 3.29 lakh tpa** (Cu 83,042; Pb 1,84,000; Al 35,994; plastic 13,200; tin 500; Cu VAP 12,000); actual 2.4 lakh+; FY26 lead volume ~1.84 lakh t.
+- Project status: anode 1,600 t/month (both furnaces); cathode 1,500 t/m (Phase 1 Q2 FY27); rod 600 + busbar 1,500 t/m (Q3 FY27); antimony Q3 FY27; Ahmedabad JV with **C&Y Group** (72 kt feed → 25 kt products) in trial; Kuwait investment delayed; FY27 capex ~₹87 Cr.
+- **Unit-II furnace explosion 14-Jul-2026 (one fatality; ₹3.9 Cr loss, insured)**; **CRISIL upgrade to AA-/Stable (27-Aug-2026)**.
+- **Object-clause change = telecom infrastructure (optical-fibre laying)** — postal ballot to 15-Nov-2026.
+- Explain the FY26 CFO (inventory +₹777 Cr, receivables +₹338 Cr, standalone); standalone net debt ≈ ₹890 Cr; CRISIL gearing 0.82×.
+- Segment KPIs Q1 FY27: copper 14,679 t at ₹31,027/t; lead 32,150 t at ₹18,660/t; aluminium 2,201 t.
+
+**hindustan-zinc (context primer, if it exists)**
+- Brand fee is **3% of turnover from 1-Apr-2025** (₹1,171 Cr FY26), paid to VEDL, not VRL; FY26 dividend ₹10/sh (₹4,225 Cr), FY27 1st interim ₹11 (₹4,648 Cr); new CEO Amarendu Prakash; Q2 FY27 silver revenue ₹4,111 Cr; promoter-stake history (63.42% from Sep-2024, not Jun-2025).
+
+### 4.5.3 Source URLs (Part 4)
+- VEDL Q1 FY27 release + deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8b95ea1-9d39-4176-9a1a-15f1a2c5c4bd.pdf
+- VEDL real-estate demerger + reorganisation deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8b18e0e-4d21-46a7-916d-732b896b18ed.pdf
+- VEDL FY26 Annual Report: https://www.bseindia.com/xml-data/corpfiling/AttachHis/3725606c-05f5-40b2-b122-55c0a6e7bdd1.pdf
+- VEDL Gamsberg release 18-Oct-2026: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aaed1795-8536-4a26-b9f8-3bd126422055.pdf
+- CRISIL Vedanta 16-Oct-2026: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/VedantaLimited_October%2016_%202026_RR_407640.html
+- HZL Q2 FY27 release: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5a6fc55-e31c-4344-9d8c-ee9791e1a1de.pdf · deck: …Pname=9d28cec3-e812-4af2-b066-14920c33e5ec.pdf · FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/cbc28329-b172-488c-9dcd-71d786cd9053.pdf
+- Gravita Q1 FY27 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d02bd8e-65cb-49fa-a5ce-56b2c50af40c.pdf · transcript: …Pname=c7e9ab15-d4eb-46f5-b764-c4a12442d176.pdf · FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/45bb97fd-ed72-4260-bdea-c89e7ccd876b.pdf · RMIL rights 17-Oct: …Pname=649865c0-9c63-4060-bf8d-4ef48713ac79.pdf · Green Maputo 8-Oct: …Pname=f83f7fac-3a61-4527-bf4c-e0ff247530f8.pdf
+- Jain Q1 FY27 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be25c001-b588-4d33-a6da-1d7309189f65.pdf · transcript: …Pname=fe3477d9-c24a-4bca-beb7-c9657086bcc8.pdf · FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/da11566f-b19d-4c4c-bdb2-eeba2298e136.pdf · guarantee 16-Oct: …Pname=64d09b23-a35c-4ebd-ae31-991115253828.pdf · CRISIL 27-Aug-2026: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/JainResourceRecyclingLimited_August%2027_%202026_RR_402918.html
+- Screener: https://www.screener.in/company/VEDL/consolidated/ · /GRAVITA/ · /JAINREC/ · /HINDZINC/
+- DGCI&S TradeStat: https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_import (HS 7602, 76020010, 7404, 74040012, 7802, 78020010, 78020090, 85491100, 7902, 8549, 7801, 78011000, 7901, 79011100, 7601, 76011010, 7403; FY 2025-26)
+- World Bank Pink Sheet: https://thedocs.worldbank.org/en/doc/18675f1d1639c7a34d463f59263ba0a2-0050012025/related/CMO-Historical-Data-Annual.xlsx (and …Monthly.xlsx)
+- LME via Westmetall: https://www.westmetall.com/en/markdaten.php and …?action=averages&field=LME_Cu_cash (Zn, Al, Pb)
+- Policy: https://www.corporateprofessionals.com/regulatoryupdate/epr-framework-for-scrap-of-non-ferrous-metal-introduced-under-hazardous-and-other-wastes-management-and-transboundary-movement-rules-2016/ · https://www.iea.org/policies/28299 · https://www.pmindia.gov.in/en/news_updates/cabinet-approves-rs-1500-crore-incentive-scheme-to-promote-critical-mineral-recycling-in-the-country/
+- ED/FEMA: https://www.businesstoday.in/latest/corporate/story/ed-searches-vedanta-group-premises-in-fema-case-report-534384-2026-06-02 · https://moneylife.in/article/vedanta-faces-fema-probe-as-ed-searches-premises-over-multicrore-brand-fee-transactions-reports/80638.html
+- Promoter block/encumbrance: https://www.angelone.in/news/stocks/vedanta-share-price-falls-9-percent-after-promoter-twin-star-sells-1-8-percent-stake-worth-rs-1896-crore · https://filingreader.com/news-wire/mumbai/2026-07-18/vedanta-pledges-nearly-all-promoter-shares-for-1bn-loan
+- HZL FY27 interim: https://www.kotakneo.com/news/market-news/hindustan-zinc-dividend-record-date-april-30-2026/
+- Peers: https://www.aurubis.com/en/dam/jcr:d9520ffc-c965-47af-8fdc-e2901576d08d/Aurubis_Company%20Release_FY%202024_25.pdf · https://www.nasdaq.com/articles/glencore-turns-net-profit-fy25-adj-ebitda-down
+
+*End of Part 4.*
