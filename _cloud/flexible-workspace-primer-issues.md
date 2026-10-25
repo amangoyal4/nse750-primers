@@ -25,3 +25,33 @@
 - **awfis-space-solutions.html — IPO detail vague:** add **108× subscription, ₹128 Cr fresh issue (the only primary capital since listing)**, listed 30-May-2024 [K for date].
 - **General (all three primers):** none uses the companies' own rent-paid reconciliations side by side (WeWork IGAAP-equivalent, Smartworks normalised, Awfis normalised→cash), none notes that **the three definitions differ**, and none carries Q1 FY27 or the Q2 FY27 dates (WeWork ~26-Oct, Smartworks 30-Oct, Awfis TBA). Market data should move to CBRE H1/Q2 CY2026 (flex 27% of Q2 leasing; flex stock ~118 msf) and CBRE 9M CY2026 (66.4 msf; GCC 42%).
 
+
+## From Flexible Workspace deep-research pass (2026-10-25, flexible-workspace-industry.md §4.6)
+
+
+### From Flexible Workspace deep-research (2026-10-25, flexible-workspace-industry.md Part 4)
+
+- **wework-india.html — brand licence terms missing.** Add:
+  - OMA dated 30-Dec-2024 with WeWork International; 99 years conditional on Embassy/Virwani control.
+  - Fee a fixed % of revenue: 4.02% FY23 → 3.65% FY24 → 2.74% FY25 → 2.43% FY26.
+  - Embassy–1 Ariel Way Buyout Agreement (30-Jan-2025).
+  - (Prospectus pp. 314, 461; AR FY26 note 41.)
+- **wework-india.html — related-party exposure missing.** Add:
+  - ~₹240 Cr FY26 payments to Embassy entities (leases ₹77.9 Cr; Embassy Services housekeeping/R&M ₹127 Cr; CAM ₹23 Cr).
+  - Related-party purchases 38.9% of total.
+  - ₹100 Cr 18.5% ICD to Basal Projects (repaid Oct-2025).
+  - Pledge securing Embassy Buildcon NCDs of up to ₹2,065 Cr.
+- **wework-india.html — capex per desk.** Use the company KPI: ₹1,46,786 per desk / ₹2,363 per sq ft (FY25); ₹1,32,665 / ₹2,218 (Q1 FY26). FY27 capex guidance is ₹500–600 Cr.
+- **wework-india.html — customisation accounting change (Q1 FY27).** Large MO customisation is now amortised over the client term; run-rate ₹10–15 Cr a quarter vs ₹47 Cr in Q4 FY26. Explain the sequential VAS drop.
+- **smartworks-coworking.html — investor.** Replace "Keppel mid-teens" with: Space Solutions India Pte Ltd (formerly Lisbrine; Keppel Bay Tower address) **14.905% at Mar-26 (19.00% Mar-25)**, which sold ₹105 Cr in the IPO OFS (AR FY26 note 18.2; prospectus).
+- **smartworks-coworking.html — leases.** Consolidated lease liabilities **₹4,571.4 Cr** and RoU **₹3,696.4 Cr** (not the standalone ₹4,527.5 / ₹3,655.8 Cr); undiscounted rent ₹5,780 Cr (AR FY26 consolidated).
+- **smartworks-coworking.html — FY27 capex and pipeline.** Capex guidance ₹550–600 Cr. Fit-out ₹1,350/sq ft (+5%/yr). Eastbridge Vikhroli 8.15 lakh sq ft plus Eastside Pune in H2 FY27. C&W top-10 operators' share of flex leasing 74% (H1 2026).
+- **smartworks-coworking.html — peer set.** Add Table Space (FY26 revenue ₹2,262 Cr, 10.1 msf, DRHP Aug-2026), its closest enterprise-managed-office comparable.
+- **awfis-space-solutions.html — decline narrative.** ~60% of the 1-year fall happened Nov-25 to Mar-26 alongside peers; the Q1 FY27 result day was flat. Add the rising cash-rent intensity: lease cash outflow +67% in FY26 to ₹412 Cr, +53% in Q1 FY27; MA share down from 62% to 57%.
+- **awfis-space-solutions.html — history and guidance.** Ind AS 116-adjusted EBITDA FY23 ₹24.1 Cr / FY24 ₹90.7 Cr / FY25 ₹168 Cr / FY26 ₹213 Cr. FY27 capex ₹200–210 Cr. Transform gross margin 17–18%. Developer partnership (Malpani): Awfis funds ~50% of fit-out, 9-year terms.
+- **awfis-space-solutions.html — balance sheet.** Net cash at Mar-26 was **₹38.7 Cr** (AR), not the larger figures implied elsewhere; ₹45 Cr at Jun-26. IPO: ₹598.9 Cr at ₹383 (fresh ₹128 Cr; OFS by Peak XV ₹253 Cr, Bisque ₹214 Cr, Link ₹3 Cr) — prospectus. Peak XV sold a further 12.2 lakh shares at ₹245 in Oct-2026.
+- **All three primers — market data.**
+  - CBRE flex share series is 5/8/12/16/18/21% (2017/19/21/23/24/25), 27% Q2 CY26, 24% Q3 CY26. Note that C&W puts Q3 at 16%.
+  - Flex stock ~118 msf (H1 CY26) vs CBRE's 2027F of 140–144 msf; CRISIL 140–145 msf by FY28.
+  - Global comp IWG: 4,609 centres, $4.45 Bn system revenue, $531 Mn adjusted EBITDA (FY25).
+
