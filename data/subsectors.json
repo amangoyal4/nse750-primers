@@ -1957,6 +1957,23 @@
         "Refex and refrigerants"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Ports",
+      "slug": "ports",
+      "file": "ports.html",
+      "sector": "Logistics",
+      "subsector": "Port & Port services",
+      "companies": 3,
+      "accent": "#3B5BDB",
+      "hook": "Slow tonnes, fast rupees, ticking leases: why India's cargo grows ~4% a year while Adani Ports, JSW Infrastructure and Gujarat Pipavav grow revenue 20–26%, what EBITDA per tonne and concession life really measure, and how the Gujarat leases, Vizhinjam and the 2026 West Asia war reshape the sector.",
+      "tags": [
+        "Concession clock",
+        "Containers & transhipment",
+        "West Asia stress test",
+        "Port KPI masterclass"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -2612,7 +2629,7 @@
       "sector": "Logistics",
       "sub": "Port & Port services",
       "companies": 3,
-      "report": null
+      "report": "ports.html"
     },
     {
       "sector": "Logistics",
