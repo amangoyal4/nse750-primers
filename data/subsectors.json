@@ -1838,6 +1838,23 @@
         "EVs and CAFE III"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Footwear",
+      "slug": "footwear",
+      "file": "footwear.html",
+      "sector": "FMCG",
+      "subsector": "Footwear",
+      "companies": 4,
+      "accent": "#087F5B",
+      "hook": "More rupees per pair, not more pairs: how BIS quality orders and GST 2.0 are walling off India's informal two-thirds, why Relaxo sold fewer pairs at higher prices while Campus grew volume, what Ind AS 116 hides at Bata, and what Redtape's rebates and inventory really mean.",
+      "tags": [
+        "QCOs + GST 2.0",
+        "Pairs vs price",
+        "Bata's Ind AS 116 margin",
+        "Redtape's model"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -2229,7 +2246,7 @@
       "sector": "FMCG",
       "sub": "Footwear",
       "companies": 4,
-      "report": null
+      "report": "footwear.html"
     },
     {
       "sector": "FMCG",
