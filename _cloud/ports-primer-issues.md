@@ -58,3 +58,9 @@
 - **Revenue mix:** containers 60–65% of revenue, USD-priced (₹9,500–10,000/TEU); Maersk ~17% of revenue [call; CRISIL]. (§03)
 - **FY26 containers underperformed the coast:** −4% vs west-coast ports +9% (19.04m TEU) [AR]. (§04)
 
+
+## primer-audit.mjs (2026-10-25) — pre-existing hard-check fails (not fixed; primers are out of scope)
+- **adani-ports.html** — ❌ banned phrase(s) and "honest" used more than once; no `main{min-width:0}` (phone overflow risk). Refreshed 2026-06-30.
+- **jsw-infrastructure.html** — ❌ banned phrase(s); no `main{min-width:0}`. Refreshed 2026-06-30.
+- **gujarat-pipavav-port.html** — hard checks pass; no `main{min-width:0}`. Refreshed 2026-07-27.
+- None of the three primers links to any sub-sector report (0 report links); add a link to subsectors/ports.html once published.
