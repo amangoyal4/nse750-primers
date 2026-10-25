@@ -1,6 +1,6 @@
 # Railway Wagons — primer issues
 
-### From Railway Wagons research (2026-10-25, railway-wagons-industry.md §3.4)
+## From Railway Wagons research (2026-10-25, railway-wagons-industry.md §3.4)
 
 - **titagarh-rail-systems.html — FY26 revenue headline wrong:**
   - The cover stat strip, the "What's new" box and §11 say "~₹3,868 Cr Revenue (FY26)". **₹3,868 Cr is FY25**; **FY26 is ₹3,186 Cr** (screener consolidated; four quarters 679 + 799 + 832 + 875; company segment sum 2,615 + 539 + 32).
@@ -60,3 +60,4 @@
 - **texmaco-rail.html — odd phrasing:** "India's largest wagon-maker after Jindal Rail" (in the value-chain box) contradicts the headline "India's biggest wagon-maker" and the fact that Jindal Rail is now Texmaco West. Fix to "India's largest wagon-maker (including the ex-Jindal Rail unit)".
 - **texmaco-rail.html — valuation stale:** m-cap ~₹4,450 Cr → **₹4,008 Cr**; P/E ~20× → **18.5×**.
 - **All three primers — the "wheelset" story should cite the IR mandate.** Wheelsets for IR-ordered wagons must come from IR's RWF/RWP. Private and export orders can import. That is why FY26 hit IR-heavy books hardest (Titagarh, Texmaco) and why the private-order pivot also eases the wheel constraint.
+- **All three primers — industry production figures:** use PIB production (FY23 22,790; FY24 37,650; FY25 41,929) vs the Budget IR additions (FY25 29,889 achieved; FY26 RE 26,000; FY27 BE 32,000). Do not mix them.
