@@ -1889,6 +1889,23 @@
         "Small-town fashion arms race"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Railway Wagons & Rolling Stock",
+      "slug": "railway-wagons",
+      "file": "railway-wagons.html",
+      "sector": "Automobile & Ancillaries",
+      "subsector": "Railway Wagons",
+      "companies": 3,
+      "accent": "#495057",
+      "hook": "One buyer, one bottleneck, three escapes: how Indian Railways' tender calendar drives Titagarh, Jupiter and Texmaco, why a wheelset shortage cut FY26 wagon output by a fifth despite record order books, and how each maker is escaping into passenger cars, components or exports.",
+      "tags": [
+        "The wheel is the wagon",
+        "Three escape routes",
+        "Order books that aren't what they seem",
+        "The ₹700 crore question"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -1944,7 +1961,7 @@
       "sector": "Automobile & Ancillaries",
       "sub": "Railway Wagons",
       "companies": 3,
-      "report": null
+      "report": "railway-wagons.html"
     },
     {
       "sector": "Automobile & Ancillaries",
