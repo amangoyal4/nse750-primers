@@ -1974,6 +1974,23 @@
         "Port KPI masterclass"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Diversified Metals & Recycling",
+      "slug": "diversified-metals",
+      "file": "diversified-metals.html",
+      "sector": "Non - Ferrous Metals",
+      "subsector": "Diversified Metals",
+      "companies": 3,
+      "accent": "#9C36B5",
+      "hook": "One price boom, opposite margins: how the 2026 metal rally doubled residual Vedanta's profit (now a holdco on Hindustan Zinc's zinc and silver after its five-way demerger) while squeezing Gravita's and Jain's recycling spreads, and why EPR rules, scrap imports and working capital decide who wins.",
+      "tags": [
+        "What is Vedanta Ltd now?",
+        "Two storeys of debt, five taps",
+        "The battery loop",
+        "Copper changes the recycler"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -2683,7 +2700,7 @@
       "sector": "Non - Ferrous Metals",
       "sub": "Diversified Metals",
       "companies": 3,
-      "report": null
+      "report": "diversified-metals.html"
     },
     {
       "sector": "Non - Ferrous Metals",
