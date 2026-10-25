@@ -1225,3 +1225,663 @@ Shares of the total:
 - Linde plc FY25: businesswire 5-Feb-2026 (403 on fetch), seekingalpha pr/20389035 [V-snip]
 - Dholera gases: energetica-india (INOXAP Dholera; INOXAP–ReNew), chemindigest [V-snip]
 - Oxygen prices: intratec.us (India industrial oxygen price), expertmarketresearch (bulk oxygen) [V-snip]
+
+---
+
+# PART 4 — Deep-research supplement (25-Oct-2026)
+
+Second-pass, primary-source review of Parts 1–3, following `_cloud/ref/brief-deep-research.md`. About 68 web calls. Raw extracts and notes are in the scratchpad (`industrial-gases-deep/notes.md`).
+
+**Tags in Part 4**
+- **[V]** = fetched and read this session from the named primary document: company filing, annual report, RHP/DRHP, results iXBRL, BRSR, PIB release, TradeStat query, or the issuer's own release.
+- **[V-snip]** = search-result summary or secondary article only.
+- **[K]** = memory. **[E]** = my arithmetic or estimate.
+- Screener counts as [V] for company financials only.
+
+**Primary documents used (all fetched 25-Oct-2026)**
+
+*Ellenbarrie (company site, ellenbarrie.com/investors)*
+- Q1 FY27 earnings-call transcript (call 10-Aug-2026; filed 13-Aug).
+- Q1 FY27 investor presentation (filed 7-Aug-2026).
+- FY26 Annual Report (filed Sep-2026).
+- Jun-2025 RHP, including the Frost & Sullivan "Global Market Overview of the Industrial Gases" (3-Jun-2025).
+- Q1 FY27 results; BHEL contract disclosure (28-Sep-2026); Jai Balaji ASU commissioning disclosure (25-Sep-2026); CRISIL rating letter (28-Sep-2026).
+
+*Linde India*
+- NSE iXBRL "integrated filing" of FY26 audited results (board 30-May-2026). It carries the full consolidated P&L, the segment note and the company's own RPT/SEBI/SAT/Supreme Court note.
+- FY26 BRSR (filed 20-Jul-2026; part of AR 2025-26).
+- FY25 Annual Report (assets.linde.com): related-party note, auditor's report, contingent liabilities, commitments.
+- Linde group release of 24-Oct-2024 on the Tata Steel ASUs (linde.in).
+- **Linde India does not host earnings calls or publish investor presentations.** No Q1 FY27 call exists. Its FY26 AR and the Q1 FY27 results PDF could not be reached: assets.linde.com file names unknown, the investor site is blocked by the proxy, and BSE's API returns "Access Denied".
+
+*Refex (company CMS API, refex.co.in/api/cms/investors/...)*
+- Q1 FY27 earnings-call transcript (30-Jul-2026).
+- Q1 FY27 investor presentation (29-Jul-2026).
+- FY26 Annual Report (24th AR).
+- Q4 FY26 call transcript (27-May-2026).
+
+*INOX Air Products*
+- **Draft Abridged Prospectus filed with SEBI (dated 30-Sep-2026; SEBI listing 5-Oct-2026).** INOXAP is going public through a pure OFS. Parts 1–3 did not know this.
+
+*Government and global*
+- PIB: steel bulletin 24-Jul-2026; National Green Hydrogen Mission (NGHM) reply 3-Feb-2026; Economic Survey PSA-plant narrative 31-Jan-2023.
+- TradeStat EIDB import queries by HS code (FY25 vs FY26).
+- Linde plc 4Q25/FY25 earnings-release tables.
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Where in Parts 1–3 | Old | New | Source |
+|---|---|---|---|---|
+| 1 | §0, §5.1, H2 | Shares "Linde ~26% (both Linde entities), INOXAP ~25%, Air Liquide ~7%" (old gasworld via primer) | **F&S FY24, revenue basis: Linde India Ltd 27.49%, INOXAP 25.71%, Air Water India 10.74%, Air Liquide 2.72%, Ellenbarrie 2.68% (FY25 2.85%).** CRISIL puts **INOXAP at 22.4% in FY26** and calls it "largest … by revenue". The 27.49% is **Linde India Ltd alone** (₹2,769 Cr incl. PED ÷ ~₹10,070 Cr market), not Linde India + Praxair India | [V] Ellenbarrie RHP pp.179–180 (F&S); [V] INOXAP DRHP abridged prospectus |
+| 2 | §0, §2.1, D1 | Market "₹13,400 Cr (Ken $1.41 bn 2025)" with conflicting IMARC/TechSci | **Keep ~₹13,400–13,500 Cr, now triangulated.** CRISIL (via INOXAP DRHP): INOXAP's ₹3,033.9 Cr = 22.4% ⇒ **India market FY26 ≈ ₹13,545 Cr**. F&S: **$1.31 bn CY2024** (≈₹10,070 Cr FY24 implied by its share table), **~7.5% CAGR 2024–28**. CRISIL forecast **9–12% CAGR FY26–32**. Drop IMARC's $3.81 bn and TechSci's $3.06 bn | [V] DRHP; [V] RHP; [E] arithmetic |
+| 3 | §1.1, §2.2, E-series | Ken Research's 23.3% steel / 9.8% healthcare / 35.9% oxygen treated as independent | These **match F&S (RHP) to the decimal** (steel 23.3%, healthcare 9.8%, O₂ 35.9%; also chemicals 16.3%, manufacturing 12.9%, F&B 9.2%, O&G 6.1%). Ken's $1.31 bn 2024 base = F&S. **Same source family, one source.** | [V] RHP p.149; Ellenbarrie Q1 FY27 deck slide 20 |
+| 4 | §0, §5.2, §9.2, E10, F | INOXAP "PAT margin 30–34%, EBITDA 44–50% (FY21–24)"; "latest FY23 ₹2,197 Cr" | **INOXAP FY24/FY25/FY26:** revenue ₹2,589.9 / 2,789.8 / **3,033.9 Cr**; EBITDA ₹1,331 / 1,520 / **1,648 Cr**; **EBITDA margin 48.0 / 49.9 / 51.3%** (on total income); **PAT ₹765.7 / 880.9 / 913.9 Cr = 27.6 / 28.9 / 28.4%** of total income; adjusted ROCE 30.2 / 27.6 / 24.5%; net cash ₹964 / 641 / 850 Cr. F&S (on revenue): EBITDA 47.5 / 50.1 / 45.5 / 44.3% for FY21–24 | [V] DRHP; [V] RHP p.178 |
+| 5 | §4.3, §5.1 | INOXAP "5,058 TPD liquid, 57 locations" (Ken, unnamed) | **INOXAP FY26: on-site 16,074 TPD + merchant 5,106 TPD**, 57 locations in 15 states + 1 UT, 739 owned tankers, 1,679 bulk installations, >3,000 customers. Top-5 customers 25.9% of revenue. FY24: 12,280 / 4,425 TPD | [V] DRHP KPI table |
+| 6 | §5.2 | INOXAP "unlisted; any Air Products stake change would be major (not observed)" | **INOXAP filed for an IPO (pure OFS of up to 77,156,663 shares of ₹1 FV).** Sellers include **Prodair Corporation (Air Products) 38.58 m** plus INOX-family entities. BRLMs Kotak, Citi, I-Sec, JP Morgan. **The scarcity premium argument (§A5) is about to weaken.** | [V] SEBI abridged prospectus (promoters, CRISIL share); [V-snip] taxguru/Kotak Neo (share counts by seller, BRLMs) |
+| 7 | §2.1 bottom-up | INOXAP ₹3,000–3,500 Cr [E]; Air Liquide India ₹1,000–1,500 Cr [E]; TNSC/Air Water/regionals ₹2,500–3,500 Cr [E] | **INOXAP ₹3,034 Cr (FY26) [V]. Air Water India ₹1,082 Cr, Air Liquide India Holding ₹274 Cr, Taiyo Nippon Sanso India ₹208 Cr, Goyal MG ₹175 Cr (all FY24) [V F&S].** Air Liquide India is far smaller than assumed | [V] RHP Table 5.2-1 |
+| 8 | §7.2 step 6; §3.4 Linde chronology | "2025: SEBI (WTM Bhatia) passes a fresh order" | **SEBI's final order is dated 24-Jul-2024.** It sets RPT materiality on aggregate per related party per year, and directs NSE to appoint a registered valuer for business "foregone/received" under the 24-Mar-2020 JV&SHA. **Appeal to SAT 5-Aug-2024 → SAT dismissed 5-Dec-2025 → appeal to Supreme Court 16-Dec-2025 → SC admitted it 16-Jan-2026 with no stay** (SC to be informed before any action on valuation) → **NSE valuation report dated 16-Mar-2026, received 24-Mar-2026** → company's interlocutory application (IA) in the SC 1-Apr-2026 seeking no SEBI action, not yet heard → further SEBI summons 9-Apr and 28-Apr-2026, reply 19-May-2026 | [V] Linde India FY26 results iXBRL note (iii)(A)/(B) |
+| 9 | §7.2 step 4 | "Apr-2024 SEBI interim order" | **Interim ex-parte order 29-Apr-2024.** It was preceded by SEBI summons to the MD and CS (Oct-2023) and to independent directors (Jan-2024), and by Bombay HC writs by the company and all three IDs | [V] same |
+| 10 | §2.1 Linde "corporate events", §2.5, §12 | "Status of Praxair transactions after the vote: unknown" | **After the 5-Mar-2026 EGM defeat, "the Company had not carried out any related party transactions with Praxair India for the balance period of the financial year."** Management "is not in a position to estimate the impact of the Valuation Report" | [V] same |
+| 11 | §0, §4.2(d), §9.2, D2 | Linde FY26 OPM 36% presented as clean | **FY26 expenses are net of a ₹90 Cr reversal of liabilities** ("change in certain contractual arrangements and related management reassessment"). **Underlying FY26 OP ≈ ₹819 Cr, OPM ≈ 32.4%.** The Sep-25 quarter's 44% OPM most likely carries it [E] | [V] iXBRL note (iv); [E] |
+| 12 | §4.2(d), §9.3 | Linde "other income ₹74 Cr" (incl. ₹55 Cr in Dec-25) | Reported other income is **₹18.2 Cr**. The rest is **share of JV profit ₹55.5 Cr**, almost all in Q3 FY26, when **Bellary Oxygen Co was reclassified from held-for-sale to a JV**. Screener lumps both together | [V] iXBRL P&L and note (ii) |
+| 13 | §C.3, F | Gases EBITDA margin "~40–41%" [E]; external PED ≈ ₹403 Cr at 10–15% | **Segment PBIT FY26: Gases ₹641.9 Cr on gross ₹2,128.2 Cr (30.2%); PED ₹118.8 Cr on gross ₹980.6 Cr (12.1%); inter-segment ₹578.2 Cr.** Adding back ~₹215–230 Cr of D&A (mostly gases [E]) gives gases EBITDA ≈ 40% [E]. That figure includes the ₹90 Cr reversal if it was booked in gases | [V] iXBRL segment table |
+| 14 | §4.1, §9.1, F (power) | Power "~24% of revenue for one major (Ken)"; merchant 35–45% [E]; Linde/Ellenbarrie "n/d" | **Linde India power & fuel ₹417.4 Cr = 16.5% of FY26 revenue (Q4 21.3%). Ellenbarrie power ₹73.7 Cr = 21.6% of FY26 revenue** (FY25 24.0%, FY24 28.8%, FY23 36.1%; Q1 FY27 22.3%) | [V] iXBRL; [V] Ellenbarrie deck and RHP |
+| 15 | §4.3, §9.1, 2.2 KPIs | Ellenbarrie "~1,600 TPD (900 merchant + 700 on-site) → ~2,350 TPD" | **Q1 FY27 deck plant table: bulk 915 TPD** (Uluberia-I 115, Uluberia-II 220, Parawada/Vizag 170, Jadcherla 130, Kurnool 260, Kharagpur 20) **+ on-site 1,018 TPD** (Kharagpur 204 + 154, Kurnool 340, East India 320) **= 1,933 TPD.** The NMDC Nagarnar 2 × 1,250 TPD O&M contract is excluded. Next: North India bulk 220 TPD plus a West-Central bulk plant, ~450–500 TPD combined for both | [V] deck slides 5, 13, 29; [V] call |
+| 16 | Q2 status table; §0; §2.2 | "East-India on-site 320 TPD ready, revenue from Q2" | **Jai Balaji Industries, Durgapur: 325 TPD ASU under a 15-year take-or-pay BOO agreement (signed 14-Feb-2025), commissioned 25-Sep-2026**, revenue from Sep-2026 | [V] Reg-30 disclosure 25-Sep-2026 |
+| 17 | Q2 status table, trap 6 | BHEL "1,200 TPD ASU, Odisha coal-to-AN, commissioning FY29" | **Turnkey design-to-handover of a 1,200 TPD cryogenic ASU for BHEL's 2,000 TPD Coal-to-Ammonium-Nitrate project at Bandhabal, Jharsuguda (Odisha); ₹480.73 Cr ex-GST; execution period 24 months** from 28-Sep-2026 (i.e. ~Sep-2028, early FY29). Not a related party | [V] Reg-30 disclosure 28-Sep-2026 |
+| 18 | trap 7, §3.3 | Ellenbarrie FY25 revenue ₹312 Cr vs ₹348 Cr — "unresolved" | **Resolved: revenue from operations ₹312.5 Cr; total income (incl. ₹36.0 Cr other income) ₹348.4 Cr.** The primer used total income | [V] deck slide 24; AR |
+| 19 | §3.3, primer issue | Ellenbarrie FY26 EBITDA "~₹130 Cr/38%" (primer) vs screener ₹117 Cr | **Company-basis EBITDA FY26 ≈ ₹116–117 Cr (34%)**: revenue ₹341.6 Cr less operating costs, with impairment of ₹0.4 Cr. Screener is right; the primer's ₹130 Cr is wrong | [V] deck P&L; [E] arithmetic |
+| 20 | §6 insight; §9.1 | Ellenbarrie "~55% merchant / ~45% on-site by capacity" | **By capacity 47% bulk / 53% on-site** (915 / 1,018). **By revenue on-site is small: 2.7% (FY23) → 4.4% (FY24) → 15.6% (FY25) of gas revenue, and ~₹14 Cr of ~₹84 Cr (~17–20%) in Q1 FY27.** On-site TPD bills far less revenue per tonne (customer-paid power; lease-cum-O&M model) | [V] RHP p.182; [V] call |
+| 21 | §2.2 balance sheet, §3.2(c) | Ellenbarrie "investments ₹397 Cr, net cash ₹213 Cr" | **The treasury is riskier than "IPO cash parked".** At 31-Mar-26: AIFs ₹197.6 Cr (₹154.7 Cr of it Level-3), bonds/debentures ₹159.8 Cr, MFs ₹29.2 Cr, other bank balances ₹70.9 Cr, **loans ₹55.5 Cr to body corporates/others (₹47.5 Cr secured by pledged listed securities)**, plus a further ₹55.7 Cr committed to AIFs. Borrowings ₹180.1 Cr. Unused IPO money ₹68.1 Cr (Uluberia-II ₹47.8 Cr, GCP ₹20.3 Cr) | [V] AR notes 8, 40, 43 and Directors' Report |
+| 22 | trap 8, §2.3, §3.3, H11 | Refex FY26 PAT ₹204 (screener) vs ₹242/247 (primer) — "unresolved" | **All three are correct on different bases: consolidated total ₹203.7 Cr (owners ₹203.4 Cr) = consolidated continuing ₹242.4 Cr − discontinued loss ₹38.7 Cr. Standalone continuing ₹247.2 Cr.** Discontinued = mobility (EV loss ₹38.2 Cr EBIT) + refrigerant + power trading | [V] Refex FY26 AR consolidated P&L; [V] Q1 FY27 deck |
+| 23 | trap 1, §6, E9, §3.4 | Refex FY26 mix "ash 58%, wind 17%, other 17%, mobility 7%, refrigerant 1%" (screener key points) | **Screener key points are wrong. AR segment note (₹ Cr): ash & coal 2,012.7 (88% of continuing revenue ₹2,276.7); wind 237.5 (10%); sale of service 14.9; solar 10.4; others 1.3. Discontinued: mobility 99.5, refrigerant 34.6, power trading 0.8.** Segment EBIT: ash ₹353.8 Cr (17.6%), wind ₹2.2 Cr, solar ₹4.4 Cr, EV −₹38.2 Cr. **The primer's ash ~₹2,013 Cr and wind ~₹233 Cr were right** | [V] AR Note 42 |
+| 24 | §2.3 governance, H11, G | Madras HC tax demand "₹35.7 Cr or ₹357 Cr" | **₹35.67 Cr (₹3,567.21 lakh), AY2016-17**, assessment order of 31-May-2023 **quashed by Madras HC 28-Apr-2026**. Still pending at CIT(A): **AY2019-20 ₹46.3 Cr** and **AY2021-22 ₹11.4 Cr** (purchase/cash-credit disallowances) | [V] AR litigation note |
+| 25 | trap 8, §2.3 | "₹130.69 Cr warrant forfeiture reported in Q1 FY27, probably capital reserve" | **1,11,70,000 warrants lapsed and were forfeited on 7-May-2026** (after FY26). The 25% upfront money (₹130.69 Cr) was retained and "accounted for in accordance with applicable accounting standards". **It is not in Q1 FY27 P&L** (standalone PAT ₹73.6 Cr is clean of it). Of the ₹905.44 Cr preferential issue, ₹513.38 Cr was received and **₹392.07 Cr was never called** | [V] AR Directors' Report and IPO-proceeds note |
+| 26 | §2.3 governance, G | SEBI ₹10 lakh penalty on CMD "reported 15-Dec-2025" | **SEBI order dated 12-Dec-2025** (alleged insider-trading breach in 2023). **SAT stayed recovery on 13-Feb-2026.** IT search ran **9–13 Dec 2025**; final order still awaited | [V] AR secretarial note |
+| 27 | §2.3 KPIs | Refex customer concentration "NTPC/JVs, state gencos…" | **NTPC 28% and IL&FS Tamil Nadu Power 12% of consolidated revenue (FY26).** Corporate guarantees for subsidiaries **₹509 Cr** (FY25 ₹46 Cr), i.e. the Venwind build-out | [V] AR Note 42 and contingent note |
+| 28 | §3, §7.4, E | NGHM "412 ktpa + 1.5 GW allocated" | **PIB 3-Feb-2026: green-H₂ production incentive awarded to 18 companies for 8,62,000 tpa; electrolyser PLI 15 companies for 3,000 MW/yr (₹4,440 Cr); refinery GH₂ procurement 20,000 tpa (2 companies); SECI discovered prices for 7,24,000 tpa of green ammonia for 13 fertiliser units; ISTS waiver 25 years for plants commissioned by 31-Dec-2030** | [V] PIB PRID 2222471 |
+| 29 | §3 (healthcare), §7.4 | "PM-CARES funded ~1,200+ PSA plants" | **4,135 PSA plants (4,127 commissioned at 28-Dec-2022) adding ~4,852 MT of O₂ capacity:** PM-CARES 1,225; central PSUs 283; foreign aid 53; state/CSR 2,574. Plus 4.03 lakh cylinders supplied | [V] PIB 31-Jan-2023 (Economic Survey) |
+| 30 | §3, §7.4 | "10 ISM projects, ~$18 bn" | **12 projects approved, ~₹1.64 lakh Cr (May-2026)**, incl. Tata–PSMC Dholera fab ₹91,526 Cr. Semicon 2.0 outlay ₹1,27,500 Cr (Jul-2026) | [V-snip] PIB search results (pages not opened) |
+| 31 | §3, E13 | Steel capacity 221.9 Mtpa (Jun-2026, JPC via BigMint) | **222.0 Mtpa** (top-7 producers 117.4; others 104.6); **Q1 FY27 crude 42.1 Mt (+3.0%)**; finished-steel consumption 41.6 Mt (+8.3%); imports 2.06 Mt (+49%, China 32%) | [V] PIB 24-Jul-2026 |
+| 32 | §10, E10–E11 | Linde plc EBITDA "~38–40% [K/E]"; Air Liquide "~€27 bn [K]"; Air Products "~$12 bn [K]" | **Linde plc 2025: sales $34.0 bn; OP $8.9 bn (26.3%); adj OP 29.8%; EBITDA $12.84 bn (37.8%); adj EBITDA $13.35 bn (39.3%); ROC 24.2%** [V]. Air Liquide 2025: €26.94 bn, OIR €5.58 bn (20.7%), ROCE 10.7% [V-snip]. Air Products FY25: $12.04 bn, adj op margin 23.7% [V-snip] | [V] Linde 4Q25 tables; [V-snip] airliquide.com / SEC ARS |
+| 33 | §5.3, H8 | "HS 2804, 2811, 2903: no trade values" | **TradeStat FY26 imports: 2804 total ₹4,177 Cr, but it is dominated by silicon (2804.61/69), not gases.** Gas lines: **2804.29 rare gases/helium ₹394 Cr** (Qatar ₹160 Cr); **argon 2804.21 ₹9 Cr** (₹53 Cr FY25); O₂ ₹5.8 Cr; N₂ ₹10.6 Cr; H₂ ₹0.9 Cr. HFCs: **2903.45 (HFC-134a) ₹385 Cr (+56%)**; 3827 HFC blends ₹296 Cr (+79%); 2903.42 (R-32) ₹94 Cr | [V] TradeStat queries |
+| 34 | §7.1, §7.4 | Medical-O₂ GST "12% → 5% … verify" | **5% since the Sep-2025 GST rationalisation** (56th Council moved "oxygen" with medicines from 12% to 5%) | [V-snip] taxscan; PIB not fetched |
+| 35 | §G CY2019, §8 | Linde CY2019 other income ₹862 Cr "most likely post-merger transfers [E]" | Consistent with the post-merger **sale of Linde India's South India business to Air Water (US$194 m, 2019)**. Air Water also bought Praxair India's East India O₂/N₂/Ar business. Attribution remains [E], but the sale itself is [V F&S] | [V] RHP p.146 |
+| 36 | §4.3, §9.1 | Linde India capacity "n/d" | Still no TPD figure, but **24 plants** (BRSR FY26) and implied **~5.7 Mt/yr of gas sold** (BRSR energy intensity 0.0012 TJ/t on 6,877 TJ; water 0.45 kL/t). That is ~15,700 t/day incl. pipeline gas and **~325 kWh per tonne blended** [E] | [V] BRSR; [E] |
+| 37 | §2.1 Linde; Q2 table | Implied that Linde India holds results calls/presentations | **Linde India holds no earnings calls and publishes no investor deck.** Guidance digests must use filings, AGM material and notes to accounts | [V-snip] quartr (AI summary only); company site |
+| 38 | §0, §5.1 | "Linde ~26% usually combines both" and "INOXAP ~25%" read as "co-leaders" | **On CRISIL FY26, INOXAP alone (₹3,034 Cr) out-earns Linde India's total revenue (₹2,531 Cr) and ~1.4× its gases segment (₹2,128 Cr gross).** INOXAP is the revenue leader; Linde India is the second-largest single entity | [V] DRHP; [V] iXBRL |
+
+## 4.1 Verification table — 40 figures the writer will use
+
+"Fetched?" = primary document opened this session. "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Primary source (URL) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | India industrial-gases market, FY26 | **≈ ₹13,545 Cr** (INOXAP ₹3,033.9 Cr ÷ 22.4% CRISIL share) | sebi.gov.in/sebi_data/commondocs/oct-2026/Inox Air Products Limited- Draft Abridged prospectus_p.pdf | [V] (share and revenue); [E] division | **Yes.** Ken ₹13,380 Cr (2025). Two independent methods agree within 1–2%. Use "~₹13,500 Cr" |
+| 2 | India market (F&S), CY2024, and growth | **$1.31 bn; ~7.5% CAGR 2024–28** (→ ~$1.8 bn 2028); volume 11.9 Mt (2024) → 14.1 Mt (2028F) | ellenbarrie.com/wp-content/uploads/2025/06/Ellenbarrie_RHP.pdf (F&S) and Q1 FY27 deck slide 20 | [V] | Yes, but this is the same source family as Ken (Supersede #3) |
+| 3 | India market growth outlook (CRISIL) | **9–12% CAGR FY26–FY32** | INOXAP abridged prospectus §2 | [V] | New. Faster than Ken's 7.5% |
+| 4 | Linde India market share FY24 | **27.49%** (Linde India Ltd only) | RHP p.179 | [V] | **Superseded** (was "~26%, both entities") |
+| 5 | INOXAP market share | **25.71% (FY24, F&S); 22.4% (FY26, CRISIL)** | RHP p.180; DRHP | [V] | Superseded (was ~25%). Different analysts and years; do not chart as a trend |
+| 6 | Air Water / Air Liquide shares FY24 | **10.74% / 2.72%** | RHP pp.180 | [V] | **Superseded** (Air Liquide was ~7%; Air Water "small") |
+| 7 | Ellenbarrie market share | **2.68% (FY24), 2.85% (FY25)** | RHP pp.180–181 | [V] | Yes (Part 1 est. ~2.5%) |
+| 8 | INOXAP revenue FY26 | **₹3,033.9 Cr** (FY25 ₹2,789.8; FY24 ₹2,589.9) | DRHP KPI table | [V] | New (Part 1 had FY23) |
+| 9 | INOXAP EBITDA margin FY26 | **51.29%** (on total income; FY25 49.85%, FY24 47.99%) | DRHP | [V] | **Superseded** (was 44–50%) |
+| 10 | INOXAP PAT FY26 | **₹913.9 Cr; 28.44%** of total income | DRHP | [V] | **Superseded** (was 30–34%) |
+| 11 | INOXAP capacity FY26 | **On-site 16,074 TPD; merchant 5,106 TPD**; 57 locations | DRHP | [V] | **Superseded** (Ken "5,058 TPD liquid") |
+| 12 | Linde India revenue FY26 (cons.) | **₹2,530.6 Cr** | nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_165069_30052026203928_iXBRL_WEB.html | [V] | Yes (2,531) |
+| 13 | Linde India PAT FY26 (cons.) | **₹549.0 Cr**, EPS ₹64.37 (incl. JV share ₹55.5 Cr) | same | [V] | Yes (549). Company "₹5,508.74 mn" = standalone [V-snip] |
+| 14 | Linde segment revenue FY26 (gross) | **Gases ₹2,128.2 Cr; PED ₹980.6 Cr; inter-segment ₹578.2 Cr** | same | [V] | **Yes**, now primary (was [primer]) |
+| 15 | Linde segment results FY26 (PBIT) | **Gases ₹641.9 Cr (30.2%); PED ₹118.8 Cr (12.1%)** | same | [V] | New |
+| 16 | Linde power & fuel FY26 | **₹417.4 Cr = 16.5% of revenue** (Q4 FY26 ₹130.8 Cr = 21.3%) | same | [V] | New (was n/d) |
+| 17 | Linde one-off in FY26 expenses | **₹90 Cr liability reversal** | same, note (iv) | [V] | **New; changes the 36% OPM story** |
+| 18 | Linde EGM 5-Mar-2026 | Resolution **not passed**; no PIPL RPTs for the rest of FY26. Vote split **89% against / 11% for** | iXBRL note; Motilal Oswal news (Part 1) | [V] (outcome); split from Part 1 [V MOSL] | Yes; adds the "stopped transacting" fact |
+| 19 | SEBI final order on Linde RPTs | **24-Jul-2024** | iXBRL note (iii) | [V] | **Superseded** ("2025 fresh order") |
+| 20 | SAT / Supreme Court | **SAT dismissed 5-Dec-2025; SC appeal filed 16-Dec-2025, admitted 16-Jan-2026, no stay** | same | [V] | Partly new (SC stage missing in Parts 1–3) |
+| 21 | NSE-appointed valuation | **Report dated 16-Mar-2026, received 24-Mar-2026; IA in SC 1-Apr-2026** | same | [V] | New |
+| 22 | Linde–Praxair India RPTs FY25 | **Revenue from PIPL ₹265.1 Cr; purchases from PIPL ₹170.6 Cr** (FY24: ₹437.8 Cr / ₹201.6 Cr + ₹4.2 Cr capex) | assets.linde.com/-/media/global/apac/linde-india-limited/investor-relations/annual-reports/linde-india-limited_annual-report-2024-25.pdf | [V] | New. Gross ≈ 17.5% of FY25 revenue |
+| 23 | Linde electricity FY26 | **6,678 TJ ≈ 1,855 GWh; RE 12.7%** (21.97% excluding customer-paid power) | nsearchives …/LINDEINDIA1_20072026163335_Linde_India_BRSR_to_SE_90th_AGM.pdf | [V] | New |
+| 24 | Linde footprint and mix | **24 plants; gases 84.10% / PED 15.90% of standalone turnover ₹2,530.6 Cr; exports 2.84%** | BRSR | [V] | New |
+| 25 | Linde plc 2025 | **Sales $34.0 bn; adj OP margin 29.8%; adj EBITDA 39.3%; ROC 24.2%** | assets.linde.com/…/linde-4q25-earnings-release-tables.pdf | [V] (ROC [V-snip] from the same release's text) | Yes on sales/OPM; adds EBITDA |
+| 26 | Ellenbarrie revenue FY24/25/26 | **₹269.5 / 312.5 / 341.6 Cr**; total income FY25 ₹348.4 Cr | Q1 FY27 deck slide 24; FY26 AR | [V] | **Resolves** the 312 vs 348 conflict |
+| 27 | Ellenbarrie power cost / revenue | **FY23 36.1%, FY24 28.8%, FY25 24.0%, FY26 21.6%, Q1 FY27 22.3%** | RHP p.~36 risk factor 14; deck slides 10, 24 | [V] | New |
+| 28 | Ellenbarrie capacity (Q1 FY27) | **1,933 TPD = bulk 915 + on-site 1,018** | deck slide 29 | [V] | **Superseded** (~1,600) |
+| 29 | Jai Balaji ASU | **325 TPD, Durgapur, 15-yr take-or-pay, commissioned 25-Sep-2026** | ellenbarrie.com/…/2026/09/Announcement-Commissioning-of-Jai-Balaji-ASU-Plant25092026.pdf | [V] | Refines "320 TPD East India" |
+| 30 | BHEL order | **₹480.73 Cr ex-GST; 1,200 TPD ASU; 24 months; for the 2,000 TPD Coal-to-AN project, Bandhabal, Jharsuguda** | …/2026/09/Announcement-Awarding-of-Contract-BHEL-28092026.pdf | [V] | Yes, plus detail |
+| 31 | Ellenbarrie segment margins FY26 | **Gases ₹334.0 Cr revenue, result ₹128.4 Cr (38.4%); PED ₹7.5 Cr revenue, loss ₹1.5 Cr** (FY25: gases 33.7%; PED ₹20.0 Cr, +₹11.1 Cr) | FY26 AR Note (segments) | [V] | New |
+| 32 | Ellenbarrie IPO/listing | **₹400 issue; listed ₹492 BSE / ₹486 NSE (1-Jul-2025)**; fresh issue ₹400 Cr (IPO-proceeds table) | AR IPO-utilisation table [V]; listing prices from 5paisa/Angel One [V-snip] | Partly | Yes |
+| 33 | Refex FY26 PAT (three bases) | **Cons. total ₹203.7 Cr; cons. continuing ₹242.4 Cr; standalone continuing ₹247.2 Cr** | refex.co.in/uploads/pdfs/annual-reports/REFEX_INDUSTRIES_LIMITED_Annual_Report_FY2025-26.pdf | [V] | **Resolves** the conflict |
+| 34 | Refex FY26 segment revenue | **Ash & coal ₹2,012.7 Cr (88%); wind ₹237.5 Cr; mobility ₹99.5 Cr (disc.); refrigerant ₹34.6 Cr (disc.)** | AR Note 42 | [V] | **Superseded** (screener 58/17/7/1/17) |
+| 35 | Refex tax demand quashed | **₹35.67 Cr (AY2016-17), Madras HC 28-Apr-2026** | AR litigation note | [V] | Resolves (₹357 Cr wrong) |
+| 36 | Refex warrant forfeiture | **₹130.69 Cr, 7-May-2026, retained (not P&L)** | AR | [V] | Resolves treatment |
+| 37 | Refex IT search and SEBI order | **Search 9–13 Dec 2025; SEBI ₹10 lakh order 12-Dec-2025; SAT stay 13-Feb-2026** | AR secretarial note | [V] | Yes, plus dates |
+| 38 | India steel capacity / output | **222.0 Mtpa; Q1 FY27 crude 42.1 Mt (+3.0%)**; FY26 168.4 Mt (+10.7%) | pib.gov.in PressReleasePage.aspx?PRID=2288774 | [V] (FY26 figure [V-snip] PIB) | Yes |
+| 39 | NGHM awards | **862 ktpa GH₂ (18 cos); 3,000 MW/yr electrolysers (15 cos, ₹4,440 Cr); 724 ktpa green ammonia (13 units)** | pib.gov.in PRID=2222471 (3-Feb-2026) | [V] | **Superseded** (412 ktpa / 1.5 GW) |
+| 40 | PSA oxygen plants | **4,135 (4,127 commissioned), +4,852 MT capacity; PM-CARES 1,225** | pib.gov.in PRID=1894908 (31-Jan-2023) | [V] | **Superseded** (~1,200) |
+
+**Score: 37 of 40 rest on a primary document fetched this session.**
+- Row 32 is partly [V-snip] (listing prices).
+- Rows 25 and 38 each have one sub-figure that is [V-snip] from the same issuer.
+- Excluding screener entirely, 34 of 40 are [V] from company/regulator/government documents.
+- Rows 12–17 and 26 overlap with screener, but the figures here are taken from the companies' own filings.
+
+**Figures that remain [K]/[V-snip]/[E] and still carry arguments (flag in text):**
+- Ken's 2020–2031 time series (E1).
+- NPPA medical-O₂ price cap status.
+- HFC phase-down percentages (Kigali Group 2; [K], consistent with UNEP text).
+- Steel O₂ intensity: BOF 50–60 Nm³/t [V-snip ispatguru]; total ~100 Nm³/t integrated is an inference from "BOF ≈ 55% of mill O₂".
+- Tata ASU consideration (undisclosed).
+- Ellenbarrie listing prices.
+- ISM 12 projects (PIB search summary only).
+- Air Liquide / Air Products / Nippon Sanso FY figures [V-snip].
+
+## 4.2 Company packs (primary-source upgrade)
+
+### 4.2.1 Linde India (LINDEINDIA · 523457) — consolidated; Mar year-end since the 15-month period Jan-2022 to Mar-2023
+
+**(a) Management-commentary digest.** Linde India **does not hold earnings calls or publish investor presentations**. Its "guidance" therefore comes from filings and notes to accounts. Paraphrased, with dates:
+- **Related-party stance (FY26 results note, 30-May-2026).** Management maintains that it complies with LODR because it tests materiality contract by contract, and so no RPT exceeded 10% of turnover. It sought minority approval on 5-Mar-2026 only "as a matter of abundant caution" under SEBI's aggregation reading. After the defeat it **stopped all transactions with Praxair India for the rest of FY26**. It says the impact of the NSE valuation report (16-Mar-2026), which values business "allegedly foregone" and "allegedly gained" under the 2020 JV, **"is not presently ascertainable"** while the Supreme Court appeal is pending. SEBI says the roles of directors and officers "will be addressed separately", so a personal-liability phase is still to come.
+- **Business allocation with Praxair India (same note).** The JV agreement of 24-Mar-2020 divides new business between the two Linde companies:
+  - Linde India: new merchant business in **East, North and West India** (excluding industrial bulk in Maharashtra) and **all project engineering**.
+  - Praxair India: **South, Central and Maharashtra industrial bulk**, and **CO₂, HyCO and PST**.
+  - New on-site business with limited merchant credit goes by incumbency or technology advantage. Expansions and renewals go to the incumbent.
+  - SEBI's 24-Jul-2024 order calls this a "transfer of resources by a listed company to a related party" that needed a prior valuation.
+- **Tata Steel Kalinganagar ASUs (Linde group release, 24-Oct-2024).**
+  - Linde will acquire two large ASUs under construction at Kalinganagar, "more than doubling" its on-site capacity there. It already runs two on-site plants at the site.
+  - The release mentions a long-term O₂/N₂/Ar supply contract, **merchant sales from the new ASUs**, and **renewable-power supply agreements**. The project "meets our strict investment criteria".
+  - **No price was given.** Completion and start of supply came on 30-Sep-2026 (Part 1, screener announcement).
+- **Energy (BRSR FY26).**
+  - RE share of energy rose from 7.6% to **12.7%** (from 13.0% to **22.0%** excluding power paid for by customers at on-site plants). Electricity use fell 6% to 6,678 TJ.
+  - RE comes through group-captive SPVs: Avaada MHYavat, FPEL Surya, Zenataris and, until 10-Sep-2025, FP Solar Shakti. These are held as debt instruments, not associates (results note ii).
+  - New merchant ASUs at **Selaqui, Dahej, Sri City and Ludhiana** recycle wastewater.
+- **Capital and returns.** Total dividend ₹12/share for FY26 (incl. ₹8 special) on 85,284,223 shares, i.e. ~₹102 Cr ≈ 19% payout. Capital commitments jumped to **₹813.6 Cr at 31-Mar-2025** from ₹25.3 Cr a year earlier (FY25 AR). This is consistent with contracting the Tata ASUs and other tonnage projects [E].
+- **Leadership.** New CFO Vikash Dokania from 15-Sep-2026 (Part 1).
+
+**(b) KPI table from filings (no call exists)**
+
+| KPI | FY25 | FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|
+| Revenue, consolidated (₹ Cr) | 2,485.4 | 2,530.6 | 694.4 | iXBRL [V]; Q1 [V-snip quartr/sahi] |
+| Gases segment revenue, gross (₹ Cr) | ~2,040 [E: 82% per secondary] | **2,128.2** | ~78% share [V-snip] | iXBRL [V] |
+| PED segment revenue, gross (₹ Cr) | n/f | **980.6** | ~22% share [V-snip] | iXBRL [V] |
+| Inter-segment elimination (₹ Cr) | n/f | **578.2** | n/f | iXBRL [V] |
+| Gases segment PBIT (₹ Cr; margin on gross) | n/f | **641.9 (30.2%)** | n/f | iXBRL [V] |
+| PED segment PBIT (₹ Cr; margin) | n/f | **118.8 (12.1%)** | n/f | iXBRL [V] |
+| Power & fuel (₹ Cr; % revenue) | n/f | **417.4 (16.5%)** | n/f | iXBRL [V] |
+| Materials + traded goods (% revenue) | — | 22.4% [E: (258.0 + 319.6 − 10.7) ÷ 2,530.6] | 27.1% (vs 19.6%) | iXBRL [V]; Q1 [V-snip] |
+| One-off credit in opex | — | **₹90 Cr reversal** | — | iXBRL [V] |
+| JV share of profit (₹ Cr) | n/f | **55.5** (mostly Q3; Bellary Oxygen reclassified) | n/f | iXBRL [V] |
+| Electricity (TJ / GWh) | 7,097 / 1,971 | **6,678 / 1,855** | — | BRSR [V] |
+| RE share of energy | 7.6% | **12.7%** | — | BRSR [V] |
+| Plants | — | **24** | — | BRSR [V] |
+| Praxair India RPTs (₹ Cr): revenue from / purchases from | 265.1 / 170.6 | Stopped after 5-Mar-2026 (amount for Apr–Mar not disclosed in results) | — | FY25 AR [V]; iXBRL [V] |
+
+**(c) Five-year history (screener consolidated; ₹ Cr) [V].** The periods are not uniform.
+
+| Period | Months | Revenue | OP (EBITDA) | OPM | PAT | ROCE |
+|---|---|---|---|---|---|---|
+| CY2021 (Jan–Dec 2021) | 12 | 2,112 | 548 | 26% | 507 (incl. ₹335 Cr other income) | 17% |
+| Jan-2022 – Mar-2023 | **15** | 3,136 | 765 | 24% | 538 | 21% |
+| (15m annualised ×12/15) [E] | 12 | ~2,509 | ~612 | 24% | ~430 | — |
+| FY24 (Apr-23 – Mar-24) | 12 | 2,769 | 702 | 25% | 434 | 17% |
+| FY25 | 12 | 2,485 | 765 | 31% | 455 | 17% |
+| FY26 | 12 | 2,531 | 909 (≈819 ex-₹90 Cr reversal [E]) | 36% (≈32% underlying) | 549 | 18% |
+
+- **Read:** FY26 PAT growth (+21%) owes a lot to two items, the ₹90 Cr opex reversal and the ₹55.5 Cr JV share. Ex-both, PBT ≈ ₹588 Cr vs ₹614 Cr in FY25 [E]. **Underlying FY26 earnings were roughly flat-to-down.** This matters for the 89× P/E.
+
+**(d) Eight quarters (screener consolidated; ₹ Cr) [V]**
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 634 | 606 | 592 | 571 | 644 | 701 | 614 | 694 |
+| OP | 179 | 192 | 210 | 197 | **282** | 257 | 173 | 201 |
+| OPM | 28% | 32% | 35% | 34% | **44%** | 37% | 28% | 29% |
+| Other income (incl. JV) | 18 | 22 | 13 | 6 | 6 | **55** | 7 | 7 |
+| PAT | 106 | 116 | 118 | 107 | 171 | **193** | 77 | 105 |
+
+- Q4 FY26 (iXBRL) [V]: revenue ₹614.3 Cr; power ₹130.8 Cr (21.3%); gases segment PBIT ₹131.8 Cr on ₹523.8 Cr gross (25.2%); PED ₹12.8 Cr on ₹223.3 Cr. Q4 shows **gas-segment margin compression** as well as PED mix.
+
+**(e) Annual-report findings**
+1. **Auditor qualification.** Price Waterhouse **qualified** the FY25 standalone opinion over RPT materiality (Note 50: contract-by-contract vs aggregated testing) and added an emphasis of matter on the NSE valuation [V FY25 AR]. A secondary summary says the FY26 opinion is also modified [V-snip]. Expect it to repeat while the SC appeal is pending.
+2. **RPT scale.** FY24 Praxair India flows ≈ ₹645 Cr gross (revenue ₹437.8 Cr + purchases ₹201.6 Cr + capex ₹4.2 Cr + PPE sale ₹1.8 Cr) ≈ 23% of revenue. FY25 ≈ ₹436 Cr ≈ 17.5% [V FY25 AR; E].
+   - **Revenue from PIPL (₹265 Cr in FY25, ~11% of revenue) is mostly PED work and gas sales to the sister company [E]. Stopping it after Mar-2026 is a revenue headwind** unless replaced by third-party PED orders. Q1 FY27 PED share rose to 22%, so third-party PED is filling the gap for now [E].
+   - Other group flows: helium purchases from Gas Linde Inc ₹80.4 Cr (FY24 ₹115.0 Cr); support services from Linde Gas Singapore ₹17.7 Cr; Linde Engineering India capex ₹12.8 Cr. No separate "royalty" line appears.
+3. **Contingent liabilities (31-Mar-25):** excise/service tax ₹33.3 Cr; sales tax ₹13.7 Cr; income tax ₹27.4 Cr; other ₹0.7 Cr. Small vs a ₹4,266 Cr net worth [V FY25 AR].
+4. **On-site plants as operating leases.** Future minimum lease receipts ₹764.6 Cr (≤1 yr ₹87.4 Cr; 1–5 yrs ₹334.3 Cr; >5 yrs ₹343.0 Cr). This is the visible part of the contracted tonnage annuity before the Tata ASUs [V FY25 AR].
+5. **Capacity/volume.** 24 plants; ~5.7 Mt/yr implied gas sold; blended ~325 kWh/t [V BRSR; E]. Power at 16.5% of revenue (vs Ellenbarrie 21.6%) reflects a tonnage mix where customers often pay power directly. BRSR confirms "electricity … supplied to Linde plants inside customer premises where customers procure and pay for electricity".
+6. **Top risks (from filings):** the RPT/SEBI/SC outcome, including possible "compensation" logic from the valuation report; PED lumpiness; Q4 FY26 gas-margin dip; Praxair India's exclusivity in South/Central India and HyCO caps Linde India's addressable market by contract.
+
+### 4.2.2 Ellenbarrie Industrial Gases (ELLEN · 544421) — standalone; Mar year-end
+
+**(a) Management-commentary digest: Q1 FY27 call, 10-Aug-2026 (CMD Padam Kumar Agarwala; JMD Varun Agarwal; CFO K. Srinivas Prasad) [V]**
+- **Margin.** The long-term target is **≥40% EBITDA**. It is "not a guarantee every quarter", because argon prices swing.
+  - Q1's 39% came mainly from new, more power-efficient plants and cost control, with only "some" argon benefit.
+  - Q4 FY26 (30%) had one-offs, including employee-cost items.
+  - Gas-segment margin was 38% (40% in Q4 FY26).
+- **Pricing.**
+  - O₂/N₂ prices are "stable, largely contractual".
+  - **Argon spiked in Q2 FY26, bottomed in Q3 FY26, and has recovered since. It is still below H1 FY26 levels.** Management says it is "above the 200-day moving average" and calls today's level "in the middle" of its long-run uptrend.
+  - Ellenbarrie is moving more argon into long-term contracts.
+- **Capacity.**
+  - East India on-site plant (Jai Balaji, 325 TPD) was commissioning in August and was commissioned on 25-Sep-2026.
+  - Kurnool (260 TPD bulk + 340 TPD on-site) and Uluberia-II (220 TPD bulk) are ramping. **Legacy plants are fully utilised**; spare capacity exists only at the plant commissioned in Q4 FY26.
+  - **Capex ₹250 Cr in FY27 and ₹200 Cr in FY28**, for two merchant plants: North India (220 TPD) and West-Central India. Together ~450–500 TPD; construction has started.
+- **Merchant economics.** Build ~18 months; ramp 18–24 months to the 80–90% "sweet spot"; then ~3-year payback. Contracting starts only 3–4 months before commissioning; no merchant capacity is pre-sold.
+- **On-site pipeline.** "Multiple" inquiries above 600 TPD (largest plant today 600 TPD at Kurnool). Steel is the largest source of inquiries. Plants of 1,000+ TPD are always on-site and customer-driven.
+- **Mix.**
+  - Steel is ~⅓ of revenue (35% in Q1 FY27, up from 29% a year earlier).
+  - On-site revenue ~₹14 Cr vs bulk ~₹70 Cr in Q1 (~20%), but on-site's share of capacity is much higher.
+- **Power.** One long-term RE PPA signed; buying on the exchange; more PPAs being sought.
+- **Electronic specialty gases (ESG).** Evaluating debulking/warehousing at the West site. Margins would be lower than ASU gases because it is "more of a trading business".
+
+**(b) KPI table (Q1 FY27 deck, 7-Aug-2026; FY26 AR) [V]**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue (₹ Cr) | 83.6 | 87.4 | **98.7** | 312.5 | 341.6 |
+| Other income (₹ Cr) | 6.8 | 14.5 | **17.1** | 36.0 | 50.0 |
+| Power expense (₹ Cr; % revenue) | 17.6 (21.1%) | 20.9 (23.9%) | **22.0 (22.3%)** | 74.9 (24.0%) | 73.7 (21.6%) |
+| EBITDA (₹ Cr; margin) | 31.8 (38%) | 25.8 (30%) | **38.7 (39%)** | ~109.8 (35%) | ~116.3 (34%) |
+| Finance cost (₹ Cr) | 4.6 | 2.3 | 2.0 | 17.1 | 9.5 |
+| PAT (₹ Cr; margin) | 18.7 | 22.9 | **35.0 (30%)** | 83.3 | 104.4 |
+| Gas-segment revenue (₹ Cr) | 80.9 | 86.0 | **97.4** | 292.5 | 334.0 |
+| Gas-segment result margin | 38% | 40% | **38%** | 33.7% | 38.4% |
+| PED revenue (₹ Cr) | 2.7 | 1.4 | 1.4 | 20.0 | 7.5 |
+| Mix by gas (O₂ / N₂ / Ar & mixtures) | 47 / 42 / 11% | 49 / 40 / 10% [E read] | **50 / 40 / 10%** | — | — |
+| Steel share of revenue | 29% | 32% | **35%** | — | — |
+| Capacity (TPD), bulk / on-site | — | — | **915 / 1,018** (incl. Jai Balaji) | 1,250 total (RHP, 31-Mar-25) | — |
+| Customers: on-site / bulk / packaged (31-Mar-26) | — | — | 3 / 328 / 1,498 | — | — |
+| Repeat-customer revenue share | — | — | — | 86% | 92% [deck read] |
+
+- **Quality-of-earnings check:** other income was 37% of Q1 FY27 PBT (₹17.1 Cr of ₹46.5 Cr). Effective tax 24.7%. **Core PAT ex other income ≈ ₹22 Cr a quarter (~₹88 Cr annualised) ⇒ ~48× core P/E at the ₹4,272 Cr m-cap** [E].
+
+**(c) Five-year history (screener standalone; ₹ Cr) [V]**
+
+| FY | Revenue | OP (EBITDA) | OPM | Other income | PAT | ROCE |
+|---|---|---|---|---|---|---|
+| FY22 | 247 | 63 | 25% | 15 | 44 | 21% |
+| FY23 | 205 | 34 | 16% | 19 | 28 | 8% |
+| FY24 | 269 | 62 | 23% | 21 | 45 | 13% |
+| FY25 | 312 | 110 | 35% | 36 | 83 | 18% |
+| FY26 | 342 | 117 | 34% | 50 | 104 | 14% |
+
+- Company figures match: FY24/25/26 revenue ₹269.5 / 312.5 / 341.6 Cr; PAT ₹45.3 / 83.3 / 104.4 Cr [V deck].
+- **FY23 dip:** PED revenue fell and power cost peaked (36% of revenue) [V RHP].
+
+**(d) Eight quarters (screener standalone; ₹ Cr) [V]**
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 95 | 68 | 82 | 84 | 89 | 81 | 87 | 99 |
+| OP | 36 | 27 | 25 | 31 | 33 | 25 | 27 | 38 |
+| OPM | 38% | 40% | 30% | 37% | 38% | 31% | 31% | 38% |
+| Other income | 7 | 9 | 11 | 7 | 13 | 16 | 15 | 17 |
+| PAT | 30 | 19 | 18 | 19 | 37 | 26 | 23 | 35 |
+
+- Sep-24 revenue (₹95 Cr) includes PED. FY25 PED was ₹20 Cr, most of it in H1 [E].
+- The Dec-25/Mar-26 OPM dip matches management's "argon trough in Q3 FY26 plus Q4 one-offs".
+
+**(e) Annual-report findings (FY26 AR) [V]**
+1. **Segments.** Gases ₹334.0 Cr revenue at a **38.4% segment result** (FY25 33.7%). PED shrank to ₹7.5 Cr with a ₹1.5 Cr loss (FY25 ₹20.0 Cr, ₹11.1 Cr profit).
+   - **The BHEL ₹480.73 Cr order is 64× FY26 PED revenue.** Execution risk is new.
+   - Unallocable expenses ₹35.6 Cr; unallocable finance cost ₹6.0 Cr.
+2. **RPTs are trivial.** Purchases from Karakoram Healthcare LLP ₹2.6 Cr; office rent to promoter-group companies ~₹0.3 Cr; KMP pay ~₹2.5 Cr.
+   - Directors' personal guarantees and a Varun Tea Plantations corporate guarantee back **₹149.1 Cr** of bank borrowings (₹206.4 Cr FY25).
+   - **No royalty, no group supply.** This is the clean contrast with Linde India.
+3. **Treasury (see Supersede #21).** AIFs ₹197.6 Cr (Level-3 ₹154.7 Cr); bonds ₹159.8 Cr; **loans ₹55.5 Cr, mostly against pledged listed securities**; ₹55.7 Cr more committed to AIFs.
+   - This is how FY26 other income reached ₹50 Cr.
+   - **Governance question for the writer:** why does an industrial-gas company with ₹180 Cr of debt and ₹450 Cr of capex ahead lend against shares and hold Level-3 AIF units?
+4. **IPO proceeds (31-Mar-26).** Debt repayment ₹210 Cr fully used. Uluberia-II ₹56.7 Cr used of ₹104.5 Cr (₹47.8 Cr unused although the plant was commissioned in Jan-2026). GCP ₹38.4 Cr of ₹58.6 Cr used. Unutilised total ₹68.1 Cr.
+5. **Contingent liabilities:** excise/ST/GST ₹4.1 Cr; supplier claim ₹3.5 Cr (counter-suit filed); income tax nil (₹2.5 Cr FY25). Capital commitments ₹48.3 Cr (₹97.2 Cr). BG/LC ₹25.8 Cr.
+6. **On-site contract structure (RHP).**
+   - Kharagpur (Tata Steel): lease-cum-O&M of 28-Feb-2019, 15 years; +170 TPD from 23-Jan-2025.
+   - Kurnool (Jairaj Ispat): 1-Jun-2021, 15 years.
+   - Ellenbarrie may buy surplus gas at **power-linked prices** and resell it. That flows through "purchase of stock-in-trade" (₹36.2 Cr FY26), which is why traded goods appear in a gas maker's P&L.
+   - NMDC Nagarnar is a 5-year O&M work order (6-Oct-2023) for 2 × 1,250 TPD. It earns service revenue, not owned capacity.
+7. **Credit.** CRISIL A/Stable / A1 on ₹50 Cr of HDFC Bank limits (letter 28-Sep-2026).
+8. **Ownership overhang.** Promoters 77.15% (Part 1), so an MPS sell-down to 75% is due by ~Jul-2028 [K rule].
+
+### 4.2.3 Refex Industries (REFEX · 532884) — consolidated (screener); company reports standalone "continuing operations"
+
+**(a) Management-commentary digest: Q1 FY27 call, 30-Jul-2026 (CMD Anil Jain; WTD & CFO Dinesh Kumar Agarwal) [V]**
+- **Ash & coal (88% of continuing revenue).**
+  - Run-rate **65–70k t/day**. Q2 is seasonally slow; Q3–Q4 scale up. Target **~90k t/day by Q4** (later in the same call: "crossing 75–80k in Q4"). The two Q4 targets differ, so expect a range.
+  - Growth should beat FY26's ~28%. Guidance stays at **EBITDA 15–18%, net 10–12%**.
+  - Present at **42 thermal plants, ~30–35% of India's TPPs**. Order book **₹1,635 Cr** (30-Jun-26); Q1 wins ₹279 Cr. Many digital tenders won in the past four months.
+  - Q1 saw diesel shortages and logistics disruption linked to the geopolitical situation.
+- **Wind (Venwind Refex Power, ~76–77% owned; a 23% partner runs operations).**
+  - Technology was bought outright, so there is **no royalty and no licensor equity**.
+  - Q1 execution ₹295 Cr at ~nil margin. FY27 execution **₹1,700–1,800 Cr at a 5–6% *net* margin**, back-ended into Q3–Q4.
+  - Order book ₹1,860 Cr, of which ₹525 Cr executed and **~₹1,300 Cr to be executed in FY27**. More orders at an advanced stage (30–60 days); new orders spill into FY28.
+  - **India's first 5.3 MW turbine erected at Koppal, Karnataka** (deck: delivered at Torrent's site).
+  - Silvassa is a leased assembly plant, ~1 GW capability (≈₹5,000–6,000 Cr revenue potential). Blades imported; localisation in 6–12 months. FY26 wind revenue "only ~₹225 Cr".
+- **One-off.** ₹4 Cr bank processing charge on an Indian Overseas Bank loan takeover (in Q1 other expenses).
+- **Mobility demerger.** NCLT allowed shareholder and creditor meetings; shareholder meeting held Aug-2026. **Discontinued operations (refrigerant fully closed; mobility) should be out of the numbers by end-Q3 FY27.** No strategic partner planned before the listing.
+- **Balance sheet.** "Net debt ~zero"; used limits are mainly BGs/LCs.
+- **Pledge.** A reduction was disclosed in June/July; "another disclosure in the next 15 days"; releases to continue.
+- **Not a gas company.** Refrigerant manufacturing is "completely closed down". There are no plans to restart any gas activity.
+
+**(b) KPI table [V]**
+
+| KPI | Q1 FY26 | Q1 FY27 | FY25 | FY26 | Source |
+|---|---|---|---|---|---|
+| Standalone continuing revenue (₹ Cr) | 351.1 | **619.3** | 2,259.4 | 2,039.2 | Q1 deck |
+| Standalone EBITDA (margin) | 39.6 (11.3%) | **105.4 (17.0%)** | 207.8 (9.2%) | 350.0 (17.2%) | Q1 deck |
+| Standalone PAT, continuing | 33.0 | **73.6** | 183.6 | **247.2** | Q1 deck |
+| Consolidated revenue, continuing (₹ Cr) | — | 916 (screener) | 2,259.4 | **2,276.7** | AR; screener |
+| Consolidated EBITDA, continuing | — | 107 (screener OP) | — | **357.2** | AR highlights |
+| Consolidated PAT: continuing / total | — | 65 total (screener) | 179.7 / 158.4 | **242.4 / 203.7** | AR |
+| Ash segment revenue / EBIT (₹ Cr) | — | ~610 / ~112 [V-snip] | 2,235.6 / 218.2 | **2,012.7 / 353.8 (17.6%)** | AR Note 42 |
+| Wind segment revenue / EBIT (₹ Cr) | — | 295 / ~0 | 0 / −1.8 | **237.5 / 2.2** | AR; call |
+| EV (mobility) revenue / EBIT (₹ Cr; discontinued) | — | — | 37.6 / −26.8 | **99.5 / −38.2** | AR |
+| Ash run-rate (t/day) | — | 65–70k | — | ~70k+ (deck) | call; deck |
+| Ash order book (₹ Cr) | — | **1,635** | — | — | deck |
+| Wind order book left (₹ Cr) | — | **~1,300** (of 1,860) | — | — | call |
+| Top customers | — | — | — | **NTPC 28%, IL&FS TN Power 12%** | AR |
+| Corporate guarantees for subsidiaries (₹ Cr) | — | — | 46.3 | **509.4** | AR |
+| Standalone trade receivables (₹ Cr) | — | — | 305.4 | 673.6 → 737.3 (deck BS) [read with care] | deck |
+
+**(c) Five-year history (screener consolidated; ₹ Cr) [V]**
+
+| FY | Revenue | OP | OPM | PAT | ROCE |
+|---|---|---|---|---|---|
+| FY21 | 633 | 68 | 11% | 41 | 45% |
+| FY22 | **not shown on screener** (data gap) | — | — | — | — |
+| FY23 | 1,629 | 175 | 11% | 116 | n/s |
+| FY24 | 1,383 | 146 | 11% | 93 | 26% |
+| FY25 | 2,259 | 206 | 9% | 158 | 23% |
+| FY26 | 2,277 | 362 | 16% | 204 (cont. 242) | 23% |
+
+- Company standalone (deck) FY24 / FY25 / FY26: revenue ₹1,370.6 / 2,259.4 / 2,039.2 Cr (FY26 continuing only); EBITDA ₹148.8 / 207.8 / 350.0 Cr; PAT ₹100.9 / 183.6 / 247.2 Cr [V].
+- Ash revenue CAGR FY22–26 **46.4%**, PAT CAGR 52.6% (deck) [V].
+
+**(d) Eight quarters (screener consolidated; ₹ Cr) [V]**
+
+| Qtr | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 428 | 686 | 594 | 352 | 415 | 576 | 934 | 916 |
+| OP | 43 | 53 | 60 | 37 | 71 | 90 | 160 | 107 |
+| OPM | 10% | 8% | 10% | 10% | 17% | 16% | 17% | 12% |
+| PAT | 31 | 50 | 48 | 20 | 36 | 53 | 94 | 65 |
+
+- From Q1 FY27 the screener quarter includes Venwind's ₹295 Cr at ~nil margin. That explains the consolidated OPM of 12% vs standalone 17%.
+
+**(e) Annual-report findings (FY26 AR) [V]**
+1. **PAT reconciliation and segments:** see Supersedes #22–23. Refrigerant revenue was ₹34.6 Cr (1.4% of gross segment revenue) with a ₹1.3 Cr loss. The sub-sector label rests on this.
+2. **Tax and legal:**
+   - AY2016-17 ₹35.67 Cr demand quashed (28-Apr-2026). Pending: AY2019-20 ₹46.3 Cr and AY2021-22 ₹11.4 Cr (purchase and cash-credit disallowances).
+   - IT search 9–13 Dec 2025, final order awaited.
+   - SEBI ₹10 lakh CMD penalty (12-Dec-2025), recovery stayed by SAT (13-Feb-2026).
+   - The contingent-liability table shows income tax "nil" even though the demands above are disclosed in the litigation note. **Flag the inconsistency.**
+3. **Warrants and capital:** ₹905.44 Cr preferential programme (Mar–Apr 2024); ₹513.38 Cr received; ₹130.69 Cr upfront on 1.117 crore warrants forfeited 7-May-2026; ₹392.07 Cr never called. **The forfeiture says the warrant holders, who include promoter-group entities [E, check], chose not to pay ~₹392 Cr at the issue price.**
+4. **Guarantees:** corporate guarantees for subsidiaries rose to ₹509.4 Cr (Venwind working capital/BGs) from ₹46.3 Cr. Surety-bond claims ₹20.2 Cr.
+5. **Parent:** Refex Holding Pvt Ltd (formerly Sherisha Technologies).
+6. **Concentration risk:** NTPC (28%) and IL&FS TN Power (12%) = 40% of revenue. Debtor days 142 (screener).
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**E17. India market size, triangulated (₹ Cr unless stated)**
+
+| Source | Period | Size | Growth | Status |
+|---|---|---|---|---|
+| CRISIL (INOXAP DRHP) | FY26 | **≈ 13,545** (implied from 22.4% share) | 9–12% CAGR FY26–32 | [V]/[E] |
+| Ken Research | CY2025 | 13,380 ($1.41 bn × 94.9) | 7.5% CAGR 2026–31 | [V] Part 1 |
+| Frost & Sullivan (Ellenbarrie RHP) | CY2024 | $1.31 bn (≈ ₹10,070 Cr implied FY24 by share table) | ~7.5% CAGR 2024–28 | [V] |
+| IMARC / TechSci | 2024–25 | $3.06–3.81 bn | ~5–7% | [V-snip]; **drop** (scope unclear) |
+
+Note: F&S FY24 (~₹10,070 Cr) and CRISIL FY26 (~₹13,545 Cr) are **different analysts**. Do not compute a 2-year CAGR between them (it would be a spurious ~16%).
+
+**E18. India market shares by revenue (%)**
+- F&S, FY24 [V]: Linde India 27.49 | INOXAP 25.71 | Air Water India 10.74 | Air Liquide India 2.72 | Ellenbarrie 2.68 | others/regionals/captive-outsourced residual ~30.7 [E].
+- CRISIL, FY26 [V]: INOXAP 22.4.
+- Linde India and Ellenbarrie on the same FY26 base [E]: **18.7%** (₹2,530.6 Cr ÷ 13,545; gases segment external ≈ ₹1,550–2,128 Cr ⇒ ~11–16%) and **2.5%**.
+
+**E19. Peer financials, India gas companies (₹ Cr; F&S Table 5.2-1/2/3 from MCA filings; Linde FY21 = CY20, FY22 = CY21, FY23 = 15 months) [V]**
+
+| Company | Rev FY21 | Rev FY22 | Rev FY23 | Rev FY24 | EBITDA % FY24 | PAT FY24 | ROE FY24 |
+|---|---|---|---|---|---|---|---|
+| Linde India | 1,471 | 2,112 | 3,136 | 2,769 | 25.4% | 434 | 12.5% |
+| INOXAP | 1,757 | 2,090 | 2,192 | 2,590 | 44.3% | 766 | 14.0% |
+| Air Water India | 870 | 934 | 1,036 | 1,082 | 18.3% | 93 | 3.2% |
+| Air Liquide India Holding | 141 | 192 | 207 | 274 | 14.4% | −7 | −2.0% |
+| Ellenbarrie | 175 | 245 | 205 | 269 | 22.8% | 45 | 11.1% |
+| Taiyo Nippon Sanso India | 222 | 230 | 198 | 208 | 6.6% | −5 | −7.3% |
+| Goyal MG Gases | 166 | 212 | 195 | 175 | 18.0% | 32 | 7.1% |
+
+- **Read:** outside INOXAP and Linde India, Indian gas subsidiaries of global majors earn weak returns (Air Water 3% ROE, Air Liquide and TNSC negative). **"Oligopoly margins" is true only for the top two plus dense regionals such as Ellenbarrie.**
+
+**E20. INOXAP KPIs (DRHP) [V]**
+
+| Metric | FY24 | FY25 | FY26 |
+|---|---|---|---|
+| Revenue (₹ Cr) | 2,589.9 | 2,789.8 | 3,033.9 |
+| EBITDA (₹ Cr) / margin on total income | 1,331.1 / 47.99% | 1,519.6 / 49.85% | 1,647.8 / 51.29% |
+| PAT (₹ Cr) / margin | 765.7 / 27.60% | 880.9 / 28.90% | 913.9 / 28.44% |
+| Adjusted ROCE | 30.24% | 27.58% | 24.45% |
+| Net debt (₹ Cr) | (963.7) | (641.1) | (849.8) |
+| CFO / CFI (₹ Cr) | 893.7 / (1,411.4) | 861.5 / (953.4) | 1,264.2 / (877.6) |
+| On-site / merchant capacity (TPD) | 12,280 / 4,425 | 15,585 / 4,779 | 16,074 / 5,106 |
+| Locations / owned tankers / bulk installations | 49 / 657 / 1,509 | 53 / 730 / 1,591 | 57 / 739 / 1,679 |
+
+- **Read:** on-site capacity +31% in two years, while ROCE fell 30 → 24% as new tonnage plants ramp. That is the same CWIP-to-revenue lag Linde India shows.
+- **INOXAP revenue per TPD-year ≈ ₹14.3 lakh** (₹3,034 Cr ÷ 21,180 TPD) vs **Ellenbarrie ≈ ₹17.7 lakh** (₹341.6 Cr ÷ 1,933 TPD, but ~1,600 average) [E]. On-site-heavy fleets earn less revenue per TPD.
+
+**E21. Power cost as % of revenue [V]**
+- Ellenbarrie: FY23 36.1 | FY24 28.8 | FY25 24.0 | FY26 21.6 | Q1 FY26 21.1 | Q4 FY26 23.9 | Q1 FY27 22.3.
+- Linde India: FY26 16.5 | Q4 FY26 21.3.
+- Benchmark "one large supplier FY25": 24 [V Ken].
+- **Implied Linde specific power:** ₹417.4 Cr ÷ ~1,855 GWh ≈ ₹2.25/kWh paid. Far below grid tariffs, **because a large share of the energy counted in BRSR is paid for directly by on-site customers** [E]. Do not use it as a tariff.
+
+**E22. India product and application mix, 2024 (% of value; F&S) [V]**
+- **Product:** oxygen 35.9 | nitrogen 23.6 | hydrogen 16.2 | CO₂ 11.2 | argon & mixtures 10.2 | others 2.9.
+- **Application:** steel & metals 23.3 | chemicals 16.3 | manufacturing 12.9 | healthcare 9.8 | F&B 9.2 | oil & gas 6.1 | others 22.4.
+- **Volumes 2024:** O₂ 2.3 Mt ($0.47 bn) | N₂ 4.7 Mt | CO₂ 4.2 Mt ($0.14 bn) | H₂ 0.16 Mt | argon market $0.14 bn.
+- **Prices (F&S):** oxygen **$200–300/t** (≈ ₹17,000–25,000/t at ₹84); hydrogen $1,000–2,000/t.
+  - Implied O₂ value ≈ $0.47 bn ÷ 2.3 Mt ≈ **$204/t** [E]. This is far above Ken's all-mode $113.7/t, because it is a merchant/packaged-weighted price.
+- **Ellenbarrie's own gas mix (Q1 FY27):** O₂ 50 / N₂ 40 / Ar & mixtures 10% of gas revenue [V deck].
+
+**E23. Capacity league table (TPD)**
+
+| Player | On-site | Merchant/bulk | Total | Source |
+|---|---|---|---|---|
+| INOXAP (FY26) | 16,074 | 5,106 | 21,180 | [V] DRHP |
+| Praxair India | — | — | ">10,000" (undated) | [V-snip] |
+| Linde India | n/d | n/d | n/d; 24 plants; +3,600 Tata (Sep-26) | [V] BRSR; Part 1 |
+| Ellenbarrie (Q1 FY27) | 1,018 | 915 | 1,933 (+450–500 TPD by FY28) | [V] deck |
+| Air Liquide India | — | — | >1,400 across 6 plants (+Kosi 350, Nagpur 70) | [V] F&S p.146 |
+
+**E24. ASU capex per TPD (₹ Cr/TPD), upgraded [V inputs; E ratios]**
+- Ellenbarrie Uluberia-II 220 TPD bulk: ₹104.5 Cr → **0.48**.
+- **Ellenbarrie FY27–28 capex ₹450 Cr for two bulk plants of ~450–500 TPD → ~0.9–1.0** (may include cylinders/distribution) [E].
+- Air Liquide Kosi 350 TPD merchant: $40 m → **~0.95** at ₹83/$ [E].
+- Air Liquide Nagpur 70 TPD: $14 m → ~1.7 [E].
+- BHEL 1,200 TPD tonnage EPC price: ₹480.73 Cr → **0.40**.
+- INOXAP Tata Meramandali 2 ASUs: $150 m (TPD n/d).
+- Linde India Kalinganagar new ASU (May-2025): ₹425 Cr (TPD n/d).
+- **Read:** **gaseous tonnage ASUs cost ~₹0.4 Cr/TPD; liquid merchant plants ~₹0.5–1.0 Cr/TPD** (liquefiers, storage, tankers). Part 1's single 0.40–0.55 range understates merchant capex.
+
+**E25. Trade, FY25 → FY26 imports (₹ Cr; TradeStat) [V]**
+
+| HS | Item | FY25 | FY26 | Change | Main source FY26 |
+|---|---|---|---|---|---|
+| 2804 (all) | H₂, rare gases, N₂, O₂ **+ silicon, Se, Te, P…** | 3,625 | 4,177 | +15% | China 1,502 (mostly silicon) |
+| 2804.29 | Rare gases (helium, neon, krypton, xenon) | 463 | 394 | −15% | Qatar 160; China 105 |
+| 2804.21 | Argon | 52.8 | 9.0 | −83% | China 6.0 |
+| 2804.30 | Nitrogen | 7.1 | 10.6 | +50% | China 3.1; USA 2.0 |
+| 2804.40 | Oxygen | 7.6 | 5.8 | −25% | China 3.6 |
+| 2804.10 | Hydrogen | 4.4 | 0.9 | −80% | — |
+| 2903.42 | HFC-32 | 204 | 94 | −54% | China 4.8; USA 4.3 |
+| 2903.44 | HFC-125 (and others in the subheading) | 62 | 40 | −36% | China 24 |
+| 2903.45 | HFC-134a | 247 | 385 | +56% | China 193 |
+| 3827 | Halogenated-derivative mixtures (HFC blends, e.g. R-410A, R-404A) | 166 | 296 | +79% | China 224 |
+
+- **Read:** bulk atmospheric gases are barely traded (O₂/N₂/Ar together < ₹30 Cr). **Imported argon collapsed as domestic ASU capacity grew**, consistent with Ellenbarrie's argon-price trough in Q3 FY26. Helium is the only material gas import, ~₹400 Cr.
+- HFC-134a and blends rose sharply during the **Kigali baseline years (2024–26)**. That fits importers building baseline history ahead of the 2028 freeze [E]. Refex exited just as this was happening.
+
+**E26. Steel (PIB 24-Jul-2026) [V]**
+- Capacity 222.0 Mtpa (top-7 117.4; others 104.6; public sector 13.9%).
+- Q1 FY27: crude steel 42.1 Mt (+3.0%); hot metal 23.5 Mt (+1.4%); finished-steel consumption 41.6 Mt (+8.3%); finished-steel imports 2.06 Mt (+49%; China 32%, Korea 29%, Japan 16%).
+- Stainless consumption +27.5% (argon/AOD demand).
+- HRC ₹69,828/t (Jul-26).
+- **Read:** hot metal (BF iron, the most O₂-intensive step) grew only 1.4%. Q1 FY27 tonnage-O₂ demand growth was therefore low-single-digit [E].
+
+**E27. Green hydrogen (PIB 3-Feb-2026) [V]**
+- SIGHT production awards: 862,000 tpa (18 companies).
+- Electrolyser PLI: 3,000 MW/yr (15 companies; ₹4,440 Cr).
+- Refinery GH₂ procurement: 20,000 tpa.
+- Green ammonia price discovery: 724,000 tpa (13 fertiliser units).
+- Target "likely" 5 MMTPA by 2030.
+- **By-product O₂ from 862 ktpa of H₂ ≈ 6.9 Mt/yr** (8 t O₂ per t H₂) [E]. That is ~3× India's 2.3 Mt oxygen market (F&S), if all of it were built and the O₂ captured.
+
+**E28. Medical oxygen infrastructure (PIB 31-Jan-2023) [V]**
+- PSA plants 4,135 sanctioned / 4,127 commissioned; capacity +4,852 MT.
+- By source: PM-CARES 1,225; CPSUs 283; foreign aid 53; state/CSR 2,574.
+- Cylinders supplied: 4,02,517.
+
+**E29. Global majors, 2025 [V Linde; V-snip others]**
+
+| Company | Sales | Margin | Returns |
+|---|---|---|---|
+| Linde plc (CY25) | $34.0 bn | Adj OP 29.8%; adj EBITDA 39.3%; reported EBITDA 37.8% | ROC 24.2%; capex $5.3 bn; backlog $10.0 bn |
+| Air Liquide (CY25) | €26.94 bn | OIR 20.7% | ROCE 10.7% (recurring 11.2%) |
+| Air Products (FY Sep-25) | $12.04 bn | Adj op margin 23.7% (GAAP loss after ~$3.7 bn charges) | — |
+| Nippon Sanso (FY Mar-25) | ¥1,308 bn | Core OI 14.5% | — |
+| INOXAP (FY26) | ₹3,034 Cr ($320 m) | EBITDA 51.3% (on total income) | Adj ROCE 24.5% |
+
+- **INOXAP's EBITDA margin is ~12 points above Linde plc's**, and its ROCE matches Linde plc's ROC.
+
+## 4.4 Gap log (§H items and the extra items in the brief)
+
+| # | Gap | Status | What closed it / what was tried |
+|---|---|---|---|
+| H1 | India market size | **Filled** | CRISIL via INOXAP DRHP (22.4% share ⇒ ~₹13,545 Cr FY26; 9–12% CAGR FY26–32) [V]. F&S via Ellenbarrie RHP ($1.31 bn 2024; ~7.5% CAGR) [V]. Ken shown to be F&S-derived. IMARC/TechSci dropped |
+| H2 | Market shares | **Filled** | F&S FY24 shares for Linde India, INOXAP, Air Water, Air Liquide, Ellenbarrie [V]; CRISIL FY26 INOXAP 22.4% [V]. **Praxair India's share is still not separately available** (F&S excludes it, possibly because it is inside "Linde") |
+| H3 | INOXAP FY24–26; Praxair India, Air Liquide India financials | **Mostly filled** | INOXAP FY24–26 [V DRHP]. Air Liquide India Holding, Air Water India, TNSC India, Goyal MG FY21–24 [V F&S/MCA]. **Praxair India: still open** (not in F&S table; MCA paywalled; no rating rationale found) |
+| H4 | ASU capacity by player | **Partly filled** | INOXAP 16,074 + 5,106 TPD [V]; Ellenbarrie 1,933 TPD [V]; Air Liquide >1,400 TPD (6 plants) [V F&S]. **Linde India total TPD still open** (24 plants and ~5.7 Mt/yr implied [V BRSR/E]). Praxair India ">10,000" undated |
+| H5 | Tata Kalinganagar 2 × 1,800 TPD consideration and terms | **Still open** | Linde group release 24-Oct-2024 [V]: no price, transfer expected 2025, long-term O₂/N₂/Ar supply, merchant sales allowed, RE agreements. BSE API blocked (Akamai "Access Denied"); the 30-Sep-2026 filing was not reachable. **Indirect clue:** Linde India capital commitments rose ₹25 Cr → ₹814 Cr (Mar-24 → Mar-25), and CWIP rose ₹483 → ₹1,343 Cr (Mar-24 → Mar-26). That suggests a ₹0.8–1.3k Cr outlay, at the low end of Part 1's ₹1,450–2,000 Cr [E] |
+| H6 | Merchant LOX/LIN price series | **Partly filled** | F&S: O₂ average $200–300/t; India O₂ value/volume ≈ $204/t [V/E]. Ellenbarrie call: O₂/N₂ stable and contractual; argon spike Q2 FY26 → trough Q3 FY26 → partial recovery [V]. **No monthly series exists in public sources** |
+| H7 | Power tariffs, kWh/t, power share of cost | **Filled for the members** | Linde India power & fuel 16.5% of revenue; electricity 1,855 GWh; ~325 kWh/t blended [V/E]. Ellenbarrie 21.6% of revenue (FY23 36.1%) [V]. State HT tariff ranges remain [K] |
+| H8 | Trade data HS 2804/2811/2903 | **Mostly filled** | TradeStat imports FY25/FY26 for 2804, 2804.10/21/29/30/40, 2903.41/42/44/45, 3827 [V]. **2811 (CO₂) and all exports not fetched** (session expired, HTTP 419) |
+| H9 | Medical oxygen: NPPA cap, GST, PSA counts | **Partly filled** | PSA 4,135 / 4,127 commissioned [V PIB]; GST 5% after Sep-2025 [V-snip]. **NPPA ceiling status still open** (no NPPA page fetched) |
+| H10 | Linde India FY26 segment revenue and EBIT | **Filled** | iXBRL segment table [V] (Supersede #13) |
+| H11 | Refex PAT, segments, tax demand, warrants | **Filled** | FY26 AR [V] (Supersedes #22–25) |
+| H12 | Global majors' 2025 figures | **Mostly filled** | Linde plc [V]; Air Liquide, Air Products [V-snip, issuer pages listed]; Nippon Sanso only FY Mar-25 [V-snip]. **EV/EBITDA multiples for globals still [K/E]** |
+| H13 | Which Linde entity builds the Dholera ASU | **Still open** | No filing or release found. Under the 2020 JV rules (new on-site by incumbency/technology; new merchant in West India → Linde India), **either entity is possible**. Linde India's FY26 filings do not mention Dholera. Keep it out of Linde India's numbers |
+| H14 | Ellenbarrie IPO/listing; FY25 revenue | **Filled** | Revenue ₹312.5 Cr vs total income ₹348.4 Cr [V]; IPO ₹400 [V AR]; listing ₹492 BSE / ₹486 NSE [V-snip] |
+| H15 | Steel O₂ intensity; capacity | **Partly filled** | Capacity 222.0 Mtpa; Q1 FY27 42.1 Mt [V PIB]. BOF O₂ 50–60 Nm³/t [V-snip ispatguru]; ~100 Nm³/t integrated is an inference |
+| X1 | Linde–Praxair saga: SEBI, SAT, EGM | **Filled (primary)** | Company's own chronology in the FY26 results note [V], incl. the SC stage, NSE valuation report and post-EGM stop. EGM vote split still from Motilal Oswal [V, Part 1] |
+| X2 | Refex IT search, SEBI penalty, pledge | **Filled except pledge %** | AR dates [V]. Current pledge %: management says reductions were disclosed and more are coming [V call]. **The latest pledge % is not re-verified** (screener 47.4% stands) |
+| X3 | Ellenbarrie BHEL order | **Filled** | Reg-30 disclosure [V] |
+| X4 | NGHM outlay and SIGHT awards | **Filled** | PIB 3-Feb-2026 [V]. ₹19,744 Cr outlay remains [K] |
+| X5 | India HFC phase-down schedule | **Still [K]** | Not re-fetched from MoEFCC/UNEP. Trade data added (E25) |
+| X6 | ISM fabs approved | **Partly** | 12 projects, ~₹1.64 lakh Cr [V-snip PIB search results; pages not opened] |
+| X7 | Linde India Q1 FY27 investor deck/call | **Not applicable** | Linde India holds no calls and publishes no decks. **The Q1 FY27 results PDF (segment split) was not reachable**, so the 78/22 gases/PED split stays [V-snip] |
+
+---
+
+## 4.5 New insights and new primer issues
+
+### 4.5.1 New insights the first pass missed
+1. **INOXAP is listing, and it is bigger and more profitable than Linde India.**
+   - The DRHP (filed ~30-Sep / 5-Oct-2026) shows FY26 revenue ₹3,034 Cr, EBITDA 51%, PAT ₹914 Cr, net cash ₹850 Cr and 21,180 TPD.
+   - On revenue it is #1 (22.4%, CRISIL). Its PAT is **1.7× Linde India's FY26 PAT**.
+   - Air Products (Prodair Corporation) is selling ~38.6 m shares. INOX entities sell the rest.
+   - **The "only listed pure-plays" scarcity premium that props up Linde India (89×) and Ellenbarrie (35×) faces a direct listed comparable in 2027.** INOXAP's IPO valuation will reset sector multiples. This is the single biggest new thing for the report.
+2. **Linde India's FY26 is flattered.**
+   - A ₹90 Cr liability reversal sits inside opex. A ₹55.5 Cr JV share (Bellary Oxygen reclassification) sits in "other income".
+   - Strip both and FY26 PBT (~₹588 Cr) is **below FY25 (₹614 Cr)**. Q4 FY26 gases-segment PBIT margin fell to 25% (from ~30% for the year).
+   - The stock's de-rating since its ₹8,049 high is more about earnings quality than about the EGM.
+3. **The Praxair saga has moved to the Supreme Court and to money.**
+   - NSE's valuer has put numbers on business "allegedly foregone/gained" (report 16-Mar-2026, not public).
+   - The SC admitted Linde India's appeal **without a stay**, but asked to be informed before SEBI acts on the valuation.
+   - Since Mar-2026, **Linde India has stopped transacting with Praxair India.** That flow was ₹265 Cr of revenue and ₹171 Cr of purchases in FY25. Expect some revenue/cost dislocation in FY27 and an auditor qualification each year until it is resolved.
+4. **Ellenbarrie's 34–39% margin comes with a treasury-heavy, partly opaque balance sheet.**
+   - ₹198 Cr is in AIFs (₹155 Cr Level-3), ₹56 Cr is lent against pledged listed shares, and ₹56 Cr more is committed to AIFs, all while carrying ₹180 Cr of borrowings.
+   - Other income was 37% of Q1 FY27 PBT. Core P/E ≈ 48×.
+   - **A gas-only valuation must strip this out and assess its risk.**
+5. **On-site TPD ≠ revenue.** Ellenbarrie is 53% on-site by TPD but only ~15–20% on-site by revenue. INOXAP earns ~₹14 lakh per TPD-year vs Ellenbarrie's ~₹18 lakh. On-site contracts (lease-cum-O&M, customer-paid power) bill a fee, not the gas value.
+   - **Never multiply TPD by a merchant price.**
+   - Power-cost ratios are mix-dependent too: Linde 16.5% vs Ellenbarrie 21.6%. Linde's BRSR energy includes power its on-site customers pay for directly.
+6. **Imported argon has collapsed (₹53 Cr → ₹9 Cr, −83% in FY26)** as Indian ASU capacity has grown (INOXAP merchant +15% in two years; Ellenbarrie +40%). That matches the argon price trough Ellenbarrie described.
+   - Argon is the margin kicker for merchant ASUs. A domestic argon surplus is the main near-term margin risk for merchant-heavy players.
+   - Helium (~₹394 Cr, Qatar-led) is the only material gas import.
+7. **Refex's "industrial gases" tag rested on ₹34.6 Cr of refrigerant revenue (1.4%) that is now zero.**
+   - Its economics are a thermal-power services franchise: NTPC 28% + IL&FS TN Power 12% of revenue, ash EBIT 17.6%.
+   - On top sits a WTG EPC ramp funded by ₹509 Cr of parent guarantees.
+   - The PAT "conflict" was a reporting-basis issue (continuing vs total), not an error.
+8. **Steel demand for O₂ is decelerating in the near term.** Hot metal +1.4% and crude steel +3.0% in Q1 FY27 vs +10.7% in FY26 [V PIB].
+   - Tonnage additions (Tata 3,600 TPD at Linde; Jai Balaji 325 TPD at Ellenbarrie) are contract-driven and still add revenue.
+   - Merchant volumes face a slower industrial backdrop alongside the diesel/logistics shock Refex reported in Q1.
+
+### 4.5.2 New primer issues (supplementing §3.4; format as primer-issues.md)
+
+#### From Industrial Gases deep-research pass (2026-10-25, industrial-gases-industry.md §4.5.2)
+
+**linde-india.html**
+- **Earnings quality:** FY26 opex is net of a ₹90 Cr one-off liability reversal (results note iv), and "other income" includes a ₹55.5 Cr JV share (Bellary Oxygen reclassified Q3 FY26). Underlying OPM ≈ 32% (not 36%), and underlying PBT fell YoY. Update the §09 margin narrative and cover stat strip.
+- **Segment data now primary:** FY26 gases ₹2,128.2 Cr / PED ₹980.6 Cr / inter-segment ₹578.2 Cr. Segment PBIT gases ₹641.9 Cr (30.2%), PED ₹118.8 Cr (12.1%). Q4 FY26 gases margin 25.2%. Replace the ScanX-sourced numbers and add segment profit.
+- **RPT chronology:** add the SEBI final order 24-Jul-2024, the Supreme Court appeal (filed 16-Dec-2025; admitted 16-Jan-2026, no stay), the NSE valuation report (16-Mar-2026), the IA of 1-Apr-2026, and **"no RPTs with Praxair India after the 5-Mar-2026 EGM"**. Add the auditor's qualified opinion (FY25) on RPT materiality.
+- **JV business-allocation map** (from the company's own note): Linde India = new merchant East/North/West (ex-Maharashtra bulk) + all PED; Praxair India = South/Central/Maharashtra bulk + CO₂/HyCO/PST. Use this exact wording, not the CCI-era summary.
+- **Praxair RPT scale:** FY25 revenue from PIPL ₹265 Cr and purchases ₹171 Cr (FY24 ₹438 Cr / ₹202 Cr). Stopping them is a revenue risk in FY27.
+- **No earnings calls:** the primer should not cite "management guidance" from calls. Linde India does not hold them.
+- **Power and energy:** power & fuel 16.5% of revenue; 24 plants; RE share 12.7% (BRSR). Add to the cost-structure section.
+- **Competitive framing:** INOXAP (FY26 revenue ₹3,034 Cr, EBITDA 51%, PAT ₹914 Cr, 22.4% share) is now the revenue leader and has filed for an IPO. Add it as the key comparable in §06/§09.
+
+**ellenbarrie-industrial-gases.html**
+- **Capacity table:** replace the four-plant map with the deck's 10-plant table. Bulk 915 TPD (Uluberia-I 115, Uluberia-II 220, Vizag 170, Jadcherla 130, Kurnool 260, Kharagpur 20) + on-site 1,018 TPD (Kharagpur 204 + 154, Kurnool 340, Jai Balaji Durgapur 325/320) = 1,933 TPD. NMDC Nagarnar 2 × 1,250 TPD is an O&M contract only.
+- **Jai Balaji 325 TPD on-site** (15-yr take-or-pay BOO) commissioned 25-Sep-2026. Add it to "what's new".
+- **BHEL contract detail:** ₹480.73 Cr ex-GST, 24-month execution, for the 2,000 TPD coal-to-AN project at Bandhabal, Jharsuguda. It is 64× FY26 PED revenue (₹7.5 Cr), so flag execution risk.
+- **Treasury and other income:** AIFs ₹197.6 Cr (₹154.7 Cr Level-3), loans ₹55.5 Cr mostly against pledged listed securities, AIF commitments ₹55.7 Cr, while borrowings are ₹180 Cr. Other income was 37% of Q1 FY27 PBT. Add to risks and to the "fortress balance sheet" language.
+- **Power cost trend:** 36.1% (FY23) → 21.6% (FY26) of revenue. This is the main margin driver and belongs in the margin bridge.
+- **Revenue mix:** on-site was only 15.6% of FY25 gas revenue and ~20% of Q1 FY27 revenue, despite 53% of TPD. Steel 35% of Q1 FY27 revenue. Customers: 3 on-site, 328 bulk, 1,498 packaged.
+- **Guidance:** ≥40% EBITDA long-term (not quarterly). Capex ₹250 Cr FY27 / ₹200 Cr FY28 for North (220 TPD) and West-Central bulk plants (450–500 TPD combined). Merchant ramp 18–24 months; ~3-year payback after ramp. Argon prices recovering but below H1 FY26.
+- **FY25 base:** ₹348 Cr is total income; revenue is ₹312.5 Cr (fix the cover/body).
+- **IPO money:** ₹68.1 Cr unutilised at Mar-26, including ₹47.8 Cr earmarked for Uluberia-II although the plant was commissioned in Jan-2026.
+
+**refex-industries.html**
+- **Segments are right, the PAT label is not.** The primer's ash ~₹2,013 Cr and wind ~₹233 Cr match the AR (ash ₹2,012.7 Cr, wind ₹237.5 Cr). **Retract §3.4's suggestion to use screener's 58/17/7/1/17 mix.** But label PAT: ₹242.4 Cr = consolidated continuing; ₹247.2 Cr = standalone continuing; ₹203.7 Cr = consolidated total incl. discontinued.
+- **Wind description:** keep the earlier correction (WTG maker/EPC, not generation). Add: Venwind ~77% owned, technology bought outright (no royalty), Silvassa leased ~1 GW assembly, first 5.3 MW turbine erected at Koppal, FY27 guidance ₹1,700–1,800 Cr at 5–6% *net*.
+- **Tax demand:** ₹35.67 Cr (AY2016-17), quashed by Madras HC 28-Apr-2026. Pending: AY2019-20 ₹46.3 Cr and AY2021-22 ₹11.4 Cr. Drop the ₹357 Cr figure.
+- **Warrants:** ₹130.69 Cr upfront forfeited 7-May-2026 (not P&L). ₹392 Cr of the ₹905 Cr preferential programme never called.
+- **Concentration:** NTPC 28% + IL&FS TN Power 12% of revenue. Corporate guarantees for subsidiaries ₹509 Cr.
+- **Governance dates:** IT search 9–13 Dec 2025 (final order awaited); SEBI order 12-Dec-2025; SAT stay 13-Feb-2026.
+- **Ash guidance:** EBITDA 15–18%, net 10–12%; 42 plants (~30–35% of TPPs); 65–70k t/day → 75–90k by Q4 FY27 (two figures given on the same call).
+
+**Sector page / report (industrial-gases)**
+- Use **~₹13,500 Cr (FY26)** as the market, citing CRISIL (via INOXAP DRHP) and Ken. Note that Ken's segment splits are F&S's.
+- Replace all "Linde ~26% / INOXAP ~25% / Air Liquide ~7%" text with the F&S FY24 table and CRISIL FY26 INOXAP 22.4%.
+- Add the **INOXAP IPO** to "What to watch" (SEBI observations; listing likely 2027) [E timing].
+
+### 4.5.3 Additional source URLs (Part 4; all fetched 25-Oct-2026 unless marked)
+- **Ellenbarrie:**
+  - https://ellenbarrie.com/investors/ (index)
+  - …/wp-content/uploads/2026/09/Announcement-Earnings-Conference-Call-Transcript.pdf
+  - …/2026/08/Announcement-Earnings-Conference-Call-Investor-Presentation.pdf
+  - …/2026/09/Annual-Report-2026.pdf
+  - …/2025/06/Ellenbarrie_RHP.pdf
+  - …/2026/09/Announcement-Awarding-of-Contract-BHEL-28092026.pdf
+  - …/2026/09/Announcement-Commissioning-of-Jai-Balaji-ASU-Plant25092026.pdf
+  - …/2026/09/Credit-Rating-28092026.pdf
+  - …/2026/08/Unaudited-Financial-Results_June-30-2026.pdf
+- **Linde India:**
+  - https://nsearchives.nseindia.com/corporate/ixbrl/INTEGRATED_FILING_INDAS_165069_30052026203928_iXBRL_WEB.html
+  - https://nsearchives.nseindia.com/corporate/LINDEINDIA1_20072026163335_Linde_India_BRSR_to_SE_90th_AGM.pdf
+  - https://assets.linde.com/-/media/global/apac/linde-india-limited/investor-relations/annual-reports/linde-india-limited_annual-report-2024-25.pdf
+  - https://www.linde.in/news-and-media/local-news/2024/linde-signs-agreements-to-de-captivate-two-air-separation-units
+- **Refex:**
+  - https://refex.co.in/api/cms/investors/page-content/slug/recording-transcripts-of-post-earnings-quarterly-calls (index)
+  - https://refex.co.in/uploads/pdfs/recording-transcripts/pdf-1785824630484-672866296.pdf (Q1 FY27 call)
+  - https://refex.co.in/uploads/pdfs/investor-presentation/pdf-1785407077070-914744604.pdf (Q1 FY27 deck)
+  - https://refex.co.in/uploads/pdfs/annual-reports/REFEX_INDUSTRIES_LIMITED_Annual_Report_FY2025-26.pdf
+  - https://refex.co.in/uploads/pdfs/recording-transcripts/pdf-1780404527576-23560248.pdf (Q4 FY26 call; downloaded, not mined)
+- **INOXAP:** https://www.sebi.gov.in/sebi_data/commondocs/oct-2026/Inox%20Air%20Products%20Limited-%20Draft%20Abridged%20prospectus_p.pdf ; taxguru.in/?p=1087125 [V-snip, offer detail]
+- **Linde plc:** https://assets.linde.com/-/media/global/corporate/corporate/documents/press-releases/2025/linde-4q25-earnings-release-tables.pdf
+- **PIB:** PressReleasePage.aspx?PRID=2288774 (steel, 24-Jul-2026); PRID=2222471 (NGHM, 3-Feb-2026); PRID=1894908 (PSA plants, 31-Jan-2023)
+- **TradeStat:** https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_import (POST by HS code, FY2025-26, ₹ Cr)
+- **[V-snip]:** airliquide.com 2025 annual results PR (20-Feb-2026); SEC ARS Air Products FY2025; simplywall.st (Nippon Sanso FY Mar-25); 5paisa / Angel One (Ellenbarrie listing); ispatguru (BOF O₂); taxscan (GST 56th Council); quartr (Linde India Q1 FY27 summary)
+- **Blocked or unreachable:** api.bseindia.com (Akamai "Access Denied" with UA Mozilla/5.0); india-limited.sc10prd.linde.com (proxy 502); Linde India FY26 AR and Q1 FY27 results PDFs (file names unknown on assets.linde.com); TradeStat 2811 and exports (HTTP 419 session expiry)
+
+*End of Part 4.*
