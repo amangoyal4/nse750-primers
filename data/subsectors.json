@@ -1821,6 +1821,23 @@
         "Balrampur PLA and Renuka leverage"
       ],
       "published": "2026-10-24"
+    },
+    {
+      "name": "Passenger Vehicles",
+      "slug": "passenger-vehicles",
+      "file": "passenger-vehicles.html",
+      "sector": "Automobile & Ancillaries",
+      "subsector": "Passenger Cars & Utility Vehicles",
+      "companies": 4,
+      "accent": "#1C64D8",
+      "hook": "A record boom that earns less: how GST 2.0 revived India's small car while commodities, the rupee and a West Asia fuel shock cut margins, why a third of Maruti's and Hyundai's profit goes to their parents, how JLR became the swing factor, and why a truck maker sits in this bucket.",
+      "tags": [
+        "The GST experiment",
+        "JLR's lost year",
+        "Two Tata Motors",
+        "EVs and CAFE III"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -1870,7 +1887,7 @@
       "sector": "Automobile & Ancillaries",
       "sub": "Passenger Cars & Utility Vehicles",
       "companies": 4,
-      "report": null
+      "report": "passenger-vehicles.html"
     },
     {
       "sector": "Automobile & Ancillaries",
