@@ -46,3 +46,47 @@
   - The **West Asia war's** two-way effect (logistics costs for Indian exporters; blocked Chinese supply to the Gulf) is mentioned only for HEG's Q4 FY26.
   - Market caps are 3+ months stale: GI +8%, RHIM −27%; HEG n.m. (demerged).
 
+
+## From Electrodes & Refractories deep-research pass (2026-10-25, electrodes-refractories-industry.md §4.5.2)
+
+
+### graphite-india.html
+- **EBITDA basis.**
+  - If the primer quotes "EBITDA ₹375 Cr / 13%" for FY26, label it "including other income ₹174 Cr". The core figure is ₹202 Cr (7.1%).
+  - Q1 FY27 = ₹241 Cr (28.6%) incl. OI; core ₹144 Cr (17.1%).
+- **Exports.** "Exports less than half": 41.4% of standalone turnover (BRSR FY26); RoW 42.6% consolidated. Remove any "60–70% exported" claim.
+- **Capacity.** 80,000 tpa (Durgapur + Nashik). German electrode production was shut in FY2022-23, and the Specialities & Coatings divisions are now being closed (permanent, not "six months").
+- **FY24 profit.** The ₹954 Cr exceptional is the **Bengaluru land sale to Tata Realty (₹986 Cr, Aug-2023)**, not an investment gain.
+- **Dividend.** FY26 DPS ₹7.
+- **Net cash.** ₹3,939 Cr at Jun-2026.
+- **Trade.**
+  - US prelim AD 12.22% (cash deposit 9.88%) + CVD 3.68%. Critical circumstances, so deposits apply retroactively from 2-Jul-2026.
+  - Finals ~Feb-2027; ITC hearing 9-Feb-2027.
+  - Brazil AD investigation initiated.
+- **Godi.** 45.76% associate at FY26 → 52.68% subsidiary (Oct-2026). Development stage, no revenue.
+- **Customer concentration.** One customer = ₹354 Cr (12% of revenue).
+
+### heg.html
+- **Structure.**
+  - The electrode company (HEG Limited, ex-HEG Graphite) keeps 100 → 115 kt, 66 MW thermal + 13.5 MW hydro captive power and the **9.98% GrafTech stake**. Promoters 56.28%; ~19.3 Cr shares.
+  - HEGAM has ~32.9 Cr shares and 60.72% promoters, with ~₹1,500 Cr gross debt by Mar-2027.
+- **Margins.** "29% EBITDA" includes other income; core ~23–24% (Q1 FY27).
+- **Q4 FY26 loss.** It was the GrafTech fair-value loss inside other expenses, not operations.
+- **Exports.** 67% (BRSR); US <10%; MENA ~20%.
+- **Trade.** US prelim AD 4.97% (cash deposit 1.15%) + CVD 6.99%; finals ~Feb-2027.
+- **Expansion.** 115 kt at ₹650 Cr capex, production Q1 CY2028. FY26 DPS ₹3.40.
+- **Correction.** The "70% of capacity on 3–5-year contracts" refers to TACC anodes, not electrodes.
+
+### rhi-magnesita-india.html
+- **Shipments.** FY26 523,396 t, +4.7% (not +9.4%). Production 339,717 t.
+- **Capacity.** 512 kt installed (not ~525 kt); utilisation ~66%.
+- **Related parties.** Royalty ₹35.1 Cr, IT charges ₹51.0 Cr, commission ₹25.4 Cr, purchases from group ₹404 Cr, sales to group ₹352 Cr.
+- **Market size.** The AR quotes India at ~US$2.6 bn (2025). Reconcile with the "30%+ share" claim.
+- **FY27 guidance.** ~13% EBITDA; 7–8% volume ("not 9%"); capex ₹80–100 Cr/yr. Magnesite is up 6–8% (Jun–Aug 2026). Dalmia (IR) is flat. Dalmia goodwill is fully written off.
+- **Exports.** Outside-India revenue 9.8% (₹389 Cr) and falling. Exports run mainly via the parent.
+
+### General (all three)
+- India's EAF share is ~19.7% (Apr–Dec 2025, MoS) and slipping. Do not imply that India's growth drives electrode demand.
+- India had an ADD on Chinese electrodes (2015–2018). There is none now.
+- Safeguard on flat steel: 12% → 11.5% → 11% to Apr-2028 (Notification 02/2025-Cus (SG)).
+
