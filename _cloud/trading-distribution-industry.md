@@ -1397,3 +1397,649 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
   - TD SYNNEX Q4 FY25: https://www.sec.gov/Archives/edgar/data/1177394/000117739425000002/ex991-fy24q4pressrelease.htm [V-snip]
   - Apollo/Keimed: https://www.adventinternational.com/news/apollo-247-to-raise-inr-2475-crores-from-advent-international-merge-keimed-with-apollo-247/ [V-snip]
 - **Sibling reports reused:** subsectors/consumer-electronics.html (memory shock, smartphone Q1 CY26); subsectors/computer-hardware.html (Rashi OPM/CCC, Redington comparisons); _cloud/ref/example-dossier-commodity-chem.md (FX ₹94.9, West Asia chronology).
+
+---
+
+# PART 4 — Deep-research supplement (25-Oct-2026)
+
+**What this pass did.** It was a second, primary-source pass with ~45 web fetches/searches plus re-reads of primary documents saved by the first pass. Scratch notes are in /tmp/trading-distribution-deep/notes.md.
+
+**Primary documents read this session (all free, no login):**
+- **Redington**
+  - Audited FY26 results with balance sheet and cash flow, board 13-May-2026: https://redingtongroup.com/wp-content/uploads/2026/05/Q4-Financials.pdf
+  - **FY26 Annual Report** (153 pp; AOC-1, NCI note, Ind AS 29 note, borrowings, contingencies): https://redingtongroup.com/wp-content/uploads/2026/07/annual-reportFY-25-26.pdf
+  - Q1 FY27 unaudited results (scanned; pages rendered and read): https://redingtongroup.com/wp-content/uploads/2026/07/FS-for-website.pdf
+  - Re-read: Q1 FY27 and Q4 FY26 earnings decks (vendor slides rendered to images); Q1 FY27 call transcript (30-Jul-2026).
+  - **CRISIL rating rationale, 27-May-2026:** https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/RedingtonLimited_May%2027_%202026_RR_396203.html
+- **Entero**
+  - **Q1 FY27 call transcript** (call 10-Aug-2026, filed 17-Aug): https://www.enterohealthcare.com/investor/documents/Financials/Earning_Call_Transcripts/Earnings_call_Transcript_april-june-2026.pdf
+  - **Q1 FY27 investor presentation:** https://www.enterohealthcare.com/investor/documents/Financials/Investor_Presentations/EHSL_Q1FY27_Investor_Presentation_v8.pdf
+  - **FY26 Annual Report:** https://www.enterohealthcare.com/investor/documents/Annual_Report/Annual-Report_2025-26.pdf
+  - India Ratings affirmation letter (Dec-2025): https://www.enterohealthcare.com/investor/documents/Credit-rating.pdf
+- **MMTC**
+  - FY26 Annual Report (re-read: consolidated statements and Note 42 on JVs): https://www.bseindia.com/xml-data/corpfiling/AttachHis/55747249-79bd-4a68-bcab-d9c015559dc0.pdf
+- **Industry and peers**
+  - IDC India PC CY2025 release (5-Mar-2026) and India smartphone Q2 2026 release (11-Aug-2026).
+  - RBI Governor's statement, 7-Oct-2026 (rbi.org.in prid=63744).
+  - TCMB (Turkish central bank) CPI table.
+  - NPPA order as reported by All India Radio (newsonair).
+  - SEC XBRL company facts for Ingram Micro, TD SYNNEX, Arrow, Avnet, McKesson, Cencora and Cardinal Health (data.sec.gov).
+  - Screener pages for Rashi Peripherals, MedPlus and Optiemus.
+
+**Could not reach:**
+- MMTC's own website (TLS certificate chain broken; TLS verification was not disabled).
+- BSE's API (403).
+- NSE (blocks bots).
+- MMTC Q1 FY27 figures therefore remain screener plus a secondary summary of the audit-qualification statement.
+
+**Tagging in Part 4:**
+- **[V]** = read this session in the named primary document. A re-read of a primary PDF saved by the first pass counts.
+- **[V-snip]** = secondary or search summary only.
+- **[E]** = arithmetic on [V] inputs.
+
+## 4.0 Supersedes — corrections to Parts 1–3 (the writer must apply these)
+
+| # | Where in Parts 1–3 | Old value / statement | New value / statement | Source |
+|---|---|---|---|---|
+| S1 | Header "Units" bullet; trap 3; §2.1/2.5 | Company "revenue" ₹1,19,347 Cr is ₹185 Cr above screener because of "classification of other operating revenue" | **₹1,19,347.43 Cr is TOTAL INCOME**: revenue from operations ₹1,19,162.36 Cr + other income ₹185.07 Cr. Q1 FY27 is the same: ₹34,966 Cr = ₹34,922.47 Cr ops + ~₹43 Cr other income. Company "EBITDA" ₹2,414 Cr = PBT before exceptional ₹1,849.40 + finance ₹358.66 + D&A ₹206.43, so it **includes other income**. Screener OP ₹2,348 Cr excludes it. | [V] Q4-Financials.pdf |
+| S2 | Trap 3; §0; Part 2.0/2.1/2.4 JSON `pat_attrib_est` | Redington FY26 attributable PAT "~₹1,490 Cr [E]" | **₹1,490.22 Cr [V]** (FY25 ₹1,604.84 Cr). NCI share is −₹206.07 Cr (FY25 +₹215.78 Cr). Q1 FY27 attributable **₹485.98 Cr** (Q1 FY26 ₹275.27 Cr); NCI −₹32.49 Cr. The deck's "PAT ₹486 Cr" is the statutory attributable figure, **not** an adjusted number. | [V] Q4-Financials; FS-for-website (Q1) |
+| S3 | §H5; Part 2.0 "Net debt n/s"; Part 2.4 JSON `cash: null`; §3.2(c) | Redington cash and net debt "not sourced"; EV/EBITDA ~13.2× on gross debt | **Cash & equivalents ₹1,109.76 Cr + other bank ₹11.74 Cr = ₹1,121.5 Cr** (CRISIL: "cash surplus ~₹1,122 Cr", mostly in overseas subsidiaries). **Borrowings ₹2,637.45 Cr** (screener's ₹2,842 Cr adds ₹204 Cr of leases). **Net debt ex-leases ₹1,516 Cr** (Mar-25 ₹1,238 Cr); incl. leases ₹1,720 Cr. Net debt/EBITDA 0.63×. EV (m-cap + net debt + NCI ₹263 Cr) ≈ ₹29,850 Cr → **EV/OP ~12.7× FY26, ~11.8× TTM** [E] | [V] Q4-Financials; [V] CRISIL |
+| S4 | §H6; trap 5; §2.2; Part 2.1 "Arena revenue (derived)" | Arena FY26 revenue ~₹6,824 Cr, EBITDA ~−₹90 Cr [E]; Redington owns "~49%" | **Arena (consolidated, before eliminations) FY26 revenue ₹6,781.49 Cr (FY25 ₹8,304.00 Cr); loss ₹407.25 Cr incl. the ₹152.31 Cr impairment (FY25 profit ₹426.41 Cr incl. the Paynet gain); equity ₹434.42 Cr.** NCI holds **50.60%**; Redington's effective interest is **49.4%** | [V] AR FY26 NCI note and AOC-1 |
+| S5 | §H6; trap 5 "IAS 29 monetary gain/loss unquantified" | Unquantified | Still not disclosed as a P&L line ("impact … not significant", AR Note 46). The consolidated cash-flow statement shows the **non-cash "impact on account of application of Ind AS 29": −₹24.18 Cr FY26** (a net gain added back) **vs +₹29.04 Cr FY25** (a net charge). Use "±₹25–30 Cr a year, immaterial". | [V] Q4-Financials cash flow |
+| S6 | §H3; §5.1; Part 2.1 "Vendors" | Vendor split beyond Apple "unmappable" | **FY26 (FY25):** Apple 31% (30), **Lenovo 10% (8), HP 9% (10), Dell EMC 5% (6), Samsung 5% (6)**, others 40% (40). **Q1 FY27 (Q1 FY26):** Apple 31% (34), Lenovo 11% (8), HP 7% (9), Dell EMC 5% (6), Microsoft 3% (3), others 43% (39). **Top-5 = 60% FY26 / 57% Q1 FY27** | [V] deck slides rendered to images |
+| S7 | §0, §3, Part 2.1 "Ownership"/"Ratings" | "AA+/Stable (ICRA/CRISIL)" | **CRISIL AA+/Stable / A1+ reaffirmed 27-May-2026** on ₹3,000 Cr bank lines and a ₹1,900 Cr CP programme. ICRA's latest found is **30-Sep-2025** (AA+(Stable)/A1+, ₹1,900 Cr CP) [V-snip] | [V] CRISIL rationale |
+| S8 | §H7; Part 2.3; trap 3; JSON `pat_attrib_est: 115` | Entero FY26 attributable "~₹115 Cr [E]" | **₹115.04 Cr [V]** (FY25 ₹94.82 Cr, +21%); NCI ₹30.80 Cr = **21% of PAT ₹145.84 Cr** (FY25 ₹12.61 Cr) | [V] Entero AR FY26 consolidated P&L |
+| S9 | §H7; Part 2.3 "CFO 96 (Arihant: 379)"; JSON `cfo_arihant` | Conflict ₹96 Cr vs ₹378.7 Cr | **CFO ₹96.2 Cr [V]** (₹962.02 mn; FY25 −₹76.9 Cr). Cash generated before tax ₹149.95 Cr; tax paid ₹53.75 Cr. **Arihant's ₹378.7 Cr is wrong; drop it.** CFO/EBITDA = 36%. Acquisition consideration paid ₹342.2 Cr; capex ₹67.5 Cr | [V] Entero AR cash-flow statement |
+| S10 | Part 2.0 (Entero net debt ~515); §3.2(c) | Net debt ₹515 Cr (677 − 162, Arihant) | Borrowings **₹566.7 Cr** (non-current 122.6 + current 444.1) + leases ₹110.5 Cr = ₹677 Cr (= screener). Cash ₹146.9 Cr + other bank ₹14.9 Cr + current investments (mutual funds) ₹129.9 Cr = ₹291.7 Cr liquid. **Net debt ex-leases ≈ ₹275 Cr; incl. leases ≈ ₹386 Cr** [E from V]. EV/OP ≈ 25.3× FY26 / 21.5× TTM [E] | [V] Entero AR balance sheet |
+| S11 | §H8; §9.1; §9.2; Part 2.3; Part 3.3 | Entero ROCE "definitions not published"; "company 21.1% likely excludes goodwill/cash [E]" | **Published:** RoCE = EBIT ÷ average capital employed, where **capital employed = tangible net worth (equity − intangibles incl. goodwill) + borrowings + DTL**. RoE = PAT ÷ average tangible net worth. **FY26 company ROCE 14.60% (FY25 10.7%); ROE 12.49% (7.7%); RONW 8.32% (6.07%).** Q1 FY27 ROCE 21.1% (deck bullet says 21.0%); Q4 FY26 18.4%; Q1 FY26 11.5%. The primer's 14.6% is the company figure, now confirmed | [V] Entero Q1 deck slide 8; AR MD&A |
+| S12 | Trap 8; §0; Part 2.3 "FY26 organic 15.6%" | "FY26 organic 15.6% vs IPM ~10%" | **15.6% is like-for-like organic. Reported organic was 13.4%.** Quarterly reported organic: Q1 FY26 12.0%, Q2 10.7%, Q3 14.2%, Q4 16.6%; LFL 15.0/13.4/17.1/17.1. Inorganic FY26 16.0% (5.3 calendarisation + 10.7 new deals) | [V] Entero Q1 FY27 deck slide 9 |
+| S13 | §4.3; Part 2.3 "Reach" | 1.05 lakh pharmacies; 3,600 hospitals; 523 districts; 136 WH; 97,500 SKUs; 3,300 makers (Arihant Q4) | **Company Q1 FY27 deck/call: 72,000+ retail customers (71,000+ a year earlier); 2,300+ hospitals (2,500+); 83,400+ SKUs (74,700+); 3,000+ manufacturers (2,600+); 138 warehouses (102); 475 districts (469); 19+ states; ~45 cities; 51 acquisitions to date.** Arihant's numbers are on another basis (likely total accounts served in FY26) and should not be used alongside these | [V] deck slide 11; transcript |
+| S14 | §H9; Part 2.3 "M&A" | 3 of 7 FY26 deals named | **All 7 FY26 deals named** (AR Note 46; see 4.2.3). "~₹210–230 Cr" for Anand Chemiceutics → **₹172.84 Cr for 51.51%** (incl. contingent consideration) | [V] Entero AR Note 46 |
+| S15 | Part 2.2 MMTC-PAMP; §3.3 | MPIPL FY26 PAT ₹667.0 Cr; turnover ₹79,665 Cr | Audited JV summary (Note 42): **revenue ₹79,659.18 Cr (FY25 ₹37,174.82 Cr); PAT ₹674.29 Cr (FY25 ₹65.77 Cr)**; net assets ₹1,133.00 Cr; dividends paid ₹126.15 Cr. MMTC's 26% share of net assets is ₹294.58 Cr. Keep ₹667 Cr only if the directors' report is cited | [V] MMTC AR Note 42 |
+| S16 | §H12; trap 4 | MMTC JV share ₹175.31 Cr [V-snip] | **₹175.31 Cr [V]** (FY25 ₹17.10 Cr) from the consolidated cash-flow adjustment. Consolidated cash = standalone (₹2.70 Cr cash + ₹1,785.97 Cr bank balances): the JV is equity-accounted and MTPL is not consolidated | [V] MMTC AR consolidated statements |
+| S17 | Header "Macro"; §0 | RBI hike "on a 4–2 vote" | **The repo decision was UNANIMOUS** (Governor's statement). Stance changed to "calibrated tightening"; no separate stance vote is given in the statement. Projections: GDP FY27 7.1% (Q2 7.2, Q3 6.9, Q4 6.8); CPI FY27 5.2% (Q2 4.9, Q3 6.0, Q4 5.7; Q1 FY28 5.6); core 4.4%. Drop "4–2" unless the 21-Oct minutes show it for the stance | [V] RBI prid=63744 |
+| S18 | §2.1, §H2 | India PCs CY2025 "~15 m [K]"; smartphones "~150 m [K]" | **PCs CY2025 15.9 m (+10.2%), Q4 CY25 4.1 m (+18.5%) [V IDC 5-Mar-2026].** Smartphones CY2025 **"below 150 m"** (IDC Q3 CY25 release) [V-snip]; IDC sees **CY2026 at ~128–130 m** and iPhone at 14.3 m in 2025, falling mid-single digits in 2026 [V IDC 11-Aug-2026] | IDC |
+| S19 | §2.3, §H11 | IPM "~₹2.3–2.4 lakh Cr [K]" | **CY2025 IPM ₹2,40,672 Cr (+8.1%), Pharmarack** [V-snip]. MAT to Sep-2026: value +10.9%, units +1.5% [V-snip] | Pharmarack via Tribune/Biospectrum |
+| S20 | Header (Turkey CPI) | 29.73% [V-snip] | **29.73% Sep-26 (m/m 1.84%) [V TCMB]**; 2026 peak 32.61% (May); Mar-26 30.87%; Mar-25 38.10% | TCMB table |
+| S21 | §10 global lens | All [K]/[V-snip] | Replaced by the SEC XBRL table in 4.3.4: TD SYNNEX FY25 **$62.51 bn, GM 6.99%, GAAP OPM 2.26%**; McKesson FY26 **$403.4 bn**, GM 3.61%, OPM 1.54%; Cencora FY25 $321.3 bn, 3.57%, 0.82%; Cardinal FY26 $254.3 bn, 3.84%, 1.03%; Arrow FY25 $30.85 bn, 11.24%, 2.66%; Avnet FY26 $27.63 bn, 10.43%, 2.62%; Ingram FY25 $52.56 bn, 6.67%, GAAP OPM 1.67% | [V] data.sec.gov |
+| S22 | §2.1, §10 | Rashi FY26 "~₹15,000 Cr [K]"; MedPlus "~₹6,500–7,000 Cr [K]" | **Rashi FY26 ₹15,827 Cr, OPM 2.9%, PAT ₹282 Cr; Q1 FY27 ₹5,102 Cr (+62%). MedPlus FY26 ₹6,892 Cr, OPM 9%, PAT ₹220 Cr** | [V] screener 25-Oct-26 |
+| S23 | §9.1; Part 2.1 KPI | Redington "AR provision 0.39% of sales" only | Also: FY26 **allowance for receivables incl. bad debts ₹223.90 Cr vs ₹59.47 Cr FY25 (3.8×)** = 0.19% of revenue. CRISIL: receivable + inventory provisions <0.3% of revenue | [V] Q4-Financials; CRISIL |
+| S24 | Part 2.1 "Cloud share"; §3.4 primer issue | SSG = 16.6% of revenue; margin unknown | Still no SSG margin. **AR: SSG grew 37% in FY26 and ~74% of SSG revenue is recurring.** CRISIL: "cloud" = 17% of FY26 revenue. META cloud +40%; META SSG +20% | [V] AR Chairman's letter/MD&A; CRISIL |
+| S25 | Part 2.1 WC days | Company WC days FY26 "30" | Q4 FY26 global **30**, SISA **24**, ROW **40**; Q1 FY27 global 32, SISA 31, ROW 32. CRISIL: FY26 NWC 34 days (36), guided to 36–40 days. **Standalone India FY26 35 → 31 days** (AR) | [V] Q1 deck; CRISIL; AR |
+
+## 4.1 Verification table — 40 figures the writer will use
+
+Columns:
+- **Fetched?** V = primary document read this session; V-snip = secondary only; E = arithmetic on V inputs.
+- **Agrees with Parts 1–3?** ✓ = yes; ✗ = no (see Supersedes); new = not in Parts 1–3.
+
+URL short-forms:
+- [RQ4] = https://redingtongroup.com/wp-content/uploads/2026/05/Q4-Financials.pdf
+- [RAR] = https://redingtongroup.com/wp-content/uploads/2026/07/annual-reportFY-25-26.pdf
+- [RQ1R] = https://redingtongroup.com/wp-content/uploads/2026/07/FS-for-website.pdf
+- [RQ1D] = Q1 FY27 deck, https://redingtongroup.com/wp-content/uploads/2026/10/Earnings-Presentation-Q1FY27.pdf (same content as the NSE filing in §3.5)
+- [RQ4D] = https://redingtongroup.com/wp-content/uploads/2026/05/Redington-Earning-Presentation-03.02.26-FINAL.pdf
+- [RTX] = https://redingtongroup.com/wp-content/uploads/2026/08/Q1FY27-Earnings-call-Transcript-Final.pdf
+- [CRI] = CRISIL rationale 27-May-2026 (URL in the 4.0 header)
+- [EAR] = Entero AR FY26
+- [ED] = Entero Q1 FY27 deck
+- [ETX] = Entero Q1 FY27 transcript
+- [MAR] = MMTC AR FY26
+
+| # | Figure | Value | Primary source (URL) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Redington FY26 revenue from operations | ₹1,19,162.36 Cr (+20.0%) | [RQ4] | V | ✓ (screener 1,19,162) |
+| 2 | Redington FY26 "revenue" in decks = total income | ₹1,19,347.43 Cr = ops + other income ₹185.07 Cr | [RQ4] | V | ✗ (S1) |
+| 3 | Redington FY26 PAT (incl. NCI) / attributable | ₹1,284.15 Cr / **₹1,490.22 Cr** | [RQ4] | V | ✓ / ✗ was [E] (S2) |
+| 4 | Redington company PAT ex-impairment | ₹1,565 Cr (= 1,490.22 + 75.24) | [RQ4D]; [RQ4] impairment note | V | ✓ (now reconciled exactly) |
+| 5 | Arena trade-name impairment / Redington share | ₹152.31 Cr / ₹75.24 Cr | [RQ4] note 6(iv) | V | ✓ |
+| 6 | Redington cash + other bank, 31-Mar-26 | ₹1,109.76 + ₹11.74 = ₹1,121.5 Cr; CRISIL "~₹1,122 Cr" | [RQ4]; [CRI] | V (two sources agree) | new (S3) |
+| 7 | Redington borrowings 31-Mar-26 | ₹2,637.45 Cr (secured ₹1,425.13; unsecured ₹1,212.32; CP nil vs ₹687.23 Cr a year earlier) | [RQ4]; [RAR] Note 23 | V | ✗ screener 2,842 includes ₹204 Cr of leases |
+| 8 | Redington net debt ex-leases Mar-26 | ₹1,516 Cr (Mar-25 ₹1,238 Cr) | arithmetic on #6/#7 | E | new |
+| 9 | Redington CFO FY26 | ₹231.35 Cr (FY25 ₹292.62 Cr); receivables −₹4,478 Cr, inventory −₹1,884 Cr, payables +₹4,625 Cr | [RQ4] | V | ✓ |
+| 10 | Redington Q1 FY27 revenue / attributable PAT | ₹34,922.47 Cr / ₹485.98 Cr (₹275.27 Cr) | [RQ1R] | V | ✓ |
+| 11 | Redington Q1 FY27 segment PBT SISA / ROW | ₹443.97 Cr / ₹166.90 Cr (₹283.21 / ₹21.12 Cr) | [RQ1R] | V | new |
+| 12 | Apple share of Redington revenue | 31% FY26 (30%); 31% Q1 FY27 (34%) | [RQ4D] slide 25; [RQ1D] slide 14 | V | ✓ |
+| 13 | Next four vendors FY26 | Lenovo 10%, HP 9%, Dell EMC 5%, Samsung 5% | [RQ4D] slide 25 | V | ✗ was "unmappable" (S6) |
+| 14 | Arena FY26 revenue / loss | ₹6,781.49 Cr / −₹407.25 Cr (incl. impairment) | [RAR] NCI note | V | ✗ was 6,824 [E] (S4) |
+| 15 | Redington effective interest in Arena / NCI | 49.4% / 50.60% | [RAR] AOC-1 and NCI note | V | ✓ (refines "~49%") |
+| 16 | Ind AS 29 non-cash adjustment | −₹24.18 Cr FY26; +₹29.04 Cr FY25 | [RQ4] cash flow | V | new (S5) |
+| 17 | Arena Q1 FY27 loss / Redington share | ₹64 Cr / ₹31 Cr | [RTX] | V (re-read) | ✓ |
+| 18 | SSG growth and recurring share | +37% FY26; ~74% recurring | [RAR] Chairman's letter | V | new |
+| 19 | Redington credit rating | CRISIL AA+/Stable, A1+; CP ₹1,900 Cr; bank lines ₹3,000 Cr, 81% average utilisation | [CRI] | V | ✓ (refined) |
+| 20 | Redington WC days | Q1 FY27 global 32 (37), SISA 31, ROW 32; Q4 FY26 30 | [RQ1D] slide 13 | V | ✓ |
+| 21 | Entero FY26 attributable PAT / NCI | ₹115.04 Cr / ₹30.80 Cr | [EAR] consolidated P&L | V | ✗ was [E] (S8) |
+| 22 | Entero FY26 CFO | ₹96.2 Cr | [EAR] cash flow | V | ✗ Arihant ₹378.7 Cr dropped (S9) |
+| 23 | Entero borrowings / leases / liquid assets Mar-26 | ₹566.7 Cr / ₹110.5 Cr / ₹291.7 Cr | [EAR] balance sheet | V | ✗ net debt 515 → ~275 ex-leases (S10) |
+| 24 | Entero goodwill Mar-26 | ₹749.09 Cr (₹423.96 Cr) | [EAR] | V | ✓ |
+| 25 | Entero ROCE FY26 and definition | 14.60% on tangible capital employed | [EAR] MD&A; [ED] slide 8 | V | ✗ basis was unknown (S11) |
+| 26 | Entero Q1 FY27 PAT / owners / NCI | ₹52.1 / ₹38.2 / ₹13.9 Cr | [ED] slide 7 | V | ✓ |
+| 27 | Entero organic growth FY26 | 13.4% reported; 15.6% LFL | [ED] slide 9 | V | ✗ (S12) |
+| 28 | Entero FY27 guidance | ~23% revenue growth ex-new M&A (11–12 pts calendarisation); 5% EBITDA margin; 50% EBITDA→OCF; tax 22.5% | [ETX] | V | ✓ (tax new) |
+| 29 | Entero FY26 deals | 7 (Ramson, Sai RK, Well Wisher, Anand Medilink, Ace Cardiopathy, Bioaide, Anand Chemiceutics) | [EAR] Note 46 | V | ✗ was 3 named (S14) |
+| 30 | Entero rating | IND A-/Stable affirmed 3-Dec-2025 | https://www.enterohealthcare.com/investor/documents/Credit-rating.pdf | V | new |
+| 31 | MMTC share of JV profit FY26 | ₹175.31 Cr (₹17.10 Cr) | [MAR] consolidated cash flow | V | ✓ (now V) |
+| 32 | MMTC-PAMP FY26 revenue / PAT | ₹79,659.18 Cr / ₹674.29 Cr (FY25 ₹37,174.82 / ₹65.77 Cr) | [MAR] Note 42 | V | ✗ minor (S15) |
+| 33 | MMTC bank balances 31-Mar-26 | ₹1,785.97 Cr + cash ₹2.70 Cr (same standalone and consolidated) | [MAR] | V | ✓ |
+| 34 | MMTC Q1 FY27 consolidated PAT; after the auditor's qualification | ₹104.24 Cr; ₹21.42 Cr if ₹82.82 Cr were provided | screener (V) + investywise statement of impact (V-snip) | V-snip | ✓ |
+| 35 | India PC shipments CY2025 | 15.9 m (+10.2%); HP 29.1%, Lenovo 18.7%, Dell 15.1%, Acer 15.0% | https://www.idc.com/resource-center/press-releases/india-pc-market-2025/ | V | ✗ was ~15 m [K] |
+| 36 | India smartphones Q2 CY26 / CY26 forecast | 33.2 m (−11.1%), ASP $315; CY26 ~128–130 m | https://www.idc.com/resource-center/press-releases/india-smartphone-shipments-decline-q2-2026/ | V | ✓ / new |
+| 37 | IPM CY2025 size | ₹2,40,672 Cr (+8.1%) | Pharmarack via tribuneindia.com | V-snip | ✗ was [K] range |
+| 38 | NPPA TMR | 137 non-scheduled anti-cancer drugs; **30% of MRP** trade-margin cap; gazette 17-Oct; effective 9-Nov-2026 | https://newsonair.gov.in/govt-caps-trade-margins-on-137-anti-cancer-drugs-at-30-prices-to-reduce-by-70-from-nov-9/ | V | ✓ (30% cap now confirmed for these 137; the "all non-scheduled drugs" cap remains a press report) |
+| 39 | RBI repo | 5.50% (+25 bp), unanimous; SDF 5.25%, MSF 5.75% | https://rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63744 | V | ✗ vote was "4–2" (S17) |
+| 40 | Turkey CPI Sep-2026 | 29.73% y/y (Aug 31.51%) | TCMB inflation table (tcmb.gov.tr) | V | ✓ (now V) |
+
+**Count: 36 of 40 are [V] from primary documents** (#8 is E; #34 and #37 are V-snip). The global-peer SEC figures in 4.3.4 are additional [V].
+
+**Conflicts resolved:**
+- Entero CFO: the AR is audited and beats a broker note, so ₹96.2 Cr stands.
+- Arena revenue: the AR NCI note is audited and pre-elimination; the deck "excl. Arena" difference (₹6,824 Cr) includes intercompany effects. Use ₹6,781 Cr for Arena standalone and ₹6,824 Cr only as "Arena's contribution to group revenue".
+- MMTC-PAMP PAT: ₹674.29 Cr (Note 42) is the audited JV summary; ₹667.0 Cr (first pass) is probably the directors'-report figure. Use ₹674 Cr.
+- RBI vote: the Governor's statement is primary.
+
+## 4.2 Company deep-dives
+
+### 4.2.1 Redington (REDINGTON · 532805)
+
+**(a) Management-guidance digest: Q1 FY27 call, 30-Jul-2026 [V RTX, re-read]**
+
+Management gives no numeric revenue or margin guidance; it explicitly plays it "a quarter at a time". Paraphrased:
+
+1. **Near-term demand.**
+   - Q2 FY27 is expected to be "a good strong quarter".
+   - Q3 should pick up into the festive season. After the festive season the CEO says "we don't know".
+   - Price inflation in PCs and phones "will clearly, at some point, have a dampening effect on consumer buying". Commercial refresh may hold up.
+2. **Price vs volume.**
+   - PC prices are up roughly 25–50% over two to three quarters on component (memory) shortages; PC unit growth is only single-digit.
+   - Price-led growth is "only on the ESG side". SSG, TSG and MSG growth is "largely non-price".
+   - Apple was the last OEM to raise prices. "I don't think there are any others left to increase prices"; expectation: prices "will stabilize at these prices".
+3. **Channel stocking.**
+   - The CEO concedes "there is a stocking of channels … our Tier 2 is stocking up as the prices continue to go up". This is the pre-buy risk IDC flags.
+4. **Margins.**
+   - CFO: large deals (~₹1,000 Cr of neocloud/data-centre deals in Q1) cannot match normal profitability, so expect **dilution in margin %, but "no compromise on return on capital employed"**.
+   - Large deals are called out only when material.
+5. **Funding cost.**
+   - Q1 finance cost of ₹89 Cr is the "steady-state quarterly" run-rate. Market rates are "firming up".
+   - Factoring was cut to ~₹8 Cr (from ~₹31 Cr).
+   - Other income included interest on a ₹147 Cr tax refund (one-off).
+6. **Arena.**
+   - Loss of ₹64 Cr (Redington share ₹31 Cr) in Q1 FY27.
+   - Gross margin is compressed in a "hypercompetitive" Turkish IT market; opex inflation is 35–40%.
+   - Debt was cut from US$120–130 m to ~US$90 m; interest incl. factoring fell from ₹69 Cr to ₹37 Cr.
+   - "It requires a structural change, but options are limited … If the strategic choices happens, I think that would be our preferred choice." Read: a sale or exit is preferred [E]. No deal was announced by 25-Oct (latest filings: 22-Oct AWS collaboration, 16-Oct CP certificate, 1-Oct OPSWAT deal) [V screener].
+7. **Geography.**
+   - GCC-Levant +95% and Africa +39%; UAE ~−3%; Saudi worse.
+   - War logistics: 85% of Gulf supply moved sea → air, ~US$3 m/quarter of extra cost.
+   - Mobility in ROW is "flat to a small degrowth", with recovery expected as the West Asia crisis eases.
+8. **Mobility India.**
+   - Direct-to-retail for a premium Android OEM lifted Redington's share of that OEM from **1.3% to 10%**, through ~6,000 dedicated outlets.
+
+**Rating-agency view (CRISIL, 27-May-2026) [V CRI]:**
+- **Ratings:** AA+/Stable / A1+ reaffirmed.
+- **CRISIL's own expectations** (not company guidance):
+  - Operating margin stabilises at **~2.0–2.2%** (FY26 2.1% vs ~2.4–2.5% FY25).
+  - NWC **36–40 days** (FY26 34, FY25 36) because of large enterprise orders.
+  - ROCE stays >20%; revenue growth >6%.
+  - Interest cover ~4.5× (from ~4×), helped by lower TRY borrowings (priced at 30–35%).
+  - Middle East (30–40% of sales) soft in H1 FY27.
+  - Cash accruals of ₹900–1,100 Cr a year after dividends.
+- **Liquidity:** cash of ~₹1,122 Cr, mostly overseas and "not normally available to the Indian parent".
+- **Triggers:** downgrade if ROCE falls below ~15–16%; upgrade needs TOL/TNW <1.30× (FY26 2.2×).
+
+**(b) Concall/deck KPI table [V RQ1D, RQ4D, RTX, RQ1R]**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue, company basis (₹ Cr) | 26,002 | 33,269 | 34,966 | 99,562 | 1,19,347 |
+| Gross margin % | 5.13 | 5.01 [E 1,667/33,269] | 4.90 | 5.47 | 5.06 |
+| EBITDA % (company, incl. other income) | 1.73 | ~2.0 | 2.15 | 2.27 | 2.02 |
+| PAT attributable (₹ Cr) | 275.27 | 391.32 | 485.98 | 1,604.84 | 1,490.22 |
+| SISA share of revenue / EBITDA | 50% / 76% | — | **60% / 68%** | — | 55% / ~63% [E 1,526/2,414] |
+| ROW share of PAT | 24% | — | 33% | — | — |
+| WC days: global / SISA / ROW | 37 / 36 / 40 | 30 / 24 / 40 | 32 / 31 / 32 | ~34 (CRISIL 36) | 30 (CRISIL 34) |
+| Apple / Lenovo / HP / Dell / 5th vendor | 34 / 8 / 9 / 6 / MSFT 3 | — | 31 / 11 / 7 / 5 / MSFT 3 | 30 / 8 / 10 / 6 / Samsung 6 | 31 / 10 / 9 / 5 / Samsung 5 |
+| ROCE / ROE (company) | 14.5 / 12.6 | 22 / 17 | 22.2 / 18.8 | — | 19.7 / 16.8 |
+| Finance cost (₹ Cr, statutory) | 91.62 | 72.03 | 89.34 | 330.23 | 358.66 |
+| Segment PBT SISA / ROW (₹ Cr, statutory) | 283.21 / 21.12 | 412.00 / −16.78 (after impairment) | 443.97 / 166.90 | 1,084.48 / 1,250.33 (incl. Paynet) | 1,308.72 / 388.37 |
+| Arena (₹ Cr) | rev ~2,068 [E]; loss — | loss 46 (Red share 22.7) + impairment 152.3 | rev ~1,172 [E]; loss 64 (Red share 31) | rev 8,304; profit 426 incl. Paynet gain | rev 6,781; loss 407 incl. impairment |
+
+**(c) Five-year history [V screener 25-Oct-26; V company decks; V RQ4/RAR for FY25–26 attributable]**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | 4-yr CAGR |
+|---|---|---|---|---|---|---|
+| Revenue from ops (screener = statutory) | 62,644 | 79,377 | 89,346 | 99,334 | 1,19,162 | 17.4% |
+| Company "revenue" (= total income) | 62,732 | 79,519 | 89,610 | 99,562 | 1,19,347 | 17.4% |
+| OP (screener, excl. other income) | 1,839 | 2,203 | 2,009 | 2,154 | 2,348 | 6.3% |
+| OPM % | 2.9 | 2.8 | 2.2 | 2.2 | 2.0 | — |
+| Company EBITDA (incl. other income) | 1,879 | 2,261 | 2,141 | 2,257 | 2,414 | 6.5% |
+| PAT incl. NCI | 1,315 | 1,439 | 1,239 | 1,821 | 1,284 | — |
+| PAT attributable (statutory) | ~1,281 [E EPS] | ~1,393 [E] | ~1,219 [E] | **1,604.84** | **1,490.22** | 3.9% |
+| PAT company-adjusted (ex-Paynet / ex-impairment) | 1,280 | 1,393 | 1,219 | 1,340 | 1,565 | 5.2% |
+| CFO | 989 | −3,234 | 1,079 | 293 | 231 | — |
+| Net debt ex-leases (year-end) | n/s | n/s | n/s | 1,238 | 1,516 | — |
+| ROCE % (screener) | 28 | 25 | 19 | 19 | 18 | — |
+| DPS ₹ | — | — | — | — | 6.0 (payout 31% of attributable EPS ₹19.06) | — |
+
+**(d) Eight-quarter trend [V screener; attributable from RQ4/RQ1R or EPS × 78.18 cr shares]**
+
+| ₹ Cr | Q2 FY25 (Sep-24) | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 (Jun-26) |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 24,896 | 26,716 | 26,440 | 25,952 | 29,076 | 30,922 | 33,213 | 34,922 |
+| YoY % | — | — | — | +21.9 | +16.8 | +15.7 | +25.6 | +34.6 |
+| OP | 458 | 602 | 597 | 400 | 589 | 626 | 614 | 708 |
+| OPM % | 1.8 | 2.3 | 2.3 | 1.5 | 2.0 | 2.0 | 1.9 | 2.0 |
+| Other income | 57 | 48 | 696 (Paynet) | 50 | 43 | 37 | −97 (impairment) | 43 |
+| Interest | 84 | 84 | 82 | 92 | 116 | 79 | 72 | 89 |
+| PAT incl. NCI | 283 | 403 | 918 | 233 | 350 | 413 | 288 | 453 |
+| PAT attributable | ~293 [E] | ~400 [E] | 665.62 [V] | 275.27 [V] | ~387.8 [E residual] | 435.80 [V] | 391.32 [V] | 485.98 [V] |
+
+**(e) Annual-report findings (FY26 AR [V RAR] unless noted)**
+- **Ownership / related parties.**
+  - Synnex Technology International (Taiwan) holds 24.12% with two nominee directors [V Q1 deck]. No royalty or brand fee is paid to any shareholder; the business is pure distribution.
+  - Related-party flows are intra-group: subsidiaries paid the parent **₹307.28 Cr of dividends in FY26** (₹692.40 Cr in FY25), which is why standalone PAT (₹1,243.90 Cr) is close to the consolidated figure [V RQ4 ratios].
+- **Arena (Turkey) in detail.**
+  - AOC-1 standalone: Arena Bilgisayar turnover ₹4,995.47 Cr, PBT −₹646.98 Cr, PAT −₹569.53 Cr (likely includes write-downs of its investments in subsidiaries [E]).
+  - Arena Connect: turnover ₹2,674.06 Cr, PAT −₹89.42 Cr.
+  - Arena International FZE (Dubai): turnover ₹1,886.93 Cr, PAT +₹36.84 Cr.
+  - Effective holding 49.4%. Arena consolidated equity is down to ₹434.42 Cr (₹717.28 Cr). Arena's FY26 CFO was +₹365.97 Cr (working-capital release) and it repaid ₹314.62 Cr of financing.
+  - **Exit maths [E]:** at book value, Redington's 49.4% is worth ~₹215 Cr. A sale at or near book would remove ~₹6,800 Cr of revenue (5.7%) and, on FY26 numbers, **add ~₹125 Cr a year to attributable PAT** (Redington's share of the pre-impairment loss).
+- **Hyperinflation.** Note 46 says Ind AS 29 applies to TRY-functional subsidiaries with an impact that is "not significant". The cash flow shows −₹24.18 Cr (FY26) and +₹29.04 Cr (FY25). **IAS 29 is a footnote, not a profit driver. The Arena problem is operating losses and the trade-name impairment.**
+- **Credit costs rising.**
+  - Allowance for impairment of receivables plus bad debts was **₹223.90 Cr in FY26 vs ₹59.47 Cr in FY25**, mainly Arena (CRISIL: US$8 m in Q1 FY26 after customer debt restructuring) and the Gulf.
+  - Goodwill impairment of ₹9.24 Cr was taken in Q3 FY26 (₹24.55 Cr FY25).
+- **Balance sheet scale (Mar-26).**
+  - Receivables ₹21,569 Cr; inventory ₹8,171 Cr; trade payables ₹18,039 Cr. Total assets ₹33,839 Cr, of which goodwill plus intangibles is only ₹130 Cr.
+  - Segment assets rose to **₹38,876 Cr at Jun-26** (+₹5,037 Cr in one quarter): the Q1 working-capital build behind CFO of −₹885 Cr.
+  - Company D/E = gross borrowings ÷ total equity (0.25× at Mar-26 = 2,637/10,424). The Q1 FY27 0.39× therefore implies **gross debt of ~₹4,200 Cr at Jun-26** and net debt of ~₹2,500 Cr [E].
+- **Funding mix.** Commercial paper outstanding fell to nil at Mar-26 (₹687 Cr a year earlier). Secured bank loans rose to ₹1,425 Cr (₹320 Cr). Average bank-line utilisation was 81% (CRISIL).
+- **Contingencies (standalone):**
+  - Claims ₹7.53 Cr; direct tax ₹1.77 Cr; indirect tax ₹150.77 Cr, including an ₹86.40 Cr customs dispute at CESTAT Mumbai.
+  - An end-customer of an AWS cloud reseller claimed ~₹150 Cr over data deletion. The Karnataka HC granted a stay and the company calls the claim without merit. **This is the first disclosed legal tail from cloud resale**, relevant to the SSG "agent" model.
+- **SSG.** +37% FY26; ~74% recurring revenue; expansion into ASEAN, CIS and South Africa. META cloud +40%, META SSG +20%. **SSG margin is still not disclosed.**
+- **Footprint, India/Gulf (AR MD&A):**
+  - India crossed ₹63,000 Cr of revenue.
+  - Saudi Arabia +5% ("recalibration" year); UAE +16%.
+  - Standalone (India) WC days 35 → 31.
+- **Dividend.** ₹6/share (300% of face value) approved at the 29-Jul-2026 AGM, a payout of ~₹469 Cr in Q2 FY27 [E: 78.18 cr shares].
+
+### 4.2.2 Entero Healthcare Solutions (ENTERO · 544122)
+
+**(a) Management-guidance digest: Q1 FY27 call, 10-Aug-2026 [V ETX] and deck [V ED]**
+1. **FY27 guidance (reiterated):**
+   - **~23% consolidated revenue growth excluding any new acquisition**: 11–12 pts from calendarisation of FY26 deals, the rest organic.
+   - **5% EBITDA margin.**
+   - **50% EBITDA→OCF conversion**, where OCF is after working-capital changes.
+   - FY27 tax rate **22.5%**.
+   - Guidance may be revised after Q2 on H1 performance ("after quarter 2, I might come out with a different number").
+2. **Q1 delivery:**
+   - Revenue +38.2% (LFL +40%); organic 17.8% reported / 19.6% LFL vs market 13.8%.
+   - The CEO says organic growth would have been ~22% before ~2.5 pts of deliberate exits. The exits were "primarily our sub-distribution business", not hospitals.
+   - Gross margin 11.4% (+147 bp); EBITDA 5.0% (+143 bp).
+   - Three margin levers: scale procurement, MedTech mix ("demand generation" vs "fulfilment"), and exits.
+3. **Medium term:**
+   - ">20%" total growth for 3–4 years, "safe to model 20%", mostly organic with small tuck-ins.
+   - ROCE **25–30%** in 3–4 years.
+   - EBITDA margin aspiration "more than 6%".
+   - MedTech to grow ~20% a year organically; "comfortably above" ₹1,000 Cr in FY27.
+4. **M&A:**
+   - "Not looking for any major acquisition in FY27". Open to compelling deals, especially in Q4 FY27.
+   - One small Andhra Pradesh surgical-consumables business transfer (Sai Pharma) in Q1.
+   - "Many sellers, but … buyers basically limited to 1 or 2 organized players like us."
+5. **Minority interest:**
+   - NCI ₹13.9 Cr (27% of pre-NCI PAT) vs ₹17.1 Cr in Q4. Q4 was swollen by a subsidiary's government-contract billing pulled forward before fiscal year-end.
+   - Call options on residual stakes run 2–5 years at the original deal multiple; not all fall due in FY27. Funding route (parent or subsidiary) is open.
+6. **Costs:**
+   - Employee cost steps up in Q1 (April increments) and then flattens; other opex ~₹55 Cr/quarter is the run-rate.
+   - Interest stays at Q1 levels: ~₹200 Cr of acquisition debt was drawn in late Jan/early Feb 2026.
+   - Q1 D&A is the new run-rate; Q4 had accelerated depreciation on Anand's placed diagnostic machines.
+7. **Disclosure gap:** the balance sheet is reviewed only in September and March, so **no Q1 debt or OCF was given**. Investors should judge OCF annually because Q2 is the seasonal peak (Q1 is ~22–23% of annual IPM).
+8. **IPM view:**
+   - Market growth moved from 7–9% back to 10–12%, with volumes turning positive; management "can't isolate" why.
+   - **98–99% of the Indian market is patented + branded generic + trade generic**, and Entero plays in all three, so it is not exposed to pure-generic (Jan Aushadhi-type) cannibalisation.
+
+**(b) KPI table [V ED; EAR]**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue (₹ Cr) | 1,403.8 | 1,909.9 | 1,940.5 | 5,095.8 | 6,591.2 |
+| Gross profit / GM % | 139.6 / 9.9 | 207.4 / 10.9 | 221.4 / 11.4 | 9.5% [Arihant] | 10.3% [Arihant] |
+| EBITDA / margin % | 50.1 / 3.6 | 86.0 / 4.5 | 97.0 / 5.0 | 172 / 3.4 | 266 / 4.0 |
+| PAT / to owners / NCI | 30.2 / 27.8 / 2.4 | 45.1 / 28.0 / 17.1 | 52.1 / 38.2 / 13.9 | 107.4 / 94.8 / 12.6 | 145.8 / 115.0 / 30.8 |
+| Organic growth, reported / LFL | 12.0 / 15.0 | 16.6 / 17.1 | 17.8 / 19.6 | — | 13.4 / 15.6 |
+| Inorganic: calendarisation / new | 16.4 / — | 0 / 26.0 | 20.4 / 0 | — | 5.3 / 10.7 |
+| Growth vs IPM (×) | 1.7 | 1.4 | 1.4 | — | 1.6 |
+| NWC days (company definition, revenue incl. GST) | 66 | 59 | 61 | 70 (LFL, AR) | 68 (LFL, AR) |
+| RoCE / RoE (tangible basis) | 11.5 / 9.0 | 18.4 / 16.0 | 21.1 / 20.4 | 10.7 / 7.7 | 14.6 / 12.5 |
+| Retail customers / hospitals / SKUs / makers | 71,000 / 2,500 / 74,700 / 2,600 | — | 72,000 / 2,300 / 83,400 / 3,000 | — | — |
+| Warehouses / districts | 102 / 469 | — | 138 / 475 | — | — |
+| Finance cost (₹ Cr, ex-lease) | 8.3 | 14.4 | 18.1 | 41.6 (statutory incl. lease) | 54.4 (statutory incl. lease) |
+
+Note: the FY26 NWC "68 days LFL" (AR, annual average basis) differs from the quarter-end 59 days (deck). Quote the basis.
+
+**(c) Five-year history [V screener; V EAR for FY25–26 attributable/CFO]**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | 4-yr CAGR |
+|---|---|---|---|---|---|---|
+| Revenue | 2,522 | 3,300 | 3,922 | 5,096 | 6,591 | 27.1% |
+| OP (EBITDA) | 24 | 64 | 112 | 172 | 266 | 82% |
+| OPM % | 1.0 | 1.9 | 2.9 | 3.4 | 4.0 | — |
+| PAT incl. NCI | −29 | −11 | 40 | 107 | 146 | — |
+| PAT to owners | — | — | — | **94.8** | **115.0** | — |
+| CFO | −35 | −45 | −37 | −77 | **96** | — |
+| Borrowings excl. leases | n/s | n/s | n/s | 298.8 | 566.7 | — |
+| Goodwill | — | — | 193 | 424 | 749 | — |
+| ROCE % (screener, on total capital) | 1 | 5 | 7 | 9 | 10 | — |
+| ROCE % (company, tangible) | — | — | — | 10.7 | 14.6 | — |
+
+**(d) Eight-quarter trend [V screener; owners' PAT = EPS × ~4.35 cr shares or deck]**
+
+| ₹ Cr | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,301 | 1,359 | 1,339 | 1,404 | 1,571 | 1,707 | 1,910 | 1,940 |
+| YoY % | — | — | — | +28.0 | +20.8 | +25.6 | +42.6 | +38.2 |
+| OP | 42 | 50 | 49 | 50 | 62 | 68 | 86 | 97 |
+| OPM % | 3.3 | 3.7 | 3.6 | 3.6 | 4.0 | 4.0 | 4.5 | 5.0 |
+| Interest | 11 | 10 | 10 | 11 | 12 | 14 | 17 | 21 |
+| PAT incl. NCI | 26 | 29 | 31 | 30 | 37 | 34 | 45 | 52 |
+| PAT to owners | ~23.6 | ~25.5 | ~25.7 | 27.8 [V] | ~31.6 | ~27.6 | 28.0 [V] | 38.2 [V] |
+| NCI share % | ~9 | ~12 | ~17 | 8 | ~15 | ~19 | 38 | 27 |
+
+**(e) Annual-report findings (FY26 AR [V EAR])**
+- **FY26 acquisitions (Note 46: all seven, with dates and consideration as recorded):**
+
+| # | Target (stake) | Date | Consideration recorded | Type |
+|---|---|---|---|---|
+| 1 | Ramson Medical Distributors Pvt Ltd (70%) | 30-Jun-2025 | ₹0.20 Cr for shares + ₹2.14 Cr business transfer | Medical/surgical distribution |
+| 2 | Sai RK Pharma Pvt Ltd (70%) | 19-Jul-2025 | ₹36.56 Cr for the business (goodwill ₹18.0 Cr) | Pharma distribution |
+| 3 | Well Wisher Pharma Pvt Ltd (70%) | 5-Sep-2025 | ₹5.71 Cr slump sale | Pharma distribution |
+| 4 | Anand Medilink Pvt Ltd (80%) | 1-Oct-2025 | ₹45.09 Cr for M/s Anand Medical Distributors' business | Pharma/medical distribution |
+| 5 | Ace Cardiopathy Solutions Pvt Ltd (60%) | 6-Oct-2025 | ₹86.64 Cr incl. contingent consideration (goodwill ₹75.8 Cr) | MedTech: cardiology devices |
+| 6 | Bioaide Technologies Pvt Ltd (80%) | 26-Nov-2025 | ₹42.35 Cr incl. contingent (goodwill ₹31.8 Cr) | MedTech |
+| 7 | Anand Chemiceutics Pvt Ltd (51.51%) | 7-Feb-2026 | ₹172.84 Cr incl. contingent; the target bought the Anand Chemiceutics and Anand Healthcare Services businesses for ₹160 Cr | MedTech: IVD/diagnostics |
+
+  - Also in FY26: an additional 16% of Peerless Biotech (5-Jun-2025). Suprabhat Pharmaceutical was divested.
+  - FY26 cash paid for acquisitions: ₹342.2 Cr.
+  - The ~₹200 Cr of term debt (term loans +₹110.8 Cr; short-term +₹91.3 Cr in the cash flow) funded Anand Chemiceutics.
+  - **The ₹1,000 Cr MedTech run-rate is ~₹390 Cr of FY26 deal consideration (Ace + Bioaide + Anand Chemiceutics), i.e. ~0.4× forward MedTech sales for majority stakes [E].**
+- **Call/put options on minorities:** the AR records the fair value of call options on NCI and the obligation to buy NCI in several subsidiaries (Notes 8.2/9.2/26.1). The consolidated goodwill note (Note 6) shows FY26 goodwill additions of ₹434.07 Cr, less a **₹106.15 Cr "fair value of call option on non-controlling interests"** (FY25 ₹10.21 Cr), less ₹2.79 Cr for a divested subsidiary, giving a closing ₹749.09 Cr [V]. **Buying out minorities is a future cash call**, which management will rank against debt reduction and M&A by "EPS accretion".
+- **Taxes:** FY26 current tax ₹59.5 Cr offset by a deferred-tax credit of ₹26.0 Cr. The effective rate was 18.7%, which is why FY27 guidance (22.5%) implies a higher tax line.
+- **Credit costs:** ECL provision ₹8.46 Cr (₹3.87 Cr); claims-receivable provision ₹6.97 Cr (₹2.12 Cr). Both are small but rising with hospital/government MedTech exposure.
+- **Exceptional:** ₹8.18 Cr loss (Q3 FY26), linked to business closure/divestment.
+- **Contingent liabilities:** only ₹5.51 Cr (indirect tax). No capital commitments. Single reportable segment.
+- **Rating:** India Ratings **IND A-/Stable** issuer rating affirmed 3-Dec-2025, three notches below Redington's AA+.
+- **Ownership:** founders plus OrbiMed promoter group 52.40%. Prabhat Agrawal (MD & CEO) and Dr Balakrishnan Kaushik (Group CFO) ran the call.
+
+### 4.2.3 MMTC (MMTC · 513377)
+
+**(a) Management-commentary digest.** MMTC holds **no earnings calls** and publishes no investor presentation, as is usual for a non-operating CPSE. Management's stated positions come from the FY26 annual report (directors' report/MD&A, dated 14-Aug-2026) and the Q1 FY27 statement on audit qualification [V MAR; V-snip investywise]:
+1. **Status.** No trading since April 2022, on MoCI direction. The "Government is of the view that there is no requirement of MMTC as a central canalizing agency"; the formal closure decision is "awaited".
+   - No 2026 Cabinet/DIPAM/CCEA decision was found this session either. The latest public signal is an **Oct-2023 report that the government may wind MMTC down after a stake-sale OFS failed to proceed** (stock hit the lower circuit) [V-snip Business Standard].
+2. **Dividend policy.** No dividend, because "liabilities including contingent exceed available cash balance". **Read this as management signalling that the cash is not free** [V MAR].
+3. **Anglo Coal (the swing item).**
+   - Management treats the residual exposure as covered by ~₹259.74 Cr of interest accrued on the ₹1,088.62 Cr court deposit, so it sees "no incremental outflow" and does not meet the Ind AS 37 provisioning threshold.
+   - The auditors disagree: a **qualified** opinion (FY26) and a qualified review (Q1 FY27), with ₹82.82 Cr under-provided.
+   - **If adjusted, Q1 FY27 consolidated PAT falls from ₹104.24 Cr to ₹21.42 Cr and net worth from ₹2,266.47 Cr to ₹2,183.65 Cr** [V-snip]. The qualification is described as repetitive.
+4. **Earning engine.** Interest on ~₹1,786 Cr of deposits plus dividends from MMTC-PAMP. Overheads are being cut: manpower is 245, surplus office space is rented out, and the windmill PPA runs to Mar-2027 [V MAR].
+5. **Governance.** All independent directors' terms expired Apr–Jun 2026; the Director (P) post is vacant; the statutory auditor's (Dinesh Jain & Associates) term ended at the 17-Sep-2026 AGM [V MAR; V screener 28-Sep filing]. **The Q2 FY27 board date has not been announced** (trading window shut from 1-Oct) [V screener 25-Oct].
+
+**(b) KPI table [V MAR; V screener; V-snip Q1]**
+
+| KPI | FY25 | FY26 | Q1 FY27 |
+|---|---|---|---|
+| Revenue from operations (standalone, ₹ Cr) | 2.69 | 3.41 (wind 2.63) | 0.68 |
+| Other income (standalone) | 260.09 | 177.17 | 145.44 |
+| Exceptional (standalone) | −14.33 / 18.84 (two AR tables) | +473.70 (final NINL escrow ₹411.76 Cr + ₹25.75 Cr interest) | 0.05 |
+| PBT / PAT standalone | 97.20 / 69.53 | 463.30 / 212.07 | 124.55 / 93.73 |
+| Share of JV profit (equity method) | 17.10 | **175.31** | ~10.5 [E: cons PBT 135.06 − SA PBT 124.55] |
+| PAT consolidated | 87 | 387 | 104.24 (21.42 adjusted for the qualification) |
+| Cash + bank balances | 1,338.85 | **1,788.67** | n/d |
+| Net worth standalone / consolidated | — / 1,702 | 1,699.13 / 2,121 | 1,834.36 / 2,266.47 [V-snip] |
+| MMTC-PAMP revenue / PAT (100%) | 37,174.82 / 65.77 | **79,659.18 / 674.29** | n/d |
+| Contingent liabilities (standalone) | 742.24 | 844.77 (+209.03 back-to-back) | n/d |
+| Employees | — | 245 | — |
+
+**(c) Five-year history [V screener consolidated]**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales | 11,795 | 3,527 | 3 | 1 | 2 |
+| OP | 457 | −107 | −162 | −138 | −181 |
+| Other income | −126 | 2,000 (NINL sale) | 368 | 258 | 826 |
+| PBT | 101 | 1,766 | 200 | 114 | 639 |
+| PAT | −258 | 1,562 | 192 | 87 | 387 |
+| Equity | −148 | 1,412 | 1,626 | 1,702 | 2,121 |
+| Borrowings | 2,626 | 203 | 159 | 2 | 2 |
+| CFO | 0 | 754 | −353 | −367 | −605 (₹1,000 Cr released to Anglo) |
+
+**(d) Eight-quarter trend [V screener consolidated]**
+
+| ₹ Cr | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 2 | 0 | 0 | 1 | 1 | 0 | 1 | 1 |
+| Expenses | 32 | 31 | 27 | 24 | 23 | 23 | 114 | 21 |
+| OP | −30 | −31 | −27 | −23 | −22 | −23 | −113 | −20 |
+| Other income | 81 | 39 | 48 | 78 | 453 (NINL final + interest) | 70 | 226 | 156 |
+| PBT | 49 | 7 | 14 | 53 | 430 | 46 | 110 | 135 |
+| PAT | 48 | 4 | 2 | 44 | 171 | 46 | 126 | 104 |
+
+Run-rate reading [E]:
+- Q4 FY26 expenses of ₹114 Cr include write-offs/provisions (FY26 debts written off ₹75.49 Cr).
+- The "clean" quarterly overhead is ~₹20–25 Cr against ~₹70–80 Cr of quarterly interest-plus-dividend income outside exceptional quarters, i.e. **₹45–60 Cr of quarterly PBT before the PAMP share**.
+
+**(e) Annual-report findings [V MAR]**
+- **The gold refinery is the asset.**
+  - MMTC-PAMP's FY26 revenue more than doubled to ₹79,659 Cr and PAT rose ~10× to ₹674 Cr, on the gold-price rally and refining volumes; FY25 was a trough of ₹65.77 Cr (FY24 ₹476.83 Cr).
+  - JV net assets ₹1,133 Cr; MMTC's 26% at book = ₹294.58 Cr.
+  - **Conflict:** the first pass recorded an equity-method carrying value of ₹439.04 Cr (₹263.59 Cr) on the consolidated balance sheet, while Note 42 reconciles to ₹294.58 Cr (₹151.93 Cr). The gap may be other equity-accounted items or fair-value differences. Quote Note 42 for PAMP and flag the difference.
+  - **Illustrative [E]:** at 12–20× PAT the 26% stake is worth ~₹2,100–3,500 Cr.
+- **Sum-of-parts refresh [E]:**
+  - Bank ₹1,789 Cr + PAMP ₹2,100–3,500 Cr + BSE shares ~₹100 Cr (FLAG) − current liabilities ₹646 Cr − Anglo residual ₹83 Cr = **₹3,260–4,660 Cr before contingent liabilities**.
+  - Against m-cap ₹7,586 Cr, the market still pays ~1.6–2.3× a generous SOTP.
+- **Liquidation entities:**
+  - MMTC Transnational (Singapore): under liquidation; CBI case.
+  - SIOTL (26%): in liquidation.
+  - FTWPL (50:50 with IL&FS): financial statements FY23–FY26 not received; net assets −₹39.36 Cr.
+  - MMTC Gitanjali: carried at nil.
+- **Taxes:** FY26 deferred tax of ₹162.19 Cr reversed the DTA (₹157.42 Cr → nil). A non-operating company cannot carry tax assets.
+
+### 4.2.4 Cross-member reconciliations [E from V]
+- **Ex-MMTC attributable PAT FY26 = 1,490.22 + 115.04 = ₹1,605.3 Cr** (Part 3's ~₹1,605 Cr [E] is confirmed). Ex-MMTC m-cap ÷ attributable PAT = 34,465 / 1,605 = **21.5×**.
+- **Net debt Mar-26:**
+  - Redington ₹1,516 Cr; Entero ~₹275 Cr (ex-leases); MMTC −₹1,787 Cr net cash.
+  - **All three combined: net debt of only ~₹4 Cr, i.e. roughly zero.** Ex-MMTC net debt ~₹1,791 Cr = 0.69× ex-MMTC company EBITDA (2,414 + 266).
+- **CFO FY26:** Redington ₹231 Cr + Entero ₹96 Cr = ₹327 Cr ex-MMTC, confirmed. This is **12% of ex-MMTC EBITDA in a boom year**: distributors fund growth with working capital.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3.1 India traditional PCs (IDC; desktops + notebooks + workstations; million units)
+
+| Period | Units (m) | YoY | Note | Tag |
+|---|---|---|---|---|
+| CY2024 | ~14.4 | — | back-calculated from CY25 +10.2% | E |
+| CY2025 | **15.9** | +10.2% | record; commercial 8.6 m (enterprise +20.9%, SMB +8.2%), consumer 7.3 m (+3.6%); AI notebooks +129.3% | V IDC 5-Mar-2026 |
+| Q4 CY2025 | 4.1 | +18.5% | notebooks +23.9% | V |
+| Q2 CY2026 | 3.918 | +12.1% | commercial +16.6%; AI notebooks +109.9%; "forward purchasing" | V IDC 1-Sep-2026 (first pass) |
+
+- **Vendor shares, CY2025:** HP 29.1%, Lenovo 18.7%, Dell 15.1%, Acer 15.0%, Asus 7.6% [V].
+- **IDC's Mar-2026 price warning:** PC prices were already up >10% YoY and "could rise another 15–20% in the coming quarters". Redington's Q1 call said +25–50% over two to three quarters, so the CEO's figure is above IDC's earlier path.
+
+### 4.3.2 India smartphones (IDC; million units)
+
+| Period | Units | YoY | Note | Tag |
+|---|---|---|---|---|
+| Q1 CY2025 | 32 | −5.5% | | V-snip IDC |
+| Q2 CY2025 | 37 | +7.3% | | V-snip IDC |
+| Q3 CY2025 | 48 | +4.3% | five-year high (festive) | V-snip IDC |
+| CY2025 | **<150** (~148 [E]) | low single-digit decline | IDC: "below 150 m" | V-snip |
+| Q1 CY2026 | **31.0** | **−4.1%** | IDC blog | V-snip IDC |
+| Q2 CY2026 | 33.2 | −11.1% | value +1.7%; ASP $315 (+14.4%); sub-$100 −74.3%; $400–600 +60.3%; online −19.8% | V IDC 11-Aug-2026 |
+| H1 CY2026 | 64.2 | −7.9% | lowest H1 in five years; value +3.6% | V |
+| CY2026F | **128–130** | ~−13% | H2 down >15% | V |
+
+- **Q2 CY26 vendor shares:** vivo 18.4, Samsung 16.4, OPPO 13.8, Xiaomi 9.7, realme 9.3, **Apple 8.5 (value share 27.0%)**, Motorola 8.2 [V].
+- **iPhone India:** 14.3 m units in 2025, expected to fall mid-single digits in 2026 [V].
+- **Conflict:** the dossier's Q1 CY26 "−12%" (sibling report) vs IDC's −4.1%. Use IDC.
+
+### 4.3.3 Memory prices (TrendForce, contract DRAM, QoQ) [V-snip]
+
+| Quarter | QoQ change |
+|---|---|
+| Q2 2026 | ~+80% |
+| Q3 2026 | ~+40% (PC DRAM forecast raised to +15–20% at one point) |
+| Q4 2026F | ~+20% (Oct-2026); conventional DRAM +10–15% (30-Sep view) |
+
+**Read:** the rate of increase is slowing. For distributors, ASP-led revenue growth should fade from Q4 FY27 (Jan–Mar 2027), consistent with IDC's warning that sell-in "might start dwindling from Q4 2026".
+
+### 4.3.4 Global reference peers (SEC 10-K XBRL; computed this session) [V data.sec.gov]
+
+| Company | FY end | Revenue ($ bn) | YoY | Gross margin % | GAAP op. margin % | Net income ($ m) | CCC days (DSO+DIO−DPO, year-end) |
+|---|---|---|---|---|---|---|---|
+| Ingram Micro | Dec-2025 | 52.56 | +9.5% | 6.67 | 1.67 | 328 | 21 (73+37−89) |
+| TD SYNNEX | Nov-2025 | 62.51 | +6.9% | 6.99 | 2.26 | 828 | 17.5 (68+60−111) |
+| Arrow Electronics | Dec-2025 | 30.85 | +10.5% | 11.24 | 2.66 | 571 | n.m.: receivables include gross billings of net-reported ECS software; DIO 68 |
+| Avnet | Jun-2026 | 27.63 | +24.5% | 10.43 | 2.62 | 334 | 91 (91+90−89) |
+| McKesson | Mar-2026 | 403.43 | +12.4% | 3.61 | 1.54 | 4,762 | −8 |
+| Cencora | Sep-2025 | 321.33 | +9.3% | 3.57 | 0.82 | 1,554 | −12 |
+| Cardinal Health | Jun-2026 | 254.25 | +14.2% | 3.84 | 1.03 | 1,714 | −12 |
+| **Redington** | Mar-2026 | ~13.5 (₹1,19,162 Cr) | +20.0% | 5.06 | ~1.85 (EBIT/rev) [E] | ~170 (₹1,490 Cr attrib.) | 34 (screener) / 30 (co. NWC) |
+| **Entero** | Mar-2026 | ~0.75 (₹6,591 Cr) | +29.3% | 10.3 | ~3.7 [E: (PBT pre-exc. 187.5 + finance 54.4)/6,591] | ~13 (₹115 Cr) | 74 (screener) / 59–68 (co.) |
+
+**Read:**
+1. **On a GAAP operating-margin basis, Redington (~1.9%) is in line with Ingram (1.7%) and TD SYNNEX (2.3%) despite ~190 bp lower gross margin.** Redington's cost-to-serve is far leaner. Its working-capital cycle (30–34 days) is longer than the US broadliners' 17–21 days, because those players stretch payables to 89–111 days.
+2. **US pharma wholesalers run negative cash cycles (−8 to −12 days) at ~1% operating margin. Entero runs +59–74 days at 4–5%.** India's fragmented chemist channel needs credit from the distributor; that is the economic reason Entero earns 4× the margin.
+
+### 4.3.5 Indian listed comparables (screener 25-Oct-26, consolidated) [V]
+
+| Company | Model | FY26 revenue (₹ Cr) | YoY | OPM % | PAT (₹ Cr) | Q1 FY27 revenue (YoY) | CCC days | ROCE % | M-cap (₹ Cr) | P/E |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Redington | Tech distribution, India + META | 1,19,162 | +20.0% | 2.0 | 1,284 | 34,922 (+34.6%) | 34 | 18 | 28,074 | 15.6 |
+| Rashi Peripherals (RPTECH) | Tech distribution, India | 15,827 | +14.9% | 2.9 | 282 | 5,102 (+61.9%) | 60 | 17 | 5,391 | 16.9 |
+| Entero | Pharma/MedTech distribution | 6,591 | +29.3% | 4.0 | 146 | 1,940 (+38.2%) | 74 | 10 | 6,391 | 49.5 |
+| MedPlus | Pharmacy retail + self-distribution | 6,892 | +12.3% | 8.8 | 220 | 1,880 (+21.8%) | 79 | 13 | 7,150 | 34.0 |
+| Optiemus | Mobile EMS + distribution | 1,769 | −6.4% | 5.5 | 66 | 883 (+103%) | 14 | 11 | 6,075 | 83.6 |
+
+**Read:** Rashi's Q1 FY27 (+62%) confirms the memory-led PC price boom is industry-wide, not Redington-specific.
+
+**Keimed / Apollo HealthCo** (unlisted) [V-snip]:
+- No standalone Keimed FY26 revenue was found.
+- The HealthCo + Keimed combination targets ~₹25,000 Cr of revenue at ~7% EBITDA at listing.
+- NCLT order 5-May-2026; listing targeted for Q4 FY27; CCI approval Sep-2025.
+
+### 4.3.6 Pharma market and policy series
+
+| Series | Value | Tag |
+|---|---|---|
+| IPM CY2025 (Pharmarack) | ₹2,40,672 Cr, +8.1% | V-snip |
+| Pharmarack CY2026 forecast (Jan-2026) | +7.8–8.1% | V-snip |
+| IPM Jun-2026 month | ₹21,478 Cr, +13.3%; MAT +9.8% | V-snip |
+| IPM Jul-2026 MAT growth (PharmaTrac) | +10.2%: price +5.9, new launches +3.8, volume +2.4 | V-snip |
+| IPM Aug-2026 month | ~₹23,272 Cr, +10.7% | V-snip (first pass) |
+| IPM Sep-2026 month / MAT | +13.5% value, +2.9% units / MAT +10.9%, units +1.5% | V-snip |
+| AIOCD-claimed members | ~12.4 lakh chemists and distributors (AIOCD's own figure, May-2026, during its 20-May-2026 nationwide strike against e-pharmacies) | V-snip |
+| NPPA TMR (Oct-2026) | 137 non-scheduled anti-cancer drugs; trade margin capped at **30% of MRP**; gazette 17-Oct; effective 9-Nov-2026; MRPs down up to 70%; Para 19 DPCO 2013; list from a DGHS expert committee, updated periodically; manufacturers to file revised prices within 7 days; savings ~₹2,500 Cr a year [V-snip] | V newsonair (All India Radio) |
+| 2019 TMR pilot | 42 anti-cancer drugs, 30% cap; 526 brands cut up to 90% | V newsonair |
+
+**Distributor arithmetic [E]:**
+- Under a 30%-of-MRP total trade margin, the conventional split is ~20% retailer and ~10% stockist on PTR/PTS. On a ₹1,00,000 oncology MRP where trade margins previously ran 100–400%+, **the distributor's rupee slice per pack falls by 60–90%**.
+- For Entero, oncology is a small share of revenue (not disclosed). The risk is the "list updated periodically" clause, which extends the precedent to other specialty categories.
+
+### 4.3.7 Macro series
+
+| Series | Values | Tag |
+|---|---|---|
+| RBI repo | 5.25% → **5.50% on 7-Oct-2026** (unanimous); SDF 5.25%, MSF 5.75%; stance "calibrated tightening" | V RBI |
+| RBI FY27 projections | GDP 7.1% (Q1 actual 7.8; Q2 7.2; Q3 6.9; Q4 6.8); CPI 5.2% (Q2 4.9; Q3 6.0; Q4 5.7; Q1 FY28 5.6); core 4.4% | V RBI |
+| Turkey CPI y/y 2026 | Jan 30.65; Feb 31.53; Mar 30.87; Apr 32.37; May 32.61; Jun 32.11; Jul 31.75; Aug 31.51; **Sep 29.73** (m/m 1.84); Dec-25 30.89; Mar-25 38.10 | V TCMB |
+
+### 4.0 addendum — further supersedes found while building 4.3
+
+| # | Where | Old | New | Source |
+|---|---|---|---|---|
+| S26 | §2.1 smartphones (Q1 CY26 "−12%" [V-sib]) | −12% | **Q1 CY26: 31.0 m, −4.1%** (IDC). H1 = 31.0 + 33.2 = 64.2 m, which reconciles | IDC blog [V-snip]; H1 [V IDC] |
+| S27 | §4.2(b) Entero "Employee cost 3.7 / other 2.6 per ₹100" | FY26 per ₹100 | Statutory FY26: employee ₹245.5 Cr (3.7%), other expenses ₹168.9 Cr (2.6%) | [V] EAR, confirmed |
+| S28 | §7.2 TMR "30% cap [V-snip; FLAG]" | Cap basis unclear | **The 137-drug order caps trade margin at 30% of MRP.** The broader "all non-scheduled drugs" cap remains an unconfirmed press report | [V] newsonair 19-Oct-2026 |
+| S29 | Part 2.2 MMTC cash "~1,786" vs §3.2 "~1,789" | Two figures | Use **₹1,788.67 Cr** (bank ₹1,785.97 + cash ₹2.70) at Mar-26; Mar-25 ₹1,338.85 Cr | [V] MAR |
+| S30 | §10 "Redington ROCE higher than global IT distributors (low-to-mid teens [K])" | [K] | Keep the direction, but cite GAAP operating margins (Ingram 1.67%, TD SYNNEX 2.26% vs Redington ~1.85%) instead of an unsourced ROCE claim | [V] SEC |
+
+## 4.4 Gap log (every §H item plus the deep-pass brief)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| H1 | India IT distribution market size | **Still open** | No third-party figure exists. IDC unit data (15.9 m PCs; ~148 m phones) now firms up the [E] build-up |
+| H2 | India CY2025 PC and smartphone totals | **Filled** (PC [V]; phones "<150 m" [V-snip]; 2026F 128–130 m [V]) | IDC releases |
+| H3 | Redington vendor split beyond Apple | **Filled** | Deck slides rendered to images (S6) |
+| H4 | Redington SSG margin / gross billings | **Partly filled**: margin still undisclosed. New: SSG +37%, ~74% recurring; cloud 17% of revenue (CRISIL); the agent/principal policy exists in the AR but the split is not quantified | AR; CRISIL |
+| H5 | Redington cash and net debt | **Filled** for Mar-26 (₹1,121.5 Cr cash; ₹2,637.45 Cr debt; net ₹1,516 Cr). Jun-26 is only [E] (~₹4,200 Cr gross from D/E 0.39×) | Q4-Financials; CRISIL |
+| H6 | Arena standalone P&L and IAS 29 | **Filled** (revenue ₹6,781 Cr, loss ₹407 Cr, NCI 50.6%, AOC-1 entity data; Ind AS 29 ±₹24–29 Cr). Arena EBITDA is still not disclosed | AR; Q4-Financials |
+| H6b | Arena "strategic choices" update | **No update** after the 30-Jul call; no filing through 25-Oct | screener announcements |
+| H7 | Entero attributable PAT and CFO conflict | **Filled** (₹115.04 Cr; CFO ₹96.2 Cr; Arihant wrong) | Entero AR |
+| H8 | Entero ROCE definition | **Filled** (tangible capital employed) | Q1 deck; AR |
+| H9 | Entero 7 FY26 acquisitions | **Filled** (all seven, dates and consideration) | AR Note 46 |
+| H9b | Entero Q1 FY27 concall digest | **Filled** | Transcript |
+| H9c | Entero 4-Nov-2026 board | **Confirmed** (first pass [V screener]) | — |
+| H10 | Pharma distributor counts; trade-margin convention; 30% cap | **Partly filled**: AIOCD's ~12.4 lakh members (its own claim) [V-snip]; 30%-of-MRP cap for 137 drugs [V]. Still open: the ~65,000-stockist count and the 20/10 retailer/stockist convention (both [K]) | AIOCD press; newsonair |
+| H11 | IPM size | **Filled** (CY2025 ₹2,40,672 Cr [V-snip]). The ₹3.3 lakh Cr "distribution market" stays secondary | Pharmarack via press |
+| H12 | MMTC JV share and consolidated cash | **Filled** (₹175.31 Cr [V]; consolidated cash = standalone) | MMTC AR |
+| H12b | MMTC Q1 FY27 primary filing | **Still open (primary)**: BSE API 403, NSE blocked, MMTC site has a TLS error. Consolidated figures [V screener]; qualification impact [V-snip] | Tried BSE API, mmtclimited.com |
+| H12c | MMTC Q2 FY27 board date | **Not announced** as of 25-Oct | screener |
+| H13 | MMTC-PAMP valuation | **Partly filled**: audited FY26 JV P&L/BS [V]; no market reference | MMTC AR Note 42 |
+| H14 | MMTC closure in 2026 | **Still open**: no 2026 decision; Oct-2023 wind-down report [V-snip] | Search |
+| H15 | Global peers | **Filled** for all seven from SEC XBRL [V] | data.sec.gov |
+| H16 | Keimed, MedPlus, Rashi revenue | MedPlus and Rashi **filled** [V screener]; Optiemus added; **Keimed still open** (HealthCo ~₹25,000 Cr target [V-snip]) | screener; search |
+| H17 | Redington ROCE conflicts | **Explained**: company 19.7% (ex-impairment, average capital), CRISIL ~20%, screener 18.4% (year-end) | CRISIL; decks |
+| H18 | MMTC FY25 exceptional (−14.33 vs 18.84) | **Still open (immaterial)** | AR |
+| N1 | Memory-price inflation 2026 | **Filled** [V-snip TrendForce: DRAM contract +80% / +40% / +20% QoQ for Q2–Q4] | TrendForce via press |
+| N2 | RBI policy and Turkey CPI | **Filled** [V] (RBI vote corrected) | RBI; TCMB |
+| N3 | Rating rationales | Redington **filled** (CRISIL May-2026 [V]); Entero **filled** (Ind-Ra IND A-/Stable letter [V]); full Ind-Ra rationale text not read | CRISIL; company filing |
+
+## 4.5 New insights the first pass missed
+
+1. **Redington's headline numbers include its other income, and the Arena drag is bigger than the decks imply.**
+   - Deck "revenue" and "EBITDA" both include ₹185 Cr of other income (S1).
+   - Arena lost ₹407 Cr in FY26, ₹255 Cr before the impairment. Half of that loss is absorbed by Arena's 50.6% minority, which is why attributable PAT (₹1,490 Cr) is **higher** than consolidated PAT (₹1,284 Cr).
+   - An Arena exit at around book (~₹215 Cr for 49.4%) would lift attributable PAT by ~₹125 Cr (+8%) and release Arena-level debt (~US$90 m) and working capital [E]. The impairment has already reset the asset.
+2. **The balance sheet absorbed the Q1 FY27 boom.**
+   - Segment assets jumped ₹5,037 Cr in one quarter; CFO was −₹885 Cr.
+   - Gross debt was ~₹4,200 Cr at Jun-26 [E from D/E 0.39×] vs ₹2,637 Cr at Mar-26. Bank-line utilisation was already 81% (CRISIL).
+   - With the RBI tightening and CRISIL guiding to 36–40 NWC days (vs 30–32), **FY27 is a growth-funded-by-debt year. Watch Q2 interest (₹89 Cr is the "steady state") and the Q2 balance sheet.**
+3. **Credit costs are the quiet margin leak at Redington.** Receivable allowances rose 3.8× to ₹224 Cr in FY26 (Arena restructurings, the Gulf). This sits inside "other expenses" and explains part of the EBITDA-margin slide from 2.27% to 2.02% that management attributed to mix.
+4. **Entero's minority-interest leak is a deal-structure feature with a price tag.**
+   - FY26 NCI was 21% of PAT (Q4 38%, Q1 FY27 27%).
+   - The ₹106 Cr call-option fair value netted against goodwill, and options exercisable over 2–5 years at the original multiples, mean **attributable EPS growth will lag group PAT growth until the buy-outs are funded**, competing with debt paydown for the 50% OCF.
+5. **Entero's "1 in 10 pharmacies" claim should be retired.** The company's own Q1 FY27 deck shows **72,000+ retail customers** (vs Arihant's 1.05 lakh) and 2,300 hospitals (fewer than a year earlier, after exits). Its moat is SKU breadth (83,400) and supplier count (3,000+), not chemist share.
+6. **MMTC's value now depends on gold.** MMTC-PAMP's PAT swung from ₹477 Cr (FY24) to ₹66 Cr (FY25) to ₹674 Cr (FY26), and that one line explains most of MMTC's consolidated earnings volatility after NINL. The auditors' ₹82.82 Cr Anglo adjustment would cut Q1 FY27 consolidated PAT by ~80%.
+7. **In the global mirror, Redington is cheap on cost-to-serve and dear on cash cycle.**
+   - GAAP operating margin of ~1.85% sits between Ingram (1.67%) and TD SYNNEX (2.26%) on ~190 bp less gross margin.
+   - Its 30–34-day cash cycle is 10–15 days longer than theirs: US broadliners lean on vendor payables of 89–111 days.
+   - The US pharma oligopoly runs a negative cycle; Entero's positive cycle of 59–74 days is the price of serving fragmented chemists, and the source of its 4–5% margin.
+
+### 4.5.1 New primer issues (add to primer-issues.md)
+
+**redington.html**
+- **Revenue/EBITDA definitions:** company "revenue" ₹1,19,347 Cr and "EBITDA" ₹2,414 Cr include ₹185 Cr of other income. Revenue from operations is ₹1,19,162 Cr. State the basis.
+- **Attributable PAT:** FY26 ₹1,490.22 Cr (FY25 ₹1,604.84 Cr) is the statutory owners' figure; ₹1,565 Cr adds back Redington's ₹75.24 Cr impairment share. Arena NCI is 50.6%.
+- **Balance sheet:** Mar-26 cash ₹1,121.5 Cr (mostly overseas), borrowings ₹2,637 Cr, net debt ₹1,516 Cr. Q1 FY27 gross debt ~₹4,200 Cr [E]. CRISIL AA+/A1+ reaffirmed 27-May-2026; CP programme ₹1,900 Cr (nil outstanding at Mar-26).
+- **Vendors:** Apple 31%, Lenovo 10%, HP 9%, Dell 5%, Samsung 5% (FY26); top-5 60%.
+- **Risk section:** receivable allowances ₹224 Cr (3.8×); an AWS cloud-resale customer claim (~₹150 Cr, stayed); a customs dispute of ₹86 Cr.
+
+**entero-healthcare.html**
+- **Attributable PAT and CFO:** FY26 attributable PAT ₹115.04 Cr; CFO ₹96.2 Cr (not ₹379 Cr).
+- **Net debt:** ~₹275 Cr ex-leases (borrowings ₹566.7 Cr; liquid assets ₹291.7 Cr).
+- **ROCE basis:** company ROCE/ROE are on **tangible** capital (excluding ₹749 Cr goodwill); FY26 14.6% / 12.5%.
+- **Organic growth:** FY26 reported 13.4% (LFL 15.6%).
+- **Acquisition list:** all seven FY26 deals with values (4.2.2e).
+- **Rating:** IND A-/Stable.
+- **Platform KPIs:** 72,000+ retailers, 2,300+ hospitals, 83,400 SKUs, 3,000+ makers, 138 warehouses, 475 districts.
+- **FY27 tax guidance:** 22.5%.
+
+**mmtc.html**
+- **MMTC-PAMP:** FY26 revenue ₹79,659 Cr, PAT ₹674.29 Cr (FY25 ₹65.77 Cr). JV share in consolidated PAT ₹175.31 Cr. Cash + bank ₹1,788.67 Cr.
+- **Audit qualification:** the Q1 FY27 qualified review would cut consolidated PAT to ₹21.42 Cr.
+- **Dividend:** no earnings calls; the AR states that liabilities including contingent exceed cash, hence no dividend.
+
+**General**
+- RBI's 7-Oct-2026 hike was **unanimous** (not 4–2).
+- Turkish CPI 29.73% (TCMB).
+- IDC: India PCs 15.9 m in CY2025; smartphones 128–130 m forecast for CY2026.
+
+*End of Part 4.*

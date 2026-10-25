@@ -52,3 +52,35 @@
 - **entero-healthcare.html — policy omitted:** **NPPA trade-margin rationalisation** on 137 anti-cancer drugs (gazette 17-Oct-2026, effective 9-Nov-2026) and the reported 30% trade-margin cap for all non-scheduled drugs. GLP-1 cold-chain revenue (₹10–12 Cr/month) and the Suprabhat divestiture are also not mentioned.
 - **General (all three):** none mentions the **RBI repo hike to 5.50% (7-Oct-2026)**, which raises distributors' funding cost. Only Redington's primer touches the West Asia war, and only indirectly. Market caps are 1–3 months stale: Redington +28%, Entero −19%, MMTC −26%.
 
+
+## From Trading & Distribution deep-research pass (2026-10-25, trading-distribution-industry.md §4.5.1)
+
+
+**redington.html**
+- **Revenue/EBITDA definitions:** company "revenue" ₹1,19,347 Cr and "EBITDA" ₹2,414 Cr include ₹185 Cr of other income. Revenue from operations is ₹1,19,162 Cr. State the basis.
+- **Attributable PAT:** FY26 ₹1,490.22 Cr (FY25 ₹1,604.84 Cr) is the statutory owners' figure; ₹1,565 Cr adds back Redington's ₹75.24 Cr impairment share. Arena NCI is 50.6%.
+- **Balance sheet:** Mar-26 cash ₹1,121.5 Cr (mostly overseas), borrowings ₹2,637 Cr, net debt ₹1,516 Cr. Q1 FY27 gross debt ~₹4,200 Cr [E]. CRISIL AA+/A1+ reaffirmed 27-May-2026; CP programme ₹1,900 Cr (nil outstanding at Mar-26).
+- **Vendors:** Apple 31%, Lenovo 10%, HP 9%, Dell 5%, Samsung 5% (FY26); top-5 60%.
+- **Risk section:** receivable allowances ₹224 Cr (3.8×); an AWS cloud-resale customer claim (~₹150 Cr, stayed); a customs dispute of ₹86 Cr.
+
+**entero-healthcare.html**
+- **Attributable PAT and CFO:** FY26 attributable PAT ₹115.04 Cr; CFO ₹96.2 Cr (not ₹379 Cr).
+- **Net debt:** ~₹275 Cr ex-leases (borrowings ₹566.7 Cr; liquid assets ₹291.7 Cr).
+- **ROCE basis:** company ROCE/ROE are on **tangible** capital (excluding ₹749 Cr goodwill); FY26 14.6% / 12.5%.
+- **Organic growth:** FY26 reported 13.4% (LFL 15.6%).
+- **Acquisition list:** all seven FY26 deals with values (4.2.2e).
+- **Rating:** IND A-/Stable.
+- **Platform KPIs:** 72,000+ retailers, 2,300+ hospitals, 83,400 SKUs, 3,000+ makers, 138 warehouses, 475 districts.
+- **FY27 tax guidance:** 22.5%.
+
+**mmtc.html**
+- **MMTC-PAMP:** FY26 revenue ₹79,659 Cr, PAT ₹674.29 Cr (FY25 ₹65.77 Cr). JV share in consolidated PAT ₹175.31 Cr. Cash + bank ₹1,788.67 Cr.
+- **Audit qualification:** the Q1 FY27 qualified review would cut consolidated PAT to ₹21.42 Cr.
+- **Dividend:** no earnings calls; the AR states that liabilities including contingent exceed cash, hence no dividend.
+
+**General**
+- RBI's 7-Oct-2026 hike was **unanimous** (not 4–2).
+- Turkish CPI 29.73% (TCMB).
+- IDC: India PCs 15.9 m in CY2025; smartphones 128–130 m forecast for CY2026.
+
+*End of Part 4.*
