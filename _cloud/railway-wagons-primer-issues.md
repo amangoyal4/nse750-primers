@@ -61,3 +61,32 @@
 - **texmaco-rail.html — valuation stale:** m-cap ~₹4,450 Cr → **₹4,008 Cr**; P/E ~20× → **18.5×**.
 - **All three primers — the "wheelset" story should cite the IR mandate.** Wheelsets for IR-ordered wagons must come from IR's RWF/RWP. Private and export orders can import. That is why FY26 hit IR-heavy books hardest (Titagarh, Texmaco) and why the private-order pivot also eases the wheel constraint.
 - **All three primers — industry production figures:** use PIB production (FY23 22,790; FY24 37,650; FY25 41,929) vs the Budget IR additions (FY25 29,889 achieved; FY26 RE 26,000; FY27 BE 32,000). Do not mix them.
+
+## From Railway Wagons deep-research pass (2026-10-25, railway-wagons-industry.md §4.5)
+
+  - Add that FY26 auditors (PwC & Co + Salarpuria) issued a **qualified opinion on internal financial controls** (impairment and loss-allowance review for the associate/JV) and an EOM on the restatement of FY25 (Firema loss €104.7 mn vs €16.9 mn).
+  - FY25 standalone PAT was restated to ₹76.97 Cr. FY26 consolidated PAT ₹122.82 Cr is *after* a ₹64.78 Cr exceptional item.
+- **titagarh-rail-systems.html — unit volumes:**
+  - FY26 wagons **7,019**; foundry **50,000 tpa**; traction motors 891.
+  - The ₹7,000 Cr "JV" order-book line is the **Vande Bharat AMC JV**, not supply share. Supply sits inside the ₹10,395 Cr PRS book.
+  - The ship order is ~₹470 Cr. The ₹169 Cr is the SFAS grant.
+- **jupiter-wagons.html — unit table:**
+  - FY26 wagons 5,498; wheelsets 19,939; Q1 FY27 wheelsets 1,282.
+  - Order book ₹4,550 Cr.
+  - BESS book ">500 MWh / >₹500 Cr" (not MW).
+  - Tatravagonka owns 19.24% after the ₹470 warrant conversion.
+  - Disclose the SEBI enquiry email (24-Feb-26) on trading around FY24 results.
+  - Exports ≈ nil (₹0.5 Cr).
+  - The AR quotes the Odisha project at ₹3,000 Cr vs ₹2,600 Cr on the call.
+- **texmaco-rail.html — the ₹700 Cr split** is ₹494.05 Cr General Reserve + ₹205.95 Cr retained earnings.
+  - It sits as a *provision/liability* (CARE gearing 0.65×).
+  - FY26 deliveries were 81.7% IR (6,841 of 8,372) even though the book is 96% private/export.
+  - Bank guarantees ₹1,086 Cr; CARE A (Stable).
+  - South Africa = 2,200 wagons + 30 diesel locos.
+  - Cameroon (Camalco) 1,700 open-top wagons.
+  - Q1 margin expansion is other-income-driven.
+- **All three primers:**
+  - Use national FY26 production ~32.5k [E from MoR], not ~26–31k.
+  - Cite RWF's 94k-wheelset ceiling.
+  - Sec 232 covers HTS 8607 parts (not complete wagons).
+

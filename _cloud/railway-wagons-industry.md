@@ -1561,3 +1561,828 @@ Arithmetic check:
 - texmaco.in 20,067-wagon order
 - maritimegateway (90k tender bidders)
 - CAG 2022 chapter 3 (fleet 3,02,624)
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-25)
+
+Second, primary-source pass, compiled Sunday 25-Oct-2026 for the writer. It adds to Parts 1–3. **Where Part 4 conflicts with Parts 1–3, Part 4 wins.** Section 4.0 lists every override.
+
+**What was read this pass (all fetched 25-Oct-2026 with a generic browser user-agent; no logins)**
+- **FY26 annual reports (BSE filings):**
+  - Titagarh, 179 pp: https://www.bseindia.com/xml-data/corpfiling/AttachHis/8b21ed98-5736-4f43-8d8f-aadc6629ab9f.pdf
+  - Jupiter, 359 pp: https://www.bseindia.com/xml-data/corpfiling/AttachHis/528db21e-842d-4815-bc80-1259fc8bd00b.pdf
+  - Texmaco, 247 pp: https://www.bseindia.com/xml-data/corpfiling/AttachHis/bc786aea-4bc3-4f93-ab5a-6a7ae551c098.pdf
+- **Q1 FY27 investor presentations (BSE filings):**
+  - Titagarh, 14-Aug-26: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05bfb266-49a6-409c-9799-37d7201e1131.pdf
+  - Jupiter, 14-Aug-26: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a8b1594-172d-4c74-97ee-5ada0705c73e.pdf
+  - Texmaco, Aug-26: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8cac6f6-f728-48ba-986e-a52b84a2d9bd.pdf
+- **Q1 FY27 earnings-call transcripts.** These are the same URLs as in Part 3.5. They were re-fetched and re-read for the guidance digests.
+- **Screener consolidated pages** for all three, re-fetched for the 5-year and 8-quarter tables.
+- **Industry sources:** PIB, Ministry of Railways, PRS, rating agencies and global peers' IR/SEC pages. URLs are given per row in 4.1 and 4.3.
+
+**Tags as in Part 1.** [V] means fetched this session from the named document, and in Part 4 it always names the document. [V-AR] = FY26 annual report. [V-PPT] = Q1 FY27 investor presentation. [V-call] = Q1 FY27 transcript. [V-scr] = screener 25-Oct-26.
+
+**Order of sections.** Part 4 was appended in chunks, so the sections appear in this order: 4.2 (companies) → 4.3 (industry) → 4.4 (gap log) → 4.5 (insights and primer issues) → **4.0 (Supersedes) and 4.1 (40-figure verification table), placed at the end**. The writer should read 4.0 first.
+
+## 4.2 Company deep-dives (primary documents)
+
+### 4.2.1 Titagarh Rail Systems (TITAGARH · 532966)
+
+**(a) The FY26 PAT puzzle is solved: a ₹64.78 Cr Firema exceptional item, plus restated FY25 figures [V-AR, Directors' Report financial summary and Note 35A]**
+
+**FY26 bridge (₹ Cr)**
+
+| ₹ Cr | Standalone FY26 | Standalone FY25 (restated) | Consolidated FY26 | Consolidated FY25 (restated) |
+|---|---|---|---|---|
+| Total income | 3,190.75 | 3,822.63 | 3,234.26 | 3,943.10 |
+| EBITDA (company basis, incl. other income) | 415.81 | 527.05 | 379.29 | 409.89 |
+| Finance cost | 70.37 | 73.14 | 70.77 | 73.15 |
+| Depreciation | 50.22 | 29.03 | 51.07 | 29.58 |
+| PBT before exceptional items and JV share | 295.22 | 424.88 | 257.45 | 307.16 |
+| Share of JV/associate profit (loss) | — | — | **(17.15)** | (98.50) |
+| **Exceptional items (Firema)** | **(57.58)** | (270.25) | **(64.78)** | (157.52) |
+| PBT | 237.64 | 154.63 | 192.67 | 149.64 |
+| Tax | 73.73 | 64.06 | 71.12 | 62.89 |
+| Discontinued operations (shipbuilding, net) | (13.21) | (13.60) | 1.27 | (0.14) |
+| **PAT** | **150.70** | **76.97** | **122.82** | **86.61** |
+
+**What happened [V-AR Note 35A]**
+- On **4-Mar-2026**, the business and assets of Titagarh Firema S.p.A. were transferred on a going-concern basis to Ferrovie dello Stato Italiane (FS Group).
+  - The sale consideration went to Firema's creditors. Titagarh, as a shareholder, received nothing.
+  - "Titagarh Firema Italy (TFA) is under liquidation."
+- Firema's audited IFRS accounts for FY25 (auditor's report dated 5-May-2026) showed a loss of **€104.72 mn (₹948.24 Cr)**. The management accounts used in Titagarh's FY25 consolidation had shown only **€16.89 mn (₹152.93 Cr)**. That gap turned Firema's net worth negative.
+- Titagarh therefore **restated FY25 under Ind AS 8**. The restatement added an investment impairment of ₹112.73 Cr (including the holding through Shivaliks Mercantile) and a provision of ₹157.52 Cr against collateral Titagarh had given for Firema's borrowings.
+  - The standalone FY25 exceptional charge is ₹270.25 Cr. Standalone FY25 PBT falls from 424.88 as originally reported to 154.63.
+- In FY26 the company booked a further **₹64.78 Cr of loss allowances** on loans to Shivaliks Mercantile and on receivables from Firema.
+
+**Reconciliation**
+- The four published quarters sum to ~₹167 Cr of PAT. The presentation charts are labelled "before exceptional items".
+- The audited annual figure is ₹122.82 Cr. The ~₹44 Cr gap is the ₹64.78 Cr exceptional item, net of the JV share and tax effects, booked in the audited annual accounts.
+- **Use ₹122.8 Cr as reported and ~₹167–175 Cr as the pre-exceptional run-rate.**
+- Anand Rathi's ₹140 Cr is a third, non-primary number. Drop it.
+
+**Audit flags [V-AR, Independent Auditors' Reports; joint auditors Price Waterhouse & Co Chartered Accountants LLP and Salarpuria & Partners]**
+- An **Emphasis of Matter** on the restatement of prior-period comparatives (Note 35A). The opinion on the financial statements is *not modified*.
+- A **qualified opinion on internal financial controls**. It cites "material weaknesses… in the operating effectiveness of the Company's internal financial controls with respect to review of impairment assessment of investments in an associate and a joint venture, assessment of loss allowance on loan given to a joint venture and provision towards collateral given against loan taken".
+- **This is new. Parts 1–3 flagged only Texmaco's audit qualification.** Two of the three members now carry an auditor qualification for FY26:
+  - Texmaco: qualified opinion on the financial statements.
+  - Titagarh: qualified opinion on internal financial controls.
+
+**(b) Operating KPIs from primary documents**
+
+| KPI | Value | Source |
+|---|---|---|
+| **FY26 wagon dispatches** | **7,019** | [V-AR MD&A] (Part 1 estimated ~6,500–7,000) |
+| Wagons pending at 31-Mar-26 | ~6,500, "scheduled largely for FY27" | [V-AR] |
+| Wagons pending at 30-Jun-26 | ~5,300; "entire order book scheduled for delivery in FY27" | [V-PPT] |
+| Wagon dispatches by quarter | Q1 FY26 1,628 · Q4 FY26 1,749 · **Q1 FY27 1,284** | [V-PPT]. Q2+Q3 FY26 = 7,019 − 1,628 − 1,749 = **3,642** [E] |
+| Wagon capacity | 12,000/yr (1,000/month); current plan 600–650/month until the IR tender | [V-AR; V-call] |
+| Foundry capacity | Upgraded to **50,000 tpa** in FY26 | [V-AR] |
+| Coaches dispatched | FY25 12 → FY26 63 → Q1 FY27 30 (a record) | [V-AR; V-PPT] |
+| Traction motors dispatched | FY26 891 (FY25 636) | [V-AR] |
+| Coach order book (30-Jun-26) | 1,771 = 491 metro + 1,280 Vande Bharat; plus 74 propulsion sets and 72 traction motors | [V-PPT] |
+| PRS share of Q1 FY27 revenue | 31% (standalone segment basis: ₹229.75 Cr of ₹735.06 Cr) | [V-PPT] |
+| PRS pipeline identified | ~₹16,365 Cr: West ₹3,500 Cr; South ₹4,000 Cr; Central & North ₹8,865 Cr | [V-PPT] |
+
+**Standalone order book at 30-Jun-26 (₹ Cr) [V-PPT slide 7]**
+
+| Component | ₹ Cr | Note |
+|---|---|---|
+| Freight Rail Systems | ~2,470 | 19.2% |
+| Passenger Rail Systems | ~10,395 | 80.8% |
+| Ships (TNSL) | **~470** | — |
+| **Standalone incl. WOS** | **~13,335** | — |
+| RKFL forged-wheel JV (share) | ~6,300 | — |
+| **Vande Bharat AMC JV with BHEL** | **~7,000** | — |
+| **Total** | **~26,635** | — |
+
+**Two conflicts are resolved by the presentation:**
+1. **The ship order is ~₹470 Cr.** Arihant's "₹170 Cr" is almost certainly the **₹169 Cr Shipbuilding Financial Assistance grant** for the Falta yard [V-PPT; V-AR], misread as an order.
+2. **The ₹7,000 Cr JV line is the Vande Bharat *AMC* JV** (a 50:50 SPV with BHEL to maintain 80 train-sets for 35 years; depots at Shakur Basti, Delhi and Jogeshwari, Mumbai). It is **not** the supply share.
+   - So the Vande Bharat **supply** (1,280 cars) sits inside the ₹10,395 Cr standalone PRS book.
+   - This settles the B3 FLAG in Part 1: **the supply is inside the standalone book; the JV line is maintenance.**
+
+**Segments (standalone; ₹ Cr) [V-PPT slide 14]**
+
+| | Q1 FY27 | Q4 FY26 | Q1 FY26 | FY26 |
+|---|---|---|---|---|
+| Freight revenue | 505.31 | 685.21 | 596.57 | 2,604.25 |
+| Freight EBIT (margin) | 61.68 (12.21%) | 88.57 (12.93%) | 69.20 (11.60%) | 317.93 (12.21%) |
+| Passenger revenue | 229.75 | 173.33 | 77.43 | 539.33 |
+| Passenger EBIT (margin) | 33.69 (14.66%) | 32.63 (18.83%) | 8.74 (11.29%) | 76.95 (14.27%) |
+| Total segment revenue | 735.06 | 858.54 | 674.00 | 3,143.58 |
+
+- FY25 standalone (re-presented) was freight ₹3,491.83 Cr and passenger ₹255.55 Cr [V-AR]. FY26 freight was therefore **−25.4%** and passenger **+111%**.
+- Freight revenue per wagon:
+  - FY26 standalone freight ₹2,604 Cr ÷ 7,019 wagons ≈ **₹37.1 lakh** [E from V]. This includes castings and other freight sales, so the pure wagon realisation is lower.
+  - Q1 FY27: ₹505 Cr ÷ 1,284 ≈ ₹39.4 lakh [E].
+
+**(c) Management-guidance digest (Q1 FY27 call, 14-Aug-2026, paraphrased) [V-call]**
+1. **Wagons:** output held deliberately at **600–650/month** until the IR mega-tender is clear. The company is actively booking private orders. Capacity of 1,000/month can be reached once the tender is awarded.
+2. **Tender timing:** management knows no more than the media reports. The 3,000 MT loading goal "remains unchanged", so procurement is "only a question of time". (A separate Q&A answer in the same call: "deferred… not dropped… priorities shifted because of the Middle East war.")
+3. **Coaches:** "increase the coach production to **45 to 50 coaches per quarter** in this financial year". The ~200-car FY27 target is "intact", within ±10%. Capacity is to reach **850+ cars/yr by 2028-29**.
+   - **Conflict resolved:** 45–50/quarter is management's own wording. Arihant's 75–85/quarter is an inference from the 200-car target. 30 + 3 × (45–50) = 165–180 cars, which is within −10–18% of 200.
+   - The writer should quote **"45–50 a quarter, ~200 for the year (±10%)"** and note that hitting 200 requires a Q3–Q4 ramp above 50.
+4. **Metro projects:** bulk of Bengaluru and Gujarat in FY27, spilling into Q1 FY28. The Mumbai prototype runs in parallel. Civil-work delays of 2–3 months "do not impact our execution".
+5. **Aluminium line:** sub-assemblies formerly bought from Firema are being in-sourced, from extrusion to finished coach. The line is ready ~Q1 FY28.
+6. **MRVC tender cancellation (production moved to ICF):** "not a very happy situation". Management argues that IR's in-house units being busy will push other train work to private makers.
+7. **Wheel JV:** margins will be "in line with a standard forging business (e.g. RK Forgings)". The selling price to IR per kg is public. Trial production in Q2 FY27.
+8. **Visibility beyond FY28:** management points to a pipeline of metro tenders in 3 regions (~₹16,365 Cr) and the plan to double metro cities from 25 to 50.
+
+**(d) 5-year history (consolidated; ₹ Cr) [V-scr]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 1,468 | 2,780 | 3,853 | 3,868 | 3,186 |
+| OP (EBITDA ex-OI) | 165 | 251 | 449 | 335 | 331 |
+| OPM | 11% | 9% | 12% | 9% | 10% |
+| Other income | −61 | 34 | 38 | −82 | −15 |
+| PBT | 29 | 181 | 386 | 150 | 194 |
+| PAT | −1 | 126 | 286 | 87 | 123 |
+| ROCE | 9% | 18% | 25% | 14% | 11% |
+| CFO | 55 | 41 | 86 | −97 | 322 |
+| Debtor days | 58 | 37 | 50 | 63 | 72 |
+| Inventory days | 176 | 78 | 64 | 65 | 92 |
+
+- Screener's "other income" line carries the exceptional items and the JV share: FY25 −82 and FY26 −15. That is why screener OP looks clean while PBT does not.
+- Screener FY25 PAT (87) already reflects the restated ₹86.61 Cr.
+
+**(e) 8-quarter trend (consolidated; ₹ Cr) [V-scr]**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,057 | 902 | 1,006 | 679 | 799 | 832 | 875 | 765 |
+| OP | 125 | 94 | 18 | 64 | 74 | 91 | 92 | 94 |
+| OPM | 12% | 10% | 1.8% | 9% | 9% | 11% | 11% | 12% |
+| PAT | 81 | 63 | −124 | 31 | 37 | 45 | 54 | 53 |
+| Wagons dispatched | n/a | n/a | n/a | 1,628 | ~1,8xx* | ~1,8xx* | 1,749 | 1,284 |
+
+\*Q2 + Q3 FY26 total 3,642 [E from V-AR and V-PPT]. The split between the two quarters was not found.
+
+- The presentation's consolidated EBITDA for Q1 FY26 → Q1 FY27 is 75, 84, 92, 97, 95. That is close to screener OP, which is 1–2 Cr different on other-income classification [V-PPT].
+
+**(f) Other annual-report findings [V-AR]**
+- **Contingent liabilities (standalone): ₹187.53 Cr** (FY25 ₹186.45 Cr):
+  - Disputed claims ₹40.71 Cr.
+  - Sales tax ₹22.93 Cr.
+  - Income tax ₹46.99 Cr.
+  - Customs and excise ₹46.47 Cr.
+  - GST ₹30.43 Cr.
+  - That is ~7.6% of standalone net worth (₹2,483 Cr). Not material.
+- **Liquidated damages** deducted from revenue: ₹25.73 Cr (FY25 ₹13.37 Cr).
+  - In an LD dispute on a wagon contract, an arbitration award of ₹15 Cr went in Titagarh's favour. The money was received against a bank guarantee and is being challenged.
+- **Key ratios (standalone):**
+  - Debtor days 75.0 (58.6); inventory days 84.4 (65.7).
+  - Interest cover 5.2× (6.8×); net debt/equity 0.15 (0.22).
+  - Operating margin before exceptional items 11.63% (13.29%); RoNW 6.31%.
+- **Shipbuilding:** transferred by **slump sale to the wholly-owned TNSL effective 1-Jan-2026**. It is a "discontinued operation" in the standalone accounts.
+  - The Falta yard capex is ~₹600 Cr, with the ₹169 Cr SFAS grant. Production at the new yard is expected during FY27 (AR); the call said FY28.
+  - TNSL is in talks for a "major export order".
+- **Promoter warrants were issued in FY26.** Promoter holding goes from 40.46% → **41.44%** on conversion [V-PPT shareholding slide].
+- **Pledges:** the 30-Jun-26 shareholding slide shows promoters at 40.46%, MFs 12.31%, resident individuals 28.80%, FPIs 10.87%. No pledge is disclosed there.
+  - The AR (Note on investments) shows **Titagarh pledged 3 million Firema shares** to Bank of Baroda for Firema's loan. That is a company-level pledge of an investment, not a promoter pledge.
+  - Promoter-share pledge status from the exchange's SAST/pledge filings was not separately fetched [unverified]. Screener's shareholding table shows no pledge line.
+- **Wheel JV (RKFL 51 : Titagarh 49) [V-PPT slide 19]:**
+  - **228,000 forged wheels/yr** — "Asia's 2nd largest". This settles 2.28 lakh vs 2.5 lakh: **use 2.28 lakh**.
+  - Project cost ~₹2,000 Cr, of which ₹500 Cr equity has been infused by both partners.
+  - Machining and test line commissioning has started; samples in Aug-26.
+
+### 4.2.2 Jupiter Wagons (JWL · 533272)
+
+**(a) Operating KPIs: the presentation now discloses unit volumes by product [V-PPT slide 9, "Operating Highlights"]**
+
+| Units | Q1 FY27 | Q4 FY26 | Q1 FY26 | **FY26** |
+|---|---|---|---|---|
+| **Railway wagons** | **1,141** | 1,347 | 826 | **5,498** |
+| CMS crossings | 532 | 386 | 262 | 1,321 |
+| CV bodies and components | 2,597 | 3,343 | 2,182 | 10,909 |
+| Containers | 311 | 279 | 339 | 1,460 |
+| Wheels | 143 | 198 | 208 | 2,239 |
+| Axles | 1,008 | 720 | 744 | 3,798 |
+| **Wheelsets** | **1,282** | 5,290 | 4,811 | **19,939** |
+| Brake discs | 5,160 | 6,356 | 5,199 | 26,267 |
+
+- **FY26 wagon deliveries: 5,498** [V]. Part 1 estimated ~5,000–5,500.
+  - Q2 + Q3 FY26 = 5,498 − 826 − 1,347 = 3,325. With Q3 at 1,697 [The Core], Q2 ≈ 1,628 [E].
+- **New finding: wheelset output collapsed from 5,290 in Q4 FY26 to 1,282 in Q1 FY27 (−76% QoQ).** This is the component business that sells to rivals and IR.
+  - It explains why consolidated EBITDA fell faster than standalone EBITDA in Q1:
+    - Consolidated: ₹83.3 Cr → ₹64.9 Cr.
+    - Standalone: ₹67.1 Cr → ₹65.7 Cr.
+  - Subsidiaries swung from ~+₹16 Cr EBITDA in Q4 to ~−₹1 Cr in Q1 [E from V-PPT].
+  - The call did not discuss it. Analysts should ask on the Q2 call [FLAG].
+- **Order book ₹4,550 Cr at 30-Jun-26** [V-PPT] and ₹4,675 Cr at 31-Mar-26 [V-AR].
+  - **Conflict resolved: use ₹4,550 Cr.** The ~₹4,700 Cr in Part 1 came from the call's rounded components (wagons ~3,000 + wheelsets ~700 + CV ~500 + BESS ~500).
+- **BESS label resolved [V-PPT]:**
+  - The West Bengal win is **100 MW / 400 MWh** (~₹400 Cr, 15-year BOO).
+  - The BESS order book is "**over 500 MWh**, valued at more than ₹500 crore".
+  - The call transcript said "approximately 500 megawatts", which is a mis-statement. **Use 500 MWh.**
+  - The 110 "MW" of MoUs (Chalukya Power, Pickrenew) is **110 MWh** in the presentation.
+
+**(b) Consolidated vs standalone Q1 FY27 (₹ Cr) [V-PPT slides 5 and 8]**
+
+| | Consol Q1 FY27 | Consol Q4 FY26 | Consol Q1 FY26 | SA Q1 FY27 | SA Q4 FY26 | SA Q1 FY26 |
+|---|---|---|---|---|---|---|
+| Revenue | 670.7 | 780.2 | 459.3 | 618.7 | 645.1 | 410.9 |
+| Raw material | 493.5 (73.6%) | 572.4 | 298.0 (64.9%) | 458.8 | 477.5 | 275.4 |
+| EBITDA ex-OI | 64.9 (9.7%) | 83.3 (10.7%) | 59.8 (13.0%) | 65.7 (10.6%) | 67.1 (10.4%) | 50.8 (12.4%) |
+| Finance cost | 17.5 | 16.5 | 15.9 | 12.9 | 12.4 | 13.3 |
+| Exceptional item | — | (7.4) | — | — | — | — |
+| PAT | 26.2 | 27.2 | 31.1 | 38.0 | 38.6 | 32.9 |
+
+- **Standalone PAT exceeds consolidated in every quarter.** Subsidiaries and JVs cost ~₹12 Cr of PAT in Q1 FY27 and ~₹11 Cr in Q4 FY26. These include Stone India, JEM (BESS/e-LCV), JTRWF pre-operative costs and the DAKO/Kovis JVs [E from V].
+- **Tax:** almost all of Q1 tax is deferred (₹13.0 Cr deferred vs −₹0.5 Cr current).
+- **The Q4 FY26 exceptional item was ₹7.4 Cr in the consolidated P&L** [V-PPT]. The AR's secretarial report says Stone India paid **₹10.40 Cr** of differential lease-rent dues to Syama Prasad Mookerjee Port [V-AR].
+  - **The ₹17.81 Cr in Part 2 is unverified. Use ₹7.4 Cr** for the P&L item.
+
+**(c) Management-guidance digest (Q1 FY27 call, 18-Aug-2026; Vivek Lohia, MD; paraphrased) [V-call]**
+1. **Order book composition:** wagons ~₹3,000 Cr (IR + private; ~80% private); wheelsets ~₹700 Cr; CV ~₹500 Cr; BESS ~₹500 Cr. **60–70% of the book is to be executed in FY27.**
+2. **Wagon volume:** Q1 dipped because the company "shifted to new designs" (private wagons needing prototype approval). Expect a step-up from Q2. IR "has not reduced their wagon targets"; the challenge is only the *new* order book.
+3. **Mega-tender:** no date; "we expect new order books to come soon".
+4. **Wheel plant (Odisha):**
+   - Axle line to be commissioned in FY27, wheel line in FY28.
+   - Revenue target ₹2,500–3,000 Cr at full ramp; EBITDA "15% plus" from FY28.
+   - Project capex "remains at ₹2,600 crore".
+   - Jupiter's equity commitment falls from ₹900 Cr to ~₹600 Cr because Lucchini RS + SIMEST bring ~₹290–300 Cr for 25%.
+   - **The AR (corporate section) says "investment of ₹3,000 crores… 1 lakh forged wheelsets, paired with 20,000 loose wheels by end of 2027".** Quote the call figure (₹2,600 Cr) as the latest. Note that the AR's ₹3,000 Cr may include working capital or the loose-wheel line [FLAG].
+5. **Brakes:** Stone India's freight brake system is RDSO-approved; commercial production started Jul-26 [V-PPT].
+6. **BESS / JEM:**
+   - BESS book ~₹500 Cr; target ~₹1,000 Cr by FY27-end and ~₹5,000 Cr in three years.
+   - JEM turns EBITDA-positive only in FY28.
+   - Funding (internal accruals vs debt) is "not firmed up".
+7. **Capex:** "majority of the capex will be done by Q1 of next year" (Q1 FY28).
+
+**(d) 5-year history (consolidated; ₹ Cr) [V-scr]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 1,178 | 2,068 | 3,644 | 3,963 | 2,916 |
+| OP | 114 | 249 | 487 | 566 | 354 |
+| OPM | 10% | 12% | 13% | 14% | 12% |
+| PBT | 76 | 200 | 442 | 496 | 245 |
+| PAT | 50 | 121 | 331 | 380 | 166 |
+| ROCE | 12% | 24% | 31% | 21% | 9% |
+| CFO | 60 | 78 | −19 | 104 | 9 |
+| FCF | 23 | 9 | −143 | −403 | −524 |
+| Borrowings (year-end) | 139 | 288 | 349 | 502 | 996 |
+| Debtor days | 22 | 38 | 49 | 75 | 95 |
+| Inventory days | 130 | 114 | 127 | 94 | 188 |
+
+- **Cumulative FCF FY24–FY26: −₹1,070 Cr.** It was funded by the ₹800 Cr QIP, the ₹135 Cr promoter warrants and ~₹650 Cr of new borrowings [E from V].
+
+**(e) 8-quarter trend (consolidated; ₹ Cr) [V-scr; wagons V-PPT/E]**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,009 | 1,030 | 1,045 | 459 | 786 | 890 | 780 | 671 |
+| OP | 139 | 143 | 147 | 59 | 103 | 113 | 79 | 65 |
+| OPM | 14% | 14% | 14% | 13% | 13% | 13% | 10% | 10% |
+| PAT | 89 | 96 | 103 | 31 | 45 | 62 | 27 | 26 |
+| Wagons | n/a | 2,259* | n/a | 826 | ~1,628 [E] | 1,697* | 1,347 | 1,141 |
+
+\*Per The Core [V-sec].
+
+**(f) Annual-report findings [V-AR]**
+- **QIP terms verified.** ₹799.99 Cr at **₹655.50/share** (premium ₹645.50), Fund Raising Committee 12-Jul-2024. Use of proceeds:
+  - ₹425 Cr into JTRWF for the wheel-and-axle plant. It was invested in Q2 FY25; ₹307.65 Cr was spent by Q4 FY25 and the rest is parked in fixed deposits at the subsidiary.
+  - ₹175 Cr working capital.
+  - ₹183.24 Cr general corporate purposes.
+  - All of it is "utilised" at the parent level by 31-Mar-26.
+- **Promoter warrants:** 28,72,340 warrants at ₹470 to **Tatravagonka a.s.** (₹135 Cr), allotted 29-Jun-2024 and converted in FY26 (listing approval Feb-2026). Tatravagonka now holds **19.24%** of Jupiter.
+- **SEBI enquiry:** the secretarial auditor reports that the company **received an email from SEBI on 24-Feb-2026 "in connection with an investigation pertaining to the trading activities of certain entities in the scrip… in relation to the financial results… for FY ended March 31, 2024"** (announced 7-May-2024). The company replied on 26-Feb-2026.
+  - This is a disclosure, not an allegation against the company. It is a governance item the primer does not mention.
+- **Customer concentration (consolidated):**
+  - FY26: three customers above 10% of revenue, totalling ₹1,503 Cr (**51.6%**): A ₹834 Cr (28.6%), B ₹337 Cr, C ₹332 Cr.
+  - FY25: one customer at ₹1,665 Cr (42.0%). It is almost certainly IR [E].
+- **Exports ≈ zero:** "Rest of the world" revenue was **₹0.50 Cr in FY26** (₹1.79 Cr in FY25). **Jupiter has no meaningful US or export exposure today.** The export story is entirely the future JTRWF wheel offtake.
+- **Order wins disclosed:**
+  - GATX India (lessor) 583 wagons, ₹242.41 Cr (Aug-2025).
+  - JTRWF: Vande Bharat wheelsets LoI ₹215 Cr (5,376 wheelsets, Aug-2025) and Railway Board LoA ₹113 Cr (9,000 LHB axles, Sep-2025).
+- **Contingent liabilities (standalone):** ₹40.2 Cr (excise/service tax ₹24.5 Cr; sales/entry tax ₹14.6 Cr; income tax ₹1.1 Cr). Unchanged YoY.
+- **Audit opinion: unmodified.** Single reportable segment, so there is no wagon-vs-component profit split. Analysts must rely on the unit table above.
+- **Pledge:** no promoter encumbrance is disclosed in the AR shareholding sections reviewed, and screener shows no pledge line. The SAST pledge filing was not separately fetched [unverified].
+
+### 4.2.3 Texmaco Rail & Engineering (TEXRAIL · 533326)
+
+**(a) The ₹700 Cr provision, verified in full [V-AR: Auditor's report; Notes 1.36–1.38; Statement of Changes in Equity; consolidated segment note 1.48]**
+- **Where it was funded from (SOCIE, ₹ lakh):**
+  - From General Reserve: **(49,405.30)**.
+  - From Retained Earnings: **(20,594.70)**.
+  - Total **₹700.00 Cr = ₹494.05 Cr + ₹205.95 Cr**. This confirms Moneylife's 494/206 split (previously V-snip).
+- **Board rationale (Note 1.37):**
+  - It covers "geo-political factors… trade uncertainties, supply chain disruptions, escalation of costs and foreign exchange risks".
+  - Such contingencies "would arise neither because of operational issues, nor would be attributable to identifiable individual risks or a single reportable year". For that reason it was carved out of free reserves.
+- **Auditor:** a *Qualified Opinion* on the standalone statements. The provision was created "by way of charge to its free reserves… not routed through the profit and loss account… it was not possible to assess the exact time frame of the impact of such risks".
+- **Balance-sheet presentation:**
+  - It sits under provisions. The Note 1.38 closing balance is ₹736.98 Cr, of which contingencies are ₹700 Cr.
+  - The consolidated segment note shows it as **"unallocated corporate liabilities ₹700 Cr"**.
+  - So it is a liability (provision), not an earmarked reserve. Net worth falls by ₹700 Cr and total liabilities rise by ₹700 Cr.
+- **Implication for the writer:**
+  - FY26 PAT (₹193.6 Cr consolidated) is unaffected.
+  - Any future *utilisation* would not hit the P&L.
+  - Any *reversal* would, under Ind AS 37, normally go back through the P&L as a write-back. It would then inflate a future year's profit [E — accounting inference; FLAG for the writer to phrase carefully].
+
+**(b) FY26 operating facts [V-AR MD&A]**
+- **Wagons:** 8,372 delivered, worth ~₹3,413.38 Cr (**₹40.8 lakh/wagon** average).
+  - 6,841 to IR (81.7%) and 1,531 to private customers.
+  - The freight order position in the MD&A is ~₹2,080 Cr.
+- **Exports:**
+  - **Camalco (Cameroon): 1,700 open-top wagons, in three phases.**
+  - In South Africa, the AR (written ~May-26) mentions "advanced stage discussions with Train Operating Companies associated with Transnet". This became the ~₹4,100 Cr order in Q1 FY27 [V-call].
+- **Private wins:** JSW Steel 20 rakes (BFNV, BLSS, BLCS). Pilot FMP wagon order: 4 rakes delivered. CMP prototype rakes are awaiting CCRS clearance.
+- **New JVs and MoUs:** an RVNL JV (shareholders' agreement executed; incorporation under way); IIT Kharagpur; Nevomo (maglev/linear propulsion).
+- **Wabtec Texmaco (40%):** FY26 revenue ₹114.54 Cr, PBT ₹22.51 Cr. It was hit by the **discontinuation of receiver-assembly exports to Wabtec de Mexico** and lower draft-gear sales.
+- **US-linked products:** Trinity manway covers (qualified by TrinityRail, USA) and Mark 325 locomotive yoke components (USA) are in development or validation.
+  - **Foreign-exchange earnings for FY26 were ₹146.68 Cr (~3.4% of revenue)**, against outgo of ₹333.88 Cr.
+  - **Answer to the "US exposure" gap: small.** US-bound castings and components are a subset of ₹147 Cr of total forex earnings, i.e. well under ~3% of revenue [E from V].
+
+**(c) Consolidated segments (₹ Cr) [V-AR Note 1.48]**
+
+| Segment | FY26 revenue | FY26 result (margin) | FY25 revenue | FY25 result (margin) |
+|---|---|---|---|---|
+| Freight Car Division (wagons, foundry, components) | 3,419.25 | 283.74 (8.3%) | 4,301.48 | 388.93 (9.0%) |
+| Infra – Rail & Green Energy | 348.34 | (27.40) | 438.32 | (29.08) |
+| Infra – Electrical (Bright Power) | 609.68 | 65.93 (10.8%) | 366.78 | 44.44 (12.1%) |
+| Total | 4,377.27 | 321.83 | 5,106.57 | 404.29 |
+
+- Share of JV/associate profit: ₹22.62 Cr (₹23.37 Cr).
+- Consolidated PAT: ₹193.57 Cr (₹248.88 Cr).
+- Capex: ₹191.4 Cr (FY25 ₹566.4 Cr, including the Jindal Rail acquisition) [V-AR].
+
+**(d) Contingent liabilities and commitments (standalone; Note 1.36) [V-AR]**
+- **Bank and corporate guarantees: ₹1,085.93 Cr** (FY25 ₹901.27 Cr). That is ~25% of revenue and the reason finance cost includes BG commission.
+- Disputed tax claims: ₹198.30 Cr (₹217.18 Cr).
+- **Capital commitments: ₹73.11 Cr (vs ₹0.04 Cr)**, signalling a capex restart. Management's envelope is "within ₹1,500 Cr" to 2030.
+
+**(e) Q1 FY27 standalone P&L (₹ Cr) [V-PPT slide 12]**
+
+| | Q1 FY27 | Q1 FY26 | Q4 FY26 |
+|---|---|---|---|
+| Revenue | 753 | 910 | 1,164 |
+| Other income | 25 | 12 | 13 |
+| Materials (incl. inventory change) | 566 | 741 | 948 |
+| Power & fuel | 28 | 23 | 24 |
+| Employees | 44 | 44 | 43 |
+| Other expenses | 58 | 31 | 44 |
+| **EBITDA incl. OI (margin)** | **81 (10.8%)** | 83 (9.2%) | 116 (10.0%) |
+| **EBITDA ex-OI [E]** | **56 (7.4%)** | 71 (7.8%) | 103 (8.8%) |
+| EBIT | 69 | 73 | 103 |
+| Finance cost | 25 | 30 | 30 |
+| PAT | 52 | 28 | 59 |
+
+- Other expenses nearly doubled YoY (+88.5%). Export freight is booked there [V-call].
+- **Ex-OI, Q1 margin *fell*.** The "+161 bp margin expansion" headline rests on other income doubling (₹12 Cr → ₹25 Cr).
+
+**(f) Management-guidance digest (Q1 FY27 call, 4-Aug-2026; Sudipta Mukherjee, MD; Indrajit Mookerjee, ED & Vice Chairman; paraphrased) [V-call]**
+1. **Order inflow:** "a very strong expectation of order flow continuously", but "as of now, we can only talk about private and export". On an IR tender, "we are more or less insulated".
+2. **Growth guidance:** Q1 orders above ₹5,200 Cr. The South Africa piece is ~₹4,100 Cr, not ₹5,200 Cr.
+   - Asked for FY27–28 numbers, the MD said top-line growth could be "20% to 50%" in a year if the new businesses come through, and agreed with "at least 15–20%" over 1–2 years.
+   - Core EBITDA to improve by **1.2–3 pp** over 1–3 years; "journey towards the mid-teens".
+3. **South Africa:** ~₹4,100 Cr. Wagons are ~₹2,000–2,200 Cr; 15-year maintenance is 30–35%; a locomotive mandate is to follow. Bulk delivery is in FY28.
+   - A local wagon/loco plant is possible. Management would not confirm the ₹200–300 Cr press figure.
+4. **Wheels:** no shortage in Q1. IR orders depend on RWF supply "as the mandate of the government". Private and export orders use other sources.
+5. **Capacity:** the call says "elastic, 15,000–16,000" wagons. **The presentation says "2,500–3,000 wagons per quarter" (10–12k/yr)** [V-PPT]. Quote both, with the PPT as the standing figure.
+6. **Policy:** management cites "**eight points** of reforms which the Honorable Railway Minister has come up with". It says the modal share "of 40% to 45%, which was indicated through National Rail Plan has been consistently reached" — which contradicts the ~27–28% actual (see 4.3) [FLAG — management misstatement or a garbled transcript].
+7. **Leasing:** Trinity's entry turns Texmaco Touax into "India's first globally benchmarked railcar leasing platform". Texmaco's stake falls from 50% to 34%.
+   - **The Q1 presentation's JV slide still shows Touax Texmaco at 50%.** The Trinity deal had not closed at 30-Jun.
+
+**(g) 5-year history (consolidated; ₹ Cr) [V-scr]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 1,814 | 2,243 | 3,503 | 5,107 | 4,377 |
+| OP | 140 | 145 | 264 | 467 | 391 |
+| OPM | 8% | 6% | 8% | 9% | 9% |
+| Other income | 22 | 26 | 70 | 58 | 56 |
+| PBT | 26 | 20 | 162 | 345 | 277 |
+| PAT | 21 | 26 | 113 | 249 | 194 |
+| ROCE | 6% | 6% | 11% | 14% | 11% |
+| CFO | 27 | −103 | 96 | −47 | 363 |
+| Reserves (year-end) | 1,298 | 1,360 | 2,493 | 2,757 | 2,333 |
+| Debtor days | 115 | 128 | 92 | 98 | 104 |
+
+**(h) 8-quarter trend (consolidated; ₹ Cr) [V-scr]**
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,346 | 1,326 | 1,346 | 911 | 1,258 | 1,042 | 1,167 | 757 |
+| OP | 132 | 131 | 98 | 71 | 124 | 89 | 106 | 57 |
+| OPM | 10% | 10% | 7% | 8% | 10% | 9% | 9% | 8% |
+| Other income | 23 | 8 | 20 | 14 | 15 | 18 | 10 | 23 |
+| PAT | 74 | 76 | 39 | 29 | 64 | 42 | 58 | 50 |
+| Tax rate | 29% | 25% | 46% | 33% | 35% | 33% | 20% | −18% |
+| Wagons | n/a | n/a | n/a | n/a | n/a | n/a | 2,196 | 1,054 |
+
+- FY26 wagons were 8,372 in total [V-AR]. Q1–Q3 FY26 together were 6,176 [E].
+
+**(i) Ownership and pledges [V-scr]**
+- Promoter holding 48.34% (Sep-26).
+- Screener shows no pledge. The SAST pledge filing was not fetched [unverified].
+
+### 4.2.4 Cross-company read of the primary documents (new)
+
+| Item (FY26 unless stated) | Titagarh | Jupiter | Texmaco | Sum / read |
+|---|---|---|---|---|
+| **Wagons delivered** | **7,019** [V-AR] | **5,498** [V-PPT] | **8,372** (6,841 IR + 1,531 private) [V-AR] | **20,889** [E sum of V] |
+| Wagons delivered, Q1 FY27 | 1,284 | 1,141 | 1,054 | 3,479 |
+| Wagons delivered, Q1 FY26 | 1,628 | 826 | n/d | — |
+| Freight segment revenue (₹ Cr) | 2,604 (SA) | n/d (single segment) | 3,419 (consol. FCD) | — |
+| Freight segment margin | EBIT 12.2% | n/d | Segment result 8.3% | Titagarh earns ~4 pp more per freight rupee |
+| Average revenue per wagon | ~₹37 lakh (segment ÷ units; includes castings) | ₹41.5 lakh (Q1 FY27, call) | ₹40.8 lakh (wagon revenue ÷ units, AR) | — |
+| Auditor's opinion | **Qualified on IFC** + EOM (Firema restatement) | Unmodified | **Qualified on financial statements** (₹700 Cr provision) | 2 of 3 flagged |
+| Contingent liabilities (SA, ex-guarantees) | ₹187.5 Cr | ₹40.2 Cr | ₹198.3 Cr (+ BG ₹1,085.9 Cr) | — |
+| Largest customer concentration | IR-heavy (FRS book "IR and private") | Top-3 = 51.6% of revenue | 81.7% of wagons to IR | — |
+| Exports | Firema exited; ships export order in talks | ~₹0.5 Cr (nil) | Forex earnings ₹146.7 Cr (~3.4%); Cameroon 1,700; SA ~₹4,100 Cr (FY28) | — |
+| Equity raised FY24–26 | Promoter warrants FY26 (promoter 40.46% → 41.44%) | QIP ₹800 Cr @ ₹655.5 + warrants ₹135 Cr @ ₹470 | QIP + warrants (CARE: "significant fund infusion… in the last two years") | — |
+| Order book, latest | ₹13,335 Cr SA (₹26,635 Cr incl. JV) | ₹4,550 Cr | ₹9,923 Cr | ~₹27,800 Cr SA |
+
+**Read:**
+1. **Combined FY26 deliveries are now known from primary documents: ~20,900 wagons.** FY25 unit counts were not disclosed in the documents read, so no YoY is claimed.
+2. **Texmaco is the volume leader (40% of the trio). Titagarh is the margin leader in freight.**
+3. **Texmaco's FY26 was 82% IR-delivered, but its *book* is 96% private/export.** FY27 deliveries will therefore look like a different company.
+
+## 4.3 Industry data upgraded from primary sources
+
+### 4.3.1 National wagon production: the FY26 hole is now partly filled
+
+**Ministry of Railways, "Year End Review 2025"** (29-Dec-2025), as republished in full by India Shipping News [V-sec]: https://indiashippingnews.com/trending-news/ministry-of-railways-year-end-review-2025/
+- "During the current calendar year, **Jan '25 to Nov '25 wagon production is 33,703 nos**."
+- The same release repeats FY25 = 41,929 (the highest), and the monthly figures 3,651 / 3,880 / 4,135. Part 1 read these, consistently, as Jan / Feb / Mar 2025.
+
+**Derivation [E]:**
+- **Apr–Nov 2025 (8 months of FY26) ≈ 33,703 − (3,651 + 3,880 + 4,135) = 22,037**, or ~2,755 per month.
+- Dec-25 to Mar-26 at 2,400–2,900/month gives **FY26 national production of ~31,500–33,600**.
+  - The low end allows for the Q4 LPG/gas disruptions reported by Jupiter (AR) and Texmaco.
+  - **Central estimate ~32,500.**
+- That is **−22% vs FY25 (41,929)**. Part 1 estimated −25–35% (26–31k). **Part 1's range was too low.**
+
+**Arithmetic check:**
+- The three listed members delivered 20,889 [V]. That is a **~64% share of national output** (range 62–66%).
+- The remaining ~11–12k would be Hindusthan Engineering, Oriental, Besco, Braithwaite, SAIL-RITES BWEL, Amsted, Jindal-era capacity at others, and IR workshops.
+
+**Production versus IR's own wagon additions:**
+- IR's Budget physical target for FY26 is RE **26,000** [V PRS].
+- So roughly **6,500 FY26 wagons (~20%) were private, PSU or export**.
+- This matches Texmaco's 1,531 private wagons, Jupiter's ~80% private book, and Titagarh's private orders.
+
+**FY23 cross-check:**
+- IR's FY23 "wagon procurement increased by 77.6% over 2021-22 to **22,747 wagons**" (IR year-end financial release, via Indian Infrastructure, 19-Apr-2023 [V-sec]).
+- That is consistent with PIB's 22,790 production figure. **FY22 ≈ 12,810 implied.**
+- FY20 production is still not found [gap].
+
+**Updated series for the charts**
+
+| Year | National wagon production | Source / tag |
+|---|---|---|
+| FY21 | 12,521 | [V-snip] |
+| FY22 | ~12,800 (12,796 snip; 12,810 implied) | [V-snip / E] |
+| FY23 | 22,790 (procurement 22,747) | [V-sec PIB; V-sec] |
+| FY24 | 37,650 | [V-sec PIB] |
+| FY25 | 41,929 | [V-sec PIB; MoR YER] |
+| **FY26** | **~32,500 (31.5–33.6k)** | **[E from V-sec MoR YER: Jan–Nov-25 = 33,703]** |
+| FY27 BE (IR only) | 32,000 | [V PRS] |
+
+### 4.3.2 The 2022 award: split and price basis
+
+**Construction World, 8-Jun-2022** [V-sec]: https://www.constructionworld.in/amp/transport-infrastructure/aviation-and-airport-infra/five-big-companies-bagged-railways-order-for-wagons/34634
+- "Five big companies bagged… Rs 23,500 crore to supply **60,000 wagons**":
+  - **Titagarh 24,177 units (~₹9,249.48 Cr).**
+  - **Texmaco 20,067 units (~₹7,615.18 Cr).**
+  - Oriental Foundry, Hindustan Engineering Industries and CEBBCO (Jupiter) also won, with **no unit counts disclosed**.
+- Delivery was due "by FY2025-26".
+
+**New finding on price basis [E]:**
+- 9,249.48 ÷ 7,838 = **1.180**, and 7,615.18 ÷ 6,450 = **1.181**.
+- So the ₹7,838 Cr / ₹6,450 Cr figures used in Parts 1–3 are **ex-GST**, and the Construction World values include **18% GST**.
+- Per-wagon ex-GST is ₹32.4 lakh (Titagarh) and ₹32.1 lakh (Texmaco). Including GST it is ₹38.3 lakh and ₹37.9 lakh.
+- **The writer must say "ex-GST" whenever comparing these with company realisations, which are ex-GST.**
+
+**Residual for the other three [E]:**
+- 60,000 − 44,244 = **~15,750 wagons** shared by Oriental, HEI and CEBBCO/Jupiter.
+- Jupiter's individual allocation is still unsourced [gap].
+- Note that Titagarh's "24,177 → later revised to 21,804" remains V-snip.
+- **Implied total value check:** 23,500 Cr (incl. GST?) ÷ 60,000 = ₹39.2 lakh, consistent with the GST-inclusive per-wagon figures.
+
+### 4.3.3 Wheels and axles: IR's own capacity explains the FY26 cap
+
+**PIB, 9-Sep-2024 (Rail Wheel Factory, Yelahanka) [V]:** https://www.pib.gov.in/PressReleasePage.aspx?PRID=2053278
+- "The Plant achieved a record highest production of **1,96,265 Wheels, 83,054 Axles and 94,275 Wheelsets** in the previous FY 2023-24."
+- "A 3rd Axle Machining Line is in the final stages of commissioning which will enhance the capacity of axle production by about **40,000 more axles** per year."
+- RWF makes cast wheels, forged axles and wheelsets, and also supplies Vande Bharat axles (4,037 to ICF/Medha).
+
+**Rail Wheel Plant, Bela (Bihar):**
+- Capacity up to **1,00,000 wheels/yr**.
+- FY24 output **42,167** (a record) [V-sec Patna Press, 6-Aug-2024].
+- FY26 output **60,699**; FY27 target 72,000; Q1 FY27 18,261 [V-snip].
+- Bela makes wheels only. Axles and wheelset assembly are at RWF.
+
+**Arithmetic: why IR wagons were capped [E]:**
+- A wagon needs **4 wheelsets = 8 wheels + 4 axles**.
+- RWF's record **94,275 wheelsets** would equip **~23,600 new wagons** *if none went to maintenance replacement*.
+- RWF's **83,054 axles** (pre-3rd line) cap wheelsets at ~83k/yr.
+- Fleet replacement, IR's own maintenance and coaches/locos also draw on the same pool.
+- **That is why IR's own wagon additions topped out at ~26–30k (FY25 29,889; FY26 RE 26,000) despite 40k+ national capacity.**
+- **Axles, not wheels, are the tighter IR bottleneck** (wheels 196k + Bela 60k ≈ 256k vs axles ~83–123k). That is consistent with the May-2026 report of IR planning to **import 60–70k axles from China** [V-snip].
+
+**Trade data — HS 8607 "Parts of railway/tramway locomotives or rolling stock" (wheels, axles, bogies, brakes, couplers)**
+- Source: Department of Commerce TradeStat (EIDB), fetched 25-Oct-2026, ₹ Cr [V]: https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_import (and …_export)
+
+| HS 8607 (₹ Cr) | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|
+| **Imports, total** | 2,801.7 | **5,049.2** | 4,071.9 | **4,537.4** |
+| of which China | 1,284.9 | 3,483.1 | 2,455.0 | 2,362.9 |
+| China share | 46% | **69%** | 60% | 52% (+ Hong Kong ₹471.5 Cr, up from ₹0.4 Cr → ~62% combined) |
+| Germany / Hungary / Czech / Italy (FY26) | — | — | — | 357.6 / 349.5 / 108.2 / 117.4 |
+| USA (FY26) | — | — | 211.9 | 237.5 |
+| Ukraine | — | 24.5 | 11.7 | 30.1 |
+| **Exports, total** | — | — | 1,307.0 | **1,597.4** |
+| of which USA | — | — | 524.2 | **592.4 (37%)** |
+
+- **Read 1:** imports of rolling-stock parts doubled in the FY24 peak, mainly Chinese wheels and axles. They are still ~₹4,500 Cr/yr.
+- **Read 2:** FY26 Hong Kong imports jumped from ₹0.4 Cr to ₹471.5 Cr. This is consistent with re-routing of China-origin parts [E; FLAG].
+- **Read 3:** **India exports ~₹600 Cr/yr of rail parts to the USA.** These are castings, couplers, yokes and draft gear (Texmaco, Amsted India, Wabtec India). That is the pool exposed to Sec 232 (4.3.6).
+
+**HS 8606 (complete wagons) [V]:**
+- Exports: **₹462.3 Cr in FY25 → ₹0.79 Cr in FY26.**
+- Imports: ₹86.4 Cr → ₹38.7 Cr (FY25 mostly Korea).
+- India exported essentially **no complete wagons in FY26**. Texmaco's South Africa and Cameroon orders deliver mainly from FY27–28.
+
+### 4.3.4 Railway capex series (₹ Cr)
+
+| Year | Capex | Source / tag |
+|---|---|---|
+| FY22 actual | 1,90,267 | IR year-end financial release via Indian Infrastructure, 19-Apr-2023 [V-sec] |
+| FY23 actual | 2,03,983 | same |
+| FY24 actual | 2,62,217 | PRS DfG 2026-27, p. text "increasing from Rs 1,01,985 crore [FY18] to Rs 2,62,217 crore" [V] |
+| FY25 actual | **2,69,361** | PRS DfG 2026-27, Table 1 [V] |
+| FY26 BE / RE | 2,65,200 / 2,65,200 | PRS [V] |
+| FY27 BE | 2,93,030 (+10.5%) | PRS [V] |
+
+- **Average capex growth was 17%/yr from FY18 to FY24. It has been flat since FY24.**
+- PRS: "capital output ratio… rose… from 418 paise in 2017-18 to 704 paise in 2023-24… no improvement in the efficient use of capital" [V].
+- PRS PDF: https://prsindia.org/files/budget/budget_parliament/2026/DfG_Analysis_2026-27-Railways.pdf
+
+### 4.3.5 Policy: the Minister's "eight reforms" are now itemised
+
+**Swarajya, 15-Jul-2026** [V-sec]: https://swarajyamag.com/infrastructure/indian-railways-rolls-out-eight-structural-reforms-for-freight-contracts-and-faster-land-acquisition
+- Announced **14-Jul-2026** by Railway Minister Ashwini Vaishnaw under "Reform Express". It takes the tally to **17 of a targeted 52 reforms in 52 weeks**.
+- The article describes nine measures under the "eight" label:
+  1. **Fly-ash in ISO closed containers.** India makes ~340 MT/yr of fly ash; rail moved ~13 MT in FY26.
+  2. **A single pan-India Container Train Operator licence** (₹25 Cr fee) replacing four categories.
+  3. **Rationalised fertiliser tariff** per tonne-km (rail carries ~85% of fertiliser).
+  4. **Containerised foodgrains.**
+  5. **Private wagon design.** Manufacturers and industry may design specialised wagons, subject to RDSO testing, safety certification and Railway Board approval.
+  6. **Oil companies may procure or lease specialised tank wagons** and run them on IR.
+  7. **Contractors:** 10% upfront performance security; bidders whose litigation exceeds 50% of net worth are barred.
+  8. **Artisan-skilling policy.**
+  9. **Rail Bhoomi land portal** (30–40% faster acquisition).
+- **For wagon makers, items 5 and 6 matter.** They are the policy basis for Texmaco's comment that PSUs can now "lease wagon and invest and work with the wagon manufacturers for the design". They also fit Jupiter's and Texmaco's private-design ramp, which cost Jupiter Q1 volume through prototype approvals.
+
+**Earlier tariff reform:** a flat ₹0.90/tonne-km cement tariff [V-sec MoR YER 2025].
+
+**2023 pause on private wagon applications:** no primary document found on its lapse or extension [gap persists].
+- Zonal commercial circulars show **new GPWIS rakes still being notified through 2025**: SECR rate circulars RC 26(G), 49(G), 61(G), 76(G) of 2025 for Vedanta and Clean Coal Enterprises rakes [V-snip, search listing of secr.indianrailways.gov.in].
+- So existing approvals continued to be inducted.
+
+### 4.3.6 US Section 232: railcar parts ARE covered
+
+**Federal Register, Vol. 90 No. 158, 19-Aug-2025 (Doc. 2025-15819)**, "Adoption and Procedures of the Section 232 Steel and Aluminum Tariff Inclusions Process" — the inclusions notice [V]: https://www.govinfo.gov/content/pkg/FR-2025-08-19/html/2025-15819.htm
+- It adds **407 HTSUS codes** to the steel/aluminium derivative list at **50%**, for goods entered on or after **18-Aug-2025**.
+- The list includes **8607.11.00** (driving bogies), **8607.19.03/.06/.12/.15/.90** (axles, wheels and parts of bogies), **8607.21.50** (air-brake parts), **8607.30.10xx and 8607.30.50** (hooks, couplers, buffers, parts), **8607.91.00** and **8607.99.50**.
+- **HS 8606 (complete wagons) is not on the list.**
+- **Implication [E]:**
+  - India's ~₹592 Cr/yr of HS 8607 exports to the US (castings, couplers, yokes, draft gear) attracts **50% Sec 232 duty on the steel content**, on top of the 10% Sec 301 + MFN regime described in the header.
+  - This is the mechanism behind Texmaco's "imposition of U.S. tariffs also destabilise[d] some of our very strong business with the U.S." and the discontinued Wabtec-de-Mexico receiver exports.
+  - Texmaco's whole forex earnings are only ₹147 Cr, so its own exposure is small. Jupiter's is nil.
+
+### 4.3.7 Global peers, refreshed from company filings
+
+| Company | Latest period | Revenue | Margin | Backlog | Source |
+|---|---|---|---|---|---|
+| **Wabtec** | Q3 CY26 (to 30-Sep-26), released 21-Oct-26 | $3.12 bn (+8.1%); Freight $2.237 bn. FY26 guide **$12.3–12.6 bn** (≈ ₹1.17–1.20 lakh Cr) | GAAP op. 20.0%; **adj. op. 22.9%** | **$31.435 bn multi-year** (+22.9%); 12-month $8.99 bn | SEC 8-K Ex-99.1 [V]: https://www.sec.gov/Archives/edgar/data/0000943452/000094345226000017/a3q26pressreleaseword.htm |
+| **Greenbrier** | FY Aug-25 (audited, released Oct-25) | **$3,240 m**; 22,000 deliveries | Core EBITDA $512 m (**16%**) | 16,600 units / $2.2 bn (31-Aug-25) | SEC 8-K Ex-99.1 [V]: https://www.sec.gov/Archives/edgar/data/923120/000119312525253533/d54114dex991.htm |
+| Greenbrier | FY26 guidance (Apr-26 cut) | $2.4–2.5 bn; 15,350–16,350 deliveries | gross 14.8–15.2% | 13,800 / $2.0 bn (Q3 FY26) | [V-snip TipRanks/MarketBeat] |
+| **Trinity** | Q2 CY26 (30-Jul-26) | $485 m; 1,570 deliveries; 1,560 orders | Rail Products op. margin 1.3% | $1.6 bn | [V-snip; Business Wire fetch 403] |
+| **Alstom** | FY Mar-26 (13-May-26) | **€19,171 m** (≈ ₹2.1 lakh Cr) | **aEBIT 6.1%** (€1,168 m); FY27 guide ~6.5% | **€104.4 bn**; orders €27.6 bn | Alstom press release PDF [V]: https://www.alstom.com/sites/alstom.com/files/2026/05/12/20260513_PR_FY202526_Annual_Results_EN.pdf |
+| **Stadler** | H1 CY26 | CHF 1,965 m (+40%) | **EBIT 4.0%** (CHF 79 m) | **CHF 33.3 bn**; H1 orders CHF 2.74 bn | H1-26 results presentation [V]: https://a.storyblok.com/f/269997/x/2b82900cca/presentation-half-year-results-2026-en.pdf |
+| **CRRC** | CY2025 | **RMB 273.1 bn** (+10.8%); railway equipment RMB 123.6 bn | attributable NP RMB 13.2 bn (~4.8%) | n/a | Company briefing/HKEX results [V-sec via search of crrcgc.cc/hkexnews] |
+
+**Read:**
+- **The North American wagon market is in a down-cycle.** Trinity guides ~25,000 industry deliveries in 2026. Greenbrier's backlog is the lowest since 2014. Trinity's Rail Products margin is 1.3%.
+- So the global comparison for India's FY26 trough is a *synchronised* freight-car downturn.
+- Wabtec's 22.9% adjusted margin comes from locomotives, aftermarket and digital. Alstom (6.1%) and Stadler (4.0%) show **passenger rolling stock is a thin-margin business globally**. Titagarh's 14–15% passenger EBIT is therefore unusually high. It may reflect early-life contracts and free-supply content — note the 19% Q4 FY26 on Bengaluru free-supply [E].
+- **Scale:** the three Indian members' FY26 revenue (₹10,479 Cr ≈ US$1.10 bn) ≈ **⅓ of Greenbrier FY25**, **~9% of Wabtec's FY26 guide**, ~5% of Alstom.
+
+### 4.3.8 Ratings (bank facilities)
+
+| Company | Agency / date | Rating | Key points |
+|---|---|---|---|
+| **Texmaco** | CARE, Jul-2026 | **CARE A (Stable) / CARE A1, reaffirmed**; facilities enhanced to ₹1,380 Cr LT + ₹2,950 Cr LT/ST + ₹70 Cr ST | Capacity 15,400 vehicle units incl. 2,400 at Texmaco Nymwag. Jindal Rail bought Sep-2024 for ~₹614 Cr (+3,000 units). Touax JV restructured Jun-2026 (34%). South Africa = **2,200 wagons + 30 diesel locos by FY28**. FY26 wagon + foundry volumes −21%. PBILDT margin 8.92%. **Consolidated debt ₹1,515 Cr** (incl. non-fund/acceptances-type items; vs screener borrowings ₹895 Cr). Gearing 0.65× (0.56×). TD/PBILDT 3.88× (3.23×). **Unbilled revenue ₹765 Cr** (₹679 Cr) in Rail & Green/Electrical, recovery delayed. Downgrade triggers: PBILDT margin <7% or TD/PBILDT >4.5×. [V] https://www.careratings.com/upload/CompanyFiles/PR/202607150702_Texmaco_Rail_&_Engineering_Limited.pdf |
+| **Jupiter** | Acuité, letter 30-Sep-2026 (NSE intimation 1-Oct-26) | ACUITE AA (Stable) / A1+ reaffirmed | [V-snip] |
+| Jupiter | CRISIL, Jun-2025 | AA−/Stable/A1+ on ₹2,241.5 Cr | ICRA ratings withdrawn at the company's request (Jun-2025) [V-snip] |
+| **Titagarh** | — | not fetched | [gap] |
+
+- **CARE's debt figure (₹1,515 Cr) is far above screener borrowings (₹895 Cr) and the company's own net debt (₹444 Cr).**
+  - The likely difference is acceptances/LC-backed creditors and lease liabilities counted by CARE [E].
+- **Writer:** quote the company figure for net debt, but note that CARE's gearing is 0.65×.
+
+## 4.4 Gap log (every §H item and the extra verification asks)
+
+| # | Gap (Part 1 §H / brief) | Status | Result and source / what was tried |
+|---|---|---|---|
+| 1 | FY26 national wagon production / IR additions; FY20 production | **Partly filled** | Jan–Nov 2025 = 33,703 (MoR Year End Review 29-Dec-25 [V-sec]), giving FY26 ≈ 31.5–33.6k [E]. Members' FY26 = 20,889 [V]. IR additions actual not found (RE 26,000 only). The FY26 year-end PIB release (Apr-26) was not found: searched PIB/newsonair; the newsonair 1-Apr-26 item gives freight only. **FY20 production still unsourced.** |
+| 2 | 2022 award split | **Partly filled** | Titagarh 24,177 / Texmaco 20,067 confirmed (Construction World, 8-Jun-22 [V-sec]). The values there are GST-inclusive (₹9,249 Cr / ₹7,615 Cr), so ₹7,838 / ₹6,450 are ex-GST [E]. Oriental, HEI and CEBBCO are named but **counts not disclosed**; the residual is ~15,750 [E]. |
+| 3 | RWF / RWP capacities, wheel imports | **Filled** | RWF FY24 actual 196,265 wheels / 83,054 axles / 94,275 wheelsets; +40k axle line (PIB 9-Sep-24 [V]). RWP Bela capacity 1 lakh; FY24 42,167 [V-sec]; FY26 60,699 [V-snip]. HS 8607 imports ₹4,537 Cr in FY26, China 52% (+ HK 10%) [V TradeStat]. Wheel *unit* import volumes are not in TradeStat (value only for 8607) [gap]. |
+| 4 | IR wagon fleet at Mar-26 | **Still open** | Tried the IR Annual Report & Accounts 2023-24 PDF and Year Book URLs on indianrailways.gov.in (404 twice), plus a Rajya Sabha search. Keep 3,02,624 (Mar-21, V-snip CAG) and NRP's "~3 lakh → 6 lakh". Titagarh's "4 lakh" is unsourced. |
+| 5 | Current freight modal share | **Still open** | No official current-year figure found. Texmaco MD's claim that "40–45%… has been consistently reached" contradicts NRP-based ~27–28% and is not credible [FLAG]. PRS: rail carried ~55% of coal evacuated in FY23 [V]. |
+| 6 | Rail capex actuals FY22–FY26 | **Filled** | FY22 1,90,267; FY23 2,03,983 [V-sec IR release]; FY24 2,62,217; FY25 2,69,361; FY26 RE 2,65,200; FY27 BE 2,93,030 [V PRS]. |
+| 7 | Global peers | **Filled (5 of 6 primary)** | Wabtec (SEC 8-K), Greenbrier (SEC 8-K FY25), Alstom (PR PDF), Stadler (H1 presentation) [V]; CRRC [V-sec]; Trinity [V-snip; Business Wire 403]. |
+| 8 | Mega-tender status; wheels free-issue? | **Still open** | No tender notice found; the latest coverage is Jun-26 ("upcoming"). Titagarh (14-Aug) "deferred… not dropped". Whether wheels are free-issue: no tender document exists yet. Inference: IR's own ~94k wheelset output cannot supply 1 lakh wagons over 3–4 years plus maintenance, so either free-issue is diluted or private/JV wheels (RKFL–Titagarh 80k/yr to IR) are designated [E]. |
+| 9 | Sec 232 railcar parts; Texmaco/Jupiter US exposure | **Filled** | HTS 8607 subheadings added at 50% effective 18-Aug-25; 8606 not added (Federal Register 19-Aug-25 [V]). India's 8607 exports to the US are ₹592 Cr (FY26) [V TradeStat]. Texmaco forex earnings ₹147 Cr [V-AR]; Jupiter exports ₹0.5 Cr [V-AR]. |
+| 10 | 2023 pause on private wagon applications | **Still open** | No Railway Board order on resumption found. 2025 zonal GPWIS rake notifications exist [V-snip]. The 14-Jul-26 reforms add private wagon *design* and oil-company tank-wagon ownership [V-sec]. |
+| 11 | Railway Minister's eight-point reforms | **Filled** | Itemised in 4.3.5 (Swarajya 15-Jul-26 [V-sec]). |
+| 12a | Titagarh coach run-rate | **Resolved** | 45–50/quarter is management's wording [V-call]. 75–85 is an analyst inference. |
+| 12b | Titagarh ship order | **Resolved** | ~₹470 Cr [V-PPT]. ₹170 Cr = the ₹169 Cr SFAS grant. |
+| 12c | Titagarh FY26 PAT 123 vs 167 vs 140 | **Resolved** | Audited consolidated ₹122.82 Cr after ₹64.78 Cr Firema exceptional + (₹17.15 Cr) JV share. Quarterlies were pre-exceptional [V-AR]. |
+| 12d | Titagarh Q1 FY26 PAT | **Resolved** | ₹31 Cr consolidated [V-scr]; the presentation's pre-exceptional chart shows 37 for Q2 and 45 for Q3. "Loss ₹23.1 Cr" (askfuzz) is wrong. |
+| 12e | Jupiter order book | **Resolved** | ₹4,550 Cr (30-Jun-26) [V-PPT]; ₹4,675 Cr (31-Mar-26) [V-AR]. |
+| 12f | Jupiter BESS labels | **Resolved** | 100 MW/400 MWh WB; book ">500 MWh, >₹500 Cr"; MoUs 110 MWh [V-PPT]. |
+| 12g | Kinet Vande Bharat sleeper value | **Still open** | Not chased (budget). Keep as a conflict. |
+| 12h | RKFL–Titagarh wheel capacity | **Resolved** | 228,000 wheels/yr [V-PPT]. |
+| V1 | Texmaco ₹700 Cr mechanics and 494/206 split | **Verified** | [V-AR] SOCIE, Note 1.37, auditor's report. |
+| V2 | Jupiter QIP terms | **Verified** | ₹799.99 Cr at ₹655.50, 12-Jul-24 [V-AR]. |
+| V3 | "40% below target" procurement report | **Not re-verified** | Business Standard paywall not attempted. The Jupiter AR confirms "In the first half of the year, an industry-wide shortage of wheelsets constrained wagon production" [V-AR]. CARE confirms "non-availability of wheel sets from Rail Wheel Factory" [V]. |
+| V4 | Chinese axle-import plan | **Not re-verified** | Still V-snip. Consistent with the RWF axle bottleneck (4.3.3) and the China share of 8607 imports [V]. |
+| V5 | Greenbrier / Trinity backlogs | **Partly** | Greenbrier 16,600 / $2.2 bn at Aug-25 [V]; 13,800 / $2.0 bn at May-26 [V-snip]. Trinity $1.6 bn [V-snip]. |
+| V6 | FY26 deliveries, Titagarh and Jupiter | **Verified** | 7,019 [V-AR] and 5,498 [V-PPT]. |
+| V7 | Titagarh / Texmaco FY24 equity-raise sizes | **Still open** | Not found in the FY26 ARs read (they cover FY26 issues). CARE mentions QIP + warrant "significant fund infusion… last two years" for Texmaco. Keep the Part 2 [E] ~₹1,000 Cr each. |
+| V8 | Promoter pledges | **Partly** | Titagarh 30-Jun-26 shareholding slide: no pledge shown; the AR shows a *company* pledge of 3 mn Firema shares to Bank of Baroda. Jupiter/Texmaco: no pledge disclosed in sources read. SAST pledge filings were not fetched (BSE API "Access Denied") → **unverified**. |
+| V9 | Q2 FY27 board dates (Jupiter, Texmaco) | **Checked** | BSE announcements API returned "Access Denied". Screener's announcement mirror (25-Oct) shows **no board-meeting intimation** for either (latest: Jupiter 23-Oct PESA MoU; Texmaco 7-Oct Reg 74(5), 3-Oct ₹3.65 Cr WCR LoA). Titagarh 29-Oct stands. |
+| V10 | Titagarh rating | **Open** | Not fetched. |
+
+## 4.5 New insights the first pass missed
+
+1. **IR's own wheelset factory is the hidden cap on IR wagon procurement.**
+   - RWF's record 94,275 wheelsets and 83,054 axles (FY24) equip at most ~23,600 new wagons a year, and less after maintenance replacement.
+   - That lines up almost exactly with IR's achieved/RE wagon additions (29,889 FY25; 26,000 FY26 RE) and with the FY27 BE of only 32,000.
+   - **A 1-lakh-wagon tender at 25–35k/yr is not executable on IR-supplied wheelsets.** The design of the next tender (free-issue or not; designated RKFL–Titagarh wheels; axle imports) matters as much as its size.
+   - The **RKFL–Titagarh JV's 80,000 wheels/yr to IR ≈ 10,000 wagons' worth** of wheels (8 per wagon). That makes Titagarh's JV the swing supplier for the tender it is bidding on.
+2. **Two of the three members carry FY26 audit flags.**
+   - Texmaco: qualified opinion on the accounts (the ₹700 Cr reserve-funded provision).
+   - Titagarh: qualified opinion on internal financial controls, plus an Emphasis of Matter on an Ind AS 8 restatement. Firema's FY25 loss turned out to be **€104.7 mn, not €16.9 mn**.
+   - Jupiter: clean audit, but a **SEBI enquiry email (24-Feb-26) about trading around its FY24 results**.
+   - Governance belongs in the report's risk section for all three.
+3. **The national FY26 trough was shallower than thought (−22%, not −30%). The listed trio took most of the hit.**
+   - The trio delivered ~20.9k of ~32.5k (64%).
+   - The rest of the industry (Hindusthan, Oriental, Besco, Braithwaite, SAIL-RITES, Amsted, workshops) kept ~11–12k.
+4. **Jupiter's component engine stalled in Q1 FY27.**
+   - Wheelsets went from 5,290 to 1,282 QoQ (−76%) and brake discs from 6,356 to 5,160.
+   - Subsidiaries swung to roughly break-even EBITDA.
+   - This was not raised on the call. It undercuts the "component profit pool scales with industry volume" thesis in the very quarter when industry volume was weak.
+5. **Texmaco's Q1 "margin expansion" is other income.**
+   - EBITDA *including* other income rose to 10.8%. Ex-OI it **fell** to ~7.4% (from 7.8%).
+   - CARE's downgrade trigger is a PBILDT margin below 7%. FY26 was 8.92%.
+   - Add ₹765 Cr of unbilled EPC revenue with delayed recovery, and the Texmaco equity story rests on the South Africa order (2,200 wagons + 30 diesel locos, FY28) arriving on time.
+6. **The global freight-car market is in a synchronised down-cycle.**
+   - North American deliveries are ~25k in 2026 (Trinity); Greenbrier's FY26 revenue guide was cut to $2.4–2.5 bn and its backlog is the lowest since 2014.
+   - Passenger rolling stock is a 4–6% EBIT business globally (Alstom 6.1%, Stadler 4.0%).
+   - Titagarh's 14–15% passenger EBIT is an outlier to be stress-tested, not extrapolated.
+7. **Trade data shows both import dependence and possible re-routing.**
+   - HS 8607 imports are ~₹4.5k Cr/yr, ~52% China.
+   - FY26 imports from Hong Kong jumped from ₹0.4 Cr to ₹472 Cr while direct China imports dipped.
+   - India's own rail-parts exports to the US (₹592 Cr) now face Sec 232 at 50% on steel content.
+   - Complete-wagon exports fell to **₹0.8 Cr** in FY26 from ₹462 Cr.
+8. **Award values: GST basis.** The commonly quoted 2022 award values (₹7,838 Cr / ₹6,450 Cr) are ex-GST. Press values of ₹9,249 Cr / ₹7,615 Cr include 18% GST. Use ex-GST for per-wagon comparisons.
+
+**New primer issues (add to primer-issues.md)**
+- **titagarh-rail-systems.html — audit qualification:**
+  - Add that FY26 auditors (PwC & Co + Salarpuria) issued a **qualified opinion on internal financial controls** (impairment and loss-allowance review for the associate/JV) and an EOM on the restatement of FY25 (Firema loss €104.7 mn vs €16.9 mn).
+  - FY25 standalone PAT was restated to ₹76.97 Cr. FY26 consolidated PAT ₹122.82 Cr is *after* a ₹64.78 Cr exceptional item.
+- **titagarh-rail-systems.html — unit volumes:**
+  - FY26 wagons **7,019**; foundry **50,000 tpa**; traction motors 891.
+  - The ₹7,000 Cr "JV" order-book line is the **Vande Bharat AMC JV**, not supply share. Supply sits inside the ₹10,395 Cr PRS book.
+  - The ship order is ~₹470 Cr. The ₹169 Cr is the SFAS grant.
+- **jupiter-wagons.html — unit table:**
+  - FY26 wagons 5,498; wheelsets 19,939; Q1 FY27 wheelsets 1,282.
+  - Order book ₹4,550 Cr.
+  - BESS book ">500 MWh / >₹500 Cr" (not MW).
+  - Tatravagonka owns 19.24% after the ₹470 warrant conversion.
+  - Disclose the SEBI enquiry email (24-Feb-26) on trading around FY24 results.
+  - Exports ≈ nil (₹0.5 Cr).
+  - The AR quotes the Odisha project at ₹3,000 Cr vs ₹2,600 Cr on the call.
+- **texmaco-rail.html — the ₹700 Cr split** is ₹494.05 Cr General Reserve + ₹205.95 Cr retained earnings.
+  - It sits as a *provision/liability* (CARE gearing 0.65×).
+  - FY26 deliveries were 81.7% IR (6,841 of 8,372) even though the book is 96% private/export.
+  - Bank guarantees ₹1,086 Cr; CARE A (Stable).
+  - South Africa = 2,200 wagons + 30 diesel locos.
+  - Cameroon (Camalco) 1,700 open-top wagons.
+  - Q1 margin expansion is other-income-driven.
+- **All three primers:**
+  - Use national FY26 production ~32.5k [E from MoR], not ~26–31k.
+  - Cite RWF's 94k-wheelset ceiling.
+  - Sec 232 covers HTS 8607 parts (not complete wagons).
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer applies these)
+
+| # | Part 1–3 location | Old value / claim | New value | Why / source |
+|---|---|---|---|---|
+| 1 | §2.1, §4.3, §5.1, trap 6 | FY26 national production ~26,000–31,000 [E] (−25–35%) | **~31,500–33,600, central ~32,500 (−22%)** [E] | MoR YER 2025: Jan–Nov-25 = 33,703 [V-sec] |
+| 2 | §4.3, §5.1, §2.1 note | Titagarh FY26 wagons ~6,500–7,000 [E] | **7,019** | Titagarh FY26 AR MD&A [V] |
+| 3 | §4.3, §5.1 | Jupiter FY26 wagons ~5,000–5,500 [E] | **5,498** (Q1 FY26 826) | Jupiter Q1 FY27 PPT [V] |
+| 4 | §5.1 | Three members ~20,000–21,000; share 65–80% | **20,889; ~64% of national** | Sum of V; E share |
+| 5 | Trap 2; §2.1 Titagarh; 2.5 | FY26 PAT gap "most likely Firema/discontinued [E; FLAG]"; Anand Rathi ₹140 Cr | **Confirmed: ₹64.78 Cr Firema exceptional + (₹17.15 Cr) JV share; audited PAT ₹122.82 Cr. Drop ₹140 Cr.** | Titagarh AR Note 35A [V] |
+| 6 | Part 1 header/§B4 framing; 3.4 | Only Texmaco has an audit qualification | **Titagarh also: qualified IFC opinion + EOM (Ind AS 8 restatement)** | Titagarh AR auditor's reports [V] |
+| 7 | Trap 5; §2.1; §1.1 | Ships ~₹470 Cr vs ₹170 Cr | **~₹470 Cr** (₹169 Cr = SFAS grant) | Titagarh PPT; AR [V] |
+| 8 | Trap 5; §B3 FLAG | JV ₹7,000 Cr = "Titagarh share of the BHEL Vande Bharat consortium" | **₹7,000 Cr = Vande Bharat AMC JV (50:50 SPV, 80 sets, 35 years); VB supply is inside the ₹10,395 Cr PRS book** | Titagarh PPT slides 7, 20 [V] |
+| 9 | §4.3; 2.1; §12 | Coach run-rate 45–50 vs 75–85/qtr | **45–50/qtr (management); ~200 FY27 ±10% needs >50/qtr in H2** | Titagarh call [V] |
+| 10 | §0, §4.3, §9.4 | RKFL JV 2.20–2.28 / 2.2–2.5 lakh | **2.28 lakh wheels/yr; project ~₹2,000 Cr; ₹500 Cr equity infused** | Titagarh PPT [V] |
+| 11 | Header item 2 | Falta yard ₹610 Cr, "25% capital subsidy" | **~₹600 Cr capex; ₹169 Cr SFAS grant secured** | Titagarh PPT/AR [V] |
+| 12 | §9.1; 2.2; JSON | Jupiter order book ~₹4,500–4,700 Cr (JSON 4,600) | **₹4,550 Cr (Jun-26); ₹4,675 Cr (Mar-26)** | Jupiter PPT; AR [V] |
+| 13 | 2.2; §12 | BESS "~500 MW"; "110 MW of MoUs" | **>500 MWh (>₹500 Cr); 110 MWh MoUs; WB 100 MW/400 MWh** | Jupiter PPT [V] |
+| 14 | 2.2 quarterly note | Q4 FY26 exceptional ₹17.81 Cr [V-snip] | **₹7.4 Cr (consolidated P&L)**; Stone India paid ₹10.40 Cr lease dues | Jupiter PPT; AR secretarial report [V] |
+| 15 | §8; G; 2.2 | QIP ₹800 Cr at ₹655.5 [V-snip] | **Verified ₹799.99 Cr at ₹655.50 (12-Jul-24) + promoter warrants ₹135 Cr at ₹470 (Tatravagonka, 19.24%)** | Jupiter AR [V] |
+| 16 | 2.2 | Odisha project ₹2,600 Cr | **₹2,600 Cr (call, Aug-26) vs ₹3,000 Cr incl. 20k loose wheels (AR) — FLAG** | Jupiter call; AR [V] |
+| 17 | 2.2 story / §6 | Components scale with industry volume | **Q1 FY27 wheelsets −76% QoQ (5,290 → 1,282); subsidiaries ~break-even EBITDA** | Jupiter PPT [V] |
+| 18 | Trap 3; §B4 | ₹494 + ₹206 Cr [V-snip] | **₹494.05 Cr GR + ₹205.95 Cr RE [V]; shown as a provision/liability ("unallocated corporate liabilities ₹700 Cr")** | Texmaco AR SOCIE, Note 1.38, segment note [V] |
+| 19 | Trap 10; §4.3 | Texmaco capacity "elastic 15,000–16,000" | **Installed 15,400 VUs incl. 2,400 Nymwag (CARE); PPT run-rate capacity 2,500–3,000/qtr** | CARE; Texmaco PPT [V] |
+| 20 | §3.7; 2.3; §7 | Texmaco US exposure unknown; Sec 232 coverage FLAG | **Sec 232 covers HTS 8607 (not 8606) since 18-Aug-25; Texmaco forex earnings ₹147 Cr (~3.4%); Jupiter exports ₹0.5 Cr** | Federal Register; ARs [V] |
+| 21 | 2.3 | SA order: wagons "a little more than ₹2,000 Cr" + maintenance + loco "to come" | **2,200 wagons + 30 diesel locomotives by FY28 (>₹4,000 Cr)** | CARE Jul-26 [V] |
+| 22 | §9.1; F; 2.3 | Texmaco Q1 FY27 "EBITDA 10.8%, +161 bp" as margin improvement | **Ex-OI margin ~7.4% (down from 7.8%); OI doubled to ₹25 Cr** | Texmaco PPT P&L [V]; E |
+| 23 | 2.3 | Texmaco wagons FY26 8,372 (mix unknown) | **6,841 IR + 1,531 private; ~₹3,413 Cr (₹40.8 lakh/wagon)** | Texmaco AR [V] |
+| 24 | §5.1; trap 7; G | 2022 award ₹7,838 Cr / ₹6,450 Cr (no basis stated) | **Ex-GST; GST-incl. ₹9,249.48 Cr / ₹7,615.18 Cr; total 60,000 wagons / ₹23,500 Cr; dated 8-Jun-22** | Construction World [V-sec]; E |
+| 25 | §4.3 wheels | RWF ~1.9–2.0 lakh wheels + 70–80k axles [K] | **FY24 actual: 196,265 wheels; 83,054 axles; 94,275 wheelsets; +40k axle line** | PIB 9-Sep-24 [V] |
+| 26 | §4.3 wheels | RWP Bela ~1 lakh [K] | **Capacity 1 lakh; FY24 42,167; FY26 60,699 [V-snip]** | Patna Press [V-sec] |
+| 27 | §H6; A3 | FY22–FY23 capex [K] | **FY22 ₹1,90,267 Cr; FY23 ₹2,03,983 Cr; FY24 ₹2,62,217 Cr; FY25 ₹2,69,361 Cr** | IR release [V-sec]; PRS [V] |
+| 28 | §10 Wabtec | ~US$10.5–11 bn; adj. op ~18–20% | **FY26 guide $12.3–12.6 bn; Q3-26 adj. op 22.9%; backlog $31.4 bn** | SEC 8-K [V] |
+| 29 | §10 Greenbrier | ~$3.2–3.5 bn; EBITDA ~12–14% | **FY25 $3,240 m; core EBITDA 16%; backlog 16,600/$2.2 bn; FY26 guide cut to $2.4–2.5 bn [V-snip]** | SEC 8-K [V] |
+| 30 | §10 Alstom | ~€18.5–19 bn; aEBIT ~6.5–7% | **€19,171 m; aEBIT 6.1%; backlog €104.4 bn** | Alstom PR [V] |
+| 31 | §10 Stadler | CHF 3.5–4 bn; EBIT 4–6%; backlog CHF 25–30 bn | **H1-26 CHF 1,965 m; EBIT 4.0%; backlog CHF 33.3 bn; FY26 guide >CHF 5 bn [V-snip]** | Stadler H1 presentation [V] |
+| 32 | §10 CRRC | RMB 250–260 bn | **RMB 273.1 bn (CY25); NP RMB 13.2 bn** | [V-sec] |
+| 33 | §7.3; §H11 | "Eight-point reforms" not itemised | **Itemised (14-Jul-26 Reform Express): private wagon design; oil-company tank-wagon ownership/leasing; single CTO licence; etc.** | Swarajya [V-sec] |
+| 34 | 2.3 balance sheet | Net debt ₹444 Cr is the only leverage figure | **Add CARE: consolidated debt ₹1,515 Cr; gearing 0.65×; TD/PBILDT 3.88×; unbilled ₹765 Cr** | CARE [V] |
+| 35 | 2.3 | Texmaco Touax 50% → 34% "may" | **Restructured Jun-2026 at 34% (CARE). The Q1 PPT JV slide still shows 50%.** | CARE; PPT [V] |
+
+## 4.1 Verification table (40 figures)
+
+Legend: **V** = fetched this session from a primary document (company filing, government/regulator, peer's own filing). **V-sec** = fetched from an outlet reproducing a primary release. **V-snip** = search summary only. "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Source URL | Tag | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | IR wagon target FY25 achieved | 29,889 (of 38,000) | https://prsindia.org/files/budget/budget_parliament/2026/DfG_Analysis_2026-27-Railways.pdf | V | Yes |
+| 2 | IR wagons FY26 RE / FY27 BE | 26,000 / 32,000 | same PRS PDF | V | Yes |
+| 3 | Rail capex FY25 actual / FY27 BE | ₹2,69,361 Cr / ₹2,93,030 Cr | same PRS PDF | V | Yes |
+| 4 | Rail capex FY24 actual | ₹2,62,217 Cr | same PRS PDF | V | New |
+| 5 | National wagon production FY25 | 41,929 | https://indiashippingnews.com/trending-news/ministry-of-railways-year-end-review-2025/ | V-sec | Yes |
+| 6 | National production Jan–Nov 2025 | 33,703 | same | V-sec | New (supersedes FY26 estimate) |
+| 7 | RWF FY24 wheels / axles / wheelsets | 196,265 / 83,054 / 94,275 | https://www.pib.gov.in/PressReleasePage.aspx?PRID=2053278 | V | Supersedes [K] |
+| 8 | HS 8607 imports FY26 (total; China) | ₹4,537.4 Cr; ₹2,362.9 Cr | https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_import | V | New |
+| 9 | HS 8607 imports FY24 (total; China) | ₹5,049.2 Cr; ₹3,483.1 Cr (69%) | same | V | New; supports "China filled the gap" |
+| 10 | HS 8607 exports to USA FY26 | ₹592.4 Cr (of ₹1,597.4 Cr) | https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_export | V | New |
+| 11 | HS 8606 (wagon) exports FY25 → FY26 | ₹462.3 Cr → ₹0.79 Cr | same | V | New |
+| 12 | Sec 232 covers HTS 8607 (50%, from 18-Aug-25) | 8607.11–8607.99.50 listed; 8606 absent | https://www.govinfo.gov/content/pkg/FR-2025-08-19/html/2025-15819.htm | V | Resolves FLAG |
+| 13 | 2022 award: Titagarh / Texmaco units | 24,177 / 20,067 (of 60,000; ₹23,500 Cr) | https://www.constructionworld.in/amp/transport-infrastructure/aviation-and-airport-infra/five-big-companies-bagged-railways-order-for-wagons/34634 | V-sec | Yes (values are GST-inclusive) |
+| 14 | Titagarh FY26 consolidated revenue | ₹3,186 Cr (total income ₹3,234 Cr) | https://www.screener.in/company/TITAGARH/consolidated/ ; AR https://www.bseindia.com/xml-data/corpfiling/AttachHis/8b21ed98-5736-4f43-8d8f-aadc6629ab9f.pdf | V | Yes |
+| 15 | Titagarh FY26 consolidated PAT | ₹122.82 Cr | Titagarh AR (above) | V | Yes; gap now explained |
+| 16 | Titagarh FY26 exceptional (Firema) | ₹64.78 Cr (FY25 restated ₹157.52 Cr consolidated) | Titagarh AR Note 35A | V | New |
+| 17 | Titagarh FY26 wagons dispatched | 7,019 | Titagarh AR MD&A | V | Supersedes E |
+| 18 | Titagarh order book SA / total (30-Jun-26) | ₹13,335 Cr / ₹26,635 Cr | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05bfb266-49a6-409c-9799-37d7201e1131.pdf | V | Yes |
+| 19 | Titagarh ship order | ~₹470 Cr | same PPT | V | Resolves conflict |
+| 20 | Titagarh Q1 FY27 PRS / FRS EBIT margin | 14.66% / 12.21% | same PPT | V | Yes |
+| 21 | Titagarh coaches FY25 → FY26 → Q1 FY27 | 12 → 63 → 30 | AR; PPT | V | Yes |
+| 22 | RKFL–Titagarh wheel capacity | 228,000/yr; project ~₹2,000 Cr | Titagarh PPT slide 19 | V | Resolves conflict |
+| 23 | Titagarh coach guidance | 45–50/quarter; ~200 FY27 ±10% | https://www.titagarh.in/storage/report/actual/earnings-on-call-transcript-q1-&-fy27.pdf | V | Resolves conflict |
+| 24 | Jupiter FY26 wagons | 5,498 | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a8b1594-172d-4c74-97ee-5ada0705c73e.pdf | V | Supersedes E |
+| 25 | Jupiter order book (30-Jun-26) | ₹4,550 Cr | same PPT | V | Narrows range |
+| 26 | Jupiter Q1 FY27 consolidated EBITDA / PAT | ₹64.9 Cr (9.7%) / ₹26.2 Cr | same PPT | V | Yes |
+| 27 | Jupiter QIP | ₹799.99 Cr at ₹655.50 (12-Jul-24) | https://www.bseindia.com/xml-data/corpfiling/AttachHis/528db21e-842d-4815-bc80-1259fc8bd00b.pdf | V | Yes (upgraded from snip) |
+| 28 | Jupiter BESS | WB 100 MW/400 MWh (~₹400 Cr); book >500 MWh | Jupiter PPT | V | Corrects MW label |
+| 29 | Jupiter borrowings Mar-26 | ₹996 Cr (Mar-25 ₹502 Cr) | https://www.screener.in/company/JWL/consolidated/ | V | Yes |
+| 30 | Jupiter wheelsets FY26 / Q1 FY27 | 19,939 / 1,282 | Jupiter PPT | V | New |
+| 31 | Texmaco ₹700 Cr provision split | ₹494.05 Cr GR + ₹205.95 Cr RE | https://www.bseindia.com/xml-data/corpfiling/AttachHis/bc786aea-4bc3-4f93-ab5a-6a7ae551c098.pdf | V | Yes (upgraded) |
+| 32 | Texmaco auditor's opinion | Qualified (provision via free reserves) | Texmaco AR | V | Yes |
+| 33 | Texmaco FY26 wagons (IR / private) | 8,372 (6,841 / 1,531) | Texmaco AR | V | Yes; mix new |
+| 34 | Texmaco order book (30-Jun-26) | ₹9,923 Cr | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8cac6f6-f728-48ba-986e-a52b84a2d9bd.pdf | V | Yes |
+| 35 | Texmaco FCD book private + export share | 21% → 79% → 96.4% | same PPT | V | Yes |
+| 36 | Texmaco bank / corporate guarantees | ₹1,085.93 Cr | Texmaco AR Note 1.36 | V | New |
+| 37 | Texmaco SA order content | 2,200 wagons + 30 diesel locos by FY28 | https://www.careratings.com/upload/CompanyFiles/PR/202607150702_Texmaco_Rail_&_Engineering_Limited.pdf | V | Refines |
+| 38 | Wabtec Q3-26 adj. op. margin / backlog | 22.9% / $31.435 bn | https://www.sec.gov/Archives/edgar/data/0000943452/000094345226000017/a3q26pressreleaseword.htm | V | Supersedes K |
+| 39 | Greenbrier FY25 revenue / backlog | $3,240.2 m / 16,600 units ($2.2 bn) | https://www.sec.gov/Archives/edgar/data/923120/000119312525253533/d54114dex991.htm | V | Supersedes K/snip |
+| 40 | Alstom FY25/26 sales / aEBIT / backlog | €19,171 m / 6.1% / €104.4 bn | https://www.alstom.com/sites/alstom.com/files/2026/05/12/20260513_PR_FY202526_Annual_Results_EN.pdf | V | Supersedes K |
+
+**Count: 37 of 40 are [V] from primary documents.**
+- Primary [V] rows: 1–4, 7–12, 14–40 = **37 [V]**.
+- V-sec rows: 5, 6, 13 = 3.
+- Where two independent sources exist they agree:
+  - #14: screener ≈ AR.
+  - #26: PPT = screener (65/26).
+  - #34: PPT = CARE context.
+  - #31: AR = Moneylife snippet.
+- **Credibility rule applied:** company filings > rating agency > press. On the Jupiter Odisha capex (₹2,600 Cr call vs ₹3,000 Cr AR), the later and more specific call figure is preferred, and both are flagged.
+
+**Fetch log:**
+- ~62 web calls this pass. Scratch notes are in /tmp/railway-wagons-deep/notes.md; downloaded PDFs and text are in /tmp/railway-wagons-deep/dl/.
+- Failed after retry:
+  - BSE announcements API ("Access Denied").
+  - indianrailways.gov.in Annual Report/Year Book (404).
+  - Business Wire (Trinity, 403).
+  - India Seatrade article body (empty).
