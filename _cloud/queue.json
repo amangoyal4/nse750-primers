@@ -468,5 +468,105 @@
   "accent": "#E8590C",
   "angle": "Avenue Supermarts (DMart, DMart Ready), Vishal Mega Mart (IPO Dec-2024; Kedaara promoter selling down — verify 2025–26 blocks), V-Mart Retail (incl. Unlimited), V2 Retail. Forces: value retail in Tier 2–4 India, store economics (revenue/sq ft, LFL growth, store additions), quick commerce threat to DMart (Blinkit, Zepto, Instamart, Flipkart Minutes) and DMart Ready's response, GST 2.0 rate cuts (Sep-2025) on FMCG and apparel and consumption stimulus, private-label share, apparel vs grocery mix, rural vs urban demand, inventory and shrinkage, lease liabilities (Ind AS 116), founder/promoter structures. KPIs: stores, retail area, revenue/sq ft, LFL/same-store growth, gross margin, EBITDA margin (pre/post Ind AS 116), inventory days, capex/store, ROCE. Link speciality-retail.html, eretail.html, packaged-foods.html.",
   "companies": 4
+ },
+ {
+  "order": 48,
+  "queue_no": 25,
+  "slug": "railway-wagons",
+  "key": "Automobile & Ancillaries || Railway Wagons",
+  "name": "Railway Wagons & Rolling Stock",
+  "accent": "#495057",
+  "angle": "Titagarh Rail Systems (wagons + passenger/metro coaches, Vande Bharat sleeper JV with BHEL, Italian Firema unit), Jupiter Wagons (wagons, brakes/wheels via JV, EV LCVs, wheelsets plant), Texmaco Rail & Engineering (wagons, rail EPC, hydro-mechanical). Forces: Indian Railways' wagon procurement (the 2021–22 ~90,000-wagon tender, delivery run-rates vs targets, wheelset shortages from imports/Ukraine war, RINL/Ramkrishna forged wheels, Chinese wheel supply), Rail budget capex FY26–27 (verify), Dedicated Freight Corridors and private wagon schemes (GPWIS, leasing), freight modal share target 45% by 2030, private-sector wagon orders (cement/steel/auto carriers), metro/Vande Bharat order books and execution delays, exports (US/Europe wagons, Section 301 10%), steel price pass-through clauses, working capital and IR payment cycles, QIPs. KPIs: wagon deliveries/quarter, order book and book-to-bill, EBITDA/wagon, margin, receivable days, ROCE. Link shipbuilding.html, castings-forgings.html, logistics.html if natural.",
+  "companies": 3
+ },
+ {
+  "order": 49,
+  "queue_no": 27,
+  "slug": "electrodes-refractories",
+  "key": "Capital Goods || Electrodes & Refractories",
+  "name": "Graphite Electrodes & Refractories",
+  "accent": "#E67700",
+  "angle": "Graphite India and HEG (graphite electrodes for electric-arc-furnace steel; needle coke input), RHI Magnesita India (refractories for steel/cement; merged Dalmia OCL refractories 2023). Forces: global EAF steel shift and decarbonisation (EU CBAM from 2026, US EAF share), electrode price cycle (2018 super-cycle bust, 2023–26 oversupply, Chinese exports, anti-dumping duties in India/EU/US on Chinese electrodes — verify), needle coke prices (Phillips 66, Japanese suppliers, Indian capacity), utilisation, HEG's and Graphite India's large treasury/investment books (HEG's TACC graphite-anode stake for EV batteries; Graphite India's investments) — strip treasury from core; India steel capex to 300 MTPA and its refractory demand per tonne, BF vs EAF/induction mix in India, magnesite/bauxite raw-material imports from China, RHI's price-cost pass-through and parent technology. KPIs: capacity (tonnes), utilisation, realisation/t vs needle coke cost/t, EBITDA/t, treasury income share of PAT, cash, ROCE ex-cash. Link iron-steel.html, steel-products.html, cement.html.",
+  "companies": 3
+ },
+ {
+  "order": 50,
+  "queue_no": 29,
+  "slug": "exchanges",
+  "key": "Finance || Exchange and Data Platform",
+  "name": "Exchanges",
+  "accent": "#5F3DC4",
+  "angle": "BSE Ltd (equity + derivatives revival — Sensex weekly options), Multi Commodity Exchange (MCX — commodity derivatives, gold/silver/crude options, new trading platform), Indian Energy Exchange (IEX — power exchange; market coupling threat). Unlisted benchmark: NSE (IPO status — verify). Forces: SEBI F&O curbs (Nov-2024 to Dec-2025: weekly-expiry limits — one per exchange — larger contract sizes, upfront premium) and their effect on BSE vs NSE share; Budget-2026 STT hike (futures 0.05%, options 0.15% from 1-Apr-2026); SEBI study FY26: 87.7% of individual F&O traders lost ₹91,685 Cr — consistent with stockbroking.html; BSE's options market share and premium ADTO, transaction-charge revisions and SEBI's 'true-to-label' rules; regulatory fee/SGF contributions; MCX's bullion boom (gold import duty 6%→15% on 13-May-2026) and commodity options; IEX: CERC market-coupling order and its timeline (verify), power demand, RTM/DAM volumes, green market; competition from PXIL/HPX. KPIs: ADTO (notional and premium), market share, transaction revenue/crore, operating margin, clearing/SGF costs, cash and treasury income, P/E. Link stockbroking.html, market-infra.html, amc.html, power-generation.html (IEX).",
+  "companies": 3
+ },
+ {
+  "order": 51,
+  "queue_no": 31,
+  "slug": "industrial-gases",
+  "key": "Inds. Gases & Fuels || Industrial Gases",
+  "name": "Industrial Gases",
+  "accent": "#1098AD",
+  "angle": "Linde India (merchant + tonnage gases + project engineering; Linde plc parent; related-party/Praxair India overlap and minority-shareholder issues — verify), Ellenbarrie Industrial Gases (listed Jul-2025 — verify; East India merchant/tonnage, ASUs, medical oxygen), Refex Industries (coal/ash handling, refrigerant gases, green mobility — mixed archetype; governance and related-party questions — verify). Forces: steel and electronics/semiconductor capex driving tonnage ASU contracts (take-or-pay, 15–20 year), merchant liquid oxygen/nitrogen/argon prices and power costs (electricity ~60%+ of ASU cost), medical oxygen post-COVID, hydrogen and green hydrogen missions, INOX Air Products (unlisted competitor) and Air Liquide, Linde's capex in India, refrigerant gas phase-downs (Kigali amendment) for Refex. KPIs: ASU capacity (TPD), tonnage vs merchant mix, EBITDA margin, power cost per Nm³, capex/sales, ROCE, related-party transactions. Link chem-fluorochemicals.html (refrigerants), iron-steel.html.",
+  "companies": 3
+ },
+ {
+  "order": 52,
+  "queue_no": 33,
+  "slug": "ports",
+  "key": "Logistics || Port & Port services",
+  "name": "Ports",
+  "accent": "#3B5BDB",
+  "angle": "Adani Ports & SEZ (India's largest private port operator; logistics, marine services, international ports — Haifa, Colombo WCT, Dar es Salaam, North Queensland acquisition 2025 — verify), JSW Infrastructure (captive JSW cargo + third-party; Oman/UAE ports; slurry pipelines), Gujarat Pipavav Port (APM Terminals/Maersk; containers, bulk, RoRo). Adani legal context (consistent with library): US OFAC $275 m settlement 18-May-2026; criminal counts vs Gautam/Sagar Adani and Vneet Jaain dismissed with prejudice Aug-2026; SEC settled (amount disputed). Forces: cargo volume growth vs major ports (Vadhavan, Great Nicobar), container transhipment shift (Vizhinjam — Adani), West Asia 2026 crisis and Red Sea shipping, coal imports, tariff regulation (TAMP removal for major ports, Major Port Authorities Act), concession terms and renewals, capex cycles, captive vs third-party mix (JSW), EXIM trade and US tariffs (10% Section 301). KPIs: cargo (MMT) by type, market share, realisation/tonne, EBITDA/tonne, EBITDA margin, capacity utilisation, net debt/EBITDA, ROCE. Link shipping.html, logistics.html, road-assets.html.",
+  "companies": 3
+ },
+ {
+  "order": 53,
+  "queue_no": 35,
+  "slug": "diversified-metals",
+  "key": "Non - Ferrous Metals || Diversified Metals",
+  "name": "Diversified Metals & Recycling",
+  "accent": "#9C36B5",
+  "angle": "Vedanta Ltd (zinc via Hindustan Zinc, aluminium, oil & gas (Cairn), iron ore, copper, power; demerger into 5–6 entities — verify NCLT/effective dates 2025–26; parent Vedanta Resources debt and brand fees/dividend upstreaming; Viceroy short report 2025), Gravita India (lead/aluminium/plastic recycling, EPR rules, overseas plants), Jain Resource Recycling (listed 2025 — verify; copper/lead/aluminium recycling, Chennai). Forces: LME zinc/aluminium/lead/copper prices (copper record $14,850/t 17-Aug-2026 — consistent with cables/copper reports), Section 232 50% US tariff on aluminium/copper derivatives, coal and power costs for smelters, EPR (Extended Producer Responsibility) for batteries and e-waste, BIS QCOs on scrap, import duties on scrap, battery-recycling and lithium. KPIs: production by metal, cost of production ($/t), EBITDA by segment, net debt/EBITDA (Vedanta Ltd and parent), dividend payout, recycling volumes, EBITDA/t for recyclers, working capital, ROCE. Link copper.html, coal.html, oil-exploration.html, iron-steel.html.",
+  "companies": 3
+ },
+ {
+  "order": 54,
+  "queue_no": 37,
+  "slug": "flexible-workspace",
+  "key": "Realty || Flexible Workspace (Co-working)",
+  "name": "Flexible Workspace",
+  "accent": "#C2255C",
+  "angle": "WeWork India Management (Embassy-owned brand licensee; IPO Oct-2025 — verify; WeWork Global brand fee), Smartworks Coworking Spaces (IPO Jul-2025 — verify; managed campuses for mid/large enterprises), Awfis Space Solutions (IPO May-2024; asset-light managed-aggregation model, Peak XV). Forces: India office leasing boom and GCC demand (consistent with realty.html and it-services.html), flex share of gross absorption, lease vs managed-aggregation (MA) vs straight-lease models, Ind AS 116 distortion (reported EBITDA vs rent-paid EBITDA, right-of-use assets, lease liabilities) — make this a centrepiece, occupancy and seat pricing, lock-ins and contract tenure, fit-out capex per seat, enterprise vs SME clients, REIT landlords (Embassy, Mindspace, Brookfield, Knowledge), IT hiring slowdown risk. KPIs: seats, operational area (mn sq ft), occupancy, revenue/seat, rent-paid EBITDA margin, capex/seat, payback, lease liabilities, net debt, cash conversion. Link realty.html, it-services.html.",
+  "companies": 3
+ },
+ {
+  "order": 55,
+  "queue_no": 39,
+  "slug": "trading-distribution",
+  "key": "Trading || Trading & Distributors",
+  "name": "Trading & Distribution",
+  "accent": "#5C940D",
+  "angle": "Redington (IT/mobility/solar distribution — Apple, HP, Dell, Samsung; India + Middle East/Turkey/Africa via Arena), MMTC (PSU trading house — largely dormant after canalisation ended; NINL stake sold to Tata Steel 2022; land and cash — verify status/closure talk), Entero Healthcare Solutions (pharma distribution roll-up; IPO Feb-2024; acquisitions). Mixed bucket: treat archetypes. Forces: thin-margin distribution economics (gross margin 5–7%, EBITDA 1.5–3%), working capital and cash-conversion cycle as the whole game, vendor concentration (Apple), PC/smartphone cycles and memory-chip inflation 2026 (consistent with consumer-electronics.html), cloud/software distribution, Turkey hyperinflation accounting (IAS 29) at Redington's Arena, receivable financing and interest costs (RBI repo 5.50% on 7-Oct-2026), pharma distribution consolidation vs AIOCD/trade-margin rationalisation, PSU trading-house wind-down and asset monetisation at MMTC. KPIs: revenue, gross margin, EBITDA margin, working-capital days (DSO/DIO/DPO), ROCE, ROE, free cash flow, interest cover. Link consumer-electronics.html, computer-hardware.html, pharma-branded-formulations.html.",
+  "companies": 3
+ },
+ {
+  "order": 56,
+  "queue_no": 41,
+  "slug": "construction-equipment",
+  "key": "Capital Goods || Construction Vehicles",
+  "name": "Construction Equipment",
+  "accent": "#B8860B",
+  "angle": "BEML (defence-PSU: mining & construction equipment, rail & metro coaches incl. Vande Bharat sleeper — verify, defence vehicles; government stake 54% and disinvestment history), Action Construction Equipment (ACE — pick-and-carry cranes leader ~60%+ share, tower cranes, backhoe loaders, forklifts, tractors, defence orders). Reference peers (unlisted/other): JCB India, Tata Hitachi, L&T Construction Equipment, CASE, SANY, Komatsu; Escorts Kubota CE. Forces: India infra capex (roads, metro, mining — coal, consistent with civil-construction.html), CEV Stage V emission norms (Apr-2026 — verify) and price hikes, ICEMA industry volumes FY24–26 (slowdown after election year?), Chinese competition, rental market, defence orders (BEML Arjun/HMV, ACE), BEML's rail/metro order book and execution. KPIs: units sold, market share, order book, revenue mix, EBITDA margin, working capital (BEML's receivables/inventory), ROCE. Link civil-construction.html, aerospace-defence.html, tractors.html, coal.html.",
+  "companies": 2
+ },
+ {
+  "order": 57,
+  "queue_no": 43,
+  "slug": "luggage",
+  "key": "Consumer Durables || Luggage",
+  "name": "Luggage",
+  "accent": "#8F5A2B",
+  "angle": "Safari Industries (value/mass leader in hard luggage; Gujarat and Jaipur plants; premiumisation; promoter stake), VIP Industries (VIP, Carlton, Skybags, Aristocrat; Bangladesh manufacturing; Piramal family sold control in 2025 to a consortium (Multiples/Mithun Sacheti) — verify; losses and turnaround). Reference peers: Samsonite (American Tourister — listed HK; India business), Mokobara, Uppercase, Nasher Miles (D2C). Forces: travel demand (air passengers, consistent with travel-services.html and hotels.html), polypropylene/polycarbonate prices (crude link, West Asia 2026 shock), China/Bangladesh sourcing vs in-house manufacturing, BIS QCOs on luggage/import duties, e-commerce and quick-commerce channel, D2C brands' share gains, discounting, GST rate on luggage (GST 2.0 — verify), working capital/inventory. KPIs: revenue growth, gross margin, EBITDA margin, A&P %, inventory days, manufacturing share, ROCE. Link travel-services.html, speciality-retail.html, footwear.html.",
+  "companies": 2
  }
 ]
