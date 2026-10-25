@@ -2042,6 +2042,23 @@
         "KPI masterclass"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Luggage",
+      "slug": "luggage",
+      "file": "luggage.html",
+      "sector": "Consumer Durables",
+      "subsector": "Luggage",
+      "companies": 2,
+      "accent": "#8F5A2B",
+      "hook": "A swapped lead and a resin shock: how Safari's in-house factories overtook VIP, why Chinese and Bangladeshi sourcing, polypropylene prices and D2C brands decide margins, what the Carlton court fight moved, and whether VIP's turnaround under Multiples can work.",
+      "tags": [
+        "Safari vs VIP: the leadership swap",
+        "Make vs import: Halol, Jaipur, Bangladesh, China",
+        "VIP under Multiples",
+        "KPI masterclass"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -2307,7 +2324,7 @@
       "sector": "Consumer Durables",
       "sub": "Luggage",
       "companies": 2,
-      "report": null
+      "report": "luggage.html"
     },
     {
       "sector": "Crude Oil",
