@@ -1940,6 +1940,23 @@
         "IEX market coupling"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Industrial Gases",
+      "slug": "industrial-gases",
+      "file": "industrial-gases.html",
+      "sector": "Inds. Gases & Fuels",
+      "subsector": "Industrial Gases",
+      "companies": 3,
+      "accent": "#1098AD",
+      "hook": "Air is free, the contract is everything: how 20-year take-or-pay oxygen contracts with steel mills work, why electricity decides who earns, Linde India's Praxair related-party fight with its minorities, and what INOX Air Products' coming IPO means for 89× and 35× P/E stocks.",
+      "tags": [
+        "Tonnage contracts",
+        "Praxair RPT saga",
+        "Ellenbarrie after the IPO",
+        "Refex and refrigerants"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -2475,7 +2492,7 @@
       "sector": "Inds. Gases & Fuels",
       "sub": "Industrial Gases",
       "companies": 3,
-      "report": null
+      "report": "industrial-gases.html"
     },
     {
       "sector": "Infrastructure",
