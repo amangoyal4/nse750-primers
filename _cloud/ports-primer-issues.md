@@ -25,3 +25,36 @@
 - **gujarat-pipavav-port.html — container capacity missing:** add **1.35m TEU capacity, expandable to 2.4–3.0m TEU**, which makes FY26's 668k TEU ~50% utilisation. (§02, §05)
 - **gujarat-pipavav-port.html — "~₹9–10/share" dividend:** TTM dividend ≈ ₹10.4/share (6.62% × ₹157) — fine, but label it TTM incl. interim + final. (§06)
 
+
+## From Ports deep-research pass (2026-10-25, ports-industry.md §4.5.2)
+
+
+**adani-ports.html**
+- **FY26 cargo split and Mundra decline missing:** add FY26 domestic 451.0 MMT + international 49.8 MMT (500.8 total); **Mundra 192.0 MMT, −4.3% YoY**; Mundra share of group cargo 66% (FY19) → 38% (FY26) [AR; CARE]. Any "Mundra keeps growing" phrasing is wrong for FY26. (§04/§05)
+- **Legal section (beyond §3.4's fix):** state that the **OFAC US$275m settlement (18-May-2026) was with Adani Enterprises**, not APSEZ, and that APSEZ's FY26 AR says the company "has not been named" in the US DOJ/SEC matters. (§08)
+- **NQXT terms:** EV **A$3.98 bn** (equity A$3.16 bn + ~A$0.82 bn net debt), acquired from a promoter entity for shares (+~2.13 pp promoter stake) [CARE]. (§07)
+- **Promoter stake change explained:** 68.02% → 66.03% came from a **4-May-2026 block sale (1.99%, ₹7,486 Cr) to Capital Group**. Pledge is **nil**. (§09)
+- **Mundra concession nuance:** CT-1/CT-3/CT-4 sub-concessions are co-terminus to 16-Feb-2031; the West Basin coal facility has a GoG-approved period to 2040, but the supplementary agreement is unsigned [AR]. (§05)
+- **FY27 capex:** ₹12–14k Cr is confirmed by the Q4 FY26 call; FY26 capex was ₹15,320 Cr against ₹11–12k guidance. (§10)
+- **Vizhinjam–MSC:** add the conditions (CCI, Kerala prior approval; Kerala objection) and the reported US$539m + US$858m structure. (§05/§11)
+- **Market share basis:** use **27.1% (FY26)**, 27.6% (Q1 FY27); container share 46% (FY26), 44.8% (Q1 FY27). (cover)
+
+**jsw-infrastructure.html**
+- **Related-party revenue:** add ₹2,047 Cr = **38% of FY26 revenue** (JSW Steel ₹1,665 Cr, 31%) against ~52% of tonnes, so group cargo realises less per tonne [AR]. (§03/§08)
+- **Utilisation series:** FY21 35.2% → FY26 62.3%; **Jaigarh only 35–40% utilised** [AR; CARE]. (§04)
+- **Third-party history:** FY23 33% (group 67%) per CARE, then 40/49/48; CARE expects the group share to rise as JSW Steel-linked capacity commissions. (§03 chart)
+- **FY27 cargo guidance ~127 MT**; Fujairah 3 of 15 tanks damaged, partial restart, insurance claim (resolution ~end-Oct-2026). (§10)
+- **Capex:** FY27–28 ₹16,500 Cr confirmed by the CFO; CARE FY27–30 ₹28–29k Cr (greenfield 53%). (§10)
+- **Major-port PPP revenue shares 18–36% (one terminal 52.52%) with MGT clauses** — explains the margin gap vs APSEZ [CARE]. (§06)
+- **Oman status:** SSPA Nov-2025; concession agreement not yet signed as of 21-Jul-2026. The primer must not say "signed". (§04)
+- **Moody's Baa3** (upgraded from Ba1) and CARE AA+ reaffirmed 14-Oct-2026. (§08)
+
+**gujarat-pipavav-port.html**
+- **Concession handback at Depreciated Replacement Value** if not renewed [AR policy 2.10]. Add to §06 and the valuation discussion: non-renewal ≠ zero.
+- **Royalty is quantified:** waterfront royalty ₹45.1 Cr = **3.9% of revenue** (FY26). (§06)
+- **Cash ₹676 Cr (Mar-26), debt-free;** cash fell from ₹1,049 Cr as the liquid-berth capex (₹750–800 Cr, CRISIL) and ~100% payout ran together. Flag the payout's sustainability through FY27. (§08/§09)
+- **Capacities:** bulk 4 MMT, liquid 2 → ~5 MMT (Mar-2027), RoRo 250k cars (92% used in FY26); NYK MoU for 500k cars. (§02/§05)
+- **FY27 guidance:** EBIT +20–24%; ~700k TEU; RoRo 260–270k; liquids 1.3–1.4 MMT; bulk 2.4–2.6 MMT. Shaheen service lost (70–80k TEU), replaced by Maersk FI2. (§05)
+- **Revenue mix:** containers 60–65% of revenue, USD-priced (₹9,500–10,000/TEU); Maersk ~17% of revenue [call; CRISIL]. (§03)
+- **FY26 containers underperformed the coast:** −4% vs west-coast ports +9% (19.04m TEU) [AR]. (§04)
+

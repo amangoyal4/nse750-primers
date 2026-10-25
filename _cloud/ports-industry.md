@@ -992,3 +992,792 @@ All aggregates are **straight sums of the company rows above on one basis** (scr
 - BusinessToday, GPPL comfort letter (26-Aug-2026): https://www.businesstoday.in/markets/stocks/story/gujarat-pipavav-shares-surge-6-after-gujarat-maritime-board-update-key-details-551399-2026-08-26
 - CargoConnect, Gujarat concessions (10-Aug-2026): https://cargoconnect.co.in/shipping/gujarat-at-crossroads-as-pioneer-port-concessions-near-expiry-without-clear-extension-framework
 - Secondary [V-snip]: Maritime Gateway H1 FY27 major ports (https://www.maritimegateway.com/major-ports-cargo-traffic-climbs-8-in-first-half-of-fy27-as-growth-gathers-pace/); Maritime Gateway FY26 sweep (fetched; https://www.maritimegateway.com/indias-fy26-port-sector-delivers-historic-sweep/); IANS FY26 915.17 MMT (https://ianslive.in/indias-major-ports-handle-record-91517-million-tonnes-cargo-in-fy26--20260405145704); The Week non-major FY26 (https://www.theweek.in/news/maritime/2026/05/08/india-s-non-major-ports-hit-753-07-mmt-throughput-for-fy-2025-26-as-growth-slows.amp.html); Indian Ports Act 2025 — PRS (https://prsindia.org/billtrack/the-indian-ports-bill-2025), Trilegal, India Code (https://www.indiacode.nic.in/bitstream/123456789/22358/1/A2025-27.pdf), Wikipedia; Vadhavan/Great Nicobar — indiaseatradenews.com (May-2026); Peers — MarketScreener (China Merchants Port, COSCO Shipping Ports), multiples.vc, Seeking Alpha; Deccan Herald (Gujarat govt denies Congress allegation on Adani policy).
+
+
+---
+
+# PART 4 — Deep-research supplement (25-Oct-2026)
+
+Second, primary-source pass, written for the report writer. Parts 1–3 stay as they are. **Where Part 4 conflicts with Parts 1–3, Part 4 wins** (see §4.0).
+
+**What was fetched this session (25-Oct-2026), ~45 web calls:**
+- **Company primary documents**
+  - APSEZ: Q1 FY27 transcript (29-Jul-2026), Q4 FY26 transcript (30-Apr-2026), Q1 FY27 and Q4 FY26 decks (BSE), FY26 Integrated Annual Report (BSE, notice 29-May-2026), shareholding pattern at 30-Jun-2026.
+  - JSW Infra: Q1 FY27 transcript (21-Jul-2026), FY26 Annual Report (BSE).
+  - GPPL: Q1 FY27 transcript (13-Aug-2026), FY26 Annual Report (BSE).
+- **Screener consolidated pages** for all three (re-parsed for the 5-year and 8-quarter tables).
+- **MoPSW September-2026 monthly PDFs**, major and non-major.
+- **MoPSW Basic Port Statistics 2024-25.**
+- **PIB:**
+  - Shipbuilding/MDF package, 24-Sep-2025.
+  - Maritime India backgrounder, 26-Oct-2025.
+  - Vadhavan cabinet approval, 19-Jun-2024, and the 4-Aug-2026 update.
+- **OFAC** enforcement release, 18-May-2026.
+- **Rating rationales:** CARE on APSEZ (Jul-2026), CARE on JSW Infra (14-Oct-2026), CRISIL on GPPL (10-Aug-2026).
+- **BSE SAST Reg 29(2) disclosure** (GQG, 12-Oct-2026).
+- **Peer statistics:** stockanalysis.com, an aggregator.
+- **Secondary articles:** Vizhinjam–MSC, the APSEZ promoter block sale, APSEZ's September operational update, DP World FY2025 results.
+
+**Q2 FY27 check (25-Oct-2026):** no member has published Q2 FY27 financials yet. Boards meet on JSW 27-Oct, APSEZ 28-Oct and GPPL 4-Nov. Operating data is out:
+- APSEZ group cargo: **Sep-26 46 MMT (+11%); Aug-26 a record 50 MMT (+19%); H1 FY27 280 MMT (+15%)**. Filed 2-Oct-2026 [V-snip, Maritime Gateway]. That implies **Q2 FY27 ≈ 141.9 MMT (+~15%)** [E: 280 − 138.1].
+- GPPL Q2 containers 192k TEU (+17%), from Part 2.
+
+**Tags used in Part 4:**
+- **[V]** = fetched this session from the named primary source.
+- **[V-agg]** = fetched this session from an aggregator (stockanalysis.com).
+- **[V-snip]** = secondary article or search summary.
+- **[V-prior]** = verified in the first pass, not re-fetched.
+- **[E]** = our arithmetic.
+
+---
+
+## 4.0 Supersedes — corrections the writer must apply to Parts 1–3
+
+| # | Item (where in Parts 1–3) | Old value | **New value** | Source |
+|---|---|---|---|---|
+| 1 | APSEZ FY26 domestic cargo (§0, §4.3, §5.1, §3.2c) | "~460 MMT [E], derived from 27.6% share" | **451.0 MMT domestic + 49.8 MMT international = 500.8 MMT** (FY25: 430.6 + 19.6 = 450.2) | [V] APSEZ FY26 Integrated Annual Report, operational-highlights chart; CEO on Q4 call "Domestic ports handled 451 million metric tons" |
+| 2 | APSEZ all-India share, FY26 basis (§0, §5.1, stat strip) | 27.6% (a Q1 FY27 number used for FY26) | **27.1% for FY26** (company); 27.0% on MoPSW 1,667.8 MMT [E]. Use 27.6% only for Q1 FY27 | [V] Q4 FY26 call (30-Apr-26); [E] |
+| 3 | Mundra FY26 tonnage (§2.2 "~200+ MMT … ~12% of all-India", B1 "~44% of domestic") | ~200–205 MMT; ~44% | **192.0 MMT in FY26, −4.3% YoY (FY25 200.7)** = **11.5% of all-India** and **42.6% of APSEZ domestic** [E]. Non-Mundra 259.0 MMT (+12.7%). CARE: Mundra fell from 66% (FY19) to 38% (FY26) of APSEZ's total cargo | [V] APSEZ AR chart; [V] CARE Jul-2026; [E] |
+| 4 | Trio Indian tonnes and share (§0, §3.2c) | ~590 MMT; ~35% | **~580 MMT (451 + 115 + ~14); ~34.8% of 1,667.8** [E] | [E] from rows 1, 14 |
+| 5 | All-India cargo FY19–FY24 (§2.1, tagged [K]) | FY22 ~721/~599/~1,320; FY23 ~795/~638/~1,433; FY24 ~819/~721/~1,540; FY20 ~705/~614 | **MoPSW Basic Port Statistics 2024-25 (major / non-major / total, MT):** FY19 699.17 / 582.61 / 1,281.78; FY20 704.93 / 615.05 / 1,319.97; FY21 672.68 / 577.30 / 1,249.99; FY22 720.05 / 603.75 / 1,323.80; **FY23 784.31 / 651.02 / 1,435.32**; FY24 819.29 / 723.59 / 1,542.88; FY25 854.86 / 742.41 / 1,597.27. FY23 was the material memory error (major ~795 → 784.31; non-major ~638 → 651.02) | [V] shipmin.gov.in BPS 2024-25, "Port Sector at a Glance", Tables 8 and 16 |
+| 6 | Long-run CAGR FY19→FY26 (§2.1) | ≈3.8% all-India; majors ~3.9%, non-majors ~3.7% | **All-India 3.8%** (1,281.78 → 1,667.8); **majors 3.9%** (699.17 → 914.73); **non-majors 3.8%** (582.61 → 753.07) [E] | [E] on [V] BPS + [V-prior] FY26 |
+| 7 | Major ports H1 FY27 (§0, §2.1 "~472, +8% [V-snip]") | ~472 MMT, +8% | **472.75 MMT, +8.07%** (437.43 base): overseas 358.82, coastal 113.93 (+14.94%); September 82.39 MMT (+12.65%) | [V] MoPSW "Cargo handled at Major Ports Sep 2026" |
+| 8 | Non-major ports FY27 to date (§0, §2.1 "Apr–Jul +0.37% [V-snip]") | Apr–Jul 247.33 (+0.37%) | **Apr–Sep 377.90 MMT, +0.95%** (374.36 base). Overseas −3.58 MMT, coastal +7.13 MMT (+10.78%). GMB 243.80 (+1.98%); AP 58.52 (−4.63%) | [V] MoPSW non-major Sep 2026 |
+| 9 | NQXT acquisition terms (§7.3, "A$2.4 bn EV [K]") | A$2.4 bn EV, share-funded | **EV A$3.98 bn = equity A$3.16 bn + net debt ~A$0.82 bn**, bought from a promoter entity. The share allotment raised promoter holding by ~2.13 pp | [V] CARE APSEZ rationale Jul-2026 |
+| 10 | India port capacity (§4.3 "~2,800? FLAG") | 2,810 (JSW deck chart parse) | **2,762 MMTPA** (2025; 1,400 in 2014). Major ports **1,680.94 MTPA at end-FY25** (Part 1 had "~1,720") | [V] PIB backgrounder 26-Oct-2025; [V] BPS Table 1.6 |
+| 11 | Major-port utilisation (§4.3) | ~53% | **50.9% in FY25** (854.86 ÷ 1,680.94) [E]; ~54% in FY26 on FY25 capacity [E, upper bound] | [V] BPS; [E] |
+| 12 | GPPL cash / net cash (§2.0, §2.3, §3.1 "unverified") | unknown; EV/EBITDA ~10.8× gross / ~9.7× | **Cash and bank ₹675.9 Cr at 31-Mar-2026** (₹93.07m cash + ₹6,666.17m other bank balances; Mar-25 ₹1,049 Cr); no fund-based debt; leases ₹37 Cr → **net cash ~₹639 Cr**. **EV ≈ ₹6,954 Cr → 9.8× FY26 OP, 9.0× TTM OP** [E] | [V] GPPL FY26 AR (balance sheet; MD&A "debt free"); [V] CRISIL 10-Aug-26 ("~₹680 Cr") |
+| 13 | GPPL royalty to GMB (§1.3, §7.2 "under 5%", Jefferies) | "<5%" | **Waterfront royalty ₹45.1 Cr in FY26 = 3.9% of revenue** (FY25 ₹37.7 Cr, 3.8%) | [V] GPPL FY26 AR, operating-expense note (₹451.38m vs ₹376.79m) |
+| 14 | GPPL total tonnage (§0, §5.1 "~13–15 MMT [E]") | ~13–15 [E] | **Pipavav (incl. GPPL) 13.93 MT in FY25** (FY24 12.94; FY23 11.46; FY22 10.33); FY26 ≈ 14.1 MMT [E: 668k TEU × 14 t + 2.90 + 1.59 + RoRo ~0.3] | [V] BPS Table 19 (GMB data); [E] |
+| 15 | GPPL capacity (§4.3 "bulk/liquid/RoRo not fetched") | containers only | **Containers 1.35m TEU; dry bulk 4 MMT; liquid 2 MMT (→5.2 MMT when the new liquid berth commissions: AR says Dec-2026, Q1 call says Mar-2027); RoRo 250,000 cars** (FY26 229k = 92% utilised) | [V] GPPL FY26 AR; [V] Q1 call |
+| 16 | JSW capacity utilisation (§4.3, Part 2 "~63%, ambiguous") | ~63% ambiguous | **FY21 35.2% · FY22 38.4% · FY23 56.9% · FY24 61.1% · FY25 63.9% · FY26 62.3%** | [V] JSW FY26 AR chart |
+| 17 | JSW third-party history (Part 1 E-8 "FY21–22 ~25 uncertain; FY23 ~33") | uncertain | **FY23: group 67% → third-party 33%** (CARE); FY24 40%, FY25 49%, FY26 48% (58.8 MT 3P vs 62.8 MT group). FY21–22 still not sourced | [V] CARE JSW 14-Oct-2026; [V] JSW AR |
+| 18 | JSW Q1 FY27 result date (Q2 status table: "~late Jul-2026") | late Jul | **Earnings call on 21-Jul-2026**, so results were out by about 21-Jul | [V] JSW Q1 transcript cover |
+| 19 | JSW FY27–28 capex (Part 2 "primer, AngelOne — not re-verified") | ₹16,500 Cr unverified | **Confirmed by the CFO: ~₹16,500 Cr over FY27–28 (ports ~₹13,000; logistics ~₹3,500)**. Cumulative spend ~₹6,900 Cr to Jun-26 (₹671 Cr in Q1); further ~₹5,500 Cr already committed. CARE: **FY27–30 capex ₹28,000–29,000 Cr** (greenfield ~53%, logistics ~24%) | [V] Q1 call; [V] CARE |
+| 20 | JSW Oman status (§2.2, primer issue "concession signed/awarded") | signed/awarded | **Share Subscription and Purchase Agreement signed Nov-2025** with Ash Shiwaymiyyah Port Co SAOC (set up by state-owned Minerals Development Oman). On 21-Jul-2026 the **concession agreement was still unsigned** (CPs pending; "a month or two"). Construction bids invited June-2026. 27 MTPA, Dhofar; minerals (limestone, dolomite, gypsum) for export | [V] JSW FY26 AR; [V] Q1 call |
+| 21 | APSEZ 2-pp promoter drop (§0 corporate actions #2, §2.5 "unexplained") | unexplained | **4-May-2026 block sale:** promoter-group entity Worldwide Emerging Market Holding Ltd sold 4,58,58,705 shares (1.99%) at an average ₹1,632.45 (₹7,486 Cr) to Capital Group funds; group holding 68.02% → 66.03%. This also explains FIIs rising 13.25% → 15.58% in the June quarter | [V-snip] Outlook Business 5-May-2026; [V] screener shareholding consistent |
+| 22 | APSEZ pledge (§2.1, JSON null) | not fetched | **Nil.** At 30-Jun-2026 promoter shares were not pledged, NDU-encumbered or otherwise encumbered (CARE: nil at Mar-26) | [V] APSEZ SHP 30-Jun-2026; [V] CARE |
+| 23 | OFAC settlement party (§7.4, §H-7 "not verified") | which entity unknown | **Adani Enterprises Ltd (AEL)**, not APSEZ: US$275m, 32 apparent Iran-sanction violations (LPG bought Nov-2023 to Jun-2025, ~US$192.1m of USD payments). The OFAC release names no port and does not mention APSEZ. APSEZ's FY26 AR (accounts approved 30-Apr-2026, before the settlement) says APSEZ "has not been named" in the US DOJ/SEC matters, which concern "a non-executive director" | [V] ofac.treasury.gov/recent-actions/20260518; [V] APSEZ AR note 54 |
+| 24 | APSEZ FY27 capex guidance (§2.1 "₹12–14k primer only — FLAG") | unverified | **₹12,000–14,000 Cr**, quoted by an analyst on the Q4 FY26 call and not contradicted. On the Q1 call the IR head said the capex line was dropped from the Q1 deck only because no balance sheet is published in Q1; spend is "in line, slightly ahead". FY26 actual ₹15,320 Cr against ₹11–12k guidance | [V] Q4 and Q1 FY27 transcripts |
+| 25 | Vizhinjam–MSC deal (corporate actions #3, "completion not confirmed") | unknown | **Not closed.** Binding agreement dated 29-Jun-2026; TiL invests via Mundi Ltd. Reported split: US$539m for the 49% plus US$858m tied to the expansion being completed by Dec-2028. Needs **CCI clearance and Kerala government prior written approval** (the 2015 concession treats a ≥25% transfer as a change of ownership). Kerala says it learned of the deal from the media. On 29-Jul APSEZ said cash flows only after approvals | [V] Q1 FY27 call; [V-snip] Onmanorama 4-Jul-2026 |
+| 26 | Mundra concession (Read-first #10, §7.3) | single date 16-Feb-2031 | Keep 16-Feb-2031 for the original Mundra concession and CT-1/CT-3/CT-4 sub-concessions (co-terminus). **Add: the West Basin coal facilities (Wandh) carry a GoG-approved concession "effective till 2040"**, but the supplementary concession agreement is still "in the process of getting signed". The CT-3/CT-3 extension/CT-4 sub-concession agreements still await GoG approval | [V] APSEZ FY26 AR, consolidated note 1 |
+| 27 | APSEZ container share | 44.8% (Q1 FY27) | Keep 44.8% for Q1 FY27; **FY26 full year 46%** (CARE). APSEZ container volume +19% in FY26 | [V] CARE |
+| 28 | Indian Ports Act 2025 commencement (§7.1, "1-Apr-2026 with Rules 21-Jul-2026, Wikipedia") | Wikipedia only | **In force 1-Apr-2026 under S.O. 1499(E)** (aggregator copy of the gazette notice). The "Rules 21-Jul-2026" date was **not** found. What was found instead: provisions of the **Jan Vishwas (Amendment of Provisions) Act 2026 amending the Ports Act commenced 1-Jul-2026 (S.O. 3270(E))**. Act No. 27 of 2025, enacted 21-Aug-2025 | [V-snip] simpliance.in gazette summaries; India Code |
+| 29 | MDF and shipbuilding package (§7.1 "[K, FLAG]") | memory | **PIB 24-Sep-2025: ₹69,725 Cr package** = SBFAS extended to 31-Mar-2036 (₹24,736 Cr, incl. ₹4,001 Cr shipbreaking credit note) + **Maritime Development Fund ₹25,000 Cr** (₹20,000 Cr Maritime Investment Fund with 49% GoI + ₹5,000 Cr Interest Incentivisation Fund) + Shipbuilding Development Scheme ₹19,989 Cr (4.5m GT capacity) | [V] PIB PRID 2170573 |
+| 30 | Global peers (§10) | ICTSI ~16–20× P/E [K]; Westports ~20× [K]; CMPort 9.9× 2026E P/E, 0.71× P/B; COSCO ~8.3×; DP World EBITDA margin ~45–50%, ~90m TEU [K] | **ICTSI** P/E 24.6× TTM (20.9× fwd), EV/EBITDA 14.3×, EBITDA margin 62%. **Westports** 18.3× (17.4×), 12.7×, 53%. **China Merchants Port** 10.1× (8.8×), 8.2×, P/B 0.51. **COSCO Shipping Ports** 8.2× (7.9×), 7.3×, P/B 0.38 (prices 23-Oct-26). **DP World 2025:** revenue US$24.4 bn, adj. EBITDA US$6.4 bn (**26.3%**, logistics-heavy), gross 93.4m TEU, ROCE 9.9% | [V-agg] stockanalysis.com 25-Oct-26; [V-snip] DP World results coverage |
+| 31 | GPPL container realisation (§C.3 "₹11,000–12,500/TEU [E]") | ₹11,000–12,500 | **₹9,500–10,000 per TEU in Q1 FY27** (up from ~₹9,400; Jan-26 tariff hike + USD); dry bulk ₹650–750/t; liquid ₹650–700/t. **Containers are 60–65% of revenue and USD-priced** | [V] GPPL Q1 call (CFO) |
+| 32 | APSEZ marine fleet basis (§3.3 primer issue) | 135 + 47; "244" | Q1 FY27 deck 135 third-party; FY26 AR **247 marine vessels "includes captive and third-party marine fleet, and dredging fleet"**; the AR's MD&A also says "136 marine vessels in total". Always state the basis | [V] APSEZ AR |
+| 33 | JSW Q1 FY27 interest | screener ₹102 Cr | Company finance cost **₹95 Cr** (₹91 Cr); screener's ₹102 Cr includes other items | [V] Q1 call |
+| 34 | JSW volume outlook (§12) | none | **FY27 cargo ~127 MT** (+4% on 122), including ~2–2.5 MT of Fujairah (~40% of normal) and ₹100–125 Cr of Fujairah EBITDA inside the ₹3,000 Cr guidance | [V] Q1 call |
+
+---
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Agrees?" compares with Parts 1–3. ✔ = agrees; ✖ = superseded (see §4.0 #); ＋ = new.
+
+| # | Figure | Value | Primary source (URL) | Fetched this session? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Major ports H1 FY27 cargo | 472.75 MMT, +8.07% | shipmin.gov.in/sites/default/files/Cargo%20handled%20at%20Major%20Ports%20Sep%202026.pdf | **[V]** | ✔ (refines ~472/+8%) |
+| 2 | Non-major ports H1 FY27 cargo | 377.90 MMT, +0.95% | shipmin.gov.in/sites/default/files/Cargo%20handled%20at%20Non-Major%20Ports%20Sep%202026.pdf | **[V]** | ＋ |
+| 3 | All-India H1 FY27 | 850.65 MMT, +4.8% | sum of #1 + #2 | [E on V] | ＋ |
+| 4 | All-India FY25 (major / non-major) | 1,597.27 (854.86 / 742.41) | shipmin.gov.in/sites/default/files/BPS%202024-25_compressed.pdf | **[V]** | ✔ |
+| 5 | All-India FY23 | 1,435.32 (784.31 / 651.02) | BPS 2024-25 | **[V]** | ✖ #5 |
+| 6 | All-India FY19 | 1,281.78 (699.17 / 582.61) | BPS 2024-25, Tables 8 & 16 | **[V]** | ✔ (≈1,282) |
+| 7 | All-India FY26 | 1,667.8 (914.73 / 753.07) | MoPSW Mar-2026 PDFs (first pass); APSEZ AR MD&A confirms sector +4.4%, non-major +1.4% | [V-prior] + [V] cross-check | ✔ |
+| 8 | Major-port capacity FY25 | 1,680.94 MTPA | BPS 2024-25, Table 1.6 | **[V]** | ✖ #10 |
+| 9 | India total port capacity | 2,762 MMTPA (2025) | static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251026676201.pdf | **[V]** | ✖ #10 |
+| 10 | Major-port containers H1 FY27 | 8.171m TEU (+11.98%); 112.90 Mt (+8.21%) | MoPSW major Sep-2026 Table 2 | **[V]** | ＋ |
+| 11 | GMB share of non-major H1 FY27 | 243.80 MMT = 64.51% (+1.98%) | MoPSW non-major Sep-2026 | **[V]** | ✔ (~64%) |
+| 12 | APSEZ FY26 cargo split | 500.8 = 451.0 domestic + 49.8 international | APSEZ FY26 Integrated AR (bseindia.com/xml-data/corpfiling/AttachHis/aaa81a60-9ae5-42c6-870c-2abb13d032bb.pdf) | **[V]** | ✖ #1 |
+| 13 | Mundra FY26 | 192.0 MMT (−4.3%) | APSEZ AR; CARE (−4%) | **[V]** ×2 | ✖ #3 |
+| 14 | APSEZ all-India share FY26 | 27.1% | APSEZ Q4 FY26 transcript (adaniports.com …/apsez-q4fy26-earnings-conference-call_transcript.pdf) | **[V]** | ✖ #2 |
+| 15 | APSEZ container share | 46% FY26; 44.8% Q1 FY27 | CARE APSEZ Jul-2026 (careratings.com/upload/CompanyFiles/PR/202607120701_…pdf); Q1 deck | **[V]** | ✔ / ＋ |
+| 16 | APSEZ Q1 FY27 revenue / EBITDA / PAT | ₹10,821 / 6,541 / 3,650 Cr | Q1 FY27 deck (BSE Pname 28ee5493…); transcript | **[V]** | ✔ |
+| 17 | APSEZ FY27 guidance | revenue ₹43–45k Cr; EBITDA ₹25–26k Cr; ND/EBITDA ≤2.5× | Q1 FY27 deck p.2 | **[V]** | ✔ |
+| 18 | APSEZ FY27 capex guidance | ₹12,000–14,000 Cr | Q4 FY26 transcript (analyst-quoted, uncontested) | **[V]** | ✔ (FLAG closed) |
+| 19 | APSEZ net debt / EBITDA | 1.9× (Jun-26); CARE net external debt/PBILDT ~2.0× (Mar-26) | Q1 deck; CARE | **[V]** ×2 | ✔ |
+| 20 | APSEZ FY26 revenue / OP / PAT | ₹38,736 / 22,868 / 12,782 Cr | screener.in/company/ADANIPORTS/consolidated/ | **[V]** | ✔ |
+| 21 | APSEZ promoter holding / pledge | 66.03% / nil | screener; APSEZ SHP 30-Jun-2026 | **[V]** | ✔ / ✖ #22 |
+| 22 | Mundra concession expiry | 16-Feb-2031 (West Basin to 2040, agreement unsigned) | APSEZ AR consolidated note 1 | **[V]** | ✔ + nuance #26 |
+| 23 | NQXT acquisition EV | A$3.98 bn (equity 3.16 + net debt 0.82) | CARE APSEZ Jul-2026 | **[V]** | ✖ #9 |
+| 24 | OFAC settlement | AEL, US$275m, 18-May-2026; APSEZ not a party | ofac.treasury.gov/recent-actions/20260518 | **[V]** | ＋ (library consistent) |
+| 25 | JSW FY26 cargo / third-party | 122 MT; 3P 58.8 MT (48%); group 62.8 MT | JSW FY26 AR (bseindia …/77e85723-…pdf) | **[V]** | ✔ |
+| 26 | JSW capacity utilisation | FY26 62.3% (FY25 63.9%) | JSW FY26 AR | **[V]** | ✖ #16 |
+| 27 | JSW Q1 FY27 operating revenue / operating EBITDA / PAT | ₹1,445 / 674 / 358 Cr | JSW Q1 transcript (jswin.s3…/Infra-call-transcript-Q1FY2027.pdf); screener | **[V]** | ✔ |
+| 28 | JSW FY27 guidance | operating EBITDA ~₹3,000 Cr (FY28 ₹5,000); cargo ~127 MT | Q1 transcript | **[V]** | ✔ / ＋ |
+| 29 | JSW net cash at Jun-26 | ₹2,769 Cr (cash ₹9,863 Cr) | Q1 transcript; CARE Oct-2026 | **[V]** ×2 | ✔ |
+| 30 | JSW related-party revenue | ₹2,046.6 Cr = 38.2% of revenue (JSW Steel ₹1,664.9 Cr) | JSW FY26 AR, related-party note | **[V]** | ＋ |
+| 31 | JSW capex plan | FY27–28 ~₹16,500 Cr; FY27–30 ₹28–29k Cr | Q1 transcript; CARE | **[V]** | ✔ / ＋ |
+| 32 | GPPL FY26 revenue / OP / PAT | ₹1,158 / 708 / 515 Cr | screener; AR (standalone PAT ₹500.5 Cr) | **[V]** | ✔ |
+| 33 | GPPL cash at Mar-26 | ₹675.9 Cr; debt-free | GPPL FY26 AR (bseindia …/85eb5206-…pdf); CRISIL ~₹680 Cr | **[V]** ×2 | ✖ #12 |
+| 34 | GPPL royalty to GMB | ₹45.1 Cr = 3.9% of revenue | GPPL FY26 AR | **[V]** | ✖ #13 (refines "<5%") |
+| 35 | GPPL FY27 guidance | EBIT +20–24%; ~700k TEU; RoRo 260–270k; liquid 1.3–1.4 MMT; bulk 2.4–2.6 MMT | GPPL Q1 transcript (cms-cd.apmterminals.com …/q-1-fy-2027/Transcript.pdf) | **[V]** | ＋ |
+| 36 | GPPL concession | to Sep-2028; assets vest in GMB at Depreciated Replacement Value | GPPL FY26 AR, accounting policy 2.10 | **[V]** | ✔ + DRV new |
+| 37 | GPPL Q2 FY27 containers | 192k TEU (+17%) | BSE 7-Oct-2026 | [V-prior] | ✔ |
+| 38 | Shipbuilding package / MDF | ₹69,725 Cr / ₹25,000 Cr | pib.gov.in/PressReleasePage.aspx?PRID=2170573 | **[V]** | ✔ (FLAG closed) |
+| 39 | Vadhavan | ₹76,220 Cr; 298 MMTPA; ~23.2m TEU; approved 19-Jun-2024 | pib.gov.in PRID 2026695; PRID 2294245 (4-Aug-2026) | **[V]** | ✔ |
+| 40 | Indian Ports Act 2025 in force | 1-Apr-2026 (S.O. 1499(E)) | simpliance.in gazette summary; indiacode.nic.in | [V-snip] | ✔ (date); "Rules 21-Jul" ✖ #28 |
+
+**Tally:** 33 of 40 rest on primary documents fetched this session [V]. The other seven are #3 [E on V], #7 [V-prior + V cross-check], #37 [V-prior], #40 [V-snip], plus three where a [V] value sits alongside aggregator or secondary detail. Peer multiples (§4.3 table G) are [V-agg] and are deliberately kept out of the 40.
+
+**Where sources conflict, and which to trust:**
+1. **APSEZ FY26 share: 27.1% (company) vs ~27% (AR MD&A) vs 27.0% (our arithmetic).** All three agree within rounding. Use the company's 27.1% for FY26.
+2. **APSEZ FY26 domestic margin: ~73% (CARE) vs 74% (company, Q1 FY27).** Different periods. Use 73% for FY26 and 74% for Q1 FY27.
+3. **APSEZ FY26 international margin: ~29% (CARE, FY26) vs 41.8% (Q1 FY27).** NQXT was only in Q4 FY26. Both are right for their periods.
+4. **GPPL liquid berth commissioning: Dec-2026 (AR, May-2026) vs Mar-2027 (Q1 call, Aug-2026).** The later statement is more credible. Use **"by Mar-2027"**.
+5. **GPPL liquid capacity after expansion: 5.2 MMT (AR) vs "5 million" (call, CRISIL).** Use ~5 MMT.
+6. **GPPL liquid capex: ₹750–800 Cr (CRISIL) vs "$90m" (BusinessToday, Part 2).** These are consistent at ₹94.9/$ (≈₹850 Cr). Use the CRISIL range.
+7. **JSW FY26 revenue: ₹5,361 Cr (company revenue from operations) vs ₹5,373 Cr (CARE "TOI").** TOI includes some other operating income. Use ₹5,361 Cr.
+
+---
+
+## 4.2 Company deep-dives
+
+### 4.2.1 Adani Ports & SEZ (ADANIPORTS · 532921)
+
+**(a) Management-guidance digest. Sources: Q1 FY27 call (29-Jul-2026) and Q4 FY26 call (30-Apr-2026) [V]. Paraphrased.**
+
+1. **FY27 guidance held; no raise until after H1.**
+   - Revenue ₹43–45k Cr, EBITDA ₹25–26k Cr, ND/EBITDA up to 2.5×.
+   - An analyst noted that Q1 EBITDA × 4 ≈ ₹26k Cr. The CEO said management will "see how this quarter goes" and revisit the full-year guidance after H1 (29-Jul).
+   - Guidance is built on a "flat" assumption: APSEZ grows at about 1.5× India's trade growth. The upside case is 1.7–1.8× (Q4 call).
+   - Medium-term ambition: **18–19% CAGR**, and "more than double revenue, EBITDA and cash flows by FY31".
+2. **Why domestic volume was weak in Q1 (+2%). Management blames one-off customer outages, not structure.**
+   - **Krishnapatnam:** one customer's plant was shut, a 2.0–2.5 MMT shortfall. The plant has restarted.
+   - **Mundra:** last year's drag was a customer power plant that runs only on imported coal and was "almost non-operational throughout the year". The Q4 call names it: Tata Power's Mundra plant, now "fully fired".
+   - Management says APSEZ's four east-coast ports together gained share.
+3. **Why revenue beat volume (+12% domestic revenue on +2% tonnes):**
+   - Fuel-surcharge pass-through.
+   - Mix: container and liquid share of domestic cargo rose ~300 bp; liquids realise more than coal.
+   - Tariff-based "premium/emergency" charges for longer vessel stays, reefer power and lift-on/lift-off during the West Asia disruption. Free storage was extended 45 days and storage was not charged.
+   - Associated business services, routine rate revisions and the currency.
+4. **Transhipment at Mundra was 27% of containers in Q1 FY27, vs a normal 23–24%.**
+   - A competitor's transhipment rose 2–2.5×. APSEZ capped it to protect EXIM realisation.
+   - Mundra normally handles **740–750k TEU a month**; April–May were at or below ~700k. On the Q4 call: **770k TEU in one month = 94% utilisation**.
+   - Next Mundra container capacity addition: "this calendar year".
+5. **Other income.**
+   - Q1 FY27 other income of ₹853 Cr includes **₹518 Cr of dividends from the CT-3 and CT-4 JVs**. This is a contra entry against the JV-share line.
+   - **Underlying other income ≈ ₹335 Cr. Underlying JV profit ₹230 Cr (vs ₹157 Cr).** Writer: do not read Q1 PAT growth as boosted by other income.
+6. **Capex.**
+   - The capex line was missing from the Q1 deck only because no Q1 balance sheet is published; spend is "slightly ahead" of guidance.
+   - **FY27 ₹12–14k Cr** (Q4 call). FY27–31 ₹90k–1 lakh Cr (Ambition 2031).
+   - International ports get no growth capex in the 5-year plan beyond CWIT Ph-2: "maximise utilisation of existing assets".
+   - Logistics capex was cut.
+7. **M&A rules for international deals:**
+   - The asset adds to both top and bottom line.
+   - It is financed locally, in its own currency.
+   - Returns are at or above the APSEZ average after currency and cost-of-capital adjustment.
+   - A local partner where useful; existing assets ahead of greenfield.
+   - The company declined to comment on ABP (UK) press reports.
+   - Australia was bought at ~17× EV/EBITDA, "13–14× adjusted".
+   - "If we do nothing, [ND/EBITDA] will be close to 0 in 5 years."
+8. **Segment margin guidance:**
+   - Marine steady state ~55%. It was mid-50s before the West Asia crisis; Q1 was 44.8%.
+   - Australia historically ~65%, but tariff (rate) revisions are due in the next 2–3 years, a possible headwind.
+   - Haifa realisation per tonne is ~4× India's; Israel normalisation is the swing factor for international margins.
+   - **Colombo CWIT Phase 2 starts Oct-2026.**
+9. **Vizhinjam–MSC:**
+   - Run by Adani, with no exclusivity for MSC; EXIM to start soon. "76% of India-bound transhipment is transhipped outside India."
+   - Subject to regulatory and other approvals; no cash until then (see §4.0 #25).
+10. **Mundra concession:**
+    - "Before Mundra concession, we should hear Pipavav concession… discussions are going on" (Q1).
+    - "The talks are positive… we don't control the timing" (Q4).
+    - Management flagged that "many of the concessions in our competitive ports" come up for renewal before 2031, which it sees as an inorganic opportunity.
+11. **Trade and logistics:**
+    - India's trade grew only ~3% in Apr–Jun vs a usual 6–8%. July was "a little better… not normal".
+    - Morbi tile exports collapsed on the LPG shortage, taking ICD volumes near zero there. Some container cargo switched to break-bulk via Hazira.
+    - Rail TEU down 19% in Q1. September showed stabilisation (+3%, per the operational update).
+12. **Ambition 2031:** consolidated RoCE ~20% by FY31 (+1 pp a year); Mundra RoCE "crossing 38–40%"; Krishnapatnam EBITDA margin 20–21% at acquisition vs mid-70s now.
+
+**(b) Concall KPI table (Q1 FY27 vs Q1 FY26 unless stated) [V deck/transcript]**
+
+| KPI | Q1 FY27 | Q1 FY26 | YoY | Comment |
+|---|---|---|---|---|
+| Group cargo (MMT) | 138.1 | 120.6 | +15% | Domestic 115.3 (+2%); international 22.8 (7.7) |
+| Group cargo H1 FY27 (MMT) | 280 | 243.5 | +15% | Sep-26 46 MMT (+11%); Aug-26 record 50 MMT [V-snip] |
+| Mundra transhipment share of containers | 27% | ~23–24% (normal) | +3–4 pp | Middle East overflow |
+| Domestic TEU ('000) | 3,152 | ~2,919 | +8% | All-India container share 44.8% (45.2%) |
+| Domestic ports revenue / EBITDA (₹ Cr) | 6,964 / 5,152 | 6,200 / 4,637 | +12% / +11% | Margin 74% |
+| International ports revenue / EBITDA (₹ Cr) | 1,747 / 730 | 970 / 205 | +80% / +256% | Margin 41.8% vs 21.1% |
+| Marine revenue (₹ Cr) | 901 | 539 | +67% | 135 vessels (118); margin 44.8% vs 54.9% |
+| Logistics revenue / EBITDA (₹ Cr) | 1,173 / 219 | 1,169 / 213 | 0% / +3% | Rail TEU 145,310 (179,479) |
+| Other income: reported / underlying (₹ Cr) | 853 / ~335 | 453 | — | ₹518 Cr JV dividends (contra) |
+| JV share: underlying (₹ Cr) | 230 | 157 | +46% | CT-3, CT-4, IAVL positive; Dhamra LNG, AECTPL negative |
+| Net debt / EBITDA | 1.9× | — | — | Pro-forma NQXT 1.8× |
+| Gross debt / cash (₹ Cr) | 56,776 / 12,428 | — | — | 79% foreign currency, 72% fixed, avg maturity 5.4 yrs (CARE, Mar-26) |
+
+**(c) Five-year history (FY22–FY26), screener consolidated, ₹ Cr [V], plus company cargo [V AR]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 17,119 | 20,852 | 26,711 | 30,475 (co. 31,079) | 38,736 |
+| Operating profit (EBITDA) | 9,528 | 10,947 | 15,589 | 18,421 | 22,868 |
+| OPM % | 56 | 52 | 58 | 60 | 59 |
+| Other income | 1,832 | 327 | 671 | 1,800 | 2,152 |
+| Interest | 2,544 | 2,363 | 2,733 | 2,813 | 4,654 |
+| Depreciation | 3,099 | 3,425 | 3,888 | 4,379 | 5,517 |
+| PAT | 4,953 | 5,391 | 8,104 | 11,061 | 12,782 |
+| EPS (₹) | 23.13 | 24.58 | 37.55 | 51.35 | 55.58 |
+| CFO | 10,420 | 11,900 | 15,018 | 17,226 | 20,356 |
+| ROCE % (screener) | 11 | 10 | 13 | 15 | 14 |
+| Dividend payout % | 22 | 20 | 16 | 14 | 13 |
+| Borrowings (screener, incl. leases) | 47,935 | 53,434 | 49,470 | 51,621 | 63,566 |
+| CWIP | 4,023 | 6,637 | 10,936 | 11,706 | 12,689 |
+| **Cargo, group (MMT)** | 312.0 | 339.2 | 419.9 | 450.2 | 500.8 |
+| — domestic | 312.0 | 336.6 | 408.4 | 430.6 | **451.0** |
+| — international | — | 2.6 | 11.5 | 19.6 | **49.8** |
+| — Mundra | 150.24 | 155.39 | 179.58 | 200.7 | **192.0** |
+| — non-Mundra domestic | 162.16 | 181.19 | 228.85 | 229.9 | **259.0** |
+| Rail container TEU | — | — | 597,507 | 643,479 | 695,517 |
+| GPWIS (MMT) | — | — | 20.1 | 22.0 | 21.7 |
+
+Notes:
+- **Mundra fell in FY26 while non-Mundra rose ~13%.** That is the diversification story (CARE: Mundra 66% of cargo in FY19 → 38% in FY26), but it is also a warning about the flagship asset whose concession ends in 2031.
+- FY22–FY26 CAGR [E]: revenue 22.7%; OP 24.5%; PAT 26.7%; domestic tonnes 9.6%; group tonnes 12.6%.
+- FY23 Mundra/non-Mundra (155.39 + 181.19 = 336.58) equals FY23 domestic, which confirms the chart parse.
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Quarter | Q2 FY25 (Sep-24) | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 (Jun-26) |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 7,067 | 7,964 | 8,488 | 9,126 | 9,167 | 9,705 | 10,738 | 10,821 |
+| Operating profit | 4,367 | 4,802 | 5,006 | 5,495 | 5,340 | 5,786 | 6,020 | 6,253 |
+| OPM % | 62 | 60 | 59 | 60 | 58 | 60 | 56 | 58 |
+| Other income | 254 | 247 | 426 | 453 | 837 | 189 | 900 | 853 |
+| Interest | 659 | 923 | 715 | 846 | 1,223 | 980 | 1,605 | 1,087 |
+| Depreciation | 1,077 | 1,106 | 1,185 | 1,255 | 1,264 | 1,384 | 1,615 | 1,711 |
+| PAT | 2,413 | 2,518 | 3,023 | 3,311 | 3,120 | 3,043 | 3,308 | 3,650 |
+| Revenue YoY % | +6.3 | +15.1 | +23.1 | +20.7 | +29.7 | +21.9 | +26.5 | +18.6 |
+
+Reading the quarters:
+- Screener OP is below company EBITDA by the JV-share netting (Q1 FY27 ₹6,253 Cr vs ₹6,541 Cr).
+- Depreciation rose 36% YoY in Q1 FY27 (NQXT, capex). Interest swings with derivative and FX lines.
+- **Q2 FY27 base effects:** Q2 FY26 other income (₹837 Cr) carried last year's JV dividend, so Q2 FY27 other income will likely fall YoY. Group cargo Q2 FY27 is ~+15% [E].
+
+**(e) Annual-report findings (FY26 Integrated AR, BSE, notice 29-May-2026) [V]**
+
+- **US legal matters (note 54):**
+  - The DOJ indictment and SEC civil complaint (EDNY) concern "a non-executive director"; "**The Company has not been named in these matters**".
+  - During FY26, the director's counsel agreed to accept SEC service without accepting jurisdiction, and sought a pre-motion conference to dismiss. Management says there is no impact on the company.
+  - The accounts were approved on 30-Apr-2026, so the AR predates the OFAC settlement (18-May, with AEL) and the criminal dismissal (Aug-2026). No OFAC mention, as expected.
+- **Concessions (consolidated note 1):**
+  - Mundra: 30 years from 17-Feb-2001; CT-1 (MICTL), CT-3 (AICTPL, with MSC) and CT-4 (ACMTPL, with CMA CGM) sub-concessions are co-terminus to **16-Feb-2031**.
+  - **West Basin (coal) expansion has GoG approval "effective till 2040"**, but the supplementary concession agreement is still unsigned.
+  - The CT-3, CT-3 extension and CT-4 sub-concession agreements still need GoG approval for final signing.
+  - Writer: present 2031 as the cliff for the container business and most of Mundra, with coal (West Basin) partly to 2040 on paper.
+- **AECTPL (Ennore container terminal):**
+  - 49% sold to an MSC affiliate for ₹248.54 Cr, booking a **₹603.27 Cr gain** in FY26.
+  - Check whether this sits in the ₹208 Cr net exceptional or in other income before using "FY26 PAT +16%" as clean growth [FLAG].
+  - It is a template for Vizhinjam: MSC buys 49% of APSEZ terminals.
+- **Capital commitments: ₹25,846 Cr** (FY25 ₹8,248 Cr), on projects over the next 5 years. This is the contracted part of the ₹90k–1 lakh Cr plan.
+- **Contingent liabilities are small:** bank guarantees ₹292 Cr; foreign-subsidiary claims ~₹467 Cr; tax appeals mostly won (treated as remote). EPCG export obligation ₹2,436 Cr (to be met 2026-27 to 2029-30).
+- **Pledges (company-level, of investee shares):** the 30% pledge of Dhamra shares was **released** (Mar-25 30% → Mar-26 nil). NDUs remain on AICTPL 50%, Dhamra 21% and AIPH Pte 51%. Promoter pledge on APSEZ shares is nil (SHP 30-Jun-26).
+- **Scale facts (AR cover):**
+  - 19 ports; domestic capacity ~653 MMT; international ~144 MMT.
+  - 247 marine vessels (captive + third-party + dredging); 132 rakes; 12 MMLPs; 3.1m sq ft warehousing; 25,000+ trucks.
+  - Dhamra 48.79 MMT in FY26 (+6%), with a record 5.02 MMT in Mar-26.
+  - MD&A: Indian ports +4.4% and non-major +1.4% in FY26, vs **APSEZ domestic +4.7%**.
+- **Rating view (CARE, Jul-2026):**
+  - 15% volume CAGR FY21–26 vs ~6% for all-India.
+  - Pricing flexibility "at all domestic locations except three terminals".
+  - FY26 segment growth: domestic ports revenue ~+16%, international ~+40%, logistics ~+55%, marine ~+134%.
+  - FY26 margins: domestic ~73%, international ~29%, logistics ~19%, marine ~51%.
+  - Bond buybacks of ~US$586m in FY26.
+
+### 4.2.2 JSW Infrastructure (JSWINFRA · 543994)
+
+**(a) Management-guidance digest. Source: Q1 FY27 call, 21-Jul-2026 [V]. Paraphrased.**
+
+1. **Guidance reaffirmed:** operating EBITDA **~₹3,000 Cr in FY27 and ₹5,000 Cr in FY28**, repeated in the closing remarks.
+   - New: **FY27 cargo ~127 MT** (+4%). This includes Fujairah at ~2–2.5 MT (~40% of normal) and **₹100–125 Cr of Fujairah EBITDA** inside the ₹3,000 Cr.
+   - Capacity path unchanged: **186 → 300 MTPA by FY28 → 400 MTPA by FY30 "or earlier"**, via greenfield, brownfield, port privatisation and acquisitions.
+2. **Underlying Q1 was better than the reported numbers.**
+   - India cargo ex-Fujairah **+11%** (total +6%: 31.0 vs 29.4 MT).
+   - With Fujairah normal, ports EBITDA would have been ~₹670–675 Cr instead of ₹601 Cr (+₹65–70 Cr, USD-earning).
+   - The CFO agreed the company is tracking "slightly better than guidance" on an underlying basis. Q4 usually carries take-or-pay true-ups.
+3. **Fujairah recovery:**
+   - Three of 15 tanks were damaged in Q4 FY26 (CARE).
+   - 8 tanks back in operation by end-Jul or early Aug; 3 more by Sep/Oct.
+   - Insurance claim filed; **resolution expected by end-Oct-2026**, a possible Q3 one-off.
+4. **Margin bridge.**
+   - Ports margin 49.8% vs 51.8%. The drop is mainly Fujairah, plus a ₹8–9 Cr one-off crane relocation at Jaigarh.
+   - Q1 also had **non-recurring alumina and project cargo at Jaigarh**, a positive. Recurring new LPG cargo at Jaigarh.
+5. **Logistics is scaling faster than ports:**
+   - Logistics revenue ₹237 Cr (₹138 Cr), operating EBITDA ₹73 Cr (₹20 Cr), margin 30.6%.
+   - The margin is flattered because rake revenue is booked net (premium/rebate only); gross accounting would give ~25%.
+   - Navkar operating EBITDA ₹33 Cr (+62%), PAT ₹12 Cr (₹2 Cr).
+   - Rakes: fleet 42 (25 rail + 17 container); 40 more ordered Apr-26 (25 container + 15 rail); **80+ by Jan/Feb-2027**; target ~250 (≈150 container, ~110 rail incl. 19 GPWIS) in 2–3 years.
+   - Rake cargo split ~45:55 group:third-party; Navkar ~75% third-party.
+   - Navkar merger: "we'll communicate at the right time". A bid for an NCR rail terminal is near closure; NCLT assets are being evaluated.
+6. **Capex and balance sheet:**
+   - FY27–28 ~₹16,500 Cr (ports ~₹13,000; logistics ~₹3,500). Cumulative ~₹6,900 Cr spent to Jun-26 (₹671 Cr in Q1); a further ~₹5,500 Cr already committed.
+   - QIP ₹7,503 Cr, of which ₹6,555 Cr came into the company. "As of 30th June the QIP proceeds have come in": **net cash ₹2,769 Cr**.
+   - Treasury income will "shoot up" for the rest of FY27.
+   - Moody's upgraded to **Baa3 (investment grade) from Ba1**.
+7. **Projects:**
+   - **Slurry pipeline:** 251 km lowered (~83%); on track for Mar-2027. Project contingencies absorb geopolitical cost inflation.
+   - **Jatadhar:** novation with the anchor customer executed after Odisha approvals.
+   - **Keni:** EC expected in 3–4 months. It is ~1 year late because the Karnataka CZMA was not constituted for 6–7 months.
+   - **Murbe:** EC received for the whole project including the DFC rail link. Concession agreement in 2–3 months; construction from ~Dec-2026/Jan-2027. Cargo expected ~20% group / 80% third-party (Tarapur/Boisar/Palghar; MP, Telangana and North India via DFC).
+   - **Kolkata:** phase-1 (berths 7–8; 0.45m TEU) EBITDA **₹70–90 Cr**; all three phases (1.4m TEU) **₹300–350 Cr** at steady state. Existing Kolkata facilities run at 90% utilisation.
+8. **Oman (Ash Shiwaymiyyah):**
+   - The port lies outside the Strait of Hormuz.
+   - Construction bids invited in June; the concession agreement awaits CPs, expected "in another month or two". It was not signed as of 21-Jul.
+   - Management will proceed, arguing the Gulf conflicts are not permanent and the project takes 2–3 years.
+9. **Other income:** Q4 FY26 included ~₹40 Cr of interest from Hiranandani (the Jaigarh JV partner) on receivables. The underlying Q4 run-rate was ₹50–55 Cr.
+
+**(b) Concall KPI table [V]**
+
+| KPI | Q1 FY27 | Q1 FY26 | YoY | Note |
+|---|---|---|---|---|
+| Cargo (MT) | 31.0 | 29.4 | +6% | India ex-Fujairah +11% |
+| Third-party share | 48% | ~51–52% | ↓ | 3P volume −1.9%; group +13.7% (Aug deck) |
+| Ports operating revenue / EBITDA (₹ Cr) | 1,208 / 601 | 1,086 / 561 | +11% / +7% | Margin 49.8% (51.8%) |
+| Logistics operating revenue / EBITDA (₹ Cr) | 237 / 73 | 138 / 20 | +72% / 3.6× | Margin 30.6% (14.5%) |
+| Consolidated operating revenue / EBITDA (₹ Cr) | 1,445 / 674 | 1,224 / 581 | +18% / +16% | 46.6% margin |
+| Depreciation / finance cost (₹ Cr) | 166 / 95 | 143 / 91 | | |
+| PBT / PAT (₹ Cr) | 463 / 358 | 473 / 390 | −2% / −8% | Lower treasury income, higher ETR |
+| Capex in quarter (₹ Cr) | 671 | | | Cumulative ~6,900 |
+| Net debt (cash) (₹ Cr) | (2,769) | | | Cash ₹9,863 Cr |
+| Rakes (no.) | 42 | 25 (FY26 acquisition) | | → 80+ by Feb-27 |
+| FY27 guidance | ~127 MT; operating EBITDA ~₹3,000 Cr | | | Q1 = 22.5% of guidance |
+
+**(c) Five-year history (FY22–FY26), screener consolidated, ₹ Cr [V], plus AR KPIs [V]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 2,273 | 3,195 | 3,763 | 4,476 | 5,361 |
+| Operating profit | 1,109 | 1,623 | 1,968 | 2,262 | 2,604 |
+| OPM % | 49 | 51 | 52 | 51 | 49 |
+| Other income | 106 | 176 | 266 | 353 | 266 |
+| Interest | 420 | 596 | 332 | 266 | 383 |
+| Depreciation | 370 | 391 | 436 | 547 | 614 |
+| PAT | 330 | 750 | 1,161 | 1,521 | 1,547 |
+| EPS (₹) | 1.80 | 3.97 | 5.50 | 7.16 | 7.25 |
+| ROCE % (screener) | 11 | 17 | 16 | 14 | 14 |
+| Cargo (MT) | 62 | 93 | 107 | 117 | 122 |
+| Capacity (MTPA, year-end) | 153 | 158 | 170 | 177 | 183 |
+| **Capacity utilisation %** | **38.4** | **56.9** | **61.1** | **63.9** | **62.3** |
+| Third-party share % | n/a | **33** (CARE: group 67%) | 40 | 49 | 48 |
+| Related-party sales (₹ Cr) | | | | 1,726.4 | 2,046.6 |
+
+FY21 utilisation was 35.2% (revenue ₹1,604 Cr, PAT ₹285 Cr). FY22–26 CAGR [E]: revenue 23.7%, OP 23.8%, PAT 47% (off a low FY22 base), cargo 18.4%.
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Quarter | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,001 | 1,182 | 1,283 | 1,224 | 1,266 | 1,350 | 1,522 | 1,445 |
+| Operating profit | 521 | 586 | 641 | 581 | 610 | 644 | 769 | 674 |
+| OPM % | 52 | 50 | 50 | 47 | 48 | 48 | 51 | 47 |
+| Other income | 87 | 83 | 89 | 90 | 107 | 52 | 17 | 57 |
+| Interest | −80 | 256 | 8 | 55 | 105 | 93 | 130 | 102 |
+| Depreciation | 134 | 138 | 140 | 143 | 149 | 164 | 158 | 166 |
+| PAT | 374 | 336 | 516 | 390 | 369 | 365 | 424 | 358 |
+| Revenue YoY % | +18.0 | +25.7 | +17.1 | +21.2 | +26.5 | +14.2 | +18.6 | +18.1 |
+
+Screener's interest line is volatile (−80 in Q2 FY25; 256 in Q3 FY25) because of FX and derivative reclassification. The company finance cost is steadier (₹91 → ₹95 Cr). **PAT has been flat at ₹360–520 Cr a quarter for eight quarters while revenue rose 44%.** Depreciation, interest and lower treasury income absorbed the growth; that should reverse in FY27 on QIP treasury income.
+
+**(e) Annual-report findings (FY26 AR, BSE) [V]**
+
+- **Related-party dependence, quantified:**
+  - "Sales of goods and services" to related parties ₹2,046.6 Cr in FY26 (₹1,726.4 Cr in FY25) = **38.2% of revenue**.
+  - JSW Steel alone ₹1,664.9 Cr = **31.1%**; JSW Vijayanagar Metallics ₹138.9 Cr; JSW Energy ₹63.8 Cr; Amba River Coke ₹45.5 Cr; JSW Cement ₹44.2 Cr.
+  - **Group cargo is 52% of tonnes but ~38% of revenue**, so group realisation is roughly **₹326/t vs ~₹440/t** for non-group cargo at the ports [E, rough: related-party sales include some logistics].
+  - This is the tariff question for minorities: group cargo is cheaper per tonne. CARE notes management says Jaigarh and Dharamtar rates have not been cut in 10 years and take-or-pay agreements exist.
+- **Utilisation series** as above. CARE adds that **Jaigarh** has run at only 35–40% utilisation (ex-transhipment) for four years, limited by its hinterland and evacuation. Its non-major pricing freedom still makes it profitable.
+- **Cargo concentration:** coal, coke and iron ore = **80%** of FY26 tonnes (CARE).
+- **Major-port PPP terms:** revenue share **18–36%**, and **52.52% at one terminal**; MGT (minimum guaranteed tonnage) clauses; tariffs set by the Major Port Authority board at some terminals (CARE). This explains why JSW's blended EBITDA/t (~₹200) is far below APSEZ's (~₹447).
+- **Oman:** an SSPA (Nov-2025) with the newly incorporated Ash Shiwaymiyyah Port Co SAOC (set up by Minerals Development Oman) for "port handling of minerals effective from COD"; 27 MTPA; Dhofar Governorate; exports to South/South-East Asia and East Africa. This is a captive-like, mine-linked port, not a container play.
+- **Leverage at Mar-26 (pre-QIP):** debt/operating EBITDA 1.2×; gearing 0.59×; net debt/PBILDT 1.38× (CARE); USD 400m bonds due FY29 (principal FX exposure).
+- Promoter pledge: not found in the AR or screener [still open; screener shows no pledge flag].
+
+### 4.2.3 Gujarat Pipavav Port (GPPL · 533248)
+
+**(a) Management-guidance digest. Source: Q1 FY27 call, 13-Aug-2026 [V]. Paraphrased.**
+
+1. **FY27 guidance (new):**
+   - **EBIT growth 20–24%.**
+   - Containers ~700k TEU (+4–5%); RoRo 260–270k cars; liquids 1.3–1.4 MMT (−15 to −20%); dry bulk 2.4–2.6 MMT.
+2. **Containers:**
+   - The Middle East service **"Shaheen" (US–Jebel Ali) has been suspended since March**. It is assumed lost for all of FY27, a **70–80k TEU** hit.
+   - It is being replaced by Maersk's **FI2** service from end-June (4 calls by mid-Aug), expected to reach a similar weekly volume.
+   - Ad-hoc transhipment captured, expected for "at least the next 3–4 months". No congestion at Pipavav.
+   - **Q2 TEU +17% (192k)** is consistent with FI2 plus transhipment. Upside if Hormuz normalises and Shaheen returns.
+3. **Realisation:**
+   - Containers **₹9,500–10,000/TEU** (up from ~₹9,400), driven by a Jan-2026 tariff increase effective April in some contracts, and USD.
+   - Dry bulk ₹650–750/t; liquid ₹650–700/t.
+   - **Containers are 60–65% of revenue and priced in USD**; bulk, liquid and RoRo are in INR.
+   - No further price change expected this year.
+4. **One-offs in Q1:**
+   - Duty-benefit (SEIS) scrips of ₹31.6 Cr (FY15-16 and FY16-17), tradable and already monetised.
+   - Other one-offs (provision reversal, ad-hoc transhipment storage) ≈ **5% of revenue**.
+   - One small scrip is still pending.
+   - Ex-SEIS margin ~61%, "ability to maintain and go beyond 60%" confirmed.
+5. **Capex:**
+   - ~₹200 Cr in FY27, mainly the new **VLGC-compliant liquid jetty** (2 → ~5 MMT liquids), closing Mar-2027. Management expects to fill the extra 3 MMT over 3–5 years.
+   - The 7 km Kandla–Gorakhpur LPG pipeline spur is due by Oct-2026.
+   - Aegis is commissioning a **36,000 t ammonia tank** (Sep/Oct-2026), a new liquid stream.
+   - CRISIL puts the liquid project at **₹750–800 Cr**, funded from accruals and cash.
+6. **Concession:**
+   - On 13-Aug: "progressing positively… no red flags… nothing further to report". The GMB comfort letter followed on ~26-Aug (Part 2).
+   - The ₹17,000 Cr investment would be **GPPL's own** (not APMT's) and depends on the extension.
+   - No 3–5-year guidance until the concession is secured. Dividend policy unchanged.
+7. **Liquids history:** <1 MMT → 1.6 MMT in 3 years (+60%). Quarterly FY26 run-rate 417/388/404/383 kt. **LPG fell 63% in Q1 FY27**; US-origin LPG is now arriving.
+8. **Dry bulk:** the Q1 decline (−7%) came from limestone, a Hormuz-linked flow. Fertiliser −2%. Coal handling has been suspended for operational reasons (AR).
+
+**(b) Concall KPI table [V]**
+
+| KPI | Q1 FY27 | YoY | FY26 | FY27 guidance |
+|---|---|---|---|---|
+| Containers (TEU) | 168,659 | +3% | 668,166 (−4%) | ~700k (+4–5%); Q2 192k (+17%), H1 360k (+10%) |
+| RoRo (units) | 65,411 | +53% | 229,433 (+39%) | 260–270k (capacity 250k → NYK MoU for 500k) |
+| Dry bulk (t) | 520,478 | −7% | 2.90 MMT (+31%) | 2.4–2.6 MMT |
+| Liquid (t) | 221,180 | −47% (LPG −63%) | 1.59 MMT (+8%) | 1.3–1.4 MMT |
+| Container realisation (₹/TEU) | 9,500–10,000 | ↑ | ~9,400 | — |
+| Revenue / EBITDA (₹ Cr) | 331.8 / 214.0 | +33% / +45% | 1,158 / 708 | EBIT +20–24% |
+| Ex-SEIS revenue / EBITDA growth | +20% / +25% | | | |
+| Capex (₹ Cr) | | | | ~200 (FY27); ₹750–800 total liquid project |
+
+**(c) Five-year history (FY22–FY26), screener consolidated, ₹ Cr [V], plus volumes [V AR, BPS]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 741 | 917 | 988 | 986 | 1,158 |
+| Operating profit | 411 | 503 | 574 | 576 | 708 |
+| OPM % | 55 | 55 | 58 | 58 | 61 |
+| Other income | 30 | 35 | 31 | 99 | 114 |
+| Depreciation | 129 | 116 | 116 | 117 | 126 |
+| PAT | 197 | 313 | 342 | 397 | 515 |
+| EPS (₹) | 4.08 | 6.48 | 7.07 | 8.21 | 10.66 |
+| Dividend payout % | 98 | 94 | 103 | 100 | 98 |
+| ROCE % | 14 | 20 | 23 | 23 | 28 |
+| Containers ('000 TEU) | n/a | n/a | ~700 [primer] | 694.9 | 668.2 |
+| Dry bulk (MMT) | | | | 2.21 | 2.90 |
+| Liquid (MMT) | | | <1.0 (3 yrs ago) | 1.46 | 1.59 |
+| RoRo ('000 units) | | | | 165.0 | 229.4 |
+| Pipavav port tonnage (MT, GMB/BPS) | 10.33 | 11.46 | 12.94 | 13.93 | ~14.1 [E] |
+| Waterfront royalty (₹ Cr) | | | | 37.7 | 45.1 |
+| Cash & bank (₹ Cr, year-end) | | | | 1,049 | 676 |
+
+FY22–26 CAGR [E]: revenue 11.8%, OP 14.6%, PAT 27.1%.
+
+**Cash fell ₹373 Cr in FY26:** CFO ₹510 Cr, against dividends ~₹464 Cr (CRISIL) and capex on the liquid berth (CWIP 83 → 286). With ~₹500–600 Cr still to spend on the liquid berth and ~100% payout, **cash could fall toward ~₹300–400 Cr by Mar-27** unless the payout eases [E].
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr) [V]**
+
+| Quarter | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 227 | 263 | 252 | 250 | 299 | 292 | 317 | 332 |
+| Operating profit | 133 | 139 | 157 | 147 | 178 | 160 | 223 | 214 |
+| OPM % | 58 | 53 | 62 | 59 | 59 | 55 | 70 | 64 |
+| Other income | 25 | 25 | 23 | 25 | 70 | 19 | 0 | 17 |
+| PAT | 75 | 99 | 112 | 104 | 161 | 108 | 142 | 148 |
+| Revenue YoY % | −10.3 | −2.6 | +0.4 | +1.6 | +31.7 | +11.0 | +25.8 | +32.8 |
+
+Q4 FY26 (70% OPM) and Q1 FY27 (64%) both contain duty-benefit scrips: ₹49.6 Cr booked across FY26 and ₹31.6 Cr in Q1 FY27. **The clean margin is ~60–61%** (CRISIL range 59–61%).
+
+**(e) Annual-report findings (FY26 AR, BSE) [V]**
+
+- **Revenue:**
+  - Revenue from operations ₹1,158.4 Cr (+17.5%). Port services ₹1,025.7 Cr (+12.2%); other operating income ₹132.7 Cr, which includes **duty-benefit scrips of ₹49.6 Cr** and land sub-lease rentals.
+  - Excluding scrips, FY26 revenue grew ~12.4% [E].
+- **Waterfront royalty to GMB:** ₹45.1 Cr = **3.9% of revenue**. This is the number the renewal will reset; Jefferies' "<5%" is consistent.
+- **Concession handback:** at expiry, all contracted assets **vest in GMB at Depreciated Replacement Value (DRV)**, computed at the expiry date (not determinable now). Assets are depreciated "after taking into consideration likely extension".
+  - Writer: without an extension, GPPL is **paid DRV for the assets**. Equity does not go to zero. That puts a floor under the "renewal option" framing in Part 1 B1 (₹136 of the ₹157 share price).
+- **Cash and debt:** cash ₹93.07m + bank balances ₹6,666.17m = **₹675.9 Cr**; "does not have any fund based facility outstanding". CRISIL: net worth >₹2,150 Cr, interest cover ~114×, TOL/TNW 0.27.
+- **Capacities:** containers 1.35m TEU; bulk 4 MMT; liquid 2 MMT; RoRo 250k cars.
+  - FY26 utilisation [E]: containers ~49%; bulk ~73%; liquid ~80%; RoRo ~92%.
+  - **RoRo and liquids are near capacity.** This is why the liquid berth and the NYK RoRo MoU (500k cars a year) come first.
+- **Container weakness explained (AR):** containers −4% on suspended Middle East exports and "vessel schedule unreliability", against **west-coast ports +9% (19.04m TEU vs 17.5m)**. GPPL lost ~13 pp of relative growth in FY26.
+- **Dry bulk +31%** on fertiliser.
+- **Customer concentration:** Maersk Line ~17% of FY26 revenue (CRISIL).
+- **Associate:** Pipavav Railway Corp (38.8%) "requires equity infusion" (AR). The dividend policy cites PRCL funding needs, a small claim on cash.
+- **Investment plan:** a non-binding ₹17,000 Cr MoU with GMB, subject to long-term extension (containers, liquid, RoRo). The Part 2 figure of ₹3,320 Cr is not in the AR; use ₹17,000 Cr.
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**A. India port cargo, FY19–FY26 (million tonnes).** Source: MoPSW Basic Port Statistics 2024-25 [V] for FY19–FY25; MoPSW March-2026 PDFs [V-prior] for FY26. Replaces Part 1 §2.1 and E-1.
+
+| Year | Major | YoY % | Non-major | YoY % | All-India | YoY % | Major share % |
+|---|---|---|---|---|---|---|---|
+| FY19 | 699.17 | +2.9 | 582.61 | +10.1 | 1,281.78 | +6.1 [E: FY18 1,208.56] | 54.5 |
+| FY20 | 704.93 | +0.8 | 615.05 | +5.6 | 1,319.97 | +3.0 | 53.4 |
+| FY21 | 672.68 | −4.6 | 577.30 | −6.1 | 1,249.99 | −5.3 | 53.8 |
+| FY22 | 720.05 | +7.0 | 603.75 | +4.6 | 1,323.80 | +5.9 | 54.4 |
+| FY23 | 784.31 | +8.9 | 651.02 | +7.8 | 1,435.32 | +8.4 | 54.6 |
+| FY24 | 819.29 | +4.5 | 723.59 | +11.1 | 1,542.88 | +7.5 | 53.1 |
+| FY25 | 854.86 | +4.3 | 742.41 | +2.6 | 1,597.27 | +3.5 | 53.5 |
+| FY26 | 914.73 | +7.0 | 753.07 | +1.4 | 1,667.80 | +4.4 | 54.8 |
+| H1 FY27 | 472.75 | +8.07 | 377.90 | +0.95 | 850.65 | +4.8 [E] | 55.6 |
+
+- CAGR FY19–FY26 [E]: all-India 3.8%; major 3.9%; non-major 3.8%. FY21–FY26 [E]: all-India 5.9%, matching CARE's "~6% CAGR for all India ports".
+- **Non-majors outgrew majors in FY19 and FY24 and have lagged since.** FY25 +2.6%, FY26 +1.4%, H1 FY27 +0.95%. This coincides with Mundra's FY26 decline and the West Asia shock.
+
+**B. Commodity mix, major vs non-major, FY19 → FY25 (MT)** [V BPS Tables 8 and 16]
+
+| Commodity | Major FY19 | Major FY25 | CAGR [E] | Non-major FY19 | Non-major FY25 | CAGR [E] |
+|---|---|---|---|---|---|---|
+| POL (crude & products) | 220.95 | 234.36 | 1.0% | 191.75 | 173.40 | −1.7% |
+| Coal (thermal + coking) | 137.48 | 150.16 | 1.5% | 171.10 | 204.54 | 3.0% |
+| Iron ore | 38.81 | 49.32 | 4.1% | 44.82 | 67.41 | 7.0% |
+| Fertiliser + FRM | 15.42 | 20.08 | 4.5% | 16.22 | 12.20 | −4.6% |
+| Food grains | 0.80 | 5.71 | — | — | — | — |
+| Building material | — | — | — | 16.16 | 13.22 | −3.3% |
+| Others (incl. containers) | 285.72 | 395.23 | 5.6% | 142.56 | 271.64 | 11.3% |
+| **Total** | **699.17** | **854.86** | **3.4%** | **582.61** | **742.41** | **4.1%** |
+
+- Major-port containers ('000 TEU): FY20 9,892; FY21 9,610; FY22 11,225; FY23 11,425; FY24 12,311; **FY25 13,594**; FY26 14,920 [V-prior] (container tonnes 146.9 → 193.5 Mt FY20–FY25) [V BPS].
+- **The growth engine since FY19 is "others", mainly containers.** POL tonnage at non-majors has shrunk, partly because Sikka is flat. Note that Part 1 §2.2's FY26 split uses MoPSW's newer classification (coal split three ways), so FY26 is not directly comparable with this table.
+
+**C. Gujarat non-major ports, select (MT)** [V BPS Table 19, GMB data]. New dataset; answers part of §H-11.
+
+| Port | FY19 | FY22 | FY23 | FY24 | FY25 | Share of GMB FY25 |
+|---|---|---|---|---|---|---|
+| GAPL (Mundra, APSEZ) | 130.13 | 144.21 | 146.06 | 172.50 | 199.54 | 40.9% |
+| Sikka (Reliance Jamnagar captive SPMs/jetties) | 128.09 | 127.98 | 128.44 | 127.81 | 136.24 | 27.9% |
+| Dahej (incl. APSEZ Dahej, Petronet LNG, others) | 34.06 | 31.68 | 34.16 | 36.01 | 36.08 | 7.4% |
+| Magdalla/Hazira (incl. APSEZ Hazira) | 33.06 | 32.47 | 30.66 | 35.15 | 35.00 | 7.2% |
+| Pipavav (incl. GPPL) | 10.39 | 10.33 | 11.46 | 12.94 | 13.93 | 2.9% |
+| Jafarabad | 6.00 | 2.65 | 4.95 | 6.35 | 6.52 | 1.3% |
+| Others | 57.47 | 56.07 | 60.63 | 58.49 | 60.42 | 12.4% |
+| **GMB total** | **399.20** | **405.39** | **416.36** | **449.25** | **487.73** | 100% |
+
+- **Reliance's Sikka = 136 MT in FY25 ≈ 8.5% of all-India tonnage.** This replaces Part 1's "~100+ MMT [K]".
+- **Nayara's Vadinar is not a non-major port.** It sits within **Deendayal (Kandla) Port Authority**, so its crude is counted in major-port tonnage (BPS port directory lists Vadinar under Deendayal). This partly explains Deendayal's large POL share. A Nayara-specific tonnage was not sourced.
+- BPS FY25 GAPL 199.54 vs APSEZ's Mundra 200.7: the small difference is likely the Mundra (Old)/SEZ jetty classification.
+
+**D. Major-port capacity and utilisation (MTPA)** [V BPS Table 1.6; E utilisation]
+
+| | FY19 | FY20 | FY21 | FY22 | FY23 | FY24 | FY25 |
+|---|---|---|---|---|---|---|---|
+| Capacity | 1,514.09 | 1,534.91 | 1,560.61 | 1,597.59 | 1,617.39 | 1,629.86 | 1,680.94 |
+| Traffic | 699.17 | 704.93 | 672.68 | 720.05 | 784.31 | 819.29 | 854.86 |
+| Utilisation % [E] | 46.2 | 45.9 | 43.1 | 45.1 | 48.5 | 50.3 | 50.9 |
+
+- FY25 port-wise capacity: Deendayal 295.77; Paradip 289.75; Vizag 154.71; JNPA 145.87; Chennai 136.00; VOC 123.46; NMPA 114.96; Kamarajar 97.00; SMP Kolkata 93.02; Mumbai 86.50; Cochin 80.50; Mormugao 63.40.
+- FY25 utilisation: SMP 68.8%, Paradip 51.9%, Vizag 53.4%, Kamarajar 49.9% [V Table 10].
+- **All-India capacity 2,762 MMTPA vs 1,668 MMT traffic ≈ 60% utilised** [V PIB; E]. **Aggregate nameplate is not the constraint**; deep-draft container berths and evacuation are (as Part 1 argued).
+
+**E. Monthly monitor: MoPSW September 2026** [V]
+
+| | Sep-26 | YoY | Apr–Sep FY27 | YoY |
+|---|---|---|---|---|
+| Major ports total (MMT) | 82.39 | +12.65% | 472.75 | +8.07% |
+| — overseas / coastal | 63.10 / 19.29 | +10.4% / +20.8% | 358.82 / 113.93 | +6.1% / +14.9% |
+| Non-major total (MMT) | 64.49 | −0.90% | 377.90 | +0.95% |
+| — overseas / coastal | 51.88 / 12.61 | −2.3% / +5.1% | 304.66 / 73.25 | −1.2% / +10.8% |
+| Major containers (m TEU) | 1.448 | +20.8% | 8.171 | +11.98% |
+| Non-major containers (m TEU) | 0.963 | +2.85% | 5.650 | +5.61% |
+| **All-India containers (m TEU) [E]** | 2.411 | +12.9% | **13.82** | **+9.3%** |
+| Major POL crude (MMT) | 20.23 | +40.1% | 94.32 | +7.65% |
+| Major LPG/LNG (MMT) | 1.24 | −28.8% | 7.09 | −20.9% |
+| Non-major thermal coal (MMT) | 4.66 | −27.0% | 41.17 | +56.2% |
+| Non-major other coal (MMT) | 7.11 | +11.4% | 36.94 | −30.5% |
+| Non-major LPG/LNG (MMT) | 2.41 | +7.7% | 13.65 | +7.8% |
+
+**Major ports, Apr–Sep FY27 by port (MMT, YoY):** Deendayal 94.33 (+26.85%); Paradip 75.96 (−1.06%); JNPA 56.26 (+13.36%); Vizag 46.14 (+7.08%); Mumbai 36.65 (+4.26%); SMP Kolkata 34.75 (+4.30%); Chennai 28.20 (−4.29%); Kamarajar 25.99 (+8.99%); NMPA 24.18 (+6.94%); VOC 22.11 (+4.36%); Cochin 18.63 (+0.02%); Mormugao 9.53 (+1.87%).
+- **Deendayal and JNPA delivered ~75% of the major-port increase.** Deendayal alone added 6.32 MMT in September (68% of the month's increase).
+
+**Non-major by board, Apr–Sep FY27 (MMT, YoY):** GMB 243.80 (+1.98%); AP 58.52 (−4.63%); MMB 36.15 (+8.08%); Odisha 26.24 (+1.91%); Puducherry 6.01 (−22.82%); TN 5.85 (+2.13%); Karnataka 0.38; Goa 0.13; **Kerala 0.028**.
+- **Reading:**
+  - (i) The **US Sec-301 tariff did not stop the container recovery.** September major-port TEU was +20.8%, after July's +0.35% in tonnes (Part 1).
+  - (ii) The **energy mix is shifting from "other coal" to thermal coal and crude.** This favours Mundra and Dhamra; it hurt Krishnapatnam and Karaikal in Q1.
+  - (iii) **AP non-majors (Krishnapatnam, Gangavaram, Kakinada, Rawa) are falling (−4.6%)**, consistent with APSEZ's south-coast weakness.
+
+**F. Policy numbers, verified** [V PIB]
+
+| Item | Value | Date/source |
+|---|---|---|
+| Shipbuilding & maritime package | ₹69,725 Cr: SBFAS ₹24,736 Cr (to 31-Mar-2036; incl. ₹4,001 Cr shipbreaking credit note) + MDF ₹25,000 Cr (MIF ₹20,000 Cr with 49% GoI + IIF ₹5,000 Cr) + SbDS ₹19,989 Cr; target 4.5m GT; ~30 lakh jobs; ~₹4.5 lakh Cr investment | PIB 24-Sep-2025 |
+| India port capacity | 1,400 MMTPA (2014) → **2,762 MMTPA** (2025) | PIB 26-Oct-2025 |
+| Cargo | 972 MMT (FY14) → 1,594 MMT (FY25, PIB rounding; BPS 1,597.27) | PIB |
+| Average vessel turnaround | 93 h → **48 h** | PIB |
+| MIV 2030 investment | ₹3–3.5 lakh Cr | PIB |
+| Maritime Amrit Kaal Vision 2047 | ~₹80 lakh Cr; 300+ initiatives | PIB |
+| Sagarmala | 840 projects, ₹5.8 lakh Cr by 2035; 272 completed (₹1.41 lakh Cr); 217 in progress (₹1.65 lakh Cr) | PIB |
+| Vadhavan | ₹76,220 Cr incl. land; **298 MMTPA incl. ~23.2m TEU**; 9 container terminals × 1,000 m; 1,448 ha reclamation; 10.14 km breakwater; SPV VPPL (JNPA 74% / MMB 26%); approved 19-Jun-2024 (reconfirmed in Lok Sabha reply, 4-Aug-2026) | PIB PRID 2026695, 2294245 |
+| Bahuda (Odisha) greenfield | 150 MTPA, ~₹21,500 Cr (MoU, Sep-2025) | PIB 26-Oct-2025 |
+| Major-port finances | Revenue ₹24,855 Cr, expenditure ₹16,065 Cr in FY25 (FY20: ₹16,249 / ₹11,838 Cr) | BPS 2024-25 |
+| Indian Ports Act 2025 | Act 27 of 2025 (21-Aug-2025); in force 1-Apr-2026, S.O. 1499(E) [V-snip]; Jan Vishwas amendments 1-Jul-2026, S.O. 3270(E) [V-snip] | gazette via aggregator |
+
+**G. Global peers (prices 23-Oct-2026)** [V-agg stockanalysis.com; DP World V-snip]. Replaces Part 1 §10 rows. Indian rows from Part 2/§4.0.
+
+| Company | Listing | P/E TTM | P/E fwd | EV/EBITDA | EBITDA margin | Div. yield | P/B | Scale note |
+|---|---|---|---|---|---|---|---|---|
+| APSEZ | NSE | 29.5 | — | ~19.2 (FY26) / ~18.4 (TTM) [E] | 59–60% | 0.44% | 4.1 | 500.8 MMT FY26; ~16m TEU/yr group [E] |
+| JSW Infra | NSE | 47.5 | — | ~27 [E] | 49% | 0.28% | ~4.2 (Jun-26 NW) | 122 MT |
+| GPPL | NSE | 14.0 | — | **9.8 (FY26) / 9.0 (TTM) [E, on ₹676 Cr cash]** | 61% | 6.6% | 3.2 | ~14 MMT; 0.67m TEU |
+| ICTSI | PSE | 24.6 | 20.9 | 14.3 | 62.2% | 2.2% | — | revenue PHP 224 bn TTM |
+| Westports | Bursa | 18.3 | 17.4 | 12.7 | 52.8% | 3.1% | — | revenue MYR 3.9 bn |
+| China Merchants Port | HKEX | 10.1 | 8.8 | 8.2 | 52.8% | 4.6% | 0.51 | associate-heavy |
+| COSCO Shipping Ports | HKEX | 8.2 | 7.9 | 7.3 | 30.5% | 4.3% | 0.38 | associate-heavy |
+| DP World | unlisted equity | — | — | — | 26.3% (adj., 2025) | — | — | 93.4m TEU gross; revenue US$24.4 bn; ROCE 9.9% |
+
+- **Read:** APSEZ trades at **~1.3× ICTSI's EV/EBITDA** and roughly 2.3–2.6× the Chinese state port groups.
+- **GPPL at ~9–10× EV/EBITDA sits between Westports and CMPort**, cheap against single-country peers until the concession is renewed.
+- JSW at ~27× has no listed peer analogue.
+- **DP World's 26% margin is a logistics-mix effect.** Do not compare it with APSEZ's port margin.
+
+**H. JSW and APSEZ utilisation series (chart pair)** [V]
+- JSW utilisation %: FY21 35.2 · FY22 38.4 · FY23 56.9 · FY24 61.1 · FY25 63.9 · FY26 62.3.
+- APSEZ domestic utilisation [E: domestic cargo ÷ year-end capacity] FY26 451/653 ≈ 69%. Mundra containers at **~94%** in peak months (CEO).
+- GPPL FY26 utilisation [E]: containers 49%; dry bulk 73%; liquid 80%; RoRo 92%.
+
+---
+
+## 4.4 Gap log — status of every Part 1 §H item and the extra chase list
+
+| # | Gap (Part 1 §H / brief) | Status | Result / what was tried |
+|---|---|---|---|
+| H-1 | APSEZ FY26 domestic vs international split | **FILLED** | 451.0 + 49.8 = 500.8 MMT; FY22–FY25 split too; Mundra 192.0 [V AR; V Q4 call] |
+| H-2 | All-India cargo FY19–FY24; major vs non-major by commodity | **FILLED** | BPS 2024-25 series and commodity tables (§4.3 A–B) [V] |
+| H-3 | Non-major Apr–Sep FY27; major H1 FY27 | **FILLED** | Major 472.75 (+8.07%); non-major 377.90 (+0.95%) [V MoPSW Sep-2026] |
+| H-4 | Vizhinjam tonnage reporting channel | **PARTLY FILLED** | Confirmed **absent** from the non-major tables: Kerala Maritime Board H1 FY27 total = 0.028 MMT, against Vizhinjam's 5.2 MMT in Q1 alone [V]. BPS 2024-25's port list does include "Vizhinjam/Kovalam" under Kerala with no traffic. Vizhinjam International Seaport Ltd (Kerala govt) is the concession authority; its throughput appears to be **outside the PDMP non-major series**, so all-India totals likely **understate** cargo by ~20 MMT a year [E]. Not confirmed by MoPSW text |
+| H-5 | GPPL total tonnage, segment revenue split, cash, EV/EBITDA | **FILLED (split estimated)** | Tonnage FY25 13.93 MT [V BPS]; cash ₹675.9 Cr [V AR]; EV/EBITDA 9.8× / 9.0× [E]. Segment split: no IndAS-108 segments ("one segment"). Management: **containers 60–65% of revenue** [V call]. Estimate FY26 [E]: containers ~₹630–670 Cr (668k TEU × ₹9,400–10,000); dry bulk ~₹190–220 Cr (2.90 MMT × ₹650–750); liquid ~₹105 Cr (1.59 × ₹650–700); RoRo + other port services ~₹40–100 Cr (residual of ₹1,026 Cr port services); other operating income ₹133 Cr (incl. ₹50 Cr scrips) |
+| H-6 | JSW utilisation series; FY21–22 third-party % | **MOSTLY FILLED** | Utilisation FY21–FY26 [V AR]; third-party FY23 33% [V CARE]. FY21–FY22 third-party still unsourced (would need the 2023 RHP, not fetched) |
+| H-7 | OFAC: which entity; was APSEZ party? | **FILLED** | Adani Enterprises Ltd; US$275m; APSEZ not named [V OFAC]. APSEZ AR: company not named in DOJ/SEC [V] |
+| H-8 | Indian Ports Act 2025 commencement and rules | **PARTLY FILLED** | In force 1-Apr-2026 (S.O. 1499(E)) [V-snip gazette summary]; Jan Vishwas amendment provisions 1-Jul-2026 (S.O. 3270(E)) [V-snip]. Rules date not found; e-gazette PDF not fetched |
+| H-9 | MDF ₹25,000 Cr; shipbuilding package ₹69,725 Cr | **FILLED** | PIB 24-Sep-2025 [V] |
+| H-10 | Global peer multiples | **FILLED (aggregator)** | stockanalysis.com for ICTSI, Westports, CMPort, COSCO [V-agg]; DP World FY2025 [V-snip]. Company IR not fetched |
+| H-11 | Reliance/Nayara captive volumes; DP World/PSA India shares | **PARTLY FILLED** | Sikka (Reliance) 136.24 MT FY25 [V BPS]; Vadinar sits inside Deendayal (major), so not separately reported [V BPS directory]. DP World/PSA India TEU shares still open: only PSA BMCT 2.687m TEU FY26 [V-snip, Part 1] |
+| H-12 | Conflicts (a)–(f) | **Resolved/updated** | (a) use 914.73; (c) use company 31,079 in APSEZ prose; (d) 653 MMT confirmed by AR and CARE; (e) QIP closed by 30-Jun (CFO: "as of 30th June the QIP proceeds have come in"; CARE: "In June 2026"); (f) EPS basis unchanged (FLAG remains) |
+| X-1 | APSEZ pledge % | **FILLED** | Nil (SHP 30-Jun-2026; CARE Mar-26) [V] |
+| X-2 | APSEZ FY27 capex guidance | **FILLED** | ₹12–14k Cr (Q4 call) [V] |
+| X-3 | Reason for the 2-pp promoter drop | **FILLED** | 4-May-2026 block sale of 1.99% to Capital Group [V-snip Outlook Business] |
+| X-4 | Oman subsidiary purpose (APSEZ "Indian Ocean Gateway Terminal", 21-Oct-2026) | **OPEN** | Not in the fetched documents. Context: APSEZ's CEO said it targets east–west trade-route assets outside the Gulf and prefers brownfield [V]; JSW is building outside Hormuz at Ash Shiwaymiyyah [V]. Do not speculate in print |
+| X-5 | MSC–Vizhinjam closed? | **FILLED (not closed)** | Pending CCI and Kerala approval; Kerala objects to the process [V call; V-snip] |
+| X-6 | JSW pledge % | **OPEN** | Not in AR/screener; BSE shareholding API blocked (403) |
+| X-7 | JSW Oman terms | **FILLED (partial)** | SSPA Nov-2025 with an MDO-created SAOC; minerals handling from COD; concession agreement pending [V AR; V call]. Equity %, tenure and capex not disclosed |
+| X-8 | GMB comfort letter; concession-extension framework | **PARTLY FILLED** | Comfort letter [V-prior BusinessToday]. Before the letter, GPPL said "no red flags" (13-Aug) [V]. CRISIL: renewal applied for, a monitorable [V]. GPPL AR: DRV handback if not renewed [V]. APSEZ: "talks are positive" [V]. No published Gujarat framework (no PIB/GMB document found) |
+| X-9 | APSEZ EBITDA/t; FY27 volume, revenue and EBITDA guidance; FY31 targets | **FILLED** | FY27: revenue ₹43–45k Cr, EBITDA ₹25–26k Cr; **no FY27 cargo guidance published** (the Q1 deck has none; Q4 deck shows the FY26 guidance-vs-actual track record) [V]. FY31: EBITDA ₹52,000 Cr, 1 bn t capacity, 850 MMT domestic by 2030 (excl. M&A), capex ₹90k–1 lakh Cr [V-prior deck; reconfirmed on Q4 call]. EBITDA/t remains our [E] (₹447 domestic, Q1 FY27) |
+| X-10 | S&P BBB upgrade | **CONFIRMED** | Q1 FY27 deck and call: S&P to BBB from BBB- on issuer and senior unsecured notes, at par with the sovereign [V] |
+| X-11 | JSW FY27 guidance; 186 → 300 → 400 | **CONFIRMED** | Operating EBITDA ₹3,000 Cr (FY27) and ₹5,000 Cr (FY28) reaffirmed 21-Jul; 300 MTPA FY28; 400 MTPA "by FY30 or earlier"; FY27 cargo ~127 MT [V]. Operating revenue ₹6,850 Cr comes from the Aug deck [V-prior] |
+| X-12 | Any Q2 FY27 result released? | **No** (as of 25-Oct) | Boards 27-Oct (JSW), 28-Oct (APSEZ), 4-Nov (GPPL). APSEZ H1 operating data used [V-snip] |
+| X-13 | Great Nicobar ICTP status | **OPEN (unchanged)** | Not re-fetched; keep Part 1 [V-snip] wording |
+
+---
+
+## 4.5 New insights and primer issues
+
+### 4.5.1 Insights the first pass missed (for the writer)
+
+1. **APSEZ's FY26 growth came from everywhere except Mundra.**
+   - Mundra's tonnage **fell 4.3% to 192 MMT** in FY26 while non-Mundra domestic ports rose ~13% and international cargo jumped from 19.6 to 49.8 MMT.
+   - Causes: Tata Power's Mundra plant (imported coal) was down for most of the year, and the Middle East shock hit Morbi-linked EXIM.
+   - **The asset with the 2031 concession cliff is now 38% of group cargo (66% in FY19).** That is a hedge against the renewal outcome, but Mundra still earns ~30% of domestic-port EBITDA (Q1 FY27 cluster data) and Mundra containers run at ~94% in peak months.
+2. **The concession question has a floor at Pipavav.**
+   - GPPL's AR states that if the concession ends, assets **vest in GMB at Depreciated Replacement Value**. A non-renewal is a cash buy-out, not a write-off.
+   - The renewal's real variable is the **royalty**, today only **3.9% of revenue (₹45 Cr)**.
+   - Every 1 pp of revenue taken as royalty costs ~₹12 Cr of EBITDA (~1.6% of FY26 OP) [E]. A move to a major-port-style **18–36% revenue share** (JSW's PPP terms, per CARE) would cut GPPL's EBITDA by ~23–50% [E]. That is the bear case the market is pricing with a ~9–10× EV/EBITDA.
+   - APSEZ said Pipavav's terms will come first and "inform" Mundra's.
+3. **JSW's captive cargo is cheaper per tonne. This was not quantified before.**
+   - Related-party revenue is **38% of revenue for 52% of tonnes**, implying group cargo realises roughly **0.7× the per-tonne rate of third-party cargo** [E].
+   - Upside: third-party growth lifts EBITDA/t.
+   - Downside: CARE expects the group share to **rise again** as Dharamtar, Jaigarh and the slurry pipeline (all JSW Steel-linked) come on stream. Blended EBITDA/t may stall near ~₹200 even as tonnes jump.
+   - Jaigarh, the largest owned port, runs at only **35–40% utilisation**.
+4. **JSW's earnings bridge in FY27 is mostly below EBITDA.**
+   - PAT has been stuck at ₹360–520 Cr a quarter for eight quarters despite +44% revenue.
+   - FY27 swings: ~₹6,555 Cr of QIP cash earning treasury income (at ~7% ≈ ₹400+ Cr a year pre-tax [E]); Fujairah insurance (resolution expected by end-Oct); Fujairah's partial return (₹100–125 Cr EBITDA in guidance); rising depreciation as ~114 MTPA commissions by Mar-2027.
+   - **Watch Q2 (27-Oct) for the treasury-income step-up.**
+5. **The West Asia shock reshuffled India's port mix rather than shrinking it.**
+   - H1 FY27 all-India +4.8%, with majors +8.1% and non-majors +1.0%.
+   - Major-port crude +7.7% (September +40%); thermal coal +14% at majors and +56% at non-majors; "other coal" −18% / −30%.
+   - LPG/LNG at majors −21%, but at non-majors +8%: LPG moved to private Gujarat terminals as US-origin cargo replaced Gulf supply.
+   - **All-India containers +9.3% in H1 (13.8m TEU)** despite the US Sec-301 tariff. Transhipment overflow (Mundra 27% transhipment; GPPL ad-hoc calls) inflated container counts in Q1–Q2. Expect some give-back when Gulf hubs normalise.
+6. **The Adani legal overhang is now formally separated from APSEZ.**
+   - OFAC's US$275m settlement is with **Adani Enterprises** over Iran-origin LPG purchases (Nov-2023 to Jun-2025).
+   - APSEZ's own AR says the company was "not named" in the DOJ/SEC case.
+   - Residual APSEZ-specific governance items: related-party acquisitions from the promoter (**NQXT at A$3.98 bn EV**, paid in APSEZ shares) and the 4-May-2026 promoter block sale (1.99% to Capital Group).
+   - **No pledge on promoter shares.**
+7. **Vizhinjam is a political, not just a commercial, closing risk.**
+   - MSC's US$1.397 bn needs Kerala's prior written consent (a ≥25% transfer is a change of ownership under the 2015 concession).
+   - ~US$858m of it is reportedly tied to finishing the expansion by Dec-2028. That deadline also earns a 20-year concession extension (to 2080).
+   - **Do not book the cash in FY27 net-debt arithmetic.**
+8. **Capacity is not the national bottleneck; deep water and specific terminals are.**
+   - India has 2,762 MMTPA of nameplate capacity for ~1,668 MMT of traffic (~60%). Major ports run at ~51%.
+   - Yet Mundra containers (~94% peak), GPPL RoRo (~92%) and liquids (~80%), JSW Kolkata (~90%) and Colombo/Vizhinjam are full.
+   - The investable story is **berth-specific scarcity** plus evacuation (rail rakes: JSW 42 → 80+ → 250; APSEZ 132 rakes), not aggregate tonnage.
+
+### 4.5.2 New primer issues (append to primer-issues.md)
+
+**adani-ports.html**
+- **FY26 cargo split and Mundra decline missing:** add FY26 domestic 451.0 MMT + international 49.8 MMT (500.8 total); **Mundra 192.0 MMT, −4.3% YoY**; Mundra share of group cargo 66% (FY19) → 38% (FY26) [AR; CARE]. Any "Mundra keeps growing" phrasing is wrong for FY26. (§04/§05)
+- **Legal section (beyond §3.4's fix):** state that the **OFAC US$275m settlement (18-May-2026) was with Adani Enterprises**, not APSEZ, and that APSEZ's FY26 AR says the company "has not been named" in the US DOJ/SEC matters. (§08)
+- **NQXT terms:** EV **A$3.98 bn** (equity A$3.16 bn + ~A$0.82 bn net debt), acquired from a promoter entity for shares (+~2.13 pp promoter stake) [CARE]. (§07)
+- **Promoter stake change explained:** 68.02% → 66.03% came from a **4-May-2026 block sale (1.99%, ₹7,486 Cr) to Capital Group**. Pledge is **nil**. (§09)
+- **Mundra concession nuance:** CT-1/CT-3/CT-4 sub-concessions are co-terminus to 16-Feb-2031; the West Basin coal facility has a GoG-approved period to 2040, but the supplementary agreement is unsigned [AR]. (§05)
+- **FY27 capex:** ₹12–14k Cr is confirmed by the Q4 FY26 call; FY26 capex was ₹15,320 Cr against ₹11–12k guidance. (§10)
+- **Vizhinjam–MSC:** add the conditions (CCI, Kerala prior approval; Kerala objection) and the reported US$539m + US$858m structure. (§05/§11)
+- **Market share basis:** use **27.1% (FY26)**, 27.6% (Q1 FY27); container share 46% (FY26), 44.8% (Q1 FY27). (cover)
+
+**jsw-infrastructure.html**
+- **Related-party revenue:** add ₹2,047 Cr = **38% of FY26 revenue** (JSW Steel ₹1,665 Cr, 31%) against ~52% of tonnes, so group cargo realises less per tonne [AR]. (§03/§08)
+- **Utilisation series:** FY21 35.2% → FY26 62.3%; **Jaigarh only 35–40% utilised** [AR; CARE]. (§04)
+- **Third-party history:** FY23 33% (group 67%) per CARE, then 40/49/48; CARE expects the group share to rise as JSW Steel-linked capacity commissions. (§03 chart)
+- **FY27 cargo guidance ~127 MT**; Fujairah 3 of 15 tanks damaged, partial restart, insurance claim (resolution ~end-Oct-2026). (§10)
+- **Capex:** FY27–28 ₹16,500 Cr confirmed by the CFO; CARE FY27–30 ₹28–29k Cr (greenfield 53%). (§10)
+- **Major-port PPP revenue shares 18–36% (one terminal 52.52%) with MGT clauses** — explains the margin gap vs APSEZ [CARE]. (§06)
+- **Oman status:** SSPA Nov-2025; concession agreement not yet signed as of 21-Jul-2026. The primer must not say "signed". (§04)
+- **Moody's Baa3** (upgraded from Ba1) and CARE AA+ reaffirmed 14-Oct-2026. (§08)
+
+**gujarat-pipavav-port.html**
+- **Concession handback at Depreciated Replacement Value** if not renewed [AR policy 2.10]. Add to §06 and the valuation discussion: non-renewal ≠ zero.
+- **Royalty is quantified:** waterfront royalty ₹45.1 Cr = **3.9% of revenue** (FY26). (§06)
+- **Cash ₹676 Cr (Mar-26), debt-free;** cash fell from ₹1,049 Cr as the liquid-berth capex (₹750–800 Cr, CRISIL) and ~100% payout ran together. Flag the payout's sustainability through FY27. (§08/§09)
+- **Capacities:** bulk 4 MMT, liquid 2 → ~5 MMT (Mar-2027), RoRo 250k cars (92% used in FY26); NYK MoU for 500k cars. (§02/§05)
+- **FY27 guidance:** EBIT +20–24%; ~700k TEU; RoRo 260–270k; liquids 1.3–1.4 MMT; bulk 2.4–2.6 MMT. Shaheen service lost (70–80k TEU), replaced by Maersk FI2. (§05)
+- **Revenue mix:** containers 60–65% of revenue, USD-priced (₹9,500–10,000/TEU); Maersk ~17% of revenue [call; CRISIL]. (§03)
+- **FY26 containers underperformed the coast:** −4% vs west-coast ports +9% (19.04m TEU) [AR]. (§04)
+
+### 4.5.3 Source list for Part 4 (fetched 25-Oct-2026 unless marked)
+
+- **APSEZ:**
+  - Q1 FY27 transcript: https://www.adaniports.com/-/media/project/ports/investor/transcripts/transcript.pdf
+  - Q4 FY26 transcript: https://www.adaniports.com/-/media/project/ports/investor/transcripts/apsez-q4fy26-earnings-conference-call_transcript.pdf
+  - Q1 FY27 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28ee5493-d5bf-4bba-b34e-7b5022c6d663.pdf
+  - Q4 FY26 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=872a9876-e6af-4d7c-964a-3ccacf26f2d4.pdf
+  - FY26 Integrated AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/aaa81a60-9ae5-42c6-870c-2abb13d032bb.pdf
+  - SHP 30-Jun-2026: https://www.adaniports.com/-/media/project/ports/investor/corporate-governance/shareholding-pattern/apsez_shp-30062026_website.pdf
+  - GQG Reg 29(2): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=DD4E84ED_5624_40B4_A4A1_7CF909BD5C90_110656.pdf
+  - CARE Jul-2026: https://www.careratings.com/upload/CompanyFiles/PR/202607120701_Adani_Ports_and_Special_Economic_Zone_Limited.pdf
+- **JSW Infra:**
+  - Q1 FY27 transcript: https://jswin.s3.ap-south-1.amazonaws.com/jswinfrastructure/uploads/2026/07/Infra-call-transcript-Q1FY2027.pdf
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/77e85723-ca95-4eda-a81e-66332f915730.pdf
+  - CARE 14-Oct-2026: https://www.careratings.com/upload/CompanyFiles/PR/202610141057_JSW_Infrastructure_Limited.pdf
+- **GPPL:**
+  - Q1 FY27 transcript: https://cms-cd.apmterminals.com/pipavav/-/media/mainsite/asia-and-pacific/Pipavav/investors-quarterly-results/fy-2027/q-1-fy-2027/Transcript.pdf
+  - FY26 AR: https://www.bseindia.com/xml-data/corpfiling/AttachHis/85eb5206-2c76-4b1d-bd19-d727368c4a9a.pdf
+  - CRISIL 10-Aug-2026: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/GujaratPipavavPortLimited_August%2010_%202026_RR_402332.html
+- **Screener** (re-parsed): https://www.screener.in/company/ADANIPORTS/consolidated/ · /JSWINFRA/consolidated/ · /GPPL/consolidated/
+- **MoPSW:**
+  - Major ports Sep 2026: https://shipmin.gov.in/sites/default/files/Cargo%20handled%20at%20Major%20Ports%20Sep%202026.pdf
+  - Non-major ports Sep 2026: https://shipmin.gov.in/sites/default/files/Cargo%20handled%20at%20Non-Major%20Ports%20Sep%202026.pdf
+  - Basic Port Statistics 2024-25: https://www.shipmin.gov.in/sites/default/files/BPS%202024-25_compressed.pdf
+  - File index: https://shipmin.gov.in/division/transport-research
+- **PIB:**
+  - https://www.pib.gov.in/PressReleasePage.aspx?PRID=2170573 (package, 24-Sep-2025)
+  - https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251026676201.pdf (Maritime India backgrounder)
+  - https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2026695 (Vadhavan, 19-Jun-2024)
+  - https://www.pib.gov.in/PressReleasePage.aspx?PRID=2294245 (Maharashtra ports, 4-Aug-2026)
+- **OFAC:** https://ofac.treasury.gov/recent-actions/20260518
+- **Aggregator / secondary:**
+  - stockanalysis.com statistics pages (PSE:ICT, KLSE:WPRTS, HKG:0144, HKG:1199)
+  - Outlook Business, 5-May-2026 (APSEZ promoter block sale)
+  - Onmanorama, 4-Jul-2026 (Vizhinjam–MSC conditions)
+  - Maritime Gateway, 3-Oct-2026 (APSEZ H1 FY27 cargo)
+  - simpliance.in (Indian Ports Act S.O. 1499(E), S.O. 3270(E))
+  - DP World FY2025 results coverage (multimodal.org.uk / Baird Maritime)
+- Scratch notes for this pass: /tmp/ports-deep/notes.md
+
+*End of Part 4.*
+
+---
+
+## Orchestrator re-check of aggregates (25-Oct-2026, after Part 4 Supersedes)
+- Financial aggregates (§3.1/§3.2a–b) re-added from the company rows: All three FY26 rev 45,255 / FY25 35,937 (+25.9%) / OP 26,180 (57.8%) / PAT 14,844 / m-cap 4,73,516 (31.9×); ex-APSEZ 6,519 / 5,462 / 3,312 / 2,062 / 81,221 (39.4×); APSEZ+JSW 44,097 / 34,951 / 25,472 / 14,329 / 4,65,923 (32.5×); APSEZ+GPPL 39,894 / 31,461 / 23,576 / 13,297 / 3,99,888 (30.1×). All correct; Part 4 changes no financial row.
+- §3.2(c) volumes under Supersedes #1/#4/#14: trio Indian tonnes ≈ 451.0 + 115 + ~14 = ~580 MMT = 34.8% of 1,667.8 MMT (not ~590 / ~35%).
+- §3.2(d) net debt under Supersedes #12: 44,348 (APSEZ, Jun-26) − 2,769 (JSW net cash, Jun-26) − 676 (GPPL cash, Mar-26, no debt) = **₹40,903 Cr trio net debt ≈ 1.56× FY26 trio OP** (mixed dates: state "Jun-26; GPPL Mar-26").
