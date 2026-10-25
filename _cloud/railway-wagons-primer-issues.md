@@ -1,0 +1,62 @@
+# Railway Wagons — primer issues
+
+### From Railway Wagons research (2026-10-25, railway-wagons-industry.md §3.4)
+
+- **titagarh-rail-systems.html — FY26 revenue headline wrong:**
+  - The cover stat strip, the "What's new" box and §11 say "~₹3,868 Cr Revenue (FY26)". **₹3,868 Cr is FY25**; **FY26 is ₹3,186 Cr** (screener consolidated; four quarters 679 + 799 + 832 + 875; company segment sum 2,615 + 539 + 32).
+  - Fix the "Order book ≈ seven years of FY26 revenue" device: SA ₹14,240 Cr ÷ ₹3,186 Cr ≈ 4.5×; the total ₹27,540 Cr ÷ ₹3,186 Cr ≈ 8.6× (Arihant uses 8.6×).
+  - The primer's own segment numbers are right and should drive the headline.
+- **titagarh-rail-systems.html — EBITDA overstated:** "~₹430 Cr (~11%)". Screener OP is ₹331 Cr (10.4%); the company quarterly EBITDA sum is ₹348 Cr (10.9%). The primer implied ₹430 Cr from 11% × the wrong revenue.
+- **titagarh-rail-systems.html — Firema is obsolete:**
+  - §02, §03, §08 and the bull case treat Firema as a live "acquired technology moat" and an integration risk.
+  - Titagarh **fully exited Firema (sold to Italian State Railways/FS)** around FY26 [Arihant Q4 FY26 note].
+  - Pune aluminium sub-assemblies (formerly Firema flat packs) are being in-sourced; the line will be ready by Q1 FY28.
+  - Rewrite: the technology now sits in India, plus the in-house propulsion programme (EMU/MEMU; traction motors).
+- **titagarh-rail-systems.html — order book composition not explained:** ₹27,540 Cr includes ~₹13,300 Cr of JV orders (VB–BHEL share ₹7,000 Cr; RKFL wheel JV ₹6,300 Cr). The wheel-JV portion will never be revenue. Show standalone (₹13,335 Cr at Jun-26) separately.
+- **titagarh-rail-systems.html — cash flow:** "Free cash flow was positive in FY26 (~₹380 Cr)" contradicts "capex ~₹368 Cr". Screener: CFO ₹322 Cr, FCF −₹45 Cr. Net debt "~₹93 Cr" vs screener ₹27 Cr (₹306 Cr ex-investments) — state the basis.
+- **titagarh-rail-systems.html — valuation stale:** m-cap ~₹11,560 Cr → **₹8,934 Cr**; P/E ~77× → **46.0× TTM** (~73× on FY26 reported ₹123 Cr); price ₹663.
+- **titagarh-rail-systems.html — omissions:**
+  - The **Ramkrishna Titagarh Rail Wheels JV (49%; 2.2–2.28 lakh wheels; 20-year IR offtake of 80,000/yr; ~₹1 lakh/wheel; trials Aug-26)**.
+  - Titagarh Naval Systems WOS and the Falta yard (₹610 Cr, 25% subsidy).
+  - The Wagon Leasing Company licence (Feb-26).
+  - Car counts (12 FY25 → 63 FY26 → 200 FY27 target; 850 by FY30).
+  - Q1 FY27 (revenue ₹765 Cr, PAT ₹53 Cr, PRS 30%, 1,284 wagons).
+  - The MRVC tender cancellation.
+  - The Q2 FY27 board date (29-Oct-26).
+- **titagarh-rail-systems.html — timeline:** IPO listed as 2010; Titagarh Wagons listed in **2008** [K — verify]. "2018–2021… acquires and develops a shipbuilding arm" is vague; check the dates.
+- **titagarh-rail-systems.html — Vande Bharat value:** "consortium contract worth close to ₹24,000 Cr" — say that Titagarh's share in the order book is ~₹7,000 Cr and that it receives ~51% of car value on supply. The AMC is in a JV and is equity-accounted.
+- **jupiter-wagons.html — net cash claim wrong:**
+  - "Net debt is negative… net-debt-to-equity around −0.08" / "net-cash balance sheet".
+  - **Mar-26: borrowings ₹996 Cr (doubled from ₹502 Cr), cash ₹442 Cr, investments ₹236 Cr ⇒ net debt ₹318 Cr**.
+  - FY26 CFO ₹9 Cr; FCF −₹524 Cr; inventory days 188; CCC 213.
+  - Remove "the company can afford to be wrong for a year… net cash" or requalify it.
+- **jupiter-wagons.html — "income" vs revenue:** FY26 "₹2,961 Cr" / FY25 "₹4,008 Cr" are total income. Revenue from operations is ₹2,916 Cr / ₹3,963 Cr (−26.4%). EBITDA ₹363 Cr vs screener OP ₹354 Cr.
+- **jupiter-wagons.html — wheel venture outdated:**
+  - "Wheelset joint venture" — JTRWF became **100%-owned** (Q1 FY27), then **Lucchini RS + SIMEST agreed to take 25% for ~₹290 Cr**.
+  - Add the **Odisha (Khordha) forged wheel-and-axle plant: ₹2,600 Cr, 1 lakh wheelsets, axle line FY27, wheel line FY28, revenue target ₹2,500–3,000 Cr, ≥15% EBITDA, 50% export**.
+  - The existing Aurangabad plant imports black forged wheels.
+- **jupiter-wagons.html — omissions:**
+  - **Stone India** (freight brakes RDSO-approved; production from Jul-26).
+  - **BESS business** (~500 MW / >₹500 Cr book; WB 100 MW/400 MWh BOO; target ₹1,000 Cr FY27).
+  - The **PESA (Poland) passenger MoU (23-Oct-26)**.
+  - The Jul-2024 ₹800 Cr QIP at ₹655.5 (the stock is now ₹173).
+  - Q1 FY27 (revenue ₹671 Cr, EBITDA 10%, PAT ₹26 Cr, 1,141 wagons, ₹41.5 lakh realisation, ~80% of the wagon book private, ~7,000 wagons pending).
+- **jupiter-wagons.html — valuation stale:** m-cap ~₹11,100 Cr → **₹7,410 Cr**; P/E ~65× → **41.6×**; the stock is at its 52-week low (₹171–173).
+- **texmaco-rail.html — ₹700 Cr provision mischaracterised:**
+  - The primer calls it "a material charge" and says to check "how it flows through reported versus underlying profit".
+  - Per the company (Q4 FY26 call, 13-May-26) it was **created from free reserves, not the P&L**, has **no cash impact**, and the audit qualification is **solely because it bypassed the P&L**. Moneylife: ₹494 Cr general reserve + ₹206 Cr retained earnings.
+  - FY26 PAT of ₹194 Cr is unaffected. Book value and ROE are affected.
+  - Rewrite the audit-flag box accordingly.
+- **texmaco-rail.html — EBITDA basis:** "₹450 Cr (10.3%)" includes other income (screener OP ₹391 Cr = 8.9%). Say so wherever margins are compared with peers.
+- **texmaco-rail.html — order book and mix out of date (refreshed 30-Aug):**
+  - Order book ₹9,923 Cr at Jun-26 (not ₹5,408 Cr), including **South Africa ~₹4,100 Cr** (wagons ~₹2,000 Cr+, 15-year maintenance 30–35%, locos to follow) and Cameroon.
+  - The freight-car book is **96.4% private + export** — the "one-buyer dependence" framing needs updating.
+- **texmaco-rail.html — omissions:**
+  - **TrinityRail joining Texmaco Touax** (stake 50% → 34%; ~₹1,800 Cr for ~100 rakes).
+  - The **Wabtec JV** (air brakes, condition monitoring, bogie IP); Texmaco Nymwag (tank wagons); Saira Asia (interiors).
+  - FY26 wagon count **8,372** (Q4 2,196; Q1 FY27 1,054); foundry 34,000 t.
+  - Bright Power FY26 ₹610 Cr (+66%, EBIT 10.8%).
+  - US-tariff impact on its US business; net debt ₹444 Cr (ND/E 0.18).
+- **texmaco-rail.html — odd phrasing:** "India's largest wagon-maker after Jindal Rail" (in the value-chain box) contradicts the headline "India's biggest wagon-maker" and the fact that Jindal Rail is now Texmaco West. Fix to "India's largest wagon-maker (including the ex-Jindal Rail unit)".
+- **texmaco-rail.html — valuation stale:** m-cap ~₹4,450 Cr → **₹4,008 Cr**; P/E ~20× → **18.5×**.
+- **All three primers — the "wheelset" story should cite the IR mandate.** Wheelsets for IR-ordered wagons must come from IR's RWF/RWP. Private and export orders can import. That is why FY26 hit IR-heavy books hardest (Titagarh, Texmaco) and why the private-order pivot also eases the wheel constraint.
