@@ -1017,3 +1017,601 @@ All aggregates are **straight sums of the company rows above on one basis** (scr
   - SANY India: https://themachinemaker.com/news/sany-india-set-to-boost-exports-by-30-in-2025/
   - Escorts Kubota CE volumes: https://www.autocarpro.in/news/escorts-kubota-tractor-sales-rise-19-percent-in-august-2026-construction-equipment-up-16-percent-134376
 - **Sibling reports reused [V-sib]:** subsectors/civil-construction.html (Union capex, NH km, metro), coal.html (coal output), tractors.html (Escorts CE, GST/TREM), railway-wagons.html (rail capex, rolling stock), aerospace-defence.html (defence production).
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (25-Oct-2026)
+
+Second, primary-source pass for the writer. It covers ~60 web calls on 25-Oct-2026 (Sunday). Where Part 4 conflicts with Parts 1–3, **Part 4 wins** unless a row says otherwise. Tags follow the Part 1 conventions. **[V]** here means fetched and read this session from the named document. "Primary" means a company filing, a rating-agency rationale, a government or Budget document, or official trade statistics.
+
+**Primary documents read this session (full text extracted with pdftotext and read in slices):**
+
+| # | Document | Date | Where |
+|---|---|---|---|
+| P1 | BEML Q1 FY27 earnings-call transcript (Elara) | call 13-Aug-2026 | bemlindia.in/wp-content/uploads/2026/08/InvestorsCall-ElaraSec-BEML-Aug13-2026.pdf |
+| P2 | BEML investor-meet presentation | 10-Jun-2026 | BSE filing (AnnPdfOpen …9a50370d-8d7d-4e83-a4bb-a4b7d9e64d8c.pdf) |
+| P3 | BEML investor-meet transcript | meet 10-Jun-2026, filed 16-Jun-2026 | BSE (…65efdcc5-1d39-4b8d-ae3c-10781cafefb5.pdf) |
+| P4 | BEML 62nd Annual Report FY2025-26 (standalone and consolidated statements, Directors' Report, MD&A, notes) | filed 3-Sep-2026; accounts dated 29-May-2026 | BSE (…806b7adc-754b-4676-a319-3faff84e3e0f.pdf) |
+| P5 | CareEdge rating rationale, BEML (AA-/Stable/A1+ reaffirmed) | 28-Jul-2026 | careratings.com/upload/CompanyFiles/PR/202607120729_Beml_Limited.pdf |
+| P6 | ACE Q1 FY27 earnings presentation | 20-Jul-2026 | BSE (…cde0cacd-dc6a-4498-8f52-0265ef5a35e8.pdf) |
+| P7 | ACE Q1 FY27 earnings-call transcript (Anand Rathi) | filed 24-Jul-2026 | BSE (…94835795-c073-4d0d-8373-b8e45971e71e.pdf) |
+| P8 | ACE Annual Report FY2025-26 (consolidated segment note, Directors' Report, MD&A, contingent liabilities) | filed 24-Aug-2026 | BSE (…4292123c-7a4c-4823-abb8-a7edd4c0f398.pdf) |
+| P9 | Screener consolidated pages, BEML and ACE (12-year P&L, 13 quarters, cash flow, ratios, document list) | pulled 25-Oct-2026 15:20 UTC | screener.in/company/BEML/consolidated/ · /ACE/consolidated/ |
+| G1 | Union Budget 2026-27, *Budget at a Glance* (capex and effective-capex tables, trend chart) | 1-Feb-2026 | indiabudget.gov.in/doc/Budget_at_Glance/budget_at_a_glance.pdf |
+| G2 | DGCI&S/Commerce TradeStat, "Commodity × country-wise import", China P RP, HS 8426/8427/8429/8430/8431 and 6-digit sub-heads, US$ mn, FY22–FY26 | queried 25-Oct-2026 | tradestat.commerce.gov.in/eidb/commodityx_countries_wise_import |
+| G3 | GST Council 56th meeting press release with rate annexures | 3-Sep-2025 | gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau_0.pdf |
+| G4 | CBIC press release on GST rate changes (178 items 28% → 18% from 15-Nov-2017) | 16-Nov-2017 | cbic-gst.gov.in/pdf/press-release/CBEC_Press_Release_dt_16.11.2017after_on_GST%20Rate_Changes.pdf |
+| G5 | Ministry of Coal / PIB, captive and commercial production FY26 | 2-Apr-2026 | coal.nic.in/sites/default/files/2026-04/Press020426.pdf |
+| X1 | Caterpillar Q4/FY2025 results release | 29-Jan-2026 | investors.caterpillar.com (news-details/2026) |
+| X2 | Komatsu consolidated results, FY ended 31-Mar-2026 | 28-Apr-2026 | komatsu.jp/en/newsroom/2026/20260428_1 |
+
+**Secondary sources used for corroboration** (tagged [V-snip] or [V-sec]):
+- ICEMA data as reproduced by NBM&CW, mojo4industry and Business Standard.
+- The GSAS India note listing the CEV gazette notifications, and a Tribune report on the CMV (Eleventh Amendment) Rules 2026.
+- Autocar Pro (Escorts Kubota Q1 FY27 commentary).
+- SANY's 2025 results press release and the Volvo CE and Deere results, as summarised in search results.
+
+**Could not be reached:**
+- icemaindia.in (proxy 502).
+- hitachicm.com results PDF (403).
+- Business Standard (403).
+- The MoRTH notifications page (JavaScript only).
+- The GST notification 9/2025 schedule text.
+- dgtr.gov.in final findings (not surfaced by search).
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Part 1–3 location | Old value / claim | New value / claim | Source (tag) |
+|---|---|---|---|---|
+| S1 | Macro line (header), §7.2, §8 FY26 bullet, §G item 19, §A.2, §B1, §C.3, §3.4 "General" | "GST 2.0: construction machinery HS 8429 moved **28% → 18%**"; "a 10-point GST cut… roughly offsetting the Stage V price step"; BHL example "GST 28% → 18%, ~₹44.8 lakh → ~₹41.3 lakh"; the primer issue "add GST 2.0 (28% → 18%)" for ACE | **Wrong.** Bulldozers, excavators, loaders, road rollers, earth-moving machinery and "fork lifts, lifting and handling equipment" (i.e. HS 8426/8427/8429/8430) went **28% → 18% on 15-Nov-2017** (G4). They were already at 18% and stayed at 18% in GST 2.0. The 56th Council's 28% → 18% list contains no 8426/8427/8429/8430 entry (G3). What GST 2.0 *did* cut for CE: **HS 8704 goods vehicles (incl. dumpers/rear-dump trucks 8704 10), 8408 diesel engines, 8409 engine parts, 4011 tyres, 8708 parts and 2523 cement, all 28% → 18%**; tractors and agri machinery 12% → 5% (G3). So GST 2.0 was an **input-cost and dumper-price** event, not a demand offset for backhoe loaders, excavators or cranes. The BHL worked example should use 18% both before and after. Delete the "GST offset" reasoning. | G3, G4 [V] |
+| S2 | Trap 9, §2.1 table, §H.3 | FY26 exports "+31.5–32% (implied ~23,766)"; the domestic/export split "is not consistent" | **Reconciled.** ICEMA's total counts **domestic + OEM exports + "unauthorised" (non-OEM) exports**: ICEMA's own 9M FY26 release defines the total as "domestic, OEM exports, unauthorised exports" (mojo4industry, 12-Jan-2026); NBM&CW's FY26 text says domestic demand "excluding non-OEM exports". FY26: domestic **1,13,229 (−6.7%)** + OEM exports **17,394 (+31.5%)** + non-OEM exports **~6,372** [E residual] = 1,36,995. FY25: 1,21,301 + 13,230 + ~5,660 = 1,40,191. The FY25 release's "domestic 1,26,961" is total minus OEM exports, i.e. it still contained the non-OEM exports. | Business Standard headline 8-May-2026 [V-snip]; NBM&CW [V-snip]; mojo4industry [V-snip]; arithmetic [E] |
+| S3 | Trap 1, §2.2, §2.1 trap, 2.1 "Segment revenue" KPI, §E.9, JSON | BEML FY26 segment revenue "M&C ~1,784 / Def ~1,523 / R&M ~1,044 Cr; FY25 ~2,172 / ~1,086 / ~764 [E]" | **Company figures (₹ Cr): FY26 M&C 1,789 / Defence 1,522 / R&M 1,040; FY25 2,179 / 1,083 / 760.** Full FY22–FY26 series in §4.2. FY26 growth: M&C −18%, Def +41%, R&M +37% (CARE). | P2 [V]; P5 [V] |
+| S4 | Trap 1, §B2, §E.9, 2.1 KPI table, §H.9 | Order-book mix "~68% R&M / 25% Def / 7% M&C (Q3 FY26, psuconnect)" | **Mar-26 (₹15,896 Cr): R&M ~71% (₹11,320 Cr), Defence ~24% (₹3,734 Cr), M&C ~5% (₹842 Cr)** (CARE). **Jun/Aug-26 (management): Rail & Metro 65%, Defence 25%, Mining 4%, Exports 6%.** Note that management now shows exports as a separate bucket. | P5 [V]; P1, P3 [V] |
+| S5 | §0, trap 1, §6, §B2, §C.4, 2.1 guidance, 3.4 | "~₹80 Cr provision for a metro project restart" as the FY26 margin explanation | **The FY26 hit was ~₹250 Cr of one-offs** (CARE; CMD): a "one-time correction in two projects" (foreign-currency metro contracts, one taken in 2018 at $1 = ₹60, without a price-variation clause) plus a one-time gratuity provision under the new labour codes. P&L note: **provision for onerous contracts ₹232.6 Cr (FY25 ₹20.0 Cr)**; liquidated damages & other recoveries ₹67.9 Cr (₹18.5 Cr). CARE PBILDT margin 4.52% (10.60%). The ₹80 Cr was only the Q3 piece. | P4, P5, P3 [V] |
+| S6 | §4.2(b) BEML cost composite | Materials "~58–62", employee "~16–19", other "~13–17" per ₹100 [E] | **FY26 standalone, per ₹100 of revenue from operations (₹4,350.5 Cr):** materials consumed 53.3 (₹2,319.8 Cr) and inventory change −0.5; **employee 19.2 (₹835.1 Cr)**; other expenses 21.5 (₹936.6 Cr, incl. onerous provision 5.3 and LDs 1.6); finance 1.0; D&A 1.9; other income +0.6; PBT 4.6; PAT 3.4 (₹147.5 Cr). Employees **4,923** (Mar-26; 4,755 Mar-25), ~₹17 lakh cost per head [E]. | P4 [V] |
+| S7 | §2.0 peer table, Part 2 conventions, 2.4 #5, JSON `cash:null` | "BEML's cash balance is not shown on screener" — EV on a gross basis | **Standalone cash & equivalents ₹6.7 Cr + other bank balances ₹1.3 Cr (31-Mar-26)**; short-term borrowings ₹292.0 Cr (₹218.5 Cr); **no long-term debt**. Net debt ≈ **₹284 Cr** [E], so the gross-basis EV in Part 2 is effectively right. Trade receivables ₹2,274.4 Cr + **contract assets ₹715.5 Cr** = ~251 days of revenue [E]. Current provisions ₹532.6 Cr (₹258.7 Cr). CARE: gearing 0.53×, total debt/PBILDT 7.99× (2.50×), interest cover 3.69× (6.61×). | P4, P5 [V] |
+| S8 | §0, §A.5, §C.2, 2.1 guidance, 3.3, 3.4, JSON | FY27 guidance "revenue +30%; EBITDA 13–14%; order inflow ₹20,000 Cr" | **Aug-2026 call:** revenue growth "high 20s if all goes well"; EBITDA "back to at least 13%"; inflow "we will try for ₹20,000 Cr… with around 30–40% probability". **Jun-2026 meet:** "sustainable" EBITDA ~16%; break-even revenue ~₹4,000 Cr; FY27 opened with ₹5,500 Cr executable book. Present ₹20,000 Cr as an aspiration, not guidance. | P1, P3 [V] |
+| S9 | §C.2, 2.1 KPIs, JSON | Opening OB Mar-25 "≈ ₹14,807 Cr [E]"; FY26 inflow "~₹5,440 Cr [primer]"; book-to-bill 1.25× | **OB Mar-25 ₹14,610 Cr** (CARE; AR) → implied FY26 inflow **~₹5,637 Cr**, book-to-bill **~1.30×** [E]. OB history (₹ Cr): FY22 8,570; FY23 9,192; FY24 11,872; FY25 14,610; FY26 15,896. | P2, P4, P5 [V]; [E] |
+| S10 | Header thread 2, §G item 11, 2.1, 3.4 | BEML Land Assets "listing c. 2023 [K]"; "incorporated 2021" | **MCA order dated 28-Jul-2022 approved the demerger scheme; appointed date 25-Aug-2022.** The surplus land was vested at book value. The CMD said BLAL was listed "some three years back" (Aug-2026). The exact listing date was not fetched. **New:** BEML leases back ~300 acres (Mysuru) + 36 acres (Bengaluru) from BLAL on 99-year leases, reviewable within five years. Lease rent paid FY26 ₹0.98 Cr; inter-corporate loan to BLAL ₹11.9 Cr. | P4, P1 [V] |
+| S11 | Part 2 ACE "Anomaly"; 2.4 #9 | Screener dividend payout 137–139% "[FLAG — do not quote]" | **Resolved: FY26 final dividend ₹2.00/share (100% of FV ₹2) → ~5.7% payout of EPS ₹34.86.** No buyback (AR). The screener figure is a data error. | P8 [V] |
+| S12 | Trap 7, §C.1, 2.2 KPIs, JSON | CMCE FY26 ">₹2,946 Cr"; segment result ₹548 Cr; agri ~₹251 Cr at ~1% | **AR segment note (₹ Cr, FY26 vs FY25):** CMCE **2,953.16 (3,097.09; −4.6%)**, result after D&A **550.38 (566.14) = 18.6% (18.3%)**; Agri gross 262.24 / external **250.73** (246.96 / 229.96), result **2.53 (8.58)**; Others 76.55, result 19.62. MD&A table rounds these to 2,946 / 251 / 77. Agri materials = **87% of agri revenue**. | P8 [V] |
+| S13 | 2.2 Q1 FY27; 2.4 #7 | CMCE ₹742.4 Cr / agri ₹45.7 Cr (ICICI) vs ₹738.37 / ₹42.67 Cr (transcript) | **Use the company's ₹738.37 Cr (CMCE, consolidated) and ₹42.67 Cr (agri);** CMCE result ₹134.09 Cr (18.2%), agri result ₹4.34 Cr. The ICICI figures appear to include inter-segment and other lines. | P7 [V] |
+| S14 | Header thread 3, §B4, 2.2 guidance, §12 | KATO JV "finalised May-2026"; consolidation "[FLAG]" | **ACE KATO Pvt Ltd: JV agreement and incorporation 11-Mar-2026; ACE infused initial capital 19-Apr-2026; not consolidated in FY26; shareholding "to be restructured to 50:50".** Total investment ~₹200 Cr: KATO ₹100 Cr in cash, ACE ₹100 Cr in kind (models, technology, infrastructure). ACE's **truck, crawler and rough-terrain crane business transfers into the JV**. No royalty on Indian models; ~3% royalty on net selling price only for KATO-design export models (priced ~2× Indian). JV revenue from Q3 FY27; meaningful from FY28. Treat it as a 50:50 joint venture, likely equity-accounted [E — FLAG to confirm in Q2 notes]. | P8, P7, P6 [V] |
+| S15 | §3.1 table, §E.4, stat-strip cell 2 | FY25 capex "~10.2–10.5 lakh Cr"; FY26 "BE 11.21"; FY27 BE "~+9%" | **FY25 actual ₹10,51,953 Cr; FY26 BE ₹11,21,090 Cr but RE ₹10,95,755 Cr (+4.2% YoY — the weakest growth since FY20); FY27 BE ₹12,21,821 Cr (+11.5% vs FY26 RE; +9.0% vs FY26 BE).** Effective capex: FY25 A ₹13.25 lakh Cr; FY26 RE ₹14.04 lakh Cr; FY27 BE ₹17.15 lakh Cr. | G1 [V] |
+| S16 | Trap 10, §7.1, §B1, §12, §G.15, §H.4 | "Stage V phased in by power band from Jan-2025; >56 kW from 1-Oct-2026 [single report]"; ICRA "1-Jul-2025" | **CEV Stage V applies from 1-Jan-2025 to all power bands (one date).** GSR 163(E) of 7-Mar-2024 was the only deferral (1-Apr-2024 → 1-Jan-2025). GSR 542(E) of 30-Jun-2026 (CMV Eleventh Amendment Rules 2026, in force 1-Jul-2026) restated it unchanged. The **1-Oct-2026** dates are (a) **TREM Stage V for tractors** (most bands) and (b) the **in-service emission-monitoring** trigger for CEVs made after 1-Oct-2026. The Tribune's ">56 kW CEV from Oct-2026" conflates the two. ICRA's "1-Jul-2025" most likely marks the end of the six-month registration grace for pre-2025 stock under GSR 800(E) (2021) [E]. Gazette text not fetched → [V-sec]. | GSAS India note citing gazette [V-sec]; Tribune 3-Jul-2026 [V-snip] |
+| S17 | §5.3, §H.6, §B4 | "China-specific import values… NOT sourced — do not quote" | **Now sourced (TradeStat, US$ mn, FY26):** cranes 8426 from China **740.6** (71% of 1,042); 8429 **239.8** (47% of 511); 8427 forklifts **168.1** (66% of 256); 8430 **258.1** (53% of 486); CE parts 8431 **998.4** (51% of 1,974). Series in §4.3. | G2 [V] |
+| S18 | §3.6, §4.3, 2.2 | Tower-crane capacity "950–1,000" | **"About 1,000 cranes now"** after re-arrangements and a small rented unit. A new tower-crane plant 4–5 km away was planned; the decision was deferred to September because of the war. | P7 [V] |
+| S19 | §B1, §7.1 | "~60% of India's crane market is old-generation Hydra" | **FY25: Hydra 60–65% / new-generation (NG) 30–35%; FY26: Hydra "a little less than 60%" / NG ">40%"; FY27E back to ~60/40; ~50/50 in 2–3 years.** NG–Hydra price gap ~30–35%. ACE's own mix is ~60/40, and it says it has led NG "for the last 2 years". | P7 [V] |
+| S20 | §0, 2.1 | BEML "R&D ₹251 Cr (+150%)" read as pure R&D | R&D revenue expenditure (net) ₹213.0 Cr + R&D capex ₹38.3 Cr. The revenue spend **includes ~₹100 Cr of prototype cost of sales**: 5RS DM ₹46.5 Cr, VB sleeper ₹44.7 Cr, HSR design ₹21.2 Cr, others. **Prototypes sold were worth ₹137.8 Cr.** Part of the "R&D jump" is accounting for paid development contracts. | P4 [V] |
+| S21 | §3.7 | BEML exports "small" | **FY26 exports ₹176.5 Cr (physical ₹75.5 Cr + deemed ₹101.0 Cr) vs ₹298.8 Cr in FY25.** Export order book a record **US$107 m** at Mar-26 (Africa rolling stock ~$60 m, West Asia mining $37 m, CIS/SE Asia $10 m), **US$115–119 m** by Jul/Aug-26, target ~US$200 m by Mar-27. First metro export order. | P4, P2, P1 [V] |
+| S22 | §2.1 Q1 FY26 row | Exports "+34%" | **Q1 FY26: total 28,687; domestic 24,809; exports 3,878 (+34.5%)** | NBM&CW via search [V-snip] |
+| S23 | 2.1 Native KPIs; trap 6 | BEML FY26 EBITDA "company Q4 15.1%"; FY25 13% | **Company EBITDA (gross margin) ₹ Cr / % of revenue:** FY22 321 / 7.40; FY23 389 / 9.97; FY24 486 / 11.98; FY25 531 / 13.20; **FY26 328 / 7.54**. Company ROCE 6% (12%). Use screener OP for consistency, and note the company basis. | P2 [V] |
+| S24 | §3.4, §B2 | Mining order delay attributed to MDO only | Management also blames an **"unusually long and shifted monsoon"** for the lack of CIL ordering in FY26, and contract finalisations deferred where BEML is L1 (~₹900 Cr). **~80% of BEML mining equipment goes to CIL and its subsidiaries.** | P3, P1 [V] |
+| S25 | Header, 2.1 | Stock split not mentioned | **BEML split shares FV ₹10 → ₹5 on 3-Nov-2025.** FY26 dividend **₹17.087/share = 342% of FV** (interim ₹2.50, second interim ₹2.30, final ₹12.28 recommended 7-Aug-2026) → ~100% payout (screener 101% confirmed). | P2, P4 [V] |
+| S26 | 2.2 Native KPIs | ACE exports/defence share | **Q1 FY27: exports ~3%, defence ~5% of revenue.** FY27 target exports ≥6–7%, defence 5–6% (≥₹200 Cr "+10–15%"); end-markets FY27E: manufacturing & logistics 40–45%, infra & construction 40–45% (incl. real estate 10–12%), agri 6–7%. Presentation split: Mfg & logistics ~45%, infra ~35%, real estate ~13%, agri ~7%. **Data centres ~1.5–2% of revenue.** | P7, P6 [V] |
+
+
+## 4.1 Verification table — 40 figures the writer will use
+
+"Primary?" = Y when fetched this session from a company filing, rating rationale, government/Budget document or official trade statistics. "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Primary source (fetched?) | Primary? | Agrees with Parts 1–3? / note |
+|---|---|---|---|---|---|
+| 1 | BEML FY26 revenue from operations | ₹4,351 Cr (+8.18%); standalone ₹4,350.5 Cr | P4 Directors' Report and P&L (Y); P9 | Y | Yes |
+| 2 | BEML FY26 PAT | Consolidated ₹141.18 Cr (CARE); standalone ₹147.5 Cr (AR); FY25 ₹292.5 / ₹294.2 Cr | P5, P4 (Y) | Y | Yes — resolves the "₹148 Cr" as standalone |
+| 3 | BEML FY26 EBITDA, company basis | ₹328 Cr, 7.54% (FY25 ₹531 Cr, 13.20%) | P2 (Y) | Y | Consistent with screener OP ₹299 Cr / 6.9% (different basis); confirms FY25 was ~13%, not 25.6% |
+| 4 | BEML FY26 CARE PBILDT margin | 4.52% (FY25 10.60%) on TOI ₹4,236 Cr | P5 (Y) | Y | New; a third basis — state the basis whenever a margin is quoted |
+| 5 | BEML FY26 one-time hit | ~₹250 Cr (two projects + gratuity); onerous-contract provision ₹232.6 Cr | P5, P3, P4 (Y) | Y | **No** — supersedes "~₹80 Cr" (S5) |
+| 6 | BEML M&C revenue FY26 | ₹1,789 Cr (41%); FY25 ₹2,179 Cr (54%) | P2 (Y); mix confirmed P5 | Y | Close to the E (₹1,784 Cr); now exact |
+| 7 | BEML Defence revenue FY26 | ₹1,522 Cr (35%); FY25 ₹1,083 Cr | P2 (Y) | Y | Yes (E was ₹1,523 Cr) |
+| 8 | BEML Rail & Metro revenue FY26 | ₹1,040 Cr (24%); FY25 ₹760 Cr | P2 (Y) | Y | Yes (E was ₹1,044 Cr) |
+| 9 | BEML "Earth Moving Equipment" product sales | ₹758.3 Cr (FY25 ₹1,167.6 Cr, −35%); spares ₹870.3 Cr; servicing ₹131.2 Cr | P4 note 30 (Y) | Y | New — the machine business fell much faster than the M&C segment |
+| 10 | BEML order book 31-Mar-26 | ₹15,896 Cr (3.75× TOI); Mar-25 ₹14,610 Cr | P4, P5, P2 (Y) | Y | Yes; Mar-25 base new |
+| 11 | BEML OB mix 31-Mar-26 | R&M ₹11,320 Cr (~71%) / Def ₹3,734 Cr (~24%) / M&C ₹842 Cr (~5%) | P5 (Y) | Y | **Differs** from the Q3 FY26 68/25/7 (S4) |
+| 12 | BEML OB 30-Jun-26 and mix | ~₹16,284 Cr ("a little more than ₹16,000 Cr"); R&M 65 / Def 25 / Mining 4 / Exports 6 | P1 (Y); Q1 press release (Part 2 [V]) | Y | Yes for value; mix new |
+| 13 | BEML Q1 FY27 segment growth | R&M +178%, Def +25%, M&C −14%; revenue +29% | P1 (Y) | Y | Yes — upgrades the "[V-snip quartr]" tag |
+| 14 | BEML FY27 guidance | Revenue growth "high 20s"; EBITDA "at least 13%"; inflow ₹20,000 Cr at "30–40% probability" | P1 (Y) | Y | **Softer** than Part 2 (S8) |
+| 15 | BEML employee cost and headcount | ₹835.1 Cr = 19.2% of revenue; 4,923 employees | P4 (Y) | Y | Replaces E (S6) |
+| 16 | BEML material cost | ₹2,319.8 Cr = 53.3% of revenue (FY25 50.6%) | P4 (Y) | Y | Replaces E "58–62" |
+| 17 | BEML cash and debt, 31-Mar-26 | Cash ₹6.7 Cr; ST borrowings ₹292.0 Cr; no LT debt | P4 (Y) | Y | Fills the gap (S7) |
+| 18 | BEML receivables + contract assets | ₹2,274.4 Cr + ₹715.5 Cr; CARE receivable days incl. contract assets 224 (200) | P4, P5 (Y) | Y | Consistent with screener 191 debtor days (excl. contract assets) |
+| 19 | BEML capex | FY26 ₹379 Cr; FY27 plan ₹600+ Cr; Bhopal ~₹900 Cr Phase 1 spread over 2–3 years, debt-funded | P2, P1, P5 (Y) | Y | Yes; FY27 plan new |
+| 20 | GoI stake in BEML | 54.03% (30-Jun-2026; unchanged Mar-25 → Mar-26) | P5, P2 (Y) | Y | Yes |
+| 21 | BEML disinvestment status | "In-principle approval… currently no progress" | P5 (Y) | Y | Yes ("dormant") |
+| 22 | ACE FY26 revenue from operations | ₹3,280.44 Cr (consolidated) | P8 (Y) | Y | Yes |
+| 23 | ACE CMCE FY26 revenue and result | ₹2,953.16 Cr; result ₹550.38 Cr (18.6%) | P8 (Y) | Y | Yes on margin; revenue refined (S12) |
+| 24 | ACE agri FY26 | Revenue ₹262.24 Cr gross / ₹250.73 Cr external; result ₹2.53 Cr | P8 (Y) | Y | Yes ("~1%") |
+| 25 | ACE FY26 PAT | ₹415.10 Cr consolidated; PBT ₹556.71 Cr | P8 (Y) | Y | Yes |
+| 26 | ACE CMCE volumes by quarter | Q1 FY26 2,337; Q4 FY26 3,458; Q1 FY27 2,740 (+17.25%) | P6, P7 (Y) | Y | Yes — upgrades [V-snip] |
+| 27 | ACE CMCE FY26 volume | 10,853 (−19%) | Systematix note (not re-fetched) | N | Plausible: ₹2,953 Cr ÷ 10,853 = ₹27.2 lakh vs Q1 FY27 ₹26.9 lakh realisation [E] |
+| 28 | ACE crane share claim | ">63% of mobile cranes; ~60% of tower cranes (domestic)"; "world's largest pick & carry crane manufacturer" | P6 (Y) | Y (company claim) | Yes; still a company claim — see §4.4 #7 |
+| 29 | ACE price/cost | Price hikes ~1–1.5% (Jan) + 3–4% + 5–6% (Jun) ≈ 10%; input inflation 11–12%; may add ~2% | P7 (Y) | Y | Yes ("~10–12%") |
+| 30 | ACE KATO JV structure | Incorporated 11-Mar-2026; ₹200 Cr (KATO ₹100 Cr cash, ACE ₹100 Cr in kind); 3% royalty on export models | P8, P7 (Y) | Y | New detail (S14) |
+| 31 | ACE treasury, 31-Mar-26 | Investments ₹723 Cr non-current + ₹560 Cr current = ₹1,283 Cr; cash ₹64 Cr; other bank ₹13 Cr; borrowings ~₹0.1 Cr | P6 (Y) | Y | Yes (screener ₹1,283 Cr; ICICI cash ₹77 Cr = cash + bank) |
+| 32 | ACE FY26 dividend | ₹2.00/share (~5.7% payout) | P8 (Y) | Y | **Resolves** the screener 137% (S11) |
+| 33 | ACE employees | 1,500 permanent (31-Mar-26) vs BEML 4,923 | P8, P4 (Y) | Y | New |
+| 34 | Union capex FY25A / FY26 RE / FY27 BE | ₹10,51,953 / ₹10,95,755 / ₹12,21,821 Cr | G1 (Y) | Y | FY27 yes; FY25/FY26 refined (S15) |
+| 35 | Captive + commercial coal FY26 | 210.46 Mt (+10.22% vs 190.95 Mt) | G5 (Y) | Y | Yes (Part 1: 210.5 Mt, +10.2%) |
+| 36 | China crane imports (HS 8426) FY26 | US$740.6 m = 71% of US$1,042 m total (FY24 peak US$879.5 m, 83%) | G2 (Y) | Y | Fills a gap (S17) |
+| 37 | China HS 8429 imports FY26 | US$239.8 m = 47% of US$511.4 m | G2 (Y) | Y | Part 1's "~US$478 m in 2025" (calendar, aggregator) ≈ consistent with FY26 US$511 m |
+| 38 | GST on CE machines | 8426/8427/8429/8430 at 18% since 15-Nov-2017; 8704 (dumpers), 8408 engines, tyres 28% → 18% from 22-Sep-2025 | G4, G3 (Y) | Y | **No** — supersedes (S1) |
+| 39 | Caterpillar 2025 | Sales & revenues US$67.6 bn (+4%); OPM 16.5% GAAP / 17.2% adjusted (2024: 20.2% / 20.7%) | X1 (Y) | Y | Replaces "[K] ~US$65–68 bn, ~20%" |
+| 40 | Komatsu FY3/2026 | Net sales ¥4,132.8 bn (+0.7%); operating income ¥567.3 bn, 13.7% (−2.3 pp); FY3/27 guided lower | X2 (Y) | Y | Replaces "[K] ~13–15%" |
+
+**Count: 39 of 40 rows rest on documents fetched this session; 38 are primary sources** (company filings, rating rationale, Budget document, Ministry of Coal, TradeStat, GST Council/CBIC, Caterpillar/Komatsu releases). Row 27 is secondary, and row 28 is primary but only a company claim. The remaining industry headline figures are corroborated, not primary:
+- **ICEMA FY26 totals** (1,36,995; domestic 1,13,229; OEM exports 17,394): **[V-snip]** — ICEMA's own site was unreachable, so the data comes via NBM&CW, Business Standard and mojo4industry. Three independent outlets agree, and the reconciliation (S2) is exact.
+- **CEV Stage V date** (1-Jan-2025, GSR 163(E)): **[V-sec]** (GSAS India quoting the gazette). It is more credible than the Tribune report: it cites GSR numbers and dates, and its reading matches ICEMA's and ICRA's 2024 statements.
+- **JCB India FY26 ₹19,710 Cr** remains CRISIL-via-Open-Magazine [V-snip]. The 2026 CRISIL rationale was not found; the last fetched rationale is Jul-2023 (AAA/Stable, ">40% share", liquid surplus ₹1,402 Cr Mar-23).
+
+**Conflicts and which source to prefer:**
+- **BEML margin, three bases:**
+  - Screener OP 6.9%: revenue minus expenses, excluding other income.
+  - Company "gross margin (EBITDA)" 7.54%.
+  - CARE PBILDT 4.52% on a reclassified TOI of ₹4,236 Cr, which excludes provision write-backs and other operating revenue.
+  - Use screener in tables and quote the company 7.5% once. The CARE figure explains why the rating sensitivity is set at 13%.
+- **BEML receivable days:** screener 191 (trade receivables only) vs CARE 224 (incl. contract assets). CARE's is the economically complete number.
+- **BEML inventory days:** screener 394 (on cost) vs CARE 233 (on a different denominator) vs company 222 days of VoP. Quote the basis.
+- **BEML working-capital cycle:** screener CCC 421 vs CARE ~380 (FY25 389). Both say "over a year", so the narrative is unchanged.
+- **BEML OB mix:** CARE (Mar-26, ₹ split) and management (Aug-26, % incl. exports) differ by date and by bucket. Use CARE for Mar-26 and management for Jun/Aug-26.
+- **BEML Q1 FY27 inflow split:** the press release says M&C ₹589 Cr / Def ₹581 Cr / R&M ₹11 Cr. On the call the Director gave "Defence 50%, mining ~25%, exports ~35%", which sums to >100%. Use the press release.
+
+## 4.2 Company deep-dives
+
+### 4.2.1 BEML Limited (BEML · 500048)
+
+**(a) Management-commentary digest.** Sources: Q1 FY27 call 13-Aug-2026 (P1), investor meet 10-Jun-2026 (P2, P3), CARE 28-Jul-2026 (P5). Paraphrased.
+
+*Guidance and targets*
+- **FY27 revenue:** Q1 grew 29%, and the CMD "expects a similar growth in every quarter… high 20s if all goes well" (P1). In June the year opened with **₹5,500 Cr of executable orders, "first time in the history of the company"** (P3). Part 1's "+30%" is the June-meet framing; the August wording is "high 20s".
+- **FY27 EBITDA:** "back to at least 13%" (P1). In June the CMD called **~16% "sustainable"**, with **break-even revenue ~₹4,000 Cr**: above that, contribution drops "exponentially" to the bottom line (P3). Long-run aspirations: 20% CAGR, 17–18% EBITDA and lower working capital (P1).
+- **FY27 order inflow:** ₹20,000 Cr is a stretch goal "with ~30–40% probability" (P1). Expected mix: Rail & Metro 65–70%, Defence ~20%, international ~5%, mining 5–6% (P1).
+- **Live pipeline (P1):**
+  - Six metro tenders: Chennai, Delhi RS20 and RS21, UP Metro extension, Maha Metro (Pune/Nagpur), MMRDA Line 12.
+  - Metro exports ~₹15,000 Cr (two opportunities).
+  - 16 HSR trainsets (B28, 280 km/h), bid submitted.
+  - Defence ₹4,000–5,000 Cr: ARV WZT-3 overhaul (DAC cleared 230), command-post vehicles, self-propelled mine burier, tank transporters, LAMV (summer trials cleared), QRSAM support vehicles ₹600–700 Cr. Pinaka is excluded.
+  - Mining: L1 in ~₹900 Cr, bidding ₹500–600 Cr more, plus West Asia mining exports.
+  - The **MRVC (Mumbai suburban) tender was cancelled.**
+- **FY27 capex:** ₹600+ Cr. The "Aditya" HSR complex took ~₹250 Cr. Bhopal ("Brahma", ~₹900 Cr Phase 1) civil tender is to be finalised by ~Oct–Nov 2026; first output 18 months after construction starts (~24 months to completion); debt-funded (P1, P5). The Chhattisgarh cabinet allotted **~80 acres at Mungeli (near Bilaspur)** for a wheeled mining-equipment plant (trucks, sprinklers, graders), close to CIL, which takes ~80% of BEML's mining machines (P1).
+- **R&D:** ~7% of revenue, ">₹300 Cr" in FY27 (P1).
+
+*What went wrong in FY26 (P3, P5)*
+1. The OB target was ~₹20,000 Cr; the year ended at ₹15,896 Cr. An export order and a MoD order (one signed 27-Mar) spilled into April; HEMM orders where BEML was L1 were not finalised; the 16-trainset HSR order was not placed.
+2. M&C revenue fell because CIL did not order during an "unusually long and shifted monsoon".
+3. ~₹250 Cr of one-offs: (i) a "one-time correction" in two foreign-currency metro contracts, one won in 2018 at ₹60/$ and €65 without a PVC clause; (ii) a gratuity provision under the new labour codes.
+
+Management expects FX realisation and the PVC clause to recover ≥30% of the hit, and another 10–15% if the rupee keeps weakening. The August call says "20–25% in FY27".
+
+*Business mix and margins (P1, P3)*
+- BEML is **exempt from Ind AS 108 segment reporting** (defence-production exemption). It gives only revenue by vertical and growth rates, never segment margins.
+- HEMM averaged ~45% of revenue historically (peak 61% in FY17; 40% in FY26). The CMD targets 65–70% Rail & Metro + Defence and ~30% HEMM.
+- Margin ranking: **"sustenance" (spares and services) is the highest-margin line; exports are second** (export EBITDA planned ~20%, 25% if the dollar rises).
+- Mining product contracts are fixed-price. Long MARC/sustenance contracts (9–12 years) carry annual escalation negotiated with CIL. All newer metro contracts have PVC clauses; the old Mumbai order does not.
+
+*Execution milestones*
+- Vande Bharat sleeper: flagged off by the PM on 17-Jan-2026 at Malda (P2); two 16-car BEML rakes commissioned by SWR in Aug-2026; ₹180.6 Cr ICF add-on (Sep-2026) [V-snip]; "two or three more trains can come" (P3).
+- LHB: 600-coach order, dispatches from June 2026 (P3).
+- HSR prototype: production began ~April 2026; first car body ~Aug-2026; first train ~Jan-2027; testing into ~Aug-2027. Propulsion is local and the IP is 100% BEML's. Seven new corridors (~600 trains): BEML hopes for ~50% (P1).
+- Bengaluru Metro Phase 2: CRS inspection done ~12-Aug-2026; 20–25 trains to be supplied in FY27 (P1).
+- HAL Light Combat Helicopter fuselages: 48 units over ~3 years (P1).
+
+*Working capital*
+- Quarterly revenue runs ~10% / 20% / 30% / 40% (Q4 was ~45% in FY26). The plan is 35% of revenue by H1 and 70% by 9M to cut year-end debtors (P1).
+- CARE notes that FY26's delayed receipts were "subsequently realised in Q1 FY27" (P5).
+
+**(b) Concall/presentation KPI table**
+
+| KPI | Value | Period | Source |
+|---|---|---|---|
+| Revenue growth | +29% (R&M +178%, Def +25%, M&C −14%) | Q1 FY27 | P1 |
+| EBITDA | +₹3 Cr ("first positive Q1 EBITDA") | Q1 FY27 | Q1 PR; P1 |
+| Value added per employee | +~8% | Q1 FY27 | P1 |
+| Order book | ~₹16,284 Cr; mix R&M 65 / Def 25 / Mining 4 / Exports 6 | Jun/Aug-26 | P1 |
+| Order book | ₹15,896 Cr: R&M 11,320 / Def 3,734 / M&C 842 | 31-Mar-26 | P5 |
+| Export order book | US$107 m (Mar-26) → ~US$115–119 m (Jul/Aug-26) → ~US$200 m target (Mar-27) | — | P2, P4, P1 |
+| Executable OB at start of FY27 | ~₹5,500 Cr | Apr-26 | P3 |
+| Mining visibility | ~₹950 Cr (₹350 Cr export order + ~₹600 Cr L1) | Jun-26 | P3 |
+| Opportunity pipeline | ₹35,000–40,000 Cr | Aug-26 | P1 |
+| Capex | ₹379 Cr FY26; ₹600+ Cr FY27 plan | — | P2, P1 |
+| R&D | ₹251 Cr FY26 (₹101 Cr FY25); ~7% of revenue FY27 | — | P5, P1 |
+| Employees | 4,923 (AR) / 4,930 (PPT) at Mar-26 | — | P4, P2 |
+| Break-even revenue | ~₹4,000 Cr | FY27 | P3 |
+| Lifetime base | 2,130+ metro cars; 18,000+ coaches & 900 EMUs; 9,500+ HMVs; 34,000+ M&C machines; 1,400+ units exported to 73 countries | — | P2 |
+
+**(c) Five-year history, FY22–FY26 (₹ Cr; screener consolidated unless noted)**
+
+| Item | FY22 | FY23 | FY24 | FY25 | FY26 | Source |
+|---|---|---|---|---|---|---|
+| Revenue | 4,337 | 3,899 | 4,054 | 4,022 | **4,351** | P9, P2 |
+| — Mining & Construction | 1,982 (46%) | 1,932 (50%) | 1,740 (43%) | 2,179 (54%) | **1,789 (41%)** | P2 |
+| — Defence & Aerospace | 914 (21%) | 908 (23%) | 763 (19%) | 1,083 (27%) | **1,522 (35%)** | P2 |
+| — Rail & Metro | 1,441 (33%) | 1,059 (27%) | 1,551 (38%) | 760 (19%) | **1,040 (24%)** | P2 |
+| OP (screener) / OPM | 325 / 8% | 369 / 9% | 445 / 11% | 506 / 13% | **299 / 7%** | P9 |
+| EBITDA, company basis / % | 321 / 7.40 | 389 / 9.97 | 486 / 11.98 | 531 / 13.20 | **328 / 7.54** | P2 |
+| PAT consolidated (company standalone) | 129 (135) | 158 (159) | 282 (283) | 293 (294) | **141 (148)** | P9, P2 |
+| Order book, 31-Mar | 8,570 | 9,192 | 11,872 | 14,610 | **15,896** | P2 |
+| OB ÷ revenue (×) | 2.0 | 2.4 | 2.9 | 3.6 | **3.7** | [E] |
+| ROCE, screener (company) | 9% (7) | 10% (10) | 15% (12) | 16% (12) | **8% (6)** | P9, P2 |
+| CFO / FCF | 51 / 30 | 560 / 551 | 458 / 358 | 99 / −92 | **118 / −208** | P9 |
+| Debtor days / CCC (screener) | 157 / 400 | 116 / 369 | 130 / 416 | 154 / 487 | **191 / 421** | P9 |
+| Net worth (company) | 2,307 | 2,395 | 2,643 | 2,854 | **2,909** | P2 |
+| Manpower (company) | 5,573 | 5,197 | 4,888 | 4,761 | **4,930** | P2 |
+| Dividend payout (screener) | 32% | 26% | 30% | 29% | **101%** | P9; P4 confirms ₹17.087/share |
+
+- Readings [E]:
+  - Defence revenue was flat for three years (FY22–FY24 ~₹760–915 Cr), then doubled in two (₹1,522 Cr in FY26).
+  - Rail & Metro is lumpy: ₹1,551 Cr in FY24, ₹760 Cr in FY25, ₹1,040 Cr in FY26.
+  - M&C has been range-bound at ₹1,740–2,180 Cr for five years.
+  - BEML's five-year revenue CAGR is ~0% even though the OB nearly doubled (8,570 → 15,896). Execution, not demand, is the constraint.
+- **Seasonality, company quarterly revenue (₹ Cr) Q1/Q2/Q3/Q4 [P2]:**
+  - FY21: 391 / 664 / 728 / 1,814 (Q4 50%).
+  - FY22: 467 / 1,012 / 1,175 / 1,684 (39%).
+  - FY23: 669 / 805 / 1,037 / 1,388 (36%).
+  - FY24: 577 / 917 / 1,047 / 1,514 (37%).
+  - FY25: 634 / 860 / 876 / 1,653 (41%).
+  - FY26: 634 / 839 / 1,083 / 1,794 (41%).
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr)** [P9]
+
+| Quarter | Revenue | YoY | OP | OPM | Other inc. | PAT |
+|---|---|---|---|---|---|---|
+| Sep-24 (Q2 FY25) | 860 | −6% | 73 | 8% | 15 | 51 |
+| Dec-24 (Q3 FY25) | 876 | −16% | 60 | 7% | 5 | 24 |
+| Mar-25 (Q4 FY25) | 1,653 | +9% | 422 | 26% | 4 | 288 |
+| Jun-25 (Q1 FY26) | 634 | 0% | −49 | −8% | 9 | −64 |
+| Sep-25 (Q2 FY26) | 839 | −2% | 73 | 9% | 7 | 48 |
+| Dec-25 (Q3 FY26) | 1,083 | +24% | 4 | 0.3% | 4 | −22 |
+| Mar-26 (Q4 FY26) | 1,794 | +9% | 272 | 15% | 10 | 180 |
+| **Jun-26 (Q1 FY27)** | **820** | **+29%** | **2** | **0.2%** | 2 | **−27** |
+
+- Trailing-4Q (Sep-25 → Jun-26): revenue ₹4,536 Cr, OP ₹350 Cr (7.7%), PAT ₹178 Cr.
+- Q2 FY27 is due by 14-Nov-2026. The board date was not announced as of 25-Oct (P9 announcements list).
+- If management's "~29% every quarter" holds, Q2 FY27 revenue would be **~₹1,080 Cr** [E] vs ₹839 Cr.
+
+**(e) Annual-report findings (FY26, P4)**
+- **Revenue by product (₹ Cr, FY26 vs FY25):**
+  - Earth-moving equipment 758.3 (1,167.6; **−35%**).
+  - Rail & Metro products 874.3 (408.3).
+  - Defence products 1,343.6 (911.4).
+  - Exports incl. deemed 176.5 (298.8).
+  - **Spare parts 870.3 (927.6)**; equipment servicing 131.2 (125.5).
+  - Other operating revenue 196.3, incl. provision write-backs of ₹123 Cr (doubtful debts ₹60.9 Cr, onerous ₹12.2 Cr, inventory ₹22.9 Cr, warranty ₹24.0 Cr).
+  - **Spares + services = ₹1,002 Cr = 23% of revenue** (26% in FY25) [E]. This is the highest-margin line per management. The "CE" business inside BEML is a spares annuity attached to a shrinking machine-sales line.
+- **Revenue recognition:**
+  - Metro contracts are recognised over time on an input-cost method (₹676.5 Cr in FY26 vs ₹439.6 Cr).
+  - Unsatisfied metro performance obligations: ₹5,559.5 Cr (₹4,471.3 Cr).
+  - Bill-and-hold sales ₹7.07 Cr.
+  - GST excluded from revenue: ₹712 Cr.
+- **Provisions and penalties:**
+  - Onerous-contract provision charged ₹232.6 Cr (₹20.0 Cr).
+  - LDs and other recoveries ₹67.9 Cr (₹18.5 Cr).
+  - Doubtful-debt provision ₹43.2 Cr; warranty ₹22.3 Cr; inventory obsolescence ₹13.3 Cr.
+  - **Provisional LDs on expired delivery dates of ₹22.4 Cr** appear as a new contingent item.
+- **Contingent liabilities:**
+  - Disputed statutory demands ₹224.6 Cr (₹283.8 Cr).
+  - **Other claims ₹242.1 Cr (₹138.1 Cr, +75%).**
+  - Capital commitments ₹164.6 Cr (₹89.0 Cr), reflecting the capex step-up.
+- **Related parties:**
+  - No royalty structure: BEML is a GoI company with no foreign parent.
+  - BLAL: inter-corporate loan ₹11.9 Cr; lease rent ₹0.98 Cr (new in FY26).
+  - Subsidiary MAMC Industries: advances ₹6.2 Cr.
+  - Associates: three testing foundations (defence testing, materials, UAS) — small equity.
+  - KMP remuneration: CMD ₹79 lakh.
+- **Directors' Report data points:**
+  - M&C revenue −19%; Defence +38% (the company's own basis).
+  - Material consumption as a % of value of production rose 2.59 points.
+  - Export incentive ₹1.69 Cr.
+  - Exempt from Ind AS 108 segment reporting.
+- **SWOT (MD&A):**
+  - Strengths: ">73% of sales achieved in competition mode"; "major market share in high-capacity dozers and metro cars".
+  - Weaknesses: "relatively small market share in the highly competitive construction-equipment sector"; ageing manpower.
+  - Threats: "dumping price strategy" by international players in mining and metro; global OEMs (Caterpillar, Komatsu, Alstom, Siemens) "operating directly in India rather than licensing"; inconsistent IR ordering.
+  - Opportunities: BRO allocation; defence domestic procurement (₹1.39 lakh Cr).
+- **Capacity:** four manufacturing complexes (Bengaluru, KGF, Mysuru, Palakkad), plus Bhopal (new) and a Bilaspur warehouse/hub. Bengaluru added the HSR facility "Aditya" (inaugurated ~Apr-2026). Rolling-stock capacity is ~250 cars/yr → 350–400 with Bhopal (P1). Bhopal: +300–350 coaches/yr in 2.5–3 years (P3).
+
+### 4.2.2 Action Construction Equipment (ACE · 532762)
+
+**(a) Management-commentary digest.** Sources: Q1 FY27 call (transcript filed 24-Jul-2026, P7), Q1 FY27 presentation 20-Jul-2026 (P6), FY26 AR (P8). Paraphrased.
+
+*Guidance*
+- **Revenue:** management again refused a FY27 number and promised one "by end-September". **No guidance filing was seen by 25-Oct.**
+- **Shape of the year:** "we will grow". H1 is historically 40–45% of revenue. Q2 should be "similar to Q1" and better than last year. Applying 40–45% to an H1 of ~₹1,570 Cr implies FY27 revenue of **~₹3,500–3,900 Cr** [E].
+- **Margin:** "a little over 15%" operating EBITDA in FY26 is the aim to "maintain and sustain" through Q2–Q3. Price rises are meant only to recover cost — "we are not looking at margin expansion".
+- **Exports and defence:** Q1 FY27 exports were ~3% of revenue, held back by Saudi/Middle East shipments stuck since March. FY27 target ≥6–7% exports and 5–6% defence (">₹200 Cr, maybe 10–15% more"). Together that is 10–12% of revenue.
+- **Capex:** FY27 ₹200–250 Cr. This includes ₹130–140 Cr to take over land contracted 1.5–2 years earlier; ₹40–50 Cr for "Plant 9" (defence/special machines on the last ~100 acres of the existing complex; live end-Q3/early-Q4; ~₹500 Cr turnover capacity); ₹50–60 Cr for robotics, automation and maintenance.
+
+*Demand*
+- Demand was strong until May–June, then the usual monsoon slowdown.
+- Growth avenues:
+  - the Hydra-crane recovery, after retail hirers' "scepticism" about Stage V electronics "settled in the last 7–8 months";
+  - backhoe loaders, forklifts, tower cranes and road machinery;
+  - inflation-led pricing;
+  - defence execution from August.
+- A deficient monsoon can swing the year by 5–10%, visible in Q3.
+
+*Pricing and costs*
+- Price increases: January 1–1.5%, March/May 3–4%, June 5–6% (still "work in progress" in July) → ~10%.
+- Input inflation is 11–12% ("massive… every possible commodity"). Steel is up ~20%, along with tyres, rubber and plastics. Another ~2% of pricing may follow.
+- Q1 gross margin was down ~140 bp YoY.
+- If commodities fall back within 6–8 months, part of the price goes back; if they stay up longer, the industry keeps the price.
+
+*Crane-market structure*
+- Hydra share: 60–65% in FY25, "a little less than 60%" in FY26, back to ~60% in FY27, ~50/50 in 2–3 years as large industrial users move to safer NG cranes.
+- The NG–Hydra price gap is still ~30–35%.
+- Mix is moving to higher tonnages (18/20/25-t Hydras), so ASPs "are only going to increase".
+- ACE's own volume mix is ~60/40 Hydra/NG.
+
+*Backhoe loaders*
+- ~150–160 units a quarter.
+- A financing pilot in three or four pockets is "working in the right direction". Management hopes BHL becomes the fastest-growing CMCE line.
+
+*KATO JV*
+- See S14. Upgraded Indian models to KATO standards from Q4 FY27; dedicated KATO-design models in about a year, with a 50–60% localisation target.
+- KATO will also source components from India through ACE, an extra revenue stream.
+
+*Crane ADD*
+- "No leads so far… still a ray of hope."
+- The Ministry of Heavy Industries had encouraged the application. DGTR investigated and recommended duties, and "only in the last leg, the Finance Ministry didn't do it."
+- Management attributes this to geopolitics: US tariff pressure, and an India–China thaw after the PM's China visit.
+
+*Strategy*
+- The two biggest growth drivers: **inorganic growth** (targets with a moat and "3×–6× growth" potential; "a lot [of cash] available on the books") and **exports**.
+- Then domestic growth, the KATO JV (2–3 years), and new demand from data centres (~1.5–2% of revenue), oil storage, nuclear, solar and high-speed rail.
+
+*Supply chain*
+- In June, engine and engine-casting suppliers had problems, resolved by July.
+- Competitive intensity is "unchanged".
+
+**(b) Concall/presentation KPI table**
+
+| KPI | Value | Period | Source |
+|---|---|---|---|
+| CMCE volumes | 2,740 (+17.25% vs 2,337); Q4 FY26 3,458 | Q1 FY27 | P6, P7 |
+| Agri volumes | 440 (589; Q4 FY26 753) | Q1 FY27 | P6 |
+| CMCE revenue / result | ₹738.37 Cr (+22%) / ₹134.09 Cr (18.2%; +24.35%) | Q1 FY27 | P7 |
+| Agri revenue / result | ₹42.67 Cr / ₹4.34 Cr | Q1 FY27 | P7 |
+| CMCE realisation | ₹26.9 lakh/unit (Q1 FY26 ₹25.9 lakh; +4.0%) [E from P7 ÷ P6] | Q1 FY27 | [E] |
+| Total income / EBITDA incl. OI (consolidated) | ₹840.3 Cr / ₹172.5 Cr (20.53%) | Q1 FY27 | P6 |
+| PAT | ₹119.5 Cr (+22.3%); EPS ₹10.04 | Q1 FY27 | P6 |
+| Standalone | Total income ~₹836 Cr; EBITDA ₹170.58 Cr (20.40%); PAT ₹118.59 Cr | Q1 FY27 | P7 |
+| Market share claims | >63% mobile cranes; ~60% tower cranes | 2026 | P6 |
+| Network | 125+ locations; 13 regional offices; 37+ export countries | 2026 | P6 |
+| Net debt / equity | −0.55 (FY24), −0.59 (FY25), −0.66 (FY26) | — | P6 |
+| ROCE (company) | 42.90% / 40.59% / 32.71% (FY24/25/26) | — | P6 |
+| Tower-crane capacity | ~1,000/yr | Jul-26 | P7 |
+| Capex FY27 | ₹200–250 Cr | FY27 | P7 |
+| Employees | 1,500 permanent | 31-Mar-26 | P8 |
+| Shareholding | Promoter 65.42 / FII 7.82 / DII 2.59 / public 24.17 (Jun-26); 119.08 m shares | 30-Jun-26 | P6 |
+
+**(c) Five-year history, FY22–FY26 (₹ Cr; screener consolidated unless noted)**
+
+| Item | FY22 | FY23 | FY24 | FY25 | FY26 | Source |
+|---|---|---|---|---|---|---|
+| Revenue | 1,630 | 2,160 | 2,914 | 3,327 | **3,280** | P9, P8 |
+| — CMCE segment | n/f | n/f | n/f | 3,097.1 | **2,953.2** | P8 |
+| — Agri (gross) | n/f | n/f | n/f | 247.0 | **262.2** | P8 |
+| — Others | — | — | — | — | **76.6** | P8 |
+| CMCE segment result / margin | n/f | n/f | n/f | 566.1 / 18.3% | **550.4 / 18.6%** | P8 |
+| OP / OPM (screener) | 151 / 9% | 221 / 10% | 404 / 14% | 506 / 15% | **504 / 15%** | P9 |
+| Company EBITDA incl. OI / % of total income | n/f | n/f | 480.3 / 16.06% | 606.1 / 17.68% | **614.0 / 18.11%** | P6 |
+| Other income | 11 | 41 | 77 | 100 | **110** | P9 |
+| PAT | 105 | 173 | 328 | 409 | **415** | P9, P8 |
+| CFO / FCF | 104 / 59 | 274 / 238 | 433 / 268 | 412 / 206 | **417 / 330** | P9 |
+| ROCE (screener) | 21% | 26% | 42% | 40% | **32%** | P9 |
+| CCC (days) | 18 | 9 | −4 | −18 | **−20** | P9 |
+| Dividend per share / payout | — | — | — | ~₹2 (screener 139% = error) | **₹2.00 / ~5.7%** | P8; screener wrong |
+| CMCE volume (units) | n/f | n/f | n/f | ~13,400 [E from −19%] | **10,853** | Systematix [V-snip] |
+
+- "n/f" = not fetched this session. FY22–FY24 segment splits are in earlier ARs (on BSE; not read).
+- Readings [E]:
+  - ACE's revenue doubled FY22 → FY25 while OPM rose 6 points. In FY26 it lost 4.6% of CMCE revenue but kept its segment margin.
+  - Realisation rose ~18% (₹23.1 → ₹27.2 lakh/unit) on Stage V pricing and mix [E, using the FY25 volume implied from −19%].
+  - Treasury other income (₹110 Cr) is ~20% of PBT.
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr)** [P9]
+
+| Quarter | Revenue | YoY | OP | OPM | Other inc. | PAT | CMCE units |
+|---|---|---|---|---|---|---|---|
+| Sep-24 (Q2 FY25) | 757 | +12% | 109 | 14% | 34 | 95 | n/f |
+| Dec-24 (Q3 FY25) | 875 | +16% | 135 | 15% | 30 | 112 | n/f |
+| Mar-25 (Q4 FY25) | 961 | +15% | 164 | 17% | 8 | 119 | ~4,020 [E: 3,458 is −14%] |
+| Jun-25 (Q1 FY26) | 652 | −11% | 93 | 14% | 51 | 98 | 2,337 |
+| Sep-25 (Q2 FY26) | 744 | −2% | 109 | 15% | 29 | 90 | } 5,058 for Q2+Q3 [E] |
+| Dec-25 (Q3 FY26) | 855 | −2% | 130 | 15% | 36 | 116 | } |
+| Mar-26 (Q4 FY26) | 1,029 | +7% | 172 | 17% | −6 | 111 | 3,458 |
+| **Jun-26 (Q1 FY27)** | **786** | **+21%** | **118** | **15%** | **55** | **119** | **2,740** |
+
+- The FY26 downturn was concentrated in **Q1–Q3 FY26** (−11%, −2%, −2%), and the recovery began in Q4 FY26 (+7%).
+- This matches management's "Hydra scepticism settled in 7–8 months" and Escorts Kubota's CE swing (FY26 −10.6% → Q1 FY27 +27.4%, Q2 +53.9%).
+- Q2 FY27 board date: not announced as of 25-Oct (trading window closed 25-Sep; investor-meet intimation 26-Sep).
+
+**(e) Annual-report findings (FY26, P8)**
+- **Segments (consolidated):**
+  - Two reportable segments: CMCE and Agri, plus "Others" (₹76.55 Cr of revenue, ₹19.62 Cr result — miscellaneous exports and trading).
+  - Inter-segment agri revenue: ₹11.5 Cr.
+  - CMCE materials ₹1,965.6 Cr (66.6% of segment revenue) vs FY25 ₹2,085.6 Cr (67.3%).
+  - **Agri materials ₹228.6 Cr (87% of segment revenue)**; agri inventory fell ₹35 Cr.
+  - Unallocated expenses: ₹103.8 Cr.
+- **Capex by segment:** additions to PPE/CWIP ₹81.6 Cr (CMCE) + ₹28.1 Cr (unallocated) in FY26, vs ₹153.2 Cr + ₹56.7 Cr in FY25 [P8 note]. The heavy capacity build was FY24–FY25.
+- **KATO JV:** ACE KATO Pvt Ltd incorporated 11-Mar-2026; Investment & Shareholders' Agreement in FY26; initial capital infused 19-Apr-2026; not consolidated in FY26; to be restructured to 50:50. A whole-time director sits on the JV board. **Wholly owned subsidiary:** Crane Kraft India.
+- **Dividend:** final ₹2.00 (100% of FV ₹2); no buyback in FY26.
+- **Contingent liabilities:** the large CESTAT excise classification dispute (FY25 ₹70.3 Cr incl. interest, FY2006-07 to FY2010-11 and FY2020-21) shows **nil for FY26**. It was resolved or dropped [E — wording not read in full]. Income tax (FY15–FY17 disallowances) ₹6.98 Cr; small service-tax/VAT items. No material related-party royalty: ACE is promoter-owned and pays no technology royalty; the KATO royalty applies only to future export models.
+- **Risks named in MD&A:** commodity inflation; competitive "new product introductions may exert pressure on market share"; geopolitical/supply-chain risks; demand cyclicality.
+- **Workforce:** 1,500 permanent employees. Employee cost ~₹160 Cr (ICICI) implies **~₹10.7 lakh per permanent employee** [E]. Contract labour is not included.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. Union capital expenditure (₹ lakh Cr; Budget at a Glance 2026-27, G1) [V]**
+
+| FY18 | FY19 | FY20 | FY21 | FY22 | FY23 | FY24 | FY25 A | FY26 BE | FY26 RE | FY27 BE |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2.6 | 3.1 | 3.4 | 4.3 | 5.9 | 7.4 | 9.5 | **10.52** | 11.21 | **10.96** | **12.22** |
+
+- YoY growth: FY22 +37%, FY23 +25%, FY24 +28%, FY25 +11%, **FY26 RE +4.2%**, FY27 BE +11.5% [E].
+- Effective capex (capex + grants for capital assets), ₹ lakh Cr: FY25 A 13.25; FY26 BE 15.48; FY26 RE 14.04; FY27 BE 17.15.
+- **Insight:** the capex-growth series and ICEMA domestic units now line up almost perfectly. Capex growth of +25–37% (FY22–FY24) went with units +26%/yr. +11% (FY25) went with +3%. **+4% (FY26 RE) went with domestic −6.7%.** A budgeted +11.5% (FY27) goes with ICEMA's guide of +7% and Escorts' observed market +23% in Q1. This strengthens Force A.1 and §3.1.
+
+**D2. Imports from China by HS heading (US$ mn; TradeStat, G2) [V]**
+
+| HS | Product | FY22 | FY23 | FY24 | FY25 | FY26 | China share FY26 (FY24) | All-origin FY26 |
+|---|---|---|---|---|---|---|---|---|
+| 8426 | Cranes, derricks, works trucks with crane | 366.4 | 587.4 | 879.5 | 805.9 | **740.6** | 71.1% (83.0%) | 1,042.2 |
+| — 842641 | Self-propelled on tyres (truck/AT/RT cranes) | 51.5 | 185.0 | 268.1 | 291.0 | **314.0** | 83.8% | 374.6 |
+| — 842649 | Other self-propelled (crawler cranes) | 131.2 | 218.4 | 331.0 | 330.9 | **265.1** | 82.4% | 321.7 |
+| — 842620 | Tower cranes | 7.8 | 15.6 | 18.9 | **48.3** | 32.5 | 93.3% | 34.8 |
+| 8427 | Forklifts and other lifting works trucks | 74.4 | 91.9 | 118.5 | 175.3 | **168.1** | 65.7% (56.9%) | 255.7 |
+| 8429 | Bulldozers, graders, excavators, loaders, rollers | 193.0 | 252.1 | 199.1 | 187.9 | **239.8** | 46.9% (37.0%) | 511.4 |
+| — 842952 | 360° excavators | 99.4 | 111.8 | 64.5 | 76.5 | **83.5** | 38.9% | 214.8 |
+| — 842951 | Front-end loaders | 27.2 | 53.6 | 42.2 | 21.8 | **54.3** | 48.0% | 113.1 |
+| 8430 | Other earth-moving, boring, piling machinery | 169.1 | 252.7 | 145.2 | 141.5 | **258.1** | 53.1% (42.1%) | 485.7 |
+| 8431 | Parts of 8425–8430 machinery | 644.2 | 707.2 | 826.8 | 902.7 | **998.4** | 50.6% (48.9%) | 1,973.9 |
+| **Sum 8426+8427+8429+8430** | Finished machines | 802.8 | 1,184.1 | 1,342.3 | 1,310.6 | **1,406.7** | **61.3%** (62.4%) | 2,295.1 |
+
+- India's total merchandise imports for scale: FY26 US$131,620 m (FY22 US$94,571 m).
+- Readings [E]:
+  1. **China's crane exports to India peaked in FY24**, the year before the DGTR case was initiated. They fell 16% by FY26. Truck and all-terrain cranes (842641) still grew, while crawler cranes (842649, the main ADD target) fell 20% in FY26. Chinese OEMs' local assembly (ACE: "one or two of the three main Chinese") is visible here.
+  2. **Mobile-crane imports from China (842641 + 842649) were ~US$579 m in FY26** — roughly ₹5,000 Cr at ~₹87/$ (FY26 average, [E]). That is ~1.7× ACE's entire CMCE revenue, which shows the size of the heavy-crane pool the KATO JV targets. The ADD would have priced it 24–52% higher.
+  3. **Tower-crane imports from China jumped to US$48 m in FY25** (2.6× FY24) before easing to US$32 m. ACE claims ~60% of domestic tower cranes, so this is a live threat in ACE's second core product. **New and important.**
+  4. **Parts (8431) from China ~US$1.0 bn and rising 10%/yr** — larger than finished-machine imports. "Made in India" CE (ICEMA's ">95% made in India") rests heavily on Chinese and other imported components, so a finished-machine ADD would mostly shift value to local assembly.
+  5. **Earth-moving (8429) imports are small** (US$511 m, against a ~US$9–10 bn market): China's share in excavators comes from **India-assembled** SANY, XCMG and LiuGong machines, not imports. This is consistent with Part 1 §5.3.
+
+**D3. ICEMA volume reconciliation (units)** [V-snip ICEMA via trade press; residual E]
+
+| Year | Total | Domestic | OEM exports | Non-OEM ("unauthorised") exports [E residual] | Note |
+|---|---|---|---|---|---|
+| FY25 | 1,40,191 | 1,21,301 (restated) | 13,230 | ~5,660 | The FY25 release's "domestic 1,26,961" = total − OEM exports |
+| FY26 | 1,36,995 (−2.3%) | 1,13,229 (−6.7%) | 17,394 (+31.5%) | ~6,372 (+13%) | Total = domestic + OEM exports + non-OEM exports |
+| 9M FY25 | 98,977 | 89,244 | — | — | ICEMA Industry Analysis & Insights Panel |
+| 9M FY26 | 94,035 (−5.0%) | 81,566 (−8.6%) | ~+28% | — | Same |
+| Q3 FY26 | 35,891 (−9%) | — | — | — | EM 25,715 (−9%); MH 4,306 (−10%); concrete 3,335 (−9%); road 1,942 (−7%); MP 593 (−1%) |
+| Q4 FY26 [E] | ~42,960 (+4.2% vs ~41,214) | — | — | — | Derived: FY − 9M. **The industry turned up in Q4 FY26**, like ACE |
+| Q1 FY26 | 28,687 (−1%) | 24,809 (−5%) | 3,878 (+34.5%) | — | [V-snip] |
+| Q1 FY27 | **not published/indexed** | — | — | — | Proxy: Escorts management says its addressable market (P&C cranes, BHL, mini-excavators, compactors) grew **~23% in Q1 FY27, cranes +46%**; FY27 market guide +12–15% (BHL +5–7%, compactors +5–6%) [V-snip Autocar Pro 8-Aug-2026] |
+
+**D4. BEML segment revenue (₹ Cr) FY22–FY26** — see §4.2.1(c) (company, P2). Chart as stacked bars: M&C / Defence / R&M.
+
+**D5. BEML order book (₹ Cr, 31-Mar)** — FY22 8,570; FY23 9,192; FY24 11,872; FY25 14,610; FY26 15,896; Jun-26 ~16,284 (P2, Q1 PR). Mix Mar-26: R&M 11,320 / Def 3,734 / M&C 842 (P5).
+
+**D6. Global majors, 2025 (or FY ending Mar-2026)**
+
+| Company | Period | Revenue | Operating margin | Source / tag |
+|---|---|---|---|---|
+| Caterpillar | CY2025 | US$67.6 bn (+4%) | 16.5% GAAP; 17.2% adjusted (2024: 20.2% / 20.7%) | X1 [V] |
+| Komatsu | FY3/2026 | ¥4,132.8 bn (+0.7%) | 13.7% (−2.3 pp); CMUE segment ~12.9% | X2 [V]; segment [V-snip] |
+| XCMG | CY2025 | US$14.2 bn CE sales (Yellow Table #3, 5.8% share) | n/f | Part 1 [V-snip] |
+| SANY Heavy | CY2025 | ~US$12.49 bn (+14.7%); overseas ~64% | net margin 9.5% (net profit +41%) | SANY PR 8-Apr-2026 [V-snip] |
+| Deere Construction & Forestry | FY to Nov-2025 | ~US$11.4 bn (−12%) | Q4 10.3%; FY operating profit −49% | Deere release via trade press [V-snip] |
+| Volvo CE | CY2025 | SEK 81.6 bn (−7.5%) | adjusted 13.3% (14.4%) | Volvo CE results via trade press [V-snip] |
+| Hitachi CM | FY3/2026 | n/f | adjusted operating income ¥133.0 bn (−8.3%) | [V-snip; hitachicm.com 403] |
+| ACE | FY26 | ₹3,280 Cr (~US$0.35 bn) | 15.4% (OP) | P9 |
+| BEML | FY26 | ₹4,351 Cr (~US$0.46 bn) | 6.9% (OP) | P9 |
+
+- Reading: global CE margins **compressed in 2025** (Cat −3.7 pp, Komatsu −2.3 pp, Volvo CE −1.1 pp) on tariffs and weaker Western demand. Chinese OEMs grew on exports (SANY overseas ~64%).
+- ACE's 15.4% is now **level with Caterpillar's and above Komatsu's and Volvo CE's** — a strong point for the writer, with the caveat that the business is niche and small.
+- Komatsu guides FY3/27 lower, citing the **Middle East situation**, which ties to the West Asia shock in §8.
+
+## 4.4 Gap log (§H items and §2.4 conflicts)
+
+| # | Gap (Parts 1–3) | Status | How / what was tried |
+|---|---|---|---|
+| H1 | ICEMA Q1 and H1 FY27 volumes | **Still open** | Two searches plus icemaindia.in (proxy 502); no Q1/H1 FY27 release indexed. Proxies upgraded: Escorts' addressable market +23% Q1 FY27 (cranes +46%); ACE CMCE +17.25%; derived Q4 FY26 industry +4.2% (D3). |
+| H2a | FY26 category sub-counts (BHL, excavators, cranes) | **Still open** | NBM&CW FY26 text has five categories only; no sub-category data published in the sources reached. Q3 FY26 category split added (D3). |
+| H2b | FY19–FY22 ICEMA totals; FY23 1,07,779 | **Still open** (FY23 remains [K]) | Not found in searches; ICEMA site unreachable. Keep FY22 "~85,000" as [E] and avoid charting it. |
+| H3 | Domestic/export split conflict | **Filled** (S2) | Non-OEM "unauthorised" exports explain the gap exactly. |
+| H4 | CEV Stage V dates | **Filled at [V-sec]** (S16) | GSR chain from a compliance consultancy's note; gazette PDFs not fetched (MoRTH page is JavaScript). |
+| H5 | GST on 8426/8427/8704 | **Filled** (S1) | GST Council and CBIC releases: cranes/forklifts/earth-moving at 18% since Nov-2017; 8704 dumpers 28% → 18% in Sep-2025. |
+| H6 | China-origin imports by HS | **Filled** (D2) | TradeStat queried directly. DGTR primary findings not fetched; the ADD remains un-notified per ACE (Jul-2026: "no leads so far"). |
+| H7 | ACE 63% vs Escorts 41.4% crane share | **Partly resolved** | ACE's claim (P6) is ">63% of **mobile cranes**", a company-defined denominator spanning Hydra and NG P&C cranes plus other mobile cranes. Escorts' 41.4% (ICEMA P&C basis, V-sib) could not be re-verified: neither the Escorts presentation nor the ICEMA data was reached. ACE management says it has led the NG segment "for the last 2 years"; Escorts says it gained ~2.7 pp of share in FY26. **Most likely explanation [E]:** ICEMA's P&C dataset is the denominator for Escorts; ACE reports its share on its own (larger) unit base, which probably includes Hydra cranes not fully captured by ICEMA reporting. Both claims cannot hold on one denominator. Present both, with bases. |
+| H8 | BEML segment revenue in ₹ | **Filled** (S3, §4.2.1c) | Company presentation. Segment *results* are not disclosed (Ind AS 108 exemption) — permanent gap. |
+| H9 | BEML OB split Mar-26 / Jun-26 | **Filled** (S4) | CARE (Mar-26 ₹ split); CMD (Jun/Aug-26 %). |
+| H10 | BLAL listing date; "2016 OFS to 54%"; disinvestment status | **Partly filled** | Demerger approval 28-Jul-2022 and appointed date 25-Aug-2022 (P4); listing ~2023 per CMD; status "no progress" (CARE). The "2016 OFS" is still unverified, though GoI held 54.03% in both Mar-25 and Mar-26 (P2). |
+| H11 | VB sleeper rakes delivered; ICF order size | **Partly open** | First BEML sleeper flagged off 17-Jan-2026 (P2/P4); two rakes commissioned by SWR Aug-2026; ₹180.6 Cr ICF add-on Sep-2026 [V-snip]. A running delivery count against the original 10-rake order was not found. |
+| H12 | JCB/Tata Hitachi/L&T CMM/Komatsu India/Cat India/SANY India financials | **Still open** (except as before) | CRISIL JCB 2026 rationale not found (only Jul-2023: AAA, >40% share). Tata Hitachi: no rationale found. No MCA access. SANY India remains ~₹9,000 Cr CY2024 [V-snip]. |
+| H13 | Rental share; NBFC share of CE finance | **Still open** | Only "85–90% financed" (ICRA Mar-2025) and NBFC "70–75%" (2019). No rental-share estimate found. |
+| H14 | Global majors' revenue/margins | **Mostly filled** (D6) | Cat and Komatsu primary; SANY, Volvo CE, Deere and Hitachi CM [V-snip]. Global multiples still [K]. |
+| H15 | Ajax SLCM share; IPO details | **Not attempted** (out of member scope) | — |
+| H16 | BEML cost structure | **Filled** (S6) | AR P&L and notes. |
+| H17 | ACE crane-only and tower volumes | **Partly filled** | Tower capacity ~1,000; Hydra/NG mix; BHL ~150–160/quarter. Crane-only units are still undisclosed (management offered data by e-mail to analysts only). |
+| 2.4-5 | BEML cash balance | **Filled** (S7) | ₹6.7 Cr cash; ₹292 Cr ST debt. |
+| 2.4-7 | ACE Q1 segment conflict | **Filled** (S13) | — |
+| 2.4-9 | ACE dividend payout | **Filled** (S11) | — |
+| 2.4-10 | Q2 FY27 board dates | **Still open** | Neither announced by 25-Oct (screener announcement lists; last BEML item 13-Oct, ACE 21-Oct). |
+| New | DGTR final findings text; MoF non-notification reason | **Open** | dgtr.gov.in not surfaced. ACE management gives its own geopolitical explanation (P7). |
+| New | CIE scheme (Budget 2026-27 "Scheme for Enhancement of Construction & Infrastructure Equipment") outlay | **Open** | Announced in the Budget speech (lifts, fire-fighting equipment, TBMs for metro and high-altitude roads) [V-snip]; outlay not found. |
+
+## 4.5 New insights and new primer issues
+
+### New insights the first pass missed
+1. **GST 2.0 was not a CE demand stimulus.** Machines in 8426/8427/8429/8430 have been taxed at 18% since Nov-2017. The Sep-2025 cuts hit CE through **cheaper diesel engines, engine parts and tyres** (inputs, all 28% → 18%) and **dumpers/tippers (8704) at 18%** (relevant to BEML rear-dump trucks), plus cement (construction activity). The H1 FY27 recovery is therefore a **Stage V base effect and Hydra normalisation**, not a tax effect. Every "GST offset" sentence in Parts 1–3 should go.
+2. **BEML's FY26 earnings collapse is mostly two legacy contracts and a gratuity charge.** Adding back ~₹250 Cr of one-offs to the company's ₹328 Cr EBITDA gives **~₹578 Cr, ~13.3%** — FY25-like [E]. The investment debate is therefore about **execution and working capital**, not a structural margin reset. The new contingent items (other claims +75%; provisional LDs ₹22 Cr) show that the penalty risk has not gone away.
+3. **BEML runs with almost no cash.** It had ₹6.7 Cr of cash against ~₹2,990 Cr of receivables and contract assets (~251 days of revenue). It is funded by customer advances, supplier credit (₹1,024 Cr) and ₹292 Cr of short-term debt, and the ~₹900 Cr Bhopal Phase 1 will be debt-funded (CARE). Interest costs and gearing will rise through FY27–FY28 unless collections improve. The ~100% dividend payout in FY26 (₹17.09/share ≈ ₹142 Cr outflow [E]) is a GoI-driven choice that competes with this.
+4. **Inside BEML, "construction equipment" is now a spares business.** Machine (EME) sales fell 35% to ₹758 Cr, while spares plus servicing held at ~₹1,000 Cr (23% of revenue) — and management names spares as the highest-margin line. The listed sub-sector's two "CE" companies are a crane maker and a spares-plus-rolling-stock PSU.
+5. **Chinese crane imports peaked in FY24 and have since shifted from crawler to truck/AT cranes and tower cranes.** China still supplies ~71% of crane imports and ~51% of CE parts imports. The ADD lapse matters less to ACE's P&C core than the **FY25 tower-crane import surge (US$48 m, 2.6×)**, which hits ACE's ~60%-share tower business directly.
+6. **ICEMA's "exports" understate outbound flows.** ~6,400 machines (≈5% of the total) left as non-OEM exports in FY26 — grey or parallel exports, probably of new machines bought domestically [E]. This is also why "domestic" was restated between releases.
+7. **The industry turned in Q4 FY26, not Q1 FY27.** Derived Q4 FY26 ICEMA units rose ~4% after −9% in Q3. ACE's revenue turned positive in Q4 FY26 (+7%), and Escorts accelerated from there. Paired with the Union capex series (FY26 RE +4.2% → FY27 BE +11.5%), the writer can date the trough precisely to **Q3 FY26**.
+8. **ACE's KATO JV will deconsolidate part of ACE's revenue.** ACE's own truck, crawler and rough-terrain crane business moves into a 50:50 JV, likely equity-accounted. Reported revenue could dip slightly while value is preserved [E — confirm with Q2/Q3 FY27 notes]. Agri remains a drag: 87% material cost and a ₹2.5 Cr result on ₹262 Cr of revenue.
+
+### New primer issues (format as primer-issues.md)
+
+**beml.html**
+- **Segment numbers now exist in ₹.**
+  - FY26: M&C ₹1,789 Cr / Defence ₹1,522 Cr / Rail & Metro ₹1,040 Cr.
+  - FY25: ₹2,179 / ₹1,083 / ₹760 Cr.
+  - Five-year series FY22–FY26 from the 10-Jun-2026 investor presentation.
+  - Replace "illustrative" splits (§01–§05).
+- **Order-book mix:**
+  - Mar-26: R&M ₹11,320 Cr (71%) / Def ₹3,734 Cr (24%) / M&C ₹842 Cr (5%) (CARE).
+  - Aug-26: R&M 65 / Def 25 / Mining 4 / Exports 6.
+  - Replace the Q3 FY26 68/25/7 if it was added after the first pass.
+- **Margin story:**
+  - FY26 company EBITDA was 7.54% (₹328 Cr) vs 13.20% (₹531 Cr) in FY25.
+  - The drop came from **~₹250 Cr of one-offs**: an onerous-contract provision of ₹232.6 Cr on two legacy FX metro contracts, plus a gratuity provision under the labour codes. It was not the "~₹80 Cr" restart provision alone.
+  - Add: break-even revenue ~₹4,000 Cr; management's "sustainable ~16%" (Jun-26) vs "at least 13%" for FY27 (Aug-26).
+- **Guidance language:**
+  - Change "+30% revenue, 13–14% EBITDA, ₹20,000 Cr inflow" to "high-20s growth, ≥13% EBITDA; ₹20,000 Cr inflow is a stretch goal (management: 30–40% probability)".
+  - Note the FY27 opening executable book of ₹5,500 Cr.
+- **Balance sheet:**
+  - Add cash ₹6.7 Cr, ST borrowings ₹292 Cr, receivables + contract assets ~₹2,990 Cr, and CARE's debt/PBILDT of 7.99×.
+  - Bhopal Phase 1 (~₹900 Cr) is debt-funded; FY27 capex is ₹600+ Cr.
+- **Cost structure:** materials 53% and employees 19% of revenue (₹835 Cr; 4,923 staff); R&D includes ~₹100 Cr of prototype cost of sales (VB sleeper, 5RS DM, HSR design).
+- **BLAL:**
+  - Demerger approved by MCA on 28-Jul-2022 (appointed date 25-Aug-2022), so "incorporated 2021" needs checking.
+  - BEML leases back ~300 acres in Mysuru and 36 acres in Bengaluru from BLAL (99-year lease, review within five years).
+  - New ~80-acre plant site at Mungeli/Bilaspur (Chhattisgarh) for wheeled mining equipment.
+- **Corporate actions:** stock split ₹10 → ₹5 (3-Nov-2025); FY26 dividend ₹17.087/share (~100% payout).
+- **Exports:**
+  - FY26 exports ₹176.5 Cr (FY25 ₹298.8 Cr).
+  - Export order book US$107 m (Mar-26) → ~US$115–119 m → ~US$200 m target, with the first metro export order.
+  - Pipeline: West Asia defence US$250 m; Dublin MetroLink US$90 m.
+- **Disclosure:** BEML is **exempt from segment reporting** (Ind AS 108 defence exemption), so segment margins will never be disclosed. Say so rather than calling the margins "not available".
+- **New products and orders:** HAL LCH fuselages (48 units); HSR first train ~Jan-2027; LHB 600-coach order; MRVC tender cancelled.
+- **Rivals:** the AR itself names Caterpillar, Komatsu, Alstom and Siemens and flags "dumping" by international players in mining and metro.
+
+**action-construction-equipment.html**
+- **Retract the GST line.** If the first-pass primer issue "add GST 2.0 (28% → 18%)" was applied, reverse it. Cranes, forklifts and construction machinery have been taxed at 18% since 15-Nov-2017; GST 2.0 only cut inputs (engines, tyres), which modestly helps cost. Agri tractors went 12% → 5%.
+- **Segments (AR FY26):**
+  - CMCE ₹2,953 Cr (−4.6%), result ₹550 Cr (18.6%).
+  - Agri ₹262 Cr gross, result ₹2.5 Cr (materials 87% of revenue).
+  - Others ₹76.6 Cr, result ₹19.6 Cr.
+- **Dividend:** ₹2/share (~6% payout); remove any reference to screener's 137%.
+- **KATO JV facts:** incorporated 11-Mar-2026; ₹200 Cr investment (KATO ₹100 Cr cash, ACE ₹100 Cr in kind); ACE's truck, crawler and rough-terrain crane business transfers into the JV; ~3% royalty only on KATO-design export models; JV revenue from Q3 FY27. Flag likely equity accounting.
+- **Crane market detail:** Hydra 60–65% (FY25) → <60% (FY26) → ~60% (FY27E) → ~50/50 in 2–3 years; NG–Hydra price gap ~30–35%; ACE's mix ~60/40; tower-crane capacity ~1,000/yr.
+- **China tower-crane imports:** US$48 m in FY25 (2.6× FY24), US$32 m in FY26 — a risk to the ~60% tower-crane share; add to risks.
+- **Q1 FY27 facts:** CMCE ₹738.4 Cr (company), 2,740 units; exports only ~3% of revenue and defence ~5%; price hikes ~10% vs input inflation 11–12%; FY27 revenue guidance still not issued as of 25-Oct.
+- **End-markets:** manufacturing & logistics ~45%, infrastructure ~35%, real estate ~13%, agri ~7%; data centres ~1.5–2% of revenue.
+- **Workforce:** 1,500 permanent employees.
+
+**General (both primers)**
+- Union capex: FY26 RE ₹10.96 lakh Cr (+4.2%, below the ₹11.21 lakh Cr BE); FY27 BE ₹12.22 lakh Cr (+11.5% on RE).
+- CEV Stage V: a single date, 1-Jan-2025, for all power bands. The "Oct-2026" date is for tractors (TREM V) and in-service monitoring, not a new CEV step.
+
+### Additional source URLs (Part 4)
+- BEML: P1 https://www.bemlindia.in/wp-content/uploads/2026/08/InvestorsCall-ElaraSec-BEML-Aug13-2026.pdf · P2 https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a50370d-8d7d-4e83-a4bb-a4b7d9e64d8c.pdf · P3 https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65efdcc5-1d39-4b8d-ae3c-10781cafefb5.pdf · P4 https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=806b7adc-754b-4676-a319-3faff84e3e0f.pdf · P5 https://www.careratings.com/upload/CompanyFiles/PR/202607120729_Beml_Limited.pdf
+- ACE: P6 https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cde0cacd-dc6a-4498-8f52-0265ef5a35e8.pdf · P7 https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94835795-c073-4d0d-8373-b8e45971e71e.pdf · P8 https://www.bseindia.com/xml-data/corpfiling/AttachHis/4292123c-7a4c-4823-abb8-a7edd4c0f398.pdf
+- Government/trade: G1 https://www.indiabudget.gov.in/doc/Budget_at_Glance/budget_at_a_glance.pdf · G2 https://tradestat.commerce.gov.in/eidb/commodityx_countries_wise_import (form: HS code, year 2025-2026, country China P RP, US$ mn) · G3 https://gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau_0.pdf · G4 https://cbic-gst.gov.in/pdf/press-release/CBEC_Press_Release_dt_16.11.2017after_on_GST%20Rate_Changes.pdf · G5 https://www.coal.nic.in/sites/default/files/2026-04/Press020426.pdf
+- Industry/secondary: ICEMA 9M FY26 https://www.mojo4industry.com/construction-equipment-industry-sees-10-decline-in-domestic-sales/ · ICEMA FY26 https://www.nbmcw.com/news/equipment-machinery/india-construction-equipment-sales-decline-2-in-fy26-exports-jump-31-5-icema.html · CEV gazette chain https://gsasindia.com/blog/cev-stage-v-construction-equipment-india · CMV 11th Amendment report https://www.tribuneindia.com/news/india/centres-anti-pollution-push-emission-norms-for-tractors-farm-equipment-tightened/ · Escorts Q1 FY27 https://www.autocarpro.in/news/escorts-kubota-guides-12-15-percent-construction-equipment-growth-for-fy27-133992
+- Global: X1 https://investors.caterpillar.com/news/news-details/2026/Caterpillar-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx · X2 https://www.komatsu.jp/en/newsroom/2026/20260428_1 · SANY https://kyodonewsprwire.jp/release/202604087125 · Volvo CE https://www.volvoce.com/global/en/news-and-events/news-and-stories/2026/volvo-ce-demonstrates-better-earnings-in-q4-2025/ · Deere https://www.deere.com/assets/pdfs/common/news/deere-4q25-earnings-release.pdf
+
+*End of Part 4. Scratch notes: /tmp/construction-equipment-deep/notes.md; raw PDFs and text in /tmp/construction-equipment-deep/dl/; TradeStat HTML in /tmp/construction-equipment-deep/web/.*
