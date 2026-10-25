@@ -1253,3 +1253,687 @@ All aggregates are **straight sums of the company rows above on ONE basis: scree
 - **EU steel measure:** https://trade.ec.europa.eu/access-to-markets/en/news/new-eu-safeguards-steel-imports-third-countries · **EU ADD on Chinese GE:** https://eur-lex.europa.eu/eli/reg_impl/2022/558/oj
 - **IOCL needle coker (2020):** https://iocl.com/NewsDetails/56590
 - **Green steel taxonomy:** https://bigmint.co/insights/detail/india-first-country-in-world-to-release-green-steel-taxonomy-607749
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (2026-10-25)
+
+Second-pass, primary-source research for the writer. Compiled 25-Oct-2026 (Sunday). Nothing in Parts 1–3 has been edited; where Part 4 disagrees with Parts 1–3, **Part 4 wins** (see the Supersedes table, §4.0).
+
+**How this part was built.** About 45 web fetches this session, almost all of them primary documents:
+- **Company filings pulled from BSE** (generic browser user-agent, no login):
+  - Graphite India: Q1 FY27 earnings presentation (4-Aug-2026) and FY26 Annual Report (cover letter 8-Jul-2026).
+  - HEG: Q1 FY27 investor presentation (23-Jul-2026), Q1 FY27 earnings-call transcript (call 24-Jul-2026, filed 28-Jul-2026), HEG GreenTech NDR presentation (10-Jul-2026) and FY26 Annual Report.
+  - RHI Magnesita India: Q1 FY27 call transcript (call 12-Aug-2026, filed 18-Aug-2026), Q1 FY27 presentation, Q4 FY26 presentation (May-2026) and FY26 Annual Report.
+- **Screener.in consolidated pages** for GRAPHITE, HEGAM and RHIM (re-pulled 25-Oct-2026).
+- **The Federal Register**, read through govinfo.gov and the federalregister.gov API: every notice in the US large-diameter graphite electrode AD/CVD case, plus the CBP cash-deposit message (customsmobile mirror).
+- Industry sources as listed in §4.3.
+
+**Section order on the page.** The numbering follows the brief, but the sections were appended in chunks, so they sit on the page in this order: **4.2 (company packs) → 4.3 (industry data) → 4.0 (Supersedes) → 4.1 (verification table) → 4.4 (gap log) → 4.5 (new insights and primer issues).**
+
+**Tags in Part 4.**
+- **[V]** = read this session in the named primary document.
+- **[V-snip]** = search-result text only.
+- **[E]** = arithmetic or estimate, with the inputs shown.
+- **[K]** = memory.
+
+**Three findings that change the story** (details below):
+1. **Graphite India's "EBITDA" includes other income.** The ₹375 Cr FY26 figure, the ₹241 Cr Q1 FY27 figure and the "28.6%" margin all add treasury income to operating profit. The company's own slide footnote says so. HEG's "29% EBITDA" is built the same way, and an analyst on the HEG call confirmed it: "28%, 29%, including other income, right?" → "Yes". The core (ex-other-income) Q1 FY27 margins are **17.1% (Graphite India, consolidated)** and **~23.6% (HEG, standalone)**.
+2. **The US AD/CVD final determinations are NOT due on 8-Dec-2026.** The India AD final was postponed to no later than 135 days after the 30-Sep-2026 preliminary, i.e. **~12-Feb-2027**, and the CVD final is aligned with it. The ITC final hearing is set for **9-Feb-2027**.
+   - **HEG's preliminary AD margin is 4.97% (cash deposit 1.15%)**, against Graphite India's 12.22% / 9.88% and 6.95% / 3.53% for all others.
+   - Critical circumstances were found for all Indian exporters, so cash deposits apply retroactively from 2-Jul-2026.
+3. **The HEG demerger left the "HEG Limited" electrode company holding a 9.98% stake in GrafTech plus the captive power plants (66 MW thermal + 13.5 MW hydro).**
+   - Post-scheme promoter holdings: **56.28% in HEG Limited** and **60.72% in HEG GreenTech / HEG Advanced Materials**.
+   - HEGAM's post-scheme share count is **~32.9 Cr** (management, Q1 FY27 call). It matches screener's ₹6,556 Cr m-cap ÷ ₹199.
+   - HEG Limited inherits the pre-scheme **19.30 Cr** shares 1:1 (equity capital ₹38.60 Cr ÷ FV ₹2).
+
+---
+
+## 4.2 Company packs (primary-source)
+
+### 4.2.1 Graphite India (GRAPHITE · BSE 509488)
+
+**Documents read [V]:**
+- Q1 FY27 Earnings Presentation, 4-Aug-2026: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f01b616-4c65-4cfe-aa9f-35b224cba470.pdf
+- FY26 Annual Report: https://www.bseindia.com/xml-data/corpfiling/AttachHis/05906612-3e23-4372-a823-6772a01ba067.pdf
+- Screener consolidated page (25-Oct-2026).
+- No Q1 FY27 call transcript is on BSE or screener. Graphite India publishes a presentation but has held no regular earnings call in recent quarters (screener lists PPTs only). The "management commentary" therefore comes from the Chairman's message in the presentation and the AR's MD&A.
+
+#### (a) Management-commentary digest (Q1 FY27 presentation, 4-Aug-2026; FY26 AR MD&A, Jul-2026)
+- **Volume-led quarter.** Q1 FY27 net sales of ₹842 Cr (+26.6% YoY) were "led by growth in volume". **Standalone capacity utilisation was 97%, vs 82% in Q1 FY26 and 104% in Q4 FY26** [V PPT slide 11].
+- **Price.** "Graphite electrode prices increased marginally compared to the previous quarter, [but] these gains were offset by both higher raw materials and logistics costs" [V Chairman's message]. There is no price guidance.
+- **US trade case.** "Given the Company's regionally diversified export portfolio, the impact of the earlier reported United States countervailing duties (CVD) on its financial performance remains limited" [V].
+  - The FY26 AR adds that **Brazil has also initiated anti-dumping investigations** on graphite electrodes, and that the company "is actively engaged in both the processes" [V AR MD&A]. **This Brazil case is new to the dossier.**
+- **Germany.** "It has been decided to close the operations of the Specialities and Coating divisions in Germany due to the ongoing impact of the Russia–Ukraine conflict and the reduced competitiveness of these operations" [V].
+  - The AR places the shutdown of German *electrode* production in **FY2022-23**. Bavaria Electrodes GmbH has been **in liquidation since 1-Oct-2022** [V AR].
+  - So the decision announced in Jul-2026 (reported in Part 1 as a "six-month closure") is a permanent closure of the remaining specialities and coatings units, not a six-month pause. The Part 1 wording came from a secondary article.
+- **Expansion.** "The first phase of electrode capacity expansion is expected to be commissioned in the current financial year" (FY27). "The SGAM project continues as previously announced" [V].
+  - FY26 capex was **₹252 Cr consolidated** (Graphite & Carbon segment ₹198 Cr) and ₹250 Cr standalone, vs ₹166 Cr in FY25 [V AR].
+- **Diversification.** The company has "made advancements in developing products for aerospace and defence applications". The AR says it is validating ultrafine (10-micron) isostatic graphite [V]. **The GRP pipe division has been closed** [V AR].
+- **Outlook.** "Cautiously optimistic about the medium-term outlook for the graphite electrodes industry", citing integrated steelmakers adopting "EAF … in conjunction with DRI and scrap" [V].
+- **Exports.** "Exports account for less than half of the total revenues" [V PPT slide 14]. The BRSR puts exports at **41.41% of standalone turnover** in FY26. By customer location, consolidated revenue was **Rest of World ₹1,225 Cr (42.6%) vs India ₹1,648 Cr** (FY25: 35.1% RoW) [V AR segment note].
+  - **The dossier's "~60–70% exported" (Part 1 §0 and §2.2) is wrong for Graphite India.** It is HEG that exports ~65–75%.
+- **Customer concentration.** One customer accounted for **₹354 Cr (12.3% of FY26 revenue; FY25 ₹411 Cr)**, all in Graphite & Carbon [V AR]. It is probably a domestic steel major [E].
+
+#### (b) The EBITDA basis: gap #2 reconciled
+The consolidated table in the company's presentation (slide 8) reads [V]:
+
+| ₹ Cr (consolidated) | Q1 FY27 | Q1 FY26 | Q4 FY26 | FY26 | FY25 |
+|---|---|---|---|---|---|
+| Net sales | 842 | 665 | 816 | 2,852 | 2,560 |
+| Other income | 97 | 150 | 39 | 174 | 438 |
+| **"EBITDA/(Loss)" (company)** | **241** | 193 | (100) | **375** | 692 |
+| "Margin" (on net sales) | **28.6%** | 29.0% | (12.3)% | 13.1% | 27.0% |
+| Interest | 4 | 2 | 18 | 25 | 11 |
+| Depreciation | 23 | 24 | 23 | 95 | 90 |
+| PBT before exceptional | 214 | 167 | (141) | 255 | 591 |
+| Exceptional (new Labour Codes) | — | — | 16 | (11) | — |
+| PAT | 171 | 133 | (105) | 171 | 458 |
+
+- **Slide 10, note 1: "Operating Profit/(Loss) is including Other Income."** So company EBITDA = screener OP + other income:
+  - Q1 FY27: 144 + 97 = 241.
+  - FY26: 202 + 174 ≈ 375. The company's FY26 other income of ₹174 Cr differs from screener's ₹162 Cr by about the ₹11 Cr exceptional item, which screener nets into other income.
+- **Core (ex-other-income) EBITDA:** Q1 FY27 **₹144 Cr = 17.1%**; Q1 FY26 ₹43 Cr = 6.5%; FY26 ₹202 Cr = 7.1%; FY25 ₹253 Cr = 9.9% [E from V].
+  - The "17.1%" in press reports is the core margin. **The "28.6%" is the company's other-income-inclusive figure.** Both are "right"; the report must label which it uses.
+- **Standalone (slide 9):** Q1 FY27 net sales ₹765 Cr (+19.0%), EBITDA incl. other income ₹222 Cr (29.0%), PAT ₹157 Cr. FY26 standalone net sales ₹2,812 Cr, EBITDA ₹461 Cr (16.4%), PAT ₹264 Cr, EPS ₹13.54 [V].
+- **Inventory write-down (NRV) balance, consolidated:** ₹77 Cr (30-Jun-2025) → ₹47 Cr (31-Mar-2026) → ₹24 Cr (30-Jun-2026) [V slide 8 footnote].
+  - The reversal of ~₹23 Cr of NRV provision in Q1 FY27 flatters Q1 core OP [E].
+  - The Q4 FY26 operating loss came with FY26 write-downs, but the year-end NRV balance was *lower* than a year earlier, so most of the Q4 loss was not a new NRV charge. The rest of the Q4 hit sits in raw-material and other costs (Q4 expenses ₹955 Cr vs ₹600 Cr in Q3) [E from V screener].
+
+#### (c) Segment results (consolidated, ₹ Cr) [V AR segment note; Q1 FY27 PPT slide 13]
+
+| Segment | FY25 revenue | FY26 revenue | FY25 result | FY26 result | Q1 FY26 revenue | Q4 FY26 revenue | Q1 FY27 revenue | Q1 FY26 PBIT | Q4 FY26 PBIT | Q1 FY27 PBIT |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Graphite & Carbon | 2,247 | **2,593** | 146 | **164** | 595 | 758 | **687** | 21 | 94 | **56** |
+| Steel (Powmex HSS/alloy) | 227 | 257 | 28 | 42 | 51 | 76 | 111 | 5 | 15 | 43 |
+| Others (GRP, power, financing subsidiary) | 86 | 1 | 66 | (24) | 20 | (18) | 45 | 12 | (25) | 42 |
+| Unallocated: net FVTPL gain on investments | — | — | 336 | 47 | — | — | — | — | — | — |
+| Unallocated: interest income | — | — | 72 | 69 | — | — | — | — | — | — |
+| Unallocated (income)/expense, net (Q) | — | — | — | — | — | — | — | (131) | 207 | (77) |
+
+- **The electrode segment earned only ₹164 Cr on ₹2,593 Cr (6.3%) in FY26.**
+  - The **FY24–FY25 profits were investment gains:** FVTPL gain ₹336 Cr in FY25 vs ₹47 Cr in FY26.
+  - In Q1 FY27 Graphite & Carbon PBIT was ₹56 Cr on ₹687 Cr (8.2%). **The Steel segment (₹43 Cr) and "Others" (₹42 Cr, the financing subsidiary) made up most of the rest.** Even the strong Q1 FY27 is not mainly an electrode-margin story yet.
+  - "Others" carries the Carbon Finance Ltd treasury subsidiary (note #: "relates to a subsidiary engaged in investing/financing activities") [V].
+
+#### (d) Volumes, utilisation and realisation (gap #1)
+- **Production of "Graphite Electrodes and Other Miscellaneous Carbon and Graphite Products": FY26 92,889 t vs FY25 85,225 t (+9.0%)** [V AR Directors' Report].
+  - Calcined petroleum coke (CPC): 46,362 t vs 50,788 t. Carbon paste: 2,044 t. Impervious graphite equipment: 2,097 t. HSS & alloy steel: 3,193 t vs 3,004 t. GRP pipes: 984 t [V].
+  - The 92.9 kt includes non-electrode carbon products, so it is **not** the electrode tonnage. On the 80 kt electrode base, utilisation reported by the company was 82% (Q1 FY26) → 104% (Q4 FY26) → 97% (Q1 FY27) [V]. **FY26 electrode output was therefore ≈ 72–76 kt** [E: ~90–95% average × 80 kt].
+- **Capacity:** "manufacturing capacity of 80,000 tonnes per annum … spread over two plants at Durgapur and Nashik" [V PPT slide 14]. This confirms the ICRA reading in Part 1. The 18 kt German electrode plant is shut and being liquidated, so **"98 kt" should not be used even as nameplate**.
+- **Implied realisation [E]:**
+  - G&C segment revenue ₹2,593 Cr ÷ ~74 kt ≈ **₹3.5 lakh/t (~$4,000/t at ₹87/$)**. This is an upper bound: the segment also contains CPC sales, carbon paste, impervious graphite equipment and specialities.
+  - Assuming ~₹250–300 Cr of non-electrode G&C revenue [E], electrode realisation ≈ **₹3.1–3.2 lakh/t (~$3,600–3,700/t)**. This is consistent with GrafTech's ~$3,900/t.
+  - **Treat as [E].** The company does not disclose tonnes sold.
+- **Export share:** 41–43% (see (a)).
+
+#### (e) 5-year history (consolidated, ₹ Cr) [V screener 25-Oct-2026; company EBITDA from PPT/AR]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 3,027 | 3,181 | 2,950 | 2,560 | 2,852 |
+| Screener OP (core EBITDA) | 458 | 312 | −143 | 253 | 202 |
+| OPM % | 15 | 10 | −4.9 | 10 | 7 |
+| Other income | 294 | 80 | 1,258 | 438 | 162 (co. 174) |
+| Company "EBITDA" (OP + OI) | ~752 | ~392 | ~1,115 | 692 [V] | 375 [V] |
+| PBT | 693 | 322 | 1,017 | 591 | 244 |
+| PAT | 505 | 199 | 805 | 458 | 171 |
+| ROCE % (screener) | 14 | 7 | 1 | 10 | 5 |
+| Dividend/share (₹, FV 2) | ~10 [K] | ~8.5 [K] | 11 [K] | 11 [K] | **7 [V AR]** |
+| Net cash (company basis, Mar) | — | — | ~3,500 [E] | ~3,900 [E] | **3,767 [V]** |
+
+- **FY26 dividend = ₹7/share** on 19,53,75,594 shares (≈ ₹137 Cr; 78% payout), paid by 17-Aug-2026 [V AR]. **Part 2's "₹16.48/share" (Sahi) is wrong.** Screener's 1.02% yield on ₹689 confirms ~₹7. Earlier-year DPS values are [K] and need a check before use.
+
+#### (f) 8-quarter trend (consolidated, ₹ Cr) [V screener; company EBITDA from PPT where shown]
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 643 | 523 | 666 | 665 | 729 | 642 | 816 | 842 |
+| OP (core) | 110 | −8 | 39 | 43 | 43 | 42 | −139 | 144 |
+| OPM % | 17 | −1.5 | 6 | 6 | 6 | 7 | −17 | 17 |
+| Other income | 168 | 19 | 57 | 150 | 89 | 81 | 55 | 97 |
+| Company EBITDA (incl. OI) | — | — | — | 193 [V] | — | — | (100) [V] | 241 [V] |
+| PAT | 194 | −21 | 49 | 133 | 76 | 67 | −105 | 171 |
+| Utilisation (standalone) | — | — | — | 82% [V] | — | — | 104% [V] | 97% [V] |
+| Net cash (₹ Cr, company) | — | — | — | 4,173 [V] | 3,921 [V] | 3,966 [V] | 3,767 [V] | **3,939 [V]** |
+
+- **Net cash at 30-Jun-2026: ₹3,939 Cr** (cash & investments ₹4,205 Cr less gross debt ₹266 Cr); standalone ₹3,834 Cr [V slide 12]. **This supersedes Part 1's "~₹3,900 Cr (ICRA, Jan-2026)" as the latest figure.** EV at ₹13,462 Cr m-cap ≈ ₹9,520 Cr [E].
+
+#### (g) Annual-report findings (FY26 AR) [V]
+- **Subsidiaries and associates.**
+  - Graphite International B.V. (Netherlands) holds four German step-downs: Graphite Cova GmbH, Bavaria Electrodes GmbH (in liquidation), Bavaria Carbon Specialities GmbH and Bavaria Carbon Holdings GmbH. It also holds General Graphene Corp (US; **60.25%** per the Q1 FY27 PPT vs 60.93% in the ICRA annex).
+  - **Godi India Pvt Ltd: associate at 45.76% (Mar-2026)**. It was an investment in compulsorily convertible preference shares (Oct-2023), followed by rights issues. Godi "is in development stage & has not yet commenced commercial operations".
+  - The 23-Oct-2026 rights subscription (₹58.7 Cr) took the stake to 52.68%, **making Godi a subsidiary** (consolidation from Q3 FY27) [E from V].
+  - A loan of ₹7.5 Cr from Carbon Finance to Godi (FY25) was repaid in FY26.
+- **Contingent liabilities (consolidated, 31-Mar-2026):** total about **₹121 Cr** — taxes ₹73 Cr (income tax ₹40 Cr, GST ₹12 Cr, service tax ₹13 Cr), labour ₹16 Cr, other ₹14 Cr, plus a German public-law environmental obligation of ₹18.5 Cr. **Immaterial against ₹3.9k Cr of net cash.**
+- **Power:** 18 MW hydro (Karnataka) plus 5 MW added; wind 18.9 MW; solar 13.8 MWp; 59.83 MU generated in FY26 [V AR; PPT]. **The captive share of graphitisation power is small** (an 80 kt plant needs ~350–450 GWh/yr [E]), so Graphite India is largely a grid-power buyer, unlike HEG.
+- **Rating:** ICRA AA+ (Stable)/A1+ reaffirmed (AR repeats Part 1's ICRA finding).
+- **Main risks named in the MD&A:** Chinese steel exports (~118 Mt in 2025) pressuring global steel; US and Brazil trade cases; currency (natural hedge from needle-coke imports vs electrode exports); "highly competitive" electrode pricing.
+- **Q2 FY24 other income (₹1,045 Cr), gap #8:** the FY26 AR does not revisit it, and the FY24 AR was not re-read this session (budget). The FY25 segment note shows FVTPL gains of ₹336 Cr in FY25 alone, so a ~₹1,000 Cr FY24 quarter is consistent with **realised/fair-value gains on the investment book** (mutual funds/equities) [E]. **Still unverified.**
+
+---
+
+### 4.2.2 HEG — before and after the 1-Sep-2026 demerger (BSE 509631; listed today as HEG Advanced Materials, NSE HEGAM)
+
+**Documents read [V]:**
+- Q1 FY27 Investor Presentation (23-Jul-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=393ba8bf-2ea2-45bb-9257-de3b5890e9e4.pdf
+- Q1 FY27 Earnings Call Transcript (call 24-Jul-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ce76ae2-2777-4f96-a8e5-2c03fd82f803.pdf
+- HEG GreenTech NDR presentation (10-Jul-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88bdd2bc-5c8c-4533-afa7-016ceccb8057.pdf
+- FY26 Annual Report: https://www.bseindia.com/xml-data/corpfiling/AttachHis/1ee1b27d-6c24-4127-8901-e99deff90773.pdf
+- Screener HEGAM page.
+- All of these were issued by the **pre-demerger HEG Limited**. The call was held under the old name with both future CFOs present: Ravi Tripathi (HEG Limited) and Neha Rajvanshi (HEG Advanced Materials).
+
+#### (a) What each entity holds after the scheme [V GreenTech NDR slide 6–7; transcript]
+
+| | **HEG Limited (new; ex-HEG Graphite Ltd, renamed 12-Oct-2026) — electrodes** | **HEG Advanced Materials Ltd (the listed BSE 509631 / NSE HEGAM; "HEG GreenTech" in the NDR deck)** |
+|---|---|---|
+| Core assets | Graphite electrodes, Mandideep: **100 kt (FY26) → 115 kt (FY29)**; captive power **thermal 66 MW + Tawa hydro 13.5 MW**; **9.98% strategic stake in GrafTech International (USA)** | TACC anode (20 kt, SOP Q1 FY28 → 60 kt by FY32); graphene (150 t); REPlus BESS (74% owned, 1 GWh → 6 GWh by H2 FY27); green power **292 MW (FY26) → 754 MW (FY28)**: Malana 86 MW (2001), Allain Duhangan 192 MW, Phatta 76 MW (Uttarakhand, under construction, ~FY30), wind 14 MW (Maharashtra), 300 MWp solar, 100/200 MWh BESS IPP (Gujarat) |
+| Promoter / public (post-scheme) | **56.28% / 43.72%** | **60.72% / 39.28%** (matches screener's Sep-2026 shareholding exactly) |
+| Shares | **~19.30 Cr** (1:1 mirror of pre-scheme HEG: equity capital ₹38.60 Cr ÷ FV ₹2) [E from V] | **~32.9 Cr** post-scheme (management: "around 32.9 crores shares"; ~13 Cr new shares issued to Singularity, promoters and RSWM for the BEL merger; "no fresh issuance … once this has been routed") [V transcript] |
+| Debt | Parent "debt-free with no long-term loan borrowings"; short-term borrowings ~₹494–586 Cr (working capital) [V PPT] | **Gross debt ~₹1,500 Cr by 31-Mar-2027** (TACC SBI facility ₹1,240 Cr plus ~₹600 Cr in BEL subsidiaries from the Malana stake purchase) [V transcript] |
+| Listing | **Not yet listed as of 25-Oct-2026** (no NSE/BSE trading found; Part 1 finding stands). The NDR deck shows it as "(Listed)" in the target structure [V] | Listed (HEGAM, ₹199; m-cap ₹6,556 Cr) |
+
+- **Treasury split (gap #10): not disclosed.** The standalone treasury of **₹858 Cr (30-Jun-2026)** and the **GrafTech stake (2,577,106 shares post 1:10 reverse split; fair value ₹165.4 Cr at 31-Mar-2026 vs ₹181.8 Cr)** [V AR investment note] belonged to the pre-scheme company.
+  - The NDR slide places the GrafTech stake with HEG Limited. The Chairman's AR letter calls it "a powerful needle coke hedge".
+  - **TACC OCDs of ₹379 Cr** held by HEG are a GreenTech-side asset [V AR] [E allocation].
+  - The first separate balance sheets will come with the Q2 FY27 results (HEGAM board **3-Nov-2026**).
+- **Entitlement ratio:** 1 HEG Limited share (FV ₹2) per HEG share (record date 7-Sep-2026), per Part 1/5paisa. Not re-read in the scheme document this session (the NDR deck does not restate it). BEL holders got 8 HEGAM : 7 BEL [Part 1].
+- **Expected listing date of new HEG Limited:** none announced in filings read. Part 1's "within 45 days" (5paisa) remains the only indication.
+
+#### (b) Management-commentary digest, Q1 FY27 call (24-Jul-2026) [V transcript]
+- **Utilisation and volume.**
+  - The plant ran at ">90%" in Q1 (an analyst inferred ~24 kt in the quarter, ~96 kt annualised), "marginally lower than the corresponding period of last year".
+  - Guidance: **90–95% for FY27; "no more headroom beyond 94% or 95%"**. The Chairman: "we will produce at 90%, 95% capacity utilization come what may".
+- **Pricing.**
+  - The order book is full ~3–4 months ahead, "committed up to September", so **price hikes flow from October onward**. "Whatever new business we are booking are at higher prices."
+  - Management cited GrafTech's **$600–1,200/t** increase and **a Japanese peer (Tokai) at $930/t**, and said "we will follow suit".
+  - In the media an executive spoke of a ~7–8% price improvement in Q1 (analyst paraphrase).
+- **Costs.**
+  - Needle coke is up **~$200–300/t** since the West Asia war. The **total cost of making electrodes is up 10–15%** (Riju Jhunjhunwala's figure, clarified on the call), and needle coke itself rose more.
+  - The higher-cost coke reaches the P&L in **Nov-2026 to Jan-2027**.
+- **Margin.** "We'll be able to maintain the margins that we are now talking about … higher margin than anybody else." An analyst asked whether that meant "28%, 29%, **including other income**", and the Chairman said "Yes".
+- **Geography.**
+  - **Exports "in the region of 70%, 75%" for 25–30 years**; the presentation says "approx. 65–70% of production to about 35 countries". The FY26 BRSR gives **67.03% of turnover**.
+  - Outside-India revenue was ₹1,722 Cr of ₹2,569 Cr (67.0%) in FY26 [V AR geography note].
+  - **Middle East (MENA) ~20%** over the year; volumes were redirected, not lost.
+  - **US "less than about 10%"** of the business: "we will retain America … American prices are higher than most of the others".
+- **US trade case.** Management expected the CVD by end-July and AD by end-September: "we know that we have not done dumping".
+  - The outcome: **AD prelim 4.97% (cash deposit 1.15%)**, the lowest of the Indian rates; CVD 6.99%. Combined cash deposit is ~8.1% vs ~13.6% for Graphite India.
+- **Demand.** An OECD figure of **~71 Mt of new EAF capacity by end-2028**. 20–21 Mt came up in 2024–25 and 8–10 Mt in H1 2026; ~60 Mt is expected in 2026–28.
+  - The AR Chairman's letter adds ">100 Mt new EAF ex-China by 2030; 20 Mt operational, 60 Mt under construction". At 1.5–2 kg/t that is **150–200 kt of incremental electrode demand**.
+- **Industry structure.** HEG's 100 kt is "by far the world's largest single location plant"; the next two largest plants are ~70 kt each.
+  - "Except ours, no additional capacity announced by any other company in the western world" [V PPT].
+  - Management disputed an analyst's "600 kt UHP market, one-third Chinese": the Chinese share is "much less, maybe half of that".
+- **Expansion.** 100 → 115 kt: **capex ₹650 Cr, production from Q1 CY2028** [V AR Chairman].
+- **GreenTech (now HEGAM) — management targets:**
+  - **TACC:** ₹2,200 Cr for 20 kt; 40% spent by Jun-2026, 90% by FY27, 10% in Q1 FY28. SOP in Q1 FY28 at 40–50% utilisation.
+  - **Anode revenue:** ₹600–700 Cr in year 1, >₹1,200 Cr in year 2, ₹1,500–1,600 Cr in year 3, at ~35% EBITDA. 30 kt total = ₹3,100 Cr (70% debt). A further +10 kt (~₹800 Cr) by 2029.
+  - **Correction to Part 1:** the "**~70% of capacity on 3–5-year contracts with Tier-1 players**" quote is the **TACC anode** MD's (Ankur Khaitan), about **anode** offtake. **It is not about electrodes.** Part 1 §0, §5.1 and Part 2 attributed it to electrodes, which is wrong.
+  - **BEL:** two hydro plants (~300 MW incl. Malana 86 MW + AD 192 MW), debt-free at the project level, FCF **₹320–350 Cr a year**. Planned additions: Phatta 75–76 MW by ~2029–30 and 300 MWdc C&I solar in 18 months (+~₹200 Cr EBITDA). Target: a "4-digit EBITDA by 2030".
+  - **Anode offtake MOUs (NDR deck):** >40 kt with a European OEM; >70 kt with a North American automaker; others in validation. All non-binding.
+
+#### (c) KPI table from the Q1 FY27 presentation and call (standalone ≈ the new HEG Limited) [V]
+
+| ₹ Cr (standalone) | Q1 FY26 | Q4 FY26 | Q1 FY27 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue from operations | 612.8 | 603.2 | **680.9** | 2,153 | 2,568.5 |
+| Other income | 47.7 | 16.7 | 50.0 | ~126 [E] | 92.0 |
+| Raw materials (incl. inventory change) | 254.6 | 255.9 | 251.1 | — | 1,063.4 |
+| Power & fuel | 97.4 | 93.1 | 100.0 | — | 369.5 |
+| Employee | 27.6 | 35.4 | 32.5 | — | 123.5 |
+| Other expenses | 127.3 | **361.3** (incl. GrafTech fair-value loss) | 136.0 | — | 607.2 |
+| **Company EBITDA (incl. OI)** | 154 (23%) | **(126)** | **211 (29%)** | 388 (17%) | **497 (19%)** |
+| **Core EBITDA ex-OI [E]** | ~107 (17%) | ~(143) | **~161 (23.6%)** | ~262 [E] | ~405 (15.8%) |
+| D&A | 53.0 | 52.6 | 49.6 | — | 213.2 |
+| Finance cost | 8.2 | 10.7 | 10.0 | — | 37.2 |
+| PBT | 92.4 | (189.0) | 151.8 | 148 | 246.4 |
+| PAT | 71.8 | (163.2) | 109.5 | 101 | 180.7 |
+| Treasury (₹ Cr; investments incl. cash, ex associates/subsidiaries) | — | 792 | **858** | — | 792 |
+| Utilisation | ~>90% | ~95% | >90% (~91%) | — | 90% (FY) |
+
+- **The Q4 FY26 loss was GrafTech marked to market.** "Negative EBITDA is on account of loss on fair valuation of investment in GrafTech" [V PPT slide 16]. Q4 other expenses of ₹361 Cr vs a run-rate of ~₹130 Cr imply **a ~₹220–230 Cr fair-value loss booked inside operating expenses** [E]. **This is why screener's Mar-26 OP is −₹148 Cr.**
+  - **Ex-GrafTech, HEG's Q4 FY26 core operations were profitable (~₹80–90 Cr core EBITDA) [E].**
+  - Part 1 trap 2 and Part 2 should note that screener's FY26 OP of ₹399 Cr is *depressed* by this non-operating loss. Core FY26 OP ex-GrafTech MTM ≈ ₹620 Cr consolidated (~24%) [E].
+  - Q4 FY25's −₹5 Cr standalone EBITDA had the same cause [V].
+- Q1 FY27 other income of ~₹43 Cr consolidated = ~₹7–8 Cr interest + **fair-valuation gain on investments** (CFO) [V transcript].
+- **Consolidated FY26:** PBT before associates ₹288.9 Cr; **share of associates (BEL) ₹115.5 Cr**; PAT ₹341.4 Cr (incl. ₹3.4 Cr from discontinued operations). Q1 FY27 associate share ₹30.4 Cr [V PPT].
+  - This confirms Part 2's guess that consolidated PAT exceeds standalone because of the BEL associate.
+  - **Post-scheme, BEL is merged into HEGAM, so HEG Limited loses that ~₹115 Cr/yr of associate income.**
+- **Volumes and realisation (gap #1):** tonnes are not disclosed ("we should not be divulging these kinds of numbers").
+  - FY26: sales volume **+20%**, utilisation **90%** of 100 kt → **~90 kt** [V AR + E]. FY25 ≈ 75 kt [E: 90 ÷ 1.2].
+  - **Implied realisation FY26 ≈ ₹2,569 Cr ÷ ~90 kt ≈ ₹2.85 lakh/t (~$3,280/t at ₹87/$)**; FY25 ≈ ₹2,153 Cr ÷ 75 kt ≈ ₹2.87 lakh/t [E]. Realisation was flat to slightly down in rupees and **down ~3–4% in dollars**.
+  - Q1 FY27 ≈ ₹681 Cr ÷ ~23–24 kt ≈ **₹2.9–3.0 lakh/t (~$3,350–3,450/t)** [E].
+  - **This is materially below Graphite India's implied ~₹3.1–3.2 lakh/t**, consistent with HEG's higher export and Middle East mix and Graphite India's richer domestic plus specialities mix [E].
+
+#### (d) 5-year history — pre-demerger HEG, consolidated (₹ Cr) [V screener; company columns V PPT/AR]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 2,201 | 2,463 | 2,393 | 2,151 | 2,568 |
+| Screener OP | 530 | 619 | 382 | 260 | 399 (≈620 ex-GrafTech MTM [E]) |
+| OPM % | 24 | 25 | 16 | 12 | 16 |
+| Other income | 117 | 187 | 223 | 141 | 259 |
+| PBT | 560 | 677 | 395 | 162 | 408 |
+| PAT | 431 | 532 | 312 | 115 | 341 |
+| Standalone company EBITDA | — | — | — | 388 [V] | 497 [V] |
+| ROCE % | 14 | 15 | 9 | 4 | 8 |
+| Capacity (kt) | 80 | 80 | 100 (from Nov-23) [V] | 100 | 100 |
+| Utilisation | — | — | — | ~80% [E] | 90% [V] |
+| DPS (₹, FV 2 adj.) | — | — | — | — | **3.40 (170%) [V AR]** |
+
+#### (e) 8-quarter trend — pre-demerger HEG, consolidated (₹ Cr) [V screener; standalone EBITDA V PPT]
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 568 | 478 | 537 | 613 | 699 | 656 | 603 | 681 |
+| OP | 97 | 67 | −61 | 106 | 118 | 143 | −148 | 151 |
+| OPM % | 17 | 14 | −11 | 17 | 17 | 22 | −25 | 22 |
+| Other income | 63 | 112 | 43 | 82 | 120 | 167 | 72 | 74 |
+| PAT | 82 | 83 | −74 | 105 | 143 | 207 | −114 | 122 |
+| Standalone EBITDA incl. OI | — | — | −5 [V] | 154 [V] | — | — | −126 [V] | 211 [V] |
+
+- The standalone EBITDA bars on PPT slide 16 for the intervening quarters (values 140, 194, 226, 243) cannot be mapped to quarters unambiguously from the text layer. FY26 = 497 implies Q2 + Q3 FY26 = 469 (i.e. 226 + 243) [E].
+
+#### (f) Annual-report findings (FY26 AR) [V]
+- **Contingent liabilities (standalone, 31-Mar-2026):** about **₹110 Cr** — income tax ₹80.6 Cr, excise ₹2.2 Cr, GST ₹0.4 Cr, sales tax ₹4.2 Cr, power-related ₹9.6 Cr, labour ₹0.5 Cr, other ₹12.1 Cr.
+  - The **₹2,282 Cr GST penalty proposal** (FY2020-21) was never carried as a contingent liability of that size. It was dropped on 15-Oct-2026 (filing by the resulting company) [Part 1 V].
+- **Associate:** 81,232,560 BEL shares (cost ₹307 Cr) → merged into HEGAM.
+- **Investments:** GrafTech 2.58 m shares (₹165 Cr); TACC 0.01% OCDs ₹379 Cr; money-market, arbitrage and debt funds make up the treasury.
+- **Geography:** outside India ₹1,722 Cr (FY25 ₹1,432 Cr); India ₹847 Cr (₹720 Cr). All non-current assets are in India.
+- **Raw material:** needle coke suppliers "usually resort to annual quantity contracts" [V AR risk section]. Combined with the 3–4-month order book, that means **HEG reprices output faster than its input.** That helps in a rising market (H2 FY27) and hurts in a falling one (FY25–26).
+- **Ratings:** India Ratings (Fitch) rating update 27-May-2026 is listed on screener; the content was not read.
+
+---
+
+### 4.2.3 RHI Magnesita India (RHIM · BSE 534076)
+
+**Documents read [V]:**
+- Q1 FY27 earnings-call transcript (call 12-Aug-2026; filed 18-Aug-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c4acecc-6f8d-4372-8c79-5f6fc3560508.pdf
+- Q1 FY27 investor presentation: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=233e5cd6-88dc-4089-b94d-7e4ffd692b01.pdf
+- Q4 FY26 investor presentation (May-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58738ca1-b6d0-4a01-8a71-81ae68bf459d.pdf
+- FY26 Annual Report: https://www.bseindia.com/xml-data/corpfiling/AttachHis/e703d0c9-3ad7-41ac-bcb5-3e02bd8dfd9b.pdf
+- Screener RHIM page.
+
+#### (a) Management-commentary digest, Q1 FY27 call (12-Aug-2026) [V transcript]
+- **Speakers:** Chairman Parmod Sagar (outgoing MD), new MD & CEO Pankaj Malhan, CFO Azim Syed.
+- **Margin guidance unchanged at ~13% for FY27.** "We have given a guidance of 13%. We still remain firm." Q1 delivered 14.5%. Upside only if "raw material pricing and the war uncertainty gives us a little bit of a cost headroom".
+- **Volume guidance.**
+  - The framework is "steel, cement … plus 1% to 2%".
+  - Sagar on FY27: "I normally say 7% to 9% … I still believe we can deliver 7%–8% volume growth but not 9%."
+  - **Q1 shipments were −5% YoY**, so H2 must carry the year.
+- **What drove the Q1 realisation (+~12% YoY).** The CFO said "most of the price increases were nothing but a war surcharge … primarily it is driven by the product mix".
+  - Growth came from the legacy RHIM "IN" business (flow control, Bhiwadi and Jamshedpur plants). **The ex-Dalmia "IR" business is "mostly flat."**
+  - Flow-control share "has gone up almost double in the last 6 months" at one large steel group.
+- **Input costs.** **Magnesite prices +6–8% in the two months to mid-Aug-2026**, to be absorbed through recipes and recycling, or passed on. Alumina is "stable".
+  - The parent's group-wide **€45 m 2026 pricing/mix EBITDA initiative** includes India, and the India share is "already reflected in Q1".
+- **Capex.** The "long-term" run-rate is **₹80–100 Cr a year** (Dalmia plant modernisation, 4PRO robotics, maintenance). Q1 capex was only ₹8 Cr. FY26 capex was ₹134.9 Cr [V Q4 PPT].
+- **MINPRO** (recycling JV with Khemka Refractories, 51:49): **~₹35 Cr initial investment over two years; EBITDA 8–10%; payback under three years; start ~Q4 FY27.**
+- **Backward integration.** Two quartzite mines from the Dalmia deal, **Chiraipani and Bhikampali**, have all licences and were to open by end-Q2 FY27. Management expects a margin benefit rather than volume ("Margin will improve").
+- **Projects (H2 FY27).**
+  - A **coke-oven project for a PSU steel plant** is in final price negotiation, with production starting the following month. It runs 14–16 months.
+  - Glass and silica projects are expected in Q3–Q4.
+  - SAIL Bhilai SMS-4 (~6–6.5 Mt) is 6–8 months from refractory tendering.
+- **Exports are falling.** Exports "reduced from last quarter to this quarter". The focus is "local for local". Isostatic flow-control exports from Jamshedpur are being trialled.
+- **Goodwill.** "All the goodwill of Dalmia is already off our balance sheet." Some goodwill remains on RHIM "IN", with "enough headroom", so no further impairment is expected.
+- **Auditor change (PwC → BSR).** It aligns with the group auditor change, and mandatory rotation was due next year anyway.
+- **Cash.** Cash & equivalents of **₹452 Cr** at 30-Jun-2026; net cash positive.
+- **New-product transfers from the parent:** "in maybe 1 year's time, we will have 4 or 5 more products being produced in India."
+
+#### (b) FY26 KPI table (Q4 FY26 presentation, slide 9–11) [V]
+
+| KPI | FY25 | FY26 | Q3 FY26 | Q4 FY26 | Q1 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|
+| Revenue from operations (₹ Cr) | 3,674.5 | **4,019.95 (+9%)** | 1,092.0 | 932.3 | 960 | 1,014 |
+| **Shipments (t)** | 499,965 | **523,396 (+4.7%, "+5%")** | 135,806 | 116,609 | ~129,000 | ~122,000 |
+| **Production (t)** | 326,481 | **339,717 (+4%)** | 82,493 | 79,443 | ~85,000 | ~81,000 |
+| Avg realisation (₹/t shipped) | 73,495 | **76,805 (+4.5%)** | 80,410 | 79,948 | ~74,400 [E] | ~83,100 [E] |
+| Material cost % | 59.4% | 61.1% | 60.8% | 58.2% | 62.5% | 58.2% |
+| Adjusted EBITDA (₹ Cr) | 505.15 | **476.89** | 149.96 | 113.06 | 103 | 147 |
+| Adj. EBITDA margin | 13.7% | **11.9%** | 13.7% | 12.1% | 10.8% | 14.5% |
+| Amortisation of acquired intangibles (₹ Cr) | 88.5 | 84.2 | 21.0 | 21.0 | 21 | 21 |
+| Exceptional (₹ Cr) | — | **562.64** (goodwill impairment **556.24** + labour code 6.40) | 5.5 | 557.1 | — | — |
+| PAT (₹ Cr) | 202.5 | (382.9) | 61.6 | (518.1) | 35 | 65 |
+| Operating cash flow (₹ Cr) | ~375 | **409.1** | — | — | — | — |
+| Capex (₹ Cr) | ~117 | **134.9** | — | — | — | 8 [V call] |
+| Working-capital intensity | — | 38% | — | — | — | 36% |
+| Net debt / EBITDA | 0.4× | **−0.1× (net cash)** | — | — | — | −0.27× |
+
+- **Gap #7 resolved: FY26 shipments rose 4.7%, not 9.4%.** On the Q4 slide the "+9.4%" printed next to the shipment chart is the **revenue** growth (₹3,674 → ₹4,020 Cr). The primer's "+9.4% shipments" is therefore wrong.
+- **Utilisation:** production of 339.7 kt against an **installed capacity of 512 kt** [V AR] is **~66%** [E]. **Shipments exceed own production by ~184 kt a year (35% of shipments).** That is traded product, parent-sourced material (₹404 Cr bought from group companies, below) and mechanism/flow-control parts.
+- **Market-share loss in cement** ("alumina bricks & mixes due to commoditization and competition behavior"). Export volumes were "impacted by geopolitical disruptions in key markets". **Margins were hit by rupee devaluation and higher tabular alumina, fused magnesia and quartzite costs** [V Q4 PPT slide 10].
+
+#### (c) Annual-report findings (FY26 AR) — related parties, capacity, geography, market [V]
+- **Capacity: "installed manufacturing capacity of 512 kt"**: 8 plants, 2 mines, 2 mechanism plants [V AR MD&A]. **This supersedes the primer's ~525 ktpa.**
+- **Payments to the RHI Magnesita group, FY26 (FY25 in brackets), ₹ Cr:**
+
+| Item | FY26 | FY25 | % of FY26 revenue |
+|---|---|---|---|
+| **Royalty** (RHI Magnesita GmbH; FY25 also Refractory Intellectual Property GmbH & Co KG ₹15.0 Cr) | **35.08** | 31.88 | 0.87% |
+| IT expenses (RHI Magnesita GmbH) | **50.98** | 29.57 | 1.27% |
+| Commission on sales (Sapref Refractory Products, fellow subsidiary) | 25.38 | 10.67 | 0.63% |
+| Interest (RHI Magnesita GmbH; FY25 incl. VRD Americas ECB) | 12.22 | 17.35 | 0.30% |
+| **Purchases of materials/stock-in-trade from group** (mainly RHI Magnesita GmbH ₹388.0 Cr) | **404.05** | 392.14 | 10.1% |
+| Purchase of PPE / spares from group | 27.7 | 34.0 | 0.7% |
+| Dividend paid to group entities (+ DBRL ₹6.76 Cr) | 35.70 (total incl. DBRL) | 35.70 | — |
+| *Income:* sales of products to group (mainly RHI Magnesita GmbH ₹333.8 Cr) | **351.98** | 338.82 | 8.8% |
+| *Income:* intercompany service income | 29.71 | 30.56 | 0.7% |
+
+- **The governance read:**
+  - Royalty is modest (<1% of revenue). **IT charges from the parent rose 72%**, and royalty + IT + commission + interest = **₹124 Cr (3.1% of revenue; ~26% of FY26 adjusted EBITDA)**.
+  - **The bigger flows are trade.** About 10% of revenue is bought from the group and ~9% is sold back to it.
+  - **Exports through the parent are the main export channel.** Outside-India revenue was ₹389 Cr (9.8%; FY25 ₹407 Cr, 11.2%), and the standalone BRSR export share is 11.48%.
+  - Transfer pricing on these flows is the key minority-shareholder question [E].
+- **Dalmia (DBRL) transactions in FY26:** a settlement under the business-transfer agreement — relinquishment of mine rights ₹21.69 Cr and of a portion of land ₹11.54 Cr — plus a land advance of ₹14.42 Cr. After the Sep-2026 block sale DBRL is no longer a >10% holder.
+- **Impairment:** the FY26 exceptional is **₹556.24 Cr of goodwill on acquired assets (RHIM IR = ex-Dalmia)**. Per the CFO, Dalmia goodwill is now fully written off.
+- **Market size (gap #7):** the AR MD&A puts the **India refractories market at ~US$2.6 bn (2025), projected ~US$3.5 bn by 2034**, citing industry estimates. That is **≈₹22,000–23,000 Cr** at ₹85–88/$.
+  - It implies RHIM's FY26 share is **~18%** on a whole-market basis [E], versus the "30%+" claim. The 30%+ presumably refers to RHIM's addressable segments (steel and cement shaped/unshaped refractories) [E].
+  - **Part 1's "₹12,000–13,500 Cr" market estimate is superseded.**
+  - Global market: US$38–48 bn (2025); volumes ~57 Mt (2025) → ~59.6 Mt (2026) → ~72 Mt by 2031 [V AR, industry estimates].
+- **End-market split (steel / cement / industrial):** **not disclosed** in the AR, presentations or call. The AR discloses only geography. Management describes Q1 FY27 as "mainly steel". Part 1's ~70% steel remains [E].
+- **Acquisition:** Ashwath Technologies (slide gates/flow-control machinery, mini-mills) — 100% from **1-Aug-2025** [V AR].
+
+#### (d) 5-year history (consolidated, ₹ Cr) [V screener; company columns V presentations]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 1,999 | 2,726 | 3,781 | 3,674 | 4,020 |
+| Screener OP | 390 | 361 | 555 | 482 | 443 |
+| OPM % | 19 | 13 | 15 | 13 | 11 |
+| Company adjusted EBITDA | — | — | — | 505.2 (13.7%) [V] | 476.9 (11.9%) [V] |
+| Other income incl. exceptionals | 5 | −646 | −322 | 24 | −529 |
+| PAT (reported) | 269 | −466 | −100 | 203 | −383 |
+| Shipments (kt) | — | — | — | 500.0 [V] | 523.4 [V] |
+| Production (kt) | — | — | — | 326.5 [V] | 339.7 [V] |
+| ROCE % | 37 | 11 | 9 | 7 | 6 |
+
+#### (e) 8-quarter trend (consolidated, ₹ Cr) [V screener; shipments V presentations]
+
+| | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 867 | 1,011 | 918 | 960 | 1,035 | 1,092 | 932 | 1,014 |
+| OP | 107 | 125 | 93 | 102 | 109 | 143 | 87 | 138 |
+| OPM % | 12 | 12 | 10 | 11 | 11 | 13 | 9 | 14 |
+| PAT | 46 | 48 | 36 | 35 | 38 | 62 | −518 | 65 |
+| Company adj. EBITDA | — | — | 93.9 [V] | 103 [V] | — | 150.0 [V] | 113.1 [V] | 147 [V] |
+| Shipments (kt) | — | — | 124 [V] | 129 [V] | — | 136 [V] | 117 [V] | 122 [V] |
+
+- Sep-25 quarter shipments = 523.4 − 129 − 135.8 − 116.6 ≈ **142 kt** [E]: the seasonal peak (cement relines plus steel projects).
+
+---
+
+## 4.3 Industry data upgraded from primary sources
+
+### 4.3.1 US AD/CVD on large-diameter graphite electrodes (China, India): complete docket (gap #4) [V Federal Register via govinfo / federalregister.gov API; CBP message via customsmobile]
+
+| Date (FR publication) | Event | Document |
+|---|---|---|
+| 27-Feb-2026 | ITC institutes AD/CVD investigations; prelim scheduling | FR 2026-03954 |
+| 20-Mar-2026 | Commerce initiates LTFV (AD) and CVD investigations, China and India (91 FR 13581) | FR 2026-05495 / -05496 |
+| 14-Apr-2026 | ITC preliminary affirmative injury determinations | FR 2026-07220 |
+| 6-May-2026 | CVD preliminary determinations postponed | FR 2026-08952 |
+| 26-Jun / 13-Jul-2026 | AD prelims postponed (China; India to 22-Sep-2026) | FR 2026-12878 / -14067 |
+| **30-Jul-2026** | **Prelim CVD: India — Graphite India 3.68%, HEG 6.99%, all others 5.87%; China 103.49% (AFA). Final aligned with AD final** | FR 2026-15396 (India) / -15397 (China) |
+| 24-Sep-2026 | Prelim critical circumstances, China CVD | FR 2026-19518 |
+| **30-Sep-2026** | **Prelim AD, India (91 FR 61825): Graphite India 12.22% (cash deposit 9.88% after export-subsidy offset); HEG 4.97% (1.15%); all others 6.95% (3.53%). Affirmative critical circumstances for GIL, HEG and all others. Final postponed (requests by petitioners 8-Sep and HEG 15-Sep) to ≤135 days after publication ⇒ ~12-Feb-2027; provisional measures extended to six months** | FR 2026-20031 |
+| 30-Sep-2026 | Prelim AD, China: China-wide entity 98.79% (AFA), cash deposit 95.61% | FR 2026-20030 |
+| 1-Oct-2026 | Prelim critical circumstances, India CVD | FR 2026-20162 |
+| 5-Oct-2026 | CBP message 6278404: suspension of liquidation retroactive to entries on/after **2-Jul-2026** (90 days before publication) | customsmobile.com/adcvd/6278404 |
+| 19-Oct-2026 | China AD final postponed | FR 2026-21294 |
+| 26-Oct-2026 | ITC schedules final phase (inv. 701-TA-787-788, 731-TA-1775-1776): **prehearing staff report 26-Jan-2027; hearing 9-Feb-2027** | FR 2026-21754 |
+
+- **Scope.** Electrodes >425 mm (16.7 in) diameter plus pins ≥228.6 mm. Country of origin = country of **graphitisation**. HTS 8545.11.0020 (also 3801.10.5090 / 3801.90.0050). Thermal-energy-storage graphite blocks are excluded.
+- **Petitioners:** Resonac Graphite America Inc. and Tokai Carbon GE LLC. POI CY2025.
+- **Combined preliminary cash deposits [E]:** Graphite India **13.56%** (9.88 AD + 3.68 CVD); HEG **8.14%** (1.15 + 6.99); others 9.40%; China ~199% (95.61 + 103.49).
+- **Final determinations (AD and aligned CVD): ~mid-Feb-2027** [E from the 135-day rule]. The ITC final vote follows, likely Mar-2027 [E]. **Part 1's "8-Dec-2026" is superseded.**
+- **Exposure:** HEG says the US is "<~10%" of its business. Graphite India says "impact … remains limited".
+- **Other jurisdictions:** **Brazil has initiated an AD investigation** on graphite electrodes (Graphite India FY26 AR) [V]. Date and scope not read.
+- **India's own ADD on Chinese electrodes:** DGTR initiated a case on 20-May-2013 (all diameters, on applications by HEG and Graphite India). The duty was **imposed 13-Feb-2015 and revoked 6-Sep-2018** after a mid-term review [V Global Trade Alert page]. **No duty in force today; no new DGTR case found.**
+
+### 4.3.2 India steel (gap #6)
+- **FY26 crude steel 168.4 Mt (+10.7%); finished steel production 160.9 Mt (+9.7%); consumption 163.7 Mt (+7.6%); capacity ~220 Mt** [V Graphite India FY26 AR MD&A, citing JPC]. This upgrades Part 1's [V-snip] figure to a primary-document citation.
+  - **India was a net exporter of finished steel in FY26**: exports +35.9% to 6.6 Mt [V HEG AR; GI AR].
+- **H1 CY2026 crude steel:** India **87.0 Mt (+7.1–7.5%)**; world 930.6–931.7 Mt (−0.3% to −0.7%); China 500.0 Mt (−2.9% to −3.0%); world ex-China 430.6 Mt (+2.1%); US 42.8 Mt (+6.3%); **Middle East Q2-2026 −22.1% YoY** (war) [V GI and HEG Q1 FY27 presentations, citing worldsteel].
+- **CY2025:** world 1,849.4 Mt (−2.0%); China 960.8 Mt (−4.4%); India 164.9 Mt (+10.4%) [V HEG FY26 AR, citing worldsteel].
+- **Route mix, Apr–Dec 2025 (Ministry of Steel, provisional):** BOF 52.96 Mt (**42.5%**), EAF 24.59 Mt (**19.7%**), IF 47.01 Mt (**37.7%**); total 124.55 Mt [V dataful.in dataset 19233, sourced from Ministry of Steel annual reports]. FY25 BOF 62.49 Mt.
+  - **The EAF share is slipping (21% FY25 → ~20% FY26 YTD).** All incremental share goes to BOF. Induction furnaces use no graphite electrodes.
+  - **The electrode-relevant domestic EAF output is ~33 Mt a year** [E: 24.6 Mt × 12/9], i.e. **~50–60 kt of electrode demand** at 1.5–1.8 kg/t.
+- **Safeguard duty on flat steel:** Notification No. 02/2025-Customs (SG), 30-Dec-2025.
+  - Rates: **12% (21-Apr-2025 to 20-Apr-2026) → 11.5% (to 20-Apr-2027) → 11% (to 20-Apr-2028)**.
+  - Covers HS 7208–7212, 7225, 7226. Imports at or above CIF floor prices are exempt (e.g. HRC $675/t, CRC $824/t). Electrical steel, stainless and tinplate are excluded [V-snip BigMint, Argus, S&P Global, Taxguru — four concordant snippets; one Taxguru typo gives "5%"].
+  - Relevance: it supports Indian BF-BOF utilisation, which is good for RHIM refractories and neutral for electrodes.
+
+### 4.3.3 Electrode supply side: global peers from their own disclosures (gap #12)
+
+| Producer | Capacity (kt/yr) | Latest data | Source / tag |
+|---|---|---|---|
+| **HEG Limited** (Mandideep) | **100 → 115 (Q1 CY2028; capex ₹650 Cr)** | Utilisation 90% FY26, >90% Q1 FY27; exports 67% | HEG AR / PPT / call [V] |
+| **Graphite India** (Durgapur + Nashik) | **80** (+ phase-1 expansion commissioning in FY27; ICRA: +25 kt over two fiscals) | Utilisation 97% Q1 FY27; exports ~42% | GI PPT / AR [V] |
+| **GrafTech** (Calais, Pamplona, St Marys; Monterrey closing) | **~127 after the Monterrey wind-down** (from ~168) | Q3-26: sales 28.8 kt, production 27.0 kt, **utilisation 64%**, price ~$3,900/t (−7% YoY), cash COGS $3,653/t, adj. EBITDA $8.6 m; net debt ~$1,091 m; 2026 volume +5–10%; Q4 price +mid-single-digit % QoQ; "meaningfully higher realized pricing in 2027" | GrafTech Q3-2026 8-K, 23-Oct-2026 [V] |
+| **Tokai Carbon** | Japan + Europe cut **56 → 32 kt by Jul-2025** (Japan 26 → 12 kt at Hofu, Shiga mothballed; Grevenbroich 30 → 20 kt), German unit later sold; plus US Tokai Carbon GE (Charlotte, NC; petitioner) [K, size unknown] | Announced $930/t increase (2026, per HEG) | Chemical Week / Kallanish / Envalith [V-snip] |
+| **Resonac** | Not verified (Part 1 [K] ~150–200 kt is likely too high after closures) | Petitioner via Resonac Graphite America | [K] |
+| Next-largest single plants globally | "~70 kt" each (HEG Chairman) | — | HEG call [V] |
+| China | Not verified (Part 1 [K] 1.2–1.5 Mt) | HEG disputes a "one-third Chinese" share of the ~600 kt UHP market: "maybe half of that" | HEG call [V] |
+
+- **Part 1 §2.1 put Tokai at ~120–140 kt. That is not supported.** Tokai's own 2024 restructuring left ~32 kt in Japan and Europe. Even with its US plant it is probably **<70 kt** [E]. The non-China UHP market is smaller and more concentrated in Indian hands than Part 1 implied.
+  - On HEG's framing, the non-China UHP market is ~400–500 kt [E].
+  - **HEG + Graphite India ≈ 180 kt of operating capacity ≈ 35–45% of non-China supply** [E]. Part 1 said ~25%.
+
+### 4.3.4 Needle coke (gap #3, partly filled) and IOCL (gap #10)
+- **Price direction from primary commentary:**
+  - Graphite India (ICRA, Jan-2026): CNC prices declined in FY25 and H1 FY26.
+  - **HEG (24-Jul-2026): "+$200, $250 or $300" per tonne since the West Asia war, driven by oil prices and demand.** Total electrode cost is up 10–15%, with the P&L impact in Nov-2026 to Jan-2027. Needle-coke suppliers sell on **annual quantity contracts** (HEG AR).
+- **China needle coke trade, May-2026:** imports 10,800 t (−32% MoM, led by coal-based), exports 3,400 t (+92%) [V-snip Mysteel].
+- **No free price series found** (OilChem/Mysteel/SMM daily series are paywalled). **Gap still open for absolute $/t levels.**
+- **HEG's GrafTech stake as a hedge:** GrafTech owns Seadrift (petroleum needle coke). The HEG Chairman calls the 9.98% stake "a powerful needle coke hedge" [V AR]. That is an economic hedge via equity value, not a supply right [E].
+- **IOCL Paradip 56 ktpa needle coker (₹1,268 Cr): only the Sep-2020 Stage-1 approval is on record** [V OGJ 18-Sep-2020; iocl.com]. No construction award or commissioning news was found for 2021–26. **Treat as not built.** India's CNC need (80–100 ktpa in 2020; ~150–170 kt at today's ~180 kt of electrode output [E]) is still 100% imported.
+
+### 4.3.5 Chart-ready datasets (new)
+1. **Graphite India: core vs company EBITDA (₹ Cr)** [V PPT / screener]: Q1 FY26 43 / 193; Q4 FY26 −139 / (100); Q1 FY27 144 / 241; FY25 253 / 692; FY26 202 / 375.
+2. **HEG standalone: company EBITDA vs core (₹ Cr)** [V PPT; E core]: Q1 FY26 154 / ~107; Q4 FY26 −126 / ~−143 (incl. ~₹225 Cr GrafTech MTM); Q1 FY27 211 / ~161; FY26 497 / ~405.
+3. **Utilisation (%)** [V]: Graphite India SA — Q1 FY26 82, Q4 FY26 104, Q1 FY27 97. HEG — FY26 90, Q1 FY27 >90. GrafTech — Q2-26 74, Q3-26 64.
+4. **Export share of revenue FY26 (%)** [V]: HEG 67.0; Graphite India 42.6 (consolidated RoW) / 41.4 (SA BRSR); RHIM 9.8 (consolidated outside India) / 11.5 (SA BRSR).
+5. **Graphite India net cash (₹ Cr)** [V]: Jun-25 4,173; Sep-25 3,921; Dec-25 3,966; Mar-26 3,767; Jun-26 3,939.
+6. **RHIM shipments vs production (kt)** [V]: FY25 500.0 / 326.5; FY26 523.4 / 339.7; Q3 FY26 135.8 / 82.5; Q4 FY26 116.6 / 79.4; Q1 FY27 122 / 81.
+7. **RHIM realisation (₹/t)** [V]: FY25 73,495; FY26 76,805; Q3 FY26 80,410; Q4 FY26 79,948; Q1 FY27 ~83,100 [E].
+8. **US prelim duty rates, India (%)** [V]: AD margin / cash deposit — GIL 12.22 / 9.88; HEG 4.97 / 1.15; others 6.95 / 3.53. CVD — GIL 3.68; HEG 6.99; others 5.87.
+9. **India route mix Apr–Dec 2025 (Mt)** [V MoS via dataful]: BOF 52.96; IF 47.01; EAF 24.59.
+10. **RHIM payments to the parent group FY26 (₹ Cr)** [V AR]: royalty 35.1; IT 51.0; commission 25.4; interest 12.2; purchases 404.1; vs sales to group 352.0.
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Where in Parts 1–3 | Old figure / statement | New figure / statement | Reason / source |
+|---|---|---|---|---|
+| S1 | Trap 2; §2.1; Part 2/3 grids | Graphite India FY26 EBITDA "~₹375 Cr (13%)" vs OP ₹202 Cr: "basis not reconciled"; Q1 FY27 "28.6%" unexplained | **Company EBITDA = screener OP + other income.** FY26 375 = 202 + 174; Q1 FY27 241 = 144 + 97. **Core margin Q1 FY27 = 17.1%, FY26 = 7.1%.** "28.6%" includes treasury income | GI Q1 FY27 PPT slide 8 and slide 10 note 1 [V] |
+| S2 | Trap 2; Part 2 HEG; §C worked example | HEG "standalone EBITDA ~29%" / "maintain 28–29% EBITDA" treated as operating | **The 29% includes other income** (analyst: "including other income, right?" → Chairman: "Yes"). **Core SA EBITDA ex-OI ≈ ₹161 Cr = 23.6%** in Q1 FY27 | HEG Q1 FY27 transcript; PPT SA P&L [V] |
+| S3 | §0, §7.1, §12, §G, Part 2/3 | US AD/CVD final determinations "due 8-Dec-2026" | **India AD final postponed to ≤135 days after 30-Sep-2026 (~12-Feb-2027); CVD final aligned; ITC hearing 9-Feb-2027** | FR 2026-20031; FR 2026-21754 [V] |
+| S4 | §7.1, §H2, JSON | "HEG prelim AD not found" | **HEG AD margin 4.97%, cash deposit 1.15%; all others 6.95% / 3.53%. Critical circumstances for all → cash deposits retroactive to 2-Jul-2026** | FR 2026-20031 (91 FR 61825); CBP msg 6278404 [V] |
+| S5 | §7.1 read-across | Combined GI ≈13.6%; "HEG at least 6.99%" | **GI 13.56%, HEG 8.14%, others 9.40%; China ~199%** (AD 95.61 + CVD 103.49) | FR [V]; arithmetic [E] |
+| S6 | §0, §5.1, Part 2 HEG pricing bullet | "HEG is locking ~70% of capacity into 3–5-year contracts" (electrodes) | **That statement was TACC's anode offtake** (TACC MD Ankur Khaitan), not electrodes | HEG Q1 FY27 transcript p.9 [V] |
+| S7 | §0, §2.2 | Indian electrode makers "~60–70% exported" | **HEG 67% exports; Graphite India only ~41–43%** ("exports less than half"). Weighted pair ≈ 54% [E] | HEG AR BRSR + geography note; GI AR BRSR + segment note; GI PPT [V] |
+| S8 | §0, §1.1, §2.1, §D, trap 4 | Graphite India "98 kt nameplate (18 kt idle Germany)"; German "six-month closure" | **80 kt (Durgapur + Nashik).** German electrode production was shut in FY2022-23 (Bavaria Electrodes in liquidation since 1-Oct-2022). **The Jul-2026 decision is a permanent closure of the Specialities & Coatings divisions** | GI PPT slide 4 and 14; GI AR [V] |
+| S9 | Trap 3, §8, §H9, Part 2 | GI Q2 FY24 other income ₹1,045 Cr: "probably fair-value gain" | **₹954 Cr = exceptional gain on sale of Bengaluru freehold land** (₹986 Cr to Tata Realty subsidiaries, deed 7-Aug-2023) + ₹91 Cr normal other income | GI Q2 FY24 results, note 6 [V] |
+| S10 | §H8, Part 2 GI | Dividend "₹16.48/share" (Sahi) | **₹7/share (FV ₹2) for FY26**, on 19,53,75,594 shares; paid by 17-Aug-2026 | GI FY26 AR [V] |
+| S11 | Part 1 header; Part 2 GI net cash | Net cash ~₹3,900 Cr (ICRA Jan-2026) / ₹3,767 Cr (Mar-26) | **₹3,939 Cr at 30-Jun-2026** (cash & investments 4,205 − debt 266) | GI PPT slide 12 [V] |
+| S12 | Trap 6, §9.2, Part 2/3 RHIM | RHIM FY26 shipments "+5% (snippet)" vs primer "+9.4%" | **523,396 t vs 499,965 t = +4.7%.** +9.4% is revenue growth. Production 339,717 t (+4%) | RHIM Q4 FY26 PPT slide 9–11 [V] |
+| S13 | §10, Part 2 RHIM JSON (capacity 525) | Capacity "~525 ktpa" (primer) | **512 kt installed** (8 plants, 2 mines, 2 mechanism plants); FY26 utilisation ~66% [E] | RHIM FY26 AR MD&A [V] |
+| S14 | Trap 10, §2.3 | India refractory market "≈₹12,000–13,500 Cr [E from 30%+ share]" | **~US$2.6 bn (2025) ≈ ₹22–23k Cr; ~US$3.5 bn by 2034.** RHIM's whole-market share ≈ 18% [E]. "30%+" is a segment claim | RHIM FY26 AR MD&A [V] |
+| S15 | §4.3, §H14 | Royalty/related-party amounts "not sourced" | **Royalty ₹35.1 Cr (0.9% of revenue); IT charges ₹51.0 Cr; commission ₹25.4 Cr; interest ₹12.2 Cr; purchases from group ₹404 Cr; sales to group ₹352 Cr** | RHIM FY26 AR Note 36 [V] |
+| S16 | §2.3 | RHIM impairment "₹557 Cr exceptional" | **Goodwill impairment ₹556.24 Cr + labour-code ₹6.40 Cr = ₹562.64 Cr exceptional (FY26)**; Q4 exceptional ₹557.1 Cr | RHIM Q4 FY26 PPT [V] |
+| S17 | Part 2 RHIM / §C | Volume guidance "1–2% above market" only | Also **"7–8% volume growth" for FY27 ("not 9%")**; capex ₹80–100 Cr/yr; MINPRO ₹35 Cr; magnesite +6–8% | RHIM Q1 FY27 transcript [V] |
+| S18 | Trap 1, Part 2 HEG, §B2 | HEGAM share count "implied ~32.9 Cr — VERIFY"; treasury allocation unknown | **32.9 Cr confirmed by management.** HEG Limited keeps the **9.98% GrafTech stake** and **66 MW thermal + 13.5 MW hydro** captive power. Promoters: **HEG Ltd 56.28%, HEGAM 60.72%.** Treasury split still undisclosed | HEG transcript; GreenTech NDR slide 6 [V] |
+| S19 | Trap 2, Part 2 HEG quarter note | HEG Mar-26 OP −₹148 Cr "probably inventory or MTM" | **The loss is the GrafTech fair-value loss booked in "other expenses"** (Q4 other expenses ₹361 Cr vs ~₹130 Cr run-rate). Core FY26 OP ex-MTM ≈ ₹620 Cr [E] | HEG PPT slide 9, 16 [V] |
+| S20 | §7.4, §H10 | HEG Limited's power after the split unknown | Captive **CPP thermal 66 MW + hydro 13.5 MW stays with HEG Limited**. BEL hydro (Malana 86 MW, Allain Duhangan 192 MW) goes to HEGAM | GreenTech NDR slide 6 [V] |
+| S21 | §2.1, §10, §E11 | Tokai Carbon ~120–140 kt; Resonac ~150–200 kt [K] | **Tokai Japan+Europe 32 kt after Jul-2025 cuts** (from 56 kt) + US plant; Resonac unverified. Indian pair ≈ 35–45% of non-China UHP supply [E] (not ~25%) | Chemical Week/Kallanish [V-snip]; HEG call [V] |
+| S22 | §7.1 India row, §H1 | "No Indian ADD found" (implied never existed) | **India had an ADD on Chinese GE: imposed 13-Feb-2015, revoked 6-Sep-2018** (DGTR case initiated 20-May-2013 by HEG & GI). None today | Global Trade Alert [V] |
+| S23 | §3.1, §3.3, §E13 | Route mix FY25 41/38/21 (BigMint snippet) only | **Apr–Dec 2025 (MoS provisional): BOF 42.5%, IF 37.7%, EAF 19.7%** | MoS via dataful.in [V] |
+| S24 | §7.2 | Safeguard "12% from 21-Apr-2025, later 11–12%, three years [K]" | **Notification 02/2025-Cus (SG), 30-Dec-2025: 12% → 11.5% → 11% to 20-Apr-2028; HS 7208–12, 7225–26; CIF floors** | BigMint/Argus/S&P [V-snip ×3] |
+| S25 | §3.1 | "~60 Mt new EAF 2026–28" (HEG) | Keep, and add **OECD ~71 Mt by end-2028; >100 Mt ex-China by 2030 (20 Mt operational, 60 Mt under construction) → 150–200 kt incremental GE demand** | HEG transcript; HEG AR [V] |
+| S26 | §7.1 Others | Other countries' measures unverified | **Brazil has initiated an AD investigation on graphite electrodes** (2026) | GI FY26 AR MD&A [V] |
+| S27 | Part 2 GI subsidiaries | Godi 52.68% "new subsidiary, not in ICRA's FY25 list" | Godi was a **45.76% associate at Mar-2026** (₹50 Cr CCPS for 31% in Oct-2023, then rights issues). It becomes a subsidiary at 52.68% (Oct-2026); development stage, no commercial operations | GI AR; Q2 FY24 results note 7 [V] |
+| S28 | §2.2 / §9.1 per-tonne | GI realisation "~₹3.0–3.2 lakh/t"; HEG "~₹2.8–3.0 lakh/t" [E] | Keep the ranges, now anchored: HEG FY26 ≈ ₹2.85 lakh/t (~$3,280) on ~90 kt (+20% volume, 90% utilisation); GI electrodes ≈ ₹3.1–3.2 lakh/t on ~72–76 kt. **Still [E]: tonnes undisclosed** | HEG AR; GI AR/PPT [V inputs] |
+| S29 | Part 2 HEG / §C | "HEG 115 kt by early 2028", capex not given | **Capex ₹650 Cr; production from Q1 CY2028** | HEG FY26 AR Chairman's letter [V] |
+| S30 | §E2, Part 2 GI quarterly | GI FY26 other income 162 (screener) | Company basis **₹174 Cr**; screener nets the ₹11 Cr exceptional | GI PPT [V] |
+
+---
+
+## 4.1 Verification table (40 figures)
+
+"Agrees with Parts 1–3?" uses: **Y** = same; **N** = superseded (see 4.0); **New** = not in Parts 1–3.
+
+| # | Figure | Old value / tag (Parts 1–3) | New value | Primary source URL | Tag | Agrees? |
+|---|---|---|---|---|---|---|
+| 1 | GI FY26 revenue (cons.) | ₹2,852 Cr [V screener] | ₹2,852 Cr (₹2,851.72 Cr) | GI PPT https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f01b616-4c65-4cfe-aa9f-35b224cba470.pdf ; AR | [V] | Y |
+| 2 | GI FY26 company EBITDA | ~₹375 Cr, basis unknown [primer] | ₹375 Cr **incl. ₹174 Cr other income**; core ₹202 Cr | GI PPT slide 8 (as #1) | [V] | N (S1) |
+| 3 | GI Q1 FY27 EBITDA / margin | 17% vs "28.6%" conflict | ₹241 Cr / 28.6% incl. OI; core ₹144 Cr / 17.1% | GI PPT slide 8 | [V] | N (S1) |
+| 4 | GI electrode capacity | 98 kt (80 op.) [V ICRA] | **80 kt** (Durgapur, Nashik) | GI PPT slide 14 | [V] | N (S8) |
+| 5 | GI utilisation Q1 FY26 / Q4 FY26 / Q1 FY27 | 82 / 104 / 97% [V-snip] | 82 / 104 / 97% | GI PPT slide 11 | [V] | Y |
+| 6 | GI net cash 30-Jun-2026 | ~₹3,900 Cr [V ICRA Jan-26] | ₹3,939 Cr | GI PPT slide 12 | [V] | N (S11) |
+| 7 | GI FY26 DPS | ₹16.48 (Sahi) / ~₹7 [E] | ₹7 (FV ₹2) | GI AR https://www.bseindia.com/xml-data/corpfiling/AttachHis/05906612-3e23-4372-a823-6772a01ba067.pdf | [V] | N (S10) |
+| 8 | GI export share FY26 | ~60–70% [E, sector] | 41.41% SA (BRSR); 42.6% cons. RoW | GI AR (BRSR; segment note C) | [V] | N (S7) |
+| 9 | GI FY26 production (GE + misc. C&G) | not sourced | 92,889 t (FY25 85,225 t) | GI AR Directors' Report | [V] | New |
+| 10 | GI Q2 FY24 one-off | ₹1,045 Cr OI, "probably FV gain" | ₹954 Cr Bengaluru land-sale gain + ₹91 Cr OI | GI Q2 FY24 results https://www.bseindia.com/xml-data/corpfiling/AttachHis/2f55d47f-5e45-49d7-b080-ac6176e98e31.pdf | [V] | N (S9) |
+| 11 | GI US prelim AD margin / cash deposit | 12.22 / 9.88% [V screener filing] | 12.22 / 9.88% | FR 2026-20031 https://www.govinfo.gov/content/pkg/FR-2026-09-30/html/2026-20031.htm | [V] | Y |
+| 12 | HEG US prelim AD margin / cash deposit | not found | **4.97 / 1.15%**; all others 6.95 / 3.53% | FR 2026-20031 (as #11); CBP https://www.customsmobile.com/adcvd/6278404 | [V] | New (S4) |
+| 13 | US prelim CVD (GI / HEG / others) | 3.68 / 6.99 / 5.87% [V trade.gov] | Same; FR notice 2026-15396 (30-Jul-2026) listed. Rates not re-read in FR text | federalregister.gov API listing; trade.gov (Part 1) | [V-snip this session; V Part 1] | Y |
+| 14 | AD/CVD final determination date | 8-Dec-2026 [V trade.gov] | ~12-Feb-2027 (≤135 days after 30-Sep-2026) | FR 2026-20031 | [V] | N (S3) |
+| 15 | ITC final hearing | ~Jan-2027 [E] | 9-Feb-2027; staff report 26-Jan-2027 | FR 2026-21754 https://www.govinfo.gov/content/pkg/FR-2026-10-26/html/2026-21754.htm | [V] | N |
+| 16 | China prelim AD (LDGE) | not in Part 1 | China-wide 98.79% (cash deposit 95.61%) | FR 2026-20030 https://www.govinfo.gov/content/pkg/FR-2026-09-30/html/2026-20030.htm | [V] | New |
+| 17 | HEG FY26 standalone EBITDA | ₹497 Cr (19%) [primer] | ₹497 Cr (19%) incl. OI; core ~₹405 Cr [E] | HEG PPT https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=393ba8bf-2ea2-45bb-9257-de3b5890e9e4.pdf slide 14 | [V] | Y (basis N, S2) |
+| 18 | HEG Q1 FY27 SA EBITDA | ~29% [V-snip quartr] | ₹211 Cr (29%) incl. ₹50 Cr OI; core ~23.6% | HEG PPT slide 9, 14; transcript | [V] | N (S2) |
+| 19 | HEG treasury 30-Jun-2026 | ₹858 Cr [V Arthneeti] | ₹858 Cr | HEG transcript https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ce76ae2-2777-4f96-a8e5-2c03fd82f803.pdf ; PPT slide 17 | [V] | Y |
+| 20 | HEG FY26 utilisation / volume growth | 90%+ / +~20% [primer] | 90% / +20% | HEG AR https://www.bseindia.com/xml-data/corpfiling/AttachHis/1ee1b27d-6c24-4127-8901-e99deff90773.pdf | [V] | Y |
+| 21 | HEG export share | ME ~20% only | 67.03% of turnover; ME ~20%; US <10% | HEG AR (BRSR); transcript | [V] | New |
+| 22 | HEG 115 kt expansion | early 2028, capex n.a. | ₹650 Cr; production Q1 CY2028 | HEG AR | [V] | New (S29) |
+| 23 | HEG FY26 DPS | not given | ₹3.40 (170%) | HEG AR | [V] | New |
+| 24 | HEGAM post-scheme share count | ~32.9 Cr [E] | ~32.9 Cr | HEG transcript p.15; screener m-cap/price | [V] | Y (confirmed) |
+| 25 | Post-scheme promoter holdings | HEGAM 60.72% [V screener] | HEGAM 60.72%; **HEG Ltd 56.28%** | GreenTech NDR https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88bdd2bc-5c8c-4533-afa7-016ceccb8057.pdf slide 6 | [V] | Y + New |
+| 26 | HEG Ltd assets: GrafTech 9.98%, CPP 66 + 13.5 MW | unknown | As stated | GreenTech NDR slide 6; HEG AR | [V] | New (S18, S20) |
+| 27 | Needle coke increase 2026 | +$200–300/t [V-snip sahi] | +$200–300/t; electrode cost +10–15%; P&L impact Nov–Jan | HEG transcript p.10, 14 | [V] | Y |
+| 28 | Electrode prices hikes by peers | GrafTech $600–1,200/t; ≥30% Sep | + Tokai $930/t (per HEG) | HEG transcript p.7 | [V] | New |
+| 29 | GrafTech Q3-26 price / utilisation / capacity post-Monterrey | $3,900 / 64% / ~127 kt [V Part 1] | Same; cash COGS $3,653/t; net debt ~$1,091 m | GrafTech 8-K https://www.sec.gov/Archives/edgar/data/0000931148/000093114826000085/a2026-3qearningspressrelea.htm | [V] | Y |
+| 30 | RHIM FY26 shipments | 523 kt, +5% vs +9.4% conflict | 523,396 t, +4.7% | RHIM Q4 PPT https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58738ca1-b6d0-4a01-8a71-81ae68bf459d.pdf slide 11 | [V] | N (S12) |
+| 31 | RHIM FY26 production | not sourced | 339,717 t (+4%) | RHIM Q4 PPT slide 11 | [V] | New |
+| 32 | RHIM installed capacity | ~525 ktpa [primer] | 512 kt | RHIM AR https://www.bseindia.com/xml-data/corpfiling/AttachHis/e703d0c9-3ad7-41ac-bcb5-3e02bd8dfd9b.pdf | [V] | N (S13) |
+| 33 | RHIM royalty to parent | not sourced | ₹35.08 Cr (FY25 ₹31.88 Cr) | RHIM AR Note 28 & 36 | [V] | New (S15) |
+| 34 | RHIM purchases from / sales to group | not sourced | ₹404.05 Cr / ₹351.98 Cr | RHIM AR Note 36 | [V] | New |
+| 35 | RHIM FY26 goodwill impairment | ₹556–557 Cr | ₹556.24 Cr (+₹6.40 Cr labour code) | RHIM Q4 PPT slide 11 | [V] | Y (refined) |
+| 36 | RHIM FY26 adj. EBITDA | ₹477 Cr (11.9%) [V-snip] | ₹476.89 Cr (11.9%) | RHIM Q4 PPT | [V] | Y |
+| 37 | RHIM FY27 EBITDA guidance | ~13% [V-snip sahi] | ~13% ("remain firm"); volume 7–8% | RHIM transcript https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c4acecc-6f8d-4372-8c79-5f6fc3560508.pdf | [V] | Y |
+| 38 | India refractory market | ₹12,000–13,500 Cr [E] | ~US$2.6 bn (2025) ≈ ₹22–23k Cr | RHIM AR MD&A (industry estimate quoted by company) | [V] (company-cited estimate) | N (S14) |
+| 39 | India FY26 crude steel | 168.4 Mt (+10.7%) [V-snip] | 168.4 Mt (+10.7%); finished 160.9; consumption 163.7 | GI FY26 AR MD&A (citing JPC) | [V] (company doc citing JPC) | Y |
+| 40 | India route mix (latest) | FY25 41/38/21 [V-snip] | Apr–Dec 2025: BOF 42.5 / IF 37.7 / EAF 19.7% | https://dataful.in/datasets/19233/ (Ministry of Steel annual-report data) | [V] (aggregator of MoS data) | N (S23) |
+
+**Tally:**
+- **37 of 40 are [V] from documents fetched this session.**
+  - Of these, 34 come from company filings, Federal Register/CBP or SEC documents.
+  - #38 is a company-quoted industry estimate, #39 is a company AR citing JPC and #40 is an aggregator of Ministry of Steel data.
+- #13 is [V-snip] this session (rates [V] in Part 1). #24 combines a management statement with arithmetic.
+- **Strictly primary (issuer or government document): 34/40.**
+- **Supplementary [V-snip], not counted:**
+  - Safeguard schedule 12/11.5/11% (four concordant snippets).
+  - Tokai 56 → 32 kt.
+  - India's 2015–18 ADD (Global Trade Alert page fetched; dates [V], rates not shown).
+
+**Conflicts and credibility.**
+- **Export share:** where the HEG transcript ("70–75%") differs from the BRSR (67.03%), use the BRSR/geography note (audited).
+- **GI capacity:** where ICRA's "98 kt incl. Germany" differs from the company's "80,000 tpa", use the company figure (Germany is being liquidated).
+- **RHIM market share:** where "30%+" (company) differs from the AR's own US$2.6 bn market (~18%), report both with denominators.
+
+---
+
+## 4.4 Gap log (Part 1 §H and the brief's 12-item list)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| 1 | Electrode volumes, realisation, utilisation, export share by company, FY22–FY26 and Q1 FY27 | **Partly filled.** Utilisation (GI 82/104/97%; HEG 90% FY26, >90% Q1); GI production 92.9 kt (incl. misc.); HEG volume +20% FY26; export shares (HEG 67%, GI 41–43%). **Tonnes sold and ₹/t are not disclosed by either company** (HEG declined on the call). Realisations remain [E] (HEG ~₹2.85 lakh/t FY26; GI ~₹3.1–3.2 lakh/t). FY22–FY24 volumes not found | GI/HEG presentations, ARs, HEG transcript [V]. Screener insights tables need login (not attempted) |
+| 2 | GI FY26 EBITDA basis; Q1 FY27 28.6% | **Filled**: includes other income | GI PPT [V] |
+| 3 | Needle coke price series 2023–26 | **Still open for levels.** Direction filled: down FY25–H1 FY26 (ICRA), +$200–300/t in 2026 (HEG); annual contracts | OilChem/Mysteel/SMM daily series paywalled; GrafTech 8-K gives no coke price |
+| 4 | US AD/CVD: HEG AD margin, dates, final date; India DGTR; EU/others | **Filled.** HEG 4.97%/1.15%; full docket; final ~Feb-2027; India's ADD 2015–18 (lapsed); Brazil AD case initiated; EU 2022 extension stands (Part 1) | Federal Register (govinfo, API), CBP message, GTA, GI AR [V] |
+| 5 | China GE exports 2025 full year (t, price) | **Still open** | Two searches; results only cover artificial graphite (anode) and flake. GACC/Mysteel electrode series paywalled. Use the Apr-2026 BigMint datapoint (Part 1) |
+| 6 | India route mix FY26; 168.4 Mt check | **Filled.** 168.4 Mt confirmed (GI AR citing JPC); Apr–Dec 2025 route mix BOF 42.5 / IF 37.7 / EAF 19.7 (MoS data via dataful). Full-year FY26 route mix not yet published in what was read | GI AR [V]; dataful [V] |
+| 7 | India refractory market; RHIM end-market split; capacity; royalty/related party; FY26 shipment growth; impairment | **Mostly filled.** Market ~US$2.6 bn; capacity 512 kt; royalty ₹35.1 Cr + IT ₹51 Cr + purchases ₹404 Cr; shipments +4.7%; impairment ₹556.24 Cr. **End-market split (steel/cement/industrial) not disclosed**; only geography (outside India 9.8%) | RHIM AR, Q4 PPT, transcript [V] |
+| 8 | GI ₹1,045 Cr Q2 FY24 OI; DPS FY26; Godi; Germany; anode project | **Filled**, except SGAM. Land sale ₹954 Cr; DPS ₹7; Godi 45.76% → 52.68%, development stage; Germany = permanent closure of specialities & coatings (electrodes shut in FY23). SGAM: "continues as previously announced" (no new numbers) | GI Q2 FY24 results, AR, PPT [V] |
+| 9 | HEG/TACC capex and timing; GST notice | **Filled.** TACC ₹2,200 Cr / 20 kt (40% spent by Jun-26; 90% FY27; SOP Q1 FY28; 85% procurement and 100% engineering done); 30 kt = ₹3,100 Cr; 60 kt by FY32. GST ₹2,282 Cr dropped 15-Oct-2026 (Part 1 [V]); not among AR contingent liabilities | HEG transcript, NDR deck, AR [V] |
+| 10 | IOCL Paradip needle coker | **Filled negatively**: only the Sep-2020 Stage-1 approval exists; no evidence of construction or commissioning | OGJ 18-Sep-2020 [V]; IOCL press releases (search) |
+| 11 | India steel safeguard 2025–26 | **Filled (snippet-grade)**: Notification 02/2025-Cus (SG), 12 → 11.5 → 11% to Apr-2028 | BigMint/Argus/S&P/Taxguru [V-snip] |
+| 12 | Global peer capacities | **Partly filled.** GrafTech ~127 kt [V]; Tokai JP+EU 32 kt [V-snip]; HEG: next two largest plants ~70 kt [V]. Resonac, EPM, Chinese makers still [K] | GrafTech 8-K; Chemical Week/Kallanish |
+| H10/H11 | HEG treasury split; HEG Ltd power; HEGAM share count; HEG Ltd listing | Share count **filled** (32.9 Cr); power **filled** (66 + 13.5 MW to HEG Ltd); GrafTech stake → HEG Ltd. **Treasury split and listing date still open.** Screener search on 25-Oct still shows only HEGAM | NDR deck, transcript [V]; screener API [V] |
+| H18 | US imports from India (792 t, 2025) looks low | **Partly explained.** Scope also covers HTS 3801.10.5090 / 3801.90.0050, and origin is set by the country of graphitisation, so 8545.11.0020 alone understates India's US volume. HEG puts the US at "<~10%" of its business, i.e. likely several thousand tonnes [E] | FR scope text [V] |
+| — | Graphite India earnings call | **Not available.** Graphite India files presentations but no recent call transcripts (screener lists PPT only). Management commentary for GI comes from the Chairman's message and the AR MD&A | BSE / screener [V] |
+
+---
+
+## 4.5 New insights the first pass missed, and primer issues
+
+### 4.5.1 Insights an expert would add
+1. **On a core basis, "28–29% EBITDA" is ~17–24%.**
+   - Both Indian electrode makers report EBITDA including treasury income: GI ₹97 Cr and HEG ₹50 Cr of other income in Q1 FY27.
+   - Like for like, Q1 FY27 core margins were **GI 17.1% and HEG ~23.6% (SA)**. GrafTech's was ~6% (adj. EBITDA $8.6 m on ~$112 m sales [E]).
+   - The Indian cost advantage is real, but the headline margins overstate it by 5–12 pp.
+2. **Graphite India's electrode segment barely earns.** FY26 Graphite & Carbon segment result was **₹164 Cr on ₹2,593 Cr (6.3%)**. In Q1 FY27 Steel (Powmex) and the treasury subsidiary contributed ₹85 Cr of the ₹141 Cr segment PBIT. Until the Oct-2026+ price hikes show up, GI's "recovery" is mostly mix and treasury.
+3. **The US case lands unevenly.** Graphite India's combined preliminary deposit is 13.6% vs HEG's 8.1%.
+   - Critical circumstances make the deposits **retroactive to 2-Jul-2026**, so Q2–Q3 FY27 US shipments already carry duty.
+   - The final, now ~Feb-2027, falls in Q4 FY27.
+   - GI's lower export share (~42%) limits the damage. HEG's US share is <10%.
+   - A Brazil AD case is a second front.
+4. **HEG Limited (electrodes) is a needle-coke-hedged pure-play with a GrafTech call option.**
+   - It keeps the 9.98% GrafTech stake (marked to market through the P&L: −₹~225 Cr in Q4 FY26), captive thermal power and a debt-free balance sheet.
+   - **The GrafTech stake makes HEG Limited's reported EBITDA swing with the US competitor's share price.** The writer should strip it out.
+   - It loses BEL's ~₹115 Cr/yr associate income to HEGAM.
+5. **Order-book lag sets the FY27 earnings path.**
+   - HEG is booked ~3–4 months ahead (to Sep–Oct 2026) on output. Needle coke is bought on annual contracts, with a 3–4-month conversion lag.
+   - So **price hikes land from Oct-2026 and coke-cost inflation from Nov-2026 to Jan-2027**. Q3 FY27 is the cleanest margin read.
+   - GrafTech guides only +mid-single-digit % QoQ for Q4-26. The ≥30% hike is an ask, not a print.
+6. **RHIM is a distributor of the parent's products as much as a manufacturer.**
+   - Production (340 kt) is only 65% of shipments (523 kt), and utilisation of the 512 kt capacity is ~66%.
+   - **About 10% of revenue is bought from the group and ~9% sold back to it**, plus ₹124 Cr a year of royalty, IT, commission and interest.
+   - The Dalmia (IR) business is "flat"; all growth is in legacy flow control.
+   - On the company's own US$2.6 bn market figure, the whole-market share is ~18%, not 30%+.
+7. **India's electrode tailwind is weaker than the decarbonisation story suggests.** The MoS data show the EAF share slipping to ~19.7% (Apr–Dec 2025) while BOF rises. Domestic electrode demand is only ~50–60 kt. The export market (MENA ~20% of HEG, Europe, the US) still decides the cycle.
+8. **Non-China supply is more concentrated than Part 1 said.** Tokai cut Japan and Europe to 32 kt and GrafTech is going to ~127 kt, while HEG is heading to 115 kt (the only announced Western-world addition). **The Indian pair is ~35–45% of non-China UHP capacity [E].**
+
+### 4.5.2 New primer issues (format as primer-issues.md; add to Part 3 §3.4)
+
+#### graphite-india.html
+- **EBITDA basis.**
+  - If the primer quotes "EBITDA ₹375 Cr / 13%" for FY26, label it "including other income ₹174 Cr". The core figure is ₹202 Cr (7.1%).
+  - Q1 FY27 = ₹241 Cr (28.6%) incl. OI; core ₹144 Cr (17.1%).
+- **Exports.** "Exports less than half": 41.4% of standalone turnover (BRSR FY26); RoW 42.6% consolidated. Remove any "60–70% exported" claim.
+- **Capacity.** 80,000 tpa (Durgapur + Nashik). German electrode production was shut in FY2022-23, and the Specialities & Coatings divisions are now being closed (permanent, not "six months").
+- **FY24 profit.** The ₹954 Cr exceptional is the **Bengaluru land sale to Tata Realty (₹986 Cr, Aug-2023)**, not an investment gain.
+- **Dividend.** FY26 DPS ₹7.
+- **Net cash.** ₹3,939 Cr at Jun-2026.
+- **Trade.**
+  - US prelim AD 12.22% (cash deposit 9.88%) + CVD 3.68%. Critical circumstances, so deposits apply retroactively from 2-Jul-2026.
+  - Finals ~Feb-2027; ITC hearing 9-Feb-2027.
+  - Brazil AD investigation initiated.
+- **Godi.** 45.76% associate at FY26 → 52.68% subsidiary (Oct-2026). Development stage, no revenue.
+- **Customer concentration.** One customer = ₹354 Cr (12% of revenue).
+
+#### heg.html
+- **Structure.**
+  - The electrode company (HEG Limited, ex-HEG Graphite) keeps 100 → 115 kt, 66 MW thermal + 13.5 MW hydro captive power and the **9.98% GrafTech stake**. Promoters 56.28%; ~19.3 Cr shares.
+  - HEGAM has ~32.9 Cr shares and 60.72% promoters, with ~₹1,500 Cr gross debt by Mar-2027.
+- **Margins.** "29% EBITDA" includes other income; core ~23–24% (Q1 FY27).
+- **Q4 FY26 loss.** It was the GrafTech fair-value loss inside other expenses, not operations.
+- **Exports.** 67% (BRSR); US <10%; MENA ~20%.
+- **Trade.** US prelim AD 4.97% (cash deposit 1.15%) + CVD 6.99%; finals ~Feb-2027.
+- **Expansion.** 115 kt at ₹650 Cr capex, production Q1 CY2028. FY26 DPS ₹3.40.
+- **Correction.** The "70% of capacity on 3–5-year contracts" refers to TACC anodes, not electrodes.
+
+#### rhi-magnesita-india.html
+- **Shipments.** FY26 523,396 t, +4.7% (not +9.4%). Production 339,717 t.
+- **Capacity.** 512 kt installed (not ~525 kt); utilisation ~66%.
+- **Related parties.** Royalty ₹35.1 Cr, IT charges ₹51.0 Cr, commission ₹25.4 Cr, purchases from group ₹404 Cr, sales to group ₹352 Cr.
+- **Market size.** The AR quotes India at ~US$2.6 bn (2025). Reconcile with the "30%+ share" claim.
+- **FY27 guidance.** ~13% EBITDA; 7–8% volume ("not 9%"); capex ₹80–100 Cr/yr. Magnesite is up 6–8% (Jun–Aug 2026). Dalmia (IR) is flat. Dalmia goodwill is fully written off.
+- **Exports.** Outside-India revenue 9.8% (₹389 Cr) and falling. Exports run mainly via the parent.
+
+#### General (all three)
+- India's EAF share is ~19.7% (Apr–Dec 2025, MoS) and slipping. Do not imply that India's growth drives electrode demand.
+- India had an ADD on Chinese electrodes (2015–2018). There is none now.
+- Safeguard on flat steel: 12% → 11.5% → 11% to Apr-2028 (Notification 02/2025-Cus (SG)).
+
+*End of Part 4.*
