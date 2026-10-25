@@ -1923,6 +1923,23 @@
         "The anode bet"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Exchanges",
+      "slug": "exchanges",
+      "file": "exchanges.html",
+      "sector": "Finance",
+      "subsector": "Exchange and Data Platform",
+      "companies": 3,
+      "accent": "#5F3DC4",
+      "hook": "Tolls on risk, set by regulators: how BSE, MCX and IEX earn a small fee on a vast flow of trading, why SEBI's expiry-day rules took BSE from 3% to a third of options premium, why MCX tracks premium not notional, how market coupling threatens IEX, and what NSE's listing says about 50× earnings.",
+      "tags": [
+        "Expiry-day duopoly",
+        "Who really pays",
+        "Premium, not notional",
+        "IEX market coupling"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -2266,7 +2283,7 @@
       "sector": "Finance",
       "sub": "Exchange and Data Platform",
       "companies": 3,
-      "report": null
+      "report": "exchanges.html"
     },
     {
       "sector": "Finance",
