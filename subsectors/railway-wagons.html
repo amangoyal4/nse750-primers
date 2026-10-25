@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Railway Wagons — Sub-sector Report</title>
+<meta name="description" content="A complete guide to India's listed wagon and rolling-stock makers: how a Railway Board tender becomes revenue, why a wheelset shortage capped a record order book, how Titagarh, Jupiter and Texmaco are escaping a one-buyer cycle, and what to watch before the next mega-tender.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#495057;          /* steel grey */
+    --brand-bright:#1971c2;   /* signal blue */
+    --gold:#e8590c;           /* rail orange */
+    --wtg:#1864ab;            /* deep signal blue */
+    --epc:#2f9e44;            /* signal green */
+    --om:#343a40;            /* charcoal */
+    --spec:#1971c2;          /* signal blue accent */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#495057,#6c757d);}
+  .fill.gold{background:linear-gradient(90deg,#e8590c,#fd7e14);}
+  .fill.wtg{background:linear-gradient(90deg,#1864ab,#1c7ed6);}
+  .fill.epc{background:linear-gradient(90deg,#2f9e44,#51cf66);}
+  .fill.om{background:linear-gradient(90deg,#343a40,#495057);}
+  .fill.spec{background:linear-gradient(90deg,#1971c2,#339af0);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .node.gold{background:var(--gold);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Automobile &amp; Ancillaries · Railway Wagons</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> How a wagon earns</a></li>
+    <li><a href="#p2"><span class="n">02</span> Size &amp; the 2022–25 boom</a></li>
+    <li><a href="#p3"><span class="n">03</span> The master variable</a></li>
+    <li><a href="#p4"><span class="n">04</span> Rail capex &amp; the wagon slice</a></li>
+    <li><a href="#p5"><span class="n">05</span> The wheel is the wagon</a></li>
+    <li><a href="#p6"><span class="n">06</span> Where ₹100 goes</a></li>
+    <li><a href="#p7"><span class="n">07</span> Who builds India's wagons</a></li>
+    <li><a href="#p8"><span class="n">08</span> Three escape routes</a></li>
+    <li><a href="#p9"><span class="n">09</span> Freight share: the long anchor</a></li>
+    <li><a href="#p10"><span class="n">10</span> Private owners &amp; lessors</a></li>
+    <li><a href="#p11"><span class="n">11</span> Rules of the game</a></li>
+    <li><a href="#p12"><span class="n">12</span> Order books, adjusted</a></li>
+    <li><a href="#p13"><span class="n">13</span> Five decades of cycles</a></li>
+    <li><a href="#p14"><span class="n">14</span> Reading a wagon maker: KPIs</a></li>
+    <li><a href="#p15"><span class="n">15</span> The peer table</a></li>
+    <li><a href="#p16"><span class="n">16</span> Who is winning</a></li>
+    <li><a href="#p17"><span class="n">17</span> Three company profiles</a></li>
+    <li><a href="#p18"><span class="n">18</span> The ₹700 crore question</a></li>
+    <li><a href="#p19"><span class="n">19</span> The global lens</a></li>
+    <li><a href="#p20"><span class="n">20</span> Technology &amp; disruption</a></li>
+    <li><a href="#p21"><span class="n">21</span> Bull vs bear</a></li>
+    <li><a href="#p22"><span class="n">22</span> What to watch</a></li>
+    <li><a href="#p23"><span class="n">23</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Automobile &amp; Ancillaries · Railway Wagons</span>
+    <span class="tag gold">3 listed companies</span>
+  </div>
+  <h1>Railway wagons: <em>one buyer, one bottleneck, three escapes</em></h1>
+  <p class="dek">A complete guide to India's listed wagon and rolling-stock makers: how a Railway Board tender becomes revenue, why a shortage of a ₹2.5-lakh wheelset capped a record order book, why output fell by a fifth in FY26 while the government kept talking about a 1-lakh-wagon tender, and how Titagarh, Jupiter and Texmaco are each trying to escape a business with one dominant customer.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹10,479 <small>Cr</small></div><div class="l">Combined FY26 revenue (−19% YoY)</div></div>
+    <div class="cell"><div class="v">41,929</div><div class="l">Record national wagon output, FY25</div></div>
+    <div class="cell"><div class="v">32,000</div><div class="l">IR wagon target, FY27 BE</div></div>
+    <div class="cell"><div class="v">₹2.93 <small>lakh Cr</small></div><div class="l">Railway capex, FY27 BE</div></div>
+    <div class="cell"><div class="v">₹27,808 <small>Cr</small></div><div class="l">Combined order book (Jun-26, standalone)</div></div>
+    <div class="cell"><div class="v">~3.3 <small>lakh</small></div><div class="l">Private forged wheels/yr being built</div></div>
+  </div>
+  <p class="prov">Basis: FY26 (year ended 31 Mar 2026) consolidated figures from screener.in and FY26 annual reports; Q1 FY27 (Apr–Jun 2026) from company presentations and calls. None of the three has reported Q2 FY27 (Jul–Sep 2026). Market data at 23 Oct 2026 closes. Industry data from PRS (Union Budget), PIB, the Ministry of Railways and Department of Commerce trade data. Estimates are labelled.</p>
+</header>
+
+<!-- ============ p0 ============ -->
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: one buyer, one bottleneck, three escape routes</h2></div>
+<p class="part-sub">A freight-wagon industry that tripled its output in three years, then lost a fifth of it because the customer could not supply the wheels.</p>
+
+<p class="lead">India's listed wagon makers sell a welded steel box on wheels, mostly to one customer, Indian Railways (IR), which decides how many it wants each year through a central tender run by the Railway Board. When IR orders, the factories fill up and profits multiply. When it pauses, revenue falls straight away, because there is no consumer market and no export market big enough to replace it. This report covers the three listed members of the NSE 750 that live inside this cycle: <strong>Titagarh Rail Systems</strong>, <strong>Jupiter Wagons</strong> and <strong>Texmaco Rail &amp; Engineering</strong>. Together they delivered <strong>20,889 wagons in FY26</strong>, about 64% of India's estimated output, and booked <strong>₹10,479 crore of revenue</strong>.</p>
+
+<p>The past five years have been the most dramatic in the industry's history. National wagon production went from 12,796 in FY22 to a record <strong>41,929 in FY25</strong> after IR placed about 60,000 wagons in June 2022. Combined revenue of the three listed makers nearly tripled, from ₹4,460 crore in FY22 to ₹12,938 crore in FY25, and their combined profit went up roughly tenfold. Then FY26 broke the pattern. The 2022 orders were largely delivered, the next large tender did not arrive, and IR's own wheel factories could not supply enough wheelsets for the wagons that were still on order. IR cut its own wagon additions to a revised estimate of 26,000 against a budget of 38,000. Combined revenue fell 19% and profit fell a third.</p>
+
+<p>Five forces explain almost everything in this sub-sector, and the report is built around them:</p>
+<ul class="clean">
+  <li><strong>IR's procurement calendar is the master variable.</strong> Revenue tracked IR's ordering almost exactly: +59%, +55%, +18% and then −19% over FY23–FY26. A reported ₹40,000 crore tender for about one lakh wagons has been "deferred… not dropped" (Titagarh, August 2026). Its timing and design decide FY28–FY30.</li>
+  <li><strong>The wheelset is the physical bottleneck.</strong> IR requires that wagons it orders carry wheels from its own factories. Its main plant made a record 94,275 wheelsets in FY24, enough for only about 23,600 new wagons even if none went to maintenance. New private forged-wheel plants (Ramkrishna–Titagarh, Jupiter's Odisha project) are the structural change of this cycle.</li>
+  <li><strong>Rail capex is high but plateauing, and wagons are a small slice.</strong> The FY27 budget gives IR ₹2,93,030 crore of capex, but rolling stock is ₹65,497 crore of that and wagons perhaps ₹10,000–13,000 crore. With an operating ratio near 99%, almost all of it depends on the Union budget.</li>
+  <li><strong>The three companies are escaping in different directions.</strong> Titagarh is turning into a metro and Vande Bharat maker; Jupiter into a wheel, brake and battery-storage group; Texmaco into an EPC contractor, exporter and part-owner of a leasing company.</li>
+  <li><strong>Freight-share policy is the long-run anchor.</strong> The National Rail Plan wants rail's share of freight to rise from about 27–28% to 45% by 2030, and loading to reach 3,000 million tonnes. Actual loading grows only 3–4% a year.</li>
+</ul>
+
+<div class="mini-stats">
+  <div class="ms"><div class="msv">20,889</div><div class="msl">Wagons delivered by the three in FY26 (7,019 + 5,498 + 8,372), about 64% of national output (estimated ~32,500)</div></div>
+  <div class="ms gold"><div class="msv">10.3%</div><div class="msl">Combined FY26 operating margin (EBITDA excluding other income); it barely moved through the boom</div></div>
+  <div class="ms red"><div class="msv">−₹373 Cr</div><div class="msl">Combined FY26 free cash flow; Jupiter alone was −₹524 Cr as it funded a wheel plant and inventory</div></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">Combined revenue of the three listed wagon makers</div>
+  <div class="c-sub">₹ crore, consolidated revenue from operations, Titagarh + Jupiter + Texmaco. Source: screener.in (fetched 25 Oct 2026); sums calculated</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill brand" style="width:34.3%"></span></div><div class="bval">4,460</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill brand" style="width:54.5%"></span></div><div class="bval">7,091</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:84.6%"></span></div><div class="bval">11,000</div></div>
+    <div class="bar-row"><div class="blab">FY25<small>the peak</small></div><div class="track"><span class="fill spec" style="width:99.5%"></span></div><div class="bval">12,938</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill gold" style="width:80.6%"></span></div><div class="bval">10,479</div></div>
+  </div>
+  <div class="legend"><span>Full bar = ₹13,000 crore. Revenue rose 190% in three years and then gave back 19% in one.</span></div>
+</div>
+
+<p>The market has already passed its verdict on the three strategies. Titagarh produces about 30% of the group's revenue but carries 44% of its market value; Texmaco produces 42% of revenue but only 20% of the value. Investors are paying for passenger rolling stock and for vertical integration, and are discounting the plain wagon shed. All three have also de-rated sharply in 2026: one-year price returns are −24% (Titagarh), −46% (Jupiter, now at a 52-week low of about ₹173) and −27% (Texmaco). The group trades at <strong>42.1× FY26 profit and about 36× trailing profit</strong> on a combined market value of ₹20,352 crore, which still assumes a strong recovery.</p>
+
+<div class="chart">
+  <div class="c-title">Share of revenue versus share of market value</div>
+  <div class="c-sub">FY26 consolidated revenue and market capitalisation at 23 Oct 2026, as % of the three-company total (revenue ₹10,479 Cr; m-cap ₹20,352 Cr). Source: screener.in; calculated</div>
+  <div class="stack-row"><div class="blab">Revenue FY26</div><div class="stack"><span style="width:30.4%;background:var(--spec)">Titagarh 30%</span><span style="width:27.8%;background:var(--gold)">Jupiter 28%</span><span style="width:41.8%;background:var(--brand)">Texmaco 42%</span></div></div>
+  <div class="stack-row"><div class="blab">Market value</div><div class="stack"><span style="width:43.9%;background:var(--spec)">Titagarh 44%</span><span style="width:36.4%;background:var(--gold)">Jupiter 36%</span><span style="width:19.7%;background:var(--brand)">Texmaco 20%</span></div></div>
+  <div class="legend"><span><i style="background:var(--spec)"></i>Titagarh (passenger pivot)</span><span><i style="background:var(--gold)"></i>Jupiter (components and wheels)</span><span><i style="background:var(--brand)"></i>Texmaco (wagons, EPC, exports)</span></div>
+</div>
+
+<p>Two things make this sub-sector harder to read than its size suggests. The first is that the reported numbers are on different bases. Titagarh's headline order book of ₹26,635 crore is half joint-venture business that will never appear as its revenue; Texmaco's company "EBITDA" includes other income; IR's tender prices exclude the wheels, which IR supplies itself, so a ₹32-lakh IR wagon and a ₹41.5-lakh private wagon are not different prices for the same thing. The second is accounting quality. Two of the three carry FY26 audit flags: Texmaco's auditors qualified its accounts because it created a ₹700 crore contingency provision directly out of reserves instead of through the profit and loss account, and Titagarh's auditors qualified their opinion on its internal financial controls after the Italian subsidiary Firema had to be written off and FY25 restated. Jupiter has a clean audit but disclosed a SEBI enquiry email about trading in its shares around its FY24 results.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>These are factories that build what one customer orders, when it orders, using wheels that customer insists on supplying. That made FY23–FY25 a bonanza and FY26 a drought, even though order books stayed full. The three listed makers are now trying to find customers and products that do not depend on that single tender calendar. Until the next large IR order is signed, their earnings depend on how quickly those alternatives grow, and their valuations still assume the big order will come.</p>
+</div>
+
+<p>The latest reported quarter is Q1 FY27 (April–June 2026). It looks like a bottom reached on low volume: combined revenue of ₹2,193 crore was 7% higher than a weak Q1 FY26 but 22% lower than Q4 FY26, and the three delivered only 3,479 wagons in the quarter, about 13,900 a year annualised, against stated capacity of roughly 35,000–38,000. Nobody has reported Q2 FY27 (July–September 2026) yet. Titagarh's board meets on 29 October 2026; Jupiter and Texmaco have not announced dates and are expected by mid-November. Section 22 lists what to look for.</p>
+</section>
+
+<!-- ============ p1 ============ -->
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>How a wagon earns: from a Railway Board tender to an accepted rake</h2></div>
+<p class="part-sub">The product is simple. The route from an order to recognised revenue runs through a regulator, a design approval and a wheel factory the maker does not control.</p>
+
+<p>A freight wagon is a welded steel body sitting on two cast-steel bogies, each carrying two wheelsets (a forged axle with two wheels pressed on), with couplers at each end and an air-brake system underneath. There are a dozen common types, each identified by an IR code. Open, high-sided wagons (the BOXN family) carry coal and ore. Covered wagons (BCN and BCNA) carry cement, fertiliser and grain. Flat wagons (BOST, BOSM, BLC) carry steel coils and containers. Tank wagons (BTPN) carry petroleum, hoppers discharge fly-ash or aggregates from the bottom, and auto-carriers (BCACBM) carry cars. A rake is a full train of 40–60 wagons of one type, and private customers usually buy in rakes.</p>
+
+<p>Wagons are only part of what these companies make. Each has a large steel foundry that casts bogie frames, couplers and other parts, used in its own wagons and sold to rivals and to IR workshops. Titagarh also builds metro cars in stainless steel and aluminium and is the junior partner (with BHEL) building 80 Vande Bharat sleeper trains. Jupiter assembles wheelsets, makes brakes through its Stone India subsidiary and a Czech joint venture, and has moved into truck bodies, containers, electric light commercial vehicles and battery storage. Texmaco runs a rail engineering and electrification contracting business alongside the wagon works. The table below sets out the product list and the value per unit, which differs by a factor of about 25 between a wagon and a metro car.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>What the sub-sector makes, and what each unit is worth</caption>
+    <thead><tr><th>Product</th><th>What it is</th><th>Typical unit value</th><th>Main buyers</th><th>Listed makers</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Freight wagon</td><td>Steel body, two cast bogies, four wheelsets, couplers, air brakes</td><td>~₹32 lakh ex-GST for IR (wheels supplied by IR); ₹40–47 lakh for private buyers (wheels included)</td><td>IR, private owners under wagon schemes, lessors, exporters</td><td>All three</td></tr>
+      <tr><td class="t-strong">Bogies, couplers, castings</td><td>Cast-steel components</td><td>Bogie set ~₹6–8 lakh per wagon (indicative)</td><td>Wagon makers, IR workshops</td><td>All three (in-house foundries)</td></tr>
+      <tr><td class="t-strong">Wheelsets, wheels, axles</td><td>Forged or cast wheels on a forged axle; four per wagon</td><td>Forged wheel ~₹1 lakh; wheelset ₹2.5–3 lakh</td><td>IR, private wagon makers, metro and Vande Bharat builders</td><td>Jupiter (subsidiary JTRWF); Titagarh (49% of a JV with Ramkrishna Forgings)</td></tr>
+      <tr><td class="t-strong">Brakes</td><td>Distributor valves, cylinders, rigging</td><td>~₹1.5–2.5 lakh per wagon (indicative)</td><td>Wagon makers, IR</td><td>Jupiter (Stone India, DAKO JV); Texmaco (Wabtec JV)</td></tr>
+      <tr><td class="t-strong">Metro car</td><td>Stainless or aluminium car with propulsion, doors, air-conditioning, train control</td><td>~₹8–10 crore</td><td>City metro companies</td><td>Titagarh</td></tr>
+      <tr><td class="t-strong">Vande Bharat sleeper car</td><td>16-car semi-high-speed train-set</td><td>~₹10 crore per car; Titagarh's share is 51% of car value</td><td>IR</td><td>Titagarh (with BHEL)</td></tr>
+      <tr><td class="t-strong">Rail EPC</td><td>Track, bridges, signalling, overhead electrification</td><td>Project-based</td><td>IR, freight corridors, metros, utilities</td><td>Texmaco (main); Titagarh (small)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="chart">
+  <div class="c-title">Revenue per unit: why one passenger car equals a rake's worth of wagons</div>
+  <div class="c-sub">₹ lakh per unit, indicative midpoints. IR wagon = 2022 award ex-GST (Titagarh ₹7,838 Cr ÷ 24,177); private wagon = Jupiter average realisation Q1 FY27; metro car per Titagarh management; Vande Bharat = Titagarh's 51% share of ~₹10 Cr; wheel and wheelset per company disclosures. INDICATIVE</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Metro car<small>Titagarh</small></div><div class="track"><span class="fill spec" style="width:90%"></span></div><div class="bval">~900</div></div>
+    <div class="bar-row"><div class="blab">Vande Bharat car<small>Titagarh's 51% share</small></div><div class="track"><span class="fill wtg" style="width:51%"></span></div><div class="bval">~510</div></div>
+    <div class="bar-row"><div class="blab">Private wagon<small>wheels included</small></div><div class="track"><span class="fill gold" style="width:4.2%"></span></div><div class="bval">41.5</div></div>
+    <div class="bar-row"><div class="blab">IR wagon<small>wheels free-issued</small></div><div class="track"><span class="fill brand" style="width:3.2%"></span></div><div class="bval">32.4</div></div>
+    <div class="bar-row"><div class="blab">Wheelset</div><div class="track"><span class="fill epc" style="width:0.3%"></span></div><div class="bval">2.5–3</div></div>
+    <div class="bar-row"><div class="blab">Forged wheel</div><div class="track"><span class="fill epc" style="width:0.1%"></span></div><div class="bval">~1</div></div>
+  </div>
+  <div class="legend"><span>Full bar = ₹1,000 lakh (₹10 crore). One metro car carries the revenue of about 22–28 wagons and uses a fraction of the shed space.</span></div>
+</div>
+
+<h3>The route from order to revenue</h3>
+<p>For an IR order, the sequence runs like this. The Railway Board floats a centralised tender for a quantity of a given wagon type. Historically, every qualified bidder has had to match the lowest (L1) price, and the quantity is then split by capacity and past performance, so price competition happens once, at the bid, and market share is allocated rather than won wagon by wagon. Each new design, and each new vendor, needs approval from the Research Designs &amp; Standards Organisation (RDSO) in Lucknow, which means a prototype and trials before series production. IR then issues the wheelsets from its own factories, the Rail Wheel Factory at Yelahanka in Bengaluru and the Rail Wheel Plant at Bela in Bihar. The maker fabricates the body, fits its own bogies and the IR wheelsets, and presents the wagon for inspection by RITES or RDSO. Revenue is recognised only on delivery and acceptance.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">From tender to revenue: an IR wagon order</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Step 1 · Tender</div><div class="nname">Railway Board order</div><div class="nwho">Central tender; L1 price matched by all qualified bidders; quantity split by capacity.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Step 2 · Design</div><div class="nname">RDSO approval</div><div class="nwho">Prototype and trials for each new design or vendor; months of delay for new types.</div></div>
+    <div class="arrow">→</div>
+    <div class="node gold"><div class="ntag">Step 3 · Wheels</div><div class="nname">IR free-issues wheelsets</div><div class="nwho">From RWF Bengaluru and RWP Bela. The step the maker does not control.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Step 4 · Build</div><div class="nname">Fabricate and assemble</div><div class="nwho">Steel body, in-house bogies and couplers, bought-in brakes and bearings.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Step 5 · Revenue</div><div class="nname">Inspection and acceptance</div><div class="nwho">RITES or RDSO inspection, dispatch, then revenue; payment follows IR's cycle.</div></div>
+  </div>
+  <div class="flow-note">A wagon missing its wheelsets is unfinished inventory. That is how a company with a full order book can report falling revenue and rising inventory at the same time, as all three did in FY26.</div>
+</div>
+
+<p>A private order runs differently. The buyer, such as JSW Steel, a cement company, a container operator or a lessor, registers under one of IR's wagon investment schemes and negotiates price and specification directly with the maker. The maker buys the wheelsets itself (imported or from a private plant) and includes them in the price. If the design is new, it still needs RDSO approval, which is why Jupiter lost about a quarter of its volume in Q1 FY27 while it waited for prototypes of new private designs to be cleared. Exports, such as Texmaco's South Africa and Cameroon orders, follow the customer's own standards and often include long maintenance contracts.</p>
+
+<h3>Where the value is captured</h3>
+<p>Margins rise as you move away from the plain IR wagon. A commodity IR wagon earns roughly 10–12% EBITDA; Titagarh's freight segment earned 12.2% EBIT in FY26, which it attributes to a better mix and foundry efficiency, and management says the figure moves by half to one percentage point depending on the public-private mix, the price variation clause and commodity prices. Components and wheels earn more: Jupiter targets 15% or more on its wheel plant and its brakes, and Titagarh says its wheel joint venture will earn margins "in line with a standard forging business". Passenger cars earn more per unit of factory space: Titagarh's passenger segment made 14.3% EBIT in FY26 and 14.7% in Q1 FY27, though, as Section 19 shows, global passenger builders earn only 4–6%. Long-term maintenance contracts and leasing are the least cyclical slice, and today they are small.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Building the steel box is the low-value part of the job. The money is in the parts that are hard to make (wheels, brakes, propulsion), in the products that carry more value per square metre of factory floor (metro and Vande Bharat cars), and in the contracts that pay for decades (maintenance and leasing). Each listed company is trying to move up one of those ladders.</p>
+</div>
+
+<p>Two features of the cash cycle matter as much as the margin. IR pays on its own cycle after acceptance, so receivables sit at 70–105 days of revenue across the three. And because IR contracts include a price variation clause indexed to steel and other inputs, a sudden rise in steel prices is passed through with a lag, while private contracts are often fixed or only partly indexed. The more private business a company takes, the more it needs to manage steel-price risk itself.</p>
+</section>
+
+<!-- ============ p2 ============ -->
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>Size and the 2022–25 boom: from 12,800 wagons a year to 41,929 and back</h2></div>
+<p class="part-sub">Output more than tripled in three years. Combined profit rose about tenfold. Margins hardly moved.</p>
+
+<p>For the ten years to FY24, India produced an average of 15,875 wagons a year, and the decade before that averaged 13,262 (Press Information Bureau figures). In FY21 and FY22 output was still around 12,500–12,800. Then the 2022 tender cycle arrived, and production rose to 22,790 in FY23, 37,650 in FY24 and a record 41,929 in FY25. FY26 has no published full-year figure, but the Ministry of Railways' year-end review gives 33,703 wagons for January–November 2025. Taking out January–March 2025 (3,651 + 3,880 + 4,135) leaves about 22,000 for April–November 2025, roughly 2,750 a month. Adding December–March at 2,400–2,900 a month gives an INDICATIVE estimate of 31,500–33,600 for FY26, with a central figure of about 32,500, down roughly 22% from FY25.</p>
+
+<div class="chart">
+  <div class="c-title">National wagon production, all buyers</div>
+  <div class="c-sub">Units per year, all wagons produced in India (IR, private, PSU and export). FY26 is an INDICATIVE estimate (~32,500, range 31,500–33,600) derived from the Ministry of Railways Year End Review 2025 (Jan–Nov 2025 = 33,703). Source: PIB (via India Shipping News, Apr 2025); MoR (Dec 2025)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">2004–14 average</div><div class="track"><span class="fill ink" style="width:29.5%"></span></div><div class="bval">13,262</div></div>
+    <div class="bar-row"><div class="blab">2014–24 average</div><div class="track"><span class="fill ink" style="width:35.3%"></span></div><div class="bval">15,875</div></div>
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill brand" style="width:27.8%"></span></div><div class="bval">12,521</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill brand" style="width:28.4%"></span></div><div class="bval">12,796</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill spec" style="width:50.6%"></span></div><div class="bval">22,790</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill spec" style="width:83.7%"></span></div><div class="bval">37,650</div></div>
+    <div class="bar-row"><div class="blab">FY25<small>record</small></div><div class="track"><span class="fill spec" style="width:93.2%"></span></div><div class="bval">41,929</div></div>
+    <div class="bar-row"><div class="blab">FY26 (est.)<small>INDICATIVE</small></div><div class="track"><span class="fill gold" style="width:72.2%"></span></div><div class="bval">~32,500</div></div>
+  </div>
+  <div class="legend"><span>Full bar = 45,000 wagons. These are production figures for all buyers. They are not IR's budget additions, which are shown separately in Section 03.</span></div>
+</div>
+
+<p>The three listed companies' combined revenue followed the same path: ₹4,460 crore in FY22, ₹7,091 crore in FY23, ₹11,000 crore in FY24, a peak of ₹12,938 crore in FY25, and ₹10,479 crore in FY26. That is a compound growth rate of 42.6% from FY22 to FY25, and 23.8% from FY22 to FY26 once the FY26 fall is included. The table shows each company. Texmaco was the largest by revenue at the peak, helped by the 2024 acquisition of Jindal Rail Infrastructure (now its "Texmaco West" unit), and remained so in FY26.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Five years of revenue, operating profit and profit (₹ crore, consolidated)</caption>
+    <thead><tr><th>Company / measure</th><th class="num">FY22</th><th class="num">FY23</th><th class="num">FY24</th><th class="num">FY25</th><th class="num">FY26</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Titagarh revenue</td><td class="num">1,468</td><td class="num">2,780</td><td class="num">3,853</td><td class="num">3,868</td><td class="num">3,186</td></tr>
+      <tr><td class="t-strong">Jupiter revenue</td><td class="num">1,178</td><td class="num">2,068</td><td class="num">3,644</td><td class="num">3,963</td><td class="num">2,916</td></tr>
+      <tr><td class="t-strong">Texmaco revenue</td><td class="num">1,814</td><td class="num">2,243</td><td class="num">3,503</td><td class="num">5,107</td><td class="num">4,377</td></tr>
+      <tr><td class="t-strong">Combined revenue</td><td class="num">4,460</td><td class="num">7,091</td><td class="num">11,000</td><td class="num">12,938</td><td class="num">10,479</td></tr>
+      <tr><td>Combined operating profit (EBITDA ex other income)</td><td class="num">419</td><td class="num">645</td><td class="num">1,200</td><td class="num">1,368</td><td class="num">1,076</td></tr>
+      <tr><td>Operating margin</td><td class="num">9.4%</td><td class="num">9.1%</td><td class="num">10.9%</td><td class="num">10.6%</td><td class="num">10.3%</td></tr>
+      <tr><td>Combined reported PAT</td><td class="num">70</td><td class="num">273</td><td class="num">730</td><td class="num">716</td><td class="num">483</td></tr>
+      <tr><td>PAT margin</td><td class="num">1.6%</td><td class="num">3.8%</td><td class="num">6.6%</td><td class="num">5.5%</td><td class="num">4.6%</td></tr>
+    </tbody>
+  </table>
+</div>
+<p style="font-size:12.5px;color:var(--ink-soft);">Source: screener.in consolidated, fetched 25 Oct 2026; combined rows are straight sums. Titagarh's FY26 PAT (₹123 Cr) is the audited figure after a ₹64.78 Cr Firema exceptional item.</p>
+
+<p>The striking line is the operating margin. Revenue nearly tripled between FY22 and FY25, but the combined margin rose only from 9.4% to a peak of 10.9% in FY24. The profit explosion came from below the operating line: interest and depreciation were roughly fixed while revenue tripled, so PAT went from ₹70 crore to ₹730 crore. Return on capital employed jumped for the same reason: Titagarh reached 25% and Jupiter 31% in FY24 because the same sheds turned over two and a half to three times as much revenue, not because each wagon became more profitable.</p>
+
+<div class="chart">
+  <div class="c-title">Operating margin barely moved through the boom</div>
+  <div class="c-sub">Combined operating profit (EBITDA excluding other income) ÷ combined revenue, %. Source: screener.in consolidated; calculated</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill brand" style="width:78.3%"></span></div><div class="bval">9.4%</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill brand" style="width:75.8%"></span></div><div class="bval">9.1%</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill spec" style="width:90.8%"></span></div><div class="bval">10.9%</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill spec" style="width:88.3%"></span></div><div class="bval">10.6%</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill gold" style="width:85.8%"></span></div><div class="bval">10.3%</div></div>
+  </div>
+  <div class="legend"><span>Full bar = 12%. The best year of the biggest wagon cycle in India's history produced a margin of under 11%.</span></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">Combined reported profit: operating leverage below the margin line</div>
+  <div class="c-sub">₹ crore, sum of consolidated reported PAT of the three. Source: screener.in; calculated</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill brand" style="width:8.8%"></span></div><div class="bval">70</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill brand" style="width:34.1%"></span></div><div class="bval">273</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill spec" style="width:91.3%"></span></div><div class="bval">730</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill spec" style="width:89.5%"></span></div><div class="bval">716</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill gold" style="width:60.4%"></span></div><div class="bval">483</div></div>
+  </div>
+  <div class="legend"><span>Full bar = ₹800 crore. FY25 would have been higher but for Titagarh's Q4 FY25 loss (−₹124 Cr) from its Italian subsidiary Firema.</span></div>
+</div>
+
+<h3>How big is the market?</h3>
+<p>Measured by IR's own spending, the wagon market is modest. IR's FY27 budget target of 32,000 wagons at ₹32–40 lakh each implies ₹10,000–13,000 crore a year (INDICATIVE). Private wagon buying has historically run at 7,000–10,000 wagons a year; Texmaco thinks 12,000–15,000 is sustainable, which at ₹40–45 lakh is another ₹3,000–6,500 crore. Wheelsets are a separate pool: Jupiter sizes domestic demand at three to four lakh wheelsets a year (new wagons, replacement and passenger trains), worth roughly ₹7,500–12,000 crore at ₹2.5–3 lakh each (INDICATIVE). Passenger rolling stock adds a market that depends on metro expansion, which the government wants to take from 25 to 50 cities. In dollars, the three listed companies' combined FY26 revenue is about US$1.1 billion at ₹94.9 to the dollar, roughly a third of the US wagon maker Greenbrier's FY25 revenue.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The boom was a volume boom, not a pricing boom. Each wagon earned roughly the same margin in FY25 as in FY22; the factories simply built three times as many. That is why profits can fall faster than revenue when volume drops, and why the next order matters more than any efficiency programme.</p>
+</div>
+
+<p>A note on the denominators. National production (PIB) counts every wagon made in India: IR orders, private wagons under the investment schemes, public-sector buyers, IR workshop output and some exports. IR's Union Budget target counts only the wagons IR itself adds to its fleet with budget money. In FY25 the gap was about 12,000 wagons (41,929 produced versus 29,889 IR additions), which is broadly the private and export pool. Comparing a company's deliveries with the wrong one of these two numbers is the most common error in writing about this industry, and this report keeps them apart throughout.</p>
+</section>
+
+<!-- ============ p3 ============ -->
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>The master variable: Indian Railways' procurement calendar</h2></div>
+<p class="part-sub">Budget targets missed, a revised estimate cut by a third, and a mega-tender that keeps slipping by a quarter or two.</p>
+
+<p>Everything else in this report (margins, return on capital, cash flow and share prices) sits downstream of one decision: how many wagons IR orders, of which types, and when. The Union Budget sets a physical target for IR's own wagon additions each year. The table and chart show how that target has fared. For FY25, IR budgeted 38,000 and achieved 29,889, or 79%. For FY26 it budgeted 38,000 again and then cut the revised estimate to 26,000, 68% of the target. For FY27 the budget estimate is 32,000, 23% above the FY26 revised figure but well below the FY25 and FY26 budgets.</p>
+
+<div class="chart">
+  <div class="c-title">IR's own wagon additions: target versus outcome</div>
+  <div class="c-sub">Wagons (vehicle units) funded by the Union Budget for IR's fleet. BE = budget estimate, RE = revised estimate. National production (all buyers) shown for comparison; FY26 production is an INDICATIVE estimate. Source: PRS Demand for Grants 2026-27: Railways, Table 7 (corrected 20 Feb 2026); PIB; MoR</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY25 target</div><div class="track"><span class="fill ink" style="width:84.4%"></span></div><div class="bval">38,000</div></div>
+    <div class="bar-row"><div class="blab">FY25 achieved</div><div class="track"><span class="fill brand" style="width:66.4%"></span></div><div class="bval">29,889</div></div>
+    <div class="bar-row"><div class="blab">FY25 national output<small>all buyers</small></div><div class="track"><span class="fill spec" style="width:93.2%"></span></div><div class="bval">41,929</div></div>
+    <div class="bar-row"><div class="blab">FY26 BE</div><div class="track"><span class="fill ink" style="width:84.4%"></span></div><div class="bval">38,000</div></div>
+    <div class="bar-row"><div class="blab">FY26 RE</div><div class="track"><span class="fill gold" style="width:57.8%"></span></div><div class="bval">26,000</div></div>
+    <div class="bar-row"><div class="blab">FY26 national output<small>INDICATIVE</small></div><div class="track"><span class="fill spec" style="width:72.2%"></span></div><div class="bval">~32,500</div></div>
+    <div class="bar-row"><div class="blab">FY27 BE</div><div class="track"><span class="fill ink" style="width:71.1%"></span></div><div class="bval">32,000</div></div>
+  </div>
+  <div class="legend"><span>Full bar = 45,000. The gap between national output and IR additions (~12,000 in FY25; ~6,500 in FY26, indicative) is roughly the private, PSU and export market.</span></div>
+</div>
+
+<p>The pattern behind those numbers is a tender cycle, not a smooth programme. In April 2022 IR floated a tender for about 90,000 wagons worth roughly ₹31,000 crore, which drew 16 bidders. In June 2022 it placed about 60,000 of them for ₹23,500 crore, with delivery due by FY26. Titagarh won 24,177 wagons (₹7,838 crore ex-GST; ₹9,249 crore including 18% GST) and Texmaco 20,067 (₹6,450 crore ex-GST; ₹7,615 crore with GST). Oriental Foundry, Hindusthan Engineering and CEBBCO (the company now called Jupiter) shared the rest, about 15,750 wagons by subtraction; their individual allocations were not disclosed. Later IR orders were smaller and type-specific: Jupiter won 4,000 BOXNS wagons for ₹1,617 crore in December 2023 and 2,237 BOSM steel-coil wagons for about ₹957 crore in November 2025.</p>
+
+<div class="chart">
+  <div class="c-title">The June 2022 award: who got the 60,000 wagons</div>
+  <div class="c-sub">Units, share of ~60,000 wagons (₹23,500 Cr). Titagarh and Texmaco disclosed; the other three's share is a residual by subtraction (single source, Construction World, 8 Jun 2022), so that segment is INDICATIVE</div>
+  <div class="stack-row"><div class="blab">2022 IR award</div><div class="stack"><span style="width:40.3%;background:var(--spec)">Titagarh 40%</span><span style="width:33.4%;background:var(--brand)">Texmaco 33%</span><span style="width:26.3%;background:var(--ink-faint)">Others ~26%</span></div></div>
+  <div class="legend"><span><i style="background:var(--spec)"></i>Titagarh 24,177</span><span><i style="background:var(--brand)"></i>Texmaco 20,067</span><span><i style="background:var(--ink-faint)"></i>Oriental, Hindusthan Engineering and CEBBCO/Jupiter, ~15,750 combined (residual, INDICATIVE)</span></div>
+</div>
+
+<p>By the end of FY25 most of the 2022 order had been delivered and no replacement of similar size had been placed. At the same time IR's wheel factories ran short (Section 05), so even wagons still on order could not be completed. Snippet reporting in Business Standard said procurement from private builders ran about 40% below target in April–July 2025 (single source, INDICATIVE); Jupiter's annual report confirms that "in the first half of the year, an industry-wide shortage of wheelsets constrained wagon production". The result is visible in the quarterly numbers: combined revenue of the three fell from ₹3,397 crore in the March 2025 quarter to ₹2,049 crore in June 2025, recovered to about ₹2,800 crore a quarter for the rest of FY26, and dropped again to ₹2,193 crore in June 2026.</p>
+
+<div class="chart">
+  <div class="c-title">Quarterly combined revenue: the FY26 air-pocket</div>
+  <div class="c-sub">₹ crore, sum of the three companies' consolidated quarterly revenue. Source: screener.in; calculated</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Jun-24 (Q1 FY25)</div><div class="track"><span class="fill brand" style="width:79.8%"></span></div><div class="bval">2,871</div></div>
+    <div class="bar-row"><div class="blab">Sep-24</div><div class="track"><span class="fill brand" style="width:94.8%"></span></div><div class="bval">3,412</div></div>
+    <div class="bar-row"><div class="blab">Dec-24</div><div class="track"><span class="fill brand" style="width:90.5%"></span></div><div class="bval">3,258</div></div>
+    <div class="bar-row"><div class="blab">Mar-25</div><div class="track"><span class="fill brand" style="width:94.4%"></span></div><div class="bval">3,397</div></div>
+    <div class="bar-row"><div class="blab">Jun-25 (Q1 FY26)</div><div class="track"><span class="fill gold" style="width:56.9%"></span></div><div class="bval">2,049</div></div>
+    <div class="bar-row"><div class="blab">Sep-25</div><div class="track"><span class="fill spec" style="width:79.0%"></span></div><div class="bval">2,843</div></div>
+    <div class="bar-row"><div class="blab">Dec-25</div><div class="track"><span class="fill spec" style="width:76.8%"></span></div><div class="bval">2,764</div></div>
+    <div class="bar-row"><div class="blab">Mar-26</div><div class="track"><span class="fill spec" style="width:78.4%"></span></div><div class="bval">2,822</div></div>
+    <div class="bar-row"><div class="blab">Jun-26 (Q1 FY27)</div><div class="track"><span class="fill gold" style="width:60.9%"></span></div><div class="bval">2,193</div></div>
+  </div>
+  <div class="legend"><span>Full bar = ₹3,600 crore. Q2 FY27 (Sep-26) has not been reported by any of the three.</span></div>
+</div>
+
+<h3>The mega-tender that keeps slipping</h3>
+<p>The swing factor for FY28–FY30 is a single tender. In May 2026, Mint and Angel One reported that IR was "preparing a tender of ₹40,000 crore for 1,00,000 freight wagons" to be delivered over three to four years, which would mean 25,000–35,000 a year. Arihant Capital expected it within two quarters. By August, Titagarh's management said it had been "deferred by a few months or a couple of quarters, but not dropped" and that priorities had "shifted because of the Middle East war", which began on 28 February 2026 and pushed up crude and freight costs. Texmaco's management, for its part, has said the country needs "no less than 1.5 lakh to 2 lakh wagons" in the near term, and that, as of now, it can "only talk about private and export" orders. No tender notice had appeared on IR's procurement portal by late October 2026.</p>
+
+<p>The reported value implies about ₹40 lakh a wagon (INDICATIVE), noticeably above the ₹32 lakh ex-GST of 2022. Whether that is because steel has risen, because the mix is richer, or because wheels will be included in the price instead of being supplied by IR is not known; no tender document exists yet. The answer matters a great deal. If IR keeps supplying wheels, its own factories cannot equip one lakh wagons in three or four years on top of maintenance demand (Section 05), so either the free-supply rule is diluted or the new private wheel plants are designated as suppliers.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The industry is waiting for one customer to sign one large order. Until it does, each company keeps its sheds running at roughly half speed on private and export work. When it does, the size of the order matters less than two details: how many wagons a year it requires, and who supplies the wheels.</p>
+</div>
+
+<p>The FY26 cut also shows something about IR's priorities. The wagon target is one of the few items in the railway budget that can be deferred without stopping a train: new lines, electrification and safety work have contractors and political commitments attached, while a wagon order can simply be placed a year later. When the budget tightens (and with an operating ratio near 99%, IR's budget is always tight), wagons are among the first items to be cut, and among the first to be restored when freight traffic or political focus demands it. The next section looks at that budget.</p>
+</section>
+
+<!-- ============ p4 ============ -->
+<section class="part" id="p4">
+<div class="part-head"><span class="pno">04</span><h2>Rail capex: high, plateauing, and wagons are a thin slice of it</h2></div>
+<p class="part-sub">Railway capital spending nearly tripled in six years and then went flat. Rolling stock is a fifth of it; wagons perhaps a twenty-fifth.</p>
+
+<p>Indian Railways' capital expenditure rose from ₹1,01,985 crore in FY18 to ₹2,62,217 crore in FY24, an average of about 17% a year. Since then it has gone sideways: ₹2,69,361 crore in FY25, ₹2,65,200 crore in the FY26 revised estimate (identical to the budget), and ₹2,93,030 crore budgeted for FY27, up 10.5%. For an industry that depends on IR's wallet, the plateau matters more than the headline. The money is still very large, but it is no longer growing fast enough to lift every line item at once, and IR has to choose.</p>
+
+<div class="chart">
+  <div class="c-title">Railway capital expenditure</div>
+  <div class="c-sub">₹ crore. FY18 and FY24–FY27 from PRS Demand for Grants 2026-27: Railways; FY22–FY23 actuals from IR's year-end financial release (via Indian Infrastructure, Apr 2023). FY26 = revised estimate; FY27 = budget estimate</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY18</div><div class="track"><span class="fill ink" style="width:34.0%"></span></div><div class="bval">1,01,985</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill brand" style="width:63.4%"></span></div><div class="bval">1,90,267</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill brand" style="width:68.0%"></span></div><div class="bval">2,03,983</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill spec" style="width:87.4%"></span></div><div class="bval">2,62,217</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill spec" style="width:89.8%"></span></div><div class="bval">2,69,361</div></div>
+    <div class="bar-row"><div class="blab">FY26 RE</div><div class="track"><span class="fill spec" style="width:88.4%"></span></div><div class="bval">2,65,200</div></div>
+    <div class="bar-row"><div class="blab">FY27 BE</div><div class="track"><span class="fill gold" style="width:97.7%"></span></div><div class="bval">2,93,030</div></div>
+  </div>
+  <div class="legend"><span>Full bar = ₹3,00,000 crore. Growth averaged ~17% a year to FY24 and has been roughly flat since.</span></div>
+</div>
+
+<p>How the money is raised explains why wagons are vulnerable. IR's operating ratio, the share of its revenue consumed by working expenses, is 98.82% in the FY26 revised estimate and 98.40% in the FY27 budget. That leaves almost nothing from operations to invest, so about 95% of the FY27 capex (₹2,78,030 crore) comes as gross budgetary support from the Union government, with ₹12,000 crore of extra-budgetary resources (market borrowing through IRFC) and a small balance from internal resources. IR's investment programme is therefore a line in the Union budget, competing with defence, roads and subsidies. PRS also notes that IR's capital-output ratio rose from 418 paise in 2017-18 to 704 paise in 2023-24, meaning each rupee of capital generates less output than before. A finance ministry looking for savings has a ready argument.</p>
+
+<p>Within the total, the rolling-stock head (locomotives, coaches, Vande Bharat trains and wagons) was ₹60,625 crore in FY25, ₹58,895 crore in the FY26 budget, ₹63,373 crore in the FY26 revised estimate and ₹65,497 crore in the FY27 budget, up 3%. That head funds 1,800 electric locomotives and 10,392 coaches in FY27 as well as wagons. At 32,000 wagons and ₹32–40 lakh each, wagons need ₹10,000–13,000 crore (INDICATIVE): roughly a sixth of the rolling-stock head and about 4% of total capex. A separate and fast-growing line, "leased assets – payment of capital component", repays IRFC for rolling stock bought in earlier years under lease. It rises from ₹28,157 crore to ₹39,650 crore in FY27 (+41%). Past wagon booms are now a fixed charge on today's budget.</p>
+
+<div class="chart">
+  <div class="c-title">The rolling-stock head is flat; the bill for past rolling stock is not</div>
+  <div class="c-sub">₹ crore. Rolling-stock capital head versus lease payments (capital component) to IRFC for previously acquired rolling stock. Source: PRS Demand for Grants 2026-27, Table 6</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Rolling stock FY25</div><div class="track"><span class="fill brand" style="width:86.6%"></span></div><div class="bval">60,625</div></div>
+    <div class="bar-row"><div class="blab">Rolling stock FY26 BE</div><div class="track"><span class="fill brand" style="width:84.1%"></span></div><div class="bval">58,895</div></div>
+    <div class="bar-row"><div class="blab">Rolling stock FY26 RE</div><div class="track"><span class="fill brand" style="width:90.5%"></span></div><div class="bval">63,373</div></div>
+    <div class="bar-row"><div class="blab">Rolling stock FY27 BE</div><div class="track"><span class="fill spec" style="width:93.6%"></span></div><div class="bval">65,497</div></div>
+    <div class="bar-row"><div class="blab">Lease capital FY25</div><div class="track"><span class="fill gold" style="width:32.4%"></span></div><div class="bval">22,699</div></div>
+    <div class="bar-row"><div class="blab">Lease capital FY26 BE</div><div class="track"><span class="fill gold" style="width:39.9%"></span></div><div class="bval">27,905</div></div>
+    <div class="bar-row"><div class="blab">Lease capital FY26 RE</div><div class="track"><span class="fill gold" style="width:40.2%"></span></div><div class="bval">28,157</div></div>
+    <div class="bar-row"><div class="blab">Lease capital FY27 BE</div><div class="track"><span class="fill gold" style="width:56.6%"></span></div><div class="bval">39,650</div></div>
+  </div>
+  <div class="legend"><span>Full bar = ₹70,000 crore. Lease repayments for rolling stock already in service grow 41% in FY27; the head that buys new rolling stock grows 3%.</span></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">Where wagons sit in the FY27 railway capex budget</div>
+  <div class="c-sub">Share of ₹2,93,030 Cr FY27 BE. Rolling stock ₹65,497 Cr (22%); the wagon slice (~₹11,500 Cr, midpoint of ₹10,000–13,000 Cr) is an ILLUSTRATIVE estimate from 32,000 wagons × ₹32–40 lakh. Source: PRS; calculated</div>
+  <div class="stack-row"><div class="blab">FY27 capex</div><div class="stack"><span style="width:3.9%;background:var(--gold)"></span><span style="width:18.4%;background:var(--spec)">Rolling 18%</span><span style="width:77.7%;background:var(--brand)">Other capex 78%</span></div></div>
+  <div class="legend"><span><i style="background:var(--gold)"></i>Wagons ~4% (illustrative)</span><span><i style="background:var(--spec)"></i>Locos, coaches, Vande Bharat ~18%</span><span><i style="background:var(--brand)"></i>Track, new lines, electrification, stations, safety and other ~78%</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The headline railway budget looks enormous, but the wagon makers live off a small and deferrable corner of it. Rail capex can grow while the wagon order shrinks, as it did in FY26. What matters for these companies is the physical wagon target in the budget documents, not the total capex number in the Finance Minister's speech.</p>
+</div>
+
+<h3>What the budget says about intent</h3>
+<p>The FY27 budget did contain signals of long-term intent. It proposed a new east–west Dedicated Freight Corridor from Dankuni in West Bengal to Surat, and sanctioned seven high-speed passenger corridors at about ₹16 lakh crore over their lives. It allotted ₹28,740 crore across ongoing metro and rapid transit projects, mostly outside the railway budget, which matters for Titagarh's metro business. And the wagon target rose from 26,000 to 32,000, which the industry reads as a floor for FY27. But the same documents show what has not changed: freight rates have not been revised since 2018, coal still provides about 48% of freight revenue, and IR's internal resources cannot fund a large wagon order without budget support.</p>
+
+<p>For investors, the practical consequence is that the wagon makers' revenue is a function of three numbers that appear each February: the gross budgetary support to railways, the rolling-stock head within it, and the physical wagon target. The FY28 budget, due on 1 February 2027, will show whether the 32,000 target is being met and whether the mega-tender has been provided for. A rolling-stock head that rises only in line with inflation, combined with lease repayments growing at 40% a year, would mean the mega-tender has to be stretched over more years or financed some other way, for example through private wagon investment and leasing (Section 10). Two other signals are worth tracking. The first is IR's revised estimate for the current year, published with each budget, because the FY26 cut from 38,000 to 26,000 appeared there first. The second is the monthly freight-loading data: if loading accelerates and wagon turnaround stays near five days, the case for more wagons becomes hard to deny.</p>
+
+<p>One more point on scale. Even a ₹40,000 crore, one-lakh-wagon programme spread over four years is about ₹10,000 crore a year, roughly what IR already budgets for wagons. The mega-tender is less a new pot of money than a commitment to keep spending at the FY27 level for several years, with prices and quantities fixed in advance. For the makers, that visibility is worth more than the headline, because it lets them run their sheds at a steady rate and plan wheel and steel purchases. The weakness in FY26 came from the gap between tenders, not from a lack of total spending.</p>
+</section>
+
+<!-- ============ p5 ============ -->
+<section class="part" id="p5">
+<div class="part-head"><span class="pno">05</span><h2>The wheel is the wagon: how a ₹2.5-lakh part stopped a ₹40-lakh product <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">IR insists on supplying the wheels for its own wagons, and its wheel factories could not keep up. Private forged-wheel plants are the structural change of this cycle.</p>
+
+<p class="lead">A wagon needs four wheelsets: eight wheels and four axles. For any wagon that Indian Railways orders, those wheelsets must come from IR's own production units. Texmaco's management put it plainly on its Q1 FY27 call: "we are dependent on the supply of Rail Wheel Factory. And that's what is the mandate of the government." The wheelsets are issued to the wagon maker as a "free-supply item", which is why IR's tender prices exclude most of the wheel cost. The rule has a logic (quality control, and keeping IR's own factories busy), but it means that IR's wagon output can never exceed what its wheel and axle lines produce, net of what the existing fleet consumes in replacement.</p>
+
+<h3>IR's own capacity: the hidden ceiling</h3>
+<p>The Rail Wheel Factory at Yelahanka, Bengaluru, is the core of the system. According to a PIB release of September 2024, it produced a record 1,96,265 wheels, 83,054 axles and 94,275 wheelsets in FY24, and a third axle-machining line was being commissioned to add about 40,000 axles a year. The Rail Wheel Plant at Bela in Bihar makes wheels only (axles and assembly happen at RWF). Bela has capacity of one lakh wheels a year and produced a record 42,167 in FY24; snippet reports put FY26 output at 60,699 and the FY27 target at 72,000. SAIL's Durgapur plant makes about 40,000 cast wheels a year. RINL's forged-wheel plant at Rae Bareli, built for about ₹2,300 crore with capacity of one lakh wheels, has "sat largely idle after commissioning disputes" (The Core, February 2026).</p>
+
+<p>The arithmetic is unforgiving. RWF's record 94,275 wheelsets, if every one went into a new wagon and none to replacing worn wheelsets on the existing fleet, would equip about 23,600 wagons. Axles are the tighter constraint: RWF's 1.96 lakh wheels plus Bela's recent output of about 60,000 come to roughly 2.56 lakh wheels, enough for 1.28 lakh wheelsets, but RWF's axle output of 83,054 capped wheelsets at about 83,000 before the new line. Coaches, locomotives and the maintenance of an existing fleet of roughly three lakh wagons draw on the same pool. That is why IR's own wagon additions have topped out at 26,000–30,000 a year (29,889 in FY25, a 26,000 revised estimate in FY26) even when national wagon-building capacity was well above 40,000, and why IR reportedly planned in May 2026 to import 60,000–70,000 axles from China (single-source report, INDICATIVE).</p>
+
+<div class="chart">
+  <div class="c-title">Why IR wagon additions hit a ceiling</div>
+  <div class="c-sub">Wagons per year. "RWF ceiling" = RWF's record FY24 wheelset output (94,275) ÷ 4 wheelsets per wagon, assuming none go to fleet maintenance (ILLUSTRATIVE upper bound). Mega-tender annual rate = 1 lakh wagons over 3–4 years (reported, INDICATIVE). Source: PIB (9 Sep 2024); PRS; press reports (May 2026)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">RWF wheelset ceiling<small>ILLUSTRATIVE</small></div><div class="track"><span class="fill gold" style="width:62.9%"></span></div><div class="bval">~23,600</div></div>
+    <div class="bar-row"><div class="blab">IR additions FY25</div><div class="track"><span class="fill brand" style="width:79.7%"></span></div><div class="bval">29,889</div></div>
+    <div class="bar-row"><div class="blab">IR additions FY26 RE</div><div class="track"><span class="fill brand" style="width:69.3%"></span></div><div class="bval">26,000</div></div>
+    <div class="bar-row"><div class="blab">IR target FY27 BE</div><div class="track"><span class="fill spec" style="width:85.3%"></span></div><div class="bval">32,000</div></div>
+    <div class="bar-row"><div class="blab">Mega-tender rate<small>25k–35k a year</small></div><div class="track"><span class="fill wtg" style="width:80%"></span></div><div class="bval">~30,000</div></div>
+  </div>
+  <div class="legend"><span>Full bar = 37,500 wagons. IR additions above the RWF-only ceiling were met from stock, Bela wheels, imported axles and wheels, and IR's other sources. The FY27 target and any mega-tender need more than IR's own lines can supply.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>IR told the wagon makers it would provide the wheels, then could not make enough of them. The makers had orders, sheds and steel, but a wagon without wheels cannot be delivered, so it sat in inventory and earned nothing. A ₹2.5-lakh component held up a ₹40-lakh product, and it will do so again on the next big order unless the supply rules change or new wheel plants arrive in time.</p>
+</div>
+
+<h3>How FY26 went wrong</h3>
+<p>The shortage was worst in the first half of FY26. Titagarh was "hit over two quarters"; Jupiter's annual report says an "industry-wide shortage of wheelsets constrained wagon production"; and CARE Ratings cites "non-availability of wheel sets from Rail Wheel Factory" for Texmaco. The effect fell hardest on the companies with the most IR business. Texmaco delivered 81.7% of its FY26 wagons to IR and Titagarh's freight book was mostly IR, so both lost volume they could not replace. Jupiter, with a larger share of private orders, could import wheels for those but still lost IR volume. Inventory piled up: Jupiter's inventory days reached 188 in FY26, and the group's inventory stood at ₹2,535 crore at March 2026. By Q1 FY27, Texmaco said there was no shortage, but by then its IR book had largely run out.</p>
+
+<p>The supply line had already been disturbed once. Until February 2022, much of India's imported wheel supply came from Ukraine. The Russian invasion cut that route and China filled it. Department of Commerce trade data for HS 8607 (parts of railway rolling stock, which includes wheels, axles, bogies, brakes and couplers) show imports almost doubling from ₹2,802 crore in FY23 to ₹5,049 crore in FY24, with China's share rising from 46% to 69%. Imports eased to ₹4,072 crore in FY25 and rose again to ₹4,537 crore in FY26, when China's direct share fell to 52% but Hong Kong's jumped from ₹0.4 crore to ₹471.5 crore, consistent with re-routing of Chinese-origin parts (an inference, INDICATIVE).</p>
+
+<div class="chart">
+  <div class="c-title">Imports of rolling-stock parts (HS 8607), and China's share</div>
+  <div class="c-sub">₹ crore, all countries; label shows China's direct share. FY26 China share excludes Hong Kong (₹471.5 Cr, ~10%). Source: Department of Commerce TradeStat (EIDB), fetched 25 Oct 2026</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY23<small>China 46%</small></div><div class="track"><span class="fill brand" style="width:53.9%"></span></div><div class="bval">2,802</div></div>
+    <div class="bar-row"><div class="blab">FY24<small>China 69%</small></div><div class="track"><span class="fill bad" style="width:97.1%"></span></div><div class="bval">5,049</div></div>
+    <div class="bar-row"><div class="blab">FY25<small>China 60%</small></div><div class="track"><span class="fill brand" style="width:78.3%"></span></div><div class="bval">4,072</div></div>
+    <div class="bar-row"><div class="blab">FY26<small>China 52% + HK 10%</small></div><div class="track"><span class="fill gold" style="width:87.3%"></span></div><div class="bval">4,537</div></div>
+  </div>
+  <div class="legend"><span>Full bar = ₹5,200 crore. Imports doubled in the FY24 peak, mostly Chinese wheels and axles.</span></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">Where India's rolling-stock parts came from in FY26</div>
+  <div class="c-sub">Share of ₹4,537.4 Cr HS 8607 imports by origin. Source: Department of Commerce TradeStat; calculated</div>
+  <div class="stack-row"><div class="blab">FY26 imports</div><div class="stack"><span style="width:52.1%;background:var(--bad)">China 52%</span><span style="width:10.4%;background:#C9603F">HK 10%</span><span style="width:7.9%;background:var(--wtg)">DE 8%</span><span style="width:7.7%;background:var(--spec)">HU 8%</span><span style="width:5.2%;background:var(--om)">US</span><span style="width:2.6%;background:var(--epc)"></span><span style="width:2.4%;background:var(--gold)"></span><span style="width:11.7%;background:var(--ink-faint)">Other 12%</span></div></div>
+  <div class="legend"><span><i style="background:var(--bad)"></i>China ₹2,363 Cr</span><span><i style="background:#C9603F"></i>Hong Kong ₹472 Cr</span><span><i style="background:var(--wtg)"></i>Germany ₹358 Cr</span><span><i style="background:var(--spec)"></i>Hungary ₹350 Cr</span><span><i style="background:var(--om)"></i>USA ₹238 Cr</span><span><i style="background:var(--epc)"></i>Italy ₹117 Cr</span><span><i style="background:var(--gold)"></i>Czech Republic ₹108 Cr</span><span><i style="background:var(--ink-faint)"></i>All others ₹533 Cr</span></div>
+</div>
+
+<p>Passenger trains are even more import-dependent. Jupiter's managing director says that "today, India does not produce any wheelset" for passenger rolling stock; metro and Vande Bharat wheels come almost entirely from Lucchini RS (Italy) and Bonatrans (Czech Republic). There is also a technical constraint. Cast wheels, which IR and SAIL make, are limited to about 100 km/h; faster trains and heavier, faster freight need forged wheels. Older wagon designs use 840 mm wheels, while newer high-axle-load designs need 1,000 mm wheels, so capacity in one size does not substitute for the other.</p>
+
+<h3>The private response: about 3.3 lakh units a year of new forged capacity</h3>
+<p>Two listed-company projects are changing this, and The Core estimates new private capacity of about 3.28 lakh forged wheels and wheelsets a year for roughly ₹4,500 crore of investment. (The figure mixes units: 2.28 lakh wheels at one plant and one lakh wheelsets, equal to two lakh wheels, at the other. Counted in wheels, it is about 4.3 lakh.)</p>
+<ul class="clean">
+  <li><strong>Ramkrishna Titagarh Rail Wheels (Chennai).</strong> A 51:49 joint venture of Ramkrishna Forgings and Titagarh, with capacity of 2,28,000 forged wheels a year, which Titagarh calls Asia's second largest. Project cost is about ₹2,000 crore, of which ₹500 crore of equity has been infused by the partners. It won IR's 2023 wheel tender at ₹1.88 lakh a tonne, against ₹2.75 lakh from Bharat Forge and ₹2.89 lakh from SAIL, and holds a 20-year contract to supply 80,000 wheels a year to IR, about 40% of capacity, at roughly ₹1 lakh a wheel. Hot trials and samples ran in August 2026, and Titagarh expects invoicing within FY27.</li>
+  <li><strong>Jupiter Tatravagonka Railwheel Factory (Khordha, Odisha).</strong> A forged wheel-and-axle plant for one lakh wheelsets a year, with project cost of ₹2,600 crore on the August 2026 call (the annual report says ₹3,000 crore including a 20,000 loose-wheel line; the difference is unexplained). The axle line is due in FY27 and the wheel line in FY28. The revenue target is ₹2,500–3,000 crore at full ramp with EBITDA of 15% or more, and half the output is meant for export. Jupiter took the venture to 100% ownership in Q1 FY27, then agreed that Lucchini RS and the Italian state finance institution SIMEST will take 25% for about ₹290 crore, cutting Jupiter's own equity commitment from ₹900 crore to about ₹600 crore. Tatravagonka of Slovakia, which owns 19.24% of Jupiter, is expected to buy 20,000–30,000 wheels a year.</li>
+</ul>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">How a wheelset is made, and who makes each part</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Input</div><div class="nname">Steel blooms and billets</div><div class="nwho">Special wheel and axle steel; IR units, SAIL, private forgers.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Forge or cast</div><div class="nname">Wheels</div><div class="nwho">Cast (RWF, Bela, SAIL; ~100 km/h limit) or forged (RINL idle; RKFL–Titagarh; JTRWF from FY28; imports).</div></div>
+    <div class="arrow">→</div>
+    <div class="node gold"><div class="ntag">Forge and machine</div><div class="nname">Axles</div><div class="nwho">RWF ~83k a year (FY24) plus a new 40k line; JTRWF Odisha from FY27; Chinese imports.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Assemble</div><div class="nname">Press-fit wheelset</div><div class="nwho">RWF (94,275 in FY24); Jupiter Aurangabad (19,939 in FY26, using imported forged wheels).</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Destination</div><div class="nname">Wagon, coach, metro</div><div class="nwho">IR orders: free-issued by IR. Private and export: bought by the maker.</div></div>
+  </div>
+  <div class="flow-note">The IR mandate applies only to IR-ordered wagons. Private and export orders can import or buy from private plants, which is one reason the private-order pivot also eased the wheel constraint.</div>
+</div>
+
+<div class="chart">
+  <div class="c-title">Wheel capacity in India: existing, idle and coming</div>
+  <div class="c-sub">Wheels per year. RWF = FY24 actual output; Bela, RINL and SAIL = stated capacity (Bela FY26 output 60,699); RKFL–Titagarh = stated capacity; JTRWF = 1 lakh wheelsets × 2 wheels. Source: PIB; Patna Press; The Core; Titagarh and Jupiter presentations. Capacity claims are INDICATIVE</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">RKFL–Titagarh JV<small>forged, from FY27</small></div><div class="track"><span class="fill spec" style="width:99.1%"></span></div><div class="bval">2,28,000</div></div>
+    <div class="bar-row"><div class="blab">JTRWF Odisha<small>forged, from FY28</small></div><div class="track"><span class="fill gold" style="width:87.0%"></span></div><div class="bval">2,00,000</div></div>
+    <div class="bar-row"><div class="blab">RWF Bengaluru<small>cast, FY24 output</small></div><div class="track"><span class="fill brand" style="width:85.3%"></span></div><div class="bval">1,96,265</div></div>
+    <div class="bar-row"><div class="blab">RWP Bela<small>cast, capacity</small></div><div class="track"><span class="fill brand" style="width:43.5%"></span></div><div class="bval">1,00,000</div></div>
+    <div class="bar-row"><div class="blab">RINL Rae Bareli<small>forged, largely idle</small></div><div class="track"><span class="fill ink" style="width:43.5%"></span></div><div class="bval">1,00,000</div></div>
+    <div class="bar-row"><div class="blab">SAIL Durgapur<small>cast</small></div><div class="track"><span class="fill brand" style="width:17.4%"></span></div><div class="bval">~40,000</div></div>
+  </div>
+  <div class="legend"><span>Full bar = 2,30,000 wheels. Private forged capacity coming in FY27–FY28 (~4.3 lakh wheels) exceeds all of IR's existing cast-wheel output.</span></div>
+</div>
+
+<h3>The economics of a wheel</h3>
+<p>Wheels are a better business than wagons. An ILLUSTRATIVE calculation for the Ramkrishna–Titagarh plant: at roughly ₹1 lakh a wheel and the 2023 tender price of ₹1.88 lakh a tonne, each wheel weighs about half a tonne. A forging-industry EBITDA margin of about 20% (Ramkrishna Forgings itself runs at 20–22%) gives about ₹20,000 per wheel. At full capacity of 2.28 lakh wheels, that is about ₹2,280 crore of revenue and ₹450 crore of EBITDA, of which the IR contract underwrites about ₹800 crore of revenue a year for 20 years. Titagarh's 49% share of the profit after interest, depreciation and tax could be ₹120–140 crore a year at maturity, about equal to Titagarh's entire FY26 reported profit of ₹123 crore. It would be equity-accounted, so it would show up in profit but never in revenue. For Jupiter's plant, ₹2,500–3,000 crore of revenue at 15% EBITDA is ₹375–450 crore a year at maturity (FY29 or later), about 75% attributable to Jupiter after the Lucchini and SIMEST stake, against Jupiter's whole FY26 consolidated operating profit of ₹354 crore. Both figures are ILLUSTRATIVE and depend on ramp-up, price and utilisation.</p>
+
+<p>The component business has its own cycle, as Jupiter showed in Q1 FY27. Its wheelset output, which goes into its own wagons and is sold to rivals and IR, fell from 5,290 in Q4 FY26 to 1,282, a drop of 76% in one quarter, and the subsidiaries swung from about ₹16 crore of EBITDA to roughly break-even. Management did not discuss it on the call. The thesis that a component maker's profit "scales with industry volume" cuts both ways: when industry volume falls, so does the component business.</p>
+
+<div class="chart">
+  <div class="c-title">Jupiter's wheelset output by quarter</div>
+  <div class="c-sub">Wheelsets assembled. Q1 FY26, Q4 FY26 and Q1 FY27 from Jupiter's Q1 FY27 presentation; Q3 FY26 from The Core; Q2 FY26 by subtraction from the FY26 total of 19,939 (INDICATIVE)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q1 FY26</div><div class="track"><span class="fill gold" style="width:87.5%"></span></div><div class="bval">4,811</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY26<small>INDICATIVE</small></div><div class="track"><span class="fill gold" style="width:97.5%"></span></div><div class="bval">~5,362</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY26</div><div class="track"><span class="fill gold" style="width:81.4%"></span></div><div class="bval">4,476</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY26</div><div class="track"><span class="fill gold" style="width:96.2%"></span></div><div class="bval">5,290</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27</div><div class="track"><span class="fill bad" style="width:23.3%"></span></div><div class="bval">1,282</div></div>
+  </div>
+  <div class="legend"><span>Full bar = 5,500 wheelsets. The Q1 FY27 collapse was not explained on the call; it is a question for the Q2 results.</span></div>
+</div>
+
+<h3>The endgame: from shortage to surplus?</h3>
+<p>If both private plants reach capacity and RINL's plant is ever started, India's wheel supply by FY29 could be RWF's ~1.96 lakh, Bela's 0.6–1 lakh, SAIL's 0.4 lakh, RINL's 1 lakh, Ramkrishna–Titagarh's 2.28 lakh and Jupiter's 2 lakh: roughly 8–8.6 lakh wheels a year. Jupiter sizes domestic demand at three to four lakh wheelsets, or six to eight lakh wheels. On those INDICATIVE numbers, the bottleneck could turn into a surplus within three years, which is why Jupiter plans to export half its output and why Texmaco says it is considering wheels but is "not… jumping into a band wagon". Three questions decide who wins. Does IR keep the free-supply mandate, or let wagon makers fit private wheels on IR orders? Does IR buy wheels from the private plants, as it already does through the Ramkrishna–Titagarh contract? And does the mega-tender specify forged 1,000 mm wheels, which favour the new plants? The Ramkrishna–Titagarh contract alone, 80,000 wheels a year, is enough for about 10,000 wagons, which makes Titagarh's joint venture a swing supplier for the very tender Titagarh is bidding on.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>For three years the problem was too few wheels. By the end of the decade it may be too many. The companies that own wheel plants (Titagarh through its joint venture, Jupiter directly) gain a higher-margin business and some control over their own supply, but they also take on a new cycle. The investor question shifts from "will there be wheels?" to "who will buy them, and at what price?"</p>
+</div>
+</section>
+
+<!-- ============ p6 ============ -->
+<section class="part" id="p6">
+<div class="part-head"><span class="pno">06</span><h2>Where ₹100 goes: steel, castings, wheels and an 11% margin</h2></div>
+<p class="part-sub">A wagon is mostly bought-in steel. The maker controls the foundry, the shed and the bid price, and little else.</p>
+
+<p>The cost structure of a wagon explains why margins are thin and why they barely change through the cycle. The largest input is steel plate and sections, from SAIL, JSW and ArcelorMittal Nippon Steel, with stainless steel from Jindal Stainless for the newer stainless-bodied designs. On an IR wagon, where the wheels are supplied free by IR, steel and bought-out structural material account for about half the price. The next layer is castings (bogie side-frames, bolsters, couplers and knuckles), which all three companies make in their own foundries, followed by brakes, bearings and springs, mostly bought from Wabtec, Knorr-Bremse, Timken, SKF and NBC. Labour, power and overheads are a small share and are largely fixed in the short run, which is where operating leverage comes from.</p>
+
+<div class="chart">
+  <div class="c-title">Where ₹100 of revenue goes: three products compared</div>
+  <div class="c-sub">ILLUSTRATIVE composites built from company disclosures (Titagarh gross margin 26–29%, employee cost ~3.7% of revenue; segment EBIT; Jupiter OPM) and analyst estimates. IR wagon: wheels free-issued, ~₹32–36 lakh; private wagon: wheels included, ~₹42–47 lakh; metro car ~₹9 Cr, shown to segment EBIT</div>
+  <div class="stack-row"><div class="blab">IR wagon (wheels free)</div><div class="stack"><span style="width:52%;background:var(--om)">Steel 52</span><span style="width:14%;background:var(--wtg)">Cast 14</span><span style="width:8%;background:var(--spec)">Parts 8</span><span style="width:15%;background:var(--ink-faint)">Opex 15</span><span style="width:11%;background:var(--gold)">EBITDA 11</span></div></div>
+  <div class="stack-row"><div class="blab">Private wagon (with wheels)</div><div class="stack"><span style="width:40%;background:var(--om)">Steel 40</span><span style="width:22%;background:var(--bad)">Wheels 22</span><span style="width:11%;background:var(--wtg)">Cast 11</span><span style="width:7%;background:var(--spec)">Parts</span><span style="width:8%;background:var(--ink-faint)">Opex</span><span style="width:12%;background:var(--gold)">EBITDA 12</span></div></div>
+  <div class="stack-row"><div class="blab">Metro car</div><div class="stack"><span style="width:51%;background:var(--epc)">Systems 51</span><span style="width:18%;background:var(--om)">Body 18</span><span style="width:14%;background:var(--ink-faint)">Labour 14</span><span style="width:3%;background:var(--brand)"></span><span style="width:14%;background:var(--gold)">EBIT 14</span></div></div>
+  <div class="legend"><span><i style="background:var(--om)"></i>Steel and structural material / car-body and interiors</span><span><i style="background:var(--wtg)"></i>Castings, bogies, couplers (in-house)</span><span><i style="background:var(--spec)"></i>Brakes, bearings, springs, paint</span><span><i style="background:var(--bad)"></i>Four wheelsets</span><span><i style="background:var(--epc)"></i>Bought-in propulsion, train control, HVAC, doors, bogies</span><span><i style="background:var(--ink-faint)"></i>Employees, power, overheads, SG&amp;A / engineering and testing</span><span><i style="background:var(--brand)"></i>Other overheads 3</span><span><i style="background:var(--gold)"></i>Margin</span></div>
+</div>
+
+<p>Below EBITDA, the IR wagon in this ILLUSTRATIVE composite loses about 1.5 to depreciation, 2–3 to interest (including the commission banks charge for the performance and advance guarantees IR requires) and about 2 to tax, leaving roughly 5 of PAT per ₹100 of revenue. The real numbers line up: Texmaco's FY26 PAT margin was 4.4% and the group's 4.6%. The private wagon looks similar at the EBITDA line but is a different business. The maker buys the wheelsets (about a fifth of the price), so it carries more working capital and more supply risk, and it earns a slightly higher margin on a higher price. That is why Jupiter's realisation of ₹41.5 lakh a wagon in Q1 FY27 is not a sign that its wagons are 30% more profitable than an IR wagon priced at ₹32 lakh. Much of the difference is the wheels.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Key inputs, their drivers and who carries the price risk</caption>
+    <thead><tr><th>Input</th><th>Share of cost (indicative)</th><th>What moves it</th><th>Pass-through</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Steel plate and sections (incl. stainless)</td><td>~45–55% of ex-wheel cost</td><td>Domestic HRC and plate prices; nickel for stainless</td><td>IR contracts carry a price variation clause indexed to steel and other inputs; private orders negotiated, often fixed or partly indexed</td></tr>
+      <tr><td class="t-strong">Castings (bogies, couplers)</td><td>~12–18%</td><td>Scrap, ferro-alloys, power, gas</td><td>Made in-house by all three; the Q1 FY27 gas shortage hurt (Texmaco had to "control the consumption")</td></tr>
+      <tr><td class="t-strong">Wheelsets</td><td>0% on IR orders; ~20–25% on private orders</td><td>Scarcity, Chinese imports, IR and private plant output</td><td>Private: passed through in price. IR: no cost to the maker but a volume risk</td></tr>
+      <tr><td class="t-strong">Brakes, bearings, springs</td><td>~6–8%</td><td>Multinational suppliers</td><td>Mostly bought in; Jupiter (Stone India) and Texmaco (Wabtec JV) are localising</td></tr>
+      <tr><td class="t-strong">Labour, power, overheads</td><td>~8–12%</td><td>Fixed in the short run</td><td>Not passed through; the source of operating leverage</td></tr>
+      <tr><td class="t-strong">Export freight</td><td>Variable</td><td>Ocean freight; the West Asia shock</td><td>Texmaco books it in other expenses, which rose 88.5% in Q1 FY27</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Why the margin does not move</h3>
+<p>Three mechanisms keep the margin in a narrow band. First, IR's price variation clause works both ways: when steel rises, the price rises with a lag; when steel falls, the price falls too, so windfall gains are clawed back. Titagarh says this, together with the public-private mix and commodity prices, moves its freight margin by only half to one percentage point. Second, the L1-matching tender system means that any efficiency one maker achieves tends to be bid away in the next tender, because the lowest bidder sets the price for everyone. Third, the companies have used good years to add capacity, so fixed costs rise with the boom.</p>
+
+<p>The ILLUSTRATIVE operating-leverage arithmetic for Titagarh's freight business shows the potential and the reality. At 600 wagons a month (7,200 a year at ₹39 lakh) freight revenue would be about ₹2,800 crore; at 1,000 a month (12,000 at ₹40 lakh) about ₹4,800 crore. With fixed costs of about ₹250 crore and a variable margin of about 20%, EBIT would rise from about ₹310 crore (11%) to about ₹710 crore (14.8%). Yet management guides an 11–12% freight margin at both ends of that range, which tells you that price competition and the variation clause absorb most of the leverage in practice.</p>
+
+<div class="chart">
+  <div class="c-title">Peak versus FY26 operating margin, by company</div>
+  <div class="c-sub">Operating profit (EBITDA excluding other income) ÷ revenue, %, consolidated. Peak year in brackets. Source: screener.in</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Titagarh peak<small>FY24</small></div><div class="track"><span class="fill spec" style="width:78%"></span></div><div class="bval">11.7%</div></div>
+    <div class="bar-row"><div class="blab">Titagarh FY26</div><div class="track"><span class="fill spec" style="width:69.3%"></span></div><div class="bval">10.4%</div></div>
+    <div class="bar-row"><div class="blab">Jupiter peak<small>FY25</small></div><div class="track"><span class="fill gold" style="width:95.3%"></span></div><div class="bval">14.3%</div></div>
+    <div class="bar-row"><div class="blab">Jupiter FY26</div><div class="track"><span class="fill gold" style="width:80.7%"></span></div><div class="bval">12.1%</div></div>
+    <div class="bar-row"><div class="blab">Texmaco peak<small>FY25</small></div><div class="track"><span class="fill brand" style="width:61.0%"></span></div><div class="bval">9.1%</div></div>
+    <div class="bar-row"><div class="blab">Texmaco FY26</div><div class="track"><span class="fill brand" style="width:59.3%"></span></div><div class="bval">8.9%</div></div>
+  </div>
+  <div class="legend"><span>Full bar = 15%. Peaks calculated from screener OP and revenue (Titagarh 449 ÷ 3,853; Jupiter 566 ÷ 3,963; Texmaco 467 ÷ 5,107).</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>A wagon maker is a converter: it buys steel, adds castings and labour, and sells a finished wagon at a price that is reset with steel costs. It keeps about 11 rupees of every 100 before interest and tax. Getting more volume is the main way to earn more; getting a higher margin requires a different product.</p>
+</div>
+
+<p>The cash side of the business is less forgiving than the margin. At March 2026 the three carried ₹2,635 crore of receivables (about 92 days of combined revenue) and ₹2,535 crore of inventory, against ₹7,808 crore of equity. In a downturn, inventory rises because wagons wait for wheels or for approvals, receivables stay high because IR pays on its own schedule, and bank guarantees tie up borrowing capacity: Texmaco's bank and corporate guarantees reached ₹1,086 crore at March 2026, about a quarter of its revenue. This is why the group's FY26 free cash flow was negative (−₹373 crore) despite ₹1,076 crore of operating profit, and why rising interest rates (the RBI raised the repo rate to 5.50% on 7 October 2026) matter to companies whose interest line already includes guarantee commission. A maker's quality shows less in its margin than in how much of that margin turns into cash, which is the subject of several KPIs in Section 14.</p>
+</section>
+
+<!-- ============ p7 ============ -->
+<section class="part" id="p7">
+<div class="part-head"><span class="pno">07</span><h2>Who builds India's wagons: three listed leaders and a long unlisted tail</h2></div>
+<p class="part-sub">The listed three made about two of every three wagons in FY26. Capacity is twice what is being used.</p>
+
+<p>On FY26 deliveries, the three listed companies built 20,889 wagons: Texmaco 8,372, Titagarh 7,019 and Jupiter 5,498. Against an INDICATIVE national estimate of about 32,500, that is a share of about 64% (62–66% across the range of estimates). Texmaco was the volume leader with roughly a quarter of national output, followed by Titagarh with about a fifth and Jupiter with about a sixth. Management claims of leadership conflict (Texmaco calls itself "one of the high market shareholder"; Titagarh has described itself as India's largest private maker), so this report uses deliveries, on which Texmaco is first.</p>
+
+<div class="chart">
+  <div class="c-title">Who built India's wagons in FY26</div>
+  <div class="c-sub">Share of an INDICATIVE ~32,500 national FY26 output. Company deliveries from FY26 annual reports and Jupiter's Q1 FY27 presentation; "others" is the residual (Hindusthan Engineering, Oriental, Besco, Braithwaite, SAIL-RITES, Amsted, IR workshops)</div>
+  <div class="stack-row"><div class="blab">FY26 output</div><div class="stack"><span style="width:25.8%;background:var(--brand)">Texmaco 26%</span><span style="width:21.6%;background:var(--spec)">Titagarh 22%</span><span style="width:16.9%;background:var(--gold)">Jupiter 17%</span><span style="width:35.7%;background:var(--ink-faint)">Others ~36%</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>Texmaco 8,372</span><span><i style="background:var(--spec)"></i>Titagarh 7,019</span><span><i style="background:var(--gold)"></i>Jupiter 5,498</span><span><i style="background:var(--ink-faint)"></i>Others ~11,600 (residual, INDICATIVE)</span></div>
+</div>
+
+<p>The listed three took most of the FY26 fall. National output fell about 22%, and the remaining builders kept roughly 11,000–12,000 wagons between them. The reason is mix: the listed makers held the bulk of the 2022 IR order, which ran out, and were the most exposed to IR's wheel shortage. The table lists the main other players. Most are old Kolkata engineering houses or public-sector units; one, Oriental Rail Infrastructure, is listed on the BSE but is not an NSE 750 member.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>The rest of the industry: unlisted, state-owned and multinational players</caption>
+    <thead><tr><th>Player</th><th>Ownership</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Hindusthan Engineering &amp; Industries</td><td>Private, Kolkata</td><td>Long-standing IR wagon supplier; part of the 2022 award</td></tr>
+      <tr><td class="t-strong">Oriental Rail Infrastructure / Oriental Foundry</td><td>BSE-listed small-cap</td><td>Wagons (incl. 1,200 brake vans for ₹432 Cr in 2024), seats and berths; part of the 2022 award</td></tr>
+      <tr><td class="t-strong">Braithwaite &amp; Co</td><td>Central PSU under the Ministry of Railways</td><td>Wagons and cranes</td></tr>
+      <tr><td class="t-strong">Besco</td><td>Private, Kolkata</td><td>Smaller wagon builder (800-wagon contract delivered 2024–25)</td></tr>
+      <tr><td class="t-strong">SAIL-RITES Bengal Wagon Industry</td><td>JV of SAIL and RITES (Kulti)</td><td>Small wagon output</td></tr>
+      <tr><td class="t-strong">Amsted Rail India</td><td>US multinational subsidiary</td><td>Bogies and castings; bid for the 2023 modern open-wagon tender</td></tr>
+      <tr><td class="t-strong">Jindal Rail Infrastructure</td><td>Bought by Texmaco in Sep 2024 for ~₹614 Cr</td><td>Was a leading approved builder; now "Texmaco West" (+3,000 units of capacity)</td></tr>
+      <tr><td class="t-strong">Cimmco</td><td>Bought by Titagarh in 2010, later merged</td><td>Historic Bharatpur wagon works</td></tr>
+      <tr><td class="t-strong">BEML, BHEL</td><td>Listed central PSUs (other sub-sectors)</td><td>BEML: metro cars and a Vande Bharat sleeper; BHEL: Titagarh's Vande Bharat partner and propulsion</td></tr>
+      <tr><td class="t-strong">ICF, RCF, MCF; RWF, RWP</td><td>IR production units</td><td>Coaches and Vande Bharat chair cars; wheels and axles. ICF took over the cancelled Mumbai MRVC EMU order</td></tr>
+      <tr><td class="t-strong">Kinet Railway Solutions</td><td>RVNL + Transmashholding (Russia)</td><td>120 Vande Bharat sleepers; first prototype pushed to Dec 2026</td></tr>
+      <tr><td class="t-strong">Alstom, Siemens, Hyundai Rotem, Stadler, Knorr-Bremse, Wabtec</td><td>Multinationals in India</td><td>Metro cars, locomotives, brakes; Wabtec is Texmaco's JV partner</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Capacity is not the constraint</h3>
+<p>The industry has far more capacity than it uses. An industry commentator in February 2026 put theoretical national capacity at about 60,000 wagons a year against output of 35,000–40,000 in the peak. On company figures, Texmaco has 15,400 vehicle units of installed capacity including 2,400 at its Czech-linked tank-wagon unit Texmaco Nymwag (CARE Ratings), though its own presentation gives a standing run-rate of 2,500–3,000 a quarter, or 10,000–12,000 a year, and management calls capacity "elastic, 15,000–16,000". Titagarh has 12,000 a year (1,000 a month) and is deliberately running at 600–650 a month until the IR tender is clear. Jupiter's capacity has been described as rising from 6,000 toward 8,000–10,000. The chart compares these with actual output.</p>
+
+<div class="chart">
+  <div class="c-title">Stated capacity versus actual output</div>
+  <div class="c-sub">Wagons per year. Capacity: Texmaco 15,400 installed (CARE, Jul 2026); Titagarh 12,000 (company); Jupiter 9,000 = midpoint of 8,000–10,000 (primer). FY26 actual from annual reports and presentations; Q1 FY27 annualised = quarter × 4. Capacity claims are INDICATIVE</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Texmaco capacity</div><div class="track"><span class="fill ink" style="width:96.3%"></span></div><div class="bval">15,400</div></div>
+    <div class="bar-row"><div class="blab">Texmaco FY26</div><div class="track"><span class="fill brand" style="width:52.3%"></span></div><div class="bval">8,372</div></div>
+    <div class="bar-row"><div class="blab">Texmaco Q1 FY27 ×4</div><div class="track"><span class="fill gold" style="width:26.4%"></span></div><div class="bval">4,216</div></div>
+    <div class="bar-row"><div class="blab">Titagarh capacity</div><div class="track"><span class="fill ink" style="width:75%"></span></div><div class="bval">12,000</div></div>
+    <div class="bar-row"><div class="blab">Titagarh FY26</div><div class="track"><span class="fill spec" style="width:43.9%"></span></div><div class="bval">7,019</div></div>
+    <div class="bar-row"><div class="blab">Titagarh Q1 FY27 ×4</div><div class="track"><span class="fill gold" style="width:32.1%"></span></div><div class="bval">5,136</div></div>
+    <div class="bar-row"><div class="blab">Jupiter capacity</div><div class="track"><span class="fill ink" style="width:56.3%"></span></div><div class="bval">~9,000</div></div>
+    <div class="bar-row"><div class="blab">Jupiter FY26</div><div class="track"><span class="fill wtg" style="width:34.4%"></span></div><div class="bval">5,498</div></div>
+    <div class="bar-row"><div class="blab">Jupiter Q1 FY27 ×4</div><div class="track"><span class="fill gold" style="width:28.5%"></span></div><div class="bval">4,564</div></div>
+  </div>
+  <div class="legend"><span>Full bar = 16,000 wagons. Combined Q1 FY27 annualised output (~13,900) is about 37–40% of the three companies' combined stated capacity (~35,000–38,000).</span></div>
+</div>
+
+<p>Spare capacity has two consequences. It keeps prices competitive when a tender does arrive, because every qualified builder wants to fill its sheds, and it means that a sudden large order can be absorbed quickly if wheels are available. In 2022–25 national output tripled without any company building a new plant from scratch; Texmaco bought one. The constraint on growth has been the order flow and the wheelsets, not the sheds.</p>
+
+<h3>Imports, China and the protected market</h3>
+<p>Complete wagons are hardly imported at all: HS 8606 imports were ₹86 crore in FY25 and ₹39 crore in FY26, mostly from Korea. RDSO approval, domestic-content rules under the 2017 Public Procurement (Preference to Make in India) Order and IR's design standards act as barriers. Since 2020, rule 144(xi) of the General Financial Rules has restricted bidders from countries sharing a land border with India, which effectively excludes China's CRRC, the world's largest rolling-stock maker, from Indian tenders. The import exposure is in parts, not wagons: ₹4,537 crore of HS 8607 imports in FY26, half of them from China (Section 05). In passenger rolling stock, propulsion, train control and brakes are still largely imported or supplied by multinationals, which is the dependence Titagarh is trying to reduce by building its own propulsion systems.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Competition among wagon builders is real but contained. Foreign rivals are kept out, capacity is ample, and IR's tender rules spread the work among qualified builders at one price. A wagon maker's position depends less on beating rivals and more on how much IR orders and how well it diversifies away from IR.</p>
+</div>
+
+<p>Concentration of customers is the flip side. Jupiter's annual report shows its three largest customers took 51.6% of FY26 revenue, the largest alone 28.6% (₹834 crore); in FY25 a single customer, almost certainly IR, took 42%. Texmaco sent 81.7% of its FY26 wagons to IR. Titagarh's freight book has been mostly IR. Even after the private-order pivot, a single buyer still accounts for a large share of every company's deliveries.</p>
+</section>
+
+<!--CONTINUE-->
+
+</main>
+</div>
+</div>
+</body>
+</html>
