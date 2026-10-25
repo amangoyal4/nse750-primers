@@ -1991,6 +1991,23 @@
         "Copper changes the recycler"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Flexible Workspace",
+      "slug": "flexible-workspace",
+      "file": "flexible-workspace.html",
+      "sector": "Realty",
+      "subsector": "Flexible Workspace (Co-working)",
+      "companies": 3,
+      "accent": "#C2255C",
+      "hook": "Long leases, short licences: how India's listed flex operators turn nine-to-fifteen-year office leases into monthly desk fees, why Ind AS 116 produces three different EBITDAs, what occupancy, lock-ins and capex per seat really mean, and why the market prices WeWork India and Smartworks at 16–18 times rent-paid EBITDA but Awfis at 7.",
+      "tags": [
+        "Three EBITDAs (Ind AS 116)",
+        "Long leases, short licences",
+        "Three ways to monetise a square foot",
+        "Valuation and the Awfis de-rating"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -2772,7 +2789,7 @@
       "sector": "Realty",
       "sub": "Flexible Workspace (Co-working)",
       "companies": 3,
-      "report": null
+      "report": "flexible-workspace.html"
     },
     {
       "sector": "Retailing",
