@@ -2025,6 +2025,23 @@
         "MMTC cash shell"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Construction Equipment",
+      "slug": "construction-equipment",
+      "file": "construction-equipment.html",
+      "sector": "Capital Goods",
+      "subsector": "Construction Vehicles",
+      "companies": 2,
+      "accent": "#B8860B",
+      "hook": "When capex stops accelerating: why India's machine sales fell in FY26 despite a record capex budget, how Stage V and Chinese cranes reshaped the market, and why ACE's −20-day cash cycle and BEML's 421-day rail-and-defence order book sit at opposite ends of a JCB-dominated industry.",
+      "tags": [
+        "Capex growth vs machine volumes",
+        "Hydra cranes, Stage V and China",
+        "BEML's rail pivot and working capital",
+        "KPI masterclass"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -2182,7 +2199,7 @@
       "sector": "Capital Goods",
       "sub": "Construction Vehicles",
       "companies": 2,
-      "report": null
+      "report": "construction-equipment.html"
     },
     {
       "sector": "Chemicals",
