@@ -1323,3 +1323,662 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
 - **Safari Q1 FY27 (sahi / scanx):** https://www.sahi.com/news/safari-industries-approves-q1-fy27-financial-results-amid-leadership-transition-357-PE1_CORP · https://scanx.trade/stock-market-news/companies/safari-industries-q1-results-net-profit-drops-27-yoy-to-28-87-crore/47379893 [V-snip]
 - **Air traffic (ICRA monthly):** https://www.icra.in/Research/ViewResearchReport/domestic-passenger-traffic-in-march-2026-grew-by-a-modest-1-0-yoy-ending-fy2026-with-a-rise-of-1-4/6898 [V-snip] · DGCA Aug-2026 via Angel One (sibling travel-services report)
 - **CRISIL luggage (BusinessWorld; 403):** https://businessworld.in/article/luggage-makers-revenue-growth-to-halve-to-8-10-536298 [V-snip]
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (2026-10-25)
+
+Second-pass, primary-source supplement to Parts 1–3. Nothing in Parts 1–3 has been rewritten. Where Part 4 corrects an earlier figure, the correction is listed in §4.0 (Supersedes), and the writer should apply it.
+
+**Tags in Part 4.** [V] = fetched and read this session from the named primary document. The URL is given inline or in §4.6. [V-sec] = fetched this session but from a secondary source (press, law-firm or aggregator). [E] = arithmetic or estimate. [K] = memory. Every [V] figure in Part 4 comes from a document read this session.
+
+**What was fetched (primary)**
+1. **Safari IR page** (https://www.safari.in/pages/investor-relations, which links to files.safaribags.com). From it:
+   - Q1 FY27 results PDF (board meeting 4-Aug-2026)
+   - Corporate Presentation (FY26 data)
+   - Reg-30 capacity-addition letter (28-Jun-2024)
+   - Reg-30 Jaipur commencement letter (2-Dec-2024)
+   - Reg-30 senior-management appointment (17-Jul-2026)
+   - list of FY27 intimations
+2. **Safari Annual Report FY2025-26**, BSE PDF, re-read for: KMP pay, related parties, contingent liabilities, key audit matter, technology absorption.
+3. **VIP filings, as BSE attachments linked from screener:**
+   - Q1 FY27 investor presentation (12-Aug-2026)
+   - Q4 FY26 investor presentation (15-May-2026)
+   - Board outcome on the fund raise (18-Sep-2026)
+   - Trading-window closure (28-Sep-2026)
+4. **VIP Annual Report FY2025-26**, BSE PDF, re-read for: Carlton note 53, BRSR plant table, remuneration.
+5. **CRISIL Ratings rationales:**
+   - VIP: 25-Jun-2026 (downgrade), 30-Jul-2026 (bank-lender annexure), 6-Aug-2026 (information-awaited update) and 19-Aug-2026 (reaffirmation)
+   - Safari: 1-Oct-2026 (reaffirmation)
+6. **Screener** (25-Oct-2026): quarterly tables, and VIP's non-promoter (public) holder JSON.
+7. **Industry sources:** listed in §4.3 and §4.6.
+
+**What could not be fetched**
+- api.bseindia.com returned "Access Denied" to a generic UA. nseindia.com was not tried.
+- vipindustries.co.in serves an **expired TLS certificate**. It was not bypassed, so VIP's own IR page, transcripts and recordings were not reached.
+- **No Q1 FY27 earnings-call transcript exists in public view for either company:**
+  - Screener lists VIP's "Aug 2026" and "May 2026" concalls as Transcript buttons with **no document attached** (only the PPTs).
+  - Safari does not host public earnings calls. Screener shows no concall section for SAFARI, and Safari's IR page has no transcript folder. Safari's management commentary reaches the market through one-on-one meetings and broker notes (e.g. PL Capital, 5-Aug-2026).
+  - The "management-guidance digests" below therefore draw on the companies' own decks and filings, CRISIL's rationales (which record what management told the agency), and the PL note already in Part 1. Each line is labelled with its source.
+
+---
+
+## 4.0 Supersedes — corrections to Parts 1–3 (apply these)
+
+| # | Part 1–3 location | Old | New | Reason / source |
+|---|---|---|---|---|
+| S1 | Trap 8; §2.1 balance sheet; §3.2(d) | Safari "debt ₹116.6 Cr", net cash ≈ ₹230 Cr | **Borrowings nil at 31-Mar-2026.** The ₹116 Cr is **lease liabilities (₹89 Cr non-current + ₹27 Cr current)**. Liquid cash + bank + current investments **₹283 Cr**, plus ₹63 Cr other non-current financial assets. **Net cash ex-leases ≈ ₹283 Cr (₹346 Cr incl. non-current deposits); net of leases ≈ ₹167–230 Cr** | Safari Corporate Presentation balance sheet; CRISIL 1-Oct-26 ("nil debt as on March 31, 2026"; cash ~₹283 Cr) [V] |
+| S2 | Trap 3; §4.3; §G item 14; §2.1 KPIs | Jaipur "commissioned Q4 FY25" | **Commercial production began 2-Dec-2024 (Q3 FY25)** | Reg-30 letter 2-Dec-2024 [V] |
+| S3 | Trap 10; §H11; §2.4 | Jaipur "6.5 lakh vs 6.5 mn/month" conflict; Halol "not disclosed" | **Lakh confirmed** (the company states SML capacity in "lakh pieces per month"). **SML Halol: 3.50 lakh/month at 94% utilisation (Jun-2024) + 1.00 lakh added → ~4.5 lakh.** SML total ≈ 11 lakh/month ≈ 13 m pieces/yr [E] | Reg-30 letter 28-Jun-2024 [V] |
+| S4 | Trap 10 | Realisation "₹1,500–2,500 per piece" | ~₹1,100–1,500 per in-house piece (RM ₹639 Cr over ~11–13 m pieces) [E] | Q1 FY27 results PDF (FY26 RM) [V] + S3 |
+| S5 | §1.2; §2.1 Native KPIs | Safari "8,500+ touchpoints" | **8,800+**, incl. **>150 COCO stores** | Corporate Presentation; CRISIL [V] |
+| S6 | §5.3; §7; §C.1; §H7 | BCD on HS 4202 "~20% + SWS [K]" | **BCD 15%** on all 44 lines of 4202 + SWS 10% of BCD (≈16.5%) + IGST 18% | Customs Tariff via taxclue (checked 2-Oct-26) [V-sec] |
+| S7 | §C.1 worked example | Imported trolley landed ~₹1,375 → GM ~37% | **~₹1,310 → GM ~40%**; make-vs-buy gap ~11 points (not ~14) | S6 arithmetic [E] |
+| S8 | §5.3; §2.2; §H6 | "China >60% of 4202 imports [K]" | **China 54–55% (2021–23), 61% (2024), 76% (2019)**; **Bangladesh 14–21% (2022–24)**; 4202 total **US$454.6 m (2024)**, US$480.7 m (2023) | UN Comtrade via WITS [V] |
+| S9 | §7 GST row; §H8; timeline item 22 | "18% … FLAG; some sites list 5%" | **18% confirmed (Sch. II S. No. 145, Notfn 9/2025-CT(Rate), 17-Sep-2025, eff. 22-Sep-2025)**. **5% only for cotton (4202 22 20) and jute (4202 22 30) handbags/shopping bags.** Suitcases (4202 11/12), school satchels and rucksacks are all 18% | Notification reproduction (taxclue) [V-sec] |
+| S10 | Trap 4; §4.3; §B5; §2.2; §3.3 | VIP plants "9–10" | **9 = 2 India (Satpur, Sinnar) + 7 Bangladesh** (BRSR §18). The MD&A "10" is loose | VIP AR FY26 BRSR [V] |
+| S11 | Trap 1; §5.1; §3.3 | VIP "~38% of organised market" | **~29% (FY26; 29% at 31-Dec-2025), down from >40% earlier** — CRISIL. Label 38% as a stale company claim | CRISIL 25-Jun and 19-Aug-2026 [V] |
+| S12 | §2.2 snapshot; §2.4; §3.4 | VIP CRISIL actions "content not read — possibly watch/downgrade" | **25-Jun-2026: downgraded to A-/Negative from A/Negative** (A2+ and ₹50 Cr CP reaffirmed; ₹464 Cr bank lines). **30-Jul-26: rationale reissued. 6-Aug-26: "awaiting adequate information" advisory. 19-Aug-26: A-/Negative/A2+ reaffirmed** | CRISIL rationales [V] |
+| S13 | "Still listed?" item 1; §H14; §2.2 ownership | Sacheti/Samvibhag "~9% [E], presumably public — VERIFY" | **Samvibhag Securities Pvt Ltd 8.44% in the public category (Mar/Jun/Sep-2026).** The remaining co-investors are each <1%. **True free float ≈ 28%** (36.45 − 8.44). CRISIL: the consortium was "classified as promoters with 5.89% on 30-Sep-2025" | Screener public-holder JSON (from BSE SHP) [V-sec]; CRISIL 6-Aug-26 [V] |
+| S14 | Trap 5; §2.2; §B3 | VIP inventory provisions "₹123 Cr" | **₹122 Cr (CRISIL) to ~₹130–132 Cr (deck: ₹13 + 55 + 64 Cr standalone Q1–Q3 FY26)**. Use "₹122–132 Cr", plus liquidation support ₹40–50 Cr (₹30 Cr in Q4) and other one-time ₹23 Cr (Q4) | VIP Q4 FY26 deck; CRISIL [V] |
+| S15 | Trap 8; §2.2 BS | VIP net debt ₹309 Cr (Mar-26) from ₹377 Cr | Keep ₹309 Cr (consolidated, AR). The **deck shows ₹295 Cr (from ₹367 Cr)** on what is likely the standalone basis. CRISIL: **debt incl. leases ₹760 Cr**, no long-term debt, unencumbered cash ₹116 Cr (Mar-26) → **~₹91 Cr (Jul-26)** | VIP Q4 FY26 deck; CRISIL [V] |
+| S16 | §2.1; §5.2; §H4; §10 | Samsonite India "~US$200 m ≈ ₹1,700–1,900 Cr [E/K-unverified]" | **CY2025 ≈ US$205–215 m (≈ ₹1,760–1,850 Cr)**, derived from H1-25 (≈US$105.9 m, −3.2%) and 9M-25 (≈US$152.8 m, −1.1%) country disclosures; ~6% of group sales | Samsonite HKEX H1-2025 and Q3-2025 announcements [V; E arithmetic] |
+| S17 | §10 table | Samsonite valuation "not fetched (historically ~8–12× EV/EBITDA [K])" | **~5× EV/EBITDA and ~7× trailing P/E** (m-cap ~HK$16.5 bn ≈ US$2.1 bn, 21-Sep-2026; forward P/E ~9.5×) | Fintel / MarketScreener [V-snip]; arithmetic [E] |
+| S18 | §8 item 2; §G item 5 | Jatia took "a 41.34% block" (2011–12) | Company: "**acquired** Safari … in the year **2011**", "majority stake (**77%**)", **MD from 18-Apr-2012**. CRISIL says "taken over … in 2012" | Safari Corporate Presentation; CRISIL [V] |
+| S19 | §H13; §B2 | Carlton counter-party "presumably Carlton Retail Pvt Ltd — VERIFY" | **Carlton Shoes Ltd (CSL)**, Class 18 registration from 6-May-1994; *VIP v. Carlton Shoes*, 2025:DHC:5042-DB. The Carlton Retail (licensor) – CSL link is unverified | Verdictum report of the DB judgment [V-sec] |
+| S20 | §2.2 native KPIs | VIP "~14,000 POS" | **~15,000 POS globally, ~14,000 in India**; "supplies to over 40 countries" (CRISIL) vs 26 countries (BRSR) | CRISIL [V] |
+| S21 | §2.1; stat strip | Market "₹17,000 Cr CY24 → 12% CAGR" as the only sizing | Add **~₹20,000 Cr (2026), growing 6–8% (CRISIL, 19-Aug-2026)**. MOSL's 12% is a forecast | CRISIL [V] |
+| S22 | §E7 | FY20 domestic air "~1,415 lakh [K]"; FY24 "~1,537 [E]" | FY20 **~1,420 lakh** (ICRA "~142 m"); FY24 **~1,540 lakh** (ICRA "~154 m, +13%") | ICRA [V-snip]; FY26 1,677.4 lakh [V] |
+| S23 | §2.1 people | Safari CS "Rameez Shaikh" | Ceased **17/18-Apr-2026**. **Abhijaat Sinha** is now CS & Legal Head (deck). The CFO line is unchanged (Aditya Bhargava VP F&A 17-Jul-26) | Safari AR; Corporate Presentation; Reg-30 [V] |
+
+**Confirmations (no change):**
+- VIP FY26 GM ~36%: CRISIL "~36%, −930 bp from ~46%".
+- VIP net inventory ₹698 → ₹472 Cr (CRISIL also gives **₹916 Cr at Mar-2024**).
+- VIP ₹500 Cr raise mechanics; VIP trading window from 1-Oct-26.
+- Safari CRISIL AA-/Stable/A1+.
+- Neither company has reported Q2 FY27.
+- VIP Q1 FY27 +3% / GM 41% / EBITDA −₹7 Cr.
+
+---
+
+## 4.1 Verification table — 40 headline figures
+
+"Primary" = company filing/deck/AR/results, regulator/ministry/statistical agency, rating-agency rationale, or global-peer exchange filing. **Count: 33 of 40 are [V] from primary sources; 4 are [V-sec]; 3 are [V-snip]/[E].**
+
+| # | Figure | Value | Source fetched (this session) | Primary? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Safari FY26 revenue (cons.) | ₹2,047.02 Cr | Safari Q1 FY27 results PDF (FY26 column); Corporate Presentation | Yes [V] | Yes |
+| 2 | Safari FY26 PAT | ₹167.76 Cr | Q1 FY27 results PDF; CRISIL KFI 167.8 | Yes [V] | Yes |
+| 3 | Safari FY26 EBITDA / GM | ₹271 Cr (13%) / 47% (₹965 Cr) | Corporate Presentation P&L | Yes [V] | Yes |
+| 4 | Safari Q1 FY27 revenue | ₹588.58 Cr (+11.5%) | Q1 FY27 results PDF | Yes [V] | Yes |
+| 5 | Safari Q1 FY27 PAT cons. / standalone | ₹47.75 Cr / ₹28.87 Cr | Q1 FY27 results PDF | Yes [V] | Yes (upgrades the scanx snippet) |
+| 6 | Safari Q1 FY27 GM | 44.6% (COGS ₹326.3 Cr) | Q1 FY27 results PDF [E arithmetic] | Yes [V] | Yes |
+| 7 | Safari in-house RM share of material inputs | 60.8% (FY26) → 70.3% (Q1 FY27) | Q1 FY27 results PDF [E arithmetic] | Yes [V] | New |
+| 8 | Safari borrowings, 31-Mar-26 | **Nil** | Corporate Presentation BS; CRISIL | Yes [V] | **No — S1** |
+| 9 | Safari cash & liquid investments | ~₹283 Cr | CRISIL; deck BS (8 + 262 + 13) | Yes [V] | Partly (Part 1 ₹270 + 76) |
+| 10 | Safari lease liabilities | ₹116 Cr | Deck BS | Yes [V] | New (was called "debt") |
+| 11 | Safari touchpoints / COCO | 8,800+ / >150 | Deck; CRISIL | Yes [V] | **No — S5** |
+| 12 | SML Halol capacity | 3.5 lakh/month at 94% → +1.0 lakh | Reg-30 28-Jun-2024 | Yes [V] | **New — S3** |
+| 13 | Jaipur start of commercial production | 2-Dec-2024 | Reg-30 2-Dec-2024 | Yes [V] | **No — S2** |
+| 14 | Safari rating | CRISIL AA-/Stable, A1+ (₹150 Cr), 1-Oct-2026 | CRISIL rationale | Yes [V] | Yes |
+| 15 | Safari contingent liabilities | ₹2.54 Cr | AR FY26 note 44 | Yes [V] | New |
+| 16 | Safari CMD pay ratio / KMP comp | 26.95× median / ₹8.38 Cr | AR FY26 | Yes [V] | New |
+| 17 | Safari Q2 FY27 board date | Not intimated at 25-Oct-26 | Safari IR intimation list | Yes [V] | Yes |
+| 18 | VIP FY26 revenue | ₹1,858 Cr (−15%) | CRISIL 25-Jun; VIP Q1 deck (quarters) | Yes [V] | Yes |
+| 19 | VIP Q1 FY27 revenue | ₹578 Cr (+3%) | VIP Q1 FY27 deck; CRISIL 19-Aug | Yes [V] | Yes |
+| 20 | VIP Q1 FY27 GM | 41% (44% YoY per CRISIL; 45% per deck) | Deck; CRISIL | Yes [V] | Yes (prior-year base differs by source: 44 vs 45) |
+| 21 | VIP Q1 FY27 EBITDA | −₹7 Cr (deck) / −₹11 Cr operating loss (CRISIL) | Deck; CRISIL | Yes [V] | Yes |
+| 22 | VIP FY26 inventory provisions | ₹122 Cr (CRISIL) / ~₹130 Cr (deck) | CRISIL; Q4 FY26 deck | Yes [V] | **Refined — S14** |
+| 23 | VIP net inventory | ₹916 Cr (Mar-24) → ₹698 Cr → ₹472 Cr | CRISIL; deck | Yes [V] | Yes (+FY24 new) |
+| 24 | VIP net debt | ₹295 Cr deck (₹309 Cr AR) | Q4 FY26 deck | Yes [V] | **Basis conflict — S15** (AR consolidated more credible for consolidated tables) |
+| 25 | VIP unencumbered cash | ₹116 Cr (Mar-26) → ~₹91 Cr (Jul-26) | CRISIL | Yes [V] | New |
+| 26 | VIP rating | CRISIL A-/Negative (down 25-Jun-26; reaffirmed 19-Aug-26) | CRISIL rationales | Yes [V] | **Gap filled — S12** |
+| 27 | VIP market share | ~29% (FY26), from >40% | CRISIL | Yes [V] | **No — S11** |
+| 28 | VIP fund raise | ≤₹500 Cr in FY27; any mode | BSE board outcome 18-Sep-26 | Yes [V] | Yes |
+| 29 | VIP trading-window closure | From 1-Oct-26 to 48 h after Q2 | BSE PDF 28-Sep-26 | Yes [V] | Yes |
+| 30 | VIP plants | 9 (2 India + 7 BD) | VIP AR BRSR §18 | Yes [V] | **Resolved — S10** |
+| 31 | VIP online share (standalone) | 22% H1 FY26; 18% H2 FY26 | Q4 FY26 deck | Yes [V] | New |
+| 32 | VIP category mix FY25 | Hard 60 / soft 16 / backpacks 13 / duffels 8 / handbags 3 % | CRISIL 25-Jun-26 | Yes [V] | New |
+| 33 | Multiples' investment | ~₹1,767 Cr | CRISIL 19-Aug | Yes [V] | ≈ Part 1 ₹1,763 Cr (SPA arithmetic); agrees |
+| 34 | Industry size / growth | ~₹20,000 Cr; 6–8%; D2C 15–20% | CRISIL 19-Aug | Yes [V] | New, vs MOSL ₹17,000 Cr CY24 / 12% CAGR (both usable; different dates) |
+| 35 | HS 4202 imports 2024 / China share | US$454.6 m / 61.3% | UN Comtrade via WITS | Yes [V] (official trade statistics) | **No — S8** |
+| 36 | HS 4202 12 suitcase imports 2024 | 25.7 m pieces, US$6.64/pc (China US$5.90) | UN Comtrade via WITS | Yes [V] | New |
+| 37 | Samsonite India H1-2025 | ≈US$105.9 m (−3.2%; −0.1% cc) | Samsonite HKEX interim 13-Aug-2025 | Yes [V] (E arithmetic) | **Refines — S16** |
+| 38 | FY26 domestic air passengers | 1,677.4 lakh (+1.4%) | ICRA monthly 28-Apr-2026 (DGCA-based) | Yes [V] (rating agency on DGCA) | Yes (upgrades V-snip) |
+| 39 | GST on HS 4202 luggage | 18% (Sch II S.No.145); 5% cotton/jute handbags | taxclue reproduction of Notfn 9/2025-CT(Rate) | No [V-sec] | Yes — **S9** |
+| 40 | BCD on HS 4202 | 15% + SWS 10% | taxclue Customs Tariff | No [V-sec] | **No — S6** |
+
+**Other secondary-only rows the writer may use** (not in the 40):
+- Samvibhag 8.44% [V-sec screener].
+- Carlton Shoes counter-party [V-sec Verdictum].
+- Uppercase FY25 ₹83 Cr revenue / ₹35 Cr loss [V-sec Entrackr].
+- Samsonite multiples [V-snip].
+- PP +60% in Mar-26 [V-sec].
+
+**Where sources conflict:**
+- (a) VIP net debt: the deck's ₹295 Cr vs the AR's ₹309 Cr. The AR is audited and consolidated, so use it for consolidated tables and quote the deck only with "company presentation".
+- (b) VIP inventory provision: CRISIL's ₹122 Cr vs the deck's ~₹130 Cr. The deck is the company's own quarterly split but standalone. Quote "₹122–130 Cr".
+- (c) VIP Q1 FY26 GM base: the deck shows 45%, CRISIL 44%. Use the deck.
+- (d) Market growth: CRISIL 6–8% (current, observed) vs MOSL 12% (forecast, Sep-2025). Prefer CRISIL for "now" and MOSL for the "bull case".
+
+---
+
+## 4.2 Company deep-dives (primary documents)
+
+### 4.2.1 Safari Industries (India) Ltd — SAFARI · BSE 523025
+
+#### (a) Management-guidance digest (latest available: Q1 FY27, Aug-2026; plus FY26 AR and CRISIL 1-Oct-2026)
+
+Safari held **no public earnings call** for Q1 FY27 (see the note above). Sources for each point are given in brackets.
+
+| Topic | What management / filings say | Source, date | Tag |
+|---|---|---|---|
+| **Growth** | Q1 FY27 consolidated revenue ₹588.58 Cr (+11.5% YoY on ₹527.83 Cr). PL records volume growth of +16–17%. CRISIL (1-Oct-26) expects "steady revenue growth while maintaining market share", supported by **ramp-up in enhanced capacities** and continued store additions across premium and mass segments | Q1 FY27 results PDF; CRISIL 1-Oct-26; PL 5-Aug-26 | [V]; PL [V Part 1] |
+| **Margin** | Q1 FY27 GM = 1 − (201.08 + 84.90 + 40.32) ÷ 588.58 = **44.6%**. EBITDA ₹75.4 Cr (12.8%). CRISIL's upgrade trigger is an operating margin "**above 15% (post lease adjustment)**" with cash accrual >₹250 Cr. Its downgrade trigger is cash accrual <₹150 Cr | Q1 results; CRISIL | [V] |
+| **Raw material** | CRISIL: raw materials are "**55–60% of operating cost**", and there was a "**sharp increase in polypropylene prices during the first half of fiscal 2027**". Safari has "significantly reduced reliance on import for hard luggage with in-house manufacturing". PL (Part 1): ~10% RM inflation; 4–6% price hike in May-26 | CRISIL 1-Oct-26; PL | [V] |
+| **Capex / capacity** | **SML's Halol unit: 3.50 lakh pieces/month at 94% utilisation (Jun-2024), plus 1.00 lakh pieces/month added "immediate", for up to ₹4 Cr from internal accruals.** Jaipur greenfield: commercial production from **2-Dec-2024**. FY26 capex ₹70.4 Cr; FY27E ~₹52 Cr (PL) | Reg-30 letters 28-Jun-24 and 2-Dec-24; PL | [V] |
+| **Backward integration** | AR FY26 (technology absorption): SML set up an **ancillary unit making wheels in-house** because local vendors were late and imported component prices were volatile. Benefits cited: "reduced import costs" and fewer production delays. **Robotic manipulator arms** were added on injection-moulding lines at Halol and Jaipur. Sheet-size optimisation cut offcuts and raised extruder capacity (PC sheet) | Safari AR FY26, Annexure (Conservation of energy, technology absorption) | [V] |
+| **Channel** | **8,800+ customer touchpoints**: CSD ~4,000; modern trade ~1,400; MBO ~3,400; EBO/other ~900+ (corporate-deck tiles; the labels are partly garbled in the PDF text — see the note below the table). CRISIL: **>150 company-owned company-operated (COCO) outlets**. Focus channels: "E-commerce, Quick Commerce and D2C" and a "fresh roll-out of EBOs"; "strategically converting select MBOs into EBOs through asset-light arrangements" | Corporate Presentation; CRISIL | [V] |
+| **Brand / premium** | Brand ladder: Genie, Magnum, Genius (value/kids) → Safari (flagship, "dominant share in the Mid and Economy segment") → Urban Jungle / Safari Select (premium) → **Carlton (licensed; CRISIL: "expected to generate revenue from fiscal 2027")** | Corporate Presentation; CRISIL; AR | [V] |
+| **Category strategy** | "Hard luggage … will continue to be the growth driver". **Soft luggage: "Company to maintain selective presence … this category is rapidly declining due to a shift of consumer preference to Hard Luggage"**. Backpacks are the "fastest growing segment" | Corporate Presentation | [V] |
+| **Funding** | **Nil borrowings at 31-Mar-2026.** Bank-limit utilisation was **nil** for the 12 months to Jun-2026. Cash & equivalents ~₹283 Cr (CRISIL basis). A **QIP approval is "available since February 2026"** (postal ballot concluded 18-Mar-2026, per the IR page list). Management told PL it has no immediate fund-raise plan | CRISIL 1-Oct-26; Corporate Presentation BS; IR page | [V] |
+| **Management** | CFO Vineet Poddar left. **Aditya Bhargava** (ex-CFO, Badshah Masala, a Dabur company; CA; 22 years) was appointed **VP Finance & Accounts from 17-Jul-2026**. Company Secretary Rameez Shaikh ceased **17/18-Apr-2026** (AR says both dates). The Corporate Presentation now lists Abhijaat Sinha as CS & Legal Head | Reg-30 17-Jul-26; AR FY26 | [V] |
+| **International** | An "International division … focusing on China+1 sourcing strategy". Exports to diaspora markets (Gulf, UK, Canada, Africa, Fiji, PNG) | Corporate Presentation | [V] |
+| **Bangladesh** | Soft luggage is sourced through "Captive 3rd party capacity in Bangladesh" — a dedicated vendor, not owned plants | Corporate Presentation (value-chain slide) | [V] |
+
+Notes on the table:
+- *Touchpoint split caveat:* the deck's numbers (4,000; 1,400; 3,400; 900+; 1,000+) appear next to the labels "CSDs i.e. Canteen Stores Dept, Govt supplies", "Modern Trade", "Multi Brand Outlets – MBO" and "Employees". The mapping CSD 4,000 / MT 1,400 / MBO 3,400 / EBO 900+ [E] sums to 9,700, slightly above "8,800+". Treat the split as indicative.
+- *Not disclosed anywhere fetched:* channel revenue mix, volume in pieces, in-house share in pieces, Halol GIDC (parent) capacity.
+
+#### (b) KPI table (company documents)
+
+| KPI | FY25 | FY26 | Q1 FY26 | Q4 FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|---|---|
+| Revenue (₹ Cr, consolidated) | 1,771.6 | 2,047.02 | 527.83 | 473.30 | 588.58 | Results PDF; Corporate Presentation [V] |
+| Cost of materials consumed (in-house RM) | — | 638.80 | 151.28 | 164.52 | **201.08** | Q1 FY27 results PDF [V] |
+| Purchases of stock-in-trade (finished goods bought in) | — | 412.26 | 94.70 | 101.10 | **84.90** | same [V] |
+| Change in inventories | — | 31.64 | 40.26 | (25.77) | 40.32 | same [V] |
+| **RM share of (RM + traded purchases)** | — | **60.8%** | 61.5% | 61.9% | **70.3%** | [E from V] |
+| Gross margin | 45.7% | 47.1% | 45.8% | 49.3% | 44.6% | [E from V] / PL |
+| Employee cost (₹ Cr) | 119 | 143.62 | 31.32 | 38.24 | 37.73 | [V] |
+| Other expenses (₹ Cr) | 465 | 549.92 | 130.99 | 133.38 | 149.13 | [V] |
+| EBITDA (₹ Cr) | 226 | 271 | 79.2 | 62.0 | 75.4 | Corporate Presentation [V]; [E] |
+| PAT (₹ Cr) | 142.8 | 167.76 | 50.49 | 37.47 | 47.75 | [V] |
+| Standalone PAT (₹ Cr) | — | 124.78 | 39.69 | 34.93 | 28.87 | [V] |
+| Borrowings (₹ Cr) | 20 (8 NC + 12 current) | **0** | — | — | — | Corporate Presentation BS [V] |
+| Lease liabilities (₹ Cr) | 105 (79 + 26) | **116 (89 + 27)** | — | — | — | [V] |
+| Cash + other bank + current investments (₹ Cr) | 231 (12 + 216 + 3) | **283 (8 + 262 + 13)** | — | — | — | [V]; CRISIL ~₹283 Cr |
+| Other non-current financial assets (₹ Cr) | 13 | 63 | — | — | — | [V] — likely includes long-dated deposits and/or the first Carlton deposit tranche [E] |
+| Customer touchpoints | 8,500+ | **8,800+** | — | — | — | Corporate Presentation [V] |
+| SKUs | — | 900+ | — | — | — | [V] |
+| Employees (permanent, standalone) | — | 851 (company); "1,000+" in deck (group) | — | — | — | AR; deck [V] |
+| Interest cover (×) | 28.60 | 34.16 | — | — | — | CRISIL [V] |
+
+**The big new read: the in-house share is rising fast.**
+- Consolidated purchases of finished goods ("stock-in-trade": soft luggage, backpacks, imports) **fell 10% YoY in Q1 FY27 (₹94.7 → ₹84.9 Cr)**.
+- Raw material consumed in Safari's own plants **rose 33% (₹151.3 → ₹201.1 Cr)**.
+- So RM is now **~70% of material inputs**, up from ~61%. This is the "indigenisation" of premium hard luggage plus captive wheels/trolleys at work.
+- It also explains why GM fell only 120 bp despite ~10% RM inflation: bought-in goods carry a lower GM than in-house goods.
+- *Caveat:* RM ₹ includes the inflation itself (price, not just volume). But traded purchases fell in absolute terms while revenue grew 11.5%, so the mix shift is real.
+
+#### (c) Five-year history (consolidated, ₹ Cr; screener 25-Oct-26 [V], cross-checked to the Corporate Presentation 10-year charts [V])
+
+| FY | Revenue | YoY | EBITDA | EBITDA % | PAT | Net worth | Debt (deck) | ROCE % (screener) |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 705 | +115% | 56 | 8% | 22 | 301 | 54 | 13 |
+| FY23 | 1,212 | +72% | 197 | 16% | 125 | 426 | 60 | 37 |
+| FY24 | 1,550 | +28% | 278 | 18% | 176 | 824 | 75 | 31 |
+| FY25 | 1,772 | +14% | 226 | 13% | 143 | 954 | 20 [E: deck chart label unclear; BS shows 8 + 12] | 19 |
+| FY26 | 2,047 | +15.5% | 271 | 13% | 168 | 1,115 | **Nil** | 19 |
+
+Deck 10-year chart:
+- Revenue FY17 ₹352 Cr → FY26 ₹2,047 Cr. The deck states "22% year on year from INR 278 Cr in FY2016".
+- Market cap (31-Mar values per the deck): ₹9,667 Cr (FY24) and ₹8,417 Cr (FY25/26 — ordering garbled in the text extract) vs ₹6,006 Cr on 25-Oct-26 [V deck; E on ordering].
+- The deck's "Debt" series (₹104, 75, 60, 54, 42, 42, 20, 10, 11, Nil) is **gross borrowings excluding leases**.
+
+#### (d) Eight-quarter trend (consolidated; screener [V]; GM from PL/company [V Part 1]; Q2 FY27 not yet reported)
+
+| Quarter | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 458 | 443 | 421 | 528 | 534 | 512 | 473 | 589 |
+| YoY % | +24 | +14 | +15 | +17 | +17 | +16 | +12 | +11.5 |
+| Expenses | 410 | 392 | 360 | 449 | 460 | 457 | 411 | 513 |
+| Operating profit | 48 | 50 | 61 | 79 | 74 | 56 | 62 | 75 |
+| OPM % | 10 | 11 | 14 | 15 | 14 | 11 | 13 | 13 |
+| GM % (company) | 43.8 | 45.4 | 49.2 | 45.8 | 47.1 | 46.5 | 49.3 | 44.6 |
+| Depreciation | 15 | 15 | 15 | 17 | 18 | 18 | 18 | 19 |
+| PBT | 38 | 41 | 49 | 65 | 60 | 42 | 49 | 61 |
+| PAT | 30 | 31 | 38 | 50 | 47 | 33 | 37 | 48 |
+| EPS ₹ | 6.07 | 6.37 | 7.69 | 10.33 | 9.58 | 6.71 | 7.65 | 9.75 |
+
+**Q2 FY27 status:**
+- The Safari IR page's FY27 intimation list ends with the Q1 board outcome (4-Aug-2026), the AGM proceedings (5-Aug-2026), credit-rating intimations and analyst-meet intimations. **There is no intimation of a board meeting for Q2 FY27** [V, fetched 25-Oct-26].
+- The audit committee met on 3-Aug and the board on 4-Aug for Q1 [V results note].
+- Last year's Q2 board was 10-Nov-2025 [V IR list: "Intimation of Board Meeting to be held on 10th November 2025"]. Expect **~10 Nov-2026 ±1 week** [E].
+
+#### (e) Annual-report findings (FY26 AR [V])
+
+- **Related parties: clean.**
+  - No royalty or brand fee to the promoter. No purchases from promoter entities.
+  - KMP compensation (short-term) **₹8.38 Cr** (FY25 ₹7.67 Cr), share-based payments ₹0.57 Cr, NED commission ₹0.50 Cr, sitting fees ₹0.34 Cr.
+  - **Close family of the CMD** (daughters Shivani Jatia, employed from 10-Jun-2024, and Tanisha Jatia) received ₹1.31 Cr (FY25 ₹0.92 Cr).
+  - "There are no commitments with any related party."
+  - The Carlton licensor (Carlton Retail Pvt Ltd) is **not** a related party [V NSE filing, Part 1].
+- **CMD pay ratio:** Sudhir Jatia **26.95× the median employee** (fixed CTC). His increase was 10%, as was the CFO's and CS's. Median employee pay rose 14.79%; the average non-managerial rise was 7.79%.
+- **Contingent liabilities: trivial.** Income tax ₹1.64 Cr, GST ₹0.83 Cr (₹0.31 Cr), other ₹0.07 Cr. Total **₹2.54 Cr** = 0.2% of net worth.
+- **Auditor:** Walker Chandiok & Co LLP (Grant Thornton network). **Unmodified opinion.** The single key audit matter is **revenue recognition** — multi-channel rebates, discounts and returns ("variable consideration") and cut-off. No emphasis of matter. Internal auditor: Moore Singhi Advisors.
+- **Segment:** a single segment, luggage (Ind AS 108). There is no geographic segment because exports are tiny.
+- **Board:**
+  - The CMD plus four independent directors: Aseem Dhru (MD & CEO, SBFC Finance), Manjaree Chowdhary (General Counsel, Maruti Suzuki), Sridhar Balakrishnan, and Sanjiv Kakkar (ex-EVP Unilever; from 6-May-2025).
+  - Two non-executive non-independent directors: **Piyush Goenka** (Prath India Advisors; ex-Tano Capital) and **Sumeet Nagar** (waives fees). Both are investor-linked.
+  - Independent director Rahul Kanodia appears in the FY26 pay table, but the deck's board slide omits him [V; E: retired].
+- **History correction (deck):**
+  - "Mr. Sudhir Jatia acquired Safari Industries (India) Limited in the year 2011 and was appointed as Managing Director from 18th April 2012".
+  - The timeline says "Started with **majority stake (77%)**".
+  - CRISIL: "incorporated in 1980 by Mehta and family … taken over by Sudhir Jatia in 2012".
+  - Part 1's "41.34% block" [primer] conflicts with the deck's 77%. The deck is the company's own statement. Use "acquired in 2011 (77% stake per the company), MD from Apr-2012" (see §4.0).
+- **Timeline slide:** NSE listing in FY18–19 ("Listing on NSE in July 2017" — the PDF text is jumbled, so the year is approximate) [V-garbled]; captive PP luggage plant in FY21–22; 2nd unit (SML Halol) and Jaipur in FY23–25; "Safari becomes India's #1 Luggage Brand in the year 2022".
+
+---
+
+### 4.2.2 V.I.P. Industries Ltd — VIPIND · BSE 507880
+
+#### (a) Management-guidance digest (latest: Q1 FY27 deck 12-Aug-2026; Q4 FY26 deck 15-May-2026; fund-raise outcome 18-Sep-2026; CRISIL 19-Aug-2026, which records management's plan)
+
+A transcript of the Q1 FY27 or Q4 FY26 call **was not available** (screener shows a Transcript button with no document; VIP's own site has an expired certificate). The decks are unusually candid and carry the guidance.
+
+| Topic | Guidance / disclosure | Source | Tag |
+|---|---|---|---|
+| **Growth** | "Growth is back after 7 quarters, within 2 quarters of the transaction completion": Q1 FY27 +3% (₹578 Cr). The chart is labelled "**Targeting higher growth**" for Q2 FY27. CRISIL (25-Jun) expected FY27 revenue growth of "**mid-single digits**" and then a **12–13% CAGR over the medium term**. On 19-Aug CRISIL expected recovery "supported by festive demand in the second half of fiscal 2027" | Q1 deck; CRISIL | [V] |
+| **Offline vs online (new data)** | Standalone, H1 FY26 → H2 FY26: **offline + Caprese ₹750 Cr (−11%) → ₹724 Cr (−3%)**; **online ₹215 Cr (−36%) → ₹159 Cr (−34%)**, a "conscious call to reduce primary". Total ₹965 Cr (−18%) → ₹884 Cr (−10%). "De-growth in offline successfully arrested; online to follow." **Online = 22% of standalone revenue in H1 FY26 and 18% in H2 FY26** [E from V] | Q4 FY26 deck | [V] |
+| **Early channel signals** | Muhurat (Apr-2026): "**Retailers billed >30% increase YoY**"; "**GT secondary sales >35% increase YoY**". Activity: 250+ dealers visited the Nashik factory; roadshows in 20+ cities | Q4 FY26 deck | [V] |
+| **Margin** | GM by quarter: Q1 FY26 45% → Q2 31% → Q3 29% → Q4 37% → **Q1 FY27 41%**, "margin impacted due to war related RM inflation". CRISIL (19-Aug): 41% vs 44% a year earlier; "price increases to partially offset higher raw material and freight costs … not adequate to fully offset". **Turnaround target: "VIP is likely to achieve positive operating profitability by the end of fiscal 2027, [but] losses at the PBT level are likely to persist"** (CRISIL's reading of the plan). CRISIL's upgrade trigger: operating margin of **7–9%** sustained | Q1 deck; CRISIL 19-Aug and 6-Aug | [V] |
+| **One-offs quantified** | Standalone one-time inventory provisions: Q1 FY26 ₹13 Cr, Q2 ₹55 Cr, Q3 ₹64 Cr, Q4 nil (**≈₹132 Cr; the deck says "~₹130 Cr"**; CRISIL says ₹122 Cr). Channel liquidation support ₹30 Cr (Q4) within "₹40–50 Cr". Other one-time costs ₹23 Cr (Q4). **Adjusted EBITDA: Q1 FY26 +₹16 Cr, Q2 −₹41 Cr, Q3 −₹10 Cr, Q4 −₹25 Cr.** There was also a "6–8% GM compromise due to higher liquidation" in Q3–Q4 FY26 | Q4 FY26 deck | [V] |
+| **Inventory** | "~₹700 Cr of FG + RM inventory (Sep-25)"; channel at ~90 days. Now: **all channels <60 days**; **gross inventory 45 lakh units → 28 lakh units**; "inventory normalised at **~75 days** as of Mar-26"; net inventory ₹698 Cr → ₹472 Cr. CRISIL: inventory was **₹916 Cr at Mar-2024** | Q4 deck; CRISIL 25-Jun | [V] |
+| **Net debt** | **Deck: ₹367 Cr (Q4 FY25) → ₹295 Cr (Q4 FY26)** — probably standalone; the AR (consolidated) gives ₹377 → ₹309 Cr. CRISIL: debt **including leases ₹760 Cr**, "flat"; **no long-term debt**; unencumbered cash ₹116 Cr (Mar-26) → **~₹91 Cr (Jul-26)**; fund-based limits "**near-full utilisation … largely because of low drawing power**", with "additional banking facilities yet to be tied up, even as the festive season is approaching" | Q4 deck; CRISIL 25-Jun and 19-Aug | [V] |
+| **Capex** | CRISIL: "**annual capex of ₹40–50 crore** towards maintenance and business requirements" | CRISIL 19-Aug | [V] |
+| **Asset monetisation** | "Multiples has realised aggregate proceeds of **about ₹110 crore through the sale of three identified non-core assets**". Two were sold in Q3 FY26 (Nagpur lease ₹51.18 Cr and Nashik land ₹24.28 Cr = ₹75.5 Cr [V AR]); a third was identified for H1 FY27. By implication the third fetched **~₹35 Cr** [E] | CRISIL 25-Jun / 19-Aug | [V]/[E] |
+| **Fund raise** | Board, 18-Sep-2026: up to **₹500 Cr during FY 2026-27, in one or more tranches**, through equity (FV ₹2), debt, convertibles, ADR/GDR, FCCB, warrants or preference shares, via a "public issue, rights issue, QIP, debt issue, preferential issue". Purpose: "accelerate … growth initiatives, **funding of working capital** and enhancing capabilities". Preferential-issue details: "Not applicable" (so no investors named). **No QIP/rights launched as of 25-Oct-2026** (screener announcements after 18-Sep show only an ESOP allotment on 22-Sep, the trading-window closure on 28-Sep and a Reg 74(5) certificate on 7-Oct) | BSE outcome PDF; screener | [V] |
+| **Promoter support** | CRISIL: "While an **immediate capital infusion is not envisaged**, Multiples has reiterated that it will continue to work with the company in evaluating strategic, operating, and financing alternatives". Multiples invested "**around ₹1,767 crore** to acquire control" | CRISIL 19-Aug | [V] |
+| **Bangladesh** | Diagnosis (May-26 deck): "**Bangladesh was a key issue — significant under-utilisation of capacity**". Action: "**Q4 Bangladesh EBITDA ₹9 Cr**". FY27 plan: "supply chain and manufacturing optimisation" | Q4 FY26 deck | [V] |
+| **Supply chain** | "Fragmented warehousing (**25+**) and logistics (**50+ vendors**)" → "vendor & warehouse consolidation underway". BRSR: **24 warehouses + 6 offices** in India | Q4 deck; AR BRSR | [V] |
+| **Portfolio / pricing** | "No pricing guardrails across brands" → **brand architecture finalised**; "**25–30% reduction in SKU count**"; 65+ new products (by May), then **80+ launches ≈ 50% of Q1 FY27 revenue**. Product features: Flexy Flap front laptop opening, 90:10 opening, silent/suspension wheels, vanity-case sets | Q4 and Q1 decks | [V] |
+| **Carlton** | Not mentioned in either deck. AR note 53: the matter is **sub-judice**; the sell-off right was extended to 31-May-2026; management claims "strong merit". CRISIL (25-Jun) lists the premium tier as "Caprese and **earlier also Carlton**"; by 19-Aug, "premium (Caprese)" only | AR; CRISIL | [V] |
+| **Category mix (new)** | CRISIL: **FY25 revenue = upright hard luggage ~60%, upright soft 16%, backpacks 13%, duffels 8%, women's handbags 3%**; FY26 "around 60% from hard luggage" | CRISIL 25-Jun / 19-Aug | [V] |
+| **Market share (new)** | CRISIL: VIP "had a **market share of ~29% in fiscal 2026 [29% as on 31-Dec-2025], which has declined from over 40% earlier**" — evidently an organised-market share basis | CRISIL | [V] |
+| **Management team (May-26 deck)** | **CEO Atul Jain**. CFO Rahul Poddar (since replaced by Narayan Saraf from 1-Sep-26 [V-snip Part 1]); CSO Alok Pathak; CMO Sameer Wanchoo; India Manufacturing **Ashish Saha (40+ years at VIP)**; Bangladesh **Anjan Mohanty**; e-com V Harikumar; CIO Sanjeev Sharma; design Ramneek Walia; procurement & supply chain MVH Sastry; HR Akash Shukla | Q4 deck | [V] |
+
+#### (b) KPI table (company documents)
+
+| KPI | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|---|---|
+| Revenue (₹ Cr, consolidated) | 561 | 406 | 454 | 436 | 578 | Q1 deck [V] |
+| YoY | −12% | −25% | −9% | −12% | +3% | [V] |
+| Gross margin | 45% | 31% | 29% | 37% | 41% | [V] |
+| EBITDA reported (₹ Cr) | 29 (5%) | −96 (−24%) | −73 (−17%) | −78 (−18%) | −7 (−1%) | [V] |
+| One-time inventory provisions (standalone) | 13 | 55 | 64 | 0 | 0 | Q4 deck; CRISIL "absence of provisions" in Q1 [V] |
+| Liquidation support + other one-time | — | — | — | 30 + 23 | — | [V] |
+| **Adjusted EBITDA (standalone)** | **16** | **−41** | **−10** | **−25** | ≈ −7 (no adjustments disclosed) | [V] |
+| Screener operating profit | 25 | −106 | −77 | −82 | −11 | screener [V] |
+| Net inventory (₹ Cr) | — | ~700 incl. RM (Sep-25) | — | 472 | — | [V] |
+| Inventory units (lakh) | — | 45 | — | 28 | — | [V] |
+| Channel inventory | — | ~90 days | — | <60 days | — | [V] |
+| Unencumbered cash (₹ Cr) | — | — | — | 116 | ~91 (Jul-26) | CRISIL [V] |
+
+#### (c) Five-year history (consolidated, ₹ Cr; screener [V]; company EBITDA from AR [V Part 1])
+
+| FY | Revenue | YoY | Screener OP | OPM | Company EBITDA | PAT | Net worth | Inventory (Mar) | ROCE % |
+|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 1,290 | +108% | 147 | 11% | — | 67 | 559 | — | 13 |
+| FY23 | 2,082 | +61% | 317 | 15% | — | 152 | 641 | — | 28 |
+| FY24 | 2,245 | +8% | 198 | 9% | 205.3 | 54 | 678 | **916** (CRISIL) | 8 |
+| FY25 | 2,178 | −3% | 88 | 4% | 93.2 | −69 | 616 | 698 | −2 |
+| FY26 | 1,858 | −14.7% | −241 | −13% | −218.6 | −338 | 289 | 472 | −29 |
+
+#### (d) Eight-quarter trend (consolidated; screener [V]; GM and EBITDA from decks [V]; Q2 FY27 not reported)
+
+| Quarter | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 544 | 501 | 494 | 561 | 406 | 454 | 436 | 578 |
+| YoY % | −0.4 | −8.2 | −4.3 | −12.2 | −25.4 | −9.4 | −11.7 | +3.0 |
+| Expenses | 546 | 472 | 488 | 537 | 513 | 531 | 518 | 589 |
+| Screener OP | −2 | 29 | 6 | 25 | −106 | −77 | −82 | −11 |
+| OPM % | −0.4 | 6 | 1.3 | 4.4 | −26 | −17 | −19 | −1.9 |
+| Company EBITDA | — | — | — | 29 | −96 | −73 | −78 | −7 |
+| GM % (deck) | — | — | — | 45 | 31 | 29 | 37 | 41 |
+| Other income | 6 | 2 | 8 | 7 | 15 | 75 | 4 | 4 |
+| Interest | 20 | 18 | 17 | 17 | 18 | 16 | 20 | 16 |
+| Depreciation | 30 | 30 | 30 | 32 | 33 | 32 | 31 | 31 |
+| PBT | −46 | −17 | −33 | −17 | −142 | −50 | −129 | −55 |
+| PAT | −33 | −12 | −27 | −13 | −143 | −53 | −129 | −54 |
+| EPS ₹ | −2.33 | −0.87 | −1.93 | −0.92 | −10.08 | −3.72 | −9.07 | −3.77 |
+
+**Q2 FY27 status:**
+- No board intimation as of 25-Oct-2026 [V screener announcement list]. The trading window has been closed since 1-Oct-2026 [V BSE PDF].
+- Last year's Q2 board date is not in the documents fetched. Q1 FY27 was 12-Aug and Q4 FY26 was 15-May [V]. Expect **early–mid Nov-2026** [E].
+- Note the depressed base: Q2 FY26 revenue was ₹406 Cr with EBITDA −₹96 Cr. Even flat underlying sell-out would print **+15–25% YoY** [E].
+
+#### (e) Annual-report and filing findings
+
+- **Plant count resolved:**
+  - BRSR §18 counts **"National: 2 plants, 6 offices and 24 warehouses (32); International: 7 plants, 2 offices (9)" = 9 plants**.
+  - The MD&A's "10 in-house manufacturing facilities across India and Bangladesh" is the looser marketing number. It probably counts the sold Nagpur unit or a component unit [E].
+  - **Use 9 (2 India + 7 Bangladesh), per BRSR.**
+  - The ~4,568 BRSR workforce is mostly in Bangladesh plants [E].
+- **Carlton:**
+  - Note 53: the Delhi HC Division Bench (1-Jul-2025) dismissed VIP's appeal against the **17-Jul-2023** interim injunction.
+  - The SC (1-Aug-2025) allowed six months' sell-off; on 23-Jan-2026 it gave four more months. The suits are sub-judice; management cites "strong merit" on legal opinion.
+  - **The AR does not name the counter-party.**
+  - Safari's licensor is Carlton Retail Pvt Ltd (New Delhi). That the injunction-holder and the licensor are the same entity (or related) is consistent with the licence's timing (18-Feb-2026), but it is **not proven by any document fetched** (see the gap log).
+- **Shareholding — the Sacheti stake located:**
+  - Screener's non-promoter (public) holder list for VIP shows **Samvibhag Securities Pvt Ltd at 8.44% (Mar-26, Jun-26 and Sep-26)** [V screener API, public category].
+  - So the consortium = Multiples GIFT Fund IV 12.02% + Multiples Fund IV 10.90% (promoter) + **Samvibhag 8.44% (public)** + Siddhartha/Mithun Sacheti and Profitex (each below the 1% disclosure threshold; ~0.5% combined [E]) ≈ **31.9%**. That matches CRISIL's "31.89% stake".
+  - CRISIL (6-Aug-26) also states that **Multiples and co-investors were "classified as promoters with 5.89% stake as on 30-Sep-2025"** (after tranche 1).
+  - **Read:** the PE sponsor sits in the promoter category while a 8.4% co-investor sits in "public". The **true free float is ~28%, not 36.45%** [E: 36.45 − 8.44].
+- **CRISIL rating path (2026):**
+  - **25-Jun-2026: downgraded to A-/Negative from A/Negative** (A2+ and CP reaffirmed). Rated facilities ₹464 Cr; ₹50 Cr CP.
+  - **30-Jul-2026: rationale reissue** with the bank-lender annexure (HSBC, Kotak, Yes, QNB, ICICI, Axis, IndusInd).
+  - **6-Aug-2026: "awaiting adequate information" — an information-availability advisory** (not a reaffirmation). Upward triggers: operating margin 7–9% sustained, or a significant equity infusion. Downward: continued operating and net losses.
+  - **19-Aug-2026: A-/Negative/A2+ reaffirmed.**
+  - The prior actions were 23-Dec-2025 and 6-Mar-2026 (screener list; not read).
+- **History (CRISIL):**
+  - "VIP was incorporated under the Dilip Piramal group as a wholly owned subsidiary of **Blow Plast Ltd** (BPL) in January 1968. In fiscal 2007, BPL was merged with VIP."
+  - "The company manufactures hard luggage in India and markets hard and soft luggage sourced from India, China and its Bangladesh subsidiaries."
+- **KMP pay:** the AR's remuneration annexure records the ex-MD Neetu Kashiramka as MD "till September 23, 2025". The median employee pay increase was **5.42%** [V AR line 3409].
+- **Contingent liabilities:** in the consolidated notes (not re-extracted this pass). Part 1 carries the **GST investigation payment ₹14.11 Cr (₹5.48 Cr expensed)** [V Part 1].
+
+---
+
+## 4.3 Industry data upgraded from primary sources
+
+### 4.3.1 GST on HS 4202 after GST 2.0 — RESOLVED: 18% for luggage; 5% only for cotton/jute handbags
+
+**Source:** taxclue.in HSN pages for 4202 and 4202 12 50 (fetched 25-Oct-26). They reproduce **Notification No. 9/2025-Central Tax (Rate) dated 17-Sep-2025** (effective 22-Sep-2025, superseding 1/2017-CT(Rate)), "amended up to 30 April 2026" (the amending notification is 01/2026-CT(Rate)). The site states it was "checked against the official files on 2 October 2026" [V-sec].
+- Notification date and supersession are corroborated by CBIC FAQ-3 coverage (taxo.online) and studycafe [V-snip].
+- The CBIC PDF itself was not fetched.
+
+| Entry | Codes | Goods | Rate (CGST + SGST / IGST) |
+|---|---|---|---|
+| **Schedule II, S. No. 145** | 4202 (whole heading) | Trunks, suit-cases, vanity cases, executive and brief cases, **school satchels**, … **travelling bags**, insulated food bags, toilet bags, **rucksacks, handbags**, shopping bags, wallets, purses, … of leather, of sheeting of plastics, of textile … | **18%** |
+| Schedule I, S. No. 289 | 4202 22 20 | Hand bags and shopping bags, **of cotton** | 5% |
+| Schedule I, S. No. 290 | 4202 22 30 | Hand bags and shopping bags, **of jute** | 5% |
+| Schedule II, S. No. 639 | any | Residual | 18% |
+
+- **Moulded plastic suit-cases (4202 12 20)**, other plastic/textile travel goods (4202 12 50), leather travel goods (4202 11 10), school satchels and backpacks (rucksacks) are **all 18%**.
+- The "5%" seen on HSN-finder sites refers only to cotton or jute handbags and shopping bags.
+- **Part 1's "18%, unchanged" is confirmed.** The FLAG can be removed, and the wording should be "18% (Sch. II S. No. 145 of 9/2025-CT(Rate)); 5% only for cotton/jute handbags".
+
+### 4.3.2 Customs duty on HS 4202 — CORRECTED: BCD 15% (not 20%)
+
+- **Basic customs duty 15% on all 44 tariff lines of heading 4202** (First Schedule, Customs Tariff), plus Social Welfare Surcharge at 10% of BCD and IGST at 18% [V-sec taxclue, which cites the Customs Tariff; the aggregator snippet also says 15%].
+- **Effective landed duty before IGST ≈ 16.5%.** IGST is creditable to a registered importer.
+- RoDTEP for exports is 1.1–1.2% of FOB, extended to 31-Dec-2026 (Notification 41/2026-27) [V-sec].
+- **Part 1's "BCD ~20% + SWS [K-unverified]" is superseded** (§4.0). There is no anti-dumping or safeguard duty on 4202 in the line table [V-sec: "standard rates only: no … anti-dumping or safeguard duty" — this is the site's computation caveat, not a positive statement of none. It is consistent with the first pass's "none found"].
+- **Worked example C.1 fix** (imported trolley FOB ~$11 = ₹1,045 + ₹80 freight/insurance):
+  - BCD 15% ≈ ₹169, plus SWS ₹17. Landed ≈ **₹1,310** (was ~₹1,375).
+  - GM on the imported piece ≈ 40% (was ~37%).
+  - So the make-vs-buy gap is ~11 points, not ~14 [E].
+
+### 4.3.3 HS 4202 imports into India — NEW chart-ready series (UN Comtrade via WITS, India as reporter; US$ m, CIF) [V]
+
+| CY | **4202 total** | China | China % | Bangladesh | BD % | Other top partners |
+|---|---|---|---|---|---|---|
+| 2019 | **437.0** | 331.0 | **75.8%** | 27.9 | 6.4% | Singapore 15.6; Hong Kong 15.3; France 10.0 |
+| 2021 | 286.9 | 153.0 | 53.3% | 47.9 | 16.7% | Singapore 19.6; France 11.3 |
+| 2022 | 441.2 | 239.1 | 54.2% | 93.1 | 21.1% | Singapore 22.4; France 13.0 |
+| 2023 | **480.7** | 263.1 | **54.7%** | **101.2** | **21.1%** | Italy 46.5; France 19.7; Vietnam 10.9 |
+| 2024 | **454.6** | 278.6 | **61.3%** | 63.1 | 13.9% | Italy 40.8; France 20.5; Vietnam 14.1 |
+
+**HS 4202 12 — trunks/suitcases with outer surface of plastics or textiles (the luggage line proper):**
+
+| CY | Value US$ m | Pieces (m) | US$/piece | China US$ m (m pcs; $/pc) | Bangladesh US$ m (m pcs; $/pc) |
+|---|---|---|---|---|---|
+| 2019 | 204.8 | 24.30 | 8.43 | 165.1 (20.44; 8.08) | 27.8 (2.70; 10.32) |
+| 2023 | 213.0 | 22.13 | 9.63 | 98.8 (12.74; 7.76) | **98.9 (8.55; 11.57)** |
+| 2024 | 170.6 | 25.70 | **6.64** | 96.3 (16.32; **5.90**) | 61.9 (8.34; 7.42) |
+
+HS 4202 92 (other cases/containers, textile/plastic outer surface) 2024: US$31.9 m, of which China US$21.2 m [V].
+
+Source pages: `https://wits.worldbank.org/trade/comtrade/en/country/IND/year/{2019|2021|2022|2023|2024}/tradeflow/Imports/partner/ALL/product/4202` and `/product/420212`, `/product/420292`.
+
+**Reads [E]:**
+- **"China >60% of 4202 imports" is correct only for 2019 and 2024.** It was ~54% in 2021–23. Use **"China 55–61% (2021–24), down from 76% in 2019"** (§4.0).
+- **Bangladesh is the No. 2 source and is mostly the listed pair's captive supply.**
+  - BD shipped **8.3–8.5 m suitcases a year (2023–24)** into India, a 3× jump from 2.7 m in 2019. Over the same period VIP built 7 Bangladesh plants, and Safari uses "captive third-party capacity in Bangladesh" [V company docs].
+  - The 2024 fall in BD value (US$98.9 m → 61.9 m, with flat pieces) matches VIP's destocking and its "Bangladesh under-utilisation" diagnosis [V VIP deck], plus price deflation.
+- **The price war is visible at the border.**
+  - China's suitcase unit value fell from **US$7.76 to US$5.90 a piece (−24%) in 2024** while China's piece count rose 28% (12.7 m → 16.3 m).
+  - At ₹84/$ that is **~₹500 CIF, or ~₹580 after 16.5% duty**, for a finished soft or hard case. That is the floor price D2C brands and private labels can buy at.
+- **Scale vs the market.**
+  - 4202 imports of ~US$455–480 m ≈ ₹3,800–4,000 Cr CIF a year. That includes luxury handbags from Italy and France (~US$60 m) and the listed pair's own Bangladesh flows.
+  - Suitcases alone (4202 12): ~22–26 m pieces a year. Compare Safari's in-house capacity of ~13 m pieces a year [E, §4.3.6]: **imports are a material share of India's luggage pieces.**
+- **No 2025 data** was fetched (WITS 2025 is not yet complete). TradeStat (commerce.gov.in) was not attempted after BSE/NSE-type blocking; WITS/Comtrade was used instead.
+
+### 4.3.4 Market size, organised share and a consistent company-share table
+
+**New primary datapoints:**
+- **CRISIL (VIP rationale, 19-Aug-2026):** "The **~₹20,000 crore Indian luggage industry** is witnessing steady growth of **6–8%** … largely unorganised, with local manufacturers dominating sales volume in Tier 2 and 3 cities … D2C players … growing **15–20% per annum**, albeit on a smaller base." "Traditional players such as VIP, Safari Industries Ltd, and **Samsonite South Asia Pvt Ltd** have bagged bulk of the market share" [V].
+  - This is a **lower growth rate than MOSL's 12% CAGR** and a size consistent with MOSL's ₹17,000 Cr (CY24) grown ~8% a year to ~₹20,000 Cr (FY26/27).
+  - Use: **"₹17,000 Cr (CY24, MOSL) → ~₹20,000 Cr (2026, CRISIL); growth 6–8% (CRISIL) vs 12% CAGR forecast (MOSL)"**.
+- **CRISIL VIP share:** "**market share of ~29% in fiscal 2026** [29% as on 31-Dec-2025], which has declined from **over 40% earlier**" [V].
+  - The basis is unstated. Arithmetic shows it must be an organised/branded-company basis, not the ₹20,000 Cr total: ₹1,858 Cr ÷ 29% ≈ **₹6,400 Cr organised pool at company-revenue level** [E].
+- **Safari (CRISIL 1-Oct-26):** "the organised Indian luggage industry has an **oligopolistic structure**"; Safari's brand "helped the company maintain its share in the organised market" [V]. No percentage is given.
+
+**Organised share 45% (CRISIL) vs 52% (MOSL): definitions.**
+- MOSL's 52% (CY23) is **"branded" at retail value** [V BS, Part 1].
+- CRISIL's 45% is "organised" from a 2024–25 CRISIL press piece; the article was not fetchable (still [V-snip]).
+- The two can both hold if "organised" excludes small branded/online-only labels. The ~7-point gap is roughly the size of the D2C + private-label cohort [E].
+- **Use "~45–52% branded/organised (CRISIL/MOSL, 2023–25)"**, and never mix it with company-revenue shares.
+
+**Consistent company-share table — organised market at company (ex-factory, ex-GST) revenue [E, built from V inputs]**
+
+| Player | FY26 / CY25 revenue (₹ Cr) | Basis | Share of ~₹6,400–7,000 Cr organised pool |
+|---|---|---|---|
+| Safari | 2,047 | FY26 consolidated [V] | **~29–32%** |
+| VIP | 1,858 | FY26 consolidated [V]; CRISIL "~29%" | **~27–29%** |
+| Samsonite India (Samsonite South Asia Pvt Ltd: Samsonite, American Tourister, Kamiliant, Tumi) | **~1,750–1,850** | CY25 ≈ US$205–215 m [E from Samsonite 9M-25 filing: India 9M-2025 ≈ US$152.8 m, Q3-25 ≈ US$51.8 m; see 4.3.5] at ₹86/$ | **~26–28%** |
+| D2C cohort (Mokobara, Nasher Miles, Uppercase, Assembly, others) | ~600–800 | FY25 actuals Mokobara 230 + Uppercase 83 + Nasher Miles ~170–200 (FY24 168), grown 15–20% [E] | ~9–12% |
+| Other branded (Wildcraft bags, Lavie, American/Amazon private labels, Kamiliant if not in Samsonite) | n/a | — | balance |
+
+- **Read:** the organised market at company revenue is a **near three-way tie between Safari, VIP and Samsonite**, with D2C at ~10%. This reconciles CRISIL's 29% for VIP, MOSL's "top three ≈ 33% of the total retail market", and the companies' revenue.
+- **VIP's "~38% of organised" claim is out of date.** CRISIL says 29% and falling from >40%.
+- **Euromonitor's "Safari No. 1 brand"** is consistent with Safari being the largest single company by revenue (FY26).
+
+### 4.3.5 Samsonite India and Samsonite multiples
+
+Source: Samsonite **H1-2025 interim announcement** (HKEX 2025081301073.pdf) and **Q3-2025 announcement** (HKEX 2025111201224.pdf), fetched [V].
+- **H1-2025:** "net sales in India decreased by **US$3.5 million, or 3.2%** (−0.1% constant currency)" → H1-2025 India ≈ **US$105.9 m**, H1-2024 ≈ US$109.4 m [E from V].
+- **Q3-2025:** India +US$1.8 m (+3.6%; +8.5% cc) → **Q3-2025 ≈ US$51.8 m** [E from V].
+- **9M-2025:** India −US$1.7 m (−1.1%; +2.5% cc) → **9M-2025 ≈ US$152.8 m** (9M-2024 ≈ US$154.5 m) [E from V].
+- **FY2025:** Q4-2025 +10.3% cc [V FY25 release] gives **CY2025 India ≈ US$205–215 m ≈ ₹1,760–1,850 Cr at ₹86/$** [E]. That is about **6% of group net sales (US$3,497.6 m)**. CY2024 ≈ US$210 m [E].
+- American Tourister's Asia improvement is credited to "enhanced entry level product offerings, **particularly in India**" (Q3-25) [V]. H1-25 capex included "the **expansion of our manufacturing facility in India**" [V]. The press describes India as Samsonite's largest manufacturing base globally (indianretailer.com; [V-snip]).
+- **Samsonite valuation [V-snip, aggregator]:**
+  - Share HK$12.13 (21-Sep-2026; Fintel); market cap ~HK$16.5 bn ≈ **US$2.1 bn**; YTD −32% (MarketScreener, Aug-26); forward 2026 P/E ~9.5× (MarketScreener).
+  - On FY25 actuals: **P/E ~7.3×** (US$2.1 bn ÷ US$289 m) and **EV/EBITDA ~5.3×** ((2.1 + 1.10 net debt) ÷ 0.607 adj. EBITDA) [E].
+  - **The global leader trades at ~5× EV/EBITDA vs Safari ~21×.** Part 1 §10's "historically ~8–12× [K]" is superseded for the current read.
+
+### 4.3.6 Capacity and in-house share — Safari resolved, VIP partly
+
+| Item | Finding | Source | Tag |
+|---|---|---|---|
+| Safari SML Halol (highway unit) | **3.50 lakh pieces/month at 94% utilisation (Jun-2024); +1.00 lakh added "immediately" for ≤₹4 Cr → ~4.5 lakh/month** | Reg-30 letter 28-Jun-2024 | [V] |
+| Safari SML Jaipur | Commercial production **2-Dec-2024**. Expanded **5 → 6.5 lakh pieces/month** by Q1 FY27 | Reg-30 2-Dec-2024 [V]; PL [V Part 1] | [V] |
+| **Unit conflict (6.5 lakh vs 6.5 mn/month)** | **Resolved: lakh.** Safari's own Reg-30 disclosure measures SML capacity in "**Lakh pieces per month**". The PL "5mn → 6.5mn units per month" line is a units slip | Reg-30 28-Jun-2024 | [V] |
+| Safari total SML capacity | ~4.5 + 6.5 ≈ **11 lakh pieces/month ≈ 13 m pieces/yr**, plus the SIIL Halol GIDC unit (undisclosed) | [E from V] | [E] |
+| Safari in-house share (value) | RM consumed as a share of (RM + finished-goods purchases): **FY26 60.8% → Q1 FY27 70.3%** | Q1 FY27 results PDF | [E from V] |
+| Safari in-house share (pieces) | Not disclosed | — | gap |
+| VIP plants | **9 = 2 India + 7 Bangladesh** (BRSR §18); "10" in the MD&A is loose | VIP AR FY26 | [V] |
+| VIP capacity | Not disclosed. "Bangladesh … significant under-utilisation of capacity" (May-26 deck); Bangladesh Q4 FY26 EBITDA ₹9 Cr | VIP Q4 FY26 deck | [V] |
+| VIP in-house vs sourced | Not disclosed. CRISIL: VIP "manufactures hard luggage in India and markets hard and soft luggage sourced from India, China and its Bangladesh subsidiaries"; **FY25 mix: hard 60%, soft 16%, backpacks 13%, duffels 8%, handbags 3%** | CRISIL 25-Jun-26 and 6-Aug-26 | [V] |
+
+**Implication for Part 1 trap 10:** the ₹1,500–2,500 "per piece" realisation used to reject 6.5 mn/month is too high. Safari's in-house RM of ₹639 Cr over ~11–13 m pieces is ~₹500–600 RM per piece, which implies a blended net realisation of ~₹1,100–1,500 a piece for value PP trolleys [E]. The conclusion (lakh, not million) is unchanged and is now confirmed by the company's own disclosure.
+
+### 4.3.7 Channel split — partly filled
+
+- **VIP standalone (company deck, May-2026) [V]:** online ₹215 Cr of ₹965 Cr in H1 FY26 (**22%**) and ₹159 Cr of ₹884 Cr in H2 FY26 (**18%**). Offline + Caprese is the rest (78–82%).
+  - Online fell 34–36% YoY by design ("conscious call to reduce primary"), so VIP's normal online share was **~27–30% in FY25** [E: H1 FY25 online ≈ 215/0.64 ≈ ₹336 Cr of 965/0.82 ≈ ₹1,177 Cr = 29%].
+  - This is the first primary channel datapoint in the dossier.
+- **Safari:** no revenue split. Touchpoints: 8,800+, including >150 COCO stores (CRISIL) and ~4,000 CSD canteens [V/E, deck].
+- **Industry:** no primary split. The low-reliability "e-com ~20–30%" in Part 1 is consistent with VIP's 18–29% [E].
+
+### 4.3.8 Demand: domestic air passengers (fiscal years) — upgraded where possible
+
+| FY | Domestic passengers (lakh) | YoY | Source / tag |
+|---|---|---|---|
+| FY20 | ~1,420 | — | ICRA: "pre-Covid levels of ~142 million in FY2020" [V-snip] |
+| FY24 | ~1,540 | ~+13% | ICRA "~154 million … ~13%" [V-snip] |
+| FY25 | 1,653.8 | +7.6% | ICRA [V-snip Part 1] |
+| **FY26** | **1,677.4** | **+1.4%** | ICRA monthly update 28-Apr-2026, fetched [V]. March-2026 146.8 lakh (+1.0%) [V]; FY27 forecast 6–8% "now with a downward bias"; ICRA's aviation outlook revised to **Negative (Mar-2026)** [V] |
+| CY2023 / CY2024 | 1,520.32 / 1,613.31 | +6.1% | DGCA via press (bangladeshmonitor) [V-snip] |
+
+- FY21–FY23 are still [K] (~530 / ~840 / ~1,362 lakh). FY23 is consistent with FY24 ÷ 1.13 ≈ 1,363 [E].
+- ICRA also notes: international traffic for Indian carriers was 331.5 lakh in 11M FY26 (+7.7%). A fuel surcharge of 5–6% of fares and the removal of DGCA fare caps are downside risks [V].
+
+### 4.3.9 Polymer (PP/PC) prices — partly filled
+
+- **No primary ₹/kg list price was fetched.** Reliance's list is not public and ICIS/Platts are paywalled.
+- Datapoints:
+  - **RIL raised domestic PP prices by ₹2,000/t (₹2/kg) w.e.f. 1-Mar-2026**, with a further hike on 6-Mar-2026 (amount not given) [V-snip, polymerupdate/indianpetrochem].
+  - India **PP raffia/injection import offers US$1,270–1,350/t CFR on 18-Mar-2026** [V-snip].
+  - "**Polypropylene prices have climbed about 60% during the month**" (Mar-2026), PE +49%, PVC +55% (procurementresource, 22-Apr-2026) [V-sec].
+  - CRISIL (1-Oct-26) confirms a "**sharp increase in polypropylene prices during the first half of fiscal 2027**" [V].
+- **Use:** "PP +40–60% at the Mar-2026 peak (trade press), easing after the 7-Apr ceasefire but elevated through H1 FY27 (CRISIL)". PC: no 2026 datapoint.
+
+### 4.3.10 Regulation odds and ends
+
+- **BIS QCO on luggage: none found** (second search, Oct-2026). Recent QCOs cover furniture (13-Feb-2026), commercial electrical appliances (1-Oct-2026), footwear and toys. DPIIT's Transition Facilitation (QC) Order 2026 is generic [V-snip]. Status unchanged: "no luggage QCO found".
+- **Carlton trademark — counter-party identified: Carlton Shoes Ltd (CSL).**
+  - Case: *VIP Industries Ltd v. Carlton Shoes Ltd & Anr.*, 2025:DHC:5042-DB (Justices C. Hari Shankar and Ajay Digpaul), reported 2-Jul-2025 [V-sec, Verdictum].
+  - **CSL's Class 18 CARLTON registration dates from 6-May-1994**; VIP's from 26-Jul-1995 and 21-Apr-2006. Because both are registered, neither can sue for infringement (s.28(3)), so the case turns on passing off.
+  - The court held that **global goodwill is insufficient: prior user in India governs**. VIP adopted CARLTON for luggage in India in 2006, and the Single Judge found VIP had no Indian goodwill before 2004. The DB called VIP's adoption "deliberate".
+  - Safari's licensor is **Carlton Retail Pvt Ltd (New Delhi)**. The link between Carlton Retail and Carlton Shoes is **not documented** in anything fetched — presumably an affiliate or retail arm [E].
+  - **VIP's rights outside India** (UK Carlton International, acquired 2004 [K]) were not verified.
+
+---
+
+## 4.4 Gap log (Part 1 §H items and brief items)
+
+| # | Gap | Status | How / what was tried |
+|---|---|---|---|
+| H1 | Market by channel | **Partly filled** | VIP standalone online 22% / 18% (H1/H2 FY26; ~29% FY25 implied) [V deck]. No industry or Safari split; neither company's AR gives one |
+| H2 | Organised share 45% vs 52% | **Explained, not primary** | MOSL "branded at RSP" vs CRISIL "organised". The CRISIL 45% article was still not fetched (BusinessWorld 403 in pass 1). CRISIL's 2026 rationales use "largely unorganised" without a % |
+| H3 | Consistent company-share table | **Filled [E from V]** | §4.3.4: organised company-revenue pool ~₹6,400–7,000 Cr; Safari ~30%, VIP ~28% (CRISIL 29%), Samsonite India ~27%, D2C ~10%. Euromonitor / Redseer / Technopak tables are paywalled; not found free |
+| H4 | Samsonite India revenue and multiples | **Filled (derived)** | HKEX H1-25 and Q3-25 filings → CY25 ≈ US$205–215 m [E]. The Samsonite 2025 annual-report country table was not located (the FY25 release gives only %). Multiples from aggregators [V-snip] |
+| H5 | Mokobara FY26, Nasher Miles, Uppercase, Assembly | **Mostly open** | **Uppercase FY25: revenue ₹83 Cr (+34%), loss ₹35 Cr, EBITDA −43%, marketing ₹23 Cr** [V-sec Entrackr, 10-Nov-2025]. Mokobara: FY26 not filed/reported; a Series C of ~₹91 Cr at a 2.8× valuation premium [V-snip Entrackr tag page]. Nasher Miles: FY24 only (₹167.8 Cr); targets ₹492 Cr by FY28 [V-snip Inc42]. Assembly: nothing found |
+| H6 | HS 4202 imports | **Filled** | WITS/Comtrade 2019–2024, partners and pieces [V]. TradeStat not used (form-based) |
+| H7 | Customs duty 4202 | **Filled (secondary)** | BCD 15% + SWS [V-sec] |
+| H8 | GST sub-codes | **Filled (secondary reproduction of the notification)** | 18% for suitcases/satchels/rucksacks; 5% cotton/jute handbags only. CBIC PDF not fetched |
+| H9 | BIS QCO on luggage | **Confirmed none found** | Second search, Oct-2026: QCOs cover furniture, appliances, footwear, toys; none for luggage |
+| H10 | PP/PC ₹/kg series | **Open (partial)** | RIL +₹2/kg 1-Mar-26; import PP US$1,270–1,350/t CFR 18-Mar; "+60% in Mar-26"; CRISIL "sharp increase in H1 FY27". No ₹/kg list or PC data |
+| H11 | Safari Halol / Jaipur capacity; in-house share | **Filled (capacity), partly (share)** | Reg-30 letters (S3); in-house value share 61% → 70% [E from V]; piece share not disclosed |
+| H12 | VIP capacity, plant count, Bangladesh | **Partly filled** | 9 plants [V]; "Bangladesh under-utilisation", Q4 FY26 Bangladesh EBITDA ₹9 Cr [V]; BD suitcase exports to India 8.3–8.5 m pieces/yr (Comtrade; includes non-VIP flows). Capacity is not disclosed |
+| H13 | Carlton owner in India; VIP rights abroad | **Partly filled** | Counter-party = Carlton Shoes Ltd (DB judgment). The licensor-CSL link and VIP's UK/global rights are not verified (the SpicyIP article returned 403) |
+| H14 | Sacheti stake location | **Filled** | Samvibhag 8.44% public category (S13) |
+| H15 | Q2 FY27 board dates | **Checked — not yet announced** | Safari IR list and screener announcement lists (25-Oct-26); BSE API blocked. Last year: Safari 10-Nov-2025; VIP Q3 FY26 board was rescheduled 12 → 14-Feb-2026 [V-snip NSE iXBRL] |
+| H16 | DGCA FY20–FY23 series | **Partly filled** | FY20 ~1,420 and FY24 ~1,540 lakh [V-snip ICRA]; FY26 [V]. FY21–FY23 remain [K]. DGCA PDFs not fetched |
+| H17 | Jatia "ex-VIP MD" | **Open** | The Safari deck says only "more than 3 decades … in the Luggage Industry", and that he acquired Safari in 2011 and has been MD since Apr-2012. No VIP role is stated. Several Safari VPs are ex-VIP (deck bios) |
+| H18 | VIP Q1 FY27 PAT | **Confirmed** | Screener −₹54 Cr; CRISIL notes operating loss of ₹11 Cr |
+| Brief | Q1 FY27 earnings-call transcripts | **Not available** | VIP: screener has a Transcript button with no file for May-26 and Aug-26; vipindustries.co.in has an expired TLS certificate (not bypassed). Safari: does not host public calls |
+| Brief | VIP ₹500 Cr raise progress | **Checked — no launch** | No QIP/rights/preferential filing up to 25-Oct-26 (screener announcement list) |
+| Brief | Q2 FY27 results released? | **No (both)** | Screener quarterly tables end Jun-2026 (fetched 25-Oct-26) |
+
+---
+
+## 4.5 New insights the first pass missed
+
+1. **The listed pair imports from itself.**
+   - Bangladesh is India's No. 2 source of HS 4202 goods (US$63–101 m a year, 2022–24) and ships **8.3–8.5 m suitcases a year**, 3× the 2019 level.
+   - That flow is substantially VIP's own seven-plant base plus Safari's "captive third-party" vendor.
+   - Bangladesh's LDC graduation, its politics and VIP's own under-utilisation ("Bangladesh was a key issue") are therefore an **Indian luggage cost-base risk**, not a sideshow.
+   - The 2024 drop in BD import value (−37% with flat pieces) is VIP's destocking showing up in customs data.
+2. **The price floor is set at the border.**
+   - Chinese suitcases landed at **US$5.90 a piece CIF in 2024 (−24% YoY), with volume +28%**. With BCD of only 15%, a finished import costs ~₹580 before IGST.
+   - This, not just D2C marketing, is the economics behind 2024–25's value-tier price war and Safari's push into in-house components.
+3. **Safari is quietly re-shoring its own bought-in range.**
+   - Purchases of finished goods fell 10% in Q1 FY27 while in-house raw-material consumption rose 33%. The in-house value share went ~61% → ~70%.
+   - With wheels made in-house and robotic arms on the moulding lines, this is why Safari's GM fell only ~120 bp through a 40–60% PP spike.
+   - Watch whether Carlton (imported from China) reverses this mix.
+4. **The organised market is a three-way tie, and Samsonite is the under-discussed third leg.**
+   - Organised company revenue: Safari ~₹2,050 Cr ≈ VIP ~₹1,860 Cr ≈ Samsonite India ~₹1,800 Cr.
+   - Samsonite is **expanding Indian manufacturing** and winning with entry-level American Tourister/Kamiliant products "particularly in India" (Q3-25).
+   - Its group trades at **~5× EV/EBITDA vs Safari ~21×**. Any re-rating argument for Safari has to explain that 4× gap.
+5. **VIP's ₹500 Cr raise is a working-capital necessity, not a growth option.**
+   - Unencumbered cash fell from ₹116 Cr to ~₹91 Cr (Mar → Jul-26). Fund-based limits are "near-full" on low drawing power, and additional bank lines are "yet to be tied up" ahead of the festive season.
+   - CRISIL issued an "awaiting adequate information" advisory (6-Aug).
+   - CRISIL also says Multiples does **not** envisage an immediate infusion, so expect a **QIP/rights at a discount to ₹264**: ~13–16% dilution [E] vs the ₹388 control price.
+   - CRISIL's upgrade trigger is a 7–9% sustained operating margin.
+6. **VIP's real free float is ~28%.** The 8.44% Samvibhag co-investor stake sits in "public" while the PE sponsor is "promoter", so index free-float and liquidity are overstated.
+7. **Growth reality check.** CRISIL now calls the industry **₹20,000 Cr growing 6–8%**, half MOSL's 12% forecast. D2C grows 15–20%. With air traffic +1.4% in FY26 and ICRA's aviation outlook Negative, the writer should present 12% as the bull case.
+8. **Safari's optionality.** It has nil debt, a 3.8× current ratio and nil bank-limit use for 12 months, plus a **QIP approval available since Feb-2026**. Combined with the ₹99.5 Cr Carlton deposit and a 52-week-low share price, an acquisition or brand-licensing move is plausible [E]. CRISIL's downgrade trigger is debt-funded acquisition.
+
+### New primer issues
+
+**safari-industries.html**
+- "Borrowings ~₹100–120 Cr" is **lease liabilities**: **borrowings are nil**, and liquid cash is ~₹283 Cr (S1).
+- Jaipur started commercial production **2-Dec-2024**. SML Halol is ~4.5 lakh pieces/month; Jaipur 6.5 lakh (S2/S3).
+- Touchpoints **8,800+** (>150 COCO); add the in-house share shift (61% → 70% of material inputs, Q1 FY27).
+- History: acquired by Sudhir Jatia in 2011 (77% majority stake per the company); MD from 18-Apr-2012 (S18).
+- Customs duty on imported luggage is **15% BCD** (not 20%); GST 18% confirmed.
+
+**vip-industries.html**
+- **CRISIL downgrade to A-/Negative (25-Jun-2026)**; information-awaited advisory (6-Aug); reaffirmed 19-Aug.
+- Market share **~29% (CRISIL), down from >40%**. Replace "~38%".
+- **Free float ~28%**: Samvibhag 8.44% sits in "public".
+- Plants: **9 (2 India + 7 Bangladesh)**.
+- Channel: **online ~18–22% of standalone revenue** in FY26 (deck); category mix hard 60%.
+- Carlton counter-party is **Carlton Shoes Ltd**; prior-user-in-India ruling.
+
+**Both primers**
+- China is **~55–61%** of HS 4202 imports (not ">60%" as a constant).
+- **Bangladesh is the No. 2 source** (14–21%).
+- **The industry is ~₹20,000 Cr growing 6–8% (CRISIL 2026).**
+
+---
+
+## 4.6 Source URLs fetched in Part 4
+
+- **Safari IR page:** https://www.safari.in/pages/investor-relations. Documents under `https://files.safaribags.com/pub/media/`:
+  - `financial_results/pdf/2026-2027/Fy-2026-27-Q1.pdf`
+  - `Corporate_Presentation/Safari-Corporate-Presentation-5.pdf`
+  - `Intimation_to_stock_exchange/2024-2025/Disclosure-Under-Regulation-30-Of-Sebi-(Lodr)-Regulations-Capacity-Addition-Of-Safari-Manufacturing-Limited.pdf`
+  - `…/2024-2025/Disclosure-Under-Regulation-30-Of-Sebi-(Lodr)-Regulations-Commencement-Of-Production-Operations-Of-Safari-Manufacturing-Limited.pdf`
+  - `…/2026-2027/Disclosure-Under-Regulation-30-Of-Sebi-(Lodr)-Regulations-Change-In-Management.pdf`
+- **Safari AR FY26:** https://www.bseindia.com/xml-data/corpfiling/AttachHis/0d4ac2d8-08bf-4bb9-b542-36f5506ccf04.pdf
+- **VIP AR FY26:** https://www.bseindia.com/xml-data/corpfiling/AttachHis/bbdcee64-f067-4dfc-8d68-53a616eef135.pdf
+- **VIP documents** (all under `https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=`):
+  - Q1 FY27 deck: `5d6a72e7-f11d-4e4e-8f0d-6e12d57c2e2f.pdf`
+  - Q4 FY26 deck: `d963ed88-e051-4dac-ad5d-a2faf19ff6b8.pdf`
+  - Fund-raise board outcome: `08a70113-b4b3-4e2d-9c72-01cff8ed9fb0.pdf`
+  - Fund-raise intimation: `8ef3e22d-abdf-4473-aa1c-76663bf81bf4.pdf`
+  - Trading window: `29f822ab-5999-4c1b-98d9-ce0e335c8e1d.pdf`
+- **CRISIL** (all under `https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/`):
+  - `VIPIndustriesLimited_June 25_ 2026_RR_398231.html`
+  - `VIPIndustriesLimited_July 30_ 2026_RR_401117.html`
+  - `VIP Industries Limited-RU-06-08-2026.pdf`
+  - `VIPIndustriesLimited_August 19_ 2026_RR_402274.html`
+  - `SafariIndustriesIndiaLimited_October 01_ 2026_RR_406194.html`
+- **Screener:** https://www.screener.in/company/SAFARI/consolidated/ · https://www.screener.in/company/VIPIND/consolidated/ · https://www.screener.in/api/3/3670/investors/public/quarterly/
+- **Samsonite (HKEX):**
+  - https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0813/2025081301073.pdf (H1-2025)
+  - https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1112/2025111201224.pdf (Q3-2025)
+  - FY2025 release: https://www.placera.se/pressmeddelanden/samsonite-group-s-a-announces-results-for-the-year-ended-december-31-2025-20260320
+- **WITS / UN Comtrade:** https://wits.worldbank.org/trade/comtrade/en/country/IND/year/2023/tradeflow/Imports/partner/ALL/product/4202 (also years 2019, 2021, 2022, 2024, and products 420212 and 420292)
+- **GST / customs reproduction:** https://taxclue.in/hsn-code/4202 · https://taxclue.in/hsn-code/42021250
+- **ICRA air traffic (Mar-2026 / FY26):** https://www.icra.in/Research/ViewResearchReport/domestic-passenger-traffic-in-march-2026-grew-by-a-modest-1-0-yoy-ending-fy2026-with-a-rise-of-1-4/6898
+- **Carlton DB judgment report:** https://www.verdictum.in/court-updates/high-courts/delhi-high-court/vip-industries-ltd-v-carlton-shoes-ltd-2025-dhc-5042-db-global-goodwill-passing-off-trademark-1583251
+- **Uppercase FY25:** https://entrackr.com/fintrackr/uppercases-losses-double-in-fy25-revenue-grows-34-10643251 · Entrackr tag pages /tags/mokobara, /tags/uppercase
+- **Polymer prices:** https://www.procurementresource.com/news-and-articles/india-plastic-manufacturing-margin-pressure-pvc-pp-pe-prices [V-sec]; polymerupdate / indianpetrochem [V-snip]
+
+*End of Part 4.*
+
+---
+
+# ORCHESTRATOR NOTE — aggregates re-added after Part 4 (2026-10-25)
+
+Every §3.2 aggregate re-added from the company rows: revenue 2,047 + 1,858 = 3,905; OP 271 − 241 = 30 (0.8%); PAT reported 168 − 338 = −170; pre-exceptional 168 − 416 = −248; Q1 FY27 revenue 589 + 578 = 1,167 vs 528 + 561 = 1,089 (+7.2%); Q1 OP ≈ 75 − 11 = 64 (5.5%); Q1 PAT 48 − 54 = −6; m-cap 6,006 + 3,757 = 9,763; FY22–FY25 revenue sums match Part 2 rows. All correct.
+
+Changes after applying Part 4's Supersedes:
+- **Net debt (ONE basis: borrowings less cash, bank and current investments, EXCLUDING lease liabilities, 31-Mar-2026, company annual-report/deck basis):** Safari borrowings nil, liquid cash ₹283 Cr → net debt **−₹283 Cr** (S1); VIP **₹309 Cr** (consolidated AR, S15). **Combined net debt = ₹26 Cr** (replaces ₹79 Cr in §3.2(d)).
+- **Combined EV** = 9,763 + 26 = **₹9,789 Cr** → 2.5× FY26 revenue (unchanged to one decimal). Safari EV = 6,006 − 283 = ₹5,723 Cr → 21.1× FY26 OP of ₹271 Cr.
+- **Ownership:** §3.2(e) used simple averages — do NOT show these as an aggregate. Show per-company shareholding only (Sep-26: Safari promoter 44.70 / FII 10.95 / DII 28.54; VIP promoter 42.35 / FII 4.66 / DII 16.54; VIP's Samvibhag Securities 8.44% sits in public, S13).
+- P/B combined 9,763 / 1,404 = 7.0× (unchanged).
