@@ -55,3 +55,7 @@
   - Flex stock ~118 msf (H1 CY26) vs CBRE's 2027F of 140–144 msf; CRISIL 140–145 msf by FY28.
   - Global comp IWG: 4,609 centres, $4.45 Bn system revenue, $531 Mn adjusted EBITDA (FY25).
 
+
+## From primer-audit.mjs (2026-10-25)
+
+- **wework-india.html, smartworks-coworking.html, awfis-space-solutions.html:** all three pass the hard checks. All three lack `main{min-width:0}`, which risks horizontal overflow on phones. This is pre-existing and was not fixed here. No primer links to a sub-sector report (0 report links); add links to `subsectors/flexible-workspace.html` once it is published.
