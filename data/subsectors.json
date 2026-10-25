@@ -2008,6 +2008,23 @@
         "Valuation and the Awfis de-rating"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Trading & Distribution",
+      "slug": "trading-distribution",
+      "file": "trading-distribution.html",
+      "sector": "Trading",
+      "subsector": "Trading & Distributors",
+      "companies": 3,
+      "accent": "#5C940D",
+      "hook": "Two rupees of margin, thirty days of cash: how India's listed distributors earn a thin spread on other people's goods — Redington's memory-price boom and Arena problem, Entero's pharma roll-up and minority leak, and MMTC, a state trading house with no trade, cash and a gold-refinery stake.",
+      "tags": [
+        "Cash-conversion machine",
+        "Redington: price vs volume",
+        "Entero roll-up economics",
+        "MMTC cash shell"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -2861,7 +2878,7 @@
       "sector": "Trading",
       "sub": "Trading & Distributors",
       "companies": 3,
-      "report": null
+      "report": "trading-distribution.html"
     },
     {
       "sector": "Trading",
