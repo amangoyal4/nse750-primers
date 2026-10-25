@@ -1855,6 +1855,23 @@
         "Redtape's model"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Internet Platforms & Classifieds",
+      "slug": "internet-platforms",
+      "file": "internet-platforms.html",
+      "sector": "IT",
+      "subsector": "Web based media and service",
+      "companies": 4,
+      "accent": "#7C3AED",
+      "hook": "Cash-rich toll booths meet AI search: how Naukri, 99acres, IndiaMART, Justdial and CarTrade charge the side that wants to be found, why prepaid billings fill their balance sheets with cash, which portals AI search is already hurting, and why most of Info Edge's value is two stakes.",
+      "tags": [
+        "KPI masterclass",
+        "AI and zero-click search",
+        "Info Edge look-through",
+        "Billings, float and treasury"
+      ],
+      "published": "2026-10-25"
     }
   ],
   "universe": [
@@ -2480,7 +2497,7 @@
       "sector": "IT",
       "sub": "Web based media and service",
       "companies": 4,
-      "report": null
+      "report": "internet-platforms.html"
     },
     {
       "sector": "IT",
