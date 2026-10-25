@@ -65,3 +65,8 @@
 - Replace all "Linde ~26% / INOXAP ~25% / Air Liquide ~7%" text with the F&S FY24 table and CRISIL FY26 INOXAP 22.4%.
 - Add the **INOXAP IPO** to "What to watch" (SEBI observations; listing likely 2027) [E timing].
 
+
+## From primer-audit.mjs (2026-10-25, industrial-gases run) — pre-existing, not fixed
+- **linde-india.html:** FAILS hard check — banned phrase present and "honest" used more than once. Also lacks `main{min-width:0}` (phone overflow risk).
+- **refex-industries.html:** hard checks pass; lacks `main{min-width:0}` (phone overflow risk).
+- **ellenbarrie-industrial-gases.html:** hard checks pass; lacks `main{min-width:0}` (phone overflow risk).
