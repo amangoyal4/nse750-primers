@@ -77,3 +77,8 @@
   - Stainless H1-2026 **+5%**.
   - World chromite: SA 23 mt, **Turkey 9 mt**, Kazakhstan 7 mt, India 3 mt (USGS 2026).
 
+
+## From primer-audit (2026-10-31, ferro-alloys run)
+
+- **nava-limited.html:** passes the hard format checks; lacks `main{min-width:0}` (possible phone overflow); links to no sub-sector report.
+- **indian-metals-ferro-alloys.html:** same: passes the hard checks; lacks `main{min-width:0}`; links to no sub-sector report.
