@@ -24,8 +24,6 @@
 
 ## From Animal Feed & Aquaculture deep-research pass (2026-10-31, animal-feed-industry.md §4.5)
 
-## From Animal Feed & Aquaculture deep-research pass (2026-10-31, animal-feed-industry.md §4.5)
-
 **avanti-feeds.html**
 - **Attributable PAT:** state **₹606.06 Cr attributable (FY26)**, as printed in the AR MD&A, alongside ₹657 Cr including Thai Union's 40% of AFFPL. FY25 attributable: ₹528.82 Cr.
 - **Net cash:** use **~₹2,450 Cr** (AR: current investments ₹1,252 Cr + cash and bank ₹438 Cr + ₹770 Cr of term deposits with LIC, Bajaj Finance and M&M Finance, less ₹10.5 Cr borrowings). Note that the deposits sit with NBFCs and an insurer.
