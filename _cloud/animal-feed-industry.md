@@ -1061,3 +1061,617 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
 - [V-snip] Milk prices: https://www.angelone.in/news/economy/amul-and-mother-dairy-increase-milk-prices-by-2-per-litre-effective-may-14-2026 ; bird flu: https://www.thepoultrysite.com/news/2026/01/india-reports-11-h5n1-outbreaks-on-poultry-farms
 - [V-snip] Global: https://www.foodnavigator-asia.com/Article/2025/05/27/cp-foods-sees-optimistic-2025-ahead-after-642-profits-surge/ ; https://quartr.com/events/guangdong-haid-group-co-limited-002311-q4-2025_FgxL0Ae8
 - Sibling reports: subsectors/sugar.html, subsectors/agri-products.html, subsectors/edible-oil.html [V-sib]
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-31)
+
+Second, primary-source pass. About 64 web calls, all made this session (31-Oct-2026). No subagents, no logins, generic User-Agent.
+
+**Documents fetched and read this session.** The tag **[V4]** below means the figure comes from one of these, fetched today.
+- **Avanti Feeds:**
+  - Annual Report FY26 (BSE AttachHis 7892323c…, 375 pp.): balance sheet, segment note, geographic note, related-party note, contingent liabilities, MD&A, directors' remuneration. The related-party table on p. 321 was rendered to PNG to fix the column alignment.
+  - Q1 FY27 presentation (BSE ed32066e…).
+  - Q1 FY27 call transcript (27-Aug-2026; BSE a64c0c64…).
+  - **Q4 FY26 call transcript (12-Jun-2026; BSE 17beb17b…)**, which the first pass did not use.
+  - screener.in consolidated page.
+- **Godrej Agrovet:**
+  - **Annual Report FY26 (BSE AttachHis 04ba034f…; first time read)**: consolidated balance sheet, Note 51 (acquisitions), Note 47 (contingent liabilities), related-party note, list of factories, applicable-laws list.
+  - Q1 FY27 presentation (c0a53f5e…).
+  - Q1 FY27 call transcript (6-Aug-2026; 230d0818…).
+  - **Q4 FY26 call transcript (4-May-2026; a6938e6d…)**.
+  - **ICRA rationale, 28-Jul-2026 (PDF)**.
+  - screener.in consolidated page.
+- **US trade documents (govinfo PDFs plus the FederalRegister.gov API):**
+  - AD 2024–25 final (91 FR 56861).
+  - EO 14384 (91 FR 6501).
+  - CBP notice on EO 14329 (90 FR 41837).
+  - Section 122 proclamation (91 FR 9339).
+  - Section 301 presidential memorandum (91 FR 47717) and USTR notice (91 FR 47318).
+  - Ecuador CVD expedited-review final (91 FR 50765) and amended final (91 FR 58086).
+  - FR document list for "frozen warmwater shrimp", 2025–26.
+- **NOAA Fisheries FOSS trade database (ORDS API):** US imports of fresh/frozen shrimp by country, CY2024, CY2025 and Jan–Aug 2026.
+- **Other sources:**
+  - PIB release on Basic Animal Husbandry Statistics 2025 (26-Nov-2025).
+  - Text of Customs Notification 31/2026 (23-Sep-2026).
+  - CPF (Charoen Pokphand Foods) FY2025 results briefing PDF, including its India price panel.
+  - screener.in page for Venky's.
+- **Search-snippet only, tagged [V-snip]:** BioMar/Schouw 2025, Thai Union 2025, SOPA/SEA soymeal, and the AP share of shrimp output (ICRIER citing MPEDA).
+
+**Status re-confirmed today:**
+- **Neither member has reported Q2 FY27.**
+  - Screener announcements fetched today show the GAVL board meeting is **6-Nov-2026** (intimation 28-Oct) and the Avanti board meeting is **10-Nov-2026** (intimation 26-Oct).
+  - Q1 FY27 (Jun-26) remains the latest quarter for both.
+- Astec reported Q2 FY27 on 26-Oct (first pass, [V]); not re-fetched.
+
+## 4.0 Supersedes (corrections to Parts 1–3)
+
+| # | Where in Parts 1–3 | Old | New | Source (fetched today) |
+|---|---|---|---|---|
+| S1 | Trap 1, §2.1, §3.2 — Avanti attributable PAT | "~₹606 Cr" [E from EPS × shares] | **₹606.06 Cr** attributable (FY25 ₹528.82 Cr). NCI share ₹50.9 Cr. The AR MD&A labels it correctly ("Net Profit attributable to the owners… ₹606.06 crore"); only the PPT slide label is wrong | Avanti AR FY26, MD&A p. ~60 and consolidated P&L [V4] |
+| S2 | §2.1 treasury, §2.0, §3.1–3.2 — Avanti net cash | ~₹2,475 Cr (₹2,488 Cr gross incl. all "other NC financial assets") | **~₹2,450 Cr net**, built as follows:<br>• **Treasury ₹2,460 Cr:** current investments ₹1,251.8 Cr + cash ₹42.2 Cr + other bank balances ₹395.7 Cr + term deposits with LIC ₹233.1 Cr, Bajaj Finance ₹354.6 Cr and M&M Finance ₹182.8 Cr (₹770.5 Cr).<br>• **Less borrowings ₹10.5 Cr:** non-current ₹7.7 Cr + current ₹2.8 Cr; screener's ₹13 Cr adds lease liabilities.<br>• **Excluded:** security deposits ₹17.5 Cr and the strategic equity stake in PT Thai Union Kharisma Lestari ₹7.8 Cr.<br>Part of this treasury sits in AFFPL, which is 40% owned by Thai Union, so the cash attributable to Avanti shareholders is lower. AFFPL's own cash balance is not disclosed in the consolidated notes. | Avanti AR FY26 consolidated balance sheet and Note 9 [V4] |
+| S3 | §2.0, §2.2, §3.1–3.2 — GAVL net debt | ~₹1,261 Cr (borrowings ₹1,574 Cr − CRISIL ₹313 Cr) | **Net debt ₹1,156 Cr excluding leases**, built as follows:<br>• Borrowings ₹1,468.4 Cr (non-current ₹816.65 Cr + current ₹651.78 Cr).<br>• Less cash ₹298.61 Cr + other bank balances ₹3.45 Cr + current investments ₹10.00 Cr = ₹312.1 Cr.<br>• Including lease liabilities (₹105.65 Cr), the figure is ₹1,262 Cr; screener's ₹1,574 Cr already includes leases.<br>ICRA gives "cash and liquid investments ₹326 Cr" (consolidated, Mar-26). **Use ₹1,156 Cr (ex-lease) with OP-based EV/EBITDA, or ₹1,262 Cr when leases sit in EV**; the first-pass ₹1,261 Cr was the lease-inclusive number by coincidence. | GAVL AR FY26 consolidated balance sheet and cash-flow note 3 [V4]; ICRA 28-Jul-2026 [V4] |
+| S4 | Trap 2, §2.0 — GAVL attributable PAT | ~₹472 Cr [E] | **₹472.78 Cr** (FY25 ₹429.72 Cr) | GAVL AR consolidated P&L [V4] |
+| S5 | Still-listed item 2, §G-20, §3.3, §3.4 — Creamline buyout | "remaining ~48% bought April 2025 for ~₹930 Cr" | **36.79% bought in Q1 FY26 (Apr–Jun 2025) for ₹708.58 Cr, plus 0.46% in Q2 FY26 for ₹8.93 Cr; stake 62.53% → 99.78% at Mar-26; the remaining 0.22% is "in process".** Board resolution dated 11-Mar-2025. The ~₹930 Cr / 48% figures were press estimates for the whole minority. FY26 equity hit: "acquisition of NCI without change in control" **₹616.33 Cr** (matches CRISIL's ₹616 Cr). Cash outflow on NCI acquisitions FY26: ₹717.51 Cr. | GAVL AR Note 51(b), directors' report, SOCE, cash-flow statement [V4]; ICRA Annexure-2 (99.78%) [V4] |
+| S6 | Still-listed item 3, §2.4-12, §3.3, §3.4 — Godrej Tyson buyout | "bought out Tyson's 49% in FY26" (primer); "not re-verified" | **49% bought for ₹323.16 Cr in FY25; Godrej Foods Ltd has been a wholly owned subsidiary since 27-Aug-2024.** FY25 equity hit through the NCI reserve: ₹371.24 Cr. | GAVL AR Note 51(a) and SOCE [V4]; ICRA ("Godrej Foods Limited (erstwhile Godrej Tyson Foods Limited)… wholly-owned") [V4] |
+| S7 | Still-listed item 4, §2.4-10 — Astec stake | 67.03% [V-snip] | **67.03% [V4].** GAVL subscribed ₹199.01 Cr in Astec's ₹249.35 Cr rights issue (₹890/share; allotted 29-Jul-2025); stake went from 64.75% (Mar-25) to 67.03% (Mar-26). | GAVL AR Note 51(c); ICRA Annexure-2 [V4] |
+| S8 | §2.3, §E-7, §H-6 — US shrimp imports 2025 | Total 795,641 t; India 300,051 t (38%); Ecuador 231,804 t; India Oct-25 −57% [V-snip] | **NOAA, fresh/frozen shrimp excluding canned:**<br>• **Total 782,730 t (+3.2%), US$6.60 bn.**<br>• **India 293,053 t, 37.4% of volume (−0.2%), US$2.38 bn (36.0% of value).**<br>• **Ecuador 230,448 t (+23.3%).**<br>• Indonesia 118,674 t (−11.7%); Vietnam 63,020 t (−7.8%).<br>• **India Oct-2025: 12,392 t vs 30,421 t (−59%).**<br>The ~1.6% gap to the trade-press total is product scope: canned shrimp and some prepared lines. | NOAA FOSS API [V4] |
+| S9 | Trap 8, §7.1, §E-9 — US tariff timeline | "cut to 18% in Feb-2026 under the deal"; Sec 122 and Sec 301 only from the orchestrator brief | **Federal Register sequence (each verified):**<br>• **Russia-oil 25% (EO 14329):** effective 12:01 am EDT 27-Aug-2025 (90 FR 41837); removed effective 12:01 am EST **7-Feb-2026** (EO 14384 of 6-Feb-2026, 91 FR 6501).<br>• **No FR document implements an "18%" India reciprocal rate.** The 18% is the announced deal rate (Avanti AR); IEEPA collection ended 24-Feb-2026 after the SCOTUS ruling of 20-Feb.<br>• **Section 122:** 10% surcharge **24-Feb-2026 → 24-Jul-2026** (proclamation signed 20-Feb-2026, 91 FR 9339; 150 days).<br>• **Section 301:** 10% on India **from 12:01 am 24-Jul-2026** (USTR notice 91 FR 47318; presidential memo of 23-Jul-2026, 91 FR 47717). This is the *forced-labour-import* Section 301 covering 60 economies. India was moved from the 12.5% tier to 10% after adopting a forced-labour import ban. **Ecuador, Indonesia, Mexico and Canada are also at 10%**, so there is tariff parity among the main shrimp suppliers. | FR via govinfo [V4] |
+| S10 | §7.1 "Ecuador: AD outcome — VERIFY" | AD on Ecuador unclear | **No AD order on Ecuadorian shrimp.** The 2024 cases produced CVD orders on Ecuador, India and Vietnam plus an AD order on Indonesia (89 FR 104982, **26-Dec-2024**; this also dates India's CVD order).<br>Ecuador CVD expedited review (POR CY2022): Empacadora del Pacífico 15.18%, Nirsa/Procesadora Posorja 2.23%, Propemar 2.25% (final 6-Aug-2026, 91 FR 50765; amended 14-Sep-2026, 91 FR 58086).<br>India's stack (AD 5.53% + CVD 5.77% + Sec 301 10%) exceeds that of a low-rate Ecuadorian exporter (CVD ~2.2% + Sec 301 10%) by ~9 points. | FR [V4] |
+| S11 | §E-9 duty-stack dataset, Feb-2026 row | "Feb-2026 (deal 18%) + AD 3.76 = 27.5%" | **7-Feb → 23-Feb-2026:** reciprocal 25% (18% only if the deal rate was applied administratively; no FR evidence) + CVD 5.77% + AD 3.76% (from 9-Feb) ≈ **34.5%** (≈27.5% on the 18% assumption). **24-Feb → 23-Jul-2026: 19.5%** (Sec 122 10% + 5.77 + 3.76). **24-Jul → 3-Sep: 19.5%** (Sec 301 10% replaces Sec 122). **From 4-Sep-2026: 21.3%** (AD 5.53%). | FR [V4]; arithmetic [E] |
+| S12 | §7.2 GST bullet | fishmeal "exempt" [K, FLAG] | Per Avanti's JMD: "**5% GST is applicable for local purchase of fish meal, whereas there is no GST on exports**"; India exports ~75% of its fishmeal, and there are also export incentives. This is a management statement, not a gazette check, but it supersedes the [K] "exempt". Compound feed itself remains nil-rated [K — not re-verified]. | Avanti Q4 FY26 call, 12-Jun-2026 [V4] |
+| S13 | §3, §H-10 — milk | 239.3 mt (2023-24) [K]; ~470 g/day | **247.87 mt in 2024-25 (+3.58%)**; per-capita **485 g/day**. Top 5 states: UP 15.66%, Rajasthan 14.82%, MP 9.12%, Gujarat 7.78%, Maharashtra 6.71%. | PIB, BAHS 2025, 26-Nov-2025 [V4] |
+| S14 | §7.4 CPO duty | "16.5% → 11.0% from 24-Sep-2026 (Notif. 31/2026)" [V-sib] | **Confirmed; mechanism:** basic customs duty on crude palm oil **10% → 5%** (effective ≈11% after AIDC/SWS); crude soy 10% → 5%; crude sunflower 10% → nil; RBD palm and refined soy 32.5% → 27.5%; refined sunflower 32.5% → 22.5%. Amends 45/2025-Customs (24-Oct-2025); notification dated 23-Sep-2026, effective 24-Sep. | Notification text [V4] |
+| S15 | §4.3 "GAVL feed capacity — ~30+ plants [K, FLAG]" | ~30+ plants | Per the AR list ("including but not limited to"):<br>• **14 Animal Nutrition plants:** Khanna, Ikolaha, Kharagpur, Khurda, Chandauli, Unnao, Hajipur, Erode, Tumkur, Bundi, Medchal, Miraj, Nashik, Dhule.<br>• **2 aqua-feed plants:** Hanuman Junction (AP) and Barabanki (UP); aqua feed also started at the Bani unit.<br>• **6 palm mills:** Chintalapudi, Seethanagaram, Ch. Pothepalli (AP); Varanavasi (TN); Kolasib (Mizoram); Valpoi (Goa).<br>• 2 crop-care plants.<br>ICRA: plantations "across nine states", "six manufacturing facilities across four states". | GAVL AR FY26, Directors' report §5 and corporate information [V4]; ICRA [V4] |
+| S16 | Trap 5, §9.1 — GAVL species mix | "aqua/shrimp feed likely <10% of tonnes [E]" | CEO (6-Aug-2026): **cattle feed is "55%, 56%" of the Animal Nutrition business; fish feed "roughly around 7%", growing "20% plus"** (ahead of cattle). Shrimp is not split out. | GAVL Q1 FY27 call [V4] |
+| S17 | Still-listed item 1, §G-29 — when shrimp feed was put under review | "announced with Q1 FY27, 5-Aug-2026" | **First announced on the Q4 FY26 call, 4-May-2026:** "businesses that we're putting up for strategic review right now are our **Shrimp business, our Seeds business, our Cattle Genetics business**". The 5-Aug PPT repeated it. | GAVL Q4 FY26 transcript [V4] |
+| S18 | §4.1, §E-5 — Avanti Q4 FY26 input costs | Q4 FY26 fishmeal ₹123/kg, SBM ₹49/kg (as quoted on the Q1 call) | **Conflict between the two calls.**<br>• Q4 call (12-Jun-2026): Q4 FY26 average consumption fishmeal **₹130**/kg (Q3 FY26 ₹117; Q4 FY25 ₹91), SBM **₹55** (₹44; ₹41), wheat flour ₹31 (₹32; ₹36). Spot on 12-Jun: fishmeal ₹230, SBM ₹72, wheat ₹30.<br>• Q1 call (27-Aug) restates Q4 as ₹123 / ₹49.<br>Use ₹130/₹55 for Q4 (contemporaneous) and flag it; Q1 FY27 figures (₹153/₹58) are unaffected. | Avanti Q4 and Q1 transcripts [V4] |
+| S19 | §9.3, §B2 — pricing history | one ~10% hike on 19-Jun-2026 | **Two hikes:** one in **Feb-2026** (only one month's partial effect in Q4) and **~10% from 19-Jun-2026**. Earlier, a ₹4/kg cut in Apr-2025. | Avanti Q4 and Q1 calls [V4] |
+| S20 | §0, §E-8, §H-17 — Avanti US exposure | N. America share from PDF pies (ordering doubtful) | **Geographic revenue note (consolidated):**<br>• **USA ₹1,050.7 Cr in FY26 vs ₹738.1 Cr in FY25 (+42%)**; rest of world ₹528.7 Cr (₹361.8 Cr); India ₹4,486.4 Cr (₹4,512.4 Cr).<br>• **USA = 17.3% of revenue and 66.5% of non-India revenue (FY25 67.1%)**, which confirms the ~68–70% pie values for FY25/FY26.<br>• The US share of export revenue held up in FY26 because AFFPL is the US importer of record and sells DDP. | Avanti AR FY26 segment note (geography) [V4] |
+| S21 | §2.2, §H-5 — India shrimp output | 8–9 LT (Avanti CY2026e) is the only figure | Avanti's estimate stands as the company basis, but an **official series is higher: MPEDA 2023-24 ≈ 1.08 mmt, with Andhra Pradesh ≈ 82%** [V-snip ICRIER citing MPEDA]. The bases differ (MPEDA covers all culture shrimp, incl. monodon and scampi, on a fiscal year). | Snippet; flag |
+| S22 | §2.3 — India's share of US volume | "38% vs 33% — different bases" | **Resolved:**<br>• 37.4% = US import share, calendar 2025 (NOAA).<br>• 33% = **US share of India's FY26 frozen-shrimp exports**: 2,56,128 t of 7,92,647 t (MPEDA via Avanti, Q4 call).<br>The two answer different questions. | NOAA [V4]; Avanti Q4 call [V4] |
+| S23 | §3.2(a) aggregates — combined net debt | (₹1,214 Cr) net cash | **(₹1,294 Cr) net cash ex-lease** (Avanti −2,450 + GAVL +1,156); ≈(₹1,188 Cr) lease-inclusive. Aggregate EV ≈ ₹18,324 Cr ex-lease → **11.4× FY26 OP (unchanged to one decimal)**. | arithmetic on S2/S3 [E] |
+
+## 4.1 Verification table (40 figures the writer will use)
+
+Columns:
+- **Fetched today?** — V4 = primary document fetched this session; V-snip = snippet only; E = arithmetic on V4 inputs.
+- **Agrees with Parts 1–3?** — Y = agrees; N → S# = superseded (see §4.0); New = not in Parts 1–3.
+
+| # | Figure | Value | Primary source (URL / doc) | Fetched today? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Avanti FY26 consolidated revenue | ₹6,065.86 Cr (+8.3%) | Avanti AR FY26, MD&A — bseindia.com/xml-data/corpfiling/AttachHis/7892323c-b5af-416a-a8b5-e3d996f58486.pdf | V4 | Y |
+| 2 | Avanti FY26 PAT attributable to owners | ₹606.06 Cr (FY25 ₹528.82 Cr) | same, MD&A and consolidated P&L | V4 | Y (was [E]) → S1 |
+| 3 | Avanti FY26 PAT incl. NCI / NCI share | ₹656.8 Cr / ₹50.9 Cr | same | V4 | Y |
+| 4 | Avanti net cash (Mar-26) | ~₹2,450 Cr (treasury ₹2,460 Cr − borrowings ₹10.5 Cr) | same, consolidated balance sheet and Note 9 | V4 | N → S2 (was ₹2,475 Cr) |
+| 5 | Avanti EV/OP FY26 (TTM) | ~8.7× (10.2×): EV ₹6,524 Cr = m-cap ₹8,974 Cr − ₹2,450 Cr | screener.in/company/AVANTIFEED/consolidated + #4 | E on V4 | Y |
+| 6 | Avanti feed sales FY26 / Q1 FY27 | 5,62,060 t / 1,93,852 t (+17.1%) | Q4 FY26 call (BSE 17beb17b…) and Q1 PPT (BSE ed32066e…) | V4 | Y |
+| 7 | Avanti feed capacity / utilisation | 7,75,000 t/yr, five plants / ~73% (production 5,67,986 t) | AR FY26 highlights | V4 | Y |
+| 8 | Avanti shrimp-feed share | ~51–53% (company); 47–51% on 11–12 LT consumption (Q1 call) | AR FY26; Q1 call (BSE a64c0c64…) | V4 | Y |
+| 9 | Avanti feed EBITDA margin Q1 FY27 (Q1 FY26) | 7.5% (18.8%); feed PBT 7.06% of revenue | Q1 PPT; Q1 call | V4 | Y |
+| 10 | Fishmeal average consumption cost | Q1 FY26 ₹93 → Q4 FY26 ₹130 (Q4 call) or ₹123 (Q1 call) → Q1 FY27 ₹153; spot ₹225–230/kg | Q4 and Q1 calls | V4 | Partly → S18 |
+| 11 | Avanti feed price actions | −₹4/kg Apr-2025; hike Feb-2026; ~+10% 19-Jun-2026 | Q4 and Q1 calls | V4 | Partly → S19 |
+| 12 | Avanti US revenue FY26 (FY25) | ₹1,050.7 Cr (₹738.1 Cr); 66.5% of non-India revenue | AR FY26, geographic segment note | V4 | New → S20 |
+| 13 | Avanti royalty to Thai Union Feed Mill | ₹7.87 Cr FY26 (₹7.96 Cr) | AR FY26, related-party note (standalone and consolidated) | V4 | New |
+| 14 | Avanti whole-time directors' remuneration (consolidated) | ₹103.6 Cr FY26 (₹90.2 Cr), mostly commission on profits | AR FY26, related-party note p. 321 (image-checked); remuneration table p. 163 | V4 | New |
+| 15 | Avanti contingent liabilities | ₹25.27 Cr (₹4.93 Cr), incl. **US AD duty ₹17.70 Cr** (POR Feb-2023 to Jan-2024) | AR FY26 consolidated Note 33 | V4 | New |
+| 16 | Avanti IEEPA refund claim | US$15–20 mn; AFFPL is the importer of record; CAPE refund portal opened 20-Apr-2026; refunds held while AD/CVD reviews (12–18 months) suspend liquidation | AR FY26 MD&A; Q4 and Q1 calls | V4 | Y |
+| 17 | GAVL FY26 PAT attributable to owners | ₹472.78 Cr (FY25 ₹429.72 Cr) | GAVL AR FY26 — bseindia.com/xml-data/corpfiling/AttachHis/04ba034f-b9a6-4c77-a847-dd8023abe118.pdf | V4 | Y (was [E]) → S4 |
+| 18 | GAVL borrowings / cash / net debt (Mar-26) | ₹1,468.4 Cr ex-lease (₹1,574.1 Cr incl. leases) / ₹312.1 Cr / **₹1,156 Cr** (₹1,262 Cr incl. leases) | GAVL AR consolidated balance sheet | V4 | N → S3 |
+| 19 | GAVL cash and liquid investments (ICRA basis) | ₹326 Cr; undrawn WC lines ~₹97 Cr (May-26); debt repayment ₹298 Cr FY27, ₹620 Cr FY28; TD/OPBDITA 1.8× | ICRA rationale, 28-Jul-2026 — icra.in/Rating/GetRationalReportFilePdf?Id=144557 | V4 | New |
+| 20 | GAVL EV/OP FY26 | ~13.7× ex-lease (EV ₹11,800 Cr); 13.8× incl. leases | screener + #18 | E on V4 | Y |
+| 21 | Creamline minority buyout | 36.79% for ₹708.58 Cr (Q1 FY26) + 0.46% for ₹8.93 Cr; 62.53% → 99.78% | GAVL AR Note 51(b); directors' report | V4 | N → S5 |
+| 22 | Equity hit from NCI buyouts | ₹616.33 Cr FY26 (Creamline); ₹371.24 Cr FY25 (GFL) | GAVL AR, consolidated SOCE | V4 | Y (₹616 Cr) / New (₹371 Cr) |
+| 23 | Godrej Tyson → Godrej Foods buyout | 49% for ₹323.16 Cr; wholly owned from 27-Aug-2024 | GAVL AR Note 51(a); ICRA | V4 | N → S6 |
+| 24 | GAVL stake in Astec | 67.03% (64.75% Mar-25); ₹199.01 Cr rights subscription | GAVL AR Note 51(c); ICRA Annexure-2 | V4 | Y (upgraded) → S7 |
+| 25 | GAVL Animal Nutrition EBIT/t guidance | ₹2,050–2,200/t (FY26 actual ₹2,107/t) | GAVL Q1 FY27 call (BSE 230d0818…) | V4 | New |
+| 26 | GAVL feed species mix | cattle ~55–56% of Animal Nutrition; fish ~7% (+20%+) | GAVL Q1 FY27 call | V4 | N → S16 |
+| 27 | GAVL plant footprint | 14 Animal Nutrition + 2 aqua feed + 6 palm mills + 2 crop care | GAVL AR FY26 directors' report §5 | V4 | N → S15 |
+| 28 | GAVL oil-palm area and plan | ~80,000 ha → ~1,50,000 ha in 4–5 yrs; +17,000 ha in FY26; ~50% juvenile; plantations in 9 states, 6 mills in 4 states | GAVL Q1 call; ICRA | V4 | Y |
+| 29 | US AD cash deposit, AFFPL (non-examined) | 5.53% (Devi 4.04%, Sandhya 7.01%; all-others 10.17%) | 91 FR 56861, 4-Sep-2026 (govinfo FR-2026-09-04/pdf/2026-18184.pdf) | V4 | Y |
+| 30 | US CVD on India, all others | 5.77%; order 26-Dec-2024 (89 FR 104982) | CVD final 89 FR 85502 (first pass V); order citation in 91 FR 50765 | V4 (order date) | Y |
+| 31 | IEEPA Russia-oil 25% on India | on 27-Aug-2025; off 7-Feb-2026 | 90 FR 41837; EO 14384 (91 FR 6501) | V4 | Y (adds the end date) |
+| 32 | Section 122 surcharge | 10%, 24-Feb-2026 → 24-Jul-2026 | 91 FR 9339 (proclamation signed 20-Feb-2026) | V4 | Y (was brief-only) |
+| 33 | Section 301 on India | 10% from 24-Jul-2026 (forced-labour Sec 301; Ecuador and Indonesia also 10%) | 91 FR 47318 (USTR notice); 91 FR 47717 (memo) | V4 | Y (was brief-only) → S9 |
+| 34 | Duty stack on Avanti: today vs Aug-2025 peak | 21.3% (5.53 + 5.77 + 10) vs ≈56–57% (25 + 25 + 5.77 + ~1.35 AD) | #29–33; the ~1.35% pre-Feb-2026 AD rate is still [V-snip] | E on V4 | Y |
+| 35 | US shrimp imports CY2025 | 782,730 t, US$6.60 bn; India 293,053 t (37.4%); Ecuador 230,448 t (29.4%) | NOAA FOSS API (apps-st.fisheries.noaa.gov/ods/foss/trade_data) | V4 | N → S8 |
+| 36 | US shrimp imports Jan–Aug 2026 | Ecuador 196,171 t (36.2%, +33%) **> India 180,019 t (33.2%, −17.6%)** | NOAA FOSS | V4 | New |
+| 37 | India frozen-shrimp exports FY26 | 7,92,647 t, US$5,624.5 mn. Markets (t): US 2,56,128; China 1,69,505; EU 1,35,599; SE Asia 83,810; Japan 40,776; Middle East 30,478; others 76,351 | MPEDA via Avanti Q4 call (12-Jun-2026) | V4 (company quoting MPEDA) | Y (adds tonnes) |
+| 38 | Ecuador CVD rates (expedited review) | Edpacif 15.18%; Nirsa 2.23%; Propemar 2.25% | 91 FR 50765; 91 FR 58086 | V4 | New |
+| 39 | India milk output 2024-25 | 247.87 mt (+3.58%), 485 g/day; eggs 149.11 bn; poultry meat 5.18 mt | PIB 26-Nov-2025 (PRID 2195049) | V4 | N → S13 |
+| 40 | CPO import duty cut | crude palm BCD 10% → 5% (effective ~11%) from 24-Sep-2026 | Notification 31/2026-Customs (23-Sep-2026) | V4 | Y (mechanism added) |
+
+**Count.** 37 of 40 figures come directly from primary documents fetched and read today (V4). The other 3 (#5, #20, #34) are arithmetic on V4 inputs; #34 still carries one [V-snip] input. Two caveats inside the 37: #30 is V4 for the order date only (its 5.77% rate comes from the first pass's FR fetch), and #37 is the company quoting MPEDA rather than MPEDA itself.
+
+**Conflicts resolved:**
+- #10: the two Avanti calls disagree on Q4 FY26 input costs. Prefer the Q4 call, which was contemporaneous.
+- #18 vs CRISIL vs ICRA on GAVL cash (₹312 / ₹313 / ₹326 Cr). Prefer the audited balance sheet (₹312 Cr). ICRA's ₹326 Cr probably adds the non-current investments.
+- #35 vs SeafoodSource. Prefer NOAA, which is the primary database; the press number includes canned shrimp.
+
+**Still [V-snip] or [K]; do not use as headline figures without the label:**
+- Alltech species split.
+- Ecuador's 2025 exports of US$7.47 bn.
+- The ~1.35% AD rate before Feb-2026.
+- AP's ~82% share of shrimp output.
+- BioMar, Thai Union and Haid figures.
+- SBM port prices.
+
+## 4.2 Company deep-dives
+
+### 4.2.1 Avanti Feeds (AVANTIFEED · 512573)
+
+**(a) What management said: guidance digest (paraphrased; source and date on each line)**
+
+*Q4 FY26 call, 12-Jun-2026 (BSE 17beb17b…):*
+1. **Volume and market.** Management expects CY2026 Indian shrimp output of 8–9 LT and feed consumption of 11–12 LT. **The FY27 feed-volume guide was ~5,80,000 t** (FY26: 5,62,060 t). Shrimp culture was "progressing without much hurdles", the export market was "promising" and farm-gate prices were "stable to the expectations of the farmers".
+2. **Input shock, as it started.**
+   - Fishmeal "doubled from ₹100 to ₹240 in a span of two months, May and June"; SBM was up ~45%.
+   - Management blames the Gulf war, a severe El Niño threat and a soybean crop that was 13 LT short.
+   - The soybean MSP was raised ₹380 to **₹5,708/qtl**.
+   - ~75% of Indian fishmeal is exported, helped by export incentives; local purchases attract 5% GST while exports carry none.
+   - Avanti, the Feed Manufacturers Association and CLFMA are lobbying to limit fishmeal exports, withdraw the incentives and allow time-bound SBM imports (as done once before).
+3. **Pricing.** A hike was taken in **Feb-2026**, with little effect in Q4. "Another price increase" was to follow "in the next few days" (it came on 19-Jun).
+4. **FY26 feed profitability.** Feed PBT was ₹715 Cr = **15.5% of revenue** (FY25: ₹658 Cr, 14.34%). Gross income was ₹4,538 Cr, down ₹11 Cr, after the Apr-2025 price cut.
+5. **Processing.**
+   - FY26 gross income ₹1,741 Cr (+43%); PBT ₹178 Cr (₹86 Cr); exports 16,976 t.
+   - **FY27 target ~19,000 t** — "it has to be built step by step". Installed processing capacity of 26,000–28,000 t is seasonal and overstates usable capacity.
+   - **"We don't foresee any big capex in the next two years."**
+6. **US trade.**
+   - AFFPL is the **importer of record**. It has opened a US bank account for refunds and estimates **US$15–20 mn** of IEEPA refunds.
+   - IEEPA collection stopped from 24-Feb-2026 and Sec 122 10% applied for up to 150 days.
+   - Refunds will flow only once AD/CVD liquidation suspensions lift, "over the next 12–18 months".
+7. **India seafood.** India's FY26 seafood exports were a record **US$8.546 bn**; frozen shrimp was 66% of value.
+8. **Pet food.** Monthly volume rose from 53 t to ~100 t; the goal is 800 t; 31 distributors in 13 cities; products are imported from Thailand until the Hyderabad plant is built.
+
+*Q1 FY27 call, 27-Aug-2026 (BSE a64c0c64…):*
+1. **FY27 feed volume raised to ~5,85,000 t.** Q1 was 1,93,852 t (+17%), so the guide implies only ~3.9 LT over the next three quarters vs 3.96 LT a year ago, i.e. a flat-to-down H2.
+2. **Cost and margin.**
+   - Average consumption costs: fishmeal ₹153/kg, SBM ₹58, wheat flour ₹28. Spot: ₹225 / ₹71 / ₹33.
+   - Feed PBT 7.06% of revenue (Q4 13%, Q1 FY26 17%).
+   - Management "expected to stabilize… upon arrival of fresh crops", helped by a "favourable monsoon" that should ease El Niño effects.
+3. **Price hike ~10% on 19-Jun-2026.** Asked whether Q2 "can be again a larger pain point", the JMD answered **"Yes"**.
+4. **Regulation.**
+   - "Governments have say in prices because of the various statutes… in Andhra Pradesh."
+   - The AP government has **constituted a committee with a Big-4 consultant** to design a price mechanism that indexes feed prices to fishmeal, SBM and wheat flour. Stakeholders are "acceptable to that kind of a formulation".
+   - The relevant statutes, per GAVL's AR list, are the **AP Animal Feed (Regulation of Manufacture, Quality Control, Sale & Distribution) Act 2020** and the **AP Fish Feed (Quality Control) Act 2020**.
+5. **Formulation.** Avanti is reformulating to "mitigate the usage of the raw material" without hurting FCR.
+6. **Processing.** Q1 PBT ₹45 Cr (Q1 FY26 ₹25 Cr) on better ASP, FX and other income. Volume fell 16%. ASP fell vs Q4 "following the withdrawal of reciprocal tariffs effective from 24 February", because a DDP price that included the tariff came down.
+7. **Refunds.** Entries have been declared, but CBP "will not process" them while AD/CVD reviews are suspended.
+8. **Pet food.** Capex ~₹175 Cr, of which ₹25 Cr was spent on land. Consent for Establishment has been applied for.
+
+**(b) Concall KPI table**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | FY26 | Guide FY27 | Source |
+|---|---|---|---|---|---|---|
+| Feed sales (t) | 1,65,564 | 1,23,725 | 1,93,852 | 5,62,060 | ~5,85,000 (Aug) / ~5,80,000 (Jun) | calls [V4] |
+| Feed gross income (₹ Cr, standalone) | 1,279 | 1,069 | 1,615 | 4,538 | — | calls |
+| Feed PBT (₹ Cr) / % of revenue | 224 / 17% | 139 / ~13% | 114 / 7.06% | 715 / 15.5% | Q2 "larger pain point" | calls |
+| Fishmeal avg consumption (₹/kg) | 93 | 130 (Q4 call) / 123 (Q1 call) | 153 | — | spot 225–230 | calls |
+| SBM (₹/kg) | 40 | 55 / 49 | 58 | — | spot 71–72 | calls |
+| Wheat flour (₹/kg) | 31 | 31 | 28 | — | spot 30–33 | calls |
+| Processing gross income (₹ Cr) | 378 | 446 | 350 | 1,741 | — | calls |
+| Processing PBT (₹ Cr) | 25 | 48 | 45 | 178 | — | calls |
+| Shrimp exports (t) | 4,223 | — | 3,520 | 16,976 | ~19,000 | PPT, calls |
+| Consolidated PBT (₹ Cr) | 249 | 184 | 157 | 893 (pre-exceptional) | — | calls; AR |
+| Pet food sales (₹ lakh) | — | 151 | 180 | 421 | 800 t | calls |
+
+**(c) Five-year history (screener consolidated; ₹ Cr) [V4 screener 31-Oct-2026]**
+
+| FY | Revenue | OP | OPM | Other income | PAT (incl. NCI) | PAT attributable | EPS ₹ | ROCE | CFO | Working-capital days |
+|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 5,036 | 314 | 6% | 54 | 245 | ~222 [E: EPS × 13.62 cr] | 16.26 | 15% | −212 | 57 |
+| FY23 | 5,087 | 395 | 8% | 79 | 312 | ~279 [E] | 20.45 | 18% | 451 | 45 |
+| FY24 | 5,369 | 460 | 9% | 136 | 394 | ~357 [E] | 26.21 | 20% | 260 | 48 |
+| FY25 | 5,599 | 634 | 11% | 166 | 557 | **528.8 [V4 AR]** | 38.81 | 24% | 584 | 39 |
+| FY26 | 6,066 | 750 | 12% | 199 | 657 | **606.1 [V4 AR]** | 44.48 | 24% | 505 | 38 |
+| CAGR FY22–26 | 4.8% | 24.3% | — | — | 28.0% | ~28.6% | — | — | — | — |
+
+- Also: inventory days 85 / 71 / 75 / 75 / 79; dividend payout 38% / 31% / 26% / 23% / 22%.
+- FCF (screener): −267 / 292 / 129 / 437 / 427.
+
+**(d) Last eight quarters (screener consolidated; ₹ Cr) plus company feed KPIs**
+
+| Quarter | Sales | OP | OPM | Other income | PAT (incl. NCI) | EPS ₹ | Feed t (co.) | Feed EBITDA % (co., incl. OI) | Processing EBITDA % (co.) |
+|---|---|---|---|---|---|---|---|---|---|
+| Sep-24 (Q2 FY25) | 1,355 | 136 | 10% | 42 | 121 | 8.34 | 1,34,897 | 13.6 | 11.4 |
+| Dec-24 (Q3 FY25) | 1,366 | 160 | 12% | 39 | 141 | 9.92 | 1,32,049 | 16.5 | 8.3 |
+| Mar-25 (Q4 FY25) | 1,382 | 177 | 13% | 50 | 157 | 11.14 | 1,29,711 | 19.4 | 7.6 |
+| Jun-25 (Q1 FY26) | 1,606 | 214 | 13% | 51 | 186 | 13.09 | 1,65,564 | 18.8 | 9.1 |
+| Sep-25 (Q2 FY26) | 1,609 | 193 | 12% | 50 | 169 | 11.25 | 1,54,644 | 15.8 | 13.5 |
+| Dec-25 (Q3 FY26) | 1,384 | 176 | 13% | 63 | 163 | 10.96 | 1,18,127 | 19.0 | 13.5 |
+| Mar-26 (Q4 FY26) | 1,468 | 165 | 11% | 35 | 139 | 9.18 | 1,23,725 | 13.8 | 13.2 |
+| **Jun-26 (Q1 FY27)** | **1,900** | **106** | **6%** | **66** | **116** | **7.58** | **1,93,852** | **7.5** | **16.0** |
+
+- **Read:** OPM peaked at 13% in Q4 FY25–Q1 FY26 and roughly halved within four quarters.
+- Q2 FY27 (board 10-Nov) has the hardest comparison: Sep-25 OP was ₹193 Cr, against management's "Yes" to a weaker Q2.
+- For scale: Q2 FY26 feed volume was 1,54,644 t at a 15.8% feed EBITDA margin. If Q2 FY27 feed EBITDA/t falls to ~₹4,500–6,000 (from Q1's ₹6,094), feed EBITDA on a similar ~1.5 LT would be ~₹70–90 Cr [E; ILLUSTRATIVE].
+
+**(e) Annual-report findings (AR FY26, fetched today)**
+
+1. **Balance sheet and treasury (S2).**
+   - Consolidated equity ₹3,708 Cr, of which owners ₹3,286 Cr and NCI ₹421.9 Cr.
+   - Treasury ₹2,460 Cr, of which ₹770 Cr is in **NBFC/insurer term deposits** (LIC ₹233 Cr, Bajaj Finance ₹355 Cr, M&M Finance ₹183 Cr). This is credit exposure to NBFCs, a point worth a sentence.
+   - Other bank balances fell from ₹872.5 Cr to ₹395.7 Cr as money moved into term deposits and mutual funds (current investments rose ₹812.7 Cr → ₹1,251.8 Cr).
+   - Inventories ₹940 Cr (₹881 Cr).
+   - Deferred-tax liability ₹23 Cr; borrowings ₹10.5 Cr.
+2. **Segment and geography.**
+   - Feed segment revenue ₹4,366.8 Cr, result ₹558.5 Cr. Processed shrimp revenue ₹1,689.5 Cr, result ₹128.3 Cr (first pass, re-confirmed).
+   - **Geography:** India ₹4,486.4 Cr; USA ₹1,050.7 Cr (+42%); rest of world ₹528.7 Cr (+46%). Non-current assets in the US are ₹14.4 Cr (AFFPL's US importing presence).
+   - "No customer >10% of revenue."
+3. **Related parties.**
+   - **Royalty to Thai Union Feed Mill ₹7.87 Cr** (0.18% of feed revenue). This is the technical-collaboration fee and is immaterial.
+   - Fish feed bought from TUFM ₹0.55 Cr. Dividend paid to Thai Union Group ₹18.9 Cr.
+   - **Sales of products to "entities having significant influence" (the Thai Union group, incl. Tri-Union/Chicken of the Sea and Thai Union China) fell from ₹334.8 Cr (FY25) to ₹12.8 Cr (FY26).**
+   - **Sales to "entities over which KMP has significant influence" rose from ~nil to ₹420.2 Cr.**
+   - The p. 321 table was checked as an image, so the alignment is correct. Who the ₹420 Cr counterparty is cannot be identified from the note. The list of such entities includes Sanjeev Agro-Vet (a promoter holding company), RBS-TU Food Ingredients and SEALUXE B.V.; the AR says SEALUXE had **no turnover** in FY26. **Writer: flag as "AR related-party note shows ₹420 Cr of FY26 sales to KMP-related entities, while sales to the Thai Union group dropped; Avanti has not explained the shift." Do not speculate on the counterparty.**
+4. **Directors' pay.**
+   - Consolidated whole-time-director remuneration was **₹103.6 Cr in FY26 (₹90.2 Cr)**, about **17% of attributable PAT**.
+   - Standalone: CMD A. Indra Kumar ₹52.1 Cr (commission ₹45.7 Cr); JMD C. Ramachandra Rao ₹33.9 Cr (commission ₹30.5 Cr); ED A. Venkata Sanjeev ₹9.8 Cr.
+   - Non-executive commission is ₹1 Cr in total. Commission paid to Thai Union Group PCL and APIDC is payable to those institutions, not to their nominee directors.
+5. **Contingent liabilities ₹25.27 Cr (₹4.93 Cr).**
+   - Includes **US anti-dumping duty ₹17.70 Cr for POR 1-Feb-2023 to 31-Jan-2024**, at the US Department of Commerce. This is the 2023–24 review that raised the cash deposit to 3.76%; the 2024–25 review (5.53%) will add more.
+   - Also: CGST ₹2.63 Cr; GAIL supply dispute ₹2.96 Cr (Supreme Court).
+6. **Capacity and capex.**
+   - Feed capacity 7,75,000 t, five ISO/BAP plants; processing 26,000–28,000 t, three plants; hatchery 600 mn PL.
+   - Additions to fixed assets ₹130.4 Cr (FY25 ₹156.0 Cr).
+   - "No big capex in the next two years" apart from pet food (~₹175 Cr, production 2028).
+7. **Risks (MD&A).** El Niño and fishmeal; the 50% US tariff in FY26; West Asia freight and insurance; disease after heavy rain in Q2 FY26; AP feed-price regulation; working-capital (inventory) risk. Market expansion named in the AR: Japan, Korea, EU, Middle East and Canada.
+
+### 4.2.2 Godrej Agrovet (GODREJAGRO · 540743)
+
+**(a) What management said: guidance digest**
+
+*Q4 FY26 call, 4-May-2026 (transcript filed 8-May; BSE a6938e6d…):*
+1. **FY27 group guidance (CEO Sunil Kataria):**
+   - **"Early double-digit" consolidated revenue growth** and **"mid-teens" PBT growth**, with the "Iran war" named as the overhang.
+   - Animal Nutrition: double-digit, volume-led revenue growth.
+   - Crop Care: a "recovery" year. Creamline (CDPL): double-digit growth.
+   - Oil palm: "early double-digit" volume growth.
+2. **Capex** ~₹350 Cr a year, 75–80% of it growth capex, "the entire" growth portion going mostly to oil palm. Year-1 capex was "close to ₹400 Cr".
+3. **Portfolio pruning, first announced here:** "the businesses that we're putting up for strategic review right now are our **Shrimp business, our Seeds business, our Cattle Genetics business**. Our **Live Bird business** obviously is coming down." The structural moves would come over about two years.
+4. **Shareholder value.** Burjis Godrej (Chairman-Designate) invited investors to suggest "alternative pathways… to unlock shareholder value". Nadir Godrej (Chairman) urged a long horizon on oil palm, with acreage expansion in FY27 expected to exceed FY26.
+5. **Dividend policy** unchanged at ~45–48% payout.
+
+*Q1 FY27 call, 6-Aug-2026 (BSE 230d0818…):*
+1. **Animal Nutrition.**
+   - Volume +7%: cattle +15%; **fish feed +20%+ and ~7% of the business**; cattle feed **~55–56%**.
+   - Poultry is shrinking by choice: "we are not exiting poultry" but are selective on geography.
+   - ~60–70% of the maize spike has been passed on.
+   - **EBIT/t guidance ₹2,050–2,200 (holding ~₹2,100–2,150).**
+   - High milk prices push farmers to premium feeds (natural hedge with CDPL).
+2. **Oil palm.**
+   - ~80,000 ha → ~1,50,000 ha in 4–5 years; +17,000 ha last year; ~50% of trees juvenile.
+   - FY27 FFB growth "high single-digit to double-digit".
+   - Q1 margin dipped (19% → 17%) because of a government **pricing-formula change within the quarter** and flat FFB (driest June); OER improved.
+   - Specialty-fats/PKO refinery ramps up in H2 FY27, worth "close to 200 bps" of EBITDA at scale.
+3. **Crop Care.** Guidance withheld until end-Q2 after a "crazy June". New products: Ashitaka, Takai, Ghassnash.
+4. **Astec.** Revenue growth "at least more than 20%" in FY27, with CDMO orders shifting to H2. *(Q2 FY27 then came in at revenue ₹72.6 Cr and PAT −₹37.4 Cr; first pass, [V].)*
+5. **Creamline.**
+   - Milk procurement prices "very inflated over the last 4 quarters", expected to persist for 2–3 more quarters; ~70% of cost increases passed on.
+   - The Middle East war raised LPG and packaging costs, expected to normalise by August.
+   - "Project Pi" cost programme; the "Altium" transformation.
+6. **Godrej Foods.**
+   - Live-bird trading to be run down to ~zero over 3–4 years (−15–20% a year).
+   - B2C (Yummiez + Real Good retail) is **32% of GFL** and grew **+28% in volume** in Q1; the target is 65–70% of GFL by the end of the long-range plan.
+   - New categories: frozen momos and frozen chicken.
+7. **Overall FY27.** The mid-teens target is under review; management is still "pretty confident" of double-digit growth and will update after Q2.
+8. **Labour code.** All impact already provided; no further charge.
+
+**(b) Concall/PPT KPI table**
+
+| KPI | FY25 | FY26 | Q1 FY26 | Q1 FY27 | Guide / comment | Source |
+|---|---|---|---|---|---|---|
+| Animal Nutrition volume (t) | 14,75,144 | 16,46,545 (+11.6%) | 3,75,139 | 4,02,257 (+7.2%) | double-digit revenue growth | PPTs [V4 Q1] |
+| AN result ₹/t | 1,973 | 2,107 | 1,733 | 2,088 reported / 2,536 underlying | ₹2,050–2,200 | E; call |
+| Cattle share of AN / fish share | — | — | — | ~55–56% / ~7% | fish +20%+ | Q1 call |
+| CPO realisation (₹/t) | 1,03,708 | 1,12,781 | 1,14,079 | 1,34,783 | duty cut 24-Sep lowers it | PPTs |
+| Oil-palm segment margin | 17.0% | 20.1% | ~19% | 16.7% | formula change in Q1 | PPT; call |
+| Palm area (ha) | — | ~80,000 | — | — | ~1,50,000 in 4–5 yrs | Q1 call |
+| Creamline EBITDA margin | 5.0% | 3.3% | 3.5% | 1.5% | milk prices high for 2–3 qtrs | PPT; call |
+| GFL B2C share of GFL | — | — | — | 32% | 65–70% by end of plan | call |
+| Average NWC days | 39 | 25 | 31 | 21 | — | PPT |
+| Capex (₹ Cr) | — | ~400 | — | — | ~300–350 a year | Q4 call; ICRA |
+
+**(c) Five-year history (screener consolidated; ₹ Cr) [V4 screener 31-Oct-2026]**
+
+| FY | Revenue | OP | OPM | Other income | Interest | PAT (consol.) | PAT attributable | EPS ₹ | ROCE | CFO | FCF | Days payable |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 8,306 | 669 | 8% | 109 | 63 | 419 | ~403 [E] | 20.96 | 16% | −120 | −388 | 40 |
+| FY23 | 9,374 | 523 | 6% | 139 | 99 | 295 | ~302 [E] | 15.71 | 10% | 874 | 595 | 35 |
+| FY24 | 9,561 | 704 | 7% | 90 | 108 | 359 | ~360 [E] | 18.71 | 14% | 678 | 301 | 32 |
+| FY25 | 9,383 | 821 | 9% | 93 | 133 | 403 | **429.7 [V4 AR]** | 22.35 | 17% | 969 | 758 | 47 |
+| FY26 | 10,233 | 864 | 8% | 116 | 138 | 445 | **472.8 [V4 AR]** | 24.58 | 19% | 1,281 | 1,047 | **80** |
+| CAGR FY22–26 | 5.4% | 6.6% | — | — | — | 1.5% | 4.0% | — | — | — | — | — |
+
+**(d) Last eight quarters (screener consolidated; ₹ Cr)**
+
+| Quarter | Sales | OP | OPM | Other income | PAT | EPS ₹ | AN volume (t, co.) | Note |
+|---|---|---|---|---|---|---|---|---|
+| Sep-24 (Q2 FY25) | 2,449 | 223 | 9% | 25 | 96 | 5.84 | — | tax 36% |
+| Dec-24 (Q3 FY25) | 2,450 | 220 | 9% | 22 | 110 | 5.80 | — | |
+| Mar-25 (Q4 FY25) | 2,134 | 147 | 7% | 25 | 66 | 3.68 | 3,70,000 approx. [E from +15.2% YoY in Q4 FY26] | |
+| Jun-25 (Q1 FY26) | 2,614 | 270 | 10% | 24 | 149 | 8.35 | 3,75,139 | peak quarter |
+| Sep-25 (Q2 FY26) | 2,567 | 213 | 8% | 18 | 84 | 4.81 | — | tax 38% |
+| Dec-25 (Q3 FY26) | 2,718 | 242 | 9% | −5 | 110 | 5.97 | — | negative OI |
+| Mar-26 (Q4 FY26) | 2,333 | 139 | 6% | 78 | 102 | 5.45 | 4,26,252 | ₹34 Cr land gain in OI |
+| **Jun-26 (Q1 FY27)** | **2,855** | **240** | **8%** | **27** | **128** | **6.99** | **4,02,257** | |
+
+- **Q2 FY27 set-up (board 6-Nov):**
+  - Astec already reported an OP loss of ₹20 Cr and PAT of −₹37.4 Cr; ~67% of that loss flows into GAVL attributable profit.
+  - The CPO duty cut came on 24-Sep, so Q2 realisation is mostly pre-cut.
+  - Crop care faces an erratic monsoon.
+  - The base is Sep-25 OP ₹213 Cr / PAT ₹84 Cr.
+
+**(e) Annual-report findings (AR FY26, read for the first time)**
+
+1. **Balance sheet (consolidated, Mar-26).**
+   - Total assets ₹6,170 Cr. Owners' equity ₹2,032 Cr (₹2,381 Cr); NCI ₹131.6 Cr (₹221.6 Cr).
+   - Goodwill ₹264.9 Cr; inventories ₹1,358 Cr; receivables ₹673 Cr.
+   - **Trade payables ₹1,651 Cr (₹885 Cr), +87%.** ICRA attributes the drop in working-capital intensity (9% → 3%) to "a growing prevalence of acceptances". The PPT's "underlying" Animal Nutrition result *excludes supplier-financing costs on inputs*.
+   - **So part of the celebrated NWC fall (45 → 25 → 21 days) and the ₹1,281 Cr CFO is supplier finance, not structural.**
+2. **Debt.**
+   - Long-term borrowings were raised by ₹793.6 Cr in FY26 (NCDs ₹148 Cr among them), while ₹717.5 Cr was paid out on minority buyouts.
+   - **The Creamline buyout was effectively debt-funded.**
+   - ICRA: repayments of ₹298 Cr in FY27 and **₹620 Cr in FY28**; TD/OPBDITA 1.8×; interest cover 6.4×; DSCR 3.7; reliance on short-term debt and CP (₹1,500 Cr CP programme).
+   - Ratings: [ICRA]AA (Stable)/A1+, reaffirmed 28-Jul-2026; CRISIL A1+; Astec [ICRA]AA− (Negative).
+3. **Acquisitions (Note 51).** S5–S7: GFL 49% for ₹323.16 Cr (Aug-2024); CDPL 36.79% for ₹708.58 Cr plus 0.46% for ₹8.93 Cr (FY26); Astec rights ₹199.01 Cr. **Total ~₹1,240 Cr spent on subsidiary minorities in two years**, about 2.6× FY26 attributable PAT.
+4. **Related parties.**
+   - **No brand royalty is paid to Godrej Industries.**
+   - FY26 flows: expenses charged by GIL ₹24.5 Cr (₹16.7 Cr); sales to GIL ₹65.9 Cr; sales to Godrej Pet Care ₹19.2 Cr (new); dividend paid to GIL ₹137.2 Cr; dividend received from ACI Godrej ₹70.5 Cr (₹66.8 Cr).
+   - "Royalty & technical know-how" expense ₹7.68 Cr (₹10.00 Cr), mostly to third parties.
+   - FY25 purchases of ₹212 Cr from Godrej Seeds & Genetics fell to nil in FY26.
+5. **Contingent liabilities ₹164.8 Cr (₹175.2 Cr)**, mostly old excise disputes (₹134.2 Cr), plus the PF wage-definition matter (not quantified). **No material contingent exposure.**
+6. **Regulatory perimeter (secretarial audit list):**
+   - Insecticides Act 1968.
+   - **AP Oil Palm (Regulation of Production & Processing) Act 1993.**
+   - **AP Animal Feed (Regulation of Manufacture, Quality Control, Sale & Distribution) Act 2020.**
+   - **AP Fish Feed (Quality Control) Act 2020.**
+   - FSSA 2006; BIS; Fertiliser Control Order.
+   - **All GAVL cattle-feed plants are BIS-certified** (BRSR).
+7. **Footprint.**
+   - 14 Animal Nutrition plants and 2 aqua-feed plants (Hanuman Junction AP, Barabanki UP); aqua feed also started at the Bani unit (a converted poultry-feed plant).
+   - 6 palm mills; 24 "Samadhan" farmer centres (10 added, 5 in the North East).
+   - PKO refinery to start in FY27; R&D at Nashik (cattle, broiler, layer) and an aqua R&D centre.
+8. **Risks (ICRA/AR).** Commodity pass-through limited by price-sensitive customers; **"price capping mechanisms"** flagged by ICRA as an Animal Nutrition regulatory risk; monsoon; agrochem competition; debt-funded capex.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. US imports of fresh/frozen shrimp by origin. Tonnes; NOAA FOSS, product group "F/F, WHOLE, SHRIMP" (excludes canned) [V4]**
+
+| Origin | CY2024 | CY2025 | YoY | Share 2025 | US$ mn 2025 | Jan–Aug 2025 | Jan–Aug 2026 | YoY |
+|---|---|---|---|---|---|---|---|---|
+| India | 293,705 | 293,053 | −0.2% | 37.4% | 2,379 | 218,427 | 180,019 | −17.6% |
+| Ecuador | 186,953 | 230,448 | +23.3% | 29.4% | 1,705 | 147,346 | 196,171 | +33.1% |
+| Indonesia | 134,433 | 118,674 | −11.7% | 15.2% | 975 | 91,791 | 81,283 | −11.4% |
+| Vietnam | 68,346 | 63,020 | −7.8% | 8.1% | 688 | 36,798 | 33,463 | −9.1% |
+| Thailand | 26,311 | 25,546 | −2.9% | 3.3% | 294 | 15,743 | 15,548 | −1.2% |
+| Argentina | 14,709 | 17,865 | +21.5% | 2.3% | 214 | 12,216 | 10,937 | −10.5% |
+| Mexico | 13,866 | 15,662 | +13.0% | 2.0% | 173 | — | — | — |
+| **Total** | **758,641** | **782,730** | **+3.2%** | 100% | **6,603** | **543,115** | **541,937** | **−0.2%** |
+
+- Line chart: **India's monthly US shipments (t), 2025 vs 2024**:
+  - 2025, Jan → Dec: 31,056; 24,556; 24,864; 26,515; 25,854; 28,492; 30,629; 26,460; 26,297; **12,392**; 17,087; 18,850.
+  - 2024, Jan → Dec: 20,006; 23,741; 23,264; 21,105; 22,223; 19,774; 26,677; 26,278; 29,539; 30,421; 27,002; 23,677.
+  - **2026, Jan → Aug:** 20,603; 20,764; 13,163; 15,704; 22,713; 26,336; 27,621; **33,115**.
+- **Read:**
+  - The 50% tariff (27-Aug-2025) cut India's shipments by 59% in Oct-2025.
+  - Volumes stayed depressed through Mar-2026 (13,163 t), even after the Russia penalty ended on 7-Feb and IEEPA ended on 24-Feb.
+  - They recovered from May-2026; **Aug-2026 (33,115 t) was the highest month since Jan-2025 and +25% YoY**, once India and Ecuador both sat at 10% (Sec 122, then Sec 301).
+  - Ecuador nonetheless **overtook India as the #1 US supplier for Jan–Aug 2026**.
+
+**D2. US duty stack on AFFPL's frozen shrimp (%), FR-verified dates [V4; E sums]**
+
+| Period | AD | CVD | Tariff layer | Total |
+|---|---|---|---|---|
+| to 6-Aug-2025 | ~1.35 [V-snip] | 5.77 | 10 (IEEPA baseline, Apr-2025) [K] | ~17.1 |
+| 7–26-Aug-2025 | ~1.35 | 5.77 | 25 (IEEPA reciprocal) [K] | ~32.1 |
+| **27-Aug-2025 → 6-Feb-2026** | ~1.35 | 5.77 | 25 + **25** (EO 14329, 90 FR 41837) | **~57.1** |
+| 7–8-Feb-2026 | ~1.35 | 5.77 | 25 (penalty removed, EO 14384) | ~32.1 |
+| 9–23-Feb-2026 | 3.76 (FR doc 2026-02486, 9-Feb) | 5.77 | 25 (18% if the deal rate applied) | ~34.5 (~27.5) |
+| 24-Feb → 23-Jul-2026 | 3.76 | 5.77 | **10** (Sec 122, 91 FR 9339) | 19.5 |
+| 24-Jul → 3-Sep-2026 | 3.76 | 5.77 | **10** (Sec 301, 91 FR 47318) | 19.5 |
+| **4-Sep-2026 →** | **5.53** (91 FR 56861) | 5.77 | 10 | **21.3** |
+| *Ecuador (low-rate exporter), today* | 0 (no order) | ~2.2 | 10 (Sec 301) | ~12.2 |
+
+**D3. India quarterly feed-input and output prices (₹/kg) from CPF's FY2025 results panel "India: Average Market Price and Major Feed Raw Materials" [V4 — CPF results PDF, cpfworldwide.com; calendar quarters]**
+
+| Quarter | Q1'23 | Q2'23 | Q3'23 | Q4'23 | Q1'24 | Q2'24 | Q3'24 | Q4'24 | Q1'25 | Q2'25 | Q3'25 | Q4'25 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Shrimp, 60-count | 313 | 280 | 263 | 280 | 292 | 268 | 307 | 328 | 337 | 302 | 310 | 315 |
+| Broiler (live) | 77.5 | 102.8 | 98.9 | 78.6 | 94.2 | 115.0 | 85.2 | 83.2 | 79.1 | 87.9 | 88.3 | 100.2 |
+| Corn (maize) | 24.1 | 20.9 | 24.2 | 23.9 | 24.2 | 24.8 | 28.9 | 25.5 | 25.3 | 24.8 | 25.5 | 21.1 |
+| Soybean meal | 47.9 | 51.0 | 49.7 | 50.6 | 46.7 | 44.3 | 42.5 | 37.3 | 33.0 | 34.7 | 37.3 | 31.2 |
+
+- Values were read from chart labels in the PDF text layer, with column positions matched to the quarter axis. Treat them as ±1 label-alignment risk.
+- **Use:**
+  - SBM bottomed at ~₹31/kg in Q4 CY2025, which explains Avanti's ₹40/kg consumption cost in Q1 FY26.
+  - It then went to ₹58 (Q1 FY27 average) and ₹71–72 (spot), a **~2.3× move in under a year**.
+  - 60-count farm-gate shrimp held ₹300–340/kg through 2025 despite the US tariff.
+  - This fills H-gap 4 (partly) and H-gap 9 (partly).
+
+**D4. Avanti input costs and price actions (₹/kg; average consumption cost unless "spot") [V4 calls]**
+- Fishmeal: Q4 FY25 91 → Q1 FY26 93 → Q3 FY26 117 → Q4 FY26 130 (or 123 per the Q1 call) → Q1 FY27 153; spot 230 (12-Jun) / 225 (27-Aug).
+- SBM: 41 → 40 → 44 → 55 (49) → 58; spot 72 / 71.
+- Wheat flour: 36 → 31 → 32 → 31 → 28; spot 30 / 33.
+- Price actions: Apr-2025 −₹4/kg; Feb-2026 hike; 19-Jun-2026 ~+10%.
+
+**D5. India frozen-shrimp exports FY26 by market (t), MPEDA as quoted by Avanti (Q4 call) [V4]**
+- USA 2,56,128 (32.3%); China 1,69,505 (21.4%); EU 1,35,599 (17.1%); SE Asia 83,810 (10.6%); others 76,351 (9.6%); Japan 40,776 (5.1%); Middle East 30,478 (3.8%). Total 7,92,647 t; US$5,624.5 mn.
+- Year on year: US −17.9%, China +24%, EU +36%, Japan +5%.
+- India's total seafood exports FY26: US$8.546 bn (record).
+
+**D6. Livestock outputs that pull feed demand: BAHS 2025, year 2024-25 [V4 PIB]**
+
+| Product | 2024-25 | Growth | Top states (share) |
+|---|---|---|---|
+| Milk | 247.87 mt; 485 g/day per capita | +3.58% (exotic/crossbred cattle +4.97%, indigenous +3.51%, buffalo +2.45%) | UP 15.66; RJ 14.82; MP 9.12; GJ 7.78; MH 6.71 |
+| Eggs | 149.11 bn; 106/person/yr | +4.44% | **AP 18.37**; TN 15.63; Telangana 12.98; WB 10.72; KA 6.67 (commercial 84.5%) |
+| Meat | 10.50 mt (poultry 5.18 mt) | +2.46% | WB 12.46; UP 12.20; MH 11.57; AP 10.84; Telangana 10.49 |
+
+- Read: crossbred milk, the most feed-intensive kind, is growing fastest, which supports GAVL's +18% cattle-feed volume.
+- AP and Telangana are 31% of India's eggs, a layer-feed cluster where GAVL has its Medchal plant.
+
+**D7. Policy dates (all [V4])**
+- 27-Aug-2025: EO 14329 25% Russia-oil duty on India.
+- 26-Nov-2025: BAHS 2025 released.
+- 7-Feb-2026: the Russia duty removed.
+- 9-Feb-2026: AD 2023–24 final (3.76%).
+- 20-Feb-2026: SCOTUS IEEPA ruling (Avanti AR).
+- 24-Feb-2026: Sec 122 10% starts.
+- 20-Apr-2026: CBP CAPE refund functionality (Avanti AR).
+- 12-Mar-2026: Sec 301 forced-labour investigations opened.
+- 2-Jun-2026: actionability determinations.
+- 24-Jul-2026: Sec 301 10% replaces Sec 122.
+- 6-Aug and 14-Sep-2026: Ecuador CVD review final and amended.
+- 4-Sep-2026: AD 2024–25 final (5.53%).
+- 24-Sep-2026: edible-oil duty cut (CPO BCD 5%).
+- 28-Sep-2026: India AD 2025–26 review partially rescinded (review continues; FR 2026-19779).
+
+**D8. Global feed peers (latest annual)**
+
+| Company | FY2025 revenue | EBITDA / margin | Net profit | Feed metric | Tag |
+|---|---|---|---|---|---|
+| CP Foods (CPF, Thailand) | THB 571.1 bn (−2%; +3% in local currency) | THB 89.2 bn / **15.6%**; EBIT 8.6% | THB 25.2 bn (+29%); net margin 4.4% | Feed sales THB 131.1 bn (23% of revenue); India 2% of group sales | [V4 CPF results PDF] |
+| BioMar (Schouw & Co.) | DKK 16.5 bn | DKK 1,517 mn / **~9.2%** | — | 1.557 mt (+13%); shrimp feed +31% | [V-snip] |
+| Thai Union Group | ~THB 133 bn (−4.1%) | gross margin 18.9% (record); operating profit ~THB 7 bn | ~THB 4.6 bn | owns 24.2% of Avanti, 40% of AFFPL | [V-snip] |
+| Haid Group (China) | not re-sourced | — | — | — | [K] |
+| Avanti (FY26) | ₹6,066 Cr | OP ₹750 Cr / 12.4% (feed EBITDA 16.8% incl. OI) | ₹606 Cr attributable | 0.56 mt shrimp feed | [V4] |
+| GAVL (FY26) | ₹10,233 Cr | OP ₹864 Cr / 8.4% | ₹473 Cr attributable | 1.65 mt compound feed | [V4] |
+
+- Read: BioMar's ~9% EBITDA margin on 1.56 mt aqua feed is the cleanest global comparator for Avanti's feed business. **Avanti's FY26 16.8% was ~1.8× BioMar; Q1 FY27's 7.5% is below it.**
+
+## 4.4 Gap log (Part 1 §H)
+
+| # | Gap | Status | What was found / tried |
+|---|---|---|---|
+| 1 | Organised share; CLFMA data | **Still open** | No CLFMA production table is public (no fetch attempted beyond search budget). ICRA calls GAVL "strong… in the domestic organised animal feed industry" and flags "price capping mechanisms" as a regulatory risk. Use Alltech totals plus [E] shares. |
+| 2 | Rival shrimp-feed shares | **Still open** | No primary source. **New partial:** GAVL's aqua feed is small (2 plants; "fish" ~7% of AN), so its exit would free very little volume. |
+| 3 | Unlisted financials | **Partly filled** | Venky's (listed) via screener: FY26 standalone revenue ₹3,727 Cr, OP ₹192 Cr (5%), PAT ₹139 Cr; Jun-26 quarter ₹1,118 Cr / OP ₹69 Cr; m-cap ₹2,119 Cr [V4]. The feed segment split is not on screener; Venky's AR not fetched. CP Aqua India, Growel, Suguna, Devi and Sandhya: no free filings found. Devi and Sandhya AD margins are V4 (4.04% / 7.01%). |
+| 4 | Farm-gate prices by count | **Partly filled** | CPF quarterly 60-count India price CY2023–25 (₹263–337/kg) [V4]. No 2026 series by count; Avanti says 2026 "farm-gate prices have also gone up" (Aug). |
+| 5 | Shrimp production by state | **Partly filled ([V-snip])** | MPEDA 2023-24: ~1.08 mmt, AP ~82% (via ICRIER). The Handbook of Fisheries Statistics 2025 PDF was not reached; the DAHD/DoF link returned 404. |
+| 6 | US 2025 imports by country | **Filled [V4]** | NOAA FOSS (D1); the 38% vs 33% question is resolved (S22). |
+| 7 | Ecuador AD/CVD and tariff path | **Filled [V4]** | No AD order; CVD order Dec-2024; expedited-review rates 2.23–15.18%; Sec 301 10% (S10, D2). Ecuador's 2025 export value (US$7.47 bn) is still [V-snip]. |
+| 8 | Dates of the India–US deal and Sec 122/301 | **Filled [V4], with one caveat** | All dates FR-verified (S9). The "18%" deal rate has no FR implementing document; cite Avanti AR. |
+| 9 | Soymeal, maize and fishmeal series | **Partly filled** | CPF quarterly SBM and maize CY2023–25 [V4]; Avanti quarterly fishmeal/SBM/wheat [V4]; SEA port SBM US$617/t Jul-2026 vs US$385 [V-snip]. No SOPA ₹/t monthly series; no fishmeal series beyond Avanti's. |
+| 10 | Milk production | **Filled [V4]** | 247.87 mt (S13, D6). |
+| 11 | Broiler / bird-flu data | **Partly filled** | CPF India live-broiler price CY2023–25 [V4]; poultry meat 5.18 mt; eggs 149.11 bn [V4]. Bird-flu loss data still [V-snip]. |
+| 12 | GAVL feed tonnes by species; plant count | **Partly filled [V4]** | Cattle ~55–56%, fish ~7%; 14 + 2 plants (S15, S16). Layer/broiler split not disclosed. |
+| 13 | GAVL OER, FFB, area by state | **Still open (mostly)** | Area ~80,000 ha in 9 states, 6 mills in 4 states [V4]; OER and FFB levels not disclosed in the AR or PPT. |
+| 14 | Godrej Tyson buyout | **Filled [V4]** | 27-Aug-2024, ₹323.16 Cr (S6). |
+| 15 | GAVL's Astec stake | **Filled [V4]** | 67.03% (AR Note 51; ICRA). The BSE shareholding-pattern page was not needed. |
+| 16 | GAVL cash / net debt | **Filled [V4]** | S3. |
+| 17 | Avanti export-region mix | **Filled [V4]** | Geographic revenue note (S20); Q1 FY27 pie 62.6% N. America stands. |
+| 18 | GST on feed; BIS; AP acts | **Partly filled** | AP Animal Feed Act 2020, AP Fish Feed (QC) Act 2020 and AP Oil Palm Act 1993 [V4 GAVL AR]; GAVL cattle-feed plants BIS-certified [V4]; fishmeal 5% GST on domestic purchase [V4 mgmt]. Feed GST rate and BIS standard numbers not re-verified. |
+| 19 | Global feed margins and multiples | **Partly filled** | CPF [V4]; BioMar and Thai Union [V-snip]; Haid [K]. No multiples fetched. |
+| 20 | Avanti Q1 processing-margin split | **Still open** | The call attributes the gain to "improved ASP, favourable FX and higher other income" with no numbers. AFFPL PBT was ₹45 Cr vs ₹25 Cr. |
+
+**Count:** 7 filled, 9 partly filled, 4 still open (1, 2, 13, 20).
+
+## 4.5 New insights and primer issues
+
+### New insights the first pass missed
+
+1. **Ecuador, not India, is now America's largest shrimp supplier, even after the tariff war ended.**
+   - Jan–Aug 2026 (NOAA): Ecuador 196,171 t vs India 180,019 t; India −17.6% YoY, Ecuador +33%.
+   - Tariff parity is now in place (both at 10% under the forced-labour Sec 301 since 24-Jul-2026). But India also carries AD 5.53% + CVD 5.77%, against ~2.2% CVD and no AD for Ecuador's large exporters.
+   - That leaves a **~9-point structural duty gap**, which the IEEPA era hid.
+   - The August data are the first sign of an Indian recovery (33,115 t, +25% YoY).
+   - **Implication:** Avanti's export leg (and AP farm-gate prices) depends more on AD/CVD reviews than on headline tariffs. Every annual review is now an earnings event (2025–26 review in progress).
+2. **Avanti's IEEPA refund is a real but unbooked asset, and it is tied up in AD/CVD timing.**
+   - US$15–20 mn ≈ ₹142–190 Cr at ₹94.9/$; ~₹85–114 Cr attributable to Avanti's 60%. That is ~1–1.3% of m-cap.
+   - It is not recognised in the FY26 accounts (no contingent asset disclosed).
+   - CBP will release it only when AD/CVD liquidation suspensions lift, guided at 12–18 months.
+   - The same suspension is why **₹17.7 Cr of AD for 2023–24** sits in contingent liabilities. Refund and AD true-up will likely land together, partly netting.
+3. **Avanti's US revenue rose 42% in FY26 despite the 50% tariff.** USA ₹1,050.7 Cr vs ₹738.1 Cr. AFFPL sells duty-paid as importer of record: it front-loaded and absorbed tariff, then reclaims it. This is why processing ASP *fell* after IEEPA ended (Q1 FY27 call) while processing profit rose.
+4. **Governance points a specialist would raise on Avanti.**
+   - (a) Whole-time directors' pay of **₹103.6 Cr ≈ 17% of attributable PAT**, mostly profit commission. This is high for an Indian mid-cap and pro-cyclical.
+   - (b) The related-party note shows **₹420 Cr of FY26 sales to "entities over which KMP has significant influence"** (FY25 ~nil), while sales to the Thai Union group fell from ₹335 Cr to ₹13 Cr. The counterparty is not identified; ask IR before writing anything stronger than "unexplained shift".
+   - (c) **₹770 Cr of treasury sits in NBFC/insurer term deposits** (Bajaj Finance, M&M Finance, LIC), not bank deposits.
+5. **GAVL's working-capital "miracle" is partly supplier finance, and its buyouts were debt-funded.**
+   - Trade payables +87% to ₹1,651 Cr. ICRA credits "a growing prevalence of acceptances". The "underlying" AN result strips out supplier-financing cost.
+   - ₹794 Cr of new long-term debt in FY26 funded ₹718 Cr of minority buyouts (Creamline).
+   - The ₹620 Cr FY28 repayment is a refinancing marker. ICRA's upgrade trigger is TD/OPBDITA <1.2× (now 1.8×).
+   - **₹1,240 Cr spent buying out minorities (GFL, CDPL, Astec rights) in two years** is the main reason ROE looks high while equity fell.
+6. **GAVL's shrimp-feed exit is small and was flagged in May, not August.** The 4-May call put "Shrimp, Seeds and Cattle Genetics" under strategic review. With only 2 aqua plants and fish feed ~7% of AN, any exit frees perhaps ~0.1 LT of shrimp-feed volume, a rounding error against Avanti's 5.6 LT [E].
+7. **AP's feed regulation already has statutory teeth.** The AP Animal Feed Act 2020 and AP Fish Feed (QC) Act 2020 are on GAVL's list of applicable laws. ICRA independently flags "price capping mechanisms" as a regulatory risk for animal nutrition. The AP Big-4 formula committee (Aug-2026) would operate under these statutes, so this is not a hypothetical.
+8. **The soymeal cycle in one series.**
+   - CPF's India panel shows SBM falling ₹51 → ₹31/kg (Q2'23 → Q4'25) before the 2026 spike to ₹71–72 spot.
+   - Avanti's peak FY26 margin was earned at the bottom of a 2.5-year SBM decline, alongside cheap Peruvian fishmeal.
+   - **FY26 should be presented as a cyclical peak, not a new base.**
+
+### New primer issues (format for primer-issues.md)
+
+#### From Animal Feed & Aquaculture deep-research pass (2026-10-31, animal-feed-industry.md Part 4)
+
+**avanti-feeds.html**
+- **Attributable PAT:** state **₹606.06 Cr attributable (FY26)**, as printed in the AR MD&A, alongside ₹657 Cr including Thai Union's 40% of AFFPL. FY25 attributable: ₹528.82 Cr.
+- **Net cash:** use **~₹2,450 Cr** (AR: current investments ₹1,252 Cr + cash and bank ₹438 Cr + ₹770 Cr of term deposits with LIC, Bajaj Finance and M&M Finance, less ₹10.5 Cr borrowings). Note that the deposits sit with NBFCs and an insurer.
+- **US exposure:** add the AR geographic note: **US revenue ₹1,050.7 Cr in FY26 (+42%), 17% of group revenue and two-thirds of export revenue.** AFFPL is the **US importer of record**; IEEPA refund claim US$15–20 mn, pending AD/CVD liquidation.
+- **US tariff narrative:** replace any "18% deal" framing with the FR-verified sequence:
+  - 50% from 27-Aug-2025.
+  - Russia penalty removed 7-Feb-2026.
+  - IEEPA collection ended 24-Feb-2026 (SCOTUS ruling of 20-Feb).
+  - Sec 122 10% to 24-Jul-2026; Sec 301 10% from 24-Jul-2026 (forced-labour investigation; Ecuador also 10%).
+  - AD 5.53% (4-Sep-2026); CVD 5.77% (order Dec-2024).
+- **Competitive framing:** add that **Ecuador overtook India as #1 US supplier in Jan–Aug 2026** (NOAA: 196k t vs 180k t). Ecuador has no AD order; its CVD rates are 2.2–15.2%.
+- **Pricing history:** add the **Feb-2026 price hike** before the ~10% hike of 19-Jun-2026. Add FY27 guidance of ~5.85 LT feed and ~19,000 t exports, and "no big capex for two years" apart from pet food.
+- **Governance:** add **directors' remuneration ₹103.6 Cr (~17% of attributable PAT)**, and royalty to Thai Union Feed Mill of only ₹7.9 Cr. Optionally note the unexplained ₹420 Cr of related-party sales to KMP-influenced entities in FY26.
+- **Contingent liability:** US anti-dumping duty **₹17.7 Cr** (POR 2023–24) is disclosed in the FY26 AR.
+- **Regulation:** name the statutes behind the AP feed-price committee: **AP Fish Feed (Quality Control) Act 2020** and **AP Animal Feed (Regulation of Manufacture, QC, Sale & Distribution) Act 2020**.
+
+**godrej-agrovet.html**
+- **Godrej Tyson buyout date wrong:** "FY26 buy-out of Tyson's 49%" → **49% acquired for ₹323.16 Cr; wholly owned from 27-Aug-2024 (FY25)** (AR FY26 Note 51(a)); renamed Godrej Foods Ltd.
+- **Creamline:** state **36.79% acquired in Q1 FY26 for ₹708.58 Cr + 0.46% for ₹8.93 Cr; stake 62.53% → 99.78%** (balance 0.22% pending), not "48% / ₹930 Cr". Equity hit ₹616.33 Cr (FY26), plus ₹371.24 Cr from the GFL buyout (FY25).
+- **Astec:** 67.03% is now primary-verified: rights subscription ₹199.01 Cr, allotted 29-Jul-2025. The primer's "~62%" must go.
+- **Net debt:** **₹1,156 Cr ex-lease** (borrowings ₹1,468 Cr − cash, bank and liquid investments ₹312 Cr); ₹1,262 Cr incl. leases. Add ICRA [ICRA]AA (Stable), reaffirmed 28-Jul-2026; TD/OPBDITA 1.8×; repayments ₹298 Cr (FY27) and ₹620 Cr (FY28).
+- **Working capital:** qualify the NWC story (45 → 25 → 21 days). Trade payables rose 87% to ₹1,651 Cr, and ICRA attributes the improvement to "a growing prevalence of acceptances" (supplier finance).
+- **Feed mix and footprint:** add **cattle ~55–56% of Animal Nutrition, fish ~7%** (CEO, Aug-2026); **14 feed plants + 2 aqua-feed plants + 6 palm mills**; EBIT/t guidance ₹2,050–2,200.
+- **Strategy-review timing:** shrimp feed (with seeds and cattle genetics) was put under strategic review on the **4-May-2026** call. FY27 guidance: early double-digit revenue growth, mid-teens PBT growth (under review after Q1), capex ~₹350 Cr a year.
+- **Related parties:** state that **GAVL pays no brand royalty to Godrej Industries**. GIL charges ₹24.5 Cr of shared expenses; GAVL receives ₹70.5 Cr of dividends from ACI Godrej.
+- **CPO duty mechanism:** basic duty on crude palm **10% → 5%** from 24-Sep-2026 (Notification 31/2026; effective ≈11%). Lower landed CPO lowers GAVL's realisation, and the FFB price formula changed within Q1 FY27 (CEO).
+
+### Source URLs fetched in this pass
+- Avanti AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/7892323c-b5af-416a-a8b5-e3d996f58486.pdf
+- Avanti Q4 FY26 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17beb17b-1b20-4d22-bf0e-b00be4dd2504.pdf
+- Avanti Q1 FY27 transcript and PPT: Pname=a64c0c64-c1f2-452c-87af-ec4010d5dc2a.pdf ; Pname=ed32066e-9157-406b-9695-d7c74baabc13.pdf
+- GAVL AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/04ba034f-b9a6-4c77-a847-dd8023abe118.pdf
+- GAVL Q4 FY26 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6938e6d-f2a2-4154-ab39-29e3ba6773d4.pdf
+- GAVL Q1 FY27 transcript and PPT: Pname=230d0818-44aa-4609-bb6e-b1676a1c33ba.pdf ; Pname=c0a53f5e-2daf-42cd-a04e-6d9f32ec1be5.pdf
+- ICRA GAVL 28-Jul-2026: https://www.icra.in/Rating/GetRationalReportFilePdf?Id=144557
+- Federal Register (govinfo PDFs):
+  - FR-2026-09-04/pdf/2026-18184.pdf (AD final)
+  - FR-2026-02-11/pdf/2026-02818.pdf (EO 14384)
+  - FR-2025-08-27/pdf/2025-16419.pdf (EO 14329 implementation)
+  - FR-2026-02-25/pdf/2026-03824.pdf (Sec 122)
+  - FR-2026-07-28/pdf/2026-15274.pdf and 2026-15181.pdf (Sec 301)
+  - FR-2026-08-06/pdf/2026-15990.pdf and FR-2026-09-14/pdf/2026-18697.pdf (Ecuador CVD)
+  - Search via https://www.federalregister.gov/api/v1/documents.json
+- NOAA FOSS: https://apps-st.fisheries.noaa.gov/ods/foss/trade_data/ (q: year, source=IMP, fus_group1="F/F, WHOLE, SHRIMP")
+- PIB BAHS 2025: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2195049
+- Notification 31/2026-Customs text: https://worldtradescanner.com/Ntfn%2031-Cus-23.09.2026.htm
+- CPF FY2025 results: https://www.cpfworldwide.com/storage/public_present/pdf_en_CPF_FY2025_Results%20Final_1772705279.pdf
+- Screener: AVANTIFEED, GODREJAGRO (consolidated), VENKEYS (standalone)
+- [V-snip] BioMar 2025: https://www.biomar.com/insights/insights-hub/biomar-delivers-a-solid-2025 ; Thai Union FY2025: https://thaiunion.com/newsroom/business-and-finance-news/ ; SBM port price: https://eng.ruralvoice.in/ ; AP shrimp share: https://icrier.org/?p=8188
+
+*End of Part 4.*
+
+---
+
+# Orchestrator reconciliation (2026-10-31) — aggregates after Part 4 Supersedes
+
+Re-added by hand from the company rows; Part 3 arithmetic checked and found correct. Screener m-cap/P/E re-fetched 31-Oct-26: Avanti ₹8,974 Cr / 16.7×, GAVL ₹10,644 Cr / 22.7× (agree).
+
+| Line (FY26 unless stated) | Avanti | GAVL | **Sum (all members)** | Ratio of sums |
+|---|---|---|---|---|
+| Revenue | 6,066 | 10,233 | **16,299** | +8.8% vs 14,982 |
+| OP (screener) | 750 | 864 | **1,614** | OPM 9.9% |
+| PAT consolidated incl. NCI (screener) | 657 | 445 | **1,102** | 6.8% net margin |
+| PAT attributable (AR, S1/S4) | 606.06 | 472.78 | **1,078.84** | — |
+| Net debt (cash), company AR basis ex-leases (S2/S3) | (2,450) | 1,156 | **(1,294) net cash** | — |
+| M-cap 30-Oct-26 | 8,974 | 10,644 | **19,618** | m-cap ÷ attrib. PAT 18.2× |
+| EV = m-cap + net debt | 6,524 | 11,800 | **18,324** | EV ÷ OP 11.4× (11.35×) |
+| Q1 FY27 revenue / OP / PAT | 1,900 / 106 / 116 | 2,855 / 240 / 128 | **4,755 / 346 / 244** | OPM 7.3% |
+| Feed segment volume (t) | 5,62,060 | 16,46,545 | **22,08,605** | — |
+| Feed segment revenue / result | 4,366.8 / 558.5 | 4,941.0 / 347.0 | **9,307.8 / 905.5** | 9.7%; ₹4,100/t |
+
+Writer note: ownership "averages" in Part 3 §3.2(e) must NOT be shown as averages — show per-company figures only. Use the PAT-incl-NCI basis (screener) in the peer table for every row and the total, with attributable PAT in a separate column.

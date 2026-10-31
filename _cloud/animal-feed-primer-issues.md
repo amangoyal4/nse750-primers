@@ -21,3 +21,7 @@
 - **godrej-agrovet.html — Q1 FY27 omitted (refreshed 3-Aug):** sales ₹2,852 Cr (+10%), PAT ₹126/128 Cr (−14%), Animal Nutrition volume +7.2% / result +30%, CPO ₹1,34,783/t (+18%), crop care result −38%, Creamline EBITDA −53%, NWC 21 days; Q2 board 6-Nov-2026.
 - **godrej-agrovet.html — valuation:** m-cap ~₹10,800 Cr → **₹10,644 Cr**; P/E ~23.5 → **22.7**. Add net debt ~₹1,261 Cr (CRISIL cash ₹33 Cr + ₹280 Cr FDs vs borrowings ₹1,574 Cr) and EV/OP ~13.8×.
 - **godrej-agrovet.html — oil palm duty risk not mentioned:** India cut the effective duty on crude palm oil from 16.5% to **11% from 24-Sep-2026** (Notification 31/2026-Customs), lowering domestic CPO; GAVL's FFB price is a formula share of CPO, so the mill spread moves with it (edible-oil.html).
+
+## From Animal Feed & Aquaculture deep-research pass (2026-10-31, animal-feed-industry.md §4.5)
+
+
