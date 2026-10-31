@@ -1,0 +1,61 @@
+# Ferro Alloys — primer issues
+
+## From Ferro Alloys research (2026-10-31, ferro-alloys-industry.md §3.4)
+
+- **nava-limited.html — debt trend is wrong:** "consolidated borrowings fell to ~₹2,226 Cr in FY26 from ~₹3,074 Cr a year earlier" and "cut debt".
+  - Screener: borrowings **₹893 Cr (Mar-25) → ₹2,226 Cr (Mar-26)**, i.e. they **rose** with Phase II project debt (CWIP ₹575 → ₹2,185 Cr). ₹3,074 Cr was Mar-2023.
+  - Fix §03 "Balance sheet", the FY26 timeline entry, §10 ("debt cut to ~₹2,226 Cr") and the bull case ("debt cut sharply").
+- **nava-limited.html — EBITDA margin basis:** the "~44% EBITDA margin — the tell" device uses company EBITDA ₹1,905 Cr, which includes ₹188 Cr other income and a **₹137 Cr ECL reversal** (non-recurring write-backs of ZESCO provisions).
+  - Screener OP is ₹1,718 Cr (40%); ex-ECL ~37%; the CFO guides consolidated EBITDA at 35–40%.
+  - Restate the device as "~40% (ex-other income); the excess over a metals margin is still Zambia", and note that the ECL tailwind has ended (Q1 FY27 ₹4.4 Cr).
+- **nava-limited.html — PAT not split for minorities:** ₹1,039 Cr is pre-minority. Attributable ≈ ₹787 Cr [E, EPS ₹27.80]. The valuation section should use attributable earnings (screener P/E 19.0×), not "high-single to low-teens".
+- **nava-limited.html — ferro-alloy margin overstated:** "'good' here still means mid-teens margins" and "an average Indian ferro-alloy company on a mid-teens margin".
+  - CRISIL (Feb-2026): alloy **EBITDA ₹40 Cr in FY25 after a ₹59 Cr loss in FY24**, i.e. low single digits.
+  - Also verify "Ferro-alloy income rose ~29% in FY26".
+  - Add capacity **180,000 tpa** (Telangana 125k, Odisha 55k) and FY26 SiMn sales 134,410 t.
+- **nava-limited.html — Phase II date stale:** "targeted for commissioning around January 2027" appears in the whats-new box, §00, §06 (the "~Jan 2027" stat), §11 and the bottom line.
+  - Q1 FY27 call (14-Aug-2026): full commissioning **~June–July 2027 (Q2 FY28)**, unit 1 earlier, delayed by West-Asia shipping.
+  - Add the project economics: US$400 Mn, 300 debt / 100 equity, ~US$200 Mn revenue, ~15% ROE, no tax holiday yet.
+- **nava-limited.html — ZESCO arrears stale:** "~US$30 Mn" → **US$18.4 Mn (30-Jun-2026), US$13.4 Mn (14-Aug-2026)**. MEL total receivables US$67.9 Mn. MEL collected US$125 Mn from ZESCO in FY26 (CRISIL).
+- **nava-limited.html — Maamba dates and stake history:**
+  - "2016 Maamba's 300 MW … commissioned" vs CRISIL "began operations in August 2017". Say synchronised 2016, COD 2017.
+  - The timeline's "2023–24 … Nava lifts its Maamba stake to 65%" conflicts with the rest of the primer (65% since the 2010 takeover). Verify or delete.
+  - Ownership is via **Nava Global Pte (100%)**, not just "Nava Bharat (Singapore)". The renaming is fine, but say "Nava Global".
+- **nava-limited.html — valuation stale:** m-cap ~₹16,700 Cr → **₹14,416 Cr** (₹509, 30-Oct-26; 52-wk ₹739/₹456). The "a third of market cap" arrears comparison is historical; label it as such.
+- **nava-limited.html — omissions:**
+  - **100 MW Maamba solar commissioned (24-Sep-2026, 20-year PPA)**.
+  - Q1 FY27 (record total income ₹1,268.8 Cr; EBITDA ₹583.5 Cr; PAT ₹332.8 Cr; MEL PLF 89.3%).
+  - Kwacha-driven deferred tax (Q4 FY26 tax 58%; Q1 DTL ₹25.2 Cr).
+  - Ivory Coast manganese exploration and lithium exploration.
+  - Sugar COD Q4 FY28 (US$55–60 Mn revenue); avocado 286k trees.
+  - Land-bank study; Odisha 60 MW IPP outage (Sep–Nov 2026).
+  - CRISIL A/Stable; Indian power capacity 434 MW and FY26 PLF 71.5% → Q1 85.4%.
+  - **EU ferro-alloy safeguard quotas on India (SiMn 126,800 t for 2026)** — relevant to its export alloy business.
+- **nava-limited.html — rival table:** Maithan described as a "purer, debt-light ferro-alloy play". Note that Maithan's profits are now dominated by treasury/MTM other income (FY26 OI ₹409 Cr vs OP ₹264 Cr; P/B 0.54).
+- **indian-metals-ferro-alloys.html — revenue basis:** the stat strip and §10 use "~₹2,892 Cr (+9%)", which is **total income**. Revenue from operations is **₹2,826 Cr (+10.2%)** (screener and company). Fix the FY24–FY26 chart basis (FY24 ₹2,780 and FY25 ₹2,565 are revenue, so the chart mixes bases).
+- **indian-metals-ferro-alloys.html — capacity overstated and the KNR-1 greenfield missing:**
+  - "pushing total capacity past 0.5 million tonnes a year" in FY26 is wrong. The company PPT shows **384k tpa (FY26) → 484k (FY27) → 534k (FY28)**.
+  - The step-up comes from KNR-2 (100k) **plus the KNR-1 100k tpa greenfield** (commissioning Aug–Oct 2026) plus a 50k furnace awaiting environmental clearance. The primer attributes the ramp to "KNR-2 plus debottlenecking" and never mentions KNR-1.
+  - 289 MVA → **355 MVA** at completion.
+- **indian-metals-ferro-alloys.html — FY27 guidance stale:** ~400,000 t → **~380,000 t** (trimmed on the 4-Aug-2026 call: KNR-2 transformer and GCP issues, 15 MVA power shortfall). FY28 475–500k maintained. The refresh (14-Aug) post-dates the call, so this should have been caught.
+- **indian-metals-ferro-alloys.html — export split wrong:** "targets roughly a 60:40 export-to-domestic split". Actual FY26 exports are **85% of revenue** (₹2,396 / 2,826 Cr); Q1 FY27 ~81% (19% domestic). ICRA says ~90% of production; the MD said 95% "at this stage". Present 60:40 as a long-term domestic aspiration only.
+- **indian-metals-ferro-alloys.html — lease life:** the primer says "investors should track lease-renewal timelines". ICRA (Dec-2025): captive mines **valid till 2049 and 2055**. Add this, with the MMDR Sec 8A(6) "2030 or 50 years from grant, whichever is later" explanation. Also verify "Nuasahi": the company's release and ICRA mention two operating mines (Sukinda, Mahagiri).
+- **indian-metals-ferro-alloys.html — promoter stake:** "broadly ~55–60%, approx. — verify" → **58.69%** (unchanged since 2018). FII 2.88%, DII 0.84%.
+- **indian-metals-ferro-alloys.html — debt framing:** "IMFA took on borrowings of roughly ₹958 Cr … re-gearing" is fine on screener, but the company calls itself "net debt-free" (invested funds ₹555 Cr vs LT debt ₹419 Cr, Jun-26). ICRA net debt/OPBDIT was −1.0× (FY25). FCF FY26 was −₹1,016 Cr (capex). Show both bases.
+- **indian-metals-ferro-alloys.html — valuation stale:** m-cap ~₹7,600 Cr → **₹5,887 Cr**; yield ~0.9% → **1.15%**; stock near its 52-week low (₹1,091 vs ₹1,051) despite a record Q1. P/E 11.2× TTM.
+- **indian-metals-ferro-alloys.html — omissions:**
+  - **Q1 FY27 record** (revenue ₹960 Cr, EBITDA ₹281 Cr / 29.3%, PAT ₹191 Cr; realisation ₹119,888/t; cost ₹85,884/t; ore 272,555 t).
+  - ICRA AA upgrade (5-Dec-2025).
+  - Mining EC 1.2 mtpa with ₹1,000 Cr capex (Sukinda opencast→UG 6 lakh tpa; Mahagiri UG 6 lakh tpa).
+  - **135 MW hybrid RE contracted → ~40% non-fossil by mid-2027**; the 120 KLPD ethanol diversification.
+  - **Utkal-C coal block** history (cancelled 2014; re-auctioned to JSPL Feb-2022; capital recovered). Surplus captive power is a RoCE drag (ICRA).
+  - Supreme Court mineral-rights tax contingency.
+  - **South Africa's 62 c/kWh Eskom tariff and smelter restarts**, and the Oct-2026 Chinese tender cut: the primer's price section stops at the FY25 trough / FY26 recovery.
+  - The Q2 FY27 board date (4-Nov-2026, with an interim dividend).
+- **indian-metals-ferro-alloys.html — source label:** "IMFA recommends ₹7.50 final dividend; Q4 PAT up at ₹424.36 Cr". ₹424.36 Cr is the **full-year FY26** PAT, not Q4 (Q4 FY26 was ₹103.44 Cr).
+- **General (both):**
+  - Neither primer mentions **EU CBAM** (definitive from 1-Jan-2026; FeCr and FeMn in scope) or the **EU ferro-alloy safeguard quotas** on India.
+  - Neither mentions the **West Asia war** effects: Nava's Phase II shipping delay; freight for IMFA.
+  - Neither mentions the **rupee at ~₹94.9/$** (a tailwind for IMFA; translation for Nava's US$ earnings).
+  - Market caps are 3–4 months stale (Nava −14%, IMFA −23%).
+
