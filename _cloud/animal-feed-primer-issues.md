@@ -24,4 +24,32 @@
 
 ## From Animal Feed & Aquaculture deep-research pass (2026-10-31, animal-feed-industry.md §4.5)
 
+## From Animal Feed & Aquaculture deep-research pass (2026-10-31, animal-feed-industry.md §4.5)
+
+**avanti-feeds.html**
+- **Attributable PAT:** state **₹606.06 Cr attributable (FY26)**, as printed in the AR MD&A, alongside ₹657 Cr including Thai Union's 40% of AFFPL. FY25 attributable: ₹528.82 Cr.
+- **Net cash:** use **~₹2,450 Cr** (AR: current investments ₹1,252 Cr + cash and bank ₹438 Cr + ₹770 Cr of term deposits with LIC, Bajaj Finance and M&M Finance, less ₹10.5 Cr borrowings). Note that the deposits sit with NBFCs and an insurer.
+- **US exposure:** add the AR geographic note: **US revenue ₹1,050.7 Cr in FY26 (+42%), 17% of group revenue and two-thirds of export revenue.** AFFPL is the **US importer of record**; IEEPA refund claim US$15–20 mn, pending AD/CVD liquidation.
+- **US tariff narrative:** replace any "18% deal" framing with the FR-verified sequence:
+  - 50% from 27-Aug-2025.
+  - Russia penalty removed 7-Feb-2026.
+  - IEEPA collection ended 24-Feb-2026 (SCOTUS ruling of 20-Feb).
+  - Sec 122 10% to 24-Jul-2026; Sec 301 10% from 24-Jul-2026 (forced-labour investigation; Ecuador also 10%).
+  - AD 5.53% (4-Sep-2026); CVD 5.77% (order Dec-2024).
+- **Competitive framing:** add that **Ecuador overtook India as #1 US supplier in Jan–Aug 2026** (NOAA: 196k t vs 180k t). Ecuador has no AD order; its CVD rates are 2.2–15.2%.
+- **Pricing history:** add the **Feb-2026 price hike** before the ~10% hike of 19-Jun-2026. Add FY27 guidance of ~5.85 LT feed and ~19,000 t exports, and "no big capex for two years" apart from pet food.
+- **Governance:** add **directors' remuneration ₹103.6 Cr (~17% of attributable PAT)**, and royalty to Thai Union Feed Mill of only ₹7.9 Cr. Optionally note the unexplained ₹420 Cr of related-party sales to KMP-influenced entities in FY26.
+- **Contingent liability:** US anti-dumping duty **₹17.7 Cr** (POR 2023–24) is disclosed in the FY26 AR.
+- **Regulation:** name the statutes behind the AP feed-price committee: **AP Fish Feed (Quality Control) Act 2020** and **AP Animal Feed (Regulation of Manufacture, QC, Sale & Distribution) Act 2020**.
+
+**godrej-agrovet.html**
+- **Godrej Tyson buyout date wrong:** "FY26 buy-out of Tyson's 49%" → **49% acquired for ₹323.16 Cr; wholly owned from 27-Aug-2024 (FY25)** (AR FY26 Note 51(a)); renamed Godrej Foods Ltd.
+- **Creamline:** state **36.79% acquired in Q1 FY26 for ₹708.58 Cr + 0.46% for ₹8.93 Cr; stake 62.53% → 99.78%** (balance 0.22% pending), not "48% / ₹930 Cr". Equity hit ₹616.33 Cr (FY26), plus ₹371.24 Cr from the GFL buyout (FY25).
+- **Astec:** 67.03% is now primary-verified: rights subscription ₹199.01 Cr, allotted 29-Jul-2025. The primer's "~62%" must go.
+- **Net debt:** **₹1,156 Cr ex-lease** (borrowings ₹1,468 Cr − cash, bank and liquid investments ₹312 Cr); ₹1,262 Cr incl. leases. Add ICRA [ICRA]AA (Stable), reaffirmed 28-Jul-2026; TD/OPBDITA 1.8×; repayments ₹298 Cr (FY27) and ₹620 Cr (FY28).
+- **Working capital:** qualify the NWC story (45 → 25 → 21 days). Trade payables rose 87% to ₹1,651 Cr, and ICRA attributes the improvement to "a growing prevalence of acceptances" (supplier finance).
+- **Feed mix and footprint:** add **cattle ~55–56% of Animal Nutrition, fish ~7%** (CEO, Aug-2026); **14 feed plants + 2 aqua-feed plants + 6 palm mills**; EBIT/t guidance ₹2,050–2,200.
+- **Strategy-review timing:** shrimp feed (with seeds and cattle genetics) was put under strategic review on the **4-May-2026** call. FY27 guidance: early double-digit revenue growth, mid-teens PBT growth (under review after Q1), capex ~₹350 Cr a year.
+- **Related parties:** state that **GAVL pays no brand royalty to Godrej Industries**. GIL charges ₹24.5 Cr of shared expenses; GAVL receives ₹70.5 Cr of dividends from ACI Godrej.
+- **CPO duty mechanism:** basic duty on crude palm **10% → 5%** from 24-Sep-2026 (Notification 31/2026; effective ≈11%). Lower landed CPO lowers GAVL's realisation, and the FFB price formula changed within Q1 FY27 (CEO).
 
