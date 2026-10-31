@@ -568,5 +568,105 @@
   "accent": "#8F5A2B",
   "angle": "Safari Industries (value/mass leader in hard luggage; Gujarat and Jaipur plants; premiumisation; promoter stake), VIP Industries (VIP, Carlton, Skybags, Aristocrat; Bangladesh manufacturing; Piramal family sold control in 2025 to a consortium (Multiples/Mithun Sacheti) — verify; losses and turnaround). Reference peers: Samsonite (American Tourister — listed HK; India business), Mokobara, Uppercase, Nasher Miles (D2C). Forces: travel demand (air passengers, consistent with travel-services.html and hotels.html), polypropylene/polycarbonate prices (crude link, West Asia 2026 shock), China/Bangladesh sourcing vs in-house manufacturing, BIS QCOs on luggage/import duties, e-commerce and quick-commerce channel, D2C brands' share gains, discounting, GST rate on luggage (GST 2.0 — verify), working capital/inventory. KPIs: revenue growth, gross margin, EBITDA margin, A&P %, inventory days, manufacturing share, ROCE. Link travel-services.html, speciality-retail.html, footwear.html.",
   "companies": 2
+ },
+ {
+  "order": 58,
+  "queue_no": 45,
+  "slug": "ferro-alloys",
+  "key": "Ferro Alloys || Ferro Alloys",
+  "name": "Ferro Alloys",
+  "accent": "#7D5A50",
+  "angle": "Nava Ltd (ferro alloys + captive power in India; Zambia coal mining and power (Maamba Collieries — the main profit engine, PPA with ZESCO receivables); healthcare/other) and Indian Metals & Ferro Alloys (IMFA — integrated ferrochrome with captive chrome ore mines in Odisha and captive power; export-led to China/Japan/Korea). Reference peers: Maithan Alloys, Shyam Metalics' ferro alloys, Tata Steel ferro-chrome, global: Glencore-Merafe, Samancor, Eurasian Resources. Forces: ferrochrome prices tied to stainless-steel output (China, Indonesia), South African supply and Eskom power costs, Indian chrome-ore auction rules and mining lease renewals in Odisha (MMDR Act 2021, lease expiries 2030), export duties on ferro alloys/chrome ore (verify), power cost (captive coal plants, coal prices), EU CBAM from 2026 for ferro alloys, Zambia sovereign risk and ZESCO payments/currency (kwacha) for Nava, dividend payouts. KPIs: ferro-alloy tonnes, realisation/t, cost/t, EBITDA/t, captive ore/power share, Maamba generation and receivables, net cash, ROCE. Link iron-steel.html, power-generation.html, coal.html.",
+  "companies": 2
+ },
+ {
+  "order": 59,
+  "queue_no": 47,
+  "slug": "animal-feed",
+  "key": "FMCG || Animal Feed",
+  "name": "Animal Feed & Aquaculture",
+  "accent": "#2F7F7F",
+  "angle": "Avanti Feeds (shrimp feed + shrimp processing/export; Thai Union partner; US-export dependence) and Godrej Agrovet (animal feed — cattle, poultry, aqua; crop protection via Astec LifeSciences; vegetable oil/oil palm; dairy (Creamline) and poultry (Godrej Tyson — Real Good Chicken); Godrej Industries parent). Forces: Indian shrimp exports to the US and US tariffs on Indian shrimp (2025: IEEPA up to 50% then struck down 20-Feb-2026; 10% Section 301 since 24-Jul-2026; anti-dumping/countervailing duties on Indian shrimp — verify current rates), Ecuador competition, shrimp prices and disease, feed raw materials (soymeal, fishmeal, maize — ethanol-driven maize prices, consistent with sugar/agri-products reports), cattle feed demand and milk prices, palm oil prices and oil-palm mission, Astec's losses, poultry cycles. KPIs: feed volumes (tonnes) by species, EBITDA/kg of feed, shrimp processing volumes and export realisation, segment EBIT (Godrej Agrovet), working capital, ROCE, cash. Link agri-products.html, sugar.html, agrochem.html (Astec), packaged-foods.html (dairy).",
+  "companies": 2
+ },
+ {
+  "order": 60,
+  "queue_no": 49,
+  "slug": "home-furnishing",
+  "key": "FMCG || Furniture, Home Furnishing",
+  "name": "Mattresses & Home Furnishing",
+  "accent": "#A55A87",
+  "angle": "Sheela Foam (Sleepwell mattresses, Kurlon acquisition 2023, Furlenco stake, PU foam (technical foam), Joyce Foam Australia; Spain unit) and Wakefit Innovations (D2C mattresses/furniture; IPO 2025 — verify listing date and price; losses/profitability). Reference peers: Duroflex (unlisted), The Sleep Company, Peps, Springfit, Pepperfry/Urban Ladder (furniture), IKEA. Forces: organised share of the mattress market (unorganised coir/cotton), D2C vs dealer distribution, online and quick commerce, BIS QCOs on PU foam raw materials (TDI/polyol — Chinese supply, anti-dumping duties) and crude-linked input costs (West Asia 2026 shock), GST 2.0 rate on mattresses/furniture (verify), real-estate/housing completions as demand driver (link realty.html), store rollouts and ad spend, Kurlon integration synergies, Wakefit's path to profit vs IPO valuation. KPIs: volume growth, revenue/store, gross margin vs TDI/polyol prices, A&P %, EBITDA margin, inventory days, ROCE, cash. Link household-appliances.html, speciality-retail.html, plastics.html.",
+  "companies": 2
+ },
+ {
+  "order": 61,
+  "queue_no": 51,
+  "slug": "medical-devices",
+  "key": "Healthcare || Medical Equipment & Supplies",
+  "name": "Medical Devices & Consumables",
+  "accent": "#2D78B4",
+  "angle": "Poly Medicure (disposables — infusion therapy, cannulas, dialysis, blood management; ~60% exports to Europe/US; US FDA approvals; Italian/US acquisitions — verify), Cupid Ltd (male/female condoms, lubricants, IVD kits; govt/UNFPA tender-driven exports; promoter change and expansion — verify). Reference peers: Hindustan Syringes (unlisted), Becton Dickinson India, Translumina, Healthium, Meril (unlisted); global: BD, B Braun, Terumo. Forces: India's medical-device import dependence (~70%), PLI for medical devices and medical-device parks, NPPA trade-margin caps on devices (stents/knee price controls history), MDR/EU MDR certification costs, US FDA 510(k)s, China+1 sourcing and US tariffs on Chinese medical supplies (opportunity), Section 301 10% on Indian goods since 24-Jul-2026, global tender cycles for condoms (UNFPA, Global Fund), raw materials (medical-grade polymers, latex). KPIs: export share, revenue growth by region, gross margin, EBITDA margin, capex/sales, R&D %, receivable days, ROCE. Link hospitals.html, diagnostics.html, pharma-cdmo-cmo.html.",
+  "companies": 2
+ },
+ {
+  "order": 62,
+  "queue_no": 53,
+  "slug": "cpaas",
+  "key": "IT || IT Enabled Services",
+  "name": "CPaaS & Enterprise Messaging",
+  "accent": "#875AC3",
+  "angle": "Tanla Platforms (A2P SMS aggregation, Wisely/Trubloq blockchain DLT platform for telcos, Karix acquisition; buybacks; past SEBI/ income-tax probes — verify) and Route Mobile (CPaaS; acquired by Proximus (Belgium) in 2024 — open offer completed, now Proximus Global subsidiary — verify delisting/ownership). Reference peers: Sinch, Twilio, Infobip, Kaleyra (Tata Comm), Gupshup, Jio/Airtel's own CPaaS. Forces: A2P SMS volume stagnation vs WhatsApp Business/RCS migration (Meta pricing changes 2025 — per-message pricing), telco termination-fee hikes and their pass-through, TRAI rules on commercial communication (DLT, 2024 URL/OTT whitelisting, spam/fraud measures — verify 2025–26 TRAI/DoT directives), international A2P (grey routes, International Long Distance termination rates), margins compressed by telco pricing, AI-driven conversational platforms, consolidation (Proximus–Route). KPIs: revenue, gross margin %, gross profit per transaction, EBITDA margin, platform vs enterprise revenue, customer concentration, cash and buybacks, ROE. Link telecom-operators.html, it-services.html, software-products.html.",
+  "companies": 2
+ },
+ {
+  "order": 63,
+  "queue_no": 55,
+  "slug": "music-labels",
+  "key": "Media & Entertainment || Music & Content Licensing",
+  "name": "Music Labels",
+  "accent": "#D23C96",
+  "angle": "Saregama India (RPSG group; Carvaan devices, film production (Yoodlee), live events, large catalogue + new-content acquisition spend; acquisitions of Pocket Aces (2024) — verify), Tips Music (Tips Industries renamed; asset-light catalogue licensing; promoter Taurani family). Reference peers: T-Series (unlisted, market leader), Sony Music, Zee Music, Universal Music Group (global comparator — listed Amsterdam). Forces: music streaming paid-subscriber growth in India (Spotify, JioSaavn, YouTube Music, Amazon), YouTube monetisation and Shorts, OTT/streaming platform licensing deals (multi-year minimum guarantees — renewals e.g. Tips with Spotify/Meta), loss of Wynk Music/Resso exits, AI-generated music and copyright, Copyright Act/IPRS royalty disputes, new-content spend vs returns (catalogue amortisation), film releases. KPIs: revenue by stream (digital licensing, sync, physical/Carvaan, events), content spend % of revenue, EBITDA margin, catalogue size, cash, ROE, P/E. Link tv-broadcasting.html, gaming.html, internet-platforms.html.",
+  "companies": 2
+ },
+ {
+  "order": 64,
+  "queue_no": 57,
+  "slug": "aluminium",
+  "key": "Non - Ferrous Metals || Aluminium",
+  "name": "Aluminium",
+  "accent": "#5A7186",
+  "angle": "Hindalco Industries (Indian aluminium + copper (Birla Copper) + Novelis (US-listed IPO plans, Bay Minette rolling mill cost overrun, US Section 232 50% tariff on aluminium imports from Jun-2025 — impact on Novelis/US scrap; Oswego fire 2025 — verify)) and NALCO (PSU; bauxite/alumina export cost leader; captive mines in Odisha; new smelter expansion). Reference: Vedanta aluminium (covered in diversified-metals.html — keep consistent), Balco, Alcoa, Rusal, Chinese capacity cap (45 Mt). Forces: LME aluminium price and Midwest/Japan premiums, alumina price spike 2024–25 and normalisation (NALCO margin swing), coal/power costs (captive vs grid), carbon (CBAM 2026, green aluminium), China capacity cap, India demand (EVs, packaging, power transmission — link cables.html, power-transmission.html), import duties and BIS norms, scrap, Novelis margins/US tariffs. KPIs: metal/alumina volumes, cost of production ($/t), EBITDA/t (India aluminium upstream/downstream, Novelis adjusted EBITDA/t, copper), net debt/EBITDA, capex, dividend, ROCE. Link diversified-metals.html, copper.html, cables.html.",
+  "companies": 2
+ },
+ {
+  "order": 65,
+  "queue_no": 59,
+  "slug": "lubricants",
+  "key": "Automobile & Ancillaries || Lubricants",
+  "name": "Lubricants",
+  "accent": "#00843D",
+  "angle": "SINGLE-MEMBER: Castrol India (BP plc subsidiary 51%; BP's 2025 strategic review/sale of global Castrol to Stonepeak (verify deal, price and impact on Castrol India — mandatory open offer?); calendar year ending December). Cover India's lubricants market with reference peers: Gulf Oil Lubricants (Hinduja), Tide Water Oil (Veedol), IOCL Servo, HPCL, BPCL MAK, Shell, Valvoline Cummins, Savita Oil. Forces: base-oil prices (crude-linked; West Asia 2026 shock) and pricing power, volume vs value (premiumisation, synthetics), EV transition threat to engine oil (2W EVs especially), longer drain intervals, workshop/bazaar channel vs OEM fill, rural demand, BS-VI, high payout/net cash model, ad spend. KPIs: volume (mn litres), realisation/litre, gross margin/litre, EBITDA/litre, A&P %, payout, ROE, net cash. Link two-wheelers.html, passenger-vehicles.html, refining.html.",
+  "companies": 1
+ },
+ {
+  "order": 66,
+  "queue_no": 61,
+  "slug": "airline",
+  "key": "Aviation || Airline",
+  "name": "Airlines",
+  "accent": "#2D0FD2",
+  "angle": "SINGLE-MEMBER: InterGlobe Aviation (IndiGo — ~64–65% domestic share, international expansion incl. A321XLR and wide-body (leased 787s from Norse; A350 orders), IndiGoStretch business class, codeshares; Rahul Bhatia/Gangwal stake sales). Reference peers: Air India group (Tata — merged with Vistara Nov-2024; AI171 crash Jun-2025 and its aftermath — verify), Akasa Air, SpiceJet (distressed), Air India Express; global LCCs (Ryanair, Southwest). Forces: duopoly structure, fares and yields, ATF prices (West Asia 2026 crude shock; ATF taxes/VAT), rupee depreciation (leases in $), Pratt & Whitney GTF engine groundings (AOG aircraft, damp leases, compensation), aircraft delivery delays (Airbus), airport capacity (Navi Mumbai, Jewar/Noida — link airports report if live), DGCA pilot FDTL rules (2025–26 — verify impact), Ind AS 116 lease accounting and forex losses distorting PAT. KPIs: ASKs, RPKs, load factor, yield/RASK, CASK ex-fuel, fuel CASK, EBITDAR, fleet size and grounded aircraft, cash and lease liabilities, PAT ex-forex. Link travel-services.html, hotels.html, refining.html (ATF).",
+  "companies": 1
+ },
+ {
+  "order": 67,
+  "queue_no": 63,
+  "slug": "ceramic-tiles",
+  "key": "Construction Materials || Ceramics",
+  "name": "Ceramic Tiles",
+  "accent": "#C46A2E",
+  "angle": "SINGLE-MEMBER: Kajaria Ceramics (largest tile maker; own plants + JVs; sanitaryware/faucets (Kerovit), plywood (Kajaria Plywood) and adhesives; Nepal JV; leadership succession). Reference peers: Somany Ceramics, Asian Granito, Orient Bell, Cera (sanitaryware — separate report), Morbi cluster (unorganised, ~70% of capacity), Chinese tiles. Forces: Morbi gas prices (propane/natural gas, Gujarat Gas pricing — link gas-distribution.html), Morbi export collapse (Gulf/US anti-dumping, freight) causing domestic oversupply and price war, real-estate completions demand (link realty.html), GST 2.0 rate on tiles (verify), anti-dumping on Chinese vitrified tiles (expiry/renewal — verify), capacity utilisation, dealer network, branded share gains, working capital. KPIs: volume (mn sq m), realisation/sq m, gas cost/sq m, EBITDA margin, utilisation, A&P %, net cash, ROCE. Link plywood-laminates.html, paints.html, glass.html.",
+  "companies": 1
  }
 ]
