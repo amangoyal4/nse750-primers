@@ -921,7 +921,7 @@ Alternates: ZESCO arbitration arrears **US$13.4 Mn** (14-Aug-2026, vs ~US$518 Mn
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Nava | 4,291 | +7.7 | 1,718 | 40.0 | 1,039 | ~787 [E] | 1,212 | +1.6 | 43.4 | 333 (attrib. ~277 [E]) | 14,416 | 71.0 | 19.0 (attrib. TTM) | ~8.9× | SiMn sales 29,133 t; Maamba 526 MU (Q1) | Maamba PLF 89.3%; ZESCO arrears US$13.4 Mn |
 | IMFA | 2,826 | +10.2 | 588 | 20.8 | 425 | 425 | 960 | +49.5 | 29.3 | 193 | 5,887 | 29.0 | 11.2 (TTM) | ~11.0× (8.7× TTM) | FeCr 79,268 t sold (Q1) | EBITDA/t ₹35,484 (Q1) [E] |
-| **Total (2)** | **7,117** | **+8.7** | **2,306** | **32.4** | **1,464** | **~1,212 [E]** | **2,172** | **+18.4** | **37.2** | **526 (attrib. ~468 [E])** | **20,303** | 100 | **15.8× (agg. m-cap ÷ agg. attributable TTM PAT 1,284)**; 13.9× on FY26 pre-minority PAT | **~9.4×** | — | — |
+| **Total (2)** | **7,117** | **+8.7** | **2,306** | **32.4** | **1,464** | **~1,212 [E]** | **2,172** | **+18.4** | **37.2** | **526 (attrib. ~470 [E]; 277 + 193)** | **20,303** | 100 | **15.8× (agg. m-cap ÷ agg. attributable TTM PAT 1,284)**; 13.9× on FY26 pre-minority PAT | **~9.4×** | — | — |
 
 Notes:
 - All rows are screener consolidated. IMFA consolidated ≈ standalone. Nava's company EBITDA (₹1,905 Cr) is **not** used in the sums.
@@ -1100,3 +1100,802 @@ All aggregates are **straight sums of the two company rows on one basis**: scree
 - **Steel safeguard [V-snip]:** https://www.steelorbis.com/steel-news/latest-news/india-imposes-phased-three-year-safeguard-duty-on-steel-imports-from-china-vietnam-nepal-1427200.htm · https://www.taxscan.in/top-stories/government-shields-indian-steel-sector-with-three-year-safeguard-duty-plan-amid-import-surge-1441347
 - **Zambia / kwacha / Maamba financing [V-snip]:** https://www.zambiaisback.com/blog-1-1/zambia-investor-briefing-july-2026 · https://mg.co.za/?p=685889
 - **Nava Q2 timing [V-snip]:** https://univest.in/blogs/nava-q2-results-fy27-preview-date-expectations · https://www.investywise.com/?p=14712
+
+---
+
+# PART 4 — Deep-research supplement (2026-10-31)
+
+Second-pass, primary-source supplement for the writer. **Where Part 4 conflicts with Parts 1–3, Part 4 wins** (see §4.0 Supersedes). Q2 FY27 is still unreported for both members (IMFA board 4-Nov-2026; Nava date not filed), so Q1 FY27 (Jun-2026) stays the latest quarter.
+
+**What changed most (headline corrections):**
+- **Nava's ferro-alloy segment is now sourced, in ₹:** FY26 segment revenue **₹1,200.5 Cr** (gross; ₹1,192.1 Cr net of inter-segment), segment result (PBIT before other income) **₹31.1 Cr = 2.6% margin**. FY22 was **₹333 Cr (26%)** and FY24 a **loss of ₹71.7 Cr**. The alloy business earned real money only in the FY22 boom.
+- **Nava is net cash, not net debt.** Consolidated cash + liquid investments were **₹3,446 Cr** at Mar-2026 (AR "liquidity position"); borrowings **₹2,220.9 Cr** → **net cash ≈ ₹1,225 Cr**. The dossier's "net debt ₹818 Cr (screener basis)" left out ₹2,098 Cr of cash.
+- **Nava's minority interest is sourced, and the "FY23/FY24 near-zero NCI" oddity was a screener artefact.** NCI share of profit: FY22 ₹55.6 Cr · FY23 ₹294.0 Cr · FY24 ₹312.3 Cr · FY25 ₹342.5 Cr · FY26 ₹251.9 Cr. Attributable PAT: **₹517.7 / 927.7 / 943.7 / 1,091.5 / 788.1 Cr**. Screener's FY23–FY24 EPS (₹42.10 / ₹43.28) is pre-minority.
+- **Maamba tariffs:** the Phase II PPA is **9.5 US¢/kWh** (100% of net capacity, ZESCO) and the 100 MW solar PPA is **7.80 US¢/kWh** for 20 years (AR FY26). Phase I's tariff is not disclosed; the implied average is ≈ US¢11/kWh [E].
+- **Phase II funding:** debt tied up is **US$290 Mn** (not 300), equity US$100 Mn; **US$214.6 Mn drawn at 31-Mar-2026**. Cost is US$400 Mn. The AR confirms the "INR" amounts on the call were **US$**.
+- **IMFA five-year volumes are sourced** (FY22–FY26 production, sales, domestic/export tonnes, ore by mine, power). FY26 domestic sales were **48,769 t = 18%** of tonnes.
+- **Nuasahi is closed:** IMFA has applied to surrender it, and the Odisha surrender order is pending. Only Sukinda and Mahagiri operate.
+- **The IMFA Q4 FY26 call (27-May-2026) gave figures not in Parts 1–3:**
+  - Global FeCr output **fell 9.4% in CY2025 to just under 16 mt**; global stainless was **64.157 mt**.
+  - The Eskom path to ferrochrome smelters is **R1.36 → R0.877 → R0.62/kWh**. The transcript writes "$"; the units are rand.
+  - KNR complex cost saving guided at **₹3,000–4,000/t** once fully online (the Q1 call said ₹1,500–2,000/t).
+  - At least **200 kt/yr to be allocated to domestic** customers over time.
+  - Ore target **1.0 mt in FY27**, 1.2 mt later, all underground.
+  - Capex: **~₹450 Cr in FY27**, ~₹700 Cr later (mines).
+
+**Contents of Part 4 (in the order appended):**
+- 4.2A Nava (guidance digest, KPI table, 5-year, 8-quarter, AR findings)
+- 4.2B IMFA (same)
+- 4.3 Industry data upgraded
+- 4.0 Supersedes
+- 4.1 Verification table (40 figures)
+- 4.4 Gap log
+- 4.5 New insights and primer issues
+
+Tags in Part 4: **[V]** = fetched and read this session from the named primary document (URL in the row or in §4.6). **[V-sec]** = fetched this session, but from a secondary/aggregator page. **[E]** = arithmetic or estimate. **[K]** = memory.
+
+---
+
+## 4.2A Nava Limited (NAVA · 513023) — primary-document pack
+
+**Documents read this session (all fetched and text-extracted):**
+- **FY26 Annual Report** (54th; Sep-2026): https://www.navalimited.com/wp-content/uploads/2026/09/ar_pdf_2025-26_Annual_Report.pdf (also BSE AttachHis/5d27d16c-1923-47af-a806-176d63b1f4bf.pdf). Read: Directors' Report, MD&A, consolidated balance sheet, notes 33 (contingents), 37 (segments) and the NCI notes.
+- **Quarterly results with segment notes and NCI:**
+  - Q4 FY25: https://www.navalimited.com/wp-content/uploads/2025/05/fs_pdf_07_2024-25_q4.pdf
+  - Q1 FY26: …/2025/08/fs_pdf_01_2025-26_q1.pdf
+  - Q2 FY26: …/2025/11/fs_pdf_03_2025-26_q2.pdf
+  - Q3 FY26: …/2026/02/fs_pdf_05_2025-26_q3.pdf
+  - FY23 Q4 (FY22/FY23 columns): https://www.navalimited.com/pdf/financials/financial-statements/2022-2023/fs_pdf_04_2022-23_q4.pdf
+  - **The Q4 FY26 (…/2026/05/fs_pdf_07_2025-26_q4.pdf) and Q1 FY27 (…/2026/08/fs_pdf_01_2026-27_q1.pdf) result statements are scanned images with no text layer**, so their segment tables were not extracted. FY26 segment figures come from the AR instead; the Q4 FY26 quarter is derived as FY minus 9M.
+- **Investor presentations:** Q4 FY25 (…/2025/05/ip_pdf_04_FY2025_q4.pdf), Q2 FY26 (…/2025/11/ip_pdf_02_FY2026_q2.pdf), Q3 FY26 (…/2026/02/ip_pdf_03_FY2026_q3.pdf), Q4 FY26 (…/2026/05/ip_pdf_04_FY2026_q4.pdf), Q1 FY27 (BSE c4e23dee…).
+- **Call transcripts:**
+  - Q4 FY26, call 15-May-2026 (filed 20-May): https://www.navalimited.com/wp-content/uploads/2026/05/icc_04_pdf_13_20may2026.pdf
+  - Q1 FY27, call 14-Aug-2026: BSE 25c1eb63…
+- **Buyback public announcement** (21-Feb-2025): https://www.navalimited.com/wp-content/uploads/2025/02/bb_pdf_01_2025_21feb2025.pdf
+
+### 4.2A.1 Management-commentary digest (paraphrased; source and date per line)
+
+**Group / margins**
+- Consolidated EBITDA margin "you can assume 35–40%" for FY27, because the Phase I tax holiday has ended and Phase II is coming. MD, Q4 FY26 call, 15-May-2026 [V]. Repeated on the Q1 FY27 call (14-Aug-2026): MEL standalone sustainable margin 45–50%; consolidated 35–40% after eliminations [V].
+- ECL write-backs are over. FY26 reversal was US$15.5 Mn (₹137.1 Cr). Only **US$1.3 Mn** of provision is left, to be reversed in FY27. CFO, 15-May-2026 [V]. Q1 FY27 reversal was ₹4.4 Cr [V].
+- Deferred tax is kwacha-driven and non-cash. The kwacha rose **~32% vs US$ in FY26**. MEL booked a **US$29.9 Mn DTL** in FY26 on unrealised kwacha gains; management says it reverses if the kwacha weakens [V AR; V Q4 call].
+- **MEL power division is taxed at 50% of the normal rate (≈15% effective) from FY26**, after the tax holiday expired [V AR]. Phase II has no tax holiday yet; one is being sought [V Q1 call].
+- A Zambian statutory instrument (late 2025) requires local transactions in kwacha, but **power assets are ring-fenced to stay in US$**. PPAs, O&M and fuel are US$-based. Kwacha employee costs are hedged by kwacha coal sales. MD, 15-May-2026 [V].
+
+**Zambia projects**
+- **Phase II (300 MW):**
+  - Cost US$400 Mn; **debt US$290 Mn tied up** with Zambian banks/FIs; sponsors' equity **US$100 Mn contributed**; **US$214.6 Mn drawn by 31-Mar-2026** (US$175.6 Mn at 30-Sep-2025) [V AR; V Q2 FY26 PPT].
+  - **PPA with ZESCO for 100% of net capacity at 9.5 US¢/kWh**; revenue **US$180–200 Mn/yr** at full operation [V AR].
+  - COD guidance has slipped three times:
+    - "Q4 FY27 / Jan–Mar 2027" (AR, dated 15-May-2026) [V]
+    - "early part of January 2027" (MD, 15-May-2026) [V]
+    - **"Q2 of FY27-28 … June–July 2027"** (Q1 call, 14-Aug-2026) [V]
+- **Maamba Solar (100 MW):**
+  - Capex US$90 Mn; debt US$63 Mn tied up (US$13.4 Mn drawn Mar-26); equity US$27 Mn (fully paid) [V AR].
+  - **20-year PPA at 7.80 US¢/kWh**; revenue **US$20–22 Mn**, PAT **US$6–7 Mn** a year (CFO, 15-May-2026) [V].
+  - Commissioned and evacuating from 24-Sep-2026 [V screener filing, Part 1].
+  - Ownership: 65% Nava Global / 35% ZCCM-IH, after Nava Global bought MEL's 65% in FY26 [V AR].
+- **ZESCO award:**
+  - US$518.1 Mn awarded; **US$490.1 Mn received by Mar-2026** → US$28.0 Mn outstanding (US$160.6 Mn at Mar-2025); **US$132.5 Mn of arrears collected in FY26** [V AR].
+  - Then **US$18.4 Mn (30-Jun-2026) → US$13.4 Mn (14-Aug-2026)** [V Q1 PPT]. The MD said "in the next six months we should get it" (May-2026) [V].
+- **MEL cash distribution FY26:** MEL **repaid all shareholder loans and paid a US$175 Mn dividend**; Nava Global's 65% share = US$114 Mn. Nava Global then paid Nava a US$24 Mn dividend and did a **US$50 Mn buyback** (Nava's standalone exceptional gain ₹403.95 Cr), and declared a further **US$15 Mn final dividend for FY26** [V AR].
+- **Pending equity commitments** ≈ US$130 Mn across the group (≈US$17.5 Mn still to go into Maamba Phase II; the rest into agri). **Agri debt of ≈US$100 Mn** is still to be raised (sugar). The analyst summed ~₹1,200 Cr of incremental debt (agri + solar); the MD did not dispute it (15-May-2026) [V].
+- **Agri:**
+  - Kawambwa integrated sugar: **US$200 Mn**; 4,500 ha cane, 2,500 TCD, 30 KLPD distillery, 20 MW cogen (moved from Dharmavaram, AP); COD **Mar-2028**; revenue US$55–60 Mn/yr [V AR; V Q1 call].
+  - Avocado: US$55 Mn equity-funded; 400k trees (planting complete by May-2027); ~1,000–1,200 t in FY27, roughly doubling each year to ~25,000 t; **peak revenue ~US$22 Mn after 2032** [V AR; V Q4 call].
+
+**Ferro alloys**
+- India produced **~4 mt of manganese alloys in FY26, ~1 mt of it meant for export** (Europe and the Middle East). EU safeguard TRQs and price thresholds, US tariffs and the Middle-East conflict pushed export material back into India and **compressed domestic prices**. AR MD&A and ED Nikhil Devineni, 15-May-2026 [V].
+- **Contract mix: ~40% annual contracts with two Japanese mills; 40–50% quarterly fixed-base contracts with large Indian private steelmakers; only 10–15% spot** [V AR; V Q4 call]. This replaces the "~70% pre-committed" figure in Part 1.
+- **FY27 SiMn volume ~130,000 t** (Odisha furnaces shut Apr–Jun 2026). **Ferro-silicon discontinued**; it is now only recovered from residue. Maximum capability **~160,000 t/yr**. Management weighs alloy production against selling the power to the grid (15-May-2026) [V].
+- Metals division FY26 (standalone MD&A): operating revenue **₹1,200.5 Cr (+29.3%)**; **PBT ₹36.3 Cr vs ₹26.9 Cr** [V AR].
+- Volumes:
+  - Telangana: SiMn 87,276 t produced (+43%), 92,835 t sold (+63%; exports almost doubled).
+  - Odisha: 40,210 t produced (−7%), 41,575 t sold.
+  - FeSi: 5,966 t vs 13,490 t; FeSi was stalled by US tariffs and EU quotas [V AR].
+
+**India power**
+- 714 MW operating across India and Zambia. 144 MW of standalone capacity is earmarked for captive use.
+  - Odisha 150 MW: 30 MW CPP + **120 MW IPP from 1-Nov-2025**.
+  - Telangana 114 MW CPP.
+  - NBEIL 150 MW IPP.
+  - (Part 1's "434 MW installed / 414 operating" counts the idle units too.) [V AR]
+- **Singareni cut coal prices ~₹740/t from Sep/Oct-2025** and allocated the full requirement under SHAKTI B-III. A **5-year, 50 MW PPA with Tamil Nadu at ₹5.95/kWh from Feb-2026** stabilises Odisha. FY27 realisation guide is **~₹5.50/kWh** (exchange prices −13% YoY) [V AR; V Q4 call].
+- FY26 PLFs: Telangana 114 MW 74.5% (66.1%); Odisha 150 MW 77.2% (71.5%); **NBEIL 150 MW 63.5% (69.9%)**. NBEIL revenue ₹441.6 Cr, PBT ₹79.5 Cr, PAT ₹59.3 Cr. Standalone 264 MW power revenue ₹834 Cr, PBT ₹179.7 Cr [V AR].
+
+**Exploration / other**
+- Côte d'Ivoire manganese (Nava Resources CI, 340.42 km²): metallurgical reports due **Dec-2026**; exploitation-permit application in the next ~12 months. Nava Alloys CI plans a ferro-alloy plant + biomass power (40 ha being acquired) [V AR; V Q4 call].
+- Zambian lithium (Mapatizya, Kalomo): **on hold**, because a competing tin licence over part of the area is under ministry review (15-May-2026) [V].
+- Land bank (Nacharam, Hyderabad; Dharmavaram, AP): a third party will advise on sale vs JV. The MD declined to value it [V Q4 call].
+
+### 4.2A.2 Concall / segment KPI table (Nava)
+
+| KPI | FY25 | FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|
+| Ferro-alloy segment revenue, gross (₹ Cr) | 928.8 | **1,200.5** | n.a. (scanned) | AR note 37; FY25 Q4 results [V] |
+| Ferro-alloy segment result, PBIT (₹ Cr) / margin | 22.8 / 2.5% | **31.1 / 2.6%** | n.a. | AR note 37 [V] |
+| Energy segment revenue gross / result (₹ Cr) | 3,652.9 / 1,404.1 | 3,747.7 / **1,409.4** (incl. ₹137.1 Cr ECL reversal) | n.a. | AR [V] |
+| Mining segment revenue gross / result (₹ Cr) | 456.0 / 148.2 | 479.6 / 109.6 | n.a. | AR [V] |
+| Revenue by customer location, FY26 (₹ Cr) | India 1,492.0; Zambia 2,033.0; Japan 264.1 | **India 1,399.6; Zambia 2,185.5; Japan 383.0**; USA 139.2; UAE 96.5; HK 62.4; RoW 24.7 | — | AR note 37(b) [V] |
+| Top-2 power customers' share of group revenue | 66.6% | **56.9%** (ZESCO + one other) | — | AR [V] |
+| SiMn production / sales (t) | 104,165 / 94,686 | 127,486 / 134,410 | 24,462 / 29,133 | AR; PPT [V] |
+| FeSi production / sales (t) | 13,490 / 12,162 | 5,966 / 8,039 | 231 / 353 | AR; PPT [V] |
+| Implied alloy revenue per t sold (₹/t) [E] | ≈87,000 (928.8 Cr ÷ 106.8k t) | **≈84,300** (1,200.5 Cr ÷ 142.4k t) | +₹3,200/t QoQ (company) | E on V |
+| Implied segment PBIT per t (₹/t) [E] | ≈2,100 | **≈2,200** | — | E on V |
+| MEL availability / PLF | 89.8% PLF | 89.9% / **89.6%** | 89.3% PLF | AR; PPT [V] |
+| MEL gross generation / sold (MU) | — / 2,109 | **2,354 / 2,115**; aux 9.8% (10.3%) | 526 sold | AR [V] |
+| MEL revenue / EBITDA / PAT (US$ Mn) | 245.2 / 155.4 / 115.5 | **256.0 / 151.4 / 81.4** | 65.3 / 34.0 / 16.7 | AR; PPT [V] |
+| MEL revenue / EBITDA / PAT (₹ Cr) | 2,073.8 / 1,314.1 / 976.5 | **2,260.5 / 1,336.6 / 719.0** | — | AR MD&A [V] |
+| MEL coal external sales (t) | 442,728 | **471,976**; mining revenue US$54.0 Mn (incl. captive); PBT ₹138.7 Cr | 121 kt | AR [V] |
+| MEL ECL reversal (US$ Mn) | 17.1 | **15.5** (residual 1.3) | 0.5 | AR; PPT [V] |
+| ZESCO award outstanding (US$ Mn) | 160.6 (Mar-25) | **28.0** (Mar-26) | 18.4 (Jun-26) → 13.4 (14-Aug) | AR; PPT [V] |
+| MEL total receivables (US$ Mn) | 202.0 (Mar-25) | 77.4 | 67.9 | PPTs [V] |
+| India power merchant MU / avg PLF | 1,551 / 69.4% | **1,607 / 71.5%** | 565 merchant (351 + 214) / 85.4% | AR; PPT [V] |
+| Implied Maamba Phase I tariff [E] | — | **≈US¢11.1/kWh** ((256.0 − ~21 external coal) ÷ 2,115 MU) | — | E on V |
+| Phase II PPA / solar PPA | — | **9.5 US¢ / 7.80 US¢ per kWh** | — | AR [V] |
+| Dividend per share (₹) | (FY25: payout 21% per screener) | **8.50 = interim 3.00 (7-Nov-25) + final 5.50 (15-May-26)**; final outgo ₹155.65 Cr | — | AR [V] |
+
+### 4.2A.3 Five-year history FY22–FY26 (consolidated, ₹ Cr)
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | Source |
+|---|---|---|---|---|---|---|
+| Revenue from operations | 3,347.7 | 3,528.1 | 3,818.1 | 3,983.5 | **4,290.9** | Results/AR [V]; = screener |
+| Screener OP (OPM) | 1,319 (39%) | 1,569 (44%) | 1,731 (45%) | 1,835 (46%) | 1,718 (40%) | screener [V, Part 2] |
+| Company EBITDA (incl. OI) | — | — | — | 1,986.8 | **1,905.2** | AR/PPT [V] |
+| PBT | 888.9 | 1,264.2 | 1,378.3 | 1,608.5 | **1,502.0** | Results/AR [V] |
+| **PAT (pre-minority)** | 573.3 | 1,221.7 | 1,256.1 | 1,434.0 | **1,038.5** | Results/AR [V] |
+| **NCI share of profit** | **55.6** | **294.0** | **312.3** | **342.5** | **251.9** | Results/AR [V] |
+| NCI as % of PAT | 9.7% | 24.1% | 24.9% | 23.9% | 24.3% | E on V |
+| **PAT attributable to owners** | **517.7** | **927.7** | **943.7** | **1,091.5** | **788.1** | Results/AR [V] |
+| Ferro-alloy seg. revenue (gross) / result | 1,271.5 / **333.2 (26.2%)** | 1,057.6 / 135.5 (12.8%) | 873.3 / **−71.7** | 928.8 / 22.8 (2.5%) | 1,200.5 / **31.1 (2.6%)** | Results/AR [V] |
+| Power/Energy seg. revenue (gross) / result | 2,226.0 / 315.8 | 2,667.5 / 929.9 | 3,419.1 / 1,403.7 | 3,652.9 / 1,404.1 | 3,747.7 / 1,409.4 | Results/AR [V] (FY25+ restated to include project services) |
+| Mining seg. revenue (gross) / result | 363.1 / 166.5 | 369.6 / 65.7 | 447.9 / 132.7 | 456.0 / 148.2 | 479.6 / 109.6 | Results/AR [V] |
+| Borrowings (Mar) | 3,587 | 3,074 | 414 | 888.4 | **2,220.9** | screener FY22–24 [V]; BS FY25–26 [V] |
+| Cash + bank + current investments (Mar) | n.f. | n.f. | n.f. | ≈1,489 (989.4 + 55.4 + 444.4) | **≈3,462.7** (2,098.5 + 16.3 + 1,347.9); AR "liquidity" ₹3,446 Cr | AR BS [V] |
+| **Net debt (+) / net cash (−)** | n.f. | n.f. | n.f. | ≈ −600 (−1,198 incl. ₹597 Cr NC investments) [E] | **≈ −1,225 (net cash)** [E on V] | — |
+| NCI in equity (Mar) | 723.0 (Mar-22) | 1,082.2 | 1,411.8 | 1,800.3 | **2,018.8** | Results/AR [V] |
+| Capex (₹ Cr) | — | — | — | 851.9 | **1,807.2** | AR [V] |
+| DPS (₹) | payout 17% | 7% | 5% | 21% | **8.50 (31%)** | AR [V]; screener payout [V] |
+| Shares (Cr, FV ₹1) | — | — | 29.03 | **28.31** (after the ₹360 Cr buyback, Mar-2025) | 28.31 | Results; buyback PA [V] |
+
+Notes:
+1. FY22–FY23 segment figures come from the FY23 Q4 consolidated results (segment "Power" there = "Energy" later; FY23 also had an "Unallocated" segment of ₹333.3 Cr revenue / ₹130.5 Cr result).
+2. Segment "result" is profit before tax, other income and finance cost; it is not EBITDA. Alloy segment depreciation is only ~₹9–10 Cr/yr, so alloy EBITDA ≈ result + ₹10 Cr: **FY26 ≈ ₹41 Cr; FY25 ≈ ₹32 Cr** [E]. CRISIL's "₹40 Cr FY25" is close.
+3. **FY24 alloy loss (−₹71.7 Cr) and FY22 profit (₹333.2 Cr) bracket the cycle.** The primer's "mid-teens margin" was true only in FY22–FY23.
+
+### 4.2A.4 Eight-quarter trend (Q2 FY25 → Q1 FY27)
+
+| Quarter | Rev (₹ Cr) | OP (₹ Cr) | PAT pre-min. | NCI | **PAT attrib.** | Alloy seg. rev / result | Energy seg. result | MEL PLF | MEL EBITDA (US$ Mn) | SiMn sales (t) | India PLF |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 900 | 414 | 332.0 | ~80–81 | ~251 | 181.5 / 11.0 | 290.1 | 84.5% | 37.2 | 16,694 | 68.4% |
+| Q3 FY25 (Dec-24) | 842 | 450 | 353.3 | 102.9 | 250.3 | 166.0 / −9.7 | 351.3 | 94.2% | 44.7 | 17,358 | 53.2% |
+| Q4 FY25 (Mar-25) | 1,018 | 382 | 302.8 | 68.4 | 234.4 | 349.1 / 2.0 | 296.3 | 83.6% | 31.5 [E: FY − 9M] | 37,645 | 69.1% |
+| Q1 FY26 (Jun-25) | 1,193 | 588 | 399.1 | 91.1 | 308.0 | 291.4 / 13.6 | 488.7 | 95.2% | 50.7 (restated 51.0) | 29,789 | 86.6% |
+| Q2 FY26 (Sep-25) | 964 | 315 | 177.5 | 48.0 | 129.5 | 276.9 / 2.8 | 275.6 | 80.4% | 25.6 | 32,110 | 65.8% |
+| Q3 FY26 (Dec-25) | 991 | 443 | 325.7 | 103.7 | 222.0 | 266.2 / 0.2 | 327.1 | 96.6% | 46.5 | 31,648 | 54.0% |
+| Q4 FY26 (Mar-26) | 1,143 | 371 | 136.3 | ~9.1 [E: FY − 9M] | ~127 | 366.0 / 14.5 [E: FY − 9M] | 318.0 [E] | 86.0% | 28.6 | 40,863 | 79.9% |
+| **Q1 FY27 (Jun-26)** | **1,212** | **526** | **332.8** | ~55 [E: EPS 9.80 × 28.31 Cr] | **~277** | n.a. (scanned) | n.a. | **89.3%** | **34.0** | 29,133 | **85.4%** |
+
+Sources:
+- Revenue and OP: screener [V, Part 2].
+- PAT and NCI: quarterly results PDFs [V].
+- Segment data: consolidated segment notes [V].
+- MEL and volumes: PPTs [V].
+
+Notes:
+- The Q2 FY25 NCI is ₹80.1 Cr in the Sep-25 file's comparative column, against ₹80.9 Cr derived from H1 − Q1. That is an OCR ambiguity, so the table shows ~80–81.
+- The Q1 FY26 MEL quarter was restated: the Q1 FY27 PPT shows 68.7/51.0/34.2, against the original 65.8/50.7/33.9.
+
+**Reading the quarters:**
+- **(i)** The alloy business ran at ~zero to 5% segment margin in every quarter of the last eight.
+- **(ii)** Group profit swings come from MEL maintenance quarters (Q2 and Q4 each year: PLF 80–86%) and from kwacha deferred tax. Q4 FY26 PAT of ₹136 Cr reflects a 58% tax rate.
+- **(iii)** NCI collapsed to ~₹9 Cr in Q4 FY26, because MEL's PAT was only US$2.1 Mn in that quarter (DTL).
+
+### 4.2A.5 Annual-report findings (FY26 AR)
+
+- **Balance sheet (consolidated, 31-Mar-2026, ₹ Cr) [V]:**
+  - Cash and cash equivalents 2,098.5; other bank balances 16.3; current investments 1,347.9 (liquid MFs and debt products, per the CFO); non-current investments 60.6.
+  - Borrowings: non-current 2,173.2 + current 47.7 = **2,220.9**.
+  - DTL 596.7 (doubled on the kwacha). Trade receivables 948.7 (current; Mar-25: 1,409.3 + 337.6 non-current). CWIP 2,184.5. Goodwill 523.4.
+  - Equity attributable 8,745.3; **NCI 2,018.8**.
+- **Related parties / group structure [V]:**
+  - 18 subsidiaries.
+  - The Nava Global → MEL (65%) / MSEL (65%) / Nava Alloys CI / Nava Resources CI chain. Nava Resources CI was moved from Nava Ltd to Nava Global in FY26.
+  - O&M is in-group: Nava Energy Pte (Phase II) and Nava Energy Zambia (solar).
+  - The sugar EPC was awarded to **Nava Bharat Projects Ltd (intra-group)**. The writer should flag intra-group EPC as a governance item.
+  - Board: P. Trivikrama Prasad (ex-MD, related to the Chairman) continues as non-executive director; Zambian lawyer M. Chibesakunda (also on MEL's board) is re-appointed as an independent director [V Q4 results outcome].
+- **Contingent liabilities [V note 33]:**
+  - Guarantees (excluding financial guarantees) ₹677.1 Cr.
+  - Telangana cross-subsidy-charge dispute ₹54.3 Cr (up from ₹14.9 Cr).
+  - NPDCL grid-support-charge interest claim ₹86.9 Cr (assessed remote).
+  - Income-tax demands across FY05–FY24 (largest ₹20.8 Cr for FY10).
+  - Customs duty on imported coal (Odisha) ₹2.1 Cr.
+  - Nothing material relative to ₹8,745 Cr of equity.
+- **Risks named in the MD&A [V]:**
+  - EU TRQs and US tariffs on alloys.
+  - Merchant-tariff compression from daytime solar.
+  - ZESCO concentration (56.9% of revenue from two power customers).
+  - Kwacha translation/tax.
+  - Construction risk on Phase II, sugar and avocado.
+- **Capital-allocation history (verified items):**
+  - 2025 tender buyback: **72 lakh shares at ₹500 = ₹360 Cr (2.48% of equity)**, public announcement 21-Feb-2025 [V PA].
+  - An earlier 2021 buyback is evidenced by daily filings Aug–Sep 2021 on the website [V listing; terms not read].
+  - FY26 DPS ₹8.50 (record).
+  - Nava Global upstreaming in FY26: US$24 Mn dividend + US$50 Mn buyback, plus a US$15 Mn final dividend declared [V AR].
+
+---
+
+## 4.2B Indian Metals & Ferro Alloys (IMFA · 533047) — primary-document pack
+
+**Documents read this session (all fetched and text-extracted):**
+- **FY26 Annual Report** (64th; "Integration in Motion"): https://www.bseindia.com/xml-data/corpfiling/AttachHis/adda9211-d30c-4b15-abdb-5633d9eb1066.pdf. Read: MD&A tables, Directors' Report, contingents/commitments.
+- **FY25 Annual Report** (with AGM notice): https://elegant-canvas-ad15652696.media.strapiapp.com/63rd_AGM_Notice_Annual_Report2025_0874633d54.pdf. Read: 5-year financial table, operations tables, contingents, Nuasahi note.
+- **FY23 Annual Report:** https://www.bseindia.com/xml-data/corpfiling/AttachHis/cae0bb53-5cd1-449d-b537-765e80cd5fdb.pdf (FY22/FY23 operations).
+- **Q4 FY26 call transcript** (call 27-May-2026, filed 3-Jun-2026): https://www.bseindia.com/xml-data/corpfiling/AttachHis/d4f14d05-d561-42ac-a467-20627af8d571.pdf
+- **Q1 FY27 call transcript** (4-Aug-2026): BSE 74d2d43b…
+- **Q1 FY27 earnings release + PPT:** BSE 02ba97e3…
+- **Q4 FY26 PPT/results:** BSE f8688994…
+- **Earnings releases:**
+  - Q1 FY26: https://elegant-canvas-ad15652696.media.strapiapp.com/Press_Release_Q1_FY_26_a154a4205a.pdf
+  - Q2 FY26 + KNR-2 acquisition (4-Nov-2025): …/IMFA_Press_Release_Nov_2025_3eb041a023.pdf
+  - Q3 FY26 (5-Feb-2026): …/Press_release_IMFA_Q3_FY_26_results05022026_a75fd93a7e.pdf
+
+### 4.2B.1 Management-commentary digest (paraphrased; source and date per line)
+
+**Volume and capacity**
+- **FY27 production: ~380 kt** (cut from ~400 kt on 4-Aug-2026: KNR-2 transformer replacement, gas-cleaning-plant work, a 15 MVA power-availability shortfall). **FY28: 475–500 kt** maintained. Q4 FY27 run-rate 120–125 kt per quarter. Q1 FY27 call, 4-Aug-2026 [V].
+- History of the guide:
+  - The Nov-2025 acquisition release said FY27 "~400,000 t", scaling to "~475,000 t in FY28" [V].
+  - The Q4 FY26 call (27-May-2026) said "broadly 400,000 tons in FY27 and 475,000 to 500,000 in FY28" [V].
+- **KNR-2 (ex-Tata Steel):**
+  - ATA signed 4-Nov-2025; **completed 27-Feb-2026**; ₹610 Cr base + GST + net working capital; funded from internal accruals [V AR].
+  - Four 16.5 MVA furnaces (100 kt) switched on in Mar-2026; ~2,200 t produced in March, then ~6,000 t a month [V Q4 call].
+  - The fifth furnace (33 MVA, 50 kt) is partially built and awaiting approvals: "middle of 2027 or slightly longer" [V Q1 call].
+- **KNR-1 greenfield (2 × 33 MVA, 100 kt):**
+  - AR: pre-commissioning of furnace 1 in Jun-2026, furnace 2 in Sep-2026 [V].
+  - Q1 call: first metal mid-to-late Aug-2026 [V].
+  - Land is available for a third furnace. The old 220 kt "Phase 2" clearance at KNR-1 has been superseded by the acquisition. Potential beyond 534 kt is "a call we will take later" (27-May-2026) [V].
+- **Capacity path (PPT): 384 kt (FY26) → 484 kt (FY27) → 534 kt (FY28); 289 → 355 MVA** [V].
+
+**Market and price**
+- **Global FeCr output fell ~9.4% in CY2025 to "just short of 16 million tons."** South African output collapsed; Chinese output rose from ~650 kt/month to ~950 kt/month by Dec-2025 and stayed there. Global stainless was **64.157 mt in CY2025**, growth ~2–3%. MD, 27-May-2026 [V].
+- **Eskom tariff path for ferrochrome smelters:** standard **R1.36/kWh → R0.877 approved → R0.62 agreed** by Eskom and government; public consultation 25-May-2026 [V Q4 call; the transcript says "$", but the units are rand per kWh, consistent with 62 c/kWh]. The MD expects SA output to recover toward **650–750 kt/month** if R0.62 holds. Monthly SA output was ~1.0–1.1 mt before the collapse [K]. If SA smelts more, less SA ore reaches China ("chrome units") [V].
+- **Q1 FY27 vs Q2 guide:**
+  - Q1 FY27 realisation ₹119,888/t (Q4 FY26 ₹109,352; Q4 FY25 ~₹87,000 per the MD) [V].
+  - Q2 realisation "more or less same … a little correction" [V Q1 call].
+  - Met coke "moved up a little" (Colombian currency); the impact shows from Q3 [V Q1 call].
+
+**Domestic pivot**
+- The FY26 mix was ~90:10 export/domestic by the MD's description; **18% domestic by tonnes** (48,769 of 270,124 t) [V AR].
+- "We will be looking at allocating **at least about 200,000 tons to the domestic market** in times to come." Indian contracts are lot-by-lot, but customers are "receptive" to tonnage allocation (27-May-2026) [V].
+- Q1 FY27: ~19% domestic [V Q1 call].
+
+**Cost**
+- **When the whole KNR complex (KNR-1 + KNR-2) is online, the weighted EBITDA cost falls by ₹3,000–4,000/t** (logistics, proximity to mine and port, GNA RE corridor). Start-up costs and DISCOM power at low PLF come first; the MD would not commit to H2 FY27 timing (27-May-2026) [V].
+- The Q1 FY27 call framed it as ₹1,500–2,000/t, full benefit from Q4 FY27 [V, Part 1]. Present the range as **₹1,500–4,000/t, management-guided**.
+- Costs rose on chrome royalty (linked to IBM average sale prices), freight and fuel [V Q4 call].
+
+**Mining**
+- Ore raised: ~6 lakh t a few years ago → >7 lakh t (FY25) → >8 lakh t (FY26) → **target 10 lakh t (FY27)**. Hold at 10 lakh t "for a couple of years", then 12 lakh t, **eventually 100% underground**, for "close to ₹1,000 Cr".
+- Mahagiri is already at **536,810 t, all from underground**. MD, 27-May-2026 [V; AR].
+
+**Capex and financing (CFO, 27-May-2026) [V]**
+- ~₹600 Cr spent on KNR-1/ethanol by April-2026; **~₹450 Cr in FY27**; **~₹700 Cr later** (mainly the underground mines, not all in FY28).
+- Term loan sanctioned **₹470 Cr; ₹170 Cr undrawn**. Long-term debt ₹419 Cr vs invested funds ₹555 Cr at 30-Jun-2026 [V PPT].
+- Capital commitments ₹645.3 Cr at 31-Mar-2026 (₹390.5 Cr a year earlier) [V AR].
+
+**FX**
+- Q4 FY26 carried a ~₹28–32 Cr notional MTM loss as USD/INR went from 89.9 to 94.65. Hedges are rolled; the losses are largely unrealised [V Q4 call; V Q1 call].
+
+**Renewables [V AR]**
+- The original JSW Green Energy One/Seven PPA (70 MW contracted; 50 MW solar + 100 MW wind) was cancelled because the project site moved. It was re-signed with **JSW Renew Energy Twelve**.
+- A new **29-year PPA with EG Urja Strot (65 MW contracted demand; 81.4 MW solar + 102.6 MW wind + 25 MWh BESS; IMFA investment ₹110.18 Cr), signed 25-May-2026**, captive structure.
+- The AmpIn Energy agreement was **terminated 14-May-2026** (₹12.32 Cr refunded).
+- Total contracted **135 MW** → ~40% non-fossil by mid-2027 [V PPT].
+
+**Other diversification [V]**
+- Ethanol 120 KLD: AR says commissioning in **Q2 FY27** (after equipment and geopolitical delays); the Q1 call said pre-commissioning Oct, commissioning Nov-2026.
+- Dividend FY26: **₹5.00 interim (record date 11-Nov-2025) + ₹7.50 final = ₹12.50** on 5,39,54,106 shares [V AR].
+- Q2 FY27 board on 4-Nov-2026 to consider an interim dividend [V, Part 1].
+
+### 4.2B.2 Concall / operating KPI table (IMFA, standalone)
+
+| KPI | FY25 | FY26 | Q4 FY26 | Q1 FY27 | Source |
+|---|---|---|---|---|---|
+| FeCr production (t) | 260,190 | **267,301** | 68,506 | **80,690** | AR; releases [V] |
+| FeCr sales (t), domestic / international | 34,066 / 225,801 | **48,769 / 221,355** | 68,977 total | 79,268 total (~19% domestic) | AR; release; call [V] |
+| Domestic share of tonnes sold | 13.1% | **18.1%** | — | ~19% | E on V |
+| Exports (₹ Cr) / share of revenue | 2,322.3 / 90.6% | **2,396.2 / 84.8%** | 632.8 / 82.9% | 793.6 / 82.6% | releases [V] |
+| Realisation (₹/t, company) | Q4 FY25 ~87,000 (MD) | — | 109,352 | **119,888** | PPT; Q4 call [V] |
+| EBITDA cost (₹/t, company) | — | — | 81,932 | **85,884** (Q1 FY26 77,575) | PPT [V] |
+| EBITDA (₹ Cr) / per t sold [E] | 530.51 / **20,415** | 587.23 / **21,739** | 159.09 / 23,064 | 281.27 / **35,484** | releases [V]; E |
+| Chrome ore raised (t): Sukinda / Mahagiri | 285,851 / 416,012 = 701,863 | **273,802 / 536,810 = 810,612** | 271,749 | 272,555 | AR; release [V] |
+| Ore raised per t FeCr produced [E] | 2.70 | 3.03 (stock build to ~6 lakh t) | — | 3.38 | E on V |
+| Captive generation (MU) | 1,092 | **1,138** | 294 | 289 | AR; release [V] |
+| Gross generation per t produced [E] | 4,197 kWh | 4,257 kWh (upper bound; includes auxiliaries, mines, colony) | — | 3,582 kWh (KNR runs on grid) | E on V |
+| Installed capacity (tpa) | 284,000 (190 MVA) | 384,000 (PPT) / 434,000 (289 MVA, release) | — | 484k FY27 / 534k FY28 | releases; PPT [V] |
+| Invested funds vs LT project debt (₹ Cr) | — | — | — | 555 vs 419 (30-Jun-26) | PPT [V] |
+
+### 4.2B.3 Five-year history FY22–FY26 (standalone ≈ consolidated; ₹ Cr unless noted)
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | Source |
+|---|---|---|---|---|---|---|
+| Revenue from operations | 2,602.95 | 2,676.39 | 2,780.17 | 2,564.57 | **2,826.31** | FY25 AR 5-yr table; FY26 release [V] |
+| Other income | 18.06 | 25.66 | 42.33 | 66.74 | ~65 | AR [V]; screener |
+| EBITDA (company, pre-exceptional) | **828.83** | 514.48 | 649.83 | 530.51 | **587.23** | AR; release [V] |
+| EBITDA margin | 31.8% | 19.2% | 23.4% | 20.7% | 20.8% | E on V |
+| PAT (screener consolidated / company standalone) | 508 | 226 | 344 / **363.7** | 379 / 378.09 | 425 / 424.36 | screener; ICRA; release [V] |
+| EPS (₹, standalone) | 94.13 | 41.84 | 67.41 | 70.08 | 78.64 | FY25 AR; screener [V] |
+| FeCr production (t) | 246,175 | 244,505 | 264,119 | 260,190 | **267,301** | ARs [V] |
+| FeCr sales (t) | 248,280 | 247,945 | 265,800 | 259,867 | **270,124** | ARs [V] |
+| of which domestic (t) | 20,533 (8.3%) | 23,962 (9.7%) | 24,588 (9.3%) | 34,066 (13.1%) | **48,769 (18.1%)** | ARs [V] |
+| Revenue ÷ tonnes sold (₹/t) [E] | ~104,800 | ~107,900 | ~104,600 | ~98,700 | ~104,600 | E on V |
+| **EBITDA per t sold (₹/t)** [E] | **~33,400** | ~20,750 | ~24,450 | ~20,400 | **~21,740** | E on V |
+| Chrome ore raised (t) | 559,357 | 564,775 | 669,580 | 701,863 | **810,612** | ARs [V] |
+| Sukinda / Mahagiri (t) | 261,782 / 297,575 | 280,611 / 284,164 | 319,692 / 349,888 | 285,851 / 416,012 | 273,802 / 536,810 | ARs [V] |
+| Power generation (MU) | 1,085 | 1,074 | 1,171 | 1,092 | **1,138** | ARs [V] |
+| ROE / ROCE (company, %) | 35 / 32 | 13 / — | 18 / — | 17 / — | 16.8 / 18.4 (screener) | FY25 AR; screener [V] |
+| Borrowings / investments (screener, Mar) | 490 / 155 | 341 / 264 | 237 / 372 | 389 / 909 | **958 / 383** | screener [V, Part 2] |
+| DPS (₹) / payout (screener) | 13% | 24% | 12% | 28% | **12.50** (16%) | AR; screener [V] |
+
+Read:
+- **FY22 was the only year with ₹30k+/t EBITDA.** FY23–FY26 sat in a tight ₹20–25k/t band, despite revenue per tonne staying near ₹1 lakh. That is the evidence for the "through-cycle ~₹20–22k/t" framing.
+- Q1 FY27's ₹35.5k/t is a FY22-class peak.
+- Domestic sales tonnes have more than doubled in four years, 20.5 kt → 48.8 kt.
+
+### 4.2B.4 Eight-quarter trend (Q2 FY25 → Q1 FY27; standalone, ₹ Cr / tonnes)
+
+| Quarter | Revenue | EBITDA | Margin | PAT | Exports | Production (t) | Sales (t) | Rev ÷ t (₹) [E] | EBITDA/t (₹) [E] | Company realisation / cost (₹/t) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 691.92 | 170.51 | 24.6% | 125.72 | 652.97 | 68,248 [E: 9M − Q1 − Q3] | 66,951 [E] | 103,300 | 25,470 | — |
+| Q3 FY25 (Dec-24) | 643.22 | 128.15 | 19.9% | 93.14 | 568.52 | 65,865 | 65,490 | 98,200 | 19,570 | — |
+| Q4 FY25 (Mar-25) | 567.15 | 70.52 | 12.4% | 47.07 | 473.86 | 65,101 | 64,391 | 88,100 | 10,950 | ~87,000 / — (MD) |
+| Q1 FY26 (Jun-25) | 641.54 | 125.47 | 19.6% | 91.48 | 556.26 | 65,929 | 66,580 | 96,400 | 18,845 | 95,165 / 77,575 |
+| Q2 FY26 (Sep-25) | 718.65 | 138.34 | 19.3% | 98.77 | 603.96 | 65,671 | 69,765 | 103,000 | 19,830 | — |
+| Q3 FY26 (Dec-25) | 702.83 | 164.33 | 23.4% | 130.67 | 603.15 | 67,196 | 64,802 | 108,500 | 25,360 | — |
+| Q4 FY26 (Mar-26) | 763.29 | 159.09 | 20.8% | 103.44 | 632.84 | 68,506 | 68,977 | 110,700 | 23,064 | 109,352 / 81,932 |
+| **Q1 FY27 (Jun-26)** | **960.45** | **281.27** | **29.3%** | **191.49** | 793.61 | **80,690** | **79,268** | 121,200 | **35,484** | **119,888 / 85,884** |
+
+Sources: earnings releases Q1 FY26 / Q2 FY26 / Q3 FY26 / Q1 FY27 and their comparative columns [V].
+
+Notes:
+- Revenue ÷ tonnes runs ~₹1,200/t above the company's "realisation", because it includes other operating revenue (power/ore by-products, export incentives) [E].
+- **Q4 FY25 (₹10.9k/t) was the trough; Q1 FY27 (₹35.5k/t) is 3.2× it.**
+- Chrome ore raised by quarter: Q3 FY25 174,515 · Q1 FY26 103,780 · Q2 FY26 169,615 · Q3 FY26 265,468 · Q4 FY26 271,749 · Q1 FY27 272,555 [V]. The step-up from Q3 FY26 is Mahagiri underground.
+
+### 4.2B.5 Annual-report findings (FY26 and FY25 ARs)
+
+- **Mines [V]:**
+  - Operating captive mines are **Sukinda and Mahagiri only**.
+  - **Nuasahi Chromite Mine: "necessary steps for surrender" taken; the surrender order is pending with the Government of Odisha** (FY25 AR note); its closure is "certified" (FY25 AR sustainability section).
+  - Lease validity to 2049/2055 comes from ICRA [V, Part 2]. The ARs fetched do not restate the expiry years.
+- **Supreme Court mineral-land levy [V FY25 AR note]:**
+  - The note says the judgement "has financial implications for the mining sector at large".
+  - Odisha's ORISED Act 2004 was struck down by the Orissa HC on 5-Dec-2005; the State's appeal is sub-judice in the Supreme Court.
+  - **No demand is pending against IMFA**, and none is provided for.
+- **Utkal-C [V FY26 AR]:**
+  - Compensation of **₹389.2 Cr** was received by erstwhile Utkal Coal Ltd (merged into IMFA from 28-Mar-2025).
+  - The successful allottee (JSPL) **challenges ₹328.5 Cr** of it (leasehold and forest land) before the Coal Tribunal, Talcher. IMFA counter-challenges deductions. **Both are pending.**
+  - R&R assets were settled at ₹7.0 Cr.
+  - This is a contingent clawback the dossier missed.
+- **Contingent liabilities (FY25 AR, ₹ Cr) [V]:** income tax 85.84 (deposits ₹45.33); entry tax 15.02; state levies/cess 23.00; VAT 9.26; GST 4.66. All small against ₹2,700 Cr of net worth.
+- **Commitments:** capital contracts ₹645.3 Cr (Mar-26) [V].
+- **Customer concentration [V FY25 AR]:** "A substantial portion of sales comes from 2–3 customers"; "more than 90% of output being exported" (FY25). Exports went "to South Korea, China, Taiwan and Japan" (91.35%).
+- **Commodity risk** sits in met coke and anthracite, managed with "fixed prices" [V FY26 AR].
+- **Subsidiary:** IMFA Alloys Finlease (76%) [V FY26 AR BRSR]. Immaterial.
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready; units and source per dataset)
+
+**D1. World chromite ore mine production, kt gross weight** — USGS Mineral Commodity Summaries 2026, Chromium [V] (https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-chromium.pdf)
+
+| Country | 2024 | 2025e | Reserves (kt ore) | Share of 2025 |
+|---|---|---|---|---|
+| South Africa | 22,900 | 23,000 | 350,000 | 45% |
+| **Turkey** | 9,300 | 9,000 | 27,000 | **18%** |
+| Kazakhstan | 6,100 | 7,000 | 230,000 | 14% |
+| **India** | 3,370 | **3,000** | **79,000** (27,000 kt Cr₂O₃) | 6% |
+| Brazil | 1,400 | 2,000 | 3,900 | 4% |
+| Zimbabwe | 1,600 | 2,000 | 140,000 | 4% |
+| Finland | 1,940 | 1,900 | 63,000 | 4% |
+| Other | 3,000 | 3,000 | — | 6% |
+| **World** | **49,600** | **51,000** (+3%) | >1,200,000 | 100% |
+
+- Correction to Part 1 (§2): Part 1 put Turkey at "~2–3 mt" and Kazakhstan at "~6–7 mt" [K]. USGS has **Turkey at ~9 mt, #2 in the world**.
+- USGS India 2025e (3.0 mt) is lower than the IFAPA/conference figure of 3.53 mt for FY26 (Apr–Mar; reported by SMM 15-Oct-2026 [V-sec]). Use IFAPA for the Indian fiscal year and USGS for cross-country comparison. USGS revised India's 2024 figure "based on Government reports".
+- USGS price series [V]:
+  - US ferrochromium, US$/lb contained Cr: **2021 1.50 · 2022 3.19 · 2023 2.55 · 2024 1.76 · 2025 1.60**.
+  - Chromite ore, US$/t gross: 199 · 277 · 321 · 331 · 290.
+  - US MFN tariff on HS 7202.41 is 1.9%.
+  - Use this as the "global price cycle" chart: the FY22–FY23 peak, the 2024–25 trough.
+
+**D2. World manganese ore mine production, kt Mn content** — USGS MCS 2026, Manganese [V] (…/mcs2026-manganese.pdf)
+- South Africa 7,490 → 7,600.
+- Gabon 4,640 → 5,000.
+- Ghana 1,280 → 2,000.
+- Australia 1,600 → 1,600 (GEMCO resumed May-2025 after the 2024 cyclone).
+- Brazil 705 → 800.
+- **India 731 → 790**; reserves 34,000 kt.
+- China 690 → 700.
+- Côte d'Ivoire 340 → 350.
+- World 18,700 → **20,000**.
+- China 44% Mn-ore spot, Jan–Oct 2025 average, was **−22% vs the 2024 average**.
+- US MFN tariff on SiMn (7202.30) is 3.9%.
+- US SiMn imports came from Georgia 24%, South Africa 23%, Australia 18%, Malaysia 13%. **India is not a top-4 US SiMn supplier.**
+
+**D3. Global FeCr output** — IMFA MD, Q4 FY26 call, 27-May-2026 [V transcript]
+- **CY2025 ≈ just under 16 mt, −9.4% YoY.** This implies ~17.6 mt in CY2024 [E].
+- Chinese output rose from ~650 kt/month to ~950 kt/month by Dec-2025.
+- India's FY26 FeCr output of 1.49 mt [V-sec IFAPA/SMM] ≈ **9.3% of world** [E]. IMFA's 267 kt ≈ **1.7% of world, 18% of India** [E].
+
+**D4. Stainless melt-shop production** — worldstainless [V]
+- CY2025: **64.2 mt (+2.1%)** (27-Feb-2026 release). IMFA quoted 64.157 mt.
+- **H1 2026: 32,964 kt (+5.0%)** (27-Aug-2026 release):
+  - China 21,068 (+7.1%)
+  - Asia (incl. China) 28,307 (+6.1%) → Asia ex-China ≈ 7,239 [E]
+  - EU 2,913 (−3.7%)
+  - US 1,147 (+3.2%)
+  - Others 597 (+2.9%)
+- Q1 2026 was +2.5%.
+- **Demand growth accelerated into mid-2026.** That supports the IMFA Q1 FY27 price strength alongside the supply shock.
+
+**D5. Indian steel** — Ministry of Steel, "An Overview of Steel Sector (Mar-2026)" [V] (https://steel.gov.in/sites/default/files/2026-04/An%20Overview%20of%20Steel%20Sector%20%28Mar.%202026%29%20%282%29.pdf)
+
+| mt | FY21 | FY22 | FY23 | FY24 | FY25 | **FY26*** |
+|---|---|---|---|---|---|---|
+| Crude steel | 103.54 | 120.29 | 127.20 | 144.30 | 152.18 | **168.42 (+10.7%)** |
+| Finished steel | 96.20 | 113.60 | 123.20 | 139.15 | 146.69 | 160.94 |
+| Consumption | 94.89 | 105.75 | 119.89 | 136.29 | 152.13 | **163.74** |
+| Finished-steel exports / imports (kt) | 10,784 / 4,752 | 13,494 / 4,669 | 6,716 / 6,021 | 7,487 / 8,320 | 4,858 / 9,551 | **6,601 / 6,524** (net exporter again) |
+
+- Crude capacity was **220.3 mt in FY26** (75% utilisation [E]). Per-capita finished-steel consumption was 115 kg.
+- Implied Indian Mn-alloy demand at ~10–12 kg/t crude ≈ **1.7–2.0 mt** [E]. Nava's AR says India *produced ~4 mt* of Mn alloys in FY26 with ~1 mt for export [V AR]. That leaves ~1 mt+ of surplus, which explains the pricing pressure.
+- Early FY27: crude steel Apr–May 2026 was 28.04 mt (+2.7%) [V-sec]. Growth slowed sharply after the West Asia shock.
+
+**D6. EU ferro-alloy safeguard — Commission Implementing Regulation (EU) 2025/2351** [V-sec: OJ text read via the LawPlayer mirror, https://lawplayer.com/eu/act/32025R2351; EUR-Lex itself (https://eur-lex.europa.eu/eli/reg_impl/2025/2351/oj) returned a JS challenge]
+- **Scope: FeMn (7202 11/19), FeSi (7202 21/29), SiMn (7202 30), FeSiMg (7202 99 30). Ferrochrome is NOT covered**, so IMFA is unaffected.
+- **Duration: 18-Nov-2025 to 17-Nov-2028**, with quarterly TRQ periods (18-Nov–17-Feb, 18-Feb–17-May, 18-May–17-Aug, 18-Aug–17-Nov). Out-of-quota imports below the price threshold pay a duty.
+- **Price thresholds (€/t):** FeMn 1,316 · FeSi 2,408 · **SiMn 1,392** · FeSiMg 3,647.
+- **India's country quotas (net t):**
+  - **SiMn year 1: 31,958.61 × 3 + 30,916.48 = 126,792 t**; year 2 126,919 t; year 3 127,046 t.
+  - **FeMn year 1: 17,625.79 × 3 + 17,051.04 = 69,928 t.**
+  - FeSi: India has no country quota and falls in "other countries".
+- This verifies Part 1's 126,800 t / 69,900 t and €1,392 / €1,316. Correction: the measure began **18-Nov-2025**, not "from 2026". It is **quarterly-phased**, so a quota gap in one quarter cannot be carried into the next.
+- Year 2 starts **18-Nov-2026**, inside Nava's Q3 FY27.
+
+**D7. EU CBAM scope for ferro-alloys** [V-sec: carbonchain CN-code guide and the UK government CBAM goods list; EUR-Lex Annex I of Reg. 2023/956 not fetchable]
+- **In scope: 7202 1x (FeMn), 7202 4x (FeCr), 7202 6x (FeNi). Excluded: 7202 30 (SiMn), 7202 2x (FeSi)** and other 7202 subheads.
+- So **IMFA's FeCr is CBAM-exposed but safeguard-free. Nava's SiMn is safeguard-exposed but CBAM-free.** That is the mirror image of each other's EU risk.
+- Default values and the 2026 mark-up are not re-verified (gap).
+
+**D8. China HCFeCr long-term tender (Tsingshan), RMB/t, 50% Cr basis, tax-included, delivered** [V-sec SMM]
+- Jan-2025 **6,995**
+- May-2025 8,095
+- Nov-2025 **8,495**
+- Dec-2025 8,395 (−100)
+- Apr-2026 8,395
+- **May-2026 8,495** (+100)
+- Oct-2026: −200 vs Sep (Part 1, SMM 28-Oct)
+- Inner Mongolia ex-works: 8,400–8,550 in late Apr-2026.
+- Part 1's "H1-2026 peak ~8,750–8,800" was spot/retail, not the tender. **The tender peak found is RMB 8,495** (Nov-2025 and May-2026). The 2025 trough-to-peak tender move is **+21% (6,995 → 8,495)** [E].
+
+**D9. South Africa — Merafe (20.5% of the Glencore-Merafe Venture)** [V SENS production report and trading statement, 27-Jul-2026, via https://sharedata.co.za/sens.asp?id=555061; V-sec BusinessDay for 11-Aug results]
+- **H1-2026 attributable FeCr production 28 kt vs 112 kt (−75%)**: Wonderkop and Boshoek suspended, Lion partial.
+- Chrome ore 425 kt (−4%). HEPS 19.5–22.0c vs 12.6c.
+- Full results: revenue R3.43 bn (+36%), EBITDA R774 Mn (+60%), profit R512 Mn, interim dividend 16c (4c). **2026 FeCr production guidance: 25–29% of installed capacity**; Wonderkop/Boshoek to ramp up by year-end.
+- Eskom tariff path per the IMFA MD: **R1.36 → R0.877 → R0.62/kWh** [V transcript]. Nersa approval and the "4 of 48 smelters" count remain [V-sec].
+
+**D10. Indian Mn-alloy peers (verified)**
+- **Shyam Metalics "Speciality Alloys"** [V NSE-archived Q1 FY27 press release, 20-Jul-2026]:
+  - FY26 **223,494 t at ₹93,837/t** (≈ ₹2,097 Cr, ~11% of group revenue ₹18,552 Cr [E]).
+  - Q1 FY27 51,479 t at **₹106,613/t** (+21.5% YoY); Q1 FY26 56,576 t at ₹87,715; Q4 FY26 55,403 t at ₹99,517.
+  - Shyam's alloy realisation (mixed FeMn/SiMn/FeSi + value-added) is ~₹22k/t above Nava's implied ₹84k/t.
+- **Maithan Alloys** [V screener, 31-Oct-2026]:
+
+| | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|
+| Sales | 1,615 | 2,989 | 2,883 | 1,726 | 1,802 | 2,171 |
+| OP | 294 | 1,075 | 589 | 116 | 179 | 264 |
+| OPM | 18% | 36% | 20% | 7% | 10% | 12% |
+| Other income | 24 | 27 | 72 | 358 | 721 | 409 |
+| PAT | 230 | 818 | 499 | 349 | 631 | 441 |
+
+  **The Mn-alloy cycle is FY22 peak → FY24 trough**: Maithan OPM 36% → 7%, Nava alloy segment 26% → −8%. Since then the recovery is modest (Maithan 12%, Nava 2.6%).
+
+**D11. Odisha chromite auctions** [V-sec BigMint]
+- The 2020 Sukinda chromite block went to **TS Alloys (Tata Steel) at a 93.75% premium**, with only one rival bid.
+- No 2025–26 chromite block result was found. Recent Odisha iron-ore blocks cleared at ~101–111% premia (Jindal Steel, 2026).
+- OMC monthly chrome-ore e-auctions continue (Feb-2026: 59,400 of 114,600 t sold).
+- Integrated producers with pre-2015 leases avoid the ~90–110% premium. That is the moat in numbers: at a ~₹10–15k/t ore value and 2.5 t ore per t FeCr, a 94% premium costs **₹23–35k/t FeCr** [E], more than IMFA's entire FY26 EBITDA/t.
+
+**D12. Kwacha** [V-sec]
+- ~ZMW 17.8–17.9/US$ in Jun-2026 (OpenZambia; TheGlobalEconomy June average 17.77). This matches the Nava CFO's "~18 at 30-Jun".
+- The kwacha rose 14.8% vs US$ in Q1 2026 alone; BoZ cut the policy rate to 13.25% (May-2026). Nava's AR states +32% over FY26 [V].
+
+**D13. Revised chart datasets for the writer** (replace the Part 1 §E items noted)
+- **E1 (replace):** IMFA FeCr production, t: FY22 246,175 · FY23 244,505 · FY24 264,119 · FY25 260,190 · FY26 267,301 · FY27e ~380,000 · FY28e 475–500k [V ARs; V call].
+- **E3 (replace):** IMFA EBITDA/t sold, ₹: FY22 ~33,400 · FY23 ~20,750 · FY24 ~24,450 · FY25 ~20,400 · FY26 ~21,740 · Q4 FY25 ~10,950 (trough) · Q1 FY27 35,484 [E on V].
+- **New:** IMFA chrome ore raised, t: 559,357 · 564,775 · 669,580 · 701,863 · 810,612 (FY22–26) → FY27 target 1.0 mt [V].
+- **New:** Nava ferro-alloy segment result, ₹ Cr (margin): FY22 333 (26%) · FY23 136 (13%) · FY24 −72 (−8%) · FY25 23 (2.5%) · FY26 31 (2.6%) [V].
+- **New:** Nava attributable PAT vs NCI, ₹ Cr: FY22 518/56 · FY23 928/294 · FY24 944/312 · FY25 1,092/343 · FY26 788/252 [V].
+- **New:** ZESCO award collections. Award US$518.1 Mn; received US$490.1 Mn by Mar-26. Outstanding: Mar-25 160.6 · Mar-26 28.0 · Jun-26 18.4 · 14-Aug-26 13.4 [V AR/PPT]. *(Replaces Part 1 E7's illustrative FY25 ~150 / FY26 ~30.)*
+- **New:** Indian crude steel, mt: FY21–FY26 as in D5 [V].
+- **New:** World chromite ore by country 2025 (D1) [V]; world Mn ore by country 2025 (D2) [V].
+
+---
+
+## 4.0 Supersedes (apply these to Parts 1–3)
+
+| # | Where in Parts 1–3 | Old value | New value | Basis | Source |
+|---|---|---|---|---|---|
+| S1 | Trap 2/3, §2.0 peer table, §3.2(d), §F | Nava net debt **₹818 Cr** (screener: borrowings − investments; "cash not shown") | **Net cash ≈ ₹1,225 Cr** at 31-Mar-2026: cash 2,098.5 + bank 16.3 + current investments 1,347.9 (AR liquidity ₹3,446 Cr) − borrowings 2,220.9 | Consolidated balance sheet | Nava AR FY26 p.210–211 [V] |
+| S2 | §3.2(d) aggregate | Net debt (2 cos.) ₹1,393 Cr = 0.60× OP; EV ₹21,696 Cr → 9.4× | **Net cash ≈ ₹650 Cr** (Nava net cash 1,225 − IMFA screener net debt 575). EV ≈ ₹19,650 Cr → **8.5× FY26 OP**; 8.2× TTM [E]. With Nava NCI at book (₹2,019 Cr) added, EV ≈ ₹21,670 Cr → 9.4× | Recomputed | E on S1 |
+| S3 | Trap 3; §2.1 attributable line; §3.1 | Attributable PAT [E, EPS × shares] ~517 / ~1,221 / ~1,255 / ~1,100 / ~787 (FY22–26); "FY23/FY24 near-zero NCI share … flag it" | **517.7 / 927.7 / 943.7 / 1,091.5 / 788.1**; NCI **55.6 / 294.0 / 312.3 / 342.5 / 251.9**. The FY23–24 "oddity" was screener's pre-minority EPS (₹42.10 / ₹43.28); true attributable EPS FY24 ≈ ₹32.5 | Results statements, "Net profit attributable to" lines | fs_pdf_04_2022-23_q4; fs_pdf_07_2024-25_q4; AR FY26 [V] |
+| S4 | §1.3, §9.2, §C, §H-1, Part 2 | Nava alloy revenue ≈ ₹1,100–1,250 Cr [E]; FY26 alloy EBITDA "~₹40–60 Cr, not disclosed" | **Segment revenue ₹1,200.5 Cr gross (₹1,192.1 Cr net); segment result ₹31.1 Cr (2.6%)**; EBITDA ≈ ₹41 Cr [E: + ₹9.7 Cr depreciation]. FY25 ₹928.8 / ₹22.8 Cr; FY24 −₹71.7 Cr; FY22 +₹333.2 Cr | Ind AS 108 segment note | AR FY26 note 37 [V] |
+| S5 | §3.2(c) ferro-alloy lens | ≈₹3,900–4,100 Cr revenue / ~₹630–650 Cr EBITDA (~16%) | **₹4,018 Cr revenue (2,826 + 1,192) / ≈ ₹629 Cr EBITDA (588 + ~41) = 15.7%** | Sum on sourced inputs | E on V |
+| S6 | §4.2, §9.2, Part 2 Nava KPIs | "~70% of Nava's alloy output is pre-committed" | **~40% annual contracts (two Japanese mills) + 40–50% quarterly fixed-base (Indian steelmakers); spot only 10–15%** | AR MD&A; Q4 call | AR FY26; transcript 15-May-26 [V] |
+| S7 | §0, §B-3, §C, Part 2 call highlights | Phase II "US$300 Mn debt / US$100 Mn equity" | **Debt tied up US$290 Mn** (Zambian banks/FIs); equity US$100 Mn contributed; **US$214.6 Mn drawn at 31-Mar-26** (US$175.6 Mn at 30-Sep-25). Cost US$400 Mn; the call's "INR" = US$ (confirmed) | AR Directors' Report & MD&A | AR FY26 [V]; Q2 FY26 PPT [V] |
+| S8 | §C, §9.3, §H-4 | Maamba tariff ≈ US$0.11/kWh [E]; PPA structure unknown | **Phase II PPA 9.5 US¢/kWh** (100% of net capacity, ZESCO); **solar 7.80 US¢/kWh**, 20 years; Phase I not disclosed, implied **≈ 11.1 US¢/kWh** [E]; Phase II revenue US$180–200 Mn; solar US$20–22 Mn revenue / US$6–7 Mn PAT | AR MD&A; Q4 call | AR FY26 [V]; transcript 15-May-26 [V] |
+| S9 | §E-7 | ZESCO arrears FY25 ~150, FY26 ~30 (illustrative) | **Award US$518.1 Mn; received US$490.1 Mn by Mar-26; outstanding US$160.6 Mn (Mar-25) → US$28.0 Mn (Mar-26)** → 18.4 (Jun-26) → 13.4 (14-Aug-26); FY26 collection US$132.5 Mn (CRISIL says US$125 Mn) | AR | AR FY26 [V]; CRISIL [V] |
+| S10 | §3 end-market split | Zambia power + coal ~52%; India power ~20–25%; alloys ~25–28% | By segment (net, FY26): **Energy ₹2,910 Cr (67.8%; India + Zambia power), alloys ₹1,192 Cr (27.8%), mining ₹185 Cr (4.3%)**. By customer location: **Zambia 50.9%, India 32.6%, Japan 8.9%**, USA 3.2%, UAE 2.2% | Segment and geography notes | AR FY26 note 37 [V] |
+| S11 | §4.3, §9.3 | India power "434 MW installed; 414 operating" | **414 MW operating in India** (Telangana 114 MW CPP; Odisha 150 MW = 30 MW CPP + 120 MW IPP from 1-Nov-2025; NBEIL 150 MW IPP) + MEL 300 MW = 714 MW; 144 MW earmarked captive. FY26 PLFs 74.5% / 77.2% / 63.5% | AR MD&A | AR FY26 [V] |
+| S12 | §0, trap 5 | "no tax holiday yet" (Phase II only) | Also: **Phase I's tax holiday ended; MEL power division is taxed at 50% of the normal rate (~15% effective) from FY26**; DTL US$29.9 Mn on kwacha +32% | AR | AR FY26 [V] |
+| S13 | Part 2/3.3 IMFA mines; primer | "Sukinda, Mahagiri & Nuasahi (verify)" | **Nuasahi closed; surrender order pending with GoO**; operating mines are Sukinda + Mahagiri only | FY25 AR notes | IMFA AR FY25 [V] |
+| S14 | §9.1, §E-3 | IMFA FY22 EBITDA/t ≈ ₹30–31k, FY23 ≈ ₹18–19k [E; ~260k t assumed] | **FY22 ~₹33,400/t (828.83 Cr ÷ 248,280 t); FY23 ~₹20,750 (514.48 ÷ 247,945); FY24 ~₹24,450; FY25 ~₹20,400** | Company EBITDA ÷ AR tonnes | IMFA ARs FY23/FY25 [V] |
+| S15 | §4.1, §C, Part 2 call | KNR cost benefit ₹1,500–2,000/t | **₹1,500–4,000/t**: ₹3,000–4,000/t once the whole KNR complex (1 + 2) is online (Q4 call 27-May-26); ₹1,500–2,000/t (Q1 call 4-Aug-26). Use the range | Two transcripts | IMFA Q4 FY26 / Q1 FY27 transcripts [V] |
+| S16 | §4.3, §9.1 | Ore EC 1.2 mtpa "target FY31"; ore ~0.8 mt | **FY27 target 1.0 mt**, hold "a couple of years", then 1.2 mt, eventually all underground (~₹1,000 Cr). Mahagiri already **536,810 t, all UG** | Q4 call; AR | IMFA transcript 27-May-26; AR FY26 [V] |
+| S17 | Trap 8; §9.1 | Domestic ~15–20% (E) / 19% Q1 | **FY26 domestic 48,769 t = 18.1% of tonnes** (FY22 8.3% → FY25 13.1%); ≥200 kt/yr domestic over time (MD) | AR tables; Q4 call | IMFA AR FY26; transcript [V] |
+| S18 | §2 Global | Turkey chromite "~2–3 mt"; Kazakhstan "~6–7 mt" [K] | **Turkey 9.0 mt (#2), Kazakhstan 7.0 mt**, SA 23.0, India 3.0 (USGS CY) / 3.53 (IFAPA FY26); world 51 mt | USGS MCS 2026 | USGS [V] |
+| S19 | §0, §8, §E-11, §12-4 | China tender "H1-2026 peak ~RMB 8,750–8,800" | **Tsingshan LT tender peak RMB 8,495** (Nov-25 and May-26); Jan-25 6,995; Dec-25/Apr-26 8,395. 8,750–8,800 was spot/retail | SMM tender reports | SMM [V-sec] |
+| S20 | §2 Global, §10 | Global FeCr ~16–18 mt/yr [K] | **CY2025 just under 16 mt, −9.4% YoY** (SA collapse; China from 650 to 950 kt/month) | IMFA MD citing industry data | IMFA Q4 FY26 transcript [V] |
+| S21 | §3, §7.2, §G | EU safeguard quotas "from 2026" / "1-Jan-2026" | **Reg. (EU) 2025/2351, 18-Nov-2025 → 17-Nov-2028**, quarterly TRQs; India SiMn 126,792 t (yr 1), FeMn 69,928 t; **FeCr not covered**; FeSi covered (India in "other countries") | OJ text (mirror) | LawPlayer copy of OJ L 2025/2351 [V-sec] |
+| S22 | §2, §3, §H-15 | India crude steel FY26 ~165 mt [E] | **168.42 mt (+10.7%)**; consumption 163.74 mt; capacity 220.3 mt; FY25 152.18 | Ministry overview | MoS Mar-2026 overview [V] |
+| S23 | §0, §2 | Stainless "global +2.5–3% in 2026" (MD) | **H1-2026 +5.0% to 32.96 mt** (China +7.1%, EU −3.7%) | worldstainless release 27-Aug-26 | worldstainless [V] |
+| S24 | Part 2 Nava DPS; §F | DPS ₹8.50 [primer] | **₹8.50 = ₹3.00 interim (board 7-Nov-2025) + ₹5.50 final (15-May-2026)**; final outgo ₹155.65 Cr | AR | AR FY26 [V] |
+| S25 | §2.1 Credit/§12-10 | "~₹800 Cr overseas sugar debt (CRISIL)" | AR: **sugar project US$200 Mn; US$100 Mn debt "being contracted"** (≈ ₹950 Cr at ₹94.9); COD Mar-2028 | AR | AR FY26 [V] |
+| S26 | §2.4, §2.2 | ICRA FY24 PAT 363.7 vs screener 344 "immaterial" | Company standalone FY24 PAT **₹363.7 Cr (EPS ₹67.41)**, restated for the UCL merger (effective 28-Mar-2025); screener's 344 is the older consolidated figure | FY25 AR 5-yr table | IMFA AR FY25 [V] |
+| S27 | §E-8 | MEL Q1 FY26 revenue/EBITDA/PAT 68.7/51.0/34.2 | Originally reported **65.8/50.7/33.9** (Q2 FY26 PPT); restated in the Q1 FY27 PPT. FY26 quarters sum to US$256.0 Mn only with 65.8 | PPT comparison | Nava PPTs [V] |
+| S28 | §1.1, §9.2 | Nava FeSi "now only recovered from residue" | Plus: **FeSi discontinued** (US tariffs, EU quotas); FY27 SiMn ~130 kt; max ~160 kt | Q4 call; AR | transcript 15-May-26 [V] |
+| S29 | IMFA RE (Part 2) | "JSW Energy corridor from June-2026; EG Urja / Enfinity 65 MW" | JSW Green Energy 70 MW PPA **cancelled** (site change) and **re-signed with JSW Renew Energy Twelve**; **EG Urja Strot 65 MW, 29-yr, signed 25-May-2026** (81.4 MW solar + 102.6 MW wind + 25 MWh BESS; IMFA invests ₹110.18 Cr); AmpIn agreement terminated 14-May-2026 | AR Directors' Report | IMFA AR FY26 [V] |
+| S30 | Not in Parts 1–3 | — | **Utkal-C clawback risk:** JSPL (allottee) challenges ₹328.5 Cr of the ₹389.2 Cr compensation before the Coal Tribunal, Talcher; pending | AR | IMFA AR FY26 [V] |
+
+**Arithmetic check of Part 3 aggregates:**
+- Every row of §3.1, §3.2(a), (b), (d), (e) and (f) was re-summed: revenue, OP, PAT, CAGRs (4.6% / 2.0% / 7.9%), YoY (+18.4 / +13.2 / +6.9%), shares of OP, P/E 15.8× and 13.9×, EV/EBITDA 8.9× / 11.0× / 9.4×, and the dividend sum ₹308 Cr / 1.5% yield.
+- **No arithmetic errors.** One small inconsistency: §3.1 Q1 "attrib. ~468" uses IMFA's company PAT ₹191 Cr, while the row shows screener's ₹193 Cr (sum would be ~470).
+- **The substantive errors are input errors, not sums:** S1/S2 (Nava cash omitted from net debt), S3 (attributable PAT for FY23–FY25), S5 (alloy lens).
+
+---
+
+## 4.1 Verification table — 40 figures the writer will use
+
+"Agrees?" = agrees with Parts 1–3. Primary = company filing, government or regulator document, or the official industry-body release, fetched this session.
+
+| # | Figure | Value | Source (URL) | Fetched this session | Primary? | Agrees? |
+|---|---|---|---|---|---|---|
+| 1 | India FeCr output FY26 | 1.49 mt (+10%) | https://news.metal.com/newscontent/104160238 (conference data) | Yes | No [V-sec] | Yes |
+| 2 | India chrome ore FY26 | 3.53 mt (+12%); USGS CY2025e 3.0 mt | SMM (as #1); https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-chromium.pdf | Yes | USGS yes / SMM no | Yes (basis differs) |
+| 3 | Nava FY26 revenue | ₹4,290.9 Cr | https://www.navalimited.com/wp-content/uploads/2026/09/ar_pdf_2025-26_Annual_Report.pdf | Yes | **Yes** | Yes |
+| 4 | IMFA FY26 revenue | ₹2,826.31 Cr | BSE 02ba97e3-8382-46ea-9b92-a86adbe6639c (Q1 FY27 release, FY26 column) | Yes | **Yes** | Yes |
+| 5 | Combined FY26 OP (screener) | ₹2,306 Cr | https://www.screener.in/company/NAVA/consolidated/ ; …/IMFA/consolidated/ | Yes | Near-primary | Yes |
+| 6 | IMFA EBITDA/t Q1 FY27 | ₹35,484 (281.27 Cr ÷ 79,268 t) | BSE 02ba97e3… | Yes | **Yes** (inputs) | Yes |
+| 7 | IMFA FY26 FeCr production | 267,301 t | https://www.bseindia.com/xml-data/corpfiling/AttachHis/adda9211-d30c-4b15-abdb-5633d9eb1066.pdf | Yes | **Yes** | Yes |
+| 8 | IMFA FY26 FeCr sales; domestic | 270,124 t; 48,769 t domestic (18.1%) | IMFA AR FY26 (as #7) | Yes | **Yes** | New |
+| 9 | IMFA realisation Q1 FY27 | ₹119,888/t | BSE 02ba97e3… (PPT p.9) | Yes | **Yes** | Yes |
+| 10 | IMFA EBITDA cost Q1 FY27 | ₹85,884/t | BSE 02ba97e3… (PPT p.10) | Yes | **Yes** | Yes |
+| 11 | IMFA FY27 / FY28 volume guide | ~380 kt / 475–500 kt | BSE 74d2d43b-30ea-4756-ad96-6df345e28263 (Q1 call) | Yes | **Yes** | Yes |
+| 12 | IMFA capacity path | 384k → 484k → 534k tpa; 289 → 355 MVA | BSE 02ba97e3… | Yes | **Yes** | Yes |
+| 13 | IMFA chrome ore FY26 | 810,612 t (Sukinda 273,802; Mahagiri 536,810) | IMFA AR FY26 | Yes | **Yes** | Yes (split new) |
+| 14 | IMFA lease validity | 2049 and 2055 | https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/139452 | Yes | **Yes** (rating rationale) | Yes |
+| 15 | IMFA FY26 exports | ₹2,396.21 Cr = 84.8% of revenue | BSE 02ba97e3… | Yes | **Yes** | Yes |
+| 16 | IMFA KNR-2 deal | ₹610 Cr base; ATA 4-Nov-25; closed 27-Feb-26 | IMFA AR FY26; https://elegant-canvas-ad15652696.media.strapiapp.com/IMFA_Press_Release_Nov_2025_3eb041a023.pdf | Yes | **Yes** | Yes (close date new) |
+| 17 | IMFA FY26 DPS | ₹12.50 (5.00 + 7.50) | IMFA AR FY26 | Yes | **Yes** | Yes |
+| 18 | IMFA FY22 EBITDA / tonnes | ₹828.83 Cr / 248,280 t sold | IMFA AR FY25 5-yr table (strapi 63rd_AGM…); FY23 AR (BSE cae0bb53…) | Yes | **Yes** | **No → S14** |
+| 19 | Nava FY26 attributable PAT | ₹788.1 Cr | Nava AR FY26 (Directors' Report) | Yes | **Yes** | Yes (787 [E]) |
+| 20 | Nava NCI FY23 / FY24 | ₹294.0 / ₹312.3 Cr | https://www.navalimited.com/pdf/financials/financial-statements/2022-2023/fs_pdf_04_2022-23_q4.pdf ; https://www.navalimited.com/wp-content/uploads/2025/05/fs_pdf_07_2024-25_q4.pdf | Yes | **Yes** | **No → S3** |
+| 21 | Nava alloy segment FY26 | Revenue ₹1,200.5 Cr; result ₹31.1 Cr | Nava AR FY26 note 37 | Yes | **Yes** | **No → S4** |
+| 22 | Nava cash + liquid / borrowings | ₹3,446 Cr / ₹2,220.9 Cr | Nava AR FY26 (BS; Directors' Report) | Yes | **Yes** | **No → S1** |
+| 23 | MEL FY26 EBITDA | US$151.4 Mn (₹1,336.6 Cr) | Nava AR FY26 MD&A; BSE c4e23dee… (Q1 PPT) | Yes (2 sources) | **Yes** | Yes |
+| 24 | MEL FY26 PLF / availability | 89.6% / 89.9%; 2,115 MU sold | Nava AR FY26; Q1 PPT | Yes (2 sources) | **Yes** | Yes |
+| 25 | ZESCO award / outstanding | US$518.1 Mn / US$13.4 Mn (14-Aug-26) | Nava AR FY26; BSE c4e23dee… | Yes | **Yes** | Yes (award precise) |
+| 26 | Phase II funding | US$400 Mn; debt US$290 Mn tied, US$214.6 Mn drawn | Nava AR FY26 | Yes | **Yes** | **No → S7** |
+| 27 | Phase II PPA tariff | 9.5 US¢/kWh | Nava AR FY26 MD&A | Yes | **Yes** | New |
+| 28 | Solar PPA tariff | 7.80 US¢/kWh, 20 yrs | Nava AR FY26; https://www.navalimited.com/wp-content/uploads/2026/05/icc_04_pdf_13_20may2026.pdf | Yes (2 sources) | **Yes** | New |
+| 29 | Nava SiMn FY26 sales | 134,410 t | Nava AR FY26; Q1 PPT | Yes (2 sources) | **Yes** | Yes |
+| 30 | Nava alloy capacity | 180,000 tpa | https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/NavaLimited_February%2017_%202026_RR_386434.html | Yes | **Yes** (rating rationale) | Yes |
+| 31 | Nava FY26 DPS | ₹8.50 (3.00 + 5.50) | Nava AR FY26 | Yes | **Yes** | Yes |
+| 32 | India crude steel FY26 | 168.42 mt (+10.7%) | https://steel.gov.in/sites/default/files/2026-04/An%20Overview%20of%20Steel%20Sector%20%28Mar.%202026%29%20%282%29.pdf | Yes | **Yes** | **No → S22** |
+| 33 | Global stainless 2025 / H1-26 | 64.2 mt (+2.1%) / 32.96 mt (+5.0%) | https://worldstainless.org/media/press-releases/ (H1 release 27-Aug-26) | Yes | **Yes** (industry body) | Yes / new |
+| 34 | World chromite; SA; Turkey | 51 mt; 23.0 mt; 9.0 mt | USGS MCS 2026 chromium | Yes | **Yes** | **No → S18** (Turkey) |
+| 35 | Global FeCr CY2025 | <16 mt, −9.4% | https://www.bseindia.com/xml-data/corpfiling/AttachHis/d4f14d05-d561-42ac-a467-20627af8d571.pdf (IMFA Q4 call) | Yes | **Yes** (company transcript; management citing industry data) | Refines |
+| 36 | China share of world FeCr | ~52% | ICRA (as #14) | Yes | **Yes** | Yes |
+| 37 | Eskom FeCr tariff path | R1.36 → R0.877 → R0.62/kWh (62 c) | IMFA Q4 transcript (as #35); Engineering News 26-Jun-26 [V-snip, Part 1] | Yes (transcript) | **Yes** (transcript); Nersa text not fetched | Yes |
+| 38 | Merafe H1-26 FeCr | 28 kt (−75% from 112 kt) | https://sharedata.co.za/sens.asp?id=555061 (SENS) | Yes | **Yes** (SENS text) | Yes |
+| 39 | EU safeguard, India SiMn | 126,792 t yr 1; €1,392/t; 18-Nov-25 → 17-Nov-28 | https://lawplayer.com/eu/act/32025R2351 (OJ mirror) | Yes | No [V-sec mirror] | Yes (dates corrected → S21) |
+| 40 | CBAM 7202 scope | FeMn, FeCr, FeNi in; SiMn, FeSi out | https://www.carbonchain.com/cbam/eu-cbam-cn-codes ; gov.uk CBAM iron & steel goods list | Search summaries | No [V-sec] | Yes (now sourced) |
+
+**Count: 35 of 40 figures are [V] from primary documents fetched this session** (#3–#4 and #6–#38, counting rating rationales, company transcripts, SENS and the worldstainless release as primary). Screener (#5) is near-primary. The other 4 (#1, #39, #40, and the SMM half of #2) are [V-sec].
+- Where two sources were fetched they agree: #23, #24, #28, #29.
+- Where sources conflict:
+  - **India chrome ore:** USGS CY2025 3.0 mt vs IFAPA FY26 3.53 mt. Different periods; the USGS series is government-report based. Use IFAPA for the Indian FY, USGS for the global ranking.
+  - **ZESCO FY26 collections:** CRISIL US$125 Mn vs AR US$132.5 Mn. The AR is later and audited; use the AR.
+  - **Phase II COD:** AR "Q4 FY27" vs Q1 call "Jun–Jul 2027". The call is later; use the call.
+
+---
+
+## 4.4 Gap log (each §H item and the brief's gap list)
+
+| # | Gap (§H / brief) | Status | Source or what was tried |
+|---|---|---|---|
+| H-1 | Nava segment revenue/EBIT in ₹, FY22–FY26 | **Filled** (FY22–FY26 annual; Q2 FY25–Q4 FY26 quarterly) | AR FY26 note 37; quarterly results PDFs. Q1 FY27 segment table **still open**: the BSE/website PDF is a scanned image and no OCR tool is available in this environment |
+| H-2 | Nava NCI by year and by quarter | **Filled** (FY22–FY26; Q2 FY25–Q4 FY26). Q1 FY27 ≈ ₹55 Cr [E] | Results statements; AR |
+| H-3 | Nava consolidated cash / true net debt | **Filled**: net cash ≈ ₹1,225 Cr (Mar-26) | AR balance sheet + "liquidity ₹3,446 Cr" |
+| H-4 | Maamba PPA tariff structure; MEL debt; Phase II funding | **Partly filled.** Phase II 9.5 US¢, solar 7.80 US¢, Phase II debt 290/214.6 drawn, solar debt 63/13.4 drawn, shareholder loans fully repaid. **Phase I tariff and its capacity/energy split are still not disclosed**; implied ≈ 11.1 US¢ [E] | AR FY26; PPTs. Tried: AR keyword search for "cents", "capacity charge", "energy charge" (only Phase II and solar found) |
+| H-5 | "INR" vs US$ on the Phase II call | **Filled**: US$ (AR states US$400 Mn / US$290 Mn) | AR FY26 |
+| H-6 | Kwacha rate | **Filled [V-sec]**: ~ZMW 17.8–17.9/US$ (Jun-2026); +32% in FY26 (AR) | OpenZambia / TheGlobalEconomy; AR. Bank of Zambia's own page not fetched |
+| H-7 | European FeCr benchmark Q2–Q4 2026 | **Still open** (Fastmarkets/Argus are paywalled). Substitute: USGS annual US$/lb series (2021–2025) and the Tsingshan tender series | USGS; SMM |
+| H-8 | CBIC: BCD on 7202; export duty on chrome ore (2610) | **Still open.** Searches surfaced only aggregator sites (IGST 18% on 7202 41; BCD 5% shown for 7202 50) and 2016/2023 articles on the 30% chrome-ore export duty; cybex returned 403. The IMFA MD's "duty protection 2–3%" stands as the company statement | Tried: WebSearch ×2, cybex. Writer: say "low single-digit BCD (company)" and avoid a precise rate |
+| H-9 | CBAM default values; SiMn scope | **Scope filled [V-sec]** (SiMn and FeSi out; FeMn, FeCr, FeNi in). **Default values still open** (EUR-Lex returns a JS challenge, HTTP 202) | carbonchain; gov.uk list |
+| H-10 | India ferro-alloy production by type; HS-level trade | **Partly:** Mn alloys ~4 mt produced, ~1 mt export (Nava AR FY26 [V]); FeCr 1.49 mt [V-sec]. **HS 720211/19/30/41/49 trade from TradeStat still open** (form-based site, not attempted within budget) | Nava AR; SMM |
+| H-11 | Global FeCr by country | **Partly:** world <16 mt CY2025 (−9.4%), China ~52%, China 650 → 950 kt/month (IMFA/ICRA [V]); **chromite ore by country filled** (USGS). Country FeCr split beyond China still [K] | IMFA Q4 call; ICRA; USGS |
+| H-12 | IMFA lease dates / reserves | **Partly:** 2049/2055 re-verified (ICRA); mine-by-date mapping and reserves still not found in the ARs read. Nuasahi status filled (surrender pending) | ICRA; IMFA AR FY25 |
+| H-13 | KNR-1 first tapping date | **Still open** (due in the 4-Nov-2026 results). AR: furnace 1 pre-commissioning Jun-26, furnace 2 Sep-26; Q1 call: tapping mid/late Aug-26 | AR FY26; Q1 call |
+| H-14 | Shyam Metalics alloys; Tata Steel FAMD | **Shyam filled [V]** (FY26 223,494 t @ ₹93,837; Q1 FY27 51,479 t @ ₹106,613). Tata Steel FAMD still [K] | NSE-archived Shyam press release |
+| H-15 | India crude steel FY26 | **Filled**: 168.42 mt | MoS overview Mar-2026 |
+| H-16 | Odisha chromite auction premia | **Partly [V-sec]:** 2020 Sukinda block at 93.75% (TS Alloys); no 2025–26 chromite block result found | BigMint |
+| H-17 | Maamba COD conflict | **Resolved**: AR "supplying power since 2016"; CRISIL "operations Aug-2017". Keep "synchronised 2016, COD 2017" | AR FY26; CRISIL |
+| H-18 | IMFA capacity conflict | **Resolved** (unchanged): 434k = 289 MVA incl. the 50k furnace (release); 384k operating (PPT) | Release; PPT |
+| H-19 | IMFA export-share conflict | **Resolved**: tonnes 81.9% export / 18.1% domestic (FY26); value 84.8%; "90:10" is the MD's loose description | AR; release |
+| H-20 | China tender conflict | **Resolved**: tender (8,395–8,495) ≠ spot/retail (8,750–8,800 peak; 7,400–7,600 late Oct) | SMM |
+| B-1 | Nava ferro-alloy tonnes / realisation | **Filled**: implied ₹84.3k/t FY26 [E]; FY27 ~130 kt guide | AR; call |
+| B-2 | Nava buyback / dividend history | **Partly:** 2025 tender buyback ₹360 Cr @ ₹500 [V]; FY26 DPS [V]; 2021 buyback terms not read; pre-FY26 DPS only as screener payout % | Website PA |
+| B-3 | IMFA 5-year and 8-quarter volumes, ₹/t, cost/t | **Filled**: volumes, ore, power, EBITDA/t. Company cost/t exists only for 3 quarters (Q1 FY26, Q4 FY26, Q1 FY27); other quarters' realisation is revenue ÷ t [E] | ARs; releases |
+| B-4 | IMFA captive power share | **Partly:** gross generation 1,138 MU = 4,257 kWh per t produced (upper bound) [E]; consumption split not disclosed | AR |
+| B-5 | Utkal-C status | **Filled**: ₹389.2 Cr compensation received; ₹328.5 Cr under challenge (Coal Tribunal, Talcher) | IMFA AR FY26 |
+| B-6 | IMFA FY27/FY28 guidance; capex | **Filled**: ~380 kt / 475–500 kt; capex ~₹450 Cr FY27 + ~₹700 Cr later; term loan ₹470 Cr (₹170 Cr undrawn) | Q4 & Q1 transcripts |
+| B-7 | ISSF stainless 2025 and H1 2026 | **Filled** | worldstainless |
+| B-8 | Eskom deal (primary Merafe/Glencore/Nersa) | **Partly:** Merafe SENS (production collapse, trading statement) [V]; tariff path from the IMFA transcript [V]; Nersa decision text and Glencore release not fetched (Engineering News returned 403) | sharedata SENS; IMFA call |
+| B-9 | USGS MCS 2026 Cr and Mn | **Filled** | USGS |
+| B-10 | EU safeguard (primary) | **Filled [V-sec mirror]**; EUR-Lex blocked | LawPlayer OJ copy |
+| B-11 | Indian steel safeguard notification | **Not re-verified** (Part 1 [V-snip] stands: 12% → 11.5% → 11%, 02/2025-Customs (SG)) | — |
+| B-12 | IBM chrome/Mn ore production and reserves | **Substituted** by USGS (India chromite reserves 79 mt; Mn reserves 34 mt Mn content); IBM yearbook not fetched | USGS |
+| B-13 | MMDR 2021 captive-sale rule | **Not re-verified** ([K] stands: up to 50% of output saleable after captive needs) | — |
+| B-14 | Maithan reference peer | **Filled** (FY21–FY26 and 7 quarters) | screener |
+
+---
+
+## 4.5 New insights the first pass missed
+
+1. **Nava's alloy business is economically a rounding error, except in boom years.**
+   - Segment PBIT over five years: **₹333 Cr → ₹136 Cr → −₹72 Cr → ₹23 Cr → ₹31 Cr**. Cumulative FY22–FY26 ≈ ₹451 Cr, three-quarters of it from FY22.
+   - On ₹658 Cr of segment assets (Mar-26), FY26 ROCE is ~5% [E].
+   - **Management now openly weighs "produce alloys vs export the power"** (15-May-2026). Read the alloy plant as a captive load for Nava's own power plants, not as a growth business.
+   - The Côte d'Ivoire Mn ore and alloy plant is the only alloy growth vector.
+2. **The correct Nava valuation frame is net cash, with a 24% minority leak.**
+   - Nava holds ≈ ₹1,225 Cr net cash at group level, but MEL's 35% partner owns ₹2,019 Cr of book equity, and NCI took **~24% of group PAT in each of FY23–FY26** (not ~0%).
+   - Attributable EPS has fallen from ₹38.6 (FY25) to ₹27.8 (FY26). The fall comes from deferred tax and the end of the tax holiday, not from collapsing operations.
+   - On attributable earnings plus net cash, the P/E ex-cash is ≈ (14,416 − 1,225 × ~0.8 attributable share [E]) ÷ 759 ≈ **17.7×** [E].
+3. **Phase II economics, rebuilt from the AR:**
+   - Tariff 9.5 US¢ × ~2,100 MU (85% PLF on 300 MW gross, net of auxiliaries) ≈ **US$200 Mn**. That matches the company's US$180–200 Mn.
+   - That tariff sits *below* Phase I's implied ~11 US¢. Phase II also has no tax holiday yet, so its PAT margin will be lower than Phase I's historic one.
+   - With US$290 Mn of debt, the US$100 Mn of equity earns most of the upside. Management's "~15% ROE" looks conservative unless interest is >10% or availability is poor [E].
+4. **IMFA's EU exposure is CBAM, not safeguards. Nava's is the reverse.**
+   - The EU safeguard (Reg. 2025/2351) covers FeMn, FeSi, SiMn and FeSiMg but **not FeCr**. CBAM covers FeCr and FeMn but **not SiMn/FeSi**.
+   - Because IMFA sells mostly to the Far East, neither EU measure is material for IMFA today. Nava's EU SiMn exports face an India quota of ~31.9 kt per quarter, and India's total Mn-alloy exports are ~1 mt, so the quota is tight. That is why export SiMn spilled into the Indian market and compressed prices (Nava AR).
+5. **The ferrochrome peak was supply-led and is now visible in primary data.**
+   - Merafe's attributable output fell 75% in H1-2026. World FeCr fell 9.4% in CY2025 while stainless *grew* 2.1%, then +5.0% in H1-2026.
+   - That gap (demand up, supply down) explains IMFA's ₹35.5k/t Q1 FY27.
+   - Its reversal (SA restarts at R0.62/kWh; Merafe guiding a year-end ramp-up) is the key H2 FY27 risk.
+   - The Tsingshan tender itself only moved from RMB 8,395 to 8,495. **Most of IMFA's Q1 realisation jump came from the rupee (₹85.5 → ₹94.6/$) and from contract resets, not from a Chinese price spike** [E].
+6. **IMFA's moat in rupees per tonne.**
+   - Auction-era chromite blocks clear at ~90–110% premia (Sukinda 2020: 93.75%; Odisha iron ore 2026: 101–111%). At ~2.5–3 t ore per t FeCr, a non-integrated or auction-era producer pays **~₹20–35k/t more** for ore than IMFA [E]. That exceeds IMFA's through-cycle EBITDA/t of ₹20–25k.
+   - FY23–FY26 EBITDA/t was remarkably stable (₹20.4–24.5k) across a −20%/+20% price cycle. **Integration stabilises margins per tonne; volume is the growth lever.**
+7. **IMFA's domestic pivot is already under way.** Domestic tonnes rose from 20.5 kt (FY22) to 48.8 kt (FY26), and management targets ≥200 kt. With FACOR also expanding, Indian domestic FeCr pricing (thin duty protection) becomes more important than the Far-East contracts by FY28.
+8. **Utkal-C is a live, unprovided ₹328.5 Cr contingency at IMFA** (≈ 12% of FY26 net worth). JSPL's challenge sits before the Coal Tribunal. Neither primer mentions it.
+
+### New primer issues (format as primer-issues.md; add to §3.4)
+
+- **nava-limited.html — net debt framing:** any "net debt" or "re-gearing" language should become **net cash ≈ ₹1,225 Cr** (cash + liquid investments ₹3,446 Cr vs borrowings ₹2,221 Cr, Mar-2026, AR FY26). This adds to the §3.4 debt-trend fix.
+- **nava-limited.html — minority share:** state that **~24% of group PAT goes to ZCCM-IH** (NCI ₹252 Cr in FY26; ₹294–343 Cr in FY23–FY25). Attributable PAT FY26 ₹788 Cr.
+- **nava-limited.html — ferro-alloy segment numbers:** replace the margin language with segment data. FY26 revenue ₹1,200 Cr, PBIT ₹31 Cr (2.6%); FY24 loss ₹72 Cr; FY22 profit ₹333 Cr. Contract mix: 40% Japanese annual / 40–50% Indian quarterly / 10–15% spot. FeSi discontinued; FY27 ~130 kt.
+- **nava-limited.html — Maamba tariffs and funding:** add Phase II PPA **9.5 US¢/kWh**, solar **7.80 US¢/kWh**, Phase II debt **US$290 Mn (US$214.6 Mn drawn, Mar-26)**, and the end of the Phase I tax holiday (power division taxed at ~15% from FY26).
+- **nava-limited.html — ZESCO:** award **US$518.1 Mn**, received **US$490.1 Mn** by Mar-26.
+- **indian-metals-ferro-alloys.html — Nuasahi:** remove it as an operating mine; **surrender pending with the Government of Odisha**.
+- **indian-metals-ferro-alloys.html — Utkal-C clawback:** add the **₹328.5 Cr** challenge pending at the Coal Tribunal, Talcher (AR FY26).
+- **indian-metals-ferro-alloys.html — volumes and cost:** add the five-year volume/EBITDA-per-tonne table (FY22 ~₹33k/t; FY23–FY26 ₹20–25k/t) and domestic tonnes 48,769 (18%). KNR cost saving guided at **₹1,500–4,000/t**. Ore target 1.0 mt FY27.
+- **indian-metals-ferro-alloys.html — EU exposure:** FeCr is **outside the EU ferro-alloy safeguard** (Reg. 2025/2351) but **inside CBAM**.
+- **indian-metals-ferro-alloys.html — RE contracts:** JSW 70 MW PPA re-papered with JSW Renew Energy Twelve; EG Urja 65 MW (29 yrs, ₹110 Cr investment); AmpIn terminated.
+- **Both primers — industry facts to add:**
+  - India crude steel FY26 **168.4 mt**.
+  - Stainless H1-2026 **+5%**.
+  - World chromite: SA 23 mt, **Turkey 9 mt**, Kazakhstan 7 mt, India 3 mt (USGS 2026).
+
+---
+
+## 4.6 Source URLs used in Part 4 (fetched this session)
+
+**Nava:**
+- AR FY26: https://www.navalimited.com/wp-content/uploads/2026/09/ar_pdf_2025-26_Annual_Report.pdf
+- Results PDFs:
+  - https://www.navalimited.com/wp-content/uploads/2025/05/fs_pdf_07_2024-25_q4.pdf
+  - https://www.navalimited.com/wp-content/uploads/2025/08/fs_pdf_01_2025-26_q1.pdf
+  - https://www.navalimited.com/wp-content/uploads/2025/11/fs_pdf_03_2025-26_q2.pdf
+  - https://www.navalimited.com/wp-content/uploads/2026/02/fs_pdf_05_2025-26_q3.pdf
+  - https://www.navalimited.com/wp-content/uploads/2026/05/fs_pdf_07_2025-26_q4.pdf (scanned)
+  - https://www.navalimited.com/wp-content/uploads/2026/08/fs_pdf_01_2026-27_q1.pdf (scanned)
+  - https://www.navalimited.com/pdf/financials/financial-statements/2022-2023/fs_pdf_04_2022-23_q4.pdf
+- PPTs:
+  - https://www.navalimited.com/wp-content/uploads/2025/05/ip_pdf_04_FY2025_q4.pdf
+  - https://www.navalimited.com/wp-content/uploads/2025/11/ip_pdf_02_FY2026_q2.pdf
+  - https://www.navalimited.com/wp-content/uploads/2026/02/ip_pdf_03_FY2026_q3.pdf
+  - https://www.navalimited.com/wp-content/uploads/2026/05/ip_pdf_04_FY2026_q4.pdf
+  - https://www.bseindia.com/xml-data/corpfiling/AttachHis/c4e23dee-9881-4c3c-a8a8-0ec2b19687ae.pdf
+- Transcripts:
+  - https://www.navalimited.com/wp-content/uploads/2026/05/icc_04_pdf_13_20may2026.pdf
+  - https://www.bseindia.com/xml-data/corpfiling/AttachHis/25c1eb63-b7a2-415a-8ea7-b0918018a430.pdf
+- Buyback PA: https://www.navalimited.com/wp-content/uploads/2025/02/bb_pdf_01_2025_21feb2025.pdf
+- CRISIL: https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/NavaLimited_February%2017_%202026_RR_386434.html
+
+**IMFA:**
+- AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/adda9211-d30c-4b15-abdb-5633d9eb1066.pdf
+- AR FY25: https://elegant-canvas-ad15652696.media.strapiapp.com/63rd_AGM_Notice_Annual_Report2025_0874633d54.pdf
+- AR FY23: https://www.bseindia.com/xml-data/corpfiling/AttachHis/cae0bb53-5cd1-449d-b537-765e80cd5fdb.pdf
+- Q4 FY26 transcript: https://www.bseindia.com/xml-data/corpfiling/AttachHis/d4f14d05-d561-42ac-a467-20627af8d571.pdf
+- Q4 FY26 PPT: https://www.bseindia.com/xml-data/corpfiling/AttachHis/f8688994-935c-4a86-84c3-93e9df39ecaa.pdf
+- Q1 FY27 release + PPT: https://www.bseindia.com/xml-data/corpfiling/AttachHis/02ba97e3-8382-46ea-9b92-a86adbe6639c.pdf
+- Q1 FY27 transcript: https://www.bseindia.com/xml-data/corpfiling/AttachHis/74d2d43b-30ea-4756-ad96-6df345e28263.pdf
+- Releases:
+  - https://elegant-canvas-ad15652696.media.strapiapp.com/Press_Release_Q1_FY_26_a154a4205a.pdf
+  - https://elegant-canvas-ad15652696.media.strapiapp.com/IMFA_Press_Release_Nov_2025_3eb041a023.pdf
+  - https://elegant-canvas-ad15652696.media.strapiapp.com/Press_release_IMFA_Q3_FY_26_results05022026_a75fd93a7e.pdf
+- ICRA: https://www.icra.in/Rating/ShowRationalReportFilePdfViewer/139452
+
+**Industry:**
+- USGS: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-chromium.pdf · https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-manganese.pdf
+- Ministry of Steel: https://steel.gov.in/sites/default/files/2026-04/An%20Overview%20of%20Steel%20Sector%20%28Mar.%202026%29%20%282%29.pdf
+- worldstainless: https://worldstainless.org/media/press-releases/ · https://worldstainless.org/media/press-releases/stainless-steel-melt-shop-production-increased-by-5-in-the-first-half-year-of-2026/
+- EU safeguard (OJ mirror): https://lawplayer.com/eu/act/32025R2351 (OJ: https://eur-lex.europa.eu/eli/reg_impl/2025/2351/oj)
+- Merafe SENS: https://sharedata.co.za/sens.asp?id=555061
+- SMM India chrome: https://news.metal.com/newscontent/104160238
+- Shyam Metalics: https://nsearchives.nseindia.com/corporate/SHYAMMETL_20072026133239_SMELPressRelease20072026.pdf
+- Maithan: https://www.screener.in/company/MAITHANALL/consolidated/
+- [V-sec] search-summary sources:
+  - CBAM CN codes: https://www.carbonchain.com/cbam/eu-cbam-cn-codes
+  - SMM Tsingshan tenders: https://news.metal.com/en/newscontent/103877039 · https://www.metal.com/en/newscontent/103631717
+  - BigMint Sukinda 2020: https://bigmint.co/insights/detail/odisha-auction-2020-ts-alloys-wins-sukinda-chromite-mine-157142
+  - Kwacha: https://www.openzambia.com/economics/2026/6/3/kwacha-strengthens-further-reaching-k179-to-the-dollar
+  - Merafe results: https://www.businessday.co.za/companies/2026-08-11-merafe-profit-more-than-doubles-despite-lower-ferrochrome-output/
+
+*End of Part 4.*
+
+---
+
+# PART 5 — Orchestrator aggregate re-check (2026-10-31; overrides §3.1–3.2 and S1–S2 where they differ)
+
+The aggregates below were re-added from the company rows, with Part 4's Supersedes applied. Basis is stated per block.
+
+**(a) Arithmetic.** Every §3.1/§3.2 sum and CAGR re-added: correct. One fix: the §3.1 Q1 FY27 attributable total is **~470** (277 Nava [E] + 193 IMFA screener), not ~468; the old figure mixed in IMFA's company PAT of ₹191 Cr.
+
+**(b) Net cash/debt on ONE basis (replaces S1/S2 and §3.2(d)).**
+- Basis: borrowings excluding lease liabilities, minus cash, bank balances and treasury investments (current investments; for IMFA, mutual funds, equity instruments and bonds at fair value). Both from the consolidated FY26 balance sheets [V, annual reports fetched this session].
+- **Nava (Mar-26):** borrowings 2,173.25 + 47.67 = **2,220.9**; cash 2,098.5 + bank 16.3 + current investments 1,347.9 = **3,462.7** → **net cash ₹1,242 Cr**. Part 4 used the AR "liquidity" figure of ₹3,446 Cr (→ ₹1,225 Cr); use 1,242 on balance-sheet lines. Non-current investments (₹60.6 Cr) are excluded.
+- **IMFA (Mar-26):** borrowings **923.7** (screener's 958 = 923.7 + lease 33.9); cash 34.2 + bank deposits 17.8 + equity/MF 283.3 + bonds 99.4 = **434.8** → **net debt ₹489 Cr**.
+- **Combined: net cash ₹753 Cr** (1,242 − 489).
+- EV = m-cap 20,303 − 753 = **₹19,550 Cr → 8.5× FY26 screener OP (2,306); 8.1× TTM OP (2,399)**. EV with Nava's NCI at book (₹2,018.8 Cr) added = ₹21,569 Cr → 9.4×.
+- Screener-basis net debt (borrowings − investments, no cash: Nava 818, IMFA 575, total 1,393) **must not be used**; it ignores Nava's ₹2,098 Cr cash.
+
+**(c) PAT bases.** Peer-table columns: PAT reported pre-minority (screener consolidated, = company) and PAT attributable to owners (Nava from results/AR; IMFA has no minority, so attributable = reported).
+
+| Year | PAT pre-minority (Nava + IMFA) | PAT attributable (Nava + IMFA) | NCI share of combined PAT |
+|---|---|---|---|
+| FY22 | 573.3 + 508 = **1,081** | 517.7 + 508 = **1,026** | 5.1% |
+| FY23 | 1,221.7 + 226 = **1,448** | 927.7 + 226 = **1,154** | 20.3% |
+| FY24 | 1,256.1 + 344 = **1,600** | 943.7 + 344 = **1,288** | 19.5% |
+| FY25 | 1,434.0 + 379 = **1,813** | 1,091.5 + 379 = **1,471** | 18.9% |
+| FY26 | 1,038.5 + 425 = **1,464** | 788.1 + 425 = **1,213** | 17.2% |
+
+- IMFA uses screener consolidated PAT throughout (FY24 344, not the restated standalone 363.7) to keep one basis.
+- Combined P/E on FY26 attributable PAT = 20,303 ÷ 1,213 = **16.7×**; on attributable TTM (759 + 525 = 1,284) = **15.8×**.
+- Attributable PAT CAGR FY22–FY26 = (1,213 / 1,026)^0.25 − 1 = **4.3%**.
+
+**(d) Ferro-alloy-only lens (S5, checked):** revenue 2,826 + 1,192.1 = **₹4,018 Cr**; EBITDA 588 + ~41 = **~₹629 Cr (15.7%)**. Label it INDICATIVE in the report: Nava's alloy EBITDA is segment result + depreciation [E].
