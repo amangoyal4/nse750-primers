@@ -59,3 +59,21 @@
   - Neither mentions the **rupee at ~₹94.9/$** (a tailwind for IMFA; translation for Nava's US$ earnings).
   - Market caps are 3–4 months stale (Nava −14%, IMFA −23%).
 
+
+## From Ferro Alloys deep research (2026-10-31, ferro-alloys-industry.md §4.5)
+
+- **nava-limited.html — net debt framing:** any "net debt" or "re-gearing" language should become **net cash ≈ ₹1,242 Cr** on balance-sheet lines (cash + bank + current investments ₹3,463 Cr; AR "liquidity" ₹3,446 Cr vs borrowings ₹2,221 Cr, Mar-2026, AR FY26). This adds to the §3.4 debt-trend fix.
+- **nava-limited.html — minority share:** state that **~24% of group PAT goes to ZCCM-IH** (NCI ₹252 Cr in FY26; ₹294–343 Cr in FY23–FY25). Attributable PAT FY26 ₹788 Cr.
+- **nava-limited.html — ferro-alloy segment numbers:** replace the margin language with segment data. FY26 revenue ₹1,200 Cr, PBIT ₹31 Cr (2.6%); FY24 loss ₹72 Cr; FY22 profit ₹333 Cr. Contract mix: 40% Japanese annual / 40–50% Indian quarterly / 10–15% spot. FeSi discontinued; FY27 ~130 kt.
+- **nava-limited.html — Maamba tariffs and funding:** add Phase II PPA **9.5 US¢/kWh**, solar **7.80 US¢/kWh**, Phase II debt **US$290 Mn (US$214.6 Mn drawn, Mar-26)**, and the end of the Phase I tax holiday (power division taxed at ~15% from FY26).
+- **nava-limited.html — ZESCO:** award **US$518.1 Mn**, received **US$490.1 Mn** by Mar-26.
+- **indian-metals-ferro-alloys.html — Nuasahi:** remove it as an operating mine; **surrender pending with the Government of Odisha**.
+- **indian-metals-ferro-alloys.html — Utkal-C clawback:** add the **₹328.5 Cr** challenge pending at the Coal Tribunal, Talcher (AR FY26).
+- **indian-metals-ferro-alloys.html — volumes and cost:** add the five-year volume/EBITDA-per-tonne table (FY22 ~₹33k/t; FY23–FY26 ₹20–25k/t) and domestic tonnes 48,769 (18%). KNR cost saving guided at **₹1,500–4,000/t**. Ore target 1.0 mt FY27.
+- **indian-metals-ferro-alloys.html — EU exposure:** FeCr is **outside the EU ferro-alloy safeguard** (Reg. 2025/2351) but **inside CBAM**.
+- **indian-metals-ferro-alloys.html — RE contracts:** JSW 70 MW PPA re-papered with JSW Renew Energy Twelve; EG Urja 65 MW (29 yrs, ₹110 Cr investment); AmpIn terminated.
+- **Both primers — industry facts to add:**
+  - India crude steel FY26 **168.4 mt**.
+  - Stainless H1-2026 **+5%**.
+  - World chromite: SA 23 mt, **Turkey 9 mt**, Kazakhstan 7 mt, India 3 mt (USGS 2026).
+
