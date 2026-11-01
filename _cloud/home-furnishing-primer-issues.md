@@ -40,3 +40,26 @@
   - **Q2 FY27 board not yet announced** (deadline 14-Nov-2026).
 - **wakefit.html — manufacturing footprint.** Add the 5 facilities (Sonipat; 2 × Bengaluru; 2 × Hosur), 6.99 lakh sq ft, and the Hosur mother warehouse of 1.6 lakh sq ft (Q1 FY27 PPT).
 
+
+## From Mattresses & Home Furnishing deep-research pass (2026-11-01, home-furnishing-industry.md §4.5.1; supersedes §3.4 where they differ)
+
+- **wakefit.html — IPO subscription:** the primer's ~2.5× is CORRECT (2.52× ex-anchor; Part 4 Supersedes #7). Ignore the §3.4 bullet that suggested 1.82×.
+- **wakefit.html — net cash:** the §3.4 view of net cash (~₹323 Cr) is superseded by ₹958.6 Cr investable cash (Mar-26).
+**sheela-foam.html**
+- Kurlon merger date: change any "w.e.f. April 2026" to **"NCLT approved 17-Sep-2025; effective 31-Jan-2026 (appointed date 1-Apr-2024)"** (AR FY26 Note 63).
+- Kurlon price: **₹1,940.78 Cr for 94.67% (Oct-2023), then ₹59.25 Cr for 2.76% → 97.43%** (AR FY24 Note 63).
+- QIP: **₹1,200 Cr on 26-Sep-2023 at ₹1,078/share** (AR FY24).
+- Furlenco: quote **34.53% (voting) / ~43% fully diluted / ~35% profit share**; Furlenco FY27 plan ~₹500 Cr, IPO under consideration.
+- TDI/polyol price bars: replace with the company's own series (TDI ₹201 → 172/kg, polyol ₹126 → 107/kg, Q2 FY25 → Q2 FY26; spot May-2026 TDI ~₹275, polyol ~₹180; normal ~₹240 / ~₹120). The primer's "polyol ~₹180 normalised" is wrong.
+- Add FY27 cost guidance: capex ₹125–150 Cr; depreciation ₹140–145 Cr (policy change); finance cost ~₹50 Cr; and the international-divestment optionality.
+- Add the ₹16 Cr Q4 FY26 and ₹6 Cr Q1 FY27 exceptional gains when discussing the PAT trajectory.
+
+**wakefit.html**
+- Net cash: **₹958.6 Cr investable cash (Mar-26)**, not ~₹323 Cr; only ~₹10 Cr of IPO proceeds used by Mar-26.
+- IPO: **2.52× subscribed (ex-anchor)**; allotment **11-Dec-2025**; pre-IPO lock-in ended ~11-Jun-2026; promoter lock-in to ~11-Jun-2027.
+- A&P: FY26 **~5.7%** (not 7.5%); FY27 guide 7–8%.
+- Stores: add **payback ~10–11 months**, 42 adds / 8 closures in FY26, ~60 mini + ~105 mega stores, jumbo stores Jun–Sep 2027.
+- Channel: marketplaces (incl. quick commerce) **41% (FY23) → 29% (H1 FY26)**; own channels 67.2% FY26.
+- Market share: Wakefit's own estimate is **~10% of the organised mattress market**; remove any "30–35% of online mattresses" claim.
+- Capex: FY27 **₹100–120 Cr** (Aug-26), down from ₹120–140 Cr (May-26).
+

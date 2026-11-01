@@ -1505,3 +1505,555 @@ All aggregates are **straight sums of the company rows on one basis**: screener 
 - **paints.html**: home-décor adjacency (Asian Paints–White Teak); "home improvement" spend.
 - **footwear.html**: Sheela sells technical/comfort foam to footwear makers; formalisation parallel.
 - **luggage.html**: another category where D2C insurgents attacked a branded incumbent; also a consolidation story.
+
+---
+
+# PART 4 — Deep-research supplement (2026-11-01)
+
+Second-pass, primary-source supplement compiled 1-Nov-2026 (UTC, ~15:05–15:30). It **overrides Parts 1–3 wherever they conflict** (see 4.0). Tags as in the header: **[V]** means fetched and read *this session* from the named source (BSE-hosted company PDFs, annual reports, government/regulator pages, TradeStat, company IR pages); **[V-snip]** means search-result/secondary only; **[K]** memory; **[E]** this dossier's arithmetic. Scratch notes: `/tmp/home-furnishing-deep/notes.md`.
+
+**What was read this session (primary):**
+- Sheela Foam: Q1 FY27 deck (4-Aug-26) and transcript (call 5-Aug-26); Q4 FY26 deck and transcript (call 15-May-26, filed 19-May-26); H1 FY26 deck (Nov-25, incl. the TDI/polyol price chart); Q3 FY26 deck (Feb-26); Annual Reports FY26, FY25 and FY24 (BSE). Screener consolidated page re-fetched.
+- Wakefit: Q1 FY27 deck (6-Aug-26) and transcript (call 7-Aug-26); Q4 FY26 deck and transcript (call 22-May-26, filed 28-May-26); Q3 FY26 deck; Annual Report FY26 (first as a listed company); the SEBI-hosted Prospectus (Dec-2025) re-fetched. Screener page re-fetched.
+- Government/regulator/trade: CBIC GST goods-rate booklet (3-Jul-2017); TradeStat (Dept of Commerce) import data for TDI (HS 29291020) and polyether polyols (HS 39072910, 39072990), FY23–FY26; Customs notification 01/2026-Customs (ADD) text (polyol); DGTR initiation list (30-Sep-2026, TDI sunset review); the 2022 TDI ADD continuation (ICIS text via antidumping.vn).
+- Industry/peers: GNFC Q1 FY27 investor deck (TDI price chart) and transcript (6-Aug-26); Somnigroup FY2025 earnings release (8-K exhibit, 17-Feb-26); Sleep Number FY2025 release (company IR PDF, 12-Mar-26); Anarock CY2025 housing (Business Today, 26-Dec-25).
+
+## 4.A Q2 FY27 status check (1-Nov-2026, re-checked 15:27 UTC)
+
+- **Sheela Foam:** no Q2 FY27 results yet. Screener's announcement feed (re-fetched today) still shows the 26-Oct-2026 intimations as the latest items: board meeting **2-Nov-2026**, investor call **3-Nov-2026**. Q1 FY27 remains the latest reported quarter. **No Q2 FY27 section can be written; the writer must check BSE on/after 2-Nov.**
+- **Wakefit:** **no board-meeting intimation** for Q2 FY27 as of today. The latest filings are the Reg 74(5) certificate (7-Oct-2026), the Head-HR change (30-Sep-2026), the ESOP grant (28-Sep-2026) and the trading-window closure from 1-Oct-2026 [V screener]. The LODR deadline remains **14-Nov-2026**; a board meeting must be intimated at least 2 working days ahead.
+- BSE's announcement API (`api.bseindia.com/.../AnnSubCategoryGetData`) returned Akamai "Access Denied" to a generic UA this session; the BSE-hosted PDFs themselves downloaded normally.
+
+## 4.0 Supersedes (corrections that override Parts 1–3)
+
+| # | Where in Parts 1–3 | Old figure / statement | New figure / statement | Source and reason |
+|---|---|---|---|---|
+| 1 | Header item 1; §2.5; §G "Apr-2026" | Kurlon "legally merged into Sheela Foam with effect from April 2026" [primer] | **NCLT (Mumbai) approved the scheme on 17-Sep-2025; it became effective on filing with the RoC on 31-Jan-2026; appointed date 1-Apr-2024** (pooling-of-interests, comparatives restated from 1-Apr-2024). 4,88,146 SFL shares were issued to Kurlon minorities on 3-Feb-2026 | [V] SFL AR FY26, Note 63 and share-capital note. The "April 2026" date was wrong. |
+| 2 | Header 1; §8; B3; §G; §H-7 | "~94.66% of Kurlon for ~₹2,000 Cr [K]" | **94.67% (3,46,05,369 shares) for ₹1,940.78 Cr (cash ₹1,869.78 Cr + holdback ₹71.00 Cr), control w.e.f. 20-Oct-2023** (BTA dated 17-Jul-2023); a further 2.76% bought for ₹59.25 Cr → **97.43% at Mar-24**. In FY26 the purchase consideration was remeasured up by ₹30 Cr, taking goodwill to ₹406.80 Cr. All-in ≈ **₹2,030 Cr for 97.43%** [E sum] | [V] SFL AR FY24 Note 63; AR FY26 goodwill note. |
+| 3 | §8 (FY24); §H | Sheela "~₹1,200 Cr QIP [K]" | **QIP of ₹1,200.00 Cr on 26-Sep-2023: 1,11,31,725 shares at ₹1,078 (premium ₹1,073)**, to part-fund Kurlon; 100% used by Mar-24 | [V] SFL AR FY24 Directors' Report. |
+| 4 | Header 3; §2.5-1; §3.3; §H-6 | Furlenco stake conflict: AR 34.53% vs CRISIL 43.05% | **Both are right on different bases.** 34.53% = equity/voting share at 31-Mar-2026 (AR; joint control via SHA board-majority rights). **~43% = fully diluted** (Group CFO, 15-May-2026 call: "on a fully diluted basis, we hold around 43%"), matching CRISIL's 43.05%. **Share of Furlenco's profit booked = ~35%** (CFO, 5-Aug-2026). Carrying value ₹441.64 Cr (Mar-26) vs ₹411.64 Cr; FY26 cash investment ₹30.00 Cr; total invested ~₹430 Cr (CFO) | [V] AR FY26; [V] Q4 FY26 and Q1 FY27 transcripts. Use "34.53% voting / ~35% economic / ~43% fully diluted". |
+| 5 | §4.2(a) note; §H-17; §2.5-7 | FY26 exceptional sign conflict (PPT −8 vs AR +7.93) | **It is a gain.** AR Note 66: net gain ₹7.93 Cr on sale of land and buildings at Roorkee (Uttarakhand) and Dabaspet (Karnataka). In the deck's P&L "Exceptional item" is shown with a negative sign when it is income (FY26: 174 + 8 − 42 + 21 = 161). Quarterly: **Q2 FY26 charge ₹8 Cr; Q4 FY26 gain ₹16 Cr; Q1 FY27 gain ₹6 Cr** (73 + 6 − 20 + 3 = 62). FY25 gain ₹30.59 Cr = insurance recoveries (Silvassa fire ₹11.56 Cr; Jhagadia fire ₹18.71 Cr) | [V] AR FY26 Note 66; Q4 FY26, Q2 FY26 and Q1 FY27 decks. **New implication:** Q4 FY26 PAT (₹92 Cr) included a ~₹16 Cr exceptional gain plus ~₹14 Cr JV share (largely Furlenco DTA). |
+| 6 | §2.0 notes; §3.2(d); §9.1; §2.5-8; JSON | Wakefit net cash "₹323 Cr liquid; up to ~₹1,000 Cr [E]" | **Investable cash ₹958.6 Cr (INR 9,586 mn) at 31-Mar-2026** per the company. CFO bridge: ~₹450 Cr pre-IPO + ~₹400 Cr IPO net + internal accruals; only ₹4.5 Cr (deck/AR: ₹10.2 Cr incl. issue expenses) of IPO money used by Mar-26; FDs of 3–12 months sit in "other financial assets". **EV at ₹4,478 Cr m-cap ≈ ₹3,520 Cr; EV/FY26 operating EBITDA (₹112.3 Cr) ≈ 31×; EV/screener OP (₹186 Cr) ≈ 19×** [E]. Pair net debt becomes **net cash ≈ ₹416 Cr** (Sheela ₹543 Cr net debt − Wakefit ₹959 Cr), not net debt ₹220 Cr | [V] Wakefit Q4 FY26 deck and transcript; AR FY26 IPO-utilisation table. |
+| 7 | §2.2.5; §3.3; §H-9; §3.4 | IPO subscription 1.82× (chittorgarh) vs 2.52× (primer) | **2.52× overall, excluding the anchor book** (QIB ex-anchor 3.04×, NII 1.05×, retail 3.17×) at close on 10-Dec-2025. The 1.82× arithmetic divides total bids by an offer size that **includes** the anchor allocation, which is not the exchange convention. **Use 2.52×** | [V-snip] multiple aggregators (Entrackr headline "closes with 2.52x"; Kotak Neo 5:15 pm snapshot 2.47×). Exchange bid book not reachable (NSE blocks bots; BSE API denied). |
+| 8 | Header 5; §2.2.5; §H-14 | Allotment "~11-Dec-2025 [E]"; lock-in expiries [E] | **Allotment 11-Dec-2025** (1,93,42,461 fresh shares). So the 6-month pre-IPO lock-in ended **~10/11-Jun-2026** and the promoters' 18-month minimum-contribution lock-in ends **~11-Jun-2027** [E from date] | [V] Wakefit AR FY26, share-capital history. |
+| 9 | §5.3; §7.2; §12; §G; §H-3 | TDI ADD China/Japan/Korea "under sunset review (Oct-2026); rates/expiry not verified" | **In force since 21-Sep-2022 for 5 years (≈ to 20-Sep-2027)**: China (Covestro, Wanhua, others) **US$0.26/kg**; Korea Hanwha **0.22**, BASF **0.31**, others **0.44**; Japan **0.15**. **DGTR initiated the second sunset review on 30-Sep-2026 (SETU AD/SSR/011/2026)** | [V] ICIS text (via antidumping.vn, 7-Oct-2022); [V] worldtradescanner DGTR list (initiation dated 30-Sep-2026). |
+| 10 | §7.2; §12; §H-4; §G "2021–22" | Polyol ADD "imposed 2021; 2026 status unknown" | **Notification 20/2021-Customs (ADD), 5-Apr-2021**, on flexible slabstock polyol (MW 3000–4000; CTH 3907 29) from Saudi Arabia and UAE: Sadara **US$150.06/t**, other Saudi **US$235.02/t**, UAE **US$101.81/t**. DGTR sunset review initiated 18-Mar-2025; **01/2026-Customs (ADD), 2-Jan-2026, extended the duty to 17-Jun-2026**. Final findings dated ~17-Mar-2026 recommending continuation (Saudi) are reported [V-snip]; **no continuation notification after 17-Jun-2026 was found**, so current status is still open | [V] taxguru/jurishour reproductions of 01/2026-Customs (ADD); [V-snip] for the Mar-2026 final findings. |
+| 11 | §7.1 table; §G Jul-2017; §H-2 | Mattress GST: "18% before (K) — one blog says 12%→18%"; "28% at launch, cut Nov-2017 [K]" | **At GST launch (1-Jul-2017) HSN 9404 mattresses (spring/stuffed/cellular rubber or plastics), 9403 "other furniture" and 9401 seats were in the 28% schedule; coir mattresses, cotton pillows/mattresses/quilts and bamboo furniture were at 18%; coir products and quilted-textile products at 12%.** The cut to 18% (Nov-2017) remains [K] but is consistent with every post-2017 source; **pre-22-Sep-2025 rate = 18%; post = 18% (Notfn 9/2025-CT(Rate), Sch. II)**. The "12%→18%" blog claim is **rejected** | [V] CBIC goods-rate booklet 3-Jul-2017; [V-snip] two tax sites for the 9/2025 Schedule II entry (the notification PDF itself was not retrievable). |
+| 12 | §4.1; §H-1; primer issue | TDI/polyol price series "unsourced"; primer ₹240/275 (TDI) and ₹180/220 (polyol); IMARC US$2.20/kg; EMR US$1,795/t | **Primary series now available (see 4.3.1):** Sheela's purchase prices — TDI ₹201 → 200 → 196 → 173 → 172/kg and polyol ₹126 → 120 → 117 → 110 → 107/kg (Q2 FY25 → Q2 FY26); polyol ₹120 (Jan-26) → peak ₹220 (Mar-26) → ₹180 (mid-May-26); GNFC TDI ₹275/kg (mid-May-26). **"Normal" 5-year averages per CMD: TDI ~₹240/kg, polyol ~₹120+/kg.** GNFC's own TDI price: ₹155k → 162k → 168k → 220k → **255k/t** (Q1 FY26 → Q1 FY27). **Drop the IMARC/EMR figures.** The primer's "polyol ~₹180 normalised" is wrong (₹180 was the war-time level; normal is ~₹110–120) | [V] SFL H1 FY26 deck slide; SFL Q4 FY26 transcript; GNFC Q1 FY27 deck slide 7. |
+| 13 | §4.3 table; §9.1; §2.1.4 | Kurlon revenue "~₹700–800 Cr a year [K/E]" | **Kurlon Enterprise Ltd FY25 (last full year as a separate entity): total income ₹665.5 Cr, PBT −₹40.7 Cr, PAT −₹5.0 Cr** | [V] SFL AR FY25 Form AOC-1. Organic FY22–26 Sheela CAGR ex-Kurlon ≈ (3,821 − ~700) / 2,866 → **~2% a year** [E] (Part 1's 1–2% stands). |
+| 14 | §9.1 KPI table; §A-7; F | Wakefit A&P "raised from ~5% to ~7.5%" read as an FY26 level | **FY26 A&P was ~5.7% of revenue**; Q3 FY26 ~5.3%; Q4 FY26 ~7.3%; Q1 FY27 7.6%. Guide **7–8% for FY27** (Q3 FY26 deck cites a "historical average ~8–9%") | [V] Wakefit Q4 FY26 transcript (CFO) and decks. |
+| 15 | §9.1; §2.1.4 | Sheela A&P 5.2% (AR) only | Keep 5.2% (advertisement ₹117.4 Cr + selling & promotion ₹82.1 Cr) but note the **CFO's "~4.5% for FY26, similar to last year"** is a narrower (advertising) definition | [V] Q4 FY26 transcript. Name the basis. |
+| 16 | §2.2.3; §2.5-5 | Wakefit 105 → 139 stores, "~8 closures [E; FLAG]" | **Confirmed: 42 gross additions and 8 closures in FY26** (closures for "logistical inefficiencies and operational constraints"); 139 stores in **76 cities**, ~4 lakh sq ft at Mar-26; 137 at Dec-25 (expansion paused Jan–Mar to recalibrate) | [V] Q4 FY26 deck and transcript; Q3 FY26 deck. |
+| 17 | §9.1; §9.4; §C.2; §F; §H-8 | Store payback "n/a (FLAG)"; Wakefit store economics all [E] | **Company KPI: payback ~10–11 months** for the newer mattress-first "mini" stores (2–3 months longer than the older furniture-carrying "mega" stores); ~105–106 mega + ~60 mini stores at Jun-26; **a town's monthly run-rate (online + offline) rises ~2.7–3× after a store opens**; each store carries only ₹4–5 lakh of display inventory; leases start at 11–12 months | [V] Q1 FY27 transcript (ED). Part 1's "payback ~1 year on capex, ~3 years incl. ramp" [E] is superseded by the company's ~10–11 months. |
+| 18 | §5.1; §A-1; §2.2 | "Wakefit ~30–35% online mattress share" [V-snip]; "Sheela + Wakefit ≈ 45–50% of Redseer organised" [E] | **Drop the 30–35%.** Managements' own estimates: **Sheela ~20% of the organised mattress market (CMD, 5-Aug-26); Wakefit ~10% of organised (ED, 7-Aug-26, "rough, not from an industry report")**. On their (broader) definitions the pair is ~30% of organised, not 45–50%. Sheela's CFO also says ~85% of the market is "unorganised and traditional" | [V] both Q1 FY27 transcripts; [V] Q4 FY26 transcript. Keep Redseer as the market source, but the share arithmetic must be labelled as the dossier's [E]. |
+| 19 | §2.2.4 | Wakefit FY27 capex ₹100–120 Cr | Latest is **₹100–120 Cr (7-Aug-26; ~80% retail/jumbo, ~20% automation)**, revised down from **₹120–140 Cr (22-May-26)** | [V] both transcripts. |
+| 20 | §10; §2.3 | Somnigroup FY2025 sales US$7,476.5 mn [V-snip]; margins "~17–20% [K]" | **Confirmed: net sales US$7,476.5 mn (+51.6%); adjusted EBITDA US$1,306.0 mn (17.5%); net income US$384.1 mn; gross margin 42.6%; Mattress Firm segment US$3,505.4 mn at 33.4% GM; leverage 3.21×** | [V] Somnigroup 8-K earnings release (17-Feb-2026). |
+| 21 | §10; §2.3 | Sleep Number FY2025 [V-snip]; "~640 stores [K]" | **Confirmed: net sales US$1.4 bn (−16%); GM 59.0%; adj. EBITDA US$78 mn (5.5%); net loss US$132 mn; 600 stores** (exclusive channel); US$185 mn annualised cost cuts | [V] Sleep Number IR release PDF (12-Mar-2026). |
+| 22 | §2.2.4; §9.1 | Wakefit channel data | Add: **own channels 57.0% FY25 → 67.2% FY26** (Q4 FY26 >74%; Q1 FY27 72.3%); **marketplaces (incl. quick commerce) 41.2% FY23 → 38.7% FY24 → 38.0% FY25 → 29.3% H1 FY26**; MBOs **1,948 in 536 cities at Mar-26** (+30%) → 2,250 / 701 (Jun-26) | [V] Q4 FY26 deck; Prospectus risk factor table. |
+| 23 | §E.8; §2.1.2; §2.5-6 | Sheela Q2 FY26 gross margin "~44.7% [chart, FLAG]"; Wakefit quarterly GM blank | **Sheela consolidated GM: Q2 FY25 44.9%, Q3 FY25 40.6%, Q4 FY25 43.4%, Q1 FY26 44.6%, Q2 FY26 44.7%, Q3 FY26 41.7%, Q4 FY26 44.4%, Q1 FY27 40.6%. Wakefit GM: Q3 FY25 51.5%, Q4 FY25 53.6%, Q1 FY26 55.8%, Q2 FY26 ~57.7% [E derived], Q3 FY26 53.8%, Q4 FY26 56.0%, Q1 FY27 57.1%** | [V] decks (tables, not charts). |
+| 24 | §8; §G; §0 | Sheela FY27 outlook items missing | Add **FY27 capex ₹125–150 Cr; depreciation ₹140–145 Cr** (after a switch to useful-life depreciation on foaming lines that last 40–50 years); **finance cost ~₹50 Cr** (₹35 Cr interest + ₹15 Cr bank charges) on ₹600–700 Cr gross debt; Kurlon synergy target ₹250 Cr, ~₹190–200 Cr realised, ₹40 Cr pending on new "malleable fibre" comfort-layer machines (full effect Q3 FY27) | [V] Q4 FY26 and Q1 FY27 transcripts. |
+| 25 | §2.1.4; §2.1.7; stat strip 5 | "~5,500 brand outlets" stated alone | Keep the AR's **~5,500 brand outlets (SFL + KEL)**, but note the CFO said **"3,500 exclusive brand outlets"** on 5-Aug-2026. The 5,500 likely includes non-exclusive shop-in-shops; **flag as an unresolved basis conflict** | [V] AR FY26 p.~20; [V] Q1 FY27 transcript. |
+| 26 | §5.2; §1.2; §H | GNFC "main domestic TDI producer [K]" | **Confirmed and quantified:** Sheela's Dy MD calls GNFC "the main supplier"; GNFC produced **12,800 t of TDI in Q1 FY27** (Dahej 66%, Bharuch 34%) and ~57,000 t in FY26 (analyst figure, not contradicted). India imported **79,604 t in FY26** (TradeStat). So GNFC is **~40–45% of apparent supply** [E], not the ~60% implied by Sheela's "traders import the balance 40%" remark | [V] GNFC Q1 FY27 transcript; [V] TradeStat; [V] SFL Q4 FY26 transcript. |
+| 27 | Header 3; §2.1.4 | Furlenco FY26 ₹370 Cr / ₹59.5 Cr [V-snip] | **Upgraded to [V] company statement:** revenue ₹370 Cr (+60%), PAT "close to ₹60 Cr" (₹33 Cr operations + ₹27 Cr DTA) vs ₹3 Cr in FY25; **FY27 plan ~₹500 Cr; Furlenco ROCE 30–35%; IPO decision "in the next 3–4 months" (May-26), "maybe 1 year from now"**; Furlenco shop-in-shops in 40–50 Sheela stores, first target 100 | [V] SFL Q4 FY26 and Q1 FY27 transcripts. |
+| 28 | §3 item 7; §A | Industry growth not stated by a participant | **Sheela CMD: industry mattress volume grew "closer to 5%" in Q1 FY27** (Sheela +6%); Wakefit ED: price hikes across major brands within 1–3% of each other; competitive intensity raised by ₹100–300 Cr marketplace/regional labels | [V] Q1 FY27 and Q4 FY26 transcripts. |
+
+## 4.1 Verification table (40 figures the writer will lean on)
+
+**Source keys** (all fetched this session unless marked; BSE PDFs open with a generic UA):
+- **S1** SFL Q1 FY27 deck — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0645a2ad-f019-4cca-a046-53776cb3ae0f.pdf
+- **S2** SFL Q1 FY27 transcript (5-Aug-26) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d4f2f7a-c40a-4515-8340-c1a1f03a4963.pdf
+- **S3** SFL Q4 FY26 transcript (15-May-26) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32933025-1ad9-4a59-89e8-e9d8c90b704f.pdf
+- **S4** SFL Q4 FY26 deck — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41bb7c41-960f-4bc7-b501-99d6e0e48fda.pdf
+- **S5** SFL H1 FY26 deck (Nov-25) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eccfe177-b0bf-4091-8577-f9e0e3323860.pdf
+- **S6** SFL Q3 FY26 deck (Feb-26) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=939d5b8a-e32a-4f9c-8b59-01df3bac7449.pdf
+- **S7** SFL Annual Report FY26 — https://www.bseindia.com/xml-data/corpfiling/AttachHis/b3f94874-f8ef-4b45-ac9e-ccde5cd4922c.pdf
+- **S8** SFL Annual Report FY24 — https://www.bseindia.com/xml-data/corpfiling/AttachHis/3c3f6de7-f260-4536-9418-2fe87713a91c.pdf
+- **S9** SFL Annual Report FY25 — https://www.bseindia.com/xml-data/corpfiling/AttachHis/fba899aa-481e-4065-82aa-56bf9aa55e1e.pdf
+- **W1** Wakefit Q1 FY27 deck — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36511c43-9aa2-485c-b916-cf340aae611f.pdf
+- **W2** Wakefit Q1 FY27 transcript (7-Aug-26) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee748f45-7936-4ab0-9a4a-da5422947b45.pdf
+- **W3** Wakefit Q4 FY26 deck — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e0a9fb0-32f3-432c-b799-4c87494c9040.pdf
+- **W4** Wakefit Q4 FY26 transcript (22-May-26) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c52e9c3-a52d-441a-b4e1-ccde437b4cd6.pdf
+- **W5** Wakefit Q3 FY26 deck — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c21b21a2-f188-41b9-bb3c-3f277a15c859.pdf
+- **W6** Wakefit Annual Report FY26 — https://www.bseindia.com/xml-data/corpfiling/AttachHis/81068e6f-c6c5-4dc7-a328-2541e01a9272.pdf
+- **W7** Wakefit Prospectus (SEBI) — https://www.sebi.gov.in/sebi_data/attachdocs/dec-2025/1765516619623.pdf
+- **G1** GNFC Q1 FY27 deck — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b84e1b0-ffdb-4261-bf98-7c9c33df0c82.pdf ; **G2** GNFC Q1 FY27 transcript — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f211e2ca-f7f7-4f65-9bb8-7b868b93d349.pdf
+- **T1** TradeStat, Dept of Commerce — https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_import (HS 29291020; 39072910; 39072990; ₹ Cr and kg; report dated 01-Nov-2026)
+- **C1** CBIC GST goods-rate booklet, 3-Jul-2017 — https://cbic-gst.gov.in/pdf/goods-rates-booklet-03July2017.pdf
+- **C2** 01/2026-Customs (ADD) text — https://taxguru.in/custom-duty/anti-dumping-duty-continued-flexible-slabstock-polyol-imports-saudi-arabia-uae.html
+- **C3** TDI ADD continuation 2022 (ICIS text) — https://antidumping.vn/india-extends-adds-on-tdi-imports-from-china-japan-south-korea-n24956.html ; **C4** DGTR initiations list (30-Sep-26) — https://worldtradescanner.com/DGTR%20Issues%20Eight%20Initiation%20Notifications%20and%20One%20Final%20Findings%20in%20Three%20Days.htm
+- **P1** Somnigroup FY2025 release (8-K exhibit) — https://www.boardroomalpha.com/sec/sgi-8-k-2026-02-17-0001206264-26-000008/sgireports4q2025results.htm ; **P2** Sleep Number FY2025 release — https://s25.q4cdn.com/489093953/files/doc_news/Sleep-Number-Announces-Fourth-Quarter-and-Full-Year-2025-Results-2026.pdf
+- **H1** Anarock CY2025 (Business Today, 26-Dec-25) — https://www.businesstoday.in/real-estate/story/housing-sales-fall-14-in-2025-amid-sky-high-prices-it-layoffs-anarock-research-508242-2025-12-26
+- **SC** screener.in SFL (consolidated) and WAKEFIT pages, re-fetched 1-Nov-2026
+
+| # | Figure | Value | Source | Tag | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Sheela FY26 consolidated revenue | ₹3,821 Cr (+11%) | S4; SC; S3 (CFO) | [V] | Yes |
+| 2 | Sheela FY26 core EBITDA | ₹414 Cr (10.8%); FY25 ₹283 Cr incl. ₹35 Cr KCPL receipt (ex-KCPL ₹248 Cr, 7.2%) | S4 (footnote); S3 | [V] | Yes; ex-KCPL now [V] (footnote) |
+| 3 | Sheela FY26 PAT | ₹161 Cr; ₹144 Cr of it in H2 | S4; S3 | [V] | Yes |
+| 4 | Sheela FY26 mattress volume / value (standalone) | 3,692K units (+12%) / ₹1,497 Cr; quarterly 813K + 814K + 1,151K + 914K | S4, S5, S6 | [V] | Yes (quarters now reconciled) |
+| 5 | Sheela Q1 FY27 revenue / EBITDA / PAT | ₹1,032 Cr / ₹109 Cr (10.6%) / ₹62 Cr | S1; S2 | [V] | Yes |
+| 6 | Sheela Q1 FY27 gross margin | 40.6% consolidated (−405 bp); 37.6% standalone | S1 | [V] | Yes |
+| 7 | Sheela mattress vs foam growth Q1 FY27 | Mattress +15% value / +6% vol; foam +26% / +4% | S1; S2 | [V] | Yes |
+| 8 | TDI + polyol share of Sheela COGS | 65–70% | S2 (CFO) | [V] | Yes |
+| 9 | Sheela TDI and polyol purchase prices | TDI ₹201 → 172/kg, polyol ₹126 → 107/kg (Q2 FY25 → Q2 FY26) | S5 slide "TDI & Polyol price trend" | [V] | **New** (closes §H-1) |
+| 10 | Polyol and TDI spot, 2026 | Polyol ₹120 (Jan) → ₹220 (peak, Mar) → ₹180 (mid-May); GNFC TDI ~₹275/kg (mid-May); 5-yr "normal" TDI ~₹240, polyol ~₹120+ | S3 | [V] | **New**; supersedes primer polyol "₹180 normal" |
+| 11 | GNFC TDI price (₹'000/t) | Q1 FY26 155; Q2 162; Q3 168; Q4 220; Q1 FY27 255 | G1 slide 7 | [V] | **New** |
+| 12 | India TDI imports (HS 29291020) | FY23 55,529 t; FY24 51,428 t; FY25 72,922 t; **FY26 79,604 t (₹1,183.5 Cr)** | T1 | [V] | **New** |
+| 13 | Polyether polyol imports (HS 39072910) | FY25 251,368 t (₹3,212 Cr); FY26 199,591 t (₹2,314 Cr) | T1 | [V] | **New** |
+| 14 | Kurlon acquisition | 94.67% for ₹1,940.78 Cr (20-Oct-2023); 97.43% after ₹59.25 Cr more | S8 Note 63 | [V] | Corrects [K] "94.66%/~₹2,000 Cr" (immaterially) |
+| 15 | Kurlon merger effective date | NCLT 17-Sep-2025; effective 31-Jan-2026; appointed date 1-Apr-2024 | S7 Note 63 | [V] | **No** — Part 1 said Apr-2026 |
+| 16 | Sheela QIP | ₹1,200.00 Cr, 26-Sep-2023, @ ₹1,078 | S8 | [V] | Yes ([K] upgraded) |
+| 17 | Furlenco stake | 34.53% voting (Mar-26); ~43% fully diluted; ~35% profit share | S7; S3; S2 | [V] | Resolves conflict |
+| 18 | Furlenco FY26 | Revenue ₹370 Cr (+60%); PAT ~₹60 Cr (₹33 Cr ops + ₹27 Cr DTA) | S3; S2 | [V] (company statement) | Yes ([V-snip] upgraded) |
+| 19 | Sheela FY26 exceptional item | +₹7.93 Cr gain (land sale) | S7 Note 66 | [V] | Resolves sign conflict |
+| 20 | Sheela India capacity | 1,39,000 MT; 12 units (down from 21 after integration) | S7; S2 | [V] | Yes; "21 → 12" new |
+| 21 | Sheela net debt / India debt | ₹543 Cr (Mar-26); India "a little above ₹300 Cr" + overseas ~₹350 Cr (Aug-26) | S4/S7; S2 | [V] | Yes |
+| 22 | Sheela FY27–28 guidance | FY27 growth >15%, EBITDA 11–12%; FY28 15% margin; ROCE 20–25% in 3 yrs | S2 | [V] | Yes |
+| 23 | Sheela sales concentration | 83% of standalone sales to dealers/distributors; top-10 = 29% | S7 BRSR | [V] | Yes |
+| 24 | Wakefit FY26 revenue / reported EBITDA / operating EBITDA | ₹1,488.9 Cr / ₹182.0 Cr (12.2%) / ₹112.3 Cr (7.5%) | W3; W1 | [V] | Yes |
+| 25 | Wakefit FY26 PAT and DTA | PAT ₹189.2 Cr incl. ₹98.07 Cr deferred-tax credit; PBT ₹91.1 Cr | W3; W6 | [V] | Yes |
+| 26 | Wakefit investable cash | ₹958.6 Cr (31-Mar-26) | W3; W4 | [V] | **No** — supersedes ₹323 Cr |
+| 27 | Wakefit IPO money used | ₹10.2 Cr of ₹377.2 Cr by 31-Mar-26 (rent ₹4.6 Cr + issue expenses ₹5.6 Cr) | W6 | [V] | **New** |
+| 28 | Wakefit IPO allotment | 11-Dec-2025; 1,93,42,461 fresh shares | W6 | [V] | Upgrades [E] |
+| 29 | Wakefit IPO subscription | 2.52× ex-anchor (QIB 3.04×, NII 1.05×, retail 3.17×) | Aggregators (Entrackr et al.) | [V-snip] | Resolves 1.82× vs 2.52× |
+| 30 | Wakefit Q1 FY27 | Revenue ₹404.9 Cr (+16.6%); GM 57.1%; operating EBITDA ₹36.8 Cr (9.1%); PAT ₹23.4 Cr | W1; W2 | [V] | Yes |
+| 31 | Wakefit stores | 105 (Mar-25) → 137 (Dec-25) → 139 (Mar-26; 42 adds, 8 closures) → 165 (Jun-26; 100 cities) | W5; W3; W1 | [V] | Yes; closures confirmed |
+| 32 | Wakefit store payback | ~10–11 months (mini stores); catchment uplift 2.7–3× | W2 | [V] | **New** (closes §H-8 in part) |
+| 33 | Wakefit own-channel share | 57.0% FY25 → 67.2% FY26 → 72.3% Q1 FY27 | W3; W1 | [V] | Yes (FY26 figure new) |
+| 34 | Wakefit marketplace share (incl. quick commerce) | 41.19% FY23 → 37.95% FY25 → 29.33% H1 FY26 | W7 | [V] | **New** |
+| 35 | Wakefit A&P | FY26 ~5.7%; Q4 FY26 ~7.3%; Q1 FY27 7.6%; FY27 guide 7–8% | W4; W1 | [V] | Corrects Part 1 framing |
+| 36 | TDI ADD China/Japan/Korea | US$0.15–0.44/kg from 21-Sep-2022 (5 yrs); SSR initiated 30-Sep-2026 | C3; C4 | [V] | **New** |
+| 37 | Polyol ADD Saudi/UAE | US$150.06 / 235.02 / 101.81 per t; extended to 17-Jun-2026 | C2 | [V] | **New**; post-June status open |
+| 38 | GST on mattresses at launch | 28% (HSN 9404), coir mattresses 18% | C1 | [V] | Upgrades [K] |
+| 39 | Somnigroup FY2025 | Net sales US$7,476.5 mn; adj. EBITDA US$1,306.0 mn (17.5%) | P1 | [V] | Yes, now primary |
+| 40 | Sleep Number FY2025 | Net sales US$1.4 bn (−16%); adj. EBITDA US$78 mn (5.5%); net loss US$132 mn; 600 stores | P2 | [V] | Yes, now primary |
+
+**Count:** 39 of 40 rows rest on documents fetched and read this session ([V]); one (row 29, IPO subscription) remains [V-snip] because the exchange bid book was not reachable. At least 30 are from primary company/government documents (BSE-filed decks, transcripts and annual reports; TradeStat; CBIC; customs notification text). Anarock 2025 (H1) is used in 4.3 but not counted here.
+
+**Conflict rulings (where two sources disagree):**
+- *Wakefit TDI pass-through size:* ED said on 22-May "two increases of 7–8% each" (Mar and Apr); on 7-Aug he said "two increases of about 5% each". Use **"~10–15% cumulative, partly reversed by a nominal cut in June"**; the May statement is closer to the event.
+- *Wakefit FY27 capex:* ₹120–140 Cr (May) vs ₹100–120 Cr (Aug). The **later figure governs**.
+- *Sheela exclusive outlets:* 5,500 (AR, SFL + KEL) vs 3,500 (CFO). The AR is the formal document; quote "~3,500–5,500 depending on definition" or quote the AR with its footnote.
+- *GNFC's share of TDI supply:* TradeStat imports (79.6k t) + GNFC output (~57k t) give GNFC ~42%; Sheela's "traders import the balance 40%" implies ~60%. Trade data are more credible; Sheela's remark may refer to its own sourcing mix.
+- *IKEA India FY25 revenue:* RoC-based press ₹1,749.5 Cr vs a company-stated ₹1,860 Cr (+6%) (bestmediainfo). IKEA reports on a Sep–Aug year internally; the RoC figure is the Indian statutory year. Use **₹1,749.5 Cr (RoC; [V-snip])** and footnote the other.
+
+## 4.2 Company deep dives
+
+### 4.2.1 Sheela Foam Ltd (SFL · 540203)
+
+#### (a) Management-guidance digest — Q1 FY27 call, 5-Aug-2026 (S2) [V; paraphrased]
+
+Participants: Rahul Gautam (CMD), Tushaar Gautam (Vice-Chairman & Jt MD), Rakesh Chahar (Deputy MD), Amit Kumar Gupta (Group CFO). Host: Dolat Capital.
+
+**Guidance and targets**
+- **FY27 revenue growth ">15%"** (Q1 standalone was +20%, helped by extra foam sales while weaker players lacked raw material). Double-digit volume growth in **both** mattresses and foam for the full year; Q3 (festive) best, Q4 next.
+- **FY27 EBITDA margin 11–12%.** The CFO explicitly denied ever guiding 12–13% for FY27. "Even if [gross margin] goes up by 2-odd percent, we would be there … it is simply volatility to go away."
+- **FY28: 15% EBITDA margin** with ~15% growth ("we have a target of 15% EBITDA margin for the next year"). **ROCE 20–25% within ~3 years** (currently "~10%-odd").
+- **Volatility horizon:** the CMD expects raw-material volatility "till October or even November" 2026, and for a couple of months after the war ends, because Suez/Hormuz disruptions broke supply chains. The CFO said raw-material prices swung **+40% to −20% within the quarter**.
+- **Balance sheet:** FY27 free cash flow of **₹150–200 Cr** goes to debt. India debt "a little above ₹300 Cr", overseas ~₹350 Cr (self-liquidating over 5 years). India will need "another 1 year" to be debt-free; the balance sheet will **not** be debt-free at end-FY27.
+- **Kurlon synergy:** ₹40 Cr still pending; the new machine is installed; "full impact … in quarter 3". Integration "96–97%" complete; operating units cut **from 21 to 12**; synergies "75–80%" realised.
+- **International:** FY26 international revenue ~₹800–850 Cr; **FY27 ">₹1,000 Cr" with EBITDA "around ₹120-odd Cr"**. Long-run: ~5% local-currency growth, 10–12% margins. Q1 combined margin ~13–13.5% was inflated by cheaper inventory and slower price changes abroad; it normalises in Q2. Spain did **EUR 12 mn** in Q1 vs a normal EUR 9–10 mn.
+
+**Top analyst Q&A points**
+1. *Mattress volume +6% only:* the CMD said "sub-10% would be happiness … the industry, according to us, has grown closer to 5%". The CFO blamed the price hikes: "if the price had been like 10–15% … the volume growth would have been double digit".
+2. *U2O price/mix:* launched at too low a price; channel margins were thin, so prices were raised and a second, higher model added. The analyst estimated **~₹2,000–2,100 per U2O mattress**; management did not confirm and will not split volumes by sub-category. U2O now has **~10,000 dealer points**.
+3. *Gross-margin hit by segment:* foam was hit harder than mattresses because foam uses proportionally more TDI/polyol. TDI + polyol = **65–70% of COGS**.
+4. *Inventory policy:* India carries **15–30 days** of raw material; Australia and Spain carry longer inventory, which helped in Q1. Q4 FY26 employee-cost spike = incentive provisions trued up in Q4.
+5. *Furlenco:* operating PAT ~₹9 Cr a quarter; Sheela books ~35% of it; DTA recognition, if any, comes in Q4. Furlenco is "premium" vs RentoMojo (which filed a DRHP) "mass/utility".
+6. *COCO stores:* 22 legacy stores upgraded + new → **~42 operating, target 50**. **Capex ₹27 lakh + working capital ₹20–22 lakh ≈ ₹50 lakh per COCO store**; ~2,000 sq ft (1,800–3,000); 50 stores ≈ ₹25 Cr. Franchise stores cost Sheela very little.
+7. *Market share:* "if we look at the organised mattress market, we would have a combined share of close to 20%" (CMD). No new mattress sub-segments planned; growth to come from luxury, pillows/toppers/bedding accessories and Furlenco-designed furniture (sofa beds launched under Sleepwell and Kurlon). Furlenco shop-in-shops in 40–50 stores, first target 100; "3,500 exclusive brand outlets" (CFO).
+8. *Premiumisation:* "ASP has marginally gone up … some premiumisation".
+
+#### (b) Management-guidance digest — Q4 FY26 call, 15-May-2026 (S3) [V; paraphrased]
+
+Host: Investec. Same management (without the Vice-Chairman).
+- **FY26 recap:** standalone growth +24% in Q4, +11% for the year; FY26 India volume growth "around 15%" (blended mattress + foam); core EBITDA Q4 ₹121 Cr (11.5%), FY26 ₹414 Cr (10.8%, +261 bp). PAT ₹161 Cr, of which **₹144 Cr came in H2** (H1 was hit by mark-to-market losses on government securities). **First dividend ever (20%)**. Net debt −₹156 Cr. **Cash ROCE ~18% vs ~17% before Kurlon.**
+- **Distribution:** ~600 net new showrooms in FY26; brand.com +136%, platforms +39%; U2O **8,400 dealers, >5,000 towns, 24 states, volume +65%, value +111%**.
+- **Foam:** Q4 volume +34%, value +36%; FY26 +18% / +14%. Some smaller players went out of business during the war and their customers moved to Sheela; management expects ~15% annual foam growth.
+- **Raw materials (key new data):** "what used to be ₹2–10 a kilo in a year … now ₹40–50 at a time, multiple times in a month". Five-year averages: **polyol ~₹120+/kg, TDI ~₹240/kg**. **GNFC ("the main supplier") TDI ~₹275/kg; polyol ~₹180/kg** (mid-May). Polyol was **₹120 in January, peaked at ₹220** after the war began, and oscillated ₹180–200. TDI and polyol rose **25–35% on average**. GNFC shut temporarily (technical, then gas shortage in March); traders importing the "balance 40% of the market" raised prices; Sheela added a new supplier (Korea, Japan, China material). No stock-outs.
+- **Pass-through mechanics:** price changes take 10–15 days to implement, roughly matching inventory days, so "no material" margin effect expected in Q1/Q2 beyond "50–100 bp" (this proved too optimistic: Q1 FY27 GM fell 405 bp).
+- **FY27 cost lines:** depreciation **₹140–145 Cr** (useful-life basis; a Greater Noida foaming machine has run 22 years at >25,000 t/yr; lines last 40–50 years); **capex ₹125–150 Cr** (maintenance, debottlenecking, stores, overseas); **finance cost ~₹50 Cr** on ₹600–700 Cr gross debt. Debt/EBITDA <1×.
+- **A&P:** "around 4.5%" of sales for FY26, similar to FY25; Q4 ~4% (Q3 is the heaviest).
+- **Furlenco:** FY27 plan ~₹500 Cr; IPO decision "in the next 3–4 months"; Furlenco ROCE 30–35%; Sheela "fully diluted ~43%", "largest shareholder … majority on the Board"; total investment ~₹430 Cr. 40+ integrated stores, target >100 in FY27.
+- **International:** Joyce FY26 ₹422 Cr, EBITDA 10% (+~400 bp); Spain ₹391 Cr, 10.4% (8.4%); Spain's sustainable GM 30–32%; AUD moved from ~₹55 to ~₹65. **Management remains "open" to selling the international business** to "the right party at the right time".
+- **Strategy:** 15%+ growth; pillows as a separate category; e-com and U2O as focus areas in a market where "around 85% … is currently occupied by unorganised and traditional mattress"; market-share data are stale ("there is no recent study"), but management senses organised is now gaining after years of the reverse.
+
+#### (c) Concall/deck KPI table (S1–S6) [V]
+
+| KPI | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Mattress volume (K units) | 722 | 1,040 | 809 | 813 | 814 | 1,151 | 914 | 859 |
+| Mattress value (₹ Cr) | 293 | 422 | 348 | 320 | 330 | 452 | 395 | 369 |
+| Realisation (₹/unit) [E] | 4,058 | 4,058 | 4,302 | 3,936 | 4,054 | 3,927 | 4,322 | 4,296 |
+| Foam volume (t) | 11,847 | 12,356 | 11,171 | 11,353 | 12,909 | 14,851 | 14,975 | 11,764 |
+| Foam value (₹ Cr) | 300 | 316 | 290 | 291 | 313 | 354 | 395 | 365 |
+| Foam realisation (₹/kg) [E] | 253 | 256 | 260 | 256 | 242 | 238 | 264 | 310 |
+| Standalone revenue (₹ Cr) | 615 | — | 662 | 635 | 667 | 842 | 819 | 761 |
+| Standalone gross margin | 45.4% | 39.7% | 43.1% | 44.4% | 43.9% | 40.5% | 43.4% | 37.6% |
+| Consolidated gross margin | 44.9% | 40.6% | 43.4% | 44.6% | 44.7% | 41.7% | 44.4% | 40.6% |
+| TDI purchase price (₹/kg) | 201 | 200 | 196 | 173 | 172 | n/d | n/d (spot ~₹275 mid-May) | n/d |
+| Polyol purchase price (₹/kg) | 126 | 120 | 117 | 110 | 107 | n/d (₹120 Jan-26) | n/d (peak ₹220; ₹180 mid-May) | n/d |
+| Joyce GM / Spain GM | 48.4% / 32.0% | 52.8% / 29.8% | 53.5% / 29.5% | 54.6% / 30.1% | 53.6% / 33.6% | n/d | n/d | Joyce EBITDA 12.8%; Spain 14.7% |
+
+Notes: Q3 FY25 and Q4 FY25 segment values were re-cut in later decks ("realignment inter-verticals … post full year of KEL integration"), so mattress + foam + others may not sum exactly to standalone revenue for those quarters. Realisations are this dossier's arithmetic. **Q3 FY26 is the low-realisation quarter** (festive promotions, U2O mix) and **Q1 FY27 the high one** (price hikes).
+
+#### (d) Five-year annual table, FY22–FY26 (consolidated; SC + S4/S7) [V]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 2,866 | 2,873 | 2,982 | 3,439 | 3,821 |
+| YoY | +17.6% | +0.2% | +3.8% | +15.3% | +11.1% |
+| Operating profit (screener) | 315 | 298 | 304 | 252 | 395 |
+| OPM (screener) | 11% | 10% | 10% | 7% | 10% |
+| Company core EBITDA | — | — | — | 283 (248 ex-KCPL) | 414 |
+| Consolidated gross margin (company) | — | — | — | 42.7% | 43.7% |
+| Other income | 79 | 86 | 136 | 154 | 60 |
+| Interest | 17 | 21 | 69 | 121 | 95 |
+| Depreciation | 81 | 90 | 116 | 183 | 179 |
+| PBT (screener) | 296 | 273 | 256 | 103 | 182 |
+| PAT | 219 | 201 | 184 | 90 | 161 |
+| EPS (₹) | 22.27 | 20.39 | 16.78 | 8.22 | 14.62 |
+| CFO | 197 | 218 | 406 | 247 | 409 |
+| Borrowings (incl. leases) | 466 | 571 | 1,493 | 1,462 | 908 |
+| ROCE (screener) | 18% | 14% | 8% | 4% | 6% |
+| Corporate events | — | — | QIP ₹1,200 Cr (Sep-23); Kurlon 94.67% (Oct-23); Furlenco 17.7% (Aug-23) | Furlenco → 43.89%; ₹30.6 Cr insurance gain | Kurlon merger effective 31-Jan-26; first dividend; Furlenco diluted to 34.53% |
+
+- **Organic growth check [E]:** Kurlon Enterprise's FY25 total income was ₹665.5 Cr (S9). Stripping ~₹650–700 Cr from FY26 revenue gives ~₹3,120–3,170 Cr, a **~2.2–2.6% CAGR** on FY22's ₹2,866 Cr — and that "organic" base itself includes Kurlon-driven cross-selling and U2O. Part 1's "~1–2%" is broadly right; say "low single digits".
+
+#### (e) Eight-quarter table, Q2 FY25–Q1 FY27 (consolidated; SC for screener lines, S1/S4/S5/S6 for company lines) [V]
+
+| ₹ Cr | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 813 | 967 | 850 | 821 | 875 | 1,074 | 1,050 | 1,032 |
+| YoY | +32.6% (Kurlon) | +10.0% | +0.6% | +1.4% | +7.6% | +11.1% | +23.5% | +25.7% |
+| Core EBITDA (company) | 75 (9.3%) | 84 (8.7%) | 64 (7.5%) incl. ₹35 Cr KCPL | 85 (10.4%) | 91 (10.4%) | 117 (10.9%) | 121 (11.5%) | 109 (10.6%) = reported |
+| Reported EBITDA / screener OP | 70 | 88 | 62 / 27* | 75 | 87 | 114 | 117 | 109 |
+| Gross margin | 44.9% | 40.6% | 43.4% | 44.6% | 44.7% | 41.7% | 44.4% | 40.6% |
+| Exceptional (+ gain / − charge) | 0 | 0 | 0 | 0 | −8 | 0 | +16 | +6 |
+| JV (Furlenco) share | 0 | 0 | 1 | 2 | 2 | 3 | 14 | 3 |
+| PAT | 20 | 17 | 13 | 7 | 10 | 53 | 92 | 62 |
+
+*Screener's Q4 FY25 OP of ₹27 Cr excludes the ₹35 Cr KCPL receipt (booked in other income) and includes the forex MTM. **Read-across:** Q4 FY26's ₹92 Cr PAT contains ~₹30 Cr of non-recurring items (₹16 Cr exceptional gain + most of the ₹14 Cr JV share, which is Furlenco DTA). A clean run-rate PAT is ~₹60 Cr a quarter, consistent with Q1 FY27's ₹62 Cr (itself including a ₹6 Cr exceptional gain).
+
+#### (f) Annual-report findings (S7 FY26; S8 FY24; S9 FY25) [V]
+
+- **Kurlon accounting:** acquired via a business-transfer agreement dated 17-Jul-2023; control from 20-Oct-2023; consideration ₹1,940.78 Cr (cash ₹1,869.78 Cr + holdback ₹71 Cr). FY26 measurement-period remeasurement added ₹30 Cr to the consideration and goodwill (₹376.80 Cr → **₹406.80 Cr**). On amalgamation (pooling of interests, appointed date 1-Apr-2024) the assets taken over included **intangibles ₹1,413.10 Cr**, PP&E ₹343.23 Cr and DTA ₹159.28 Cr. Goodwill tested, no impairment.
+- **Related parties:** small and clean. Royalty paid to Sleepwell Enterprises Pvt Ltd (a wholly owned subsidiary) **₹0.10 Cr**; IT services from Staqo **₹19.97 Cr**; commission received from Furlenco ₹0.17 Cr; investments FY26: Furlenco ₹30.00 Cr, Sheela Foam Trading LLC (Dubai) ₹8.24 Cr. **No promoter-entity royalty or brand fee** (unlike many Indian consumer companies).
+- **Contingent liabilities (standalone, Mar-26):** GST ₹34.78 Cr; income tax ₹13.78 Cr; sales tax ₹3.96 Cr; excise ₹2.90 Cr; entry tax ₹0.58 Cr — about **₹56 Cr, ~1.7% of net worth**. Immaterial.
+- **Capacity and footprint:** 12 manufacturing units, **1,39,000 MT** total production capacity; "highest ever annual foam production" in FY26 (>1 lakh MT per Part 1). ~5,500 brand outlets and ~11,000 dealer touchpoints (SFL + KEL); 230+ distributors for U2O.
+- **Market claims:** "~30% share in the Indian branded mattress segment and ~40% in Australia".
+- **Trade:** exports ₹19.73 Cr (FY25 ₹12.45 Cr); foreign-exchange outgo ₹304.58 Cr (FY25 ₹156.83 Cr), roughly doubling on imported chemicals/machinery.
+- **BRSR:** 83% of sales to dealers/distributors (FY25 75%); top-10 dealers 29%. R&D project on recycled polyol for footwear.
+- **Fires:** Silvassa (Jun-2023, ₹11.56 Cr) and Jhagadia (Kurlon, ₹18.71 Cr) — both recovered from insurers (FY25 exceptional income ₹30.59 Cr). Fire safety appears in the ESG priorities.
+- **Kurlon pre-merger (FY25 AOC-1):** total income ₹665.5 Cr; PBT −₹40.7 Cr; tax credit ₹17.1 Cr; PAT −₹5.0 Cr; Sheela held 97.43%. Joyce FY25 total income ₹401.7 Cr with a PBT loss of ₹22.0 Cr; Spain ₹343.8 Cr, PBT ₹6.0 Cr.
+- **Top risks (AR risk register, paraphrased):** raw-material volatility and supply (TDI/polyol, crude, FX); competition from D2C and unorganised players; climate/energy transition; fire safety; integration risk (now largely behind it).
+
+### 4.2.2 Wakefit Innovations Ltd (WAKEFIT · 544642)
+
+#### (a) Management-guidance digest — Q1 FY27 call, 7-Aug-2026 (W2) [V; paraphrased]
+
+Participants: Ankit Garg (Chairman & CEO), Chaitanya Ramalingegowda (ED), Parul Gupta (CFO). Host: 360 ONE Capital.
+
+**Guidance and targets**
+- **Growth:** focus is "closer to 20–25% growth"; ~80 net new COCO stores in FY27 and "next year a similar number". No formal revenue guidance.
+- **Operating EBITDA (pre-Ind AS 116):** aspire to **~7.5% for FY27**, the FY26 level ("anything on top … is icing on the cake"); Q1 was ~9%. **Reported 14–17% is "two, three years away".**
+- **Gross margin:** full raw-material impact lands in **H1 FY27**; the H1 hit should be "not more than 100–120 bp"; **Q2 roughly 100 bp below Q1 (57.1%)**, less if prices stabilise. 3–4 weeks of raw material on hand, bought below spot.
+- **Pricing:** a nominal price cut in June after the brief ceasefire; no further changes "barring any unforeseen increases". Spot TDI/polyol rose 70–80% (some grades 140–160%) at peak, but procured inflation was ~30–40%; consumer price increases were "two increases of about 5% each".
+- **A&P 7–8% of revenue** for FY27 (Q1: 7.6%); **rent ~₹80–90 Cr** (FY26 ~₹80 Cr); **ESOP ₹10–12 Cr** (Q1 only ₹0.6 Cr; senior hires join in H2); **capex ₹100–120 Cr** (~80% retail incl. jumbo stores, ~20% automation).
+- **Furniture:** back to **mid-to-late-teens growth** over the next two quarters (Q1 slowed on machine breakdown, election-time labour shortage and a pause in furniture-first stores); a 25–30% step-up once jumbo stores open. **Jumbo stores (both Bengaluru): first June–July 2027 (excavation nearly done), second Aug–Sep 2027.**
+- **Corporate overhead 7–8% of revenue**, to fall as a percentage over time.
+
+**Top analyst Q&A points**
+1. *Mattress growth +27.3%:* ~two-thirds volume, one-third price; Q4 FY26 had almost no price effect (first hike in the last week of March touched <5% of Q4 revenue). July–August growth "mostly volume driven".
+2. *Premium mix:* premium share of mattress sales up "20–30%" (relative); offline ~half premium, company 15–20%; ₹25,000+ mattresses sell mostly in COCO stores.
+3. *External channels* recovered (+7.6%) because all major marketplaces were in growth mode plus a sale event; July had another sale event. **Total online sales grew ~7%**; own channels +20% (share 70% → 72%).
+4. *Store economics (new):* ~105–106 "mega" stores with furniture and ~60 "mini" bedding-first stores; **payback ~10–11 months**, 2–3 months longer for minis; a town's monthly run-rate rises **~2.7–3×** after a store opens; stores hold only **₹4–5 lakh** of display inventory.
+5. *Market share:* "in the organised market, we should be closer to 10% market share" (rough internal estimate); goal **+4–5 pp of organised share over 3–5 years**.
+6. *B2B* (hotels, co-living) is ~2–3% of revenue; no meaningful B2B foam.
+7. *Segment profitability ranking:* mattress > furnishings & décor > furniture (no numbers).
+8. *Basket:* ~2 products per cart; ~36% of revenue from repeat customers; own channel historically split evenly between website and COCO, now tilting to COCO.
+
+#### (b) Management-guidance digest — Q4 FY26 call, 22-May-2026 (W4) [V; paraphrased]
+
+Host: Axis Capital.
+- **FY26:** revenue ₹1,489 Cr (+17%). Q3 FY26 saw softer discretionary demand, and demand moderated again in late Q4 amid geopolitical uncertainty. Mattress +17% FY / +20% Q4; furniture ~+24% FY / +14% Q4; furnishings 9.3% of sales. **Retail revenue +49% in FY26 (Q4 +35%).**
+- **Stores:** 139 COCO in **76 cities**, ~4 lakh sq ft; **42 gross additions, ~8 closures**; expansion paused at Dec-25 (137) to "recalibrate" SSSG, locations and playbook; FY27 target **>80 net additions**, all regular format (600–5,500 sq ft); new stores to go to Tier-2 towns. **MBOs 1,948 in 536 towns**, cash-and-carry, not distributor credit. **Own channels 67.2% of FY26 sales, >74% in Q4.**
+- **Raw materials:** polyol, TDI etc. rose **30–150%** in the March quarter (spot up to 160%); Wakefit stocked early; procured inflation +25–30% on some inputs, +15–20% on others, +5–6% on the rest; overall procurement-basis basket ~+10%; ~30% if crude stays at US$100. **Price hikes of ~7–8% in March and ~7–8% in April** (~15%), matched across the industry within 1–3%. Larger brands get preferential allocation in shortages; unbranded foam makers add adulterants (limestone/"chuna") under cost pressure.
+- **Competition:** intensity up over 6–9 months from **₹100–300 Cr marketplace labels and regional brands** with lower cost structures. If pushed, Wakefit would still chase **20%+ growth and accept a 1–2 pp EBITDA hit** — it is "very market-share driven".
+- **Margins:** Q4 reported EBITDA ex-OI ₹36 Cr (10.6%); **operating EBITDA 6.3%**; A&P ~7.3% in Q4 vs ~5.3% in Q3; **FY26 A&P ~5.7%**; medium-term 7–8%. Q4 included a **₹98 Cr DTA credit** (Ind AS 12).
+- **Cash:** **investable cash ~₹958 Cr** at Mar-26 (pre-IPO ~₹450 Cr + IPO net ~₹400 Cr + accruals); only ₹4.5 Cr of IPO proceeds used; FDs of 3–12 months sit in other financial assets.
+- **Capex FY27:** ₹120–140 Cr then (cut to ₹100–120 Cr in August); 60–70% of the jumbo store's initial capex falls in FY27; first jumbo store "early FY28" (April–May 2027 then; June–July 2027 by August); jumbo break-even target ~18 months.
+- **Rent:** ~₹20 Cr in Q4, ~₹80 Cr in FY26; it would roughly double with ~80 stores but average store size is shrinking (later guided ₹80–90 Cr for FY27).
+- **Returns:** 100-day-trial returns are "below double digits" as a % of sales and stable over 10–11 years; customer bears no cost. Leases start at 11–12 months, extended after 3–5 months of proof.
+- **KPIs the company actually tracks:** repeat-revenue %, cross-category %, ASP; **volume growth is "not a KPI"** (so mattress units will not be disclosed).
+- **Scope:** "Wakefit accounts for well below 1% of the combined mattress, furniture and home-accessories industry". The MOA objects were widened (live plants, garden inputs, décor sourcing) to complete jumbo-store assortments; no material financial impact expected.
+
+#### (c) Concall/deck KPI table (W1, W3–W5, W7) [V unless marked]
+
+| KPI | FY23 | FY24 | FY25 | H1 FY26 | FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|
+| Revenue (₹ Cr) | 812.6 | 986.4 | 1,273.7 | 724.0 | 1,488.9 | 404.9 |
+| Mattress / furniture / furnishings mix | 63.5 / 24.0 / 12.5 | 57.5 / 30.5 / 11.9 | 61.4 / 27.6 / 11.0 | 60.6 / 29.3 / 10.1 | 61.4 / 29.3 / 9.4 | 65.9 / ~28 / 6.3 |
+| Own channels (website + COCO) | 57.50% | 58.30% | 56.97% | 64.91% | 67.2% | 72.3% |
+| Marketplaces incl. quick commerce | 41.19% | 38.71% | 37.95% | 29.33% | n/d | n/d (external 27.7% incl. MBOs) |
+| MBOs (implied share) [E] | ~1.3% | ~3.0% | ~5.1% | ~5.8% | n/d | n/d |
+| COCO stores (period-end) | 23 | 56 | 105 | 125 (Sep-25) | 139 | 165 |
+| MBO outlets | — | — | ~1,500 | 1,504 (Sep-25) | 1,948 | ~2,250 |
+| Gross margin | — | — | 55.0% | ~56.8% [E] | 55.8% | 57.1% |
+| Operating EBITDA (pre-Ind AS 116) | −112.9 | 10.0 | 18.0 (1.4%) | ~51.7 [E] | 112.3 (7.5%) | 36.8 (9.1%) |
+| A&P % of revenue | — | 7.84% (RHP) | — | — | ~5.7% | 7.6% |
+| Repeat-customer revenue | — | — | — | — | 35.3% | 36.7% |
+| Cross-sell: % of furnishings / furniture buyers who were existing customers | — | — | — | — | 24.2% / 18.4% | — |
+| Permanent employees | — | — | — | — | 2,178 (Mar-26) | — |
+| Investable cash (₹ Cr) | — | — | — | — | 958.6 | n/d |
+
+#### (d) Five-year annual table, FY22–FY26 (screener standalone = whole company; company lines from W3/W1) [V]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 633 | 813 | 986 | 1,274 | 1,489 |
+| YoY | +54.8% | +28.4% | +21.3% | +29.2% | +16.9% |
+| Operating profit (screener) | −79 | −85 | 36 | 60 | 186 |
+| Company reported EBITDA ex-OI | — | −93.1 | 34.9 | 59.1 | 182.0 |
+| Company operating EBITDA (pre-Ind AS 116) | — | −112.9 | 10.0 | 18.0 | 112.3 |
+| Gross margin (company) | — | — | — | 55.0% | 55.8% |
+| Other income | 4 | 7 | 31 | 32 | 39 (company 45.4) |
+| Interest (mostly lease) | 8 | 21 | 18 | 30 | 29 |
+| Depreciation (incl. ROU) | 24 | 47 | 64 | 96 | 104 |
+| PBT | −107 | −146 | −15 | −35 | 91 |
+| PAT | −107 | −146 | −15 | −35 | 189 (incl. ₹98 Cr DTA) |
+| CFO | −148 | −20 | 81 | 76 | 245 |
+| ROCE (screener) | −33% | −29% | −0% | −2% | 11% |
+| Events | — | First COCO (Mar-22) | — | — | IPO 8–10 Dec-25 (2.52×); allotment 11-Dec; listing 15-Dec |
+
+#### (e) Eight-quarter table (W5, W3, W1; screener for Q2 FY26 lines) [V unless marked]
+
+| ₹ Cr | Q2 FY25 | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | n/d (H1 FY25 585.9 [E]) | 385.2 | 302.6 | 347.1 | 376.9 | 421.3 | 343.6 | 404.9 |
+| YoY | n/d | n/d | n/d | n/d | n/d | +9.4% | +13.5% | +16.6% |
+| Gross margin | n/d (H1 FY25 ~57.9% [E]) | 51.5% | 53.6% | 55.8% | ~57.7% [E] | 53.8% | 56.0% | 57.1% |
+| Reported EBITDA ex-OI | n/d | 20.0 (5.2%) | 6.0 (2.0%) | 45.0 (13.0%) | 41.3 (11.0%) [E: 9M − Q1 − Q3] | 59.2 (14.0%) | 36.5 (10.6%) | 56.4 (13.9%) |
+| Operating EBITDA (pre-Ind AS 116) | n/d | 8.0 (2.1%) | −3.2 (−1.1%) | 24.6 (7.1%) | ~27.1 (7.2%) [E] | 41.6 (9.9%) | 21.8 (6.3%) | 36.8 (9.1%) |
+| Ind AS rent adjustment | n/d | 16.7 | — | 19.9 | ~19.5 [E] | 20.9 | ~20 | 21.0 |
+| PAT | n/d | −2.4 | −26.2 | 19.6 | 16.0 | 31.9 | 121.8 (incl. DTA 98.1) | 23.4 (ex-deferred tax 30.7) |
+| COCO stores (end) | ~81 [E, interpolated; FLAG] | n/d | 105 | n/d | 125 | 137 | 139 | 165 |
+| A&P % | n/d | n/d | n/d | n/d | n/d | ~5.3% | ~7.3% | 7.6% |
+
+Notes: Wakefit was unlisted before Q3 FY26, so stand-alone quarters before Q1 FY26 come only from comparatives in later decks; Q2 FY25 is not separately disclosed anywhere fetched. Q2 FY26 gross margin and operating EBITDA are derived from 9M FY26 (₹637.9 Cr GP; ₹93.3 Cr operating EBITDA) less Q1 and Q3. The **Q3 gross-margin dip (53.8%)** is a festive-discount pattern seen in both years (Q3 FY25 51.5%).
+
+#### (f) Annual-report findings, FY26 (W6) and prospectus cross-checks (W7) [V]
+
+- **Share-capital history:** bonus issue (record date 13-May-2025); rights issue (13-May-2025); private placement of 28,71,794 shares (14-Nov-2025); **IPO allotment 1,93,42,461 shares on 11-Dec-2025**; ESOP allotment 31,38,074 shares (18-Mar-2026). ESOP pool: 35,07,098 options outstanding at Mar-26, of which 19,53,529 exercisable (overhang ~1.1% of shares [E]).
+- **IPO-proceeds utilisation (to 31-Mar-2026, ₹ mn):** objects total ₹3,771.78 mn; used ₹102.05 mn (lease rent ₹46.00 mn; issue expenses ₹56.05 mn); new-store capex ₹0 of ₹308.42 mn; marketing ₹0 of ₹1,084.04 mn; machinery ₹0 of ₹154.08 mn. **No deviation**; monitoring agency CARE Ratings. ₹610.96 mn of IPO cash sat in current accounts at year-end. **Implication:** FY26's 12.2% reported EBITDA was earned *before* the IPO-funded marketing (₹108 Cr) and store capex were deployed; their use from FY27 will lift A&P (consistent with the 7–8% guide).
+- **Contingent liabilities:** ₹63.50 mn (~₹6.4 Cr) of GST input-tax-credit disputes (FY25 ₹57.22 mn); capital commitments ₹47.27 mn. Immaterial.
+- **Deferred tax:** DTA (net) ₹1,034.40 mn on the balance sheet; FY26 tax line includes a ₹980.7 mn credit; unrecognised DTA at Mar-25 was ₹1,250 mn, fully recognised by Mar-26. From Q1 FY27 the DTA unwinds through the P&L (₹7.3 Cr in Q1), so **reported PAT will run below "PAT ex-deferred tax" for several years** while cash taxes stay low.
+- **Related parties:** no royalty or brand fee to promoters; transactions are KMP remuneration and ESOPs (the founders are the promoters: Ankit Garg 28.77% and Chaitanya Ramalingegowda 8.06% post-issue per the prospectus).
+- **Board/KMP changes FY26:** CFO Parul Gupta appointed 10-Feb-2026; five independent directors and changes to nominee directors in June 2025 (pre-IPO governance build-out).
+- **Prospectus channel data (new to the dossier):** marketplaces (e-commerce incl. Pepperfry, plus quick commerce) fell from **41.19% of revenue (FY23) to 29.33% (H1 FY26)**. Quick commerce is not broken out anywhere.
+- **Redseer basis:** the prospectus's industry chapter does not state whether market sizes include GST or B2B (text search for GST, MRP, "retail value" returned nothing in that chapter). §H-15 stays open.
+
+#### (g) Valuation refresh with the corrected cash (30-Oct-2026 close; m-cap ₹4,478 Cr) [E]
+
+| Metric | Part 2 (old) | Corrected |
+|---|---|---|
+| Net cash used in EV | ₹323 Cr (liquid only) | **₹958.6 Cr (company "investable cash", Mar-26)** |
+| EV | ₹4,155 Cr | **~₹3,520 Cr** |
+| EV / FY26 screener OP (₹186 Cr) | 22.3× | **~18.9×** |
+| EV / FY26 operating EBITDA (₹112.3 Cr) | 37.0× | **~31.3×** |
+| P/E TTM reported (₹193 Cr) | 22.8× | 23.2× (screener 22.8× uses rounding) |
+| P/E TTM ex-DTA (~₹102 Cr) | ~44× | **~44× (unchanged)**; ex-DTA *and* ex-treasury income (~₹50 Cr TTM other income, ~₹37 Cr post-tax) ≈ ₹65 Cr → **~69× core** |
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3.1 TDI and polyol prices, India (₹/kg) — replaces the primer's unsourced bars and the IMARC/EMR snippets
+
+| Period | Sheela TDI purchase | Sheela polyol purchase | GNFC TDI price (₹/kg) | GNFC toluene (₹/kg) | GNFC TDI–toluene spread (₹/kg) | TDI import unit value, CIF (₹/kg) [E from T1] | Polyether-polyol import unit value (₹/kg) [E from T1] |
+|---|---|---|---|---|---|---|---|
+| FY23 (year) | — | — | — | — | — | 205.6 | — |
+| FY24 (year) | — | — | — | — | — | 173.0 | — |
+| Q2 FY25 | 201 | 126 | — | — | — | — | — |
+| Q3 FY25 | 200 | 120 | — | — | — | — | — |
+| Q4 FY25 | 196 | 117 | — | — | — | — | — |
+| FY25 (year) | — | — | — | — | — | 163.5 | 127.8 |
+| Q1 FY26 | 173 | 110 | 155 | 73 | 81 (lowest) | — | — |
+| Q2 FY26 | 172 | 107 | 162 | 70 | 92 | — | — |
+| Q3 FY26 | n/d | ~120 (Jan-26, CMD) | 168 | 71 | 97 | — | — |
+| Q4 FY26 | n/d | peak ~220 (Mar-26) | 220 | 74 | 146 | — | — |
+| FY26 (year) | — | — | — | — | — | 148.7 | 115.9 |
+| Mid-May 2026 (spot) | ~275 (GNFC list, Dy MD) | ~180 (oscillating 180–200) | — | — | — | — | — |
+| Q1 FY27 | n/d | n/d | 255 (highest) | 88 | 167 (highest) | — | — |
+| "Normal" (5-yr avg, CMD) | ~240 | ~120+ | — | — | — | — | — |
+
+Sources: S5 (chart, read from the rendered slide), S3, G1 (slide 7, ₹'000/t ÷ 1,000), T1. Import unit values are CIF, before basic customs duty, ADD and GST; domestic prices sit above them. **Reading:** TDI fell ~25% from FY23 to FY26 (Chinese capacity), which is the cost tailwind behind Sheela's FY26 margin recovery and Wakefit's profit swing; it then **jumped ~50–60% in Q4 FY26–Q1 FY27** (GNFC ₹168k → ₹255k/t). GNFC's spread over toluene doubled (₹81 → ₹167/kg), so the shock was a TDI supply squeeze (GNFC partly shut on gas economics; Bharuch TDI down in July; "shortage in the Indian market of TDI" — G2), not just crude.
+
+### 4.3.2 India TDI imports (HS 29291020, T1) [V]
+
+| Year | Quantity (t) | Value (₹ Cr) | Top origins (t) |
+|---|---|---|---|
+| FY23 | 55,529 | 1,141.6 | China 15,364; Korea 14,620; Japan 9,200; Saudi 5,960 |
+| FY24 | 51,428 | 889.5 | China 18,970; Japan 15,320; Korea 6,340; Saudi 5,170 |
+| FY25 | 72,922 | 1,191.9 | Japan 22,999; China 16,709; Korea 15,218; Saudi 5,420; Singapore 3,520; USA 3,106; Belgium 2,635; Hungary 1,900 |
+| FY26 | **79,604** | **1,183.5** | **China 29,791 (37%)**; Korea 19,611; Japan 15,995; Singapore 6,600; Saudi 3,260; USA 2,341; Belgium 1,035 |
+
+- China's tonnage rose 78% in FY26 despite a US$0.26/kg ADD; EU (Belgium/Germany/Hungary) and Saudi volumes fell under the EU/Saudi ADD (US$102–344/t).
+- Apparent TDI supply FY26 ≈ imports 79.6k t + GNFC ~57k t ≈ **~137k t**; GNFC ≈ 42% [E]. Sheela's 1.39 lakh MT foam capacity at ~1/3 TDI by weight [K] would need ~33–40k t of TDI at high utilisation [E], so **Sheela alone may be a quarter or more of Indian TDI demand** [E; FLAG].
+
+### 4.3.3 India polyol imports (T1) [V]
+
+| HS | Year | Quantity (t) | Value (₹ Cr) | Top origins FY26 (t) |
+|---|---|---|---|---|
+| 39072910 poly(ether alcohols) | FY25 | 251,368 | 3,211.9 | — |
+| 39072910 | FY26 | 199,591 | 2,314.1 | Saudi 47,973; Singapore 39,648; China 26,952; Thailand 19,814; Korea 19,235; UAE 29 |
+| 39072990 other polyethers | FY25 | 277,226 | 4,111.3 | — |
+| 39072990 | FY26 | 412,535 | 5,307.3 | China 275,555; Saudi 41,070; Thailand 30,691; Korea 30,344 |
+
+- UAE polyol imports are near zero (29 t), consistent with the UAE ADD. Polyol volumes partly shifted into the "other polyethers" line in FY26 (China), so **treat 3907 29 as one pool (~612k t, ₹7,620 Cr in FY26)**; flexible-slabstock polyol is a subset that is not separately coded.
+
+### 4.3.4 Trade remedies on foam chemicals — status at 1-Nov-2026
+
+| Measure | Rates | Period | Status | Source |
+|---|---|---|---|---|
+| TDI ADD, EU + Saudi Arabia | US$102.05–344.33/t (Covestro DE 221.04; BorsodChem 102.05; other EU 264.96; Sadara 217.55; other Saudi 344.33) | Continued 5 yrs from 10-Feb-2026 (03/2026-Customs ADD) | In force | Part 1 [V]; applicant GNFC |
+| TDI ADD, China / Japan / Korea | China US$0.26/kg; Japan 0.15; Korea Hanwha 0.22, BASF 0.31, others 0.44 | 5 yrs from 21-Sep-2022 (≈ to 20-Sep-2027) | In force; **sunset review initiated 30-Sep-2026 (AD/SSR/011/2026)** | C3, C4 [V] |
+| Flexible slabstock polyol ADD, Saudi + UAE | Sadara US$150.06/t; other Saudi 235.02; UAE 101.81 | 20/2021 (5-Apr-2021); extended to 17-Jun-2026 by 01/2026 (2-Jan-2026) | **Open:** final findings (Mar-2026) recommending continuation reported [V-snip]; no customs notification found after 17-Jun-2026 | C2 [V] |
+| Polyurethanes QCO (S.O. 3931(E), 2021) | — | Revoked 12-Nov-2025 | Revoked | Part 1 [V] |
+| TDI- or polyol-specific QCO | — | — | None found | — |
+
+### 4.3.5 GST on the category [V/K]
+
+| Period | Mattresses (HSN 9404, spring/foam/stuffed) | Coir mattresses, cotton pillows/quilts | Furniture (9403) | Bamboo furniture |
+|---|---|---|---|---|
+| 1-Jul-2017 (launch) | **28%** [V C1] | **18%** [V C1] | **28%** [V C1] | 18% [V C1] |
+| Nov-2017 → 21-Sep-2025 | 18% [K; consistent with all later sources] | per later amendments (5–12% for cotton quilts) [K] | 18% [K] | 12% [V-snip] |
+| From 22-Sep-2025 (GST 2.0, 9/2025-CT(Rate)) | **18%** (Sch. II) [V-snip] | mixed [V-snip] | 18% [V-snip] | 5% [V-snip] |
+
+### 4.3.6 Global peers (company releases) [V]
+
+| Company | FY | Net sales | Gross margin | Adj. EBITDA (margin) | Net income | Stores / channel | Source |
+|---|---|---|---|---|---|---|---|
+| Somnigroup (Tempur Sealy + Mattress Firm) | CY2025 | US$7,476.5 mn (+51.6%) | 42.6% | US$1,306.0 mn (17.5%) | US$384.1 mn | Direct 65.2% of Q4 sales; Mattress Firm US$3,505 mn at 33.4% GM | P1 |
+| Sleep Number | FY2025 (to 3-Jan-26) | US$1.4 bn (−16%) | 59.0% | US$78 mn (5.5%) | −US$132 mn | 600 own stores | P2 |
+| Sheela Foam (₹94.9/$) | FY26 | ~US$403 mn | 43.7% | ~US$44 mn (10.8%) | ~US$17 mn | ~5,500 brand outlets; 42 COCO | S4 |
+| Wakefit (₹94.9/$) | FY26 | ~US$157 mn | 55.8% | ~US$12 mn operating (7.5%) | ~US$20 mn (incl. DTA) | 139 → 165 COCO | W3 |
+
+- **Read-across:** Sleep Number shows that a 59% gross margin with 600 company stores can still yield a 5.5% EBITDA margin when traffic falls 16% — the cautionary case for Wakefit's 57%-GM, 165-store model. Somnigroup's vertical integration into retail (Mattress Firm at 33% GM vs manufacturing at ~50%) is the US analogue of Sheela adding COCO stores and Wakefit adding MBOs.
+
+### 4.3.7 Housing (demand trigger)
+
+| Series | CY2024 | CY2025 | Q3 2025 | Q3 2026 | Source |
+|---|---|---|---|---|---|
+| Anarock top-7 sales (units) | 459,645 | **395,625 (−14%)** | 97,080 | 1,00,220 (+3%) | H1 [V]; Part 1 [V] |
+| Sales value | ~₹5.68 lakh Cr | >₹6 lakh Cr (+6%) | — | ~₹1.55 lakh Cr | H1 [V] |
+| Launches (units) | 412,520 | 419,170 (+2%) | 96,690 | 1,14,320 (+18%) | [V-snip]; Part 1 |
+| Unsold inventory (units) | 553,073 | 576,617 (+4%) | — | 6,30,590 | [V-snip]; Part 1 |
+
+- Completions/possessions data were not found (gap). The 2022–24 sales peak (Redseer 0.31–0.35 mn units; Anarock ~4.6 lakh in CY2024) is what reaches possession in 2025–27; the **−14% CY2025 sales dip** therefore hits furnishing demand around 2028–29 [E].
+
+### 4.3.8 Market-share claims, by basis (use exactly as labelled)
+
+| Claim | Basis | Value | Source |
+|---|---|---|---|
+| Sheela | "Indian branded mattress segment" | ~30% | S7 [V] |
+| Sheela (Sleepwell + Kurlon) | "modern mattress market" | 29% | CRISIL Apr-26 (Part 1 [V]) |
+| Sheela | "organised mattress market" (CMD's own estimate) | close to 20% | S2 [V] |
+| Wakefit | "organised market" (ED's rough estimate) | closer to 10% | W2 [V] |
+| Wakefit | "combined mattress, furniture and home-accessories industry" | well below 1% | W4 [V] |
+| Unorganised share | Redseer channel definition (≥2,500 sq ft + online = organised) | ~70% (CY24) | RHP (Part 1 [V]) |
+| Unorganised share | Sheela CFO | ~85% "unorganised and traditional" | S3 [V] |
+| Industry volume growth | Sheela CMD, Q1 FY27 | "closer to 5%" | S2 [V] |
+
+## 4.4 Gap log (each §H item plus the task's chase list)
+
+| # | Gap (from §H or the task) | Status | Detail / what was tried |
+|---|---|---|---|
+| H-1 | TDI/polyol price series 2024–26 | **Filled** | Sheela purchase-price chart (Q2 FY25–Q2 FY26), Sheela call spot data (Jan–May 2026), GNFC price chart (Q1 FY26–Q1 FY27), TradeStat unit values (FY23–FY26). See 4.3.1. ChemAnalyst/ICIS free pages not needed. |
+| H-2 | Pre-22-Sep-2025 GST on mattresses | **Mostly filled** | 28% at launch [V CBIC]; 18% from Nov-2017 to Sep-2025 [K, consistent]; the 12% claim rejected. The Nov-2017 notification (41/2017-CT(Rate)) and 9/2025 Schedule text could not be fetched (CBIC pages are JS/redirects). |
+| H-3 | TDI ADD China/Japan/Korea rates/expiry | **Filled** | US$0.15–0.44/kg from 21-Sep-2022; SSR initiated 30-Sep-2026. The 2022 customs notification number was not retrieved. |
+| H-4 | Polyol ADD in force? | **Partly** | In force to 17-Jun-2026 [V]; post-June continuation not found. Check CBIC Customs (ADD) 2026 list / DGTR case page. |
+| H-5 | TDI/polyol-specific QCO | **Closed (none found)** | Only the PU QCO (revoked 12-Nov-2025). |
+| H-6 | Furlenco stake conflict | **Filled** | 34.53% voting vs ~43% fully diluted vs ~35% profit share (see 4.0 #4). |
+| H-7 | Kurlon consideration/stake; post-merger revenue | **Filled / partly** | ₹1,940.78 Cr for 94.67% → 97.43%; KEL FY25 total income ₹665.5 Cr. Post-merger Kurlon revenue is not disclosed (company reports SFL + KEL only). |
+| H-8 | Wakefit units, revenue/store, CAC, payback | **Partly** | Payback ~10–11 months and catchment uplift 2.7–3× [V]; **mattress units will not be disclosed ("volume growth is not a KPI")**; CAC not disclosed (RHP only defines it); revenue per store not disclosed. |
+| H-9 | Wakefit IPO subscription | **Resolved [V-snip]** | 2.52× ex-anchor. Exchange bid book not reachable. |
+| H-10 | Sheela market-share bases | **Clarified** | Table 4.3.8. |
+| H-11 | Peps, Springfit, Centuary, The Sleep Company FY26 | **Open** | Sleep Company FY26 not yet in the press; FY25 ₹499 Cr (Entrackr) vs ₹505.7 Cr / loss ₹48.2 Cr (Inc42) [V-snip]; Series D ₹480 Cr (ChrysCapital, 360 ONE) [V-snip]. Peps/Springfit/Centuary: no free RoC data found. |
+| H-12 | Housing completions | **Open** | Anarock CY2025 sales/launches/unsold captured; completions not published in free releases found. |
+| H-13 | Quick-commerce share | **Open (structurally)** | Wakefit reports marketplaces incl. quick commerce together (29.3% H1 FY26); Sheela reports e-com growth only. Neither discloses QC. |
+| H-14 | Wakefit allotment date | **Filled** | 11-Dec-2025 [V AR]. |
+| H-15 | Redseer basis (GST/B2B) | **Open** | Not stated in the prospectus text. |
+| H-16 | IKEA India FY25 RoC | **Open ([V-snip] only)** | ₹1,749.5 Cr revenue; ₹1,325.2 Cr loss; A&P ₹223.9 Cr; borrowings ₹8,335.2 Cr — consistent across IANS/FPJ/BW Retail (all citing RoC via Tofler). The RoC filing itself is paywalled. |
+| H-17 | Sheela FY26 exceptional sign | **Filled** | Gain ₹7.93 Cr (land sale). |
+| T-1 | Wakefit net cash ₹323 Cr vs ~₹1,000 Cr | **Filled** | ₹958.6 Cr investable cash (Mar-26). Sep-26 balance sheet not yet published (Q2 pending). |
+| T-2 | Wakefit Sep-26 shareholding by name | **Open** | Screener category totals only (Promoters 37.07, FII 14.36, DII 26.41, public 22.17); the BSE shareholding-pattern XBRL was not reachable via the blocked API. |
+| T-3 | Duroflex FY26 financials / ratings | **Open** | No FY26 numbers or 2026 rationale found; last ratings: CARE BBB+/Stable (Nov-2024), ICRA moved to INC and withdrew (Dec-2024) [V-snip]. Duroflex still unlisted. |
+| T-4 | Pepperfry acquisition by TCC Concepts | **Not re-verified** | Keep [V-snip]; not central. |
+| T-5 | Sheela foam utilisation (~72% [E]) | **Unchanged [E]** | AR gives capacity (1.39 lakh MT) but no production tonnage beyond "highest ever"; standalone foam sold was 54,088 t plus foam inside 3.69 mn mattresses. |
+| T-6 | Somnigroup / Sleep Number FY25 | **Filled [V]** | 4.3.6. |
+| T-7 | Q2 FY27 results | **Not yet released** | Sheela board 2-Nov-2026; Wakefit not intimated (deadline 14-Nov-2026). |
+| T-8 | Rating-agency sector reports (mattress) | **Open** | None free and specific found; CRISIL's Sheela rationale (Part 1) remains the best sector proxy. |
+| T-9 | Wakefit "~30–35% online mattress share" | **Dropped** | Not supported by any company document; company says ~10% of organised. |
+
+## 4.5 New insights the first pass missed
+
+1. **The 2026 shock was a TDI supply squeeze layered on crude.** GNFC's own TDI–toluene spread doubled (₹81 → ₹167/kg) as GNFC curtailed output on gas economics and Bharuch TDI went down in July, while imports were disrupted; India imports ~58% of its TDI (FY26: 79.6k t, China 37%). Converters were simultaneously paying ADD on four of the five main import origins, and DGTR has just (30-Sep-2026) opened a review that could extend the China/Japan/Korea duty to 2032. Expect Sheela, Duroflex and Wakefit to file as opposing interested parties again.
+2. **FY26 was a deflation year for inputs, not just an integration year.** Sheela's TDI cost fell from ₹201 to ₹172/kg and polyol from ₹126 to ₹107/kg between Q2 FY25 and Q2 FY26; TDI import unit values fell ~28% from FY23 to FY26. A large part of Sheela's +261 bp core-margin gain and Wakefit's swing to profit rode that tailwind; FY27 reverses it. The writer should not present FY26 margins as fully "structural".
+3. **Wakefit is far cash-richer than Part 2 assumed and has not yet spent its IPO money.** ₹958.6 Cr of investable cash against ₹4,478 Cr m-cap (21%), with only ₹10 Cr of IPO proceeds used by Mar-26. Treasury income (~₹50 Cr TTM) is ~45% of TTM PBT; "core" P/E ex-DTA ex-treasury is ~70×. The IPO-funded ₹108 Cr marketing and ₹161 Cr rent budgets start hitting the P&L in FY27–28, which is why management guides operating margin flat at ~7.5% despite Q1's 9.1%.
+4. **Store economics are now disclosed and look good — but on mattress-first mini stores.** ~10–11-month payback, ₹4–5 lakh inventory per store and a 2.7–3× town-level uplift explain the 80-a-year rollout. The risk is mix: ~60 of 165 stores are bedding-first minis; furniture growth (the TAM story) now depends on two 1 lakh-sq-ft jumbo stores in Bengaluru (mid-2027) with an 18-month break-even target.
+5. **Sheela's reported quarters carry non-recurring help.** Q4 FY26's ₹92 Cr PAT included a ₹16 Cr exceptional gain and ~₹14 Cr of JV share (mostly Furlenco's DTA); Q1 FY27 included a ₹6 Cr exceptional gain. FY26's lower depreciation (₹179 Cr vs guided ₹140–145 Cr in FY27) also reflects a policy shift to useful-life depreciation, not just asset roll-off. Underlying quarterly PAT run-rate is ~₹55–60 Cr.
+6. **Sheela is a seller of its international arm, and Furlenco is a monetisation option.** The CMD says Sheela is "open" to selling Joyce/Interplasp (~₹800–1,000 Cr revenue, ~10–12% EBITDA), and the Furlenco IPO decision is pending (~43% fully diluted; ₹441.6 Cr carrying value; FY27 revenue plan ₹500 Cr). Either would accelerate debt-freedom and lift reported ROCE toward the 20–25% target.
+7. **The two managements' own market-share estimates sum to only ~30% of "organised"** (Sheela ~20%, Wakefit ~10%), well below Part 1's 45–50% of Redseer-organised. Their "organised" is broader (it includes dealer counters and regional brands), and Sheela's CFO calls ~85% of the market unorganised. The writer should present the market as **fragmented even at the organised end**, contrary to Part 1's "top-3 oligopoly" framing, or show both readings with their bases.
+8. **Price discipline is industry-wide and fast.** Major brands' consumer price increases in Mar–Apr 2026 landed within 1–3% of each other (Wakefit ED), and both companies cut nominally in June. The new competitive pressure comes from ₹100–300 Cr marketplace labels, not from the listed peers.
+
+### 4.5.1 New primer issues (for primer-issues.md; in addition to Part 3 §3.4)
+
+**sheela-foam.html**
+- Kurlon merger date: change any "w.e.f. April 2026" to **"NCLT approved 17-Sep-2025; effective 31-Jan-2026 (appointed date 1-Apr-2024)"** (AR FY26 Note 63).
+- Kurlon price: **₹1,940.78 Cr for 94.67% (Oct-2023), then ₹59.25 Cr for 2.76% → 97.43%** (AR FY24 Note 63).
+- QIP: **₹1,200 Cr on 26-Sep-2023 at ₹1,078/share** (AR FY24).
+- Furlenco: quote **34.53% (voting) / ~43% fully diluted / ~35% profit share**; Furlenco FY27 plan ~₹500 Cr, IPO under consideration.
+- TDI/polyol price bars: replace with the company's own series (TDI ₹201 → 172/kg, polyol ₹126 → 107/kg, Q2 FY25 → Q2 FY26; spot May-2026 TDI ~₹275, polyol ~₹180; normal ~₹240 / ~₹120). The primer's "polyol ~₹180 normalised" is wrong.
+- Add FY27 cost guidance: capex ₹125–150 Cr; depreciation ₹140–145 Cr (policy change); finance cost ~₹50 Cr; and the international-divestment optionality.
+- Add the ₹16 Cr Q4 FY26 and ₹6 Cr Q1 FY27 exceptional gains when discussing the PAT trajectory.
+
+**wakefit.html**
+- Net cash: **₹958.6 Cr investable cash (Mar-26)**, not ~₹323 Cr; only ~₹10 Cr of IPO proceeds used by Mar-26.
+- IPO: **2.52× subscribed (ex-anchor)**; allotment **11-Dec-2025**; pre-IPO lock-in ended ~11-Jun-2026; promoter lock-in to ~11-Jun-2027.
+- A&P: FY26 **~5.7%** (not 7.5%); FY27 guide 7–8%.
+- Stores: add **payback ~10–11 months**, 42 adds / 8 closures in FY26, ~60 mini + ~105 mega stores, jumbo stores Jun–Sep 2027.
+- Channel: marketplaces (incl. quick commerce) **41% (FY23) → 29% (H1 FY26)**; own channels 67.2% FY26.
+- Market share: Wakefit's own estimate is **~10% of the organised mattress market**; remove any "30–35% of online mattresses" claim.
+- Capex: FY27 **₹100–120 Cr** (Aug-26), down from ₹120–140 Cr (May-26).
+
+### 4.5.2 Additional source URLs (this pass)
+
+- Sheela H1 FY26 deck (TDI/polyol price chart, slide 58): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eccfe177-b0bf-4091-8577-f9e0e3323860.pdf
+- Sheela Q3 FY26 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=939d5b8a-e32a-4f9c-8b59-01df3bac7449.pdf
+- Sheela Q4 FY26 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32933025-1ad9-4a59-89e8-e9d8c90b704f.pdf
+- Sheela AR FY25: https://www.bseindia.com/xml-data/corpfiling/AttachHis/fba899aa-481e-4065-82aa-56bf9aa55e1e.pdf ; AR FY24: https://www.bseindia.com/xml-data/corpfiling/AttachHis/3c3f6de7-f260-4536-9418-2fe87713a91c.pdf
+- Wakefit Q4 FY26 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e0a9fb0-32f3-432c-b799-4c87494c9040.pdf ; transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c52e9c3-a52d-441a-b4e1-ccde437b4cd6.pdf ; Q3 FY26 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c21b21a2-f188-41b9-bb3c-3f277a15c859.pdf
+- Wakefit AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/81068e6f-c6c5-4dc7-a328-2541e01a9272.pdf
+- GNFC Q1 FY27 deck: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b84e1b0-ffdb-4261-bf98-7c9c33df0c82.pdf ; transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f211e2ca-f7f7-4f65-9bb8-7b868b93d349.pdf
+- TradeStat: https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_import
+- CBIC GST booklet 2017: https://cbic-gst.gov.in/pdf/goods-rates-booklet-03July2017.pdf
+- Polyol ADD 01/2026: https://taxguru.in/custom-duty/anti-dumping-duty-continued-flexible-slabstock-polyol-imports-saudi-arabia-uae.html
+- TDI ADD China/Japan/Korea (2022): https://antidumping.vn/india-extends-adds-on-tdi-imports-from-china-japan-south-korea-n24956.html ; DGTR initiations (30-Sep-2026): https://worldtradescanner.com/DGTR%20Issues%20Eight%20Initiation%20Notifications%20and%20One%20Final%20Findings%20in%20Three%20Days.htm
+- Somnigroup FY2025: https://www.boardroomalpha.com/sec/sgi-8-k-2026-02-17-0001206264-26-000008/sgireports4q2025results.htm
+- Sleep Number FY2025: https://s25.q4cdn.com/489093953/files/doc_news/Sleep-Number-Announces-Fourth-Quarter-and-Full-Year-2025-Results-2026.pdf
+- Anarock CY2025: https://www.businesstoday.in/real-estate/story/housing-sales-fall-14-in-2025-amid-sky-high-prices-it-layoffs-anarock-research-508242-2025-12-26
+- Wakefit IPO subscription (secondary): https://entrackr.com/news/wakefit-ipo-closes-with-252x-overall-subscription-10898950
+- IKEA India FY25 (secondary): https://ianslive.in/ikea-indias-loss-widens-to-rs-1325-crore-in-fy25-revenue-dips--20260204142638
+
+*End of Part 4.*
+
+# PART 5 — Orchestrator re-check of aggregates (2026-11-01, after applying Part 4 Supersedes)
+
+Every aggregate in §3.1–3.2 was re-added from the company rows: revenue 3,821 + 1,489 = 5,310; OP 395 + 186 = 581; PAT 161 + 189 = 350 (ex-DTA 161 + 91 = 252); Q1 FY27 revenue 1,032 + 405 = 1,437, PAT 62 + 23 = 85; m-cap 5,925 + 4,478 = 10,403; FY25 revenue 3,439 + 1,274 = 4,713; TTM revenue 1,252 + 1,495 + 1,394 + 1,437 = 5,578; TTM PAT 26 + 85 + 214 + 85 = 410. All are correct. Ratios check: 581/5,310 = 10.9%; 10,403/350 = 29.7×; 10,403/252 = 41.3×.
+
+Corrections:
+1. **§3.2(a) foam / non-mattress FY25:** 1,189 + 352 + 141 = **1,682** (not 1,681); growth 1,927/1,682 = +14.6% (unchanged).
+2. **§3.2(d) balance sheet — superseded by Part 4 #6.** Wakefit investable cash ₹958.6 Cr (Mar-26) replaces ₹323 Cr. **Pair: net CASH ≈ ₹416 Cr** (958.6 − 543 = 415.6), not net debt ₹220 Cr. Lease liabilities (Wakefit ₹272 Cr) are excluded from net debt on both sides, consistently.
+3. **EV (30-Oct-26):** Sheela 5,925 + 543 = 6,468 (16.4× FY26 screener OP of 395; 15.6× core EBITDA of 414). Wakefit 4,478 − 959 = **3,519** (18.9× FY26 screener OP of 186; 31.4× pre-lease operating EBITDA of 112). **Pair EV = 9,987; ÷ OP 581 = 17.2×** (replaces ₹10,623 Cr / 18.3×).
+4. **Q4 FY26 combined PAT 214** includes Wakefit's ₹98 Cr DTA credit AND ~₹16 Cr of Sheela exceptional gain; Sheela Q1 FY27 PAT 62 includes a ~₹6 Cr exceptional gain (Part 4 #5). Writer: state the PAT basis as "reported" and show the one-offs in a separate column or note.
+5. Sheela FY26 PAT 161 (screener, reported) includes the ₹7.93 Cr net exceptional gain for the year.
+6. Market share: use management's estimates (Sheela ~20%, Wakefit ~10% of the organised mattress market; Part 4 #18); drop "45–50% of organised".
