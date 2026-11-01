@@ -68,3 +68,7 @@
 - **MJP Q4-2026 $255** (down 35% QoQ): the first sign the Gulf premium is unwinding.
 
 *Part 4 compiled from primary documents saved in /tmp/aluminium-deep/dl (Hindalco, Novelis, NALCO, Ministry of Mines, govinfo); notes in /tmp/aluminium-deep/notes.md.*
+
+## primer-audit.mjs hard-check fails (2026-11-01; pre-existing, not fixed)
+- **hindalco.html:** ❌ banned phrase, "honest" > 1, USD in stat strip; no `main{min-width:0}` (phone overflow).
+- **national-aluminium.html:** ❌ banned phrase; no `main{min-width:0}` (phone overflow).
