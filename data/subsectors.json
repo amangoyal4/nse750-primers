@@ -2076,6 +2076,23 @@
         "KPI masterclass"
       ],
       "published": "2026-11-01"
+    },
+    {
+      "name": "Animal Feed & Aquaculture",
+      "slug": "animal-feed",
+      "file": "animal-feed.html",
+      "sector": "FMCG",
+      "subsector": "Animal Feed",
+      "companies": 2,
+      "accent": "#2F7F7F",
+      "hook": "A protein spread, taxed in Washington: how feed mills earn a few thousand rupees a tonne, why Avanti sells half of India's shrimp feed yet lost half its margin to the 2026 fishmeal shock, how four US duties reach an Andhra pond, and why Godrej Agrovet now earns more from oil palm than feed.",
+      "tags": [
+        "US shrimp duty stack",
+        "The 2026 fishmeal shock",
+        "Godrej Agrovet's reset",
+        "Feed KPI masterclass"
+      ],
+      "published": "2026-11-01"
     }
   ],
   "universe": [
@@ -2479,7 +2496,7 @@
       "sector": "FMCG",
       "sub": "Animal Feed",
       "companies": 2,
-      "report": null
+      "report": "animal-feed.html"
     },
     {
       "sector": "FMCG",
