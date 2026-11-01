@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CPaaS &amp; Enterprise Messaging — Sub-sector Report</title>
+<meta name="description" content="A complete guide to Indian CPaaS and enterprise messaging: how Tanla Platforms and Route Mobile earn a thin toll on SMS, WhatsApp and RCS traffic, who really owns the margin, the TRAI rulebook, the KPIs that matter, and what to watch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#875AC3;          /* messaging violet */
+    --brand-bright:#A47BE0;   /* the CPaaS accent */
+    --gold:#D4A23A;           /* amber - accent / warmth */
+    --wtg:#5B6FB5;            /* indigo */
+    --epc:#4F9E96;            /* teal */
+    --om:#3E4A8C;            /* navy */
+    --spec:#A47BE0;          /* light violet */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#875AC3,#A47BE0);}
+  .fill.gold{background:linear-gradient(90deg,#D4A23A,#E6BD62);}
+  .fill.wtg{background:linear-gradient(90deg,#5B6FB5,#7B8CCB);}
+  .fill.om{background:linear-gradient(90deg,#3E4A8C,#5C68AA);}
+  .fill.spec{background:linear-gradient(90deg,#A47BE0,#BE9CEC);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+</head>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">IT Enabled Services · CPaaS &amp; Enterprise Messaging</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> How a message makes money</a></li>
+    <li><a href="#p2"><span class="n">02</span> Size, growth &amp; the profit pool</a></li>
+    <li><a href="#p3"><span class="n">03</span> Who buys the messages</a></li>
+    <li><a href="#p4"><span class="n">04</span> Where ₹100 of billing goes</a></li>
+    <li><a href="#p5"><span class="n">05</span> Two landlords</a></li>
+    <li><a href="#p6"><span class="n">06</span> SMS to WhatsApp and RCS</a></li>
+    <li><a href="#p7"><span class="n">07</span> The regulator's rail</a></li>
+    <li><a href="#p8"><span class="n">08</span> The ILD profit pool collapses</a></li>
+    <li><a href="#p9"><span class="n">09</span> Structure &amp; consolidation</a></li>
+    <li><a href="#p10"><span class="n">10</span> Five business models</a></li>
+    <li><a href="#p11"><span class="n">11</span> Three cycles in twenty years</a></li>
+    <li><a href="#p12"><span class="n">12</span> Reading a CPaaS company: the KPIs</a></li>
+    <li><a href="#p13"><span class="n">13</span> The peer table</a></li>
+    <li><a href="#p14"><span class="n">14</span> Same pipe, different fates</a></li>
+    <li><a href="#p15"><span class="n">15</span> The vendor-advance problem</a></li>
+    <li><a href="#p16"><span class="n">16</span> Company profiles</a></li>
+    <li><a href="#p17"><span class="n">17</span> Cash, payouts &amp; the rupee</a></li>
+    <li><a href="#p18"><span class="n">18</span> The global lens</a></li>
+    <li><a href="#p19"><span class="n">19</span> AI: fraud shield or price deflator</a></li>
+    <li><a href="#p20"><span class="n">20</span> Bull vs bear</a></li>
+    <li><a href="#p21"><span class="n">21</span> What to watch</a></li>
+    <li><a href="#p22"><span class="n">22</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">IT Enabled Services · CPaaS &amp; Enterprise Messaging</span>
+    <span class="tag gold">2 listed companies</span>
+  </div>
+  <h1>Indian CPaaS: <em>a thin toll on every message</em></h1>
+  <p class="dek">A complete guide to the business of sending India's one-time passwords, bank alerts and marketing messages: how Tanla Platforms and Route Mobile earn a few paise on every SMS, WhatsApp and RCS message, why telcos, Meta and Google keep three-quarters of every rupee billed, how TRAI's rulebook is both a moat and a tax, and why two companies running the same pipe are heading in opposite directions.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹8,826 <small>Cr</small></div><div class="l">Combined FY26 revenue (2 listed)</div></div>
+    <div class="cell"><div class="v">₹2,182 <small>Cr</small></div><div class="l">Combined FY26 gross profit (24.7%)</div></div>
+    <div class="cell"><div class="v">~₹75</div><div class="l">Of every ₹100 billed, paid to telcos, Meta, Google</div></div>
+    <div class="cell"><div class="v">+25.3% <small>vs +5.4%</small></div><div class="l">Q2 FY27 revenue growth: Tanla vs Route</div></div>
+    <div class="cell"><div class="v">36.2%</div><div class="l">Tanla OTT share of revenue, Q2 FY27 (15% in FY24)</div></div>
+    <div class="cell"><div class="v">₹2,803 <small>Cr</small></div><div class="l">Combined cash, of ₹11,082 Cr m-cap</div></div>
+  </div>
+  <p class="prov">Basis: FY26 (year ended 31 Mar 2026) consolidated figures; Q1 FY27 (Apr–Jun 2026) and Q2 FY27 (Jul–Sep 2026) company filings of 23-Jul, 27-Oct and 28-Oct-2026; market data at the 30-Oct-2026 close. Revenue, operating profit and PAT from screener.in consolidated pages; gross profit, EBITDA, transactions and segment data from company letters, decks, transcripts and FY26 annual reports. Estimates, worked examples and single-source figures are labelled.</p>
+</header>
+
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: a toll road where the aggregator keeps the small change</h2></div>
+<p class="part-sub">Two listed companies route most of India's business messaging. They bill ₹8,826 crore a year and keep about a quarter of it.</p>
+
+<p class="lead">Every time a bank sends a one-time password, an airline sends a boarding update or a retailer pushes a sale offer, a message passes through a company most customers have never heard of. These companies are called CPaaS providers (communications platform as a service) or, in Indian regulatory language, aggregators and telemarketers. They connect thousands of enterprises to the telecom networks and messaging apps that actually deliver the message to a phone. India has two listed ones in the NSE 750: <strong>Tanla Platforms</strong>, the largest domestic aggregator, and <strong>Route Mobile</strong>, a global aggregator that has been 74.85% owned by Belgium's Proximus group since 2024.</p>
+
+<p>The business is easy to describe and hard to make rich. An enterprise pays the aggregator a price per message, around 13 to 20 paise for a domestic transactional SMS. The aggregator pays the terminating telco a fee for delivering it, around 10 to 15 paise. What is left, a paisa or three per message, has to pay for software, people, compliance and profit. Across FY26 the two listed companies billed a combined ₹8,826 crore, but their combined gross profit was only ₹2,182 crore (24.7%). Roughly ₹75 of every ₹100 they billed went straight out to Jio, Airtel, Vi, foreign mobile operators, Meta (for WhatsApp) and Google and the telcos (for RCS). This is the first fact to keep in mind: <strong>revenue in CPaaS is mostly a pass-through, and gross profit is the real size of the business</strong>.</p>
+
+<div class="chart">
+  <div class="c-title">Combined revenue of the listed CPaaS members, FY20 to TTM Sep-26</div>
+  <div class="c-sub">₹ crore, consolidated, sum of Tanla Platforms and Route Mobile (screener.in). TTM = Q3 FY26 to Q2 FY27. Full bar = ₹10,000 Cr</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY20</div><div class="track"><span class="fill ink" style="width:29%"></span></div><div class="bval">2,899</div></div>
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill wtg" style="width:37.5%"></span></div><div class="bval">3,747</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill wtg" style="width:52.1%"></span></div><div class="bval">5,208</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill wtg" style="width:69.2%"></span></div><div class="bval">6,924</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:79.5%"></span></div><div class="bval">7,951</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:86%"></span></div><div class="bval">8,604</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:88.3%"></span></div><div class="bval">8,826</div></div>
+    <div class="bar-row"><div class="blab">TTM Sep-26<small>Q3 FY26–Q2 FY27</small></div><div class="track"><span class="fill gold" style="width:94.5%"></span></div><div class="bval">9,446</div></div>
+  </div>
+  <div class="legend"><span>Revenue tripled between FY20 and FY26, but combined PAT went from ₹489 Cr (FY21) to only ₹766 Cr (FY26). Growth slowed to 2.6% in FY26 before Tanla re-accelerated in FY27.</span></div>
+</div>
+
+<h3>Eight forces shape this sub-sector</h3>
+<p>The rest of this report is organised around the forces that decide who earns what in Indian enterprise messaging. In order of importance:</p>
+<ul class="clean">
+  <li><strong>Channel migration and a change of landlord.</strong> Messages are moving from SMS to WhatsApp and RCS (rich business messaging in the phone's default app). The aggregator keeps the customer, but Meta and Google become price-setters next to the telcos. Tanla's OTT share (WhatsApp, RCS, Truecaller) rose from 15% of total revenue in FY24 to 36.2% in Q2 FY27.</li>
+  <li><strong>Telco pricing power over termination.</strong> Three private telcos deliver nearly every message and set the commercial A2P (application-to-person) fee. The aggregator's enterprise gross margin is pinned at about 18–20% as a result.</li>
+  <li><strong>Regulation as moat and tax.</strong> TRAI's DLT system, URL whitelisting, message traceability, the 140/1600 number series and the Third Amendment of September 2026 each add fixed compliance cost and push small operators out. Telcos received 31.1 lakh spam complaints in calendar 2025, most of them about unregistered senders.</li>
+  <li><strong>The collapse of the ILD OTP pool.</strong> International SMS into India (a Google or Meta login code sent to an Indian number) was the richest margin in the chain. AIT clean-ups, channel switching by global tech and a June 2025 DoT rule shrank it. Route's revenue per transaction fell from about 29.4 paise in FY25 to 24.8 paise in Q2 FY27.</li>
+  <li><strong>Consolidation into telcos and big platforms.</strong> Proximus bought Route (2024), Tata Communications bought Kaleyra (2023), Tanla bought ValueFirst from Twilio (2023 and 2026). A listed company that is 75% owned by a foreign telco trades at a structural discount.</li>
+  <li><strong>AI cuts both ways.</strong> It powers fraud prevention (Tanla's Wisely.ai) and conversational agents, but it also helps enterprises reach customers through cheaper channels and may shift pricing from per message to per outcome.</li>
+  <li><strong>Cash-rich balance sheets.</strong> The two companies hold ₹2,803 crore of cash against ₹11,082 crore of combined market value, so buybacks, dividends and acquisitions are a large part of the equity case.</li>
+  <li><strong>The rupee at about ₹94.9 per US dollar.</strong> Route earns about two-thirds of its revenue outside India, so a weak rupee flatters its reported growth.</li>
+</ul>
+
+<div class="chart">
+  <div class="c-title">Where the combined ₹100 of FY26 billing went</div>
+  <div class="c-sub">Tanla + Route consolidated, FY26. Gross profit is company-reported (₹2,182 Cr); operating profit is screener (₹1,268 Cr); the middle block is the difference</div>
+  <div class="stack-row"><div class="blab">Combined ₹100 billed</div><div class="stack"><span style="width:75.3%;background:var(--om)">Telcos, Meta 75.3</span><span style="width:10.3%;background:var(--ink-faint)">Own 10.3</span><span style="width:14.4%;background:var(--brand)">OP 14.4</span></div></div>
+  <div class="legend"><span><i style="background:var(--om)"></i>Termination and channel fees to telcos, foreign MNOs, Meta, Google (₹75.3)</span><span><i style="background:var(--ink-faint)"></i>People, platform, SG&amp;A (₹10.3)</span><span><i style="background:var(--brand)"></i>Operating profit before other income (₹14.4)</span></div>
+</div>
+
+<h3>Two companies, opposite directions</h3>
+<p>The single most striking fact about the sub-sector today is that its two members are moving apart. <strong>Tanla is re-accelerating.</strong> Its year-on-year revenue growth has risen for six straight quarters, from −0.8% in Q2 FY25 to +25.3% in Q2 FY27 (₹1,352 crore), driven by WhatsApp (volumes doubled year on year), wallet-share gains at large banks and two months of the newly acquired ValueFirst overseas business. Stripping out that acquisition, organic growth was still about 22.6% (ILLUSTRATIVE arithmetic: ₹13,517 mn less ₹285 mn, divided by ₹10,785 mn). <strong>Route is stagnating while repairing its margin.</strong> Q2 FY27 revenue rose 5.4% to ₹1,180 crore and gross profit 6.8%, but adjusted EBITDA fell 11.1% to ₹118 crore (10.0% margin) and the company's guidance of about 12% for FY27 now needs about 14% in the second half.</p>
+
+<div class="chart">
+  <div class="c-title">Q2 FY27 (Jul–Sep 2026): the same quarter, two different companies</div>
+  <div class="c-sub">Year-on-year change, %. Company-reported: Tanla EBITDA as reported; Route adjusted EBITDA. Route PAT not comparable (Q2 FY26 had a ₹135.87 Cr exceptional loss). Full bar = 30%</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Revenue<small>Tanla</small></div><div class="track"><span class="fill brand" style="width:84.3%"></span></div><div class="bval">+25.3%</div></div>
+    <div class="bar-row"><div class="blab">Revenue<small>Route</small></div><div class="track"><span class="fill gold" style="width:18%"></span></div><div class="bval">+5.4%</div></div>
+    <div class="bar-row"><div class="blab">Gross profit<small>Tanla</small></div><div class="track"><span class="fill brand" style="width:77%"></span></div><div class="bval">+23.1%</div></div>
+    <div class="bar-row"><div class="blab">Gross profit<small>Route</small></div><div class="track"><span class="fill gold" style="width:22.7%"></span></div><div class="bval">+6.8%</div></div>
+    <div class="bar-row"><div class="blab">EBITDA<small>Tanla</small></div><div class="track"><span class="fill brand" style="width:69.3%"></span></div><div class="bval">+20.8%</div></div>
+    <div class="bar-row"><div class="blab">Adj. EBITDA<small>Route</small></div><div class="track"><span class="fill bad" style="width:37%"></span></div><div class="bval">−11.1%</div></div>
+  </div>
+  <div class="legend"><span>Red bar = decline. Tanla grew profit in step with revenue; Route's extra gross profit was absorbed by higher salaries, legal and professional fees and cyber-incident remediation costs.</span></div>
+</div>
+
+<p>The stock market has priced the divergence sharply. At the 30-Oct-2026 close, Tanla (₹627 a share, ₹8,318 crore market value) traded at 15.0 times trailing earnings, near its 52-week high. Route (₹439, ₹2,764 crore) traded at about 7.5 times trailing reported earnings and 0.95 times book value, near its 52-week low and 38% down over a year. Route's ₹1,356 crore of cash is 49% of its market value; its enterprise value is about 2.8 times trailing adjusted EBITDA. The market is treating Tanla as a cash-rich platform that has found growth again and Route as a controlled subsidiary with an accounting-quality question (the vendor advances of Section 15) and a shrinking international profit pool (Section 8).</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>A CPaaS company is a broker of delivery. It takes a message from a bank, checks it against the rules, chooses the cheapest reliable route and hands it to the telco or WhatsApp. The telco or Meta keeps most of the money. The broker earns a small fee on a very large number of messages, so a one-paisa change in what the telco charges can wipe out a third of its profit on that message. The companies that do well either own something the telcos need (Tanla's anti-spam and registry software) or move up into software their customers pay for separately.</p>
+</div>
+
+<div class="mini-stats">
+  <div class="ms"><div class="msv">₹1,268 Cr</div><div class="msl">Combined FY26 operating profit (screener), 14.4% of revenue and 58% of gross profit</div></div>
+  <div class="ms gold"><div class="msv">12.0×</div><div class="msl">Combined trailing P/E: ₹11,082 Cr m-cap ÷ ₹922 Cr TTM PAT (reported, incl. minority interest)</div></div>
+  <div class="ms red"><div class="msv">6.4×</div><div class="msl">Combined EV ÷ LTM company EBITDA: ₹8,393 Cr ÷ ₹1,307.9 Cr</div></div>
+</div>
+
+<p>Four numbers explain most of what follows. First, Tanla's Digital Platforms business line (the Trubloq registry, Wisely.ai anti-scam and related software sold to telcos and banks) earned a 98.5% gross margin in FY26 on ₹395 crore of revenue: 8.9% of Tanla's revenue but a third of its gross profit. Second, Route's gross profit per billable transaction was 5.55 paise in Q2 FY27, against 6.10 paise in FY25. Third, Route's largest customer relationship is its own sister company: Telesign, part of Proximus Global, bought ₹658.6 crore of messaging from Route in FY26, 14.9% of revenue. Fourth, Meta's India rate card prices a WhatsApp marketing message at ₹0.8631 and a utility or authentication message at ₹0.1150, a 7.5-fold gap that shapes how fast WhatsApp revenue grows.</p>
+
+<p>For readers new to the sub-sector, the most useful single habit is to read every CPaaS result from the gross-profit line down, not from revenue. A revenue beat can come from low-margin one-off campaigns (Tanla's Q2 FY27 letter mentions "one-time campaigns from select customers"), from a weaker rupee, or from a channel whose fee is mostly passed through to Meta. Gross profit, gross profit per message and the share of gross profit that survives to EBITDA tell you whether the business actually got better.</p>
+
+<p>Results status as of 1-Nov-2026: both companies have reported Q2 FY27 (quarter to 30-Sep-2026), on 27-Oct-2026. Route held its call on 28-Oct-2026, with only an audio recording filed so far. Tanla has not filed transcripts for its July or October calls, so its latest management commentary comes from the 27-Apr-2026 call and the Q2 FY27 shareholder letter. The next results, for Q3 FY27 (December 2026 quarter), are due in late January 2027. Related reports: <a href="telecom-operators.html">Telecom operators</a> (the telcos that set termination fees, including Jio, whose parent's IPO priced at ₹1,065–1,119 in October 2026), <a href="it-services.html">IT services</a>, <a href="software-products.html">Software products</a> and <a href="bpo-kpo.html">BPO &amp; KPO</a>.</p>
+</section>
+
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>How a message makes money: from a bank's server to your phone in two seconds</h2></div>
+<p class="part-sub">The value chain has five links. The aggregator sits in the middle and is squeezed from both ends.</p>
+
+<p>An enterprise message in India travels through a chain that TRAI designed in 2018. The bank, retailer or government department is called the <strong>principal entity</strong> (PE). It registers itself, its sender IDs ("headers", such as HDFCBK) and every message template on a telco's distributed-ledger platform (DLT). It then hires one or more <strong>telemarketers</strong>, the regulatory name for aggregators such as Tanla's Karix and ValueFirst units, Route, Kaleyra, Gupshup, Infobip and Sinch's Indian arm. The aggregator integrates with the enterprise's systems through an API or the SMPP protocol, chooses a route, tags each message with the PE identity, template ID and the declared PE-to-telemarketer chain, and hands it to the terminating telco. The telco's DLT system checks the message against the registered header, template, URL whitelist and consent records, accepts or rejects it, and delivers it to the handset. The telco then charges the aggregator a termination fee.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The domestic A2P SMS value chain: who touches the message and who gets paid</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Step 1 · Sender</div><div class="nname">Principal entity</div><div class="nwho">Bank, fintech, e-commerce, government. Registers headers, templates and consent on DLT. Pays the aggregator ~13–20p per SMS.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Step 2 · Broker</div><div class="nname">Aggregator / telemarketer</div><div class="nwho">Tanla (Karix, ValueFirst), Route, Kaleyra, Gupshup. API, routing, failover, compliance tags, billing. Keeps ~1.5–4p.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Step 3 · Gatekeeper</div><div class="nname">DLT scrubbing</div><div class="nwho">Telco's ledger (Tanla's Trubloq is one) checks header, template, URL and consent in real time. Telco pays the platform.</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Step 4 · Toll</div><div class="nname">Terminating telco</div><div class="nwho">Jio, Airtel, Vi, BSNL deliver to the handset and charge the A2P termination fee, ~10–15p (vendor quotes).</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Step 5 · Receiver</div><div class="nname">Consumer's phone</div><div class="nwho">Complaints go to 1909 or the DND app, then to the telco's UCC system and penalties on senders.</div></div>
+  </div>
+  <div class="flow-note">INDICATIVE prices from vendor quotes and analyst discussion on company calls; no telco publishes an A2P rate card. The aggregator is the only link without pricing power over the link next to it.</div>
+</div>
+
+<p>The products are wider than SMS. The table below lists the channels and who pays whom. The key point is that each channel has a different "landlord". On SMS the landlord is the terminating telco. On WhatsApp it is Meta, which publishes a per-message rate card. On RCS (rich communication services, the branded messaging built into Google Messages and, since 2024, Apple's iMessage on Android-compatible networks) it is a mix of the telco and Google. On international traffic it is the foreign mobile operator. Only on one product line, the software that telcos and banks buy to police the traffic, does the aggregator get paid by the landlord rather than paying it.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Products and channels in Indian enterprise messaging</caption>
+    <thead><tr><th>Product / channel</th><th>What it is</th><th>Who pays whom</th><th>Listed members</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">A2P SMS, transactional and service</td><td>OTPs, debit alerts, statements; DLT-registered template from a registered header</td><td>Enterprise → aggregator per SMS; aggregator → terminating telco</td><td>Tanla (Karix, ValueFirst), Route</td></tr>
+      <tr><td class="t-strong">A2P SMS, promotional</td><td>Marketing SMS under DND and consent rules, numeric headers, time windows</td><td>Same chain; lower price, higher complaint risk</td><td>Both</td></tr>
+      <tr><td class="t-strong">ILD A2P SMS into India</td><td>Foreign-originated OTP or alert to an Indian number, e.g. a global tech login code</td><td>Global enterprise or foreign CPaaS → Indian aggregator → telco at the international rate</td><td>Route (historically large); Tanla</td></tr>
+      <tr><td class="t-strong">International SMS abroad</td><td>Termination in other countries through direct operator connections and hubs</td><td>Enterprise → Route → foreign operator</td><td>Route (about 65% of revenue terminates outside India); Tanla small (ValueFirst Middle East and South-East Asia from Aug-2026)</td></tr>
+      <tr><td class="t-strong">WhatsApp Business Platform</td><td>Aggregator acts as a business solution provider (BSP); per-message fees by category</td><td>Enterprise → BSP (Meta fee plus markup) → Meta</td><td>Both; Tanla's WhatsApp volumes doubled year on year in Q2 FY27</td></tr>
+      <tr><td class="t-strong">RCS business messaging</td><td>Branded, rich SMS-style messages in the default messaging app</td><td>Enterprise → aggregator → telco and Google</td><td>Tanla (MaaP platform for telcos), Route</td></tr>
+      <tr><td class="t-strong">DLT platform (Trubloq)</td><td>Blockchain ledger of entities, headers, templates and consent; scrubs commercial traffic for telcos</td><td>Telco → Tanla, a platform fee per scrubbed transaction</td><td>Tanla only</td></tr>
+      <tr><td class="t-strong">Anti-scam AI (Wisely.ai, Wisely ATP)</td><td>Real-time inspection of messages; drops scam messages in under 50 milliseconds</td><td>Telco (Indosat, 100 mn users) or bank → Tanla; ATP priced per protected subscriber per month</td><td>Tanla</td></tr>
+      <tr><td class="t-strong">SMS and voice firewalls</td><td>Telco-side filter that blocks grey routes and forces traffic onto paid routes</td><td>Telco ↔ Route, managed service or revenue share</td><td>Route (12 firewalls deployed)</td></tr>
+      <tr><td class="t-strong">Network APIs, identity, conversational AI</td><td>Silent number verification, SIM-swap checks, bots and agents on WhatsApp and RCS</td><td>Enterprise → platform, per call or subscription</td><td>Route (Heltar, Jul-2026; Telesign links); Tanla (Karix AI)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<p>Prices differ enormously by channel, which is why channel mix moves both revenue and margin. Meta's own India rate card, effective 1-Oct-2026, sets the floor for WhatsApp. Jio's new RCS business tariff from 1-Sep-2026 sets the reference for RCS. Domestic SMS has no public price list, so the figures below for SMS are vendor quotes and must be read as INDICATIVE.</p>
+
+<div class="chart">
+  <div class="c-title">What a business message costs in India, by channel</div>
+  <div class="c-sub">₹ per delivered message, ex-GST, late 2026. WhatsApp from Meta's INR rate card (eff. 1-Oct-2026); RCS from Jio's tariff emails as reported (single secondary source, 9-Sep-2026); SMS from vendor quotes (INDICATIVE). Ranges shown at midpoint. Full bar = ₹1.00</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">WhatsApp marketing<small>Meta, from 1-Jan-2026</small></div><div class="track"><span class="fill brand" style="width:86.3%"></span></div><div class="bval">₹0.8631</div></div>
+    <div class="bar-row"><div class="blab">RCS marketing<small>Jio, from 1-Sep-2026</small></div><div class="track"><span class="fill spec" style="width:28.5%"></span></div><div class="bval">₹0.27–0.30</div></div>
+    <div class="bar-row"><div class="blab">RCS utility<small>Jio, from 1-Sep-2026</small></div><div class="track"><span class="fill spec" style="width:25%"></span></div><div class="bval">₹0.25</div></div>
+    <div class="bar-row"><div class="blab">Domestic DLT SMS<small>retail delivered, vendor quote</small></div><div class="track"><span class="fill om" style="width:14%"></span></div><div class="bval">₹0.10–0.18</div></div>
+    <div class="bar-row"><div class="blab">RCS OTP<small>Jio, from 1-Sep-2026</small></div><div class="track"><span class="fill spec" style="width:13.5%"></span></div><div class="bval">₹0.11–0.16</div></div>
+    <div class="bar-row"><div class="blab">WhatsApp utility / auth<small>Meta list rate</small></div><div class="track"><span class="fill brand" style="width:11.5%"></span></div><div class="bval">₹0.1150</div></div>
+    <div class="bar-row"><div class="blab">WhatsApp utility<small>100–200 mn/month tier</small></div><div class="track"><span class="fill brand" style="width:9.4%"></span></div><div class="bval">₹0.0943</div></div>
+  </div>
+  <div class="legend"><span>Before 1-Sep-2026 Jio charged a flat ₹0.08–0.10 for all RCS business messages. WhatsApp authentication for an overseas business messaging an Indian user costs ₹2.4971, off this scale.</span></div>
+</div>
+
+<p>Two features of the chain matter most for investors. The first is that <strong>the aggregator is the only link with no natural monopoly</strong>. The enterprise can split its traffic across several aggregators (large banks routinely use three or four), the telco controls the last mile, and Meta controls the WhatsApp app. The aggregator competes on reliability, delivery speed, compliance tooling and price, which keeps its take thin. The second is that <strong>the regulator has made the chain longer and stricter</strong>, and that favours scale. Since December 2024 every message must carry a declared PE-to-telemarketer chain, and a message with an undeclared chain is rejected. That ended the anonymous resale of traffic through layers of small brokers and pushed volume toward aggregators with direct telco connections, large compliance teams and bank guarantees already lodged with the telcos.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">A WhatsApp business message: same customer, different landlord</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Pays</div><div class="nname">Enterprise</div><div class="nwho">Chooses a template category: marketing, utility, authentication or service.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Collects</div><div class="nname">BSP (Tanla, Route)</div><div class="nwho">Bills Meta's fee plus a markup, often a few paise, plus platform or journey fees.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Sets the price</div><div class="nname">Meta</div><div class="nwho">₹0.8631 marketing; ₹0.1150 utility and authentication; tiered discounts at volume; INR billing mandatory by 31-Dec-2026.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Receives</div><div class="nname">WhatsApp user</div><div class="nwho">Needs the app and an opt-in. Richer format, read receipts, buttons, payments.</div></div>
+  </div>
+  <div class="flow-note">On WhatsApp the aggregator's revenue includes Meta's fee, so a growing WhatsApp mix inflates revenue faster than gross profit. Neither listed company discloses its OTT gross margin.</div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The aggregator is a middleman between thousands of businesses and a handful of networks. The businesses can switch brokers, and the networks set their own prices. What lets a broker earn more than a sliver is scale (better rates and guarantees with telcos), compliance (the rules now reject sloppy traffic), and products sold on top of the pipe. Tanla has an unusual extra: it also sells the rule-checking software to the telcos themselves.</p>
+</div>
+
+<p>One last piece of plumbing explains a lot of accounting. Telcos ask aggregators for bank guarantees or prepayments before they grant termination capacity at good rates. Tanla had ₹189.3 crore of bank guarantees outstanding at 31-Mar-2026, and Route ₹225.7 crore. Route also prepays some vendors for committed volumes, and in FY26 it wrote off ₹135.87 crore of such advances after volumes fell short. The supply chain therefore turns part of the aggregator's balance sheet into a credit exposure to telcos and other vendors, a theme Section 15 covers in detail.</p>
+</section>
+
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>Size, growth and the profit pool: a ₹11,000–14,000 crore market that keeps about ₹3,000 crore</h2></div>
+<p class="part-sub">Market-research numbers overstate the market two to three times. The useful figure is gross profit, and the listed pair hold a large share of it.</p>
+
+<p>There is no official measure of the Indian enterprise-messaging market. TRAI publishes complaint data but not A2P volumes, and the market-research estimates in circulation disagree by a factor of three. One firm puts the "India A2P messaging market" at US$4.69 billion in 2025 (about ₹44,500 crore at ₹94.9 per dollar), another at US$3.02 billion (about ₹28,700 crore), and a third puts the narrower "India CPaaS market" at about US$1.40 billion (about ₹13,300 crore). The larger estimates cannot be reconciled with the revenue of the companies that actually carry the traffic and should not be used.</p>
+
+<p>A bottom-up estimate is more defensible. Tanla's India-billed revenue was ₹3,248.5 crore in FY26 (73.5% of its total, by customer location in the audited accounts), and CARE Ratings credits Tanla with about 35% of India's CPaaS segment by volume. Grossing up gives a domestic enterprise-messaging spend in the region of ₹11,000–14,000 crore a year, including the telco and Meta fees that pass through. At a blended gross margin of 22–25%, the <strong>profit pool available to all aggregators is roughly ₹2,500–3,500 crore</strong>. Both numbers are ILLUSTRATIVE estimates built from company data and should be read as ranges.</p>
+
+<div class="chart">
+  <div class="c-title">How big is Indian enterprise messaging? Five estimates, one useful</div>
+  <div class="c-sub">₹ crore. Third-party estimates converted at ₹94.9/US$; bottom-up gross spend and profit pool are ILLUSTRATIVE estimates built from Tanla and Route data (midpoints shown). Full bar = ₹45,000 Cr</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">"A2P messaging" 2025<small>Market Research Future</small></div><div class="track"><span class="fill ink" style="width:98.9%"></span></div><div class="bval">~44,500</div></div>
+    <div class="bar-row"><div class="blab">"A2P messaging" 2025<small>Expert Market Research</small></div><div class="track"><span class="fill ink" style="width:63.8%"></span></div><div class="bval">~28,700</div></div>
+    <div class="bar-row"><div class="blab">"CPaaS" 2025<small>Expert Market Research</small></div><div class="track"><span class="fill wtg" style="width:29.6%"></span></div><div class="bval">~13,300</div></div>
+    <div class="bar-row"><div class="blab">Bottom-up gross spend FY26<small>ILLUSTRATIVE</small></div><div class="track"><span class="fill brand" style="width:27.8%"></span></div><div class="bval">11,000–14,000</div></div>
+    <div class="bar-row"><div class="blab">Aggregator profit pool<small>ILLUSTRATIVE gross profit</small></div><div class="track"><span class="fill gold" style="width:6.7%"></span></div><div class="bval">2,500–3,500</div></div>
+  </div>
+  <div class="legend"><span>The market-research figures are two to three times the bottom-up spend. For investors the relevant number is the gross-profit pool, of which Tanla's India-billed gross profit is the largest single share.</span></div>
+</div>
+
+<p>Volume is even less certain. A vendor estimate puts commercial SMS at more than 40 billion messages a month, and Tanla's FY26 annual report says Wisely.ai scans more than 500 billion messages a year across SMS, WhatsApp and voice, including in Indonesia. Together these support an INDICATIVE order of magnitude of about 450–700 billion commercial messages a year in India. No regulator series exists, so this report does not chart a volume history. What can be said is that Indian prices are among the lowest in the world: a domestic SMS at about ₹0.12 is roughly a tenth of a US cent, against a global average international termination rate of about US$0.10 in early 2025 (mobilesquared). India is therefore perhaps 4–5% of global CPaaS revenue (INDICATIVE) but a much larger share of global message volume.</p>
+
+<h3>Growth: a boom, a squeeze and a split</h3>
+<p>Using the two listed members as a proxy for the market, the sub-sector has had three phases. From FY20 to FY22, the digital-payments and e-KYC boom drove combined revenue up about 34% a year: UPI, card tokenisation, e-commerce and the March 2021 enforcement of DLT scrubbing all multiplied OTP and alert volumes. From FY23 to FY25, volumes kept growing but prices fell, and revenue growth slowed from 33% to 8%. Tanla's profit peaked in FY22 (₹539 crore) and Route's in FY24 (₹389 crore). In FY26, combined revenue grew only 2.6%: Tanla +9.7% and Route −3.7% as Route lost international OTP traffic.</p>
+
+<div class="chart">
+  <div class="c-title">Combined revenue growth has decelerated every year since FY22</div>
+  <div class="c-sub">Year-on-year growth in combined consolidated revenue of Tanla + Route, % (screener.in). H1 FY27 is company-reported versus H1 FY26. Full bar = 40%</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill wtg" style="width:72.5%"></span></div><div class="bval">+29.3%</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill wtg" style="width:97.5%"></span></div><div class="bval">+39.0%</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill wtg" style="width:82.3%"></span></div><div class="bval">+32.9%</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:37%"></span></div><div class="bval">+14.8%</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:20.5%"></span></div><div class="bval">+8.2%</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill bad" style="width:6.5%"></span></div><div class="bval">+2.6%</div></div>
+    <div class="bar-row"><div class="blab">H1 FY27<small>Apr–Sep 2026</small></div><div class="track"><span class="fill gold" style="width:36.3%"></span></div><div class="bval">+14.5%</div></div>
+  </div>
+  <div class="legend"><span>H1 FY27: Tanla +21.7% (₹2,578 Cr), Route +7.4% (₹2,331 Cr), combined ₹4,909 Cr versus ₹4,289 Cr.</span></div>
+</div>
+
+<p>The more important trend is what happened below revenue. Between FY22 and FY26 combined revenue grew at a 14.1% compound rate, but combined operating profit grew at only 8.3% and combined PAT at 1.9%. Revenue almost doubled while profit barely moved. This is the "take-rate squeeze": the aggregators carried far more traffic but kept a smaller share of each rupee, as telcos raised termination fees, rich international traffic shrank and WhatsApp, with Meta's fee inside revenue, grew in the mix.</p>
+
+<div class="chart">
+  <div class="c-title">Revenue doubled, profit stalled: combined operating profit and PAT, FY22–FY26</div>
+  <div class="c-sub">₹ crore, consolidated, Tanla + Route (screener.in). PAT is reported, including minority interest; FY26 includes Route's ₹135.87 Cr pre-tax exceptional write-off. Full bar = ₹1,400 Cr</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22<small>OP / PAT</small></div><div class="track"><span class="fill brand" style="width:65.9%"></span></div><div class="bval">922 / 709</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill brand" style="width:73.9%"></span></div><div class="bval">1,035 / 781</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill brand" style="width:89.2%"></span></div><div class="bval">1,249 / 937</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:87.2%"></span></div><div class="bval">1,221 / 841</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:90.6%"></span></div><div class="bval">1,268 / 766</div></div>
+  </div>
+  <div class="legend"><span>Bar = operating profit. Combined OP margin fell from 17.7% (FY22) to 14.4% (FY26); PAT margin from 13.6% to 8.7% (9.8% excluding Route's exceptional).</span></div>
+</div>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Combined five-year history (₹ crore; straight sums of the two companies, screener consolidated; GP company-reported)</caption>
+    <thead><tr><th>Year</th><th class="num">Tanla revenue</th><th class="num">Route revenue</th><th class="num">Combined revenue</th><th class="num">YoY</th><th class="num">Combined OP</th><th class="num">OPM</th><th class="num">Combined PAT (reported)</th><th class="num">Combined GP</th><th class="num">GM</th></tr></thead>
+    <tbody>
+      <tr><td>FY21</td><td class="num">2,341</td><td class="num">1,406</td><td class="num">3,747</td><td class="num">+29.3%</td><td class="num">610</td><td class="num">16.3%</td><td class="num">489</td><td class="num">n/d</td><td class="num">—</td></tr>
+      <tr><td>FY22</td><td class="num">3,206</td><td class="num">2,002</td><td class="num">5,208</td><td class="num">+39.0%</td><td class="num">922</td><td class="num">17.7%</td><td class="num">709</td><td class="num">n/d</td><td class="num">—</td></tr>
+      <tr><td>FY23</td><td class="num">3,355</td><td class="num">3,569</td><td class="num">6,924</td><td class="num">+32.9%</td><td class="num">1,035</td><td class="num">14.9%</td><td class="num">781</td><td class="num">n/d</td><td class="num">—</td></tr>
+      <tr><td>FY24</td><td class="num">3,928</td><td class="num">4,023</td><td class="num">7,951</td><td class="num">+14.8%</td><td class="num">1,249</td><td class="num">15.7%</td><td class="num">937</td><td class="num">n/d</td><td class="num">—</td></tr>
+      <tr><td>FY25</td><td class="num">4,028</td><td class="num">4,576</td><td class="num">8,604</td><td class="num">+8.2%</td><td class="num">1,221</td><td class="num">14.2%</td><td class="num">841</td><td class="num">~2,002</td><td class="num">23.3%</td></tr>
+      <tr><td>FY26</td><td class="num">4,418</td><td class="num">4,408</td><td class="num">8,826</td><td class="num">+2.6%</td><td class="num">1,268</td><td class="num">14.4%</td><td class="num">766</td><td class="num">2,182</td><td class="num">24.7%</td></tr>
+      <tr><td>TTM Sep-26</td><td class="num">4,877</td><td class="num">4,569</td><td class="num">9,446</td><td class="num">—</td><td class="num">1,301</td><td class="num">13.8%</td><td class="num">922</td><td class="num">2,346</td><td class="num">24.8%</td></tr>
+    </tbody>
+  </table>
+</div>
+<p>Notes to the table: FY25 combined gross profit includes an estimated ₹1,051 crore for Tanla (its company letters for that year were not summed), so it is INDICATIVE. Owners' PAT in FY26 was ₹748 crore (Route's PAT attributable to owners was ₹239 crore after ₹17.9 crore of minority interest). Gross profit grew 9.0% in FY26 on revenue growth of only 2.6%, the first sign that the mix was turning in the aggregators' favour.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>The headline "market size" numbers for Indian messaging are mostly noise. What matters is that businesses spend somewhere around ₹11,000–14,000 crore a year to send messages, most of which goes to telcos and Meta, and that all the aggregators together keep about ₹3,000 crore of it. The two listed companies' combined gross profit of ₹2,182 crore includes a lot of non-Indian business at Route, but Tanla alone holds a large slice of the Indian pool.</p>
+</div>
+
+<p>Management's own view of growth is modest. On the 27-Apr-2026 call, Tanla's executive director put industry CPaaS revenue growth at about 8–10% a year and said Tanla expects to grow "definitely more than 10%" by gaining share. Tanla gives no numeric guidance, and every shareholder letter repeats that it "does not provide any guidance". Route guided for "mid to high single digit" revenue growth in FY27. H1 FY27 delivered +21.7% at Tanla (helped by WhatsApp and the ValueFirst overseas acquisition) and +7.4% at Route, so the market is growing roughly as management described while Tanla takes share.</p>
+</section>
+
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>Who buys the messages: 250 enterprises, banks first, global tech leaving</h2></div>
+<p class="part-sub">Demand is concentrated in a few hundred large senders. Banks are growing; global technology companies are moving their OTPs elsewhere.</p>
+
+<p>Enterprise messaging demand in India is far more concentrated than the number of senders suggests. More than 3 lakh principal entities are registered on DLT, but Tanla's management said on its April 2026 call that <strong>75–80% of Indian enterprise CPaaS spend comes from the top ~250 customers</strong>, with the remaining 15–20% spread across a tail of 50,000–60,000 businesses. Tanla says it is present at about 80% of those top accounts and is competing for wallet share inside them. New logos named on that call included the Reserve Bank of India and Bank of Baroda, and at one of the largest e-commerce companies Tanla's wallet share passed 50% once OTT channels were added.</p>
+
+<p>The six demand pools, in order of size:</p>
+<ul class="clean">
+  <li><strong>Banking, financial services and insurance (BFSI).</strong> OTPs for UPI, cards and net banking, mandatory debit alerts, statements and collections. This is the anchor. Tanla's 22 customers billed at more than ₹50 crore a year grew 42.5% year on year in Q2 FY27, "with BFSI customers driving growth". FinServ was Route's largest vertical at 15% of FY26 revenue. BFSI also buys fraud protection: a top-five private bank using Wisely ATP blocked 91 million scam messages in FY26 across 21 million customers.</li>
+  <li><strong>Global technology and digital natives.</strong> Google, Meta, Microsoft, Amazon, Uber and others send login codes to Indian numbers, mostly as international (ILD) traffic. This was the richest and most volatile pool. Route's "digital native" vertical fell from 22% of revenue in FY24 to 11% in FY26 after "a specific US headquartered customer switched to alternate channels of communication".</li>
+  <li><strong>E-commerce, logistics, quick commerce and travel.</strong> Order and delivery notifications, increasingly on WhatsApp utility messages. Route's e-commerce share fell from 10% (FY24) to 4% (H1 FY27) after losing ILD traffic from a global major.</li>
+  <li><strong>Government and public services.</strong> Aadhaar, DigiLocker, IRCTC and tax OTPs. Tanla described Government volumes as small and price-sensitive; PSU banks are "a very good share" of volume.</li>
+  <li><strong>Telecom operators as customers.</strong> They buy DLT platforms (Trubloq), anti-spam (Wisely at Indosat) and firewalls (Route has 12 deployed). Demand here is driven by regulation and fraud, not by message volume.</li>
+  <li><strong>Conversational commerce and AI agents.</strong> Catalogues, bots and agents on WhatsApp and RCS, priced by subscription or outcome. Real but small: Route paid ₹33.7 crore for Heltar's AI customer-engagement business in July 2026.</li>
+</ul>
+
+<div class="chart">
+  <div class="c-title">Route Mobile's revenue by vertical: digital natives halved in two years</div>
+  <div class="c-sub">% of revenue, FY24 → FY26 (H1 FY27 where shown), read from company presentation charts (±1–2 pts). Full bar = 25%</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Digital native<small>FY24</small></div><div class="track"><span class="fill ink" style="width:88%"></span></div><div class="bval">22%</div></div>
+    <div class="bar-row"><div class="blab">Digital native<small>FY26</small></div><div class="track"><span class="fill bad" style="width:44%"></span></div><div class="bval">11%</div></div>
+    <div class="bar-row"><div class="blab">FinServ<small>FY24</small></div><div class="track"><span class="fill ink" style="width:56%"></span></div><div class="bval">14%</div></div>
+    <div class="bar-row"><div class="blab">FinServ<small>FY26</small></div><div class="track"><span class="fill brand" style="width:60%"></span></div><div class="bval">15%</div></div>
+    <div class="bar-row"><div class="blab">E-commerce<small>FY24</small></div><div class="track"><span class="fill ink" style="width:40%"></span></div><div class="bval">10%</div></div>
+    <div class="bar-row"><div class="blab">E-commerce<small>H1 FY27</small></div><div class="track"><span class="fill bad" style="width:16%"></span></div><div class="bval">4%</div></div>
+    <div class="bar-row"><div class="blab">Telecom &amp; allied<small>FY24</small></div><div class="track"><span class="fill ink" style="width:8%"></span></div><div class="bval">2%</div></div>
+    <div class="bar-row"><div class="blab">Telecom &amp; allied<small>H1 FY27</small></div><div class="track"><span class="fill brand" style="width:36%"></span></div><div class="bval">9%</div></div>
+  </div>
+  <div class="legend"><span>Tier-1 CPaaS partners (other CPaaS companies sending traffic through Route) were steady at 9–10%. The rest of revenue is not assigned to a named vertical in the presentation.</span></div>
+</div>
+
+<p>The shift out of global tech is not a temporary loss of a customer. It reflects a structural move by the largest senders toward cheaper ways of proving identity: app push notifications, passkeys, WhatsApp authentication at ₹0.115 (or less at volume) and silent network verification through operator APIs. An international SMS into India costs the sender a multiple of a domestic SMS. For a company sending hundreds of millions of login codes a month, switching even a third of them to an app channel saves real money, and the CPaaS aggregator that carried the SMS loses the revenue whether or not it also sells the replacement.</p>
+
+<div class="chart">
+  <div class="c-title">Tanla's revenue by customer size, Q2 FY27</div>
+  <div class="c-sub">Share of Q2 FY27 revenue (₹13,517 mn) by customer cohort, classified by annualised billing. Company shareholder letter, 27-Oct-2026</div>
+  <div class="stack-row"><div class="blab">Q2 FY27 revenue</div><div class="stack"><span style="width:43.1%;background:var(--brand)">&gt;₹50 Cr 43%</span><span style="width:33.6%;background:var(--wtg)">₹10–50 Cr 34%</span><span style="width:19.4%;background:var(--epc)">₹1–10 Cr 19%</span><span style="width:3.9%;background:var(--ink-faint)"></span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>22 customers above ₹50 Cr a year: ₹5,826 mn, +42.5% YoY</span><span><i style="background:var(--wtg)"></i>80 customers ₹10–50 Cr: ₹4,546 mn, +10.8%</span><span><i style="background:var(--epc)"></i>318 customers ₹1–10 Cr: ₹2,625 mn, +15.2%</span><span><i style="background:var(--ink-faint)"></i>Below ₹1 Cr: ~₹520 mn (4%)</span></div>
+</div>
+
+<p>Concentration is high at both companies, and measured differently. CARE Ratings reports that 19 customers accounted for 41% of Tanla's FY25 revenue and 46% of its revenue in the first nine months of FY26. Tanla's own cohort disclosure shows 22 customers at about 43% in Q2 FY27, and that 12 of the previous year's top 20 customers stayed in the top 20 (the other 8 are within the top 30). Route's top 10 customers were 42% of H1 FY27 revenue, its top 5 were 32% and its top 50 were 75%; its top-10 share has moved between 43% and 48% over three years. Route's single largest customer relationship is very likely its sister company Telesign (₹658.6 crore, 14.9% of FY26 revenue), which changes how that concentration should be read: it is less likely to walk away, but its pricing is set by an intra-group agreement rather than by the market.</p>
+
+<div class="chart">
+  <div class="c-title">Customer concentration: how much revenue the biggest accounts carry</div>
+  <div class="c-sub">% of revenue. Route: top 5 / 10 / 50 customers, H1 FY27 and top 10 history (company presentations, chart-read). Tanla: CARE Ratings (19 customers) and company cohort (22 customers &gt;₹50 Cr a year). Full bar = 80%</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Route top 5<small>H1 FY27</small></div><div class="track"><span class="fill gold" style="width:40%"></span></div><div class="bval">32%</div></div>
+    <div class="bar-row"><div class="blab">Route top 10<small>FY24 / FY25 / FY26</small></div><div class="track"><span class="fill ink" style="width:60%"></span></div><div class="bval">44 / 48 / 43%</div></div>
+    <div class="bar-row"><div class="blab">Route top 10<small>H1 FY27</small></div><div class="track"><span class="fill gold" style="width:52.5%"></span></div><div class="bval">42%</div></div>
+    <div class="bar-row"><div class="blab">Route top 50<small>H1 FY27</small></div><div class="track"><span class="fill gold" style="width:93.8%"></span></div><div class="bval">75%</div></div>
+    <div class="bar-row"><div class="blab">Tanla 19 customers<small>9M FY26, CARE</small></div><div class="track"><span class="fill brand" style="width:57.5%"></span></div><div class="bval">46%</div></div>
+    <div class="bar-row"><div class="blab">Tanla 22 customers<small>Q2 FY27, &gt;₹50 Cr a year</small></div><div class="track"><span class="fill brand" style="width:53.9%"></span></div><div class="bval">~43%</div></div>
+  </div>
+  <div class="legend"><span>The two companies' figures are not on the same basis (named-count cohorts versus top-N rankings), so compare levels loosely.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>A few hundred big companies, led by banks, buy most of India's business messages. Banks are growing fast and are buying anti-fraud tools as well as delivery. Global technology companies, which used to pay the most per message, are quietly switching their login codes to apps and WhatsApp. A messaging company's future depends heavily on which of these two groups its revenue comes from.</p>
+</div>
+
+<p>Two retention measures summarise customer health, and they are again on different bases. Tanla reports revenue retention of 119% for Q2 FY27, meaning existing customers spent 19% more than a year earlier. Route reports net revenue retention of 105% for H1 FY27 against H1 FY26 in its presentation, but its management said on the 24-Jul-2026 call that net revenue retention "stands at 98% for the year", reflecting one key customer. Both figures are management numbers, neither is audited, and the gap between them is itself the story: Tanla's existing customers are growing, while Route's are roughly flat once the disruption at a large Indian customer is included.</p>
+</section>
+
+<!--CONTINUE-->
+
+</main>
+</div>
+</div>
+</body>
+</html>
