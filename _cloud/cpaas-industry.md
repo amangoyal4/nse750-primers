@@ -1162,3 +1162,730 @@ All aggregates are **straight sums of the company rows on one basis**: screener 
 - **Vonage India exit:** https://api.support.vonage.com/hc/en-us/articles/204017423
 
 *Scratch notes and extracted PDFs: /tmp/cpaas-dossier/ (notes_main.md, notes_tanla_q2fy27_letter.txt, notes_route_q2fy27_ppt.txt, pdf/).*
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (2026-11-01)
+
+Second, primary-source pass on Parts 1–3. **Where Part 4 conflicts with Parts 1–3, Part 4 wins** (see §4.0). Everything tagged **[V]** here was fetched and read *in this session* from the URL named next to it. **[V-sec]** = a secondary page that reproduces a primary record verbatim (e.g. a Rajya Sabha written reply reproduced by a trade journal). **[V-snip]**, **[K]** and **[E]** keep their Part-1 meanings.
+
+**Documents read in full or in the relevant sections this pass (local extracts in /tmp/cpaas-deep/pdf/):**
+- **Tanla:** Q2 FY27 shareholder letter (25 pp, 27-Oct-2026); Q2 FY27 press release; Q2 FY27 and Q1 FY27 investor presentations; **Q4 FY26 earnings-call transcript (call 27-Apr-2026, filed 1-May-2026)**; **FY26 Integrated Annual Report (457 pp)**: contingent liabilities, KAMs, segment note, related parties, intangibles under development, workforce chapter; CARE rationale (6-Apr-2026).
+- **Route:** Q2 FY27 press release (filed 28-Oct-2026 00:03 IST) and investor presentation (23 pp); FY26 strategy/earnings deck (35 pp, 8-May-2026); **Q4 FY26 call transcript (call 8-May-2026, filed 15-May-2026)**; **Q1 FY27 call transcript (call 24-Jul-2026, filed 29-Jul-2026)**. The FY26 annual report download was slow (BSE throttling); findings are in §4.2.2(e) to the extent read.
+- **Industry/regulator/peers:** Meta WhatsApp pricing page and the INR/USD rate-card PDFs (effective 1-Oct-2026); Rajya Sabha written reply on UCC complaints (reproduced by Communications Today, 10-Feb-2026); TRAI PR 20 & 21 of 2026 (via MediaNama); Proximus Q2-2026 and Q3-2026 results releases; Proximus shareholder-structure page; Twilio and Bandwidth Q3-2026 8-Ks (SEC); screener.in consolidated pages for both members (re-pulled 1-Nov-2026).
+
+**Transcript availability (important for the writer):**
+- **Tanla:** the Q1 FY27 (Jul-2026) and Q2 FY27 (Oct-2026) call transcripts were **not filed / not linked** on screener or on tanla.com's results page as of 1-Nov-2026. The latest transcript available is **Q4 FY26 (27-Apr-2026)**. The Q2 FY27 shareholder letter (Tanla's main disclosure document, Q&A format) is used for the latest commentary. Tanla states in every letter: **"Tanla does not provide any guidance."**
+- **Route:** the Q2 FY27 call (28-Oct-2026) has only an **audio recording** on BSE; no transcript yet. The latest transcript is **Q1 FY27 (24-Jul-2026)**, used below, with the Q4 FY26 strategy call (8-May-2026) for the full-year guidance.
+
+---
+
+## 4.0 SUPERSEDES — corrections to Parts 1–3 (writer: apply these)
+
+| # | Where in Parts 1–3 | Old value / statement | **New value** | Source (fetched this session) |
+|---|---|---|---|---|
+| S1 | §B4, §2.1 "Reading", §5.1 | Tanla "Geography: **India ~90%+**"; "Tanla's ₹1,175 Cr GP is overwhelmingly India-earned" | **Tanla FY26 revenue by customer location: India ₹3,248.5 Cr (73.5%), Rest of world ₹1,169.2 Cr (26.5%)**; FY25 overseas 28.3%. Tanla is ~¾ India by billing location (overseas = global tech/OTT customers billed for ILD traffic into India plus ME/SEA). Use "India ~74% of revenue by customer location" | Tanla FY26 Integrated Report, consolidated Note 47(b) [V] https://www.bseindia.com/xml-data/corpfiling/AttachHis/3536807d-aebe-47aa-b316-02bae1d8f7e9.pdf |
+| S2 | §5.1, §8, §G, §3.3, §3.4 (primer issue) | Karix acquisition "2018 [K]" vs primer "2017" — unresolved | **Karix acquired in FY2018-19** (Share Purchase Agreement with a Mauritius-resident seller "during FY 2018–19"). Write "2018 (FY19)". Primer's 2017 is wrong | Tanla FY26 AR, contingent-liability note (iv) [V] (URL as S1) |
+| S3 | §7.2, §H8, §2.1 risks | "Tanla past SEBI / income-tax probes: not verified … My memory is of an income-tax search … [K-weak]" | **No SEBI order and no income-tax search is disclosed** in the FY26 AR's contingent liabilities, KAMs or legal notes, and no report of a search was found. What exists is a **₹46.90 Cr TDS demand** (order u/s 201(1)/(1A) dated 31-Mar-2026, AY2020-21) for not withholding tax on the **Karix purchase price paid to the non-resident seller**; the SPA carries a **seller indemnity**; Tanla is appealing; disclosed as a contingent liability. Present neutrally; drop the "probe" language | Tanla FY26 AR [V]; Reg-30 disclosure summarised by whalesbook (7-Apr-2026) [V-snip] |
+| S4 | §H4, §0, §7.1, E10 | ₹0.8631 WhatsApp marketing rate dated 1-Jan-2026 [V-snip] with a vendor dating it Jul-2026 — conflict | **Meta's own INR rate card (effective 1-Oct-2026): India marketing ₹0.8631, utility ₹0.1150, authentication ₹0.1150, authentication-international ₹2.4971, service ₹0.1150 (after 1,000 free/month per number from 1-Oct-2026).** Meta's change-log lists **"1-Jan-2026 · India · Marketing · Higher"** and **no India change on 1-Jul-2026 or 1-Oct-2026** → the ₹0.8631 rate dates from **1-Jan-2026**. Conflict closed | Meta developer pricing page + rate-card PDF [V] https://developers.facebook.com/docs/whatsapp/pricing/ |
+| S5 | §0, §7.1, E10 | Service and in-window utility WhatsApp messages "free" | **Free only until 30-Sep-2026.** From **1-Oct-2026** utility messages inside an open service window are charged, and service messages are free only for the first **1,000 per business number per month**, ₹0.1150 thereafter | Meta pricing page [V] |
+| S6 | §0, §7.1, §5.3, E10, §B1 | RCS marketing "~6–7p → ~20–25p from 1-Sep-2026" (single vendor) | **Jio's new RCS business tariff from 1-Sep-2026: marketing ₹0.27–0.30, transactional/utility ₹0.25, OTP ₹0.11–0.16; previous flat ₹0.08–0.10** (Jio emails to businesses, reported by ET/Inc42, 9-Sep-2026). Airtel's RCS rate (Dec-2025 Google tie-up) ₹0.11/message with an 80:20 Airtel:Google split. Use "RCS repriced ~3× for marketing at Jio from 1-Sep-2026" | Inc42 [V-snip] https://inc42.com/buzz/jio-introduces-new-rcs-business-messaging-rates-for-iphone-users-in-india/ ; Tanla letter confirms "significant pricing changes effective September 2026" [V] |
+| S7 | §7.1 table row "Feb-2025" / §H7 | "Total complaint counts … were not found (FLAG)" | **UCC complaints received by telcos in calendar 2025: 31.10 lakh** (UTM 26.02 lakh, RTM 5.08 lakh = 16.3%); monthly from 1.48 lakh (Jan-25) to a peak of **3.94 lakh (Aug-25)**, 3.34 lakh (Dec-25). **DLT: >3 lakh senders (PEs) and ~21,000 telemarketers registered**; **>7.5 crore SMS + calls blocked per day (Dec-2025 average)**; **₹153.8 Cr financial disincentives imposed on telcos**; ~21 lakh connections disconnected | Rajya Sabha written reply (Minister of Communications), reproduced by Communications Today 10-Feb-2026 [V-sec] https://www.communicationstoday.co.in/dot-and-trai-have-taken-widespread-action-for-curbing-spam-calls/ ; TRAI PR 20/21 of 2026 via MediaNama (">3.1 mn complaints in 2025"; 7.31 lakh notices to UTMs) [V-snip] |
+| S8 | §7.1 row "30-Nov-2024 / ~11-Dec-2024", §H6 | Traceability: 1-Nov (Mondaq) vs 30-Nov direction / 11-Dec enforcement — conflict | **Traceability deadline path: 1-Nov-2024 (original) → 30-Nov-2024 → final PE-TM chain declaration deadline 10-Dec-2024; rejection of non-declared/mismatched chains from 11-Dec-2024** (TRAI partial revision of its 28-Oct-2024 direction, after COAI requests; >27,000 PEs had declared chains). Use "enforced 11-Dec-2024" | TRAI direction as reproduced by tele.net.in / voicendata / MSEI Circular 16445 [V-snip, three sources agree] |
+| S9 | §2.4, §3.3 | Tanla FY26 closing cash "₹11,436 mn" / "₹1,143.6 Cr (Mar-26)" | **₹11,538 mn** (Q2 FY27 letter cash-flow statement, FY26 audited column: CCE ₹7,273 mn + liquid funds ₹255 mn + FDs/other bank ₹4,009 mn). The ₹11,436 mn figure is likely an older classification; use ₹11,538 mn (≈ ₹1,154 Cr) | Tanla Q2 FY27 letter p.15 [V] https://www.bseindia.com/xml-data/corpfiling/AttachLive/a2d1230c-3063-47be-86d4-df249fc40cb4.pdf |
+| S10 | §2.4, §10 (Tanla cash ₹1,447 Cr vs CARE ₹859 Cr) | Open conflict | **Resolved:** ₹14,474 mn (Sep-26) = CCE ₹7,192 mn + liquid funds ₹1,209 mn + FDs/other bank balances (incl. >12-month FDs and ₹584 mn margin money) ₹6,073 mn. CARE's "cash and bank ~₹859 Cr (Dec-25)" excludes liquid funds and long FDs. Use company figure, note ₹58 Cr restricted | Tanla letter [V] |
+| S11 | §2.2 Tanla KPIs ("Platforms GM 98.5% vs primer 90%") | Already flagged | **Confirmed again** and extended: Q4 FY26 call analyst quote "98.2%" (FY26); letter quarterly 98.3–98.7%. Primer's ~90% is wrong | Tanla Q4 FY26 transcript [V]; letter [V] |
+| S12 | §2.2 Route, §3.3, §H "Route dividends" | "1st interim FY27 presumably ₹4 [E — verify]"; FY27 total "₹16.5" | **1st interim FY27 ₹4/share, record date 29-Jul-2026; 2nd interim ₹4/share, record date 2-Nov-2026 → ₹8 declared for H1 FY27.** The FY27 "sustainable" regular dividend of ₹16.5 "payable each quarter as usual" (Q4 FY26 call) implies ~₹4.125/qtr; at ₹4 × 4 the year would be ₹16, so the guide needs a slightly larger Q3/Q4 payout | Route Q4 FY26 transcript [V] https://www.bseindia.com/xml-data/corpfiling/AttachHis/ba821fc6-e7d0-4137-a0d5-db7932b4fa50.pdf ; ScanX/InvestyWise for the ₹4 + 29-Jul record date [V-snip]; screener for 2nd interim [V] |
+| S13 | §2.4 "Route Q1 FY27 board date not read" | Gap | **Route Q1 FY27: board/results 23-Jul-2026 (the deck was "uploaded yesterday" per the call); earnings call Friday 24-Jul-2026; transcript filed 29-Jul-2026** | Route Q1 FY27 transcript cover letter [V] https://www.bseindia.com/xml-data/corpfiling/AttachHis/2a5b8fc8-740e-43c3-a802-59a9f329e6fe.pdf |
+| S14 | §2.2 Route "Retention … NRR 105%" | Only the deck figure | **Two NRR figures:** management said on the Q1 FY27 call that **"net revenue retention stands at 98% for the year"** (one key customer impact); the Q2 deck shows **105% (H1 FY27 vs H1 FY26)**. Quote both with their bases | Route Q1 transcript [V]; Q2 deck [V] |
+| S15 | §2.2 Route story, §0 | Q1 FY27 margin dip unexplained | **Q1 FY27 GM fell to 20.9% because of a "temporary disruption in traffic from select existing large high-margin customers" — a large *Indian* customer (India entity segment profit turned negative in Q1) — plus "multiple aggregator accounts", and, to a smaller extent, the Masiv (Colombia) security incident.** Management's GM range: **21.5–23%** | Route Q1 transcript [V] |
+| S16 | §0, §2.2 Route guidance | "FY27 guidance … adj. EBITDA 'around 12%' [V FY26 PPT]"; "margin guide looks at risk" | Keep, but add: on 24-Jul-2026 the CFO said guidance is held "for now", "on track with the dividend", and on 12% "ideally we should not materially deviate". **Cash conversion guide: "75% to 100%" EBITDA→CFO for FY27** ("comfortable at around 75%") — H1 delivered 15% reported | Route Q1 transcript [V] |
+| S17 | §5.1, §B3 (BICS/Telesign "could be a vendor") | "related-party/vendor identity … not disclosed" | **Route confirms the Proximus Global inter-company flow is the other way round as well:** "we charge Telesign and BICS when they send us that traffic … we charge a margin on top of our cost" (RPT agreements at arm's length, per-transaction). So BICS/Telesign are **customers** of Route for India/other termination; the vendor-advance counterparty is still **not named** (see §4.2.2(e)) | Route Q4 FY26 transcript [V] |
+| S18 | §5.2, §H16 | Belgian state stake "~53.5% [K]" | **53.51% of shares (180,887,569 shares), 56.06% of voting rights**; treasury 4.55%; free float 41.94% (page dated "31/09/2026") | Proximus shareholder-structure page [V] https://proximus.com/investors/shareholder-structure.html |
+| S19 | §10 "Proximus Global" row; §12 | "€2–2.5 bn international revenue by 2026 (earlier guide)"; Q3 results "~early Nov [K]" | **Proximus Q3-2026 published 30-Oct-2026: Proximus Global revenue €369 mn (−2.0%; −0.5% cc), direct margin €106 mn (+0.8%), EBITDA €35 mn (−8.1%); YTD EBITDA €98 mn; FY26 Global EBITDA guide raised to €125–135 mn** ("stabilizing CPaaS SMS"). Q2-2026: revenue €353 mn, EBITDA €29 mn (−34.9%). **No mention of Route's listing, delisting or any sale of Proximus Global/Telesign.** Annualised revenue ~€1.45 bn, so the old "€2–2.5 bn by 2026" target is dead | Proximus Q3-2026 release [V] https://www.proximus.com/news/2026/202610-financial-results-q3-2026.html ; Q2-2026 [V] https://www.proximus.com/news/2026/202607-financial-results-q2-2026.html |
+| S20 | §10 Bandwidth row "[K — not re-fetched] ~$0.75 bn, GM 38–40%, EBITDA 11–12%" | [K] | **Bandwidth Q3-2026 (29-Oct-2026): revenue $234 mn (+22%); "cloud communications revenue" $158 mn (revenue less ~$76 mn pass-through messaging surcharges); non-GAAP GM 61%; adj. EBITDA $34.8 mn = 22% of cloud-comms revenue (≈15% of total); FY26 guide revenue $905–910 mn, adj. EBITDA $124–125 mn** | Bandwidth 8-K ex-99.1 [V] https://www.sec.gov/Archives/edgar/data/0001514416/000151441626000080/q320268kexh991.htm |
+| S21 | §10 LINK row "[K] ~NOK 7 bn, ~25% GM, ~9–10%" | [K] | **LINK Mobility Q2-2026: revenue NOK 2,050 mn (+17%; +3% organic), GP NOK 492 mn (24.0%), adj. EBITDA NOK 272 mn (13.3%)**; Q3-2026 not yet published | LINK Q2-2026 release via inderes/MFN [V-snip] |
+| S22 | §6 table, §9.4, §2.2 Tanla | Tanla "Digital Platforms" and "Enterprise" treated as audited segments | In the audited accounts Tanla reports **a single Ind AS 108 segment ("CPaaS service provider")**; the Platform/Enterprise split is a management (letter) disclosure, not an audited segment. Keep the numbers; label them "company-reported business lines" | Tanla FY26 AR Note 46 [V] |
+| S23 | §4.1 "People: Tanla ~1,081 average employees" | One figure | Add: **permanent workforce 1,043 at 31-Mar-2026** (Innovation 321; GTM 206, +17.7%; 324 hires in FY26); average 1,081 in Q2 FY27 (incl. ValueFirst overseas). Route: **786 employees (505 India), ~800 "mark"** (CFO) | Tanla AR [V]; letter [V]; Route Q2 deck and Q1 transcript [V] |
+| S24 | §2.2 Tanla capital returns | "FY26 buyback ₹1,793 mn (₹179 Cr)" | Keep the cash figure; add mechanics: **20,00,000 shares bought back; maximum size ₹17,500 lakh (₹175 Cr) → ₹875/share**; shares outstanding 13.46 Cr → 13.26 Cr. The ₹179 Cr cash includes costs/tax | Tanla FY26 AR (EPS note; buyback note) [V] |
+| S25 | §7.1 "Background: DPDP" / §4.1 telco termination | "commercial A2P is not regulated"; "5p TRAI termination is the old P2P charge" | Add: TRAI already specifies a **deterrent termination charge on commercial SMS** (telcos describe it as **₹0.07**/SMS in Dec-2025 submissions); **Jio/Airtel/Vi asked TRAI (interconnection-norms review, Dec-2025) to raise it to ~₹0.12/SMS and to set ₹0.50/min on A2P calls**; TRAI's final 3rd amendment allowed only **up to 5p/min** on A2P calls. International SMS termination into India is **under forbearance** (telcos set it freely) | telecomlive 18-Dec-2025 [V-snip]; MediaNama Mar-2025 [V-snip] |
+| S26 | §0 trap 3, §B3, §2.2 Route | FY26 write-off "of advances paid to two key vendors (a major MNO and an SMS aggregator)" [V-snip] | **₹135.87 Cr = ₹107.96 Cr (a subsidiary's ₹196.61 Cr prepayment for minimum-guaranteed SMS volumes, contract onerous since Mar-24 with ₹26.70 Cr provided then; SIAC partial award against Route on 18-Nov-2025; settlement 19-Feb-2026) + ₹27.91 Cr (advance to a messaging vendor that ceased operations)**. Neither vendor is a related party per the AR. The auditor added **two Emphasis-of-Matter paragraphs** on these notes | Route FY26 AR Note 33.4 + auditor's report [V] https://www.bseindia.com/xml-data/corpfiling/AttachHis/36290219-8fc9-49ec-bf79-8ac6a98f6216.pdf |
+| S27 | §B3 "Proximus parent also owns BICS (a wholesale carrier that could be a vendor)"; §5.2 | Vendor/RPT identity "not disclosed" | **Route's FY26 sales to Telesign Corp were ₹658.63 Cr = 14.9% of consolidated revenue (FY25 ₹460.18 Cr, 10.1%)**; BICS ₹52.72 Cr. Purchases from BICS ₹44.94 Cr and Telesign ₹14.39 Cr. **A new ₹10.11 Cr "management support services" charge from Proximus Global/BICS/Telesign.** Telesign receivable ₹131.5 Cr. The Proximus group is Route's largest customer relationship (~16% of revenue) | Route FY26 AR Note 39 [V] |
+| S28 | §2.0 peer table, §3.2 aggregates (Route FY26 PAT ₹257 Cr; P/E 7.9×) | PAT ₹257 Cr used as owners' earnings | **PAT attributable to owners ₹239.02 Cr** (NCI ₹17.92 Cr). EPS ₹37.94 is on the ₹239 Cr basis. Combined FY26 owners' PAT = 509 + 239 = **₹748 Cr** (not ₹766 Cr) | Route FY26 AR P&L [V] |
+| S29 | §2.2 Route balance sheet "borrowings ₹39 Cr" | "Borrowings" | **"No outstanding debt as at 31 March 2026"** (₹440.96 Cr at Mar-25). Screener's ₹39–42 Cr = lease liabilities | Route FY26 AR Note 38 [V] |
+| S30 | §2.2 Route management; §G | "Rajdipkumar Gupta (MD); Tushar Agnihotri (CEO)" without dates | **CEO succession: Gautam Badalia (to 17-Jul-2025) → Rajdip Gupta as MD & CEO (18-Jul-2025 to 9-Feb-2026) → Tushar Agnihotri (from 9-Feb-2026). Chair: Guillaume Boutin (to 17-Apr-2025) → Mark Reid (non-exec, left board 22-Jan-2026) → Seckin Arikan (Chairman from 22-Jan-2026)** | Route FY26 AR Note 39 KMP list [V] |
+| S31 | §2.2 Route "Geography … FY26 by termination India ~41%" | Chart-read | Add the audited **billing-entity split FY26: UK ₹1,289 Cr (29%), India ₹851 Cr (19%), Malta ₹658 Cr, USA ₹617 Cr, Dubai ₹494 Cr, others ₹499 Cr**. UK-entity revenue fell 23.5% (ILD loss). India-entity segment result ₹69 Cr (vs ₹112 Cr FY25) of a group ₹446 Cr | Route FY26 AR Notes 44–45 [V] |
+| S32 | §5.2, §B3 Route "vendor advances" | "₹135.9 Cr written off; another ₹116.8 Cr paid" | Add the stock: **advances to suppliers ₹154.6 Cr at 31-Mar-2026 (₹420.4 Cr at 31-Mar-2025)**; with H1 FY27's ₹116.8 Cr, likely ~₹250–270 Cr at Sep-26 [E] | Route FY26 AR Notes 5/14 [V]; Q2 deck [V] |
+
+**Unchanged after checking (no supersede needed):** Tanla Q2 FY27 revenue/GP/EBITDA/PAT, OTT 36.2%, Platform +6.4%, ₹6 dividend; Route Q2 FY27 revenue ₹1,179.67 Cr, PAT ₹82.55 Cr, adj. EBITDA ₹1,184.2 mn, vendor advance ₹1,168.3 mn; Route promoter path (83.11% Jun-24); screener 5-year rows for both; Twilio Q3-2026 figures — all re-verified [V].
+
+---
+
+## 4.1 VERIFICATION TABLE — the 40 figures the writer will lean on
+
+Key to "Primary?": **P** = fetched this session from the issuer/regulator/platform owner's own document (counts as [V]-primary); **S** = fetched this session but from a secondary page reproducing or reporting the primary (V-sec / V-snip). "Agrees?" compares with Parts 1–3.
+
+URL short-codes (full URLs in §4.6):
+- **TL** = Tanla Q2 FY27 shareholder letter (BSE a2d1230c…); **TAR** = Tanla FY26 Integrated Report (BSE 3536807d…); **TT4** = Tanla Q4 FY26 transcript (BSE d8d4867b…); **TPPT** = Tanla Q2 FY27 investor presentation (BSE 2d48d122…)
+- **RPR** = Route Q2 FY27 press release (BSE 5c56f30f…); **RPPT** = Route Q2 FY27 presentation (BSE 075a5e13…); **RF26** = Route FY26 deck (BSE 654c6bef…); **RT4** = Route Q4 FY26 transcript (BSE ba821fc6…); **RT1** = Route Q1 FY27 transcript (BSE 2a5b8fc8…)
+- **SCR-T / SCR-R** = screener.in consolidated pages (Tanla / Route), pulled 1-Nov-2026
+- **META** = developers.facebook.com/docs/whatsapp/pricing + INR rate-card PDF (effective 1-Oct-2026); **PXQ3 / PXQ2 / PXSH** = Proximus Q3-26 / Q2-26 releases / shareholder page; **TWLO / BAND** = SEC 8-K ex-99.1 (Q3-2026); **RS** = Rajya Sabha reply via Communications Today; **INC42** = Jio RCS tariff report
+
+| # | Figure | Value | Source | Primary? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Tanla Q2 FY27 revenue | ₹13,517 mn (+25.3% YoY, +10.2% QoQ); screener ₹1,352 Cr | TL p.4/11; SCR-T | P (two sources) | Yes |
+| 2 | Tanla Q2 FY27 gross profit / GM | ₹3,531 mn (income statement ₹3,530 mn) / 26.1% (−48 bps QoQ, "change in revenue mix") | TL | P | Yes |
+| 3 | Tanla Q2 FY27 EBITDA | ₹2,143 mn, 15.9%; EBITDA/GP 60.7% | TL; TPPT | P | Yes |
+| 4 | Tanla Q2 FY27 PAT | ₹1,464 mn (+17.1%); screener ₹146 Cr | TL; SCR-T | P (two sources) | Yes |
+| 5 | Tanla QoQ growth split | 10.2% = 7.9 pts existing business + 2.3 pts inorganic (ValueFirst overseas ₹285 mn in two months) + "one-time campaigns" (unquantified) | TL p.5/9 | P | Yes |
+| 6 | Tanla OTT share of revenue | 36.2% (Q2 FY27); "WhatsApp >80–90% of OTT" (ED, Apr-26 call); OTT share was flat at 31–32% for the four FY26 quarters | TL; TT4 | P | Yes; adds the FY26 plateau |
+| 7 | Tanla Digital Platforms growth | +6.4% YoY (₹1,047 mn), "below our expectations", consent-framework delay | TL | P | Yes |
+| 8 | Tanla Platforms GM | 98.6% (Q2 FY27); 98.2–98.5% FY26 | TL; TPPT; TT4 | P | Yes (primer 90% wrong) |
+| 9 | Tanla cash (Sep-26) | ₹14,474 mn = CCE 7,192 + liquid funds 1,209 + FDs/other bank 6,073 | TL p.15 | P | Yes; decomposition new |
+| 10 | Tanla cash (Mar-26) | **₹11,538 mn** | TL p.15 (FY26 audited column) | P | **No** (Part 3: ₹11,436 mn) → S9 |
+| 11 | Tanla FY26 revenue (audited) | ₹4,41,770.64 lakh = ₹4,417.7 Cr (+9.7%); screener ₹4,418 Cr | TAR Note 47; SCR-T | P (two sources) | Yes |
+| 12 | Tanla FY26 PAT (audited) | ₹50,914.58 lakh = ₹509.1 Cr; basic EPS ₹38.36 | TAR Note 49; SCR-T | P | Yes |
+| 13 | Tanla revenue by customer location FY26 | India 73.5% / overseas 26.5% (FY25 overseas 28.3%) | TAR Note 47(b) | P | **No** (Part 1: "India ~90%+") → S1 |
+| 14 | Karix acquisition date | SPA in FY2018-19 | TAR contingent-liability note | P | Resolves 2017/2018 → S2 |
+| 15 | Tanla TDS demand | ₹4,690.23 lakh (₹46.9 Cr), order dated 31-Mar-2026, seller indemnity, under appeal | TAR | P | New → S3 |
+| 16 | Tanla contingent liabilities (Mar-26) | Bank guarantees ₹189.3 Cr (₹168.9 Cr Mar-25); corporate guarantee for a subsidiary ₹200 Cr (₹159 Cr); claims not acknowledged ₹63.6 Cr (₹16.8 Cr) | TAR | P | New |
+| 17 | Tanla FY26 buyback | 20,00,000 shares; max ₹175 Cr (₹875/share); cash outflow ₹1,793 mn incl. costs/tax | TAR; TL | P | Yes; mechanics new |
+| 18 | Tanla capitalised development FY26 | ₹52.1 Cr added to intangibles under development (FY25 ₹69.4 Cr); IAUD closing ₹49.7 Cr | TAR Note 6 | P | Refines CARE's "₹15–20 Cr/qtr" |
+| 19 | Tanla workforce | 1,043 permanent (31-Mar-26); 1,081 average (Q2 FY27) | TAR; TL | P | Yes; adds year-end count |
+| 20 | Tanla valuation | ₹627; m-cap ₹8,318 Cr; P/E 15.0; ROCE 26.3%; ROE 21.4%; 52-wk ₹366–657 | SCR-T | P (screener) | Yes |
+| 21 | Route Q2 FY27 revenue | ₹1,179.67 Cr (+5.4% YoY; +2.4% QoQ); screener ₹1,180 Cr | RPR; SCR-R | P (two sources) | Yes |
+| 22 | Route Q2 FY27 PBT / PAT | PBT ₹100.93 Cr (PBT margin 8.56%); PAT ₹82.55 Cr vs (₹18.83 Cr) | RPR | P | Yes |
+| 23 | Route Q2 FY27 GM / adj. EBITDA | 22.4% / ₹1,184.2 mn (10.0%) | RPPT | P | Yes |
+| 24 | Route Q1 FY27 KPIs | Revenue ₹11,515 mn (+9.6% YoY); GP ₹2,404 mn (20.9%); adj. EBITDA ₹1,089 mn (9.5%); adj. PAT ₹686 mn | RT1 | P | Yes |
+| 25 | Route FY26 EBITDA bridge | Reported EBITDA ₹5,372.5 mn − capitalised IAUD ₹123.5 mn + ESOP ₹10.1 mn = adj. ₹5,259.1 mn (11.9%) | RF26 slide 31 | P | Yes |
+| 26 | Route FY26 PAT bridge | Reported ₹2,569.4 mn + exceptional ₹1,358.7 mn − tax ₹166.9 mn = adj. ₹3,761.2 mn; FY25 exceptional ₹184.5 mn | RF26 | P | Yes; FY25 exceptional new |
+| 27 | Route H1 FY27 vendor advance | ₹1,168.3 mn "advance paid to vendor for services which will be availed in the subsequent period" | RPPT slide 19 | P | Yes |
+| 28 | Route FY27 guidance | Revenue "mid to high single digits"; adj. EBITDA "around 12%"; dividend ₹11 → "sustainable" ₹16.5/share, "payable each quarter" | RT4; RF26 | P | Yes |
+| 29 | Route guidance status (Jul-26) | "We will hold that for now"; GM band 21.5–23%; CFO conversion 75–100% | RT1 | P | New |
+| 30 | Route Q1 FY27 dates | Deck/results 23-Jul-2026; call 24-Jul-2026; transcript filed 29-Jul-2026 | RT1 cover letter | P | Fills gap → S13 |
+| 31 | Route FY27 dividends declared | 1st interim ₹4 (record 29-Jul-26); 2nd interim ₹4 (record 2-Nov-26) | ScanX/InvestyWise; SCR-R | S (1st) / P (2nd) | Fills gap → S12 |
+| 32 | Route promoter holding | 74.85% (Sep-26); peak 83.11% (Jun-24) | SCR-R | P (screener) | Yes |
+| 33 | Route headcount | 786 (505 India); 63 joiners / 60 leavers in Q2 FY27 | RPPT | P | Yes; churn new |
+| 34 | Proximus Global Q3-2026 | Revenue €369 mn (−2.0%); direct margin €106 mn (+0.8%); EBITDA €35 mn (−8.1%); FY26 EBITDA guide €125–135 mn | PXQ3 | P | **No** (Part 1 used an obsolete "€2–2.5 bn by 2026" target) → S19 |
+| 35 | Belgian state's stake in Proximus | 53.51% of shares, 56.06% of votes | PXSH | P | Yes (was [K]) |
+| 36 | WhatsApp India rates (Meta) | Marketing ₹0.8631; utility ₹0.1150; authentication ₹0.1150; auth-international ₹2.4971; utility tier rates ₹0.1081 (25–50 mn/month), ₹0.1012 (50–100 mn), ₹0.0943 (100–200 mn) | META | P | Yes on values; date fixed (1-Jan-2026) → S4 |
+| 37 | WhatsApp rule changes | Per-message pricing from 1-Jul-2025; free in-window utility ended 1-Oct-2026; INR billing deadline 31-Dec-2026 (non-INR accounts stop delivering 1-Jan-2027) | META | P | Partly new → S5 |
+| 38 | UCC complaints, calendar 2025 | 31.10 lakh (RTM 16.3%); peak 3.94 lakh in Aug-25; DLT: >3 lakh senders, ~21,000 TMs; >7.5 crore messages/calls blocked per day (Dec-25) | RS (V-sec) + TRAI PR 20/21 of 2026 via MediaNama (">3.1 mn") | S (two independent secondary routes agree) | New → S7 |
+| 39 | Jio RCS repricing (1-Sep-2026) | Marketing ₹0.27–0.30; utility ₹0.25; OTP ₹0.11–0.16; previously flat ₹0.08–0.10 | INC42 (citing ET and Jio's emails) | S | **Partly no** (Part 1: 6–7p → 20–25p) → S6 |
+| 40 | Global peers, Q3-2026 | Twilio: $1.56 bn, +20% (+16% organic), NG GM 49%, NG op margin 21%, DBNE 114%. Bandwidth: $234 mn, NG GM 61%, adj. EBITDA 22% of revenue net of pass-through | TWLO; BAND | P | Twilio yes; Bandwidth replaces [K] → S20 |
+
+**Count: 37 of the 40 rows are [V]-primary** (P). The three non-primary rows are #31 (the 1st-interim amount; the 2nd interim is primary), #38 (complaints; a parliamentary reply reproduced by a trade journal) and #39 (Jio RCS tariff, reported from Jio's emails). The LINK figures in S21 are also secondary but are not one of the 40. Where a row has two sources (#1, #4, #11, #21, #38) they agree.
+
+**Conflicts and which source wins:**
+- **Tanla FY26 cash (#10):** the letter's audited FY26 column (₹11,538 mn) beats the earlier ₹11,436 mn. It is the company's own audited cash-flow statement.
+- **Route NRR:** 98% (Q1 call, spoken) vs 105% (Q2 deck, H1 vs H1). Both are management figures on different bases. Use the deck figure for H1 and quote the call figure as "dipped to 98% on one large customer in Q1".
+- **RCS prior price:** Jio's emails (₹0.08–0.10 before) beat the MoEngage blog (6–7p). Both sources agree the new marketing price is in the 20–30p range.
+- **2025 complaints:** the Rajya Sabha reply gives the monthly table (sum 31.10 lakh); TRAI's PR via MediaNama says ">3.1 mn". They agree.
+
+---
+
+## 4.2 PER-COMPANY DEEP DIVES
+
+### 4.2.1 Tanla Platforms (TANLA · BSE 532790)
+
+#### (a) Management-commentary digest (paraphrased; source and date on each line)
+
+*Basis: Q4 FY26 call of 27-Apr-2026 (the latest transcript filed) + the Q2 FY27 shareholder letter of 27-Oct-2026. Tanla gives no numeric guidance ("Tanla does not provide any guidance", every letter; CFO on the call: "we don't actually issue any forward-looking statements").*
+
+**Growth ambition (TT4, 27-Apr-2026)**
+- ED Deepak Goyal sees **CPaaS industry revenue growth of about 8–10% a year** and expects Tanla to gain share and grow **"definitely more than 10% a year"**. That is the nearest thing to a growth guide. H1 FY27 delivered +21.7% (+19% ex-ValueFirst overseas [E]).
+- CEO Uday Reddy flagged **"one gigantic platform"** to be launched in Q1 FY27 (details withheld). No launch is identifiable in the Q2 letter's "Significant events" list. Treat it as unconfirmed.
+
+**Margins (TT4; TL)**
+- CFO Anubhav Batra: margins have become **"range bound"**. Gross margin has improved slightly; EBITDA margin is held down by **"conscious investments in GTM" and innovation**, which "will bear fruits in the coming quarters".
+- **Q2 FY27 letter:** "improving operating leverage continues to be a priority". EBITDA growth was diluted by ValueFirst's international operations, "which currently operate at lower profitability levels". Indirect costs rose 26.9% YoY (existing business +21.3%), against GP +23.1%.
+
+**Pricing and channels (TT4; TL)**
+- **SMS:** volumes are growing faster than revenue because of **"pricing pressure"**, including from large banks and Government. Asked whether prices had bottomed, the ED said a telco price **"reset … is on the cards. When it will happen, I can't say."**
+- **WhatsApp:** **>80–90% of OTT revenue.** Meta wants to shift traffic from marketing to utility messages. Marketing messages are "almost 10 times more expensive" than utility; Meta's own card confirms ₹0.8631 vs ₹0.1150 = 7.5×. So rising WhatsApp volumes do not translate one-for-one into revenue.
+- **Why OTT share stalled at 31–32% through FY26:** the WhatsApp mix moved towards cheaper utility messages, and Meta is pushing into ~2 million SMEs that are served by small local tech providers rather than by Tanla.
+- **Q2 FY27:** **WhatsApp volumes doubled QoQ and YoY.** "RCS was a partial offset to growth" after "significant pricing changes effective September 2026". Adoption at the higher price "will depend on delivering better engagement and conversion" (TL).
+
+**Market structure (TT4)**
+- **75–80% of Indian enterprise CPaaS spend comes from the top ~250 customers.** The other 15–20% comes from a tail of 50–60k enterprises. Tanla says it is present at ~80% of the top accounts and is competing for wallet share.
+- New logos: **Reserve Bank of India** and **Bank of Baroda**. At one of the largest e-commerce companies, Tanla's wallet share is now >50% after adding OTT.
+- **PSU banks are "a very good share" of volumes.** NIC (Government) is small.
+- Meta and Google each named Tanla's subsidiaries **"Partner of the Year"** for India (FY26 AR: Karix and ValueFirst were Google Growth Partners of the Year 2025, and Karix won Meta's partner award).
+
+**Platforms (TT4; TL)**
+- Digital Platforms FY26 revenue was ~₹395 Cr, single-digit growth. Part of the segment is tied to channel volumes; **Wisely.ai** is growing faster.
+- One large global telco (Indosat) was onboarded in FY26. Wisely ATP signed a **third bank, Bandhan Bank**, live in Mar-2026 (billed one month in Q4 FY26).
+- **ATP pricing is per subscriber protected per month, not per message blocked.**
+- **Q2 FY27:** Platforms grew only +6.4%, "below our expectations". The **"prolonged delay in the regulatory implementation of India's consent framework"** held back the Consent platform (TL).
+
+**Capital allocation (TT4; TL)**
+- **"Build versus buy"**; AI-company valuations are "skyrocketing".
+- **ValueFirst International:** completion took ~3 years because approval was **"stuck at a RBI level because there are some old matters which had to be clarified"** (Apr-2026). Management was even evaluating "alternate" routes to consolidate. It closed in Q2 FY27, with consolidation from ~Aug-2026 (TL).
+- **Dividend policy:** 30% of consolidated PAT. ₹6 interim dividend (₹796 mn) in Q2 FY27 (TL).
+
+**Analyst Q&A points worth carrying (TT4)**
+1. *"Why have margins fallen since FY22?"* — they are range-bound now; GTM investment.
+2. *"OTT share flat for four quarters"* — mix shift to utility messages; WhatsApp is chasing SMEs.
+3. *"Government/bank SMS pricing pressure"* — a telco-led price reset is possible, timing unknown.
+4. *"Platform segment single-digit growth despite Wisely investment"* — channel-linked products are slow; Wisely is faster.
+5. *"ATP revenue model"* — per subscriber per month.
+6. *"ValueFirst International delay"* — RBI approval.
+7. *"Platform pricing per subscriber (Indosat 100 mn subs)"* — not disclosed.
+
+#### (b) Concall/letter KPI table (company, ₹ mn unless stated) [V TL, TPPT, TT4]
+
+| KPI | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 | Note |
+|---|---|---|---|---|---|---|
+| Revenue | 10,785 | 11,210 | 11,776 | 12,264 | 13,517 | Q2 incl. ₹285 mn ValueFirst overseas |
+| Revenue growth YoY | 7.8% | 12.1% | 15.0% | 17.8% | 25.3% | YoY growth has accelerated every quarter since Q2 FY25 (−0.8%) |
+| Platform revenue | 984 | 1,016 | 1,030 | 1,031 | 1,047 | +6.4% YoY |
+| Platform GM | 98.6% | 98.4% | 98.3% | 98.5% | 98.6% | |
+| Enterprise GM | 19.4% | 20.5% | 20.1% | 20.0% | 20.0% | |
+| Blended GM | 26.6% | 27.6% | 27.0% | 26.6% | 26.1% | |
+| EBITDA | 1,775 | 1,905 | 1,918 | 2,012 | 2,143 | |
+| EBITDA ÷ GP | 61.9% | ~61.6% | ~60.4% | 61.7% | 60.7% | |
+| Indirect cost % of revenue | ~10.1% | ~10.2% | ~10.3% | ~10% | ~10.2% | TPPT "maintained at ~10%" |
+| OTT share of revenue | ~31–32% | ~31–32% | ~31–32% | n/d | 36.2% | TT4 for the FY26 plateau |
+| Net revenue retention | n/d | n/d | n/d | n/d | 119% | TPPT |
+| DSO (days) | 77 | n/d | 76 | 79 | 63 | |
+| Average employees | 1,004 | n/d | n/d | n/d | 1,081 | 1,043 permanent at 31-Mar-26 (TAR) |
+| Cash incl. FDs/liquid funds | 8,814 | 9,387 | 11,538 | 11,970 | 14,474 | Mar-26 per S9 |
+
+*Q3/Q4 FY26 revenue = EBITDA ÷ the reported margin path; derived from the E4/E2 series [E within ±₹5 mn].*
+
+#### (c) Five-year history (screener consolidated, ₹ Cr) [V SCR-T, re-pulled 1-Nov-2026; GP company]
+
+| | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Sep-26 |
+|---|---|---|---|---|---|---|---|
+| Revenue | 2,341 | 3,206 | 3,355 | 3,928 | 4,028 | 4,418 | 4,877 |
+| YoY | +20% | +37% | +4.6% | +17.1% | +2.5% | +9.7% | — |
+| Operating profit | 435 | 702 | 590 | 735 | 692 | 726 | 798 |
+| OPM | 19% | 22% | 18% | 19% | 17% | 16% | 16% |
+| Gross profit (company) | n/f | n/f | ~810 [E: 9M FY23 GP ₹6,075 mn annualised; BSE press release 20-Jan-2023] | n/f | ~1,051 [E] | 1,175 | 1,307 |
+| Depreciation | 40 | 41 | 46 | 85 | 98 | 122 | 136 |
+| PBT | 415 | 674 | 567 | 683 | 627 | 634 | 700 |
+| PAT | 356 | 539 | 448 | 548 | 507 | 509 | 554 |
+| EPS ₹ | 26.18 | 39.73 | 33.31 | 40.78 | 37.68 | 38.39 | 41.80 |
+| ROCE | 52% | 59% | 38% | 38% | 29% | 26% | — |
+| Debtor days | 58 | 64 | 62 | 78 | 76 | 82 | (63 company Q2 FY27) |
+| CFO | 561 | 486 | 247 | 590 | 642 | 574 | — |
+| FCF | 530 | 425 | 91 | 434 | 514 | 477 | — |
+
+- **Read:** FY22 was the peak on every return measure. Since then revenue is +38% (FY22→FY26), OP +3%, PAT −6%, and ROCE has more than halved (59% → 26%). Depreciation tripled (₹41 Cr → ₹122 Cr) as the platform build and ValueFirst intangibles were capitalised.
+- **FY23 is the true trough:** CFO ₹247 Cr; FCF ₹91 Cr.
+- **FY26 debtor days (82, screener) vs company DSO (63 in Q2 FY27):** the improvement is recent. Use the company figure for the latest quarter and screener for the trend.
+
+#### (d) Eight-quarter trend (screener consolidated, ₹ Cr; company GM/EBITDA alongside) [V SCR-T; V TL]
+
+| Quarter | Q3 FY25 (Dec-24) | Q4 FY25 (Mar-25) | Q1 FY26 (Jun-25) | Q2 FY26 (Sep-25) | Q3 FY26 (Dec-25) | Q4 FY26 (Mar-26) | Q1 FY27 (Jun-26) | Q2 FY27 (Sep-26) |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,000 | 1,024 | 1,041 | 1,078 | 1,121 | 1,178 | 1,226 | 1,352 |
+| YoY (company) | −0.2% | +1.9% | +3.8% | +7.8% | +12.1% | +15.0% | +17.8% | +25.3% |
+| Operating profit | 163 | 163 | 164 | 177 | 191 | 192 | 201 | 214 |
+| OPM | 16% | 16% | 16% | 16% | 17% | 16% | 16% | 16% |
+| Company GM | 26.1% | 25.3% | 25.0% | 26.6% | 27.6% | 27.0% | 26.6% | 26.1% |
+| Company EBITDA (₹ mn) | 1,634 | 1,635 | 1,639 | 1,775 | 1,905 | 1,918 | 2,012 | 2,143 |
+| Depreciation | 25 | 27 | 27 | 30 | 32 | 33 | 33 | 37 |
+| Tax % | 19% | 20% | 20% | 20% | 20% | 19% | 22% | 22% |
+| PAT | 119 | 117 | 118 | 125 | 131 | 134 | 142 | 146 |
+| EPS ₹ | 8.80 | 8.72 | 8.80 | 9.43 | 9.91 | 10.13 | 10.72 | 11.04 |
+
+- **The pattern:** revenue +35% over eight quarters, OP +31%, PAT +23%. Depreciation (+48%) and a higher tax rate (19% → 22%) absorb part of the operating gain.
+- **OPM has been flat at 16% throughout.** The re-acceleration is volume-led, not margin-led.
+
+#### (e) Annual-report findings (FY26 Integrated Report, 457 pp) [V TAR]
+
+1. **Audit:** auditor MSKA & Associates; opinion unmodified.
+   - Two consolidated KAMs: **(i) revenue recognition** (complex IT systems, high data volumes, "changing pricing models"); **(ii) goodwill impairment** (goodwill = 7.09% of total assets and 10.63% of equity at 31-Mar-2026; no impairment).
+2. **Segment:** a **single Ind AS 108 segment** ("CPaaS service provider").
+   - **Revenue by customer location FY26: India ₹3,248.5 Cr (73.5%), Rest of world ₹1,169.2 Cr (26.5%).** FY25: India ₹2,887.9 Cr / overseas ₹1,139.9 Cr (28.3%).
+   - Non-current assets: India ₹846.6 Cr; RoW ₹16.5 Cr.
+   - *Note:* table (i) of Note 46 prints the FY25 India/RoW figures swapped; Note 47(b) has them the right way round. Use 47(b).
+3. **Customer concentration:** consolidated concentration is not disclosed in the AR (CARE: 19 customers = 46% of 9M FY26).
+   - **Standalone:** **2 customers each >10%, together >86% of the standalone company's revenue** (3 customers / 89% in FY25). The standalone entity is mainly the platform/holding company, so this describes the platform customers (telcos) and inter-company billing. **Do not present it as group concentration.**
+4. **Related parties:** immaterial.
+   - The only non-KMP related party is **Z-Axis Management Consultants and Strategic Advisors LLP** (an entity in which a director is a partner): ₹21 lakh of professional services in each of FY26 and FY25.
+   - KMP remuneration ₹6.83 Cr (FY25 ₹7.22 Cr).
+   - "No materially significant related party transactions … with its Promoters". **No royalty or brand fee.**
+5. **Contingent liabilities (consolidated, 31-Mar-2026):**
+   - **Bank guarantees ₹189.3 Cr** (to telcos/banks/PSUs as performance guarantees; ₹168.9 Cr a year earlier).
+   - **Corporate guarantee on behalf of a subsidiary ₹200 Cr** (₹159 Cr).
+   - **Claims not acknowledged as debt ₹63.6 Cr** (₹16.8 Cr). The jump is the **₹46.9 Cr TDS order under s.201 on the FY19 Karix purchase** (seller indemnity; appeal being filed).
+   - Others: legacy service-tax (FY08–10, ₹1.9 Cr confirmed), CENVAT, GST ITC writs (Telangana HC; Madras HC ₹3.1 Cr), and a Karix s.40(a)(ia) disallowance (₹1.07 Cr demand).
+   - An mGage India AY2013-14 Madras HC appeal by the department concerns disallowance of **₹37.2 Cr of carrier payments to foreign operators** (a disallowance amount, not a demand; tax impact not stated).
+   - **No SEBI matter and no search/seizure is disclosed.**
+6. **Capitalised development:** additions to intangibles under development **₹52.1 Cr in FY26** (₹69.4 Cr FY25); ₹87.0 Cr moved into finished intangibles; closing IAUD ₹49.7 Cr.
+   - The capitalised amount includes "employee benefit expenses and professional consultancy charges". With FY26 EBITDA of ₹724 Cr, **capitalisation ≈ 7% of EBITDA** [E]. A Route-style "adj. EBITDA" that deducts it would be ~₹672 Cr (15.2% margin) [E].
+7. **Buyback FY26:** 20 lakh shares at up to ₹875 (₹175 Cr). Shares 13.46 Cr → 13.26 Cr. Promoters did not tender, which is why their stake rose to 46.17%.
+8. **Workforce:** 1,043 permanent employees in 7 offices (31-Mar-2026); 79.9% in STEM roles; Innovation 321 (+3.5%); GTM 206 (+17.7%); 324 hires in FY26.
+9. **Scale claims (AR narrative; company claims, not audited):**
+   - **Wisely.ai** scans ">500 billion messages annually" (">1.5 billion messages daily" across SMS, WhatsApp and voice) and protects "over 210 million consumers".
+   - **Wisely ATP** prevents ">6 million scam attacks every month".
+   - **MaaP** has carried ">2 billion RCS messages".
+   - **Trubloq** is called "the world's largest" blockchain DLT and carried the **1600-series launch for BFSI voice**.
+   - **No Trubloq market-share figure** appears anywhere in the AR. The primer's "~62%" remains unsourced.
+10. **ValueFirst overseas entities** already in the FY26 group structure: Tanla Digital Labs FZ-LLC, Tanla Mobile Middle East LLC, ValueFirst Digital Media Pte Ltd (Singapore, step-down subsidiary). The consideration for the overseas business is **not disclosed** in the AR or the Q2 letter.
+    - The Q2 letter cash-flow statement shows **"investment in subsidiary" of only ₹78 mn** and "cash acquired on ValueFirst acquisition" of ₹77 mn (H1 FY27). The goodwill/customer-relationship step-up (+₹1,538 mn) with other current financial liabilities +₹870 mn implies **most of the price is deferred/payable** [E].
+
+### 4.2.2 Route Mobile (ROUTE · BSE 543228)
+
+#### (a) Management-commentary digest (paraphrased; source and date on each line)
+
+*Basis: **Q1 FY27 call of 24-Jul-2026** (latest transcript; the 28-Oct-2026 Q2 call has audio only), the **Q4 FY26 strategy call of 8-May-2026**, and the Q2 FY27 press release and deck (27/28-Oct-2026).*
+
+**Guidance (RT4, 8-May-2026; RT1, 24-Jul-2026)**
+- **FY27 guide (8-May):** revenue growth "mid to high single digits"; adj. EBITDA margin "around 12%"; "strong EBITDA-to-cash conversion … will continue".
+  - Then-MD Rajdip Gupta called it deliberately "a little conservative", the first guidance in a year.
+- **Status at Q1 (24-Jul):** Group CFO Raj Gill said "we will hold that for now"; the company is "on track with the dividend". CSO Vinay Binyala on the 12% margin: "ideally, we should not materially deviate from what we had guided".
+- **Gross-margin band:** 21.5–23%, "which we've been operating over the last 5 or 6 quarters".
+- **Q2 delivery:** H1 revenue +7.4% (in line); H1 adj. EBITDA margin 9.8%. Reaching 12% for the year needs **~14% in H2** [E: (0.12 × ~₹47,500 mn FY27E − ₹2,273.5 mn) ÷ ~₹24,200 mn H2E ≈ 14.2%]. Route's best-ever quarter was 12.9% (Q3 FY26).
+  - **The margin guide is very unlikely to be met** [E]. The Q2 press release dropped the margin language and speaks of "translating business momentum into sustainable profitability" (Chairman Seckin Arikan).
+
+**Volumes and pricing (RT1)**
+- CEO Tushar Agnihotri expects volumes to grow **"by 10% to 15% in the next couple of quarters"** as the season sets in. Q2 delivered +3.9% QoQ (45.8 → 47.6 bn).
+- **ILD** "continues to be a challenge in terms of growth for the near term", but "it's not like we are seeing a degrowth".
+  - ILD is "a very relevant part of our business"; the split is not disclosed.
+  - On ILD margins vs domestic: "In absolute value, no [not lower]. In percentage value, maybe yes."
+- **WhatsApp/RCS:** "some aggression in the marketplace on the pricing of WhatsApp and RCS, and we don't really want to participate". An analyst noted the main competitor's WhatsApp/RCS base is ~3× Route's and growing faster.
+  - RCS "definitely … provides a better margin option for aggregators"; some geographies have "exclusive arrangements".
+- **Domestic SMS price (RT4):** an analyst cited ~10p/message domestic pricing and operators capturing 70–80% of the economics. Management did not dispute it.
+
+**Margin dip and recovery (RT1)**
+- The Q1 GM of 20.9% (vs 23.3% in Q4 FY26) came mainly from a **temporary traffic disruption at "select existing large high-margin customers"** during a solution redeployment. The largest was **an Indian customer**, which made the **India entity's segment profit negative in Q1**.
+- Also: "multiple aggregator accounts" and, to a smaller extent, the Masiv cyber incident.
+- Management called these transient: "not revenue or gross margin that we have lost". Q2 GM recovered to 22.4%.
+
+**Cash and capital allocation (RT4; RT1)**
+- **Cash ~₹1,300–1,400 Cr.** Analysts pressed on low treasury yield (<3–4% ex-FX) and on payout (~30%).
+- CFO (8-May): "We utilize a meaningful amount of cash on **vendor prepayments**, which is a usual practice and gives good commercial benefits." Route will "relook at the treasury policy".
+- **M&A:** capability bolt-ons (Heltar ₹33.7 Cr) plus larger "scale" deals that are "more involved decisions".
+- **Dividend:** the regular dividend rises **from ₹11 to a "sustainable" ₹16.5/share (+50%), "payable each quarter"** (8-May).
+- **Cash-conversion guide (24-Jul):** EBITDA→CFO "75% to 100%" for FY27. Q1 was weak on delayed collections from large customers in **India and the UAE** ("not … defaulters"; "a timing problem").
+
+**Group relationship (RT4)**
+- Proximus Global CEO and Route Chairman Seckin Arikan presented BICS's direct MNO relationships, Telesign's identity business and Konera (Proximus's network-API platform) as Route's advantages. India is to be the "product incubation center for the Proximus Global group".
+- **Related-party flows (RT4):** Route sells termination to its sister companies: "Telesign needs to send a lot of SMS traffic into India … we charge Telesign and BICS when they send us that traffic … we charge a margin on top of our cost". The agreements are arm's-length, per transaction.
+- The BICS/Telesign integration "is now completely over" (RT4).
+
+**Operations (RT1)**
+- Headcount "would typically hover around the kind of the 800 count mark"; wage hikes are done.
+- **Claro multi-country firewall deal** (with Proximus): deployment is "behind time … due to certain reasons which are beyond our control"; fixed-plus-variable model.
+- **Masiv incident:** investigation ongoing; provisions made; "very minor" further cost expected. Q2 actually added ₹69.0 mn of remediation fees, versus ₹13.6 mn in Q1.
+- Truecaller business messaging is being tested with customers.
+
+**Analyst Q&A points worth carrying**
+1. *Is 12% still achievable?* (RT1) — "should not materially deviate".
+2. *Why is cash piling up when payout is only ~30%?* (RT4) — M&A, vendor prepayments, treasury review.
+3. *Are you losing WhatsApp/RCS share?* (RT1) — no market data; price discipline.
+4. *How do ILD vs domestic margins compare?* (RT1) — lower %, not lower ₹.
+5. *How do related-party transactions with Telesign/BICS work?* (RT4) — cost-plus per transaction.
+6. *Masiv remediation cost?* (RT1) — "very minor" further (it then rose).
+7. *Revenue per transaction fell 29p → 25p; is there a price floor?* (RT4) — no explicit answer.
+
+#### (b) Concall/deck KPI table (company, ₹ mn unless stated) [V RPPT, RF26, RT1]
+
+| KPI | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|---|
+| Revenue | 11,750 | 10,509 | 11,194 | 11,071 | 11,309 | 11,515 | 11,797 |
+| Billable transactions (bn) | 40.5 | 39.2 | 45.2 | 45.1 | 45.1 | 45.8 | 47.6 |
+| Gross profit | 2,264 | 2,251 | 2,471 | 2,712 | 2,639 | 2,404 | 2,640 |
+| GM | 19.3% | 21.4% | 22.1% | 24.5% | 23.3% | 20.9% | 22.4% |
+| Reported EBITDA | 1,219.0 | ~1,116.5 [E] | 1,359.6 | 1,463.9 | 1,362.3 | 1,054.8 | 1,150.2 |
+| − capitalised IAUD | 32.5 | 38.0 [E] | 32.9 | 33.3 | 19.3 | 28.1 | 35.0 |
+| Adj. EBITDA | 1,200.4 | 1,154.3 | 1,332.5 | 1,429.2 | 1,343.0 | 1,089.3 | 1,184.2 |
+| Adj. EBITDA margin | 10.2% | 11.0% | 11.9% | 12.9% | 11.9% | 9.5% | 10.0% |
+| Reported PAT | 602.8 | 587.8 | (188.3) | 1,025.6 | 1,144.3 | 685.5 | 825.5 |
+| Exceptional (pre-tax) | 247.3 | — | 1,358.7 | — | — | — | — |
+| New-products revenue | n/f | ~829 [E: 945 ÷ 1.14] | 939 | n/f | n/f | 945 | 1,284 |
+| GP per txn (p) [E] | 5.59 | 5.74 | 5.47 | 6.01 | 5.85 | 5.25 | 5.55 |
+
+*Q1 FY26 = H1 FY26 − Q2 FY26 (H1 revenue 21,703; GP 4,722; adj. EBITDA 2,486.8; reported EBITDA 2,476.1; IAUD 70.9; PAT 399.5).*
+
+- **H1 FY26's adj. EBITDA includes a ₹70.1 mn FX-loss add-back that did not recur.**
+- **Working-capital days (RPPT slide 20):** DSO 80 (FY25) → 76 (FY26) → 72 (H1 FY27); payable days 68 → 64 → **50**.
+  - **Payable days fell 14 days in H1.** Together with the ₹1,168 mn vendor prepayment, Route is financing its suppliers faster [V/E].
+- **Vertical mix H1 FY27 (RPPT slide 11, chart-read):** FinServ 15%; Digital native 12%; Telecom & allied 9%; Tier-1 CPaaS partners 9%; **E-commerce 4% (7% FY26, 10% FY24)**; Retail/travel 2%.
+- **Termination geography H1 FY27:** India 35%, Europe 16%, Asia ex-India 13%, Americas 9%, Middle East 7%, Africa 6%.
+- **Customer HQ:** Asia 37%, Americas 33%, Europe 18%, Africa 3%.
+- **Concentration:** top 150 customers ≈ 91% of revenue; top 50 countries ≈ 85% [V chart-read; consistent with Part 2].
+
+#### (c) Five-year history (screener consolidated, ₹ Cr; company GP/adj. EBITDA/transactions) [V SCR-R; V RF26]
+
+| | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Sep-26 |
+|---|---|---|---|---|---|---|---|
+| Revenue | 1,406 | 2,002 | 3,569 | 4,023 | 4,576 | 4,408 | 4,569 |
+| YoY | +47% | +42% | +78% | +12.7% | +13.7% | −3.7% | — |
+| Operating profit | 175 | 220 | 445 | 514 | 529 | 542 | 503 |
+| OPM | 12% | 11% | 12% | 13% | 12% | 12% | 11% |
+| Gross profit (company) | n/f | n/f | n/f | n/f | 951 (20.8%) | 1,007 (22.9%) | 1,040 |
+| Adj. EBITDA (company) | n/f | n/f | n/f | n/f | 524 (11.5%) | 526 (11.9%) | 510 |
+| Billable transactions (bn) | n/f | n/f | n/f | n/f | 155.8 | 174.9 | 183.6 (Q3 FY26–Q2 FY27) |
+| Other income | 16 | 20 | 39 | 57 | 28 | −84 (incl. −136 exceptional) | 64 |
+| Interest | 4 | 7 | 22 | 30 | 42 | 13 | 6 |
+| Depreciation | 26 | 38 | 82 | 86 | 89 | 92 | 94 |
+| PBT | 162 | 195 | 382 | 455 | 426 | 353 | 467 |
+| Tax % | 18% | 13% | 13% | 15% | 22% | 27% | — |
+| PAT (reported) | 133 | 170 | 333 | 389 | 334 | 257 | 368 |
+| Adj. PAT (company) | — | — | — | — | 352 | 376 | — |
+| EPS ₹ | 23.10 | 26.36 | 52.38 | 59.74 | 50.61 | 37.94 | 55.43 |
+| ROCE | 33% | 17% | 22% | 21% | 18% | 17% | — |
+| Debtor days (screener) | 56 | 94 | 72 | 97 | 74 | 75 | (72 company H1) |
+| CFO | 222 | 135 | 73 | −98 | 602 | 581 | (33 H1 FY27) |
+| FCF | 214 | 117 | 35 | −133 | 583 | 555 | — |
+
+- **Read:**
+  - FY23's +78% is the Masivian/365squared/TeleDNA acquisition year plus ILD growth.
+  - **FY23–FY24 CFO was near zero or negative (₹73 Cr, −₹98 Cr)** on a receivables build (debtor days 97 in FY24). FY25–FY26 CFO recovered to ~₹580–600 Cr, and **H1 FY27 fell back to ₹33 Cr** with the vendor prepayment.
+  - **Cash conversion swings between years are the defining feature of Route's history.**
+- **FY25 also had an exceptional item (₹184.5 mn net for the year; ₹247.3 mn in Q4 FY25)** [V RF26]. Write-downs are therefore a recurring pattern, not a one-off: FY25 ₹18 Cr, FY26 ₹136 Cr, and in H1 FY27 a ₹4.9 Cr capital-advance loss allowance.
+
+#### (d) Eight-quarter trend (screener consolidated, ₹ Cr) [V SCR-R]
+
+| Quarter | Q3 FY25 (Dec-24) | Q4 FY25 (Mar-25) | Q1 FY26 (Jun-25) | Q2 FY26 (Sep-25) | Q3 FY26 (Dec-25) | Q4 FY26 (Mar-26) | Q1 FY27 (Jun-26) | Q2 FY27 (Sep-26) |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,184 | 1,175 | 1,051 | 1,119 | 1,107 | 1,131 | 1,152 | 1,180 |
+| YoY | n/c | n/c | −4.7% | +0.5% | −6.5% | −3.7% | +9.6% | +5.4% |
+| Operating profit | 130 | 122 | 94 | 136 | 146 | 136 | 105 | 115 |
+| OPM | 11% | 10% | 9% | 12% | 13% | 12% | 9% | 10% |
+| Other income | 9 | −13 | 11 | −109 | 13 | 28 | 11 | 12 |
+| Interest | 9 | 8 | 6 | 2 | 1 | 1 | 1 | 2 |
+| Depreciation | 22 | 22 | 22 | 23 | 23 | 24 | 24 | 24 |
+| PBT | 107 | 79 | 77 | 2 | 135 | 139 | 91 | 101 |
+| Tax % | 20% | 24% | 23% | 1,042% | 24% | 18% | 25% | 18% |
+| PAT | 85 | 60 | 59 | −19 | 103 | 114 | 69 | 83 |
+| EPS ₹ | 13.09 | 8.98 | 8.45 | −3.37 | 15.51 | 17.35 | 9.94 | 12.63 |
+| Company GM | n/f | 19.3% | 21.4% | 22.1% | 24.5% | 23.3% | 20.9% | 22.4% |
+
+*YoY for Q1 FY26 onward uses screener quarters Jun-24 ₹1,103 Cr / Sep-24 ₹1,113 Cr / Dec-24 ₹1,184 Cr / Mar-25 ₹1,175 Cr.*
+
+- **The pattern:** revenue flat (₹1,184 Cr → ₹1,180 Cr) and OP down (₹130 Cr → ₹115 Cr) over eight quarters. **Interest has fallen to ~₹1–2 Cr/qtr** after the FY26 debt repayment (₹468 Cr → ₹42 Cr borrowings).
+- **Other income is the noisy line:** FX gains (Q4 FY26 ₹18 Cr) and exceptionals (Q2 FY26 −₹136 Cr; Q4 FY25 −₹25 Cr) dominate it.
+
+#### (e) Annual-report findings (FY26 Annual Report 2025-26) [V]
+
+*Source: https://www.bseindia.com/xml-data/corpfiling/AttachHis/36290219-8fc9-49ec-bf79-8ac6a98f6216.pdf (13.2 MB). BSE throttled the download, so the file was assembled from parallel byte ranges (complete, 183 pp). Read: the consolidated auditor's report, exceptional items, related parties, segment, contingencies, equity, BRSR headcount.*
+
+1. **Auditor:** Walker Chandiok & Co LLP (Grant Thornton Bharat), FRN 001076N/N500013. Consolidated accounts signed 7-May-2026.
+   - **Opinion unmodified, but with two Emphasis-of-Matter paragraphs**, on **Note 33.4(a)** (the SIAC partial award in the vendor's favour and the settlement) and **Note 33.4(b)** (the ₹27.9 Cr advance to a vendor that ceased operations). The 33.4(a) EOM repeats one already in a subsidiary auditor's report dated 7-May-2026.
+   - **One KAM: goodwill impairment.** Goodwill is **₹544.51 Cr** at 31-Mar-2026 across Sarv Webs, Masivian, MR Messaging FZE, Route Mobile Communication Services (ex-Interteleco), 365squared, Send Clean (ex-Cellent) and Call2Connect.
+   - Goodwill ≈ **19% of Route's ₹2,911 Cr net worth** [E]. MR Messaging goodwill was already impaired by ₹40.4 Cr in FY25.
+   - **An EOM on a vendor write-off is a stronger audit signal than anything in Tanla's report** (Tanla: clean, two routine KAMs).
+   - **Headcount (BRSR, standalone):** 497 permanent employees at 31-Mar-2026 (399 male / 98 female). Group 786 in the Q2 deck.
+   - Single operating segment ("currently has only one operating segment"). An entity-location table is given.
+
+2. **The vendor-advance write-off, now fully explained (Note 33.4) — ₹135.87 Cr = ₹107.96 Cr + ₹27.91 Cr:**
+   - **(a) ₹107.96 Cr: a minimum-guaranteed SMS volume contract.**
+     - A subsidiary had **prepaid ₹196.61 Cr** to a vendor for the committed volume of the first two years. At 31-Mar-2024 management judged the contract **onerous** (Ind AS 37) and provided ₹26.70 Cr.
+     - Volumes then fell well short. Route sought renegotiation (14-Nov-2024) and **invoked arbitration on 24-Mar-2025** against the "vendor subsidiaries". The vendor counter-claimed (7-Apr-2025) and terminated the agreement. A hearing took place at the **Singapore International Arbitration Centre (SIAC)** in Sep-2025, and Route wrote off the remaining net advance.
+     - **SIAC's partial award of 18-Nov-2025 went against Route:** minimum committed volumes "were not subject to adjustment" and the vendor had no obligation "to refund prepayments made for the first two years". The parties signed a **settlement on 19-Feb-2026** withdrawing all claims.
+     - So **~₹134.7 Cr of the ₹196.6 Cr prepayment was lost** (₹26.7 Cr provided in FY24 + ₹108.0 Cr written off in FY26) [E from V].
+   - **(b) ₹27.91 Cr: an advance for messaging services** paid the previous year to a vendor that "has ceased its business operation"; written off; recovery being explored.
+   - **Neither vendor is named, and neither appears in the related-party note.** SIAC arbitration with "vendor subsidiaries" points to a **foreign MNO group**. **Nothing in the AR links either vendor to Proximus/BICS** (BICS appears in the RPT note only as a customer and a small supplier, below). Writer: say "unnamed foreign MNO group, not a related party per the AR".
+
+3. **FY25 had exceptionals too (₹18.45 Cr net):**
+   - +₹50.07 Cr fair-value gain on contingent consideration for **M.R. Messaging FZE** (Dubai, bought Feb-2022).
+   - −₹40.44 Cr goodwill impairment in the same subsidiary.
+   - −₹28.08 Cr write-off of a **receivable from an MNO** plus a loss on a short-term MNO contract.
+   - **Three consecutive years of MNO-contract losses (FY24 provision, FY25, FY26)** [V].
+
+4. **Advances to suppliers still on the balance sheet:** ₹154.6 Cr at 31-Mar-2026 (current ₹150.38 Cr + non-current ₹4.17 Cr), down from ₹420.4 Cr at 31-Mar-2025 (₹271.38 Cr + ₹149.03 Cr). Capital advances ₹10.38 Cr.
+   - **H1 FY27 added a further ₹116.8 Cr** (Q2 deck), so supplier advances are likely back to **~₹250–270 Cr at Sep-2026** [E]. The Sep-26 balance sheet split was not read.
+   - **This is the number to watch.** The CFO calls prepayments "a usual practice and gives good commercial benefits" (RT4).
+
+5. **Related-party transactions with the Proximus group (Note 39, ₹ Cr, FY26 vs FY25) — larger than the dossier assumed:**
+
+| Item | FY26 | FY25 | Note |
+|---|---|---|---|
+| **Sale of messaging services to Telesign Corp** | **658.63** | 460.18 | **14.9% of FY26 consolidated revenue** (10.1% in FY25), +43% YoY |
+| Sale of messaging services to BICS | 52.72 | 15.23 | 1.2% of revenue |
+| Sale to Telesign Colombia / Proximus Global | 0.88 / 0.03 | 0.20 / — | |
+| **Total sales to the Proximus group** | **~712.3** | ~475.6 | **~16.2% of revenue** [E] |
+| Purchase of messaging services from BICS / Telesign | 44.94 / 14.39 | 12.54 / 7.85 | |
+| Technical & support services (BICS 6.24, Telesign 8.21, Proximus SA 0.70, PG 0.17, Proximus Services India 0.17) | ~15.5 | ~3.1 | |
+| **Management support services (Proximus Global 4.02, BICS 3.99, Telesign 2.10)** | **10.11** | — | **New charge in FY26**, in "other expenses" |
+| Licence purchases (Telesign 2.48, BICS 1.44) | 3.92 | — | |
+| Trade receivables: Telesign / BICS | 131.50 / 21.27 | 99.44 / 2.12 | Telesign ≈ 14% of Route's receivables (₹909 Cr) [E] |
+
+   - **Read:**
+     - **Telesign (a Proximus Global sister company) is almost certainly Route's single largest customer**, at ~15% of revenue and rising. This means (i) some of Route's "growth" is intra-group traffic priced on the cost-plus RPT agreements described on the Q4 call, (ii) margins on that traffic are set by agreement, not by the market, and (iii) **minority shareholders' economics depend partly on intra-group transfer pricing**.
+     - Route's audit committee approves these as arm's-length RPTs [V RT4]. **Present neutrally; do not allege.**
+     - The new ₹10.1 Cr "management support services" charge from the parent group is the first explicit **parent-level fee** (Tanla has none).
+
+6. **Revenue by location of the billing entity (Note 45, ₹ Cr, FY26 / FY25):** UK 1,289.2 / 1,685.4 (−23.5%: the ILD/global-tech loss); **India 850.8 / 878.3**; Malta (365squared firewall) 658.2 / 657.9; USA 616.9 / 467.1 (+32%); Dubai 493.7 / 489.9; others 499.4 / 397.0.
+   - **Segment results: India entities ₹69.2 Cr (₹111.9 Cr FY25) vs overseas entities ₹376.0 Cr (₹326.3 Cr).** India-registered entities earned only **15.5% of segment profit on 19.3% of external revenue** in FY26 [E]. In Q1 FY27 the India entity's result turned negative (RT1).
+
+7. **Non-controlling interests:** FY26 PAT ₹256.94 Cr includes **₹17.92 Cr attributable to NCI**, so **PAT attributable to Route's owners was ₹239.02 Cr** (EPS ₹37.94 is on this basis). Screener's "₹257 Cr" is pre-NCI. *Use ₹239 Cr for P/E on owners' earnings* [V].
+
+8. **Dividends paid in FY26:** final FY25 ₹2 (₹12.60 Cr) + interim FY26 ₹9 (₹56.70 Cr); **proposed final FY26 ₹2** → **FY26 total ₹11/share** (₹9 interim + ₹2 final) [V]. Confirms Part 2.
+
+9. **Debt:** "There is no outstanding debt as at 31 March 2026" (borrowings ₹440.96 Cr at 31-Mar-2025). Screener's ₹39–42 Cr is lease liabilities [V].
+
+10. **Contingent liabilities (Note 44, ₹ Cr, Mar-26 / Mar-25):** income tax 17.62 / 17.92; GST 76.94 / 85.42; service tax nil / 0.25; PF 0.28 / —; **bank guarantees 225.73 / 181.62**; total 320.58 / 285.21.
+    - **BG margin money in bank balances: ₹95.46 Cr** (₹182.72 Cr). Route's BG exposure (₹226 Cr) exceeds Tanla's (₹189 Cr) on a smaller India business, reflecting MNO-side guarantees abroad.
+
+11. **Management churn visible in the KMP list:**
+    - CEO Gautam Badalia (to 17-Jul-2025) → MD Rajdip Gupta as CEO (18-Jul-2025 to 9-Feb-2026) → **Tushar Agnihotri CEO from 9-Feb-2026**.
+    - Chairman Guillaume Boutin (to 17-Apr-2025) → Mark Reid (non-exec, to 22-Jan-2026) → **Seckin Arikan Chairman from 22-Jan-2026**.
+    - CFO: Suresh Jankar (CFO) with Raj Gill (Group CFO).
+    - **Three CEOs and three chairmen in ~15 months** [V].
+
+12. **Cost structure FY26 (consolidated, ₹ Cr):** purchase of messaging services 3,400.9 (77.1% of revenue — matches GP 22.9%); employee 288.9 (6.6%); other expenses 181.2 (legal & professional 46.5; trade receivables written off 11.8; ECL 5.5; management support 10.1). PBT before exceptional ₹488.9 Cr; tax ₹96.1 Cr.
+
+---
+
+## 4.3 INDUSTRY DATA UPGRADED FROM PRIMARY SOURCES (chart-ready)
+
+**I1. UCC (spam) complaints received by telcos, calendar 2025 (number of complaints)** [V-sec: Rajya Sabha written reply, Minister of Communications, reproduced by Communications Today 10-Feb-2026; total cross-checked with TRAI PR 20/21 of 2026 via MediaNama ">3.1 mn"]
+
+| Month 2025 | Unregistered TMs (10-digit numbers) | Registered TMs (DLT) | Total |
+|---|---|---|---|
+| Jan | 1,34,821 | 13,299 | 1,48,120 |
+| Feb | 1,05,102 | 11,111 | 1,16,213 |
+| Mar | 1,16,221 | 15,741 | 1,31,962 |
+| Apr | 1,24,105 | 14,602 | 1,38,707 |
+| May | 2,11,509 | 49,248 | 2,60,757 |
+| Jun | 2,68,150 | 57,751 | 3,25,901 |
+| Jul | 2,87,574 | 50,873 | 3,38,447 |
+| Aug | 3,08,320 | 85,746 | 3,94,066 |
+| Sep | 3,12,083 | 71,501 | 3,83,584 |
+| Oct | 2,16,476 | 39,138 | 2,55,614 |
+| Nov | 2,40,162 | 41,985 | 2,82,147 |
+| Dec | 2,77,551 | 56,766 | 3,34,317 |
+| **2025** | **26,02,074** | **5,07,761 (16.3%)** | **31,09,835** |
+
+- **Read:** complaints **more than doubled** from a Jan–Apr average of 1.34 lakh/month to 2.91 lakh/month in Oct–Dec.
+  - This reflects the Feb-2025 amendment, which let consumers complain without first registering a preference and widened the window from 3 to 7 days, plus the DND app (2.8 mn installs; 1.7 mn complaints via the app in 2025).
+  - It is not evidence that spam itself doubled.
+- **Registered (DLT) telemarketers account for only ~16% of complaints**, and TRAI's 2026 memorandum found ~80% of those invalid (Part 1 §7.1).
+- **Unregistered 10-digit senders are the spam problem; the DLT-registered A2P channel that Tanla/Route run is not.** Chart this.
+
+**I2. Enforcement and DLT scale, latest primary/near-primary**
+- **DLT registrations:** >3 lakh senders (PEs), ~21,000 telemarketers [V-sec RS reply, Feb-2026].
+  - A vendor guide (Message Central, early 2025) cites ~2.5 lakh+ PEs, 6 lakh+ headers and 55 mn+ approved templates [V-snip, weak].
+- **Blocking:** >7.5 crore SMS + voice calls blocked per day on average (Dec-2025) [V-sec].
+- **Penalties on telcos:** ₹153.8 Cr of financial disincentives imposed on TSPs for wrongly closing UCC complaints [V-sec].
+- **Disconnections:** 1.84 lakh telecom resources disconnected in 2025; 21 lakh cumulative since Aug-2024. 7.31 lakh notices to unregistered telemarketers in 2025; 4.73 lakh one-month restrictions; 89,936 six-month caps [V-snip MediaNama citing TRAI PR 20/21-2026].
+- **Traceability:** >27,000 PEs had declared PE-TM chains by Dec-2024; rejection from 11-Dec-2024 [V-snip].
+- **India A2P volume (still no regulator series):**
+  - Vendor estimate: commercial SMS **>40 bn/month (~480 bn/yr)** [V-snip Message Central, undated].
+  - **Tanla's AR: Wisely.ai scans >500 bn messages/yr (>1.5 bn/day) across SMS, WhatsApp and voice, including Indonesia** [V TAR].
+  - Together these support an **order of magnitude of ~0.5 trillion commercial messages a year** in India. Keep Part 1's range but narrow it to **~450–700 bn/yr [E]**.
+
+**I3. WhatsApp Business Platform — Meta's own India price list (₹ per delivered message, ex-GST; card effective 1-Oct-2026)** [V META]
+
+| Category | List rate | Volume tiers (per business portfolio, monthly) | Change history (Meta change-log) |
+|---|---|---|---|
+| Marketing | **₹0.8631** | none | Raised 1-Jan-2026 (from ₹0.7846 per vendor history [V-snip]) |
+| Utility | **₹0.1150** | 0–25 mn list; 25–50 mn ₹0.1081 (−6%); 50–100 mn ₹0.1012 (−12%); 100–200 mn ₹0.0943 (−18%); further tiers beyond | In-window utility free 1-Jul-2025 → 30-Sep-2026; charged from 1-Oct-2026 |
+| Authentication | **₹0.1150** | 0–0.75 mn list; 0.75–15 mn −6%; 15–20 mn −12%; 20–50 mn −18% | — |
+| Authentication-international | **₹2.4971** | tiers as authentication | Raised 1-Apr-2026 |
+| Service | ₹0.1150 after **1,000 free per number per month** (from 1-Oct-2026) | — | Free until 30-Sep-2026 |
+| USD equivalents (USD card) | Marketing $0.0118; utility/auth $0.0014; auth-intl $0.0304 | | |
+
+- **Read:**
+  - (i) A WhatsApp authentication message at ₹0.115 (₹0.094 at the 100 mn+ tier) is **priced at or below a domestic DLT SMS OTP** (~₹0.10–0.15 delivered).
+  - (ii) **Authentication-international (₹2.50) is 22× domestic.** This is Meta's own version of the ILD premium, charged when an overseas business authenticates an Indian user. It is directly comparable to the ILD SMS pool Route lost.
+  - (iii) Marketing at ₹0.863 is **7.5× utility**, which is why the marketing-to-utility mix shift caps WhatsApp revenue growth (Tanla call).
+- **INR billing:** live from 1-Jan-2026 for India-based BSPs. **All India accounts must migrate to INR by 31-Dec-2026**; Meta stops delivering from non-INR accounts of eligible customers on 1-Jan-2027 [V META].
+
+**I4. RCS business-messaging prices in India (₹ per message)**
+
+| Operator | Before | After | Date | Source |
+|---|---|---|---|---|
+| Jio — marketing | flat 0.08–0.10 | **0.27–0.30** | 1-Sep-2026 | Inc42 9-Sep-2026, citing ET and Jio's emails [V-snip] |
+| Jio — transactional/utility | flat 0.08–0.10 | **0.25** | 1-Sep-2026 | same |
+| Jio — OTP | flat 0.08–0.10 | **0.11–0.16** | 1-Sep-2026 | same |
+| Airtel (Google RBM) | — | **0.11** (80% Airtel / 20% Google) | Dec-2025 launch | ET via search summaries [V-snip] |
+| Context | India RCS interactions +108% (H1-25 → H1-26); BFSI/fintech >¾ of RCS traffic (Infobip data) | | | Inc42 [V-snip] |
+
+- **Read:** Jio's new RCS marketing price (₹0.27–0.30) is **~3× its old flat rate**. It is still ~⅓ of WhatsApp marketing (₹0.86) but ~2× a DLT SMS. Jio's RCS OTP (₹0.11–0.16) is priced level with SMS/WhatsApp authentication.
+
+**I5. Telco interconnect/termination asks (Dec-2025 consultation) vs TRAI outcome**
+
+| Item | Status quo | Telcos asked (Jio/Airtel/Vi, Dec-2025) | TRAI outcome |
+|---|---|---|---|
+| Deterrent termination on commercial domestic SMS | ~₹0.07/SMS (as stated by telcos) | ~₹0.12/SMS | Not changed in the 3rd amendment (pending in the interconnection review) |
+| A2P **calls** termination | none (P2P regime) | ₹0.50/min (Jio: else forbearance) | **Up to ₹0.05/min** (3rd amendment, finalised 18-Sep-2026; effective 60 days after notification) |
+| International SMS termination into India | forborne (telcos set freely; ~₹2–5/SMS by origin per press) | — | DoT OM 19-Jun-2025 forces all foreign-originated SMS onto ILD gateways |
+| International comparison (domestic per-SMS termination, industry estimates) | India lowest | South Africa ₹0.27; US ₹0.7; Brazil ₹5.4; Argentina ₹8.4 | — |
+
+[V-snip telecomlive 18-Dec-2025; MediaNama Mar-2025/Mar-2026; V medianama Sep-2026 for the final rule (Part 1)]
+
+**I6. Global peer table refresh (latest reported quarter)**
+
+| Company | Period | Revenue | Gross margin | EBITDA / op margin | Pass-through treatment | Tag |
+|---|---|---|---|---|---|---|
+| Twilio | Q3-2026 | $1.56 bn (+20%; +16% organic) | 49% NG | 21% NG op | ~$53.1 mn A2P carrier fees "passed at cost", excluded from organic growth | [V TWLO] |
+| Bandwidth | Q3-2026 | $234 mn (+22%) | 61% NG | adj. EBITDA $34.8 mn = **22% of revenue ex pass-through** (15% of total) | **~$76 mn (32% of revenue) pass-through messaging surcharges stripped out of "cloud communications revenue"** | [V BAND] |
+| LINK Mobility | Q2-2026 | NOK 2,050 mn (+17%; +3% organic) | 24.0% | 13.3% adj. EBITDA | GP-based KPIs | [V-snip] |
+| Proximus Global (BICS + Telesign + Route) | Q3-2026 | €369 mn (−2.0%) | direct margin €106 mn = 28.7% | EBITDA €35 mn = 9.5% | — | [V PXQ3] |
+| Tanla | Q2 FY27 | ₹1,352 Cr (~$142 mn) (+25.3%) | 26.1% | 15.9% | gross (telco fees inside revenue) | [V] |
+| Route | Q2 FY27 | ₹1,180 Cr (~$124 mn) (+5.4%) | 22.4% | 10.0% adj. | gross | [V] |
+
+- **Insight for the writer:**
+  - **US peers now report revenue *net* of carrier pass-through fees, or show the pass-through separately** (Bandwidth strips 32%; Twilio excludes A2P fees from organic growth). The Indian pair report gross.
+  - **On a Bandwidth-style "net revenue" basis, Tanla's Q2 FY27 "EBITDA margin" would be ~61% of GP** and Route's ~45%. That puts Tanla above Bandwidth (22% of net revenue) and Twilio on GP-normalised efficiency [E].
+  - Proximus Global (which consolidates Route) earns a 9.5% EBITDA margin. **Route (10.0%) is not dilutive to its parent's margin**, but Proximus Global's EBITDA fell 8% YoY while Route's fell 11%.
+
+**I7. Proximus Global quarterly trend (€ mn)** [V PXQ2, PXQ3; Q1 from search summary]
+
+| | Q1-2026 | Q2-2026 | Q3-2026 |
+|---|---|---|---|
+| Revenue | 354 (−18.8%) [V-snip] | 353 (−3.9%) | 369 (−2.0%) |
+| Direct margin | n/f | 101 (−10.5%) | 106 (+0.8%) |
+| EBITDA | 33 [V-snip] | 29 (−34.9%) | 35 (−8.1%) |
+| FY26 EBITDA guide | 100–130 (28-May) | 110–120 | **125–135 (raised)** |
+
+---
+
+## 4.4 GAP LOG (§H items and §2.4 items: status after this pass)
+
+| # | Gap (Part 1 §H / §2.4) | Status | Result / what was tried |
+|---|---|---|---|
+| H1 | India A2P SMS volume series | **Partly filled** | No TRAI/DoT series exists in the Performance Indicator reports or parliamentary replies. New anchors: vendor ">40 bn/month"; Tanla Wisely ">500 bn/yr scanned"; TRAI ">7.5 crore messages/calls *blocked* per day". Range narrowed to ~450–700 bn/yr [E]. **Still do not chart a time series.** |
+| H2 | India CPaaS market size | **Still open (by design)** | No primary source. Tanla's ED (TT4) gives a *growth* figure, "8–10% a year". Keep the bottom-up ₹11–14k Cr [E]; the Tanla call adds that 75–80% of spend sits with ~250 enterprises. |
+| H3 | Telco termination rates (domestic and international) | **Partly filled** | Domestic deterrent ~₹0.07/SMS and the telcos' ask for ₹0.12 (Dec-2025); A2P call 5p/min final; international termination forborne (~₹2–5/SMS by origin, press). **No 2025–26 telco rate card or confirmed commercial hike found.** Tanla's ED (Apr-2026): a reset is "on the cards". |
+| H4 | Meta India WhatsApp rate card; ₹0.8631 date conflict | **Filled** | Meta rate card and change-log [V]; 1-Jan-2026 (S4) |
+| H5 | RCS Sep-2026 repricing | **Filled (secondary)** | Jio's tariff from its emails via ET/Inc42 (S6); Tanla's letter confirms. Google/Airtel side: no change found. |
+| H6 | Traceability effective date | **Filled** | 11-Dec-2024 rejection start; 10-Dec deadline (S8) |
+| H7 | TRAI spam complaint counts; DLT totals | **Filled** | 2025 monthly series and DLT counts (S7, I1, I2) |
+| H8 | Tanla past SEBI / income-tax probes | **Filled (refuted as stated)** | AR shows no SEBI order and no search. A ₹46.9 Cr TDS demand on the Karix purchase (seller-indemnified) is the actual tax matter. Earlier items: the ₹5 lakh exchange fine for board composition and the 2020 insider-code disgorgement [V-snip, Part 1]. **Writer: no "probe" language.** |
+| H9 | ValueFirst overseas 2026 consideration | **Still open** | Not in the Q2 letter, Q1/Q2 decks or AR. H1 cash outflow only ₹78 mn "investment in subsidiary"; the delay was RBI approval of "old matters" (TT4). Implied deferred consideration [E]. A Reg-30 completion filing (Aug-2026) would carry it; not retrieved (BSE throttling). |
+| H10 | Tanla volumes / Trubloq share / platform composition | **Still open (partly)** | Tanla does not disclose message counts or Trubloq share; the AR gives Wisely scan volumes only. ATP pricing = per subscriber per month (TT4). **"~62%" remains unsourced; drop it or caveat as "primer estimate".** |
+| H11 | Route vendor-advance counterparty; Proximus-affiliate link | **Mostly filled** | The AR names neither vendor, but describes them (a foreign MNO group's subsidiaries under SIAC arbitration, and a vendor that ceased operations). **Neither is a related party**; BICS/Telesign appear as customers (₹711 Cr of sales) and small suppliers (₹59 Cr). The counterparty of the H1 FY27 ₹116.8 Cr advance is still unnamed (S26, S27) |
+| H12 | Route vertical/geography mix | **Re-read** | H1 FY27 chart values re-extracted (§4.2.2(b)); consistent with Part 2 (±1 pt); e-commerce 4% is new |
+| H13 | Peers Bandwidth/LINK/8x8; peer EV/EBITDA | **Partly filled** | Bandwidth and LINK replaced (S20, S21). 8x8 not fetched (not an A2P peer; low priority). **Peer EV/EBITDA multiples still not fetched** (no free consensus source without login) — the writer should avoid quoting peer multiples or tag them [K]. |
+| H14 | Karix acquisition year | **Filled** | FY2018-19 (S2) |
+| H15 | Route open-offer peak 83.11% vs 82.70% | **Filled (screener)** | Screener Jun-24 = 83.11% [V]. The 82.70% is likely the post-open-offer figure in the offer's completion report (not fetched). Use "about 83%". |
+| H16 | Belgian state stake | **Filled** | 53.51% (S18) |
+| 2.4-T1 | Tanla cash ₹1,447 Cr vs CARE ₹859 Cr | **Filled** | S10 |
+| 2.4-T2 | Platform GM 98.5% vs 90% | **Filled** | S11 |
+| 2.4-T3 | "One-time campaigns" size | **Still open** | Not quantified in the letter |
+| 2.4-T4 | Customers 3,200+ vs 2,000+ | **Open (definitional)** | Company "3,200+ enterprises" vs CARE "2,000+ established enterprises"; the AR adds "top 250 customers = 75–80% of enterprise market spend" (TT4) |
+| 2.4-R1 | Route FY26 PAT driver | **Filled** | ₹135.9 Cr exceptional (RF26 bridge [V]); not tax |
+| 2.4-R2 | Route dividends FY26 ₹11 / FY27 interims | **Filled** | S12 |
+| 2.4-R3 | Route Q1 FY27 board date | **Filled** | S13 |
+| 2.4-R4 | Route clients 3,100+ vs 2,400+ | **Open (definitional)** | Q2 deck: "2,400+ active billable clients" — use it |
+| 2.4-R5 | Monitoring-agency issue identity | **Still open** | Axis Bank report (30-Oct-2026) not opened |
+
+### 4.4b Status of argument-carrying [K] / [V-snip] / [E] tags in Parts 1–3
+
+| Part 1–3 item | Old tag | Now |
+|---|---|---|
+| Karix 2018 | [K] | **[V] FY2018-19** (S2) |
+| Belgian state ~53.5% | [K] | **[V] 53.51%** (S18) |
+| WhatsApp ₹0.8631 / ₹0.115; per-message pricing 1-Jul-2025 | [V-snip] | **[V] Meta** (S4, S5) |
+| RCS 6–7p → 20–25p | [V-snip] | **[V-snip], better source; revised** (S6) |
+| Traceability date | [V-snip], conflicting | [V-snip], three sources agree (S8) |
+| Feb-2025 amendment ₹2/5/10 lakh penalties on telcos; 5-in-10-days threshold | [V-snip] | Unchanged ([V-snip] tele.net.in, quoting TRAI text). The TRAI PR PDF is a scanned image (no text layer), so it could not be verified directly |
+| Telco bulk-SMS hike +25–30% (Aug-2023) | [V-snip] | Unchanged. A 2023 blog notes the figures may refer to international SMS → **downgrade to "reported"** |
+| Vendor-quoted Jio/Airtel/Vi termination ranges | [V-snip] | Unchanged (vendor only); add the ₹0.07 deterrent figure (S25) |
+| Route vendor-advance description ("major MNO and an SMS aggregator") | [V-snip] | **[V] AR Note 33.4** (S26) |
+| Proximus Global ~€3.1 bn equity (Jan-2025); ~91.3% Proximus ownership | [V-snip] | Unchanged (not in the Q2/Q3 releases) |
+| Mark Reid exit (Jan-2026) | [V-snip] | **[V] AR KMP list: non-exec director till 22-Jan-2026** |
+| Masivian incident (Jun-2026) | [V-snip] | **[V] Q1 call + Q2 deck** (fees ₹13.6 mn Q1 + ₹69.0 mn Q2) |
+| Infobip 2025 $2.34 bn | [V-snip] | Unchanged (not re-fetched) |
+| Kaleyra/Tata Comm digital margin | [V-snip] | Unchanged |
+| Tanla ₹5 lakh exchange fine; 2020 insider-code disgorgement | [V-snip] | Unchanged; no further matters in the AR (S3) |
+| "~62% Trubloq share"; platform split 50/30/20 | primer, unverified | **Still unsourced** (not in AR/letter/transcript) |
+| "Meta withdrew WhatsApp incentives" | [K] | **Still unverified.** Not mentioned in the Q4 FY26 transcript or the Q2 letter |
+| DPDP Rules notified Nov-2025 | [K] | Not re-checked (low priority for the argument) |
+| India A2P market US$3–5 bn (market-research) | [V-snip] | Unchanged; still "do not use" |
+| India ~4–5% of global CPaaS; combined ~half of India GP pool | [E] | Adjust: **Tanla is ~74% India by customer location**, so the India GP pool share falls to ~40–45% [E] |
+| Route EV/EBITDA 2.8×; P/E 7.9× | [E]/[V] | P/E on owners' PAT TTM: screener TTM ₹368 Cr is pre-NCI; on owners' earnings the P/E is ~8.2× [E: NCI ~₹18 Cr/yr] |
+
+---
+
+## 4.5 NEW INSIGHTS THE FIRST PASS MISSED, AND NEW PRIMER ISSUES
+
+### Insights an expert would add
+1. **Route's largest customer is its sister company.**
+   - Telesign (Proximus Global) bought **₹658.6 Cr of messaging from Route in FY26: 14.9% of revenue, up 43% YoY**. Adding BICS, ~16% of Route's revenue is intra-group at cost-plus prices.
+   - Route's "Tier-1 CPaaS partner" and international revenue therefore partly depend on transfer pricing set inside Proximus.
+   - Minorities' economics hinge on the RPT terms (approved by the audit committee as arm's-length). A new **₹10 Cr/yr "management support services"** fee to the parent group started in FY26.
+   - Pair this with the 74.85% MPS ceiling and the absence of any delisting signal in Proximus's Q3-2026 release. It is the **core of the "controlled-subsidiary discount"** argument.
+2. **The vendor-advance problem is a minimum-commitment contract, not fraud.**
+   - Route prepaid ₹196.6 Cr for two years of minimum-guaranteed SMS volume. Volumes collapsed with the ILD/AIT shift, and SIAC held the commitments binding: **~₹135 Cr lost on one contract.**
+   - Route keeps doing it: ₹154.6 Cr of supplier advances at Mar-26 and ₹116.8 Cr more in H1 FY27, and the CFO calls prepayments "good commercial benefits".
+   - **This is the price of buying termination at scale in a falling-volume market**, and the auditor now flags it (EOM).
+3. **Tanla is a quarter international by billing.**
+   - Overseas customers were **26.5% of Tanla's FY26 revenue** (28.3% FY25). These are mostly global tech/OTT firms billed for traffic into India, plus ME/SEA from Aug-2026.
+   - The "domestic champion vs global aggregator" contrast with Route (India 19% by billing entity; 35% by termination) still holds, but it is **74/26 vs 19/81, not 90/10**.
+4. **WhatsApp authentication has undercut SMS OTPs, and Meta prices an "ILD premium" of its own.**
+   - Meta's India card: authentication ₹0.115, falling to ₹0.094 at 100 mn+/month. That is at or below a delivered DLT SMS.
+   - Authentication-international (an overseas business messaging an Indian user) costs **₹2.50, 22× domestic**. The OTP economics Route lost on ILD SMS are being rebuilt on Meta's rails, with Meta as the toll-taker.
+5. **Telcos repriced RCS ~3× (Jio, 1-Sep-2026) as Apple's RCS support made it a two-OS channel.** RCS marketing at ₹0.27–0.30 sits between SMS (~₹0.12) and WhatsApp marketing (₹0.86). Tanla's "partial offset" comment and Route's "RCS gives aggregators a better margin" are two sides of the same move.
+6. **Spam is an unregistered-sender problem.** In 2025 only 16% of 31.1 lakh UCC complaints concerned DLT-registered telemarketers, and most of those were found invalid. Complaints doubled through 2025 as TRAI made complaining easier.
+   - Regulatory pressure is falling on telcos (₹153.8 Cr of penalties) and 10-digit spammers. That **strengthens, rather than threatens, the registered A2P aggregators and Trubloq** (which also carried the 1600-series BFSI voice rollout).
+7. **Audit-quality contrast.**
+   - Tanla: clean opinion, two routine KAMs, related parties of ₹21 lakh. Its one big tax item (₹46.9 Cr TDS on the Karix purchase) is seller-indemnified.
+   - Route: unmodified opinion **with two Emphasis-of-Matter paragraphs**, a goodwill KAM (₹545 Cr, ~19% of net worth), three CEOs and three chairmen in ~15 months, and three straight years of MNO-contract losses.
+8. **US peers strip pass-through revenue; Indian peers don't.**
+   - Bandwidth reports margins on revenue net of ~32% pass-through surcharges; Twilio excludes A2P carrier fees from organic growth.
+   - Restated on GP, Tanla's EBITDA/GP (61%) beats Bandwidth's adj. EBITDA/cloud revenue (22%) and Twilio's NG op income/GP (~42%). **GP-based multiples are the only fair cross-border comparison.**
+
+### New primer issues (format as primer-issues.md)
+
+#### From CPaaS deep-research pass (2026-11-01, cpaas-industry.md Part 4)
+
+- **tanla-platforms.html — Karix date:** the AR confirms the Karix SPA in **FY2018-19**. Change "2017" to "2018".
+- **tanla-platforms.html — geography:** add that **26.5% of FY26 revenue came from overseas customers** (FY26 AR Note 47). Any "almost entirely domestic" wording is wrong.
+- **tanla-platforms.html — tax matter:** add the **₹46.9 Cr TDS demand (31-Mar-2026) on the Karix purchase consideration, seller-indemnified, under appeal**; contingent "claims not acknowledged" rose from ₹16.8 Cr to ₹63.6 Cr. Do **not** describe SEBI or income-tax "probes"; none is disclosed.
+- **tanla-platforms.html — segment labelling:** Platform/Enterprise are management-reported lines; the audited accounts have one Ind AS 108 segment.
+- **tanla-platforms.html — WhatsApp pricing:** use Meta's card (marketing ₹0.8631 from 1-Jan-2026; utility/auth ₹0.115 with tiers; service charged beyond 1,000/month from 1-Oct-2026; INR billing deadline 31-Dec-2026).
+- **tanla-platforms.html — buyback detail:** 20 lakh shares at up to ₹875 (₹175 Cr), FY26.
+- **tanla-platforms.html — ATP model:** Wisely ATP is priced per protected subscriber per month (Q4 FY26 call). Third bank (Bandhan) live Mar-2026.
+- **route-mobile.html — related-party exposure missing:** **Telesign = ₹658.6 Cr (14.9%) of FY26 revenue; BICS ₹52.7 Cr; new ₹10.1 Cr management-support fee to the Proximus group.**
+- **route-mobile.html — vendor write-off mechanics:** ₹196.6 Cr minimum-guarantee prepayment; SIAC award against Route (18-Nov-2025); settlement 19-Feb-2026; ₹27.9 Cr second vendor ceased operations. **Auditor's Emphasis of Matter** on both.
+- **route-mobile.html — owners' PAT:** FY26 PAT attributable to owners is **₹239 Cr** (NCI ₹17.9 Cr), not ₹257 Cr.
+- **route-mobile.html — debt:** "no outstanding debt at 31-Mar-2026"; the ₹39–42 Cr is leases.
+- **route-mobile.html — leadership timeline:** Badalia → Rajdip Gupta (interim CEO Jul-25 to Feb-26) → Agnihotri (CEO from 9-Feb-2026); Chairman Seckin Arikan from 22-Jan-2026.
+- **route-mobile.html — FY27 dividend:** ₹4 + ₹4 interims declared (record dates 29-Jul and 2-Nov-2026) against the ₹16.5 "sustainable" guide.
+- **route-mobile.html — guidance credibility:** the 12% adj. EBITDA guide needs ~14% in H2 (H1 9.8%; best-ever quarter 12.9%). Flag as at risk; mgmt on 24-Jul: "should not materially deviate".
+- **route-mobile.html — Proximus context:** Proximus Global Q3-2026 revenue €369 mn, EBITDA €35 mn, FY26 EBITDA guide raised to €125–135 mn. No statement on Route's listing.
+- **Both — RCS:** Jio repriced RCS from a flat ₹0.08–0.10 to marketing ₹0.27–0.30 / utility ₹0.25 / OTP ₹0.11–0.16 on 1-Sep-2026.
+
+---
+
+## 4.6 SOURCE URLS FOR PART 4 (all fetched 1-Nov-2026)
+
+**Tanla**
+- Q2 FY27 shareholder letter: https://www.bseindia.com/xml-data/corpfiling/AttachLive/a2d1230c-3063-47be-86d4-df249fc40cb4.pdf
+- Q2 FY27 press release: https://www.bseindia.com/xml-data/corpfiling/AttachLive/a8d6ea8f-694c-43d2-a614-6ed332db0c79.pdf
+- Q2 FY27 investor presentation: https://www.bseindia.com/xml-data/corpfiling/AttachLive/2d48d122-1dfd-42d1-814b-25d80519b9af.pdf
+- Q1 FY27 investor presentation: https://www.bseindia.com/xml-data/corpfiling/AttachLive/22d3956b-a592-4f70-9529-fca64b5512b9.pdf
+- Q4 FY26 call transcript (27-Apr-2026): https://www.bseindia.com/xml-data/corpfiling/AttachHis/d8d4867b-ef4d-428a-8987-2a59cfe9fd88.pdf
+- FY26 Integrated Report: https://www.bseindia.com/xml-data/corpfiling/AttachHis/3536807d-aebe-47aa-b316-02bae1d8f7e9.pdf
+- CARE (6-Apr-2026): https://www.careratings.com/upload/CompanyFiles/PR/202604130442_Tanla_Platforms_Limited.pdf
+- Tax-demand Reg-30 summary: https://www.whalesbook.com/corporate-news/English/tech/Tanla-Platforms-Faces-indian-rupee4690-Cr-Tax-Demand-Company-Contests-Cites-Seller-Pact/69d5053931d4f2ab4811ce2a
+- Screener: https://www.screener.in/company/TANLA/consolidated/
+
+**Route**
+- Q2 FY27 press release: https://www.bseindia.com/xml-data/corpfiling/AttachLive/5c56f30f-337a-424d-819d-8fdb734ae93f.pdf
+- Q2 FY27 presentation: https://www.bseindia.com/xml-data/corpfiling/AttachLive/075a5e13-890a-40fe-b82e-02e295d20fa0.pdf
+- FY26 deck: https://www.bseindia.com/xml-data/corpfiling/AttachHis/654c6bef-ba9d-49cc-a2d4-24534844ceb5.pdf
+- Q4 FY26 transcript (8-May-2026): https://www.bseindia.com/xml-data/corpfiling/AttachHis/ba821fc6-e7d0-4137-a0d5-db7932b4fa50.pdf
+- Q1 FY27 transcript (24-Jul-2026): https://www.bseindia.com/xml-data/corpfiling/AttachHis/2a5b8fc8-740e-43c3-a802-59a9f329e6fe.pdf
+- FY26 Annual Report: https://www.bseindia.com/xml-data/corpfiling/AttachHis/36290219-8fc9-49ec-bf79-8ac6a98f6216.pdf
+- 1st interim dividend: https://scanx.trade/stock-market-news/companies/route-mobile-q1-results-net-profit-rises-17-yoy-to-62-6-crore/46507222
+- Screener: https://www.screener.in/company/ROUTE/consolidated/
+
+**Platform owners / regulator**
+- Meta WhatsApp pricing (page + INR/USD rate-card PDFs linked from it): https://developers.facebook.com/docs/whatsapp/pricing/
+- UCC complaints 2025 (Rajya Sabha reply): https://www.communicationstoday.co.in/dot-and-trai-have-taken-widespread-action-for-curbing-spam-calls/
+- TRAI PR 20/21 of 2026 summary: https://www.medianama.com/2026/02/223-trai-issued-731000-notices-unregistered-telemarketers-2025/
+- TRAI PR 11/2025 (scanned, no text layer): https://trai.gov.in/sites/default/files/2025-02/PR_No.11of2025.pdf
+- Traceability deadlines: https://tele.net.in/trai-extends-deadline-for-implementation-of-traceability-mandate-for-commercial-messages-to-december-11-2024/ · https://www.msei.in/SX-Content/Circulars/2024/December/Circular-16445.pdf
+- Telco interconnect asks (Dec-2025): https://telecomlive.in/web/?p=981593
+- International SMS forbearance: https://www.medianama.com/2025/03/223-dot-asks-trai-clarify-position-a2p-messages/
+- Jio RCS tariff: https://inc42.com/buzz/jio-introduces-new-rcs-business-messaging-rates-for-iphone-users-in-india/
+
+**Peers / parent**
+- Proximus Q3-2026: https://www.proximus.com/news/2026/202610-financial-results-q3-2026.html
+- Proximus Q2-2026: https://www.proximus.com/news/2026/202607-financial-results-q2-2026.html
+- Proximus shareholder structure: https://proximus.com/investors/shareholder-structure.html
+- Twilio Q3-2026 8-K: https://www.sec.gov/Archives/edgar/data/0001447669/000144766926000106/twloq326ex991.htm
+- Bandwidth Q3-2026 8-K: https://www.sec.gov/Archives/edgar/data/0001514416/000151441626000080/q320268kexh991.htm
+- LINK Q2-2026: https://www.inderes.se/releases/link-mobility-q2-2026-return-to-organic-gross-profit-growth-and-2h-guidance-reiterated
+
+*Part 4 scratch notes and extracts: /tmp/cpaas-deep/ (notes_screener.md, notes_tanla.md, notes_route_call.md, notes_route_ar.md, notes_industry.md, pdf/, meta/).*

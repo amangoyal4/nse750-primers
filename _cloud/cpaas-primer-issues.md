@@ -46,3 +46,23 @@
   - The **RCS repricing of 1-Sep-2026** (~6–7p → ~20–25p marketing).
   - The **DoT 19-Jun-2025 international-SMS definition**.
   - The rupee at ~₹94.9/$ (inflates Route's reported revenue and forex gains: Q4 FY26 ₹181.5 mn).
+
+## From CPaaS deep-research pass (2026-11-01, cpaas-industry.md Part 4)
+
+- **tanla-platforms.html — Karix date:** the AR confirms the Karix SPA in **FY2018-19**. Change "2017" to "2018".
+- **tanla-platforms.html — geography:** add that **26.5% of FY26 revenue came from overseas customers** (FY26 AR Note 47). Any "almost entirely domestic" wording is wrong.
+- **tanla-platforms.html — tax matter:** add the **₹46.9 Cr TDS demand (31-Mar-2026) on the Karix purchase consideration, seller-indemnified, under appeal**; contingent "claims not acknowledged" rose from ₹16.8 Cr to ₹63.6 Cr. Do **not** describe SEBI or income-tax "probes"; none is disclosed.
+- **tanla-platforms.html — segment labelling:** Platform/Enterprise are management-reported lines; the audited accounts have one Ind AS 108 segment.
+- **tanla-platforms.html — WhatsApp pricing:** use Meta's card (marketing ₹0.8631 from 1-Jan-2026; utility/auth ₹0.115 with tiers; service charged beyond 1,000/month from 1-Oct-2026; INR billing deadline 31-Dec-2026).
+- **tanla-platforms.html — buyback detail:** 20 lakh shares at up to ₹875 (₹175 Cr), FY26.
+- **tanla-platforms.html — ATP model:** Wisely ATP is priced per protected subscriber per month (Q4 FY26 call). Third bank (Bandhan) live Mar-2026.
+- **route-mobile.html — related-party exposure missing:** **Telesign = ₹658.6 Cr (14.9%) of FY26 revenue; BICS ₹52.7 Cr; new ₹10.1 Cr management-support fee to the Proximus group.**
+- **route-mobile.html — vendor write-off mechanics:** ₹196.6 Cr minimum-guarantee prepayment; SIAC award against Route (18-Nov-2025); settlement 19-Feb-2026; ₹27.9 Cr second vendor ceased operations. **Auditor's Emphasis of Matter** on both.
+- **route-mobile.html — owners' PAT:** FY26 PAT attributable to owners is **₹239 Cr** (NCI ₹17.9 Cr), not ₹257 Cr.
+- **route-mobile.html — debt:** "no outstanding debt at 31-Mar-2026"; the ₹39–42 Cr is leases.
+- **route-mobile.html — leadership timeline:** Badalia → Rajdip Gupta (interim CEO Jul-25 to Feb-26) → Agnihotri (CEO from 9-Feb-2026); Chairman Seckin Arikan from 22-Jan-2026.
+- **route-mobile.html — FY27 dividend:** ₹4 + ₹4 interims declared (record dates 29-Jul and 2-Nov-2026) against the ₹16.5 "sustainable" guide.
+- **route-mobile.html — guidance credibility:** the 12% adj. EBITDA guide needs ~14% in H2 (H1 9.8%; best-ever quarter 12.9%). Flag as at risk; mgmt on 24-Jul: "should not materially deviate".
+- **route-mobile.html — Proximus context:** Proximus Global Q3-2026 revenue €369 mn, EBITDA €35 mn, FY26 EBITDA guide raised to €125–135 mn. No statement on Route's listing.
+- **Both — RCS:** Jio repriced RCS from a flat ₹0.08–0.10 to marketing ₹0.27–0.30 / utility ₹0.25 / OTP ₹0.11–0.16 on 1-Sep-2026.
+
