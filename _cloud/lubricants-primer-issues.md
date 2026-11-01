@@ -34,3 +34,30 @@
 - **hpcl.html — lubes demerger not mentioned** (grep finds no "demerg"). HPCL's planned demerger of HP Lubes (FY26 sales 686 TMT vs 704 TMT FY25 [V-snip]) is a value-unlocking item worth a line. Read-only check; not otherwise reviewed.
 - **bpcl.html — MAK lubricants not mentioned by name** (FY26 sales 428 TMT [V-snip]). Read-only check.
 - **indian-oil.html — Servo mentioned (2 hits); FY26 record 855 TMT (+15%) [V-snip] could be added.** Read-only check.
+
+## From Lubricants deep-research pass (2026-11-01, lubricants-industry.md §4.5)
+
+
+**castrol-india.html**
+- Volume line: replace "~230 M litres" (cover) and "well over 200 million litres" (text) with **"CY25 production 230+ million litres across three plants (Patalganga 100+, Silvassa 85+, Paharpur 45+); volume +8% in CY25 (AR 2025)"**. This replaces the Part 3 suggestion to call 230 an estimate: it is a company figure for production.
+- Market-share wording: "#1 market share across automotive categories" should carry its basis: **NielsenIQ, 12 states, urban retail volume share (quarter to Mar-2026)**.
+- Mix: "automotive ~85% / industrial ~15%" can now cite the CFO (Q2 CY26 call). Add "single reportable segment (Lubricants)".
+- Revenue quality: add that sales are **net of ₹679 Cr of rebates (CY25)**; trade-facing spend ≈18% of gross sales.
+- Ownership history: if the primer mentions BP's sell-downs, they were **May-2016 (70.92% → 59.42%) and Sep-2016 (→ 51%)**, not 2015.
+- Leadership: note three MD and three CFO changes from Oct-2024 to Jul-2025, now MD Saugata Basuray and CFO Mrinalini Srinivasan.
+- Competitor table: add **Valvoline Cummins FY26 revenue ₹3,011 Cr (+28%)** and **Gulf FY26 volume 168 mn L (+11%), Q2 FY27 +16%**. Correct any PSU volume figures to Servo 905 TMT (FY26) and MAK 471.8 TMT (FY25).
+- EV section: update to **Sep-2026 e2W 11.6%** and PM E-DRIVE e2W incentive extended to **Mar-2028 (₹5,000 cap)**.
+- Regulation: add EPR for used oil (in force from 1-Apr-2024; targets rising to 40% by FY30) as a cost/compliance line, and Castrol's Tata Motors used-oil MoU (Q2 CY26).
+
+**bpcl.html** (read-only check carried from Part 3)
+- If MAK is added, use **471.8 TMT (FY25, highest ever; 24.7% of PSU-OMC lube sales)**, not 428.
+
+**hpcl.html**
+- **428 TMTPA lube refinery** (largest in India) is a fact worth a line, alongside the lubes-demerger status (still [V-snip], and reports conflict on whether it was postponed).
+
+**indian-oil.html**
+- Servo FY26 **905 TMT (~16%)**, "gained market share of 5.3%" (FY25-26 investor presentation). Supersedes the 855 provisional figure.
+- IOCL launched **Group III 8 cSt LOBS**.
+
+
+- Orchestrator note: Part 3 §3.2 PSU tonnage sum (1,969 TMT) is superseded by S1–S3 (Servo 905 FY26 + HPCL 686 FY26 + MAK 471.8 FY25 ≈ 2,063 TMT, mixed years, includes base-oil sales). All other §3.2 aggregates re-added by hand: correct.

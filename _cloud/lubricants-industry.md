@@ -1017,3 +1017,643 @@ Notes:
 - Open-offer market reaction: https://www.business-standard.com/markets/stock-market-news/open-offer-unlikely-move-castrol-india-stock-stonepeak-125122500577_1.html [V-snip]
 - IOCL Servo FY26: https://www.whalesbook.com/corporate-news/English/energy/IOCL-Sets-Records-754-MMT-Throughput-1044-MMT-Sales-in-FY26/69cd06f53f30946a723f2a9f [V-snip]; HPCL FY25 lubes: https://www.hindustanpetroleum.com/NewsroomDetails/439 [V-snip]
 - Castrol RPT (royalty) filing, Jul-2024: https://nsearchives.nseindia.com/corporate/CASTROLIND_30072024191101_CLRelatedPartyTransactionReport.pdf [V-snip]
+
+
+---
+
+# PART 4 — Deep-research supplement (2026-11-01)
+
+Second, primary-source pass on Parts 1–3. Its purpose is to replace snippet/memory figures with figures read in the companies' own filings, and to correct what was wrong. Scratch notes: `/tmp/lubricants-deep/notes.md` (not in repo).
+
+**What was read this session (full text extracted from the PDFs, read in the relevant sections):**
+- **Castrol India:** Annual Report 2025 (BSE, 22.8 MB: MD letter, plant pages, MD&A, 10-year highlights, notes 15/21/24/25/28, BRSR); Q3 CY26 call transcript (26-Oct-2026); **Q2 CY26 call transcript (5-Aug-2026, newly read)**; **Q1 CY26 investor presentation (29-May-2026, newly read)**; Q2 CY26 investor presentation (21-Aug-2026); Q3 CY26 board outcome/results; the open-offer Public Announcement (24-Dec-2025, read in full); screener 10-year and 13-quarter tables.
+- **Gulf Oil Lubricants:** **Annual Report FY26 (BSE, 19-Aug-2026)**; **Q1 FY27 call transcript (call 4-Aug-2026)**; **Q2 FY27 results with balance sheet (28-Oct-2026)**; Q2 FY27 call intimation (30-Oct-2026: audio only, no transcript filed yet); screener consolidated.
+- **Veedol:** **Annual Report FY26 (BSE, 31-Jul-2026)**; **356th board-meeting outcome (28-Sep-2026)**; screener consolidated. Veedol does not file call transcripts (none listed on BSE/screener).
+- **Savita:** **Annual Report FY26 (BSE, 7-Aug-2026)**; **Investor Presentation Sep-2026** (the Q1 FY27 deck); screener consolidated.
+- **Industry/PSU/policy:** **IOCL FY2025-26 investor presentation**; **HPCL Q1 FY27 investor presentation**; **BPCL MAK/aviation fact sheet**; FADA Sep-2026 EV data (Autocar Professional); PM E-DRIVE extension (Autocar Professional, 11-Aug-2026); EPR used-oil rules (LKS law-firm summary); base-oil tariff line 27101971 (eximpe aggregator); Cummins India FY26 directors' report (mirror) for Valvoline Cummins; Stonepeak/BP deal terms (WorkBoat reprint of the Stonepeak release).
+- **Not reachable:** bp.com (HTTP 403 from both fetch tools), the bp RNS mirrors (403, or sign-up wall, which was declined), CPCB used-oil FAQ (TLS error, then 503), Argus/ICIS base-oil assessments (paywalled). No logins, no sign-ups, generic User-Agent throughout.
+
+**Tag discipline in Part 4.** [V] = read this session in the named primary document (URL in §4.1 / §4.6). [V-sec] = read this session, but in a reputable secondary page that reproduces a primary release (e.g. a trade-press reprint, a law-firm summary of a gazette, a tariff aggregator). [V-snip] = search-result summary only. [E] = arithmetic/estimate. [K] = memory.
+
+---
+
+## 4.0 Supersedes — corrections to Parts 1–3 (writer: apply these)
+
+| # | Where in Parts 1–3 | Old figure / statement | Corrected value | Source (this session) |
+|---|---|---|---|---|
+| S1 | §0, §2.3, §5.1, E8, §2.5, §3.2, §G-18 | **BPCL MAK FY26 = 428 TMT** [V-snip] | **No FY26 MAK figure found. Latest disclosed: MAK highest-ever sales 471.8 TMT in FY25**, and "24.7% market share among PSU OMCs" (FY25). **428 TMTPA is HPCL's lube-refinery capacity** ("428 TMTPA Lube Refinery in India"). The first pass almost certainly mis-attributed it to MAK. | BPCL fact sheet [V]; HPCL Q1 FY27 investor presentation p.2 [V] |
+| S2 | §0, §2.3, §5.1, E8, §2.5, D alternates, §G-18 | **IOCL Servo FY26 = 855 TMT (+15%)** | **905 TMT (~16% growth), "gained market share of 5.3%"**. This is from the IOCL FY2025-26 investor presentation, after results. IOCL's product table also shows lubes **0.8 / 0.8 / 0.9 MMT** for FY24 / FY25 / FY26. 855 was the provisional operational release. Use 905, and note that it may include IOC Nepal / overseas lube volumes. | IOCL investor presentation FY25-26 [V] |
+| S3 | §5.1 PSU trio, §3.2 | PSU trio **1,969 TMT ≈ 69%** of finished-lube market | Best available: **IOCL 905 (FY26) + HPCL 686 (FY26, V-snip) + MAK ~472 (FY25) ≈ 2,060 TMT** (mixed years). The BPCL fact sheet implies a **PSU total of ~1.9 mn t in FY25** (471.8 ÷ 24.7%). The scope point stands and is now stronger: the PSU number exceeds Kline's ~2.7–2.9 mn t finished market by too much to be finished lubes alone. **It includes base-oil (LOBS) sales from PSU lube refineries** (HPCL alone has a 428 TMTPA lube refinery; IOCL now makes Group III 8 cSt LOBS) plus bulk and process oils. Do not compute a PSU finished-lube share. | IOCL/HPCL/BPCL [V]; [E] |
+| S4 | §8, §G-7, §H-14 | **"2015: BP sells 11.5% of Castrol India for ~₹2,075 Cr, cutting to 51%"** | **Two sales in 2016.** (a) **May 2016:** 11.5% sold, **70.92% → 59.42%**, ~₹2,072–2,075 Cr (≈56.8 mn shares at ~₹365, pre-bonus). (b) **Sep 2016:** a further **8.53%**, taking BP/Castrol Ltd to **~51%**, ~₹1,750 Cr. | Business Standard 19-May-2016 and 20-Sep-2016; BP India release (titles/snippets only; bp.com returned 403) [V-snip, consistent across 4+ outlets] |
+| S5 | §2.3, §9.1, trap 4, §3.3 | CY25 volume **+8% [primer; V-snip]** | **+8% confirmed in Castrol's own words:** "Our volume grew by 8%. This translated into revenue growth of 7% and EBITDA growth of 5%" (AR25, MD's letter). | Castrol AR25 [V] |
+| S6 | trap 4, §B1, §C.1, JSON | CY25 litres **~241 mn L [E]** (proxies 226/241/252) | Primary anchor found: **plant production "as of 31 December 2025": Silvassa 85+ mn L, Patalganga 100+ mn L, Paharpur 45+ mn L = 230+ mn L** (AR25 pp.18–19), plus 13 mn L/yr capacity added at Patalganga by debottlenecking. Add traded goods (purchases of stock-in-trade, ~4–5% of COGS) and **sales ≈ 235–245 mn L** [E]. The 241 BRSR proxy is consistent. The primer's "~230 M litres" was production, not sales. Keep "8 L/sec" (≈252 mn L/yr) as a 2026 run-rate. | Castrol AR25 [V]; Q1/Q2 CY26 PPTs [V] |
+| S7 | trap 4, §9.1, E-series | Castrol quarterly volume: only Q2 CY26 ">5%" | **Q1 CY26: ">8%" average growth in volume sold vs 1Q 2025** (Q1 PPT, p.9). Q2 CY26 ">5%" (Q2 PPT). 9M "ahead of market (3–4%)" (Q3 call). | Q1 CY26 PPT [V]; Q2 PPT [V]; Q3 transcript [V] |
+| S8 | trap 2, §5.1 | Castrol "#1 market share across automotive categories" (basis unknown) | **Basis now known: "NielsenIQ (12 states, Urban) — retail volume share for quarter ended March '26"** (Q1 CY26 PPT footnote). It is an **urban retail-volume** share in 12 states, **not** a national all-channel share. | Castrol Q1 CY26 PPT [V] |
+| S9 | §2.1 Castrol mix; F; §H-16; §3.3 | auto ~85% / industrial ~15% [primer, approx] | **CFO (5-Aug-2026): industrial "has contributed about 15% of our overall business … still in that ballpark"** [V]. Castrol reports a **single Ind AS 108 segment, "Lubricants"**; automotive and non-automotive are run as one integrated organisation (AR25 note 24) [V]. Q2 CY26 PPT pie "Segment contribution in lubes" (Consumer / OEM & Fleet / Industrial) has no printed numbers; read visually it is **≈61% / ≈26% / ≈13%** [E, visual]. The "B2B ~40%" figure on the Q3 call was an **analyst's** claim. | Q2 transcript [V]; AR25 [V]; Q2 PPT [V/E] |
+| S10 | §2.0 peer table, §3.1, JSON, §10 | Gulf: "cash n/a", **EV/EBITDA 11.6× FY26 / 10.0× TTM on gross debt ₹852 Cr** | Gulf is **net cash**. Consolidated balance sheet at 30-Sep-2026: cash & equivalents ₹1,268.6 Cr + other bank ₹28.3 Cr = **₹1,296.9 Cr**, against borrowings ₹26.2 Cr (non-current) + ₹747.5 Cr (current) = **₹773.7 Cr** → **net cash ≈ ₹523 Cr**. Screener's ₹852 Cr adds lease liabilities. **EV ≈ ₹5,104 − 523 = ₹4,581 Cr → 8.9× FY26 EBITDA (₹514 Cr) / 7.7× TTM (₹598 Cr)** [E]. At Mar-26 (standalone AR) the position was cash & bank ₹1,140.6 Cr vs short-term borrowings ₹462.1 Cr (net cash ≈ ₹679 Cr). Gulf funds imported base oil with cheap foreign-currency buyer's credit while holding cash. | Gulf Q2 FY27 results (BSE) [V]; Gulf AR FY26 [V] |
+| S11 | §5.1, §9.1, §C.4, §H-6, B1 | Gulf volume "not disclosed … assume ~180 mn L" | **Gulf discloses volume.** FY26 core lubricant volume **1,68,000 KL (+11%)**; **AdBlue 1,51,000 KL (+8%)**; Q4 FY26 **45,000 KL**; **Q1 FY27 48,000 KL (+17%, record)**. Own blending capacity **140,000 KL p.a.** (Silvassa + Chennai, two shifts), **~279,000 KL p.a.** including external satellite plants. | Gulf AR FY26 [V]; Gulf Q1 FY27 transcript [V] |
+| S12 | §9.1, §C.4, F | Gulf EBITDA/L "est. ₹22–28/L"; realisation "₹170–200/L" | **FY26 EBITDA per lube litre ≈ ₹30.6 (₹514 Cr ÷ 168 mn L**, all EBITDA including AdBlue/batteries/Tirex attributed to lubes) [E from V]. **Q1 FY27 ≈ ₹35.4/L** (₹170 Cr ÷ 48 mn L) [E]. All-in revenue per lube litre ≈ ₹241 FY26 [E]. Stripping out AdBlue (151 mn L at an assumed ₹25–35/L ≈ ₹400–500 Cr) and batteries/EV (~₹150–250 Cr) leaves **lube realisation ≈ ₹195–210/L** [E]. **Castrol/Gulf EBITDA-per-litre ratio ≈ 1.8×** (₹56 vs ₹31). | as above [E] |
+| S13 | §C.4 | Gulf ₹10/L shock ≈ ₹180 Cr ≈ 35% of FY26 EBITDA | **₹168 Cr ≈ 33% of FY26 EBITDA** (on 168 mn L) | [E from V] |
+| S14 | §4.2, §6, §H-8 | Gulf royalty "~1–2% to Gulf Oil International (Hinduja) [K — VERIFY]" | **Royalty ₹43.80 Cr in FY26 (₹40.10 Cr FY25) to GOIL International LLC = 1.1% of standalone revenue** (₹3,991 Cr). Also "recovery of expenses" ₹11.17 Cr from the same party. That is about half Castrol's 2.3%, and it is not profit-capped. | Gulf AR FY26 related-party note [V] |
+| S15 | §4.2 Gulf column | Gulf raw materials ~57–59%; GM ~41–43% | **FY26 standalone COGS ₹2,294 Cr = 57% of sales (58% FY25) → gross margin ~43%**; manufacturing & other expenses 25%; employees 5% (₹199.9 Cr). | Gulf AR FY26 MD&A [V] |
+| S16 | §2.5, §5.2, §H-15 | Valvoline Cummins "n/a" | **Valvoline Cummins Pvt Ltd FY26 revenue from operations ₹3,010.66 Cr vs ₹2,353.37 Cr (+28%)**, per Cummins India's FY26 directors' report. JV partner named as **Valvoline International Inc., USA** (50:50). **VCPL is about three-quarters of Gulf's size and bigger than Veedol.** Profit not disclosed in the excerpt. | Cummins India FY26 directors' report (via arihantcapital.com mirror) [V-sec] |
+| S17 | §7.9, §H-12 | PM E-DRIVE "Oct-2024 to Mar-2026; later extended? [K — VERIFY]" | **Scheme runs to 31-Mar-2028.** The e2W incentive lapsed on 31-Jul-2026 (terminal date set in a Mar-2026 notification), was then **restored and extended (Aug-2026) to 31-Mar-2028**: **₹2,500/kWh capped at ₹5,000 per vehicle** (and ≤15% of ex-factory price); up to **45,79,120 e2Ws**; e2W allocation raised from ₹1,772 Cr to **₹2,767 Cr**; total scheme outlay **₹11,900 Cr**. Claims by 31-Dec-2027. | Autocar Professional 11-Aug-2026 [V-sec]; search summaries for the lapse [V-snip] |
+| S18 | §7.5, §4.3, §G-13 | EPR used oil "from FY2024-25 [K]" | **Hazardous and Other Wastes (Management and Transboundary Movement) Second Amendment Rules, 2023, notified 18-Sep-2023, effective 1-Apr-2024.** Producers include base/lube-oil makers, brand owners blending third-party base oil, and sellers of imported base/lube oil. **Target: 5% (2024-25, on 2022-23 sales/imports), rising each year to 40% (2029-30, on 2027-28)**. Used-oil importers 100%. CPCB-issued, tradeable EPR certificates (valid 2 years). Environmental compensation applies for shortfalls. Intermediate-year targets not read; some summaries cite 10% (2025-26) / 20% (2026-27) / 50% by 2030-31 (likely draft) [V-snip]. | LKS (law firm) summary [V-sec]; CPCB FAQ unreachable |
+| S19 | §7.4, §H-12 | Base-oil import duty "~5% BCD + AIDC/SWS [K — VERIFY]" | **HS 2710 19 71 "Base oil": BCD 5%; AIDC shown at 5% of BCD; SWS 10% of (BCD+AIDC); IGST 18%** (rates "as at 13-May-2026"). Effective customs incidence before IGST ≈ **5.8%** of CIF [E]. No anti-dumping duty found. | eximpe.com tariff aggregator [V-sec] |
+| S20 | §0, §11, D, E7, §12 | e2W 10.7% (Aug-26) as latest | **Sep-2026: e2W 11.6%** (8.2% Sep-25; 207,314 units, +88.7% YoY); **ePV 8.5%** (5.7%); **e3W 64.9%**; **eCV 4.04%** (5.18% in Aug). Total EV retail 333,634 (≈+74% YoY [E]). Use Sep-26 in the stat strip. | FADA via Autocar Professional [V-sec] |
+| S21 | trap 5, §B1, §C.2, §2.7 | "Management says per-litre margin steady" (presented as the company position) | Exact wording, CFO prepared remarks: "margin per liter is a true measure. And on that basis, we have fully absorbed cost inflation. Margins are steady to slightly higher." In Q&A an analyst inferred that flat EBITDA/L with EBITDA −20% means volume fell sharply. **CFO: "I wouldn't comment on that … that's an internal frame … what we always target is percentage margin as percentage of sales."** The MD earlier said that **between Q2 and Q3 "the volume growth is looking healthy"** and market shares were held. See §4.2.1 for the arithmetic: both statements can hold only if H1 volume growth was well above the disclosed floors (>8%, >5%). | Q3 transcript [V] |
+| S22 | §3.3, §H-17, §2.7 | Primer CY23 revenue ~4,926 / PAT ~843 vs screener 5,075 / 864 (basis unknown) | **Castrol's own 10-year table (AR25 p.38–39): CY23 revenue from operations ₹5,074.61 Cr; other income ₹83.15 Cr; PAT ₹864.13 Cr; EPS ₹8.74; DPS ₹7.50.** Castrol has **no subsidiaries** (screener's consolidated page is empty), so there is no standalone/consolidated split. Revenue incl. other income would be ₹5,157.8 Cr. **Neither 4,926 nor 843 matches any line** (they are ~2.9% and ~2.4% low: probably a transcription error or a CY22/CY23 blend). Use 5,075 / 864. | Castrol AR25 [V] |
+| S23 | §2.5 Valvoline; §5.2 | Valvoline "global products business owned by Aramco since 2023" | Unchanged [K]. Note that Cummins India's FY26 report names the partner "Valvoline International Inc., USA". The legal JV counterparty kept the Valvoline name after the 2023 Aramco acquisition of Valvoline Global Products [K]. | Cummins India DR [V-sec] |
+| S24 | trap 6, §2.1 | Castrol sourcing: "imports largely" | **BRSR: inputs sourced "directly from within India" = 48% of value (CY25), 47% (CY24)** → ~52% imported. On the Q2 call the MD said the domestic/import split of **~55/45 "broadly remains"** (answering an analyst who said 55% domestic). The two differ by basis (value vs volume; BRSR includes additives/packaging). Use "about half imported". | AR25 BRSR [V]; Q2 transcript [V] |
+| S25 | §10, §2.5 | "Castrol India ≈ 13% of global Castrol EBITDA" | **12–13%**: 13.4% at the Dec-2025 rupee (~₹86) but **12.1% at the dossier's own ₹94.9** (₹1,348 Cr = $142 mn vs $1.17 bn). The dossier mixes FX bases; state the rupee used. | [E] |
+| S26 | §5.2 Veedol, §2.3 | Veedol promoter "Andrew Yule & Co + others 64.58%" | **Andrew Yule & Co holds 24.30%** of Veedol (board outcome, 28-Sep-2026). The rest of the 64.58% promoter group includes the joint promoter **Standard Greases & Specialities** (₹278.47 Cr of purchases from it in FY26) [V]. Loan to Andrew Yule: **≤₹10 Cr, unsecured, 12% simple, for working capital, repayable by 31-Mar-2027** [V]. | Veedol board outcome [V]; Veedol AR FY26 [V] |
+| S27 | §2.4 Savita, §1.1 | Savita "~⅓ share of domestic transformer & white oils [V screener]" | Company wording: **"among the top two suppliers of White & Mineral Oils in India"**; FY26 sales volume **5,13,110 KL/MT (+17%)**; **EBITDA per KL/MT ₹4,555 (≈ ₹4.6/L)**. Keep the ⅓ figure only as screener's description. | Savita AR FY26 [V]; Savita Sep-2026 PPT [V] |
+| S28 | §2.3 Gulf | Gulf FY22–26 volume CAGR 9% | Consistent. Add **FY26 +11% (168,000 KL)**, Q1 FY27 +17%, Q2 FY27 +16%. Gulf's CFO: "last year also full-year basis, we have grown 11%". | Gulf AR FY26, Q1 call [V] |
+
+**Arithmetic re-check of Parts 1–3.** About 40 derived numbers were recomputed: sums, CAGRs, EV and multiples, enhanced offer prices, per-litre maths, PPAC sums and growth rates, gross margins, and 9M/TTM aggregates. **All reproduce within rounding.** The errors are of *input*, not arithmetic: S1 (MAK), S2 (Servo), S10 (Gulf EV on gross debt), S13 (Gulf volume assumption), S25 (FX mix). One wording point: the Q3 CFO said "COGS number as a percentage of our sales … it's up 61%". Arithmetically, **absolute COGS** rose 61% (₹1,100.8 vs ₹684 Cr); COGS **as % of sales** rose 13.3 pp (50.2% → 63.5%). Part 1's "COGS +61% YoY" is the correct reading. Do not quote the CFO's phrasing literally.
+
+## 4.1 Verification table — 40 figures the writer will use
+
+URL keys (full URLs in §4.6):
+- **AR25** = Castrol AR 2025 (bseindia …739e1c39…pdf)
+- **CQ3T** = Castrol Q3 CY26 transcript (…cf4f9d4f…)
+- **CQ2T** = Castrol Q2 CY26 transcript (…502d723a…)
+- **CQ1P** = Castrol Q1 CY26 PPT (…7eb74aec…)
+- **CQ2P** = Castrol Q2 CY26 PPT (castrol.com)
+- **CQ3R** = Castrol Q3 results (…93c69789…)
+- **PA** = open-offer Public Announcement (nsearchives)
+- **SCR** = screener.in pages
+- **GAR** = Gulf AR FY26 (…f26c1b22…)
+- **GQ1T** = Gulf Q1 FY27 transcript (…6dd52cc1…)
+- **GQ2R** = Gulf Q2 FY27 results (…448f0ce4…)
+- **VAR** = Veedol AR FY26 (…2d18f786…)
+- **VBM** = Veedol board outcome (…3bd76237…)
+- **SAR** = Savita AR FY26 (…f5ce05d8…)
+- **SPP** = Savita Sep-2026 PPT (…a6534d55…)
+- **IOCP** = IOCL FY25-26 investor presentation
+- **HPCP** = HPCL Q1 FY27 investor presentation
+- **BPFS** = BPCL fact sheet
+- **WB** = WorkBoat (Stonepeak release reprint)
+- **ACP-EV** = Autocar Pro FADA Sep-26
+- **ACP-PM** = Autocar Pro PM E-DRIVE
+- **LKS** = LKS law-firm EPR note
+- **EXP** = eximpe tariff line
+- **CIDR** = Cummins India DR mirror
+
+"Fetched?" = fetched and read this session. "Agrees?" = agrees with Parts 1–3.
+
+| # | Figure | Value | Source (URL key) | Tag | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|---|
+| 1 | Castrol CY25 revenue from operations | ₹5,721.50 Cr (CY24 ₹5,364.85) | AR25 p.38 10-yr table; note 15 | [V] | Yes | Yes |
+| 2 | Castrol CY25 PAT / EPS / DPS | ₹949.93 Cr / ₹9.60 / ₹8.75 | AR25 10-yr table | [V] | Yes | Yes |
+| 3 | Castrol CY23 revenue / PAT | ₹5,074.61 Cr / ₹864.13 Cr | AR25 10-yr table | [V] | Yes | Yes vs screener; **primer wrong** (S22) |
+| 4 | Castrol CY25 volume growth | **+8%** ("revenue +7%, EBITDA +5%") | AR25 MD letter | [V] | Yes | Yes; upgrades V-snip |
+| 5 | Castrol CY25 plant production | **230+ mn L** (85+ / 100+ / 45+) | AR25 pp.18–19 | [V] | Yes | New (S6) |
+| 6 | Castrol BRSR water intensity → litres | 40,994 KL ÷ 0.17 → ~241 mn L (CY24 45,210 ÷ 0.20 → ~226) | AR25 BRSR P6 Q3 | [V] input, [E] output | Yes | Yes |
+| 7 | "8 litres of Castrol sold every second" | ≈252 mn L/yr run-rate | CQ1P p.4; CQ2P p.4 | [V] input, [E] | Yes | Yes |
+| 8 | Castrol quarterly volume growth | Q1 CY26 >8%; Q2 CY26 >5%; 9M "ahead of 3–4% market"; industrial double-digit in Q3 | CQ1P p.9; CQ2P p.9; CQ3T p.7 | [V] | Yes | Adds Q1 (S7) |
+| 9 | "#1 market share" basis | NielsenIQ, 12 states, urban, retail volume share, qtr to Mar-26 | CQ1P p.4 footnote | [V] | Yes | New basis (S8) |
+| 10 | Industrial share of Castrol business | "about 15%" | CQ2T p.19 | [V] | Yes | Yes (was primer-only) |
+| 11 | Castrol royalty to Castrol Ltd UK | ₹132.49 Cr CY25 (₹129.31 Cr CY24) | AR25 notes 21, 28 | [V] | Yes | Yes |
+| 12 | Royalty formula | 3.5% of turnover, capped at 10% of PBT | TradingView idea (user post) | [V-snip]; [E] consistency: 10.15% of CY25 pre-exceptional PBT; 3.5% × sales would be ₹200 Cr | No primary found | Unchanged; cap binds every year checked (CY19 ~₹112 Cr ≈ 9.8% of PBT; CY20 ~₹80 Cr ≈ 10.2%) |
+| 13 | Castrol A&P | Advertising ₹163.92 + sales promotion ₹315.44 = ₹479.4 Cr (8.4%) | AR25 note 21 | [V] | Yes | Yes |
+| 14 | Dividend paid to Castrol Ltd UK | ₹655.79 Cr CY25 (₹403.56 Cr) | AR25 note 28 | [V] | Yes | Yes |
+| 15 | Purchases from BP/Castrol group | ₹91.74 Cr CY25 (₹101.05 Cr); RPTs = 3% of purchases | AR25 note 28; BRSR | [V] | Yes | New: base oil is **not** bought from group entities; the "global contracts" are third-party contracts negotiated by the group |
+| 16 | Castrol contingent liabilities | ₹30.03 Cr (tax ₹28.17 Cr); capital commitments ₹81.51 Cr | AR25 note 25 | [V] | Yes | New |
+| 17 | Castrol Q3 CY26 revenue / OP / OPM / PAT | ₹1,735 / ₹262 / 15% / ₹176 Cr | SCR; CQ3R | [V] | Yes | Yes |
+| 18 | Castrol Q3 raw-material inflation | "60-plus percent increase in raw material bill"; COGS +61% YoY | CQ3T pp.5, 9 | [V] | Yes | Yes (wording, see §4.0 note) |
+| 19 | Castrol margin-per-litre claim + refusal | "steady to slightly higher"; "I wouldn't comment" on implied volume fall | CQ3T pp.4, 8 | [V] | Yes | Sharpened (S21) |
+| 20 | Castrol guidance frame | EBITDA 21–24% medium term (out of range near term); volume 1.5–2× market; capex ₹100–150 Cr; utilisation 70–80% | CQ3T pp.5–9, 11 | [V] | Yes | Yes |
+| 21 | Open offer size and price | 25,71,71,820 shares = 26.00% of 98,91,22,384; ₹194.04; max ₹4,990.16 Cr | PA §1 | [V] | Yes | Yes |
+| 22 | Offer price enhancement | 10% p.a. (Reg 8(12)) from 23-Dec-2025 to the DPS date; DPS ≤5 working days after completion (proviso Reg 13(4)) | PA §1 | [V] | Yes | Yes |
+| 23 | Offer acceptance / MPS | No minimum acceptance (Reg 19(1)); post-offer max **77.00% (76,16,24,236 shares)**; "necessary steps will be taken" to restore 25% public within prescribed timelines (SCRR 19A; LODR 38) | PA §3 and note (2) | [V] | Yes | Closes the Part 1 flag |
+| 24 | Deal structure | Motion JVCo buys 100% of CGHL; BP Motion Holdings gets 35% of the acquirer; Stonepeak PAC1 65% and sole control; CPPIB non-controlling | PA §2.2–2.4 | [V] | Yes | Yes |
+| 25 | Regulatory conditions | Antitrust in ~24 jurisdictions (incl. CCI, EC, SAMR, CMA, US FTC/DOJ, KFTC); FDI screens in 11 (incl. Australia FIRB, France, Germany, Italy, Spain); EU FSR | PA definitions (b) | [V] | Yes | New |
+| 26 | BP deal headline terms | EV ≈ US$10.1 bn; 65% to Stonepeak; BP net proceeds ≈ $6 bn incl. accelerated dividends (~$0.8 bn [V-snip]); 2-year lock-up; CPPIB up to $1.05 bn; completion by end-2026 | WB (reprint of the 24-Dec-2025 release); 8.6× multiple and $8.0 bn equity [V-snip] | [V-sec] | Yes (secondary) | Yes |
+| 27 | Gulf FY26 lube volume | **1,68,000 KL (+11%)**; AdBlue 1,51,000 KL (+8%) | GAR p.2, MD&A | [V] | Yes | New (S11) |
+| 28 | Gulf Q1 FY27 volume | 48,000 KL record (+17%); prior high 45,000 (Q4 FY26) | GQ1T p.3 | [V] | Yes | New |
+| 29 | Gulf blending capacity | 140,000 KL p.a. own; ~279,000 KL p.a. incl. satellites | GAR | [V] | Yes | New |
+| 30 | Gulf royalty | ₹43.80 Cr FY26 (₹40.10 Cr) to GOIL International LLC | GAR related-party note | [V] | Yes | Corrects [K] (S14) |
+| 31 | Gulf net cash | Sep-26 consol: cash+bank ₹1,296.9 Cr − borrowings ₹773.7 Cr = **₹523 Cr** | GQ2R balance sheet | [V] input, [E] | Yes | Corrects (S10) |
+| 32 | Gulf margin guidance | EBITDA band 12–14%; aspiration 14–16%; volume 2–3× market | GQ1T pp.8–9 | [V] | Yes | New |
+| 33 | Veedol standalone FY26 | Revenue ₹1,546.96 Cr (+1.3%); PBT ₹142.49 Cr; "flat domestic volumes"; capex expansion deferred | VAR | [V] | Yes | New |
+| 34 | Veedol ENEOS franchise fee | ₹310.93 Cr (+ ₹54.79 Cr oil supply = ₹365.74 Cr material RPT) | VAR RPT annexure | [V] | Yes | New |
+| 35 | Savita FY26 volume / EBITDA per unit | 5,13,110 KL/MT (+17%); EBITDA ₹4,555 per KL/MT | SAR; SPP p.5 | [V] | Yes | New |
+| 36 | IOCL lube sales FY26 | **905 TMT (~16%)**; "gained market share of 5.3%" | IOCP | [V] | Yes | **Corrects 855** (S2) |
+| 37 | BPCL MAK volume | 471.8 TMT FY25 (highest ever); 24.7% share among PSU OMCs | BPFS | [V] | Yes | **Corrects 428** (S1) |
+| 38 | HPCL lube refinery | 428 TMTPA (largest in India) | HPCP p.2 | [V] | Yes | Explains S1 |
+| 39 | e2W penetration | 11.6% (Sep-26) vs 8.2%; ePV 8.5%; e3W 64.9%; eCV 4.04% | ACP-EV | [V-sec] | Yes | Updates Aug-26 |
+| 40 | Policy: PM E-DRIVE / EPR / base-oil duty | E-DRIVE e2W to 31-Mar-2028, ₹5,000 cap, outlay ₹11,900 Cr; EPR notified 18-Sep-2023, effective 1-Apr-2024, 5% → 40%; base oil BCD 5% + AIDC + SWS, IGST 18% | ACP-PM; LKS; EXP | [V-sec] | Yes | Corrects [K] (S17–S19) |
+
+**Count.** **36 of 40 rest on documents fetched and read this session.** Of these, **31 are [V] from primary pages** (company filings, exchange documents, PSU investor presentations, the PA): rows 1–11, 13–25, 27–38. **Five are [V-sec]**: rows 26 and 39–40 (row 40 bundles three policy facts), each read from a reputable secondary page reproducing a primary source. Row 12 (royalty formula) stays [V-snip] with arithmetic support. The global-deal multiple (8.6×) and BP's equity bridge ($8.0 bn, $1.8 bn minorities) remain [V-snip], because bp.com was unreachable.
+
+**Where sources conflict:**
+- **IOCL 855 vs 905 TMT.** Prefer the **investor presentation (905)**: it is later, audited-results-linked, and IOCL's own deck. The 855 came from a provisional operations release relayed by aggregators.
+- **Castrol imported share (BRSR 52% by value vs MD "45% imported").** Prefer BRSR for value and treat the MD's figure as a volume/base-oil split. Neither is audited.
+- **e2W share (FADA vs Vahan).** FADA is retail registrations from ~1,468 RTOs. Use FADA consistently.
+
+## 4.2 Company packs from primary documents
+
+### 4.2.1 Castrol India (member; CY reporter)
+
+**A. Management-commentary digest.** Paraphrased. Q3 = call of 26-Oct-2026 (transcript filed 29-Oct); Q2 = call of 5-Aug-2026.
+
+1. **Q3 CY26 framing (MD, 26-Oct).** Revenue +27%, PAT −23%. Input-cost increases that management had flagged in August "flowed through" in Q3. Early-2026 price actions moderated the hit. **Market share "held across categories."** Do not read Q2 → Q3 sequentially: Q2 is the seasonal peak (agri freight → CV oil demand).
+2. **Raw materials (MD/CFO).** A **"60-plus percent increase in raw material bill"** in the quarter. "High double-digit commodity inflation" plus adverse currency, beginning late in Q2. The CFO acknowledged COGS "up 61%" YoY. The Q4 rebate on global base-oil contracts is "business as usual". Its size "you will discover as we close quarter 4".
+3. **Margins: the per-litre vs percentage contradiction.**
+   - In prepared remarks the CFO said **margin per litre is the "true measure"**: on that basis the company "fully absorbed cost inflation" and margins are "steady to slightly higher".
+   - In Q&A, asked whether a flat EBITDA/L with EBITDA down ~20% YoY means volume fell sharply, she declined: per-litre is "an internal frame"; "what we always target is percentage margin".
+   - Q2 26%, Q3 15%; **H1 and 9M both ~21%**. Margins will be **out of the 21–24% frame "in the short to medium term"**; the company wants to return to it "in the longer term" through pricing and cost.
+4. **Volume.**
+   - No quarterly number. "In the 9-month period, we continue to track volume growth, which is ahead of the market growth rate" (market 3–4% in a regular year; "this year … may well be a bit different").
+   - Q2 and Q3 were managed "together", and "between quarter 2 and quarter 3 … the volume growth is looking healthy".
+   - Industrial grew double-digit in Q3 and has done so for ~1.5–2 years (steel, cement, metalworking fluids, localisation). Industrial margin is "on track to be higher than … last year".
+   - "Overall volumes may remain soft in the short to medium term" (CFO).
+5. **Guidance frame.** No near-term guidance "because it's unprecedented". Medium term: EBITDA 21–24%, and volume growth "at least 1.5x to 2x the market growth rate". Capex ₹100–150 Cr/yr. Plant utilisation 70–80%, unchanged.
+6. **Pricing.** Two price increases in CY26: one in Q1 and a "low double-digit" one in Q2 (analyst's characterisation, not contradicted). Further action "as and when we decide". Some B2B/institutional contracts have cost-flex clauses. Other levers: localisation of inputs, reformulation to cut bill-of-materials cost, a diversified supplier pool.
+7. **Q2 inventory benefit (Q2 call).** The CFO conceded part of Q2 volume was sold from **lower-cost inventory** ("one-time benefits"), and said profitability grew "even excluding" it. That is direct support for reading Q2's 26% and Q3's 15% together (the 6-month figure of ~21%).
+8. **Disclosure stance (Q2 and Q3 calls).**
+   - "Specifics on volumes we don't really share." An analyst said volumes in million litres had been shared on earlier calls; the CFO replied that "specific volume numbers, we have not declared in the past".
+   - Closing Q3 remark from a Phillip Capital analyst: the vagueness makes fair value uncertain by "15%, 16%".
+9. **Capital allocation (Q2 call).** No fixed payout policy. Payout has been ~80–90% for 3 years; dividend yield "usually … around 5%"; special dividends on "events" (e.g. Castrol's 125th anniversary). The interim has been "advanced".
+10. **Stonepeak timing (Q3).** Licences in ">50 countries" are still being procured. Once completion occurs, the SEBI announcement (DPS) follows. (The CFO again said "December '24" for a December-2025 announcement.)
+11. **Data-centre fluids.** Two products were NVIDIA-certified about 1.5 months before the call. Pilots plus "a bit of business"; not substantial to revenue/profit. Products are globally approved; Indian customers would buy from Castrol India.
+12. **Mix (Q2 call).** Industrial is "about 15%" of the business. B2C vs B2B: "volume would be there, margins are quite different". Group II/III base oils dominate; 0W/5W synthetics (Magnatec, Power1) use Group III + PAO (Q3).
+
+**B. Concall/PPT KPI table**
+
+| KPI | Q1 CY26 | Q2 CY26 | Q3 CY26 | 9M CY26 | Source |
+|---|---|---|---|---|---|
+| Volume growth YoY | **>8%** | **>5%** | not disclosed ("healthy" Q2+Q3 combined) | "ahead of 3–4% market" | CQ1P, CQ2P, CQ3T |
+| Revenue growth | +8.6% | +25.0% | +27.3% | +20.3% | SCR / CQ3R |
+| EBITDA margin | 21% | 26% | 15% | 21% | CQ3T, SCR |
+| Gross margin [E from V] | ~48%* | 50.8% | 36.5% | 45.5% | CQ3R, AR25 maths |
+| Outlets (total / rural) | ~150K / ~43K | ~160K / ~50K (p.4 tile; Part 1 quoted 45K rural from another slide) | ~167K / 46K | — | CQ1P, CQ2P, CQ3R |
+| Independent bike workshops | ~34K | — | 37K | — | CQ1P, CQ3T |
+| Castrol Auto Service | — | — | ~870 | — | CQ3T |
+| Industrial | — | — | double-digit volume; 700 new customers | ~400 net new (9M) | CQ3T, CQ3R |
+| "Step-out" sectors (Auto Care etc.) demand growth | +94% | +44% | — | — | CQ1P, CQ2P |
+| Price increases | #1 | #2 ("low double-digit") | none announced | — | CQ2T |
+
+*Q1 CY26 gross margin not separately computed this session (estimate from the screener cost line).
+
+**C. Five-year history (₹ Cr; Castrol has no subsidiaries, standalone = company)** [V: AR25 10-year table for revenue/other income/PAT/DPS; screener for OP/OPM/ROCE/CFO]
+
+| CY | Revenue from ops | YoY | OP (EBITDA ex-OI) | OPM | Other income | PAT | EPS ₹ | DPS ₹ | Payout | ROCE | CFO |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| CY21 | 4,192.06 | +39.9% | 1,067 | 25% | 48.43 | 758.09 | 7.66 | 5.50 | 72% | 67% | 630 |
+| CY22 | 4,774.49 | +13.9% | 1,111 | 23% | 67.05 | 815.15 | 8.24 | 6.50 | 79% | 61% | 916 |
+| CY23 | 5,074.61 | +6.3% | 1,198 | 24% | 83.15 | 864.13 | 8.74 | 7.50 | 86% | 57% | 853 |
+| CY24 | 5,364.85 | +5.7% | 1,278 | 24% | 88.61 | 927.23 | 9.37 | 13.00 (incl. 4.50 special) | 149% | 55% | 1,044 |
+| CY25 | 5,721.50 | +6.6% | 1,348 | 24% | 67.43 | 949.93 | 9.60 | 8.75 | 91% | 60% | 1,090 |
+
+- Screener shows CY25 other income as ₹45 Cr vs the AR's ₹67.43 Cr; screener nets the ₹22.5 Cr exceptional item into other income. Use the AR.
+- Net worth fell from ₹2,278 Cr (CY24) to ₹1,900 Cr (CY25) on the special-dividend cash-out and OCI loss (Ki Mobility revaluation).
+
+**D. Eight-quarter trend (₹ Cr)** [V screener; Q3 CY26 cross-checked to the BSE results]
+
+| Quarter | Revenue | YoY | OP | OPM | PAT | PAT YoY |
+|---|---|---|---|---|---|---|
+| Q4 CY24 (Dec-24) | 1,354 | +7.1% | 376 | 28% | 271 | +12.0% |
+| Q1 CY25 (Mar-25) | 1,422 | +7.3% | 307 | 22% | 233 | +7.9% |
+| Q2 CY25 (Jun-25) | 1,497 | +7.1% | 350 | 23% | 244 | +5.2% |
+| Q3 CY25 (Sep-25) | 1,363 | +5.8% | 323 | 24% | 228 | +10.1% |
+| Q4 CY25 (Dec-25) | 1,440 | +6.4% | 368 | 26% | 245 | −9.6% |
+| Q1 CY26 (Mar-26) | 1,545 | +8.6% | 329 | 21% | 242 | +3.9% |
+| Q2 CY26 (Jun-26) | 1,871 | +25.0% | 494 | 26% | 348 | +42.6% |
+| Q3 CY26 (Sep-26) | 1,735 | +27.3% | 262 | 15% | 176 | −22.8% |
+
+(Q4 CY24 YoY vs Dec-23 ₹1,264 / ₹242; Q1 CY25 vs Mar-24 ₹1,325 / ₹216.)
+
+**E. Q3 CY26 volume: what the disclosed numbers allow** [E; revenue-weighted CY25 quarterly volume proxy; GP/L-flat test]
+
+For "margin per litre steady" to hold on a **gross-profit-per-litre** basis, Q3 volume must have fallen ~6.6% (GP ₹634 vs ₹679 Cr). On an **EBITDA-per-litre** basis it must have fallen ~19%, which is not credible. The table tests the GP version against the other two statements: "9M ahead of a 3–4% market" and "Q2+Q3 healthy".
+
+| Q1 / Q2 growth assumed | Q3 growth | Implied 9M | Implied Q2+Q3 |
+|---|---|---|---|
+| 8% / 5% (disclosed floors) | −6.6% | +2.3% (below market) | −0.5% |
+| 8% / 5% | 0% | +4.4% | +2.6% |
+| 10% / 8% | −6.6% | +4.0% | +1.0% |
+| 12% / 9% | −6.6% | +5.0% | +1.6% |
+
+**Reading.**
+- All three statements can be literally true only if H1 growth ran well above the disclosed floors (≈10%+ in Q1 and ≈8%+ in Q2). That is plausible given pre-buying ahead of two price hikes; Gulf's CFO also mentioned "pre-buying or one-offs".
+- Even then, "Q2+Q3 healthy" means only ~+1–2%.
+- The more natural reading is that Q3 volume was **roughly flat to down mid-single digits**, and that "margin per litre" is an internal contribution measure (after variable selling costs/A&P), not gross profit per litre.
+- **Write it as "management says … ; the reported gross profit implies …"**, never as fact.
+
+**F. Annual-report findings (AR 2025)** [V]
+
+- **Volume and capacity:**
+  - CY25 volume +8%; "eight consecutive quarters of volume growth ahead of the market".
+  - CY25 production 230+ mn L across three plants (Patalganga 100+, Silvassa 85+, Paharpur 45+). Patalganga added 13 mn L/yr by debottlenecking.
+  - "Record volumes meant a very high level of capacity utilisation" (MD letter). That contrasts with the CFO's "70–80%" on the 2026 calls. The likely reconciliation is shift-based vs nameplate measurement.
+  - CY25 capex ₹127.53 Cr (CY24 ₹87.28 Cr).
+- **Segment:** one Ind AS 108 segment, "Lubricants". India revenue ₹5,694.35 Cr; outside India ₹27.15 Cr (0.5%). No customer ≥10% of revenue.
+- **Revenue quality:**
+  - Sale of products ₹5,700.32 Cr is **net of rebates of ₹679.03 Cr** (₹643.64 Cr in CY24), i.e. **10.6% of gross sales go back to trade as rebates**, before the separate ₹315 Cr "sales promotion fees".
+  - Total trade-facing spend (rebates + sales promotion + advertising) ≈ **₹1,158 Cr ≈ 18% of gross sales** [E].
+  - Distribution concentration: 74.4% of sales go through 460 distributors/dealers; the top 10 take only 9.97%.
+- **Related parties:**
+  - Royalty ₹132.49 Cr. Dividend to Castrol Ltd UK ₹655.79 Cr.
+  - Purchases from fellow subsidiaries only ₹91.74 Cr (mostly Castrol Germany ₹55.23 Cr and Belgium ₹19.49 Cr: specialty/finished products). Services received ₹34.11 Cr (BP Business Solutions India ₹15.57 Cr; BP International ₹13.92 Cr).
+  - Sales to Reliance BP Mobility (Jio-bp) ₹17.30 Cr, plus "overriding commission" to it ₹4.12 Cr.
+  - Commission income from BP Marine ₹2.16 Cr.
+  - BRSR: RPTs = 3% of purchases and 0.36% of sales.
+  - **Implication for the Stonepeak era:** base oil is not bought from BP, so there is no transfer-pricing channel to tighten. The levers a new owner has are the **royalty** (already at its PBT cap), the **dividend**, and **shared-services charges**.
+  - The "Q4 rebate from global contracts" depends on Castrol-group purchasing scale, which survives the sale because the group stays together under Stonepeak.
+- **Contingent liabilities:** ₹30.03 Cr (income tax ₹5.95 Cr; sales tax ₹22.22 Cr; other ₹1.86 Cr). A Maharashtra sales-tax dispute concerns stock transfers to other-state CFAs being treated as inter-state sales; management expects to win. Capital commitments ₹81.51 Cr. **Immaterial** (<3% of PAT).
+- **Exceptional item:** ₹22.53 Cr, for new labour codes effective 21-Nov-2025.
+- **Leadership churn:**
+  - MD Sandeep Sangwan to Oct-2024; Kedar Lele MD Nov-2024 to Dec-2025; Saugata Basuray WTD & interim CEO, now MD.
+  - CFO Deepesh Baxi to Mar-2025; interim CFO Jun–Jul 2025; Mrinalini Srinivasan from 28-Jul-2025.
+  - That is **three MDs and three CFOs in ~15 months**, during a parent sale. Note as a governance/continuity point.
+- **BRSR scale indicators:** 479 permanent employees in the BRSR worker table (630+ incl. others per PPT); energy intensity 0.14 GJ/KL; inputs 48% domestic by value; MSME sourcing 5%.
+- **Risks named in MD&A:** raw-material and currency volatility; EV transition (ICE "until 2040"; hybrids as a bridge); OEM-genuine-oil capture; counterfeits; competitive intensity.
+
+**G. Open-offer mechanics (from the PA)** [V]
+
+| Item | Fact |
+|---|---|
+| Trigger | Indirect acquisition (Reg 3(1), 4, 5(1)). Reg 5(2) "deemed direct" thresholds **not** met → DPS timing by proviso to Reg 13(4) |
+| Acquirer / PACs | Motion JVCo Ltd; PAC1 Stonepeak Motion Holdco (65%, sole control); Stonepeak Fund V Cayman AIV I; Stonepeak Fund V Lux AIV I; PAC4 CPP Investment Board Private Holdings (6) (non-controlling) |
+| BP's role | BP Motion Holdings (BPMH) receives 35% of Motion JVCo "simultaneously" on completion. The seller and BPMH have no control. Investment & shareholders' agreement dated 23-Dec-2025 |
+| Shares sought | 25,71,71,820 = 26.00% of fully diluted 98,91,22,384 |
+| Price | ₹194.04 (Reg 8(1)/8(3)) + 10% p.a. simple from 23-Dec-2025 to DPS date → **₹212.2 (DPS 30-Nov-26), ₹213.9 (31-Dec-26), ₹215.5 (31-Jan-27), ₹218.7 (31-Mar-27)** [E] |
+| Max outlay at enhanced price | ₹5,458 / 5,500 / 5,542 / 5,623 Cr for those dates [E] |
+| Conditions | Completion of the global deal (antitrust ~24 jurisdictions, FDI screens in 11, EU FSR). If it does not complete, no DPS/LOF |
+| Minimum acceptance | None (Reg 19(1)) |
+| Post-offer | Promoter group max 77.00%. If public float <25%, "necessary steps will be taken … within the prescribed timelines" (i.e. a sell-down within 12 months under SCRR 19A [K]) |
+| Manager | UBS Securities India |
+
+
+### 4.2.2 Gulf Oil Lubricants India (reference peer; Apr–Mar)
+
+**A. Management-commentary digest.** The Q1 FY27 call (4-Aug-2026, transcript filed 10-Aug) is the latest transcript. The Q2 FY27 call (30-Oct-2026) has only an audio recording filed so far. The Q2 FY27 press release and results (28-Oct) are [V] from Part 2.
+
+1. **Volume.**
+   - Q1 FY27 core lube volume **48,000 KL**, a record (previous high 45,000 KL in Q4 FY26). **+17% YoY, ">3x the industry"**.
+   - Growth was broad: B2C (PCMO-led, plus agri, CV, motorcycle), OEM franchise workshops (agri: Mahindra, Swaraj; Bajaj in 2W), B2B (industry, infrastructure, mining).
+   - FY26 full-year volume +11%.
+   - The CFO allowed for "some sort of pre-buying or one-offs" in Q1 volume.
+   - Q2 FY27 volume +16% (PR).
+2. **Guidance.**
+   - "Grow 2 to 3x the market" (≈ double digit) with an **EBITDA band of 12–14%**, aiming eventually for **14–16%** through premiumisation.
+   - In inflation, "percentage margin may not be a right parameter. Maybe the per liter margin will be a better optics." This is the same per-litre language as Castrol, but Gulf **does disclose litres**, so its claim can be checked.
+3. **Per-litre economics.** An analyst said EBITDA/L was up "30–40%" on price hikes. Management's policy: pass the per-litre cost through and "maintain our per liter margin". Gross margin is held within ±1–2 pp and cost lines are worked to keep 12–14%.
+4. **Inventory.** "We don't play on inventories … there are no inventory gains". This is an explicit contrast with Savita's model. Base-oil cover is 30–45 days. Inventory rose ₹108 Cr in Q1 (finished goods at higher cost).
+5. **Supply.**
+   - Long-term tie-ups with refiners plus active spot buying.
+   - In touch with all Indian NOC base-oil producers.
+   - **"Group III base oils have become very, very scarce"**. Base-oil prices had not followed crude down; some high-end grades were still rising (Aug-2026).
+   - Normalisation depends on the Strait of Hormuz.
+6. **AdBlue.** Top-3 supplier in India; 38,000–40,000 KL a quarter (40,000 KL in Q1). "Mid-single-digit margin" but it brings operating leverage.
+7. **EV / Tirex (DC chargers).** Revenue target **₹300–400 Cr in 3–4 years**, driven by e-bus tenders. DC-charger market share 8–10%. Customers include bus OEMs (Olectra, Switch, OHM), Mahindra, MG and VinFast (AC chargers).
+8. **Q2 FY27 (PR, 28-Oct).**
+   - Standalone revenue ₹1,379 Cr (+44%); EBITDA ₹163 Cr (+37%, 11.8%); PAT ₹117 Cr (+34%); volume +16%.
+   - OEM franchise workshops "high double-digit"; factory fill and B2B double-digit; Tirex +78%.
+   - **Valsad fire on 27-Oct-2026** at a third-party warehouse: stocks insured; two plants and 24 other warehouses operating (results note 4) [V].
+
+**B. KPI table** [V GAR / GQ1T / GQ2R; per-litre E]
+
+| KPI | FY25 | FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|
+| Core lube volume (KL) | ~151,000 [E: 168,000 ÷ 1.11] | **168,000** (+11%) | **48,000** (+17%) | ≈46–47,000 [E: +16% on an assumed ~40,000] |
+| AdBlue volume (KL) | ~140,000 [E] | **151,000** (+8%) | ~40,000 | n/d |
+| Revenue (consol, ₹ Cr) | 3,631 | 4,056 | 1,327 | 1,409 |
+| EBITDA (consol, ₹ Cr) | 472 | 514 | 166 | 163 |
+| EBITDA per lube litre (₹) [E] | ~31 | **~31** | **~35** | **~35** |
+| Gross margin (standalone) | 42% | 43% | "some dip" | n/d |
+| Royalty to GOIL International LLC (₹ Cr) | 40.10 | 43.80 | — | — |
+| Net cash (₹ Cr) | — | ~679 (standalone, Mar-26) | — | **~523 (consol, Sep-26)** |
+
+**C. Five-year history (consolidated, ₹ Cr)** [V screener; volume from GAR]
+
+| FY | Revenue | YoY | OP | OPM | PAT | ROCE | CFO | Payout | Lube volume growth |
+|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 2,192 | — | 285 | 13% | 211 | — | −24 | 12% | n/a |
+| FY23 | 2,999 | +36.8% | 343 | 11% | 232 | 23% | 273 | 53% | n/a |
+| FY24 | 3,301 | +10.1% | 421 | 13% | 308 | 26% | 341 | 57% | n/a |
+| FY25 | 3,631 | +10.0% | 472 | 13% | 357 | 27% | 395 | 66% | n/a |
+| FY26 | 4,056 | +11.7% | 514 | 13% | 345 | 26% | 350 | 73% | **+11%** |
+
+- FY22–26 volume CAGR ~9% per the Q1 FY27 PPT [V Part 2].
+- FY26 PAT fell on forex losses and the labour-code charge (₹22.8 Cr consolidated).
+
+**D. Eight-quarter trend (consolidated, ₹ Cr)** [V screener]
+
+| Quarter | Revenue | YoY | OP | OPM | PAT |
+|---|---|---|---|---|---|
+| Q3 FY25 (Dec-24) | 920 | +12.5% | 123 | 13% | 97 |
+| Q4 FY25 (Mar-25) | 953 | +9.5% | 129 | 14% | 93 |
+| Q1 FY26 (Jun-25) | 1,016 | +13.6% | 127 | 13% | 95 |
+| Q2 FY26 (Sep-25) | 967 | +11.9% | 117 | 12% | 84 |
+| Q3 FY26 (Dec-25) | 1,018 | +10.7% | 132 | 13% | 76 |
+| Q4 FY26 (Mar-26) | 1,055 | +10.7% | 136 | 13% | 90 |
+| Q1 FY27 (Jun-26) | 1,327 | +30.6% | 166 | 12% | 121 |
+| Q2 FY27 (Sep-26) | 1,409 | +45.7% | 163 | 12% | 115 |
+
+**E. Annual-report findings (AR FY26)** [V]
+
+- **Standalone financials:**
+  - Revenue ₹3,991.31 Cr (+12%); EBITDA ₹510.38 Cr (+9%).
+  - COGS 57% of sales (58%); manufacturing & other 25% (24%), rising on OEM mix ("higher contribution of sales from OEM segment also leads to higher royalty payment to OEMs", i.e. Gulf pays OEMs for genuine-oil/co-branding rights).
+  - Employees 5%. Finance cost ₹53.97 Cr (₹34.60 Cr), driven by forex on foreign-currency borrowings.
+  - PBT ₹494.01 Cr; PAT ₹350.92 Cr (₹362.25 Cr). CFO ₹362.52 Cr.
+- **Capacity:**
+  - 140,000 KL p.a. at Silvassa + Chennai on two shifts (≈120% utilisation on FY26 volume, hence satellites).
+  - ~279,000 KL p.a. including external satellite blenders. A phased Chennai expansion is described.
+  - An "AdBlue in-house capacity ~70%" tile also appears; its meaning (utilisation vs in-house share of supply) is ambiguous in the text.
+- **Related parties:** royalty ₹43.80 Cr to **GOIL International LLC** (the Hinduja-group Gulf brand owner) = 1.1% of standalone revenue; recovery of expenses ₹11.17 Cr; trade payable ₹8.09 Cr. No profit cap is disclosed. **Brand-licence cost ≈ ₹2.6/L vs Castrol's ≈ ₹5.5/L** [E].
+- **Single segment** "Lubricants" (Ind AS 108), even though AdBlue, batteries and EV chargers are inside it. So Gulf's per-litre figures above carry non-lube EBITDA.
+- **Industry view:** domestic lubricant market to grow at a **volume CAGR of 3–4% and value CAGR of 6–8% at least until 2033** (Kline basis, now in the audited AR).
+- **Balance sheet:** cash and bank ₹1,140.6 Cr; net worth ₹1,560.7 Cr (standalone, Mar-26). Short-term borrowings ₹462.1 Cr are mostly foreign-currency buyer's credit for imports, judging by the "net exchange loss on foreign currency borrowings" of ₹26.82 Cr in the finance-cost note [V; interpretation E].
+
+### 4.2.3 Veedol Corporation (formerly Tide Water Oil; reference peer)
+
+**A. Management-commentary digest.** Veedol holds no earnings calls and has filed no transcript. The digest uses the FY26 AR (Chairman/MD letters and MD&A, 31-Jul-2026) and board outcomes. Q2 FY27 results are due on 5-Nov-2026.
+
+1. **Strategy: margin over volume.** "Margin protection and sustainable value creation over aggressive volume expansion". Long-term procurement relationships rather than "short-term tactical responses" to raw-material and forex volatility.
+2. **Volume: flat at home.** "In light of **flat domestic volumes** and a cautious near-term outlook, **major manufacturing CAPEX expansion plans were temporarily deferred** until a volume turnaround is established."
+3. **Growth came from overseas.** Standalone (India) revenue **₹1,546.96 Cr, +1.3%**. Consolidated **₹2,168.54 Cr, +10%**. So ~₹180 Cr of the ₹196 Cr consolidated increase came from subsidiaries (Veedol International UK/UAE FZCO, "strong operational turnaround"). Standalone PBT ₹142.49 Cr vs consolidated ₹238.43 Cr: **overseas contributes ~40% of PBT** [E].
+4. **Products:** EstoBioLide (bio-derived synthetic esters), Engine Power Retention (EPR™) technology, patent filings; a new technology centre at Turbhe.
+5. **Q1 FY27 (Jun-26) OPM 16%** (screener) is the outlier quarter. Its cause is not explained in any filing read. Likely price/inventory timing [E].
+
+**B. KPI table** [V VAR / VBM; E where marked]
+
+| KPI | FY26 | Note |
+|---|---|---|
+| Domestic volume | "flat" | VAR (no litres disclosed) |
+| Standalone revenue / PBDIT | ₹1,546.96 Cr / ₹168.56 Cr (10.9%) | VAR |
+| Consolidated revenue / PBDIT | ₹2,168.54 Cr / ₹274.97 Cr (12.7%, incl. other income) | VAR |
+| ENEOS franchise fee paid to ENEOS VCL India (50:50 JV, associate) | **₹310.93 Cr** (+ oil supply ₹54.79 Cr) | VAR RPT annexure: a material RPT |
+| Purchases from Standard Greases & Specialities (joint promoter) | ₹278.47 Cr | VAR |
+| Network | 500+ distributors/dealers; 50,000+ retail outlets; 32 depots; ~64 countries | VAR BRSR/MD&A |
+| Exports | ~1.15% of standalone turnover | VAR BRSR |
+| Dividends paid in FY26 | ₹38.33 Cr interim (2-Dec-2025) + ₹24.39 Cr (26-Feb-2026) | VAR |
+| Loan to promoter Andrew Yule (24.30% holder) | ≤₹10 Cr, unsecured, 12% simple, to 31-Mar-2027, for working capital | VBM 28-Sep-2026 |
+
+**C. Five-year history (consolidated, ₹ Cr)** [V screener]
+
+| FY | Revenue | YoY | OP | OPM | PAT | ROCE | CFO | Payout |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 1,536 | +22.1% | 147 | 10% | 123 | 22% | 93 | 76% |
+| FY23 | 1,854 | +20.7% | 142 | 8% | 115 | 20% | 103 | 62% |
+| FY24 | 1,933 | +4.3% | 173 | 9% | 143 | 24% | 156 | 62% |
+| FY25 | 1,972 | +2.0% | 196 | 10% | 169 | 24% | 30 | 54% |
+| FY26 | 2,169 | +10.0% | 227 | 10% | 192 | 24% | 194 | 103% |
+
+**D. Eight-quarter trend (consolidated, ₹ Cr)** [V screener; Q2 FY27 due 5-Nov-2026]
+
+| Quarter | Revenue | YoY | OP | OPM | PAT |
+|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 476 | +0.4% | 46 | 10% | 35 |
+| Q3 FY25 (Dec-24) | 482 | −2.8% | 38 | 8% | 37 |
+| Q4 FY25 (Mar-25) | 532 | +9.2% | 68 | 13% | 60 |
+| Q1 FY26 (Jun-25) | 514 | +7.3% | 59 | 11% | 50 |
+| Q2 FY26 (Sep-25) | 509 | +6.9% | 53 | 10% | 41 |
+| Q3 FY26 (Dec-25) | 538 | +11.6% | 52 | 10% | 44 |
+| Q4 FY26 (Mar-26) | 607 | +14.1% | 63 | 10% | 57 |
+| Q1 FY27 (Jun-26) | 609 | +18.5% | 98 | 16% | 78 |
+
+**E. Annual-report findings** [V]
+
+- **Brand ownership is different from Castrol and Gulf.** Veedol **owns** its master brand: it bought **Veedol International Ltd (UK) from BP plc in 2011** for full trademark rights, and Price Thomas Associates (Granville Oil & Chemicals, UK) in 2016. So there is no royalty out on Veedol-branded volume.
+- **The ENEOS range runs through a 50:50 JV (2014)**, ENEOS VCL India (formerly ENEOS Tide Water Lubricants). Veedol manufactures and sells ENEOS products and pays the JV a **franchise fee of ₹310.93 Cr** (≈20% of standalone revenue).
+  - Read this as the **JV's share of ENEOS-product economics routed back to the associate**. Veedol recovers part of it through its equity-accounted share of JV profit [E].
+  - It is the largest single expense item disclosed after materials. **Ask the writer to describe it as a JV franchise arrangement, not a "royalty".**
+- **Promoter structure:** Andrew Yule & Co (a GoI company) holds 24.30%. Standard Greases & Specialities is a joint promoter and a ₹278 Cr supplier. Governance flags: the loan to Andrew Yule and the FY26 payout of 103%.
+- **Auditor:** Price Waterhouse Chartered Accountants LLP is referenced as statutory auditor in the Board's report [V text]. Not reviewed further.
+
+### 4.2.4 Savita Oil Technologies (reference peer; specialty processor)
+
+**A. Management-commentary digest.** Savita holds no regular concall with a filed transcript. Sources: the Sep-2026 investor presentation (Q1 FY27 deck, including the Chairman & MD's quote) and the FY26 AR. Q2 FY27 board is on 3-Nov-2026.
+
+1. **Q1 FY27 record:**
+   - Total income ~₹1,513 Cr (+49%); EBITDA ₹396.7 Cr (26.2% vs 8.3%); PBT ₹386.6 Cr (+435%).
+   - Drivers: the crude/refined-product price spike, tight supply, price increases across the portfolio, "**coupled with inventory gains**".
+   - Double-digit volume growth in **lubricants and exports**; **domestic white oil degrew**.
+2. **April 2026 shock:** "The Middle East crisis created uncertainty around feedstock availability and caused logistical challenges at ports, **sharply impacting April volumes**; however, volumes began normalizing after April." This matches PPAC's L&G −9% in April and −28% in June.
+3. **Outlook:** "optimistic but cautious" amid "significant daily volatility in key feedstock supplies". Export demand expected to stay buoyant.
+4. **Premiumisation:** SAVSOL Ester5 automotive range growing ~4–5× industry. Ester-based transformer fluids are winning OEM approvals. New products are aimed at data-centre immersion cooling, BESS and EV thermal fluids.
+5. **New contract:** a multi-year supply agreement with a "Leading Global Tractor Manufacturer" for genuine lubricants (FY26). That is OEM-genuine business, the same channel Gulf calls "OEM FWS".
+
+**B. KPI table** [V SAR / SPP]
+
+| KPI | FY25 | FY26 | Q1 FY27 |
+|---|---|---|---|
+| Sales volume (KL/MT) | 4,40,136 | **5,13,110** (+17%) | double-digit in lubes/exports; white oil down |
+| Total income (₹ Cr, incl. OI) | 3,859.7 | 4,407.7 (+14.2%) | 1,512.7 (+49.2%) |
+| EBITDA (₹ Cr, incl. OI) / margin | 207.8 / 5.4% | 290.6 / 6.6% | 396.7 / 26.2% |
+| **EBITDA per KL/MT** | ~₹4,720 [E] | **₹4,555** | ~₹30,000+ [E, inventory-gain quarter] |
+| PAT (₹ Cr) | 113.2 | 181.8 | 288.1 |
+| Mix (FY26) | — | transformer + white/mineral + specialty **73%**; lubricating oils (auto + industrial) **26%**; others 1% | — |
+| Reach | — | 75+ countries; 490+ distributors; 1,600+ franchisee dealers; 35+ stock points | — |
+
+**Per-litre lens:** Savita earns **≈ ₹4.6 per litre** of EBITDA in a normal year, vs **≈ ₹31 at Gulf** and **≈ ₹56 at Castrol**. Its realisation is **≈ ₹85/L** (₹4,360 Cr ÷ 513 mn L) [E]. That is the whole case for not treating Savita as a branded-lube peer.
+
+**C. Five-year history (consolidated, ₹ Cr)** [V screener]
+
+| FY | Revenue | YoY | OP | OPM | PAT | ROCE | CFO | Payout |
+|---|---|---|---|---|---|---|---|---|
+| FY22 | 2,937 | +46.9% | 358 | 12% | 260 | 31% | 369 | 13% |
+| FY23 | 3,629 | +23.6% | 336 | 9% | 226 | 24% | −64 | 12% |
+| FY24 | 3,740 | +3.1% | 254 | 7% | 201 | 18% | 167 | 14% |
+| FY25 | 3,813 | +2.0% | 162 | 4.2% | 113 | 9% | 61 | 24% |
+| FY26 | 4,360 | +14.3% | 245 | 6% | 182 | 13% | 137 | 19% |
+
+**D. Eight-quarter trend (consolidated, ₹ Cr)** [V screener; Q2 FY27 due 3-Nov-2026]
+
+| Quarter | Revenue | YoY | OP | OPM | PAT |
+|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 907 | +2.0% | 34 | 3.8% | 31 |
+| Q3 FY25 (Dec-24) | 945 | −1.4% | 22 | 2.3% | 12 |
+| Q4 FY25 (Mar-25) | 1,006 | +3.4% | 48 | 4.8% | 29 |
+| Q1 FY26 (Jun-25) | 989 | +3.5% | 60 | 6.0% | 56 |
+| Q2 FY26 (Sep-25) | 1,076 | +18.6% | 51 | 4.8% | 41 |
+| Q3 FY26 (Dec-25) | 1,074 | +13.7% | 40 | 3.8% | 38 |
+| Q4 FY26 (Mar-26) | 1,224 | +21.7% | 65 | 5.0% | 47 |
+| Q1 FY27 (Jun-26) | 1,480 | +49.6% | 364 | 25% | 288 |
+
+**E. Annual-report findings** [V]
+
+- Record FY26 volume **5,13,110 KL/MT** ("surpassing the 5 lakh KL milestone for the first time").
+- Debt-free with "strong cash reserves" (screener investments ₹373 Cr).
+- 53 MW installed renewable capacity (per PPT).
+- No new projects added in FY26 per the Directors' report wording (an ester plant is described at ~3,000 MTPA capacity, with a 5,000 MTPA expansion referenced in the R&D/ester section [V text, capacity context partial]).
+- Uninterrupted dividend since listing in 1994; FY26 DPS ₹5 (payout 19%).
+- **No brand royalty** (owns SAVSOL/TRANSOL).
+- Risk profile: **feedstock (base oil / LOBS) price and availability**, which drive inventory gains and losses. The Q1 FY27 inventory gain will likely reverse when base oil falls [E].
+
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**I1. Lubricant volume by company: the disclosed numbers only** (units as reported; TMT ≈ 1.13–1.15 mn L)
+
+| Company | Year | Volume | Unit | Tag | Comment |
+|---|---|---|---|---|---|
+| IOCL (Servo; group) | FY26 | **905** (~+16%) | TMT | [V IOCP] | IOCL's product table also shows 0.8 / 0.8 / 0.9 MMT for FY24 / FY25 / FY26. Likely includes LOBS/bulk and Nepal/overseas |
+| HPCL (HP Lubes) | FY25 / FY26 | 704 / 686 | TMT | [V-snip] | HPCL runs a 428 TMTPA lube (base-oil) refinery [V HPCP], so its "lube sales" likely include LOBS |
+| BPCL (MAK) | FY25 | **471.8** | TMT | [V BPFS] | 24.7% share "among PSU OMCs" FY25 → PSU total ≈ 1.91 mn t [E] |
+| Castrol India | CY25 | **230+ produced** / ~235–245 sold | mn L | [V AR25] / [E] | +8% CY25; Q1 CY26 >8%; Q2 >5% |
+| Gulf Oil Lubricants | FY26 | **168,000** (+11%) | KL (= mn L ×1,000) | [V GAR] | Plus AdBlue 151,000 KL (not lubricant) |
+| Savita | FY26 | 513,110 (+17%) | KL/MT (mixed) | [V SAR] | Mostly transformer/white oils (73% of sales). Lubricant share of volume probably ~25–30% [E] |
+| Veedol | FY26 | "flat" (domestic) | — | [V VAR] | No litres disclosed |
+| Valvoline Cummins | FY26 | n/d; revenue ₹3,010.66 Cr (+28%) | — | [V-sec CIDR] | At ~₹200–230/L that implies ~130–150 mn L [E] |
+
+**Private branded finished-lube volume, FY26/CY25 [E]:** Castrol ~240 + Gulf 168 + Valvoline Cummins ~140 + Veedol (standalone ₹1,547 Cr at ~₹200/L) ~75 + Shell/Mobil/Total/Motul/others → **the top four private brands are ≈ 620 mn L ≈ 540 kt**. That is ≈ 19–20% of a ~2.75–2.85 mn t finished market. Indicative only; use as "the four largest private brands sell roughly a fifth of the tonnage".
+
+**Volume shares on the disclosed numbers [E; denominator Kline 2.6 mn t (2023) grown at 3.5% → ~2.8 mn t by FY25–26; shares would be ~0.1–0.2 pp lower on 2.85]:**
+- Castrol ~7.5% (≈212 kt).
+- Gulf ~5.3% (≈148 kt).
+- Valvoline Cummins ~4.5% [E].
+- Veedol ~2.4% [E].
+- IOCL "905 TMT" would be ~32%. This **overstates** IOCL's finished-lube share for the scope reasons in S3.
+
+**I2. Per-litre economics across archetypes (₹ per litre, latest full year)** [E from V]
+
+| | Castrol CY25 | Gulf FY26 (all-in) | Savita FY26 | Notes |
+|---|---|---|---|---|
+| Revenue / L | ~237 | ~241 all-in; ~195–210 lube only | ~85 | Castrol ₹5,721.5 Cr ÷ 241 mn L; Gulf ₹4,056 Cr ÷ 168 mn L; Savita ₹4,360 Cr ÷ 513 mn L/kg |
+| Gross margin / L | ~116 | ~104 (43% × 241) | ~10–12 | |
+| Brand royalty / L | ~5.5 (to Castrol Ltd UK) | ~2.6 (to GOIL International) | 0 | Veedol: ENEOS franchise fee ≈ ₹40/L on ENEOS-brand volume [E, unknown split]; 0 on Veedol brand |
+| EBITDA / L | **~56** | **~31** | **~4.6** | Savita ₹4,555/KL [V] |
+| EBITDA margin | 23.6% | 12.7% | 5.6% (6.6% incl. OI) | |
+
+**I3. EV penetration of retail sales (FADA, %)** [V-sec ACP-EV; earlier points from Part 1]
+
+| | FY25 | FY26 | Mar-26 | Aug-25 | Sep-25 | Aug-26 | **Sep-26** |
+|---|---|---|---|---|---|---|---|
+| e2W | 6.09 | 6.54 | 9.79 | 7.7 | 8.2 | 10.7 | **11.6** |
+| ePV | — | — | — | 5.8 | 5.7 | 7.6 | **8.5** |
+| e3W | 57.2 | 60.9 | — | — | 56.7 | 65.3 | **64.9** |
+| eCV | — | — | — | 2.06 | 2.16 | 5.18 | **4.04** |
+
+- e2W units Sep-26: 207,314 (+88.7% YoY); total 2W retail 17,90,188 (+33.1%).
+- **e2W stock estimate (no Vahan cumulative fetched):** FY21–26 sales ≈ 4.6 mn [K/V-snip mix] + Apr–Sep-26 ≈ 1.05 mn [E: ~175k/month average] ≈ **5.6–5.7 mn ≈ 2.3% of the 243 mn 2W parc** [E].
+
+**I4. Policy facts, now dated**
+
+| Policy | Fact | Date | Tag |
+|---|---|---|---|
+| PM E-DRIVE | e2W demand incentive ₹2,500/kWh, cap ₹5,000 (and ≤15% ex-factory); vehicles registered 1-Apr-2025 to 31-Mar-2028; up to 45.8 lakh e2Ws; e2W allocation ₹2,767 Cr; scheme outlay ₹11,900 Cr | Amendment reported 11-Aug-2026 (after a 31-Jul-2026 lapse) | [V-sec] |
+| EPR, used oil | HOWM Second Amendment Rules 2023 (18-Sep-2023), effective 1-Apr-2024; producer target 5% (FY25, on FY23 sales) rising to 40% (FY30, on FY28); tradeable CPCB certificates; environmental compensation | 2023/2024 | [V-sec] |
+| Base-oil customs | HS 27101971: BCD 5%, AIDC (5% of BCD), SWS 10%; IGST 18% | as at 13-May-2026 | [V-sec] |
+| GST on lubricants | 18% (the IGST on base oil per the tariff line is 18%; finished lubricants 2710 19 also 18%) | — | [V-sec for base oil; K for finished] |
+| SEBI SAST (Castrol) | Reg 8(12) 10% p.a. enhancement; Reg 13(4) proviso DPS timing; Reg 19(1) no minimum; MPS via SCRR 19A | PA 24-Dec-2025 | [V] |
+| Labour codes | Effective 21-Nov-2025; one-time charges Castrol ₹22.53 Cr, Gulf ₹22.78 Cr | 2025 | [V] |
+
+**I5. Domestic base-oil capacity (partial)**
+- IOCL **launched Group III 8 cSt LOBS** ("high purity lube oil base stock") in FY26 [V IOCP]. This is the first confirmed domestic Group III grade in our sources.
+- HPCL runs a **428 TMTPA lube refinery** (Mumbai) [V HPCP].
+- Reliance and other Group II/III projects: **not verified** (open).
+
+## 4.4 Gap log (Part 1 §H items and the extra gaps in the prompt)
+
+| # | Gap | Status | Result / what was tried |
+|---|---|---|---|
+| H1 | Castrol volume (litres) | **Partly closed** | AR25: CY25 production **230+ mn L** (plant split) [V]; volume +8% CY25 [V]; Q1 CY26 >8%, Q2 >5% [V]. Management refuses quarterly litres (Q2/Q3 calls) [V]. Q3 volume still undisclosed: scenario table §4.2.1-E |
+| H2 | India market shares (volume/value, dated) | **Partly closed** | Castrol's "#1" = NielsenIQ urban retail volume share, 12 states, Q1 CY26 [V]. IOCL "gained market share of 5.3%" FY26 [V; basis unstated]. MAK 24.7% of PSU-OMC sales FY25 [V]. Disclosed-volume shares in §4.3-I1 [E]. No national value-share table from a primary or rating-agency source was found |
+| H3 | Market value in ₹ | **Open** | No primary source. Keep ₹55,000–70,000 Cr [E]. Cross-check: listed four + VCPL ≈ ₹14,700 Cr of lube-led domestic revenue (Castrol 5.7k + Gulf ~3.4k lube + VCPL 3.0k + Veedol 1.5k standalone + Savita lubes ~1.1k) ≈ 21–27% of the estimate [E], plausible given PSU and MNC weight |
+| H4 | PSU tonnage scope | **Closed (re-scoped)** | Servo 905 TMT [V]; MAK 471.8 TMT FY25 [V]; "428" was HPCL refinery capacity [V]; HP 686 [V-snip]. Scope includes LOBS/bulk (S3) |
+| H5 | Base-oil benchmark prices (Group I/II/III) | **Open** | Argus/ICIS paywalled. Undated nexizo snippets (Group II 500N $880–980/t; Group III 4cSt $1,080–1,130/t FOB Asia, pre-war context) [V-snip, undated, not used]. Keep PPAC import unit values [V Part 1]. Gulf CFO (Aug-26): Group III "very, very scarce"; analyst on Castrol Q3 call: Group II −5%, Group III +7% (period unclear) |
+| H6 | Gulf per-litre economics, product mix | **Closed (volume/per-litre); mix open** | 168,000 KL; EBITDA/L ~₹31 (FY26), ~₹35 (Q1 FY27) [E from V]. Mix by segment not disclosed beyond channel colour |
+| H7 | Gulf net cash | **Closed** | ~₹523 Cr (Sep-26 consol), ~₹679 Cr (Mar-26 standalone) [V/E] |
+| H8 | Royalty formula | **Partly closed** | Amounts [V] (Castrol ₹132.49 Cr; Gulf ₹43.80 Cr). Castrol formula still [V-snip], but consistent with 10% of PBT in CY19, CY20, CY24, CY25 [E]. Licence agreement not public. No royalty language in AR25 beyond the amount |
+| H9 | BP–Stonepeak terms from BP's own release | **Partly closed** | bp.com 403; RNS mirrors 403 or sign-up wall (declined). Stonepeak release via WorkBoat [V-sec]: EV ~$10.1 bn, ~$6 bn net proceeds, 2-yr lock-up, CPPIB up to $1.05 bn, completion end-2026. PA [V] gives full structure. 8.6× / $8.0 bn equity / $0.8 bn accelerated dividends remain [V-snip] |
+| H10 | Open-offer acceptance/MPS mechanics | **Closed** | PA read in full: no minimum acceptance; max 77%; MPS steps "within the prescribed timelines" [V] |
+| H11 | e2W fleet stock (Vahan/SMEV) | **Open** | Not fetched (Vahan dashboard is JS-driven). Estimate 5.6–5.7 mn (~2.3% of parc) [E] |
+| H12 | Base-oil duty, GST, PM E-DRIVE, EPR | **Closed (secondary)** | S17–S19 [V-sec] |
+| H13 | Group II/III domestic capacity timing | **Partly closed** | IOCL Group III 8 cSt LOBS launched FY26 [V]. IOCL Koyali/"Hordia" project timing and Reliance: open |
+| H14 | BP 2015 sell-down date | **Closed** | May 2016 (11.5%) + Sep 2016 (8.53%) → 51% [V-snip, multiple] |
+| H15 | Valvoline Cummins / Shell / ExxonMobil India financials | **Partly closed** | VCPL FY26 revenue ₹3,010.66 Cr (+28%) [V-sec]. Shell India, ExxonMobil Lubricants, TotalEnergies India: not fetched (MCA paywalled; budget) |
+| H16 | Castrol segment split | **Closed** | Single segment; industrial ~15% (CFO) [V]; consumer/OEM&fleet/industrial pie ≈61/26/13 [E visual] |
+| H17 | Primer CY23 conflict | **Closed** | AR25 10-year table: 5,074.61 / 864.13 [V]; primer figures match no line (S22) |
+| P1 | Q3 CY26 call wording on per-litre | **Closed** | S21 and §4.2.1-A3 |
+| P2 | Enhanced offer price ₹214–219 | **Closed (arithmetic on V inputs)** | ₹212.2–218.7 for DPS between 30-Nov-26 and 31-Mar-27 |
+| P3 | Castrol India ≈ 13% of global EBITDA | **Qualified** | 12–13% depending on FX (S25) |
+| P4 | 2026E market 2.85 mn t | **Unchanged [E]** | Kline 2023 base reconfirmed in Gulf AR26 (3–4% vol, 6–8% value to 2033) [V] |
+| P5 | Base-oil supply via Hormuz | **Supported qualitatively** | Gulf CFO: improvement "when the Strait of Hormuz normalizes"; Savita: Middle East crisis hit April feedstock and ports [V]. No tonnage split by origin fetched (DGCI&S not reached) |
+| P6 | FADA EV FY26 share | **Unchanged** | 6.54% FY26 still [V-snip]; monthly Sep-26 [V-sec] |
+| P7 | Litres per vehicle per year | **Open** | Remains [K/E] |
+| P8 | Rating-agency sector notes (CRISIL/ICRA/CARE/Ind-Ra) | **Open** | Not fetched within budget. A CRISIL rating action on Savita (21-Oct-2026) exists per screener [V Part 1] but was not read |
+
+## 4.5 New insights the first pass missed
+
+1. **Gulf discloses litres, so the "per-litre" debate can be settled for Gulf and not for Castrol.**
+   - Both managements switched to "per-litre margin" language in 2026.
+   - Gulf's numbers check out: EBITDA/L rose from ~₹31 (FY26) to ~₹35 (Q1–Q2 FY27) while volume grew 16–17%.
+   - Castrol's claim cannot be checked, and its own gross profit (−6.6% YoY in Q3) fits it only under generous H1-volume assumptions.
+   - **The disclosure gap is now a competitive-narrative gap.**
+2. **Castrol's real trade spend is ~18% of gross sales, not 8%.**
+   - AR25 shows ₹679 Cr of rebates netted from revenue on top of ₹479 Cr of advertising and sales-promotion fees.
+   - The "brand premium" is partly bought back by the trade every year. That is why a challenger with a cheaper ladder (Gulf) can take volume when base-oil inflation forces list-price hikes.
+3. **The royalty is a profit share, not a sales tax, and that limits a PE parent's options.**
+   - Castrol's royalty has sat at ~10% of PBT every year checked; Gulf's is a flat ~1.1% of sales. A Stonepeak-era increase would have to be a renegotiated licence (a material RPT needing minority approval).
+   - Castrol India buys almost nothing from the group (₹92 Cr), so there is no transfer-pricing back door.
+   - **Dividends (₹656 Cr to Castrol Ltd in CY25) are the main up-streaming channel.** Expect payout to stay at 80–90%+.
+4. **PSU "lube sales" are a tonnage concept that includes base oil.**
+   - HPCL's 428 TMTPA lube refinery and IOCL's new Group III LOBS make the PSUs base-oil **suppliers to the private blenders** as well as competitors.
+   - In a Hormuz-type shock their pricing power over Group I/II feedstock matters more than their retail brands.
+   - Gulf's CFO said Gulf is "in touch with all the NOCs in India who are producing base oils".
+5. **Valvoline Cummins is the hidden #3 private brand.**
+   - ₹3,011 Cr of FY26 revenue (+28%) puts it ahead of Veedol and close to Gulf's lubricant revenue. It grew faster than both in FY26.
+   - The Cummins engine link anchors it in the EV-resistant DEO/CV pool. Any "listed peers" framing misses it.
+6. **Veedol's growth is now offshore; India is flat.** Standalone revenue +1.3% with "flat domestic volumes" and deferred capex. Overseas subsidiaries supplied almost all FY26 growth and ~40% of PBT. The ENEOS franchise fee (₹311 Cr ≈ 20% of standalone revenue) makes Veedol's domestic economics far thinner than its consolidated 10–12% OPM suggests.
+7. **Castrol's leadership churn coincides with the ownership change.** Three MDs and three CFOs between Oct-2024 and Jul-2025 (AR25 KMP list), plus a new auditor from the 2027 AGM. **Execution risk during the transition is under-discussed.**
+8. **The open offer is economically a ~10% p.a. carry trade, conditional on completion.** At ₹188 vs ₹213.9 (DPS end-Dec-26) the gross spread is ~13.8%. The downside if the deal fails is that no offer happens at all (PA §1). Acceptance may be pro-rated if more than 26% is tendered [K]. The binding constraint is MPS: tendering above ~24% forces a promoter sell-down within 12 months.
+
+### New primer issues (format as primer-issues.md)
+
+**castrol-india.html**
+- Volume line: replace "~230 M litres" (cover) and "well over 200 million litres" (text) with **"CY25 production 230+ million litres across three plants (Patalganga 100+, Silvassa 85+, Paharpur 45+); volume +8% in CY25 (AR 2025)"**. This replaces the Part 3 suggestion to call 230 an estimate: it is a company figure for production.
+- Market-share wording: "#1 market share across automotive categories" should carry its basis: **NielsenIQ, 12 states, urban retail volume share (quarter to Mar-2026)**.
+- Mix: "automotive ~85% / industrial ~15%" can now cite the CFO (Q2 CY26 call). Add "single reportable segment (Lubricants)".
+- Revenue quality: add that sales are **net of ₹679 Cr of rebates (CY25)**; trade-facing spend ≈18% of gross sales.
+- Ownership history: if the primer mentions BP's sell-downs, they were **May-2016 (70.92% → 59.42%) and Sep-2016 (→ 51%)**, not 2015.
+- Leadership: note three MD and three CFO changes from Oct-2024 to Jul-2025, now MD Saugata Basuray and CFO Mrinalini Srinivasan.
+- Competitor table: add **Valvoline Cummins FY26 revenue ₹3,011 Cr (+28%)** and **Gulf FY26 volume 168 mn L (+11%), Q2 FY27 +16%**. Correct any PSU volume figures to Servo 905 TMT (FY26) and MAK 471.8 TMT (FY25).
+- EV section: update to **Sep-2026 e2W 11.6%** and PM E-DRIVE e2W incentive extended to **Mar-2028 (₹5,000 cap)**.
+- Regulation: add EPR for used oil (in force from 1-Apr-2024; targets rising to 40% by FY30) as a cost/compliance line, and Castrol's Tata Motors used-oil MoU (Q2 CY26).
+
+**bpcl.html** (read-only check carried from Part 3)
+- If MAK is added, use **471.8 TMT (FY25, highest ever; 24.7% of PSU-OMC lube sales)**, not 428.
+
+**hpcl.html**
+- **428 TMTPA lube refinery** (largest in India) is a fact worth a line, alongside the lubes-demerger status (still [V-snip], and reports conflict on whether it was postponed).
+
+**indian-oil.html**
+- Servo FY26 **905 TMT (~16%)**, "gained market share of 5.3%" (FY25-26 investor presentation). Supersedes the 855 provisional figure.
+- IOCL launched **Group III 8 cSt LOBS**.
+
+## 4.6 Source URLs fetched this session
+
+- Castrol AR 2025: https://www.bseindia.com/xml-data/corpfiling/AttachHis/739e1c39-7f07-4bef-8ce8-7eec54a51ad9.pdf
+- Castrol Q3 CY26 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf4f9d4f-4420-4973-bb45-d48a7429526c.pdf
+- Castrol Q2 CY26 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=502d723a-f53f-4cda-945d-f817254831f7.pdf
+- Castrol Q1 CY26 investor presentation: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7eb74aec-c941-4dc2-aa92-37f612ad2230.pdf
+- Castrol Q2 CY26 investor presentation: https://www.castrol.com/content/dam/castrol/country-sites-new/en_in/india/home/documents/investors/cil-2q26-investor-presentation-21-aug.pdf
+- Castrol Q3 CY26 results / board outcome: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93c69789-f794-4448-b892-45fb1fea7729.pdf
+- Open-offer PA: https://nsearchives.nseindia.com/corporate/team_bbodade_24122025172950_CASTROLIND.pdf
+- Screener: https://www.screener.in/company/CASTROLIND/ ; https://www.screener.in/company/GULFOILLUB/consolidated/ ; https://www.screener.in/company/VEEDOL/consolidated/ ; https://www.screener.in/company/SOTL/consolidated/
+- Gulf AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/f26c1b22-800e-4b59-bdab-514602987577.pdf
+- Gulf Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6dd52cc1-d2c6-43ca-ac16-efc3cee6a8a5.pdf
+- Gulf Q2 FY27 results: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=448f0ce4-68d8-47b2-a822-2b1a85c121e0.pdf
+- Gulf Q2 FY27 call intimation (audio only): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c71e247-cf26-4989-86ed-782fa2852317.pdf
+- Veedol AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/2d18f786-d735-47a3-98ae-b0a820fe8b2c.pdf
+- Veedol 356th board outcome: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bd76237-d71f-410e-b568-92096fbc749a.pdf
+- Savita AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/f5ce05d8-6169-4cc8-beee-4eb4f4d08175.pdf
+- Savita investor presentation Sep-2026: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6534d55-1d6f-4431-b022-7d00f4d30776.pdf
+- IOCL investor presentation FY25-26: https://iocl.com/uploads/IOCL_Investor_Presentation_25-26.pdf
+- HPCL investor presentation Q1 FY27: https://www.hindustanpetroleum.com/documents/pdf/Investor_Presentation_Q1_FY_2026-27.pdf
+- BPCL MAK/aviation fact sheet: https://www.bharatpetroleum.in/bharat-petroleum/pdf/AVIATION.pdf
+- Stonepeak/BP release reprint: https://www.workboat.com/stonepeak-to-buy-majority-stake-in-castrol
+- FADA Sep-2026 EV: https://www.autocarpro.in/news/electric-vehicle-retail-rises-sharply-in-september-2026-fada-135098
+- PM E-DRIVE extension: https://www.autocarpro.in/news/govt-extends-pm-e-drive-subsidy-for-e2ws-till-fy28-increases-allocation-134036
+- EPR used oil: https://www.lkslaw.com/insights/news/extended-producer-responsibility-epr-for-used-oils
+- Base-oil tariff line: https://eximpe.com/hsncode-finder/27101971
+- Valvoline Cummins (Cummins India FY26 directors' report mirror): https://www.arihantcapital.com/company-information/directors-report/337
+- BP 2016 sell-downs (snippets): https://www.business-standard.com/article/companies/bp-sells-11-5-stake-in-castrol-india-subsidiary-116051901124_1.html ; https://www.business-standard.com/article/companies/bp-sells-8-5-stake-in-castrol-india-116092000756_1.html
+- Unreachable this session: bp.com press releases (403); stockopedia / financialfilings RNS mirrors (403 / sign-up wall); cpcb.nic.in used-oil FAQ (TLS error / 503).
+
+*End of Part 4.*
