@@ -63,3 +63,7 @@
 - Market share: Wakefit's own estimate is **~10% of the organised mattress market**; remove any "30–35% of online mattresses" claim.
 - Capex: FY27 **₹100–120 Cr** (Aug-26), down from ₹120–140 Cr (May-26).
 
+
+## primer-audit.mjs (2026-11-01, orchestrator; pre-existing, not fixed)
+- sheela-foam.html — passes hard checks; note: no `main{min-width:0}` (phone overflow risk); 0 sub-sector report links; last refreshed 2026-07-27 (pre-Q1 FY27).
+- wakefit.html — passes hard checks; note: no `main{min-width:0}` (phone overflow risk); 0 sub-sector report links; last refreshed 2026-07-27 (pre-Q1 FY27).
