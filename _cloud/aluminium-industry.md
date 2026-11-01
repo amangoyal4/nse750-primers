@@ -1017,3 +1017,515 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
 - VAML: https://www.alcircle.com/news/vedanta-aluminium-output-rises-5-y-o-y-to-record-632-000-tonnes-in-q1-fy27-on-new-smelter-volumes-and-efficiency-gains-120194
 - India alumina trade: https://www.alcircle.com/news/indias-alumina-trade-surplus-nearly-quadruples-to-1-72-mt-in-h1-2026-as-exports-hit-2-5-mt-120970
 - Siblings: subsectors/diversified-metals.html, subsectors/copper.html, subsectors/cables.html, subsectors/power-transmission.html (repo)
+
+---
+
+# PART 4 — Deep-research supplement (2026-11-01)
+
+Second-pass, primary-source supplement compiled 1-Nov-2026 (UTC) for the writer. About 62 web calls. Everything tagged **[V]** below was fetched and read this session from the named document. The main primary documents read are:
+- **Hindalco** (hindalco.com/Upload/PDF): Q1 FY27 investor presentation (7-Aug-2026), Q1 FY27 earnings-call transcript (7-Aug-2026), Q4 FY26 earnings presentation, Q4 FY24 earnings presentation (for FY23 and FY24 segments), Integrated Annual Report 2025-26 (notes 3, 31 and MD&A), FY22 results release (adityabirla.com).
+- **Novelis** (sec.gov EDGAR): Q1 FY27 earnings release (8-K, 5-Aug-2026), Q1 FY27 10-Q (June-2026), FY26 10-K (19-May-2026), EDGAR filing index, FY22 results release (Novelis IR PDF).
+- **NALCO** (bseindia.com filings, because nalcoindia.com still returns SSL errors or HTTP 503): Q1 FY27 earnings-call presentation (3-Aug-2026), investor-meet presentation (16-Sep-2026), Q4 FY26 earnings-call transcript (call 30-Apr-2026, filed 4-May-2026), 45th Annual Report 2025-26 (notes 26, 36 and 39, MD&A, CAG comments).
+- **Screener.in** consolidated pages for HINDALCO, NATIONALUM and VAML, plus the HINDALCO standalone page (curl, 1-Nov-2026).
+- **Regulators and peers:** Ministry of Mines *Monthly Summary on Minerals and Non-ferrous Metals* for December 2025 and March 2026 (mines.gov.in), the US Presidential Proclamation of 3-Jun-2025 (govinfo.gov), and Alcoa's Q3 2026 8-K exhibit (sec.gov).
+
+Search-result-only items stay **[V-snip]**; arithmetic is **[E]**.
+
+**NALCO Q2 FY27 results were not captured.** The board meets on 2-Nov-2026, the day after this supplement, and the analyst call is on 3-Nov at 10:30. As of 1-Nov no Q2 FY27 result exists on BSE or the company site. Novelis has filed no Q2 FY27 8-K either: the latest EDGAR filing is an 8-K of 26-Aug-2026.
+
+**One Q2 FY27 data point is already out: VAML (reference player).** It reported on 28-Oct-2026: revenue ₹22,324 Cr, operating profit ₹10,113 Cr (45%), PAT ₹6,187 Cr. Q1 FY27 was ₹21,393 / ₹10,299 / ₹6,597 Cr [V screener VAML]. VAML's operating profit fell only 2% QoQ while LME fell 10%, and its OPM went from 48% to 45%. That is the first hard read-across for Hindalco upstream and NALCO in Q2.
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Item (where in Parts 1–3) | Old value | New value | Source |
+|---|---|---|---|---|
+| S1 | Hindalco consolidated net debt, 30-Jun-2026 (E13, 2.1, §H-7) | ~₹86,600 Cr [E inference] | **₹77,495 Cr** (gross debt ₹1,03,515 Cr − treasury ₹26,020 Cr); TTM adjusted segment EBITDA ₹39,824 Cr → **1.95×** | Hindalco Q1 FY27 deck, slide 19 [V] |
+| S2 | Hindalco net-debt path (E13) | Mar-25 35,332 → Mar-26 64,841 only | Jun-25 **34,257** · Sep-25 **41,415** · Dec-25 **59,461** · Mar-26 64,841 · Jun-26 **77,495** (₹ Cr) | Q1 FY27 deck [V] |
+| S3 | Hindalco EV/EBITDA TTM (0, 2.0, E26) | ~5.9× (used Mar-26 net debt) | **~6.2×** = (m-cap ₹1,98,812 + Jun-26 net debt ₹77,495) ÷ TTM company EBITDA ₹44,413 Cr | [E from V] |
+| S4 | Novelis net leverage "peaked ~4.5× around Sep-26" (§0, E13) | 4.5× peak at Sep-26 [V-snip] | **Already 4.5× at 30-Jun-2026** (adjusted net debt **$7,865m**, from $6,724m). The CFO said it would be "a little bit higher" at end-September, then fall below 4× by FY27-end | Novelis Q1 FY27 8-K; Hindalco Q1 call [V] |
+| S5 | Novelis FY22–FY23 (E8, §H-9) | FY22 ~3,853 kt / ~$1,970m / ~$511 [K]; FY23 ~3,790 / ~$1,800 / ~$475 [K] | **FY22 3,858 kt / $2,045m / $530/t** (net sales $17,149m; leverage 2.2×); **FY23 3,790 kt / $1,811m / $478/t** (net sales $18.49bn) | Novelis FY22 release; Hindalco Q4 FY24 deck [V] |
+| S6 | Hindalco FY23 segments (§H-10) | not fetched | Upstream **1,319 kt, ₹8,402 Cr, $792/t**; downstream **354 kt, ₹627 Cr, $221/t**; copper **439 kt (CCR 347), ₹2,253 Cr**; India EBITDA ₹10,574 Cr; consolidated EBITDA ₹24,131 Cr | Q4 FY24 deck [V] |
+| S7 | Hindalco FY22 segments (§H-10) | not fetched | Aluminium India (upstream + downstream then reported together) EBITDA **₹13,025 Cr (41%)**; copper **₹1,390 Cr**; Novelis ₹15,229 Cr; consolidated EBITDA **₹30,056 Cr**; ND/EBITDA **1.36×** | FY22 release [V] |
+| S8 | Hindalco downstream FY24–FY25 (2.1 segment table) | n.f. / FY25 EBITDA ~₹631 Cr [E] | FY24 **370 kt, ₹573 Cr, $187/t**; FY25 **403 kt, ₹12,819 Cr revenue, ₹633 Cr, $186/t**; FY26 **446 kt, ₹978 Cr, $248/t** | Q4 FY24 and Q4 FY26 decks [V] |
+| S9 | Hindalco copper EBITDA/t | n.f. | FY25 **$729/t** → FY26 **$653/t**; Q1 FY26 $635 → Q1 FY27 **$926** (~$1,000 ex-shutdown) | Q4 FY26 and Q1 FY27 decks; call [V] |
+| S10 | Copper CCR Q4 FY25: 109 vs 82 kt (§H-16) | conflict | **109 kt is the company comparative** in the FY26 deck (Q4 FY26 91 kt, −17%). The Q1 FY27 deck footnote says prior copper-rod figures were "re-instated" to include fixed-term contract volumes. The 82 kt is an older/narrower basis; do not use it | Q4 FY26 deck; Q1 FY27 deck footnote [V] |
+| S11 | Hindalco smelter capacity "~1.3–1.34 Mtpa" (§2.1, 4.3) | [primer/K] | **13.40 lakh tpa nameplate** (Renukoot, Hirakud, Mahan, Aditya). Production **13.23 lakh t FY25, 13.36 lakh t FY26** | Ministry of Mines monthly summary, Mar-2026 [V] |
+| S12 | Aditya smelter expansion tonnage (§4.4, §12, §H-8) | ~180 kt per phase [K] | **Phase 1 181 kt (FY28; first metal ~Dec-2027/Jan-2028; >90% of POs placed); Phase 2 193 kt (FY29; >25% POs)** = **374 kt**; Aditya alumina refinery **850 kt** greenfield (FY28; 95% POs); copper smelter **300 kt** (FY29); copper & e-waste recycling **50 kt** (FY27) | Q1 FY27 deck slide 27; AR FY26 [V] |
+| S13 | India primary production "~4.2 Mt" and shares (§2.1, 5.1, E22) | ~4.2 Mt; VAML ~2.4–2.45 (57%), Hindalco 1.35 (32%), NALCO 0.47 (11%) | **FY26 42.57 lakh t (4.26 Mt)**, up 1.4% from 42.00. **Vedanta (Jharsuguda) ~18.57 + BALCO 5.92 = VAML ~24.49 lakh t (57.5%)**; Hindalco **13.36 (31.4%)**; NALCO **4.72 (11.1%)**. Installed capacity **43.03 lakh tpa** (BALCO 7.03) | Ministry of Mines summary, Mar-2026 [V]; Vedanta by subtraction [E] |
+| S14 | India consumption "~4.5–5 Mt" (§0, §2.1, §H-1) | AAI/industry [V-snip] | **FY26 6.12 Mt** (primary + imports + scrap); FY25 5.50; FY24 4.95; FY23 4.44; FY22 3.90; Q1 FY27 1.32 Mt. Hindalco's own estimate for Q1 FY27 is **1,491 kt (+3% YoY)**, so different bases (Hindalco counts scrap and primary imports gross) | NALCO Q1 FY27 deck, citing Ministry of Mines and Export-Import Data Bank [V]; Hindalco Q1 FY27 deck [V] |
+| S15 | India end-use split (§3.1, §H-2) | composite: electrical 45–48, transport 13–15, B&C 10–13, packaging 8–10, others 15–20 [E] | **Electrical 48%, transportation & automobile 15%, building & construction 13%, consumer durables 7%, machinery & equipment 7%, packaging 4%, others 6%**. Packaging is only ~4% on this basis | NALCO Q1 FY27 deck [V company slide; underlying source not named] |
+| S16 | China 2025 output "44.2 Mt (98% of cap)" (§2.2, A5, E23) | IAI-basis 44.2 Mt | **NBS: 45.02 Mt (+2.4%), above the 45 Mt cap.** Jan–Sep 2026 **35.03 Mt (+3.8%)**, an annualised ~46.7 Mt; record month Aug-2026 3.98 Mt. Keep 44.2 only as the IAI estimate and say which basis | Reuters/Mysteel on NBS [V-snip] |
+| S17 | Japan MJP "only a Rio offer of $460 for Q3 2026" (§7.3, §H-4) | $460 offer | Settled **Q1-26 $195 · Q2 $350–353 · Q3 $395 · Q4 $255/t** (Q4 −35%, settled 13-Oct-2026 on 10 trades) | S&P Platts / Reuters via search [V-snip] |
+| S18 | US Midwest premium (§7.3, §H-4) | conflicting $2,004 / $2,182 / $1.1325/lb | **Record ~$1.19/lb (~$2,620/t) in June 2026**; **$1.09/lb ($2,403/t) on 11-Sep-2026**; H1-2026 average ~109 c/lb ($2,406/t); first above $1/lb on 23-Jan-2026 ($1.0095). The $2,004/$2,182 prints are Jan–Feb 2026 points on the way up | Reuters via search [V-snip] |
+| S19 | Gulf status after April (§0, §10, E27, §H-21) | "no post-April update" | **EGA Al Taweelah** (UAE's largest smelter, ~1.3–1.6 Mtpa [K]) was **hit by an Iranian attack on 28-Mar-2026** and went into full emergency shutdown, with force majeure on 12-Apr. About **25% was restarted by 26-Aug** (Reuters); later reports say ~50%. Full output targeted **Q1 2027**. **Alba** in Sep-2026 ran lines 4–6 (~1.3 Mtpa), with lines 1–3 still idle, exporting via Jeddah and Sohar. **Qatalum** ~60%, no confirmed full restart | thenationalnews, khaleejtimes, kitco/Reuters, alcircle via search [V-snip] |
+| S20 | Bay Minette total cost ~$5bn [V-snip] (§4.4, E29) | broker/snippet | **~$5.0bn (₹46,800 Cr)** is now confirmed in two primary documents. FY27 Novelis capex guide **$2.1–2.4bn** (incl. ~$350m maintenance); commissioning "second half of calendar 2026" | Hindalco AR FY26 note 3(h); Novelis FY26 10-K [V] |
+| S21 | Oswego cash numbers (trap 4) | $1.4bn net of $300m; ultimate ~$600m [V-snip] | Confirmed. Also: **total anticipated negative cash impact ~$1.7bn before insurance**; **adjusted-EBITDA impact $100–150m**; FY26 charges **$925m net of property insurance** plus $12m business-interruption recoveries; **70–75% of the cash impact expected to be recovered**; Q1 FY27 pre-tax net loss $265m, +$18m EBITDA effect, −33 kt shipments | Novelis 10-K FY26; Q1 FY27 8-K; Hindalco AR; Q1 call [V] |
+| S22 | Novelis FY26 "underlying" | $500/t | Confirmed and extended: ex-Oswego/tariffs/Sierre flood, **shipments 3,702 kt, adj. EBITDA $1,851m, $500/t** | Q4 FY26 deck slide 24 [V] |
+| S23 | NALCO EBITDA ₹8,613 Cr basis (trap 7, 3.3) | "likely includes other income" [E] | **Confirmed:** company EBITDA = revenue ₹17,843 + non-operating income ₹666 − opex ₹9,896 = **₹8,613 Cr**. FY25 company EBITDA **₹7,922 Cr**, PBT ₹7,135 Cr, PAT ₹5,325 Cr (standalone) | NALCO Q1 FY27 deck; Q4 FY26 call [V] |
+| S24 | NALCO net cash (§H-19; EV "≤") | screener-basis ₹473 Cr | **Cash & equivalents ₹153 Cr + other bank balances ₹8,254 Cr = ₹8,408 Cr (Mar-26; ₹5,427 Cr Mar-25)**; borrowings ₹60 Cr → **net cash ≈ ₹8,350 Cr** (≈ ₹8,880 Cr with ₹533 Cr investments). EV ≈ ₹49,400 Cr → **EV/EBITDA ~5.7× FY26 (company) / ~5.4× TTM (screener OP)**, not ≤7.2× | NALCO AR 2025-26 balance sheet and note 16 [V]; [E] |
+| S25 | NALCO metal cost (trap 6, 9.1) | "~₹1.56–1.57 lakh/t FY26" [V-snip] | Confirmed by Director (Finance): **FY26 average ~₹1.56 lakh/t; Q4 ~₹1.58 lakh/t**; power ≈31% of metal cost (~₹55–60k/t; ~₹3.15/kWh) | Q4 FY26 transcript [V] |
+| S26 | NALCO alumina cash cost (§1.3, F, §H-5) | "~$250–300/t" [K/E] | **₹20,000–22,000/t** (≈ $227–250 at ₹88; $212–233 at ₹94.5) per management. The FY26 segment note implies an all-in chemical-segment cost of ~₹19,700/t including D&A [E] | Q4 FY26 transcript [V]; AR note 36 [V] |
+| S27 | NALCO alumina realisations | FY25 not stated; "spike ~30% of LME" | **FY25 avg ~$570–595/t** (management gives $570, $580 and $595 in the same call) → **FY26 ~$370–376** → **Q4 FY26 $348** → Q1 FY27 ~$323. Long-term contract linkage fell to **11–11.5% of LME** (from 15–17%) | Q4 FY26 transcript [V] |
+| S28 | NALCO 5th stream cost ₹5,600 Cr | [V-snip] | **~₹5,500 Cr sits in CWIP** (of ₹6,300 Cr), to be fully capitalised in FY27; pre-commissioning from June 2026; FY27 output **≥2 lakh t** (could be 3–3.5); **1 Mt in FY28** | Q4 FY26 transcript; Q1 FY27 deck [V] |
+| S29 | NALCO smelter + CPP "~₹30,000 Cr" (§4.4, 2.2) | headline | **Smelter ₹17,000–18,000 Cr + CPP ~₹12,000 Cr (50:50 JV with NLC) → NALCO's own share ~₹23,000–24,000 Cr**. Capex FY27 ₹1,800–2,000 Cr; FY28 ₹4,000–5,000 Cr; FY29–FY30 peak ₹7,000–10,000 Cr a year (30-Apr call). The Q1 call (snip) gave FY27 ₹1,500–1,800 and FY28 ~₹2,500, i.e., later and smaller; flag the slippage | Q4 FY26 transcript [V]; multibagg [V-snip] |
+| S30 | NALCO Q1 FY27 bauxite 19.52 lakh t vs 1,829 kt (§H-6) | basis unclear | Both are company figures on different bases. **19.52 lakh t = excavation** (press release); **1,829 kt = "production" in the deck**, which equals bauxite transported to the refinery (FY26: deck 7,707 kt = "transportation" 77.07 lakh t; excavation 77.01 lakh t) | Q1 FY27 and Sep-26 decks [V] |
+| S31 | NALCO FY26 alumina export/domestic | export ~13.1 lakh t [E] | **Export 13.081 lakh t; domestic 1.380** (total 14.46). Q1 FY27 export 304.5 kt, domestic 42.9 kt; metal export 13.2 kt in FY26 | Q1 FY27 deck [V] |
+| S32 | LME FY26 average | $2,772 [E Westmetall] | **$2,771** (Ministry of Mines, Apr–Mar); FY25 **$2,526** confirmed. Use $2,771 | Mines summary Mar-2026 [V] |
+| S33 | Hindalco GHG intensity "16–20 tCO₂e/t" (§4.1, F) | [K] | **Hindalco aluminium 19.0 tCO₂e/t (Q1 FY27)**; 19.4 / 19.5 / 19.1 / 18.8 over Q1–Q4 FY26 | Q1 FY27 deck slide 9 [V] |
+| S34 | Hindalco "downstream EBITDA ₹3,600–3,800 Cr → 4×" basis (§H-22) | unclear | "Downstream" = **aluminium downstream + specialty alumina + copper downstream** (MD Satish Pai, 7-Aug-26). Target **4× by FY30** (~₹14,500–15,000 Cr on the analyst's base). FY26 aluminium downstream alone was ₹978 Cr, so ~₹2,600–2,800 Cr comes from specialty alumina and copper downstream [E]. Management promised a split "next quarter" | Q1 FY27 transcript [V] |
+| S35 | Screener P/E 9.55× vs 12.1× (§H-17) | unexplained | **Screener's P/E excludes exceptional items it books in "other income".** TTM PAT ₹16,400 Cr + (TTM other income −₹5,911 Cr × (1 − 25% tax)) ≈ ₹20,830 Cr → ₹1,98,812 ÷ 20,830 = **9.54×** ✓. The standalone page shows 15.3× = m-cap ÷ standalone TTM PAT ₹13,001 Cr. Quote **12.1× reported / ~9.5× ex-exceptional** | screener HINDALCO consolidated and standalone [V]; [E] |
+| S36 | Novelis recycled content "63%" | FY24–FY25 | **61% in FY26** (from 33% in FY11; FY24 63%, FY23 61%); ~2,155 kt of scrap bought or tolled in FY26 | Novelis 10-K FY26 [V]; Q4 FY24 deck [V] |
+| S37 | Section 232 (§7.3) | 25% (12-Mar-25) → 50% (4-Jun-25) [K] | **Confirmed:** 50% on aluminium articles and derivatives effective **12:01 a.m. EDT, 4-Jun-2025** (proclamation of 3-Jun-2025), raising the 25% of **Proclamation 10895 (10-Feb-2025)**; UK treated separately under the 8-May-2025 Economic Prosperity Deal | govinfo DCPD-202500655 [V] |
+| S38 | NALCO FY26 capex | not stated | **₹2,068 Cr (+48% vs ₹1,397 Cr)**; FY26 dividend *paid* ₹2,020 Cr (cash basis) vs ₹2,112 Cr *declared for* FY26 | Sep-26 investor-meet deck [V] |
+| S39 | AAI duty ask (§7.1) | AAI 10% primary / 7.5% scrap [V-snip] | Pre-Budget-2026-27 reports have **AAI seeking a uniform 15% BCD** (as FIMI). Budget (1-Feb-2026) **left aluminium duties unchanged** (7.5% primary, 2.5% scrap, 7.5–10% downstream) | alcircle/theweek via search [V-snip] |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+Key to "Fetched?": **P** = primary document fetched this session (company filing, regulator, exchange, screener for company financials); **S** = secondary or search snippet only. "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Primary source (URL / document) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | LME aluminium cash, FY25 average | **$2,526/t** | mines.gov.in Monthly Summary Mar-2026 (§3.1.2); Westmetall | P | Yes |
+| 2 | LME aluminium cash, FY26 average | **$2,771/t** | Mines Monthly Summary Mar-2026 | P | ≈ ($2,772 Westmetall arithmetic; use $2,771) |
+| 3 | LME, Q1 FY27 average | **$3,577/t** (Q2 FY27 to date in deck: $3,211) | Hindalco Q1 FY27 deck slide 12 | P | Yes ($3,576) |
+| 4 | LME monthly peak | **$3,670 (May-2026)**; Apr $3,601; Jul $3,154–3,156; Aug $3,250 | NALCO Q1 deck and Sep-26 deck charts | P | Yes |
+| 5 | Hindalco upstream EBITDA/t FY26 | **$1,583** (FY25 $1,449); shipments 1,350 kt | Hindalco Q4 FY26 deck slide 20 | P | Yes |
+| 6 | Hindalco upstream EBITDA/t Q1 FY27 | **$2,331**, 55% margin; EBITDA ₹7,390 Cr | Q1 FY27 deck slides 17, 22 | P | Yes |
+| 7 | Hindalco upstream EBITDA/t FY23 / FY24 | **$792 / $822** | Q4 FY24 deck slide 12 | P | FY24 yes; FY23 new |
+| 8 | Novelis adj. EBITDA/t FY26 | **$462 reported; $500 ex-Oswego/tariffs** ($1,851m on 3,702 kt) | Q4 FY26 deck slide 24; Novelis 10-K FY26 | P | Yes, extended |
+| 9 | Novelis Q1 FY27 | **916 kt; $516m; $563/t**; net sales $5,793m; NI $164m | Novelis 8-K 5-Aug-2026 (sec.gov) | P | Yes |
+| 10 | Novelis leverage Jun-26 | **4.5×; adjusted net debt $7,865m**; liquidity $2.1bn | Novelis Q1 FY27 8-K | P | **No**: Part 1 put the 4.5× peak at Sep-26 → S4 |
+| 11 | Novelis FY22 | **3,858 kt; $2,045m; $530/t** | Novelis FY22 release (11-May-2022) | P | **No**: [K] values superseded → S5 |
+| 12 | Hindalco net debt Jun-26 | **₹77,495 Cr; 1.95×** | Q1 FY27 deck slide 19 | P | **No**: ₹86,600 Cr estimate → S1 |
+| 13 | Hindalco net debt Mar-26 | **₹64,841 Cr; 1.83×**; capex ₹31,619 Cr; CFO ₹21,858 Cr (company) | Q4 FY26 deck slide 22 | P | Yes |
+| 14 | Bay Minette cost | **~$5.0bn (₹46,800 Cr); 600 kt** | Hindalco AR FY26 note 3(h); Novelis 10-K FY26 | P | Yes, upgraded from V-snip |
+| 15 | Bay Minette spent to Mar-26 | ~$3.2bn | broker/snippet only; not in 10-K excerpt read | S | Unverified, still open |
+| 16 | Oswego FY26 losses | **$925m net of property insurance**; +$12m BI recoveries | Novelis 10-K FY26 | P | Yes |
+| 17 | Oswego cash | **$1.4bn cumulative net of $300m recoveries; ultimate net ~$600m**; gross ~$1.7bn | Hindalco Q1 FY27 transcript; 10-K | P | Yes |
+| 18 | Oswego fire dates | **16-Sep-2025** (8-K event date) and a second fire in **November 2025** (10-K; 20-Nov per Part 1) | EDGAR submissions index; 10-K | P | Yes (the exact 20-Nov day is from Part 1, not re-read) |
+| 19 | Section 232 aluminium rate | **50% from 12:01 a.m. EDT 4-Jun-2025** | govinfo DCPD-202500655 | P | Yes, upgraded from [K] |
+| 20 | Section 232 earlier step | **25% under Proclamation 10895 (10-Feb-2025)**; effective 12-Mar-2025 | govinfo (proclamation text); effective date via search | P/S | Yes |
+| 21 | Novelis tariff cost Q1 FY27 | **$70m** (vs $24m Q4 FY26); "some level" for a couple more quarters | Hindalco Q1 FY27 transcript | P | Yes |
+| 22 | Hindalco hedges | **FY27 29% at $3,004/t (no additions); FY28 21% at $3,160/t; FX 18% at ₹91.63** | Q1 FY27 transcript | P | Yes |
+| 23 | Aditya smelter expansion | **Ph1 181 kt (FY28) + Ph2 193 kt (FY29)** | Q1 FY27 deck slide 27; AR FY26 | P | **No**: "~180 kt each" [K] → S12 |
+| 24 | Hindalco smelter nameplate | **13.40 lakh tpa** | Mines Monthly Summary | P | ≈ ("~1.3–1.34") |
+| 25 | India primary production FY26 | **42.57 lakh t** (FY25 42.00) | Mines Monthly Summary Mar-2026 | P | ≈ ("~4.2 Mt") → S13 |
+| 26 | India producer shares FY26 | **VAML ~57.5%, Hindalco 31.4%, NALCO 11.1%** | Mines Monthly Summary (Vedanta by subtraction) | P + E | Yes (57/32/11) |
+| 27 | India consumption FY26 | **6.12 Mt** incl. imports and scrap | NALCO Q1 FY27 deck, citing Ministry of Mines / EIDB | P (company slide) | **No**: 4.5–5 Mt → S14 |
+| 28 | India end-use split | **Electrical 48%**, transport 15%, B&C 13%, durables 7%, machinery 7%, packaging 4%, others 6% | NALCO Q1 FY27 deck | P (company slide; base source unnamed) | Partly (packaging lower) → S15 |
+| 29 | NALCO alumina realisation | **FY25 ~$570–595; FY26 ~$370–376; Q4 FY26 $348**; Q1 FY27 ~$323 | NALCO Q4 FY26 transcript | P | New; Q1 figure matches |
+| 30 | NALCO metal cost | **FY26 avg ~₹1.56 lakh/t; Q4 ~₹1.58 lakh/t** | Q4 FY26 transcript | P | Yes |
+| 31 | NALCO alumina cost | **₹20,000–22,000/t** | Q4 FY26 transcript | P | **No**: $250–300 [K] → S26 |
+| 32 | NALCO FY26 EBITDA | **₹8,613 Cr incl. ₹666 Cr other income** (FY25 ₹7,922 Cr) | NALCO Q1 FY27 deck | P | Yes, basis now confirmed |
+| 33 | NALCO segment EBIT FY26 | **Chemicals ₹2,034 Cr (FY25 ₹3,245); aluminium ₹5,564 Cr (₹4,046)** | NALCO AR 2025-26 note 36.2 | P | New |
+| 34 | NALCO cash & bank | **₹8,408 Cr (Mar-26)** vs ₹5,427 Cr | NALCO AR balance sheet, note 16 | P | New → S24 |
+| 35 | NALCO 5th stream | **~₹5,500 Cr in CWIP; ≥2 lakh t in FY27 (Q4); 1 Mt FY28** | Q4 FY26 transcript; Q1 deck | P | ≈ (₹5,600 Cr) |
+| 36 | NALCO smelter + CPP | **Smelter ₹17–18k Cr; CPP ₹12k Cr in a 50:50 JV with NLC; commissioning Dec-2030/early-2031** | Q4 FY26 transcript | P | Yes; NALCO's share ~₹23–24k Cr |
+| 37 | China 2025 output | **45.02 Mt (NBS, +2.4%)**; cap 45 Mt; 9M-2026 35.03 Mt | Reuters/Mysteel on NBS | S | **No**: 44.2 Mt is the IAI basis → S16 |
+| 38 | World primary output | **73.8 Mt CY2025 (IAI)**; **74.409 Mt Apr-25–Mar-26** (Mines summary); India ~5.8% of world | Mines Monthly Summary (P); IAI via Mysteel (S) | P/S | Yes |
+| 39 | Alumina 2024 spike | **CRU API $702.50 (31-Oct-2024); Platts $765 (14-Nov-2024); >$780 mid-Dec-2024**; Platts Q3-24 avg $507, Q2-25 $356, Q3-25 $357 | CRU, S&P correction note, JBI (citing Platts) via search | S | ≈ ("~$780–800 Dec-2024" peak plausible; daily peak not fixed) |
+| 40 | CBAM | **Aluminium in Annex II (direct emissions only)**; certificate price **€75.36 (Q1-26), €75.28 (Q2), €82.32 (Q3)** | IGC brief, fastmarkets, eurometal, GMK via search; EUR-Lex blocked | S | Yes; Q2 and Q3 prices new |
+
+**Count:** 33 of the 40 rest on a primary document fetched this session. Rows 20 and 38 are counted as primary because the core number comes from the primary text. Rows 15, 37, 39 and 40, plus the snippet parts of 20 and 38, remain secondary. Supporting figures also verified [V] but not in the 40:
+- Hindalco screener 5-year and 8-quarter series; VAML screener quarters.
+- Hindalco contingent liabilities (₹1,302 Cr indirect tax, ₹687 Cr legal).
+- The US Customs deposit of ₹1,066 Cr ($114m) on Novelis Brazil shipments.
+- The 0.25% Birla brand royalty capped at ₹225 Cr ($24m) for FY27.
+- NALCO contingent liabilities ₹2,179 Cr and coal costs (captive ₹1,500/t, linkage ₹1,800/t, e-auction ₹2,100/t).
+- Alcoa Q3-26 segment data.
+
+**Where sources conflict, the more credible one:**
+- **China output:** use NBS 45.02 Mt for China (the official statistic). Use IAI only for like-for-like world totals.
+- **India consumption:** two sources disagree. The Ministry of Mines / NALCO series gives 6.12 Mt for FY26, an apparent-consumption basis. Hindalco gives ~1.5 Mt a quarter, about 6 Mt annualised. The two broadly agree, and both supersede the 4.5–5 Mt industry-body number.
+- **NALCO FY25 alumina realisation:** management gave $570, $580 and $595 in the same call. Use "~$580".
+- **NALCO capex phasing:** use the 30-Apr-2026 transcript (primary) over the Q1 FY27 snippet, but flag that the Q1 call reportedly pushed the curve out.
+
+## 4.2 Company packs (primary-source upgrade)
+
+### 4.2.A Hindalco Industries (incl. Novelis)
+
+**(i) Management-guidance digest. Latest calls: Hindalco Q1 FY27, 7-Aug-2026 (MD Satish Pai, CFO Bharat Goenka; Novelis CEO Steve Fisher, CFO Dev Ahuja). Novelis' own Q1 call was a day or two earlier. All paraphrased [V transcript, hindalco.com].**
+- **India costs:** Q1 cost of production rose ~4% QoQ (guided 5%), helped by low-cost inventory. **Q2 FY27 guided +5–6% QoQ in rupee terms**, because northern-region coal gets dearer in the monsoon.
+- **Hedging:** FY27 29% hedged at $3,004/t. No new FY27 hedges are being added because the LME curve is in deep backwardation. FY28 is 21% hedged at $3,160/t, and the company is trying to add at ~$3,200, which it regards as a fair FY28 price once Gulf smelters return. FX: 18% at ₹91.63.
+- **Premia:** MJP is high because Gulf supply to Japan and Korea is impaired. It stays high while that metal is out and should ease "next year". Export mix stays roughly 23–27%, with only opportunistic extra exports.
+- **Downstream:** EBITDA/t of ~$250 is "more sustainable" for the rest of FY27; Q1's $303 was helped by MJP pass-through. The long-term target is >$300. Volumes in downstream aluminium and copper rise in Q2.
+- **"Downstream 4× by FY30"** covers aluminium downstream, specialty alumina and copper downstream together. A split will be disclosed from next quarter.
+- **Alumina:** Q1 external sales were 138 kt (one ship missed); Q2 ~190 kt. The company stays net long ~800 kt even after Aditya Phase 1. Prices are $330–340 and should stay there "until the Middle East smelters come back".
+- **Projects:**
+  - Aditya refinery and Phase 1 smelter (180 pots) commission around Dec-2027/Jan-2028, with meaningful numbers only in FY29. Phase 2 (180 pots) follows in Dec-2028.
+  - Captive coal in FY28: Chakla ~1 Mt plus Bandha ~0.5 Mt.
+  - Bauxite: the Karlapat auction cleared at a 175% premium, which implies bauxite at ~₹8,000/t. Hindalco will bid "prudently".
+- **Copper:** TC/RCs are at −26 to −30 c/lb, but 85% of concentrate needs are tied up. Q2 EBITDA should be similar to Q1 because sulphuric-acid prices stay high (sulphur index lifted by the West Asia war). Ex-shutdown EBITDA/t would have been ~$1,000. Copper and e-waste recycling has an IRR in the high teens.
+- **Leverage:** consolidated ND/EBITDA should stay near 2× (the stated ceiling). India capex is heavy, so ND/EBITDA will not change much until Novelis deleverages from Q4 FY27.
+- **Novelis:**
+  - The $70m tariff hit will not go to zero quickly: "some level" persists for a couple of quarters while supply chains are reconfigured.
+  - Management warned against adding tariffs back to claim >$600/t. The long-term $600+/t target is intact.
+  - Run-rate cost savings are $225m, against a $350–400m target by FY28 exit.
+  - Working-capital release of $300–400m over the next couple of quarters.
+  - Insurance: a couple of hundred million dollars of recoveries may slip into FY28.
+  - Leverage is 4.5× at June, a bit higher at September, then below 4× by FY27-end. Novelis expects positive FCF in Q4 FY27 [V 8-K]. WACC is "~8%, not 9%". Bay Minette "will cover the cost of capital".
+- **New item, brand royalty:** Birla Group Holdings (owner of the Aditya Birla brand, previously free) will charge **0.25% of revenue, capped at ₹225 Cr a year, to each of Hindalco and Novelis**. Novelis' agreement is effective 1-Jul-2026, with a FY27 cap of $24m (₹225 Cr), approved by the board on 4-Aug-2026 [V Novelis 10-Q]. Management calls it below materiality.
+- **Tax:** Hindalco India moved to the new tax regime from 1-Apr-2026, so the effective tax rate falls to ~26% (30% in Q1 FY26, 34% in Q4 FY26). This is structural and lifts India PAT growth above EBITDA growth.
+- **Industry view (deck and call):**
+  - Global deficit ~1.0 Mt in CY2026, versus 0.3 Mt before the war.
+  - Q1 CY26: China output ~11 Mt (+3%); output outside China −8% to ~7 Mt (Mozal closure plus Gulf); global −1%.
+  - India demand ~1.5 Mt in Q1 FY27 (+3%), with FRP demand >+10%. Electrical was the weak segment because contractors deferred projects amid price volatility.
+- **ESG and carbon:** Aluminium GHG intensity is 19.0 tCO₂e/t. Renewables were 470 MW at Q1-end and should reach 884 MW plus 125 MW of RTC (round-the-clock) renewable power by FY27-end. Management sees the low-carbon premium (Platts) as only $15–20/t and EU carbon at ~€80/t as the real cost to watch.
+
+**(ii) Concall / deck KPI table [V Q1 FY27 deck, Q4 FY26 deck]**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | YoY |
+|---|---|---|---|---|
+| Upstream shipments (kt) | 325 | 339 | 335 | +3% |
+| — of which third-party / inter-segment (kt) | 219 / 106 | 232 / 108 | 219 / 116 | |
+| Upstream revenue (₹ Cr) | 9,331 | 11,418 [Part 1] | 13,403 | +44% |
+| Upstream EBITDA (₹ Cr) / $/t | 4,080 / 1,467 | 5,448 / 1,756 | 7,390 / 2,331 | +81% / +59% |
+| Upstream domestic : export mix | 77:23 | 73:27 | 77:23 | |
+| Aluminium production, upstream (kt) | ~331 | ~334 | ~332 | flat |
+| Alumina production incl. Utkal (kt, hydrate as alumina) | 958 | 931 | 943 | −2% (Utkal 654 kt, +1%) |
+| Downstream shipments (kt): FRP+foil / extrusion | 101 (80/21) | 124 (101/23) | 104 (83/21) | +3% |
+| Downstream revenue / EBITDA (₹ Cr) / $/t | 3,353 / 229 / 264 | — / 255 / 226 | 4,889 / 298 / 303 | +30% EBITDA |
+| Copper metal shipments / CCR (kt) | 124 / 104 | 128 / 91 | 105 / 96 | −16% / −8% |
+| Copper revenue / EBITDA (₹ Cr) / $/t | 14,886 / 673 / 635 | — / 907 / 775 | 17,232 / 918 / 926 | +36% EBITDA |
+| Novelis shipments (kt) / adj. EBITDA ($m) / $/t | 963 / 416 / 432 | 844 / 459 / 544 | 916 / 516 / 563 | −5% / +24% / +30% |
+| Novelis net income ($m) | 96 | −84 | 164 | +71% |
+| Business-segment EBITDA (₹ Cr) | 8,539 | 10,812 | 13,481 | +58% |
+| Inter-segment elimination / unallocable & GAAP adj. (₹ Cr) | −11 / +145 | −159 / +544 | **−778 / +2,286** | |
+| Consolidated EBITDA (₹ Cr) | 8,673 | 11,197 | 14,989 | +73% |
+| Profit before exceptional items (₹ Cr) | 5,676 | 7,622 | 11,692 | +106% |
+| Exceptional items (₹ Cr) | — | −4,171 | −2,299 | |
+| PAT (₹ Cr) | 4,004 | 2,597 | 7,013 | +75% |
+| India business revenue / EBITDA / PAT (₹ Cr) | 24,905 / 5,067 / 2,847 | 35,016 / 6,353 / 3,549 | 30,985 / 8,035 / 5,301 | +24% / +59% / +86% |
+| Novelis in ₹ (revenue / EBITDA / PAT, ₹ Cr) | 39,327 / 3,557 / 1,147 | — / 4,202 / — | 53,840 / 4,875 / 1,805 | +37% EBITDA (vs +24% in $) |
+| Net debt (₹ Cr) / ND/EBITDA | 34,257 / 1.02× | 64,841 / 1.83× | 77,495 / 1.95× | |
+| Novelis ND/EBITDA (US GAAP) | 3.21× | 4.09× | 4.47× | |
+
+*Note on the Q1 FY27 bridge:* the +₹2,286 Cr "unallocable income & GAAP adjustments" and the −₹778 Cr inter-segment elimination explain most of the ₹1,508 Cr residual in Part 1 §C.6. The elimination is unrealised profit on upstream metal held in downstream inventory, revalued as LME rose (MD's explanation) [V]. In a falling-LME quarter (Q2 FY27) this line should reverse in Hindalco's favour [E].
+
+**(iii) Five-year history (₹ Cr; screener consolidated [V 1-Nov-26]; company EBITDA and segments from company decks [V])**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 1,95,059 | 2,23,202 | 2,15,962 | 2,38,496 | 2,74,944 |
+| Screener OP / OPM | 28,347 / 15% | 22,666 / 10% | 23,872 / 11% | 31,805 / 13% | 34,880 / 13% |
+| Company EBITDA | 30,056 | 24,131 | 25,728 | 35,496 | 38,097 |
+| Other income (screener) | 1,253 | 1,307 | 1,519 | 1,832 | −4,074 |
+| PAT (reported) | 13,730 | 10,097 | 10,155 | 16,002 | 13,391 (pre-exc. 18,733) |
+| EPS (₹) | 61.10 | 44.93 | 45.19 | 71.20 | 59.59 |
+| ROCE (screener) | 17% | 11% | 11% | 15% | 13% |
+| CFO / FCF (screener) | 16,838 / 11,483 | 19,208 / 9,571 | 24,056 / 8,378 | 24,410 / 4,006 | 10,250 / −19,508 |
+| Borrowings (screener, year-end) | 64,486 | 60,291 | 56,356 | 65,642 | 99,165 |
+| Net debt (company) / ND/EBITDA | n.f. / 1.36× | 33,959 / 1.39× | 31,536 / 1.21× | 35,332 / 1.06× | 64,841 / 1.83× |
+| Upstream EBITDA (₹ Cr) / $/t | 13,025 (Al India incl. downstream) | 8,402 / 792 | 9,161 / 822 | 16,262 / 1,449 | 18,884 / 1,583 |
+| Upstream shipments (kt) | n.f. | 1,319 | 1,346 | 1,327 | 1,350 |
+| Downstream kt / EBITDA ₹ Cr / $/t | n.f. | 354 / 627 / 221 | 370 / 573 / 187 | 403 / 633 / 186 | 446 / 978 / 248 |
+| Copper EBITDA (₹ Cr) / metal kt | 1,390 / n.f. | 2,253 / 439 | 2,616 / 506 | 3,025 / 491 | 2,809 / 487 |
+| Novelis kt / adj. EBITDA $m / $/t | 3,858 / 2,045 / 530 | 3,790 / 1,811 / 478 | 3,673 / 1,873 / 510 | 3,757 / 1,802 / 480 | 3,557 / 1,645 / 462 |
+| Dividend payout (screener) | 6% | 7% | 8% | 7% | 8% |
+
+Notes: the ND/EBITDA ratios for Mar-23 and Mar-24 are company ratios on TTM adjusted segment EBITDA (₹24,484 Cr and ₹26,121 Cr) [V Q4 FY24 deck]. Hindalco standalone (India incl. copper) for FY26 on screener: revenue ₹1,12,553 Cr, OP ₹16,273 Cr, PAT ₹10,080 Cr. Q1 FY27 standalone: revenue ₹30,515 Cr, OP ₹6,985 Cr (23%), PAT ₹4,784 Cr [V].
+
+**(iv) Eight-quarter trend (₹ Cr; screener consolidated [V])**
+
+| Quarter | Revenue | YoY | Op. profit | OPM | Other income | PAT | Note |
+|---|---|---|---|---|---|---|---|
+| Sep-24 (Q2 FY25) | 58,203 | +7% | 7,883 | 14% | 561 | 3,909 | |
+| Dec-24 (Q3 FY25) | 58,390 | +11% | 7,583 | 13% | 469 | 3,735 | |
+| Mar-25 (Q4 FY25) | 64,890 | +16% | 8,836 | 14% | 706 | 5,284 | |
+| Jun-25 (Q1 FY26) | 64,232 | +13% | 7,906 | 12% | 604 | 4,004 | |
+| Sep-25 (Q2 FY26) | 66,058 | +13% | 8,966 | 14% | 532 | 4,741 | Oswego fire 1 (16-Sep) |
+| Dec-25 (Q3 FY26) | 66,521 | +14% | 7,991 | 12% | −2,061 | 2,049 | fire 2 (Nov); exceptionals booked |
+| Mar-26 (Q4 FY26) | 78,133 | +20% | 10,014 | 13% | −3,146 | 2,597 | company exceptional −₹4,171 Cr |
+| Jun-26 (Q1 FY27) | 84,825 | +32% | 13,932 | 16% | −1,236 | 7,013 | record; exceptional −₹2,299 Cr; ETR 25% |
+
+**(v) Annual-report findings (Integrated Annual Report 2025-26) [V]**
+- **Bay Minette:** "total project capital cost … around ₹46,800 Crore ($5 Billion)", 600 kt (note 3(h)). Group CWIP impairment test booked ₹242 Cr (FY25 ₹115 Cr).
+- **Equity support to Novelis:** AV Minerals (Netherlands) infused **$750m, then a further $200m in Feb-2026**, to cover liquidity needs from the "exceptional operational disruptions". Management expects to recover **~70–75% of the ~$1.7bn cash impact** through insurance.
+- **Contingent liabilities (note 31):** indirect taxes ₹1,302 Cr (FY25 ₹883 Cr); legal and other ₹687 Cr (₹512 Cr); direct tax ₹1 Cr. Capital commitments **₹13,210 Cr** (₹5,928 Cr), with the jump reflecting Aditya and copper projects. Other purchase commitments ₹1,48,320 Cr (₹94,009 Cr), mostly metal and scrap supply contracts [K].
+- **US Customs "aluminum imports matter":** US Customs and Border Protection served Novelis a notice that certain shipments from its Brazilian operations into the US attract anti-dumping duty and additional tariffs on classification grounds. Novelis deposited **~₹1,066 Cr ($114m)** in cash, carried as an other current asset, and will appeal. It treats the loss as remote, so no liability is booked. This is a new US trade risk on top of Section 232.
+- **CBI coal case:** a chargesheet alleges misuse of coal from a mine deallocated in 2014-15. A Special Judge issued summons to the company on 9-Apr-2025, and arguments on framing of charges are under way. This is a low-probability but reputational risk not mentioned in Parts 1–3.
+- **Renewables:** a 26% stake in Ayana Renewable Power Four, an SPV with 188 MW solar plus 146 MW wind, provides 100 MW of RTC power for one smelter. Mahan has a 100 MW RTC hybrid project of 361 MW installed.
+- **Royalty/related party:** there was no brand royalty in FY26. The Birla brand royalty starts in FY27, under a SEBI LODR related-party disclosure filed semi-annually. Grasim and other promoter entities hold the promoter stake [primer].
+- **Group statements (AR):** consolidated debt-equity 0.73; ND/EBITDA 1.83× at 31-Mar-2026. Novelis' cost-savings target was raised to $350–400m by FY28 exit (from $300m).
+
+### 4.2.B National Aluminium Company (NALCO)
+
+**(i) Management-guidance digest.**
+
+*Sources:* the full transcript read is the **Q4 FY26 / FY26 call of 30-Apr-2026** (CMD B.P. Singh, Director (Finance) A.K. Behuria, Director (P&T) J. Arora) [V BSE filing of 4-May-2026]. The **Q1 FY27 call (3-Aug-2026, 10:30)** transcript is hosted only on nalcoindia.com, which returned HTTP 503 again. For Q1 FY27 we have the company deck [V BSE] plus the call summary in Part 2 [V-snip multibagg].
+
+*Q1 FY27 timing:* the board declared Q1 results before the 3-Aug call. The deck, filed at 09:24 on 3-Aug, refers to results already "declared", and the call intimation is dated 28-Jul. The exact board date is still not captured; most likely Saturday 1-Aug-2026 [E].
+
+- **Volumes (FY27):** alumina production and sales of **~25 lakh t** (≥2 lakh t from the 5th stream; "could be 3–3.5 lakh t"). Metal **~4.73 lakh t**: the smelter is at its ceiling after 4.71–4.72 lakh t on a 4.60 lakh t nameplate. **Domestic alumina sales target 2.5–3 lakh t** (1.38 lakh t in FY26; 0.40 lakh t in FY25).
+- **Prices:**
+  - Alumina expected at **$300–320/t** for FY27; "almost at the bottom". Spot tenders ran at $305–336.
+  - Contract linkage is now **11–11.5% of LME**, down from 15–17%, because of surplus alumina from Indonesia. NALCO has no long-term contracts at present; it sells four spot shipments a month.
+  - LME view **$3,000–3,100** for FY27 once the war premium fades. The Q1 FY27 deck later raised the CY2026 view to **$3,200–3,300**.
+  - No hedging. The metal price resets every three days with LME. The domestic premium is fixed from six-monthly export tenders (raised to ~$110/t, per the Q1 call [V-snip]).
+- **Margins:** FY26 revenue mix was **73% metal / 27% alumina** (vs ~70/30). Management argues that a lower alumina price is offset by metal.
+  - FY26 alumina bridge: price −$219/t = −₹2,659 Cr; volume +3.4 lakh t = +₹1,714 Cr; efficiencies +₹100–150 Cr. Net about −₹784 Cr.
+  - FY27 alumina price impact a further **−₹1,000–1,200 Cr**.
+  - Q1 FY27 PAT guided at **>₹2,000 Cr**; delivered ₹2,002 Cr.
+- **Costs:**
+  - Metal cost ~₹1.56 lakh/t in FY26, "will not go beyond ₹1.60 lakh". It later printed ~₹1.70 lakh in Q1 FY27 [V-snip], i.e., guidance was missed.
+  - Alumina cost **₹20,000–22,000/t**.
+  - Input prices, FY26 average → H1 FY27 contracted: caustic soda ₹42,177 → ~₹45,000/t; CP coke ~₹44,000 → ~₹56,000/t; CT pitch ~₹53,000 → ~₹57,000/t; aluminium fluoride ₹1.21 → ₹1.30 lakh/t; **HFO ₹46,000 → ₹70,000/t**.
+  - Power ≈31% of metal cost (~₹55–60k/t); power cost ~₹3.15/kWh.
+- **Coal:** need ~7.2 Mt a year. Captive Utkal D/E supplied **4.0 Mt in FY26, targeted at 4.8 Mt in FY27** (the expanded environmental clearance was "3–4 months" away in April). The balance of ~2.5–2.7 Mt comes from MCL linkage, with 10–15% via e-auction. **Landed cost: captive ~₹1,500/t, linkage ~₹1,800/t, e-auction ~₹2,100/t.**
+- **Caustic:** ~50% from the GNAL JV with GACL. GNAL's loss narrowed from ₹135 Cr (FY25) to ₹38 Cr (FY26), with a ₹11 Cr profit in Q4.
+- **Middle East exposure:** **40–52% of alumina exports historically went to the Gulf.** That route is impaired (Hormuz), and buyers are shifting to Indonesia and others. Spot fell to $305–310 at the worst.
+- **Capex and projects:**
+  - FY26 capex ~₹2,000 Cr (₹2,068 Cr in the deck; target was ₹1,700 Cr).
+  - FY27 ₹1,800–2,000 Cr; FY28 ₹4,000–5,000 Cr; FY29–FY30 peak ₹7,000–10,000 Cr a year.
+  - Smelter (0.5 Mtpa, brownfield Angul): DPR in progress; board approval targeted Aug–Oct 2026; tendering 6–7 months; ground-breaking ~Apr–May 2027; ~3.5 years to build; **commissioning Dec-2030/early 2031**. Cost ₹17–18k Cr plus a CPP (4×270 MW) of ~₹12k Cr in a **50:50 JV with NLC India**, which brings coal security from NLC's Talcher block.
+  - EGA technology agreement signed [V Sep deck].
+  - 5th stream: of the ~₹6,300 Cr CWIP, ~₹5,500 Cr is the 5th stream, fully capitalised in FY27, so FY27 depreciation steps up [E].
+  - Value-add: a new **60 ktpa alloy wire-rod mill** (~2 years). Rolled products rise from 2,000 to 2,500 t a month. The **UADNL JV with MIDHANI (aerospace alloys, ₹4,500–5,000 Cr) is discontinued** because its IRR was negative.
+  - Red mud: gallium recovery is at pilot stage.
+- **People:** 4,880 employees; ~250 retire each year. Employee cost ~₹1,721 Cr in FY26 (−₹65 Cr). **Pay revision from Jan-2027: +10–15% (~₹100 Cr+ a year).**
+- **Royalty:** bauxite royalty is formula-linked to LME (~0.56%), giving ~₹400–450/t of bauxite. The same rate applies to Pottangi (~42% Al₂O₃).
+- **Governance (new):** **from 1-Apr-2026 NALCO had no independent directors, so no board committees could function.** This is the likely cause of the ₹14.13 lakh exchange fine for the June quarter. One independent director joined on 14-Aug-2026, and committees other than Audit and NRC were reconstituted on 25-Aug [V Sep deck]. **The Audit Committee is still not constituted.**
+
+**(ii) Concall / deck KPI table (standalone; ₹ Cr; '000 t) [V NALCO Q1 FY27 deck, 3-Aug-2026]**
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | YoY | FY26 |
+|---|---|---|---|---|---|
+| Bauxite "production" (transported) | 1,883 | 2,047 | 1,829 | −2.9% | 7,707 |
+| Alumina hydrate | 578 | 574 | 578 | 0% | 2,300 |
+| Metal (cast) | 115 | 117 | 116 | +0.9% | 472 |
+| Net power (MU) | 1,686 | 1,748 | 1,725 | +2.3% | 6,953 |
+| Alumina sales — export / domestic | 274.6 / 29.1 | 305.1 / 38.2 | 304.5 / 42.9 | +10.9% / +47.4% | 1,308.1 / 138.0 |
+| Metal sales — export / domestic | — / 113.4 | 6.1 / 116.1 | 1.01 / 111.9 | — / −1.3% | 13.2 / 461.0 |
+| Net sales | 3,786 | 4,981 | 5,269 | +39.2% | 17,729 |
+| Revenue from operations | 3,807 | 5,013 | 5,302 | +39.3% | 17,843 |
+| Other (non-op) income | 123 | 197 | 173 | +40.7% | 666 |
+| Operating expenses | 2,315 | 2,663 | 2,594 | +12.1% | 9,896 |
+| EBITDA (excl. exceptional; includes other income) | 1,615 | 2,547 | 2,881 | +78.4% | 8,613 |
+| Depreciation / finance cost | 178 / 8 | 211 / 24 | 182 / 10 | | 745 / 100 |
+| PBT / PAT | 1,429 / 1,064 | 2,311 / 1,718 | 2,689 / 2,002 | +88.2% | 7,767 / 5,816 |
+| Alumina realisation ($/t) | n.f. (transcript garbled) | **$348** | ~$323 [V-snip] | | ~$370–376 |
+| Metal cost (₹ lakh/t) | ~1.55 [V-snip] | ~1.58 | ~1.70 [V-snip] | | ~1.56 |
+
+**(iii) Five-year history (₹ Cr; screener consolidated [V]; segment EBIT from AR [V]; company EBITDA from decks [V])**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 14,181 | 14,257 | 13,149 | 16,788 | 17,843 |
+| Screener OP / OPM | 4,516 / 32% | 2,340 / 16% | 2,801 / 21% | 7,508 / 45% | 7,928 / 44% |
+| Company EBITDA (standalone, incl. OI) | n.f. | n.f. | n.f. | 7,922 | 8,613 |
+| Other income | 298 | 234 | 678 | 357 | 666 |
+| PAT (consolidated) | 2,951 | 1,435 | 1,988 | 5,268 | 5,797 |
+| PAT (standalone) | n.f. | n.f. | n.f. | 5,325 | 5,816 |
+| EPS (₹) | 16.07 | 7.81 | 10.83 | 28.68 | 31.56 |
+| ROCE (screener) | 34% | 14% | 17% | 44% | 40% |
+| CFO / FCF | 3,958 / 2,685 | 908 / −617 | 2,719 / 1,075 | 5,806 / 4,641 | 6,438 / 4,413 |
+| CWIP | 2,235 | 3,269 | 4,573 | 5,033 | 6,395 |
+| Cash & bank (AR) | n.f. | n.f. | n.f. | 5,427 | 8,408 |
+| Dividend payout | 40% | 58% | 46% | 37% | 36% |
+| Segment EBIT: chemicals / aluminium (AR) | n.f. | n.f. | n.f. | 3,245 / 4,046 | 2,034 / 5,564 |
+| Physicals: alumina hydrate / cast metal (lakh t) | n.f. | n.f. | — / 4.63 (record) | 20.75 / 4.60 | 23.00 / 4.72 |
+
+**(iv) Eight-quarter trend (₹ Cr; screener consolidated [V])**
+
+| Quarter | Revenue | YoY | Op. profit | OPM | Other income | PAT | YoY PAT |
+|---|---|---|---|---|---|---|---|
+| Sep-24 (Q2 FY25) | 4,001 | +31% | 1,533 | 38% | 72 | 1,046 | +459% |
+| Dec-24 (Q3 FY25) | 4,662 | +39% | 2,311 | 50% | 99 | 1,566 | +232% |
+| Mar-25 (Q4 FY25) | 5,268 | +47% | 2,743 | 52% | 126 | 2,067 | +107% |
+| Jun-25 (Q1 FY26) | 3,807 | +33% | 1,478 | 39% | 124 | 1,049 | +78% |
+| Sep-25 (Q2 FY26) | 4,292 | +7% | 1,923 | 45% | 151 | 1,430 | +37% |
+| Dec-25 (Q3 FY26) | 4,731 | +1% | 2,173 | 46% | 194 | 1,595 | +2% |
+| Mar-26 (Q4 FY26) | 5,013 | −5% | 2,349 | 47% | 202 | 1,722 | −17% |
+| Jun-26 (Q1 FY27) | 5,302 | +39% | 2,708 | 51% | 174 | 2,003 | +91% |
+| *Sep-26 (Q2 FY27)* | *board 2-Nov-2026; not yet reported* | | | | | | |
+
+**(v) Annual-report findings (45th Annual Report 2025-26, BSE) [V]**
+- **Segment note (36):**
+  - Chemicals (alumina/hydrate): revenue ₹6,694 Cr incl. ₹1,809 Cr inter-segment; EBIT **₹2,034 Cr** (FY25 ₹3,245 Cr, −37%).
+  - Aluminium: revenue ₹12,945 Cr; EBIT **₹5,564 Cr** (FY25 ₹4,046 Cr, +38%).
+  - MD&A ratios: PBIT margin chemicals 41.9% and aluminium 43.2%; **ROCE chemicals 59%, aluminium 158%** (segment capital employed ₹3,467 Cr and ₹3,524 Cr). Unallocated capital employed of ₹9,053 Cr is mostly cash.
+  - Revenue geography: India ₹13,028 Cr (73%) vs abroad ₹4,702 Cr (FY25 ₹5,517 Cr).
+  - **No single customer >10% of revenue** (FY25 one customer, 12.4%). Four chemical customers each exceeded 10% of segment revenue, totalling ₹2,484 Cr.
+  - *Inference:* inter-segment alumina of ₹1,809 Cr for ~9.2 lakh t of internal consumption ≈ ₹19,700/t, which is about the segment's all-in cost. Internal alumina is transferred near cost, so the "metal" segment carries the full integrated margin [E].
+- **Cash:** cash & equivalents ₹153 Cr plus other bank balances ₹8,254 Cr = **₹8,408 Cr**. Interest and dividend income was ₹600 Cr (FY25 ₹323 Cr). Term deposits rose ₹2,851 Cr in FY26.
+- **Contingent liabilities (note 26): ₹2,179 Cr** (₹2,050 Cr). The largest item is the **OHPC (Odisha Hydro Power) claim of ₹901 Cr** (₹700 Cr) for energy compensation since 2005 on water drawn from Upper Kolab by the refinery. Others: CST ₹271 Cr, customs ₹192 Cr, income tax ₹174 Cr, GST ₹162 Cr, Odisha Dept. of Mines ₹136 Cr, land acquisition ₹128 Cr.
+- **CAG qualified the disclosure on two counts:**
+  - A ₹119 Cr Water Conservation Fund demand was withdrawn from contingent liabilities.
+  - The **ORISED Act tax on mineral-bearing land is unquantified**, even though the Supreme Court's nine-judge bench (25-Jul-2024) upheld states' power to tax mineral rights. **This is a latent Odisha mineral-tax liability for both NALCO and Hindalco/VAML Odisha mines** [E].
+- **Related parties (note 39):** purchases from GNAL ₹659 Cr (FY25 ₹348 Cr; caustic at market price, "no concession"). Purchases from CPSEs/government undertakings (MCL coal, etc.) ₹2,789 Cr (₹3,264 Cr). JVs: GNAL 40%, Angul Aluminium Park 49%, KABIL 40% (lithium exploration in Catamarca, Argentina), UADNL 50% (discontinued).
+- **Capacities (Sep-26 deck):** bauxite 68.25 lakh tpa; refinery 21 lakh tpa normative, of which 9.2 lakh tpa is consumed internally and 11.8 lakh tpa exported via Visakhapatnam; smelter 4.6 lakh tpa; CPP 1,200 MW (10×120 MW); wind 198 MW (307 MU in FY26); Utkal D&E coal 40 lakh tpa; Pottangi 3.5 Mtpa (111 Mt reserve; MDO engaged Dec-2025; approach road blocked by local agitation).
+- **Risks named:** LME/alumina volatility, input inflation (caustic, coke, HFO), coal logistics, local agitation at Pottangi, and rising downstream competition.
+- **ESG:** NSE ESG score 60 ("strong", 28-Aug-2026). CSR spend ₹80.8 Cr in FY26 against an obligation of ₹79.1 Cr; FY27 obligation ₹117.8 Cr.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. India primary aluminium production by producer (lakh t)** [V Ministry of Mines Monthly Summaries, Dec-2025 and Mar-2026; Vedanta FY26 by subtraction [E]]
+| Producer | Capacity FY25 | FY25 production | FY26 target | FY26 production | Share FY26 |
+|---|---|---|---|---|---|
+| Vedanta Ltd (Jharsuguda; now VAML) | 18.00 | 18.29 | n.f. | ~18.57 [E] | 43.6% |
+| BALCO (now VAML) | 5.70 (FY26: 7.03) | 5.87 | 6.62 | 5.92 | 13.9% |
+| Hindalco (Renukoot, Hirakud, Mahan, Aditya) | 13.40 | 13.23 | 13.27 | 13.36 | 31.4% |
+| NALCO | 4.60 | 4.60 | 4.70 | 4.72 | 11.1% |
+| **Total** | 41.70 (FY26: 43.03) | **41.99–42.00** | 43.09 | **42.57** | 100% |
+- BALCO missed its FY26 target by 0.70 lakh t (ramp-up of the expansion). In Dec-2025 BALCO made 50.1 kt and Vedanta 158.4 kt; in Mar-2026 BALCO made 52.6 kt and Vedanta 159.5 kt.
+- India was **~5.8% of world primary output** in Apr-2025–Mar-2026 [V].
+
+**D2. India aluminium consumption vs primary production (Mt)** [V NALCO Q1 FY27 deck, citing Ministry of Mines and the Export-Import Data Bank]
+FY22: 4.03 / 3.90 · FY23: 4.10 / 4.44 · FY24: 4.19 / 4.95 · FY25: 4.24 / 5.50 · FY26: 4.29 / 6.12 · Q1 FY27: 1.08 / 1.32 (production / consumption incl. imports and scrap). Consumption CAGR FY22–26 **~12%** [E]. The production series is a little above the Mines summary (4.257 Mt FY26); use the Mines summary for production.
+
+**D3. India quarterly demand and supply mix (kt)** [V Hindalco Q1 FY27 deck slide 13]
+- Q1 FY26: total **1,442** = domestic primary sales **669** + scrap imports **445** + primary/semis imports **327**.
+- Q1 FY27E: total **1,491** = **631 + 480 + 380**.
+- Totals for Q2 FY26 1,457 · Q3 FY26 1,555 · Q4 FY26 1,643.
+- **Imports (scrap plus primary) were ~58% of Indian demand in Q1 FY27** (54% a year earlier). That independently supports FIMI's "~55% import dependence" [E from V].
+- Domestic primary sales (~631 kt a quarter) are only ~59% of Indian primary output (~1,070 kt a quarter). The rest is exported, which confirms the "export metal, import scrap" paradox [E].
+
+**D4. India end-use split (% of demand)** [V NALCO Q1 FY27 deck]
+Electrical 48 · Transportation & automobile 15 · Building & construction 13 · Consumer durables 7 · Machinery & equipment 7 · Others 6 · Packaging 4. NALCO cites **NITI Aayog (2026): Indian demand to grow ~6–8% CAGR to 2030**, a primary-source anchor for the "conservative" case in Part 1 §2.1.
+
+**D5. Alumina price points (US$/t, FOB Australia unless stated)** [V-snip CRU, S&P Platts, JBI; NALCO realisations V]
+Start-2024 350.5 (Fastmarkets) · Q3-2024 avg 507.2 (Platts) · 31-Oct-2024 702.5 (CRU API, highest in 35+ years) · 14-Nov-2024 765 (Platts) · mid-Dec-2024 >780 (press) · Q2-2025 avg 355.7 · Q3-2025 avg 356.9 · Q1-2026 avg 306.9 · 15-Apr-26 304 · Q2-2026 Alcoa realised 334 · Q3-2026 Alcoa realised 353 · 8-Oct-26 373. NALCO realisations: **FY25 ~580 · FY26 ~373 · Q4 FY26 348 · Q1 FY27 ~323**. CRU's other Q3-2024 benchmarks: Atlantic 530, China basket 550. Global alumina output hit a record 36.3 Mt in Q3-2025, which is why the market moved into surplus.
+
+**D6. Regional premia, 2026 (US$/t over LME)** [V-snip]
+- MJP: Q1 195 · Q2 350–353 · Q3 395 · Q4 255.
+- US Midwest: 23-Jan ~2,226 ($1.0095/lb) · ~Feb record print 2,182 (Fastmarkets basis) · H1 average ~2,406 · June record ~2,620 ($1.19/lb) · 11-Sep 2,403 ($1.09/lb).
+- Rotterdam duty-paid: June ~560 → 518.
+- NALCO domestic premium ~60 → ~110.
+- Alcoa realised third-party aluminium price **$4,527/t in Q3-2026** (LME ~$3,227), i.e., ~$1,300/t of premia and value-add, versus Hindalco's revenue/t of ~$4,230 in Q1 FY27 [V Alcoa 8-K; E].
+
+**D7. China output (Mt)** [V-snip NBS via Reuters/Mysteel]
+2024 ~43.96 [E from +2.4%] · **2025 45.02** · Jan–Sep 2026 35.03 (+3.8%; run-rate ~46.7) · Aug-2026 3.98 (record month) · Q3-2026 11.84.
+
+**D8. World balance** [V Ministry of Mines summaries]
+Apr–Dec 2025 production 56.054 Mt vs consumption 56.656 Mt (deficit 0.602) · Apr-2025–Mar-2026 74.409 vs 74.431 (deficit 0.023) · Apr–Jun 2026 forecast 18.512 vs 19.223 (deficit 0.712). Hindalco: CY2026 deficit ~1.0 Mt. NALCO deck: global inventory ~0.26 Mt; balance in 2027.
+
+**D9. Peer per-tonne economics, latest quarter (US$/t)** [V company filings; E arithmetic]
+| Producer | Quarter | Realisation | EBITDA/t (smelting) | Alumina segment |
+|---|---|---|---|---|
+| Hindalco upstream | Q1 FY27 (Apr–Jun 26) | ~4,230 | **2,331** | net long ~800 kt; sells ~140–190 kt a quarter |
+| NALCO aluminium segment (FY26) | FY26 | ~3,100 (₹2.73 lakh/t at ₹88) | EBIT ~1,330 [E] | chemicals EBIT ~$160/t of external sales [E] |
+| Alcoa aluminium | Q3-2026 (Jul–Sep) | 4,527 | **~1,244** ($862m / 693 kt) | alumina EBITDA ~0 at $353 realised |
+| Hydro Aluminium Metal | Q3-2026 | n.f. | NOK 7,031m adj. EBITDA (vs 2,732) | Bauxite & Alumina NOK 283m (vs 1,290) |
+| VAML | Q2 FY27 | n.f. | OPM 45%; OP ₹10,113 Cr | self-sufficient alumina |
+- **Read:** at ~$350 alumina a Western refiner (Alcoa, Hydro Alunorte) earns about zero, while NALCO, at ~₹20–22k/t (~$215–235), still makes ~$100–140/t. This is the quantitative basis for "lowest-cost bauxite and alumina producer in the world" (NALCO quotes Wood Mackenzie) [V; E].
+
+**D10. Policy calendar (dated)** [V where shown]
+- Section 232: 10% (2018) → 25% (Proclamation 10895, 10-Feb-2025; effective 12-Mar-2025) → **50% from 4-Jun-2025** [V govinfo].
+- India: BIS Aluminium QCO 2026 (S.O. 1319(E)), dated 11-Mar and published 13-Mar-2026; compliance 1-Dec-2026 for large firms, 1-Mar-2027 small, 1-Jun-2027 micro (product-specific) [V-snip].
+- CCTS GEI Target Rules: notified 8-Oct-2025 (13 aluminium units; baseline FY24; targets FY26 and FY27); amendment rules effective 13-Jan-2026 add sectors [V-snip].
+- CBAM: definitive 1-Jan-2026; certificate price €75.36 / €75.28 / €82.32 (Q1–Q3 2026); Q4 price due 4-Jan-2027; first certificate purchases Feb-2027 [V-snip].
+- Budget 2026-27 (1-Feb-2026): aluminium duties unchanged [V-snip].
+
+## 4.4 Gap log (all 22 §H items)
+
+| §H # | Gap | Status | Result / source / what was tried |
+|---|---|---|---|
+| 1 | Official consumption and imports by HS line (7601, 7602, 7604–7607) | **Partly filled** | Consumption **6.12 Mt FY26** (Ministry of Mines via NALCO deck [V]); import share ~58% (Hindalco D3 [V]); production by producer (Mines summary [V]). **HS-level import tonnages are still open.** TradeStat/EIDB is form-driven and was not fetched; no PIB or Rajya Sabha answer on FY26 imports was found. Scrap 2.03 Mt remains [V-sib] |
+| 2 | India end-use split | **Filled** | NALCO deck: electrical 48 / transport 15 / B&C 13 / durables 7 / machinery 7 / packaging 4 / others 6 [V company slide; base source unnamed] |
+| 3 | Quarterly alumina prices 2024–25; Dec-2024 peak | **Mostly filled** | Platts Q3-24 507, Q2-25 356, Q3-25 357; CRU 702.5 (31-Oct-24); Platts 765 (14-Nov-24); >780 mid-Dec [V-snip]. A Q4-2024 and Q1-2025 Platts average was not found. The "~$780–800 Dec-2024" figure is plausible as a daily peak, not a quarterly average |
+| 4 | Midwest, MJP, Rotterdam premia | **Filled [V-snip]** | MJP 195/350/395/255 for Q1–Q4 2026; Midwest record $1.19/lb in June, $1.09 in Sep; Rotterdam ~$518–560 in June. The conflicting Jan–Feb prints are explained as points on the way up |
+| 5 | NALCO alumina cash cost and segment EBIT | **Filled** | Cost ₹20–22k/t (transcript [V]); segment EBIT chemicals ₹2,034 Cr, aluminium ₹5,564 Cr (AR [V]) |
+| 6 | NALCO Q1 bauxite basis | **Filled** | 19.52 lakh t = excavation; 1,829 kt = transported ("production" in the deck) [V] |
+| 7 | Hindalco Jun-26 net debt (₹) | **Filled** | ₹77,495 Cr [V deck] |
+| 8 | Hindalco nameplate; Aditya tonnage | **Filled** | 13.40 lakh tpa (Mines [V]); Ph1 181 kt + Ph2 193 kt; refinery 850 kt (deck/AR [V]) |
+| 9 | Novelis FY22–FY23 | **Filled** | FY22 3,858 kt / $2,045m / $530; FY23 3,790 / $1,811m / $478 [V] |
+| 10 | Hindalco FY22–FY23 segments | **Filled** (FY22 partly) | FY23 complete [V]. FY22: Al India EBITDA ₹13,025 Cr (41%), copper ₹1,390 Cr [V]. FY22 per-tonne upstream not disclosed in the release |
+| 11 | Bay Minette $5bn total; $3.2bn spent | **Half filled** | $5.0bn / ₹46,800 Cr [V AR + 10-K]. **The $3.2bn spent is not found** in the 10-K pages read (WebFetch truncation; www.sec.gov direct download blocked without a declared User-Agent). FY27 capex $2.1–2.4bn [V] |
+| 12 | CBAM indirect emissions; certificate price | **Filled [V-snip]** | Aluminium is in Annex II, so direct emissions only; captive-power emissions are indirect (electricity) and therefore not priced [K on the self-generation definition; EUR-Lex not reachable]. Price €75.36 / €75.28 / €82.32 |
+| 13 | CCTS aluminium targets | **Partly filled** | Notified 8-Oct-2025; 13 aluminium units; baseline FY24; FY26–FY27 targets; amendment effective 13-Jan-2026 (source of the "Jan-2026" claim) [V-snip]. **Unit-level Hindalco/NALCO targets are not obtained** (gazette PDF not fetched); draft example: Vedanta Smelter II 13.49 → 13.23 → 12.83 tCO₂e/t |
+| 14 | BIS QCO effective dates | **Filled [V-snip]** | S.O. 1319(E), dated 11-Mar and published 13-Mar-2026; staggered 1-Dec-2026 / 1-Mar-2027 / 1-Jun-2027 |
+| 15 | Budget 2026 duty status | **Filled [V-snip]** | Unchanged: 7.5% primary, 2.5% scrap, 7.5–10% downstream |
+| 16 | Copper CCR Q4 FY25 109 vs 82 kt | **Filled** | 109 kt is the company comparative; prior figures restated [V] |
+| 17 | Screener P/E mismatch | **Filled** | Screener's P/E excludes exceptional items booked in other income → 9.54× reproduced [V/E] |
+| 18 | NALCO Q1 board date | **Partly filled** | Results declared before the 3-Aug-2026 10:30 call (deck filed 09:24 on 3-Aug; intimation 28-Jul) [V]. Exact date (likely 1-Aug) not captured. Q4 FY26 board: 30-Apr-2026 [V] |
+| 19 | NALCO net cash | **Filled** | Cash & bank ₹8,408 Cr; borrowings ₹60 Cr → ~₹8,350 Cr [V AR] |
+| 20 | VAML PAT and FY26 production | **Filled** | Screener: Q1 FY27 PAT ₹6,597 Cr; Q2 FY27 ₹6,187 Cr; FY26 PAT ₹14,153 Cr, revenue ₹66,891 Cr [V]. The "₹5,629 Cr" Q1 figure in some reports is the earlier/attributable print [V-snip]; keep screener for consistency with diversified-metals.html. FY26 production ~24.49 lakh t (Vedanta ~18.57 + BALCO 5.92) [V/E Mines] |
+| 21 | Gulf smelter status after April 2026 | **Filled [V-snip]** | EGA Al Taweelah attacked 28-Mar-2026, ~25–50% restarted by Aug–Sep, full in Q1-2027; Alba lines 4–6 (~1.3 Mtpa) running, 1–3 idle; Qatalum ~60% |
+| 22 | Basis of "downstream 4×" | **Filled** | Aluminium downstream + specialty alumina + copper downstream; 4× by FY30 [V transcript] |
+
+**Still open after this pass:**
+- HS-wise import tonnages (TradeStat).
+- Bay Minette cumulative spend.
+- Unit-level CCTS targets.
+- The NALCO Q1 FY27 transcript (nalcoindia.com down).
+- The exact NALCO Q1 board date.
+- Novelis FY22 end-market split.
+- A Platts Q4-2024 average alumina price.
+- Hindalco FY22 upstream $/t.
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+**Insights (expert-level, each sourced):**
+1. **The Gulf shock was bigger than Alba and Qatalum: EGA's Al Taweelah was physically hit (28-Mar-2026)** and is only partly back, with full output in Q1 2027. Gulf supply to Asia therefore stays impaired through FY27.
+   - That explains three things: why Hindalco expects the MJP to stay high "until next year"; why NALCO lost its 40–52% Gulf alumina export market (lower spot alumina, $305–336); and why Hindalco targets $3,200 for FY28 hedges.
+   - It also matters for NALCO's smelter: EGA is its technology licensor, and EGA's own engineering capacity is now stretched by reconstruction [E].
+   - Sources [V-snip; V transcripts].
+2. **India's real import dependence is ~55–58%, and India is simultaneously exporting ~40% of its primary metal.**
+   - Hindalco's supply table shows only ~631 kt a quarter of domestic primary sales out of ~1,070 kt produced, against 860 kt of imported scrap and primary.
+   - Consumption is ~6.1 Mt, not 4.5–5 Mt, and has grown ~12% a year since FY22, roughly three times primary output growth (~1.6% a year).
+   - The policy fight (duty on scrap versus primary) is about who captures that gap. Budget 2026-27 left duties unchanged, so the BIS QCO (Dec-2026) is the operative barrier [V; E].
+3. **NALCO's alumina engine is profitable at prices where Western refiners make nothing.**
+   - Alcoa's alumina segment broke even at $353/t realised in Q3-2026, and Hydro's Bauxite & Alumina EBITDA fell ~80%.
+   - NALCO's ₹20–22k/t cost (~$215–235) still leaves ~$100–140/t at $330–350.
+   - The FY26 segment note shows chemicals ROCE of **59%** even in a year when alumina prices fell $219/t.
+   - With 1 Mt of new capacity in FY28 and Gulf customers impaired, the risk is volume placement, not margin. NALCO is pushing domestic alumina sales to 2.5–3 lakh t [V; E].
+4. **NALCO's metal segment earns 158% ROCE because alumina is transferred at cost.** Inter-segment alumina was ₹1,809 Cr for ~9.2 lakh t, ≈ ₹19,700/t, about the segment's all-in cost. A "metal vs alumina" margin split therefore understates the alumina contribution to integrated metal. Any sum-of-parts valuation should use the integrated chain, not the segment split [E from V].
+5. **Hindalco's Q1 FY27 PAT had three non-operating tailwinds the market may annualise wrongly:**
+   - +₹2,286 Cr of unallocable/GAAP adjustments within EBITDA.
+   - The new tax regime, cutting the effective rate to ~26% from 30–34%; this one is structural.
+   - Rupee depreciation lifting Novelis' ₹ EBITDA 37% against 24% in $.
+   - Against these, an inventory-profit elimination of −₹778 Cr that should reverse as LME falls in Q2.
+   - The P/E "9.55×" on screener strips exceptionals, while reported TTM is 12.1× [V; E].
+6. **Novelis leverage was already at its 4.5× peak in June, not September.**
+   - Deleveraging depends on three things management cannot fully control: insurance timing (some recoveries slip into FY28), $300–400m of working-capital release, and tariffs fading.
+   - A new US risk is also on the books: **US Customs' $114m anti-dumping/tariff deposit on Novelis Brazil shipments** [V AR; 8-K].
+7. **Governance flags at NALCO and Hindalco not in Parts 1–3:**
+   - NALCO operated **without any independent director from 1-Apr-2026**, so no Audit Committee existed when Q1 FY27 results were approved. One independent director was appointed 14-Aug; Audit and NRC were still not reconstituted at 16-Sep.
+   - CAG qualified NALCO's contingent-liability note (ORISED mineral-land tax unquantified after the Supreme Court's 2024 ruling).
+   - At Hindalco: a **new brand royalty (0.25% of revenue, ₹225 Cr cap each at Hindalco and Novelis)** and a CBI coal-allocation case at the charge-framing stage [V].
+8. **China's 45 Mt cap is leaking, not binding.** NBS output was 45.02 Mt in 2025 and is annualising ~46.7 Mt in 2026, with a record August.
+   - Combined with Indonesian ramp-ups and Gulf restarts in 2027, this supports NALCO's and Hindalco's own view of a 2027 move back to balance.
+   - Both managements guide LME at ~$3,000–3,300, below the Q1 FY27 average of $3,577. The record margins of Q1 FY27 should be presented as a peak, not a run-rate [V-snip; V].
+
+**New primer issues (to add to primer-issues.md under "From Aluminium research, 2026-11-01, Part 4")**
+
+*hindalco.html*
+- **Net debt at Jun-26 missing.** Add **₹77,495 Cr** (gross ₹1,03,515 Cr; treasury ₹26,020 Cr; 1.95×) and the quarterly path from ₹34,257 Cr (Jun-25) [Q1 FY27 deck].
+- **Aditya smelter tonnage.** Use **Phase 1 181 kt (FY28) + Phase 2 193 kt (FY29) = 374 kt**, plus the 850 kt Aditya alumina refinery and the 300 kt copper smelter (FY29). Do not use "2 × 180 pots ≈ 360 kt".
+- **Capacity.** Ministry of Mines nameplate is **13.40 lakh tpa**; FY26 production 13.36 lakh t. Replace "~1.3 MT".
+- **Brand royalty (new).** From FY27 Hindalco and Novelis each pay Birla Group Holdings **0.25% of revenue, capped at ₹225 Cr a year** (Novelis effective 1-Jul-2026; FY27 cap $24m). Add to governance and related-party sections.
+- **Tax regime.** India moved to the new tax regime from 1-Apr-2026 (effective tax ~26%). Note this when comparing PAT growth.
+- **US Customs Brazil deposit.** $114m (₹1,066 Cr) cash deposit on anti-dumping/tariff classification; appeal pending.
+- **CBI coal case.** Summons issued 9-Apr-2025 over coal from a mine deallocated in 2014-15; charge-framing stage. Mention under risks.
+- **Novelis history.** If the primer has FY22–FY23 Novelis figures, use **FY22 $2,045m / $530/t on 3,858 kt; FY23 $1,811m / $478/t on 3,790 kt**.
+- **Novelis recycled content** is **61% (FY26)**, not 63%.
+- **"Downstream 4× by FY30"** includes specialty alumina and copper downstream, not just aluminium FRP/extrusions. Say so if the primer quotes the target.
+- **Novelis leverage.** 4.5× at Jun-26 ($7,865m adjusted net debt), not "4.1×".
+- **Equity infusion.** Hindalco (via AV Minerals) put **$750m + $200m (Feb-2026)** into Novelis after the fires.
+
+*national-aluminium.html*
+- **Net cash quantified.** **Cash & bank ₹8,408 Cr at Mar-26** (₹5,427 Cr Mar-25); borrowings ₹60 Cr. EV/EBITDA ~5.7× FY26 on the company basis.
+- **Segment economics.** Add the FY26 segment note: chemicals EBIT ₹2,034 Cr (−37%), aluminium EBIT ₹5,564 Cr (+38%); ROCE 59% and 158%.
+- **Alumina cost and realisation.** Cost ₹20–22k/t; realisation ~$580 (FY25) → ~$373 (FY26) → $348 (Q4 FY26) → ~$323 (Q1 FY27). Contract linkage is down to 11–11.5% of LME.
+- **Smelter cost split.** NALCO's own outlay is ~₹23–24k Cr (smelter ₹17–18k Cr + 50% of a ₹12k Cr CPP JV with NLC), not ₹30k Cr. Capex path ₹1.8–2.0k (FY27) → ₹4–5k (FY28) → ₹7–10k Cr a year (FY29–30), per the 30-Apr-2026 call.
+- **Independent directors / committees.** From 1-Apr-2026 there were no independent directors and no board committees; one independent director joined 14-Aug-2026; Audit and NRC were still pending (Sep-2026).
+- **Contingent liabilities.** ₹2,179 Cr, incl. OHPC ₹901 Cr. CAG flags the unquantified ORISED mineral-land tax exposure after the Supreme Court's 25-Jul-2024 ruling.
+- **Middle East dependence.** 40–52% of alumina exports historically went to the Gulf; this market is now impaired.
+- **Coal economics.** Need 7.2 Mt; captive 4.0 Mt (FY26) → 4.8 Mt target (FY27). Captive ₹1,500/t vs linkage ₹1,800/t vs e-auction ₹2,100/t.
+- **Pay revision.** Wage revision from Jan-2027 (+10–15% employee cost).
+- **UADNL (MIDHANI) JV discontinued.** New 60 ktpa wire-rod mill planned.
+- **FY26 capex and dividend paid.** Capex ₹2,068 Cr (+48%); dividend paid ₹2,020 Cr in FY26 (declared for FY26 ₹2,112 Cr).
+- **5th stream.** ~₹5,500 Cr in CWIP; pre-commissioning from June 2026; ≥2 lakh t in FY27 (Q4); full 1 Mt FY28.
+- **India demand figures.** If the primer uses "~4.5–5 Mt consumption", replace with **6.12 Mt (FY26, Ministry of Mines via NALCO)**.
+
+*subsectors/diversified-metals.html (sibling, for consistency)*
+- **VAML Q2 FY27 reported 28-Oct-2026:** revenue ₹22,324 Cr; OP ₹10,113 Cr (45%); PAT ₹6,187 Cr. M-cap ₹1,39,386 Cr at ₹356 (30-Oct).
+- **Vedanta + BALCO FY26 production** ≈ 24.49 lakh t (Ministry of Mines). BALCO 5.92 lakh t missed its 6.62 target.
+
+*Writer notes:*
+- **Quote India primary output as 4.26 Mt (FY26)** and the producer shares 57.5 / 31.4 / 11.1.
+- **China at 45.02 Mt (NBS)**, cap breached.
+- **LME FY26 $2,771.**
+- **MJP Q4-2026 $255** (down 35% QoQ): the first sign the Gulf premium is unwinding.
+
+*Part 4 compiled from primary documents saved in /tmp/aluminium-deep/dl (Hindalco, Novelis, NALCO, Ministry of Mines, govinfo); notes in /tmp/aluminium-deep/notes.md.*
