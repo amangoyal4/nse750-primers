@@ -1353,3 +1353,649 @@ All aggregates are **straight sums of the company rows above on one basis**: scr
 - PMNDP (snippet): https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-gets-two-more-free-dialysis-centres-under-pm-ndp-1978483
 - AiMeD indirect China imports (snippet): https://www.angelone.in/news/economy/rising-indirect-imports-from-china-alarm-indian-medical-device-makers
 - India condom market (snippets): https://www.gminsights.com/industry-analysis/india-condom-market ; https://www.marknteladvisors.com/press-release/india-condom-market-share
+
+---
+
+# PART 4 — Deep-research supplement (2026-11-01)
+
+Second, primary-source pass by the Phase-1c deep-research agent, written on 1-Nov-2026 for the writer. **Where Part 4 conflicts with Parts 1–3, Part 4 wins**; §4.0 lists every correction.
+
+**What was fetched and read this session**
+- **Poly Medicure:**
+  - Q1 FY27 earnings-call transcript (the full call, 10-Aug-2026; filed with BSE 14-Aug-2026).
+  - Q1 FY27 and Q4 FY26 presentations, re-read; key slides rendered to images.
+  - **FY26 Annual Report** (investors.polymedicure.com, uploaded Oct-2026): directors' report, related-party note, contingent liabilities and QIP-utilisation note.
+  - CRISIL rating rationale (24-Jun-2026).
+  - BSE intimation of the Q2 FY27 call (31-Oct-2026).
+  - NSE Reg-30 filing on the NCLT resolution plan (20-Aug-2025).
+  - SAST Reg 29(2) filing by Jai Polypan (28-Jun-2024).
+  - DGTR initiation notification on dialyzers (June 2026).
+  - Screener consolidated pages, re-pulled.
+- **Cupid:**
+  - **FY26 Annual Report** (BSE): CMD letter, MD&A, Note 4 investments, Note 37 contingent liabilities, Note 39 segment, Note 40 related parties, and the preferential-issue utilisation table.
+  - Q4 FY26 presentation, re-read; shareholding and balance-sheet slides rendered.
+  - South Africa allocation press release (4-Nov-2025).
+  - 30-Sep-2026 business update.
+  - Baazar Style conversion filing (15-Oct-2026).
+  - Q1 FY27 results press release (syndicated copy).
+  - Screener consolidated and standalone pages.
+- **Industry:**
+  - **Commerce Ministry TradeStat / Export-Import Data Bank**, queried live for HS 9018, 9019, 9021, 9022, 4014.10, 9018.31/.32/.39/.90 and 9018.90.31, FY25 and FY26 (US$ mn, by country).
+  - NPPA stent gazette S.O. 1587(E) (25-Mar-2026).
+  - DGTR dialyzer initiation (F.No. 6/19/2026-DGTR).
+  - USAID GHSC-PSM *FY2023 Comprehensive Report on Condoms and Lubricants* (May-2024).
+  - BD fiscal-2025 8-K earnings release (SEC).
+  - B. Braun FY2025 press release.
+  - Karex FY6/2026 results (The Star, 27-Aug-2026).
+  - PLI Lok Sabha reply (24-Jul-2026, via IndianPharmaPost).
+  - Rubber prices (Onmanorama, 13-Oct-2026).
+  - Search-only items, tagged accordingly: Terumo, EU MDR 2023/607, HMD, knee caps, export statistics.
+
+**Not available:** Cupid has held **no earnings call since Jan-2024**. The latest transcript on BSE/screener is Q3 FY24, and there is no Q1 FY27 investor presentation. Cupid's "concall digest" therefore rests on the FY26 Annual Report CMD letter and MD&A (published Aug-2026), the Q1 FY27 press release and the 30-Sep-2026 update. Cupid's own website blocks scripted requests (mod_security); Rubber Board's site failed TLS and returned 503; EUR-Lex returned an empty body. The scratch notes are in `/tmp/medical-devices-deep/notes.md`.
+
+**Tags in Part 4:**
+- **[V]** = fetched and read this session from the named primary document.
+- **[V-sec]** = fetched this session, but from a secondary report of a primary statement (news copy of a parliamentary reply or a company PR).
+- **[V-snip]** = search-summary only.
+- **[E]** = arithmetic or estimate.
+
+## 4.0 Supersedes (apply these to Parts 1–3)
+
+| # | Where in Parts 1–3 | Old value / claim | New value | Source |
+|---|---|---|---|---|
+| S1 | §0, §7.2, §D cell 4, §F | Stent ceilings **BMS ₹10,692.69; DES ₹38,933.14** ("current") | **BMS ₹10,762.15; DES (incl. metallic DES and BVS/biodegradable) ₹39,186.03**, ex-GST, **w.e.f. 1-Apr-2026** (WPI +0.64956% for 2025). The old pair is the FY26 price (S.O. 1473(E), 27-Mar-2025). | [V] NPPA gazette S.O. 1587(E) dated 25-Mar-2026 (copy of the order PDF) |
+| S2 | Trap 8, §2.4 #2, §3.3, §H9 | Cupid promoter holding at 31-Mar-26: "PPT pie 53.97% vs screener 46.03% — conflict" | **46.03% promoter / 53.97% public. There is no conflict.** The rendered slide shows the dark-purple (promoter) arc labelled 46.03% and the magenta (public) arc 53.97%; pdftotext had mis-associated the labels. The AR MD&A states it in words: "promoter and promoter group held approximately 46.03% … the public 53.97%". | [V] Cupid Q4 FY26 PPT slide 21 (rendered); [V] Cupid AR FY26 MD&A |
+| S3 | Trap 8, §3.3, §3.4 cupid.html | "Pledge/encumbrance nil … primer's 'meaningful slice pledged' is **not supported**" | **The primer had a basis.** The FY26 AR says the "promoter share-pledge was **reduced to 3.42%**" during FY26 (CMD letter and highlights; the MD&A prints "34.26%", which is probably a typo for 3.42% — FLAG). The SAST of 28-Sep-2026 shows encumbrance nil. **Correct reading: a pledge existed during FY26, was cut to ~3.4% by year-end, and was nil by Sep-26.** The primer's present-tense claim is stale, not invented. | [V] Cupid AR FY26 pp. 3–5 and 69–70; [V] SAST 28-Sep-2026 |
+| S4 | §2.0 notes, §2.2 balance sheet | Cupid non-current investments ₹74.65 Cr "likely the Baazar Style warrant money" | **No Baazar money is in the Mar-26 balance sheet.** Note 4 (standalone): Cupid Invesco Ltd (UAE subsidiary, 100 shares at AED 1,000) ₹0.22 Cr; **"Other investments in units (2,00,140 units)" ₹60.79 Cr** (new in FY26; consistent with the GII Healthcare Fund); FDs over 12 months ₹13.86 Cr (lien to HDFC Bank). The Baazar tranches were deployed **after** year-end: **₹82.88 Cr in Apr-2026 and ₹36.93 Cr in May-2026** (the latter on converting 15 lakh warrants). | [V] Cupid AR FY26 Note 4 and MD&A |
+| S5 | Trap 10, §E9, §C.4, §2.2 | Cupid medium-term targets **FY28 ₹875 Cr / ₹275 Cr; FY29 ₹1,150 Cr / ₹390 Cr** (May PPT); "₹1,500 Cr by FY29" [V-snip] | **FY28 ₹1,085 Cr revenue; FY29 ₹1,500 Cr revenue** (no PAT figure given). Source: the CMD letter in the FY26 AR, written after the Aug-2026 raise to ₹725–750 Cr. The FY27 guidance has since moved to ₹800+ Cr (30-Sep). The May-2026 targets are superseded. | [V] Cupid AR FY26 CMD letter |
+| S6 | Trap 10, §E9 | Guidance path 600 → 725–750 → 800+ | **Four steps:** ₹600 Cr / ₹180 Cr (15-May) → **₹660+ Cr / ₹180+ Cr (30-Jun-2026 business update)** → ₹725–750 Cr / ₹210–225 Cr (Aug, Q1 results) → ₹800+ Cr / ₹250+ Cr (30-Sep). | [V-sec] Q1 FY27 PR copy (lists all three earlier steps); [V] 30-Sep PR |
+| S7 | §2.2 balance sheet | Cupid "Debt/equity 0.04" | **0.11× consolidated FY26** (0.04× in FY24 and FY25), per the Q4 PPT slide 20. The AR's standalone key-ratio table shows 0.09×. The AR repeatedly calls Cupid "debt-free" while consolidated borrowings are ₹50.98 Cr (₹12.17 Cr non-current + ₹38.81 Cr current) — FLAG the wording. | [V] Q4 PPT slide 20 (rendered); [V] AR FY26 key ratios |
+| S8 | §0, §H10, §2.1 | Polymed ₹33.2 Cr "advance against purchase of company through NCLT" — **target unidentified** | **Himalayan Mineral Waters Pvt Ltd** (incorporated 1990, Roorkee/Haridwar). IBC resolution plan of **₹33.15 Cr cash for 100% equity**, approved by **NCLT Allahabad (order 12-Aug-2025)** and upheld by **NCLAT (order 19-Mar-2026)**. Assets: a manufacturing facility on **2.717 ha at SIDCUL Haridwar, adjacent to Polymed's Haridwar plant**, plus **10.67 ha of land at Bharuch, Gujarat**. Target turnover: FY21 ₹7.95 Cr, FY22 ₹7.93 Cr, FY23 ₹4.46 lakh (dormant). Not a related party. In effect it is a cheap brownfield site and land-bank purchase. | [V] Polymed Reg-30 filing 20-Aug-2025 (NSE archive); [V] Polymed AR FY26 directors' report; [V] CRISIL 24-Jun-2026 (lists it as consolidated) |
+| S9 | §8 2024, §H11 | Polymed promoter 53% → 66% (Jun-24) → 62.4%: "suggests promoter warrant conversion (FLAG)" | **No warrants were involved.** **Ezekiel Global Business Solutions LLP held 1,23,61,320 shares (12.88%) and had been "disclosed as a public shareholder".** Under an NCLT Ahmedabad-sanctioned amalgamation (order 26-Jun-2024) of Fix 'N' Move Technologies Pvt Ltd (Ezekiel's majority partner) into **Jai Polypan Pvt Ltd (promoter group)**, Jai Polypan became Ezekiel's partner, and Ezekiel joined the promoter group. Promoter holding went 53.15% → **66.03%** with no new shares (an exempt acquisition under Reg 10(1)(d)(iii)). The Aug-2024 ₹1,000 Cr QIP then diluted it to 62.56%. | [V] SAST Reg 29(2) disclosure by Jai Polypan, 28-Jun-2024 (BSE) |
+| S10 | Status table, §12, §H15 | Polymed Q2 FY27 call "~6–7 Nov (E)" | **Thursday 5-Nov-2026, 17:00 IST** — the same day as the board meeting. | [V] BSE Reg-30 intimation, 31-Oct-2026 |
+| S11 | §0, §2.2, §A1, §D cell 2 alt | FY26 device trade "exports ₹28,106 Cr / imports ₹94,664 Cr" (conflicts with FY25 $4.1 bn) | **Do not use as FY26.** The source article is dated **20-Mar-2026**, before FY26 ended. Its basis ("available trade data") is undisclosed, so it is at best a partial year (≈ Apr–Jan/Feb); ₹28,106 Cr ≈ US$3.2 bn at ~₹88. That resolves the conflict. **Replace with the TradeStat core-HS series in §4.3** (FY26 exports **US$2.41 bn**, imports **US$5.84 bn** for HS 9018+9019+9021+9022). Also cite the ministry's broader-basket figure for **FY25 exports of US$4,014 mn**. | [V] indiaseatradenews article (fetched; dated 20-Mar-2026); [V] TradeStat EIDB; [V-sec] Ministry of Chemicals & Fertilizers via digitalhealthnews |
+| S12 | §2.2, §0 | "Imports from China $622 mn (FY20) → $1.3 bn (FY24), #2 source after the US" | On the core HS basket (9018/19/21/22), **China supplied US$1,003 mn in FY26 (17.2% of US$5.84 bn) vs US$854 mn in FY25 (16.6%)**. Adding Hong Kong (US$165 mn) gives ~20%. In HS 9018 alone, China is **#2 at US$550 mn (17.8%)** after the US (US$679 mn, 21.9%). The $1.3 bn figure uses a wider basket; keep it only as a labelled snippet. | [V] TradeStat EIDB |
+| S13 | §2.1 segment row, §H12 | India market segment split: "~56% equipment … labels ambiguous" | **Electronic equipment 56%; disposables & consumables 27%; IVD 8%; implants 7%; surgical instruments 2%** (BCG/EY split reproduced by Polymed; colours matched on the rendered slide). | [V] Polymed Q4 FY26 PPT slide 28 (rendered) |
+| S14 | §5.1, §5.2 | HMD "~8–10 bn units/yr capacity" [K] | **Unsupported. Drop it.** The best available evidence: HMD reached >1 bn 0.5-ml AD syringes a year in 2021 for COVID vaccination, and a (dated) plan to lift total syringe capacity from 2.5 bn to >3 bn. Revenue "over ₹500 Cr" (Tofler, undated). Say "India's largest syringe maker, ~3 bn syringes a year" [V-snip]. | [V-snip] Business Standard 2021; Tofler |
+| S15 | §7.3 parks | "Four parks (HP Nalagarh; MP Ujjain; TN Kancheepuram; UP YEIDA), ₹100 Cr each (₹400 Cr)" [K] | **Three parks reported "in advanced stages of development": Greater Noida (UP), Ujjain (MP), Kanchipuram (TN)**, total project cost **>₹871.11 Cr**, Centre ₹100 Cr per park. Himachal's Nalagarh park is not in the ministry's list. | [V-sec] Ministry of Chemicals & Fertilizers statement via digitalhealthnews |
+| S16 | §7.3 PLI | "₹266.64 Cr till FY25 … earlier 31 approved, ₹133.95 Cr to 7 applicants" | The ₹133.95 Cr figure is **cumulative to Jun-2025** (LS 1-Aug-2025; RS Jul-2025 says "18 firms" got the same ₹133.95 Cr up to FY25). The ₹266.64 Cr (LS 24-Jul-2026) must therefore be cumulative to ~FY26, which implies **≈₹133 Cr released in FY26** [E]. 21 → 23 greenfield projects commissioned; cumulative eligible sales ₹10,413 Cr to Mar-25, of which exports ₹5,002 Cr. The 31 → 27 approval drop is withdrawals/cancellations [E; not stated]. | [V-sec] IndianPharmaPost (LS 24-Jul-2026); [V-snip] Medical Dialogues; [V-sec] digitalhealthnews |
+| S17 | Status, §2.2 index list | Cupid index inclusions include "Nifty Alpha 50" | The 30-Sep-2026 PR lists **BSE Group 'A', NIFTY Smallcap 250 and FTSE Emerging Markets All Cap** only. Drop "Nifty Alpha 50" unless separately sourced. | [V] Cupid PR 30-Sep-2026 |
+| S18 | Trap 9, §4.3, §12 | Palava "H2 FY27 start-up" | The company has slipped its own dates: Q1 PR (Aug-26) said "**on schedule for commissioning during Q2 FY27**"; the AR (Aug-26) said "commission … on schedule during FY27"; the 30-Sep PR said "**imminent operationalisation**". As of 1-Nov it is **not yet commissioned**. | [V-sec] Q1 PR copy; [V] AR FY26; [V] 30-Sep PR |
+| S19 | Trap 9, §9.3 | Existing Cupid capacity "~480 mn MC + ~50 mn FC [E: 1,250 − 770]" | The Nov-2025 PR says Palava will "amplify … capacity by **1.5 times the existing output** … augmented by ~770 mn MC and 75 mn FC". That implies **existing ≈ 513 mn MC and ≈ 50 mn FC**, giving a total of ~1.28 bn / 125 mn, consistent with "~1.25 bn / ~125 mn planned". The AR history: capacity went **160 mn → 400 mn units in 2006**. The AR Q&A says the plant is "**operating at full capacity utilisation**" (FY26). | [V] SA PR 4-Nov-2025; [V] AR FY26 |
+| S20 | §G 1996 / §8 | Polymed IPO "₹55 lakh (1996)" | **Keep ₹55 lakh / 1996** (written twice in the Q1 PPT: "IPO 1996 (Rs 55 Lakhs)"; "From INR 5.5 Mn IPO in 1996"). But note that **the MD said on the call "initiated operations in 1997 with an IPO of INR 2.65 crores"**. Written disclosure beats the oral remark; FLAG it if the writer quotes the call. | [V] PM-Q1PPT; [V] PM-Q1call |
+| S21 | §2.1 Medyneo, Trap 7 | Medyneo "a registration/licence platform" | Add the MD's description: "**a very small acquisition in Brazil**". The board has "allocated some funds for [the] Brazilian market" for direct sales. Polymed Brazil LTDA (a separate subsidiary) had no operations in FY26. | [V] PM-Q1call; [V] PM AR FY26 |
+| S22 | Trap 7, §G21 | Citieffe consolidated from 7-Nov-2025 | **Legal acquisition 24-Sep-2025**: Poly Medicure B.V. acquired Medistream SA (Switzerland, Citieffe's parent) together with Citieffe SRL (Italy), Citieffe Inc (USA) and Citieffe De (Mexico). PendraCare came through Risor Holdings B.V. (90%; incorporated 29-Aug-2025) on 3-Sep-2025. The PPT's "consolidated from 7-Nov-2025" (Citieffe) is the accounting-control date. Quote both if precise dates matter. | [V] PM AR FY26 directors' report |
+| S23 | §2.2 balance sheet notes | "Cupid net cash ₹135.5 Cr … being drawn down by Baazar conversions" | Keep ₹135.5 Cr at Mar-26. But **Apr–Oct 2026 Baazar outflows were ≈₹193.7 Cr** [E: 82.88 + 36.93 + 30 lakh × ₹246.19], plus the US$5 mn GII follow-on (≈₹47 Cr). That is ~₹240 Cr against Mar-26 cash of ₹186 Cr plus H1 FY27 accruals (~₹100 Cr PAT). Net cash at Sep-26 is likely near zero or slightly negative [E]; check the Q2 balance sheet. | [V] AR; [V] BSE 15-Oct; [V] 30-Sep PR; [E] |
+| S24 | §5.2 Healthium, Translumina rows | [K] ownership claims | Not re-verified this session; keep the [K] labels. | — |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Agrees?" compares the figure with Parts 1–3. **[V] = fetched this session from the primary document named.**
+
+| # | Figure | Value | Primary source (fetched 1-Nov-2026) | Tag | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Polymed FY26 consolidated revenue | ₹1,875.3 Cr (+12.3%) | PM-Q4PPT; screener P&L; CRISIL KFI table (₹1,875.3 Cr operating income) | [V] ×3 | Yes |
+| 2 | Polymed FY26 company Operating EBITDA | ₹457.7 Cr (24.4%); standalone ₹446.1 Cr (26.8%) | PM-Q4PPT cash-flow slide; CRISIL says "~26% in FY26 (28.8% FY25)" on its own basis | [V] | Yes (CRISIL's ~26% is a different basis) |
+| 3 | Polymed FY26 PAT | ₹320.7 Cr (−5.3%); screener ₹321 Cr | PM-Q4PPT; screener | [V] | Yes |
+| 4 | Polymed Q1 FY27 revenue / organic | ₹525 Cr (+30.3%); acquisitions ₹72.3 Cr; organic ₹453.1 Cr (+12.4%) | PM-Q1call (MD's opening remarks) | [V] | Yes |
+| 5 | Polymed Q1 FY27 Operating EBITDA | ₹126.7 Cr, 24.1% (+17.7% YoY); standalone ₹120.8 Cr, 28.0% | PM-Q1call | [V] | Yes |
+| 6 | Polymed FY27 guidance (consolidated) | Revenue ₹2,300–2,400 Cr; EBITDA 23–25%; **"maintaining this guidance after quarter 1"** | PM-Q1call | [V] | Yes. CRISIL's independent view: +20–22% (≈₹2,250–2,290 Cr) — **slightly below the guidance floor** |
+| 7 | Polymed FY27 guidance (standalone) and capex | Standalone ₹1,900–2,000 Cr (domestic >20%, international >15%); EBITDA 25–27% ("upper end", Rahul Gautam); capex ₹200–225 Cr | PM-Q1call | [V] | Yes. CRISIL: capex ₹200–300 Cr a year |
+| 8 | Polymed export share | "~69%" of FY26 revenue (Europe 32% + RoW 37%) | PM-Q1PPT slide "Polymed 2.0" (~69%); CRISIL: "nearly two-thirds" | [V] ×2 | Yes |
+| 9 | Polymed US exports | "close to between USD 3.5 million to 4 million" in FY27; US duty "only 10%" | PM-Q1call (reply to an analyst) | [V] | Yes |
+| 10 | Polymed group US FDA approvals | "15 approvals obtained, 11–13 more in the pipeline; GPO contracts signed" | PM-Q1PPT US-expansion slide | [V] | Yes |
+| 11 | PendraCare CY2025 | Revenue ~€8,200k; GM ~€5,591k; **EBITDA ~€84k**; EV €18.8 mn for 90%; ~20% Middle East exposure, de-growing | PM-Q1PPT slide 13; PM-Q1call (Rahul Gautam) | [V] | Yes, plus the ME detail |
+| 12 | Citieffe CY2025 | Revenue ~€17,701k; GM €12,093k; EBITDA ~€3,150k; EV ~€31.0 mn (100%); Europe 48.3%, USA 34.8%, RoW 16.9%; growing "mid- to high single digits"; loan ~€9 mn (€1.5–2 mn repaid a year) | PM-Q1PPT slide 14; PM-Q1call | [V] | Yes, plus new detail |
+| 13 | Middle East decline Q1 FY27 | −32% YoY; "orders … lying at ports or in factories"; logistics costs up "2, 3 times in the last 6 months" | PM-Q1call | [V] | Yes, plus new detail |
+| 14 | Dialyzer anti-dumping case | Initiated **June 2026** (F.No. 6/19/2026-DGTR); China PR & Malaysia; HS 9018 90 31; POI CY2025; applicant Polymed; only other Indian producer **Nipro Medical India (100% EOU)**; Polymed claims a 20% injury margin | DGTR initiation notification; PM-Q1call | [V] | Yes, plus new detail |
+| 15 | Polymed NCLT target | Himalayan Mineral Waters Pvt Ltd, ₹33.15 Cr, 100% | Reg-30 filing 20-Aug-2025; AR FY26 | [V] | **New** (fills §H10; S8) |
+| 16 | Polymed 2024 promoter jump | 53.15% → 66.03% via the Ezekiel/Jai Polypan amalgamation (26-Jun-2024) | SAST filing 28-Jun-2024 | [V] | **New** (fills §H11; S9) |
+| 17 | Polymed Q2 FY27 earnings call | Thu 5-Nov-2026, 17:00 IST | BSE intimation 31-Oct-2026 | [V] | **New** (S10) |
+| 18 | Polymed ROCE FY26 | Screener 12% (FY24 24%, FY25 18%); CRISIL "~12–14%" | screener ratios; CRISIL | [V] ×2 | Yes |
+| 19 | Polymed credit rating | **CRISIL AA-/Positive** (outlook raised from Stable, 24-Jun-2026); A1+; bank lines ₹500 Cr (from ₹400 Cr) | CRISIL rationale | [V] | **New** |
+| 20 | Polymed cash | "about INR 855 crores" (Jun-26, MD); CRISIL: ₹700–800 Cr cash and liquid investments at Mar-26; QIP money parked ₹484.3 Cr at Mar-26 | PM-Q1call; CRISIL; AR FY26 QIP note | [V] | Yes, plus new detail |
+| 21 | Polymed promoter / FII (Sep-26) | 62.41% / 5.36% (FII 14.10% in Dec-23) | screener shareholding | [V] | Yes |
+| 22 | Polymed m-cap / P/E (30-Oct-26) | ₹14,692 Cr; 45.9×; ₹1,450 | screener | [V] | Yes |
+| 23 | India medtech market | US$14 bn (2024) → US$16 bn (2025F) → US$30 bn (2030 ambition); **per-capita $3 vs $47 global**; segment split 56/27/8/7/2 | PM-Q4PPT slide 28 (BCG/EY/IBEF), rendered | [V] (company slide citing BCG) | Yes; the split is new (S13) |
+| 24 | Global medtech market | US$647 bn (2024) → US$682 bn (2025F) → US$758 bn (2027) → US$880+ bn (2030); India ~2% of global; APAC ~20% | PM-Q4PPT slide 27 (BCG) | [V] (company slide) | **New** (Part 1 used Rubix's 1.6%) |
+| 25 | India device exports FY25 (broad basket) | **US$4,014 mn** (FY19 US$2,138 mn; +88% in six years) | Ministry of Chemicals & Fertilizers via digitalhealthnews; Rubix "$4.1 bn" | [V-sec] + [V-snip] | Yes (two sources agree) |
+| 26 | Core-HS device trade FY26 (9018+9019+9021+9022) | Exports **US$2,414 mn** (+4.7%); imports **US$5,844 mn** (+13.7%); import/export ratio 2.4× | TradeStat EIDB | [V] | **New** (S11) |
+| 27 | China share of core-HS imports FY26 | **US$1,003 mn = 17.2%** (16.6% in FY25); ~20% including Hong Kong | TradeStat EIDB | [V] | **New** (S12) |
+| 28 | India condom trade (HS 4014.10) | Exports US$89.8 mn (FY24) → **US$65.5 mn (FY25, −27%)** → **US$87.0 mn (FY26, +32.7%)**; South Africa US$3.2 mn → **US$11.85 mn**; imports only US$5.4 mn | TradeStat EIDB | [V] | **New** (fills §H2) |
+| 29 | NPPA stent ceilings | BMS ₹10,762.15; DES ₹39,186.03 (w.e.f. 1-Apr-2026) | NPPA S.O. 1587(E), 25-Mar-2026 | [V] | **No → S1** |
+| 30 | Knee-implant price cap | Extended to **15-Nov-2026** "or until further orders" (decision of Nov-2025); no Nov-2026 decision found yet | Medical Dialogues (Nov-2025) | [V-snip] | Yes |
+| 31 | PLI medical devices | Outlay ₹3,420 Cr; 27 approved (14 MSME); 23 commissioned; investment ₹1,153.07 Cr; incentives ₹266.64 Cr cumulative | LS reply 24-Jul-2026 via IndianPharmaPost (re-fetched) | [V-sec] | Yes (with S16's interpretation) |
+| 32 | Cupid FY26 P&L | Revenue from operations ₹357.71 Cr (+94.9%); total income ₹391.40 Cr; EBITDA ₹116.70 Cr (32.6%); PAT ₹108.23 Cr (+165%) | AR FY26 CMD letter + MD&A table; Q4 PPT | [V] ×2 | Yes |
+| 33 | Cupid Q1 FY27 | Operating income ₹154.72 Cr (+159%); total income ₹156.98 Cr; EBITDA ₹60.06 Cr (39%); PAT ₹44.14 Cr (+194%); "minimum 10% price increase … across the export portfolio" | Q1 PR (syndicated company release); screener quarters | [V-sec] + [V] | Yes, plus the price-hike detail |
+| 34 | Cupid FY27 guidance | ₹800+ Cr revenue / ₹250+ Cr PAT; Q2 "Total Revenue expected to cross ₹200 Cr" | BSE PR 30-Sep-2026 | [V] | Yes. Note: the PR says "**Total** Revenue", which may include other income |
+| 35 | Cupid medium-term targets | FY28 ₹1,085 Cr; FY29 ₹1,500 Cr | AR FY26 CMD letter | [V] | **No → S5** |
+| 36 | Cupid South Africa allocation | FC 23.4 mn/yr (59% of 40 mn) + MC 0.77 mn boxes × 200 = 153 mn/yr; FC US$8.89 mn (₹79 Cr) + MC US$4.09 mn (₹36 Cr) = **US$12.98 mn (₹115 Cr)**; 2025–30; supplies from Dec-2025 | Cupid PR 4-Nov-2025 (re-read) | [V] | Yes. The "1 bn MC tender total" is **not** in the PR and stays [V-snip] |
+| 37 | Cupid promoter holding | 46.03% (31-Mar-26); 47.69% (Sep-26; Aditya K. Halwasiya 34.71% + Columbia Petro Chem 12.95%) | AR FY26 MD&A; rendered PPT; screener; SAST | [V] | **No → S2** (the conflict disappears) |
+| 38 | Baazar Style investment | 1.01 Cr warrants at ₹328.25 (₹331.53 Cr). Converted: **15 lakh (May-26) + 30 lakh (Oct-26) = 45 lakh**; 56 lakh outstanding. Paid: ₹82.88 Cr (Apr-26, the 25% upfront) + ₹36.93 Cr (May-26) + ≈₹73.86 Cr (Oct-26) [E] ≈ **₹193.7 Cr**; **≈₹137.9 Cr still to pay** [E] | AR FY26 MD&A; BSE 15-Oct-2026 | [V] | Yes, plus the timing |
+| 39 | Cupid valuation (30-Oct-26) | ₹325; m-cap ₹43,641 Cr; P/E 318; book value ₹3.35; 4,70,414 shareholders | screener (re-pulled) | [V] | Yes |
+| 40 | Global peers | **Karex FY6/26:** revenue RM462.4 mn (−7.2%), NP RM291k. **BD FY9/25:** US$21.84 bn (+8.2% reported, +2.9% organic), adjusted operating margin 25.0%. **B. Braun 2025:** €9.4 bn (+5.1% cc), EBITDA €1,219.5 mn (13.0%). Terumo FY3/26: ¥1,131.9 bn (+9.2%), OP ¥176.3 bn [V-snip] | The Star 27-Aug-2026; SEC 8-K Ex-99.1 (6-Nov-2025); bbraun.com PR; Reuters table via search | [V] ×3 + [V-snip] | Yes for Karex and B. Braun. **BD and Terumo are upgraded from [K]** (the figures match the [K] approximations) |
+
+**Count:**
+- **35 of 40 are [V] from primary documents** (company filings, PPTs, transcripts, annual reports, government gazette/DGTR/TradeStat, SEC, CRISIL, screener).
+- Three are [V-sec]: #25, #31 and #33 (which also has a [V] screener leg).
+- Two are search-only: #30, and the Terumo part of #40.
+- Where sources conflict, the order of preference is: the written company filing; then government/regulator data; then the rating agency; then news copy.
+
+**Remaining conflicts the writer must handle:**
+- **(a) Polymed cash conversion cycle.** The MD says "140 days" at Mar- and Jun-26. The Q4 PPT shows a standalone CCC of 215 days; screener's consolidated figure is 335 days. These are three different definitions (the MD's figure probably uses sales-based inventory days). Use the MD's number with the attribution "management says".
+- **(b) CRISIL's own tangible net worth.** It shows two figures in the same rationale (₹3,106 Cr and ₹2,754 Cr at Mar-26). Use the company's ₹3,149 Cr shareholders' funds instead.
+- **(c) Cupid FMCG.** "₹121 Cr consumer business" (AR: condoms, lubricants and personal care sold in India) vs "₹84.26 Cr New FMCG Products". **Both are company figures; the ₹121 Cr is the whole domestic consumer business and the ₹84 Cr is its non-condom FMCG part. This settles §2.4 #3.**
+
+## 4.2 Company deep-dives
+
+### 4.2.1 Poly Medicure (POLYMED · 531768)
+
+**(a) Management-guidance digest — Q1 FY27 earnings call, 10-Aug-2026** (speakers: MD Himanshu Baid; President Strategy & Corporate Development Rahul Gautam). Paraphrased. [V PM-Q1call]
+
+1. **"PolyMed 3.0 / Ascent": double revenue by FY30** (from the FY26 base of ₹1,875 Cr), i.e. ≈18% CAGR over four years.
+   - The mix "would continue at a similar run rate" of **~80% organic / ~20% inorganic**. An analyst framed that as ~14–15% organic plus 3–4% from acquisitions, and the MD agreed it is "the trajectory".
+   - The MD framed 1.0 → 2.0 → 3.0 as: bootstrapped to ~₹700 Cr; the 2021–26 institutional raise (revenue ×2.75 to ₹1,875 Cr); then "Ascent" via high-tech verticals and direct access.
+2. **FY27 guidance maintained after Q1:**
+   - Consolidated ₹2,300–2,400 Cr (including full-year PendraCare and Citieffe), EBITDA 23–25%.
+   - Standalone ₹1,900–2,000 Cr (domestic >20%, international >15%), EBITDA 25–27%. Gautam expects to "close this year with upper end of that guidance range".
+   - Capex ₹200–225 Cr.
+   - Q1 is seasonally the weakest quarter. The price hike taken at the start of the year slowed early-quarter sales, and "we should be able to get to much better numbers in Q2 onwards".
+3. **Margins.**
+   - Q1 standalone gross margin of 71.5% was flattered by price hikes, mix and **inventory gains**. The guide is to "normalise" to **67–69% standalone and ~71–72% consolidated** (the acquired units run higher gross margins).
+   - The EBITDA percentage should hold because revenue rises.
+   - **Long-term margin stance: "keep the margins in the similar range"** while reinvesting for growth; not lower.
+4. **Raw materials and pricing.** Price increases were taken in Q1 to pass through polymer costs. "As crude stays where it is, … we have almost seen that peak off."
+5. **Middle East.** Demand is intact, but "ships are not calling"; product is piling up at ports. When normality returns, the MD expects ME growth of possibly ">20–25%". Logistics costs are up "2, 3 times in the last 6 months" and "will have to come down for India to remain competitive in exports".
+6. **Renal.**
+   - Q1 −3.8% on Chinese duty-free imports via the ASEAN FTA.
+   - The anti-dumping probe (20% injury-margin claim) was raised directly with Health Minister J.P. Nadda; the MD expects action "between now and end of the year".
+   - New renal head: Abhimanyu Hooda.
+   - **FY27 renal growth guide 15–18%, "maybe close to 20%"**. That needs Q2–Q4 renal growth of roughly 21–25% after a −3.8% Q1 [E: FY26 renal ₹187 Cr, Q1 FY26 ₹44.9 Cr].
+7. **Exports.**
+   - Europe is back to the planned 17–18% organic growth on new customer wins; Southeast Asia is strong.
+   - "~25 new products in pipeline for CE marking" within 3–4 months.
+   - US exports only US$3.5–4 mn. On tariffs: "If we have 100% tariffs tomorrow or today night, I don't know."
+8. **Acquisitions.**
+   - Integration is on track. Moving parts of PendraCare and Citieffe production to India "is at the regulatory approval stage".
+   - Cross-selling synergies are not expected before **FY28**, because CDSCO approval is needed to bring EU products into India.
+   - PendraCare is "not growing; in fact … de-growth", owing to its ~20% Middle East exposure. Citieffe grows "mid- to high single digits".
+   - The aspiration is mid-teens growth for both with synergies. No margin-expansion guidance was given.
+9. **Capital deployment of ~₹855 Cr cash:** organic and inorganic; Brazil direct sales (Medyneo, "a very small acquisition"; board funds allocated); technologies in cardiology, oncology and orthopaedics; and the two plants under construction. Asset turns are expected to stay **1.2–1.4×**.
+10. **Plants.** Faridabad–Palwal (orthopaedics, transfusion, extra infusion capacity) "by March '27"; Noida (cardiology) commercial in **Q1 FY28**.
+11. **Debt.** The only standalone debt is a ~₹250 Cr revolving working-capital line. PendraCare has no long-term debt. Citieffe has a ~€9 mn loan, repaying €1.5–2 mn a year.
+12. **Working capital.** "Cash conversion is still in the same level … March 140 days … currently similar range". There is no guidance on improvement, because hard-currency shortages in export markets and longer transit times delay collections.
+13. **Portfolio.** "Our overdependence … in the vascular segment … is now only 50%". The company is adding electronics (dialysis machines, IVL "run on machine"). It is "not ready to launch anything new substantially in the next few years" outside the current therapies. Uncovered TAM includes peripheral vascular, neurology, urology, endosurgery and GI.
+14. **Product claims.** 399 patents; "global patents"; "nothing works on price"; sold in 125 countries.
+
+**Analyst Q&A points worth quoting (5–8):**
+- Bajaj Alternative: how does the company bridge ~₹350–400 Cr of incremental standalone revenue with Q1 at +12%? Answer: Q1 seasonality plus the price hike timing.
+- CWC: what drove India ex-renal growth of +27%? Answer: domestic infusion +20%+, plus cardiology and critical care.
+- BCS Capital (Bharat Shah): the Meril comparison. Answer: Meril has 15 years in cardiology; Polymed started two years ago, and the regulatory pathway is the constraint.
+- Sundaram MF: what is the PendraCare/Citieffe growth? Not disclosed on the call. What is needed for the export organic growth? >15% for the remaining nine months.
+- Dolat: consolidated people and other costs are each ~24% of sales "reflective of the nature of the business" of the acquired units.
+- NAG Analytics: what is the US tariff exposure? Answer: US$3.5–4 mn.
+- KJMC: what are the new-plant timelines? Answer: Palwal Mar-27; Noida Q1 FY28.
+
+**(b) Concall / presentation KPI table — Q1 FY27 vs Q1 FY26** [V PM-Q1call, PM-Q1PPT]
+
+| KPI | Q1 FY26 | Q1 FY27 | YoY | Comment |
+|---|---|---|---|---|
+| Consolidated revenue (₹ Cr) | 403.2 | 525.4 | +30.3% | Acquisitions contributed ₹72.3 Cr |
+| Organic consolidated revenue | 403.2 | 453.1 | +12.4% | — |
+| Standalone revenue | 384.0 | 431.1 | +12.3% | Domestic ₹146.0 Cr (+16.2%); international ₹281.8 Cr (+10%) |
+| Europe (consolidated) | 130.3 [E] | 187.3 | +43.8% (organic +17.6%) | New customer onboarding |
+| RoW (consolidated) | 144.9 [E] | 188.8 | +30.3% (organic +4.0%) | Middle East −32% |
+| Infusion therapy | 233.3 [E] | 259.2 | +11.1% | Domestic infusion +20%+ |
+| Renal | 44.9 | 43.2 | −3.8% | Chinese pricing; anti-dumping probe |
+| Cardiology | 2.9 | 28.6 | ~10× | PendraCare + domestic DES |
+| Orthopaedics (Citieffe) | — | 49.2 | new | — |
+| Others | 119.7 [E] | 141.9 | +18.5% | Critical care, transfusion, etc. |
+| Export incentive | 2.4 | 3.3 | +34.6% | — |
+| Consolidated gross margin | 68.5% [E] | 73.4% | +495 bp | Acquired units' gross margin |
+| Standalone gross margin | — | 71.5% | — | Guided to normalise at 67–69% |
+| Consolidated Operating EBITDA | 107.6 [E] | 126.7 (24.1%) | +17.7% | Within the 23–25% guide |
+| Standalone Operating EBITDA | 101.7 | 120.8 (28.0%) | +18.8% | Standalone employee cost +~29% |
+| Consolidated PAT | 93.1 | 85.3 | −8.4% | D&A +55%, lower other income |
+| Cash (₹ Cr) | — | ~855 | — | "reserve … for strategic initiatives" |
+| Dialysis machines installed | — | ~1,100 | — | ~1,000 at Mar-26; 450 sold in FY26 |
+| PACIFIER DES registry | — | 840+ / 2,000 | — | Full enrolment by end FY27 |
+
+**(c) Five-year history (screener consolidated, ₹ Cr)** [V screener 1-Nov-26]
+
+| FY | Revenue | YoY | OP | OPM | Other income | Depreciation | PAT | EPS (₹) | ROCE | CFO | FCF | Debtor days | CFO/EBITDA |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 922 | +17.5% | 215 | 23% | 40 | 54 | 147 | 15.28 | 17% | 123 | −31 | 82 | 80% |
+| FY23 | 1,115 | +20.9% | 267 | 24% | 38 | 57 | 179 | 18.69 | 18% | 191 | −48 | 77 | 93% |
+| FY24 | 1,375 | +23.3% | 361 | 26% | 60 | 63 | 258 | 26.91 | 24% | 266 | −9 | 72 | 94% |
+| FY25 | 1,669 | +21.4% | 456 | 27% | 94 | 83 | 339 | 33.41 | 18% | 233 | −97 | 76 | 71% |
+| FY26 | 1,875 | +12.3% | 446 | 24% | 119 | 116 | 321 | 31.78 | 12% | 246 | −59 | 103 | 78% |
+| TTM Jun-26 | 1,997 | — | 461 | 23% | 110 | 128 | 313 | 31.09 | 12.5% | — | — | — | — |
+
+- FY22–26 CAGRs: revenue 19.4%, PAT 21.5%, OP 20.0% [E].
+- Five-year cumulative FCF is −₹244 Cr, while CFO totalled ₹1,059 Cr. **All operating cash and more went into capex** [E].
+- Other income rose from 21% of PBT (FY22) to 28% (FY26) [E].
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr)** [V]
+
+| Quarter | Revenue | YoY | OP | OPM | Other income | PAT | PAT YoY |
+|---|---|---|---|---|---|---|---|
+| Sep-24 | 420 | +24.6% | 115 | 27% | 27 | 87 | +40% |
+| Dec-24 | 424 | +24.7% | 114 | 27% | 24 | 85 | +31% |
+| Mar-25 | 441 | +16.7% | 119 | 27% | 27 | 92 | +35% |
+| Jun-25 | 403 | +4.7% | 106 | 26% | 43 | 93 | +26% |
+| Sep-25 | 444 | +5.7% | 115 | 26% | 35 | 92 | +6% |
+| Dec-25 | 494 | +16.5% | 111 | 23% | 21 | 71 | −16% |
+| Mar-26 | 535 | +21.3% | 110 | 21% | 19 | 65 | −29% |
+| Jun-26 | 525 | +30.3% | 125 | 24% | 35 | 85 | −9% |
+
+- Read: four consecutive quarters of falling PAT YoY. OPM troughed at 21% in Q4 FY26 (labour-code one-off, acquisitions consolidated, West Asia war) and recovered to 24% in Q1 FY27.
+- **Q2 FY27 test (5-Nov):** the base is ₹444 Cr revenue / ₹92 Cr PAT. Guidance implies H2-weighted growth; ₹2,300 Cr needs ~₹592 Cr a quarter for Q2–Q4 [E].
+
+**(e) Annual-report findings — FY26 AR (published Oct-2026)** [V PM AR FY26]
+
+1. **Related-party job work with a promoter-linked firm.** *Vitromed Healthcare* ("enterprise over which key management personnel and their relatives" have control) did **₹86.96 Cr of job work** for Polymed in FY26 (₹89.30 Cr in FY25). That is ≈84% of standalone job-work charges (₹104.0 Cr) and ≈5% of standalone revenue [E].
+   - Polymed also **sold ₹22.87 Cr of goods to Vitromed** (₹24.73 Cr) and bought ₹0.51 Cr of goods and services from it.
+   - The AR gives no pricing benchmark beyond "arm's length". **This is the single most material related-party flow and Parts 1–3 missed it.** Treat it as a diligence item, not an accusation.
+2. **Other related parties:**
+   - Rent paid to Jai Polypan Pvt Ltd (promoter company): ₹1.7 lakh.
+   - **CSR paid to the "Jai Chand Lal Hulasi Devi Baid Charitable Trust": ₹2.10 Cr**, about half of the ₹4.08 Cr CSR spend. This is a family trust [E share].
+   - Sales to subsidiaries: P1H Italy ₹14.7 Cr; Ultra Med Egypt ₹6.3 Cr; Poly Health US ₹1.8 Cr. Dividend received from Ultra Med Egypt: ₹3.3 Cr.
+3. **Promoter-family remuneration.**
+   - KMP remuneration totalled **₹47.4 Cr** (FY25 ₹44.2 Cr): MD Himanshu Baid ₹18.1 Cr (₹21.4 Cr), Jt MD Rishi Baid ₹17.6 Cr (₹20.9 Cr), ED Vishal Baid ₹9.3 Cr (new from May-2025), ED Pankaj Gupta ₹0.8 Cr.
+   - Plus ₹4.1 Cr of salaries to three younger Baid family members (senior managers).
+   - **≈14% of standalone PAT goes to KMP remuneration** [E]. The two MDs' pay fell ~15% as profits fell (commission-linked).
+4. **QIP utilisation (₹1,000 Cr, Aug-2024) at 31-Mar-26:** issue expenses ₹14.7 Cr; capex ₹62.0 Cr; **inorganic ₹250.3 Cr**; general corporate purposes ₹188.8 Cr; **still parked in MF/FD/PMS ₹484.3 Cr**. Nearly half the QIP is still earning treasury yield. That is the mechanical source of the ROCE dilution (12% headline vs ~17% on operating capital, §9.2).
+5. **Contingent liabilities and commitments (standalone, Mar-26):**
+   - Customs demand under CESTAT appeal (FY18–22): ₹8.49 Cr.
+   - CGST Gurugram demand: ₹0.32 Cr.
+   - LCs and guarantees: ₹33.0 Cr (₹54.6 Cr).
+   - EPCG duty obligation: ₹8.4 Cr (₹13.7 Cr).
+   - **Capital commitments: ₹142.4 Cr (₹216.4 Cr)**, i.e. the Palwal and Noida plants are mostly funded but not yet complete.
+   - **No material litigation.** Contingent items are <0.5% of net worth [E].
+6. **The subsidiary map changed a lot in FY26:**
+   - New: Risor Holdings BV (29-Aug-2025; 90% vehicle for PendraCare), with Wellinq Holdings, Pendracare Holdings and Welling Medical BV (all 3-Sep-2025); **Medistream SA (Switzerland)** with Citieffe SRL/Inc/De (24-Sep-2025); Polymed Brazil LTDA (no operations); **Himalayan Mineral Waters** (NCLT); **AMPIN C&I Power Two (26% captive-solar JV)**.
+   - Existing units: **Laiyang (China) turnover is shrinking**, ₹11.2 Cr vs ₹13.5 Cr. **P1H Italy ₹105.4 Cr vs ₹73.9 Cr** (+43%). Poly Health Inc (US) only ₹1.9 Cr. Associate Ultra Med Egypt sales ₹124.0 Cr (₹116.5 Cr).
+7. **Board.** 12 directors; Vishal Baid (ED) and Pankaj Kumar Gupta (ED, operations) added; Mukulika Baid stepped down 6-May-2025; Citieffe's Alessandro Balboni is a director. Dividend ₹3.50/share (70%).
+8. **CRISIL (24-Jun-2026) cross-check:**
+   - Infusion was ~53% of sales in FY26 (69% in FY23).
+   - Average bank-limit utilisation 56.8%; current ratio 3.4×.
+   - **Upgrade trigger:** revenue >₹2,200 Cr with a steady 22–24% margin.
+   - **Downgrade trigger:** margin <20% sustained, or a larger-than-expected acquisition.
+   - Named competitors: Baxter, BD, B. Braun, Boston Scientific.
+   - Unit-II Faridabad has been audited by the US FDA.
+9. **DGTR dialyzer notification (June 2026):** "The domestic industry has incurred **financial losses, cash losses and negative return on capital employed** during the period of investigation" (CY2025). **Polymed's dialyzer line is loss-making**, so the anti-dumping duty is about rescuing a sub-scale product. It is not a margin kicker for the whole Renal segment (₹187 Cr), most of which is fistula needles, bloodlines and machines [E].
+   - Final findings normally take 12 months from initiation (extendable to 18) → **~Jun-2027**. Provisional duty is possible earlier [K: AD Rules].
+
+### 4.2.2 Cupid (CUPID · 530843)
+
+**(a) Management-guidance digest.** There is no earnings call to digest: Cupid's last call was for **Q3 FY24 (25-Jan-2024)**, and it has filed no investor presentation since Q4 FY26. Below are management's written statements, in date order.
+
+1. **Q4 FY26 PPT and CMD message (15-May-2026)** [V CU-Q4PPT]:
+   - FY27 target ₹600 Cr "with **net margins above 30%**".
+   - "Targeting ~35% expansion in global footprint over the next year".
+   - "6+ months raw material inventory secured".
+   - "Elevated USD/INR levels supporting export realizations".
+   - Nitrile FC development programme commenced; the segment has been "historically … supplied by a single global manufacturer".
+   - "Made in India with Japanese Quality" collaboration with "one of Asia's oldest condom manufacturers" (unnamed).
+2. **30-Jun-2026 business update:** FY27 raised to **₹660+ Cr / ₹180+ Cr**; Q1 guided ">₹150 Cr" [V-sec, listed in the Q1 PR].
+3. **Q1 FY27 press release (Aug-2026)** [V-sec, syndicated company release]:
+   - Results: operating income ₹154.72 Cr (+159% YoY, +29% QoQ); EBITDA ₹60.06 Cr (39%, +1,127 bp YoY); PAT ₹44.14 Cr (+194%).
+   - Guidance raised to **₹725–750 Cr / ₹210–225 Cr**.
+   - Drivers cited: "**a minimum 10% price increase across the export portfolio**"; favourable USD/INR, with "currency exposure on international investments … hedged".
+   - IVD: "sizeable orders from multiple Indian state governments" in final award stages.
+   - Palava "**on schedule for commissioning during Q2 FY27**", interchangeable dual-polymer lines.
+   - Baazar Style and GII Healthcare "expected to be value accretive over FY27 and beyond".
+   - The only person quoted is CMD Aditya Kumar Halwasiya. The "co-chairman" quoted by Sahi on the Aug guidance is not named in the filings; the AR's Q&A is answered by **Ajay Kumar Halwasiya, Executive Director and the CMD's brother** [V AR]. That is probably the same person [E].
+4. **FY26 Annual Report (AGM notice dated Aug-2026)** [V CU-AR FY26]:
+   - The CMD letter restates FY27 at ₹725–750 Cr / ₹210–225 Cr and adds **"over the medium term we aim for ₹1,085 crore of revenue in FY2028 and ₹1,500 crore in FY2029"**.
+   - Capital-allocation philosophy: "opportunistic, disciplined and value-driven".
+   - The domestic consumer business (condoms, lubricants, personal care) "contributed around ₹121 crore" in FY26.
+   - Baazar Style is expected to add ~₹150 Cr of revenue in FY27, scaling to ₹500 Cr; the retailer has 260+ stores, heading to 500+ in 2–3 years.
+   - Ajay Halwasiya (AR Q&A): Cupid achieved higher volumes with tight cost control. "**Operating at full capacity utilisation** also helps minimise wastage". Raw material is held for "well over six months". Palava will be "India's first facility capable of manufacturing both natural rubber latex and nitrile condoms on dedicated production lines"; latex remains "the overwhelming majority of our production". FY27 priorities: commission Palava "on schedule during FY27"; establish the nitrile FC platform "for regulated global markets"; grow IVD and FMCG.
+   - MD&A risks: input-cost/crude volatility; currency ("a tailwind in the current period but a two-way risk"); **customer/tender concentration**; Palava and nitrile execution; integration of the Baazar and GII investments; regulatory change.
+   - Industry figures in the MD&A: the global condom market grows at a **~8.7% CAGR (FY23–30)**; Asia-Pacific is "roughly half" of global revenue; latex dominates. The female condom market is "~770 million in 2026 → ~1.2 billion by 2030" (Data Bridge, via the company; note the PPT dated the $770 mn to 2024). India IVD is ~US$5.3 bn (2024) → ~US$10.0 bn (2033) (IMARC). India FMCG is ~US$289 bn (2025) → ~US$643 bn (2030) (IBEF).
+5. **30-Sep-2026 business update** [V]:
+   - Q2 FY27 "**Total Revenue** expected to cross ₹200 Cr".
+   - FY27 raised to **₹800+ Cr / ₹250+ Cr**.
+   - 30 lakh Baazar warrants approved for conversion (done 15-Oct).
+   - In-principle approval for an asset-light South African manufacturing venture with a local partner.
+   - **US$5 mn follow-on investment in GII Healthcare Investment Ltd**.
+   - Index inclusions: BSE 'A', NIFTY Smallcap 250, FTSE EM All Cap.
+
+**Arithmetic the writer should show** [E]:
+- **H1 FY27 ≈ ₹355 Cr+** (Q1 ₹154.7 Cr + Q2 >₹200 Cr), about equal to all of FY26.
+- ₹800 Cr needs **H2 ≈ ₹445 Cr, ~₹222 Cr a quarter**, from a plant that management says already runs at full utilisation, with Palava not yet commissioned (S18).
+- So incremental H2 revenue must come from:
+  - (i) price (≥10% on exports);
+  - (ii) FMCG and other products, which do not need dipping capacity (the AR does not say where FMCG is made; likely contract manufacturing — FLAG);
+  - (iii) the Baazar channel;
+  - (iv) Palava volumes once commissioned.
+
+**(b) KPI table — what the company has disclosed** [V CU-Q4PPT, CU-AR, CU-PRs]
+
+| KPI | FY25 | FY26 | Q1 FY27 | Note |
+|---|---|---|---|---|
+| Revenue from operations (₹ Cr) | 183.52 | 357.71 | 154.72 | +94.9% / +159% |
+| Total income (₹ Cr) | ~202 [E] | 391.40 | 156.98 | Q1 other income only ~₹2 Cr |
+| EBITDA (₹ Cr) / margin | 41.7 / 22.7% | 116.70 / 32.6% | 60.06 / 39% | AR: OPM 32.63% vs 22.74% |
+| PAT (₹ Cr) / NPM | 40.89 / 22.3% | 108.23 / 30.3% | 44.14 / 29% | — |
+| Male condoms (₹ Cr) | n.d. | 181.11 (51.6%) | n.d. | — |
+| Female condoms (₹ Cr) | n.d. | 60.72 (17.3%) | n.d. | — |
+| IVD kits & lubricants (₹ Cr) | n.d. | 24.97 (7.1%) | n.d. | CE IVDR: HIV 1&2, HBsAg |
+| New FMCG products (₹ Cr) | n.d. | 84.26 (24.0%) | n.d. | Within a ~₹121 Cr domestic consumer business |
+| Standalone geography: India / outside India (₹ Cr) | 87.04 / 93.58 | 142.86 / 208.13 | n.d. | AR Note 39 |
+| Export countries | 110+ | 125+ | 125+ | — |
+| FMCG reach | — | 1.5 lakh outlets; 2,934 MT stores | 4,000+ MT targeted | — |
+| South Africa allocation | — | 23.4 mn FC + 153 mn MC a year, US$12.98 mn | ongoing | From Dec-2025 |
+| Capacity (pcs/yr) | ~513 mn MC + ~50 mn FC [E from V] | same; "full capacity utilisation" | Palava pending | Planned ~1.25 bn MC / ~125 mn FC |
+| Capex (₹ Cr) | 19.46 | 24.69 | n.d. | AR cash flow (standalone) |
+| CWIP (₹ Cr) | 6.49 | 25.38 | n.d. | Plus capital commitments ₹63.99 Cr at Mar-26 |
+| Inventory (₹ Cr) | 41.67 | 70.04 | n.d. | >6 months of raw-material cover |
+| Receivables (₹ Cr) | 67.03 | 100.79 | n.d. | Doubtful ₹1.53 Cr |
+| Cash & bank (₹ Cr) | 68.57 | 186.45 | n.d. | FY24: ₹39.45 Cr |
+| Borrowings (₹ Cr) | ~19 | 50.98 | n.d. | D/E 0.11× consolidated |
+| Promoter / pledge | 42.51% / n.d. | 46.03% / "reduced to 3.42%" | 46.24% (Jun-26) | Sep-26: 47.69%, pledge nil |
+| Shareholders | 1,23,379 | 2,09,610 | 2,95,432 | Sep-26: 4,70,414 |
+
+**(c) Five-year history (₹ Cr; FY22–23 screener standalone, FY24–26 screener consolidated)** [V screener 1-Nov-26]
+
+| FY | Revenue | YoY | OP | OPM | Other income | PAT | ROCE (standalone) | CFO | FCF | Debtor days | Inventory days |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 133 | −7% | 23 | 17% | 4 | 17 | 17% | 10 | 2 | 84 | 197 |
+| FY23 | 159 | +19.5% | 41 | 26% | 5 | 32 | 26% | 33 | 30 | 59 | 229 |
+| FY24 | 172 | +8.2% | 51 | 30% | 7 | 40 | 22% | 8 | −17 | 102 | 184 |
+| FY25 | 183 | +6.4% | 42 | 23% | 19 | 41 | 17% | −11 | −31 | 134 | 450 |
+| FY26 | 358 | +95.6% | 119 | 33% | 32 | 108 | 34% | 46 | 21 | 103 | 350 |
+| TTM Jun-26 (consolidated) | 453 | — | 160 | 35% | 31 | 137 | 33.9% | — | — | — | — |
+
+- Cumulative FY22–26 FCF is **+₹5 Cr**, on cumulative PAT of ₹238 Cr [E]. Cupid's profits have been converting poorly into cash: working capital, especially inventory, absorbed them. FY26 CFO/EBITDA was 66%.
+- Equity capital went ₹13.42 Cr (FY24) → ₹26.85 Cr (FY25) → ₹134.47 Cr (FY26). The FY26 step is the 4:1 bonus. The FY25 doubling suggests an **earlier 1:1 bonus or a warrant-linked issue**, not verified (FLAG; the Part 1 "1:10 split" note concerns face value).
+
+**(d) Eight-quarter trend (screener consolidated, ₹ Cr)** [V]
+
+| Quarter | Revenue | YoY | OP | OPM | Other income | PAT | PAT YoY |
+|---|---|---|---|---|---|---|---|
+| Sep-24 | 42 | n.c. | 10 | 25% | 6 | 10 | n.c. |
+| Dec-24 | 46 | +15% | 11 | 25% | 4 | 11 | +22% |
+| Mar-25 | 56 | −11% | 13 | 24% | 5 | 12 | −50% |
+| Jun-25 | 60 | +54% | 16 | 28% | 5 | 15 | +88% |
+| Sep-25 | 84 | +100% | 28 | 34% | 6 | 24 | +140% |
+| Dec-25 | 94 | +104% | 34 | 37% | 11 | 33 | +200% |
+| Mar-26 | 120 | +114% | 38 | 31% | 12 | 36 | +200% |
+| Jun-26 | 155 | +158% | 60 | 39% | 2 | 44 | +193% |
+
+- n.c. = not comparable: the consolidated series has no Sep-23 quarter. Mar-25's YoY compares with an exceptional Mar-24 quarter (₹63 Cr revenue, 49% OPM).
+- Read: other income dropped from ₹11–12 Cr a quarter (H2 FY26) to ₹2 Cr in Q1 FY27, as treasury cash moved into Baazar and GII. **Q1 FY27 PAT growth was entirely operating.**
+
+**(e) Annual-report findings — FY26 AR** [V CU-AR FY26]
+
+1. **Related parties: clean.**
+   - The only subsidiary is **Cupid Invesco Ltd (UAE)**, incorporated 18-Nov-2024, ₹0.22 Cr of capital.
+   - Transactions are limited to KMP and director remuneration (CMD ₹1.17 Cr) and sitting fees.
+   - **No royalty, no purchases from promoter entities, no group sales.** Columbia Petro Chem Pvt Ltd (12.95% holder) has no transactions disclosed.
+2. **Segment.** A single reportable segment, "Personal care" (Ind AS 108); the CODM is the CFO. The four product lines are management disclosure only.
+3. **Contingent liabilities.** Bank guarantees ₹6.64 Cr. **Capital commitments ₹63.99 Cr (nil in FY25)** — the unexecuted Palava capex.
+   - Adding CWIP of ₹25.38 Cr and FY25–26 capex of ₹44 Cr implies a **total Palava outlay of ~₹90–130 Cr** [E]. That is modest relative to a 2.5× capacity step, and consistent with an asset-light (leased or partly fitted) build.
+   - Fills part of §H8.
+4. **The preferential warrant issue (EGM 21-Feb-2024).** The utilisation table lists objects of **₹385.22 Cr** [V]:
+   - Capacity and certifications ₹35.00 Cr (₹19.83 Cr used).
+   - **"Strategic foreign acquisitions and/or joint ventures" ₹245.00 Cr (nil used)**.
+   - New foreign subsidiaries ₹8.82 Cr (nil).
+   - Working capital ₹57.78 Cr (fully used).
+   - General corporate purposes ₹38.62 Cr (₹18.69 Cr used).
+   - "No outstanding warrants" at Mar-26.
+   - **The ₹331.5 Cr Baazar Style investment is domestic and is not among the stated objects.** The GII Healthcare units (a foreign fund) and the South African venture would fit the "foreign acquisitions/JV" object. The writer should ask how Baazar is being funded: internal accruals plus treasury, per the timing in S23. Treat it as an open governance question, not a violation.
+5. **Pledge history.** The AR highlights a "promoter share-pledge reduced to 3.42%" during FY26, then nil by Sep-26 (S3).
+6. **Capacity history.** 1996 production start → **2006 expansion from 160 mn to 400 mn units** → 2010 female condoms → 2018–20 large Brazil orders → 2022 IVD → 2023 Halwasiya/Columbia Petro Chem investment and Palava land → 2024 FMCG.
+7. **Board churn.** Three independent directors left between Jan and Mar-2026 (S. N. Chudasama 27-Jan, S. Desai 3-Feb, S. Bhatkal 2-Mar). One joined (B. Prasada Rao, 25-Feb). An independent director (K. P. Yadaw) is proposed at the AGM. The company secretary changed (S. Karmase → H. Chandra). The audit committee was "reconstituted". Worth a line in the governance section.
+8. **Key-ratio explanations (standalone):** current ratio fell 13.30 → 4.67 "due to long-term strategic investment & capex"; interest coverage rose 27.7 → 51.8; inventory turnover 1.83 → 2.65. Inventory of packing material is unusually large (₹91.1 Cr including goods in transit, vs raw materials ₹5.1 Cr — classification FLAG).
+
+**Implied volumes, re-done with the AR's "full utilisation" statement** [E, resolves §H7 partially]:
+- At ~513 mn MC capacity fully used, FY26 male-condom revenue of ₹181.1 Cr implies a **blended ~₹3.5 per piece**.
+  - That sits above the South African tender price (~₹2.4) and is consistent with a mix of tender, OEM, flavoured and retail packs.
+  - **So the Part 1 conflict (600–750 mn implied vs ~480 mn capacity) disappears once realisation is taken at ~₹3.5, not ₹2.4–3.0.**
+- Female condoms: ₹60.7 Cr ÷ ~₹30–34 per unit ≈ 18–20 mn units. That is **below the ~50 mn FC capacity**, so "full utilisation" must refer mainly to the male lines. Alternatively, FC realisations outside South Africa are lower (FLAG).
+- India's HS 4014.10 condom exports were US$87 mn in FY26. Cupid's ₹208 Cr of exports (~US$24 mn, which includes IVD and lubricants) suggests **Cupid is roughly a fifth to a quarter of India's condom exports** [E].
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3.1 India device trade by HS code — TradeStat / Export-Import Data Bank (Dept of Commerce), US$ mn, fetched 1-Nov-2026 [V]
+
+FY = April–March. These are the four "core" chapter-90 device headings. EPCMD's and the ministry's broader basket also includes parts of chapters 30, 39, 40, 84 and 94. That is why the ministry's FY25 export figure (US$4.0 bn) exceeds the core-four total (US$2.3 bn). **Label the basis in every chart.**
+
+| HS | Description (short) | Exports FY25 | Exports FY26 | YoY | Imports FY25 | Imports FY26 | YoY | Top import source FY26 (share) | China imports FY26 (share) |
+|---|---|---|---|---|---|---|---|---|---|
+| 9018 | Medical, surgical, dental, vet instruments (syringes, needles, catheters, cannulae, dialysis apparatus …) | 1,442.0 | 1,500.8 | +4.1% | 2,802.2 | 3,096.8 | +10.5% | USA 679.2 (21.9%) | **549.9 (17.8%)** (#2) |
+| 9019 | Mechano-therapy, oxygen/respiratory apparatus | 27.4 | 28.2 | +2.9% | 285.5 | 340.5 | +19.3% | **China 109.7 (32.2%)** | 109.7 (32.2%) |
+| 9021 | Orthopaedic appliances, implants, stents, hearing aids | 462.7 | 493.2 | +6.6% | 982.3 | 1,050.3 | +6.9% | USA 184.6 (17.6%) | 53.5 (5.1%) |
+| 9022 | X-ray / CT / radiation apparatus | 372.7 | 391.4 | +5.0% | 1,067.6 | 1,356.2 | +27.0% | USA 311.8 (23.0%) | 289.8 (21.4%) (#2) |
+| **Core-4 total** | | **2,304.8** | **2,413.7** | **+4.7%** | **5,137.6** | **5,843.8** | **+13.7%** | — | **1,003.0 (17.2%)**; with HK +165 → **~20%** |
+| 4014.10 | **Condoms** | 65.5 | **87.0** | **+32.7%** | 3.8 | 5.4 | +41.8% | Thailand 3.4 (62.8%) | 1.1 (20.8%) |
+
+**Six- and eight-digit detail relevant to Poly Medicure** (US$ mn) [V]:
+
+| HS | Product | Exports FY25 → FY26 | Top export markets FY26 | Imports FY25 → FY26 | Main import sources FY26 |
+|---|---|---|---|---|---|
+| 9018.31 | Syringes | 57.1 → **69.8 (+22%)** | **USA 12.75 (from 2.05, ×6.2)**, Brazil 7.6, UK 4.3 | 164.0 → 169.5 | Singapore 76.3 (45%), USA 15.8, France 12.9; China only 6.6 |
+| 9018.32 | Tubular metal needles, suture needles | 50.3 → 40.0 (−20%) | Brazil 4.9, Turkey 3.6, USA 3.2 | 83.2 → 83.3 | Singapore 19.6, USA 12.9, Netherlands 12.0; China 4.7 (from 12.7) |
+| 9018.39 | **Catheters, cannulae, other needles** (Polymed's core) | 512.7 → **512.3 (flat)** | USA 51.0, Brazil 47.1, **UAE 21.3 (−20%)** | 376.4 → 397.9 | USA 103.3, Netherlands 39.2, Malaysia 37.1, China 30.5 |
+| 9018.90 | Other instruments and appliances | 478.6 → 497.9 | USA 122.2, Germany 57.0 | 1,170.3 → 1,356.3 (+16%) | USA 346.0, China 239.3 (17.6%), Germany 206.3 |
+| 9018.90.31 | **Dialysis apparatus incl. dialyzers** (the anti-dumping PUC heading) | — | — | 108.2 → 112.4 | Germany 45.8 (40.8%), **China 23.2 (20.7%)**, Japan 16.0, **Malaysia 13.7 (12.2%, +37.5%)**, Hong Kong 6.5 (×7) |
+
+**Reads** [E]:
+1. **India's core-device trade deficit widened in FY26.** Imports grew 13.7% vs exports 4.7%, and the imports/exports ratio rose from 2.2× to 2.4×. Imaging (9022, +27%) and respiratory (9019, +19%) drove the import growth: equipment, not consumables. This is the data behind "70–80% import dependence" for equipment. The consumables side is near-balanced.
+2. **China's share of core imports is ~17% (20% with Hong Kong)** and rising slowly. It is highest in respiratory (32%), imaging (21%) and dialysis apparatus (21%). In syringes (4%) and needles (6%) China is a small supplier; Singapore (MNC hubs) dominates.
+3. **The China+1 dividend shows up in syringes, not cannulae.** India's syringe exports to the US rose six-fold (US$2.05 mn → US$12.75 mn) in the first full year of the 100% US Sec 301 tariff on Chinese syringes. India's catheter/cannula exports (9018.39, Polymed's core heading) were **flat at US$512 mn**, with **UAE −20%** (West Asia war), matching Polymed's Middle East −32%.
+4. **Polymed is a large share of its heading** [E]. Standalone international revenue of ~₹1,080 Cr in FY26 is ≈US$123 mn at ~₹88/$. Not all of it falls under 9018.39, but **Polymed is plausibly 15–25% of India's 9018.39 exports**. Its US exports (US$3.5–4 mn) are ~1% of India's US$316 mn of 9018 exports to the US.
+5. **Dialyzer imports from the two subject countries were ~US$37 mn in FY26** (China + Malaysia; ~US$43 mn with Hong Kong). That is the market an anti-dumping duty would reprice. Malaysian volumes rose 37.5% and Hong Kong's 7×, consistent with AiMeD's "routing" complaint. Germany (Fresenius, B. Braun) is the largest source and is **not** covered by the case.
+
+### 4.3.2 Condom trade series (HS 4014.10, US$ mn) [V TradeStat]
+
+| | FY24 | FY25 | FY26 |
+|---|---|---|---|
+| India condom exports | 89.8 | **65.5 (−27.1%)** | **87.0 (+32.7%)** |
+| of which to South Africa | n.f. | 3.2 | **11.85 (×3.7)** |
+| to China | 6.2 | 6.2 | 8.9 |
+| to USA | 7.6 | 8.1 | 8.6 |
+| to Brazil | n.f. | 5.9 | 7.5 |
+| to Tanzania | n.f. | 1.6 | 7.2 |
+| to Kenya | n.f. | 2.6 | 3.6 |
+| India condom imports | n.f. | 3.8 | 5.4 |
+
+(n.f. = not fetched.)
+
+- **Read:** a V-shape. The **FY25 collapse (−27%) is the USAID freeze year**: Jan-2025 freeze; the GHSC-PSM supply chain stopped. **FY26 recovered to above the FY24 level**, led by South Africa's national tender (Cupid's allocation started Dec-2025) and Tanzania and Kenya (national/Global Fund procurement replacing USAID).
+- The South Africa jump (+US$8.6 mn) is larger than four months of Cupid's US$12.98 mn annual allocation (~US$4.3 mn) [E]. That suggests initial pipeline filling, or other Indian suppliers (HLL) also shipping. Do not attribute all of it to Cupid.
+
+### 4.3.3 Donor condom procurement — USAID GHSC-PSM (the supply chain that was cut) [V USAID FY2023 report, May-2024]
+
+| Item | Value |
+|---|---|
+| FY2023 USAID-approved procurement | **354.8 mn male condoms; 2.6 mn female condoms; 33.8 mn lubricant sachets; 30 countries** |
+| Value trend | FY23 procured value −14% YoY; Africa 85.5% of value |
+| FY2016–23 cumulative value | US$182.1 mn (MC US$138.9 mn; FC US$34.7 mn; lubricants US$8.6 mn), 61 countries |
+| Male-condom suppliers | Four: Chonburi (TH); Surat Thani (TH) + Bangalore (IN); Puducherry (IN) + Virudhunagar (IN); Hat Yai (TH, re-added late FY23) |
+| Female-condom supplier | **One**: a Miami-HQ vendor with its plant in **Balakong, Malaysia** (the FC2 maker); "the sole female condom manufacturer with US FDA 510(k)" |
+| Cost pressure | Specialty-foil MC unit prices rose FY19–23 (latex, silicone oil, aluminium foil, paper, freight) |
+
+- Country evidence of the 2025 cut [V-snip]: Kenya had received ~180 mn condoms a year from the Global Fund and UNFPA, and the supply stopped. USAID supplied 98% of Zimbabwe's condoms and >90% of Liberia's male condoms. UNFPA bought 6.6 mn MC for Liberia in Jul-2025 as a stop-gap.
+- **Insight:** **Cupid (Nashik) was not a USAID supplier.** Its institutional customers are UNFPA, PFSCM/Global Fund and national governments (South Africa). The USAID freeze removed ~355 mn MC and ~2.6 mn FC a year from **other** suppliers' order books (Thai and South-Indian plants; the Malaysian FC2 plant). Some of that demand migrated to national tenders and other donors that buy from Cupid. That explains why Karex shrank (tender sales hit; RM0.29 mn profit) while Cupid doubled [E].
+
+### 4.3.4 India market sizing (single chart, labelled bases) [V PM-Q4PPT slides 27–28; V-sec Rubix]
+
+| Series | 2024 | 2025 | 2027 | 2030 | Source |
+|---|---|---|---|---|---|
+| India medtech market (US$ bn) | 14 | 16 (F) | — | 30 (ambition) | BCG/EY/IBEF via Polymed |
+| India medtech market (US$ bn), alternative | — | 15.2 | — | 50.1 | Rubix (26.9% CAGR, target-like) |
+| Global medtech (US$ bn) | 647 | 682 | 758 | 880+ | BCG via Polymed |
+| India share of global | — | ~2% | — | — | BCG via Polymed |
+| Per-capita medtech spend | — | US$3 (India) vs US$47 (global) | — | — | BCG/EY via Polymed |
+
+**India segment split (2025, BCG/EY):** Electronic equipment **56%**; Disposables & consumables **27%**; IVD **8%**; Implants **7%**; Surgical instruments **2%**.
+- At US$16 bn, disposables and consumables are a **~US$4.3 bn (~₹38,000–41,000 Cr) market** [E] — Polymed's addressable home segment.
+- Polymed's FY26 India revenue of ₹582 Cr is **~1.5% of it** [E].
+
+### 4.3.5 Price-control datapoints [V NPPA gazette]
+
+| Item | FY26 (from 1-Apr-2025) | FY27 (from 1-Apr-2026) | Change |
+|---|---|---|---|
+| Bare-metal stent ceiling (₹/unit, ex-GST) | 10,692.69 | **10,762.15** | +0.65% (WPI) |
+| DES/BVS ceiling (₹/unit, ex-GST) | 38,933.14 | **39,186.03** | +0.65% |
+| Knee-implant ceilings | extended to 15-Nov-2026 | decision due | [V-snip] |
+
+- A DES at ₹39,186 is ≈US$413. Polymed has ~13,000 stents deployed cumulatively, so its stent revenue is at most ~₹50 Cr cumulative [E]. Cardiology revenue is mostly PendraCare's catheters.
+
+### 4.3.6 Global peer financials (upgraded)
+
+| Company | FY | Revenue | Growth | Margin | Other | Tag |
+|---|---|---|---|---|---|---|
+| **BD** | FY9/2025 | **US$21.84 bn** (≈₹2.07 lakh Cr) | +8.2% reported; +2.9% organic | **Adjusted operating 25.0%** (GAAP 11.8%); adjusted GM 54.7% | BD Medical US$11.46 bn; Medication Delivery Solutions (syringes, IV catheters) **US$4.58 bn (+3.3%)**; FY26 guide: low-single-digit growth, adjusted EPS US$14.75–15.05; China volume-based procurement hit MDS | [V SEC 8-K Ex-99.1, 6-Nov-2025] |
+| **B. Braun** | CY2025 | **€9.4 bn** (+2.8% reported; +5.1% cc) | Hospital Care +6.1%; Aesculap +5.4%; **Avitum (dialysis) +2.1%** cc | **EBITDA €1,219.5 mn (13.0%)**; PBT €460.9 mn (4.9%); NP €307.2 mn | R&D €584 mn (6.2%); 66,821 staff; target 5–7% cc growth | [V bbraun.com] |
+| **Terumo** | FY3/2026 | ¥1,131.9 bn (+9.2%) | — | OP ¥176.3 bn (15.6%); adjusted OP ~¥219 bn (~19%) [E] | FY3/27 forecast: sales ¥1.24 tn, OP ¥224.5 bn | [V-snip Reuters table] |
+| **Karex** | FY6/2026 | **RM462.4 mn** (−7.2%) | Q4 revenue −16.2% | **NP RM291k (~0.06%)**; Q4 NP RM3.8 mn (IEEPA refunds, price rises) | "steep declines in humanitarian aid funding"; sees opportunity in "rationalisation of global manufacturing capacity" | [V The Star] |
+| Poly Medicure | FY3/2026 | ₹1,875 Cr (≈US$213 mn at ~₹88 FY-avg) | +12.3% | Operating EBITDA 24.4% | P/E 45.9× | [V] |
+| Cupid | FY3/2026 | ₹358 Cr (≈US$41 mn) | +94.9% | EBITDA 32.6% | P/E 318× | [V] |
+
+- **Read:** Polymed's 24% EBITDA ≈ BD's adjusted operating margin (25%). BD's is after D&A; on a like-for-like basis BD's EBITDA margin is ~30% [K]. Polymed's margin is roughly double B. Braun's 13% EBITDA.
+- B. Braun's dialysis division grew only 2.1% — renal is a slow, price-pressured category globally, not just for Polymed.
+- Multiples were not fetched (no paid data). BD's ~12–14× EV/EBITDA stays [K].
+
+### 4.3.7 Raw-material datapoint [V-sec]
+- **Natural rubber RSS-4 hit a record ₹284.50/kg in Kottayam/Kochi on 13-Oct-2026**, above the international RSS-4 equivalent of ₹282.16/kg. The previous record was ₹284 on 1-Aug-2026. Causes cited: tyre demand and a supply shortage [Onmanorama].
+- Latex-60% for Oct-2026 was **not found**; the Rubber Board site failed (TLS/503). Latex-60% normally trades below RSS-4 per kg of dry rubber [K].
+- Implication: Cupid's input cost is at record highs, which makes its "6+ months raw material cover" and "≥10% export price increase" material to H2 FY27 margins [E].
+
+## 4.4 Gap log (each §H item)
+
+| §H # | Gap | Status | Result / what was tried |
+|---|---|---|---|
+| 1 | FY26 device imports/exports in USD; China share | **Filled** (TradeStat) | Core-4 HS FY26: exports US$2,413.7 mn, imports US$5,843.8 mn; China US$1,003 mn (17.2%; ~20% with HK). The ₹28,106/₹94,664 Cr figures come from an article dated 20-Mar-2026, so they are a partial year (S11). The broad-basket FY25 export figure is US$4,014 mn (ministry). The **broad-basket FY26 total is still not published** in anything fetched. |
+| 2 | HS 4014.10 condom trade | **Filled** (TradeStat) | Exports FY24 US$89.8 mn → FY25 US$65.5 mn → FY26 US$87.0 mn; imports US$5.4 mn; South Africa US$11.85 mn (§4.3.2) |
+| 3 | PLI disbursement FY26; 31 → 27 discrepancy | **Partly filled** | Cumulative ₹133.95 Cr (Jun-2025) → ₹266.64 Cr (LS 24-Jul-2026) ⇒ ~₹133 Cr in FY26 [E]. The 31 → 27 drop is not explained in the replies (withdrawals presumed). The eparlib PDF fetch failed (connection reset). |
+| 4 | Global condom market size | **Still open (partly)** | No fetched primary figure. The Cupid AR (MD&A) gives an ~8.7% CAGR (FY23–30), APAC ~half, but **no size**. The female-condom figure (US$770 mn → US$1.2 bn by 2030) is company-cited (Data Bridge). The ~US$11–12 bn remains [K]. Tried: AR MD&A; did not use paid research. |
+| 5 | Latex-60% price Oct-2026 | **Still open** | RSS-4 record ₹284.50/kg (13-Oct-2026) [V-sec]. The Rubber Board site failed (TLS error, then HTTP 503). Latex-60% not found. |
+| 6 | BD/Terumo financials and multiples | **Filled (financials); multiples open** | BD FY9/25 from the SEC 8-K [V]; Terumo FY3/26 [V-snip]; B. Braun [V]. Multiples need paid data; BD ~12–14× EV/EBITDA stays [K]. |
+| 7 | Cupid capacity utilisation and volumes | **Mostly filled** | The AR says "operating at full capacity utilisation"; existing ≈513 mn MC / 50 mn FC [E from the 1.5× statement]; 2006 capacity 160 → 400 mn. A blended ~₹3.5/pc reconciles male-condom revenue with capacity. Female-condom volumes stay inferred (~18–20 mn). Volumes are not disclosed. |
+| 8 | Palava capex; Baazar conversion funding | **Mostly filled** | Capital commitments ₹63.99 Cr + CWIP ₹25.38 Cr + capex FY25–26 ₹44 Cr ⇒ Palava ~₹90–130 Cr [E]. Baazar timing: ₹82.88 Cr (Apr-26), ₹36.93 Cr (May-26), ~₹73.9 Cr (Oct-26). Funded from Mar-26 cash (₹186 Cr) plus H1 accruals; the preferential-issue objects do not include Baazar (§4.2.2(e)4). **The Sep-26 cash balance is unknown until Q2 results.** |
+| 9 | Cupid promoter holding at Mar-26 | **Filled** | 46.03% (the PPT pie was misread) (S2) |
+| 10 | Polymed ₹33.2 Cr NCLT target | **Filled** | Himalayan Mineral Waters Pvt Ltd (S8) |
+| 11 | Polymed 2024 promoter jump | **Filled** | Ezekiel Global (12.88%) reclassified via the Jai Polypan amalgamation (S9) |
+| 12 | India market segment split | **Filled** | 56 / 27 / 8 / 7 / 2 (S13) |
+| 13 | HMD / HLL / Meril / Translumina data | **Partly filled (HMD); others open** | HMD: >1 bn AD syringes a year (2021); a 2.5 → 3 bn plan; "8–10 bn" dropped (S14). HLL, Meril and Translumina: not fetched (budget). Keep [K] labels and do not quote numbers. |
+| 14 | Device export-promotion scheme 2025–26 | **Filled (negative)** | No dedicated device export scheme found. What exists: the EPCMD (under DoP, HQ YEIDA) and an EPCMD–MSME MoU (Jul-2026) easing first-time exporter registration costs; the ₹500 Cr Strengthening Scheme (8-Nov-2024) with a promotion sub-scheme; PLI export sales of ₹5,002 Cr to Mar-25. The general "Export Promotion Mission" outlay was not verified. |
+| 15 | Polymed Q2 concall date | **Filled** | Thu 5-Nov-2026, 17:00 IST (S10) |
+| Extra | §2.4 #3 Cupid FMCG definition | **Filled** | ₹121 Cr = the whole domestic consumer business; ₹84 Cr = new FMCG (§4.1 note c) |
+| Extra | §2.4 #8 Polymed CCC | **Still open** | The MD repeats "140 days" (Mar and Jun-26); the basis is not reconciled with the PPT's 215 days |
+| Extra | Cupid "co-chairman" name | **Partly filled** | Ajay Kumar Halwasiya (ED, brother) is the likely spokesman; filings never use "co-chairman" |
+| Extra | Cupid's Japanese collaborator | **Still open** | AR/PPT: "one of Asia's oldest condom manufacturers", unnamed |
+| Extra | GII Healthcare Investment Ltd: nature and related-party status | **Partly filled** | FY26: "investments in units" ₹60.79 Cr (2,00,140 units); FY27 follow-on US$5 mn. Not a disclosed related party. The fund's managers and domicile are not disclosed (FLAG). |
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### 4.5.1 Insights (what an expert would add)
+
+1. **Polymed's anti-dumping case protects a loss-making line, not the Renal segment's margin.**
+   - DGTR's initiation records that the domestic dialyzer industry (Polymed, plus Nipro as a 100% EOU) "incurred financial losses, cash losses and negative return on capital employed" in CY2025.
+   - Dialyzer imports from China and Malaysia are only ~US$37 mn a year. Germany, the largest source at US$46 mn, is outside the case.
+   - So a duty helps Polymed's dialyzer volumes but is **not a group-level margin event**. Expect findings around mid-2027.
+2. **The biggest related-party flow at Polymed is ₹87 Cr of job work given to Vitromed Healthcare**, an enterprise controlled by KMP and relatives. That is ~84% of all standalone job-work charges and ~5% of revenue. Add the ₹47 Cr of KMP pay (~14% of standalone PAT) and the family trust receiving ~half of CSR.
+   - None of this is unusual for an Indian family-run mid-cap, but **Parts 1–3 described Polymed as governance-clean by omission.** The writer should present it neutrally in the governance box.
+3. **Polymed's free float was smaller than it looked before Jun-2024.** A 12.88% holder classified as "public" (Ezekiel Global) turned out, after an NCLT-sanctioned amalgamation, to sit inside the promoter group. Today the public plus retail float is only ~16%. FIIs have fallen from 14.1% to 5.4% since Dec-23. That combination (thin float, falling FII ownership, rising DII) helps explain the stock's derating and volatility.
+4. **About half of Polymed's ₹1,000 Cr QIP (₹484 Cr) was still parked in funds and deposits at Mar-26.** The 12% headline ROCE is a capital-deployment-timing story more than an operating story.
+   - CRISIL (AA-/Positive) sets the bar: revenue >₹2,200 Cr at a 22–24% margin.
+   - Watch Q2 FY27 for whether the parked cash moves into M&A. The MD named cardiology, oncology and orthopaedics technologies, plus Brazil.
+5. **China+1 is visible in India's trade data, but in syringes, not in Polymed's cannulae.**
+   - India's syringe exports to the US went ×6 (US$2 mn → US$12.8 mn) in FY26.
+   - India's catheter/cannula exports (HS 9018.39) were flat at US$512 mn, with the UAE −20%.
+   - Polymed sells IV cannulae, not commodity syringes. Its own US base is tiny, so it is **not the listed beneficiary of the syringe tariff**. HMD (unlisted) and BD India are.
+6. **The condom export V-shape explains the Cupid–Karex divergence.**
+   - India's condom exports fell 27% in FY25 (the USAID freeze) and rebounded 33% in FY26 to above the FY24 level, led by South Africa, Tanzania and Kenya (national/Global Fund buying).
+   - USAID's FY2023 condom suppliers were Thai and two other Indian plants (Bangalore; Puducherry/Virudhunagar), plus the Malaysian FC2 plant for female condoms. **Cupid was not among them.**
+   - So Cupid lost little in the freeze and gained as buyers diversified. Karex, a tender-heavy supplier, lost.
+7. **Cupid's FY27 growth must come from price and non-dipping products until Palava runs.**
+   - Management says the existing plant runs at "full capacity utilisation", and Palava has slipped from "Q2 FY27" to "imminent".
+   - So the ~₹445 Cr needed in H2 FY27 for the ₹800 Cr guide relies on:
+     - the ≥10% export price increase;
+     - FMCG and personal-care products, whose manufacturing source is undisclosed (likely contract manufacturing);
+     - the Baazar Style channel, its own investee.
+   - That raises the **arm's-length / channel-stuffing question** for revenue booked through Baazar Style. The writer should ask it, not assert it.
+8. **Cupid's capital outside the core (~₹440 Cr committed) now roughly equals its FY26 net worth (₹451 Cr).**
+   - Baazar Style ₹331.5 Cr, of which ~₹194 Cr paid by mid-Oct.
+   - GII Healthcare ₹60.8 Cr plus US$5 mn (~₹47 Cr).
+   - The 2024 preferential issue earmarked ₹245 Cr for *foreign* acquisitions and JVs; Baazar is domestic and not a stated object.
+   - Treasury income fell from ₹11–12 Cr a quarter to ₹2 Cr in Q1 FY27. **From FY27, Cupid's P&L loses its other-income cushion** (24% of FY26 PBT). Its balance sheet carries a listed-retailer equity stake whose mark-to-market (FVOCI or FVTPL) can swing reported equity.
+
+### 4.5.2 New primer issues (append to primer-issues.md)
+
+#### From Medical Devices deep research (2026-11-01, medical-devices-industry.md §4.5.2)
+
+**poly-medicure.html**
+- **NCLT acquisition omitted.** Add: Polymed acquired **Himalayan Mineral Waters Pvt Ltd** through an IBC resolution plan (₹33.15 Cr cash, 100%; NCLT Allahabad 12-Aug-2025, upheld by NCLAT 19-Mar-2026). The target owns a factory on 2.717 ha adjacent to Polymed's Haridwar plant and 10.67 ha of land at Bharuch, Gujarat. It is the "₹33.2 Cr advance … through NCLT" in the FY26 cash flow.
+- **Promoter-holding history.** If the primer mentions the promoter stake rising in 2024, explain it: it was the **reclassification of Ezekiel Global Business Solutions LLP (12.88%) into the promoter group** via an NCLT-sanctioned amalgamation (26-Jun-2024), not a purchase or warrant conversion. The Aug-2024 QIP then diluted 66.0% → 62.6%.
+- **Governance and related parties are missing.** Add a short neutral note:
+  - **Vitromed Healthcare** (KMP-controlled) did ₹87 Cr of job work for Polymed in FY26 and bought ₹23 Cr of goods.
+  - KMP remuneration was ₹47.4 Cr (MD ₹18.1 Cr, Jt MD ₹17.6 Cr).
+  - About half of CSR went to a Baid family trust.
+  - Source: AR FY26 Note 40.
+- **Dialyzer anti-dumping context.** If the primer (or its refresh) cites the probe as a renal-margin catalyst, qualify it:
+  - DGTR's initiation (June 2026; POI CY2025) records that the domestic dialyzer industry was **loss-making**.
+  - The subject imports (China and Malaysia) are only ~US$37 mn a year.
+  - Findings are due ~mid-2027.
+- **Credit rating.** Add **CRISIL AA-/Positive (outlook raised 24-Jun-2026)**, with the upgrade trigger of revenue >₹2,200 Cr at a 22–24% margin.
+- **QIP deployment.** "₹1,000 Cr QIP" should add that **~₹484 Cr was still parked in MF/FD/PMS at Mar-26** (inorganic ₹250 Cr, capex ₹62 Cr, GCP ₹189 Cr used).
+- **Q2 FY27 date.** Earnings call **5-Nov-2026, 17:00 IST** (with the board meeting).
+- **IPO detail.** If the primer says "IPO 1997 / ₹2.65 Cr" (as the MD said on the call), use the presentation's **1996, ₹55 lakh**.
+- **Guidance tone.** FY27 guidance was maintained on 10-Aug. CRISIL's independent expectation (+20–22%, ≈₹2,250–2,290 Cr) sits **just below** the ₹2,300 Cr floor.
+
+**cupid.html**
+- **Pledge sentence.** Do not simply delete it. Reword: "a promoter pledge existed in FY26 and was **reduced to ~3.4% by Mar-2026** (AR FY26); the Sep-2026 SAST shows **nil** encumbrance."
+- **Promoter holding.** Use **46.03% (Mar-26) → 47.69% (Sep-26)**. Part 1's "53.97% conflict" was a misread pie; 53.97% is the public holding.
+- **Guidance and targets.** Medium-term targets are now **₹1,085 Cr (FY28) and ₹1,500 Cr (FY29)** (AR FY26 CMD letter), replacing ₹875 Cr / ₹1,150 Cr. FY27 is ₹800+ Cr / ₹250+ Cr (30-Sep). The guidance moved four times in 2026: 600 → 660+ → 725–750 → 800+.
+- **No earnings calls.** Note that Cupid **has not hosted an earnings call since Jan-2024**. Guidance comes only through press releases and business updates, which is a disclosure-quality point for a ₹43,600 Cr company.
+- **Capacity.** Add that management describes the Nashik/Sinnar plant as running at "**full capacity utilisation**". Palava commissioning slipped from "Q2 FY27" (Aug PR) to "imminent" (30-Sep). Existing capacity ≈ 0.51 bn male + 50 mn female; planned 1.25 bn + 125 mn.
+- **Capital allocation.**
+  - The ₹74.65 Cr of non-current investments at Mar-26 is **mainly GII Healthcare Fund units (₹60.8 Cr)**, not Baazar Style.
+  - Baazar payments were ₹82.88 Cr (Apr-26) + ₹36.93 Cr (May-26) + ~₹74 Cr (Oct-26); ~₹138 Cr remains.
+  - The 2024 preferential-issue objects allotted ₹245 Cr to *foreign* acquisitions/JVs (unused at Mar-26). Baazar is not an object.
+- **Board churn.** Three independent directors resigned in Jan–Mar 2026; the company secretary changed; the audit committee was reconstituted (AR FY26).
+- **"Debt-free" wording.** The AR calls Cupid debt-free, but consolidated borrowings were ₹51 Cr at Mar-26 (D/E 0.11×). The primer should say "net cash" (₹135 Cr at Mar-26) instead.
+- **Industry context.** Add India's condom-export V-shape (US$90 mn FY24 → US$66 mn FY25 → US$87 mn FY26, TradeStat), and that Cupid was **not** a USAID supplier. That explains why it grew while Karex shrank.
+
+**Sector / sub-sector page (if one exists)**
+- Stent ceilings: update to **₹10,762.15 (BMS) / ₹39,186.03 (DES) from 1-Apr-2026**.
+- Do not cite the "FY26 ₹28,106 Cr exports / ₹94,664 Cr imports" figures. Use TradeStat core-HS FY26 (US$2.41 bn / US$5.84 bn) or the ministry's FY25 broad basket (US$4.0 bn exports).
+
+### 4.5.3 Part 4 source URLs (fetched 1-Nov-2026)
+- Polymed Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96482027-248b-493e-9ff3-d063ab591826.pdf
+- Polymed Q2 FY27 call intimation (31-Oct-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35c5bd0e-ba1e-41ea-a9d3-fe1b9d6ab63d.pdf
+- Polymed AR FY26: https://investors.polymedicure.com/wp-content/uploads/2026/10/Annual-Report-2025-26.pdf
+- Polymed NCLT filing (20-Aug-2025): https://nsearchives.nseindia.com/corporate/POLYMED_20082025174520_INTIMATION_ACQUISITION_REG30.pdf
+- Jai Polypan SAST (28-Jun-2024): https://www.bseindia.com/xml-data/corpfiling/AttachHis/4DECE3CB_1493_4D15_859F_957F34934BDE_180233.pdf
+- CRISIL Polymed (24-Jun-2026): https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/PolyMedicureLimited_June%2024_%202026_RR_398158.html
+- DGTR dialyzer initiation (copy): https://worldtradescanner.com/Initiation%20Notification%20Dialyzer%20English.pdf
+- Cupid AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/0927fd10-08b1-4301-9900-86f01823d68a.pdf
+- Cupid Q1 FY27 PR (syndicated): https://thedailyguardian.com/business/cupid-limited-delivers-strong-q1-fy27-performance-with-159-yoy-operating-income-growth-194-yoy-net-profit-growth-746867/
+- TradeStat EIDB (form-driven; HS 9018/9019/9021/9022/401410/901831/901832/901839/901890/90189031, FY2025-26 and FY2024-25): https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_export and …_import
+- NPPA stent order S.O. 1587(E): https://advocategandhi.com/wp-content/uploads/2026/03/Department-of-Pharmaceuticals-%E2%80%93-NPPA-Order-on-Coronary-Stent-Price-Revision.pdf
+- USAID GHSC-PSM FY2023 condoms report: https://ghsupplychain.org/sites/default/files/2024-06/2023%20Comprehensive%20Report%20on%20Condoms%20and%20Lubricants_May2024.pdf
+- BD FY2025 8-K: https://www.sec.gov/Archives/edgar/data/10795/000162828025049835/ex99109302025.htm
+- B. Braun FY2025: https://www.bbraun.com/en/about-us/media/press-releases/fiscal-year-2025-b-braun-meets-targets-and-drives-innovation.html
+- Karex FY2026: https://www.thestar.com.my/business/business-news/2026/08/27/karex-swings-back-to-profit-in-4q-declares-05-sen-dividend
+- India FY26 trade article (dated 20-Mar-2026): https://indiaseatradenews.com/indias-medical-device-imports-nearly-triple-exports-in-fy26/
+- Device exports FY19–25 and parks (ministry via news): https://www.digitalhealthnews.com/medical-devices-exports-surge-88-in-six-years-backed-by-govt-schemes
+- Rubber price record: https://www.onmanorama.com/news/business/2026/10/13/rubber-price-in-kerala-hits-record-high-domestic-rates-top-global-market.html
+
+*End of Part 4.*
+
+---
+
+# PART 5 — Orchestrator re-check (2026-11-01)
+
+Every Part 3 aggregate was re-added from the company rows (screener consolidated; reported PAT basis), with no arithmetic errors found:
+- FY26 revenue 1,875 + 358 = 2,233; FY25 1,669 + 183 = 1,852 → +20.6%. OP 446 + 119 = 565 → OPM 25.3%. PAT 321 + 108 = 429; FY25 PAT 339 + 41 = 380 → +12.9%.
+- M-cap 14,692 + 43,641 = 58,333 → aggregate P/E 58,333 ÷ 429 = 136.0×; P/S 26.1×. Polymed alone: 14,692 ÷ 321 = 45.8× (screener's TTM P/E is 45.9×; state the basis when quoting).
+- Q1 FY27 revenue 525 + 155 = 680 vs 403 + 60 = 463 (+46.9%); OP 125 + 60 = 185 vs 106 + 16 = 122; PAT 85 + 44 = 129 vs 93 + 15 = 108 (+19.4%).
+- Company-basis net cash (Mar-26): 500.6 + 135.5 = 636.1.
+- Part 4 Supersedes do not change any summed figure. S2 (Cupid promoter 46.03% at Mar-26, 47.69% at Sep-26), S7 (Cupid D/E 0.11×) and S23 (Cupid Sep-26 net cash, estimated near zero, unknown until Q2) are balance-sheet or ownership notes only. S1 (stent ceilings from 1-Apr-2026) replaces the §7.2 prices.
+- Cupid's FY26 growth: use the company figure of +94.9%. Screener's rounded basis gives +95.1–95.6%.
+- Polymed guidance has two bases. Both are valid; label each: consolidated ₹2,300–2,400 Cr at 23–25% EBITDA (Part 2) and standalone ₹1,900–2,000 Cr at 25–27% (Part 4 §4.2.1).
