@@ -957,3 +957,730 @@ No "combined" row is needed (single member).
 - SpiceJet salary/fleet (People Matters / FPJ, 2026): https://www.peoplematters.in/news/business/spicejet-pilots-await-months-of-pay-as-airline-seeks-emergency-funding-50205 [snippet]
 
 *End of dossier.*
+
+---
+
+# PART 4 — Deep-research supplement (2026-11-01)
+
+Second, primary-source pass on Parts 1–3. **Where Part 4 conflicts with Parts 1–3, Part 4 wins** (see the Supersedes table, §4.0). For stall safety this part was appended in chunks, so the sections appear in this order: **4.2 (IndiGo company pack) → 4.2b (reference peers) → 4.3 (industry data) → 4.0 (Supersedes) → 4.1 (verification table) → 4.4 (gap log) → 4.5 (new insights and primer issues)**. Section numbers follow the standing brief.
+
+**What was fetched this session (primary unless marked)**
+- **IndiGo documents.** These were downloaded from BSE as PDFs and read in full text:
+  - Q2 FY27 board outcome, press release and investor presentation (29-Oct-2026)
+  - Q1 FY27 presentation and call transcript (call 23-Jul-2026)
+  - Q4 FY26 presentation
+  - Q3 FY26 call transcript (22-Jan-2026)
+  - Annual Report 2025-26 (21,000 lines of text; read: MD&A, the five-year highlights, notes 31 (FX risk), 33 (contingent liabilities), 34 (commitments), 37 (related parties) and 40 (P&W/IAE compensation), the remuneration annexure and the auditor's report)
+  - The URLs are the ones listed in §3.5. The BSE `AnnPdfOpen.aspx?Pname=` links redirect to `https://www.bseindia.com/xml-data/corpfiling/AttachLive/<same-id>.pdf`.
+- **Screener.** Consolidated pages for INDIGO and SPICEJET, re-fetched 1-Nov-2026 (prices as of the 30-Oct close).
+- **IOCL ATF price pages.** The current-price page plus the "previous prices" archives for domestic airlines (₹/kl) and for domestic airlines on international runs (US$/kl).
+- **Other primary pages.** The ICRA airline half-yearly update (27-Aug-2026) and Akasa Air's FY26 release (via Asian Aviation, which carries the release text).
+- **Secondary pages, each fetched in full.** These are used where the primary source is blocked:
+  - Air India group: Outlook Business on SIA's FY26 disclosure (15-May-2026)
+  - Akasa's FY26 P&L: Lapaas Voice citing Mint (19-Oct-2026)
+  - DGCA data via Swarajya (Sep-2026) and Devdiscourse/PTI (Mar-2026)
+  - ATF: Indian Aviation News (1-Oct-2026) and Social News XYZ/IANS (1-Nov-2026)
+  - Peer market caps: StockAnalysis (30-Oct-2026)
+- **Blocked or unavailable.**
+  - The DGCA portal (JavaScript-only; no PDF reachable).
+  - The BSE announcements API (bot check). The **Q2 FY27 call transcript therefore could not be located**. It is normally filed about 5 working days after the call, so it is due around 5-Nov-2026.
+  - Business Standard and The Statesman (403).
+  - The akasaair.com newsroom (403).
+- **Tags.** [V] means fetched this session from the named page. [V-sec] means a fetched secondary page that reports a primary disclosure. [V-snip] means a search snippet only. [E] means arithmetic. All other tags are as in Parts 1–3.
+
+## 4.2 InterGlobe Aviation (IndiGo) — primary-document pack
+
+### 4.2.1 Management-commentary digest (paraphrased; source and date per line)
+
+**Source status.** The Q2 FY27 call took place on 29-Oct-2026, but its transcript was **not obtainable**. The digest therefore combines:
+- the **Q2 FY27 press release and presentation (29-Oct-2026)**, which are the primary sources for the quarter
+- the **Q1 FY27 transcript (23-Jul-2026)**, the latest primary guidance in management's own words
+- the **Q3 FY26 transcript (22-Jan-2026)** for the FX and hedging policy
+
+The Q2 call remarks reported in the press ("low single digit" FY27 capacity; FY28 "mid-teens" under review; widebody withdrawal) remain **[V-snip]** until the transcript is filed.
+
+| # | Topic | What management said (paraphrase) | Source / date | Tag |
+|---|---|---|---|---|
+| 1 | **Near-term capacity** | Q3 FY27 ASKs are expected to grow "by early single digits" YoY. Q2 FY27 came in at −1.0% after a guided "flattish". | Q2 FY27 PR, 29-Oct-2026; Q1 call, 23-Jul-2026 | [V] |
+| 2 | **FY27 capacity** | CFO: "holding to the guidance that we gave at the analyst meet … single digits", after it had already been "tapered down". | Q1 call, 23-Jul-2026 | [V] |
+| 3 | **FY28–FY30 capacity** | CFO: "we still hold to the mid-teens … from FY2028 to FY2030 … early double-digit to mid-teens". The analyst meet target is **~300 bn ASK by FY30** (vs 172.4 bn in FY26, i.e. ~15% CAGR). | Q1 call, 23-Jul-2026 | [V] |
+| 4 | **International mix** | Still guiding to **40% of ASK by 2030**. International "touched close to 33%" of capacity in Q1 FY27. XLR and widebody deliveries are "on track". | Q1 call | [V] |
+| 5 | **Pricing / PRASK** | Q2 FY27 PRASK guided at ">25%" YoY growth. The actual yield rise was +34.3%, so the outcome beat guidance. Post-COVID yields are structurally **40–45% above pre-COVID**. | Q1 call; Q2 PPT | [V] |
+| 6 | **Fuel** | Q1 FY27: Brent +~50% YoY, Singapore jet +~120% (SingJet/MOPAG "close to 180" $/bbl at the peak). The government/PSU-OMC cap on domestic ATF ran for April, May and 1–8 June. International flying paid market prices. Fuel CASK rose ~80% YoY in Q1. | Q1 call | [V] |
+| 7 | **Cost actions** | Not flying the older A320ceos "wherever commercially appropriate"; tighter discretionary spend; **senior-level increments deferred**. CASK ex-fuel ex-forex is up because of the rupee (>11%), lower utilisation and contractual escalators. | Q1 call | [V] |
+| 8 | **Damp leases** | "We've returned most of the damp leases"; surge capacity via damp leases "we'll assess in Q3". Damp leases went **20 (Mar-26) → 7 (Jun-26) → 5 (Sep-26)**, all 5 being B787s. | Q1 call; Q1/Q2 PPT | [V] |
+| 9 | **Middle East** | Capacity was back to "close to 90, 95%" of pre-war by end-June and "north of 90%" in late July. | Q1 call | [V] |
+| 10 | **FX exposure** | The US$ exposure is "8 billion, 9 billion" (Jul-2026). In Jan-2026 it was "close to $10 billion, largely … aircraft … [and] maintenance obligation". A 10-paise quarter-end move produced only **~₹80 Cr** of MTM loss in Q1 FY27. | Q1 call; Q3 FY26 call | [V] |
+| 11 | **Hedging** | The hedge programme was scaled from **US$1 bn to US$3 bn**, with tenor extended beyond the earlier 12 months. The policy uses forwards of 1–12 months as economic hedges, without hedge accounting. Unencumbered owned aircraft and the GIFT City entity's cash are also used as natural offsets. | Q3 FY26 call, 22-Jan-2026; AR FY26 accounting policy | [V] |
+| 12 | **Engines** | MoU with **CFM International for >1,000 LEAP-1A engines** for future deliveries, which also supports an engine MRO and long-term material services. | Q1 call (Rahul Bhatia) | [V] |
+| 13 | **Fleet strategy** | "The domestic and short-haul business will remain the heart of IndiGo", with the A320/A321 family "central"; international expansion should be "fit-for-purpose". | Q1 call (Bhatia) | [V] |
+| 14 | **Ancillaries** | "Lite Fare" (no check-in bag) was introduced in Q1 FY27. BluChip has a tie-up with Accor ALL. SITA OptiClimb (fuel optimisation) is under trial. | Q1 call | [V] |
+| 15 | **Q2 tone (CEO Walsh)** | The "seasonally soft September quarter saw exceptionally elevated fuel costs and continued geopolitical turmoil … prudent capacity reduction and yield management … only partially offsetting the higher costs". Priorities are "safe and reliable operations, rigorous cost discipline, and disciplined growth". | Q2 FY27 PR | [V] |
+| 16 | **FY27 "low single digit", FY28 "under review", widebody withdrawal** | Reported in the press from the 29-Oct call. Not confirmable in a primary document this session. | press | [V-snip] |
+| 17 | **FY26 unit-cost guidance (historical)** | CASK ex-fuel ex-forex was guided up "mid-single digit" for FY26. The outcome was +3.8% (₹2.89 → ₹3.00). | Q3 FY26 call; Q4 PPT | [V] |
+| 18 | **Deliveries** | In CY2025 IndiGo received 57 aircraft from its original order book (55 A320 family, 2 ATR). It was the largest recipient of Airbus aircraft for a second year (~7% of Airbus deliveries). In Q1 FY27, 13 inductions all went through the GIFT City entity. | Q3 FY26 call; Q1 FY27 call | [V] |
+
+**Analyst Q&A — the points that matter (Q1 FY27 call, 23-Jul-2026) [V]**
+1. **Yield vs cost.** In Q1, yield rose ~21% while costs rose "north of 30%" — the gap behind the loss. Q2's capacity moderation was meant to push yields further, and they rose 34.3%.
+2. **Full-year capacity.** FY27 single-digit capacity guidance was held despite a weak Q1 and a flat Q2. The mid-teens path from FY28 was reaffirmed.
+3. **Supplementary rentals.** These rose ~11% YoY because the rentals are in dollars and carry annual escalators. Q4 FY26 had been flattered by releases of redelivery provisions, so Q1 is the "normalised" run-rate.
+4. **Employee cost +11% YoY.** This reflects gratuity at a higher run-rate after the labour codes, increments for part of the staff, and headcount growth.
+5. **Cash forex loss.** The "INR80 crores" in Q1 is quarter-end MTM, not a cash cost. Exposure is "8 billion, 9 billion" dollars.
+6. **Spread.** The CFO "can't give you a guidance on the spread right now".
+7. **ATF pass-through.** By late June, domestic prices "had come down below the cap levels", which explains why Q2 fuel CASK (₹2.44) came in below Q1's (₹2.49) despite the cap ending on 8-Jun.
+
+### 4.2.2 Concall / presentation KPI table — Q2 FY27 vs Q2 FY26 (INR million in the source; ₹ Cr here) [V Q2 FY27 PPT/PR]
+
+| KPI | Q2 FY27 | Q2 FY26 | Change |
+|---|---|---|---|
+| ASK (bn) | 40.8 (40,797 mn) | 41.2 (41,220 mn) | −1.0% |
+| RPK (bn) | 32.8 | 34.0 | −3.7% |
+| Load factor | 80.3% | 82.5% | −2.2 pts |
+| Passengers (mn) | 27.5 | 28.8 | −4.7% |
+| Yield (₹/RPK) | 6.30 | 4.69 | +34.3% |
+| Revenue from operations | 23,364 | 18,555 | +25.9% |
+| — passenger ticket revenue | 20,652 | ~15,973 [E] | +29.3% |
+| — ancillary revenue | 2,481 | ~2,141 [E] | +15.9% |
+| Other income | 948 | 1,044 | −9.2% |
+| Finance income (netted in RASK/CASK) | 822 | 829 | |
+| Total income | 24,312 | 19,600 | +24.0% |
+| RASK (₹) | 5.76 | 4.55 | +26.4% |
+| Fuel | 9,967 | 5,962 | +67.2% |
+| Forex loss (gross, in expenses) | 1,333 | 2,892 | −53.9% |
+| Forex in EBITDAR (net of hedge gain ₹178 Cr / ₹206 Cr) | 1,155 | 2,686 | |
+| Expenses ex-fuel ex-forex | 14,888 | 13,227 | +12.6% |
+| — supplementary rentals + repair & maintenance | 3,581 | 3,263 | +9.7% |
+| — D&A | 3,074 | 2,641 | +16.4% |
+| — finance cost | 1,658 | 1,465 | +13.2% |
+| — aircraft & engine rentals | 426 | 320 | +33.3% |
+| — airport fees | 1,658 | 1,516 | +9.4% |
+| — employees | 2,274 | 2,045 | +11.2% |
+| Total expenses | 26,188 | 22,081 | +18.6% |
+| CASK / CASK ex-fuel / CASK ex-fuel ex-forex (₹) | 6.22 / 3.77 / 3.45 | 5.16 / 3.71 / 3.01 | +20.6% / +1.8% / +14.6% |
+| Fuel CASK / forex CASK (₹) | 2.44 / 0.33 | 1.45 / 0.70 | |
+| EBITDAR (margin) | 2,460 (10.5%) | 1,114 (6.0%) | +120.8% |
+| EBITDAR ex-forex (margin) | 3,615 (15.5%) | 3,800 (20.5%) | −4.9% |
+| PBT | −1,877 | −2,482 | |
+| PAT | −1,879 | −2,582 | |
+| PAT ex-forex | −724 | +104 | |
+| Avg / closing USD-INR | 95.09 / 95.85 | 87.06 / 88.79 | −9.2% / −8.0% |
+| Fleet (closing) | 442 | 417 | +25 |
+| Total cash (free / restricted) | 52,685 (39,929 / 12,756) | 53,515 (38,517 / 14,999) | −1.6% |
+| Capitalised operating lease liability | 55,159 | 49,651 | +11.1% |
+| Debt excl. operating leases | 32,144 | 25,162 | +27.7% |
+| Total debt incl. leases | 87,303 | 74,814 | +16.7% |
+| Peak daily flights | 2,020 | n/a | |
+| OTP (10 airports) / cancellations / TDR | 91.3% / 0.35% / 99.9% | | |
+| Destinations served | 97 domestic + 36 international (42 listed incl. 7 non-operational) + 98 via partners | | |
+
+### 4.2.3 Five-year history, FY22–FY26 (₹ Cr unless stated)
+
+Sources: AR FY26 "Flying on strong fundamentals" highlights pages (fleet, ASK, LF, passengers, employees, revenue, EBITDAR margin, PAT, adjusted profit, total and free cash) [V]; Q4 FY26 deck (FY25–FY26 KPIs) [V]; screener (borrowings) [V].
+
+| Metric | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue from operations | 25,931 | 54,447 | 68,904 | 80,803 | 84,962 |
+| EBITDAR | ~1,141 [E: 4.4% margin] | 7,312 | 17,545 | 21,252 | 15,089 |
+| EBITDAR margin | 4.4% | 13.4% | 25.5% | 26.3% | 17.8% |
+| EBITDAR ex-forex | n/a | n/a | n/a | 22,861 (28.3%) | 23,189 (27.3%) |
+| Forex loss (gross, P&L) | n/a | n/a | n/a | 1,618 | 8,976 (8,100 net of ₹876 Cr hedge gain) |
+| Forex + exceptional (= adjusted profit − PAT) | ~941 [E] | ~2,960 [E] | ~718 [E] | 1,610 | 9,897 |
+| PAT | −6,162 | −306 | 8,172 | 7,258 | −2,394 |
+| PAT ex-forex | n/a | n/a | n/a | 8,868 | 5,706 |
+| Adjusted PAT (ex-forex, ex-exceptional; AR definition) | −5,221 | 2,654 | 8,890 | 8,868 | 7,503 |
+| ASK (bn) | 70.4 | 114.4 | 139.3 | 157.5 | 172.4 |
+| RPK (bn) | ~51.8 [E] | ~93.9 [E] | ~119.6 [E] | 135.4 | 145.5 |
+| Load factor | 73.6% | 82.1% | 85.9% | 86.0% | 84.4% |
+| Passengers (mn) | 49.8 | 85.6 | 106.7 | 118.6 | 123.4 |
+| Yield (₹/RPK) | n/a | n/a | n/a | 5.15 | 5.06 |
+| RASK / CASK (₹) | n/a | n/a | n/a | 5.14 / 4.66 | 4.99 / 5.00 |
+| CASK ex-fuel / ex-fuel ex-fx (₹) | n/a | n/a | n/a | 3.00 / 2.89 | 3.52 / 3.00 |
+| Fleet (closing) | 275 | 304 | 367 | 434 | 441 |
+| Employees (IndiGo, ex-Agile) | 26,164 | 32,407 | 36,860 | 41,049 | 41,907 |
+| Total cash | 18,228 | 23,424 | 34,738 | 48,171 | 51,651 |
+| Free cash | 7,763 | 12,195 | 20,823 | 33,153 | 36,216 |
+| Capitalised operating lease liability | n/a | n/a | n/a | 47,980 | 53,461 |
+| Total debt incl. leases (screener "Borrowings") | 36,878 | 44,860 | 51,280 | 66,810 | 77,749 |
+| CarGo carried (tonnes) | 2,78,178 | 3,00,249 | 3,30,328 | 3,87,562 | 4,48,964 |
+
+Notes:
+- FY22–FY24 yield and RASK/CASK were not in any document fetched this session. Do not quote them without a source (§4.4).
+- FY23 revenue from operations is ₹54,446.5 Cr (AR ₹5,44,465 mn); screener rounds it to ₹54,446 Cr.
+- FY22–FY24 RPK is ASK × LF [E].
+
+### 4.2.4 Eight-quarter trend, Q3 FY25–Q2 FY27 (₹ Cr; [V] decks/calls/screener unless [E])
+
+| Quarter | Rev. from ops | EBITDAR (margin) | Forex in EBITDAR | PAT | PAT ex-fx | ASK bn | RPK bn | LF | Yield ₹ | RASK ₹ | CASK ₹ | CASK ex-fuel ₹ | CASK x-fuel x-fx ₹ | Fleet | Total cash (free) | Op. lease liab. | Total debt |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Q3 FY25 (Dec-24) | 22,111 | ~6,059 [E] (27.4%) | n/a | 2,449 | ~3,850 ex-fx ex-exc (call) | ~40.8 [E] | n/a | ~87% [E] | ~5.44 [E] | n/a | n/a | n/a | ~2.90 [E] | n/a | n/a | n/a | n/a |
+| Q4 FY25 (Mar-25) | 22,152 | 6,948 (31.4%) | −86 (gain) | 3,068 | 2,981 | 42.1 | 36.8 | 87.4% | 5.32 | 5.26 | 4.51 | 2.90 | 2.94 | 434 | 48,171 (33,153) | 47,980 | 66,810 |
+| Q1 FY26 (Jun-25) | 20,496 | 5,739 (28.0%) | 171 | 2,176 | 2,347 | 42.3 | 35.7 | 84.6% | 4.98 | 4.86 | 4.31 | 2.93 | 2.89 | 416 | n/a | n/a | n/a |
+| Q2 FY26 (Sep-25) | 18,555 | 1,114 (6.0%) | 2,686 | −2,582 | 104 | 41.2 | 34.0 | 82.5% | 4.69 | 4.55 | 5.16 | 3.71 | 3.01 | 417 | 53,515 (38,517) | 49,651 | 74,814 |
+| Q3 FY26 (Dec-25) | 23,472 | ~6,009 [E] (~25.6%; call "60 bn") | ~1,040 (call "10.4 bn") | 549 | ~1,584 [E]; ex-fx ex-exc 3,130 (call) | ~45.3 [E] (+11%, call) | n/a | ~85% (call) | 5.33 | n/a (PRASK 4.51) | n/a | n/a | 2.96 | 440 | ~51,600 (36,940) | 52,480 | 76,860 |
+| Q4 FY26 (Mar-26) | 22,438 | 2,228 (9.9%) | 4,208 | −2,537 | 1,671 | 43.6 | 37.4 | 85.8% | 5.20 | 5.30 | 5.78 | 4.26 | 3.15 | 441 | 51,651 (36,216) | 53,461 | 77,749 |
+| Q1 FY27 (Jun-26) | 24,584 | 3,833 (15.6%) | 232 | −238 | −6 | 43.5 | 36.2 | 83.3% | 6.04 | 5.66 | 5.71 | 3.22 | 3.20 | 432 | 52,885 (39,039) | 53,756 | 81,531 |
+| **Q2 FY27 (Sep-26)** | **23,364** | **2,460 (10.5%)** | **1,155** | **−1,879** | **−724** | **40.8** | **32.8** | **80.3%** | **6.30** | **5.76** | **6.22** | **3.77** | **3.45** | **442** | **52,685 (39,929)** | **55,159** | **87,303** |
+
+How the [E] cells were derived and checked:
+- Q3 FY26 EBITDAR = FY26 15,089 − Q1 − Q2 − Q4.
+- Q3 FY26 ASK = FY26 172.4 − the other three quarters. The +11% YoY in the call implies Q3 FY25 ≈ 40.8 bn.
+- Q3 FY25 yield is backed out from the "around 2 percent lower" yield of ₹5.33 in Q3 FY26.
+- Q1 FY26 forex in EBITDAR = EBITDAR ex-fx 5,910 − 5,739.
+- Q1 FY27 forex = 4,065 − 3,833.
+- The Q3 FY26 cash and debt figures are the CFO's rounded call figures.
+
+**Read across the eight quarters:**
+- Yield went from ₹4.69 (Q2 FY26) to ₹6.30 (Q2 FY27).
+- CASK ex-fuel ex-forex climbed every quarter from ₹2.89 to ₹3.45 (+19%) on the rupee and lower utilisation.
+- Debt excluding operating leases rose from ₹18,830 Cr (Mar-25) to ₹32,144 Cr (Sep-26). That is the shift to owned and finance-leased aircraft through GIFT City and JOLCO; owned aircraft went 14 → 41 in a year.
+
+### 4.2.5 FY26 Annual Report findings (consolidated notes unless stated; all [V AR FY26, BSE link in §3.5])
+
+**(a) Foreign-exchange exposure and sensitivity — this replaces the dossier's [E]**
+- **Source.** Note 31(B) "Currency risk", consolidated, ₹ million.
+- **US$ financial liabilities at 31-Mar-2026: ₹10,76,139 mn (₹1,07,614 Cr).** Components:
+  - lease liabilities ₹7,49,753 mn
+  - other financial liabilities ₹3,14,893 mn (mainly maintenance and supplementary-rental reserves and accruals)
+  - trade payables ₹11,493 mn
+- **US$ financial assets: ₹2,33,178 mn (₹23,318 Cr).** Components: cash ₹9,074 mn, bank balances ₹1,17,396 mn, other financial assets ₹1,05,761 mn (mainly lessor security deposits and maintenance reserve receivables), receivables ₹947 mn.
+- **Net US$ monetary liability: ₹84,296 Cr ≈ US$8.9 bn at the closing ₹94.56** [E from V]. At 31-Mar-2025 it was ₹68,465 Cr ≈ US$8.0 bn at ₹85.50.
+- **AR sensitivity: a 1% rupee depreciation = ₹843 Cr pre-tax loss** (FY25: ₹685 Cr). That is **≈ ₹890 Cr per ₹1 move** at ₹94.56/$ [E].
+- **Cross-checks with management.**
+  - CFO, Jul-2026: exposure of "8 billion, 9 billion" dollars; a 10-paise move in Q1 FY27 produced ~₹80 Cr.
+  - CFO, Jan-2026: "close to $10 billion", which includes future maintenance obligations not yet on the balance sheet.
+- **Check against reported quarters:**
+  - Q2 FY27: gross forex ₹1,333 Cr on a ₹1.19 move (94.66 → 95.85) = **₹1,120 Cr per ₹1**.
+  - Q1 FY27: ₹83 Cr on ₹0.10 = **₹830 Cr per ₹1**.
+- **Rule for the writer:** each ₹1 of closing USD/INR ≈ **₹850–1,100 Cr** of quarterly MTM forex loss. The exposure grows with each lease added: the operating lease liability rose ₹1,698 Cr in Q2 FY27 alone.
+- **Second-order item.** ROU-capitalised FX on long-term foreign-currency loans is negligible: ₹5 mn per 1%.
+- **Hedging policy (accounting policies + Q3 FY26 call).**
+  - Forward contracts with maturities "generally ranging from one to twelve months", used for "economic hedging … not as a speculative investment".
+  - No hedge accounting (fair-value changes go to P&L).
+  - The programme was raised from US$1 bn to US$3 bn in Jan-2026 with tenor extended.
+  - The FY26 hedge gain was **₹876 Cr**. Fuel is not hedged in any material way. No fuel-hedge disclosure appears in the AR, unlike Ryanair's ~80%.
+
+**(b) P&W (IAE) groundings — how they are accounted for**
+- **Note 40.** In FY25 IndiGo finalised an amendment with International Aero Engines LLC (a P&W affiliate) giving "a customized compensation plan to mitigate the impact of the ongoing situation of Aircraft on Ground due to unavailability of engines".
+- **Accounting.** Compensation accrued is **included in revenue from operations** (FY25 and FY26). Certain reimbursements are **netted off against expenditure**.
+- **Not disclosed:** the amount, and the AOG count.
+- **Implication for the writer:** part of IndiGo's FY25–FY26 revenue is OEM compensation, not passenger or cargo income. This flatters RASK slightly and depresses reported CASK. Do not present FY26 "other revenue" (~₹2,222 Cr) as purely cargo.
+- **AOG count.** Neither the AR, the Q1 FY27 deck nor the Q2 FY27 deck/PR gives one. The decks only show fleet by type and ownership. The only management signals are the CFO's Jan-2026 remark that "moderation in our AOGs was not to the same levels" and the Q1 FY27 return of damp leases (§4.4 item 4: still open).
+
+**(c) Contingent liabilities (note 33) — ₹ million → ₹ Cr**
+
+| Item | Amount | Status |
+|---|---|---|
+| Income-tax: incentives received from OEMs on aircraft/engine acquisition treated as taxable, plus disallowances, AY up to 2022-23 | **₹2,419 Cr** (net of ₹533 Cr MAT written off), plus an effect on carried-forward losses with tax value ₹1,823 Cr | ITAT Special/Division Benches ruled for IndiGo up to AY 2015-16; department's appeals pending before the Delhi HC; not provided |
+| IGST on re-import of aircraft/engines/parts repaired abroad | **₹2,203 Cr paid under protest** (₹307 Cr in FY26), shown as **recoverable** | Delhi HC (Mar-2025) held the levy unconstitutional; SC dismissed one departmental appeal (14-Jul-2025) and the review (17-Feb-2026); the department's SLP against the Delhi HC order (29-Aug-2025) is pending |
+| Service tax / VAT / Octroi | ₹6 Cr / ₹3 Cr / ₹7 Cr | |
+| CCI cartelisation (cargo fuel surcharge) penalty | ₹9.5 Cr (reduced from ₹63.7 Cr) | NCLAT appeal; 10% deposited |
+| **DGCA bank guarantee after the Dec-2025 disruption** | **₹50 Cr** | Phased release linked to the reforms |
+| **CCI investigation (order 4-Feb-2026)** into "imposition of unfair conditions and limiting or restriction of provision of services" in domestic operations, after December-2025 cancellations | not quantified | DG investigation under way; no provision. **New fact, not in Parts 1–3** |
+| Withholding tax on lessors' lease rentals (AY 2022-25; reassessment notices AY 2012-19 stayed) | not quantified | Exposure may pass to IndiGo contractually |
+
+**(d) Commitments (note 34)**
+- Estimated contracts remaining to be executed on capital account and other commitments: **₹7,44,606 Cr** (₹74,46,059 mn), net of ₹1,542 Cr of advances, vs ₹6,43,435 Cr a year earlier.
+- At the FY26 average ₹88.06/$ that is ≈ **US$85 bn**, about **8.8× FY26 revenue from operations**. The rise reflects the A350 order doubling and rupee depreciation [E].
+
+**(e) Related-party transactions (note 37) — small and operational**
+- **FY26 total ₹319 Cr** of income and expense with related parties. The largest items:
+  - **training ₹102 Cr**, from "other related parties", i.e. InterGlobe group entities and the simulator/training affiliates
+  - ROU depreciation on leases from related parties ₹83 Cr
+  - crew accommodation and transport ₹35 Cr (InterGlobe Hotels / Movin Express)
+  - lease interest ₹32 Cr
+  - agent commission ₹13 Cr (with ₹324 Cr of ticket remittances through that agent)
+  - reservation cost ₹11 Cr
+  - cargo services income ₹28 Cr (Movin Express)
+- **Balances.** Lease payments to related parties were ₹139 Cr; related-party lease liabilities outstanding ₹406 Cr.
+- **Not present:** royalty or brand fee, and material purchases from the promoter group. The list of related parties includes Shardul Amarchand Mangaldas (the law firm linked to independent director Pallavi Shroff) and Aionos.
+- **Read:** governance risk from related parties is low. The Bhatia–Gangwal dispute of 2019 was about the *process* for approving RPTs, and the amounts are now immaterial (0.4% of FY26 expenses).
+
+**(f) People and pay**
+- **Headcount.** **41,907 permanent employees** at 31-Mar-2026 (FY25: 41,049), plus **26,271** at Agile (ground handling). BRSR: 45,051 employees incl. other categories; permanent-employee turnover ~12–14%.
+- **Directors and KMP.**
+  - **Rahul Bhatia (MD) draws no remuneration.**
+  - CEO Elbers: 0% increase in FY26.
+  - Average KMP increase ex-LTIP: 6%.
+  - Median employee pay: +5%.
+  - Independent directors' commission: **nil for FY26** (₹50 lakh each for FY25).
+  - KMP short-term benefits ₹34 Cr; ESOP charge for KMP was a net reversal (₹30 Cr) on lapsed options.
+- **Labour codes.** The gratuity framework moved to the Code on Social Security from **21-Nov-2025**. The exceptional provision was **₹1,219 Cr** (Q3 FY26 ₹969 Cr + Q4 ₹250 Cr).
+
+**(g) Auditor**
+- **S.R. Batliboi & Co. LLP (EY network).** **Unmodified opinion** on standalone and consolidated FY26 accounts. The Q2 FY27 limited review was also by S.R. Batliboi.
+- **Key audit matters:** (1) recognition of passenger revenue (complex IT, interline/partner data, unexercised rights/breakage); (2) provisions for maintenance and redelivery obligations under aircraft leases, which involve significant estimates.
+- No emphasis-of-matter paragraph was found in the text.
+
+**(h) Fleet and operations facts from the AR**
+- **Fleet at 31-Mar-2026:**
+  - own-operated: 177 A320neo, 168 A321neo, **1 A321XLR**, 26 A320ceo, 46 ATR, 3 A321 P2F
+  - damp-leased: 5 B737, **6 B787**, 5 A320ceo, 4 A321neo (20 in total), total fleet **441**
+- **Inductions.** 51 new LEAP-1A-powered neos in FY26.
+- **Operations.** 7,87,741 flights in FY26 (+2.0%); TDR 99.9%.
+- **Network.** 45 international destinations and **94 codeshare destinations** (FY26).
+- **Financing.** US$820 mn allocated to aircraft purchases via GIFT City; first Indian JOLCO. A350-900 order doubled to **60 firm** (Jun-2025).
+- **Order book.** "Exceeding 900 aircraft, including A321XLRs and A350s".
+
+**(i) Industry series published in the AR (DGCA; passengers carried by Indian carriers, mn).** These values are used in §4.3:
+
+| | FY20 | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|---|---|
+| Domestic | 142 | 54 | 85 | 137 | 155 | 166 | 168 |
+| International (Indian carriers only) | 23 | 5 | 10 | 24 | 29 | 34 | 35 |
+| Total | 165 | 59 | 95 | 161 | 184 | 200 | 203 |
+
+The AR text says FY26 domestic passengers rose +1.1% on seats +2.6%, and international passengers +3.3% on seats +4.6%.
+
+### 4.2.6 Shareholding / Gangwal check [V screener 1-Nov-2026]
+
+| % | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 | Sep-26 |
+|---|---|---|---|---|---|---|
+| Promoters | 43.54 | 41.58 | 41.57 | 41.57 | 41.57 | 41.57 |
+| FIIs | 27.31 | 28.44 | 24.99 | 21.64 | 20.32 | 19.90 |
+| DIIs | 24.02 | 24.58 | 28.08 | 31.14 | 31.85 | 33.27 |
+
+- **Gangwal: no 2026 sale.** Promoter holding is flat at 41.57% for four quarters (Dec-25 → Sep-26). The Gangwal entities (4.53% + 1.32%) are unchanged. The Aug-2025 sale shows up as the Jun-25 → Sep-25 step (−1.96 pts).
+- The "1-Aug-2026, 3.4%, ₹6,831 Cr" item is **not supported** by the Sep-2026 pattern. If such a block had happened in Aug–Sep 2026, it would show. Treat it as a mis-dated recycle of 2025 coverage.
+- **Bulk-deal data on BSE could not be queried** (API blocked), so this rests on the quarterly pattern only.
+
+## 4.2b Reference peers — compact primary/near-primary tables
+
+### SpiceJet (BSE 500285; reference only) — screener consolidated, fetched 1-Nov-2026 [V]
+
+| ₹ Cr | FY21 | FY22 | FY23 | FY24 | FY25 | TTM Dec-25 |
+|---|---|---|---|---|---|---|
+| Sales | 5,171 | 6,604 | 8,874 | 7,085 | 5,326 | 4,786 |
+| Operating profit (OPM) | 187 (3.6%) | −913 (−14%) | −1,005 (−11%) | −638 (−9%) | −439 (−8%) | −625 (−13%) |
+| Other income | 827 | 949 | 1,023 | 1,435 | 1,442 | 733 |
+| Interest | 483 | 487 | 509 | 467 | 297 | 226 |
+| Depreciation | 1,561 | 1,293 | 1,023 | 753 | 645 | 658 |
+| Net profit | −1,030 | −1,744 | −1,513 | −424 | 62 | −775 |
+
+| ₹ Cr | Mar-24 | Jun-24 | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 1,738 | 1,708 | 915 | 1,237 | 1,466 | 1,120 | 792 | 1,408 |
+| Operating profit | −235 | 49 | −376 | −188 | 73 | −82 | −435 | −181 |
+| Other income | 636 | 370 | 163 | 417 | 492 | 81 | 43 | 117 |
+| Net profit | 127 | 158 | −458 | 20 | 342 | −234 | −621 | −262 |
+
+**Balance sheet and market data**
+- Reserves: −₹6,001 Cr (Mar-24), −₹3,356 Cr (Mar-25), −₹4,213 Cr (Sep-25).
+- Borrowings: ₹5,379 / ₹4,219 / ₹4,213 Cr.
+- Book value −₹18.3/share. Price ₹7.49, m-cap ₹1,143 Cr (30-Oct close).
+
+**Promoter holding:** 29.14% (Dec-24) → 33.46% (Mar-25, Jun-25) → 33.45% (Sep-25) → 30.99% (Dec-25) → **24.19% (Mar-26)**.
+
+**Filing status at 1-Nov-2026:**
+- Screener shows **no shareholding pattern for Jun-26 or Sep-26** and **no results after Dec-2025**: Q4 FY26/FY26 audited accounts, Q1 FY27 and Q2 FY27 are all missing. That is ~7 months past the SEBI LODR deadline for annual results (30-May).
+- The five announcements shown are all routine or defensive:
+  - 27-Jun trading window
+  - 23-Jul three A320 damp leases
+  - 22-Sep exchange clarification on a news report
+  - 24-Sep trading window
+  - 5-Oct "DGCA review is routine"
+
+**Operations.** Domestic share 0.6% (~73,000 passengers in Sep-2026), against 3.8% in Mar-2026 [V-sec DGCA via Swarajya / Devdiscourse]. March-2026 OTP was 43%, the worst in the industry [V-sec].
+
+**Read:**
+- Most of FY23–FY25 "profit relief" came from other income (lessor settlements and write-backs): FY25 other income ₹1,442 Cr against a PAT of ₹62 Cr.
+- Operating losses have run every year since FY22.
+- **FY26 accounts unfiled = a red flag for the writer.** Do not cite any SpiceJet FY26 figure.
+
+### Air India group (unlisted; Tata Sons 73.82%, SIA 25.1%)
+
+| ₹ Cr | FY24 | FY25 | FY26 | Basis / source |
+|---|---|---|---|---|
+| Consolidated revenue | ~66,600 [E: FY25 ÷ 1.18] | **78,636** (+18%) | **71,870** (−8.6%) [E growth] | FY25: consolidated (Lapaas Voice citing Mint, 26-Jul-2025) [V-sec]; FY26: airline annual reports (National Herald, 28-Jul-2026) [V-sec, Part 1] |
+| Consolidated net loss | ~7,300 [E] (reports 7,285–7,356) | **10,859** | **22,238** | same |
+| Air India standalone (incl. Vistara from Nov-24): revenue / loss | n/a | 61,080 / 3,976 | 51,452 / 15,368 | same |
+| Air India Express: revenue / loss | n/a | 16,033 / 5,678 | 19,088 / 6,767 | same |
+| SIA disclosure (management accounts, total comprehensive loss) | — | — | **S$3.557 bn ≈ ₹26,700 Cr**; revenue **S$10.533 bn ≈ ₹79,150 Cr** | SIA FY2025/26 results, 15-May-2026, via Outlook Business [V-sec]; SIA's own net profit S$1.184 bn (−57%) |
+| Capital infused | — | 9,558 (Tata 3,225; SIA 6,333) | n/a | [V-sec] |
+
+**Resolving the FY26 loss conflict (§H item 9):** there are three figures on three bases. None is "wrong".
+1. **₹22,238 Cr** is the **Ind AS net loss** in the airlines' statutory annual reports (filed Jul-2026). This is the figure to use as "net loss".
+2. **S$3.557 bn (≈₹26,700 Cr)** is SIA's figure, taken from **Air India's management accounts**, on a **total-comprehensive-loss** basis (it includes OCI items such as actuarial and FX-translation effects) and possibly under SFRS(I)/IFRS adjustments. SIA's associate accounting picks up 25.1% of it.
+3. **"₹26,765 Cr / US$2.8–3.2 bn"** headlines (e.g. Business Today, 14-May-2026) are rupee or dollar conversions of the SIA number.
+
+On the components: AI + AIX standalone figures never sum to the consolidated totals, in FY25 or in FY26. The consolidated numbers include other subsidiaries and intercompany eliminations. Quote the consolidated totals; use the split only for mix.
+
+**Fleet and orders [V-sec PTI/The Week, 24-Nov-2025, CEO Campbell Wilson]:**
+- Group "nearly 300" aircraft: Air India ~187, Air India Express >110. Widebodies **22 B777 + 32 B787**.
+- **524 of the 570** ordered aircraft are still to be delivered. **26 inductions planned in 2026** (6 widebody, 20 narrowbody).
+- ~83% of the narrowbody fleet retrofitted.
+- [V-snip]: May-2026 add-on order of 100 Airbus (90 A320 family + 10 A350). Wings India 2026 orders of 30 737 MAX + 15 A321XLR were reported. Air India mainline fleet 177 on 11-Aug-2026 (post A319 sales).
+- **Use "~300 aircraft; ~520 still to come from the 570 order, plus 2026 add-ons", tagged [V-sec/V-snip].**
+
+### Akasa Air (SNV Aviation; unlisted)
+
+| | FY25 | FY26 | Source |
+|---|---|---|---|
+| Revenue from operations (₹ Cr) | 4,583 | **6,168** (+35%; company says operating revenue +37%) | Mint 19-Oct-2026 via Lapaas Voice [V-sec]; Akasa release 24-Jun-2026 via Asian Aviation [V-sec] |
+| Total expenditure (₹ Cr) | n/a | 8,988 | [V-sec] |
+| Forex loss (₹ Cr) | 173 | **992** | [V-sec] |
+| Net loss (₹ Cr) | ~1,983 | **2,716** (+37%) | [V-sec] |
+| ASK growth | | +30% | Akasa release [V-sec] |
+| Stage-adjusted RASK / CASK | | +10% / −4% | Akasa release [V-sec] |
+| EBITDAR margin | | "improved by 60%" (relative; level not given) | Akasa release [V-sec] |
+| Load factor | | ~88% through the year | Akasa release [V-sec] |
+| Fleet | 27 | **37** (10 MAX inducted in FY26); 42 by Sep-2026 [V-snip FPJ] | |
+| Network | | 26 domestic + 6 international; international >23% of capacity; 171,000 t cargo; 25 mn cumulative passengers | Akasa release [V-sec] |
+
+**Read:** forex explains ~37% of Akasa's FY26 loss (₹992 Cr of ₹2,716 Cr). Ex-forex, the loss was ~₹1,724 Cr, broadly flat on FY25 ex-forex (~₹1,810 Cr) [E]. The same rupee mechanics that hit IndiGo hit Akasa, on a balance sheet without IndiGo's cash.
+
+### Global references (primary pages fetched this session)
+
+| Item | Value | Source |
+|---|---|---|
+| Emirates airline FY26 (to 31-Mar-2026) | Revenue AED 130.9 bn (US$35.7 bn); PBT AED 22.8 bn; **PAT AED 19.7 bn; net margin 15.0%**; passengers **53.2 mn (−1%)**; seat factor 78.4%; **fleet 277**; fuel AED 31.2 bn = **29% of operating costs** | UAE Government Media Office release, 7-May-2026 [V] https://mediaoffice.ae/en/news/2026/may/07-05/emirates-group-achieves-record-profit-in-2025-26 |
+| Emirates Group FY26 | Revenue AED 150.5 bn; PBT AED 24.4 bn; PAT AED 21.0 bn (UAE Pillar Two tax raised the rate from 9% to 15%); cash **AED 59.6 bn**; dividend AED 3.5 bn | same [V] |
+| Ryanair FY26 | €15.54 bn revenue; €2.26 bn PAT pre-exceptional; 208.4 mn passengers; ancillary €4.99 bn; €85 mn AGCM provision; gross cash €3.6 bn; FY27 target 216 mn | investegate RNS page (AI summary of the RNS) [V-sec]; fleet **647** [V-snip] |
+| Southwest market cap | **US$20.77 bn** at $42.43 (30-Oct-2026); revenue TTM $31.55 bn; net income $1.05 bn; P/E 20.8 | StockAnalysis [V-sec] |
+| Ryanair market cap | **US$26.80 bn** (RYAAY $53.72, 30-Oct-2026); revenue TTM $17.81 bn; net income $2.16 bn; P/E 13.4 | StockAnalysis [V-sec] |
+| IndiGo market cap in US$ | ₹1,88,600 Cr ÷ 94.9 ≈ **US$19.9 bn**. It is about the size of Southwest and ~0.74× Ryanair, though IndiGo is loss-making TTM and Ryanair earns ~€2.3 bn | [E from V] |
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3.1 Domestic passengers — fiscal-year series (closes §H gaps 1–2)
+
+**Indian carriers, mn passengers, FY basis.** Source: DGCA data as charted in the IndiGo AR FY26 ("Number of passengers for domestic airlines", Source: DGCA) [V AR]. Lakh = mn × 10.
+
+| FY | Domestic (mn) | YoY | International, Indian carriers (mn) | Total (mn) |
+|---|---|---|---|---|
+| FY20 | 142 | — | 23 | 165 |
+| FY21 | 54 | −62% | 5 | 59 |
+| FY22 | 85 | +57% | 10 | 95 |
+| FY23 | 137 | +61% | 24 | 161 |
+| FY24 | 155 | +13% | 29 | 184 |
+| FY25 | 166 | +7% | 34 | 200 |
+| **FY26** | **168** (precise: **1,674.8 lakh** [E from V-sec DGCA quarterly] / 1,674.2 lakh ICRA) | **+1.1%** (AR) / +1.2% (ICRA) | **35** (+3.3% per AR text) | 203 |
+| FY19 | not in the AR chart; ~1,390–1,410 lakh [K] — still open | | | |
+
+**FY26 reconstruction from DGCA calendar data [E from V/V-sec]:**
+- CY2025 1,669.46 lakh − Jan–Mar 2025 **431.98** + Jan–Mar 2026 **437.31** = **1,674.79 lakh**.
+- The quarterly figures are from DGCA's March-2026 release as reported by PTI/Devdiscourse [V-sec]: "437.31 lakh … 431.98 lakh … 1.23 per cent".
+- This matches ICRA's 1,674.2 lakh to within 0.04%.
+- **The FY25 conflict in §H item 2 is resolved:** FY25 ≈ 166 mn, i.e. **+7.1% YoY** (AR chart, 155 → 166). The IANS "+10.35%" headline is not an FY25 figure and is superseded.
+
+**Monthly 2026 (lakh; DGCA via the named outlet; YoY as published)**
+
+| Month | Passengers | YoY | IndiGo share | AI group share | Akasa | SpiceJet | Source |
+|---|---|---|---|---|---|---|---|
+| Jan–Mar 2026 (cum.) | 437.31 | +1.23% | — | — | — | — | Devdiscourse/PTI [V-sec] |
+| Mar-2026 | 144.2 (14.42 mn) | −0.9% (vs ~145) | **63.3%** | 26.2% | 5.4% | **3.8%** | Devdiscourse [V-sec]; Informist [V-snip] |
+| Apr-2026 | ~138 | −3.5% to −5% (sources differ) | ~65.0% | 24.7% | | | FPJ / Swarajya [V-snip] |
+| May-2026 | ~154 [E: Apr–Jul 546.6 − Apr − Jun − Jul] | ~+9% | | | | | Swarajya [V-sec]; IndiGo CFO: "best month ever for the domestic industry"; IndiGo >10 mn domestic passengers [V] |
+| Jun-2026 | **134.6** | ~−1% | **66.3% (record)** | | | | ICRA via Upstox [V-sec]; FPJ [V-snip] |
+| Jul-2026 | **120.0** | **−4.8%** (vs 126.1) | | | | | ICRA via Upstox [V-sec] |
+| Apr–Jul 2026 (FY27 YTD) | 546.6 | +0.1% | | | | | ICRA via Upstox [V-sec] |
+| Aug-2026 | **121.26** | **−6.3%** (vs ~129.5) | 65.0% (78.87 lakh) | 26.7% (32.32 lakh) | | | Angel One / Morung Express [V-snip]; Swarajya "1.21 crore in August" [V-sec] |
+| **Sep-2026** | **118.23** | **−6.5% YoY** (vs Sep-2025 **126.43**); **−2.5% MoM** (vs 121.26) | **65.4%** (77.30 lakh) | 26.8% (31.65 lakh) | 5.6% (6.64 lakh) | 0.6% (~0.73 lakh) | Swarajya [V-sec]; Business Today [V-sec] |
+| Jan–Sep 2026 (cum.) | 1,223.53 | −0.82% (vs 1,233.70) | | | | | Swarajya [V-sec] |
+
+**Labelling conflict resolved (§H item 1).**
+- Swarajya and Business Today both print "fell 6.49 per cent month-on-month … from 126.43 lakh / 1.21 crore in August". That is internally inconsistent: 118.23 ÷ 121.26 = −2.5%.
+- **126.43 lakh is Sep-2025** (118.23 ÷ 126.43 = −6.49%), which matches ICRA's "−6.5% YoY in September 2026".
+- **Check:** Jan–Mar 437.31 + Apr–Jul 546.6 + Aug 121.26 + Sep 118.23 = **1,223.40 lakh** vs the published Jan–Sep 1,223.53. The monthly series is therefore internally consistent [E].
+- **H1 FY27 (Apr–Sep 2026) ≈ 786.1 lakh vs ≈ 802.0 lakh in H1 FY26 → about −2.0% YoY** [E]. The Aug-2025 base (≈129.5) is backed out from the −6.34% YoY.
+- **Seven straight YoY declines in 2026 except May.** Swarajya's YoY list for 2026 is Apr −5%, May +9%, Jun −1%, Jul −5%, Aug −6%, Sep −7% (rounded).
+
+**OTP, March 2026 (DGCA, six metros) [V-sec]:** IndiGo 88.7%, Akasa 82.6%, Air India group 78.0%, Alliance Air 62.9%, SpiceJet 43.0%. Passengers hit by cancellations in March: 66,784; denied boarding: 951.
+
+**What is still missing.**
+- **Full-year FY26 market shares by airline** and FY26 seat factors are not reconstructable without the DGCA monthly PDFs; the portal was unreachable.
+- **Best proxy for FY26 shares:** IndiGo **~63.9%** (own count 107.0 mn ÷ 167.5 mn) [E]. The monthly prints run 63–66% except Dec-2025 (59.6%, meltdown).
+- **Dec-2025 shares** stay at [V-snip] (IndiGo 59.6%, AI group 29.6%, Akasa 5.2%, SpiceJet 4.3%).
+
+### 4.3.2 International traffic — Indian vs foreign carriers (§H item 4)
+
+| Period | Indian carriers | Foreign carriers | Total | Indian share | Source |
+|---|---|---|---|---|---|
+| FY25 | 34 mn | ~43 mn [E] | 77.38 mn (AAI, all airports) | ~44% [E] | AR (DGCA) [V]; AAI total [V-snip] |
+| FY26 | **35 mn** (+3.3%) | ~45.6 mn [E] | 80.64 mn (AAI) | **~43%** [E] | AR (DGCA) [V]; AAI [V-snip] |
+| Q1 FY26 (Apr–Jun 2025) | — | 57.6% share | — | 42.4% | [V-snip] |
+| Q3 FY26 (Oct–Dec 2025) | — | ~54% | >2 crore (record quarter) | ~46% | [V-snip] |
+| Jan–Mar 2026 | 80.94 lakh (vs 89.63; −9.7%) | — | 1.91 crore | ~42% [E] | [V-snip FPJ] |
+| Apr–Jun 2026 | −26% YoY (IndiGo 33.4 lakh −15%; AI group 27.6 lakh −36%) | +7% (Emirates 14.8 lakh) | ~1.7 crore (−10.5%) | ~36% [E] | Angel One (DGCA) [V, Part 1] |
+| Apr–Jul 2026 | **−23% YoY** | — | — | — | ICRA via Upstox [V-sec] |
+| FY27E (ICRA) | **−3% to −6%** | — | — | — | ICRA via Upstox [V-sec] (now verified on a fetched page; the dossier had it as a press summary) |
+
+- **Correction to Part 1 §5.2.** "Indian carriers ~45–48%" (trap 7) is too high for FY26. On DGCA (Indian-carrier) passengers ÷ AAI (all-carrier) totals, Indian carriers had **~43% in FY26** and **~36% in Apr–Jun 2026** [E]. The basis caveat applies: DGCA counts passengers carried by Indian airlines, while AAI counts terminal passengers. Use "roughly two-fifths, falling to about a third after the West Asia war".
+- **IndiGo's share of Indian carriers' international passengers:** FY26 16.36 ÷ 35 = **~47%** [E]; Apr–Jun 2026 33.4 ÷ ~61 = **~55%** [E].
+
+### 4.3.3 ATF — Delhi, IOCL, ₹ per kilolitre (domestic airlines) and US$/kl (domestic airlines on international runs) (§H item 5)
+
+The IOCL "Previous Price of ATF" archive pages were fetched 1-Nov-2026 [V]:
+- https://iocl.com/atf-domestic-airlines
+- https://iocl.com/atf-domestic-airlines-on-international
+- https://iocl.com/prices-of-petroleum-products
+
+| Effective | Delhi domestic ₹/kl | MoM | Delhi intl-run US$/kl | Tag |
+|---|---|---|---|---|
+| 1-Oct-2024 | 87,597.22 | | 795.27 | [V IOCL] |
+| 1-Nov-2024 | 90,538.72 | +3.4% | 818.09 | [V] |
+| 1-Dec-2024 | 91,856.84 | +1.5% | 827.04 | [V] |
+| 1-Jan-2025 | 90,455.47 | −1.5% | 812.75 | [V] |
+| 1-Feb-2025 | 95,533.72 | +5.6% | 854.15 | [V] |
+| 1-Mar-2025 | 95,311.72 | −0.2% | 848.32 | [V] |
+| **1-Apr-2025 (FY26 start)** | **89,441.18** | −6.2% | 794.41 | [V] |
+| 1-May-2025 | 85,486.80 | −4.4% | 768.09 | [V] |
+| 1-Jun-2025 | 83,072.55 | −2.8% | 750.26 | [V] |
+| 1-Jul-2025 | 89,344.05 | +7.6% | 795.32 | [V] |
+| 1-Aug-2025 | 92,021.93 | +3.0% | 813.72 | [V] |
+| 1-Sep-2025 | 90,713.52 | −1.4% | 795.10 | [V] |
+| 1-Oct-2025 | 93,766.02 | +3.4% | 813.44 | [V] |
+| 1-Nov-2025 | 94,543.02 | +0.8% | 817.01 | [V] |
+| 1-Dec-2025 | 99,676.77 | +5.4% | 864.81 | [V] |
+| 1-Jan-2026 | 92,323.02 | −7.4% | 791.48 | [V] |
+| 1-Feb-2026 | 91,393.39 | −1.0% | 778.85 | [V] |
+| 1-Mar-2026 | 96,638.14 | +5.7% | 816.91 | [V] |
+| **1-Apr-2026** | **1,04,927** (capped) | +8.6% | **1,690.81 (+107%)** | [V IOCL current-price page, "Last updated on April 1, 2026"] |
+| May–Jun 2026 | cap continued to 8-Jun; "levels had come down below the cap levels" by late June | | | [V IndiGo CFO] |
+| 1-Jul-2026 | ~1,05,000–1,10,000 [E] (₹5/litre cut reported) | | | [V-snip] |
+| 1-Aug-2026 | ~1,10,000 [E] (+₹5,000/kl; "~20% higher YoY") | | | ICRA via Upstox [V-sec] |
+| 1-Sep-2026 | **~1,21,000** (₹121/litre) | ~+10% | | Indian Aviation News [V-sec] |
+| **1-Oct-2026** | **1,37,120** (₹137.12/litre; "+₹16/litre") | **+13.2%** | | Indian Aviation News; IANS [V-sec] |
+| **1-Nov-2026** | **1,38,500** (₹138.50/litre; "+₹1.37/litre"; "fourth consecutive monthly increase") | +1.0% | | IANS via Social News XYZ [V-sec] |
+
+**Notes**
+- **Averages.** On the IOCL archive (Apr-2024 to Mar-2026; simple averages of 12 monthly prints) [E from V], the FY26 average Delhi domestic price is **₹91,535/kl**, **−3.3%** on the FY25 average of **₹94,700/kl**. That is why IndiGo's fuel CASK fell from ₹1.66 to ₹1.47 in FY26.
+- **The April-2026 cap.**
+  - The international-run price more than doubled (**$816.91 → $1,690.81/kl, +107%**) while the capped domestic price rose 8.6%.
+  - The **₹2,07,341/kl** headline is the press-reported uncapped Delhi rupee price (+114.5%). It is not on IOCL's page, which lists only the capped ₹1,04,927. Label it "uncapped market price (press)", not "international".
+  - IOCL's ATF tables were **not updated after 1-Apr-2026** (verified 1-Nov-2026), so the Jul–Nov 2026 levels rest on wire reports (IANS/PTI) of OMC revisions.
+- **Policy ring-fence (CRISIL, 17-Jun-2026, via FPJ) [V-sec].** A **25% cap on domestic ATF price hikes from 1-Apr** and a newly launched **"ATF Price Stabilisation Fund"**.
+- **Export windfall levy.** The special additional excise duty on ATF exports was **reintroduced in March 2026**. It was cut to **₹10.50/litre from ₹15** for the fortnight to 15-Oct-2026 [V-sec Indian Aviation News].
+- **Read.** Delhi ATF on 1-Nov-2026 (₹1,38,500) is **+46% YoY** (₹94,543) and **+43% vs the 1-Mar-2026 pre-war level** [E from V/V-sec]. A sustained ₹1.38 lakh/kl implies H2 FY27 fuel CASK at or above the Q1–Q2 levels (₹2.44–2.49).
+
+### 4.3.4 Rating-agency views (§H item 10)
+
+| Agency / date | View | Tag |
+|---|---|---|
+| **ICRA, 27-Aug-2026** (half-yearly airline update) | FY27 domestic traffic **+3–6%**. Industry net loss **₹36,000–38,000 Cr in FY27** (up from an **earlier FY27 forecast of ₹11,000–12,000 Cr**) vs ₹28,000–30,000 Cr in FY26. Outlook **Negative**. International traffic of Indian carriers **−3% to −6%**. Apr–Jul domestic +0.1%. Domestic ATF ~+20–21% YoY in the first five months of FY27 | [V icra.in; V-sec Upstox] |
+| **ICRA, 28-Oct-2026** (monthly special comment) | Sep-2026 domestic traffic −6.5% YoY | [V-sec via ICRA page listing] |
+| **CRISIL Ratings, 17-Jun-2026** | Aggregate **operating profit of domestic airlines −10–15% in FY27 to ₹16,000–17,000 Cr** (from ~₹19,000 Cr). Fuel 40–50% of operating costs. Industry **RASK ₹5.2–5.4** (from ₹4.9) on fuel surcharges. **Lease rentals +15% to ₹27,000–28,000 Cr**. 25% domestic ATF cap and ATF Price Stabilisation Fund | [V-sec FPJ] |
+| CARE / India Ratings | not found this session | open |
+
+**Note the bases:** CRISIL's figure is **operating profit** (positive); ICRA's is **net loss** (after forex, interest and depreciation). They are not contradictory. Use ICRA for "losses" and CRISIL for "operating economics". CRISIL's sample-wide RASK of ₹4.9 matches IndiGo's FY26 ₹4.99.
+
+### 4.3.5 Regulation and events — verified specifics (§H items 9, 15, 16)
+
+**FDTL (DGCA CAR Section 7, Series J, Part III, revised).** Angel One, 10-Feb-2026, plus the BT/TNM search results [V-sec / V-snip]:
+- **Weekly rest 48 consecutive hours** (from 36).
+- **Night = 00:00–06:00**.
+- **Maximum two night landings** (from six). Angel One says "per pilot per week"; most reports and the CAR wording say per night duty period. Use "two night landings (down from six)" without the period.
+- **No more than two consecutive night duties.**
+- **Phasing.** Phase I (weekly rest and related provisions) took effect **1-Jul-2025**; Phase II (night-operations provisions) **1-Nov-2025**.
+- **Dec-2025 relief.**
+  - IndiGo's one-time exemption from the night provisions (night redefined as 00:00–05:00, up to six night landings) ran **5-Dec-2025 → 10-Feb-2026**.
+  - The weekly-rest-for-leave substitution ban was withdrawn industry-wide.
+  - The ₹22.2 Cr penalty included **₹30 lakh/day for 68 days**.
+  - Angel One cites ">5,600 cancellations" over the whole meltdown period. The 2,507 figure is for 3–5 December only; keep both with their periods.
+
+**Pakistan airspace.**
+- PAA **NOTAM A0590**, effective 17-Oct-2026, extends the ban on Indian-registered and Indian-operated or leased aircraft (including military) in the **Karachi and Lahore FIRs to 04:59 PKT, 24-Nov-2026**. The previous expiry was 24-Oct-2026.
+- The ban has been in place since **23/24-Apr-2025**. India's reciprocal ban dates from 30-Apr-2025 [V-sec ProPakistani, 18-Oct-2026].
+
+**AI171.**
+- The AAIB told the Supreme Court (Jul-2026) that the **draft final report would be ready by October 2026**, in sealed cover. The investigation follows the ICAO Annex 13 consultation process.
+- **No public final report was found as of 1-Nov-2026** [V-sec Swarajya 29-Jul-2026; V-snip].
+- Fatalities: **260 (241 of 242 on board + 19 on the ground)**; the crash came 32 seconds after take-off, 12-Jun-2025, Boeing 787-8 [V-sec].
+
+**CCI.** An order of 4-Feb-2026 directed a DG investigation into IndiGo's domestic operations after the December cancellations [V AR note 33]. **New fact.**
+
+**Codeshares — verified status (§H item 14)**
+
+| Partner | Status | Source |
+|---|---|---|
+| **Delta, Air France-KLM, Virgin Atlantic** | **MoU of 1-Jun-2025** (network, loyalty, cargo, sales, MRO, training), commercial elements "subject to regulatory approvals". AF-KLM and Virgin have been IndiGo partners **since 2022**. Delta plans Atlanta–Delhi | Delta newsroom [V] |
+| KLM | codeshare expanded, effective **29-Mar-2026** (IndiGo domestic plus Colombo) | AeroRoutes [V-sec] |
+| British Airways | codeshare on IndiGo domestic routes since **late-Feb-2026** | AeroRoutes [V-sec]; AR FY26 [V] |
+| Qantas (+ Jetstar) | codeshare extended (Singapore–Kolkata/Trichy/Vijayawada from **10-Apr-2026**; trans-Tasman Jan-2026) | AeroRoutes [V-sec / V-snip] |
+| AEGEAN | 6E code on Aegean flights from 23-Feb-2026; Greece domestic expansion Jun-2026 | AR [V]; AeroRoutes [V-snip] |
+| Garuda Indonesia | new in FY26 | AR [V] |
+| Japan Airlines | Tokyo Haneda–Delhi codeshare from 15-Feb-2026 | AeroRoutes [V-snip] |
+| Malaysia Airlines | expanded from May-2026 | AeroRoutes [V-snip] |
+| China Southern | MoU | goindigo.in press release title [V-snip] |
+| Qatar Airways, Turkish Airlines | **no current codeshare found**. Turkish was IndiGo's historical B777 damp-lease and codeshare partner [K]; the damp-leased 777s ended (0 at Sep-2026) [V Q2 PPT] | — |
+| American Airlines | **not found** — do not claim | — |
+
+**Long-haul fleet.**
+- **B787 damp leases: 2 (Sep-25) → 6 (Mar-26, Jun-26) → 5 (Sep-26)**; B777: 2 (Sep-25) → 0 [V decks].
+- **A321XLR: 1 (Mar-26) → 3 (Jun-26) → 4 (Sep-26)** [V].
+- **A350-900: 60 firm** (doubled Jun-2025), first deliveries 2027 [V AR; Delta release Jun-2025 had 30 + 70 options before the doubling]. Delta's June-2025 release also confirms the plan for six leased B787s "later this year", which was achieved by Mar-2026.
+
+### 4.2.7 Addendum — Q2 FY27 call remarks from a fetched report (Business Today, 29-Oct-2026) [V-sec]
+
+The transcript is still unfiled; the following comes from the Business Today report of the call.
+- **Fuel recovery.** Walsh: IndiGo recovered **only ~60% of the fuel-cost increase** through fares and surcharges.
+- **Q3 outlook.** "Early indications" are that fuel costs will be **higher in the December quarter**. He expects elevated fuel to persist because of refining disruptions.
+- **Crack spreads.** Jet crack spreads have historically averaged ~21–22%; he expects them to **average ~65% this year**.
+- **Capacity.**
+  - IndiGo's capacity fell ~1% in Q2 against **~5% for the industry**.
+  - It expects **low-single-digit growth in the December quarter**; the PR says "early single digits".
+  - The network is under review against fuel prices.
+  - A second analysis (Bramesh/press) says "early single digits for the full year", weighted to international cuts [V-snip].
+- **Costs and investment.** Walsh expects no significant cost-cutting ("efficient cost base, strong liquidity") and will keep investing in pilots and aircraft, especially for international.
+- **Fuel scheme.** IndiGo would consider joining the government's **fuel-price stabilisation scheme** "if its terms made economic sense".
+- **Demand.** Demand is "robust"; the festive season should help December.
+- **Still unconfirmed [V-snip]:** FY28 "mid-teens under review" and the widebody (787) withdrawal timing.
+
+## 4.0 SUPERSEDES — corrections to Parts 1–3 (writer: apply these; Part 4 wins)
+
+| # | Part 1–3 location | Old value (tag) | New value | Basis | Source |
+|---|---|---|---|---|---|
+| S1 | §0, §9.3, §A3, §B2, §12 ("₹900–1,000 Cr per ₹1"; "net $ liability ~$9–10 bn") | ₹900–1,000 Cr MTM per ₹1; ~US$9–10 bn [E] | **Net US$ monetary liabilities ₹84,296 Cr ≈ US$8.9 bn at 31-Mar-2026; 1% INR depreciation = ₹843 Cr loss (≈₹890 Cr per ₹1)**. Realised quarterly range ₹830–1,120 Cr per ₹1 (Q1/Q2 FY27). Management: "8–9 bn" (Jul-26), "close to $10 bn" incl. maintenance obligations (Jan-26) | Company FX sensitivity note | AR FY26 note 31(B) [V]; Q1 FY27 and Q3 FY26 transcripts [V] |
+| S2 | §2.1 table, FY2025 row | ~1,654 lakh, "+7–10% (sources differ)", IANS "+10.35%" [E/V-snip] | **FY25 ≈ 166 mn (1,660 lakh), +7.1%; FY24 155 mn; FY23 137 mn; FY22 85 mn; FY21 54 mn; FY20 142 mn** (Indian carriers, domestic, DGCA) | Fiscal-year DGCA series | AR FY26 industry chart (Source: DGCA) [V] |
+| S3 | §2.1 table, FY2026 row | 1,674.2 lakh [V-snip ICRA] | **1,674.8 lakh** (CY25 1,669.46 − Jan–Mar 25 431.98 + Jan–Mar 26 437.31) [E from V-sec]; ICRA 1,674.2 and AR "168 mn, +1.1%" agree | Reconstruction | Devdiscourse/PTI (DGCA Mar-26) [V-sec]; AR [V] |
+| S4 | §0, §2.1, §H1 (Sep-2026 base) | "126.43 lakh … likely Sep-2025" (flagged) | **Confirmed: 126.43 lakh = Sep-2025. Sep-2026 is −6.5% YoY and −2.5% MoM** (Aug-2026 = 121.26 lakh). The press "6.49% month-on-month" is a mislabel | Arithmetic + cumulative check: monthly sum 1,223.40 vs published 1,223.53 | Swarajya ("1.21 crore in August") [V-sec]; ICRA [V-sec] |
+| S5 | §2.1 "Recent months" | Aug 121.26 [V-snip]; Apr −2.0% (ICRA) | Aug 121.26 [V-sec]; **Jul 120.0 (−4.8%); Jun 134.6; Apr–Jul 546.6 lakh (+0.1%)**; Apr −3.5% to −5% (sources differ); May ~+9% (record month) | DGCA via ICRA/press | Upstox (ICRA, 27-Aug-26) [V-sec]; Swarajya [V-sec] |
+| S6 | §4.3 ATF table, "Aug–Nov 2026 not sourced"; "1-Jun-2026 ~1,15,000 [E]" | not sourced; ~₹1.15 lakh [E] | **1-Sep-2026 ~₹1,21,000/kl; 1-Oct-2026 ₹1,37,120/kl (+₹16/litre); 1-Nov-2026 ₹1,38,500/kl (+₹1.37/litre; fourth straight monthly rise)**; Aug-2026 ~₹1.10 lakh (+₹5,000/kl) [E]. Drop the "~1,15,000 in June" estimate: the CFO said domestic prices fell "below the cap levels" by late June | OMC monthly revisions (wire reports; IOCL stopped updating its ATF page after 1-Apr-2026) | Indian Aviation News [V-sec]; IANS via Social News XYZ [V-sec]; Upstox/ICRA [V-sec]; Q1 FY27 transcript [V] |
+| S7 | §0, §4.3, §D stat strip ("international ₹2,07,341/kl, +114.5%") | "Delhi international reference ₹2,07,341/kl" | **IOCL's international-run price is US$1,690.81/kl on 1-Apr-2026 (+107% vs US$816.91 in Mar)**. ₹2,07,341/kl is the press-reported **uncapped** Delhi rupee price, not an IOCL "international" price. Label accordingly | IOCL price page | iocl.com/prices-of-petroleum-products and /atf-domestic-airlines-on-international [V] |
+| S8 | §4.3 earlier months (Nov-25, Dec-25, Jan-26 [V-snip]; Mar-26) | V-snip | Now **[V IOCL]**: Nov-25 94,543.02; Dec-25 99,676.77; Jan-26 92,323.02; Feb-26 91,393.39; Mar-26 96,638.14. Full series Oct-24 → Apr-26 in §4.3.3. FY26 average ₹91,535 (−3.3% vs FY25 ₹94,700) | IOCL archive | iocl.com/atf-domestic-airlines [V] |
+| S9 | Trap 7, §5.2 ("Indian carriers ~45–48% of international") | 45–48% [K]; 36–46% | **~43% in FY26 and ~36% in Apr–Jun 2026** [E]; Indian carriers' international passengers **FY26 35 mn (+3.3%)**, FY25 34 mn | DGCA (via AR) ÷ AAI totals | AR FY26 [V]; AAI [V-snip] |
+| S10 | §2.2/§2.4 ICRA international forecast | −3% to −6% [V-snip Upstox] | Same value, now **[V-sec, page fetched]**; add **Apr–Jul 2026 Indian-carrier international −23% YoY** and ICRA's **earlier FY27 loss forecast ₹11,000–12,000 Cr** (tripled to ₹36,000–38,000 Cr) | ICRA | icra.in report 7079 [V]; Upstox [V-sec] |
+| S11 | §0, §2.3, §4.2, Part 2 §2.2.1, §H9 (Air India FY26 loss basis) | ₹22,238 Cr vs S$3.56 bn "≈₹24,000–25,000 Cr [E]" vs "~₹27,000 Cr" (conflict) | **₹22,238 Cr = Ind AS consolidated net loss (statutory ARs). S$3.557 bn ≈ ₹26,700 Cr = SIA's figure from AI management accounts, total comprehensive loss. AI revenue on SIA basis S$10.533 bn ≈ ₹79,150 Cr.** Drop the ₹24,000–25,000 Cr conversion | Different bases | Outlook Business (SIA FY25/26 results, 15-May-26) [V-sec]; National Herald [V-sec] |
+| S12 | Part 2 §2.2.1, §H10 (Air India fleet / orders) | ~300 [K]; ~570 order [K] | **~300 (AI ~187, AIX >110; 22 B777 + 32 B787); 524 of the 570 still to be delivered (Nov-2025); 26 inductions planned in 2026**; May-2026 add-on of 100 Airbus [V-snip] | CEO Campbell Wilson (PTI) | The Week/PTI 24-Nov-2025 [V-sec] |
+| S13 | Air India FY25 base | FY25 loss ₹10,859 Cr (no revenue) | **FY25 revenue ₹78,636 Cr (+18%), loss ₹10,859 Cr**; AI standalone ₹61,080 / −3,976; AIX ₹16,033 / −5,678; FY25 capital infusion ₹9,558 Cr (Tata 3,225; SIA 6,333). FY26 revenue therefore **−8.6%** | Consolidated | Lapaas Voice citing Mint [V-sec] |
+| S14 | §0, §2.3, §6, Part 2 §2.2.2, §2.3 JSON (Akasa) | Loss ~₹2,716 Cr [V-snip, unverified]; revenue "~5,000–6,500 [E]" | **FY26 revenue ₹6,168 Cr (+35%; company: operating revenue +37%), loss ₹2,716 Cr (FY25 ~₹1,983 Cr), forex loss ₹992 Cr (FY25 ₹173 Cr), expenses ₹8,988 Cr; ASK +30%, stage-adjusted RASK +10%, CASK −4%, LF ~88%, fleet 37 at Mar-26** | Company release + Mint | Asian Aviation (Akasa release 24-Jun-26) [V-sec]; Lapaas Voice/Mint 19-Oct-26 [V-sec] |
+| S15 | §2.3 Indian carriers' FY26 revenue | Akasa ~5,000–6,500 [E]; total ₹1.68–1.72 lakh Cr | Akasa **6,168**; total **≈ ₹1.70 lakh Cr** (IndiGo 84,962 + AI group 71,870 + Akasa 6,168 + SpiceJet ~4,800 + others ~2,500) [E]; IndiGo ≈ 50%, AI group ≈ 42%, Akasa ≈ 3.6% | | [E from V/V-sec] |
+| S16 | §10, Part 2 §2.2.6, §E12 (Emirates) | fleet ~260 [K]; cash 54.9 vs 59.6 (conflict); PBT margin only | **Fleet 277; Emirates airline PAT AED 19.7 bn, net margin 15.0%; 53.2 mn passengers (−1%); fuel 29% of operating cost; Group cash AED 59.6 bn** (resolves the conflict) | Primary release | UAE Government Media Office, 7-May-2026 [V] |
+| S17 | §10, Part 2 §2.2.4 (Ryanair fleet) | ~620 [K] | **~647** [V-snip CAPA/trade press]; financial figures unchanged | | search results |
+| S18 | §10, §2.0 peer table ("peer m-caps not fetched") | not fetched | **Ryanair US$26.80 bn (RYAAY $53.72); Southwest US$20.77 bn ($42.43), 30-Oct-2026**; IndiGo ≈ US$19.9 bn | Market data | StockAnalysis [V-sec] |
+| S19 | §0, Part 2 (d), §H18 (Gangwal 2026 sale) | "unconfirmed" | **No 2026 sale**: promoter group 41.57% flat Dec-25 → Sep-26; Gangwal 4.53% + trust 1.32% unchanged; the Aug-2025 sale is the Jun→Sep-2025 step (43.54 → 41.58) | Quarterly shareholding | screener [V] |
+| S20 | §2.2/§3/§A6, §H14, primer issue (codeshares) | Delta/AF-KLM/Virgin "[K] not verified — do not add" | **Verified: Delta, Air France-KLM, Virgin Atlantic MoU of 1-Jun-2025** (commercial parts subject to regulatory approval). **AF-KLM and Virgin partners since 2022.** Active codeshare additions in 2026: BA (late-Feb), KLM expansion (29-Mar), Qantas (10-Apr), AEGEAN (23-Feb), JAL (15-Feb) [V-snip], Malaysia (May) [V-snip]. **Qatar, Turkish, American: no current codeshare found** | | Delta newsroom [V]; AeroRoutes [V-sec]; AR [V] |
+| S21 | §0, §5.3, §H15 (AI171) | "241 of 242 on board and ~19 on the ground" [K]; final report pending | **260 killed (241 on board + 19 on ground)** [V-sec]. AAIB told the SC the **draft final report would be ready by October 2026** (sealed cover). **No public final report as of 1-Nov-2026** | | Swarajya 29-Jul-2026 [V-sec]; search [V-snip] |
+| S22 | §7.1, §H16 (FDTL) | clause details [K] | **48 h weekly rest (from 36); night 00:00–06:00; max 2 night landings (from 6); max 2 consecutive night duties; Phase I 1-Jul-2025, Phase II 1-Nov-2025**; IndiGo exemption 5-Dec-2025 → 10-Feb-2026 (night redefined to 00:00–05:00, up to 6 landings) | | Angel One 10-Feb-2026 [V-sec]; BT/TNM [V-snip] |
+| S23 | §5.2, §12 (Pakistan NOTAM) | to 24-Nov-2026 [V-snip Gulf News] | **NOTAM A0590 (PAA), Karachi & Lahore FIRs, to 04:59 PKT 24-Nov-2026**; ban since 23-Apr-2025; India reciprocal since 30-Apr-2025 | | ProPakistani 18-Oct-2026 [V-sec] |
+| S24 | §2.4, §B3, §H12 (Q2 FY27 commentary) | "FY27 low single digits (Walsh); FY28 mid-teens under review" [V-snip] | **Primary: Q3 FY27 ASK growth "early single digits" (PR) [V]; FY27 "single digits" held and FY28–FY30 "early double-digit to mid-teens" (Q1 call) [V]. Q2 call [V-sec BT]: ~60% of the fuel increase recovered; industry capacity −5% vs IndiGo −1%; crack ~65% vs 21–22% historical; may join the fuel-price stabilisation scheme.** FY28 "under review" stays [V-snip] | | Q2 PR, Q1 transcript [V]; Business Today [V-sec] |
+| S25 | §10, Part 2 §2.2.4 ("IndiGo hedges little fuel and carries an unhedged $ lease book") | qualitative [K/E] | **FX hedge programme raised from US$1 bn to US$3 bn (Jan-2026), 1–12-month forwards, no hedge accounting; FY26 hedge gain ₹876 Cr**. No fuel-hedge disclosure. Say "partly hedged FX (~US$3 bn of ~US$9 bn), unhedged fuel" | | Q3 FY26 transcript [V]; AR policies [V]; Q4 PPT [V] |
+| S26 | §9.1, §C, P&W discussion | no accounting note | **P&W/IAE AOG compensation is accrued inside revenue from operations (FY25–FY26); some reimbursements are netted against costs** (AR note 40; amount not disclosed). This flatters RASK and depresses CASK slightly | | AR FY26 note 40 [V] |
+| S27 | Part 2 (b), §3.3 (contingencies and commitments: absent) | absent | **Capital commitments ₹7,44,606 Cr (~US$85 bn)**. Contingent: income tax ₹2,419 Cr (+₹1,823 Cr tax effect on losses); IGST on re-imports ₹2,203 Cr paid under protest; **CCI DG probe ordered 4-Feb-2026**; DGCA BG ₹50 Cr | | AR FY26 notes 33–34 [V] |
+| S28 | §0, §7.1 (Dec-2025 meltdown size) | "2,507 flights cancelled" | Keep **2,507 (3–5 Dec)**, and add that the whole meltdown period saw **>5,600 cancellations** (Angel One) — always state the period | | [V-sec] |
+| S29 | Part 2 §2.1(a) quarterly table, Q3 FY26 row | EBITDAR 6,009 [E]; ASK 45.3 [E]; PLF ~85% | Confirmed against the Q3 FY26 call: EBITDAR "60 billion"; ASK "+11%"; LF "around 85"; PRASK 4.51; CASK ex-fuel ex-fx 2.96; forex net of hedging ₹1,040 Cr; PAT ex-fx ex-exceptional ₹3,130 Cr; fleet 440 | | Q3 FY26 transcript [V] |
+| S30 | §7.1 / §4.2.5 labour codes | Q3 ₹969 Cr + Q4 ₹250 Cr = ₹1,219 Cr | Same; the Code on Social Security took effect for gratuity from **21-Nov-2025** (AR) | | AR note 35 [V] |
+| S31 | §2.2.3 SpiceJet card | "no FY26 accounts" | Plus: **no shareholding pattern for Jun-26 or Sep-26** on screener; March-2026 share 3.8% → Sep-2026 0.6%; Mar-2026 OTP 43% (worst) | | screener [V]; Devdiscourse [V-sec] |
+| S32 | §4.3 "policy" | "₹5/litre cut from 1-Jul" [V-snip] | Add the **25% domestic ATF hike cap from 1-Apr-2026 + "ATF Price Stabilisation Fund"** (CRISIL); **SAED windfall levy on ATF exports reintroduced Mar-2026** (₹10.50/litre from 1-Oct) | | FPJ/CRISIL [V-sec]; Indian Aviation News [V-sec] |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+URL keys:
+- **[PPT2]** https://www.bseindia.com/xml-data/corpfiling/AttachLive/181078cd-3bd8-4130-8f41-b80cf9dcbb31.pdf
+- **[PR2]** https://www.bseindia.com/xml-data/corpfiling/AttachLive/1ec099bc-72a9-4d21-9e11-b5cd4e01142e.pdf
+- **[PPT4]** https://www.bseindia.com/xml-data/corpfiling/AttachLive/1917381b-7cb5-466e-8054-9c3403170ca6.pdf
+- **[PPT1]** https://www.bseindia.com/xml-data/corpfiling/AttachLive/5ef23ca3-3a1f-43a2-a48c-eb962aec82f2.pdf
+- **[TR1]** https://www.bseindia.com/xml-data/corpfiling/AttachLive/3506c79c-e3f4-41bc-81d6-5b41005d39a2.pdf
+- **[TR3]** https://www.bseindia.com/xml-data/corpfiling/AttachLive/9931ec83-f523-4b86-b53f-b1f3a7ceb958.pdf
+- **[AR]** https://www.bseindia.com/xml-data/corpfiling/AttachHis/b45f7180-78f4-4e39-9335-03cb2daa1a11.pdf
+- **[SCR]** https://www.screener.in/company/INDIGO/consolidated/
+- **[IOCL]** https://iocl.com/atf-domestic-airlines and https://iocl.com/prices-of-petroleum-products
+
+| # | Figure | Value | Primary source URL | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | IndiGo Q2 FY27 revenue from operations | ₹23,364 Cr (+25.9%) | [PR2] | **V** | Yes |
+| 2 | IndiGo Q2 FY27 PAT / PAT ex-forex | −₹1,879 Cr / −₹724 Cr | [PR2] | **V** | Yes |
+| 3 | IndiGo Q2 FY27 yield | ₹6.30 (+34.3%) | [PR2] | **V** | Yes |
+| 4 | IndiGo Q2 FY27 ASK / passengers / LF | 40.8 bn (−1.0%) / 27.5 mn (−4.7%) / 80.3% | [PR2] | **V** | Yes |
+| 5 | IndiGo Q2 FY27 EBITDAR / ex-fx | ₹2,460 Cr (10.5%) / ₹3,615 Cr (15.5%) | [PPT2] | **V** | Yes |
+| 6 | IndiGo Q2 FY27 CASK ex-fuel ex-fx | ₹3.45 (+14.6%) | [PPT2] | **V** | Yes |
+| 7 | IndiGo Q2 FY27 fuel cost | ₹9,967 Cr (+67.2%) | [PPT2] | **V** | Yes |
+| 8 | IndiGo total / free cash, 30-Sep-2026 | ₹52,685 Cr / ₹39,929 Cr | [PR2] | **V** | Yes |
+| 9 | IndiGo op. lease liability / total debt, Sep-26 | ₹55,159 Cr / ₹87,303 Cr | [PR2] | **V** | Yes |
+| 10 | IndiGo fleet, 30-Sep-2026 | 442 (incl. 5 B787 damp, 3 A321F; 4 XLR) | [PPT2] | **V** | Yes |
+| 11 | IndiGo FY26 revenue from operations | ₹84,962 Cr | [PPT4]; [AR] | **V** | Yes |
+| 12 | IndiGo FY26 EBITDAR / ex-fx | ₹15,089 Cr (17.8%) / ₹23,189 Cr (27.3%) | [PPT4] | **V** | Yes |
+| 13 | IndiGo FY26 PAT / ex-fx / ex-fx ex-exceptional | −₹2,394 / ₹5,706 / ₹7,503 Cr | [PPT4] | **V** | Yes |
+| 14 | IndiGo FY26 forex hedge gain; exceptional split | ₹876 Cr; ₹1,219 Cr labour codes + ₹577 Cr disruption | [PPT4] | **V** | Yes |
+| 15 | IndiGo net US$ monetary liability & sensitivity | ₹84,296 Cr ≈ US$8.9 bn; 1% = ₹843 Cr | [AR] note 31 | **V** | **No** — replaces the [E] ₹900–1,000 Cr per ₹1 (S1) |
+| 16 | IndiGo FX hedge programme | US$1 bn → US$3 bn | [TR3] | **V** | New |
+| 17 | IndiGo capital commitments | ₹7,44,606 Cr | [AR] note 34 | **V** | New |
+| 18 | IndiGo employees | 41,907 (+ Agile 26,271) | [AR] | **V** | Yes |
+| 19 | IndiGo FY26 ASK / LF / passengers | 172.4 bn / 84.4% / 123.4 mn | [AR]; [PPT4] | **V** | Yes |
+| 20 | IndiGo fleet five-year path | 275 → 304 → 367 → 434 → 441 | [AR] | **V** | New |
+| 21 | Domestic passengers, Indian carriers, FY25 / FY26 | 166 mn / 168 mn (+1.1%) | [AR] (Source: DGCA) | **V** | Refines (S2) |
+| 22 | International passengers, Indian carriers, FY26 | 35 mn (+3.3%) | [AR] (DGCA) | **V** | New |
+| 23 | FY27 guidance: capacity | Q3 FY27 "early single digits"; FY27 single digits; FY28–30 early double-digit to mid-teens; 40% international by 2030 | [PR2]; [TR1] | **V** | Refines (S24) |
+| 24 | ICRA industry net loss FY26 / FY27E | ₹28,000–30,000 Cr / ₹36,000–38,000 Cr | https://www.icra.in/Research/ViewResearchReport/domestic-air-passenger-traffic-to-grow-by-a-modest-3-6-in-fy2027-industry-net-loss-projected-at-rs-360-380-billion/7079 | **V** | Yes |
+| 25 | ICRA FY27 domestic traffic growth | +3–6% | same ICRA URL | **V** | Yes |
+| 26 | Delhi ATF (domestic), 1-Mar-2026 / 1-Apr-2026 | ₹96,638.14 / ₹1,04,927 per kl | [IOCL] | **V** | Yes |
+| 27 | Delhi ATF, intl-run, 1-Apr-2026 | US$1,690.81/kl (+107% MoM) | https://iocl.com/prices-of-petroleum-products | **V** | **No** — Parts 1–3 used ₹2,07,341 "international" (S7) |
+| 28 | Delhi ATF FY26 average | ₹91,535/kl (−3.3% vs FY25 ₹94,700) | [IOCL] archive | **V** (E average) | New |
+| 29 | IndiGo promoter holding / Gangwal | 41.57% flat Dec-25 → Sep-26; Gangwal 4.53% + 1.32% | [SCR] | **V** | Yes; resolves §H18 |
+| 30 | IndiGo m-cap / price | ₹1,88,600 Cr / ₹4,878 (30-Oct close) | [SCR] | **V** | Yes |
+| 31 | SpiceJet m-cap; last reported quarter | ₹1,143 Cr; Dec-2025 (no FY26 accounts; no Jun/Sep-26 SHP) | https://www.screener.in/company/SPICEJET/consolidated/ | **V** | Yes (+ SHP gap) |
+| 32 | Emirates airline FY26 PAT / margin / fleet | AED 19.7 bn / 15.0% / 277 | https://mediaoffice.ae/en/news/2026/may/07-05/emirates-group-achieves-record-profit-in-2025-26 | **V** | Partly — fleet was ~260 [K] (S16) |
+| 33 | Delta / AF-KLM / Virgin partnership | MoU 1-Jun-2025, subject to approvals | https://news.delta.com/indigo-delta-air-lines-air-france-klm-and-virgin-atlantic-announce-partnership-link-fast-growing | **V** | Resolves §H14 (S20) |
+| 34 | Domestic passengers Sep-2026; IndiGo share | 118.23 lakh (−6.5% YoY; Sep-25 126.43); 65.4% | https://swarajyamag.com/news-brief/aviation-sector-slowdown-deepens-with-domestic-passenger-traffic-declining-65-in-september-to-118-crore (DGCA) | V-sec | Yes; labelling fixed (S4) |
+| 35 | Domestic passengers Jan–Sep 2026 | 1,223.53 lakh (−0.82%) | same Swarajya URL | V-sec | Yes |
+| 36 | Domestic passengers Jan–Mar 2026; Mar-26 shares | 437.31 lakh (+1.23%); IndiGo 63.3%, SpiceJet 3.8% | https://www.devdiscourse.com/article/business/3891041-domestic-air-traffic-rises-to-437-cr-in-mar-qtr-flight-delays-hit-121-lakh-passengers-last-month | V-sec | New |
+| 37 | Delhi ATF 1-Oct / 1-Nov-2026 | ₹1,37,120 / ₹1,38,500 per kl | https://www.indianaviationnews.net/home/2026/10/atf-prices-rise-%E2%82%B916-per-litre-as-india-cuts-windfall-tax-on-diesel-jet-fuel-exports.html ; https://www.socialnews.xyz/2026/11/01/commercial-lpg-prices-up-by-rs-10-atf-rates-hiked-by-rs-1-37-per-litre/ | V-sec | New (S6) |
+| 38 | Air India group FY26 loss (two bases) | ₹22,238 Cr (Ind AS) vs S$3.557 bn ≈ ₹26,700 Cr (SIA, mgmt accounts, TCI) | https://www.outlookbusiness.com/corporate/air-indias-loss-at-sgd-356-billion-in-2025-26-fiscal | V-sec | Basis resolved (S11) |
+| 39 | Akasa FY26 revenue / loss | ₹6,168 Cr / ₹2,716 Cr (forex ₹992 Cr) | https://lapaasvoice.com/akasa-air-fy26-revenue-rises-35-to-%e2%82%b96168-crore-as-loss-widens/ ; https://asianaviation.com/posts/akasa-air-reports-37-revenue-growth-in-fy2025-26 | V-sec | Upgrades from V-snip (S14) |
+| 40 | CRISIL FY27 industry operating profit | ₹16,000–17,000 Cr (−10–15%); lease rentals ₹27,000–28,000 Cr | https://www.freepressjournal.in/amp/business/indian-domestic-airlines-to-see-10-15-per-cent-profit-decline-this-fiscal-year-amid-higher-fuel-and-lease-costs-crisil | V-sec | New |
+
+**Score: 33 of 40 are [V] from primary documents or official pages (#1–#33)**:
+- company filings on BSE: 23
+- screener: 3
+- ICRA: 2
+- IOCL: 3
+- the UAE government release: 1
+- the Delta newsroom: 1
+
+**7 are [V-sec]** (#34–#40): fetched secondary pages that quote DGCA, IOCL/OMC wires, SIA, Mint or CRISIL. Where two sources exist, they agree:
+- #21 vs ICRA (168 mn vs 167.4 mn)
+- #34 vs ICRA's "−6.5% YoY"
+- #35 vs the summed monthly series
+- #30 vs StockAnalysis-implied US$19.9 bn
+
+## 4.4 Gap log (§H items, in the order of the prompt's priority list)
+
+| # | Gap | Status | Notes / what was tried |
+|---|---|---|---|
+| 1 | DGCA domestic FY19–FY26 series; Aug/Sep-2026 labelling; FY26 shares and LFs by airline; Dec-2025 shares | **Mostly filled** | FY20–FY26 from the AR's DGCA chart [V]; FY26 reconstructed to 1,674.8 lakh; Sep/Aug labelling **resolved** (S4). **Still open:** FY19 (not in the chart; [K] ~139–141 mn), FY26 full-year shares and LFs by airline, and Dec-2025 shares ([V-snip] only). The DGCA portal is JS-only with no reachable PDF; the press only gives monthly snapshots |
+| 2 | International Indian vs foreign carriers, FY26 and Apr–Jun 2026 | **Partly filled** | Indian carriers FY26 35 mn [V AR]; Apr–Jul 2026 −23% [V-sec]; Apr–Jun −26% Indian / +7% foreign [V Part 1]. **Foreign-carrier absolute FY26 passengers are only derived** (AAI total − DGCA Indian) [E]; the DGCA quarterly international PDF was not reachable |
+| 3 | ATF Aug–Nov 2026 and FY26 monthly | **Filled** (with caveats) | FY26 monthly Delhi series [V IOCL]; Sep/Oct/Nov-2026 [V-sec wires]; Jul/Aug-2026 levels [E]. IOCL's page has not been updated since 1-Apr-2026 |
+| 4 | IndiGo AOG count, damp-lease count, fleet by type, net USD liability, FX sensitivity | **Mostly filled** | Damp leases and fleet by type [V]; net USD liability and sensitivity [V AR] (S1). **AOG count: still unsourced.** It is not in the Q1/Q2 FY27 decks, the PR or the AR; AR note 40 confirms compensation but gives no number; the Q2 FY27 transcript was unavailable |
+| 5 | Akasa FY26; Air India loss basis; AI fleet and order book | **Filled** ([V-sec]) | Akasa revenue/loss/forex (S14); AI basis explained (S11); AI fleet/orders (S12). MCA filings not accessed (login/paywall) |
+| 6 | SpiceJet filings status, FY26 results, fleet | **Partly filled** | Status confirmed: no results after Dec-2025 and no SHP after Mar-2026 [V screener]. **Operating fleet still unsourced** (OAG flight counts only); the BSE announcement API was blocked |
+| 7 | Q2 FY27 concall commentary | **Partly filled** | The PR and Q1 transcript give the primary guidance [V]; the Business Today call report [V-sec]. **Transcript not yet obtainable** (expected on BSE ~5-Nov-2026). FY28 "under review" and widebody withdrawal stay [V-snip] |
+| 8 | Codeshares; XLR deliveries; 787 damp leases from Norse; A350 status | **Filled** | Codeshares (S20); XLR 1 → 3 → 4; B787 2 → 6 → 6 → 5; A350 60 firm, first 2027 [V]. The *Norse* identity of the 787 lessor is not named in the decks or AR (the AR mentions "Norse … operations" in a training context) — keep "Norse Atlantic" [V-snip] |
+| 9 | AI171 final report; FDTL specifics; Pakistan ban; UDF changes | **Mostly filled** | AI171 (S21), FDTL (S22), NOTAM (S23). **Airport UDF/AERA changes: not researched (budget)** — still open |
+| 10 | ICRA/CRISIL/CARE 2026 sector reports | **Filled for ICRA and CRISIL**; CARE and India Ratings not found | §4.3.4 |
+| 11 | Peer m-caps; Ryanair/Emirates primary figures | **Filled** except the Ryanair primary RNS full text | Emirates primary [V]; m-caps [V-sec]; Ryanair fleet [V-snip] |
+| 12 | Gangwal 2026 stake sale | **Filled** — none | [V screener] (S19). BSE bulk-deal page not queried (blocked) |
+| — | IndiGo FY22–FY24 yield, RASK, CASK | **Open** | Not in any fetched document; leave n/a or fetch the FY24 AR next pass |
+| — | IndiGo Q3 FY25 and Q1 FY26 deck-level cash/debt | **Open** | Q3 FY25 KPIs are [E]; one fetch of the Q3 FY26 deck would close them |
+
+## 4.5 New insights the first pass missed
+
+1. **The FX hit is now measurable, and it is smaller than feared, but structural.**
+   - The AR's own sensitivity (₹843 Cr per 1%) on a **US$8.9 bn net monetary liability** means the rupee's ₹85.5 → ₹95.85 slide (12%) mechanically explains ~₹10,000 Cr of the FY26–H1 FY27 forex losses (₹8,976 + ₹83 + ₹1,333 Cr).
+   - The forward-looking risk is that the exposure **grows with every lease**: it was US$8.0 bn in Mar-25, US$8.9 bn in Mar-26, and management talks of "close to $10 bn" incl. maintenance.
+   - The US$3 bn hedge book covers about a third of it.
+   - **Ownership shift as a hedge:** owned aircraft went 14 → 41 in a year (Sep-25 → Sep-26) and debt excluding operating leases rose 28% YoY. IndiGo is buying through GIFT City and JOLCO to cut future lease-liability growth.
+2. **OEM compensation is in IndiGo's revenue** (AR note 40). Part of FY25–FY26 "revenue from operations" is P&W/IAE AOG compensation. When the AOG problem ends, so does that income: a small, undisclosed headwind to RASK that analysts rarely model.
+3. **The commitment book is ~US$85 bn (₹7.45 lakh Cr) against a ~US$20 bn market cap.** It is 8.8× FY26 revenue. The A350 doubling and >900-aircraft order make IndiGo's capex the industry's largest, and it is dollar-denominated. Walsh's first message ("keep the orders, cut capacity flight-by-flight") is a choice to carry this commitment through a loss year.
+4. **A new regulatory front: CCI.** Besides DGCA's fine and ₹50 Cr bank guarantee, the **CCI ordered a DG investigation (4-Feb-2026)** into "unfair conditions" and "limiting … provision of services" after the December cancellations. With 65% share, any finding of abuse of dominance carries penalties of up to 10% of average turnover under the Competition Act [K]. Neither Part 1 nor the primer mentions it.
+5. **The industry is in volume decline while IndiGo outperforms on capacity discipline.**
+   - H1 FY27 domestic passengers are **~−2% YoY** [E]; Indian carriers' international passengers are **−23% (Apr–Jul)**.
+   - IndiGo cut capacity only ~1% vs the industry's ~5% (Walsh), yet took share to 65–66%.
+   - The FY26 international picture is subtler than "Indian carriers gaining". Indian carriers' international passengers grew only **+3.3%** in FY26 (35 mn), so their share of all India-international traffic slipped to ~43%. In Apr–Jun 2026 it fell to ~36% as Gulf carriers kept flying.
+6. **Fuel: the April-2026 cap was domestic-only, and it ended.**
+   - Delhi domestic ATF on 1-Nov-2026 is **₹1,38,500/kl, +46% YoY**, after four consecutive monthly rises.
+   - Walsh's ~65% crack-spread assumption (vs 21–22% historical) and the "~60% of fuel recovered" admission imply Q3 FY27 is **not** the clean festive-quarter recovery the bull case assumes.
+   - The new **ATF Price Stabilisation Fund**, which IndiGo "could join", is the policy variable to watch.
+7. **Air India's true FY26 loss depends on the basis.** It is ₹22,238 Cr Ind AS, or ~₹26,700 Cr on SIA's total-comprehensive basis, on revenue that **fell 8.6%** while IndiGo's grew 5.1%. The share gap is widening in revenue, not only passengers. SIA's associate loss (~S$0.83–0.85 bn) makes Air India's losses a Singapore earnings story too.
+8. **SpiceJet has gone dark on disclosure.** There are no audited FY26 accounts and no Jun/Sep-2026 shareholding filings; market share fell from 3.8% (Mar-26) to 0.6% (Sep-26). An exchange-level action (suspension for non-compliance) is a plausible next event [E].
+
+### 4.5b New primer issues (append to primer-issues.md)
+
+- **interglobe-aviation.html — FX sensitivity:** if the primer quotes any per-₹1 sensitivity or "dollar exposure", use AR FY26 note 31: **net US$ monetary liabilities ≈ US$8.9 bn (₹84,296 Cr) at 31-Mar-2026; 1% INR depreciation = ₹843 Cr pre-tax**. Add the hedge programme (US$3 bn, Jan-2026).
+- **interglobe-aviation.html — codeshares:** the earlier instruction "do not add Delta/AF-KLM/Virgin" is **withdrawn**. The **1-Jun-2025 MoU with Delta, Air France-KLM and Virgin Atlantic** is verified (Delta newsroom), subject to approvals. AF-KLM and Virgin have been partners since 2022. Add the 2026 codeshare expansions (BA, KLM, Qantas, AEGEAN, JAL).
+- **interglobe-aviation.html — risks section:** add the **CCI DG investigation (order 4-Feb-2026)** and the **DGCA ₹50 Cr bank guarantee** (AR note 33). Add the **P&W/IAE compensation recognised in revenue** (AR note 40).
+- **interglobe-aviation.html — capex/commitments:** add **capital commitments ₹7.45 lakh Cr (~US$85 bn)** (AR note 34), and the shift to owned aircraft (owned 14 → 41, Sep-25 → Sep-26).
+- **interglobe-aviation.html — governance:** Rahul Bhatia (MD) draws **no remuneration**; independent directors' commission was **nil for FY26**; related-party transactions total **₹319 Cr** (training ₹102 Cr the largest), with no royalty or brand fee.
+- **interglobe-aviation.html — fuel context:** Delhi ATF ₹96,638/kl (Mar-26) → ₹1,04,927 capped (Apr-26) → **₹1,38,500/kl (1-Nov-2026)**. The international-run price doubled in April ($817 → $1,691/kl).
+- **interglobe-aviation.html — industry traffic:** domestic traffic FY25 166 mn (+7%) → FY26 168 mn (+1%); H1 FY27 ~−2%; the first negative calendar YTD (Jan–Sep 2026 −0.82%) outside COVID.
+- **interglobe-aviation.html — Akasa and Air India numbers:** Akasa FY26 revenue **₹6,168 Cr**, loss **₹2,716 Cr** (forex ₹992 Cr). Air India group FY26 loss **₹22,238 Cr (Ind AS)**; SIA reports S$3.56 bn on a total-comprehensive basis. State the basis.
+
+*End of Part 4.*
