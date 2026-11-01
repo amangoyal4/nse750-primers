@@ -66,3 +66,7 @@
 - **route-mobile.html — Proximus context:** Proximus Global Q3-2026 revenue €369 mn, EBITDA €35 mn, FY26 EBITDA guide raised to €125–135 mn. No statement on Route's listing.
 - **Both — RCS:** Jio repriced RCS from a flat ₹0.08–0.10 to marketing ₹0.27–0.30 / utility ₹0.25 / OTP ₹0.11–0.16 on 1-Sep-2026.
 
+
+## From primer-audit.mjs (2026-11-01, cpaas run)
+- **tanla-platforms.html** — hard checks pass; note: no `main{min-width:0}` (phone overflow risk); 0 report links (should link subsectors/cpaas.html once published). Refreshed 2026-07-27 per audit (header says 14-Aug).
+- **route-mobile.html** — hard checks pass; note: no `main{min-width:0}` (phone overflow risk); 0 report links (should link subsectors/cpaas.html once published).
