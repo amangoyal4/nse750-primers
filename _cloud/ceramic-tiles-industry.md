@@ -993,3 +993,555 @@ Notes on bases:
 - [V-snip] Varmora Granito DRHP summaries: https://www.multibagg.ai/market-pulse/articles/varmora-granito-ipo-drhp-400-crore-fresh-issue-financials-risks-cmu50w2yo0000m4qk2bcbvjiv
 - [V-snip] BIS circular on IS 15622 Amendment 2 (2-Apr-2026): https://www.services.bis.gov.in/tmp/Circular_wBR0_2026-04-02.pdf
 - [V-sib] `subsectors/gas-distribution.html` (GEL merger; Morbi swing load; emergency order; spot LNG; Saudi CP); `subsectors/realty.html` (Knight Frank 9M-2026; ICRA FY27 outlook).
+
+
+---
+
+# PART 4 — Deep-research supplement (1-Nov-2026)
+
+Second, primary-source pass on Parts 1–3 (written 1-Nov-2026, same day, later session). Scope: one member (Kajaria) in full; reference peers (Somany, Asian Granito, Orient Bell, Cera, Prism Johnson/H&R Johnson) in a lighter pass; global peers (Mohawk, RAK); and the 16 gaps in §H. Scratch notes and downloaded PDFs: `/tmp/ceramic-tiles-deep/`.
+
+**Tags in Part 4.** [V] = read this session in the named document (URL given in-line or in §4.6). [V-P1] = verified in Part 1–3 from a primary document that I re-opened locally (the first-pass PDFs in `/tmp/ceramic-tiles-dossier/pdf/`) — counts as primary. [V-snip] = search-result text only. [K] = memory. [E] = my arithmetic or estimate. Where Part 4 conflicts with Parts 1–3, **Part 4 wins** and the change is listed in §4.0.
+
+**New primary documents read this session (Kajaria):**
+- **Integrated Annual Report FY2025-26** (40th AGM; ~330 pp): https://www.kajariaceramics.com/storage/pdf/annual-report-2025-26.pdf — MD&A (pp. 44–57), consolidated segment note 41, related-party note 37, commitments/contingencies note 40, exceptional items note 63; standalone RPT note 40 and exceptional note 39.
+- **Q1 FY27 Investor Update (31-Jul-2026)**: https://www.kajariaceramics.com/storage/pdf/investor-release-submitted-to-stock-exchanges-31072026.pdf
+- **RPT disclosure for H1 FY27 (Reg 23(9), period to 30-Sep-2026)**: https://www.kajariaceramics.com/storage/pdf/disclosure-of-rpt-30092026.pdf
+- Re-read in full from the first pass: Q2 FY27 Investor Update (24-Oct-2026), Q2 FY27 call transcript (26-Oct-2026), Q1 FY27 call transcript (31-Jul-2026), Q4 FY26 Investor Update (30-Apr-2026). The company's own investor page also lists the Q2 transcript at https://www.kajariaceramics.com/storage/pdf/disclosure-transcript-of-con-call-26october2026.pdf and the Q2 release at https://www.kajariaceramics.com/storage/pdf/investor-release-q2-26-27.pdf.
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Where (Part 1–3) | Old | New | Source (tag) |
+|---|---|---|---|---|
+| 1 | §9.2, Part 2 | Q1 FY27 volume 28.81 MSM [E]; tile revenue ₹1,162 Cr | **28.80 MSM** (own 15.61 / subs 6.08 / outsourced 7.11); tile revenue **₹1,161.53 Cr** | Kajaria Q1 FY27 Investor Update (31-Jul-2026) [V] |
+| 2 | Trap 3, §1.3 | Outsourced realisation exceeded own-plant "in Q2 FY27 for the first time" | Already in **Q1 FY27** (₹407 vs ₹404/sq m) | Q1 FY27 update [E from V] |
+| 3 | Q2 status §1 | Buyback "≈₹1,390/share average [E]" | **Fixed price ₹1,380/share; ≤21.5 lakh shares; ≤₹296.70 Cr** (≈1.35% of equity) | AR FY26 consolidated note 64 [V] |
+| 4 | Trap 11, §9.1 | Company ROE quoted only as 23.68% | FY26 company **ROE 16.71%** (FY25 10.98%); **ROCE 23.87%** (FY25 16.28%); 23.68%/29.87% are Q2 FY27 annualised | AR FY26 MD&A [V] |
+| 5 | Q2 status §4, §B4 | Promoters "not drawing salaries for FY27" | Promoters drew **nil in FY26 and FY27** ("second successive year"); FY25 ₹5.67 / 5.74 / 5.80 Cr | AR FY26 note 37 + chairman's letter [V] |
+| 6 | Part 2 §2.1 | FY26 exceptional −₹44.02 Cr (unexplained) | = labour-code gratuity/leave ₹19.43 Cr + JV-loan impairment ₹4.78 Cr + **Kerovit Global fraud ₹19.81 Cr net** | AR FY26 note 63 [V] |
+| 7 | Trap 5, §2.3, §E1 | FY25 exports ₹16,000 Cr (Kajaria deck) vs ₹18,000 Cr (PL) — unresolved | **US$2,127.5 mn ≈ ₹18,000 Cr (−12.5% in US$)**; FY24 US$2,430.7 mn ≈ ₹20,100 Cr | CAPEXIL / DGCI&S HS-code export table [V] |
+| 8 | Trap 5, §2.3, §E1 | FY26 exports ~₹16,000 Cr (Kajaria) or CAPEXIL "record" US$2,115 mn | **~US$2.1 bn ≈ ₹18,000–18,500 Cr, ~flat (−0.6% to −2%)**, not a record | CAPEXIL post [V-snip]; CRISIL 31-Dec-2025 [V] |
+| 9 | §0, §B3 | "Exports collapsing for the third time in four years" | FY25 −12.5%, **FY26 ~flat**, FY27E **−30–40%** (~₹11,000–12,500 Cr) | CAPEXIL; Varmora call (Morbi exports −40%) [V]; Kajaria [V-P1] |
+| 10 | Trap 4, §2.1 | "Use Varmora DRHP ₹53,100 Cr (FY25E) as domestic market" | CRISIL: **industry revenue ₹51,000–53,000 Cr (FY26), ~⅔ domestic (~₹35,000 Cr) and ~⅓ exports**; the DRHP number is likely total industry | CRISIL PR 31-Dec-2025 [V] |
+| 11 | §5.1 | Kajaria share of domestic value ~8–9% | **~12%** on CRISIL's domestic basis (₹4,280 Cr ÷ ~₹35,000 Cr) | [E from V] |
+| 12 | Trap 10, §7.2 | ADD rates "₹155/m² or $1.87/m² — unverified" | **US$1.87/m²** on all Chinese producers except two named (nil); HS 6907/6914; 5 years from 24-Feb-2022 → **~23-Feb-2027** | Notif. 09/2022-Cus(ADD) text via eximguru [V] |
+| 13 | §7.3, primer reconciliation | Mexico probe "unverified" | **AD initiated 13-Aug-2025; provisional duties from 28-Sep-2026: US$0.07 / 4.31 / 10.98 per m² (Cyan exempt); six months** | Stratego summary of DOF [V]; Mondaq/VTZ [V-snip] |
+| 14 | §7.3 | GCC ADD "original 2019–20" | **Definitive duty from 6-Jun-2020; sunset review Mar-2025; extension notice 21-Apr-2026; new term from 28-May-2026** | Global Trade Alert [V]; antidumping.vn [V-P1] |
+| 15 | Trap 6, §4.3 | Morbi units 800–900 (PL: 370 gas-only + ~530 dual-fuel) | **~790 fuel-buying units in Feb-2026: 377 PNG customers + ~415 propane customers** | Gujarat Gas press note 14-Apr-2026 [V] |
+| 16 | §0, §4.1 | Propane "40–65% of Morbi fuel" | **~70% pre-crisis (Feb-2026)**, ~5.6 mmscmd NG-eq; 65% → 80% Aug–Sep 2026 | GGL press note [V]; deshgujarat [V-P1] |
+| 17 | Q2 status §5 | "Gujarat Gas merged with GSPC/GSPL into GEL from May-2026" | Scheme **effective 1-May-2026**: GSPC, GSPL and **GSPC Energy Ltd** amalgamated into Gujarat Gas; transmission demerged into GSPL Transmission Ltd; rename to Gujarat Energy Ltd announced (date unverified). Note "GEL" in the filing means GSPC Energy Ltd | GGL Reg-30 filing 1-May-2026 [V] |
+| 18 | §4.1 gas arithmetic | Morbi fuel use 1.6–2.0 SCM/sq m; cost shock ~₹85/sq m | **~1.5–1.7 SCM/sq m (NG-eq)**; shock ≈ **₹76/sq m** at 1.6 | [E from V GGL volumes] |
+| 19 | §4.1 table | Gas ≈ 20–25% of production cost [ICRA + E] | ICRA ~25% (power & fuel) **and AGL "22.43%" of product cost (pre-war)** | AGL Q3 FY26 call [V] |
+| 20 | Part 2 §2.2, §3.1 | Somany Q1 FY27 EBITDA ₹80.9 Cr / 10.86% (Arihant) | **₹86 Cr / 11.6%** (company); revenue ₹744.20 Cr; volume 16.46 MSM (+2.8%) | Somany Q1 FY27 deck [V] |
+| 21 | §4.3, §H16 | Somany capacity ~70–75 MSM [K] | **~80 MSM incl. dedicated outsource tie-ups; plants 56.59 MSM** (own 36.15 + JV 20.44) | Somany deck [V] |
+| 22 | §4.3 | Somany debottleneck +4–5 MSM (H2 FY27) | **3–4 MSM in FY27** per the call ("no increase in capacity" otherwise); 9+ MSM Tirupati JV Q4 FY28 | Somany call 17-Aug-2026 [V] |
+| 23 | Q2 status §9, §5.2, §2.9 | Varmora listing "unverified"; capacity 43.80 MSM | **Listed 29-Sep-2026 (BSE 544942); IPO ₹708 Cr (fresh ₹320 Cr); capacity 50.6 MSM (incl. Tezpur, Assam); m-cap ₹2,739 Cr** | Varmora call 23-Oct-2026 [V]; screener [V] |
+| 24 | §5.1, §5.2, §6 | Simpolo revenue "₹1,200–1,500 Cr [K/E]"; Morbi-branded archetype margin 10–15% | **Simpolo FY26 ₹2,156.9 Cr (+16.2%), operating margin 18.5%, capacity 39.6 MSM**, 94% domestic | ICRA rationale 29-Sep-2026 [V] |
+| 25 | §10, §2.9 | Mohawk Global Ceramic "~US$4.2–4.4 bn; 6–9% margin [K]" | 9M-2026 **US$3,435.7 mn** (~US$4.5 bn annualised); **Q3 2026 operating margin 5.8%** (adjusted 6.5%) | Mohawk Q3 2026 8-K [V] |
+| 26 | §0, §12 | "~40–50% of Morbi plants still not working (late Oct)" as the industry state | Attribute it: Kajaria (26-Oct) 40–50% idle; **Somany (Aug) "Morbi resumed 100% from May-end", ~15–17% won't restart; Orient Bell (Aug) "running at capacity"**; GGL: only 142 units running on 14-Apr | Calls [V]; GGL [V] |
+| 27 | §0 (branded winners) | "Branded players are the winners" | **Within branded players**: Q1 FY27 volume Kajaria +6%, OB +23%, Somany +3%, **HRJ −18%**, Varmora −15% (H1) → group ~flat | Company decks [V] |
+| 28 | §2.2 | India production ~2,500–2,600 MSM [E] | **2,450 MSM (2023, MECS)**; ~2,600–2,750 MSM by 2025 [E] | MECS via search summary [V-snip] |
+| 29 | §1.2 / §B1 | Kajaria capex "FY27 ~₹400 Cr" only | Add: H1 FY27 standalone purchases from subsidiaries ₹417.82 Cr; Nepal JV SBLC ₹130.31 Cr (contingent) | RPT H1 FY27; AR note 40 [V] |
+| 30 | §7.3 | US tariff path "IEEPA struck down 20-Feb-2026; Sec 122 10%; then 10% Sec 301" | Confirmed: **Section 301 forced-labour duty 10% on India from 24-Jul-2026** (proposed 12.5%); also an interim US–India deal had cut the US duty "from 50% to 18%" in early Feb-2026 (AGL call) | [V-snip]; AGL Q3 FY26 call [V] |
+
+## 4.1 Verification table — 40 figures the writer will use
+
+"Primary" = company filing/deck/transcript/AR, government or regulator document, rating-agency rationale or press release. "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Source (URL in §4.6) | Primary? | Fetched this session? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|---|
+| 1 | Kajaria Q2 FY27 consolidated revenue | ₹1,468.26 Cr (+24%) | Kajaria Q2 FY27 Investor Update (24-Oct-2026) | Yes | Re-read (first-pass PDF) [V-P1] | Yes |
+| 2 | Kajaria Q2 FY27 EBITDA / margin | ₹286.50 Cr / 19.51% | same | Yes | [V-P1] | Yes |
+| 3 | Kajaria Q2 FY27 PAT | ₹189.52 Cr (+43%) | same | Yes | [V-P1] | Yes |
+| 4 | Kajaria Q2 FY27 tile volume | 31.81 MSM (+10.2%) | same | Yes | [V-P1] | Yes |
+| 5 | Kajaria Q1 FY27 tile volume | 28.80 MSM (+6.0%) | Kajaria Q1 FY27 Investor Update (31-Jul-2026) | Yes | **[V]** | Nearly (28.81 [E]) |
+| 6 | Kajaria FY26 tile volume / tile revenue | 118.52 MSM / ₹4,280.29 Cr | AR FY26 pp. 48–49, note 41 | Yes | **[V]** | Yes |
+| 7 | Kajaria FY26 revenue / EBITDA / PAT (company) | ₹4,832.50 / ₹861.95 (17.84%) / ₹485.41 Cr | AR FY26 MD&A p. 54 | Yes | **[V]** | Yes |
+| 8 | Kajaria capacity | 82.70 MSM ex 5.10 MSM Nepal JV | AR FY26 capacity map; Q2 deck | Yes | **[V]** | Yes |
+| 9 | Kajaria FY26 production | 84.59 MSM tiles | AR FY26 | Yes | **[V]** | Yes |
+| 10 | Kajaria net cash Mar-26 | ₹793.38 Cr (net D/E −0.25×) | AR FY26 MD&A | Yes | **[V]** | Yes |
+| 11 | Kajaria FY26 ROCE / ROE (company) | 23.87% / 16.71% | AR FY26 MD&A | Yes | **[V]** | ROE new (supersedes) |
+| 12 | Kajaria tile segment result FY26 | ₹651.18 Cr (15.2% of tile revenue) | AR FY26 note 41 | Yes | **[V]** | New |
+| 13 | Kerovit Global fraud loss | ₹19.81 Cr net (~₹20.20 Cr gross) | AR FY26 note 63 | Yes | **[V]** | New |
+| 14 | Promoter remuneration FY26 | Nil (FY25 ₹5.67/5.74/5.80 Cr) | AR FY26 note 37 | Yes | **[V]** | Extends Part 1 |
+| 15 | Nepal JV standby LC (contingent) | ₹130.31 Cr | AR FY26 note 40 | Yes | **[V]** | New |
+| 16 | Kajaria Q2 FY27 gas price N/S/W | ₹70.56 / ₹63 / ₹75 per SCM | Q2 FY27 call transcript | Yes | [V-P1] | Yes |
+| 17 | Brand-vs-Morbi price gap | ~40% → 20–25% (Kajaria); ₹100 → ₹50–55 (Orient Bell) | Kajaria Q2 call; OB Q1 call | Yes | [V-P1] + **[V]** | Yes (now two sources) |
+| 18 | Kajaria expansions | Srikalahasti 12.5 MSM ₹340 Cr (Jun-27); Gailpur 11 MSM ₹180 Cr (Apr-27) | Q2 FY27 deck | Yes | [V-P1] | Yes |
+| 19 | Buyback terms | ₹1,380/share, ≤21.5 lakh shares, ≤₹296.70 Cr | AR FY26 note 64 | Yes | **[V]** | Supersedes [E] |
+| 20 | Somany Q1 FY27 revenue / EBITDA | ₹744.20 Cr / ₹86 Cr (11.6%) | Somany Q1 FY27 presentation | Yes | **[V]** | No (Arihant 10.86%) |
+| 21 | Somany Q1 FY27 tile volume | 16.46 MSM (+2.8%) | same | Yes | **[V]** | Yes (16.4, +3%) |
+| 22 | Somany capacity | ~80 MSM incl. tie-ups; plants 56.59 MSM | same | Yes | **[V]** | No ([K] 70–75) |
+| 23 | Orient Bell Q1 FY27 volume / EBITDA margin | 6.3 MSM (+22.9%) / 8.7% | OB Q1 FY27 presentation & call | Yes | **[V]** | New |
+| 24 | Orient Bell capacity | 42.4 MSM incl. associates | same | Yes | **[V]** | New |
+| 25 | HRJ Q1 FY27 tile volume / realisation / margin | 10.8 MSM (−18%) / ₹394 per m² / 9.0% | Prism Q1 FY27 presentation | Yes | **[V]** | Margin yes; rest new |
+| 26 | Simpolo FY26 revenue / margin / capacity | ₹2,156.9 Cr / 18.5% / 39.6 MSM | ICRA rationale 29-Sep-2026 | Yes | **[V]** | No ([K/E] ₹1.2–1.5k Cr) |
+| 27 | Varmora listing / capacity | Listed 29-Sep-2026; 50.6 MSM; H1 FY27 volume −14.7% | Varmora Q2 FY27 call | Yes | **[V]** | No ("unverified"; 43.80) |
+| 28 | India tile exports FY24 / FY25 | US$2,430.7 mn / US$2,127.5 mn (−12.5%) | CAPEXIL HS-code table (DGCI&S) | Yes (govt data via export council) | **[V]** | Resolves conflict (PL right) |
+| 29 | India tile exports FY26 | ~US$2,115 mn (−0.6%) | CAPEXIL post | No (promotional post) | [V-snip] | Contradicts Kajaria ₹16,000 Cr |
+| 30 | Industry revenue FY26 | ₹51,000–53,000 Cr; ~⅔ domestic | CRISIL Ratings PR 31-Dec-2025 | Yes | **[V]** | Changes basis of Trap 4 |
+| 31 | India ADD on Chinese vitrified tiles | US$1.87/m²; 24-Feb-2022; 5 years | Notif. 09/2022-Cus(ADD) (eximguru reproduction) | Near-primary (gazette text reproduced) | **[V]** | Fills |
+| 32 | US CVD on Indian ceramic tile | 3.06% / 3.45% / 3.18% all-others; order 16-Jun-2025 | Federal Register 2025-11052 | Yes | **[V]** | Yes (upgrade from snippet) |
+| 33 | Mexico provisional ADD on Indian tiles | US$0.07 / 4.31 / 10.98 per m², from 28-Sep-2026 | Stratego (DOF summary) | No (law-firm/consultant summary) | **[V]** | New (was "unverified") |
+| 34 | GCC ADD timeline | Imposed 6-Jun-2020; SSR Mar-2025; extended 21-Apr-2026 (term from 28-May-2026) | Global Trade Alert; antidumping.vn | No (secondary trackers) | **[V]** | Yes |
+| 35 | Morbi fuel customers pre-crisis | 377 PNG + ~415 propane; propane ~70% of fuel | Gujarat Gas press note 14-Apr-2026 | Yes | **[V]** | Refines (800–900) |
+| 36 | Gujarat Gas–GSPC–GSPL scheme effective | 1-May-2026 | GGL Reg-30 filing | Yes | **[V]** | Yes ("May-2026") |
+| 37 | Morbi PNG tile price | ₹90/SCM ex-6% VAT from 2-Sep-2026 (₹82 for long-term/sanitaryware) | deshgujarat 3-Sep-2026; corroborated by Kajaria ("₹91 today") and Varmora ("~₹92") | No (news) + Yes (calls) | [V-P1] + **[V]** | Yes |
+| 38 | Gas share of tile cost | 22.43% of product cost (AGL, pre-war); ICRA ~25% | AGL Q3 FY26 call; ICRA Jun-2026 | Yes | **[V]** + [V-P1] | Yes |
+| 39 | Mohawk Global Ceramic Q3 2026 | Sales US$1,128.6 mn (+2.2%); operating margin 5.8% | Mohawk 8-K (SEC) | Yes | **[V]** | No ([K] 6–9%, size) |
+| 40 | RBI repo rate | 5.50% (hiked from 5.25% on 7-Oct-2026) | Multiple news/knowledge sites | No | [V-snip] | Yes |
+
+**Count:** 36 of the 40 figures are from primary documents (35 if the reproduced gazette text in row 31 is not counted as primary) (company decks/transcripts/AR, Gujarat Gas filings, Federal Register, ICRA/CRISIL, DGCI&S data via CAPEXIL), of which **30 were fetched or re-read in full this session** (rows 1–4, 16, 18 re-read from first-pass PDFs; all others fetched new). Non-primary: rows 29, 33, 34, 40 (and the news half of 37). **Most credible where sources conflict:** exports — DGCI&S (CAPEXIL) over management round numbers; industry size — CRISIL (documented sample) over management's FY27 estimate; Morbi state — date-stamp each statement (Aug vs Oct differ for a real reason: the 2-Sep GEL price rise).
+
+## 4.2 Per-company primary-document packs
+
+### 4.2.1 Kajaria Ceramics (member) — full pack
+
+#### (a) Management-commentary digest (paraphrased; source = Q2 FY27 call 26-Oct-2026 unless marked; Q1 = call of 31-Jul-2026)
+
+**Guidance (what management committed to, with the exact framing)**
+
+| Topic | Guidance / statement | Source | Tag |
+|---|---|---|---|
+| Volume, H2 FY27 | "Double-digit volume growth in the coming 6 months" (i.e., Oct-26 to Mar-27); "volume growth will remain in double digit, but the value will…not be much" higher (no price tailwind) | Q2 call (MD, CFO) | [V-P1] |
+| Volume, FY27 | ~130 MSM sales ("this year we'll be selling about 130 million square meters"); Q1 framing was "~10% volume growth for the remaining 9 months" | Q2 call; Q1 call | [V-P1] |
+| Volume, FY28 | ~145 MSM; outsourcing (management's broad definition, subsidiaries + third parties vs an ~88 MSM base incl. Nepal) falls from ~42 to ~36–37 MSM as +22.5–23.5 MSM of own GVT comes on | Q2 call | [V-P1] |
+| Market growth | Industry volume +5–6% in FY27 vs Kajaria ~10% ("the rest would be" share gain) | Q2 call | [V-P1] |
+| Pricing | **No price hike in Q2 and none intended**; cumulative hikes since 28-Feb-2026: North/South plants **12–13%** across ceramic/PVT/GVT; Kajaria's own Morbi plants **18–19%**; Morbi market **35–40%** | Q2 call | [V-P1] |
+| Margin | EBITDA margin "stable going forward…around the same numbers"; "around 19%…comfortably"; "even…18%, 19%, that's a good margin. We are not greedy for margins" — focus on absolute EBITDA; margin to be defended through cost cuts, fixed-cost leverage and firing-cycle reduction, not price | Q2 call | [V-P1] |
+| EBITDA (absolute) | "₹1,000 Cr plus" for FY27 (Q1 call). H1 FY27 actual ₹546.83 Cr → H2 needs ≥₹453 Cr, i.e., below the H1 run-rate [E] | Q1 call; Q2 deck | [V-P1]/[E] |
+| Gas | Q2 blended ~₹70/SCM (North ₹70.56, South ₹63, West ₹75); North/South "prices have not changed much"; West to rise (propane-heavy); "from January, we'll get some significant reduction in our gas cost" (cheaper gas contracts + shorter firing cycles); "spot…$28 to $30" (per mmbtu, misspoken as "per SCM") | Q2 call | [V-P1] |
+| Capex | Srikalahasti brownfield **12.5 MSM GVT, ₹340 Cr, Jun-2027** (raised from 10 MSM/₹210 Cr; machinery +25% with capacity, the rest a bigger shed and racked warehouse; the shed can house a second line to **25 MSM**); Gailpur **11 MSM GVT, ₹180 Cr (from ₹165 Cr; civil cost), Apr-2027**; Durgapur adhesives **₹34 Cr, Dec-2027**; FY27 capex ~₹400 Cr | Q2 deck p.~15; Q2 call | [V-P1] |
+| Mix | Both expansions 100% GVT; "ceramic market is coming down…every year"; the **9.1 MSM Gailpur ceramic-floor line was converted to GVT** in FY26 | Q2 call; **AR FY26 chairman's letter** | [V-P1]; [V] |
+| Adhesives | ₹125 Cr (FY26, management's round figure; reported ₹136.43 Cr) → ~₹240 Cr FY27 → ~₹400 Cr FY28; one 9,000 t/month plant ≈ ₹60–65 Cr revenue on a 12-hour shift | Q2 call | [V-P1] |
+| Bathware | Q2 growth 21% = ~half price, half volume; margin "used to be 14–15%", lower this year; target close to tile margin in FY28 (Q1 call) | Q2/Q1 calls | [V-P1] |
+| Costs | Employee cost ~₹141–142 Cr a quarter (increments done); other expenses ₹138 Cr in Q2 (advertising up) — "we are going to increase our ad expense" | Q2 call | [V-P1] |
+| Distribution | ~1,800 dealers ("we don't have distributors, we have dealers"), ~450 exclusive; network "more or less consolidated", may lose ~110 and add new; more exclusive showrooms in Tier 2/3 | Q2 call | [V-P1] |
+| Industry size | FY27 domestic ~₹48,000 Cr + exports ~₹12,000 Cr = ~₹60,000 Cr, "due to the price hike also" | Q2 call (Chairman) | [V-P1] |
+| Morbi | 400–500 plants, 40–50% not working; Morbi gas ₹50 (28-Feb) → ₹91 "today"; propane +₹12.5/SCM in 2–3 days, ~5% cheaper than PNG (was 15%); Brent ~$116 "as of now" | Q2 call (Chairman) | [V-P1] |
+| Treasury | ₹155 Cr loans to NBFCs (treasury deployment; "earlier given to Bajaj and PNB Housing Finance"); ₹178 Cr debt drawdown = JV bank limits and working capital | Q2 call (CFO) | [V-P1] |
+| Nepal JV | 85% utilisation in Q2; 5 MSM ceramic+GVT line commissioned ~Sep-2024 (commercial production 6-Sep-2024 per AR); total investment ~₹200 Cr incl. JV stake; Nepal tile market ~₹2,500 Cr; runs on coal gas | Q2 call; AR FY26 | [V-P1]; [V] |
+
+**The 6 analyst Q&A points that matter most (Q2 call)**
+1. *Why is gross margin flat if prices rose 12–13%?* — Management pointed to EBITDA margin instead; the price hikes covered gas/outsourced-tile inflation ("mainly because of inflation…not seeing any incremental margin" on outsourced tiles). Q2 screener material cost was 41.3% of sales vs 39.8% in FY26 [V screener]. Read: the margin gain came from operating leverage and fixed costs, not price-over-cost.
+2. *Is the 10% volume sustainable once gas normalises?* — Yes, says management: the unification ("Kajaria 2.0") is structural; volume began rising in Jan-2026, **before** the war. The **FY26 AR's risk section states the bear case itself**: "a significant portion of the volume uplift is attributable to supply disruptions caused by the ongoing conflict in the Middle East rather than to underlying demand strength" — and rejects it [V AR p.56].
+3. *If Morbi gas cools, will Morbi cut prices and re-widen the gap?* — "the gas prices are not going to come down…no visibility" (Chairman); Q1 call had conceded "If the prices may go down, our prices will also go down" [V-P1].
+4. *What is the gap now?* — From ~40% (Kajaria North/South tile vs Morbi tile via a Morbi dealer, pre-28-Feb) to **20–25%** after Morbi +35% vs Kajaria +12–13% [V-P1].
+5. *Why put capex in your own plants now?* — "if you have to grow by double digits, we need to increase our volume"; bigger lines are cheaper per MSM; "we further have a gas advantage here as compared to Morbi" [V-P1].
+6. *Treasury loans (₹155 Cr) and new borrowings (₹178 Cr)* — explained as treasury placement with housing-finance NBFCs and JV/working-capital lines respectively [V-P1]. A governance flag the writer should mention neutrally.
+
+#### (b) Concall / investor-update KPI table (company data; ₹ Cr unless stated) [V-P1 for Q2 FY27, Q4 FY26; V for Q1 FY27 release]
+
+| KPI | Q1 FY26 | Q2 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 | H1 FY27 | FY26 |
+|---|---|---|---|---|---|---|---|
+| Tile sales volume (MSM) | 27.18 | 28.87 | 33.51 | **28.80** | **31.81** | 60.62 | 118.52 |
+| — own plants | 14.75 | 15.66 | — | 15.61 | 17.01 | 32.61 | 62.85 |
+| — subsidiaries | 5.74 | 6.30 | — | 6.08 | 7.03 | 13.11 | 26.26 |
+| — outsourced | 6.69 | 6.91 | — | 7.11 | 7.77 | 14.90 | 29.41 |
+| Volume YoY | — | — | +11.3% | **+6.0%** | **+10.2%** | +8.2% | +3.3% |
+| Tile production (MSM, own+subs) | 21.43 | 20.88 | — | **20.89** (−2.5%) | 22.94 (+9.9%) | 43.83 | 84.59 |
+| Tile revenue | 986.35 | 1,051.45 | 1,212.59 | 1,161.53 | 1,290.75 | 2,452.27 | 4,280.29 |
+| — own / subs / outsourced | 543.93 / 204.36 / 238.06 | 579.73 / 221.52 / 250.20 | — | 631.03 / 241.10 / 289.40 | 694.20 / 268.05 / 328.50 | 1,325.23 / 509.16 / 617.88 | 2,322.89 / 902.20 / 1,055.20 |
+| Blended realisation (₹/sq m) [E] | 362.9 | 364.2 | 361.9 | **403.3** | **405.8** | 404.5 | 361.1 |
+| — own / subs / outsourced [E] | 368.8 / 356.0 / 355.8 | 370.2 / 351.6 / 362.1 | — | 404.3 / 396.5 / 407.0 | 408.1 / 381.3 / 422.8 | 406.4 / 388.4 / 414.7 | 369.6 / 343.6 / 358.8 |
+| Bathware revenue | 91.47 | 102.39 | — | 121.50 | 123.59 | 245.09 | 413.64 |
+| Adhesives revenue | 24.92 | 32.17 | — | 45.05 | 53.92 | 98.98 | 136.43 |
+| Consolidated revenue | 1,104.33 | 1,186.56 | 1,373.35 | 1,328.08 | 1,468.26 | 2,796.34 | 4,832.50 |
+| EBITDA (margin) | 184.63 (16.72%) | 212.90 (17.94%) | 263.52 (19.19%) | 260.33 (19.60%) | 286.50 (19.51%) | 546.83 (19.56%) | 861.95 (17.84%) |
+| PBT pre-JV/exceptional | 149.02 | ~181 | — | 230.23 | 253.88 | ~484 | 722.78 |
+| PAT | 108.98 | 132.96 | 155.75 | 169.46 | 189.52 | 358.98 | 485.41 |
+| Gas ₹/SCM N / S / W (avg) | — | — | 55 / 49.6 / 47 | ~64 / ~72.5 / ~85 (~71) | 70.56 / 63 / 75 (~70) | — | — |
+| Net cash (period-end) | — | — | 793 | — | 635 | 635 | 793 |
+| WC days | — | 57 | 51 | 46 | 48 | 48 | 51 |
+| ROCE (company, ex-cash, annualised) | — | 22.04% | 23.87% | 28.08% | 29.87% | — | 23.87% |
+
+- **Correction to Part 2 §9.2:** Q1 FY27 volume is **28.80 MSM** (company; Part 2 had 28.81 [E]) and Q1 FY27 tile revenue **₹1,161.53 Cr** (Part 2 had ₹1,162). Q1 FY27 **own-plant production fell 1%** (15.07 vs 15.22 MSM) and subsidiaries' fell 6% (5.82 vs 6.21) — April's Morbi shutdown hit the three Morbi subsidiaries too. Volume growth in Q1 came entirely from selling more own/sub stock and +6% outsourced.
+- **Q1 FY27 realisation inversion started in Q1, not Q2:** outsourced ₹407 > own ₹404 already in Q1 FY27 [E from V]; Part 1 dated it to Q2.
+- **Kajaria Infinity capacity:** the Q1 FY27 update says **2.70 MSM** ("reduced from 5.70"); the Q2 FY27 update and the AR say **3.00 MSM**. Use 3.00 (latest), note the restatement.
+
+#### (c) Five-year history (screener consolidated, fetched 1-Nov-2026; company figures in brackets where they differ) [V screener; company V]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | TTM Sep-26 |
+|---|---|---|---|---|---|---|
+| Revenue | 3,705 | 4,382 | 4,474 | 4,635 (co. 4,683.24 incl. plywood) | 4,830 (co. 4,832.50) | 5,338 |
+| YoY | +33.2% | +18.3% | +2.1% | +3.6% | +4.2% | — |
+| Operating profit (EBITDA) | 612 | 593 | 706 | 635 (co. 597.50) | 869 (co. 861.95) | 1,011 |
+| OPM | 17% | 14% | 16% | 14% (co. 12.76%) | 18% (co. 17.84%) | 19% |
+| Other income | 26 | 25 | 35 | −14 | 3 | 15 |
+| Depreciation | 115 | 133 | 148 | 165 | 169 | 169 |
+| Interest | 13 | 22 | 17 | 20 | 23 | 22 |
+| PAT | 383 | 346 | 432 | 300 (co. 294.35) | 487 (co. 485.41) | 604 |
+| EPS (₹) | 23.68 | 21.64 | 26.50 | 18.48 | 30.48 | 37.99 |
+| ROCE (screener) | 24% | 20% | 21% | 17% | 23% | — |
+| ROCE (company, AR) | — | — | — | 16.28% | 23.87% | 29.87% (Q2 annualised) |
+| ROE (company, AR) | — | — | — | 10.98% | 16.71% | 23.68% (Q2) |
+| Tile volume (MSM) | 92 | 102 | 108 | 114.69 | 118.52 | ~124 (H2 FY26 + H1 FY27) [E] |
+
+- Five-year CAGR FY21→FY26 (screener): revenue 11.7%, OP 11.0%, PAT 9.5% [E from V]. FY22→FY26: revenue 6.9%, OP 9.2%, PAT 6.2% [E].
+- **ROE correction:** Part 1 §9.1 and Part 2 quote "ROE 23.68% (company)" for Q2 FY27 — correct, but the **FY26 company ROE is 16.71%** (AR MD&A), close to screener's 17.9%. Use 16.7% for FY26.
+
+#### (d) Eight-quarter trend (screener consolidated; volume and margin from company) [V]
+
+| Quarter | Sales | YoY | OP | OPM | Other inc. | PAT | EPS ₹ | Tile vol (MSM, co.) | Vol YoY | Co. EBITDA margin |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Dec-24 (Q3 FY25) | 1,156 | +0.3% | 152 | 13% | 4 | 79 | 4.88 | n/a | — | n/a |
+| Mar-25 (Q4 FY25) | 1,222 | +1.2% | 138 | 11% | −11 | 43 | 2.67 | 30.11 | — | 10.01% |
+| Jun-25 (Q1 FY26) | 1,103 | +0.6% | 187 | 17% | 12 | 110 | 6.84 | 27.18 | — | 16.72% |
+| Sep-25 (Q2 FY26) | 1,186 | +0.6% | 213 | 18% | 15 | 134 | 8.35 | 28.87 | — | 17.94% |
+| Dec-25 (Q3 FY26) | 1,168 | +1.0% | 200 | 17% | −28 | 86 | 5.51 | 28.96 [E] | ~flat | 17.20% |
+| Mar-26 (Q4 FY26) | 1,373 | +12.4% | 263 | 19% | 9 | 157 | 9.78 | 33.51 | +11.3% | 19.19% |
+| Jun-26 (Q1 FY27) | 1,328 | +20.4% | 260 | 20% | 18 | 171 | 10.64 | 28.80 | +6.0% | 19.60% |
+| Sep-26 (Q2 FY27) | 1,468 | +23.8% | 287 | 20% | 17 | 191 | 12.06 | 31.81 | +10.2% | 19.51% |
+
+- Pattern: four flat quarters (Q3 FY25–Q3 FY26, YoY revenue growth ≤1%) while margin rebuilt from 11% to 17–18% on cheap Morbi gas and cost cuts; then three quarters of +12–24% revenue growth after the 28-Feb-2026 shock. The Dec-25 quarter's −₹28 Cr other income contains the Kerovit fraud loss (₹19.81 Cr net, recognised as exceptional; screener folds exceptionals into other income) [E from AR note 63].
+
+#### (e) Annual-report findings (FY2025-26 Integrated Annual Report) [V]
+
+1. **Segment economics (consolidated note 41).** Tiles: revenue ₹4,280.29 Cr, **segment result ₹651.18 Cr (15.2% of segment revenue; FY25 ₹447.97 Cr, 10.7%)**; Others (bathware, sanitaryware, adhesives): revenue ₹550.07 Cr, **result ₹44.43 Cr (8.1%; FY25 ₹12.81 Cr, 2.8%)**. Tiles earn ~94% of segment profit on 89% of revenue. Segment assets: tiles ₹2,758 Cr, others ₹466 Cr → **tile segment pre-tax return on segment assets ~24%; others ~10%** [E]. Tile cost of materials consumed ₹871.70 Cr (FY25 ₹972.10 Cr) — note this excludes purchased (traded) tiles.
+2. **Exceptional items ₹44.02 Cr (consolidated note 63) — a fraud the dossier missed.** Components: gratuity past-service cost ₹13.95 Cr + compensated absences ₹5.48 Cr (both from the **new Labour Codes effective 21-Nov-2025**); impairment of loans by Kajaria International DMCC to its JVs (RMF Trading, UKP) ₹4.78 Cr; and **₹19.81 Cr net loss from "embezzlement and siphoning of funds"** at **Kerovit Global Pvt Ltd** (step-down bathware subsidiary): on **18-Dec-2025** management found that the **former CFO of Kajaria Bathware** had diverted **~₹20.20 Cr over two years** through forged authorisations; police/EOW complaints filed; the chairman's letter says a **forensic audit by Ernst & Young** was commissioned and vendor onboarding was automated ("Operation Manthan"). The board report states "no frauds in the Company" (i.e., the parent) — the fraud sits in a subsidiary. **The ₹45 Cr NCRPS into Kerovit Global on 29-Oct-2026 (Part 2) is plausibly linked to repairing that subsidiary's balance sheet** [E].
+3. **Related parties (consolidated note 37; standalone note 40).** **No royalty, no brand fee, no group purchases from promoter entities.** Promoter-linked flows are trivial: rent ₹1.71 Cr to Dua Engineering Works; donation ₹0.75 Cr to the Malti Devi Kajaria Foundation; remuneration ₹0.60 Cr to one family member employed. **The three promoter executives drew NIL remuneration in FY26** (FY25: ₹5.67 / ₹5.74 / ₹5.80 Cr) — the chairman's letter says they "voluntarily forwent their salaries for the second successive year" (FY26 and FY27). Material intra-group flows: **standalone purchases from Morbi/Telangana subsidiaries ₹783.71 Cr in FY26** (Kajaria Vitrified ₹361.87, Kajaria Infinity ₹157.74 [FY25 ₹239.56], Kajaria Surfaces ₹142.17 [new], South Asian ₹121.93) and **₹417.82 Cr in H1 FY27** (Vitrified ₹173.34, Infinity ₹69.02, South Asian ₹77.42, Surfaces ₹98.04) [V RPT disclosure H1 FY27]. Purchases from the Nepal JV were ₹1.30 Cr in H1 FY27 (limit ₹29 Cr) — Nepal output is sold in Nepal.
+4. **Contingent liabilities and commitments (consolidated note 40).** **Standby letter of credit for the Nepal JV's bank loan ₹130.31 Cr (FY25 ₹88.13 Cr; ₹42.18 Cr added in FY26)** — the largest off-balance-sheet exposure, equal to ~4% of net worth; tax demands (income tax/GST/VAT/excise) ₹7.20 Cr (₹28.76 Cr); consumer cases ₹3.92 Cr; capital commitments ₹27.53 Cr (₹15.71 Cr) — before the Srikalahasti/Gailpur orders.
+5. **Capacity/production table.** Capacity 82.70 MSM ex Nepal (unchanged vs Q2 deck); **FY26 production: tiles 84.59 MSM, bathware 21.24 lakh pieces, adhesives 0.45 lakh t**; sales: bathware 38.63 lakh pieces, adhesives 1.29 lakh t (i.e., ~65% of adhesive volume is bought-in/outsourced) [E from V].
+6. **MD&A industry view (what the company itself says).** Three shifts favour organised Indian makers: (i) "China…has progressively withdrawn export subsidies" (cf. China's Dec-2024 export VAT-rebate cuts [K, not verified for tiles]); (ii) India's FTAs open export markets and "draw from domestic inventory"; (iii) Morbi's gas stress — "widespread shutdowns and significant price hikes — **a first for the cluster**". Its FY27 call: "**industry volumes are expected to contract this year, even as value grows**" — note this conflicts with management's later 5–6% market volume growth (Q2 call) [V AR; V-P1].
+7. **Top risks named.** Demand cyclicality, innovation, quality, supply chain, branding, distribution (generic list); the one specific risk discussed is the sustainability of the volume uplift (above). The AR does not quantify gas exposure.
+8. **Other AR facts:** FY26 ROCE 23.87% (FY25 16.28%), ROE 16.71% (10.98%); net cash ₹793.38 Cr; shareholders' funds ₹3,065.58 Cr; buyback ≤21.5 lakh shares at **₹1,380/share, ≤₹296.70 Cr** (1.35% of equity); Kajaria UKP Ltd (UK JV) under liquidation and deconsolidated; Kajaria Adhesive's Erode plant started **20-May-2026**; new independent directors from 19-Dec-2025; MSME creditors ₹80.97 Cr.
+9. **H1 FY27 intra-group loans (RPT disclosure):** parent loans outstanding at 30-Sep-2026 include ₹149 Cr to one wholly owned subsidiary (row unnamed in the extract; likely the Srikalahasti/Surfaces capex vehicle [E]), ₹60 Cr and ₹28.9 Cr to two other WOS, ₹28.3 Cr to Kajaria Adhesive, ₹18.25 Cr to Kajaria Sanitaryware, ₹14 Cr to Kajaria Vitrified; **₹50 Cr equity into Kajaria Bathware (the WestBridge buy-out funding)**.
+
+### 4.2.2 Somany Ceramics (reference peer) — Q1 FY27 transcript (17-Aug-2026) and investor presentation [V]
+
+Sources: transcript https://www.bseindia.com/xml-data/corpfiling/AttachLive/8cbca334-9e3c-4f3c-b08f-ffe61e2fa35e.pdf ; presentation https://www.bseindia.com/xml-data/corpfiling/AttachLive/f4ecbe0a-5cfc-41e3-ac64-1a387bce10ab.pdf . These **replace the Arihant broker note** used in Parts 1–2.
+
+**KPI table (company, consolidated unless marked)**
+
+| KPI | Q1 FY26 | Q1 FY27 | Change |
+|---|---|---|---|
+| Revenue (₹ Cr) | 601.47 | **744.20** | +23.7% |
+| — own-plant tiles / JV tiles / outsourced tiles | 166.09 / 168.27 / 176.91 | 238.90 / 209.23 / 184.41 | +44% / +24% / +4% |
+| — bathware / others (adhesives etc.) | 62.93 / 27.27 | 76.49 / 35.17 | +22% / +29% |
+| Tile sales volume (MSM) | 16.01 (own 5.46 / JV 4.49 / outs 6.06) | **16.46** (6.67 / 4.82 / 4.97) | **+2.8%** |
+| Sales mix by volume | own 34% / JV 28% / outs 38% | own 41% / JV 29% / outs 30% (deck: own 34%, JV 34%, others 32% — by value) | insourcing |
+| Blended tile realisation (₹/sq m) [E] | 319 | **384** | **+20%** |
+| — own / JV / outsourced [E] | 304 / 375 / 292 | 358 / 434 / 371 | — |
+| Tile production (MSM) | — | 10.99 (own 6.21, JV 4.78) | — |
+| EBITDA (₹ Cr; margin) | 48 (8.0%) | **86 (11.6%)** | +79% |
+| PAT (₹ Cr) | 7 | 34 (controlling 36) | ×4.9 |
+| Standalone revenue / EBITDA margin | 580 / 6.1% | 688 / 8.8% | — |
+| Capacity utilisation | — | **80% tiles (83% standalone, from 72%)**; sanitaryware 77%; faucets 95% | — |
+| Gas (₹/SCM, natural gas) | — | **blended ~₹68**; South and Morbi JVs "mid-70s" (South partly spot) | — |
+| Price increase since the war | — | **16–17% average** (Morbi "just double of that") | — |
+| JV result | −₹10 Cr | +₹3 Cr; Somany Max −₹1-odd Cr (from −₹7 Cr) | — |
+
+- **Capacity (deck, Jun-2026):** "~80 MSM p.a. **including dedicated outsource tie-ups**". Owned/JV plants: **own Bahadurgarh (Haryana) 25.00 MSM + Kadi (Gujarat, 2 plants) 11.15 MSM = 36.15 MSM; JVs Morbi (3 plants) 12.04 MSM + Tirupati (AP) 8.40 MSM = 20.44 MSM → 56.59 MSM manufactured capacity** [V; sum E]; proposed JV **Tirupati 9+ MSM GVT (~₹220 Cr, Q4 FY28, ~₹350 Cr revenue potential)**; debottlenecking **3–4 MSM in FY27 ("no increase in capacity" otherwise)** — Part 1's "+4–5 MSM" is the upper end. Sanitaryware JV 0.48 mn pcs (Morbi); faucets 1.30 mn pcs.
+- **Guidance:** mid-single-digit volume growth ("the guidance for us is single-digit"); EBITDA margin of Q1 to be "maintained" and bettered; margins up "not so much of pricing" but utilisation and JV turnaround; bathware margin ~1 pp above tiles. **"If gas goes down, even we will reduce the prices."**
+- **Morbi view (conflicts with Kajaria):** Somany's MD said Morbi "resumed 100% production" from end-May on expensive GEL gas and that **15–17% of Morbi** would not restart; Morbi exports "down a good 50%, 60% from the peak". Kajaria's chairman (26-Oct) said 40–50% of Morbi's 400–500 plants were not working. Orient Bell (11-Aug) said Morbi plants were "running at capacity" after mid-June. **Resolution [E]:** the two August statements describe the post-restart peak (Jun–Aug, when propane was cheap); the late-October statement follows the 2-Sep GEL price rise to ₹90 and the October propane spike. Use "Morbi largely restarted by June; a large share idled again from September" and attribute each figure.
+- **Ownership (Jun-26):** promoters 55.2%, DII 19.4%, FII 1.4% [V deck] (screener Sep-26: 55.19 / 16.04 / 2.88 — DII selling continued).
+
+**Five-year and eight-quarter tables (screener consolidated, 1-Nov-2026) [V screener]**
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 2,095 | 2,479 | 2,605 | 2,659 | 2,790 |
+| OP (OPM) | 207 (10%) | 189 (8%) | 253 (10%) | 222 (8%) | 258 (9%) |
+| PAT | 93 | 67 | 99 | 58 | 74 |
+| ROCE | 12% | 9% | 14% | 12% | 13% |
+
+| Quarter | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 666 | 645 | 769 | 604 | 685 | 682 | 818 | 750 |
+| YoY | +1.7% | +5.4% | +4.2% | +4.3% | +2.9% | +5.7% | +6.4% | +24.2% |
+| OP (OPM) | 56 (8%) | 53 (8%) | 62 (8%) | 48 (8%) | 54 (8%) | 64 (9%) | 92 (11%) | 86 (12%) |
+| PAT | 17 | 10 | 19 | 7 | 12 | 17 | 37 | 34 |
+
+- Somany company EBITDA history (deck): margin FY22 9.9%, FY23 7.7%, FY24 9.8%, FY25 8.4%, FY26 9.3% [V].
+
+### 4.2.3 Orient Bell (reference peer) — Q1 FY27 transcript (11-Aug-2026) and presentation [V]
+
+Sources: https://www.bseindia.com/xml-data/corpfiling/AttachLive/d740a831-c4b8-4e3e-a5d8-3af77f156bd0.pdf ; https://www.bseindia.com/xml-data/corpfiling/AttachHis/cde647e3-837a-4671-994b-a4437f62a08f.pdf
+
+| KPI | Q1 FY27 | Note |
+|---|---|---|
+| Tile sales volume | **6.3 MSM (+22.9% YoY)** | fastest of the listed group; North +37%, West +60% |
+| Revenue | ₹202.9 Cr (+42.8%) | ASP implied ~₹322/sq m (+16%) [E] |
+| Gross margin | **39.7% (record)** | company definition incl. power & fuel in COGS |
+| EBITDA | ₹17.6 Cr (**8.7%**, from 3.9%) | screener OP ₹16.3 Cr (8.0%) |
+| PAT | ₹11.2 Cr (vs −₹0.6 Cr) | — |
+| Price increase vs pre-war | **18–19%** | no cuts taken as of Aug |
+| Gas | **~₹60/SCM average** in Q1 (Sikandrabad on GAIL; Morbi associates on Gujarat Gas/GEL) | — |
+| Gap to Morbi | "if the gap…was ₹100, the gap has come down to ₹50–55" | consistent with Kajaria's 40% → 20–25% |
+| Capacity | **42.4 MSM incl. associates**: Sikandrabad (UP) 14.8, Hoskote (KA) 6.6, Dora (GJ) 5.5, Morbi associates 15.5 | utilisation **73%** (Q4 FY26 64%; FY26 ~60%) |
+| Capex | ~₹10 Cr to convert 1 MSM of ceramic to GVT | "maximise existing assets before incremental capacity" |
+| Liquidity | net cash + liquid investments ~₹47.7 Cr | — |
+| Guidance | none ("consistently stayed away from…guidance") | sell-out support ~40% of primary volume |
+
+- Company EBITDA series (deck) FY21–FY26: ₹37.1 / 58.7 / 52.8 / 23.6 / 30.8 / 42.5 Cr; margin 7.4 / 9.0 / 7.5 / 3.5 / 4.6 / 6.2% [V].
+
+| ₹ Cr (screener cons.) | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 654 | 705 | 674 | 670 | 691 |
+| OP (OPM) | 57 (9%) | 47 (7%) | 21 (3.1%) | 28 (4.2%) | 40 (6%) |
+| PAT | 32 | 22 | 1 | 3 | 12 |
+| ROCE | 14% | 10% | 1% | 2% | 6% |
+
+| Quarter | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 160.35 | 163.02 | 198.26 | 142.91 | 165.09 | 168.82 | 214.64 | 203.82 |
+| YoY | +0.4% | +0.5% | −4.8% | −3.5% | +3.0% | +3.6% | +8.3% | +42.6% |
+| OP (OPM) | 7.36 (4.6%) | 7.50 (4.6%) | 8.68 (4.4%) | 4.97 (3.5%) | 9.27 (5.6%) | 10.26 (6.1%) | 15.02 (7.0%) | 16.34 (8.0%) |
+| PAT | 0.97 | 0.98 | 2.75 | −0.37 | 3.19 | 3.39 | 6.22 | 8.32 |
+
+### 4.2.4 Asian Granito India (reference peer) — latest transcript available (Q3 FY26, Feb-2026) [V]
+
+Source: https://www.bseindia.com/xml-data/corpfiling/AttachHis/66631436-22d5-4d0b-a498-ef2959624dc7.pdf (no Q4 FY26 or Q1 FY27 transcript is listed on screener — AGL did not host or file one).
+
+- **Gas share of cost (primary — fills §H gap 9 partially):** "Overall, we utilize propane gas and Sabarmati gas…the overall cost for the gas is **22.43%**" of product (manufacturing) cost, **at pre-war (Q3 FY26) gas prices** [V]. At ~1.9× gas prices (₹48 → ₹90), the same unit's gas share would rise to ~35% of cost [E].
+- **Sourcing:** own manufacturing ~65–70%, trading/outsourcing 20–30% (consistent with ICRA's 20–30%). Utilisation: old plants 80–90%, new plants 70–80%. Channel: institutions + government + projects 55%, retail 45% (was 50/20/30). Exports ~15% of revenue, target 18–20%; US duty "from 50% to the overall 18%" (the Feb-2026 US–India interim deal, before the IEEPA ruling) [V transcript; context K]. Long-term "vision" ₹6,000 Cr revenue by 2031 (vs FY26 ₹1,858 Cr) — aspirational.
+- Q3 FY26: consolidated revenue ₹423 Cr (+15.8%), EBITDA ₹40.8 Cr (vs ₹13.15 Cr).
+
+| ₹ Cr (screener cons.) | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 1,564 | 1,563 | 1,530 | 1,711 | 1,858 |
+| OP (OPM) | 120 (8%) | −73 (−4.6%) | 50 (3.3%) | 88 (5%) | 94 (5%) |
+| PAT | 92 | −87 | −20 | 10 | 19 |
+| ROCE | 10% | −6% | 1% | 2% | 3% |
+
+| Quarter | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 383.68 | 366.09 | 514.77 | 388.24 | 406.92 | 461.66 | 538.50 | 530.95 |
+| YoY | −4.3% | −1.4% | +21.5% | +7.8% | +6.1% | +26.1% | +4.6% | +36.8% |
+| OP (OPM) | 14.60 (3.8%) | 13.16 (3.6%) | 15.26 (3.0%) | 24.90 (6.4%) | 36.64 (9.0%) | 44.91 (9.7%) | −20.88 (−3.9%) | 32.87 (6.2%) |
+| PAT | 4.69 | −4.09 | −4.87 | 7.24 | 16.71 | 18.96 | −32.67 | 8.07 |
+
+- AGL's capacity in MSM is **not disclosed** in the transcript; still open (§4.4).
+
+### 4.2.5 Prism Johnson — H&R Johnson (HRJ) segment, Q1 FY27 earnings presentation [V]
+
+Source: https://www.bseindia.com/xml-data/corpfiling/AttachHis/5d79f044-80e1-4954-96aa-cb785d6eabde.pdf (HRJ pages 13–16).
+
+| KPI | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | FY26 | Q1 FY27 |
+|---|---|---|---|---|---|---|
+| HRJ revenue (₹ Cr; tiles + bath "JBD" + IPNR/quartz) | 546 | 587 | 581 | 733 | 2,447 | **522** (−4.4%) |
+| — tiles division | ~441 | — | — | — | — | **423 (−4.1%)** |
+| HRJ EBITDA (₹ Cr; margin) | 18 (3.3%) | 42 (7.2%) | 47 (8.0%) | 72 (9.8%) | 179 (7.3%) | **47.2 (9.0%)** |
+| **Tile sales volume (MSM)** | 13.1 | 14.3 | 13.9 | 17.5 | **58.8** [E sum] | **10.8 (−18%)** |
+| — domestic / exports | 12.6 / 0.50 | — | — | — | — | 10.6 / 0.14 |
+| Tile realisation (₹/sq m) | ~337 | — | — | — | — | **394 (+17%)** |
+| Capacity utilisation | — | — | — | — | — | **58.2%** |
+| GVT share of tile volume | 22% | 24% | 25% | 27% | — | 29% |
+
+- **Capacity: "~64 MSM including JVs", 11 tile plants**; faucets ~3.8 mn pcs (2 plants); sanitaryware JV ~11,000 t; ~900 dealers; 22 large-format experience centres; HRJ capital employed ₹922 Cr (Jun-26), ROCE **4.7% FY26**, 8.4% Q1 FY27 annualised [V].
+- **Key read-across:** in the quarter Kajaria grew volume +6% and Orient Bell +23%, **HRJ's volume fell 18%** ("temporarily low inventory levels and unhealthy SKU mix following earlier Morbi disruptions") — HRJ sources heavily from Morbi JVs/outsourcing. Its outlook explicitly warns that "the pricing benefit from temporary supply tightness is likely to moderate as industry supply normalises" — the most cautious statement among the listed tile makers [V].
+- Prism group screener (cons.) FY22–FY26: revenue 6,306 / 7,361 / 7,427 / 6,811 / 7,381; OP 478 / 374 / 497 / 460 / 698; PAT 44 / −158 / 162 / 45 / 30; ROCE 8 / 1 / 3 / 3 / 6%. Last 8 quarters (Sep-24→Jun-26) sales 1,640 / 1,821 / 1,960 / 1,789 / 1,855 / 1,753 / 2,110 / 1,835; OP 46 / 52 / 197 / 174 / 186 / 158 / 175 / 221; PAT −104 / 46 / 121 / −6 / 2 / 50 / −16 / 113 [V screener]. (Group = cement + RMC + HRJ; use the segment table for tiles.)
+
+### 4.2.6 Cera Sanitaryware — tile read-across from the Q1 FY27 call [V]
+
+Source: https://www.bseindia.com/xml-data/corpfiling/AttachHis/ae61e19c-7b8a-405e-8efe-047b6af99fbe.pdf
+- **Tiles = 11% of Cera's Q1 FY27 revenue**, up **22% YoY** (sanitaryware 47%, faucetware 40%, wellness 2%) [V] — so Cera's tile revenue is ~₹55 Cr a quarter (~₹200–230 Cr a year) [E].
+- **Gas: weighted average ₹48.43/m³ in Q1 FY27 vs ₹33.17 in Q1 FY26; 69% GAIL, 31% Sabarmati; gas ≈ 3.3% of revenue** [V] — the cheapest gas among the listed peers (long-term GAIL allocation at Kadi), roughly half of Morbi's ₹90.
+- Morbi sourcing: "initially, in Q1, facing some challenges"; started "internalizing" high-selling sanitaryware SKUs from Morbi outsourcing partners [V].
+- Screener standalone FY22–FY26: revenue 1,442 / 1,803 / 1,871 / 1,915 / 2,050; OP 221 / 293 / 295 / 293 / 269; PAT 149 / 210 / 239 / 246 / 204; ROCE 22 / 26 / 25 / 22 / 19%. Last 8 quarters (Sep-24→Jun-26): sales 490 / 449 / 578 / 407 / 488 / 499 / 624 / 486; OPM 14 / 13 / 18 / 13 / 14 / 10 / 16 / 10%; PAT 68 / 46 / 86 / 47 / 57 / 24 / 77 / 45 [V screener].
+
+### 4.2.7 Cross-peer comparison, latest reported quarter (company data) [V; E where marked]
+
+| Company (quarter) | Tile volume (MSM) | Vol YoY | Tile realisation ₹/sq m | Realisation YoY | Price hike since Feb-26 | Gas ₹/SCM | EBITDA margin | Utilisation |
+|---|---|---|---|---|---|---|---|---|
+| **Kajaria (Q2 FY27)** | 31.81 | **+10.2%** | 406 | +11.4% | 12–13% N/S; 18–19% own Morbi | ~70 (N 70.56 / S 63 / W 75) | **19.51%** | ~111% |
+| Kajaria (Q1 FY27) | 28.80 | +6.0% | 403 | +11.1% | — | ~71 | 19.60% | ~100% |
+| Somany (Q1 FY27) | 16.46 | +2.8% | 384 [E] | +20% [E] | 16–17% | ~68 | 11.6% | 80% |
+| H&R Johnson (Q1 FY27) | 10.8 | **−18%** | 394 | +17% | n/d | n/d | 9.0% | 58% |
+| Orient Bell (Q1 FY27) | 6.3 | **+22.9%** | ~322 [E] | ~+16% [E] | 18–19% | ~60 | 8.7% | 73% |
+| Cera (Q1 FY27, tiles 11% of rev.) | n/d | — | — | — | — | 48.43 | 10.1% (SA screener) | — |
+| Morbi unit (Sep-2026) | — | — | ~230 → ~310 (unbranded) [E] | +35–40% | 35–40% | 90 + 6% VAT (GEL) | ~0–10% [E] | 50–60% of plants running [V-P1 mgmt] |
+
+- **Read:** Q1 FY27 tile volume of the four reporting branded players (Kajaria 28.80 + Somany 16.46 + HRJ 10.8 + Orient Bell 6.3 = **62.4 MSM**) was **+0.6% YoY** (vs 62.0 MSM: 27.18 + 16.01 + 13.1 + 5.13) [E from V] — the branded group **as a whole did not gain volume in Q1**; the winners (Kajaria, Orient Bell) took share from HRJ, whose Morbi-dependent supply chain broke. That nuance is missing from Part 1's "branded players are the winners" framing. Q2 FY27 data for the peers arrives 3–14 Nov.
+
+### 4.2.8 Global peers [V]
+
+**Mohawk Industries (NYSE: MHK) — Q3 2026 (quarter to 3-Oct-2026), 8-K press release** https://www.sec.gov/Archives/edgar/data/0000851968/000085196826000038/a2026q3pressreleaseandtabl.htm and 10-Q https://www.sec.gov/Archives/edgar/data/0000851968/000085196826000041/mhk-20261003.htm
+
+| US$ mn | Q3 2026 | Q3 2025 | 9M 2026 | 9M 2025 |
+|---|---|---|---|---|
+| Group net sales | 2,786.0 | 2,757.9 | 8,506.1 | 8,085.7 |
+| Group operating income (GAAP) | 187.7 | 136.7 | 553.3 | 421.5 |
+| **Global Ceramic net sales** | **1,128.6 (+2.2%)** | 1,104.7 | **3,435.7 (+6.7%)** | 3,219.3 |
+| Global Ceramic operating income (GAAP) | **65.6 (5.8%)** | 71.6 (6.5%) | 211.1 (6.1%) | 201.5 (6.3%) |
+| Global Ceramic adjusted operating income | 73.5 (6.5%) | 89.8 (8.1%) | — | — |
+| Diluted EPS (GAAP / adjusted) | $2.72 / $2.72 | $1.75 / $2.67 | $7.82 / $8.27 | $5.24 / $6.96 |
+
+- Q4 2026 guide: adjusted EPS $1.35–1.45; low-single-digit adjusted sales growth; "underlying cost inflation…fully offset through pricing, mix and productivity" [V].
+- **Read-across [E]:** Mohawk Ceramic (Dal-Tile, Marazzi, Eliane, Vitromex; ~US$4.5 bn annualised) earns a **~6% operating margin** (~9–10% EBITDA) vs Kajaria's ~16% operating (EBIT) / 19.5% EBITDA. Kajaria's FY27E revenue (~US$0.6 bn at ₹94–96/$) is ~13% of Mohawk Ceramic's. Supersedes Part 1's [K] "US$4.2–4.4 bn, 6–9% margin".
+
+**RAK Ceramics (ADX: RAKCEC) — Q2 2026 (release 6-Aug-2026; Q3 due 12-Nov-2026)** [V khaleejtimes report of the release; V-snip quartr for the Q3 date]
+- Q2 2026 revenue **AED 822.8 mn (−0.5%)**; gross margin 41.0% (40.6%); EBITDA AED 157.5 mn (19.1%; 160.8); net profit AED 68.3 mn (+2.9%). UAE +22.7% (AED 298.2 mn), Saudi +11.6%, Bangladesh +20.7%, Europe −35.7%, **India −15.8% (AED 73.7 mn; −6.4% in local currency) "following temporary production interruptions caused by gas shortages in Morbi"** [V; India AED value V-snip]. Q1 2026 revenue AED 760.7 mn (−2%) [V-snip WAM].
+- **Read-across:** the UAE market grew 23% in Q2 2026 behind the GCC ADD wall that keeps Indian tiles out of most GCC states (UAE carve-out unclear) — RAK's home demand is the export demand Morbi lost. RAK's India business, which also sources from Morbi, shrank; Kajaria's grew.
+
+### 4.2.9 Newly listed and unlisted Morbi-based majors (primary documents) [V]
+
+**Varmora Granito (BSE 544942) — LISTED on 29-Sep-2026.** Part 1 said listing status was "unverified". Sources: screener https://www.screener.in/company/VARMORA/consolidated/ (fetched 1-Nov-2026); first post-listing call (23-Oct-2026) transcript https://www.bseindia.com/xml-data/corpfiling/AttachLive/1c7a0fa4-7a2e-4d27-95e9-fa8b1ac3244d.pdf ; Q2 FY27 presentation https://www.bseindia.com/xml-data/corpfiling/AttachHis/12ae67b1-ce26-46ea-8527-76f4d6ff1db8.pdf
+
+- **IPO:** ₹708 Cr (fresh issue ₹320 Cr for debt repayment; rest OFS); Carlyle remains a shareholder ("our longstanding partner"). Price ₹121 on 30-Oct-2026 (52-wk 164/117); **m-cap ₹2,739 Cr**; P/E 30.3; P/B ~2.3; ROCE 9.5%; promoters 47.04%, FII 6.06%, DII 5.18% (Sep-26) [V screener]. A secondary aggregator gave the price band as ₹140–148 [V-snip], i.e., the stock trades ~15–18% below the band.
+- **Financials (screener cons.):** revenue FY21–FY26 ₹838 / 1,056 / 1,335 / 1,435 / 1,446 / **1,512 Cr**; OP 92 / 114 / 116 / 113 / 153 / **171 (11%)**; PAT 40 / 51 / 55 / 45 / 31 / **55**. Quarters: Jun-25 325 / OP 22 (7%) / PAT −5; Sep-25 367 / 35 (9%) / 14; Mar-26 453 / 71 (16%) / 39; **Jun-26 315 / 28 (9%) / 10; Sep-26 399 / 65 (16%) / 44**. Borrowings ₹377 Cr (Mar-26) → ₹327 Cr (Sep-26). Company EBITDA margin Q1 FY27 14.0%, Q2 FY27 16.9% [V deck].
+- **Operating KPIs (call):** capacity **50.6 MSM** (incl. the new Tezpur, Assam plant — coal gasifier; 50% utilised in Q2 → 75% Q3 → 85–87% Q4; Morbi→North-East freight ~₹120/sq m vs ₹2–3 locally); utilisation **72% FY26 → 76% H1 FY27**, target 80–85% FY28, peak 92–93%; **no capex planned**; Solaris (PVT/ceramic) unit being converted to GVT. H1 FY27 sales volume **15.04 MSM vs 17.63 (−14.7%)**, of which exports **2.03 vs 3.42 MSM (−41%)** → domestic 13.01 vs 14.21 (−8.4%) [E from V]. Average realisation **+₹75/sq m YoY (₹50 price, ₹25 mix)**; price hikes **17%** vs input-cost inflation 14–15%; no further hike. **Propane cost ₹84.73/SCM (Q1 FY27 avg) and ₹80.53 (Q2); ~₹92 "current"** (late Oct), swinging ±₹8–12 within weeks. Domestic 80% / exports 20% of revenue over four years; "Morbi industry exports have decreased by around 40%" vs Varmora −18%. **Morbi capacity in H1 FY27: 3–4 new (GVT) lines added vs 10–11 PVT/ceramic plants shut — "net-net no capacity addition"**; 5–6 continuous-press (slab) lines in Morbi.
+- **Read:** the only listed pure-Morbi maker lost 15% of volume in H1 FY27 even as it raised realisation ~21% — the clearest primary evidence that **Morbi's supply contraction is real** and that branded volume gains came partly from Morbi's own branded players' losses.
+
+**Simpolo Group (unlisted; Morbi) — ICRA rationale 29-Sep-2026** https://www.icra.in/Rating/GetRationalReportFilePdf?id=146005 [V]
+- Consolidated operating income **₹1,856.1 Cr (FY25) → ₹2,156.9 Cr (FY26, +16.2%)**; **operating margin 16.4% → 18.5%**; PAT ₹34.8 Cr → ₹201.7 Cr; revenue CAGR **24.1% FY22–FY26**; domestic ~94%, exports ~6% (UAE, Russia, Vietnam).
+- **Capacity 20.8 → 39.6 MSM** after two new SIPL plants: **Tirupati (AP) 8.20 MSM (Nov-2025)** and **Malia (Gujarat) 11.12 MSM (May-2026)**. Debt/OPBDITA 1.1× (0.6×); interest cover 21×. Investors led by the Motilal Oswal group put in ~₹415 Cr of CCPS in FY23. Brands Neotra (premium) and Nexion. ICRA expects FY27 revenue +5–10% at 16–17% margin; the Q1 FY27 supply shock was offset by "timely price hikes".
+- **Read:** Simpolo is now **larger than Asian Granito and close to H&R Johnson** by revenue, with a margin (18.5%) equal to Kajaria's — Part 1's "₹1,200–1,500 Cr [K/E]" and its archetype "B. Morbi-based branded: 10–15% margin" are both wrong for Simpolo. **Tirupati (AP) is becoming a second cluster**: Simpolo (8.2 MSM, 2025), Somany JV (8.4 MSM existing + 9 MSM planned), Kajaria Srikalahasti (8.8 + 12.5 MSM, ~25 km away) [E geography].
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3.1 India's ceramic tile exports — DGCI&S via CAPEXIL (US$ mn) [V]
+Source: CAPEXIL, "HS-Code Wise Export Performance of Last 2-Years" (DGCI&S data; prepared 28-May-2025) https://files.capexil.org/2025/05/CAPEXILs-HS-Code-Wise-Exports-of-Last-2-Years.pdf ; panel series https://files.capexil.org/2025/05/CAPEXILs-Panel-Wise-Exports-of-Last-5-Years.pdf
+
+| HS line | Description | FY24 | FY25 | YoY |
+|---|---|---|---|---|
+| 690721 | Tiles, water absorption ≤0.5% (vitrified/porcelain: PVT, GVT, slabs) | 1,995.27 | 1,804.83 | −9.5% |
+| 690722 | Tiles, absorption >0.5% ≤10% (ceramic floor) | 137.09 | 118.61 | −13.5% |
+| 690723 | Tiles, absorption >10% (wall tiles) | 298.34 | 204.08 | **−31.6%** |
+| **Ceramic tiles (total)** | | **2,430.70** | **2,127.52** | **−12.5%** |
+| Ceramics & Allied panel (incl. sanitaryware, tableware, insulators etc.) | | 3,275.59 | 2,933.66 | −10.4% |
+
+- Panel series (US$ mn): FY21 2,298.57; FY22 2,497.31; FY23 2,790.34; FY24 3,275.59; FY25 2,933.66 [V]. Tiles ≈ 73–74% of the panel in FY24–FY25 [E].
+- **Rupee conversion [E, at FY-average ₹82.8/$ FY24, ₹84.6/$ FY25]:** FY24 ≈ **₹20,100 Cr**; FY25 ≈ **₹18,000 Cr**. This **confirms PL Capital's ₹20,200 Cr (FY24) and ₹18,000 Cr (FY25)** and **refutes the "₹16,000 Cr in FY25 (−20%)" figure** in a Kajaria Jul-2025 deck snippet (Part 1 Trap 5).
+- **FY26:** CAPEXIL's "US$2,115.11 mn in 2025-26" [V-snip, promotional post; the official 2026 edition of the PDF is not on CAPEXIL's file server — 404 for 2026/04–07] = **−0.6% YoY in US$** — so it is **not a record** (FY24 was US$2,431 mn). CRISIL (31-Dec-2025, below) expected FY26 exports **−2%** after +8% in H1. At ~₹87.5/$ FY26 average [E], US$2.1 bn ≈ **₹18,500 Cr**. **Kajaria's "₹16,000 Cr" for FY26 is ~12% too low; use ₹18,000–18,500 Cr (US$2.1 bn).**
+- **FY27E:** Kajaria ₹1,000 Cr/month → ~₹12,000 Cr [V-P1]; Varmora "Morbi industry exports…decreased by around 40%" (23-Oct-2026) [V]; Somany "down a good 50–60% from the peak" (Aug) [V]. → **FY27E ₹11,000–12,500 Cr (−30–40%)**, the steepest fall on record.
+- **Mix shift:** vitrified/porcelain (690721) is **85% of FY25 tile exports**; wall-tile exports fell almost a third in FY25 — the low-value end lost first.
+
+### 4.3.2 Destinations — CAPEXIL "Ceramics & Allied Products" panel, top 10 (US$ mn) [V; panel ≈ tiles + sanitaryware + other ceramics]
+Source: CAPEXIL table 256344 (data pulled from capexil.org's public table endpoint for https://capexil.org/panel-wise-top-10-export-destinations-2024-25/)
+
+| Destination | FY24 | FY25 | YoY |
+|---|---|---|---|
+| USA | 336.04 | 319.69 | −4.9% |
+| UAE | 184.79 | 209.82 | +13.5% |
+| Russia | 140.33 | 153.43 | +9.3% |
+| Iraq | 138.20 | 123.70 | −10.5% |
+| Kenya | (CAPEXIL shows the same figures as Iraq — a data-entry error; ignore) | | |
+| UK | 136.43 | 114.09 | −16.4% |
+| Mexico | 144.97 | 95.17 | **−34.4%** |
+| Kuwait | 95.06 | 84.37 | −11.3% |
+| Oman | 85.38 | 81.99 | −4.0% |
+| Israel | 85.48 | 80.49 | −5.8% |
+| Top-10 total (as published) | 1,484.89 | 1,386.45 | −6.6% |
+
+- The **US is the largest single destination of Indian ceramics (~11% of the panel)**; UAE (CEPA) and Russia grew; **Mexico fell 34%** (Mexico's own trade-remedy action — the primer's "Mexican probe" — is consistent with this drop but still not documented; see §4.4). CRISIL: **US + Mexico ≈ 15% of India's tile exports** [V]. Part 1's "US ~9% (FY24, ICRA)" is for tiles only; both can be true.
+
+### 4.3.3 Industry size and growth — CRISIL Ratings (31-Dec-2025) [V]
+Source: https://www.crisilratings.com/en/home/newsroom/press-releases/2025/12/ceramic-tile-makers-to-bake-4-5-percent-revenue-rebound-this-fiscal.html
+- **Industry revenue ₹51,000–53,000 Cr** (FY26; sample of 40 companies = ~25% of revenue); FY25 revenue **−2%**, exports **−15%**; FY26 expected **+4–5%** (domestic +6–7%, exports ~−2% after +8% in H1); FY27 +5–6% (pre-war forecast). **Domestic demand ≈ two-thirds of revenue.** Operating margin 10.3–10.4% (−30–40 bp). Asset utilisation **64–66%**. Premium tiles ≈ 60% of domestic revenue (+700–800 bp in five years). **Kaolin ≈ 25–30% of total cost.** Real-estate launch → tile demand lag **3–4 years**.
+- **Reconciliation of industry size [E]:** CRISIL ₹52,000 Cr total × ⅔ = **~₹35,000 Cr domestic + ~₹17,000–18,000 Cr exports (FY26)** — the export part matches CAPEXIL. The Varmora-DRHP figure ₹53,100 Cr (FY25E) is the same order as CRISIL's **total** and is probably total industry revenue, not domestic. Kajaria's "₹48,000 Cr domestic + ₹12,000 Cr exports = ₹60,000 Cr (FY27)" implies domestic value +37% in one year — possible only with ~20% price inflation **and** a different (likely consumer-price) basis. **Use CRISIL for FY26 (₹51–53k Cr, ~⅔ domestic) and quote Kajaria's FY27 figures as management's estimate.** This changes Kajaria's derived share: tile revenue ₹4,280 Cr ≈ **~12% of the ~₹35,000 Cr domestic market (FY26)**, not 8–9%.
+- **Organised share check [E]:** Kajaria 4,830 + Somany 2,790 + HRJ 2,447 + Simpolo 2,157 + AGL 1,858 + Varmora 1,512 + RAK India ~860 + Orient Bell 691 + Exxaro/Nitco tiles ~600 ≈ **₹17,700 Cr** (incl. some non-tile revenue) ≈ **34% of CRISIL's ₹52,000 Cr** — supports ICRA's "large players ~40%" once Lexus, Sunheart, Qutone, Icon and other mid-size brands are added.
+
+### 4.3.4 Morbi — primary data on units, fuel and gas (Gujarat Gas/GEL, Varmora, peers)
+Sources: Gujarat Gas (now Gujarat Energy) press note on Morbi, 14-Apr-2026 https://gujarat-energy.com/pdf/press-note-morbi.pdf [V]; Gujarat Gas Reg-30 filing on the scheme's effective date, 1-May-2026 https://nsearchives.nseindia.com/corporate/GUJGASLTD_01052026181737_1563SECEffectivedatecomm01052026.pdf [V]
+
+| Item | Value | Source | Tag |
+|---|---|---|---|
+| Morbi PNG customers, Feb-2026 (pre-crisis) | **377** | GGL press note | [V] |
+| Morbi propane customers (supplied by IOCL/BPCL/HPCL), Feb-2026 | **~415**, consuming **~5.6 mmscmd (NG-equivalent)** | GGL press note | [V] |
+| Propane share of Morbi fuel, Feb-2026 | **~70%** | GGL press note | [V] |
+| Implied total Morbi fuel demand, Feb-2026 | ~8.0 mmscmd NG-eq (GGL ~2.4) | [E from V] | [E] |
+| Units operational on 14-Apr-2026 | **142** | GGL press note | [V] |
+| Supply cap, Mar-2026 | 80% of previous six-month average (GoI gazette) | GGL press note | [V] |
+| LNG cost for May-2026 supplies | ~$18–20/mmbtu | GGL press note | [V] |
+| GGL–GSPC–GSPL merger effective | **1-May-2026** (MCA order 17-Apr-2026); GSPC, GSPL, GSPC Energy Ltd amalgamated into GGL; transmission demerged into GSPL Transmission Ltd; rename to Gujarat Energy Ltd "shortly" | GGL filing | [V] |
+| Morbi tile PNG price from 2-Sep-2026 | ₹90/SCM ex-6% VAT (₹82 for long-term users/sanitaryware) | deshgujarat (Part 1) | [V-P1] |
+| Propane, Morbi (Varmora's cost) | ₹84.73 (Q1 FY27), ₹80.53 (Q2), ~₹92 late Oct | Varmora call 23-Oct-2026 | [V] |
+| Calorific values | GGL PNG ~8,300–8,350 kcal/SCM; propane ~11,000 kcal (SCM-eq) | Varmora call; Dolat (Jun-26) | [V]/[V-snip] |
+| Gas share of cost | **22.43% of product cost (AGL, pre-war Q3 FY26)**; ICRA ~25% (power & fuel); Cera gas = 3.3% of revenue (sanitaryware) | AGL Q3 FY26 call; ICRA; Cera Q1 FY27 call | [V] |
+| Morbi capacity change H1 FY27 | +3–4 GVT lines; **10–11 PVT/ceramic plants shut**; 5–6 continuous-press lines | Varmora call | [V] |
+
+- **Unit count resolved [E from V]:** 377 PNG + ~415 propane customers ≈ **~790 fuel-buying units** in Feb-2026 — confirms "~800" (deshgujarat) and matches PL's "370 gas-only" (≈377). PL's "~530 dual-fuel" overstates the propane-only count; use **~800 units**.
+- **Fuel per sq m cross-check [E]:** ~8.0 mmscmd × 365 ≈ 2.9 bn SCM NG-eq a year ÷ Morbi output ~1,750–1,900 MSM (70–75% of ~2,450–2,600 MSM) ≈ **1.5–1.7 SCM/sq m** (NG-eq) — the low end of Part 1's 1.6–2.0 rule of thumb. Recompute the Morbi GVT cost example at ~1.6 SCM/sq m: fuel ₹48 → ₹90 (+6% VAT) adds **~₹76/sq m** (Part 1 said ~₹85).
+
+### 4.3.5 World and India production (MECS / Ceramic World Review) [V-snip]
+- India production **2,450 MSM in 2023** (MECS, via search summary) — replaces Part 1's [E] "~2,500–2,600 MSM"; with MECS's ~5.9% CAGR forecast, 2025 ≈ 2,600–2,750 MSM [E]. World 2024 14,950 MSM (−6.2%); 2025 MECS data not published in any free source found. Brazil 2025 production 817 MSM (Anfacer); US consumption 2025 240.3 MSM (−4.2%, TCNA) [V-snip].
+
+### 4.3.6 Peer capacity table (MSM; latest primary disclosure)
+
+| Company | Capacity | Of which own / JV / associate | Utilisation | Expansion | Source |
+|---|---|---|---|---|---|
+| Kajaria | 82.70 (+5.10 Nepal JV) | own 60.05 (Gailpur 35.95, Sikandrabad 8.80, Srikalahasti 8.80, Malootana 6.50); subs 22.65 (Morbi ×3 17.90 + Balanagar 4.75) [E sums of V] | ~111% (Q2 FY27) | +12.5 Srikalahasti (Jun-27), +11 Gailpur (Apr-27) → ~106 | Q2 FY27 deck; AR [V] |
+| Somany | ~80 "incl. dedicated outsource tie-ups"; plants 56.59 | own 36.15 (Bahadurgarh 25.00, Kadi 11.15); JV 20.44 (Morbi 12.04, Tirupati 8.40) | 80% (83% standalone) | +3–4 debottleneck FY27; +9 Tirupati JV (Q4 FY28) | Q1 FY27 deck/call [V] |
+| H&R Johnson | ~64 incl. JVs; 11 plants | n/d | 58.2% (Q1 FY27) | — | Prism Q1 FY27 deck [V] |
+| Varmora | 50.6 | Morbi plants + Tezpur (Assam) | 76% (H1 FY27) | none; Solaris → GVT | Varmora call [V] |
+| Orient Bell | 42.4 incl. associates | Sikandrabad 14.8, Hoskote 6.6, Dora 5.5, Morbi associates 15.5 | 73% (Q1 FY27) | 1 MSM ceramic → GVT (₹10 Cr) | OB Q1 FY27 deck/call [V] |
+| Simpolo | 39.6 | SVPL Morbi 20.8 + Tirupati 8.20 + Malia 11.12 | n/d | done | ICRA 29-Sep-2026 [V] |
+| Asian Granito | n/d | own 65–70% of volume; 20–30% traded | old 80–90%, new 70–80% | — | AGL Q3 FY26 call [V] |
+
+- **Branded listed + Simpolo capacity ≈ 82.7 + 56.6 + 64 + 50.6 + 42.4 + 39.6 ≈ 336 MSM** (ex-AGL, Nepal, outsource tie-ups) [E] vs India's ~2,500–2,750 MSM — **~12–13% of national capacity**, but ~40% of domestic value (outsourcing + brand premium). The organised players are **value**-concentrated, not **capacity**-concentrated.
+
+### 4.3.7 Demand-side series [V-snip]
+- **Housing completions (ANAROCK, top-7 cities):** ~5.19 lakh units delivered in 2025; **~5.40 lakh scheduled for 2026 (a decade high; ~70% in MMR, Pune, Bengaluru)**; ~30.5 lakh delivered 2017–2025; sales 2025 −14% to ~3.96 lakh; Q3-2026 sales +3% to ~1.0 lakh; unsold inventory ~6.31 lakh (+12% YoY) at Sep-2026; ANAROCK warned the Middle East conflict could delay deliveries. Fills §H gap 13 (to snippet level). **Read:** 2026 is a peak completion year — supportive of tile demand with CRISIL's 3–4-year launch lag (launches peaked 2022–23).
+
+### 4.3.8 Policy facts re-verified
+- **India ADD on Chinese porcelain/vitrified tiles — exact terms [V, eximguru reproduction of the gazette text]:** Notification **09/2022-Customs (ADD), 24-Feb-2022** (F. No. 190354/44/2021-TRU); HS **6907 and 6914**; "Soluble Salt, Double Charge, GVT and PGVT Porcelain/Vitrified Tiles with less than 3% water absorption and all sizes"; **US$1.87 per sq m** on all Chinese producers **except Foshan Chancheng Jinyi Ceramics and Xin Xing Zhisheng Ceramics (nil)**, and US$1.87 on any-origin goods exported from China; **five years from gazette publication → lapses ~23/24-Feb-2027** unless a sunset review is initiated; DGTR final findings 7/39/2020-DGTR of 26-Nov-2021 (initiated 22-Jan-2021); exclusions: micro-crystal, full-body tiles and thin panels <5 mm. The "₹155/sq m" snippet is simply US$1.87 at ~₹83/$; **at ₹95/$ the duty is ~₹178/sq m — 55–75% of a Morbi ex-factory price** [E]. **No 2026 sunset-review initiation for tiles was found** (a DGTR SSR initiated 29-Sep-2026 under F. No. 7/25/2026-DGTR concerns **ceramic tableware**, not tiles [V]); a search snippet says the four associations "had requested" a review in 2026 [V-snip, unconfirmed]. **Still a live Feb-2027 event.**
+- **US CVD [V Federal Register 2025-11052, 16-Jun-2025]:** case C-533-929; Antiqa Minerals 3.45%, Win-Tel Ceramics 3.06%, all others 3.18%; ITC (9-Jun-2025) found **threat** of material injury. No AD order (AD final negative per Part 1 [V-snip]). Plus **US Section 301 (forced-labour action) 10% on India from 24-Jul-2026** (USTR proposed 12.5%; India moved to the 10% tier after banning forced-labour imports on 14-Jun-2026; ~45% of India's US exports exempt — whether tiles are exempt is not confirmed) [V-snip, several incl. ELP law-firm note]. AGL (Feb-2026) referred to US duty falling "from 50% to the overall 18%" under the interim US–India deal, before the IEEPA ruling [V].
+- **GCC [V Global Trade Alert summary]:** investigation 2018–19 (Spain terminated); **definitive ADD on China and India from 6-Jun-2020**; sunset review initiated **Mar-2025**; extension notice **21-Apr-2026**; new period effective **28-May-2026** [V-P1 antidumping.vn]. Rates still unverified (original reports 40–106% for India).
+- **GST [V-snip]:** tiles (HSN 6907) are at **18% under Notification 9/2025-Central Tax (Rate), Schedule II, entry 238, effective 22-Sep-2025** (GST 2.0); the notification was amended from 1-May-2026 to align with the Finance Act 2026 (effect on tiles not found). CBIC PDF not fetched.
+- **RBI [V-snip, multiple]:** repo **5.25% → 5.50% on 7-Oct-2026** (unanimous; stance to "calibrated tightening"; SDF 5.25%, MSF 5.75%; FY27 CPI forecast 5.2%, GDP 7.1%); next MPC 2–4 Dec-2026.
+- **Labour Codes** effective **21-Nov-2025** [V Kajaria AR] — the reason for one-off gratuity/leave provisions across Indian companies in FY26 (Kajaria ₹19.4 Cr consolidated).
+- **Mexico — anti-dumping case on Indian ceramic tiles is real and now has provisional duties [V stratego-st.com summary of the DOF; initiation details V-snip Mondaq/VTZ]:** petition **26-Mar-2025** by Porcelanite Lamosa, Cesantoni and Nitropiso; initiated **13-Aug-2025**; period of investigation CY2024 (injury 2022–24); tariff items 6907.21.02 / 6907.22.02 / 6907.23.02. **Preliminary resolution published 28-Sep-2026: provisional duties of US$0.07/m² (Alliance), US$4.31/m² (other producer-exporters that appeared) and US$10.98/m² (Maps and all other exporters); Cyan exempt; six months.** At India's average export price of roughly US$3.5–4.1/m² [E: US$2.13–2.43 bn ÷ ~550–590 MSM], the residual rate is **~3× the product's price** — Mexico (US$95 mn of Indian ceramics in FY25, already −34%) is effectively closed to most Morbi exporters. This is the "Mexican probe" in the Kajaria primer: it **is** verified now.
+
+## 4.4 Gap log (Part 1 §H items 1–16 plus the prompt's 12 gaps)
+
+| # | Gap | Status | What was found / tried |
+|---|---|---|---|
+| H1 / P1 | India production & consumption FY20–FY26 (MSM) | **Partly filled** | MECS: India production **2,450 MSM (2023)** [V-snip]; no free FY-series exists (ICCTAS publishes none; CWR blocked; DRHP section not reached). Consumption ≈ production − exports (~550 MSM) ≈ **~1,900–2,000 MSM** [E]. CRISIL gives value (₹51–53k Cr) not volume |
+| H2 / P2 | HS 6907 exports by year and destination; FY25/FY26 conflicts | **Filled for FY24–FY25 (US$); FY26 to snippet level** | CAPEXIL/DGCI&S: FY24 US$2,430.7 mn, FY25 US$2,127.5 mn (−12.5%) [V]; FY26 US$2,115 mn [V-snip] (−0.6%, **not a record**); destinations (ceramics panel) FY24–25 [V]. **Conflict resolved: FY25 ≈ ₹18,000 Cr (PL right; Kajaria deck's ₹16,000 Cr wrong); FY26 ≈ ₹18,000–18,500 Cr (Kajaria's ₹16,000 Cr understated)**. FY20–FY23 rupee values still PL's chart [V-P1]; tradestat not queried (form-based) |
+| H3 / P3 | Imports from China (HS 6907) | **Partly filled** | ~US$10 mn in 2024 (UN Comtrade via ximpex) [V-snip, low reliability] ≈ ₹85 Cr — negligible; ADD at US$1.87/m² explains it. TradeStat not queried |
+| H4 / P4 | ADD rates, expiry, 2026 sunset review | **Rates & expiry filled; review still open** | US$1.87/m² (nil for two named producers); 5 years from 24-Feb-2022 [V]; **no tiles SSR initiation found** (tableware SSR 29-Sep-2026 found instead [V]); petition request in 2026 [V-snip] |
+| H5 / P5 | Morbi capacity / unit count | **Unit count filled; capacity still [E]** | **377 PNG + ~415 propane customers (Feb-2026)** [V GGL]; 142 units running on 14-Apr-2026 [V]; H1 FY27 +3–4 GVT lines vs 10–11 plants shut [V Varmora]. Capacity in MSM not published by any primary source |
+| P6 | Gas: GEL merger/rename; ₹90 price; propane; gas per sq m; gas share | **Mostly filled** | Merger effective **1-May-2026** [V filing]; rename to Gujarat Energy announced "shortly" (exact date unverified); ₹90 from 2-Sep [V-P1]; propane ₹80–92 [V Varmora]; gas 22.43% of product cost (AGL) [V]; fuel use ~1.5–1.7 SCM/sq m [E from V GGL volumes]. No published Oct-2026 GEL price |
+| H9 | Gas consumption per sq m | **Triangulated** | [E] from GGL fuel volumes; no company discloses SCM/sq m |
+| P7 / H14 | GCC renewal rates; US CVD; EU; Mexico | **US filled; GCC dates filled, rates open; Mexico filled; EU none found** | US CVD 3.06–3.45% (FR 16-Jun-2025) [V]; GCC: imposed 6-Jun-2020, SSR Mar-2025, extended 21-Apr-2026 [V GTA] — rates not public in free sources; **Mexico provisional ADD 28-Sep-2026, US$0.07–10.98/m²** [V]; no EU AD on Indian tiles found |
+| P8 | GST 18% with CBIC notification | **Filled to snippet level** | 9/2025-CT(Rate) Sch. II entry 238, from 22-Sep-2025 [V-snip] |
+| H13 / P9 | Housing completions | **Filled to snippet level** | ANAROCK 2025 ~5.19 lakh; 2026 ~5.40 lakh scheduled [V-snip] |
+| H10 / P10 | Organised share, top-player shares | **Improved, still [E]** | CRISIL total ₹51–53k Cr, ⅔ domestic [V]; organised sum ≈ ₹17,700 Cr ≈ 34% of total (≈ ICRA's 40% with mid-size brands) [E]. No primary share table |
+| H11 / P11 | Varmora IPO; Simpolo/Lexus | **Varmora & Simpolo filled; Lexus open** | Varmora listed 29-Sep-2026, ₹708 Cr IPO [V]; Simpolo ₹2,157 Cr FY26, 39.6 MSM [V ICRA]; Lexus/Sunheart not searched (budget) |
+| H16 / P12 | Somany / AGL / Orient Bell capacities | **Somany, OB filled; AGL open** | Somany ~80 MSM incl. tie-ups (plants 56.59) [V]; OB 42.4 MSM [V]; HRJ ~64 MSM [V]; AGL not disclosed |
+| H5 (world) | World production by country 2024/25 | **Still open** | CWR/ctasc pages without tables; Brazil 817 MSM (2025) [V-snip] |
+| H7 | Kajaria A&P | **Still open** | AR has no A&P line; "other expenses" only |
+| H8 | Kajaria product mix | **Still open** | AR confirms the 9.1 MSM ceramic→GVT conversion but gives no sales split |
+| H12 | Global peers (Mohawk, RAK, Chinese) | **Mohawk & RAK filled; Chinese majors open** | Mohawk Q3 2026 8-K [V]; RAK Q2 2026 [V]; Dongpeng/Monalisa not fetched |
+| H15 | US Sec 301 & Brent | **Sec 301 filled (snippet); Brent open** | 10% from 24-Jul-2026 [V-snip]; Brent ~$116 rests on Kajaria's chairman only |
+| — | Rupee level (~₹94.9/$) | **Still open** | No 30-Oct-2026 quote found; keep ₹94.9 (sibling, 19-Oct) / ₹96 (GEL formula, Sep) |
+| — | RBI repo 5.50% (7-Oct-2026) | **Confirmed** | [V-snip, several] — a 25 bp **hike** from 5.25% |
+
+## 4.5 New insights the first pass missed
+
+1. **Kajaria had a ₹20 Cr fraud in its bathware subsidiary — and it explains part of FY26's ₹44 Cr exceptional charge.** The ex-CFO of Kajaria Bathware siphoned ~₹20.2 Cr from Kerovit Global over two years (found 18-Dec-2025; police/EOW complaints; EY forensic audit); net loss ₹19.81 Cr. Along with the 15% WestBridge buy-out (₹50 Cr), a new Chief Business Officer from a bathware major, and the ₹45 Cr NCRPS into Kerovit (29-Oct-2026), this frames bathware as a **turnaround/clean-up**, not just "sub-scale". The writer should mention it neutrally in governance and in the bathware section.
+2. **The promoters have now forgone salaries for two years (FY26 and FY27)**, not just FY27 — FY25 remuneration was ₹5.7–5.8 Cr each; FY26 nil. Related-party dealings are trivial (₹1.7 Cr rent; no royalty or brand fee) — a clean governance profile that contrasts with peers that pay group royalties.
+3. **The branded group did not gain volume as a whole in Q1 FY27; share moved within it.** Kajaria +6%, Orient Bell +23%, Somany +3% — but H&R Johnson **−18%** and Varmora **−15% (H1)**: Q1 volume of the four branded reporters was flat (+0.6%). The winners were those with **own non-Morbi plants and contracted gas** (Kajaria, Orient Bell's Sikandrabad/Hoskote), the losers those relying on **Morbi JVs/outsourcing or Morbi propane** (HRJ, Varmora). That is a sharper thesis than "branded beats unbranded".
+4. **Exports did not fall in FY26; the collapse is a FY27 event.** DGCI&S/CAPEXIL: FY24 US$2.43 bn → FY25 US$2.13 bn (−12.5%) → FY26 ~US$2.12 bn (−0.6%) → FY27E −30–40% (war, freight, **Mexico's provisional ADD of up to US$10.98/m² from 28-Sep-2026**, GCC renewal, US CVD + Sec 301). Part 1's "third collapse in four years" overstates FY26. Also, the US and Mexico — together ~15% of tile exports (CRISIL) — are both now behind trade walls.
+5. **Tirupati is the new cluster.** Simpolo (8.2 MSM, Nov-2025), Somany JV (8.4 MSM; +9 MSM planned) and Kajaria (Srikalahasti, 8.8 MSM + 12.5 MSM by Jun-2027) are all building GVT in the Tirupati–Srikalahasti belt of Andhra Pradesh, close to South Indian demand and outside Gujarat's single-supplier gas system. The 2026 shock is accelerating a **geographic de-concentration from Morbi** — Varmora too (Assam, coal gasifier).
+6. **Simpolo is a margin peer of Kajaria, not of Morbi.** FY26 operating margin 18.5% on ₹2,157 Cr revenue, 94% domestic, capacity doubled to 39.6 MSM. Kajaria's "only high-margin tile maker" framing must be qualified: two of the top five Indian tile companies by revenue now earn ~18–19%.
+7. **Gas is cheapest for those with legacy contracts.** Cera ₹48.43/m³ (Q1 FY27; 69% GAIL), Orient Bell ~₹60, Somany ~₹68, Kajaria ~₹70, Morbi PNG ₹90 + VAT, Morbi propane ₹80–92 — a ~2× spread across the same industry. Kajaria's own gas cost is mid-pack among the brands, not the lowest; its advantage is versus Morbi.
+8. **The ADD wall is worth ~₹178/sq m at today's rupee — larger than the entire 2026 Morbi cost shock (~₹76/sq m).** If the duty lapses in Feb-2027 without a review, Chinese GVT (on cheap Chinese gas) could land below Morbi's post-war cost. The industry associations have reportedly asked for a review; DGTR has not (publicly) initiated one as of 1-Nov-2026. This is the biggest binary policy risk for the domestic price structure in FY28.
+
+## 4.5b New primer issues (bullets per primer file; add to primer-issues.md)
+
+### From Ceramic Tiles deep research (2026-11-01, ceramic-tiles-industry.md Part 4)
+
+- **kajaria-ceramics.html — governance section missing the Kerovit fraud:** add that a former CFO of Kajaria Bathware siphoned ~₹20.2 Cr from Kerovit Global (detected 18-Dec-2025; police/EOW complaints; EY forensic audit); ₹19.81 Cr net loss in FY26 exceptional items (AR FY26, consolidated note 63).
+- **kajaria-ceramics.html — promoter salaries:** the promoters forwent remuneration for **FY26 and FY27** (two years), not only FY27; FY25 remuneration was ₹5.67 / ₹5.74 / ₹5.80 Cr (AR FY26 note 37).
+- **kajaria-ceramics.html — "Mexican probe" now verified:** Mexico initiated AD on Indian ceramic tiles 13-Aug-2025 and imposed **provisional duties of US$0.07–10.98/m² from 28-Sep-2026** — replace "fresh Mexican probe from 2025 (unverified)" with this.
+- **kajaria-ceramics.html — exports figure:** India's tile exports were **US$2.43 bn (≈₹20,100 Cr) in FY24 and US$2.13 bn (≈₹18,000 Cr) in FY25** (DGCI&S via CAPEXIL); FY26 ~US$2.1 bn; FY27E ~₹11,000–12,500 Cr. The primer's "~₹20,000 Cr a year" is FY24 only.
+- **kajaria-ceramics.html — China ADD detail:** state the rate (**US$1.87/m²**, Notification 09/2022-Cus(ADD)) and the **lapse date ~23-Feb-2027**; no sunset review initiated as of 1-Nov-2026.
+- **kajaria-ceramics.html — competitor list:** add **Simpolo** (FY26 revenue ₹2,157 Cr, 18.5% margin, 39.6 MSM; ICRA) and **Varmora (listed 29-Sep-2026; ₹1,512 Cr; m-cap ₹2,739 Cr)** to the competitive table; Simpolo is now the #3/#4 tile maker by revenue.
+- **kajaria-ceramics.html — market share:** with CRISIL's FY26 industry revenue of ₹51–53k Cr (~⅔ domestic ≈ ₹35k Cr), Kajaria's tile revenue (₹4,280 Cr) is ~12% of the domestic market; avoid the primer's US$10–11 bn market.
+- **kajaria-ceramics.html — segment margins:** tiles segment result 15.2% of revenue (FY26; FY25 10.7%), others (bath + adhesives) 8.1% (FY25 2.8%) — AR note 41.
+- **kajaria-ceramics.html — off-balance-sheet:** standby letter of credit for the Nepal JV's loan ₹130.31 Cr (Mar-26; ₹88.13 Cr Mar-25).
+- **kajaria-ceramics.html — Gailpur line conversion:** a 9.1 MSM ceramic-floor line at Gailpur was converted to GVT in FY26 (chairman's letter) — supports the "ceramic is shrinking" point.
+- **prism-johnson.html — HRJ Q1 FY27 KPIs:** HRJ tile volume **10.8 MSM (−18% YoY)**, realisation **₹394/m² (+17%)**, utilisation **58.2%**, EBITDA ₹47.2 Cr (9.0%), capacity ~64 MSM incl. JVs (11 plants), ROCE 4.7% FY26; management warns the pricing benefit "is likely to moderate as industry supply normalises" (Q1 FY27 presentation).
+- **cera-sanitaryware.html — gas and tiles:** Q1 FY27 gas cost ₹48.43/m³ (₹33.17 a year earlier; 69% GAIL / 31% Sabarmati), gas ≈ 3.3% of revenue; tiles = 11% of revenue, +22% YoY (Q1 FY27 call).
+
+## 4.6 Source list for Part 4 (all fetched 1-Nov-2026)
+
+**Kajaria (primary):** AR FY2025-26 https://www.kajariaceramics.com/storage/pdf/annual-report-2025-26.pdf · Q1 FY27 Investor Update https://www.kajariaceramics.com/storage/pdf/investor-release-submitted-to-stock-exchanges-31072026.pdf · RPT disclosure H1 FY27 https://www.kajariaceramics.com/storage/pdf/disclosure-of-rpt-30092026.pdf · company investor page (document list) https://www.kajariaceramics.com/investor · re-read: Q2 FY27 update, Q2 and Q1 FY27 transcripts, Q4 FY26 update (URLs in §3.5).
+**Peers (primary, BSE):** Somany Q1 FY27 transcript …/AttachLive/8cbca334-9e3c-4f3c-b08f-ffe61e2fa35e.pdf and presentation …/AttachLive/f4ecbe0a-5cfc-41e3-ac64-1a387bce10ab.pdf · Orient Bell transcript …/AttachLive/d740a831-c4b8-4e3e-a5d8-3af77f156bd0.pdf and presentation …/AttachHis/cde647e3-837a-4671-994b-a4437f62a08f.pdf · Asian Granito Q3 FY26 transcript …/AttachHis/66631436-22d5-4d0b-a498-ef2959624dc7.pdf · Prism Johnson Q1 FY27 presentation …/AttachHis/5d79f044-80e1-4954-96aa-cb785d6eabde.pdf · Cera Q1 FY27 transcript …/AttachHis/ae61e19c-7b8a-405e-8efe-047b6af99fbe.pdf · Varmora Q2 FY27 transcript …/AttachLive/1c7a0fa4-7a2e-4d27-95e9-fa8b1ac3244d.pdf and presentation …/AttachHis/12ae67b1-ce26-46ea-8527-76f4d6ff1db8.pdf (prefix for all: https://www.bseindia.com/xml-data/corpfiling/) · screener pages (first pass, parsed again) and https://www.screener.in/company/VARMORA/consolidated/
+**Rating agencies:** ICRA Simpolo rationale (29-Sep-2026) https://www.icra.in/Rating/GetRationalReportFilePdf?id=146005 · CRISIL Ratings PR (31-Dec-2025) https://www.crisilratings.com/en/home/newsroom/press-releases/2025/12/ceramic-tile-makers-to-bake-4-5-percent-revenue-rebound-this-fiscal.html
+**Government / trade data:** CAPEXIL HS-code exports https://files.capexil.org/2025/05/CAPEXILs-HS-Code-Wise-Exports-of-Last-2-Years.pdf · CAPEXIL panel exports https://files.capexil.org/2025/05/CAPEXILs-Panel-Wise-Exports-of-Last-5-Years.pdf · CAPEXIL destinations table https://capexil.org/panel-wise-top-10-export-destinations-2024-25/ · CAPEXIL target review https://capexil.org/review-of-capexils-exports-export-target-vs-achievement-2024-25/ · ADD 09/2022 text https://www.eximguru.com/notifications/seeks-to-impose-anti-dumping-85406.aspx · DGTR tableware SSR (29-Sep-2026) https://worldtradescanner.com/2nd%20SSR%20Ceramic%20Initiation%20Notification%20-29.09.2026.pdf · US CVD order https://www.govinfo.gov/content/pkg/FR-2025-06-16/html/2025-11052.htm · GCC timeline https://globaltradealert.org/state-act/36074-gcc-definitive-antidumping-duty-on-imports-of-certain-ceramic-tiles-from-china-and-india-termination-of-investigation-on-imports-from-spain · Mexico preliminary ADD https://www.stratego-st.com/?p=38911
+**Gas:** Gujarat Gas press note on Morbi (14-Apr-2026) https://gujarat-energy.com/pdf/press-note-morbi.pdf · Gujarat Gas scheme effective-date filing https://nsearchives.nseindia.com/corporate/GUJGASLTD_01052026181737_1563SECEffectivedatecomm01052026.pdf
+**Global:** Mohawk Q3 2026 8-K https://www.sec.gov/Archives/edgar/data/0000851968/000085196826000038/a2026q3pressreleaseandtabl.htm · RAK Q2 2026 (Khaleej Times report of the release) https://www.khaleejtimes.com/business/rak-ceramics-posts-higher-q2-profit
+**Snippet-only (search summaries; not fetched):** CAPEXIL US$2,115 mn FY26 post; MECS India 2,450 MSM (2023); ANAROCK completions; GST 9/2025-CT(Rate) entry 238; RBI 7-Oct-2026; USTR Sec 301 (24-Jul-2026); Mondaq/VTZ Mexico initiation; ximpex China imports; Varmora price band.

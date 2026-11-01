@@ -21,3 +21,22 @@
 - **cera-sanitaryware.html — tiles sourcing:** given the 2026 Morbi price increases (35–40%), add a line that Cera's outsourced tile range faced cost inflation without a manufacturing offset.
 - **prism-johnson.html — tile read-across (minor):** the margin-gap chart compares HRJ (~7.3%) with "Kajaria ~16%" — Kajaria's FY26 margin was **~18%** and **19.5% in Q2 FY27**; Somany's was 9.2% (FY26) and 10.9% (Q1 FY27). Update the comparator. M-cap now ₹4,757 Cr (near 52-week low).
 
+
+## From Ceramic Tiles deep-research pass (2026-11-01, ceramic-tiles-industry.md Part 4 §4.5b)
+
+
+### From Ceramic Tiles deep research (2026-11-01, ceramic-tiles-industry.md Part 4)
+
+- **kajaria-ceramics.html — governance section missing the Kerovit fraud:** add that a former CFO of Kajaria Bathware siphoned ~₹20.2 Cr from Kerovit Global (detected 18-Dec-2025; police/EOW complaints; EY forensic audit); ₹19.81 Cr net loss in FY26 exceptional items (AR FY26, consolidated note 63).
+- **kajaria-ceramics.html — promoter salaries:** the promoters forwent remuneration for **FY26 and FY27** (two years), not only FY27; FY25 remuneration was ₹5.67 / ₹5.74 / ₹5.80 Cr (AR FY26 note 37).
+- **kajaria-ceramics.html — "Mexican probe" now verified:** Mexico initiated AD on Indian ceramic tiles 13-Aug-2025 and imposed **provisional duties of US$0.07–10.98/m² from 28-Sep-2026** — replace "fresh Mexican probe from 2025 (unverified)" with this.
+- **kajaria-ceramics.html — exports figure:** India's tile exports were **US$2.43 bn (≈₹20,100 Cr) in FY24 and US$2.13 bn (≈₹18,000 Cr) in FY25** (DGCI&S via CAPEXIL); FY26 ~US$2.1 bn; FY27E ~₹11,000–12,500 Cr. The primer's "~₹20,000 Cr a year" is FY24 only.
+- **kajaria-ceramics.html — China ADD detail:** state the rate (**US$1.87/m²**, Notification 09/2022-Cus(ADD)) and the **lapse date ~23-Feb-2027**; no sunset review initiated as of 1-Nov-2026.
+- **kajaria-ceramics.html — competitor list:** add **Simpolo** (FY26 revenue ₹2,157 Cr, 18.5% margin, 39.6 MSM; ICRA) and **Varmora (listed 29-Sep-2026; ₹1,512 Cr; m-cap ₹2,739 Cr)** to the competitive table; Simpolo is now the #3/#4 tile maker by revenue.
+- **kajaria-ceramics.html — market share:** with CRISIL's FY26 industry revenue of ₹51–53k Cr (~⅔ domestic ≈ ₹35k Cr), Kajaria's tile revenue (₹4,280 Cr) is ~12% of the domestic market; avoid the primer's US$10–11 bn market.
+- **kajaria-ceramics.html — segment margins:** tiles segment result 15.2% of revenue (FY26; FY25 10.7%), others (bath + adhesives) 8.1% (FY25 2.8%) — AR note 41.
+- **kajaria-ceramics.html — off-balance-sheet:** standby letter of credit for the Nepal JV's loan ₹130.31 Cr (Mar-26; ₹88.13 Cr Mar-25).
+- **kajaria-ceramics.html — Gailpur line conversion:** a 9.1 MSM ceramic-floor line at Gailpur was converted to GVT in FY26 (chairman's letter) — supports the "ceramic is shrinking" point.
+- **prism-johnson.html — HRJ Q1 FY27 KPIs:** HRJ tile volume **10.8 MSM (−18% YoY)**, realisation **₹394/m² (+17%)**, utilisation **58.2%**, EBITDA ₹47.2 Cr (9.0%), capacity ~64 MSM incl. JVs (11 plants), ROCE 4.7% FY26; management warns the pricing benefit "is likely to moderate as industry supply normalises" (Q1 FY27 presentation).
+- **cera-sanitaryware.html — gas and tiles:** Q1 FY27 gas cost ₹48.43/m³ (₹33.17 a year earlier; 69% GAIL / 31% Sabarmati), gas ≈ 3.3% of revenue; tiles = 11% of revenue, +22% YoY (Q1 FY27 call).
+
