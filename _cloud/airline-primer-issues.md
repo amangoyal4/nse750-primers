@@ -33,3 +33,7 @@
 - **interglobe-aviation.html — industry traffic:** domestic traffic FY25 166 mn (+7%) → FY26 168 mn (+1%); H1 FY27 ~−2%; the first negative calendar YTD (Jan–Sep 2026 −0.82%) outside COVID.
 - **interglobe-aviation.html — Akasa and Air India numbers:** Akasa FY26 revenue **₹6,168 Cr**, loss **₹2,716 Cr** (forex ₹992 Cr). Air India group FY26 loss **₹22,238 Cr (Ind AS)**; SIA reports S$3.56 bn on a total-comprehensive basis. State the basis.
 
+
+## primer-audit.mjs result (2026-11-01, orchestrator)
+
+- **interglobe-aviation.html — pre-existing hard-check FAIL:** `❌ banned` (banned phrase present) and no `main{min-width:0}` (phone overflow risk). 75 KB, 6,289 words, refreshed 2026-06-30, 0 report links. Not fixed here (primers are out of scope for cloud runs); fix at the next primer refresh and add a link to subsectors/airline.html once published.
