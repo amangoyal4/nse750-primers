@@ -40,3 +40,6 @@
 - **prism-johnson.html — HRJ Q1 FY27 KPIs:** HRJ tile volume **10.8 MSM (−18% YoY)**, realisation **₹394/m² (+17%)**, utilisation **58.2%**, EBITDA ₹47.2 Cr (9.0%), capacity ~64 MSM incl. JVs (11 plants), ROCE 4.7% FY26; management warns the pricing benefit "is likely to moderate as industry supply normalises" (Q1 FY27 presentation).
 - **cera-sanitaryware.html — gas and tiles:** Q1 FY27 gas cost ₹48.43/m³ (₹33.17 a year earlier; 69% GAIL / 31% Sabarmati), gas ≈ 3.3% of revenue; tiles = 11% of revenue, +22% YoY (Q1 FY27 call).
 
+
+## Primer audit (primer-audit.mjs, 2026-11-01)
+- **kajaria-ceramics.html — hard-check fail:** only 7 "In plain terms" callouts (needs ≥ 8); no `main{min-width:0}` (phone overflow risk). Pre-existing; not fixed.
