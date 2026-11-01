@@ -27,3 +27,40 @@
 - **tips-music.html — demerger details unverified:** "1 Tips Films share for every 3 Tips Industries shares", "effective 1 Apr 2021; scheme effective Mar 2022" — verify against the scheme/BSE record-date notice.
 - **General (both):** neither primer covers the **DSP shutdowns (2024–25)**, the **FICCI-EY 2025 data (music ₹5,900 Cr, +10%; paid subs 14.4 mn, +37%; digital licensing +2%)**, the **Spotify India price cut (May-2026)**, the **Calcutta HC IPRS v. Vodafone Idea ruling (May-2026)**, the **2024 rescission of the DPIIT 31D-internet OM**, the **2025 AI settlements (UMG/WMG with Udio/Suno)**, or **T-Series' financials** (FY25 sales ₹2,473 Cr, PAT ₹1,057 Cr). Market caps are 2.5–4 months stale (Saregama +18%, Tips +19%).
 
+
+## From Music Labels deep-research pass (2026-11-01, music-labels-industry.md Part 4 §4.5.2)
+
+
+#### From Music Labels deep research (2026-11-01, music-labels-industry.md Part 4)
+
+**saregama.html**
+- **Licensing growth overstated by the music-vertical headline:** add that CARE (Jul-2026) puts FY26 licensing growth at ~12% (FY25 ~13%); the music vertical's +17% includes artiste management, which nearly doubled.
+- **FCF after content missing/understated:** FY26 audited CFO ₹100.0 Cr vs capex incl. music copyrights ₹214.0 Cr → FCF ≈ −₹114 Cr before the ₹325 Cr Bhansali payment; funded by FD redemptions (QIP money; ~₹101 Cr QIP unspent at Mar-26).
+- **Accounting policy not stated:** music copyrights are capitalised and amortised straight-line over 1–10 years from release. In FY23 the amortisation life was extended to 10 years, which cut charges by ₹5–11 Cr a year in FY23–FY27 and defers ~₹36.8 Cr to FY28+.
+- **Royalty line:** replace "royalty expense ₹34 Cr in Q4 FY26" with FY26 **₹63.4 Cr** (FY25 ₹68.3 Cr); add the **₹15.0 Cr brand royalty to RPSG Resources** (related party).
+- **Carvaan units:** replace quarterly figures with annual **689k (FY24) → 454k (FY25) → 252k (FY26)**; vinyl **4k → 11k → 27k** (AR26).
+- **Pocket Aces:** add stake **90.93%** (FY25 tranche ₹127.5 Cr + ₹15 Cr rights issue), **₹27.4 Cr goodwill impairment in FY25**, breakeven in FY26.
+- **Bhansali:** add exact terms — 9,960 CCPS for ₹325.16 Cr (30-Jan-2026), conversion by 31-Oct-2028 into 28–49.9%, right to 51% by 2030, equity-accounted associate.
+- **Digidrive demerger:** add NCLT Kolkata 22-Jun-2023, appointed date 1-Apr-2022 (explains FY23 restatement).
+- **Credit rating:** add CARE AA-/Stable and A1+ (3-Jul-2026); gearing 0.04×.
+- **Legal:** add the Calcutta HC (May-2026) Vodafone Idea v IPRS ruling, in which Saregama was held to lack competence to license the underlying works; and Saregama's Feb-2025 application (with IMI and T-Series) to intervene in ANI v OpenAI.
+- **Contingent liabilities:** ~₹128 Cr (income tax ₹28.8 Cr + indirect taxes ₹99.2 Cr); content commitments ₹89.9 Cr.
+- **MD remuneration ₹20.3 Cr (+39%)** — governance datapoint.
+
+**tips-music.html**
+- **Remove "Spotify ~55% of streaming revenue"** — management says it does not disclose platform splits (Q1 FY27 call, 22-Jul-2026).
+- **Publishing partner:** management names **Sony Music Publishing** (not Warner Chappell) as publishing distributor; Warner Music is the recorded-music distributor (25–30% of revenue; renewal FY28).
+- **Content-cost definition:** state that "content cost" = acquisition/production amortisation + royalty + advertising & promotion (FY26 ₹38.5 + ₹5.9 + ₹14.9 Cr).
+- **Related party:** add the **₹60 Cr/yr omnibus RPT approval with Tips Films** (promoter-owned; Kumar and Ramesh Taurani ~20% each; TFL loss ₹15.8 Cr).
+- **Demerger details now verified:** 1 Tips Films share per 3 Tips Industries shares; appointed date 1-Apr-2021; NCLT 3-Mar-2022; effective 23-Mar-2022; record date 21-May-2022 — remove the "unverified" flag.
+- **Buyback history:** add the FY25 buyback (₹47.2 Cr cash) alongside the Q2 FY27 ₹44.44 Cr buyback (max ₹44.50 Cr at ≤₹750/share).
+- **Catalogue and staff counts:** AR says "more than 34,000 songs" (+4,000 Studio Radha Gujarati/Kutchi songs in FY26) vs deck 38,000+; 69 permanent employees (AR) vs 94 (deck) — state basis.
+- **Guidance wording:** "exceed 20%" (no formal 22–23%).
+
+**General (both primers / industry)**
+- Use the **FICCI-EY gross series (₹54 bn 2023, ₹53 bn 2024, ₹59 bn 2025, ₹75 bn 2028E, 9% CAGR)**. Flag the definitional break vs older ₹22–24 bn figures.
+- Paid subscriptions: **14.4 mn (2025)**; EY–IMI forecast **28–30 mn by 2028**; **61%** would pay if free tiers ended. Drop "~20 mn".
+- Add the **DPIIT Dec-2025 AI working paper** (mandatory blanket licence) as a regulatory risk; add the **PPL/Novex Delhi–Bombay split** pending in the Supreme Court.
+- Add **UMG–Excel Entertainment (Jan-2026)** as the global-major parallel to Saregama–Bhansali.
+- Global peers: UMG 2025 adj. EBITDA margin **22.5%**, WMG FY25 **21.5%** (verified).
+
