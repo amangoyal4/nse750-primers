@@ -2059,6 +2059,23 @@
         "KPI masterclass"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Ferro Alloys",
+      "slug": "ferro-alloys",
+      "file": "ferro-alloys.html",
+      "sector": "Ferro Alloys",
+      "subsector": "Ferro Alloys",
+      "companies": 2,
+      "accent": "#7D5A50",
+      "hook": "Ore, power and a Zambian power plant: why India's ferrochrome margins are set by South African electricity and Chinese stainless mills, why captive chrome ore and captive power are the only moat, and why Nava's profits come mostly from a coal-fired plant in Zambia, not its furnaces.",
+      "tags": [
+        "Ore, power and the cost curve",
+        "South Africa and the ferrochrome cycle",
+        "Maamba: a Zambian power utility",
+        "KPI masterclass"
+      ],
+      "published": "2026-11-01"
     }
   ],
   "universe": [
@@ -2360,7 +2377,7 @@
       "sector": "Ferro Alloys",
       "sub": "Ferro Alloys",
       "companies": 2,
-      "report": null
+      "report": "ferro-alloys.html"
     },
     {
       "sector": "Finance",
