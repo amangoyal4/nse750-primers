@@ -61,3 +61,7 @@
 
 
 - Orchestrator note: Part 3 §3.2 PSU tonnage sum (1,969 TMT) is superseded by S1–S3 (Servo 905 FY26 + HPCL 686 FY26 + MAK 471.8 FY25 ≈ 2,063 TMT, mixed years, includes base-oil sales). All other §3.2 aggregates re-added by hand: correct.
+
+## From Lubricants render/primer audit (2026-11-01)
+
+- castrol-india.html — primer-audit: no `main{min-width:0}` (phone overflow risk). Hard checks otherwise pass. Not fixed (primers are out of scope for this branch).
