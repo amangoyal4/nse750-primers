@@ -35,3 +35,7 @@
 - **cello-world.html — writing-instruments growth:** "writing-instruments revenue up ~60%" should be qualified. Full-year FY26 WI revenue rose **~19% (₹309 → ₹369 Cr)**; ~+52–64% applies only to Q4 FY26/Q1 FY27. Q1 FY27 WI ≈ ₹112 Cr (21.2% of revenue) at a 53.8% gross margin (Cello Q1 FY27 PPT).
 
 **Key URLs added this pass**
+
+## From primer-audit.mjs (2026-11-03, stationery run)
+
+- **doms-industries.html — format:** hard checks pass, but primer-audit notes "no main{min-width:0} (phone overflow)"; logged, not fixed.
