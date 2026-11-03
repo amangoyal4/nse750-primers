@@ -668,5 +668,45 @@
   "accent": "#C46A2E",
   "angle": "SINGLE-MEMBER: Kajaria Ceramics (largest tile maker; own plants + JVs; sanitaryware/faucets (Kerovit), plywood (Kajaria Plywood) and adhesives; Nepal JV; leadership succession). Reference peers: Somany Ceramics, Asian Granito, Orient Bell, Cera (sanitaryware — separate report), Morbi cluster (unorganised, ~70% of capacity), Chinese tiles. Forces: Morbi gas prices (propane/natural gas, Gujarat Gas pricing — link gas-distribution.html), Morbi export collapse (Gulf/US anti-dumping, freight) causing domestic oversupply and price war, real-estate completions demand (link realty.html), GST 2.0 rate on tiles (verify), anti-dumping on Chinese vitrified tiles (expiry/renewal — verify), capacity utilisation, dealer network, branded share gains, working capital. KPIs: volume (mn sq m), realisation/sq m, gas cost/sq m, EBITDA margin, utilisation, A&P %, net cash, ROCE. Link plywood-laminates.html, paints.html, glass.html.",
   "companies": 1
+ },
+ {
+  "order": 68,
+  "queue_no": 65,
+  "slug": "sanitaryware",
+  "key": "Construction Materials || Sanitary Ware",
+  "name": "Sanitaryware & Bath Fittings",
+  "accent": "#3D7EDB",
+  "angle": "SINGLE-MEMBER: Cera Sanitaryware (sanitaryware, faucets, tiles (traded/JV, ~11% of revenue — keep consistent with ceramic-tiles.html), wellness; Kadi, Gujarat gas-fired plant; premium brands Senator and value brand Polipluz; net cash; family-promoted). Reference peers: Hindware Home Innovation (listed), Parryware (Roca, unlisted), Jaquar (unlisted, faucet leader), Kohler India, Somany/Kajaria bath ranges (Kerovit), Chinese imports, unorganised Morbi. Forces: real-estate completions and replacement demand (link realty.html), housing premiumisation, Morbi gas prices and Cera's gas cost (link gas-distribution.html), brass/copper and zinc prices for faucets (copper record 2026; link copper.html), import duty and BIS rules, faucet in-house capacity vs outsourcing, dealer network and project/B2B mix, A&P, GST 2.0 effect (verify). KPIs: revenue by category, volume, gross margin, EBITDA margin, utilisation, dealer count, A&P %, net cash, working capital, ROCE. Link ceramic-tiles.html, realty.html, paints.html, plywood-laminates.html.",
+  "companies": 1
+ },
+ {
+  "order": 69,
+  "queue_no": 67,
+  "slug": "microfinance",
+  "key": "Finance || Microfinance Institutions",
+  "name": "Microfinance",
+  "accent": "#B5179E",
+  "angle": "SINGLE-MEMBER: CreditAccess Grameen (largest NBFC-MFI; Karnataka/Tamil Nadu/Maharashtra concentration; CA Grameen Bengaluru; retail-finance diversification; promoter CreditAccess India BV stake sale — verify 2025–26 status). Reference peers: Fusion Finance, Spandana Sphoorty, Muthoot Microfin, Satin Creditcare, Bandhan Bank and small finance banks (link small-finance-banks.html, private-banks.html). Forces: the 2024–26 microfinance credit crisis (over-indebtedness, MFIN guardrails Jan-2025 and Apr-2025 — max 3 lenders, ₹2 lakh indebtedness cap), state action (Karnataka's Feb-2025 ordinance, Tamil Nadu bill), PAR/GNPA and credit-cost cycle and its normalisation by FY27 (verify), RBI's NBFC-MFI qualifying-asset criterion cut from 75% to 60% (verify) and risk-weight changes, borrowing cost and RBI repo 5.50% (7-Oct-2026), rural incomes and the weak 2026 monsoon (87% of LPA; link fertilizers.html), Credit Guarantee scheme for MFIs. KPIs: GLP, borrowers, disbursement, NIM, cost of funds, credit cost, PAR 30/90, GNPA, write-offs, ROA, ROE, CRAR, P/B. Use lender metrics everywhere (no EBITDA). Link nbfc.html, small-finance-banks.html, private-banks.html.",
+  "companies": 1
+ },
+ {
+  "order": 70,
+  "queue_no": 69,
+  "slug": "household-products",
+  "key": "FMCG || Household Products",
+  "name": "Home Care",
+  "accent": "#6A994E",
+  "angle": "SINGLE-MEMBER: Jyothy Labs (Ujala fabric whitener, Exo dishwash, Henko/Mr White detergents, Maxo insecticides, Margo soap, Prill; Kerala-origin; Henkel India acquisition legacy; net cash; promoter family). Reference peers: Hindustan Unilever (Vim, Surf, Rin), Procter & Gamble Hygiene/P&G India, Reckitt, Godrej Consumer (insecticides — HIT, Good Knight), Nirma, RSPL (Ghadi), Patanjali, Dabur (Odonil, Sanifresh). Forces: home-care volume growth and downtrading, rural demand (weak 2026 monsoon; GST 2.0 Sep-2025 rate cuts on detergents/dishwash — verify), crude-linked inputs (LAB, soda ash; West Asia 2026 shock), price wars with HUL and regional players, small packs, quick commerce and modern trade, A&P intensity, insecticide category shrinkage (incense sticks, illegal products). KPIs: volume growth, category mix, gross margin, EBITDA margin, A&P %, distribution reach, net cash, ROCE. Link personal-care.html, diversified-fmcg.html, packaged-foods.html.",
+  "companies": 1
+ },
+ {
+  "order": 71,
+  "queue_no": 71,
+  "slug": "stationery",
+  "key": "FMCG || Stationary",
+  "name": "Stationery & Art Materials",
+  "accent": "#7B2CBF",
+  "angle": "SINGLE-MEMBER: DOMS Industries (pencils, crayons, scholastic art; FILA Group of Italy as strategic partner ~26%; IPO Dec-2023; Umbergaon capacity expansion, Uniclan baby products stake, Super Treads diapers?, Pioneer Stationery paper stationery — verify; export via FILA). Reference peers: Camlin (Kokuyo Camlin, listed), Flair Writing, Linc Pens, Hindustan Pencils (Nataraj/Apsara, unlisted, the main rival), Navneet Education, Cello's writing instruments (link houseware.html), ITC Classmate. Forces: organised share gain in pencils/scholastic, school-age demographics and enrolment, capacity-led growth and its absorption, in-house manufacturing and backward integration (wood slats, polymer), distribution reach (retail touchpoints), GST 2.0 rate cut on pencils/erasers/notebooks to nil or 5% (verify, Sep-2025), Chinese imports, adjacent categories (baby hygiene, bags, notebooks). KPIs: volume, revenue by category, gross margin, EBITDA margin, capacity and utilisation, retail reach, capex, working capital, ROCE, P/E. Link houseware.html, paper.html, education.html.",
+  "companies": 1
  }
 ]
