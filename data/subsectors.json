@@ -2195,6 +2195,23 @@
         "EVs and the engine-oil pool"
       ],
       "published": "2026-11-03"
+    },
+    {
+      "name": "Airlines",
+      "slug": "airline",
+      "file": "airline.html",
+      "sector": "Aviation",
+      "subsector": "Airline",
+      "companies": 1,
+      "accent": "#2D0FD2",
+      "hook": "A duopoly flying into a cost storm: how IndiGo and the Air India group came to fly nine in ten domestic passengers, why record 2026 fares still produced losses as ATF, the rupee and dollar leases bit, and what the Dec-2025 crew meltdown, P&W groundings and the international pivot mean.",
+      "tags": [
+        "2026 fuel shock",
+        "Forex and lease maze",
+        "December 2025 meltdown",
+        "International pivot"
+      ],
+      "published": "2026-11-03"
     }
   ],
   "universe": [
@@ -2268,7 +2285,7 @@
       "sector": "Aviation",
       "sub": "Airline",
       "companies": 1,
-      "report": null
+      "report": "airline.html"
     },
     {
       "sector": "Bank",
