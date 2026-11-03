@@ -54,3 +54,7 @@
 - **godrej-consumer.html — Home Care.** Add the Godrej Rizz (liquid dishwash) and Spic (pan-India Q1) entry into dishwash, which directly competes with Jyothy's Exo. Add HI share gains despite a weak monsoon. FY27 guidance held: HSD UVG standalone; double-digit consolidated revenue and EBITDA.
 - **dabur-india.html — home care.** Odonil +131 bp air-freshener share (Q4 FY26); home care >24% in Q4 FY26, mid-single digit in Q1 FY27. The neem-trademark interim order against Dabur (Bombay HC, Sep-2026) needs verification before use.
 - **General FMCG primers.** Replace "monsoon ~−12.6% (secondary)" with IMD: 87% of LPA; South Peninsula 76%.
+
+## From Home Care primer-audit (2026-11-03)
+
+- **jyothy-labs.html — format.** primer-audit.mjs: hard checks pass, but notes "no main{min-width:0} (phone overflow)"; 0 report links; refreshed 2026-07-27 per audit (primer text says 15-Aug).
