@@ -943,3 +943,629 @@ Basis: CAGL, Spandana, Satin = screener consolidated; Fusion, Muthoot Microfin a
 - [V-snip] IMD monsoon 2026 summaries: https://mausam.imd.gov.in/Forecast/marquee_data/Salient_Features_SW_MONSOON%20_2026_30_sep.pdf ; https://superkalam.com/current-affairs/01-10-2026/southwest-monsoon-ends-with-12-deficit-october-rain-also-likely-below-normal-imd-pg1-c0741b13-efac-431c-8afe-e6fcd2df8f02
 - [V-snip] CGSMFI 2.0 extension: https://oga-prod.angelone.in/news/economy/finance-ministry-extends-cgsmfi-2-0-till-august-31-2026-and-raises-loan-limit-to-1-000-crore
 - Session scratch notes and raw files: /tmp/claude-0/-home-user-nse750-primers/6587fd74-32ae-5694-87d2-a499f9820809/scratchpad/mf-dossier/
+
+---
+
+# PART 4 — Deep-research supplement (2026-11-03)
+
+Second, primary-source pass on Parts 1–3. Every [V] in this Part means the document was fetched **this session** (3-Nov-2026) from the named source and read (PDF text extracted; scanned pages rendered to image and read). [V-snip] = search-result summary or secondary article only. [E] = arithmetic/derivation (method shown). [K] = memory. Raw files and notes: `/tmp/claude-0/-home-user-nse750-primers/6587fd74-32ae-5694-87d2-a499f9820809/scratchpad/mf-deep/` (`dl/` downloads, `notes.md`, `fetchlog.txt`).
+
+**Primary documents read this session (core of this pass)**
+- CAGL: Q2 FY27 investor presentation, press release and earnings-call transcript (re-fetched from BSE); **Q1 FY27 transcript (24-Jul-2026) and presentation**; **Q4 FY26 presentation**; **Q2 FY26 presentation** (for Q3 FY25–Q1 FY26 quarters); **FY26 Integrated Annual Report** (BSE, 16.9 MB; MD&A, state tables, auditor's KAM, notes 34/37/38, RBI disclosures incl. covenant breaches, ALM).
+- Peers: Fusion Q2 FY27 presentation (1-Nov-2026) + Q1 FY27 transcript (10-Aug-2026); Spandana Q2 FY27 presentation (30-Oct-2026) + Q1 FY27 transcript (24-Jul-2026); Satin Q2 FY27 presentation + Q1 FY27 transcript; Muthoot Microfin Q1 FY27 presentation + transcript + 26-Oct-2026 press release (Q2 business update); Bandhan Bank Q2 FY27 presentation + Q1 FY27 transcript.
+- Industry: MFIN Micrometer releases Q4 FY24, Q4 FY25, Q1–Q4 FY26, Q1 FY27 (re-fetched); MFIN guardrails release (25-Nov-2024); MFIN QA release (9-Jun-2025); **MFIN "Key facts and clarification" release, 30-Oct-2026 (new; scanned — read as image)**; MFIN–NCAER study release (2-Apr-2026); MFIN press-release index; **IMD "Salient Features of the 2026 Southwest Monsoon"**; **RBI Master Direction – Regulatory Framework for Microfinance Loans (updated 17-Jul-2025)**; CRISIL Ratings release 9-Apr-2025 (guardrail table); screener.in 1-year price/volume series for CAGL; BSE filing of CAI's Jun-2023 block sale.
+- Web calls used ≈ 60 (≈ 40 document fetches + ≈ 20 searches).
+
+## 4.0 Supersedes (corrections to Parts 1–3 — writer must apply)
+
+| # | Item (where in Parts 1–3) | Old value | New value | Source (fetched?) |
+|---|---|---|---|---|
+| 1 | **Banks' share of industry portfolio, Mar-26** (trap 3; §E4; §H-3) | 32.7% (MFIN Q4 FY26 release) | **~26.4–26.6%**. CAGL's FY26 Annual Report (MD&A) gives Mar-26 shares **NBFC-MFI 43.7%, banks 26.4%, SFBs 15.6%, NBFCs & others 14.3%**; arithmetic from MFIN's own YoY rates gives ~26.6% (Mar-25 ~33% × 0.70 ÷ total). 32.7% is an error in the MFIN release (probably a mistyped 26.7%) | CAGL AR FY26 p.~146 [V]; MFIN Q4 FY26/Q1 FY27 releases [V]; [E] check |
+| 2 | Unique borrowers today (§0, §2.4, §H-4) | "~7.5–7.8 crore (2024–25)"; "~50 lakh lost access" | **6.06 crore unique borrowers and 9.27 crore loan accounts at 31-Aug-2026; GLP ₹3.23 lakh crore** — i.e. **~1.7 crore fewer borrowers than Mar-24 (7.8 crore) and 5.6 crore fewer accounts (14.9 crore)**. MFIN's "~50 lakh lost access" (Sep/Dec-25) is a much smaller, older estimate of people excluded, not the net change in the bureau count | MFIN release 30-Oct-2026 [V, read as image]; MFIN Q4 FY24 [V] |
+| 3 | CAGL share of industry (§0, §3.2) | "~9.4% of industry; ~21% of NBFC-MFI portfolio" [E] | **7.3% of industry and 16.8% of NBFC-MFI GLP (Mar-26)**, company-stated; state shares **Karnataka 21.3%, Maharashtra 21.9%, Tamil Nadu 10.9%, Madhya Pradesh 10.8%**. Shares are on the GL (bureau) book, not total AUM | CAGL AR FY26 MD&A [V] |
+| 4 | CAGL FY26 write-offs (§9.1; §H-17) | "Only Q3+Q4 ₹593 Cr in deck" | **₹1,968.45 Cr written off in FY26 (FY25: ₹1,124.29 Cr)** = 7.6% of opening AUM ("7.6% write-offs in FY26", Q4 deck); H1 FY26 therefore ≈ ₹1,375 Cr [E]; H1 FY27 ₹614 Cr | Auditor's KAM, AR FY26 [V]; Q4 FY26 deck [V] |
+| 5 | CAGL PAR 15+ accretion (§9.3; §3.3; §H-16) | Primer "~0.46% by mid-2026 from ~1.34% peak"; dossier "chart OCR, re-check" | Monthly PAR 15+ accretion/AUM: **Sep-24 0.91% · Dec-24 0.95% · Mar-25 0.84% · Jun-25 0.46% · Sep-25 0.47% · Dec-25 0.18% · Mar-26 0.07% · Jun-26 0.16% · Jul-26 0.21% · Aug-26 0.21% · Sep-26 0.26%**; Q1 FY27 average ~15 bp/month (CEO). 0.46% is **Jun-25**, not mid-2026. **1.34% is Q3 FY26's non-annualised credit cost**, not a PAR accretion peak. (The Q2 FY26 deck printed a 1.06% point for late 2024 on a differently-scoped series; use 0.95% as the peak on the current basis) | CAGL Q2 FY27 deck p.10; Q2 FY26 deck p.9; Q1 FY27 call [V] |
+| 6 | Bandhan's microfinance book (§5.1 rank 1) | "~₹65,000–70,000 Cr EEB" [K/E] | **EEB ₹52,620 Cr (Sep-26) = EEB group loans ₹35,020 Cr + SBAL ₹17,600 Cr; 12.7 mn active borrowers; 33.2% of gross advances (36.9% Sep-25)**. Like-for-like JLG book ≈ ₹35,000 Cr | Bandhan Q2 FY27 deck pp.4, 9–10 [V] |
+| 7 | IndusInd/BFIL microfinance book (§5.1 rank 3) | "~₹25,000–30,000 Cr" [K] | **~₹16,305 Cr (Jun-26, −3% QoQ)**; ₹17,669 Cr (Dec-25); FY27 growth guided 15–20% | Search summaries of IndusInd Q1 FY27 call [V-snip] |
+| 8 | Asirvad (Manappuram) book (§5.1 rank 6) | "~₹10,000–12,000 Cr" [K] | **~₹7,188 Cr AUM (Jun-26; +7.2% YoY), incl. ~₹1,600 Cr gold loans**; ₹6,091 Cr (Dec-25) | Quartr summary of Manappuram Q1 FY27 [V-snip] |
+| 9 | Peer AUMs (§2.2–2.5; §H-12) | n/v; on-book loan proxies | **Fusion ₹8,007 Cr; Spandana ₹5,364 Cr; Satin ₹16,589 Cr consolidated (₹13,608 Cr standalone); Muthoot Microfin ₹15,323 Cr** (all Sep-26) | Company decks / press release [V] |
+| 10 | Muthoot Microfin GNPA/NNPA "Jun-26" (§2.0, §2.4) | 3.89% / 1.14% (screener column misread) | **3.70% / 1.05% at Jun-26**; 3.89% was **Mar-26** | Muthoot Q1 FY27 deck p.7 [V] |
+| 11 | Latest peer GNPA | Fusion 2.51% (Jun-26); Spandana 3.60% (Jun-26); Satin n/a | **Fusion 1.60% (NNPA 0.1%); Spandana 2.54% consolidated (NNPA 0.50%); Satin 1.9% (PAR 90, standalone, ₹197 Cr)** — all Sep-26 | Company Q2 FY27 decks [V] |
+| 12 | 2026 monsoon description (§header, §3, §A6) | "~87% of LPA, lowest since 2015; E&NE driest since 1901; Central normal" | **87% of LPA, 759.4 mm = 4th lowest since 2001 and 13th lowest since 1901.** Regions: NW 94.1%, **Central 97% (normal)**, **South Peninsula 76% (542 mm, 4th lowest since 1901)**, NE India 74%; East & NE 1,017.1 mm = lowest since 1901; monsoon core zone 779.9 mm (below normal); June 65%, July 101%, Aug 84%, Sep 92% of LPA; 17 of 36 subdivisions (42% of area) deficient. **The South Peninsula deficit matters most for CAGL (KA+TN = 47% of AUM)** | IMD salient-features PDF [V] |
+| 13 | MFIN guardrail effective dates (trap 5; §7.2; §H-7) | "4-lender cap from 1-Jan-2025, 3-lender from 1-Apr-2025 [K]" | **Guardrail 1.0 (≤4 lenders, ₹2 lakh MF-only) applicable from 1-Aug-2024** (directive 8-Jul-2024); **Guardrail 2.0 announced 25-Nov-2024; its other covenants (₹2 lakh incl. unsecured retail, 60-dpd/₹3,000 rule, deduction limits) in force from 1-Jan-2025; the 3-lender cap deferred three months to 1-Apr-2025** (IT readiness) | CRISIL Ratings 9-Apr-2025 table [V]; Mint/5paisa on the deferral [V-snip] |
+| 14 | RBI risk-weight rollback (§7.2; §H-9) | "restores risk weight … to pre-Nov-2023 levels" | **Partial rollback, 25-Feb-2025, effective 1-Apr-2025:** bank exposure to NBFCs — the Nov-2023 +25pp add-on withdrawn; microfinance loans no longer treated as 125% consumer credit (now 100%, or 75% if qualifying regulatory retail). Other unsecured consumer credit stays at 125% | Business Standard, Khaitan & Co, Outlook Business [V-snip]; RBI circulars not opened |
+| 15 | Karnataka law (§7.2, §7.4; §H-8) | "Karnataka Microfinance (Prevention of Coercive Actions) Ordinance, 2025 … enacted Mar-2025" [K] | Correct title: **Karnataka Micro Loan and Small Loan (Prevention of Coercive Actions) Ordinance, 2025** — Governor's assent and notification **12-Feb-2025** (after returning an earlier draft); replaced by **Karnataka Act No. 15 of 2025, assent 24-Mar-2025, deemed in force from 12-Feb-2025**; offences cognisable and non-bailable; up to 10 years' imprisonment and ₹5 lakh fine (s.12, per legal notes; one outlet reports 6 months–3 years — check text) | Casemine Act listing, The Week, South First, Dakshalegal [V-snip] |
+| 16 | Tamil Nadu law (§7.2, §7.4) | "Apr-2025 Act/Bill passed [K]" | **Tamil Nadu Money Lending Entities (Prevention of Coercive Actions) Act, 2025 (Act 40 of 2025)**: passed by Assembly 29/30-Apr-2025; **Governor's assent 9-Jun-2025; in force with Rules from 19-Nov-2025**; RBI-regulated entities largely outside, but coercive-recovery provisions (ss.20–26) apply to NBFCs operating in TN; **challenged in the Madras High Court** by NBFCs | PRS India Act PDF link, Bar & Bench, Vinod Kothari [V-snip] |
+| 17 | Repo path (§header) | "cut to 5.25% in Dec-2025 [K, verify]" | Confirmed indirectly: **7-Oct-2026 MPC raised repo 25 bp from 5.25% to 5.50%**, unanimous, stance changed from neutral to "calibrated tightening"; first hike since Feb-2023; FY27 GDP forecast 7.1%, CPI 5.2%; next MPC 2–4 Dec-2026 | Multiple news reports [V-snip]; RBI release not opened |
+| 18 | Insurance-commission cap (§1.1, §7.2) | "2026 (draft) insurance regulator draft …; text not read" | **IRDAI consultation paper "Recalibrating Economics of Insurance Distribution", 23-Sep-2026: credit-life commission to lenders capped at 2% (single premium) / 2.5% (multi-year); credit-health 5%**; comments extended from 25-Oct to **31-Oct-2026** (650+ responses); start date reported as Jan-2027 or FY28 (unclear). CAGL: ~25–30 bp ROA impact "in case the commissions drop to indicated draft guidance" | News/broker notes [V-snip]; CAGL Q2 call [V] |
+| 19 | CAGL share-price fall (§0; §H-15) | "~32% since Jul-26; no single cause verified" | **−34.9% from the 52-week closing high ₹1,614 (30-Jul-2026) to ₹1,051 (3-Nov); closing low ₹997.50 (26-Oct)**. Daily series shows two legs: **17–29 Sep (−14%)** coinciding with the IRDAI draft (23-Sep) and monsoon-end data, and **16–26 Oct (−21%)**, incl. −6.9% on 21-Oct and **−5.6% on 23-Oct on 35.7 lakh shares (≈10× normal) — the day after Q2 results** (50 bp rate cut, drought restructuring requests in Maharashtra, GL book −2% YTD, borrower growth 1.3%). The 6-Aug block (₹1,547 close) and the 7-Oct repo hike (₹1,240, flat) did not move the stock | screener price/volume API [V]; see §4.2.1(g) |
+| 20 | Udaya Kumar Hebbar (§3.4 primer issue) | "verify Hebbar's current role" | **MD up to 25-Jun-2025; Non-Executive (Nominee) Director from 5-Aug-2025.** Manoj Kumar is Chairman & Independent Director from 28-Oct-2025 (George Joseph to 8-Sep-2025) | AR FY26 note 37 [V] |
+| 21 | CAGL medium-term target (§2.1, primer "FY30 50% retail") | Not in dossier | **"₹50,000 Crore AUM by calendar year 2028"** (medium-term guidance, Q1 FY27 call). "FY30 ~50% retail" still not found in any CAGL document | Q1 FY27 transcript [V] |
+| 22 | CAGL GNPA/NNPA FY25 (5-yr table) | NNPA not given | FY25 net NPA to net advances **1.77%**, FY26 **1.13%** (RBI disclosure basis; company KPI 1.12%) | AR FY26 RBI disclosures [V] |
+| 23 | Industry PAR 31–180, Mar-26 | 2.0% | 2.0% (Q4 FY26 release) **but 2.1% per the Q1 FY27 release** — quote "~2%" | MFIN [V] |
+| 24 | Muthoot Microfin ownership (§2.4, §5.3) | "Muthoot Pappachan group 55.47%" | Parent **Muthoot Fincorp Ltd holds 50.2%** (CareEdge rationale); 55.47% = whole promoter group. **CRISIL upgraded MML to AA-/Stable (from A+/Positive) in Jun-2026** — same rating as CAGL | MML press release 26-Oct-2026 [V] |
+| 25 | CAI's earlier sell-down (§B4) | not in dossier | **CAI sold 90,00,000 shares (5.76%) in a block on 30-Jun-2023** (~US$137 mn, per adviser Avendus) — the 6-Aug-2026 2.28% block is the second open-market sell-down | BSE filing 1-Jul-2023 [V]; Avendus [V-snip] |
+
+## 4.1 Verification table — 40 figures that carry arguments
+
+Legend for "Fetched?": **P** = primary document fetched this session; **S** = secondary/snippet only; **E** = derived. "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Source (URL) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Industry GLP, Mar-24 (peak) | ₹4,33,697 Cr; 7.8 Cr unique borrowers; 14.9 Cr accounts | MFIN Micrometer Q4 FY24 release (mfinindia.org …Micrometer%20Q4%20FY%2023-24%20Press%20Release.pdf) | P | Yes |
+| 2 | Industry GLP, Dec-25 (trough) | ₹3,14,728 Cr (−7.3% QoQ; ~5% shift to retail bureau) | MFIN Q3 FY26 release | P | Yes |
+| 3 | Industry GLP, Jun-26 | ₹3,28,708 Cr; +1.1% QoQ; −6.9% YoY | MFIN Q1 FY27 release (1-Sep-2026) | P | Yes |
+| 4 | Industry GLP, Mar-26 | ₹3,25,174 Cr (MFIN) vs ₹3.31 trn, −11.7% YoY, 10.7 Cr active loans (CAGL AR, bureau basis) | MFIN Q4 FY26 release; CAGL AR FY26 | P | Yes (second basis new) |
+| 5 | Industry GLP, Aug-26; unique borrowers | ₹3.23 lakh Cr; **6.06 Cr borrowers; 9.27 Cr accounts** | MFIN "Key facts and clarification", 30-Oct-2026 (…MICROFINANCE%20-%20Note%20for%20Editors%20(Masharashtra).pdf) | P | **New (supersedes #2)** |
+| 6 | PAR 31–180 | 2.2% (Mar-24) → 6.3% (Mar-25) → 5.6% (Jun-25) → 2.0%/2.1% (Mar-26) → 1.6% (Jun-26) | MFIN Q4 FY25, Q4 FY26, Q1 FY27 releases | P | Yes (Mar-26 dual print) |
+| 7 | NBFC-MFI share | 39.4% (Mar-24) → 44.3% (Jun-26) | MFIN Q4 FY24, Q1 FY27 | P | Yes |
+| 8 | Bank share Mar-26 | 26.4% (not 32.7%) | CAGL AR FY26 MD&A; arithmetic | P + E | **Supersedes** |
+| 9 | "~50 lakh lost access" | ~50 lakh (Sep-25, Dec-25) | MFIN Q2/Q3 FY26 releases | P | Yes (but see #5) |
+| 10 | Q1 FY27 industry disbursement; funding growth | ₹61,718 Cr (+8.9% YoY); NBFC-MFI funding +91.4% YoY | MFIN Q1 FY27 | P | Yes |
+| 11 | Maharashtra industry GLP | ₹23,156 Cr; 43.39 lakh borrowers; 70.21 lakh accounts; 6th state (Aug-26) | MFIN 30-Oct-2026 | P | **New** |
+| 12 | Guardrail 2.0 rules | 3 lenders; ₹2 lakh incl. unsecured retail; no lending >60 dpd with >₹3,000; only processing fee + credit-life deductible | MFIN 25-Nov-2024 release | P | Yes |
+| 13 | Guardrail effective dates | 1.0 from 1-Aug-2024; 2.0 from 1-Apr-2025 (3-lender); other 2.0 covenants 1-Jan-2025 | CRISIL Ratings 9-Apr-2025 (fetched); Mint/5paisa | P (rating agency) + S | **Supersedes** |
+| 14 | QA floor | 75% of total assets → ≥60% of total assets net of intangibles; RBI circular 6-Jun-2025; non-MFI NBFC MF cap 25% of total assets | MFIN 9-Jun-2025; RBI Master Direction (rbi.org.in BS_ViewMasDirections id=12256, updated 17-Jul-2025) | P | Yes |
+| 15 | RBI 2022 framework | MF loan = collateral-free loan to household income ≤ ₹3,00,000; repayments ≤ 50% of monthly household income; board-set ceiling on rates; no prepayment penalty; effective 1-Apr-2022 | RBI Master Direction (as above) | P | Yes (upgraded from [K]) |
+| 16 | CGSMFI 2.0 size/cover | ₹20,000 Cr ceiling; 80/75/70% cover; validity to 31-Aug-2026; large-MFI cap ₹1,000 Cr within 20% of AUM; ₹770 Cr sanctioned by 10-Jun | Drishti (fetched first pass), FPJ, ETV, Angel One | S | Yes; post-Aug status unknown |
+| 17 | Repo | 5.25% → **5.50% on 7-Oct-2026** | News reports | S | Yes |
+| 18 | Monsoon 2026 | 87% LPA; 759.4 mm; South Peninsula 76%; E&NE lowest since 1901 | IMD Salient Features PDF (mausam.imd.gov.in) | P | Partly — **supersedes "lowest since 2015"** |
+| 19 | Karnataka ordinance | 12-Feb-2025; Act 15 of 2025 (24-Mar-2025) | Casemine / press | S | **Supersedes title** |
+| 20 | IRDAI credit-life cap | 2% / 2.5%; paper 23-Sep-2026; comments to 31-Oct-2026 | Press / broker notes | S | **New detail** |
+| 21 | CAGL Q2 FY27 AUM | ₹30,946 Cr (+19.5% YoY; +2.1% QoQ); GL ₹23,746 Cr; RF ₹7,200 Cr (23.3%) | CAGL Q2 FY27 PPT & PR (BSE 9d90680b…, 0614828a…) | P | Yes |
+| 22 | CAGL Q2 FY27 PAT | ₹501.6 Cr (+298.7%); H1 ₹995 Cr | CAGL PR / call | P | Yes |
+| 23 | CAGL NIM / ROA / ROE (Q2) | 15.1% / 5.8% / 23.2% (H1: 14.7% / 5.9% / 23.8%) | CAGL PPT/call | P | Yes |
+| 24 | CAGL GNPA / NNPA / PAR90 (Q2) | 1.79% (GL 60+, RF 90+) / 0.59% / 1.11% | CAGL PPT | P | Yes |
+| 25 | CAGL FY27 guidance (22-Oct) | AUM +20–25%; NIM 14.4–14.7%; C/I 29–30%; CC 3–4% ("assume 3.5–4%"); ROA 5.2–5.8%; ROE 21–24% | CAGL PPT p.14; call | P | Yes |
+| 26 | CAGL state mix (Sep-26) | KA 29.4 + MH 21.7 + TN 17.6 = 68.7% | CAGL Q2 PPT p.13 | P | Yes |
+| 27 | CAGL market share | 7.3% industry; 16.8% NBFC-MFI; KA 21.3%, MH 21.9%, TN 10.9%, MP 10.8% (Mar-26) | CAGL AR FY26 | P | **Supersedes ~9.4%** |
+| 28 | CAGL FY26 write-off | ₹1,968.45 Cr (FY25 ₹1,124.29 Cr) | AR FY26 auditor's report | P | **New** |
+| 29 | CAGL promoter | 66.21% (Jun-26) → 63.83% (Sep-26); 66.24% at Mar-26 (AR); 36,57,500 shares sold 6-Aug-2026 | screener (first pass); AR note 20; investywise/VCCircle | P (AR) + S (block) | Yes |
+| 30 | CAGL m-cap / P/B | ₹16,851 Cr / ~1.9× (₹1,050; BV ₹556); 3-Nov close ₹1,051 | screener page (first pass) + price API (this pass) | P | Yes |
+| 31 | CAGL 52-wk high/low (closing) | ₹1,614 (30-Jul-26) / ₹997.50 (26-Oct-26) | screener price API | P | Refines (₹1,634/₹994 intraday on screener page) |
+| 32 | CAGL cost of borrowing / mix | 9.1% (avg & marginal); guided 9.2–9.3% to Mar-27; 30% fixed / 40% MCLR / 30% repo | CAGL call | P | Yes |
+| 33 | CAGL related-party insurance income | Distribution income from CreditAccess Life Insurance (fellow subsidiary) ₹51.62 Cr FY26 (₹28.39 Cr FY25); total fees & commission ₹135.88 Cr | AR FY26 note 37, note 22 | P | **New** |
+| 34 | Listed NBFC-MFI FY26 PAT vs FY25 | ₹595 Cr vs −₹1,766 Cr (CAGL 778, Satin 332, Muthoot 170, Fusion 14, Spandana −699) | screener (first pass); Fusion & Spandana decks confirm FY26 PAT 14 and H1 numbers | P (decks) + screener | Yes |
+| 35 | Fusion Q2 FY27 | AUM ₹8,007 Cr; PAT ₹86 Cr; GNPA 1.60%; CRAR 36.75% | Fusion PPT (BSE cf0afd1e…) | P | **New** |
+| 36 | Spandana Q2 FY27 | AUM ₹5,364 Cr; PAT ₹18 Cr; GNPA 2.54%; ROA(TA) 1.0% | Spandana PPT (BSE b16427d8…) | P | **New** |
+| 37 | Satin Q2 FY27 | Cons AUM ₹16,589 Cr; PAT ₹176 Cr; ROA 4.5%; ROE 22.8%; PAR90 1.9% (sa) | Satin PPT (BSE 3fef86b5…) | P | **New** |
+| 38 | Muthoot Microfin Sep-26 | AUM ₹15,323 Cr (+22%); disb ~₹2,900 Cr; CoF 9.93%; JLG:non-JLG 69:31 | MML press release 26-Oct-2026 (BSE a4541a9e…) | P | Yes (AUM) + new detail |
+| 39 | Bandhan EEB Sep-26 | ₹52,620 Cr; group ₹35,020 Cr; 12.7 mn borrowers; EEB NPA ₹3,180 Cr | Bandhan PPT (BSE 3e8fe292…) | P | **Supersedes ~₹65–70k** |
+| 40 | Global comps | Gentera ROE ~25–26.5%, P/B ~1.8–1.9×; BRI ROE ~19% (H1-26), P/B ~1.2–1.6×; BTPN Syariah ROE ~13%, P/B ~0.7–1.0× | Quartr/aggregators; Mandiri, KB Valbury, BRI Danareksa notes | S | Refines [K] ranges |
+
+**Count:** figures 1–12, 14, 15, 18, 21–28, 30–33 and 35–39 rest solely on primary documents fetched this session = **32 of 40 [V] primary**; #13, #29 and #34 are primary plus a secondary element (3). Secondary only: #16, #17, #19, #20, #40 (5); mixed: #29, #34 and #13 (secondary for the deferral date). Two-source checks: Maharashtra GLP (MFIN ₹23,156 Cr Aug-26 vs Spandana MD "₹24,000 Cr" Jul-26 vs CAGL-implied ~₹23,600 Cr Mar-26 — agree); Tamil Nadu (Spandana MD "₹38,000 Cr" vs CAGL-implied ~₹38,800 Cr — agree); bank share Mar-26 (CAGL AR 26.4% vs MFIN-arithmetic ~26.6% — agree; MFIN print 32.7% rejected).
+
+## 4.2 Per company
+
+### 4.2.1 CreditAccess Grameen (member) — full depth
+
+#### (a) Management-commentary digest — Q2 FY27 call, 22-Oct-2026 (transcript filed 26-Oct) [V]
+Speakers: Ganesh Narayanan (MD & CEO), Gururaj Rao (COO), Nilesh Dalvi (CFO). Paraphrased; short quotes only.
+
+**Guidance (FY27, raised)**
+- ROA **5.2–5.8%** (was 4.0–4.8%); ROE **21–24%** (was 16–20%); NIM **14.4–14.7%** (was 12.8–13.2%) "even after factoring the 50-bps rate reduction applicable from October"; cost/income **29–30%** (was 33–35%); AUM growth **20–25%** retained; credit cost **3–4%** retained — CEO: "you should assume that it will be somewhere between 3.5% to 4%".
+- Borrowing cost: CFO expects **9.2–9.3% until March**; liabilities ~30% fixed, ~40% MCLR-linked, ~30% repo-linked, reprice with lag; the new US$175 mn ECB replaces a US$200 mn ECB maturing in October **at a lower rate**; >80 lending institutions.
+- Pricing: **50 bp lending-rate cut from October** on all products except mortgage and two-wheeler; a second 50 bp in Q4 only "if the credit cost hold at 3%". Earlier plan was 100–150 bp in total — "we can stop there" if credit costs rise. Yields "have peaked out"; cuts take **4–6 quarters** to flow through. Target **risk-adjusted NIM ≥10%** to sustain a **steady-state ROA of 4.5–5%**; pricing can absorb credit cost up to ~4.5–5% before ROA falls below that (FY26: 7% credit cost → 2.7% ROA).
+- Credit cost trajectory: Q3 "should probably inch up a little more" (festivals Oct–Nov, drought); H1 normative 2.98% + 0.45% macro-prudential buffer (₹137 Cr) = 3.43%; Stage-1 coverage ~1.8%, to rise ~5–6 bp per quarter in Q3–Q4. CFO: even a 5% run-rate in H2 keeps FY27 within 4%.
+- FY28: growth and margins "should be similar"; formal guidance towards Q4. Microfinance growth "range bound … 10% to 12%"; retail faster. Medium-term (Q1 call, 24-Jul): **₹50,000 Cr AUM by calendar 2028**.
+
+**Top analyst Q&A points**
+1. **Drought:** early signs in **~6 districts of central Maharashtra** — borrowers asking for more time "including restructuring options"; no new sourcing there, collections staff redeployed. Floods in Bihar/UP/MP/Chhattisgarh were temporary (2–3 weeks). October normal elsewhere, **including Karnataka and Tamil Nadu**. CFO: "historically, we've not seen this kind of drought … this year, we'll have to watch out because it's very widespread"; NE monsoon expected normal.
+2. **Insurance-commission cap:** no direct talks with the regulator; "slightly moderated from current levels"; impact **~25–30 bp of ROA** if commissions drop to the draft levels; CAGL "better placed … to cover it through pricing".
+3. **Guarantees:** no microfinance guarantee availed yet; applied; "budgetary approval … pending … expect it to open up in a week or two"; plan "a few thousand Crore in the next few years". CGFMU economics: premium ~1.3–1.5% p.a., ~75% cover of claims, first-loss/total gap 15% of pool. Small cover already on individual loans via CGTMSE and BII. Banks and SFBs have already covered "a significant portion" of their books.
+4. **Promoter transaction:** "promoters are in active discussion for a strategic investor as the whole group … progress in the next couple of quarters"; confirmed **at HoldCo level, "not at our level"**; analyst framing "subject to right price discovery … no time element" was accepted.
+5. **Competition:** banks have "significantly pulled back", MFIs and NBFCs gained share, SFBs contracted a little; but "I don't think banks have vacated … all of this is temporary".
+6. **Borrower growth (1.3% YoY) vs AUM growth (19.5%):** ~10 lakh customers added in four quarters but **~3 lakh written off in 12 months**; attrition historically ~15% (≈7–7.5% graduate/move up, rest stop borrowing or default); some customers cannot be renewed because they hit guardrails — "Many have hit the limit" (₹2 lakh). Target **>1 lakh new customers a month** (now ~80,000).
+7. **Retail book quality:** Unnati (prime IBL) customers average >7 years' vintage and score >730; PAR 30 "never crossed 3%" through the cycle; mortgage budgeted at ~2% credit cost; industry mortgage PAR 0 ~5–8%. Mortgage now in **428 branches** (300 GL + 128 RF), up from 120.
+8. **Risk limits:** no district >2% of AUM; customers with gold loans stable at **10–12%** of the base.
+
+**Q1 FY27 call (24-Jul-2026) — points not in Q2 call [V]**
+- Q1 AUM ₹30,319 Cr (+16.4%) "despite 6.3% TTM write-off"; 2.5 lakh new borrowers (35% NTC); aim ~1 lakh/month.
+- AUM share of **unique GL borrowers 45.7%**; share with **>3 lenders 2.6%** (Jun-26). Employee attrition 20.6% (25.8% a year earlier).
+- PAT ₹493 Cr (+720%); TTM ROA 4% / ROE 16% ("aligned with our guided cross-cycle profitability"). Net worth ₹2,734 Cr (FY20) → ₹8,347 Cr (Jun-26), **20% CAGR, 86% from internal accruals**.
+- Unnati vintage 7.7 yrs / score 732; mortgage vintage 6.2 yrs / score 714; mortgage sourcing 55% internal / 45% external; mortgage needs ~₹1,000 Cr book for full break-even incl. HO costs; SBL average rate ~20.5%; housing ~1% of AUM.
+- Liquidity ₹3,536 Cr (10.4% of assets); undrawn ₹2,993 Cr + pipeline ₹9,440 Cr; ₹425 Cr private NCD; foreign borrowings 24%; West Asia crisis "no discernible impact"; El Niño being watched.
+- The FY27 guidance was deliberately not raised in July ("watch one more quarter"); a 50 bp cut in Q3 and maybe Q4 was already flagged.
+
+#### (b) Concall KPI table (Q2 FY27 vs Q1 FY27 vs Q2 FY26) [V PPT/PR]
+
+| KPI | Q2 FY26 | Q1 FY27 | Q2 FY27 | Comment |
+|---|---|---|---|---|
+| AUM ₹ Cr | 25,904 | 30,319 | 30,946 | +19.5% YoY |
+| GL / RF ₹ Cr | 23,035 / 2,869 | 24,061 / 6,258 | 23,746 / 7,200 | RF share 11.1% → 23.3% |
+| Disbursement ₹ Cr | 5,322 | 6,107 | 6,355 | |
+| Borrowers lakh | 44.40 | 44.51 | 44.98 | new: 2.2 / 2.5 / 2.3 lakh |
+| Branches / LOs | 2,209 / 14,496 | 2,276 / 14,455 | 2,326 / 15,089 | |
+| Yield / CoB / NIM % | 20.7 / 9.6 / 13.3 | 21.8 / 9.2 / 14.4 | 22.3 / 9.1 / 15.1 | |
+| C/I / Opex-AUM % | 32.5 / 5.2 | 29.3 / 4.8 | 28.2 / 5.0 | |
+| Credit cost ₹ Cr (% non-ann.) | 525.7 | 212.5 (0.72%) | 299.2 (0.99%) | Q2 = 0.77% new PAR + 0.22% ECL-rate increase |
+| Write-off ₹ Cr | n/s (H1 FY26 ≈1,375 [E]) | 364.0 | 250.3 | |
+| GNPA / NNPA / PAR90 % | 3.65 / n/s / 2.50 | 2.18 / 0.76 / 1.46 | 1.79 / 0.59 / 1.11 | |
+| ECL % of EAD | 4.06 | 3.20 | 3.31 | incl. 0.45% buffer |
+| PAT ₹ Cr | 126 | 493 | 502 | |
+| ROA / ROE % | 1.8 / 7.1 | 5.9 / 24.4 | 5.8 / 23.2 | |
+| CRAR / D/E | 26.1% / 2.8 | 24.9% / 3.0 | 26.9% / 2.8 | |
+| Digital collections | 18.1% | 24.2% | 26.3% | |
+| Liquidity | — | ₹3,536 Cr (10.4%) | ₹3,502 Cr (10.2%) | |
+
+#### (c) 5-year history, FY22–FY26 (company 10-year table, Q2 FY27 deck p.18; AR FY26) [V]
+
+| Metric | FY22 | FY23 | FY24 | FY25 | FY26 | FY22→26 |
+|---|---|---|---|---|---|---|
+| AUM ₹ Cr | 16,599 | 21,031 | 26,714 | 25,948 | 29,590 | CAGR 15.6% [E] |
+| Disbursement ₹ Cr | 15,466 | 18,539 | 23,134 | 20,037 | 24,859 | |
+| Borrowers lakh | 38.24 | 42.64 | 49.18 | 46.94 | 44.18 | +3.7% total |
+| Branches | 1,635 | 1,786 | 1,967 | 2,063 | 2,236 | |
+| Employees | 15,667 | 16,759 | 19,395 | 20,970 | 21,941 | |
+| Total net income (≈NII + other) ₹ Cr | 1,766 | 2,338 | 3,440 | 3,809 | 4,164 | |
+| PPOP ₹ Cr | 1,078 | 1,506 | 2,391 | 2,638 | 2,809 | |
+| Credit cost % of AUM | 4.6 | 2.4 | 2.1 | 7.7 | 6.7 | |
+| Credit cost ₹ Cr (impairment) | n/s | n/s | n/s | n/s | 1,775.4 (quarters: 571.9 + 525.7 + 342.6 + 335.3) | |
+| Write-offs ₹ Cr | n/s | n/s | n/s | 1,124.29 | **1,968.45** | |
+| PAT ₹ Cr | 353 | 826 | 1,446 | 531 | 778 | |
+| Portfolio yield % | 18.3 | 18.9 | 20.9 | 20.6 | 20.6 | |
+| Cost of borrowing % | 9.3 | 9.4 | 9.8 | 9.8 | 9.5 | |
+| NIM % | 10.9 | 11.6 | 13.0 | 12.9 | 13.4 | |
+| Opex/AUM % | 4.9 | 4.7 | 4.5 | 4.5 | 5.1 | |
+| GNPA % (60+ dpd GL) | 3.44 | 1.21 | 1.18 | 4.76 | 3.17 | |
+| NNPA % | n/s | n/s | n/s | 1.77 (RBI basis) | 1.12 (1.13 RBI basis) | |
+| ECL provisioning % | 3.61 | 1.78 | 1.95 | 5.07 | 3.81 | |
+| ROA % | 2.2 | 4.2 | 5.6 | 1.9 | 2.7 | |
+| ROE % | 9.0 | 18.0 | 24.9 | 7.7 | 10.7 | |
+| CRAR % | 22.8 | 23.6 | 23.1 | 25.4 | 24.4 | |
+| D/E | 3.1 | 3.2 | 3.3 | 2.9 | 3.0 | |
+| Total equity ₹ Cr | 4,167 | 5,107 | 6,570 | 6,956 | 7,842 | |
+| Repayment rate % | — | — | 98.5 | 94.9 | 95.1 | AR p.~24 |
+| Borrower retention % | 84 | 88 | 88 | 87 | 85 | (88% H1 FY27) |
+| Rural share of borrowers % | 84 | 85 | 86 | 86 | 87 | |
+| Districts | 319 | 352 | 383 | 423 | 451 | |
+| Lenders (count) | — | — | — | — | 76 (54 in FY17) | |
+| Dividend | — | — | 11% payout | nil | **nil (Board did not recommend)** | AR |
+
+#### (d) 8-quarter trend, Q3 FY25–Q2 FY27 [V: Q2 FY26 deck pp.19–22 for Q3 FY25–Q1 FY26; Q2 FY27 deck pp.39–42 for Q2 FY26–Q2 FY27]
+
+| ₹ Cr / % | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| AUM | 24,810 | 25,948 | 26,055 | 25,904 | 26,566 | 29,590 | 30,319 | 30,946 |
+| Disbursement | 5,085 | 6,472 | 5,458 | 5,322 | 5,767 | 8,313 | 6,107 | 6,355 |
+| Borrowers (lakh) | 48.05 | 46.94 | 45.62 | 44.40 | 44.01 | 44.18 | 44.51 | 44.98 |
+| Branches | 2,059 | 2,063 | 2,114 | 2,209 | 2,222 | 2,236 | 2,276 | 2,326 |
+| Total income | 1,382 | 1,408 | 1,464 | 1,509 | 1,491 | 1,599 | 1,784 | 1,905 |
+| NII | 862 | 876 | 937 | 976 | 977 | 1,048 | 1,164 | 1,278 |
+| PPOP | 623 | 634 | 653 | 695 | 680 | 780 | 873 | 970 |
+| Credit cost (₹) | 751.9 | 582.9 | 571.9 | 525.7 | 342.6 | 335.3 | 212.5 | 299.2 |
+| PAT | −99.5 | 47 | 60 | 126 | 252 | 340 | 493 | 502 |
+| Yield % | 20.2 | 20.4 | 20.3 | 20.7 | 21.0 | 21.2 | 21.8 | 22.3 |
+| CoB % | 9.8 | 9.8 | 9.7 | 9.6 | 9.4 | 9.2 | 9.2 | 9.1 |
+| NIM % | 12.5 | 12.7 | 12.8 | 13.3 | 13.9 | 14.2 | 14.4 | 15.1 |
+| Cost/income % | 31.3 | 31.8 | 33.5 | 32.5 | 34.1 | 30.4 | 29.3 | 28.2 |
+| Opex/AUM % | 4.6 | 4.7 | 5.1 | 5.2 | 5.4 | 4.8 | 4.8 | 5.0 |
+| GNPA % (60+) | 3.99 | 4.76 | 4.70 | 3.65 | 4.04 | 3.17 | 2.18 | 1.79 |
+| PAR 90+ % | 2.64 | 3.28 | 3.29 | 2.50 | 2.94 | 2.28 | 1.46 | 1.11 |
+| ECL % | 5.07 | 5.07 | 4.62 | 4.06 | 4.26 | 3.81 | 3.20 | 3.31 |
+| ROA % | −1.4 | 0.7 | 0.9 | 1.8 | 3.5 | 4.4 | 5.9 | 5.8 |
+| ROE % | −5.7 | 2.7 | 3.4 | 7.1 | 13.8 | 17.8 | 24.4 | 23.2 |
+| CRAR % | 25.9 | 25.4 | 25.5 | 26.1 | 26.4 | 24.5 | 24.9 | 26.9 |
+| Total equity | 6,907 | 6,956 | 7,022 | 7,164 | 7,440 | 7,842 | 8,347 | 8,919 |
+| Write-off (gross) | n/s | n/s | ≈1,375 (H1) [E] | (incl.) | 258.9 | 334.3 | 364.0 | 250.3 |
+| Monthly PAR15+ accretion (qtr-end month) | 0.95 (Dec-24) | 0.84 | 0.46 | 0.47 | 0.18 | 0.07 | 0.16 | 0.26 |
+
+Checks [E]: FY26 PAT 60+126+252+340 = **778** ✓; FY26 credit cost 571.9+525.7+342.6+335.3 = **1,775.5** ✓ (P&L impairment ₹1,775.4 Cr); FY26 PPOP 653+695+680+780 = 2,808 ✓. Chart values for Q3 FY25–Q1 FY26 read from the deck's text layer; positions cross-checked against screener GNPA (3.99, 4.76, 4.70, 3.65 — match).
+
+#### (e) Asset-quality mechanics (Q2 FY27 deck p.11) [V]
+- Stage 1 (GL 0–15 dpd; RF 0–30): EAD ₹29,883 Cr, 97.8%, ECL 1.88%. Stage 2 (GL 16–60; RF 31–90): ₹140.6 Cr, 0.5%, ECL 58.7%. **Stage 3 (GL 60+; RF 90+): ₹546.8 Cr, 1.8%, ECL 67.5%**, incl. **₹151 Cr restructured loans at 40% provision**. Total ECL 3.31% of EAD ₹30,571 Cr.
+- ECL roll: opening ₹964.2 Cr + provisions ₹226.6 Cr (new PAR ₹138.4 Cr + higher ECL % ₹88.3 Cr) − write-off reversals ₹177.7 Cr = closing ₹1,013.1 Cr. Write-off ₹250.3 Cr; write-off impact ₹72.6 Cr. Bad-debt recovery ₹18.7 Cr.
+- State asset quality Sep-26 (PAR 0–90 / PAR 90+): Karnataka 0.8% / 1.1%; Maharashtra 1.0% / 1.1% (was 0.7% / 1.3% in Jun-26 — **early-bucket rise in Maharashtra**). Mar-26 (Q4 deck): KA 1.6% / 4.0% → 0.8% / 2.8%; MH 1.2% / 2.1%; TN 1.2% / 2.8%; MP 1.8% / 2.7%.
+
+#### (f) FY26 Annual Report findings (Integrated Annual Report 2025-26, BSE) [V]
+
+**State mix (gross AUM ₹ Cr; % of total)**
+
+| State | FY22 | FY23 | FY24 | FY25 | FY26 | FY26 borrowers (lakh) | Districts FY26 | CAGL market share Mar-26 |
+|---|---|---|---|---|---|---|---|---|
+| Karnataka | 5,964 (35.9%) | 6,977 (33.2%) | 8,482 (31.8%) | 8,069 (31.1%) | 8,697 (29.4%) | 10.25 | 31 | 21.3% |
+| Maharashtra | 3,568 (21.5%) | 4,390 (20.9%) | 5,508 (20.6%) | 5,576 (21.5%) | 6,502 (22.0%) | 9.18 | 33 | 21.9% |
+| Tamil Nadu | 3,458 (20.8%) | 4,250 (20.2%) | 5,365 (20.1%) | 4,925 (19.0%) | 5,202 (17.6%) | 7.61 | 38 | 10.9% |
+| Madhya Pradesh | 1,224 (7.4%) | 1,410 (6.7%) | 1,677 (6.3%) | 2,089 (8.0%) | 2,519 (8.5%) | 3.96 | 49 | 10.8% |
+| Bihar | 514 (3.1%) | 934 (4.4%) | 1,485 (5.6%) | 1,242 (4.8%) | 1,418 (4.8%) | 2.75 | 36 | — |
+| Others (OD, CG, KL, JH, RJ, GJ, UP, WB, PY, GA, AP, TL) | 1,872 | 3,070 | 4,197 | 4,048 | 5,251 (17.7%) | 10.44 | 264 | — |
+| **Total** | **16,599** | **21,031** | **26,714** | **25,948** | **29,590** | **44.18** | **451** | **7.3%** |
+
+- Karnataka's share fell every year (35.9% → 29.4%); **Karnataka borrowers −16.6% from FY24 (12.30 lakh) to FY26 (10.25 lakh)**; Tamil Nadu borrowers −23.6% (9.96 → 7.61 lakh) — the footprint of the two coercion laws and of deleveraging [E from V].
+- New states since FY24: Andhra Pradesh ₹433 Cr, Telangana ₹126 Cr, West Bengal ₹657 Cr (FY26) — diversification is real but still <5% of AUM.
+- Product mix FY26: IGL 76.2% (96.1% in FY22); home improvement 5.4%; RF 18.1%.
+
+**Borrowing mix (Sep-26, Q2 deck) and ALM (AR FY26)**
+- Banks TL/CC 61.5%; foreign ECB 21.2%; DA/securitisation 5.8%; FI TL 3.1%; private NCD 2.9%; foreign NCD 2.2%; NBFC TL 1.9%; public NCD 1.4%. 45 commercial banks, 3 FIs, 24 foreign lenders, 8 NBFCs, 5 corporates. Cross-currency swaps notional ₹5,204.5 Cr (₹2,968.6 Cr FY25) hedge the FX book.
+- ALM at 31-Mar-2026 (standalone, ₹ Cr, cumulative to 6 months): borrowings repayable ≈ **6,168** vs advances maturing ≈ **8,247** plus liquid investments ≈ 935 → positive gap ≈ ₹3,000 Cr [E from V]. Average liability maturity longer than asset maturity (AR narrative).
+
+**Covenant breaches (AR, RBI disclosures, note 43(x)) — new**
+- At 31-Mar-2025 CAGL breached financial covenants on seven facilities — e.g. Bank of Baroda (PAR 30 ≤5%: actual 5.55%; ROE ≥10%: 7.70%); HSBC (collection efficiency ≥95%: 91.40%); Maanaveeya (PAR 90 ≤3%: 3.28%); a global ECB lender (write-off ratio ≤2.5%: 4.33%); DFC (NPA 60+ ≤4%/3.5%: 4.25%/4.33%); Citi (operational self-sufficiency ≥110%: 103.69%); Standard Chartered (PAT condition). **Waivers obtained.** In FY26 the company again "was not in compliance with certain covenants" (periods up to 30-Sep-2025) and obtained waivers on or before 31-Mar-2026; borrowings are therefore shown at contractual maturities. **Even the strongest MFI tripped lender covenants in the bust** — a useful fact for the funding-transmission theme.
+
+**Related-party transactions (note 37; AOC-2)**
+- Holding company **CreditAccess India B.V.** (66.24% at Mar-26; 10,61,09,041 shares). Wholly-owned subsidiary **CreditAccess India Foundation** (CSR; grant ₹25.11 Cr FY26).
+- **Fellow subsidiaries: CreditAccess Life Insurance Ltd (CALI) and CreditAccess General Insurance Ltd** (group-affiliated insurers in India; group origin [K]). CAGL is CALI's **corporate agent**: **distribution income ₹51.62 Cr in FY26 vs ₹28.39 Cr in FY25** (+82%); receivable ₹1.08 Cr. Total fees & commission income ₹135.88 Cr (₹101.63 Cr). CALI is one of several insurers CAGL distributes for (others listed in the AR's corporate-agency section include large private life insurers). **Relevance:** the IRDAI credit-life commission cap hits this line directly; CAGL's 25–30 bp ROA estimate ≈ ₹80–100 Cr of annual pre-tax income on ~₹33,000 Cr of assets [E] — i.e. most of the fee & commission line.
+- KMP remuneration small; nominee directors receive sitting fees; no royalty or brand fee to the parent (none disclosed).
+
+**Contingent liabilities (note 34):** effectively **nil** at Mar-26 (Mar-25: GST input-credit dispute ₹3.91 Cr + ESI ₹0.09 Cr). Capital commitments small. No guarantees to related parties.
+
+**ESOP (Directors' Report; note 38):** 40,52,779 options outstanding at Mar-26 (≈2.5% of shares [E]); 9,12,500 granted and 4,76,409 exercised in FY26; 15,50,751 exercisable; 41,94,793 available for grant; exercise prices ₹120.87–955.94; ₹31.8 Cr realised. Diluted EPS ₹48.44.
+
+**Top risks named in MD&A:** borrower over-indebtedness; socio-political developments (local unrest, election-related disruption, administrative interventions); inflation raising both borrower stress and funding cost; frontline loan-officer attrition; competitive intensity and cyber/data risk. Regulatory category: **NBFC – Middle Layer**.
+
+**Governance changes:** Hebbar stepped down as MD on 25-Jun-2025 (now non-executive nominee director); Ganesh Narayanan MD & CEO; Manoj Kumar Chairman from 28-Oct-2025; Paolo Brichetti Vice-Chairman (CAI nominee); nominee directors Sumit Kumar, Massimo Vita. Joint statutory auditor Sharp & Tannan appointed 22-Oct-2026 (first pass).
+
+**Promoter / CreditAccess Asia / HoldCo plans:** AR shows CAI 66.24% (Mar-26) → 63.83% after the 6-Aug-2026 sale of **36,57,500 shares (2.28%) in the open market** (stated reason: liquidity for CAI's long-term investors, free float). **Price not disclosed**; NSE close that day ₹1,547 → value ≈ **₹566 Cr** [E]. Precedent: CAI sold **90,00,000 shares (5.76%) by block on 30-Jun-2023** (BSE filing, fetched). CAI's own shareholders (Q2 deck p.24): Olympus ACF 15.3%, ADB 8.5%, Asia Impact Invest 9.6%, individuals/HNIs/family offices 66.6%. Management (22-Oct): strategic investor sought **for the whole group at HoldCo level**; any indirect change in control of an NBFC needs prior RBI approval [K]. "CreditAccess Asia" is the former name of the Amsterdam holdco group [K] — no separate holdco listing plan found.
+
+#### (g) Why the stock fell ~35% while profits rose (gap 15) [V price series + dated events]
+
+| Window | Close | Move | Dated events in window | Verdict |
+|---|---|---|---|---|
+| 24–30 Jul | 1,591 → **1,614** (52-wk closing high) | — | Q1 results 24-Jul (PAT ₹493 Cr); 27-Jul volume 39.6 lakh shares (≈10× normal; cause not identified) | Peak after Q1 |
+| 31 Jul–12 Aug | 1,593 → 1,545 | −4% | **Block sale 6-Aug** (close ₹1,547, volume 2.5 lakh on NSE) | Block absorbed; not the driver |
+| 12 Aug–16 Sep | 1,545 → 1,417 | −8% | August rain 84% of LPA; deficit headlines | Monsoon de-rating begins |
+| 17–29 Sep | 1,417 → **1,216** | **−14%** | **IRDAI draft 23-Sep** (credit-life commission cap); season ends at 87% LPA (30-Sep) | Insurance cap + drought |
+| 30 Sep–15 Oct | 1,272 → 1,262 | flat | **Repo hike 7-Oct** (close ₹1,240; +1.9% next day) | Rate hike not a driver |
+| 16–26 Oct | 1,233 → **997.5** | **−19%** | 21-Oct −6.9% (10.5 lakh shares); 22-Oct results (after market) −4.7%; **23-Oct −5.6% on 35.7 lakh shares**; MFIN statements on farmer deaths in Nanded and Latur (Maharashtra) misattributed to microfinance (release dated 30-Oct) | Results reaction: Maharashtra restructuring requests, 50 bp price cut, flat GL book, 1.3% borrower growth; drought/political risk in Maharashtra |
+| 27 Oct–3 Nov | 1,010 → 1,051 | +5% | — | Stabilising |
+
+Writer framing: the market is pricing **peak earnings** (risk-adjusted NIM at a record, credit cost at the bottom of guidance) into a **drought year** with a **fee-income cap** and **giving back yield** — not the promoter sale or the repo hike. At ₹1,051: P/B 1.9× vs guided FY27 ROE 21–24% → P/B ÷ ROE ≈ 0.08–0.09; on H1 FY27 annualised PAT (₹1,990 Cr [E]) P/E ≈ 8.5× [E].
+
+#### (h) Industry footprint derived from CAGL's market shares (gap 1) [E from V]
+CAGL's market shares are on the GL (microfinance-bureau) book. Mar-26 GL by state: Karnataka 25.2% of GL (deck footnote) = ₹6,105 Cr; MH/TN/MP interpolated between Sep-25 and Sep-26 GL (₹5,116→5,208; ₹4,350→4,107; ₹1,957→2,028 Cr).
+
+| State | CAGL GL Mar-26 (₹ Cr) | CAGL share | Implied state GLP (₹ Cr) | Cross-check |
+|---|---|---|---|---|
+| Karnataka | 6,105 | 21.3% | **~28,700** | CRISIL: Karnataka ~14% of MFI AUM (Dec-24, rated universe) |
+| Maharashtra | ~5,160 | 21.9% | **~23,600** | **MFIN ₹23,156 Cr (Aug-26) [V]**; Spandana MD "₹24,000 Cr" (Jul-26) [V] — agree |
+| Tamil Nadu | ~4,230 | 10.9% | **~38,800** | Spandana MD "₹38,000 Cr" (Jul-26) [V] — agree |
+| Madhya Pradesh | ~1,990 | 10.8% | **~18,400** | — |
+| Bihar | — | — | **₹48,569 Cr** (Feb-26; RBI-REs) | MFIN 27-Feb-2026 [V first pass] |
+| Sum of five | | | **~1,58,000 (≈49% of ₹3.25 lakh Cr)** | UP (2nd largest) not sourced |
+
+### 4.2.2 Reference NBFC-MFIs and Bandhan EEB — lighter packs
+
+**Bases:** AUM/KPIs from company decks/releases [V]; FY revenue/PAT from screener (FUSION standalone, SPANDANA consolidated, MUTHOOTMF standalone, SATIN consolidated, BANDHANBNK standalone; pages pulled 3-Nov-2026 in the first pass, re-parsed this pass); quarterly PAT/GNPA from screener unless "co." Muthoot Microfin's Q2 FY27 board is 5-Nov-2026, so its P&L stops at Q1 FY27.
+
+#### Fusion Finance (FUSION) — Q2 FY27 deck 1-Nov-2026; Q1 FY27 call 10-Aug-2026 [V]
+**Digest:** MD & CEO Sanjay Garyali (Q1 call): "focused on reaching the ₹10,000 crores of AUM by … FY27"; ROA "towards the 4% end of the year" (Q2 annualised ROA already 4.0%, ROE 13.5%); credit cost "in line with a 2% annualised expectation" (seven straight quarters of decline); open ~50 MFI branches and rationalise ~100; a tighter in-house "Fusion+2" guardrail introduced during the West Asia oil shock cut approvals 3–4%, relaxed in ~80% of branches by August; MSME (secured, 86 branches, ₹828 Cr) scaling; premium JLG loans up to ₹1 lakh for households earning ₹3–6 lakh. Q2: 83% of customers with ≤2 lenders; X-bucket CE 99.77% (Sep-26); marginal CoB 9.35% (−281 bp YoY); CRAR 36.75%; D/E 2.3×; 1,475 branches, 22 states, 486 districts; top-5 states ~68% of AUM; 19 lakh+ active customers.
+
+| Fusion | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| AUM ₹ Cr (co.) | n/s (~6,786 [K]) | 9,296 | 11,476 | 8,980 | 7,407 |
+| Disbursement ₹ Cr (co.) | n/s | 8,596 | 10,294 | 6,971 | 5,983 |
+| Revenue ₹ Cr (screener) | 1,151 | 1,742 | 2,317 | 2,344 | 1,699 |
+| PAT ₹ Cr | 22 | 387 | 505 | −1,225 | 14 |
+| Credit cost (co.) | — | — | — | — | ₹425 Cr (5.8% of avg on-book loans) |
+| Total assets ₹ Cr | 7,290 | 9,364 | 11,774 | 8,293 | 8,295 |
+
+| Fusion | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| AUM ₹ Cr (co.) | n/s | 8,980 | n/s | 7,038 | 6,876 | 7,407 | 7,702 | 8,007 |
+| Borrowers (MFI) lakh (co.) | n/s | n/s | n/s | 25.6 | 23.2 | 21.5 | 20.0 | 19.1 |
+| PAT ₹ Cr | −719 | −165 | −92 | −22 | 14 | 114 | 62 | 86 |
+| GNPA % | 12.58 | 7.92 | 5.43 | 4.61 | 4.38 | 3.21 | 2.5 | **1.60 (co.)** |
+| NIM % (co.) | | | | 10.9 | | | 11.9 | 12.5 |
+
+Note: AUM is growing (+14% YoY) while MFI borrowers fell 25% YoY — average outstanding per borrower ₹26.5k → ₹37.7k; the industry's "consolidation around existing borrowers" in one company.
+
+#### Spandana Sphoorty (SPANDANA) — Q2 FY27 deck 30-Oct-2026; Q1 FY27 call 24-Jul-2026 [V]
+**Digest:** MD & CEO Venkatesh Krishnan: FY27 exit AUM "a little upwards of ₹6,000 crores", **~₹10,000 Cr by Mar-28**; "3.5% kind of ROA" in BAU from FY28 (CFO Ashish Damani); net credit cost "closer to 2%" FY27; ₹200 Cr balance of the ₹400 Cr rights issue (₹100 Cr from promoter); growth targets in **Tamil Nadu (Spandana ₹16 Cr of a ₹38,000 Cr state market)** and **Maharashtra (₹288 Cr of ₹24,000 Cr, 1.1% share → target 2%)**; individual-loan pilot in 8 MP branches. Q2: 96% of MFI AUM originated under new credit rules (98.7% current); PAR 30+ 3.1% (9.5% Sep-25); ≥4-lender overlap 3.8%; top-5 states 57% of AUM; no district >2.4%.
+
+| Spandana | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| AUM ₹ Cr | n/s (~6,800 [K]) | n/s (~8,500 [K]) | n/s (~11,970 [K]) | n/s | **4,420 (co.)** |
+| Revenue ₹ Cr | 1,463 | 1,401 | 2,401 | 2,355 | 1,024 |
+| PAT ₹ Cr | 70 | 12 | 501 | −1,035 | −699 |
+| Total assets ₹ Cr | 7,076 | 9,383 | 13,383 | 8,494 | 6,246 |
+| Borrowings ₹ Cr | 3,772 | 6,074 | 9,425 | 5,656 | 3,943 |
+
+| Spandana | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| AUM ₹ Cr (co.) | n/s | n/s | n/s | 4,088 | 3,948 | 4,420 | 4,887 | 5,364 |
+| Disbursement ₹ Cr (co.) | | | | 933 | | | 1,371 | 1,481 |
+| PAT ₹ Cr | −440 | −434 | −360 | −249 | −95 | 5 | 12 | 18 |
+| GNPA % | 4.85 | 5.63 | 5.49 | 5.60 | 4.20 | 3.80 | 3.64 (co.) | **2.54 (co.)** |
+| NIM % / opex-AUM % (co.) | | | | 8.4 / 16.3 | | | 12.5 / 13.3 | 13.6 / 11.4 |
+| ROA (total assets) % (co.) | | | | −15.9 | | | 0.7 | 1.0 |
+
+Note: Spandana's yield is 24.9% vs CAGL 22.3% and its CoB 12.3% vs 9.1% — a **~320 bp funding disadvantage** and opex/AUM of 11.4% (CAGL 5.0%) on a sub-scale book.
+
+#### Muthoot Microfin (MUTHOOTMF) — Q1 FY27 deck & call; Q2 business update in press release 26-Oct-2026 [V]
+**Digest (Q1 deck guidance table):** FY27 AUM growth **raised to 18–20% (from 12–15%)**; NIM 12.3–12.5%; opex 6.1–6.4%; credit cost 2.5–3.0% (from 2.7–3.0%); ROA 2.5–3.3% (from 2.5–3.0%). Q2 update: AUM **₹15,323 Cr (+22%)**, disbursement ~₹2,900 Cr (+28%), CE 98.11% (+477 bp), **JLG:non-JLG 69:31 (83:17 at Mar-26)**, small-enterprise individual loans ₹4,164 Cr "near-zero delinquency", **CoF 9.93% (−20 bp QoQ)**, 1,675 branches, 32 lakh customers, digital collections 47%. **CRISIL AA-/Stable (Jun-2026)**; CareEdge Global BB- outlook to Positive (Oct-2026); parent Muthoot Fincorp 50.2%. CareEdge: credit cost (on adjusted total assets) 7.5% FY25 → 3.0% FY26; ROTA −1.6% → 1.1%. Q1: rural AUM 97.3%; clients −4.7% YoY (strategic churn of over-leveraged customers).
+
+| Muthoot Microfin | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| AUM ₹ Cr | n/s (~7,000 [K]) | n/s (~9,200 [K]) | n/s (~12,200 [K]) | n/s | **14,006 (co.)** |
+| Revenue ₹ Cr | 833 | 1,429 | 2,249 | 2,563 | 2,375 |
+| PAT ₹ Cr | 47 | 164 | 450 | −223 | 170 |
+| Total assets ₹ Cr | 4,184 | 5,591 | 8,529 | 11,590 | 10,857 |
+
+| Muthoot Microfin | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| AUM ₹ Cr (co.) | n/s | n/s | 12,253 | 12,559 | 13,079 | 14,006 | 14,457 | **15,323** |
+| Disbursement ₹ Cr (co.) | | | 1,776 | 2,274 | 2,492 | 2,877 | 2,645 | ~2,900 |
+| Clients (mn, co.) | | | 3.41 | 3.36 | 3.33 | n/s | 3.25 | 3.2 |
+| PAT ₹ Cr | 4 | −401 | 6 | 31 | 62 | 71 | 81 | board 5-Nov |
+| GNPA % | 3.03 | 4.84 | 4.85 | 4.61 | 4.40 | 3.89 | **3.70 (co.)** | — |
+
+#### Satin Creditcare (SATIN) — Q2 FY27 deck; Q1 FY27 call [V]
+**Digest (deck "FY27 guidance vs achievement"):** consolidated AUM growth guided **20–25%** (19% annualised in H1; "H2 has seasonally higher growth"); standalone credit cost guided **3.0–3.5%** (H1 2.8%); standalone ROA guided **3.5–4.0%** (H1 4.3%); **consolidated AUM target ₹32,000 Cr by FY30** (52% achieved). Calls itself the **fourth-largest NBFC-MFI by AUM and customers**. Q2 consolidated: AUM ₹16,589 Cr (+31%), disbursement ₹3,697 Cr (+41%), NII ₹594 Cr, PPOP ₹324 Cr, PAT ₹176 Cr; gross yield 23.0%, **CoF 8.3% (adjusted for MTM/forex)**, NIM 14.6%, opex 6.6%, loan-loss ratio 2.2% (1.0% ex ₹50 Cr management overlay); ROA 4.5%, ROE 22.8%; leverage 3.8×; 2,075 branches; 34.1 lakh clients. Standalone AUM ₹13,608 Cr; **GNPA (PAR 90) 1.9% (₹197 Cr)**. Subsidiaries: housing ₹1,219 Cr AUM, MSME ₹1,761 Cr AUM.
+
+| Satin (consolidated) | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| AUM ₹ Cr (co.) | 7,617 | 9,115 | 11,850 | 12,784 | 15,174 |
+| Revenue ₹ Cr | 1,378 | 1,549 | 2,234 | 2,572 | 3,143 |
+| PAT ₹ Cr | 21 | 5 | 436 | 186 | 332 |
+| Borrowings ₹ Cr | 5,744 | 5,911 | 7,915 | 8,791 | 10,991 |
+
+| Satin | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Cons AUM ₹ Cr (co.) | n/s | 12,784 | n/s | 12,687 | n/s | 15,174 | 15,935 | 16,589 |
+| PAT ₹ Cr | 14 | 22 | 45 | 53 | 72 | 162 | 123 | 176 |
+| ROA % (co.) | | | | 1.7 | | 2.6 (FY26) | 3.3 | 4.5 |
+
+Satin's AUM never fell through the bust (FY24 → FY26 +28%) — the outlier among listed NBFC-MFIs; AUM decadal CAGR 17% (company).
+
+#### Bandhan Bank — EEB (microfinance) book — Q2 FY27 deck; Q1 FY27 call [V]
+**Digest:** "given the uncertain environment, we are cautious to grow our high-yielding EEB book"; target mix **EEB 33–35% / non-EEB 65%**; non-EEB +27% YoY (Q1). EEB slippages ₹604 Cr in Q1 FY27 (₹690 Cr in Q4 FY26); EEB CE June-26 ~98%. Q2 FY27: gross advances ₹1,58,370 Cr (+13.1%); **secured mix 57.3%**; non-East share 62.4%; CRAR 18.3%; 2,001 branches + 4,414 EEB banking units; 32.0 mn customers.
+
+| Bandhan EEB (₹ Cr) | Sep-25 | Jun-26 | Sep-26 |
+|---|---|---|---|
+| EEB total | 51,730 | 52,640 | **52,620** |
+| of which EEB group (JLG) | 33,110 | 35,220 | 35,020 |
+| of which SBAL (small business & agri) | 18,620 | 17,420 | 17,600 |
+| EEB share of gross advances | 36.9% | — | 33.2% |
+| Active EEB borrowers (mn) | 12.8 | 12.9 | 12.7 |
+| EEB NPA | 4,940 | 3,100 | 3,180 |
+| EEB stress pool (SMA1+SMA2+NPA) | 5,860 | 3,980 | 3,960 |
+| EEB provisions (PCR on stress pool) | 4,480 (76.5%) | 3,000 (75.4%) | 3,000 (75.8%) |
+| Quarterly EEB disbursement | 13,730 (Q2 FY26) | 10,500 (Q1 FY27) | 13,100 (Q2 FY27) |
+
+| Bandhan quarterly | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Average EEB advances ₹ Cr (co.) | n/s | n/s | n/s | 52,050 | 51,520 | 50,100 | 52,460 | 52,260 |
+| Bank PAT ₹ Cr | 426 | 318 | 372 | 112 | 206 | 534 | 502 | 622 |
+| Bank GNPA % | 4.68 | 4.71 | 4.96 | 5.02 | 3.33 | 3.27 | 3.15 | 3.11 |
+
+Bank 5-year PAT (screener): FY22 126 · FY23 2,195 · FY24 2,230 · FY25 2,745 · FY26 1,224. EEB FY-end: FY25 stress pool ₹5,750 Cr, FY26 ₹3,970 Cr; EEB NPA FY25 ₹4,720 Cr, FY26 ₹3,110 Cr [V deck p.24]. Pre-FY25 EEB book size not fetched (gap).
+
+#### Peer comparison snapshot (latest quarter; ₹ Cr) [V decks; E ratios]
+
+| | CAGL | Satin (cons) | Muthoot MF | Fusion | Spandana | Bandhan EEB |
+|---|---|---|---|---|---|---|
+| AUM / book | 30,946 | 16,589 | 15,323 | 8,007 | 5,364 | 52,620 (group 35,020) |
+| YoY growth | +19.5% | +31% | +22% | +14% | +31% | +1.7% |
+| Yield / CoF | 22.3% / 9.1% | 23.0% / 8.3% (adj.) | — / 9.93% | — / 9.35% marg. | 24.9% / 12.3% | deposits-funded |
+| NIM | 15.1% | 14.6% | 12.0% (Q1) | 12.5% | 13.6% | — |
+| Opex/AUM | 5.0% | 6.6% | 6.3% (Q1) | ~10.6% [E: 210×4/avg AUM] | 11.4% | — |
+| GNPA | 1.79% (60+) / PAR90 1.11% | 1.9% PAR90 (sa) | 3.70% (Jun) | 1.60% | 2.54% | EEB NPA ~6.0% of EEB [E] |
+| ROA / ROE (qtr, ann.) | 5.8% / 23.2% | 4.5% / 22.8% | 2.3% / 11.2% (Q1) | 4.0% / 13.5% | 1.0% / 3.3% | bank ROA ~1.2% [E] |
+| FY27 guidance | ROA 5.2–5.8%; AUM +20–25% | AUM +20–25%; ROA 3.5–4.0% (sa) | AUM +18–20%; ROA 2.5–3.3% | AUM ₹10,000 Cr; ROA ~4% exit | exit AUM >₹6,000 Cr | EEB 33–35% of book |
+| Rating | AA-/Stable | — | AA-/Stable (CRISIL, Jun-26) | — | — | — |
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**I1. Industry portfolio, ₹ Cr — two bases (do not mix in one line)**
+- MFIN Micrometer (owned + managed, MFIN-member + bureau universe) [V]: Mar-23 3,48,339 · Mar-24 4,33,697 · Sep-24 4,08,049 · Mar-25 3,75,030 · Jun-25 3,53,233 · Sep-25 3,39,510 · Dec-25 3,14,728 · Mar-26 3,25,174 · Jun-26 3,28,708.
+- Bureau-universe figures quoted elsewhere [V]: Mar-26 **₹3.31 trn (−11.7% YoY; 10.7 crore active loan accounts)** (CAGL AR, MD&A); **Aug-26 ₹3.23 lakh Cr; 6.06 crore unique borrowers; 9.27 crore loan accounts** (MFIN, 30-Oct-2026). The Aug-26 figure is below Jun-26's ₹3.29 lakh Cr — either a July–August dip (seasonal; floods) or a narrower basis; **treat as indicative, not as a QoQ fall**, until the Q2 FY27 Micrometer (~mid-Nov-2026) is out.
+
+**I2. Borrowers and accounts (crore) [V]**
+
+| Date | Unique borrowers | Loan accounts | Source |
+|---|---|---|---|
+| Mar-23 | — | 13.0 | MFIN Q4 FY24 |
+| Mar-24 | 7.8 | 14.9 | MFIN Q4 FY24 |
+| Mar-25 | "around 7.8" (likely stale wording) | — | MFIN Q4 FY25 |
+| Jun-25 | ~7.5 | — | MFIN Q1 FY26 |
+| Mar-26 | — | 10.7 (active) | CAGL AR FY26 |
+| Aug-26 | **6.06** | **9.27** | MFIN 30-Oct-2026 |
+
+Average loan size (MFIN, Aug-26) **₹62,427**; NCAER survey (2024-25) average loan ₹51,222, tenure 23 months, borrower FOIR 18.7%, average household income ₹25,844/month, 84.4% hold credit-linked insurance, only **1%** also borrow informally (46% in 2011) [V MFIN–NCAER release]. Accounts per borrower fell from ~1.9 (Mar-24) to ~1.5 (Aug-26) [E] — the guardrails' deleveraging in one ratio.
+
+**I3. Lender-type shares, % (settled series)**
+
+| Date | NBFC-MFI | Banks | SFBs | NBFCs | Others | Source |
+|---|---|---|---|---|---|---|
+| Mar-24 | 39.4 | 33.2 | 17.1 | 9.3 | 0.9 | MFIN Q4 FY24 [V] (₹ Cr: 1,70,903 / 1,44,022 / 74,278 / ~40,300 / ~3,900) |
+| Jun-25 | 39 | 33 | 28 combined | | | MFIN Q1 FY26 [V] |
+| Sep-25 | 39.2 | 31.4 | 29.4 combined | | | MFIN Q2 FY26 [V] |
+| Dec-25 | 42.1 | 26.7 | 31.2 combined | | | MFIN Q3 FY26 [V] |
+| Mar-26 | 43.7–44.2 | **26.4** (MFIN printed 32.7 — reject) | 15.6 | 14.3 (NBFCs + others) | | CAGL AR (bureau) [V]; MFIN Q4 FY26 [V] |
+| Jun-26 | 44.3 | 25.3 | ~16 [E] | ~14 [E] | | MFIN Q1 FY27 [V]; SFB/NBFC split [E] = Mar-26 split + "increased marginally" |
+
+₹ values Jun-26 [E]: NBFC-MFIs ~1,45,600; banks ~83,200; SFBs ~52,600; NBFCs+others ~47,300 (sum 3,28,708). Note the earlier dossier's SFB ~20% [E] was too high — SFBs were 15.6% at Mar-26 (Supersedes §2.2).
+
+**I4. YoY change by lender type [V MFIN]:** Mar-26 — banks −30%, NBFC-MFIs −2.7% (all types negative). Jun-26 — NBFC-MFIs +5.2%, NBFCs +2.7%, banks −28.5% ("most of which due to reclassification"). Mar-25 — all types down except NBFCs (+4.1%).
+
+**I5. Quarterly disbursement, ₹ Cr [V MFIN]:** Q1 FY26 56,677 · Q2 FY26 **not published in any release (still open)** · Q3 FY26 60,350 · Q4 FY26 77,524 · Q1 FY27 61,718. FY24 3,35,473 (7.26 crore loans); FY23 2,96,423 (7.17 crore loans); FY25 −16.9% in value, −25.4% in number of loans → ~₹2,78,800 Cr [E]. NBFC-MFI members FY24: ₹1,38,297 Cr through 3.1 crore accounts (average ₹45,024).
+
+**I6. PAR series [V MFIN]:** PAR 31–180: Mar-24 2.2 · Mar-25 6.3 · Jun-25 5.6 · Mar-26 2.0 (2.1 in the next release) · Jun-26 1.6. PAR 31–60 / 61–90: Dec-24 1.6/1.6 → Jun-25 1.1/1.4. PAR 31–90: Dec-24 3.2 · Sep-25 1.09 · Dec-25 1.6 · Mar-26 0.8. PAR 91–180: Dec-24 3.3 · Dec-25 2.0 · Mar-26 1.2. PAR 1–90 Mar-25 4.22. **Rating-agency cross-check:** CRISIL (rated universe, ~85% of AUM) — 90+ dpd ~6.0% at Mar-25 vs 2.4% at Mar-24; FY25 credit cost 6.5–7.0% ("seven-year high"); ~23% of borrowers had ≥4 MFI lenders at Dec-24 [V CRISIL 9-Apr-2025]. Sa-Dhan (Bharat Microfinance Report 2025, via summary): 30+ overdue 6.2% in 2024-25 vs 2.1% in 2023-24 [V-snip]. **PAR by lender type: still not public (gap 5).**
+
+**I7. Guardrail compliance [V]:** share of portfolio "serviceable under the MFIN guardrails" **87.8% (Mar-25) → 95.2% (Mar-26)** (CAGL AR, citing bureau data); "98% of clients are within the MFIN Guardrails" (MFIN, Sep-25). CAGL: AUM share of borrowers with >3 lenders 2.6% (Jun-26); CAGL+3-or-more 3% of customers (Sep-26). Fusion: 83% of customers with ≤2 lenders. Spandana: ≥4-lender overlap 3.8%.
+
+**I8. State-level industry GLP, ₹ Cr (gap 1 — partly filled)**
+
+| State | GLP | Date / basis | Source |
+|---|---|---|---|
+| Bihar | 48,569 (≈1 crore clients) | Feb-26, RBI-REs | MFIN 27-Feb-2026 [V first pass] |
+| Uttar Pradesh | n/s (2nd largest; between Bihar and TN, i.e. ~₹39,000–48,000 Cr [E]) | Jun-26 rank | MFIN Q1 FY27 [V] rank only |
+| Tamil Nadu | ~38,000–38,800 | Jul-26 / Mar-26 | Spandana MD (Q1 call) [V]; CAGL-implied [E] |
+| Karnataka | ~28,700 | Mar-26 | CAGL-implied [E] |
+| Maharashtra | **23,156** (43.39 lakh borrowers; 70.21 lakh accounts; rank 6) | 31-Aug-26 | **MFIN 30-Oct-2026 [V]** |
+| Madhya Pradesh | ~18,400 | Mar-26 | CAGL-implied [E] |
+
+Regional shares [V MFIN]: East & NE 36.6% (Mar-26, Jun-26); South second (−1.4pp YoY to Jun-26); East & NE + South = 62% (Mar-24), 62.7% (Mar-25); top-10 states ~80% (Mar-26) → ~83% (Jun-26). Sa-Dhan's state table and CRIF MicroLend remain paid/not fetched.
+
+**I9. Entity-level ranking, latest (₹ Cr; microfinance or MFI-led AUM; mixed dates — present as ranking)**
+
+| Rank | Lender | Book | Date | Basis / tag |
+|---|---|---|---|---|
+| 1 | Bandhan Bank | EEB 52,620 (JLG 35,020 + SBAL 17,600) | Sep-26 | [V deck] |
+| 2 | CreditAccess Grameen | AUM 30,946 (GL 23,746) | Sep-26 | [V]; **7.3% of industry (Mar-26, co.)** |
+| 3 | IndusInd Bank (BFIL) | ~16,305 | Jun-26 | [V-snip] |
+| 4 | Satin Creditcare | 16,589 cons / 13,608 sa | Sep-26 | [V]; company says "fourth-largest NBFC-MFI" |
+| 5 | Muthoot Microfin | 15,323 (JLG ~69% ≈ 10,570 [E]) | Sep-26 | [V] |
+| 6 | Fusion Finance | 8,007 | Sep-26 | [V] |
+| 7 | Asirvad (Manappuram) | ~7,188 (incl. ~1,600 gold) | Jun-26 | [V-snip] |
+| 8 | Spandana Sphoorty | 5,364 | Sep-26 | [V] |
+| — | Ujjivan/Equitas/Jana/ESAF/Utkarsh/Suryoday micro books; IDFC First, Kotak (Sonata), RBL; IIFL Samasta, Annapurna, Belstar, Svatantra, Arohan | not fetched this pass | — | gap 11 (partly open) |
+
+Share arithmetic [E]: on MFIN Jun-26 ₹3,28,708 Cr — Bandhan JLG ~10.7%, CAGL GL ~7.2%, IndusInd ~5%, Muthoot JLG ~3.2%, Satin standalone ~4% (mostly JLG), Fusion ~2.4%, Asirvad ~1.7%, Spandana ~1.6%. **Top-8 ≈ 36% of industry** — a fragmented market below the top two.
+
+**I10. NBFC-MFI sector economics (rating agencies)**
+- CRISIL (9-Apr-2025) [V]: FY25 credit cost 6.5–7.0%; Stage-3 PCR ~75% (Dec-24); X-bucket CE ~98–99%; rated MFIs raised ~₹3,350 Cr equity over FY24–FY25; Karnataka ~14% of MFI AUM with 90+ dpd ~2.2% (Dec-24).
+- ICRA (Jun-2026) [V-snip, first pass]: NBFC-MFI AUM ~₹1.44 lakh Cr (Jun-26, +~5%); FY27 growth 20–25%; outlook Stable.
+- MFIN member NBFC-MFIs [V]: Mar-24 AUM ₹1,56,884 Cr; 20,348 branches; 1,83,842 employees; Jun-25 22,896 branches, 2,12,479 employees; D/E 3.2 (Mar-24) → 2.8 (Dec-25).
+
+**I11. Policy timeline — upgraded (supersedes §7.2 rows)**
+
+| Date | Action | Tag |
+|---|---|---|
+| 14-Mar-2022 (eff. 1-Apr-2022) | RBI Master Direction: MF loan = collateral-free loan to household income ≤ ₹3,00,000; repayments ≤50% of monthly household income; board-set ceiling on rates and charges, "should not be usurious"; no prepayment penalty; non-MFI NBFC MF cap 25% of total assets; current text updated 17-Jul-2025 | [V RBI] |
+| 16-Nov-2023 | RBI risk-weight increase (consumer credit 125%; bank exposure to NBFCs +25pp) | [K] |
+| 8-Jul-2024 (applicable 1-Aug-2024) | Guardrails 1.0: ≤4 lenders; ₹2 lakh MF debt | [V MFIN; V CRISIL] |
+| 7-Oct-2024 | MFIN underwriting directive on missed EMIs | [V MFIN] |
+| 25-Nov-2024 | Guardrails 2.0 announced | [V MFIN] |
+| 1-Jan-2025 | Guardrails 2.0 covenants in force (₹2 lakh incl. unsecured retail; 60 dpd/₹3,000; deductions) | [V-snip] |
+| 12-Feb-2025 | Karnataka Micro Loan and Small Loan (Prevention of Coercive Actions) Ordinance | [V-snip] |
+| 25-Feb-2025 (eff. 1-Apr-2025) | RBI partial rollback of risk weights (MF loans 125% → 100%/75%; NBFC add-on removed) | [V-snip] |
+| 24-Mar-2025 | Karnataka Act No. 15 of 2025 (replaces ordinance) | [V-snip] |
+| 1-Apr-2025 | 3-lender cap in force | [V CRISIL] |
+| 6-Jun-2025 | RBI QA cut to ≥60% of total assets (net of intangibles) | [V MFIN; V RBI MD] |
+| 9-Jun-2025 | TN Money Lending Entities (Prevention of Coercive Actions) Act — Governor's assent (Act 40 of 2025) | [V-snip] |
+| 19-Nov-2025 | TN Act and Rules in force (challenged in Madras HC) | [V-snip] |
+| Dec-2025 | Repo at 5.25% (after cuts from 6.50% in 2025) | [V-snip, implied] |
+| 26-Feb-2026 | Bihar MFI Bill passed (RBI-REs excluded) | [V MFIN, first pass] |
+| Mar-2026 | CGSMFI 2.0 launched (₹20,000 Cr) | [V-snip] |
+| 2-Apr-2026 | MFIN–NCAER borrower study released | [V MFIN] |
+| Jun-2026 | CGSMFI 2.0 extended 30-Jun → 31-Aug-2026; large-MFI cap ₹1,000 Cr; ₹770 Cr sanctioned by 10-Jun | [V-snip] |
+| 23-Sep-2026 | IRDAI paper "Recalibrating Economics of Insurance Distribution": credit-life commission 2%/2.5% cap | [V-snip] |
+| 30-Sep-2026 | Monsoon ends at 87% of LPA; South Peninsula 76% | [V IMD] |
+| 7-Oct-2026 | Repo +25 bp to 5.50%; stance "calibrated tightening" | [V-snip] |
+| 30-Oct-2026 | MFIN rebuts attribution of Nanded and Latur farmer deaths to MF loans; publishes Maharashtra data | [V MFIN] |
+| 31-Oct-2026 | IRDAI comment deadline (extended) | [V-snip] |
+| 2–4 Dec-2026 | Next MPC | [V-snip] |
+
+**I12. Rainfall 2026 by region (% of LPA) [V IMD]:** All-India 87 (759.4 mm) · NW 94.1 · Central 97 · South Peninsula **76** · NE India 74 (E&NE 1,017.1 mm, lowest since 1901) · monsoon core zone 779.9 mm (below normal band 782.8–881.2). Monthly: Jun 65 · Jul 101 · Aug 84 · Sep 92. Area: 53% normal, 42% deficient, 5% excess (Odisha). Onset Kerala 4-Jun (3 days late); withdrawal from 19-Sep.
+
+**I13. SHG–bank linkage (gap 13 — partly filled, secondary):** 2024-25: **55.6 lakh SHGs received bank credit (54.8 lakh in 2023-24); fresh loans ₹2,08,283 Cr**; outstanding ~₹3 lakh Cr with ~1.74% in default (headline) [V-snip, NABARD Status of Microfinance 2024-25 via Kashmir Life / FPJ]. Not in MFIN's ₹3.29 lakh Cr. Savings-linked count and FY26 figures not found.
+
+**I14. Global comparables (gap 14 — secondary, approximate)**
+
+| Institution | ROE (latest) | P/B (approx.) | Note | Tag |
+|---|---|---|---|---|
+| Gentera (Mexico; Compartamos) | 26.5% controlling ROE (1Q26); guidance ~24–25% for 2026+ | ~1.8–1.9× | women's group lending; closest model analogue | [V-snip Quartr/aggregators] |
+| Bank Rakyat Indonesia | 18.8% (1H26); 19.2% (2Q26) | ~1.2× (Jul-26) to ~1.6× (Sep-26) | state bank; KUR/Mekaar micro | [V-snip broker notes] |
+| BTPN Syariah (Indonesia) | ~13.1% (2Q26 ann.); FY26F 13.2% | ~0.7–1.0× | women's Islamic MF bank, post-2024 stress | [V-snip broker notes] |
+| **CAGL** | 23.2% (Q2 FY27); 23.8% (H1); 10-yr avg 13.9% | **1.9×** | | [V] |
+
+Read-across: CAGL at ~1.9× book for ~23% ROE trades in line with Gentera (~1.85× for ~25%) — **the Indian discount has closed against global peers, but not against its own history (3–4× in FY23–24 [K])**. The market is capitalising through-cycle ROE (~14–18%), not peak ROE.
+
+## 4.4 Gap log (dossier §H items + "verify" notes)
+
+| # | §H gap | Status | Source / what was tried |
+|---|---|---|---|
+| 1 | State-wise industry GLP (₹) | **Partly filled** — Maharashtra ₹23,156 Cr (Aug-26) [V MFIN]; TN ~₹38,000 Cr [V Spandana MD]; KA ~₹28,700, MP ~₹18,400, TN ~₹38,800 [E from CAGL AR market shares]; Bihar ₹48,569 Cr [V]. UP and the rest of top-10 still open | MFIN releases, CAGL AR, peer transcripts; Sa-Dhan BMR 2025 and CRIF MicroLend full tables are paid/not found free |
+| 2 | SFB vs NBFC split after Mar-24 | **Filled for Mar-26**: SFBs 15.6%, NBFCs + others 14.3% (bureau basis, CAGL AR); Jun-26 split [E] | CAGL AR FY26 MD&A [V] |
+| 3 | Bank-share inconsistency | **Settled**: Mar-26 bank share ≈26.4% (CAGL AR) / ~26.6% (MFIN arithmetic); MFIN's 32.7% is an error | [V] + [E] |
+| 4 | Unique borrowers / active loans Sep-25 → Jun-26 | **Filled (Aug-26)**: 6.06 crore borrowers, 9.27 crore accounts; Mar-26 10.7 crore active loans. Sep-25–Jun-26 quarterly points still not published | MFIN 30-Oct-2026 [V]; CAGL AR [V] |
+| 5 | PAR by lender type | **Still open** | Not in any MFIN release; CRISIL gives rated-NBFC-MFI 90+ only |
+| 6 | Q2 FY26 industry disbursement | **Still open** | Q2 FY26 release (re-fetched) omits it; FY26 ≈ ₹2.45–2.5 lakh Cr [E] stands |
+| 7 | Guardrail 2.0 effective dates | **Filled**: 1.0 from 1-Aug-2024; 2.0 covenants 1-Jan-2025; 3-lender cap 1-Apr-2025 | CRISIL [V]; Mint/5paisa [V-snip] |
+| 8 | Karnataka ordinance/Act; TN Act | **Filled (secondary)**: titles, dates, Act numbers (KA Act 15/2025; TN Act 40/2025), penalties, TN HC challenge | Casemine, PRS link, Bar & Bench, Vinod Kothari [V-snip]; gazette texts not opened |
+| 9 | RBI risk-weight rollback; repo path | **Filled (secondary)**: 25-Feb-2025 partial rollback eff. 1-Apr-2025; repo 5.25% → 5.50% on 7-Oct-2026 | BS/Khaitan; multiple news [V-snip]; RBI pages not opened |
+| 10 | CGSMFI 2.0 fee/status after Aug-2026 | **Still open** (no post-31-Aug news found); CAGL (22-Oct) says an MF guarantee is awaiting "budgetary approval" — possibly a renewed/extended window | Searches; CAGL call [V] |
+| 11 | Company-wise market shares | **Mostly filled**: Bandhan, CAGL, IndusInd, Satin, Muthoot, Fusion, Asirvad, Spandana (I9). Open: IIFL Samasta, Annapurna, Belstar, Svatantra, Kotak/Sonata, SFB micro books | Decks [V]; IndusInd/Asirvad [V-snip] |
+| 12 | Peer AUMs | **Filled** (Sep-26 for all four NBFC-MFIs; Bandhan EEB) | Decks/PR [V] |
+| 13 | NABARD SHG-BLP FY25/FY26 | **Partly filled** (FY25 credit-linked SHGs 55.6 lakh; fresh loans ₹2.08 lakh Cr; ~₹3 lakh Cr outstanding) | Secondary summaries; NABARD PDF not fetched |
+| 14 | Global valuations | **Filled (secondary)** — Gentera, BRI, BTPN Syariah ROE and P/B ranges | Aggregators, broker notes [V-snip] |
+| 15 | Why CAGL fell ~32% | **Filled (event map)**: −34.9% peak-to-date; two legs (17–29 Sep: IRDAI draft/monsoon; 16–26 Oct: results/drought/pricing). Block and repo hike ruled out by price action. Causation is an inference | screener price/volume [V]; event dates [V/V-snip] |
+| 16 | CAGL monthly PAR accretion series | **Filled** (Sep-24 → Sep-26, 11 points); primer's 1.34% identified as Q3 FY26 credit cost | CAGL Q2 FY27 & Q2 FY26 decks [V] |
+| 17 | CAGL FY26 write-offs | **Filled**: ₹1,968.45 Cr (FY25 ₹1,124.29 Cr) | AR FY26 [V] |
+| 18 | Block deal price/value | **Partly filled**: open-market sale 6-Aug-2026 of 36,57,500 shares; price not disclosed; ≈₹566 Cr at that day's close [E]. Buyers unknown | Investywise/VCCircle [V-snip]; NSE bulk/block data blocked to bots; BSE filing found was the 2023 sale |
+| — | Monsoon 87% LPA | **Verified** + regional detail | IMD PDF [V] |
+| — | Insurance-commission cap | **Verified (secondary)**: IRDAI paper 23-Sep-2026; 2%/2.5% credit-life cap; comments to 31-Oct | News [V-snip]; IRDAI page not fetched |
+| — | RBI 2022 framework terms | **Verified** (₹3,00,000; 50%; usury; no prepayment penalty; 25% non-MFI cap; QA 60%) | RBI Master Direction [V] |
+| — | MFIN guardrail texts | **Verified** | MFIN 25-Nov-2024 [V] |
+| — | CAGL GNPA definition | **Verified**: GL 60+ dpd, RF 90+ dpd; Stage 2 = GL 16–60 dpd | Q2 FY27 deck p.11; AR [V] |
+
+## 4.5 New insights the first pass missed
+
+1. **The borrower base shrank by ~1.7 crore, not "~50 lakh".** MFIN's own count is 6.06 crore unique borrowers (Aug-26) vs 7.8 crore (Mar-24), and loan accounts fell from 14.9 crore to 9.27 crore. Some of this is reclassification to retail bureaus and the end of multi-lending (accounts per borrower ~1.9 → ~1.5), but the "financial inclusion reversal" is roughly 3× larger than the oft-quoted 50 lakh. This is the most striking new number for the report's human-cost section.
+2. **Even CAGL breached lender covenants in the bust.** At Mar-25 it missed PAR, ROE, collection-efficiency, write-off-ratio and self-sufficiency covenants on seven facilities (BoB, HSBC, Citi, DFC, StanChart, an ECB fund, Maanaveeya) and needed waivers again in FY26. Funding stress at weaker MFIs was therefore not just "banks being cautious" — covenants mechanically froze lines. The covenant table is a primary-source exhibit for the funding-transmission theme.
+3. **The insurance cap is a related-party story too.** CAGL's distribution income from **CreditAccess Life Insurance — a fellow subsidiary under the same Dutch parent — nearly doubled to ₹51.6 Cr in FY26**; total fee & commission income is ₹136 Cr. IRDAI's proposed 2%/2.5% credit-life commission cap (23-Sep-2026) therefore hits both CAGL's ROA (25–30 bp, management) and the group's insurance economics. The share-price leg of 17–29 Sep lines up with the draft.
+4. **Drought risk is concentrated in CAGL's states, not the industry's.** IMD shows Central India normal (97%) but the **South Peninsula at 76% of LPA (4th lowest since 1901)**; Karnataka + Tamil Nadu are 47% of CAGL's AUM but a much smaller share of the industry (East & NE 36.6%). The first stress has appeared in central Maharashtra (6 districts; restructuring requests; early-bucket PAR rising from 0.7% to 1.0%), and MFIN is already rebutting farmer-death attributions in Nanded and Latur. Writers should frame "drought" as a **CAGL-specific geographic risk** rather than an industry-wide one.
+5. **CAGL's dominance is local, not national.** It holds ~21–22% of Karnataka and Maharashtra microfinance but only 7.3% of India; Bandhan's JLG book (₹35,000 Cr) is still larger than CAGL's GL book (₹23,746 Cr). Market-share gains from bank retreat are therefore capped by state politics in its two home states. The top-8 lenders hold only ~36% of the industry [E].
+6. **AUM growth is now ticket-size growth.** CAGL: AUM +19.5% vs borrowers +1.3%; average GL outstanding ₹55.5k → ₹62.3k. Fusion: AUM +14% vs MFI borrowers −25%; Muthoot: AUM +22% vs clients −5%. With the ₹2 lakh per-borrower cap binding ("Many have hit the limit" — CAGL CEO), the industry's next growth constraint is the guardrail itself and the ₹3 lakh household-income ceiling MFIN wants revised.
+7. **Pricing power has turned into a policy choice.** CAGL is cutting rates (50 bp, maybe 50 bp more) from a record 15.1% NIM, while Spandana prices at 24.9% yield on 12.3% CoF. The cross-sectional spread of funding costs (Satin 8.3% adjusted, CAGL 9.1%, Fusion 9.35% marginal, Muthoot 9.93%, Spandana 12.3%) is now the main differentiator — and both CAGL and Muthoot Microfin are AA-/Stable (CRISIL), narrowing CAGL's funding moat.
+8. **The "1.34% peak delinquency" in our primer is a mislabel.** 1.34% is CAGL's Q3 FY26 quarterly (non-annualised) credit cost; the monthly PAR 15+ accretion peaked at ~0.95% (Dec-24), troughed at 0.07% (Mar-26) and has since **tripled to 0.26% (Sep-26)** — still low, but the direction has turned.
+
+## 4.6 New primer issues (append to primer-issues list)
+
+**`primers/creditaccess-grameen.html`** (in addition to §3.4)
+- Replace "~0.46% by mid-2026 (from ~1.34% at peak)" with the monthly PAR 15+ accretion series: peak ~0.95% (Dec-24) → 0.46% (Jun-25) → 0.07% (Mar-26) → 0.26% (Sep-26). 1.34% is Q3 FY26 non-annualised credit cost (Q2 FY27 deck pp.10–11).
+- Add FY26 write-offs **₹1,968 Cr** (7.6% of opening AUM; FY25 ₹1,124 Cr) — AR FY26 auditor's report.
+- Add market share: **7.3% of Indian microfinance, 16.8% of NBFC-MFI GLP; 21.3% of Karnataka, 21.9% of Maharashtra, 10.9% of TN, 10.8% of MP** (Mar-26, AR FY26). Do not write "~9% of industry".
+- Add **covenant breaches** (Mar-25, waived; FY26 again waived) to the risk section.
+- Add the **related-party insurance channel**: CAGL is corporate agent of fellow subsidiary CreditAccess Life Insurance (₹51.6 Cr distribution income FY26); link to IRDAI's 23-Sep-2026 credit-life commission-cap proposal (2%/2.5%) and management's 25–30 bp ROA estimate.
+- Add medium-term target **₹50,000 Cr AUM by calendar 2028** (Q1 FY27 call); drop "FY30 ~50% retail" unless sourced.
+- Management line: Hebbar was MD until 25-Jun-2025 and is now a non-executive nominee director; Manoj Kumar is Chairman (from 28-Oct-2025).
+- Political-risk section: use the correct Karnataka title (**Karnataka Micro Loan and Small Loan (Prevention of Coercive Actions) Act, 2025**, Act 15; ordinance 12-Feb-2025) and add the **TN Money Lending Entities (Prevention of Coercive Actions) Act, 2025** (assent 9-Jun-2025; in force 19-Nov-2025; under challenge).
+- Monsoon: South Peninsula **76% of LPA** in 2026; first drought stress in central Maharashtra (Oct-26); MFIN's 30-Oct-2026 rebuttal of farmer-death attributions in Nanded/Latur.
+- Guardrails: Guardrail 1.0 effective 1-Aug-2024; 2.0 covenants 1-Jan-2025; 3-lender cap 1-Apr-2025.
+- Valuation paragraph: peak-to-date fall **−35% (₹1,614 on 30-Jul → ₹1,051)**; closing low ₹997.50 (26-Oct); the sell-off came in two legs (late Sep, post-results Oct), not on the block sale or the repo hike.
+- Dividend: none for FY26 (Board did not recommend).
+- Add CAI's earlier 5.76% block (30-Jun-2023) to the ownership history.
+
+**`primers/bandhan-bank.html`**
+- Quantify the microfinance book: **EEB ₹52,620 Cr (Sep-26) = JLG ₹35,020 Cr + SBAL ₹17,600 Cr; 33.2% of advances (36.9% Sep-25); 12.7 mn EEB borrowers; EEB NPA ₹3,180 Cr; PCR 75.8%**; management target EEB 33–35% of book; secured mix 57.3% (verifies the primer's ~57%).
+
+**`primers/ujjivan-small-finance-bank.html`, `primers/equitas-small-finance-bank.html`, `primers/jana-small-finance-bank.html`**
+- Industry context lines should use the settled lender-type shares: **SFBs 15.6% of industry (Mar-26)**, banks ~26%, NBFC-MFIs ~44%; MFIN's 32.7% bank share for Mar-26 is an error.
+
+**Peer rows used in the report (no primers): Fusion, Spandana, Muthoot Microfin, Satin** — use the Sep-26 AUMs and GNPA in §4.2.2; Muthoot GNPA is 3.70% at Jun-26 (not 3.89%).
+
+## 4.7 Source URLs (fetched this session unless marked)
+
+- CAGL Q2 FY27 deck / PR / transcript: BSE AnnPdfOpen Pname=9d90680b-2fb2-43a4-8818-9ec848ab6353.pdf; 0614828a-1e77-4bea-9aaf-ffbebfbf9483.pdf; 4eacadb3-416d-45e9-909a-ab2904fdb667.pdf
+- CAGL Q1 FY27 transcript / deck: Pname=20638c58-388a-4ef2-a609-1d5b07810693.pdf; d2ff285a-34c8-4357-a71f-af7e29325ae8.pdf
+- CAGL Q4 FY26 deck: Pname=0e33a4d9-15d2-449b-a255-545834937f36.pdf; Q2 FY26 deck: Pname=59c17769-7bba-4acd-ba17-ca80ee0c8e7d.pdf
+- CAGL Integrated Annual Report 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad1c539d-d91c-4844-90ca-2b4913c547ef.pdf
+- CAI block sale 30-Jun-2023 (BSE): https://www.bseindia.com/xml-data/corpfiling/AttachHis/5de6d0ac-c621-4b27-8547-ccd1890b4869.pdf
+- CAGL price/volume: https://www.screener.in/api/company/1274399/chart/?q=Price-DMA50-DMA200-Volume&days=365
+- Fusion Q2 FY27 deck: Pname=cf0afd1e-dd54-4692-8522-0e6578662de1.pdf; Q1 FY27 transcript: https://fusionfin.com/wp-content/uploads/2026/08/Transcript-of-Q1-FY-2026-27-of-earning-conference-call_10.08.2026.pdf
+- Spandana Q2 FY27 deck: Pname=b16427d8-287d-4957-8a00-97e06a9d2b62.pdf; Q1 FY27 transcript: Pname=132cf46c-e164-4efc-8a4d-0cbed271f1ae.pdf
+- Satin Q2 FY27 deck: Pname=3fef86b5-a74d-460a-bd69-5cfa8c2684c7.pdf; Q1 FY27 transcript: Pname=90c3b889-651a-41e1-9e47-a07047397bb2.pdf
+- Muthoot Microfin Q1 FY27 deck: Pname=ffcf023b-03c0-4f58-acff-3a7ae7e41013.pdf; transcript: Pname=840244c4-38d8-4109-8acc-6a80cf1e0bbd.pdf; PR 26-Oct-2026: Pname=a4541a9e-55ec-4fc1-a09b-75d76c7ffc08.pdf
+- Bandhan Q2 FY27 deck: Pname=3e8fe292-7a71-4b28-85cf-8fc4b5f63767.pdf; Q1 FY27 transcript: Pname=2e694612-000f-4811-bb9c-dc8124300de0.pdf
+- MFIN releases (mfinindia.org/assets/upload_image/news/pdf/): Micrometer Q4 FY 23-24, Q4 FY 24-25, Q1–Q4 FY 25-26, Q1 FY 26-27 Press Release.pdf; Press Rel 25 Nov 24.pdf; Press Release - RBI Revises Qualifying Assets Criteria for NBFC-MFIs.pdf; Press Release - MFIN releases NCAER study.pdf; **MICROFINANCE - Note for Editors (Masharashtra).pdf (30-Oct-2026)**; index https://mfinindia.org/NewsEvent/pressrelease
+- IMD: https://mausam.imd.gov.in/Forecast/marquee_data/Salient_Features_SW_MONSOON%20_2026_30_sep.pdf
+- RBI Master Direction (microfinance): https://rbi.org.in/scripts/BS_ViewMasDirections.aspx?id=12256
+- CRISIL Ratings 9-Apr-2025: https://www.crisilratings.com/en/home/newsroom/press-releases/2025/04/imcrofinance-credit-costs-to-decline-from-7-year-high-last-fiscal.html
+- [V-snip] Karnataka Act: https://www.casemine.com/act/in/68dbbd81d6f397433e2ca00f ; https://www.theweek.in/news/india/2025/02/13/karnataka-enacts-ordinance-to-curb-harassment-by-microfinance-companies.html
+- [V-snip] TN Act: https://prsindia.org/files/bills_acts/acts_states/tamil-nadu/2025/Act40of2025TN.pdf ; https://www.barandbench.com/news/litigation/nbfcs-hire-purchase-firms-move-madras-high-court-challenging-tn-law-curbing-coercive-loan-recovery
+- [V-snip] RBI risk weights: https://www.business-standard.com/finance/news/nbfcs-gets-breather-as-rbi-restores-risk-weights-on-loans-from-banks-125022501298_1.html ; https://khaitanco.com/thought-leadership/relief-for-NBFCs-and-Microfinance-Institutions
+- [V-snip] Repo hike: https://www.angelone.in/news/economy/rbi-increases-repo-rate-to-5-50-first-hike-since-february-2023 ; https://www.psuconnect.in/bank-news/rbi-hikes-repo-rate-by-25-bps-to-5-50-switches-stance-to-calibrated-tightening
+- [V-snip] IRDAI draft: https://www.freepressjournal.in/analysis/irdais-latest-missive-can-miss-the-target ; https://www.sahi.com/news/irdai-extends-insurance-commission-feedback-deadline-to-october-31-amid-650-responses
+- [V-snip] Guardrail deferral: https://www.5paisa.com/news/mfin-delays-borrower-lender-cap-covenants-take-effect
+- [V-snip] CGSMFI 2.0 extension: https://www.freepressjournal.in/business/centre-extends-microfinance-credit-guarantee-scheme-raises-loan-cap-for-large-mfis-to-1000-crore
+- [V-snip] IndusInd MF book: https://www.analyticsinsight.net/news/indusind-bank-expects-microfinance-business-to-return-to-growth-from-q2 ; Asirvad: https://quartr.com/events/manappuram-finance-limited-531213-q1-26-27_F43o9xh3
+- [V-snip] Block 2026: https://www.investywise.com/creditaccess-grameen-promoter-sells-stake/ ; https://news.ventureintelligence.com/private-equity/creditaccess-india-sells-2.28%25-stake-in-mfi-arm-creditaccess-grameen
+- [V-snip] SHG-BLP: https://kashmirlife.net/self-help-groups-owe-rs-3-lakh-crore-1-74-per-cent-loans-in-default-400749/ ; https://www.freepressjournal.in/business/rbi-flags-rising-stress-in-microfinance-urges-lenders-to-rein-in-risk-pursue-calibrated-growth
+- [V-snip] Global: https://quartr.com/events/gentera-s-a-b-de-c-v-gentera-q1-2026_ojbwfr3C ; https://kbvalbury.com/cfind/source/files/bbri-1h26-results---260902.pdf ; https://link.brights.id/brids/storage/46172/20260727-BTPS.pdf
+
+*End of Part 4.*
+
+---
+
+# Part 5 — Orchestrator re-check of aggregates (2026-11-03)
+
+Re-added every Part 3 aggregate from the company rows, applying Part 4 Supersedes. All Part 3 sums are arithmetically correct:
+- Listed NBFC-MFIs (CAGL, Fusion, Spandana, Muthoot Microfin, Satin) FY26 revenue 6,059+1,699+1,024+2,375+3,143 = **14,300**; FY26 PAT 778+14−699+170+332 = **595**; FY25 PAT 531−1,225−1,035−223+186 = **−1,766**; m-cap 16,851+2,331+2,051+2,538+2,662 = **26,433**; equity 19,904 → P/B **1.33×**; TTM PAT 1,587+276−60+244+532 ≈ **2,582** (Fusion TTM = 14+114+62+86 = 276; use the company-quarter TTM, not screener's 13.8× P/E) → m-cap ÷ TTM PAT **10.2×**.
+- Ex-CAGL four: m-cap **9,582**; FY26 PAT **−183**; FY25 **−2,297**; equity 10,985 → P/B **0.87×**.
+- SFBs (Ujjivan, Equitas, Jana, ESAF, Utkarsh, Suryoday) FY26 PAT 693+103+326−166−1,151+152 = **−43**; FY25 726+147+501−521+24+115 = **992**; m-cap 11,132+6,097+4,056+2,103+2,180+1,481 = **27,049**. Bandhan + SFBs m-cap 25,440+27,049 = **52,489**; FY26 PAT 1,224−43 = **1,181**.
+- CAGL TTM PAT 252+340+493+502 = **1,587** ✓; Q2 FY27 PAT of the four NBFC-MFIs that reported 502+86+18+176 = **782** ✓.
+- **NEW (Supersedes #9) — AUM, Sep-26, company-reported:** CAGL 30,946 + Fusion 8,007 + Spandana 5,364 + Muthoot Microfin 15,323 + Satin 16,589 (consolidated) = **76,229 Cr**; ex-CAGL **45,283 Cr**. CAGL = 40.6% of the listed NBFC-MFI AUM. Satin standalone 13,608 would give 73,248 — the writer must state "Satin consolidated".
+- GNPA in the peer table must use Part 4 #11 (Sep-26: Fusion 1.60%, Spandana 2.54%, Satin PAR90 1.9% standalone, Muthoot Microfin 3.70% Jun-26) and note CAGL's 60+ dpd basis (PAR 90+ 1.11%).
+- CAGL market share: use the company figure 7.3% of industry / 16.8% of NBFC-MFI (Mar-26), not the Part 3 estimate of ~9.2%/21%.

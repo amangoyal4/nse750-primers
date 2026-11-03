@@ -30,3 +30,29 @@
 **`primers/jana-small-finance-bank.html`**
 - "Not promoter-controlled … no dominant promoter" — screener shows a **promoter holding of 16.87%** (Sep-26; 21.85% in Mar-26). Reword ("promoter Jana Holdings holds ~17%, falling"). Q2 FY27 PAT ₹170 Cr; NNPA rose to 1.17%; m-cap ~₹6,150 Cr (Aug) → ₹4,056 Cr.
 
+
+## From Microfinance deep-research pass (2026-11-03, microfinance-industry.md §4.6)
+
+**`primers/creditaccess-grameen.html`** (in addition to §3.4)
+- Replace "~0.46% by mid-2026 (from ~1.34% at peak)" with the monthly PAR 15+ accretion series: peak ~0.95% (Dec-24) → 0.46% (Jun-25) → 0.07% (Mar-26) → 0.26% (Sep-26). 1.34% is Q3 FY26 non-annualised credit cost (Q2 FY27 deck pp.10–11).
+- Add FY26 write-offs **₹1,968 Cr** (7.6% of opening AUM; FY25 ₹1,124 Cr) — AR FY26 auditor's report.
+- Add market share: **7.3% of Indian microfinance, 16.8% of NBFC-MFI GLP; 21.3% of Karnataka, 21.9% of Maharashtra, 10.9% of TN, 10.8% of MP** (Mar-26, AR FY26). Do not write "~9% of industry".
+- Add **covenant breaches** (Mar-25, waived; FY26 again waived) to the risk section.
+- Add the **related-party insurance channel**: CAGL is corporate agent of fellow subsidiary CreditAccess Life Insurance (₹51.6 Cr distribution income FY26); link to IRDAI's 23-Sep-2026 credit-life commission-cap proposal (2%/2.5%) and management's 25–30 bp ROA estimate.
+- Add medium-term target **₹50,000 Cr AUM by calendar 2028** (Q1 FY27 call); drop "FY30 ~50% retail" unless sourced.
+- Management line: Hebbar was MD until 25-Jun-2025 and is now a non-executive nominee director; Manoj Kumar is Chairman (from 28-Oct-2025).
+- Political-risk section: use the correct Karnataka title (**Karnataka Micro Loan and Small Loan (Prevention of Coercive Actions) Act, 2025**, Act 15; ordinance 12-Feb-2025) and add the **TN Money Lending Entities (Prevention of Coercive Actions) Act, 2025** (assent 9-Jun-2025; in force 19-Nov-2025; under challenge).
+- Monsoon: South Peninsula **76% of LPA** in 2026; first drought stress in central Maharashtra (Oct-26); MFIN's 30-Oct-2026 rebuttal of farmer-death attributions in Nanded/Latur.
+- Guardrails: Guardrail 1.0 effective 1-Aug-2024; 2.0 covenants 1-Jan-2025; 3-lender cap 1-Apr-2025.
+- Valuation paragraph: peak-to-date fall **−35% (₹1,614 on 30-Jul → ₹1,051)**; closing low ₹997.50 (26-Oct); the sell-off came in two legs (late Sep, post-results Oct), not on the block sale or the repo hike.
+- Dividend: none for FY26 (Board did not recommend).
+- Add CAI's earlier 5.76% block (30-Jun-2023) to the ownership history.
+
+**`primers/bandhan-bank.html`**
+- Quantify the microfinance book: **EEB ₹52,620 Cr (Sep-26) = JLG ₹35,020 Cr + SBAL ₹17,600 Cr; 33.2% of advances (36.9% Sep-25); 12.7 mn EEB borrowers; EEB NPA ₹3,180 Cr; PCR 75.8%**; management target EEB 33–35% of book; secured mix 57.3% (verifies the primer's ~57%).
+
+**`primers/ujjivan-small-finance-bank.html`, `primers/equitas-small-finance-bank.html`, `primers/jana-small-finance-bank.html`**
+- Industry context lines should use the settled lender-type shares: **SFBs 15.6% of industry (Mar-26)**, banks ~26%, NBFC-MFIs ~44%; MFIN's 32.7% bank share for Mar-26 is an error.
+
+**Peer rows used in the report (no primers): Fusion, Spandana, Muthoot Microfin, Satin** — use the Sep-26 AUMs and GNPA in §4.2.2; Muthoot GNPA is 3.70% at Jun-26 (not 3.89%).
+
