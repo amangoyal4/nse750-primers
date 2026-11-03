@@ -2144,6 +2144,23 @@
         "The vendor-advance problem"
       ],
       "published": "2026-11-03"
+    },
+    {
+      "name": "Music Labels",
+      "slug": "music-labels",
+      "file": "music-labels.html",
+      "sector": "Media & Entertainment",
+      "subsector": "Music & Content Licensing",
+      "companies": 2,
+      "accent": "#D23C96",
+      "hook": "A century of songs behind a paywall: how India's two listed labels, Saregama and Tips, turn a vast catalogue into royalties, why only 14.4 mn Indians pay for music, how capitalising vs expensing content distorts their margins, and whether ₹399 Cr a year of new-song buying earns its 45× multiple.",
+      "tags": [
+        "The great Indian paywall",
+        "Two ways to count a song",
+        "Buying tomorrow's catalogue",
+        "Shorts, Reels and AI"
+      ],
+      "published": "2026-11-03"
     }
   ],
   "universe": [
@@ -2817,7 +2834,7 @@
       "sector": "Media & Entertainment",
       "sub": "Music & Content Licensing",
       "companies": 2,
-      "report": null
+      "report": "music-labels.html"
     },
     {
       "sector": "Media & Entertainment",
