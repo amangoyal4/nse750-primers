@@ -2127,6 +2127,23 @@
         "Device KPI masterclass"
       ],
       "published": "2026-11-03"
+    },
+    {
+      "name": "CPaaS & Enterprise Messaging",
+      "slug": "cpaas",
+      "file": "cpaas.html",
+      "sector": "IT",
+      "subsector": "IT Enabled Services",
+      "companies": 2,
+      "accent": "#875AC3",
+      "hook": "A thin toll on every message: how Tanla and Route Mobile earn a few paise on each OTP, alert and WhatsApp message, why telcos, Meta and Google keep about ₹75 of every ₹100 billed, how TRAI's rulebook is both moat and tax, and why two firms on the same pipe are diverging.",
+      "tags": [
+        "Two landlords",
+        "The regulator's rail",
+        "Same pipe, different fates",
+        "The vendor-advance problem"
+      ],
+      "published": "2026-11-03"
     }
   ],
   "universe": [
@@ -2758,7 +2775,7 @@
       "sector": "IT",
       "sub": "IT Enabled Services",
       "companies": 2,
-      "report": null
+      "report": "cpaas.html"
     },
     {
       "sector": "IT",
