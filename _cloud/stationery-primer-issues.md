@@ -1,6 +1,6 @@
 # Primer issues — stationery
 
-### From Stationery & Art Materials research (2026-11-03, stationery-industry.md §3.4)
+## From Stationery & Art Materials research (2026-11-03, stationery-industry.md §3.4)
 
 - **doms-industries.html — Q1/Q2 FY27 margin collapse omitted (refreshed 18-Jul):** add Q1 FY27 (rev ₹670.5 Cr +19.2%, EBITDA ₹82.6 Cr, **12.3%**, PAT ₹45.3 Cr) and Q2 FY27 (rev ₹667.8 Cr +17.6%, EBITDA ₹82.8 Cr, **12.4%**, gross margin 39.1% vs 43.8%, PAT ₹38.3 Cr −37% after a ₹10.4 Cr flood exceptional). The cover strip's "~17.3% EBITDA" and the bull case now need the H1 FY27 context; management targets ~16% only in FY28.
 - **doms-industries.html — valuation stale:** m-cap "~₹14,000 Cr" → **₹11,530 Cr**; P/E "~60×" → **53.0× TTM** (~50× FY26); P/B ~9.0; price ₹1,900 near the 52-week low ₹1,796 (3-Nov-2026).
