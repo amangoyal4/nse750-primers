@@ -2093,6 +2093,23 @@
         "Feed KPI masterclass"
       ],
       "published": "2026-11-01"
+    },
+    {
+      "name": "Mattresses & Home Furnishing",
+      "slug": "home-furnishing",
+      "file": "home-furnishing.html",
+      "sector": "FMCG",
+      "subsector": "Furniture, Home Furnishing",
+      "companies": 2,
+      "accent": "#A55A87",
+      "hook": "Petrochemicals sold as a good night's sleep: how TDI and polyol prices set mattress margins, why buyers are moving from cotton to branded foam, Sheela Foam's dealer-and-Kurlon model against Wakefit's own stores, and what Wakefit's cash and tax-flattered profit mean for its valuation.",
+      "tags": [
+        "TDI & polyol margin chemistry",
+        "Dealers vs D2C stores",
+        "Kurlon and the 15% promise",
+        "Wakefit after the IPO"
+      ],
+      "published": "2026-11-03"
     }
   ],
   "universe": [
@@ -2508,7 +2525,7 @@
       "sector": "FMCG",
       "sub": "Furniture, Home Furnishing",
       "companies": 2,
-      "report": null
+      "report": "home-furnishing.html"
     },
     {
       "sector": "FMCG",
