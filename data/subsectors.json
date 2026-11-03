@@ -2161,6 +2161,23 @@
         "Shorts, Reels and AI"
       ],
       "published": "2026-11-03"
+    },
+    {
+      "name": "Aluminium",
+      "slug": "aluminium",
+      "file": "aluminium.html",
+      "sector": "Non - Ferrous Metals",
+      "subsector": "Aluminium",
+      "companies": 2,
+      "accent": "#5A7186",
+      "hook": "Low-cost metal at a price nobody controls: how Hindalco and NALCO turn bauxite, coal and power into metal priced on the LME, why integration sets the cost curve, how Novelis earns a conversion spread, and what China's cap, the Gulf shock and CBAM mean for Indian smelters.",
+      "tags": [
+        "Cost curve & integration",
+        "Novelis",
+        "China cap & Gulf shock",
+        "Carbon & CBAM"
+      ],
+      "published": "2026-11-03"
     }
   ],
   "universe": [
@@ -2876,7 +2893,7 @@
       "sector": "Non - Ferrous Metals",
       "sub": "Aluminium",
       "companies": 2,
-      "report": null
+      "report": "aluminium.html"
     },
     {
       "sector": "Non - Ferrous Metals",
