@@ -42,3 +42,15 @@
 - **dabur-india.html — valuation stale.** M-cap ~₹79,000 Cr (Jul-26) → **₹67,304 Cr** (₹379); P/E 33.9×. Home-care revenue (Odonil/Odomos/Sanifresh) is not quantified anywhere in the primer.
 - **patanjali-foods.html — valuation stale.** M-cap ~₹45,000 Cr (Jul-26) → **₹40,679 Cr**. Add the Oct-2026 cow-ghee batch recall/prohibition orders (21 and 28-Oct-2026).
 - **General (all FMCG primers checked):** none mentions that **GST 2.0 left detergents and household insecticides at 18%** while soaps/toothpaste went to 5%; the **2026 deficient monsoon (~−12.6%)**; or the NIQ Apr–Jun 2026 HPC volume decline (−4.3%).
+
+## From Home Care deep research (2026-11-03, household-products-industry.md §4.5)
+
+- **jyothy-labs.html — dishwash economics.** Add the FY26 dishwash segment margin slide (20.2% → 10.2% through FY26) and the AR's "calibrated MRP adjustments to ensure price parity". The primer's dishwash "fortress" framing is contradicted by Jyothy's own segment data, in addition to the #2 rank already flagged in 3.4.
+- **jyothy-labs.html — FY25/FY26 segment profit.** Use AR note 30: Fabric 23.7% → 19.9%; Dish 18.9% → 15.7%; HI −₹24.7 Cr → −₹4.6 Cr; PC 11.6% → 7.9%.
+- **jyothy-labs.html — ROE.** If the primer quotes ROE, use 21.0% FY26 (22.5% ex-goodwill), down from 32.4% in FY24.
+- **jyothy-labs.html — governance.** Mention the CMD's 130× median pay ratio (+59% in FY26), the M.P. Ramachandran Family Trusts (Apr-2025), no subsidiaries after the Bangladesh JV sale (Sep-2025), and the Punjab warehouse fire (29-Apr-2026; insured, immaterial).
+- **jyothy-labs.html — rivals.** RSPL's FY25 revenue is ₹4,543 Cr (not ~₹5.8k Cr). It is under a negative outlook after a Ghadi recall, has 28–30 lakh outlets and no liquids. Nirma's consumer business is being demerged into Ocular.
+- **hindustan-unilever.html — Home Care quarterly.** Add Q1 FY27 ₹6,554 Cr / 17% / USG 14% and Q2 FY27 ₹6,878 Cr / 16% / USG 22%. EBITDA margin 22.6% (company basis), guidance 22–24%.
+- **godrej-consumer.html — Home Care.** Add the Godrej Rizz (liquid dishwash) and Spic (pan-India Q1) entry into dishwash, which directly competes with Jyothy's Exo. Add HI share gains despite a weak monsoon. FY27 guidance held: HSD UVG standalone; double-digit consolidated revenue and EBITDA.
+- **dabur-india.html — home care.** Odonil +131 bp air-freshener share (Q4 FY26); home care >24% in Q4 FY26, mid-single digit in Q1 FY27. The neem-trademark interim order against Dabur (Bombay HC, Sep-2026) needs verification before use.
+- **General FMCG primers.** Replace "monsoon ~−12.6% (secondary)" with IMD: 87% of LPA; South Peninsula 76%.
