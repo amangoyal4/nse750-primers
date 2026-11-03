@@ -1014,3 +1014,657 @@ screener.in/company/JYOTHYLAB/ (standalone) and /consolidated/ (3-Nov-26); BSE f
 - **Monsoon 2026:** https://superkalam.com/current-affairs/01-10-2026/southwest-monsoon-ends-with-12-deficit-october-rain-also-likely-below-normal-imd-pg1-c0741b13-efac-431c-8afe-e6fcd2df8f02 (snippet)
 - **RSPL:** https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/RSPLLIMITED_September%2024_%202024_RR_353097.html
 - **P&G FY26:** https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000103/pg-20260630.htm (snippet) · **Unilever Q3 2026:** https://www.unilever.com/files/unilever-q3-2026-results-key-highlights.pdf (snippet)
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (2026-11-03)
+
+Second, primary-source pass, done on 3-Nov-2026 (IST afternoon). It follows `_cloud/ref/brief-deep-research.md`. **Parts 1–3 are unchanged.** Where Part 4 disagrees with them, Part 4 wins; the rows in §4.0 tell the writer exactly what to replace.
+
+**Status check, 3-Nov-2026:** Jyothy's Q2 FY27 results are **not yet posted**. The screener announcements feed still shows only the 13-Oct board intimation and the 30-Oct buyback update. The board meets 4-Nov-2026. **Q1 FY27 (Jun-26) remains the latest quarter in this file.**
+
+**What was fetched this session (all with a generic `Mozilla/5.0` user-agent, no logins):**
+- **Jyothy Labs:** Q1 FY27 investor presentation (BSE AttachHis `c8a7ab1e…`, 12-Aug-2026). Q1 FY27 earnings-call transcript (BSE AttachLive `5bddef2a…`, filed 14-Aug-2026, call 12-Aug-2026). Q4 FY26 presentation (`23156056…`) and transcript (`6308b046…`, call 4-May-2026). **Annual Report 2025-26** (BSE AttachHis `7e8d4d84…`, 16,240 lines of text; read: CMD letter, MD&A, Board's report, Annexures E/F, remuneration annexure, BRSR, notes 30–33). Screener standalone page (P&L, quarters, balance sheet, cash flow, ratios, shareholding).
+- **HUL:** Q2 FY27 ("SQ'26") results presentation (BSE AttachHis `aecfd799…`, 28-Oct-2026). Q1 FY27 ("JQ'26") results presentation (hul.co.in/files/hul-jq-26-results-presentation.pdf).
+- **GCPL:** Q2 FY27 press release (`4abd5223…`) and presentation (`8bf1e6fa…`), both 29-Oct-2026.
+- **Industry and policy:**
+  - IMD "Salient Features of the 2026 Southwest Monsoon Season" (30-Sep-2026).
+  - GST Notification 9/2025-Central Tax (Rate), the full Gazette text (52 pp).
+  - PIB release on the 23rd GST Council meeting (10-Nov-2017).
+  - CRISIL rating rationales: RSPL (23-Sep-2025) and Nirma (24-Jun-2026).
+  - Tamilnadu Petroproducts (LAB maker) Q1 FY27 press release.
+- **Global:**
+  - Unilever FY2025 full announcement and Q3 2026 key highlights.
+  - P&G Q1 FY27 press release (22-Oct-2026).
+- **Secondary sources:** PTI via The Week (P&G Home Products FY25), Bizom data via sahi.com, EQS/gettex (Henkel), plus search snippets (Church & Dwight, Clorox, Reckitt, Dabur).
+- **Web-call count:** ~70.
+
+**Tag discipline in Part 4:**
+- **[V]** = fetched this session from the named primary document. The URL is given in §4.1 or §4.7.
+- **[V-P1]** = verified in Part 1 from a primary document, not re-fetched today.
+- **[V-sec] / [V-snip] / [K] / [E]** = as defined in Part 1.
+
+---
+
+## 4.0 Supersedes: corrections to Parts 1–3 (old → new)
+
+| # | Part 1–3 location | Old value / statement | New value / statement | Source (tag) |
+|---|---|---|---|---|
+| S1 | §2.1, §5.2, §6 archetype 3, §B5, Part 2.7, Part 3.1 RSPL row | RSPL latest = FY24 ₹5,793 Cr, EBITDA 19.2%, PAT ₹598 Cr; FY25 "flat (CRISIL expectation)" | **RSPL FY25: operating income ₹4,543 Cr (−21.6%), EBITDA ₹594 Cr (13.1%), PAT ₹240 Cr (5.3%).** Cause: Ghadi cake and powder volumes fell after a **product recall/revamp**, plus "increased competitive intensity in the laundry care segment". Q1 FY26 was still below the prior year. CRISIL revised the outlook to **AA/Negative** (from Stable) on 23-Sep-2025 and expects FY26 to be "flattish", then 5–8% growth. | CRISIL rationale 23-Sep-2025 [V] |
+| S2 | §6 archetype 3, §1.3, §4.2 ("EBITDA ~18–19%") | Backward-integrated economy player earns 18–19% EBITDA | **13–19% through the cycle: 18.3% (FY23), 19.2% (FY24), 13.1% (FY25).** The FY25 fall came from lower fixed-cost absorption on falling volumes plus "softening of realisations in the soda ash segment". Integration protects cost; it does not protect volume. | CRISIL [V] |
+| S3 | Part 2.7 ("Ghadi alone ≈ ₹3,500 Cr ≈ 1.2× Jyothy"); §5.2 "Ghadi ~60% of revenue" | Ghadi ~60% of RSPL; ≈ ₹3,500 Cr | **Ghadi = 55–60% of RSPL revenue** (CRISIL 2025; it was >73% in the 2023 rationale and >90% in 2021) → **Ghadi ≈ ₹2,500–2,700 Cr in FY25 ≈ 0.85–0.95× Jyothy's total revenue**, not 1.2×. | CRISIL [V]; arithmetic [E] |
+| S4 | §1.2 point 2, §4.3 (RSPL soda ash "0.5 mtpa … expanding by 700 TPD, ~₹500 Cr") | 0.5 mtpa; +700 TPD; ~₹500 Cr | **Soda ash capacity 1,500 TPD (light + dense), adding 750 TPD; capex ₹800–1,000 Cr over three fiscals, funded internally.** RSPL net cash: debt ₹747 Cr vs cash ₹909 Cr (Mar-25). **Distribution: 3,700 stockists/distributors, retail reach 28–30 lakh outlets.** RSPL "is yet to enter the liquid detergent market". | CRISIL [V] |
+| S5 | §5.2 Nirma row ("Not fetched … delisted 2012") | Unverified | **Nirma: FY25 consolidated revenue ₹12,231 Cr (FY24 ₹10,419 Cr), PAT −₹2,310 Cr** (CRISIL-adjusted). It is a group of soda ash (India + US), caustic, **captive LAB**, soaps/detergents and pharma (Alivus).<br>Two 2026 events: (1) **15-Apr-2026, the board approved demerging the domestic chemical AND consumer businesses into Ocular Enterprises Pvt Ltd**. Nirma keeps Karnavati Holding (US) and Alivus. (2) **15-Jun-2026, the US soda-ash subsidiary Searles Valley Minerals filed for Chapter 11.** Nirma guarantees $108 m. CRISIL rating: AA on Watch Developing. | CRISIL 24-Jun-2026 [V] |
+| S6 | §5.2 P&G Home Products row ("Not fetched (MCA filings)") | Unverified | **Procter & Gamble Home Products Ltd FY25 (Mar-25): revenue from operations ₹9,054 Cr (+3.4%), PAT ₹683 Cr (+19.1%), A&P ₹930 Cr (+21.5%), royalty to P&G ₹410 Cr.** It sells Ariel, Tide, Pampers, Pantene (fabric & home care, baby care, hair care), so **fabric care is only part of the ₹9,054 Cr**. Indicative fabric + home share ≈ 50–60% → ~₹4,500–5,500 Cr [E]. | PTI via The Week 30-Dec-2025 [V-sec] (RoC filing via Tofler) |
+| S7 | §7.1 "Ambiguous: laundry soap bars and dishwash bars … [E/K — FLAG]"; §H7 | Classification unconfirmed | **Confirmed at 18% (Schedule II, 9% CGST + 9% SGST) by Notification 9/2025-CT(R), effective 22-Sep-2025:**<br>– S.No. 66: HSN 3401, soap and soap-type cakes "other than toilet soap" → laundry soap bars and dishwash cakes made as soap.<br>– S.No. 67: HSN 3402, organic surface-active agents, washing and cleaning preparations → detergent powder, liquid and bars, dishwash liquid and bars.<br>– S.No. 70: HSN 3405, scouring pastes and powders.<br>– S.No. 95: HSN 3808, insecticides and disinfectants (other than listed bio-pesticides).<br>– S.No. 64: HSN 3307, **"prepared room deodorisers" (air fresheners)**.<br>**5% (Schedule I):** S.No. 251 toilet soap; S.No. 250 agarbatti/dhoop/sambrani; S.No. 245–246 hair oil, shampoo, toothpaste.<br>→ **The entire home-care basket stays at 18%; only personal care moved to 5%.** | Gazette text of Notif. 9/2025-CT(R) [V] |
+| S8 | §7.1 "History [K]: detergents 28% → 18% in Nov-2017" | [K — FLAG] | **Verified.** The 23rd GST Council (Guwahati, **10-Nov-2017**) cut 178 headings from 28% to 18%, explicitly listing "Detergents, washing and cleaning preparations" and "Liquid or cream for washing the skin". | PIB release via gstcouncil.gov.in [V] |
+| S9 | §0, §3 item 5, §G 26, §H6 (monsoon "−12.6%, 759.4 mm" [V-snip]) | Snippet only | **IMD: 87% of LPA; 759.4 mm; "4th lowest since 2001 and 13th lowest since 1901".**<br>– Regions: NW India 94.1%, Central 97%, **South Peninsula 76% (542 mm, 4th lowest since 1901)**, East & NE 74% (lowest since 1901).<br>– 17 of 36 subdivisions (42% of area) deficient. Monthly: June 65%, July 101%, Aug 84%, Sep 92%.<br>– "−12.6%" is consistent (759.4/868.6 = 87.4%). **Add the South Peninsula figure: Jyothy's core South/Kerala market had the weaker monsoon.** | IMD Salient Features, 30-Sep-2026 [V] |
+| S10 | Part 2.2 table, §0, §9.3, E9 (HUL Q2 FY27 Home Care "₹6,878 Cr / ~₹1,111 Cr EBIT (~16.2%)" [V-sec]) | Secondary | **HUL's own presentation: "Home Care ₹6,878 cr. Revenue \| 16% Margin; USG 22%; UVG double-digit".** The EBIT is not printed. 16% × 6,878 ≈ **₹1,100 Cr** [E from V]; the ₹1,111 Cr figure (16.2%) is consistent but secondary. Reported growth vs Q2 FY26 base ₹5,664 Cr = +21.4% [E; base V-snip]. | HUL SQ'26 PPT [V] |
+| S11 | Part 2.2 (Q1 FY27 Home Care only "USG +14% [V-snip]") | USG only | **HUL Q1 FY27 Home Care: ₹6,554 Cr revenue, 17% margin, USG 14% ("highest growth in three years"), UVG high-single-digit.** HUL HC margin path: **19.1% (FY26) → 17% (Q1 FY27) → 16% (Q2 FY27)**. | HUL JQ'26 PPT [V] |
+| S12 | Part 1 header table, Part 3.1 HUL row ("EBITDA ₹4,089 Cr (22.4% margin)") | 22.4% | **The company reports 22.6%** (EBITDA ₹4,089 Cr on turnover ₹18,071 Cr, −140 bp YoY). 22.4% is EBITDA ÷ revenue from operations (₹18,226 Cr, screener). Quote 22.6% with "company basis". | HUL SQ'26 PPT [V] |
+| S13 | §9.1 ROE row; §H12 ("PPT labels ambiguous … use screener 21.7%") | Ambiguous | **Resolved: the Q4 FY26 chart plots two series.**<br>– **ROE on closing equity: FY24 32.4% · FY25 26.8% · FY26 21.0%.**<br>– **ROE excluding goodwill: 35.7% · 29.1% · 22.5%.**<br>Check: PAT ÷ closing net worth (screener) = 370/1,142 = 32.4%; 371/1,383 = 26.8%; 333/1,589 = 21.0%. Ex-goodwill (₹100 Cr) gives 35.5/28.9/22.4. ROE on average equity: FY26 22.4%. | Q4 FY26 PPT slide [V]; screener [V]; arithmetic [E] |
+| S14 | §H10, §2.1 whitener row ("main vs post wash … do not quote") | Ambiguous | **Resolved: the Q4 FY26 pie is a Q4 revenue mix.** Fabric Care (main wash) 36% · Fabric Care (post wash) 9% · Dishwashing 31% · HI 10% · Personal Care 10% · Others 4%. These tie exactly to the Q4 FY26 segment shares (Fabric 327/717 = 45.6% = 36 + 9; HI 71/717 = 9.9%). **→ Q4 FY26 main wash ≈ ₹258 Cr, post wash ≈ ₹65 Cr.** | Q4 FY26 PPT [V]; arithmetic [E] |
+| S15 | §2.1 "Fabric whitener ~₹600–900 Cr [E]" | ₹600–900 Cr | **≈ ₹300–350 Cr manufacturer value [E].** Jyothy post-wash ≈ ₹65 Cr in Q4 FY26 → ~₹250–280 Cr a year. That includes Crisp & Shine and Young & Fresh conditioners. If Ujala Supreme holds ~84% of whitener, the category is ~₹280–330 Cr. The old range double-counted. **Lower the §2.1 total by ~₹0.4–0.5k Cr** (immaterial to the ₹75–85k Cr headline). | Derived from S14 [E] |
+| S16 | Part 2.1(c) note "FY25 base by back-calculation [E]: Fabric ~1,245, Dishwash ~972, PC ~305, HI ~199, Others ~123" | [E] | **[V] from AR note 30 (₹ lakh → ₹ Cr):**<br>– FY25 revenue: Fabric 1,245.5 · Dishwash 971.7 · HI 198.5 · PC 304.9 · Others 123.3 = 2,843.9.<br>– FY25 segment profit: Fabric **295.1 (23.7%)** · Dishwash **183.3 (18.9%)** · HI **−24.7** · PC **35.3 (11.6%)** · Others 3.6 = 492.6.<br>– FY26 profit: Fabric 268.5 (19.9%) · Dish 150.5 (15.7%) · HI −4.6 · PC 25.3 (7.9%) · Others −0.2 = 439.5. | AR 2025-26 note 30 [V] |
+| S17 | §4.3 "Capex runs ~₹50–100 Cr a year [E]" | [E] | **Capex (PP&E + intangibles additions): FY26 ₹66.9 Cr (2.3% of sales); FY25 ₹58.1 Cr.** FY26 split: Fabric 16.8 · Dish 11.2 · HI 5.6 · PC 3.0 · Others 1.3 · unallocated 29.1. Capital commitments ₹3.4 Cr (FY25 ₹12.3 Cr). | AR note 30, 33 [V] |
+| S18 | Part 2.0 note ("Screener … borrowings ₹52 Cr (likely lease liabilities)") | "likely" | **Confirmed: lease liabilities ₹51.58 Cr at Mar-26** (₹61.28 Cr Mar-25); zero financial debt. | AR note 32 [V] |
+| S19 | §4.2 / Part 2.1(a) FY25 gross margin 50.1%; Q4 FY25 PAT 76.3, EBITDA 112.0 | 50.1% / 76.3 / 112.0 | **FY25 GM 50.2%, FY25 EBITDA ₹499.8 Cr; Q4 FY25 PAT ₹77.0 Cr, EBITDA ₹112.1 Cr** (comparatives restated in the Q4 FY26 deck). Immaterial; use the latest deck. | Q4 FY26 PPT [V] |
+| S20 | §10 Unilever row ("Underlying op. margin ~13–15% (2024–25) [K — FLAG]") | [K] | **Unilever Home Care FY2025: turnover €11.6 bn (23% of group; −6.4% reported), USG 2.6% (UVG 2.2%, UPG 0.4%), underlying operating margin 14.9% (+40 bp), UOP €1.7 bn.** Q4-25 USG 4.7% with "continued strong volume in India". 2026: Q3 USG 9.1%, €3.1 bn; 9M USG 8.1%, €9.0 bn. | Unilever FY25 announcement; Q3-26 highlights [V] |
+| S21 | §10 P&G row (FY26 only) | — | **Add P&G F&HC Q1 FY27 (Jul–Sep 2026): net sales $8,205 m (+4%; volume +4.3, FX −0.6, price −0.3, mix +0.8), organic +4.8%, net earnings $1,601 m → 19.5% net-earnings margin.** FY26 18.6% stays [V-snip]. Note P&G's **negative** pricing while Indian players took +4–5%. | P&G Q1 FY27 press release [V] |
+| S22 | §10 Henkel, Reckitt, Church & Dwight, Clorox rows [K — FLAG] | [K] | **Henkel:** Consumer Brands adj. EBIT margin guidance 14.0–15.0% for 2025; Q3-25 Laundry & Home Care organic −1.5% (dishwashing "very strong") [V-sec EQS]; Q3-26 CB sales €2,643 m [V-snip]. **Reckitt:** FY26 guidance Core + MJN adjusted operating margin **24.9–25.6%**; Q3-26 Core LFL +3.3%, EM +8.0%; FY26 Core LFL guidance cut to 3.5–4.5% [V-snip]. **Church & Dwight:** Q3-26 adj. gross margin 46.8%, adj. operating income $298 m on $1,602 m (≈18.6%) [V-snip 8-K]. **Clorox:** FY27 gross-margin guidance ~42% [V-snip]. | As tagged |
+| S23 | Part 3.4 / §2.10 "A&P conflict … use PPT 7.8%" | — | Unchanged. The **Q1 FY27 transcript as filed** still reads "A&P spend was 6.5% compared to 10.8%", while the PPT says 7.8% (₹58.9 Cr ÷ ₹751 Cr = 7.8%). Arithmetic confirms the PPT. | Both [V] |
+| S24 | §B1 Pril size ₹200–270 Cr [E] | Range stated as robust | **Keep the range, but say it rests on an assumption.** The back-solve depends on how much Pril/Fa sold in Apr–May 2026. If they sold at the normal monthly rate (Y = ⅔X), the Q1 maths gives X ≈ ₹94 Cr a quarter (~₹375 Cr a year, ~13% of sales), which contradicts management's "high single digit". Management's statement therefore implies a **trade wind-down: Apr–May Pril/Fa sales at ~45–75% of the normal monthly run-rate**. The AR's "dishwashing ~35% of revenue" figure on a news site (sahi.com) is the whole segment, not Pril. | Q1 PPT [V]; arithmetic [E] |
+| S25 | §5.2 RSPL competitor list | — | CRISIL's RSPL rationale names "Procter & Gamble **Hygiene & Health Care** Ltd" as a detergent competitor. That is an error in the rationale: Tide/Ariel sit in **P&G Home Products Ltd** (S6). Do not repeat it. | CRISIL [V] |
+| S26 | Trap 6, §2.1(e) ("JFSL amalgamated") | — | Add: **at 31-Mar-2026 Jyothy has no subsidiaries.** Its 75% stake in Jyothy Kallol Bangladesh Ltd was sold to Kallol Enterprise for BDT 3.02 crore (cash received 10-Sep-2025). This is why the consolidated screener page stops at FY25. | AR Board's report [V] |
+
+**Writer actions from 4.0, in one line each:**
+- Replace every "RSPL FY24 19.2% / ₹5.8k Cr" headline with "FY25 ₹4,543 Cr, 13.1%".
+- Downgrade the "economy player earns 18–19%" archetype to a range.
+- State the GST classification as fact (18% for the whole home-care basket).
+- Use HUL's own "₹6,878 Cr | 16%".
+- Use ROE 21.0% / 22.5% ex-goodwill for FY26.
+- Quote main wash/post wash for Q4 FY26 only.
+- Cut the whitener market to ~₹300–350 Cr.
+
+---
+
+## 4.1 Verification table: the 40 figures the writer will lean on
+
+Key to the "Fetched?" column:
+- **V** = fetched this session from the primary document named.
+- **V-P1** = verified from a primary document in Part 1, not re-fetched.
+- **V-sec / V-snip** = secondary only.
+
+Agreement column: ✓ = agrees with Parts 1–3; Δ = changes them (see 4.0); + = new.
+
+| # | Figure | Value | Primary source (URL) | Fetched? | vs Parts 1–3 |
+|---|---|---|---|---|---|
+| 1 | Jyothy FY26 revenue from operations | ₹2,944.3 Cr (+3.5%; vol +6%) | AR 2025-26 note 30; Q4 FY26 PPT — bseindia.com/xml-data/corpfiling/AttachHis/7e8d4d84-a599-4d8a-a743-77b419d32aaa.pdf; …/AttachHis/23156056-a0e9-4196-a6ca-c1716010b130.pdf | **V** | ✓ |
+| 2 | Jyothy FY26 operating EBITDA / margin | ₹449.9 Cr / 15.3% (FY25 ₹499.8 Cr / 17.6%) | Q4 FY26 PPT (as #1) | **V** | ✓ (FY25 EBITDA 499.8 vs 499.6 — trivial) |
+| 3 | Jyothy FY26 PAT | ₹333.2 Cr (FY25 ₹371.2 Cr) | Q4 FY26 PPT | **V** | ✓ |
+| 4 | Jyothy gross margin FY25 → FY26 | 50.2% → 47.0% | Q4 FY26 PPT | **V** | Δ (FY25 50.1 → 50.2) |
+| 5 | Jyothy Q1 FY27 revenue / GM / EBITDA / PAT | ₹773 Cr (+3.0%) / 38.5% / ₹64.7 Cr (8.4%) / ₹47.6 Cr | Q1 FY27 PPT — bseindia.com/xml-data/corpfiling/AttachHis/c8a7ab1e-70f8-49b8-887a-36c1f90e04ae.pdf | **V** | ✓ |
+| 6 | Jyothy Q1 FY27 ex-Pril/Fa growth | value +8.1%, volume +5.3% | Q1 FY27 PPT slide 5 | **V** | ✓ |
+| 7 | Jyothy Q1 FY27 A&P | ₹50.6 Cr (6.5%) vs ₹58.9 Cr (7.8%) | Q1 FY27 PPT slide 5/7 (call says "10.8%": transcript error) | **V** | ✓ |
+| 8 | Jyothy cumulative price increase since the war | ~4–4.5% (3% in Q1); PC 9–10%; Fabric ~5%; dishwash "competitive" | Q1 FY27 transcript — bseindia.com/xml-data/corpfiling/AttachLive/5bddef2a-6524-417c-bdfd-dc778621844b.pdf | **V** | ✓ |
+| 9 | Raw-material hit to Q1 FY27 gross margin | 15–16 pts gross; +3 pts price; +3–4 pts efficiency/mix → −9.5 pts net; basket inflation 30–35% | Q1 FY27 transcript | **V** | ✓ |
+| 10 | Jyothy net cash | ~₹850 Cr (12-Aug-2026); ₹997 Cr / "INR 1,000 crores" (Mar-26) | Q1 FY27 transcript; Q4 FY26 transcript (6308b046…) | **V** | ✓ |
+| 11 | Jyothy FY26 segment profit (old structure) | Fabric 268.5 · Dish 150.5 · HI −4.6 · PC 25.3 · Others −0.2 | AR note 30 | **V** | ✓ |
+| 12 | Jyothy FY25 segment profit | Fabric 295.1 · Dish 183.3 · HI −24.7 · PC 35.3 · Others 3.6 | AR note 30 | **V** | Δ (was [E] back-calc) |
+| 13 | New-structure FY26 segments | Fabric 1,409/264 · Home 1,215/150 · PC 321/25 | Q1 FY27 PPT slide 10 | **V** | ✓ |
+| 14 | Q4 FY26 main wash / post wash share | 36% / 9% of Q4 revenue | Q4 FY26 PPT pie | **V** | Δ (was "do not quote") |
+| 15 | Henkel licence end date | "not to renew … beyond May 31, 2026" | AR 2025-26 CMD letter p.06 | **V** | ✓ (call's "31st April" is a slip) |
+| 16 | Royalty expense | ₹4.57 Cr FY26 (₹4.62 Cr FY25) | AR, Other expenses note | **V** | ✓ |
+| 17 | R&D spend | ₹23.4 Cr FY26 (Annexure F); BRSR R&D ₹21.3 Cr vs ₹19.1 Cr | AR Annexure F; BRSR | **V** | + |
+| 18 | Employees / plants / reach | 2,970 permanent; 23 plants; 4 mn outlets; 1.4 mn direct; 10,000+ partners | AR remuneration annexure; Q1 FY27 PPT slide 3 | **V** | ✓ |
+| 19 | Jyothy ROE FY26 | 21.0% (closing equity); 22.5% ex-goodwill | Q4 FY26 PPT chart; screener equity | **V** | Δ |
+| 20 | Jyothy promoter / DII holding (Sep-26) | 62.89% / 9.86% (Jun-26: 13.36%) | screener.in/company/JYOTHYLAB/ | **V** | ✓ |
+| 21 | Jyothy capex FY26 | ₹66.9 Cr (FY25 ₹58.1 Cr) | AR note 30 | **V** | Δ |
+| 22 | HUL Home Care Q2 FY27 | ₹6,878 Cr revenue; 16% margin; USG 22%; UVG double-digit | HUL SQ'26 PPT — bseindia.com/xml-data/corpfiling/AttachHis/aecfd799-4d6c-49d4-9d7b-221d87d1352d.pdf | **V** | Δ (from V-sec to V; EBIT ₹ not printed) |
+| 23 | HUL Home Care Q1 FY27 | ₹6,554 Cr; 17% margin; USG 14%; UVG HSD | hul.co.in/files/hul-jq-26-results-presentation.pdf | **V** | Δ/+ |
+| 24 | HUL Q2 FY27 consolidated | Turnover ₹18,071 Cr; USG 15%; UVG 7%; EBITDA ₹4,089 Cr (22.6%); guidance 22–24% | HUL SQ'26 PPT | **V** | Δ (22.4 → 22.6 company basis) |
+| 25 | HUL Home Care FY26 | ₹23,672 Cr; EBIT ₹4,521 Cr (19.1%); USG 4% | HUL AR 2025-26 (AttachHis/881493e4…) | V-P1 | ✓ |
+| 26 | GCPL standalone Home Care Q2 FY27 | ₹1,329 Cr (+19%); standalone EBITDA ₹553 Cr (21.0%) | GCPL PR — bseindia.com/xml-data/corpfiling/AttachHis/4abd5223-47e2-4829-86e7-c83d60bac79c.pdf | **V** | ✓ |
+| 27 | Liquid dishwash category size | "~₹3k crore … double-digit … mid-teens household penetration" | GCPL Q2 FY27 PPT (AttachHis/8bf1e6fa-d1b4-422f-bf06-7cdd37877e69.pdf) slide 17 | **V** | ✓ |
+| 28 | 2026 monsoon | 87% of LPA; 759.4 mm; South Peninsula 76% | mausam.imd.gov.in/Forecast/marquee_data/Salient_Features_SW_MONSOON%20_2026_30_sep.pdf | **V** | Δ (snippet → primary; + regions) |
+| 29 | GST on detergents (HSN 3402) | 18% (Sch. II S.No. 67), unchanged in GST 2.0 | Notification 9/2025-CT(R) Gazette text (copy: a2ztaxcorp.net/wp-content/uploads/2025/09/CBIC-N-No.-9-2025-Central-Tax-Rate.pdf) | **V** (Gazette text, third-party host) | ✓ (V-sec → V) |
+| 30 | GST on HI (HSN 3808) | 18% (Sch. II S.No. 95) | Same | **V** | ✓ |
+| 31 | GST on laundry soap / dishwash cakes / scouring powder / air fresheners | 18% (S.No. 66, 67, 70, 64) vs toilet soap 5% (S.No. 251), agarbatti 5% (S.No. 250) | Same | **V** | Δ (resolves FLAG) |
+| 32 | Detergent GST history | 28% → 18%, 23rd GST Council, 10-Nov-2017 | gstcouncil.gov.in/sites/default/files/2024-10/2._23rd_gst_press_information_bureau.pdf | **V** | Δ ([K] → V) |
+| 33 | RSPL FY25 | ₹4,543 Cr; EBITDA ₹594 Cr (13.1%); PAT ₹240 Cr | crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/RSPLLIMITED_September%2023_%202025_RR_379103.html | **V** | Δ |
+| 34 | Nirma FY25 and 2026 restructuring | Revenue ₹12,231 Cr; consumer + chemicals demerger to Ocular (15-Apr-2026); SVM Ch. 11 (15-Jun-2026) | crisilratings.com/…/NirmaLimited_June%2024_%202026_RR_398823.html | **V** | Δ/+ |
+| 35 | P&G Home Products FY25 | Revenue ₹9,054 Cr; PAT ₹683 Cr; A&P ₹930 Cr; royalty ₹410 Cr | theweek.in/wire-updates/business/2025/12/30/dcm12-biz-results-pandg-home.html (PTI, RoC filing) | V-sec | Δ/+ |
+| 36 | LAB producer Q1 FY27 (TPL) | Revenue ₹784 Cr (+67%); EBITDA ₹124.8 Cr (15.9% vs 11.2%) | tnpetro.com/wp-content/uploads/2026/08/Press-release-Q1-FY-2026-27.pdf | **V** | + |
+| 37 | Unilever Home Care 2025 | €11.6 bn; USG 2.6%; UOM 14.9% | unilever.com/files/ir-q4-2025-full-announcement.pdf | **V** | Δ |
+| 38 | Unilever Home Care Q3 2026 | USG 9.1%; €3.1 bn; 9M USG 8.1%, €9.0 bn | unilever.com/files/unilever-q3-2026-results-key-highlights.pdf | **V** | ✓ (V-snip → V; UVG/UPG split 5.4/3.6 still snippet) |
+| 39 | P&G F&HC Q1 FY27 | Organic +4.8%; NE margin 19.5% ($1,601 m / $8,205 m) | s204.q4cdn.com/332108499/files/content_files/FY2627-Q1-JAS-Press-Release-Final.pdf | **V** | + |
+| 40 | HI market (legal) 2025 | ₹8,138 Cr (₹7,147 Cr 2023) | EY–HICA via The Week (24-Apr-2026); BusinessToday confirms the report and the 5% ask but not the ₹ figure | V-sec | ✓ (still secondary) |
+
+**Count:**
+- **37 of the 40 rows are [V] from primary documents fetched this session.** Row 29 is the Gazette text read from a third-party host.
+- Row 25 is [V-P1].
+- Rows 35 and 40 are [V-sec].
+- No row rests on memory.
+
+**Figures still weak (not in the 40, do not lean on them):**
+- NIQ Apr–Jun 2026 HPC volume −4.3% and rural −5% [V-sec Daily Pioneer]. The NIQ JAS'26 release is not out or not findable.
+- Exo ~14% / Pril ~13% / screener 13.7% shares [V-sec]. **The company itself says only "#2 in dishwash bar, #2 in dishwash in value terms"** [V PPT].
+- Vim 55–60%, HUL fabric 35–40%, GCPL HI 50%+ [K].
+- P&G F&HC FY26 18.6% [V-snip 10-K]: SEC blocks generic user-agents, so the 10-K could not be fetched.
+- Unilever Q3-26 Home Care volume split [V-snip].
+- ₹75–85k Cr market total [E].
+
+**Credibility rulings where sources conflict:**
+1. **HUL Q2 EBITDA margin 22.6% vs 22.4%:** both correct on different denominators. Use the company's 22.6% (turnover).
+2. **Jyothy Q1 FY26 A&P 7.8% vs 10.8%:** the PPT wins. ₹58.9 Cr ÷ ₹751 Cr = 7.8%; 10.8% would need ₹81 Cr.
+3. **Monsoon "weakest since 2015" (press) vs IMD "4th lowest since 2001":** both true. 2002 (81%), 2009 (78%) and 2015 (86%) were lower. Use IMD's wording.
+4. **Pril revenue "35% of revenue" (sahi.com, AI-assisted) vs "high single digit" (management via Finshots):** management wins. The 35% is the whole dishwash segment.
+5. **RSPL Ghadi share 55–60% (CRISIL 2025) vs ~60% (Part 1):** use CRISIL 2025.
+
+---
+
+## 4.2 Per company
+
+### 4.2.1 Jyothy Labs (MEMBER) — JYOTHYLAB · BSE 532926
+
+#### (a) Management-commentary digest: latest concall (Q1 FY27, held 12-Aug-2026, transcript filed 14-Aug-2026) [V]
+Speakers: CMD M.R. Jyothy and CFO Pawan Agarwal. Host: ICICI Securities. Paraphrased; short quotes only where the wording matters.
+
+**Guidance and outlook**
+1. **Revenue:**
+   - FY27 revenue growth **excluding Pril and Fa: double-digit**. The CFO's "endeavour" is double digit "from current quarter itself".
+   - Volume growth "high single digit … through the year". Price adds a further 3–4%.
+   - H2 growth expected to be stronger than H1.
+   - The CFO agreed that reported growth (including the lost Pril/Fa sales) will be "far lower".
+2. **Margins:**
+   - EBITDA margin "under pressure during the year". **H2 "substantially better" than H1**, subject to demand and commodity stability.
+   - **Q2 FY27 "not going to be materially lower than" Q1's 8.4%.** The CFO would not call Q1 the bottom.
+   - Higher-cost purchases and contracted inventories "continue to flow through Q2". Relief comes "more meaningfully from October".
+   - Long-run goal: "swing back to the historical margin levels", "a large portion" linked to crude.
+3. **Pricing:**
+   - ~4–4.5% blended since the war; 3% flowed into Q1, the rest in Q2.
+   - Personal Care 9–10%; other segments 4–5% (Fabric ~5%); dishwash "competitive".
+   - Pricing is matched "SKU to SKU" with competitors. Analysts noted HUL and GCPL had ~5% flowing through in Q1.
+4. **A&P:** moderated over several quarters; to be **stepped up** "in a calibrated manner".
+5. **Cost programme:** procurement, value engineering, supply chain. Work on **reducing crude-linked raw materials** has run "for the last 1, 1.5 years". The CMD: "a very big lesson learned and we've paid a huge price".
+6. **Channels:**
+   - GT muted on urban weakness but **positive ex-Pril/Fa**.
+   - MT/e-com/QC are the fastest-growing channels; **e-com + QC +25–30%**.
+   - Home-care categories "are not growing at the same pace as food and grocery on these platforms".
+   - GT is largely sold on **advance payment**; distributor stock is 15–20 days.
+7. **Personal Care:** soft in Q1 after the 10% price increase and supply disruption. Expected to "join the party" from Q2. **Soap-noodle inflation from June** is a new risk.
+8. **M&A:**
+   - Looking "very aggressively", with stringent filters. "At an opportune time, hopefully, you will get to hear from us."
+   - On new categories (beauty, cosmetics, oral, baby, hair, skin), the CMD said "probably you'll get to hear some good news in that area".
+   - TTK Prestige consumer brands: of four divisions, two did not fit and two overlapped, so Jyothy passed.
+   - Q4 FY26 call: "in active dialogues with a couple of them".
+9. **Pril:**
+   - Jyothy did not sell after the licence end. The CFO said "31st April"; the AR and PPT say **31-May-2026**.
+   - "No specific clause which requires them to wait for a certain period"; "the matter is before the court".
+   - The CFO called the saved royalty "a small amount".
+10. **Maxo incense sticks** (launched July 2026):
+    - Transfluthrin, CIB&RC-approved, "knockdown from two minutes"; Kareena Kapoor campaign.
+    - Priced at par with competition. Jyothy is the "second organized player in this category".
+
+**The 6 most important Q&A points**
+- (i) **Pricing gap** (IIFL/Percy Panthaki): HUL and GCPL had ~5% price in Q1 vs Jyothy's 3%. Management cited SKU-level price cuts by competitors and last year's higher MRPs. Implication: **Jyothy is a price-follower in dishwash.**
+- (ii) **"Is this a commodity business?"** (individual investor): the CFO said the input hit (30–35% basket inflation) "has never happened in the recent memory of the company". The CMD said competitors cut prices "the moment JLL … launches", and that "90% Home Care" exposure explains the gap versus diversified peers.
+- (iii) **Premiumisation** (Buglerock): in home care, "premium brands are at a discount today". **Liquid detergents now sell below powders per wash and at lower margin, "be it even a premium liquid".**
+- (iv) **Working capital** (Buglerock): advance-paid GT; channel terms in MT/QC are comparable.
+- (v) **Exo Liquid ramp:** "reasonably what as per expectation" after 3–4 months. The broader Exo franchise grew mid-to-high single digit in value and double digit in volume.
+- (vi) **A large player entering dishwash** (Equirus; read: GCPL Rizz): "more people are welcome to the party".
+- Analyst estimate (not management's): the Q1 extra material cost was "INR 120–130 crores". Do not attribute it to the company.
+
+**Q4 FY26 call (4-May-2026) [V], items still relevant:**
+- **No FY27 margin guidance** was given ("constrained to give any guidance").
+- **HI to turn profitable by end-FY27, "probably … much earlier".** LV + aerosol/racquet = 55% of HI, coil 45%.
+- Q4 FY26: Fabric +14.4% value / +17.8% volume; dishwash flat value on +5% volume ("price reductions, grammage increases and promotional offers"); Personal Care +20% value and volume as GST disruption settled "from December".
+- Detergent powders in "marginal degrowth" as powder converts to liquid; "local players" intensify liquids competition.
+- Market share "protected or improved across various categories" (no numbers given).
+
+#### (b) Concall KPI table (Jyothy-specific numbers not in the P&L) [V]
+
+| KPI | Q4 FY26 (call 4-May-26) | Q1 FY27 (call 12-Aug-26) | Comment |
+|---|---|---|---|
+| Volume growth | +10.8% (company); FY26 +6% | +5.3% ex-Pril/Fa | Q1 Fabric volume +10% |
+| Value growth by segment | Fabric +14.4% · Dish +0.1% · PC +20.1% · HI +3.0% | Fabric +14.1% · Home −9.0% (ex-Pril +2.4%) · PC +0.4% | New segments from Q1 FY27 |
+| Price taken | "selective increases in March" | 4–4.5% cumulative; 3% in Q1 | PC 9–10%, Fabric ~5% |
+| Crude-linked share | "50–60% of inputs" | "90% of our business" (revenue basis) | Two different bases |
+| Packaging in material cost | 15–20% | — | |
+| RM inflation | LABSA +60–65% (Jan→May); HDPE/PP +50–55% | basket +30–35%; GM hit 15–16 pts gross | |
+| HI mix | LV 55% / coil 45% | sticks launched July | HI loss FY25 −₹24.7 Cr → FY26 −₹4.6 Cr [V AR] |
+| Channel | MT + e-com + QC +26% (FY26) | e-com + QC +25–30% | GT positive ex-Pril |
+| Net cash | ~₹1,000 Cr | ~₹850 Cr | after ~₹128 Cr dividend |
+| Distributor stock | — | 15–20 days | GT largely advance-paid |
+
+#### (c) Five-year history, FY22–FY26 (₹ Cr; screener standalone pulled 3-Nov-2026 [V], company KPIs [V], ratios [E] where stated)
+
+| Item | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 2,193 | 2,482 | 2,754 | 2,844 | 2,944 |
+| YoY % | +16.3 | +13.2 | +11.0 | +3.3 | +3.5 |
+| Volume growth % (co.) | n.d. | n.d. | n.d. | +6.4 | +6.0 |
+| Gross margin % (co.) | n.d. | 42.3 | 49.1 | **50.2** | 47.0 |
+| A&P ₹ Cr (% sales) (co.) | n.d. | 174.3 (7.0) | 228.2 (8.3) | 239.7 (8.4) | 227.5 (7.7) |
+| Operating profit / EBITDA | 248 | 316 | 480 | 500 (co. 499.8) | 450 (co. 449.9) |
+| OPM % | 11.3 | 12.7 | 17.4 | 17.6 | 15.3 |
+| Other income | 18 | 47 | 54 | 51 | 67 |
+| Depreciation | 89 | 50 | 50 | 56 | 61 |
+| PBT | 166 | 299 | 479 | 490 | 451 |
+| Tax rate % | 16 | 20 | 23 | 24 | 26 |
+| PAT | 139 | 240 | 370 | 371 | 333 |
+| EPS ₹ | 3.78 | 6.52 | 10.07 | 10.11 | 9.07 |
+| Dividend payout % | 66 | 46 | 35 | 35 | 39 (DPS ₹3.50) |
+| Net worth (year-end) | 733 | 882 | 1,142 | 1,383 | 1,589 |
+| ROE % on average equity [E] | 16.7 | 29.7 | 36.6 | 29.4 | 22.4 |
+| ROE % on closing equity (co. chart FY24–26) | 19.0 [E] | 27.2 [E] | 32.4 | 26.8 | 21.0 |
+| ROE ex-goodwill % (co.) | — | — | 35.7 | 29.1 | 22.5 |
+| ROCE % (screener) | 18 | 31 | 44 | 37 | 29 |
+| CFO | 201 | 329 | 458 | 312 | 412 |
+| Free cash flow | 180 | 317 | 444 | 254 | 346 |
+| CFO / EBITDA % | 94 | 122 | 112 | 82 | 105 |
+| Capex (AR) | — | — | — | 58.1 | 66.9 |
+| Debtor / inventory / payable days | 23 / 84 / 67 | 19 / 76 / 55 | 26 / 73 / 72 | 35 / 84 / 75 | 32 / 80 / 74 |
+| Lease liabilities ("borrowings") | 171 | 47 | 51 | 61 | 52 |
+| Investments (screener) | 6 | 6 | 197 | 456 | 506 |
+
+- **Longer arc [V screener]:** 10-year revenue CAGR 7%, 5-year 9%, 3-year 6%. 10-year PAT CAGR 16%. 10-year average ROE 26%.
+- **Shareholder outcome:** stock-price CAGR is **1% over 10 years and −20% a year over 3 years; −41% over 1 year**. On this evidence the 2026 de-rating has erased a decade of price gains. Since ROE stayed ~26%, the return to holders came almost entirely through dividends.
+
+#### (d) Eight quarters to Q1 FY27 (₹ Cr; company presentations [V]; screener cross-check [V]). Q2 FY27 is due 4-Nov-2026; not posted at 3-Nov.
+
+| Quarter | Revenue | YoY % | Volume % | GM % | A&P (% sales) | EBITDA (margin) | Other income (scr.) | PAT | Screener OP / OPM |
+|---|---|---|---|---|---|---|---|---|---|
+| Q2 FY25 (Sep-24) | 734 | +0.2 | +3.0 | 50.2 | 61.1 (8.3) | 138.5 (18.9) | 13 | 105.0 | 138 / 19% |
+| Q3 FY25 (Dec-24) | 704 | +4.0 | +8.0 | 49.8 | 63.7 (9.0) | 115.8 (16.4) | 14 | 87.4 | 116 / 16% |
+| Q4 FY25 (Mar-25) | 667 | +1.1 | +4.0 | 49.2 | 53.4 (8.0) | **112.1** (16.8) | 12 | **77.0** | 112 / 17% |
+| Q1 FY26 (Jun-25) | 751 | +1.4 | +3.6 | 48.0 | 58.9 (7.8) | 124.2 (16.5) | 19 | 96.8 | 124 / 17% |
+| Q2 FY26 (Sep-25) | 736 | +0.4 | +2.8 | 48.1 | 61.5 (8.4) | 118.3 (16.1) | 17 | 87.8 | 118 / 16% |
+| Q3 FY26 (Dec-25) | 740 | +5.1 | +7.2 | 46.5 | 56.8 (7.7) | 110.7 (15.0) | 15 | 81.1 | 111 / 15% |
+| Q4 FY26 (Mar-26) | 717 | +7.7 | +10.8 | 45.2 | 50.3 (7.0) | 96.8 (13.5) | 16 | 67.5 | 97 / 13% |
+| **Q1 FY27 (Jun-26)** | **773** | **+3.0** (ex-Pril/Fa +8.1) | **+5.3** ex-Pril/Fa | **38.5** | **50.6 (6.5)** | **64.7 (8.4)** | 18 | **47.6** | 65 / 8% |
+
+- Screener's TTM to Jun-26: revenue ₹2,966 Cr, OP ₹390 Cr (13.1%), PAT ₹284 Cr. Quarterly depreciation rose from ₹14 Cr to ₹16 Cr; the tax rate is 27–29% in the last three quarters.
+- **8-quarter read:**
+  - Gross margin fell in **every one of the eight quarters** (50.2 → 38.5).
+  - The decline began **before** the war: −4.0 pts from Q2 FY25 to Q4 FY26, from price cuts/grammage in dishwash and a mix shift to lower-margin liquids.
+  - The war then took another 6.7 pts in a single quarter.
+
+**Segment results by quarter, new structure (₹ Cr revenue / result; margin %) [V Q1 FY27 PPT slide 10; margins E]**
+
+| Segment | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 |
+|---|---|---|---|---|---|
+| Fabric Care | 349 / 67 (19.2%) | 350 / 73 (20.9%) | 367 / 67 (18.3%) | 342 / 58 (17.0%) | **399 / 38 (9.5%)** |
+| Home Care | 308 / 46 (14.9%) | 304 / 39 (12.8%) | 295 / 36 (12.2%) | 308 / 28 (9.1%) | **280 / 8 (2.9%)** |
+| Personal Care | 94 / 11 (11.7%) | 82 / 2 (2.4%) | 77 / 7 (9.1%) | 68 / 5 (7.4%) | **94 / 13 (13.8%)** |
+| Total | 751 / 125 (16.6%) | 736 / 114 (15.5%) | 740 / 109 (14.7%) | 717 / 91 (12.7%) | 773 / 59 (7.6%) |
+
+**Old-structure dishwash (₹ Cr revenue / result) [V]:** Q1 FY26 248/50 (20.2%) → Q2 244/42 (17.2%) → Q3 241/35 (14.5%) → Q4 225/23 (10.2%).
+- **The dishwash margin halved during FY26, before the war.** It was a domestic price war (MRP cuts, grammage), not crude.
+- FY25 dishwash segment margin was 18.9% [V AR]. This is the strongest primary evidence that **Jyothy is not the dishwash price-setter**.
+
+**Segment assets (₹ Cr, Q1 FY27) [V]:** Fabric 514 · Home 483 · PC 102 · unallocated 1,114 (treasury). Pre-tax return on segment assets, FY26 [E]:
+- Fabric 264/452 ≈ 58%
+- Home 150/444 ≈ 34%
+- PC 25/95 ≈ 26%
+- The business is very capital-light; treasury is ~half of total assets.
+
+#### (e) Annual Report 2025-26: findings [V AR, BSE AttachHis 7e8d4d84…]
+
+1. **Henkel licence:**
+   - CMD letter: "Henkel AG & Co. KGaA communicated its decision not to renew the licence agreements relating to the Pril and Fa brands beyond May 31, 2026."
+   - The rights covered "manufacturing, distribution, marketing and sale".
+   - Strategy: "Exo will now be developed as an owned brand platform across formats."
+   - **The AR does not quantify Pril/Fa revenue, discloses no contingent asset or liability for the dispute, and names no court.** The litigation was approved by the board after the AR date (4-May-2026).
+2. **Royalty:** ₹4.57 Cr (FY26), ₹4.62 Cr (FY25). It sits inside "Other expenses" of ₹591 Cr. **Henkel is not a related party.**
+3. **Related parties (note 31; AOC-2):**
+   - **AOC-2 reports NIL** material or non-arm's-length contracts. BRSR: related-party purchases 0%, sales 0.03%.
+   - KMP short-term benefits ₹11.05 Cr (₹9.62 Cr). **KMP commission ₹5.09 Cr (₹0.60 Cr)**, payable at year-end.
+   - Close family members of KMP (incl. Ananth Rao T, Ravi Razdan, M.P. Ramachandran) received ₹6.37 Cr in short-term benefits.
+   - Promoter-linked entities: Quilon Trading, Jaya Trust, Sahyadri Bio Labs, Sahyadri Agencies (rent ₹1 lakh paid, ₹6 lakh received).
+   - **New promoter vehicles: M.P. Ramachandran Family Trust I and II (w.e.f. 25-Apr-2025), "to streamline succession planning".**
+4. **Dividends to the promoter side, FY26 [E from note 31]:**
+   - Close family ₹56.1 Cr + KMP ₹3.6 Cr + KMP-influenced entities ₹6.6 Cr + promoter group ₹14.5 Cr ≈ **₹81 Cr of ~₹128.5 Cr paid (≈63%)**, in line with the 62.89% holding.
+   - This matters for the buyback: the promoter's choice to tender or abstain decides the post-buyback holding.
+5. **Remuneration (Rule 5 annexure):**
+   - **CMD M.R. Jyothy: +59.37% in FY26, 130× median employee.** Ananth Rao T (Director, Operations & Commercial) 72×; Ravi Razdan (Director, IT & HR) 46×; CFO 30× (+8.44%); CS +181% (42×).
+   - Median employee pay +9.37%. "Managerial remuneration … decreased by 12.57%" (the AR's own wording, which conflicts with the CMD line; the basis differs, so flag it).
+   - **2,970 permanent employees and workers (31-Mar-2026).** Non-permanent staff are mostly field sales.
+   - **Governance point for the writer:** CMD pay rose ~59% (largely the commission line) in a year when PAT fell 10%.
+6. **Contingent liabilities (note 33):** sales tax ₹6.82 Cr + income tax ₹2.79 Cr = **₹9.6 Cr**, unchanged YoY. **Provision for litigations ₹28.3 Cr** (indirect-tax disputes; ₹28.6 Cr FY25). Capital commitments ₹3.4 Cr. **Immaterial against ₹1,589 Cr net worth.**
+7. **Goodwill ₹100.38 Cr** (Henkel India business, 2011). It is tested for impairment; there is no impairment despite losing Pril/Fa, because the goodwill is allocated to the business as acquired, including Henko, Mr. White and Margo.
+8. **R&D:** ₹23.4 Cr (0.8% of sales; Annexure F). BRSR R&D ₹21.3 Cr vs ₹19.1 Cr. **3 R&D labs (Mumbai, Silvassa, Puducherry).** Compare HUL/Unilever's global R&D backbone: Jyothy's innovation budget is tiny in absolute terms.
+9. **Manufacturing and ESG:** **23 manufacturing units** (20 ISO 14001-certified); Zero Liquid Discharge at 12 plants; solar at 4 locations; operations pan-India; **exports to 19 countries** (BRSR).
+10. **Capex:** FY26 ₹66.9 Cr (Fabric 16.8, Dish 11.2, HI 5.6, PC 3.0, Others 1.3, unallocated 29.1); FY25 ₹58.1 Cr. Maintenance-level, ~1.1× depreciation.
+11. **Subsidiaries:** **none at Mar-26.** The 75% stake in Jyothy Kallol Bangladesh was sold to Kallol Enterprise (BDT 3.02 crore, received 10-Sep-2025). JFSL (laundry) was amalgamated earlier.
+12. **Post-balance-sheet event:** a **fire on 29-Apr-2026 at a C&FA-operated warehouse in Punjab**. Controlled the same day, no injuries, insured; "not expected to have any material impact".
+13. **Distribution:** "around 1,00,000 outlets" added in FY26; direct reach 1.4 mn; MT/e-com/QC +26%. The MD&A acknowledges that quick commerce "has created tension with traditional retailers who cite concerns over pricing fairness". It quotes an industry QC TAM of US$57 bn by 2030.
+14. **Brand notes (MD&A):**
+    - Exo bar: expanded LUPs into Tier-2/rural; "calibrated MRP adjustments to ensure price parity across key packs" (the dishwash price war in the company's own words).
+    - Dr. Wool (woollens liquid) launched Q2 FY26.
+    - Maxo turned 25 (aerosols, racquet launched).
+    - Margo: national campaign with Raashii Khanna and a refreshed pack.
+15. **Top risks (risk table, BRSR):** commodity/crude volatility, competition and price wars, counterfeits ("market share decrease"), channel conflict, licence/IP. The Henkel event realised the licence risk.
+16. **Legal (secondary, low confidence):** a Bombay High Court interim injunction for Jyothy against Dabur in a **neem trademark** dispute was reported on 14-Sep-2026 (legalsuvidha, AI-assisted page) [V-snip]. It is not in the AR (post-dated). Verify before use.
+
+#### (f) Buyback (board 4-Nov-2026): what is knowable today [V screener; E]
+- Not announced as of 3-Nov.
+- **Capacity:**
+  - Net cash is ~₹850 Cr (Aug-26).
+  - The Companies Act limit is 25% of paid-up capital + free reserves, i.e. ~₹397 Cr on Mar-26 net worth of ₹1,589 Cr [E]. A board-only approval is capped at 10% (~₹159 Cr) [K].
+  - At ₹188, ₹159–397 Cr buys back **2.3–5.8% of the equity**, or 0.85–2.1 Cr shares out of 36.7 Cr [E].
+- **Tax:** since 1-Oct-2024, buyback proceeds are taxed as **deemed dividend in shareholders' hands** [K]. That changes the promoter's incentive to tender. Verify in the 4-Nov outcome.
+
+### 4.2.2 REFERENCE — Hindustan Unilever, Home Care (guidance digest) [V HUL SQ'26 and JQ'26 presentations]
+
+**Q2 FY27 (Sep-26 quarter), reported 28-Oct-2026:**
+- Turnover ₹18,071 Cr. **USG 15%, the highest in 14 quarters.** UVG 7%.
+- EBITDA ₹4,089 Cr (**22.6%**, −140 bp). PAT ₹2,796 Cr (flat; PAT bei +9%; the base had ₹273 Cr of one-off tax gains). Interim dividend ₹19.
+- H1 FY27: turnover ₹35,255 Cr, USG 12%, UVG 6%.
+- Segment USG: Home Care 22% · Beauty & Wellbeing 16% · Personal Care 9% · Foods 9%.
+
+**Home Care Q2 FY27: "₹6,878 cr. Revenue | 16% Margin; USG 22%; UVG double-digit".**
+- **Fabric Wash:** "strong double-digit growth across liquids, powders and bars. All brands contributed." The **Surf excel Easy Wash ₹99 pack** is driving premiumisation in powders.
+- **Household Care:** double-digit USG, volume-driven; Vim Liquids double-digit, volume-led.
+- "Focused market development actions in liquids expanded penetration … strengthened market leadership." "Calibrated pricing actions boosted penetration and supported volume resilience."
+
+**Home Care Q1 FY27 (Jun-26 quarter): "₹6,554 cr. Revenue | 17% Margin; USG 14%; UVG high-single-digit".**
+- "Highest growth in three years while strengthening market leadership."
+- Bars and powders "sustained their step-up"; liquids accelerated.
+
+**Outlook (Q2 deck):**
+- "Underlying demand environment remains resilient."
+- "Expect FY'27 to be better than FY'26 driven by portfolio and channel transformation."
+- "**Commodity inflation expected to continue in the short-term.**"
+- **Consolidated EBITDA margin guided at 22–24%.**
+- Strategy: "competitive, volume-led profit growth".
+
+**HUL Home Care at a glance (₹ Cr):**
+
+| Period | Revenue | Margin (EBIT) | Growth | Tag |
+|---|---|---|---|---|
+| FY25 | 22,958 | 19.3% | — | V-P1 |
+| FY26 | 23,672 | 19.1% | USG 4% | V-P1 |
+| Q2 FY26 | 5,664 | ~19.1% (~1,083) | — | V-snip |
+| Q1 FY27 | 6,554 | 17% | USG 14% | V |
+| Q2 FY27 | 6,878 | 16% (≈ ₹1,100 Cr) [E] | USG 22% | V |
+
+**Read for the writer:**
+- The leader's segment margin fell ~3 pts in two quarters while USG went from 4% to 22%.
+- HUL chose volume and share (penetration, "calibrated" pricing, the ₹99 Surf pack) over margin. That is exactly the competitive pressure Jyothy's CMD described ("SKU-level price reductions").
+- Even so, HUL HC's 16% trough is ~13 pts above Jyothy Home Care's 2.9% and ~6.5 pts above Jyothy Fabric's 9.5% in Q1 FY27.
+- The Q2 run-rate (₹6,878 × 4 ≈ ₹27.5k Cr) is **~10× Jyothy's Fabric + Home Care**.
+
+### 4.2.3 REFERENCE — Godrej Consumer Products (guidance digest) [V GCPL PR + PPT, 29-Oct-2026]
+
+**Q2 FY27 results:**
+- **Consolidated:**
+  - Sales +19% (15% constant currency); UVG 8%. Second straight quarter of high-teens revenue growth.
+  - EBITDA +12% (18.7% margin). PAT ₹523 Cr (+14%); adjusted PAT ₹532 Cr vs ₹487 Cr.
+- **Standalone:**
+  - Sales ₹2,631 Cr (+13%; UVG 7%), after an estimated **~150 bp drag from a trade-inventory correction** ("healthy channel stock").
+  - EBITDA ₹553 Cr (+8%; 21.0%).
+- **Home Care ₹1,329 Cr (+19%):**
+  - **HI:** "strong market share gain across formats; despite weak monsoons, led by an intensifying El-Niño". Electrics improved sequentially ("GK 6-min" campaign). **Goodknight incense sticks are "the largest branded stick in the category".** Non-mosquito HI is growing.
+  - **Air fresheners:** strong double-digit growth and leadership; Aer Spray 99 is "resetting the category".
+  - **Fabric (Godrej Fab):** "extremely strong double-digit UVG", share gains. "**Steep pricing taken already; further sequential pricing underway.**" Godrej Zap stain remover launched (online).
+  - **Dishwash:** Godrej Spic went pan-India in Q1 with "healthy repeats" and "significant distribution headroom". **Godrej Rizz liquid dishwash launched in West and South India**, with GCPL describing liquid dishwash as "~₹3k crore … double-digit … mid-teens household penetration".
+- **International:** Indonesia +20% (UVG 8%; El-Niño-driven mosquito infestation; LPG prices doubled). Africa/USA/Middle East +40% (23% constant currency). HI incense sticks piloted in Nigeria.
+
+**Costs:**
+- "One of the highest inflationary impacts in the last many years … approximately high-single-digit" across crude derivatives, palm and other inputs.
+- Pricing to continue "specifically in soaps and liquid detergents where … margins are below normative levels".
+- Media and trade spending optimised; share of voice kept "range bound"; more digital.
+
+**Guidance (held):**
+- FY27: **high-single-digit UVG in Standalone; double-digit consolidated revenue and EBITDA growth**, "with the confidence to exceed it in select areas".
+- "Our measure of outperformance remains double digit UVG and Profit growth."
+- MD & CEO: **Aasif Malbari** (confirms Part 3.4's primer issue).
+
+**Read for the writer:**
+- GCPL is now attacking **both** of Jyothy's home-care franchises: Maxo coils and LVs (GCPL gaining share, a bigger stick brand) and Exo (Rizz liquid, Spic).
+- In liquid detergents, Godrej Fab is the share-gainer among challengers.
+
+### 4.2.4 REFERENCE — others (short)
+
+**Dabur (Q2 FY27 not yet out; analyst meet 5-Nov):**
+- Home Care grew **>24% in Q4 FY26**: Odonil gel pockets and aerosols high double-digit; Odonil gained **+131 bp share in air fresheners**; Sanifresh high single digit [V-sec].
+- Q1 FY27 home care grew mid-single digit, led by Odonil and Sanifresh [V-sec].
+- No ₹ figure is disclosed. Order of magnitude ~₹650–800 Cr a year [K/E; flag].
+
+**P&G Hygiene & Health Care:** no home care (unchanged). The board meets 12-Nov.
+
+**Patanjali Foods:** home care is not split out (unchanged; gap).
+
+**P&G Home Products Ltd (unlisted, 99.98% P&G):**
+- FY25 revenue ₹9,054 Cr (+3.4%); PAT ₹683 Cr (7.5% net margin); **A&P ₹930 Cr (10.3% of revenue)**; **royalty ₹410 Cr (4.5%)** [V-sec PTI].
+- Royalty comparison: P&G's Indian arm pays its parent **~90× Jyothy's Henkel royalty**.
+
+**RSPL:** see S1–S4.
+
+**Nirma:** see S5.
+- **Read:** India's two largest economy-detergent makers spent 2025–26 in disarray: RSPL had a recall, a 22% revenue fall and a negative outlook; Nirma is carving out its consumer business and its US soda-ash arm went bankrupt.
+- In the same period, **HUL reported "bars and powders sustained their step-up"** and Jyothy reported **double-digit growth in detergent powders and bars (Q1 FY27)**. Share is moving from distressed economy players to branded mid-tier.
+
+**Reckitt Benckiser (India) Pvt Ltd:** ₹ financials still unverified. EMIS shows 2025 net sales +6.68% and 2,511 employees [V-snip]. Reckitt group: India sell-out "encouraging", but Q3-2025 LFL growth was only low-single digit because of GST changes [V-snip].
+
+### 4.2.5 Global lens, upgraded (latest period; segment basis)
+
+| Company / segment | Period | Sales | Growth | Margin | Tag |
+|---|---|---|---|---|---|
+| Unilever Home Care | FY2025 | €11.6 bn (23% of group) | USG 2.6% (UVG 2.2, UPG 0.4) | **UOM 14.9%** (+40 bp) | V |
+| Unilever Home Care | Q3 2026 / 9M 2026 | €3.1 bn / €9.0 bn | USG 9.1% / 8.1% | n.d. (quarterly) | V |
+| P&G Fabric & Home Care | Q1 FY27 (Jul–Sep 26) | $8,205 m | organic +4.8% (vol +4.3, price −0.3) | **Net earnings 19.5%**; EBT 25.4% | V |
+| P&G Fabric & Home Care | FY26 (Jun-26) | $30,314 m | organic +1% | NE 18.6% | V-snip |
+| Henkel Consumer Brands | 2025 guidance / Q3-25 | Q3-25 €2,402 m; L&HC €1,409 m | CB organic +0.4%; L&HC −1.5% | **adj. EBIT guide 14–15%** | V-sec |
+| Reckitt (group, Core + MJN) | FY26 guidance | — | Core LFL guide 3.5–4.5% | **adj. op. 24.9–25.6%** | V-snip |
+| Church & Dwight | Q3 2026 | $1,602 m | +1% | adj. GM 46.8%; adj. op. ~18.6% | V-snip |
+| Clorox | FY27 guidance | — | organic flat to slightly up | GM ~42% | V-snip |
+| **HUL Home Care** | Q2 FY27 / FY26 | ₹6,878 Cr / ₹23,672 Cr | USG 22% / 4% | **16% / 19.1% EBIT** | V / V-P1 |
+| **Jyothy Fabric + Home** | Q1 FY27 / FY26 | ₹679 Cr / ₹2,624 Cr | +3.3% (ex-Pril higher) / ~+3.4% | **6.8% / 15.8% segment result** | V |
+
+**Read:**
+- HUL Home Care's margin is still at or above every global home-care segment (Unilever 14.9%, Henkel ~14–15%, P&G F&HC 19.5% after tax ≈ 25% pre-tax). Only P&G's pre-tax margin is higher.
+- **Pricing contrast in Jul–Sep 2026:** P&G took −0.3% price globally; Unilever HC +3.6% (snippet); Indian majors +4–5%. India and other emerging markets bore the crude shock most visibly because their formulations are more LABSA-heavy and their price points are fixed.
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. 2026 south-west monsoon, % of LPA (IMD, 30-Sep-2026) [V]**
+- All-India 87 (759.4 mm).
+- By region: NW India 94.1 · Central India 97 · **South Peninsula 76 (542.0 mm)** · East & NE India 74 (1,017.1 mm, lowest since 1901) · monsoon core zone 779.9 mm (below the normal band of 782.8–881.2 mm).
+- By month: June 65 · July 101 · August 84 · September 92.
+- Subdivisions: 18 normal (53% of area), 17 deficient (42%), 1 excess (Odisha, 5%).
+- Onset over Kerala 4-Jun (3 days late); full-country coverage 9-Jul; withdrawal began 19-Sep.
+
+**D2. GST rate map for home and personal care after GST 2.0 (Notification 9/2025-CT(R), effective 22-Sep-2025) [V]**
+
+| Product | HSN | Schedule / S.No. | GST |
+|---|---|---|---|
+| Detergent powder, liquid and bar; dishwash liquid; other washing & cleaning preparations | 3402 | II / 67 | **18%** |
+| Laundry soap and soap-type cakes (other than toilet soap) | 3401 | II / 66 | **18%** |
+| Scouring pastes and powders | 3405 | II / 70 | **18%** |
+| Insecticides (coils, LV, aerosols, registered sticks) and disinfectants | 3808 | II / 95 | **18%** (bio-pesticides listed in Sch. I S.No. 260: 5%) |
+| Room deodorisers (air fresheners) | 3307 | II / 64 | **18%** |
+| Toilet soap (bars, cakes) | 3401 | I / 251 | 5% |
+| Agarbatti, dhoop, sambrani | 3307 41 00 | I / 250 | 5% |
+| Hair oil, shampoo / toothpaste | 3305 / 3306 | I / 245–246 | 5% |
+| History: detergents 28% → 18% | 3402 | 23rd Council, 10-Nov-2017 | [V PIB] |
+
+**Implications [E]:**
+- At Jyothy, ~89% of revenue (Fabric + Home Care) stays at 18%, and ~11% (Margo, Neem toothpaste) moved to 5%.
+- Unregistered "mosquito agarbatti" sold under 3307 41 00 pays 5% against 18% for registered HI. The 13-point arbitrage is now confirmed from the Gazette text, not press reports.
+
+**D3. Indian home-care competitor financials (₹ Cr; latest fiscal) [as tagged]**
+
+| Company | FY | Revenue | EBITDA (margin) | PAT | Home-care relevance | Tag |
+|---|---|---|---|---|---|---|
+| HUL Home Care (segment) | FY26 | 23,672 | EBIT 4,521 (19.1%) | — | Fabric Wash + Household Care | V-P1 |
+| P&G Home Products Ltd | FY25 | 9,054 | n.d. | 683 | Tide/Ariel + Pampers/Pantene; A&P 930; royalty 410 | V-sec |
+| RSPL Ltd (Ghadi) | FY25 | 4,543 | 594 (13.1%) | 240 | Ghadi 55–60% of revenue; soda ash | V |
+| RSPL Ltd | FY24 | 5,793 | 1,114 (19.2%) | 598 | — | V-P1/V |
+| Jyothy Labs (Fabric + Home) | FY26 | 2,624 | segment result 414 (15.8%) | — | member | V |
+| GCPL standalone Home Care | Q2 FY27 | 1,329 (quarter) | n.d. | — | HI, air care, Fab, Spic/Rizz | V |
+| Nirma Ltd (consolidated) | FY25 | 12,231 | n.d. | (2,310) | soda ash, LAB, detergents, pharma; consumer business being demerged | V |
+| Tamilnadu Petroproducts (LAB supplier) | Q1 FY27 | 784 (quarter) | 124.8 (15.9%) | 77.8 | LAB / caustic / PO | V |
+
+**D4. Upstream vs downstream margin, Q1 FY26 → Q1 FY27 (%) [V company releases]**
+
+| | Q1 FY26 | Q1 FY27 | Change |
+|---|---|---|---|
+| Tamilnadu Petroproducts EBITDA margin (LAB maker) | 11.2 | 15.9 | +4.7 pts |
+| Jyothy EBITDA margin (LABSA user) | 16.5 | 8.4 | −8.1 pts |
+| HUL Home Care segment margin | ~19 (FY26 19.1) | 17 | ~−2 pts |
+| GCPL standalone EBITDA margin (Q2) | ~22 | 21.0 | ~−1 pt |
+
+**D5. Home-care growth, latest quarter (value %) [V unless tagged]**
+- HUL HC Q2 FY27: USG 22.
+- GCPL standalone HC Q2 FY27: +19.
+- P&G F&HC global Q1 FY27: organic +4.8.
+- Unilever HC Q3 2026: USG 9.1.
+- Jyothy Q1 FY27: Fabric +14.1, Home −9.0 (ex-Pril +2.4).
+- Bizom GT retail Q2 FY27 (all FMCG, value): +8.6 (rural +10.6, urban +5.8) [V-sec, sahi.com 5-Oct-2026; Bizom is value-only, GT sell-through].
+
+**D6. Jyothy FY25 → FY26 segment margins (segment profit ÷ revenue, %) [V AR note 30]**
+
+| Segment | FY25 | FY26 | Change |
+|---|---|---|---|
+| Fabric | 23.7 | 19.9 | −3.8 pts |
+| Dishwash | 18.9 | 15.7 | −3.2 pts |
+| HI | −12.4 | −2.4 | +10.0 pts |
+| Personal Care | 11.6 | 7.9 | −3.7 pts |
+| Others | 2.9 | −0.2 | −3.1 pts |
+| Total | 17.3 | 14.9 | −2.4 pts |
+
+**D7. Jyothy revenue mix, Q4 FY26 (% of quarter revenue) [V Q4 PPT pie]**
+Main wash 36 · post wash 9 · dishwash 31 · HI 10 (seasonal peak) · Personal Care 10 · Others 4.
+
+**D8. Distribution reach comparison (outlets)**
+
+| Company | Direct reach | Total reach | Tag |
+|---|---|---|---|
+| HUL | 9 mn+ (direct and indirect) | — | V-P1 |
+| Jyothy | 1.4 mn | 4 mn | V |
+| RSPL | — | 2.8–3.0 mn (via 3,700 stockists/distributors) | V CRISIL |
+
+**D9. Economy-detergent distress timeline [V CRISIL]**
+- RSPL: FY24 revenue −14% (product issues) → FY25 −21.6%, EBITDA margin 13.1% → outlook Negative (23-Sep-2025).
+- Nirma: demerger of consumer and chemicals into Ocular (15-Apr-2026) → SVM Chapter 11 (15-Jun-2026) → Watch Developing (24-Jun-2026).
+
+---
+
+## 4.4 Gap log (each §H item and each brief item: filled / still open)
+
+| # | Gap (Part 1 §H / brief) | Status | What was found / tried |
+|---|---|---|---|
+| H1 | Total market size and category splits | **Partly filled** | Whitener re-based to ~₹300–350 Cr [E from V]. Jyothy main wash ≈ ₹1.0–1.1k Cr a year (Q4 36% × ₹717 Cr × 4) [E from V] confirms Part 1's estimate. P&G Home Products (₹9.1k Cr incl. non-fabric) and RSPL (₹4.5k Cr) anchor the fabric pool, and the ₹45–52k Cr fabric estimate survives. **No industry-body total exists; the ₹75–85k Cr headline stays [E].** Tried: searches for NIQ category values; nothing free. |
+| H2 | Brand shares (Vim, Surf/Rin/Wheel, Tide/Ariel, Ghadi, GK/HIT/All Out, Maxo) | **Still open** | Company decks give ranks only (Jyothy: Ujala #1 whitener, Exo #2 bar, #2 dishwash by value, Maxo #2 coil by volume; HUL "market leadership"; GCPL "share gains across HI formats"; Dabur Odonil +131 bp). Ghadi's share of RSPL revenue is 55–60%, not of the market. **Do not print Vim/HUL/GCPL % shares except as [K] ranges.** Finshots' "~30% of dishwash" stays invalid. |
+| H3 | Unlisted financials | **Mostly filled** | RSPL FY25 [V CRISIL]; Nirma FY25 + 2026 restructuring [V CRISIL]; P&G Home Products FY25 [V-sec PTI]. **Reckitt India still open** (MCA/Tofler paywalled; EMIS shows only +6.68% growth). |
+| H4 | LAB/LABSA and soda ash price series | **Still open (proxy added)** | No free ₹/kg monthly series. Third-party price pages conflict ($1.54–1.70/kg vs $2,805/t). Proxy: TPL Q1 FY27 EBITDA margin 15.9% vs 11.2% (D4) [V]. Soda ash: see the sibling dossier [V-sib]. RSPL cites "softening realisations in soda ash" in FY25 [V]. |
+| H5 | NIQ Jul–Sep 2026 | **Still open** | Not published or not findable as of 3-Nov. Substitute: **Bizom Q2 FY27 GT value +8.6% (rural +10.6%, urban +5.8%)** [V-sec]. Note Bizom tracks value, not volume, and only general trade. |
+| H6 | IMD end-of-season monsoon | **Filled** | IMD Salient Features: 87% of LPA, regional detail (D1) [V]. |
+| H7 | GST classification of detergents, bars, laundry soap, HI | **Filled** | Gazette Notification 9/2025-CT(R) entries (D2) [V]; 2017 history [V PIB]. |
+| H8 | HUL Q2 FY27 Home Care segment | **Filled (₹ EBIT approximate)** | ₹6,878 Cr, 16% margin [V]. Exact ₹ segment result is not in the presentation; ~₹1,100 Cr [E]. The results PDF on BSE could not be located (the BSE API returns 403 to non-browser clients). |
+| H9 | Pril/Fa revenue | **Still undisclosed; estimate tightened** | Not in the AR or decks. ₹200–270 Cr a year holds only if Apr–May 2026 sales ran at ~45–75% of normal (S24). |
+| H10 | Main wash vs post wash | **Filled (Q4 FY26)** | 36% / 9% of Q4 revenue [V]. |
+| H11 | Global segment margins | **Filled for Unilever and P&G [V]**; Henkel [V-sec]; Reckitt, Church & Dwight, Clorox [V-snip] | SEC EDGAR refuses generic user-agents (it requires a contact e-mail, which the rules forbid), so the 10-K/8-K pages could not be read directly. |
+| H12 | Jyothy ROE | **Filled** | 21.0% / 22.5% ex-goodwill (FY26) [V]. |
+| H13 | Dabur and Patanjali home-care revenue | **Still open** | Dabur growth rates only [V-sec]. Patanjali: nothing. |
+| H14 | Quick-commerce share | **Still open** | No company discloses it. Jyothy: e-com + QC +25–30% (growth only). AR: QC TAM US$57 bn by 2030 (industry estimate). |
+| H15 | A&P conflict (PPT vs call) | **Resolved** | PPT 7.8% is arithmetically correct; the call transcript's 10.8% is wrong. |
+| H16 | Exit-date wording | **Resolved** | AR: "beyond May 31, 2026" [V]. |
+| B1 | Jyothy FY26 AR findings | **Filled** | §4.2.1(e) |
+| B2 | Jyothy latest concall digest | **Filled** | §4.2.1(a) |
+| B3 | HUL and GCPL digests | **Filled** | §4.2.2, §4.2.3 |
+| B4 | HICA/EY primary report | **Still secondary** | BusinessToday confirms the report (24-Apr-2026), the 18% → 5% ask and EY's Bipin Sapra, but no ₹ market size. The ₹8,138 Cr figure remains The Week [V-sec]. |
+| B5 | DGCIS trade data, HS 3402 / 3808 | **Not attempted to completion** | TradeStat is a form-driven site; it was skipped for budget. Exports are immaterial to the listed players (Jyothy exports to 19 countries but does not disclose the value). |
+| B6 | CIB&RC on illegal HI | **Still open** | Nothing new beyond Part 1's state-level enforcement snippets. |
+| B7 | Henkel litigation forum and status | **Still open** | No court or arbitral forum is disclosed in the AR or calls ("before the court"). Aggregator pages are unreliable (AI-generated). Watch the 4-Nov call. |
+| B8 | Jyothy Q2 FY27 | **Not yet released** | Board 4-Nov-2026. |
+
+---
+
+## 4.5 New insights the first pass missed
+
+1. **The economy end of laundry is in turmoil, and that explains the "volume boom" in branded powders and bars.**
+   - RSPL (Ghadi) lost 21.6% of revenue in FY25 after a product recall and revamp. Its margin fell from 19.2% to 13.1%, CRISIL moved it to Negative outlook, and it still had no liquid detergent.
+   - Nirma is demerging its consumer and chemicals undertakings into a private vehicle, Ocular, while its US soda-ash arm sits in Chapter 11.
+   - Over the same quarters, HUL reported bars and powders "sustained their step-up", and Jyothy's Fabric Care posted +17.8% volume (Q4 FY26) and +10% (Q1 FY27), with powders and bars at double digits.
+   - **Part of the branded volume growth is share taken from a wounded economy leader, not category growth.** Expect RSPL's recovery (CRISIL expects 5–8% growth from FY27) to cap this tailwind.
+2. **Value moved upstream in 2026.** The domestic LAB maker TPL's EBITDA margin rose from 11.2% to 15.9% in the same quarter Jyothy's fell from 16.5% to 8.4%. Nirma, which owns both LAB and soda ash, sits on both sides of that spread. For a formulator, "brand" did not protect against a supplier squeeze in a shortage. This is the cleanest data point for the "commodity or brand?" debate the CMD fought on the call.
+3. **Jyothy's dishwash margin halved before the war.** The dishwash segment margin went 20.2% → 17.2% → 14.5% → 10.2% through FY26, all before LABSA spiked. The AR admits "calibrated MRP adjustments to ensure price parity". The 2026 cost shock landed on a category already in a price war with HUL Vim, and now GCPL (Spic, Rizz) is entering too. **This, more than Pril, is why the Home Care segment earned 2.9% in Q1 FY27.**
+4. **The leader is buying volume with margin.** HUL Home Care: margin 19.1% (FY26) → 17% (Q1 FY27) → 16% (Q2 FY27) while USG went 4% → 14% → 22%, with explicit "market development" and "calibrated pricing" in liquids. When the leader runs a share strategy, a price-follower's H2 margin recovery depends on HUL's pricing as much as on crude. **Jyothy's "H2 substantially better" guidance needs that caveat.**
+5. **The South got the worst of the 2026 monsoon.** South Peninsula rainfall was 76% of LPA, the 4th lowest since 1901, against 87% all-India. Jyothy is South-skewed: Ujala Detergent is the largest brand by volume in Kerala, and Keerthy Suresh fronts the southern Exo campaign. Jyothy said "rural resilient" in Q1 (Apr–Jun), before most of the shortfall (August 84%, September 92%) was known. **Q3–Q4 FY27 rural demand in the South is a specific risk.**
+6. **GST 2.0 was a portfolio-mix gift, not a category gift.** The Gazette confirms every home-care line at 18%; only toilet soap, toothpaste, shampoo and hair oil went to 5%. Jyothy's stated diversification into Personal Care (Margo) is therefore also a tax-advantaged move. Separately, the 13-point HI-vs-agarbatti tax gap is now documented from the primary text.
+7. **Governance and capital allocation into the buyback.**
+   - The promoter side received ~63% of the ₹128.5 Cr FY26 dividend.
+   - CMD pay rose ~59% (commission ₹5.1 Cr vs ₹0.6 Cr) in a year PAT fell 10%.
+   - New family trusts (Apr-2025) are part of succession planning.
+   - A buyback (4-Nov) under the post-Oct-2024 deemed-dividend tax rule is a tax-neutral alternative to a special dividend for the family, but it removes ~₹160–400 Cr of the M&A war-chest that management said it was "aggressively" deploying.
+   - The writer should frame the buyback as a signal that no large deal is imminent [E; verify on 4-Nov].
+8. **Royalty arithmetic reframes the Pril loss.** Jyothy paid Henkel only ₹4.6 Cr a year, while P&G Home Products pays its parent ₹410 Cr. The licence was extraordinarily cheap, so losing it costs the franchise (shelf, liquid consumers), not a fee. The saved royalty is irrelevant to margins (CFO: "a small amount").
+
+### New primer issues (append to primer-issues.md)
+
+- **jyothy-labs.html — dishwash economics.** Add the FY26 dishwash segment margin slide (20.2% → 10.2% through FY26) and the AR's "calibrated MRP adjustments to ensure price parity". The primer's dishwash "fortress" framing is contradicted by Jyothy's own segment data, in addition to the #2 rank already flagged in 3.4.
+- **jyothy-labs.html — FY25/FY26 segment profit.** Use AR note 30: Fabric 23.7% → 19.9%; Dish 18.9% → 15.7%; HI −₹24.7 Cr → −₹4.6 Cr; PC 11.6% → 7.9%.
+- **jyothy-labs.html — ROE.** If the primer quotes ROE, use 21.0% FY26 (22.5% ex-goodwill), down from 32.4% in FY24.
+- **jyothy-labs.html — governance.** Mention the CMD's 130× median pay ratio (+59% in FY26), the M.P. Ramachandran Family Trusts (Apr-2025), no subsidiaries after the Bangladesh JV sale (Sep-2025), and the Punjab warehouse fire (29-Apr-2026; insured, immaterial).
+- **jyothy-labs.html — rivals.** RSPL's FY25 revenue is ₹4,543 Cr (not ~₹5.8k Cr). It is under a negative outlook after a Ghadi recall, has 28–30 lakh outlets and no liquids. Nirma's consumer business is being demerged into Ocular.
+- **hindustan-unilever.html — Home Care quarterly.** Add Q1 FY27 ₹6,554 Cr / 17% / USG 14% and Q2 FY27 ₹6,878 Cr / 16% / USG 22%. EBITDA margin 22.6% (company basis), guidance 22–24%.
+- **godrej-consumer.html — Home Care.** Add the Godrej Rizz (liquid dishwash) and Spic (pan-India Q1) entry into dishwash, which directly competes with Jyothy's Exo. Add HI share gains despite a weak monsoon. FY27 guidance held: HSD UVG standalone; double-digit consolidated revenue and EBITDA.
+- **dabur-india.html — home care.** Odonil +131 bp air-freshener share (Q4 FY26); home care >24% in Q4 FY26, mid-single digit in Q1 FY27. The neem-trademark interim order against Dabur (Bombay HC, Sep-2026) needs verification before use.
+- **General FMCG primers.** Replace "monsoon ~−12.6% (secondary)" with IMD: 87% of LPA; South Peninsula 76%.
+
+---
+
+## 4.6 Notes for the writer on Q2 FY27 (4-Nov-2026)
+
+When Jyothy reports, check:
+1. Gross margin vs the 38.5% floor (management: Q2 margin "not materially lower" than Q1).
+2. Ex-Pril/Fa growth vs the double-digit FY27 ambition.
+3. Home Care segment margin vs 2.9%.
+4. Buyback size, price, route and promoter participation.
+5. Any Henkel litigation update.
+6. Exo Liquid scale.
+7. Maxo sticks distribution.
+
+If results land before the writer starts, the 8-quarter table in §4.2.1(d) should roll forward by one quarter. Drop Q2 FY25 and add Q2 FY27.
+
+---
+
+## 4.7 Source list for Part 4 (fetched 3-Nov-2026 unless noted)
+
+- **Jyothy Labs (BSE):**
+  - Q1 FY27 PPT https://www.bseindia.com/xml-data/corpfiling/AttachHis/c8a7ab1e-70f8-49b8-887a-36c1f90e04ae.pdf
+  - Q1 FY27 transcript https://www.bseindia.com/xml-data/corpfiling/AttachLive/5bddef2a-6524-417c-bdfd-dc778621844b.pdf
+  - Q4 FY26 PPT https://www.bseindia.com/xml-data/corpfiling/AttachHis/23156056-a0e9-4196-a6ca-c1716010b130.pdf
+  - Q4 FY26 transcript https://www.bseindia.com/xml-data/corpfiling/AttachHis/6308b046-c4b4-4f24-8913-34bf6f36c3a8.pdf
+  - Annual Report 2025-26 https://www.bseindia.com/xml-data/corpfiling/AttachHis/7e8d4d84-a599-4d8a-a743-77b419d32aaa.pdf
+  - Screener https://www.screener.in/company/JYOTHYLAB/
+- **HUL:**
+  - SQ'26 PPT https://www.bseindia.com/xml-data/corpfiling/AttachHis/aecfd799-4d6c-49d4-9d7b-221d87d1352d.pdf
+  - JQ'26 PPT https://www.hul.co.in/files/hul-jq-26-results-presentation.pdf
+- **GCPL:**
+  - Press release https://www.bseindia.com/xml-data/corpfiling/AttachHis/4abd5223-47e2-4829-86e7-c83d60bac79c.pdf
+  - Presentation https://www.bseindia.com/xml-data/corpfiling/AttachHis/8bf1e6fa-d1b4-422f-bf06-7cdd37877e69.pdf
+- **IMD:** https://mausam.imd.gov.in/Forecast/marquee_data/Salient_Features_SW_MONSOON%20_2026_30_sep.pdf
+- **GST:**
+  - Notification 9/2025-CT(R) Gazette text (third-party copy) https://a2ztaxcorp.net/wp-content/uploads/2025/09/CBIC-N-No.-9-2025-Central-Tax-Rate.pdf
+  - 23rd Council PIB https://gstcouncil.gov.in/sites/default/files/2024-10/2._23rd_gst_press_information_bureau.pdf
+- **CRISIL:**
+  - RSPL https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/RSPLLIMITED_September%2023_%202025_RR_379103.html
+  - Nirma https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/NirmaLimited_June%2024_%202026_RR_398823.html
+- **Tamilnadu Petroproducts:** https://www.tnpetro.com/wp-content/uploads/2026/08/Press-release-Q1-FY-2026-27.pdf
+- **P&G Home Products FY25 (PTI):** https://www.theweek.in/wire-updates/business/2025/12/30/dcm12-biz-results-pandg-home.html
+- **Bizom Q2 FY27:** https://www.sahi.com/news/india-fmcg-value-growth-hits-six-quarter-high-of-8-6-in-q2fy27-on-rural-surge
+- **Unilever:**
+  - FY2025 https://www.unilever.com/files/ir-q4-2025-full-announcement.pdf
+  - Q3 2026 https://www.unilever.com/files/unilever-q3-2026-results-key-highlights.pdf
+- **P&G Q1 FY27:** https://s204.q4cdn.com/332108499/files/content_files/FY2627-Q1-JAS-Press-Release-Final.pdf
+- **Henkel Q3 2025 (EQS via gettex):** https://www.gettex.de/en/news-overview/newsdetail/eqs-news-higher-organic-sales-growth-in-q3-positive-volume-development-in-both-business-units/
+- **EY–HICA (confirmation only):** https://www.businesstoday.in/personal-finance/tax/story/gst-on-household-insecticides-new-report-calls-for-5-rate-to-prevent-vector-borne-diseases-527322-2026-04-24
+- **Snippets only (not fetched):** Church & Dwight Q3-26 8-K; Clorox FY27 guidance; Reckitt Q3-26; Dabur Q4 FY26/Q1 FY27 home care; legalsuvidha (neem trademark).
+
+*End of Part 4.*
