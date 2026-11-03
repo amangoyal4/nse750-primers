@@ -2059,6 +2059,176 @@
         "KPI masterclass"
       ],
       "published": "2026-10-25"
+    },
+    {
+      "name": "Ferro Alloys",
+      "slug": "ferro-alloys",
+      "file": "ferro-alloys.html",
+      "sector": "Ferro Alloys",
+      "subsector": "Ferro Alloys",
+      "companies": 2,
+      "accent": "#7D5A50",
+      "hook": "Ore, power and a Zambian power plant: why India's ferrochrome margins are set by South African electricity and Chinese stainless mills, why captive chrome ore and captive power are the only moat, and why Nava's profits come mostly from a coal-fired plant in Zambia, not its furnaces.",
+      "tags": [
+        "Ore, power and the cost curve",
+        "South Africa and the ferrochrome cycle",
+        "Maamba: a Zambian power utility",
+        "KPI masterclass"
+      ],
+      "published": "2026-11-01"
+    },
+    {
+      "name": "Animal Feed & Aquaculture",
+      "slug": "animal-feed",
+      "file": "animal-feed.html",
+      "sector": "FMCG",
+      "subsector": "Animal Feed",
+      "companies": 2,
+      "accent": "#2F7F7F",
+      "hook": "A protein spread, taxed in Washington: how feed mills earn a few thousand rupees a tonne, why Avanti sells half of India's shrimp feed yet lost half its margin to the 2026 fishmeal shock, how four US duties reach an Andhra pond, and why Godrej Agrovet now earns more from oil palm than feed.",
+      "tags": [
+        "US shrimp duty stack",
+        "The 2026 fishmeal shock",
+        "Godrej Agrovet's reset",
+        "Feed KPI masterclass"
+      ],
+      "published": "2026-11-01"
+    },
+    {
+      "name": "Mattresses & Home Furnishing",
+      "slug": "home-furnishing",
+      "file": "home-furnishing.html",
+      "sector": "FMCG",
+      "subsector": "Furniture, Home Furnishing",
+      "companies": 2,
+      "accent": "#A55A87",
+      "hook": "Petrochemicals sold as a good night's sleep: how TDI and polyol prices set mattress margins, why buyers are moving from cotton to branded foam, Sheela Foam's dealer-and-Kurlon model against Wakefit's own stores, and what Wakefit's cash and tax-flattered profit mean for its valuation.",
+      "tags": [
+        "TDI & polyol margin chemistry",
+        "Dealers vs D2C stores",
+        "Kurlon and the 15% promise",
+        "Wakefit after the IPO"
+      ],
+      "published": "2026-11-03"
+    },
+    {
+      "name": "Medical Devices & Consumables",
+      "slug": "medical-devices",
+      "file": "medical-devices.html",
+      "sector": "Healthcare",
+      "subsector": "Medical Equipment & Supplies",
+      "companies": 2,
+      "accent": "#2D78B4",
+      "hook": "Approved plastic, exported latex, a valuation chasm: how India imports its machines but exports its tubes, why a cannula and a female condom both earn 58–73% gross margins, how price caps, licences, EU rules and US tariffs shape the field, and why the market pays 46× for Poly Medicure and 318× for Cupid.",
+      "tags": [
+        "Polymed 2.0 and the ROCE invoice",
+        "Condoms and the donor shock",
+        "Cupid's consumer pivot",
+        "Device KPI masterclass"
+      ],
+      "published": "2026-11-03"
+    },
+    {
+      "name": "CPaaS & Enterprise Messaging",
+      "slug": "cpaas",
+      "file": "cpaas.html",
+      "sector": "IT",
+      "subsector": "IT Enabled Services",
+      "companies": 2,
+      "accent": "#875AC3",
+      "hook": "A thin toll on every message: how Tanla and Route Mobile earn a few paise on each OTP, alert and WhatsApp message, why telcos, Meta and Google keep about ₹75 of every ₹100 billed, how TRAI's rulebook is both moat and tax, and why two firms on the same pipe are diverging.",
+      "tags": [
+        "Two landlords",
+        "The regulator's rail",
+        "Same pipe, different fates",
+        "The vendor-advance problem"
+      ],
+      "published": "2026-11-03"
+    },
+    {
+      "name": "Music Labels",
+      "slug": "music-labels",
+      "file": "music-labels.html",
+      "sector": "Media & Entertainment",
+      "subsector": "Music & Content Licensing",
+      "companies": 2,
+      "accent": "#D23C96",
+      "hook": "A century of songs behind a paywall: how India's two listed labels, Saregama and Tips, turn a vast catalogue into royalties, why only 14.4 mn Indians pay for music, how capitalising vs expensing content distorts their margins, and whether ₹399 Cr a year of new-song buying earns its 45× multiple.",
+      "tags": [
+        "The great Indian paywall",
+        "Two ways to count a song",
+        "Buying tomorrow's catalogue",
+        "Shorts, Reels and AI"
+      ],
+      "published": "2026-11-03"
+    },
+    {
+      "name": "Aluminium",
+      "slug": "aluminium",
+      "file": "aluminium.html",
+      "sector": "Non - Ferrous Metals",
+      "subsector": "Aluminium",
+      "companies": 2,
+      "accent": "#5A7186",
+      "hook": "Low-cost metal at a price nobody controls: how Hindalco and NALCO turn bauxite, coal and power into metal priced on the LME, why integration sets the cost curve, how Novelis earns a conversion spread, and what China's cap, the Gulf shock and CBAM mean for Indian smelters.",
+      "tags": [
+        "Cost curve & integration",
+        "Novelis",
+        "China cap & Gulf shock",
+        "Carbon & CBAM"
+      ],
+      "published": "2026-11-03"
+    },
+    {
+      "name": "Lubricants",
+      "slug": "lubricants",
+      "file": "lubricants.html",
+      "sector": "Automobile & Ancillaries",
+      "subsector": "Lubricants",
+      "companies": 1,
+      "accent": "#00843D",
+      "hook": "A brand business on an oil price: how India's lubricant market grows slowly in litres and fast in rupees, why the 2026 base-oil shock cut Castrol's margin from 26% to 15% in one quarter, what electric scooters do to engine oil, and what the Stonepeak open offer means for minorities.",
+      "tags": [
+        "2026 base-oil shock",
+        "KPI masterclass",
+        "BP to Stonepeak open offer",
+        "EVs and the engine-oil pool"
+      ],
+      "published": "2026-11-03"
+    },
+    {
+      "name": "Airlines",
+      "slug": "airline",
+      "file": "airline.html",
+      "sector": "Aviation",
+      "subsector": "Airline",
+      "companies": 1,
+      "accent": "#2D0FD2",
+      "hook": "A duopoly flying into a cost storm: how IndiGo and the Air India group came to fly nine in ten domestic passengers, why record 2026 fares still produced losses as ATF, the rupee and dollar leases bit, and what the Dec-2025 crew meltdown, P&W groundings and the international pivot mean.",
+      "tags": [
+        "2026 fuel shock",
+        "Forex and lease maze",
+        "December 2025 meltdown",
+        "International pivot"
+      ],
+      "published": "2026-11-03"
+    },
+    {
+      "name": "Ceramic Tiles",
+      "slug": "ceramic-tiles",
+      "file": "ceramic-tiles.html",
+      "sector": "Construction Materials",
+      "subsector": "Ceramics",
+      "companies": 1,
+      "accent": "#C46A2E",
+      "hook": "The gas shock that favoured brands: how Morbi's ~800 kilns set India's tile cost curve, why the 2026 gas spike and collapsing exports handed share to branded makers, the KPIs that show who is really winning, and how Kajaria reads against Somany, Simpolo, Varmora and global leaders.",
+      "tags": [
+        "2026 gas shock & Morbi cost curve",
+        "Export collapse & trade remedies",
+        "Own vs outsourced manufacturing",
+        "KPI masterclass"
+      ],
+      "published": "2026-11-03"
     }
   ],
   "universe": [
@@ -2120,7 +2290,7 @@
       "sector": "Automobile & Ancillaries",
       "sub": "Lubricants",
       "companies": 1,
-      "report": null
+      "report": "lubricants.html"
     },
     {
       "sector": "Automobile & Ancillaries",
@@ -2132,7 +2302,7 @@
       "sector": "Aviation",
       "sub": "Airline",
       "companies": 1,
-      "report": null
+      "report": "airline.html"
     },
     {
       "sector": "Bank",
@@ -2294,7 +2464,7 @@
       "sector": "Construction Materials",
       "sub": "Ceramics",
       "companies": 1,
-      "report": null
+      "report": "ceramic-tiles.html"
     },
     {
       "sector": "Construction Materials",
@@ -2360,7 +2530,7 @@
       "sector": "Ferro Alloys",
       "sub": "Ferro Alloys",
       "companies": 2,
-      "report": null
+      "report": "ferro-alloys.html"
     },
     {
       "sector": "Finance",
@@ -2462,7 +2632,7 @@
       "sector": "FMCG",
       "sub": "Animal Feed",
       "companies": 2,
-      "report": null
+      "report": "animal-feed.html"
     },
     {
       "sector": "FMCG",
@@ -2474,7 +2644,7 @@
       "sector": "FMCG",
       "sub": "Furniture, Home Furnishing",
       "companies": 2,
-      "report": null
+      "report": "home-furnishing.html"
     },
     {
       "sector": "FMCG",
@@ -2576,7 +2746,7 @@
       "sector": "Healthcare",
       "sub": "Medical Equipment & Supplies",
       "companies": 2,
-      "report": null
+      "report": "medical-devices.html"
     },
     {
       "sector": "Hospitality",
@@ -2690,7 +2860,7 @@
       "sector": "IT",
       "sub": "IT Enabled Services",
       "companies": 2,
-      "report": null
+      "report": "cpaas.html"
     },
     {
       "sector": "IT",
@@ -2732,7 +2902,7 @@
       "sector": "Media & Entertainment",
       "sub": "Music & Content Licensing",
       "companies": 2,
-      "report": null
+      "report": "music-labels.html"
     },
     {
       "sector": "Media & Entertainment",
@@ -2774,7 +2944,7 @@
       "sector": "Non - Ferrous Metals",
       "sub": "Aluminium",
       "companies": 2,
-      "report": null
+      "report": "aluminium.html"
     },
     {
       "sector": "Non - Ferrous Metals",
