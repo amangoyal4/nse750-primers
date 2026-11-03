@@ -984,3 +984,701 @@ Screener pages pulled **3-Nov-2026 ~13:16 IST (intraday prices)**. Cera on the *
 - [V-sib] `ceramic-tiles-industry.md` (1-Nov-2026): Kajaria/Kerovit, Somany bathware, GEL Morbi gas prices, macro/tariff context.
 
 *End of dossier.*
+
+---
+
+# PART 4 — Deep-research supplement (3-Nov-2026)
+
+Second, primary-source pass run on 3-Nov-2026 (Tuesday, ~13:30–16:00 IST). It adds to Parts 1–3 and does not rewrite them. Where Part 4 conflicts with Parts 1–3, **Part 4 wins** (see the 4.0 Supersedes table).
+
+**Documents fetched and read this session (all free, no logins):**
+- **Cera Annual Report 2025-26** (BSE, filed with the AGM notice; financial statements signed 8-May-2026): directors' report, MD&A, manufacturing KPI pages (pp. 68–69), notes 29 (revenue), 30 (other income), 37 (other expenses), 40 (related parties), 47 (commitments/contingents), 48 (LLP divestment), 55 (exceptional item), 56 (gross revenue/GST), key ratios.
+- **Cera Q1 FY27 call transcript** (call 8-Aug-2026; filed 12-Aug-2026) and **Q4 FY26 call transcript** (call 9-May-2026), both read in full.
+- **Screener.in** standalone Cera page, pulled ~13:35 IST: 12-year P&L, balance sheet, cash flow, ratios, 13 quarters, shareholding and the document list. Plus Hindware (consolidated), Somany and Kajaria document lists.
+- **CareEdge rationale on Cera** (7-Sep-2026), re-fetched to check figures.
+- **Hindware Home Innovation:** Q4 FY26 call transcript (call 20-May-2026; filed 26-May-2026); **Annual Report 2025-26** (revenue note 36, segment revenue, contingents note 50, related parties); **CareEdge rationale of 8-Apr-2026** (downgrade).
+- **Somany Ceramics Annual Report 2025-26** (capacity page, BRSR turnover split, MD&A market size). **Kajaria Q4 FY26 investor presentation** (Kerovit capacity and utilisation) and **Kajaria Q2 FY27 call transcript** (filed 29-Oct-2026).
+- **Ministry of Commerce TradeStat (Export-Import Data Bank)**: HS 6910 and HS 848180, imports and exports, FY24–FY26, ₹ Cr and US$ mn, country-wise. Queried live through the public form.
+- **Global peers:** Geberit Annual Report 2025 (net sales and results pages); Masco Q4/FY2025 earnings release (PDF).
+- **Business Today on Jaquar** (2-Sep-2026), re-fetched to check the ₹8,703 Cr figure.
+- **Search-level only ([V-snip]):** TOTO and LIXIL FY Mar-26 results; ANAROCK Q3 2026; GEL Morbi gas price (2-Sep-2026); US Section 232 April-2026 proclamation; GST/customs aggregators for HS 6910; BIS/QCO consultancy pages.
+
+**Status checks (3-Nov-2026, ~15:30 IST):**
+- **Cera Q2 FY27 is NOT out.** Screener's latest Cera filings are the 22-Oct board intimation (board 4-Nov) and the call intimation (call 5-Nov).
+- **Hindware Q2 FY27 is NOT out.** No board date had been filed. The latest filing is the 16-Oct NCLT-sanction disclosure; there is still no record date or listing date.
+- **Somany:** board 4-Nov-2026 (Q2 results and interim dividend; record date 13-Nov-2026).
+- Cera did **not** file a separate Q1 FY27 investor presentation. Screener lists only the transcript and the audio recording for Aug-2026, so the latest deck remains the May-2026 one.
+
+**Tags in Part 4:**
+- **[V]** = read this session in the named primary document: company filing, annual report, transcript, rating rationale, government database or global-peer report. Screener counts as primary for financials.
+- **[V-press]** = read this session in a named press article (not primary).
+- **[V-snip]** = search-result level only.
+- **[E]** = arithmetic or estimate from [V] inputs.
+
+---
+
+## 4.0 Supersedes — corrections to Parts 1–3 (writer: apply these)
+
+| # | Where in Parts 1–3 | Old value / claim | New value | Source (Part 4) |
+|---|---|---|---|---|
+| 1 | §0, §2.1, §5.2, D (stat strip), E7, 2.5, JSON | **Jaquar "FY26 revenue ₹8,703 Cr"** (treated as reported) | **₹8,703 Cr is Jaquar's FY26 *target*.** Business Today: group turnover "Rs 7,548 crore in FY25 and Rs 8,703 crore targeted for FY26"; elsewhere "over Rs 8,500 crore in annual revenue". **Use ₹7,548 Cr (FY25, reported) and "~₹8,500–8,700 Cr FY26 (company target/claim)".** Profit is not disclosed. | [V-press BT 2-Sep-2026, re-fetched] |
+| 2 | §0, §2.1, D (stat strip "₹20,000 Cr organised of ₹40,000–55,000 Cr total") | Total market **₹40,000–55,000 Cr** incl. unorganised | **Total domestic market ≈ ₹20,000–25,000 Cr**: sanitaryware **~₹7,000–8,000 Cr** plus faucets **~₹13,000–14,000 Cr** (Hindware's bathware CEO, 20-May-2026). Somany's AR (Mordor/News18 data) gives SW **US$948.5 mn (FY25)** and faucets **US$1.89 bn (FY26)**, ≈ ₹8,000 + ₹16,500 Cr. Cera's AR: **organised players "nearly 60%"**. So organised ≈ ₹12,000–15,000 Cr. The bottom-up "organised ₹18,000–23,000 Cr" in §2.1 overstates, because Jaquar's group figure includes lighting, water heaters, wellness and exports, and the Kohler/Roca numbers are [E]. **Present ₹20,000–25,000 Cr as the market and ~60% organised as the company view; keep the bottom-up only as a cross-check.** | [V Hindware Q4 FY26 transcript p.10; V Somany AR FY26 MD&A; V Cera AR FY26 MD&A] |
+| 3 | §2.3, §5.3 | Sanitaryware imports "~2–3% of a ₹20,000–28,000 Cr sanitaryware market" | **HS 6910 imports were ₹715 Cr in FY26, ≈ 9–10% of a ₹7,000–8,000 Cr sanitaryware market** (CIF vs ex-factory, so roughly 8–10%) | [V TradeStat; V Hindware call] |
+| 4 | §2.3 table, H6 | HS 6910 imports FY25 ₹615 Cr [V-snip]; FY26 "not fetched" | **FY24 ₹638.44 Cr → FY25 ₹615.26 Cr (−3.6%) → FY26 ₹715.25 Cr (+16.3%)**; in US$: FY25 $72.75 mn → FY26 $80.82 mn (+11.1%) | [V TradeStat EIDB] |
+| 5 | §2.3 | China share of 6910 imports "~70–85% [E]"; China mirror $100.8 mn (2024) | **China ₹470.05 Cr (FY24, 74%) → ₹426.16 Cr (FY25, 69%) → ₹528.34 Cr (FY26, 74%)**; $59.66 mn FY26. The Comtrade mirror gap remains (China-reported ~$100 mn vs India-reported ~$50–60 mn). | [V TradeStat] |
+| 6 | §2.3 | India sanitaryware exports "₹3,375 Cr ($395 mn) in 2023" | **HS 6910 exports: FY24 ₹1,336.07 Cr → FY25 ₹1,388.92 Cr → FY26 ₹1,570.59 Cr (+13.1%)**. India is a **net exporter of ~₹855 Cr** (FY26). The ₹3,375 Cr figure probably includes tiles or other ceramics; drop it. | [V TradeStat] |
+| 7 | trap 6, §4.3, §2.1 volumes, §3.3, H2, H18 | Primer "~36 lakh SW pieces"; dossier "~2.8–3.4 mn pieces [E]"; SW volumes "not disclosed" | **Cera made 18.73 lakh sanitaryware pieces in FY26 (21 lakh in FY25) at 81% utilisation (86%)** → in-house capacity **≈ 23 lakh pieces** [E] ≈ 33,750 t ÷ ~14.6 kg per piece. The primer's 36 lakh is ~55% too high. | [V Cera AR FY26 pp. 68–69] |
+| 8 | §4.3, 2.1(c), F | FY26 SW utilisation "70–80% (CRISIL)"; faucets "~full" | **AR: SW 81% (FY25 86%); faucets 97% (FY25 88%)** for FY26 | [V Cera AR] |
+| 9 | trap 6, §4.3, JSON | Faucet capacity 48 lakh p.a. | **Two company numbers:** CareEdge/calls **48 lakh p.a. (4 lakh/month)**; Directors' Report "**completed expansion to operate at the total capacity of 5.2 Million Pcs per annum**". FY26 production **46.56 lakh pieces** (42 lakh FY25). Target **5 lakh/month (60 lakh) by FY27-end**. Use 48 lakh as nameplate and note 52 lakh as the debottlenecked run-rate. | [V Cera AR; V CARE] |
+| 10 | §9.2 table, H15, 2.1(b) | Dec-25 quarter other income **−₹7 Cr**, "cause not identified" | **Screener folds exceptional items into "other income".** Q3 FY26 carried a **~₹18 Cr provision for gratuity and leave under the new Labour Codes (effective 21-Nov-2025)**. Q4 wrote back **₹10 Cr** as an exceptional item. The FY26 net **exceptional item is −₹7.81 Cr**. Reported other income FY26 = **₹52.86 Cr**; screener's ₹45 Cr = 52.86 − 7.81. Underlying Q3 other income ≈ ₹11 Cr [E]; Q3 PAT ex-provision ≈ ₹37–38 Cr [E]. | [V AR note 55 & directors' report; V Q4 call] |
+| 11 | trap 2, trap 9, §2.7(2), H13, C.5 | CareEdge TOI ₹2,036 Cr "a third basis — unexplained"; CARE PBILDT ₹255 Cr | **CARE TOI = revenue from operations ₹2,050.12 Cr minus "credit balances written back" ₹13.51 Cr = ₹2,036.6 Cr.** CARE PBILDT ₹255 Cr = screener OP ₹269 Cr minus the same ₹13.5 Cr. FY25: ₹1,915.25 − ₹34.15 Cr write-backs = ₹1,881 Cr (CARE ₹1,880 Cr); PBILDT ₹293 − 34 = ₹258–259 Cr (CARE ₹258 Cr). **Read: Cera's "core" margin fell only from 13.7% to 12.55% (−1.15 pp), not 15.3% → 13.1% (−2.2 pp); about half of the screener margin decline is the smaller write-back.** | [V AR note 29; V CARE] |
+| 12 | §4.1, §9.1, B4, C.1, F | A&P "~₹49 Cr FY26 (2.4%)" (implicitly rising) | **Publicity & advertisement ₹49.44 Cr FY26 vs ₹54.33 Cr FY25 (−9%).** A&P *fell* in FY26 while the brands were launched. Separately, **sales promotion ₹122.02 Cr (₹114.37 Cr)** and **freight ₹122.33 Cr (6.0% of revenue)**. The FY27 budget of ₹85 Cr is therefore +72% on FY26 and +56% on FY25. | [V AR note 37] |
+| 13 | §2.2, B3, §3.1, §3.2, §6 | Hindware bathware EBITDA **₹166 Cr (10.9%) FY26; ₹147 Cr (11%) FY25** | Those figures include other income. **Management ex-OI: ₹157 Cr (10.3%) FY26 vs ₹121 Cr (8.8%) FY25; PBT ₹48 Cr (3.2%) vs −₹1 Cr; Q4 FY26 ₹38 Cr (9.5%).** **Compare ex-OI 10.3% with Cera's ex-OI 13.1%.** | [V Hindware Q4 FY26 transcript p.3] |
+| 14 | §4.3, 2.2 | Hindware utilisation SW ~90%, FW ~85% (Q1 FY27) | Keep for Q1 FY27; **FY26 full year: SW ~82%, faucets 89%** | [V Hindware Q4 call] |
+| 15 | 2.2, §3.1 | Hindware ratings not stated | **CareEdge downgraded HHIL to CARE BBB+ / CARE A2 on 8-Apr-2026, still on Rating Watch with Developing Implications** (₹159 Cr LT, ₹110 Cr ST), citing lower profits, higher debt and FY27 repayments. CARE also calls Hindware **"the second-largest player in the faucet segment"**. | [V CARE 8-Apr-2026] |
+| 16 | §2.1, §3.1, §3.2, 2.3, JSON | Somany bathware FY26 **~₹280 Cr [E]** | **~₹317 Cr**: "Trading of Sanitaryware & Bath Fittings" = **12.02% of standalone turnover** (₹2,640.30 Cr) in the BRSR. Capacity: **SW 0.48 mn pcs (Somany Sanitary Ware Pvt Ltd, 51%), bath fittings 1.3 mn pcs (100% subsidiary)** | [V Somany AR FY26 BRSR & p.12] |
+| 17 | 2.4, §4.3 | Kerovit SW utilisation 54%/42%; Q2 FY27 ₹123.6 Cr (+21%) | **Q4 FY26: KSPL 7.5 lakh pcs at 70%, KGPL 4.5 lakh pcs at 59%, faucets 1.6 mn at 89%.** Q2 FY27 bathware **₹124 Cr vs ₹102 Cr (+22%)** per the CFO's opening remarks (an analyst said 21%). Management: bathware margin "used to be earlier 14%, 15%… very low" because of the new plant; expected to "nearly match" tile margins from FY28. | [V Kajaria Q4 FY26 deck; V Q2 FY27 transcript] |
+| 18 | §10, 2.5, JSON | Masco plumbing "~$5.2 bn; ~17.6% adj [check]" | **Plumbing Products 2025: $4,992 mn (+3%); operating margin 17.9% reported / 18.1% adjusted; EBITDA $1,014 mn (20.3%).** Group $7,562 mn (−3%), adjusted op margin 16.8%; 2026 adjusted EPS guide $4.10–4.30 | [V Masco FY2025 release] |
+| 19 | §10, 2.5, H12 | Geberit EBITDA margin "slightly below 29.5%" (guided) | **2025: EBITDA CHF 931 mn, 29.4% margin (29.6% in 2024); net income CHF 598 mn (18.9%); EPS CHF 18.15; FCF CHF 659 mn (20.8%)**; one-off cost of closing a German ceramics plant | [V Geberit AR 2025] |
+| 20 | §10, 2.5 | TOTO "~¥700 bn; op margin ~6–8% [K]" | **FY Mar-26: net sales ¥737.4 bn (+1.8%); operating income ¥53.8 bn (7.3%); FY Mar-27 guide ¥785 bn / ¥60 bn** | [V-snip quartr/Reuters table] |
+| 21 | §10, 2.5 | LIXIL "~¥1.5 tn [K]" | **FY Mar-26 revenue ¥1,510.7 bn; core earnings ¥38.5 bn (~2.5%)** | [V-snip] |
+| 22 | §5.3, §7.3, H11 | HS 6910 BCD "~20% + 10% SWS [K]" | Tariff aggregators (citing Finance Acts 2025/2026) show **BCD 10% + 10% SWS + IGST 18%** on 6910.10/6910.90. Not confirmed at CBIC; mark [V-snip] and **drop "20%"** | [V-snip eximpe/eximguru] |
+| 23 | trap 12, §9.1, B4, H14, 2.7(4) | Senator stores 40 (Q4) vs 35 (Q1) | **A third version is in the AR:** "21 new Senator showrooms were introduced [FY26], with plans to… add 35 more showrooms in the ensuing financial year". CERA Luxe: **200+ exclusive showrooms launched in FY26, +75 planned**; **414 new stores** launched in FY26; **84 primary brand stores added → >500**. Write: "~35–40 Senator outlets at FY26-end; target 50–60 by FY27-end (company figures vary)". | [V AR p.94; V calls] |
+| 24 | 2.1(a) | ROCE 19% (screener) | Company-reported **ROCE 17.8% (FY25 21.4%)** on capital employed ₹1,592 Cr; **ROE 14.47%**; OPM per AR ratio table 13.82% (16.43%); current ratio 4.26; D/E 0.03; **long-term debt ₹36.79 Cr** | [V AR MD&A] |
+| 25 | trap 12, 2.1(c) | "7,000+ dealers and 29,000+ retailers" | AR: "**over 7,000 distributors and dealers (authorized stockists) and over 29,000 retailers**"; 15 zonal sales and service offices; 1,313 employees (31-Mar-2026); 73,000+ registered plumbers (23,000 added in FY26); 11,000+ masons | [V AR] |
+| 26 | §0 Hindware price hikes | "faucet prices +~20% over 12 months" | Keep. Add CareEdge: Hindware took **~15–17% in faucets and 5–6% in sanitaryware in H2 FY26**, plus further hikes in Apr–May 2026 (management) | [V CARE 8-Apr; V call] |
+| 27 | trap 12 / D | "Industry price hikes 10–12% SW, 16–18% FW" sourced only to Cera | Keep, but label it **"Cera management's read of the industry"**; Hindware's documented H2 FY26 SW hike (5–6%) was smaller | [V] |
+| 28 | §7.2, H7 | QCO "drafted (2023); enforcement unverified" | Still **draft**: consultancy tables list only a "Draft Order" dated **15-Feb-2023**, with implementation dates "–"; the BIS compulsory-certification page fetched today does **not** list IS 2556/IS 774. **Sanitaryware is NOT under a QCO as of 3-Nov-2026 [V-snip negative]**; tiles' IS 15622 is handled separately (sibling dossier) | [V-snip Aleph; BIS page fetched] |
+| 29 | 2.1(a) "Company-reported EBITDA incl. OI" | FY26 ₹322 Cr | Confirmed: **₹322.04 Cr** = OP ₹269.18 + OI ₹52.86 (directors' report). MD&A's "EBITDA margin 15.3% (17.9%)" uses this incl.-OI basis | [V AR] |
+| 30 | §2.1 "Cera ~1,830 ex-tiles" | built on CARE ₹2,036 Cr × mix | On the AR basis (₹2,050 Cr × 48/41/1%): **SW ~₹984 Cr, FW ~₹840 Cr, wellness ~₹21 Cr → bathware ~₹1,845 Cr; tiles ~₹205 Cr** [E] | [V AR mix] |
+
+## 4.1 Verification table — 40 figures the writer will use
+
+"Agrees?": ✔ = matches Parts 1–3; ✘ = superseded (see 4.0); ~ = nuance or conflict. "Status" says how the figure was checked this session.
+
+| # | Figure | Value | Primary source (URL in 4.6) | Status | Agrees? |
+|---|---|---|---|---|---|
+| 1 | Cera FY26 revenue from operations | **₹2,050.12 Cr (+7.0%)**; gross incl. GST ₹2,411.87 Cr | Cera AR FY26 P&L, note 56; screener | [V] two sources | ✔ |
+| 2 | Cera FY26 EBITDA ex-OI | **₹269.2 Cr (13.1%)**; incl. OI ₹322.04 Cr | AR directors' report; screener | [V] two | ✔ |
+| 3 | Cera FY26 PAT / EPS | **₹204.19 Cr (−17.2%) / ₹158.31** | AR P&L; screener (₹158.32) | [V] two | ✔ |
+| 4 | Cera FY26 "core" margin (CARE basis) | **PBILDT ₹255 Cr, 12.55% on TOI ₹2,036 Cr** (FY25 ₹258 Cr, 13.7%) = ex credit-balance write-backs | CARE 7-Sep-2026; AR note 29 | [V] two (reconciled) | ~ (newly explained) |
+| 5 | Cera net worth (Mar-26) | **₹1,472.34 Cr** | AR MD&A; CARE; screener | [V] three | ✔ |
+| 6 | Cera cash & equivalents / debt | **₹853 Cr (31-Mar-26); ₹943 Cr (30-Jun-26)**; borrowings ₹47 Cr (screener), long-term debt ₹36.79 Cr (AR) | Q4 & Q1 transcripts; CARE; AR | [V] three | ✔ |
+| 7 | Cera m-cap / P/E (3-Nov, 13:35 IST) | **₹5,867 Cr at ₹4,549; P/E 28.4; P/B ~4.0; yield 1.66%** (52-wk ₹6,740/₹4,398) | screener | [V] | ✔ (Part 2 had ₹5,853 Cr at 13:16) |
+| 8 | Cera Q1 FY27 revenue | **₹486 Cr, +19.5%** (new net-of-turnover-discount basis; Q1 FY26 restated to ₹407 Cr) | Q1 transcript; screener | [V] two | ✔ |
+| 9 | Cera Q1 FY27 EBITDA ex-OI | **₹49.2 Cr, 10.1%** (vs ₹53.1 Cr, 13.1%); "underlying" ~14.5% after +4.35 pp of one-offs | Q1 transcript | [V] | ✔ |
+| 10 | Cera FY27 guidance | **Revenue +18–20%; EBITDA 13.5–14%** (≈14.4% on the old basis); employee cost ~₹300 Cr; capex ~₹43 Cr | Q1 transcript (reaffirmed); Q4 transcript (set; Q4 said "14–15%" if the trend held) | [V] two | ✔ |
+| 11 | Cera revenue mix FY26 | **SW 48 / FW 41 / tiles 10 / wellness 1** (FY24 52/36/10/2; FY25 49/39/10/2) | AR MD&A p.25; CARE | [V] two | ✔ |
+| 12 | Cera FY26 segment growth | **SW +5.4%; FW +13.7%** | AR MD&A | [V] | ✔ |
+| 13 | Cera SW capacity | **33,750 MTPA**; in-house **18.73 lakh pcs produced FY26 at 81%** → ~23 lakh pcs capacity [E] | CARE; AR pp. 68–69 | [V] two | ✘ (primer 36 lakh) |
+| 14 | Cera faucet capacity | **48 lakh pcs p.a. (CARE, calls) / "5.2 mn pcs p.a." (directors' report)**; output 46.56 lakh FY26; 97% utilisation; → 5 lakh/month by Q4 FY27 | CARE; AR; Q4 call | [V] — internal conflict | ~ |
+| 15 | Cera outsourcing | **SW 60% / FW 46% (Q4 FY26)**; AR-derived FY26: in-house revenue SW ₹398 Cr (~40% of ~₹984 Cr), FW ₹438 Cr (~52% of ~₹840 Cr) → **~59% of company revenue outsourced** | Q4 call; AR; CARE ("~59%") | [V] three | ✔ |
+| 16 | Brass procurement price | **₹665 (Dec-25) → 747 → 758 → ~758 → 800 → 860 → 880 → ~₹900/kg (Jul-26)**; further hike considered at ₹950–1,000 | Q1 transcript | [V] | ✔ |
+| 17 | Cera gas cost | **₹33.17/m³ (Q1 FY26) → ₹35.55 (Q4 FY26; vs ₹36.03 in Q4 FY25) → ₹48.43 (Q1 FY27)**; GAIL 69% / Sabarmati 31%; 3.3% of revenue | Q1 & Q4 transcripts | [V] | ✔ |
+| 18 | Cera price hikes | **SW 4% + FW 11% (1-Mar); surcharge SW 10% / FW 5% (Apr); replaced by SW 8% / FW 5% (May) → cumulative ~12% SW / ~16% FW** | Q4 & Q1 transcripts | [V] | ✔ |
+| 19 | Industry price hikes | "most players… 16–18% faucets, 10–12% sanitaryware" (Cera); Hindware ~15–17% faucets / 5–6% SW in H2 FY26 (CARE) + Apr–May hikes | Cera Q4 call; CARE on HHIL | [V] two (differ for SW) | ~ |
+| 20 | Cera gross margin | **46% (Q1 FY27)** vs "typical" ~51%; back to 51% "from Q3" if brass and gas hold | Q1 transcript | [V] | ✔ |
+| 21 | Cera project share | ~30% "a couple of years back" → 35–36% (FY25) → **39% (FY26/Q4)** → **43% (Q1 FY27)**; steady state "60/40" | Q4 & Q1 calls; CARE | [V] two | ✔ |
+| 22 | Senator outlets | **40 operational (Q4 call) → 60 target; "35 → ~50" (Q1 call); AR: 21 new in FY26, +35 in FY27** | calls; AR | [V] — three conflicting company numbers | ~ |
+| 23 | Senator / Polipluz revenue | **₹10.5 Cr / ₹8.5 Cr FY26 → ₹40–45 Cr / ₹30–35 Cr FY27 target**; FY26 losses ~₹7 Cr / ~₹1.5 Cr | Q4 transcript | [V] | ✔ (add losses) |
+| 24 | Cera Style Centres | **1,613 CSCs** (+13 Studios, 272 Galleries, 292 Hubs) | AR p.58; May-26 PPT | [V] two | ✔ |
+| 25 | Cera A&P | **₹49.44 Cr FY26 vs ₹54.33 Cr FY25**; FY27 budget ₹85 Cr | AR note 37; Q1 call | [V] two | ✘ (FY26 was a decline) |
+| 26 | Cera FY26 exceptional item / Dec-qtr OI | **−₹7.81 Cr** (Labour Codes gratuity/leave); screener's Dec-25 OI −₹7 Cr = ~₹11 Cr OI − ~₹18 Cr provision | AR note 55 & DR; Q4 call | [V] | ✘ (H15 closed) |
+| 27 | Cera FY26 revenue, new basis | **~₹1,990–2,000 Cr** [E] (company restated only Q1 & Q4) | Q1 call (2.5–3% haircut) | [E from V] | ✔ (still E) |
+| 28 | Cera dividend | **₹75/share (1,500%) on 1,28,97,541 shares**; payout 47% | AR DR; Q4 call | [V] two | ✔ |
+| 29 | Hindware bathware FY26 | **Revenue ₹1,520 Cr (+10%); EBITDA ex-OI ₹157 Cr (10.3%)**; incl. OI ₹166 Cr (10.9%) | Q4 FY26 transcript; Q1 FY27 deck | [V] two | ~ (basis) |
+| 30 | Hindware FY27 bathware guidance | **+15–20% (SW early teens, faucets 3–4 pp higher); EBITDA +1–2 pp in FY27 and again in FY28 → "teens"** | Q4 FY26 transcript | [V] | ✔ (Part 1 said "mid-teen") |
+| 31 | Indian market size | **SW ~₹7,000–8,000 Cr; faucets ~₹13,000–14,000 Cr** (Hindware); SW $948.5 mn FY25, faucets $1.89 bn FY26 (Somany AR citing Mordor/News18) | Hindware call; Somany AR | [V] two (company statements) | ✘ |
+| 32 | Organised share | **"nearly 60%"** of the sanitaryware industry | Cera AR MD&A | [V] (company claim) | ~ (Part 1: 45–60%) |
+| 33 | Jaquar revenue | **FY25 ₹7,548 Cr (reported); FY26 ₹8,703 Cr *target*; "over ₹8,500 Cr"** | Business Today 2-Sep-2026 | [V-press] | ✘ |
+| 34 | Jaquar bath-fittings share | **"nearly 60%"** (company claim); cross-check: ~₹7,000+ Cr of fittings-led revenue against a ₹13,000–14,000 Cr faucet market ≈ 50–55% [E] | BT; Hindware call | [V-press] + [E] | ✔ (plausible) |
+| 35 | HS 6910 imports | **FY25 ₹615.26 Cr; FY26 ₹715.25 Cr (+16.3%); China ₹528.34 Cr (73.9%)** | TradeStat EIDB | [V] | ✔ FY25 / new FY26 |
+| 36 | HS 6910 exports | **FY26 ₹1,570.59 Cr (+13.1%)**; USA ₹133 Cr (−22.7%); UAE ₹107 Cr; Saudi ₹63 Cr (−14.5%) | TradeStat EIDB | [V] | ✘ (vs ₹3,375 Cr) |
+| 37 | Kerovit (Kajaria bathware) | **FY26 ₹413.6 Cr [V-sib]; Q2 FY27 ₹124 Cr (+22%)**; SW plants 70%/59% (Q4 FY26) | Kajaria Q2 transcript; Q4 deck | [V] (Q2, plants) | ~ |
+| 38 | Somany bathware FY26 | **~₹317 Cr** (12.02% of ₹2,640 Cr standalone); SW 0.48 mn pcs, faucets 1.3 mn pcs | Somany AR FY26 | [V] (derived) | ✘ (was ₹280 Cr [E]) |
+| 39 | Morbi gas (GEL) | **₹79 → ₹90/SCM ex-6% VAT from 2-Sep-2026; ₹82 for sanitaryware/long-term users** | DeshGujarat via search (page blocked); GEL press note (connection reset) | [V-snip] | ✔ (still snip) |
+| 40 | Global peer margins | **Geberit EBITDA 29.4% (CHF 3,163 mn sales); Masco Plumbing op margin 18.1% adj. on $4,992 mn**; TOTO OP 7.3% [V-snip]; Roca EBITDA 13.9% [V-snip] | Geberit AR 2025; Masco release | [V] (Geberit, Masco) | ✘ (refined) |
+
+**Count:** 34 of 40 figures are now [V] from primary documents fetched this session (#1–32, 35–38 excluding #27 [E]; #37 partly [V]; #33 and #34 are [V-press]; #39 is [V-snip]; #40 is [V] for two of the four peers). Strictly, **33 primary [V] + 2 press + 1 E + 1 snip + 3 mixed**, which clears the ≥25 bar.
+
+**Where sources conflict, which wins:**
+- **Market size.** The two listed-company statements (Hindware CEO; Somany AR) agree within ~10% and beat the IMARC/Mordor headline numbers in §2.1. Cera's AR quotes "USD 1,336.95 mn by 2030" for sanitaryware, a third-party projection consistent with ~$1 bn today. Use **₹20,000–25,000 Cr total** with **~60% organised** and say these are company statements, not audited data.
+- **Faucet capacity.** Use 48 lakh (rating agency + management, repeatedly) as nameplate. The AR's 5.2 mn reads as a debottlenecked run-rate (Mar-26 output 4.3 lakh/month ≈ 5.2 mn annualised).
+- **Senator.** No single number. Use "~35–40 outlets" and flag it.
+
+---
+
+## 4.2 Company deep-dives
+
+### 4.2.1 Cera Sanitaryware (CERA · 532443) — member
+
+#### (a) Management-commentary digest (paraphrased; Q1 FY27 call of 8-Aug-2026 unless marked Q4 = call of 9-May-2026)
+
+**Demand and growth**
+- Q1 growth was "predominantly volume-driven" and broad-based: retail kept the recovery that began in Q3 FY26, and projects stayed strong.
+- Growth split:
+  - Sanitaryware +14% = volume 10 + price 2 + mix 2.
+  - Faucets +25% = volume 18 + price 4 + mix 3.
+  - Management sees "a similar pattern in the coming months".
+- Q4 FY26 had volume +12, mix +3–4 and price −3 (discounts); Q4 SW +10.7%, FW +24.3%.
+- **FY27 guidance unchanged at +18–20%** (set at Q4):
+  - SW +12% (volume 7, price 5–6).
+  - FW +18% (volume 10–12, price 8).
+  - Tiles + construction chemicals ~₹250 Cr (+20%+).
+  - Senator + Polipluz ₹70–80 Cr.
+- No FY28 guidance; "we will talk about it… once we start ending the year".
+- Channel mix (Q4): project share rose from ~30% "a couple of years back" to 35% and then ~39–40%. Management expects **60% retail / 40% project to "remain stable"** now that retail is recovering. Q1's 43% was inflated by foreclosing old orders.
+
+**Margins and costs**
+- **Q1 EBITDA 10.1% → "~14.5% underlying".** One-offs:
+  - Long-term wage settlement (LTS) for Sep-25–Mar-26: ₹6.3 Cr / 1.3 pp.
+  - One kiln idle (output 65–70% of normal): ₹3.7 Cr / 0.75 pp.
+  - Foreclosing old-price project orders: ₹4 Cr / 0.8 pp.
+  - Delayed pass-through (dealers' pre-hike order rush shipped at old prices): ~1.5 pp.
+- Q2 will still carry "some impact" from projects. Projects move to new prices "post Q2"; retail did so from July.
+- **FY27 EBITDA 13.5–14% reaffirmed.** On the new revenue basis that equals ~14.4% on the old basis ("14% divided by INR 97").
+- Return to the historical ~16%: no timeline; it depends on demand, efficiency and "competitive intensity".
+- **Gross margin 46% in Q1 is "an aberration"**, mostly faucets, where gross margin was "severely impacted". Expected back to **~51% from Q3** if brass and gas hold.
+- **Brass:** the hike protects Cera up to ~₹900/kg. At **₹950–1,000/kg** management "may have to again think of a further price rise". Each new hike needs ~2–3 months for retail and longer for projects.
+- Q4 framing: brass +29–30% YoY × 60% of faucet cost ≈ +18% on faucet COGS vs +16% price, a 1–2 pp gap to be closed by "discount controls".
+- **FY26's margin fall was mostly trade discounts.** These were "offered to counter the subdued demand" and "kept on increasing"; control started in Q1 FY27 and is "a gradual journey" (Q4).
+- **Wage settlement:**
+  - Workers' union settles every 4 years at +15–20%.
+  - ~₹1 Cr/month extra cost; FY27 P&L impact **₹18.3 Cr** (₹6.3 Cr prior period + ~₹12 Cr current year).
+  - Staff merit increases 10–11%.
+  - Quarterly employee cost ~₹72 Cr ex-LTS; **FY27 employee cost ~₹300 Cr** (FY26 ₹259.4 Cr per AR).
+- **Gas:** ₹48.43/m³ in Q1 (69% GAIL, 31% Sabarmati), 3.3% of revenue. Q4: ₹35.55, 64/36, 2.3%. GAIL supply is at "relatively subsidized rates" (Q4).
+- **A&P ₹85 Cr for FY27** ("not cast in stone"; may rise). Kriti Sanon campaign "Your Moment of Cera"; the dealer-management system (DMS) has been extended to the retailer loyalty programme.
+
+**Supply side and capacity**
+- Both kilns have run since June; sanitaryware utilisation is **~80%**.
+- **Internalisation of high-selling Morbi SKUs** needs only ₹2–3 Cr of casting-line changes. Morbi availability for Q2 and the full year is now "quite comfortable".
+- Long-run make/buy is **~50:50**, with sanitaryware "slightly skewed more towards outsourcing". Cisterns, seat covers, flush mechanisms and polymer/ABS chrome SKUs "will always be outsourced".
+- **Faucet capacity:** the expansion to 5 lakh/month cannot come before Q4 FY27. Cera can run above 100% and buy in, so it sees no availability risk.
+- Q4: capacity went from 3 to 4 lakh/month (brownfield); March output was 4.30 lakh; the further step to 5 lakh needs ₹4–5 Cr.
+- **Greenfield SW plant:**
+  - Originally ~₹130 Cr; ~₹150 Cr for phase 1 now; land already bought for ₹27 Cr.
+  - Decision "by the end of this year" if demand holds; build time **~18 months** (Q1 call; Q4 said 16–18).
+  - So the earliest commissioning is around H2 FY29 [E].
+
+**Brands and people**
+- **Senator** (luxury): FY26 revenue ₹10.5 Cr, loss ~₹7 Cr; store spend ~₹4 Cr; salaries ₹6.5 Cr → ₹8.5 Cr; publicity ₹10–12 Cr in FY27; a project range is coming.
+- **Polipluz** (value): FY26 ₹8.5 Cr, loss ~₹1.5 Cr; salaries ₹3.3 Cr → ₹7 Cr.
+- Break-even after publicity is expected only in **FY28**. Targets are "intact", but no quarterly disclosure; judge them "over a longer horizon".
+- **CBO Ramesh Baliga** (ran Senator and Polipluz) left on 30-Sep-2026. An existing national head takes over; the company stresses "dedicated operating teams".
+- **Cash use** (Q4): dividends (₹75/share) plus the greenfield. No M&A or buy-back signalled (a buy-back was done in FY25: AR FY25 had ₹1.82 Cr of buy-back expenses).
+
+**Top analyst Q&A points**
+- (i) The margin miss despite 19.5% growth (answered by the one-off bridge).
+- (ii) Whether insourcing is a strategy change (no — "continuous process").
+- (iii) Greenfield revival (decision at FY27-end).
+- (iv) Further price hikes if brass goes above ₹950.
+- (v) Faucet expansion timing (Q4).
+- (vi) A&P upside.
+- (vii) Q4: why discounts persist despite the recovery (they are sticky).
+- (viii) Q4: FG inventory **₹303 Cr (Mar-26) vs ₹365 Cr (Dec-25)**, ~₹300 Cr at end-April.
+- (ix) Q4: the ₹18 Cr Labour Code provision and the ₹10 Cr write-back.
+
+#### (b) Concall KPI table (company-reported)
+
+| KPI | Q1 FY26 | Q4 FY26 | Q1 FY27 | FY26 | Source |
+|---|---|---|---|---|---|
+| Revenue (₹ Cr) | 407 (restated) | 644 orig. / 624 restated | **486** | 2,050 (old basis) | calls; screener |
+| Revenue growth YoY | — | +11.4% (orig.) | **+19.5%** | +7.0% | calls |
+| EBITDA ex-OI (₹ Cr, %) | 53.1 (13.1%) | 98 (15.2%) | **49.2 (10.1%)** | 269 (13.1%) | calls; AR |
+| Gross margin | ~51% "typical" | n/d | **46%** | n/d | Q1 call |
+| Mix SW/FW/tiles/wellness | — | 46/43/9/2 | **47/40/11/2** | 48/41/10/1 | calls; AR |
+| Segment growth SW/FW | — | +10.7% / +24.3% | **+14% / +25%** | +5.4% / +13.7% | calls; AR |
+| Utilisation SW / FW | — | 70% / 106% | **61% / 96%** (SW ~80% from June) | **81% / 97%** | calls; AR |
+| Outsourced SW / FW | — | **60% / 46%** | n/d | ~60% / ~48% [E from AR] | Q4 call; AR |
+| Gas ₹/m³; GAIL share; % rev | 33.17; —; — | 35.55; 64%; 2.3% | **48.43; 69%; 3.3%** | — | calls |
+| Brass ₹/kg | — | ~800–850 (May) | ~880 (Jun), ~900 (Jul) | — | calls |
+| Premium / mid / entry | — | 41 / 38 / 21 | **44 / 37 / 19** | — | calls |
+| Tier 1 / 2 / 3 | — | 36 / 24 / 40 | **38 / 24 / 38** | — | calls |
+| Project share | — | 39% | **43%** | 39% | calls; CARE |
+| Inventory / receivable / payable / net WC days | 80 / 38 / 43 / 75 | 71 / 33 / 40 / 64 | **68 / 30 / 48 / 50** | AR inventory turnover 5.12× | calls; AR |
+| Cash & equivalents (₹ Cr) | — | 853 | **943** | 853 | calls |
+| PAT (₹ Cr) / EPS (₹) | 47 / 36.08 | 77 / 59.96 | **45 / 35.15** | 204.2 / 158.31 | calls; AR |
+
+#### (c) Five-year history (screener standalone, pulled 3-Nov-2026 13:35 IST) [V]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 | 5-yr note |
+|---|---|---|---|---|---|---|
+| Sales | 1,442 | 1,803 | 1,871 | 1,915 | **2,050** | CAGR FY21–26 11.3% |
+| Operating profit (ex-OI) | 221 | 293 | 295 | 293 | **269** | peak FY24 |
+| OPM % | 15 | 16 | 16 | 15 | **13** | |
+| Other income (incl. exceptional) | 17 | 25 | 59 | 59 | **45** | FY26 reported OI 52.86 |
+| Depreciation / interest | 30 / 5 | 30 / 5 | 34 / 5 | 39 / 7 | **39 / 6** | |
+| PBT | 203 | 282 | 314 | 306 | **269** | |
+| PAT | 149 | 210 | 239 | 246 | **204** | |
+| EPS (₹) | 114.84 | 161.20 | 183.89 | 191.11 | **158.32** | |
+| ROCE % (screener) | 22 | 26 | 25 | 22 | **19** | company 17.8% FY26 |
+| CFO / FCF | 98 / 85 | 156 / 123 | 228 / 167 | 116 / 89 | **212 / 192** | 5-yr FCF ₹656 Cr |
+| Debtor / inventory / payable days | 42 / 154 / 104 | 38 / 167 / 93 | 39 / 148 / 75 | 51 / 163 / 77 | **49 / 139 / 77** | screener basis |
+| Investments (₹ Cr, Mar) | 567 | 669 | 807 | 702 | **815** | FY25 dip = buy-back |
+| Dividend payout % | 30 | 31 | 33 | 34 | **47** | |
+| *Memo: credit balances written back (in revenue)* | n/a | n/a | n/a | **34.15** | **13.51** | AR note 29 |
+| *Memo: OP ex write-backs (≈ CARE PBILDT)* | — | — | — | **~259 (13.5%)** | **~256 (12.5%)** | [E from V] |
+
+#### (d) Eight-quarter trend (screener standalone) [V]
+
+| Quarter | Sales | OP | OPM | Other inc.* | PBT | PAT | EPS | Note |
+|---|---|---|---|---|---|---|---|---|
+| Sep-24 (Q2 FY25) | 490 | 70 | 14% | 18 | 75 | 68 | 52.79 | tax 10% |
+| Dec-24 (Q3 FY25) | 449 | 59 | 13% | 12 | 60 | 46 | 35.56 | |
+| Mar-25 (Q4 FY25) | 578 | 106 | 18% | 14 | 108 | 86 | 66.35 | |
+| Jun-25 (Q1 FY26) | 407 | 53 | 13% | 19 | 61 | 47 | 36.08 | restated (new basis) |
+| Sep-25 (Q2 FY26) | 488 | 67 | 14% | 17 | 72 | 57 | 43.92 | old basis; LLPs sold 29-Sep |
+| Dec-25 (Q3 FY26) | 499 | 51 | 10% | **−7** | 32 | 24 | 18.35 | old basis; **~₹18 Cr Labour-Code provision inside "other income"** |
+| Mar-26 (Q4 FY26) | 624 | 98 | 16% | 17 | 104 | 77 | 59.97 | restated; incl. ₹10 Cr write-back |
+| Jun-26 (Q1 FY27) | **486** | **49** | **10%** | 21 | 60 | **45** | 35.13 | new basis; LTS ₹6.3 Cr; one kiln |
+
+\*Screener's "other income" includes exceptional items. **Sum of the four FY26 quarters = ₹2,018 Cr ≠ ₹2,050 Cr annual** (mixed bases). TTM to Jun-26: sales ₹2,097 Cr, OP ₹265 Cr, PAT ₹203 Cr.
+
+#### (e) Annual-report findings (Cera AR FY26) [V]
+
+**1. Manufacturing KPI disclosure (new, pp. 68–69) — the first company-disclosed volume data in this dossier.**
+
+| | Sanitaryware FY25 | Sanitaryware FY26 | Faucetware FY25 | Faucetware FY26 |
+|---|---|---|---|---|
+| Pieces produced in-house | 21.0 lakh | **18.73 lakh (−11%)** | 42 lakh | **46.56 lakh (+11%)** |
+| Revenue from in-house manufacture (₹ Cr) | 396 | **398** | 376 | **438 (+16%)** |
+| Share of total manufacturing revenue | 51% | **48%** | 49% | **52%** |
+| Capacity utilisation | 86% | **81%** | 88% | **97%** |
+| Global yield (first-quality) | 82% | **83%** | n/d | n/d |
+| New products manufactured | 42 | **35** | 156 | **271** |
+| Capacity | 33,750 MTPA | 33,750 MTPA | 4 lakh/month | **→ 5 lakh/month by FY27-end** |
+
+What the table implies [E]:
+- **In-house manufacturing ≈ ₹836 Cr = 40.8% of revenue**, so **~59% is traded/outsourced**, consistent with CareEdge.
+- **In-house sanitaryware realisation ≈ ₹2,125 per piece** (₹398 Cr ÷ 18.73 lakh); faucets **≈ ₹940 per piece** (₹438 Cr ÷ 46.56 lakh).
+- **Outsourced sanitaryware revenue ≈ ₹586 Cr** (~₹984 Cr segment − ₹398 Cr). At a similar per-piece realisation that would be **~25–30 lakh bought-in pieces**, so Cera sells roughly **45–50 lakh sanitaryware pieces a year**, of which only ~40% are made at Kadi [E; FLAG — assumes similar realisation].
+- **In-house SW output fell 11% in FY26 while SW revenue grew 5.4%.** Cera leaned *more* on Morbi in FY26 (cheaper while Morbi gas was ₹40-ish), right before the Mar-2026 gas shock reversed the economics. This is why internalisation started in Q4.
+- Yield 83% is in the "good organised plant" band assumed in §1.2.
+
+**2. Revenue and earnings quality.**
+- Note 29: sale of products ₹2,032.0 Cr; services ₹0.84 Cr; other operating revenue ₹17.27 Cr. The latter includes **credit balances written back ₹13.51 Cr (FY25: ₹34.15 Cr)**, insurance claims ₹0.86 Cr and export incentives ₹0.33 Cr.
+- **99.96% of revenue is billed to dealers**; only ₹0.89 Cr is direct-to-consumer. All revenue is recognised at a point in time.
+- Gross revenue incl. GST ₹2,411.9 Cr; GST ₹361.8 Cr.
+- Turnover discounts were still inside expenses in FY26 (the reclassification starts Q1 FY27). They most likely sit in "sales promotion expenses" **₹122.0 Cr (6.0% of revenue)** [E — the AR does not label them].
+- **Other income ₹52.86 Cr** = fair-value gains on investments ₹40.09 Cr (₹52.03 Cr) + interest ₹3.2 Cr + gain on the LLP sale ₹5.54 Cr + LLP profit share ₹1.50 Cr + other. Treasury (₹815 Cr, Level-1 fair-valued mutual funds ₹801 Cr) earns ~5–6% MTM → **₹40–50 Cr p.a., ~15–20% of PBT**.
+- **Cost structure FY26:**
+  - materials consumed ₹266.3 Cr (13.0%);
+  - **purchases of stock-in-trade ₹759.4 Cr (37.0%; +9.3%)**;
+  - inventory change ₹12.6 Cr;
+  - employees ₹259.4 Cr (12.7%; +7.4%);
+  - power & fuel ₹37.2 Cr (1.8%; FY25 ₹39.0 Cr);
+  - freight ₹122.3 Cr (6.0%);
+  - stores/spares/packing ₹68.0 Cr;
+  - publicity ₹49.4 Cr (2.4%);
+  - R&D ₹1.45 Cr; CSR ₹5.17 Cr.
+- **Exceptional −₹7.81 Cr**: incremental past-service gratuity/leave liability under the New Labour Codes (effective 21-Nov-2025); the AR says further impact is possible when the rules are notified.
+
+**3. Related parties (note 40) — clean.**
+- **No royalty or brand fee** (Cera owns the brand).
+- Purchases from the two ex-subsidiary LLPs (Packcart packaging; Race Polymer, plastic/polymer parts) ₹21.2 Cr until 29-Sep-2025 (₹42.9 Cr in FY25). These are now third-party purchases.
+- Rent to promoter company **Madhusudan Industries Ltd ₹1.28 Cr**; contribution to the Madhusudan Gratuity Fund ₹10.33 Cr.
+- **KMP remuneration ₹20.45 Cr (~10% of PAT)**: CMD ₹8.41 Cr, VC & JMD ₹4.57 Cr, ED (Technical) ₹4.88 Cr, CFO ₹1.55 Cr; ESOP cost ₹0.84 Cr.
+- The **Indian Council of Sanitaryware Manufacturers (ICSM)** is listed as a related party "significantly influenced by KMP". Cera's founder plays a role in the industry body.
+
+**4. LLP divestment (note 48).**
+- Cera retired from **Packcart Packaging LLP and Race Polymer Arts LLP (51% each) on 29-Sep-2025** for **₹18.75 Cr** in aggregate (₹11.54 Cr shown as proceeds from the LLPs), booking a **₹5.54 Cr gain**.
+- It has no subsidiaries or associates since, so **no consolidated accounts from FY26**.
+
+**5. Contingent liabilities and commitments (note 47).**
+- **Claims not acknowledged as debts jumped to ₹29.10 Cr (FY25: ₹2.18 Cr)** — new; nature not described in the extract read (FLAG for the writer: small, ~2% of net worth, but a 13× jump).
+- LCs/guarantees ₹7.60 Cr; capital commitments ₹2.14 Cr.
+
+**6. Capital, balance sheet and ratios (MD&A).**
+- Capital employed ₹1,592 Cr (+8.3%); ROCE **17.8%** (21.4%); ROE 14.47% (18.31%); OPM 13.82%; NPM 9.96%.
+- Current ratio 4.26×; D/E 0.03; interest cover 43.8×; inventory turnover 5.12×; receivables turnover 8.90× (9.58×).
+- Long-term debt **₹36.79 Cr**.
+
+**7. Risks named (MD&A):** economic slowdown; environmental regulation; **competition** ("intensifying"); fraud/internal controls; **inflation pass-through**; **gas price** (mitigated by "a weighted average gas cost below the industry benchmark"). Brass is not named as a separate risk, a gap given FY27's experience.
+
+**8. Industry claims in the AR (use with care):**
+- organised players "nearly 60%";
+- sanitaryware market "USD 1,336.95 million by 2030" (third-party);
+- Swachh Bharat ₹7,192 Cr allocation; AMRUT 2.0 583 projects worth ₹66,117 Cr; PMAY ₹78,126 Cr (FY26) and 122 lakh houses sanctioned.
+
+**9. Network and people:**
+- 7,000+ distributors and dealers; 29,000+ retailers in the Superstar programme (₹1,680+ Cr secondary sales tracked; ₹52+ Cr redemptions).
+- 73,000+ plumbers (23,000 added; 4.4 Cr stars issued; 70% redemption); 11,000+ masons.
+- 13 company-owned Style Studios (Jaipur new; Kochi and Hyderabad renovated).
+- 1,313 employees; 15-member DSIR-recognised R&D team.
+
+### 4.2.2 Hindware Home Innovation (HINDWAREAP · 542905) — reference peer
+
+#### (a) Management-commentary digest (Q4 FY26 call, 20-May-2026; no Q1 FY27 call was held — only presentations filed 12-Aug-2026)
+
+**Bathware FY26**
+- Revenue ₹1,520 Cr (+10%); **EBITDA ex-OI ₹157 Cr (10.3%, +160 bp)**; PBT ₹48 Cr (3.2%).
+- Q4 FY26: ₹397 Cr (+10%), EBITDA ₹38 Cr (9.5%). Q4 lost "2–3%" of growth to tile supply failures at fuel-starved partners.
+- Q3 FY26 growth was 14%.
+- **Institutional share 25%**; retail is the core.
+- **Working capital 103 → 89 days**; bathware net bank debt ₹308 → ₹234 Cr.
+- **FY26 utilisation: SW ~82%, faucets 89%.**
+
+**FY27 guidance**
+- **Bathware revenue +15–20%**: sanitaryware "early teens", faucets "3% or 4% higher than that"; value growth slightly ahead of volume (premiumisation + price).
+- **EBITDA margin +1–2 pp in FY27 and another +1–2 pp in FY28 → "we will hit the teens".**
+- Margin drivers: plant efficiency, utilisation, new higher-gross-margin products, premium mix.
+- Consumer appliances also targeted at +15–20%.
+- Pipes: PVC resin went ₹68 → ₹114/kg (Jan–Mar 2026); "positive profitability in Q1" expected.
+
+**Industry statements**
+- **Sanitaryware market ~₹7,000–8,000 Cr; faucets ~₹13,000–14,000 Cr.**
+- "At a national level, there are five or six major players… a large part of the industry is concentrated in the top five or six".
+- Hindware is in the **top three in both** sanitaryware and faucets.
+- FY26 growth of 10% was "higher than the market growth rate", i.e. a share gain.
+
+**Pricing**
+- Hikes in **January and again April–May 2026** in both categories, with no major sales impact ("happened… across different industries").
+- CareEdge quantifies the H2 FY26 round at **15–17% faucets, 5–6% SW**.
+
+**Corporate**
+- Scheme timeline at the time: final order expected "another two to three months", then "a month, month and a half" for listing.
+- Actual: **NCLT sanction 14-Oct-2026**. On that timetable, listing of HHIL Ltd and Hindware Ltd is plausible around **Dec-2026–Jan-2027** [E].
+- Group debt to fall **30–40% in two years** (management).
+
+**Rating (CareEdge, 8-Apr-2026)**
+- Downgraded to **CARE BBB+ / CARE A2 (RWD)**: lower FY25/9M FY26 profits, higher debt from pipes capex (Roorkee plant delayed to Jan-2026), FY27 repayments.
+- Support from the promoter group (₹250 Cr rights issue, Dec-2024).
+- Calls Hindware the **#2 faucet player**. Names CSL (Cera), Roca and Parryware in sanitaryware, and Kohler and Jaquar in faucets.
+- Notes ~650 brand stores and 500+ distributors.
+
+#### (b) Five-year history (screener consolidated, 3-Nov-2026) [V]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Sales | 2,294 | 2,872 | 2,800 | 2,523 | **2,510** |
+| OP (ex-OI) | 176 | 246 | 238 | 143 | **199** |
+| OPM % | 8 | 9 | 8 | 6 | **8** |
+| Other income | 129 | 36 | 37 | 12 | **−19** |
+| Interest / depreciation | 20 / 39 | 77 / 101 | 95 / 123 | 89 / 123 | **70 / 117** |
+| PAT | 202 | 58 | 28 | −68 | **−39** |
+| ROCE % | 22 | 15 | 10 | 4 | **7** |
+| Borrowings (Mar) | 374 | 958 | 1,046 | 889 | **856** |
+| CFO / FCF | 226 / 187 | 221 / 26 | 241 / 59 | 192 / −6 | **258 / 133** |
+
+FY22's PAT includes gains linked to the HSIL building-products transaction (other income ₹129 Cr). Bathware was acquired in FY23, so FY22 is not comparable.
+
+#### (c) Eight-quarter trend (screener consolidated) [V]
+
+| Quarter | Sales | OP | OPM | Other inc. | PBT | PAT |
+|---|---|---|---|---|---|---|
+| Sep-24 | 629.8 | 29.7 | 4.7% | 8.8 | −16.0 | −15.6 |
+| Dec-24 | 594.2 | 29.4 | 4.9% | 7.3 | −16.4 | −17.7 |
+| Mar-25 | 699.0 | 40.9 | 5.9% | −16.2 | −24.8 | −30.8 |
+| Jun-25 | 531.2 | 48.8 | 9.2% | −40.4 | −39.8 | −29.1 |
+| Sep-25 | 676.3 | 56.4 | 8.3% | 4.4 | 14.7 | 5.0 |
+| Dec-25 | 640.1 | 48.2 | 7.5% | 3.3 | 5.9 | 3.6 |
+| Mar-26 | 662.7 | 44.2 | 6.7% | 15.1 | 11.3 | −18.8 |
+| **Jun-26** | **625.3** | **50.1** | **8.0%** | 4.6 | 7.4 | **4.4** |
+
+- Valuation (3-Nov, ~13:35 IST): **m-cap ₹1,380 Cr at ₹165** (52-wk ₹390/₹155); BV ₹88.1; ROCE 7.07%; promoters 52.74%.
+- Q2 FY27 is not announced; statutory deadline 14-Nov-2026.
+
+#### (d) Annual-report findings (Hindware AR FY26, consolidated) [V]
+
+- **Segments:** Building products (bathware + pipes) **₹2,193.4 Cr** (FY25 ₹2,170.7 Cr); consumer products ₹318.1 Cr (₹356.2 Cr).
+- **Trade-discount intensity (note 36), the most useful new industry datum:**
+  - Contract price of goods sold ₹4,348.3 Cr, less **discounts/rebates ₹1,902.1 Cr**, gives recognised revenue ₹2,510.3 Cr.
+  - **Discounts = 43.7% of list/contract value** (FY25: ₹2,030.0 Cr on ₹4,515.5 Cr = 45.0%).
+  - Read: in Indian bathware (and pipes/appliances) the gap between MRP-type list prices and net realisation is ~40–45%. So "price hikes" announced on list prices and "discount control" are two levers of similar size. A 2 pp change in the discount rate moves net realisation by ~3.5% [E].
+  - Cera's Q1 FY27 move of *turnover* discounts into revenue (2.5–3%) is only the scheme slice of a much larger list-to-net gap.
+- **Related parties:** **rent paid to AGI Greenpac ₹21.6 Cr** (ex-HSIL group company; legacy premises) and management-support fees ₹3.05 Cr. Hintastica (water heaters) is now wholly owned. No royalty outflow.
+- **Contingent liabilities:** excise/service/income/sales-tax demands ₹15.4 Cr; GST demands ₹26.7 Cr; claims ₹6.6 Cr. Capital commitments ₹26.8 Cr.
+- **Capacity (AR narrative):** 3.85 mn SW pieces + 3.7 mn faucets; pipes **78,500+ TPA** (incl. Roorkee 12,500 t).
+
+### 4.2.3 Other listed reference peers (short)
+
+**Somany Ceramics (bathware)** [V AR FY26]:
+- Bathware ≈ **₹317 Cr FY26** (12.02% of standalone turnover; booked as *trading*).
+- Own capacity **0.48 mn SW pieces** (Somany Sanitary Ware Pvt Ltd, 51%) and **1.3 mn faucets** (Somany Bath Fittings Pvt Ltd, 100%; profit share ₹1.5 Cr).
+- 533 showrooms; 3,061 active dealers.
+- Q2 FY27 board 4-Nov-2026.
+
+**Kajaria / Kerovit** [V Q4 FY26 deck; V Q2 FY27 transcript]:
+- Kerovit sanitaryware plants at Morbi: KSPL 7.5 lakh pcs (**70%** utilisation, Q4 FY26) and KGPL 4.5 lakh pcs (**59%**; built Mar-2024 for high-end SKUs).
+- Faucets at Gailpur, Rajasthan: 1.6 mn pcs (**89%**).
+- Q2 FY27 bathware **₹124 Cr (+22% from ₹102 Cr)**.
+- Margin "used to be earlier 14%, 15%" and is now "very low" (new-plant under-absorption), expected to "nearly match" tiles from next year.
+- The WestBridge (Aravali) 15% CCPS buy-back for ₹50 Cr was approved on 30-Apr-2026.
+
+### 4.2.4 Unlisted players (press-level only)
+
+| Player | Best available figure (this session) | Status |
+|---|---|---|
+| **Jaquar** | FY25 **₹7,548 Cr** (reported); FY26 ₹8,703 Cr **target**; "over ₹8,500 Cr"; ₹12,000 Cr goal in two years; 52.9 mn fittings / 4.8 mn SW / 28.4 mn lighting; 8 plants (+3); exports ~5%; lighting ~₹700 Cr; **profit not disclosed** | [V-press BT]. No rating rationale found (searches of CRISIL/ICRA/CARE returned none; likely unrated/debt-free) |
+| **Roca Bathroom Products (Parryware)** | ~₹1,600 Cr (CY2019, MD); "~₹2,000 Cr" (undated PTI); target ₹4,000 Cr in four years | [V-snip]; no MCA figure (paid databases only) |
+| **Kohler India** | ~$230 mn local sales FY24 ("regulatory records"; 17% CAGR from 2019); ₹800 Cr investment over 3 FYs (Jan-2026); ₹312 Cr in the previous 5 years | [V-snip] |
+| **Grohe / American Standard (LIXIL India)** | none found | open |
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3.1 Market size — triangulation (replaces §2.1's headline)
+
+| Source (date) | Sanitaryware | Faucets / bath fittings | Total | Basis | Tag |
+|---|---|---|---|---|---|
+| Hindware bathware CEO, Q4 FY26 call (20-May-2026) | **₹7,000–8,000 Cr** | **₹13,000–14,000 Cr** | **₹20,000–22,000 Cr** | "market size", implicitly domestic, branded + unbranded, ex-factory | [V] |
+| Somany AR FY26 MD&A (citing News18/Mordor) | **US$948.5 mn FY25** ≈ ₹8,000 Cr (at FY25 TradeStat-implied ₹84.6/$) | **US$1.89 bn FY26** (US$1.76 bn FY25) ≈ ₹16,700 Cr (at ₹88.5/$) | ≈ ₹24,000–25,000 Cr | third-party | [V] (secondary inside a primary doc) |
+| Cera AR FY26 MD&A | "USD 1,336.95 million by 2030"; organised "nearly 60%" | — | — | third-party projection + company view | [V] |
+| Parts 1–3 bottom-up | organised ₹18,000–23,000 Cr; total ₹40,000–55,000 Cr | | | [E] | **superseded** |
+
+- **Recommended framing:** "India's sanitaryware and faucet market is roughly **₹20,000–25,000 Cr** at manufacturer prices: about **one-third ceramics (~₹7,000–8,000 Cr)** and **two-thirds faucets/fittings (~₹13,000–16,000 Cr)**. Organised brands hold **~60%** (company estimates)" [V/E].
+- **Implied shares [E]:**
+  - Cera ≈ **12–14% of the sanitaryware market** (~₹984 Cr) and **~20–23% of organised sanitaryware**, consistent with Part 1's 20–25%.
+  - Cera ≈ **6% of faucets** (~₹840 Cr).
+  - Hindware bathware (₹1,520 Cr incl. some tiles/wellness) ≈ 7% of the total.
+  - **Jaquar's "nearly 60%" of fittings is arithmetically possible** only if most of its ~₹7,500 Cr India revenue is fittings at a ₹13,000–14,000 Cr market. It implies Jaquar alone ≈ 30–35% of all bathware.
+- **Caveat:** neither source states a methodology. Treat as ±25%.
+
+### 4.3.2 Trade — HS 6910 (ceramic sanitaryware), Ministry of Commerce TradeStat (fetched 3-Nov-2026) [V]
+
+**Imports (₹ Cr)**
+
+| Origin | FY24 | FY25 | FY26 | FY26 YoY | FY26 share |
+|---|---|---|---|---|---|
+| **China** | 470.05 | 426.16 | **528.34** | +24.0% | **73.9%** |
+| Germany | 26.14 | 26.21 | 37.57 | +43.4% | 5.3% |
+| Turkey | n/a | 37.08 | 27.53 | −25.8% | 3.8% |
+| Italy | 26.95 | 31.02 | 25.31 | −18.4% | 3.5% |
+| Thailand | 13.95 | 17.88 | 21.33 | +19.3% | 3.0% |
+| Vietnam | 18.87 | 21.10 | 18.90 | −10.4% | 2.6% |
+| Belgium | n/a | 13.41 | 14.85 | +10.7% | 2.1% |
+| Indonesia | n/a | 14.40 | 8.15 | −43.4% | 1.1% |
+| Japan | n/a | 4.03 | 5.42 | +34.7% | 0.8% |
+| **Total** | **638.44** | **615.26** | **715.25** | **+16.3%** | 100% |
+| Total, US$ mn | n/a | 72.75 | **80.82** | +11.1% | — |
+
+**Exports (₹ Cr)**
+
+| Destination | FY25 | FY26 | YoY |
+|---|---|---|---|
+| **USA** | 172.24 | **133.10** | **−22.7%** (US tariffs) |
+| UAE | 94.95 | 107.20 | +12.9% |
+| Nepal | 92.52 | 102.01 | +10.3% |
+| Japan | 42.24 | 79.73 | +88.8% |
+| Germany | 65.13 | 75.63 | +16.1% |
+| Tanzania | 54.38 | 73.08 | +34.4% |
+| **Saudi Arabia** | 73.67 | **62.98** | **−14.5%** (GCC ADD from 8-Jul-2025) |
+| Senegal | 43.98 | 58.66 | +33.4% |
+| South Africa | 40.51 | 48.42 | +19.5% |
+| Libya | 57.25 | 48.30 | −15.6% |
+| **Total** | **1,388.92** | **1,570.59** | **+13.1%** (FY24: 1,336.07) |
+
+**Reads [E]:**
+- India is a **net exporter of sanitaryware (~₹855 Cr surplus in FY26)**. Exports (~19% of domestic output value) come overwhelmingly from Morbi/Thangadh potteries; Cera exports nothing material.
+- **Imports are ~9–10% of the domestic sanitaryware market**, ~3/4 Chinese, and rose 16% in FY26. Not a flood, but more than Parts 1–3 implied. With no QCO in force (4.3.5), Chinese one-piece and smart WCs face only BCD and IGST.
+- The two trade shocks are visible:
+  - **US −23%**, and that FY26 base already includes the 50% IEEPA months (Aug-2025 to Feb-2026).
+  - **Saudi −15%** after the GCC ADD.
+  - The GCC overall (Saudi + UAE + others) held ~₹205 Cr because UAE grew; diversion to Africa and Japan offset the losses.
+
+**HS 848180 (taps, cocks, valves and similar — broad: includes industrial valves) [V TradeStat; use only as an upper bound for faucet trade]:**
+- Imports FY25 ₹11,843 Cr → **FY26 ₹13,074 Cr** (China ₹2,835 Cr, 40.6 mn units).
+- Exports FY25 ₹11,177 Cr → **FY26 ₹13,894 Cr** (USA ₹2,616 Cr; Saudi ₹1,621 Cr; UAE ₹1,365 Cr).
+- This heading is dominated by industrial valves. **Do not compare it with the ₹13,000–14,000 Cr faucet market.** An 8-digit bath-fittings line is not separable at this level (FLAG).
+
+### 4.3.3 Cera operating datasets (new or replaced)
+
+1. **In-house production (lakh pieces), FY25 → FY26:** SW 21.0 → 18.73; FW 42 → 46.56. Utilisation SW 86 → 81%; FW 88 → 97%. Yield SW 82 → 83% [V AR].
+2. **Manufactured vs traded revenue (₹ Cr), FY26:** in-house SW 398 + FW 438 = 836 (41%); traded/outsourced ~1,214 (59%); purchases of stock-in-trade 759.4 [V AR; E split].
+3. **Margin bridge, screener → CARE basis (₹ Cr):** FY25 OP 293 − write-backs 34.15 = 258.8 (13.7% of 1,881); FY26 269 − 13.51 = 255.5 (12.55% of 2,036.6) [V].
+4. **Below-the-line items FY26 (₹ Cr):** other income 52.86 (MTM 40.09); exceptional −7.81; interest 6.47; depreciation 38.66; tax 64.93 (24.1%) [V AR].
+5. **Selling-cost lines (₹ Cr, FY25 → FY26):** sales promotion 114.4 → 122.0; freight 110.6 → 122.3; publicity 54.3 → 49.4; power & fuel 39.0 → 37.2 [V AR].
+6. **Quarterly gross-margin and EBITDA path:** Q3 FY26 EBITDA 10.2% → Q4 15.2% → Q1 FY27 10.1% (GM 46%) → guided ~51% GM from Q3 FY27 [V calls].
+
+### 4.3.4 Global peers (latest FY) — replaces §10 rows where marked
+
+| Company | FY | Revenue | Profitability | Tag |
+|---|---|---|---|---|
+| **Geberit** | 2025 | **CHF 3,163 mn** (+2.5%; +4.8% LC) | **EBITDA CHF 931 mn, 29.4%**; net CHF 598 mn (18.9%); FCF CHF 659 mn (20.8%); EPS CHF 18.15; German ceramics plant closure | [V AR] |
+| **Masco** | 2025 | **$7,562 mn** (−3%); **Plumbing $4,992 mn (+3%)** | Group adj. op margin 16.8%; **Plumbing 18.1% adj. (17.9% rep.), EBITDA $1,014 mn**; 2026 adj. EPS guide $4.10–4.30; R&R market "roughly flat" in 2026 | [V release] |
+| **TOTO** | FY Mar-26 | **¥737.4 bn** (+1.8%) | OP ¥53.8 bn (**7.3%**); NP ¥40.3 bn; FY Mar-27 guide ¥785 bn / ¥60 bn OP | [V-snip] |
+| **LIXIL** | FY Mar-26 | **¥1,510.7 bn** | core earnings ¥38.5 bn (~2.5%) | [V-snip] |
+| **Roca Group** | 2025 | €1.96 bn | EBITDA €273 mn (13.9%); net €43 mn | [V-snip] (unchanged) |
+| **Cera** | FY26 | ₹2,050 Cr ≈ $232 mn at ₹88.5 | OP 13.1% (CARE basis 12.55%) | [V] |
+
+- **Read:** Cera's margin sits at Roca's level. The ceramic-heavy Japanese majors (TOTO 7%, LIXIL ~2.5%) are below it; the systems/fittings specialists (Geberit 29%, Masco Plumbing 18%) are above. The **mix lesson** for India: faucets and in-wall systems carry the margin, ceramics do not.
+- Global multiples were not fetched (screener-equivalents need paid data) — still [K].
+
+### 4.3.5 Policy and cost facts — status after this pass
+
+| Item | Status (3-Nov-2026) | Tag |
+|---|---|---|
+| **GST on HSN 6910** | **18%**, Notification 9/2025-Central Tax (Rate), Schedule II (aggregator cites sl. no. 240), effective 22-Sep-2025; unchanged from pre-GST-2.0. CBIC PDF could not be fetched (404). | [V-snip ×3] |
+| **GST on 8481 (taps/valves)** | 18% (unchanged) | [V-snip] |
+| **BCD on 6910** | **10% + 10% SWS + 18% IGST** per tariff aggregators reflecting Finance Act 2025/2026 (Part 1's "~20%" is outdated) | [V-snip] |
+| **Sanitaryware QCO** | **Not in force.** Only a **draft** "Ceramic Tiles, Sanitary Wares and Laboratory Wares (QC) Order, 2023" (draft dated 15-Feb-2023); implementation dates blank; BIS compulsory list (fetched) shows no IS 2556/774 entry. **No faucet QCO** (IS 8931 voluntary). | [V-snip; BIS page fetched] |
+| **GCC ADD** | Five years from 8-Jul-2025 on Chinese and Indian ceramic sanitaryware; visible in TradeStat as Saudi exports −14.5% in FY26 | [V-snip ADD; V trade effect] |
+| **US tariffs** | IEEPA struck 20-Feb-2026; Sec 122 10% to 24-Jul-2026; then 10% Sec 301 + MFN. **Sec 232 copper:** the 2-Apr-2026 proclamation (effective 6-Apr) ended the derivatives "inclusions" process and moved duty to full customs value; **brass plumbing goods under HTS 7419.80 shown at 50%**; **8481.80 faucets not confirmed as covered** | [V-sib; V-snip] |
+| **Morbi gas (GEL)** | ₹79 → **₹90/SCM ex-VAT from 2-Sep-2026; ₹82 for sanitaryware/long-term users**; propane expected at ~80% of Morbi's fuel mix in Sep-2026; earlier: Apr-2026 PNG ₹41.5 → ₹73 (BusinessLine via aggregator); Jan-2026 cut of ₹4.5/SCM. GEL's own press notes could not be downloaded (connection reset). | [V-snip] |
+| **Labour Codes** | Effective 21-Nov-2025; rules not fully notified; Cera booked −₹7.81 Cr exceptional (FY26) and ~₹18.3 Cr of FY27 wage-settlement cost | [V AR; V Q1 call] |
+
+### 4.3.6 Housing demand (ANAROCK, top-7 cities) [V-snip]
+
+| Period | Sales (units) | Launches | Unsold inventory | Avg price |
+|---|---|---|---|---|
+| Q3 2025 | 97,080 | 96,690 | ~5.6 lakh [E] | — |
+| Q2 2026 | ~91,000 [E: Q3 is +10% QoQ] | ~1,05,995 | — | — |
+| **Q3 2026** | **~1,00,220 (+3% YoY)** | **~1,14,320 (+18% YoY)** | **~6,30,590 (+12% YoY)** | **₹9,714/sq ft (+7%)** |
+| 2025 full year | ~3.96 lakh (−14%) | — | ~5.77 lakh | — |
+| 2026 completions scheduled | **5.40 lakh** (decade high) | | | |
+
+- PropEquity disagrees on Q3 2026: **sales −6% to ~1.03 lakh**.
+- **Read:** launches are recovering faster than sales, and unsold stock is rising. That supports **completions and fitting-out through 2027–28**; Cera's project channel (40%+) is the near-term beneficiary. It is negative for developer pricing power and therefore for project-tender pricing.
+
+---
+
+## 4.4 Gap log — §H items and §2.7 conflicts
+
+| §H # | Gap | Result | How |
+|---|---|---|---|
+| H1 | Market size | **Filled (company statements):** SW ₹7,000–8,000 Cr, faucets ₹13,000–14,000 Cr; Somany AR $0.95 bn + $1.89 bn; organised ~60% | Hindware Q4 transcript; Somany & Cera ARs |
+| H2 | Volumes in pieces | **Partly filled:** Cera in-house 18.73 lakh SW / 46.56 lakh FW (FY26); Jaquar 4.8 mn / 52.9 mn; Hindware capacity 3.85 / 3.7 mn; Kerovit 1.2 mn / 1.6 mn; Somany 0.48 / 1.3 mn. Industry total pieces still open | ARs; decks |
+| H3 | Company market shares | **Still [E]**, now anchored: Cera ~12–14% of SW value, ~6% of faucets; Hindware "top three in both"; CARE: Hindware #2 in faucets; Jaquar "nearly 60%" (claim) | arithmetic on H1 |
+| H4 | Roca/Kohler/LIXIL India revenue | **Still open** (MCA data only in paid databases; searches returned 2019–FY24 figures) | 2 searches |
+| H5 | Jaquar profit | **Still open**; BT confirms "not disclosed"; no rating rationale found | BT re-fetch; rating search |
+| H6 | HS 6910 / 8481.80 trade | **Filled** for 6910 FY24–FY26 and 848180 FY25–26 (broad heading) | TradeStat |
+| H7 | QCO number/date | **Filled (negative):** still draft (15-Feb-2023), not notified; no faucet QCO | consultancy listings; BIS page |
+| H8 | GST notification | **Partly:** 18% under Notif. 9/2025-CT(Rate) Sch II — aggregator-level; CBIC PDF 404 | 2 searches + 2 fetch attempts |
+| H9 | Morbi SW unit count; Thangadh recovery | **Still open** | — |
+| H10 | Sec 232 on brass faucets | **Partly:** inclusions process ended Apr-2026; brass plumbing (7419.80) at 50%; 8481.80 unconfirmed | search (EY/JDSupra/tariff DB) |
+| H11 | Customs duty | **Partly:** BCD 10% + SWS (aggregators) | search |
+| H12 | Global peers' multiples / Geberit margin | **Margin filled (29.4%)**; Masco filled; TOTO/LIXIL snip; **multiples still [K]** | Geberit AR, Masco release |
+| H13 | FY26 new-basis revenue; CARE ₹2,036 Cr | **CARE basis explained** (revenue − credit balances written back). New-basis FY26 remains [E] ₹1,990–2,000 Cr (Q2/Q3 FY26 not restated publicly) | AR note 29; CARE |
+| H14 | Senator store count | **Not resolvable:** three company versions (40/60; 35/50; AR 21 new + 35) | calls; AR |
+| H15 | Dec-25 other income −₹7 Cr | **Filled:** Labour-Code provision (~₹18 Cr) classed by screener inside OI; FY exceptional −₹7.81 Cr | AR; Q4 call |
+| H16 | Hindware record/listing dates | **Still open** (none filed by 3-Nov); management's May timetable implies listing ~1–1.5 months after the order is effective → ~Dec-2026/Jan-2027 [E] | screener filings; Q4 call |
+| H17 | Somany bathware FY26 | **Filled:** ~₹317 Cr (BRSR 12.02%) | Somany AR |
+| H18 | Primer's 36 lakh pieces; 20,000 touch-points | **Filled:** 18.73 lakh produced at 81% → ~23 lakh capacity; network = 7,000+ distributors/dealers + 29,000+ retailers | Cera AR |
+| §2.7(2–3) | Cera revenue/EBITDA bases | **Reconciled:** ₹2,050.12 (Ind AS revenue) / ₹2,036.6 (CARE, ex write-backs) / ~₹1,995 (new basis, E); EBITDA ₹269 ex-OI / ₹322 incl. OI / ₹255 CARE | AR, CARE |
+| §2.7(6) | Hindware cash | Still not parsed; bathware net bank debt ₹234 Cr (Mar-26) → ₹224 Cr (Jun-26) | call; deck |
+| — | Hindware Q2 FY27 | Not out (deadline 14-Nov-2026) | screener |
+| — | Cera Q2 FY27 | Not out (board 4-Nov; call 5-Nov) | screener |
+| — | LME copper/zinc, Indian brass scrap series | **Still snip** (searches returned other years); Cera's own monthly brass series is the best primary data | 1 search |
+
+---
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### 4.5.1 Insights (expert-level additions)
+
+1. **Half of Cera's "margin collapse" is an accounting tailwind fading, not the business.**
+   - FY25 revenue and EBITDA included **₹34.15 Cr of "credit balances written back"** (dealer credit notes and payables reversed into other operating revenue); FY26 only ₹13.51 Cr.
+   - Strip them out and the core margin fell **13.7% → 12.55% (−1.15 pp)**, not 15.3% → 13.1%. CareEdge already strips them out.
+   - The writer should present FY25 as a flattered base and FY27 guidance (13.5–14%) as a genuine step-up over core FY26.
+2. **Cera made *fewer* toilets in FY26 than in FY25 (−11%) while selling more.**
+   - In-house SW output fell to 18.73 lakh pieces (utilisation 86% → 81%) as cheap Morbi supply substituted for Kadi output.
+   - Then the Mar-2026 gas shock flipped the economics, and Cera is now internalising.
+   - Implication: Cera's make-vs-buy is **opportunistic on relative cost**, so its in-house utilisation (and the greenfield decision) will track the Morbi–Kadi gas spread, not just demand.
+3. **Faucets are now the larger manufacturing business at Cera.**
+   - FY26 in-house faucet revenue ₹438 Cr exceeded in-house sanitaryware ₹398 Cr for the first time (52:48), with 271 new faucet products vs 35 in SW.
+   - Faucets run at 97% and get the capex; sanitaryware has spare capacity. The "sanitaryware company" label is increasingly a misnomer, and brass, not gas, is the main manufacturing cost risk.
+4. **Discounts are the real price variable in Indian bathware.**
+   - Hindware's AR shows **₹1,902 Cr of discounts and rebates on ₹4,348 Cr of contract value (43.7%)**.
+   - Cera's FY26 margin decline was attributed by management mainly to "higher trade discounts".
+   - So a "12% list-price hike" can be worth much less, or more, depending on discount discipline. Q2/Q3 FY27 commentary on discounts matters as much as on brass.
+5. **Imports matter more than the first pass said, and exports are an outlet for the unorganised sector.**
+   - HS 6910 imports ₹715 Cr (+16%, 74% China) ≈ 9–10% of the sanitaryware market, while exports of ₹1,571 Cr make India a net exporter.
+   - The US (−23%) and Saudi (−15%) channels shrank in FY26. Lost export volume from Morbi/Thangadh is a **domestic price-competition risk at the entry end** (Polipluz's target segment) once gas normalises.
+6. **The market is smaller and more concentrated than Parts 1–3 implied.**
+   - At ₹20,000–25,000 Cr with 5–6 national players, Jaquar alone is ~a third of all bathware value and Cera ~8–9%.
+   - Hindware says it gained share growing 10% in FY26. Cera's FY26 SW growth of 5.4% was likely **below market**; its FW growth of 13.7% roughly at market.
+   - Cera's Q1 FY27 acceleration (+14% SW, +25% FW) should be read against Hindware's 15–20% guidance and Kerovit's +22%: **the whole organised pack is growing high-teens in a price-inflated year.**
+7. **Treasury income is a material and volatile part of Cera's earnings.**
+   - MTM gains on ₹800 Cr of Level-1 mutual funds were ₹40 Cr in FY26 (₹52 Cr in FY25), ~15–20% of PBT.
+   - A bond-market drawdown would show up in "other income" exactly as the Dec-25 quarter's provision did on screener. Quarterly PAT comparisons need an ex-OI lens.
+8. **KMP pay is high for the size.** ₹20.45 Cr of KMP remuneration is ~10% of FY26 PAT (CMD ₹8.4 Cr), and the founder-linked Indian Council of Sanitaryware Manufacturers is a related party. Worth one governance line, not a red flag (no royalty; rent to the promoter entity only ₹1.3 Cr).
+
+### 4.5.2 New primer issues (add to primer-issues.md; supplements §3.4)
+
+**primers/cera-sanitaryware.html**
+- **Capacity in pieces:** replace "~36 L sanitaryware pieces" with **33,750 MTPA, of which 18.73 lakh pieces were made in FY26 at 81% utilisation (≈23 lakh-piece capacity)**. Faucets: **48 lakh nameplate (AR: 5.2 mn run-rate), 46.56 lakh made in FY26 at 97%**, going to 60 lakh by FY27-end (AR FY26 pp. 68–69).
+- **Make vs buy, quantified:** in-house manufacturing = ₹836 Cr (41% of revenue): SW ₹398 Cr, FW ₹438 Cr. Faucets overtook sanitaryware as the larger in-house business in FY26 (52:48).
+- **Margin narrative:** add that FY25's 15.3% was flattered by ₹34 Cr of credit-balance write-backs; on CareEdge's basis the FY26 margin was 12.55% vs 13.7%.
+- **A&P:** the primer's "heavier brand-building spend" in FY26 is wrong — **publicity fell to ₹49.4 Cr from ₹54.3 Cr**. The step-up is the FY27 budget of ₹85 Cr.
+- **Senator/Polipluz economics:** FY26 revenue ₹10.5 Cr / ₹8.5 Cr; losses ~₹7 Cr / ~₹1.5 Cr; break-even after publicity not before FY28.
+- **Exceptional item:** FY26 PAT includes a −₹7.81 Cr Labour Code charge. FY27 carries ~₹18 Cr of wage-settlement cost (incl. ₹6.3 Cr one-off in Q1).
+- **Other income composition:** ~₹40 Cr of FY26 other income is MTM on mutual funds. Flag the volatility if the primer cites EBITDA incl. OI (₹322 Cr) or a "15.3%" margin.
+- **Network wording:** "7,000+ distributors and dealers" (not "dealers"); 29,000+ retailers; 73,000+ plumbers; 414 new stores in FY26; 200+ CERA Luxe exclusive showrooms.
+- **Market context:** add the market size (₹20,000–25,000 Cr; SW ₹7,000–8,000 Cr, faucets ₹13,000–14,000 Cr), Cera ≈ 12–14% of sanitaryware and ~6% of faucets [E]; organised ~60% (Cera AR).
+- **Contingent liabilities:** claims not acknowledged rose to ₹29.1 Cr (from ₹2.2 Cr), small but new.
+- **Greenfield:** phase 1 ~₹150 Cr + ₹27 Cr land; decision at FY27-end; ~18-month build → earliest output ~FY29.
+
+**primers/kajaria-ceramics.html** (in addition to §3.4)
+- Kerovit sanitaryware utilisation Q4 FY26: KSPL 70%, KGPL 59%; faucets 89%. Q2 FY27 bathware ₹124 Cr (+22%). Management: bathware margin "very low" vs 14–15% earlier, expected to near tile margins from FY28.
+
+**No Somany primer in the repo (checked 3-Nov-2026)** — for the writer only:
+- Bathware ≈ ₹317 Cr FY26 (12% of standalone turnover, traded); own SW capacity only 0.48 mn pieces (51% JV) and faucets 1.3 mn pieces.
+
+**No Hindware primer in the repo (checked 3-Nov-2026)** — for the writer only:
+- CARE downgrade to BBB+/A2 (RWD) on 8-Apr-2026. Bathware EBITDA ex-OI 10.3% FY26 (not 10.9%). FY27 guidance +15–20% and +1–2 pp margin. NCLT sanction 14-Oct-2026; listing of the two resulting companies expected ~1–1.5 months after the order takes effect.
+
+### 4.5.3 JSON delta (merge into §2.6)
+
+```json
+{
+  "cera_fy26_ar": {
+    "revenue_ops": 2050.12, "revenue_gross_incl_gst": 2411.87, "other_operating_revenue": 17.27,
+    "credit_balances_written_back": 13.51, "credit_balances_written_back_fy25": 34.15,
+    "other_income": 52.86, "fv_gain_investments": 40.09, "exceptional": -7.81,
+    "ebitda_incl_oi": 322.04, "ebitda_ex_oi": 269.18, "pat": 204.19, "eps": 158.31,
+    "purchases_stock_in_trade": 759.41, "materials_consumed": 266.25, "employee": 259.43,
+    "freight": 122.33, "sales_promotion": 122.02, "publicity": 49.44, "publicity_fy25": 54.33, "power_fuel": 37.24,
+    "sw_pcs_produced_lakh": 18.73, "sw_pcs_produced_fy25_lakh": 21.0, "sw_util_pct": 81, "sw_yield_pct": 83,
+    "fw_pcs_produced_lakh": 46.56, "fw_pcs_produced_fy25_lakh": 42.0, "fw_util_pct": 97,
+    "inhouse_mfg_revenue_sw": 398, "inhouse_mfg_revenue_fw": 438,
+    "roce_company_pct": 17.8, "roe_pct": 14.47, "capital_employed": 1592.17, "lt_debt": 36.79,
+    "contingent_claims": 29.10, "kmp_remuneration": 20.45, "llp_sale_consideration": 18.75, "llp_sale_gain": 5.54,
+    "care_toi": 2036, "care_pbildt": 255
+  },
+  "hindware_bathware": {"ebitda_ex_oi_fy26": 157, "ebitda_ex_oi_margin_fy26": 10.3, "ebitda_ex_oi_fy25": 121, "pbt_fy26": 48,
+    "util_fy26": {"sw": 82, "fw": 89}, "guidance_fy27_growth_pct": [15, 20], "care_rating": "BBB+/A2 RWD (2026-04-08)",
+    "discounts_pct_of_contract_value_fy26": 43.7},
+  "market_size_inr_cr": {"sanitaryware": [7000, 8000], "faucets": [13000, 14000], "organised_share_pct": 60},
+  "trade_hs6910_inr_cr": {"imports": {"FY24": 638.44, "FY25": 615.26, "FY26": 715.25}, "imports_china": {"FY24": 470.05, "FY25": 426.16, "FY26": 528.34},
+    "exports": {"FY24": 1336.07, "FY25": 1388.92, "FY26": 1570.59}, "exports_usa": {"FY25": 172.24, "FY26": 133.10}, "exports_saudi": {"FY25": 73.67, "FY26": 62.98}},
+  "somany_bathware_fy26": 317, "kerovit_q2fy27": 124,
+  "jaquar": {"revenue_fy25": 7548, "revenue_fy26_target": 8703},
+  "global": {"geberit_2025": {"sales_chf_mn": 3163, "ebitda_chf_mn": 931, "ebitda_margin_pct": 29.4},
+             "masco_plumbing_2025": {"sales_usd_mn": 4992, "adj_op_margin_pct": 18.1, "ebitda_usd_mn": 1014},
+             "toto_fy_mar26": {"sales_jpy_bn": 737.4, "op_margin_pct": 7.3}, "lixil_fy_mar26": {"revenue_jpy_bn": 1510.7, "core_jpy_bn": 38.5}}
+}
+```
+
+## 4.6 Source URLs for Part 4 (fetched 3-Nov-2026 unless marked)
+
+- Cera Annual Report 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/903e8d5c-0373-4a07-9b1d-13920a29c910.pdf
+- Cera Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae61e19c-7b8a-405e-8efe-047b6af99fbe.pdf ; Q4 FY26 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=991607fa-9014-4a1b-a9ca-72af41740669.pdf
+- Screener Cera standalone: https://www.screener.in/company/CERA/ ; Hindware: https://www.screener.in/company/HINDWAREAP/consolidated/
+- CareEdge on Cera (7-Sep-2026): https://www.careratings.com/upload/CompanyFiles/PR/202609120917_Cera_Sanitaryware_Limited.pdf
+- Hindware Q4 FY26 transcript (call 20-May-2026): https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9fc1865-0fa0-4848-889a-decdbea804dc.pdf
+- Hindware Annual Report 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/cab2dd03-70d1-492f-8b47-d29053d2f648.pdf
+- CareEdge on Hindware (8-Apr-2026): https://www.careratings.com/upload/CompanyFiles/PR/202604160440_Hindware_Home_Innovation_Limited.pdf
+- Somany Annual Report 2025-26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/d8843b21-eb5c-4122-9eb2-b48881701521.pdf
+- Kajaria Q4 FY26 investor presentation: https://www.kajariaceramics.com/storage/pdf/fourth-quarter-25-26.pdf ; Kajaria Q2 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65e31650-b6b7-4010-9aef-daef81b9b48f.pdf
+- TradeStat (EIDB) commodity-wise all-countries import/export forms (HS 6910, 848180; FY2024-25 and FY2025-26): https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_import ; https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_export
+- Geberit AR 2025 (net sales; results): https://reports.geberit.com/annual-report/2025/business-report/business-and-financial-review/financial-year-2025/net-sales.html ; https://reports.geberit.com/annual-report/2025/business-report/business-and-financial-review/financial-year-2025/results.html
+- Masco FY2025 release: https://s21.q4cdn.com/596588259/files/doc_news/Masco-Corporation-Reports-Fourth-Quarter-and-2025-Year-End-Results-2026.pdf
+- Business Today on Jaquar (2-Sep-2026): https://www.businesstoday.in/magazine/deep-dive/story/jaquar-the-unlisted-manufacturing-giant-552780-2026-09-02
+- [V-snip] QCO status: https://alephindia.in/bis-qco-for-vitreous-sanitary-requirements-of-washdown-water-closets.php ; BIS compulsory list: https://www.bis.gov.in/product-certification/products-under-compulsory-certification/
+- [V-snip] GST 6910: https://taxclue.in/hsn-code/6910 ; BCD: https://eximpe.com/hsncode-finder/6910
+- [V-snip] Morbi gas: https://deshgujarat.com/2026/09/03/morbi-ceramic-industry-faces-natural-gas-price-hike-shifts-to-propane/
+- [V-snip] Sec 232 (2-Apr-2026 proclamation): https://taxnews.ey.com/news/2026-0788-us-presidential-proclamation-modifies-section-232-tariffs-on-steel-aluminum-copper-and-their-derivative-products
+- [V-snip] ANAROCK Q3 2026: https://www.businesstoday.in/real-estate/story/housing-sales-in-top-seven-cities-rise-3-percent-on-year-in-q3-mumbai-records-highest-sales-558274-2026-09-29
+- [V-snip] TOTO FY Mar-26: https://quartr.com/events/toto-ltd-5332-q4-2026_FYuFQNBw
+
+*End of Part 4.*
+
+---
+
+## 4.7 Orchestrator re-check of aggregates (3-Nov-2026, Supersedes applied)
+
+- §3.2 whole-company sums re-added from §3.1 rows: revenue 2,050 + 2,510 + 2,790 + 4,830 = **12,180**; OP 269 + 199 + 258 + 869 = **1,595 (13.1%)**; PAT 204 − 39 + 74 + 487 = **726**; ex-Kajaria revenue 7,350, OP 726 (9.9%), PAT 239 — all correct. Q1 FY27 trio 1,861 / 185 / 83 vs 1,542 / 150 / 25 — correct.
+- **Bathware-only basis after Supersedes #13, #16, #30:** Cera ~1,845 [E, AR mix] + Hindware 1,520 + Kerovit 414 + Somany ~317 = **~4,096 Cr**; Cera ≈ **45%** of listed bathware revenue. Hindware bathware EBITDA on the ex-OI basis is **₹157 Cr (10.3%)** — use this, not ₹166 Cr / 10.9%, when comparing with Cera's ex-OI 13.1%.
+- **M-cap date:** use ONE snapshot for Cera throughout the report — screener 3-Nov-2026 intraday **₹5,867 Cr at ₹4,549, P/E 28.4** (§4.1 #7, the later fetch). Net cash ₹806 Cr (Mar-26) → EV ≈ ₹5,061 Cr → EV/FY26 OP ≈ **18.8×**; net cash ≈ **14%** of m-cap.
