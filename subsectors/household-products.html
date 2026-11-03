@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Home Care — Sub-sector Report</title>
+<meta name="description" content="Sub-sector report on Indian home care (fabric care, dishwash, household insecticides, cleaners, air care): the West Asia input shock, the dishwash price war, the Pril/Fa licence exit, HUL trading margin for volume, GST 2.0, the monsoon and the troubles of the economy-detergent makers, with Jyothy Labs as the listed lens.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#6A994E;          /* leaf green */
+    --brand-bright:#5E9A3E;   /* fresh green accent */
+    --gold:#C9A227;           /* soap-yellow accent */
+    --wtg:#386641;            /* deep green */
+    --epc:#A7C957;            /* lime */
+    --om:#3E6E8E;            /* rinse blue */
+    --spec:#8FBF6A;          /* light leaf */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#6A994E,#8FBF6A);}
+  .fill.gold{background:linear-gradient(90deg,#C9A227,#E0BF4F);}
+  .fill.wtg{background:linear-gradient(90deg,#386641,#4F8A5A);}
+  .fill.om{background:linear-gradient(90deg,#3E6E8E,#5B8BAA);}
+  .fill.spec{background:linear-gradient(90deg,#8FBF6A,#A9D184);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:#7FA33A;}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style>
+<body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">FMCG · Home Care</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> How home care makes money</a></li>
+    <li><a href="#p2"><span class="n">02</span> A ₹80,000 crore basket</a></li>
+    <li><a href="#p3"><span class="n">03</span> Demand, monsoon &amp; the volume puzzle</a></li>
+    <li><a href="#p4"><span class="n">04</span> Where ₹100 of revenue goes</a></li>
+    <li><a href="#p5"><span class="n">05</span> Crude in the bottle</a></li>
+    <li><a href="#p6"><span class="n">06</span> One giant, a crowded field</a></li>
+    <li><a href="#p7"><span class="n">07</span> Five business models</a></li>
+    <li><a href="#p8"><span class="n">08</span> The bottom of the ladder</a></li>
+    <li><a href="#p9"><span class="n">09</span> The leader buys volume</a></li>
+    <li><a href="#p10"><span class="n">10</span> Dishwash and the Pril exit</a></li>
+    <li><a href="#p11"><span class="n">11</span> The mosquito economy</a></li>
+    <li><a href="#p12"><span class="n">12</span> GST 2.0 and the rule book</a></li>
+    <li><a href="#p13"><span class="n">13</span> Six decades, seven shocks</a></li>
+    <li><a href="#p14"><span class="n">14</span> Reading the KPIs</a></li>
+    <li><a href="#p15"><span class="n">15</span> The peer table</a></li>
+    <li><a href="#p16"><span class="n">16</span> Who is winning</a></li>
+    <li><a href="#p17"><span class="n">17</span> The listed member</a></li>
+    <li><a href="#p18"><span class="n">18</span> The global lens</a></li>
+    <li><a href="#p19"><span class="n">19</span> Technology &amp; disruption</a></li>
+    <li><a href="#p20"><span class="n">20</span> Bull vs bear</a></li>
+    <li><a href="#p21"><span class="n">21</span> What to watch</a></li>
+    <li><a href="#p22"><span class="n">22</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">FMCG · Home Care</span>
+    <span class="tag gold">1 listed company</span>
+  </div>
+  <h1>Indian home care: <em>crude costs, a price war, a lost licence</em></h1>
+  <p class="dek">A complete guide to the business of keeping Indian homes clean and mosquito-free: detergents, dishwash, household insecticides, cleaners and air care. It explains how a crude-oil shock in 2026 halved a specialist's margin while the market leader chose volume over profit, why the cheapest detergent makers stumbled, how a tax rule hands illegal mosquito sticks a 13-point price edge, and what the only listed pure-play, Jyothy Labs, has to do after losing its Pril and Fa licences.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹2,944 <small>Cr</small></div><div class="l">Jyothy Labs revenue FY26</div></div>
+    <div class="cell"><div class="v">8.4%</div><div class="l">Jyothy EBITDA margin Q1 FY27 (16.5% a year earlier)</div></div>
+    <div class="cell"><div class="v">₹23,672 <small>Cr</small></div><div class="l">HUL Home Care segment revenue FY26</div></div>
+    <div class="cell"><div class="v">₹8,138 <small>Cr</small></div><div class="l">Household-insecticide market 2025 (EY–HICA)</div></div>
+    <div class="cell"><div class="v">₹997 <small>Cr</small></div><div class="l">Jyothy net cash, Mar-2026</div></div>
+    <div class="cell"><div class="v">₹6,897 <small>Cr</small></div><div class="l">Jyothy market cap, 3 Nov 2026</div></div>
+  </div>
+  <p class="prov">Basis: FY26 (year ended 31 Mar 2026) company figures; Jyothy's latest reported quarter is Q1 FY27 (Jun-26, reported 12 Aug 2026); HUL and Godrej Consumer Q2 FY27 (Sep-26) as reported on 28 and 29 Oct 2026; market data as of 3 Nov 2026. Industry data from IMD, the GST Gazette, CRISIL rating rationales, HICA/EY (secondary) and company filings. Estimates are labelled illustrative or indicative.</p>
+</header>
+
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: a brands business with crude oil in every bottle</h2></div>
+<p class="part-sub">Home care looks like a sleepy staple. In 2026 it behaved like a chemicals business, and the smallest branded player took the hardest hit.</p>
+
+<p class="lead">Indian home care is the basket of products a household buys to wash clothes, clean dishes, keep mosquitoes away and keep floors, toilets and air fresh. It is worth roughly ₹75,000–85,000 crore a year at manufacturer prices (an indicative estimate built up category by category; no industry body publishes a total). Almost every household buys it, most buy it every few weeks, and a single company, Hindustan Unilever (HUL), sells more than a quarter of it. HUL's Home Care segment alone booked ₹23,672 crore of revenue in FY26 at a 19.1% segment margin.</p>
+<p>The NSE 750 has only one listed company whose business is mostly this basket: <strong>Jyothy Labs</strong> (JYOTHYLAB), the maker of Ujala, Exo, Henko, Mr. White and Maxo. Fabric care and home care were 89% of its ₹2,944 crore of FY26 revenue. That makes Jyothy the cleanest window on the economics of the category, and this report uses it as the lens. But the report is about the whole sub-sector: the giant diversified companies (HUL, Godrej Consumer, Dabur) that run large home-care divisions, the unlisted economy detergent makers (RSPL with Ghadi, Nirma), the multinational subsidiaries (P&amp;G Home Products, Reckitt) and the upstream chemical makers that sell them their raw materials.</p>
+<p>Seven forces define the sub-sector in late 2026, and the rest of this report is built around them.</p>
+<ul class="clean">
+<li><strong>The West Asia input shock.</strong> The war that began on 28 February 2026 pushed crude above $100 a barrel. LABSA, the active cleaning ingredient in Indian detergents and dishwash bars, rose 60–65% between January and May; plastic packaging rose 50–55% in March and April. Jyothy's gross margin fell from 48.0% to 38.5% and its EBITDA margin from 16.5% to 8.4% between Q1 FY26 and Q1 FY27. Value moved upstream: Tamilnadu Petroproducts, an Indian maker of LAB (the precursor to LABSA), lifted its EBITDA margin from 11.2% to 15.9% in the same quarter.</li>
+<li><strong>A price war in dishwash that started before the war.</strong> Jyothy's dishwash segment margin fell quarter by quarter through FY26, from 20.2% to 17.2% to 14.5% to 10.2%, while crude was still cheap. HUL's Vim leads the category; Godrej Consumer has now entered with Spic and Rizz.</li>
+<li><strong>The Pril and Fa licence exit.</strong> Henkel did not renew Jyothy's 15-year licences for Pril dishwash liquid and Fa deodorants beyond 31 May 2026. Jyothy is in court over the exit terms and is building Exo as its owned dishwash platform. The lost revenue is not disclosed; our indicative back-solve puts it at ₹200–270 crore a year, and that range depends on an assumption about trade wind-down.</li>
+<li><strong>The leader trading margin for volume.</strong> HUL Home Care's underlying sales growth went from 4% in FY26 to 14% in Q1 FY27 and 22% in Q2 FY27, while its segment margin went from 19.1% to 17% to 16%. A price-follower's margin recovery now depends on the leader's pricing as much as on crude.</li>
+<li><strong>GST 2.0's asymmetry.</strong> The September 2025 rate cut took toilet soap, toothpaste and shampoo to 5% but left every home-care line at 18%: detergents, laundry soap, scouring powder, insecticides and air fresheners. Agarbatti also went to 5%, which gives unregistered mosquito incense sticks a 13-point tax edge over legal insecticides.</li>
+<li><strong>Rural demand and a deficient monsoon.</strong> The 2026 monsoon delivered 87% of its long-period average, and only 76% over the South Peninsula, Jyothy's home market. A panel tracker (NIQ, reported second-hand) saw household-and-personal-care volume fall 4.3% in April–June 2026 even as companies reported volume growth.</li>
+<li><strong>The economy-detergent leaders stumbled.</strong> RSPL (Ghadi) lost 21.6% of its revenue in FY25 after a product recall and was put on a Negative outlook by CRISIL. Nirma is carving its consumer and chemical businesses into a private vehicle while its US soda-ash arm sits in Chapter 11. Branded mid-tier players have picked up volume in powders and bars.</li>
+</ul>
+
+<div class="mini-stats">
+  <div class="ms"><div class="msv">−9.5 pts</div><div class="msl">Fall in Jyothy's gross margin, Q1 FY26 to Q1 FY27 (48.0% → 38.5%)</div></div>
+  <div class="ms gold"><div class="msv">USG 22%</div><div class="msl">HUL Home Care underlying sales growth, Q2 FY27, at a 16% segment margin</div></div>
+  <div class="ms red"><div class="msv">18% vs 5%</div><div class="msl">GST on registered insecticides vs agarbatti after GST 2.0</div></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">The 2026 shock in one company's P&amp;L</div>
+  <div class="c-sub">Jyothy Labs, % of revenue, Q1 FY26 (Jun-25) vs Q1 FY27 (Jun-26). Source: company investor presentations. A&amp;P uses the presentation figure (7.8%) for Q1 FY26; the call transcript's "10.8%" does not fit the rupee spend</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Gross margin<small>Q1 FY26</small></div><div class="track"><span class="fill wtg" style="width:96%"></span></div><div class="bval">48.0%</div></div>
+    <div class="bar-row"><div class="blab">Gross margin<small>Q1 FY27</small></div><div class="track"><span class="fill bad" style="width:77%"></span></div><div class="bval">38.5%</div></div>
+    <div class="bar-row"><div class="blab">EBITDA margin<small>Q1 FY26</small></div><div class="track"><span class="fill wtg" style="width:33%"></span></div><div class="bval">16.5%</div></div>
+    <div class="bar-row"><div class="blab">EBITDA margin<small>Q1 FY27</small></div><div class="track"><span class="fill bad" style="width:16.8%"></span></div><div class="bval">8.4%</div></div>
+    <div class="bar-row"><div class="blab">A&amp;P spend<small>Q1 FY26</small></div><div class="track"><span class="fill gold" style="width:15.6%"></span></div><div class="bval">7.8%</div></div>
+    <div class="bar-row"><div class="blab">A&amp;P spend<small>Q1 FY27</small></div><div class="track"><span class="fill gold" style="width:13%"></span></div><div class="bval">6.5%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 50% of revenue. Gross margin lost 9.5 points; Jyothy cut advertising by 1.3 points and still lost 8.1 points of EBITDA margin.</span></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">Who is growing: home-care growth in the latest reported quarter</div>
+  <div class="c-sub">% growth, value unless stated; each bar names its period. HUL: underlying sales growth (USG) of the Home Care segment, Q2 FY27 (Sep-26). GCPL: standalone Home Care, Q2 FY27. Unilever: Home Care USG, Q3 2026. P&amp;G: Fabric &amp; Home Care organic, Jul–Sep 2026. Jyothy: Q1 FY27 (Jun-26). NIQ: household and personal care volume, Apr–Jun 2026, as reported by the Daily Pioneer (secondary)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">HUL Home Care<small>Q2 FY27, USG</small></div><div class="track"><span class="fill brand" style="width:88%"></span></div><div class="bval">+22%</div></div>
+    <div class="bar-row"><div class="blab">GCPL Home Care<small>Q2 FY27, standalone</small></div><div class="track"><span class="fill brand" style="width:76%"></span></div><div class="bval">+19%</div></div>
+    <div class="bar-row"><div class="blab">Unilever Home Care<small>Q3 2026, USG</small></div><div class="track"><span class="fill om" style="width:36.4%"></span></div><div class="bval">+9.1%</div></div>
+    <div class="bar-row"><div class="blab">Jyothy, ex-Pril/Fa<small>Q1 FY27</small></div><div class="track"><span class="fill gold" style="width:32.4%"></span></div><div class="bval">+8.1%</div></div>
+    <div class="bar-row"><div class="blab">P&amp;G Fabric &amp; Home<small>Jul–Sep 2026, organic</small></div><div class="track"><span class="fill om" style="width:19.2%"></span></div><div class="bval">+4.8%</div></div>
+    <div class="bar-row"><div class="blab">Jyothy, reported<small>Q1 FY27</small></div><div class="track"><span class="fill gold" style="width:12%"></span></div><div class="bval">+3.0%</div></div>
+    <div class="bar-row"><div class="blab">NIQ HPC volume<small>Apr–Jun 2026 (secondary)</small></div><div class="track"><span class="fill bad" style="width:17.2%"></span></div><div class="bval">−4.3%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 25%. The red bar is a decline. The giants are growing fastest, through price and liquids; the panel tracker saw volume shrink.</span></div>
+</div>
+
+<p>Put together, these forces say something uncomfortable about a category usually filed under "defensive staples". Home care is a brands business with a commodity cost base. Between half and 60% of a formulator's inputs are linked to crude, either directly (surfactants, solvents, plastic packaging) or through freight and power. In a normal year brands earn a wide spread over those inputs: Jyothy's gross margin sat between 47% and 51% for most of FY24–FY26. When inputs jump faster than prices can follow, the spread collapses, and how far it collapses depends on two things. The first is how much of a company's revenue is exposed: about 90% at Jyothy on management's own revenue-weighted measure, against roughly 37% at HUL, where home care sits beside foods, beauty and personal care. The second is who sets prices. HUL leads; Jyothy, by its own description, matches competitors "SKU to SKU".</p>
+<p>The result is a sub-sector where the single listed specialist trades at 24.3 times trailing earnings and 20.7 times FY26 earnings, against 40.8 times for HUL and 39.8 times for Godrej Consumer, and where its share price is down 41% over a year. Jyothy's board meets on 4 November 2026 to approve its Q2 FY27 (Sep-26) results and to consider a share buyback. Those results will be the first clean read on whether the margin trough was Q1 FY27, as management implied, or later.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Every packet of detergent contains crude oil, in the cleaning chemical and in the plastic pouch. When oil jumped in 2026, the cost of making that packet jumped by about a third in a few months, and nobody could raise the shelf price by a third. The big, diversified companies absorbed it because detergents are only part of what they sell. Jyothy, which sells little else, saw half its operating profit disappear in one quarter.</p>
+</div>
+
+<p>Three things make this a sub-sector worth understanding beyond one stock. First, it is the cleanest test in Indian consumer goods of the argument between "brand" and "commodity": the 2026 data show a supplier's margin rising while its branded customer's margin halved, which is not what brand power is supposed to look like. Second, it shows how market leadership works in a mature staple: HUL can choose between margin and share, and when it chooses share, every follower pays. Third, it shows how policy shapes categories in ways that never reach the headlines, from a tax schedule that lets unregistered mosquito sticks undercut regulated ones, to a rainfall map that put the weakest monsoon over the South, where Jyothy's biggest brands live.</p>
+</section>
+
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>How home care makes money: from benzene to the bathroom shelf</h2></div>
+<p class="part-sub">A low-capital, high-frequency business that turns cheap chemicals into branded habits, and keeps the spread only as long as the chemicals stay cheap.</p>
+
+<p>A home-care company does four things. It buys commodity chemicals and packaging. It mixes them into a formula that cleans, whitens, kills insects or smells pleasant. It puts that formula into a pack with a brand on it, usually at a fixed price point such as ₹10 or ₹99. And it pushes the pack through a chain of distributors into millions of small shops, supermarkets and, increasingly, quick-commerce dark stores. The money is made in the gap between what the chemicals cost per kilogram and what the household pays per kilogram after tax and trade margins. Manufacturing is simple and cheap: Jyothy runs 23 plants, and its fixed assets of ₹504 crore support ₹2,944 crore of revenue, a fixed-asset turnover of about 5.8 times. The hard and expensive parts are the brand (advertising and promotion run at 7–11% of revenue for branded players) and the distribution system.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The home-care value chain: where a household's rupee goes</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Step 1 · Feedstock</div><div class="nname">Crude, salt, palm</div><div class="nwho">Kerosene and benzene from refineries; salt and limestone for soda ash; palm oil for soap noodles.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Step 2 · Intermediates</div><div class="nname">LAB, LABSA, soda ash, resins, pyrethroids</div><div class="nwho">Reliance, Indian Oil, Tamilnadu Petroproducts (LAB); Tata Chemicals, GHCL, Nirma, RSPL (soda ash); agrochemical makers (actives).</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Step 3 · Formulator</div><div class="nname">Brand owner</div><div class="nwho">Mixes, packs and advertises: HUL, Jyothy, GCPL, RSPL, Nirma, P&amp;G, Reckitt, Dabur. Often uses contract manufacturers.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Step 4 · Route to market</div><div class="nname">Distributor and shop</div><div class="nwho">C&amp;F agents, distributors, wholesalers, 9 million+ kirana shops, modern trade, e-commerce, quick commerce.</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Step 5 · Household</div><div class="nname">Repeat purchase</div><div class="nwho">Every 2–6 weeks; price-point and pack-size sensitive; ₹5 and ₹10 sachets dominate rural baskets.</div></div>
+  </div>
+  <div class="flow-note">The brand owner keeps the spread between Step 2 costs and Step 4 net prices. In a normal year that spread is 45–50% of revenue for a branded player; in Q1 FY27 it was 38.5% at Jyothy.</div>
+</div>
+
+<h3>The products, aisle by aisle</h3>
+<p>The basket is more varied than "detergents". Each aisle has its own chemistry, its own leader and its own price ladder, and a company can be a leader in one aisle and a minor player in the next. Jyothy is the extreme case: it owns about 84% of the fabric-whitener market with Ujala Supreme (screener's company profile), is the number-two dishwash bar brand with Exo, is number two in mosquito coils by volume with Maxo, and is a small challenger in detergent powders and liquids.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>The home-care aisles: what each product is, who leads, where Jyothy stands</caption>
+  <thead><tr><th>Category</th><th>What it is</th><th>Leaders in India</th><th>Jyothy brand and position</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">Detergent powder</td><td>LABSA + soda ash + sodium sulphate filler + builders, enzymes, brighteners, perfume</td><td>HUL (Wheel, Rin, Surf excel), RSPL (Ghadi), Nirma, P&amp;G (Tide, Ariel)</td><td>Henko, Mr. White, Ujala Detergent, More Light: challenger; Ujala Detergent is the largest brand by volume in Kerala</td></tr>
+    <tr><td class="t-strong">Detergent bar / laundry soap</td><td>Bar of LABSA or soap with fillers; heavy use in rural and southern India</td><td>HUL (Rin, Wheel), Ghadi, Nirma, regional brands</td><td>Small</td></tr>
+    <tr><td class="t-strong">Liquid detergent</td><td>Water-based surfactant blends for buckets and washing machines</td><td>HUL (Surf excel Matic), P&amp;G (Ariel, Tide), GCPL (Godrej Fab)</td><td>Henko, Ujala, Mr. White, More Light, Dr. Wool: liquids roughly doubled in FY26</td></tr>
+    <tr><td class="t-strong">Fabric whitener</td><td>Blue liquid added in the final rinse</td><td>Ujala Supreme</td><td>Category creator and near-monopolist (~84%)</td></tr>
+    <tr><td class="t-strong">Dishwash bar</td><td>Bar of LABSA with calcite filler; ₹5 and ₹10 packs</td><td>HUL Vim</td><td>Exo: number two</td></tr>
+    <tr><td class="t-strong">Dishwash liquid</td><td>LABSA/SLES gel in pouches and bottles</td><td>HUL Vim liquid; Pril (until May 2026); GCPL Rizz (new)</td><td>Exo Liquid, relaunched as a bio-enzymatic gel in 2026</td></tr>
+    <tr><td class="t-strong">Household insecticides</td><td>Coils, liquid vaporisers, aerosols, mats, registered incense sticks, creams</td><td>GCPL (Good Knight, HIT); Reckitt (Mortein); Dabur (Odomos cream)</td><td>Maxo: number two in coils by volume; sticks launched July 2026</td></tr>
+    <tr><td class="t-strong">Surface and toilet cleaners</td><td>Acid toilet cleaners, floor cleaners, disinfectants</td><td>Reckitt (Harpic, Lizol); HUL (Domex); Dabur (Sanifresh); ITC (Nimyle)</td><td>Small, inside the new Home Care segment</td></tr>
+    <tr><td class="t-strong">Air fresheners</td><td>Aerosols, gels, pockets</td><td>GCPL (aer); Reckitt (Air Wick); Dabur (Odonil)</td><td>Not material</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>Two features of the basket explain most of its economics. The first is repeat frequency. A household runs out of detergent or dishwash bar every few weeks, so brands are rebought constantly and switching costs are low. That makes advertising and shelf presence matter more than product innovation, and it makes price points sticky: a ₹10 bar stays a ₹10 bar, so companies adjust grams rather than rupees when costs move. The second is the price ladder. Every aisle runs from an economy tier (Nirma and Ghadi powders at a fraction of the premium price per kilogram) through a mid-tier (Rin, Henko) to a premium tier (Surf excel, Ariel, matic liquids). Different companies make their money on different rungs, which is why the economy makers can earn margins similar to HUL's from the opposite end of the ladder.</p>
+
+<h3>Where the value sits along the chain</h3>
+<p>In a normal year, most of the value is captured by the brand owner. Retailers keep roughly 8–12% of the shelf price in general trade, distributors 4–6% (indicative industry ranges), modern trade and quick commerce more once listing fees and promotions are counted. The chemical makers upstream earn thin, cyclical margins. In 2026 that ordering flipped for a while. When LAB was scarce because West Asian supply was disrupted, the domestic LAB makers could raise prices faster than detergent makers could pass them on. Licensors sit off to the side: Jyothy paid Henkel just ₹4.57 crore of royalty in FY26 for its licensed brands, a trivial cash cost, while P&amp;G Home Products in India paid its parent ₹410 crore in FY25.</p>
+
+<div class="chart">
+  <div class="c-title">Jyothy's revenue mix: before and after the segment re-cut</div>
+  <div class="c-sub">% of revenue. Top row: FY26 under the old five-segment structure (Fabric ₹1,346 Cr, Dishwash ₹959 Cr, Personal Care ₹321 Cr, Household Insecticides ₹196 Cr, Others ₹122 Cr). Bottom row: Q1 FY27 under the new three-segment structure. Source: AR 2025-26 note 30; Q1 FY27 presentation</div>
+  <div class="stack-row"><div class="blab">FY26, old structure</div><div class="stack"><span style="width:45.7%;background:var(--wtg)">Fabric 46%</span><span style="width:32.6%;background:var(--brand)">Dish 33%</span><span style="width:10.9%;background:var(--om)">PC 11%</span><span style="width:6.7%;background:var(--gold)">HI 7%</span><span style="width:4.1%;background:var(--ink-faint)"></span></div></div>
+  <div class="stack-row"><div class="blab">Q1 FY27, new structure</div><div class="stack"><span style="width:52%;background:var(--wtg)">Fabric 52%</span><span style="width:36%;background:var(--brand)">Home 36%</span><span style="width:12%;background:var(--om)">PC 12%</span></div></div>
+  <div class="legend"><span><i style="background:var(--wtg)"></i>Fabric Care (new basis includes laundry service)</span><span><i style="background:var(--brand)"></i>Dishwash (old) / Home Care = dishwash + insecticides + incense and cleaners (new)</span><span><i style="background:var(--om)"></i>Personal Care (Margo, Neem, Fa to May 2026)</span><span><i style="background:var(--gold)"></i>Household insecticides (Maxo)</span><span><i style="background:var(--ink-faint)"></i>Others 4%</span></div>
+</div>
+
+<p>The segment re-cut matters for anyone comparing companies. From Q1 FY27 Jyothy reports three segments: Fabric Care (including the laundry-service business), Home Care (dishwash, household insecticides, incense and floor and toilet cleaners) and Personal Care. Restated FY26 figures are Fabric ₹1,409 crore, Home ₹1,215 crore and Personal ₹321 crore. HUL's "Home Care" covers fabric wash and household care but has no insecticides or air fresheners. Godrej Consumer's "Home Care" is mostly insecticides and air fresheners with almost no detergent powder. To compare Jyothy with HUL's Home Care segment you have to add Jyothy's Fabric Care and Home Care together: ₹2,624 crore in FY26.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Making detergent is easy; selling it is hard. The plant is cheap, so the money a home-care company earns comes from the brand that lets it charge more than the chemicals cost, and from the trucks and salesmen that get the pack into a village shop. When the chemicals get dearer, the brand has to prove it can push the price up. In 2026 most brands could not push it up fast enough.</p>
+</div>
+</section>
+
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>A ₹80,000 crore basket that grows with the household budget</h2></div>
+<p class="part-sub">No official market size exists, so the total has to be built up aisle by aisle. Fabric care is more than half of it; household insecticides are the only aisle with a published number.</p>
+
+<p>Indian home care has no single authoritative market size. Industry bodies publish figures for a few aisles, panel trackers sell theirs, and companies quote the bits that suit them. Building the total up category by category gives an indicative ₹75,000–85,000 crore at manufacturer value (excluding GST), roughly US$8–9 billion. Two numbers in that build are anchored to a named source: the household-insecticide market of ₹8,138 crore in 2025 (up from ₹7,147 crore in 2023, according to an EY study for the Home Insect Control Association, as reported by The Week; the ₹ figure itself is secondary), and the liquid-dishwash market of about ₹3,000 crore, which Godrej Consumer cited in its Q2 FY27 presentation when it launched Rizz. The rest is triangulation from company revenues and known shares.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Indicative size of the Indian home-care basket (manufacturer value, ex-GST, FY25–FY26)</caption>
+  <thead><tr><th>Aisle</th><th class="num">Size ₹ Cr</th><th>How the number is built</th><th>Confidence</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">Fabric care (powder, bar, liquid, post-wash)</td><td class="num">45,000–52,000</td><td>HUL fabric wash ≈ 75–80% of its ₹23,672 Cr Home Care segment, at an estimated 35–40% value share; cross-checked against RSPL, P&amp;G Home Products and Jyothy revenues</td><td>Indicative</td></tr>
+    <tr><td class="t-strong">Household insecticides (legal market)</td><td class="num">8,138</td><td>EY–HICA study, 2025, via The Week</td><td>Single secondary source</td></tr>
+    <tr><td class="t-strong">Dishwash (bar, powder, liquid)</td><td class="num">7,000–8,500</td><td>Liquid ~₹3,000 Cr (GCPL) plus bars; Jyothy's ₹959 Cr dishwash revenue as a cross-check against its #2 position</td><td>Indicative</td></tr>
+    <tr><td class="t-strong">Surface, floor and toilet cleaners</td><td class="num">5,000–6,500</td><td>Reckitt-dominated; no verified source</td><td>Indicative, weak</td></tr>
+    <tr><td class="t-strong">Air fresheners</td><td class="num">1,500–2,500</td><td>GCPL aer leads; no verified source</td><td>Indicative, weak</td></tr>
+    <tr><td class="t-strong">Fabric whitener (inside fabric care)</td><td class="num">300–350</td><td>Jyothy post-wash ≈ ₹65 Cr in Q4 FY26 (9% of that quarter's revenue) and Ujala's ~84% share</td><td>Indicative</td></tr>
+    <tr><td class="t-strong">Total home care</td><td class="num">75,000–85,000</td><td>Sum of the aisles</td><td>Indicative</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="chart">
+  <div class="c-title">The aisles by size</div>
+  <div class="c-sub">₹ Cr, manufacturer value; bars show the midpoint of each indicative range, labels show the range. Household insecticides is a single secondary figure (EY–HICA via The Week). ILLUSTRATIVE build, not a reported market size</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Fabric care</div><div class="track"><span class="fill wtg" style="width:93%"></span></div><div class="bval">45–52k</div></div>
+    <div class="bar-row"><div class="blab">Household insecticides<small>2025, secondary</small></div><div class="track"><span class="fill gold" style="width:15.6%"></span></div><div class="bval">8.1k</div></div>
+    <div class="bar-row"><div class="blab">Dishwash</div><div class="track"><span class="fill brand" style="width:14.9%"></span></div><div class="bval">7–8.5k</div></div>
+    <div class="bar-row"><div class="blab">Surface &amp; toilet</div><div class="track"><span class="fill om" style="width:11.1%"></span></div><div class="bval">5–6.5k</div></div>
+    <div class="bar-row"><div class="blab">Liquid dishwash<small>subset of dishwash</small></div><div class="track"><span class="fill spec" style="width:5.8%"></span></div><div class="bval">~3k</div></div>
+    <div class="bar-row"><div class="blab">Air fresheners</div><div class="track"><span class="fill om" style="width:3.8%"></span></div><div class="bval">1.5–2.5k</div></div>
+    <div class="bar-row"><div class="blab">Fabric whitener<small>subset of fabric care</small></div><div class="track"><span class="fill gold" style="width:1%"></span></div><div class="bval">0.3–0.35k</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹52,000 Cr. Fabric care alone is more than half the basket; Jyothy's best franchise, whitener, is one of the smallest aisles.</span></div>
+</div>
+
+<p>Three things stand out. Fabric care is the profit pool that decides the sub-sector, at well over half the total. Jyothy's main-wash detergent business, at roughly ₹1,000–1,100 crore a year (36% of its Q4 FY26 revenue, annualised), is about 2–3% of it. Second, the categories Jyothy dominates are small: the whitener aisle is about ₹300–350 crore, which is why a near-monopoly in it does not make Jyothy a large company. An earlier estimate of ₹600–900 crore for whitener double-counted Jyothy's conditioners and should not be used. Third, household insecticides, at ₹8,138 crore, is a mid-sized aisle with a large illegal fringe that the legal number excludes (Section 11).</p>
+
+<h3>How fast it grows</h3>
+<p>Through a full cycle the category grows at about 7–9% a year in nominal terms, made of roughly 3–5% volume and 3–4% price and mix (indicative, from HUL and Jyothy multi-year growth). FY26 was well below that. HUL Home Care's underlying sales growth was only 4% and its reported revenue rose 3.1%, because the leader cut prices in the deflationary first half while volumes grew at a high single digit. Jyothy grew 3.5% in value on 6% volume. The first half of FY27 has been a pricing-led rebound: HUL Home Care +14% and +22% in Q1 and Q2, Godrej Consumer's standalone Home Care +19% in Q2. Over a longer arc, Jyothy's revenue grew 7.6% a year from FY22 to FY26 and 7% a year over ten years (screener).</p>
+
+<div class="chart">
+  <div class="c-title">Jyothy Labs revenue, FY21–FY26</div>
+  <div class="c-sub">₹ Cr, revenue from operations; standalone, which equals consolidated from FY26 (no subsidiaries at 31 Mar 2026). Source: screener.in, company filings</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill spec" style="width:62.8%"></span></div><div class="bval">1,885</div></div>
+    <div class="bar-row"><div class="blab">FY22<small>+16.3%</small></div><div class="track"><span class="fill spec" style="width:73.1%"></span></div><div class="bval">2,193</div></div>
+    <div class="bar-row"><div class="blab">FY23<small>+13.2%</small></div><div class="track"><span class="fill spec" style="width:82.7%"></span></div><div class="bval">2,482</div></div>
+    <div class="bar-row"><div class="blab">FY24<small>+11.0%</small></div><div class="track"><span class="fill brand" style="width:91.8%"></span></div><div class="bval">2,754</div></div>
+    <div class="bar-row"><div class="blab">FY25<small>+3.3%</small></div><div class="track"><span class="fill brand" style="width:94.8%"></span></div><div class="bval">2,844</div></div>
+    <div class="bar-row"><div class="blab">FY26<small>+3.5%</small></div><div class="track"><span class="fill brand" style="width:98.1%"></span></div><div class="bval">2,944</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹3,000 Cr. Growth halved after FY24 as price cuts in a deflationary market offset 6% volume growth.</span></div>
+</div>
+
+<h3>India's place in the world</h3>
+<p>India is a big market by tonnage and a modest one by value, because the price per kilogram is low. The whole Indian home-care basket is smaller than Unilever's global Home Care division (€11.6 billion in 2025, about ₹1.28 lakh crore at an indicative ₹110 per euro) and about a quarter of P&amp;G's Fabric &amp; Home Care segment (US$30.3 billion in the year to June 2026, about ₹2.88 lakh crore at ₹94.9 per dollar). HUL's Home Care segment is a large business by Indian standards and roughly a fifth of Unilever Home Care's global turnover. Jyothy's fabric and home care revenue is about 1% of P&amp;G's segment.</p>
+
+<div class="chart">
+  <div class="c-title">India's home-care basket against the global giants</div>
+  <div class="c-sub">₹ lakh Cr. P&amp;G Fabric &amp; Home Care FY Jun-26 at ₹94.9/US$; Unilever Home Care calendar 2025 at an indicative ₹110/€; India total is the indicative ₹75–85k Cr build; HUL Home Care and Jyothy Fabric + Home Care FY26. Conversions ILLUSTRATIVE</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">P&amp;G Fabric &amp; Home Care<small>global</small></div><div class="track"><span class="fill om" style="width:96%"></span></div><div class="bval">2.88</div></div>
+    <div class="bar-row"><div class="blab">Unilever Home Care<small>global</small></div><div class="track"><span class="fill om" style="width:42.7%"></span></div><div class="bval">1.28</div></div>
+    <div class="bar-row"><div class="blab">All Indian home care<small>indicative</small></div><div class="track"><span class="fill gold" style="width:26.7%"></span></div><div class="bval">0.75–0.85</div></div>
+    <div class="bar-row"><div class="blab">HUL Home Care</div><div class="track"><span class="fill brand" style="width:7.9%"></span></div><div class="bval">0.237</div></div>
+    <div class="bar-row"><div class="blab">Jyothy Fabric + Home</div><div class="track"><span class="fill wtg" style="width:1%"></span></div><div class="bval">0.026</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹3 lakh Cr. India is a low price-per-kilogram market: big in tonnes, modest in rupees.</span></div>
+</div>
+
+<p>Exports barely matter. Finished home-care products are bulky and cheap per kilogram, so they are made close to the consumer. Jyothy exports to 19 countries but does not disclose the value; Godrej Consumer serves Indonesia and Africa through local subsidiaries. The industry is domestic, which means its fortunes rest on Indian household budgets, Indian rainfall and Indian tax policy, while its costs are set by global oil and chemical markets.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Nobody officially measures how much Indians spend on home care, so the ₹80,000 crore figure is a careful sum of educated guesses. The useful facts are the shape, not the total: washing clothes is more than half the money, mosquito control is about a tenth, and the little blue whitener bottle that made Jyothy famous is a few hundred crore. Owning a small aisle completely does not make you big.</p>
+</div>
+</section>
+
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>Demand, the monsoon and the volume puzzle</h2></div>
+<p class="part-sub">Everyone already buys detergent. Growth comes from upgrading formats, using more per wash and moving to new channels, and in 2026 the panel data and the company data told different stories.</p>
+
+<p>Home care is a category with near-total penetration. Every household cleans clothes and dishes with something, branded or not, and the EY–HICA study puts mosquito-control use at 92–99% of urban and 64–73% of rural households (secondary). So growth does not come from first-time buyers. It comes from five sources: more households (household formation runs ahead of population growth as families split); more use per household as incomes rise; trading up the price ladder from economy to mid-tier to premium; switching formats, which usually raises spend per wash; and price.</p>
+
+<h3>Format migration is the real growth engine</h3>
+<p>Three format shifts are running at once. In laundry, powders are giving way to liquids as more households buy semi-automatic and fully automatic washing machines. Jyothy's liquid detergents roughly doubled in FY26, and HUL's annual report describes "rapid format upgradation to liquids". In dishwash, bars are giving way to liquids: Godrej Consumer describes liquid dishwash as a ~₹3,000 crore category growing at a double-digit rate with only mid-teens household penetration. In mosquito control, coils are giving way to liquid vaporisers and incense sticks; at Jyothy the electric (liquid vaporiser) plus aerosol and racquet share of household insecticides reached about 55% in FY26 from 50%. Each shift raises revenue per household. The catch, which Jyothy's chairperson spelled out on the Q1 FY27 call, is that liquids have become the main battlefield: after a year of promotions, liquid detergents sell for less than powders per wash, "be it even a premium liquid", and at a lower margin.</p>
+
+<h3>Rural incomes and the 2026 monsoon</h3>
+<p>Economy detergent bars and powders, dishwash bars and mosquito coils are rural-heavy products, so rural incomes matter, and in India rural incomes still track the monsoon. The 2026 south-west monsoon was poor. The India Meteorological Department's end-of-season statement (30 September 2026) put all-India rainfall at 759.4 mm, 87% of the long-period average, the fourth-lowest since 2001. The regional picture was worse for the South: the South Peninsula received 76% of normal, its fourth-lowest since 1901, and East and North-East India 74%, the lowest on record. Seventeen of 36 meteorological subdivisions, covering 42% of the country's area, were deficient.</p>
+
+<div class="chart">
+  <div class="c-title">The 2026 monsoon by region</div>
+  <div class="c-sub">Rainfall as % of the long-period average (LPA), 1 Jun–30 Sep 2026. Source: IMD, "Salient Features of the 2026 Southwest Monsoon Season", 30 Sep 2026</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Central India</div><div class="track"><span class="fill wtg" style="width:97%"></span></div><div class="bval">97%</div></div>
+    <div class="bar-row"><div class="blab">North-West India</div><div class="track"><span class="fill wtg" style="width:94.1%"></span></div><div class="bval">94.1%</div></div>
+    <div class="bar-row"><div class="blab">All-India</div><div class="track"><span class="fill gold" style="width:87%"></span></div><div class="bval">87%</div></div>
+    <div class="bar-row"><div class="blab">South Peninsula<small>4th lowest since 1901</small></div><div class="track"><span class="fill bad" style="width:76%"></span></div><div class="bval">76%</div></div>
+    <div class="bar-row"><div class="blab">East &amp; North-East<small>lowest since 1901</small></div><div class="track"><span class="fill bad" style="width:74%"></span></div><div class="bval">74%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 100% of normal. The South, where Ujala, Exo and Ujala Detergent are strongest, had one of its worst seasons on record.</span></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">The monsoon month by month</div>
+  <div class="c-sub">All-India rainfall, % of LPA. Source: IMD, 30 Sep 2026. Onset over Kerala on 4 Jun (3 days late); withdrawal began 19 Sep</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">June</div><div class="track"><span class="fill bad" style="width:59.1%"></span></div><div class="bval">65%</div></div>
+    <div class="bar-row"><div class="blab">July</div><div class="track"><span class="fill wtg" style="width:91.8%"></span></div><div class="bval">101%</div></div>
+    <div class="bar-row"><div class="blab">August</div><div class="track"><span class="fill gold" style="width:76.4%"></span></div><div class="bval">84%</div></div>
+    <div class="bar-row"><div class="blab">September</div><div class="track"><span class="fill gold" style="width:83.6%"></span></div><div class="bval">92%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 110% of normal. Jyothy described rural demand as "resilient" in its Q1 FY27 call on 12 August, before most of the August and September shortfall was known.</span></div>
+</div>
+
+<p>The timing matters for reading company commentary. Jyothy's "rural resilient, urban subdued" description covered April–June, before the weak August. The rural effect of a poor monsoon usually shows up a quarter or two later, through lower farm incomes in the October–March period. For a South-skewed company such as Jyothy, Q3 and Q4 FY27 rural demand in Kerala, Tamil Nadu, Karnataka and Andhra Pradesh is a specific risk. A weak monsoon also cuts both ways for insecticides: less standing water can mean fewer mosquitoes, though Godrej Consumer reported share gains "despite weak monsoons, led by an intensifying El Niño", and extended heat delayed Jyothy's Q1 season.</p>
+
+<h3>The volume puzzle: companies grow, the panel shrinks</h3>
+<p>The most confusing number in the 2026 data is volume. NielsenIQ's April–June 2026 read, as reported by the Daily Pioneer (we could not access the primary release), showed household-and-personal-care volume down 4.3%, value up 1.0% and price up 5.4%, with rural FMCG volume down 5%. In the same period Jyothy reported volume growth of 5.3% excluding Pril and Fa, HUL reported underlying volume growth of a high single digit in Home Care, and Godrej Consumer later reported 7% standalone volume growth for July–September.</p>
+
+<div class="chart">
+  <div class="c-title">Volume growth: what companies report and what the panel saw</div>
+  <div class="c-sub">% year on year. Company figures are internal tonnage or mix-adjusted measures (not comparable with each other or with NIQ). NIQ figures are consumer-panel volumes for April–June 2026 as reported by the Daily Pioneer (secondary). HUL Home Care Q1 FY27 UVG disclosed only as "high single digit"; bar drawn at 8% for illustration</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">HUL Home Care UVG<small>Q1 FY27, "HSD"</small></div><div class="track"><span class="fill brand" style="width:66.7%"></span></div><div class="bval">~8%</div></div>
+    <div class="bar-row"><div class="blab">GCPL standalone UVG<small>Q2 FY27</small></div><div class="track"><span class="fill brand" style="width:58.3%"></span></div><div class="bval">7%</div></div>
+    <div class="bar-row"><div class="blab">Jyothy volume, ex-Pril/Fa<small>Q1 FY27</small></div><div class="track"><span class="fill gold" style="width:44.2%"></span></div><div class="bval">5.3%</div></div>
+    <div class="bar-row"><div class="blab">NIQ HPC volume<small>Apr–Jun 2026</small></div><div class="track"><span class="fill bad" style="width:35.8%"></span></div><div class="bval">−4.3%</div></div>
+    <div class="bar-row"><div class="blab">NIQ rural FMCG volume<small>Apr–Jun 2026</small></div><div class="track"><span class="fill bad" style="width:41.7%"></span></div><div class="bval">−5.0%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 12 percentage points either way; red bars are declines. The gap is too wide to be noise.</span></div>
+</div>
+
+<p>These numbers cannot be reconciled naively, but four mechanisms explain most of the gap. First, company volume is sell-in to distributors, measured in tonnes; NIQ measures what consumers buy. Second, grammage increases inflate company tonnage: when a ₹10 pack gains grams, the company ships more kilograms even if the same number of packs sells. Third, the branded companies are taking share from the unorganised tail and from wounded economy brands such as Ghadi (Section 8), so they can grow while the total shrinks. Fourth, NIQ's coverage of modern trade, e-commerce and quick commerce is incomplete, and those channels are growing fastest. The practical rule: treat company-reported volume as a measure of a company's own momentum, not of the market's.</p>
+
+<h3>Channels: from the kirana to the dark store</h3>
+<p>Traditional general trade (GT), the kirana shop, still sells most home care, and it is where direct distribution reach matters. HUL reaches more than 9 million outlets; Jyothy reaches about 4 million, of which 1.4 million are served directly, up about 100,000 in FY26; RSPL reaches 2.8–3.0 million through 3,700 stockists and distributors (CRISIL). Much of Jyothy's GT business runs on advance payment, with distributor stocks of 15–20 days. The growth, though, is in modern trade (MT), e-commerce and quick commerce (QC: Blinkit, Zepto, Swiggy Instamart). Jyothy's MT, e-commerce and QC sales grew 26% in FY26 and e-commerce plus QC grew 25–30% in Q1 FY27. NIQ (secondary) reported MT volume +17.5% and e-commerce +34.8% in April–June 2026.</p>
+
+<div class="chart">
+  <div class="c-title">Where the growth is: channel growth rates</div>
+  <div class="c-sub">% growth. Jyothy figures from its Q4 FY26 and Q1 FY27 calls (value). NIQ figures are April–June 2026 volume, reported by the Daily Pioneer (secondary). Bizom is GT sell-through value for all FMCG, Q2 FY27, via sahi.com (secondary). Bases differ; compare direction, not level</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">NIQ e-commerce<small>volume, Apr–Jun 2026</small></div><div class="track"><span class="fill om" style="width:87%"></span></div><div class="bval">+34.8%</div></div>
+    <div class="bar-row"><div class="blab">Jyothy e-com + QC<small>Q1 FY27</small></div><div class="track"><span class="fill brand" style="width:68.8%"></span></div><div class="bval">+25–30%</div></div>
+    <div class="bar-row"><div class="blab">Jyothy MT + e-com + QC<small>FY26</small></div><div class="track"><span class="fill brand" style="width:65%"></span></div><div class="bval">+26%</div></div>
+    <div class="bar-row"><div class="blab">NIQ modern trade<small>volume, Apr–Jun 2026</small></div><div class="track"><span class="fill om" style="width:43.8%"></span></div><div class="bval">+17.5%</div></div>
+    <div class="bar-row"><div class="blab">Bizom general trade<small>value, Q2 FY27</small></div><div class="track"><span class="fill gold" style="width:21.5%"></span></div><div class="bval">+8.6%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 40%. Jyothy notes that home-care categories "are not growing at the same pace as food and grocery" on quick-commerce platforms.</span></div>
+</div>
+
+<p>Quick commerce is a mixed blessing. It lets premium liquids, conditioners and new launches reach urban households without the years of distributor building GT requires, and it rewards brands with strong search visibility. But it also extracts higher trade spend, introduces private labels, and, as Jyothy's annual report puts it, has "created tension with traditional retailers who cite concerns over pricing fairness". No company discloses the share of home-care sales that goes through QC. A mid-sized company has to fund both systems at once: the van-and-salesman network that keeps a ₹10 Exo bar in a village shop, and the digital shelf that sells a ₹299 bottle of liquid detergent in a metro in ten minutes.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>When a company says "our volumes grew 5%" and a market tracker says "volumes fell 4%", both can be right. The company counts the tonnes it shipped, including extra grams it added to each pack and share it took from weaker rivals; the tracker counts what households actually bought across the whole market. In 2026 the branded players grew by taking business from others, not because India was washing more clothes.</p>
+</div>
+</section>
+
+<section class="part" id="p4">
+<div class="part-head"><span class="pno">04</span><h2>Where ₹100 of revenue goes, in a good year and a bad one</h2></div>
+<p class="part-sub">Half of every rupee buys chemicals and plastic. When that half grows to 60%, everything below it gets squeezed, and advertising is the first line to be cut.</p>
+
+<p>The cost structure of a branded home-care company is simple and top-heavy. Materials, meaning raw materials and packaging net of inventory changes, take about half of revenue in a normal year. Staff, advertising and promotion (A&amp;P), and "other expenses" (freight, contract conversion, power, field-sales costs, royalty, CSR) take most of the rest. Operating profit before depreciation (EBITDA) is what is left: 15–18% for a branded specialist in a good year. Depreciation is small because plants are cheap, and a cash-rich company earns some interest on its treasury. Jyothy publishes enough line items to build this table for three very different periods.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Where ₹100 of revenue goes at Jyothy Labs (% of revenue)</caption>
+  <thead><tr><th>Line</th><th class="num">FY25 (benign)</th><th class="num">FY26</th><th class="num">Q1 FY27 (shock)</th><th>What moves it</th></tr></thead>
+  <tbody>
+    <tr><td>Materials (raw material + packaging)</td><td class="num">49.8</td><td class="num">53.0</td><td class="num">61.5</td><td>LABSA, soda ash, polymers, soap noodles, pyrethroids; rupee</td></tr>
+    <tr><td class="t-strong">Gross margin</td><td class="num t-strong">50.2</td><td class="num t-strong">47.0</td><td class="num t-strong">38.5</td><td>Price and grammage vs input basket</td></tr>
+    <tr><td>Employee cost</td><td class="num">~11.5</td><td class="num">~11.6</td><td class="num">11.4</td><td>2,970 permanent staff plus field sales</td></tr>
+    <tr><td>Advertising &amp; promotion</td><td class="num">8.4</td><td class="num">7.7</td><td class="num">6.5</td><td>Discretionary: cut first in a squeeze</td></tr>
+    <tr><td>Other expenses</td><td class="num">~12.7</td><td class="num">~12.4</td><td class="num">12.2</td><td>Freight, conversion charges, power, royalty, CSR</td></tr>
+    <tr><td class="t-strong">Operating EBITDA</td><td class="num t-strong">17.6</td><td class="num t-strong">15.3</td><td class="num t-strong">8.4</td><td>Company definition</td></tr>
+    <tr><td>Depreciation</td><td class="num">2.0</td><td class="num">2.1</td><td class="num">2.1</td><td>Asset-light: ₹504 Cr fixed assets</td></tr>
+    <tr><td>Other income (treasury)</td><td class="num">+1.8</td><td class="num">+2.3</td><td class="num">+2.3</td><td>Interest on ₹850–1,000 Cr of cash</td></tr>
+    <tr><td>Lease interest and rounding</td><td class="num">−0.2</td><td class="num">−0.2</td><td class="num">−0.2</td><td>No financial debt; leases only</td></tr>
+    <tr><td>Tax</td><td class="num">−4.2</td><td class="num">−4.0</td><td class="num">−2.2</td><td>Effective rate 24–29%</td></tr>
+    <tr><td class="t-strong">Net profit</td><td class="num t-strong">13.0</td><td class="num t-strong">11.3</td><td class="num t-strong">6.2</td><td>₹371 Cr / ₹333 Cr / ₹47.6 Cr</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>The table shows what a cost shock does. Between FY25 and Q1 FY27, materials rose from about ₹50 to about ₹61.50 of every ₹100 of revenue. Staff and other costs barely moved as a share of revenue, because they are largely fixed in rupees and revenue kept growing. A&amp;P fell by about two rupees, which cushioned part of the blow. EBITDA took the rest, falling from ₹17.60 to ₹8.40. The FY25 employee and other-expense splits are estimates derived from the company's reported totals; the gross margin, A&amp;P and EBITDA lines are as reported. Jyothy's restated FY25 gross margin is 50.2% (an earlier deck said 50.1%).</p>
+
+<div class="chart">
+  <div class="c-title">Where ₹100 goes: three periods compared</div>
+  <div class="c-sub">Jyothy Labs, % of revenue. FY25 and FY26 full year; Q1 FY27 = Apr–Jun 2026. Gross margin, A&amp;P and EBITDA as reported; staff and other-expense split partly estimated. Source: company presentations and calls</div>
+  <div class="stack-row"><div class="blab">FY25</div><div class="stack"><span style="width:49.8%;background:var(--ink-faint)">Materials 50</span><span style="width:11.5%;background:var(--om)">Staff</span><span style="width:8.4%;background:var(--gold)">A&amp;P</span><span style="width:12.7%;background:var(--epc)">Other</span><span style="width:17.6%;background:var(--wtg)">EBITDA 18</span></div></div>
+  <div class="stack-row"><div class="blab">FY26</div><div class="stack"><span style="width:53%;background:var(--ink-faint)">Materials 53</span><span style="width:11.6%;background:var(--om)">Staff</span><span style="width:7.7%;background:var(--gold)">A&amp;P</span><span style="width:12.4%;background:var(--epc)">Other</span><span style="width:15.3%;background:var(--wtg)">EBITDA 15</span></div></div>
+  <div class="stack-row"><div class="blab">Q1 FY27</div><div class="stack"><span style="width:61.5%;background:var(--ink-faint)">Materials 62</span><span style="width:11.4%;background:var(--om)">Staff</span><span style="width:6.5%;background:var(--gold)">A&amp;P</span><span style="width:12.2%;background:var(--epc)">Other</span><span style="width:8.4%;background:var(--wtg)">8</span></div></div>
+  <div class="legend"><span><i style="background:var(--ink-faint)"></i>Materials (₹50 → ₹62)</span><span><i style="background:var(--om)"></i>Employees (~₹11.5)</span><span><i style="background:var(--gold)"></i>A&amp;P (₹8.4 → ₹6.5)</span><span><i style="background:var(--epc)"></i>Other expenses (~₹12)</span><span><i style="background:var(--wtg)"></i>Operating EBITDA (₹17.6 → ₹8.4)</span></div>
+</div>
+
+<h3>The inputs and what drives them</h3>
+<p>The materials line is a basket of perhaps a dozen inputs, but four dominate. Linear alkylbenzene (LAB), sulphonated into LABSA, is the single largest: it is the active cleaning ingredient in detergent powders, bars, many liquids and dishwash bars. It is made from kerosene-derived n-paraffin and benzene, so it follows crude and refinery economics with a lag of one to three months. Plastic packaging (HDPE and PP bottles, multi-layer pouches) is 15–20% of Jyothy's material purchases and follows naphtha and polymer prices. Soda ash is the main builder in powders; it follows global soda-ash supply, which in 2026 was in oversupply. Palm-derived soap noodles feed laundry and toilet soaps; they follow Malaysian and Indonesian palm oil. Household insecticides add pyrethroid actives (transfluthrin, prallethrin, allethrins), mostly sourced from China or Indian agrochemical makers.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>The main inputs, their drivers and their 2026 moves</caption>
+  <thead><tr><th>Input</th><th>Where it goes</th><th>Price driver</th><th>2026 move</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">LAB / LABSA</td><td>Detergents, dishwash bars, liquids</td><td>Benzene and kerosene (crude); West Asian supply</td><td>+60–65%, Jan → early May 2026 (Jyothy CFO)</td></tr>
+    <tr><td class="t-strong">HDPE / PP / laminates</td><td>Bottles, pouches (15–20% of purchases)</td><td>Naphtha → polymer</td><td>+50–55% in Mar–Apr 2026</td></tr>
+    <tr><td class="t-strong">Soda ash</td><td>Detergent powders</td><td>Global oversupply (Chinese and US capacity)</td><td>Weak; China light grade ~RMB 1,156/t (Jun-26); Indian minimum import price ₹20,108/t</td></tr>
+    <tr><td class="t-strong">Soap noodles</td><td>Laundry and toilet soap</td><td>Crude palm oil</td><td>Rising "from June onwards"</td></tr>
+    <tr><td class="t-strong">Pyrethroids</td><td>Coils, vaporisers, aerosols, sticks</td><td>Chinese and agrochemical supply</td><td>Not disclosed</td></tr>
+    <tr><td class="t-strong">Sodium sulphate, silicate, calcite</td><td>Fillers in powders and bars</td><td>Local</td><td>Broadly stable (indicative)</td></tr>
+    <tr><td class="t-strong">The rupee</td><td>Imported LAB, actives, resins, perfumes</td><td>₹94.9/US$ (19 Oct 2026), record low near ₹96.8</td><td>Weaker, adding to landed cost</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>Management gave two different exposure numbers in 2026, and they measure different things. On the Q4 FY26 call (4 May 2026) the CFO said "around 50–60% of our inputs are crude-linked directly or indirectly": a share of input cost. On the Q1 FY27 call (12 August 2026) the chairperson said "90% of our business is linked to crude oil prices": a share of revenue, meaning fabric and home care together. Both are true, and together they explain the shock. If 55% of the input basket rises by 55–60%, the whole basket rises by about 30–35%, which is exactly what the CFO reported.</p>
+
+<div class="chart">
+  <div class="c-title">What went up, and how much prices followed</div>
+  <div class="c-sub">% change. Input moves and Jyothy pricing from the Q4 FY26 (4 May 2026) and Q1 FY27 (12 Aug 2026) calls. HUL and GCPL Q1 FY27 pricing as cited by an analyst on Jyothy's Q1 call (not company-disclosed). Ranges shown at midpoint</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">LABSA<small>Jan → May 2026</small></div><div class="track"><span class="fill bad" style="width:89.3%"></span></div><div class="bval">+60–65%</div></div>
+    <div class="bar-row"><div class="blab">Plastic packaging<small>Mar–Apr 2026</small></div><div class="track"><span class="fill bad" style="width:75%"></span></div><div class="bval">+50–55%</div></div>
+    <div class="bar-row"><div class="blab">Jyothy material basket</div><div class="track"><span class="fill gold" style="width:46.4%"></span></div><div class="bval">+30–35%</div></div>
+    <div class="bar-row"><div class="blab">HUL / GCPL price<small>Q1 FY27, analyst</small></div><div class="track"><span class="fill wtg" style="width:7.1%"></span></div><div class="bval">~5%</div></div>
+    <div class="bar-row"><div class="blab">Jyothy price<small>cumulative since war</small></div><div class="track"><span class="fill wtg" style="width:6.1%"></span></div><div class="bval">4–4.5%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 70%. A 30–35% jump in the basket against a 4–5% price rise is the whole story of Q1 FY27.</span></div>
+</div>
+
+<h3>How the other archetypes split ₹100</h3>
+<p>Jyothy's split is typical of a branded specialist, but not of everyone. The leader, HUL Home Care, does not publish a gross margin for its segment; an indicative structure would be a 45–50% gross margin, A&amp;P of 9–11% and a reported segment EBIT of 16–19%. Its scale lets it spend more on advertising in rupees while spending a similar share of revenue. The economy players run a completely different structure: an indicative 30–35% gross margin (they sell at a much lower price per kilogram), A&amp;P of only 2–5%, and EBITDA of 13–19% across FY23–FY25 for RSPL according to CRISIL. They earn their margin from soda-ash integration, regional plants that cut freight, and minimal advertising, not from price. That is why a rupee of revenue at Ghadi and a rupee at Surf excel can produce similar profit through opposite routes.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Out of every ₹100 Jyothy collected in a normal year, about ₹50 went on chemicals and plastic and about ₹17–18 was left as operating profit. In April–June 2026 the chemicals and plastic took about ₹62, so only about ₹8 was left, even after the company spent ₹2 less on advertising. Staff and freight costs do not shrink when inputs rise, so the whole increase lands on profit.</p>
+</div>
+
+<p>Two further points complete the picture. First, the gross-margin decline began well before the war. Jyothy's gross margin fell in every one of the eight quarters to Q1 FY27, and 4 of the 11.7 points it lost from Q1 FY25 to Q1 FY27 had already gone by Q4 FY26, through price cuts and extra grammage in dishwash and a mix shift toward lower-margin liquids. The war then took 6.7 points in one quarter. Second, the shock passes through with a lag in both directions. The CFO said higher-cost purchases and contracted inventory would "continue to flow through Q2", with relief "more meaningfully from October", and that the Q2 FY27 margin would be "not materially lower" than Q1's 8.4%. The arithmetic of recovery is laid out in the next section and in the KPI masterclass.</p>
+</section>
+
+<section class="part" id="p5">
+<div class="part-head"><span class="pno">05</span><h2>Crude in the bottle: the detergent cost stack and the LAB–soda ash chain <span class="dd">Deep dive</span></h2></div>
+<p class="part-sub">A kilogram of detergent is mostly salt-based fillers held together by a petrochemical. When that petrochemical is scarce, its makers set the price, not the brands that sell it.</p>
+
+<p>The single most useful thing to understand about Indian home care is what is inside a pack of detergent powder, because that formula decides who wins in a cost shock. A typical mid-tier powder contains 15–20% LABSA, the surfactant that lifts dirt; 25–30% soda ash, which softens water and boosts cleaning; around 40% sodium sulphate or similar filler, which adds bulk and helps the powder flow; and a few per cent of zeolite or phosphate builders, enzymes, optical brighteners and perfume. Economy powders use less LABSA and more filler; premium and machine ("matic") powders use more actives and enzymes. Detergent bars and dishwash bars are LABSA held in a calcite or filler matrix. Liquids swap fillers for water and use LABSA together with SLES, a second surfactant family made from ethylene oxide or palm-derived fatty alcohols.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">From oil well to washing powder: the surfactant chain</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Refinery</div><div class="nname">Kerosene and benzene</div><div class="nwho">Kerosene yields n-paraffin; benzene comes from reformers. Both follow crude.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Petrochemical</div><div class="nname">LAB</div><div class="nwho">Reliance, Indian Oil, Tamilnadu Petroproducts; plus West Asian imports.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Sulphonation</div><div class="nname">LABSA</div><div class="nwho">Done by detergent makers in-house or by job-workers. Nirma makes LAB captively.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Formulation</div><div class="nname">Powder, bar, liquid</div><div class="nwho">LABSA + soda ash + sulphate + builders + enzymes + perfume.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Pack</div><div class="nname">Pouch or bottle</div><div class="nwho">HDPE, PP and laminates, another crude derivative.</div></div>
+  </div>
+  <div class="flow-note">Two of the five steps are crude derivatives, and the packaging is a third. Soda ash, the other big input, comes from salt and limestone (or natural trona) and has its own, separate cycle.</div>
+</div>
+
+<h3>Why LAB is the swing factor</h3>
+<p>LAB is not exotic, but its supply is concentrated. India has a handful of producers and imports the balance, much of it from West Asia. When the war began on 28 February 2026 and shipping through the Strait of Hormuz was disrupted, two things happened at once: the feedstock cost rose with crude (Brent peaked near $118 a barrel before the 7 April ceasefire and then settled around $95), and physical supply tightened as vessels were delayed and allocations cut. Jyothy's CFO described crude as having "swung from … 60, 65 to upwards of 100" and LABSA as up 60–65% from January to early May. He added that the basket inflation of 30–35% "has never happened in the recent memory of the company".</p>
+<p>The clearest evidence of where the value went comes from the supplier side. Tamilnadu Petroproducts, a listed LAB producer, reported Q1 FY27 revenue of ₹784 crore (+67%) and an EBITDA margin of 15.9%, up from 11.2% a year earlier. In the same quarter Jyothy's EBITDA margin fell from 16.5% to 8.4%. Nirma, which makes both LAB and soda ash, sits on both sides of that spread. For a formulator that buys LAB, "brand power" did not protect against a supplier with pricing power in a shortage. The commodity-chemicals report (<a href="commodity-chem.html">Indian commodity chemicals</a>) covers the LAB and soda-ash producers in more depth.</p>
+
+<div class="chart">
+  <div class="c-title">Value moved upstream: margin change, Q1 FY26 → Q1 FY27</div>
+  <div class="c-sub">Change in margin, percentage points. Tamilnadu Petroproducts (LAB maker) EBITDA margin 11.2% → 15.9%; Jyothy EBITDA 16.5% → 8.4%; HUL Home Care segment margin 19.1% (FY26) → 17% (Q1 FY27); GCPL standalone EBITDA ~22% → 21.0% (Q2 FY27). Sources: company releases and presentations</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Tamilnadu Petroproducts<small>LAB producer</small></div><div class="track"><span class="fill wtg" style="width:47%"></span></div><div class="bval">+4.7</div></div>
+    <div class="bar-row"><div class="blab">GCPL standalone<small>Q2 FY27, approx.</small></div><div class="track"><span class="fill bad" style="width:10%"></span></div><div class="bval">~−1</div></div>
+    <div class="bar-row"><div class="blab">HUL Home Care<small>vs FY26</small></div><div class="track"><span class="fill bad" style="width:21%"></span></div><div class="bval">~−2.1</div></div>
+    <div class="bar-row"><div class="blab">Jyothy Labs</div><div class="track"><span class="fill bad" style="width:81%"></span></div><div class="bval">−8.1</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 10 points; green is a gain, red a loss. The narrower the home-care exposure, the bigger the hit.</span></div>
+</div>
+
+<h3>Soda ash: the input that went the other way</h3>
+<p>Soda ash softened the blow for powder makers. Roughly 15–18% of Indian soda-ash demand goes into detergents. Global supply has been heavy: Chinese light-grade soda ash traded around RMB 1,156 a tonne in June 2026, a deep downturn, and imports from China, the US and Turkey pushed Indian prices down. India has a minimum import price of ₹20,108 a tonne and a safeguard investigation due to conclude around 16 November 2026. For a detergent maker that buys soda ash, such as Jyothy or HUL, cheap soda ash is good news and a safeguard duty would be a small cost increase. For an integrated maker such as Nirma or RSPL, weak soda ash hurts the chemicals side: CRISIL cites "softening of realisations in the soda ash segment" as one reason RSPL's EBITDA margin fell to 13.1% in FY25. Nirma's US soda-ash subsidiary, Searles Valley Minerals, filed for Chapter 11 on 15 June 2026.</p>
+
+<h3>A worked example: one kilogram of mid-tier powder</h3>
+<p>The following is an ILLUSTRATIVE composite, not any company's actual cost sheet. Take a mid-tier powder with an MRP of ₹120 a kilogram. Remove 18% GST and the price is about ₹101.70. Take off a retailer margin of about 10% and a distributor margin of about 5% and the company receives about ₹87. Promotions and extra grammage cost another ~5%, leaving net realisation of about ₹83 a kilogram. Before the shock, the formula cost roughly ₹20 of LABSA (15–20% of the formula at ₹110–130 a kilogram), ₹8 of soda ash, ₹4 of fillers, ₹5 of enzymes, brighteners and perfume, and ₹4.50 of packaging: about ₹41.50 in all, for a gross margin of 50%.</p>
+<p>Now apply the 2026 shock: LABSA up 60% adds ₹12 and packaging up 50% adds about ₹2.25. Materials rise to about ₹55.75 and, at an unchanged price, the gross margin falls to about 33%. To keep the same rupee gross profit per kilogram (₹41.50), the net price would have to rise by about ₹14, or 17%. To restore a 50% gross margin, it would have to rise by about 34%. The industry took 4–5%.</p>
+
+<div class="chart">
+  <div class="c-title">One kilogram of detergent, before and after the shock</div>
+  <div class="c-sub">ILLUSTRATIVE composite: ₹ per kg of net realisation (₹83 after GST, trade margins and promotions), with the price held unchanged. LABSA +60%, packaging +50%; other inputs flat</div>
+  <div class="stack-row"><div class="blab">Before (Jan 2026)</div><div class="stack"><span style="width:24.1%;background:var(--bad)">LABSA 20</span><span style="width:9.6%;background:var(--om)">Ash 8</span><span style="width:4.8%;background:var(--ink-faint)"></span><span style="width:6%;background:var(--epc)"></span><span style="width:5.4%;background:var(--gold)"></span><span style="width:50.1%;background:var(--wtg)">Gross profit 41.5</span></div></div>
+  <div class="stack-row"><div class="blab">After (May 2026)</div><div class="stack"><span style="width:38.6%;background:var(--bad)">LABSA 32</span><span style="width:9.6%;background:var(--om)">Ash 8</span><span style="width:4.8%;background:var(--ink-faint)"></span><span style="width:6%;background:var(--epc)"></span><span style="width:8.1%;background:var(--gold)">Pack</span><span style="width:32.9%;background:var(--wtg)">GP 27.3</span></div></div>
+  <div class="legend"><span><i style="background:var(--bad)"></i>LABSA (₹20 → ₹32)</span><span><i style="background:var(--om)"></i>Soda ash (₹8)</span><span><i style="background:var(--ink-faint)"></i>Fillers (₹4)</span><span><i style="background:var(--epc)"></i>Enzymes, brighteners, perfume (₹5)</span><span><i style="background:var(--gold)"></i>Packaging (₹4.5 → ₹6.75)</span><span><i style="background:var(--wtg)"></i>Gross profit (₹41.5 → ₹27.3)</span></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">The price rise needed, and the price rise taken</div>
+  <div class="c-sub">% increase in net price per kg. First two bars from the ILLUSTRATIVE worked example above; the third is the 4–5% the major players took in Q1 FY27 (company calls; analyst citation for HUL/GCPL)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Restore 50% gross margin</div><div class="track"><span class="fill bad" style="width:85%"></span></div><div class="bval">~34%</div></div>
+    <div class="bar-row"><div class="blab">Hold ₹ gross profit per kg</div><div class="track"><span class="fill gold" style="width:42.5%"></span></div><div class="bval">~17%</div></div>
+    <div class="bar-row"><div class="blab">Industry actually took</div><div class="track"><span class="fill wtg" style="width:11.3%"></span></div><div class="bval">4–5%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 40%. Shoppers buying ₹10 packs will not accept a 17% jump, so companies raise prices in steps and trim grams, and the margin takes the gap.</span></div>
+</div>
+
+<h3>Why prices could not follow</h3>
+<p>Three features of the category kept prices from following costs. Price points are sticky: much of the volume sells in ₹5, ₹10 and ₹20 packs, and moving a ₹10 pack to ₹12 loses shoppers, so companies cut grams instead, slowly. Leadership is concentrated: no follower can price up until HUL does, and HUL priced cautiously because it was pursuing volume (Section 9). And the shock was expected to be temporary: after the 7 April ceasefire, nobody wanted to be the brand that took a 15% increase just before input prices fell back. Jyothy took about 3% in Q1 and 4–4.5% cumulatively, with Personal Care up 9–10%, Fabric about 5%, and dishwash "competitive", a polite word for flat.</p>
+
+<div class="chart">
+  <div class="c-title">Jyothy's gross margin, ten quarters</div>
+  <div class="c-sub">% of revenue, company presentations. The decline started in FY25 with dishwash price cuts and liquids mix; the war took 6.7 points in Q1 FY27</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Q4 FY24</div><div class="track"><span class="fill wtg" style="width:90%"></span></div><div class="bval">49.5%</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY25</div><div class="track"><span class="fill wtg" style="width:93.3%"></span></div><div class="bval">51.3%</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY25</div><div class="track"><span class="fill wtg" style="width:91.3%"></span></div><div class="bval">50.2%</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY25</div><div class="track"><span class="fill wtg" style="width:90.5%"></span></div><div class="bval">49.8%</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY25</div><div class="track"><span class="fill wtg" style="width:89.5%"></span></div><div class="bval">49.2%</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY26</div><div class="track"><span class="fill brand" style="width:87.3%"></span></div><div class="bval">48.0%</div></div>
+    <div class="bar-row"><div class="blab">Q2 FY26</div><div class="track"><span class="fill brand" style="width:87.5%"></span></div><div class="bval">48.1%</div></div>
+    <div class="bar-row"><div class="blab">Q3 FY26</div><div class="track"><span class="fill brand" style="width:84.5%"></span></div><div class="bval">46.5%</div></div>
+    <div class="bar-row"><div class="blab">Q4 FY26</div><div class="track"><span class="fill gold" style="width:82.2%"></span></div><div class="bval">45.2%</div></div>
+    <div class="bar-row"><div class="blab">Q1 FY27</div><div class="track"><span class="fill bad" style="width:70%"></span></div><div class="bval">38.5%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 55%. Q2 FY27 (Sep-26) is due on 4 Nov 2026; management guided that the margin would be "not materially lower" than Q1.</span></div>
+</div>
+
+<h3>The sensitivity every analyst should carry</h3>
+<p>On revenue of about ₹3,000 crore, each percentage point of gross margin is worth about ₹30 crore of EBITDA, about ₹22 crore of net profit after tax, and about ₹0.60 of earnings per share on 36.7 crore shares (ILLUSTRATIVE, holding other costs constant). Returning from Q1 FY27's 38.5% to FY26's 47.0% would add roughly ₹255 crore of annual EBITDA, more than half of FY26's ₹450 crore. That is why the stock trades on crude-oil headlines. An indicative recovery path: if LABSA and packaging fall back about 25% from their peak in the second half of FY27 and Jyothy holds its 4–4.5% price increase, the gross margin could return to 44–46%; with A&amp;P restored to about 8%, EBITDA margin would be around 12–14% in H2 FY27 and 15–16% in FY28. Management's own language is "H2 substantially better than H1" and a long-run "swing back to the historical margin levels". That recovery has two conditions: crude stays below its spring peak, and HUL does not use the relief to cut prices again.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>A kilogram of washing powder is mostly cheap white minerals, held together by one oil-based chemical that does the cleaning. When that chemical's price jumped 60%, the cost of making the powder jumped by roughly a third. To keep earning the same profit per kilogram, companies would have needed to raise prices by about 17%; they raised them by 4–5%. The firms that make the chemical earned more; the firms that sell the powder earned less.</p>
+</div>
+
+<h3>Management's response: fewer crude-linked inputs</h3>
+<p>Jyothy says it has been working "for the last 1, 1.5 years" on reducing crude-linked raw materials, and the chairperson called 2026 "a very big lesson learned and we've paid a huge price". The options are limited. Plant-based surfactants from coconut or palm swap crude risk for palm risk, and Jyothy already flags soap-noodle inflation from June 2026. Bio-surfactants (rhamnolipids, sophorolipids) are expensive and not yet at scale. Re-formulation to use less LABSA per wash, value engineering in packaging, and shifting the mix toward Personal Care (Margo soap, which also benefits from the 5% GST rate) are the near-term levers. None of these changes the basic fact that a detergent maker that does not make its own LAB is a price-taker on its largest input.</p>
+</section>
+
+<section class="part" id="p6">
+<div class="part-head"><span class="pno">06</span><h2>One giant, a crowded field: who sells India's home care</h2></div>
+<p class="part-sub">HUL leads most aisles. Below it sit two family-owned economy makers, two multinational subsidiaries that file no public accounts, the diversified FMCG majors and one listed specialist.</p>
+
+<p>Industry structure in Indian home care differs aisle by aisle, but one pattern holds across most of them: HUL leads, a second tier of two to four large brands follows, and a long regional and unorganised tail fills the bottom. Brand-level market shares are rarely disclosed. The companies' own statements give ranks, not percentages: Jyothy says Ujala is number one in fabric whitener, Exo is the number-two dishwash bar and number two in dishwash by value, and Maxo is number two in mosquito coils by volume; HUL speaks of "strengthened market leadership"; Godrej Consumer of "strong market share gain across formats" in insecticides. Percentages quoted below for HUL, Vim and Good Knight are industry estimates and should be read as ranges, not facts.</p>
+
+<h3>Aisle by aisle</h3>
+<ul class="clean">
+<li><strong>Fabric care.</strong> HUL is the clear leader across the ladder with Wheel (economy), Rin (mid-tier) and Surf excel (premium), at an estimated 35–40% of value. The second tier is RSPL's Ghadi (the largest economy brand), Nirma, and P&amp;G's Tide and Ariel. Then come Godrej Consumer (Fab liquid), Jyothy (Henko, Mr. White, Ujala Detergent, More Light; an estimated 2–3% of fabric-care value), Patanjali, Fena, regional brands and private label. Post-wash whitener is a Jyothy near-monopoly.</li>
+<li><strong>Dishwash.</strong> HUL's Vim leads bars and liquids (industry estimates put its share well above half). Jyothy's Exo is the number-two bar; Pril was the number-two liquid until May 2026. Patanjali, regional bars and private label follow. Godrej Consumer entered with Spic (national from Q1 FY27) and Rizz liquid (launched in West and South India in Q2 FY27).</li>
+<li><strong>Household insecticides.</strong> Godrej Consumer leads with Good Knight and HIT, and gained share in Q2 FY27. Reckitt's Mortein is a large number two. Jyothy's Maxo is number two in coils by volume (about 23.8% of coils on screener's profile) and small in vaporisers (about 8.3%). Dabur's Odomos leads repellent creams. A large unregistered incense-stick fringe competes with all of them.</li>
+<li><strong>Toilet and surface cleaners.</strong> Reckitt (Harpic, Lizol) dominates; HUL (Domex, Vim floor cleaner), Dabur (Sanifresh) and ITC (Nimyle, acquired in 2021) follow.</li>
+<li><strong>Air fresheners.</strong> Godrej Consumer's aer leads; Reckitt's Air Wick and Dabur's Odonil follow. Dabur reported a 131-basis-point share gain for Odonil in Q4 FY26.</li>
+</ul>
+
+<div class="chart">
+  <div class="c-title">The players by size</div>
+  <div class="c-sub">₹ Cr revenue; each bar names its basis and year. HUL Home Care segment FY26. Nirma consolidated FY25 (CRISIL; includes soda ash, LAB, caustic and pharma, so only part is home care). P&amp;G Home Products FY25 (PTI report of the RoC filing; includes baby and hair care; secondary). GCPL standalone Home Care: Q2 FY27 ₹1,329 Cr × 4 (INDICATIVE run-rate). RSPL FY25 (CRISIL). Jyothy Fabric + Home Care FY26. Dabur home care INDICATIVE order of magnitude (not disclosed)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">HUL Home Care<small>FY26 segment</small></div><div class="track"><span class="fill brand" style="width:94.7%"></span></div><div class="bval">23,672</div></div>
+    <div class="bar-row"><div class="blab">Nirma group<small>FY25, all businesses</small></div><div class="track"><span class="fill ink" style="width:48.9%"></span></div><div class="bval">12,231</div></div>
+    <div class="bar-row"><div class="blab">P&amp;G Home Products<small>FY25, incl. non-home</small></div><div class="track"><span class="fill om" style="width:36.2%"></span></div><div class="bval">9,054</div></div>
+    <div class="bar-row"><div class="blab">GCPL Home Care<small>run-rate, indicative</small></div><div class="track"><span class="fill om" style="width:21.3%"></span></div><div class="bval">~5,300</div></div>
+    <div class="bar-row"><div class="blab">RSPL (Ghadi)<small>FY25</small></div><div class="track"><span class="fill gold" style="width:18.2%"></span></div><div class="bval">4,543</div></div>
+    <div class="bar-row"><div class="blab">Jyothy Fabric + Home<small>FY26</small></div><div class="track"><span class="fill wtg" style="width:10.5%"></span></div><div class="bval">2,624</div></div>
+    <div class="bar-row"><div class="blab">Dabur home care<small>indicative</small></div><div class="track"><span class="fill om" style="width:2.9%"></span></div><div class="bval">~650–800</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = ₹25,000 Cr. HUL's Home Care segment is about nine times the listed specialist's comparable business.</span></div>
+</div>
+
+<h3>The unlisted heavyweights</h3>
+<p>Much of Indian home care is sold by companies that do not list their shares, and their accounts surface only through rating rationales and company-registry filings. That makes them easy to overlook, and a mistake to ignore.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Unlisted and multinational players in Indian home care</caption>
+  <thead><tr><th>Player</th><th>Ownership</th><th>Home-care brands</th><th>Latest financials</th><th>Source</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">RSPL Ltd</td><td>Gyanchandani family, Kanpur</td><td>Ghadi (55–60% of revenue), Venus, Uniwash, Xpert</td><td>FY25 revenue ₹4,543 Cr (−21.6%), EBITDA ₹594 Cr (13.1%), PAT ₹240 Cr; outlook Negative</td><td>CRISIL, 23 Sep 2025</td></tr>
+    <tr><td class="t-strong">Nirma Ltd</td><td>Karsanbhai Patel family (delisted 2012)</td><td>Nirma powder and bar, Nima</td><td>FY25 consolidated revenue ₹12,231 Cr, loss ₹2,310 Cr (CRISIL-adjusted); consumer and chemicals being demerged into Ocular Enterprises</td><td>CRISIL, 24 Jun 2026</td></tr>
+    <tr><td class="t-strong">Procter &amp; Gamble Home Products Ltd</td><td>P&amp;G Inc. (99.98%)</td><td>Tide, Ariel (plus Pampers, Pantene)</td><td>FY25 revenue ₹9,054 Cr (+3.4%), PAT ₹683 Cr, A&amp;P ₹930 Cr, royalty ₹410 Cr</td><td>PTI report of RoC filing (secondary)</td></tr>
+    <tr><td class="t-strong">Reckitt Benckiser (India) Pvt Ltd</td><td>Reckitt plc</td><td>Harpic, Lizol, Mortein, Air Wick</td><td>Not available; a database snippet shows 2025 sales +6.7%</td><td>Unverified</td></tr>
+    <tr><td class="t-strong">Henkel AG</td><td>German multinational</td><td>Pril, Fa (returned 31 May 2026)</td><td>Rebuilding a direct Indian presence through Schwarzkopf</td><td>Secondary (Finshots)</td></tr>
+    <tr><td class="t-strong">Others</td><td>Various</td><td>ITC (Nimyle), Fena, regional brands, quick-commerce private labels, D2C eco brands</td><td>Small individually</td><td>—</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>Four corrections to common shorthand follow from this table. RSPL is no longer the ₹5,800 crore company of FY24: its FY25 revenue was ₹4,543 crore, and Ghadi, at 55–60% of that, is roughly ₹2,500–2,700 crore, about 0.85–0.95 times Jyothy's total revenue, not larger than it. P&amp;G's Tide and Ariel sit in P&amp;G Home Products, not in the listed P&amp;G Hygiene &amp; Health Care (which sells Whisper and Vicks and has no home care); even CRISIL's RSPL rationale confuses the two. Nirma's group revenue is mostly chemicals, not consumer products. And Patanjali Foods, which bought Patanjali Ayurved's home and personal care business in 2024 for ₹1,100 crore, does not disclose a home-care figure.</p>
+
+<h3>Concentration: the listed home-care pool</h3>
+<p>Only two listed companies disclose a home-care segment on a comparable basis: HUL (Home Care: fabric wash and household care) and Jyothy (Fabric Care plus Home Care). Adding them gives a "listed home-care pool" of ₹26,296 crore of FY26 revenue and ₹4,935 crore of segment profit, an 18.8% margin as a ratio of sums. Jyothy is 10.0% of that pool by revenue and 8.4% by profit. Godrej Consumer's standalone Home Care (FY26 figure not on the same basis) and Dabur's home care (not disclosed) are excluded.</p>
+
+<div class="chart">
+  <div class="c-title">The listed home-care pool, FY26</div>
+  <div class="c-sub">Share of combined segment revenue (₹26,296 Cr) and segment profit (₹4,935 Cr). HUL Home Care segment EBIT; Jyothy Fabric Care + Home Care segment result (restated three-segment basis). Ratio of sums. Source: HUL and Jyothy annual reports 2025-26</div>
+  <div class="stack-row"><div class="blab">Revenue ₹26,296 Cr</div><div class="stack"><span style="width:90%;background:var(--brand)">HUL 90%</span><span style="width:10%;background:var(--gold)">JL 10%</span></div></div>
+  <div class="stack-row"><div class="blab">Segment profit ₹4,935 Cr</div><div class="stack"><span style="width:91.6%;background:var(--brand)">HUL 91.6%</span><span style="width:8.4%;background:var(--gold)">8%</span></div></div>
+  <div class="legend"><span><i style="background:var(--brand)"></i>HUL Home Care: ₹23,672 Cr revenue, ₹4,521 Cr EBIT (19.1%)</span><span><i style="background:var(--gold)"></i>Jyothy Fabric + Home Care: ₹2,624 Cr revenue, ₹414 Cr result (15.8%)</span></div>
+</div>
+
+<h3>Distribution: the moat that still matters</h3>
+<p>The single biggest structural advantage in Indian home care is distribution reach, because a low-ticket, high-frequency product sells where it is stocked. HUL reaches more than 9 million outlets. Jyothy reaches about 4 million, 1.4 million of them directly, through more than 10,000 channel partners. RSPL's Ghadi reaches 2.8–3.0 million through 3,700 stockists and distributors. Direct reach decides whether a company controls its shelf, its credit terms and its retail promotions, and whether it gets paid in advance: Jyothy sells much of its GT volume on advance payment.</p>
+
+<div class="chart">
+  <div class="c-title">Distribution reach</div>
+  <div class="c-sub">Million outlets. HUL total (direct and indirect), annual report 2025-26. Jyothy total and direct, Q1 FY27 presentation. RSPL retail reach, CRISIL rationale (Sep 2025)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">HUL<small>total</small></div><div class="track"><span class="fill brand" style="width:90%"></span></div><div class="bval">9.0+</div></div>
+    <div class="bar-row"><div class="blab">Jyothy<small>total</small></div><div class="track"><span class="fill wtg" style="width:40%"></span></div><div class="bval">4.0</div></div>
+    <div class="bar-row"><div class="blab">RSPL (Ghadi)<small>total</small></div><div class="track"><span class="fill gold" style="width:29%"></span></div><div class="bval">2.8–3.0</div></div>
+    <div class="bar-row"><div class="blab">Jyothy<small>direct</small></div><div class="track"><span class="fill spec" style="width:14%"></span></div><div class="bval">1.4</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 10 million outlets. Jyothy added about 100,000 direct outlets in FY26.</span></div>
+</div>
+
+<h3>Imports, China and the organised share</h3>
+<p>Finished home-care goods are barely traded: they are bulky and cheap per kilogram. The trade exposure is in inputs. LAB and LABSA come partly from West Asia; pyrethroid actives from China; polymer resins and perfumes from global suppliers. The 2026 war showed the risk of that exposure, and the weak rupee, near ₹95 to the dollar, added to it. China's influence is indirect: its soda-ash oversupply helped Indian detergent makers in 2026 even as its chemicals capacity pressured Indian chemical producers. Fabric care and dishwash are an estimated 75–85% organised and branded; the unorganised share is higher in bars and in insecticides, where unregistered incense sticks are the fastest-growing format of all.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>HUL sells roughly nine rupees of home care for every rupee Jyothy sells in the same aisles. The big names you rarely see in stock-market tables, Ghadi, Nirma, Tide and Harpic's owner, sell far more than Jyothy does too. That matters because the price on the shelf is set by these giants. A smaller company can win an aisle the giants ignore, as Jyothy did with whitener, but where the giants fight, it follows.</p>
+</div>
+</section>
+
+<section class="part" id="p7">
+<div class="part-head"><span class="pno">07</span><h2>Five ways to run a home-care business</h2></div>
+<p class="part-sub">The scale leader, the niche specialist, the integrated economy maker, the insecticide specialist and the digital newcomer earn similar margins in good years by completely different routes, and suffer differently in bad ones.</p>
+
+<p>The companies in this sub-sector fall into five business models. The distinction matters because each model has a different answer to the three questions that decide home-care profits: who sets the price, how exposed the cost base is to crude, and what the company spends to defend its shelf.</p>
+
+<div class="tbl-wrap">
+<table>
+  <caption>Business-model archetypes in Indian home care</caption>
+  <thead><tr><th>Archetype</th><th>Examples</th><th>Gross margin</th><th>A&amp;P % sales</th><th>EBIT / EBITDA %</th><th>What wins</th></tr></thead>
+  <tbody>
+    <tr><td class="t-strong">1. Scale multi-category leader</td><td>HUL Home Care; P&amp;G; Unilever</td><td>~45–50% (indicative)</td><td>9–12% (indicative)</td><td>Segment EBIT 16–19% (HUL, reported)</td><td>Full price ladder, 9 mn+ outlets, media weight, R&amp;D, price leadership</td></tr>
+    <tr><td class="t-strong">2. Niche specialist / challenger</td><td>Jyothy; Dabur's home care</td><td>45–51% normal; 38.5% in shock</td><td>7–9%</td><td>EBITDA 15–18% normal; 8.4% in shock</td><td>Owning neglected niches, frugal costs, regional depth, cash discipline</td></tr>
+    <tr><td class="t-strong">3. Integrated economy maker</td><td>RSPL (Ghadi); Nirma</td><td>~30–35% (indicative)</td><td>2–5% (indicative)</td><td>EBITDA 13–19% (RSPL FY23–FY25)</td><td>Soda ash and LAB integration, low price per kg, heartland reach, minimal advertising</td></tr>
+    <tr><td class="t-strong">4. Insecticide-centric specialist</td><td>GCPL Home Care; Reckitt (Mortein)</td><td>High (molecule IP, recurring refills)</td><td>High, seasonal</td><td>GCPL standalone EBITDA 21.0% (Q2 FY27, whole standalone business)</td><td>Registrations, molecule innovation, installed base of vaporiser machines</td></tr>
+    <tr><td class="t-strong">5. Digital-first / private label</td><td>Plant-based D2C detergents; QC own-labels</td><td>Variable</td><td>Very high (digital acquisition)</td><td>Mostly loss-making</td><td>Online assortment, eco claims; small scale</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>1. The scale leader</h3>
+<p>HUL Home Care is the reference model. It covers every rung of the price ladder in laundry (Wheel, Rin, Surf excel, Comfort) and dishwash (Vim bars and liquids, Sun liquid at the value end), so it can fight a challenger at whatever price point the challenger chooses. It spends more on advertising in absolute rupees than any rival can, reaches more than 9 million outlets, and draws on Unilever's global formulation science. Above all it sets prices. When it cut prices and added grammage in FY26, followers had to match; when it priced up cautiously in H1 FY27 while pursuing volume, followers could not price ahead of it. Its segment margin, 19.1% in FY26, is at or above most global home-care businesses. Its weakness is size: it cannot grow much faster than the market except by taking share, and in 2026 it chose to do exactly that.</p>
+
+<h3>2. The niche specialist</h3>
+<p>Jyothy built a ₹2,944 crore business by owning categories the giants under-invested in: fabric whitener (Ujala), dishwash bars (Exo), coils (Maxo), and a portfolio of licensed and acquired detergent brands from the 2011 Henkel India deal. The model is frugal (A&amp;P of 7–9%), regionally deep (strongest in the South), cash-generative and capital-light. Its weaknesses showed in 2026. About 90% of revenue is crude-exposed home care, against roughly 37% at HUL. It is a price-follower in contested aisles. And its media weight is too small to protect pricing in a downturn. The same exposure works in reverse when costs fall: Jyothy's EBITDA margin went from 12.7% in FY23 to 17.4% in FY24 as commodities eased, a faster recovery than any diversified peer.</p>
+
+<h3>3. The integrated economy maker</h3>
+<p>RSPL and Nirma sell the cheapest branded detergents in India and still earned margins comparable to HUL's in good years. RSPL's EBITDA margin was 18.3% in FY23 and 19.2% in FY24 according to CRISIL. They do it by making their own soda ash (RSPL has 1,500 tonnes a day of capacity and is adding 750 tonnes a day for ₹800–1,000 crore; Nirma also makes LAB), placing plants close to heartland markets to cut freight, and spending very little on advertising. FY25 showed the limit of the model: integration protects cost but not volume. When Ghadi volumes fell after a product recall, RSPL's margin dropped to 13.1% on lower fixed-cost absorption and weaker soda-ash prices. Section 8 is a deep dive on these players.</p>
+
+<h3>4. The insecticide-centric specialist</h3>
+<p>Godrej Consumer's Home Care business is built around household insecticides (Good Knight, HIT) and air fresheners (aer). Insecticides reward a different set of skills: regulatory registration (every molecule and formulation needs approval under the Insecticides Act), molecule innovation (GCPL owns a patented in-house molecule, Renofluthrin), and an installed base of liquid-vaporiser machines that generate recurring refill sales. Margins are high and seasonal. GCPL is now using this platform to enter Jyothy's other aisles: Godrej Fab in liquid detergents, Spic and Rizz in dishwash.</p>
+
+<h3>5. The digital newcomer</h3>
+<p>Plant-based and "eco" detergent brands sold online, and private labels on quick-commerce platforms, are small and mostly loss-making. Their significance is that they raise the innovation bar (Jyothy's annual report notes that "founder-led, digital-first brands have raised innovation benchmarks") and that quick-commerce platforms can place their own labels next to national brands at a lower price.</p>
+
+<div class="chart">
+  <div class="c-title">Margins by business model</div>
+  <div class="c-sub">%; each bar names its measure and period. HUL Home Care segment EBIT (annual report; Q2 FY27 from HUL's presentation). Jyothy operating EBITDA (company). RSPL EBITDA (CRISIL). GCPL standalone EBITDA, whole standalone business (press release). P&amp;G Home Products net profit margin FY25 (PTI, secondary): a net margin, not EBITDA</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">GCPL standalone<small>EBITDA, Q2 FY27</small></div><div class="track"><span class="fill om" style="width:84%"></span></div><div class="bval">21.0%</div></div>
+    <div class="bar-row"><div class="blab">RSPL<small>EBITDA, FY24</small></div><div class="track"><span class="fill gold" style="width:76.8%"></span></div><div class="bval">19.2%</div></div>
+    <div class="bar-row"><div class="blab">HUL Home Care<small>EBIT, FY26</small></div><div class="track"><span class="fill brand" style="width:76.4%"></span></div><div class="bval">19.1%</div></div>
+    <div class="bar-row"><div class="blab">HUL Home Care<small>EBIT, Q2 FY27</small></div><div class="track"><span class="fill brand" style="width:64%"></span></div><div class="bval">16%</div></div>
+    <div class="bar-row"><div class="blab">Jyothy<small>EBITDA, FY26</small></div><div class="track"><span class="fill wtg" style="width:61.2%"></span></div><div class="bval">15.3%</div></div>
+    <div class="bar-row"><div class="blab">RSPL<small>EBITDA, FY25</small></div><div class="track"><span class="fill gold" style="width:52.4%"></span></div><div class="bval">13.1%</div></div>
+    <div class="bar-row"><div class="blab">Jyothy<small>EBITDA, Q1 FY27</small></div><div class="track"><span class="fill bad" style="width:33.6%"></span></div><div class="bval">8.4%</div></div>
+    <div class="bar-row"><div class="blab">P&amp;G Home Products<small>net margin, FY25</small></div><div class="track"><span class="fill om" style="width:30%"></span></div><div class="bval">7.5%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 25%. Similar peaks, very different troughs.</span></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">What each model spends to defend its shelf</div>
+  <div class="c-sub">Advertising and promotion, % of revenue. P&amp;G Home Products FY25 (₹930 Cr on ₹9,054 Cr; PTI, secondary). Jyothy FY24–Q1 FY27 (company). HUL Home Care and economy makers are INDICATIVE ranges shown at midpoint; neither discloses a segment figure</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">HUL Home Care<small>indicative</small></div><div class="track"><span class="fill brand" style="width:83.3%"></span></div><div class="bval">9–11%</div></div>
+    <div class="bar-row"><div class="blab">P&amp;G Home Products<small>FY25</small></div><div class="track"><span class="fill om" style="width:85.8%"></span></div><div class="bval">10.3%</div></div>
+    <div class="bar-row"><div class="blab">Jyothy<small>FY25</small></div><div class="track"><span class="fill wtg" style="width:70%"></span></div><div class="bval">8.4%</div></div>
+    <div class="bar-row"><div class="blab">Jyothy<small>FY26</small></div><div class="track"><span class="fill wtg" style="width:64.2%"></span></div><div class="bval">7.7%</div></div>
+    <div class="bar-row"><div class="blab">Jyothy<small>Q1 FY27</small></div><div class="track"><span class="fill bad" style="width:54.2%"></span></div><div class="bval">6.5%</div></div>
+    <div class="bar-row"><div class="blab">Economy makers<small>indicative</small></div><div class="track"><span class="fill gold" style="width:29.2%"></span></div><div class="bval">2–5%</div></div>
+  </div>
+  <div class="legend"><span>Scale: full bar = 12% of revenue. Jyothy's cut in A&amp;P protected 2026 margins at the cost of share of voice against far bigger spenders.</span></div>
+</div>
+
+<p>The lesson from the five models is that margin level says little about resilience. RSPL and HUL Home Care earned similar margins in FY24 from opposite ends of the ladder; Jyothy was only a few points behind. What differs is what each model does when something goes wrong. The leader can choose to sacrifice margin for share and still earn 16%. The specialist cannot choose: it takes the cost shock in full and must follow the leader's pricing. The integrated economy maker is protected on input costs but exposed to its own brand problems. The insecticide specialist depends on weather and regulation more than on crude. A diversified FMCG company carries home care as one division among several, which is why the market pays it a higher multiple for the same category exposure (Section 15).</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>There are several ways to make good money selling detergent. Be so big that you set the price everyone else follows. Be the cheapest and make your own raw materials. Or find small corners the giants ignore. In good years all three earn similar margins. In bad years the giant chooses how much to suffer, the cheapest player is protected on costs, and the corner-finder simply suffers.</p>
+</div>
+</section>
+
+<!--CONTINUE-->
+</main>
+</div>
+</div>
+</body>
+</html>
