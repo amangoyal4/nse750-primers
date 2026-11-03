@@ -1045,3 +1045,698 @@ Basis: **screener.in, FY26 annual, consolidated (Camlin standalone), m-cap at 3-
 - BIC FY2025: https://www.globenewswire.com/news-release/2026/02/24/3243883/0/en/BIC-FULL-YEAR-2025-RESULTS.html
 - BIS office-items compendium (Jun-2025): https://www.services.bis.gov.in/tmp/final-compendium-on-office-items-13-06-25.pdf
 - Sibling: subsectors/houseware.html (Cello pens, GST 2.0 table, Technopak writing-instrument series, QCOs)
+
+---
+
+# PART 4 — Deep-research supplement (3-Nov-2026)
+
+Second, primary-source pass written 3-Nov-2026 (10:20–11:30 UTC). It **adds to and corrects** Parts 1–3. Where this part and Parts 1–3 disagree, use this part; the corrections are listed in §4.0.
+
+**What was fetched this session (all with a generic UA, no logins):**
+- **DOMS filings, re-downloaded and checked byte-for-byte against the first pass's copies (MD5 identical):** Q2 FY27 board outcome and results, Q2 FY27 results release, Q1 FY27 and Q4 FY26 transcripts, Annual Report FY2025-26 (all from bseindia.com).
+- **DOMS, new this pass:** the investor-relations page (domsindia.com), the **Q2 FY26 transcript (11-Nov-2025)**, the **Q3 FY26 transcript (2-Feb-2026)**, and the Q2 FY27 presentation (company copy). Pages 7 and 20 of that presentation were rendered to images and read, so the chart labels are confirmed.
+- **Screener (consolidated, re-pulled 3-Nov ~10:30 UTC):** DOMS, Flair, Linc (consolidated and standalone), Navneet, Cello; Kokuyo Camlin standalone.
+- **Reference-peer filings:** Flair Q2 FY27 press release and presentation (2-Nov-2026), Flair Q1 FY27 transcript (12-Aug-2026), Flair AR FY26; Navneet Q1 FY27 transcript (29-Jul-2026); Linc Q1 FY27 transcript (7-Aug-2026) and Linc AR FY26; Cello Q1 FY27 presentation; Kokuyo Camlin AR FY26.
+- **GST:** the text of **Notification 9/2025-CT(Rate)** and **10/2025-CT(Rate)**, both dated 17-Sep-2025. These are copies of the CBIC gazette files (`09-2025-CTR-eng.pdf`, `10-2025-CTR-eng.pdf`) mirrored at ftp.caalley.com. cbic-gst.gov.in itself was not reached.
+- **Enrolment:** the PIB backgrounder on UDISE+ 2025-26 (17-Aug-2026), Prof. Arun Mehta's UDISE+ 2025-26 analysis, and a national UDISE+ compilation for 2020-21 to 2024-25 (educationforallinindia.com, built from udiseplus.gov.in).
+- **Trade:** UN Comtrade for 2022.
+- **Global peers:** F.I.L.A.'s FY2025 press release, Pilot's 2025–27 plan-progress deck, and Faber-Castell's FY2023/24 release.
+- **Secondary sources:** Tofler (Hindustan Pencils, MCA-derived free tier), the Euromonitor public report summary, and eximpe.com HSN pages (customs duty).
+
+**What was not found:**
+- A Q2 FY27 DOMS earnings-call transcript or audio. The IR page on 3-Nov lists audio and transcripts only up to Q1 FY2027.
+- Any credit-rating rationale for Hindustan Pencils.
+- ITC's stationery revenue.
+- A new primary market-size study.
+
+**Tag use in this part:**
+- **[V]** = read this session from the named primary document.
+- **[V-sec]** = read this session from a secondary compiler of primary data (Tofler/MCA, eximpe/CBIC tariff, the educationforallinindia UDISE+ compilation).
+- **[V-snip]** = search snippet only.
+- **[E]** = our arithmetic or estimate.
+- **[K]** = from memory, not fetched.
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer should apply these)
+
+| # | Item (where in Parts 1–3) | Old value | New value | Source |
+|---|---|---|---|---|
+| 1 | Related-party sales to FILA group, FY26 (trap 8, §2.1 FILA, H-8) | ~₹133 Cr (standalone) vs 7.3% of GPS unexplained | **₹175.6 Cr consolidated (FY25 ₹164.5 Cr)** = 7.26% of GPS ₹2,420.6 Cr, so it **reconciles with the 7.3% channel figure**. Standalone ₹133.0 Cr; the ~₹42.6 Cr gap is subsidiaries' sales to FILA entities (e.g. Dixon Ticonderoga ₹109.8 Cr consolidated vs ₹75.4 Cr standalone) | [V] AR FY26 note 43, consolidated vs standalone RPT tables |
+| 2 | FILA's largest customer entity (trap 8; §2.3 "DOMS ≈30% of India's pencil exports to US") | Dixon Ticonderoga ₹75.4 Cr | **₹109.8 Cr consolidated (FY25 ₹114.4 Cr; −4%)**; standalone ₹75.4 Cr (₹83.0 Cr) | [V] AR note 43 |
+| 3 | FY26 category mix beyond SS/SAM (E8, §2.1 Native KPIs, H-7) | "office ~15–17%, paper ~8–9%, kits ~9–10%, hygiene ~8.7%, hobby ~3%" [E] | **Exact GPS FY26 (FY25), % of ₹2,420.6 Cr:** SS 31.5 (37.3); SAM 20.0 (22.0); **Office 15.1 (11.6)**; Kits 10.1 (9.4); Hygiene 8.9 (6.0); Paper 8.3 (9.6); Hobby & Craft 2.9 (1.2); Others 1.7 (1.2); Fine Art 1.0 (1.3); BTS 0.5 (0.2). **YoY: SS +3.2%**, SAM +11.1%, Office +58.8%, Kits +31.9%, Hygiene +79.8%, Paper +5.4%, Hobby +193.7%, Fine Art −2.4% | [V] AR FY26 "Consolidated Product Categories Performance" (₹ lakh table) |
+| 4 | Quarterly category mapping (E8 FLAG) | "read from chart label order — FLAG" | **Confirmed** from the rendered slide (Q2 FY27 PPT p.7): SS 30 / SAM 22 / Kits 8 / Office 18 / Paper 7 / H&C 3 / Fine Art 1 / BTS 0 / Hygiene 9 / Others 1 (Q2 FY27) | [V] image read |
+| 5 | Brand mix labels (§2.1 Identity: "labels not extractable") | DOMS 81.3%, others unlabelled | **DOMS 81.3% (78.0%), Wowper 8.3% (7.2%), C3 1.6% (2.4%), Others 8.8% (12.4%)** of Q2 FY27 (Q2 FY26) GPS; H1 FY27 DOMS 82.2%. Wowper ≈ hygiene share, so likely the Uniclan diaper brand [E] | [V] PPT p.7 image |
+| 6 | Second distribution column (§2.1 Native KPIs FLAG) | "95+ / 1,300+ / 55,000+ / 210+ — labels not extractable" | **Uniclan network:** 95+ super-stockists, 1,300+ distributors, 55,000+ outlets, 210+ sales staff (alongside DOMS's 140+/6,300+/1,45,000+/1,200+) | [V] PPT p.20 image |
+| 7 | Seven S.p.A. JV (status item 3; §2.1 adjacencies) | "50:50 JV … being incorporated" | **DOMS Seven Private Limited incorporated 22-Oct-2026 as a *wholly owned* subsidiary** (backpacks and bags). The 50:50 structure approved in Jan-2026 is presumably reached when Seven subscribes [E] | [V] Q2 FY27 outcome, note 6 (standalone and consolidated) |
+| 8 | GST ITC-reversal cost (trap 6, §7.1, C worked example 1, H-6, 3.5-3) | "~7–9% of ex-factory price [E]; management did not quantify" | **Management (11-Nov-2025):** nil-rating made ITC ineligible and raised cost; DOMS "reworked all our cost sheets … came up with the revised MRPs"; MRPs fell only slightly (e.g. a pencil pack **₹60 → ₹58**, vs ~₹53.6 for full pass-through of 12%); **primary-level selling prices rose ~3–4%**; "I don't see a significant impact of this on the margins". **~45% of FY25 sales** moved to nil (from 12%/5%); hygiene (~6%) moved 12% → 5%. Kits are sold as a mixed supply at **18%**, so ITC stays available on the nil items inside them. GST transition destocking cut Q2 FY26 sales by ~3–4% and needed channel credit notes. **Relabel the 7–9% figure: [E, superseded by management commentary]** | [V] Q2 FY26 transcript pp.3–4, 14 |
+| 9 | "GST 2.0 may slow formalisation" (trap 6, A-1, 3.5-4) | [E hypothesis] | Management takes the opposite view: the cut "creates a level playing field between organized and unorganized players … shift in demand towards branded products". It remains a **contested hypothesis**: present both views; there is no data either way | [V] Q2 FY26 transcript p.3 |
+| 10 | GST nil list (§7.1 table; H-5) | [V-snip] for 9609, 8214, 4016, 4820, 4802; 3213/4202 "gap" | **[V] 10/2025-CT(Rate):** S.No.121 **4016 erasers**; 128 **4802 uncoated paper used for exercise/graph/lab notebooks**; 130 **4820 exercise books, graph books, lab notebooks, notebooks**; 134 4903 children's drawing/colouring books; 136 4905 maps/globes; 156 **8214 pencil sharpeners**; 163 **9608, 9609 pencils (including propelling or sliding pencils), crayons, pastels, drawing charcoals, chalks**; 164 9610 slates. **[V] 9/2025-CT(Rate):** Sch. I (5%) S.No.410 geometry/mathematical/colour boxes (7310/7326), 321 writing compendiums (4817 30), 507 diapers (9619); Sch. II (18%) S.No.**55 artists'/students' colours (3213)**, **145 school satchels/rucksacks (4202)**, **186 registers, diaries, letter pads, file covers (other 4820)**, **570 drawing/mathematical instruments (9017)**, **626 pens/markers (9608)**, 75 glues (3506), 71 modelling paste (3407) | [V] notification texts |
+| 11 | Mechanical pencils' GST (new) | not stated | **Nil** — "propelling or sliding pencils" sit in the nil entry (S.No.163, 9608/9609). DOMS launched mechanical pencils in Q2 FY26 | [V] 10/2025; Q3 FY26 call |
+| 12 | Pencil market share and duopoly (trap 4; §0; §5.3; A-2; B1; 3.5-2) | DOMS ~29% (FY23) [V]; HP ~35–40% [E]; duopoly ~65–70% [E] | Keep **29% (Technopak, FY23)** as the only third-party figure. **Add management's claim (2-Feb-2026):** "we don't track … any market reports, but it would be fair to assume … in the pencil segment upwards of about 35%. And with the new capacities … close to about 45%". **HP's pencil share remains unsourced. Drop the "35–40%" and "65–70%" figures**, or show them as [E] scenarios only. Euromonitor (Feb-2026) gives HP **15% of all writing instruments (pens + pencils + markers) in 2025**, the market leader on its basis | [V] Q3 FY26 transcript p.10; [V] Euromonitor public summary |
+| 13 | Wooden-pencil capacity (§0, §4.2, KPIs, JSON) | 5.8 mn/day | Management gave **"5.53 million"/day on 2-Feb-2026** (correcting itself from 5.8) and "5.8 million" on 19-May-2026. Use **~5.5–5.8 mn/day → ~8 mn/day** "in the next couple of years"; the big step-up in Scholastic Stationery/Art lands in **FY28** | [V] Q3 FY26 and Q4 FY26 transcripts |
+| 14 | Hindustan Pencils financials (trap 12; §5.1; 2.2; H-3) | FY25 revenue ₹1,374.74 Cr; "profit not found"; "HP 12% CAGR FY23–25" | FY25 (Mar-25): **total revenue −1.09% YoY → FY24 ≈ ₹1,390 Cr [E]**; **EBITDA −58.6%, net profit −77.5% YoY**; operating margin −4.28 pts, net margin −2.88 pts; net worth +2.5%; D/E 0.04; revenue band ₹1,250–1,500 Cr; AGM 30-Sep-2025. So **HP was flat and its margins collapsed in FY25** while DOMS grew 24%. DOMS was already larger in FY24 (₹1,537 Cr vs ~₹1,390 Cr). The "12% CAGR" rests on Technopak's ₹1,100 Cr FY23 figure, which looks low against an FY24 of ~₹1,390 Cr — treat Technopak's HP number as approximate | [V-sec] Tofler free tier (MCA filings); [V-snip] PrivateCircle |
+| 15 | Basic customs duty (§7.3; H-13) | "~20% + SWS [K]" | **BCD 10% (MFN)** on 9609 10 00 pencils/crayons, 9608 10 19 ball pens, 4820 20 00 exercise books (CBIC First Schedule as on 30-Jun-2025). Effective ~12.1% on pencils (IGST nil) and ~32.3% on pens (with 18% IGST). **FTA rates: 0% from ASEAN, Japan, Korea** on pencils/notebooks (pens from ASEAN 5%; UAE 0%). No anti-dumping duty found | [V-sec] eximpe HSN pages (state CBIC basis) |
+| 16 | UDISE+ series (trap 11; §3.2; E10; stat-strip cell 5) | 2019-20 26.45 [K], 2020-21 26.44 [K], 2021-22 26.52 [V-snip], …, 2024-25 24.68 "seven-year low" | 2020-21 **26.44 cr**; 2021-22 **26.52**; 2022-23 **25.18**; 2023-24 **24.80**; 2024-25 **24.69** [V-sec compilation]; **2025-26 24.72 cr** (pre-primary to XII; released 7-Jul-2026) [V PIB]. **The fall has stopped**: Grades I–XII −0.25% in 2025-26, but **primary (I–V) −2.36%** to 10.19 cr. **Methodology break confirmed:** 2022-23 onwards (student-wise) is *not comparable* with 2021-22 and earlier. 2019-20 stays [K] | [V] PIB 17-Aug-2026; [V-sec] Mehta, compilation |
+| 17 | Govt vs private enrolment (trap 11; §3.2) | "private 9.00 → 9.59 cr (2023-24 → 2024-25)" | Compilation: **private unaided 8.09 → 9.59 cr** (2023-24 → 2024-25), so ThePrint's 9.00 is on a different grouping; **2025-26 private unaided 8.82 cr = 37.97% of Grades I–XII** (+25.2 lakh), govt 49.66% (−30.1 lakh). Use the Grades I–XII shares for the "private-school shift" argument | [V-sec] Mehta Table 3; compilation |
+| 18 | Stat-strip cell 5 (D) | "24.68 crore — seven-year low" | **"24.72 crore — school enrolment 2025-26 (UDISE+); primary −2.4% YoY"** | [V] |
+| 19 | FILA EV/EBITDA (§10; H-15; 3.5-9) | "≈6–8× [K]" | **~6.1–6.3× FY25 adj. EBITDA** [E]: price €8.80–9.33 (May/Mar-2026 snippets) × ~51.1 mn shares = €449–476m, + IFRS16 net financial debt €189.5m, ÷ adj. EBITDA €105.2m. Note that **FILA's 19.01% of DOMS is worth ~₹2,184 Cr ≈ €199m at ₹1,893**, i.e. **~42–44% of FILA's own market cap** | [V] FILA FY2025 PR; [V-snip] price |
+| 20 | FILA FY2025 detail (§10) | €572m [V via DOMS PPT] | **€572.2m (−6.6%; −3.1% cFX); North America €272.8m (−8.7%), Europe €214.1m, C&S America €71.1m; adj. EBITDA €105.2m (18.4%); net bank debt €138.2m (1.3×); income from DOMS (26.01%) €3.1m net of €2.0m PPA**; 2026 outlook double-digit revenue and EBITDA growth | [V] FILA FY2025 PR |
+| 21 | Pilot (§10; H-14) | "~¥120bn+ [K]" | FY2025 sales **flat YoY and ¥6.6bn below plan**; ~¥126bn [V-snip]; **India sales +11.4% in 2025**, first Indian flagship store (Gurugram); India and ASEAN named as growth priorities | [V] Pilot 2025–27 plan-progress deck |
+| 22 | Faber-Castell (§10) | 2024/25 €601.8m [V-snip] | Unchanged; adds **2023/24 €618.4m (−4.7%; −1.9% cFX), return on sales "high single-digit", ~6,500 staff, production in 10 countries** | [V] Faber-Castell release 26-Aug-2024 |
+| 23 | DOMS IPO/listing (§8, G; H-19) | listed 20-Dec-2023 [K/V-snip] | **[V] listed BSE+NSE 20-Dec-2023; 1,51,96,510 shares; issue price ₹790 (employees ₹715); fresh issue 43.67 lakh + 0.70 lakh shares, OFS 1.08 crore shares** (~₹1,200 Cr). **Flair listed 1-Dec-2023 at ₹304** (99.0 lakh shares, ₹301 Cr) [V Flair AR]. Cello Nov-2023 stays [K] | [V] DOMS AR note 46; Flair AR |
+| 24 | Flair Q2 FY27 (Status table; §2.2; 3.2) | OPM 15%, PAT ₹32 Cr (screener) | Company: **revenue ₹340.1 Cr (+6.0%), GP ₹165.7 Cr (48.7% vs 51.9%), EBITDA ₹50.6 Cr (14.9% vs 18.8%), PAT ₹31.7 Cr (−25.8%)**; H1 +8.2%, EBITDA 15.8% | [V] Flair PR 2-Nov-2026 |
+| 25 | Flair network/capacity (§4.2; §2.2; F) | 7,754 distributors, 3.15 lakh outlets, 1,474 mn pcs/yr (FY23) | **167 super-stockists, 8,000+ distributors, 3,30,000+ wholesalers & retailers; capacity ~2.4 bn pieces/yr** | [V] Flair Q2 PPT; AR FY26 |
+| 26 | Linc network (§2.2; F) | 2,650+ distributors, 2.18 lakh outlets (FY23) | **40 channel partners, 4,483 distributors, 397 sales staff, 2.60 lakh retailers; India 82.81% / exports 17.19%; Mitsubishi Pencil holds 13.5%** | [V] Linc AR FY26 |
+| 27 | Cello writing instruments Q1 FY27 (§2.2) | ~₹112 Cr [V-sib] | **21.2% of ₹527 Cr = ₹111.7 Cr; WI gross margin 53.8%** (highest of Cello's three verticals) | [V] Cello Q1 FY27 PPT |
+| 28 | Kokuyo Camlin promoter stake (§5.4, §2.2) | 74.99% | **Kokuyo Co. Ltd (Japan) holds 74.44%** per AR FY26 (screener's 74.99% "promoter" may include a group entity) — FLAG | [V] Camlin AR FY26 |
+| 29 | Navneet P/E basis (§2.0, 3.2, H-20) | "23.2, basis unclear" | Implied earnings = ₹2,898 ÷ 23.2 = **₹125 Cr**, close to TTM pre-tax profit **excluding** TTM other income (₹438 − ₹291 = ₹147 Cr) after tax. Screener's P/E appears to exclude exceptional/one-off income (the ₹248 Cr Dec-25 quarter gain). **On reported TTM PAT ₹353 Cr the P/E is 8.2×** [E inference] | [V] screener rows |
+| 30 | DOMS m-cap/P/E (stat strip; 2.0) | ₹11,530 Cr; 53.0× | Re-pulled 3-Nov ~10:30 UTC: **₹11,486 Cr; ₹1,893; P/E 52.8**. Immaterial; screener's DOMS P/E ≈ m-cap ÷ ~₹217 Cr, i.e. TTM PAT **before** the flood exceptional [E] | [V] screener |
+| 31 | India trade 2022 (§2.3; H-12) | "2022 could not be retrieved" | **2022 (US$ mn):** 9609 exports 49.2 (US 20.8) / imports 19.3 (China 14.3); 9608 exports 238.0 (US 47.6) / imports 73.7 (China 36.4); 4820 exports 254.3 (**US 101.0**) / imports 8.0 (China 5.7) | [V] Comtrade API |
+| 32 | "DOMS ≈ 30% of India's pencil exports to the US" (§2.3; 3.5-7) | ~30% [E] | Range **~30–45% [E]**: standalone Dixon sales ₹75.4 Cr ≈ US$8.7m (31%) up to consolidated ₹109.8 Cr ≈ US$12.6m (45%) vs India 9609 exports to the US of US$27.7m (CY2025). The consolidated figure includes non-pencil items (e.g. notebooks via subsidiaries), and FY vs CY differ. Management confirmed that the **US 50% tariff** cut wooden-pencil exports to FILA US in FY26 | [V] AR; Comtrade; Q3 FY26 call |
+| 33 | Status table "Seven/Pioneer/Uniclan" etc. | — | Uniclan 51.77%, Pioneer 64%, ClapJoy 30% **re-confirmed** [V AR AOC-1]. Reynolds ₹35 Cr (US$3.7m) + ₹17.81 Cr inventory, completed 1-Jul-2026, asset acquisition [V outcome note 4]. Flood: consolidated **net ₹10.39 Cr** (gross ₹12.12 Cr − ₹1.74 Cr vehicle recovery); standalone ₹10.90 Cr [V] | [V] |
+
+## 4.1 Verification table — 40 figures the writer will use
+
+"Fetched?" = read this session from the source named (V = primary; V-sec = secondary compiler of primary data; E = arithmetic on V inputs; snip = snippet). "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Primary source (URL / document) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | DOMS revenue FY26 | ₹2,326.4 Cr (+21.6%) | AR FY26 (bseindia.com/xml-data/corpfiling/AttachHis/825257cb-….pdf); screener ₹2,326 | V (2 sources) | Yes |
+| 2 | DOMS EBITDA FY26 | ₹402.6 Cr (17.3%); FY25 ₹348.4 Cr (18.2%) | AR FY26 (₹40,259.62 lakh; ratio table OPM 17.31% vs 18.22%); screener OP ₹403 Cr | V (2) | Yes (CRISIL's ₹412.0 Cr is its own basis) |
+| 3 | DOMS PAT FY26 | ₹239.6 Cr (+12.2%) | AR FY26 (₹23,956.25 lakh); screener ₹240 Cr | V (2) | Yes |
+| 4 | DOMS gross (consumption) margin FY26 | 43.6% (FY25 43.5%) | AR five-year table; Q2 FY27 PPT | V | Yes |
+| 5 | DOMS ROCE / ROE FY26 | 23.92% / 20.09% (FY25 24.37% / 22.19%) | AR ratio table; screener ROCE 24.3% | V (2) | Yes |
+| 6 | DOMS Q2 FY27 revenue | ₹667.8 Cr (+17.6%) | Q2 results release + board outcome (bseindia AnnPdfOpen 5cb86870…, fbbd86b9…); screener ₹668 | V (2) | Yes |
+| 7 | DOMS Q2 FY27 EBITDA / margin | ₹82.8 Cr / 12.4% (17.5%) | Results release; screener ₹83 / 12% | V (2) | Yes |
+| 8 | DOMS Q2 FY27 gross margin | 39.1% (43.8%) | Q2 PPT | V | Yes |
+| 9 | DOMS Q2 FY27 PAT | ₹38.3 Cr (−37.0%); pre-exceptional ~₹46 Cr [E] | Board outcome (₹3,832.17 lakh); screener ₹38 | V (2) | Yes |
+| 10 | Flood exceptional (consolidated, net) | ₹10.39 Cr = ₹12.12 Cr gross − ₹1.74 Cr vehicle insurance | Board outcome note 5 | V | Yes (₹10.4 Cr) |
+| 11 | H1 FY27 revenue / EBITDA margin | ₹1,338.3 Cr (+18.4%) / 12.4% | Results release | V | Yes |
+| 12 | FY27 revenue guidance | 18–20% consolidated sales growth (reiterated 2-Nov) → implies **H2 FY27 ₹1,407–1,453 Cr, +17.6% to +21.5% YoY** [E] | Results release (MD quote) | V | Yes; implied H2 is new |
+| 13 | Net debt Sep-26 (ex-leases) | **₹159.3 Cr** = borrowings ₹97.49 (NC) + ₹110.03 (current) − cash ₹31.24 − bank ₹16.93 | Board outcome, consolidated balance sheet | V | Yes (was "~₹159 Cr [E]"; now V) |
+| 14 | Net debt Mar-26 | ₹27.8 Cr (borrowings ₹89.6 Cr − cash & bank ₹61.8 Cr); D/E 0.07 (AR ratio, incl. leases) | AR; board outcome comparative column | V | Yes |
+| 15 | Capex FY26 / H1 FY27 / FY27 guide | ₹292.8 Cr / ₹210.6 Cr / ₹250–275 Cr | AR cash flow; outcome cash flow; Q4 FY26 transcript | V | Yes |
+| 16 | Capital commitments Mar-26 | ₹94.1 Cr (Mar-25 ₹54.2 Cr) | AR consolidated note 37 | V | New |
+| 17 | DOMS m-cap / P/E (3-Nov) | ₹11,486 Cr / 52.8× (₹1,893; 52-wk ₹2,755/₹1,796) | screener.in/company/DOMS/consolidated/ | V | ~Yes (₹11,530 / 53.0 earlier in the day) |
+| 18 | EV/EBITDA FY26 | ~28.9× [E] = (₹11,486 + ₹159.3) ÷ ₹402.6; TTM ~31.5× (₹370 Cr) | E on V | E | Yes (~29×) |
+| 19 | Promoter holding Sep-26 | 63.38% (Jun-26 63.38; Mar-26 70.38); DII 26.30%, FII 7.31% | screener shareholding | V | Yes |
+| 20 | FILA stake after 17-Jun-2026 sale | 19.01% (from 26.01% at 31-Mar-2026) | CRISIL rationale 6-Aug-2026; FILA H1-2026 PR (both downloaded by the first pass on 3-Nov; CRISIL re-read this pass) | V (first-pass download) | Yes |
+| 21 | FILA stake before / Dec-2024 sale | 26.01% held through FY25–FY26 (FILA FY25 PR: income from "26.01% stake in DOMS"); FY25 change −4.57% (AR) | FILA FY2025 PR; DOMS AR | V (2) | Yes |
+| 22 | Reynolds acquisition | ₹35.00 Cr (US$3.7m) + ₹17.81 Cr inventory; completed 1-Jul-2026; asset acquisition | Board outcome note 4; AR Directors' Report | V (2) | Yes |
+| 23 | Uniclan / Pioneer / ClapJoy stakes | 51.77% / 64% / 30% (associate) | AR AOC-1 | V | Yes |
+| 24 | DOMS Seven Pvt Ltd | WOS incorporated 22-Oct-2026 (backpacks/bags) | Board outcome note 6 | V | **No** — supersedes "50:50 JV being incorporated" |
+| 25 | FY26 category mix (GPS) | SS 31.5 / SAM 20.0 / Office 15.1 / Kits 10.1 / Hygiene 8.9 / Paper 8.3 / Hobby 2.9 / Others 1.7 / Fine Art 1.0 / BTS 0.5 | AR "Consolidated Product Categories Performance" | V | Partly — replaces [E] categories |
+| 26 | FILA-group sales FY26 (consolidated) | ₹175.6 Cr (FY25 ₹164.5 Cr) | AR note 43 | V | **No** — supersedes ₹133 Cr |
+| 27 | Export share FY26 | 12.5% of GPS (FILA 7.3%, third party 5.2%); 13.0% of revenue (₹301.9 Cr) | AR channel chart; segment note | V | Yes |
+| 28 | DOMS pencil share | 29% of pencils by value FY23 (Technopak) / "upwards of ~35%" (management, Feb-2026) | Technopak report (domsindia.com, first pass); Q3 FY26 transcript | V (mgmt this pass) | Adds the management claim |
+| 29 | Wooden-pencil capacity | 5.53 mn/day (Feb-26) / 5.8 (May-26) → ~8 mn/day | Q3 FY26 and Q4 FY26 transcripts | V | Partly |
+| 30 | Distribution (Sep-26) | DOMS 140+ SS / 6,300+ distributors / 1,45,000+ outlets / 1,200+ sales; Uniclan 95+ / 1,300+ / 55,000+ / 210+ | Q2 FY27 PPT p.20 (image) | V | Yes + labels |
+| 31 | India stationery & art market FY23 | ₹38,500 Cr (branded 36%) | Technopak (domsindia.com/pdf/Investor_Relations/Industry_Report.pdf; first pass) | V (first pass) | Yes; no newer primary figure exists |
+| 32 | GST: pencils/sharpeners/erasers/notebooks | Nil from 22-Sep-2025 (10/2025-CT(Rate) S.No. 163/156/121/130) | Notification text (CBIC file) | V | Yes (now V) |
+| 33 | GST: pens 18%, geometry boxes 5%, artists' colours 18%, school bags 18% | 9/2025-CT(Rate) Sch. II S.No.626, 55, 145; Sch. I S.No.410 | Notification text | V | Yes + fills gaps |
+| 34 | Share of DOMS sales moved to nil GST | ~45% of FY25 sales; hygiene ~6% to 5% | Q2 FY26 transcript | V | New |
+| 35 | UDISE+ total enrolment | 2025-26 24.72 cr; 2024-25 24.69; 2023-24 24.80; 2022-23 25.18; 2021-22 26.52; 2020-21 26.44 | PIB backgrounder 17-Aug-2026 (static.pib.gov.in/…/doc2026817960201.pdf); compilation | V / V-sec | Mostly; adds 2025-26 |
+| 36 | Primary (I–V) enrolment | 12.20 (2020-21) → 10.44 (2024-25) → 10.19 cr (2025-26, −2.36%) | Mehta analysis; compilation | V-sec | Yes, extended |
+| 37 | India pencil-family exports 2025 | 9609 US$56.3m (US US$27.7m); 9609.10 US$52.8m, 12.6 mn kg | UN Comtrade API (2025 pulled by the first pass on 3-Nov; 2022 pulled this pass) | V (first-pass download) | Yes |
+| 38 | Hindustan Pencils FY25 | Revenue ₹1,374.74 Cr; −1.09% YoY; EBITDA −58.6%; PAT −77.5% | PrivateCircle (first pass); Tofler free page | V-sec | Extends |
+| 39 | FILA FY2025 | Revenue €572.2m; adj. EBITDA €105.2m (18.4%); NFD (IFRS16) €189.5m; EV/EBITDA ~6.1–6.3× [E] | investors.filagroup.it/files/press_release/en/fila-pr-fy2025-vf.pdf | V | Supersedes [K] multiple |
+| 40 | Peer latest quarter | Flair Q2 FY27 ₹340.1 Cr, EBITDA 14.9%; Linc Q1 ₹139.0 Cr, 8.7%; Cello Q1 ₹527 Cr, 22.2% (company EBITDA incl. other income); Navneet Q1 stationery ₹380 Cr; Camlin Q1 ₹229.2 Cr, 6.8% | Flair PR; Linc and Navneet transcripts; Cello PPT; screener | V | Yes; adds company basis |
+
+**Count:**
+- **34 of the 40 figures are [V] from primary documents fetched this session**: rows 1–17, 19, 21–30, 32–35, 39, 40.
+- 3 more are [V] from primary documents the first pass downloaded the same day (rows 20, 31, 37: CRISIL/FILA H1, Technopak, Comtrade 2025).
+- 2 are [V-sec] (rows 36, 38).
+- 1 is [E] on [V] inputs (row 18).
+
+**Conflicts and which source to trust:**
+- **EBITDA FY26:** company ₹402.6 Cr vs CRISIL ₹412.0 Cr. Use the company figure; CRISIL adds back items such as ESOP cost.
+- **FILA-group sales:** use **consolidated ₹175.6 Cr** when comparing with GPS channel data, and standalone only for Dixon-specific pencil arguments.
+- **Pencil share:** Technopak's 29% (third-party, FY23) is more credible than management's "35%+" (an unsourced self-estimate). Quote both, labelled.
+- **Hindustan Pencils:** PrivateCircle (absolute revenue) and Tofler (YoY changes) both derive from MCA filings and are consistent with each other. Technopak's FY23 "₹1,100 Cr" is the outlier.
+- **UDISE+ 2023-24 private enrolment:** ThePrint's 9.00 cr vs the compilation's 8.09 cr (private unaided). Use the compilation/Mehta "Grades I–XII by management" basis.
+
+## 4.2 Per company
+
+### 4.2.1 DOMS Industries (member) — primary-document pack
+
+**Call status.** The **Q2 FY27 earnings call transcript and audio were not on BSE or domsindia.com at 3-Nov-2026 ~10:30 UTC.** The IR page lists transcripts and audio only to Q1 FY2027 [V]. The digest below uses:
+- the **Q2 FY27 results release and presentation (2-Nov-2026)**;
+- the **Q1 FY27 call (4-Aug-2026)** and **Q4 FY26 call (19-May-2026)**, read in full;
+- two calls the first pass did not read: **Q2 FY26 (11-Nov-2025)** and **Q3 FY26 (2-Feb-2026)**.
+
+All speakers quoted are CFO Rahul Shah unless stated.
+
+**A. Management-guidance digest (paraphrased; date in brackets)**
+
+*Growth*
+- **FY27 consolidated sales growth 18–20%**, reiterated after H1 delivered +18.4% (2-Nov-2026). It was first given as 17–20% in May, then narrowed. Implied H2 FY27 revenue is ₹1,407–1,453 Cr (+17.6% to +21.5% YoY) [E].
+- Exports should be **13–15% of FY27 sales** (Aug-2026). EU demand is soft, West Asia freight is disrupted (West Asia ~2% of sales), and FILA intercompany exports have been flat for 2–3 years.
+- Scholastic Stationery + Scholastic Art + Kits grew ~11.5% in Q3 FY26; "this segment also should follow the company's overall growth rate in the next 3 to 5 years" (Feb-2026).
+
+*Margins*
+- **No FY27 margin guidance.** The target is to return to **"16-odd percent" EBITDA in FY28** (Aug-2026). At spot raw-material prices, a further **4–5% price increase** would be needed to get there.
+- FY26 gross and EBITDA margins are the "sweet spot" to aim back to "in FY28" (Aug-2026).
+
+*Pricing*
+- **4–5% calibrated price increases** have been taken against **~20% average RM inflation in Q1** (consumption up 10–11%), leaving a ~500 bp gap.
+- No further hikes in Q2. Management wants volatility to settle first and will reprice "once the base … is a little visible" (Aug-2026).
+- Rationale for under-pricing: deny "breathing space" to small and unorganised players, as in COVID and the 2022 Russia-Ukraine spike (Aug-2026). Peers "did a similar sort of a step" after DOMS moved.
+- Over a decade, mass pencil MRPs have moved only "from ₹5 to ₹6 or ₹7 at max" (Aug-2026).
+- The ₹5 pen was later sold in packs of 5 at ₹30, so the market already reads it as a ₹6 product. That makes a ₹6 price point easier to take (May-2026).
+
+*GST 2.0 (Nov-2025)*
+- ~45% of FY25 sales moved to nil GST; hygiene (~6%) moved from 12% to 5%.
+- Lost ITC was built into revised cost sheets and MRPs. A pencil pack went from ₹60 to ₹58, primary realisation rose ~3–4%, and there was "no significant impact" on margins.
+- Kits are a mixed supply taxed at 18%, so ITC is retained on the nil items inside them.
+- Transition destocking cost ~3–4% of Q2 FY26 sales; restocking was spread into the Q4 back-to-school season.
+- Management sees GST 2.0 as levelling the field with unorganised players.
+
+*Capacity*
+- **Wooden pencils ~5.5–5.8 mn/day → ~8 mn/day** "in the next couple of years"; the big Scholastic Stationery/Art step-up comes in FY28 (Feb-2026).
+- Phasing of the greenfield site: **wooden pencils → writing instruments → erasers/sharpeners → scholastic art** (AR FY26).
+- The **first building (~300,000 sq ft) was commissioned in Q2 FY27, dedicated to Reynolds pens**, with revenue from Q3 FY27 (2-Nov-2026).
+- Ramp-up: ~90 days from taking a building to start-up, ~6–7 months to "decent" utilisation (Feb-2026), and **18–24 months to full utilisation** (Aug-2026).
+- Land: **50+ acres** at the greenfield plus **11+ acres** next to the flagship unit. Total project **₹850–1,000 Cr**. FY27 capex **₹250–275 Cr**; ~₹100 Cr was spent in Q1 alone.
+- Target asset turn: **₹3 of sales per ₹1 of gross block**.
+- Funding: internal accruals plus "a little bit of debt". Debt is now ₹207.5 Cr (Sep-26) [V].
+
+*Reynolds*
+- Pre-deal sales were **₹130–140 Cr**. Newell kept tip manufacturing.
+- Reynolds sits in the ₹10–100 pen band as a parallel brand for the office segment.
+- Target: **~10% of DOMS revenue by FY29**, at DOMS-like margins (Aug-2026).
+- Q2 FY27 carried the Reynolds team's fixed costs before production started (2-Nov-2026).
+
+*Backward integration*
+- The first Swiss tip plant is being installed, to make **30–40% of tip needs** in-house over CY26–27 (Aug-2026).
+
+*Uniclan (hygiene)*
+- FY26 revenue ₹203 Cr; target ~20% growth and ~10% EBITDA. It runs its own network of 95+ super-stockists and 55,000+ outlets [V PPT]. Its third diaper line takes capacity to ~65 crore pieces a year; a new wipes line adds ~1.72 crore packs a year (AR FY26).
+
+*Cost items*
+- **ESOP cost ~₹10 Cr in FY27** (two tranches, Oct-2024 and Feb-2026).
+- The new building adds ~0.4% of sales to other expenses (Aug-2026).
+
+*US tariffs*
+- The US **50% tariff** cut blacklead wooden-pencil exports to FILA's US unit (Dixon Ticonderoga). DOMS moved the spare capacity to colour pencils, which are booked in Scholastic Art. That explains **Scholastic Stationery +3.2% vs Scholastic Art +11.1% in FY26** (Feb-2026; AR).
+
+*Market data*
+- "We are not a very highly covered industry"; management does not track market reports (Aug-2026 and Feb-2026).
+- Stationery outlet universe: 3–3.5 lakh stores, of which ~2.25 lakh are directly serviceable (May-2026).
+
+*Dividend*
+- Policy is ~10% of standalone PAT.
+
+**Most important analyst Q&A points (by call)**
+1. **Why not price harder? (Q1 FY27)** The answer: volume and share over near-term margin, using the share-gain playbook from earlier shocks.
+2. **Fiscal-'28 margin math (Q1 FY27).** A 4–5% price gap remains at spot RM prices; 16% EBITDA is targeted for FY28.
+3. **Capex pace (Q1 FY27).** Why not ₹400 Cr now? Construction space limits the pace, not money.
+4. **Reynolds (Q1 FY27).** A sell-side estimate of "₹350 Cr in FY27" was not endorsed; management said ₹130–140 Cr base and 10% of revenue by FY29.
+5. **GST (Q2 FY26).** No margin impact; MRPs reset; kits taxed at 18%.
+6. **Pencil share (Q3 FY26).** "Upwards of about 35%", heading to ~45% with new capacity.
+7. **New-plant ramp (Q3 FY26).** About 6–7 months to decent utilisation.
+8. **Industry volume growth (Q1 FY27).** No answer: "difficult".
+
+**B. Concall / results KPI table (company basis)**
+
+| KPI | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 | Source |
+|---|---|---|---|---|---|---|
+| Revenue ₹ Cr (YoY) | 567.9 (+24.0%) | 592 | 604.0 (+18.7%) | 670.5 (+19.2%) | 667.8 (+17.6%) | PR/screener |
+| Gross (consumption) margin | 43.8% | n/a | ~43–44% | 38.2% | 39.1% | PPT/calls |
+| EBITDA margin | 17.5% | ~17% | 16.7% | 12.3% | 12.4% | PR/screener |
+| Stationery segment margin (pre-D&A) | 19.6% | n/a | n/a | 13.4% (₹83.6/625.9) | 13.7% | outcome |
+| Hygiene revenue ₹ Cr / margin | 47.4 / n/a | n/a | 55.9 / 6.3% | 44.6 / 6.7% | 57.6 / 6.6% | outcome; Q4 call |
+| Exports % of GPS | 13.9% | n/a | n/a | ~12% (H1 12.7%) | 13.4% | PPT |
+| Price taken vs RM inflation | GST reset; primary +3–4% | — | +4–5% vs RM +15–17% | +4–5% vs RM ~+20% | "marginally higher ASPs" | calls/PR |
+| Wooden-pencil capacity | — | 5.53 mn/day | 5.8 mn/day | — | first greenfield building live (Reynolds pens) | calls |
+| Capex ₹ Cr | H1 FY26 140.8 | — | FY26 292.8 | ~100 | H1 210.6 | AR/outcome/call |
+| Borrowings ex-leases ₹ Cr | — | — | 89.6 (Mar-26) | — | 207.5 (Sep-26) | AR/outcome |
+
+**C. Five-year history (consolidated, ₹ Cr; company five-year tables [V AR FY26 / Q2 PPT]; ROCE screener basis)**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue | 683.6 | 1,211.9 | 1,537.1 | 1,912.6 | 2,326.4 |
+| Gross product sales (GPS) | 693.1 | 1,231.7 | 1,571.0 | 1,979.2 | 2,420.6 |
+| Gross margin % | 36.8 | 37.0 | 41.9 | 43.5 | 43.6 |
+| EBITDA | 69.7 | 186.7 | 272.7 | 348.4 | 402.6 |
+| EBITDA % | 10.2 | 15.4 | 17.7 | 18.2 | 17.3 |
+| PAT | 17.1 | 102.9 | 159.7 | 213.5 | 239.6 |
+| PAT % | 2.5 | 8.5 | 10.4 | 11.2 | 10.3 |
+| CFO | 50.9 | 173.3 | 182.5 | 183.3 | 254.3 |
+| Capex | 34.9 | 136.3 | 153.5 | 213.3 | 292.8 |
+| FCF (CFO − capex) [E] | 16.0 | 37.0 | 29.0 | (30.0) | (38.5) |
+| Net debt ex-leases (co.) | 69.1 | 58.4 | (190.0) | (72.3) | 27.8 |
+| Working-capital days (co.) | 68 | 40 | 47 | 61 | 65 |
+| Inventory days (screener) | 134 | 88 | 92 | 99 | 105 |
+| ROCE % (screener) | 10 | 34 | 31 | 26 | 24 |
+| GFA turnover (co.) | 2.8× | 3.3× | 3.0× | 2.5× | 2.7× |
+| Exports to FILA, % GPS | 15.4 | 12.9 | 10.0 | 8.4 | 7.3 |
+
+**D. Eight-quarter trend (consolidated; screener rounded, ₹ Cr; company figures in brackets where available)**
+
+| Quarter | Revenue | YoY % | EBITDA (OP) | OPM | PAT | EPS ₹ |
+|---|---|---|---|---|---|---|
+| Q3 FY25 (Dec-24) | 501 | +35 | 88 | 18% | 54 | 8.36 |
+| Q4 FY25 (Mar-25) | 509 | +26 | 88 | 17% | 51 | 7.98 |
+| Q1 FY26 (Jun-25) | 562 | +26 | 99 | 18% | 59 | 9.44 |
+| Q2 FY26 (Sep-25) | 568 (567.9) | +24 | 100 (99.5) | 18% (17.5%) | 61 (60.9) | 9.60 |
+| Q3 FY26 (Dec-25) | 592 | +18 | 103 | 17% | 61 | 9.54 |
+| Q4 FY26 (Mar-26) | 604 (604.0) | +19 | 101 (100.9) | 17% (16.7%) | 58 | 9.35 |
+| Q1 FY27 (Jun-26) | 671 (670.5) | +19 | 83 (82.6) | 12% (12.3%) | 45 (45.3) | 7.33 |
+| Q2 FY27 (Sep-26) | 668 (667.8) | +18 | 83 (82.8) | 12% (12.4%) | 38 (38.3) | 6.12 |
+
+TTM (Sep-26): revenue ₹2,534 Cr, OP ₹370 Cr (15%), PAT ₹203 Cr. Other income was −₹6 Cr in Q2 FY27 because screener nets the flood exceptional into it [V screener].
+
+**E. Annual-report findings (AR FY2025-26, read in sections) [V]**
+
+*Related parties: FILA*
+- **Consolidated sales to FILA-group entities: ₹175.6 Cr (FY25 ₹164.5 Cr).** By entity: Dixon Ticonderoga Co. (US) ₹109.8 Cr (₹114.4 Cr), F.I.L.A. S.p.A. ₹21.6 Cr, Dixon Ticonderoga Art ULC ₹13.2 Cr (new), Canson SAS ₹6.6 Cr, Fila Chile ₹6.4 Cr, Dixon Comercializadora (Mexico) ₹4.1 Cr, Fila Canson Brasil ₹3.5 Cr, Fila Art & Craft ₹3.4 Cr, Fila Argentina ₹3.1 Cr, Daler-Rowney ₹1.4 Cr, Lyra ₹0.9 Cr, others small.
+- Standalone FILA sales: ₹133.0 Cr.
+- **Purchases from FILA group: ~₹18.5 Cr consolidated** (excluding ₹0.6 Cr legal fees to Khaitan & Co), mostly Canson ₹17.3 Cr (paper for fine art), plus Fila Dixon Kunshan ₹0.5 Cr, Dixon ₹0.4 Cr, Daler-Rowney ₹0.2 Cr, Lyra ₹0.1 Cr and St Cuthberts Mill ₹0.02 Cr. Plant & machinery bought from FILA Kunshan and FILA Mexico: ₹0.31 Cr.
+- **Royalty paid to Lyra (FILA) ₹0.18 Cr, the first year it appears.** No royalty to FILA S.p.A. on the DOMS brand. DOMS *receives* royalty: ₹2.37 Cr standalone, including ₹0.33 Cr from Pioneer, and ₹0.08 Cr from ClapJoy.
+- **Dividend to FILA ₹4.97 Cr**; total dividends to related parties ₹13.5 Cr.
+
+*Related parties: promoters and others*
+- **Promoter loans repaid ₹39.6 Cr in FY26** (Santosh Raveshia ₹24.6 Cr, Ketan Rajani ₹9.0 Cr, Sanjay Rajani ₹5.0 Cr).
+- Rent: ₹1.23 Cr to Rasiklal & Mansukhlal Corporate Advisors LLP and ₹0.17 Cr to Commander Products (KMP-influenced entities).
+- Legal fees to Khaitan & Co: ₹0.63 Cr.
+- KMP and director remuneration: ₹10.2 Cr (₹8.4 Cr).
+
+*Intra-group purchases (standalone)*
+- Pioneer ₹103.9 Cr (₹87.8 Cr), Micro Wood ₹94.1 Cr (₹78.5 Cr), Super Treads ₹10.7 Cr, Skido ₹4.9 Cr. Paper stationery and packaging are effectively captive.
+
+*Contingent liabilities (consolidated) — small and falling*
+- Income tax ₹0.10 Cr (₹0.26 Cr); **GST ₹0.51 Cr (₹11.29 Cr; largely resolved)**; bank foreclosure charges ₹0.87 Cr.
+- **Capital commitments ₹94.1 Cr (₹54.2 Cr)**, which is the new campus.
+
+*Capacity and footprint*
+- 5 manufacturing locations: Umbergaon (several plots in the GIDC estate), Jammu, Jalandhar, Jaipur, Siliguri.
+- FY26 brownfield additions: ball pens, paper stationery, mechanical pencils, adhesives.
+- The greenfield's first building was delayed slightly by "prolonged and unseasonal monsoon".
+- **Utilisation is still not disclosed** (gap stays open).
+- DOMS was recognised by the Pen & Stationery Association of India as the **No. 1 exporter for the fourth year running**.
+- Inputs sourced in India: 90.8%.
+
+*Key ratios FY26 (FY25)*
+- Debtors turnover 15.6× (19.2×); inventory turnover 3.9× (4.2×); DSCR 4.6× (7.9×); current ratio 2.17 (2.68).
+
+*Top risks (AR risk table)*
+1. **Raw-material availability and prices** — polymers, wood, oils, chemicals, pigments. Mitigants: multiple suppliers, strategic buffers, backward integration in wood.
+2. Product quality and reproduction (colour consistency, writing performance).
+3. Supply-chain and logistics disruption.
+4. **Economic risk**, including export logistics costs.
+5. **Intense competition** leading to price pressure.
+6. Manufacturing and operational disruption.
+7. **Brand and IP infringement.**
+
+The AR also flags plantation-wood supply and imported inputs as exposed to weather and trade issues. **Not in the AR risk table:** FILA dependence, GST changes, and the falling primary cohort.
+
+*IPO proceeds*
+- ₹280 Cr earmarked for the new facility; ₹276.4 Cr used by Mar-26.
+
+### 4.2.2 Reference peers (not members) — lighter primary treatment
+
+All 5-year and 8-quarter rows come from screener pages re-pulled on 3-Nov-2026 ~10:30 UTC [V]. They are consolidated unless noted, ₹ Cr, with OP = EBITDA before other income. Company documents are used where cited.
+
+#### Flair Writing Industries (FLAIR; BSE 544030) — pens, creatives, steel bottles
+
+| FY | FY22 | FY23 | FY24 | FY25 | FY26 | TTM |
+|---|---|---|---|---|---|---|
+| Revenue | 577 | 942 | 979 | 1,080 | 1,250 | 1,300 |
+| OP / OPM | 98 / 17% | 184 / 20% | 192 / 20% | 185 / 17% | 225 / 18% | 219 / 17% |
+| PAT | 56 | 118 | 118 | 119 | 141 | 130 |
+| ROCE | 20% | 33% | 22% | 16% | 17% | |
+
+| Quarter | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 | Sep-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 265 | 298 | 289 | 321 | 318 | 323 | 319 | 340 |
+| OP (OPM) | 45 (17%) | 47 (16%) | 50 (17%) | 60 (19%) | 57 (18%) | 58 (18%) | 53 (17%) | 51 (15%) |
+| PAT | 29 | 31 | 29 | 43 | 33 | 37 | 29 | 32 |
+
+**Q2 FY27, company figures (PR 2-Nov-2026) [V]**
+- Revenue ₹340.1 Cr (+6.0% YoY, +6.5% QoQ); gross margin 48.7% (51.9%); EBITDA ₹50.6 Cr, **14.9% (18.8%)**; PAT ₹31.7 Cr (−25.8%).
+- H1: revenue ₹659.4 Cr (+8.2%), EBITDA 15.8% (18.0%), PAT ₹60.8 Cr.
+- Q2 split: domestic ₹292 Cr, export ₹49 Cr. By segment: **pens ₹231 Cr** (Q1 ₹220 Cr), **creatives ₹88 Cr** (₹80 Cr), steel bottles/houseware ₹16 Cr (₹19 Cr).
+- H1 by segment: pens ₹451 Cr (+7%), creatives ₹168 Cr (+24%), steel ₹35 Cr (−9%). H1 mix: pens 68%, creatives 27%, steel 5%.
+
+**Floods and capacity**
+- Floods also hit Flair: about 15 days of disruption at its Valsad and Daman plants.
+- A new creatives line at Valsad will be partly live in Q3 FY27.
+- The fourth steel-bottle line goes live in Q4 FY27: ~₹15 Cr capex for ~₹30–35 Cr of revenue; current steel-bottle utilisation ~65%.
+
+**FY26 structure**
+- Product sales ₹1,231 Cr: pens 69%, creatives 24%, steel 7%. Creatives grew at a 58% CAGR from FY21.
+- Domestic/export split: 84/16 (FY23 80/20).
+- Network: 167 super-stockists, 8,000+ distributors, 3,30,000+ retailers; 115+ export countries.
+- Capacity 2.4 bn pieces a year; tips made in-house; Flomaxe (Surat) JV for pencils and sharpeners — **Flair is entering DOMS's pencil territory**.
+
+**Guidance (Q1 call, 12-Aug-2026) [V]**
+- FY27 revenue growth ~15%.
+- EBITDA "17% to 18% for the year" (long-run 17.5–18%), via selective price hikes and trimming schemes/discounts. Q2's 14.9% makes this hard to reach [E].
+- Pens: high-single-digit growth; creatives growth slowed by RM costs in geometry boxes, pencils and colouring.
+- Zero debt; capex-to-revenue ratio ~1:3.
+
+**Read-across:** Flair's gross margin fell ~320 bp YoY versus DOMS's ~470 bp; its EBITDA margin fell ~390 bp versus DOMS's ~510 bp. **The input shock hit everyone, and DOMS's choice to price less is visible in the gap.**
+
+#### Kokuyo Camlin (KOKUYOCMLN; standalone — the consolidated page is stale)
+
+| FY | FY22 | FY23 | FY24 | FY25 | FY26 | TTM |
+|---|---|---|---|---|---|---|
+| Revenue | 508 | 775 | 816 | 763 | 806 | 808 |
+| OP / OPM | 17 / 3.3% | 54 / 7% | 77 / 9% | 34 / 4.4% | 58 / 7% | 54 / 7% |
+| PAT | (5) | 24 | 44 | 6 | 25 | 22 |
+| ROCE | 0% | 12% | 17% | 4% | 10% | |
+
+| Quarter | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 172.5 | 160.6 | 200.0 | 227.4 | 174.4 | 178.0 | 226.2 | 229.2 |
+| OP (OPM) | −7.6 (−4.4%) | 0.4 (0.3%) | 13.2 (6.6%) | 19.6 (8.6%) | 16.1 (9.3%) | 11.5 (6.5%) | 10.8 (4.8%) | 15.6 (6.8%) |
+| PAT | −10.6 | −4.2 | 4.4 | 10.1 | 7.9 | 4.0 | 2.9 | 7.3 |
+
+Q2 FY27 board meeting: 4-Nov-2026 (not yet reported).
+
+**AR FY26 findings [V]**
+- Revenue from contracts ₹803.4 Cr (₹760.0 Cr): domestic ₹779.4 Cr, **exports only ₹24.0 Cr (3%)**; modern trade ₹47.9 Cr.
+- Gross product categories, ₹ Cr FY26 (FY25): Office & Scholastic 367.2 (346.3); Fine Art & Hobby 149.0 (140.4); **Writing Instruments 129.3 (110.4, +17%)**; Paper Stationery 109.7 (113.1); Technical Instruments 54.2 (52.8); Ink & Adhesives 45.8 (44.5). Discounts and rebates of ₹51.8 Cr are deducted from these.
+- **Kokuyo Co. Ltd (Japan) holds 74.44%.**
+- Related-party transactions: sales to Kokuyo ₹8.3 Cr; purchases ₹1.2 Cr; no FY26 dividend.
+
+**Governance [V]**
+- The auditor **qualified** the FY26 opinion on the comparatives. The issue is an FY25 **physical-inventory shortage loss of ₹23.57 Cr** (₹10.32 Cr in materials consumed, ₹13.24 Cr in inventory change), whose prior-period impact could not be determined — a departure from Ind AS 8.
+- This ties to the ROC Section 206(1) notice (11-Sep-2026) already flagged in Part 1.
+
+#### Linc (LINC) — pens
+
+| FY (standalone) | FY22 | FY23 | FY24 | FY25 | FY26 | TTM |
+|---|---|---|---|---|---|---|
+| Revenue | 355 | 487 | 502 | 531 | 532 | 533 |
+| OP / OPM | 22 / 6% | 62 / 13% | 56 / 11% | 63 / 12% | 57 / 11% | 55 / 10% |
+| PAT | 8 | 37 | 34 | 39 | 37 | 34 |
+
+Consolidated (only 3 years on screener): FY24 ₹508 / OP ₹56 / PAT ₹34 Cr; FY25 ₹543 / ₹64 / ₹38 Cr; FY26 ₹543 / ₹59 / ₹33 Cr; ROCE 22% (FY25), 19% (FY26).
+
+| Quarter (cons.) | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 137.3 | 122.2 | 153.9 | 137.0 | 139.1 | 129.3 | 137.7 | 139.0 |
+| OPM | 11.9% | 12.0% | 12.5% | 9.6% | 11.3% | 10.0% | 12.9% | 8.7% |
+| PAT | 8.8 | 8.6 | 11.9 | 7.1 | 8.4 | 6.9 | 10.5 | 6.1 |
+
+**Q1 FY27 call (7-Aug-2026) [V]**
+- Operating income ₹139.0 Cr (+1.4%). By channel: corporate −14%, exports −3%, general trade +8%, **e-commerce +32%** (LINC On subsidiary).
+- EBITDA 8.7% (−89 bp). Linc passed on only **~50% of the RM increase**. Polymer prices are easing; "the worst is behind us".
+- Market share unchanged; **no guidance** until Q2.
+- Net cash ₹11.9 Cr; fixed-asset turnover 3.72×; cash-conversion cycle 65 days.
+- Partnerships: uni-Linc JV with Mitsubishi Pencil (>50% exported); Turkey JV; Morris (Korea) subsidiary waiting on a West Bengal plant (Q3 FY27); Kenya subsidiary.
+
+**AR FY26 [V]**
+- 4,483 distributors, 2.60 lakh retailers; exports 17.19% of revenue.
+- **Mitsubishi Pencil Co. owns 13.5%** — a Japanese strategic shareholder, mirroring FILA at DOMS and Kokuyo at Camlin.
+
+Q2 FY27 board meeting: 5-Nov-2026.
+
+#### Navneet Education (NAVNETEDUL) — publishing + paper stationery
+
+| FY | FY22 | FY23 | FY24 | FY25 | FY26 | TTM |
+|---|---|---|---|---|---|---|
+| Revenue | 1,112 | 1,694 | 1,748 | 1,781 | 1,721 | 1,715 |
+| OP / OPM | 94 / 8% | 291 / 17% | 296 / 17% | 319 / 18% | 270 / 16% | 244 / 14% |
+| Other income | 98 | 79 | 82 | 707* | 283* | 291* |
+| PAT | 74 | 204 | 252 | 804* | 369* | 353* |
+| ROCE | 6% | 19% | 16% | 15% | 10% | |
+
+\* includes large one-off/other income (FY25 ₹707 Cr, FY26 ₹283 Cr).
+
+| Quarter | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 272 | 282 | 434 | 794 | 247 | 250 | 430 | 788 |
+| OP (OPM) | 2 (0.7%) | 18 (6%) | 79 (18%) | 227 (29%) | 1 (0.4%) | −8 (−3.2%) | 53 (12%) | 198 (25%) |
+| PAT | −5 | 15 | 48 | 157 | −15 | 188* | 39 | 141 |
+
+\* Dec-25 includes ₹248 Cr other income.
+
+**Q1 FY27 call (29-Jul-2026) [V]**
+- Revenue ₹785 Cr: publishing ₹405 Cr (−3%), **stationery ₹380 Cr (+2%)**. Within stationery, **domestic +26%** and export −9%.
+- US was ~75% of Navneet's stationery exports in FY25. A new polymer plant built for exports is under-utilised.
+- FY27 guide: **domestic stationery +15–17%, exports −5%**, stationery margin ~8–12%. Q1 segment margins: exports 15%, domestic stationery 3% (brand investment), publishing ~40%.
+- **Paper prices up ~₹2,000/t (~2%) since April**; mills could not push further hikes.
+- Domestic growth came from **paper** stationery (designs, e-commerce/quick commerce), not non-paper.
+
+**Read-across:** paper inflation was mild in 2026, unlike polymers. That is why notebook-heavy players (Navneet, ITC) were less hit than pen and pencil makers [E].
+
+P/E basis: see §4.0 row 29. Q2 FY27 board meeting: 4-Nov-2026.
+
+#### Cello World (CELLO) — writing-instruments vertical only
+
+| FY | FY22 | FY23 | FY24 | FY25 | FY26 | TTM |
+|---|---|---|---|---|---|---|
+| Group revenue | 1,359 | 1,797 | 2,000 | 2,136 | 2,324 | 2,321 |
+| Group OP (screener) / OPM | 334 / 25% | 421 / 23% | 509 / 25% | 510 / 24% | 471 / 20% | 461 / 20% |
+| Group EBITDA (company, incl. other income) | 349.5 | 437.3 | 534.3 | 554.7 | 526.4 (22.7%) | |
+| Group PAT | 220 | 285 | 356 | 365 | 332 | 324 |
+| **Writing instruments & stationery revenue** | **169** | **285** | **334** | **309** | **369** | |
+| WI % of group revenue | 12.5% | 15.9% | 16.7% | 14.4% | 15.9% | |
+| ROCE (screener) | 53% | 48% | 36% | 24% | 17% | |
+
+| Quarter | Sep-24 | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 |
+|---|---|---|---|---|---|---|---|---|
+| Group sales | 490 | 557 | 589 | 529 | 587 | 554 | 654 | 527 |
+| OPM | 24% | 23% | 23% | 21% | 22% | 19% | 20% | 19% |
+| PAT | 87 | 92 | 96 | 81 | 91 | 69 | 90 | 73 |
+
+**Q1 FY27 presentation [V]**
+- Group revenue ₹527 Cr; gross margin 52.4% (54.0%); company EBITDA ₹117.1 Cr (22.2% vs 23.9%).
+- **Writing instruments 21.2% of revenue ≈ ₹111.7 Cr, gross margin 53.8%.** WI "delivered a healthy performance, supported by a contribution from Cello Pens" (the brand added in Q3 FY26).
+- Channel: GT 71.1%, MT 16.3%, exports 7.3%, online 5.3%.
+- FY26 WI growth: +19.4% (₹309 → ₹369 Cr).
+
+Q2 FY27 board meeting: 5-Nov-2026.
+
+#### Hindustan Pencils (unlisted)
+
+| | FY23 | FY24 | FY25 |
+|---|---|---|---|
+| Revenue ₹ Cr | ~1,100 (Technopak, stationery) | ~1,390 [E] | 1,374.74 [V-snip PrivateCircle] (−1.09% YoY [V-sec Tofler]) |
+| EBITDA / PAT change | n/a | n/a | **−58.6% / −77.5% YoY** [V-sec] |
+| Operating margin change | | | −4.28 pts [V-sec] |
+
+- **Capacity:** 8 mn pencils/day (Technopak, from the company site; not updated).
+- **Share:** Euromonitor (Feb-2026) ranks HP **#1 in writing instruments with 15% (2025)**.
+- No rating rationale was found at CRISIL, ICRA, CARE or India Ratings; ICRA hits for "Hindustan" were other companies.
+- Incorporated 15-Mar-1955 (CIN U36991MH1955PTC009500); brands Nataraj and Apsara date from 1958 [V-sec Tofler; K Wikipedia].
+
+**Reading [E]:** in the year DOMS grew 24% with ~18% EBITDA, the pencil leader's revenue was flat and its profits fell by more than half. That is the strongest evidence in hand that **share has been moving from HP to DOMS** in the core wedge.
+
+#### ITC Education & Stationery (segment)
+Still not separately disclosed in FY26 (inside "FMCG – Others"). The only figure remains Technopak's ₹2,456 Cr for FY23. **Gap open.**
+
+#### Global peers
+
+| Company | Latest | Key numbers | Source |
+|---|---|---|---|
+| **F.I.L.A.** | FY2025 | Revenue **€572.2m** (−6.6%; −3.1% cFX): NA €272.8m, Europe €214.1m, C&S Am €71.1m, Asia €10.5m. **Adj. EBITDA €105.2m (18.4%)**; ex-IFRS16 €93.3m (16.3%). Net bank debt €138.2m (1.3×); NFD incl. IFRS16 €189.5m. Adj. NP €33.0m. Income from DOMS (26.01%) €3.1m net of €2.0m PPA. FY25 dividend €12.2m (37% payout). Buy-back on 1.3m shares. ~51.1m shares. 2026 guide: double-digit revenue and EBITDA growth (H1-26 €343.4m, +12.2% cFX incl. Seven). **EV/EBITDA ~6.1–6.3× [E]** | [V] FILA FY2025 PR; [V] H1-26 PR (first pass) |
+| **Faber-Castell** (private) | FY2024/25 | €601.8m (−2.7%) [V-snip]; FY2023/24 €618.4m (−4.7%; −1.9% cFX), RoS high single digit, ~6,500 staff, production in 10 countries | [V] release 26-Aug-2024 |
+| **Pilot Corp.** (TSE 7846) | FY2025 (Dec) | Sales flat YoY, ¥6.6bn below plan; ~¥126bn sales, OP ~¥16.6bn [V-snip]. **India sales +11.4%**; flagship store in Gurugram; India/ASEAN growth focus | [V] Pilot 2025–27 plan progress |
+| **Kokuyo** (TSE 7984) | H1 2025 | Net sales ¥185.2bn (+3.5%), OP ¥17.7bn [V-snip]; FY2025 full year not fetched | gap |
+| **Staedtler** | — | Not found beyond Technopak's ~US$0.42bn (2022) | gap |
+| **BIC** | FY2025 | Human Expression €736m (from Part 1) | [V-snip] |
+
+**Global read [E]:**
+- DOMS (FY26 ~€212m revenue) is now **~37% of FILA's size** but valued at ~₹11,500 Cr ≈ €1.04bn, about **2.2× FILA's whole market cap**.
+- FILA's DOMS stake (~€199m) is ~42–44% of FILA's equity value. Continued sell-downs are therefore rational for FILA's shareholders; expect more supply of DOMS shares over time.
+- Pilot and FILA both report **weak US school demand** (public spending cuts, tariffs) in 2025–26. That backs the DOMS management line that FILA intercompany exports will stay flat.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**I1. GST 2.0 rate map for stationery (from 22-Sep-2025) [V notification texts 9/2025 and 10/2025-CT(Rate), 17-Sep-2025]**
+
+| HSN | Item | GST from 22-Sep-2025 | Notification / S.No. | Pre-reform [K unless stated] |
+|---|---|---|---|---|
+| 9609 / 9608 (propelling pencils) | Pencils incl. propelling/sliding (mechanical), crayons, pastels, drawing charcoal, chalks | **Nil** | 10/2025 S.No.163 | 12% |
+| 8214 | Pencil sharpeners | **Nil** | 10/2025 S.No.156 | 12% |
+| 4016 | Erasers | **Nil** | 10/2025 S.No.121 | 5% |
+| 4820 | Exercise books, graph books, lab notebooks, notebooks | **Nil** | 10/2025 S.No.130 | 12% |
+| 4802 | Uncoated paper *used for* exercise/graph/lab notebooks | **Nil** (end-use condition) | 10/2025 S.No.128 | 12% |
+| 4903 | Children's picture, drawing or colouring books | **Nil** | 10/2025 S.No.134 | nil [K] |
+| 4905 | Maps, charts, globes | **Nil** | 10/2025 S.No.136 | 12% |
+| 9610 | Slates | **Nil** | 10/2025 S.No.164 | |
+| 7310 / 7326 | Mathematical, geometry and colour boxes | **5%** | 9/2025 Sch. I S.No.410 | 12% |
+| 4817 30 | Writing compendiums (boxes/pouches of paper stationery) | **5%** | 9/2025 Sch. I S.No.321 | 12% |
+| 9619 | Diapers (Uniclan) | **5%** | 9/2025 Sch. I S.No.507 | 12% |
+| 3213 | Artists', students', signboard painters' colours | **18%** | 9/2025 Sch. II S.No.55 | 12% [K] — verify |
+| 3407 | Modelling pastes (incl. children's) | **18%** | 9/2025 Sch. II S.No.71 | |
+| 3506 | Glues, adhesives | **18%** | 9/2025 Sch. II S.No.75 | 18% |
+| 4202 | School satchels, rucksacks, bags | **18%** | 9/2025 Sch. II S.No.145 | 18% |
+| 4820 (other) | Registers, diaries, letter pads, binders, file covers | **18%** | 9/2025 Sch. II S.No.186 | 18% |
+| 9017 | Drawing/marking-out/mathematical instruments (protractors, drawing sets, rulers) | **18%** | 9/2025 Sch. II S.No.570 | 18% [K] |
+| 9608 | Ball pens, felt-tip pens, markers, fountain pens, refills, parts | **18%** | 9/2025 Sch. II S.No.626 | 18% |
+| Kits (mixed supply) | DOMS kits & combos | **18%** (highest-rate item) | management, Nov-2025 [V] | |
+
+Use for the writer [E]:
+- DOMS's **nil-rated share was ~45% of FY25 sales** [V].
+- In FY26 GPS terms, nil-rated categories are roughly Scholastic Stationery (pencils, erasers, sharpeners — but scales and geometry instruments may be 5%/18%) plus Paper Stationery (notebooks; registers and diaries are 18%). That is ~40% of FY26 GPS.
+- Scholastic Art splits: crayons and pastels are nil, colours are 18%.
+- Kits are 18%; pens and office supplies 18%; hygiene 5%.
+
+**I2. School enrolment, UDISE+ (crore students)**
+
+| Year | Pre-primary → XII | Grades I–XII | Primary I–V | Upper primary | Secondary | Higher sec. | Govt share (I–XII) | Pvt unaided share (I–XII) | Basis |
+|---|---|---|---|---|---|---|---|---|---|
+| 2020-21 | 26.44 | 25.38 | 12.20 | 6.59 | 3.90 | 2.69 | 52% [E] | 35% [E] | school-consolidated |
+| 2021-22 | 26.52 | 25.57 | 12.18 | 6.68 | 3.85 | 2.86 | 55% [E] | 32% [E] | school-consolidated |
+| 2022-23 | 25.18 | 24.16 | 11.24 | 6.35 | 3.79 | 2.78 | 56% [E] | 35% [E] | **student-wise (break)** |
+| 2023-24 | 24.80 | 23.50 | 10.78 | 6.31 | 3.69 | 2.71 | 53% [E] | 34% [E] | student-wise |
+| 2024-25 | 24.69 | 23.29 | 10.44 | 6.37 | 3.72 | 2.76 | 50.83% | 36.80% | student-wise |
+| 2025-26 | **24.72** | **23.23** | **10.19** | 6.32 | 3.83 | 2.89 | 49.66% | 37.97% | student-wise |
+
+Sources and notes:
+- [V-sec] compilation of UDISE+ national tables, 2020-21 to 2024-25; [V-sec] Mehta tables for 2024-25 and 2025-26; [V] PIB 17-Aug-2026 for the 24.72 total.
+- The [E] shares are computed from compilation counts: govt-school enrolment ÷ Grades I–XII. Treat them as approximate because "government schools" in the compilation includes central-government schools.
+- Schools: 15.09 lakh (2020-21) → 14.71 lakh (2024-25) → 14.67 lakh (2025-26).
+- 2025-26 NEP-stage shares: Foundational 21.66%, Preparatory 25.60%, Middle 25.58%, Secondary 27.16% [V PIB].
+
+**Chart message:**
+- The primary cohort, the pencil wedge, shrank **16.5% in five years (12.20 → 10.19 cr)**. Part of the 2022-23 step is the methodology break; the comparable 2022-23 → 2025-26 fall is −9.3%.
+- Total enrolment has been **flat at ~24.7 cr for three years**.
+- Private unaided schools gained ~2.4 pts of share in 2024-25 and ~1.2 pts in 2025-26 (the 2024-25 step mixes compilation and Mehta bases).
+
+**I3. India trade, UN Comtrade (US$ mn, calendar years; India reporter) [V]**
+
+| HS | Flow | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---|---|---|---|---|---|
+| 9609 pencils, crayons, pastels | Exports (to US) | 33.8 | 49.2 (20.8) | 52.3 | 54.9 | 56.3 (27.7) |
+| 9609 | Imports (from China) | 8.0 | 19.3 (14.3) | 21.8 | 21.0 | 21.9 (16.1) |
+| 9608 pens, markers | Exports (to US) | 183.1 | 238.0 (47.6) | 240.4 | 251.2 | 220.5 |
+| 9608 | Imports (from China) | 49.6 | 73.7 (36.4) | 83.4 | 76.0 | 88.7 (50.9) |
+| 4820 notebooks, registers | Exports (to US) | 184.7 | 254.3 (101.0) | 260.6 | 235.8 | 194.3 |
+| 4820 | Imports (from China) | 4.6 | 8.0 (5.7) | 8.3 | 11.2 | 13.8 (11.1) |
+
+Volumes and unit values:
+- 9609.10 exports in 2025 were **12.6 mn kg** (US 4.84 mn kg), a unit value of ~US$4.2/kg. At ~5–7 g per pencil, that is ≈ **1.8–2.5 bn pencils and crayons exported** [E, low confidence] — similar in scale to DOMS's whole annual wooden-pencil capacity (~1.7 bn).
+- 4820 export weight fell from 151.5 to 127.8 mn kg (2024 → 2025).
+
+FY-basis TradeStat (DGCI&S) was not fetched; the TradeStat site needs interactive queries (gap stays open).
+
+**I4. Import protection [V-sec eximpe/CBIC tariff]**
+
+| Line | BCD (MFN) | IGST | Effective duty on CIF | FTA preferences |
+|---|---|---|---|---|
+| 9609 10 00 pencils & crayons | 10% | 0% | ~12.1% | ASEAN, Japan, Korea, LDC 0% |
+| 9608 10 19 ball pens | 10% | 18% | ~32.3% | Japan, Korea, UAE 0%; ASEAN 5% |
+| 4820 20 00 exercise books | 10% | 0% (site still shows 18% — stale) | ~12% | ASEAN, Japan 0% |
+
+**Implication [E]:** Chinese finished pencils and notebooks face only ~12% duty. **Vietnamese/ASEAN goods enter duty-free.** The "China/Vietnam imports" ceiling that management mentions is a structural feature, not just a currency effect. No anti-dumping duty applies.
+
+**I5. Market size — what the industry itself cites (all secondary desk research) [V in ARs]**
+- DOMS, Flair and Linc FY26 annual reports all quote Fortune Business Insights: **India stationery "USD 18.08 bn by 2026"** (≈ ₹1.6 lakh Cr). Linc adds China US$25.26bn, Japan US$6.33bn, UK US$4.65bn and Germany US$7.69bn by 2026.
+- Flair AR FY26: **India writing instruments "USD 1,070.50 million by 2034, CAGR 2.40%"**, implying ~US$0.86bn (~₹7,500 Cr) today. That is *below* Technopak's FY23 ₹13,350 Cr.
+- The two consultant figures are **~4× apart in total stationery and ~2× apart in writing instruments**. **Recommendation:** stay with Technopak's ₹38,500 Cr (FY23) as the only bottom-up, IPO-diligenced series. Present FY26 as ₹48–55k Cr [E] and footnote that listed-company annual reports quote a figure with no stated methodology.
+
+**I6. Listed-peer stationery revenue league, latest year (₹ Cr) [V]**
+
+| Company | Stationery-relevant revenue | Year | Growth |
+|---|---|---|---|
+| DOMS (stationery segment) | 2,123.6 | FY26 | +17.9% |
+| Flair (pens + creatives, product sales) | ~1,145 (69% + 24% of ₹1,231 Cr) | FY26 | ~+15% [E] |
+| Hindustan Pencils (total, unlisted) | 1,374.7 | FY25 | −1.1% |
+| Kokuyo Camlin | 803.4 | FY26 | +5.7% |
+| Navneet stationery (domestic + export) | ~950–1,000 [E: FY26 not fetched; Q1 FY27 ₹380 Cr] | FY26 | n/a |
+| Linc (cons.) | 543 | FY26 | 0% |
+| Cello writing instruments | 369 | FY26 | +19.4% |
+
+## 4.4 Gap log (each §H item)
+
+| # | Gap | Status | Detail |
+|---|---|---|---|
+| 1 | FY25/FY26 India market size | **Still open** | No new primary study. All three listed ARs cite the FBI US$18.08bn (2026) desk figure; Flair cites a US$1.07bn-by-2034 writing-instruments figure. Euromonitor's public page has no values. Keep ₹48–55k Cr [E] |
+| 2 | Technopak share exhibit inconsistency | **Still open (context added)** | No newer share study. Management claims 35%+ of pencils; Euromonitor gives HP 15% of writing instruments (2025) |
+| 3 | Hindustan Pencils post-FY23 | **Partly filled** | FY25 revenue −1.09%, EBITDA −58.6%, PAT −77.5%, D/E 0.04 [V-sec Tofler]. No rating rationale exists at CRISIL/ICRA/CARE/India Ratings (searched). Capacity not updated |
+| 4 | ITC Education & Stationery revenue | **Still open** | Not disclosed separately in FY26 (inside FMCG-Others) |
+| 5 | GST nil-rate list | **Filled** | 10/2025 and 9/2025 texts read; table I1 |
+| 6 | ITC-reversal cost to DOMS | **Filled (qualitatively)** | CFO, Nov-2025: absorbed via MRP resets; no significant margin impact; ~45% of sales affected |
+| 7 | DOMS FY26 category mix | **Filled** | Full ₹-lakh table in AR (§4.0 row 3) |
+| 8 | FILA export value basis | **Filled** | Consolidated RPT ₹175.6 Cr = 7.3% of GPS |
+| 9 | DOMS capacity/utilisation | **Partly** | Pencils 5.53–5.8 → 8 mn/day; ramp 6–7 months to decent utilisation, 18–24 months to full; utilisation % never disclosed |
+| 10 | UDISE+ series | **Filled except 2019-20** | 2020-21 → 2025-26 [V/V-sec]; 2019-20 remains [K] 26.45 cr |
+| 11 | Per-student spend | **Still open** | No survey; [E] ₹1,070–1,230/yr (school stationery ₹26–30k Cr ÷ 24.72 cr) |
+| 12 | Trade data FY-basis / 2022 | **Partly** | Comtrade 2022 filled; TradeStat FY basis not fetched |
+| 13 | Customs duty / anti-dumping | **Filled** | BCD 10%; ASEAN/Japan/Korea 0%; no ADD |
+| 14 | Pilot, Kokuyo, Staedtler | **Partly** | Pilot filled (flat FY25, India +11%); Kokuyo H1-25 only [snip]; Staedtler open |
+| 15 | FILA EV/EBITDA | **Filled [E on V]** | ~6.1–6.3× FY25 |
+| 16 | DOMS Q2 FY27 call | **Not yet available** | Not on BSE/company site 3-Nov ~10:30 UTC; Q1 FY27, Q4 FY26, Q3 FY26, Q2 FY26 transcripts used; Q2 PR/PPT/outcome used |
+| 17 | Retailer/distributor margins | **Still open** | Calls discuss "channel margins" qualitatively only; Technopak FY23 remains the source |
+| 18 | Pencil volumes | **Partly** | Export volume ~1.8–2.5 bn pencils/crayons [E from Comtrade kg]; DOMS ~1.7 bn/yr capacity [E]; domestic ~4 bn (Technopak FY23) |
+| 19 | IPO dates | **Filled for DOMS (20-Dec-2023, ₹790) and Flair (1-Dec-2023, ₹304)** [V ARs]; Cello Nov-2023 [K] |
+| 20 | Navneet P/E basis | **Filled (inference)** | Screener P/E excludes one-offs; 8.2× on reported TTM PAT |
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+**Insights an expert would add**
+
+1. **DOMS's core grew only 3% in FY26.**
+   - Scholastic Stationery (pencils, erasers, sharpeners, maths boxes) rose just **+3.2%** to ₹762.5 Cr.
+   - Group growth of 22% came from Office Supplies/pens (+59%), Kits (+32%), Hygiene (+80%), Hobby (+194%) and SAM (+11%).
+   - Three causes stacked in the core: the GST transition destock (Sep–Oct 2025), the **US 50% tariff on pencils sold to Dixon Ticonderoga**, and capacity limits (pencils ~5.5 mn/day).
+   - **So the FY27–28 thesis rests on the new pencil capacity and Reynolds, not on the existing core.** [V AR; Q2/Q3 FY26 calls]
+
+2. **The duopoly is tilting.**
+   - Hindustan Pencils' FY25 revenue was flat (−1.1%), with EBITDA −59% and PAT −78%, while DOMS grew 24% at 18% EBITDA. DOMS claims 35%+ of pencils, rising toward ~45%.
+   - The rival is losing money momentum just as DOMS adds ~40% more pencil capacity.
+   - This is the best evidence for "share gain, not market growth" — but it rests on MCA-derived secondary data. [V-sec; V]
+
+3. **GST 2.0 did not hurt DOMS's margin, by its own account, because DOMS did not pass on the full cut.**
+   - MRPs fell ~3% against a 12% tax removal; primary prices rose 3–4%; the ITC loss was priced in.
+   - Consumers saw only a token cut, and that weakens the "GST makes branded cheaper" demand argument. [V Q2 FY26 call; E]
+
+4. **FILA-group sales are bigger than the first pass thought (₹175.6 Cr).** Subsidiaries — notebooks via Pioneer — also sell to Dixon. With US school spending cuts (FILA North America −8.7% in 2025), the **US is DOMS's main external demand risk, not China**. [V AR; FILA PR]
+
+5. **FILA's incentive to keep selling is arithmetic.** Its 19% DOMS stake (~€199m) is ~43% of FILA's own market cap at ~6× EBITDA. The parent is effectively a holding company trading at a discount to its Indian asset. **Expect further blocks; the June 2026 block at ₹2,200 is the market's reference price.** [E on V]
+
+6. **Peers price harder than DOMS.**
+   - Flair took selective hikes and trimmed schemes, but still lost ~390 bp of EBITDA margin. Linc passed on ~50% of its RM rise. Navneet's paper costs rose only ~2%.
+   - DOMS's deliberate under-pricing is a **share bet whose payback must show up as volume in H2 FY27**, against the 18–20% guide (needs ~18–22% H2 growth).
+
+7. **Japanese strategic shareholders run through the listed sector:** Kokuyo (74% of Camlin), Mitsubishi Pencil (13.5% of Linc; uni-Linc JV) and Pilot (growing its own India subsidiary +11%). Add **Flair's Flomaxe pencil and sharpener JV** and the pencil/creatives space is getting more contested, not less.
+
+8. **Enrolment has stopped falling in aggregate (24.72 cr in 2025-26), but primary keeps shrinking (−2.4%/yr).** The pencil wedge loses ~2–3% of children a year. Private unaided schools gained 2.5 million students in one year, and they are the premium-pencil buyer.
+
+**New primer issues (format as primer-issues.md)**
+
+### From Stationery deep-research pass (2026-11-03, stationery-industry.md Part 4)
+
+- **doms-industries.html — category mix (supersedes the Part 3 bullet's approximate split):** FY26 GPS is exact: Scholastic Stationery 31.5% (only +3.2% YoY), Scholastic Art 20.0%, **Office Supplies 15.1% (+58.8%)**, Kits 10.1%, Hygiene 8.9%, Paper 8.3%, Hobby & Craft 2.9% (+194%), Fine Art 1.0%, BTS 0.5% (AR FY26). Replace the FY23-era bars.
+- **doms-industries.html — pencil share:** add management's Feb-2026 claim ("upwards of about 35%", heading to ~45% with new capacity) next to Technopak's 29% (FY23), each labelled. Note that Hindustan Pencils' FY25 revenue was flat and its profit fell ~78% (MCA-derived).
+- **doms-industries.html — FILA as customer:** FY26 consolidated sales to FILA entities ₹175.6 Cr (Dixon Ticonderoga ₹109.8 Cr); the US 50% tariff cut wooden-pencil exports to Dixon in FY26.
+- **doms-industries.html — Seven JV:** DOMS Seven Pvt Ltd was incorporated 22-Oct-2026 as a wholly owned subsidiary for backpacks and bags. The board approved the FILA-Seven 50:50 JV in Jan-2026.
+- **doms-industries.html — GST 2.0 effect:** the company says the lost ITC was priced into new MRPs (pencil pack ₹60 → ₹58), primary prices rose ~3–4%, and margins were not significantly hurt; ~45% of FY25 sales moved to nil GST; mechanical pencils are also nil.
+- **doms-industries.html — capacity figure:** wooden pencils "5.53 mn/day" (Feb-2026) vs "5.8" (May-2026); use ~5.5–5.8 → 8 mn/day; Scholastic step-up expected FY28.
+- **doms-industries.html — brand mix:** Q2 FY27 GPS — DOMS 81.3%, Wowper 8.3%, C3 1.6%, others 8.8%.
+- **doms-industries.html — FILA valuation context:** FILA trades at ~6× EV/EBITDA, and its 19% DOMS stake is ~43% of FILA's market cap — useful for the "will FILA keep selling?" question.
+- **cello-world.html — writing-instruments growth:** "writing-instruments revenue up ~60%" should be qualified. Full-year FY26 WI revenue rose **~19% (₹309 → ₹369 Cr)**; ~+52–64% applies only to Q4 FY26/Q1 FY27. Q1 FY27 WI ≈ ₹112 Cr (21.2% of revenue) at a 53.8% gross margin (Cello Q1 FY27 PPT).
+
+**Key URLs added this pass**
+- DOMS IR (transcripts, audio): https://domsindia.com/investor-presentation-and-transcripts/
+- DOMS Q2 FY26 transcript: https://domsindia.com/pdf//Investor_Relations/Investor_Presentation_and_Transcripts/Q2_FY26.pdf
+- DOMS Q3 FY26 transcript: https://domsindia.com/pdf//Investor_Relations/Investor_Presentation_and_Transcripts/Q3_FY26.pdf
+- DOMS Q2 FY27 PPT (company copy): https://domsindia.com/pdf/Investor_Relations/Investor_Presentation_and_Transcripts/DOMS_Investor_Presentation_Q2FY27.pdf
+- GST 10/2025-CT(Rate): https://ftp.caalley.com/gst25/10-2025-CTR-eng.pdf
+- GST 9/2025-CT(Rate): https://ftp.caalley.com/gst25/09-2025-CTR-eng.pdf
+- PIB UDISE+ 2025-26 backgrounder: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/aug/doc2026817960201.pdf
+- Mehta UDISE+ 2025-26 analysis: https://educationforallinindia.com/wp-content/uploads/2026/07/Analysis-of-UDISE-2025-26-Data-by-aruncmehta-educationforallinindia.pdf
+- UDISE+ compilation 2020-21 to 2024-25: https://educationforallinindia.com/wp-content/uploads/2025/09/National_2020-21-and-2024-25.pdf
+- FILA FY2025 PR: https://investors.filagroup.it/files/press_release/en/fila-pr-fy2025-vf.pdf
+- Pilot 2025–27 plan progress: https://corp.pilot.co.jp/Portals/0/images/english/ir/management/plan/2025-2027_plan_progress(2025)_en.pdf
+- Faber-Castell FY2023/24: https://www.mynewsdesk.com/faber-castell/pressreleases/faber-castell-holds-its-own-in-a-difficult-landscape-3338162
+- Flair Q2 FY27 PR: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e0c5ac3-590c-4cd6-b1a0-e45ade114619.pdf
+- Flair Q2 FY27 PPT: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0939b939-44b7-4651-8ec5-8b47a9c2d0ac.pdf
+- Flair Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95449a98-51b1-462e-b857-c0b31164e64f.pdf
+- Flair AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/8b2ed177-e333-470f-ba4e-e9259f12a3d9.pdf
+- Navneet Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8d00306-84b5-47b4-b708-383447075afe.pdf
+- Linc Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de1dfdb5-90ca-48f3-bdb1-254e47895803.pdf
+- Linc AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/8030c5c0-49b6-42a1-b17d-cfc2b6a72c19.pdf
+- Cello Q1 FY27 PPT: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2aafae6-e724-4d2d-80c3-136b93ced33a.pdf
+- Kokuyo Camlin AR FY26: https://www.bseindia.com/xml-data/corpfiling/AttachHis/9bd09700-3a1b-4000-adeb-87b29553a7d9.pdf
+- Hindustan Pencils (Tofler free page): https://www.tofler.in/hindustan-pencils-private-limited/company/U36991MH1955PTC009500
+- Euromonitor writing instruments India (summary): https://www.euromonitor.com/writing-instruments-in-india/report
+- Customs tariff lines: https://eximpe.com/hsncode-finder/96091000 ; /96081019 ; /48202000
+- UN Comtrade 2022: https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=699&period=2022&partnerCode=0,156,842&cmdCode=9609,9608,4820&flowCode=M,X
+
+*End of Part 4.*

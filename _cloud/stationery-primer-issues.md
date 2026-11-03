@@ -21,3 +21,17 @@
 - **doms-industries.html — sources weak:** relies on Tradebrains/Univest/TradingView summaries; replace with the FY26 annual report, BSE results filings, Technopak RHP report and CRISIL rationale.
 - **doms-industries.html — minor:** "FILA … came to own a fifth of it" was true only after June-2026 (it held ~26–31% before); "cash ~₹62 Cr" fine (₹61.8 Cr); add the CS resignation (effective 31-Dec-2026) to "what's new".
 
+
+## From Stationery deep-research pass (2026-11-03, stationery-industry.md Part 4)
+
+- **doms-industries.html — category mix (supersedes the Part 3 bullet's approximate split):** FY26 GPS is exact: Scholastic Stationery 31.5% (only +3.2% YoY), Scholastic Art 20.0%, **Office Supplies 15.1% (+58.8%)**, Kits 10.1%, Hygiene 8.9%, Paper 8.3%, Hobby & Craft 2.9% (+194%), Fine Art 1.0%, BTS 0.5% (AR FY26). Replace the FY23-era bars.
+- **doms-industries.html — pencil share:** add management's Feb-2026 claim ("upwards of about 35%", heading to ~45% with new capacity) next to Technopak's 29% (FY23), each labelled. Note that Hindustan Pencils' FY25 revenue was flat and its profit fell ~78% (MCA-derived).
+- **doms-industries.html — FILA as customer:** FY26 consolidated sales to FILA entities ₹175.6 Cr (Dixon Ticonderoga ₹109.8 Cr); the US 50% tariff cut wooden-pencil exports to Dixon in FY26.
+- **doms-industries.html — Seven JV:** DOMS Seven Pvt Ltd was incorporated 22-Oct-2026 as a wholly owned subsidiary for backpacks and bags. The board approved the FILA-Seven 50:50 JV in Jan-2026.
+- **doms-industries.html — GST 2.0 effect:** the company says the lost ITC was priced into new MRPs (pencil pack ₹60 → ₹58), primary prices rose ~3–4%, and margins were not significantly hurt; ~45% of FY25 sales moved to nil GST; mechanical pencils are also nil.
+- **doms-industries.html — capacity figure:** wooden pencils "5.53 mn/day" (Feb-2026) vs "5.8" (May-2026); use ~5.5–5.8 → 8 mn/day; Scholastic step-up expected FY28.
+- **doms-industries.html — brand mix:** Q2 FY27 GPS — DOMS 81.3%, Wowper 8.3%, C3 1.6%, others 8.8%.
+- **doms-industries.html — FILA valuation context:** FILA trades at ~6× EV/EBITDA, and its 19% DOMS stake is ~43% of FILA's market cap — useful for the "will FILA keep selling?" question.
+- **cello-world.html — writing-instruments growth:** "writing-instruments revenue up ~60%" should be qualified. Full-year FY26 WI revenue rose **~19% (₹309 → ₹369 Cr)**; ~+52–64% applies only to Q4 FY26/Q1 FY27. Q1 FY27 WI ≈ ₹112 Cr (21.2% of revenue) at a 53.8% gross margin (Cello Q1 FY27 PPT).
+
+**Key URLs added this pass**
