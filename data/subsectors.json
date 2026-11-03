@@ -2212,6 +2212,23 @@
         "International pivot"
       ],
       "published": "2026-11-03"
+    },
+    {
+      "name": "Ceramic Tiles",
+      "slug": "ceramic-tiles",
+      "file": "ceramic-tiles.html",
+      "sector": "Construction Materials",
+      "subsector": "Ceramics",
+      "companies": 1,
+      "accent": "#C46A2E",
+      "hook": "The gas shock that favoured brands: how Morbi's ~800 kilns set India's tile cost curve, why the 2026 gas spike and collapsing exports handed share to branded makers, the KPIs that show who is really winning, and how Kajaria reads against Somany, Simpolo, Varmora and global leaders.",
+      "tags": [
+        "2026 gas shock & Morbi cost curve",
+        "Export collapse & trade remedies",
+        "Own vs outsourced manufacturing",
+        "KPI masterclass"
+      ],
+      "published": "2026-11-03"
     }
   ],
   "universe": [
@@ -2447,7 +2464,7 @@
       "sector": "Construction Materials",
       "sub": "Ceramics",
       "companies": 1,
-      "report": null
+      "report": "ceramic-tiles.html"
     },
     {
       "sector": "Construction Materials",
