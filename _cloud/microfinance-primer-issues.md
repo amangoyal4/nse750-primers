@@ -56,3 +56,6 @@
 
 **Peer rows used in the report (no primers): Fusion, Spandana, Muthoot Microfin, Satin** — use the Sep-26 AUMs and GNPA in §4.2.2; Muthoot GNPA is 3.70% at Jun-26 (not 3.89%).
 
+
+## From primer-audit (2026-11-03)
+- `primers/creditaccess-grameen.html`: passes hard checks; note "no main{min-width:0} (phone overflow)"; 0 links to sub-sector reports (could link `../subsectors/microfinance.html` once published); refreshed 2026-06-30 — valuation and Q1/Q2 FY27 stale (see above).
