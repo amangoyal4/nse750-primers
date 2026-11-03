@@ -52,3 +52,6 @@
 **No Hindware primer in the repo (checked 3-Nov-2026)** — for the writer only:
 - CARE downgrade to BBB+/A2 (RWD) on 8-Apr-2026. Bathware EBITDA ex-OI 10.3% FY26 (not 10.9%). FY27 guidance +15–20% and +1–2 pp margin. NCLT sanction 14-Oct-2026; listing of the two resulting companies expected ~1–1.5 months after the order takes effect.
 
+
+## primer-audit.mjs (2026-11-03)
+- primers/cera-sanitaryware.html — hard checks ✅; note: no `main{min-width:0}` (phone overflow risk). Pre-existing; not fixed here. Primer refresh date per audit: 2026-07-27.
