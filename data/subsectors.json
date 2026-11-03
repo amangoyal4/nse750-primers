@@ -2110,6 +2110,23 @@
         "Wakefit after the IPO"
       ],
       "published": "2026-11-03"
+    },
+    {
+      "name": "Medical Devices & Consumables",
+      "slug": "medical-devices",
+      "file": "medical-devices.html",
+      "sector": "Healthcare",
+      "subsector": "Medical Equipment & Supplies",
+      "companies": 2,
+      "accent": "#2D78B4",
+      "hook": "Approved plastic, exported latex, a valuation chasm: how India imports its machines but exports its tubes, why a cannula and a female condom both earn 58–73% gross margins, how price caps, licences, EU rules and US tariffs shape the field, and why the market pays 46× for Poly Medicure and 318× for Cupid.",
+      "tags": [
+        "Polymed 2.0 and the ROCE invoice",
+        "Condoms and the donor shock",
+        "Cupid's consumer pivot",
+        "Device KPI masterclass"
+      ],
+      "published": "2026-11-03"
     }
   ],
   "universe": [
@@ -2627,7 +2644,7 @@
       "sector": "Healthcare",
       "sub": "Medical Equipment & Supplies",
       "companies": 2,
-      "report": null
+      "report": "medical-devices.html"
     },
     {
       "sector": "Hospitality",
