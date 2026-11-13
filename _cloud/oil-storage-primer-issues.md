@@ -68,3 +68,6 @@
 - AIR 30-day LPG reserve: https://newsonair.gov.in/centre-asks-oil-marketing-companies-to-build-30-days-lpg-reserves-as-west-asia-conflict-persist/
 - DPA FY26 cargo records (snippet only): https://www.deendayalport.gov.in/wp-content/uploads/2026/06/Cargo-Records-FY-2025-26.pdf
 
+
+## From primer-audit (2026-11-13, oil-storage run)
+- **aegis-vopak-terminals.html — primer-audit hard-check FAIL (banned phrases):** "Think of AVTL as the …" (line ~286) and "honest" (line ~545). Also missing the `main{min-width:0}` kit grid fix (phone overflow risk); 0 links to sub-sector reports — add a link to `subsectors/oil-storage.html` once published. Not fixed here (primers are out of scope for cloud runs).
