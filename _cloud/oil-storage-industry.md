@@ -1393,3 +1393,470 @@ Legend: **P** = primary source (company filing, regulator, ministry, Vopak), fet
 - **LPG imports.** PPAC beats PL's table (PL rounds and may lag revisions).
 - **Liquid turns.** The company's RHP definition beats PL. PL's basis is unknown.
 - **"Largest third-party liquid storage".** CRISIL (AVTL, ~1.5–1.7 mn cbm, excludes BOOT/captive) and Adani (APSEZ+IOTL 3.6 mn KL, includes IOCL BOOT crude tanks) are both "true" on their own definitions. Say "largest independent multi-port tank-terminal operator (CRISIL basis)".
+
+---
+
+## 4.2 Company digests
+
+### 4.2-AVTL Aegis Vopak Terminals (member) — primary-document digest
+
+#### A. Management guidance (paraphrased; source and date in brackets)
+
+**From the Q2 FY27 call (3-Nov-2026, joint with Aegis Logistics; CMD Raj Chandaria, Aegis CFO/AVTL director Murad Moledina) [V]**
+1. **Capex envelope unchanged.** Cumulative capex reaches **~US$1.2 bn "by next year"**, with **~US$5 bn in aggregate through 2030-31**, spread across traditional energy and energy-transition infrastructure. Funding is a mix of equity, internal accruals and debt, with **gearing ≤0.6×**. [Q2 call, CFO]
+2. **Equity, not debt, funds the plan.** The CFO says US$5 bn at 0.6× gearing needs **~US$2 bn of equity**, which "both the partners… diluted their equity by listing" would provide: "Aegis Vopak capex is self-funded by dilution of equity and listing of its shares". On 14-Aug he tied this to the **mandatory second equity phase "to dilute to 25% by 2nd June 2028"** and a **3.5× EBITDA cap**. [Q2 and Q1 calls]
+3. **JNPA phase 1 liquids (~100,000 cbm of the 318,000 cbm J2 project) commission in Q3 FY27.** The 35,000 tpa LPG bottling plant was commissioned **15-Oct-2026**. The ~52,000 MT refrigerated LPG tank and the 77,286 MT J2 LPG capacity follow, with "JNPA next year" lifting group LPG handling capacity from **~20 mtpa today to ~29 mtpa**. [Q2 call]
+4. **Liquid capacity path: ~1.7 → ~2.2 mn cbm by FY27-end → "close to 3" mn cbm by FY28-end.** **Gross block reaches ₹10,000 Cr by Mar-2027** ("worst case June '27"). Beyond that, management speaks of ₹10,000 Cr → ₹45,000 Cr (≈US$5 bn), "lumpy", organic plus inorganic. [Q1 call, 14-Aug-2026]
+5. **Volume ambition: "at least 25% year-on-year" growth in LPG throughput.** AVTL did 3.9 MMT in FY26 and 2.0 MMT in H1 FY27, which is behind that pace (Q1 was hit by the war). [Q1 call]
+6. **Ammonia.** Take-or-pay with Hindustan Zinc starts **"later this year" (FY27)**. First full year at **20–25% utilisation** of a theoretical ~1 MMT. Realisations are **2.5–3× LPG's**: storage ~₹2,750/t, plus an ~₹7,000/t distribution margin if the group sources and distributes. Target is 8–10 ammonia terminals by 2030 (analyst framing, not contradicted). ITOCHU 10% → 25% of the ammonia SPV within 3 years. [Q1 and Q2 calls]
+7. **Pipeline and rail unlocks.** Jamnagar–Loni is operational. **KGPL at Kandla and at Pipavav "within the next 2 to 3 months"** (said 14-Aug), but by 3-Nov only "Kandla–Lucknow section charged". **Haldia–Panagarh (60 km, laid by HPCL) "October–November"**, worth ~0.25 MMT/yr extra through the 0.5 MMT Panagarh bottling plant. Mangalore LPG rail gantry and bottling cost ₹52.5 Cr. **Pipavav liquid rail gantry under a 15-year take-or-pay with "a leading conglomerate" for >0.5 MMTPA of petroleum products** (uses existing tanks; "by the end of the year"). APM Terminals' VLGC-compliant jetty at Pipavav is due "during the year". [Q1 and Q2 calls]
+8. **Other projects.** Kandla CRL-4 (+94,148 cbm, FY28). Kochi (+49,577 cbm to 132,122 cbm, early FY28). Mangalore: land secured, evaluating +60,000 cbm. Haldia: +3 acres. Vadhavan: non-binding MoU, ~₹20,000 Cr. **New business lines under discussion: inland depots, strategic storage ("talking very seriously"), industrial terminals.** "There are 200 odd ports in the country. I am only in seven." [Q1 call]
+9. **Second half.** "Generally speaking, we have a better second half". Next update ~end-January 2027. [Q2 call]
+
+**What management did NOT give:** AVTL segment EBITDA for Q2 ("we gave only consolidated EBITDA"); any strategic-storage contract; contract tenor or take-or-pay share of revenue; the identity of the 25% customer.
+
+#### B. The 8 most important analyst Q&A points (Q1 + Q2 FY27 calls) [V]
+1. **Tariff economics (360 ONE, 14-Aug).** The LPG throughput fee is a **uniform ~₹1,175/t** (principals ~₹1,200/t), the same at every terminal. Products sit "not more than three days or four days", so terminals compete on **turns, not price**, and the war did not lift terminal fees. The scarcity margin went to distribution (Aegis), not to AVTL.
+2. **Why AVTL lost less volume than India in the war (JM Financial, 14-Aug).** "None of our ships were stuck in Middle East". Diversified sourcing (with ITOCHU), multi-port drops while OMCs rationed cargo, and distribution ramp-up freed ullage. PPAC data back this up (see 4.5 insight 1).
+3. **Market share and the "25% vs 5%" growth question (Jefferies, 14-Aug).** The CFO puts AVTL volumes at ~10% of national demand. Incremental growth comes because "no one else is adding capacity". He calls old terminals "26 to 30 times" turners versus AVTL's "70 to 100 times" design capability, and AVTL's capacity replaces small inefficient operators.
+4. **Liquids realisation (Jefferies / InCred).** JNPA earns **~₹6,000/cbm/yr vs a ~₹3,000 blended average**. Margin expansion = "more revenue in locations of higher realization". Liquids are paid on **reserved capacity whether occupied or not**, so "occupancy is not what liquid works on".
+5. **Competitive intensity (360 ONE, 3-Nov).** Petronet's reported 3 MMT propane storage at Dahej and IOC/BPCL/JSW Infra plans: "infrastructure is always welcome… India is short", with ~1 mn MT static storage "not even… 10-day storage" versus a 90-day ideal. Competitive moat claim: cost of build plus rail/pipeline evacuation.
+6. **Market share number (PL, 3-Nov).** "We hold more than 30% of India's LPG static capacity". This reconciles to AVTL alone on CRISIL's base (S8).
+7. **Funding and MPS (Equirus, 14-Aug; InCred, 3-Nov).** Max US$3 bn debt + US$2 bn equity. The equity comes partly from the mandatory sell-down to ≤75% by 2-Jun-2028. Debt and equity arrive "lumpy", not 60:40 every year.
+8. **Ammonia economics (Budhrani, 14-Aug; PL, 3-Nov).** ~US$50 mn cost ("~₹525 Cr"). One 36,000 MT tank able to receive very large carriers. 20–25% first-year utilisation, prorated from August. The CFO described sourcing, storage and distribution in the first person, so **who books the distribution margin (AVTL or Aegis) is still unresolved** (trap 9).
+
+Transcript quirk: on 3-Nov the CFO read Q2 revenue as "INR217 crores"; the filing says ₹270.84 Cr (a slip).
+
+#### C. Concall / filing KPI table (AVTL) [V unless E]
+
+| KPI | Q2 FY26 | Q1 FY27 | Q2 FY27 | H1 FY27 | FY26 | Source |
+|---|---|---|---|---|---|---|
+| Revenue (₹ Cr) | 232.2 | 233.8 | 270.8 | 504.6 | 923.1 | Results; transcripts |
+| — Liquid | 106.0 | 126.5 | 128.9 | 255.4 | 440.5 | Segment table |
+| — Gas | 126.2 | 107.2 | 142.0 | 249.2 | 482.6 | Segment table |
+| EBITDA (₹ Cr) / margin | 173 / 74.7% | 179.4 / 76.75% | 212 / 78.6% | 392 / 77.7% | 686.5 / 74.4% | Transcripts; presentation |
+| Segment result Liquid (₹ Cr) | 46.6 | 69.3 | 73.0 | 142.3 | 203.1 | Results / AR |
+| Segment result Gas (₹ Cr) | 91.5 | 59.8 | 89.0 | 148.8 | 317.6 | Results / AR |
+| Finance cost (₹ Cr) | 18.6 | 39.3 | 40.3 | 79.7 | 109.7 | Results |
+| PAT (₹ Cr) | 100.2 | 69.4 | 96.4 | 165.8 | 341.9 | Results |
+| Gas throughput (MMT) | n.d. | ~0.9 | 1.1 | 2.0 | 3.9 | Transcripts |
+| Gas revenue per t (₹) [E] | — | ~1,190 | ~1,290 | ~1,245 | ~1,237 | E |
+| LPG list tariff (₹/t) | — | 1,175 (std) / ~1,200 | — | — | — | Q1 transcript |
+| Liquid capacity (mn cbm) | 1.67 | 1.67 | 1.67 | — | 1.67 | Presentation |
+| Liquid revenue per cbm, annualised (₹) [E] | ~2,530 | ~3,025 | ~3,080 | ~3,050 | ~2,630 | E |
+| LPG static (MT) | 200,800 | 225,800 | 225,800 | — | 225,800 | Presentation/AR |
+| Ammonia (MT) | — | 36,000 (10-Aug) | 36,000 | — | — | Aegis ppt |
+| Segment CE Liquid / Gas (₹ Cr) | 1,742.5 / 4,191.5 | 2,368.96 / 4,107.9 | 2,459.0 / 4,604.6 | — | 2,482.1 / 3,878.4 | Results |
+| Liquid EBIT/CE annualised [E] | ~10.7% | ~11.7% | ~11.9% | 11.6% | 8.2% (yr-end CE) | E |
+| Gas EBIT/CE annualised [E] | ~8.7% | ~5.8% | ~7.7% | 6.5% | 8.2% | E |
+
+(Q2 FY26 and Q1 FY27 segment CE are from the "30.09.2025" and "30.06.2026" columns of the Q2 filing. The Q2 FY26 liquid/gas revenue split is from the same filing (₹106.03 / ₹126.19 Cr). FY26 CE is the 31-Mar-2026 column.)
+
+#### D. Five-year history (screener consolidated, ₹ Cr; FY25 restated for HALPG) [V screener 13-Nov-2026; cross-checked to AR/presentation]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 (restated) | FY26 | TTM (Sep-26) |
+|---|---|---|---|---|---|---|
+| Revenue | 0 | 353 | 562 | 789 | 923 | 987 |
+| Growth | — | n.m. | +59% | +40% | +17% | +23% |
+| EBITDA (OP) | −1 | 229 | 398 | 575 | 687 | 750 |
+| OPM | — | 65% | 71% | 73% | 74% | 76% |
+| Other income | 0 | 3 | 8 | 32 | 37 | 19 |
+| Interest | 1 | 138 | 171 | 193 | 110 | 141 |
+| Depreciation | 0 | 91 | 114 | 148 | 208 | 225 |
+| PBT | −1 | 3 | 121 | 265 | 406 | 403 |
+| PAT (consol.) | −1 | −0 | 87 | 225 | 342 | 329 |
+| EPS (₹) | −0.02 | 0.00 | 1.00 | 2.03 | 2.80 | 2.74 |
+| ROCE | — | 8% | 8% | 9% | 8% | 7.56% |
+| CFO | 0 | 172 | 337 | 576 | 702 | — |
+| CFI | −92 | −1,786 | −857 | −381 | −3,077 | — |
+| Borrowings incl. leases (yr-end) | 98 | 2,374 | 3,273 | 4,018 | 3,731 | 4,121 |
+| Fixed assets + CWIP | 28 | 3,182 | 3,544 | 5,213 | 6,860 | 7,423 |
+| Segment capex (AR) | — | — | — | 1,368.8 | 1,882.8 | — |
+
+FY22 is the pre-JV shell (terminals transferred in FY23). FY23 ran **10 months** (Prospectus). CRISIL's FY23/FY24 operating EBITDA (₹229.3 / ₹397.5 Cr) matches screener.
+
+#### E. Eight-quarter trend (screener consolidated, ₹ Cr) [V]
+
+| Qtr | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 | Sep-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 162 | 199 | 208 | 232 | 239 | 243 | 234 | 271 |
+| YoY | — | — | +35% | +56% | +48% | +22% | +12% | +17% |
+| EBITDA | 119 | 144 | 155 | 173 | 179 | 179 | 179 | 212 |
+| OPM | 73% | 72% | 75% | 75% | 75% | 74% | 77% | 78% |
+| Interest | 50 | 48 | 30 | 19 | 20 | 41 | 39 | 40 |
+| Depreciation | 32 | 37 | 42 | 55 | 56 | 55 | 55 | 58 |
+| PAT | 38 | 64 | 79 | 100 | 89 | 74 | 69 | 96 |
+| EPS (₹) | 0.38 | 0.59 | 0.64 | 0.80 | 0.74 | 0.62 | 0.60 | 0.78 |
+
+**Basis warning (§H-17, now explained).** Screener's four FY25 quarters sum to **₹664 Cr**, while restated FY25 is **₹789 Cr**. The **₹125 Cr gap is HALPG**, folded into the annual figure only. YoY growth for Jun-25–Mar-26 is therefore flattered against un-restated bases. Like-for-like FY26 growth is +17%.
+
+#### F. Annual-report and Prospectus findings (new or upgraded)
+
+**F1. Related-party architecture: the group builds, AVTL buys finished terminals.** The Prospectus says AVTL "is not involved in construction and development of such project… [it] uses the experience of… Aegis Logistics… and acquire[s] such projects post their completion". Deals done or in train:
+- **Mangalore LPG** from Sea Lord Containers: framework agreement 9-May-2023; **₹968 Cr** total; BTA 19-Jun-2025.
+- **Pipavav 48,000 MT LPG** from Aegis Logistics: BTA 10-Jul-2025; ₹428.4 Cr; board approval 5-Feb-2025.
+- **Ammonia terminal** from Aegis Logistics: framework agreement 19-Jun-2025; later assigned to ATPL, 26-Mar-2026.
+- **Kandla CRL-4, 94,148 cbm**, built by Aegis Logistics: framework agreement 19-Jun-2025.
+- **JNPA "J2"** (77,286 MT LPG + 318,100 cbm + bottling), built by Aegis Logistics: framework agreement 5-Nov-2025.
+- **NMPA rail loading and bottling** through Sea Lord: framework agreement 30-Jan-2026.
+- **HALPG**: 51% from Aegis Gas (LPG) for ₹701.6 Cr + 24% from Vopak India for ₹330.2 Cr; SPA 2-Jan-2026, closed 6-Jan-2026.
+- **ATPL** 96% from Aegis Gas (LPG), 13-Nov-2025.
+
+[AR FY26 Board's report; AOC-2; Prospectus] **Implication:** AVTL's "capex per MT" is a **transfer price set between related parties**. Expected further payments to the group under these frameworks are large: H1 FY27 "payment of business acquisitions from related parties" alone was **₹547.2 Cr** [V Q2 cash flow]. Earlier history (Prospectus RF 32): FY23 slump-sale purchases from group companies **₹2,126 Cr**; FY24 advances to related parties for capex **₹585.6 Cr**; related-party transactions ran at **281–1,084% of revenue** in FY23–9M FY25.
+
+**F2. Customers.**
+- **Largest customer 25% FY26 / 29% FY25** (consolidated, gas segment). Standalone: two customers at **12% and 11%** in FY26 (FY25: 13% and 0.01%) [V AR].
+- Pre-HALPG: top-5 30.72% (FY23), **34.38% (9M FY25)**; top-10 42.07% (FY23) → 44.56% (FY24) → **44.76% (9M FY25)**; largest **11.21%** [V Prospectus].
+- Relationships average 10–20 years; the longest are BPCL and Aarti Industries. "We have also entered into contracts… under which such customers have committed to provide us with a minimum volume… (take-or-pay)", but arrangements are **non-exclusive above the minimum** [V Prospectus].
+
+**F3. Port leases (Prospectus "Properties", Dec-2024 portfolio) [V; rents ₹ Cr/yr].**
+
+| Port | Plots / lessor | Area (sq m) | Annual rent | Lease end | Note |
+|---|---|---|---|---|---|
+| Kandla (DPA) | Plots 3, 4, 5, 6, 10, 12 (assigned from Aegis Logistics, Viking Lighterage, Friends Bulk) | 22,083–32,677 each | 2.49 / 3.42 / 3.73 / 3.50 / 3.00 / 1.64 | May-2045 – Jun-2046 | 30-year leases |
+| Kandla | Friends Salt Works land | 202,343 | **25.64** | 17-Apr-2045 | Single biggest rent |
+| Kandla (CRL Terminals) | 9 plots | 1,033–38,696 | 2.79, 2.21, 1.10, 4.27, 2.51, 3.24, 0.11, 0.50, 3.06 | **Three expired (Apr-2008, Jan-2009, Jan-2021), "not renewed"**; others Dec-2030, Apr-2053, Mar-2055 | Holding-over risk (Prospectus RF) |
+| Mangalore (NMPA) | 5 plots (Aegis, Anagha Refineries, Sea Lord, New Mangalore M-1) | 12,041–60,703 | 2.04, 0.93, 1.06, 3.31, 2.35 | Oct-2045 – Dec-2051 | — |
+| Haldia (SMP) | 3 plots (Sea Lord, Aegis) | 10,000–20,234 | 0.21, 1.68, ~0 | Sep-2037 – Dec-2051 | — |
+| **Pipavav (GPPL sub-lease; GMB)** | 5 plots | 12,914–42,866 | 0.36, 0.42, 0.17, 0.47, 0.35 | **All 29-Sep-2028** | = GPPL concession expiry |
+| Kochi | 5 plots (Konkan Storage, Ruchi Infrastructure) | 5,249–19,384 | ~0.001 each (token) | Jul-2030 – Mar-2040 | — |
+| JNPA | Plot 4 tank-farm (via Sea Lord) | 16,165 | **5.73** | 5-Jan-2053 | — |
+
+- **Total ≈ ₹82 Cr a year** [E sum]: Kandla ~₹63 Cr, Mangalore ~₹9.7 Cr, JNPA ₹5.7 Cr, Haldia ₹1.9 Cr, Pipavav ₹1.8 Cr.
+- **Rent intensity:** JNPA **~₹3,540/sq m/yr**; Kandla ~₹1,100–1,270; Mangalore ~₹550–1,700; Pipavav **~₹130** [E]. That ties to the liquid realisations: JNPA ~₹6,000/cbm, blended ~₹3,000.
+- Leases carry **minimum guaranteed throughput** and **bank guarantees** (RF 31). Cash lease payments in FY26 were **₹120.7 Cr** (consolidated cash flow, incl. interest) [V].
+
+**F4. Contingent liabilities (consolidated, Mar-26) [V AR note 32].**
+- GST input-tax-credit disallowance **₹50.76 Cr** (under appeal).
+- Disputed PGVCL electricity charges ₹0.83 Cr; sales tax ₹0.74 Cr.
+- Claims not acknowledged as debt ₹0.03 Cr (Mar-25: ₹5.23 Cr).
+- Capital commitments **₹1,676.5 Cr**.
+- The GST item (~15% of FY26 PAT) is the only material contingency. Deendayal "advances under protest" (₹6.75 Cr, Part 1) are separate.
+
+**F5. Financing and ratings [V AR].**
+- IPO proceeds repaid **₹2,015.95 Cr** of HDFC Bank and DBS term loans on **6-Jun-2025**.
+- AVTL then raised **₹1,690 Cr of listed NCDs** (NSE debt segment).
+- **India Ratings: IND AA/Positive** (bank facilities and NCDs) and **IND A1+** (short-term).
+- Final dividend ₹0.20/share (2% of FV), recommended 28-May-2026.
+- FY26 cash dividend paid ₹186.2 Cr: pre-IPO dividends plus the final, which explains screener's 71% payout.
+
+**F6. Lock-in and supply timeline [V Prospectus; V SHP].**
+- **20% of post-issue capital (221,599,000 promoter shares) is locked for 3 years from allotment (~late May-2028).**
+- The rest of the promoter holding (~74.2 Cr shares) had a **1-year lock-in that lapsed ~May/Jun-2026**.
+- Anchor shares (50%) were locked for 90 days.
+- So promoters are already **free to sell ~67% of the company** toward the 75% MPS level (needs ~13.2 Cr shares by **2-Jun-2028**), even before the 20% lock lifts.
+
+**F7. Operating history (Prospectus capacity table) [V].**
+
+| | FY23 (10 mths) | FY24 | 9M FY25 |
+|---|---|---|---|
+| Gas installed static (MT) | 67,100 | 70,800 | 70,800 |
+| Gas volume (MMT) | 0.858 | 1.589 | 1.270 |
+| Gas turns | 15.35× (annualised) | 22.44× | 23.92× (annualised) |
+| Liquid installed (cbm) | 1,343,012 | 1,497,483 | 1,497,483 |
+| Liquid utilisation | 75.96% | 75.81% | 72.96% |
+| Liquid volume (MMT) | 4.80 | 5.45 | 4.38 |
+| Liquid turns | 4.54× | 3.94× | 4.08× |
+
+**F8. CRISIL peer KPIs (FY24) [V Prospectus].**
+- AVTL operating EBITDA margin 70.77%; ROCE 8.39%; net debt/operating EBITDA 6.24× (incl. leases).
+- GBL: revenue ₹477.1 Cr, operating margin 20.0%, ROCE 17.6%.
+- IPPL (FY23): ₹3,354.7 Cr revenue, 11.6% margin, ROCE 46.2%, net cash ₹766 Cr.
+- IMC (FY23): ₹253.4 Cr, −2.25%, net debt ₹67.8 Cr.
+- These confirm S18.
+
+### 4.2-AEGIS Aegis Logistics (reference parent; consolidates AVTL) — lighter digest
+
+**Guidance and commentary (Q2 FY27 joint call, 3-Nov-2026; Oct-2026 corporate presentation) [V]**
+1. **Tristar.** Aegis signed on **13-Oct-2026** to buy **c.89.8% of Tristar Holdings** for an **equity consideration of US$809 mn (incl. contingent and interest on deferred consideration)**. The buyer is step-down subsidiary Aegis Logistics International Pte. The sellers are **Agility Tristar Holdings, Gulf Investment Corporation and Diamond Holdings**. Completion is expected **Q4 FY27**, subject to competition approvals. Tristar: Dubai HQ, ~30 years old, **28 ships**, liquid terminals globally, trucks/distribution, aviation refuelling, inert gases. Customer ties named on the call: Shell, Glencore, BP, Total, Saudi Aramco, ADNOC. The existing management stays. Synergy numbers are withheld until closing. **Tristar sits in Aegis Logistics, not AVTL**; nothing on the call suggests a transfer.
+2. **Funding.** EGM approved up to ₹6,000 Cr. **QIP opened 11-Nov-2026 (floor ₹1,161.85)**. The CFO says the parent has "no debt" and **₹6,400 Cr of cash at Sep-26**, so the acquisition "is exactly matching with what cash we have". Basis: parent/standalone. The consolidated book shows ₹4,797 Cr of borrowings (incl. AVTL).
+3. **Distribution economics.** EBITDA is "a shade above ₹7,000/t" in Q2, which management calls a **normal** quarter, versus ~₹4,000/t in 2024-25. Management credits cost/scale efficiency (VLGC unloading, large tanks), not price. Q1's spike was "price-led".
+4. **Volumes.** Distribution: Q2 **2.41 lakh t (+25%)**, H1 **5.18 lakh t (+54%)**; "magic 1 million tons" targeted in FY27 (FY26: **754 KT**). Logistics throughput: Q1 1.1, Q2 **1.34 MMT** (−5% YoY, +19% QoQ); FY26 **5.2 MMT** (presentation) / 5.1 MMT (call). Sourcing: Q2 0.9 lakh t (contracts expired).
+5. **Liquids (group).** H1 revenue ₹366 Cr, EBITDA ₹284 Cr (78%). Q2 revenue ₹187 Cr (+21%), EBITDA ₹147 Cr (+27%). Revenue **>₹3,600/cbm**; the CFO expects **~₹3,000/cbm of EBITDA** this year. Mumbai +64,000 cbm (₹125 Cr) commissions through FY27. **Mumbai (Trombay) stays in Aegis, not AVTL** (CMD).
+6. **Group capacity (30-Jun-2026, incl. upcoming).** LPG static **374,800 MT**; liquid **~2.5 mn KL** (incl. 0.5 mn upcoming); ammonia 36,000 MT. LPG throughput-to-static turns **79×** (FY26). Prospectus figures for Aegis-owned Mumbai assets: **275,000 cbm liquid; 21,000 MT LPG; 1.5 MMTPA**. CRISIL: Aegis "handles more than 20% of India's LPG imports" (Dec-2024).
+
+**Company-reported KPIs [V presentation/transcript]**
+
+| ₹ Cr | FY24 | FY25 | FY26 | Q1 FY27 | Q2 FY27 | H1 FY27 |
+|---|---|---|---|---|---|---|
+| Revenue | 7,046 | 6,764 | 8,333 | 2,357 | 2,213 | 4,570 |
+| Normalised segment EBITDA | 1,007 | 1,173 | **1,599** (Liquid 472; Gas 1,127) | 727 | 456 (Gas 309.25; Liquid 147) | 1,184 |
+| PAT | 672 | 787 | 1,107 | 545 | 321 | 866 |
+| EPS (₹) | 16.22 | 18.90 | 25.59 | 13.80 | 7.42 | 21.23 |
+
+"Normalised" EBITDA excludes forex/hedging items, which explains the gap to screener's OP (FY26 ₹1,452 Cr vs ₹1,599 Cr; Q2 ₹434 Cr vs ₹456 Cr).
+
+**Five-year (screener consolidated, ₹ Cr) [V]**
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | TTM |
+|---|---|---|---|---|---|---|
+| Revenue | 4,631 | 8,627 | 7,046 | 6,764 | 8,333 | 8,890 |
+| OP | 535 | 672 | 923 | 1,098 | 1,452 | 2,069 |
+| OPM | 12% | 8% | 13% | 16% | 17% | 23% |
+| PAT (incl. minorities) | 385 | 511 | 672 | 787 | 1,107 | 1,553 |
+| EPS (₹) | 10.19 | 13.19 | 16.22 | 18.90 | 25.59 | 37.95 |
+| ROCE | 17% | 16% | 15% | 13% | 13% | 13.3% |
+| Borrowings | 835 | 1,924 | 2,665 | 4,606 | 4,150 | 4,797 (Sep-26) |
+| CFO | 280 | 358 | 656 | 558 | 2,028 | — |
+
+**Eight quarters (screener, ₹ Cr) [V]**
+
+| | Dec-24 | Mar-25 | Jun-25 | Sep-25 | Dec-25 | Mar-26 | Jun-26 | Sep-26 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue | 1,707 | 1,705 | 1,719 | 2,294 | 1,725 | 2,594 | 2,357 | 2,213 |
+| OP | 233 | 409 | 240 | 291 | 297 | 624 | 714 | 434 |
+| OPM | 14% | 24% | 14% | 13% | 17% | 24% | 30% | 20% |
+| PAT | 160 | 318 | 175 | 244 | 233 | 455 | 545 | 320 |
+| EPS (₹) | 3.54 | 8.02 | 3.74 | 5.12 | 5.04 | 11.69 | 13.80 | 7.42 |
+
+**Valuation and holding (13-Nov-2026) [V screener]:** price ₹1,224; m-cap ₹42,976 Cr; P/E 32.3; P/B 6.4. Promoters 58.10% (unchanged since 2023); FII 19.13%; DII 4.01%; 90,790 shareholders. **Look-through:** 49.54 Cr AVTL shares × ₹286 = **₹14,168 Cr ≈ 33% of Aegis's m-cap** [E].
+
+**Annual-report points relevant to AVTL (from AVTL's filings):**
+- Aegis is the **developer of record** for AVTL's pipeline (F1).
+- Aegis entities paid AVTL **~₹146 Cr** for throughput/storage in FY26 (Part 1).
+- Aegis's FY26 normalised **gas EBITDA ₹1,127 Cr** includes AVTL's gas segment EBITDA (₹414.5 Cr), so **ex-AVTL gas (sourcing + distribution + Mumbai LPG) ≈ ₹710 Cr** [E, ignores eliminations].
+- Aegis's liquid EBITDA ₹472 Cr includes AVTL's ₹313.7 Cr, so **Mumbai liquids ≈ ₹160 Cr** [E].
+- The Aegis AR FY26 itself was not read (budget); the same BSE link is in screener's list.
+
+### 4.2-VOPAK Royal Vopak (global lens; 42.23% of AVTL) — lighter digest
+
+**Q3 2026 (release 4-Nov-2026, vopak.com) [V]**
+- **Proportional EBITDA:** Q3 **€306.1 mn** (Q2-26 €305.7 mn; Q3-25 €286.5 mn); YTD **€906.4 mn** (€901.8 mn). YTD margin **58.6%** (stable). Underlying growth is +5% ex-FX, ex-divestment and ex the 2025 one-off €22 mn settlement.
+- **IFRS:** revenue Q3 €349.7 mn, YTD €1,026.8 mn (+6% ex-FX). Net profit incl. exceptionals Q3 €141.7 mn (EPS €1.25); YTD €328.1 mn (2025 YTD €406.5 mn included a **€111 mn AVTL dilution gain** — the FY25 release says €113 mn for the full year).
+- **Occupancy:** subsidiaries 91%; proportional 91% (Q3-25 90%). Storage **35.8 mn cbm** (subsidiaries) / **20.9 mn cbm** proportional.
+- **Returns and cash:** proportional operating cash return Q3 16.5%, YTD **16.4%**, rolling 12-m **15.8%**. Proportional OFCF YTD €671.1 mn (€5.88/share). EBITDA-to-cash conversion ~74%.
+- **Balance sheet:** net debt/EBITDA **2.42×**; proportional leverage **2.95×** (target 2.5–3.0×; ~0.80× from assets under construction). Proportional growth capex YTD €406 mn ("joint ventures in Canada, the Netherlands and India").
+- **FY26 outlook raised:** proportional EBITDA **€1,200–1,220 mn**; OFCF ~€840 mn.
+- **Shareholder returns and commitments:** first interim dividend €0.72 (24-Sep-2026); €500 mn multi-year buyback (first €100 mn tranche 75% done by 30-Oct). €1.7 bn committed to gas and industrial since 2022 (€790 mn commissioned, €930 mn under construction); ~€650 mn energy-transition commitments (~€575 mn under construction); ~€2.4 bn growth committed since 2022 in total.
+- **India:** "AVTL has successfully commissioned ammonia storage… at Pipavav, while taking **final investment decisions to expand terminal infrastructure at the JNPA Mumbai and Kochi terminals**".
+
+**FY2025 (release 25-Feb-2026) [V]**
+- IFRS revenue €1,299 mn (+1.2% ex-FX). Proportional EBITDA **€1,184 mn**.
+- **Proportional occupancy 91.4%** (2024: 92.5%; Q4-25 92.4%, up from 90.3% in Q3-25).
+- Proportional operating cash return **15.6%** (15.1%). OFCF €823 mn. Long-term operating cash return target **13–17%**.
+- Net profit €604 mn incl. **€113 mn AVTL dilution gain** and €181 mn Europoort impairment reversal. EPS €5.23.
+- "Demand for chemical storage… continued to be weak".
+- India: AVTL commissioned NMPA LPG ("the country's third largest LPG port") in Jun-2025. HALPG deal: €100 mn total, Vopak share €42 mn, look-through **31.7%**, cash to Vopak €31 mn, **€7 mn exceptional book loss** from INR depreciation since the May-2022 purchase. Growth-project table: "AVTL, JNPA Mumbai LPG… 450k cbm, Q3 2026, Vopak share €71 mn".
+
+**KPI comparison table (global lens) [V; E where marked]**
+
+| KPI | Vopak FY24 | Vopak FY25 | Vopak YTD Q3-26 | AVTL FY26 | AVTL H1 FY27 |
+|---|---|---|---|---|---|
+| EBITDA margin | ~57–58% (prop.) | 58% (prop.) | 58.6% (prop.) | 74.4% | 77.7% |
+| Occupancy / utilisation | 92.5% | 91.4% | 91% | ~73–76% (reserved-capacity basis) | n.d. |
+| Cash return / ROCE | 15.1% (op. cash return) | 15.6% | 16.4% | ROCE 8%; segment EBIT/CE 8.2% | 8.2% annualised |
+| Leverage | — | ND/EBITDA 2.45× | 2.42× | 2.6× ex-leases / 5.0× incl. [E] | 2.9× / 5.1× [E] |
+| Capacity | 35.5 mn cbm (Dec-24, CRISIL) | 35.8 mn cbm | 35.8 / 20.9 prop. | 1.67 mn cbm + 225,800 MT | same |
+| Market value | ~€5.2 bn (US$5.20 bn, Dec-24, CRISIL) | — | ~€6.0–6.2 bn (Oct-26) [V-snip] | ₹31,681 Cr ≈ €2.9 bn [E] | — |
+
+**Read-across:**
+- Vopak's 16% cash return on a 91%-full network is the steady-state yardstick. AVTL's 8% segment return reflects a balance sheet in which more than half the gas capital employed is <18 months old.
+- **AVTL's market value is ~half of Vopak's** on ~1/12 of the EBITDA (₹750 Cr ≈ €68 mn TTM vs €1.2 bn) [E].
+
+---
+
+## 4.3 Industry datasets upgraded from primary sources (chart-ready)
+
+**D1. India LPG balance, MMT (PPAC primary; replaces E1 for FY24–FY27) [V]**
+
+| FY | Consumption | Imports | Exports | Net imports | Net imports % of consumption | Implied domestic supply (cons. − net imp.) [E] |
+|---|---|---|---|---|---|---|
+| FY24 | 29.664 | 18.514 | 0.525 | 17.989 | 60.6% | 11.7 |
+| FY25 | 31.328 | 20.667 | 0.551 | 20.116 | 64.2% | 11.2 |
+| FY26 | 33.170 | 21.773 | 0.566 | 21.207 | 63.9% | 12.0 |
+| H1 FY27 (Apr–Sep) | 13.705 | 6.380 | 0.274 | 6.106 | 44.6% | 7.6 (≈15.2 annualised) |
+
+- The "implied domestic supply" ignores stock changes and industrial/petchem LPG, so it is lower than PPAC's production figure (13.1 MMT FY26 per PTI).
+- **Read:** the H1 FY27 import share collapsed to ~45% as refinery output was forced up (Control Order, +28%) and demand was rationed. FY19–FY23 figures stay from PL/CRISIL (Part 1 E1): FY19 24.91/13.20, FY20 26.33/14.80, FY21 27.54/16.48, FY22 28.25/17.13, FY23 28.50/18.31 (consumption/imports, MMT).
+
+**D2. Monthly LPG, TMT (PPAC) [V] — the war shock**
+
+| Month | FY26 consumption | FY27 consumption | YoY | FY26 imports | FY27 imports | YoY |
+|---|---|---|---|---|---|---|
+| Apr | 2,545 | 2,192 | −13.9% | 1,702 | 678 | −60.2% |
+| May | 2,682 | 2,114 | −21.2% | 1,820 | 1,131 | −37.9% |
+| Jun | 2,554 | 2,173 | −14.9% | 1,873 | 1,012 | −46.0% |
+| Jul | 2,810 | 2,337 | −16.8% | 1,954 | 858 | −56.1% |
+| Aug | 2,833 | 2,338 | −17.5% | 1,925 | 1,302 | −32.4% |
+| Sep | 2,794 | 2,540 | −9.1% | 1,851 | 1,400 | −24.4% |
+| Oct | 2,871 | 2,518 | −12.3% | 1,923 | n.a. | — |
+| Mar-26 (vs Mar-25) | 2,358 vs 2,729 | — | −13.6% | 792 vs 1,885 | — | −58.0% |
+
+Sector split, Apr–Sep (ICR): domestic 12,187 vs 14,084 TMT (−13.5%); non-domestic 1,270 vs 1,415; bulk and private imports **200 vs 686 (−71%)**; auto-LPG 46 vs 35 (+31%). Active domestic connections **32.667 crore** (30-Sep-2026), PMUY 10.57 crore.
+
+**D3. CRISIL LPG terminal base, 31-Dec-2024 (Prospectus) [V]**
+
+| Port | Static ('000 MT) | FY24 throughput (MMT) | Turns | Evacuation |
+|---|---|---|---|---|
+| Kandla | 108.0 | 3.25 | 30.1× | Road, pipeline, rail |
+| Haldia | 95.2 | 1.83 | 19.3× | Road, pipeline |
+| Dahej | 83.8 | 1.70 | 20.3× | Road, pipeline (in progress) |
+| Vizag | 69.0 | 1.15 | 16.7× | Road |
+| Mundra | 50.0 | 2.30 | 46.0× | Pipeline, rail |
+| JNPA | 45.0 | 0.80 | 17.8× | Road, rail, pipeline |
+| New Mangalore | 33.0 | 1.20 | 36.4× | Road, pipeline, rail |
+| Krishnapatnam | 32.8 | 1.50 | 45.7× | — |
+| Ennore | 30.6 | 2.30 | 75.2× | Road |
+| Pipavav | 22.8 | 2.00 | 87.7× | Road, pipeline, rail |
+| Mumbai | 21.0 | 1.50 | 71.4× | Road |
+| Cochin | 15.4 | 0.60 | 39.0× | — |
+| Tuticorin | 8.0 | 0.40 | 50.0× | — |
+| **Total** | **614.6** | **20.53** | **42.7×** | |
+
+- Additions since: AVTL Mangalore +82.0 and Pipavav +48.0 ⇒ ~745 [E].
+- Planned (CRISIL): HPCL NMPT cavern 80.0; APSEZ Mundra +26.0; JNPA (BW LPG, GBL, Confidence) +48.0; AVTL JNPA +129.3.
+- **LPG imports by port, FY24 (MMT):** Haldia 5.09, Kandla 2.95, New Mangalore 2.39, Vizag 1.64, Ennore 1.33, Mumbai 1.17, Dahej 1.14, JNPA 0.99, Pipavav 0.71, Mundra 0.69, Tuticorin 0.30. FY20–24 CAGR: Pipavav 13.5%, Kandla 11.4%, Mundra 11.3%, Haldia 4.8%; Ennore −3.2%, Vizag −1.6%, NMPT −1.3%.
+- **Kandla FY26: 2.61 MMT LPG (+25%)** [V-snip DPA].
+- LPG pipelines moved **10.1 MMT in FY24 vs PSU sales of 29.6 MMT**; JLPL ran at **99%** utilisation (CRISIL).
+
+**D4. Third-party liquid tank capacity by port, Dec-2024 (CRISIL, mn cbm) [V]**
+Kandla 1.15 | Pipavav 0.45 | JNPA 0.44 | Dahej 0.39 | Haldia 0.38 | Mumbai 0.30 | Ennore 0.25 | New Mangalore 0.21 | Vizag 0.15 | Cochin 0.08 | Chennai 0.06 | Kolkata 0.05 | Mormugao 0.05 | Kakinada 0.02 | **table sum ~3.98** (headline-implied national ~5.84; see S1).
+
+Port shares (CRISIL):
+- Kandla: AVTL 67.3%, Ahir Salt 19.5%, IMC 12.0%, Indo Nippon 1.2%.
+- Pipavav: Gulf Petrochem 55.8%, AVTL 26.1%, IMC 18.1%.
+- JNPA: GBL 64.2%, IMC 35.8% (AVTL's 101,900 cbm came after Dec-24).
+- Haldia: AVTL 59.2%, IMC 30.4%, IFB Agro 10.4%.
+- Mumbai: Aegis 90.4%, IMC 9.6%.
+- New Mangalore: AVTL 53.8%, IMC 23.6%, ATS 22.6%.
+- Cochin: AVTL 60.5%, GBL 31.4%, IMC 8.0%.
+- Vizag: EIPPL 62.5%, IMC 37.5%.
+- Dahej: GCPL 100%. Ennore, Chennai, Kolkata, Karwar, Kakinada: IMC 100%. Mormugao: IMC 50.1%, GBL 49.9%.
+
+Operator capacity (FY24, CRISIL): AVTL 1,497,480 cbm; IMC 1,129,330; IPPL 348,850. Outside CRISIL's set: **IOTL (Adani) 2.4 mn KL incl. 1.9 mn KL BOOT crude/product tankage for IOCL** [V Adani].
+
+**D5. Overseas liquid-bulk trade by port, FY24, MMT (veg oils + bulk chemicals; CRISIL/DGCIS) [V]**
+Kandla 6.4 (veg 4.4, chem 2.0) | JNPA 4.6 (chem 3.2, veg 1.3) | Haldia 3.9 (veg 2.7, chem 1.3) | Hazira 3.3 (chem 2.8) | Dahej 1.6 | Krishnapatnam 1.5 | Chennai 1.5 | Mundra 1.4 | Kakinada 1.2 | New Mangalore 1.0 | Mumbai 0.9. Bulk-chemical trade: 15.8 (FY19) → 16.6 (FY23) → 15.7 (FY24) → 18–19 MMT (FY29E). Coastal POL traffic 70–75 MMT (seaborne 35–38 MMT), FY24.
+
+**D6. India import values by HS chapter, US$ bn (Commerce TradeStat) [V]**
+
+| HS | FY21 | FY22 | FY23 | FY24 | FY25 | FY26 | FY26 YoY |
+|---|---|---|---|---|---|---|---|
+| 29 Organic chemicals | 19.69 | 28.52 | 28.98 | 26.74 | 26.59 | 25.41 | −4.4% |
+| 15 Veg/animal fats & oils | 11.31 | 19.35 | 21.12 | 15.06 | 17.59 | 19.78 | +12.4% |
+| 28 Inorganic chemicals | 6.88 | 10.24 | 12.84 | 9.14 | 11.38 | 14.18 | +24.6% |
+| 31 Fertilisers | 6.87 | 12.77 | 15.32 | 8.92 | 8.29 | 14.58 | +76.0% |
+| 27 Mineral fuels | 99.70 | 194.86 | 260.92 | 219.05 | 218.46 | 203.42 | −6.9% |
+| Total imports | 394.4 | 613.1 | 716.0 | 674.0 | 721.2 | 775.7 | +7.6% |
+
+These are **values, not tonnes**. Organic-chemical imports fell in value for three straight years (price deflation, Chinese surplus). Tank demand follows tonnes; CRISIL bulk chemicals were flat at ~15.7 MMT in FY24.
+
+**D7. Major-port cargo (MoPSW) [V]**
+- FY26: total **914.73 MMT (+7.00%)**; POL & crude **272.27 MMT (+16.18%; 29.77%)** vs 234.36 MMT FY25.
+- Mar-26: POL 23.78 vs 26.13 MMT (−8.98%).
+- Deendayal **160.11 MMT (+6.63%; 17.5%)**, of which coastal 21.93 MMT (+39.3%). Kandla liquids **20.41 MMT (+11.5%)** [V-snip DPA].
+- FY22–FY24 POL by port were not fetched (IPA site not attempted, budget) — see gap log.
+
+**D8. Strategic-storage facts (primary) [V]**
+- ISPRL Phase I **5.33 MMT**, "all… filled with crude" (PIB, Jul-2021). Phase II **6.5 MMT** (Chandikhol 4 + Padur 2.5, PPP; approved Jul-2021; ₹210 Cr for land in FY21).
+- **IGoM 11-May-2026: "60 days of crude oil, 60 days of Natural Gas and 45 days of LPG rolling stock"**. Rolling stock = system inventory incl. in-transit cargo, not dedicated storage.
+- **29-May-2026: OMCs asked to build ≥30 days of LPG reserves** (AIR).
+- 30 days of FY26 consumption = **2.73 MMT** [E] vs ~0.75 MMT of port static capacity: a **~2.0 MMT gap** if met in port tankage [E].
+
+---
+
+## 4.4 Gap log (every §H item)
+
+| §H # | Item | Status | Result / what was tried |
+|---|---|---|---|
+| 1 | Total Indian third-party liquid capacity | **Filled, with a caveat** | CRISIL in the Prospectus: AVTL 1.49 mn cbm = 25.53% ⇒ **~5.84 mn cbm (Dec-24)**; CRISIL's port table sums to ~3.98 mn cbm (S1, D4). Adani's 3.6 mn KL "largest" claim uses a wider definition (S17) |
+| 2 | Liquid tariffs ₹/kl/month | **Partly filled** | No published tariff card exists; CRISIL says tariffs depend on product, tank spec, location and volume (Prospectus RF). Management: liquids priced per cbm on reserved capacity; **JNPA ~₹6,000/cbm/yr (~₹500/month) vs blended ~₹3,000 (~₹250/month)**; Aegis group >₹3,600/cbm. AVTL H1 FY27 annualised ₹3,050/cbm of capacity [E] |
+| 3 | India LPG static/import terminal capacity | **Filled** | CRISIL **614,580 MT (31-Dec-24)**, port by port (D3); ~745,000 MT after AVTL's FY26 additions [E]. PPAC/PNGRB/MoPNG publish no terminal-capacity series that could be found; PPAC's site lists bottling plants (Part 1) but not import terminals |
+| 4 | Identity/share of the top customer | **Share filled; identity still open** | 25% FY26 / 29% FY25 consolidated (AR); 11.21% pre-HALPG (Prospectus); standalone 12%/11%. Identity not disclosed; **HPCL is the strong inference** from HALPG's HPCL-exclusive contract (S22) |
+| 5 | Take-or-pay share and contract tenor | **Still open (qualitative only)** | The Prospectus confirms take-or-pay minimums with "certain customers", non-exclusive above them. Tenors disclosed only for: ammonia–HZL 15 yrs; Pipavav liquid rail gantry 15 yrs (>0.5 MMTPA); HALPG–HPCL to 2038; customer relationships 3–15 yrs (avg 10–20). No revenue share disclosed anywhere |
+| 6 | Port lease terms | **Filled** | Prospectus Properties table: plot-level rent, area and expiry (F3); 10–30 yr leases with MGT and bank guarantees; **Pipavav all to 29-Sep-2028**; 3 expired Kandla CRL leases. The **JNPA ~10× rent reset (GBL)** is still unconfirmed (not in AVTL filings) |
+| 7 | IPO subscription | **Filled (secondary)** | ~2.09× final (QIB 3.30×, NII 0.56×, retail 0.77×). Exchange bid page not reachable; consistent across 4 aggregators [V-snip] |
+| 8 | Aegis vs Vopak split | **Filled (primary)** | SHP 30-Jun-2026: 44.71% / 42.2252% (S20) |
+| 9 | Seller of the Mangalore LPG terminal | **Filled (primary)** | Sea Lord Containers Ltd (100% Aegis subsidiary); **₹968 Cr total** (S4) |
+| 10 | Ammonia contract units (HZL "8,000–10,000 MT") | **Still open** | Company says only "15-year take-or-pay… with Hindustan Zinc for part of the capacity to service its upcoming DAP plant". No tonnage in transcripts, AR or presentation. Treat PL's number as broker-sourced and unit-ambiguous |
+| 11 | Who books the ammonia distribution margin | **Still open** | CFO speaks in the first person ("I would be sourcing… storing… distributing"); ITOCHU partnership; no segment disclosure yet. Watch Q3 FY27 (first TOP revenue) |
+| 12 | Saudi CP Nov-2026 | **Still open** | Search found only 2025 CPs and undated pages. Primary context: Saudi CP **+41% between Jul-2023 and Mar-2026** (Minister, PIB) |
+| 13 | ISPRL fill and Phase-2 status | **Partly filled** | PIB 2021: Phase I 5.33 MMT filled; Phase II 6.5 MMT PPP approved. 2026 status (Padur-II concession 1-Oct-2025; Chandikhol RFP) remains press-sourced; isprlindia.com and the parliamentary committee PDF were unreachable. IGoM May-2026: "60 days of crude" system cover |
+| 14 | US LPG contracts | **Partly filled (secondary)** | IOCL/BPCL/HPCL **~2.2 MTPA for contract-year 2026**, Mont Belvieu-linked, announced 17-Nov-2025; described officially as a "one-year structured contract" [V-snip, several outlets]. PIB primary not located. Minister (Mar-2026): cargoes from US, Norway, Canada, Algeria, Russia [V PIB] |
+| 15 | Kandla FY26 liquid cargo tonnage | **Filled (snippet of primary)** | DPA records: **20.41 MMT total liquid (+11.5%)**; LPG 2.61 MMT (+25%) [V-snip DPA PDF] |
+| 16 | JM Baxi / Oiltanking / Adani liquid capacity | **Oiltanking and Adani filled; JM Baxi still open** | Oiltanking sold IOTL (2.4 mn KL) to APSEZ (2022); APSEZ claims 3.6 mn KL. No JM Baxi liquid-storage figure found (not in CRISIL's player list either; likely negligible) |
+| 17 | Screener FY25 quarters vs restated annual | **Explained** | ₹664 Cr vs ₹789 Cr: the ₹125 Cr gap is HALPG, consolidated under common control only in annual figures |
+| 18 | FY26 capex | **Filled** | ₹1,882.8 Cr segment capex (incl. acquisitions); PPE cash ₹700.1 Cr (S7) |
+| 19 | Vopak market value | **Filled (secondary)** | ~€6.0–6.2 bn, late Oct-2026 (S13) |
+| 20 | "₹525 Cr = US$50 mn" | **Unchanged** | Management repeated it 3-Nov; at ₹94.5/$ it is ~₹473 Cr [E] |
+
+**Other verifications requested in the brief:**
+- **LPG FY20–FY26:** FY24–FY26 now PPAC primary; FY20–FY23 remain PL/CRISIL. PPAC's site offers FY24 onward only.
+- **West Asia shock on LPG:** primary (PPAC, PIB).
+- **29-May 30-day order:** state broadcaster.
+- **$42 bn plan:** still press-only (Reuters via Business Today). No Cabinet note or PIB found; label "reported".
+- **Major-port POL FY22–FY25:** only FY25/FY26 primary (MoPSW); FY22–FY24 not fetched.
+- **Chemical import values:** primary (TradeStat, D6).
+
+---
+
+## 4.5 New insights and primer issues
+
+### New insights an expert would add
+1. **The war made AVTL a much bigger share of India's LPG imports. The ~18% headline is out of date.**
+   - PPAC shows India's LPG imports fell **42.7% in H1 FY27** (6.38 vs 11.13 MMT; March-2026 −58%), while AVTL's throughput held at **~2.0 MMT** (0.9 + 1.1).
+   - AVTL's throughput ≈ **31% of India's LPG imports in H1 FY27, vs ~18% in FY26** [E]. Aegis group logistics volume (2.44 MMT, incl. AVTL and Mumbai) ≈ 38%.
+   - The OMCs' own terminals absorbed the import collapse, because refinery LPG (+28% under the 8-Mar Control Order) substituted imports at inland plants.
+   - Two-sided implication: it proves AVTL's multi-port, VLGC, diversified-sourcing advantage. But a **structurally higher domestic yield** (if the Control Order regime persists) would shrink the import pool AVTL's terminals serve.
+2. **Contract tenor outruns land tenure at Pipavav.**
+   - Every AVTL Pipavav sub-lease ends **29-Sep-2028**, the GPPL concession date.
+   - Yet Pipavav now carries 70,800 MT LPG, 116,620 cbm liquids, the 36,000 MT ammonia tank (15-yr HZL take-or-pay) and a new 15-yr take-or-pay liquid rail-gantry contract.
+   - The rent is trivial (~₹1.8 Cr/yr). The risk is **renewal itself**: on what terms GPPL/GMB extend, and whether sub-lessees get a reset. No AVTL disclosure covers this. It is the single most important lease fact for the report.
+3. **AVTL is a buyer of finished assets from its promoter; "capex per MT" is a related-party price.**
+   - Mangalore was bought for ₹968 Cr (₹1.18 lakh/MT), not ₹671 Cr.
+   - Pipavav ₹428 Cr; CRL-4, J2 and ammonia all built by Aegis under framework agreements; H1 FY27 alone saw ₹547 Cr paid to related parties for acquisitions.
+   - The cost advantage over OMC terminals still holds (OMCs ₹2.4–8.2 lakh/MT), but the Aegis–AVTL **transfer price** and related-party approval process deserve a governance paragraph. Minority holders own 13% of AVTL; Aegis owns 44.7% of AVTL and 100% of the developer.
+4. **The share claims reconcile once the right base is used.**
+   - LPG: CRISIL 614,580 MT + 130,000 MT new = ~745,000 MT ⇒ AVTL 225,800 MT ≈ **30%** ("more than 30%", management).
+   - Liquids: 1.49 mn cbm = 25.53% ⇒ ~5.84 mn cbm national; AVTL's 1.67 mn cbm today ≈ **27–29%** [E].
+   - The CFO's "~1 mn MT, not even 10 days" is a looser, wider base. Use CRISIL's port-terminal base and cite days of cover separately (45 days "rolling stock", IGoM).
+5. **Actual LPG turns lag the marketing number.**
+   - CRISIL's national actual turns were **42.7× (FY24)**. AVTL ran **22.4×** that year and ~20× in FY26, against "84.75× design".
+   - Ennore (IPPL) 75×, Pipavav's old pressurised terminal 87.7×, Mumbai 71×.
+   - AVTL's new refrigerated terminals are **under-turned versus India's average**. The bull case (pipelines, VLGC jetty, rail) is exactly about closing this gap, and it is measurable each quarter.
+6. **Overhang timing is earlier than "Jun-2028".**
+   - The 1-year lock-in on promoter shares above the 20% minimum lapsed ~May/Jun-2026. Only 22.16 crore shares (20%) stay locked to ~May-2028.
+   - Promoters can sell the ~13.2 crore shares needed for MPS **at any time now**, and the CFO has tied that sale to AVTL's equity funding.
+   - For Vopak the stake is ~20% of its own market value (S13) — a reason to sell slowly, not to exit.
+7. **Liquids: location beats volume.**
+   - JNPA land costs ~3× Kandla per sq m (₹3,540 vs ~₹1,130/sq m/yr) but earns ~2× per cbm (₹6,000 vs ~₹3,000).
+   - Organic-chemical import **values** have fallen three years running (US$29.0 bn FY23 → US$25.4 bn FY26), and CRISIL's bulk-chemical tonnage was flat at ~15.7 MMT. AVTL's +28% liquid revenue growth is therefore **mix and new premium sites**, not market volume.
+   - Watch J2's ramp: 318,000 cbm at JNPA-type rates would roughly double liquid revenue.
+8. **Peer data hygiene.** The "IMC ₹3,135 Cr revenue" row used in Part 2 is IPPL's (CRISIL), and "Oiltanking" is now Adani (IOTL, 2.4 mn KL, ~80% take-or-pay, bought at ~8× EBITDA per press). The competitive map should read:
+   - liquids: AVTL, IMC (~1.13 mn cbm, small revenue), Adani/IOTL (BOOT-heavy), GBL→Cisternina (KKR), Gulf Petrochem (Pipavav), Ahir Salt (Kandla), GCPL (Dahej);
+   - LPG: OMCs + IPPL + GCPL + MLTPL + SALPG + AVTL.
+
+### New primer issues (format as primer-issues.md)
+
+### From Liquid & Gas Terminals deep-research pass (2026-11-13, oil-storage-industry.md §4.5)
+
+- **aegis-vopak-terminals.html — Mangalore LPG cost understated:** the IPO object "₹671 Cr" was only the **balance** payment. The total price to group company Sea Lord Containers was **₹968 Cr** (₹296.7 Cr advance + ₹671.3 Cr), i.e. ~₹1.18 lakh/MT. Say "bought from the promoter group".
+- **aegis-vopak-terminals.html — market-share bases:** label "25.5% of third-party liquid capacity" as **CRISIL, Dec-2024, on 1.49 mn cbm** (implying a ~5.8 mn cbm national base). Label LPG as **11.5% (Dec-24, 70,800 MT of 614,580 MT)**, ~30% today after the Mangalore/Pipavav additions. Qualify "largest third-party liquid storage": Adani (with Indian Oiltanking) claims 3.6 mn KL on a wider definition.
+- **aegis-vopak-terminals.html — Pipavav lease cliff missing:** all Pipavav sub-leases expire **29-Sep-2028** with the GPPL concession, although the ammonia (15-yr) and rail-gantry (15-yr) contracts run far beyond. Add it to risks.
+- **aegis-vopak-terminals.html — related-party development model:** add that Aegis Logistics/Sea Lord **build** terminals that AVTL **buys on completion** (Mangalore, Pipavav, ammonia, CRL-4, JNPA J2, NMPA rail/bottling). H1 FY27 payments to related parties for acquisitions: ₹547 Cr.
+- **aegis-vopak-terminals.html — "FY26 capex ~₹1,883 Cr":** keep it, but label it **consolidated segment capex incl. acquired terminals** (AR note 35: Gas ₹1,813.5 Cr, Liquid ₹66.8 Cr). Organic PPE cash was ₹700 Cr.
+- **aegis-vopak-terminals.html — tariff facts:** add management's **₹1,175/t standard LPG throughput fee (~₹1,200 for principals), uniform across terminals**, and the liquid model (paid on reserved cbm; JNPA ~₹6,000/cbm/yr vs ~₹3,000 average).
+- **aegis-vopak-terminals.html — utilisation/turns:** if the primer quotes "~17 liquid turns", replace it with company data: **~3.9–4.5 turns (tonnes ÷ cbm), utilisation 73–76%**. LPG actual turns ~22× (FY24) vs 84.75× design, against a national average of 42.7×.
+- **aegis-vopak-terminals.html — ammonia date:** commissioned **10-Aug-2026**. L&T MoU is at **Kandla** (CMD, 14-Aug-2026).
+- **aegis-vopak-terminals.html — lock-in/MPS:** the promoter lock-in above 20% lapsed ~mid-2026; 20% (22.16 Cr shares) stays locked to ~May-2028. The MPS deadline is **2-Jun-2028**.
+- **aegis-vopak-terminals.html — capital commitments and ratings:** consolidated capital commitments **₹1,676.5 Cr** (Mar-26). Ind-Ra **AA/Positive**; ₹1,690 Cr listed NCDs. GST ITC contingent claim ₹50.8 Cr.
+- **aegis-vopak-terminals.html — guidance block:** liquid capacity ~2.2 mn cbm by FY27-end and ~3 mn by FY28-end; gross block ₹10,000 Cr by Mar-2027; ≥25%/yr LPG volume ambition; the strategic-storage, inland-depot and industrial-terminal pipeline (no contracts yet).
+- **aegis-vopak-terminals.html — 2026 LPG data:** use PPAC: FY26 consumption 33.17 MMT, imports **21.77 MMT**; FY27 Apr–Oct consumption −15.1%; **H1 FY27 imports −42.7%**. AVTL's throughput held, so its share of imports rose to ~31% in H1.
+- **aegis-logistics.html — Tristar details:** buyer Aegis Logistics International Pte; sellers Agility Tristar Holdings, Gulf Investment Corp, Diamond Holdings; US$809 mn **equity consideration incl. contingent/deferred**; 28 ships; close Q4 FY27 subject to competition approvals. QIP opened 11-Nov-2026 at a ₹1,161.85 floor. Normalised FY26 EBITDA ₹1,599 Cr (Liquid ₹472 / Gas ₹1,127 Cr); distribution 754 KT FY26 → ~1 MMT FY27 target at ~₹7,000/t.
+- **Cross-library (refining.html / gas-distribution.html):** the "₹30,000 Cr package" compensated **FY25** LPG losses (~₹40,000 Cr), not the 2026 war losses (IGoM: ~₹2 lakh Cr Q1 under-recoveries across products). Booking-interval relaxation to a uniform 25 days happened 10-Sep-2026. The PNG incentive is 200 scm of APM gas per incremental billed connection.
+
+### Key Part-4 source URLs
+- AVTL Prospectus: https://cdn.sanity.io/files/gvktr2p5/production/a60c290916dfc2fcd2a995d38411fd96a57c2a9c.pdf (via https://www.aegisvopak.com/ipo); RHP …/21ef49d62ea7f147d43a6703cc36617acc485b16.pdf; DRHP …/51a7f8473f73542de7cef29013c6e8fa6639907f.pdf
+- AVTL Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2114eb20-f767-45c9-b6e8-40ea4066e753.pdf
+- AVTL Q2 FY27 transcript, results, Aug-26 presentation, AR FY26: as in §3.5
+- AVTL SHP 30-Jun-2026: aegisvopak.com investors page (sanity file id prefix 9131c0730b85)
+- Aegis Logistics Oct-2026 presentation: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0247d415-3494-4b7a-a23a-435e3141e9d2.pdf
+- Vopak Q3 2026: https://www.vopak.com/newsroom/news/vopak-reports-strong-ytd-performance-raises-fy-2026-outlook
+- PPAC: https://ppac.gov.in/consumption/products-wise ; https://ppac.gov.in/import-export ; ICR Sep-26: https://ppac.gov.in/download.php?file=menu/1792999364_ICR_September%2026.pdf
+- PIB: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239021 ; …PRID=2259798 ; …PRID=1739019
+- TradeStat: https://tradestat.commerce.gov.in/eidb/commodity_wise_import
+- Adani/IOTL: https://www.adaniports.com/newsroom/media-releases/adani-ports-acquires-49-38percent-stake-in-indian-oiltanking-ltd-for-rs-1050-cr
+- AIR 30-day LPG reserve: https://newsonair.gov.in/centre-asks-oil-marketing-companies-to-build-30-days-lpg-reserves-as-west-asia-conflict-persist/
+- DPA FY26 cargo records (snippet only): https://www.deendayalport.gov.in/wp-content/uploads/2026/06/Cargo-Records-FY-2025-26.pdf
+
+*End of Part 4.*

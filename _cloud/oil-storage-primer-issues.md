@@ -33,3 +33,38 @@
 - **aegis-vopak-terminals.html — "FY26 capex ~₹1,883 Cr":** not found in filings; FY26 cash from investing was −₹3,077 Cr (incl. group asset purchases). Source it or replace.
 - **aegis-vopak-terminals.html — "six ports handle ~23% of liquid imports and ~61% of LPG imports":** label it **FY24, CRISIL, port-level** (not AVTL's share).
 - **aegis-logistics.html (cross-check, not read in full):** likely needs the Tristar acquisition (13-Oct-2026, US$809 mn for 89.8%), the 11-Nov-2026 QIP (floor ₹1,161.85), Q2 FY27 (PAT ₹321 Cr, H1 EBITDA ₹1,184 Cr) and the look-through note (44.71% of AVTL ≈ ₹14,170 Cr ≈ 33% of Aegis's m-cap). Verify against that primer.
+
+## From Liquid & Gas Terminals deep-research pass (2026-11-13, oil-storage-industry.md §4.5)
+
+
+### From Liquid & Gas Terminals deep-research pass (2026-11-13, oil-storage-industry.md §4.5)
+
+- **aegis-vopak-terminals.html — Mangalore LPG cost understated:** the IPO object "₹671 Cr" was only the **balance** payment. The total price to group company Sea Lord Containers was **₹968 Cr** (₹296.7 Cr advance + ₹671.3 Cr), i.e. ~₹1.18 lakh/MT. Say "bought from the promoter group".
+- **aegis-vopak-terminals.html — market-share bases:** label "25.5% of third-party liquid capacity" as **CRISIL, Dec-2024, on 1.49 mn cbm** (implying a ~5.8 mn cbm national base). Label LPG as **11.5% (Dec-24, 70,800 MT of 614,580 MT)**, ~30% today after the Mangalore/Pipavav additions. Qualify "largest third-party liquid storage": Adani (with Indian Oiltanking) claims 3.6 mn KL on a wider definition.
+- **aegis-vopak-terminals.html — Pipavav lease cliff missing:** all Pipavav sub-leases expire **29-Sep-2028** with the GPPL concession, although the ammonia (15-yr) and rail-gantry (15-yr) contracts run far beyond. Add it to risks.
+- **aegis-vopak-terminals.html — related-party development model:** add that Aegis Logistics/Sea Lord **build** terminals that AVTL **buys on completion** (Mangalore, Pipavav, ammonia, CRL-4, JNPA J2, NMPA rail/bottling). H1 FY27 payments to related parties for acquisitions: ₹547 Cr.
+- **aegis-vopak-terminals.html — "FY26 capex ~₹1,883 Cr":** keep it, but label it **consolidated segment capex incl. acquired terminals** (AR note 35: Gas ₹1,813.5 Cr, Liquid ₹66.8 Cr). Organic PPE cash was ₹700 Cr.
+- **aegis-vopak-terminals.html — tariff facts:** add management's **₹1,175/t standard LPG throughput fee (~₹1,200 for principals), uniform across terminals**, and the liquid model (paid on reserved cbm; JNPA ~₹6,000/cbm/yr vs ~₹3,000 average).
+- **aegis-vopak-terminals.html — utilisation/turns:** if the primer quotes "~17 liquid turns", replace it with company data: **~3.9–4.5 turns (tonnes ÷ cbm), utilisation 73–76%**. LPG actual turns ~22× (FY24) vs 84.75× design, against a national average of 42.7×.
+- **aegis-vopak-terminals.html — ammonia date:** commissioned **10-Aug-2026**. L&T MoU is at **Kandla** (CMD, 14-Aug-2026).
+- **aegis-vopak-terminals.html — lock-in/MPS:** the promoter lock-in above 20% lapsed ~mid-2026; 20% (22.16 Cr shares) stays locked to ~May-2028. The MPS deadline is **2-Jun-2028**.
+- **aegis-vopak-terminals.html — capital commitments and ratings:** consolidated capital commitments **₹1,676.5 Cr** (Mar-26). Ind-Ra **AA/Positive**; ₹1,690 Cr listed NCDs. GST ITC contingent claim ₹50.8 Cr.
+- **aegis-vopak-terminals.html — guidance block:** liquid capacity ~2.2 mn cbm by FY27-end and ~3 mn by FY28-end; gross block ₹10,000 Cr by Mar-2027; ≥25%/yr LPG volume ambition; the strategic-storage, inland-depot and industrial-terminal pipeline (no contracts yet).
+- **aegis-vopak-terminals.html — 2026 LPG data:** use PPAC: FY26 consumption 33.17 MMT, imports **21.77 MMT**; FY27 Apr–Oct consumption −15.1%; **H1 FY27 imports −42.7%**. AVTL's throughput held, so its share of imports rose to ~31% in H1.
+- **aegis-logistics.html — Tristar details:** buyer Aegis Logistics International Pte; sellers Agility Tristar Holdings, Gulf Investment Corp, Diamond Holdings; US$809 mn **equity consideration incl. contingent/deferred**; 28 ships; close Q4 FY27 subject to competition approvals. QIP opened 11-Nov-2026 at a ₹1,161.85 floor. Normalised FY26 EBITDA ₹1,599 Cr (Liquid ₹472 / Gas ₹1,127 Cr); distribution 754 KT FY26 → ~1 MMT FY27 target at ~₹7,000/t.
+- **Cross-library (refining.html / gas-distribution.html):** the "₹30,000 Cr package" compensated **FY25** LPG losses (~₹40,000 Cr), not the 2026 war losses (IGoM: ~₹2 lakh Cr Q1 under-recoveries across products). Booking-interval relaxation to a uniform 25 days happened 10-Sep-2026. The PNG incentive is 200 scm of APM gas per incremental billed connection.
+
+### Key Part-4 source URLs
+- AVTL Prospectus: https://cdn.sanity.io/files/gvktr2p5/production/a60c290916dfc2fcd2a995d38411fd96a57c2a9c.pdf (via https://www.aegisvopak.com/ipo); RHP …/21ef49d62ea7f147d43a6703cc36617acc485b16.pdf; DRHP …/51a7f8473f73542de7cef29013c6e8fa6639907f.pdf
+- AVTL Q1 FY27 transcript: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2114eb20-f767-45c9-b6e8-40ea4066e753.pdf
+- AVTL Q2 FY27 transcript, results, Aug-26 presentation, AR FY26: as in §3.5
+- AVTL SHP 30-Jun-2026: aegisvopak.com investors page (sanity file id prefix 9131c0730b85)
+- Aegis Logistics Oct-2026 presentation: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0247d415-3494-4b7a-a23a-435e3141e9d2.pdf
+- Vopak Q3 2026: https://www.vopak.com/newsroom/news/vopak-reports-strong-ytd-performance-raises-fy-2026-outlook
+- PPAC: https://ppac.gov.in/consumption/products-wise ; https://ppac.gov.in/import-export ; ICR Sep-26: https://ppac.gov.in/download.php?file=menu/1792999364_ICR_September%2026.pdf
+- PIB: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2239021 ; …PRID=2259798 ; …PRID=1739019
+- TradeStat: https://tradestat.commerce.gov.in/eidb/commodity_wise_import
+- Adani/IOTL: https://www.adaniports.com/newsroom/media-releases/adani-ports-acquires-49-38percent-stake-in-indian-oiltanking-ltd-for-rs-1050-cr
+- AIR 30-day LPG reserve: https://newsonair.gov.in/centre-asks-oil-marketing-companies-to-build-30-days-lpg-reserves-as-west-asia-conflict-persist/
+- DPA FY26 cargo records (snippet only): https://www.deendayalport.gov.in/wp-content/uploads/2026/06/Cargo-Records-FY-2025-26.pdf
+
