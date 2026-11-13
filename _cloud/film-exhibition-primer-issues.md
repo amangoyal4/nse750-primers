@@ -102,4 +102,3 @@
 - **pvr-inox.html — valuation vs global peers (§11):** replace any "US peers 6–9× [K]" with **Cinemark ~7.8×, AMC ~6.3× EV/adj. EBITDA (rent-deducted, 13-Nov-2026)** vs PVR ~12.8× on the comparable pre-Ind-AS basis.
 
 ---
-*End of Part 4.*
