@@ -871,3 +871,508 @@ Screener consolidated + shareholder API (13-Nov-2026); Q2 FY27 earnings presenta
 - **Regulation:** Privacy Sandbox https://privacysandbox.google.com/blog/update-on-plans-for-privacy-sandbox-technologies · Online gaming rules https://www.business-standard.com/industry/news/govt-notifies-online-gaming-rules-effective-may-1-126042201415_1.html · DPDP Rules https://www.azbpartners.com/?p=87799 · Brightcom https://www.business-standard.com/markets/news/sebi-slaps-rs-35-crore-penalty-on-brightcom-group-and-four-others-125020601496_1.html · https://www.angelone.in/news/share-market/brightcom-group-shares-to-resume-trading-on-july-14-after-suspension-lifted-by-bse-and-nse
 - **Global peers:** AppLovin https://www.sec.gov/Archives/edgar/data/0001751008/000175100826000068/exhibit991-3q26earningspre.htm · TTD https://www.thetradedesk.com/press-room/the-trade-desk-reports-third-quarter-2026-financial-results · Digital Turbine https://www.sec.gov/Archives/edgar/data/0000317788/000162828026038067/form8-kxexhibit991q4fy2026.htm · InMobi https://business-standard.com/markets/ipo/inmobi-appoints-jpmorgan-jefferies-kotak-and-axis-for-1-billion-ipo-126072101655_1.html
 - **Acquisition history:** https://www.adexchanger.com/mobile/affle-buys-mobile-dsp-jampp-as-market-volatility-spurs-even-more-mobile-ad-tech-ma · https://news.ventureintelligence.com/ma/affle-to-acquire-us-based-gaming-focused-marketing-co-youappi-for-$45-m · https://www.money9.com/news/markets/affle-india-hits-upper-circuit-on-acquisition-of-jampp-51216
+
+---
+
+# PART 4 — Deep-research supplement (2026-11-13, second pass, primary sources)
+
+Compiled Friday 13-Nov-2026 (evening, UTC 19:20 onward) by the deep-research pass. This part sits on top of Parts 1–3: where it conflicts with them, **Part 4 wins** (see §4.0 Supersedes). It was appended in chunks, so sections run in this order: **4.2 (Affle, then reference peers) → 4.3 (industry data) → 4.4 (gap log) → 4.5 (new insights and primer issues) → 4.0 (Supersedes) → 4.1 (40-figure verification table)**. Scratch notes are in `/tmp/adtech-deep/notes1.md`.
+
+**Tags in Part 4:** [V] = read this session in the named primary document (company PDF on BSE, affle.com or NSE archives; SEC exhibit; company press release; regulator page). [V-sec] = read this session on a reputable secondary page that reproduces a primary document (e.g. a press-release mirror, a stock-data site for market prices). [V-snip] = search-result summary only. [E] = my arithmetic or estimate. [K] = memory.
+
+**FX re-fetched:** **US$1 = ₹94.25** (x-rates.com, 13-Nov-2026 19:26 UTC) [V-sec]. Part 1's ₹95 holds to within 1%. Part 4 uses ₹94.25 for conversions.
+
+**How the PDFs were read:** Affle's BSE attachments open at `https://www.bseindia.com/xml-data/corpfiling/AttachHis/<id>.pdf` (the `AnnPdfOpen.aspx?Pname=` links in §3.5 redirect there). FY26 audited results (affle.com) are a scanned, OCR'd PDF; the numbers quoted below match their sub-totals.
+
+---
+
+## 4.2 Per-company deep dives
+
+### 4.2.1 Affle 3i Limited (AFFLE · 542752) — the member
+
+**Documents read this session:** Q2 FY27 earnings presentation (BSE, 30-Oct-2026); Q1 FY27 presentation (BSE, 8-Aug-2026); Q4 FY26 presentation (BSE, 9-May-2026); Q1 FY27 call transcript (10-Aug-2026); Q4 FY26 call transcript (11-May-2026); **FY26 audited standalone and consolidated results with balance sheet and cash-flow statement** (affle.com, `…/financial-details/fy2026/q4/Ind_AS_Financial_Results.pdf`); **FY26 Business Responsibility & Sustainability Report** (part of the FY26 annual report, NSE archives, filed 27-Aug-2026); FY26 directors' report and FY26 independent auditor's report (reproduced on indiainfoline.com); FY26 governance integrated filing (affle.com); Q3 FY24 and Q4 FY24 presentations (BSE) for the older cost lines; screener.in consolidated page (13-Nov-2026).
+
+**Q2 FY27 call status (confirmed):** the 2-Nov-2026 call was cancelled. The Q2 FY27 presentation carries no Perion reference (grep of the full text layer finds none). So the **latest management commentary in transcript form is the Q1 FY27 call (10-Aug-2026)**. Everything after that comes from the Perion announcement and the shareholders' letter.
+
+#### A. Management-commentary digest (paraphrased; source and date on every line)
+
+**Growth guidance**
+1. **Organic revenue ~20% a year "over the next 5 years"** is the number analysts should model. Internal business plans are set at **25%** [V Q4 FY26 call 11-May-2026; V Q1 FY27 call 10-Aug-2026].
+2. **After any acquisition the combined entity should still average ~20% growth**, with EBITDA working towards **~23–25% "over a period of time"** [V Q4 FY26 call]. The CEO repeated it in Q1: a larger deal "would continue to deliver combined at least 20% growth" and be accretive [V Q1 FY27 call]. **This is the yardstick the Perion deal will be judged against.** Perion's revenue shrank 12% in CY2025 and 2% in H1 2026, so the combined entity will not grow 20% organically in year one [E].
+3. **"10x in ~5 years"** is the ambition, to be reached through ">20% organic" plus M&A. A shareholder pointed out that 10x in 10 years already needs ~26% CAGR; management answered that the gap is inorganic [V Q4 FY26 call].
+4. **Developed markets:** at least 20% growth there "consistently". The US is the strategic focus, organically and through acquisitions [V Q1 FY27 call]. An analyst (DAM Capital) estimated DM growth of only ~11–12% excluding currency in Q1 FY27; the CEO disputed it [V].
+5. **RMG drag:** "Over 95% of our revenues witnessed over 25% growth y-o-y" once the RMG impact is stripped out (Q1 FY27). "Last year RMG was a contributor, this year it is not." Category G's "recovery phase is still on". **Management never quantifies RMG revenue** [V Q1 FY27 call]. Arithmetic: if 95% of revenue grew 25% and the total grew 20.4%, the remaining ~5% of the base must have fallen by roughly 60–70% YoY. That puts RMG-type revenue at **~4–6% of Q1 FY26 revenue (~₹25–35 Cr a quarter)** [E].
+6. **Q4 FY26 split (adjusted):** India +19.5%, DM +18.0%, EM +22.3% YoY [V Q4 FY26 call]. **Q1 FY27:** India & EM +20.2% (72.2% of revenue), DM +20.7% (27.8%) [V Q1 FY27 call].
+
+**Margin outlook and the gross-margin explanation**
+7. **Gross margin fell ~250 bp, which management calls "a conscious decision".** The money went into premium inventory (premium devices, CTV, "premium placements" to find high-lifetime-value users), deeper verticalisation, first-party data integrations and developed markets. "I use the word investment, not expense, but accounting-wise… everything is expensed out in data and inventory costs" [V Q4 FY26 call, answering Avendus Spark].
+8. **Timeline:** "in about a year" Affle should reach the verticalisation it needs; "around that time onwards… another year" of bringing gross margin back to better levels. An analyst framed it as 39% → 36.5% and asked about a return to 37–38%; the answer was ~1 year of investment, then improvement in the second year [V Q4 FY26 call, May-2026]. So **gross-margin recovery is not promised before ~FY28** [E].
+9. **FX was part of the squeeze.** The USD spiked against EM currencies in Q3–Q4 FY26. CPCU rates are billed in USD but have to be adjusted to the ROI promised in each client's local currency. "**Only 20% of our business of U.S. is dollar to dollar.**" Inventory cost was flat sequentially in Q1 FY27 because USD moves were small [V Q1 FY27 call, CFO Kapil Bhutani].
+10. **AdColony is the margin lever.** Activating 100,000+ apps and 500 mn+ DM devices through the AdColony SDK "will actually help not only with margin expansion…". "Within this financial year, we will see better margin expansion, especially in Developed Markets" [V Q1 FY27 call].
+11. **EBITDA:** "22% to 23%… our goal is to constantly move the notch up". Long-run aspiration is 23–25% [V Q4 FY26 call]. Q2 FY27 delivered 23.2% [V].
+
+**Cash, working capital, other income**
+12. **OCF timing:** FY26 OCF/PAT was 110% because ~₹40–45 Cr was collected in March, ahead of year-end. Q1 FY27 OCF/EBITDA was ~41% as a result. OCF/PAT should return to **80–85% by Q3 FY27** [V Q1 FY27 call]. H1 FY27 OCF was ₹167.6 Cr against H1 PAT of ₹258.2 Cr (65%) [V Q2 FY27 presentation; E ratio].
+13. **Collections:** "no material changes in collection risk", stated in both Q4 FY26 and Q1 FY27 [V].
+14. **Other income** fell 16.5% in FY26 (₹78.2 Cr vs ₹93.8 Cr). The CFO blamed **exchange losses** on USD-denominated inventory and overseas staff costs, plus lower cash after repaying borrowings [V Q4 FY26 call].
+
+**Customers and channels**
+15. **~75% of revenue is billed direct to advertisers; ~25%+ comes through "large ad agency group partners".** Even agency-routed business needs a direct technical integration with the end advertiser's app because billing is per conversion [V Q4 FY26 call]. BRSR FY26: **73.8% direct / 26.2% via agencies** [V BRSR].
+16. **Vertical ranking:** in India & EM the order is E > F > H > G; in DM, E and G lead. Healthcare is gaining [V Q1 FY27 call]. BRSR: 100% of revenue comes from EFGH verticals [V].
+17. **Client concentration is not disclosed** anywhere in the presentation, call, BRSR or directors' report. The auditor's key audit matter covers revenue recognition and receivables, not concentration [V; gap remains].
+
+**M&A and other**
+18. **AdColony:** "in 2020–21 we… were asked to bid ~US$400 mn" for the whole company; in 2026 Affle bought the strategic assets, which the CEO called a "windfall strategic gain". It needs no large new spending because existing teams run it [V Q1 FY27 call]. **Price US$4.7 mn** (see C below).
+19. **Bobble AI (₹134.6 Cr carrying value in the consolidated accounts; ₹135.8 Cr standalone; 24.07% fully diluted stake):** the board still values the keyboard (15–18 mn active users). Affle says the founders allowed insolvency over a "paltry" ~₹5 Cr to dodge court-ordered inspection rights (SIAC award and Indian High Court). Affle has appealed [V Q1 FY27 call; V FY26 results note 7]. *Correction: the "₹136 Cr" in Parts 1–3 is the standalone figure; the consolidated carrying value is ₹134.63 Cr.*
+20. **Perion (1-Nov-2026):** bought by **Affle 3iL Ltd, an Israeli step-down subsidiary set up 10-Jun-2025**. It is a subsidiary of Affle International Pte, Singapore [V Perion 6-K ex.99.3; V FY26 results note 4; V directors' report]. So the acquisition vehicle was created ~16 months before the deal. Advisers: LUMA Partners (financial) and Barnea Jaffa Lande (legal) for Affle; Canaccord Genuity and Meitar for Perion [V 6-K].
+
+#### B. Concall / presentation KPI table (latest four reported quarters + FY26)
+
+| KPI | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 | FY26 | Source |
+|---|---|---|---|---|---|---|
+| Revenue (₹ Cr) | 717.5 | 724.4 | 747.2 | 783.6 | 2,709.3 | [V pres] |
+| Sequential growth streak | 12th | 13th "period" | 14th | 15th | — | [V calls/pres] |
+| Conversions (mn) | 119.7 | 120.3 | 123.9 | 128.9 | 456.0 | [V pres] |
+| Average CPCU (₹) | 59.6 [E] | 60.0 | **60.2** | 60.6 | 58.9 | [V pres; Q3 derived] |
+| CPCU revenue (₹ Cr) | 713.7 [E] | 721.7 | 745.5 | 781.9 | 2,687.3 | [V pres] |
+| CPCU share of revenue | 99.5% [E] | 99.6% | 99.8% | 99.8% | 99.2% | [V; E] |
+| Inventory & data cost (₹ Cr) | 447.4 | 458.3 | 472.2 | 489.6 | 1,679.8 | [V pres] |
+| Employee cost (₹ Cr) | 63.7 | 63.5 | 65.6 | 66.3 | 251.2 | [V pres] |
+| Other expenses (₹ Cr) | 43.3 | 41.5 | 41.7 | 46.3 | 168.2 | [V pres] |
+| India & EM / DM | n/d | 71.6 / 28.4 | 72.2 / 27.8 | 73.7 / 26.3 | n/d | [V] |
+| Direct-advertiser share | — | — | 79% (Q1) | 75% (H1) | 74% (BRSR 73.8%) | [V] |
+| D&A (₹ Cr) | 33.2 | 33.4 | 34.2 | 41.2 (+29% YoY) | 124.4 | [V pres] |
+| Other income (₹ Cr) | 17.5 | 21.3 | 25.0 | 20.0 | 78.2 | [V pres] |
+| ETR | 18.3% | 19.3% | 18.6% | 18.6% | 18.6% | [V; E] |
+
+*Q2 FY27 D&A jumped 20.5% QoQ to ₹41.2 Cr. The likeliest cause is amortisation of the AdColony assets and the ₹131 Cr of intangibles under development capitalised in H1 (screener CWIP ₹131 Cr → nil) [E]. Expect ~₹40–45 Cr a quarter before Perion's intangibles arrive [E].*
+
+#### C. Five-year table, FY22–FY26 (consolidated; ₹ Cr)
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Revenue from operations | 1,081.7 | 1,434.0 | 1,842.8 | 2,266.3 | 2,709.3 |
+| YoY | +109% | +32.6% | +28.5% | +23.0% | +19.5% |
+| **Inventory & data costs** | **678.9** [V-snip] | **884.3** [V] | **1,125.4** [V] | **1,379.3** [V] | **1,679.8** [V] |
+| Inventory % revenue | 62.8% | 61.7% | 61.1% | 60.9% | 62.0% |
+| **Gross margin (1 − inv %)** | **37.2%** | **38.3%** | **38.9%** | **39.1%** | **38.0%** |
+| Employee costs | n/f | 187.2 | 235.2 | 231.3 | 251.2 |
+| Other expenses | n/f | 73.6 | 122.3 | 172.6 | 168.2 |
+| **EBITDA (company)** | 213.1 | 293.0 (Q4 FY24 deck) / 288.8 (Q4 FY26 deck) | 361.1 | 483.2 | 610.1 |
+| EBITDA margin | 19.7% | 20.4% / 20.1% | 19.6% | 21.3% | 22.5% |
+| PAT | 214 reported / 183.4 normalised | 245.3 | 297.3 | 381.9 | 454.9 |
+| Converted users (mn) | 195 | 257 | 312.8 | 392.8 | 456.0 |
+| **Average CPCU (₹)** | ~52 [E] | ~53 [E] | 56.2 [V] | 57.5 [V] | 58.9 [V] |
+| CPCU share of revenue | ~93–95% [E] | ~95–96% (95.8% in Q3 FY24) | ~97% (99.6% Q4 FY24) | 99.6% [E] | 99.2% |
+| OCF | 206.0 | 260.3 | 262.3 | 426.0 | 502.3 |
+| Debtor days (screener) | 79 | 62 | 63 | 48 | 52 |
+| ROCE (screener) | 28%* | 20% | 16% | 17% | 17% |
+
+Sources: FY23–FY26 cost lines from the Q4 FY24 presentation (BSE `9c0c2562-…`) and Q4 FY26 presentation [V]. FY22 inventory ₹6,789 mn is from a search summary of the corrected Q4 FY23 presentation [V-snip]. EBITDA, revenue and OCF are from the presentations' annual-trend slides [V]. *Screener ROCE row is offset by one year in its table; FY22 28%.* [E] CPCU for FY22–23 = (revenue × assumed CPCU share) ÷ conversions. **These rates are lower than Part 1's ~55/~56 because FY22–23 carried 4–7% non-CPCU revenue.** Treat them as approximate. FY23 EBITDA differs by ₹4 Cr between decks, probably a later reclassification. Use the latest deck (₹288.8 Cr).
+
+**Read:** gross margin rose 190 bp over FY22–FY25 (37.2% → 39.1%) and then gave back 110 bp in FY26. So FY26's 38.0% is only back at FY23–FY24 levels, not a structural break. The Q4 FY26/Q1 FY27 trough (~36.7–36.8%) is the real outlier, and it coincided with the USD spike [V; E].
+
+#### D. Eight-quarter table, Q3 FY25 – Q2 FY27 (₹ Cr)
+
+| Quarter | Revenue | YoY | Inv & data | Gross margin | EBITDA | EBITDA % | PAT | Conversions (mn) | Avg CPCU (₹) |
+|---|---|---|---|---|---|---|---|---|---|
+| Q3 FY25 | 601.7 | +20.7% | ~367 [E] | ~39.0% [E] | 131.4 | 21.8% | 100.2 | 103.3 | ~57.8 [E] |
+| Q4 FY25 | 602.3 | +19.0% | 364.8 | 39.4% | 134.0 | 22.2% | 103.1 | 104.0 | 57.8 |
+| Q1 FY26 | 620.7 | +19.5% | 378.0 | 39.1% | 139.7 | 22.5% | 105.5 | 107.0 | **58.0** [V] |
+| Q2 FY26 | 646.7 | +19.1% | 396.1 | 38.8% | 146.1 | 22.6% | 110.5 | 109.0 | 58.0 |
+| Q3 FY26 | 717.5 | +19.2% | 447.4 | 37.6% | 163.0 | 22.7% | 119.3 | 119.7 | 59.6 [E] |
+| Q4 FY26 | 724.4 | +20.3% | 458.3 | 36.7% | 161.2 | 22.3% | 119.5 | 120.3 | 60.0 |
+| Q1 FY27 | 747.2 | +20.4% | 472.2 | 36.8% | 167.6 | 22.4% | 128.4 | 123.9 | **60.2** [V] |
+| **Q2 FY27** | **783.6** | **+21.2%** | **489.6** | **37.5%** | **181.4** | **23.2%** | **129.8** | **128.9** | **60.6** |
+
+[V Q1/Q2 FY27 and Q4 FY26 presentations; Q1 FY26 inventory = H1 FY26 ₹774.1 Cr − Q2 ₹396.1 Cr (both V). Q3 FY25 inventory estimated from screener expenses of ₹470 Cr less employee/other costs of ~₹103 Cr (E). Q3 FY26 CPCU = (FY26 CPCU revenue ₹2,687.3 Cr − Q1 ₹620.0 − Q2 ₹631.9 − Q4 ₹721.7) ÷ 119.7 mn (E). Screener's quarterly OP/NP (131/134/140/146/163/161/168/181 and 100/103/106/111/119/120/128/130) match.] **A small surprise: Q2 FY26 CPCU revenue was only ₹631.9 Cr of ₹646.7 Cr (97.7%)**, so ~₹15 Cr of non-CPCU revenue sat in that quarter, against ~0.1–0.4% in the others [V; E]. Part 1's "99.2% FY26" average hides it.
+
+#### E. Annual-report findings (FY26 annual report components and audited results)
+
+**Balance sheet, 31-Mar-2026 (audited, consolidated, ₹ Cr)** [V FY26 results]
+- **Goodwill ₹1,112.4 Cr** (FY25 ₹1,008.3 Cr; +₹104 Cr, mostly FX translation on USD/EUR goodwill since acquisition outflow was only ₹1.7 Cr [E]). **Other intangibles ₹274.4 Cr** (₹204.4 Cr). **Intangibles under development ₹130.7 Cr.** Total **₹1,517.5 Cr**. This matches the presentation's "Goodwill & Intangibles 15,175 mn" exactly, which **confirms Part 1's mapping (now [V])**.
+- **Cash and cash equivalents ₹1,207.4 Cr; other bank balances ₹86.6 Cr; other current financial assets ₹344.6 Cr (₹17.4 Cr in FY25: mostly deposits); non-current investments ₹113.9 Cr; other non-current financial assets ₹102.1 Cr.** The presentation's "cash & liquid investments ₹1,792.1 Cr" equals these items plus small deposit balances [V presentation; E reconciliation, ~₹40 Cr unallocated].
+- **Trade receivables ₹385.6 Cr + contract assets ₹324.1 Cr = ₹709.7 Cr** (presentation: ₹709.7 Cr) [V].
+- **Investments held for sale (Bobble) ₹134.6 Cr** [V].
+- **Equity ₹3,652.2 Cr; borrowings ₹11.9 Cr (₹1.9 Cr non-current + ₹10.0 Cr current; FY25 ₹77.2 Cr); trade payables ₹593.6 Cr (FY25 ₹407.6 Cr)**; total assets ₹4,421.5 Cr [V].
+- **30-Sep-2026 (presentation text layer, positions matched to labels):** cash & liquid investments **₹2,116.8 Cr**; goodwill & intangibles **₹1,582.0 Cr**; contract assets & receivables ₹766.0 Cr; other ₹491.8 Cr; total ₹4,956.7 Cr; equity ₹4,229.4 Cr; borrowings ₹2.2 Cr; contract liabilities & payables ₹591.4 Cr; other liabilities ₹133.7 Cr [V Q2 FY27 presentation slide 7]. Net cash **≈ ₹2,115 Cr** before October's warrant inflows (~₹333 Cr) [V; E].
+- **Working-capital-days puzzle solved (Part 1 FLAG):** screener's 25 → 82 days (FY25 → FY26) is mostly a **classification effect**. ~₹327 Cr of deposits moved from "bank balances" (₹344.2 Cr → ₹86.6 Cr) into **"other current financial assets" (₹17.4 Cr → ₹344.6 Cr)**, which screener counts as operating working capital (≈ 44 days of sales). On top of that, receivables + contract assets grew ₹158 Cr (+29% vs revenue +19.5%), and the cash-flow statement shows a ₹100 Cr receivables build and a ₹78 Cr other-financial-asset build [V FY26 cash flow; E attribution]. **Underlying trade-receivable days rose only modestly: 48 → 52 (screener); including contract assets, ~89 → 96 days** [E]. Payables rose ₹186 Cr, which offset most of the receivable build.
+
+**Cash-flow details FY26** [V]: OCF ₹502.3 Cr after **direct taxes of ₹106.7 Cr** (FY25 only ₹4.3 Cr, an unusual low year that flatters FY25 OCF); acquisitions of subsidiaries ₹1.7 Cr (FY25 ₹78.0 Cr); deposits placed ₹925.9 Cr and redeemed ₹763.0 Cr; borrowings repaid ₹65.3 Cr (FY25 ₹106.6 Cr); ESOP proceeds ₹26.5 Cr. Capex (PPE + intangibles incl. under development) ≈ ₹211 Cr [E from screener CFO − FCF; the OCR'd line is illegible].
+
+**Segment and geography** [V FY26 results note 3]: **a single reportable segment, the "consumer platform segment"**, because the platforms are inter-operable. Geographic disclosure splits only **"India" vs "other countries"** in the annual report. The presentation's "India & EM vs DM" split is a management metric "derived… basis our billing entities", not an audited segment.
+- **New India proxy (closes most of §H item 1):** standalone (Indian entity) revenue **₹864.4 Cr in FY26 (+21.0% vs ₹714.4 Cr)** [V directors' report]. **Exports are 37.77% of standalone turnover** [V BRSR], so **domestic Indian billing ≈ ₹538 Cr ≈ 19.9% of consolidated revenue** [E]. Some Indian advertisers may be billed from Singapore, so treat ~₹540–650 Cr (20–24%) as Affle's India revenue range [E]. **Against FICCI-EY's ₹94,700 Cr of digital adex that is ~0.6–0.7% share**, which corrects Part 1's "<2%" to "well under 1%".
+
+**Related parties** [V directors' report FY26]: transactions were in the ordinary course and at arm's length. There were **no material contracts or arrangements under s.188(1), so Form AOC-2 is "not applicable"**. There is no royalty or brand fee to the promoter. The only promoter flow is the ₹1,100 Cr warrant subscription. The FY26 secretarial compliance report says earlier observations on historical related-party disclosures were "fully addressed" [V-snip investywise].
+
+**Contingent liabilities and disputed dues** [V FY26 auditor's report, CARO clause vii(b), standalone]: disputed income tax — AY2017-18 ₹6.49 Cr (₹1.30 Cr paid under protest; CIT(A)); AY2020-21 ₹0.11 Cr (CIT(A)); AY2021-22 ₹3.02 Cr (ITAT); **AY2022-23 ₹15.41 Cr (ITAT)**. **Total ≈ ₹25.0 Cr** (≈ 5% of FY26 PAT) [V; E sum]. The auditor points to note 31(b) for pending litigation but gives no amount. A ValuePickr post claims a ~₹38 Cr Jampp-related contingent liability (FY25 AR); **unverified** [V-snip].
+
+**Auditor remarks** [V FY26 auditor's report]: **Walker Chandiok & Co LLP** (Grant Thornton Bharat), signed 9-May-2026, **unmodified opinion**. **Key audit matter: revenue recognition and recoverability of trade receivables and contract assets (₹297.9 Cr standalone).** **Exception:** the company uses third-party accounting software and no SOC/SAE 3402 Type-2 report was available, so the auditor "is unable to comment" on whether the audit trail operated at database level throughout the year (note 43). Internal financial controls opinion unmodified. No fraud reported. No dividend.
+
+**Capital-raise history confirmed** [V FY26 results notes 5–6]: (a) **QIP: 11,53,845 shares (pre-split), net ₹590.7 Cr**, of which ₹555.8 Cr used by Mar-2026 (this closes Part 1's FY22 "instrument [K, FLAG]"). (b) **The FY24 preferential issue went entirely to Gamnat Pte Ltd: 69,00,000 shares at ₹1,085.54 (₹2 face + ₹1,083.54 premium), net ₹737.4 Cr**, of which only ₹238.3 Cr was used by Mar-2026. *Part 1 §8 said "allottees incl. Gamnat and Malabar". Malabar was not an allottee.*
+
+**Employees and attrition** [V BRSR FY26, standalone entity]: **626 employees** (384 men, 242 women = 38.7% women); **attrition 28.3%** (FY25 33.0%; FY24 37.0%). The group headcount is not in the BRSR. The consolidated employee cost of ₹251 Cr against the standalone 626 implies most staff sit in foreign subsidiaries (Singapore, Israel, Spain, Argentina/Jampp, US) [E]. Customers in **>130 countries** [V BRSR].
+
+**Group structure changes FY26** [V results note 4; directors' report]: Affle 3iL Ltd (Israel) added 10-Jun-2025; Appnext Pte merged into Affle International Pte (1-Oct-2025); Jampp EMEA GmbH dissolved (10-Jul-2025); Jampp APAC struck off (24-Jul-2025); Atommica LLC cancelled (13-Mar-2026). YouAppi entities renamed (Affle Inc., Affle Israel Ltd), consolidated from 1-May-2023 (completion date; the 24-May-2023 announcement was the definitive agreement).
+
+**Top customers:** not disclosed (no customer-concentration note was found in the components read; the BRSR gives only vertical and channel mixes) [gap].
+
+#### F. Acquisition ledger (prices; closes most of §H item 2)
+
+| Target | Date (consolidated from) | Acquirer entity | Consideration | Tag / source |
+|---|---|---|---|---|
+| Vizury commerce business | 2018 | Affle (India) | not found in documents read | [gap] |
+| RevX | 2019 | Affle Global | not found | [gap] |
+| mediasmart (now Affle Iberia S.L.) | **22-Jan-2020** | Affle International | not found (reported ~€? — unverified) | [V date, results note 4] |
+| Appnext (66.67%, then 100%) | **19-Jul-2020** (Appnext Technologies) | Affle International | not found; primer's ~$17 mn unverified | [V date] |
+| Jampp | **1-Jul-2021** | Affle International | US$41.3 mn total | [V date; V-snip price] |
+| YouAppi | **1-May-2023** (agreement 24-May-2023 announced) | Affle International / Affle Inc. | US$45 mn | [V date; V-snip price] |
+| **AdColony technology assets + trademark** | **APA dated 15-Jun-2026** | **Affle MEA FZ-LLC** (Dubai) | **US$4.7 mn upfront cash** (excludes customer contracts) | [V affle.com news; V-sec sahi.com; corroborated by **DT recording a US$4.7 mn gain on selling "a dormant exchange originally acquired with AdColony" in its Jul–Sep 2026 quarter** (DT 8-K, 9-Nov-2026)] |
+| **Perion Network** | signed 1-Nov-2026; close early 2027 | **Affle 3iL Ltd (Israel)** | US$11.70/sh cash ≈ US$420 mn equity | [V 6-K] |
+
+*FY25 cash flow shows ₹78.0 Cr "acquisition of a subsidiary, net of cash" (likely deferred/earn-out payments for earlier deals) [V; E interpretation].* **The AdColony price (US$4.7 mn ≈ ₹44 Cr) is ~1% of the ~US$400 mn the CEO says the whole company was priced at in 2020–21.** The CEO's "windfall" framing holds on price, but the assets came without customer contracts and DT had called the exchange "dormant". The value now rests entirely on Affle activating SDK supply [V; E].
+
+#### G. What the Affle deep dive changes for the report (summary for the writer)
+- **Cash is now verified, not estimated:** ₹1,792 Cr (Mar-26) → ₹2,117 Cr (Sep-26) of cash & liquid investments against ₹1,518 Cr → ₹1,582 Cr of goodwill & intangibles. Goodwill alone is ₹1,112 Cr (Mar-26). **Cash exceeds goodwill + intangibles by ~₹535 Cr (Sep-26)**. Perion will reverse that: ~US$420 mn of purchase price against ~US$228 mn of Perion cash means ~US$190 mn (~₹1,800 Cr) of new goodwill/intangibles before PPA [E].
+- **India is ~20% of Affle, not ~72%.** "India & EM" is mostly EM outside India. Standalone domestic billing is ~₹538 Cr [E from V inputs].
+- **Gross margin was already 37.2% in FY22.** The FY26 dip reverses FY23–FY25's gain; it is not a new low. Q4 FY26/Q1 FY27 (36.7–36.8%) is the trough.
+- **AdColony cost US$4.7 mn**, not a meaningful capital outlay. Its value is an option on DM supply.
+- **Working capital did not blow out.** Screener's 82 days is mainly deposits reclassified as "other financial assets".
+- **Governance:** no promoter royalty, no material RPTs, unmodified audit. One audit-trail software exception (common in Indian mid-caps since FY24 rules) and ~₹25 Cr of disputed income tax.
+
+---
+
+### 4.2.2 Reference peers — compact digests (not members)
+
+#### Perion Network (Nasdaq/TASE: PERI) — the target
+**Documents:** Perion Q4/FY2025 release (18-Feb-2026, via 01net.it mirror of the company release) [V-sec]; Q2 2026 release (10-Aug-2026, via placera.se mirror) [V-sec]; Perion 6-K ex.99.3 on the merger (1-Nov-2026, SEC) [V]; Affle's 1-Nov-2026 release (PR Newswire) [V]; stockanalysis.com (13-Nov-2026) [V-sec]. Q3 2026 results are due 16-Nov-2026 and were **not out** at writing.
+
+| US$ mn | CY2024 | CY2025 | Q2 2025 | Q2 2026 | H1 2026 | FY2026 guide |
+|---|---|---|---|---|---|---|
+| Revenue | 498.3 | **439.9 (−12%)** | 103.0 | 98.2 (−5%) | 188.6 (−2%) | 460–475 (recon. table) |
+| – Advertising Solutions (display, CTV, DOOH, retail media) | 335.6 | 348.9 (+4%; 79%) | 80.6 | 76.2 (−5%; 78%) | — | — |
+| – Search Advertising | 162.7 | **91.0 (−44%; 21%)** | 22.4 | 22.1 (−2%; 22%) | — | — |
+| TAC + media buy | 286.0 (57%) | 236.5 (54%) | 55.4 | 55.9 (57%) | 106.6 | 245–250 |
+| **Contribution ex-TAC (≈ gross profit)** | 212.3 | **203.4 (−4%)** | 47.6 | 42.3 (−11%) | 82.0 | **215–225** (narrowed from 215–235) |
+| **Gross margin (CexTAC ÷ revenue)** | 42.6% | **46.2%** | 46.2% | 43.1% | 43.5% | ~47% |
+| **Adjusted EBITDA** | 51.2 | **45.2** (22% of CexTAC; **10.3% of revenue**) | 7.1 | **2.8** | 3.2 | **51–53** |
+| GAAP net income | 12.6 | **(7.9)** | (3.5) | (6.8) | (16.8) | — |
+| Non-GAAP net income | 64.4 | 51.3 | 12.0 | 3.9 | 8.7 | — |
+| Operating cash flow | 6.9 | 41.9 | 21.3 | 2.5 | 9.1 | — |
+| Cash, deposits & securities (period end) | 373.3 | **312.9** | — | 267.8 (Jun-26) | — | **228.3 (30-Sep-26)** |
+
+[V-sec Perion releases; V 6-K for Sep-26 cash; E gross-margin ratios.]
+- **Seasonality matters:** Q4 2025 alone produced revenue of US$137.1 mn, CexTAC US$65.2 mn (+19%) and **adj. EBITDA US$24.3 mn, more than half of FY2025's US$45.2 mn** [V-snip/V-sec]. FY2026 guidance (US$51–53 mn) implies **H2 2026 adj. EBITDA of ~US$48–50 mn against H1's US$3.2 mn**. That is a heavily back-ended plan, helped by cost cuts completed at end-Q2 [V-sec; E]. Watch the 16-Nov Q3 print.
+- **Cash fell US$84.6 mn in nine months** (312.9 → 228.3), mostly to buybacks (Q2 US$24.5 mn; Q3 US$26.0 mn; cumulative US$166.8 mn under a US$200 mn plan) and the **US$10.9 mn "PRN" acquisition in Q3 2026** [V 6-K; V-sec]. **Every dollar Perion spent on buybacks before the deal raised Affle's net price.**
+- **Gross-margin comparison (corrects Part 1 trap 7 "much lower gross margin"):** Perion's contribution ex-TAC margin (**43–46%**) is **higher** than Affle's gross margin (**37–38%**). Its weakness is opex: CexTAC of US$203 mn turns into only US$45 mn of adj. EBITDA (22%), against Affle's ~61% (EBITDA ₹610 Cr ÷ gross profit ₹1,030 Cr). **Affle's EPS-accretion case therefore rests on cutting Perion's opex, not on lifting its gross margin** [V; E].
+- **Revenue-recognition hint:** Affle's release flags "a planned review of Perion's revenue recognition and business contracts" and a "business model transformation" (CPCU, "CTV-to-cart / DOOH-to-cart") [V Affle release]. Perion books search and some display revenue gross. A switch to net, or exits from low-margin contracts, could make reported combined revenue smaller than the simple sum [E].
+- **Market pricing (13-Nov-2026):** PERI US$11.38, a **2.7% spread** to the US$11.70 offer. Market cap US$447.6 mn and EV US$201.9 mn on stockanalysis's share count and Jun-26 cash. **EV/TTM sales 0.46x**; TTM revenue US$436.2 mn; TTM EBITDA (GAAP) −US$9.9 mn; **511 employees** [V-sec]. The tight spread says the market expects the deal to close and sees **no competing bid** in the go-shop [E].
+- **Deal value check:** US$420 mn equity ÷ US$11.70 ≈ 35.9 mn fully diluted shares. Against Sep-26 cash of US$228.3 mn, **implied EV ≈ US$192 mn ≈ 0.44x CY2025 revenue, ≈ 0.94x CY2025 contribution ex-TAC and ≈ 4.2x CY2025 adj. EBITDA (3.7x the FY26 guide midpoint)** [E]. By comparison Affle trades at ~31x TTM EBITDA [E].
+- **Financing:** Citibank N.A. committed debt, **amount not disclosed** in either release. No financing condition. Affle says it will be **"net debt free immediately post this acquisition"** [V]. Sources at close: Sep-26 cash ₹2,117 Cr (~US$225 mn) + Oct warrant money ~₹333 Cr + Perion's own US$228 mn ≈ US$490 mn against a US$420 mn price [E]. **The Citibank line is therefore a bridge for cash trapped in subsidiaries (Affle's cash sits across India, Singapore, Israel etc.); it is not needed for net funding** [E].
+- **Terms:** go-shop to 11-Dec-2026 23:59 Israel time; Perion shareholder approval; HSR; close "early 2027"; reverse triangular merger into an Affle 3iL Ltd subsidiary; delisting from Nasdaq/TASE; the Perion brand stays [V]. Termination fees are not in the press releases (they would be in the merger agreement exhibit; not read) [gap].
+
+#### AppLovin (Nasdaq: APP) — the AI-platform benchmark
+- **Q3 2026** (SEC 8-K ex.99.1, 4-Nov-2026) [V]: revenue **US$2,185 mn (+55%)**; adj. EBITDA **US$1,842 mn (84%; 82% a year ago)**; net income **US$1,439 mn (66%)**; FCF US$1,418 mn; bought back/withheld 4.1 mn shares for US$1.4 bn. **Q4 2026 guide:** revenue US$2,365–2,395 mn; adj. EBITDA US$1,995–2,025 mn (84–85%) [V].
+- **Valuation (13-Nov-2026 intraday):** share price **US$410.15; market cap US$135.9 bn; EV US$136.2 bn; EV/TTM EBITDA 21.6x; EV/TTM sales 17.2x; P/E 27.5x TTM, 20.8x forward**; TTM revenue US$7.61 bn, EBITDA US$6.04 bn [V-sec stockanalysis]. *Part 1's "US$150–250 bn [K]" range is superseded: APP is ~US$136 bn.*
+- **Read for Affle:** AppLovin's quarterly adj. EBITDA (US$1.84 bn ≈ ₹17,360 Cr) is **~26x Affle's TTM EBITDA (₹673 Cr)**. **Affle (~31x EV/TTM EBITDA [E]) trades at a higher EBITDA multiple than AppLovin (21.6x)** with a quarter of its growth.
+
+#### The Trade Desk (Nasdaq: TTD) — the stalled independent DSP
+- **Q3 2026** (company release) [V]: revenue **US$736 mn vs US$739 mn (−0.5%)**; net income US$38 mn (5%) vs US$116 mn; **adj. EBITDA US$266 mn (36%) vs US$317 mn (43%)**; non-GAAP EPS US$0.33 vs US$0.45; **US$44.3 mn of restructuring charges under a "2026 Restructuring Plan"**; customer retention ">95%". **Q4 guide:** revenue ≥US$755 mn; adj. EBITDA ≥US$280 mn [V]. **The release gives no reason for the revenue decline.** Part 1's "~3 pts non-recurring partner benefit" is unverified and should be dropped.
+- **Valuation (13-Nov-2026):** **US$15.88; market cap US$7.5 bn; EV US$6.4 bn; EV/TTM EBITDA 9.4x; EV/sales 2.1x; P/E 23.0x TTM, 13.2x forward**; TTM revenue US$2.99 bn [V-sec]. A sharp de-rating: TTD is now valued below Affle in EBITDA-multiple terms.
+
+#### Digital Turbine (Nasdaq: APPS) — on-device peer and AdColony's former owner
+- **Q2 FY27 (quarter to 30-Sep-2026; 8-K, 9-Nov-2026)** [V]: revenue **US$178.7 mn (+27%)** — On Device Solutions US$115.6 mn (+20%), App Growth Platform US$63.5 mn (+42%); non-GAAP gross profit US$77.4 mn (**43% vs 47%**); GAAP net income US$10.3 mn (vs −US$21.4 mn); **adj. EBITDA US$39.8 mn (22.3%; +46%)**; FCF US$10.5 mn; cash US$51.6 mn; debt ~US$353.6 mn. **FY27 guide raised to revenue US$670–690 mn; adj. EBITDA held at US$145–155 mn** [V]. DT also **revised Q1 FY27 for a US$3.5 mn understatement of revenue-share expense** [V], a reminder of accounting risk in OEM revenue-share models.
+- **AdColony link (closes the seller FLAG):** the release records a **US$4.7 mn gain on selling "a dormant exchange originally acquired with AdColony in 2021"** in the quarter [V]. It matches Affle's US$4.7 mn APA of 15-Jun-2026 [V affle.com; V-sec price].
+- **Valuation (13-Nov-2026):** **US$7.54; market cap US$918 mn; EV US$1.22 bn; EV/TTM EBITDA 8.5x; EV/sales 1.9x**; TTM revenue US$638.6 mn; TTM net loss US$5.2 mn [V-sec].
+- *Part 1's "Digital Turbine FY26 revenue US$565.3 mn (+15%), adj. EBITDA US$122.5 mn" stands (not re-fetched). The latest is now FY27 guidance of US$670–690 mn.*
+
+#### Peer valuation grid (13-Nov-2026; US$ unless noted)
+
+| Company | Price | M-cap | EV | EV/TTM EBITDA | EV/TTM sales | P/E TTM | Latest-quarter growth | Latest adj. EBITDA margin | Tag |
+|---|---|---|---|---|---|---|---|---|---|
+| AppLovin | 410.15 | 135.9 bn | 136.2 bn | 21.6x | 17.2x | 27.5x | +55% | 84% | V-sec / V |
+| The Trade Desk | 15.88 | 7.5 bn | 6.4 bn | 9.4x | 2.1x | 23.0x | −0.5% | 36% | V-sec / V |
+| Digital Turbine | 7.54 | 0.92 bn | 1.22 bn | 8.5x | 1.9x | n/m | +27% | 22.3% | V-sec / V |
+| Perion (deal) | 11.38 (offer 11.70) | 0.45 bn | 0.20 bn | n/m (GAAP neg.); ~4x adj. [E] | 0.46x | n/m | −5% | 7% of CexTAC (Q2) | V-sec / V |
+| **Affle 3i** | ₹1,608 | ₹23,155 Cr (US$2.46 bn) | ~₹20,700 Cr (US$2.2 bn) [E] | **~31x** [E] | **~7.0x** [E] | 46.6x | +21.2% | 23.2% | V screener; E |
+| Vertoz | ₹34.7 | ₹296 Cr | ~₹370 Cr [E] | ~6.9x [E] | ~1.2x [E] | 11.2x | TTM +14% | 17–18% OPM | V screener |
+| Brightcom | ₹9.25 | ₹1,867 Cr | n/m | ~1x [E] | ~0.26x [E] | 1.84x | TTM +33% (reported) | 25% OPM (reported) | V screener |
+
+**Takeaway (new, now fetched):** Affle's ~31x EV/EBITDA is **above AppLovin's 21.6x** and 3–4x TTD's and DT's multiples. The "quality compounder" premium is Indian-market pricing, not a global adtech multiple. That raises the bar for Perion: Affle is paying ~4x adjusted EBITDA and asking its own ~31x multiple to absorb the result [E].
+
+#### InMobi + Glance (unlisted, India)
+- **IPO status (13-Nov-2026): not listed; no DRHP found.** Feb-2026: eight banks engaged (Kotak, Axis, Jefferies, JPMorgan, UBS and others), targeting ≥US$500 mn at a US$4–5 bn valuation; reverse-flip from Singapore to India still in progress [V-sec entrepreneur.com, 10-Feb-2026]. Jul-2025: co-founders injected ₹32 Cr via CCPS at ₹1,09,655 each, and the DRHP target slipped from H1 2025 to "H2 2025" [V-sec Inc42 5-Jul-2025]. It has slipped again since.
+- **Financials remain unreliable:** InMobi FY24 operating revenue was reportedly **US$220 mn (−18%)**, with FY25 statements not filed as of mid-2025 [V-snip]. An IPO-tracker figure of "₹8,650 Cr FY25 revenue, ₹380 Cr PAT" is **not credible enough to print** (single low-quality source; inconsistent with US$220 mn) [V-snip]. **Glance FY24: revenue ~₹614 Cr (+89%), loss ~₹929 Cr (Entrackr)**; Inc42's profile shows a conflicting ₹494 Cr / small loss for a different entity basis [V-snip]. **Writer: describe InMobi qualitatively; do not print a revenue number.**
+
+#### Google India and Meta India (unlisted subsidiaries; RoC filings via press)
+- **Google India FY25:** gross ad revenue **₹34,742 Cr (+11.3% from ₹31,221 Cr)**; payments to Google Asia Pacific ₹32,047.6 Cr (+12.6%); net ad revenue ₹2,694.4 Cr (−2%); revenue from operations ₹5,340.1 Cr (−3%); total income ₹6,115.9 Cr; PAT ₹1,436.9 Cr [V-snip, several outlets agree]. **FY26 not yet filed or reported** (typically late in the calendar year).
+- **Meta India FY25 (resolves the §H conflict):** Facebook India Online Services revenue from operations **₹3,792.91 Cr (+25% from ₹3,034.82 Cr)**, PAT **₹647.45 Cr (+28%)** (Tofler analysis of the RoC filing) [V-snip]. **Gross ad revenue ₹29,392 Cr (+29% from ₹22,730 Cr in FY24)** is the reported figure; the arithmetic is internally consistent. The ₹28,000 Cr number was an earlier analyst estimate. **Use ₹29,392 Cr.**
+- **Google + Meta FY25 = ₹64,134 Cr ≈ 68% of FICCI-EY's CY2025 digital ad ₹94,700 Cr** (FY vs CY mismatch; E).
+- **JioStar FY26 gross revenue ₹36,248 Cr** (ads + subscription, TV + digital) [V-snip e4m]. That is bigger than Google India's gross ad revenue, but not comparable as an ad-only figure.
+- **Legal footnote (new):** in May-2026 the **Delhi High Court held Google liable for trademark infringement for letting rivals bid on a company's brand name as a keyword** (damages ~US$31,600). Google appealed on 7-Jul-2026 [V-sec tribune.com.pk/Reuters]. If upheld, brand-keyword bidding in Indian search ads changes. This is *not* the CCI adtech probe, whose status is still unverified.
+
+#### Agency groups (WPP/WPP Media, Publicis, Dentsu, Omnicom-IPG)
+- No new primary fetch this pass beyond WPP Media's India forecast (re-fetched; see §4.3) [V]. Agency India revenues are not separately disclosed by the holding companies [K]. Keep Part 1's qualitative treatment, and do not print India agency revenue numbers.
+
+#### Listed Indian small-caps (screener, 13-Nov-2026, re-pulled) [V screener]
+| Company | M-cap (₹ Cr) | Price | P/E | FY26 sales | FY26 OP (OPM) | FY26 PAT | TTM sales / PAT | ROE / ROCE | Note |
+|---|---|---|---|---|---|---|---|---|---|
+| **Vertoz** | 296 | 34.7 | 11.2 | 292 (+15%) | 49 (17%) | 26 | 303 / 27 | 12.3% / 14.2% | Interest up ₹2 → ₹6–7 Cr; D&A ₹16–19 Cr |
+| **Signpost India** (OOH, not adtech) | 1,204 | 224 | 16.4 | 576 (+27%) | 147 (25%) | 70 | 591 / 74 | 27.6% / 24.9% | Interest ₹16–18 Cr |
+| **Brightcom Group** | 1,867 | 9.25 | 1.84 | 6,928 (+35%) | 1,752 (25%) | 962 | 7,225 / 1,013 | 10.0% / 14.9% | Book value ₹52.4 vs price ₹9.25 (0.18x) |
+
+#### Brightcom 2025–26 developments (closes §H item 14 in part)
+- **SEBI final order, Oct-2025 (WTM/AN/CFID/CFID_4/31705/2025-26):** penalties on two former directors, **Allam Raghunath ₹30 lakh and Subrato Saha ₹5 lakh**, for LODR violations. The order restates that BGL's accounts for FY2014-15 to FY2019-20 were misrepresented and quantifies **"artificial inflation of headline profits to the extent of INR 1,280.06 crore" in FY2018-19 and FY2019-20** [V SEBI order PDF]. A forensic auditor's report (8-Dec-2022) underpins it [V].
+- **SAT:** one report says SAT dismissed Brightcom's appeal against the Feb-2025 final order in **Jun-2026** [V-snip oquilia, single source; unconfirmed]. An earlier SAT ruling (Jan-2024) dismissed the appeal against the interim bar on the ex-CMD/CFO [V-snip Moneylife].
+- **Reported numbers keep rising** (FY26 sales +35%, TTM PAT ₹1,013 Cr) while the stock trades at **1.8x P/E and 0.18x book**. The market is treating reported earnings as unbankable [V screener; E].
+
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3.1 FICCI-EY 2026 (CY2025 actuals) — now read from EY's own press release [V]
+Source: EY India newsroom, "India's media and entertainment sector grew 9 percent to INR 2.78 trillion in 2025…", 24-Mar-2026: https://www.ey.com/en_in/newsroom/2026/03/india-s-media-and-entertainment-sector-grew-9-percent-to-inr-2-point-78-trillion-in-2025-driven-by-digital-and-live-experiences-ficci-ey-report
+
+| Metric (CY2025) | Value | Growth | Note |
+|---|---|---|---|
+| M&E sector | ₹2.78 lakh Cr | +9% | → ₹3.3 lakh Cr by 2028 (>7% CAGR) |
+| **Total advertising** | **₹1.5 lakh Cr (₹1,50,000 Cr)** | **+13% (headline) / 13.5% (body)** | **= 0.41% of GDP** |
+| **Digital advertising** | **₹94,700 Cr** | **+26%** | **63% of total ad revenue** |
+| E-commerce / point-of-sale ads | ₹22,000 Cr | +50% | = 85% of linear TV ad revenue |
+| Linear TV advertising | ~₹25,900 Cr [E: 22,000 ÷ 0.85] | −10% | EY: total TV ad incl. CTV "stable" at ₹36,200 Cr (the release prints "INR362 million", a typo for billion) |
+| Connected TV (implied) | ~₹10,000 Cr [E: 36,200 − ~25,900–26,300] | strong growth | ~40 mn CTV units (30 mn in 2024) |
+| Print advertising | not given in ₹ | +2% | digital ~5–6% of print revenue |
+| SME / long-tail advertisers | ₹36,300 Cr | — | from "over a million" advertisers |
+| Video games (incl. RMG) segment | — | **−17%** | after the Aug-2025 money-gaming ban; in-app purchases +15% |
+
+**Corrections this triggers:** (a) FICCI-EY total ad is **₹1.5 lakh Cr (stated)**, not "≈₹1.43–1.45 lakh Cr [E]". (b) Digital share is **63% (stated)**, not "nearly two-thirds". (c) Linear TV ad on FICCI-EY's basis is ~₹26,000 Cr, against PMAR's ₹32,855 Cr — again a definitional difference. (d) The "+2.8% M&E 2026E" FLAG in §2.1 can be dropped: EY gives only the 2028 figure (₹3.3 lakh Cr, >7% CAGR).
+
+### 4.3.2 Four publishers, one table (CY2025 unless stated) — final version for the writer
+
+| Publisher (date) | Total ad (₹ Cr) | Digital (₹ Cr) | Digital share | Growth (total / digital) | Basis | Tag |
+|---|---|---|---|---|---|---|
+| **FICCI-EY (24-Mar-2026)** | **1,50,000** | **94,700** | **63%** | +13.5% / +26% | Industry revenue incl. SME long tail and e-com POS | **V** |
+| Pitch Madison PMAR (Feb-2026), expanded | 1,55,105 | 93,156 | 60% | +12% / +22% | Adds MSME self-serve + retail media | V-snip |
+| Pitch Madison PMAR, legacy | 1,15,291 | ~53,000 [E] | 46% | +7% | Brand media only | V-snip |
+| dentsu-e4m (Feb-2026) | ">1.2 lakh Cr" (~1,21,400 E) | 71,621 | 59% | — / +~19% | Agency-tracked | V-snip |
+| CRISIL (Aug-2025; FY2024-25 basis) | ">1 lakh Cr" | ~46,000 [E] | 45–46% | 6–7% 5-yr CAGR; digital +9–11% FY26E | Fiscal year; media-company lens | V-sec medianews4u |
+| WPP Media TYNY midyear (Jun-2026) | 2026E: US$22.5 bn ≈ ₹2.0 lakh Cr | — | not stated on midyear page (Feb: 68.1% incl. digital extensions) | +8.8% (2026E) | Widest (gross platform revenue) | V (re-fetched) |
+
+### 4.3.3 Digital mix by format (dentsu-e4m 2026 report, CY2025, ₹71,621 Cr) [V-snip e4m coverage; full PDF sits behind a contact form, not used]
+| Format | ₹ Cr | Share | 2026 outlook |
+|---|---|---|---|
+| Social media | 21,057 | 29% | +18.8%; ~29% share |
+| Online video | 20,004 | 28% | +22.3% → 29% share; overtakes social in 2027 |
+| **Paid search** | **16,581** | **23%** | — (closes §H item 8) |
+| Display / other | ~14,000 [E residual] | ~20% | — |
+| *Cross-cut:* e-retail media | 17,601 | 25% (+56%) | (overlaps the format split) |
+| *Cross-cut:* programmatic | 30,081 | 42% (+19%) | → 43% share; ~19% CAGR to 2027 |
+
+*Chart note:* the four format shares add to ~100%. E-retail and programmatic are cross-cuts (by seller and by buying method), not extra slices. Do not stack them.
+
+### 4.3.4 WPP Media India 2026E by channel (re-fetched midyear page) [V]
+Social & other digital US$8.3 bn (+13.2%) · **Commerce US$3.9 bn (+29.0%; +21.7% in 2027)** · "Intelligence" (AI/search) >US$2.5 bn (+9.0%) · TV total US$4.9 bn (−6.8%) · OOH US$0.5 bn (+8.6%; DOOH <5% of OOH) · **Total US$22.5 bn ≈ ₹2.0 trn (+8.8%)**; retail media +30% (2026); 2027 IPL rights auction is the next inflection; "return to stable, double-digit growth starting in 2027". **Correction:** the midyear page does not state a digital share. The 68.1% belongs to the Feb-2026 edition.
+
+### 4.3.5 Walled-garden revenue (₹ Cr; Indian fiscal years) [V-snip, RoC via press]
+| Entity | FY24 | FY25 | Growth | Basis |
+|---|---|---|---|---|
+| Google India — gross ad revenue | 31,221 | **34,742** | +11.3% | gross billings, of which ₹32,047.6 Cr paid to Google Asia Pacific |
+| Google India — net ad revenue | ~2,750 [E] | 2,694.4 | −2% | kept in India |
+| Meta (Facebook India) — gross ad revenue | 22,730 | **29,392** | +29% | reported gross |
+| Facebook India Online Services — revenue from ops | 3,034.8 | 3,792.9 | +25% | entity (reseller margin) |
+| **Google + Meta gross** | 53,951 | **64,134** | **+18.9%** | ≈ 68% of CY2025 digital adex (FICCI-EY) [E] |
+| JioStar (FY26, all revenue) | — | 36,248 (FY26) | — | ads + subscriptions |
+
+**Read:** Meta's Indian ad business is growing ~2.5x as fast as Google's (+29% vs +11%) and could overtake it by ~FY27–28 if those rates hold [E]. Combined, the two grew 18.9%, below FICCI-EY's +26% digital growth. **Commerce media and CTV, not Google/Meta, are taking incremental share** [E].
+
+### 4.3.6 Affle in the Indian pie (new, using standalone filings)
+- Affle India-domestic revenue ≈ **₹538 Cr (FY26)** = standalone ₹864.4 Cr × (1 − 37.77% exports) [V inputs; E].
+- Share of FICCI-EY digital adex ≈ **0.57%**; share of dentsu-e4m programmatic ≈ **1.8%** [E].
+- Affle group revenue (₹2,709 Cr) ≈ 2.9% of Indian digital adex, but ~80% of it is earned outside India [E].
+
+### 4.3.7 Policy dates (final, for the timeline)
+| Item | Date | Source / tag |
+|---|---|---|
+| Online Gaming Act passed by Parliament | 21-Aug-2025 (LS 20-Aug, RS 21-Aug) | SC Observer [V-sec] |
+| Presidential assent | **22-Aug-2025** | SC Observer [V-sec] (upgrades Part 1 [K]) |
+| SC transfers HC challenges to itself (Art. 139A) | 8-Sep-2025 | SC Observer [V-sec] |
+| Act + Online Gaming Rules 2026 notified / in force | announced 22-Apr-2026 / **1-May-2026** | SC Observer [V-sec]; Business Standard [V-snip] |
+| SC: three-judge bench (CJI Surya Kant, Bagchi, Pancholi); case *Head Digital Works v UoI*, T.C.(C) 133/2025 | listed 5-Aug-2026; Aug-2026 the court agreed to a final hearing | SC Observer [V-sec]; agbrief [V-snip] |
+| SC status at 13-Nov-2026 | **pending; no stay; no judgment** | [V-sec/V-snip] |
+| DPDP Rules notified | **14-Nov-2025** (PIB); gazette G.S.R. 846(E) dated 13-Nov per one law firm | PIB backgrounder 17-Nov-2025 [V] |
+| DPDP consent-manager rule (Rule 4) | +12 months ≈ **13/14-Nov-2026** | PIB (18-month phasing) [V]; law firms [V-snip] |
+| DPDP substantive duties (Rules 3, 5–16, 22–23) | +18 months ≈ **13/14-May-2027** | [V-snip; PIB confirms 18 months] |
+| 2% equalisation levy (e-commerce) abolished | **1-Aug-2024** (Finance (No.2) Act 2024; assent 16-Aug-2024) | [V-snip] |
+| 6% equalisation levy (online ads) abolished | consideration on/after **1-Apr-2025** (Finance Act 2025; amendment moved 24-Mar-2025) | [V-snip] |
+| Labour Codes notified | 21-Nov-2025 (Affle: impact "not material") | Affle FY26 results note 8 [V] |
+| Delhi HC keyword-trademark ruling vs Google | May-2026; appeal 7-Jul-2026 | tribune/Reuters [V-sec] |
+
+### 4.3.8 New chart-ready datasets
+- **E16. Affle gross margin, FY21–FY26 (%)**: FY21 42.4 [E: 1 − 2,977/5,168] · FY22 37.2 · FY23 38.3 · FY24 38.9 · FY25 39.1 · FY26 38.0 [V/V-snip inputs].
+- **E17. Affle balance-sheet composition (₹ Cr)**: Mar-26 — cash & liquid 1,792 · goodwill & intangibles 1,518 · receivables & contract assets 710 · other 402 | Sep-26 — 2,117 · 1,582 · 766 · 492 [V].
+- **E18. Global adtech valuation (EV/TTM EBITDA, x, 13-Nov-2026)**: Affle ~31 [E] · AppLovin 21.6 · TTD 9.4 · Digital Turbine 8.5 · Perion deal ~4 (adj.) [V-sec; E].
+- **E19. Perion revenue mix (US$ mn)**: 2024 search 162.7 / adv. solutions 335.6 · 2025 91.0 / 348.9 · Q2-26 22.1 / 76.2 [V-sec].
+- **E20. India digital formats 2025 (₹ Cr, dentsu-e4m)**: social 21,057 · video 20,004 · search 16,581 · display/other ~13,979 [V-snip; E residual].
+- **E21. Affle CPCU share of revenue by quarter (%)**: Q1 FY26 99.9 · Q2 FY26 97.7 · Q4 FY26 99.6 · Q1 FY27 99.8 · Q2 FY27 99.8 [V-derived].
+
+---
+
+## 4.4 Gap log (each §H item and each brief gap)
+
+| # | Gap (Part 1 §H / brief) | Status | How / source |
+|---|---|---|---|
+| H1 | Affle India-only revenue | **Mostly filled** | Standalone revenue ₹864.4 Cr (directors' report) × 62.23% domestic (BRSR exports 37.77%) ≈ ₹538 Cr [V inputs; E]. Exact India billing via foreign entities remains unknown. |
+| H2 | Acquisition prices | **Partly filled** | AdColony **US$4.7 mn** (APA 15-Jun-2026, Affle MEA FZ-LLC; DT's gain corroborates). Jampp/YouAppi stay V-snip (US$41.3 mn / US$45 mn). **Vizury, RevX, mediasmart, Appnext prices still not found**; consolidation dates now [V] (mediasmart 22-Jan-2020; Appnext 19-Jul-2020; Jampp 1-Jul-2021; YouAppi 1-May-2023). |
+| H3 | Perion financials | **Filled** (except Q3 2026, headcount detail and Citibank size) | FY2025 and Q2/H1 2026 releases; 6-K cash at Sep-26; stockanalysis 511 employees. **Q3 2026 due 16-Nov — not out.** Citibank amount not disclosed in either release. Termination fees not read. |
+| H4 | Peer valuations | **Filled** | stockanalysis.com 13-Nov-2026 for APP/TTD/APPS/PERI [V-sec]; latest-quarter numbers from SEC exhibits/company releases [V]. |
+| H5 | InMobi financials & IPO | **Status filled; financials still open** | Not listed; no DRHP; banks engaged; reverse flip pending. FY25 revenue not reliably reported. Glance FY24 ₹614 Cr/−₹929 Cr (V-snip). |
+| H6 | Meta India basis conflict | **Filled** | ₹29,392 Cr = reported gross ad revenue (+29% on ₹22,730 Cr); ₹28,000 Cr was an estimate. |
+| H7 | India ad market total (FICCI-EY) | **Filled** | ₹1.5 lakh Cr, 0.41% of GDP, digital 63% [V EY]. M&E "2.8%" flag dropped. |
+| H8 | Search share 2025 | **Filled (V-snip)** | dentsu-e4m: 23%, ₹16,581 Cr. |
+| H9 | Online Gaming Act dates & SC status | **Filled** | Assent 22-Aug-2025 [V-sec]; in force 1-May-2026; SC three-judge bench, final hearing agreed Aug-2026; no stay, no judgment. |
+| H10 | DPDP notification date | **Filled** | PIB: 14-Nov-2025 [V]; gazette dated 13-Nov per one firm. Consent managers ~14-Nov-2026; full duties ~14-May-2027. |
+| H11 | Equalisation levy dates | **Upgraded K → V-snip** | 1-Aug-2024 (2%); 1-Apr-2025 (6%). Statute text not fetched. |
+| H12 | Affle cash vs goodwill | **Filled** | Audited Mar-26 balance sheet + presentation text-layer positions [V]. |
+| H13 | Client concentration (top-10) | **Still open** | Not in presentation, calls, BRSR or directors' report. The full AR's financial-risk note (credit risk) may carry it; the full AR PDF was not located (not on screener's list yet; affle.com AR path unknown). |
+| H14 | Brightcom 2026 developments | **Partly filled** | SEBI Oct-2025 order (₹1,280 Cr profit inflation quantified) [V]; Jun-2026 SAT dismissal (single source, V-snip). |
+| H15 | Working-capital days 25 → 82 | **Filled** | Deposit reclassification into other current financial assets (₹17 → ₹345 Cr) plus receivable/contract-asset growth [V inputs; E attribution]. |
+| H16 | RMG share of Affle revenue | **Estimated** | ~4–6% of Q1 FY26 revenue, from management's "95% grew >25%" vs total +20.4% [E]. Never disclosed. |
+| H17 | FX | **Filled** | ₹94.25/$ (x-rates, 13-Nov-2026) [V-sec]. |
+| B9 | Concall guidance digest | **Filled** | Q4 FY26 and Q1 FY27 transcripts read in full; Q2 FY27 call cancelled (confirmed; no Perion text in the Q2 deck). |
+| B-AR | FY26 annual report (MD&A, related parties, contingent liabilities, auditor) | **Mostly filled from components** | Audited results, BRSR, directors' report and auditor's report read; MD&A risk section and the full contingent-liability note 31(b) not read. |
+| — | Group employee count | **Open** | Standalone 626 (BRSR). The consolidated headcount was not found. |
+| — | Perion termination fee / merger agreement | **Open** | Not in the press releases. |
+| — | DT's AdColony exchange buyer identity | **Inferred** | DT's US$4.7 mn gain in the Jul–Sep 2026 quarter matches Affle's US$4.7 mn price; DT does not name the buyer [V; E]. |
+| — | Agencies' India numbers | **Open (by design)** | Not disclosed by the holding companies. |
+
+---
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### 4.5.1 Insights (expert-level additions)
+1. **Affle's multiple is above AppLovin's.** At ~31x EV/TTM EBITDA (E), Affle trades above AppLovin (21.6x), TTD (9.4x) and DT (8.5x) [V-sec]. Its premium is an Indian-market phenomenon (scarcity of listed adtech, domestic-fund ownership: DIIs 18.7%). It is not a global adtech multiple. **This is the real logic of the Perion deal:** buy a ~4x-EBITDA asset with cash and a ~31x stock-market rating.
+2. **Perion is not a low-gross-margin business; it is a high-opex one.** Contribution ex-TAC of 43–46% beats Affle's 37–38% gross margin. Only 22% of Perion's gross profit reaches adjusted EBITDA, against ~61% at Affle. Affle's playbook will therefore be cost-out and contract pruning (its release mentions a "review of Perion's revenue recognition and business contracts"). **Expect reported combined revenue below the simple sum** if contracts are cut or recognition moves to net [V; E].
+3. **Perion bought back US$166.8 mn of its own stock into a declining business, then sold itself for ~US$420 mn.** The buybacks (US$50 mn in Q2–Q3 2026 alone) shrank the cash Affle inherits from US$313 mn (Dec-25) to US$228 mn (Sep-26). Affle's net price rose accordingly [V; E].
+4. **India is ~20% of Affle.** The "India & EM 73%" label hides that most of it is SE Asia/MEA/LatAm billed through Singapore and Dubai. Affle's exposure to the Indian ad market (and to the RMG ban) is smaller than the label suggests: RMG was perhaps 4–6% of revenue [E].
+5. **Gross margin was 37.2% in FY22 — the same level as Q2 FY27.** FY23–FY25 margin gains (to 39.1%) were given back during the premium-inventory and USD phase. Management's own timeline ("a year of investment, then improvement") puts recovery in ~FY28 [V; E].
+6. **Q2 FY27 D&A jumped ~20% QoQ to ₹41 Cr** as intangibles under development (₹131 Cr) went live and AdColony assets started amortising. With Perion's acquired intangibles (customer relationships, technology) to come, **PAT growth will lag EBITDA growth in FY28** even if the deal is EBITDA-accretive [V; E].
+7. **The AdColony assets cost US$4.7 mn — about 1% of the US$400 mn the whole company was priced at in 2020–21.** DT called the exchange "dormant" and kept the customer contracts. The prize is SDK supply (100k apps / 500 mn DM devices), which is consistent with Affle's push to own supply and cut inventory cost, but unproven [V; E].
+8. **FY25 OCF was flattered by unusually low tax payments** (₹4.3 Cr paid vs ₹106.7 Cr in FY26). FY25's 104% CFO/EBITDA should not be read as the steady state. FY26's 100% at normal tax is the better benchmark [V; E].
+
+### 4.5.2 New primer issues (format as primer-issues.md)
+
+#### From Digital Advertising & Adtech deep-research pass (2026-11-13, adtech-industry.md §4.5)
+- **affle-3i.html — FY24 preferential issue allottee:** the ₹749 Cr preferential issue (69 lakh shares at ₹1,085.54) went **entirely to Gamnat Pte Ltd** (FY26 results note 6: net ₹737.43 Cr; only ₹238.3 Cr used by Mar-2026). Malabar was not an allottee. Part 1 §8 also said so. Fix wherever "allottees incl. Malabar" appears.
+- **affle-3i.html — AdColony price and seller:** **US$4.7 mn upfront cash**, asset purchase agreement dated **15-Jun-2026** between **Affle MEA FZ-LLC** and **DT (Digital Turbine)**; SDK, platform, brand and domain; **customer contracts excluded**. DT booked a US$4.7 mn gain on the sale.
+- **affle-3i.html — cash figure:** use the verified **₹1,792 Cr (31-Mar-2026) / ₹2,117 Cr (30-Sep-2026) cash & liquid investments** against goodwill ₹1,112 Cr + intangibles ₹405 Cr (Mar-26). Borrowings ₹11.9 Cr → ₹2.2 Cr. Drop "reserves ~₹3,600 Cr" as a cash proxy.
+- **affle-3i.html — India exposure:** add that domestic India billing is only ~20% of revenue (standalone ₹864 Cr, 38% of it exports), so "India & EM" is mostly non-India EM.
+- **affle-3i.html — gross margin history:** FY22 37.2% · FY23 38.3% · FY24 38.9% · FY25 39.1% · FY26 38.0% · Q2 FY27 37.5%. Management guides ~1 year of investment, then recovery.
+- **affle-3i.html — governance facts:** auditor Walker Chandiok & Co LLP, unmodified FY26 opinion; KAM = revenue recognition/receivables; audit-trail software exception; disputed income-tax dues ~₹25 Cr; no material RPTs, no royalty; no dividend.
+- **affle-3i.html — Bobble value:** consolidated carrying value **₹134.6 Cr** for a **24.07% fully diluted stake** (standalone ₹135.8 Cr). Use "~₹135 Cr".
+- **affle-3i.html — employees:** standalone 626 (38.7% women), attrition 28.3% (FY26) vs 33.0% (FY25).
+- **affle-3i.html — Perion's vehicle:** buyer is **Affle 3iL Ltd, an Israeli step-down subsidiary incorporated/added 10-Jun-2025**; financing Citibank (amount undisclosed); Affle says "net debt free immediately post" deal. Perion trades at US$11.38 (2.7% below offer) on 13-Nov-2026.
+- **affle-3i.html — peer valuation table (if any):** AppLovin ~US$136 bn m-cap, 21.6x EV/EBITDA; TTD US$7.5 bn, 9.4x; DT US$0.9 bn, 8.5x (13-Nov-2026). Affle's ~31x is a premium to all.
+
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3; the writer applies these)
+
+| # | Where in Parts 1–3 | Old value / statement | New value / statement | Source (Part 4 tag) |
+|---|---|---|---|---|
+| 1 | Trap 1, §2.1, §E2 | FICCI-EY total ad "≈ ₹1.43–1.45 lakh Cr" [E] | **₹1.5 lakh Cr (stated), +13.5%, = 0.41% of GDP** | EY press release 24-Mar-2026 [V] |
+| 2 | Trap 1, §0, §A | Digital "nearly two-thirds" of ad revenue | **63% of total ad revenue** (₹94,700 Cr) | EY [V] |
+| 3 | §2.1 | "M&E 2026E ₹2.86 lakh Cr (+2.8%) — FLAG" | Drop. EY gives only **₹3.3 lakh Cr by 2028 (>7% CAGR)** | EY [V] |
+| 4 | Trap 8, §2.1 Part 2 BS, §2.2 JSON, §3.3 | Cash & liquid investments ₹1,792 Cr / ₹2,117 Cr and goodwill & intangibles ₹1,518 / ₹1,582 Cr tagged [E-mapped] | **Same values, now [V]**: audited Mar-26 BS (goodwill ₹1,112.4 Cr + other intangibles ₹274.4 Cr + IAUD ₹130.7 Cr = ₹1,517.5 Cr) and the text layer of the Q2 FY27 slide (₹2,116.8 Cr cash; ₹1,582.0 Cr GW&I) | FY26 audited results; Q2 FY27 presentation [V] |
+| 5 | Header item 4, §5.2, §2.1 BS, JSON, primer issues | Bobble "₹136 Cr held for sale" | **₹134.63 Cr consolidated** (₹135.83 Cr standalone) for a **24.07% fully diluted stake** | FY26 results note 7 [V] |
+| 6 | §8 (2023–24), §G 2023 | ₹749 Cr preferential issue "allottees incl. Gamnat… and Malabar" | **All 69,00,000 shares to Gamnat Pte Ltd** at ₹1,085.54; net ₹737.43 Cr; ₹238.3 Cr used by Mar-26 | FY26 results note 6 [V] |
+| 7 | §8 (2020–22) | FY22 equity raise "instrument (QIP) [K, FLAG]" | **QIP of 11,53,845 shares (pre-split), net ₹590.69 Cr**; ₹555.84 Cr used by Mar-26 | FY26 results note 5 [V] |
+| 8 | §9.2 tape | Q1 FY26 avg CPCU 57.9 [E]; Q1 FY27 60.2 [E] | **Q1 FY26 ₹58.0 [V]; Q1 FY27 ₹60.2 [V]** (Q1 FY27 deck) | Q1 FY27 presentation [V] |
+| 9 | §9.3 annual tape | FY22 CPCU ~55, FY23 ~56 [E] | **~52 / ~53 [E]**: FY22–23 carried 4–7% non-CPCU revenue (Q3 FY24 CPCU share 95.8%) | Q3/Q4 FY24 presentations [V inputs] |
+| 10 | §2.0 peer table, Part 2 financials | Inventory & data costs FY22–FY24 "n/f" | **FY22 ₹678.9 Cr (62.8%; GM 37.2%) [V-snip]; FY23 ₹884.3 Cr (61.7%; 38.3%) [V]; FY24 ₹1,125.4 Cr (61.1%; 38.9%) [V]** | Q4 FY24 presentation [V]; Q4 FY23 via search [V-snip] |
+| 11 | §5.1 table, §2.3 | Affle share of India digital adex "<2%" | **~0.6%**: India-domestic billing ≈ ₹538 Cr (standalone ₹864.4 Cr × 62.2% non-export) | Directors' report; BRSR [V inputs; E] |
+| 12 | §9.1, §2.3, §H15 | Working-capital days jump "likely warrant/held-for-sale classification [E; FLAG]" | **Mainly deposits reclassified into "other current financial assets" (₹17 → ₹345 Cr)** plus receivables + contract assets +₹158 Cr; trade-receivable days only 48 → 52 | FY26 audited BS/cash flow [V; E attribution] |
+| 13 | §B2, §3.3, primer issues | AdColony "seller (likely Digital Turbine [K]) and price not disclosed" | **Seller DT (Digital Turbine); APA dated 15-Jun-2026; buyer Affle MEA FZ-LLC; US$4.7 mn upfront cash; customer contracts excluded.** DT booked a US$4.7 mn gain on the "dormant exchange" | affle.com news [V-snip]; sahi.com [V-sec]; DT 8-K 9-Nov-2026 [V] |
+| 14 | Trap 7, §6 row 5 | Perion has "a much lower gross margin profile"; "~35–45% gross margin [K]" | **Contribution ex-TAC margin 46.2% (CY2025), 43.1% (Q2 2026): higher than Affle's 37–38%.** Weakness is opex (adj. EBITDA = 22% of CexTAC) | Perion FY2025 and Q2 2026 releases [V-sec] |
+| 15 | §10, §3.2, §H3 | Perion adj. EBITDA "n/a" | **CY2025 adj. EBITDA US$45.2 mn (CY2024 US$51.2 mn); CexTAC US$203.4 mn; search US$91.0 mn (−44%); FY2026 guide adj. EBITDA US$51–53 mn, CexTAC US$215–225 mn; H1 2026 adj. EBITDA US$3.2 mn** | Perion releases [V-sec] |
+| 16 | §0 | Perion "~600 DM staff" [V-snip] | **511 employees** (stockanalysis profile) | [V-sec] |
+| 17 | §10 valuation bullets | AppLovin m-cap "US$150–250 bn [K, unverified]"; peer multiples "not fetched" | **APP US$135.9 bn (EV/TTM EBITDA 21.6x); TTD US$7.5 bn (9.4x); DT US$0.92 bn (8.5x); PERI US$0.45 bn (EV/sales 0.46x)**, 13-Nov-2026 | stockanalysis.com [V-sec] |
+| 18 | §10 TTD row | Q3 decline "incl. ~3 pts non-recurring partner benefit"; EBITDA "~US$266 mn (unconfirmed)" | **Drop the partner-benefit claim (not in the release). Adj. EBITDA US$266 mn (36%) vs US$317 mn (43%) now [V]**; restructuring charge US$44.3 mn | TTD Q3 2026 release [V] |
+| 19 | §5.1, §E5, §3.2, §H6 | Meta India gross ad "₹28,000–29,392 Cr (two bases)" | **₹29,392 Cr (reported; +29% from ₹22,730 Cr FY24)**; ₹28,000 Cr was an analyst estimate | RoC via press [V-snip] |
+| 20 | §0, §5.1, stat-strip #2 | Google + Meta "~₹63,000 Cr ≈ two-thirds" | **₹64,134 Cr (FY25) ≈ 68% of CY2025 digital adex** (FY/CY mismatch) | [V-snip; E] |
+| 21 | Units/FX | ₹95/$ [V-sib] | **₹94.25/$** (13-Nov-2026) | x-rates [V-sec] |
+| 22 | §2.2, §H8 | Search share 2025 "not found" | **Paid search 23% = ₹16,581 Cr** (dentsu-e4m 2026) | e4m [V-snip] |
+| 23 | Trap 9, §7.2, §H9, §12 | Gaming Act assent [K]; "SC status unknown" | **Assent 22-Aug-2025 [V-sec]; HC petitions transferred to SC 8-Sep-2025; three-judge bench (CJI Surya Kant); final hearing agreed Aug-2026; no stay, no judgment by 13-Nov-2026** | SC Observer [V-sec] |
+| 24 | Trap 10, §7.1, §H10 | DPDP Rules notified "~13/14-Nov-2025" | **14-Nov-2025** (PIB); gazette G.S.R. 846(E) dated 13-Nov per one firm | PIB backgrounder [V] |
+| 25 | §2.1 WPP row, Trap 1 | WPP "digital 68.1%" quoted alongside the Jun-2026 midyear figure | The **midyear page states no digital share**; 68.1% is from the Feb-2026 edition only | WPP midyear page [V] |
+| 26 | §9.1, §B1, primer issue "CPCU share" | FY26 CPCU share 99.2% treated as uniform | **Q2 FY26 was 97.7%** (₹631.9 Cr CPCU of ₹646.7 Cr); the other quarters were 99.6–99.9% | Q2 FY27/Q1 FY27/Q4 FY26 decks [V; E] |
+| 27 | §9.1, Part 2 KPIs | Direct-advertiser share FY26 74% | **73.8% direct / 26.2% via agencies** (BRSR) | BRSR [V] |
+| 28 | Header, §5.2 | Linear TV "₹32,855 Cr (−5%)" as the only figure | Keep PMAR's ₹32,855 Cr, but **FICCI-EY's basis gives linear TV ~₹26,000 Cr (−10%) and TV incl. CTV ₹36,200 Cr (stable)**. Name the source on each chart | EY [V; E] |
+| 29 | §2.3 / Part 2 "Story" | "RMG share never quantified" (no number) | **Estimate ~4–6% of Q1 FY26 revenue** (implied by "95% grew >25%" vs +20.4% total) — label [E] | Q1 FY27 call [V inputs; E] |
+| 30 | Part 2 BS bullet | Unutilised FY24 preferential proceeds "₹499.10 Cr" | Consistent: ₹737.43 Cr net − ₹238.32 Cr used = ₹499.1 Cr [V]; no change, now reconciled | FY26 results note 6 [V] |
+
+---
+
+## 4.1 Verification table — the 40 figures the writer will use
+
+Key: **V** = fetched this session from the primary document at the URL; **V-sec** = reputable mirror/data page; **V-snip** = search summary only. "Agrees?" compares with Parts 1–3.
+
+URL shorthands: **[Q2P]** https://www.bseindia.com/xml-data/corpfiling/AttachHis/38ee3c60-0033-4d7e-a170-dadc12c34e39.pdf · **[Q1P]** https://www.bseindia.com/xml-data/corpfiling/AttachHis/a27b8968-8f9d-430d-a322-1a418b85d892.pdf · **[Q4P]** https://www.bseindia.com/xml-data/corpfiling/AttachHis/81fed4cf-92a8-413e-b2c4-02c58262abfb.pdf · **[Q1C]** https://www.bseindia.com/xml-data/corpfiling/AttachHis/f064706f-13b9-4859-9441-9abe8ae21a2d.pdf · **[Q4C]** https://www.bseindia.com/xml-data/corpfiling/AttachHis/2af8a5a5-dec8-48c0-bcc6-b206d91bfa69.pdf · **[FY26R]** https://affle.com/hubfs/affle-investor-relation/financial-details/fy2026/q4/Ind_AS_Financial_Results.pdf · **[BRSR]** https://nsearchives.nseindia.com/corporate/BRSR_542752_27082026135553.pdf · **[Q4FY24P]** https://www.bseindia.com/xml-data/corpfiling/AttachHis/9c0c2562-5ee2-4427-ba90-bacd0276cc3d.pdf · **[EY]** https://www.ey.com/en_in/newsroom/2026/03/india-s-media-and-entertainment-sector-grew-9-percent-to-inr-2-point-78-trillion-in-2025-driven-by-digital-and-live-experiences-ficci-ey-report · **[WPP]** https://www.wppmedia.com/news/this-year-next-year-india-midyear-2026 · **[PERI6K]** https://www.sec.gov/Archives/edgar/data/0001338940/000117891326004939/exhibit_99-3.htm · **[APP]** https://www.sec.gov/Archives/edgar/data/0001751008/000175100826000068/exhibit991-3q26earningspre.htm · **[TTD]** https://www.thetradedesk.com/press-room/the-trade-desk-reports-third-quarter-2026-financial-results · **[DT]** https://www.sec.gov/Archives/edgar/data/0000317788/000162828026072130/form8-kxexhibit991q2fy2027.htm · **[PIB]** https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf
+
+| # | Figure | Value | Primary source (URL) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | India digital ad revenue, CY2025 | ₹94,700 Cr (+26%) | [EY] | **V** | Yes |
+| 2 | India total advertising, CY2025 | ₹1.5 lakh Cr (+13.5%); 0.41% of GDP | [EY] | **V** | **No** — Part 1 had ≈₹1.43–1.45 lakh Cr [E] → Supersedes #1 |
+| 3 | Digital share of ad revenue | 63% | [EY] | **V** | Refines "nearly two-thirds" |
+| 4 | E-commerce / POS ads, CY2025 | ₹22,000 Cr (+50%) | [EY] | **V** | Yes (was V-snip) |
+| 5 | DPDP Rules notification date | 14-Nov-2025; 18-month phasing | [PIB] | **V** | Resolves 13/14 ambiguity |
+| 6 | WPP Media India 2026E | US$22.5 bn ≈ ₹2.0 trn (+8.8%) | [WPP] | **V** | Yes |
+| 7 | WPP commerce ads 2026E | US$3.9 bn (+29.0%; +21.7% 2027) | [WPP] | **V** | Yes |
+| 8 | dentsu-e4m digital 2025 | ₹71,621 Cr = 59% | exchange4media coverage (report PDF behind a form) | V-snip | Yes |
+| 9 | Paid-search share 2025 | 23% = ₹16,581 Cr | exchange4media (online-video article) | V-snip | New (fills gap) |
+| 10 | Google India gross ad FY25 | ₹34,742 Cr (+11.3%) | bestmediainfo / e4m / storyboard18 (RoC) | V-snip | Yes |
+| 11 | Meta India gross ad FY25 | ₹29,392 Cr (+29% from ₹22,730 Cr) | press (Tofler/RoC) | V-snip | Resolves conflict (Supersedes #19) |
+| 12 | Affle FY26 revenue | ₹2,709.3 Cr (INR 27,093.09 mn; +19.5%) | [FY26R]; [Q4P] | **V** | Yes |
+| 13 | Affle FY26 EBITDA | ₹610.1 Cr (22.5%) | [Q4P] slide 4 | **V** | Yes |
+| 14 | Affle FY26 PAT | ₹454.9 Cr | [Q4P] | **V** | Yes |
+| 15 | Affle FY26 inventory & data cost / gross margin | ₹1,679.8 Cr = 62.0% → GM 38.0% | [Q4P] | **V** | Yes |
+| 16 | Affle FY24 / FY23 inventory & data cost | ₹1,125.4 Cr (61.1%) / ₹884.3 Cr (61.7%) | [Q4FY24P] | **V** | New (Supersedes #10) |
+| 17 | Affle Q2 FY27 revenue | ₹783.6 Cr (+21.2% YoY, +4.9% QoQ) | [Q2P] | **V** | Yes |
+| 18 | Affle Q2 FY27 EBITDA | ₹181.4 Cr (23.2%) | [Q2P] | **V** | Yes |
+| 19 | Affle Q2 FY27 gross margin | 37.5% (inventory ₹489.6 Cr) | [Q2P] | **V** | Yes |
+| 20 | Affle Q2 FY27 conversions / avg CPCU | 128.9 mn / ₹60.6 | [Q2P] | **V** | Yes |
+| 21 | Affle Q1 FY27 / Q1 FY26 avg CPCU | ₹60.2 / ₹58.0 | [Q1P] | **V** | Corrects [E] 57.9 (Supersedes #8) |
+| 22 | Affle FY26 conversions / avg CPCU | 456.0 mn / ₹58.9 | [Q4P] | **V** | Yes |
+| 23 | Affle cash & liquid investments, 30-Sep-2026 | ₹2,116.8 Cr | [Q2P] slide 7 (text layer) | **V** | Yes; tag upgraded E → V |
+| 24 | Affle goodwill / goodwill + intangibles, 31-Mar-2026 | ₹1,112.4 Cr / ₹1,517.5 Cr | [FY26R] consolidated BS | **V** | Yes; tag upgraded |
+| 25 | Affle borrowings | ₹11.9 Cr (Mar-26) → ₹2.2 Cr (Sep-26) | [FY26R]; [Q2P] | **V** | Yes |
+| 26 | Bobble held-for-sale | ₹134.63 Cr; 24.07% FD stake | [FY26R] note 7 | **V** | **No** — Part 1 had ₹136 Cr (Supersedes #5) |
+| 27 | Affle standalone revenue FY26 | INR 8,644.25 mn (₹864.4 Cr) | [BRSR] (also directors' report) | **V** | New |
+| 28 | Exports share of standalone turnover | 37.77% | [BRSR] | **V** | New (India ≈ ₹538 Cr, E) |
+| 29 | Direct vs agency revenue | 73.8% / 26.2% | [BRSR] | **V** | ≈ Part 1's 74% |
+| 30 | Employees (standalone) / attrition | 626 / 28.3% | [BRSR] | **V** | New |
+| 31 | FY24 preferential issue | 69,00,000 shares to Gamnat Pte only; net ₹737.43 Cr | [FY26R] note 6 | **V** | **No** — Part 1 named Malabar (Supersedes #6) |
+| 32 | Affle FY26 OCF / taxes paid | ₹502.3 Cr / ₹106.7 Cr | [FY26R] cash flow; [Q4P] | **V** | Yes (taxes new) |
+| 33 | Organic growth guidance | ~20% (internal 25%); combined post-M&A ~20%, EBITDA 23–25% over time | [Q1C]; [Q4C] | **V** | Yes (adds combined-entity yardstick) |
+| 34 | Gross-margin recovery timeline | ~1 year of investment, then improvement in the second year (said 11-May-2026) | [Q4C] | **V** | Yes |
+| 35 | USD exposure | "Only 20% of our business of U.S. is dollar to dollar" | [Q1C] | **V** | Yes |
+| 36 | Perion deal | US$11.70/sh; ~US$420 mn equity; Perion cash US$228.3 mn (30-Sep-26); go-shop to 11-Dec-2026; buyer Affle 3iL Ltd; Citibank (amount undisclosed) | [PERI6K] | **V** | Yes |
+| 37 | Perion CY2025 | Revenue US$439.9 mn; CexTAC US$203.4 mn; adj. EBITDA US$45.2 mn; net loss US$7.9 mn | Perion release via 01net.it mirror (https://www.01net.it/perion-reports-fourth-quarter-results/) | V-sec | Revenue/net loss agree; EBITDA/CexTAC new |
+| 38 | AppLovin Q3 2026 | Revenue US$2,185 mn (+55%); adj. EBITDA US$1,842 mn (84%); NI US$1,439 mn | [APP] | **V** | Yes (upgraded from V-snip) |
+| 39 | The Trade Desk Q3 2026 | Revenue US$736 mn (−0.5%); adj. EBITDA US$266 mn (36%) | [TTD] | **V** | Yes, except the "partner benefit" claim (Supersedes #18) |
+| 40 | Digital Turbine Q2 FY27 + AdColony gain | Revenue US$178.7 mn (+27%); adj. EBITDA US$39.8 mn; US$4.7 mn gain on the AdColony-origin exchange | [DT] | **V** | New |
+
+**Count: 35 of 40 are [V] from primary documents** (rows 1–7, 12–36 and 38–40). Row 37 is [V-sec] (a mirror of Perion's release). Rows 8–11 are [V-snip] (dentsu-e4m and the RoC-based Google/Meta figures; no free primary text exists).
+
+**Where sources conflict (credibility calls):**
+- **India ad market size:** FICCI-EY (₹1.5 lakh Cr) vs PMAR (₹1.55 lakh Cr expanded / ₹1.15 legacy) vs dentsu-e4m (>₹1.2 lakh Cr) vs WPP (₹2.0 lakh Cr, 2026E). These are definitional differences. **Prefer FICCI-EY for CY2025 actuals** (primary release, widely cited by the government via newsonair) and WPP for 2026 forecasts.
+- **AdColony price:** US$4.7 mn (sahi.com) vs "₹39.24 Cr" in the same article. ₹39.24 Cr implies ~₹83.5/$, inconsistent with 2026 rates. **Trust the USD figure**, which DT's US$4.7 mn gain corroborates. At ₹94.25 it is ≈ ₹44 Cr.
+- **Perion share count:** stockanalysis shows 39.33 mn shares (stale, pre-buyback) vs ~35.9 mn implied by US$420 mn ÷ US$11.70. **Trust the deal-implied count** for EV maths; stockanalysis's US$447.6 mn m-cap overstates.
+- **InMobi revenue:** US$220 mn FY24 (press) vs ₹8,650 Cr FY25 (IPO tracker). **Print neither** until a DRHP is filed.
+- **Glance FY24:** ₹614 Cr / −₹929 Cr (Entrackr) vs ₹494 Cr / −₹0.86 Cr (Inc42 profile; different entity basis). Entrackr is more credible for the operating company; flag it.
+- **Affle FY23 EBITDA:** ₹293.0 Cr (Q4 FY24 deck) vs ₹288.8 Cr (Q4 FY26 deck). **Use the latest deck**; the difference is likely a reclassification.
+
+**Other items verified this pass (not in the 40):** online gaming Act assent 22-Aug-2025 and SC status [V-sec scobserver.in]; SEBI Oct-2025 Brightcom order (₹1,280.06 Cr profit inflation; ₹30 lakh/₹5 lakh penalties) [V https://www.sebi.gov.in/sebi_data/attachdocs/oct-2025/1759753202973_1.pdf]; Affle FY26 auditor = Walker Chandiok, unmodified, KAM revenue/receivables, audit-trail exception, disputed tax ~₹25 Cr [V-sec indiainfoline.com auditor's report]; peer prices and multiples [V-sec stockanalysis.com 13-Nov-2026]; FX ₹94.25 [V-sec x-rates.com]; Perion Q2 2026 [V-sec placera.se mirror]; Affle's own Perion release (net-debt-free, FY2028 run-rate >US$700 mn, revenue-recognition review) [V https://www.prnewswire.com/il/news-releases/affle-to-acquire-perion-to-scale-its-cpcu-business-across-developed-markets-302925764.html]; CRISIL ad-market note (FY25 >₹1 lakh Cr, digital 45–46%) [V-sec medianews4u, 5-Aug-2025]; screener re-pull for Vertoz/Signpost/Brightcom [V].
+
+*End of Part 4.*
