@@ -1207,3 +1207,611 @@ Notes:
 17. US EBITDA is struck after rent, so it compares with pre-Ind-AS [K] (ASC 842 operating-lease cost sits in opex — confirm).
 18. The PVR Jan–Jun 2026 ₹6,665 Cr vs Ormax ₹6,398 Cr conflict.
 19. The screener m-cap / P/E basis (pre- vs post-buyback share count) [E].
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (13-Nov-2026)
+
+Second-pass, primary-source supplement compiled 13-Nov-2026 (UTC) per `_cloud/ref/brief-deep-research.md`. It corrects and extends Parts 1–3; where it conflicts with them, **Part 4 wins** (see 4.0). Scratch notes: `/tmp/film-exhibition-deep/notes.md`.
+
+**Primary documents fetched and read this pass (all [V]):**
+- **FICCI-EY 2026 M&E report**, "Stories, scale and impact: un-locking India's media and entertainment economy" (released 24-Mar-2026; 327 pages; full PDF read for the film, exhibition, box-office and OTT chapters): https://www.ey.com/content/dam/ey-unified-site/ey-com/en-in/insights/media-entertainment/2026/03/ey-stories-scale-and-impact-un-locking-indias-media-and-entertainment-economy.pdf — plus the EY press release of 24-Mar-2026 (https://www.ey.com/en_in/newsroom/2026/03/india-s-media-and-entertainment-sector-grew-9-percent-to-inr-2-point-78-trillion-in-2025-driven-by-digital-and-live-experiences-ficci-ey-report). Its exhibition pages carry data credited to **UFO Moviez** (screens) and **Comscore** (admissions, multiplex vs single-screen split, ATP by format); the box-office page reproduces the Ormax-type language series.
+- **Ormax Box Office Reports 2023, 2024 and 2025 (full PDFs)**: https://www.ormaxmedia.com/data/library/TheOrmaxBoxOfficeReport-2023.pdf, …-2024.pdf, …-2025.pdf; Ormax "India Box Office Report Jan–Jun 2026" page (methodology note read); Ormax box-office tag page (checked 13-Nov-2026: **no October-2026 report yet**).
+- **PVR INOX FY26 Annual Report** (AGM 11-Sep-2026; BSE attachment https://www.bseindia.com/xml-data/corpfiling/AttachHis/929df61f-e3eb-4697-9bc2-96520da3edec.pdf): MD&A, brand-portfolio pages, risk section, standalone notes 17 (leases), 35–36 (commitments, contingent liabilities), 43 (segment), 44 (related parties), promoter-holding note.
+- **PVR INOX earnings-call transcripts:** Q4 FY26 (call 11-May-2026, filed 18-May; first-pass download, now mined), **Q1 FY27 (call 24-Jul-2026; BSE Pname ad799f1a-bb17-485a-851b-476e562722cf)**, Q3 FY26 (call 5-Feb-2026; BSE Pname 47790d37-6880-4908-860b-9b20dc78e149); Q2 FY27 (28-Oct-2026) re-checked.
+- **PVR INOX Q3 FY26 investor presentation** (BSE Pname 2285cb7a-1445-4dbf-8aca-e7ad3d46db12) — closes the Q3 FY26 KPI gap.
+- **BSE announcements:** India Ratings rating letter and rationale, 13-Nov-2026 (Pname baf7f998-d96b-4205-91d6-3b3b624c5c9e); Ajay Bijli SAST Reg 31(2) pledge-release disclosure, 3-Nov-2026 (Pname 8A020A52_79D7_49E5_A1C8_CA010D96901C_164230); Jaipur opening, 4-Nov-2026 (Pname 26c8851d-6566-4ae1-8fc4-743ff3597026).
+- **CBIC Notification No. 15/2025–Central Tax (Rate), 17-Sep-2025** (copy at https://gstgyaan.com/pdf/notification-no-15-2025-central-tax-rate.pdf).
+- **SEC:** Cinemark Q3-2026 8-K Ex-99.1 (https://www.sec.gov/Archives/edgar/data/0001385280/000119312526444332/cnk-ex99_1.htm); IMAX Q3-2026 8-K (https://www.sec.gov/Archives/edgar/data/0000921582/000162828026070630/imax-q32026epr.htm); SEC XBRL company-concept API for AMC, Cinemark and IMAX share counts, cash, debt and operating-lease liabilities. AMC's Q3-2026 8-K was fetched in the first pass.
+- **screener.in** consolidated pages for PVRINOX (re-checked 13-Nov-2026; unchanged) and MUKTAARTS; closing prices for CNK, AMC, IMAX and CJ CGV (079160.KS) on 13-Nov-2026 from Yahoo Finance's public chart endpoint.
+- Secondary/snippet only ([V-snip]): LiveLaw / The South First / THR India (Karnataka cap), IANS (Tamil Nadu LBET), Onmanorama (Kerala), The Week / Sacnilk (Jailer 2), medianews4u (Cinépolis), Taxscan / StudyCafe (F&B circular), LiveLaw / Storyboard18 (CCI VPF probe), HSBC via press (OTT subscribers).
+
+**Count of web calls this pass: ~55** (within the 60–75 budget).
+
+---
+
+## 4.0 Supersedes — corrections to Parts 1–3 (the writer must apply these)
+
+| # | Where in Parts 1–3 | Old value / claim | New value / claim | Source (fetched this pass unless noted) |
+|---|---|---|---|---|
+| S1 | §0, §2.1, §D cell 2, §E-2 | 2019 footfalls "146 Cr (MAI-EY)… Ormax ~103 [K] — **conflict**"; chain "146 Cr (2019) → 94.3 Cr (2023) → 88.3 → 83.2" | **Two different series — never chain them.** **Ormax (own estimates): 2019 103.0 Cr** → 2022 89.2 → 2023 94.3 → 2024 88.3 → 2025 83.2 Cr (2025 is **−19% vs 2019**). **EY/Comscore series:** 2019 ~1.46 bn ("146 Cr", MAI-EY) → 2022 994 mn → 2023 900 → 2024 857 → **2025 868 mn (+1.4%)**. The MAI-EY "−41% 2019→2024" (1.46 bn → 0.86 bn) is the Comscore/EY series. In the stat strip use Ormax "83.2 Cr (2019: 103 Cr)" | Ormax 2023/2024/2025 PDFs; FICCI-EY 2026 p.~117 (Comscore) |
+| S2 | §2.1 table | 2022 footfalls "~89 [K]"; ATP 2019 "~75–106 [E]", 2022 "~119 [E]", 2023 "~130 [E]" | Footfalls 2022 **89.2 Cr**; ATP **2015 ₹92, 2016 96, 2017 95, 2018 104, 2019 106, 2020 91, 2021 87, 2022 119, 2023 130, 2024 134, 2025 161**; footfalls 2015 90.3, 2016 90.1, 2017 101.0, 2018 94.5, 2020 22.5, 2021 42.7 Cr | Ormax 2024 & 2025 PDFs |
+| S3 | §0, §2.1, §D cell 2 | Footfalls "fell 6% in 2025" presented as the industry fact | **Direction is source-dependent:** Ormax −6% (88.3 → 83.2 Cr); **FICCI-EY/Comscore +1.4% (857 → 868 mn)**. Say "Ormax estimates footfalls fell 6%; Comscore (FICCI-EY) shows a 1% rise". Prefer Ormax for the time series; flag the conflict | Ormax 2025; FICCI-EY 2026 |
+| S4 | §0, §4.1, §D cell 4, Part 3 §3.6-2 | "FICCI-EY 2026: 2025 screens +1% (240 added, 124 shut), ~10,033 [V-snip]" | **[V] primary:** 10,033 screens (+1%; UFO Moviez data); 240 added, 124 shut (mainly single screens); South −1%, rest of India +3%. **Internal inconsistency inside FICCI-EY:** the exec-summary chart shows South 4,520 → 4,465 and rest 5,407 → 5,568, but the trend page (also UFO data) shows **2023 9,742 (South 4,573 / rest 5,169), 2024 9,927 (4,544 / 5,383), 2025 10,033 (4,488 / 5,545)** and says "**106 screens were added**" (vs 240 − 124 = 116). Use 10,033 total; cite "~110 net added" | FICCI-EY 2026 pp.105–107, 116 |
+| S5 | §4.1, §H-1, Part 3 §3.6-3 | "Multiplex vs single-screen: no primary split… ~4,200 multiplex screens [V-snip]" | **Comscore (FICCI-EY 2026), 2025: multiplexes = 31% of admissions (273 mn) but 51% of gross box office; single screens = 69% (595 mn) and 49%.** ATP **multiplex ₹215 (2024) → ₹251 (2025); single screen ₹103 → ₹110; average ₹139 → ₹150**; multiplex price = 2.3× single screen. A screen-count split is still not published; ~4,500 multiplex screens is implied by management's "nearly 40% of multiplex screens" [E] | FICCI-EY 2026 p.~117; Q4 FY26 call |
+| S6 | §2.3 | Filmed entertainment 2025 "~₹20,500 Cr, +14% [V-snip]"; "₹21,000 Cr (THR)" | **₹205 bn (+9%) [V]**: domestic theatrical ₹130 bn, overseas theatrical ₹25 bn, digital/OTT rights ₹29 bn (−8%), broadcast rights ₹12 bn (−10%), in-cinema ads ₹9.3 bn (+3%). 2024 ₹187 bn; 2023 ₹197 bn; 2022 ₹172 bn; **2026E ₹224 bn; 2028E ₹253 bn (7% CAGR)**. "+14%" was domestic GBO, not the segment | FICCI-EY 2026 pp.105–110 |
+| S7 | §2.2, §E-3/E-4 | CY2023 Hindi share "~44% [E]"; CY2025 Hindi share "~41% [E]"; 2024 split "[V-snip]"; "South four = 44%" with no per-language split | **[V] Ormax language table (₹ Cr, 2022/23/24/25):** Hindi 3,513 / 5,380 / 4,679 / 5,504; Telugu 2,145 / 2,265 / 2,348 / 2,377; Tamil 1,724 / 1,961 / 1,829 / 1,805; International 1,230 / 1,139 / 941 / 1,403; Malayalam 633 / 572 / 1,165 / 1,164; Kannada 810 / 312 / 304 / 528; Gujarati 56 / 50 / 84 / 242; Marathi 268 / 201 / 177 / 96; Punjabi 147 / 235 / 203 / 116; Bengali 77 / 66 / 68 / 80. **Shares 2025: Hindi 41, Telugu 18, Tamil 13, International 10, Malayalam 9, Kannada 4, others 5** | Ormax 2023/2024/2025 PDFs |
+| S8 | §READ THIS FIRST trap 3, §H-4, Part 3 §3.6-18 | PVR Jan–Jun 2026 ₹6,665 Cr (+20%) vs Ormax ₹6,398 Cr (+10%) — unexplained | **Method difference, not error.** Ormax **credits each film's lifetime gross to its release month** (e.g., all of Kalki 2898 AD to Jun-2024) and estimates the remainder for films still running. PVR's series ("Ormax + company estimates") is **in-period collections** by fiscal quarter. Implied PVR-basis quarters: Q4 FY25 ₹2,933 Cr, Q4 FY26 ₹3,490 Cr, Q3 FY26 ₹3,788 Cr; on PVR's basis CY2025 sums to ~₹12,962 Cr vs Ormax ₹13,395 Cr [E arithmetic]. **Rule: Ormax for calendar-year industry size; PVR series only for PVR share** | Ormax H1-2026 methodology note; PVR Q1 FY27/Q2 FY27/Q4 FY26 PPTs |
+| S9 | §7 GST row; §H-6; Part 3 §3.4 | Ticket GST via Storyboard18; in-cinema F&B 5% "[K] — verify the CBIC circular" | **Tickets:** CBIC Notification **15/2025-CT(Rate), 17-Sep-2025, w.e.f. 22-Sep-2025**: S.No. 34 (Heading 9996) item (ii) — admission to cinematograph films with ticket ≤ ₹100 — CGST "2.5" (5% with SGST, from 12%); >₹100 unchanged at 18% [V]. MAI had asked for 5% up to ₹300; not accepted [V FICCI-EY]. **F&B:** CBIC **Circular 201/13/2023-GST, 1-Aug-2023** (50th Council, 11-Jul-2023): F&B supplied independently of the screening = restaurant service at 5% (no ITC); if bundled with the ticket as a composite supply, the cinema rate applies [V-snip, two sources] | CBIC notification copy; FICCI-EY 2026 p.109 |
+| S10 | §7 LBET row; §H-7 | Tamil Nadu "halved to 4% (date not confirmed)"; Kerala "8.5% [K]" | **Tamil Nadu LBET cut from 8% to 4%, ordered ~30/31-May-2025** (IANS; SIFCC thanked the CM on 3-Jun-2025; some reports say Tamil films only and cite 8.6% as the earlier rate) [V-snip]. **Kerala:** LBET was scrapped with GST in 2017 and re-introduced in the 2019 state budget at up to 10%; waived Jan–Mar 2021; in **Jan-2026 film bodies called off a strike after the government promised to address LBET removal** [V-snip Onmanorama]. **Drop the "8.5%" figure** (not confirmed) | IANS/Lokmat; Onmanorama 20-Jan-2026 |
+| S11 | §7 price-cap row; §12; §H-8 | Karnataka: "arguments heard Jul-2026… ruling reportedly reserved" | Add: Karnataka notification **12-Sep-2025** (₹200 cap excl. taxes; premium multi-screen halls ≤75 seats exempt) → single judge (Justice Ravi V. Hosmani) **interim stay 23-Sep-2025** → division bench kept the stay but imposed record-keeping/refund conditions → **Supreme Court (Justices Vikram Nath and Sandeep Mehta), 3/4-Nov-2025, issued notice on MAI's appeal and stayed the HC direction to keep auditable ticket records** (with the bench's "₹100 for water, ₹700 for coffee… halls will be empty" remarks) → merits argued before **Justice M.G.S. Kamal on 7-Jul-2026**, judgment reserved. **No final judgment found as of 13-Nov-2026; no cap in force** (PVR CFO, Feb-2026 call: "there is currently no cap implemented in Karnataka") [V-snip LiveLaw; V transcript] | LiveLaw 308663/308719; Q3 FY26 transcript |
+| S12 | §0, §4.1, §5, Part 3 grid | Cinépolis India "~489–491 screens, 41 cities" | **496 screens in 57 cities** (Oct-2026, Cinépolis–Saga Studios release) [V-snip] | medianews4u, ~22-Oct-2026 |
+| S13 | §4.1, Part 3 grid | Miraj "~200+ [K]"; Mukta A2 "~100 [K]"; Mukta Arts listing "verify" | Miraj **~144 screens / 50 locations / 14 states** (undated Wikipedia; low confidence) [V-snip]. **Mukta Arts is listed (screener puts it in the same screener industry "Film Production, Distribution & Exhibition")**: m-cap **₹119 Cr**, price ₹52.8, book value **−₹29.1/share**; consolidated sales FY24 ₹195 Cr, FY25 ₹167 Cr, **FY26 ₹174 Cr**; OP FY26 ₹10 Cr (6%); PAT FY26 −₹12 Cr; borrowings ₹131 Cr (Sep-26); promoters 70.71% [V screener]. Its screen count was not found | screener MUKTAARTS |
+| S14 | §2.3 table, §E-7, §H-17, Part 3 §3.6-14 | Q3 FY26 KPIs derived: admits ~40.6, ATP ~295, SPH ~147, income ~₹1,877.9 Cr, EBITDA ~₹347.3 Cr | **Reported (Q3 FY26 PPT): admits 40.5 mn, occupancy 28.5%, ATP ₹293, SPH ₹146; pre-Ind-AS total income ₹1,907.7 Cr, EBITDA ₹343.5 Cr (18.0%), PAT ₹114.9 Cr** (as first published, incl. Zea Maize); labour-code exceptional −₹44.6 Cr; 1,791 screens / 112 cities; PVR GBOC ₹1,192 Cr (+14%) | Q3 FY26 PPT |
+| S15 | §E-14, §H-13, Part 3 §3.6-13 | Premium formats (label mapping [E]): LUXE 159, 4DX 37, IMAX 26, P[XL] 24, Playhouse 22, Director's Cut 8, Dolby 4, ScreenX 4, LED 2 = 286 | **FY26 AR brand pages (as of 20-Jul-2026), screens / ATP / occupancy:** LUXE + INSIGNIA **156 / ₹808 / 32.0%**; IMAX **26 / ₹516 / 27.7%**; 4DX + MX4D **37 / ₹462 / 34.3%**; P[XL] + BIGPIX **26 / ₹312 / 31.0%**; Playhouse + Kiddles **22 / ₹274 / 30.9%**; Club + Sapphire **8 / ₹303 / 34.2%**; ScreenX **4 / ₹384 / 23.7%**; Onyx LED **2 / ₹376 / 27.9%** → 281 listed; Director's Cut and ICE are named but not counted; "special formats ~16%". There is **no separate "Dolby" line**; the "8" is Club/Sapphire, not Director's Cut | FY26 AR pp.24–27 |
+| S16 | §H-14, Part 3 §3.6 | JV identity unknown ("share in net loss of JV") | **Devyani PVR INOX Pvt Ltd** — 51% Devyani International / **49% PVR INOX**; designs and runs food courts; PVR invested ₹1.70 Cr in FY26; JV loss ₹1.0 Cr; "3 opened, many more in pipeline" (Q1 FY27 call) | FY26 AR note 44 & AOC-1; Q1 FY27 transcript |
+| S17 | §H-15, Part 2 ownership, primer | Bijli family stake "~6%" (unverified) | Promoter group 27.53% at Mar-26 (27,034,066 shares): **GFL Ltd 16.13%**, **Ajay Bijli 5.55%**, **Sanjeev Kumar 4.19%**, Selena Bijli 0.35%, Niharika Bijli 0.19%, Siddharth Jain 0.47%, Pavan Kumar Jain 0.31%, Nayantara Jain 0.18%, INOX Infrastructure 0.15%, ATC Logistical 0.01%. → **Bijli family ≈10.3%; INOX/Jain group ≈17.3%.** At 3-Nov-2026 Ajay Bijli held 53,51,298 shares (**5.57%** of post-buyback capital) vs 54,47,205 at Mar-26 → ~95,900 shares tendered/sold [E]. The brief's "Shroff family" is an error: Pallavi Shardul Shroff was an **independent director until 21-Oct-2024**, not a promoter | FY26 AR; SAST 3-Nov-2026 |
+| S18 | §H-16 | SAST Reg 31 (3-Nov-2026) "possibly encumbrance" — not read | **Release of pledge** by Ajay Bijli on 2-Nov-2026: 1,84,300 shares (HSBC InvestDirect) + 6,37,800 (Infina Finance), for personal borrowing. Pledged shares fall from 29,44,444 (3.06% of capital) to ~21,22,344 (~2.2%) [E arithmetic]. **About 40% of Ajay Bijli's personal holding is still pledged** — a governance watch item | SAST 3-Nov-2026 |
+| S19 | §0, §12, Part 2 §2.5 guidance | FY27 guidance shown only as Oct-2026 values (90–100 screens; capex ₹300–330 Cr) | **Guidance drift (all [V] transcripts):** FY27 openings **~150 (5-Feb-2026) → "about 120" visible (11-May) → 90–100 gross, ~80 net (24-Jul) → 90–100 (28-Oct)**. FY27 capex **₹350–400 Cr (Feb) → ₹375–400 Cr (May; ₹225–250 Cr new projects + ₹80–100 Cr renovation + maintenance/IT) → ~₹350 Cr (Jul) → ₹300–330 Cr (Oct)**. SMART screens FY27 **28–30 screens (May) → 2–3 more cinemas (Oct)**; SMART capex discount **30–40% (May) → 25–30% (Oct)**. Capital-light share of FY27 openings **55–60% (May) → ~85% (Oct)** | Q3 FY26, Q4 FY26, Q1 FY27, Q2 FY27 transcripts |
+| S20 | §0 valuation, §10, Part 3 grid, Part 3 §3.6-11 | US exhibitors "~6–9× EV/EBITDA [K — FLAG, not fetched]" | **Cinemark ≈7.8× EV / TTM adj. EBITDA** (price $40.79; ~118 mn diluted shares; LT debt $1,876.4m; cash $555.5m; TTM adj. EBITDA $781.8m); **AMC ≈6.3× EV / annualised 9M-2026 adj. EBITDA** (892.6 mn shares × $3.25; corporate borrowings $3,747m; cash $752m; YTD adj. EBITDA $707.2m ×4/3) [E from V inputs]. PVR INOX 12.8× on the comparable (rent-deducted) basis → **~1.6–2.0× the US multiples** | SEC 8-Ks/XBRL; Yahoo prices 13-Nov-2026 |
+| S21 | §9.1, §10, Part 3 grid | Cinemark Q3-26 "attendance 64m, ~5,700 screens [K], concession $6.50 [V-snip]" | **[V]: attendance 63.7m (US 37.4m / intl 26.3m); 496 theatres / 5,618 screens (US 301 / 4,211; intl 195 / 1,407 in 13 countries); ATP $8.33 (US $11.16); concession per patron $6.50 (US $8.66); revenue $1,059.1m; adj. EBITDA $267.6m (25.3%); LT debt $1,876.4m; cash $555.5m.** US SPH/ATP = 78% (8.66/11.16) | Cinemark 8-K |
+| S22 | Part 3 §3.6-17, §10 | "US EBITDA is struck after rent [K] — confirm" | **Confirmed [V]:** Cinemark's adjusted EBITDA starts from net income, adds back interest, tax and D&A, and **does not add back facility lease expense ($90.4m in Q3-26)**; it only removes the non-cash straight-line rent component ($2.7m). US adjusted EBITDA is therefore comparable with PVR's **pre-Ind-AS** EBITDA | Cinemark 8-K reconciliation |
+| S23 | §10, Part 3 grid | IMAX "~1,800 systems [K]"; "~26 IMAX screens at PVR INOX [V/E]" | **IMAX network 1,887 systems (1,820 commercial multiplex) at 30-Sep-2026; backlog 409; Q3 revenue $174.6m (+64%); adj. EBITDA $120.9m (69.3%); IMAX box office $712m (record; The Odyssey $538m)**. PVR INOX IMAX screens **26** (AR, Jul-2026) + 1 (Jaipur, 4-Nov-2026) = **27** [V] | IMAX 8-K; PVR AR; BSE 4-Nov |
+| S24 | §10, Part 3 grid, §H-10 | OTT: "JioHotstar ~300 mn paid at IPL-2025 peak [K]; Netflix India ~10–12 mn [K]" | **FICCI-EY [V]: 216 mn paid video OTT subscriptions in 143 mn households (year-end 2025, excluding event spikes); JioHotstar peaked at >280 mn subscribers during IPL-2025** (company claim); digital subscription revenue ₹148–163 bn (the report gives both figures in different places). HSBC estimates (Jan-2026, via press): JioHotstar ~300 mn, **Prime Video ~65 mn, Netflix ~20 mn** [V-snip]; Netflix and Amazon do not disclose India counts | FICCI-EY 2026 pp.~40–45 |
+| S25 | §8, §G-14, Part 3 §3.6-16 | Merger "effective 6-Feb-2023 [K]"; primer "March 2023" | Ind-Ra rationale: scheme **approved by NCLT in Feb-2023; name changed to PVR INOX Ltd effective 20-Apr-2023** [V]. Keep 6-Feb-2023 as the effective date [K]; the primer's "completed March 2023" should read "effective Feb-2023 (renamed Apr-2023)" | Ind-Ra 13-Nov-2026 |
+| S26 | READ THIS FIRST trap 10 | Analyst's "1,890 screens declared Q4 FY23" = slip; Mar-23 ~1,689 [K] | **CFO (Q1 FY27 call): "We were about 1,650 screens [at the merger], and we are at about 1,790 screens today… net ~120 over four years."** Use ~1,650 at merger | Q1 FY27 transcript |
+| S27 | §0 bullet "PVR INOX is the industry's price-setter" | PVR ~31% of GBOC [E]; no management claim cited | **Management claim (Q4 FY26 call): "nearly 40% of the country's multiplex screens… 31% of India's box office."** Our quarterly computation gives 28–33% (4.2-F). With Comscore's 51% multiplex share of GBO, PVR ≈ **61% of multiplex GBO** [E] | Q4 FY26 transcript; FICCI-EY |
+| S28 | §1.3 / §6 FOCO row | FOCO economics "only a management fee" (size not given) | **FOCO management fee = 10–14% of the cinema's top line; FY26 management income ~₹10 Cr, run-rate ₹13–14 Cr, growing 40–50%; no capex, no opex** (CFO, 11-May-2026). Asset-light: developer funds 40–80% of capex and earns a yield paid as rent; PVR capitalises its share as ROU/lease liability (CFO); Ind-Ra describes PVR's share as 20–60% | Q4 FY26 transcript; Ind-Ra |
+| S29 | §9.1 premium share; Part 3 primer issues | Hollywood share of PVR not quantified | **PVR's share of Hollywood GBOC ≈60% overall; ~50% for big films; 80–90% for mid/small films** (Kamal Gianchandani, Q1 FY27 call) | Q1 FY27 transcript |
+| S30 | §11-5, §12 | Risks list omits competition-law exposure | **CCI prima facie order (30-Sep-2025) directing a DG probe of PVR INOX's Virtual Print Fee (VPF) charges** on a Producers Guild complaint (alleged discrimination: ~70% of Hollywood releases exempt while Indian producers billed); PVR INOX has offered Section 48B commitments; CFO (Feb-2026): "process ongoing… sub judice". Penalty ceiling 10% of average turnover [V-snip LiveLaw/Storyboard18; V transcript]. VPF income was ₹14.5 Cr in Q4 FY26 | LiveLaw 305727; Q3 FY26 transcript |
+| S31 | §3 demand drivers; §11 | No unique-visitor evidence | Management (Feb-2026): **unique visitors grew in CY2025 vs CY2024 and vs CY2023**, driven by the **"Blockbuster Tuesday"** promotion (not quantified) [V transcript] | Q3 FY26 transcript |
+| S32 | Part 3 §3.3 ("Q1/Q2 FY27 not covered"); §2.9 | Q1 FY27 concall "if available" | Q1 FY27 transcript is available and mined (4.2-B) | BSE |
+| S33 | §2.9 / §0 | Company screen count only at Mar-26 and Sep-26 | **1,802 screens / 359 properties / 114 cities after the Jaipur opening (4-Nov-2026)**. The FY26 AR MD&A quotes **1,782 screens / 355 properties / 113 cities** (dated as of report finalisation, ~Jul-2026) — do not mix with the Mar-26 count of 1,798 / 359. Ind-Ra: 1,797 screens / **358** cinemas / ~0.36 mn seats (Sep-26) | BSE 4-Nov; AR; Ind-Ra |
+| S34 | Part 2 §2.5 / §12 credit | Only India Ratings mentioned | Also rated **CRISIL AA/Stable** (FY26 AR MD&A). Ind-Ra history: AA−/Positive (21-Aug-2023) → AA/Stable (16-May-2024, re-affirmed 14-Aug-2025) → **AA/Positive (13-Nov-2026)**; rated bank limits only ₹650 mn | AR; Ind-Ra |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+Legend: **P** = primary source (company filing/BSE, regulator, Ormax, FICCI-EY/EY, SEC). "Agrees?" compares with Parts 1–3. BSE short links follow the pattern `https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=<id>.pdf`.
+
+| # | Figure | Value | Primary source (URL) | Fetched this pass? | Agrees with Parts 1–3? | Tag |
+|---|---|---|---|---|---|---|
+| 1 | India gross box office CY2025 | ₹13,395 Cr (+13%) | Ormax 2025 PDF https://www.ormaxmedia.com/data/library/TheOrmaxBoxOfficeReport-2025.pdf | Yes | Yes. FICCI-EY cross-checks: EY analysis ₹130 bn; Comscore ₹133 bn | V-P |
+| 2 | India GBOC CY2015–2024 series | 8,315 / 8,649 / 9,630 / 9,810 / 10,948 / 2,056 / 3,772 / 10,637 / 12,226 / 11,833 Cr | Ormax 2024 & 2025 PDFs | Yes | Yes. Part 1's year-label mapping from the PVR chart was right | V-P |
+| 3 | Footfalls CY2025 (Ormax) | 83.2 Cr (−6%) | Ormax 2025 PDF | Yes | Yes, but see S3 (Comscore +1.4%) | V-P |
+| 4 | Footfalls CY2019 (Ormax) | 103.0 Cr | Ormax 2023/2024 PDFs | Yes | **No** — replaces "146 Cr" (S1) | V-P |
+| 5 | Admissions 2025 (Comscore) | 868 mn (+1.4% vs 857) | FICCI-EY 2026 PDF (URL in header) | Yes | New (conflicts in direction with #3) | V-P |
+| 6 | All-India ATP 2025 / 2024 / 2019 | ₹161 / ₹134 / ₹106 | Ormax 2025 PDF | Yes | Yes (2019 is new) | V-P |
+| 7 | Hindi GBOC 2025 / 2024 / 2023 | ₹5,504 / 4,679 / 5,380 Cr | Ormax 2023–2025 PDFs | Yes | Yes (2024 upgraded from V-snip) | V-P |
+| 8 | Language shares 2025 | Hindi 41 / Telugu 18 / Tamil 13 / Intl 10 / Malayalam 9 / Kannada 4 / other 5% | Ormax 2025 PDF | Yes | Upgrades the [E] | V-P |
+| 9 | Dubbed share of Hindi GBOC | 31% (2024) → 7% (2025) | Ormax 2025 PDF | Yes | Yes. FICCI-EY's Comscore page shows 34% → 12% (different basis) | V-P |
+| 10 | Ormax H1-2026 | ₹6,398 Cr (+10%); footfalls 37.8 Cr (36.2); Hindi 44% | Ormax Jan–Jun 2026 page https://www.ormaxmedia.com/stories/the-india-box-office-report-jan-jun-2026.html | Yes | Yes. The conflict with PVR's ₹6,665 Cr is explained by method (S8) | V-P |
+| 11 | Ormax YTD Sep-2026 | ~₹11,000 Cr (Jul ₹1,582; Aug ₹1,768; Sep >₹1,100 Cr) | Ormax tag page https://www.ormaxmedia.com/tags/box-office.html | Yes (13-Nov) | Yes; **October report still not published** | V-P |
+| 12 | India screens 2025 | 10,033 (+1%); density 6.8/mn | FICCI-EY 2026 PDF (UFO Moviez data) | Yes | Yes (upgraded from V-snip) | V-P |
+| 13 | Screens added / shut 2025 | 240 / 124 (mainly single screens) | FICCI-EY 2026 PDF | Yes | Yes. Same report's trend page says "106 added" (S4) | V-P |
+| 14 | South share of screens | 45% (4,488 of 10,033) | FICCI-EY 2026 PDF | Yes | Matches management's "45–50%" | V-P |
+| 15 | Multiplex share of admissions / GBO 2025 | 31% (273 mn) / 51% | FICCI-EY 2026 PDF (Comscore) | Yes | New (fills §H-1 partially) | V-P |
+| 16 | ATP multiplex vs single screen 2025 | ₹251 vs ₹110 (avg ₹150) | FICCI-EY 2026 PDF (Comscore) | Yes | New | V-P |
+| 17 | Filmed-entertainment segment 2025 | ₹205 bn (dom. theatrical 130; overseas 25; digital 29; broadcast 12; in-cinema ads 9.3) | FICCI-EY 2026 PDF | Yes | **No** — replaces "~₹20,500 Cr +14%" (S6) | V-P |
+| 18 | Films released in theatres 2025 | 1,972 incl. 270 dubbed (1,823 in 2024) | FICCI-EY 2026 PDF | Yes | New | V-P |
+| 19 | Direct-to-OTT film releases | 30 in 2025 (60 in 2024) of ~500 films on OTT | FICCI-EY 2026 PDF | Yes | Management's "470 theatrical vs 30 OTT" refers to the same data | V-P |
+| 20 | Paid video OTT subscriptions India | 216 mn in 143 mn households (YE-2025) | FICCI-EY 2026 PDF | Yes | **No** — replaces the [K] OTT figures (S24) | V-P |
+| 21 | GST on tickets ≤₹100 | 5% (2.5% CGST) w.e.f. 22-Sep-2025; >₹100 stays 18% | CBIC Notfn 15/2025-CT(R), 17-Sep-2025 (copy https://gstgyaan.com/pdf/notification-no-15-2025-central-tax-rate.pdf) | Yes | Yes | V-P |
+| 22 | GST on in-cinema F&B | 5% as restaurant service if sold separately (Circular 201/13/2023-GST, 1-Aug-2023) | CBIC circular via Taxscan/StudyCafe (primary not opened) | Snippet | Yes (upgrades [K]) | V-snip |
+| 23 | Karnataka ₹200 cap status | Stayed since 23-Sep-2025; SC notice 3-Nov-2025; HC verdict reserved (Jul-2026); no cap in force | LiveLaw; PVR Q3 FY26 transcript (BSE 47790d37-…) | Yes (transcript) / snippet | Extends Part 1 | V (mgmt) / V-snip |
+| 24 | PVR INOX FY26 pre-Ind-AS total income / EBITDA / margin | ₹6,742.6 Cr / ₹968.0 Cr / 14.4% | Q4 FY26 PPT (BSE 946659ab-…); Q4 FY26 transcript (f2a87633-…) | Yes (transcript this pass) | Yes | V-P |
+| 25 | PVR INOX Q2 FY27 pre-Ind-AS income / EBITDA / margin / PAT | ₹2,132.7 Cr / ₹475.2 Cr / 22.3% / ₹273.3 Cr | Q2 FY27 PPT (BSE 9f91f11b-…) | First pass (re-checked) | Yes | V-P |
+| 26 | Q3 FY26 KPIs | Admits 40.5 mn; occ. 28.5%; ATP ₹293; SPH ₹146; EBITDA ₹343.5 Cr (18.0%) | Q3 FY26 PPT (BSE 2285cb7a-…) | Yes | **No** — replaces the derived values (S14) | V-P |
+| 27 | FY26 admits / ATP / SPH / occupancy | 150.1 mn / ₹280 / ₹147 / 26.2% | Q4 FY26 PPT; Q4 FY26 transcript | Yes | Yes | V-P |
+| 28 | Screens / properties / cities | 1,797 / 358 (Ind-Ra; company 359–360) / 114 (Sep-26); 1,802 / 359 / 114 (4-Nov-26) | BSE 26c8851d-…; Ind-Ra letter baf7f998-… | Yes | Yes (Nov update new) | V-P |
+| 29 | Net cash ex-leases Sep-26 | ₹140.7 Cr (fin. debt ₹500.9 Cr; cash ₹641.6 Cr) | Q2 FY27 PPT; Ind-Ra "fin. debt INR5.0 bn; net leverage −0.1×" | Yes (Ind-Ra) | Yes | V-P |
+| 30 | Ind-Ra rating action | IND AA / Positive / IND A1+ on ₹650 mn bank loans (13-Nov-2026) | BSE baf7f998-… | Yes | Yes (rationale details new) | V-P |
+| 31 | Net debt incl. leases / EBITDAR; EBITDAR / interest | 2.2× (FY26 3.0×; FY25 4.7×); 4.0× (2.9×; 1.9×) | Ind-Ra rationale | Yes | New | V-P |
+| 32 | Premium formats (screens / ATP / occupancy) | LUXE+Insignia 156 / ₹808 / 32%; IMAX 26 / ₹516 / 27.7%; 4DX+MX4D 37 / ₹462 / 34.3% … (S15) | FY26 AR (BSE 929df61f-…) | Yes | **No** — corrects the [E] mapping | V-P |
+| 33 | Promoter holding and Bijli stake | 27.53% (Mar-26); Ajay Bijli 5.55% → 5.57% (Nov-26); GFL 16.13% | FY26 AR; SAST 3-Nov-2026 | Yes | **No** — replaces "~6%" (S17) | V-P |
+| 34 | INOX brand licence fee (RPT) | ₹19.0 Cr FY26 (₹17.5 Cr FY25), paid to Pavan Kumar Jain | FY26 AR note 44 | Yes | New | V-P |
+| 35 | Contingent liabilities (standalone) | ≈₹247 Cr, of which lessor claims ₹96.4 Cr; service tax on F&B ₹53.0 Cr; GST rate/ITC ₹41.6 Cr | FY26 AR note 36 | Yes | New | V-P |
+| 36 | FOCO management fee | 10–14% of cinema top line; ~₹10 Cr FY26; run-rate ₹13–14 Cr | Q4 FY26 transcript | Yes | New | V-P |
+| 37 | FY27 guidance (latest) | 90–100 gross openings (~80 net); capex ₹300–330 Cr; FY28+ 150–175 screens/yr | Q2 FY27 transcript (6017050a-…); Q1 FY27 transcript | Yes | Yes; history in S19 | V-P |
+| 38 | Cinemark Q3-26 | Rev $1,059.1m; adj. EBITDA $267.6m (25.3%); attendance 63.7m; 5,618 screens | SEC cnk-ex99_1 (URL in header) | Yes | Partly — attendance/screens corrected (S21) | V-P |
+| 39 | AMC Q3-26 | Rev $1,711.1m; adj. EBITDA $347.5m; 9,472 screens; shares 892.6 mn; op-lease liability $3,761.9m | SEC 8-K (first pass); SEC XBRL (this pass) | Yes | Yes (share count and leases new) | V-P |
+| 40 | IMAX Q3-26 | Rev $174.6m; adj. EBITDA $120.9m (69.3%); 1,887 systems; IMAX box office $712m | SEC imax-q32026epr.htm | Yes | **No** — replaces "~1,800 [K]" (S23) | V-P |
+
+**Score: 38 of 40 are [V] from primary sources** (company filings/BSE, CBIC, Ormax, FICCI-EY/EY, SEC). #23 is half-primary (management transcript) and half-snippet (court reports); #22 rests on two secondary tax-portal reports of the CBIC circular. Two-source checks: #1 (Ormax ₹13,395 Cr vs FICCI-EY ₹130 bn EY / ₹133 bn Comscore — consistent, Ormax is the more granular), #12 (FICCI-EY 10,033 vs management "~10,500" — **prefer FICCI-EY/UFO**, since management rounds up and may include non-DCI screens), #3/#5 (Ormax vs Comscore footfall direction — **neither is "wrong"**: Ormax builds footfalls from its own film-level gross ÷ ATP model, while Comscore uses ticketing-panel data that is weaker for manual-ticket single screens. Keep Ormax for the long series and flag Comscore). #24/#29 confirmed by Ind-Ra's independent figures (FY26 revenue INR66.5 bn, EBITDAR INR20.9 bn, financial debt INR7.6 bn → INR5.0 bn).
+
+## 4.2 Per company — PVR INOX Limited (NSE PVRINOX · BSE 532689 · `primers/pvr-inox.html`)
+
+### 4.2-A Management-commentary digest — Q2 FY27 call (28-Oct-2026; transcript filed 3-Nov-2026) [V]
+Paraphrased; not quotes unless marked.
+1. **Industry:** Industry GBOC ₹4,443 Cr in Q2 (deck; spoken as "₹4,433 Cr") — the first ₹4,000 Cr quarter, +23%, after +20% in Q1. H1 FY27 ₹7,618 Cr (+22%). English +87% to ₹1,024 Cr, the first ₹1,000 Cr English quarter. Spider-Man: Brand New Day ₹608 Cr, of which ~35% (~₹200 Cr) came from the Hindi dub.
+2. **Why PVR lagged the industry (18% vs 23%):** the mass hits (Hanuman Ansh, made on a ~₹2–2.5 Cr budget; Mirzapur: The Movie; regional films) over-indexed to tier-2/4 towns where single screens dominate. Analyst arithmetic: of ~₹1,400 Cr incremental industry H1 GBOC, only ~₹110 Cr was original Hindi and ~₹150 Cr dubbed Hindi.
+3. **Margins:** Q2 pre-Ind-AS EBITDA 22.3% and H1 18.7%, vs 17–18% pre-COVID achieved "at higher occupancy". ROCE 16.5% TTM vs a ~13% pre-COVID benchmark.
+4. **Cash:** H1 FCF ₹604 Cr; ₹259 Cr debt repaid; ₹300 Cr maiden buyback; net cash ₹141 Cr at Sep-26 (₹81 Cr in Jun).
+5. **Capital-allocation policy:** ND / LTM EBITDA ≤0.5× after distributions; ~30% of surplus cash returned.
+6. **Screens:** 90–100 openings in FY27, bulk in H2. FY28+ "150, 175… could be even more"; "~500 over 3 years" confirmed.
+7. **SMART format:** capex 25–30% below a normal screen; opex ~25% below a metro cinema; ATP ~₹190; ~100 screens signed for the next 12–18 months; 300 cities identified.
+8. **Capex:** FY27 ₹300–330 Cr (H1 ₹132 Cr); FY28 ">₹350 Cr, plus/minus".
+9. **Depreciation:** projector life moved from 10 to 15 years → ₹35–40 Cr a year lower depreciation.
+10. **Rent:** "no fixed percentage" — each property is MG or revenue share, whichever is higher. Rent as % of revenue fell in Q2 even though rent rose ~11%.
+11. **F&B:**
+    - Gross margin rose from ~74% to 77–78%.
+    - SPH growth was 40% volume, 60% value.
+    - SPH "about 60% of the ATP"; management claims parity in the West. AMC's and Cinemark's own data contradict this (see 4.5-3).
+    - Popcorn + Pepsi = 60% of F&B sales.
+    - Strike rate ~85%.
+12. **Market structure (Kamal Gianchandani):** India "~10,500 screens"; South "45%, could be as high as 50%"; "still 50% of screens are single screens". 35–40% of PVR's new screens each year go to the South. South ATP is ~25% lower than the rest of India, and lowest in Tamil Nadu.
+13. **One-off:** other income includes ~₹7 Cr one-off (tax-refund interest).
+
+### 4.2-B Digest — Q1 FY27 call (24-Jul-2026) [V, new this pass]
+1. **Openings:** zero new screens in Q1 because "screens which had completed fit-out were awaiting regulatory licence". FY27 = **90–100 gross openings, ~80 net**. The bulk of closures were done in Q1; "very few closures for the rest of the year".
+2. **Capex** trimmed to **~₹350 Cr** (from ~₹400 Cr) as capital-light/FOCO uptake rose; this figure includes the food-court JV, which is not material. Renovation share is higher this year.
+3. **Five-year ambition:** Bijli (in a press interview, confirmed on the call) — **~1,000 new screens in 5 years**, targeting ~300 under-served tier-2/3 cities with populations of 150,000 or more. Developers there prefer FOCO/asset-light deals.
+4. **Pricing:**
+   - SPH +9%, split **~70% value / 30% volume** (selective price hikes plus promotions to raise the strike rate).
+   - ATP is driven by AI-assisted dynamic pricing: discounts on Tuesdays, mornings and front rows; surge pricing on weekends and for fresh releases. Premium screens are ~16% of the circuit.
+5. **Advertising:** rebuilt "from 0 to ₹500 Cr in the last 4 years"; "another maybe a year" before it exceeds the pre-COVID level. A shift to eyeball-based selling is under way. **Web/app ad inventory launched Jun-2026; ₹2–3 Cr annualised.** (In Feb-2026 an analyst cited a pre-COVID quarterly ad run-rate of ~₹146 Cr vs ~₹110–130 Cr now.)
+6. **FHC and COGS:** Q1 FHC was ~200 bp lower because Dhurandhar: The Revenge played its third and fourth weeks at lower terms and no mega-film triggered bonus payouts. **Full-year FHC guided at 45–45.5%.** F&B COGS to be lower than in FY26.
+7. **Alternate content:** FIFA World Cup 2026 final screened to **64,000 viewers at ~₹380–400 ATP**, after midnight. The revenue share paid to artists for alternate content is 35–70% of the ticket.
+8. **Hollywood share:** **~60% overall, ~50% for big films, 80–90% for mid/small films.**
+9. **Capital-light vintages:** properties take 12–18 months to mature; the FY24/FY25 vintages run at "better than company-level margins".
+10. **Space and JV:** 15 mn sq ft under lease; sub-leasing excess space. Devyani food-court JV: 3 outlets open, more in the pipeline.
+11. **Admits ceiling:** pre-COVID combined admits ~160 mn vs 150 mn in FY26. Management says pre-COVID margins are achievable at **27–28% occupancy**.
+12. **Online:** penetration 63–64% → 68–69%; convenience fees +29%; diminishing returns from here.
+13. **Returns:** no FCF target; "the immediate target… is to come back to the pre-COVID levels of ROCE".
+
+### 4.2-C Digest — Q4 FY26 call (11-May-2026) [V, mined this pass]
+1. **Positioning:** "nearly 40% of the country's multiplex screens and… 31% of India's box office". India GBOC 10-year CAGR 7–8%.
+2. **FY27 at the time:** "about 120-odd screens visibility"; capital-light 55–60% of openings. Capex ₹375–400 Cr = ₹225–250 Cr new projects + ₹80–100 Cr renovation + maintenance/IT. Pipeline of 138 capital-light screens (52 FOCO + 86 asset-light) to be executed over 18 months.
+3. **FY26 capital-light:** 51 screens = 29 asset-light + 22 FOCO, so ~42 were conventional lease. FOCO screens are not capitalised; asset-light screens are capitalised net of the developer's contribution.
+4. **FOCO economics:** management fee 10–14% of the cinema's revenue; FY26 fee income ~₹10 Cr, run-rate ₹13–14 Cr, growing 40–50%. Zero capex, zero opex.
+5. **SMART:** 2 pilots by mid-July; **28–30 SMART screens in FY27**; per-screen capex "at least 30–40% lower" than a mainstream cinema in the same town.
+6. **Debt:** gross debt ~₹760 Cr at Mar-26, target ~₹500 Cr (achieved Sep-26: ₹501 Cr). Net-zero "on the horizon" (achieved Jun-26).
+7. **Occupancy:** FY26 26.2%. Pre-COVID EBITDA margins are reachable at 27–28%; at 31–32% margins would beat pre-COVID because of post-merger cost cuts.
+8. **OTT:** Bijli cites EY: "calendar 2022, 217 movies first came to theatres and 105 came to OTT… this year 470 theatrical and only 30 OTT". FICCI-EY's own chart shows 440 → 470 theatre-first and 60 → 30 direct-to-OTT for 2024 → 2025; the 2022 figures are Bijli's.
+9. **Macro (May-2026):** PM's austerity appeal during the West Asia crisis; management saw "no direct impact". IPL has "no impact" on cinema-going.
+10. **Buyback:** asked for by an investor (Fort Capital) in May; delivered in Sep-2026 (₹300 Cr).
+
+### 4.2-D Digest — Q3 FY26 call (5-Feb-2026) [V, new]
+1. **FY27 at the time:** "about 150-odd screens" planned; capex ₹350–400 Cr all-in. Pipeline at Dec-25: 149 capital-light screens (54 FOCO + 95 asset-light), vs 138 at Mar-26 after openings.
+2. **4700BC:** sold in ~50 properties; revenue only ~₹13 Cr (<1% of ~₹1,800 Cr F&B).
+3. **CCI VPF probe:** "process with CCI is ongoing… sub judice". **Karnataka:** "no cap implemented".
+4. **Unique visitors** grew in CY2025 vs CY2024 and CY2023, helped by Blockbuster Tuesday.
+5. **Clash maths:** a big film opens at ~₹50–55 Cr net; two big films together can do ~₹110–125 Cr net (~₹135–140 Cr gross) a day all-India.
+
+### 4.2-E Concall / company KPI table (company basis, pre-Ind-AS; ₹ Cr unless stated) [V]
+
+| KPI | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | **Q2 FY27** | FY26 | Latest guidance |
+|---|---|---|---|---|---|---|---|
+| Admits (mn) | 44.5 | **40.5** | 31.0 | 36.6 | **46.3** | 150.1 | — |
+| Occupancy | 28.7% | **28.5%** | 23.9% | 25.3% | **30.4%** | 26.2% | 27–28% = pre-COVID margin |
+| ATP (₹) | 262 | **293** | 315 | 273 | **298** | 280 | "at the expected lines" |
+| SPH (₹) | 134 | **146** | 165 | 161 | **153** | 147 | COGS to fall YoY |
+| FHC % | 45.5 | n/a | n/a | 43.9 | 44.5 | 45.4 | FY27 45–45.5% |
+| F&B COGS % | 21.7 | n/a | n/a | 21.2 | 21.5 | 22.5 | lower than FY26 |
+| Online penetration | 68.6% | n/a | n/a | 68.8% | 72.0% | — | slower growth |
+| Openings / exits (screens) | 22 / — | 20 / 3 | 31 / — | 0 / ~18 | 24 (H1) / 25 (H1) | 93 / 18 | 90–100 gross, ~80 net (FY27) |
+| Period-end screens | 1,757 | 1,791 | 1,798 | 1,779 | 1,797 | 1,798 | 1,802 at 4-Nov-26 |
+| Capex | — | — | — | — | H1 132.3 | 254.2 | FY27 300–330; FY28 >350 |
+| Net debt / (cash) ex-leases | — | 365 | 162 | (81) | (141) | 162 | ND/EBITDA ≤0.5× |
+
+### 4.2-F Eight-quarter trend (screener Ind AS P&L + company KPIs + PVR share of industry GBOC) [V; share columns E]
+
+| Quarter | Screener sales | Screener OP | OPM | Screener PAT | Co. pre-Ind-AS EBITDA (margin) | Admits mn | ATP ₹ | PVR GBOC = admits×ATP | Industry GBOC (PVR series) | **PVR share** |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Q3 FY25 (Dec-24) | 1,717 | 528 | 31% | 36 | 258.3 (14.9%) | 37.3 | 281 | 1,047 (co.) | n/a | n/a |
+| Q4 FY25 (Mar-25) | 1,230 | 289 | 24% | −125 | 28.9 (2.3%) | 30.5 | 258 | 787 | 2,933 (implied) | 26.8% |
+| Q1 FY26 (Jun-25) | 1,450 | 404 | 28% | −54 | 121.1 (8.2%) | 34.0 | 254 | 864 | 2,637 | 32.8% |
+| Q2 FY26 (Sep-25) | 1,800 | 614 | 34% | 106 | 330.0 (18.1%) | 44.5 | 262 | 1,166 | 3,604 | 32.4% |
+| Q3 FY26 (Dec-25) | 1,850 | 625 | 34% | 95 | 343.5 (18.0%) | 40.5 | 293 | 1,192 (co.) | 3,788 (implied) | 31.5% |
+| Q4 FY26 (Mar-26) | 1,547 | 452 | 29% | 186 | 169.6 (10.7%) | 31.0 | 315 | 977 | 3,490 (implied) | 28.0% |
+| Q1 FY27 (Jun-26) | 1,622 | 528 | 33% | 56 | 229.6 (14.0%) | 36.6 | 273 | 999 | 3,175 | 31.5% |
+| **Q2 FY27 (Sep-26)** | **2,105** | **769** | **37%** | **263** | **475.2 (22.3%)** | **46.3** | **298** | **1,380** | **4,443** | **31.1%** |
+
+- **FY26 share = ₹4,199 Cr ÷ ₹13,519 Cr = 31.1%** (basis: PVR gross ticket sales incl. GST, excluding FOCO screens, ÷ PVR's "Ormax + company estimates" in-period industry series). On Ormax's CY2025 total the ratio is ~31%, but the bases differ (S8).
+- **Range 27–33%:** share dips when South/mass content dominates (Q4 FY25, Q4 FY26) and peaks with Hindi/Hollywood slates (Q1–Q2 FY26).
+- **Admits share:** FY26 150.1 mn ÷ 868 mn (Comscore CY2025) = **17.3%**, or ÷ 832 mn (Ormax) = 18.0%. Versus Comscore's multiplex admits (273 mn), PVR ≈ **55% of multiplex admissions** [E; CY/FY mismatch].
+- Q3 FY25 and Q3 FY26 company figures are as first published (incl. Zea Maize); the other quarters are restated.
+
+### 4.2-G Five-year history FY22–FY26 (₹ Cr) [V screener; V company PPTs/AR]
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 |
+|---|---|---|---|---|---|
+| Screener sales (Ind AS) | 1,329 | 3,751 | 6,107 | 5,700 | 6,646 |
+| Screener OP (Ind AS, ex-OI) / OPM | 105 / 8% | 1,048 / 28% | 1,810 / 30% | 1,558 / 27% | 2,095 / 32% |
+| Screener PAT | −489 | −336 | −33 | −281 | 333 |
+| Screener ROCE | −3% | 3% | 5% | 3% | 7% |
+| Company pre-Ind-AS total income | n/a (PVR only) | n/a | 6,203.7 | 5,874.6 (orig.) / 5,791.8 (rest.) | 6,742.6 |
+| Company pre-Ind-AS EBITDA / margin | n/a | n/a | 808.7 / 13.0% | 470.3 / 8.0% (orig.); 484.8 / 8.4% (rest.) | 968.0 / 14.4% |
+| Company pre-Ind-AS EBIT | −620.5 (pro forma) | 217.7 | 338.0 | −13.3 | 499.2 |
+| Company ROCE (Ind-Ra / company definition) | −11.7% (pro forma) | 4.1% | 6.1% | −0.3% | 10.2% |
+| Ind-Ra revenue / EBITDAR (INR bn) | — | — | — | 57.0 / 15.6 (27.3%) | 66.5 / 20.9 (31.5%) |
+| Admits (mn) | n/a | n/a | 151.4 | 136.9 | 150.1 |
+| Capex | n/a | n/a | **634.4** (AR) | 333.5 | 254.2 |
+| Gross financial debt | 1,591.5 (pro forma) | 1,792.7 | 1,717.7 | 1,490.8 | 758.6 |
+| Net debt ex-leases | n/a | 1,430.4 | 1,294.0 | 952.2 | 161.9 |
+| Lease liability | 6,450.5 (pro forma) | 6,259.2 | 6,585.8 | 6,283.8 | 6,020.5 |
+| Company FCF (after rent and interest) | — | — | ~1/7 of FY26 | <½ of FY26 | 790.1 |
+| Period-end screens | — | ~1,650 (CFO; merger) | 1,718 | 1,723 | 1,798 |
+
+FY22 and FY23 are distorted: FY22 is PVR stand-alone during COVID; FY23 includes INOX only from Feb-2023. **FY24 capex of ₹634 Cr** (new from the AR) shows how sharply capex intensity has fallen: ₹634 → 334 → 254 Cr while openings went 77 (FY25) → 93 (FY26).
+
+### 4.2-H Annual-report findings (FY26 AR, standalone notes unless stated) [V]
+1. **Single segment.** The CODM is the MD. There is no segment split, so PVR INOX Pictures (distribution) is not shown separately. The MD&A gives Pictures' FY26 revenue at ~₹370.5 Cr and EBITDA at ₹29.9 Cr. Revenue here is the gross distributor figure; the consolidated "film distribution income" of ₹222.4 Cr is net of intra-group eliminations [E].
+2. **Related-party transactions.**
+   - **INOX brand licence fee ₹19.0 Cr (FY25 ₹17.5 Cr), paid to Pavan Kumar Jain** (promoter, non-executive Chairman). It is a recurring royalty for the "INOX" brand, about 2% of pre-Ind-AS EBITDA and up 8.6% YoY.
+   - **Rent ₹4.7 Cr to Bijli Realty Pvt Ltd** (Bijli-family entity).
+   - **MD remuneration ₹25.5 Cr** (FY25 ₹23.5 Cr); **ED Sanjeev Kumar ₹13.7 Cr** (₹12.7 Cr). Together ≈ 4% of FY26 pre-Ind-AS EBITDA.
+   - Professional fees of ₹0.3 Cr to Aamer Bijli (MD's son).
+   - Intra-group: FHC to PVR INOX Pictures ₹141.5 Cr; VPF income from Pictures ₹6.7 Cr.
+   - "No materially significant RPT" (CG report).
+3. **JV:** Devyani PVR INOX Pvt Ltd (49%; food courts); FY26 loss ₹1.0 Cr. **Capital commitments: ₹83.2 Cr** (₹82.3 Cr), plus an uncalled ₹1.7 Cr on JV shares.
+4. **Contingent liabilities ≈ ₹247 Cr** (prior year ≈ ₹237 Cr). The note's column headers are misprinted as "Mar-25 / Mar-24" in a FY26 report. Largest items:
+   - claims by developers/lessors **₹96.4 Cr** (up from ₹72.0 Cr; ₹18.8 Cr deposited);
+   - service-tax demand on F&B ₹53.0 Cr;
+   - state GST demands (rate differences/ITC) ₹41.6 Cr (₹35.5 Cr);
+   - service tax on box office as "renting of immovable property" ₹17.1 Cr;
+   - Indore entertainment-tax demand (exemption period) ₹14.4 Cr;
+   - income tax ₹8.7 Cr (₹16.6 Cr).
+   The Maharashtra demand for entertainment tax on convenience fees (₹2.6 Cr) has dropped to nil — consistent with the Bombay HC Jul-2025 ruling. A further ₹2.5 Cr demand raised in the year was excluded as low-risk. **Read:** small (~1.6% of net worth) but trending up on landlord disputes, which tie in with the exits of ageing malls.
+5. **Legacy entertainment-tax exemptions** (state multiplex incentive schemes) oblige PVR to keep operating certain multiplexes for a fixed number of years, a constraint on closures.
+6. **Leases (note 17):**
+   - Undiscounted lease obligations **₹8,280 Cr** (₹1,285 Cr <1 yr; ₹2,557 Cr 1–3 yrs; ₹4,438 Cr >3 yrs) vs ₹8,828 Cr at Mar-25.
+   - Lease cash outflow FY26 **₹1,180 Cr** (principal ₹600 Cr + interest ₹580 Cr).
+   - Short-term and variable rent expensed: ₹81.2 Cr. Rent concessions/write-backs: ₹87.1 Cr.
+   - Incremental borrowing rate 9.5%.
+   - **Read:** the ₹1,180 Cr cash lease cost ≈ the ₹1,311 Cr Ind AS EBITDA uplift (consolidated, incl. CAM-linked items). It confirms that **lease cash cost ≈ 1.2× pre-Ind-AS EBITDA** — the true fixed charge.
+7. **Footprint (MD&A):** 1,782 screens / 355 cinemas / 113 cities (Jul-2026 basis); 3.6 lakh seats (Mar-26).
+   - Tiers: metro 48%, tier-1 30%, tier-2 13%, tier-3 9%.
+   - Regions: South 34%, North 27%, West 20%, Central 11%, East 8%.
+   - Largest states: Maharashtra 264 screens / 51 cinemas; Karnataka 227 / 37; UP 147 / 28; Tamil Nadu 142 / 23; Telangana 132 / 22; Gujarat 119 / 25; Delhi 114 / 28; Haryana 97 / 21; Punjab 90 / 17.
+   - **PVR has only 44 screens in Andhra Pradesh and 42 in Kerala**, against state totals of 1,046 and 808 (FICCI-EY) → **4–5% share in two large South markets** vs 24% in Maharashtra (264 / 1,120) and 27% in Karnataka (227 / 835) [E].
+8. **Cost programme:**
+   - Rent/CAM renegotiation savings: ₹56.7 Cr (FY25) and ₹60.9 Cr (FY26).
+   - Fixed cost ex-rent/CAM −1.3% CAGR per screen since FY20; manpower −1% CAGR; electricity −3% YoY (solar and EC fans).
+   - New formats: Dine-In cinema in Bengaluru; F&B "Bundle" (50% extra F&B value when booked with the ticket).
+9. **Top risks (MD&A):**
+   - content gaps (mitigated by re-releases, alternate content and Pictures);
+   - OTT — GCF Consumer Survey 2026: heavy streamers are also heavy cinemagoers;
+   - windows and piracy — GCF estimate that short windows cost **2.2 visits per consumer per year** globally;
+   - macro (₹99–150 tickets on Cinema Lovers' Days / National Cinema Days);
+   - regulation (24 states/UTs);
+   - financial risk.
+   SCOT "threats" also name **state price-capping** and CBFC bans.
+10. **Premium formats** — see S15 for the full format table. **LUXE/Insignia ATP ₹808 is 2.9× the circuit's ₹280**, and 156 such screens (~9% of the circuit) likely generate ~20% of ticket revenue [E: 156/1,703 weighted screens × 2.9× ATP × similar occupancy].
+11. **Credit:** CRISIL AA/Stable (AR); Ind-Ra AA/Positive (13-Nov-2026). The upgrade trigger is net debt incl. leases / EBITDAR **<3.0× sustained** (already 2.2×) plus double-digit ROCE.
+12. **Ownership** — see S17. Board: 10 directors (5 independent); Chairman Pavan Kumar Jain (INOX side); MD Ajay Bijli; ED Sanjeev Kumar (Bijli side). Promoter pledge: ~2.2% of capital still pledged by Ajay Bijli after the Nov-2026 release.
+
+### 4.2-I Buyback details (from PPT, screener and AR, cross-checked) [V/E]
+- Size ₹300 Cr, executed Sep-2026 (the first buyback in the company's history). Equity capital ₹98.2 Cr → ₹96.1 Cr → ~2.1 mn shares cancelled at an implied ~₹1,420 [E].
+- **Promoters tendered little:** Ajay Bijli's holding fell only ~95,900 shares, and the promoter share rose from 27.53% to 27.60% (Oct-26) [V SAST/screener; E].
+- Screener's EPS of ₹26.79 on ₹263 Cr PAT implies **~98.2 mn shares**, i.e., screener still uses the pre-buyback count, so its ₹16,121 Cr m-cap is ~2% high [V/E].
+
+### 4.2-J Short reference-peer fact boxes (REFERENCE only; no NSE · BSE code, no primer link)
+
+**Cinépolis India** (unlisted; subsidiary of Cinépolis, Mexico)
+- **496 screens / 57 cities** (Oct-2026) [V-snip]; target 551 by 2027 [V-snip, first pass].
+- Brands: Cinépolis, VIP, Fun Cinemas.
+- Moves: Saga Studios Punjabi-film distribution tie-up (Oct-2026); in-cinema DOOH network of 350+ displays across 101 properties in 63 cities (It's Spotlight, Jan-2026); first Kochi IMAX (Aug-2026).
+- Did **not** play the Jailer 2 Hindi dub (window dispute).
+- MCA financials not retrieved (paid). **Scale vs PVR: ~0.28×.**
+
+**Miraj Cinemas** (unlisted; Miraj Group, Rajasthan)
+- ~144 screens / 50 locations / 14 states (undated Wikipedia) [V-snip, low].
+- Value multiplex; joined the national chains in refusing the Jailer 2 Hindi dub [V-snip].
+
+**Movietime / Rajhans / Connplex / NY Cinemas** (unlisted)
+- No reliable 2026 screen counts found; the company sites are JS-rendered with no counts [GAP].
+
+**Mukta A2 Cinemas** (subsidiary of listed **Mukta Arts**, NSE MUKTAARTS)
+- Mukta Arts consolidated: FY26 sales ₹174 Cr, OP ₹10 Cr (6%), PAT −₹12 Cr; m-cap ₹119 Cr; **negative book value (−₹29/share)**; debt ₹131 Cr [V screener].
+- A cautionary small-chain balance sheet: ~1/40th of PVR's revenue, persistent losses.
+
+**Single screens** (aggregate)
+- ~5,000–5,500 screens [E].
+- Comscore: 69% of admissions but 49% of GBO; ATP ₹110 (2025).
+- FICCI-EY: 124 screens shut in 2025, mainly single screens; some Hindi-belt towns now open "only for a few days a week or for major releases"; manual ticketing creates data and tax-credibility issues.
+- **Andhra Pradesh lost 54 screens in 2025; Karnataka −29; Telangana −19** (UFO data) [V].
+
+**UFO Moviez** (listed DCSP and in-cinema ad network)
+- FICCI-EY uses UFO as the screen-count source.
+- CCI penalty with Qube: ₹2.70 Cr (Apr-2025) [V-snip, first pass]. Financials not refreshed this pass [GAP].
+
+**AMC Entertainment** (NYSE AMC; Q3-26) [V SEC]
+- Revenue $1,711.1m; adj. EBITDA $347.5m (20.3%); attendance 74.9m; ATP $12.73; F&B per patron $7.87; 9,472 screens.
+- Corporate borrowings $3,747m; cash $752m; operating-lease liability $3,762m.
+- **Shares 892.6 mn (up from 612 mn in May-2026 — heavy dilution)**; price $3.25 → m-cap ~$2.9bn; **EV/annualised adj. EBITDA ~6.3×** [E].
+
+**Cinemark** (NYSE CNK; Q3-26) [V SEC]
+- Revenue $1,059.1m; adj. EBITDA $267.6m (25.3%); attendance 63.7m; 5,618 screens.
+- US ATP $11.16; US concession per patron $8.66 (78% of ATP).
+- LT debt $1,876m; cash $556m; operating-lease liability $1,006m (Dec-25).
+- TTM adj. EBITDA $781.8m; **EV/EBITDA ~7.8×** [E].
+
+**IMAX Corp** (NYSE IMAX; Q3-26) [V SEC]
+- Revenue $174.6m; adj. EBITDA $120.9m (69.3%); 1,887 systems; backlog 409 (down from 478 a year ago); cash $208m; debt $251m.
+- Shares 55.2 mn × $48.26 = m-cap ~$2.66bn.
+- **The Odyssey: $538m of IMAX box office globally** and India's first ₹100 Cr from IMAX screens alone (first pass).
+- PVR INOX operates 27 IMAX screens (Nov-2026); India IMAX screens average ATP ₹516 at PVR (AR).
+
+**CJ CGV** (KRX 079160)
+- Q3-26 sales KRW 688.1bn, OP KRW 73.6bn [V-snip, first pass]; price KRW 5,080 (13-Nov-2026) [V].
+- Licensor of 4DX/ScreenX: PVR has 37 4DX/MX4D screens (ATP ₹462, occupancy 34.3% — the highest of any PVR format) and 4 ScreenX (ATP ₹384, occupancy 23.7% — the weakest) [V AR].
+- EV not computed (share count not fetched).
+
+**Cineworld** — private since Jul-2023 (no update).
+
+**OTT** — see S24. FICCI-EY: digital rights −8% in 2025; platforms now link film-rights prices to theatrical performance.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready; units and source on every series)
+
+**D1. India gross box office, footfalls and ATP — Ormax, calendar years** [V Ormax 2023/2024/2025 PDFs]
+
+| CY | GBOC ₹ Cr | Footfalls (Cr) | ATP ₹ | Hindi share |
+|---|---|---|---|---|
+| 2015 | 8,315 | 90.3 | 92 | 45% |
+| 2016 | 8,649 | 90.1 | 96 | 44% |
+| 2017 | 9,630 | 101.0 | 95 | 41% |
+| 2018 | 9,810 | 94.5 | 104 | 45% |
+| 2019 | 10,948 | 103.0 | 106 | 44% |
+| 2020 | 2,056 | 22.5 | 91 | 27% (2020–21 cumulative) |
+| 2021 | 3,772 | 42.7 | 87 | (as above) |
+| 2022 | 10,637 | 89.2 | 119 | 33% |
+| 2023 | 12,226 | 94.3 | 130 | 44% |
+| 2024 | 11,833 | 88.3 | 134 | 40% |
+| 2025 | 13,395 | 83.2 | 161 | 41% |
+| H1 2026 | 6,398 (release-month basis) | 37.8 | ~169 [E] | 44% |
+
+- **Read:** 2025 GBOC is +22% vs 2019 while footfalls are −19% and ATP +52%. The whole post-COVID gain is price.
+- **CAGR 2019–25:** GBOC +3.4%; ATP +7.2%; footfalls −3.5% [E].
+- FICCI-EY: "in local currency terms India has outperformed pre-COVID box office by 17%" (Comscore basis); India is the world's #4 box-office territory.
+
+**D2. Box office by language, ₹ Cr — Ormax** [V]
+
+| Language | 2022 | 2023 | 2024 | 2025 | 2025 share | 2025 YoY |
+|---|---|---|---|---|---|---|
+| Hindi (incl. dubbed versions released in Hindi) | 3,513 | 5,380 | 4,679 | 5,504 | 41% | +18% |
+| Telugu | 2,145 | 2,265 | 2,348 | 2,377 | 18% | +1% |
+| Tamil | 1,724 | 1,961 | 1,829 | 1,805 | 13% | −1% |
+| International (all language versions) | 1,230 | 1,139 | 941 | 1,403 | 10% | +49% |
+| Malayalam | 633 | 572 | 1,165 | 1,164 | 9% | 0% |
+| Kannada | 810 | 312 | 304 | 528 | 4% | +73% |
+| Gujarati | 56 | 50 | 84 | 242 | 2% | +189% |
+| Punjabi | 147 | 235 | 203 | 116 | 1% | −43% |
+| Marathi | 268 | 201 | 177 | 96 | 1% | −46% |
+| Bengali | 77 | 66 | 68 | 80 | 0–1% | +17% |
+| Others | 35 | 43 | 35 | 82 | 1% | +131% (Assamese Roi Roi Binale ₹42 Cr) |
+| **Total** | **10,637** | **12,226** | **11,833** | **13,395** | 100% | +13% |
+
+- Hindi original vs dubbed: 2024 ₹3,215 Cr original + ₹1,464 Cr dubbed; **2025 ₹5,113 Cr original + ₹391 Cr dubbed** [V Ormax 2025].
+- Hindi long series (₹ Cr): 2013 3,752 | 2014 3,804 | 2015 3,810 | 2016 3,881 | 2017 4,064 | 2018 4,392 | 2019 4,831 | 2020 869 | 2021 717 | 2022 3,513 | 2023 5,380 | 2024 4,679 | 2025 5,504 [V Ormax 2025 chart].
+- **ATP by language (Ormax/FICCI-EY), 2024 → 2025:** International ₹245 → ₹267; Hindi ₹203 → ₹215; all-India ₹134 → ₹161; **South Indian languages ₹101 → ₹123 (+22%)**. Ormax attributes the South jump to **AP/Telangana government approvals of higher prices for tentpole Telugu films in premiere shows and opening weeks** [V].
+
+**D3. Box office by language — EY analysis (FICCI-EY 2026), ₹ bn gross** [V]: South Indian languages 55 → 62 (+13%); Hindi 45 → 50 (+12%); English 9 → 11 (+21%); other 5 → 6 (+26%); total 114 → 130 (+14%), 2024 → 2025. (EY's split puts dubbed Hindi versions of South films under South, so Hindi is lower than in Ormax's table.)
+
+**D4. Screens — UFO Moviez data via FICCI-EY 2026** [V]
+
+| | 2023 | 2024 | 2025 |
+|---|---|---|---|
+| Total screens | 9,742 | 9,927 | 10,033 |
+| South India | 4,573 | 4,544 | 4,488 |
+| Rest of India | 5,169 | 5,383 | 5,545 |
+| South share | 47% | 46% | 45% |
+| Screens per million | — | 6.8 | 6.8 |
+
+- MAI-EY anchors: 9,527 (2019); density 7.6/mn (2018) → 6.8 (2024).
+- Peers' density: US 109, UK 66, **France 95**, China 64.
+- Only **3,150 of 19,500 PIN codes have a cinema hall** (UFO, FICCI-EY 2026), vs MAI-EY's "16,350 of ~19,000 have none" — consistent.
+
+**D5. Screens by state, 2025 (change vs 2024)** — UFO via FICCI-EY [V] vs **PVR INOX screens** (FY26 AR map, Jul-2026) [V] → PVR share [E]
+
+| State | India screens 2025 (Δ) | PVR INOX screens | PVR share |
+|---|---|---|---|
+| Tamil Nadu | 1,178 (+20) | 142 | 12% |
+| Maharashtra | 1,120 (+26) | 264 | 24% |
+| Andhra Pradesh | 1,046 (−54) | 44 | 4% |
+| Gujarat | 972 (+29) | 119 | 12% |
+| Karnataka | 835 (−29) | 227 | 27% |
+| Kerala | 808 (+27) | 42 | 5% |
+| Uttar Pradesh | 631 (+30) | 147 | 23% |
+| Telangana | 598 (−19) | 132 | 22% |
+| West Bengal | 385 (+19) | 72 | 19% |
+| Madhya Pradesh | 354 (−1) | 55 | 16% |
+| Punjab | 299 (−5) | 90 | 30% |
+| Haryana | 296 (+29) | 97 | 33% |
+| Rajasthan | 262 (−6) | 73 (+5 Jaipur, Nov-26) | 28% |
+| Delhi | 194 (+6) | 114 | **59%** |
+| Odisha | 169 (−2) | 29 | 17% |
+| Bihar | 165 (+13) | 7 | 4% |
+| Chhattisgarh | 164 (+12) | 30 | 18% |
+
+- **Read:** PVR dominates Delhi/NCR (59%) and is strong in Haryana, Punjab, Karnataka and Maharashtra (24–33%). It is **weak in Andhra Pradesh, Kerala, Bihar (4–5%) and Tamil Nadu (12%)** — these are the white spaces for both the South push and SMART.
+- The two series differ in date (UFO calendar-2025 vs PVR Jul-2026); shares are indicative.
+
+**D6. Multiplex vs single screen — Comscore via FICCI-EY 2026** [V; chart parse E where marked]
+
+| | 2024 | 2025 |
+|---|---|---|
+| Admissions, total (mn) | 857 | 868 |
+| — multiplex | n/a | 273 (31%) |
+| — single screen | n/a | 595 (69%) |
+| GBOC, total (₹ bn, Comscore) | 118 | 133 |
+| — multiplex | ~61 [E parse] | ~69 [E parse] (51%) |
+| — single screen | ~57 [E parse] | ~65 [E parse] (49%) |
+| ATP multiplex / single / average (₹) | 215 / 103 / 139 | 251 / 110 / 150 |
+
+- Comscore admissions: 2022 994 mn; 2023 900 mn.
+- **Read:** multiplex ATP +17% vs single-screen +7% in 2025 — premiumisation is a multiplex phenomenon.
+
+**D7. Filmed-entertainment segment, ₹ bn (gross of taxes) — FICCI-EY 2026** [V]
+
+| Stream | 2022 | 2023 | 2024 | 2025 | 2026E | 2028E |
+|---|---|---|---|---|---|---|
+| Domestic theatrical | 105 | 120 | 114 | 130 | 143 | 163 |
+| Overseas theatrical | 16 | 19 | 20 | 25 | 28 | 32 |
+| Digital / OTT rights | 33 | 35 | 31 | 29 | 32 | 37 |
+| Broadcast rights | 14 | 15 | 13 | 12 | 12 | 11 |
+| In-cinema advertising | 5 | 8 | 9 | 9 (9.3) | 10 | 10 |
+| **Total** | **172** | **197** | **187** | **205** | **224** | **253** |
+
+- Domestic theatrical = 63% of the segment (2025); broadcast 6% (12% in 2019).
+- **PVR INOX's FY26 advertising (₹463.6 Cr) ≈ 50% of India's in-cinema ad market (₹930 Cr, CY2025)** [E, FY/CY mismatch].
+- Films released: 1,823 (2024) → 1,972 (2025; 270 dubbed). By language 2025: Tamil 325, Telugu 313, Kannada 267, Hindi 226, Malayalam 203; English 120.
+- 37 films grossed ≥₹100 Cr (36 in 2024 on FICCI-EY's IMDb/Sacnilk count; Ormax says 22 → 37). Indian films released abroad: 390 in 40 countries; overseas GBO $331m.
+
+**D8. OTT vs theatrical** [V FICCI-EY]
+- Films on OTT 2025: ~500, of which 470 came theatre-first (440 in 2024) and **30 went direct-to-digital (60 in 2024)**.
+- Paid video OTT subscriptions 216 mn / 143 mn households (YE-2025). JioHotstar peak >280 mn (IPL-2025).
+- Digital rights values −8% (2025).
+- Survey (MAI-EY): 81% believe films reach streaming within 4–8 weeks; 53% skipped at least one cinema visit in the last 3 months to wait for streaming.
+
+**D9. PVR INOX premium-format economics, Jul-2026** [V AR] — screens / ATP ₹ / occupancy
+- LUXE + Insignia: 156 / 808 / 32.0%
+- 4DX + MX4D: 37 / 462 / 34.3%
+- IMAX: 26 / 516 / 27.7%
+- P[XL] + BIGPIX: 26 / 312 / 31.0%
+- Playhouse + Kiddles: 22 / 274 / 30.9%
+- Club + Sapphire: 8 / 303 / 34.2%
+- ScreenX: 4 / 384 / 23.7%
+- Onyx LED: 2 / 376 / 27.9%
+- Circuit FY26: ~1,703 weighted screens / ₹280 / 26.2%.
+- **Every premium format runs above circuit occupancy except ScreenX, and at 1.0–2.9× circuit ATP.**
+
+**D10. PVR INOX guidance history** [V transcripts] — see S19. Chart idea: "FY27 openings guided: 150 (Feb) → 120 (May) → 90–100 (Jul, Oct)" next to "capex guided: ₹350–400 Cr → ₹375–400 Cr → ~₹350 Cr → ₹300–330 Cr". The cut is partly mix: more FOCO means fewer capex rupees per screen.
+
+**D11. Global exhibitor comps (latest quarter Q3-2026 / Q2 FY27; EV on 13-Nov-2026 prices)** [V inputs; E ratios]
+
+| | PVR INOX | AMC | Cinemark | IMAX (licensor) |
+|---|---|---|---|---|
+| Screens | 1,802 | 9,472 | 5,618 | 1,887 systems |
+| Quarterly revenue | ₹2,132.7 Cr ($225m) | $1,711.1m | $1,059.1m | $174.6m |
+| Quarterly adj. EBITDA (rent deducted) | ₹475.2 Cr ($50m) | $347.5m | $267.6m | $120.9m |
+| Margin | 22.3% | 20.3% | 25.3% | 69.3% |
+| Attendance (quarter) | 46.3 mn | 74.9m | 63.7m | — |
+| ATP (local) | ₹298 (≈$3.14) | $12.73 | $8.33 (US $11.16) | — |
+| F&B per head | ₹153 (≈$1.61) | $7.87 | $6.50 (US $8.66) | — |
+| F&B / ATP | 51% (gross ATP) / 61% (net ATP) | 62% (US 65%) | 78% (US 78%) | — |
+| Market cap | ₹15,770 Cr ($1.66bn) | $2.90bn | ~$4.81bn | $2.66bn |
+| Net debt ex-leases | net cash ₹141 Cr | $3.0bn | $1.32bn | $43m |
+| EV / TTM (or annualised) adj. EBITDA | **12.8×** | ~6.3× (annualised 9M) | ~7.8× | n/m |
+| Operating-lease liability | ₹5,808 Cr ($612m) | $3,762m | $1,006m (Dec-25) | $11m |
+
+## 4.4 Gap log
+
+**A. Every §H item**
+
+| §H # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| 1 | Single vs multiplex split 2019–2025 | **Partly filled.** Comscore 2025: admissions 31% / 69%, GBO 51% / 49%, ATP ₹251 vs ₹110; 2024 ATP and revenue split. **Screen-count split and the 2019–2023 series are still unpublished** | FICCI-EY 2026; management "~40% of multiplex screens" implies ~4,500 multiplex screens [E] |
+| 2 | FICCI-EY 2025 screen total; openings/closures | **Filled** — 10,033; +240 / −124; South −1%, rest +3%; state table. Internal inconsistency flagged (106 vs 116 net) | FICCI-EY 2026 |
+| 3 | Ormax 2019/2022 footfalls; 2023 language split | **Filled** — 103.0 / 89.2 Cr; full language tables 2022–2025; MAI-EY 146 Cr explained as a different series | Ormax PDFs |
+| 4 | PVR ₹6,665 Cr vs Ormax ₹6,398 Cr | **Filled (explained)** — release-month vs in-period methods | Ormax methodology; PVR PPTs |
+| 5 | Ormax Oct-2026 report / CY2026 YTD | **Still open** — tag page checked 13-Nov-2026: Oct report not yet published. Latest is YTD Sep ~₹11,000 Cr | ormaxmedia.com/tags/box-office.html |
+| 6 | CBIC circular on F&B GST | **Filled (snippet)** — Circular 201/13/2023-GST (1-Aug-2023). Ticket notification 15/2025-CT(R) fetched as primary | Taxscan/StudyCafe; CBIC notification copy |
+| 7 | TN LBET rate/date; Kerala tax | **Mostly filled** — TN 8% → 4% (~31-May-2025); Kerala LBET (up to 10%, 2019) still levied, removal under discussion (Jan-2026); "8.5%" unconfirmed and dropped. GO number not found | IANS, Onmanorama |
+| 8 | Karnataka ₹200 cap final ruling | **Status filled; ruling still pending** — SC stayed the HC record-keeping direction (Nov-2025); HC verdict reserved after the Jul-2026 hearing; no judgment found to 13-Nov-2026 | LiveLaw; Q3 FY26 call |
+| 9 | Cinépolis financials; Miraj/Movietime/Rajhans/Mukta A2 screens; Carnival outcome | **Partly filled** — Cinépolis 496 screens; Miraj ~144 (low confidence); Mukta Arts financials via screener. **Open:** Cinépolis MCA financials (paid/login), Movietime and Rajhans counts (JS-only sites), Carnival insolvency outcome (not searched — budget) | medianews4u; Wikipedia; screener |
+| 10 | OTT subscriber counts 2026 | **Filled for 2025** — 216 mn paid subscriptions / 143 mn households (FICCI-EY); JioHotstar >280 mn IPL peak. Netflix/Prime only as HSBC estimates (~20 / ~65 mn). No 2026 company disclosure found | FICCI-EY; press |
+| 11 | Global EV/EBITDA | **Filled for AMC and Cinemark** [E from V inputs]. **Open:** CJ CGV (share count) and an IMAX TTM multiple | SEC XBRL/8-Ks; Yahoo prices |
+| 12 | Capex per screen by model | **Partly filled.** Relative statements only: FOCO 0; asset-light PVR share 20–60% (Ind-Ra) or the residual after the developer's 40–80%; SMART −25–30% (Oct) / −30–40% (May). Implied FY27 new-project capex ₹225–250 Cr ÷ ~120 planned openings ≈ ₹1.9–2.1 Cr per opening blended (May plan) [E]; FY26 ₹254 Cr ÷ 93 ≈ ₹2.7 Cr all-in incl. renovation [E]. **No absolute per-screen figure is disclosed** | Transcripts; Ind-Ra |
+| 13 | Premium-format logo mapping | **Filled** — AR gives names, counts, ATP and occupancy (S15) | FY26 AR |
+| 14 | JV identity | **Filled** — Devyani PVR INOX Pvt Ltd (49%) | FY26 AR |
+| 15 | Bijli family stake | **Filled** — Ajay 5.55% / 5.57%; family ≈10.3%; GFL 16.13% | FY26 AR; SAST |
+| 16 | SAST Reg 31 (3-Nov-2026) | **Filled** — pledge release; ~2.2% of capital still pledged | BSE |
+| 17 | Q3 FY26 KPIs | **Filled** (S14) | Q3 FY26 PPT |
+| 18 | Industry occupancy / all-India SPH | **Still open** — not published by Ormax, FICCI-EY or Comscore; only ATP by format is available | — |
+
+**B. Brief items not in §H**
+
+| Brief item | Status |
+|---|---|
+| FICCI-EY filmed-entertainment streams and footfalls | **Filled** (D7, S1/S3) |
+| GST notification primary | **Filled** (S9) |
+| Theatrical windows | **Filled:** 8-week Hindi norm cited by Ind-Ra as an industry "guideline"; Jailer 2 Hindi version released 15-Oct-2026 with a 4-week OTT window and was **not played by PVR INOX, Cinépolis or Miraj** in North India; producer Dhananjeyan claimed this cost ~₹200 Cr in North India [V-snip The Week/Sacnilk]; Bijli (Jul-2026): "windows of 4 weeks… now come back to 8 weeks". The South 4-week practice is not documented in a primary source |
+| Unlisted chains | See §H-9 |
+| Global peers' latest filings | **Filled** for AMC, Cinemark and IMAX (SEC); CGV snippet only |
+| FY26 annual report | **Filled** (4.2-H) |
+| Q4 FY26 / Q1 FY27 transcripts | **Filled** (4.2-B/C), plus Q3 FY26 (4.2-D) |
+| Shareholding | **Filled** (S17) |
+| Buyback details | **Filled** (4.2-I); tender-offer letter of offer not read (exact price/acceptance ratio still open) |
+| India Ratings rationale | **Filled** (BSE letter, 13-Nov-2026) |
+| CRISIL/ICRA/CARE sector notes on multiplexes | **Still open** — no 2026 sector note found (search returned only CRISIL's 2024 FY25 note: multiplex revenue +10–15% to ~₹7,300 Cr). CRISIL rates PVR AA/Stable (AR) |
+| PVR share of India box office | **Filled** — 31.1% FY26; 27–33% by quarter (4.2-F) |
+| Premium formats count | **Filled** — 281 itemised; 27 IMAX after Jaipur |
+| Screener 5-year and 8-quarter tables | **Confirmed** 13-Nov-2026 (4.2-F/G) |
+| Capital-allocation / dividend | No dividend declared yet; policy as in Part 1 |
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### 4.5-A Insights an expert would add
+1. **Footfalls depend on whose count you use, and the multiplex/single-screen split explains it.**
+   - Ormax says 2025 footfalls fell 6% (−19% vs 2019); Comscore says they rose 1.4%. Both agree GBO hit a record on price.
+   - Comscore's split shows **multiplexes sell 31% of tickets but take 51% of the money, at 2.3× the single-screen ATP (₹251 vs ₹110)**. Multiplex ATP rose 17% in 2025 vs 7% for single screens.
+   - So "fewer, richer visits" is really "**more of the money migrating to multiplexes**". PVR (~55% of multiplex admits, ~61% of multiplex GBO [E]) is the main beneficiary.
+2. **PVR's market share is a content-mix variable, not a structural constant.**
+   - Quarterly share ranged 26.8–32.8% over FY25–FY27; it falls when South/mass films lead (Q4 FY25, Q4 FY26, and Q2 FY27's Hanuman Ansh/Mirzapur).
+   - Its state map explains why: PVR holds **59% of Delhi's screens and 24–33% in Maharashtra, Karnataka, Haryana and Punjab, but only 4–5% in Andhra Pradesh, Kerala and Bihar and 12% in Tamil Nadu** (D5).
+   - The AP/Telangana price approvals that lifted South ATP 22% in 2025 mostly accrued to single screens.
+   - This is the strategic logic of the South push (35–40% of new screens) and of SMART.
+3. **Guidance has been cut three times in nine months, and the market did not penalise it.**
+   - FY27 openings went 150 → 120 → 90–100; capex ₹350–400 Cr → ₹300–330 Cr.
+   - Part of the cut is mix (FOCO = zero capex) and part is execution: licence delays meant zero openings in Q1, and SMART went from 28–30 screens to 2–3 cinemas.
+   - Meanwhile the FY28+ ambition was raised (150–175 a year; "1,000 in five years").
+   - The writer should present delivery risk on the 150–175 figure honestly: FY26 delivered 93 against 100–110 guided; FY27 is tracking 90–100 against 150 first mooted.
+4. **The SPH-parity claim is backwards.**
+   - US F&B per patron is **78% of ATP at Cinemark** and **65% at AMC** (US), vs PVR's 51% on gross ATP (~61% net of GST).
+   - The headroom argument still holds, but because US chains run *above* India's ratio, not at "parity".
+   - India's lower ratio partly reflects price: PVR's ATP is 1.74× the all-India average, and the denominator is inflated by 18% GST.
+5. **The real fixed charge is the lease cash, ~₹1,180–1,311 Cr a year — 1.2–1.35× pre-Ind-AS EBITDA.**
+   - Undiscounted future lease commitments are ₹8,280 Cr, ~5× FY26 pre-Ind-AS EBITDA.
+   - Ind-Ra's lease-adjusted leverage (net debt incl. leases / EBITDAR) of **2.2×** is the right "credit" metric. It explains why PVR is AA, not AAA, despite being "net cash".
+6. **Governance and related-party points the primer lacks:**
+   - a recurring **INOX brand royalty (₹19 Cr, +8.6% a year) to the Chairman personally**;
+   - rent to a Bijli-family company (₹4.7 Cr);
+   - executive pay of ~₹39 Cr for the two Bijli-side executives (~4% of pre-Ind-AS EBITDA);
+   - **~40% of the MD's personal stake still pledged** (personal borrowing), even after the Nov-2026 release.
+   - Also: the promoter group is only 27.6%, and ~17% of it sits with GFL/INOX — the true control is a two-family pact.
+7. **Two new regulatory exposures:**
+   - **CCI's VPF probe** (Sep-2025; commitments offered). VPF is small (~₹58 Cr a year at the Q4 FY26 ₹14.5 Cr run-rate [E]), but the "discriminatory pricing" finding would be a reputational and legal precedent for a ~31%-share player.
+   - **The Supreme Court's Nov-2025 remarks on F&B prices** ("₹700 for coffee"), made while hearing the Karnataka cap matter, are a headline risk for the F&B margin engine (78% gross margin).
+8. **Advertising is a share-of-market problem, not a cyclical blip.**
+   - India's in-cinema ad market grew just 3% to ₹930 Cr in 2025 (FICCI-EY), and PVR already takes about half of it.
+   - Growth must come from eyeball-based/digital selling (web/app inventory ₹2–3 Cr a year so far) rather than share gains.
+   - Pre-COVID quarterly ad revenue (~₹146 Cr, analyst) is still above today's ~₹110–131 Cr.
+
+### 4.5-B New primer issues (format as primer-issues.md)
+
+### From Film Exhibition deep research (2026-11-13, film-exhibition-industry.md §4.5)
+
+- **pvr-inox.html — promoter/ownership facts (§04, §11):**
+  - Replace "Bijli ~6%" with **Ajay Bijli 5.57% (Nov-2026); Bijli family ~10.3%; GFL Ltd (INOX group) 16.13%; promoter group 27.60%**.
+  - Note that **~2.2% of capital (~40% of Ajay Bijli's stake) remains pledged** after a 2-Nov-2026 partial release.
+- **pvr-inox.html — related-party/governance (add to risks):** INOX brand licence fee of ₹19.0 Cr (FY26) paid to Chairman Pavan Kumar Jain; rent of ₹4.7 Cr to Bijli Realty; MD pay ₹25.5 Cr (FY26 AR note 44).
+- **pvr-inox.html — premium formats (§03/§07):**
+  - Replace generic "premium formats" with the AR table: **LUXE/Insignia 156 screens at ATP ₹808; IMAX 26 (27 after Jaipur, Nov-2026) at ₹516; 4DX/MX4D 37 at ₹462; ~16% of screens**.
+  - The JV is **Devyani PVR INOX (food courts, 49%)** — mention it if JVs are discussed.
+- **pvr-inox.html — market share (§01/§10):**
+  - Add management's "nearly 40% of India's multiplex screens, 31% of box office".
+  - Add our computed **27–33% quarterly range**.
+  - Add PVR's **~60% share of Hollywood GBOC**.
+  - Add **Comscore's multiplex share: 31% of admissions, 51% of GBO, ATP 2.3× single screens**.
+- **pvr-inox.html — India market facts (§01):** footfalls — use Ormax **83.2 Cr (2025) vs 103.0 Cr (2019)**, not the MAI-EY 146 Cr, and say Comscore shows +1.4% for 2025. Screens **10,033 (FICCI-EY 2026)**; South 45%.
+- **pvr-inox.html — guidance (§00/§12):**
+  - Add the guidance history: FY27 openings **150 → 120 → 90–100**; capex **₹350–400 Cr → ₹300–330 Cr**; SMART **28–30 screens → 2–3 cinemas**.
+  - Frame FY28+ "150–175 a year / 1,000 in five years" as an ambition with a mixed delivery record (FY26: 93 vs 100–110 guided).
+- **pvr-inox.html — regulation (§12):**
+  - Karnataka cap: the HC stay continues; **SC (Nov-2025) stayed the record-keeping direction**; HC verdict reserved since Jul-2026; no cap in force.
+  - Add **CCI VPF probe (prima facie order 30-Sep-2025)**.
+  - Add the **Tamil Nadu LBET cut from 8% to 4% (May-2025)**.
+  - Add Kerala LBET (up to 10%) still levied.
+  - Cite the GST notification **15/2025-CT(R)** and F&B **Circular 201/13/2023-GST**.
+- **pvr-inox.html — leases (§08/§11):**
+  - Undiscounted lease commitments **₹8,280 Cr**; FY26 lease cash outflow **₹1,180 Cr** (standalone).
+  - Ind-Ra lease-adjusted net leverage **2.2×** (Sep-26) and EBITDAR/interest 4.0×. Use these instead of "net cash" alone when describing balance-sheet risk.
+- **pvr-inox.html — contingent liabilities (risks):** ~₹247 Cr (standalone), incl. **₹96 Cr landlord claims (rising)** and ₹53 Cr service tax on F&B.
+- **pvr-inox.html — SPH vs ATP claim (§07):** if the primer repeats "SPH equals ATP in the West", replace it with **Cinemark US 78%, AMC US 65% vs PVR 51% (gross ATP)**.
+- **pvr-inox.html — credit (§08):** add **CRISIL AA/Stable** alongside **Ind-Ra AA/Positive (13-Nov-2026)**. The upgrade trigger (lease-adjusted net leverage <3.0×) is already met.
+- **pvr-inox.html — screen count (cover strip):** latest is **1,802 screens / 359 properties / 114 cities (4-Nov-2026)**.
+- **pvr-inox.html — merger date (§04):** "NCLT-approved Feb-2023 (effective 6-Feb-2023); renamed PVR INOX Ltd 20-Apr-2023" (Ind-Ra).
+- **pvr-inox.html — valuation vs global peers (§11):** replace any "US peers 6–9× [K]" with **Cinemark ~7.8×, AMC ~6.3× EV/adj. EBITDA (rent-deducted, 13-Nov-2026)** vs PVR ~12.8× on the comparable pre-Ind-AS basis.
+
+---
+*End of Part 4.*

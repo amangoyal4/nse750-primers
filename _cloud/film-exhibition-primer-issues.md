@@ -1,0 +1,105 @@
+# Primer issues — film-exhibition
+
+## From Film Exhibition research (2026-11-13, film-exhibition-industry.md §3.4)
+
+- **pvr-inox.html — pre-Ind-AS EBITDA wrong (§11 table and text, §12 bear case):**
+  - Fix the wrong figure:
+    - The primer estimates "₹700–800 Cr, roughly 11–12%".
+    - The company-reported figure is **₹968.0 Cr, 14.4%** (Q4 FY26 investor presentation, Annexure 2).
+    - The bear-case line "~31% headline margin collapses to roughly 11–12%" should read "33% reported (Ind AS) → 14.4% pre-Ind-AS". Screener's OP basis is 32%.
+  - Add the reconciliations:
+    - FY25: 8.4% (₹484.8 Cr, restated).
+    - Q2 FY27: **22.3% (₹475.2 Cr)** vs 37.6% reported.
+- **pvr-inox.html — stale valuation (cover strip, §11):**
+  - Market cap "~₹9,300 Cr (mid-2026)" should be **₹16,121 Cr** (screener 13-Nov-26; ~₹15,770 Cr on post-buyback shares).
+  - The share price is ₹1,641, up 50% over one year.
+  - P/E "~28×" should be **34.0×**.
+- **pvr-inox.html — screen count stale (cover strip, §00, §03, §11 table):**
+  - "~1,754 screens across ~361 properties" should be **1,798 screens / 359 cinemas (Mar-26)**, now **1,797 screens in 114 cities (Sep-26)**.
+  - Both counts include 71 FOCO/management screens in 19 cinemas.
+- **pvr-inox.html — net debt stale (§07, §08, §11, bull case):**
+  - "~₹365 Cr at Dec-2025" should be **₹162 Cr (Mar-26)**.
+  - The company has been **net cash since Jun-26: ₹81 Cr (Jun-26), ₹141 Cr (Sep-26)**, after the ₹300 Cr buyback.
+  - The merger-date net debt was ₹1,430 Cr (Mar-23) — the primer's "over ₹1,400 Cr" is fine.
+- **pvr-inox.html — revenue-line estimates (§00, §07):**
+  - Replace the "approx." figures with the company's FY26 pre-Ind-AS figures:
+    - tickets ₹3,530 Cr (not "~₹3,650 Cr");
+    - F&B ₹2,088 Cr (not "~₹2,200 Cr");
+    - advertising ₹464 Cr;
+    - convenience fees ₹241 Cr;
+    - other operating ₹323 Cr, incl. film distribution ₹222 Cr.
+  - Recompute the gross-profit split: ticket gross profit ≈ ₹1,927 Cr vs F&B gross profit ≈ ₹1,618 Cr. F&B + ads + convenience exceed tickets only when advertising and convenience fees are included.
+- **pvr-inox.html — FY26 PAT includes discontinued ops (§00 "What's new", §11):**
+  - ₹333 Cr includes ~₹157 Cr from the Zea Maize (4700BC) divestment (29-Jan-2026, ₹226.8 Cr gross).
+  - Continuing PAT is **₹176 Cr** (reported) / ₹231 Cr (pre-Ind-AS).
+  - The "₹614 Cr swing" is therefore partly one-off.
+- **pvr-inox.html — theatrical window overstated (§09 table and bear case):**
+  - "Compressed from ~8 weeks to roughly 4 weeks or less" is wrong for Hindi films at national chains, which hold an **8-week (56-day)** window.
+  - The 4-week norm applies mainly to South Indian films.
+  - In Oct-2026 national chains declined Jailer 2's Hindi dub over a 4-week window (The Week, Oct-2026).
+- **pvr-inox.html — India market facts (§01):**
+  - "On the order of 9,000 screens" should be **~9,927 (2024) / ~10,000 (2025)** (MAI-EY / FICCI-EY).
+  - "Something like 120 per million in the US and roughly 55 in China" should be **US 109, China 64, UK 66; India 6.8** (EY 2025).
+  - "Most screens are single screens" should be **~50%** (PVR management, Q2 FY27 call).
+- **pvr-inox.html — merger date (§04):** "merger completed in March 2023" should be **effective 6-Feb-2023** (renamed PVR INOX; combined reporting from Q4 FY23) [K — verify against the NCLT order].
+- **pvr-inox.html — Q4 FY26 EBITDA in sources:** the ICICI Direct figure "Q4 EBITDA ex-Ind-AS 116 ₹142 Cr" conflicts with the company's **₹169.6 Cr (10.7%)**. Use the company figure.
+- **pvr-inox.html — occupancy (§03):**
+  - "~28% in the strong Q3 FY26 quarter; full-year lower (approx.)" should be **FY26 26.2%** (FY25 23.0%, FY24 25.6%).
+  - Q2 FY27 reached **30.4%**, against a pre-Covid level of 32.0% (FY20 proforma).
+- **pvr-inox.html — omissions to add (refresh after Q2 FY27):**
+  - **Q1 FY27:** income ₹1,642 Cr, EBITDA ₹230 Cr (14.0%), PAT ₹71 Cr; admits 36.6 mn; ATP ₹273; SPH ₹161.
+  - **Q2 FY27 (record):** income ₹2,133 Cr (+17%), EBITDA ₹475 Cr (22.3%, +44%), PAT ₹273 Cr (+111%); admits 46.3 mn; occupancy 30.4%; ATP ₹298; SPH ₹153.
+  - **₹300 Cr buyback** (Sep-26).
+  - **Capital-allocation policy** (ND/EBITDA ≤0.5×; ~30% of surplus cash flow returned).
+  - **SMART cinema format** (Muzaffarpur; ~100 signed; capex −25–30%; ATP ~₹190).
+  - **Guidance:** FY27 90–100 new screens and capex ₹300–330 Cr; FY28+ 150–175 screens a year and capex >₹350 Cr.
+  - **Depreciation life change** (₹35–40 Cr a year lower).
+  - **India Ratings IND AA outlook revised to Positive** (13-Nov-2026).
+  - **ROCE 16.5% TTM** (company basis).
+- **pvr-inox.html — regulation specifics (§12):**
+  - Replace "approx. — verify current rates" with: GST on tickets **5% if ≤₹100 (cut from 12% w.e.f. 22-Sep-2025), 18% above ₹100**; in-cinema F&B 5% [K].
+  - Add the **Karnataka ₹200 cap** (notified Sep-2025, stayed by the HC 23-Sep-2025, ruling pending).
+  - Add the **Bombay HC (10-Jul-2025) judgment upholding convenience fees**.
+- **pvr-inox.html — "the snacks and the ads out-earn the movies" (§07):** on company FY26 figures, ticket gross profit (~₹1,927 Cr) exceeds F&B gross profit (~₹1,618 Cr). The claim holds only for F&B + advertising + convenience fees combined (~₹2,320 Cr). Reword.
+- **pvr-inox.html — competitor table (§10):**
+  - Cinépolis India is "~490 screens in 41 cities" (not "a few hundred").
+  - Add a Carnival collapse note and the Mukta A2 (listed parent Mukta Arts) row.
+  - The primer also omits that UFO Moviez/Qube are the digital-cinema intermediaries.
+
+
+## From Film Exhibition deep research (2026-11-13, film-exhibition-industry.md §4.5)
+
+- **pvr-inox.html — promoter/ownership facts (§04, §11):**
+  - Replace "Bijli ~6%" with **Ajay Bijli 5.57% (Nov-2026); Bijli family ~10.3%; GFL Ltd (INOX group) 16.13%; promoter group 27.60%**.
+  - Note that **~2.2% of capital (~40% of Ajay Bijli's stake) remains pledged** after a 2-Nov-2026 partial release.
+- **pvr-inox.html — related-party/governance (add to risks):** INOX brand licence fee of ₹19.0 Cr (FY26) paid to Chairman Pavan Kumar Jain; rent of ₹4.7 Cr to Bijli Realty; MD pay ₹25.5 Cr (FY26 AR note 44).
+- **pvr-inox.html — premium formats (§03/§07):**
+  - Replace generic "premium formats" with the AR table: **LUXE/Insignia 156 screens at ATP ₹808; IMAX 26 (27 after Jaipur, Nov-2026) at ₹516; 4DX/MX4D 37 at ₹462; ~16% of screens**.
+  - The JV is **Devyani PVR INOX (food courts, 49%)** — mention it if JVs are discussed.
+- **pvr-inox.html — market share (§01/§10):**
+  - Add management's "nearly 40% of India's multiplex screens, 31% of box office".
+  - Add our computed **27–33% quarterly range**.
+  - Add PVR's **~60% share of Hollywood GBOC**.
+  - Add **Comscore's multiplex share: 31% of admissions, 51% of GBO, ATP 2.3× single screens**.
+- **pvr-inox.html — India market facts (§01):** footfalls — use Ormax **83.2 Cr (2025) vs 103.0 Cr (2019)**, not the MAI-EY 146 Cr, and say Comscore shows +1.4% for 2025. Screens **10,033 (FICCI-EY 2026)**; South 45%.
+- **pvr-inox.html — guidance (§00/§12):**
+  - Add the guidance history: FY27 openings **150 → 120 → 90–100**; capex **₹350–400 Cr → ₹300–330 Cr**; SMART **28–30 screens → 2–3 cinemas**.
+  - Frame FY28+ "150–175 a year / 1,000 in five years" as an ambition with a mixed delivery record (FY26: 93 vs 100–110 guided).
+- **pvr-inox.html — regulation (§12):**
+  - Karnataka cap: the HC stay continues; **SC (Nov-2025) stayed the record-keeping direction**; HC verdict reserved since Jul-2026; no cap in force.
+  - Add **CCI VPF probe (prima facie order 30-Sep-2025)**.
+  - Add the **Tamil Nadu LBET cut from 8% to 4% (May-2025)**.
+  - Add Kerala LBET (up to 10%) still levied.
+  - Cite the GST notification **15/2025-CT(R)** and F&B **Circular 201/13/2023-GST**.
+- **pvr-inox.html — leases (§08/§11):**
+  - Undiscounted lease commitments **₹8,280 Cr**; FY26 lease cash outflow **₹1,180 Cr** (standalone).
+  - Ind-Ra lease-adjusted net leverage **2.2×** (Sep-26) and EBITDAR/interest 4.0×. Use these instead of "net cash" alone when describing balance-sheet risk.
+- **pvr-inox.html — contingent liabilities (risks):** ~₹247 Cr (standalone), incl. **₹96 Cr landlord claims (rising)** and ₹53 Cr service tax on F&B.
+- **pvr-inox.html — SPH vs ATP claim (§07):** if the primer repeats "SPH equals ATP in the West", replace it with **Cinemark US 78%, AMC US 65% vs PVR 51% (gross ATP)**.
+- **pvr-inox.html — credit (§08):** add **CRISIL AA/Stable** alongside **Ind-Ra AA/Positive (13-Nov-2026)**. The upgrade trigger (lease-adjusted net leverage <3.0×) is already met.
+- **pvr-inox.html — screen count (cover strip):** latest is **1,802 screens / 359 properties / 114 cities (4-Nov-2026)**.
+- **pvr-inox.html — merger date (§04):** "NCLT-approved Feb-2023 (effective 6-Feb-2023); renamed PVR INOX Ltd 20-Apr-2023" (Ind-Ra).
+- **pvr-inox.html — valuation vs global peers (§11):** replace any "US peers 6–9× [K]" with **Cinemark ~7.8×, AMC ~6.3× EV/adj. EBITDA (rent-deducted, 13-Nov-2026)** vs PVR ~12.8× on the comparable pre-Ind-AS basis.
+
+---
+*End of Part 4.*
