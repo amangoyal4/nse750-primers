@@ -1024,14 +1024,14 @@ Single member → **no combined aggregates**. Instead §3.2 gives per-airport / 
 | Non-aero revenue | 3,607 | 775 | 99 | (GAL non-aero ~4,242 incl. dividends/EPC) | | | n.d. |
 | CPD / real-estate rentals | 949 | (in non-aero) | 7 | — | 956 | | n.d. |
 | **Revenue from operations** | 7,568 | 2,440 | 384 | 4,242 | **14,634** | +173 | **14,807** |
-| Other income | 85 | 139 | 22 | 54 | 299 | +94 | 393 |
-| **Gross income** | 7,653 | 2,579 | 406 | 4,296 | **14,933** | +268 | **15,201** |
-| Revenue share | 3,232 | 102 | 101 | 1,206 | **4,642** | **−1,198 (intercompany DF fees)** | **3,444** |
+| Other income | 85 | 139 | 22 | 54 | 300 | +93 | 393 |
+| **Gross income** | 7,653 | 2,579 | 406 | 4,296 | **14,934** | +267 | **15,201** |
+| Revenue share | 3,232 | 102 | 101 | 1,206 | **4,641** | **−1,197 (intercompany DF fees)** | **3,444** |
 | **Net income** | 4,421 | 2,476 | 305 | 3,089 | **10,291** | +1,466 | **11,757** |
-| Opex | 1,539 | 862 | 177 | 1,670 | 4,247 | +1,360 | 5,607 |
-| **EBITDA** | **2,882** | **1,614** | **127** | **1,420** | **6,044** | **+107** | **6,150** |
+| Opex | 1,539 | 862 | 177 | 1,670 | 4,248 | +1,359 | 5,607 |
+| **EBITDA** | **2,882** | **1,614** | **127** | **1,420** | **6,043** | **+107** | **6,150** |
 | Interest | 1,534 | 660 | 290 | 1,254 | 3,738 | +121 | 3,859 |
-| Depreciation | 1,011 | 485 | 168 | 56 | 1,721 | +116 | 1,837 |
+| Depreciation | 1,011 | 485 | 168 | 56 | 1,720 | +117 | 1,837 |
 | **PAT** | **477** | **427** | **−331** | **142** | **715** | −243 (minorities' share is *within* cons. PAT; JV share +240; other subs; eliminations of dividends) | **472** |
 | Pax (mn) | 78.70 | 30.48 | 5.38 | — | **114.56** | Medan 7.1 (not consolidated line-by-line) | 121.6 (incl. Medan) |
 | GAL economic share of SPV PAT [E] | 353 (74%) | 316 (74%) | −331 | 142 | **480** | | (attrib. ~180 [E]) |
@@ -1203,3 +1203,588 @@ Sum DIAL+GHIAL+GGIAL+GAL-SA EBITDA = ₹1,503 Cr vs consolidated ₹1,569 Cr (ot
 - Sibling: /tmp/airports-ref/airline-industry.md (airline dossier, Nov-2026) [V-sib]
 
 Scratch notes: /tmp/airports-dossier/notes-01.md … notes-04-calcs.md; parsed AAI CSVs /tmp/airports-dossier/aai/fy26.csv and h1fy27.csv.
+
+---
+
+# Part 4 — Deep-research supplement (13-Nov-2026)
+
+Second, primary-source pass (brief-deep-research.md). Compiled 13-Nov-2026 (UTC); about 50 web calls plus local parsing. Scratch notes: `/tmp/airports-deep/notes-A.md`. Downloaded documents: `/tmp/airports-deep/dl/`.
+
+**New primary documents fetched and read this session (all free, no login):**
+- **GMR Q2 FY27 earnings-call transcript** (call 29-Oct-2026, 18 pp.) and **Q1 FY27 transcript** (15 pp.). gmraero.com's transcript page is JavaScript-only, but its Adobe AEM DAM endpoint lists the PDFs. Listing: `https://publish-p168597-e1857439.adobeaemcloud.com/bin/getPdfs?damPath=/content/dam/aero-investor-pdf/transcripts`. Q2 file: `…/content/dam/aero-investor-pdf/transcripts/fy-2026-27/earnings-transcripts/Q2%20FY%202027.pdf`. [V]
+- **GMR Airports Ltd 30th Annual Report FY2025-26** (219 pp., PDF created 27-Aug-2026): `…/content/dam/aero-investor-pdf/annual-reports/fy-2025-2026/Download%20Full%20Annual%20Report%20~~p3~~.pdf`. [V]
+- **GMR Q2 FY27 investor deck, p.25** ("GAL Consolidated Debt"). The chart was rendered to PNG and read visually, giving net debt by SPV. [V]
+- **screener.in schedules API** (`/api/company/1159/schedules/?parent=Net%20Profit&section=…&consolidated=`; curl with a generic UA). It returned minority share, "Profit for EPS" (attributable), the borrowings split, cash, NCI and the cost split. [V]
+- **Adani Enterprises results releases**: Q2 FY27 (28-Oct-2026, adani.com) and Q4/FY26 (30-Apr-2026, adanienterprises.com). These give the airports segment table. [V]
+- **Fairfax India Holdings Q2-2026 interim report** (fairfaxindia.ca PDF). It gives BIAL ownership, FY26 P&L and the fair-value mark. [V]
+- **ICRA "Indian Airport Infrastructure" research summaries**: Aug-2026 (id=7089) and Mar-2026 (id=6875), icra.in PDFs. [V]
+- **Supreme Court judgment 18-Oct-2024** (AERA v. DIAL, CA 14927/2023; api.sci.gov.in PDF). [V]
+- **TDSAT judgment 11-Sep-2025** (GGIAL v. AERA, AERA Appeal 1/2024; tdsat.gov.in PDF). [V]
+- **AAI annual traffic reports**: TRMar2k25_0, TRMar2k24, TRMar2k22, Mar2k20Annex1 (aai.aero). [V]
+- **Aena 9M-2026 results press PDF** (28-Oct-2026). [V]
+- **Flughafen Zürich H1-2026** newsroom release and HY-report balance sheet. [V]
+
+**Blocked or not used:** aera.gov.in failed TLS verification on curl (upstream certificate chain) and returned 503 to WebFetch. It was not bypassed and TLS verification was not disabled. AERA order numbers below therefore come from GMR's annual report, GMR's call, or secondary press. No logins were used and no paywalled sources were read.
+
+---
+
+## 4.0 Supersedes — corrections to Parts 1–3 (the writer should apply these)
+
+| # | Item (where in Parts 1–3) | Old value | New value | Source (fetched 13-Nov-2026) |
+|---|---|---|---|---|
+| S1 | **GMR FY26 PAT attributable to owners** (trap 4; §2.0; §2.1; §3.1; §H1; JSON `pat_attributable_est`) | ~+₹180 Cr [E from EPS] | **+₹175.49 Cr** (FY25 −₹392.85 Cr); NCI share **₹296.90 Cr** (FY25 −₹424.05 Cr); consolidated PAT ₹472.39 Cr | GMR Annual Report FY26, consolidated P&L [V]; screener "Profit for EPS" FY26 ₹175 Cr [V] |
+| S2 | **Quarterly attributable PAT** (§3.1; trap 4) | Q2 FY27 ~−₹10 Cr [E] | **Q2 FY27 −₹15 Cr** (minority +₹80 Cr); **Q1 FY27 +₹91 Cr** (minority ₹57 Cr); **Q4 FY26 +₹302 Cr** (confirms JM Financial's "₹302.35 Cr"); Q3 FY26 +₹122 Cr; Q2 FY26 −₹37 Cr; Q1 FY26 −₹212 Cr | screener schedules API (quarters) [V] |
+| S3 | **Primer claim "FY26 small loss at owners-of-parent level"** (§3.3/§3.4) | "verify; likely wrong" | **Wrong.** FY26 owners' profit was +₹175 Cr. H1 FY27 owners' profit is +₹76 Cr (Q1 +91, Q2 −15). | AR FY26 [V]; screener [V] |
+| S4 | **"~187 mn passengers handled"** (trap 12) | Pax headline that "does not reconcile with ~134 mn" | **187 is capacity, not passengers.** Q2 deck: operational capacity ~167 mppa (ex-Cebu) + ~20 mppa under development = ~187 mppa. The passenger figure on the same slide is **"134 m"** (footnote: FY26 DIAL+GHIAL+Goa+Medan+Cebu = 78.7+30.5+5.4+7.1+12.1 = 133.8). The Q4 deck shows ~197 mppa (172 incl. Cebu + 25) and 134 m pax. Text extraction had run "134" into the footnote marker "1". | Q2 and Q4 FY27/FY26 decks, re-read [V] |
+| S5 | **AAI & others' share of India pax** (§0, §5.1 table, E4, JSON) | FY26 147.04 mn = **35.0%** (the listed shares sum to only 99.3%) | **FY26 150.01 mn = 35.7%** (420.09 − GMR 114.56 − Adani 95.31 − BIAL 44.47 − CIAL 11.30 − Kannur 1.43 − Nagpur 3.01). H1 FY27: **67.84 mn = 34.6%** (not ~33.9%). The GMR 27.3%, Adani 22.7%, BIAL 10.6% and CIAL 2.7% figures are confirmed. | AAI Annex III-C CSVs, re-summed [E from V] |
+| S6 | **Supreme Court 18-Oct-2024** (§0, §7.2 table, §A1, §G) | "SC upheld AERA's powers (setback to GMR/Adani)" | **The SC held that AERA's appeals against TDSAT orders under s.31 of the AERA Act are maintainable** (para 67) and listed them for a merits hearing. The ruling is procedural: it gives AERA standing to appeal. It did not decide tariff merits. | SC judgment PDF [V] |
+| S7 | **Whether AERA appealed TDSAT's DIAL CP4 ruling** (§7.2, §12, §H2) | "not found / unknown" | **AERA has filed an appeal in the Supreme Court.** Without a stay, AERA must implement within the 3-month window; management says the benefit will flow "most likely … next fiscal year" (FY28) and declined to quantify it. Press figure cited on the call: ~₹1,500 Cr EBITDA [V-snip, unconfirmed]. | GMR Q2 FY27 call, 29-Oct-2026 [V] |
+| S8 | **Delhi CP4 order numbers** (§7.2; B1; primer "730%/140%") | "~148% yield rise; CP3 YPP ~₹145" [V-snip] | **AERA Order No. 20/2024-25 dated 28-Mar-2025, effective 16-Apr-2025 to 31-Mar-2029; approved YPP ₹360 (from ₹145); "~150% increase in yield over BAC+10%."** On the Q2 call management cited a regulator YPP of ₹365. Realised Delhi yield ran above ₹440 in Q2 FY27 because of **dynamic parking charges**: a fixed rate for the first 4 hours, then doubling every 4 hours, about 5× by 24 hours. This **over-recovery will be trued down** in the next control period, and management expects it to last about another year. The primer's "730% asked" is still unverified. | AR FY26 MD&A and notes [V]; Q2 call [V] |
+| S9 | **Hyderabad CP4 yield** (§6 "Key comparison"; C.2 sensitivity) | AERA baseline YPP ₹426.39 vs FY26 realised ₹546 → ₹150–450 Cr hit | **The company says the 5-year weighted-average YPP is ₹538 with no expansion capex, rising to ₹640 with expansion capex.** The Q1 call adds that AERA's proposal implies ~₹485 rising to ~₹900 once the ₹13,800 Cr expansion is commissioned (~Sep-2029), under AERA's put-to-use approach. ICICI Sec reads the order as giving ~+₹65/pax incremental yield after ~₹10,000 Cr of assets are commissioned [V-snip]. **The ₹426.39 baseline and the company's ₹538 are on different bases**, so C.2 overstates the hit. FY27 aero per pax is about flat on FY26. Q2 FY27 GHIAL aero −8% came mostly from traffic (−11%). | Q2 and Q1 calls [V]; outlookbusiness/sahi [V-snip] |
+| S10 | **Net debt by SPV** (§H5; §2.1.5) | "values not extractable" | **30-Sep-2026, ₹ Cr: Delhi 13,900; Hyderabad 6,700; Mopa 2,500; Bhogapuram 3,400; Others 1,000; GAL standalone 6,500 → total 34,000.** Gross debt 43,400; cash & equivalents 9,300. | Q2 deck p.25, rendered [V] |
+| S11 | **Screener gross borrowings ₹47,408 Cr vs company** (trap 11; §2.1.5 "FLAG basis") | implied cash ~₹13,400 Cr [E] | **Reconciled.** Screener ₹47,408 Cr = LT 39,215 + ST 7,073 + leases 1,120. Company gross ₹43,400 Cr excludes FCCB (₹2,910 Cr) and leases (₹1,120 Cr); 47,408 − 43,400 = 4,008 ≈ 4,030. Company cash ₹9,300 Cr is temporarily inflated: DIAL raised ₹3,500 Cr on 29-Sep and repaid the US$522.6 mn notes on 26-Oct. Normal cash is ₹4,500–5,000 Cr. | screener borrowings schedule [V]; deck [V]; Q2 call [V] |
+| S12 | **FCCB treatment and EV** (§0, §2.1.1 valuation, C.5, E16) | FCCB "₹2,910 Cr, debt-like"; EV/EBITDA 22.7× FY26 / 21.6× TTM "minority not added" | **The ADP FCCBs are equity in substance:** €330.817 mn, 6.76% simple interest, 10 yrs + 1 day from 24-Mar-2023, **convertible at ₹43.67/share at a fixed ₹88.5237/€** from the 5th anniversary. That is **~67.06 crore new shares (~6.3% dilution)**, worth **~₹6,640 Cr at ₹99**. Recomputed multiples (§4.2.1-H): headline 22.7× (unchanged); consolidated with FCCB as equity and NCI at book **24.0× FY26 / 22.8× TTM**; **look-through (GAL's share of EBITDA and net debt) 28.3× FY26 / 26.8× TTM.** | AR FY26 note on other equity / borrowings [V]; E |
+| S13 | **FY27 traffic guidance** (§12; §A3; §2.4-7) | "+3–4% (cut from 5–7%)" [V-snip] | **+3–4% YoY for FY27 confirmed, with H2 about 10% above H1** (Q2 call). **The "cut from 5–7%" was not found** in the Q1 or Q2 transcripts: the Q1 call gave only "soft H1, robust H2" and Hyderabad ~30.5–31 mn. Drop "cut from 5–7%" unless re-sourced. | Q2 and Q1 calls [V] |
+| S14 | **Non-aero growth guidance** | "+15–17%" [V-snip] | **+15–17% confirmed; "~15% secular", 18% in good traffic years; consolidated non-aero EBITDA margin "~20%"; underlying spend growth 7–8%** | Q2 and Q1 calls [V] |
+| S15 | **Adani Airports FY26** (§2.2; §2.2.1; §H6) | ~₹13,000–14,000 Cr [E] | **FY26 total income ₹13,081 Cr (+28%), EBITDA ₹5,394 Cr (+55%), PBT ₹1,427 Cr (vs −₹5 Cr); pax 95.3 mn (FY25 94.4); ATMs 619.0k; cargo 11.7 lakh t; aero +26%, non-aero +31%** | AEL Q4/FY26 release, 30-Apr-2026 [V] |
+| S16 | **Adani Q2 FY27 pax** (§H16) | 21.3 mn (company quote) vs 22.6 mn | **21.2 mn (−6% vs 22.6 mn in Q2 FY26); H1 45.4 mn (−1%)**. The 22.6 mn figure is last year's Q2. | AEL Q2 FY27 release [V] |
+| S17 | **BIAL ownership** (§5.1; §5.3; §2.2.3) | "Fairfax ~64%, Siemens exited [K]" | **Fairfax India 74.0%** (43.6% of it via Anchorage, where OMERS holds a minority) → **69.0% fully diluted**. Fairfax bought Siemens' last 10% on 20-Feb-2025 for US$255 mn (₹2,210 Cr); the final instalment was paid 29-Jul-2026, so Siemens has fully exited. AAI 13% + Karnataka/KSIIDC 13% [K split]. BIAL concession to **2068**. | Fairfax India Q2-2026 interim report [V] |
+| S18 | **BIAL financials** (§H7; JSON null) | not sourced | **FY26 revenue US$531.1 mn ≈ ₹4,690 Cr; EBITDA US$370.2 mn ≈ ₹3,269 Cr (69.7%); net earnings US$135.4 mn ≈ ₹1,196 Cr** (at FY26 average ₹88.31/$). FY25: ₹3,994 Cr / ₹2,767 Cr / ₹593 Cr. | Fairfax India Q2-2026 [V] |
+| S19 | **AAI profit** (§5.3; §2.2.2; §H8) | FY25 ₹6,711 Cr "highest ever" (ministerial speech, pre-audit) | **FY26 PAT ₹6,522.37 Cr vs FY25 ₹7,233.28 Cr** (per FY26 financial statements as reported by Asianet Newsable). Dividend: interim ₹852.39 Cr + final ₹1,104.32 Cr; reserves ₹27,890.17 Cr. FY25 revenue was ~₹20,000–21,000 Cr [E from a Daily Pioneer reading of AAI's FY25 annual report: PPP-6 ₹3,200 Cr ≈ 15%; PPP-6 + DEL/BOM ₹7,400 Cr ≈ 36%]. | [V-snip]; [E] |
+| S20 | **ICRA outlook label and FY27 numbers** (§0; §2.1; §H14; JSON) | [V-snip]; label "unclear" | **ICRA airport-sector outlook: Stable (Aug-2026)**; FY27 traffic +1–3% (424–432 mn); revenue of sample (DIAL, BIAL, GHIAL, CIAL, AAI) +6–8%; operating margin ~50% in FY27 and FY28; ATMs 0–2%; international pax −9% YoY in 4M FY27; capex >₹1 lakh Cr over 4–5 yrs. Mar-2026 edition: FY27 +4–6%, revenue +7–9%. | ICRA PDFs [V] |
+| S21 | **AAI history FY20–FY24** (§2.1; E1) | [K] approximations | **FY20 341.05; FY21 115.38; FY22 188.89; FY23 327.28; FY24 376.43; FY25 411.77 first print (412.09 revised)** (mn) | AAI annual traffic reports [V] |
+| S22 | **2026 privatisation round list** (§7.1; B4) | 11 airports incl. **Jabalpur** | **5 bundles: Amritsar–Kangra; Varanasi–Gaya–Kushinagar; Bhubaneswar–Hubballi; Raipur–Aurangabad; Tiruchirappalli–Tirupati.** **Kangra replaces Jabalpur.** Bid on per-domestic-pax fee, with the international fee at 2× domestic. **MoCA plans to cap the number of bundles any one bidder can win** (number not set). Capacity-expansion triggers in the first 7 years. | Outlook Business 24-Aug-2026 citing 149th PPPAC Record of Discussion [V-snip] |
+| S23 | **Crete** (§12; §G; §2.1.4) | opening "2027–28" [K]; "GEK Terna majority" | **Opening 2028** (Greek PM Mitsotakis, Jan-2026; one report says Nov-2028). **Ownership: Greek State 45.9%, GEK Terna 32.46%, GMR 21.64%**, so GEK Terna is *not* the majority. Progress 74% (Jun-2026, AR) → 78% (Sep-2026, deck). | greekreporter/argophilia [V-snip]; AR [V] |
+| S24 | **Vizag land 794 vs 294 acres** (§2.1.4; §2.4-5) | conflict | **Company revision:** total land rose from ~2,510 acres (Q4 deck, Bhogapuram 294) to ~3,010 acres (Q2 deck, Bhogapuram 794), i.e. +500 acres at Vizag. Use 794. The deck does not give the reason. | both decks [V] |
+| S25 | **Revenue share 45.99% vs 42.2% effective** (trap 1; §4.2) | "reconcile" | **Explained by DIAL's arbitral award (16-Jul-2022).** For DIAL's annual fee, shareable revenue excludes (i) the cost of aero assets financed by debt or equity, including interest, (ii) utilities, property tax and security-maintenance pass-throughs, (iii) capital-asset sale proceeds and (iv) other income. DIAL is entitled to a refund of excess fees from 21-Jun-2015. AAI's s.34 challenge was dismissed 18-Oct-2024, and its appeal is before a Delhi HC division bench (hearing 13-Jul-2026). | AR FY26 note 43 [V] |
+| S26 | **Aena net debt / multiple** (§10.1; E16; E17) | ND €6,724 mn (H1); 12.8× | **Net financial debt €5,845 mn at 30-Sep-2026 (FY25 €5,509 mn); ND/EBITDA 1.47×** → LTM EBITDA ≈ €3,976 mn; EV/EBITDA **~12.3×**. 9M-26 revenue €5,283.9 mn (+10.4%), EBITDA €3,077.9 mn (58.3%), net profit €1,774.7 mn; group pax 309.9 mn. | Aena 9M press PDF [V] |
+| S27 | **Zurich net debt** (§10.1; §H10) | not sourced | **~CHF 1,612 mn at 30-Jun-2026** (financial liabilities 1,819.9 − cash 197.8 − fixed-term deposits 9.8) ≈ ₹18,190 Cr; ND/EBITDA ~2.2×; **EV/EBITDA ~11.1×** (on ~CHF 748 mn LTM EBITDA [E]). Zurich cuts ZRH airport charges ~10% from 1-Oct-2026. | Zurich HY report and release [V]; E |
+| S28 | **Hindon / Noida / NMIA UDFs** (E15 "not sourced") | — | **Noida FY27 UDF: ₹490 dom dep, ₹980 intl dep, ₹210 dom arr; NMIA ₹620 dep / ₹270 arr** | outlookbusiness / thecore [V-snip] |
+| S29 | **PPP-6 per-pax fees** (§1.3; E14) | "₹115–177" [K] | **Ahmedabad 177, Jaipur 174, Lucknow 171, Thiruvananthapuram 168, Guwahati 160, Mangaluru 115** (₹ per domestic pax, per AAI). Per-pax fees collected ~₹2,032 Cr to Jun-2024. | Business Standard / News Arena [V-snip] |
+| S30 | **Delhi Car Park subsidiary stake** (§3.2.4) | "DIAL 49.9% / GAL 50.1%" (read as partial) | **100% within the GMR group** (GAL 50.1% direct + DIAL 49.9%). AAI's 26% of DIAL means ~13% look-through leakage. | Q2 call [V] |
+| S31 | **GAL holdco gross/net debt** (§2.1.5) | NCDs ₹7,400 Cr | Gross ~₹7,400 Cr (peak; bondholder-covenant headroom only ~₹200 Cr); **net ~₹6,400–6,500 Cr** (Q1); ₹6,500 Cr per Q2 deck; average cost 11–11.5% (Q1), targeting <10% within 12 months | Q1 call; Q2 deck [V] |
+| S32 | **Medan traffic** (§2.1.4) | 7.1 mn (FY26 basis) | CY2025 **7.03 mn** (international 2.39 mn) | AR FY26 MD&A [V] |
+
+---
+
+## 4.1 Verification table — 40 figures the writer will use
+
+Key: **Fetched?** P = primary document fetched and read this session (company filing, transcript, regulator, court, AAI, rating agency, screener); S = secondary or snippet only; E = arithmetic on P inputs. **Agrees?** compares with Parts 1–3.
+
+| # | Figure | Value | Primary source | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | India airport pax FY26 (AAI) | **420.09 mn (+1.9%)**; dom 339.45, intl 80.64 | AAI TRMar2k26 + Annex; GMR AR MD&A quotes 420 mn (+2%), dom 339.4, intl 80.6 (+4.3%) | P (two sources) | Yes |
+| 2 | India airport pax H1 FY27 | **196.24 mn (−2.9%)**; intl −7.1% | AAI TRSep2k_26; GMR deck says −3.1% | P | Yes (basis note kept) |
+| 3 | AAI history FY20/21/22/23/24/25 | **341.05 / 115.38 / 188.89 / 327.28 / 376.43 / 411.77 (rev. 412.09)** mn | AAI annual traffic PDFs (Mar2k20Annex1, TRMar2k22, TRMar2k24, TRMar2k25_0) | P | Upgrades [K]; first-pass approximations were close |
+| 4 | ICRA FY27 airport traffic | **+1–3% (424–432 mn)** | ICRA research summary, Aug-2026 (id=7089) | P | Yes; upgrades [V-snip] |
+| 5 | ICRA FY27 airport revenue / margin / outlook | **+6–8%; ~50%; Stable**; capex >₹1 lakh Cr over 4–5 yrs | ICRA Aug-2026 | P | Yes; adds label |
+| 6 | GMR share of India pax FY26 | **27.3%** (114.56/420.09); GMR AR: "~27%; 25.6% domestic, 33.9% international" | AAI CSV; AR MD&A | P + E | Yes |
+| 7 | Adani share FY26 | **22.7%** (95.31 mn); company 95.3 mn | AAI CSV; AEL FY26 release | P (two sources) | Yes |
+| 8 | AAI & others share FY26 | **35.7% (150.0 mn)** | AAI CSV re-summed | E from P | **No — supersedes 35.0% (S5)** |
+| 9 | GMR revenue from ops / gross income FY26 | **₹14,807 Cr / ₹15,201 Cr** (AR: total income ₹15,200.75 Cr vs ₹10,835.89 Cr) | AR; screener | P (two sources) | Yes |
+| 10 | GMR EBITDA FY26 | **₹6,150 Cr (+47%)** | AR MD&A; Q4 deck | P | Yes |
+| 11 | GMR consolidated PAT FY26 | **₹472.39 Cr** (FY25 −₹816.90 Cr) | AR consolidated P&L | P | Yes |
+| 12 | GMR PAT attributable FY26 | **₹175.49 Cr**; NCI ₹296.90 Cr | AR; screener "Profit for EPS" ₹175 Cr | P (two sources) | **No — supersedes ~₹180 Cr [E] and primer "loss" (S1, S3)** |
+| 13 | Attributable PAT Q1 / Q2 FY27 | **+₹91 Cr / −₹15 Cr** | screener schedules API | P | Refines (S2) |
+| 14 | Q2 FY27 total income / EBITDA / PAT | **₹4,188 Cr (+12%) / ₹1,569 Cr (+2%, 49%) / ₹65 Cr** | Q2 call opening remarks (₹41.9 bn / ₹15.7 bn / ₹654 mn); deck | P (two sources) | Yes |
+| 15 | Revenue share paid FY26 (consolidated) | **₹3,443.58 Cr** (FY25 ₹2,634.78 Cr) | AR consolidated P&L | P | Yes |
+| 16 | DIAL revenue share FY26 | **₹3,231.94 Cr** (FY25 ₹2,496.08 Cr); 42.2% of DIAL gross | AR subsidiary note; Q4 deck | P | Yes; 45.99% vs 42% explained (S25) |
+| 17 | GMR gross debt / cash / net debt (Sep-26) | **₹43,400 / ₹9,300 / ₹34,000 Cr** | Q2 deck p.25 | P | Yes; adds gross and cash |
+| 18 | Net debt by SPV (Sep-26) | **DEL 13,900; HYD 6,700; GOX 2,500; VTZ 3,400; others 1,000; GAL SA 6,500** | Q2 deck p.25 (rendered) | P | New (fills §H5) |
+| 19 | ADP FCCB terms | **€330.817 mn, 6.76%, conv. ₹43.67 at ₹88.5237/€ → ~67.06 crore shares** | AR FY26 notes | P + E | New (S12) |
+| 20 | Non-controlling interest (book) | **₹931 Cr (Mar-26) → ₹1,056 Cr (Sep-26)** | screener balance-sheet schedule | P | New |
+| 21 | GMR m-cap / price (13-Nov-26) | **₹1,05,840 Cr / ₹99.0** | screener (first pass, same day) | P | Yes |
+| 22 | GMR EV/EBITDA, look-through | **26.8× TTM / 28.3× FY26** (headline 22.7×) | E on items 17–21 and SPV EBITDA | E | **Changes the argument (S12)** |
+| 23 | FY27 traffic guidance | **+3–4%; H2 ≈ +10% over H1** | Q2 call (29-Oct-2026) | P | Yes on +3–4%; **"cut from 5–7%" not found (S13)** |
+| 24 | Non-aero guidance | **+15–17%; non-aero EBITDA margin ~20%** | Q2 call | P | Yes; adds margin |
+| 25 | Capex guidance | **FY27 total ~₹2,000 Cr (Q1); balance FY27 ~₹1,000 Cr after ~₹1,600 Cr in H1; steady-state operational capex ₹1,000–1,500 Cr p.a.; no expansion or new-airport capex** | Q1 and Q2 calls | P | New |
+| 26 | AERA appeal of TDSAT DIAL CP4 ruling | **Filed in the Supreme Court; implementation likely FY28 unless stayed** | Q2 call | P | **New (S7)** |
+| 27 | Delhi CP4 approved YPP | **₹360 (from ₹145; ~150%)**; order 20/2024-25 dated 28-Mar-2025, effective 16-Apr-2025 | AR FY26 | P | Refines (S8) |
+| 28 | Hyderabad CP4 YPP | **Company: weighted ₹538 (₹640 with expansion); AERA baseline ₹426.39; ARR ₹11,683.49 Cr vs ₹27,851 Cr sought** | Q2 call (P); press on order (S) | P + S | Refines (S9) |
+| 29 | Hyderabad UDF from 1-Sep-2026 | **dom dep ₹515 (was ₹750), intl ₹1,030 (was ₹1,500); arrival ₹220 / ₹440** | GMR PR confirms implementation on 1-Sep; rates from press | S (rates) | Yes |
+| 30 | SC 18-Oct-2024 ruling | **AERA's s.31 appeals maintainable** | SC PDF | P | **No — supersedes "upheld powers" (S6)** |
+| 31 | TDSAT GGIAL (Mopa) CP1 | **AERA order of 07-Dec-2023 set aside, 11-Sep-2025** | TDSAT PDF | P | New |
+| 32 | DIAL COVID-period MAF not provided | **₹1,758.28 Cr** (Apr-2020 to Mar-2022; force majeure); ₹446.21 Cr appropriated by AAI and provided for | AR note 43 | P | New |
+| 33 | Customer concentration | **Two customers >10% each = ₹3,447.03 Cr (~23% of revenue from ops)** (FY25 ₹1,381.56 Cr) | AR segment note | P | New |
+| 34 | Adani Airports FY26 | **Income ₹13,081 Cr; EBITDA ₹5,394 Cr; PBT ₹1,427 Cr; pax 95.3 mn** | AEL FY26 release | P | **Supersedes [E] (S15)** |
+| 35 | Adani Airports Q2 / H1 FY27 | **Q2 income ₹3,786 Cr, EBITDA ₹1,641 Cr, PBT −₹290 Cr, pax 21.2 mn; H1 ₹7,549 / ₹3,275 / −₹484 Cr, 45.4 mn** | AEL Q2 release | P | Yes; upgrades [V-snip] |
+| 36 | BIAL ownership / FY26 P&L | **Fairfax 74.0% (69.0% FD); revenue ≈ ₹4,690 Cr, EBITDA ≈ ₹3,269 Cr, NI ≈ ₹1,196 Cr** | Fairfax India Q2-2026 interim | P | **Supersedes ~64% [K] (S17/S18)** |
+| 37 | CIAL FY26 | **Revenue ₹1,220 Cr (+6.6%), PAT ₹502 Cr, dividend 55%** | onmanorama / dailypioneer (Aug-2026) | S | Yes (still secondary) |
+| 38 | AAI profit FY26 / FY25 | **₹6,522.37 Cr / ₹7,233.28 Cr** | Asianet Newsable citing AAI FS | S | **Supersedes ₹6,711 Cr speech figure (S19)** |
+| 39 | Aena net debt / leverage | **€5,845 mn; 1.47×** (9M-26) | Aena 9M press PDF | P | **Supersedes €6,724 mn / 1.73× (S26)** |
+| 40 | Zurich net debt | **~CHF 1,612 mn** (30-Jun-26) | Zurich HY balance sheet | P + E | New (S27) |
+
+**Count:** 33 of 40 rest on primary documents fetched this session: P or P+E, items 1–7, 9–21, 23–27, 30–36, 39, 40. Two are pure arithmetic on primary inputs (8, 22). Four remain secondary (29 rates, 37, 38, and the AERA side of 28). Item 28 is mixed P + S and counts as primary for the company number.
+
+**Where sources conflict, the more credible one:**
+- H1 FY27 all-India: AAI −2.9% over GMR's −3.1%. AAI is the publisher; GMR's deck probably uses an earlier cut.
+- FY25 all-India: 412.09 (revised, FY26 report) over 411.77 (first print). Use the revised figure.
+- Delhi CP4 YPP: ₹360 (AR, the company's audited annual report) over ₹365 (verbal, on the call). Either works; say "~₹360".
+- AAI profit: the FY26 financial statements (via Asianet) over the Apr-2025 ministerial speech (pre-audit). The audited FY25 figure is ₹7,233 Cr, above the speech's ₹6,711 Cr.
+- Adani Q2 pax: the company table (21.2 mn) over the CEO quote (21.3 mn). The 22.6 mn figure is the prior-year quarter.
+
+---
+
+## 4.2 Company packs
+
+### 4.2.1 GMR Airports Ltd (GMRAIRPORT · 532754) — primary-source pack
+
+#### A. Management-guidance digest — Q2 FY27 call (29-Oct-2026), with Q1 FY27 call where noted [V transcripts; paraphrased]
+
+**Speakers.** ED Finance & Strategy, CFO-level finance heads, and the business heads for non-aero and real estate. Names are in the transcript and are not needed for the report.
+
+**Traffic**
+- FY27 GAL traffic is guided at **+3–4% YoY**, with **H2 about 10% above H1** (H1 was 58.4 mn).
+- Confidence rests on two things: seasonality (Dec–Jan VFR traffic) and airline slot filings, which management says are "already open for booking" for the next 2–3 months at Delhi and Hyderabad and for >90% of slots at Goa.
+- H2 growth is expected at Goa, Hyderabad and Delhi, a little at Nagpur, with Vizag flat.
+- Metro routes and international VFR demand are described as fare-inelastic.
+- **Hyderabad's fall** is attributed to (i) IndiGo route rationalisation from Jan-2026 and (ii) the West Asia shock to its Gulf-skewed international traffic. International "has recovered completely". Domestic drag continues through H2 and should be behind it in FY28.
+- In the Q1 call management had guided **Hyderabad FY27 at ~30.5–31 mn, i.e. flat**. With H1 at −11.7% (13.6 mn), that now looks unattainable [E].
+
+**Non-aero**
+- Non-aero growth is guided at **15–17%**: "~15% secular", 18% "in good years".
+- Built on **7–8% spend-per-pax growth** plus penetration. Duty-free penetration is ~14% at Delhi and 11–12% at Hyderabad (Q1).
+- Q2 IPP growth of ~12% was helped by full-period effects of the new Delhi T1, the expanded Hyderabad terminal and its enlarged departure duty-free store, plus Delhi outlets reopening.
+- **Consolidated non-aero EBITDA margin "~20%".** In Delhi, F&B grew faster than duty free; in Hyderabad, duty free grew faster than F&B.
+- Platform revenue is now "almost equivalent to Hyderabad", with similar EBITDA.
+- Management declined to compare with Adani's ~₹1,000+ non-aero per pax. Levers cited: its app/digital sales, an enlarged duty-free area and the T3 international redo.
+
+**Aero yields**
+- **Delhi's** realised YPP is above the regulator's ~₹360–365 (Q2 FY27 aero YPP ₹497 for the group) because of **dynamic parking pricing**: fixed for 4 hours, then doubling every 4 hours, ~5× by 24 hours.
+- Management concedes this will be treated as **over-recovery in the next control period** and that the run-rate lasts about one more year as airlines speed up turnarounds.
+- **Hyderabad's** yield is above plan because transfer pax were assumed higher than they turned out (the yield is spread over fewer pax).
+
+**Hyderabad CP4**
+- The 5-year weighted YPP is **₹538** with no expansion capex, rising to **₹640** with expansion capex (Q2).
+- In the Q1 call: AERA's new approach adds yield only when assets are **put to use**. On that basis, AERA's proposed ~₹485 would jump to ~₹900 when the ₹13,800 Cr expansion completes (~Sep-2029). GMR has asked AERA to smooth this.
+
+**Vizag (Bhogapuram)**
+- Q2 (46 days from COD 17-Aug): **revenue ~₹42 Cr, EBITDA ~−₹4 Cr, PAT −₹82 Cr**, on an **ad-hoc tariff (~₹1,200 YPP, ~60–75% of a final tariff)**.
+- Management expects a **final CP1 tariff of ~₹1,700–1,800 YPP by ~Jan-2027**. Q3 losses are expected to be similar.
+- Vizag D&A is "~₹240 Cr", likely the annual run-rate [E: period not stated].
+
+**Nagpur**
+- Q2: **revenue ~₹42 Cr, EBITDA ₹8.5 Cr, PAT ₹8.1 Cr**. FY26 (pre-GMR) revenue ~₹140 Cr, EBITDA ₹40–45 Cr (Q1 call).
+- Revenue share stays **14.49%**. Refurbishment capex ₹250–300 Cr in FY27 (Q1).
+
+**EBITDA bridge Q2**
+- Group EBITDA was only +2% because of **Vizag consolidation and weaker Goa**. Delhi and Hyderabad margins expanded.
+- The other-expenses step-up (~₹100 Cr QoQ) is Vizag and Nagpur. The new run-rate is ~₹875–900 Cr per quarter.
+
+**Interest and debt**
+- **"Net debt has peaked" at ₹34,000 Cr.** There is no fresh debt for expansion. Interest rose QoQ because Vizag interest is no longer capitalised. "The next two quarters will reflect the full interest of Vizag", then it stabilises.
+- DIAL's ₹3,500 Cr 15-yr NCD costs **8.7% (9.0% effective)** against **10.9% effective** on the US$522.6 mn notes repaid **26-Oct-2026**. GAL's ₹1,500 Cr at 9.56% replaced 10.75% debt.
+- **GAL holdco** (Q1 call): gross debt ~₹7,400 Cr, which is the peak; bondholder covenants allow only ~₹200 Cr more. Net ~₹6,400–6,500 Cr. Average cost 11–11.5%, targeting <10% within 12 months.
+- Comfortable consolidated ND/EBITDA is put at **4–4.5×**. **Delhi dividends to GAL are expected in ~2 years** as DIAL's standalone net worth turns positive. Hyderabad already pays dividends.
+
+**Capex**
+- **No airport expansion or new-airport capex is planned.** Operational capex is **₹1,000–1,500 Cr p.a.** across airports.
+- **Balance FY27 ~₹1,000 Cr** after ~₹1,600 Cr in H1 (H1 includes the Bhogapuram capitalisation). The Q1 call gave a total FY27 of ~₹2,000 Cr: operational ₹1,500 Cr + Nagpur ₹250 Cr + real estate ₹200 Cr.
+
+**Regulatory and legal**
+- **TDSAT ruled for DIAL on CP4 "on all issues", including AERA's non-implementation of earlier orders.** AERA has **already appealed to the Supreme Court**. Absent a stay it must implement. Benefit "most likely" in FY28. **Management declined to quantify** (the analyst cited press estimates of ~₹1,500 Cr EBITDA).
+- **CP1 HRAB case at the SC:** hearings done; finality expected in ~3 months (Q2); "3–6 months" in Q1.
+
+**ADP and capital structure**
+- The OCRPS conversion (102 mn shares to an ADP subsidiary, 29-Sep-2026) **keeps the GMR:ADP promoter ratio at 51:49** after ADP sold 3.4% to the GMR family. The fully diluted share count is unchanged.
+
+**GPUIL receivable**
+- ₹200 Cr received so far in FY27. ₹720 Cr is due in FY27 (30% of ~₹2,400 Cr), so ~₹520 Cr more by Mar-2027, with ~2.5 years of payments left.
+
+**Real estate**
+- **Delhi Aerocity 1 mn sq ft commercial building:** completion **Q4 FY27**. **80,000 sq ft leased at ₹270/sq ft/month**. Full lease-up expected 6–9 months into FY28.
+- **Taj Delhi International (380 keys)** opens partially from Q4 FY27. A **Hilton + Waldorf Astoria** dual-brand hotel (~500 keys) starts construction Jan-2027. **Vivanta Vizag (~150–165 keys)** is handed over in phases in FY27.
+- Strategy: monetise completed commercial assets via a **REIT or sale to pension/sovereign funds in 3–4 years**.
+
+**Other items**
+- Delhi state cut VAT on ATF from 25% to 7% (Q1 call).
+- The Delhi T3 F&B concession (50 outlets) moves to GMR Hospitality (70%) and is consolidated from Q3.
+- FedEx express terminal licence at Delhi Cargo City. Hyderabad–Brussels cargo MoU.
+
+**The analyst Q&A points that matter most (paraphrased)**
+1. *Revenue +12% but EBITDA +2%:* management attributes this to Vizag, plus Goa.
+2. *Is Delhi's high YPP sustainable?* No. Dynamic parking is a ~1-year effect and will be clawed back.
+3. *TDSAT value and timing?* AERA has appealed; management will not quantify; FY28.
+4. *GAL standalone IPP growth lagging airport IPP?* The GAL platform runs only four verticals (duty free, cargo, car park, retail), and Hyderabad's lower traffic hits them.
+5. *Cash ~₹9,000 Cr?* Temporary: the DIAL NCD was raised before the US$ notes were repaid.
+6. *Minority interest up?* DIAL and GHIAL are profitable (26% goes to AAI), while 100%-owned Vizag and Mopa losses fall wholly on GAL.
+7. *Capex?* Operational only; no new expansion.
+
+#### B. Concall / deck KPI table (company basis) [V decks + calls]
+
+| KPI | Q2 FY26 | Q1 FY27 | **Q2 FY27** | H1 FY27 | Guide / comment |
+|---|---|---|---|---|---|
+| GAL pax (mn) | 27.8 [E] | 30.5 | **28.0 (+0.6%)** | 58.4 (+0.8%) | FY27 +3–4%; H2 ≈ 1.1 × H1 → FY27 ≈ 122.6–125 mn [E] |
+| Delhi pax (mn) | 17.6 | 20.4 | **18.1 (+3.0%)** | 38.5 (+5.0%) | strong international and European slot demand |
+| Hyderabad pax (mn) | 7.3 | 7.1 | **6.5 (−11.2%)** | 13.6 (−11.7%) | Q1 guide 30.5–31 mn for FY27 (at risk) |
+| Gross income (₹ Cr) | 3,754 | 4,085 | **4,188 (+12%)** | 8,273 | — |
+| EBITDA (₹ Cr) / margin on net income | 1,531 / 53% | 1,568 / 50% | **1,569 / 49%** | 3,136 / 50% | Vizag and Goa drag |
+| Delhi total income / EBITDA (₹ Cr) | 1,849 / 675 | 2,068 / 703 | **2,084 / 759** | 4,152 / 1,462 | Q2 aero +5%, non-aero +20%; DIAL PAT ₹121 Cr (6th positive quarter) |
+| Hyderabad total income / EBITDA (₹ Cr) | 674 / 430 | 627 / 390 | **632 / 402** | 1,259 / 792 | Record non-aero IPP ₹330 |
+| Mopa total income / EBITDA (₹ Cr) | 84 / 12 | 126 / 40 | **104 / 24** | 230 / 65 | aero +35% on −24% pax (SIP incentives ended); non-aero IPP ₹228 (+25%) |
+| Vizag revenue / EBITDA / PAT (₹ Cr) | — | — | **~42 / ~−4 / −82** (46 days) | — | final CP1 tariff ~Jan-2027 (₹1,700–1,800 YPP) |
+| Nagpur revenue / EBITDA / PAT (₹ Cr) | — | (5 days) | **~42 / 8.5 / 8.1** | — | 14.49% revenue share |
+| Aero YPP (₹) | — | ~444 [E] | **497** | 470 | Delhi elevated by parking (temporary) |
+| Non-aero IPP (₹) | ~728 [E] | ~689 [E] | **772** | 728 | 15–17% non-aero growth |
+| Net debt (₹ Cr) | 34,000 | 34,000 | **34,000** | — | "peaked"; target 4–4.5× |
+| Capex (₹ Cr) | — | — | — | ~1,600 | balance FY27 ~1,000; steady state 1,000–1,500 p.a. |
+| Consolidated operating cash flow (₹ Cr) | — | — | — | 3,030 (H1; vs 2,313) | [V-snip quartr summary] |
+
+#### C. 5-year history, FY22–FY26 (screener consolidated + AR/deck) [V]
+
+| ₹ Cr | FY22 | FY23 | FY24 | FY25 | **FY26** |
+|---|---|---|---|---|---|
+| Revenue from ops (screener "Sales") | 4,601 | 6,674 | 8,755 | 10,414 | **14,807** |
+| YoY | +29% | +45% | +31% | +19% | **+42%** |
+| Operating profit (screener, ex-other income) | 2,285 | 1,727 | 2,972 | 3,775 | **5,757** |
+| OPM (screener) | 50% | 26% | 34% | 36% | **39%** |
+| Company EBITDA (incl. other income; margin on net income) | n.a. | n.a. | n.a. | 4,188 (51%) | **6,150 (52%)** |
+| Revenue share to grantors | n.a. | n.a. | n.a. | 2,635 | **3,444** |
+| Interest | 2,019 | 2,338 | 2,929 | 3,705 | **3,859** |
+| Depreciation | 889 | 1,038 | 1,466 | 1,910 | **1,837** |
+| Exceptional items (after tax, screener) | −563 | +233 | +109 | +427 | **−67** |
+| PAT consolidated | −1,131 | −840 | −828 | −817 | **+472** |
+| Minority share (screener sign: + = added back) | +108 | +661 | +268 | +424 | **−297** |
+| **PAT attributable to owners** | **−1,023** | **−179** | **−559** | **−393** | **+175** |
+| EPS (₹) | −1.70 | −0.30 | −0.93 | −0.37 | **0.17** |
+| ROCE (screener) | 5% | 4% | 6% | 7% | **12%** |
+| Gross borrowings (screener, incl. FCCB and leases) | 26,633 | 32,157 | 35,905 | 38,485 | **43,550** |
+| Cash equivalents (screener, narrow) | 3,116 | 4,021 | 2,826 | 944 | **993** |
+| Company net debt (ex-FCCB) | n.a. | n.a. | n.a. | n.a. (Sep-25 ≈ 34,000) | **34,000** |
+| Book NCI | 2,736 | 1,762 | 1,294 | 715 | **931** |
+| Equity attributable to parent | −817 | −792 | −2,164 | −2,503 (AR) | **−2,480 (AR)** |
+| CFO / FCF | 3,256 / 194 | 2,199 / −1,685 | 3,880 / −641 | 3,443 / −581 | **4,884 / 1,582** |
+| Employee cost | 756 | 971 | 1,243 | 1,487 | **1,719** |
+| Material cost (duty-free stock etc.) | 150 | 187 | 215 | 316 | **982** |
+
+Basis notes:
+- FY22 OPM 50% includes COVID-era concession relief.
+- Equity attributable to parent FY22–FY24 is screener equity capital plus reserves (approximate). FY25/FY26 are from the AR.
+- Material cost tripled in FY26 because duty free was insourced: GAL now buys stock.
+- Screener's "cash equivalents" excludes bank deposits and liquid investments, so screener gross minus cash is not net debt. Use the company figure.
+
+#### D. 8-quarter trend, Q3 FY25 → Q2 FY27 (screener consolidated; company EBITDA where disclosed) [V]
+
+| ₹ Cr | Q3 FY25 (Dec-24) | Q4 FY25 (Mar-25) | Q1 FY26 (Jun-25) | Q2 FY26 (Sep-25) | Q3 FY26 (Dec-25) | Q4 FY26 (Mar-26) | Q1 FY27 (Jun-26) | **Q2 FY27 (Sep-26)** |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 2,653 | 2,863 | 3,205 | 3,670 | 3,994 | 3,938 | 3,967 | **4,100** |
+| YoY | +19% | +17% | +33% | +47% | +51% | +38% | +24% | **+12%** |
+| Operating profit | 992 | 1,009 | 1,165 | 1,447 | 1,701 | 1,445 | 1,450 | **1,480** |
+| OPM | 37% | 35% | 36% | 39% | 43% | 37% | 37% | **36%** |
+| Company EBITDA | n.a. | n.a. | 1,281 [E: H1 − Q2] | 1,531 | 3,338 for Q3+Q4 [E] | (in Q3+Q4) | 1,568 | **1,569** |
+| Other income | 562 | 241 | 208 | 130 | −73 | 260 | 167 | **143** |
+| Interest | 829 | 955 | 949 | 1,043 | 917 | 950 | 938 | **993** |
+| Depreciation | 479 | 491 | 489 | 431 | 465 | 452 | 456 | **493** |
+| PBT | 246 | −196 | −65 | 103 | 246 | 302 | 223 | **137** |
+| PAT consolidated | 202 | −253 | −137 | 35 | 174 | 400 | 148 | **65** |
+| Minority share (+ = added back) | +65 | +15 | −74 | −72 | −52 | −98 | −57 | **−80** |
+| **PAT attributable** | **267** | **−238** | **−212** | **−37** | **122** | **302** | **91** | **−15** |
+| Exceptional (AT) | +364 | +64 | −5 | +12 | −130 | −6 | 0 | **0** |
+| Employee cost | 386 | 394 | 408 | 432 | 435 | 442 | 460 | **459** |
+| Material cost | 86 | 83 | 103 | 234 | 343 | 301 | 315 | **299** |
+| GAL pax (mn) | — | — | ~30.1 [E] | 27.8 [E] | — | — | 30.5 | **28.0** |
+
+**Read:** consolidated PAT has been positive for five quarters, but **attributable PAT turned negative again in Q2 FY27 (−₹15 Cr)**. Minorities (AAI's 26% of DIAL and GHIAL) took ₹80 Cr while Vizag's −₹82 Cr loss fell 100% on GAL [V; E]. Expect the same pattern in Q3 FY27, with a full quarter of Vizag losses, until Vizag's final tariff arrives (~Jan-2027) [E from call].
+
+#### E. Annual-report findings (FY26 AR, 219 pp.) [V]
+
+1. **Attributable vs NCI:** PAT ₹472.39 Cr = owners ₹175.49 Cr + NCI ₹296.90 Cr. OCI was −₹136.28 Cr, so total comprehensive income to owners is only **₹23.66 Cr**. Equity attributable to owners is **−₹2,479.76 Cr** at Mar-2026 (−₹2,503.42 Cr at Mar-2025). PBT before exceptional items and tax was ₹694.59 Cr (FY25 −₹1,242.70 Cr).
+2. **Single reportable segment** ("operation of airport and providing allied services"), so no segment P&L. **Customer concentration: two customers each >10% of revenue together ₹3,447.03 Cr ≈ 23% of revenue from ops (FY25 ₹1,381.56 Cr).** Not named; almost certainly IndiGo and the Air India group [E]. The jump reflects the Delhi CP4 aero step-up.
+3. **Revenue share:** consolidated ₹3,443.58 Cr (FY25 ₹2,634.78 Cr); DIAL ₹3,231.94 Cr; GHIAL ₹102.21 Cr. Nagpur (GNIAL) pays **₹1/yr concession fee + 14.49% of gross revenue**. Annual fees payable to AAI on the balance sheet: ₹1,098.56 Cr (FY25 ₹998.40 Cr).
+4. **DIAL–AAI fee disputes (contingent, two-way):**
+   - (a) **COVID-period MAF of ₹1,758.28 Cr (Apr-2020 to Mar-2022) not provided**, on a force-majeure claim (OMDA Art. 16.1). AAI appropriated ₹446.21 Cr (Apr–Dec 2020), which DIAL fully provided in FY21. An interim settlement on 25-Apr-2022 restored MAF payments prospectively.
+   - (b) **Arbitral award of 16-Jul-2022** narrows "shareable revenue" (exclusions listed in S25) and **entitles DIAL to a refund of excess fees paid since 21-Jun-2015**. AAI's s.34 challenge was dismissed on 18-Oct-2024; AAI's appeal is pending before a Delhi HC division bench.
+   - Neither amount is in the P&L. Both are material: ₹1,758 Cr is ~3.7× FY26 consolidated PAT.
+5. **Other contingent liabilities (consolidated, Mar-26 / Mar-25):** BG/LC outstanding ₹452.56 / ₹687.22 Cr; income-tax disputes ₹372.50 / ₹407.78 Cr; indirect tax ₹176.86 / ₹165.45 Cr; other claims ₹34.08 Cr. Separate notes cover PSF(SC) fund utilisation, duty-credit scrips at DIAL and the 2019 PF judgment.
+6. **Regulatory notes:**
+   - DIAL CP4 order 20/2024-25 (28-Mar-2025; YPP ₹360). TDSAT appeal filed 26-Jun-2025.
+   - CP2/CP3 TDSAT order of 21-Jul-2023 has been appealed by AERA and FIA to the SC (filed 19-Oct-2023; FIA's appeal admitted). **AERA deferred implementation pending the SC**, which is the "non-implementation" TDSAT has now ruled against.
+   - CP1: SC on 11-Jul-2022 dismissed DIAL's appeals except on the corporate-tax "T" element.
+   - **AERA Order 01/2026-27 (7-Apr-2026) cut domestic landing and parking charges at all major airports by 25% for three months** (West-Asia relief). The under-recovery will be trued up later.
+   - GHIAL's CP3 final-quarter rates were held at Apr–Dec 2025 levels.
+   - Bhogapuram was declared a "Major Airport" by AERA. Ad-hoc tariff order dated 27-Jul-2026.
+7. **ADP instruments:** the FCCBs (S12). The equity component of ₹479.35 Cr (net of ₹161.21 Cr deferred tax) sits in other equity. The balance is fair-valued under Ind AS 109 and is euro-linked, which is the source of the FY26 "non-cash FX loss ~₹260 Cr" [E link]. Interest is simple 6.76%, first payable after year 5 (from Mar-2028).
+8. **Real-estate annuity hidden in the notes:** future minimum rentals receivable under **non-cancellable operating leases** (group as lessor, mostly DIAL's CPD/Aerocity) are **₹1,026.55 Cr within 1 year, ₹4,309.97 Cr in 1–5 years and ₹34,170.29 Cr beyond 5 years**, about **₹39,500 Cr contracted**. Leases run 1–42 years. Nominal and undiscounted, and part of it flows to AAI via the 45.99% revenue share [E].
+9. **Impairment testing:** discount rates **12.0–12.5%** (FY25 11.5–12.0%). Revenue growth assumptions range 0–72%.
+10. **Marketing fund (DIAL):** ₹361.66 Cr collected from concessionaires to date, ₹306.09 Cr spent, ₹55.57 Cr unutilised. Minor.
+11. **Industry framing in the MD&A:**
+    - GAL handled 1.33 MMT of cargo (+4%) = **34% of India's cargo**.
+    - Delhi connects **162 destinations (87 domestic, 75 international)**. T3 Pier C conversion lifts T3 international capacity 50% to 32 mn.
+    - ICRA estimates the Indian airline industry lost ₹320–340 bn in FY26 and expects ₹360–380 bn in FY27.
+    - The government intends to expand PPP airports **from 14 to 25** under the NMP.
+    - Crete progress ~74% at Jun-2026. GMR Airports Greece took 60% of GMR Terna Commercial S.A., which will run Crete's non-aero business.
+12. **Related parties:** the AR's RPT tables list ADP, GMR Enterprises, GMR Infra Services and others. **The ₹ amounts of ADP royalty/technical-services fees were not extracted** (the multi-column layout did not parse cleanly). Left in the gap log. ICDs to GPUIL: ₹2,430 Cr at Mar-2026 [V CRISIL], ₹720 Cr due in FY27 [V call].
+
+#### F. Net debt by SPV and leverage (30-Sep-2026) [V deck p.25; E ratios]
+
+| Entity | Net debt (₹ Cr) | GAL stake | EBITDA TTM (₹ Cr) [E] | ND/EBITDA [E] | Note |
+|---|---|---|---|---|---|
+| DIAL (Delhi) | **13,900** | 74% | 3,034 (H1 FY27 1,462 + H2 FY26 1,572) | **4.6×** | US$522.6 mn notes repaid 26-Oct; new ₹3,500 Cr NCD at 8.71% |
+| GHIAL (Hyderabad) | **6,700** | 74% | 1,586 (792 + 794) | **4.2×** | International IG (S&P / Fitch BBB−) |
+| GGIAL (Mopa) | **2,500** | 100% (NIIF CCDs) | ~130–150 | **~17–19×** | Interest ₹290 Cr/yr vs EBITDA ~₹130 Cr |
+| GVIAL (Bhogapuram) | **3,400** | 100% (NIIF CCDs) | negative (ramp-up) | n.m. | Interest now expensed |
+| Others (Greece 380, GLPPL 420, Delhi car park etc.) | **1,000** | various | — | — | — |
+| GAL standalone (holdco + platform) | **6,500** | 100% | 1,420 (FY26 incl. dividends, company basis) | **4.6×** (CRISIL 5.8× on its own EBITDA definition) | ₹1,500 Cr bullet 13-Feb-2027 |
+| **Total** | **34,000** | | **6,474 (consolidated TTM)** | **5.3×** | FCCB ₹2,910 Cr excluded |
+| Look-through (GAL share) | **28,644** | | 5,273 | 5.4× | 26% of DEL+HYD removed from both |
+
+#### G. Valuation recomputed (13-Nov-2026; ₹99; m-cap ₹1,05,840 Cr) [E on V inputs]
+
+| Basis | Equity | + FCCB | + NCI | + Net debt | EV (₹ Cr) | ÷ FY26 EBITDA | ÷ TTM EBITDA |
+|---|---|---|---|---|---|---|---|
+| A. Headline (first pass) | 1,05,840 | — | — | 34,000 | 1,39,840 | 22.7× (6,150) | 21.6× (6,474) |
+| B. Consolidated; FCCB as converted equity (67.06 cr sh × ₹99); NCI at book | 1,05,840 | 6,639 | 1,056 | 34,000 | **1,47,535** | **24.0×** | **22.8×** |
+| C. **Look-through** (GAL's share of EBITDA and net debt; fully diluted equity) | 1,05,840 | 6,639 | — | 28,644 | **1,41,123** | **28.3×** (4,981) | **26.8×** (5,273) |
+| C′. Consolidated with NCI at the market-implied value (26% × (DEL+HYD EV at 26.8× − their ND)) | 1,05,840 | 6,639 | ~26,800 | 34,000 | **~1,73,300** | 28.2× | 26.8× |
+| D. Screener OP basis (ex-other income) | 1,05,840 | — | — | 34,000 | 1,39,840 | 24.3× (5,757) | 23.0× (6,075) |
+
+- **Recommended for the report:** quote **~23× headline (consolidated, EV ₹1.40–1.48 lakh Cr)** and say that on a **look-through basis GMR trades at ~27× TTM EBITDA**. AAI's 26% of the two big airports and ADP's in-the-money FCCBs mean the headline understates the multiple by 4–5 turns.
+- Mopa and Vizag NIIF CCDs (convertible up to 49%) are ignored. Those SPVs make losses, so including them would barely change EBITDA but would add claims.
+- **ADP exit mark:** tranche 1 (3.4% for €256 mn) implies ~€7.53 bn for 100%, ≈ **₹78,400 Cr at ₹104.1/€ (₹73.5/share)**, i.e. **~26% below market** [E, unchanged].
+- **Private marks for comparison:**
+  - **BIAL**, Fairfax's DCF of its 74% at US$2,210.9 mn: 100% ≈ US$2.99 bn ≈ **₹28,100 Cr equity** ≈ **8.6× FY26 EBITDA on equity alone**, ~10–11× on EV [E; NCD ~₹9,000 Cr less cash]. This is an owner's mark, not a traded price.
+  - **AAHL pre-IPO at ~US$18 bn (₹1.69 lakh Cr)** is ~**26× TTM EBITDA (₹6,512 Cr) on equity alone** before AAHL's large debt [E]. That is a similar or higher multiple than GMR's look-through.
+
+### 4.2.2 Reference peer — Adani Airport Holdings (AAHL; inside Adani Enterprises) [V AEL releases unless tagged]
+
+**Airports segment (₹ Cr; company table)**
+
+| | Q4 FY25 | Q4 FY26 | FY25 | **FY26** | Q2 FY26 | **Q2 FY27** | H1 FY26 | **H1 FY27** |
+|---|---|---|---|---|---|---|---|---|
+| Passengers (mn) | 24.7 | 24.7 | 94.4 | **95.3** | 22.6 | **21.2 (−6%)** | 46.0 | **45.4 (−1%)** |
+| ATMs ('000) | 157.8 | 158.3 | 623.8 | 619.0 | 148.2 | 141.9 | 301.7 | 302.3 |
+| Cargo (lakh t) | 2.7 | 3.0 | 10.9 | 11.7 | 2.9 | 3.2 | 5.7 | 6.2 |
+| Total income | 2,831 | 3,429 | 10,224 | **13,081 (+28%)** | 3,167 | **3,786 (+20%)** | 5,882 | **7,549 (+28%)** |
+| EBITDA | 953 | 1,670 | 3,480 | **5,394 (+55%)** | 1,062 | **1,641 (+55%)** | 2,157 | **3,275 (+52%)** |
+| EBITDA / total income | 34% | 49% | 34% | **41%** | 34% | **43%** | 37% | **43%** |
+| PBT | (5) | 448 | (5) | **1,427** | 99 | **(290)** | 303 | **(484)** |
+
+- **TTM EBITDA to Sep-2026 ≈ ₹6,512 Cr** (5,394 + 3,275 − 2,157) [E]. That is **level with GMR's TTM company EBITDA (₹6,474 Cr)**, on fewer passengers (TTM ~94.7 mn vs GMR's ~115 mn India) [E]. In FY26 Adani made **EBITDA ₹566 per pax vs GMR ₹537** (GMR's figure includes platform businesses and is on India pax) [E].
+- FY26 aero +26% and non-aero +31%. Company-quoted non-aero per pax ₹961 for H1 FY27 [V-snip Moodie Davitt]. An analyst on GMR's call put the gap to GMR's IPP at "about ₹300".
+- **PBT swung to losses in FY27 (H1 −₹484 Cr)** as Navi Mumbai's capitalisation brought depreciation and interest into the P&L. This mirrors GMR's Vizag effect at about 5× the scale [E].
+- **Navi Mumbai:** PM inaugurated it 8-Oct-2025; passenger flights from 25-Dec-2025. Oct-2026 updates: IndiGo and Air India group announced phased transitions and expansion on 25-Oct-2026; TajSATS flight kitchen; FedEx automated cargo hub (groundbreaking Feb-2026). Phase-1 capacity **20 mppa** [V-snip]. UDF ₹620 dep / ₹270 arr [V-snip]. AAI shows NMIA at **2.71 mn in H1 FY27** [V].
+- **Parent (Adani Enterprises):** Q2 FY27 total income ₹38,023 Cr, EBITDA ₹6,316 Cr, PBT ₹2,002 Cr, PAT to owners ₹1,492 Cr. H1 PAT to owners ₹332 Cr after a **₹2,644 Cr OFAC settlement** taken as an exceptional item in Q1 FY27. FY26: income ₹1,02,943 Cr, EBITDA ₹16,464 Cr, PAT to owners ₹9,339 Cr (incl. ₹9,215 Cr exceptional gains) [V].
+- **Pre-IPO:** binding agreements for **~₹9,825 Cr (~US$1 bn) primary at ~US$18 bn pre-money** (Sep-2026). Investors: Alpha Wave, Premji Invest, Temasek, BlackRock funds [V-snip; AEL's own news list confirms a "~US$1 bn primary raise" item dated 9-Sep-2026 [V]]. IPO timing is reported as by Mar-2027 (Bloomberg) or a FY28 demerger route (Dec-2025 report) [V-snip].
+- **Concession economics:** MIAL pays **38.7%** revenue share (vs DIAL 45.99%) [V-snip BS]. PPP-6 per-domestic-pax fees: AHM ₹177, JAI ₹174, LKO ₹171, TRV ₹168, GAU ₹160, IXE ₹115 [V-snip]. AAI's share of MIAL is 26% [K].
+- **Share:** 22.7% of India pax FY26; 23.2% in H1 FY27 [E from V AAI]. Outlook Business, citing BS, puts Adani at ~24–25% of pax and **33% of air cargo** [V-snip].
+
+### 4.2.3 Reference peer — Bangalore International Airport Ltd (BIAL) [V Fairfax India Q2-2026 interim report]
+
+| | FY25 (Mar) | **FY26 (Mar)** | Note |
+|---|---|---|---|
+| Revenue | US$472.6 mn ≈ **₹3,994 Cr** | US$531.1 mn ≈ **₹4,690 Cr (+17%)** | at average ₹84.52 / ₹88.31 per $ |
+| EBITDA | US$327.4 mn ≈ ₹2,767 Cr | US$370.2 mn ≈ **₹3,269 Cr (69.7%)** | FY26 includes a higher employee cost from the new labour codes (Nov-2025) |
+| Net earnings | US$70.2 mn ≈ ₹593 Cr | US$135.4 mn ≈ **₹1,196 Cr** | lower tax from moving to the new regime (Budget 2026-27) |
+| Shareholders' equity | US$371.5 mn | US$461.3 mn (≈ ₹4,375 Cr at ₹94.85) | |
+| Pax (AAI) | 41.88 mn | **44.47 mn (+6.2%)** | H1 CY2026: domestic 19.1 mn (+2.7%), international 3.5 mn (+4.6%) |
+| EBITDA per pax [E] | ₹661 | **₹735** | vs GHIAL ₹530, DIAL ₹366, Adani ₹566, GMR consolidated ₹537 |
+
+- **Ownership:** Fairfax India **74.0%** (69.0% fully diluted via Anchorage/OMERS). AAI ~13% and Karnataka (KSIIDC) ~13% [K split]. Siemens exited (final US$76.5 mn paid 29-Jul-2026). BIAL paid Fairfax a US$10.1 mn dividend in Q2-2026; KSIIDC received >₹16 Cr for FY26 [V-snip].
+- **Valuation mark:** Fairfax values its 74% at **US$2,210.9 mn** (Jun-2026) using a DCF with 12.2–16.6% after-tax discount rates and 3.5% terminal growth. 100% ≈ US$2.99 bn ≈ **₹28,100 Cr equity** [E].
+- **Debt:** 2025 refinancing via **~₹9,000 Cr (~US$1.0 bn) 15-year NCDs, rated AAA**, described as the largest unlisted private placement of NCDs in India's airport sector.
+- **Regulation and capacity:** CP4 (Apr-2026 to Mar-2031) tariff order still awaited (expected Q3 CY2026). T2 Phase 2 due by FY29, T3 by FY34; combined capacity ">90 mppa". Concession to **2068**. MRO partnerships with Air India and IndiGo on BIAL land; "Bengaluru Airport City" real estate.
+- **Why it matters for GMR:** BIAL earns **more EBITDA than DIAL (₹3,269 Cr vs ₹2,882 Cr) on 57% of DIAL's passengers**. The difference is the concession: BIAL's greenfield fee is low [K: 4% of gross], while DIAL pays 45.99% [E].
+
+### 4.2.4 Reference peer — Cochin International Airport Ltd (CIAL) [V-snip; cial.aero annual report not fetched]
+- FY26 (Mar): **revenue ₹1,220 Cr (+6.6%), PAT ₹502 Cr** (first time above ₹500 Cr), group PAT ₹527 Cr, **dividend 55%** (AGM ~Sep-2026). FY25: revenue ₹1,142 Cr, PAT ₹489.84 Cr; a later article says ₹499 Cr, so sources conflict. Company pax FY26 **11.44 mn** (international 5.40, domestic 6.04); AAI 11.30 mn [V].
+- **PAT margin ~41%** with almost no leverage. Kerala government ~32–33% plus ~19,000+ shareholders [K]. Plans to enter airport consultancy.
+- In ICRA's airport sample [V ICRA].
+- H1 FY27 traffic **5.29 mn (−7.3%)** with international −12% [V AAI], the most Gulf-exposed large airport.
+
+### 4.2.5 Reference peer — Airports Authority of India (AAI)
+- **FY26 PAT ₹6,522.37 Cr vs FY25 ₹7,233.28 Cr (−10%)**. Interim dividend ₹852.39 Cr + final ₹1,104.32 Cr; reserves ₹27,890.17 Cr; "operational profit moderated" [V-snip Asianet citing FS]. The often-quoted "₹6,711 Cr FY25 highest ever" was a pre-audit speech figure (S19).
+- **FY25 revenue ≈ ₹20,000–21,000 Cr** [E], derived from the Daily Pioneer's reading of AAI's FY25 annual report (3-Apr-2026):
+  - Lease revenue was more than one-third of revenue, up ~50%.
+  - The **six PPP airports paid ~₹3,200 Cr (>15% of revenue)**, inflated by a **one-time "under-recovery" receipt of >₹2,200 Cr**. ICRA puts it at ₹2,232 Cr [V-snip].
+  - **Delhi + Mumbai revenue share ~₹4,200 Cr (+4.5%)**. Together PPP-6 + DEL/BOM ≈ 36% of revenue.
+  - An estimated **91 of 122 AAI airports lost ~₹1,600 Cr**; the other 31 earned ₹2,740 Cr. Kolkata ₹855 Cr and Chennai ₹500 Cr were the most profitable [V-snip].
+- **Implication [E]:** in FY26 GMR's DIAL alone paid AAI ₹3,232 Cr, so GMR's Delhi concession is now AAI's largest single cash source. TDSAT and arbitration wins for DIAL come partly out of AAI's pocket. AAI is also DIAL's 26% shareholder.
+- Rated CRISIL AAA/Stable [V CRISIL]. AAI-run airports carried **~150 mn pax (35.7%) in FY26** [E from V].
+- **2026 round:** 11 airports in 5 bundles (S22), PPPAC in-principle approval 4-Aug-2026 [V-snip].
+
+### 4.2.6 Reference peers — global listed operators, updated (₹ at ₹104.1/€, ₹112.8/CHF)
+
+| Company | Latest period | Revenue | EBITDA (margin) | Net debt | ND/EBITDA | EV/EBITDA (13-Nov-26) [E] | Pax | Source |
+|---|---|---|---|---|---|---|---|---|
+| **Aena** | 9M-2026 | €5,283.9 mn (+10.4%) = ₹55,005 Cr | €3,077.9 mn (58.3%) = ₹32,041 Cr; LTM ≈ €3,976 mn | **€5,845 mn = ₹60,846 Cr** | **1.47×** | **~12.3×** (m-cap €43.2 bn) | 309.9 mn group (+4.1%); Spain 257.2 mn | Aena 9M PDF [V] |
+| **Groupe ADP** | 9M-2026 | €5,106 mn (+1.4%) = ₹53,153 Cr | 2026 recurring EBITDA guided to the **low end of €2,300–2,350 mn** | €9,052 mn (Jun-26) | ~3.9× | **~9.0×** | group 287.3 mn (+0.1%); Paris 80.9 mn (−0.4%); Extime Paris duty free €605 mn (−4.1%) | [V-snip optionfinance/Moodie Davitt] |
+| **Fraport** | 9M-2026 | ~€3.47–3.50 bn (+3.8%) | ~€1.18 bn (+2%); FY guide up to €1.5 bn | €8,691.8 mn (Jun-26) | ~6.0× | **~10.0–10.4×** | group ~146 mn (+1.7%); FRA flat to slightly down | [V-snip] |
+| **Flughafen Zürich** | H1-2026 | CHF 673.6 mn (+5%) = ₹7,598 Cr | CHF 374.2 mn (56%) | **~CHF 1,612 mn = ₹18,183 Cr** | **~2.2×** | **~11.1×** (m-cap CHF 6.71 bn) | ZRH 2026 guide >33 mn (+3%) | Zurich HY report and release [V] |
+| GMR (for reference) | TTM Sep-26 | ₹15,999 Cr (screener) | ₹6,474 Cr (company) | ₹34,000 Cr | 5.3× | 22.8× (B) / 26.8× (look-through) | FY26 121.6 mn | §4.2.1 |
+
+**Zurich and Noida:**
+- International-business revenue CHF 66.6 mn in H1-26 (+16%).
+- 2026 guidance: EBITDA flat, profit lower because of Noida depreciation and interest. Noida is EBITDA-negative in 2026 and expected to break even in 2027 [V-snip].
+- **ZRH airport charges cut ~10% from 1-Oct-2026.** Aena's DORA III (2027–31) was approved 15-Sep-2026. European regulators, like AERA at Hyderabad, are pressing tariffs down [V].
+- Zurich's 2040 ambition: revenue >CHF 3 bn, CAGR >5%, group ROIC >8% [V].
+
+---
+
+## 4.3 Upgraded industry datasets (chart-ready; units and sources stated)
+
+**D1. India airport passengers, FY (mn; AAI terminal pax; intl / dom)** [V AAI annual reports]
+| FY | Total | YoY | International | Domestic |
+|---|---|---|---|---|
+| FY19 | 344.70 | — | — | — |
+| FY20 | 341.05 | −1.1% | 66.54 | 274.51 |
+| FY21 | 115.38 | −66.2% | 10.13 | 105.25 |
+| FY22 | 188.89 | +63.7% | 22.09 | 166.80 |
+| FY23 | 327.28 | +73.3% | 56.94 | 270.34 |
+| FY24 | 376.43 | +15.0% | 69.64 | 306.79 |
+| FY25 | 412.09 (first print 411.77) | +9.5% | 77.38 | 334.70 |
+| FY26 | 420.09 | +1.9% | 80.64 | 339.45 |
+| FY27E (ICRA, Aug-26) | 424–432 | +1–3% | — | — |
+FY20→FY26 CAGR: **+3.5%**. FY24→FY26 CAGR **+5.6%** [E]. FY23 growth: 327.28/188.89 [E]. FY21 YoY: 115.38/341.05 [E].
+
+**D2. Freight at Indian airports (kt; AAI)** — FY21 2,473.9; FY22 3,140.8; FY23 3,146.8; FY24 3,365.7; FY25 3,733 (first print 3,719.3); FY26 3,964.4; H1 FY27 2,192 (+11.7%) [V AAI].
+
+**D3. Operator share of India pax (%; AAI terminal pax)** [E from V AAI CSVs]
+| Operator | FY25 | FY26 | H1 FY27 |
+|---|---|---|---|
+| GMR (DEL+HYD+GOI-Mopa) | 27.5 | 27.3 | 27.6 |
+| Adani (8 incl. NMIA) | 22.9 | 22.7 | 23.2 |
+| BIAL (Fairfax) | 10.2 | 10.6 | 10.8 |
+| CIAL | 2.7 | 2.7 | 2.7 |
+| Nagpur (MIHAN → GMR 25-Jun-26) | 0.7 | 0.7 | 0.7 |
+| Kannur | 0.3 | 0.3 | 0.3 |
+| Noida (Zurich) | — | — | 0.1 |
+| **AAI & others** | **35.7** | **35.7** | **34.6** |
+FY25 AAI & others = 100 − 27.5 − 22.9 − 10.2 − 2.7 − 0.7 − 0.3 = 35.7 [E].
+
+**D4. Airport-operator P&L comparison, FY26 (₹ Cr; company basis)** [V; E]
+| Operator | Pax (mn) | Revenue / income | EBITDA | EBITDA/pax (₹) | PAT | Leverage |
+|---|---|---|---|---|---|---|
+| GMR (consolidated) | 114.6 India (121.6 incl. Medan) | 15,201 gross | 6,150 | 537 | 472 (owners 175) | ND ₹34,000 Cr, 5.5× |
+| — DIAL | 78.7 | 7,653 gross | 2,882 | 366 | 477 | ND ₹13,900 Cr (Sep-26) |
+| — GHIAL | 30.5 | 2,579 gross | 1,614 | 530 | 427 | ND ₹6,700 Cr |
+| Adani Airports | 95.3 | 13,081 | 5,394 | 566 | PBT 1,427 | n.d. |
+| BIAL | 44.5 | ~4,690 | ~3,269 | 735 | ~1,196 | NCDs ~₹9,000 Cr (AAA) |
+| CIAL | 11.4 | 1,220 | n.d. | n.d. | 502 | ~nil |
+| AAI | ~150 (own airports) | ~20,000–21,000 (FY25) [E] | n.d. | n.d. | 6,522 | AAA |
+**Sum of the large operators' FY26 revenue [E]:** GMR 15,201 + Adani 13,081 + BIAL 4,690 + CIAL 1,220 + AAI ~20,500 (FY25 proxy) ≈ **₹54,700 Cr (~US$5.8 bn)**. This replaces the first pass's "₹50,000–55,000 Cr" band with sourced components and sits at its top. Double counting: about ₹7,400 Cr of AAI revenue is revenue share and fees paid by GMR/Adani, so the **net industry figure is ≈ ₹47,000 Cr** [E].
+
+**D5. Net debt by GMR entity (₹ Cr, 30-Sep-2026)** — Delhi 13,900; Hyderabad 6,700; GAL standalone 6,500; Bhogapuram 3,400; Mopa 2,500; Others 1,000 [V deck]. Waterfall-ready.
+
+**D6. GMR attributable vs consolidated PAT, quarterly (₹ Cr)** — Q3 FY25 → Q2 FY27, consolidated: 202 / −253 / −137 / 35 / 174 / 400 / 148 / 65; attributable: 267 / −238 / −212 / −37 / 122 / 302 / 91 / −15 [V screener]. Annual attributable FY22–FY26: −1,023 / −179 / −559 / −393 / +175 [V].
+
+**D7. Aero yield regulation, approved vs realised (₹ per pax)** [V AR, calls; V-snip press]
+| Airport | Prior CP | Current CP approved | Realised (latest) | Note |
+|---|---|---|---|---|
+| Delhi | 145 (CP3) | 360 (CP4, from 16-Apr-25) | FY26 383; Q2 FY27 >440 | parking over-recovery to be trued down |
+| Hyderabad | 445 (CP3, AERA) | AERA baseline 426.39; company weighted 538 (640 with expansion) | FY26 546 (incl. CGF) | from 1-Sep-26 |
+| Bhogapuram | — | ad-hoc ~1,200 (from COD) | — | final expected 1,700–1,800 |
+| Group (GMR "Aero YPP") | — | — | FY26 433 → Q2 FY27 497 | DEL+HYD+GOX+NAG+VTZ |
+
+**D8. UDF menu, latest (₹ per pax)** — Delhi dom dep 129; Delhi intl econ dep 650 / arr 275; Hyderabad dom dep 515 / arr 220, intl dep 1,030 / arr 440; **Noida dom dep 490 / arr 210, intl dep 980; Navi Mumbai dep 620 / arr 270** [V-snip]. Read: the newest greenfields charge 4–5× Delhi's domestic UDF.
+
+**D9. Global peers EV/EBITDA and ND/EBITDA (13-Nov-2026)** [E] — Aena 12.3× / 1.47×; Zurich 11.1× / 2.2×; Fraport ~10.2× / 6.0×; ADP ~9.0× / 3.9×; **GMR 22.8× (consolidated B) / 26.8× (look-through) / 5.3×**; BIAL (owner's DCF mark) ~10–11× [E].
+
+**D10. Concession fees by airport (latest)** — DEL 45.99% of revenue (effective ~42% after award exclusions); BOM 38.7% [V-snip]; GOX-Mopa 36.99%; NAG 14.49% + ₹1/yr; HYD 4%; VTZ ₹303 dom / ₹606 intl per pax from FY35 (10-yr moratorium); PPP-6 ₹115–177 per dom pax (AHM 177, JAI 174, LKO 171, TRV 168, GAU 160, IXE 115) [V-snip]; 2026 round: per-dom-pax bid, international at 2× [V-snip]; Noida ~₹400.97/pax [K, still unverified].
+
+**D11. ICRA airport-sector forecasts, by vintage** [V ICRA] — Mar-2026: FY26E +1.8–2.5% (419–422 mn), FY27E +4–6% (435–445 mn), revenue +7–9%, margin 49–50%. Aug-2026: FY26A +2% (420 mn), **FY27E +1–3% (424–432 mn), revenue +6–8%, margin ~50% (FY27–28)**, outlook **Stable**. Earlier (2025): FY26E 430–440 mn (later 440–450 mn per press). Read: ICRA cut FY27 traffic by ~3 points in five months.
+
+---
+
+## 4.4 Gap log — each §H item (and §2.4 conflicts)
+
+| §H # | Item | Status | Source / what was tried |
+|---|---|---|---|
+| H1 | PAT attributable to owners (FY26, Q2 FY27) | **Filled** | AR FY26 (₹175.49 Cr); screener schedules API (quarterly; Q2 FY27 −₹15 Cr) [V] |
+| H2 | TDSAT DIAL CP4: date, issues, ₹ amount, AERA appeal | **Mostly filled.** AERA has appealed to the SC (Q2 call). Issues: "all", incl. non-implementation of the CP2/CP3 TDSAT order (21-Jul-2023). **₹ amount still open**: management declined; press ~₹1,500 Cr EBITDA [V-snip]. Exact judgment date still open (company announcement 20-Sep-2026). | tdsat.gov.in has the Mopa 2025 judgment, but the 2026 DIAL order PDF was not located (filename unknown); searches tried |
+| H3 | Delhi CP4 numbers (ARR, RAB, FRoR) | **Partly filled.** Order no., date, YPP ₹360 (from ₹145), ~150% increase [V AR]. **ARR, RAB, FRoR still open.** | aera.gov.in blocked (TLS / 503); not bypassed |
+| H4 | Hyderabad CP4 RAB / FRoR / true-ups | **Partly filled.** Company weighted YPP ₹538/₹640; put-to-use mechanics; ~₹485 → ~₹900 (Sep-2029) [V calls]. **RAB/FRoR open.** | aera.gov.in blocked |
+| H5 | Per-SPV debt | **Filled** (net debt by SPV) [V deck p.25]. SPV *gross* debt still not split. | rendered chart |
+| H6 | Adani FY26 segment, per-airport traffic, NMIA capacity, UDF | **Filled** for segment P&L and pax [V]. Per-airport traffic from AAI [V]. NMIA 20 mppa and UDF ₹620/₹270 [V-snip]. | AEL releases |
+| H7 | BIAL financials, Fairfax stake | **Filled** [V Fairfax India] | — |
+| H8 | AAI audited revenue and profit | **Profit filled** [V-snip: FY26 ₹6,522 Cr, FY25 ₹7,233 Cr]. **Revenue still estimated** (~₹20,000–21,000 Cr FY25). | aai.aero annual-report page 404; Rajya Sabha PQ PDF found in search but not fetched (budget) |
+| H9 | MIAL 38.7%, PPP-6 fees, Noida ₹400.97 | **MIAL and PPP-6 upgraded** to [V-snip] with the per-airport mapping. **Noida ₹400.97 still [K]** (one search, not found). | — |
+| H10 | Zurich net debt; Aena FY25 revenue; ADP 2025 EBITDA | **Zurich ND filled** [V]; **Aena ND updated to 9M** [V]. Aena FY25 revenue and ADP 2025 EBITDA still not fetched (superseded by 9M/LTM figures). | — |
+| H11 | Crete opening date | **Filled at [V-snip]:** 2028 (Greek PM, Jan-2026); ownership split | — |
+| H12 | Non-GMR capacities | **Partly:** NMIA 20 mppa, Noida 12 mppa [V-snip]; BIAL ">90 mppa" after T2 phase 2 and T3 [V Fairfax]. **BOM ~55 and Kochi capacity still [K].** | — |
+| H13 | AAI FY20–FY24 traffic | **Filled** [V AAI] | — |
+| H14 | ICRA airport outlook label | **Filled: Stable** [V ICRA Aug-2026] | — |
+| H15 | Fraport 2026 EBITDA guide conflict | **Resolved at [V-snip]:** "up to €1.5 bn" reconfirmed at 9M; 9M EBITDA ~€1.18 bn | — |
+| H16 | Adani Q2 pax | **Filled: 21.2 mn** [V] | — |
+| H17 | NMIA international start date | **Still open** (15-Jul vs 26-Jul-2026); AAI shows only 6,269 international pax Apr–Sep | not re-searched |
+| H18 | H1 FY27 all-India −2.9% vs −3.1% | **Closed:** use AAI −2.9% | — |
+| §2.4-5 | Vizag land 794 vs 294 | **Closed** (+500 acres, company revision) | — |
+| §2.4-7 | FY27 traffic guide | **Closed:** +3–4% [V]; "cut from 5–7%" not found | — |
+| trap 12 | "187 mn pax" | **Closed:** capacity, not passengers | — |
+| new | ADP royalty/technical-services RPT amounts | **Open:** the AR RPT table did not parse; read pp. ~290–300 visually if needed | — |
+| new | DIAL CP4 TDSAT ₹ quantum; HRAB SC outcome | **Open:** watch Jan–Feb 2027 | — |
+| new | GMR primer's "Hyderabad ₹2,100 Cr 15-yr at ~7.6%" refinancing | **Still not found** in the AR MD&A, decks or calls | — |
+
+---
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### 4.5.1 Insights an expert would add
+
+1. **The minority-interest leak decides what equity holders actually get.**
+   - FY26 consolidated PAT ₹472 Cr became **₹175 Cr for owners**. In Q2 FY27 a ₹65 Cr consolidated profit was a **₹15 Cr loss for owners** [V].
+   - The structure is asymmetric. AAI takes 26% of the two profitable SPVs (DIAL and GHIAL). GAL bears 100% of the loss-making ramp-ups (Vizag −₹82 Cr in 46 days; Mopa −₹95 Cr in Q2).
+   - Until Vizag's final tariff (~Jan-2027) and Mopa's traffic recover, **headline profit growth will overstate owners' profit growth** [V; E].
+2. **On a look-through basis GMR trades at ~27× TTM EBITDA, not ~22×.**
+   - Removing AAI's 26% of DIAL and GHIAL from EBITDA and net debt, and treating ADP's deep-in-the-money FCCBs (conversion ₹43.67 vs ₹99 market; ~67 crore shares) as equity, lifts the multiple by 4–5 turns.
+   - For comparison: the **private mark on BIAL (Fairfax DCF) is ~10–11×**, and **ADP sold at ~26% below market**. The listed price carries a large option value on traffic and real estate [E].
+3. **Adani has caught up with GMR on EBITDA.**
+   - AAHL's TTM EBITDA (~₹6,512 Cr) equals GMR's (~₹6,474 Cr) on ~18% fewer passengers. Adani earns more EBITDA per pax (₹566 vs ₹537 in FY26) [V; E].
+   - The duopoly is now roughly equal in earnings power. AAHL's ~US$18 bn private equity mark is ~26× TTM EBITDA before its debt, which suggests the private market is valuing Adani's airports above GMR's listed look-through multiple [E].
+   - When AAHL lists (Mar-2027 to FY28), it will be the first true listed comparable and could reprice GMR in either direction.
+4. **The best-quality airport economics in India sit at BIAL, not at GMR.**
+   - BIAL's FY26 EBITDA (₹3,269 Cr) exceeds DIAL's (₹2,882 Cr) on 57% of the passengers, because BIAL's greenfield fee is low while DIAL hands AAI ~42% of gross revenue.
+   - GMR's Hyderabad (₹530/pax) is the closest analogue. Hyderabad is exactly where traffic fell 11.7% in H1 and where AERA's CP4 trimmed the yield profile [V; E].
+5. **Delhi's FY27 aero yield is flattered by a temporary parking windfall that the regulator will claw back.**
+   - The approved CP4 YPP is ₹360; Delhi's realised yield ran above ₹440 in Q2 because of dynamic aircraft-parking charges.
+   - Management concedes this is "over-recovery" to be trued down next control period and expects it to fade within ~a year.
+   - Analysts extrapolating Q2 FY27 aero YPP (₹497 group) are over-earning the base [V].
+6. **A ₹39,500 Cr contracted real-estate rent roll sits in the notes.** Non-cancellable operating-lease receivables (mostly DIAL Aerocity) are ₹1,027 Cr in year 1, ₹4,310 Cr in years 1–5 and ₹34,170 Cr beyond 5 years [V AR]. Together with the 1 mn sq ft Aerocity building (leased at ₹270/sq ft/month; Q4 FY27) and the planned REIT or asset sales, this is the "third engine" management now leads with [V].
+7. **The tribunal-vs-regulator fight is about AERA refusing to implement, more than about tariff formulas.**
+   - AERA deferred the CP2/CP3 TDSAT award (Jul-2023) pending its own SC appeal. TDSAT's Mopa judgment (Sep-2025) and DIAL CP4 judgment (Sep-2026) both rebuke AERA for ignoring binding tribunal rulings.
+   - The SC's Oct-2024 ruling only confirmed AERA's *right* to appeal. Cash from these wins therefore depends on SC timing (likely FY28+), not on the TDSAT headlines [V].
+   - Two-way fee disputes with AAI add to this: ₹1,758 Cr of unprovided COVID-period MAF, plus a refund claim since 2015 under the 2022 arbitral award [V AR].
+8. **Customer concentration is now an explicit risk.** Two airline customers account for ~23% of GMR's revenue (₹3,447 Cr) [V AR]. With IndiGo + the Air India group carrying ~92% of domestic passengers [V-sib], airport cash flows are tied to the health of two airlines. Every rescheduling, from IndiGo's Hyderabad cuts to Air India's widebody cuts, shows up directly in GMR's traffic.
+
+### 4.5.2 New primer issues (format as primer-issues.md) — additions to §3.4
+
+### From Airports deep-research pass (2026-11-13, airports-industry.md Part 4)
+
+- **gmr-airports.html — owners-of-parent profit is now sourced (§00, §07, §09, bear case):** FY26 PAT attributable to owners was **₹175.49 Cr** (NCI ₹296.90 Cr; consolidated ₹472.39 Cr) per the FY26 Annual Report. The "small loss at owners-of-parent level" line is wrong. Add that **Q2 FY27 owners' PAT was −₹15 Cr** (consolidated +₹65 Cr) because AAI's 26% minority takes DIAL/GHIAL profits while Vizag's start-up loss (−₹82 Cr in 46 days) falls 100% on GAL.
+- **gmr-airports.html — EV/EBITDA basis (§09):** the "~22×" figure ignores AAI's minorities and ADP's FCCBs. State **~23× consolidated (EV ~₹1.45 lakh Cr incl. FCCB as equity) and ~27× look-through TTM**. Note that the **ADP FCCBs (€330.8 mn) convert at ₹43.67/share (~67 crore shares, ~6% dilution) from Mar-2028**, so they are equity in substance, not ₹2,910 Cr of debt.
+- **gmr-airports.html — net debt detail (§08):** add the SPV split at 30-Sep-2026: **Delhi ₹13,900 Cr, Hyderabad ₹6,700 Cr, GAL standalone ₹6,500 Cr, Bhogapuram ₹3,400 Cr, Mopa ₹2,500 Cr, others ₹1,000 Cr**; gross ₹43,400 Cr, cash ₹9,300 Cr (temporarily high; US$522.6 mn DIAL notes repaid 26-Oct-2026). Management says debt "has peaked", targets 4–4.5× ND/EBITDA, and expects Delhi dividends to GAL in ~2 years.
+- **gmr-airports.html — FY27 guidance (§00/§09):** replace "[V-snip] +3–4% (cut from 5–7%)" with **Q2-call guidance: traffic +3–4% for FY27, H2 ≈ +10% over H1; non-aero +15–17% with ~20% non-aero EBITDA margin; no expansion capex, operational capex ₹1,000–1,500 Cr p.a., ~₹1,000 Cr left for FY27.** Do not print "cut from 5–7%" (unsourced).
+- **gmr-airports.html — Delhi tariff (§02):** the CP4 order is **AERA No. 20/2024-25 of 28-Mar-2025, approved YPP ₹360 (from ₹145), ~150% rise**. Add: **AERA has appealed TDSAT's Sep-2026 CP4 judgment to the Supreme Court**; management expects any benefit in FY28 and gives no number. Add the caveat that **Q2 FY27 Delhi yield (>₹440) includes a temporary parking-charge over-recovery** to be trued down.
+- **gmr-airports.html — regulatory history (§02/§11):** correct any "Supreme Court upheld AERA's powers" phrasing. The **18-Oct-2024 SC ruling only held that AERA's appeals against TDSAT orders are maintainable**. Add TDSAT's **11-Sep-2025** judgment setting aside AERA's Mopa CP1 order.
+- **gmr-airports.html — Hyderabad CP4 (§02):** add the company's view (**5-yr weighted YPP ₹538; ₹640 with expansion capex**) alongside AERA's ₹426.39 baseline. Both are right on different bases; the near-term aero hit is mostly traffic (−11%), not tariff.
+- **gmr-airports.html — contingent items (§08 risks):** add DIAL's **₹1,758 Cr unprovided COVID-period MAF** dispute and the **2022 arbitral award** that cuts DIAL's shareable revenue and gives it a refund claim from 2015 (AAI appeal pending in the Delhi HC).
+- **gmr-airports.html — customer concentration (§08 risks):** two airline customers = **₹3,447 Cr (~23%) of FY26 revenue** (AR segment note).
+- **gmr-airports.html — real estate (§02/§05):** add the **₹39,500 Cr contracted lease-receivable book** (AR), the Aerocity 1 mn sq ft building (Q4 FY27; ₹270/sq ft/month) and the Taj (380 keys, Q4 FY27) and Hilton/Waldorf (~500 keys, construction from Jan-2027) projects, plus the REIT/asset-sale intent.
+- **gmr-airports.html — peers (§10):** update Adani with **FY26 airport EBITDA ₹5,394 Cr on 95.3 mn pax; TTM ~₹6,500 Cr ≈ GMR's**; add **BIAL FY26 EBITDA ~₹3,269 Cr (Fairfax 74%)**; replace "Fairfax ~64%".
+- **gmr-airports.html — Crete (§05):** opening is **2028** (Greek PM). Ownership is Greek State 45.9%, GEK Terna 32.46%, GMR 21.64%.
+- **gmr-airports.html — Vizag/Nagpur economics (§05):** Vizag Q2 revenue ~₹42 Cr, PAT −₹82 Cr on ad-hoc YPP ~₹1,200; final tariff expected ~Jan-2027 at ₹1,700–1,800 YPP. Nagpur Q2 revenue ~₹42 Cr, EBITDA ₹8.5 Cr, PAT ₹8.1 Cr. Land at Vizag is now **794 acres** (group total ~3,010 acres).
+- **gmr-airports.html — "187 mn" (any use):** if the primer quotes "187 mn passengers", fix it. **187 mppa is capacity** (167 operational + 20 under development); passengers handled across all gateways were 134 mn in FY26 (incl. Cebu and Medan).
+
+### 4.5.3 Source URLs added in Part 4 (fetched 13-Nov-2026)
+- GMR transcripts listing (AEM DAM): https://publish-p168597-e1857439.adobeaemcloud.com/bin/getPdfs?damPath=/content/dam/aero-investor-pdf/transcripts
+- GMR Q2 FY27 transcript: https://publish-p168597-e1857439.adobeaemcloud.com/content/dam/aero-investor-pdf/transcripts/fy-2026-27/earnings-transcripts/Q2%20FY%202027.pdf
+- GMR Q1 FY27 transcript: https://publish-p168597-e1857439.adobeaemcloud.com/content/dam/aero-investor-pdf/transcripts/fy-2026-27/earnings-transcripts/Q1%20FY%202027.pdf
+- GMR Annual Report FY2025-26: https://publish-p168597-e1857439.adobeaemcloud.com/content/dam/aero-investor-pdf/annual-reports/fy-2025-2026/Download%20Full%20Annual%20Report%20~~p3~~.pdf
+- screener schedules API (company id 1159): https://www.screener.in/api/company/1159/schedules/?parent=Net%20Profit&section=profit-loss&consolidated= (also section=quarters; parent=Borrowings / Other%20Assets / Other%20Liabilities / Expenses)
+- Adani Q2 FY27: https://www.adani.com/newsroom/media-releases/adani-enterprises-ltd-announces-h1-and-q2-fy27-results ; FY26: https://www.adanienterprises.com/newsroom/media-releases/adani-enterprises-ltd-announces-q4-and-fy26-results
+- Fairfax India Q2-2026 interim: https://www.fairfaxindia.ca/wp-content/uploads/2026/07/FIH-2026-Q2-Interim-Report-Final-FO06S3Cev.pdf
+- ICRA airports Aug-2026: https://www.icra.in/Rating/DownloadResearchSummaryReport?id=7089 ; Mar-2026: …?id=6875
+- SC 18-Oct-2024: https://api.sci.gov.in/supremecourt/2023/14927/14927_2023_1_1502_56564_Judgement_18-Oct-2024.pdf
+- TDSAT GGIAL 11-Sep-2025: https://tdsat.gov.in/order_files/final/2025/September/070110001432024_1568.pdf
+- AAI annual traffic: https://www.aai.aero/sites/default/files/traffic-news/TRMar2k25_0.pdf ; …/TRMar2k24.pdf ; …/TRMar2k22.pdf ; …/Mar2k20Annex1.pdf
+- Aena 9M-2026: https://www.aena.es/doc/pressdetail/261028-aena-resultados-3rt-en.pdf
+- Zurich H1-2026: https://newsroom.flughafen-zuerich.ch/en/zurich-airport-ltd-half-year-2026/ ; balance sheet: https://report.flughafen-zuerich.ch/2026/hyr/en/consolidated-balance-sheet
+- Secondary [V-snip]: Quartr GMR Q2 summary; outlookbusiness (Hyderabad CP4; Noida UDF; PPPAC bundles 24-Aug-2026); Business Standard (PPP-6 fees, MIAL 38.7%); Daily Pioneer (AAI FY25 AR reading, 3-Apr-2026); Asianet Newsable (AAI FY26 PAT); greekreporter/argophilia (Crete 2028); optionfinance/Moodie Davitt (ADP 9M); aerotelegraph/aviation.direct (Fraport 9M); kotakneo (AAHL pre-IPO).
+
+*End of Part 4.*
+
+
+---
+## Orchestrator re-check (13-Nov-2026)
+- Re-added every sum in §3.2.1–3.2.4, §4.2.1 C/D/F/G and S5 from the component rows. Fixed six ±1 rounding slips in the §3.2.1 FY26 "Sum of 4" column (other income 300, gross income 14,934, revenue share 4,641, opex 4,248, EBITDA 6,043, depreciation 1,720; balancing column adjusted). Everything else re-adds: H1 FY27 bridge ✓; Q2 SPV EBITDA 1,503 ✓; platform EBITDA 673 ✓; SPV net debt 34,000 ✓; look-through ND 28,644 ✓; EV bases A–D ✓; FY26 attributable = Σ quarters 175 ✓; S5 AAI & others 150.01 mn = 35.7% ✓.
+- Minor: Q1 FY26 attributable −137 − 74 = −211 (table −212) and FY24 −828 + 268 = −560 (table −559): screener rounding; the writer should use −212 and −559 as published by screener, or the AR figure where available.
+- Where Part 4 conflicts with Parts 1–3, Part 4's Supersedes table (S1–S32) wins.
