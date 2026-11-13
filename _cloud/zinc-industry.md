@@ -1284,3 +1284,541 @@ There is only one member, so there are no combined rows. Below, HZL is set again
 - **India demand / imports:** https://www.bigmint.co/insights/detail/india-s-zinc-demand-rises-at-8-cagr-in-2021-25-on-galvanising-growth-infrastructure-push-741130 · https://www.bigmint.co/insights/detail/india-s-zinc-market-realignment-fy-25-sees-higher-output-scrap-surge-import-decline-654800 (snippets)
 - **Governance:** https://www.moneylife.in/article/viceroy-flags-hindustan-zincs-rs1060-crore-brand-fee-to-vedanta-as-regulatory-breach-questions-govt-directors-role/78092.html · https://www.outlookbusiness.com/news/hindustan-zinc-rejects-viceroys-allegation-on-brand-fee (snippets)
 - **Fertiliser:** https://www.outlookbusiness.com/corporate/hindustan-zincs-fertiliser-plant-in-rajasthan-likely-to-be-operational-by-dec-2026-ceo-arun (snippet)
+
+---
+
+# PART 4 — Deep-research supplement (2026-11-13)
+
+Second pass, primary-source only, done the same day as Parts 1–3 (date checked with `date -u`: Fri 13-Nov-2026, ~22:20 UTC onward). **Parts 1–3 are not rewritten.** Where this part disagrees with them, **Part 4 wins**. The changes are listed in §4.0 so the writer can apply them.
+
+**What was read this session (primary documents, full text extracted with pdftotext and read in slices):**
+- **HZL BSE filings:**
+  - Q2 FY27 earnings-call transcript (19-Oct-2026 call, filed 23-Oct-2026, SECY/100), read in full.
+  - Q1 FY27 transcript (24-Jul-2026 call), read in full.
+  - Q4 FY26 transcript (24-Apr-2026 call), key sections.
+  - Q4 FY24, Q4 FY23 and Q4 FY22 transcripts (Apr-2024 / Apr-2023 / Apr-2022), for FY22–FY24 cost of production (CoP).
+  - Q2 FY27, Q1 FY27 and Q4 FY26 investor presentations.
+  - Postal-ballot notice (30-Oct-2026).
+  - **FY26 Integrated Annual Report** (39,380 text lines; KPI pages, Board's report/MD&A, standalone notes 25–30 incl. brand fee, royalty, contingent liabilities, SEBI warning).
+  - FY24 Integrated Annual Report (MD&A: fertiliser, fumer, market shares).
+- **Government / regulator:**
+  - Indian Bureau of Mines (IBM): MMDR Second Schedule royalty rates; *Indian Minerals Yearbook 2022 — Lead & Zinc* chapter (advance release Mar-2024); IBM Ajmer MCDR notice on the Kayad lease (Oct-2025).
+  - LiveLaw report on the MMDR (Amendment) Bill 2026.
+- **Industry:**
+  - **ILZSG press release, 19-Oct-2026** (PDF found at a working path).
+  - **World Bank Pink Sheet monthly workbook** (CMO-Historical-Data-Monthly.xlsx, data to Oct-2026), used for LME zinc and lead and for silver averages.
+  - Fastmarkets: 2024 benchmark article (with the 2021–2023 history) and 2026 benchmark article.
+- **Peers:**
+  - Glencore Q3 2026 Production Report (PDF).
+  - Teck Q3 2026 results (SEC 6-K exhibit 99.2).
+  - Boliden Q3 2026 release (Inderes mirror of the company release).
+  - Korea Zinc Q3 2026 (Korean press, snippet).
+  - StockAnalysis.com valuation statistics for Teck, Boliden, Korea Zinc and Glencore (13-Nov-2026).
+- **Screener** HINDZINC consolidated (13-Nov-2026): 8-quarter table plus the concall and annual-report link list.
+
+**Not reached:**
+- BSE's JSON announcements API (blocked by the session's permission layer).
+- HZL's own website PDFs for Q4 FY24 (404).
+- Commerce Ministry TradeStat (no direct-download path found; FY26 HS 7901 imports remain secondary).
+
+**Tags in this part:** **[V]** = fetched and read this session from the named document (URL in §4.1 or inline). **[V-prior]** = verified earlier on 13-Nov-2026 in Parts 1–3 and not re-fetched. Other tags are as in Part 1.
+
+**Key URLs (all fetched this session):**
+- Q2 FY27 transcript: https://www.bseindia.com/xml-data/corpfiling/AttachHis/c7855465-32dd-44c8-9c0b-e63ce6ac0be5.pdf
+- Q2 FY27 presentation: https://www.bseindia.com/xml-data/corpfiling/AttachHis/9d28cec3-e812-4af2-b066-14920c33e5ec.pdf
+- Q1 FY27 transcript: https://www.bseindia.com/xml-data/corpfiling/AttachHis/74208df2-5e39-4713-a1b0-f7b87cabf359.pdf
+- Q1 FY27 presentation: https://www.bseindia.com/xml-data/corpfiling/AttachHis/29355fba-ad16-49f3-8df6-6117f966361c.pdf
+- Q4 FY26 transcript: https://www.bseindia.com/xml-data/corpfiling/AttachHis/682ed8fa-0d50-482f-997e-3a71523c0975.pdf
+- Q4 FY26 presentation: https://www.bseindia.com/xml-data/corpfiling/AttachHis/0f38c8fb-0dc6-453f-af29-df3528bf752a.pdf
+- FY26 Integrated Annual Report: https://www.bseindia.com/xml-data/corpfiling/AttachHis/cbc28329-b172-488c-9dcd-71d786cd9053.pdf
+- FY24 Integrated Annual Report: https://www.bseindia.com/xml-data/corpfiling/AttachHis/89081a77-45f1-4b23-8d31-39984152f7fd.pdf
+- Q4 FY24 / FY23 / FY22 transcripts: …/AttachHis/d4829d2e-bf3c-49c2-a29d-b18facdff5fe.pdf · …/3abc41cc-5db8-496a-bf0e-b93cccf03588.pdf · …/c05fa7ce-1434-4517-a79c-a19ded18c8c3.pdf
+- Postal ballot: https://www.bseindia.com/xml-data/corpfiling/AttachHis/6878f31a-dc55-4714-9f81-4231101d1ff3.pdf
+- ILZSG: https://www.ilzsg.org/wp-content/uploads/3.PRESS%20RELEASES/ILZSG%20October%202026%20Press%20Release.pdf
+- World Bank: https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx
+- IBM royalty schedule: https://www.ibm.gov.in/writereaddata/files/1719230952667961e85a0a8Rates_of_Royalty_of_major_minerals.pdf
+- IBM Lead & Zinc 2022: https://ibm.gov.in/writereaddata/files/17125809536613e9599ce58L_Z_2022.pdf
+- Fastmarkets: https://fastmarkets.com/?p=49572 (2024 benchmark) · https://www.fastmarkets.com/insights/teck-korea-zinc-benchmark-zinc-concentrate-tcs-85-per-tonne/ (2026)
+- Glencore Q3 2026: https://www.glencore.com/.rest/api/v1/documents/static/7ed50c65-7d84-4cc1-a2c4-216060583297/GLEN_2026-Q3_ProductionReport.pdf
+- Teck Q3 2026: https://www.sec.gov/Archives/edgar/data/0000886986/000095014226002897/eh260849343_ex9902.htm
+- MMDR Amendment: https://www.livelaw.in/top-stories/parliament-passes-law-curbing-states-power-to-levy-tax-on-minerals-recover-past-dues-545610
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3; apply these)
+
+| # | Where in Parts 1–3 | Old figure / statement | New figure / statement | Basis (source, fetched this session) |
+|---|---|---|---|---|
+| S1 | §2.1 price table; §9.2 | LME zinc FY22 ~3,253, **FY23 ~3,233**, FY24 ~2,488 $/t [K] | **FY22 3,248 · FY23 3,334 · FY24 2,480** $/t (FY average, Apr–Mar). FY23 was *higher* than FY22, not lower | World Bank Pink Sheet monthly (LME-based). Cross-check: WB FY25 2,873 / FY26 2,969 vs HZL's 2,875 / 2,970, so the series matches HZL's basis within 0.1% |
+| S2 | §2.1 | LME lead FY22 ~2,282 · FY23 ~2,099 · FY24 ~2,138 [K] | **2,278 · 2,103 · 2,120** $/t | World Bank Pink Sheet |
+| S3 | §2.1 | LBMA silver FY22 ~23.9 · FY23 ~21.8 · FY24 ~23.4 [K] | **24.6 · 21.4 · 23.6** $/oz | World Bank Pink Sheet (FY25 30.4, FY26 52.8 vs HZL 30.4 / 53.1) |
+| S4 | §9.2 | Mined metal FY22 ~1,018 · FY23 ~1,065 · FY24 ~1,079 kt [K] | **1,017 · 1,062 · 1,079** kt (zinc in ore 801.0 / 839.1 / 855.0 kt + lead 216.0 / 223.0 / 224.1 kt) | FY26 Integrated AR, KPI pp.118–120 (exact tonnes) |
+| S5 | §9.2 | Refined zinc ~776 / ~822 / ~817; lead ~192 / ~210 / ~216; refined total ~967 / ~1,032 / ~1,033; silver ~647 / ~714 / ~746 [K] | **Confirmed**: zinc 775.8 / 820.9 / 817.1 kt; lead 191.2 / 210.7 / 216.0 kt; total 967 / 1,032 / 1,033 kt; silver 647 / 714 / 746 t. Re-tag **[V]** | FY26 Integrated AR, KPI pages |
+| S6 | §9.2 | Zinc CoP ex-royalty FY22 ~1,135 · **FY23 ~1,234** · FY24 ~1,111 $/t [K] | **FY22 $1,122 · FY23 $1,257 · FY24 $1,117** | Q4 FY22 call ("$1,122 … higher by 18% YoY"); Q4 FY23 call ("full year … $1,257"); Q4 FY24 call and FY24 AR ("₹92,470 (US$1,117)") |
+| S7 | §E.15; §B3; §H.3 | DPS FY22–FY24 "K/E": ₹18 / ₹75.5 / ₹13 | **Confirmed [V]**: FY22 ₹18.00, FY23 ₹75.50, FY24 ₹13.00, FY25 ₹29.00, FY26 ₹10.00. FY21 ₹21.3 stays [K]. FY24 = a single interim of ₹13 (₹5,493 Cr) | FY26 AR KPI page (DPS chart); FY24 AR Board's report |
+| S8 | §7.4; §H.4; §0; §C.4 | Brand fee "₹1,171 Cr FY26 [V-sib] vs Viceroy ₹1,060 Cr *in one quarter* — **unreconciled**"; "2% until Mar-2025"; "~₹1,700 Cr/yr run-rate" | **Reconciled.** HZL **pays the full year's fee upfront at the start of the year**, based on estimated consolidated turnover in the Board-approved business plan, then trues it up against audited accounts. Viceroy's ₹1,060 Cr "in Q1 FY26" was the **annual prepayment**, not a quarterly charge. FY26 P&L expense **₹1,171 Cr** (FY25 ₹658 Cr); FY26 true-up ~₹100 Cr paid after audit. **Rate: 2% of consolidated turnover from 1-Oct-2022, 3% from 1-Apr-2025** (after an independent benchmarking). **Contract valid to 2030.** FY27 prepayment ~₹1,300 Cr (CFO, Apr-2026); at 3% of a ~₹55,000 Cr FY27e turnover the true-up would take the expense to ~₹1,650 Cr [E] | FY26 AR, standalone Note 27(2); Q4 FY26 transcript (CFO Sandeep Modi) |
+| S9 | §9.4 "Primer conflict"; §3.3; §3.4 (Vision 2.0 bullet) | "₹40,000–50,000 Cr capex is **unsourced** against company decks" | **Sourced.** The FY26 AR CFO letter estimates **growth capex of ₹40,000–50,000 Cr over the next five years**, against **pre-growth FCF of ₹55,000–65,000 Cr**. Q1 FY27 call: the second-stage smelters (~650 kt incl. mines) would cost **~₹24,000–25,000 Cr**, with Board approval targeted **Q3 FY27** and a **36-month** build. Only ~₹17,000 Cr is Board-approved today. **Withdraw the primer issue**; keep "not yet Board-approved" | FY26 AR (CFO statement, p.117); Q1 FY27 transcript (Arun Misra) |
+| S10 | §4.1; §7.2; §H.7 | Royalty zinc 9.5%, lead 8.5%, silver 7% "of LBMA" [K] | **[V]** MMDR Second Schedule (rates w.e.f. 1-Sep-2014): **zinc 9.5% of LME on zinc in ore produced (10% if levied on concentrate); lead 8.5% in ore (14.5% in concentrate); by-product silver 7% of the "London Metal Exchange price" on silver actually produced (primary silver 5%)**. The schedule text says LME. In practice the silver benchmark is LBMA-linked; describe it as "7% of the international silver price". DMF (30% / 10% of royalty) and NMET (2%) remain [K] | IBM Second Schedule PDF |
+| S11 | §B1 TC series; §E.10 | 2021 $159, 2022 $230, 2023 $274 "[K]" | **[V]**: 2021 **$159**, 2022 **$230**, 2023 **$274**, 2024 **$165** (−39.8%), 2026 **$85** (agreed ~6-Mar-2026, published 11-Mar-2026). 2025 **$80** stays [V-snip] (Bloomberg, −52%) | Fastmarkets 9-Apr-2024 and 11-Mar-2026 |
+| S12 | §2.1; §12; §H.1 | ILZSG Oct-2026 [V-snip]; no 2026 levels | **[V]**: 2026 refined demand **14.02 Mt (+1.4%)**, refined output **13.93 Mt (+0.9%)**, mine output **12.40 Mt (−2.6%, after +6.3% in 2025)**, deficit **88 kt**. 2027: demand 14.19, refined 14.21, mine 12.78 Mt, **surplus 25 kt**. Lead 2026 surplus 90 kt, 2027 163 kt | ILZSG press release 19-Oct-2026 |
+| S13 | §7.1; §A.6; §12.9; §H.8 | "Leases extended only to 2030, auction thereafter" (implied open risk) | Nuance: management says it is "comfortable because we have the **first right of refusal**… it's only a matter of how much premium we are ready to pay" (Q4 FY26 call). Rampura Agucha lease (IBM ML RAJ0652) shows expiry **12-Mar-2030** [V-snip IBM]. Present the 2030 date as a **cost** risk (auction premium on top of royalty) more than a **loss-of-asset** risk; the right-of-refusal mechanics are unverified against the statute | Q4 FY26 transcript; IBM RA document (search snippet; PDF garbled) |
+| S14 | §7.2; §A.7; §12.8; §H.7 | "States can tax mineral rights (MADA 2024)… Rajasthan has not (yet) acted… arrears instalments from Apr-2026" | **Superseded by Parliament.** The **MMDR (Amendment) Bill 2026** passed the **Lok Sabha on 12-Aug-2026 and the Rajya Sabha on 13-Aug-2026**. New **Section 9D** bars states from levying any tax, cess or levy on mineral rights or mineral-bearing land (on quantity, value, royalty or otherwise) except under conditions the Centre prescribes. It **retrospectively invalidates levies not yet deposited or recovered** (no refunds of amounts already paid). It commences on notification; presidential assent was not confirmed this session; states are expected to challenge it. HZL's AR: the Rajasthan Environment & Health Cess (₹150/t of ore, 2008 rules, rescinded 2017) provision of ₹56 Cr booked in FY25 was **reversed in FY26** on legal advice and is now a contingent liability | LiveLaw 13-Aug-2026; FY26 AR Note 30(2) |
+| S15 | §9.4; §1.1; §12.4; §3.4 fertiliser bullet; §H.9 | Fertiliser 510 ktpa "CEO (Sep-2025): by Dec-2026"; Hot Acid Leaching "Q2 FY27, unconfirmed" | Q1 FY27 call (24-Jul-2026): **only the phosphoric-acid (PAP) section** was due in Q2 FY27. The DAP plant's "environment clearance and other regulatory approvals are pending"; it is now expected **"by quarter 1 of next financial year" (Q1 FY28)**. **~₹500 Cr spent.** The Q2 FY27 deck **dropped the "Other Projects" (HAL/fertiliser) slide**, and the Q2 call did not mention either plant. History: targeted Q2 FY26 (FY24 AR) → Q2 FY27 → Q1 FY28. PAP capacity 240 ktpa (consent to establish Mar-2024) | Q1 FY27 transcript; Q2 FY27 deck; FY24 AR |
+| S16 | §1.2; §9.4 (jarosite) | Jarosite/silver recovery only via the planned Hot Acid Leaching plant | A separate **fumer plant was commissioned in Q2 FY24**, adding **~33 tpa silver**. The HAL plant (+27 tpa silver, +6 ktpa lead) is still "being installed" per the FY26 AR | FY24 AR Board's report; FY26 AR |
+| S17 | §7.3; §H.16 | "HZL export share: not sourced" | **FY26: refined zinc 600 kt domestic + 251 kt exports (29.5% exported; FY25 603 + 225 = 27%)**. Refined lead 151 kt domestic + 46 kt exports (23%). Silver "almost all in the domestic market". FY24: 41% of lead was exported | FY26 AR Board's report; FY24 AR |
+| S18 | Trap 7; §C.1; §H.10 | Silver realisation above LBMA "plausibly pricing lag / domestic premium"; cause undisclosed | **Hedging is ruled out as the source of the premium; hedges were a drag.** Hedge "delta vs market" was **₹1,100 Cr in Q4 FY26 and ₹1,500 Cr in FY26** (CFO); Q1 FY27 hedge loss ~₹200 Cr. That explains why Q4 FY26's implied realisation ($78.7) sat *below* LBMA ($84.3). The Q1–Q2 FY27 premium (+16% / +24%) is still unexplained: a one-quarter price lag gives only ~$64 for Q2; India's import-parity pricing (duty ~6%) explains perhaps a third of it. The Q2 call was not asked. **Keep the "do not present $77 as market price" warning** | Q4 FY26 and Q1 FY27 transcripts; World Bank monthly silver |
+| S19 | Trap 2; §H.11 note; §2.3 company conflicts | "c.45% of profitability — basis undisclosed (probably segment EBITDA)" | Basis disclosed in the FY26 AR: **"Contribution of Precious Metal in EBIT"**, chart values 27 / 28 / 38 / 45 / 45 for FY22–FY26 (FY26 = 45%; the order of the middle years is read from the chart [E]). Q1 FY27: 46% (call); H1 FY27: c.45% | FY26 AR KPI page; Q1 FY27 transcript |
+| S20 | §9.1; §0 | Net cash Mar-26 ₹5,594 Cr "[E]" | **[V]**: Mar-26 **₹5,594 Cr** (Q4 call); Jun-26 **₹5,572 Cr** after the ₹4,648 Cr interim (Q1 call); Sep-26 ₹11,268 Cr (Q2 call) | Transcripts |
+| S21 | Trap 6; §B1 | Lead-concentrate sales framed as a deliberate "monetise the high-payable market" strategy | Management (Q1 FY27): "We still don't sell concentrate… same policy". The sales were **off-spec lead concentrate built up while the new 1 Mtpa mill at Rajpura Dariba stabilised**, sold to avoid derating smelters. Economics: Q3 FY26 EBITDA ~₹250 Cr; **Q4 FY26 revenue ~₹500 Cr, EBITDA ~₹330 Cr**; Q1 FY27 revenue ₹315 Cr; **Q2 FY27 revenue ₹300 Cr, profit ₹155 Cr**. They are lucrative because **high-silver lead concentrate spot TCs were negative (−$200 to −$240/t, cif China, Feb-2026)**: buyers pay for the silver | Q1/Q2 FY27 and Q4 FY26 transcripts; Fastmarkets 11-Mar-2026 |
+| S22 | §2.3; §H.5 | India per-capita zinc "~0.5 kg vs global 1.7–4 kg (sources conflict)" | On one refined-metal basis [E]: **world 14.0 Mt ÷ ~8.2 bn ≈ 1.7 kg; India ~1.0 Mt ÷ ~1.45 bn ≈ 0.7 kg** (~0.55 kg on primary-only ~0.8 Mt). The 3–4 kg figures are developed-economy levels, not the world average. Use "**~0.6–0.7 kg vs a world average of ~1.7 kg**" | Arithmetic on ILZSG 2026 demand and the India estimates |
+| S23 | §10.1; §3.2(b) | Teck "Anglo Teck merger pending China approval"; Teck volumes [V-snip] | Teck (29-Oct-2026): merger "remains on track to close within the originally stated 12–18 months" of 9-Sep-2025. **2025 zinc in concentrate 565.0 kt (Red Dog 462.7, Antamina 102.3); Trail 229.9 kt refined. 2026 guidance 410–460 kt (Red Dog 375–415), high end; Trail 190–230 kt** [V] | Teck 6-K ex.99.2 |
+| S24 | §10.1 multiples | Glencore EV/EBITDA "~5–6× [K]", Boliden "~6–7× [K]", Korea Zinc "P/E inflated [K]" | **[V] 13-Nov-2026: Glencore EV/EBITDA 7.7×, P/E 15.0× (fwd 10.9×); Boliden 5.6×, P/E 10.0×; Teck 6.1×, P/E 11.1×; Korea Zinc 9.9×, P/E 17.0×** | StockAnalysis.com statistics pages |
+| S25 | §10.1; §6 archetype table | Korea Zinc EBITDA margin "~8–12% [K]"; Boliden "~20–25%" | Korea Zinc TTM EBITDA margin **11.4%** [V], but **Q3 2026 consolidated operating profit only ~₩141.7 bn on ~₩6.09 tn revenue (~2.3%; −48% YoY)** [V-snip]. Boliden TTM EBITDA margin **25.6%** [V] | StockAnalysis; Korean press (stockhub/MT) |
+| S26 | §5.1 HZL lead share | "~92% primary lead market share (FY26)" | The FY24 AR says **64%** of the primary lead market in FY24 (and ~75% of primary zinc). The jump to 92% in FY26 decks is unexplained (basis change or fewer imports?). **Cite the 92% as a company FY26 claim and flag the FY24 figure** | FY24 AR; Q2 FY27 deck |
+| S27 | §2.1/§9.3 LME Q2 FY27 | "Sep-2026 monthly average US$4,020 [V-sib]" | **[V]** World Bank: Sep-2026 **$4,021**; Oct-2026 **$3,818**; silver Oct-2026 **$57.0/oz** (Sep $64.6) | World Bank Pink Sheet |
+| S28 | §2.1(b) management; §H | CFO succession "Amit Gupta (Sandeep Modi presented Q4)" | **Sandeep Modi ceased to be CFO at close of business on 30-May-2026**. Amarendu Prakash (SAIL CMD 2023–26) became **CEO & Whole-Time Director w.e.f. 1-Aug-2026**; Arun Misra presented Q1 FY27 as outgoing CEO | FY26 AR; Q1 FY27 transcript |
+
+## 4.1 Verification table (40 figures the writer will lean on)
+
+Key: **[V]** = fetched and read this session (URL code below). **[V-snip]** = secondary or snippet only. **[V-prior]** = verified in Parts 1–3 earlier today, not re-fetched. "Agrees?" compares with Parts 1–3.
+
+URL codes:
+- **T2** = Q2 FY27 transcript; **P2** = Q2 FY27 deck; **T1** = Q1 FY27 transcript; **P1** = Q1 FY27 deck; **T4** = Q4 FY26 transcript; **P4** = Q4 FY26 deck.
+- **AR26** = FY26 Integrated AR; **AR24** = FY24 AR; **T22/T23/T24** = Q4 FY22 / FY23 / FY24 transcripts.
+- **WB** = World Bank Pink Sheet; **ILZ** = ILZSG 19-Oct-2026; **IBM-R** = IBM royalty schedule; **IBM-LZ** = IMYB 2022 Lead & Zinc.
+- **FM24 / FM26** = Fastmarkets benchmark articles; **GLEN** = Glencore Q3 2026; **TECK** = Teck 6-K.
+- **SA** = StockAnalysis; **SCR** = screener consolidated (13-Nov-2026); **PB** = postal ballot; **LL** = LiveLaw.
+
+Full URLs are in the Part 4 header.
+
+| # | Figure | Value | Source (URL code) | Status | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Q2 FY27 revenue from operations | ₹15,093 Cr (+77% YoY) | P2 p.26/28; SCR | **[V]** | Yes |
+| 2 | Q2 FY27 EBITDA / margin | ₹9,285 Cr / 62% (screener OP ₹9,248 Cr, 61%) | P2; T2; SCR | **[V]** | Yes |
+| 3 | Q2 FY27 PAT / EPS | ₹6,412 Cr / ₹15.18 | P2; SCR | **[V]** | Yes |
+| 4 | H1 FY27 revenue / EBITDA / PAT | ₹28,840 / 17,359 / 11,881 Cr | P2; T2 | **[V]** | Yes |
+| 5 | FY26 revenue / EBITDA / PAT (consolidated) | ₹40,844 / 22,162 / 13,832 Cr | AR26 KPI p.118; AR26 MD&A | **[V]** | Yes |
+| 6 | FY26 mined metal | 1,114 kt (Zn 903.9 + Pb 210.5) | AR26 KPI p.120 | **[V]** | Yes |
+| 7 | FY26 refined zinc / lead | 851.3 kt / 196.8 kt | AR26 KPI p.120 | **[V]** | Yes |
+| 8 | FY26 saleable silver | 627 t | AR26; P4 | **[V]** | Yes |
+| 9 | Silver FY22–FY25 | 647 / 714 / 746 / 687 t | AR26 KPI p.120 | **[V]** | Yes (was [K] for FY22–24) |
+| 10 | Mined metal FY22–FY24 | 1,017 / 1,062 / 1,079 kt | AR26 KPI p.120 | **[V]** | Minor change (S4) |
+| 11 | Zinc CoP ex-royalty Q2 FY27 | $703/t (₹67,141/t) | P2 p.28; T2 | **[V]** | Yes |
+| 12 | Zinc CoP ex-royalty FY26 / FY25 | $959 / $1,052 (₹84,768/t FY26) | AR26 MD&A; P4 | **[V]** | Yes |
+| 13 | Zinc CoP ex-royalty FY22 / FY23 / FY24 | $1,122 / $1,257 / $1,117 | T22; T23; T24, AR24 | **[V]** | **No** (S6) |
+| 14 | FY27 CoP guidance | $825–850/t (from $975–1,000) | T2 | **[V]** | Yes |
+| 15 | FY27 silver guidance; FY28 aspiration | 680 t (H1 321 refined + ~19–20 t in concentrate ≈ 340); FY28 "hope" 730–750 t | T2 | **[V]** | Yes |
+| 16 | LME zinc Q2 FY27 average | $3,825 (WB monthly Jul–Sep = $3,832) | P2; WB | **[V]** two sources | Yes |
+| 17 | LBMA silver Q2 FY27 average | $62.6 (WB $62.9) | P2; WB | **[V]** two sources | Yes |
+| 18 | LME zinc FY23 average | $3,334/t | WB | **[V]** | **No** (S1; was ~3,233 [K]) |
+| 19 | Silver share of FY26 revenue | 24% (₹9,841 Cr) | AR26 KPI p.118 (mix 68/24/0/8); P4 | **[V]** | Yes |
+| 20 | Precious-metal share of EBIT | 45% FY26; 46% Q1 FY27; c.45% H1 FY27 | AR26 KPI p.120; T1; P2 | **[V]** | Yes; basis now known (S19) |
+| 21 | Brand & strategic-services fee | ₹1,171 Cr FY26 (₹658 Cr FY25); 2% from Oct-2022 → 3% from Apr-2025; prepaid annually; contract to 2030 | AR26 Note 27(2); T4 | **[V]** | Reconciled (S8) |
+| 22 | Mining royalty expense (standalone) | ₹4,948 Cr FY26 (₹4,103 Cr FY25) = 12.2% of revenue | AR26 standalone P&L | **[V]** | New |
+| 23 | Royalty rates | Zn 9.5% / Pb 8.5% of LME in ore; by-product Ag 7% | IBM-R | **[V]** | Yes (was [K]) |
+| 24 | Exports FY26 | Zinc 251 kt of 851 kt (29.5%); lead 46 kt of 197 kt | AR26 Board's report | **[V]** | New (S17) |
+| 25 | Net cash 30-Sep-2026 | ₹11,268 Cr (gross ₹17,439 Cr − debt ₹6,171 Cr) | T2; P2 p.21 | **[V]** | Yes |
+| 26 | Hedge "delta vs market" FY26 | ₹1,500 Cr (Q4 FY26 ₹1,100 Cr); Q1 FY27 loss ~₹200 Cr | T4; T1 | **[V]** | New |
+| 27 | DPS FY22 / FY23 / FY24 / FY25 / FY26 | ₹18 / 75.5 / 13 / 29 / 10 | AR26 KPI p.119 | **[V]** | Yes (was K) |
+| 28 | Five-year growth capex vs FCF | ₹40–50k Cr growth capex vs ₹55–65k Cr pre-growth FCF | AR26 CFO letter p.117 | **[V]** | **No** (S9) |
+| 29 | Debari expansion | +250 ktpa (1.1 → 1.4 Mtpa), c.₹12,000 Cr, 2QFY29; tailings 10 Mtpa ₹3,823 Cr 4QFY28 | P2 projects slide; T2 | **[V]** | Yes |
+| 30 | Zinc TC benchmarks 2021–2024 | $159 / $230 / $274 / $165 | FM24 | **[V]** | Yes (2023 was [K]) |
+| 31 | Zinc TC benchmark 2026 | $85/dmt (2025: $80) | FM26 (2025 [V-snip] Bloomberg) | **[V]** | Yes |
+| 32 | ILZSG 2026 / 2027 refined zinc balance | −88 kt deficit / +25 kt surplus | ILZ | **[V]** | Yes (was snip) |
+| 33 | ILZSG 2026 refined zinc demand / mine output | 14.02 Mt / 12.40 Mt (−2.6%) | ILZ | **[V]** | New |
+| 34 | Glencore own-sourced zinc 2025 / 2026 guidance | 969.4 kt / 700–740 kt (upper end); 9M26 547.2 kt (−23%) | GLEN | **[V]** | Yes (was snip) |
+| 35 | Teck 2026 zinc guidance; net cash unit cost | 410–460 kt; $0.30–0.40/lb (~$660–880/t) | TECK | **[V]** | Volume yes; cost new |
+| 36 | Shareholding (Sep-2026) | Vedanta 60.71% / GoI 27.92% / public 11.37% | P2 p.(group structure) | **[V]** | Yes |
+| 37 | Section 186 limit | ₹15,000 Cr (approved 5-Sep-2024) → ₹30,000 Cr; special resolution; e-voting 4-Nov to 3-Dec-2026 | PB | **[V]** | Yes |
+| 38 | MMDR Amendment 2026 (s.9D) | Passed LS 12-Aug / RS 13-Aug-2026 | LL (legal news, secondary) | **[V]** (secondary) | New (S14) |
+| 39 | India zinc ingot imports FY25 | 206,783 t (−5.2%) | BigMint (snippet; DGCI&S not reached) | [V-snip] | Unchanged |
+| 40 | Market cap 13-Nov-2026 | ₹2,34,442 Cr; P/E 11.3× | Screener (Part 2) | [V-prior] | — |
+
+**Count: 37 of 40 [V] from documents fetched this session** (#1–38 except #39 and #40; #38 is a secondary legal report and #31's 2025 value is a snippet). **Two-source checks:** #16 and #17 (HZL vs World Bank), #2 (HZL vs screener), #25 (call vs deck).
+
+**Credibility notes:**
+1. For FY22–FY24 prices, the World Bank series is preferred over memory. It reproduces HZL's own FY25–FY26 LME averages to within $2/t.
+2. For the brand fee, the AR note governs: the audited expense is ₹1,171 Cr. Viceroy's ₹1,060 Cr was the cash prepayment.
+3. For the precious-metal share, use "c.45% of EBIT" (AR basis), not "of profitability".
+
+## 4.2 Hindustan Zinc — primary-document pack
+
+### 4.2(a) Management-guidance digest: latest call (Q2 FY27, 19-Oct-2026) [V T2]
+Speakers: CEO Amarendu Prakash, CFO Amit Gupta, IR Raksha Jain. Short call (9 pages, six analysts). Paraphrased:
+1. **Cost guidance cut.** FY27 zinc CoP ex-royalty revised to **$825–850/t** from $975–1,000.
+   - Q2 was **$703/t (−29% YoY)**, "lowest since underground transition".
+   - CFO: the sulphuric-acid by-product windfall is a "positive surprise", offset by ~**$50/t of geopolitical cost escalation**. He expects H2 "broadly in the same range" as the guidance.
+   - Implied H2 CoP ≈ $875–925/t [E: full-year $825–850 with H1 at $776]. **H2 CoP will rise from Q2's $703**, a point the market may miss.
+2. **Volumes reaffirmed.**
+   - Silver **680 t** for FY27. H1 was 321 t refined plus ~20 t sold in concentrate ("340, you can assume").
+   - FY28 silver of 730–750 t: "We can hope to do that" (debottlenecking in the pipeline).
+   - Mined metal +5% YoY in Q2 (record Q2); refined +7%.
+3. **Hedges.** Q3 FY27: 40 kt zinc at $3,476/t and 8 t silver at $68/oz. Q4 FY27: 36 kt zinc at $3,698/t. At October's LME ($3,818) the zinc hedges are out of the money: ~$340/t × 40 kt ≈ $14 m ≈ ₹130 Cr in Q3 [E]. The silver hedge is in the money vs $57.
+4. **Capex.** Q2 sustaining ~₹1,200 Cr plus growth ~₹700 Cr. Full-year growth capex "in the range of ₹5,000 Cr", back-end loaded into Q3–Q4.
+5. **Projects.** Debari 250 ktpa: engineering and procurement "almost complete", mine development underway. 10 Mtpa tailings plant "progressing as per plan".
+   - Critical minerals: exploration on three composite-licence blocks finishes **Q3 FY29**. The Gundlupet REE-yttrium mining lease has been executed.
+   - **Not mentioned:** the fertiliser/phosphoric-acid plant, Hot Acid Leaching and the second-stage smelter Board approval (promised for Q3 FY27 on the Q1 call).
+6. **Operating details.** Q2 ore grade **7.6%**; domestic coal **32%** of CPP coal; renewables **27%** of power (target 35% "in the quarters to come"); HZAPL on 100% RE.
+7. **Concentrate.** 10 kt lead concentrate sold (10 t silver, 6 kt lead): revenue ₹300 Cr, profit ₹155 Cr. "We don't have as such any plan for the concentrate."
+8. **Acid.** FY26 acid revenue "around ₹1,000–1,200 Cr". No FY27 number: "we sell everything on auction basis".
+9. **Shareholder and state.** H1 TSR 15% (₹64 capital appreciation + ₹11 dividend). Exchequer contribution >₹13,000 Cr in H1 (₹13,027 Cr unaudited, ₹3,724 Cr of it to Rajasthan incl. royalties).
+10. **Market view.** Woodmac 2026 refined zinc demand 13.87 Mt vs supply 13.69 Mt (~180 kt deficit). Silver in a sixth straight deficit (~1.44 kt). Decade-long tightness from mine closures and grade decline.
+
+### 4.2(b) Previous calls: what changed [V T1, T4]
+**Q1 FY27 (24-Jul-2026)**, Arun Misra's last call; Prakash introduced as CEO-designate:
+- **Leadership.** Prakash (SAIL CMD 2023–26) is CEO & WTD from 1-Aug-2026. Amit Gupta is the new CFO.
+- **Records.** Q1 EBITDA ₹8,074 Cr (59%); CoP $851/t. Silver 149 t, with ~10–15 t "locked up in WIP"; ex-concentrate, 158 t of value was extracted. Precious metals were **46% of profitability**.
+- **Coal and power.** Domestic coal **36%** (54% a year earlier, 64% in Q4 FY26). Linkage coal under-materialised and imported coal was dearer, so power & fuel rose QoQ.
+- **Concentrate policy.** "We still don't sell concentrate." Q1's 10 kt (₹315 Cr revenue) was old off-spec stock from the Rajpura Dariba 1 Mtpa mill ramp-up.
+- **SEBI related-party observations** (results note 5).
+  - Omnibus RPT approvals are set in quantity terms. When LME rose, the rupee value breached the approved limit.
+  - New SOP: an alarm at 80% of the approved value triggers a return to the Audit Committee. "Otherwise, there is no breach as such."
+  - **Links to the FY26 AR: SEBI issued an administrative warning dated 30-Apr-2026 on "certain procedural aspects pertaining to Audit & Risk Management"** after seeking information on RPTs, dividend declarations and approval processes [V AR26].
+- **Second-stage expansion.** ~650 kt of metal capacity incl. mines, at **~₹24,000–25,000 Cr** (2.5× the Debari ₹12,000 Cr). Tendering underway; Board approval targeted **Q3 FY27**; 36-month build.
+- **Fertiliser.** Only the **phosphoric-acid plant** in Q2 FY27. The DAP plant awaits environment clearance, **"by quarter 1 of next financial year"**; **₹500 Cr spent so far**.
+- **Tailings plant.** 24 months to build; **30–35 kt of zinc** a year; 6–8 months of ramp-up ("apart from one mine in Australia, nobody has done" tailings reprocessing at this scale).
+- **Hedges at end-Q1.** 48 kt zinc at $3,162 and 34 t silver at $63 open; no new hedges in FY27 to date. Q1 hedge loss ~**₹200 Cr**. Growth capex guidance **$500–600 m**; Q1 spend ₹800 Cr.
+- **Other.**
+  - Q1 exchequer contribution ~₹6,450 Cr. Net cash ₹5,572 Cr. FCF ₹5,253 Cr.
+  - Dividend policy unchanged (≥30% of PAT or 5% of reserves).
+  - GoI stake-sale question deflected ("for the government to give the update").
+  - **No royalty on sulphuric acid**, which is why royalty as a percentage of revenue fell (HSBC question). Acid prices **+200% YoY** (analyst).
+  - REE/yttrium (Gundlupet) first production ~2031–32.
+
+**Q4 FY26 (24-Apr-2026)**, Arun Misra and CFO Sandeep Modi:
+- **FY27 guidance set:** CoP $975–1,000; capex $500–600 m; silver 680 t.
+- **Hedge book then:** FY27 71 kt zinc at $3,225 and 59 t silver at $60. Policy is to hedge 10–20%, never beyond 12 months; ~10% hedged at the time.
+- **Hedge "delta vs market":** **₹1,100 Cr in Q4 FY26, ₹1,500 Cr for FY26.**
+- **Brand fee:** paid upfront on estimate; FY27 ~₹1,300 Cr; FY26 ~₹1,100 Cr + ₹100 Cr true-up; **contract valid to 2030**. Misra: "there is no royalty [fee]… it is brand and strategic services fee."
+- **Leases expiring 2030:** "comfortable because we have the **first right of refusal**… only a matter of how much premium."
+- **Silver versus zinc trade-off.** More silver only "when zinc prices fall to say $2,800–3,000… [with] silver at $60". At $3,100–3,400 zinc, 30 kt of extra zinc beats 30 t of extra silver. HZL actively chooses its ore mix by relative price.
+- **Concentrate economics:** Q4 FY26 revenue ~₹500 Cr, EBITDA ~₹330 Cr (Q3 FY26 ~₹250 Cr). The CFO named "TC/RC" as a driver.
+- **Capex FY26:** total ₹3,600 Cr, of which growth ₹2,000 Cr.
+- **Debari and the second stage** to be co-located: "in one location 1,000,000 ton smelter will come up". Orders for mining were placed; mills by June 2026.
+- **Dividends.** The ₹11 FY27 first interim was paid out of ~₹22,000 Cr of retained earnings. "The Board will continue to balance between paying dividend and investing."
+
+### 4.2(c) Concall KPI table (company basis) [V P1, P2, P4, T1, T2, T4]
+
+| KPI | Q4 FY26 | Q1 FY27 | Q2 FY27 | FY27 guidance | Comment |
+|---|---|---|---|---|---|
+| Mined metal (kt) | 315 | 268 | 271 | 1,150 ± 10 | H1 539 kt; H2 needs ~611 kt (Q4 is seasonally the peak, ~280–290 kt+) |
+| Refined metal (kt) | 282 | 260 | 264 | 1,100 ± 10 | H1 524; H2 needs ~576 kt |
+| Refined silver (t) | 176 | 149 | 173 | 680 ± 10 | H1 321 + ~19 t in concentrate |
+| Lead concentrate sold (kt) | 12 | 10 | 10 | "no plan" | Silver-equivalent 9–10 t a quarter |
+| Zinc CoP ex-royalty ($/t) | 903 | 851 | 703 | 825–850 (from 975–1,000) | Implied H2 ~$875–925 [E] |
+| Zinc CoP with royalty ($/t) | — | 1,330 | 1,228 | — | Royalty+DMF+NMET ≈ $480–525/t |
+| Ore grade (%) | — | "better" | 7.6 | — | — |
+| Domestic coal (% of CPP) | 64 | 36 | 32 | — | Key swing in power cost |
+| RE share of power (%) | ~18 (FY26) | 22 | 27 | 35 near-term; 70 by FY28 | — |
+| Growth capex (₹ Cr) | ~2,000 (FY26) | ~800 | ~700 | ~5,000 ($500–600 m) | H2 heavy |
+| Sustaining capex (₹ Cr) | ~1,600 (FY26) | n/d | ~1,200 | — | — |
+| FCF pre-growth (₹ Cr) | 13,337 (FY26) | 5,253 | 6,389 | — | — |
+| Net cash (₹ Cr, period-end) | 5,594 | 5,572 | 11,268 | "net cash company" at FY27 end | — |
+| Hedge result | −₹1,100 Cr (delta) | −~₹200 Cr | n/d | 10–20% policy | — |
+| Precious-metal share of profit/EBIT | 45% (FY26) | 46% | c.45% (H1) | — | — |
+| Exchequer (₹ Cr) | c.19,000 (FY26) | ~6,450 | 13,027 (H1) | — | Unaudited |
+
+### 4.2(d) Five-year history: financial + operating (FY22–FY26)
+
+| | FY22 | FY23 | FY24 | FY25 | FY26 | Source |
+|---|---|---|---|---|---|---|
+| Revenue from operations (₹ Cr) | 29,440 | 34,098 | 28,932 | 34,083 | 40,844 | AR26 KPI; screener [V-prior] |
+| EBITDA, company (₹ Cr) | 16,289 | 17,590 | 13,677 | 17,465 | 22,162 | AR26 KPI chart [V] |
+| EBITDA margin (company) | 55% | 52% | 47% | 51% | 54% | AR26 KPI [V] |
+| PAT (₹ Cr) | 9,629 | 10,511 | 7,759 | 10,353 | 13,832 | AR26 KPI [V] |
+| EPS (₹) | 22.79 | 24.88 | 18.36 | 24.50 | 32.74 | AR26 KPI [V] |
+| DPS (₹) | 18.00 | 75.50 | 13.00 | 29.00 | 10.00 | AR26 KPI [V] |
+| Payout (screener) | 79% | 303% | 71% | 118% | 31% (standalone) | [V-prior] |
+| Net worth, Mar (₹ Cr) | 34,281 | 12,932 | 15,195 | 13,326 | 22,629 | AR26 KPI + screener [V] |
+| Gross cash & investments, Mar (₹ Cr) | 20,789 | ~10,000 | ~10,200 | ~9,500 | 13,846 | AR26 KPI (middle years' order inferred [E]) |
+| ROCE, company | ~35% | 42–46% | 42–46% | ~58% | 67% | AR26 KPI chart (order of FY23/FY24 [E]) |
+| ROCE, screener | 37% | 50% | 46% | 61% | 70% | [V-prior] |
+| Revenue mix: zinc+lead / silver / other (%) | 81/14/5 | 82/13/5 | 77/19/4 | 77/18/5 | 68/24/8 | AR26 KPI [V] (wind ≤1% folded into other) |
+| Precious-metal share of EBIT (%) | ~27–28 | ~27–28 | ~38–45 | ~38–45 | 45 | AR26 KPI chart (FY26 firm; others' order [E]) |
+| Mined metal (kt) | 1,017 | 1,062 | 1,079 | 1,095 | 1,114 | AR26 [V] |
+| — zinc in ore (kt) | 801.0 | 839.1 | 855.0 | 863.0 | 903.9 | AR26 [V] |
+| — lead in ore (kt) | 216.0 | 223.0 | 224.1 | 231.6 | 210.5 | AR26 [V] |
+| Refined zinc (kt) | 775.8 | 820.9 | 817.1 | 826.8 | 851.3 | AR26 [V] |
+| Refined lead (kt) | 191.2 | 210.7 | 216.0 | 225.5 | 196.8 | AR26 [V] |
+| Saleable silver (t) | 647 | 714 | 746 | 687 | 627 | AR26 [V] |
+| Zinc CoP ex-royalty ($/t) | 1,122 | 1,257 | 1,117 | 1,052 | 959 | T22/T23/T24/AR26 [V] |
+| LME zinc, FY average ($/t) | 3,248 | 3,334 | 2,480 | 2,875 | 2,970 | WB (FY22–24) / HZL (FY25–26) [V] |
+| LME lead ($/t) | 2,278 | 2,103 | 2,120 | 2,046 | 1,954 | WB / HZL [V] |
+| LBMA silver ($/oz) | 24.6 | 21.4 | 23.6 | 30.4 | 53.1 | WB / HZL [V] |
+| LME zinc − CoP ex-royalty ($/t) | ~2,126 | ~2,077 | ~1,363 | ~1,823 | ~2,011 | [E] |
+| Zinc exports (kt) / share | — | — | — | 225 / 27% | 251 / 29.5% | AR26 [V] |
+| Mining royalty, standalone (₹ Cr) | — | — | — | 4,103 | 4,948 | AR26 [V] |
+| Brand fee (₹ Cr) | — | (2% from Oct-22) | — | 658 | 1,171 | AR26 [V] |
+
+Read-across:
+- FY23 was the cost peak ($1,257/t on European energy-crisis coal), yet the margin held at 52% because LME averaged **$3,334**, higher than FY22.
+- FY24 is the true trough: the LME fell 26% to $2,480, and silver volume peaked (746 t) as HZL deliberately maximised silver, which is consistent with Misra's ore-mix comment.
+- FY26 silver volume fell 9% while silver revenue rose 61%.
+
+### 4.2(e) Eight-quarter trend (screener consolidated P&L [V SCR, fetched 13-Nov-2026]; operating data company [V P1/P2/P4])
+
+| ₹ Cr / unit | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Sales | 8,614 | 9,087 | 7,771 | 8,549 | 10,980 | 13,544 | 13,747 | 15,093 |
+| Expenses | 4,115 | 4,267 | 3,912 | 4,104 | 4,926 | 5,838 | 5,697 | 5,845 |
+| Operating profit | 4,499 | 4,820 | 3,859 | 4,445 | 6,054 | 7,706 | 8,050 | 9,248 |
+| OPM | 52% | 53% | 50% | 52% | 55% | 57% | 59% | 61% |
+| Company EBITDA | — | 4,816 | 3,860 | 4,467 | 6,087 | 7,747 | 8,074 | 9,285 |
+| Other income | 218 | 227 | 279 | 238 | 318 | 280 | 316 | 374 |
+| Interest | 285 | 251 | 240 | 259 | 195 | 187 | 132 | 88 |
+| Depreciation | 905 | 1,014 | 913 | 882 | 947 | 1,048 | 920 | 962 |
+| PBT | 3,527 | 3,782 | 2,985 | 3,542 | 5,230 | 6,751 | 7,314 | 8,572 |
+| PAT | 2,678 | 3,003 | 2,234 | 2,649 | 3,916 | 5,033 | 5,469 | 6,412 |
+| EPS (₹) | 6.34 | 7.11 | 5.29 | 6.27 | 9.27 | 11.91 | 12.94 | 15.18 |
+| Mined metal (kt) | n/f | 310 | 265 | 258 | 276 | 315 | 268 | 271 |
+| Refined metal (kt) | n/f | 270 | 250 | 246 | 270 | 282 | 260 | 264 |
+| Silver (t) | n/f | 177 | 149 | 144 | 158 | 176 | 149 | 173 |
+| CoP ex-royalty ($/t) | n/f | 994 | 1,010 | 994 | 940 | 903 | 851 | 703 |
+| LME zinc ($/t) | n/f | 2,838 | 2,641 | 2,825 | 3,165 | 3,241 | 3,466 | 3,825 |
+| LBMA silver ($/oz) | n/f | 31.9 | 33.7 | 39.4 | 54.7 | 84.3 | 73.2 | 62.6 |
+| INR/USD | n/f | 86.60 | 85.57 | 87.31 | 89.09 | 91.50 | 94.58 | 95.57 |
+| Implied silver realisation ($/oz) [E] | — | — | 35.5 | 41.3 | 59.1 | 77.9 | 84.7 | 77.3 |
+| Realisation vs LBMA | — | — | +5% | +5% | +8% | **−8%** (hedges) | **+16%** | **+24%** |
+
+- n/f = not fetched (the Q3 FY25 deck was not read).
+- Implied realisation = silver revenue ÷ ounces sold ÷ FX. Q1 FY26 and Q3 FY26 silver revenue are derived from H1 and FY totals. Ounces use sales volume (Q2 FY26: 147 t sold vs 144 t produced).
+- Implied zinc realisation runs at a steadier **+5–8% over LME** (Q2 FY26 $3,036 vs $2,825; Q1 FY27 $3,660 vs $3,466; Q2 FY27 $4,021 vs $3,825). That fits the domestic import-parity premium.
+
+### 4.2(f) Annual-report findings (FY26 Integrated AR unless noted) [V AR26]
+1. **Cost structure (standalone FY26, ₹ Cr; % of revenue ₹40,658 Cr):**
+   - mining royalty **4,948 (12.2%)**; power & fuel **2,553 (6.3%)**; employees 761 (1.9%);
+   - stores & spares 2,762 (6.8%); repairs (plant) 2,762 (6.8%); mine expenses 2,212 (5.4%);
+   - **brand & strategic services 1,171 (2.9%)**; carriage outwards 260; CSR 226; R&D 23.
+   - **Royalty is the single largest cost line, almost twice power & fuel.** In FY25 power & fuel (2,696) was still larger than in FY26: more domestic coal and RE cut it.
+   - FY25 "miscellaneous expenses" included **political donations of ₹40 Cr** (BJP ₹30 Cr, INC ₹10 Cr); nil in FY26.
+2. **Related parties.**
+   - The auditor made **RPTs a Key Audit Matter**, citing the brand fee, power delivery agreements (Serentica RE PPAs), a residue-treatment contract, PPE sales and IT services. The auditor reviewed the experts' benchmarking report on the brand fee and the PDA.
+   - **Emphasis of Matter / Note 43:** short-seller allegations against VRL and its subsidiaries are "without merit"; no adjustments made.
+   - SEBI administrative warning, 30-Apr-2026 (procedural; ARMC).
+3. **Royalty disputes with Rajasthan** (contingent, Note 30b):
+   - DMG demand of **₹1,925 Cr** (royalty methodology, 2008–2019). The Revisionary Authority told the State to await central guidance; a central clarification came in Oct-2025; HZL has challenged parts of it in the High Court; **no fresh demand yet**.
+   - **₹311 Cr** demand lost at the Revisionary Authority (25-Jul-2024); HC stay with ₹100 Cr deposited.
+   - Plus **₹324 Cr** of provisional assessments for FY14–FY25.
+   - **Total royalty-methodology exposure ≈ ₹2,560 Cr**, the largest contingent item.
+   - Other contingents (FY26): income-tax demands ₹683 Cr; indirect-tax ₹503 Cr; environmental cess ₹56 Cr; bank guarantees ₹371 Cr.
+4. **Capital commitments** ₹7,692 Cr (Mar-26) vs ₹4,011 Cr (Mar-25). Debari orders are now placed.
+5. **Funding.** ₹1,400 Cr of unsecured NCDs issued 2-Feb-2026 (₹420 Cr 2-year, ₹980 Cr 3-year); no CPs outstanding at Mar-26; capitalisation rate 7.26% (FY25 8.33%).
+6. **Strategy targets** (AR "HZL 2.0"):
+   - refined capacity **1.14 → 2.0 Mnt**; silver 1,500 tpa;
+   - **R&R metal ~50 Mt** (from 29.2 Mt); upgrade ~45–50 Mnt of ore to reserves;
+   - VAP share to 458 kt; RE 70%; CoP <$1,000/t.
+   - CFO letter: **₹55–65k Cr pre-growth FCF vs ₹40–50k Cr growth capex over five years**. This implies **₹10–20k Cr of five-year free cash after growth for dividends** (~₹2–4k Cr a year, below the ₹4–12k Cr a year paid in FY24–FY27) **unless prices stay high**. That is the arithmetic behind the Section 186 / leverage question [E].
+7. **Governance compliance.**
+   - The exchanges' fine for the shortfall of independent directors (Sep-2021 to Mar-2024) was **waived and refunded** (BSE IRORG, 24-Mar-2026). The underlying shortfall is "under review by the Ministry of Mines" (the GoI nominates).
+   - MCA compounding fee of ₹63.9 lakh (16-Dec-2025, Section 158).
+8. **Market shares:**
+   - FY24 AR: ~75% of India's primary zinc and **64% of primary lead**; 59% of FY24 lead production sold domestically.
+   - FY26 decks: c.74% zinc and ~92% lead (see S26).
+9. **Mining compliance (IBM).** The Kayad lease (480.45 ha) received an MCDR violation / show-cause notice (Oct-2025): waste generation ~2× the approved plan, and production-plan deviations. It is procedural, but the notice formally lists "recommendation for termination of the mining lease" as a possible sanction [V IBM].
+
+### 4.2(g) Silver realisation and hedging: what the primary record now shows
+- Hedging lowered realisation in FY26: ₹1,500 Cr "delta", ₹1,100 Cr of it in Q4 FY26. Without it, Q4 FY26 EBITDA would have been ~₹8,850 Cr (65%) [E].
+- From Q1 FY27 the book shrank (34 t silver at $63 open at end-Q1; 8 t at $68 for Q3). Hedges cannot explain the +16% / +24% premiums.
+- Remaining candidates, none confirmed:
+  1. Domestic import-parity pricing (India's silver duty ~6% [K]) plus an Indian physical premium that widened in 2026.
+  2. Pricing lags on provisional invoicing. HZL's FY24 AR risk table refers to pricing "on monthly average LME price on shipments". A one-month lag lifts Q2 only to ~$63.6.
+  3. Silver contained in lead concentrate booked under "silver". Removing ₹300 Cr still leaves ~$72/oz.
+- **Writer guidance:** use LBMA averages for market narrative and HZL's silver revenue for financials, and say the implied realisation ran **"~16–24% above LBMA in Q1–Q2 FY27 for reasons the company has not explained"**. **Do not extrapolate the premium into Q3 FY27**: with LBMA ~$57 in October and the $68 hedge on 8 t only, Q3 silver revenue is likely to fall sharply.
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3(a) Global refined zinc and lead supply/demand (Mt, calendar years) [V ILZ unless marked]
+
+| | 2025 (derived) | 2026f | 2027f | Note |
+|---|---|---|---|---|
+| Zinc mine output | ~12.73 (+6.3%) | **12.40 (−2.6%)** | **12.78 (+3.0%)** | 2026 falls: Antamina, Garpenberg (seismic), Red Dog, Lady Loretta (closed Dec-2025). 2027 rises: China new capacity, Gamsberg Ph2, Rosh Pinah, India, Peru, Türkiye |
+| Refined zinc output | ~13.81 | **13.93 (+0.9%)** | **14.21 (+2.0%)** | 2026: China +3.7%, ex-China −2% (concentrate shortage, energy costs); 2027: Odda expansion, Verkhny Ufaley (Russia) |
+| Refined zinc demand | ~13.83 | **14.02 (+1.4%)** | **14.19 (+1.2%)** | China +1.8% (2026), +0.3% (2027); Europe +0.3%; India, Korea, US up |
+| **Refined zinc balance** | ~−0.02 | **−0.088 (deficit)** | **+0.025 (surplus)** | April-2026 forecast had a 19 kt deficit for 2026 [V-snip] |
+| Woodmac via HZL (2026) | — | demand 13.87 / supply 13.69 → −0.18 | — | [V T2]. Woodmac's deficit is ~2× ILZSG's |
+| Lead mine output | ~4.57 | 4.44 (−2.8%) | 4.58 (+2.9%) | — |
+| Refined lead output | ~13.74 | 13.88 (+1.0%) | 14.08 (+1.5%) | India, Korea, Türkiye, Brazil (new secondary capacity) |
+| Refined lead demand | ~13.67 | 13.79 (+0.9%) | 13.92 (+1.0%) | China only +0.2% (battery exports and vehicles down) |
+| **Refined lead balance** | — | **+0.090** | **+0.163** | Persistent surplus: lead price flat (~$1,840–1,995/t through 2026 [V WB]) |
+
+- 2025 values are back-calculated from ILZSG's stated 2026 growth rates [E].
+- **Mine output (12.4 Mt) sits ~1.5 Mt below refined output (13.9 Mt).** The gap is filled by secondary zinc and concentrate stocks. That structural concentrate shortage is the TC story: integrated producers with their own mines (HZL) are insulated, and custom smelters ex-China are being squeezed out (refined output ex-China −2% in 2026).
+
+### 4.3(b) Price history (World Bank Pink Sheet, LME-based; $/t, silver $/oz) [V WB]
+
+| Calendar year | Zinc | Lead | Silver | | Fiscal year (Apr–Mar) | Zinc | Lead | Silver |
+|---|---|---|---|---|---|---|---|---|
+| 2015 | 1,932 | 1,788 | 15.7 | | FY19 | 2,746 | 2,120 | 15.4 |
+| 2016 | 2,090 | 1,867 | 17.2 | | FY20 | 2,404 | 1,949 | 16.6 |
+| 2017 | 2,891 | 2,315 | 17.1 | | FY21 | 2,422 | 1,868 | 22.9 |
+| 2018 | 2,923 | 2,240 | 15.7 | | FY22 | 3,248 | 2,278 | 24.6 |
+| 2019 | 2,551 | 1,997 | 16.2 | | FY23 | 3,334 | 2,103 | 21.4 |
+| 2020 | 2,266 | 1,825 | 20.5 | | FY24 | 2,480 | 2,120 | 23.6 |
+| 2021 | 3,003 | 2,200 | 25.2 | | FY25 | 2,873 | 2,044 | 30.4 |
+| 2022 | 3,481 | 2,151 | 21.8 | | FY26 | 2,969 | 1,952 | 52.8 |
+| 2023 | 2,653 | 2,136 | 23.4 | | H1 FY27 (Apr–Sep 26) | 3,647 | 1,906 | 68.2 |
+| 2024 | 2,776 | 2,069 | 28.3 | | Oct-2026 (month) | 3,818 | 1,860 | 57.0 |
+| 2025 | 2,868 | 1,962 | 39.8 | | — | — | — | — |
+
+**2026 monthly (zinc $/t · silver $/oz):** Jan 3,213 · 92.1; Feb 3,324 · 81.9; Mar 3,182 · 77.9; Apr 3,364 · 75.9; May 3,482 · 78.0; Jun 3,539 · 66.7; Jul 3,599 · 58.8; Aug 3,875 · 65.4; **Sep 4,021 · 64.6**; **Oct 3,818 · 57.0** [V WB].
+- Silver's monthly-average peak was **Jan-2026 at $92.1** (the $118.45 intraday ATH is HZL's deck figure).
+- By October the monthly average had fallen 38% from January. The 9-Nov spot (~$49 [V-prior Skillings]) is a further ~14% lower.
+- **Zinc made its high in September, after the HZL Q2 quarter-end.** Q3 FY27 opened with zinc ~5% below the Sep peak and silver ~12% below Q2's average.
+
+### 4.3(c) Zinc treatment-charge history (annual benchmark, Teck/Korea Zinc or Teck/European smelters; $/dmt)
+
+| Year | Benchmark TC | Zinc price (CY avg, WB) | TC as % of price | Status | Context |
+|---|---|---|---|---|---|
+| 2015 | ~245 | 1,932 | 12.7% | [K] | Surplus concentrate before the Century/Lisheen closures |
+| 2016 | ~203 | 2,090 | 9.7% | [K] | Glencore 500 kt cut |
+| 2017 | ~172 | 2,891 | 5.9% | [K] | Mine-closure deficit |
+| 2018 | **147** | 2,923 | 5.0% | [V-snip FM headline "12-year low of $147"] | Trough of the last squeeze |
+| 2019 | ~245 | 2,551 | 9.6% | [K] | New mines (Dugald River, Gamsberg Ph1, New Century) |
+| 2020 | ~300 | 2,266 | 13.2% | [K] | Peak smelter terms (COVID demand hit) |
+| 2021 | **159** | 3,003 | 5.3% | [V FM24] | — |
+| 2022 | **230** | 3,481 | 6.6% | [V FM24] | European energy-crisis smelter curtailments |
+| 2023 | **274** | 2,653 | 10.3% | [V FM24] | Refined surplus, LME stocks +386% (CY23, HZL FY24 AR) |
+| 2024 | **165** (−39.8%) | 2,776 | 5.9% | [V FM24] | Mine closures/suspensions |
+| 2025 | **80** (−52%) | 2,868 | 2.8% | [V-snip Bloomberg] | "Lowest benchmark in 50+ years" |
+| 2026 | **85** | ~3,542 (Jan–Oct) | 2.4% | [V FM26] | Teck adds a germanium payable (disputed); silver payables reportedly cut |
+| Spot, 27-Feb-2026 | +10 to +50 (cif China) | — | — | [V FM26] | Some Antamina deals negative |
+| Spot, Q3 2026 | Negative; China domestic TCs negative "for the first time on record" | — | — | [V TECK] | — |
+| Spot, 9-Oct-2026 | −115 to −150 | — | — | [V-prior Fastmarkets] | Record low |
+| **Lead conc., high-silver, spot 27-Feb-2026** | **−200 to −240** | — | — | [V FM26] | **Why HZL's lead-concentrate sales are so profitable** |
+
+**Read:** in TC-to-price terms the 2025–26 benchmarks (2.4–2.8%) are the worst for smelters in the series, about half the previous troughs of 2018 and 2021 (~5%). A custom smelter's whole processing revenue at $85/dmt on ~55%-grade concentrate is ~$155 per tonne of zinc [E], less than one month of HZL's Q2 margin per tonne.
+
+### 4.3(d) Cost-curve positioning (mid/late-2026; $ per tonne of zinc) [V unless marked]
+
+| Producer / asset | Cost metric (as published) | Value | Comparable? | Source |
+|---|---|---|---|---|
+| **HZL (integrated, mine + smelter)** | CoP ex-royalty, net of non-silver by-products (acid etc.), **includes smelting** | **$703 (Q2 FY27)**; FY27 guide $825–850; FY26 $959 | Base case | P2, T2 |
+| HZL | CoP **with** royalty | $1,228 (Q2 FY27); $1,370 (FY26) | — | P2, P4 |
+| HZL, silver-credited (Teck-style "net") | CoP with royalty − silver revenue per t of zinc | **≈ −$780/t (Q2 FY27)** (silver credit ~$2,010/t of zinc); **≈ +$60/t (FY26)** (credit ~$1,308/t) | Approximates a by-product "net cash cost" [E] | Arithmetic on P2/AR26 |
+| Teck (Red Dog + Antamina share) | **Net cash unit cost** (after by-product credits incl. silver/lead; includes TCs paid; mine-level) | **$0.30–0.40/lb = ~$660–880/t** (2026 guidance, cut from $0.65–0.75) | Mine-only; the concentrate still pays TCs | TECK |
+| Teck | Total cash unit cost (before by-products) | $0.70–0.80/lb = ~$1,540–1,760/t | — | TECK |
+| Vedanta Zinc International (Gamsberg/Black Mountain) | CoP | $1,898/t (Q1 FY27) | Mine-only; pre Ph2 ramp | [V-sib] |
+| Glencore zinc | Not published per t in the Q3 report | — | — | GLEN |
+| Woodmac framing | HZL "among lowest cost zinc producers globally"; "first decile" | — | Company claim | P2 |
+
+**So what:**
+- HZL's ex-royalty CoP, which includes smelting, is now **at or below Teck's mine-only net cash cost**, and Teck's figure already credits silver and lead.
+- Credited for its silver like Teck, HZL's Q2 FY27 net cost is **negative**: silver alone more than pays for zinc production plus royalty.
+- That is the cost-curve truth behind "first decile". It also shows why the Q3 FY27 silver fall matters: at $57 silver the credit is ~$1,800/t of zinc [E], still enough to keep the net cost near zero.
+
+### 4.3(e) Global peer grid (latest; valuation 13-Nov-2026) [V GLEN/TECK/SA; V-snip KZ]
+
+| Company | Model | Zinc volume (latest) | 2026 direction | Latest margin | Mkt cap | EV/EBITDA | P/E (trailing / fwd) | P/B | Div. yield |
+|---|---|---|---|---|---|---|---|---|---|
+| **Hindustan Zinc** | Integrated miner-smelter + silver | 1,114 kt mined metal; 851 kt refined Zn (FY26) | FY27: mined 1,150 kt ±10; refined 1,100 kt ±10 | EBITDA 62% (Q2 FY27) | ₹2,34,442 Cr (~US$24.7 bn) | **~7.2× TTM** | **11.3×** | 7.8× | 1.98% |
+| Glencore | Diversified miner + trader; also custom smelters | Own-sourced zinc 969.4 kt (2025); 547.2 kt 9M26 (−23%); custom zinc metal 671.6 kt 9M26 | 700–740 kt (upper end) | Group EBITDA margin 4.2% (trading-inflated revenue) | £59.9 bn | **7.7×** | 15.0 / 10.9 | 2.18 | 2.49% |
+| Teck | Miner (Red Dog) + Trail smelter | 565.0 kt conc + 229.9 kt refined (2025) | 410–460 kt conc (high end); Trail 190–230 kt | Zinc segment GP before D&A C$638 m on C$2,068 m revenue (31%, Q3 2026) | US$29.6 bn | **6.1×** | 11.1 / 16.3 | 1.46 | 0.60% |
+| Boliden | Integrated (Garpenberg, Tara, Somincor) + Kokkola/Odda | n/f this session | Odda roaster availability up late Q3; buying 64.68% of Nexa | Q3 2026 EBIT SEK 5,416 m on SEK 30,442 m (18%); TTM EBITDA margin 25.6% | SEK 142.1 bn | **5.6×** | 10.0 / 9.8 | 1.68 | 2.20% |
+| Korea Zinc | Custom smelter (Onsan, Sun Metals) + by-products | n/f | Q3 2026 OP ~₩141.7 bn (−48% YoY) on ~₩6.09 tn revenue (~2.3%) [V-snip] | TTM EBITDA margin 11.4% | ₩17.66 tn | **9.9×** | 17.0 / 18.9 | 1.52 | 2.31% |
+| Nyrstar (Trafigura) | Custom smelter | ~1 Mt capacity [K] | Budel (300 ktpa) under strategic review (24-Sep-2026) [V-prior] | Loss-making [V-snip] | Unlisted | — | — | — | — |
+| Vedanta ZI | Concentrate miner | ~0.25 Mt → Gamsberg Ph2 to 500 ktpa (Oct-2026) | Ramp-up | Thin at $1,898/t CoP | Inside VEDL | — | — | — | — |
+
+**Reading the grid:**
+- HZL trades **in line with** global zinc peers on EV/EBITDA (5.6–9.9×) and P/E (10–17×), despite **2–5× their margins**, net cash and growth.
+- At **7.8× book** HZL is far above the peers' 1.5–2.2×. That reflects the FY23 special dividend that shrank equity, plus very high ROE (77%), not optimism.
+- The governance/peak-earnings discount shows up as a **failure to command a premium**, not as an absolute discount to peers.
+
+### 4.3(f) India zinc demand, supply and imports (tonnes unless stated)
+
+| Item | FY21 | FY22 | FY24 | FY25 | FY26 | Source |
+|---|---|---|---|---|---|---|
+| HZL refined zinc production | 715,445 | 775,808 | 817,059 | 826,812 | 851,303 | IBM-LZ (FY21–22) [V]; AR26 [V] |
+| HZL zinc exports | 281,417* | 267,666* | n/f | 225,000 | 251,000 | *IBM national exports (HZL ~sole exporter) [V]; AR26 [V] |
+| HZL domestic zinc sales | — | — | n/f | 603,000 | 600,000 | AR26 [V] |
+| Imports of zinc, not alloyed (HS 79011100 only) | 84,980 | 86,667 | — | — | — | IBM-LZ (DGCI&S) [V] |
+| Imports of zinc ingot (all grades) | — | — | 218,106 | 206,783 | ~195,000 (70% Korea) | BigMint [V-snip]; sibling report [V-sib] |
+| Zinc scrap imports | — | — | — | 82,123 (+26%) | n/f | BigMint [V-snip] |
+| **Apparent primary zinc consumption** | **519,008** | **594,809** | — | ~810,000 [E] | **~795,000 [E]** | IBM-LZ (FY21–22); FY25–26 = HZL domestic sales + ingot imports [E] |
+| HZL share of primary market (domestic sales ÷ apparent) | — | — | ~75% (AR24) | ~74% [E] | **~75% [E]** (company: c.74%) | Reconciles the company claim |
+| Total zinc consumption incl. secondary | — | — | — | ~1.0 Mt (CY25, BigMint) | ~1.0–1.1 Mt | [V-snip]; IZA ~1.1 Mt [V-snip] |
+| Per-capita use | — | — | — | — | **~0.7 kg (world ~1.7 kg)** | [E] (S22) |
+| End-use split | Galvanising 57%, coatings 16%, die-cast 14%, oxides/chemicals 7%, extruded 6% (IBM-LZ) [V]; galvanising ~72% (BigMint 2025) [V-snip] | | | | | Basis differs: IBM counts coatings separately |
+
+**Notes:**
+- The IBM import line is HS 79011100 (≥99.99% Zn) only. BigMint's ~200 kt counts all ingot grades. That is why FY22 shows 87 kt and FY24 218 kt; **do not chart them as one series**.
+- India's primary zinc demand grew ~34% from FY22 (595 kt) to FY26 (~795 kt) [E], **~7.5% a year**. That matches the "6–8% a year" prose.
+- HZL exports ~30% of its zinc because domestic demand is still smaller than its output. Debari's +250 ktpa (FY29) will need either faster Indian growth or more exports. At 7.5% growth, domestic primary demand reaches ~1.06 Mt by FY30 [E], enough to absorb Debari and displace most imports.
+
+### 4.3(g) Regulation: what the primary record adds
+- **Royalty** (IBM Second Schedule, w.e.f. 1-Sep-2014): zinc 9.5% / lead 8.5% of LME on metal in ore; by-product silver 7%. There is **no royalty on sulphuric acid** (Q1 FY27 call). Higher acid revenue therefore lowers royalty as a percentage of revenue: FY26 royalty was 12.2% of standalone revenue [V].
+- **State mineral taxes:** the **MMDR (Amendment) 2026, Section 9D** (passed 12/13-Aug-2026) caps the MADA-2024 risk. Watch the commencement notification and any constitutional challenge by states. Rajasthan's legacy Environment & Health Cess remains a contingent ₹56 Cr.
+- **Leases:** RA expiry 12-Mar-2030 [V-snip]. Management claims a right of first refusal; the expected cost is an auction premium. **The writer should frame 2030 as "price of renewal unknown"**, not "HZL may lose the mines".
+- **Section 186 vote:** a special resolution needs **75% of votes cast**.
+  - Vedanta's 60.71% cannot carry it alone if the GoI votes against. **The GoI's 27.92% is a blocking stake on its own**: 60.71 ÷ (60.71 + 27.92) = 68% < 75%. An abstention would not block, since Vedanta would have ≥84% of the votes cast even if every public holder voted against [E].
+  - It is a governance lever the GoI has used before (blocking the 2023 Zinc International purchase [K]).
+
+## 4.4 Gap log (§H items and the brief's chase list)
+
+| # | Gap (from §H or the brief) | Status | Detail / what was tried |
+|---|---|---|---|
+| H1 | ILZSG Oct-2026 figures (PDF 404'd) | **Filled** | Working path found on ilzsg.org (press-release page → `/wp-content/uploads/3.PRESS%20RELEASES/ILZSG%20October%202026%20Press%20Release.pdf`). Full balances in §4.3(a) |
+| H2 | FY22–FY24 HZL operating data and pre-FY25 LME/LBMA averages | **Filled** | FY26 AR five-year KPI pages (exact tonnes); CoP from the Q4 FY22/23/24 transcripts; prices from the World Bank monthly workbook (S1–S6) |
+| H3 | DPS FY21–FY24 | **Filled for FY22–FY24** (AR26 DPS chart: ₹18 / 75.5 / 13). FY21 ₹21.3 still [K] | FY21 not in the five-year window |
+| H4 | Brand fee ₹1,171 Cr vs Viceroy ₹1,060 Cr per quarter | **Filled / reconciled** | Annual prepayment mechanism (AR26 Note 27(2); Q4 FY26 call). See S8 |
+| H5 | India consumption estimates; per-capita conflict | **Partly filled** | IBM apparent primary consumption FY21–22 [V]; FY25–26 derived [E]; per-capita reconciled on one basis (S22). Total consumption incl. secondary still rests on BigMint/IZA snippets |
+| H6 | FY26 zinc ingot imports (195 kt, 70% Korea) | **Still open** | TradeStat/DGCI&S not reachable (no direct-download path; the BSE-style API approach was not permitted). IBM data only to FY22 (HS 79011100). FY25 207 kt remains [V-snip] |
+| H7 | Royalty rates; Rajasthan mineral-tax status | **Filled** | Rates [V IBM]. Mineral-tax risk overtaken by the MMDR Amendment 2026 (s.9D) [V LiveLaw]. Rajasthan EHS cess (₹56 Cr, contingent) and royalty-methodology disputes (~₹2,560 Cr contingent) [V AR26]. DMF/NMET percentages still [K] |
+| H8 | Lease expiry details (2030) | **Partly filled** | RA lease ML RAJ0652 expiry 12-Mar-2030 [V-snip IBM; PDF text garbled]; management's "first right of refusal" [V T4]. Mine-by-mine dates for Zawar/SK/RD/Kayad and the statutory basis of the right of first refusal still open |
+| H9 | Fertiliser and HAL commissioning | **Filled (status)** | Not commissioned. PAP due Q2 FY27 (unconfirmed); DAP "Q1 FY28" pending environment clearance; ₹500 Cr spent; Q2 deck dropped the slide. HAL still "being installed" (AR26). Fumer plant commissioned Q2 FY24 (+33 tpa Ag) |
+| H10 | Silver realisation premium | **Partly filled** | Hedging ruled out (it was a drag: ₹1,500 Cr FY26); quarterly premium series built (§4.2(e)); cause still undisclosed |
+| H11 | Peer volumes, margins, multiples | **Mostly filled** | Glencore, Teck [V primary]; Boliden Q3 P&L [V company release via Inderes]; Korea Zinc Q3 [V-snip]; multiples for all four [V SA]. Boliden and Korea Zinc zinc tonnages and Nyrstar economics still open |
+| H12 | R&R split by metal | **Still open** | AR26 KPI pages give totals only; the mine-wise R&R table was not located in the 39k-line text within budget |
+| H13 | GoI OFS status after Aug-2026 | **Filled (negative)** | No OFS through 13-Nov-2026; the last official signal (DIPAM, Aug-2026) is "not at the moment"; GoI 27.92% at Sep-2026 [V P2]. Q1 call: "for the government to give the update" |
+| H14 | MPS treatment (public 11.37%) | **Still open** | Not addressed in AR26 text searched |
+| H15 | Spot silver | Updated | World Bank Oct-2026 monthly average $57.0 [V]; the 9-Nov spot (~$49) stays [V-prior] |
+| H16 | Export share | **Filled** | Zinc 29.5% exported (FY26), lead 23%, silver ~0% (S17) |
+| B1 | 2023 TC benchmark; 2024–2026 confirmation | **Filled** | Fastmarkets [V] (S11) |
+| B2 | India per-capita | **Filled [E]** | S22 |
+| B3 | Section 186 ballot detail | **Filled** | §4.3(g) and #37; special resolution; GoI blocking arithmetic |
+| B4 | Demerger status | Unchanged: dormant | Zero hits for "demerg" in the FY26 AR text and the Q2 FY27 / Q4 FY26 transcripts. The one Q1 FY27 hit refers to *Vedanta's* demerger (an analyst asking whether HZL's dividend policy changes; answer: no change) |
+| B5 | Q1 FY27 transcript | **Filled** | Read in full (§4.2(b)) |
+| B6 | ICRA/CRISIL rating rationales | **Not fetched** (budget) | AR24/AR26: CRISIL AAA/Stable, A1+ [V AR24] |
+
+## 4.5 New insights the first pass missed, and new primer issues
+
+### 4.5(a) Insights (what an expert would add)
+1. **HZL's own forecast implies a less dramatic but still-high Q3.**
+   - The revised $825–850 full-year CoP, against an H1 of $776, mathematically requires **H2 CoP of ~$875–925/t**, ~25–30% above Q2's $703.
+   - Add the zinc hedges out of the money at Oct-2026 LME (~₹130 Cr in Q3) and silver ~9% lower in October than Q2's average.
+   - So the Q2 FY27 margin (62%) is very likely the **cycle print**. Part 1's "high-₹8,000s Cr" Q3 EBITDA run-rate may be optimistic by ~₹300–600 Cr because it held CoP at Q2 levels [E].
+2. **Silver-credited, HZL is a negative-cost zinc producer.**
+   - With silver revenue treated as a by-product credit (as Teck reports), HZL's Q2 FY27 zinc cost incl. royalty is **≈ −$780/t**.
+   - Even FY26 (silver $53) was ≈ +$60/t, versus Teck's guided **$660–880/t** net cash cost.
+   - This is the cleanest one-line proof of the moat, and the cleanest exposure statement: a $30 silver world adds ~$750/t back to HZL's net cost [E].
+3. **HZL chooses its silver output.** Management says it maximises zinc when zinc is above ~$3,000 and shifts toward lead-silver ore when zinc falls (FY24: silver peaked at 746 t when LME averaged $2,480). Silver guidance is therefore a **price decision**, not just a geology one. That cushions the downside: a weak-zinc year brings more silver.
+4. **The audited brand fee is prepaid, and the true-up will balloon in FY27.** The fee is paid upfront on budget turnover (~₹1,300 Cr for FY27), but at 3% of an FY27 turnover now tracking ~₹55,000 Cr+ the audited charge is ~₹1,650 Cr [E]. The ~₹350 Cr true-up is cash to Vedanta after the FY27 audit. Viceroy's "₹1,060 Cr in a quarter" was the FY26 prepayment, so the writer should not repeat it as a quarterly run-rate.
+5. **The GoI is the swing vote on the ₹30,000 Cr Section 186 limit.** It is a special resolution, and 27.92% voting against blocks it. The vote (closes 3-Dec-2026) is therefore an implicit **GoI governance test**, more consequential than the "enabling resolution" wording suggests.
+6. **Parliament, not the courts, de-risked the mineral-tax overhang.**
+   - The MMDR Amendment 2026 (s.9D, Aug-2026) bars state mineral-rights taxes except on central terms and voids unrecovered arrears.
+   - For HZL that removes the main tail-risk from the 2024 MADA judgment, a Rajasthan levy on ₹4,000+ Cr a year of royalty-base minerals.
+   - The live state-level exposure is now the **₹2,560 Cr royalty-methodology dispute** (contingent), not a new tax.
+7. **The five-year cash arithmetic is tighter than the headline net cash.** Management's own plan (₹55–65k Cr pre-growth FCF vs ₹40–50k Cr growth capex) leaves only ₹10–20k Cr over five years for dividends at planning-case prices. That is well below the ₹4,225–12,253 Cr a year paid in FY25–FY26. **Sustained high payouts require either high prices or borrowing**, which is the context for the Section 186 headroom and the Q4 call's "loan is much cheaper" remark [E].
+8. **Lead-concentrate sales are a TC arbitrage, not a strategy shift.** High-silver lead concentrate carried **negative TCs of −$200 to −$240/t** (Feb-2026). HZL's off-spec stock earned ₹155–330 Cr of EBITDA a quarter, so buyers were effectively paying HZL to take it. The stock is nearly exhausted ("maybe some amount still be there"), so this line should fade in H2 FY27.
+
+### 4.5(b) New primer issues (append to primer-issues.md)
+
+### From Zinc & Silver deep research (2026-11-13, zinc-industry.md §4.5)
+- **hindustan-zinc.html — capex figure is sourced (withdraw the Part 3 issue).** The "₹40,000–50,000 Cr capex for Vision 2.0" line matches the **FY26 AR CFO letter (growth capex ₹40–50k Cr over five years vs pre-growth FCF ₹55–65k Cr)**. Keep it, but add that only ~₹17,000 Cr is Board-approved and that the second-stage smelters (~₹24–25k Cr) await Board approval (targeted Q3 FY27).
+- **hindustan-zinc.html — brand fee:** replace "~₹1,060 Cr in a single quarter of FY25-26" with the following:
+  - the fee is **prepaid annually** on budgeted turnover;
+  - the audited FY26 expense was **₹1,171 Cr** (FY25 ₹658 Cr);
+  - the rate was **2% from Oct-2022 and 3% from Apr-2025**, and the contract runs **to 2030**.
+- **hindustan-zinc.html — royalty:** add that royalty (₹4,948 Cr in FY26, 12.2% of revenue) is HZL's **largest single cost line**, at rates of 9.5% (zinc) / 8.5% (lead) / 7% (silver) of international prices, and that sulphuric acid bears no royalty.
+- **hindustan-zinc.html — exports:** add that ~30% of refined zinc is exported (251 kt of 851 kt in FY26) and silver is sold almost entirely domestically.
+- **hindustan-zinc.html — hedging:** add the FY26 hedge drag (**₹1,500 Cr**, of which ₹1,100 Cr in Q4 FY26) and the policy (10–20% of volumes, ≤12 months).
+- **hindustan-zinc.html — mineral-tax risk:** if the primer mentions the 2024 Supreme Court ruling as an open risk, update it for the **MMDR (Amendment) 2026, Section 9D** (Aug-2026), which bars state mineral taxes except on central terms.
+- **hindustan-zinc.html — fertiliser:** the timeline has slipped again. It is now **Q1 FY28** for the DAP plant (environment clearance pending); only the phosphoric-acid unit was due in Q2 FY27; ₹500 Cr spent.
+- **hindustan-zinc.html — management:** Amarendu Prakash is CEO **from 1-Aug-2026** (ex-SAIL CMD 2023–26). Sandeep Modi ceased as CFO on 30-May-2026; Amit Gupta is CFO.
+- **hindustan-zinc.html — governance events:** add the **SEBI administrative warning (30-Apr-2026)** on Audit & Risk Management Committee procedures, the RPT Key Audit Matter, and the Emphasis of Matter on short-seller allegations (FY26 AR).
+- **hindustan-zinc.html and Part 1 §2.1 — FY23 zinc price:** if any chart uses ~$3,233 for FY23, correct it to **$3,334** (FY23 was above FY22).
+- **subsectors/diversified-metals.html — brand fee and fertiliser:** the same corrections apply if that report repeats the "₹1,060 Cr quarter" or the "Q2 FY27" fertiliser date.
+- **vedanta.html — HZL brand fee receipts:** if Vedanta's primer counts HZL brand-fee income, use the audited ₹1,171 Cr (FY26) and note the prepayment timing (cash in Q1 of each year).
+
+---
+
+*End of Part 4. Scratch notes and raw extracted text: /tmp/zinc-deep/ (notes.md; dl/*.txt).*
