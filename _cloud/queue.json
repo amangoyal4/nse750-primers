@@ -708,5 +708,85 @@
   "accent": "#7B2CBF",
   "angle": "SINGLE-MEMBER: DOMS Industries (pencils, crayons, scholastic art; FILA Group of Italy as strategic partner ~26%; IPO Dec-2023; Umbergaon capacity expansion, Uniclan baby products stake, Super Treads diapers?, Pioneer Stationery paper stationery — verify; export via FILA). Reference peers: Camlin (Kokuyo Camlin, listed), Flair Writing, Linc Pens, Hindustan Pencils (Nataraj/Apsara, unlisted, the main rival), Navneet Education, Cello's writing instruments (link houseware.html), ITC Classmate. Forces: organised share gain in pencils/scholastic, school-age demographics and enrolment, capacity-led growth and its absorption, in-house manufacturing and backward integration (wood slats, polymer), distribution reach (retail touchpoints), GST 2.0 rate cut on pencils/erasers/notebooks to nil or 5% (verify, Sep-2025), Chinese imports, adjacent categories (baby hygiene, bags, notebooks). KPIs: volume, revenue by category, gross margin, EBITDA margin, capacity and utilisation, retail reach, capex, working capital, ROCE, P/E. Link houseware.html, paper.html, education.html.",
   "companies": 1
+ },
+ {
+  "order": 72,
+  "queue_no": 73,
+  "slug": "airports",
+  "key": "Infrastructure || Airport & Airport services",
+  "name": "Airports",
+  "accent": "#3A86FF",
+  "angle": "SINGLE-MEMBER: GMR Airports (Delhi DIAL 64%, Hyderabad GHIAL, Goa Mopa, Bidar; international — Cebu (exited?), Medan Kualanamu, Crete Heraklion (Greece, opening 2027 — verify); GMR Infra merger into GMR Airports 2024; Groupe ADP 49% strategic partner at airport level; heavy debt, FCCB/bonds). Reference peers: Adani Airport Holdings (Mumbai, Navi Mumbai (opened 2025 — verify), Ahmedabad, Lucknow, Jaipur, Guwahati, Thiruvananthapuram, Mangaluru; IPO plans — verify), AAI, Bengaluru (Fairfax/Siemens), Cochin CIAL, Noida/Jewar (Zurich Airport, opening 2025–26 — verify); global listed: ADP, Aena, Fraport, Zurich. Forces: AERA tariff orders and control periods (Delhi CP4 order — verify; Supreme Court/TDSAT rulings on aeronautical tariffs), regulated vs non-aero revenue (duty free, F&B, retail, real estate/city-side development, cargo), passenger traffic (consistent with airline.html: IndiGo/Air India duopoly, PW engine groundings), UDF and user charges, capex cycles and RAB, leverage and refinancing at holdco vs airport SPVs, concession terms (revenue share to AAI: Delhi 45.99%, Hyderabad 4%). KPIs: pax (mn), ATMs, cargo tonnes, aero vs non-aero revenue per pax, EBITDA, RAB, net debt/EBITDA (consolidated and per airport), interest cover. Link airline.html, travel-services.html, hotels.html, road-assets.html, ports.html.",
+  "companies": 1
+ },
+ {
+  "order": 73,
+  "queue_no": 75,
+  "slug": "adtech",
+  "key": "IT || Advertising & Media Agencies",
+  "name": "Digital Advertising & Adtech",
+  "accent": "#F72585",
+  "angle": "SINGLE-MEMBER: Affle 3i (formerly Affle India — verify rename date; mobile adtech: consumer platform CPCU-based (cost per converted user) performance ads, Jampp/Revx/Appnext acquisitions, emerging markets + developed markets split; promoter Anuj Khanna Sohum; Gamnat/Malabar investors). Reference peers: global adtech — AppLovin, The Trade Desk, Digital Turbine, InMobi (Indian unlisted, IPO plans — verify), Glance; Indian agencies — WPP/Publicis/Dentsu; listed: Brightcom (governance case), Vertoz, Signpost. Forces: India digital ad spend growth and Google/Meta duopoly share, privacy changes (Apple ATT, Google Privacy Sandbox — cookie deprecation reversed 2024–25), app-install/e-commerce/fintech/gaming advertiser cycles (online real-money gaming ban Aug-2025 — Promotion and Regulation of Online Gaming Act; link gaming.html), DPDP Act rules 2025 and consent, fraud detection (mFaaS), AI-driven targeting, emerging-markets currency risk. KPIs: converted users, CPCU rate, revenue by region, gross margin (inventory cost), EBITDA margin, cash conversion, receivable days, ROE, P/E. Link internet-platforms.html, tv-broadcasting.html, gaming.html, cpaas.html.",
+  "companies": 1
+ },
+ {
+  "order": 74,
+  "queue_no": 77,
+  "slug": "film-exhibition",
+  "key": "Media & Entertainment || Film Production, Distribution & Exhibition",
+  "name": "Film Exhibition",
+  "accent": "#9D0208",
+  "angle": "SINGLE-MEMBER: PVR INOX (merged Feb-2023; ~1,700+ screens; asset-light FOCO/developer-funded expansion pivot, screen closures of unprofitable sites, net-debt reduction target, F&B spend per head, advertising revenue, ticket pricing; Bijli/Leap? JVs). Reference peers: Cinepolis India (unlisted), Miraj, Movietime, Rajhans; single screens; OTT platforms (Netflix, JioHotstar (Reliance–Disney merger 2024), Prime Video) and the theatrical window (8 weeks), global: AMC, Cineworld (restructured), Cinemark. Forces: box-office content cycle (Bollywood slump vs South Indian and Hollywood films; 2025–26 hits — verify gross box office), footfalls and occupancy, ATP (average ticket price) vs SPH (spend per head on F&B), GST on tickets (12%/18% slabs; GST 2.0 changes — verify) and on F&B, entertainment tax by states, Ind AS 116 lease distortion (rent-paid EBITDA vs reported) — make this central, real-estate/mall pipeline, convenience fees regulation. KPIs: screens, footfalls (mn), occupancy, ATP, SPH, ad revenue, rent-paid EBITDA margin, net debt, capex per screen, ROCE. Link tv-broadcasting.html, music-labels.html, flexible-workspace.html (lease accounting), speciality-retail.html.",
+  "companies": 1
+ },
+ {
+  "order": 75,
+  "queue_no": 79,
+  "slug": "oil-storage",
+  "key": "Miscellaneous || Oil Storage & Transportation",
+  "name": "Liquid & Gas Terminals",
+  "accent": "#386641",
+  "angle": "SINGLE-MEMBER: Aegis Vopak Terminals (IPO Jun-2025 — verify; JV of Aegis Logistics and Royal Vopak; liquid (chemicals, petroleum, edible oil) and LPG storage terminals at Kandla, Mumbai (JNPT/Pipavav), Mangalore, Haldia, Kochi; acquisition of HPCL? / BPCL LPG terminal at Mangalore — verify; take-or-pay throughput contracts). Reference peers: Aegis Logistics (parent, listed — LPG sourcing/distribution), IOCL/HPCL/BPCL captive storage, IMC, JM Baxi, Indian Strategic Petroleum Reserves (ISPRL), Vopak global, Adani Ports liquid terminals (link ports.html). Forces: India LPG import dependence (PMUY demand, LPG price under-recoveries — link refining.html), chemical import volumes, strategic reserves and the West Asia 2026 supply shock raising storage demand, port concession terms and land leases, capacity additions and utilisation, tariff regime (storage rental ₹/kl/month), customer concentration (OMCs), leverage after IPO. KPIs: storage capacity (kl liquid, MT LPG), utilisation, revenue per kl, EBITDA margin, contracted share, capex/capacity, net debt/EBITDA, ROCE. Link ports.html, refining.html, gas-transmission.html, shipping.html.",
+  "companies": 1
+ },
+ {
+  "order": 76,
+  "queue_no": 81,
+  "slug": "zinc",
+  "key": "Non - Ferrous Metals || Zinc",
+  "name": "Zinc & Silver",
+  "accent": "#6D6875",
+  "angle": "SINGLE-MEMBER: Hindustan Zinc (Vedanta ~63%, Government of India ~28% — OFS plans 2025–26, verify; integrated zinc-lead-silver mining and smelting in Rajasthan (Rampura Agucha, Sindesar Khurd), ~1.1 Mt refined metal, ~700+ t silver; among the lowest-cost zinc producers globally; doubling plan to 2 Mt; fertiliser (Hindustan Zinc's phosphate?) / critical minerals forays; large dividend payer that funds Vedanta parent debt — keep consistent with diversified-metals.html; brand-fee/related-party issues; demerger proposal into zinc & silver businesses (dropped? — verify)). Reference peers: Glencore, Teck, Boliden, Nyrstar, Korea Zinc; India: Vedanta (parent), small recyclers (Gravita — link). Forces: LME zinc price and treatment charges (TCs record low 2024–25), silver price surge 2025–26 (silver now a large profit share — verify $ price), cost of production ($/t) — coal/power, royalty changes (mineral-rich state royalty Supreme Court Jul-2024 ruling allowing state taxes on mineral rights — verify impact), import duty on zinc, galvanising demand from steel/infra, mine life and reserves. KPIs: mined metal, refined zinc/lead/silver volumes, CoP $/t (ex-royalty), EBITDA/t, silver share of EBITDA, net cash/debt, dividend payout, ROCE. Link diversified-metals.html, aluminium.html, copper.html, iron-steel.html.",
+  "companies": 1
+ },
+ {
+  "order": 77,
+  "queue_no": 83,
+  "slug": "power-trading",
+  "key": "Power || Power Trading",
+  "name": "Power Trading",
+  "accent": "#DC2F02",
+  "angle": "SINGLE-MEMBER: PTC India (largest power trader; promoted by NTPC, PGCIL, NHPC, PFC (4% each); PTC India Financial Services (PFS) subsidiary ~65% with past governance issues and RBI scrutiny — verify divestment of PFS; cross-border trade with Bhutan/Nepal/Bangladesh; long-term PPAs back-to-back; leadership/governance controversy 2022–23 and SEBI order — verify). Reference: power exchanges IEX/PXIL/HPX (link exchanges.html — keep IEX and market-coupling facts consistent), NTPC Vidyut Vyapar Nigam, Tata Power Trading, Adani Enterprises trading, GMR Energy Trading. Forces: short-term power market growth (exchange vs bilateral share), trading margin cap (CERC — 2 paise/kWh? verify), market coupling, peak-power shortage and price caps (₹10/kWh on exchanges — verify), cross-border electricity trade rules, renewable energy trading (GTAM/GDAM), receivables from discoms and Late Payment Surcharge Rules 2022, PFS's loan book run-down. KPIs: volumes (BU) by segment (long-term, short-term, cross-border), trading margin paise/kWh, surcharge income, receivable days, standalone vs consolidated PAT, dividend yield, net cash, P/E. Link exchanges.html, power-generation.html, power-transmission.html, integrated-power.html.",
+  "companies": 1
+ },
+ {
+  "order": 78,
+  "queue_no": 85,
+  "slug": "pharmacy-retail",
+  "key": "Retailing || Pharmacy Retail",
+  "name": "Pharmacy Retail",
+  "accent": "#2A9D8F",
+  "angle": "SINGLE-MEMBER: MedPlus Health Services (India's second-largest pharmacy chain by stores, ~4,600+ stores — verify; Telangana/Andhra/Karnataka/TN/Maharashtra/Odisha/WB; private-label generics push (MedPlus brand), diagnostics (MedPlus Diagnostics), online/omnichannel; Premji Invest/Warburg Pincus history; drug licence suspensions in Karnataka/Telangana 2025 — verify). Keep consistent with trading-distribution.html where MedPlus appears as a reference row. Reference peers: Apollo Pharmacy (inside Apollo HealthCo/Apollo Hospitals — link hospitals.html), Wellness Forever (DRHP), Netmeds (Reliance), Tata 1mg, PharmEasy (API Holdings), Truemeds, Frank Ross; ~8–9 lakh independent chemists (AIOCD lobby). Forces: organised share of pharmacy retail (~10–12%), private-label/generic margin expansion, NPPA price controls (NLEM revisions, trade-margin rationalisation), e-pharmacy regulation (draft rules pending since 2018 — verify), quick-commerce medicines (10-minute delivery), store maturity economics (cluster density, store opex), Jan Aushadhi competition, diagnostics expansion losses, Ind AS 116. KPIs: stores, revenue/store, same-store growth, private-label share, gross margin, store-level and company EBITDA (pre/post Ind AS 116), inventory days, ROCE. Link trading-distribution.html, hospitals.html, diagnostics.html, pharma-branded-formulations.html, diversified-retail.html.",
+  "companies": 1
+ },
+ {
+  "order": 79,
+  "queue_no": 87,
+  "slug": "telecom-towers",
+  "key": "Telecom || Telecom - Infrastructure",
+  "name": "Telecom Towers",
+  "accent": "#5E548E",
+  "angle": "SINGLE-MEMBER: Indus Towers (largest tower company, ~2.4 lakh towers — verify; Bharti Airtel ~50% after Vodafone sold its stake 2024 — keep consistent with telecom-operators.html; Vodafone Idea receivables, payment security mechanism and the 2025 dues/collection improvement — verify; dividend resumption; Africa expansion plan (Nigeria/Uganda/Zambia — verify 2025–26)). Reference peers: Summit Digitel (Brookfield, ex-Jio towers, unlisted InvIT), ATC India (sold to Brookfield 2024 — verify), iBus, Tower Vision; global: American Tower, Cellnex, SBA, Helios. Forces: Vi's survival and AGR relief (consistent with telecom-operators.html), tenancy ratio and co-location, 5G densification, small cells/fibre, rental escalators, energy pass-through margins (diesel, power — West Asia 2026 shock), exits/tenancy churn, Airtel's control and related-party contracts, capex and dividend policy, Ind AS 116. KPIs: towers, tenancies, tenancy ratio, rental revenue/tower, energy margin, EBITDA (pre/post Ind AS 116), receivables (Vi), capex, net debt/EBITDA, FCF, dividend payout, ROCE. Link telecom-operators.html, other-telecom.html, telecom-equipment.html.",
+  "companies": 1
  }
 ]
