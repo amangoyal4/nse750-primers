@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zinc &amp; Silver — Sub-sector Report</title>
+<meta name="description" content="Sub-sector report on zinc, lead and silver: India and global value chain, treatment charges, silver, cost curve, royalty, ownership of Hindustan Zinc, KPIs, peers and what to watch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F5F3ED;
+    --paper-2:#FBFAF5;
+    --card:#FFFFFF;
+    --ink:#201B12;
+    --ink-soft:#5F5848;
+    --ink-faint:#928A78;
+    --brand:#6D6875;          /* slate mauve - zinc grey with a warm cast */
+    --brand-bright:#866B83;   /* brighter mauve accent */
+    --gold:#B5838D;           /* muted rose - accent */
+    --wtg:#4A6B82;            /* zinc slate-blue */
+    --epc:#6F8189;            /* silver pewter */
+    --om:#5E5468;            /* dark plum */
+    --spec:#866B83;          /* mauve accent */
+    --line:#E0DACC;
+    --line-soft:#ECE7DA;
+    --good:#2A7A4E;
+    --bad:#B0492E;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:15.5px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Sora",sans-serif;font-weight:600;line-height:1.12;letter-spacing:-.02em;color:var(--ink);}
+  .mono{font-family:"DM Mono",ui-monospace,monospace;}
+  .eyebrow{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);}
+  a{color:var(--brand-bright);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+  .grid{display:grid;grid-template-columns:248px 1fr;gap:54px;align-items:start;}
+  @media(max-width:920px){.grid{grid-template-columns:1fr;gap:0;}}
+
+  nav.toc{position:sticky;top:0;max-height:100vh;overflow-y:auto;padding:34px 0;}
+  nav.toc .toc-title{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px;}
+  nav.toc ol{list-style:none;margin:0;padding:0;}
+  nav.toc a{display:flex;gap:10px;padding:6px 0;color:var(--ink-soft);font-size:13.5px;line-height:1.3;}
+  nav.toc a .n{font-family:"DM Mono",monospace;font-size:11px;color:var(--gold);font-weight:500;min-width:20px;}
+  nav.toc a:hover{color:var(--ink);text-decoration:none;}
+  @media(max-width:920px){nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);margin-bottom:8px;}nav.toc ol{columns:2;column-gap:22px;}}
+
+  header.cover{border-bottom:3px solid var(--ink);padding:46px 0 30px;margin-top:18px;}
+  header.cover .kicker{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:22px;}
+  .tag{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border:1px solid var(--line);border-radius:20px;color:var(--ink-soft);background:var(--paper-2);}
+  .tag.solid{background:var(--brand);color:#F1E9D6;border-color:var(--brand);}
+  .tag.gold{background:var(--gold);color:#3a2806;border-color:var(--gold);}
+  header.cover h1{font-size:clamp(33px,5.4vw,58px);font-weight:700;margin:.1em 0 .2em;letter-spacing:-.03em;}
+  header.cover h1 em{font-style:normal;color:var(--brand-bright);}
+  header.cover .dek{font-size:clamp(16px,2vw,20px);color:var(--ink-soft);max-width:64ch;line-height:1.45;}
+  header.cover .prov{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.03em;color:var(--ink-faint);margin-top:16px;}
+
+  .stat-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:30px;background:var(--card);}
+  .stat-strip .cell{padding:16px 18px;border-right:1px solid var(--line-soft);}
+  .stat-strip .cell:last-child{border-right:none;}
+  .stat-strip .v{font-family:"Sora",sans-serif;font-size:24px;font-weight:700;line-height:1;}
+  .stat-strip .v small{font-size:13px;color:var(--ink-faint);font-weight:500;}
+  .stat-strip .l{font-family:"DM Mono",monospace;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);margin-top:8px;}
+  @media(max-width:680px){.stat-strip{grid-template-columns:repeat(2,1fr);}.stat-strip .cell:nth-child(2){border-right:none;}}
+
+  section.part{padding:54px 0 12px;border-top:1px solid var(--line);margin-top:42px;}
+  section.part:first-of-type{border-top:none;}
+  .part-head{display:flex;gap:18px;align-items:baseline;margin-bottom:8px;}
+  .part-head .pno{font-family:"DM Mono",monospace;font-size:13px;font-weight:500;color:var(--gold);padding-top:4px;}
+  .part-head h2{font-size:clamp(24px,3.4vw,35px);font-weight:700;margin:0;letter-spacing:-.025em;}
+  .part-sub{font-size:17px;color:var(--ink-soft);margin:2px 0 26px 0;max-width:70ch;}
+
+  p{margin:0 0 16px;max-width:74ch;}
+  .lead{font-size:17px;}
+  strong{font-weight:600;color:var(--ink);}
+  h3{font-size:20px;margin:34px 0 10px;font-weight:600;}
+  h4{font-size:16px;margin:24px 0 6px;font-weight:600;}
+
+  ul.clean{margin:4px 0 18px;padding-left:0;list-style:none;max-width:74ch;}
+  ul.clean li{position:relative;padding-left:22px;margin-bottom:9px;}
+  ul.clean li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+
+  .plain{background:#FBF1E4;border:1px solid #EFD9B9;border-left:3px solid var(--gold);border-radius:4px;padding:18px 22px;margin:22px 0;max-width:78ch;}
+  .plain .ptag{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a6418;font-weight:500;display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+  .plain .ptag::before{content:"✚";font-size:13px;}
+  .plain p{margin:0;font-size:15px;color:#473410;}
+  .plain p+p{margin-top:10px;}
+
+  .tbl-wrap{overflow-x:auto;margin:20px 0 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;}
+  caption{caption-side:top;text-align:left;font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding:12px 16px 0;}
+  thead th{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:11px 16px;border-bottom:2px solid var(--ink);font-weight:500;vertical-align:bottom;}
+  tbody td{padding:11px 16px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+  tbody tr:last-child td{border-bottom:none;}
+  tbody tr:nth-child(even){background:#F8F5EE;}
+  td.num,th.num{text-align:right;font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums;}
+  .t-strong{font-weight:600;}
+
+  .chart{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 18px;}
+  .chart .c-title{font-family:"Sora",sans-serif;font-size:17px;font-weight:600;margin-bottom:3px;}
+  .chart .c-sub{font-size:12.5px;color:var(--ink-soft);margin-bottom:18px;}
+  .bars{display:flex;flex-direction:column;gap:13px;}
+  .bar-row{display:grid;grid-template-columns:150px 1fr 92px;gap:12px;align-items:center;}
+  .bar-row .blab{font-size:13px;line-height:1.2;}
+  .bar-row .blab small{display:block;color:var(--ink-faint);font-size:11px;}
+  .track{height:22px;background:#EDE8DC;border-radius:3px;overflow:hidden;}
+  .fill{height:100%;border-radius:3px;display:block;}
+  .bar-row .bval{font-family:"DM Mono",monospace;font-size:12.5px;font-weight:500;text-align:right;font-variant-numeric:tabular-nums;}
+  .fill.brand{background:linear-gradient(90deg,#6D6875,#866B83);}
+  .fill.gold{background:linear-gradient(90deg,#B5838D,#C99CA5);}
+  .fill.wtg{background:linear-gradient(90deg,#4A6B82,#6587A0);}
+  .fill.om{background:linear-gradient(90deg,#5E5468,#7A6F85);}
+  .fill.spec{background:linear-gradient(90deg,#866B83,#A08A9D);}
+  .fill.bad{background:linear-gradient(90deg,#B0492E,#C9603F);}
+  .fill.ink{background:linear-gradient(90deg,#4a4335,#66604f);}
+  @media(max-width:560px){.bar-row{grid-template-columns:100px 1fr 62px;gap:8px;}.bar-row .blab{font-size:12px;}}
+
+  .legend{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:12.5px;color:var(--ink-soft);}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px;}
+
+  .flow{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px;}
+  .flow-row{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;}
+  .node{flex:1;min-width:118px;border-radius:6px;padding:13px 13px;position:relative;color:#fff;}
+  .node .ntag{font-family:"DM Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;opacity:.85;margin-bottom:5px;}
+  .node .nname{font-weight:600;font-size:14px;line-height:1.15;font-family:"Sora",sans-serif;}
+  .node .nwho{font-size:10.5px;margin-top:5px;opacity:.92;line-height:1.25;}
+  .node.wtg{background:var(--wtg);}
+  .node.epc{background:var(--epc);}
+  .node.om{background:var(--om);}
+  .node.spec{background:var(--brand);}
+  .arrow{display:flex;align-items:center;justify-content:center;padding:0 6px;color:var(--ink-faint);font-size:18px;flex:0 0 auto;}
+  .flow-note{font-size:12.5px;color:var(--ink-soft);margin-top:14px;font-style:italic;}
+  @media(max-width:760px){.flow-row{flex-direction:column;}.arrow{transform:rotate(90deg);padding:6px 0;}}
+
+  .chain-wtg{color:var(--wtg);font-weight:600;}
+  .chain-epc{color:var(--epc);font-weight:600;}
+  .chain-om{color:var(--om);font-weight:600;}
+
+  .timeline{margin:22px 0;border-left:2px solid var(--line);list-style:none;padding-left:0;}
+  .timeline li{position:relative;padding:0 0 22px 28px;}
+  .timeline li::before{content:"";position:absolute;left:-7px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2.5px solid var(--brand-bright);}
+  .timeline li.major::before{background:var(--gold);border-color:var(--gold);}
+  .timeline .yr{font-family:"DM Mono",monospace;font-size:12px;font-weight:500;color:var(--gold);}
+  .timeline .ev{font-size:14px;margin-top:2px;}
+
+  .mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0;}
+  @media(max-width:680px){.mini-stats{grid-template-columns:1fr;}}
+  .ms{border:1px solid var(--line);border-radius:6px;padding:16px 18px;background:var(--card);}
+  .ms .msv{font-family:"Sora",sans-serif;font-size:25px;font-weight:700;line-height:1;color:var(--brand);}
+  .ms.gold .msv{color:var(--gold);}
+  .ms.green .msv{color:var(--good);}
+  .ms.red .msv{color:var(--bad);}
+  .ms .msl{font-size:12.5px;color:var(--ink-soft);margin-top:7px;line-height:1.35;}
+
+  .bb{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;}
+  @media(max-width:680px){.bb{grid-template-columns:1fr;}}
+  .bb .col{border:1px solid var(--line);border-radius:6px;padding:20px 22px;background:var(--card);}
+  .bb .col.bull{border-top:3px solid var(--good);}
+  .bb .col.bear{border-top:3px solid var(--bad);}
+  .bb h4{margin-top:0;font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
+  .bb .col.bull h4{color:var(--good);}
+  .bb .col.bear h4{color:var(--bad);}
+  .bb .col.bear ul.clean li::before{background:var(--bad);}
+  .bb .col.bull ul.clean li::before{background:var(--good);}
+
+  .note{border:1px dashed var(--bad);background:#FBEFEB;border-radius:4px;padding:14px 18px;margin:20px 0;font-size:13.5px;color:#6a3122;max-width:78ch;}
+  .note b{color:var(--bad);}
+  .note.gold{border-color:var(--gold);background:#FBF1E4;color:#4a3712;}
+  .note.gold b{color:#9a6418;}
+
+  blockquote{margin:22px 0;padding:8px 0 8px 22px;border-left:3px solid var(--gold);font-family:"Sora",sans-serif;font-size:18px;font-weight:500;color:var(--ink);max-width:72ch;line-height:1.4;}
+
+  .refresh-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:18px;padding:11px 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);}
+  .rb-left{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-family:"DM Mono",monospace;font-size:12px;color:var(--ink-soft);}
+  .rb-status{display:inline-flex;align-items:center;gap:7px;font-weight:500;}
+  .rb-status .dot{width:8px;height:8px;border-radius:50%;background:var(--good);}
+  .rb-status.stale{color:#9a6418;} .rb-status.stale .dot{background:var(--gold);}
+  .rb-when b{color:var(--ink);font-weight:500;}
+  .rb-btn{font-family:"DM Mono",monospace;font-size:12px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--brand);background:var(--brand);color:#F1E9D6;border-radius:6px;padding:9px 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:background .15s,border-color .15s;}
+  .rb-btn:hover{background:var(--brand-bright);border-color:var(--brand-bright);}
+  .rb-btn[disabled]{opacity:.6;cursor:default;}
+  .rb-btn .rbi{font-size:14px;display:inline-block;}
+  .rb-btn.spinning .rbi{animation:spin 1s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .whatsnew{margin-top:12px;font-size:13px;color:var(--ink-soft);border-left:2px solid var(--brand-bright);padding:2px 0 2px 14px;}
+  .whatsnew b{font-family:"DM Mono",monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:3px;}
+
+  footer.src{border-top:3px solid var(--ink);margin-top:60px;padding:34px 0 80px;}
+  footer.src ol{font-size:12.5px;color:var(--ink-soft);line-height:1.5;padding-left:20px;columns:2;column-gap:40px;}
+  footer.src li{margin-bottom:7px;break-inside:avoid;overflow-wrap:anywhere;}
+  .disc{font-size:12px;color:var(--ink-faint);margin-top:24px;max-width:80ch;font-style:italic;}
+</style>
+<style id="pdf-print-style">
+.dl-btn{position:fixed;top:52px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#0a0a0a;background:var(--gold,#E0913C);border:none;border-radius:20px;padding:8px 14px;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.22);}
+.dl-btn:hover{filter:brightness(1.06);}
+.pdf-head{display:none;}
+@media print{
+  @page{margin:14mm 14mm 16mm;}
+  html,body{background:#fff !important;}
+  nav.toc,.toc,.sp-back,.refresh-bar,.whatsnew,.dl-btn,.rb-btn,#rb-refresh{display:none !important;}
+  .wrap,.grid{display:block !important;}
+  main{max-width:none !important;width:100% !important;margin:0 !important;}
+  .stat-strip .v{font-size:19px !important;white-space:nowrap;}
+  .stat-strip .cell{padding:13px 12px !important;}
+  .pdf-head{display:flex !important;align-items:center;gap:13px;padding:0 0 10px;margin:0 0 16px;border-bottom:1.5px solid #0a0a0a;}
+  .pdf-head img{height:42px;width:auto;background:#0a0a0a;border-radius:7px;padding:4px 9px;}
+  .pdf-head .ph-t{font-family:"Sora",sans-serif;font-weight:700;font-size:15px;letter-spacing:-.01em;color:#0a0a0a;line-height:1.15;}
+  .pdf-head .ph-s{font-family:"DM Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#666;margin-top:3px;}
+  h1,h2,h3,h4{break-after:avoid;}
+  table,.tbl-wrap,.plain,.note,.bb,.flow,.chart,.mini-stats,.timeline,.timeline li,figure,.bar-row,blockquote{break-inside:avoid;}
+  a{color:inherit;text-decoration:none;}
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+}
+</style>
+<style id="subsector-kit">
+  /* 1. Six-cell stat strip: div.stat-strip.six with 6 .cell children */
+  .stat-strip.six{grid-template-columns:repeat(6,1fr);}
+  .stat-strip.six .v{font-size:21px;}
+  @media(max-width:1120px){.stat-strip.six{grid-template-columns:repeat(3,1fr);}.stat-strip.six .cell:nth-child(3){border-right:none;}.stat-strip.six .cell:nth-child(-n+3){border-bottom:1px solid var(--line-soft);}}
+  @media(max-width:680px){.stat-strip.six{grid-template-columns:repeat(2,1fr);}.stat-strip.six .cell{border-right:1px solid var(--line-soft)!important;border-bottom:1px solid var(--line-soft);}.stat-strip.six .cell:nth-child(2n){border-right:none!important;}}
+
+  /* 2. "Report type" marker on the cover + a contents count */
+  .tag.sub{background:var(--ink);color:#fff;border-color:var(--ink);}
+
+  /* 3. Peer table — wide, scrolls sideways on phones, first column sticks */
+  main{min-width:0;} /* lets the 1fr grid column shrink so the wide peer table scrolls inside .peer-wrap instead of widening the page */
+  .peer-wrap{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);}
+  table.peer{min-width:980px;font-size:12.8px;}
+  table.peer thead th{position:sticky;top:0;background:var(--card);padding:10px 12px;white-space:nowrap;}
+  table.peer td{padding:9px 12px;white-space:nowrap;}
+  table.peer td:first-child,table.peer th:first-child{position:sticky;left:0;background:inherit;z-index:1;}
+  table.peer tbody tr{background:var(--card);}
+  table.peer tbody tr:nth-child(even){background:#F8F5EE;}
+  table.peer td.co a{font-weight:600;color:var(--ink);}
+  table.peer td.co small{display:block;font-family:"DM Mono",monospace;font-size:10px;color:var(--ink-faint);}
+  table.peer tr.agg td{font-weight:600;border-top:2px solid var(--ink);background:var(--paper-2);}
+  .pos{color:var(--good);} .neg{color:var(--bad);}
+  .peer-note{font-size:12px;color:var(--ink-soft);padding:10px 14px;border-top:1px solid var(--line-soft);}
+
+  /* 4. Positioning map — figure.map wrapping an inline SVG (viewBox 0 0 640 420) */
+  figure.map{margin:22px 0;border:1px solid var(--line);border-radius:6px;background:var(--card);padding:20px 22px 16px;}
+  figure.map svg{width:100%;height:auto;display:block;}
+  figure.map figcaption{font-size:12.5px;color:var(--ink-soft);margin-top:10px;}
+  figure.map .axis{stroke:var(--ink-faint);stroke-width:1;}
+  figure.map .grid{stroke:var(--line-soft);stroke-width:1;}
+  figure.map .mid{stroke:var(--ink-faint);stroke-width:1;stroke-dasharray:4 4;}
+  figure.map .ax-l{font:500 11px "DM Mono",monospace;fill:var(--ink-soft);}
+  figure.map .tick{font:400 10px "DM Mono",monospace;fill:var(--ink-faint);}
+  figure.map .q{font:500 10px "DM Mono",monospace;fill:var(--ink-faint);letter-spacing:.06em;text-transform:uppercase;}
+  figure.map .dot{fill:var(--brand-bright);fill-opacity:.85;stroke:#fff;stroke-width:1.5;}
+  figure.map .dot.alt{fill:var(--gold);}
+  figure.map .lbl{font:600 11px "Figtree",sans-serif;fill:var(--ink);}
+
+  /* 5. Heat-map table — add class h1..h5 to <td> (1 = weak, 5 = strong) */
+  table.heat td{text-align:center;font-family:"DM Mono",monospace;font-size:12px;}
+  table.heat td:first-child{text-align:left;font-family:"Figtree",sans-serif;font-size:13px;}
+  table.heat td.h1{background:#F6E1D9;} table.heat td.h2{background:#F8EEDF;} table.heat td.h3{background:#F4F1E6;}
+  table.heat td.h4{background:#E1EEDF;} table.heat td.h5{background:#C9E3CF;}
+
+  /* 6. Share / composition bar — one horizontal stacked bar */
+  .stack{display:flex;height:30px;border-radius:4px;overflow:hidden;margin:6px 0 4px;}
+  .stack span{display:flex;align-items:center;justify-content:center;font:500 10.5px "DM Mono",monospace;color:#fff;white-space:nowrap;overflow:hidden;}
+  .stack-row{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center;margin-bottom:10px;}
+  .stack-row .blab{font-size:13px;line-height:1.2;}
+  @media(max-width:560px){.stack-row{grid-template-columns:1fr;gap:2px;}}
+
+  /* 7. Company profile cards */
+  .co-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:22px 0;}
+  @media(max-width:760px){.co-grid{grid-template-columns:1fr;}}
+  .co-card{border:1px solid var(--line);border-top:3px solid var(--brand-bright);border-radius:6px;background:var(--card);padding:18px 20px;}
+  .co-card h3{font-size:18px;margin:0 0 2px;}
+  .co-card .tick{font-family:"DM Mono",monospace;font-size:10.5px;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card .role{display:inline-block;margin:8px 0 10px;font-family:"DM Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:12px;background:var(--paper);color:var(--brand);}
+  .co-card .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:4px 0 12px;padding:10px 0;border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);}
+  .co-card .kpis b{display:block;font-family:"Sora",sans-serif;font-size:15px;}
+  .co-card .kpis span{font-family:"DM Mono",monospace;font-size:9px;text-transform:uppercase;color:var(--ink-faint);letter-spacing:.04em;}
+  .co-card p{font-size:14px;margin:0 0 10px;}
+  .co-card .more{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.04em;}
+
+  /* 8. KPI benchmark pills for glossary tables */
+  .rng{display:inline-block;font-family:"DM Mono",monospace;font-size:11px;padding:2px 8px;border-radius:10px;white-space:nowrap;}
+  .rng.good{background:#E1EEDF;color:#1f5e3a;} .rng.avg{background:#F4F1E6;color:var(--ink-soft);} .rng.poor{background:#F6E1D9;color:#8f3a22;}
+
+  /* 9. Deep-dive marker in a section head: <span class="dd">Deep dive</span> */
+  .dd{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--gold);padding:3px 8px;border-radius:10px;margin-left:6px;vertical-align:middle;}
+
+  @media print{.peer-wrap{overflow:visible;}table.peer{min-width:0;font-size:9.5px;}table.peer td,table.peer th{padding:4px 5px;white-space:normal;}figure.map,.co-card,.chart{break-inside:avoid;}}
+
+  /* 10. Phone readability: positioning maps scroll sideways at a legible size instead of shrinking */
+  @media(max-width:600px){figure.map{overflow-x:auto;-webkit-overflow-scrolling:touch;}figure.map svg{min-width:560px;}}
+
+  /* 11. Operator arrows (=, −, +, ×, ÷) in equation flows must not rotate when flows stack on phones */
+  @media(max-width:760px){.arrow.op{transform:none!important;padding:4px 0;}}
+</style><body>
+<button class="dl-btn" onclick="window.print()" title="Download this report as PDF">⬇ Download PDF</button>
+<div class="pdf-head"><img src="../assets/logo.png" alt="Guardian Capital"><div><div class="ph-t">Sub-sector Reports</div><div class="ph-s">Non-Ferrous Metals · Zinc &amp; Silver</div></div></div>
+<a href="index.html" class="sp-back" title="Back to Sub-sector reports" style="position:fixed;top:14px;right:16px;z-index:200;display:inline-flex;align-items:center;gap:6px;font-family:'DM Mono',ui-monospace,monospace;font-size:11.5px;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#0a0a0a;border-radius:20px;padding:8px 14px;text-decoration:none;box-shadow:0 2px 12px rgba(0,0,0,.22);">← Sub-sector reports</a>
+<div class="wrap">
+<div class="grid">
+
+<nav class="toc">
+  <div class="toc-title">Contents</div>
+  <ol>
+    <li><a href="#p0"><span class="n">00</span> The one-page view</a></li>
+    <li><a href="#p1"><span class="n">01</span> Ore to ingot: how the metal earns</a></li>
+    <li><a href="#p2"><span class="n">02</span> A 14 Mt world, a 1 Mt India</a></li>
+    <li><a href="#p3"><span class="n">03</span> Galvanising India, surplus world</a></li>
+    <li><a href="#p4"><span class="n">04</span> Where ₹100 of revenue goes</a></li>
+    <li><a href="#p5"><span class="n">05</span> Who makes the world's zinc</a></li>
+    <li><a href="#p6"><span class="n">06</span> Five ways to earn from zinc</a></li>
+    <li><a href="#p7"><span class="n">07</span> Smelters dying, miner minting</a></li>
+    <li><a href="#p8"><span class="n">08</span> A silver miner in disguise</a></li>
+    <li><a href="#p9"><span class="n">09</span> The first-decile cost moat</a></li>
+    <li><a href="#p10"><span class="n">10</span> The state's share</a></li>
+    <li><a href="#p11"><span class="n">11</span> Six decades of cycles</a></li>
+    <li><a href="#p12"><span class="n">12</span> Reading a zinc miner: the KPIs</a></li>
+    <li><a href="#p13"><span class="n">13</span> The peer table</a></li>
+    <li><a href="#p14"><span class="n">14</span> Who is winning</a></li>
+    <li><a href="#p15"><span class="n">15</span> The member: Hindustan Zinc</a></li>
+    <li><a href="#p16"><span class="n">16</span> Who owns the cash machine</a></li>
+    <li><a href="#p17"><span class="n">17</span> Doubling a first-decile miner</a></li>
+    <li><a href="#p18"><span class="n">18</span> Recyclers vs the miner</a></li>
+    <li><a href="#p19"><span class="n">19</span> The global lens and the price</a></li>
+    <li><a href="#p20"><span class="n">20</span> Macro, technology, disruption</a></li>
+    <li><a href="#p21"><span class="n">21</span> Bull vs bear</a></li>
+    <li><a href="#p22"><span class="n">22</span> What to watch</a></li>
+    <li><a href="#p23"><span class="n">23</span> Glossary</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<header class="cover" id="top">
+  <div class="kicker">
+    <span class="tag sub">Sub-sector report</span>
+    <span class="tag solid">Non-Ferrous Metals · Zinc &amp; Silver</span>
+    <span class="tag gold">1 listed company</span>
+  </div>
+  <h1>Zinc &amp; Silver: <em>the miner keeps what smelters lose</em></h1>
+  <p class="dek">A complete guide to the zinc, lead and silver business in India and the world: why a shortage of mined concentrate has bankrupted smelters while lifting an integrated miner to 62% margins, how silver became half the profit and then halved in price, what the Rajasthan orebodies cost to dig and what the state takes from them, and who really owns the cash that Hindustan Zinc, the sub-sector's only listed member, throws off.</p>
+  <div class="stat-strip six">
+    <div class="cell"><div class="v">₹2.34 <small>lakh Cr</small></div><div class="l">Hindustan Zinc m-cap, 13 Nov 2026 (sole member)</div></div>
+    <div class="cell"><div class="v">₹40,844 <small>Cr</small></div><div class="l">FY26 revenue, up 20%</div></div>
+    <div class="cell"><div class="v">62%</div><div class="l">Q2 FY27 EBITDA margin (₹9,285 Cr, a record)</div></div>
+    <div class="cell"><div class="v">₹67,141 <small>/t</small></div><div class="l">Zinc cost ex-royalty Q2 FY27 (₹1.17 lakh/t with royalty)</div></div>
+    <div class="cell"><div class="v">~45%</div><div class="l">Precious metals' share of EBIT, FY26 and H1 FY27</div></div>
+    <div class="cell"><div class="v">₹19,000 <small>Cr</small></div><div class="l">FY26 paid to the exchequer (PAT ₹13,832 Cr)</div></div>
+  </div>
+  <p class="prov">Basis: Hindustan Zinc FY26 (year to 31 Mar 2026) annual report and investor decks, Q1 FY27 (Jun-26) and Q2 FY27 (Sep-26, reported 19 Oct 2026) results and calls; market data from screener.in as of 13 Nov 2026. Industry data from ILZSG (19 Oct 2026), the World Bank Pink Sheet, Fastmarkets, the Indian Bureau of Mines and peer company reports. Estimates and worked examples are labelled illustrative or indicative.</p>
+</header>
+
+<section class="part" id="p0">
+<div class="part-head"><span class="pno">00</span><h2>The one-page view: one listed company, a global market and three engines</h2></div>
+<p class="part-sub">On the NSE, "zinc" means Hindustan Zinc. But the price, the costs and the risks are set in London, Beijing, Jaipur and Delhi.</p>
+
+<p class="lead">This sub-sector has a single listed member, Hindustan Zinc Limited (HZL), and that fact can mislead. HZL is not a company in a small niche. It is the world's largest integrated zinc producer, India's only primary producer of zinc and lead of any scale, and India's only primary silver producer. Its revenue moves with the London Metal Exchange (LME) price of zinc and lead, the London (LBMA) price of silver and the rupee, none of which it controls. Its profit depends on a set of forces that shape the whole global industry: a shortage of mined concentrate, a silver boom that has already turned, a cost curve on which HZL sits near the very bottom, and a state that takes more out of the business than any shareholder does. This report explains that whole industry, with HZL as the lens.</p>
+
+<p>Start with the scale. In FY26 HZL mined 1,114 thousand tonnes (kt) of zinc and lead metal contained in ore, refined 851 kt of zinc and 197 kt of lead, and produced 627 tonnes of silver. Revenue was ₹40,844 crore, EBITDA ₹22,162 crore (54%) and net profit ₹13,832 crore. In the half year since, prices exploded and then turned: Q2 FY27 (Sep-26) brought revenue of ₹15,093 crore, up 77% year on year, EBITDA of ₹9,285 crore at a 62% margin, and profit of ₹6,412 crore, all records. The trailing twelve months to September show ₹53,364 crore of revenue and ₹20,830 crore of profit. At ₹555 a share on 13 November 2026 the company was worth ₹2,34,442 crore, 11.3 times trailing earnings and about 7.2 times trailing EBITDA after netting off ₹11,268 crore of cash.</p>
+
+<div class="mini-stats">
+  <div class="ms"><div class="msv">1,114 kt</div><div class="msl">Zinc + lead metal mined in FY26, a record; refined capacity is 1,129 ktpa (zinc 919, lead 210)</div></div>
+  <div class="ms gold"><div class="msv">58 / 24 / 10 / 8</div><div class="msl">FY26 revenue mix, %: zinc / silver / lead / others (acid, alloys, power, concentrate)</div></div>
+  <div class="ms red"><div class="msv">~$49/oz</div><div class="msl">Indicative silver spot, 9 Nov 2026, against a Q2 FY27 average of $62.6 and an all-time high of $118.45</div></div>
+</div>
+
+<p>The revenue mix corrects a common misreading. HZL is often described as a zinc company with a silver sideline; our own primer once put zinc at about 85% of revenue. The company's FY26 split is different: zinc ₹23,771 crore (58%), silver ₹9,841 crore (24%), lead ₹3,901 crore (10%) and "others" ₹3,331 crore (8%), the last being mainly sulphuric acid, alloys, wind power and some lead concentrate. In Q2 FY27 silver reached 27% of revenue. Measured by profit, precious metals contributed about 45% of EBIT in FY26 and again in H1 FY27, on the company's own annual-report basis.</p>
+
+<div class="chart">
+  <div class="c-title">What the sub-sector sells: HZL revenue by metal</div>
+  <div class="c-sub">₹ crore and share of revenue from operations, FY26 (₹40,844 Cr) and Q2 FY27 (₹15,093 Cr). Source: HZL Q4 FY26 and Q2 FY27 investor presentations</div>
+  <div class="stack-row"><div class="blab">FY26</div><div class="stack"><span style="width:58.2%;background:var(--wtg)">Zinc 58%</span><span style="width:24.1%;background:var(--epc)">Silver 24%</span><span style="width:9.6%;background:var(--om)">Lead 10%</span><span style="width:8.1%;background:var(--gold)">8%</span></div></div>
+  <div class="stack-row"><div class="blab">Q2 FY27 (Sep-26)</div><div class="stack"><span style="width:54.5%;background:var(--wtg)">Zinc 54%</span><span style="width:27.2%;background:var(--epc)">Silver 27%</span><span style="width:7.5%;background:var(--om)">Lead</span><span style="width:10.8%;background:var(--gold)">11%</span></div></div>
+  <div class="legend"><span><i style="background:var(--wtg)"></i>Zinc ₹23,771 Cr / ₹8,224 Cr</span><span><i style="background:var(--epc)"></i>Silver ₹9,841 Cr / ₹4,111 Cr</span><span><i style="background:var(--om)"></i>Lead ₹3,901 Cr / ₹1,130 Cr</span><span><i style="background:var(--gold)"></i>Others (acid, alloys, wind, concentrate) ₹3,331 Cr / ₹1,628 Cr</span></div>
+</div>
+
+<p>Eight forces explain almost everything about this sub-sector, and the report is organised around them:</p>
+<ul class="clean">
+  <li><strong>The concentrate squeeze.</strong> Mines have not kept up with smelters, so the treatment charge (TC) that miners pay smelters fell to $80 per dry tonne in the 2025 annual benchmark, the lowest in more than 50 years, and to below zero on the spot market (−$115 to −$150 in October 2026). An integrated miner-smelter like HZL pays no TC and keeps both halves of the margin (section 07).</li>
+  <li><strong>Silver as a second engine, now reversing.</strong> LBMA silver rose from $30 an ounce (FY25 average) to $84 (Q4 FY26 average) and $118 at its peak, then fell to about $49 by early November 2026 (section 08).</li>
+  <li><strong>A first-decile cost moat.</strong> HZL's zinc cost of production excluding royalty fell to $703 a tonne in Q2 FY27, but its own FY27 guidance of $825–850 implies the second half will run at roughly $875–925 (section 09).</li>
+  <li><strong>The ownership triangle.</strong> Vedanta owns 60.71%, the Government of India (GoI) 27.92% and the public 11.37%. Dividends, a 3% brand fee and a pending vote to double inter-corporate lending limits decide where the cash goes (section 16).</li>
+  <li><strong>India's galvanising boom against a global surplus.</strong> Indian zinc demand grows 6–8% a year; the world's will shift to a small surplus in 2027 (section 03).</li>
+  <li><strong>Growth against reserves and leases.</strong> A plan to double refined capacity runs into reserves of roughly 12.5 years of output and mining leases that expire around 2030 (section 17).</li>
+  <li><strong>The state's take.</strong> Royalty is HZL's largest single cost line (₹4,948 crore in FY26), and a 2026 law has just capped state mineral taxes (section 10).</li>
+  <li><strong>Macro.</strong> The rupee, coal and energy prices after the 2026 West Asia war, and US tariffs (section 20).</li>
+</ul>
+
+<div class="chart">
+  <div class="c-title">Where the Q2 FY27 record EBITDA came from</div>
+  <div class="c-sub">ILLUSTRATIVE reconstruction, ₹ crore, built from company volumes, prices, costs and the lead-concentrate profit disclosed on the call; sums to the reported ₹9,285 Cr. Bar length relative to the zinc margin</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Zinc margin<small>214 kt × ~$2,790/t</small></div><div class="track"><span class="fill wtg" style="width:100%"></span></div><div class="bval">~5,710</div></div>
+    <div class="bar-row"><div class="blab">Silver margin<small>after ~9% royalty</small></div><div class="track"><span class="fill spec" style="width:64.8%"></span></div><div class="bval">~3,700</div></div>
+    <div class="bar-row"><div class="blab">Lead margin</div><div class="track"><span class="fill om" style="width:8.6%"></span></div><div class="bval">~490</div></div>
+    <div class="bar-row"><div class="blab">Lead concentrate sold<small>10 kt, off-spec stock</small></div><div class="track"><span class="fill gold" style="width:2.7%"></span></div><div class="bval">~155</div></div>
+    <div class="bar-row"><div class="blab">Brand fee to Vedanta<small>3% of turnover</small></div><div class="track"><span class="fill bad" style="width:7.9%"></span></div><div class="bval">−453</div></div>
+    <div class="bar-row"><div class="blab">Other overheads, CSR</div><div class="track"><span class="fill bad" style="width:5.6%"></span></div><div class="bval">−320</div></div>
+  </div>
+  <div class="legend"><span>Zinc earns about three-fifths of the pre-overhead margin and silver about two-fifths. The company's "c.45% precious metals" figure is on EBIT for H1 FY27, when Q1's silver price was higher.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Hindustan Zinc digs unusually rich ore out of Rajasthan, turns it into metal in its own smelters, and sells it at world prices. It spends about $700–950 to make a tonne of zinc that sells for $3,000–4,000, pays the state roughly another $500 a tonne in royalty, and gets silver almost free as a by-product. That gap makes it one of the most profitable metal producers on earth. The catch is that nearly every number that matters, from the zinc and silver price to the treatment charge to the rupee, is set by someone else.</p>
+</div>
+
+<p>What follows moves from the industry to the company and back. Sections 01–06 explain how zinc, lead and silver are produced and priced, how big the market is, who demands it and who supplies it, and the five business models that compete for the margin. Sections 07–11 cover the forces in depth: the treatment-charge squeeze, silver, the cost curve, the state's share and the history of the cycle. Section 12 is the KPI masterclass, a full guide to reading a zinc miner's numbers. Sections 13–19 cover the peer table, positioning maps, the profile of the member company, the ownership and growth deep dives, recyclers and the global valuation lens. The report closes with macro and technology, bull and bear cases, what to watch and a glossary.</p>
+
+<p>Two warnings run through every section. First, Q2 FY27 was very likely a peak print. Zinc made its high in September 2026, after the quarter's close; silver averaged $57 in October and was nearer $49 by 9 November; and the company's own cost guidance implies a higher second-half cost. Second, the definitions are slippery. Mined metal is not refined metal, cost of production excludes both royalty and silver, the "realised" silver price is not the LBMA price, and the precious-metal profit share is on EBIT, not revenue. The KPI section collects these traps in one place.</p>
+</section>
+
+<section class="part" id="p1">
+<div class="part-head"><span class="pno">01</span><h2>Ore to ingot: how the metal earns, and who keeps the rent</h2></div>
+<p class="part-sub">The money in zinc is made at the mine face. Everything downstream earns a processing fee.</p>
+
+<p>Zinc rarely occurs alone. In Rajasthan's sedimentary-hosted deposits it sits in sulphide ore with lead and silver, at combined zinc-plus-lead grades of around 7–8%, which is high by world standards. Turning that rock into saleable metal takes five steps, and each step is a separate business somewhere in the world. Understanding which step captures the value explains why integrated producers have done so well in 2025–26 while standalone smelters have closed.</p>
+
+<div class="flow">
+  <div class="eyebrow" style="margin-bottom:14px;">The zinc-lead-silver value chain: where a tonne of ore becomes money</div>
+  <div class="flow-row">
+    <div class="node om"><div class="ntag">Step 1 · Mine</div><div class="nname">Underground ore</div><div class="nwho">HZL's five Rajasthan mines; grade ~7.6% Zn+Pb (Q2 FY27). Royalty is charged here, on metal in ore.</div></div>
+    <div class="arrow">→</div>
+    <div class="node wtg"><div class="ntag">Step 2 · Mill</div><div class="nname">Concentrate</div><div class="nwho">Crush, grind, froth flotation: zinc concentrate ~50–55% Zn; lead concentrate ~55–65% Pb carrying the silver.</div></div>
+    <div class="arrow">→</div>
+    <div class="node spec"><div class="ntag">Step 3 · Smelt</div><div class="nname">Refined metal</div><div class="nwho">Roast, leach, electrowin (hydro) or pyro smelting. Custom smelters charge a TC here.</div></div>
+    <div class="arrow">→</div>
+    <div class="node epc"><div class="ntag">Step 4 · By-products</div><div class="nname">Silver, acid, cadmium</div><div class="nwho">Silver recovered from lead bullion; ~1.8–2 t of sulphuric acid per t of zinc roasted.</div></div>
+    <div class="arrow">→</div>
+    <div class="node om"><div class="ntag">Step 5 · Sell</div><div class="nname">Galvanisers, batteries, jewellers</div><div class="nwho">LME/LBMA-linked price plus an Indian import-parity premium; ~30% of zinc exported.</div></div>
+  </div>
+  <div class="flow-note">An integrated producer owns steps 1–5 and pays no treatment charge. A custom smelter owns only steps 3–5 and buys its feed from miners at the LME price less a TC.</div>
+</div>
+
+<h3>Step by step</h3>
+<p><strong>Mining.</strong> All five HZL mines are now underground. Rampura Agucha, discovered in 1977 and once the world's largest open-pit zinc mine, completed its move underground around 2018 and still produced a record 576 kt of metal in FY26. Sindesar Khurd is the silver-rich mine. Zawar, worked since antiquity, produced a record 214 kt; Rajpura Dariba 55.9 kt; and Kayad and Bamnia Kalan are smaller or in development. Mining cost is driven by development metres, explosives, diesel, ground support and contractor rates. HZL's ore grade, around 7.6% zinc plus lead in Q2 FY27 and about 7% across its reserves and resources, compares with a world average reserve grade that the company's Woodmac-sourced deck puts at 2.8%, down from 6.9% in the 1990s.</p>
+<p><strong>Concentration.</strong> Ore is crushed and ground to a powder and floated in tanks of reagents. Zinc and lead sulphides attach to air bubbles and are skimmed off as separate concentrates. Recovery, the share of metal in ore that ends up in concentrate, typically runs in the high 80s to low 90s per cent. HZL does not routinely sell concentrate; it feeds its own smelters. The exception since FY26 has been off-spec lead concentrate built up while a new mill at Rajpura Dariba stabilised: 24 kt sold in FY26 and 20 kt in H1 FY27.</p>
+<p><strong>Smelting and refining.</strong> Most zinc is made by the hydrometallurgical route: concentrate is roasted to drive off sulphur (which becomes sulphuric acid), the calcine is leached in acid, purified, and the zinc plated out by electrolysis in cell houses that consume enormous amounts of power. HZL also runs a pyrometallurgical smelter at Chanderiya (a record 164 kt in FY26) and lead smelters at Dariba and Chanderiya, where silver is separated from lead bullion. Refined capacity is 1,129 ktpa: zinc 919 and lead 210.</p>
+<p><strong>By-products.</strong> Silver is the big one. Sulphuric acid matters more than it looks: HZL sold about ₹1,000–1,200 crore of it in FY26, and acid prices tripled in 2026 after the Strait of Hormuz closure and a Chinese export ban. Because HZL reports its zinc cost net of acid and other non-silver by-products, an acid windfall shows up as a lower cost of production.</p>
+<p><strong>Selling.</strong> HZL sells to continuous galvanising lines at the steel majors, to thousands of hot-dip galvanisers, to die-casters, brass makers and battery makers, and to silver traders and fabricators. Prices are linked to the LME (zinc, lead) and to the international silver price, plus a domestic premium that reflects what an importer would pay including the 5% basic customs duty on zinc. On the company's numbers, implied zinc realisations have run a steady 5–8% above LME. About 30% of refined zinc (251 kt of 851 kt in FY26) and 23% of lead were exported; silver is sold almost entirely in India.</p>
+
+<div class="chart">
+  <div class="c-title">Where $3,825 of zinc went in Q2 FY27</div>
+  <div class="c-sub">Per tonne of refined zinc at the Q2 FY27 LME average. Cash cost = HZL zinc CoP ex-royalty ($703); state levies = CoP with royalty minus CoP ex-royalty ($525: royalty, District Mineral Foundation, National Mineral Exploration Trust). Source: HZL Q2 FY27 deck; split derived</div>
+  <div class="stack-row"><div class="blab">One tonne of zinc at LME</div><div class="stack"><span style="width:18.4%;background:var(--om)">Cost 18%</span><span style="width:13.7%;background:var(--gold)">State 14%</span><span style="width:67.9%;background:var(--wtg)">Margin 68%</span></div></div>
+  <div class="legend"><span><i style="background:var(--om)"></i>Cash cost of mining, milling and smelting, net of acid credits: $703</span><span><i style="background:var(--gold)"></i>Royalty + DMF + NMET: $525</span><span><i style="background:var(--wtg)"></i>Margin before overheads, D&amp;A and tax: ~$2,597 (plus a ~5% domestic premium on top)</span></div>
+</div>
+
+<h3>Who keeps the rent</h3>
+<p>Economists call the excess of price over the full cost of production a "rent", and in zinc the rent belongs to whoever owns a low-cost orebody. In Q2 FY27 each tonne of zinc sold for about $3,825 on the LME. HZL spent $703 producing it, the state took $525, and the remaining $2,600 or so was margin. A custom smelter that processes someone else's concentrate earns only the treatment charge, the "free metal" it recovers above the share it pays for, and its by-products. At the 2026 benchmark TC of $85 per dry tonne of concentrate, that processing revenue works out to only about $155 per tonne of zinc, before the smelter has paid for its own power, labour and reagents. At October 2026's negative spot TCs, the processing fee is below zero.</p>
+
+<div class="chart">
+  <div class="c-title">Who captures what from one tonne of zinc, mid-2026</div>
+  <div class="c-sub">ILLUSTRATIVE, US$ per tonne of zinc. HZL figures from Q2 FY27 deck; custom-smelter figure = $85/dmt benchmark TC on ~55%-grade concentrate (dossier arithmetic); spot TC from Fastmarkets, 9 Oct 2026</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">Integrated miner's margin<small>HZL, after royalty</small></div><div class="track"><span class="fill wtg" style="width:100%"></span></div><div class="bval">~2,600</div></div>
+    <div class="bar-row"><div class="blab">State levies<small>royalty, DMF, NMET</small></div><div class="track"><span class="fill gold" style="width:20.2%"></span></div><div class="bval">525</div></div>
+    <div class="bar-row"><div class="blab">Custom smelter fee<small>2026 benchmark TC</small></div><div class="track"><span class="fill om" style="width:6%"></span></div><div class="bval">~155</div></div>
+    <div class="bar-row"><div class="blab">Custom smelter fee<small>Oct-2026 spot TC</small></div><div class="track"><span class="fill bad" style="width:1%"></span></div><div class="bval">below 0</div></div>
+  </div>
+  <div class="legend"><span>The smelter's fee must cover its own power, labour and reagents; the miner's margin is after all cash costs.</span></div>
+</div>
+
+<p>Silver is even closer to pure rent. It rides in ore that HZL mines for zinc and lead, so almost all of its cost is already counted in the zinc and lead accounts. After a royalty of 7% of the international price (plus District Mineral Foundation and exploration levies on top of that royalty) and the cost of refining, nearly every rupee of silver revenue becomes EBITDA. In H1 FY27 silver revenue was ₹7,950 crore and precious metals' contribution, at about 45% of a ₹17,359 crore EBITDA, was roughly ₹7,800 crore.</p>
+
+<p>The state also captures a large share. HZL's contribution to the exchequer, including royalty, the District Mineral Foundation (DMF), income tax, GST and other levies, was about ₹19,000 crore in FY26, more than its ₹13,832 crore net profit; more than ₹6,000 crore of that went to Rajasthan. Add the Government of India's 27.92% share of dividends and the Indian state takes more out of HZL each year than any single shareholder does.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Owning the mine is what matters. When concentrate is scarce, a smelter without its own mine has to accept whatever terms the miners offer, and right now the miners are offering almost nothing. HZL owns both the mines and the smelters, so it simply moves ore from one to the other and keeps the whole margin. The government, through royalty and taxes, takes a slice before anyone else.</p>
+</div>
+
+<p>Three measures of volume run through every HZL disclosure and should never be mixed. <strong>Mined metal</strong> is the zinc and lead contained in ore at the mines (1,114 kt in FY26). <strong>Refined metal</strong> is zinc and lead ingot out of the smelters (1,048 kt = 851 zinc + 197 lead). <strong>Silver</strong> is reported separately as refined saleable silver in tonnes (627 t). None includes the others, and the difference between mined and refined metal is mostly smelter recovery losses, stock movements and, since FY26, lead concentrate sold rather than smelted.</p>
+</section>
+
+<section class="part" id="p2">
+<div class="part-head"><span class="pno">02</span><h2>A 14 Mt world, a 1 Mt India: size, growth and price</h2></div>
+<p class="part-sub">Zinc is the fourth most-used metal on earth. India uses only a small share of it, but that share is growing fast.</p>
+
+<p>The world consumed about 14.0 million tonnes (Mt) of refined zinc in 2026 on the International Lead and Zinc Study Group's October 2026 estimate: demand of 14.02 Mt against refined output of 13.93 Mt and mine output of 12.40 Mt. At the 2026 average LME price of roughly $3,500–3,700 a tonne, that is a market worth about $50 billion, or close to ₹4.9 lakh crore a year (indicative). Refined lead is a similar-sized market by tonnage, about 13.8 Mt, but at roughly half the price; more than 60% of it is recycled from old batteries. Silver is tiny by tonnage, around 26,000 tonnes (about 830 million ounces) a year, but at $50–60 an ounce it is worth a comparable sum, and about 70% of mined silver comes as a by-product of lead-zinc, copper and gold mines.</p>
+
+<div class="tbl-wrap">
+  <table>
+    <caption>Global refined zinc and lead balance (million tonnes, calendar years)</caption>
+    <thead><tr><th>Item</th><th class="num">2025 (derived)</th><th class="num">2026 forecast</th><th class="num">2027 forecast</th><th>What drives it</th></tr></thead>
+    <tbody>
+      <tr><td class="t-strong">Zinc mine output</td><td class="num">~12.73</td><td class="num">12.40 (−2.6%)</td><td class="num">12.78 (+3.0%)</td><td>2026 falls at Antamina, Garpenberg, Red Dog, Lady Loretta; 2027 adds Chinese capacity, Gamsberg Phase 2, India, Peru</td></tr>
+      <tr><td class="t-strong">Refined zinc output</td><td class="num">~13.81</td><td class="num">13.93 (+0.9%)</td><td class="num">14.21 (+2.0%)</td><td>China +3.7% in 2026; rest of world −2% on concentrate shortage and energy cost</td></tr>
+      <tr><td class="t-strong">Refined zinc demand</td><td class="num">~13.83</td><td class="num">14.02 (+1.4%)</td><td class="num">14.19 (+1.2%)</td><td>China +1.8% then +0.3%; India, Korea and the US up</td></tr>
+      <tr><td class="t-strong">Zinc balance</td><td class="num">~−0.02</td><td class="num">−0.088 deficit</td><td class="num">+0.025 surplus</td><td>Woodmac, via HZL, sees a larger 2026 deficit of ~0.18 Mt</td></tr>
+      <tr><td class="t-strong">Refined lead balance</td><td class="num">—</td><td class="num">+0.090 surplus</td><td class="num">+0.163 surplus</td><td>Persistent surplus keeps lead flat near $1,850–1,995/t</td></tr>
+    </tbody>
+  </table>
+</div>
+<p style="font-size:12.5px;color:var(--ink-soft)">Source: ILZSG press release, 19 Oct 2026; 2025 back-calculated from stated growth rates (indicative); Woodmac figure from HZL's Q2 FY27 call.</p>
+
+<p>The single most important line in that table is the gap between mine output (12.4 Mt) and refined output (13.9 Mt). Smelters can make more metal than miners dig only by drawing on secondary zinc and concentrate stockpiles. That 1.5 Mt gap is the structural reason treatment charges collapsed: smelters are competing for too little feed. It also explains why ILZSG's 2027 forecast matters: mine output is expected to grow faster (+3%) than refined output (+2%) next year, which would start to ease the squeeze and nudge the balance into a small surplus.</p>
+
+<h3>Price: a decade in two charts</h3>
+<p>Zinc has traded between about $1,900 and $4,000 a tonne (annual averages) over the past decade. On HZL's April–March fiscal years, using World Bank LME-based data for the years before FY25 and the company's own figures after, the average went from $2,746 in FY19 down to $2,404 in FY20, up to $3,248 in FY22 and $3,334 in FY23 (the European energy crisis), down to a trough of $2,480 in FY24, and back to $2,875 in FY25 and $2,970 in FY26. H1 FY27 averaged $3,651 and the monthly average peaked at $4,021 in September 2026. One correction matters here: FY23 averaged $3,334, higher than FY22, not lower as some earlier tables show.</p>
+
+<div class="chart">
+  <div class="c-title">LME zinc, fiscal-year averages</div>
+  <div class="c-sub">US$ per tonne, April–March years. FY19–FY24 World Bank Pink Sheet (LME-based); FY25–H1 FY27 HZL averages; Oct-2026 monthly World Bank. Full bar = $4,000</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY19</div><div class="track"><span class="fill wtg" style="width:68.7%"></span></div><div class="bval">2,746</div></div>
+    <div class="bar-row"><div class="blab">FY20</div><div class="track"><span class="fill wtg" style="width:60.1%"></span></div><div class="bval">2,404</div></div>
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill wtg" style="width:60.6%"></span></div><div class="bval">2,422</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill wtg" style="width:81.2%"></span></div><div class="bval">3,248</div></div>
+    <div class="bar-row"><div class="blab">FY23<small>energy-crisis peak</small></div><div class="track"><span class="fill wtg" style="width:83.4%"></span></div><div class="bval">3,334</div></div>
+    <div class="bar-row"><div class="blab">FY24<small>trough</small></div><div class="track"><span class="fill bad" style="width:62%"></span></div><div class="bval">2,480</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill wtg" style="width:71.9%"></span></div><div class="bval">2,875</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill wtg" style="width:74.3%"></span></div><div class="bval">2,970</div></div>
+    <div class="bar-row"><div class="blab">H1 FY27</div><div class="track"><span class="fill brand" style="width:91.3%"></span></div><div class="bval">3,651</div></div>
+    <div class="bar-row"><div class="blab">Oct-2026<small>month</small></div><div class="track"><span class="fill brand" style="width:95.5%"></span></div><div class="bval">3,818</div></div>
+  </div>
+</div>
+
+<p>Silver's move has been far more violent. LBMA silver averaged $15–17 an ounce in FY19–FY20, $21–25 in FY21–FY24, $30.4 in FY25 and $53.1 in FY26. The Q4 FY26 quarter (January–March 2026) averaged $84.3, with an intraday all-time high of $118.45 and a monthly average peak of $92.1 in January. It then slid: $73.2 in Q1 FY27, $62.6 in Q2, $57.0 in October and roughly $49 on 9 November 2026 (an indicative spot print, not an LBMA fix).</p>
+
+<div class="chart">
+  <div class="c-title">LBMA silver, fiscal-year and recent averages</div>
+  <div class="c-sub">US$ per ounce. FY19–FY24 World Bank; FY25–H1 FY27 HZL; Nov-2026 = indicative spot on 9 Nov 2026 (Skillings). Full bar = $70</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY19</div><div class="track"><span class="fill spec" style="width:22%"></span></div><div class="bval">15.4</div></div>
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill spec" style="width:32.7%"></span></div><div class="bval">22.9</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill spec" style="width:30.6%"></span></div><div class="bval">21.4</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill spec" style="width:33.7%"></span></div><div class="bval">23.6</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill spec" style="width:43.4%"></span></div><div class="bval">30.4</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill spec" style="width:75.9%"></span></div><div class="bval">53.1</div></div>
+    <div class="bar-row"><div class="blab">H1 FY27</div><div class="track"><span class="fill gold" style="width:96.7%"></span></div><div class="bval">67.7</div></div>
+    <div class="bar-row"><div class="blab">Nov-2026 spot<small>indicative</small></div><div class="track"><span class="fill bad" style="width:70%"></span></div><div class="bval">~49</div></div>
+  </div>
+</div>
+
+<h3>India: a 1 Mt market growing 6–8% a year</h3>
+<p>India consumes about 1.0–1.15 Mt of zinc a year once secondary (recycled) metal is counted, on estimates from BigMint (about 1.0 Mt in 2025) and the International Zinc Association (about 1.1 Mt). On a narrower primary-metal basis, HZL's domestic sales plus imported ingot, apparent consumption was about 795 kt in FY26 (indicative), up from 595 kt in FY22 on Indian Bureau of Mines data. That is roughly 7.5% a year. India is about 7–8% of world zinc demand; HZL's refined zinc is about 6% of world refined output and its mined metal about 9% of world zinc-plus-lead mine output (indicative).</p>
+<p>Lead consumption in India is roughly 1.3–1.6 Mt a year (indicative), most of it secondary, recycled from used batteries by firms such as Gravita and Pondy Oxides and by battery makers' captive plants. HZL's 197 kt of refined lead is a minority of the total. Silver is the other way round: India is one of the world's largest silver importers, at roughly 4,000–7,000 tonnes a year depending on prices and duty, so HZL's 627 t meets perhaps 10–15% of domestic demand (indicative).</p>
+
+<div class="chart">
+  <div class="c-title">The sub-sector's revenue, FY21 to TTM</div>
+  <div class="c-sub">Hindustan Zinc revenue from operations, ₹ crore, consolidated (screener.in, 13 Nov 2026). TTM = twelve months to Sep-2026. Full bar = ₹55,000 Cr</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill brand" style="width:41.1%"></span></div><div class="bval">22,629</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill brand" style="width:53.5%"></span></div><div class="bval">29,440</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill brand" style="width:62%"></span></div><div class="bval">34,098</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill bad" style="width:52.6%"></span></div><div class="bval">28,932</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill brand" style="width:62%"></span></div><div class="bval">34,083</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill brand" style="width:74.3%"></span></div><div class="bval">40,844</div></div>
+    <div class="bar-row"><div class="blab">TTM Sep-26</div><div class="track"><span class="fill gold" style="width:97%"></span></div><div class="bval">53,364</div></div>
+  </div>
+  <div class="legend"><span>Five-year revenue CAGR to FY26: 13%; profit CAGR 12%. FY24 fell 15% as LME zinc dropped 26%.</span></div>
+</div>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Zinc is a mature global market that grows about 1–1.5% a year and swings with China. India is a small but fast-growing corner of it, adding demand at 6–8% a year as it builds roads, towers, roofs and railways. Hindustan Zinc's revenue tracks the world price, not Indian demand; Indian demand decides how much it can sell at home at a premium instead of exporting.</p>
+</div>
+
+<p>For a single-company sub-sector, the "sector" totals are simply HZL's: FY26 revenue ₹40,844 crore, EBITDA ₹22,162 crore, PAT ₹13,832 crore and market capitalisation ₹2,34,442 crore. In a broader sense, the Indian zinc economy also includes about ₹7,000–8,000 crore a year of imported zinc ingot (about 0.2 Mt), the secondary zinc and lead recyclers, and the galvanisers who consume most of the metal; the market value of all zinc used in India is roughly ₹38,000 crore a year at current prices (indicative).</p>
+</section>
+
+<section class="part" id="p3">
+<div class="part-head"><span class="pno">03</span><h2>Galvanising India against a surplus world: the demand story</h2></div>
+<p class="part-sub">Indian demand decides how much HZL can sell at a premium at home. It does not decide the LME price.</p>
+
+<p>Most zinc is used to stop steel rusting. Hot-dip and continuous galvanising coat steel with a thin layer of zinc that corrodes in its place; it is the cheapest durable protection for structures exposed to weather. Globally, galvanising takes about 50–60% of zinc, die-casting alloys about 15%, brass about 15%, chemicals and zinc oxide (for tyres, rubber, ceramics and feed) 6–8%, with rolled zinc and batteries making up the rest. In India the galvanising share is higher, about 72% on BigMint's 2025 estimate, because the country's die-casting, brass and chemical industries are smaller. The Indian Bureau of Mines, which counts coatings separately, put galvanising at 57% plus coatings at 16% in its last full yearbook.</p>
+
+<div class="chart">
+  <div class="c-title">What India uses zinc for</div>
+  <div class="c-sub">Share of Indian zinc consumption by end use, %. Indian Minerals Yearbook 2022, Lead &amp; Zinc chapter (IBM). BigMint puts galvanising at ~72% (2025) on a basis that folds in coatings</div>
+  <div class="stack-row"><div class="blab">India (IBM basis)</div><div class="stack"><span style="width:57%;background:var(--wtg)">Galvanising 57%</span><span style="width:16%;background:var(--epc)">Coat 16%</span><span style="width:14%;background:var(--om)">Die 14%</span><span style="width:7%;background:var(--gold)">7%</span><span style="width:6%;background:var(--ink-faint)">6%</span></div></div>
+  <div class="legend"><span><i style="background:var(--wtg)"></i>Galvanising 57%</span><span><i style="background:var(--epc)"></i>Other coatings 16%</span><span><i style="background:var(--om)"></i>Die-casting alloys 14%</span><span><i style="background:var(--gold)"></i>Oxides and chemicals 7%</span><span><i style="background:var(--ink-faint)"></i>Extruded / rolled 6%</span></div>
+</div>
+
+<h3>Driver 1: steel and the infrastructure build-out</h3>
+<p>India's crude steel output was about 152 Mt in FY25 and roughly 168 Mt in FY26, with the National Steel Policy targeting 300 Mtpa of capacity by 2030. HZL's deck, citing CMIE, maps a path of 182 Mt in FY27 and 195 Mt in FY28 (an indicative mapping). Galvanised and coated flat products, including galvanised plain and corrugated sheet, colour-coated roofing, galvalume, and structural sections for transmission towers, solar module mounts, highway crash barriers, metro and railway electrification and pre-engineered buildings, are the fastest-growing grades. Government capital spending has risen about 2.6 times in six years, and effective central capex for FY27 is budgeted at about 4.4% of GDP. A rule of thumb (indicative): hot-dip galvanised structural steel uses about 30–40 kg of zinc per tonne, continuous galvanised sheet about 8–10 kg.</p>
+
+<div class="chart">
+  <div class="c-title">Indian crude steel output, the main driver of zinc demand</div>
+  <div class="c-sub">Million tonnes, fiscal years; FY27–FY28 projections. HZL Q4 FY26 deck citing CMIE (indicative mapping). Full bar = 200 Mt</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill om" style="width:60%"></span></div><div class="bval">120</div></div>
+    <div class="bar-row"><div class="blab">FY23</div><div class="track"><span class="fill om" style="width:63.5%"></span></div><div class="bval">127</div></div>
+    <div class="bar-row"><div class="blab">FY24</div><div class="track"><span class="fill om" style="width:72%"></span></div><div class="bval">144</div></div>
+    <div class="bar-row"><div class="blab">FY25</div><div class="track"><span class="fill om" style="width:76%"></span></div><div class="bval">152</div></div>
+    <div class="bar-row"><div class="blab">FY26</div><div class="track"><span class="fill om" style="width:84%"></span></div><div class="bval">168</div></div>
+    <div class="bar-row"><div class="blab">FY27e</div><div class="track"><span class="fill gold" style="width:91%"></span></div><div class="bval">182</div></div>
+    <div class="bar-row"><div class="blab">FY28e</div><div class="track"><span class="fill gold" style="width:97.5%"></span></div><div class="bval">195</div></div>
+  </div>
+</div>
+
+<h3>Driver 2: autos, renewables and batteries</h3>
+<p>Only about 20–25% of Indian vehicles use galvanised body steel, against 90–95% globally, according to the International Zinc Association. Export-grade platforms and longer corrosion warranties are pushing that share up, and each step adds zinc demand. Solar mounting structures and wind towers are galvanised; transmission lines for renewable power need galvanised towers. Lead goes overwhelmingly (80–85%) into lead-acid batteries for vehicle starting, inverters, telecom towers and e-rickshaws. Silver's demand has shifted toward industry: industrial uses were 58% of global silver demand in 2025, up from 46% in 2022, with photovoltaics alone about 17%, according to the World Silver Survey 2026 as cited by HZL.</p>
+
+<h3>Driver 3: per-capita catch-up</h3>
+<p>On one consistent refined-metal basis, world zinc use is about 1.7 kg per person (14.0 Mt across about 8.2 billion people) and India's about 0.7 kg (about 1.0 Mt across 1.45 billion); on primary metal alone India is nearer 0.55 kg (indicative). Figures of 3–4 kg sometimes quoted are developed-economy levels, not the world average. If India merely reached the world average, its demand would more than double, which is consistent with the International Zinc Association's view that Indian demand could exceed 2 Mt within about ten years.</p>
+
+<div class="chart">
+  <div class="c-title">India's primary zinc consumption is growing about 7.5% a year</div>
+  <div class="c-sub">Apparent primary zinc consumption, kt. FY21–FY22 Indian Bureau of Mines; FY25–FY26 = HZL domestic sales + ingot imports (INDICATIVE); FY30 = FY26 grown at 7.5% (ILLUSTRATIVE). Full bar = 1,100 kt</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">FY21</div><div class="track"><span class="fill wtg" style="width:47.2%"></span></div><div class="bval">519</div></div>
+    <div class="bar-row"><div class="blab">FY22</div><div class="track"><span class="fill wtg" style="width:54.1%"></span></div><div class="bval">595</div></div>
+    <div class="bar-row"><div class="blab">FY25<small>indicative</small></div><div class="track"><span class="fill wtg" style="width:73.6%"></span></div><div class="bval">~810</div></div>
+    <div class="bar-row"><div class="blab">FY26<small>indicative</small></div><div class="track"><span class="fill wtg" style="width:72.3%"></span></div><div class="bval">~795</div></div>
+    <div class="bar-row"><div class="blab">FY30<small>illustrative</small></div><div class="track"><span class="fill gold" style="width:96.4%"></span></div><div class="bval">~1,060</div></div>
+  </div>
+  <div class="legend"><span>At ~1.06 Mt, Indian primary demand would absorb Debari's extra 250 ktpa and displace most imports.</span></div>
+</div>
+
+<div class="chart">
+  <div class="c-title">Zinc use per person: India against the world</div>
+  <div class="c-sub">kg per capita, one refined-metal basis (INDICATIVE arithmetic: ILZSG 2026 demand ÷ population; India total and primary-only estimates)</div>
+  <div class="bars">
+    <div class="bar-row"><div class="blab">World average</div><div class="track"><span class="fill brand" style="width:100%"></span></div><div class="bval">~1.7</div></div>
+    <div class="bar-row"><div class="blab">India, all zinc</div><div class="track"><span class="fill gold" style="width:41.2%"></span></div><div class="bval">~0.7</div></div>
+    <div class="bar-row"><div class="blab">India, primary only</div><div class="track"><span class="fill gold" style="width:32.4%"></span></div><div class="bval">~0.55</div></div>
+  </div>
+</div>
+
+<h3>The catch: India's demand does not set the price</h3>
+<p>The tension in this force is simple. Indian zinc demand is among the fastest-growing anywhere, but India is only 7–8% of the world market, and price is set on the LME by the global balance, in which China accounts for about half of both demand and refined output. Chinese property construction is the largest single swing factor in world zinc demand. When the LME rallied in 2026, China flipped to exporting refined zinc, which capped the squeeze. ILZSG now expects a small 25 kt surplus in 2027, as mine supply recovers. India's growth therefore supports HZL's volumes, its domestic premium of 5–8% over LME and its ability to sell more at home rather than export, but not the LME price itself.</p>
+<p>There is a quieter consequence. HZL exports about 30% of its zinc because domestic demand is still smaller than its output. India also imported about 195–207 kt of zinc ingot a year in FY25–FY26, around 70% of it from Korea under the India–Korea trade agreement, plus about 82 kt of zinc scrap in FY25. As Debari adds 250 ktpa from Q2 FY29, HZL will need either faster Indian growth or more exports. At 7.5% a year, domestic primary demand reaches about 1.06 Mt by FY30 (illustrative), enough to absorb Debari and displace most imports. Slower growth would push more metal into export markets, where it earns the LME price without the Indian premium.</p>
+
+<div class="plain">
+  <div class="ptag">In plain terms</div>
+  <p>Every new roof, tower, highway barrier and solar frame in India needs zinc, and India is building a lot of them. That lets HZL sell most of its zinc at home at a little above the world price. But the world price itself is decided by China and by how much new mine supply arrives elsewhere, and the forecasters expect the world market to slip into a small surplus in 2027.</p>
+</div>
+
+<p>Lead and silver demand follow their own logic. Lead faces slow substitution by lithium-ion batteries in two- and three-wheelers, telecom backup and storage, and the world lead market is in surplus (ILZSG sees 163 kt in 2027), so the lead price has been flat at about $1,850–2,000 a tonne. Silver demand is torn between a strong industrial thesis, solar panels and electronics in a sixth straight annual market deficit (about 1.44 kt in 2026 on the figure cited by HZL), and the risk that the 2025–26 price spike accelerates "thrifting", the solar industry's steady reduction of silver per watt. Section 08 deals with silver in full.</p>
+</section>
+
+<!--CONTINUE-->
+
+</main>
+</div>
+</div>
+</body>
+</html>
