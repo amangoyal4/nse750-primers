@@ -26,3 +26,14 @@
 - **ptc-india.html — West Asia/scarcity context missing:** record peak 270.8 GW (21-May-2026) and 269 GW (10-Sep-2026); IEX DAM ₹7.30 (Sep-2026) and ₹6.66 (Oct-2026, +149%); ₹10 cap binding; gas power "almost ₹30/unit" RTC (MD, Nov-2026). For a trader, scarcity raises traded value but not the capped per-unit fee.
 - **ptc-india.html — sources list:** "CERC … indicative caps ~7 and ~4 paise/unit" — replace with "CERC (Procedure, Terms and Conditions for grant of Trading Licence) Regulations 2020: 0–7 paise/kWh; CERC Report on Short-term Power Market in India 2024-25; CERC monthly market monitoring report Mar-2026".
 
+
+### Corrections from the deep-research pass (Part 4 Supersedes, 2026-11-14) — these override the bullets above
+- **₹718 Cr (S2):** not unexplained — it is FY25 operational income ₹450.37 Cr + net surcharge ₹267.69 Cr. Re-label it ("operational income incl. net surcharge"); do not delete. FY26 on that basis ≈ ₹557 Cr; operational income alone ₹450.37 Cr (FY25) / ₹452.57 Cr (FY26).
+- **Dividend (S3/S4):** FY26 DPS = **₹8.50** (₹3 interim + ₹5.50 final, record date 7-Oct-2026), not the derived ₹8.6; special ₹23/share declared by the 4-Aug-2026 board, outflow ₹680.82 Cr.
+- **Adani (S6):** the "remove Adani" bullet is reversed — **Powerpulse Trading Solutions is an Adani Energy Solutions subsidiary** (took over Adani Enterprises' trading licence; CERC 476/MP/2024). Adani is the #2 trader (21.19% in Mar-2026). The primer's competitor table should show Adani via Powerpulse.
+- **Volumes (S5):** FY22 87,515 MU, FY23 70,610 MU, FY24 74,841 MU (AR23–AR25).
+- **Exchange share (S11):** 56.3% of PTC volume in FY26; ~60% in H1 FY27.
+- **Cross-border (S12):** FY26 was a record 11,314 MU (+37%); the decline is an FY27 phenomenon — the primer's "both levers point up" was right for FY26 and wrong for FY27.
+- **HPX (S15):** stake 22.62% (not 22.5%).
+- **Opex (S8):** FY26 standalone opex ≈ ₹192 Cr consumes ~62% of the trading margin; rebate ₹97.48 Cr, consultancy ₹44.57 Cr, net surcharge ₹104.47 Cr, bank interest ₹159.46 Cr.
+- **Chairman (S17):** after Articles 113/129/133 failed, Dr Jhawar became MD & CEO (13-Apr-2026) and independent director Sukhdev Singh became chairman (15-May-2026).

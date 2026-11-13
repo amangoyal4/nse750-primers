@@ -1006,3 +1006,432 @@ Notes: PTC's OPM is a meaningless ratio of margin to pass-through revenue (trap 
 - **Trading-margin 2020 regulations (draft/explanatory):** https://cercind.gov.in/2020/draft_reg/Explanatory%20Memorandum2020%20(First%20Amendment).pdf (not opened; CERC FY25 report Ch II §6 used instead)
 - **Sibling library reports (reused facts):** `subsectors/exchanges.html` (IEX volumes, fee cap, price caps, coupling timeline, DAM prices); `subsectors/power-generation.html` (peak 270.8 GW, FY26 generation estimate, LPS mechanics, storage tenders); `subsectors/power-transmission.html` and `integrated-power.html` (peak demand series, West Asia, AESL supply volumes).
 - **Primer:** `primers/ptc-india.html`.
+
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (13/14-Nov-2026, second pass, primary sources)
+
+Compiled 13-Nov-2026 (`date -u` = Fri 13-Nov-2026 22:52 UTC) by the deep-research pass. **Part 4 overrides Parts 1–3 wherever they conflict** (see 4.0). Everything tagged **[V]** below was fetched and read this session from the named primary document (PDFs downloaded and text-extracted; page/note numbers given). **[V-sec]** = verified from two or more independent secondary reports quoting the primary (not the primary itself). **[V-snip]**, **[K]** and **[E]** keep their Part-1 meanings.
+
+**Primary documents read this session (source keys used throughout Part 4):**
+
+| Key | Document | URL |
+|---|---|---|
+| AR26 | PTC India Annual Report FY2025-26 (211 pp., filed 2-Sep-2026; AGM 30-Sep-2026) | https://www.bseindia.com/xml-data/corpfiling/AttachHis/08b477e2-8d69-418b-b67d-65adecc51f1a.pdf |
+| AR25 | PTC Annual Report FY2024-25 | https://www.bseindia.com/xml-data/corpfiling/AttachHis/2f7dd5e6-1b7f-4bd4-8dae-84b3bb869e7f.pdf |
+| AR24 | PTC Annual Report FY2023-24 | https://www.bseindia.com/xml-data/corpfiling/AttachHis/a4ddfd70-7a42-4797-b38a-8fba190f8a82.pdf |
+| AR23 | PTC Annual Report FY2022-23 | https://www.bseindia.com/xml-data/corpfiling/AttachHis/e762d88b-d739-4527-9362-ceb437ecc4fc.pdf |
+| D-Q2FY27 | PTC investor presentation Q2 FY27 (2-Nov-2026) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=343230e5-7625-445d-aedf-f9af7315156f.pdf |
+| T-Q2FY27 | PTC Q2 FY27 call transcript (call 3-Nov-2026) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=450b3098-9297-4875-a788-f7e04b7080dd.pdf |
+| PR-Q2FY27 | PTC Q2 FY27 press release (2-Nov-2026) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0efb4f7b-88be-49e0-8955-5ad00b7f613a.pdf |
+| D-Q1FY27 | PTC investor presentation Q1 FY27 (Aug-2026; has FY25 vs FY26 slide) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc9e44b1-e30b-453a-931f-361dbb5ec843.pdf |
+| D-Q4FY26 | PTC investor presentation Q4 & FY26 (May-2026) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ca78f46-c238-4bf4-962e-dc3326f06034.pdf |
+| T-Q4FY26 | PTC Q4 FY26 call transcript (May-2026) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11989a4b-3aa4-4404-9d88-6d658af434b4.pdf |
+| D-Q3FY26 | PTC investor presentation Q3 FY26 (Feb-2026) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7eb4830c-f057-4faa-ba42-946ea489cced.pdf |
+| D-Q3FY25 | PTC investor presentation Q3 FY25 (Feb-2025) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6459cf09-a884-4be7-bb88-be3fc518c7dc.pdf |
+| D-Q4FY25 | PTC investor presentation Q4 FY25 (Jun-2025) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=465d7a9e-9b48-4b64-a8c7-9bf2a62aca3b.pdf |
+| ICRA-PTC | ICRA rationale, PTC India, 16-Sep-2026 | https://www.icra.in/Rating/GetRationalReportFilePdf?id=145619 |
+| PB-NOTICE | PTC postal ballot notice (NSE, 18-Feb-2026) | https://nsearchives.nseindia.com/corporate/PTC_18022026154607_intimationofpostalballotnotice.pdf |
+| PFS-PR | PFS Q2 FY27 press release (27-Oct-2026) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bbee5ba-89a7-4466-a77c-0bc18bd37093.pdf |
+| PFS-D | PFS Q2 FY27 investor presentation | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e63c8cce-9859-4f8f-be83-ab3fa856b461.pdf |
+| PFS-T | PFS Q2 FY27 call transcript (28-Oct-2026) | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04957a3d-9a9f-4233-b7e7-602c88af3c22.pdf |
+| CERC-MAR26 | CERC monthly short-term market report, March 2026 | https://cercind.gov.in/2026/market_monitoring/MMC%20Report%20on%20Short%20term%20market%20for%20March%202026.pdf |
+| CERC-IDX | CERC market-monitoring index 2026 (still lists only Jan–Mar 2026 on 13-Nov-2026) | https://cercind.gov.in/report_MM-2026.html |
+| CERC-REGS | CERC "current regulations" page (no 2026 Power Market amendment listed) | https://cercind.gov.in/Current_reg.html |
+| CERC-EM | CERC Explanatory Memorandum, Trading Licence Regulations 2020 (First Amendment) | https://cercind.gov.in/2020/draft_reg/Explanatory%20Memorandum2020%20(First%20Amendment).pdf |
+| CERC-RP27 | CERC record of proceedings, Petition 27/RP/2020 (28-Jun-2021) quoting Reg 8(d) proviso and 8(f) | https://cercind.gov.in/2021/ROP/27-RP-2020_280621.pdf |
+| CERC-TD170 | CERC order 170/TD/2024 (net-worth table 2009 vs 2020 regs; licence-fee volume bands) | https://cercind.gov.in/2024/orders/170-TD-2024.pdf |
+| CERC-MP476 | CERC order 476/MP/2024 (25-Nov-2024): Adani Energy Solutions Step-Thirteen renamed Powerpulse Trading Solutions | https://cercind.gov.in/2024/orders/476-MP-2024-F.pdf |
+| CERC-PN13 | CERC public notice 28-Oct-2026, Petition 13/SM/2026 (pumped storage in HP-DAM) | https://cercind.gov.in/2026/draft_reg/PN13-SM-2026-281026.pdf |
+| CARE-MPL | CARE Ratings press release, Manikaran Power, Mar-2025 | https://www.careratings.com/upload/CompanyFiles/PR/202503130346_Manikaran_Power_Limited.pdf |
+| SCR | screener.in PTC standalone + consolidated pages (fetched 13-Nov-2026, 22:54 UTC) | https://www.screener.in/company/PTC/ · https://www.screener.in/company/PTC/consolidated/ |
+
+Not reachable / not attempted: BSE `api.bseindia.com` announcement API returned "Access Denied" (Akamai); MoP "power sector at a glance" PDF returned 403; MCA not used (login). No login, form or personal identifier was used anywhere; all requests used a generic `Mozilla/5.0` UA.
+
+---
+
+## 4.0 SUPERSEDES — corrections to Parts 1–3 (writer: apply these; Part 4 wins)
+
+| # | Where in Parts 1–3 | Old figure / statement | **New figure / statement** | Source |
+|---|---|---|---|---|
+| S1 | Trap 1; §9.2; JSON; 2.6 #1 | FY25 vs FY26 operational income "450.37 / 452.57 … label order suggests…" [E reading] | **FY25 = ₹450.37 Cr; FY26 = ₹452.57 Cr — confirmed.** Reconciles exactly from the audited P&L: (sale of electricity − purchases) + agency-nature net + consultancy. FY26: (16,178.38 − 15,803.65) + 33.27 + 44.57 = 452.57; FY25: (14,967.95 − 14,599.50) + 31.57 + 50.35 = 450.37. Deck slides label FY24-25 450.37 / FY25-26 452.57 | AR26 notes 27, 29, 48 (pp. 110, 128) [V]; D-Q4FY26 p.16 [V] |
+| S2 | §3.3; §3.4 primer issue "₹718 Cr cannot be reconciled — remove it" | primer's "standalone operating income ~₹718 Cr FY25 (+17%)" unexplained | **₹718 Cr = FY25 operational income ₹450.37 Cr + FY25 net surcharge ₹267.69 Cr (= ₹718.06 Cr).** It is a definition (operational income *including* net late-payment surcharge), not an error. FY26 on the same definition = 452.57 + 104.47 = **₹557.04 Cr (−22%)**. Primer fix = re-label and update, not delete | AR26 notes 28, 32, 49(f) [V]; ICRA-PTC p.1–2 ("surcharge income declined to ₹104.5 Cr in FY2026 from ₹267.7 Cr") [V] |
+| S3 | Trap 2; §2.1(h); §2.6 #9; JSON `dps_fy26_est` | FY26 recurring DPS ≈ ₹8.6 [E, from payout] | **FY26 DPS = ₹8.50** = interim ₹3.00 (board 14-Feb-2026; cash ₹88.80 Cr; paid) + final ₹5.50 (recommended; ₹162.80 Cr; **record date Wed 7-Oct-2026**; AGM 30-Sep-2026). Recurring yield at ₹139 = **6.1%** | AR26 Directors' Report "Dividend" + AGM notice item 3 [V]; D-Q4FY26 p.8 [V] |
+| S4 | Header item 4; trap 2 | ₹23 special "declared the day before the analyst call", "≈₹681 Cr [E]" | **Board 4-Aug-2026 declared ₹23/share interim for FY27 "out of the surplus in the profit and loss account"; cash outflow ₹680.82 Cr.** Record date of the ₹23 was **not found** in any document read (gap G-4) | AR26 "Material changes and commitments" (p.12) [V] |
+| S5 | §2.1(c); §H #3; 2.6 #8 | FY22/FY23 volume "~78–80 BU [K, unverified]"; FY24 74.84 BU [primer] | **FY22 87,515 MU; FY23 70,610 MU (−19%, "ceding low-margin power exchange volumes to avoid negative impact on cost of funds"); FY24 74,841 MU; FY25 82,751; FY26 92,802.** Full mix in 4.2.3 | AR23 p.14 & MD&A; AR24 DR; AR25 DR; AR26 DR p.17 [V] |
+| S6 | §5.1 note "Adani absent"; §H #7, #17; 2.4 "Powerpulse ownership n/a (FLAG)"; primer issue "remove Adani" | "Adani Enterprises does not appear… do not list Adani as a top trader"; Powerpulse ownership unknown | **Powerpulse Trading Solutions Ltd IS the Adani group's trading licensee**: formerly *Adani Energy Solutions Step-Thirteen Ltd* (renamed w.e.f. 4-Sep-2024); CERC gave in-principle approval on 3-Oct-2024 (173/MP/2024) to transfer Adani Enterprises' inter-state trading licence (originally granted to Adani Export on 9-Jun-2004) to it, and recorded the name change on 25-Nov-2024. It is a wholly owned subsidiary of **Adani Energy Solutions (AESL)** [V-snip Renewable Watch]. So the **#2 trader in Mar-2026 (21.19%) and #3 in FY25 (17.13%) is Adani**. The library's AESL "Energy Solutions Platform" volume (25,333 MU H1 FY27) is very likely Powerpulse's traded volume — writer should say "Adani (via Powerpulse)" | CERC-MP476 [V]; renewablewatch.in tag page [V-snip] |
+| S7 | §C.1; §4.2 table | FY26 net surcharge "~₹110–130 Cr [E]"; treasury "~₹150–170 Cr [E]" | **Net surcharge FY26 ₹104.47 Cr** (gross surcharge in other income ₹181.03 Cr − surcharge expense in finance cost ₹76.56 Cr); FY25 ₹267.69 Cr (561.17 − 293.48). **Bank-deposit interest FY26 ₹159.46 Cr** (FY25 ₹17.84 Cr) + income-tax-refund interest ₹8.08 Cr; total other income ₹363.60 Cr (₹594.65 Cr) | AR26 notes 28, 32, 49(f)(iii) [V] |
+| S8 | §4.2; §C.1 | FY26 net rebate "~₹100 Cr [E]"; consultancy "~₹43 Cr [E]"; opex "~₹45–55 Cr [E]" | **Net rebate FY26 ₹97.48 Cr** (FY25 ₹120.83 Cr) [E-derived: operational income − trading margin − consultancy; management confirms "rebate… gone down from 121 crore to 97 crore"]; **consultancy ₹44.57 Cr** (FY25 ₹50.35 Cr) [V]; **opex: employee ₹67.39 Cr + other expenses ₹118.12 Cr** (incl. litigation provision ₹40.12 Cr, ECL ₹18.82 Cr, CSR ₹9.90 Cr, advisors ₹10.15 Cr, bank charges ₹9.13 Cr) + consultancy-business costs ₹6.39 Cr ≈ **₹192 Cr total cash-ish opex** — 3.5× the Part-1 estimate | AR26 notes 30, 31, 33 [V]; T-Q4FY26 [V] |
+| S9 | §4.2 "Where ₹100 goes"; trap 1 | "Revenue is ~98% pass-through" on ₹16,256 Cr | Still true of *reported* revenue, but **reported revenue excludes ₹20,448.79 Cr of exchange trades PTC executes "as agent"** (netted to ₹33.27 Cr). Gross value handled FY26 ≈ ₹36,672 Cr (principal sales 16,178 + agency gross 20,449 + consultancy 45). ICRA's "operating income" of **₹36,852.8 Cr** = that + surcharge ₹181 Cr. **Never mix ICRA's OI with screener revenue** | AR26 note 27, 48 [V]; ICRA-PTC "Key financial indicators" [V] |
+| S10 | §9.1; story bullet 2 | "Long-term back-to-back PPAs earn ~two-thirds of margin on ~25% of volume [E]" | **FY26 (ICRA): LT + MT + cross-border = ~38% of volume and ~84% of trading margin; short-term (incl. exchange) = ~62% of volume, ~16% of margin.** Implied FY26 margins ≈ 7.5 p (LT/MT/CB) vs ≈ 0.86 p (ST) [E: 0.84×310.52/34.83 BU; 0.16×310.52/57.97 BU] | ICRA-PTC p.1–2 [V]; AR26 DR volumes [V] |
+| S11 | §2.1(f) "Mix: ~60% exchange" | "~60% of PTC's volume is exchange-traded" applied to FY26 | **FY26 exchange share = 56.3%** (52,224 / 92,802 MU; deck "56%"); 60% is H1 FY27. FY22 51.0%, FY23 41.8%, FY24 49.9%, FY25 51.8% | AR23–AR26; D-Q4FY26 p.8; T-Q2FY27 [V] |
+| S12 | B3; primer issue "cross-border outlook too rosy"; §11 #7 | Cross-border shrinking (Bhutan imports down) | **FY26 was PTC's best cross-border year: 11,314 MU (+37% vs 8,262)** — Bhutan trade 8,670 MU (6,178), incl. 1,939 MU *exported to* Bhutan in dry months (1,098) and 218 MU of Bhutanese power sold on IEX; Nepal 1,048 MU (485); Bangladesh 1,596 MU (1,600). The fall is **FY27-specific** (Q1 FY27 CB imports 497 vs 1,657 MU; Q2 "significant dip… higher domestic requirement in Bhutan"). Note the AR's MD&A says "9,718 MU" = the same total **excluding Bangladesh** | AR26 DR p.17 & MD&A p.50 [V]; D-Q1FY27; PR-Q2FY27 [V] |
+| S13 | §7.3; §H #9 | Licence net worth "Cat I ≥ ₹50 Cr; Cat V ≈ ₹1 Cr for ≤500 MU [K, unverified]" | **2020 regs: Cat I ₹50 Cr (no volume limit); Cat II ₹35 Cr (≤7,000 MU/yr); Cat III ₹20 Cr (≤4,000 MU); Cat IV ₹10 Cr (≤2,000 MU); Cat V ₹2 Cr (≤500 MU).** (2009 regs: ₹50/15/5/1 Cr.) Annual licence fee ₹40/15/6/3/2 lakh. PTC (and Manikaran) hold Category I | CERC-TD170 pp.7–8 [V]; ICRA-PTC; CARE-MPL [V] |
+| S14 | §7.2; trap 4; §H #10 | 2 p back-to-back cap [V-snip] | **[V]: Reg 8(f) — trading margin "cannot exceed 2 paise per unit for back to back contracts"; proviso to Reg 8(d) — where the trader does not provide the seller an escrow or irrevocable revolving LC under Reg 9(10), margin ≤ 2 p.** Reg 8(1)(e) banking: cumulative 0–7 p; the 2020 first amendment proposed (and CERC monthly reports still cite) "not less than 0 from either party". Reg 9(10) LC sizes: 1.1× average monthly bill (long-term), 1.05× contract value (short-term). No 2024–26 amendment to the 0–7 p band found; CERC's Mar-2026 report still cites "not less than 0 paise/kWh and up to 7 paise/kWh" | CERC-RP27; CERC-EM; CERC-MAR26 §4 [V] |
+| S15 | §2.5; §5.2; primer issue | HPX stake "22.5%" | **22.62% per AOC-1** (12.50 crore shares, ₹12.50 Cr invested); attributable net worth ₹16.26 Cr (⇒ HPX net worth ≈ ₹72 Cr [E]); PTC's share of HPX FY26 profit **₹1.04 Cr** (⇒ HPX PAT ≈ ₹4.6 Cr [E]); HPX had 709 active members. "22.5%" (management, rounded) is fine in prose | AR26 Form AOC-1 Part B; MD&A [V] |
+| S16 | §2.1(f) Teesta; §12 watch-list | Teesta-III "Teesta Urja"; cofferdam power ~Dec-2026 | **Teesta Urja is now Sikkim Urja Ltd; Sikkim Power Investment Corp's 60.08% was transferred to Greenko in FY25.** PTC holds 18.0 crore shares (cost ₹180.30 Cr) carried at FVOCI **₹93.45 Cr** (written down from ₹221.10 Cr after the 4-Oct-2023 GLOF). Cofferdam timing: May-2026 call said "September or October [2026]", full dam "by 29"; Aug-2026 call said ~Dec-2026 — i.e. slipping | AR26 note 6(a) [V]; T-Q4FY26 [V] |
+| S17 | Header item 1; §2.1(g); primer issue | "Which articles failed… likely NTPC nomination/chair rights — FLAG"; CMD | **Failed (special resolutions, ~55.9% for): Art 113** (would have replaced "one nominee each from POWERGRID, NTPC, PFC, NHPC" with "at least one NTPC nominee" and given **NTPC the right to appoint its CMD as Non-Executive Chairman of PTC**); **Art 129** (appointment of Chairman/MD/WTD to need only NTPC CMD's consent instead of the four PSU CMDs'); **Art 133** (board quorum to need one NTPC nominee instead of two "Party" nominees). **Passed: 1 (Promoters definition), 3 (Art 117), 6 (Art 178), 7 (CMD designation/terms)** — 4 of 7. Consequence: Dr Jhawar re-designated **MD & CEO w.e.f. 13-Apr-2026**; independent director **Sukhdev Singh appointed Non-Executive Chairman w.e.f. 15-May-2026** (not an NTPC nominee). NHPC nominee Rajneesh Agarwal ceased 2-Mar-2026 | PB-NOTICE [V]; AR26 DR "Directors" [V]; results [V-snip scanx/whalesbook] |
+| S18 | §2.1(g) | Promoters "~4.05% each [K]" | **4.0539% each = 16.2156% at 31-Mar-2026** (AR still lists NHPC as promoter); screener 16.22% unchanged every quarter Mar-24 → Sep-26, i.e. **no reclassification of PFC/POWERGRID/NHPC reflected by Sep-2026**. Earlier decks' "5 PSUs hold 19.58%" = the four + 3.38% "Government" (President of India) | AR26 "Changes in capital structure" [V]; SCR shareholding [V]; D-Q4FY26 p.4 [V] |
+| S19 | §4.3; 2.6 #2; §2.1(c) | Cash "₹2,451 Cr (30-Jun) / ₹2,431 Cr (30-Sep)" | Add: **31-Mar-2026 cash ₹214.04 Cr + other bank balances ₹2,664.93 Cr = ₹2,879 Cr**; ICRA: cash & liquid investments **₹2,246.72 Cr on 19-Aug-2026**; company ₹2,431 Cr on 30-Sep-2026. Sequence consistent with the ₹680.82 Cr special payout in Aug-2026 then Q2 collections | AR26 note 43 credit-risk table [V]; ICRA-PTC [V]; T-Q2FY27 [V] |
+| S20 | §2.1(c) debtors | Debtors ₹4,469 Cr (30-Jun-2026) only | **31-Mar-2026 gross trade receivables ₹4,471.56 Cr, allowance ₹91.83 Cr, net ₹4,379.73 Cr (FY25 net ₹4,761.52 Cr). Disputed receivables ₹1,105.16 Cr (₹1,054.61 Cr considered good + ₹50.55 Cr credit-impaired); receivables > 3 years ₹733.31 Cr** (of which disputed-good ₹673.80 Cr). Company/ICRA debtor days 44 (FY26) / 51 (FY25) / 81 (FY21) | AR26 note 43(iii) [V]; ICRA-PTC [V] |
+| S21 | §9.4 and stat strip context | Industry FY26 gen "~1,840 BU [V-sib estimate]" | **1,840.11 BU (FY26) vs 1,829.70 BU (FY25), +0.6%**; RE 477.78 BU (25.96%), solar 174.76 BU — MNRE data in Parliament as reported by two outlets. PTC FY26 = **5.04% of national generation** | energetica-india (5-Aug-2026), IBEF May-2026 [V-sec] |
+| S22 | §2.2 PFS (a) driver note | "a ₹51 Cr provision in Q2 FY27 (Kundli Manesar)" | PTC's CFO: PFS took an **impairment of ₹51 Cr** in Q2 FY27 (vs ₹57 Cr reversal Q2 FY26). PFS's CFO: **Kundli Manesar slipped to NPA — EAD ₹124 Cr, provision ₹19 Cr this quarter**; Danu Wind technically written off (75% provided earlier); Varam Bio fully provided. Write "₹51 Cr impairment charge, of which ₹19 Cr on the newly-NPA Kundli Manesar loan" | T-Q2FY27; PFS-T [V] |
+| S23 | §12; §7.6 | Coupling "not yet notified [V-snip]" | **Confirmed not notified**: CERC's current-regulations page (13-Nov-2026) lists no Power Market (Second Amendment) Regulations 2026; PTC MD on 3-Nov-2026: "still awaiting regulatory directives". New: **CERC suo-motu Petition 13/SM/2026 (order 28-Oct-2026) proposes adding pumped-storage plants to HP-DAM eligibility; public hearing 19-Nov-2026** | CERC-REGS; CERC-PN13; T-Q2FY27 [V] |
+| S24 | §5.1 licensee count | "about 80 licensees, ~40 active"; PTC "over 70" | Add a third company figure: AR26 MD&A says "**more than 60** licensed electricity traders". CERC Mar-2026: 81 licensees, 41 active [V]. Keep "about 80 licensed, about 40 active" | AR26 MD&A p.51; CERC-MAR26 §2.4 [V] |
+| S25 | §2.1(b) consolidated PAT | Attributable FY26 PAT "≈ ₹605 Cr [E]" | **₹605.63 Cr FY26; ₹900.25 Cr FY25** (incl. ₹241.72 Cr post-tax PEL gain at consolidated level) — after minority interest | AR26 DR "Results of operations" [V] |
+| S26 | §2.1(f) portfolio | ">7,500 MW operating LT & MT" only | Three bases: deck ">7,500 MW operating LT & MT"; AR "around 7.5 GW" long-term PPAs; **ICRA "contracted portfolio of 9,328 MW, including long-term, medium-term and cross-border"**, plus **~1,200 MW of PPAs not yet tied up with buyers** (open position — the NTPC REL solar) | D-Q2FY27 p.12; AR26 DR; ICRA-PTC [V] |
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Fetched?" = **Y-P** fetched this session from the primary document (URL = key in the source table above); **Y-S** fetched this session but from secondary reports quoting the primary; **N** = not re-fetched (sibling/earlier). "Agrees?" compares with Parts 1–3.
+
+| # | Figure | Value | Source (key → URL above; page/note) | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | PTC FY26 trading volume | 92,802 MU (+12.15%) | AR26 DR p.17; D-Q4FY26 p.15 | Y-P | Yes |
+| 2 | PTC FY25 trading volume | 82,751 MU | AR25 DR; AR26 DR | Y-P | Yes |
+| 3 | PTC FY22 / FY23 / FY24 volume | 87,515 / 70,610 / 74,841 MU | AR23 p.14; AR24 DR; AR25 DR | Y-P | **No** — Part 2 had "~78–80 BU [K]" for FY22–23 (S5) |
+| 4 | FY26 exchange volume / ST bilateral / LT+MT | 52,224 / 5,744 / 34,834 MU | AR26 DR p.17; D-Q4FY26 p.15 | Y-P | New |
+| 5 | FY26 exchange share of PTC volume | 56.3% (deck "56%") | AR26; D-Q4FY26 p.8 | Y-P | Refines "~60%" (S11) |
+| 6 | FY26 trading margin | ₹310.52 Cr (3.35 p) | D-Q1FY27 p.7; D-Q4FY26 p.16; ICRA-PTC ("~3.35 paise") | Y-P (two docs) | Yes |
+| 7 | FY25 / FY26 operational income | ₹450.37 / ₹452.57 Cr | D-Q4FY26 p.16; AR26 notes 27/29 reconciliation | Y-P | Yes; labels now certain (S1) |
+| 8 | FY26 net surcharge (FY25) | ₹104.47 Cr (₹267.69 Cr) | AR26 notes 28/32/49(f); ICRA-PTC "₹104.5 Cr… ₹267.7 Cr" | Y-P (two docs) | **No** — Part 1 estimated ₹110–130 Cr (S7) |
+| 9 | FY26 net rebate (FY25) | ₹97.48 Cr (₹120.83 Cr) | derived from AR26 + D-Q4FY26; T-Q4FY26 "121 crore to 97 crore" | Y-P | Yes vs E ~₹97 Cr |
+| 10 | FY26 consultancy income | ₹44.57 Cr (₹50.35 Cr) | AR26 note 27 | Y-P | New (Part 2 "n/a") |
+| 11 | FY26 standalone PAT | ₹397.04 Cr (FY25 ₹854.78 Cr incl. ₹457.39 Cr PEL) | AR26 DR; D-Q4FY26 | Y-P | Yes |
+| 12 | FY26 standalone revenue from operations | ₹16,256.22 Cr (₹15,049.87 Cr) | AR26 note 27/48 | Y-P | Yes (screener 16,256) |
+| 13 | Agency-nature exchange sales netted out of revenue | ₹20,448.79 Cr gross → ₹33.27 Cr net | AR26 note 27 | Y-P | New (S9) |
+| 14 | FY26 consolidated attributable PAT | ₹605.63 Cr (₹900.25 Cr) | AR26 DR | Y-P | Yes vs E ₹605 Cr |
+| 15 | FY26 DPS | ₹8.50 (₹3 interim + ₹5.50 final; record date 7-Oct-2026) | AR26 DR + AGM notice; D-Q4FY26 p.8 | Y-P | **No** — Part 2 ₹8.6 [E] (S3) |
+| 16 | Special dividend | ₹23/share, board 4-Aug-2026, outflow ₹680.82 Cr | AR26 p.12 | Y-P | Yes (₹681 Cr E) |
+| 17 | Q2 FY27 volume | 32,463 MU (+24%) | D-Q2FY27 p.4; PR-Q2FY27 | Y-P | Yes |
+| 18 | Q2 FY27 trading margin & blend | ₹93.88 Cr; 2.89 p | D-Q2FY27 p.4; T-Q2FY27 | Y-P | Yes |
+| 19 | Q2 FY27 segment margins | ST 0.69 / MT 3.17 / CB 6.98 / LT 7.98 p | T-Q2FY27 (CFO) | Y-P | Yes |
+| 20 | Q2 FY27 standalone / consolidated PAT | ₹113.23 / ₹159.10 Cr | PR-Q2FY27 | Y-P | Yes |
+| 21 | H1 FY27 net surcharge (H1 FY26) | ₹28.96 Cr (₹80.26 Cr) | D-Q2FY27 p.7 | Y-P | Yes |
+| 22 | Cash 30-Sep-2026 / 19-Aug-2026 / 31-Mar-2026 | ₹2,431 / ₹2,246.72 / ₹2,879 Cr | T-Q2FY27; ICRA-PTC; AR26 note 43 | Y-P | Extends (S19) |
+| 23 | Trade receivables 31-Mar-2026 | gross ₹4,471.56 Cr; net ₹4,379.73 Cr; >3 yrs ₹733.31 Cr | AR26 note 43(iii), note 48 | Y-P | New (S20) |
+| 24 | Debtor days (company/ICRA basis) | 44 (FY26), 51 (FY25), 81 (FY21) | ICRA-PTC | Y-P | Yes (was V-snip) |
+| 25 | LT+MT+CB share of volume / margin, FY26 | ~38% / ~84% | ICRA-PTC | Y-P | **No** — replaces E (S10) |
+| 26 | Contracted portfolio | 9,328 MW (LT+MT+CB); ~1,200 MW untied | ICRA-PTC | Y-P | New (S26) |
+| 27 | ICRA rating | [ICRA]AA (Stable); A1+; rated ₹6,800 Cr | ICRA-PTC (16-Sep-2026) | Y-P | New |
+| 28 | FY26 cross-border volume | 11,314 MU (Bhutan 8,670; Nepal 1,048; Bangladesh 1,596) | AR26 DR p.17 | Y-P | **No** — Part 1 framed CB as shrinking (S12) |
+| 29 | Contingent liabilities 31-Mar-2026 | claims ₹505.62 Cr; income tax ₹79.77 Cr; customs ₹17.16 Cr; service tax ₹104.22 Cr | AR26 note 35 | Y-P | New |
+| 30 | HPX holding / PTC share of HPX profit | 22.62%; ₹1.04 Cr FY26 | AR26 AOC-1 | Y-P | Refines 22.5% (S15) |
+| 31 | Promoter holding | 4.0539% × 4 = 16.2156% (31-Mar-26); 16.22% Sep-26 | AR26; SCR | Y-P | Yes |
+| 32 | Postal-ballot items failed | Art 113, 129, 133 (NTPC nominee/chair/consent/quorum) | PB-NOTICE (texts) + results [V-snip] | Y-P (texts) | Fills FLAG (S17) |
+| 33 | CERC trading-margin band | 0–7 p/kWh (Reg 2020) | CERC-MAR26 §4; CERC-EM | Y-P | Yes |
+| 34 | Back-to-back / no-LC cap | ≤ 2 p (Reg 8(f); proviso 8(d)) | CERC-RP27 | Y-P | Yes (was V-snip) |
+| 35 | Licence net-worth thresholds | ₹50/35/20/10/2 Cr for Cat I–V; volumes no limit/7,000/4,000/2,000/500 MU | CERC-TD170 | Y-P | **No** — Part 1 [K] had Cat V ≈ ₹1 Cr (S13) |
+| 36 | Short-term share (CERC 2026 basis) | 17.71% of gen excl. RE & captive, Mar-2026 (PX 9.63, bilateral 5.69, DSM 2.39) | CERC-MAR26 §2.1 | Y-P | Yes |
+| 37 | Trader shares & HHI | PTC 31.16%, HHI 0.1777, 81 licensees/41 active (Mar-26) | CERC-MAR26 §2.4 | Y-P | Yes |
+| 38 | Powerpulse = Adani (AESL) | licence transferred from Adani Enterprises; renamed 4-Sep-2024 | CERC-MP476 | Y-P | **No** — reverses "Adani absent" (S6) |
+| 39 | PFS Q2 FY27 loan assets / GS3 / PAT / CRAR | ₹3,684 Cr; ₹126 Cr; ₹44.04 Cr; 70.99% | PFS-PR; PFS-D | Y-P | Yes |
+| 40 | FY26 all-India generation | 1,840.11 BU (+0.6%) | energetica 5-Aug-2026; IBEF May-2026 (MNRE Parliament data) | Y-S | Yes (was V-sib estimate) |
+| 41 | IEX Oct-2026 DAM / RTM price, volume | ₹6.66 (+149%) / ₹5.78 (+112%); 13,092 MU (+16.5%) | powerpeakdigest, investywise, solarquarter, mercom (all quoting IEX release) | Y-S | Yes |
+| 42 | Legacy discom dues (LPS) | ₹3,330 Cr on 27-Mar-2026 (₹1,39,947 Cr on 3-Jun-2022) | outlookbusiness/millenniumpost/angelone (MoP Parliament reply) | Y-S | Yes — no later official number found |
+
+**Score: 39 of the 42 rows (and 38 of the first 40) are [V] from primary documents fetched this session**; rows 40–42 are [V-sec]. Where two primaries exist (rows 6, 8, 22, 24–27) they agree to the rupee except the ICRA rounding (₹104.5 vs ₹104.47 Cr).
+
+**Conflicts found and resolved this pass**
+- Cross-border FY26 "11,314 MU" (Directors' Report) vs "9,718 MU" (MD&A) — the MD&A figure **excludes Bangladesh (1,596 MU)**; 11,314 − 1,596 = 9,718. Use 11,314 MU for PTC's total cross-border trade.
+- RECs FY26: AR "68.38 lakh" vs Q4 deck "68.30 lakh" — immaterial; use "about 68 lakh".
+- Licensees: AR "more than 60" vs management "more than 70" vs CERC 81 (41 active) — use CERC.
+- HPX stake 22.5% (management) vs 22.62% (AOC-1) — use 22.6% in tables, "about 22.5%" in prose.
+- Promoters "4 PSUs 16.20%" (Q1/Q2 FY27 decks) vs "5 PSUs 19.58%" (Q4 FY25/FY26 decks) — the latter adds the President of India's 3.38%.
+
+---
+
+## 4.2 Company packs (primary-source upgrade)
+
+### 4.2.1 PTC India — management-guidance digest (paraphrased; source and date on each line)
+
+**From the Q2 FY27 call (3-Nov-2026; T-Q2FY27) and press release (2-Nov-2026; PR-Q2FY27)**
+1. **No volume guidance.** Asked for Q3/FY27 guidance, the MD said there were "no numbers for the guidance" and no "dramatic change" expected from current conditions. Context given: H1 FY27 PTC volume +18% vs all-India generation +10.64%; 60% of H1 volume came from exchange products.
+2. **Mix explains the margin dip.** Q2 volume growth came from exchange and medium-term trades; operational income fell 2% (₹136.91 → ₹133.90 Cr) because higher-margin cross-border volume fell. Bhutan exports to India dropped "due to higher domestic requirement in Bhutan". Short-term was 65% of Q2 volume.
+3. **Segment margins (CFO, Q2 FY27):** short-term 0.69 p, medium-term 3.17 p, cross-border ~6.98 p, long-term 7.98 p, blended ~2.89 p.
+4. **PAT bridge in management's words:** net surcharge fell ~₹16 Cr (₹42 → ₹26 Cr), which the MD welcomes as evidence of better receivables management ("you bill surcharge only when a utility is not paying on time"); treasury income fell because the special dividend took cash out; establishment cost rose ~₹2 Cr on a ~₹10 Cr/quarter base after absorbing PEL staff. Working-capital interest is only ~₹7 Cr a quarter (₹14 Cr in H1); the rest of "finance cost" is back-to-back surcharge expense.
+5. **Rebate mechanics:** net rebate is earned only when the discom does not take the prompt-payment rebate but PTC pays the generator early; it sits inside sale/purchase, not as a separate P&L line.
+6. **Dividend policy:** PTC normally declares dividend once a year; after the special and the FY26 final, an interim "may have to wait for some time".
+7. **Cash:** ₹2,431 Cr on 30-Sep-2026.
+8. **PFS sale:** transaction advisor appointed; nodal officers at PFS; dossiers being prepared; RBI (and possibly SEBI) approvals needed; no dates; will not sell at a price "not aligned to the book value"; MD denied management reluctance.
+9. **New businesses:** mineral exchange (IBM-regulated; first five minerals incl. iron ore; rivals MSTC and mjunction must migrate to exchanges; "investment is not very big"; open to partners); NLC JV "NPRL" (first board meeting held; "in the near-term 1 year, 2 year… unwise to expect a lot of business activity" because grid connectivity takes 3–4 years); 1,200 MW NTPC REL solar PPA (25 yrs); 500 MW/2,000 MWh BESS EoI; Bhutan winter export up to 1,200 MW; Nepal 204 MW MT extended to 2028.
+10. **HPX:** PTC cannot trade on HPX while it owns 22.5% (5% cap); it keeps evaluating whether to sell down to 5% before or after coupling. HPX revenue ₹18.13 Cr in Q2 FY27 (₹9.89 Cr); H1 ₹32.11 Cr (₹22.18 Cr).
+11. **West Asia:** gas power "almost ₹30 per unit" to run RTC; raw-material and RE-project delays; one contract (with "NG", likely an NTPC Green project) that was to supply power before June-2026 was delayed — contractual safeguards protect PTC commercially.
+12. **Prices:** expects firm peak prices; storage < 20 GWh; intraday range "< ₹1 to the ₹10 ceiling"; storage additions over 12–18 months should moderate spikes.
+
+**From the Q4 FY26 call (May-2026; T-Q4FY26) — the only explicit "guidance" in the last four calls**
+1. **Volume: in line with or "a little higher" than national demand growth, which management pegs at ~5%/yr.** Contribution from short- and medium-term trades to rise.
+2. **Margins: flat.** "Whatever growth will come, will come through the volume growth… Margins we don't expect to grow substantially. Marginal… decimal percentage plus and minus." Competition: "more than 70 licensed traders" in plain exchange products vs "four, five, six" credible players in 12–25-year and cross-border contracts.
+3. **Long-term book:** new long-term contracts "a little difficult", and if they come, 10–12 years not 25; focus on medium- and short-term.
+4. **Rebate down 121 → 97 Cr in FY26** as discoms had "sufficient liquidity"; operational income flat at ~₹450 Cr despite higher trading margin. Q4 FY26 PBT ex-PEL rose to ~₹102 Cr from ₹86.38 Cr.
+5. **Cash use:** part kept as a "war chest" for "something strategic which adds value to our core business, not big ticket"; "a PEL portfolio will [not] be created again".
+6. **New areas:** PTC claims to be first to trade BESS power and to supply green power for green hydrogen (GAIL Vijaipur, 10 MW); talking to data centres (RTC green power).
+7. **PFS:** the board's pause "is not there" any more; mode (divest/hold) to be decided by a board committee.
+8. **Teesta-III:** cofferdam stage (40–50% of capacity) "operational by let's say September or October [2026]"; full dam by 2029.
+
+**Concall KPI table (standalone) — what management disclosed each quarter**
+
+| KPI (₹ Cr unless stated) | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Volume (MU) | 19,245 | 19,004 | 23,042 | 26,178 | 20,010 | 23,572 | 25,783 | 32,463 |
+| YoY volume growth | +29% [E vs Q3 FY24 14,932] | n/a | n/a | n/a | +4% | +24% | +12% | +24% |
+| Exchange volume (MU) | n/a | 11,053 | 12,784 | n/a | n/a | 15,297 | 15,453 | n/a ("60% of H1") |
+| ST bilateral (MU) | n/a | 1,511 | 1,131 | n/a | n/a | 1,391 | 1,924 | n/a |
+| LT + MT incl. CB (MU) | n/a | 6,440 | 9,123 [sum: MT 688 + LT 6,364 + CB 1,657 + BD 414] | n/a | n/a | 6,884 | 8,401 [MT 1,822 + LT 5,672 + CB 497 + BD 410] | ~35% of 32,463 ≈ 11,360 [E from "ST 65%"] |
+| Trading margin | 60.89 | 60.20 [E: FY − 9M] | 77.61 | 96.40 | 60.28 | 76.23 | 86.31 | 93.88 |
+| p/kWh | 3.16 (deck) | 3.17 [E] | 3.37 | 3.68 | 3.01 [E] | 3.23 [E] | 3.35 | 2.89 |
+| Consultancy | 12.25 | 16.45 [E] | 9.88 | 12.08 | 10.80 | 11.81 [E] | 10.76 | 9.86 |
+| Net rebate | 29.62 | 20.46 [E] | 23.68 | 28.43 | 17.58 | 27.79 [E] | 15.99 | 30.16 |
+| **Operational income** | 102.76 | 97.11 | 111.17 | 136.91 | 88.66 | 115.83 | 113.06 | 133.90 |
+| Net surcharge | 79.36 | 54.11 [E] | 37.65 | 42.61 | 19.51 | 4.70 [E] | 3.06 | 25.90 |
+| PBT | 148.11 | 608 (screener; incl. PEL gain) | 140.96 | 180.34 | 111.37 | 102 (screener) | 95.54 | 152.25 |
+| **Standalone PAT** | 110.59 | 521.38 (ex-PEL 63.99 [E]) | 104.78 | 133.82 | 82.70 | 75.74 | 70.67 | 113.23 |
+| **Consolidated PAT** (screener) | 181 | 372 | 243 | 222 | 131 | 121 | 112 | 159.10 |
+| Standalone revenue (screener) | 3,264 | 2,774 | 3,867 | 5,327 | 3,284 | 3,778 | 4,670 | 5,702 |
+
+Sources: D-Q3FY25 pp.5–7; D-Q4FY26 pp.13–16 (Q4 FY25 and Q4 FY26 volume mix, TM, OI, PAT); D-Q3FY26 pp.6–9 (Q3 and 9M FY26 incl. 9M FY25 comparatives); D-Q1FY27 pp.4–6; D-Q2FY27 pp.4–7; SCR quarterly tables; [E] = derived as full-year (AR26/D-Q4FY26) minus 9M (D-Q3FY26/D-Q3FY25). Check sums: every operational-income cell = TM + consultancy + rebate to the paisa. 9M FY26 operational income ₹336.74 Cr "does not include surcharge income" (deck footnote) — confirms the company definition.
+
+**What the 8 quarters say**
+- Volume grew in every quarter (+4% to +29% YoY) but the **trading margin per unit fell from 3.68 p (Q2 FY26) to 2.89 p (Q2 FY27)** — the exchange mix effect plus the Bhutan dip.
+- **Net surcharge collapsed from ₹79 Cr a quarter (Q3 FY25) to ₹3–26 Cr** — the single biggest driver of lower standalone PAT. Over the eight quarters, operational income stayed in a ₹89–137 Cr band (seasonal: Q2 peaks with monsoon hydro), so "core" earnings are roughly flat while "non-core" (surcharge, treasury) shrank.
+- **Q3 is the weak quarter** (winter: Bhutan hydro low, PTC exports *to* Bhutan): Q3 FY26 operational income ₹88.66 Cr was the eight-quarter low. Expect Q3 FY27 (Dec-2026 quarter) to show the same seasonality plus lower treasury income after the special dividend [E].
+- Consolidated PAT fell faster than standalone because PFS moved from write-backs to provisions.
+
+### 4.2.2 PTC India — 5-year history FY22–FY26 (standalone unless stated)
+
+| Item | FY22 | FY23 | FY24 | FY25 | FY26 | Source |
+|---|---|---|---|---|---|---|
+| **Volume (MU)** | **87,515** | **70,610** | **74,841** | **82,751** | **92,802** | AR23–AR26 [V] |
+| – Short-term total | 51,934 | 37,697 | 42,436 | 49,794 | 57,968 | ARs [V] |
+| – of which exchange | 44,634 | 29,499 | 37,348 | 42,843 | 52,224 | ARs [V] |
+| – of which ST bilateral | 7,300 | 8,198 | 5,088 | 6,951 | 5,744 | ARs [V] |
+| – Long + medium term (incl. CB) | 35,581 | 32,913 | 32,405 | 32,957 | 34,834 | ARs [V] |
+| Exchange % of volume | 51.0% | 41.8% | 49.9% | 51.8% | 56.3% | [E arithmetic] |
+| LT+MT % of volume | 40.7% | 46.6% | 43.3% | 39.8% | 37.5% | AR23 MD&A (40.7/46.6) [V]; others [E] |
+| Cross-border total (MU) | 8,283 | 8,650 | 7,584 | 8,262 | 11,314 | ARs [V] |
+| – Bhutan (import + export) | n/a | 6,993 | 6,005.7 | 6,178 | 8,670 | ARs [V] |
+| – exports *to* Bhutan (dry months) | 240.1 | 318.8 | 1,339.7 | 1,098 [AR25 DR says 1,337 traded "for Bhutan"] | 1,939 | ARs [V] |
+| – Nepal | n/a | n/a | n/a | 485 | 1,048 | AR25/AR26 [V] |
+| – Bangladesh (200 MW LT) | 413 | 1,657 | 1,578 | 1,600 | 1,596 | ARs [V] |
+| – Nikachu (118 MW, Bhutan → Assam) | — | — | commissioned | n/a | 350 | AR24, AR26 [V] |
+| Revenue (₹ Cr, screener) | 15,631 | 14,887 | 16,007 | 15,050 | 16,256 | SCR [V] |
+| Trading margin (₹ Cr) | n/a | n/a | n/a | 279.19 | 310.52 | D-Q1FY27 [V] (FY22–24 not found — gap) |
+| p/kWh | n/a | n/a | n/a | 3.37 | 3.35 | [E]; ICRA "~3.35" |
+| Operational income (₹ Cr) | n/a | n/a | n/a | 450.37 | 452.57 | D-Q4FY26; AR26 [V] |
+| Net surcharge (₹ Cr) | n/a | n/a | n/a | 267.69 | 104.47 | AR26; ICRA [V] |
+| Other income (₹ Cr) | 6 | 72 | 52 | 594.65 (AR; screener 1,116 incl. PEL gain) | 363.60 | AR26 note 28; SCR |
+| PBT (₹ Cr) | 571 | 481 | 484 | 1,056.33 | 534.90 | AR26 cash-flow statement; SCR [V] |
+| **PAT (₹ Cr)** | 425 | 370 | 369 | 854.78 | 397.04 | SCR; AR26 [V] |
+| EPS (₹) | 14.35 | 12.49 | 12.47 | 28.88 | 13.41 | SCR; AR26 [V] |
+| **DPS (₹)** | 7.80 (2.0 + 5.8) | 7.80 | 7.80 | 11.70 (5.0 + 6.70) | **8.50 (3.0 + 5.50)** | AR26 dividend-history table [V] |
+| Net worth (₹ Cr) | ~3,915 [SCR: 296 + 3,619] | n/a | ~4,148 [296 + 3,852] | 4,766.69 | 4,729.84 | AR26 [V]; SCR |
+| CFO (₹ Cr) | n/a | n/a | n/a | 518.18 | 1,040.22 | AR26 cash-flow [V] |
+| Employees (nos.) | n/a | n/a | n/a | 115 | 109 | AR26 Rule 5 annexure [V] |
+| Consolidated PAT (₹ Cr, total / attributable) | 552 / n/a | 507 / n/a | 533 / n/a | 976 / 900.25 | 717 / 605.63 | SCR; AR26 [V] |
+| CERC trader share | n/a | n/a | n/a | 31.80% | 31.16% (Mar-26) | CERC FY25 report; CERC-MAR26 [V] |
+
+**Reading the five years:** volume fell 19% in FY23 when PTC deliberately "ceded low-margin power exchange volumes to avoid negative impact on cost of funds" (AR23) — i.e. it rationed balance sheet in the coal-crisis/high-price year — then recovered at +6%, +11%, +12%. The LT+MT book has been flat at 32.4–35.6 BU for five years (the margin engine is not growing); all growth is exchange volume. Cross-border jumped in FY26 on a wet year in Bhutan and two-way Nepal trade, then reversed in H1 FY27.
+
+### 4.2.3 PTC India — FY26 Annual Report findings (AR26, read in the relevant sections)
+
+**(a) Segment and revenue disaggregation (notes 27, 48, 49)**
+- **Single operating segment** ("the business of power" under Ind AS 108). No segment P&L; margin by tenure exists only in management/ICRA disclosures (4.0 S10).
+- Revenue from contracts ₹16,256.22 Cr = sale of electricity (principal) ₹16,178.38 Cr + agency-nature power supply ₹33.27 Cr (gross agency sales ₹20,448.79 Cr less agency purchases ₹20,415.52 Cr) + consultancy ₹44.57 Cr. Purchases of electricity ₹15,803.65 Cr.
+- Geography: India ₹15,104.63 Cr; **outside India ₹1,151.59 Cr** (FY25 ₹1,014.10 Cr) — Nepal, Bhutan and Bangladesh sales. Foreign-exchange earnings on sales ₹980.24 Cr.
+- Payment terms: power sale "generally due within 30 to 60 days from delivery", with early-payment rebate treated as variable consideration.
+- **Accounting change in FY26:** surcharge income reclassified from "other operating income" to **other income**, and surcharge expense from "operating expenses" to **finance costs** (no impact on profit). That is why screener shows "other income ₹362 Cr" and "interest ₹94 Cr" for a company with ₹1 Cr of debt.
+- **Exceptional items (note 34):** pursuant to court/APTEL/CERC orders on "tariff revision/additional cost/O&M charges", PTC recognised **surcharge income of ₹1,492.36 Cr and a matching surcharge expense of ₹1,491.08 Cr** payable to suppliers — a ₹1.28 Cr net. Plus a ₹3.20 Cr Labour-Code gratuity charge ⇒ exceptional −₹1.92 Cr. **Writer: this ₹1,492 Cr gross flow is the clearest illustration that PTC passes change-in-law/surcharge awards straight through to generators; it is not profit.** (Consolidated exceptional −₹4.35 Cr.)
+
+**(b) Related-party transactions (note 39) — trivial; no royalty, no group purchases**
+- Dividend paid to each of NTPC, POWERGRID, PFC, NHPC: ₹17.64 Cr (₹9.36 Cr); nominee sitting fees ₹0.03–0.06 Cr each; PFC consultancy income ₹0.75 Cr; POWERGRID wheeling ₹0.11 Cr.
+- **EESL (promoter group): consultancy income ₹4.19 Cr (₹14.35 Cr) but impairment/write-off of ₹13.05 Cr (₹21.60 Cr) against EESL receivables/debit notes** — the one RPT with economic weight, and a negative one.
+- PFC Consulting: consultancy income ₹2.89 Cr; PRAAPTI portal usage fee ₹0.41 Cr. PFS: sitting fees received ₹0.29 Cr. PTC Foundation (controlled trust): CSR ₹13.97 Cr (₹5.27 Cr).
+- Directors' Report: no material RPTs; Form AOC-2 not applicable.
+
+**(c) Contingent liabilities and litigation (note 35; note 49(h) provision movement)**
+
+| Item (₹ Cr) | 31-Mar-2026 | 31-Mar-2025 |
+|---|---|---|
+| Claims not acknowledged as debt | 505.62 | 579.11 |
+| Income-tax matters in appeal | 79.77 | 274.53 |
+| Customs duty | 17.16 | 17.16 |
+| Service tax | 104.22 | 104.22 |
+| **Total contingent liabilities** | **706.77** | **975.02** |
+| Capital commitments | 0.45 | 0.08 |
+
+Largest named claims: **PGCIL ₹209.51 Cr** relinquishment/transmission charges on a 1,200 MW hydro PPA (840 MW long-term to four discoms, two of which terminated; 216 MW merchant; 144 MW free power of the home state — consistent with Teesta-III) under appeal at APTEL; **₹136.66 Cr refund claim by a supplier's Resolution Professional** (NCLT dismissed it but ordered return of a ₹27 Cr bank guarantee — fully provided in FY25; appeal at NCLAT Chennai); DERC claim ₹34.63 Cr; ₹33 Cr transmission charges (SC stay); CTU LTA claim ₹31.68 Cr (APTEL stay); TNERC ₹19.87 Cr; ₹19.05 Cr OA claim; 2013 take-or-pay compensation ₹41.70 Cr (50% deposited; SC status quo since 2014). Change-in-law/tariff cases are disclosed as "no likely liability… pass-through". **Provision for litigation charged to P&L: ₹40.12 Cr in FY26 (₹32.43 Cr FY25)**, plus Q1 FY27's ₹17.4 Cr (Part 2).
+
+**(d) Receivables ageing (note 43(iii)), ₹ Cr, 31-Mar-2026 (31-Mar-2025)**
+
+| Bucket | <6 m | 6 m–1 y | 1–2 y | 2–3 y | >3 y | Total |
+|---|---|---|---|---|---|---|
+| Undisputed, good | 3,202.89 | 88.62 | 32.07 | 1.54 | — | 3,325.12 (3,703.39) |
+| Undisputed, credit-impaired | — | 0.37 | 3.83 | 20.99 | 16.09 | 41.28 (28.49) |
+| Disputed, good | 22.59 | 18.03 | 283.41 | 56.78 | 673.80 | 1,054.61 (1,058.13) |
+| Disputed, credit-impaired | 0.79 | 1.07 | 2.18 | 3.09 | 43.42 | 50.55 (46.80) |
+| **Total** | **3,226.27** | **108.09** | **321.49** | **82.40** | **733.31** | **4,471.56 (4,836.81)** |
+
+Impairment allowance ₹91.83 Cr (₹75.29 Cr) ⇒ net ₹4,379.73 Cr. **Reading:** 72% of gross receivables are < 6 months; but ₹1,105 Cr (25%) is disputed and ₹733 Cr is > 3 years old, provided at only ~8% overall. ICRA and management say the aged/disputed book is largely back-to-back (matching payables to generators) — the writer should present it as "₹1.1k Cr disputed, mostly back-to-back, ₹92 Cr provided".
+
+**(e) Auditors and audit remarks**
+- Statutory auditor **T R Chadha & Co LLP** (FRN 006711N/N500028); first term ends at the 27th AGM, **re-appointment proposed** for a second term; audit fee ₹0.37 Cr. **Unmodified opinion.** Key audit matters: (1) reconciliation and impairment of trade receivables (auditor reviewed balance-confirmation reconciliations signed with state utilities and legal/expert reports on contentious receivables); (2) provisions and contingencies for legal, tax and regulatory matters.
+- Secretarial auditor A K Rastogi & Associates — observation that an independent-director vacancy existed from 13-Apr-2025 (Reg 17(1)(b) non-compliance window); FY25 report had a similar observation for Jan–May 2024. Board met 8 times in FY26.
+- PFS's statutory auditor: Ravi Rajan & Co LLP.
+
+**(f) KMP and remuneration (Rule 5 annexure; note 39)**
+- Dr Manoj Kumar Jhawar — CMD from 13-May-2025 (earlier Director Commercial & Operations), **MD & CEO from 13-Apr-2026**: ₹1.71 Cr (FY25 ₹1.08 Cr). Pankaj Goel, ED & CFO: ₹1.66 Cr. Rajiv Maheshwari, CS: ₹1.24 Cr. Harish Saran, Director (Marketing), 13-Jan-2025 to 7-Jun-2025: ₹0.74 Cr. Median employee ₹0.29 Cr (+16%); MD-to-median ratio 5.9×. 109 permanent employees (115).
+- Board changes FY26: Harish Saran ceased 7-Jun-2025; A. Venu Prasad (ID) ceased 13-Nov-2025; Sukhdev Singh (ID) appointed 11-Nov-2025 → Non-Executive Chairman 15-May-2026; Sangeeta Kaushik ceased 21-Nov-2025; Masood Akhtar Ansari appointed 1-Dec-2025; Prakash Mhaske re-appointed 16-Jan-2026; Rajneesh Agarwal (NHPC nominee) ceased 2-Mar-2026.
+
+**(g) Investments and other balance-sheet items**
+- PFS: 64.99%, cost ₹754.77 Cr. HPX: 22.62%, ₹12.50 Cr (licence from CERC 12-May-2021). Sikkim Urja (Teesta-III): FVOCI ₹93.45 Cr (cost ₹180.30 Cr). Athena Energy Ventures written off after NCLT extinguished shareholdings. RS India Global Energy carried at ₹1; RS India Wind Energy (37%) and Varam Bio Energy (26%) fully provided associates.
+- Net worth ₹4,729.84 Cr; reserves ₹4,433.83 Cr; ₹119.48 Cr transferred to general reserve. 29,60,08,321 shares.
+- Cash flow FY26: CFO ₹1,040.22 Cr (receivables release ₹362.92 Cr; payables +₹607.15 Cr); dividends paid ₹435.13 Cr (FY25 final ₹6.70 + FY26 interim ₹3 + FY25 interim ₹5 timing); bank deposits up ₹1,449.84 Cr.
+
+**(h) Risks and outlook as stated in the MD&A**
+- Threats: "more than 60 licensed electricity traders" ⇒ pricing pressure; regulatory changes in market design; generators and discoms preferring to transact directly on exchanges ("may reduce the role of intermediaries"); other trading platforms.
+- Opportunities: RE balancing, BESS ("a new business opportunity"), South Asian cross-border trade, digital/"technology-enabled energy market solutions"; ports O&M (Mumbai, Deendayal, Paradip), PMC for transmission (Vishakhapatnam Port, Talcher Fertilizers), PM Surya Ghar, ADB/GE Vernova Mekong multilateral-trade study.
+- Market context the AR itself cites: West Asia war "Iran – US war… Hormuz is blocked"; ~9.56 GW rooftop solar under PM Surya Ghar by Mar-2026; MNRE made SECI the sole REIA for future RE bids.
+
+### 4.2.4 PTC India Financial Services (PFS · 533344) — brief
+
+**Guidance digest (call 28-Oct-2026; PFS-T)**
+- **Loan book target ~₹5,000 Cr net by end-FY27** (from ₹3,684 Cr) — backed by ~₹2,500 Cr of sanctioned-but-undisbursed loans; disbursements ₹1,595 Cr in Q2 were a 19-quarter high.
+- Asset quality: gross stage 3 ₹126 Cr = Kundli Manesar (EAD ₹124 Cr, slipped this quarter, ₹19 Cr provision) + Varam Bio (fully provided); Danu Wind technically written off (75% provided). MD: "well-provisioned book… no surprises".
+- Funding: Central Bank of India ₹200 Cr sanction (₹100 Cr drawn in Sep-2026); another bank ₹200 Cr in principle; liquidity "close to ₹600 crores plus, including the HQLA requirement"; expects cost of borrowing to fall every quarter and a rating upgrade as growth returns.
+- Divestment: "nodal person for data sharing" in place; no comment on stage.
+
+| PFS KPI | Q2 FY26 | Q2 FY27 | H1 FY27 | FY26 |
+|---|---|---|---|---|
+| Loan assets (₹ Cr) | 3,697 | 3,684 | 3,684 | 3,292 |
+| Sanctions / disbursements (₹ Cr) | 1,048 / 326 | 3,098 / 1,595 | 3,098 / 1,712 | 3,448 / 1,235 |
+| Total income (₹ Cr) | 132 | 114 | 217 | 518.25 |
+| NIM (earning portfolio) | 4.59% | 4.43% | 4.41% | 4.49% |
+| PAT (₹ Cr) | 88.14 | 44.04 | 84.28 | 319.36 (incl. ₹151.03 Cr impairment reversal) |
+| RoNW / ROA (annualised) | 12.30% / 6.50% | 5.64% / 3.65% | — / 3.49% | 10.95% / 6.00% |
+| Gross stage 3 | ₹193 Cr | ₹126 Cr (3.43% H1) | — | — |
+| Yield on earning portfolio | 11.23% | 10.45% | — | — |
+| CRAR | 62.63% | 70.99% | — | 66.63% |
+| Ratings | CRISIL A/Negative (LT), A1 (ST/CP); ICRA A-/Stable | | | |
+
+Sources: PFS-PR, PFS-D, PFS-T [V]; FY26 PAT and the ₹151.03 Cr reversal from AR26 DR [V]. **5-year (screener, unchanged from Part 2):** total income 968 / 797 / 761 / 638 / 518; PAT 130 / 176 / 161 / 217 / 319 (FY22–FY26). **Annual-report items for PFS** (from PTC's AR26 only; PFS's own FY26 AR not read — gap): PTC has not extended material financial support (ICRA); PFS is an RBI-classified IFC; listed Mar-2011.
+
+### 4.2.5 IEX (540750) — brief, kept consistent with `subsectors/exchanges.html`
+- Library figures re-checked against `subsectors/exchanges.html` this session: FY26 electricity volume 141.1 BU (+17%), ~84% of exchange volume (indicative), 2 p/side fee, FY26 revenue ₹616 Cr and PAT ₹493 Cr (company basis; screener ₹608 / ₹474 Cr). **Use the library numbers in prose.**
+- Q2 FY27 (screener): revenue ₹165 Cr, PAT ₹133 Cr (+9%). Oct-2026: 13,092 MU (+16.5%); DAM 4,508 MU (−3.8%) at ₹6.66 (Oct-2025 ₹2.67); RTM 5,670 MU (+23.7%) at ₹5.78 (+112%) [V-sec, four outlets quoting the IEX release]. IEX attributes part of the price jump to the weak Oct-2025 base.
+- Management guidance and AR not re-read this pass (covered by the exchanges report; budget prioritised PTC).
+
+### 4.2.6 Unlisted traders and exchanges — what primary/rating sources add
+
+| Entity | New facts this pass | Source |
+|---|---|---|
+| **Powerpulse Trading Solutions** (#2 trader Mar-26, 21.19%) | **Adani Energy Solutions subsidiary**; ex-"Adani Energy Solutions Step-Thirteen Ltd" (CIN U27104GJ2024PLC148633, incorporated 13-Feb-2024); took over Adani Enterprises' 2004 trading licence (CERC in-principle 3-Oct-2024; renamed 4-Sep-2024; CERC recorded 25-Nov-2024); 2,500 MW RTC supply PPA with MSEDCL (Sep-2026) | CERC-MP476 [V]; Renewable Watch [V-snip] |
+| **Manikaran Power** (#4–5, 6.3–7.0%) | Category-I licensee; IEX + PXIL member; CARE BBB+/Stable, A2 (Mar-2025, ₹146 Cr facilities); **TOI ₹4,117 Cr (FY23), ₹4,745 Cr (FY24); PAT ₹22.3 / ₹25.1 Cr; PBILDT margin 0.10% (FY24)**; ranked 6th in ST trades (CERC FY24); order book ₹8,754 Cr (1-Jan-2025); ₹42 Cr corporate guarantees + ₹74 Cr loans to group SPVs | CARE-MPL [V] |
+| **NVVN** (NTPC 100%) | No standalone rationale or financials found; only CERC shares (17.30% FY25; 15.15% Mar-26) | gap |
+| **Tata Power Trading (TPTCL)** | No FY26 figures found in Tata Power releases; share halved 8.62% → 4.07% | gap |
+| **HPX** (PTC 22.62%, BSE, ICICI Bank) | Net worth ≈ ₹72 Cr; FY26 PAT ≈ ₹4.6 Cr [E from AOC-1]; 709 members; Q2 FY27 revenue ₹18.13 Cr | AR26 AOC-1 [V]; T-Q2FY27 [V] |
+| **PXIL** (NSE, NCDEX) | No financials found this pass | gap |
+
+**Insight from Manikaran's numbers:** a trader with ~6–7% of CERC trader volume reports TOI of ~₹4,700 Cr — about 30% of PTC's reported revenue — because accounting choices differ (gross vs agency treatment of exchange trades). **Do not compare traders' "revenue" across companies; compare BU and paise.** Manikaran's PAT margin of ~0.5% on TOI vs PTC's ~2.4% on revenue reflects PTC's legacy LT/cross-border book and treasury income.
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+**D1. PTC volume by route, FY22–FY26 (MU)** [V AR23–AR26] — stacked bar
+| FY | Exchange | ST bilateral | LT + MT (incl. CB) | Total |
+|---|---|---|---|---|
+| FY22 | 44,634 | 7,300 | 35,581 | 87,515 |
+| FY23 | 29,499 | 8,198 | 32,913 | 70,610 |
+| FY24 | 37,348 | 5,088 | 32,405 | 74,841 |
+| FY25 | 42,843 | 6,951 | 32,957 | 82,751 |
+| FY26 | 52,224 | 5,744 | 34,834 | 92,802 |
+
+**D2. PTC cross-border trade by country (MU)** [V ARs] — FY23: Bhutan 6,993 · Bangladesh 1,657 · total 8,650 | FY24: Bhutan 6,005.7 · Bangladesh 1,578 · total 7,584 | FY25: Bhutan 6,178 · Nepal 485 · Bangladesh 1,600 · total 8,262 | FY26: Bhutan 8,670 (incl. 1,939 exported to Bhutan + 218 sold for Bhutan on IEX) · Nepal 1,048 (457 import under NEA MT PPA + 591 export to Nepal) · Bangladesh 1,596 · total 11,314. FY22 total 8,283 (Bangladesh 413). Exports *to* Bhutan in dry months: 240 (FY22) → 319 → 1,340 → 1,098 → 1,939 MU — Bhutan has become a winter importer.
+
+**D3. The FY26 earnings stack, PTC standalone (₹ Cr)** [V AR26 + D-Q4FY26; rebate E-derived] — waterfall
+Trading margin 310.52 → + net rebate 97.48 → + consultancy 44.57 → **= operational income 452.57** → + net surcharge 104.47 → + treasury & other income (363.60 − 181.03 gross surcharge = 182.57) → − employee cost 67.39 → − other expenses 118.12 → − consultancy-business costs 6.39 → − depreciation 2.91 → − bank-loan & other interest 7.98 → ± exceptional (−1.92) → **PBT 534.90** [check: 452.57 + 104.47 + 182.57 − 67.39 − 118.12 − 6.39 − 2.91 − 7.98 − 1.92 = 534.90 ✓ to the paisa]. Tax 137.86 → **PAT 397.04**.
+- Same stack FY25: TM 279.19 + rebate 120.83 + consultancy 50.35 = 450.37; + net surcharge 267.69; + treasury/other (594.65 − 561.17 = 33.48); + PEL gain 521.63 … → PBT 1,056.33.
+- **Insight:** in FY26 the trading margin (₹311 Cr) was only 58% of PBT; rebate + surcharge + treasury (₹385 Cr gross) exceeded it. Opex (₹192 Cr) eats 62% of the trading margin. Ex-surcharge and ex-treasury, the pure trading business made roughly ₹452.57 − ₹192 − ₹8 ≈ **₹250 Cr pre-tax** in FY26 [E].
+
+**D4. PTC quarterly operational income vs net surcharge (₹ Cr), Q3 FY25 → Q2 FY27** [V decks; E where noted] — dual bar
+Op. income: 102.76, 97.11, 111.17, 136.91, 88.66, 115.83, 113.06, 133.90 · Net surcharge: 79.36, 54.11[E], 37.65, 42.61, 19.51, 4.70[E], 3.06, 25.90.
+
+**D5. CERC trading-licence categories (2020 regs)** [V CERC-TD170] — table: Cat I ₹50 Cr / no limit / ₹40 lakh fee; Cat II ₹35 Cr / ≤7,000 MU / ₹15 lakh; Cat III ₹20 Cr / ≤4,000 MU / ₹6 lakh; Cat IV ₹10 Cr / ≤2,000 MU / ₹3 lakh; Cat V ₹2 Cr / ≤500 MU / ₹2 lakh. Plus current ratio and liquidity ratio ≥ 1 (Reg 9(2) referenced in the order).
+
+**D6. CERC margin rules (current)** [V CERC-MAR26, CERC-RP27, CERC-EM] — 0–7 p/kWh band (no negative margin); banking cumulative 0–7 p with ≥0 per leg; back-to-back ≤2 p (Reg 8(f)); no escrow/LC to seller ⇒ ≤2 p (proviso to 8(d)); LC sizing 1.1× monthly bill (LT) / 1.05× contract value (ST) (Reg 9(10)); realised industry weighted average 1.3 p (Mar-2026).
+
+**D7. Market structure March-2026 (CERC basis: generation excl. RE & captive = 134,476.89 MU)** [V CERC-MAR26] — donut: long-term 82.29% · power-exchange collective (DAM+G-DAM+HP-DAM+RTM) 9.63% · bilateral (traders + TAM/contingency + direct) 5.69% · DSM 2.39%.
+
+**D8. Trader ownership map (top 8, Mar-2026 share)** [V CERC-MAR26; V CERC-MP476] — PTC 31.16% (listed; PSU-promoted) · **Powerpulse/Adani (AESL) 21.19%** · NVVN/NTPC 15.15% · Manikaran 7.00% (private) · JSW Power Trading 5.09% (JSW Energy) · APPCPL 4.17% · TPTCL/Tata Power 4.07% · Greenko 2.92%. **Group view: PSU-linked (PTC + NVVN) ≈ 46%; large private power groups (Adani, JSW, Tata, Greenko, Shree, GMR) ≈ 37%; independents ≈ 17% [E].** The NTPC sole-promoter plan would put PTC and NVVN (≈46% combined) under one promoter's influence — a competition point the writer should flag.
+
+**D9. Short-term share reconciliation (closes §H #20)** [V CERC FY25 report; V CERC-MAR26; E]
+| Basis | Numerator | Denominator | Value |
+|---|---|---|---|
+| CERC annual FY25 | ST + DSM 238.35 BU | gross generation incl. RE 1,829.70 BU | 13.03% |
+| Same, ex-DSM | 206.21 BU | 1,829.70 BU | 11.3% [E] |
+| CERC monthly 2026 | ST + DSM (Mar-26) | generation **excl. RE & captive** (134.48 BU) | 17.71% |
+| FY25 restated on the 2026 basis [E] | 238.35 BU | ~1,829.7 − ~370 RE ≈ 1,460 BU (captive not removable from public data) | ≈ 16% |
+| Library "17.7% of electricity transacted, FY26" | — | — | almost certainly the CERC Mar-2026 monthly number mis-labelled as FY26 |
+Conclusion: the jump from 13% to 17.7% is mostly the **denominator change** (removing ~20% of generation that is RE), not market growth. Writer: quote 13.0% (FY25, all generation) and, if needed, "17.7% of non-RE, non-captive generation in Mar-2026".
+
+**D10. FY26 macro anchors** — all-India generation 1,840.11 BU (+0.6%), RE 477.78 BU (26.0%), solar 174.76 BU [V-sec]; PTC = 5.04% of generation [E]; PTC exchange volume 52.2 BU ≈ 31% of all-exchange volume 168.55 BU [E; volume counted once per PTC transaction, either side].
+
+## 4.4 Gap log (each Part-1 §H item and each brief gap: filled / still open)
+
+| # | Gap | Status | Source / what was tried |
+|---|---|---|---|
+| H1 / brief 7 | FY26 CERC annual short-term report; trader shares Jan–Sep 2026 | **Still open.** CERC index (13-Nov-2026) lists only Jan–Mar 2026 monthly reports; no FY26 annual. Mar-2026 figures re-verified [V]. Short-term share bases reconciled (D9) | CERC-IDX; CERC annual-report index pages |
+| H2 / brief 9 | FY26 all-India generation | **Filled (secondary):** 1,840.11 BU | energetica, IBEF [V-sec]; MoP PDF blocked (403) |
+| H3 / brief 1 | PTC FY22–FY26 volumes and segment mix | **Filled** (D1, D2); FY22–FY24 trading margin ₹ still not found | AR23–AR26 [V] |
+| H4 / brief 2 | Q2 FY27 segment volumes; 8 quarters | **8-quarter table filled** (4.2.1). Q2 FY27 segment *volumes* still undisclosed (only "ST 65%"; margins by segment) | D-Q2FY27, T-Q2FY27, D-Q3FY26, D-Q4FY26 [V] |
+| H5 / brief 3 | Operational-income labels; ₹718 Cr | **Filled** (S1, S2) | AR26; D-Q4FY26 [V] |
+| H6 / brief 13 | NVVN, TPTCL, Manikaran, Powerpulse, GMR, JSW financials | **Partly filled:** Manikaran (CARE) [V]; Powerpulse ownership [V]. NVVN, TPTCL, GMR, JSW still open (no public rationale found; MCA excluded) | CARE-MPL; CERC-MP476; searches for ICRA/CARE/Ind-Ra rationales |
+| H7 | Powerpulse ownership | **Filled — Adani Energy Solutions** (S6) | CERC-MP476 [V] |
+| H8 | PXIL financials; HPX | HPX **filled** from AOC-1 (S15); PXIL **open** | AR26 [V] |
+| H9 / brief 5 | Licence-category net worth | **Filled** (S13) | CERC-TD170 [V] |
+| H10 / brief 5 | 2 p back-to-back text; 2024–26 amendment | **Filled** for 8(d)/8(f) wording via CERC proceedings (S14); full gazette text not fetched; no amendment found (CERC Mar-2026 report still cites 0–7 p) | CERC-RP27; CERC-EM; CERC-MAR26 [V] |
+| H11 / brief 11 | Which articles failed; PFC/POWERGRID reclassification; Sep-2026 SHP | **Filled** for articles (S17); reclassification **not done** as of Sep-2026 (16.22% unchanged; AR lists all four promoters); Sep-2026 pattern from screener (FII 24.19, DII 7.95, Govt 3.38, public 48.26) — BSE SHP page itself not fetched | PB-NOTICE; AR26; SCR [V] |
+| H12 / brief 10 | PFS advisor identity | **Still open** — neither PTC nor PFS names the advisor; "SBI case" = probably SBICAPS remains an inference | T-Q2FY27; PFS-T |
+| H13 / brief 12 | SEBI matter — other noticees, SC appeal | **Still open** — no evidence of a SEBI appeal to the Supreme Court against SAT's 11/12-Dec-2024 order; Pawan Singh appeal outcome not found | web search (Nov-2026) |
+| H14 | IEX stake-sale attribution (₹132.54 Cr) | **Still open** — not in AR23–AR26 text; decks only say PTC "was co-promoter of India's first electricity exchange (IEX)" | D-Q1FY27 p.11 |
+| H15 | Mar-2026 IEX DAM price | Open (not re-extracted) | — |
+| H16 / brief 4 | FY26 DPS; ₹23 record date | DPS **filled** (₹8.50; final record date 7-Oct-2026); **₹23 record date still open** | AR26 [V] |
+| H17 | Adani trading volume | **Filled by S6** — Adani trades via Powerpulse (21.19% Mar-26) | CERC-MP476 [V] |
+| H18 / brief 8 | Cross-border FY26 flows | **PTC-level filled** (D2); all-India CEA/MoP FY26 net flows **open** | AR26 [V] |
+| H19 / brief 14 | West Asia effect on gas generation; HP-DAM | **Partly filled:** ~25 GW gas capacity mostly idle (Power Secretary, Sep-2026), gas generation ~1.0 TWh in 1–19 Mar-2026 vs ~2 TWh target, 10 GW coal maintenance deferred [V-snip]; CERC suo-motu to add pumped storage to HP-DAM (hearing 19-Nov-2026) [V] | CERC-PN13; S&P/ORF snippets |
+| H20 | Short-term share conflict | **Resolved** (D9) | — |
+| brief 6 | Coupling status; price caps | **Coupling: still draft** (no notification on CERC current-regulations page) [V]; ₹10 DAM/RTM and ₹20 HP-DAM caps: no change found [V-snip]; HP-DAM eligibility under review | CERC-REGS; CERC-PN13 |
+| brief 14 | PRAAPTI / LPS latest | **No newer official figure than ₹3,330 Cr (27-Mar-2026)** [V-sec]; LPS 48-EMI schedule from Aug-2022 implies legacy dues near zero by mid/late-2026 [E] | outlookbusiness, millenniumpost, angelone |
+| brief 14 | IEX Oct-2026 ₹6.66 | **Confirmed** [V-sec ×4] | — |
+| brief 10 | PFS Q2 FY27 loan book, GS3/NS3, PAT, CRAR; RBI actions | Loan book/GS3/PAT/CRAR **filled** [V]; NS3 ₹105 Cr (Part 2, PFS deck); **RBI actions: none found in FY26 AR or calls** | PFS-PR/D/T |
+| new | PFS FY26 annual report (RPTs, contingent liabilities) | Not read (budget) | — |
+| new | IEX Q2 FY27 transcript | Not read (library covers it) | — |
+
+**Re-verification of tagged figures that carry an argument (Parts 1–3):** of the ~36 [V-snip] and 28 [K] tags, the argument-bearing ones re-checked this pass are: FY26 debtor days 44 [V-snip → V, ICRA]; NWC/receivables [V-snip → V, AR26]; promoter ~4% each [K → V]; licence thresholds [K → corrected]; 2 p back-to-back [V-snip → V]; postal-ballot outcome [V-snip → V for texts]; NHPC exit 2-Mar-2026 [V-snip → V, AR26 "Rajneesh Agarwal cessation 2-Mar-2026"]; FY26 gen [V-sib → V-sec]; IEX Oct-2026 [V-snip → V-sec]; PFS listing Mar-2011 [V, PFS-D]; PEL sale ₹1,175.75 Cr / 288.8 MW to ONGC Green, Mar-2025 [V, D-Q4FY25 + ICRA]; Jhawar CMD 13-May-2025 [V-snip → V, AR26]; SECI ~7 p margin [K — **not** re-verified; note CERC-RP27 shows CERC capping an NTPC back-to-back RE resale at 2 p, so "SECI ~7 p" is doubtful — use "≤ 2 p on back-to-back RE resale under the 2020 rules; SECI's PSAs carry a regulated trading margin" or drop]; Adani "absent" [V → reversed]. Still [K]/[V-snip] and unverified: SEBI/SAT dates (Jun/Dec-2024), Jan-2026 MoP OM date (16-Jan-2026; AR26 confirms the CMD split but not the OM date), LPS dues series, coupling timeline dates (sibling), ₹10/₹20 caps (sibling).
+
+## 4.5 New insights the first pass missed, and primer issues
+
+**Insights an expert would add**
+1. **The #2 trader is Adani.** Powerpulse (21.19% in Mar-2026, up from 17.13% in FY25) is Adani Energy Solutions' licensee — Adani Enterprises' 2004 licence moved into a new AESL subsidiary in 2024. The competitive story is therefore "PTC vs Adani vs NTPC (NVVN)", three groups with ~67% of trader volume, not "PTC vs a fragmented field". It also means the library's AESL supply volumes and CERC's trader table overlap.
+2. **PTC's growth engine is not where its profit is.** Five years of ARs show the LT+MT book flat at 32–36 BU while exchange volume went 30 → 52 BU. ICRA puts 84% of FY26 margin on the 38% LT/MT/CB slice. With traders barred from new long-term thermal PPAs and management guiding 10–12-year (not 25-year) contracts at best, the margin pool can only be held, not grown, unless the 1,200 MW NTPC REL solar (open position today) and BESS contracts scale.
+3. **Earnings quality is improving but earnings are falling — and opex is bigger than thought.** FY26 opex ~₹192 Cr (employee ₹67 Cr, other ₹118 Cr incl. ₹40 Cr litigation provisions and ₹19 Cr ECL) against a ₹311 Cr trading margin. Surcharge fell ₹268 → ₹104 Cr in a year and was ₹29 Cr in H1 FY27; treasury income (₹159 Cr in FY26) will be ~₹40–50 Cr lower in FY27 after the ₹681 Cr special payout [E]. A realistic FY27 standalone PAT is ~₹330–370 Cr (H1 ₹184 Cr; H2 seasonally weaker in Q3) [E].
+4. **The ₹1,492 Cr exceptional pass-through and ₹20,449 Cr agency gross are the best teaching examples of "pass-through".** PTC booked ₹1,492 Cr of court-awarded surcharge and paid ₹1,491 Cr on to generators; it handled ₹36,700 Cr of power value but reported ₹16,256 Cr revenue and kept ₹453 Cr. Any revenue-based multiple or margin is meaningless; ICRA's ₹36,853 Cr "operating income" and screener's ₹16,256 Cr revenue are both "right" on different definitions.
+5. **Governance outcome is more independent than the MoP intended.** Shareholders (mostly FIIs and retail, since the four PSUs hold only 16%) blocked the three article changes that would have given NTPC the chair, consent rights and quorum control. Result: an independent director chairs the board; NTPC's sole-promoter status is cosmetic until articles change. That reduces the NVVN conflict risk the writer might otherwise stress.
+6. **FY26 cross-border was a record, FY27 a reversal.** 11.3 BU in FY26 (+37%) on a wet Bhutan year plus two-way Nepal trade; H1 FY27 Bhutan imports collapsed as Bhutan consumes more of its own hydro and now buys up to 1,200 MW from India in winter. The 6.98 p cross-border margin is intact; the volume is hydrology- and Bhutan-demand-driven.
+7. **Receivables are healthier on age but carry a ₹1.1k Cr disputed tail.** 72% of the ₹4,472 Cr gross book is under six months, but ₹733 Cr is over three years and ₹1,105 Cr is disputed (mostly back-to-back per ICRA/auditor KAM). Contingent liabilities fell to ₹707 Cr (₹975 Cr) mainly on income-tax resolution.
+8. **CERC is moving on HP-DAM, not on coupling.** The only live CERC market-design proceeding found this month is adding pumped storage to HP-DAM (hearing 19-Nov-2026); coupling regulations remain a draft seven months after publication.
+
+**New primer issues (add to `primer-issues.md`, from Part 4)**
+- **ptc-india.html — "standalone operating income ~₹718 Cr (+17%)":** do *not* delete (Part 3 said "remove"); it equals FY25 operational income ₹450.37 Cr + net surcharge ₹267.69 Cr. Re-label as "operational income incl. net surcharge" and update: FY26 ₹557.04 Cr (−22%) on that definition, or switch to the company's ₹452.57 Cr (FY26) / ₹450.37 Cr (FY25) definition (preferred).
+- **ptc-india.html — competitor table / "Adani":** Part 3 said "Adani does not appear… remove or qualify". **Reverse that:** Adani is the #2 trader through **Powerpulse Trading Solutions** (AESL subsidiary; 21.19% in Mar-2026; 17.13% FY25). Name it "Adani (Powerpulse)".
+- **ptc-india.html — dividend:** FY26 DPS ₹8.50 (₹3 interim + ₹5.50 final, record date 7-Oct-2026), not "~₹8.6"; recurring yield ~6.1% at ₹139.
+- **ptc-india.html — cross-border:** the "too rosy" fix in Part 3 should be nuanced: FY26 cross-border volume rose 37% to 11.3 BU (record); the downturn is FY27 (Bhutan). Show both.
+- **ptc-india.html — volumes history:** add FY22 87.5 BU and FY23 70.6 BU (deliberate cut of low-margin exchange volume in the FY23 high-price year).
+- **ptc-india.html — margin mix:** add ICRA's FY26 split (LT/MT/CB 38% of volume, 84% of margin) and the ₹40 Cr FY26 litigation provision / ₹707 Cr contingent liabilities.
+- **ptc-india.html — governance:** add that the NTPC chair/consent/quorum article changes **failed**; an independent director (Sukhdev Singh) has chaired the board since 15-May-2026; Dr Jhawar is MD & CEO since 13-Apr-2026.
+- **ptc-india.html — credit rating:** add [ICRA]AA (Stable)/A1+ (16-Sep-2026), standalone basis excluding PFS.
+- **ptc-india.html — Teesta-III:** the plant (Sikkim Urja) is now Greenko-controlled; PTC's equity is carried at ₹93 Cr (cost ₹180 Cr); first-stage power slipping from "Sep/Oct" to "~Dec-2026".
+- **subsectors/exchanges.html (cross-check only):** no inconsistency found with Part 4; consider noting that the #2 power trader on IEX volumes is Adani's Powerpulse.
+
+*End of Part 4.*
