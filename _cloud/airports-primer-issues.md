@@ -40,3 +40,6 @@
 - **gmr-airports.html — Vizag/Nagpur economics (§05):** Vizag Q2 revenue ~₹42 Cr, PAT −₹82 Cr on ad-hoc YPP ~₹1,200; final tariff expected ~Jan-2027 at ₹1,700–1,800 YPP. Nagpur Q2 revenue ~₹42 Cr, EBITDA ₹8.5 Cr, PAT ₹8.1 Cr. Land at Vizag is now **794 acres** (group total ~3,010 acres).
 - **gmr-airports.html — "187 mn" (any use):** if the primer quotes "187 mn passengers", fix it. **187 mppa is capacity** (167 operational + 20 under development); passengers handled across all gateways were 134 mn in FY26 (incl. Cebu and Medan).
 
+
+## From primer-audit (2026-11-13, orchestrator)
+- **gmr-airports.html — primer-audit hard-check FAIL (pre-existing, not fixed here):** "❌ banned" (a banned phrase is present) and no `main{min-width:0}` grid fix (phone overflow risk). 69 KB, 5,614 words, refreshed 2026-06-30, 0 links to sub-sector reports (add a link to subsectors/airports.html once published).
