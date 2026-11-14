@@ -1030,3 +1030,488 @@ Single-member sub-sector → sub-sector totals = MedPlus: FY26 revenue ₹6,892 
 - inc42 company financial pages (aggregator): https://inc42.com/company/wellness-forever-medicare/financials/ · https://inc42.com/company/tata-1mg/financials/
 - Sibling reports reused: `subsectors/trading-distribution.html` (NPPA 137-drug TMR, Keimed/Advent), `subsectors/pharma-branded-formulations.html` (NLEM/DPCO rule book, GST 5%, Jan Aushadhi history), `subsectors/hospitals.html` (Apollo NewCo share ratio).
 - Search-snippet-only sources (not fetched): Davaindia store counts (econotimes, multibagg, tradebrains), Apollo Q2 store count and margin target (Cofacto/Kotak Neo), IPM FY26 ₹2.46 lakh Cr (Financial Express), Jan Aushadhi FY26 sales (Kashmir Life / Lok Sabha), RD Saúde 2025 (quartr), organised share 18% (Business Today / HDFC Securities).
+
+---
+
+# PART 4 — Deep-research supplement (14-Nov-2026)
+
+Second-pass, primary-source supplement compiled 14-Nov-2026 (UTC 13/14-Nov). It does not repeat Parts 1–3; it corrects, verifies and extends them. **Reading order for the writer:** 4.0 Supersedes and 4.1 Verification table were written last (after every fetch) and sit at the **end** of Part 4; 4.2 (company packs), 4.3 (industry data), 4.4 (gap log) and 4.5 (insights and primer issues) come first because they were appended as the work progressed.
+
+**Tags in Part 4.** [V] = fetched this session (14-Nov-2026) from the named primary or near-primary document; [V-sec] = fetched this session but from a secondary write-up of a primary document (news article or summary quoting the filing/call); [V-snip] = search-result text only; [E] = arithmetic or estimate; [K] = memory. Earlier tags in Parts 1–3 are left as they were; where Part 4 upgrades or overturns a figure, 4.0 says so.
+
+**Primary documents fetched this session (the core of this pass)**
+- MedPlus **FY26 Annual Report** (BSE, `.../AttachHis/8b105d53-41b8-4a8d-bd2f-f906c1432ee9.pdf`, 13,906 lines extracted) — MD&A, consolidated notes 41 (commitments and contingent liabilities), 43 (related parties), leases, labour-code note, risk table.
+- MedPlus **FY22, FY23, FY24 Annual Reports** (BSE `.../bseplus/AnnualReport/543427/75886543427.pdf`; `.../AttachHis/d87951de-...pdf`; `.../AttachHis/6203286f-...pdf`) — store counts, gross openings, mature-store margins, private-label share by year.
+- MedPlus **Q2 FY27 investor presentation** (27-Oct-2026, re-read) and **Q1 FY27 earnings-call transcript** (22-Jul-2026, re-read for guidance).
+- MedPlus **promoter-pledge disclosures** on NSE: Reg 30 intimation of 18-Dec-2025 (`nsearchives.nseindia.com/corporate/MEDPLUS_18122025204739_Intimation.pdf`) and SAST pledge disclosure of 19-Dec-2025 (`.../MEDPLUS_19122025224745_Intimation.pdf`).
+- **Screener** MedPlus consolidated page (13 quarters, 12 years, 12 shareholding quarters, ratios, document links) pulled 14-Nov-2026.
+- **Apollo Hospitals Q2 FY27 results filing** to BSE (board meeting 4-Nov-2026; `.../AttachHis/90bc36be-8aa4-490d-bc68-0dfd119a8ef3.pdf`, 13.8 MB) — segment table, scheme-status note, subsidiary/associate list and the press release with the HealthCo paragraph.
+- **Zota Health Care Q2 FY27 investor presentation** (NSE, 28-Oct-2026) and **Q2 FY27 earnings-call transcript** (call 29-Oct-2026, filed 3-Nov-2026).
+- **PIB release 11-Aug-2026** (PRID 2297568, Rajya Sabha written reply) on Jan Aushadhi kendras.
+- Others named inline (global peers, NPPA, e-pharmacy, wages).
+
+**What could not be fetched and why:** the MedPlus Q2 FY27 call transcript is **not yet filed** (screener lists only the audio recording for the 28-Oct-2026 call: `medplusindia.com/uploads/content/Audio-Q2 FY2026-27 Earning Call October 28, 2026.mp3`); Apollo's own transcript host (apollohospitals.com) again returned **HTTP 403** and was not retried through mirrors; the BSE announcements API was not used (access not permitted in this environment); pib.gov.in pages refuse WebFetch (403) but serve plain HTTP requests with redirects; CDSCO returned connection resets/503.
+
+---
+
+## 4.2 Company packs (primary-source upgrade)
+
+### 4.2.1 MedPlus Health Services (MEDPLUS · 543427) — member
+
+#### (a) Management-commentary digest (latest available: Q1 FY27 call, 22-Jul-2026; Q2 FY27 deck, 27-Oct-2026)
+
+The Q2 FY27 transcript (call 28-Oct-2026) is not on BSE or screener as of 14-Nov-2026; only the audio is posted. The digest below therefore uses the **Q1 FY27 transcript** (re-read this session) for guidance and the **Q2 FY27 deck** for what has since happened. Paraphrased; speaker and date given.
+
+| # | Topic | What management said (paraphrase) | Who / when | What Q2 FY27 (deck) shows since |
+|---|---|---|---|---|
+| 1 | Store additions | Holds guidance of **800 net new stores in FY27 including franchisee stores**; "stick to the guidance of 800 net" when pressed | CEO Madhukar Gangadi / CFO Sujit Mahato, 22-Jul-2026 [V] | H1 delivered **312 net** (441 gross); H2 needs ~488 net, i.e. ~244 a quarter vs 146 and 166 in Q1/Q2 [E] — the guidance looks stretched unless franchise adds accelerate |
+| 2 | Labour cost | KA minimum wages **+60%**, TG **"25% plus"** vs a normal ~4% a year, effective 1-Jun-2026; Q1 carried one month, later quarters carry three; mitigations: retention-bonus plan closed to new entrants from 1-Mar-2026, restructuring "non-statutory payments" such as private-label incentives | CFO, 22-Jul-2026 [V] | Q2 operating EBITDA recovered to 4.8% (from 3.5%) despite a full quarter of the wage hit [V deck] |
+| 3 | Margin target | Aim is to go "back to the earlier reported numbers" (an analyst cited ~9% Ind AS EBITDA) "in a manner which is more sustainable"; full-year gross margin "we are shooting for that … allow us a quarter" | CFO, 22-Jul-2026 [V] | Q2 GM 25.1% (−110 bps YoY), Ind AS EBITDA 9.4% vs 9.9% a year earlier [V] — not yet back |
+| 4 | Discounts | 20% discount on bills >₹1,000 cut to **19% where payment is not UPI**, from 7-Jul-2026; further "tweaking" depends on sales impact | CFO, 22-Jul-2026 [V] | Contributed to +60 bps QoQ GM [E] |
+| 5 | Private label | Rule of thumb stays: every **20–30 bps of PL share ≈ +10 bps gross margin**; told the analyst to ignore numbers in the deck uploaded by mistake | CFO, 22-Jul-2026 [V] | PL 21.4% (re-based), −0.6 pp YoY; PL pharma at a low of 10.7% [V deck] |
+| 6 | Capital return | Asked about dividend/buyback given "₹600 crore plus cash": "We are evaluating various options … if there is an outcome, we would definitely inform you next quarter" | CFO, 22-Jul-2026 [V] | **Buyback ≤₹130 Cr at ≤₹750** announced 10-Nov, opened 13-Nov-2026 [V screener doc list] — the promise was kept |
+| 7 | Franchise revenue | "Others" revenue line is mostly **franchisee sales, about ₹83 Cr (₹830m) in Q1 FY27** | CFO, 22-Jul-2026 [V] | Franchise sales ≈ 4.4% of Q1 revenue [E]; Q2 deck notes <12-month store bridge "includes all franchisee stores" [V] |
+| 8 | Quick commerce | QC is not a model MedPlus wants to copy until someone can give a 20% discount, free delivery and 10-minute service profitably; "almost all of these businesses are bleeding cash" | CEO, 22-Jul-2026 [V] | Online revenue ~₹111 Cr/qtr (~5.5%), 735 delivery hubs [V-decode] |
+| 9 | Promoter debt | Promoter-level debt "close to around ₹1,150 crores … interest included"; family office looking at reducing it, "no such plan" at present | CFO, 22-Jul-2026 [V] | See (g) below: Dec-2025 NCD refinancing at 12.72% compounded monthly |
+| 10 | Labour code | Called the new labour code "a pretty significant kind of impact" | CEO, 22-Jul-2026 [V] | FY26 AR books a ₹6.5 Cr past-service cost for the codes (note below) [V] |
+
+**Q2 FY27 call — what is known without a transcript.** The deck headline items are already in Part 2. No credible press summary of the 28-Oct call was found in two searches (results returned only Q2 FY26 coverage). **Writer: do not attribute any Q2-call quote to management**; use the Q1 call for guidance and the Q2 deck for facts.
+
+#### (b) Concall / deck KPI table (company definitions)
+
+| KPI | FY22 | FY23 | FY24 | FY25 | FY26 | Q1 FY27 | Q2 FY27 | Source |
+|---|---|---|---|---|---|---|---|---|
+| Stores, end of period | **2,748** | **3,822** (MD&A; cover page says 3,882) | **4,407** | 4,712 | 5,330 | 5,476 | 5,642 | AR22/AR23/AR24/AR26 [V]; decks [V] |
+| Gross openings | 747 | 1,144 | 670 | ~418 [E: 305 net + 113 closures in Q4 only known] | 792 | 222 | 219 | AR22/23/24 [V]; decks [V] |
+| Net additions | 747 (vs 2,001 at Mar-21) | 1,074 (on 3,822) | 585 (on 3,822) | 305 | 618 | 146 | 166 | AR [V]; [E] subtraction |
+| Mature-store (>12m) store-level EBITDA | 10.3% | 9.5% | 9.17% | n/a | 11.9% | 10.4% | 11.7% | AR22/23/24 [V]; decks [V] |
+| Mature-store operating ROCE | 63.1% | (AR23 text garbled: "2.8%") | n/a | n/a | 80.0% (Q4) | 62.6% | 72.0% | AR22 [V]; decks [V-decode] |
+| Revenue growth of stores >12m | +18.1% | +15.6% | +20.46% | slowed (−0.9% Q4) | +9.4% | +15.3% | +13.2% | AR [V]; decks [V] |
+| Private-label share (AR basis) | 12.7% (from 10.1% FY21) | 13.6% | 14.26% | **19.29%** | **21.88%** | 20.0% (call) | 21.4% (re-based) | AR22–AR26 [V] |
+| Gross margin | 21.1% (21.0% FY21) | 21.9% | 21.92% | 24.37% | 26.23% | 24.5% | 25.1% | AR [V]; decks [V] |
+
+Notes on the table:
+- **The FY21–FY24 store counts in Part 1 §2.3 were [K] and wrong in two places:** FY21 2,001 (Part 1 "~2,000" fine), FY22 **2,748** (Part 1 "~2,400"), FY23 **3,822** (Part 1 "~3,800" fine but net adds were **~1,074, not ~1,400**), FY24 **4,407** (Part 1 "~4,450"). See 4.0.
+- **AR23 has two Mar-23 counts** (3,822 in the MD&A, 3,882 on the cover). Use 3,822 (the MD&A sentence also gives the 1,144 openings); flag the discrepancy in a footnote if printed.
+- **Private-label share jumps from 14.26% (FY24) to 19.29% (FY25).** The AR wording changes in FY26 to "Private label share **to consolidated revenue**"; earlier years probably counted pharma PL only (the FY24 ratio is close to the PL-pharma series in the Q4 FY26 deck, 13.6% in Q4 FY25). **Do not chart FY21–FY24 PL against FY25–FY26 PL as one series** without saying the basis changed [E — FLAG].
+- **Gross margin rose ~430 bps in two years (21.9% FY24 → 26.2% FY26)**, the bulk in FY25 (+245 bps) when the PL push peaked (23.3% in Q4 FY25). This is the context for the FY25 revenue stall (+9%): margin was bought with share-of-wallet.
+
+#### (c) Five-year history (screener consolidated, ₹ Cr; fetched 14-Nov-2026) [V]
+
+| FY | Sales | Growth | Op. profit (Ind AS) | OPM | Other income | Interest | Depreciation | PBT | PAT | EPS ₹ | ROCE | Inventory days | CCC days | Stores |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| FY22 | 3,779 | +23% | 273 | 7% | 31 | 66 | 119 | 118 | 95 | 8.03 | 10% | 112 | 82 | 2,748 |
+| FY23 | 4,558 | +21% | 266 | 6% | 46 | 83 | 182 | 47 | 50 | 4.17 | 5% | 117 | 91 | 3,822 |
+| FY24 | 5,625 | +23% | 355 | 6% | 40 | 96 | 224 | 73 | 66 | 5.48 | 7% | 111 | 92 | 4,407 |
+| FY25 | 6,136 | +9% | 488 | 8% | 48 | 103 | 250 | 183 | 150 | 12.56 | 10% | 106 | 83 | 4,712 |
+| FY26 | 6,892 | +12% | 608 | 9% | 71 | 120 | 283 | 275 | 220 | 18.30 | 13% | 99 | 79 | 5,330 |
+| TTM Sep-26 | 7,587 | +21% | 631 | 8% | 79 | 134 | 310 | 266 | 211 | 17.58 | — | — | — | 5,642 |
+
+- Longer run (screener): FY15 sales ₹1,368 Cr, OPM 2.4%; FY19 ₹2,273 Cr (first Ind AS 116 year: depreciation jumps from ₹12 Cr to ₹59 Cr); dividend payout 0% every year FY15–FY26 [V].
+- Revenue per average store [E from V]: FY22 ₹1.59 Cr (on 3,779 ÷ 2,375 avg) → FY23 ₹1.39 Cr → FY24 ₹1.37 Cr → FY25 ₹1.34 Cr → FY26 ₹1.37 Cr (consolidated revenue ÷ average stores). **Revenue per store has been flat at ~₹1.35–1.4 Cr for four years** — the young-store mix and Tier-2/3 expansion have offset maturing stores. (Part 1's ₹1.34 Cr used pharmacy revenue; same message.)
+- Inventory days improved every year since FY23 (117 → 99) and screener working-capital days fell 100 → 49 (FY22 → FY26) [V].
+
+#### (d) Eight-quarter trend (₹ Cr) — screener consolidated [V] plus company pre-Ind AS operating EBITDA where disclosed
+
+| Quarter | Sales | YoY | Op. profit (Ind AS) | OPM | Interest | Depreciation | PBT | PAT | Company op. EBITDA (pre-Ind AS) | Stores |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Dec-24 (Q3 FY25) | 1,561 | +8% | 133 | 8% | 26 | 62 | 57 | 46 | n/a | 4,612 [E: 4,712 − 100 net Q4] |
+| Mar-25 (Q4 FY25) | 1,510 | +1% | 136 | 9% | 27 | 64 | 61 | 51 | n/a | 4,712 |
+| Jun-25 (Q1 FY26) | 1,543 | +4% | 131 | 8% | 27 | 66 | 53 | 42 | n/a | 4,813 |
+| Sep-25 (Q2 FY26) | 1,679 | +7% | 149 | 9% | 29 | 69 | 69 | 56 | 88.7 (5.3%) | 4,930 |
+| Dec-25 (Q3 FY26) | 1,806 | +16% | 159 | 9% | 31 | 73 | 73 | 58 | 96.8 (5.4%) | 5,112 |
+| Mar-26 (Q4 FY26) | 1,864 | +24% | 169 | 9% | 33 | 76 | 80 | 64 | 107.6 (5.8%) | 5,330 |
+| Jun-26 (Q1 FY27) | 1,880 | +22% | 133 | 7% | 33 | 78 | 42 | 33 | 65.1 (3.5%) | 5,476 |
+| Sep-26 (Q2 FY27) | 2,037 | +21% | 170 | 8% | 37 | 84 | 70 | 56 | 98.1 (4.8%) | 5,642 |
+
+- Interest (almost all lease interest) rose 42% in eight quarters (₹26 → ₹37 Cr) and depreciation 35% (₹62 → ₹84 Cr) while sales rose 30% — **the Ind AS 116 drag on PAT is growing with the young lease book** [E from V].
+- Q2 FY27 PAT (₹56 Cr) equals Q2 FY26 PAT despite +21% sales: op. profit +14%, interest +28%, depreciation +22% [E from V].
+
+#### (e) FY26 Annual Report findings (read this session) [V unless marked]
+
+1. **Lease liabilities ₹1,424.4 Cr (31-Mar-2026) vs ₹1,119.8 Cr (31-Mar-2025), +27%** — exactly screener's "borrowings" ₹1,424 Cr. The AR's cash-flow note says the group's financing activities "comprise only of lease liabilities" → **no bank debt at all**. Lease cash outflow FY26 ₹265.4 Cr (₹231.2 Cr FY25). Undiscounted lease maturities at Mar-26 include ₹716 Cr "over 5 years" (₹405 Cr a year earlier) — longer leases being signed [V note 40/41].
+2. **Contingent liabilities are tiny: ₹14.1 Cr** (claims not acknowledged as debt: income tax ₹11.2 Cr, VAT ₹0.7 Cr, GST ₹0.3 Cr, others ₹1.9 Cr) vs ₹13.8 Cr a year earlier; plus an unquantified Provident Fund exposure (Supreme Court *Surya Roshni v EPFO*, Feb-2019, past-period allowances) and ₹1.3 Cr of disputed 2014-15 bonus (Payment of Bonus Amendment 2015, stayed by high courts). Capital commitments ₹7.6 Cr (₹0.9 Cr). No guarantees for promoter entities.
+3. **New Labour Codes (effective 21-Nov-2025):** the change in the wage definition raised gratuity obligation by ₹3.43 Cr and leave encashment by ₹3.11 Cr, booked as **past-service cost ≈ ₹6.5 Cr in FY26 P&L**; the company "continues to monitor the finalisation of Central/State Rules". This is separate from the Jun-2026 state minimum-wage hikes.
+4. **Cost structure (consolidated, % of total income):** COGS 73.01% (75.03% FY25); **employee benefits 12.70% (₹884.5 Cr) vs 11.74%**; other expenses 4.54%; finance costs 1.73%; D&A 4.06%. Staff cost rose 21.8% in FY26 on revenue +12.3% — the labour squeeze started before the 2026 wage hikes (warehouse hiring, retention bonuses).
+5. **People:** "over 28,000 permanent full-time employees" (group, AR26) vs "31k+" in the Q2 FY27 deck; only **1,413** on the listed company's own rolls (stores and staff sit in **Optival Health Solutions Pvt Ltd**, the material subsidiary). Median employee remuneration +5.91% in FY26.
+6. **Key ratios (MD&A):** inventory turnover 73.2 days (80.0 FY25); interest coverage 3.29× (2.79×); current ratio 3.00×; operating profit margin 5.74% (4.66%); net margin 3.19%; return on net worth 11.82% (9.06%).
+7. **Related parties:** small and mostly operational — Hinshitsu Manufacturing Pvt Ltd (purchase of maintenance items), Gangadi Investments Pvt Ltd (a promoter entity; rent), Bhaskar Reddy Hospitals (hospital profit commission); KMP remuneration; gratuity trusts. **No royalty, no brand fee, no inter-corporate loans to promoter entities.** The listco is not a party to the promoter NCDs (see g).
+8. **Risk table (MD&A)** names, first, "intense competition and pricing pressure" from "organised retailers, e-pharmacies and quick-commerce platforms … particularly in branded pharmaceutical products"; then regulatory risk "related to pharmaceutical retail, drug pricing, online pharmacy operations, data privacy"; then supply chain/inventory.
+9. **Subsidiaries:** Optival Health Solutions Pvt Ltd (material; holds the drug licences — the entity named in every Reg 30 licence-suspension disclosure) and Deccan Medisales Pvt Ltd; an insurance-broking "others" segment; four full-service and eight level-2 diagnostic centres (Hyderabad only).
+10. **Segment revenue FY26:** retail (pharmacy) ₹6,752.7 Cr; diagnostics ₹131.0 Cr (+21.2% from ₹108.1 Cr); others ₹1.4 Cr [V MD&A; diagnostics ₹1,309.87m vs ₹1,081.07m].
+
+#### (f) Ownership history (screener, 12 quarters) [V]
+
+| Quarter | Promoters | FIIs | DIIs | Public | Shareholders |
+|---|---|---|---|---|---|
+| Dec-23 | 40.45% | 12.96% | 25.19% | 21.31% | 66,048 |
+| Sep-24 | 40.39% | 14.72% | 27.98% | 16.85% | 87,328 |
+| Mar-25 | 40.33% | 15.61% | 26.19% | 17.82% | 83,439 |
+| Dec-25 | 40.29% | **16.83%** (peak) | 26.58% | 16.27% | 79,157 |
+| Mar-26 | 40.22% | 15.53% | 27.82% | 16.41% | 77,278 |
+| Jun-26 | 40.19% | 14.38% | 29.95% | 15.45% | 76,005 |
+| Sep-26 | 40.20% | **12.58%** | **31.89%** (record) | 15.31% | 77,714 |
+
+- **PE history [V-sec inc42 / YourStory / dtnext, Aug-2024]:** Warburg Pincus, through Mauritius-based **Lavender Rose Investment Ltd**, sold its **entire remaining 11.35% (≈1.35 Cr shares) at ₹616.48 for ≈₹836 Cr in an open-market bulk deal in Aug-2024**; it had sold 6.2% to Indian investors in 2021 and ~₹550 Cr of shares just before the Dec-2021 IPO (leaving 24.6% pre-IPO) [V-snip]. The DII jump in Sep-24 quarter (22.17% → 27.98%) is the Warburg block being absorbed. **The primer's "Warburg Pincus (Lavender Rose)" holder reference is obsolete.** Premji Invest's current stake was not verified.
+- FIIs have sold 4.25 pp since Dec-25 while DIIs bought 5.3 pp — domestic funds now own almost a third.
+
+#### (g) Promoter pledge — the exchange disclosures [V NSE filings]
+
+- **Structure of the promoter holding (Dec-2025 SAST disclosure):** Agilemed Investments Pvt Ltd **13.06%** (1,56,49,495 shares, fully pledged after a fresh 4.05% pledge on 16-Dec-2025); Lone Furrow Investment Pvt Ltd **14.42%** (2.09% encumbered); Gangadi Madhukar Reddy **12.81%** (1,53,50,400 shares, fully encumbered); total encumbered **3,34,99,895 shares = 69.39% of promoter holding**, ≥20% of total share capital.
+- **Purpose and terms (Reg 30, 18-Dec-2025):** promoters (Agilemed, Gangadi Investment Pvt Ltd, Mr Reddy) executed a debenture trust deed with **Catalyst Trusteeship** on 12-Dec-2025 to issue **NCDs of up to ₹175 Cr at 12.72% a year compounded monthly, plus a 1% initial coupon**, to refinance Agilemed's existing debt; lender on the new pledge is **Neo Assets** (per SAST form); earlier pledges referenced **Avendus Finance** [V-snip]. Pledge was to rise **temporarily from 23.91% to 27.96% of total capital**, then fall to **24.48%** once the old lender released shares.
+- **Sep-2026 position (screener): 74.1% of promoter holding pledged ≈ 29.8% of capital** [V/E] — **higher than the 24.48% the Dec-2025 filing said it would settle at**. Either the release has not happened or further pledges were made in 2026. Writer: say "the pledge has risen, not fallen, since the Dec-2025 refinancing" and cite both.
+- **Why it matters:** promoter-level debt of ~₹1,150 Cr (Q1 FY27 call) against a promoter stake worth ~₹2,990 Cr at ₹619 (40.2% × ₹7,440 Cr) [E] → loan-to-value ~38% [E]. A further ~30% fall in the share price would push LTV past ~55% [E], the zone where lenders typically call for top-ups. The buyback (≤₹750) gives some support but promoters cannot tender in an open-market buyback [K — SEBI buyback regulations].
+
+### 4.2.2 Apollo HealthCo (reference peer, inside APOLLOHOSP · 508869) — primary upgrade
+
+**Q2 FY27 (Jul–Sep 2026), from Apollo's results filing to BSE, 4-Nov-2026** [V]
+
+| Item | Q2 FY27 | Q1 FY27 | Q2 FY26 | H1 FY27 | FY26 | Note |
+|---|---|---|---|---|---|---|
+| Segment revenue — "Digital health & pharmacy distribution" (₹ Cr) | **3,285.8** | 2,977.0 | 2,660.5 | 6,262.8 | **10,808.1** | = HealthCo; +23.5% YoY, +10.4% QoQ |
+| Segment result (EBIT-type, ₹ Cr) | **172.8** | 152.3 | 85.9 | 325.1 | 398.7 | 5.3% of revenue in Q2 vs 3.2% a year ago [E] |
+| HealthCo EBITDA (press release, ₹ Cr) | **193** (6%) | 171.4 [Part 2] | 110 | — | — | |
+| HealthCo PAT (press release, ₹ Cr) | **118** | 101.7 [Part 2] | 73 | — | — | multibagg's ₹120.5 Cr is not the press-release figure |
+| Net new pharmacy stores | **222** | — | — | — | — | 7,440 (30-Jun) + 222 = **7,662** [E from V] |
+| Platform GMV growth | +20% | +23% | — | — | — | |
+| Core segment GMV (ex-GST) | **₹571 Cr** vs ₹450 Cr (+27%) | ₹535 Cr | — | — | — | |
+| Apollo 24|7 costs | H1 ₹182 Cr incl. ₹24 Cr ESOP (H1 FY26 ₹247 Cr incl. ₹57 Cr) | | | | | |
+| Retail health & diagnostics (separate segment, not pharmacy) | revenue ₹429.3 Cr, result ₹38.0 Cr | | | | FY26 ₹1,410 Cr | Apollo Health & Lifestyle |
+
+- **NCLT stage — resolved [V Apollo filing note]:** NSE and BSE issued observation letters on **23 and 24-Dec-2025**; on NCLT's directions, meetings of secured creditors, unsecured creditors and equity shareholders were held on **24-Jun-2026** and approved the scheme; **"the Company has filed a petition before the National Company Law Tribunal seeking sanction of the scheme."** So as of 4-Nov-2026 the **final sanction is pending**. The sibling report's "NCLT approved the scheme on 5 May 2026" is wrong in substance (the May order, if any, was the meeting-convening order). The scheme parties are **AHEL, Apollo Healthco Ltd (transferor 1), Keimed Pvt Ltd (transferor 2) and Apollo Healthtech Ltd (the resultant company that will list on NSE/BSE)** — **NewCo's name is Apollo Healthtech Ltd**.
+- **The front-end retail entity — resolved [V Apollo filing, related-party list]:** **Apollo Medical Pvt Ltd (AMPL)** is an **associate of Apollo HealthCo**; **Apollo Pharmacies Ltd**, Apollo Pharmalogistics Pvt Ltd and Apollo Pharma Products Pvt Ltd are **subsidiaries of AMPL**. The stores are therefore run by Apollo Pharmacies Ltd, a subsidiary of an HealthCo associate — consistent with Part 1 trap 7 (HealthCo books wholesale revenue to the stores).
+- **Call commentary (Q2 FY27, 4/5-Nov-2026) [V-sec compoundingai.in summary of the call]:** demerger "on schedule", completion expected **Q4 FY27**; pro-forma combined HealthCo EBITDA margin now expected at **~6% by end-Q4 FY27 (vs 6.5–7% guided earlier)**, rising to high single digits over 3–4 years; integrated HealthCo EBITDA **~₹1,500 Cr+ for FY27**; margin dip blamed on manpower investment in pharmacy, **private-label and generics**, bonuses and one-time scheme costs (more in Q3/Q4); Apollo 24|7 to grow daily orders 20–30% in six months on a flat cost base; insurance distribution slowed pending an IRDAI consultation paper; **CFO Sanjeev Gupta: impact of the 9-Nov-2026 cancer-drug price cap to be quantified once revised MRPs arrive**. Pharmacy grew ~28% YoY and ~14% QoQ (summary wording) [V-sec].
+- **Apollo private-label/generics share:** **15.53% of pharmacy sales in Q3 FY26** [V-snip search excerpt citing Apollo Q3 FY26 materials]; Q2 FY27 figure not found. This is below MedPlus's 21.4% (different basis: Apollo's is "private label + generics" on pharmacy sales).
+- **FY26 HealthCo segment revenue ₹10,808 Cr** replaces Part 1's "~₹10,500 Cr [E]" offline-PD estimate as the hard number for the whole segment (offline + online).
+
+### 4.2.3 Zota Health Care / Davaindia (reference peer, ZOTA) — primary upgrade [V Q2 FY27 deck 28-Oct-2026 and transcript of 29-Oct-2026 call]
+
+| Item | Q2 FY27 | Comparison |
+|---|---|---|
+| Consolidated revenue | **₹199.33 Cr** (+54.6% YoY) | Q2 FY26 ₹128.95 Cr |
+| of which Davaindia revenue | **₹168.47 Cr** (82%) | rest = domestic brands + exports |
+| Gross margin | **60.17%** | 59.33% a year ago; pressure from input costs, expected to recover over 3–4 quarters |
+| EBITDA (consolidated) | **+₹7.92 Cr (3.97%)** | −₹9.55 Cr in Q1 FY27 |
+| Davaindia EBITDA | pre-Ind AS **−₹7.28 Cr**; Ind AS operating −₹11.6 Cr | Q1 loss ~₹28 Cr incl. ₹17–18 Cr advertising (brand ambassadors); Q2 ad spend ₹8–9 Cr |
+| PAT (consolidated) | **−₹25.96 Cr** | −₹43.94 Cr in Q1 |
+| H1 FY27 revenue / gross profit | ₹372.93 Cr / ₹227.50 Cr (61%) | |
+| Stores (30-Sep-2026) | **2,840 = 1,859 COCO + 981 FOFO**; Q2 +20 (4 COCO, 16 FOFO), −5 FOFO | 24 states, 4 UTs |
+| COCO store count | Q2 FY26 1,207 → Q3 1,438 → Q4 1,656 → Q1 FY27 1,855 → Q2 1,859 | rollout paused in Q2 |
+| Davaindia GMV | **₹187.91 Cr** (+77% from ₹105.98 Cr) | COCO GMV ₹137.87 Cr (Q1 ₹115.69 Cr) |
+| Footfall / average bill | 66.17 lakh customers (COCO 48.7 lakh) / ₹283 (₹229) | |
+| Store cohorts (avg GMV per store per month) | FY21–24 cohort (234 stores) **₹4.60 lakh**, store EBITDA 15–17%; FY24–25 (617) ₹2.59 lakh; FY25–26 (804) ₹2.00 lakh, store EBITDA −5% to −7% | new store ₹76,000 in month 1 → ₹2.25 lakh by month 10 |
+| Guidance (Himanshu Zota, 29-Oct-2026) | **400–450 stores in H2 → 600–650 for FY27 unchanged; ~800 openings in FY28** | |
+| Balance sheet | ₹119.52 Cr of loans + accrued interest to Davaindia Health Mart Ltd converted into equity (no cash) | |
+
+- **Read-across:** a mature Davaindia store (₹4.6 lakh GMV a month ≈ ₹55 lakh a year) sells about **one-third** of a MedPlus store (~₹12 lakh a month); the average Davaindia COCO store (₹137.87 Cr ÷ ~1,857 ÷ 3 ≈ ₹2.5 lakh/month [E]) sells about **one-fifth**. Its 60% gross margin is the generic-only model (no branded products), versus MedPlus's 25%.
+- Part 2's "Davaindia ~₹24 lakh/yr per store" [E] holds roughly (₹168.47 Cr × 4 ÷ 2,833 avg ≈ ₹23.8 lakh net revenue per store per year, incl. FOFO supply sales) [E from V].
+
+### 4.2.4 Entero (reference, distributor) — no new primary document fetched; Part 2 screener data stand.
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3.1 IPM size and monthly growth — Pharmarack PharmaTrac (the series to use)
+
+**FY26 anchor: MAT March-2026 = ₹2,45,943 Cr, +8.6% value; units +0.6% (MAT); March-2026 month ₹20,012 Cr, +10.1%, units +0.1%** [V-sec Medical Dialogues report of the Pharmarack PharmaTrac release, fetched 14-Nov-2026]. Value growth "driven mainly by price; volume nearly flat". Valuation basis (MRP vs PTR) is **not stated** in the release — keep the Part 1 caveat.
+
+| Month (2026) | Monthly value (₹ Cr) | Value growth YoY | Unit growth YoY | MAT growth | Source |
+|---|---|---|---|---|---|
+| Jan | n/a | ~vaccines +24.4% led | — | — | [V-snip biospectrum headline] |
+| Feb | n/a | ~11% | — | — | [V-snip biospectrum headline] |
+| **Mar** | **20,012** | **+10.1%** | +0.1% | **+8.6% (MAT ₹2,45,943 Cr)** | [V-sec Medical Dialogues / Pharmarack] |
+| Jun | 21,478 | +13.3% | +3.3% | +9.8% | [V-snip biospectrum; Part 1] |
+| Jul | 23,193 | +12.1% | — | — | [V-snip] |
+| Aug | ~23,272 | +10.7% | 0.0% | — | [V-snip biospectrum] |
+| Sep | n/a | +13.5% | +3.4% | +13.2% (Equirus/IANS basis; differs) | [V biospectrum, Part 1; V-snip IANS] |
+
+- **Therapy growth, March-2026 (monthly):** vaccines +22.7%, anti-diabetic +15.5%, cardiac +14.6%, urology +12.8%, anti-neoplastics +12.4%, neuro/CNS +11.6%, vitamins +10.9%, respiratory +10.7%, derma +9.5%, pain +8.7%, gastro +4.3%, **anti-infectives +4.0%** [V-sec]. Chronic therapies outgrow acute by ~2–3× — the refill basket that chains (and online) live on is the fast-growing part.
+- **Implication for the writer:** FY26 IPM growth was **8.6% with ~0.6% volume** — almost entirely price + mix. The 2026 calendar-year run-rate is 11–13% (vs Pharmarack's own January projection of 7.8–8.1%), with volume turning positive only from Jun/Sep. The Part 1 "₹2.46 lakh Cr, +8.8%" (Financial Express headline) is close but the **growth figure is 8.6% on the Pharmarack MAT**; 8.8% may be an AWACS cut. Use "about ₹2.46 lakh crore, up ~8.6%" and cite Pharmarack.
+
+### 4.3.2 Channel structure — still only one primary split
+
+- No rating-agency (CRISIL/ICRA/CareEdge/India Ratings) figure for organised share was found in a targeted search; the **IPA/Pharmarack 2024 split (standalone 54%, institutional 31.3%, chains 11.6%, online 2.5%, Jan Aushadhi <1%; 2023)** remains the only primary-quality source [V Part 1]. A vendor note claims "organised pharmacy retail FY26 ₹30,000 Cr+" [V-snip, low credibility], consistent with our ₹30,000–40,000 Cr bottom-up.
+- **Bottom-up FY26 chain revenue, upgraded with hard numbers [E built on V]:**
+
+| Chain (FY26 unless noted) | Revenue basis | ₹ Cr | Tag |
+|---|---|---|---|
+| Apollo Pharmacy (retail value) | HealthCo segment ₹10,808 Cr (wholesale + online) [V]; retail value ≈ offline PD ÷ ~0.8 | ~12,500–13,500 | [E from V] |
+| MedPlus | Consolidated revenue | 6,892 | [V] |
+| Wellness Forever | FY25 revenue (latest) | ~1,570–1,700 | [V-sec inc42] |
+| Davaindia (Zota) | FY26 Zota revenue 538 (Davaindia ~80%); H1 FY27 run-rate ~₹1,300 Cr annualised GMV | ~430 (FY26) | [V screener; V Zota Q2] |
+| Others (Reliance/Netmeds stores, Tata 1mg offline, Frank Ross, Noble Plus, Guardian, Trust, Fortis/hospital chains' retail, Medlife legacy, regional chains) | — | 8,000–15,000 | [E] |
+| **Total chains** | | **~29,000–37,000 ≈ 12–15% of a ₹2.46 lakh Cr IPM** | [E] |
+
+### 4.3.3 Jan Aushadhi — primary series (replaces Part 1 E11)
+
+| Date | Kendras | Source |
+|---|---|---|
+| 28-Feb-2025 | 15,000 | [V-snip PIB 2025 release] |
+| 30-Nov-2025 | 17,610 (2,202 opened in calendar 2025) | [V-snip Lok Sabha via Medical Dialogues] |
+| Mar-2026 | "over 18,000" | [V PIB backgrounder, Part 1] |
+| **30-Jun-2026** | **20,149** (776 of 784 districts; Kerala 1,833) | **[V PIB 11-Aug-2026, Rajya Sabha written reply by MoS Anupriya Patel, PRID 2297568]**; same count in Lok Sabha reply of 24-Jul-2026 [V-sec Organiser] |
+| Mar-2027 target | 25,000 | [V PIB] |
+
+| Sales (₹ Cr, at MRP) | FY22–FY26 | FY25 | FY26 | Source |
+|---|---|---|---|---|
+| Value | **7,873.85 cumulative** (savings ~₹37,200 Cr) | 1,760 to 28-Feb-2025 (≈ ₹2,000 Cr full year [E]) | **2,252.21** | [V PIB 11-Aug-2026] / [V-snip PIB 2025] / [V-snip Lok Sabha via Kashmir Life] |
+
+- **Consistency check [E]:** the PIB five-year cumulative (₹7,873.85 Cr) less FY26 ₹2,252 Cr leaves ₹5,622 Cr for FY22–FY25, i.e. ~₹1,400 Cr a year average with FY25 ~₹2,000 Cr — consistent. **FY26 ₹2,252 Cr can be printed as "per a Lok Sabha reply", cross-checked against the PIB cumulative.**
+- **Per-kendra sales [E]:** ₹2,252 Cr ÷ ~18,900 average kendras (Apr-25 ~16,000 to Mar-26 ~19,000+) ≈ **₹12 lakh a year (~₹1 lakh/month)** — about 1/12th of a MedPlus store and below a mature Davaindia COCO (₹4.6 lakh GMV/month).
+- **Supply chain:** 5 warehouses, 42 distributors; 400 fast-moving products monitored; since Sep-2024 kendras get a monthly incentive for stocking 200 commonly used medicines (100 top-selling in the basket + 100 fast-selling in the market); 100% batch testing at NABL labs [V PIB 11-Aug-2026].
+- **Policy fight:** the Ministry of Cooperation (letter 11-Dec-2025) asked the Health Ministry to consider **restricted drug licences (Forms 20A/21A, Rules 62A/62B) for PACS (primary agricultural co-operative societies) to run Jan Aushadhi kendras without a pharmacist**; AIOCD objected (letter 4-Mar-2026) [V-sec Medical Dialogues 9-Mar-2026]. If approved, it would multiply JAK points of sale in rural India.
+- **Savings claim inflation:** ₹37,200 Cr (PIB, FY22–26) vs "₹45,000 Cr" (Minister's speeches, cumulative since launch) — quote the PIB one with its period.
+
+### 4.3.4 Chemist / licence count — still unsourced
+
+No parliament reply, CDSCO or state census of retail drug licences was found (two targeted searches; CDSCO's 70th DCC minutes (18-Sep-2026), which discussed a pharmacists' request to cap retail-to-wholesale licence ratios, could not be downloaded — connection reset/503). The DCC reportedly **declined to recommend any uniform cap on the number or ratio of retail licences** [V-snip]. Keep "about 8–12 lakh retail chemists (AIOCD claims ~12.4 lakh members incl. wholesalers)" as [K]/[V-sec].
+
+### 4.3.5 Policy datasets (dated, primary or near-primary)
+
+**A. NPPA trade-margin rationalisation (TMR) on cancer drugs**
+
+| Item | 2019 pilot | 2026 order | Source |
+|---|---|---|---|
+| Legal basis | DPCO 2013 Para 19 | DPCO 2013 Para 19 ("extraordinary circumstances" found at NPPA meeting of 8-Oct-2026) | [V-sec AIR News 19-Oct-2026; V-snip] |
+| Drugs | 42 non-scheduled anti-cancer | **137 non-scheduled anti-cancer** (list recommended by a DGHS expert committee; "updated periodically") | [V-sec AIR News] |
+| Cap | 30% trade margin | **Trade margin ≤30% of MRP** (sources differ on GST treatment — FLAG) | [V-sec] |
+| Notified / effective | Feb/Mar-2019 | Gazette **17-Oct-2026**, effective **9-Nov-2026**; manufacturers to report revised prices within 7 days and publish price lists to retailers/hospitals | [V-sec] |
+| Impact | MRPs of 526 brands cut up to 90% | MRPs to fall **up to 70%**; NPPA: ~600 brands with cuts >50%; 10–15 of the 137 not yet launched in India | [V-sec; V-snip] |
+| Company reaction | — | Apollo CFO: impact to be quantified once revised MRPs arrive (Q2 FY27 call) | [V-sec] |
+
+**B. E-pharmacy legal status (as of Nov-2026)**
+
+| Step | Date | Status | Source |
+|---|---|---|---|
+| Draft Drugs & Cosmetics (Amendment) Rules on e-pharmacy, GSR 817(E) | Aug-2018 | **Never notified** | [V Part 1; V-sec Business Today] |
+| Delhi HC PIL (Zaheer Ahmed) — order restraining unlicensed online sale | Dec-2018 | Pending; on **4-May-2024** HC gave the Health Ministry a "last and final opportunity" to frame policy within four months | [V-sec verdictum] |
+| Madras HC (single judge) — directed Centre to notify the 2018 rules; effectively barred online trade without licence | Dec-2018 | Appeal disposed by **Division Bench (Practo v TN Chemists & Druggists Assn, 2024:MHC:2491), Jul-2024**: **status quo** until the Centre frames policy or Delhi HC disposes; online sales only by licensed chemists | [V-sec verdictum] |
+| GSR 220(E) (COVID home delivery by licensed retailers) | 26-Mar-2020 | In force; relied upon by online/QC players | [V Part 1] |
+| Draft **Drugs, Medical Devices and Cosmetics Act/Bill 2025** (would replace the 1940 Act; licence/permission required for online sale "in a manner to be prescribed") | text submitted by DCGI to MoHFW **15-Oct-2025** | **Not found introduced in Parliament** as of Nov-2026 | [V-snip law-review summary] |
+| Jan Vishwas (Amendment) Bill 2025/2026 — decriminalises minor offences under the Drugs & Cosmetics Act | 2025–26 | Reported | [V-snip] |
+| CDSCO circular reiterating Rx-only sale of prescription drugs (QC context) | reportedly 21-Sep-2026 | **Single vendor-blog source — unverified** | [V-snip] |
+| AIOCD nationwide protest/strike | **20-May-2026** | Memoranda via district collectors to the PM; demands: withdraw GSR 817(E) and GSR 220(E), curb deep discounts and QC Rx delivery; no government response reported in Business Today | [V-sec Business Today 20-May-2026] |
+
+**C. State minimum wages (the MedPlus cost shock)**
+
+| State | Instrument | Effective | Size | Source |
+|---|---|---|---|---|
+| Karnataka | Single notification covering 81+ scheduled employments (first consolidation; last major revision 2016-17), issued Sat **23-May-2026** | Compliance sites say rates apply 1-Apr-2026 to 31-Mar-2027; MedPlus says it hit from **1-Jun-2026** | **Average +60%**; >1 crore workers; unskilled Zone-3 ₹19,300, highly skilled Zone-1 up to ₹31,100 (per month) | [V-sec Telangana Today/IANS; V-snip compliance sites; V MedPlus Q1 call] |
+| Telangana | **G.O.Ms. No. 6 dated 30-May-2026**, revising minimum wages for all scheduled employments incl. shops & commercial establishments | **1-Jun-2026** | Shops & establishments monthly: unskilled ₹16,000 / ₹15,000 / ₹14,000 (Zones I/II/III); skilled ₹18,500/17,500/16,500; highly skilled ₹20,000/19,000/18,000; MedPlus: "25% plus" | [V-sec dcpsol compliance page; V MedPlus Q1 call] |
+
+- The Karnataka 60% average is a statewide figure; MedPlus's own 60% statement matches it. The Telangana percentage could not be recomputed (prior Apr–Sep 2026 VDA rates not on the fetched page).
+
+**D. MedPlus (Optival) drug-licence suspensions — 2026 extends beyond Karnataka/Telangana**
+
+| Approx. date (2026) | State / place | Duration | Est. revenue loss | Source |
+|---|---|---|---|---|
+| 9-Mar | **Odisha** (Sambalpur area) | 3 days | — | [V-snip investywise] |
+| 21-Mar | Karnataka | 3 days | ~₹1.38 lakh | [V-snip whalesbook] |
+| 28-Mar | Telangana (Parkal Main Road, Warangal ADC) | 3 days | ~₹0.60 lakh | [V-snip] |
+| 5-May | **Chhattisgarh** | — | — | [V-snip whalesbook] |
+| 14/15-May | Karnataka (Virajpet; Madikeri DCA) + Telangana | 3 days each | — | [V-snip] |
+| 22-May | Karnataka (Madikeri 2 days; Nagarabhavi 2nd Stage, Bengaluru 3 days) | — | ₹0.54 + ₹1.98 lakh | [V Angel One, Part 1] |
+| 9-Jun | Karnataka (Bengaluru) | 2 days | — | [V-snip] |
+| 24-Jun | **Andhra Pradesh** (2 orders / store(s) unnamed) after routine inspections | — | "negligible" | [V-sec sahi.com, fetched] |
+
+- **New insight:** in 2025 the orders were almost all **Karnataka/Telangana**; in 2026 they reached **Odisha, Chhattisgarh and Andhra Pradesh** (and an earlier Maharashtra mention). Still single stores, 2–3 days, ₹ lakhs of revenue; reasons not disclosed. Pattern = routine state-DCA inspections finding lapses (pharmacist absence/Rx records are typical, **not confirmed** — do not print as fact). Roughly 1–3 orders a month against 5,600 stores.
+
+**E. Quick commerce (QC) medicine delivery — what can be said**
+- **Players and dates:** Zepto Pharmacy (launched Aug-2025 after a 12-month pilot; Mumbai, Bengaluru, Delhi-NCR, Hyderabad), Swiggy Instamart (with PharmEasy), Blinkit, Flipkart Minutes, PhonePe Pincode (10-minute in three cities) [V-snip]. Telangana Today (27-Aug-2026) reports Blinkit, Instamart and Zepto delivering medicines with "30-second" tele-prescriptions; Hyderabad chemists call it a "grey zone" needing rules; **no regulator statement, no volume figure** [V-sec].
+- **No credible QC-pharmacy GMV or share figure exists in the public domain** (four searches across the two passes). IMARC sizes all online pharmacy at **US$3.71 bn (2025)** [V-sec Business Today citing IMARC]; Ken Research US$3.5 bn [V-snip]. Writer: present QC as a qualitative threat (metro acute/OTC), not a quantified one.
+- **Company evidence that QC is not yet visible in numbers:** MedPlus metro revenue share 47% → 45% over a year while metro stores keep growing [V-decode]; Apollo's 24|7 order growth target (+20–30% in six months) is its own omnichannel response [V-sec].
+
+### 4.3.6 Online pharmacy players — upgraded numbers
+
+| Player | FY25 | FY26 | Note | Tag |
+|---|---|---|---|---|
+| **Tata 1mg** (consolidated) | ₹2,392 Cr (inc42 aggregator 2,358.9) | **₹2,936 Cr (+23%), net loss ₹287 Cr** (Healthcare Solutions −₹310 Cr; Technologies +₹23 Cr or +₹17.5 Cr) | Claims ePharmacy breakeven and EBITDA-positive core businesses in FY26 (company claim) | [V-snip D2C Insider/inc42/YourStory] |
+| **PharmEasy (API Holdings)** | ~₹5,872 Cr | ₹6,618.5 Cr, loss ₹520 Cr; B2C ₹1,334.5 Cr | — | [V Part 1] |
+| **Truemeds** | **₹510 Cr net revenue (from ₹315 Cr FY24)** | n/a | Series C US$85 m (Accel, Peak XV); valuation ~US$410 m (Peak XV ~5%); generic-substitution model | [V-snip Entrackr/TechCrunch] |
+| **Apollo 24|7 / online PD** | — | online PD + 24|7 revenue ~₹1,400 Cr [E: Q1 348 + Q2 401 ×2] (FY27 run-rate ~₹1,500 Cr) | Digital cash-positive Q2 FY27 (₹1.3 Cr) | [V Part 2; E] |
+| Netmeds | — | n/a | inside Reliance Retail | — |
+| **Wellness Forever** (stores chain) | ₹1,571.4 Cr, loss ₹47.4 Cr (FY24 ₹1,503.4 Cr) | n/a | 2021 DRHP (236 stores, 23 cities); IPO pages still "upcoming", no current store count | [V-sec inc42; V-snip] |
+
+- **Online total FY26 [E]:** 1mg ~₹2,900 + PharmEasy B2C ~₹1,330 + Apollo online ~₹1,400 + Truemeds ~₹700–800 (FY25 ₹510 Cr growing ~50%) + Netmeds ~₹1,000 + MedPlus omni ~₹400 + others → **~₹7,500–8,500 Cr ≈ 3–3.5% of IPM**. Online share is creeping up from IPA's 2.5% (2023), not stalling outright; the pure-plays are now near breakeven (1mg ePharmacy breakeven claim, Apollo 24|7 cash-positive, PharmEasy B2C EBITDA −3%).
+
+### 4.3.7 Global peers — fetched data (replaces Part 1 §10 [K] rows)
+
+FX as in Part 1: ₹94.9/US$; ₹17/R$; ₹13.1/RMB; ₹0.62/¥ [E].
+
+| Company | Latest period | Revenue | Stores | Margin | Rev/store (annualised, ₹ Cr) [E] | Status | Tag |
+|---|---|---|---|---|---|---|---|
+| **CVS Health — Pharmacy & Consumer Wellness (US)** | Q3 2026 (Jul–Sep) | **US$35.5 bn** (−2.0% YoY); 9M US$101.3 bn | ~9,000 retail pharmacies | **Adj. op. income US$1,635 m = 4.6%** (GAAP 4.4%); Rx filled 470.0 m (+1.9%); same-store sales −0.6% | ~₹150 Cr (incl. specialty/mail inside PCW — overstated) | Listed; FY26 group revenue guided ≥US$420 bn; Rite Aid Rx files acquired Q3 2025; Omnicare deconsolidated Sep-2025 | [V SEC 8-K Ex 99.1, Q3 2026] |
+| **Walgreens (US)** | — | n/a (private) | ~8,500 US | n/a | — | **Taken private by Sycamore Partners, closed 28-Aug-2025: US$11.45/share (~US$9.9 bn equity), up to US$23.7 bn incl. VillageMD proceeds; split into five companies (Walgreens, The Boots Group, Shields Health Solutions, CareCentrix, VillageMD)** | [V-snip Becker's / HLTH] |
+| **RD Saúde / Raia Drogasil (Brazil)** | 3Q26 | **Net R$11.4 bn (+7.8%)**; gross R$13.16 bn (+16%) ≈ ₹22,400 Cr/qtr | **3,770** (92 opened, 9 closed in Q) | **Adj. EBITDA R$1.024 bn = 7.8% of gross revenue**; adj. net margin 3.3%; same-store +10.1% (mature +8.4%); digital 29.4% of retail revenue | ~₹23.7 Cr | Listed (RADL3); net debt 0.8× EBITDA | [V-sec DGABC 3-Nov-2026; V-snip store count] |
+| **Tsuruha Holdings incl. Welcia (Japan)** | FY to Feb-2026; Q1 FY2/27 | FY2/26 sales ¥1,450.6 bn (Welcia only from Dec-2025); Q1 FY2/27 (Mar–May 2026) ¥636.9 bn | **5,676** (Feb-26; 5,665 May-26) | FY2/26 op. margin 4.3%; Q1 FY2/27 **3.8%** (4.6% a year earlier) on integration costs | ~₹28 Cr [on Q1 ×4] | **Welcia became a wholly owned subsidiary by share exchange on 1-Dec-2025** — Japan's largest drugstore group | [V-snip japanir/envalith] |
+| **Yifeng Pharmacy (China)** | CY2025 | **RMB 24.43 bn (+1.5%)** ≈ ₹32,000 Cr | **14,831 incl. 4,313 franchise**; +694 (193 own, 501 franchise), **−547 closed**, net +147 | Net profit RMB 1.678 bn = **6.9%**; ROE 15.0% | ~₹2.2 Cr | Listed (SH 603939); "market gradually saturating", closures of weak stores | [V-sec Beijing News] |
+
+**What the global lens now says (fact-based):**
+- **Margins converge at 4–8%:** CVS PCW 4.6% adj. operating, Tsuruha 3.8–4.3% operating, RD 7.8% EBITDA (≈4–5% EBIT [E]), Yifeng 6.9% net (unusually high — China's pharmacies sell more high-margin OTC/TCM and benefit from medical-insurance card spend). MedPlus's 4.8–5.3% pre-Ind AS operating EBITDA is squarely in the global range; **there is no global precedent for a pharmacy chain earning a ~12% blended EBITDA**.
+- **Store productivity:** a MedPlus store (~₹1.4 Cr/yr) is ~1/17 of an RD store and ~2/3 of a Yifeng store — Yifeng (China) is the closest analogue in store size and price level.
+- **Franchise is how scale is reached:** Yifeng added 501 franchise vs 193 owned stores in 2025 and closed 547 weak stores — the same playbook MedPlus has just adopted (franchisee net adds 131 of 146 in Q1 FY27) and Davaindia runs (981 FOFO).
+- **Mature markets are shrinking stores:** Walgreens closing ~1,200, CVS flat at ~9,000 with negative same-store sales, Yifeng net +147 only — a contrast with India's still-greenfield ~12–15% chain share.
+
+### 4.3.8 MedPlus buyback — terms from the public announcement [V BSE filing, 10-Nov-2026]
+- Board approval **6-Nov-2026**; public announcement in newspapers **9-Nov-2026**; opened **Fri 13-Nov-2026**; must close within **66 working days** of opening (≈ mid-Feb-2027 [E]).
+- Open-market route through the stock exchanges; **promoters and persons in control excluded**; maximum price **₹750**; maximum size **₹130 Cr** (excluding transaction costs) = **9.87% / 6.61%** of standalone / consolidated paid-up capital + free reserves.
+- Indicative maximum **17,33,333 shares** at ₹750 (~1.44% of equity [E on ~12.0 Cr shares]); **minimum 75% of size (₹97.5 Cr; indicative ≥13,00,000 shares)** must be used; **≥40% (₹52 Cr) within the first half** of the window; the board may close early once 75% is deployed.
+- At ₹620 the ₹130 Cr buys ~2.1 million shares (~1.75% of equity) [E]; because promoters cannot tender, their stake would rise from 40.20% to ~40.9% if fully executed [E].
+
+---
+
+## 4.4 Gap log (Part 1 §H items and the brief's 14 gaps)
+
+| # | Gap | Status | What was found / tried |
+|---|---|---|---|
+| H1 / G1 | Organised (chain) share FY26 from a primary or rating-agency source | **Still open (partly)** | No CRISIL/ICRA/CareEdge/India Ratings figure found (targeted search). IPA/Pharmarack 2023 split remains the only primary. Bottom-up FY26 chain revenue upgraded with Apollo's segment figure (₹10,808 Cr) → ~₹29,000–37,000 Cr ≈ 12–15% of IPM [E]. Did not open SEBI DRHP industry chapters (no recent pharmacy-retail DRHP located). |
+| H2 / G2 | IPM FY26 size and latest monthly growth | **Filled (near-primary)** | Pharmarack PharmaTrac MAT Mar-2026 **₹2,45,943 Cr, +8.6%**, units +0.6% [V-sec Medical Dialogues]; Sep-2026 +13.5% [V Part 1]. October-2026 data not yet published at 14-Nov. MRP/PTR basis still unstated. |
+| H3 / G3 | Number of retail chemists / drug licences | **Still open** | No parliament reply or CDSCO census found; CDSCO DCC-70 minutes (18-Sep-2026) would not download (reset/503). DCC reportedly declined a cap on retail-licence ratios [V-snip]. |
+| H4 / G4 | Jan Aushadhi kendras and FY26 sales | **Filled** | **20,149 kendras at 30-Jun-2026** [V PIB 11-Aug-2026]; FY22–26 sales ₹7,873.85 Cr [V PIB]; FY26 ₹2,252.21 Cr [V-snip Lok Sabha] reconciles with the PIB cumulative. |
+| H5 / G5 | Apollo Q2 FY27 (revenue, EBITDA, stores, GMV, PL share, NewCo shareholding, NCLT) | **Mostly filled** | From Apollo's BSE results filing [V]: HealthCo segment ₹3,285.8 Cr, segment result ₹172.8 Cr; press release EBITDA ₹193 Cr, PAT ₹118 Cr; 222 net stores (→ 7,662 [E]); core GMV ₹571 Cr; NCLT **sanction petition pending** (meetings held 24-Jun-2026); NewCo = **Apollo Healthtech Ltd**; front-end = Apollo Pharmacies Ltd (subsidiary of AMPL, an HealthCo associate). Margin guide ~6% by Q4 FY27 [V-sec]. **Still open:** PL share for Q2 FY27 (only Q3 FY26 15.53% [V-snip]); NewCo shareholding split; Apollo transcript (403). |
+| H6 | Apollo store count 7,662 | **Upgraded** | 7,440 (30-Jun, V-ocr deck) + 222 net (V filing) = 7,662 [E from V]. |
+| H7 | Apollo Pharmacy retail sales (front-end entity) | **Still open** | Entity identified (Apollo Pharmacies Ltd under AMPL) but its revenue is not in AHEL filings; would need MCA filings (paid). |
+| H8 | Apollo private-label share | **Partly filled** | 15.53% PL + generics of pharmacy sales, Q3 FY26 [V-snip]; Q2 FY27 not found; Apollo says it is investing in a PL & generics team [V-sec]. |
+| H9 / G6 | Wellness Forever stores and financials | **Still open** | Only FY25 (₹1,571.4 Cr, loss ₹47.4 Cr; FY24 ₹1,503.4 Cr) [V-sec inc42]; no current store count; IPO not launched. The primer's "~600 stores" remains unverified. |
+| H10 / G6 | Tata 1mg, PharmEasy, Truemeds FY25/FY26 | **Mostly filled (snippet grade)** | 1mg FY26 ₹2,936 Cr, loss ₹287 Cr [V-snip]; Truemeds FY25 ₹510 Cr (FY24 ₹315 Cr), US$85 m Series C, ~US$410 m valuation [V-snip]; PharmEasy as Part 1 [V]. Netmeds and Frank Ross: still nothing. |
+| H11 | API Holdings FY25 conflict | Not re-examined | Part 1 conflict stands (₹5,872 Cr vs ₹6,010 Cr). |
+| H12 / G7 | Global peers | **Filled** | CVS PCW Q3 2026 [V SEC 8-K]; RD Saúde 3Q26 [V-sec]; Walgreens take-private [V-snip]; Tsuruha-Welcia [V-snip]; Yifeng 2025 [V-sec]. Multiples not fetched (not printed). |
+| H13 | MedPlus state split Mar-26/Sep-26 | Not re-examined | Still chart-decoded. |
+| H14 / G8 | MedPlus store counts FY21–FY26 | **Filled** | FY21 2,001; FY22 2,748; FY23 3,822 (cover 3,882); FY24 4,407; FY25 4,712; FY26 5,330 [V annual reports]. |
+| H15 / G8 | MedPlus PE history and pledge | **Filled** | Warburg (Lavender Rose) exited fully Aug-2024 (11.35%, ~₹836 Cr at ₹616.48) [V-sec]; pledge structure, NCD terms (₹175 Cr, 12.72% compounded monthly, Catalyst trustee, Neo Assets lender) and expected 24.48% level [V NSE filings]; Sep-26 screener 74.1% of promoter holding. |
+| H16 / G12 | Quick-commerce medicine figure / regulatory response | **Still open (no figure exists publicly)** | Players and dates [V-snip]; Telangana Today Aug-2026 report [V-sec]; CDSCO 21-Sep-2026 circular unverified [V-snip]. |
+| H17 / G10 | Delhi HC / Madras HC e-pharmacy status | **Filled (near-primary)** | Delhi HC 4-May-2024 "last and final opportunity"; Madras HC DB Jul-2024 status-quo order (Practo v TNCDA) [V-sec verdictum]. No 2026 final judgment found. |
+| H18 / G10 | Drugs, Medical Devices and Cosmetics Bill | **Partly filled** | Draft Act text submitted by DCGI to MoHFW 15-Oct-2025; not found introduced in Parliament by Nov-2026 [V-snip]. |
+| G10 | AIOCD strike 20-May-2026 | **Upgraded** | Business Today 20-May-2026 [V-sec]: nationwide protest, memoranda via collectors; demands confirmed. Participation numbers remain AIOCD claims. |
+| H19 / G9 | MedPlus Q2 FY27 transcript | **Still open (not filed)** | Screener lists only audio for the 28-Oct call; Q1 FY27 transcript used, as instructed. |
+| H20 | Omni-channel series | Not re-examined | — |
+| G11 | NPPA: 137 drugs, 2019 TMR, NLEM coverage, Apr-2026 WPI | **Mostly filled** | 137-drug order facts [V-sec AIR News]; 2019 facts confirmed. NLEM-2022 IPM coverage and the +0.65% Apr-2026 WPI revision were **not re-fetched** (remain V-sib). |
+| G13 | KA/TG minimum wages 2026 | **Filled** | KA notification 23-May-2026, average +60%, 81+ employments [V-sec IANS]; TG G.O.Ms. 6 of 30-May-2026, effective 1-Jun-2026, shop wage table [V-sec]. |
+| G14 | Store licence suspensions 2025–26 | **Upgraded** | 2026 orders now also in Odisha, Chhattisgarh, Andhra Pradesh [V-snip / V-sec sahi]; still single-store, 2–3 days. Exchange PDFs not opened individually. |
+
+---
+
+## 4.5 New insights and new primer issues
+
+### 4.5.1 Insights the first pass missed
+
+1. **MedPlus's margin gain was bought in FY25 — and the bill is being paid now.** Annual reports show gross margin flat at ~21–22% for FY21–FY24, then **+245 bps in FY25 and +186 bps in FY26 to 26.2%**, while PL share (AR basis) jumped 14.3% → 19.3% → 21.9%. Revenue growth slowed to 9% in FY25 exactly when the PL push peaked (23.3% in Q4 FY25). The FY27 retreat (PL pharma at a low of 10.7%, GM 25.1%) is the company deliberately giving some of that margin back to regain branded customers. The writer should frame FY25–FY27 as one cycle, not as "FY26 good, FY27 bad".
+2. **Staff cost — not rent — is the structural squeeze, and it started before the wage hikes.** Employee benefits rose from 11.74% to **12.70% of income in FY26** (+21.8% on revenue +12.3%) [V AR26], before the Jun-2026 KA +60% / TG +25% minimum-wage notifications and on top of a ₹6.5 Cr labour-code past-service cost. Global peers say the same thing: RD Saúde's EBITDA margin is "still pressured by investments in employee pay and benefits made at the end of 2025"; Tsuruha's margin fell to 3.8% on SG&A. Pharmacy retail is a labour business everywhere.
+3. **Revenue per store has not grown in four years (~₹1.35–1.4 Cr)** despite store maturation, because each year's new cohort (and the move into Tier-2/3 and franchise) dilutes the average. Growth is almost entirely store count. That makes the 800-store guidance (H1: 312 net) the single most important number for FY27 revenue.
+4. **The promoter pledge went up, not down, after the Dec-2025 refinancing.** The company's own filing said the pledge would settle at 24.48% of capital; screener shows ~29.8% (74.1% of promoter holding) at Sep-2026. The promoter vehicle pays **12.72% compounded monthly** on ₹175 Cr of NCDs — expensive money against a ~₹1,150 Cr promoter debt. The listco has no exposure (no guarantees, no loans, AR26), but this is the stock's main governance overhang alongside the capex U-turn.
+5. **Apollo's "pharmacy" is three legal layers, now documented:** Apollo Pharmacies Ltd (stores) ← subsidiary of Apollo Medical Pvt Ltd (AMPL) ← associate of Apollo HealthCo ← subsidiary of AHEL; HealthCo (wholesale + 24|7) and Keimed (distribution) are being merged into **Apollo Healthtech Ltd**, which will list after NCLT sanction (petition filed; meetings held 24-Jun-2026). The NewCo will be a distributor/platform, **not** a store owner — so it is not a like-for-like valuation comp for MedPlus even after listing.
+6. **Generic-only formats are scaling faster than chains:** Jan Aushadhi went 15,000 (Feb-2025) → **20,149 (Jun-2026)**, ~4,000 kendras a year; Davaindia 2,840 stores with ~800 openings planned for FY28. But per-outlet sales are tiny (JAK ~₹1 lakh/month; Davaindia COCO ~₹2.5 lakh GMV/month; MedPlus ~₹12 lakh). They are price anchors and counter-persuasion tools for generics, not volume threats to chains yet.
+7. **Online share is drifting up, and pure-plays are reaching breakeven:** 1mg FY26 revenue +23% with an ePharmacy breakeven claim; Truemeds ₹510 Cr FY25 (+62%); Apollo 24|7 cash-positive. The "online is dead at 2.5%" framing in Part 1 is too strong — **~3–3.5% in FY26 [E] and growing faster than IPM**.
+8. **Licence enforcement is spreading geographically.** MedPlus suspensions moved from Karnataka/Telangana (2025) to Odisha, Chhattisgarh and Andhra Pradesh (2026) — consistent with more frequent state-DCA inspections nationally (also the backdrop to the AIOCD vs QC fight). Immaterial money, but a compliance-culture signal for a 5,600-store chain staffed in a tight labour market.
+
+### 4.5.2 New primer issues (format as primer-issues.md)
+
+### From Pharmacy Retail deep-research pass (2026-11-14, pharmacy-retail-industry.md §4.5)
+
+- **medplus-health.html — store history (§03 / growth chart):** if FY21–FY24 store counts are shown, use the annual-report values **2,001 (Mar-21), 2,748 (Mar-22), 3,822 (Mar-23; AR cover says 3,882), 4,407 (Mar-24)**, then 4,712 / 5,330 / 5,642 (Sep-26). FY23 net additions were ~1,074 (1,144 gross), not ~1,400; FY24 gross openings 670; FY25 net 305.
+- **medplus-health.html — ownership (§05):** **Warburg Pincus fully exited in Aug-2024** (Lavender Rose sold its entire 11.35% for ~₹836 Cr at ₹616.48 in an open-market bulk deal) — remove any reference to Warburg/Lavender Rose as a current holder. Promoter holding sits in **Lone Furrow Investment (14.42%), Agilemed Investments (13.06%) and Mr Gangadi Madhukar Reddy (12.81%)**; Agilemed's and Mr Reddy's shares are fully pledged; promoters refinanced Agilemed debt with **₹175 Cr NCDs at 12.72% compounded monthly (Dec-2025)**, after which the pledge was meant to fall to 24.48% of capital but stood at ~29.8% (74.1% of promoter holding) in Sep-2026.
+- **medplus-health.html — private-label history (§04):** the annual-report PL series is **10.1% (FY21) → 12.7% (FY22) → 13.6% (FY23) → 14.26% (FY24) → 19.29% (FY25) → 21.88% (FY26)**, but the basis appears to change in FY25 (to "share of consolidated revenue", including non-pharma PL). The "~13% at IPO" line is consistent with the old basis — say so, and do not compare it with today's ~21%.
+- **medplus-health.html — cost structure (§03/§09):** add that **employee cost rose to 12.7% of income in FY26 (11.7% in FY25)**, before the 2026 minimum-wage hikes, and that the new Labour Codes (effective 21-Nov-2025) added a ₹6.5 Cr past-service cost in FY26. Karnataka's 23-May-2026 notification raised minimum wages by an average 60% across 81+ employments; Telangana's G.O.Ms. 6 (30-May-2026) took effect 1-Jun-2026.
+- **medplus-health.html — balance sheet (§10):** state plainly that screener "borrowings" (₹1,424 Cr at Mar-26) are **100% lease liabilities** (AR26: "financing activities of the Group comprise only of lease liabilities"); contingent liabilities only ₹14 Cr; no guarantees for promoter entities.
+- **medplus-health.html — buyback detail:** board approval 6-Nov-2026; opened 13-Nov-2026; ≤₹130 Cr at ≤₹750; **promoters excluded**; minimum 75% (₹97.5 Cr) to be deployed within 66 working days (≈ by mid-Feb-2027); 40% in the first half.
+- **medplus-health.html — regulation (§09):** licence suspensions are no longer just Karnataka/Telangana — 2026 orders hit stores in **Odisha, Chhattisgarh and Andhra Pradesh** too (single stores, 2–3 days). The e-pharmacy limbo has a court anchor: **Madras HC Division Bench (Jul-2024) ordered status quo — online sales only by licensed chemists — until the Centre frames policy**; Delhi HC gave a "last and final" deadline in May-2024 that has passed. The draft Drugs, Medical Devices and Cosmetics Act (text submitted Oct-2025) has not been introduced in Parliament.
+- **medplus-health.html — competition (§08):** Jan Aushadhi is now **20,149 kendras (30-Jun-2026, PIB)**, not ~18,000; Apollo's NewCo is **Apollo Healthtech Ltd** and is still awaiting NCLT sanction (petition filed after the 24-Jun-2026 meetings); Apollo guides a ~6% pro-forma EBITDA margin by Q4 FY27 (cut from 6.5–7%). Tata 1mg FY26 revenue ₹2,936 Cr with a ₹287 Cr loss; Davaindia's mature cohort earns 15–17% store EBITDA on ₹4.6 lakh/month GMV.
+- **medplus-health.html — global lens (if present):** CVS's pharmacy segment earns a **4.6%** adjusted operating margin (Q3 2026) with negative same-store sales; RD Saúde 7.8% EBITDA; Tsuruha-Welcia 3.8–4.3% operating; Yifeng 6.9% net with 30% of stores franchised. Use these to show MedPlus's ~5% is normal and that a ~12% blended margin has no precedent.
+- **trading-distribution.html (sibling, for awareness):** "the NCLT approved the scheme on 5 May 2026" — Apollo's 4-Nov-2026 filing says the NCLT-convened meetings were held on 24-Jun-2026 and a **sanction petition has been filed**; the scheme is **not yet sanctioned**. NewCo's name is Apollo Healthtech Ltd.
+
+---
+
+## 4.0 Supersedes — corrections to Parts 1–3 (writer: apply these)
+
+| # | Where (Part / §) | Old value | New value | Source (fetched 14-Nov-2026 unless noted) |
+|---|---|---|---|---|
+| S1 | P1 §2.3 table, E1/E2, §8.5 | MedPlus stores FY22 "~2,400 [K]" | **2,748** (Mar-22); FY21 **2,001** | AR FY22 (BSE) [V] |
+| S2 | P1 §2.3, §8.5, G15 | FY23 "~3,800 [K]"; "~1,400 net adds in FY23" | **3,822** (MD&A; cover 3,882); **1,144 gross openings, ~1,074 net** | AR FY23 [V] |
+| S3 | P1 §2.3 | FY24 "~4,450 [K]" | **4,407** (670 gross openings in FY24) | AR FY24 [V] |
+| S4 | P1 §2.1, §0, D1, E14 | IPM FY26 "₹2.46 lakh Cr, +8.8% [V-snip FE]" | **₹2,45,943 Cr (MAT Mar-2026), +8.6%; units +0.6%** (Pharmarack PharmaTrac) — size unchanged in rounding, growth 8.6% | Medical Dialogues report of Pharmarack release [V-sec] |
+| S5 | P1 §7.4, §0, B4, D5, E9, E11, P3 primer issue | Jan Aushadhi "18,000+ (PIB Mar-2026)"; sibling "20,149" called a conflict | **20,149 kendras at 30-Jun-2026** (776 of 784 districts) — the sibling figure was right | PIB 11-Aug-2026, Rajya Sabha reply (PRID 2297568) [V] |
+| S6 | P1 §7.4 | JAK cumulative sales "₹7,700 Cr by Jun-2025, savings ~₹38,000 Cr" (still valid for its date) | Add: **FY22–FY26 sales ₹7,873.85 Cr, savings ~₹37,200 Cr**; FY26 ₹2,252 Cr reconciles | PIB 11-Aug-2026 [V] |
+| S7 | P1 header item 5, §0, §12, G21; P2 §2.2; P3 §3.3/§3.4 | NCLT status "most likely meeting-convening order; final sanction pending [E — FLAG]"; sibling "NCLT approved 5-May-2026" | **Confirmed: NCLT-convened creditor and shareholder meetings held 24-Jun-2026; company has filed a petition seeking NCLT sanction (pending as of 4-Nov-2026).** Stock-exchange observation letters 23/24-Dec-2025. | Apollo BSE results filing 4-Nov-2026 [V] |
+| S8 | P1 trap 7, §5.3, B2 | Front-end retail entity "Apollo Medicals / 'Apollo Pharmacies Ltd' — exact name OCR-garbled" | **Apollo Pharmacies Ltd, a subsidiary of Apollo Medical Pvt Ltd (AMPL), which is an associate of Apollo HealthCo**; NewCo = **Apollo Healthtech Ltd** | Apollo filing, related-party list [V] |
+| S9 | P1 §0, P2 §2.0/§2.2, JSON | HealthCo Q2 FY27 PAT "₹120.5 Cr [V multibagg]" | **₹118 Cr** (vs ₹73 Cr) per Apollo's own press release; EBITDA ₹193 Cr (vs ₹110 Cr); segment revenue ₹3,285.8 Cr | Apollo filing [V] |
+| S10 | P1 §5.1, §2.2 | Apollo HealthCo FY26 offline PD "~₹10,500 Cr [E]" | **HealthCo segment ("Digital health & pharmacy distribution") FY26 revenue ₹10,808 Cr; segment result ₹398.7 Cr** (offline + online; offline alone ~₹9,400–9,500 Cr [E]) | Apollo filing [V] |
+| S11 | P1 §0, §4.3, E9 | Apollo 7,662 stores "[V-snip]" | **7,662 = 7,440 (30-Jun) + 222 net in Q2** (222 from Apollo filing) — upgrade to [E from V] | Apollo filing [V] |
+| S12 | P1 §0, P2 §2.2 | Apollo margin target "6.5–7.0% [V-ocr], reportedly ~6% [V-snip]" | **~6% pro-forma by end-Q4 FY27 (cut from 6.5–7%); high single digit in 3–4 years; integrated HealthCo EBITDA ~₹1,500 Cr+ in FY27** | Q2 FY27 call summary [V-sec] |
+| S13 | P1 §0, §4.3, §5.1, P2 §2.3 | Davaindia "Q2 FY27 sales ₹168 Cr [V-snip]"; stores [V-snip] | **Davaindia revenue ₹168.47 Cr; GMV ₹187.91 Cr (+77%); 2,840 stores = 1,859 COCO + 981 FOFO [V]**; Zota EBITDA turned **positive ₹7.92 Cr (3.97%)**; PAT −₹25.96 Cr | Zota Q2 FY27 deck + transcript [V] |
+| S14 | P1 §5.3, P2 §2.1 ownership, P3 §3.4 | PE heritage "Warburg Pincus (Lavender Rose) … pre-IPO; current residual stakes not verified" | **Warburg fully exited Aug-2024** (11.35%, ~₹836 Cr at ₹616.48, open-market bulk deal) | inc42/YourStory/dtnext via search [V-snip] |
+| S15 | P1 header item 2, P2 §2.1 ownership | Pledge counterparty "not identified" | **Promoter NCDs ₹175 Cr at 12.72% p.a. compounded monthly (+1% initial coupon), debenture trustee Catalyst Trusteeship, lender on new pledge Neo Assets (Dec-2025)**; pledge to settle at 24.48% of capital; screener Sep-26 74.1% of holding (~29.8% of capital) | NSE Reg 30 and SAST filings 18/19-Dec-2025 [V] |
+| S16 | P1 trap 10, P2 §2.1 | Borrowings "almost entirely Ind AS 116 lease liabilities [E]" | **Exactly: lease liabilities ₹1,424.4 Cr (Mar-26) = screener borrowings; AR states financing activities comprise only lease liabilities** | AR FY26 [V] |
+| S17 | P1 §4.1, §9.4 | Store/HO staff "~10.5% of revenue [E]" | **Employee benefits 12.70% of total income in FY26 (₹884.5 Cr; 11.74% in FY25)** — staff cost is higher than the E split; other opex correspondingly lower | AR FY26 [V] |
+| S18 | P1 §2.2, §11.2, A4 | Online "stalled at ~2.5–3%"; Tata 1mg "FY25 ₹2,358.9 Cr" latest | **Tata 1mg FY26 ₹2,936 Cr (+23%), loss ₹287 Cr**; Truemeds FY25 ₹510 Cr; online ≈ 3–3.5% of IPM in FY26 [E] and rising | [V-snip] |
+| S19 | P1 §10, P2 §2.7 | CVS PCW "~US$125 bn (2024), adj. op. margin ~4–5% [K]" | **Q3 2026 PCW revenue US$35.5 bn (−2.0%), adj. op. income US$1,635 m (4.6%); ~9,000 stores; same-store sales −0.6%** | SEC 8-K Ex 99.1 [V] |
+| S20 | P1 §10 | RD Saúde "R$47.6 bn gross (2025); 3,453 stores (Q3-2025); EBITDA ~6–7% [K]" | **3Q26: net revenue R$11.4 bn, gross R$13.16 bn, adj. EBITDA R$1.024 bn = 7.8%; 3,770 stores; SSS +10.1%** | DGABC [V-sec]; store count [V-snip] |
+| S21 | P1 §10 | Welcia/Tsuruha "merged under Aeon [K-uncertain]" | **Tsuruha made Welcia a wholly owned subsidiary on 1-Dec-2025; 5,676 stores; op. margin 4.3% (FY2/26), 3.8% (Q1 FY2/27)** | japanir/envalith [V-snip] |
+| S22 | P1 §10 | Yifeng "~RMB 22–23 bn, ~14,000+ stores [K]" | **2025: RMB 24.43 bn (+1.5%), net profit RMB 1.678 bn (6.9%), 14,831 stores incl. 4,313 franchise; 547 closures** | Beijing News [V-sec] |
+| S23 | P1 §10, G18 | Walgreens take-private "closed Aug-2025, ~US$10 bn, up to ~US$23.7 bn EV [K]" | Confirmed: **closed 28-Aug-2025, US$11.45/share (~US$9.9 bn), up to US$23.7 bn; split into five companies** | Becker's/HLTH [V-snip] |
+| S24 | P1 §7.6, B4, G17 | Licence suspensions "Karnataka mostly, some Telangana" | **2026 orders also in Odisha (Mar), Chhattisgarh (May) and Andhra Pradesh (Jun)** | investywise/whalesbook [V-snip]; sahi.com [V-sec] |
+| S25 | P1 §7.5, G22 | Wage hikes "from 1-Jun-2026" (company statement only) | **Karnataka notification 23-May-2026, average +60%, 81+ employments; Telangana G.O.Ms. No. 6 dated 30-May-2026, effective 1-Jun-2026** | IANS via Telangana Today; compliance site [V-sec] |
+| S26 | P1 §7.3, G9 | Delhi/Madras HC case status "[K] — FLAG" | **Delhi HC 4-May-2024: "last and final opportunity" (4 months) to frame policy; Madras HC Division Bench, Practo v TN Chemists (2024:MHC:2491, Jul-2024): status quo, online sales only by licensed chemists, until policy or Delhi HC disposal** | verdictum [V-sec] |
+| S27 | P1 §7.3, G18 | Drugs, Medical Devices and Cosmetics Bill 2025 "enactment status unverified" | **Draft Act text submitted by DCGI to MoHFW on 15-Oct-2025; not found introduced in Parliament as of Nov-2026** | law-review summary [V-snip] |
+| S28 | P1 header item 1, §12 | Buyback opened 13-Nov (from screener announcements) | Add terms: **board 6-Nov-2026; PA 9-Nov; promoters excluded; minimum 75% (₹97.5 Cr); 40% in first half; close within 66 working days** | BSE public announcement [V] |
+| S29 | P1 trap 3, P3 primer issues | PL "~13% around IPO" called unsourced | **AR series: 10.1% FY21, 12.7% FY22, 13.6% FY23, 14.26% FY24, 19.29% FY25, 21.88% FY26** (basis change FY25 — FLAG) | ARs FY22–FY26 [V] |
+| S30 | P1 §9.1/F, P2 Q1 FY27 | "Others" revenue unexplained | **"Others" is mostly franchisee sales, ~₹83 Cr in Q1 FY27** | Q1 FY27 transcript [V] |
+
+---
+
+## 4.1 Verification table — the 40 figures the writer will lean on
+
+"Fetched?" = fetched this session (14-Nov-2026). "Agrees?" = vs Parts 1–3. Primary = company filing, exchange filing, government release, SEC filing, screener data page. **32 of 40 are [V] from primary sources fetched this session (rows 1–31 and 33); row 32 is half [V] (PIB cumulative) and half [V-snip] (FY26 Lok Sabha figure); 4 are [V-sec] (34, 36, 38, 39); 2 are carried from Part 1 [V] without re-fetch (35, 37); 1 is [V-snip] (40).**
+
+| # | Figure | Value | Primary source (URL / document) | Fetched? / tag | Agrees with P1–3? |
+|---|---|---|---|---|---|
+| 1 | MedPlus FY26 revenue | ₹6,892.5 Cr (+12.3%) | AR FY26 (bseindia …/8b105d53-41b8-4a8d-bd2f-f906c1432ee9.pdf); screener | Yes [V] | Yes |
+| 2 | MedPlus FY26 PAT | ₹219.6 Cr (+46.2%) (₹2,196.06m) | AR FY26 MD&A | Yes [V] | Yes |
+| 3 | MedPlus FY26 gross margin | 26.23% (24.37% FY25) | AR FY26 MD&A | Yes [V] | Yes |
+| 4 | MedPlus PL share FY26 (AR basis) | 21.88% (19.29% FY25) | AR FY26 MD&A | Yes [V] | New (P1 used deck quarters) |
+| 5 | MedPlus stores Mar-26 / net adds | 5,330 / 618 (FY25 net 305) | AR FY26 | Yes [V] | Yes |
+| 6 | MedPlus stores Sep-26 | 5,642 | Q2 FY27 deck (…/8246507a-….pdf) | Yes [V] | Yes |
+| 7 | MedPlus stores Mar-22 | 2,748 (747 gross) | AR FY22 (…/bseplus/AnnualReport/543427/75886543427.pdf) | Yes [V] | **No** (S1) |
+| 8 | MedPlus stores Mar-23 | 3,822 (cover 3,882); 1,144 gross | AR FY23 (…/d87951de-….pdf) | Yes [V] | **No** (S2) |
+| 9 | MedPlus stores Mar-24 | 4,407 (670 gross) | AR FY24 (…/6203286f-….pdf) | Yes [V] | **No** (S3) |
+| 10 | MedPlus Q2 FY27 revenue | ₹2,037 Cr (+21%) | screener quarters; Q2 deck | Yes [V] | Yes |
+| 11 | MedPlus Q2 FY27 operating EBITDA (pre-Ind AS) | ₹98.1 Cr, 4.8% | Q2 FY27 deck | Yes [V] | Yes |
+| 12 | MedPlus Q2 FY27 PAT | ₹56 Cr (flat YoY) | screener quarters | Yes [V] | Yes |
+| 13 | MedPlus mature-store EBITDA (store level) Q2 FY27 / FY26 | 11.7% / 11.9% | Q2 deck; AR/decks | Yes [V] | Yes |
+| 14 | MedPlus lease liabilities | ₹1,424.4 Cr (Mar-26) vs ₹1,119.8 Cr | AR FY26 note (financial liabilities) | Yes [V] | Yes (upgrades E) |
+| 15 | MedPlus contingent liabilities | ₹14.1 Cr (+ unquantified PF) | AR FY26 note 41 | Yes [V] | New |
+| 16 | MedPlus employee cost share | 12.70% of income (11.74%) | AR FY26 MD&A | Yes [V] | **No** (S17) |
+| 17 | MedPlus market cap / P/E / P/B | ₹7,440 Cr / 35.2× / 3.6× (₹619; book ₹172) | screener top ratios (page pulled 14-Nov; 13-Nov close) | Yes [V] | Yes |
+| 18 | MedPlus promoter / FII / DII (Sep-26) | 40.20% / 12.58% / 31.89% | screener shareholding | Yes [V] | Yes |
+| 19 | MedPlus pledge | 74.1% of promoter holding (Sep-26); Dec-25 filing: 23.91% → 27.96% → 24.48% of capital | screener; NSE MEDPLUS_18122025204739 / _19122025224745 | Yes [V] | Yes; adds terms (S15) |
+| 20 | Promoter NCD terms | ₹175 Cr, 12.72% compounded monthly | NSE Reg 30, 18-Dec-2025 | Yes [V] | New |
+| 21 | Buyback | ≤₹130 Cr at ≤₹750; min 75%; promoters excluded; opened 13-Nov-2026 | BSE public announcement (…/b0d9f925-72b6-448f-b39c-5ef34eecd989.pdf) | Yes [V] | Yes (S28 adds) |
+| 22 | FY27 store guidance | 800 net incl. franchisees | Q1 FY27 transcript (…/de0c7437-….pdf) | Yes [V] | Yes |
+| 23 | Wage hike (company statement) | KA +60%, TG "25% plus", from 1-Jun-2026 | Q1 FY27 transcript | Yes [V] | Yes |
+| 24 | Apollo HealthCo Q2 FY27 revenue | ₹3,285.8 Cr (+23.5%) | Apollo BSE filing 4-Nov-2026 (…/90bc36be-8aa4-490d-bc68-0dfd119a8ef3.pdf), segment table | Yes [V] | Yes |
+| 25 | Apollo HealthCo Q2 FY27 EBITDA / PAT | ₹193 Cr (6%) / ₹118 Cr | Apollo filing, press release | Yes [V] | EBITDA yes; **PAT no** (S9) |
+| 26 | Apollo HealthCo FY26 segment revenue | ₹10,808 Cr | Apollo filing, segment table | Yes [V] | **No** (S10, replaces E) |
+| 27 | Apollo net store adds Q2 FY27 / total | 222 / 7,662 [E] | Apollo filing; 7,440 from Q1 deck | Yes [V] + [E] | Yes |
+| 28 | Apollo scheme stage | NCLT sanction petition filed; meetings 24-Jun-2026 | Apollo filing note | Yes [V] | Resolves FLAG (S7) |
+| 29 | Davaindia stores | 2,840 (1,859 COCO / 981 FOFO) | Zota Q2 FY27 deck (NSE ZOTA_28102026182207) and transcript (ZOTA_03112026185552) | Yes [V] | Yes (upgrade) |
+| 30 | Davaindia Q2 FY27 revenue / GMV | ₹168.47 Cr / ₹187.91 Cr | Zota transcript | Yes [V] | Yes (upgrade) |
+| 31 | Jan Aushadhi kendras | 20,149 (30-Jun-2026) | PIB PRID 2297568, 11-Aug-2026 | Yes [V] | **No** (S5) |
+| 32 | Jan Aushadhi sales FY22–FY26 / FY26 | ₹7,873.85 Cr / ₹2,252.21 Cr | PIB 11-Aug-2026 / Lok Sabha via Kashmir Life | Yes [V] / [V-snip] | Yes |
+| 33 | CVS Pharmacy & Consumer Wellness Q3 2026 | US$35.5 bn; adj. op. inc. US$1,635 m (4.6%); ~9,000 stores | SEC 8-K Ex 99.1 (sec.gov …/cvs_ex99x1q3-26.htm) | Yes [V] | **No** (S19) |
+| 34 | IPM FY26 (MAT Mar-26) | ₹2,45,943 Cr, +8.6%, units +0.6% | Pharmarack PharmaTrac via Medical Dialogues | Yes [V-sec] | Size yes, growth **no** (S4) |
+| 35 | IPM Sep-2026 month | +13.5% value, +3.4% volume | Pharmarack via biospectrum (P1) | Not re-fetched (P1 [V]) | Yes |
+| 36 | NPPA cancer TMR | 137 drugs, ≤30% of MRP, gazette 17-Oct, effective 9-Nov-2026, MRPs −up to 70% | AIR News (govt broadcaster) 19-Oct-2026 | Yes [V-sec] | Yes (P1 V-sib) |
+| 37 | Organised chains' share | 11.6% of IPM (2023) → 17.4% (2030E) | IPA/Pharmarack 2024 PDF (P1) | Not re-fetched (P1 [V]); no rating-agency figure found | Yes |
+| 38 | RD Saúde 3Q26 | net R$11.4 bn; adj. EBITDA 7.8%; 3,770 stores | DGABC 3-Nov-2026 [V-sec]; stores [V-snip] | Yes [V-sec] | **No** (S20) |
+| 39 | Yifeng 2025 | RMB 24.43 bn; NP 6.9%; 14,831 stores (4,313 franchise) | Beijing News (report of annual report) | Yes [V-sec] | **No** (S22) |
+| 40 | Warburg exit | 11.35%, ~₹836 Cr, Aug-2024 | inc42 / YourStory / dtnext (search) | [V-snip] | New (S14) |
+
+**Conflicts resolved and credibility calls**
+- **HealthCo Q2 PAT:** ₹118 Cr (Apollo's own release) beats ₹120.5 Cr (third-party summary; probably a different PAT line, e.g., before minority/ESOP adjustment).
+- **IPM FY26 growth:** 8.6% (Pharmarack MAT, primary data vendor) beats 8.8% (newspaper headline of unclear basis); both round to ₹2.46 lakh Cr.
+- **Jan Aushadhi count:** 20,149 (PIB, 30-Jun-2026) supersedes "18,000+" (PIB, Mar-2026) — both are PIB; the later date wins.
+- **MedPlus Mar-23 store count:** 3,822 (MD&A sentence with openings data) preferred to 3,882 (cover infographic); flag if printed.
+- **Pledge level:** the 24.48% "expected" in Dec-2025 was a forward statement; screener's Sep-2026 74.1% of holding is the observed figure — use the observed, cite the expected for contrast.
+- **Apollo PL share:** 15.53% (Q3 FY26, PL + generics of pharmacy sales) is the only number; basis differs from MedPlus's 21.4% (PL incl. non-pharma on pharmacy revenue) — do not rank the two.
+
+*End of Part 4.*
