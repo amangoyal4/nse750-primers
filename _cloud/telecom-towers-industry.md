@@ -939,3 +939,494 @@ Screener https://www.screener.in/company/INDUSTOWER/consolidated/ (14-Nov-26); Q
 - **Global peers:** https://www.datacenterdynamics.com/en/news/helios-towers-revenue-up-8-for-full-year-ramps-up-tenancy-ratio-targets/ · https://www.heliostowers.com/media/g2zj4sfs/ht-fy-25-presentation-vf2.pdf · https://www.gurufocus.com/term/enterprise-value-to-ebitda/AMT · https://www.opencapital.sh/stocks/cci/metrics/ev_to_ebitda [V-snip]
 - **RoW / TAIPA-DIPA:** https://www.bisinfotech.com/taipa-applauds-dots-decision-to-include-ip-1-in-the-right-of-way/ [V-snip]
 - **Sibling reports reused:** `subsectors/telecom-operators.html` (Vi AGR ₹64,046 Cr, govt 49%, telco cost structure), `_cloud/ref/example-dossier-commodity-chem.md` (FX ₹94.9, West Asia, repo 5.50%).
+
+---
+
+# PART 4 — DEEP-RESEARCH SUPPLEMENT (14-Nov-2026)
+
+Second, primary-source pass (brief-deep-research.md). Written in chunks; **section order in the file: 4.2 (company packs) → 4.3 (industry data) → 4.0 (Supersedes) → 4.1 (40-figure verification table) → 4.4 (gap log) → 4.5 (new insights / primer issues)**. The writer should apply 4.0 before using any figure from Parts 1–3.
+
+**Sources read in full or in the relevant sections this pass** (all fetched this session; tags [V] below refer to these):
+- Indus Q2 FY27 earnings-call transcript (call 28-Oct-2026; filed 2-Nov-2026) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1243172b-4994-4f5f-892b-6c4cf1fd854c.pdf
+- Indus Q1 FY27 transcript (28-Jul-2026) — https://www.industowers.com/wp-content/uploads/2026/07/Earnings-Call-Transcript_Q1-FY27.pdf ; Q4 FY26 transcript (1-May-2026) — https://www.industowers.com/wp-content/uploads/2026/04/Earnings-Call-Transcript_Q4-FY26.pdf
+- Indus Quarterly Report Q2 FY27 (KPI table, ratio definitions, capital-employed note) — https://www.industowers.com/wp-content/uploads/2026/10/Quarterly-Report_Q2FY27-1.pdf
+- Indus Integrated Annual Report FY26 (notes 12, 39, 40, 43; Directors' Report credit-rating section) — https://www.bseindia.com/xml-data/corpfiling/AttachHis/b19645a0-96d6-4104-a89e-c5d03d3ab076.pdf
+- Vodafone Idea Quarterly Report Q2 FY27 (12-Nov-2026) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8adc5ae9-db39-4c25-b5a4-9771ddab9063.pdf ; Vi Q2 FY27 investor presentation — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14457487-fa05-4bd0-8df5-23eb5f06c8d2.pdf ; Vi Q1 FY27 call transcript (11-Aug-2026) — https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70ef6137-942c-4bf2-b275-5ecff44fe8c3.pdf
+- Altius Telecom Infrastructure Trust Annual Report FY2025-26 (published 30-Jun-2026) — https://www.altiusinfra.com/media/assets/1eeaa80c-d5b1-423d-b2bb-1619183f453a-Altius_Telecom_Infrastructure_AR_2025-26_webupload_final_300626.pdf
+- Screener consolidated pages (14-Nov-2026) for INDUSTOWER, IDEA, BHARTIARTL.
+- Further industry/peer URLs are listed per row in 4.1 and 4.3.
+
+---
+
+## 4.2 Company packs (primary documents)
+
+### 4.2.1 Indus Towers — management-commentary digest
+
+**(a) Q2 FY27 call, 28-Oct-2026** (MD & CEO Prachur Sah; CFO Abhishek Maheshwari, his first call as CFO; Head IR Dheeraj Agarwal) [V transcript]
+1. **Demand / order book.** Co-location adds (~7,900) were "strong", driven by customers' network expansion "alongside a pickup in rollouts by a major customer" (i.e., Vi). Management says it has "strong order book visibility" for Q3 "and the next coming quarters", and expects the "growth momentum to continue". It refused to give a forward tower-add run-rate ("I don't want to give a forward-looking number"); ~2,900–3,000 towers/quarter for the last two quarters is "robust" against FY24's peak.
+2. **Tenancy mix.** 7,900 co-locations vs 2,900 towers: tenancies are mostly "a second tenant on an existing site". Management expects the tenancy-to-tower mix to "remain quite healthy" because there is "a large 1T [single-tenant] tower base available for a second tenant". 5G is "loading on the same tower" (loading revenue, not new tenancies).
+3. **Expired contract (Jio).** "As of now, we continue to operate the tenancy portfolio with all our customers… that is something that is in discussions, and I don't have any incremental updates." No change vs Q1. Management again pitched its cost advantage: "much lower operating costs than a single tenant would be".
+4. **Vi funding.** Management "would not speculate on behalf of the customer"; the order book stands irrespective of the bank-debt outcome (also said on the Q1 call: order book "firm for the next 3 to 4 quarters… irrespective of what the funding situation is").
+5. **Rental growth.** Core rental growth tracks tower + tenancy growth; loading and escalators are "muted by the renewal impact". Q2 FY26 had a one-off revenue benefit of ~0.8% of total revenue that depresses Q2 FY27 YoY growth; tenancies added late in a quarter only show up fully in the next quarter.
+6. **Energy.** Power & fuel cost +3% YoY vs towers +6%; diesel consumption −11% YoY. Drivers: ~49,000 solar sites (+~3,000 in Q2), AI-driven fuel planning, lead-acid → lithium-ion at scale. Energy margin improved "close to 1%" vs Q2 FY26 (−3.6% vs −4.8%). Management prefers to talk about **unit cost** rather than margin "because there are certain other factors that impact the margin".
+7. **Inflation and escalators.** The 2.5% escalation is applied "on the standard rate of the tower" and "covers majority of the inflation" over a long horizon; capex-linked rates are revised where the MSA allows.
+8. **Capex per tower.** Nomura computed growth capex ÷ net towers ≈ ₹67 lakh vs ~₹20–25 lakh guidance. CFO: CWIP rose ~₹250 Cr QoQ (orders being built); growth capex also funds tenancy upgrades, 5G loading and solar — "it's not a zero-capex solution"; per-site upgrade capex is "site-specific", no range given.
+9. **Contract tenor.** An analyst noted that weighted residual contract life and minimum lease receivables fell QoQ despite strong adds. CFO: "All new onboarding of a customer or the renewal is minimum for the 10 years."
+10. **Lean sites.** Lean co-location adds collapsed to 13 in Q2 because customers' network plans are "moving towards the macro or bigger towers", not because Indus is losing share.
+11. **Africa.** Towers deployed in Zambia and Uganda late in Q2 with revenue started; Nigeria deployment starts in Q3 FY27; early capex per tower "within the plan"; KPIs to be disclosed "in subsequent quarters"; **Airtel remains the "primary anchor customer"** (no other telco signed); "considerable capex savings per tower compared to competitors" claimed but not quantified.
+12. **IBS.** Not disclosed; "a very small part of the overall rental revenue".
+13. **Capital structure.** A shareholder (Eon Infotech) urged an InvIT structure, gearing and a buyback, and asked for a 3-year roadmap (FY29–30 targets). **Management did not respond** — the moderator moved to the next question. Treat as "no stated plan".
+14. **Returns.** CFO said "pretax return on capital employed of 25.3% and post-tax return on equity of 19.2%". These are mis-labelled: the QR's **pre-tax ROE (LTM) is 25.3%** and **pre-tax ROCE is 19.2%** (standalone; consolidated 19.1%). The Q1 call made the same slip ("ROCE 25.4%" = Q1 pre-tax ROE 25.4%). See 4.0.
+
+**(b) Q1 FY27 call, 28-Jul-2026** (CFO then Vikas Poddar) [V transcript]
+- Growth came from network expansion **and "movement of their expired tenancy portfolios to Indus"** (Airtel moving tenancies from rival towercos as their contracts expire). Management would not split the growth; order book for the next 3–4 quarters is a mix of "network expansion and moving of towers of tenancies".
+- **Rent-per-tenancy drag explained:** escalation and 5G loading are small next to tower/tenancy adds; **renewal discounts "as per the framework agreed"** and **revenue equalisation** (the first bulk renewals were in FY21–22, now in year 5–6 of straight-lining) offset them. Net: rental growth "closely mimicking" co-location growth.
+- **Energy seasonality:** H1 energy margins are structurally weaker (monsoon disruption, diesel run-hours); H2 "usually better". Q1 also had "past period settlements" (smaller effect).
+- **West Asia shock:** tower manufacturing hit early in the quarter by an LPG shortage (now recovered); lithium-ion battery supplies constrained; government ensured diesel availability for towers.
+- **Airtel stake:** Airtel's creeping purchases are "a shareholder matter… no condition attached".
+- **Africa:** licences in Nigeria, Uganda and Zambia; anchor orders from Airtel Africa; MSA and **rate cards still being negotiated** — "a bit of an early stage for us to comment on the financials and the returns".
+- **Other regulatory points:** RoW Rules 2024 implemented "across India"; Green Energy Open Access frameworks strengthened in UP, Rajasthan, Delhi.
+
+**(c) Q4 FY26 call, 1-May-2026** [V transcript]
+- **Dividend policy:** the board considers distributing year-end FCF "subject to the working capital requirements" — **no minimum payout**; FY26's ₹14/share ≈ 100% of FY26 FCF (~₹37–38 bn); intent is "steady and progressive distribution". The FY25 Vi write-back cash was **not** separately distributed ("the Board did not compartmentalise the cash flows").
+- **Capex mix:** ~70% growth, ~25% replacement/maintenance (the rest green/other). Africa capex "not going to be that significant to start with".
+- **Expired contract:** "we have contracts for each tower… there is no broad contract expiry"; the expired bucket is "a very small portion of the entire portfolio".
+- **Policy:** Ministry of Finance ₹4,000 Cr incentive pool for states aligning with RoW Rules 2024; Green Energy Open Access operational in all states; CEA metering amendment 2026 mandating smart meters.
+
+### 4.2.2 Indus — concall KPI table (management-stated vs reported)
+
+| KPI | Q4 FY26 (call 1-May-26) | Q1 FY27 (call 28-Jul-26) | Q2 FY27 (call 28-Oct-26) | Source |
+|---|---|---|---|---|
+| Net macro tower adds | ~4,900 | ~3,100 | ~2,900 (2,869 per QR) | calls; QR |
+| Net macro co-location adds | ~6,200 | ~4,200 | ~7,900 (7,903; exits 472) | calls; QR |
+| Closing tenancy | 1.62 | 1.62 | **1.63** | QR |
+| Co-locations incl. lean | — | ~4,46,300 | ~4,54,200 | calls |
+| Revenue YoY / core rental YoY | — | +4.6% / +5.2% | +4.0% / +3.9% | calls |
+| EBITDA margin (reported) | 55.1% | 53.6% (QR 53.7%) | 54.4% (QR 54.5%) | calls; QR |
+| EBITDA YoY ex write-back | — | +5.2% | +5.2% | calls |
+| Write-back in base quarter | ~₹2.3 bn (Q4 FY25) | ~₹0.9 bn (Q1 FY26) | ~₹2.0 bn (Q2 FY26) | calls |
+| Energy margin | −3.6% | −4.6% | −3.6% | calls |
+| Diesel consumption YoY | — | −13% | −11% | calls |
+| Solar sites / MW | — | ~46,000 / 259 MW | ~49,000 / 297 MW | calls; QR 49,001 |
+| Uptime | — | 99.95% (99.955%) | 99.97% | calls |
+| FCF in quarter | ₹11.1 bn | ₹14.4 bn | ₹14.0 bn (QR ₹13.8 bn) | calls; QR |
+| "ROCE" as spoken | 20.2% (correct) | 25.4% (= pre-tax ROE) | 25.3% (= pre-tax ROE) | calls vs QR |
+| India 5G BTS (industry) | — | 5,63,000 | ~5,93,000 | calls |
+| 5G subscribers (TRAI) | — | 427 Mn (Q4 FY26) | 463 Mn (Q1 FY27) | calls |
+| 5G share of data | — | 43% (Q4 FY26) | 44% (Q1 FY27) | calls |
+
+### 4.2.3 Indus — five-year history (FY22–FY26) [V screener 14-Nov-26 + V QR Q2 FY27/Q4 FY24 KPI tables]
+
+| ₹ Cr unless stated | FY22 | FY23 | FY24 | FY25 | FY26 | 5-yr note |
+|---|---|---|---|---|---|---|
+| Revenue | 27,717 | 28,382 | 28,601 | 30,123 | 32,493 | CAGR FY22–26 +4.1% |
+| Revenue growth | +99% (merger full year) | +2% | +1% | +5% | +8% | |
+| Operating profit (screener) | 14,901 | 9,669 | 14,557 | 20,650 | 17,813 | |
+| OPM (screener) | 54% | 34% | 51% | 69% | 55% | FY23 provisions; FY25 write-backs |
+| Company EBITDA (QR) | 14,943 | 9,767 | 14,694 | 20,845 | 17,978 | |
+| Other income | 458 | 85 | 1,490 | 764 | 818 | |
+| Interest (mostly lease) | 1,603 | 1,670 | 1,864 | 1,858 | 1,893 | |
+| Depreciation | 5,325 | 5,324 | 6,060 | 6,402 | 7,141 | |
+| PBT | 8,431 | 2,759 | 8,122 | 13,154 | 9,598 | |
+| Tax rate | 24% | 26% | 26% | 24% | 26% | |
+| PAT | 6,373 | 2,040 | 6,036 | 9,932 | 7,145 | |
+| EPS (₹) | 23.65 | 7.57 | 22.40 | 37.65 | 27.08 | |
+| Dividend payout | 47% | 0% | 0% | 0% | 52% (₹14/sh) | |
+| ROCE (screener) | 25% | 11% | 22% | 29% | 19% | |
+| Pre-tax ROCE LTM (company, CE incl. leases) | n/a | n/a | 19.4% | 29.1% | 20.2% | |
+| CFO (screener) | 9,121 | 7,905 | 11,582 | 19,645 | 15,684 | |
+| Capex (company) | 2,929 | 4,121 | 9,698 | 6,870 | 8,817 | |
+| Company FCF (after leases) | 3,016 | 1,400 | 182 | 9,849 | 3,743 | |
+| Debtor days (screener) | 93 | 63 | 82 | 58 | 55 | |
+| Borrowings incl. leases (screener, year-end) | 19,726 | 19,185 | 20,531 | 21,156 | 21,127 | |
+| Equity (screener) | 22,151 | 21,110 | 27,039 | 32,498 | 39,646 | |
+| Towers (year-end) | 1,85,447 | 1,92,874 | 2,19,736 | 2,49,305 | 2,64,514 | +9.3%/yr |
+| Closing tenancy | 1.81 | 1.78 | 1.68 | 1.63 | 1.62 | |
+
+Note: FY21 is a part-year of the merged entity (merger effective 19-Nov-2020), so FY22 growth (+99%) is not organic. Screener equity FY26 = ₹2,638 + ₹37,008 Cr = ₹39,646 Cr (QR ₹39,648 Cr).
+
+### 4.2.4 Indus — eight quarters (Q3 FY25–Q2 FY27) [V screener quarterly table; V QR KPI tables]
+
+| ₹ Cr | Q3 FY25 | Q4 FY25 | Q1 FY26 | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|---|---|---|
+| Revenue (screener) | 7,547 | 7,727 | 8,058 | 8,188 | 8,146 | 8,101 | 8,431 | 8,516 |
+| YoY | +5% | +7% | +9% | +10% | +8% | +5% | +5% | +4% |
+| Operating profit (screener) | 6,958 | 4,395 | 4,390 | 4,572 | 4,468 | 4,424 | 4,478 | 4,590 |
+| OPM (screener) | 92% | 57% | 54% | 56% | 55% | 55% | 53% | 54% |
+| Company EBITDA (QR) | 6,997 | 4,395 | 4,390 | 4,613 | 4,509 | 4,467 | 4,525 | 4,638 |
+| Write-back in quarter (approx., calls) | very large (FY25 total ~5,077) | ~230 | ~90 | ~200 | — | — | — | — |
+| Depreciation | 1,568 | 1,693 | 1,704 | 1,801 | 1,798 | 1,838 | 1,894 | 1,944 |
+| Interest | 255 | 431 | 437 | 376 | 404 | 376 | 358 | 342 |
+| PBT | 5,219 | 2,363 | 2,334 | 2,478 | 2,420 | 2,365 | 2,347 | 2,411 |
+| PAT (screener) | 4,003 | 1,779 | 1,737 | 1,839 | 1,776 | 1,793 | 1,746 | 1,793 |
+| PAT (company QR) | 4,003 | 1,779 | 1,737 | 1,839 | 1,776 | 1,795 | 1,749 | 1,798 |
+| Capex (QR) | 1,226 | 2,244 | 1,948 | 2,559 | 1,980 | 2,331 | 1,719 | 2,399 |
+| — of which maintenance | n/a | n/a | n/a | 561 | 531 | 539 | 513 | 483 |
+| AFFO (QR) | n/a | n/a | n/a | 3,037 | 2,947 | 2,859 | 2,987 | 3,023 |
+| Company FCF (QR) | 2,665 | 3,873 | 1,566 | 296 | 788 | 1,093 | 1,436 | 1,377 |
+| Net debt incl. leases / LTM EBITDA (x) | n/a | 0.86 | n/a | 0.81 | 0.92 | 0.85 | 0.78 | 0.97 |
+| Interest coverage LTM (x) | n/a | 14.5 | n/a | 14.7 | 11.7 | 11.6 | 12.0 | 12.3 |
+| Pre-tax ROCE LTM | n/a | 29.1% | n/a | 26.3% | 20.3% | 20.2% | 19.9% | 19.2% |
+| Pre-tax ROE LTM | n/a | 44.2% | n/a | 38.4% | 27.3% | 26.6% | 25.4% | 25.3% |
+| Towers | 2,34,643 | 2,49,305 | 2,51,773 | 2,56,074 | 2,59,622 | 2,64,514 | 2,67,611 | 2,70,480 |
+| Co-locations | 3,86,819 | 4,05,435 | 4,11,212 | 4,15,717 | 4,21,822 | 4,28,014 | 4,32,250 | 4,40,153 |
+| Closing tenancy | 1.65 | 1.63 | 1.63 | 1.62 | 1.62 | 1.62 | 1.62 | 1.63 |
+| Sharing rev / co-lo / month (₹) | 41,426 | 41,893 | 41,132 | 41,714 | 41,429 | 41,078 | 41,082 | 41,036 |
+| Lean rev / operator / month (₹) | n/a | n/a | n/a | 16,127 | 16,385 | 16,535 | 16,707 | 16,867 |
+| Market cap (₹ bn, QR, quarter-end) | n/a | 882 | n/a | 905 | 1,105 | 1,103 | 1,033 | 985 |
+| EV/EBITDA (QR, quarter-end) | n/a | 5.10 | n/a | 5.24 | 7.09 | 6.99 | 6.49 | 6.40 |
+
+- The Q3 FY25 quarter is distorted (screener OPM 92%) by Vi write-backs; Q4 FY25 also includes ~₹170 Cr of Airtel-tower acquisition accounting [V Q4 FY26 call].
+- PAT has been flat at ₹1,740–1,840 Cr for seven quarters; depreciation is up 15% (₹1,693 → ₹1,944 Cr) since Q4 FY25 on the tower-build and the Airtel towers, absorbing EBITDA growth.
+- The step-down in ROCE from 29% to 19% is the write-back year falling out of the LTM window, not deterioration.
+
+### 4.2.5 Indus — FY26 annual-report findings [V AR FY26 notes]
+
+**Related-party transactions (note 43)** — all GST-inclusive, gross billed + unbilled:
+
+| Item | FY26 ₹ Mn | FY25 ₹ Mn | Read |
+|---|---|---|---|
+| Revenue from Bharti Airtel (parent) | 1,95,831 | 1,76,324 | +11.1% YoY vs Indus total revenue +7.9% — Airtel's share is rising |
+| Revenue from fellow subsidiaries (Hexacom, Nxtra, Airtel Zambia, Airtel Uganda, Xtelify, etc.) | 14,109 | 86,807* | *FY25 column includes Vi as a "group entity" until 18-Nov-2024 |
+| Airtel group total (GST-incl.) | 2,09,940 | — | ÷1.18 ≈ ₹1,77,915 Mn ≈ **54.8% of FY26 revenue** [E] |
+| Trade receivables from Airtel (gross billed) | **37,111** | 33,104 | ≈ **69 days** of Airtel's GST-incl. billing [E] |
+| Trade receivables from fellow subsidiaries | 2,721 | 2,477 | |
+| Other financial assets — Airtel (unbilled revenue) | 22,056 | 19,718 | |
+| Other liabilities — Airtel | 11,694 | 10,615 | (advances/deferred) |
+| Slump-sale consideration to Airtel (tower purchase) | 610 | 19,820 | Total ₹20,430 Mn ≈ **₹2,043 Cr** for 10,093 towers + 2,179 lean co-locations ≈ ₹20 lakh/tower [E] |
+| Buyback of shares from Airtel | — | 1,521 | Airtel tendered ₹152 Cr into the Q2 FY25 buyback |
+| Payments to KMP / NEDs | 191 | — | |
+| Terms | "equivalent to those that prevail in arm's length transactions"; balances unsecured, interest-free | | |
+
+- **New finding — Airtel is the slow payer, not Vi.** Gross trade receivables at Mar-26 were ₹51,358 Mn, of which **₹37,111 Mn (72%) was owed by Airtel** although Airtel is ~55% of revenue. Non-Airtel receivables (~₹11,500 Mn) are only ~24 days of non-Airtel GST-inclusive billing [E]. The Vi overdue problem has been cured; working capital now depends on the parent.
+- **Doubtful-debt allowance (note 12):** ₹1,965 Mn at Mar-26 (₹4,659 Mn Mar-25); all of it on "significant increase in credit risk" receivables, ₹825 Mn of which is >3 years old. The deferred-tax asset on allowances fell ₹14,314 Mn (Mar-24) → ₹1,405 Mn (Mar-25) → ₹635 Mn (Mar-26), consistent with a ~₹5,700 Cr allowance at Mar-24 [E: 14,314 ÷ 25.17%] — i.e., the primer's "₹5,386 Cr (Mar-24)" order of magnitude is right.
+- **Receivables ageing Mar-26 (₹ Mn):** not due 39,522; <6 months 7,491; 6–12 months 2,776; 1–2 yrs 337; 2–3 yrs 268; >3 yrs 964; secured ₹5,574 Mn (security deposits/guarantees). Payment terms 15/21/45 days from invoice; interest chargeable on late payment.
+- **Contract book (note 39):** escalation **2.5% p.a. per the agreements**; future undiscounted lease receipts **₹12,20,537 Mn** at Mar-26 (≤1 yr ₹1,85,446 Mn; 1–5 yrs ₹6,60,459 Mn; >5 yrs ₹3,74,632 Mn) vs ₹12,81,319 Mn at Mar-25 — the book **shrank 4.7% in FY26** as the >5-year bucket fell ₹57,910 Mn. By Sep-26 it was ₹11,92,303 Mn (QR). This is the quantitative form of the Jio/renewal concern: renewals are not replenishing the long end.
+- **Contingent liabilities (note 40):** **₹51,510 Mn** (₹5,151 Cr; FY25 ₹46,698 Mn): VAT/GST ₹21,693 Mn (Gujarat VAT on "right to use", decided in Indus's favour by several High Courts); **municipal taxes ₹22,334 Mn (up from ₹17,218 Mn)** — recoverable from customers under the MSA if confirmed; service tax ₹2,595 Mn; income tax ₹3,185 Mn; stamp duty ₹160 Mn; other ₹1,543 Mn. A DISCOM's Industrial→Commercial tariff reclassification for towers (2016) is stayed by the Supreme Court; customers have given undertakings to reimburse the differential if lost. No guarantees issued. Capital commitments ₹5,815 Mn.
+- **Credit ratings (Directors' Report):** **CRISIL AAA/Stable** on long-term bank facilities and the ₹17,500 Mn bond (**upgraded from AA+/Positive**), CRISIL A1+ on short-term/CP; **ICRA AAA (Stable)** on term loans/NCDs and A1+ on CP.
+- **CSR:** required ₹2,074 Mn; spent ₹1,268 Mn; ₹806 Mn unspent transferred for ongoing projects.
+- **Scheme reserve:** the 2013 Indus scheme's general reserve (₹67,083 Mn at Mar-26) absorbs extra depreciation on merged fair-valued assets (₹795 Mn in FY26) — a small, recurring flattering of reported depreciation.
+- **MSA terms (QR + AR):** same terms to all customers on a tower; escalators 2.5%; municipal levies and electricity-tariff differentials pass through to customers; minimum 10-year new/renewal tenor (call); exit penalties exist (amount not disclosed).
+
+### 4.2.6 Vodafone Idea (key tenant; reference) — Q2 FY27 primary pack [V Vi Quarterly Report Q2 FY27, 12-Nov-2026; V Vi Q2 FY27 presentation; V Vi Q1 FY27 transcript]
+
+**Five quarters (₹ Cr)**
+
+| Item | Q2 FY26 | Q3 FY26 | Q4 FY26 | Q1 FY27 | Q2 FY27 |
+|---|---|---|---|---|---|
+| Revenue | 11,195 | 11,323 | 11,332 | 11,689 | **11,884** (+6.2% YoY) |
+| EBITDA (Ind AS 116) | 4,685 | 4,818 | 4,889 | 5,034 | 4,981 (41.9%) |
+| **Cash EBITDA (pre-Ind AS 116, i.e. after lease rentals)** | 2,246 | 2,358 | 2,432 | 2,475 | **2,498 (21.0%)** |
+| Implied lease rentals (EBITDA − cash EBITDA) | 2,439 | 2,460 | 2,457 | 2,559 | **2,483** |
+| D&A | 5,568 | 5,551 | 5,518 | 5,467 | 5,505 |
+| Net finance cost | 4,683 | 5,635 | 4,886 | 4,925 | 4,975 |
+| Exceptional items | 38 | 1,078 | **57,491** (AGR reassessment) | 1,611 | (462) |
+| PAT | (5,524) | (5,286) | **51,970** | (3,754) | **(5,975)** |
+| PAT ex-exceptionals | (5,562) | (6,364) | (5,521) | (5,365) | (5,513) |
+| Capex | 1,750 [V-snip] | n/a | n/a | 1,930 | **3,946** |
+| Unique towers (EoP) | 1,98,428 | 2,03,555 | 2,06,981 | 2,09,269 | **2,16,560** (+7,291 QoQ) |
+| Unique broadband towers | 1,91,096 | 1,97,692 | 2,02,008 | 2,04,893 | **2,13,616** (+~8,700 QoQ, "highest in nine quarters") |
+| Broadband sites | 5,27,012 | 5,48,027 | 5,66,376 | 5,80,883 | 6,10,521 |
+| Subscribers (Mn) | 196.7 | 192.9 | 192.8 | 193.1 | 194.4 |
+| 4G/5G subscribers (Mn) | 127.8 | 128.5 | 128.9 | 130.1 | 131.0 |
+| ARPU blended / customer ex-M2M (₹) | 167 / 180 | 172 / 186 | 174 / 190 | 177 / 195 | 178 / 198 |
+| 4G population coverage | 84.4% | 85.5% | 86.3% | 87.0% | 87.8% |
+
+**Balance sheet 30-Sep-2026 (₹ Cr):** deferred payment obligations (spectrum + AGR) **₹1,49,961 Cr** (₹1,46,974 non-current + ₹2,987 current); lease liabilities **₹49,120 Cr** (₹42,014 + ₹7,106) — up ₹6,047 Cr in six months as new tower/site leases are signed; bank/other loans ₹4,225 Cr (₹1,134 + ₹3,091; of which **bank debt ₹943 Cr** per MD&A; NCDs ₹3,300 Cr issued Dec-2025 per Q1 call); cash & bank ₹5,470 Cr (incl. current investments); trade payables ₹8,868 Cr; **total equity −₹44,298 Cr** (−₹35,758 Cr at Mar-26).
+
+**Ownership 30-Sep-2026:** Government of India **49.00%**; Vodafone Group **16.07%** and Aditya Birla Group **9.57%** (promoters 25.64%); institutions 12.23%; non-institutional 13.13% [V QR shareholding table]. (Screener shows "49.02%"; the company table says 49.00% — use the company.) **Vodafone Group is still a Vi promoter**; it exited *Indus*, not Vi.
+
+**AGR reassessment (verified this pass):** DoT communicated on/around **30-Apr-2026** that Vi's AGR dues are finalised at **₹64,046 Cr as of 31-Dec-2025**, down **₹23,649 Cr (−27%)** from the ₹87,695 Cr frozen under the Dec-2025 partial moratorium; repayment **minimum ₹100 Cr a year in FY32–FY35, the balance in six equal annual instalments FY36–FY41** [V-snip BusinessToday 30-Apr-2026, citing Vi's exchange filing; ThePrint/Deccan Herald concur]. Vi booked a ₹57,491 Cr exceptional gain in Q4 FY26 (PAT +₹51,970 Cr) [V QR]. So "5-year moratorium" in Part 1 is approximately right but the precise form is: **no meaningful AGR cash until FY32, then a 10-year schedule to FY41.**
+
+**Funding and capex (management, Q2 QR and Q1 call):**
+- Capex plan **₹45,000 Cr over three years, to FY29** ("17-5-5": coverage parity in 17 key circles; 5 other circles; 5G in urban markets) [V presentation].
+- **Funding secured "over ₹10,500 Cr till H1 FY27"** including warrants (₹1,183 Cr part-proceeds from the Aditya Birla Group), fund and non-fund-based facilities; **>₹4,000 Cr of incremental bank funding arranged in Q2 FY27**; **capex orders placed >₹13,200 Cr** (vs ₹9,000 Cr at Q1) [V QR]. Lender architecture: SBI-led consortium of 6–7 PSU banks (still being closed), Indian private banks, ECB from foreign banks [V Q1 call]. The ₹35,000 Cr figure in Part 1 is press-reported; the company names no total [V-snip].
+- Ratings: **CRISIL A−/Stable (May-2026)**, **ICRA A− (Stable) upgrade (Jun-2026)** on certain bank facilities [V Q1 call].
+- Vi's own tower sharing: "some relationship with BSNL where we do the tower sharing… no other tower sharing" [V Q1 call].
+
+**What it means for Indus (analysis):**
+- Vi added **~8,700 broadband towers in Q2 FY27** (unique towers +7,291). Indus added **7,903 co-locations and 2,869 towers** in the same quarter, and Airtel says its own new towers were only "five, six hundred sites this quarter" (Airtel Q2 call) — so **a large share of Indus's Q2 co-location adds is Vi** [E; Indus does not split by customer].
+- Vi's implied lease rentals run **~₹2,480–2,560 Cr/quarter (~₹10,000 Cr/yr)**; not all of it is paid to Indus (Altius/Elevar, BSNL and land owners also receive Vi rent) [E].
+- Vi's operating cash (cash EBITDA ₹2,498 Cr/qtr) still does not cover capex (₹3,946 Cr) plus interest; the capex is funded by the raised ₹10,500 Cr and opening cash. Counterparty risk for towercos has fallen (AGR cash deferred to FY32+, government 49%), but **growth for Indus depends on Vi's bank debt closing** before the ₹13,200 Cr of orders are exhausted (likely within 2–3 quarters at the Q2 run-rate) [E].
+- Trade receivables on Vi's books ₹2,195 Cr and trade payables ₹8,868 Cr — Vi is not stretching suppliers further (payables flat QoQ) [V].
+
+### 4.2.7 Altius Telecom Infrastructure Trust (reference peer) — FY26 annual report + H1 FY27 presentation [V Altius AR FY26; V Altius investor presentation 12-Nov-2026; V BSE intimations 6-Aug and 2-Sep-2026]
+
+**Full FY26 P&L (consolidated, Ind AS) — fills §H item 4**
+
+| ₹ Mn | FY26 | FY25 | Note |
+|---|---|---|---|
+| Revenue from operations | **2,41,650** | ~1,94,560 [E: 99.14% of total income] | +24.1% (FY25 had 201 days of Elevar) |
+| Total income | 2,44,261 | 1,96,237 | |
+| EBITDA (revenue − network opex − employee − other) | **99,471** | ~79,400 [E from growth] | +25.3%; **41.2% margin on gross revenue** |
+| Adjusted revenue (ex energy/other recoveries, site-rent reimbursement, Ind AS 116) | 1,22,623 | ~97,940 [E from growth] | +25.2% |
+| Cash EBITDA (EBITDA − lease payments − revenue-equalisation reserve) | 83,014 | ~69,820 [E from growth] | +18.9%; **67.7% of adjusted revenue** |
+| Profit before tax (after exceptional ₹149 Mn) | 13,209 | 9,238 | |
+| Tax (current 4,502; deferred credit −2,375) | 2,143 | 839 | |
+| **Profit after tax** | **11,066** | 8,399 | 4.6% of revenue — heavy D&A and interest |
+| NDCF (net distributable cash flow) | 47,610 | — | |
+| Distributions | 47.7 bn | 57.5 bn | FY25 incl. Elevar opening cash |
+| DPU | ₹15.6 | ₹19.6 | (₹10.3 return on capital + ₹5.3 return of capital in FY26) |
+| NAV per unit (fair value) | **₹170.77** | ₹139.28 | +22.6%; 3,047 Mn units |
+| AUM (fair value of assets) | ₹9,71,880 Mn | — | |
+| Net debt / AUM | 45.23% | — | cap 70% |
+
+- **Gross-revenue view:** Altius's Ind AS revenue ₹24,165 Cr vs adjusted ₹12,262 Cr ⇒ **~₹11,900 Cr (49%) is energy/other recoveries and site-rent reimbursement**. That replaces the "₹5,000–7,000 Cr [E]" pass-through guess in Part 1 §2.1 — Altius's gross revenue is ~74% of Indus's ₹32,493 Cr, not ~55%.
+- **Revenue split by SPV (FY26, Ind AS revenue):** **Summit ₹1,40,634 Mn (58.2%)**, **Elevar ₹95,757 Mn**, **Crest ₹5,259 Mn**.
+- **Sites and tenancies by SPV (31-Mar-2026):**
+
+| SPV | Towers / sites | Tenancies | Tenancy ratio [E] | Anchor |
+|---|---|---|---|---|
+| Summit Digitel (ex-Reliance Jio Infratel) | **1,74,451** | **1,86,525** | **1.07×** | Reliance Jio, 30-yr non-cancellable MSA |
+| Elevar Digitel (ex-ATC India; acquired 12-Sep-2024) | **76,018** | **1,20,014** | **1.58×** | Multi-tenant (Airtel, Vi, Jio) |
+| Crest Digitel (IBS / small cells, built-to-suit) | 7,642 | 8,812 | 1.15× | Venue-based |
+| **Total** | **2,58,111** | **3,15,351** | **1.22×** | |
+
+- **Customer concentration:** three operators each ≥10% of revenue together **90%** of FY26 revenue; **82.11%** of revenue from AAA-rated tenants (i.e., Jio + Airtel; Vi is A−) ⇒ **Vi ≈ up to ~18% of Altius revenue** [E: 100 − 82.11, an upper bound since BSNL/others are in the residual]. Trade receivables: "Customer X" 34%, "Customer Z" 34%, "Customer A" 22% (Mar-26). Elevar receivables >3 years ₹153 Mn "backed by a party through separate arrangement" (likely the ATC/Vi arrangement) [V AR].
+- **Valuer's cost of capital (Mar-26):** Rf 6.90%, ERP 7%; **Summit WACC 8.79%** (beta 0.56; anchored MSA), **Elevar WACC 12.03% (beta 1.35, taken from Indus Towers)**, Crest 13.91% [V AR valuation report]. This is an independent, regulator-filed estimate of the market risk of a multi-tenant towerco like Indus — useful for the writer's valuation section.
+
+**H1 FY27 update (12-Nov-2026 presentation):**
+
+| ₹ Mn | Q2 FY27 | Q2 FY26 | YoY | H1 FY27 | H1 FY26 | YoY |
+|---|---|---|---|---|---|---|
+| Adjusted revenue | 31,673 | 30,540 | +3.7% | 63,208 | 61,018 | +3.6% |
+| Cash EBITDA | 21,948 | 20,759 | +5.7% | 43,357 | 41,168 | +5.3% |
+
+- Sites 258k+ (flat since FY25), **tenancies 316k+**, tenancy 1.2×, employees 1,350+ (30-Sep-2026). **WALE ~15.4 years** (45% of tenancies locked up to 10 years, remaining 4.9 yrs; 55% locked up to 30 years, remaining 23.9 yrs).
+- **Debt:** gross ₹449 bn (NCDs ₹266 bn of which FPI ₹79 bn; term loans ₹126 bn; Summit US$500 m bond); **cost of debt 8.16%** (FPI 7.76%); 75% fixed; closing cash ₹13.2 bn; **net debt/AUM 44.9%**; AAA/Stable (CRISIL, CARE); USD bond BBB−/Stable (S&P, Fitch). ~14% of AUM across India's 26 listed InvITs.
+- **Counterparty note:** Altius highlights that "one of the key counterparties" (Reliance) has group ratings Baa1/A−/A− above India's sovereign.
+- **Growth comparison:** Q2 FY27 Altius adjusted revenue +3.7% YoY vs **Indus sharing revenue +3.8%** — the two landlords are growing at the same pace; Altius cash EBITDA grows faster (+5.7%) on cost control.
+
+**Corporate events (new, not in Parts 1–3):**
+1. **IPO / conversion to a publicly listed InvIT.** On **6-Aug-2026** the investment manager filed a **Draft Offer Document with SEBI** to convert Altius from a privately listed to a **publicly listed InvIT** via a fresh issue plus an offer for sale (unitholder approval 21-Apr-2026; ten book-runners incl. JM Financial, Kotak, Jefferies, Citi, SBI Caps) [V BSE intimation]. When listed, Altius becomes a **traded valuation benchmark for Indus** (yield and EV/EBITDA).
+2. **Sponsor sell-down.** Brookfield's **BIF IV Jarvis India** sold **52.03 crore units on-market on 2-Sep-2026** (plus 2.5 lakh units on 1-Sep), cutting its holding from **45.34% to 28.26%**; the disclosure's value column reads ~₹85,845 Mn (≈₹165/unit, vs NAV ₹170.77) [V BSE intimation; value parsed from a table — verify before printing]. **La Caisse (CDPQ Infrastructures Asia III)** now appears in the investor list alongside GIC (Anahera) and BCI [V presentation].
+3. The ATC India price: Altius's documents do not restate it; Part 2's ₹18,200 Cr (AMT 10-K) remains the best figure [V-snip].
+
+### 4.2.8 Bharti Airtel (parent) — read-across from the Q2 FY27 call (6-Nov-2026) [V transcript filed 12-Nov-2026: https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ff3e14f-7e97-4074-89c7-049408721c5e.pdf]
+- **Indus is ~6% of Airtel's consolidated revenue** (Africa ~30.5%, India mobile ~51%, India non-mobile ~13%).
+- **Airtel's own new-tower build has collapsed:** "if you look at the new towers being installed, it is almost very little now… less than 1,000, in the ballpark of five, six hundred sites… this quarter"; radio capex has "moderated". ⇒ **Indus's Airtel-driven tower growth is now mostly in-sourcing of expired third-party tenancies and 5G loading, not new Airtel sites**; Vi is the volume driver.
+- **Indus priorities as seen by the parent:** adopting Airtel's workforce-management platform (Xtelify) and "a goal to eliminate diesel from sites" via solar and battery banks; Indus's Africa expansion "will further bolster value creation for Africa business" (i.e., the Africa capex serves Airtel Africa's cost base).
+- **Capital allocation:** "We have already announced a potential, continued buyback in Airtel Africa. We have also done that in Indus, so that will continue… dividend payouts will keep increasing over time" (Executive Vice Chairman). Wording is ambiguous — it may refer to Airtel's creeping purchases of Indus shares (board approved up to a further 5%, per ICRA Nov-2025) or to Indus buybacks; flag rather than interpret.
+- Q2 dividends by Indus, Airtel and Airtel Africa were "very large" and held up Airtel's gross-debt reduction.
+
+### 4.2.9 Indus — broker views on the Jio renewal (triangulation; all [V-snip], pre-Q2 results)
+- **Motilal Oswal:** ~5,000 Jio tenancy exits in H2 FY27 ≈ **~10% of Jio's Indus portfolio** ⇒ Jio ≈ **~50,000 Indus tenancies ≈ 11% of 4.40 lakh co-locations** [E] — consistent with the 12–13% revenue estimate.
+- **Emkay:** Jio renewal uncertainty "can impact up to 15% of the revenue".
+- **Jefferies (downgrade to Underperform):** no extra discount assumed but **25% of Jio sites not renewed**.
+- Source: https://compoundingai.in/market-news/industower-q2-fy27-earnings-call ; https://www.business-standard.com/markets/news/why-motilal-oswal-sees-indus-towers-risk-reward-as-uncompelling-at-cmp-125121900132_1.html ; https://www.pulse.bot/finance/news/indus-towers-jefferies-cuts-rating-to-underperform-gives-reasons-for-bear-outlook-8425eff9-de37-4e33-a5f9-a012564a37fb/
+- **Primary-source corroboration (new):** Indus's undiscounted future lease receipts fell from ₹12,81,319 Mn (Mar-25) to ₹12,20,537 Mn (Mar-26) and ₹11,92,303 Mn (Sep-26), and the >5-year bucket fell 13% in FY26 [V AR note 39; V QR] — consistent with a material customer not having renewed long-dated contracts.
+
+---
+
+## 4.3 Industry data upgraded from primary sources (chart-ready)
+
+### 4.3.1 India network stock (DoT / PIB) — replaces the [V-snip] DoT figures
+Source: PIB, "2025 Year End Review for Department of Telecommunications", 19-Dec-2025, PDF on dot.gov.in — https://www.dot.gov.in/static/uploads/2026/02/ad331286066f76c0742f08849e9d64e9.pdf (fetched) [V]
+
+| Metric | Value | As of | Note |
+|---|---|---|---|
+| Mobile towers | **8.43 lakh** | 31-Oct-2025 | Total, all owners (incl. BSNL/MTNL, captive, poles not defined) |
+| Mobile BTS (all technologies) | **31.44 lakh** | 31-Oct-2025 | |
+| Towers / BTS mapped on PM Gati Shakti NMP | ~8.40 lakh / ~31.31 lakh | Dec-2025 | Same order; GIS mapping |
+| 5G BTS | **5.08 lakh** | ~Nov-2025 (year-end review) | |
+| Optical fibre (route km) | **42.36 lakh** (19.35 lakh in 2019) | Sep-2025 | |
+| RoW approval time (DoT portal) | **~34 days** (448 days in 2019); ~25% of applications within 15 days; 3.81 lakh tower/OFC applications disposed | Nov-2025 | RoW Rules 2024 effective 1-Jan-2025 |
+| Tele-density | 86.65% | Sep-2025 | |
+| FDI equity inflow, telecom | US$746 Mn | FY25 | |
+
+No 2026 DoT total-tower count was found (searched DoT, PIB, TRAI); 8.43 lakh (Oct-2025) remains the latest official total.
+
+**5G BTS series (lakh):** 5.08 (≈Nov-25, PIB) [V] → 5.19 (Dec-25) [V-snip] → 5.22 (Jan-26, 5,21,729) [V-snip telecomtalk] → 5.23 (28-Feb-26) [V-snip] → **5.63 (30-Jun-26; 5,62,971 per government statement; Indus Q1 call "563,000")** [V Indus Q1 transcript; V-snip indianinfrastructure] → **5.93 (30-Sep-26; 5,93,244)** [V Indus QR Q2 FY27]. Additions: ~+32k in Q1 FY27 and ~+30k in Q2 FY27 — **5G build has re-accelerated in 2026 (≈10k/month vs ≈3–6k/month in late 2025)**, consistent with Vi's 5G launch in 400 towns [V Vi QR].
+
+**Fibre to the tower:** ~36% of towers fiberised (Indian Infrastructure, Oct-2026; IBEF Feb-2026); the draft **National Telecom Policy 2025** sets a target of raising tower fiberisation **from 46% to 80% by 2030**; the National Broadband Mission's 70%-by-FY25 target was missed [V-snip: https://indianinfrastructure.com/2026/10/12/changing-dynamics-regulatory-reforms-6g-ambitions-and-satcom-mark-a-shift-in-sector-priorities/]. Neither Indus nor Altius discloses its fiberised share. **Still no primary DoT/TRAI number** — keep "~36–46% depending on source and date".
+
+**Subscribers:** mobile wireless 1,300.0 Mn at Sep-2026 (urban 753.9 Mn, rural 546.1 Mn); private operators 92.7% [V Indus QR Q2 FY27 citing TRAI]; 5G subscribers 463.1 Mn (Jun-2026) [V].
+
+### 4.3.2 Who owns the towers — upgraded "two landlords" table (31-Mar-2026 unless stated)
+
+| Owner | Towers / sites | Tenancies | Ratio | Rental (ex-energy) revenue FY26 ₹ Cr | Gross revenue FY26 ₹ Cr | Lease-adj./cash EBITDA FY26 ₹ Cr | Source |
+|---|---|---|---|---|---|---|---|
+| Indus Towers | 2,64,514 macro (+14,044 lean co-los) | 4,28,014 macro | 1.62 | 20,928 | 32,493 | 13,863 | [V QR Q4 FY26/Q2 FY27] |
+| Altius — Summit (Jio anchor) | 1,74,451 | 1,86,525 | 1.07 | n/a (Ind AS revenue 14,063) | 14,063 | n/a | [V Altius AR] |
+| Altius — Elevar (ex-ATC) | 76,018 | 1,20,014 | 1.58 | n/a (Ind AS revenue 9,576) | 9,576 | n/a | [V Altius AR] |
+| Altius — Crest (IBS/small cells) | 7,642 | 8,812 | 1.15 | n/a | 526 | n/a | [V Altius AR] |
+| **Altius total** | **2,58,111** | **3,15,351** | **1.22** | **12,262** | **24,165** | **8,301** | [V Altius AR] |
+| Indus + Altius | 5,22,625 | 7,43,365 | 1.42 | 33,190 | 56,658 | 22,164 | [E sum] |
+| India total (DoT) | 8,43,000 (Oct-25) | ~9,28,000 macro tenancies (Dec-25, Analysys Mason) | ~1.1 | — | — | — | [V PIB; V Altius pres] |
+
+- **Market share (towers):** Indus 2.65 lakh ÷ DoT 8.43 lakh ≈ **31%**; Altius ≈ 31%; together ≈ **62%** [E, mixed dates]. ICRA independently puts Indus at "**more than 30% in tower and more than 40% in tenancy**" (Sep-2025) [V ICRA rationale 27-Nov-2025: https://www.icra.in/Rating/GetRationalReportFilePdf?id=139276].
+- **Market share (macro tenancies):** Indus 4.28 lakh ÷ 9.28 lakh ≈ **46%**; Altius 3.15 lakh ≈ 34% (incl. IBS) ⇒ **~80% combined** [E].
+- **Elevar vs Indus:** Elevar's 1.58× tenancy is close to Indus's 1.62× — the ex-ATC estate is a genuine multi-tenant competitor, and it is the portfolio from which **Airtel is moving expired tenancies to Indus** (Q1 FY27 call; Elevar was the only large third-party host of Airtel). Summit is essentially Jio's captive estate (1.07×).
+- **Gross market incl. energy:** Indus ₹32,493 Cr + Altius ₹24,165 Cr = **₹56,658 Cr**, plus BSNL/independents ⇒ **India passive-infra gross revenue ≈ ₹59,000–62,000 Cr (≈US$6.2–6.5 bn)** [E] (Part 1 said ₹53,000–57,000 Cr). **Rental pool ex-energy ≈ ₹35,500–37,500 Cr** is unchanged (Altius adjusted revenue was already used).
+
+### 4.3.3 Quarterly growth of the two landlords (YoY, rental basis)
+
+| Quarter | Indus sharing revenue ₹ Cr (YoY) | Altius adjusted revenue ₹ Cr (YoY) | Indus lease-adj. EBITDA ₹ Cr | Altius cash EBITDA ₹ Cr (YoY) |
+|---|---|---|---|---|
+| Q4 FY26 | 5,306 (+5.3%) | 3,104 (+0.8%) | 3,396 | 2,105 (+6.1%) |
+| Q1 FY27 | 5,372 (+5.2%) | 3,154 [E: H1 − Q2] (+3.4% [E]) | ~3,500 [E] | 2,141 [E] (+4.9% [E]) |
+| Q2 FY27 | 5,441 (+3.8%) | **3,167 (+3.7%)** | 3,506 | **2,195 (+5.7%)** |
+[V Indus QR; V Altius presentations 11-May-2026 and 12-Nov-2026]
+
+### 4.3.4 Vodafone Idea network build (the sector's growth driver) [V Vi QR Q2 FY27]
+Unique towers (EoP): Sep-25 1,98,428 → Dec-25 2,03,555 → Mar-26 2,06,981 → Jun-26 2,09,269 → **Sep-26 2,16,560**; unique broadband towers 1,91,096 → 2,13,616 (+22,520 in 12 months); broadband sites 5,27,012 → 6,10,521; quarterly capex ₹1,750 Cr (Q2 FY26) → ₹1,930 Cr (Q1 FY27) → **₹3,946 Cr (Q2 FY27)**. Q2 FY27 Vi added **~8,700 broadband towers vs Indus +7,903 co-locations**.
+
+### 4.3.5 Energy inputs
+- **Retail diesel, Delhi:** ₹87.67/litre (to mid-May 2026) → **₹95.20** after four hikes 15–25-May-2026; **unchanged at ₹95.20 through at least 10-Sep-2026** (no later change found) [V-snip BusinessToday fuel-price page; hdfcsky 10-Sep-2026]. Bulk/industrial diesel +₹22.02 to ₹109.59/litre on 20-Mar-2026 [V-snip]. PPAC price-build-up data not fetched (site not reachable via search) — §H item 11 remains partly open.
+- **Indus energy cost per tower per month (₹):** Q2 FY26 40,523 → Q2 FY27 **39,437** (−2.7% YoY) despite the diesel shock — diesel litres −11% YoY, solar 49,001 sites [V QR/call].
+- **Grid tariff:** AR FY26 shows one DISCOM's 2016 reclassification of towers from Industrial to Commercial tariff (APTEL ruled for the industry in Feb-2020; DISCOM's appeal stayed by the Supreme Court in Oct-2020; DISCOM moved towers back to industrial tariff from 1-Apr-2020 under its MYT order) — customers have undertaken to reimburse any differential [V AR note 40]. Ministry of Power advisory: towers a priority consumer category; CEA Metering Amendment Regulations 2026 mandate smart meters; Green Energy Open Access operational in all states [V Q4 FY26 call]. State tariff levels per kWh not sourced.
+- **Seasonality rule (management):** energy margin weaker in H1 (monsoon disruption, diesel run-hours), better in H2 [V Q1 FY27 call].
+
+### 4.3.6 Global towercos — latest company filings (replaces most [K] cells in Part 1 §10)
+
+| Company (period) | Sites | Tenancy ratio | Revenue | Adj. EBITDA (margin) | Net leverage | Other | Source |
+|---|---|---|---|---|---|---|---|
+| **American Tower** (Q3 2026) | >147,000 | n/a | US$2,785 m (property US$2,734 m) | US$1,832 m (**65.8%**) | **4.9×** (net debt US$35,707 m) | Organic tenant billings: US & Canada 0.0%, Africa & APAC +8.2%, Europe +4.2%, LatAm −2.1%; FY26 adj. EBITDA guide US$7,248–7,303 m | [V SEC 8-K: https://www.sec.gov/Archives/edgar/data/0001053507/000105350726000154/pressreleaseq32026.htm] |
+| **SBA Communications** (Q3 2026) | **45,252** (17,340 US; 27,912 intl.) | n/a | US$713.9 m (site leasing US$665.4 m) | US$488.1 m (**68.8%**) | **6.4×** (net debt US$12,520 m) | Sold Chile & Ecuador towers (10-Sep-2026), Peru pending; FY26 adj. EBITDA US$1,918–1,928 m | [V SEC 8-K ex-99.1: https://www.sec.gov/Archives/edgar/data/0001034054/000119312526443666/d185668dex991.htm] |
+| **Crown Castle** (Q3 2026) | ~40,000 towers (US) | n/a | Site rental US$966 m (−4.5%) | US$673 m | ~6.4× [E on TTM adj. EBITDA ~US$2,742 m; net debt US$17,599 m] | **Fibre and small cells sold, closed 1-May-2026, US$8.4 bn net proceeds (Zayo; EQT)** — now a pure US towerco; DISH terminations −US$61 m in Q3; FY26 adj. EBITDA midpoint US$2,715 m | [V SEC 8-K: https://www.sec.gov/Archives/edgar/data/0001051470/000105147026000085/q32026earningsrelease.htm] |
+| **Helios Towers** (H1 2026) | **15,270** | **2.26×** (2.11× H1-25) | US$466.3 m (+11%) | US$257.0 m (**55%**) | **3.4×** | 34,455 tenancies; ROIC 14.4%; contracted revenue US$5.9 bn; FY26 adj. EBITDA guide US$520–535 m; Q3 2026 revenue ~US$252 m (+17%) [V-snip] | [V Helios H1 2026 RNS: https://www.heliostowers.com/media/5jknyjxq/helios-towers-rns-h1-2026-vfinal.pdf] |
+| **IHS Holding** (Q3 2026) | **28,599** | **1.50×** (42,941 tenants) | US$490.5 m (+21.4%; Nigeria US$359.4 m) | US$282.7 m (~58% [E]) | n/a | **Being acquired by MTN Group for US$8.50/share cash (agreed Feb-2026, pending)**; Latam towers sold to Macquarie (Aug-2026); I-Systems sold (May-2026); power costs up | [V SEC 6-K: https://www.sec.gov/Archives/edgar/data/0001876183/000110465926124762/ihs-20260930xex99d1.htm; tower/tenant counts V-snip from same release] |
+| **Cellnex** (9M 2026) | 187,693 points of presence | n/a | n/a | EBITDAaL €1,890 m (+5.7%) | 6.28× (FY25, IFRS 16) | Target 5–6× | [V-snip boursedirect / Cellnex FY25 release] |
+| **Indus Towers** (Q2 FY27) | 2,70,480 | 1.63× | ₹8,515 Cr (US$897 m) | ₹4,638 Cr (54.5%; 41.2% lease-adj.) | 0.97× incl. leases; net cash ex-leases | | [V QR] |
+| **Altius** (Q2 FY27) | 258k+ | 1.2× | Adjusted ₹3,167 Cr | Cash ₹2,195 Cr (69.3% of adjusted) | ~5.2× [E] | net debt/AUM 44.9% | [V Altius pres] |
+
+Read-across:
+- **US towercos' organic growth has stalled (AMT US 0.0%, CCI DISH churn, SBA US leasing slipping) while leverage is 4.9–6.4×**; emerging-market towercos are growing faster (Helios +11–17% revenue, IHS +21% in USD, AMT Africa & APAC +8.2%). Indus (+3.8% rental) sits between.
+- **Margin comparison on a like-for-like (lease-deducted) basis:** AMT 65.8%, SBA 68.8%, Helios 55%, IHS ~58% vs **Indus 64% (lease-adjusted EBITDA ÷ sharing revenue, Q2 FY27)** and Altius 69% — Indus's rental margin is at the global norm; its headline 54.5% is diluted by the energy pass-through.
+- **Leverage gap:** Indus 0.97× (incl. leases) vs 3.4–6.4× for every listed peer and ~5× for Altius ⇒ ~₹46,000–64,000 Cr of additional theoretical debt capacity at 3.5–4.5× TTM EBITDA (₹18,138 Cr), net of existing ₹17,516 Cr [E] — the arithmetic behind the shareholder's InvIT/leverage question on the Q2 call.
+- **Consolidation wave:** MTN–IHS (Africa), Crown Castle fibre exit, SBA's LatAm exits, AMT's Canada sale (US$202 m, Q4 2026 [V-snip]) — global towercos are simplifying to core tower markets, while Indus is going *into* Africa.
+
+---
+
+## 4.0 Supersedes (corrections to Parts 1–3 — writer to apply)
+
+| # | Where in Parts 1–3 | Old figure / statement | Corrected value | Source (fetched) |
+|---|---|---|---|---|
+| S1 | Trap 10; §F; Part 2 | "The CFO misspoke" — Q2 call "ROCE 25.3%" | The CFO consistently reads **pre-tax ROE** as "ROCE" (Q1 call "25.4%" = Q1 pre-tax ROE; Q2 "25.3%" = Q2 pre-tax ROE). Definitions (QR glossary): **ROCE = LTM EBIT ÷ average capital employed, CE = equity + net debt incl. lease liabilities → 19.2% standalone / 19.1% consolidated (Sep-26)**; pre-tax ROE = LTM PBT ÷ avg equity = 25.3%; post-tax ROE 18.8%. Use 19.1–19.2% | Indus QR Q2 FY27 pp. KPI table, glossary, capital-employed note; Q1/Q2 transcripts |
+| S2 | Trap 8; §A item 4; §G; Part 3 primer issue | Airtel tower purchase "~₹1,982 Cr" | **₹2,043 Cr total** (₹1,982 Cr in FY25 + ₹61 Cr true-up in FY26) for 10,093 macro towers + 2,179 lean co-locations ≈ ₹20 lakh/tower | Indus AR FY26 note 43 (slump-sale consideration ₹19,820 Mn + ₹610 Mn) |
+| S3 | §0; §A item 2; Part 2 2.2.3 | Govt stake in Vi "49.02%" | **49.00%** (Vi's own shareholding table, 30-Sep-2026); Vodafone Group **16.07%** and Aditya Birla **9.57%** remain promoters | Vi QR Q2 FY27 §5 |
+| S4 | §0; §7 table; §A item 2 | Vi AGR "₹64,046 Cr with a 5-year moratorium in 2026" | ₹64,046 Cr **as of 31-Dec-2025**, communicated ~30-Apr-2026; **min ₹100 Cr/yr FY32–FY35, balance in six equal instalments FY36–FY41**; partial moratorium approved Dec-2025; Q4 FY26 exceptional gain ₹57,491 Cr | BusinessToday 30-Apr-2026 [V-snip of Vi filing]; Vi QR Q2 FY27 (exceptional line) [V] |
+| S5 | §0; §3 item 3; Part 2 2.2.3; §H 7 | Vi "first ₹6,400 Cr bank tranche raised; SBI consortium assessing ~₹35,000 Cr; ~₹9,100 Cr capex over Q2–Q3" | ₹6,400 Cr (Q1) **included ₹1,183 Cr of promoter warrant money** and non-fund facilities; by Sep-26 **funding secured >₹10,500 Cr**, incl. **>₹4,000 Cr incremental bank funding in Q2**; **capex orders >₹13,200 Cr**; **Q2 FY27 capex ₹3,946 Cr**; bank debt ₹943 Cr; SBI-led PSU consortium (6–7 banks) not yet closed; ₹35,000 Cr is a press figure | Vi QR Q2 FY27 MD&A; Vi Q1 FY27 transcript |
+| S6 | §2.1 | Altius pass-through/energy "~₹5,000–7,000 Cr [E]" | **~₹11,900 Cr**: Altius Ind AS revenue from operations **₹24,165 Cr** − adjusted revenue ₹12,262 Cr | Altius AR FY26 |
+| S7 | §2.1; §D alternates | India incl. energy pass-through "₹53,000–57,000 Cr" | **~₹59,000–62,000 Cr** (Indus ₹32,493 Cr + Altius ₹24,165 Cr + others) [E] | Indus QR; Altius AR |
+| S8 | §5.1; Part 2 2.2.2 | Elevar "~75–78k towers [K]"; Summit split unknown | **Elevar 76,018 towers / 1,20,014 tenancies (1.58×); Summit 1,74,451 / 1,86,525 (1.07×); Crest 7,642 / 8,812** (31-Mar-2026) | Altius AR FY26 |
+| S9 | §0; §5.1; Part 2 2.2.1 | Altius "315k+ tenancies; WALE ~16 yrs (24.4 / 4.3 yrs remaining); net debt/AUM 45.23%; gross debt ₹44,800 Cr; cost 8.09%; DPU guidance ₹15.3" | At **30-Sep-2026: 316k+ tenancies; WALE ~15.4 yrs (23.9 / 4.9 yrs); net debt/AUM 44.9%; gross debt ₹44,900 Cr; cost 8.16%; 75% fixed; cash ₹1,320 Cr**. FY26 actual DPU **₹15.6**; NAV ₹170.77/unit | Altius presentation 12-Nov-2026; AR FY26 |
+| S10 | §0; §10 table ("units privately held"); §12 "any IPO of units" | Altius as an unlisted-equity InvIT with no listing plan | **Draft Offer Document filed with SEBI 6-Aug-2026 to convert to a publicly listed InvIT (fresh issue + OFS)**; Brookfield sponsor sold ~52 crore units on 2-Sep-2026 (45.34% → **28.26%**); La Caisse (CDPQ) now an investor | Altius BSE intimations 6-Aug and 2-Sep-2026; presentation 12-Nov-2026 |
+| S11 | §10; §E15 | AMT "~149k sites; margin ~60–65%; ~5× [K]" | **>147,000 sites; Q3-26 adj. EBITDA margin 65.8%; net leverage 4.9×** | AMT 8-K Q3 2026 |
+| S12 | §10 | SBA "~39–40k sites; ~70%+ margin; ~6.5× [K]" | **45,252 sites; 68.8%; 6.4×**; LatAm exits (Chile, Ecuador sold; Peru pending) | SBA 8-K Q3 2026 |
+| S13 | §10 | Crown Castle "selling fibre/small cells, 2026; ~6× [K]" | **Sale closed 1-May-2026 (US$8.4 bn net)**; ~40,000 US towers; net debt US$17,599 m ≈ 6.4× TTM [E] | CCI 8-K Q3 2026 |
+| S14 | §10; §F | Helios "~14.6k sites; 2.17×" (FY25) | **15,270 sites; 34,455 tenancies; 2.26×; 55% margin; 3.4×** (H1 2026) | Helios H1 2026 RNS |
+| S15 | §10; §H 6 | IHS "~39k sites; 1.5–1.6× [K]"; corporate status unchecked | **28,599 towers; 42,941 tenants; 1.50×** (Q3-26); **MTN Group acquiring IHS for US$8.50/share cash (agreed Feb-2026, pending)**; Latam towers sold (Aug-2026) | IHS 6-K Q3 2026 |
+| S16 | §10 | Cellnex "~110k sites; ~6× [K]" | **187,693 points of presence (Sep-26)**; 9M-26 EBITDAaL €1,890 m; leverage 6.28× (FY25) | [V-snip] boursedirect; Cellnex FY25 release |
+| S17 | §H 9; Part 3 reconciliation | Doubtful receivables "not re-verified" | Allowance **₹197 Cr at Mar-26** (₹466 Cr Mar-25); DTA-implied allowance ~₹5,700 Cr at Mar-24 — primer's ₹5,386 Cr (Mar-24) is the right order of magnitude | Indus AR FY26 notes 12, deferred tax |
+| S18 | Trap 7; §5.1; §H 1 | DoT 8.43 lakh towers / 31.44 lakh BTS tagged [V-snip] | Same values, now **[V] from the PIB/DoT year-end review PDF (19-Dec-2025)**; still the latest official count | dot.gov.in PDF |
+| S19 | §3 item 2; §E14 | 5G BTS series Dec-25 5.19 → Feb-26 5.23 → Sep-26 5.93 (gap) | Add **5.63 lakh at 30-Jun-2026** (5,62,971) — 2026 adds ~30k/quarter | Indus Q1 FY27 transcript [V]; govt statement [V-snip] |
+| S20 | §0 ("Airtel… in-sourcing tenancies"); §3 item 4 | Implied Airtel is still building | **Airtel's own new towers: "five, six hundred sites this quarter" (Q2 FY27)**; radio capex moderated ⇒ Indus's tower growth from Airtel is in-sourcing + loading; volume driver is Vi | Airtel Q2 FY27 transcript |
+| S21 | §1.1 (fibre row); §H 2 | "~36% [older DoT figure]" | Still ~36% per Oct-2026 trade press; draft **NTP-2025 baseline 46% → target 80% by 2030** — sources disagree, no primary number | [V-snip] Indian Infrastructure Oct-2026 |
+| S22 | §7 ("Payment security… Vodafone Group's contingent obligation") | Implies Vodafone left the Vi story | Vodafone Group still holds **16.07% of Vi** (promoter); its Indus-linked security fell away with the Dec-2024 exit; Indus AR states related-party and customer balances are **unsecured** except ₹557 Cr "secured, considered good" receivables (deposits/guarantees) — **no residual Vi payment-security mechanism disclosed** | Vi QR; Indus AR note 12 |
+
+---
+
+## 4.1 Verification table — 40 figures the writer will use
+
+Fetch status: "fetched" = downloaded and read on 14-Nov-2026 (Indus documents were downloaded earlier on 14-Nov by the dossier pass and re-read in full/relevant sections this pass; Vi, Altius, DoT/PIB, ICRA, Airtel and global-peer documents were fetched in this pass).
+
+| # | Figure | Value | Primary source URL | Fetched? | Agrees with Parts 1–3? |
+|---|---|---|---|---|---|
+| 1 | Indus macro towers (30-Sep-26) | 2,70,480 | https://www.industowers.com/wp-content/uploads/2026/10/Quarterly-Report_Q2FY27-1.pdf | Yes [V] | Yes |
+| 2 | Indus macro co-locations (30-Sep-26) | 4,40,153 (exits 472 in Q2) | same QR | Yes [V] | Yes |
+| 3 | Indus closing / average tenancy | 1.63 / 1.62 | same QR | Yes [V] | Yes |
+| 4 | Sharing revenue per co-location per month | ₹41,036 (Q2 FY27) | same QR | Yes [V] | Yes |
+| 5 | Q2 FY27 revenue / sharing revenue | ₹8,515 Cr / ₹5,441 Cr | same QR | Yes [V] | Yes |
+| 6 | Q2 FY27 EBITDA / margin | ₹4,638 Cr / 54.5% | same QR | Yes [V] | Yes |
+| 7 | Q2 FY27 lease-adjusted EBITDA | ₹3,506 Cr (41.2%) | same QR | Yes [V] | Yes |
+| 8 | Q2 FY27 PAT | ₹1,798 Cr (−2.2% YoY; +6.4% ex write-back) | same QR; https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1243172b-4994-4f5f-892b-6c4cf1fd854c.pdf | Yes [V] | Yes |
+| 9 | FY26 revenue / PAT | ₹32,493 Cr / ₹7,145 Cr (QR ₹7,147 Cr) | https://www.screener.in/company/INDUSTOWER/consolidated/ ; https://www.industowers.com/wp-content/uploads/2026/04/Quarterly-Report_Q4FY26-1.pdf | Yes [V] | Yes |
+| 10 | FY26 company FCF | ₹3,743 Cr | Q2 FY27 QR | Yes [V] | Yes |
+| 11 | Net debt incl. leases / net cash ex-leases (Sep-26) | ₹17,516 Cr / ₹3,436 Cr | Q2 FY27 QR | Yes [V] | Yes |
+| 12 | Pre-tax ROCE (LTM, Sep-26) | 19.2% standalone / 19.1% consolidated; pre-tax ROE 25.3% | Q2 FY27 QR (KPI table, glossary) | Yes [V] | Refines trap 10 (S1) |
+| 13 | Energy margin Q2 FY27 / Q1 / Q2 FY26 | −3.6% / −4.6% / −4.8% | Q2 FY27 transcript (BSE link row 8) | Yes [V] | Yes |
+| 14 | Diesel consumption YoY | −11% (Q2), −13% (Q1) | Q2 transcript; https://www.industowers.com/wp-content/uploads/2026/07/Earnings-Call-Transcript_Q1-FY27.pdf | Yes [V] | Yes (adds Q1) |
+| 15 | Weighted residual contract life / min. lease receivable | 5.89 yrs / ₹11,92,303 Mn | Q2 FY27 QR | Yes [V] | Yes |
+| 16 | Contracted escalation | 2.5% p.a. | https://www.bseindia.com/xml-data/corpfiling/AttachHis/b19645a0-96d6-4104-a89e-c5d03d3ab076.pdf (note 39) | Yes [V] | Yes |
+| 17 | Minimum tenor of new/renewed contracts | 10 years | Q2 transcript | Yes [V] | Yes |
+| 18 | Future undiscounted lease receipts | ₹12,20,537 Mn (Mar-26) vs ₹12,81,319 Mn (Mar-25) | AR FY26 note 39 | Yes [V] | New |
+| 19 | Airtel related-party revenue (GST-incl.) | ₹1,95,831 Mn FY26 (+11.1%); group ₹2,09,940 Mn ≈ 55% of revenue ex-GST [E] | AR FY26 note 43 | Yes [V] | Yes |
+| 20 | Airtel trade receivables owed to Indus | ₹37,111 Mn of ₹51,358 Mn gross (72%) | AR FY26 notes 12, 43 | Yes [V] | New |
+| 21 | Airtel tower purchase | 10,093 towers + 2,179 lean; ₹2,043 Cr | AR FY26 note 43; Q2 FY27 QR note 4 | Yes [V] | Corrects ₹1,982 Cr (S2) |
+| 22 | Airtel (promoter) stake | 51.26% (Sep-26) | screener INDUSTOWER | Yes [V] | Yes |
+| 23 | FY26 dividend | ₹14/share; ₹3,693.4 Cr paid Q2 FY27; no minimum payout | Q2 FY27 QR; https://www.industowers.com/wp-content/uploads/2026/04/Earnings-Call-Transcript_Q4-FY26.pdf | Yes [V] | Yes |
+| 24 | Contingent liabilities | ₹5,151 Cr (Mar-26; municipal ₹2,233 Cr, VAT/GST ₹2,169 Cr) | AR FY26 note 40 | Yes [V] | New |
+| 25 | Credit ratings | CRISIL AAA/Stable (upgraded from AA+/Pos, Jul-2025); ICRA AAA (Stable) (upgraded Nov-2025) | AR FY26 Directors' Report; https://www.icra.in/Rating/GetRationalReportFilePdf?id=139276 | Yes [V] | New |
+| 26 | Indus share of India towers / tenancies (ICRA) | >30% / >40% (Sep-25) | ICRA rationale 27-Nov-2025 | Yes [V] | Consistent with §5 |
+| 27 | Market cap / P/E (13-Nov-26) | ₹1,04,471 Cr / 14.7× | screener INDUSTOWER | Yes [V] | Yes |
+| 28 | India mobile towers / BTS | 8.43 lakh / 31.44 lakh (31-Oct-2025) | https://www.dot.gov.in/static/uploads/2026/02/ad331286066f76c0742f08849e9d64e9.pdf | Yes [V] | Yes (upgrades V-snip) |
+| 29 | India 5G BTS | 5,93,244 (Sep-26); 5,62,971 (Jun-26) | Q2 FY27 QR; Q1 FY27 transcript | Yes [V] | Yes (adds Jun-26) |
+| 30 | India mobile subscribers | 1,300.0 Mn (Sep-26); private 92.7% | Q2 FY27 QR (citing TRAI) | Yes [V] (secondary-primary) | Yes |
+| 31 | Altius sites / tenancies by SPV | 2,58,111 / 3,15,351; Summit 1,74,451 / 1,86,525; Elevar 76,018 / 1,20,014 | https://www.altiusinfra.com/media/assets/1eeaa80c-d5b1-423d-b2bb-1619183f453a-Altius_Telecom_Infrastructure_AR_2025-26_webupload_final_300626.pdf | Yes [V] | Totals yes; split new (S8) |
+| 32 | Altius FY26 adjusted revenue / cash EBITDA | ₹12,262 Cr / ₹8,301 Cr | Altius AR FY26 | Yes [V] | Yes |
+| 33 | Altius FY26 Ind AS revenue / PAT / NAV | ₹24,165 Cr / ₹1,107 Cr / ₹170.77 per unit | Altius AR FY26 | Yes [V] | New (S6) |
+| 34 | Altius Q2 FY27 adjusted revenue / cash EBITDA; net debt/AUM | ₹3,167 Cr (+3.7%) / ₹2,195 Cr (+5.7%); 44.9% | https://www.altiusinfra.com/media/assets/7fe68a05-bb00-4905-b656-e0e40ab9063d-BSE_Intimation_Investor_Presentati_Signed.pdf | Yes [V] | New (S9) |
+| 35 | Altius public-listing filing | DOD filed with SEBI 6-Aug-2026 | https://www.altiusinfra.com/media/assets/89f5059d-653d-4417-a50a-82b4cec65070-BSE_Intimation_DOD_Filing.pdf | Yes [V] | New (S10) |
+| 36 | Government stake in Vi | 49.00% | https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8adc5ae9-db39-4c25-b5a4-9771ddab9063.pdf | Yes [V] | Corrects 49.02% (S3) |
+| 37 | Vi Q2 FY27 capex / unique towers / funding secured | ₹3,946 Cr / 2,16,560 / >₹10,500 Cr | Vi QR Q2 FY27 (row 36 URL) | Yes [V] | Corrects preview figures (S5) |
+| 38 | Vi AGR dues (final) | ₹64,046 Cr (from ₹87,695 Cr); FY32–FY41 schedule | https://www.businesstoday.in/latest/corporate/story/rs23649-crore-relief-dot-trims-vodafone-ideas-agr-dues-allows-staggered-payment-till-fy41-528338-2026-04-30 | Yes, secondary [V-snip] (Vi QR confirms ₹57,491 Cr Q4 exceptional) | Yes; schedule refined (S4) |
+| 39 | Global towerco leverage / margins | AMT 4.9× / 65.8%; SBA 6.4× / 68.8%; Helios 3.4× / 55% | https://www.sec.gov/Archives/edgar/data/0001053507/000105350726000154/pressreleaseq32026.htm ; https://www.sec.gov/Archives/edgar/data/0001034054/000119312526443666/d185668dex991.htm ; https://www.heliostowers.com/media/5jknyjxq/helios-towers-rns-h1-2026-vfinal.pdf | Yes [V] | Replaces [K] (S11–S14) |
+| 40 | Jio share of Indus revenue | ~12–13% (MOSL); "up to 15%" (Emkay); ~50k tenancies implied [E] | https://compoundingai.in/market-news/industower-q2-fy27-earnings-call ; https://www.business-standard.com/markets/news/why-motilal-oswal-sees-indus-towers-risk-reward-as-uncompelling-at-cmp-125121900132_1.html | Secondary only [V-snip] | Yes; not disclosed by company |
+
+**Count: 38 of 40 rows [V] from fetched primary (or company-filed) documents; rows 38 and 40 are [V-snip].** Where two sources exist they agree (Indus QR vs screener within rounding; DoT tower count PIB vs Gati Shakti mapping 8.43 vs ~8.40 lakh; ICRA share vs our arithmetic). The one conflict — Vi govt stake 49.02% (screener) vs 49.00% (company) — resolved in favour of the company's own filing.
+
+---
+
+## 4.4 Gap log (§H items)
+
+| §H # | Item | Status | Detail / what was tried |
+|---|---|---|---|
+| 1 | India total tower count 2026 | **Partly filled** | 8.43 lakh towers / 31.44 lakh BTS now [V] from PIB/DoT PDF (31-Oct-2025); no 2026 total exists in DoT/PIB/TRAI search results. Definition (poles/RTT inclusion) still not stated |
+| 2 | Fiberisation % | **Still open** | Trade press 36% (Oct-2026) vs draft NTP-2025 baseline 46% (target 80% by 2030); no DoT/TRAI primary |
+| 3 | Indus tenant revenue mix | **Partly filled** | Airtel group ~55% re-confirmed from AR note 43 (Airtel revenue +11.1% YoY); Jio ~11–15% triangulated from MOSL/Emkay/Jefferies [V-snip]; Vi and BSNL still residual [E]. Company does not disclose |
+| 4 | Altius full P&L, Summit vs Elevar | **Filled** | AR FY26: revenue ₹24,165 Cr, EBITDA ₹9,947 Cr, PAT ₹1,107 Cr, NDCF ₹4,761 Cr, NAV ₹170.77; SPV towers/tenancies/revenue (4.2.7) |
+| 5 | ATC India deal value in ₹ | **Still V-snip** | Altius documents do not restate the price; AMT 10-K figure (₹182 bn) not re-fetched |
+| 6 | Global peer metrics | **Mostly filled** | AMT, SBA, CCI, Helios, IHS from filings [V]; Cellnex [V-snip]; EV/EBITDA multiples still aggregator snippets (no market prices fetched); IHS status = MTN acquisition pending |
+| 7 | Vi Q2 FY27 capex, cash, bank loans | **Filled** | Vi QR: capex ₹3,946 Cr, bank debt ₹943 Cr, cash & bank ₹5,470 Cr, funding >₹10,500 Cr, orders >₹13,200 Cr |
+| 8 | Vi AGR reassessment details | **Filled (secondary)** | ₹64,046 Cr as of 31-Dec-2025; FY32–FY41 schedule [V-snip of Vi filing]; Vi QR confirms ₹57,491 Cr exceptional [V] |
+| 9 | Indus doubtful receivables; Vi overdue | **Filled** | Allowance ₹197 Cr (Mar-26) vs ₹466 Cr (Mar-25); ageing table in 4.2.5; Vi-specific overdue not disclosed but non-Airtel receivables are only ~24 days of billing [E] |
+| 10 | Payment security after Vodafone exit | **Filled (negative)** | No mechanism disclosed; balances unsecured except ₹557 Cr secured receivables; Vodafone still 16.07% of Vi |
+| 11 | Grid tariff / diesel cost per site | **Partly** | Diesel path updated (₹95.20 Delhi through Sep-2026) [V-snip]; DISCOM tariff dispute and pass-through undertaking from AR [V]; state tariffs and Indus litres not disclosed; PPAC not fetched |
+| 12 | BSNL tower count / monetisation | **Still open** | Not attempted beyond search noise (BSNL "up to 60,000 more towers" headline seen, not read) — keep [K] |
+| 13 | Small independents (Tower Vision, Ascend, iBus) | **Still open** | No budget spent; keep [K] and FLAG |
+| 14 | Indus Africa KPIs | **Still open** | Subsidiaries incorporated Jan-2026 (Nigeria 15-Jan, Uganda 20-Jan, Zambia Jan-2026) [V consolidated results]; deployments started late Q2; rate cards/MSA still being finalised (Q1 call); no tower count — management promises disclosure "in subsequent quarters" |
+| 15 | ROCE conflict | **Resolved** | See S1 |
+| 16 | Airtel tower count conflict | **Resolved** | 10,093 towers; consideration ₹2,043 Cr (S2) |
+| 17 | Contract tenor conflict | **Resolved** | Min. 10 years (call); residual 5.89 yrs (QR); ICRA "average balance lock-in >6 years" (Sep-25) |
+| 18 | Altius per-site like-for-like | **Partly** | SPV split now available: Summit ₹14,063 Cr Ind AS revenue on 1.74 lakh towers; Elevar ₹9,576 Cr on 76k towers (gross revenue incl. pass-through) — Elevar earns ~₹1.05 lakh gross/tower/month vs Summit ~₹67k [E] |
+| new | Indus FY26 AR findings (RPT, MSA, contingent liabilities, ageing, KMP) | **Filled** | 4.2.5 |
+| new | Vi payments to Indus | **Still open** | Not disclosed by either company; Vi's implied lease rentals ~₹2,480 Cr/qtr cover all landlords [E] |
+
+---
+
+## 4.5 New insights the first pass missed
+
+1. **Airtel, not Vi, now dominates Indus's receivables.** At Mar-26, ₹3,711 Cr of ₹5,136 Cr gross trade receivables (72%) were owed by the parent, i.e. ~69 days of Airtel billing, versus ~24 days for all other customers combined [V AR; E]. The Vi credit problem is cured; Indus's working capital is now a related-party question.
+2. **The contract book is shrinking at the long end.** Undiscounted future lease receipts fell 4.7% in FY26 (₹1.28 → ₹1.22 lakh Cr) and to ₹1.19 lakh Cr by Sep-26; the >5-year bucket fell 13% in FY26. Combined with management's "no incremental update" on the expired portfolio and an analyst's note that residual life fell QoQ in Q2, this is the hard-data version of the Jio renewal risk [V AR; V QR; V call].
+3. **Indus's growth engine has switched from Airtel to Vi.** Airtel says its own new towers are now ~500–600 a quarter; Vi added ~8,700 broadband towers in Q2 FY27 and lifted capex to ₹3,946 Cr. Indus's Q2 tenancy uptick (1.62 → 1.63) is therefore Vi-funded — and Vi's next leg depends on the SBI-led consortium closing before its ₹13,200 Cr of orders run out [V Airtel/Vi/Indus documents; E].
+4. **Altius is about to become a listed valuation comp.** Its SEBI draft offer document (6-Aug-2026) and Brookfield's sale of ~17% of units at ≈₹165 (near NAV ₹170.77) mean the market will soon price an Indian towerco on yield. The InvIT valuer's cost of capital — **Elevar WACC 12.0% using Indus's own beta of 1.35**, vs Summit 8.8% — is a ready-made discount-rate anchor for the writer [V Altius filings/AR].
+5. **Elevar, not Summit, is Indus's real competitor.** Elevar runs 76k towers at 1.58× (close to Indus's 1.62×) with ~₹1.05 lakh gross revenue per tower per month; Summit is Jio's 1.07× captive estate. Airtel's in-sourcing of expired tenancies (Q1 call) most likely drains Elevar [V Altius AR; E].
+6. **The "ROCE 25%" headline is a recurring CFO mislabel.** Both Q1 and Q2 calls quoted pre-tax ROE as ROCE; the true pre-tax ROCE (capital employed incl. leases) is ~19% and has fallen from 29% (FY25 write-back year) [V QR].
+7. **Capital structure is the unanswered question.** Every global towerco runs 3.4–6.4× leverage; Indus runs 0.97× incl. leases. A shareholder asked for an InvIT, leverage, a buyback and a 3-year roadmap on the Q2 call — management did not answer; Airtel's Vice Chairman hinted that Indus buybacks/payouts "will continue" [V transcripts].
+8. **Contingent liabilities are creeping up via municipal levies** (₹1,722 Cr → ₹2,233 Cr in FY26), though MSAs let Indus pass confirmed levies to tenants [V AR].
+
+### New primer issues (format for primer-issues.md)
+
+### From Telecom Towers deep-research pass (2026-11-14, telecom-towers-industry.md Part 4)
+- **indus-towers.html — Airtel tower purchase value:** use **₹2,043 Cr** (₹1,982 Cr FY25 + ₹61 Cr FY26 true-up; AR FY26 note 43) for 10,093 towers + 2,179 lean co-locations, Mar-2025 (adds to the existing count/date fix).
+- **indus-towers.html — ROCE wording:** if the primer quotes "ROCE ~25%" from call commentary, replace with **pre-tax ROCE 19.1–19.2% (Sep-26 LTM, capital employed incl. leases)**; 25.3% is pre-tax ROE.
+- **indus-towers.html — competitor section:** add the Altius SPV split (Summit 1,74,451 towers at 1.07×; **Elevar 76,018 towers at 1.58×**; Crest 7,642 IBS sites) and that **Altius filed for a public listing on 6-Aug-2026**; Brookfield cut its stake to 28.26% (2-Sep-2026).
+- **indus-towers.html — customer/receivables risk:** add that Airtel owed **₹3,711 Cr (72%) of gross receivables** at Mar-26 and the doubtful-debt allowance is down to ₹197 Cr; Vi's overdue problem is resolved.
+- **indus-towers.html — growth driver:** say Airtel's own new-tower build is now ~500–600 sites/quarter (Airtel Q2 FY27 call) and that Vi added ~8,700 broadband towers in Q2 FY27 with ₹3,946 Cr capex; the tenancy uptick is Vi-led.
+- **indus-towers.html — contract book:** add that future undiscounted lease receipts fell from ₹1.28 lakh Cr (Mar-25) to ₹1.22 lakh Cr (Mar-26) and ₹1.19 lakh Cr (Sep-26).
+- **indus-towers.html — credit ratings:** CRISIL AAA/Stable (upgraded Jul-2025) and ICRA AAA (Stable) (upgraded Nov-2025) — both with explicit parent (Airtel) support; Airtel's board approved buying up to a further 5% of Indus (ICRA, Nov-2025).
+- **telecom-operators.html — Vi AGR:** state the schedule precisely: ₹64,046 Cr as of 31-Dec-2025; minimum ₹100 Cr/yr FY32–FY35, balance in six equal instalments FY36–FY41; government stake **49.00%** (company table), Vodafone Group still 16.07%.
+- **telecom-operators.html — Vi funding:** update to Q2 FY27: capex ₹3,946 Cr in the quarter; funding secured >₹10,500 Cr (incl. warrants and non-fund facilities); orders >₹13,200 Cr; bank debt ₹943 Cr; SBI-led consortium not closed.
+
+*End of Part 4.*
