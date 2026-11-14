@@ -20,3 +20,4 @@
 - **telecom-operators.html — consistent; one cross-check:** "Airtel took control of Indus in November 2024" matches (19-Nov-2024). Its Vi cash-waterfall line "tower and site lease payments ~₹10,500 Cr, mostly to Indus" is plausible against Vi ≈ 28–30% of Indus revenue (~₹9,000–9,800 Cr incl. energy) [E] — no change, but avoid implying all of it goes to Indus.
 - **General:** neither the primer nor the operators report mentions **Altius** by name, the **ATC exit (Sep-2024)**, or the **RoW Rules 2024 (effective 1-Jan-2025)**.
 
+- primer-audit (orchestrator, 2026-11-14): indus-towers.html fails hard check 'banned' and lacks main{min-width:0} (pre-existing; not fixed).
