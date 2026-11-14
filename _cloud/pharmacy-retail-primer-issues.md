@@ -29,3 +29,8 @@
 - **medplus-health.html — competition (§08):** Jan Aushadhi is now **20,149 kendras (30-Jun-2026, PIB)**, not ~18,000; Apollo's NewCo is **Apollo Healthtech Ltd** and is still awaiting NCLT sanction (petition filed after the 24-Jun-2026 meetings); Apollo guides a ~6% pro-forma EBITDA margin by Q4 FY27 (cut from 6.5–7%). Tata 1mg FY26 revenue ₹2,936 Cr with a ₹287 Cr loss; Davaindia's mature cohort earns 15–17% store EBITDA on ₹4.6 lakh/month GMV.
 - **medplus-health.html — global lens (if present):** CVS's pharmacy segment earns a **4.6%** adjusted operating margin (Q3 2026) with negative same-store sales; RD Saúde 7.8% EBITDA; Tsuruha-Welcia 3.8–4.3% operating; Yifeng 6.9% net with 30% of stores franchised. Use these to show MedPlus's ~5% is normal and that a ~12% blended margin has no precedent.
 - **trading-distribution.html (sibling, for awareness):** "the NCLT approved the scheme on 5 May 2026" — Apollo's 4-Nov-2026 filing says the NCLT-convened meetings were held on 24-Jun-2026 and a **sanction petition has been filed**; the scheme is **not yet sanctioned**. NewCo's name is Apollo Healthtech Ltd.
+
+## From Pharmacy Retail orchestrator checks (2026-11-14)
+
+- **medplus-health.html — format (primer-audit.mjs):** no `main{min-width:0}` kit grid fix (phone overflow risk). Pre-existing; not fixed (out of scope).
+- **Dossier arithmetic note for any primer refresh:** the FY26 Ind AS bridge components in the dossier (365.8 + 272.5 + 43.4 + 3.1 = 684.8) do not sum to the stated ₹678.7 Cr; re-derive from the AR before printing an exact bridge.
