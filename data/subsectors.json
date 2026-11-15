@@ -2331,6 +2331,23 @@
         "The Perion deal & roll-up"
       ],
       "published": "2026-11-15"
+    },
+    {
+      "name": "Film Exhibition",
+      "slug": "film-exhibition",
+      "file": "film-exhibition.html",
+      "sector": "Media & Entertainment",
+      "subsector": "Film Production, Distribution & Exhibition",
+      "companies": 1,
+      "accent": "#9D0208",
+      "hook": "Fewer tickets, richer seats: why India's box office hit a record ₹13,395 Cr in 2025 on 19% fewer footfalls than 2019, how Ind AS 116 turns a 14% cinema margin into 33%, and whether PVR INOX's capital-light and SMART screens can close a 6.8-screens-per-million gap.",
+      "tags": [
+        "The two EBITDAs (Ind AS 116)",
+        "Content cycle 2015–2026",
+        "Capital-light and SMART",
+        "Pricing power vs affordability"
+      ],
+      "published": "2026-11-15"
     }
   ],
   "universe": [
@@ -3010,7 +3027,7 @@
       "sector": "Media & Entertainment",
       "sub": "Film Production, Distribution & Exhibition",
       "companies": 1,
-      "report": null
+      "report": "film-exhibition.html"
     },
     {
       "sector": "Media & Entertainment",
