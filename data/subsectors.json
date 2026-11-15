@@ -2297,6 +2297,23 @@
         "Building a second DOMS"
       ],
       "published": "2026-11-15"
+    },
+    {
+      "name": "Airports",
+      "slug": "airports",
+      "file": "airports.html",
+      "sector": "Infrastructure",
+      "subsector": "Airport & Airport services",
+      "companies": 1,
+      "accent": "#3A86FF",
+      "hook": "Profits set by regulators, not traffic: how AERA's tariff formula, revenue shares of up to 45.99% to AAI, insourced duty free and city-side property drive Indian airport earnings, why GMR turned profitable in a year passengers fell, and what its debt and ~27× look-through multiple imply.",
+      "tags": [
+        "The tariff machine",
+        "Concessions and privatisation",
+        "Delhi: the 72% airport",
+        "Debt, ADP and valuation"
+      ],
+      "published": "2026-11-15"
     }
   ],
   "universe": [
@@ -2856,7 +2873,7 @@
       "sector": "Infrastructure",
       "sub": "Airport & Airport services",
       "companies": 1,
-      "report": null
+      "report": "airports.html"
     },
     {
       "sector": "Infrastructure",
