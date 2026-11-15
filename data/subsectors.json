@@ -2229,6 +2229,23 @@
         "KPI masterclass"
       ],
       "published": "2026-11-03"
+    },
+    {
+      "name": "Sanitaryware & Bath Fittings",
+      "slug": "sanitaryware",
+      "file": "sanitaryware.html",
+      "sector": "Construction Materials",
+      "subsector": "Sanitary Ware",
+      "companies": 1,
+      "accent": "#3D7EDB",
+      "hook": "Cheap gas, dear brass, deep discounts: how India's ₹20–25k crore toilet-and-tap market really makes money — the Kadi-vs-Morbi gas spread behind make-or-buy, the brass squeeze on faucets, list-to-net discounts and project sales, and why Cera holds ₹806 crore of cash.",
+      "tags": [
+        "Kadi vs Morbi gas spread",
+        "Brass and faucet margins",
+        "Discounts and project sales",
+        "KPI masterclass"
+      ],
+      "published": "2026-11-15"
     }
   ],
   "universe": [
@@ -2476,7 +2493,7 @@
       "sector": "Construction Materials",
       "sub": "Sanitary Ware",
       "companies": 1,
-      "report": null
+      "report": "sanitaryware.html"
     },
     {
       "sector": "Consumer Durables",
