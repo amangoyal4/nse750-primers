@@ -2280,6 +2280,23 @@
         "Economy players & price ladder"
       ],
       "published": "2026-11-15"
+    },
+    {
+      "name": "Stationery & Art Materials",
+      "slug": "stationery",
+      "file": "stationery.html",
+      "sector": "FMCG",
+      "subsector": "Stationary",
+      "companies": 1,
+      "accent": "#7B2CBF",
+      "hook": "The pencil that sells the shelf: how a ₹1,650-crore pencil category decides India's ₹40,000-crore-plus stationery market, why branded makers keep taking share from a 64% unbranded base, how GST 2.0's nil rate and the 2026 West Asia input shock reset margins, and what DOMS's new campus and FILA ties mean.",
+      "tags": [
+        "Pencils and the duopoly",
+        "GST 2.0 nil-rate reset",
+        "The 2026 margin break",
+        "Building a second DOMS"
+      ],
+      "published": "2026-11-15"
     }
   ],
   "universe": [
@@ -2725,7 +2742,7 @@
       "sector": "FMCG",
       "sub": "Stationary",
       "companies": 1,
-      "report": null
+      "report": "stationery.html"
     },
     {
       "sector": "Gas Transmission",
