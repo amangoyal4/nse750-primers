@@ -2348,6 +2348,23 @@
         "Pricing power vs affordability"
       ],
       "published": "2026-11-15"
+    },
+    {
+      "name": "Liquid & Gas Terminals",
+      "slug": "oil-storage",
+      "file": "oil-storage.html",
+      "sector": "Miscellaneous",
+      "subsector": "Oil Storage & Transportation",
+      "companies": 1,
+      "accent": "#386641",
+      "hook": "India's toll gates on imported energy: how port tank farms and LPG import terminals earn a fee on every tonne of cooking gas, chemicals and edible oil they never own, what the 2026 Hormuz shock exposed about thin LPG storage, and why Aegis Vopak trades at ~47× EBITDA.",
+      "tags": [
+        "LPG security after Hormuz",
+        "Port leases and concessions",
+        "Roll-up and related parties",
+        "Liquids vs gas economics"
+      ],
+      "published": "2026-11-15"
     }
   ],
   "universe": [
@@ -3051,7 +3068,7 @@
       "sector": "Miscellaneous",
       "sub": "Oil Storage & Transportation",
       "companies": 1,
-      "report": null
+      "report": "oil-storage.html"
     },
     {
       "sector": "Non - Ferrous Metals",
