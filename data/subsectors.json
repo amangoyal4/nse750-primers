@@ -2416,6 +2416,23 @@
         "The state at the counter"
       ],
       "published": "2026-11-15"
+    },
+    {
+      "name": "Telecom Towers",
+      "slug": "telecom-towers",
+      "file": "telecom-towers.html",
+      "sector": "Telecom",
+      "subsector": "Telecom - Infrastructure",
+      "companies": 1,
+      "accent": "#5E548E",
+      "hook": "Two landlords, one swing tenant: how India's towers earn from sharing, why Indus Towers and Brookfield's Altius own most of them, how Vodafone Idea's funding and Jio's expired contract set the growth path, and what negative energy margins and lease accounting do to reported EBITDA.",
+      "tags": [
+        "Two landlords and the Jio renewal",
+        "Vi, the swing tenant",
+        "What EBITDA really is",
+        "KPI masterclass"
+      ],
+      "published": "2026-11-15"
     }
   ],
   "universe": [
@@ -3251,7 +3268,7 @@
       "sector": "Telecom",
       "sub": "Telecom - Infrastructure",
       "companies": 1,
-      "report": null
+      "report": "telecom-towers.html"
     },
     {
       "sector": "Textile",
