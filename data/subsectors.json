@@ -2365,6 +2365,23 @@
         "Liquids vs gas economics"
       ],
       "published": "2026-11-15"
+    },
+    {
+      "name": "Zinc & Silver",
+      "slug": "zinc",
+      "file": "zinc.html",
+      "sector": "Non - Ferrous Metals",
+      "subsector": "Zinc",
+      "companies": 1,
+      "accent": "#6D6875",
+      "hook": "The miner keeps what smelters lose: why record-low treatment charges are sinking custom smelters while integrated Hindustan Zinc runs 62% margins, how silver became nearly half the profit and then halved in price, what the state takes, and who owns the cash.",
+      "tags": [
+        "Treatment charges & integration",
+        "Silver: the second engine",
+        "Who owns the cash machine",
+        "Doubling plan, reserves & leases"
+      ],
+      "published": "2026-11-15"
     }
   ],
   "universe": [
@@ -3092,7 +3109,7 @@
       "sector": "Non - Ferrous Metals",
       "sub": "Zinc",
       "companies": 1,
-      "report": null
+      "report": "zinc.html"
     },
     {
       "sector": "Paper",
