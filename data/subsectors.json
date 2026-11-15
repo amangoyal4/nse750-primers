@@ -2314,6 +2314,23 @@
         "Debt, ADP and valuation"
       ],
       "published": "2026-11-15"
+    },
+    {
+      "name": "Digital Advertising & Adtech",
+      "slug": "adtech",
+      "file": "adtech.html",
+      "sector": "IT",
+      "subsector": "Advertising & Media Agencies",
+      "companies": 1,
+      "accent": "#F72585",
+      "hook": "Outcomes in a walled-garden world: how India's ₹1.5 lakh crore ad market went 63% digital, why Google and Meta keep about two-thirds of it, and how Affle 3i's pay-per-conversion model, its gross-margin squeeze and the US$420 mn Perion deal fit in.",
+      "tags": [
+        "Walled gardens vs independents",
+        "Privacy, consent & regulation",
+        "CPCU unit economics",
+        "The Perion deal & roll-up"
+      ],
+      "published": "2026-11-15"
     }
   ],
   "universe": [
@@ -2951,7 +2968,7 @@
       "sector": "IT",
       "sub": "Advertising & Media Agencies",
       "companies": 1,
-      "report": null
+      "report": "adtech.html"
     },
     {
       "sector": "IT",
