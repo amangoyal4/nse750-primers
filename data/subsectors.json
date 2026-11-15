@@ -2246,6 +2246,23 @@
         "KPI masterclass"
       ],
       "published": "2026-11-15"
+    },
+    {
+      "name": "Microfinance",
+      "slug": "microfinance",
+      "file": "microfinance.html",
+      "sector": "Finance",
+      "subsector": "Microfinance Institutions",
+      "companies": 1,
+      "accent": "#B5179E",
+      "hook": "The bust, the guardrails, the rebuild: how India's ₹3.3 lakh crore microfinance industry lost a quarter of its book in seven quarters, why MFIN's three-lender and ₹2 lakh caps and state laws rewired lending, and why CreditAccess Grameen came through with record profits.",
+      "tags": [
+        "2024–26 crisis anatomy",
+        "KPI masterclass",
+        "Quality premium",
+        "Retail-finance pivot"
+      ],
+      "published": "2026-11-15"
     }
   ],
   "universe": [
@@ -2607,7 +2624,7 @@
       "sector": "Finance",
       "sub": "Microfinance Institutions",
       "companies": 1,
-      "report": null
+      "report": "microfinance.html"
     },
     {
       "sector": "FMCG",
