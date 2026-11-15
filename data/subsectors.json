@@ -2399,6 +2399,23 @@
         "Holding company and governance"
       ],
       "published": "2026-11-15"
+    },
+    {
+      "name": "Pharmacy Retail",
+      "slug": "pharmacy-retail",
+      "file": "pharmacy-retail.html",
+      "sector": "Retailing",
+      "subsector": "Pharmacy Retail",
+      "companies": 1,
+      "accent": "#2A9D8F",
+      "hook": "The chemist's counter goes corporate: how India's ₹2.46 lakh crore medicine market is shifting from family chemists to chains like MedPlus and Apollo, why private label is the only real margin lever, why the 11.9% mature-store margin is an illusion, and how wages, NPPA caps and Jan Aushadhi squeeze the 20% trade margin.",
+      "tags": [
+        "The private-label pendulum",
+        "The 11.9% illusion",
+        "Two ways to own a pharmacy chain",
+        "The state at the counter"
+      ],
+      "published": "2026-11-15"
     }
   ],
   "universe": [
@@ -3204,7 +3221,7 @@
       "sector": "Retailing",
       "sub": "Pharmacy Retail",
       "companies": 1,
-      "report": null
+      "report": "pharmacy-retail.html"
     },
     {
       "sector": "Ship Building",
