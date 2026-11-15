@@ -2263,6 +2263,23 @@
         "Retail-finance pivot"
       ],
       "published": "2026-11-15"
+    },
+    {
+      "name": "Home Care",
+      "slug": "household-products",
+      "file": "household-products.html",
+      "sector": "FMCG",
+      "subsector": "Household Products",
+      "companies": 1,
+      "accent": "#6A994E",
+      "hook": "Crude costs, a price war, a lost licence: how a West Asia LABSA shock halved Jyothy Labs' margin while HUL bought volume, why detergents and insecticides stayed at 18% GST, what losing Pril and Fa means, and where Ghadi, Nirma and illegal mosquito sticks fit.",
+      "tags": [
+        "Detergent cost stack & LAB chain",
+        "Dishwash & the Pril exit",
+        "Mosquito economy & illegal sticks",
+        "Economy players & price ladder"
+      ],
+      "published": "2026-11-15"
     }
   ],
   "universe": [
@@ -2696,7 +2713,7 @@
       "sector": "FMCG",
       "sub": "Household Products",
       "companies": 1,
-      "report": null
+      "report": "household-products.html"
     },
     {
       "sector": "FMCG",
