@@ -2382,6 +2382,23 @@
         "Doubling plan, reserves & leases"
       ],
       "published": "2026-11-15"
+    },
+    {
+      "name": "Power Trading",
+      "slug": "power-trading",
+      "file": "power-trading.html",
+      "sector": "Power",
+      "subsector": "Power Trading",
+      "companies": 1,
+      "accent": "#DC2F02",
+      "hook": "A paisa-thin toll, squeezed by exchanges: how India's power traders keep 3 paise on a ₹175 unit, why exchanges took 60% of the short-term market, what market coupling, the ₹10 price cap and on-time discom payments mean for margins, and what PTC India's cash, PFS stake and NTPC promoter shift are worth.",
+      "tags": [
+        "Earnings stack: 1 paisa on 1 BU",
+        "Exchanges vs traders",
+        "Cross-border hydropower",
+        "Holding company and governance"
+      ],
+      "published": "2026-11-15"
     }
   ],
   "universe": [
@@ -3145,7 +3162,7 @@
       "sector": "Power",
       "sub": "Power Trading",
       "companies": 1,
-      "report": null
+      "report": "power-trading.html"
     },
     {
       "sector": "Ratings",
